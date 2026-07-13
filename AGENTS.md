@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário e persistência local estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local e sincronização de respostas estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -101,7 +101,14 @@ npm run preview
 - Cada resposta local mantém documento atual, snapshot-base, metadados remotos, IDs sujos, outbox, tentativas, erro e aviso de conflito.
 - Toda seleção e finalização deve concluir a transação IndexedDB antes de anunciar salvamento local.
 - Trocar de alias nunca reutiliza respostas do perfil anterior; pendências exigem sincronização online ou descarte explícito offline.
-- Preserve o coordenador único, merge por questão e remote-wins descritos no plano.
+- `src/lib/kv-client.ts` é o único cliente do KV: usa `fetch`, timeout, limite operacional de corpo e retry limitado para 429, sem `Authorization`.
+- `src/lib/sync.ts` coordena uma fila serial limitada a duas requisições por segundo, protegida por lease IndexedDB e acordada entre abas por `BroadcastChannel`.
+- O catálogo estático `/sync-catalog.json` fornece schemas editoriais ao coordenador; ele não contém identidade nem estado do usuário.
+- Todo JSON remoto é validado antes do merge; documento malformado vai para quarentena e nunca substitui estado local válido.
+- O merge é por questão: mudança local exclusiva usa local, remota exclusiva usa remoto e conflito na mesma questão usa o último remoto observado.
+- O PUT sempre envia o documento completo mais recente. Uma edição local concluída durante o PUT permanece pendente e não é apagada pela confirmação remota.
+- Saltos de versão, regressão e mudança de `created_at` geram aviso; não alegue recuperação ou sincronização perfeita.
+- Gatilhos atuais: seleção/finalização, inicialização, `online`, foco, visibilidade, retry manual e troca de perfil.
 - Não declare sincronização perfeita, pois a API não possui compare-and-set.
 
 ## PWA e Cloudflare

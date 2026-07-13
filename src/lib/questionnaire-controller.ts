@@ -1,6 +1,6 @@
 import type { Question, QuestionSet } from './content-schema';
 import { buildAnswerDocumentId, getActiveAlias } from './identity';
-import { loadAnswerDocument, saveAnswerDocumentSnapshot } from './offline-db';
+import { getLocalAnswerRecord, saveAnswerDocumentSnapshot } from './offline-db';
 import { buildQuestionSeed, deterministicQuestionOrder } from './question-order';
 import {
   createEmptyAnswerDocument,
@@ -12,6 +12,7 @@ import {
   type CorrectionMode,
   type QuestionLayout,
 } from './questionnaire';
+import { requestProfileSync, synchronizeAnswerDocument } from './sync';
 
 export interface QuestionnaireConfig {
   questionSet: QuestionSet;
@@ -135,6 +136,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
           ? 'Resposta salva localmente. A finalização anterior foi invalidada.'
           : 'Resposta salva localmente e adicionada à fila de sincronização.';
       }
+      void requestProfileSync(profileId);
     } catch {
       status.textContent = 'Não foi possível salvar a resposta localmente. Tente novamente.';
     }
@@ -257,25 +259,42 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       await queueSnapshot(documentState);
       render();
       status.textContent = `Finalizado: ${score.correct} de ${score.total} respostas corretas.`;
+      void requestProfileSync(profileId);
     } catch {
       documentState = previousState;
       status.textContent = 'Não foi possível salvar a finalização localmente. Tente novamente.';
     }
   });
 
-  const storedDocument = await loadAnswerDocument(documentId);
-  if (storedDocument) {
-    const reconciled = reconcileAnswerDocument(storedDocument, config.questionSet);
-    const changed = JSON.stringify(reconciled) !== JSON.stringify(storedDocument);
+  const storedRecord = await getLocalAnswerRecord(documentId);
+  if (storedRecord) {
+    const reconciled = reconcileAnswerDocument(storedRecord.current, config.questionSet);
+    const changed = JSON.stringify(reconciled) !== JSON.stringify(storedRecord.current);
     documentState = reconciled;
 
     if (changed) {
-      const affectedIds = [...new Set([...Object.keys(storedDocument.answers), ...Object.keys(reconciled.answers)])];
+      const affectedIds = [...new Set([...Object.keys(storedRecord.current.answers), ...Object.keys(reconciled.answers)])];
       await queueSnapshot(reconciled, affectedIds);
     }
 
-    status.textContent = 'Respostas restauradas deste dispositivo.';
+    status.textContent = storedRecord.conflictWarning ?? 'Respostas restauradas deste dispositivo.';
   }
 
   render();
+
+  window.addEventListener('concursos:answer-synced', (event) => {
+    const syncedDocumentId = (event as CustomEvent<{ documentId: string }>).detail.documentId;
+    if (syncedDocumentId !== documentId) return;
+
+    void getLocalAnswerRecord(documentId).then((record) => {
+      if (!record) return;
+      documentState = reconcileAnswerDocument(record.current, config.questionSet);
+      render();
+      status.textContent = record.conflictWarning ?? 'Respostas locais e remotas reconciliadas.';
+    });
+  });
+
+  if (navigator.onLine) {
+    void synchronizeAnswerDocument(profileId, documentId, config.questionSet).catch(() => undefined);
+  }
 }

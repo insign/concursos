@@ -44,6 +44,7 @@
     isAliasEasyToGuess,
     PendingProfileChangeError,
   } from '../lib/identity';
+  import { syncPendingProfile } from '../lib/sync';
 
   document.querySelectorAll<HTMLFormElement>('[data-identity-form]').forEach((form) => {
     const aliasInput = form.elements.namedItem('alias') as HTMLInputElement;
@@ -71,6 +72,7 @@
       try {
         await changeActiveAlias(aliasInput.value, {
           discardPending: discardInput.checked,
+          synchronize: syncPendingProfile,
         });
         status.textContent = isAliasEasyToGuess(aliasInput.value)
           ? 'Alias salvo. Considere usar um valor menos previsível.'

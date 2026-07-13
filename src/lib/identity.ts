@@ -74,7 +74,7 @@ export function getActiveAlias(): string | null {
 export interface ChangeAliasOptions {
   discardPending?: boolean;
   online?: boolean;
-  synchronize?: (profileId: string) => Promise<void>;
+  synchronize?: (profileId: string) => Promise<unknown>;
 }
 
 export async function changeActiveAlias(nextAlias: string, options: ChangeAliasOptions = {}): Promise<void> {

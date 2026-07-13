@@ -19,6 +19,7 @@ export interface LocalAnswerRecord {
   nextAttemptAt: number | null;
   lastError: string | null;
   conflictWarning: string | null;
+  localRevision: number;
   updatedAt: number;
 }
 
@@ -147,6 +148,7 @@ export function saveAnswerDocumentSnapshot(input: SaveAnswerSnapshot): Promise<L
       nextAttemptAt: null,
       lastError: null,
       conflictWarning: existing?.conflictWarning ?? null,
+      localRevision: (existing?.localRevision ?? 0) + 1,
       updatedAt: Date.now(),
     };
 
@@ -158,8 +160,143 @@ export function saveAnswerDocumentSnapshot(input: SaveAnswerSnapshot): Promise<L
   return trackWrite(write);
 }
 
+export interface StoreRemoteAnswerInput {
+  profileId: string;
+  documentId: string;
+  document: AnswerDocument;
+  remoteVersion: number;
+  remoteCreatedAt: string | null;
+  conflictWarning?: string | null;
+}
+
+export function storeRemoteAnswerDocument(input: StoreRemoteAnswerInput): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('responses', 'readwrite');
+    await transaction.store.put({
+      documentId: input.documentId,
+      profileId: input.profileId,
+      current: input.document,
+      base: input.document,
+      remoteVersion: input.remoteVersion,
+      remoteCreatedAt: input.remoteCreatedAt,
+      dirtyQuestionIds: [],
+      outboxState: 'clean',
+      attempts: 0,
+      nextAttemptAt: null,
+      lastError: null,
+      conflictWarning: input.conflictWarning ?? null,
+      localRevision: 0,
+      updatedAt: Date.now(),
+    });
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
 export async function listPendingAnswerRecords(profileId: string): Promise<LocalAnswerRecord[]> {
   return (await openOfflineDb()).getAllFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']);
+}
+
+export interface MarkAnswerSyncedInput {
+  documentId: string;
+  expectedLocalRevision: number;
+  synchronizedDocument: AnswerDocument;
+  remoteVersion: number;
+  remoteCreatedAt: string | null;
+  conflictWarning: string | null;
+}
+
+export function markAnswerSynced(input: MarkAnswerSyncedInput): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('responses', 'readwrite');
+    const existing = await transaction.store.get(input.documentId);
+    if (!existing) {
+      await transaction.done;
+      return;
+    }
+
+    const changedDuringRequest = existing.localRevision !== input.expectedLocalRevision;
+    await transaction.store.put({
+      ...existing,
+      current: changedDuringRequest ? existing.current : input.synchronizedDocument,
+      base: input.synchronizedDocument,
+      remoteVersion: input.remoteVersion,
+      remoteCreatedAt: input.remoteCreatedAt,
+      dirtyQuestionIds: changedDuringRequest ? existing.dirtyQuestionIds : [],
+      outboxState: changedDuringRequest ? 'pending' : 'clean',
+      attempts: 0,
+      nextAttemptAt: null,
+      lastError: null,
+      conflictWarning: input.conflictWarning,
+      updatedAt: changedDuringRequest ? existing.updatedAt : Date.now(),
+    });
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
+export function markAnswerSyncError(documentId: string, message: string, nextAttemptAt: number | null): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('responses', 'readwrite');
+    const existing = await transaction.store.get(documentId);
+    if (existing) {
+      await transaction.store.put({
+        ...existing,
+        attempts: existing.attempts + 1,
+        nextAttemptAt,
+        lastError: message,
+      });
+    }
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
+export function acquireSyncLease(name: string, ownerId: string, ttlMs: number, now = Date.now()): Promise<boolean> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('leases', 'readwrite');
+    const existing = await transaction.store.get(name);
+    if (existing && existing.ownerId !== ownerId && existing.expiresAt > now) {
+      await transaction.done;
+      return false;
+    }
+
+    await transaction.store.put({ name, ownerId, expiresAt: now + ttlMs });
+    await transaction.done;
+    return true;
+  })();
+
+  return trackWrite(write);
+}
+
+export function releaseSyncLease(name: string, ownerId: string): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('leases', 'readwrite');
+    const existing = await transaction.store.get(name);
+    if (existing?.ownerId === ownerId) await transaction.store.delete(name);
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
+export function quarantineRemoteDocument(record: Omit<QuarantineRecord, 'id' | 'quarantinedAt'>): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('quarantine', 'readwrite');
+    await transaction.store.add({ ...record, quarantinedAt: Date.now() });
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
 }
 
 export async function hasPendingOutbox(profileId: string): Promise<boolean> {
@@ -189,6 +326,7 @@ export function discardPendingProfile(profileId: string): Promise<void> {
         nextAttemptAt: null,
         lastError: null,
         conflictWarning: null,
+        localRevision: record.localRevision + 1,
         updatedAt: Date.now(),
       });
     }

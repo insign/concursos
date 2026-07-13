@@ -81,6 +81,49 @@ a:hover {
   font-weight: 650;
 }
 
+.sync-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.75rem;
+}
+
+.sync-status::before {
+  width: 0.55rem;
+  height: 0.55rem;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: #718078;
+  content: '';
+}
+
+.sync-status[data-state='syncing']::before {
+  background: #c27832;
+}
+
+.sync-status[data-state='synced']::before {
+  background: #2f7254;
+}
+
+.sync-status[data-state='error']::before,
+.sync-status[data-state='offline']::before {
+  background: var(--signal);
+}
+
+.sync-status button {
+  padding: 0;
+  border: 0;
+  color: var(--signal);
+  background: transparent;
+  font: inherit;
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .site-mark {
   display: inline-flex;
   align-items: center;
@@ -652,10 +695,16 @@ h3 {
 
   .site-header {
     min-height: 4rem;
+    flex-wrap: wrap;
   }
 
   .site-mark strong {
     font-size: 0.95rem;
+  }
+
+  .sync-status {
+    width: 100%;
+    order: 3;
   }
 
   .catalog-shell,

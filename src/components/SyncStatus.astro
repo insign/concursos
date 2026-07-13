@@ -1,0 +1,24 @@
+<div class="sync-status" data-sync-status role="status" aria-live="polite">
+  <span data-sync-message>Sincronização local pronta.</span>
+  <button type="button" data-sync-retry hidden>Tentar novamente</button>
+</div>
+
+<script>
+  import { requestProfileSync, startSyncCoordinator } from '../lib/sync';
+
+  document.querySelectorAll<HTMLElement>('[data-sync-status]').forEach((root) => {
+    const message = root.querySelector<HTMLElement>('[data-sync-message]')!;
+    const retry = root.querySelector<HTMLButtonElement>('[data-sync-retry]')!;
+
+    window.addEventListener('concursos:sync-status', (event) => {
+      const detail = (event as CustomEvent<{ state: string; message: string }>).detail;
+      root.dataset.state = detail.state;
+      message.textContent = detail.message;
+      retry.hidden = detail.state !== 'error';
+    });
+
+    retry.addEventListener('click', () => void requestProfileSync());
+  });
+
+  startSyncCoordinator();
+</script>
