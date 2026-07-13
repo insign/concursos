@@ -317,11 +317,22 @@ export function saveAnswerDocumentSnapshot(input: SaveAnswerSnapshot): Promise<L
     const existing = await transaction.store.get(input.documentId);
     const dirtyQuestionIds = new Set(existing?.dirtyQuestionIds ?? []);
     for (const questionId of input.dirtyQuestionIds ?? []) dirtyQuestionIds.add(questionId);
+    let current = input.document;
+
+    if (existing && input.dirtyQuestionIds?.length) {
+      const answers = { ...existing.current.answers };
+      for (const questionId of input.dirtyQuestionIds) {
+        const answer = input.document.answers[questionId];
+        if (answer) answers[questionId] = answer;
+        else delete answers[questionId];
+      }
+      current = { ...input.document, answers };
+    }
 
     const record: LocalAnswerRecord = {
       documentId: input.documentId,
       profileId: input.profileId,
-      current: input.document,
+      current,
       base: existing?.base ?? null,
       remoteVersion: existing?.remoteVersion ?? null,
       remoteCreatedAt: existing?.remoteCreatedAt ?? null,

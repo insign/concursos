@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import type { QuestionSet } from '../../src/lib/content-schema';
 import { parseRemoteAnswerDocument } from '../../src/lib/document-schema';
-import { mergeAnswerDocuments } from '../../src/lib/sync';
+import { mergeAnswerDocuments, requestProfileSync } from '../../src/lib/sync';
 import { submitAnswers, type AnswerDocument } from '../../src/lib/questionnaire';
 
 const questionSet: QuestionSet = {
@@ -37,6 +37,10 @@ const questionSet: QuestionSet = {
 function document(answers: AnswerDocument['answers']): AnswerDocument {
   return { schemaVersion: 1, questionSetRevision: 1, answers, submission: null };
 }
+
+afterEach(() => {
+  vi.unstubAllGlobals();
+});
 
 describe('answer synchronization merge', () => {
   it('uses local-only and remote-only changes by question', () => {
@@ -88,5 +92,27 @@ describe('answer synchronization merge', () => {
         questionSet,
       ),
     ).toThrow('Opção remota inexistente');
+  });
+});
+
+describe('background synchronization fallback', () => {
+  it('registers a background wake-up when synchronization is requested offline', async () => {
+    const register = vi.fn(async () => undefined);
+    vi.stubGlobal('navigator', {
+      onLine: false,
+      serviceWorker: { ready: Promise.resolve({ sync: { register } }) },
+    });
+
+    await expect(requestProfileSync('perfil-7f3k')).resolves.toBe(false);
+    await vi.waitFor(() => expect(register).toHaveBeenCalledWith('concursos-sync'));
+  });
+
+  it('keeps the local fallback working when Background Sync is unavailable', async () => {
+    vi.stubGlobal('navigator', {
+      onLine: false,
+      serviceWorker: { ready: Promise.resolve({}) },
+    });
+
+    await expect(requestProfileSync('perfil-7f3k')).resolves.toBe(false);
   });
 });

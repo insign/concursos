@@ -83,6 +83,7 @@ test('downloads and removes an atomic contest package without caching KV', async
 
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/cheat-sheet/');
   await expect(page.getByRole('heading', { name: 'Administração pública em uma página' })).toBeVisible();
+  await expect(page.locator('.katex')).toBeVisible();
   const mermaidDiagram = page.locator('pre.mermaid');
   await expect(mermaidDiagram).toHaveAttribute('data-render-status', /^(?:success|error)$/, { timeout: 20_000 });
   expect({ errors: mermaidErrors, status: await mermaidDiagram.getAttribute('data-render-status') }).toEqual({
@@ -103,4 +104,21 @@ test('downloads and removes an atomic contest package without caching KV', async
   await expect(page.getByRole('heading', { name: 'Este conteúdo não foi baixado' })).toBeVisible();
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/index.html');
   await expect(page.getByRole('heading', { name: 'Este conteúdo não foi baixado' })).toBeVisible();
+});
+
+test('reports insufficient quota without activating a contest package', async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator.storage, 'estimate', {
+      configurable: true,
+      value: () => Promise.resolve({ quota: 1, usage: 1 }),
+    });
+  });
+  await page.goto('/concursos/concurso-exemplo/');
+  await waitForServiceWorker(page);
+  await page.getByRole('button', { name: 'Baixar concurso' }).click();
+
+  await expect(page.getByText('Não há espaço suficiente para concluir o download. O pacote anterior foi preservado.')).toBeVisible();
+  await expect.poll(() =>
+    page.evaluate(async () => (await caches.keys()).filter((name) => name.startsWith('contest--'))),
+  ).toEqual([]);
 });

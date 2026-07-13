@@ -248,6 +248,37 @@ describe('offline database', () => {
     });
   });
 
+  it('merges dirty questions from stale snapshots written by different tabs', async () => {
+    const documentId = 'concursos--perfil-a1--tse--portugues';
+    const firstTab = createEmptyAnswerDocument(1);
+    const secondTab = createEmptyAnswerDocument(1);
+    firstTab.answers.q001 = { optionId: 'b', questionRevision: 1 };
+    secondTab.answers.q002 = { optionId: 'a', questionRevision: 1 };
+
+    await saveAnswerDocumentSnapshot({
+      profileId: 'perfil-a1',
+      documentId,
+      document: firstTab,
+      dirtyQuestionIds: ['q001'],
+    });
+    await saveAnswerDocumentSnapshot({
+      profileId: 'perfil-a1',
+      documentId,
+      document: secondTab,
+      dirtyQuestionIds: ['q002'],
+    });
+
+    expect(await getLocalAnswerRecord(documentId)).toMatchObject({
+      current: {
+        answers: {
+          q001: { optionId: 'b', questionRevision: 1 },
+          q002: { optionId: 'a', questionRevision: 1 },
+        },
+      },
+      dirtyQuestionIds: ['q001', 'q002'],
+    });
+  });
+
   it('rejects an import based on a stale profile snapshot without partial writes', async () => {
     await saveAnswerDocumentSnapshot({
       profileId: 'perfil-a1',

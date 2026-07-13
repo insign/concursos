@@ -1,4 +1,4 @@
-import { expect, test } from './fixtures';
+import { expect, installMockKvRoute, test } from './fixtures';
 
 const alias = 'sync-7f3k';
 const documentId = 'concursos--sync-7f3k--exemplo--fundamentos';
@@ -68,4 +68,56 @@ test('uses the last observed remote answer for a same-question conflict', async 
     const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
     return json?.answers.q001?.optionId;
   }).toBe('c');
+});
+
+test('preserves independent answers written from two tabs', async ({ page, context, kvStore }) => {
+  const secondPage = await context.newPage();
+  await secondPage.addInitScript((value) => localStorage.setItem('concursos:active-alias', value), alias);
+  await Promise.all([page.goto(questionnaireUrl), secondPage.goto(questionnaireUrl)]);
+
+  await page.getByLabel('Eficiência').check();
+  await expect(page.getByText(/Resposta salva localmente/)).toBeVisible();
+  await secondPage.getByRole('button', { name: 'Próxima' }).click();
+  await secondPage.getByLabel('Eficácia').check();
+  await expect(secondPage.getByText(/Resposta salva localmente/)).toBeVisible();
+
+  await expect.poll(() => {
+    const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
+    return json?.answers;
+  }).toMatchObject({
+    q001: { optionId: 'b', questionRevision: 1 },
+    q002: { optionId: 'a', questionRevision: 1 },
+  });
+});
+
+test('reconciles an offline conflict between two simulated devices', async ({
+  page,
+  context,
+  browser,
+  kvStore,
+}) => {
+  await page.goto(questionnaireUrl);
+  await context.setOffline(true);
+  await page.getByLabel('Eficiência').check();
+  await expect(page.getByText(/Resposta salva localmente/)).toBeVisible();
+
+  const otherContext = await browser.newContext({ baseURL: 'http://127.0.0.1:4321' });
+  await installMockKvRoute(otherContext, kvStore);
+  const otherPage = await otherContext.newPage();
+  await otherPage.addInitScript((value) => localStorage.setItem('concursos:active-alias', value), alias);
+  await otherPage.goto(questionnaireUrl);
+  await otherPage.getByLabel('Efetividade').check();
+  await expect.poll(() => {
+    const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
+    return json?.answers.q001?.optionId;
+  }).toBe('a');
+
+  await context.setOffline(false);
+  await page.evaluate(() => window.dispatchEvent(new Event('online')));
+  await expect(page.getByLabel('Efetividade')).toBeChecked();
+  await expect.poll(() => {
+    const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
+    return json?.answers.q001?.optionId;
+  }).toBe('a');
+  await otherContext.close();
 });
