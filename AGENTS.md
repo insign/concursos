@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown, catálogo validado e rotas editoriais estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown, catálogo, rotas editoriais e questionário estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -33,12 +33,13 @@ npm run dev
 npm run check
 npm run test
 npm run test:unit
+npm run test:e2e
 npm run build
 npm run preview
 ```
 
 - Execute `npm run test:unit`, `npm run check` e `npm run build` após mudanças em conteúdo, schemas ou catálogo.
-- `npm run test` executa a suíte Vitest completa; testes E2E serão adicionados em fase posterior.
+- `npm run test` executa a suíte Vitest completa; `npm run test:e2e` executa Playwright Chromium com servidor Astro local.
 - Use Wrangler v4 instalado no projeto para diagnóstico do Pages.
 - Não use `wrangler pages project create`: isso criaria um projeto Direct Upload separado e sem a Git integration existente.
 
@@ -78,6 +79,11 @@ npm run preview
 - As abas de conteúdo, cheat sheet e questões são rotas estáticas e links reais com `aria-current="page"`.
 - Conteúdo e cheat sheet devem continuar legíveis sem JavaScript; só Mermaid e controles interativos dependem do navegador.
 - `src/styles/global.css` define a linguagem editorial responsiva, e `src/styles/print.css` preserva o cheat sheet e remove navegação/controles na impressão.
+- `Questionnaire.astro` usa controles nativos e delega o estado da sessão a `questionnaire-controller.ts`.
+- Os layouts `single`, `ten` e `all` são apenas apresentações; `all` deve continuar carregando blocos de dez progressivamente.
+- `immediate` revela correção por seleção; `on-submit` só revela após todas as questões e uma assinatura válida.
+- Alterar qualquer resposta invalida a assinatura de submissão; hash e pontuação ficam em `src/lib/questionnaire.ts`.
+- Embaralhamento usa `question-order.ts` e deve permanecer determinístico por usuário, concurso, assunto e revisão do conjunto.
 - Consulte `final_plan.md` para schemas, revisões, rotas e regras editoriais completas.
 
 ## KV, offline e sincronização

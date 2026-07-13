@@ -1,0 +1,74 @@
+---
+import type { QuestionSet } from '../lib/content-schema';
+
+interface Props {
+  questionSet: QuestionSet;
+  contestStorageId: string;
+  subjectStorageId: string;
+}
+
+const { questionSet, contestStorageId, subjectStorageId } = Astro.props;
+const componentId = `questionnaire-${contestStorageId}-${subjectStorageId}`;
+const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subjectStorageId }).replaceAll(
+  '<',
+  '\\u003c',
+);
+---
+
+<section class="questionnaire" id={componentId} data-questionnaire>
+  <header class="questionnaire-heading">
+    <p class="eyebrow">Prática</p>
+    <h1>Questões</h1>
+    <p>{questionSet.questions.length} questões no conjunto editorial atual.</p>
+  </header>
+
+  <div class="questionnaire-settings print-hidden">
+    <fieldset>
+      <legend>Exibição</legend>
+      <label><input type="radio" name="question-layout" value="single" checked /> Uma por vez</label>
+      <label><input type="radio" name="question-layout" value="ten" /> Blocos de dez</label>
+      <label><input type="radio" name="question-layout" value="all" /> Todas</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Correção</legend>
+      <label><input type="radio" name="correction-mode" value="on-submit" checked /> Ao finalizar</label>
+      <label><input type="radio" name="correction-mode" value="immediate" /> Imediata</label>
+    </fieldset>
+
+    <label class="toggle-control">
+      <input type="checkbox" data-shuffle-questions /> Embaralhar questões
+    </label>
+  </div>
+
+  <form data-question-form novalidate>
+    <div class="question-list" data-question-list></div>
+
+    <div class="question-pagination print-hidden" data-question-pagination>
+      <button class="button button-secondary" type="button" data-previous-questions>Anterior</button>
+      <span data-page-status></span>
+      <button class="button button-secondary" type="button" data-next-questions>Próxima</button>
+    </div>
+
+    <button class="button button-secondary load-more print-hidden" type="button" data-load-more hidden>
+      Carregar mais questões
+    </button>
+
+    <div class="question-actions print-hidden">
+      <button class="button" type="submit">Finalizar assunto</button>
+      <p class="question-status" data-question-status aria-live="polite">Nenhuma resposta registrada.</p>
+    </div>
+  </form>
+
+  <script type="application/json" data-questionnaire-config set:html={serializedConfig}></script>
+  <noscript>Ative o JavaScript para responder às questões. O conteúdo e o cheat sheet permanecem disponíveis sem ele.</noscript>
+</section>
+
+<script>
+  import { mountQuestionnaire, type QuestionnaireConfig } from '../lib/questionnaire-controller';
+
+  document.querySelectorAll<HTMLElement>('[data-questionnaire]').forEach((root) => {
+    const data = root.querySelector<HTMLScriptElement>('[data-questionnaire-config]')?.textContent;
+    if (data) mountQuestionnaire(root, JSON.parse(data) as QuestionnaireConfig);
+  });
+</script>
