@@ -58,12 +58,4 @@
 
   window.mermaidReady = Promise.all(diagrams.map(waitForDiagram)).then(() => undefined);
 
-  document.querySelectorAll<HTMLElement>('[data-print-after-mermaid]').forEach((button) => {
-    button.addEventListener('click', async () => {
-      button.setAttribute('aria-busy', 'true');
-      await window.mermaidReady;
-      button.removeAttribute('aria-busy');
-      window.print();
-    });
-  });
 </script>

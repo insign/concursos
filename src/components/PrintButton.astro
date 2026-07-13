@@ -1,0 +1,16 @@
+<button class="button print-button print-hidden" type="button" data-print-button>
+  Imprimir cheat sheet
+</button>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-print-button]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      button.disabled = true;
+      button.setAttribute('aria-busy', 'true');
+      await (window.mermaidReady ?? Promise.resolve());
+      button.removeAttribute('aria-busy');
+      button.disabled = false;
+      window.print();
+    });
+  });
+</script>

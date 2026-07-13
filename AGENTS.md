@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown e catálogo validado estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown, catálogo validado e rotas editoriais estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -74,6 +74,10 @@ npm run preview
 - Todo assunto deve possuir `conteudo.md`, `cheat-sheet.md` e `questoes.json`; arquivos ausentes ou órfãos devem falhar no build.
 - Preserve IDs e `storageId` estáveis; nunca use posição de array como identidade.
 - Não duplique metadados que possam ser derivados de sua fonte canônica.
+- `BaseLayout.astro` concentra metadados, CSS global e cabeçalho; `StudyLayout.astro` concentra breadcrumbs, abas e navegação entre assuntos.
+- As abas de conteúdo, cheat sheet e questões são rotas estáticas e links reais com `aria-current="page"`.
+- Conteúdo e cheat sheet devem continuar legíveis sem JavaScript; só Mermaid e controles interativos dependem do navegador.
+- `src/styles/global.css` define a linguagem editorial responsiva, e `src/styles/print.css` preserva o cheat sheet e remove navegação/controles na impressão.
 - Consulte `final_plan.md` para schemas, revisões, rotas e regras editoriais completas.
 
 ## KV, offline e sincronização

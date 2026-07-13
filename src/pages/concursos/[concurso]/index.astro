@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCatalog, type CatalogContest } from '../../../lib/catalog';
+
+interface Props {
+  contest: CatalogContest;
+}
+
+export async function getStaticPaths() {
+  const { contests } = await getCatalog();
+  return contests.map((contest) => ({ params: { concurso: contest.slug }, props: { contest } }));
+}
+
+const { contest } = Astro.props;
+---
+
+<BaseLayout title={contest.title} description={contest.description}>
+  <main class="contest-shell">
+    <nav class="breadcrumbs" aria-label="Caminho da página">
+      <a href="/">Concursos</a>
+      <span aria-hidden="true">/</span>
+      <span>{contest.title}</span>
+    </nav>
+
+    <header class="contest-intro">
+      <p class="eyebrow">Concurso</p>
+      <h1>{contest.title}</h1>
+      <p>{contest.description}</p>
+    </header>
+
+    {contest.subjects.length > 0 ? (
+      <ol class="subject-list">
+        {contest.subjects.map((subject) => (
+          <li>
+            <article class="subject-card">
+              <a href={`/concursos/${contest.slug}/${subject.slug}/`}>{subject.title}</a>
+              <p>{subject.description}</p>
+            </article>
+          </li>
+        ))}
+      </ol>
+    ) : (
+      <p class="empty-state">Este concurso ainda não possui assuntos publicados.</p>
+    )}
+  </main>
+</BaseLayout>

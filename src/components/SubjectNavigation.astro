@@ -1,0 +1,21 @@
+---
+interface Props {
+  contestSlug: string;
+  subjectSlug: string;
+  active: 'content' | 'cheat-sheet' | 'questions';
+}
+
+const { contestSlug, subjectSlug, active } = Astro.props;
+const base = `/concursos/${contestSlug}/${subjectSlug}`;
+const links = [
+  { id: 'content', label: 'Conteúdo', href: `${base}/` },
+  { id: 'cheat-sheet', label: 'Cheat sheet', href: `${base}/cheat-sheet/` },
+  { id: 'questions', label: 'Questões', href: `${base}/questoes/` },
+] as const;
+---
+
+<nav class="subject-tabs print-hidden" aria-label="Modos de estudo do assunto">
+  {links.map((link) => (
+    <a href={link.href} aria-current={active === link.id ? 'page' : undefined}>{link.label}</a>
+  ))}
+</nav>

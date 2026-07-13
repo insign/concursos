@@ -1,33 +1,33 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCatalog } from '../lib/catalog';
 
 const title = 'Concursos';
 const { contests } = await getCatalog();
 ---
 
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <meta name="robots" content="noindex, nofollow" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>{title}</title>
-  </head>
-  <body>
-    <main>
+<BaseLayout title={title}>
+  <main class="catalog-shell">
+    <header class="catalog-intro">
+      <p class="eyebrow">Biblioteca de estudo</p>
       <h1>{title}</h1>
-      <p>Escolha um catálogo para iniciar os estudos.</p>
-      <ul>
+      <p>Conteúdo versionado, revisão objetiva e questões para acompanhar sua preparação.</p>
+    </header>
+
+    {contests.length > 0 ? (
+      <ul class="catalog-grid">
         {contests.map((contest) => (
           <li>
-            <a href={`/concursos/${contest.slug}/`}>{contest.title}</a>
-            <p>{contest.description}</p>
+            <article class="catalog-card">
+              <a href={`/concursos/${contest.slug}/`}>{contest.title}</a>
+              <p>{contest.description}</p>
+              <p>{contest.subjects.length} {contest.subjects.length === 1 ? 'assunto' : 'assuntos'}</p>
+            </article>
           </li>
         ))}
       </ul>
-      <p><a href="/demonstracao/">Validar pipeline editorial</a></p>
-    </main>
-  </body>
-</html>
+    ) : (
+      <p class="empty-state">Nenhum concurso foi publicado.</p>
+    )}
+  </main>
+</BaseLayout>

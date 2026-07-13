@@ -1,0 +1,21 @@
+---
+import StudyLayout from '../../../../layouts/StudyLayout.astro';
+import { getSubjectStaticPaths, type CatalogContest, type CatalogSubject } from '../../../../lib/catalog';
+
+interface Props {
+  contest: CatalogContest;
+  subject: CatalogSubject;
+}
+
+export const getStaticPaths = getSubjectStaticPaths;
+const { contest, subject } = Astro.props;
+---
+
+<StudyLayout contest={contest} subject={subject} active="questions">
+  <article>
+    <p class="eyebrow">Prática</p>
+    <h1>Questões de {subject.title}</h1>
+    <p>O questionário interativo será carregado nesta área.</p>
+    <noscript>Ative o JavaScript para responder às questões. O conteúdo e o cheat sheet permanecem disponíveis sem ele.</noscript>
+  </article>
+</StudyLayout>

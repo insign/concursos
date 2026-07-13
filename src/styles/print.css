@@ -1,0 +1,85 @@
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 14mm 13mm 16mm;
+  }
+
+  :root {
+    --ink: #000;
+    --paper: #fff;
+    --line: #777;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+    font-size: 10.5pt;
+    line-height: 1.45;
+  }
+
+  .print-hidden,
+  .site-header,
+  .breadcrumbs,
+  .subject-tabs,
+  .subject-heading,
+  .subject-pagination {
+    display: none !important;
+  }
+
+  .study-shell,
+  .reading-surface,
+  .reading-surface > article {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  h1 {
+    font-size: 22pt;
+  }
+
+  h2 {
+    margin-top: 16pt;
+    font-size: 15pt;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  table,
+  pre,
+  figure,
+  .katex-display,
+  pre.mermaid,
+  pre.mermaid svg {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  table {
+    display: table !important;
+    width: 100%;
+    overflow: visible !important;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .katex-display {
+    max-width: 100%;
+    overflow: visible;
+  }
+
+  pre.mermaid,
+  pre.mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}

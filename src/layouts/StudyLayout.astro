@@ -1,0 +1,46 @@
+---
+import SubjectNavigation from '../components/SubjectNavigation.astro';
+import BaseLayout from './BaseLayout.astro';
+import type { CatalogContest, CatalogSubject } from '../lib/catalog';
+
+interface Props {
+  contest: CatalogContest;
+  subject: CatalogSubject;
+  active: 'content' | 'cheat-sheet' | 'questions';
+}
+
+const { contest, subject, active } = Astro.props;
+const previous = contest.subjects.find(({ id }) => id === subject.previousSubjectId);
+const next = contest.subjects.find(({ id }) => id === subject.nextSubjectId);
+const subjectPath = (slug: string) => `/concursos/${contest.slug}/${slug}/`;
+---
+
+<BaseLayout title={subject.title} description={subject.description} pageClass={`study-page ${active}`}>
+  <main class="study-shell">
+    <nav class="breadcrumbs print-hidden" aria-label="Caminho da página">
+      <a href="/">Concursos</a>
+      <span aria-hidden="true">/</span>
+      <a href={`/concursos/${contest.slug}/`}>{contest.title}</a>
+      <span aria-hidden="true">/</span>
+      <span>{subject.title}</span>
+    </nav>
+
+    <header class="subject-heading">
+      <p class="eyebrow">{contest.title}</p>
+      <p>{subject.description}</p>
+    </header>
+
+    <SubjectNavigation contestSlug={contest.slug} subjectSlug={subject.slug} active={active} />
+
+    <div class="reading-surface">
+      <slot />
+    </div>
+
+    {(previous || next) && (
+      <nav class="subject-pagination print-hidden" aria-label="Assuntos adjacentes">
+        {previous ? <a rel="prev" href={subjectPath(previous.slug)}>← {previous.title}</a> : <span />}
+        {next ? <a rel="next" href={subjectPath(next.slug)}>{next.title} →</a> : <span />}
+      </nav>
+    )}
+  </main>
+</BaseLayout>
