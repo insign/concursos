@@ -41,6 +41,7 @@ Os itens abaixo existem e não devem ser recriados:
 - Primeiro deployment concluído e acessível em `https://concursos-ebs.pages.dev`.
 - Custom domain `https://concursos.helio.me` associado, com TLS e resposta HTTP 200.
 - `X-Robots-Tag: noindex, nofollow` verificado tanto no domínio Pages quanto no domínio personalizado.
+- `AGENTS.md` inicial criado como guia operacional vivo e ponto de entrada obrigatório para futuros agentes.
 
 O executor deve evoluir esse baseline. Não deve criar outro projeto Pages, trocar o projeto para Direct Upload ou substituir a Git integration existente.
 
@@ -74,7 +75,7 @@ Cada assunto oferece três telas independentes:
 - Sincronizar alterações quando a conexão retornar.
 - Manter deploy automático no Cloudflare Pages e validar a aplicação final em `concursos.helio.me`.
 - Impedir indexação por buscadores sem alegar privacidade.
-- Criar um `AGENTS.md` autoritativo na raiz somente ao final da implementação.
+- Manter o `AGENTS.md` inicial atualizado durante a implementação e fazer uma revisão autoritativa completa ao final.
 
 ## 4. Fora de escopo
 
@@ -189,7 +190,7 @@ concursos/
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
-└── AGENTS.md               # criado somente ao final
+└── AGENTS.md               # documento vivo, revisado ao final
 ```
 
 Nomes podem ser ajustados quando a implementação demonstrar uma convenção melhor, mas responsabilidades e invariantes não podem ser enfraquecidos.
@@ -1025,13 +1026,17 @@ Testes automatizados devem mockar HTTP. Nunca testar com ID de produção descon
 | 9 | Segurança, CSP, headers e noindex | Verificação no preview existente |
 | 10 | Backup, UX de erro e acabamento | Fluxos completos |
 | 11 | Testes finais e produção | Preview, deployment automático e domínio existente |
-| 12 | `AGENTS.md` autoritativo | Documento conferido contra o código real |
+| 12 | Revisão autoritativa do `AGENTS.md` | Documento conferido contra o código real |
 
 Não avançar uma fase com gate quebrado. Corrigir antes de seguir.
 
-## 40. Criação final de AGENTS.md
+## 40. Manutenção contínua e revisão final de AGENTS.md
 
-Criar `AGENTS.md` na raiz somente depois que código, scripts, estrutura e deploy estiverem estabilizados. O documento deve refletir a realidade final, não este plano de forma cega.
+O `AGENTS.md` inicial já existe na raiz e deve orientar automaticamente todo futuro agente. Ele é um documento vivo: sempre que uma mudança alterar comandos, estrutura, arquitetura, fontes canônicas, schemas, persistência, sincronização, PWA, testes, deploy, segurança ou escopo, o `AGENTS.md` deve ser atualizado na mesma mudança.
+
+Ao concluir cada fase deste plano, comparar a implementação real com o `AGENTS.md`, atualizar instruções que mudaram, remover regras superadas e registrar novas invariantes que futuros agentes precisam preservar. Mudanças puramente locais que não orientem trabalho futuro não exigem atualização.
+
+Na última fase, fazer uma revisão integral para que o documento reflita a realidade final, não este plano de forma cega.
 
 O `AGENTS.md` deve documentar:
 
@@ -1069,7 +1074,7 @@ Regras que o `AGENTS.md` deve impor:
 - Executar testes proporcionais à alteração.
 - Não modificar infraestrutura sem solicitação explícita.
 
-Antes de concluir o projeto, verificar que todos os caminhos, comandos e invariantes citados no `AGENTS.md` existem e estão corretos.
+Antes de concluir cada fase, verificar se a mudança exige atualização do `AGENTS.md`. Antes de concluir o projeto, verificar que todos os caminhos, comandos e invariantes citados nele existem e estão corretos.
 
 ## 41. Riscos aceitos
 
@@ -1108,7 +1113,7 @@ O projeto está concluído somente quando:
 - `concursos.helio.me` responde corretamente com a aplicação final.
 - Headers `noindex` e CSP estão presentes.
 - Nenhum segredo está no bundle ou repositório.
-- `AGENTS.md` final existe e corresponde ao projeto real.
+- `AGENTS.md` foi mantido durante as fases e sua revisão final corresponde ao projeto real.
 
 ## 43. Instruções para o futuro executor
 
@@ -1123,8 +1128,9 @@ O projeto está concluído somente quando:
 9. Não invente namespaces para testes reais da API.
 10. Não reduza silenciosamente requisitos de offline, sincronização ou validação.
 11. Se uma restrição técnica impossibilitar uma decisão deste plano, pare, apresente evidências e peça decisão ao usuário.
-12. Crie `AGENTS.md` somente no final, com base no projeto real.
-13. Não considere a entrega concluída enquanto a definição de pronto não for atendida.
+12. Atualize `AGENTS.md` na mesma mudança sempre que comandos, arquitetura, estrutura, integrações, testes, deploy ou invariantes relevantes mudarem.
+13. Faça uma revisão integral do `AGENTS.md` na última fase.
+14. Não considere a entrega concluída enquanto a definição de pronto não for atendida.
 
 ## 44. Referências técnicas
 
