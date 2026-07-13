@@ -14,15 +14,16 @@ Status: guia operacional inicial e documento vivo.
 
 - Repositório: `https://github.com/insign/concursos`.
 - Branch padrão: `main`.
-- Plano âncora: `bd4e73d`.
+- Plano âncora: `803a1a4`.
 - Projeto: Astro 7 estático, npm e TypeScript strict.
+- Pipeline editorial: Unified via `@astrojs/markdown-remark`, GFM, KaTeX local, Shiki e `astro-mermaid`/Mermaid client-side.
 - Domínio: `https://concursos.helio.me`.
 - Cloudflare Pages: projeto `concursos`, URL `https://concursos-ebs.pages.dev`.
 - O Pages já possui Git integration com `insign/concursos` e faz deploy de `main`.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- O produto funcional ainda deve ser implementado conforme as fases restantes em `final_plan.md`.
+- A fase de pipeline Markdown está implementada; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -49,6 +50,15 @@ npm run preview
 - Não adicione adapter Cloudflare enquanto o projeto permanecer estático.
 - Não introduza backend, autenticação ou CMS fora do escopo aprovado.
 - Prefira a menor mudança correta e preserve a arquitetura descrita no plano.
+
+## Markdown técnico
+
+- O Astro 7 usa explicitamente o processador Unified configurado em `astro.config.mjs`; não migre para Sätteri sem preservar e revalidar GFM e a renderização KaTeX.
+- KaTeX é renderizado no build, e seu CSS e suas fontes são empacotados localmente. Não adicione CDN.
+- Mermaid é transformado por `astro-mermaid`, renderizado no navegador e deve permanecer com `securityLevel: "strict"`.
+- Páginas com diagramas devem incluir `MermaidRuntime.astro`, que expõe `window.mermaidReady`, marca `data-render-status` e preserva fallback textual em falha.
+- Controles de impressão devem aguardar `window.mermaidReady` antes de chamar `window.print()`.
+- Mantenha carregamento condicional: páginas sem diagramas não devem importar o runtime Mermaid no navegador.
 
 ## Conteúdo e rotas
 

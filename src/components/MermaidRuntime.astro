@@ -1,0 +1,69 @@
+<script>
+  declare global {
+    interface Window {
+      mermaidReady: Promise<void>;
+    }
+  }
+
+  const diagrams = Array.from(document.querySelectorAll<HTMLElement>('pre.mermaid'));
+
+  function waitForDiagram(diagram: HTMLElement): Promise<void> {
+    const source = diagram.textContent ?? '';
+
+    return new Promise((resolve) => {
+      let settled = false;
+
+      const finish = (status: 'success' | 'error') => {
+        if (settled) return;
+        settled = true;
+        observer.disconnect();
+        window.clearTimeout(timeout);
+        diagram.dataset.renderStatus = status;
+
+        if (status === 'error' && !diagram.nextElementSibling?.matches('[data-mermaid-fallback]')) {
+          const fallback = document.createElement('details');
+          const summary = document.createElement('summary');
+          const code = document.createElement('pre');
+          fallback.dataset.mermaidFallback = '';
+          summary.textContent = 'Ver descrição textual do diagrama';
+          code.textContent = diagram.dataset.diagram || source;
+          fallback.append(summary, code);
+          diagram.after(fallback);
+        }
+
+        resolve();
+      };
+
+      const inspect = () => {
+        if (!diagram.hasAttribute('data-processed')) return;
+        finish(diagram.querySelector('svg') ? 'success' : 'error');
+      };
+
+      const observer = new MutationObserver(inspect);
+      observer.observe(diagram, {
+        attributes: true,
+        attributeFilter: ['data-processed'],
+        childList: true,
+        subtree: true,
+      });
+
+      const timeout = window.setTimeout(() => {
+        diagram.dataset.processed = 'true';
+        finish('error');
+      }, 15_000);
+
+      inspect();
+    });
+  }
+
+  window.mermaidReady = Promise.all(diagrams.map(waitForDiagram)).then(() => undefined);
+
+  document.querySelectorAll<HTMLElement>('[data-print-after-mermaid]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      button.setAttribute('aria-busy', 'true');
+      await window.mermaidReady;
+      button.removeAttribute('aria-busy');
+      window.print();
+    });
+  });
+</script>
