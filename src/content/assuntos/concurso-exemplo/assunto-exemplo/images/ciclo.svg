@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+  <title id="title">Ciclo de gestão</title>
+  <desc id="desc">Planejar leva a executar, que leva a avaliar e então a corrigir.</desc>
+  <g fill="none" stroke="#1f4c5c" stroke-width="3">
+    <path d="M130 90h80m90 0h80m90 0h40" />
+  </g>
+  <g fill="#f2eadf" stroke="#1f4c5c" stroke-width="2">
+    <rect x="20" y="55" width="110" height="70" rx="8" />
+    <rect x="210" y="55" width="90" height="70" rx="8" />
+    <rect x="380" y="55" width="90" height="70" rx="8" />
+    <rect x="510" y="55" width="110" height="70" rx="8" />
+  </g>
+  <g fill="#17323b" font-family="system-ui, sans-serif" font-size="18" text-anchor="middle">
+    <text x="75" y="96">Planejar</text>
+    <text x="255" y="96">Executar</text>
+    <text x="425" y="96">Avaliar</text>
+    <text x="565" y="96">Corrigir</text>
+  </g>
+</svg>

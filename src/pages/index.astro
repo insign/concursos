@@ -1,5 +1,8 @@
 ---
+import { getCatalog } from '../lib/catalog';
+
 const title = 'Concursos';
+const { contests } = await getCatalog();
 ---
 
 <!doctype html>
@@ -15,7 +18,15 @@ const title = 'Concursos';
   <body>
     <main>
       <h1>{title}</h1>
-      <p>Scaffold Astro inicial. A implementação está descrita em <code>final_plan.md</code>.</p>
+      <p>Escolha um catálogo para iniciar os estudos.</p>
+      <ul>
+        {contests.map((contest) => (
+          <li>
+            <a href={`/concursos/${contest.slug}/`}>{contest.title}</a>
+            <p>{contest.description}</p>
+          </li>
+        ))}
+      </ul>
       <p><a href="/demonstracao/">Validar pipeline editorial</a></p>
     </main>
   </body>

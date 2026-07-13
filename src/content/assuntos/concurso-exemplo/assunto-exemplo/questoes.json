@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q001",
+      "revision": 1,
+      "prompt": "Qual conceito compara os recursos utilizados com as entregas produzidas?",
+      "options": [
+        { "id": "a", "text": "Efetividade" },
+        { "id": "b", "text": "Eficiência" },
+        { "id": "c", "text": "Legalidade" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Eficiência relaciona meios empregados e produtos ou serviços entregues."
+    },
+    {
+      "id": "q002",
+      "revision": 1,
+      "prompt": "O alcance de um objetivo previamente definido caracteriza principalmente qual conceito?",
+      "options": [
+        { "id": "a", "text": "Eficácia" },
+        { "id": "b", "text": "Economicidade" },
+        { "id": "c", "text": "Publicidade" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Eficácia mede se o resultado planejado foi alcançado."
+    },
+    {
+      "id": "q003",
+      "revision": 1,
+      "prompt": "Em um ciclo de gestão, qual etapa deve definir objetivos e indicadores?",
+      "options": [
+        { "id": "a", "text": "Avaliação" },
+        { "id": "b", "text": "Correção" },
+        { "id": "c", "text": "Planejamento" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O planejamento estabelece antecipadamente objetivos, indicadores e recursos."
+    },
+    {
+      "id": "q004",
+      "revision": 1,
+      "prompt": "Qual evidência permite comparar o resultado observado com a meta?",
+      "options": [
+        { "id": "a", "text": "Um indicador mensurável" },
+        { "id": "b", "text": "Uma opinião sem registro" },
+        { "id": "c", "text": "A posição da questão" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Indicadores mensuráveis permitem uma comparação verificável entre resultado e meta."
+    },
+    {
+      "id": "q005",
+      "revision": 1,
+      "prompt": "Efetividade está mais diretamente associada a qual resultado?",
+      "options": [
+        { "id": "a", "text": "Menor custo isoladamente" },
+        { "id": "b", "text": "Transformação concreta na realidade" },
+        { "id": "c", "text": "Publicação de um relatório" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efetividade considera o impacto real produzido pela política ou ação."
+    },
+    {
+      "id": "q006",
+      "revision": 1,
+      "prompt": "Depois de avaliar um desvio relevante, qual ação fecha o ciclo de melhoria?",
+      "options": [
+        { "id": "a", "text": "Ignorar a evidência" },
+        { "id": "b", "text": "Remover o objetivo" },
+        { "id": "c", "text": "Corrigir o processo e replanejar" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A correção incorpora o aprendizado e alimenta o planejamento seguinte."
+    },
+    {
+      "id": "q007",
+      "revision": 1,
+      "prompt": "Qual prática melhora a auditabilidade de uma execução?",
+      "options": [
+        { "id": "a", "text": "Registrar evidências das ações" },
+        { "id": "b", "text": "Alterar métricas depois do resultado" },
+        { "id": "c", "text": "Usar somente memória informal" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Registros permitem verificar posteriormente o que foi executado e por quê."
+    },
+    {
+      "id": "q008",
+      "revision": 1,
+      "prompt": "Uma entrega feita no prazo, mas que não alcança o objetivo, é necessariamente eficaz?",
+      "options": [
+        { "id": "a", "text": "Sim, porque respeitou o prazo" },
+        { "id": "b", "text": "Não, porque eficácia depende do objetivo" },
+        { "id": "c", "text": "Sim, se utilizou poucos recursos" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Prazo e recursos podem indicar eficiência; eficácia exige alcançar o objetivo."
+    },
+    {
+      "id": "q009",
+      "revision": 1,
+      "prompt": "O que torna uma meta adequada para acompanhamento?",
+      "options": [
+        { "id": "a", "text": "Ser deliberadamente ambígua" },
+        { "id": "b", "text": "Não possuir prazo" },
+        { "id": "c", "text": "Ser verificável por indicador" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Uma meta verificável pode ser acompanhada e comparada com resultados observados."
+    },
+    {
+      "id": "q010",
+      "revision": 1,
+      "prompt": "Qual etapa produz os dados que serão usados na avaliação?",
+      "options": [
+        { "id": "a", "text": "Execução acompanhada" },
+        { "id": "b", "text": "Planejamento sem ação" },
+        { "id": "c", "text": "Correção sem registro" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A execução acompanhada gera evidências e medidas para a avaliação."
+    },
+    {
+      "id": "q011",
+      "revision": 1,
+      "prompt": "Se acertos e total forem iguais, qual é a taxa de acerto?",
+      "options": [
+        { "id": "a", "text": "0%" },
+        { "id": "b", "text": "50%" },
+        { "id": "c", "text": "100%" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na expressão T = a/n × 100, a = n resulta em 100%."
+    },
+    {
+      "id": "q012",
+      "revision": 1,
+      "prompt": "Qual sequência representa corretamente o ciclo apresentado no material?",
+      "options": [
+        { "id": "a", "text": "Avaliar, executar, planejar, esquecer" },
+        { "id": "b", "text": "Planejar, executar, avaliar, corrigir" },
+        { "id": "c", "text": "Executar, corrigir, planejar, avaliar" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O ciclo parte do planejamento, passa pela execução e avaliação e termina em correção que alimenta o novo planejamento."
+    }
+  ]
+}

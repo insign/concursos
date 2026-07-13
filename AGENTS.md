@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- A fase de pipeline Markdown está implementada; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown e catálogo validado estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -31,12 +31,14 @@ Status: guia operacional inicial e documento vivo.
 npm install
 npm run dev
 npm run check
+npm run test
+npm run test:unit
 npm run build
 npm run preview
 ```
 
-- Execute `npm run check` e `npm run build` após mudanças relevantes enquanto não houver suíte mais específica.
-- Quando scripts de testes forem adicionados, registre-os aqui na mesma mudança.
+- Execute `npm run test:unit`, `npm run check` e `npm run build` após mudanças em conteúdo, schemas ou catálogo.
+- `npm run test` executa a suíte Vitest completa; testes E2E serão adicionados em fase posterior.
 - Use Wrangler v4 instalado no projeto para diagnóstico do Pages.
 - Não use `wrangler pages project create`: isso criaria um projeto Direct Upload separado e sem a Git integration existente.
 
@@ -65,7 +67,11 @@ npm run preview
 - A hierarquia canônica é concurso -> assunto.
 - Cada assunto terá conteúdo completo, cheat sheet e questões.
 - Conteúdo e cheat sheet ficam em Markdown; questões ficam em JSON.
-- Use Astro Content Collections e schemas para validar o catálogo no build.
+- As quatro Content Collections ficam em `src/content.config.ts`: `concursos`, `conteudos`, `cheatSheets` e `questoes`.
+- Schemas Zod reutilizáveis ficam em `src/lib/content-schema.ts`; mantenha objetos estritos e versões conhecidas.
+- `src/lib/catalog.ts` relaciona as collections, e a página raiz chama `getCatalog()` para que toda validação cruzada execute no build.
+- O caminho gera o ID canônico: arquivo do concurso para `<concurso>` e pasta do assunto para `<concurso>/<assunto>`.
+- Todo assunto deve possuir `conteudo.md`, `cheat-sheet.md` e `questoes.json`; arquivos ausentes ou órfãos devem falhar no build.
 - Preserve IDs e `storageId` estáveis; nunca use posição de array como identidade.
 - Não duplique metadados que possam ser derivados de sua fonte canônica.
 - Consulte `final_plan.md` para schemas, revisões, rotas e regras editoriais completas.

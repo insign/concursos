@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "title": "Concurso Exemplo",
+  "description": "Catálogo fictício usado para validar os fluxos de estudo.",
+  "order": 1,
+  "storageId": "exemplo"
+}

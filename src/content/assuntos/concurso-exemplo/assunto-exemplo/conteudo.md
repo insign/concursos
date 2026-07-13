@@ -10,6 +10,8 @@ storageId: fundamentos
 
 Este material demonstra **leitura longa**, ~~uma formulação superada~~ e um endereço automático: https://concursos.helio.me.
 
+![Ciclo de planejamento, execução, avaliação e correção.](./images/ciclo.svg)
+
 ## Revisão orientada
 
 - [x] Diferenciar eficiência de eficácia.
