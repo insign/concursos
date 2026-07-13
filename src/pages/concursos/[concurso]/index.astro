@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ProgressSummary from '../../../components/ProgressSummary.astro';
 import { getCatalog, type CatalogContest } from '../../../lib/catalog';
 
 interface Props {
@@ -35,6 +36,11 @@ const { contest } = Astro.props;
             <article class="subject-card">
               <a href={`/concursos/${contest.slug}/${subject.slug}/`}>{subject.title}</a>
               <p>{subject.description}</p>
+              <ProgressSummary
+                contestStorageId={contest.storageId}
+                subjectStorageId={subject.storageId}
+                questionSetRevision={subject.questionSetEntry.data.questionSetRevision}
+              />
             </article>
           </li>
         ))}

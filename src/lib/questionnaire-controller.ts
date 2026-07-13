@@ -2,6 +2,8 @@ import type { Question, QuestionSet } from './content-schema';
 import { buildAnswerDocumentId, getActiveAlias } from './identity';
 import { getLocalAnswerRecord, saveAnswerDocumentSnapshot } from './offline-db';
 import { buildQuestionSeed, deterministicQuestionOrder } from './question-order';
+import { loadPreferences, savePreferences, withPreference, type Preferences } from './preferences';
+import { materializeSubjectProgress, progressSubjectId, updateSubjectProgress } from './progress';
 import {
   createEmptyAnswerDocument,
   isSubmissionValid,
@@ -62,9 +64,10 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   const documentId = buildAnswerDocumentId(profileId, config.contestStorageId, config.subjectStorageId);
   let documentState: AnswerDocument = createEmptyAnswerDocument(config.questionSet.questionSetRevision);
   let writeQueue: Promise<void> = Promise.resolve();
-  let layout: QuestionLayout = 'single';
-  let correctionMode: CorrectionMode = 'on-submit';
-  let shuffle = false;
+  let preferences: Preferences = await loadPreferences(profileId);
+  let layout: QuestionLayout = preferences.questionLayout;
+  let correctionMode: CorrectionMode = preferences.correctionMode;
+  let shuffle = preferences.shuffleQuestions;
   let pageStart = 0;
   let visibleAll = 10;
 
@@ -106,6 +109,35 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     return queued;
   };
 
+  const refreshProgress = async () => {
+    const record = await getLocalAnswerRecord(documentId);
+    if (!record) return;
+    await updateSubjectProgress(
+      profileId,
+      progressSubjectId(config.contestStorageId, config.subjectStorageId),
+      materializeSubjectProgress(
+        config.questionSet,
+        record.current,
+        correctionMode,
+        record.remoteVersion ?? 0,
+      ),
+    );
+  };
+
+  const persistPreference = async (
+    field: 'questionLayout' | 'correctionMode' | 'shuffleQuestions',
+    value: QuestionLayout | CorrectionMode | boolean,
+  ) => {
+    preferences = withPreference(preferences, field, value);
+    try {
+      await savePreferences(profileId, preferences, [field]);
+      if (field === 'correctionMode') await refreshProgress();
+      void requestProfileSync(profileId);
+    } catch {
+      status.textContent = 'Não foi possível salvar a preferência localmente.';
+    }
+  };
+
   const selectAnswer = async (question: Question, optionId: string) => {
     const submissionWasValid = isSubmissionValid(documentState, config.questionSet);
     documentState = {
@@ -136,6 +168,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
           ? 'Resposta salva localmente. A finalização anterior foi invalidada.'
           : 'Resposta salva localmente e adicionada à fila de sincronização.';
       }
+      void refreshProgress().catch(() => undefined);
       void requestProfileSync(profileId);
     } catch {
       status.textContent = 'Não foi possível salvar a resposta localmente. Tente novamente.';
@@ -201,26 +234,32 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   }
 
   for (const input of layoutInputs) {
+    input.checked = input.value === layout;
     input.addEventListener('change', () => {
       layout = input.value as QuestionLayout;
       pageStart = 0;
       visibleAll = 10;
       render();
+      void persistPreference('questionLayout', layout);
     });
   }
 
   for (const input of correctionInputs) {
+    input.checked = input.value === correctionMode;
     input.addEventListener('change', () => {
       correctionMode = input.value as CorrectionMode;
       render();
+      void persistPreference('correctionMode', correctionMode);
     });
   }
 
+  shuffleInput.checked = shuffle;
   shuffleInput.addEventListener('change', () => {
     shuffle = shuffleInput.checked;
     pageStart = 0;
     visibleAll = 10;
     render();
+    void persistPreference('shuffleQuestions', shuffle);
   });
 
   previousButton.addEventListener('click', () => {
@@ -259,6 +298,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       await queueSnapshot(documentState);
       render();
       status.textContent = `Finalizado: ${score.correct} de ${score.total} respostas corretas.`;
+      void refreshProgress().catch(() => undefined);
       void requestProfileSync(profileId);
     } catch {
       documentState = previousState;
@@ -278,6 +318,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     }
 
     status.textContent = storedRecord.conflictWarning ?? 'Respostas restauradas deste dispositivo.';
+    void refreshProgress().catch(() => undefined);
   }
 
   render();
@@ -290,7 +331,15 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       if (!record) return;
       documentState = reconcileAnswerDocument(record.current, config.questionSet);
       render();
-      status.textContent = record.conflictWarning ?? 'Respostas locais e remotas reconciliadas.';
+      const score = scoreAnswers(config.questionSet, documentState.answers);
+      status.textContent =
+        record.conflictWarning ??
+        (isSubmissionValid(documentState, config.questionSet)
+          ? `Finalizado: ${score.correct} de ${score.total} respostas corretas. Respostas reconciliadas.`
+          : 'Respostas locais e remotas reconciliadas.');
+      void refreshProgress()
+        .then(() => requestProfileSync(profileId))
+        .catch(() => undefined);
     });
   });
 

@@ -1,0 +1,90 @@
+<section class="settings-section" aria-labelledby="preferences-title">
+  <div>
+    <p class="eyebrow">Estudo</p>
+    <h2 id="preferences-title">Preferências e progresso</h2>
+    <p>As preferências valem para todos os assuntos do alias ativo e permanecem disponíveis offline.</p>
+  </div>
+
+  <form class="identity-form" data-preferences-form>
+    <fieldset>
+      <legend>Exibição padrão</legend>
+      <label><input type="radio" name="questionLayout" value="single" /> Uma por vez</label>
+      <label><input type="radio" name="questionLayout" value="ten" /> Blocos de dez</label>
+      <label><input type="radio" name="questionLayout" value="all" /> Todas</label>
+    </fieldset>
+    <fieldset>
+      <legend>Correção padrão</legend>
+      <label><input type="radio" name="correctionMode" value="on-submit" /> Ao finalizar</label>
+      <label><input type="radio" name="correctionMode" value="immediate" /> Imediata</label>
+    </fieldset>
+    <label class="toggle-control">
+      <input type="checkbox" name="shuffleQuestions" /> Embaralhar questões
+    </label>
+
+    <div class="form-actions">
+      <button class="button" type="submit">Salvar preferências</button>
+      <button class="button button-secondary" type="button" data-repair-progress>Recalcular progresso</button>
+    </div>
+    <p data-preferences-status aria-live="polite"></p>
+  </form>
+</section>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { loadPreferences, savePreferences } from '../lib/preferences';
+  import { recalculateProgress } from '../lib/progress';
+  import { requestProfileSync } from '../lib/sync';
+
+  document.querySelectorAll<HTMLFormElement>('[data-preferences-form]').forEach(async (form) => {
+    const status = form.querySelector<HTMLElement>('[data-preferences-status]')!;
+    const repair = form.querySelector<HTMLButtonElement>('[data-repair-progress]')!;
+    const profileId = getActiveAlias();
+    if (!profileId) {
+      form.querySelectorAll<HTMLInputElement | HTMLButtonElement>('input, button').forEach((control) => {
+        control.disabled = true;
+      });
+      status.textContent = 'Defina um alias antes de salvar preferências.';
+      return;
+    }
+
+    const preferences = await loadPreferences(profileId);
+    (form.elements.namedItem('questionLayout') as RadioNodeList).value = preferences.questionLayout;
+    (form.elements.namedItem('correctionMode') as RadioNodeList).value = preferences.correctionMode;
+    (form.elements.namedItem('shuffleQuestions') as HTMLInputElement).checked = preferences.shuffleQuestions;
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const data = new FormData(form);
+      try {
+        await savePreferences(
+          profileId,
+          {
+            schemaVersion: 1,
+            questionLayout: String(data.get('questionLayout')) as 'single' | 'ten' | 'all',
+            correctionMode: String(data.get('correctionMode')) as 'immediate' | 'on-submit',
+            shuffleQuestions: data.has('shuffleQuestions'),
+          },
+          ['questionLayout', 'correctionMode', 'shuffleQuestions'],
+        );
+        status.textContent = 'Preferências salvas localmente.';
+        void requestProfileSync(profileId);
+      } catch {
+        status.textContent = 'Não foi possível salvar as preferências.';
+      }
+    });
+
+    repair.addEventListener('click', async () => {
+      repair.disabled = true;
+      status.textContent = 'Recalculando progresso a partir das respostas locais...';
+      try {
+        const count = await recalculateProgress(profileId);
+        status.textContent = `Progresso recalculado para ${count} assunto(s).`;
+        void requestProfileSync(profileId);
+      } catch {
+        status.textContent = 'Não foi possível recalcular o progresso.';
+      } finally {
+        repair.disabled = false;
+      }
+    });
+  });
+</script>

@@ -1,19 +1,30 @@
 import { z } from 'zod';
 import { questionSetSchema, type QuestionSet } from './content-schema';
 import { parseRemoteAnswerDocument } from './document-schema';
-import { buildAnswerDocumentId, getActiveAlias } from './identity';
+import {
+  buildAnswerDocumentId,
+  buildPreferencesDocumentId,
+  buildProgressDocumentId,
+  getActiveAlias,
+} from './identity';
 import { KvClientError, readKv, writeKv } from './kv-client';
 import {
   acquireSyncLease,
   getLocalAnswerRecord,
+  getSharedDocumentRecord,
   listPendingAnswerRecords,
   markAnswerSynced,
   markAnswerSyncError,
+  markSharedDocumentError,
+  markSharedDocumentSynced,
   quarantineRemoteDocument,
   releaseSyncLease,
   storeRemoteAnswerDocument,
   type LocalAnswerRecord,
+  type SharedStoreName,
 } from './offline-db';
+import { DEFAULT_PREFERENCES, mergePreferences, preferencesSchema, type Preferences } from './preferences';
+import { EMPTY_PROGRESS, mergeProgress, progressSchema, type ProgressDocument } from './progress';
 import {
   isSubmissionValid,
   reconcileAnswerDocument,
@@ -112,6 +123,9 @@ const ownerId = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto
 let serialQueue: Promise<unknown> = Promise.resolve();
 let runtimeStarted = false;
 let broadcast: BroadcastChannel | null = null;
+const activeProfileSyncs = new Map<string, Promise<boolean>>();
+const rerunProfiles = new Set<string>();
+const lastSharedSyncAt = new Map<string, number>();
 
 function enqueue<T>(operation: () => Promise<T>): Promise<T> {
   const queued = serialQueue.then(operation, operation);
@@ -232,6 +246,84 @@ async function synchronizeRecord(
   announceAnswer(documentId);
 }
 
+async function synchronizeSharedDocument(
+  profileId: string,
+  storeName: SharedStoreName,
+  documentId: string,
+): Promise<void> {
+  const record = await getSharedDocumentRecord(storeName, profileId);
+  await requestGate.wait();
+  const envelope = await readKv(documentId);
+  let remote: Preferences | ProgressDocument | null = null;
+
+  if (envelope) {
+    const schema = storeName === 'preferences' ? preferencesSchema : progressSchema;
+    const parsed = schema.safeParse(envelope.json);
+    if (!parsed.success) {
+      const reason = `Documento remoto de ${storeName} inválido`;
+      await quarantineRemoteDocument({ profileId, documentId, reason, value: envelope.json });
+      await markSharedDocumentError(storeName, profileId, reason);
+      throw new Error(reason);
+    }
+    remote = parsed.data;
+  }
+
+  if (!record) {
+    if (!remote || !envelope) return;
+    await markSharedDocumentSynced({
+      storeName,
+      profileId,
+      expectedLocalRevision: 0,
+      synchronizedDocument: remote,
+      remoteVersion: envelope.version,
+      remoteCreatedAt: envelope.created_at,
+    });
+    return;
+  }
+
+  if (record.outboxState === 'clean') {
+    if (!remote || !envelope) return;
+    await markSharedDocumentSynced({
+      storeName,
+      profileId,
+      expectedLocalRevision: record.localRevision,
+      synchronizedDocument: remote,
+      remoteVersion: envelope.version,
+      remoteCreatedAt: envelope.created_at,
+    });
+    return;
+  }
+
+  let merged: Preferences | ProgressDocument;
+  if (storeName === 'preferences') {
+    const local = preferencesSchema.safeParse(record.current);
+    const base = preferencesSchema.safeParse(record.base);
+    merged = mergePreferences(
+      local.success ? local.data : DEFAULT_PREFERENCES,
+      base.success ? base.data : null,
+      remote as Preferences | null,
+    );
+  } else {
+    const local = progressSchema.safeParse(record.current);
+    merged = mergeProgress(local.success ? local.data : EMPTY_PROGRESS, remote as ProgressDocument | null);
+  }
+
+  await requestGate.wait();
+  const written = await writeKv(documentId, merged);
+  await markSharedDocumentSynced({
+    storeName,
+    profileId,
+    expectedLocalRevision: record.localRevision,
+    synchronizedDocument: merged,
+    remoteVersion: written.version,
+    remoteCreatedAt: written.created_at,
+    conflictWarning:
+      envelope && written.version > envelope.version + 1
+        ? 'Outra escrita ocorreu durante a sincronização deste documento global.'
+        : null,
+  });
+}
+
 async function runWithLease(operation: () => Promise<void>): Promise<boolean> {
   const acquired = await acquireSyncLease(leaseName, ownerId, 30_000);
   if (!acquired) return false;
@@ -266,9 +358,36 @@ export function synchronizeAnswerDocument(
 }
 
 export function syncPendingProfile(profileId: string): Promise<boolean> {
-  return enqueue(() =>
+  const active = activeProfileSyncs.get(profileId);
+  if (active) {
+    rerunProfiles.add(profileId);
+    return active.then(() => {
+      if (rerunProfiles.delete(profileId)) return syncPendingProfile(profileId);
+      return true;
+    });
+  }
+
+  const operation = enqueue(() =>
     runWithLease(async () => {
       announce('syncing', 'Sincronizando alterações pendentes...');
+      let failures = 0;
+      const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
+      const preferencesKey = `${profileId}:preferences`;
+      if (
+        preferencesRecord?.outboxState === 'pending' ||
+        Date.now() - (lastSharedSyncAt.get(preferencesKey) ?? 0) >= 30_000
+      ) {
+        try {
+          await synchronizeSharedDocument(
+            profileId,
+            'preferences',
+            buildPreferencesDocumentId(profileId),
+          );
+          lastSharedSyncAt.set(preferencesKey, Date.now());
+        } catch {
+          failures += 1;
+        }
+      }
       const catalog = await loadSyncCatalog();
       const entriesById = new Map(
         catalog.map((entry) => [
@@ -277,8 +396,6 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
         ]),
       );
       const records = await listPendingAnswerRecords(profileId);
-      let failures = 0;
-
       for (const record of records) {
         const entry = entriesById.get(record.documentId);
         if (!entry) {
@@ -298,12 +415,31 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
         }
       }
 
+      const progressRecord = await getSharedDocumentRecord('progress', profileId);
+      const progressKey = `${profileId}:progress`;
+      if (
+        progressRecord?.outboxState === 'pending' ||
+        Date.now() - (lastSharedSyncAt.get(progressKey) ?? 0) >= 30_000
+      ) {
+        try {
+          await synchronizeSharedDocument(profileId, 'progress', buildProgressDocumentId(profileId));
+          lastSharedSyncAt.set(progressKey, Date.now());
+        } catch {
+          failures += 1;
+        }
+      }
+
       announce(
         failures === 0 ? 'synced' : 'error',
         failures === 0 ? 'Alterações sincronizadas.' : `${failures} documento(s) continuam pendentes.`,
       );
     }),
   );
+  activeProfileSyncs.set(profileId, operation);
+  void operation.finally(() => {
+    if (activeProfileSyncs.get(profileId) === operation) activeProfileSyncs.delete(profileId);
+  }).catch(() => undefined);
+  return operation;
 }
 
 export function requestProfileSync(profileId = getActiveAlias()): Promise<boolean> {
@@ -312,7 +448,10 @@ export function requestProfileSync(profileId = getActiveAlias()): Promise<boolea
     return Promise.resolve(false);
   }
   broadcast?.postMessage({ type: 'sync-request', profileId });
-  return syncPendingProfile(profileId);
+  return syncPendingProfile(profileId).catch((error) => {
+    announce('error', error instanceof Error ? error.message : 'Falha de sincronização');
+    return false;
+  });
 }
 
 export function startSyncCoordinator(): void {
@@ -323,7 +462,9 @@ export function startSyncCoordinator(): void {
     broadcast = new BroadcastChannel('concursos-sync');
     broadcast.addEventListener('message', (event) => {
       if (event.data?.type === 'sync-request' && typeof event.data.profileId === 'string') {
-        void syncPendingProfile(event.data.profileId);
+        void syncPendingProfile(event.data.profileId).catch((error) => {
+          announce('error', error instanceof Error ? error.message : 'Falha de sincronização');
+        });
       }
     });
   }

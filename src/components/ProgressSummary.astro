@@ -1,0 +1,41 @@
+---
+interface Props {
+  contestStorageId: string;
+  subjectStorageId: string;
+  questionSetRevision: number;
+}
+
+const { contestStorageId, subjectStorageId, questionSetRevision } = Astro.props;
+---
+
+<p
+  class="progress-summary"
+  data-progress-summary
+  data-progress-id={`${contestStorageId}--${subjectStorageId}`}
+  data-question-set-revision={questionSetRevision}
+>
+  Progresso disponível após definir um alias.
+</p>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { loadProgress } from '../lib/progress';
+
+  const profileId = getActiveAlias();
+  if (profileId) {
+    void loadProgress(profileId).then((progress) => {
+      document.querySelectorAll<HTMLElement>('[data-progress-summary]').forEach((element) => {
+        const subject = progress.subjects[element.dataset.progressId!];
+        if (!subject) {
+          element.textContent = 'Ainda não iniciado.';
+        } else if (subject.questionSetRevision !== Number(element.dataset.questionSetRevision)) {
+          element.textContent = 'Conteúdo atualizado; recalcule o progresso.';
+          element.dataset.state = 'stale';
+        } else {
+          const score = subject.correct === undefined ? '' : `, ${subject.correct} corretas`;
+          element.textContent = `${subject.answered}/${subject.total} respondidas${score}${subject.submitted ? ', finalizado' : ''}.`;
+        }
+      });
+    });
+  }
+</script>

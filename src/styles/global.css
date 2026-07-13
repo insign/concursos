@@ -158,6 +158,11 @@ a:hover {
   padding-block: clamp(3rem, 8vw, 7rem);
 }
 
+.settings-shell {
+  display: grid;
+  gap: clamp(3rem, 8vw, 6rem);
+}
+
 .catalog-intro,
 .contest-intro {
   max-width: 52rem;
@@ -452,6 +457,26 @@ h3 {
   font-family: var(--sans);
 }
 
+.identity-form fieldset {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0 0 1.25rem;
+  padding: 0 0 1.25rem;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.identity-form fieldset legend {
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+}
+
+.identity-form fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .identity-form > label:not(.danger-option) {
   display: block;
   margin-top: 1.25rem;
@@ -509,6 +534,20 @@ h3 {
   margin: 0;
   color: var(--muted);
   font-size: var(--step--1);
+}
+
+.progress-summary {
+  margin-top: 1rem !important;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line);
+  color: var(--accent-strong) !important;
+  font-family: var(--sans);
+  font-size: var(--step--1);
+  font-weight: 700;
+}
+
+.progress-summary[data-state='stale'] {
+  color: var(--signal) !important;
 }
 
 .questionnaire-settings {

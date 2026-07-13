@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local e sincronização de respostas estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local, sincronização de respostas, preferências e progresso estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -109,6 +109,10 @@ npm run preview
 - O PUT sempre envia o documento completo mais recente. Uma edição local concluída durante o PUT permanece pendente e não é apagada pela confirmação remota.
 - Saltos de versão, regressão e mudança de `created_at` geram aviso; não alegue recuperação ou sincronização perfeita.
 - Gatilhos atuais: seleção/finalização, inicialização, `online`, foco, visibilidade, retry manual e troca de perfil.
+- Preferências são cacheadas no IndexedDB, sincronizadas no documento global e mescladas por campo; no mesmo campo alterado dos dois lados, o remoto observado prevalece.
+- Progresso é uma visão materializada das respostas, não sua fonte; no modo `on-submit`, `correct` só existe depois de submissão válida.
+- Progresso mescla por assunto e maior `answerVersion`; revisão divergente aparece como desatualizada, e Configurações oferece recálculo sequencial local.
+- Falha de preferências ou progresso permanece recuperável e nunca invalida o documento de respostas.
 - Não declare sincronização perfeita, pois a API não possui compare-and-set.
 
 ## PWA e Cloudflare

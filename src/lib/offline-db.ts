@@ -29,7 +29,12 @@ export interface LocalSharedDocumentRecord {
   base: unknown;
   remoteVersion: number | null;
   remoteCreatedAt: string | null;
+  dirtyFields: string[];
   outboxState: OutboxState;
+  attempts: number;
+  lastError: string | null;
+  conflictWarning: string | null;
+  localRevision: number;
   updatedAt: number;
 }
 
@@ -114,6 +119,103 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
 
 export async function getLocalAnswerRecord(documentId: string): Promise<LocalAnswerRecord | undefined> {
   return (await openOfflineDb()).get('responses', documentId);
+}
+
+export type SharedStoreName = 'preferences' | 'progress';
+
+export async function getSharedDocumentRecord(
+  storeName: SharedStoreName,
+  profileId: string,
+): Promise<LocalSharedDocumentRecord | undefined> {
+  return (await openOfflineDb()).get(storeName, profileId);
+}
+
+export function saveSharedDocument(
+  storeName: SharedStoreName,
+  profileId: string,
+  document: unknown,
+  dirtyFields: string[],
+): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction(storeName, 'readwrite');
+    const existing = await transaction.store.get(profileId);
+    await transaction.store.put({
+      profileId,
+      current: document,
+      base: existing?.base ?? null,
+      remoteVersion: existing?.remoteVersion ?? null,
+      remoteCreatedAt: existing?.remoteCreatedAt ?? null,
+      dirtyFields: [...new Set([...(existing?.dirtyFields ?? []), ...dirtyFields])].sort(),
+      outboxState: 'pending',
+      attempts: existing?.attempts ?? 0,
+      lastError: null,
+      conflictWarning: existing?.conflictWarning ?? null,
+      localRevision: (existing?.localRevision ?? 0) + 1,
+      updatedAt: Date.now(),
+    });
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
+export interface MarkSharedSyncedInput {
+  storeName: SharedStoreName;
+  profileId: string;
+  expectedLocalRevision: number;
+  synchronizedDocument: unknown;
+  remoteVersion: number;
+  remoteCreatedAt: string | null;
+  conflictWarning?: string | null;
+}
+
+export function markSharedDocumentSynced(input: MarkSharedSyncedInput): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction(input.storeName, 'readwrite');
+    const existing = await transaction.store.get(input.profileId);
+    const changedDuringRequest = existing && existing.localRevision !== input.expectedLocalRevision;
+    await transaction.store.put({
+      profileId: input.profileId,
+      current: changedDuringRequest ? existing.current : input.synchronizedDocument,
+      base: input.synchronizedDocument,
+      remoteVersion: input.remoteVersion,
+      remoteCreatedAt: input.remoteCreatedAt,
+      dirtyFields: changedDuringRequest ? existing.dirtyFields : [],
+      outboxState: changedDuringRequest ? 'pending' : 'clean',
+      attempts: 0,
+      lastError: null,
+      conflictWarning: input.conflictWarning ?? null,
+      localRevision: existing?.localRevision ?? 0,
+      updatedAt: changedDuringRequest ? existing.updatedAt : Date.now(),
+    });
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
+export function markSharedDocumentError(
+  storeName: SharedStoreName,
+  profileId: string,
+  message: string,
+): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction(storeName, 'readwrite');
+    const existing = await transaction.store.get(profileId);
+    if (existing) {
+      await transaction.store.put({
+        ...existing,
+        attempts: existing.attempts + 1,
+        lastError: message,
+      });
+    }
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
 }
 
 export async function loadAnswerDocument(documentId: string): Promise<AnswerDocument | null> {
@@ -300,9 +402,13 @@ export function quarantineRemoteDocument(record: Omit<QuarantineRecord, 'id' | '
 }
 
 export async function hasPendingOutbox(profileId: string): Promise<boolean> {
-  return (await openOfflineDb()).countFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']).then(
-    (count) => count > 0,
-  );
+  const database = await openOfflineDb();
+  const [answerCount, preferences, progress] = await Promise.all([
+    database.countFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']),
+    database.get('preferences', profileId),
+    database.get('progress', profileId),
+  ]);
+  return answerCount > 0 || preferences?.outboxState === 'pending' || progress?.outboxState === 'pending';
 }
 
 export function discardPendingProfile(profileId: string): Promise<void> {
@@ -332,6 +438,29 @@ export function discardPendingProfile(profileId: string): Promise<void> {
     }
 
     await transaction.done;
+
+    for (const storeName of ['preferences', 'progress'] as const) {
+      const sharedTransaction = database.transaction(storeName, 'readwrite');
+      const shared = await sharedTransaction.store.get(profileId);
+      if (shared?.outboxState === 'pending') {
+        if (shared.base === null) {
+          await sharedTransaction.store.delete(profileId);
+        } else {
+          await sharedTransaction.store.put({
+            ...shared,
+            current: shared.base,
+            dirtyFields: [],
+            outboxState: 'clean',
+            attempts: 0,
+            lastError: null,
+            conflictWarning: null,
+            localRevision: shared.localRevision + 1,
+            updatedAt: Date.now(),
+          });
+        }
+      }
+      await sharedTransaction.done;
+    }
   })();
 
   return trackWrite(write);
