@@ -1,0 +1,32 @@
+<button class="install-button" type="button" data-pwa-install hidden>Instalar aplicativo</button>
+
+<script>
+  interface InstallPromptEvent extends Event {
+    prompt(): Promise<void>;
+    userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>;
+  }
+
+  let installPrompt: InstallPromptEvent | null = null;
+  const buttons = document.querySelectorAll<HTMLButtonElement>('[data-pwa-install]');
+
+  window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    installPrompt = event as InstallPromptEvent;
+    for (const button of buttons) button.hidden = false;
+  });
+
+  window.addEventListener('appinstalled', () => {
+    installPrompt = null;
+    for (const button of buttons) button.hidden = true;
+  });
+
+  for (const button of buttons) {
+    button.addEventListener('click', async () => {
+      if (!installPrompt) return;
+      await installPrompt.prompt();
+      await installPrompt.userChoice;
+      installPrompt = null;
+      button.hidden = true;
+    });
+  }
+</script>

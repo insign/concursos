@@ -1,0 +1,137 @@
+---
+interface Props {
+  contestStorageId: string;
+  contestTitle: string;
+}
+
+const { contestStorageId, contestTitle } = Astro.props;
+const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
+---
+
+<section
+  class="offline-package print-hidden"
+  data-offline-package
+  data-contest-storage-id={contestStorageId}
+  data-contest-title={contestTitle}
+  data-manifest-url={manifestUrl}
+  aria-labelledby={`offline-title-${contestStorageId}`}
+>
+  <div>
+    <p class="eyebrow">Acesso sem conexão</p>
+    <h2 id={`offline-title-${contestStorageId}`}>Levar este concurso</h2>
+    <p data-offline-description>Baixe conteúdos, resumos e questões para estudar offline.</p>
+  </div>
+  <div class="offline-package-actions">
+    <button class="button" type="button" data-offline-download>Baixar concurso</button>
+    <button class="button button-secondary" type="button" data-offline-remove hidden>Remover download</button>
+    <progress data-offline-progress value="0" max="1" hidden>0%</progress>
+    <p data-offline-message role="status" aria-live="polite">Verificando disponibilidade...</p>
+  </div>
+</section>
+
+<script>
+  import {
+    downloadContestPackage,
+    getOfflineContestRecord,
+    offlinePackageManifestSchema,
+    removeContestPackage,
+    type OfflinePackageManifest,
+  } from '../lib/offline-packages';
+
+  function formatBytes(bytes: number | null): string {
+    if (bytes === null) return '';
+    if (bytes < 1024 * 1024) return `${Math.ceil(bytes / 1024)} KB`;
+    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-offline-package]').forEach((root) => {
+    const contestStorageId = root.dataset.contestStorageId!;
+    const contestTitle = root.dataset.contestTitle!;
+    const manifestUrl = root.dataset.manifestUrl!;
+    const downloadButton = root.querySelector<HTMLButtonElement>('[data-offline-download]')!;
+    const removeButton = root.querySelector<HTMLButtonElement>('[data-offline-remove]')!;
+    const progress = root.querySelector<HTMLProgressElement>('[data-offline-progress]')!;
+    const message = root.querySelector<HTMLElement>('[data-offline-message]')!;
+    let latestManifest: OfflinePackageManifest | undefined;
+
+    const loadManifest = async () => {
+      const response = await fetch(manifestUrl, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Inventário indisponível: HTTP ${response.status}`);
+      return offlinePackageManifestSchema.parse(await response.json());
+    };
+
+    const renderAvailability = async () => {
+      const record = await getOfflineContestRecord(contestStorageId);
+      latestManifest = undefined;
+      downloadButton.textContent = 'Baixar concurso';
+      downloadButton.hidden = Boolean(record);
+      removeButton.hidden = !record;
+      if (!record) {
+        message.textContent = 'Este concurso ainda não foi baixado.';
+        return;
+      }
+
+      try {
+        latestManifest = await loadManifest();
+      } catch {
+        message.textContent = `Disponível offline desde ${new Date(record.downloadedAt).toLocaleDateString('pt-BR')}.`;
+        return;
+      }
+
+      if (latestManifest.manifestHash !== record.manifestHash) {
+        downloadButton.hidden = false;
+        downloadButton.textContent = 'Atualizar download';
+        message.textContent = 'Há uma atualização disponível. O pacote atual será preservado até o novo ficar pronto.';
+        return;
+      }
+
+      message.textContent = `Disponível offline desde ${new Date(record.downloadedAt).toLocaleDateString('pt-BR')}.`;
+    };
+
+    downloadButton.addEventListener('click', async () => {
+      downloadButton.disabled = true;
+      progress.hidden = false;
+      message.textContent = 'Preparando o download...';
+      try {
+        const manifest = latestManifest ?? await loadManifest();
+        const size = typeof manifest.estimatedBytes === 'number' ? formatBytes(manifest.estimatedBytes) : '';
+        message.textContent = size ? `Baixando aproximadamente ${size}...` : 'Baixando concurso...';
+        await downloadContestPackage(manifest, ({ completed, total }) => {
+          progress.max = total;
+          progress.value = completed;
+          message.textContent = `Baixando ${completed} de ${total} recursos${size ? `, cerca de ${size}` : ''}...`;
+        });
+        message.textContent = `${contestTitle} está disponível offline.`;
+        window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
+        await renderAvailability();
+      } catch (error) {
+        message.textContent = error instanceof Error ? error.message : 'Não foi possível concluir o download.';
+      } finally {
+        downloadButton.disabled = false;
+        progress.hidden = true;
+      }
+    });
+
+    removeButton.addEventListener('click', async () => {
+      if (!window.confirm(`Remover o pacote offline de ${contestTitle}?`)) return;
+      removeButton.disabled = true;
+      message.textContent = 'Removendo download...';
+      try {
+        await removeContestPackage(contestStorageId);
+        window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
+        await renderAvailability();
+      } catch (error) {
+        message.textContent = error instanceof Error ? error.message : 'Não foi possível remover o download.';
+      } finally {
+        removeButton.disabled = false;
+      }
+    });
+
+    if (!('caches' in window)) {
+      downloadButton.disabled = true;
+      message.textContent = 'Este navegador não oferece armazenamento offline compatível.';
+    } else {
+      void renderAvailability();
+    }
+  });
+</script>

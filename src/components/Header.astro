@@ -1,5 +1,7 @@
 ---
 import SyncStatus from './SyncStatus.astro';
+import OfflineStatus from './OfflineStatus.astro';
+import PwaInstallButton from './PwaInstallButton.astro';
 ---
 
 <header class="site-header print-hidden">
@@ -11,5 +13,9 @@ import SyncStatus from './SyncStatus.astro';
     <a href="/">Catálogo</a>
     <a href="/configuracoes/">Configurações</a>
   </nav>
+  <div class="pwa-controls">
+    <OfflineStatus />
+    <PwaInstallButton />
+  </div>
   <SyncStatus />
 </header>

@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.astro';
+import PwaRuntime from '../components/PwaRuntime.astro';
 import '../styles/global.css';
 import '../styles/print.css';
 import 'katex/dist/katex.min.css';
@@ -26,11 +27,15 @@ const pageTitle = title === 'Concursos' ? title : `${title} | Concursos`;
     <meta name="generator" content={Astro.generator} />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#275d55" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <title>{pageTitle}</title>
   </head>
   <body class={pageClass || undefined}>
     <Header />
     <slot />
+    <PwaRuntime />
   </body>
 </html>

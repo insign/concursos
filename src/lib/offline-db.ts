@@ -46,6 +46,32 @@ export interface OfflineContestRecord {
   resourceCount: number;
 }
 
+export async function getOfflineContestRecord(
+  contestStorageId: string,
+): Promise<OfflineContestRecord | undefined> {
+  return (await openOfflineDb()).get('downloads', contestStorageId);
+}
+
+export async function listOfflineContestRecords(): Promise<OfflineContestRecord[]> {
+  return (await openOfflineDb()).getAll('downloads');
+}
+
+export function saveOfflineContestRecord(record: OfflineContestRecord): Promise<void> {
+  return trackWrite(
+    openOfflineDb().then(async (database) => {
+      await database.put('downloads', record);
+    }),
+  );
+}
+
+export function deleteOfflineContestRecord(contestStorageId: string): Promise<void> {
+  return trackWrite(
+    openOfflineDb().then(async (database) => {
+      await database.delete('downloads', contestStorageId);
+    }),
+  );
+}
+
 export interface SyncLeaseRecord {
   name: string;
   ownerId: string;
@@ -467,7 +493,14 @@ export function discardPendingProfile(profileId: string): Promise<void> {
 }
 
 export async function whenLocalWritesSettled(): Promise<void> {
-  await Promise.allSettled([...pendingWrites]);
+  const failures: unknown[] = [];
+  while (pendingWrites.size > 0) {
+    const results = await Promise.allSettled([...pendingWrites]);
+    for (const result of results) {
+      if (result.status === 'rejected') failures.push(result.reason);
+    }
+  }
+  if (failures.length > 0) throw new AggregateError(failures, 'Uma ou mais gravações locais falharam.');
 }
 
 export async function deleteOfflineDatabase(): Promise<void> {

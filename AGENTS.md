@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local, sincronização de respostas, preferências e progresso estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local, sincronização de respostas, preferências, progresso, PWA e pacotes offline estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -122,8 +122,13 @@ npm run preview
 - Mantenha `concursos.helio.me` e `concursos-ebs.pages.dev` com `noindex, nofollow`.
 - `noindex` não oferece privacidade.
 - O tráfego KV deve permanecer NetworkOnly no Service Worker.
-- Downloads de concurso devem ser atômicos e preservar o cache anterior em caso de falha.
+- `vite-plugin-pwa` integra manifesto e Service Worker ao Astro; os inventários offline e o build final do Service Worker são executados após o build Astro por `scripts/generate-offline-inventories.mjs` e `scripts/build-service-worker.mjs`.
+- Os caches persistentes são `shared-assets-v1`, `runtime-pages-v1`, `runtime-media-v1` e os pacotes de concurso `contest--...`.
+- Downloads, remoção e limpeza de pacotes devem ser serializados por Web Locks; se o navegador não puder coordená-los com segurança, a operação deve ser recusada.
+- Pacotes devem armazenar a resposta original de assets same-origin e usar `ignoreVary`; os inventários devem descobrir dependências transitivas de CSS e JavaScript e classificar imagens editoriais como assets do pacote, não compartilhados.
+- Downloads de concurso devem ser atômicos, preservar o cache anterior até a atualização por hash ser ativada e limpar caches de concurso órfãos; a promoção deve remover rotas visitadas equivalentes sem barra, com barra e `index.html` do cache de páginas. Assets compartilhados são intencionalmente retidos para páginas já visitadas.
 - Atualizações automáticas só podem recarregar depois que o estado local estiver durável.
+- O Playwright bloqueia Service Workers por padrão; `tests/e2e/pwa.spec.ts` os habilita explicitamente.
 - Valide PWA, Service Worker, CSP, caches, TLS e headers no domínio real antes de concluir.
 
 ## Segurança

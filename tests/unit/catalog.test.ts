@@ -108,6 +108,7 @@ describe('catalog', () => {
       schemaVersion: 1,
       contestSlug: 'concurso-a',
       contestStorageId: 'a',
+      manifestHash: 'development',
       routes: [
         '/concursos/concurso-a/',
         '/concursos/concurso-a/primeiro/',
@@ -118,6 +119,8 @@ describe('catalog', () => {
         '/concursos/concurso-a/segundo/questoes/',
       ],
       assets: ['/asset.svg'],
+      sharedAssets: [],
+      estimatedBytes: null,
     });
   });
 });

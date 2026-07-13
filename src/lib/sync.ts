@@ -143,6 +143,18 @@ function announceAnswer(documentId: string): void {
   window.dispatchEvent(new CustomEvent('concursos:answer-synced', { detail: { documentId } }));
 }
 
+function scheduleBackgroundSync(): void {
+  if (typeof navigator === 'undefined' || !('serviceWorker' in navigator)) return;
+  void navigator.serviceWorker.ready
+    .then((registration) => {
+      const syncRegistration = registration as ServiceWorkerRegistration & {
+        sync?: { register(tag: string): Promise<void> };
+      };
+      return syncRegistration.sync?.register('concursos-sync');
+    })
+    .catch(() => undefined);
+}
+
 async function loadSyncCatalog(): Promise<SyncCatalogEntry[]> {
   const response = await fetch('/sync-catalog.json', { cache: 'no-store' });
   if (!response.ok) throw new Error(`Não foi possível carregar o catálogo de sincronização: ${response.status}`);
@@ -445,11 +457,13 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
 export function requestProfileSync(profileId = getActiveAlias()): Promise<boolean> {
   if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) {
     announce('offline', 'Sem conexão. As alterações permanecem salvas localmente.');
+    scheduleBackgroundSync();
     return Promise.resolve(false);
   }
   broadcast?.postMessage({ type: 'sync-request', profileId });
   return syncPendingProfile(profileId).catch((error) => {
     announce('error', error instanceof Error ? error.message : 'Falha de sincronização');
+    scheduleBackgroundSync();
     return false;
   });
 }

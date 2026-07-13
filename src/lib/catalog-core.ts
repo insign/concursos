@@ -35,8 +35,11 @@ export interface OfflineInventory {
   schemaVersion: 1;
   contestSlug: string;
   contestStorageId: string;
+  manifestHash: string;
   routes: string[];
   assets: string[];
+  sharedAssets: string[];
+  estimatedBytes: number | null;
 }
 
 function assertUnique(values: string[], label: string): void {
@@ -145,7 +148,10 @@ export function createOfflineInventory(
     schemaVersion: 1,
     contestSlug: contest.slug,
     contestStorageId: contest.storageId,
+    manifestHash: 'development',
     routes,
     assets: [...new Set(assets)].sort(),
+    sharedAssets: [],
+    estimatedBytes: null,
   };
 }

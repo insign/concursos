@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCatalog } from '../lib/catalog';
+
+const { contests } = await getCatalog();
+const contestLookup = Object.fromEntries(
+  contests.map((contest) => [contest.storageId, { title: contest.title, href: `/concursos/${contest.slug}/` }]),
+);
+---
+
+<BaseLayout title="Sem conexão" description="Conteúdo offline disponível no portal Concursos.">
+  <main class="offline-shell" data-offline-page data-contests={JSON.stringify(contestLookup)}>
+    <p class="eyebrow">Modo offline</p>
+    <h1>Este conteúdo não foi baixado</h1>
+    <p>
+      A conexão não está disponível e a página solicitada não faz parte de um concurso salvo neste dispositivo.
+    </p>
+    <p class="connection-callout" data-offline-connection role="status">Verificando a conexão...</p>
+
+    <section aria-labelledby="offline-available-title">
+      <h2 id="offline-available-title">Concursos disponíveis offline</h2>
+      <ul class="offline-available-list" data-offline-list>
+        <li>Consultando downloads deste dispositivo...</li>
+      </ul>
+    </section>
+
+    <a class="button" href="/">Voltar ao catálogo</a>
+  </main>
+</BaseLayout>
+
+<script>
+  import { listOfflineContestRecords } from '../lib/offline-packages';
+
+  const root = document.querySelector<HTMLElement>('[data-offline-page]');
+  if (root) {
+    const contests = JSON.parse(root.dataset.contests ?? '{}') as Record<string, { title: string; href: string }>;
+    const list = root.querySelector<HTMLUListElement>('[data-offline-list]')!;
+    const connection = root.querySelector<HTMLElement>('[data-offline-connection]')!;
+
+    const renderConnection = () => {
+      connection.textContent = navigator.onLine
+        ? 'A conexão voltou. Tente abrir a página novamente.'
+        : 'Você continua offline. Respostas feitas em pacotes baixados ficam salvas neste dispositivo.';
+    };
+
+    const renderDownloads = async () => {
+      const records = await listOfflineContestRecords();
+      list.replaceChildren();
+      if (records.length === 0) {
+        const item = document.createElement('li');
+        item.textContent = 'Nenhum concurso foi baixado neste dispositivo.';
+        list.append(item);
+        return;
+      }
+
+      for (const record of records) {
+        const contest = contests[record.contestStorageId];
+        const item = document.createElement('li');
+        if (!contest) {
+          item.textContent = record.contestStorageId;
+        } else {
+          const link = document.createElement('a');
+          link.href = contest.href;
+          link.textContent = contest.title;
+          item.append(link);
+        }
+        list.append(item);
+      }
+    };
+
+    window.addEventListener('online', renderConnection);
+    window.addEventListener('offline', renderConnection);
+    window.addEventListener('concursos:offline-packages-changed', () => void renderDownloads());
+    renderConnection();
+    void renderDownloads();
+  }
+</script>

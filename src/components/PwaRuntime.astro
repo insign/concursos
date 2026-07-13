@@ -1,0 +1,33 @@
+<script>
+  import { registerSW } from 'virtual:pwa-register';
+  import { whenLocalWritesSettled } from '../lib/offline-db';
+  import { cleanupInactiveContestCaches } from '../lib/offline-packages';
+
+  let activating = false;
+  const updateServiceWorker = registerSW({
+    immediate: true,
+    onNeedRefresh() {
+      if (activating) return;
+      activating = true;
+      void whenLocalWritesSettled()
+        .then(() => updateServiceWorker(true))
+        .catch((error) => console.error('A atualização aguardará até que os dados locais sejam duráveis.', error))
+        .finally(() => {
+          activating = false;
+        });
+    },
+    onNeedReload() {
+      void whenLocalWritesSettled()
+        .then(() => window.location.reload())
+        .catch((error) => console.error('A atualização aguardará até que os dados locais sejam duráveis.', error));
+    },
+  });
+
+  if ('caches' in window) void cleanupInactiveContestCaches().catch(() => undefined);
+
+  navigator.serviceWorker?.addEventListener('message', (event) => {
+    if (event.data?.type === 'SYNC_REQUESTED') {
+      window.dispatchEvent(new CustomEvent('concursos:sync-request'));
+    }
+  });
+</script>

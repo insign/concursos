@@ -1,0 +1,14 @@
+<span class="connection-status" data-connection-status role="status">Online</span>
+
+<script>
+  const updateConnectionStatus = () => {
+    document.querySelectorAll<HTMLElement>('[data-connection-status]').forEach((status) => {
+      status.textContent = navigator.onLine ? 'Online' : 'Offline';
+      status.dataset.state = navigator.onLine ? 'online' : 'offline';
+    });
+  };
+
+  window.addEventListener('online', updateConnectionStatus);
+  window.addEventListener('offline', updateConnectionStatus);
+  updateConnectionStatus();
+</script>
