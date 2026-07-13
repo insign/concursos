@@ -1,8 +1,11 @@
 import type { Question, QuestionSet } from './content-schema';
+import { buildAnswerDocumentId, getActiveAlias } from './identity';
+import { loadAnswerDocument, saveAnswerDocumentSnapshot } from './offline-db';
 import { buildQuestionSeed, deterministicQuestionOrder } from './question-order';
 import {
   createEmptyAnswerDocument,
   isSubmissionValid,
+  reconcileAnswerDocument,
   scoreAnswers,
   submitAnswers,
   type AnswerDocument,
@@ -23,7 +26,7 @@ function requiredElement<T extends Element>(root: ParentNode, selector: string):
   return element;
 }
 
-export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfig): void {
+export async function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfig): Promise<void> {
   if (root.dataset.mounted === 'true') return;
   root.dataset.mounted = 'true';
 
@@ -41,7 +44,23 @@ export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfi
   );
   const shuffleInput = requiredElement<HTMLInputElement>(root, '[data-shuffle-questions]');
 
+  const profileId = getActiveAlias();
+  if (!profileId) {
+    const message = document.createElement('p');
+    message.className = 'empty-state';
+    message.textContent = 'Defina um alias público em Configurações para responder e salvar seu progresso.';
+    questionList.replaceChildren(message);
+    status.textContent = 'Questionário aguardando a definição de um alias.';
+    root.querySelectorAll<HTMLInputElement | HTMLButtonElement>('input, button').forEach((control) => {
+      control.disabled = true;
+    });
+    return;
+  }
+
+  root.dataset.profileId = profileId;
+  const documentId = buildAnswerDocumentId(profileId, config.contestStorageId, config.subjectStorageId);
   let documentState: AnswerDocument = createEmptyAnswerDocument(config.questionSet.questionSetRevision);
+  let writeQueue: Promise<void> = Promise.resolve();
   let layout: QuestionLayout = 'single';
   let correctionMode: CorrectionMode = 'on-submit';
   let shuffle = false;
@@ -51,7 +70,7 @@ export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfi
   const questionOrder = (): Question[] => {
     if (!shuffle) return config.questionSet.questions;
     const seed = buildQuestionSeed(
-      config.userId ?? 'visitante',
+      config.userId ?? profileId,
       config.contestStorageId,
       config.subjectStorageId,
       config.questionSet.questionSetRevision,
@@ -78,7 +97,15 @@ export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfi
     return wrapper;
   };
 
-  const selectAnswer = (question: Question, optionId: string) => {
+  const queueSnapshot = (document: AnswerDocument, dirtyQuestionIds: string[] = []) => {
+    const queued = writeQueue.then(async () => {
+      await saveAnswerDocumentSnapshot({ profileId, documentId, document, dirtyQuestionIds });
+    });
+    writeQueue = queued.catch(() => undefined);
+    return queued;
+  };
+
+  const selectAnswer = async (question: Question, optionId: string) => {
     const submissionWasValid = isSubmissionValid(documentState, config.questionSet);
     documentState = {
       ...documentState,
@@ -88,9 +115,7 @@ export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfi
       },
       submission: null,
     };
-    status.textContent = submissionWasValid
-      ? 'Resposta alterada. A finalização anterior foi invalidada.'
-      : 'Resposta registrada nesta sessão.';
+    status.textContent = 'Salvando resposta neste dispositivo...';
 
     if (correctionMode === 'on-submit') {
       questionList.querySelectorAll('.question-feedback').forEach((feedback) => feedback.remove());
@@ -101,6 +126,17 @@ export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfi
       questionCard?.querySelector('.question-feedback')?.remove();
       const feedback = createFeedback(question);
       if (questionCard && feedback) questionCard.append(feedback);
+    }
+
+    try {
+      await queueSnapshot(documentState, [question.id]);
+      if (documentState.answers[question.id]?.optionId === optionId) {
+        status.textContent = submissionWasValid
+          ? 'Resposta salva localmente. A finalização anterior foi invalidada.'
+          : 'Resposta salva localmente e adicionada à fila de sincronização.';
+      }
+    } catch {
+      status.textContent = 'Não foi possível salvar a resposta localmente. Tente novamente.';
     }
   };
 
@@ -132,7 +168,7 @@ export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfi
       input.value = option.id;
       input.required = true;
       input.checked = documentState.answers[question.id]?.optionId === option.id;
-      input.addEventListener('change', () => selectAnswer(question, option.id));
+      input.addEventListener('change', () => void selectAnswer(question, option.id));
       label.htmlFor = inputId;
       label.textContent = option.text;
       row.append(input, label);
@@ -204,7 +240,7 @@ export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfi
     render();
   });
 
-  form.addEventListener('submit', (event) => {
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const score = scoreAnswers(config.questionSet, documentState.answers);
 
@@ -213,10 +249,33 @@ export function mountQuestionnaire(root: HTMLElement, config: QuestionnaireConfi
       return;
     }
 
+    const previousState = documentState;
     documentState = submitAnswers(documentState, config.questionSet);
-    render();
-    status.textContent = `Finalizado: ${score.correct} de ${score.total} respostas corretas.`;
+    status.textContent = 'Salvando finalização neste dispositivo...';
+
+    try {
+      await queueSnapshot(documentState);
+      render();
+      status.textContent = `Finalizado: ${score.correct} de ${score.total} respostas corretas.`;
+    } catch {
+      documentState = previousState;
+      status.textContent = 'Não foi possível salvar a finalização localmente. Tente novamente.';
+    }
   });
+
+  const storedDocument = await loadAnswerDocument(documentId);
+  if (storedDocument) {
+    const reconciled = reconcileAnswerDocument(storedDocument, config.questionSet);
+    const changed = JSON.stringify(reconciled) !== JSON.stringify(storedDocument);
+    documentState = reconciled;
+
+    if (changed) {
+      const affectedIds = [...new Set([...Object.keys(storedDocument.answers), ...Object.keys(reconciled.answers)])];
+      await queueSnapshot(reconciled, affectedIds);
+    }
+
+    status.textContent = 'Respostas restauradas deste dispositivo.';
+  }
 
   render();
 }

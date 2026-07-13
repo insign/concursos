@@ -20,6 +20,7 @@
     "@astrojs/markdown-remark": "^7.2.1",
     "astro": "^7.0.7",
     "astro-mermaid": "^2.1.0",
+    "idb": "^8.0.3",
     "katex": "^0.17.0",
     "mermaid": "^11.16.0",
     "rehype-katex": "^7.0.1",
@@ -31,6 +32,7 @@
     "@astrojs/check": "^0.9.9",
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.1",
+    "fake-indexeddb": "^6.2.5",
     "typescript": "^6.0.3",
     "vitest": "^4.1.10",
     "wrangler": "^4.110.0"

@@ -2,6 +2,10 @@ import { expect, test } from '@playwright/test';
 
 const questionnaireUrl = '/concursos/concurso-exemplo/assunto-exemplo/questoes/';
 
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('concursos:active-alias', 'teste-7f3k'));
+});
+
 test('renders the three layouts progressively with native controls', async ({ page }) => {
   await page.goto(questionnaireUrl);
 
@@ -52,4 +56,15 @@ test('keeps answers private until a complete on-submit finalization', async ({ p
   await cards.first().locator('input[type="radio"]').nth(1).check();
   await expect(page.getByText('A finalização anterior foi invalidada.')).toBeVisible();
   await expect(page.locator('.question-feedback')).toHaveCount(0);
+});
+
+test('restores a locally durable answer after reopening the page', async ({ page }) => {
+  await page.goto(questionnaireUrl);
+  await page.getByLabel('Imediata').check();
+  await page.getByLabel('Eficiência').check();
+  await expect(page.getByText('Resposta salva localmente')).toBeVisible();
+
+  await page.reload();
+  await expect(page.getByLabel('Eficiência')).toBeChecked();
+  await expect(page.getByText('Respostas restauradas deste dispositivo.')).toBeVisible();
 });

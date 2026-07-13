@@ -26,6 +26,10 @@
   box-sizing: border-box;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 html {
   background: var(--ground);
   scroll-behavior: smooth;
@@ -99,13 +103,15 @@ a:hover {
 
 .catalog-shell,
 .contest-shell,
-.study-shell {
+.study-shell,
+.settings-shell {
   width: min(100% - 2rem, 76rem);
   margin-inline: auto;
 }
 
 .catalog-shell,
-.contest-shell {
+.contest-shell,
+.settings-shell {
   padding-block: clamp(3rem, 8vw, 7rem);
 }
 
@@ -380,6 +386,88 @@ h3 {
   color: var(--muted);
 }
 
+.identity-hint {
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  font-family: var(--sans);
+  font-size: var(--step--1);
+}
+
+.settings-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(18rem, 1.2fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: start;
+}
+
+.identity-form {
+  padding: clamp(1.25rem, 4vw, 2.5rem);
+  border: 1px solid var(--line);
+  background: var(--paper);
+  box-shadow: 0 1rem 3rem rgb(31 46 42 / 0.06);
+  font-family: var(--sans);
+}
+
+.identity-form > label:not(.danger-option) {
+  display: block;
+  margin-top: 1.25rem;
+  font-weight: 800;
+}
+
+.identity-form input[type='text'] {
+  width: 100%;
+  min-height: 2.8rem;
+  margin-top: 0.35rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 0.15rem;
+  color: var(--ink);
+  background: #fff;
+  font: inherit;
+}
+
+.field-help,
+.warning-note {
+  font-size: var(--step--1);
+}
+
+.field-help {
+  margin-top: 0.35rem;
+  color: var(--muted);
+}
+
+.warning-note {
+  padding: 0.8rem 1rem;
+  border-left: 4px solid var(--signal);
+  color: #632c22;
+  background: #f6e8e3;
+}
+
+.danger-option {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  border: 1px solid var(--signal);
+  color: #632c22;
+  font-size: var(--step--1);
+}
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.form-actions p {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--step--1);
+}
+
 .questionnaire-settings {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -572,7 +660,8 @@ h3 {
 
   .catalog-shell,
   .contest-shell,
-  .study-shell {
+  .study-shell,
+  .settings-shell {
     width: min(100% - 1rem, 76rem);
   }
 
@@ -610,6 +699,15 @@ h3 {
   }
 
   .question-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .settings-section {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions {
     align-items: stretch;
     flex-direction: column;
   }

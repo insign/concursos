@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown, catálogo, rotas editoriais e questionário estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário e persistência local estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -95,6 +95,12 @@ npm run preview
 - Valide todo JSON remoto antes de usá-lo.
 - Nunca coloque respostas da API KV no Cache Storage do Service Worker.
 - IndexedDB é a persistência local para respostas e outbox; `localStorage` não substitui a outbox.
+- `src/lib/identity.ts` valida aliases sem normalização; segmentos usam `^[a-z0-9]+(?:-[a-z0-9]+)*$` e os limites do plano.
+- O alias ativo é o único dado de identidade em `localStorage`, na chave `concursos:active-alias`; ele é público e não é conta ou segredo.
+- `src/lib/offline-db.ts` possui stores para respostas, preferências, progresso, downloads, leases e quarentena.
+- Cada resposta local mantém documento atual, snapshot-base, metadados remotos, IDs sujos, outbox, tentativas, erro e aviso de conflito.
+- Toda seleção e finalização deve concluir a transação IndexedDB antes de anunciar salvamento local.
+- Trocar de alias nunca reutiliza respostas do perfil anterior; pendências exigem sincronização online ou descarte explícito offline.
 - Preserve o coordenador único, merge por questão e remote-wins descritos no plano.
 - Não declare sincronização perfeita, pois a API não possui compare-and-set.
 

@@ -1,0 +1,93 @@
+<section class="settings-section" aria-labelledby="identity-title">
+  <div>
+    <p class="eyebrow">Perfil público</p>
+    <h1 id="identity-title">Alias de sincronização</h1>
+    <p>
+      O alias separa seus dados neste dispositivo e compõe IDs públicos na API. Ele não é conta, senha nem proteção de privacidade.
+    </p>
+  </div>
+
+  <form class="identity-form" data-identity-form>
+    <p>Alias atual: <strong data-current-alias>Nenhum</strong></p>
+    <label for="profile-alias">Novo alias</label>
+    <input
+      id="profile-alias"
+      name="alias"
+      type="text"
+      maxlength="32"
+      pattern="[a-z0-9]+(?:-[a-z0-9]+)*"
+      autocomplete="username"
+      aria-describedby="alias-help alias-warning"
+      required
+    />
+    <p id="alias-help" class="field-help">Use letras minúsculas, números e hífens. O valor não será normalizado.</p>
+    <p id="alias-warning" class="warning-note">
+      Prefira algo menos previsível que seu nome. Qualquer pessoa que descubra o ID poderá ler, alterar ou apagar os dados remotos.
+    </p>
+
+    <label class="danger-option" data-discard-option hidden>
+      <input type="checkbox" name="discardPending" />
+      Descartar alterações locais pendentes do alias atual ao trocar enquanto estiver offline
+    </label>
+
+    <div class="form-actions">
+      <button class="button" type="submit">Usar este alias</button>
+      <p data-identity-status aria-live="polite"></p>
+    </div>
+  </form>
+</section>
+
+<script>
+  import {
+    changeActiveAlias,
+    getActiveAlias,
+    isAliasEasyToGuess,
+    PendingProfileChangeError,
+  } from '../lib/identity';
+
+  document.querySelectorAll<HTMLFormElement>('[data-identity-form]').forEach((form) => {
+    const aliasInput = form.elements.namedItem('alias') as HTMLInputElement;
+    const discardInput = form.elements.namedItem('discardPending') as HTMLInputElement;
+    const submitButton = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
+    const status = form.querySelector<HTMLElement>('[data-identity-status]')!;
+    const current = form.querySelector<HTMLElement>('[data-current-alias]')!;
+    const discardOption = form.querySelector<HTMLElement>('[data-discard-option]')!;
+
+    const refreshConnectionControls = () => {
+      discardOption.hidden = navigator.onLine;
+      if (navigator.onLine) discardInput.checked = false;
+    };
+
+    current.textContent = getActiveAlias() ?? 'Nenhum';
+    refreshConnectionControls();
+    window.addEventListener('online', refreshConnectionControls);
+    window.addEventListener('offline', refreshConnectionControls);
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      submitButton.disabled = true;
+      status.textContent = 'Validando perfil...';
+
+      try {
+        await changeActiveAlias(aliasInput.value, {
+          discardPending: discardInput.checked,
+        });
+        status.textContent = isAliasEasyToGuess(aliasInput.value)
+          ? 'Alias salvo. Considere usar um valor menos previsível.'
+          : 'Alias salvo neste dispositivo.';
+        window.setTimeout(() => window.location.reload(), 250);
+      } catch (error) {
+        if (error instanceof PendingProfileChangeError) {
+          status.textContent =
+            error.reason === 'sync-required'
+              ? 'Há alterações pendentes. Sincronize antes de trocar de alias.'
+              : 'Confirme o descarte das pendências ou cancele a troca.';
+        } else {
+          status.textContent = error instanceof Error ? error.message : 'Não foi possível alterar o alias.';
+        }
+      } finally {
+        submitButton.disabled = false;
+      }
+    });
+  });
+</script>

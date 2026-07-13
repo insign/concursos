@@ -20,6 +20,7 @@ const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subject
     <p class="eyebrow">Prática</p>
     <h1>Questões</h1>
     <p>{questionSet.questions.length} questões no conjunto editorial atual.</p>
+    <p class="identity-hint print-hidden">As respostas ficam separadas pelo alias público definido em <a href="/configuracoes/">Configurações</a>.</p>
   </header>
 
   <div class="questionnaire-settings print-hidden">
@@ -69,6 +70,11 @@ const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subject
 
   document.querySelectorAll<HTMLElement>('[data-questionnaire]').forEach((root) => {
     const data = root.querySelector<HTMLScriptElement>('[data-questionnaire-config]')?.textContent;
-    if (data) mountQuestionnaire(root, JSON.parse(data) as QuestionnaireConfig);
+    if (data) {
+      void mountQuestionnaire(root, JSON.parse(data) as QuestionnaireConfig).catch(() => {
+        const status = root.querySelector<HTMLElement>('[data-question-status]');
+        if (status) status.textContent = 'Não foi possível abrir o armazenamento local.';
+      });
+    }
   });
 </script>
