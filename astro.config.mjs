@@ -10,6 +10,28 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   output: 'static',
   site: 'https://concursos.helio.me',
+  security: {
+    csp: {
+      scriptDirective: {
+        resources: ["'self'"],
+      },
+      styleDirective: {
+        resources: ["'self'", "'unsafe-inline'"],
+      },
+      directives: [
+        "default-src 'self'",
+        "base-uri 'self'",
+        "connect-src 'self' https://kv.helio.me",
+        "font-src 'self' data:",
+        "form-action 'self'",
+        "frame-src 'none'",
+        "img-src 'self'",
+        "manifest-src 'self'",
+        "object-src 'none'",
+        "worker-src 'self'",
+      ],
+    },
+  },
   integrations: [
     astroMermaid({
       autoTheme: false,

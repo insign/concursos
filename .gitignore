@@ -3,6 +3,7 @@ dist/
 
 # generated types
 .astro/
+.wrangler/
 
 # test artifacts
 test-results/

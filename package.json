@@ -13,7 +13,7 @@
     "test:unit": "vitest run tests/unit",
     "test:e2e": "playwright test",
     "icons": "node scripts/generate-icons.mjs",
-    "build": "astro build && node scripts/generate-offline-inventories.mjs && node scripts/build-service-worker.mjs",
+    "build": "astro build && node scripts/finalize-security.mjs && node scripts/generate-offline-inventories.mjs && node scripts/build-service-worker.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

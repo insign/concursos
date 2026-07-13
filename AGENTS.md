@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local, sincronização de respostas, preferências, progresso, PWA e pacotes offline estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local, sincronização de respostas, preferências, progresso, PWA, pacotes offline, segurança, CSP, headers e noindex estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -39,7 +39,7 @@ npm run preview
 ```
 
 - Execute `npm run test:unit`, `npm run check` e `npm run build` após mudanças em conteúdo, schemas ou catálogo.
-- `npm run test` executa a suíte Vitest completa; `npm run test:e2e` executa Playwright Chromium com servidor Astro local.
+- `npm run test` executa a suíte Vitest completa; `npm run test:e2e` executa Playwright Chromium sobre `dist` servido por `wrangler pages dev`, para aplicar `public/_headers`.
 - Use Wrangler v4 instalado no projeto para diagnóstico do Pages.
 - Não use `wrangler pages project create`: isso criaria um projeto Direct Upload separado e sem a Git integration existente.
 
@@ -122,13 +122,13 @@ npm run preview
 - Mantenha `concursos.helio.me` e `concursos-ebs.pages.dev` com `noindex, nofollow`.
 - `noindex` não oferece privacidade.
 - O tráfego KV deve permanecer NetworkOnly no Service Worker.
-- `vite-plugin-pwa` integra manifesto e Service Worker ao Astro; os inventários offline e o build final do Service Worker são executados após o build Astro por `scripts/generate-offline-inventories.mjs` e `scripts/build-service-worker.mjs`.
+- `vite-plugin-pwa` integra manifesto e Service Worker ao Astro; `scripts/finalize-security.mjs` é executado imediatamente após o build Astro e antes dos inventários offline e do build final do Service Worker por `scripts/generate-offline-inventories.mjs` e `scripts/build-service-worker.mjs`.
 - Os caches persistentes são `shared-assets-v1`, `runtime-pages-v1`, `runtime-media-v1` e os pacotes de concurso `contest--...`.
 - Downloads, remoção e limpeza de pacotes devem ser serializados por Web Locks; se o navegador não puder coordená-los com segurança, a operação deve ser recusada.
 - Pacotes devem armazenar a resposta original de assets same-origin e usar `ignoreVary`; os inventários devem descobrir dependências transitivas de CSS e JavaScript e classificar imagens editoriais como assets do pacote, não compartilhados.
 - Downloads de concurso devem ser atômicos, preservar o cache anterior até a atualização por hash ser ativada e limpar caches de concurso órfãos; a promoção deve remover rotas visitadas equivalentes sem barra, com barra e `index.html` do cache de páginas. Assets compartilhados são intencionalmente retidos para páginas já visitadas.
 - Atualizações automáticas só podem recarregar depois que o estado local estiver durável.
-- O Playwright bloqueia Service Workers por padrão; `tests/e2e/pwa.spec.ts` os habilita explicitamente.
+- O Playwright continua bloqueando Service Workers por padrão e serve `dist` com `wrangler pages dev` para que os headers de Pages sejam aplicados; `tests/e2e/pwa.spec.ts` os habilita explicitamente.
 - Valide PWA, Service Worker, CSP, caches, TLS e headers no domínio real antes de concluir.
 
 ## Segurança
@@ -137,7 +137,12 @@ npm run preview
 - Não exponha credenciais da Cloudflare ou GitHub em comandos, logs, bundle ou documentação.
 - Mantenha Mermaid em `securityLevel: "strict"`.
 - Preserve `X-Robots-Tag: noindex, nofollow` e a meta tag equivalente.
-- CSP deve permitir apenas as origens necessárias, incluindo `https://kv.helio.me` em `connect-src`.
+- O Astro gera uma meta CSP por página com hashes SHA-256 para scripts; `script-src` nunca pode permitir `unsafe-inline` nem `unsafe-eval`.
+- `scripts/finalize-security.mjs` deve validar a CSP gerada e substituir somente `style-src`, permitindo estilos inline exigidos por KaTeX, Shiki e Mermaid.
+- `public/_headers` é a fonte da CSP HTTP e de `frame-ancestors`, `X-Robots-Tag`, `Permissions-Policy`, `X-Content-Type-Options`, políticas de referrer e frame, e cache de assets hashados, manifesto e Service Worker.
+- CSP deve permitir somente `'self'` e `https://kv.helio.me` em `connect-src`; `font-src` pode incluir `data:` para fontes Mermaid, e `unsafe-eval` permanece proibido.
+- `robots.txt` deve permitir crawling para que crawlers observem o `noindex`; `noindex` não oferece privacidade.
+- A página 404 própria deve usar `BaseLayout` e preservar a meta `noindex` e a CSP.
 - Trate o alias do usuário como identificador público, não como conta ou segredo.
 
 ## Git e validação
