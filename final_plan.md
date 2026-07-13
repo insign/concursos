@@ -2,7 +2,7 @@
 
 Data de consolidação: 13 de julho de 2026
 
-Status: aprovado para execução futura
+Status: baseline técnico e Cloudflare concluídos; implementação funcional pendente
 
 Este documento é a fonte de verdade autocontida para implementar o projeto. A execução não deve depender da conversa que originou o plano, de memória externa ou de contexto adicional. Em caso de divergência entre este arquivo e uma suposição feita durante a implementação, este arquivo prevalece, salvo instrução posterior e explícita do usuário.
 
@@ -21,6 +21,28 @@ Este documento é a fonte de verdade autocontida para implementar o projeto. A e
 | Interface | Componentes Astro, JavaScript/TypeScript nativo e CSS próprio |
 | Idioma principal | Português brasileiro |
 | Indexação | Público, mas com `noindex, nofollow` |
+| Projeto Cloudflare Pages | `concursos` com Git integration |
+| URL Pages | `https://concursos-ebs.pages.dev` |
+| Deployment inicial | Commit `338c612` da branch `main` |
+
+### 1.1 Baseline já concluído
+
+Os itens abaixo existem e não devem ser recriados:
+
+- Repositório GitHub público `insign/concursos` com branch padrão `main`.
+- Commit âncora do plano `bd4e73d`.
+- Scaffold Astro 7 estático com npm e TypeScript strict.
+- Scripts `dev`, `check`, `build`, `preview` e `astro`.
+- `package-lock.json` versionado.
+- `site: "https://concursos.helio.me"` e `output: "static"` no Astro.
+- `noindex, nofollow` no HTML inicial e em `public/_headers`.
+- Projeto Cloudflare Pages `concursos` conectado ao GitHub.
+- Produção configurada a partir de `main`, build `npm run build` e saída `dist`.
+- Primeiro deployment concluído e acessível em `https://concursos-ebs.pages.dev`.
+- Custom domain `https://concursos.helio.me` associado, com TLS e resposta HTTP 200.
+- `X-Robots-Tag: noindex, nofollow` verificado tanto no domínio Pages quanto no domínio personalizado.
+
+O executor deve evoluir esse baseline. Não deve criar outro projeto Pages, trocar o projeto para Direct Upload ou substituir a Git integration existente.
 
 ## 2. Objetivo
 
@@ -50,7 +72,7 @@ Cada assunto oferece três telas independentes:
 - Permitir leitura e respostas offline.
 - Permitir baixar ou remover um concurso completo para uso offline.
 - Sincronizar alterações quando a conexão retornar.
-- Publicar no Cloudflare Pages em `concursos.helio.me`.
+- Manter deploy automático no Cloudflare Pages e validar a aplicação final em `concursos.helio.me`.
 - Impedir indexação por buscadores sem alegar privacidade.
 - Criar um `AGENTS.md` autoritativo na raiz somente ao final da implementação.
 
@@ -84,6 +106,7 @@ Cada assunto oferece três telas independentes:
 - `mermaid`.
 - `@vite-pwa/astro`.
 - `idb`.
+- `wrangler` v4, já instalado como dependência de desenvolvimento para diagnóstico e operações do Pages.
 - Módulos Workbox necessários para precache, roteamento, estratégias, expiração e respostas cacheáveis.
 - Vitest para testes unitários.
 - Playwright para testes de navegador, PWA, impressão e offline.
@@ -162,6 +185,7 @@ concursos/
 │   ├── unit/
 │   └── e2e/
 ├── astro.config.mjs
+├── final_plan.md
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
@@ -862,18 +886,26 @@ Não bloquear crawling com `robots.txt` de modo que o crawler deixe de observar 
 
 ## 34. Cloudflare Pages
 
+- O projeto Pages `concursos` já existe na conta Cloudflare Hélio.
+- O projeto já possui Git integration com `https://github.com/insign/concursos`.
+- A branch de produção já é `main`.
+- O build já usa `npm run build` e publica `dist`.
+- A URL atribuída é `https://concursos-ebs.pages.dev`.
+- O custom domain `https://concursos.helio.me` já está associado e ativo.
+- O deployment inicial do commit `338c612` respondeu HTTP 200.
+- Não recriar o projeto via `wrangler pages project create`, pois isso criaria um projeto Direct Upload sem possibilidade posterior de adicionar Git integration.
 - Astro usa `output: "static"`.
 - Build: `npm run build`.
 - Saída: `dist`.
 - Não adicionar adapter Cloudflare para o site estático.
 - Configurar `site: "https://concursos.helio.me"`.
-- Conectar o GitHub ao Cloudflare Pages.
-- Configurar custom domain `concursos.helio.me`.
 - Manifest e Service Worker devem ser revalidáveis.
 - HTML deve ser revalidável.
 - Assets hashados podem usar cache longo e `immutable`.
 - `_headers` deve aplicar `X-Robots-Tag` e CSP.
-- Validar headers no domínio real, não apenas localmente.
+- A implementação restante deve usar previews do Pages para validar PWA, Service Worker, CSP e caches.
+- Ao final, validar novamente conteúdo, TLS, headers, manifest, Service Worker e comportamento offline no domínio real.
+- Preservar a Git integration e o deployment automático; Wrangler pode ser usado para leitura e diagnóstico, não para converter o projeto em Direct Upload.
 
 ## 35. Página offline
 
@@ -982,19 +1014,18 @@ Testes automatizados devem mockar HTTP. Nunca testar com ID de produção descon
 
 | Fase | Entrega | Gate |
 | --- | --- | --- |
-| 1 | Scaffold Astro, npm, TypeScript e scripts | `npm run check` e build mínimo |
-| 2 | Pipeline Markdown, KaTeX e Mermaid | Build e página de demonstração |
-| 3 | Content Collections, schemas e catálogo | Fixtures válidas e inválidas |
-| 4 | Rotas, layouts, CSS e impressão | Navegação, responsividade e print |
-| 5 | Questionário e três layouts | Unitários e acessibilidade |
-| 6 | Identidade, IndexedDB e documentos | Persistência local testada |
-| 7 | Cliente KV e sincronização | HTTP mockado e conflitos |
-| 8 | Preferências e progresso | Reparo e estado desatualizado |
-| 9 | PWA e download de concurso | Testes offline e de quota |
-| 10 | Segurança, CSP, headers e noindex | Verificação em preview |
-| 11 | Backup, UX de erro e acabamento | Fluxos completos |
-| 12 | Testes finais e deploy | Cloudflare preview e domínio |
-| 13 | `AGENTS.md` autoritativo | Documento conferido contra o código real |
+| 1 | Pipeline Markdown, KaTeX e Mermaid | Build e página de demonstração |
+| 2 | Content Collections, schemas e catálogo | Fixtures válidas e inválidas |
+| 3 | Rotas, layouts, CSS e impressão | Navegação, responsividade e print |
+| 4 | Questionário e três layouts | Unitários e acessibilidade |
+| 5 | Identidade, IndexedDB e documentos | Persistência local testada |
+| 6 | Cliente KV e sincronização | HTTP mockado e conflitos |
+| 7 | Preferências e progresso | Reparo e estado desatualizado |
+| 8 | PWA e download de concurso | Testes offline e de quota |
+| 9 | Segurança, CSP, headers e noindex | Verificação no preview existente |
+| 10 | Backup, UX de erro e acabamento | Fluxos completos |
+| 11 | Testes finais e produção | Preview, deployment automático e domínio existente |
+| 12 | `AGENTS.md` autoritativo | Documento conferido contra o código real |
 
 Não avançar uma fase com gate quebrado. Corrigir antes de seguir.
 
@@ -1073,8 +1104,8 @@ O projeto está concluído somente quando:
 - Concurso pode ser baixado e removido.
 - API KV nunca entra no Cache Storage.
 - Build e testes passam.
-- Cloudflare Pages publica `dist`.
-- `concursos.helio.me` responde corretamente.
+- O deployment automático do Cloudflare Pages publica o `dist` final a partir de `main`.
+- `concursos.helio.me` responde corretamente com a aplicação final.
 - Headers `noindex` e CSP estão presentes.
 - Nenhum segredo está no bundle ou repositório.
 - `AGENTS.md` final existe e corresponde ao projeto real.
@@ -1083,16 +1114,17 @@ O projeto está concluído somente quando:
 
 1. Leia este arquivo integralmente antes de alterar o projeto.
 2. Leia as regras `AGENTS.md` herdadas do ambiente.
-3. Como o repositório começa vazio, confirme o estado do Git e a branch antes do scaffold.
-4. Preserve este arquivo como referência autoritativa durante a implementação.
-5. Se o protocolo do ambiente exigir plano ancorado em commits, crie o commit de plano antes do código e referencie este documento.
+3. Confirme o estado do Git e recupere o plano ativo a partir do commit âncora `bd4e73d` antes de continuar.
+4. Não recrie o scaffold, o projeto Cloudflare Pages, a Git integration ou o custom domain já existentes.
+5. Preserve este arquivo como referência autoritativa durante a implementação.
 6. Implemente por fases e valide o gate de cada uma.
 7. Use documentação atual para Astro, Vite PWA, Workbox, Mermaid e KaTeX.
-8. Não invente namespaces para testes reais da API.
-9. Não reduza silenciosamente requisitos de offline, sincronização ou validação.
-10. Se uma restrição técnica impossibilitar uma decisão deste plano, pare, apresente evidências e peça decisão ao usuário.
-11. Crie `AGENTS.md` somente no final, com base no projeto real.
-12. Não considere a entrega concluída enquanto a definição de pronto não for atendida.
+8. Use previews do projeto Pages existente durante a implementação.
+9. Não invente namespaces para testes reais da API.
+10. Não reduza silenciosamente requisitos de offline, sincronização ou validação.
+11. Se uma restrição técnica impossibilitar uma decisão deste plano, pare, apresente evidências e peça decisão ao usuário.
+12. Crie `AGENTS.md` somente no final, com base no projeto real.
+13. Não considere a entrega concluída enquanto a definição de pronto não for atendida.
 
 ## 44. Referências técnicas
 
