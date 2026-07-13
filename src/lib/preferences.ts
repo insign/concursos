@@ -51,6 +51,10 @@ export async function savePreferences(
   dirtyFields: PreferenceField[],
 ): Promise<void> {
   await saveSharedDocument('preferences', profileId, preferencesSchema.parse(preferences), dirtyFields);
+  if (dirtyFields.includes('correctionMode')) {
+    const { invalidateProgressForCorrectionMode } = await import('./progress');
+    await invalidateProgressForCorrectionMode(profileId, preferences.correctionMode);
+  }
 }
 
 export function withPreference(

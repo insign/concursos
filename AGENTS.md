@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local, sincronização de respostas, preferências, progresso, PWA, pacotes offline, segurança, CSP, headers e noindex estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local, sincronização de respostas, preferências, progresso, PWA, pacotes offline, segurança, CSP, headers, noindex e portabilidade de perfil por backup/importação estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -101,6 +101,9 @@ npm run preview
 - Cada resposta local mantém documento atual, snapshot-base, metadados remotos, IDs sujos, outbox, tentativas, erro e aviso de conflito.
 - Toda seleção e finalização deve concluir a transação IndexedDB antes de anunciar salvamento local.
 - Trocar de alias nunca reutiliza respostas do perfil anterior; pendências exigem sincronização online ou descarte explícito offline.
+- O backup de perfil usa schema v1 com `schemaVersion`, `exportedAt`, `sourceAlias`, documentos de respostas identificados pelos `contestStorageId` e `subjectStorageId` estáveis, e preferências; não exporta metadados internos de sincronização, progresso, leases, quarentena ou downloads.
+- A exportação aguarda escritas locais, inclui apenas assuntos do catálogo atual e reconcilia respostas às revisões e opções atuais das questões.
+- A importação exige confirmação explícita, sempre grava no alias ativo e valida estritamente o schema e o catálogo atual; ela sobrepõe atomicamente os assuntos importados, preserva assuntos locais não relacionados, substitui preferências, reconstrói progresso e tenta novamente snapshots de perfil obsoletos até três vezes. Dados importados permanecem pendentes para sincronização.
 - `src/lib/kv-client.ts` é o único cliente do KV: usa `fetch`, timeout, limite operacional de corpo e retry limitado para 429, sem `Authorization`.
 - `src/lib/sync.ts` coordena uma fila serial limitada a duas requisições por segundo, protegida por lease IndexedDB e acordada entre abas por `BroadcastChannel`.
 - O catálogo estático `/sync-catalog.json` fornece schemas editoriais ao coordenador; ele não contém identidade nem estado do usuário.
@@ -112,6 +115,8 @@ npm run preview
 - Preferências são cacheadas no IndexedDB, sincronizadas no documento global e mescladas por campo; no mesmo campo alterado dos dois lados, o remoto observado prevalece.
 - Progresso é uma visão materializada das respostas, não sua fonte; no modo `on-submit`, `correct` só existe depois de submissão válida.
 - Progresso mescla por assunto e maior `answerVersion`; revisão divergente aparece como desatualizada, e Configurações oferece recálculo sequencial local.
+- Não publique progresso antes de sincronizar respostas pendentes do catálogo atual e preferências. Mudanças de `correctionMode` sanitizam imediatamente o progresso local não submetido e persistem um marcador que força atualizar respostas do catálogo atual antes de rematerializá-lo.
+- Antes do primeiro PUT de progresso e em cada retry por 429, confira as revisões exatas de progresso e preferências e a ausência de respostas pendentes; filtre assuntos removidos do catálogo e mantenha registros de respostas órfãos como erros sem bloquear o progresso válido.
 - Falha de preferências ou progresso permanece recuperável e nunca invalida o documento de respostas.
 - Não declare sincronização perfeita, pois a API não possui compare-and-set.
 

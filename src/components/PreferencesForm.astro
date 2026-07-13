@@ -47,10 +47,17 @@
       return;
     }
 
-    const preferences = await loadPreferences(profileId);
-    (form.elements.namedItem('questionLayout') as RadioNodeList).value = preferences.questionLayout;
-    (form.elements.namedItem('correctionMode') as RadioNodeList).value = preferences.correctionMode;
-    (form.elements.namedItem('shuffleQuestions') as HTMLInputElement).checked = preferences.shuffleQuestions;
+    const applyStoredPreferences = async () => {
+      const preferences = await loadPreferences(profileId);
+      (form.elements.namedItem('questionLayout') as RadioNodeList).value = preferences.questionLayout;
+      (form.elements.namedItem('correctionMode') as RadioNodeList).value = preferences.correctionMode;
+      (form.elements.namedItem('shuffleQuestions') as HTMLInputElement).checked = preferences.shuffleQuestions;
+    };
+    await applyStoredPreferences();
+    window.addEventListener('concursos:preferences-updated', (event) => {
+      const updatedProfileId = (event as CustomEvent<{ profileId: string }>).detail.profileId;
+      if (updatedProfileId === profileId) void applyStoredPreferences();
+    });
 
     form.addEventListener('submit', async (event) => {
       event.preventDefault();

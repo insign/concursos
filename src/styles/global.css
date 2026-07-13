@@ -565,7 +565,8 @@ h3 {
   font-weight: 800;
 }
 
-.identity-form input[type='text'] {
+.identity-form input[type='text'],
+.identity-form input[type='file'] {
   width: 100%;
   min-height: 2.8rem;
   margin-top: 0.35rem;
@@ -575,6 +576,10 @@ h3 {
   color: var(--ink);
   background: #fff;
   font: inherit;
+}
+
+.identity-form input[type='file'] {
+  padding: 0.5rem;
 }
 
 .field-help,

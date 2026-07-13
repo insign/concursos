@@ -186,6 +186,48 @@ export function saveSharedDocument(
   return trackWrite(write);
 }
 
+export function saveProgressIfPreferencesUnchanged(
+  profileId: string,
+  expectedPreferencesRevision: number | null,
+  document: unknown,
+  dirtyFields: string[],
+): Promise<boolean> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction(['preferences', 'progress'], 'readwrite');
+    const preferences = await transaction.objectStore('preferences').get(profileId);
+    const preferencesMatch =
+      expectedPreferencesRevision === null
+        ? preferences === undefined
+        : preferences?.localRevision === expectedPreferencesRevision;
+    if (!preferencesMatch || preferences?.outboxState === 'pending') {
+      await transaction.done;
+      return false;
+    }
+
+    const progressStore = transaction.objectStore('progress');
+    const existing = await progressStore.get(profileId);
+    await progressStore.put({
+      profileId,
+      current: document,
+      base: existing?.base ?? null,
+      remoteVersion: existing?.remoteVersion ?? null,
+      remoteCreatedAt: existing?.remoteCreatedAt ?? null,
+      dirtyFields: [...new Set([...(existing?.dirtyFields ?? []), ...dirtyFields])].sort(),
+      outboxState: 'pending',
+      attempts: existing?.attempts ?? 0,
+      lastError: null,
+      conflictWarning: existing?.conflictWarning ?? null,
+      localRevision: (existing?.localRevision ?? 0) + 1,
+      updatedAt: Date.now(),
+    });
+    await transaction.done;
+    return true;
+  })();
+
+  return trackWrite(write);
+}
+
 export interface MarkSharedSyncedInput {
   storeName: SharedStoreName;
   profileId: string;
@@ -194,6 +236,8 @@ export interface MarkSharedSyncedInput {
   remoteVersion: number;
   remoteCreatedAt: string | null;
   conflictWarning?: string | null;
+  pendingDocument?: unknown;
+  pendingDirtyFields?: string[];
 }
 
 export function markSharedDocumentSynced(input: MarkSharedSyncedInput): Promise<void> {
@@ -202,18 +246,29 @@ export function markSharedDocumentSynced(input: MarkSharedSyncedInput): Promise<
     const transaction = database.transaction(input.storeName, 'readwrite');
     const existing = await transaction.store.get(input.profileId);
     const changedDuringRequest = existing && existing.localRevision !== input.expectedLocalRevision;
+    const keepPending = !changedDuringRequest && input.pendingDocument !== undefined;
     await transaction.store.put({
       profileId: input.profileId,
-      current: changedDuringRequest ? existing.current : input.synchronizedDocument,
+      current: changedDuringRequest
+        ? existing.current
+        : keepPending
+          ? input.pendingDocument
+          : input.synchronizedDocument,
       base: input.synchronizedDocument,
       remoteVersion: input.remoteVersion,
       remoteCreatedAt: input.remoteCreatedAt,
-      dirtyFields: changedDuringRequest ? existing.dirtyFields : [],
-      outboxState: changedDuringRequest ? 'pending' : 'clean',
+      dirtyFields: changedDuringRequest
+        ? existing.dirtyFields
+        : keepPending
+          ? [...new Set(input.pendingDirtyFields ?? [])].sort()
+          : [],
+      outboxState: changedDuringRequest || keepPending ? 'pending' : 'clean',
       attempts: 0,
       lastError: null,
       conflictWarning: input.conflictWarning ?? null,
-      localRevision: existing?.localRevision ?? 0,
+      localRevision: keepPending
+        ? (existing?.localRevision ?? 0) + 1
+        : existing?.localRevision ?? 0,
       updatedAt: changedDuringRequest ? existing.updatedAt : Date.now(),
     });
     await transaction.done;
@@ -297,10 +352,15 @@ export interface StoreRemoteAnswerInput {
   conflictWarning?: string | null;
 }
 
-export function storeRemoteAnswerDocument(input: StoreRemoteAnswerInput): Promise<void> {
+export function storeRemoteAnswerDocument(input: StoreRemoteAnswerInput): Promise<boolean> {
   const write = (async () => {
     const database = await openOfflineDb();
     const transaction = database.transaction('responses', 'readwrite');
+    const existing = await transaction.store.get(input.documentId);
+    if (existing) {
+      await transaction.done;
+      return false;
+    }
     await transaction.store.put({
       documentId: input.documentId,
       profileId: input.profileId,
@@ -318,6 +378,7 @@ export function storeRemoteAnswerDocument(input: StoreRemoteAnswerInput): Promis
       updatedAt: Date.now(),
     });
     await transaction.done;
+    return true;
   })();
 
   return trackWrite(write);
@@ -325,6 +386,133 @@ export function storeRemoteAnswerDocument(input: StoreRemoteAnswerInput): Promis
 
 export async function listPendingAnswerRecords(profileId: string): Promise<LocalAnswerRecord[]> {
   return (await openOfflineDb()).getAllFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']);
+}
+
+export async function listProfileAnswerRecords(profileId: string): Promise<LocalAnswerRecord[]> {
+  return (await openOfflineDb()).getAllFromIndex('responses', 'by-profile', profileId);
+}
+
+export interface ProfileImportAnswer {
+  documentId: string;
+  document: AnswerDocument;
+  dirtyQuestionIds: string[];
+}
+
+export interface SaveProfileImportInput {
+  profileId: string;
+  answers: ProfileImportAnswer[];
+  expectedAnswers: Array<{
+    documentId: string;
+    localRevision: number;
+    remoteVersion: number | null;
+    updatedAt: number;
+  }>;
+  preferences: unknown;
+  progress: unknown;
+  progressDirtyFields: string[];
+}
+
+export class ProfileImportConflictError extends Error {}
+
+export function saveProfileImport(input: SaveProfileImportInput): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction(['responses', 'preferences', 'progress'], 'readwrite');
+    const responses = transaction.objectStore('responses');
+    const now = Date.now();
+    const currentAnswers = await responses.index('by-profile').getAll(input.profileId);
+    const expectedAnswers = new Map(
+      input.expectedAnswers.map(({ documentId, ...state }) => [documentId, state]),
+    );
+    const answersChanged =
+      currentAnswers.length !== expectedAnswers.size ||
+      currentAnswers.some((record) => {
+        const expected = expectedAnswers.get(record.documentId);
+        return (
+          !expected ||
+          expected.localRevision !== record.localRevision ||
+          expected.remoteVersion !== record.remoteVersion ||
+          expected.updatedAt !== record.updatedAt
+        );
+      });
+    if (answersChanged) {
+      transaction.abort();
+      await transaction.done.catch(() => undefined);
+      throw new ProfileImportConflictError('As respostas locais mudaram durante a importação');
+    }
+
+    for (const answer of input.answers) {
+      const existing = await responses.get(answer.documentId);
+      if (existing && existing.profileId !== input.profileId) {
+        transaction.abort();
+        await transaction.done.catch(() => undefined);
+        throw new Error('O documento importado pertence a outro perfil local');
+      }
+      await responses.put({
+        documentId: answer.documentId,
+        profileId: input.profileId,
+        current: answer.document,
+        base: existing?.base ?? null,
+        remoteVersion: existing?.remoteVersion ?? null,
+        remoteCreatedAt: existing?.remoteCreatedAt ?? null,
+        dirtyQuestionIds: [...new Set([...(existing?.dirtyQuestionIds ?? []), ...answer.dirtyQuestionIds])].sort(),
+        outboxState: 'pending',
+        attempts: existing?.attempts ?? 0,
+        nextAttemptAt: null,
+        lastError: null,
+        conflictWarning: existing?.conflictWarning ?? null,
+        localRevision: (existing?.localRevision ?? 0) + 1,
+        updatedAt: now,
+      });
+    }
+
+    const preferences = transaction.objectStore('preferences');
+    const existingPreferences = await preferences.get(input.profileId);
+    await preferences.put({
+      profileId: input.profileId,
+      current: input.preferences,
+      base: existingPreferences?.base ?? null,
+      remoteVersion: existingPreferences?.remoteVersion ?? null,
+      remoteCreatedAt: existingPreferences?.remoteCreatedAt ?? null,
+      dirtyFields: [
+        ...new Set([
+          ...(existingPreferences?.dirtyFields ?? []),
+          'questionLayout',
+          'correctionMode',
+          'shuffleQuestions',
+        ]),
+      ].sort(),
+      outboxState: 'pending',
+      attempts: existingPreferences?.attempts ?? 0,
+      lastError: null,
+      conflictWarning: existingPreferences?.conflictWarning ?? null,
+      localRevision: (existingPreferences?.localRevision ?? 0) + 1,
+      updatedAt: now,
+    });
+
+    const progress = transaction.objectStore('progress');
+    const existingProgress = await progress.get(input.profileId);
+    await progress.put({
+      profileId: input.profileId,
+      current: input.progress,
+      base: existingProgress?.base ?? null,
+      remoteVersion: existingProgress?.remoteVersion ?? null,
+      remoteCreatedAt: existingProgress?.remoteCreatedAt ?? null,
+      dirtyFields: [
+        ...new Set([...(existingProgress?.dirtyFields ?? []), ...input.progressDirtyFields]),
+      ].sort(),
+      outboxState: 'pending',
+      attempts: existingProgress?.attempts ?? 0,
+      lastError: null,
+      conflictWarning: existingProgress?.conflictWarning ?? null,
+      localRevision: (existingProgress?.localRevision ?? 0) + 1,
+      updatedAt: now,
+    });
+
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
 }
 
 export interface MarkAnswerSyncedInput {

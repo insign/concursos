@@ -52,6 +52,18 @@ describe('KV client', () => {
     expect(fetchImpl).toHaveBeenCalledTimes(2);
   });
 
+  it('stops a 429 retry when its preflight guard becomes false', async () => {
+    const sleep = vi.fn(async () => undefined);
+    const beforeRetry = vi.fn(async () => false);
+    const fetchImpl = vi.fn(async () => new Response(null, { status: 429 })) as unknown as typeof fetch;
+
+    await expect(
+      writeKv('documento', {}, { fetchImpl, sleep, retries: 1, beforeRetry }),
+    ).rejects.toBeInstanceOf(KvHttpError);
+    expect(beforeRetry).toHaveBeenCalledOnce();
+    expect(fetchImpl).toHaveBeenCalledOnce();
+  });
+
   it('reports HTTP, timeout, size and malformed-envelope failures', async () => {
     const serverError = vi.fn(async () => new Response(null, { status: 500 })) as unknown as typeof fetch;
     await expect(readKv('documento', { fetchImpl: serverError })).rejects.toBeInstanceOf(KvHttpError);

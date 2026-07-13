@@ -48,6 +48,7 @@ export interface KvRequestOptions {
   fetchImpl?: typeof fetch;
   sleep?: (milliseconds: number) => Promise<void>;
   random?: () => number;
+  beforeRetry?: () => boolean | Promise<boolean>;
 }
 
 function assertKvId(id: string): void {
@@ -86,6 +87,7 @@ async function requestKv(url: string, init: RequestInit, options: KvRequestOptio
 
       if (response.status === 429 && attempt < retries) {
         await sleep(retryDelay(response, random));
+        if (options.beforeRetry && !(await options.beforeRetry())) return response;
         continue;
       }
 

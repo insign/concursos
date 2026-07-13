@@ -33,6 +33,7 @@ export type ProgressSubject = z.infer<typeof progressSubjectSchema>;
 export type ProgressDocument = z.infer<typeof progressSchema>;
 
 export const EMPTY_PROGRESS: ProgressDocument = { schemaVersion: 1, subjects: {} };
+export const PREFERENCES_PROGRESS_DIRTY_FIELD = '__preferences__';
 
 export function progressSubjectId(contestStorageId: string, subjectStorageId: string): string {
   return `${contestStorageId}--${subjectStorageId}`;
@@ -62,7 +63,7 @@ export function mergeProgress(local: ProgressDocument, remote: ProgressDocument 
 
   for (const [id, remoteSubject] of Object.entries(remote.subjects)) {
     const localSubject = subjects[id];
-    if (!localSubject || remoteSubject.answerVersion >= localSubject.answerVersion) {
+    if (!localSubject || remoteSubject.answerVersion > localSubject.answerVersion) {
       subjects[id] = remoteSubject;
     }
   }
@@ -86,6 +87,28 @@ export async function updateSubjectProgress(
     profileId,
     { schemaVersion: 1, subjects: { ...current.subjects, [subjectId]: subject } },
     [subjectId],
+  );
+}
+
+export async function invalidateProgressForCorrectionMode(
+  profileId: string,
+  correctionMode: CorrectionMode,
+): Promise<void> {
+  const current = await loadProgress(profileId);
+  const subjects = Object.fromEntries(
+    Object.entries(current.subjects).map(([subjectId, subject]) => {
+      if (correctionMode === 'immediate' || subject.submitted || subject.correct === undefined) {
+        return [subjectId, subject];
+      }
+      const { correct: _correct, ...withoutCorrect } = subject;
+      return [subjectId, withoutCorrect];
+    }),
+  );
+  await saveSharedDocument(
+    'progress',
+    profileId,
+    { schemaVersion: 1, subjects },
+    [PREFERENCES_PROGRESS_DIRTY_FIELD],
   );
 }
 

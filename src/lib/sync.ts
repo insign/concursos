@@ -19,17 +19,35 @@ import {
   markSharedDocumentSynced,
   quarantineRemoteDocument,
   releaseSyncLease,
+  saveProgressIfPreferencesUnchanged,
+  saveSharedDocument,
   storeRemoteAnswerDocument,
   type LocalAnswerRecord,
   type SharedStoreName,
 } from './offline-db';
-import { DEFAULT_PREFERENCES, mergePreferences, preferencesSchema, type Preferences } from './preferences';
-import { EMPTY_PROGRESS, mergeProgress, progressSchema, type ProgressDocument } from './progress';
+import {
+  DEFAULT_PREFERENCES,
+  mergePreferences,
+  preferencesSchema,
+  type Preferences,
+} from './preferences';
+import {
+  EMPTY_PROGRESS,
+  invalidateProgressForCorrectionMode,
+  materializeSubjectProgress,
+  mergeProgress,
+  PREFERENCES_PROGRESS_DIRTY_FIELD,
+  progressSchema,
+  progressSubjectId,
+  type ProgressDocument,
+} from './progress';
 import {
   isSubmissionValid,
+  createEmptyAnswerDocument,
   reconcileAnswerDocument,
   type AnswerDocument,
   type AnswerMap,
+  type CorrectionMode,
   type StoredAnswer,
 } from './questionnaire';
 
@@ -49,6 +67,14 @@ const syncCatalogSchema = z
   .strict();
 
 type SyncCatalogEntry = z.infer<typeof syncCatalogSchema>['subjects'][number];
+
+interface SharedSyncOptions {
+  expectedLocalRevision?: number | null;
+  requiredCleanPreferencesRevision?: number | null;
+  requiredCleanAnswerDocumentIds?: ReadonlySet<string>;
+  allowedProgressSubjectIds?: ReadonlySet<string>;
+  progressCorrectionMode?: CorrectionMode;
+}
 
 export interface MergeAnswerResult {
   document: AnswerDocument;
@@ -161,6 +187,58 @@ async function loadSyncCatalog(): Promise<SyncCatalogEntry[]> {
   return syncCatalogSchema.parse(await response.json()).subjects;
 }
 
+async function refreshProfileProgress(
+  profileId: string,
+  catalog: SyncCatalogEntry[],
+  preferences: Preferences,
+  expectedPreferencesRevision: number | null,
+): Promise<void> {
+  const subjects: ProgressDocument['subjects'] = {};
+  for (const entry of catalog) {
+    const documentId = buildAnswerDocumentId(
+      profileId,
+      entry.contestStorageId,
+      entry.subjectStorageId,
+    );
+    const record = await getLocalAnswerRecord(documentId);
+    const document = reconcileAnswerDocument(
+      record?.current ?? createEmptyAnswerDocument(entry.questionSet.questionSetRevision),
+      entry.questionSet,
+    );
+    subjects[progressSubjectId(entry.contestStorageId, entry.subjectStorageId)] =
+      materializeSubjectProgress(
+        entry.questionSet,
+        document,
+        preferences.correctionMode,
+        record?.remoteVersion ?? 0,
+      );
+  }
+  const saved = await saveProgressIfPreferencesUnchanged(
+    profileId,
+    expectedPreferencesRevision,
+    { schemaVersion: 1, subjects },
+    Object.keys(subjects),
+  );
+  if (!saved) throw new Error('As preferências mudaram durante o recálculo do progresso');
+}
+
+function sanitizeProgressForCorrectionMode(
+  progress: ProgressDocument,
+  correctionMode: CorrectionMode | undefined,
+): { document: ProgressDocument; changed: boolean } {
+  if (correctionMode !== 'on-submit') return { document: progress, changed: false };
+  let changed = false;
+  const subjects = Object.fromEntries(
+    Object.entries(progress.subjects).map(([subjectId, subject]) => {
+      if (subject.submitted || subject.correct === undefined) return [subjectId, subject];
+      changed = true;
+      const { correct: _correct, ...withoutCorrect } = subject;
+      return [subjectId, withoutCorrect];
+    }),
+  );
+  return { document: changed ? { schemaVersion: 1, subjects } : progress, changed };
+}
+
 function recreationWarning(record: LocalAnswerRecord, remoteVersion: number, remoteCreatedAt: string | null): string | null {
   if (record.remoteVersion !== null && remoteVersion < record.remoteVersion) {
     return 'A versão remota regrediu; o registro pode ter sido excluído e recriado.';
@@ -204,14 +282,14 @@ async function synchronizeRecord(
   if (!record) {
     if (remote) {
       const document = reconcileAnswerDocument(remote.document, questionSet);
-      await storeRemoteAnswerDocument({
+      const stored = await storeRemoteAnswerDocument({
         profileId,
         documentId,
         document,
         remoteVersion: remote.version,
         remoteCreatedAt: remote.createdAt,
       });
-      announceAnswer(documentId);
+      if (stored) announceAnswer(documentId);
     }
     return;
   }
@@ -262,11 +340,29 @@ async function synchronizeSharedDocument(
   profileId: string,
   storeName: SharedStoreName,
   documentId: string,
-): Promise<void> {
+  options: SharedSyncOptions = {},
+): Promise<boolean> {
   const record = await getSharedDocumentRecord(storeName, profileId);
+  if (
+    options.expectedLocalRevision !== undefined &&
+    (options.expectedLocalRevision === null
+      ? record !== undefined
+      : record?.localRevision !== options.expectedLocalRevision)
+  ) {
+    return false;
+  }
+  if (options.requiredCleanPreferencesRevision !== undefined) {
+    const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
+    const matchesExpectedRevision =
+      options.requiredCleanPreferencesRevision === null
+        ? preferencesRecord === undefined
+        : preferencesRecord?.localRevision === options.requiredCleanPreferencesRevision;
+    if (!matchesExpectedRevision || preferencesRecord?.outboxState === 'pending') return false;
+  }
   await requestGate.wait();
   const envelope = await readKv(documentId);
   let remote: Preferences | ProgressDocument | null = null;
+  let remoteProgressSanitized = false;
 
   if (envelope) {
     const schema = storeName === 'preferences' ? preferencesSchema : progressSchema;
@@ -278,10 +374,29 @@ async function synchronizeSharedDocument(
       throw new Error(reason);
     }
     remote = parsed.data;
+    if (storeName === 'progress' && options.allowedProgressSubjectIds) {
+      const progress = remote as ProgressDocument;
+      remote = {
+        schemaVersion: 1,
+        subjects: Object.fromEntries(
+          Object.entries(progress.subjects).filter(([subjectId]) =>
+            options.allowedProgressSubjectIds?.has(subjectId),
+          ),
+        ),
+      };
+    }
+    if (storeName === 'progress') {
+      const sanitized = sanitizeProgressForCorrectionMode(
+        remote as ProgressDocument,
+        options.progressCorrectionMode,
+      );
+      remote = sanitized.document;
+      remoteProgressSanitized = sanitized.changed;
+    }
   }
 
   if (!record) {
-    if (!remote || !envelope) return;
+    if (!remote || !envelope) return true;
     await markSharedDocumentSynced({
       storeName,
       profileId,
@@ -289,12 +404,28 @@ async function synchronizeSharedDocument(
       synchronizedDocument: remote,
       remoteVersion: envelope.version,
       remoteCreatedAt: envelope.created_at,
+      pendingDocument: remoteProgressSanitized ? remote : undefined,
+      pendingDirtyFields:
+        storeName === 'progress' && remoteProgressSanitized
+          ? Object.keys((remote as ProgressDocument).subjects)
+          : undefined,
     });
-    return;
+    if (
+      storeName === 'preferences' &&
+      (remote as Preferences).correctionMode !== DEFAULT_PREFERENCES.correctionMode
+    ) {
+      await invalidateProgressForCorrectionMode(
+        profileId,
+        (remote as Preferences).correctionMode,
+      );
+    }
+    return true;
   }
 
   if (record.outboxState === 'clean') {
-    if (!remote || !envelope) return;
+    if (!remote || !envelope) return true;
+    const localPreferences =
+      storeName === 'preferences' ? preferencesSchema.safeParse(record.current) : null;
     await markSharedDocumentSynced({
       storeName,
       profileId,
@@ -302,11 +433,27 @@ async function synchronizeSharedDocument(
       synchronizedDocument: remote,
       remoteVersion: envelope.version,
       remoteCreatedAt: envelope.created_at,
+      pendingDocument: remoteProgressSanitized ? remote : undefined,
+      pendingDirtyFields:
+        storeName === 'progress' && remoteProgressSanitized
+          ? Object.keys((remote as ProgressDocument).subjects)
+          : undefined,
     });
-    return;
+    if (
+      storeName === 'preferences' &&
+      (!localPreferences?.success ||
+        localPreferences.data.correctionMode !== (remote as Preferences).correctionMode)
+    ) {
+      await invalidateProgressForCorrectionMode(
+        profileId,
+        (remote as Preferences).correctionMode,
+      );
+    }
+    return true;
   }
 
   let merged: Preferences | ProgressDocument;
+  let preferenceCorrectionChanged = false;
   if (storeName === 'preferences') {
     const local = preferencesSchema.safeParse(record.current);
     const base = preferencesSchema.safeParse(record.base);
@@ -315,13 +462,50 @@ async function synchronizeSharedDocument(
       base.success ? base.data : null,
       remote as Preferences | null,
     );
+    preferenceCorrectionChanged =
+      (local.success ? local.data.correctionMode : DEFAULT_PREFERENCES.correctionMode) !==
+        merged.correctionMode ||
+      (base.success ? base.data.correctionMode : DEFAULT_PREFERENCES.correctionMode) !==
+        merged.correctionMode;
   } else {
     const local = progressSchema.safeParse(record.current);
     merged = mergeProgress(local.success ? local.data : EMPTY_PROGRESS, remote as ProgressDocument | null);
+    merged = sanitizeProgressForCorrectionMode(
+      merged,
+      options.progressCorrectionMode,
+    ).document;
   }
 
   await requestGate.wait();
-  const written = await writeKv(documentId, merged);
+  const progressWriteStillCurrent = async (): Promise<boolean> => {
+    if (storeName !== 'progress') return true;
+    const currentProgress = await getSharedDocumentRecord('progress', profileId);
+    const currentPreferences = await getSharedDocumentRecord('preferences', profileId);
+    const progressMatches =
+      options.expectedLocalRevision === undefined ||
+      (options.expectedLocalRevision === null
+        ? currentProgress === undefined
+        : currentProgress?.localRevision === options.expectedLocalRevision);
+    const preferencesMatch =
+      options.requiredCleanPreferencesRevision === undefined ||
+      ((options.requiredCleanPreferencesRevision === null
+        ? currentPreferences === undefined
+        : currentPreferences?.localRevision === options.requiredCleanPreferencesRevision) &&
+        currentPreferences?.outboxState !== 'pending');
+    const currentPendingAnswers = options.requiredCleanAnswerDocumentIds
+      ? await listPendingAnswerRecords(profileId)
+      : [];
+    const hasPendingCurrentAnswer = currentPendingAnswers.some((answer) =>
+      options.requiredCleanAnswerDocumentIds?.has(answer.documentId),
+    );
+    return progressMatches && preferencesMatch && !hasPendingCurrentAnswer;
+  };
+  if (!(await progressWriteStillCurrent())) return false;
+  const written = await writeKv(
+    documentId,
+    merged,
+    storeName === 'progress' ? { beforeRetry: progressWriteStillCurrent } : {},
+  );
   await markSharedDocumentSynced({
     storeName,
     profileId,
@@ -334,6 +518,13 @@ async function synchronizeSharedDocument(
         ? 'Outra escrita ocorreu durante a sincronização deste documento global.'
         : null,
   });
+  if (storeName === 'preferences' && preferenceCorrectionChanged) {
+    await invalidateProgressForCorrectionMode(
+      profileId,
+      (merged as Preferences).correctionMode,
+    );
+  }
+  return true;
 }
 
 async function runWithLease(operation: () => Promise<void>): Promise<boolean> {
@@ -383,6 +574,7 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
     runWithLease(async () => {
       announce('syncing', 'Sincronizando alterações pendentes...');
       let failures = 0;
+      let preferenceSyncFailed = false;
       const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
       const preferencesKey = `${profileId}:preferences`;
       if (
@@ -398,9 +590,16 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
           lastSharedSyncAt.set(preferencesKey, Date.now());
         } catch {
           failures += 1;
+          preferenceSyncFailed = true;
         }
       }
+      const preferencesStillPending =
+        (await getSharedDocumentRecord('preferences', profileId))?.outboxState === 'pending';
+      if (preferencesStillPending && !preferenceSyncFailed) failures += 1;
       const catalog = await loadSyncCatalog();
+      const allowedProgressSubjectIds = new Set(
+        catalog.map((entry) => progressSubjectId(entry.contestStorageId, entry.subjectStorageId)),
+      );
       const entriesById = new Map(
         catalog.map((entry) => [
           buildAnswerDocumentId(profileId, entry.contestStorageId, entry.subjectStorageId),
@@ -408,6 +607,8 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
         ]),
       );
       const records = await listPendingAnswerRecords(profileId);
+      let synchronizedAnswer = false;
+      const attemptedAnswerIds = new Set<string>();
       for (const record of records) {
         const entry = entriesById.get(record.documentId);
         if (!entry) {
@@ -416,9 +617,11 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
           continue;
         }
 
+        attemptedAnswerIds.add(record.documentId);
         await acquireSyncLease(leaseName, ownerId, 30_000);
         try {
           await synchronizeRecord(profileId, record.documentId, entry.questionSet);
+          synchronizedAnswer = true;
         } catch (error) {
           failures += 1;
           const message = error instanceof Error ? error.message : 'Falha de sincronização';
@@ -427,15 +630,102 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
         }
       }
 
-      const progressRecord = await getSharedDocumentRecord('progress', profileId);
-      const progressKey = `${profileId}:progress`;
+      const progressBeforeAnswerRefresh = await getSharedDocumentRecord('progress', profileId);
+      let fullAnswerRefreshFailed = false;
       if (
-        progressRecord?.outboxState === 'pending' ||
-        Date.now() - (lastSharedSyncAt.get(progressKey) ?? 0) >= 30_000
+        progressBeforeAnswerRefresh?.dirtyFields.includes(PREFERENCES_PROGRESS_DIRTY_FIELD) &&
+        !preferenceSyncFailed &&
+        !preferencesStillPending
+      ) {
+        for (const [documentId, entry] of entriesById) {
+          if (attemptedAnswerIds.has(documentId)) continue;
+          await acquireSyncLease(leaseName, ownerId, 30_000);
+          try {
+            await synchronizeRecord(profileId, documentId, entry.questionSet);
+            synchronizedAnswer = true;
+          } catch (error) {
+            failures += 1;
+            fullAnswerRefreshFailed = true;
+            const message = error instanceof Error ? error.message : 'Falha de sincronização';
+            const nextAttemptAt = error instanceof KvClientError ? Date.now() + 10_000 : null;
+            await markAnswerSyncError(documentId, message, nextAttemptAt);
+          }
+        }
+      }
+
+      const remainingAnswers = await listPendingAnswerRecords(profileId);
+      const remainingCurrentAnswers = remainingAnswers.filter((record) =>
+        entriesById.has(record.documentId),
+      );
+      if (remainingCurrentAnswers.length > 0) failures += 1;
+      const progressPreferencesRecord = await getSharedDocumentRecord('preferences', profileId);
+      const parsedProgressPreferences = progressPreferencesRecord
+        ? preferencesSchema.safeParse(progressPreferencesRecord.current)
+        : { success: true as const, data: DEFAULT_PREFERENCES };
+      const progressPreferences = parsedProgressPreferences.success
+        ? parsedProgressPreferences.data
+        : null;
+      const progressPreferencesReady =
+        !preferenceSyncFailed &&
+        progressPreferencesRecord?.outboxState !== 'pending' &&
+        progressPreferences !== null;
+      if (!parsedProgressPreferences.success) failures += 1;
+      if (
+        progressPreferencesRecord?.outboxState === 'pending' &&
+        !preferencesStillPending
+      ) {
+        failures += 1;
+      }
+      const expectedPreferencesRevision = progressPreferencesRecord?.localRevision ?? null;
+      let progressRecord = await getSharedDocumentRecord('progress', profileId);
+      let progressRefreshFailed = fullAnswerRefreshFailed;
+      if (
+        remainingCurrentAnswers.length === 0 &&
+        progressPreferencesReady &&
+        !progressRefreshFailed &&
+        (synchronizedAnswer || progressRecord?.outboxState === 'pending')
       ) {
         try {
-          await synchronizeSharedDocument(profileId, 'progress', buildProgressDocumentId(profileId));
-          lastSharedSyncAt.set(progressKey, Date.now());
+          await refreshProfileProgress(
+            profileId,
+            catalog,
+            progressPreferences,
+            expectedPreferencesRevision,
+          );
+          progressRecord = await getSharedDocumentRecord('progress', profileId);
+        } catch {
+          failures += 1;
+          progressRefreshFailed = true;
+        }
+      }
+      const finalPendingAnswers = await listPendingAnswerRecords(profileId);
+      const finalPendingCurrentAnswers = finalPendingAnswers.filter((record) =>
+        entriesById.has(record.documentId),
+      );
+      if (finalPendingCurrentAnswers.length > 0 && remainingCurrentAnswers.length === 0) failures += 1;
+      const progressKey = `${profileId}:progress`;
+      if (
+        finalPendingCurrentAnswers.length === 0 &&
+        progressPreferencesReady &&
+        !progressRefreshFailed &&
+        (progressRecord?.outboxState === 'pending' ||
+          Date.now() - (lastSharedSyncAt.get(progressKey) ?? 0) >= 30_000)
+      ) {
+        try {
+          const synchronized = await synchronizeSharedDocument(
+            profileId,
+            'progress',
+            buildProgressDocumentId(profileId),
+            {
+              expectedLocalRevision: progressRecord?.localRevision ?? null,
+              requiredCleanPreferencesRevision: expectedPreferencesRevision,
+              requiredCleanAnswerDocumentIds: new Set(entriesById.keys()),
+              allowedProgressSubjectIds,
+              progressCorrectionMode: progressPreferences.correctionMode,
+            },
+          );
+          if (synchronized) lastSharedSyncAt.set(progressKey, Date.now());
+          else failures += 1;
         } catch {
           failures += 1;
         }

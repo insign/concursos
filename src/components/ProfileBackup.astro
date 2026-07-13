@@ -1,0 +1,168 @@
+<section class="settings-section" aria-labelledby="backup-title">
+  <div>
+    <p class="eyebrow">Cópia local</p>
+    <h2 id="backup-title">Backup do perfil</h2>
+    <p>
+      Exporte respostas e preferências do alias ativo. O arquivo não inclui downloads offline nem metadados internos de sincronização.
+    </p>
+  </div>
+
+  <form class="identity-form" data-backup-form>
+    <button class="button button-secondary" type="button" data-export-backup>Exportar backup JSON</button>
+
+    <label for="profile-backup-file">Arquivo de backup</label>
+    <input id="profile-backup-file" name="backup" type="file" accept="application/json,.json" />
+    <p class="field-help">
+      Assuntos presentes no arquivo substituirão os mesmos assuntos neste perfil. As demais respostas locais serão preservadas.
+    </p>
+
+    <p class="warning-note">
+      A importação grava no alias ativo e coloca os dados na fila de sincronização. O alias registrado no arquivo não será ativado automaticamente.
+    </p>
+    <label class="danger-option">
+      <input type="checkbox" name="confirmImport" disabled />
+      Confirmo a importação e o envio posterior dos dados pelo sincronizador público
+    </label>
+
+    <div class="form-actions">
+      <button class="button" type="submit" data-import-backup disabled>Importar no alias ativo</button>
+      <p data-backup-status aria-live="polite"></p>
+    </div>
+  </form>
+</section>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import {
+    createProfileBackup,
+    importProfileBackup,
+    parseProfileBackup,
+    type ProfileBackup,
+  } from '../lib/profile-backup';
+  import { requestProfileSync } from '../lib/sync';
+
+  document.querySelectorAll<HTMLFormElement>('[data-backup-form]').forEach((form) => {
+    let profileId = getActiveAlias();
+    const exportButton = form.querySelector<HTMLButtonElement>('[data-export-backup]')!;
+    const importButton = form.querySelector<HTMLButtonElement>('[data-import-backup]')!;
+    const fileInput = form.elements.namedItem('backup') as HTMLInputElement;
+    const confirmation = form.elements.namedItem('confirmImport') as HTMLInputElement;
+    const status = form.querySelector<HTMLElement>('[data-backup-status]')!;
+    let selectedBackup: ProfileBackup | null = null;
+    let fileSelection = 0;
+
+    const resetImport = () => {
+      fileSelection += 1;
+      selectedBackup = null;
+      fileInput.value = '';
+      confirmation.checked = false;
+      confirmation.disabled = true;
+      importButton.disabled = true;
+    };
+
+    if (!profileId) {
+      exportButton.disabled = true;
+      fileInput.disabled = true;
+      status.textContent = 'Defina um alias antes de exportar ou importar um backup.';
+      return;
+    }
+
+    exportButton.addEventListener('click', async () => {
+      exportButton.disabled = true;
+      status.textContent = 'Preparando backup local...';
+      try {
+        const activeAlias = getActiveAlias();
+        if (!activeAlias) throw new Error('Defina um alias antes de exportar um backup.');
+        profileId = activeAlias;
+        const backup = await createProfileBackup(activeAlias);
+        const url = URL.createObjectURL(
+          new Blob([`${JSON.stringify(backup, null, 2)}\n`], { type: 'application/json' }),
+        );
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `concursos-${profileId}-${backup.exportedAt.slice(0, 10)}.json`;
+        document.body.append(link);
+        link.click();
+        link.remove();
+        window.setTimeout(() => URL.revokeObjectURL(url), 0);
+        status.textContent = `Backup exportado com ${backup.answers.length} assunto(s).`;
+      } catch (error) {
+        status.textContent = error instanceof Error ? error.message : 'Não foi possível exportar o backup.';
+      } finally {
+        exportButton.disabled = false;
+      }
+    });
+
+    fileInput.addEventListener('change', async () => {
+      const selection = ++fileSelection;
+      selectedBackup = null;
+      confirmation.checked = false;
+      confirmation.disabled = true;
+      importButton.disabled = true;
+      const file = fileInput.files?.[0];
+      if (!file) {
+        status.textContent = '';
+        return;
+      }
+
+      status.textContent = 'Validando arquivo de backup...';
+      try {
+        const contents = await file.text();
+        if (selection !== fileSelection) return;
+        const activeAlias = getActiveAlias();
+        if (!activeAlias) throw new Error('Defina um alias antes de importar um backup.');
+        profileId = activeAlias;
+        selectedBackup = parseProfileBackup(JSON.parse(contents));
+        confirmation.disabled = false;
+        status.textContent = `Backup de ${selectedBackup.sourceAlias} com ${selectedBackup.answers.length} assunto(s). Confirme para importar em ${profileId}.`;
+      } catch (error) {
+        if (selection !== fileSelection) return;
+        status.textContent =
+          error instanceof Error && error.message.startsWith('Arquivo de backup')
+            ? error.message
+            : 'Arquivo de backup inválido ou incompatível.';
+      }
+    });
+
+    confirmation.addEventListener('change', () => {
+      importButton.disabled = !selectedBackup || !confirmation.checked;
+    });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!selectedBackup || !confirmation.checked) return;
+      const activeAlias = getActiveAlias();
+      if (!activeAlias || activeAlias !== profileId) {
+        resetImport();
+        status.textContent = 'O alias ativo mudou. Selecione o arquivo novamente antes de importar.';
+        return;
+      }
+      const targetAlias = activeAlias;
+      const backup = selectedBackup;
+      importButton.disabled = true;
+      fileInput.disabled = true;
+      confirmation.disabled = true;
+      status.textContent = 'Importando e validando contra o catálogo atual...';
+
+      try {
+        const result = await importProfileBackup(targetAlias, backup);
+        status.textContent = `Importação concluída: ${result.answerCount} assunto(s) de ${result.sourceAlias} foram gravados em ${result.targetAlias}.`;
+        window.dispatchEvent(
+          new CustomEvent('concursos:preferences-updated', { detail: { profileId: targetAlias } }),
+        );
+        void requestProfileSync(targetAlias);
+      } catch (error) {
+        status.textContent = error instanceof Error ? error.message : 'Não foi possível importar o backup.';
+        importButton.disabled = false;
+        confirmation.disabled = false;
+      } finally {
+        fileInput.disabled = false;
+      }
+    });
+
+    window.addEventListener('storage', (event) => {
+      if (event.key === 'concursos:active-alias') window.location.reload();
+    });
+    window.addEventListener('concursos:profile-changed', () => window.location.reload());
+  });
+</script>

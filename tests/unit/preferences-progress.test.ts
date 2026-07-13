@@ -94,4 +94,34 @@ describe('preferences and progress', () => {
       subjects: { 'c--a': local.subjects['c--a'], 'c--b': remote.subjects['c--b'] },
     });
   });
+
+  it('keeps pending local progress when the remote answer version is equal', () => {
+    const local: ProgressDocument = {
+      schemaVersion: 1,
+      subjects: {
+        'c--a': {
+          answered: 1,
+          total: 1,
+          submitted: false,
+          questionSetRevision: 1,
+          answerVersion: 3,
+        },
+      },
+    };
+    const remote: ProgressDocument = {
+      schemaVersion: 1,
+      subjects: {
+        'c--a': {
+          answered: 1,
+          total: 1,
+          correct: 1,
+          submitted: false,
+          questionSetRevision: 1,
+          answerVersion: 3,
+        },
+      },
+    };
+
+    expect(mergeProgress(local, remote)).toEqual(local);
+  });
 });
