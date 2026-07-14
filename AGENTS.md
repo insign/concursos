@@ -100,23 +100,25 @@ npm run preview
 - `src/lib/offline-db.ts` possui stores para respostas, preferências, progresso, downloads, leases e quarentena.
 - Cada resposta local mantém documento atual, snapshot-base, metadados remotos, IDs sujos, outbox, tentativas, erro e aviso de conflito.
 - Escritas locais concorrentes mesclam somente os IDs de questões marcados como sujos com o registro IndexedDB mais recente, preservando respostas gravadas por outras abas.
-- Toda seleção e finalização deve concluir a transação IndexedDB antes de anunciar salvamento local.
+- Toda seleção e finalização deve concluir a transação IndexedDB antes de anunciar salvamento local; a finalização reconcilia e assina o registro durável mais recente dentro da mesma transação, nunca o snapshot potencialmente obsoleto da aba.
 - Trocar de alias nunca reutiliza respostas do perfil anterior; pendências exigem sincronização online ou descarte explícito offline.
 - O backup de perfil usa schema v1 com `schemaVersion`, `exportedAt`, `sourceAlias`, documentos de respostas identificados pelos `contestStorageId` e `subjectStorageId` estáveis, e preferências; não exporta metadados internos de sincronização, progresso, leases, quarentena ou downloads.
 - A exportação aguarda escritas locais, inclui apenas assuntos do catálogo atual e reconcilia respostas às revisões e opções atuais das questões.
 - A importação exige confirmação explícita, sempre grava no alias ativo e valida estritamente o schema e o catálogo atual; ela sobrepõe atomicamente os assuntos importados, preserva assuntos locais não relacionados, substitui preferências, reconstrói progresso e tenta novamente snapshots de perfil obsoletos até três vezes. Dados importados permanecem pendentes para sincronização.
 - `src/lib/kv-client.ts` é o único cliente do KV: usa `fetch`, timeout, limite operacional de corpo e retry limitado para 429, sem `Authorization`.
-- `src/lib/sync.ts` coordena uma fila serial limitada a duas requisições por segundo, protegida por lease IndexedDB e acordada entre abas por `BroadcastChannel`.
+- `src/lib/sync.ts` coordena uma fila serial limitada a duas requisições por segundo, protegida por lease IndexedDB e acordada entre abas por `BroadcastChannel`; renovar exige um lease existente, não expirado e do mesmo owner, nunca readquire um lease perdido, e qualquer falha interrompe a operação antes de novas leituras, retries ou escritas remotas.
 - O catálogo estático `/sync-catalog.json` fornece schemas editoriais ao coordenador; ele não contém identidade nem estado do usuário.
 - Todo JSON remoto é validado antes do merge; documento malformado vai para quarentena e nunca substitui estado local válido.
 - O merge é por questão: mudança local exclusiva usa local, remota exclusiva usa remoto e conflito na mesma questão usa o último remoto observado.
 - O PUT sempre envia o documento completo mais recente. Uma edição local concluída durante o PUT permanece pendente e não é apagada pela confirmação remota.
-- Saltos de versão, regressão e mudança de `created_at` geram aviso; não alegue recuperação ou sincronização perfeita.
+- Saltos de versão, regressão e mudança de `created_at` geram aviso; um cliente com catálogo editorial mais antigo recusa reconciliar ou sobrescrever documento local ou remoto com `questionSetRevision` mais nova; não alegue recuperação ou sincronização perfeita.
 - Gatilhos atuais: seleção/finalização, inicialização, `online`, foco, visibilidade, retry manual e troca de perfil.
 - Preferências são cacheadas no IndexedDB, sincronizadas no documento global e mescladas por campo; no mesmo campo alterado dos dois lados, o remoto observado prevalece.
 - Progresso é uma visão materializada das respostas, não sua fonte; no modo `on-submit`, `correct` só existe depois de submissão válida.
 - Progresso mescla por assunto e maior `answerVersion`; revisão divergente aparece como desatualizada, e Configurações oferece recálculo sequencial local.
-- Não publique progresso antes de sincronizar respostas pendentes do catálogo atual e preferências. Mudanças de `correctionMode` sanitizam imediatamente o progresso local não submetido e persistem um marcador que força atualizar respostas do catálogo atual antes de rematerializá-lo.
+- Escritas locais concorrentes de preferências mesclam somente os campos sujos, e atualizações de progresso mesclam somente os assuntos alterados com o registro IndexedDB mais recente.
+- Cada atualização local de um assunto do progresso lê a preferência vigente e grava o assunto na mesma transação `preferences` + `progress`, impedindo abas com modo de correção obsoleto de reintroduzir `correct`.
+- Não publique progresso antes de sincronizar respostas pendentes do catálogo atual e preferências. Mudanças de `correctionMode` persistem a preferência, sanitizam imediatamente o progresso local não submetido e gravam o marcador de rematerialização na mesma transação IndexedDB.
 - Antes do primeiro PUT de progresso e em cada retry por 429, confira as revisões exatas de progresso e preferências e a ausência de respostas pendentes; filtre assuntos removidos do catálogo e mantenha registros de respostas órfãos como erros sem bloquear o progresso válido.
 - Falha de preferências ou progresso permanece recuperável e nunca invalida o documento de respostas.
 - Não declare sincronização perfeita, pois a API não possui compare-and-set.

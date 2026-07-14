@@ -87,4 +87,13 @@ describe('questionnaire state', () => {
       submission: null,
     });
   });
+
+  it('refuses to reconcile a document from a newer editorial revision', () => {
+    expect(() =>
+      reconcileAnswerDocument(
+        { ...answeredDocument(), questionSetRevision: questionSet.questionSetRevision + 1 },
+        questionSet,
+      ),
+    ).toThrow('documento local usa a revisão editorial 4');
+  });
 });

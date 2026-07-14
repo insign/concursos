@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { getSharedDocumentRecord, saveSharedDocument } from './offline-db';
+import { getSharedDocumentRecord, updateSharedDocuments, type SharedDocumentUpdate } from './offline-db';
 import type { CorrectionMode, QuestionLayout } from './questionnaire';
 
 export const preferencesSchema = z
@@ -50,11 +50,42 @@ export async function savePreferences(
   preferences: Preferences,
   dirtyFields: PreferenceField[],
 ): Promise<void> {
-  await saveSharedDocument('preferences', profileId, preferencesSchema.parse(preferences), dirtyFields);
+  const parsedPreferences = preferencesSchema.parse(preferences);
+  const updates: SharedDocumentUpdate[] = [
+    {
+      storeName: 'preferences',
+      dirtyFields,
+      updateCurrent: (current) => {
+        const parsedCurrent = preferencesSchema.safeParse(current);
+        if (!parsedCurrent.success) return parsedPreferences;
+        const merged = { ...parsedCurrent.data };
+        for (const field of dirtyFields) merged[field] = parsedPreferences[field] as never;
+        return merged;
+      },
+    },
+  ];
+
   if (dirtyFields.includes('correctionMode')) {
-    const { invalidateProgressForCorrectionMode } = await import('./progress');
-    await invalidateProgressForCorrectionMode(profileId, preferences.correctionMode);
+    const {
+      EMPTY_PROGRESS,
+      PREFERENCES_PROGRESS_DIRTY_FIELD,
+      progressSchema,
+      sanitizeProgressForCorrectionMode,
+    } = await import('./progress');
+    updates.push({
+      storeName: 'progress',
+      dirtyFields: [PREFERENCES_PROGRESS_DIRTY_FIELD],
+      updateCurrent: (current) => {
+        const parsed = progressSchema.safeParse(current);
+        return sanitizeProgressForCorrectionMode(
+          parsed.success ? parsed.data : EMPTY_PROGRESS,
+          parsedPreferences.correctionMode,
+        ).document;
+      },
+    });
   }
+
+  await updateSharedDocuments(profileId, updates);
 }
 
 export function withPreference(

@@ -1,4 +1,5 @@
 import type { QuestionSet } from './content-schema';
+import { assertSupportedQuestionSetRevision } from './document-schema';
 
 export type QuestionLayout = 'single' | 'ten' | 'all';
 export type CorrectionMode = 'immediate' | 'on-submit';
@@ -92,6 +93,7 @@ export function reconcileAnswerDocument(
   document: AnswerDocument,
   questionSet: QuestionSet,
 ): AnswerDocument {
+  assertSupportedQuestionSetRevision(document, questionSet);
   const answers: AnswerMap = {};
 
   for (const question of questionSet.questions) {

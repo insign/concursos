@@ -31,7 +31,12 @@
 
 <script>
   import { getActiveAlias } from '../lib/identity';
-  import { loadPreferences, savePreferences } from '../lib/preferences';
+  import {
+    loadPreferences,
+    savePreferences,
+    type PreferenceField,
+    type Preferences,
+  } from '../lib/preferences';
   import { recalculateProgress } from '../lib/progress';
   import { requestProfileSync } from '../lib/sync';
 
@@ -47,8 +52,10 @@
       return;
     }
 
+    let storedPreferences: Preferences;
     const applyStoredPreferences = async () => {
       const preferences = await loadPreferences(profileId);
+      storedPreferences = preferences;
       (form.elements.namedItem('questionLayout') as RadioNodeList).value = preferences.questionLayout;
       (form.elements.namedItem('correctionMode') as RadioNodeList).value = preferences.correctionMode;
       (form.elements.namedItem('shuffleQuestions') as HTMLInputElement).checked = preferences.shuffleQuestions;
@@ -62,18 +69,26 @@
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
       const data = new FormData(form);
+      const submittedPreferences: Preferences = {
+        schemaVersion: 1,
+        questionLayout: String(data.get('questionLayout')) as 'single' | 'ten' | 'all',
+        correctionMode: String(data.get('correctionMode')) as 'immediate' | 'on-submit',
+        shuffleQuestions: data.has('shuffleQuestions'),
+      };
+      const dirtyFields = (
+        ['questionLayout', 'correctionMode', 'shuffleQuestions'] as PreferenceField[]
+      ).filter((field) => submittedPreferences[field] !== storedPreferences[field]);
+      if (dirtyFields.length === 0) {
+        status.textContent = 'Nenhuma preferência foi alterada.';
+        return;
+      }
       try {
-        await savePreferences(
-          profileId,
-          {
-            schemaVersion: 1,
-            questionLayout: String(data.get('questionLayout')) as 'single' | 'ten' | 'all',
-            correctionMode: String(data.get('correctionMode')) as 'immediate' | 'on-submit',
-            shuffleQuestions: data.has('shuffleQuestions'),
-          },
-          ['questionLayout', 'correctionMode', 'shuffleQuestions'],
-        );
+        await savePreferences(profileId, submittedPreferences, dirtyFields);
+        await applyStoredPreferences();
         status.textContent = 'Preferências salvas localmente.';
+        window.dispatchEvent(
+          new CustomEvent('concursos:preferences-updated', { detail: { profileId } }),
+        );
         void requestProfileSync(profileId);
       } catch {
         status.textContent = 'Não foi possível salvar as preferências.';

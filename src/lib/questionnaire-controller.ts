@@ -1,9 +1,10 @@
 import type { Question, QuestionSet } from './content-schema';
+import { NewerQuestionSetRevisionError } from './document-schema';
 import { buildAnswerDocumentId, getActiveAlias } from './identity';
 import { getLocalAnswerRecord, saveAnswerDocumentSnapshot } from './offline-db';
 import { buildQuestionSeed, deterministicQuestionOrder } from './question-order';
 import { loadPreferences, savePreferences, withPreference, type Preferences } from './preferences';
-import { materializeSubjectProgress, progressSubjectId, updateSubjectProgress } from './progress';
+import { progressSubjectId, updateSubjectProgress } from './progress';
 import {
   createEmptyAnswerDocument,
   isSubmissionValid,
@@ -109,18 +110,30 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     return queued;
   };
 
+  const queueFinalization = (document: AnswerDocument) => {
+    const queued = writeQueue.then(() =>
+      saveAnswerDocumentSnapshot({
+        profileId,
+        documentId,
+        document,
+        transformLatestDocument: (latest) =>
+          submitAnswers(reconcileAnswerDocument(latest, config.questionSet), config.questionSet),
+      }),
+    );
+    writeQueue = queued.then(() => undefined, () => undefined);
+    return queued;
+  };
+
   const refreshProgress = async () => {
     const record = await getLocalAnswerRecord(documentId);
     if (!record) return;
+    const current = reconcileAnswerDocument(record.current, config.questionSet);
     await updateSubjectProgress(
       profileId,
       progressSubjectId(config.contestStorageId, config.subjectStorageId),
-      materializeSubjectProgress(
-        config.questionSet,
-        record.current,
-        correctionMode,
-        record.remoteVersion ?? 0,
-      ),
+      config.questionSet,
+      current,
+      record.remoteVersion ?? 0,
     );
   };
 
@@ -133,8 +146,12 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       await savePreferences(profileId, preferences, [field]);
       if (field === 'correctionMode') await refreshProgress();
       void requestProfileSync(profileId);
-    } catch {
-      status.textContent = 'Não foi possível salvar a preferência localmente.';
+    } catch (error) {
+      if (error instanceof NewerQuestionSetRevisionError) {
+        showNewerRevision();
+      } else {
+        status.textContent = 'Não foi possível salvar a preferência localmente.';
+      }
     }
   };
 
@@ -170,8 +187,12 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       }
       void refreshProgress().catch(() => undefined);
       void requestProfileSync(profileId);
-    } catch {
-      status.textContent = 'Não foi possível salvar a resposta localmente. Tente novamente.';
+    } catch (error) {
+      if (error instanceof NewerQuestionSetRevisionError) {
+        showNewerRevision();
+      } else {
+        status.textContent = 'Não foi possível salvar a resposta localmente. Tente novamente.';
+      }
     }
   };
 
@@ -233,6 +254,16 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     loadMoreButton.hidden = layout !== 'all' || visibleAll >= ordered.length;
   }
 
+  const showNewerRevision = () => {
+    documentState = createEmptyAnswerDocument(config.questionSet.questionSetRevision);
+    render();
+    root.querySelectorAll<HTMLInputElement | HTMLButtonElement>('input, button').forEach((control) => {
+      control.disabled = true;
+    });
+    status.textContent =
+      'Há respostas em uma revisão editorial mais nova. Atualize o site antes de continuar; nada foi alterado.';
+  };
+
   for (const input of layoutInputs) {
     input.checked = input.value === layout;
     input.addEventListener('change', () => {
@@ -291,24 +322,38 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     }
 
     const previousState = documentState;
-    documentState = submitAnswers(documentState, config.questionSet);
     status.textContent = 'Salvando finalização neste dispositivo...';
 
     try {
-      await queueSnapshot(documentState);
+      const finalized = await queueFinalization(documentState);
+      documentState = finalized.current;
+      const finalizedScore = scoreAnswers(config.questionSet, documentState.answers);
       render();
-      status.textContent = `Finalizado: ${score.correct} de ${score.total} respostas corretas.`;
+      status.textContent = `Finalizado: ${finalizedScore.correct} de ${finalizedScore.total} respostas corretas.`;
       void refreshProgress().catch(() => undefined);
       void requestProfileSync(profileId);
-    } catch {
-      documentState = previousState;
-      status.textContent = 'Não foi possível salvar a finalização localmente. Tente novamente.';
+    } catch (error) {
+      if (error instanceof NewerQuestionSetRevisionError) {
+        showNewerRevision();
+      } else {
+        documentState = previousState;
+        status.textContent = 'Não foi possível salvar a finalização localmente. Tente novamente.';
+      }
     }
   });
 
   const storedRecord = await getLocalAnswerRecord(documentId);
   if (storedRecord) {
-    const reconciled = reconcileAnswerDocument(storedRecord.current, config.questionSet);
+    let reconciled: AnswerDocument;
+    try {
+      reconciled = reconcileAnswerDocument(storedRecord.current, config.questionSet);
+    } catch (error) {
+      if (error instanceof NewerQuestionSetRevisionError) {
+        showNewerRevision();
+        return;
+      }
+      throw error;
+    }
     const changed = JSON.stringify(reconciled) !== JSON.stringify(storedRecord.current);
     documentState = reconciled;
 
@@ -329,7 +374,15 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
 
     void getLocalAnswerRecord(documentId).then((record) => {
       if (!record) return;
-      documentState = reconcileAnswerDocument(record.current, config.questionSet);
+      try {
+        documentState = reconcileAnswerDocument(record.current, config.questionSet);
+      } catch (error) {
+        if (error instanceof NewerQuestionSetRevisionError) {
+          showNewerRevision();
+          return;
+        }
+        throw error;
+      }
       render();
       const score = scoreAnswers(config.questionSet, documentState.answers);
       status.textContent =
@@ -343,7 +396,14 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     });
   });
 
+  window.addEventListener('concursos:answer-revision-unsupported', (event) => {
+    const unsupportedDocumentId = (event as CustomEvent<{ documentId: string }>).detail.documentId;
+    if (unsupportedDocumentId === documentId) showNewerRevision();
+  });
+
   if (navigator.onLine) {
-    void synchronizeAnswerDocument(profileId, documentId, config.questionSet).catch(() => undefined);
+    void synchronizeAnswerDocument(profileId, documentId, config.questionSet).catch((error) => {
+      if (error instanceof NewerQuestionSetRevisionError) showNewerRevision();
+    });
   }
 }

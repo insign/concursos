@@ -23,9 +23,11 @@ const { contestStorageId, subjectStorageId, questionSetRevision } = Astro.props;
 
   const profileId = getActiveAlias();
   if (profileId) {
-    void loadProgress(profileId).then((progress) => {
+    const renderProgress = async () => {
+      const progress = await loadProgress(profileId);
       document.querySelectorAll<HTMLElement>('[data-progress-summary]').forEach((element) => {
         const subject = progress.subjects[element.dataset.progressId!];
+        delete element.dataset.state;
         if (!subject) {
           element.textContent = 'Ainda não iniciado.';
         } else if (subject.questionSetRevision !== Number(element.dataset.questionSetRevision)) {
@@ -36,6 +38,17 @@ const { contestStorageId, subjectStorageId, questionSetRevision } = Astro.props;
           element.textContent = `${subject.answered}/${subject.total} respondidas${score}${subject.submitted ? ', finalizado' : ''}.`;
         }
       });
+    };
+
+    void renderProgress();
+    window.addEventListener('concursos:sync-status', (event) => {
+      const state = (event as CustomEvent<{ state?: string }>).detail?.state;
+      if (state === 'synced' || state === 'error') void renderProgress();
+    });
+    window.addEventListener('concursos:preferences-updated', (event) => {
+      if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === profileId) {
+        void renderProgress();
+      }
     });
   }
 </script>

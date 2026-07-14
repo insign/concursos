@@ -1,4 +1,5 @@
 import { deleteDB, openDB, type DBSchema, type IDBPDatabase } from 'idb';
+import { NewerQuestionSetRevisionError } from './document-schema';
 import type { AnswerDocument } from './questionnaire';
 
 export const OFFLINE_DB_NAME = 'concursos-offline';
@@ -149,6 +150,15 @@ export async function getLocalAnswerRecord(documentId: string): Promise<LocalAns
 
 export type SharedStoreName = 'preferences' | 'progress';
 
+export interface SharedDocumentUpdate {
+  storeName: SharedStoreName;
+  dirtyFields: string[];
+  updateCurrent: (
+    current: unknown | undefined,
+    documents: Readonly<Record<SharedStoreName, unknown | undefined>>,
+  ) => unknown;
+}
+
 export async function getSharedDocumentRecord(
   storeName: SharedStoreName,
   profileId: string,
@@ -162,24 +172,48 @@ export function saveSharedDocument(
   document: unknown,
   dirtyFields: string[],
 ): Promise<void> {
+  return updateSharedDocuments(profileId, [
+    { storeName, dirtyFields, updateCurrent: () => document },
+  ]);
+}
+
+export function updateSharedDocuments(
+  profileId: string,
+  updates: SharedDocumentUpdate[],
+): Promise<void> {
   const write = (async () => {
     const database = await openOfflineDb();
-    const transaction = database.transaction(storeName, 'readwrite');
-    const existing = await transaction.store.get(profileId);
-    await transaction.store.put({
-      profileId,
-      current: document,
-      base: existing?.base ?? null,
-      remoteVersion: existing?.remoteVersion ?? null,
-      remoteCreatedAt: existing?.remoteCreatedAt ?? null,
-      dirtyFields: [...new Set([...(existing?.dirtyFields ?? []), ...dirtyFields])].sort(),
-      outboxState: 'pending',
-      attempts: existing?.attempts ?? 0,
-      lastError: null,
-      conflictWarning: existing?.conflictWarning ?? null,
-      localRevision: (existing?.localRevision ?? 0) + 1,
-      updatedAt: Date.now(),
-    });
+    const transaction = database.transaction(['preferences', 'progress'], 'readwrite');
+    const updatedAt = Date.now();
+    const records = {
+      preferences: await transaction.objectStore('preferences').get(profileId),
+      progress: await transaction.objectStore('progress').get(profileId),
+    };
+    const documents: Record<SharedStoreName, unknown | undefined> = {
+      preferences: records.preferences?.current,
+      progress: records.progress?.current,
+    };
+
+    for (const update of updates) {
+      const store = transaction.objectStore(update.storeName);
+      const existing = records[update.storeName];
+      const current = update.updateCurrent(existing?.current, documents);
+      documents[update.storeName] = current;
+      await store.put({
+        profileId,
+        current,
+        base: existing?.base ?? null,
+        remoteVersion: existing?.remoteVersion ?? null,
+        remoteCreatedAt: existing?.remoteCreatedAt ?? null,
+        dirtyFields: [...new Set([...(existing?.dirtyFields ?? []), ...update.dirtyFields])].sort(),
+        outboxState: 'pending',
+        attempts: existing?.attempts ?? 0,
+        lastError: null,
+        conflictWarning: existing?.conflictWarning ?? null,
+        localRevision: (existing?.localRevision ?? 0) + 1,
+        updatedAt,
+      });
+    }
     await transaction.done;
   })();
 
@@ -238,22 +272,55 @@ export interface MarkSharedSyncedInput {
   conflictWarning?: string | null;
   pendingDocument?: unknown;
   pendingDirtyFields?: string[];
+  progressUpdate?: {
+    dirtyFields: string[];
+    updateCurrent: (current: unknown | undefined, sharedCurrent: unknown) => unknown;
+  };
 }
 
 export function markSharedDocumentSynced(input: MarkSharedSyncedInput): Promise<void> {
   const write = (async () => {
+    if (input.progressUpdate && input.storeName !== 'preferences') {
+      throw new Error('Progress can only be updated atomically with preferences');
+    }
     const database = await openOfflineDb();
-    const transaction = database.transaction(input.storeName, 'readwrite');
-    const existing = await transaction.store.get(input.profileId);
+    const progressUpdate = input.progressUpdate;
+    const transaction = progressUpdate
+      ? database.transaction(['preferences', 'progress'], 'readwrite')
+      : database.transaction(input.storeName, 'readwrite');
+    const store = transaction.objectStore(input.storeName);
+    const existing = await store.get(input.profileId);
+    const progressStore = progressUpdate ? transaction.objectStore('progress') : null;
+    const progress = progressStore ? await progressStore.get(input.profileId) : undefined;
     const changedDuringRequest = existing && existing.localRevision !== input.expectedLocalRevision;
     const keepPending = !changedDuringRequest && input.pendingDocument !== undefined;
-    await transaction.store.put({
+    const current = changedDuringRequest
+      ? existing.current
+      : keepPending
+        ? input.pendingDocument
+        : input.synchronizedDocument;
+    const updatedAt = Date.now();
+    const updatedProgress = progressUpdate
+      ? {
+          profileId: input.profileId,
+          current: progressUpdate.updateCurrent(progress?.current, current),
+          base: progress?.base ?? null,
+          remoteVersion: progress?.remoteVersion ?? null,
+          remoteCreatedAt: progress?.remoteCreatedAt ?? null,
+          dirtyFields: [
+            ...new Set([...(progress?.dirtyFields ?? []), ...progressUpdate.dirtyFields]),
+          ].sort(),
+          outboxState: 'pending' as const,
+          attempts: progress?.attempts ?? 0,
+          lastError: null,
+          conflictWarning: progress?.conflictWarning ?? null,
+          localRevision: (progress?.localRevision ?? 0) + 1,
+          updatedAt,
+        }
+      : null;
+    await store.put({
       profileId: input.profileId,
-      current: changedDuringRequest
-        ? existing.current
-        : keepPending
-          ? input.pendingDocument
-          : input.synchronizedDocument,
+      current,
       base: input.synchronizedDocument,
       remoteVersion: input.remoteVersion,
       remoteCreatedAt: input.remoteCreatedAt,
@@ -269,8 +336,12 @@ export function markSharedDocumentSynced(input: MarkSharedSyncedInput): Promise<
       localRevision: keepPending
         ? (existing?.localRevision ?? 0) + 1
         : existing?.localRevision ?? 0,
-      updatedAt: changedDuringRequest ? existing.updatedAt : Date.now(),
+      updatedAt: changedDuringRequest ? existing.updatedAt : updatedAt,
     });
+
+    if (progressStore && updatedProgress) {
+      await progressStore.put(updatedProgress);
+    }
     await transaction.done;
   })();
 
@@ -308,6 +379,7 @@ export interface SaveAnswerSnapshot {
   documentId: string;
   document: AnswerDocument;
   dirtyQuestionIds?: string[];
+  transformLatestDocument?: (document: AnswerDocument) => AnswerDocument;
 }
 
 export function saveAnswerDocumentSnapshot(input: SaveAnswerSnapshot): Promise<LocalAnswerRecord> {
@@ -315,11 +387,23 @@ export function saveAnswerDocumentSnapshot(input: SaveAnswerSnapshot): Promise<L
     const database = await openOfflineDb();
     const transaction = database.transaction('responses', 'readwrite');
     const existing = await transaction.store.get(input.documentId);
+    if (
+      existing &&
+      existing.current.questionSetRevision > input.document.questionSetRevision
+    ) {
+      throw new NewerQuestionSetRevisionError(
+        existing.current.questionSetRevision,
+        input.document.questionSetRevision,
+        'local',
+      );
+    }
     const dirtyQuestionIds = new Set(existing?.dirtyQuestionIds ?? []);
     for (const questionId of input.dirtyQuestionIds ?? []) dirtyQuestionIds.add(questionId);
-    let current = input.document;
+    let current = input.transformLatestDocument
+      ? input.transformLatestDocument(existing?.current ?? input.document)
+      : input.document;
 
-    if (existing && input.dirtyQuestionIds?.length) {
+    if (!input.transformLatestDocument && existing && input.dirtyQuestionIds?.length) {
       const answers = { ...existing.current.answers };
       for (const questionId of input.dirtyQuestionIds) {
         const answer = input.document.answers[questionId];
@@ -452,13 +536,28 @@ export function saveProfileImport(input: SaveProfileImportInput): Promise<void> 
       throw new ProfileImportConflictError('As respostas locais mudaram durante a importação');
     }
 
+    const importedExistingAnswers = new Map<string, LocalAnswerRecord | undefined>();
     for (const answer of input.answers) {
       const existing = await responses.get(answer.documentId);
+      importedExistingAnswers.set(answer.documentId, existing);
       if (existing && existing.profileId !== input.profileId) {
         transaction.abort();
         await transaction.done.catch(() => undefined);
         throw new Error('O documento importado pertence a outro perfil local');
       }
+      if (existing && existing.current.questionSetRevision > answer.document.questionSetRevision) {
+        transaction.abort();
+        await transaction.done.catch(() => undefined);
+        throw new NewerQuestionSetRevisionError(
+          existing.current.questionSetRevision,
+          answer.document.questionSetRevision,
+          'local',
+        );
+      }
+    }
+
+    for (const answer of input.answers) {
+      const existing = importedExistingAnswers.get(answer.documentId);
       await responses.put({
         documentId: answer.documentId,
         profileId: input.profileId,
@@ -598,6 +697,34 @@ export function acquireSyncLease(name: string, ownerId: string, ttlMs: number, n
     await transaction.store.put({ name, ownerId, expiresAt: now + ttlMs });
     await transaction.done;
     return true;
+  })();
+
+  return trackWrite(write);
+}
+
+export class SyncLeaseLostError extends Error {
+  constructor() {
+    super('Outra aba assumiu a coordenação da sincronização');
+    this.name = 'SyncLeaseLostError';
+  }
+}
+
+export async function renewSyncLease(
+  name: string,
+  ownerId: string,
+  ttlMs: number,
+  now = Date.now(),
+): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('leases', 'readwrite');
+    const existing = await transaction.store.get(name);
+    if (!existing || existing.ownerId !== ownerId || existing.expiresAt <= now) {
+      await transaction.done;
+      throw new SyncLeaseLostError();
+    }
+    await transaction.store.put({ name, ownerId, expiresAt: now + ttlMs });
+    await transaction.done;
   })();
 
   return trackWrite(write);

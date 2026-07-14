@@ -93,6 +93,26 @@ describe('answer synchronization merge', () => {
       ),
     ).toThrow('Opção remota inexistente');
   });
+
+  it('refuses a remote question set revision newer than the local catalog', () => {
+    expect(() =>
+      parseRemoteAnswerDocument(
+        { ...document({ q1: { optionId: 'a', questionRevision: 1 } }), questionSetRevision: 2 },
+        questionSet,
+      ),
+    ).toThrow('documento remoto usa a revisão editorial 2');
+  });
+
+  it('refuses to merge a local revision newer than the current catalog', () => {
+    expect(() =>
+      mergeAnswerDocuments(
+        { ...document({ q1: { optionId: 'a', questionRevision: 1 } }), questionSetRevision: 2 },
+        null,
+        null,
+        questionSet,
+      ),
+    ).toThrow('documento local usa a revisão editorial 2');
+  });
 });
 
 describe('background synchronization fallback', () => {

@@ -27,8 +27,32 @@ export const answerDocumentSchema = z
   })
   .strict();
 
+export class NewerQuestionSetRevisionError extends Error {
+  constructor(documentRevision: number, localRevision: number, source = 'remoto') {
+    super(
+      `O documento ${source} usa a revisão editorial ${documentRevision}, mas este cliente conhece apenas a revisão ${localRevision}`,
+    );
+    this.name = 'NewerQuestionSetRevisionError';
+  }
+}
+
+export function assertSupportedQuestionSetRevision(
+  document: AnswerDocument,
+  questionSet: QuestionSet,
+  source = 'local',
+): void {
+  if (document.questionSetRevision > questionSet.questionSetRevision) {
+    throw new NewerQuestionSetRevisionError(
+      document.questionSetRevision,
+      questionSet.questionSetRevision,
+      source,
+    );
+  }
+}
+
 export function parseRemoteAnswerDocument(value: unknown, questionSet: QuestionSet): AnswerDocument {
   const document = answerDocumentSchema.parse(value);
+  assertSupportedQuestionSetRevision(document, questionSet, 'remoto');
   const questions = new Map(questionSet.questions.map((question) => [question.id, question]));
 
   for (const [questionId, answer] of Object.entries(document.answers)) {

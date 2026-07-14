@@ -1,11 +1,12 @@
 import { z } from 'zod';
 import { questionSetSchema, type QuestionSet } from './content-schema';
 import { buildAnswerDocumentId } from './identity';
-import { getLocalAnswerRecord, getSharedDocumentRecord, saveSharedDocument } from './offline-db';
-import { loadPreferences } from './preferences';
+import { getLocalAnswerRecord, getSharedDocumentRecord, updateSharedDocuments } from './offline-db';
+import { DEFAULT_PREFERENCES, preferencesSchema } from './preferences';
 import {
   createEmptyAnswerDocument,
   isSubmissionValid,
+  reconcileAnswerDocument,
   scoreAnswers,
   type AnswerDocument,
   type CorrectionMode,
@@ -45,8 +46,9 @@ export function materializeSubjectProgress(
   correctionMode: CorrectionMode,
   answerVersion: number,
 ): ProgressSubject {
-  const score = scoreAnswers(questionSet, document.answers);
-  const submitted = isSubmissionValid(document, questionSet);
+  const reconciled = reconcileAnswerDocument(document, questionSet);
+  const score = scoreAnswers(questionSet, reconciled.answers);
+  const submitted = isSubmissionValid(reconciled, questionSet);
   return {
     answered: score.answered,
     total: score.total,
@@ -70,6 +72,23 @@ export function mergeProgress(local: ProgressDocument, remote: ProgressDocument 
   return { schemaVersion: 1, subjects };
 }
 
+export function sanitizeProgressForCorrectionMode(
+  progress: ProgressDocument,
+  correctionMode: CorrectionMode | undefined,
+): { document: ProgressDocument; changed: boolean } {
+  if (correctionMode !== 'on-submit') return { document: progress, changed: false };
+  let changed = false;
+  const subjects = Object.fromEntries(
+    Object.entries(progress.subjects).map(([subjectId, subject]) => {
+      if (subject.submitted || subject.correct === undefined) return [subjectId, subject];
+      changed = true;
+      const { correct: _correct, ...withoutCorrect } = subject;
+      return [subjectId, withoutCorrect];
+    }),
+  );
+  return { document: changed ? { schemaVersion: 1, subjects } : progress, changed };
+}
+
 export async function loadProgress(profileId: string): Promise<ProgressDocument> {
   const record = await getSharedDocumentRecord('progress', profileId);
   const parsed = progressSchema.safeParse(record?.current);
@@ -79,37 +98,34 @@ export async function loadProgress(profileId: string): Promise<ProgressDocument>
 export async function updateSubjectProgress(
   profileId: string,
   subjectId: string,
-  subject: ProgressSubject,
+  questionSet: QuestionSet,
+  document: AnswerDocument,
+  answerVersion: number,
 ): Promise<void> {
-  const current = await loadProgress(profileId);
-  await saveSharedDocument(
-    'progress',
-    profileId,
-    { schemaVersion: 1, subjects: { ...current.subjects, [subjectId]: subject } },
-    [subjectId],
-  );
-}
-
-export async function invalidateProgressForCorrectionMode(
-  profileId: string,
-  correctionMode: CorrectionMode,
-): Promise<void> {
-  const current = await loadProgress(profileId);
-  const subjects = Object.fromEntries(
-    Object.entries(current.subjects).map(([subjectId, subject]) => {
-      if (correctionMode === 'immediate' || subject.submitted || subject.correct === undefined) {
-        return [subjectId, subject];
-      }
-      const { correct: _correct, ...withoutCorrect } = subject;
-      return [subjectId, withoutCorrect];
-    }),
-  );
-  await saveSharedDocument(
-    'progress',
-    profileId,
-    { schemaVersion: 1, subjects },
-    [PREFERENCES_PROGRESS_DIRTY_FIELD],
-  );
+  await updateSharedDocuments(profileId, [
+    {
+      storeName: 'progress',
+      dirtyFields: [subjectId],
+      updateCurrent: (current, documents) => {
+        const parsed = progressSchema.safeParse(current);
+        const preferences = preferencesSchema.safeParse(documents.preferences);
+        return {
+          schemaVersion: 1,
+          subjects: {
+            ...(parsed.success ? parsed.data.subjects : {}),
+            [subjectId]: materializeSubjectProgress(
+              questionSet,
+              document,
+              preferences.success
+                ? preferences.data.correctionMode
+                : DEFAULT_PREFERENCES.correctionMode,
+              answerVersion,
+            ),
+          },
+        };
+      },
+    },
+  ]);
 }
 
 const repairCatalogSchema = z.object({
@@ -127,7 +143,6 @@ export async function recalculateProgress(profileId: string): Promise<number> {
   const response = await fetch('/sync-catalog.json', { cache: 'no-store' });
   if (!response.ok) throw new Error('Não foi possível carregar o catálogo para recalcular o progresso');
   const catalog = repairCatalogSchema.parse(await response.json());
-  const preferences = await loadPreferences(profileId);
 
   for (const subject of catalog.subjects) {
     const documentId = buildAnswerDocumentId(
@@ -140,12 +155,9 @@ export async function recalculateProgress(profileId: string): Promise<number> {
     await updateSubjectProgress(
       profileId,
       progressSubjectId(subject.contestStorageId, subject.subjectStorageId),
-      materializeSubjectProgress(
-        subject.questionSet,
-        document,
-        preferences.correctionMode,
-        record?.remoteVersion ?? 0,
-      ),
+      subject.questionSet,
+      document,
+      record?.remoteVersion ?? 0,
     );
   }
 

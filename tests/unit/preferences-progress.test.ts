@@ -55,6 +55,17 @@ describe('preferences and progress', () => {
     expect(materializeSubjectProgress(questionSet, document, 'immediate', 3)).toMatchObject({ correct: 1 });
   });
 
+  it('refuses to materialize progress from a newer answer revision', () => {
+    expect(() =>
+      materializeSubjectProgress(
+        { ...questionSet, questionSetRevision: 1 },
+        createEmptyAnswerDocument(2),
+        'immediate',
+        1,
+      ),
+    ).toThrow('documento local usa a revisão editorial 2');
+  });
+
   it('merges materialized progress by greatest answer version', () => {
     const local: ProgressDocument = {
       schemaVersion: 1,
