@@ -30,7 +30,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 #### Língua Portuguesa
 
-##### [R] Assunto 001 - Itens 1 e 2: Leitura, compreensão, interpretação, tipos e gêneros textuais.
+##### [x] Assunto 001 - Itens 1 e 2: Leitura, compreensão, interpretação, tipos e gêneros textuais.
 
 - Item 1. Compreensão e interpretação de textos de gêneros variados.
 - Item 2. Reconhecimento de tipos e gêneros textuais.
