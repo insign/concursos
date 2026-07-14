@@ -5,6 +5,7 @@ Status: guia operacional autoritativo e documento vivo.
 ## Autoridade e leitura obrigatória
 
 - `final_plan.md` FOI a fonte autoritativa dos requisitos, contratos, riscos aceitos e definição de pronto.
+- `ROADMAP.md` é a fonte autoritativa do backlog editorial, do conteúdo programático e do estado de produção de cada assunto.
 
 ## Estado atual
 
@@ -83,6 +84,83 @@ npm run preview
 - Alterar qualquer resposta invalida a assinatura de submissão; hash e pontuação ficam em `src/lib/questionnaire.ts`.
 - Embaralhamento usa `question-order.ts` e deve permanecer determinístico por usuário, concurso, assunto e revisão do conjunto.
 - Consulte `final_plan.md` para schemas, revisões, rotas e regras editoriais completas.
+
+## Fluxo editorial para novos conteúdos
+
+### Seleção e estado no roadmap
+
+- Ao receber uma solicitação para adicionar conteúdo, leia `ROADMAP.md` antes de pesquisar ou editar arquivos.
+- Os títulos de matérias no roadmap são apenas agrupadores. Cada assunto editorial deve formar uma unidade de estudo coesa, com sua própria pasta contendo `conteudo.md`, `cheat-sheet.md` e `questoes.json`.
+- Um assunto pode corresponder a um item principal, reunir itens intrinsecamente relacionados ou cobrir uma parte coesa de um item excessivamente amplo. O roadmap deve registrar explicitamente todos os itens, subitens e recortes abrangidos, sem omissão ou duplicação de escopo.
+- Não combine itens apenas por pertencerem à mesma matéria. O agrupamento deve possuir unidade conceitual, normativa, cronológica ou de processo e permanecer viável para estudo isolado; a divisão deve ser usada quando um único item produzir material excessivamente longo ou heterogêneo.
+- Se o usuário indicar um assunto, selecione esse item; caso contrário, selecione o primeiro assunto pendente na ordem do roadmap.
+- Trabalhe em um assunto por vez, salvo pedido explícito para processar um lote.
+- Não selecione um item já marcado como em progresso ou em revisão por outro trabalho concorrente.
+- Marque o assunto como `[>] Em progresso` e publique essa reserva em commit próprio antes da pesquisa. Se o push for rejeitado, sincronize o estado e reavalie a seleção antes de continuar.
+- Mova o assunto para `[R] Em revisão` durante a conferência final e mantenha esse estado no commit que publica o conteúdo, até a CI e o deployment terminarem com sucesso.
+- Só depois do deployment bem-sucedido marque `[x] Concluído` em um commit de estado do roadmap e envie-o ao remoto.
+- Use `[!] Bloqueado` quando uma fonte, requisito ou validação impedir a conclusão e registre objetivamente o motivo no item.
+- Se uma retificação ou mudança normativa afetar um assunto concluído, reabra o item, registre fonte, data e impacto, atualize as revisões editoriais aplicáveis e repita todos os gates antes de retorná-lo a `[x]`.
+- O concurso `tce-ma-2026-analista-administracao` já existe no catálogo. Não o recrie nem altere seu `storageId` ao adicionar os assuntos previstos no roadmap.
+- Só crie outro arquivo de concurso quando o usuário solicitar um concurso ou cargo que ainda não esteja cadastrado.
+
+### Pesquisa e fontes
+
+- Use o subagente `researcher` para pesquisar o assunto antes de redigir. O briefing deve informar concurso, cargo, matéria e todos os itens, subitens e recortes do edital atribuídos ao assunto selecionado.
+- Solicite material completo e relevante para aprendizagem e cobrança em concursos, incluindo provas similares, sem limitar a pesquisa a resumos superficiais.
+- Priorize edital e retificações, legislação e páginas oficiais, provas e gabaritos oficiais, documentação técnica primária e referências acadêmicas reconhecidas.
+- Use o subagente `urlreader` para ler integralmente as páginas mais relevantes e resolver lacunas, divergências ou detalhes que snippets de busca não sustentem.
+- Em matérias jurídicas ou normativas, confira vigência, alterações, entendimento aplicável e corte temporal definido pelo edital.
+- Nunca apresente como fato uma afirmação sem apoio nas fontes consultadas. Se fontes confiáveis divergirem, explique o recorte adotado no conteúdo.
+- Termine `conteudo.md` com uma seção de referências que identifique título, entidade responsável e URL de cada fonte efetivamente usada; para normas e jurisprudência, registre também versão, publicação ou vigência relevante e data de acesso.
+
+### Conteúdo completo
+
+- Antes de escrever, inspecione os schemas e um assunto existente para preservar caminhos, frontmatter, IDs, estilo Markdown e contratos do catálogo.
+- Salve o material em `src/content/assuntos/<concurso>/<assunto>/conteudo.md` e cubra integralmente todos os itens, subitens e recortes atribuídos ao assunto no roadmap.
+- Defina `order` conforme a numeração fixa do assunto no roadmap; não renumere assuntos já publicados por mudança de status, omissão ou renomeação.
+- Escreva para aprendizagem: apresente fundamentos, desenvolvimento gradual, exemplos, comparações, classificações, exceções, fórmulas, aplicações e erros recorrentes de prova.
+- Organize o texto em uma ordem pedagógica própria quando a ordem bruta do edital não for a melhor sequência de aprendizagem, sem omitir nenhum tópico.
+- Use tabelas, fórmulas, código, imagens ou Mermaid apenas quando melhorarem a compreensão e respeite todas as regras locais do pipeline Markdown.
+- O conteúdo deve ensinar corretamente os conceitos necessários para responder ao banco de questões; não insira respostas artificiais apenas para espelhar perguntas específicas.
+
+### Cheat sheet
+
+- Produza `cheat-sheet.md` depois de concluir o conteúdo completo e de revisar as fontes principais.
+- Não adicione frontmatter ao cheat sheet nem repita metadados pertencentes ao assunto.
+- Use formulações afirmativas, curtas e precisas para relembrar conceitos, classificações, fórmulas, exceções e pegadinhas relevantes.
+- Otimize a estrutura para leitura rápida e impressão, com títulos claros, listas e tabelas compactas quando apropriado.
+- Não introduza no cheat sheet afirmações ausentes, mais amplas ou contraditórias em relação ao conteúdo completo.
+
+### Questões
+
+- Salve pelo menos 50 questões em `questoes.json`; esse é um mínimo editorial obrigatório, não um limite máximo nem uma validação do schema.
+- Distribua as questões entre todos os subitens relevantes do edital, com variedade de dificuldade, formulação e aplicação, evitando duplicações disfarçadas.
+- Prefira questões reais de concursos anteriores obtidas de provas e gabaritos oficiais. Não use como fonte primária bancos pagos, compilações sem proveniência ou gabaritos não verificáveis.
+- Só identifique uma questão como oficial quando enunciado, alternativas, prova e gabarito puderem ser verificados. Preserve o sentido original e normalize apenas a formatação necessária ao formato do projeto.
+- Quando adaptar uma questão por mudança legislativa, formato incompatível ou necessidade didática, identifique-a explicitamente como adaptada. Nunca atribua questão autoral a uma banca.
+- Questões reais desatualizadas devem ser excluídas ou adaptadas de forma explícita para refletir o conteúdo vigente e o recorte do edital.
+- Cada explicação deve justificar a alternativa correta, esclarecer os distratores relevantes e terminar com uma destas convenções textuais de proveniência:
+- `Fonte: questão oficial; <banca>; <concurso/prova>; <ano>; questão <número>; <URL oficial>.`
+- `Fonte: questão adaptada de <banca/prova/ano/número/URL>; adaptação: <motivo>.`
+- `Fonte: questão autoral baseada em <referências do conteúdo>.`
+- Preserve IDs permanentes e aplique as regras de `questionSetRevision` e `question.revision` de `final_plan.md` ao alterar conjuntos já publicados.
+
+### Double-check, validação e publicação
+
+- Faça uma segunda conferência separada da redação para comparar edital, fontes, conteúdo completo, cheat sheet e questões.
+- Confirme que todo subitem do edital foi ensinado, que cada gabarito é correto, que os distratores não criam ambiguidade e que as respostas estão sustentadas pelo conteúdo.
+- Confira quantidade, IDs, revisões, duplicações, ortografia, links, atribuições de questões reais, consistência entre os três arquivos e correspondência única do `order` com a numeração fixa do roadmap.
+- Reabra fontes primárias para afirmações de maior risco e use nova pesquisa quando houver dúvida ou divergência; não aprove conteúdo com incerteza factual conhecida.
+- Execute `npm run test:unit`, `npm run check` e `npm run build` para toda adição ou alteração de conteúdo.
+- Execute `npm run test:e2e` quando o conteúdo introduzir Mermaid ou elementos que exijam revalidar impressão, CSP ou comportamento observado no navegador.
+- Submeta a mudança ao fluxo de revisão independente, com atenção especial a cobertura do edital, correção factual, qualidade pedagógica, schemas, revisões e regressões.
+- Mantenha o item em revisão enquanto qualquer correção aprovada estiver pendente e repita os gates afetados depois de corrigir.
+- Uma solicitação para adicionar conteúdo autoriza os commits e pushes de reserva, publicação e conclusão somente dos arquivos do assunto selecionado, do estado correspondente no roadmap e de arquivos canônicos estritamente necessários, salvo instrução contrária do usuário.
+- Antes de cada commit, revise status e diff, não inclua mudanças alheias e nunca inclua credenciais.
+- Publique o conteúdo com o item em `[R]`, envie para `origin/main` e confirme CI e deployment automático do Pages.
+- Se o push, a CI ou o deployment falhar, não declare a entrega concluída; corrija a falha mantendo `[R]` ou registre o item como `[!] Bloqueado`.
+- Depois do deployment bem-sucedido, altere somente o estado aplicável para `[x]`, faça o commit de conclusão e envie-o ao remoto.
 
 ## KV, offline e sincronização
 
