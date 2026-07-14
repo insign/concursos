@@ -23,7 +23,7 @@ Status: guia operacional autoritativo e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As etapas funcionais, testes integrados e revisão independente estão implementados; resta a entrega final de documentação, push e validação no domínio real conforme `final_plan.md`.
+- A implementação, os testes integrados, a revisão independente, a documentação e a validação de produção foram concluídos em 14 de julho de 2026 conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -141,6 +141,7 @@ npm run preview
 - Downloads de concurso devem ser atômicos, preservar o cache anterior até a atualização por hash ser ativada e limpar caches de concurso órfãos; a promoção deve remover rotas visitadas equivalentes sem barra, com barra e `index.html` do cache de páginas. Assets compartilhados são intencionalmente retidos para páginas já visitadas.
 - Atualizações automáticas só podem recarregar depois que o estado local estiver durável.
 - O Playwright continua bloqueando Service Workers por padrão e serve `dist` com `wrangler pages dev` para que os headers de Pages sejam aplicados; `tests/e2e/pwa.spec.ts` os habilita explicitamente.
+- A zona `helio.me` possui uma Cache Rule restrita ao caminho `/service-worker.js` que respeita o Browser TTL da origem. Preserve e revalide essa exceção, pois o Browser Cache TTL global da zona não pode sobrepor o `max-age=0` emitido por `public/_headers` para o Service Worker.
 - Valide PWA, Service Worker, CSP, caches, TLS e headers no domínio real antes de concluir.
 
 ## Segurança

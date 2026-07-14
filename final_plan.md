@@ -2,7 +2,7 @@
 
 Data de consolidação: 13 de julho de 2026
 
-Status: implementação funcional, testes integrados e revisão independente concluídos; documentação e validação final de produção pendentes
+Status: concluído em 14 de julho de 2026, incluindo implementação, testes integrados, revisão independente, documentação e validação final de produção
 
 Este documento é a fonte de verdade autocontida para implementar o projeto. A execução não deve depender da conversa que originou o plano, de memória externa ou de contexto adicional. Em caso de divergência entre este arquivo e uma suposição feita durante a implementação, este arquivo prevalece, salvo instrução posterior e explícita do usuário.
 
@@ -904,8 +904,9 @@ Não bloquear crawling com `robots.txt` de modo que o crawler deixe de observar 
 - HTML deve ser revalidável.
 - Assets hashados podem usar cache longo e `immutable`.
 - `_headers` deve aplicar `X-Robots-Tag` e CSP.
-- A implementação restante deve usar previews do Pages para validar PWA, Service Worker, CSP e caches.
-- Ao final, validar novamente conteúdo, TLS, headers, manifest, Service Worker e comportamento offline no domínio real.
+- Previews do Pages foram usados para validar PWA, Service Worker, CSP e caches durante a implementação.
+- A validação final confirmou conteúdo, TLS, headers, manifest, Service Worker e comportamento offline no domínio real.
+- A zona `helio.me` mantém uma Cache Rule restrita a `/service-worker.js` com Browser TTL em `respect_origin`, necessária para preservar o `max-age=0` definido pela origem apesar do Browser Cache TTL global da zona.
 - Preservar a Git integration e o deployment automático; Wrangler pode ser usado para leitura e diagnóstico, não para converter o projeto em Direct Upload.
 
 ## 35. Página offline
@@ -1030,7 +1031,7 @@ Testes automatizados devem mockar HTTP. Nunca testar com ID de produção descon
 
 Não avançar uma fase com gate quebrado. Corrigir antes de seguir.
 
-Estado da execução ancorada em `803a1a4`: implementação, suíte integrada e revisão independente concluídas até o commit da Step 12. Permanecem a reconciliação documental, o push e a validação do deployment automático, dos headers e da aplicação no domínio real.
+Estado da execução ancorada em `803a1a4`: todas as 13 steps foram concluídas. A suíte integrada e a revisão independente passaram, a documentação foi reconciliada, `main` foi publicada pela Git integration e a aplicação, o TLS, os headers, o manifest, o Service Worker e as políticas de cache foram validados no domínio real.
 
 ## 40. Manutenção contínua e revisão final de AGENTS.md
 
