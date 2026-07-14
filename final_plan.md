@@ -2,7 +2,7 @@
 
 Data de consolidação: 13 de julho de 2026
 
-Status: baseline técnico e Cloudflare concluídos; implementação funcional pendente
+Status: implementação funcional, testes integrados e revisão independente concluídos; documentação e validação final de produção pendentes
 
 Este documento é a fonte de verdade autocontida para implementar o projeto. A execução não deve depender da conversa que originou o plano, de memória externa ou de contexto adicional. Em caso de divergência entre este arquivo e uma suposição feita durante a implementação, este arquivo prevalece, salvo instrução posterior e explícita do usuário.
 
@@ -30,7 +30,7 @@ Este documento é a fonte de verdade autocontida para implementar o projeto. A e
 Os itens abaixo existem e não devem ser recriados:
 
 - Repositório GitHub público `insign/concursos` com branch padrão `main`.
-- Commit âncora do plano `bd4e73d`.
+- Commit âncora inicial do plano `bd4e73d`; execução integral ancorada em `803a1a4`.
 - Scaffold Astro 7 estático com npm e TypeScript strict.
 - Scripts `dev`, `check`, `build`, `preview` e `astro`.
 - `package-lock.json` versionado.
@@ -105,7 +105,7 @@ Cada assunto oferece três telas independentes:
 - `katex`.
 - `astro-mermaid`.
 - `mermaid`.
-- `@vite-pwa/astro`.
+- `vite-plugin-pwa`, integrado diretamente ao Vite do Astro.
 - `idb`.
 - `wrangler` v4, já instalado como dependência de desenvolvimento para diagnóstico e operações do Pages.
 - Módulos Workbox necessários para precache, roteamento, estratégias, expiração e respostas cacheáveis.
@@ -120,7 +120,7 @@ Cada assunto oferece três telas independentes:
 - Não adicionar biblioteca de estado global.
 - Não adicionar dependência quando a plataforma ou o stack atual já resolver o problema.
 - Fixar versões no `package-lock.json`.
-- Validar compatibilidade entre a versão pinada do Astro, `@vite-pwa/astro`, `astro-mermaid` e o pipeline Markdown antes de avançar para a implementação completa.
+- Validar compatibilidade entre as versões pinadas do Astro, `vite-plugin-pwa`, `astro-mermaid` e o pipeline Markdown antes de alterar a integração.
 
 ## 6. Estrutura esperada
 
@@ -687,7 +687,7 @@ Background Sync é melhoria progressiva. O funcionamento não pode depender de s
 
 ## 27. PWA
 
-Usar `@vite-pwa/astro` com Workbox `injectManifest` e Service Worker customizado.
+Usar `vite-plugin-pwa` diretamente na configuração Vite do Astro, com Workbox `injectManifest` e Service Worker customizado.
 
 ### 27.1 Manifest
 
@@ -1030,6 +1030,8 @@ Testes automatizados devem mockar HTTP. Nunca testar com ID de produção descon
 
 Não avançar uma fase com gate quebrado. Corrigir antes de seguir.
 
+Estado da execução ancorada em `803a1a4`: implementação, suíte integrada e revisão independente concluídas até o commit da Step 12. Permanecem a reconciliação documental, o push e a validação do deployment automático, dos headers e da aplicação no domínio real.
+
 ## 40. Manutenção contínua e revisão final de AGENTS.md
 
 O `AGENTS.md` inicial já existe na raiz e deve orientar automaticamente todo futuro agente. Ele é um documento vivo: sempre que uma mudança alterar comandos, estrutura, arquitetura, fontes canônicas, schemas, persistência, sincronização, PWA, testes, deploy, segurança ou escopo, o `AGENTS.md` deve ser atualizado na mesma mudança.
@@ -1119,7 +1121,7 @@ O projeto está concluído somente quando:
 
 1. Leia este arquivo integralmente antes de alterar o projeto.
 2. Leia as regras `AGENTS.md` herdadas do ambiente.
-3. Confirme o estado do Git e recupere o plano ativo a partir do commit âncora `bd4e73d` antes de continuar.
+3. Confirme o estado do Git e recupere o plano ativo a partir do commit âncora `803a1a4` antes de continuar.
 4. Não recrie o scaffold, o projeto Cloudflare Pages, a Git integration ou o custom domain já existentes.
 5. Preserve este arquivo como referência autoritativa durante a implementação.
 6. Implemente por fases e valide o gate de cada uma.

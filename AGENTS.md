@@ -1,6 +1,6 @@
 # Project Agent Guide
 
-Status: guia operacional inicial e documento vivo.
+Status: guia operacional autoritativo e documento vivo.
 
 ## Autoridade e leitura obrigatória
 
@@ -15,7 +15,7 @@ Status: guia operacional inicial e documento vivo.
 - Repositório: `https://github.com/insign/concursos`.
 - Branch padrão: `main`.
 - Plano âncora: `803a1a4`.
-- Projeto: Astro 7 estático, npm e TypeScript strict.
+- Projeto: Astro 7 estático, Node.js 22.12.0 ou superior, npm e TypeScript strict.
 - Pipeline editorial: Unified via `@astrojs/markdown-remark`, GFM, KaTeX local, Shiki e `astro-mermaid`/Mermaid client-side.
 - Domínio: `https://concursos.helio.me`.
 - Cloudflare Pages: projeto `concursos`, URL `https://concursos-ebs.pages.dev`.
@@ -23,7 +23,7 @@ Status: guia operacional inicial e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- As fases de pipeline Markdown, catálogo, rotas editoriais, questionário, persistência local, sincronização de respostas, preferências, progresso, PWA, pacotes offline, segurança, CSP, headers, noindex e portabilidade de perfil por backup/importação estão implementadas; as demais fases funcionais ainda devem ser implementadas conforme `final_plan.md`.
+- As etapas funcionais, testes integrados e revisão independente estão implementados; resta a entrega final de documentação, push e validação no domínio real conforme `final_plan.md`.
 
 ## Comandos atuais
 
@@ -34,12 +34,14 @@ npm run check
 npm run test
 npm run test:unit
 npm run test:e2e
+npm run icons
 npm run build
 npm run preview
 ```
 
 - Execute `npm run test:unit`, `npm run check` e `npm run build` após mudanças em conteúdo, schemas ou catálogo.
 - `npm run test` executa a suíte Vitest completa; `npm run test:e2e` executa Playwright Chromium sobre `dist` servido por `wrangler pages dev`, para aplicar `public/_headers`.
+- `npm run icons` regenera os ícones da PWA; execute-o somente quando a fonte ou a geração de ícones mudar.
 - Use Wrangler v4 instalado no projeto para diagnóstico do Pages.
 - Não use `wrangler pages project create`: isso criaria um projeto Direct Upload separado e sem a Git integration existente.
 
@@ -56,7 +58,7 @@ npm run preview
 
 ## Markdown técnico
 
-- O Astro 7 usa explicitamente o processador Unified configurado em `astro.config.mjs`; não migre para Sätteri sem preservar e revalidar GFM e a renderização KaTeX.
+- O Astro 7 usa explicitamente o processador Unified configurado em `astro.config.mjs`; preserve e revalide GFM e a renderização KaTeX ao alterar o pipeline Markdown.
 - KaTeX é renderizado no build, e seu CSS e suas fontes são empacotados localmente. Não adicione CDN.
 - Mermaid é transformado por `astro-mermaid`, renderizado no navegador e deve permanecer com `securityLevel: "strict"`.
 - Páginas com diagramas devem incluir `MermaidRuntime.astro`, que expõe `window.mermaidReady`, marca `data-render-status` e preserva fallback textual em falha.
@@ -96,6 +98,8 @@ npm run preview
 - Nunca coloque respostas da API KV no Cache Storage do Service Worker.
 - IndexedDB é a persistência local para respostas e outbox; `localStorage` não substitui a outbox.
 - `src/lib/identity.ts` valida aliases sem normalização; segmentos usam `^[a-z0-9]+(?:-[a-z0-9]+)*$` e os limites do plano.
+- IDs de respostas usam `concursos--<alias>--<contestStorageId>--<subjectStorageId>`; preferências usam `concursos--<alias>--preferencias`; progresso usa `concursos--<alias>--progresso`.
+- Alias, concurso e assunto têm limites respectivos de 32, 20 e 32 caracteres; o ID remoto completo deve ter no máximo 100 caracteres.
 - O alias ativo é o único dado de identidade em `localStorage`, na chave `concursos:active-alias`; ele é público e não é conta ou segredo.
 - `src/lib/offline-db.ts` possui stores para respostas, preferências, progresso, downloads, leases e quarentena.
 - Cada resposta local mantém documento atual, snapshot-base, metadados remotos, IDs sujos, outbox, tentativas, erro e aviso de conflito.
