@@ -4,11 +4,7 @@ Status: guia operacional autoritativo e documento vivo.
 
 ## Autoridade e leitura obrigatória
 
-- Leia este arquivo antes de alterar o projeto.
-- Leia `final_plan.md` integralmente antes de iniciar ou retomar uma fase de implementação.
-- `final_plan.md` é a fonte autoritativa dos requisitos, contratos, riscos aceitos e definição de pronto.
-- Este arquivo resume o estado real e as regras operacionais que todo agente deve observar automaticamente.
-- Se o código, este arquivo e `final_plan.md` divergirem, não escolha silenciosamente. Investigue o histórico e corrija a documentação na mesma mudança ou peça decisão ao usuário.
+- `final_plan.md` FOI a fonte autoritativa dos requisitos, contratos, riscos aceitos e definição de pronto.
 
 ## Estado atual
 
@@ -41,6 +37,7 @@ npm run preview
 
 - Execute `npm run test:unit`, `npm run check` e `npm run build` após mudanças em conteúdo, schemas ou catálogo.
 - `npm run test` executa a suíte Vitest completa; `npm run test:e2e` executa Playwright Chromium sobre `dist` servido por `wrangler pages dev`, para aplicar `public/_headers`.
+- Execute `npm run test:e2e` após mudanças em PWA ou Service Worker, pacotes offline, persistência ou sincronização no navegador, CSP, headers, `noindex`, Mermaid, impressão ou comportamento observado no Pages.
 - `npm run icons` regenera os ícones da PWA; execute-o somente quando a fonte ou a geração de ícones mudar.
 - Use Wrangler v4 instalado no projeto para diagnóstico do Pages.
 - Não use `wrangler pages project create`: isso criaria um projeto Direct Upload separado e sem a Git integration existente.
@@ -50,8 +47,7 @@ npm run preview
 - Preserve saída Astro totalmente estática.
 - Use npm e mantenha `package-lock.json` sincronizado.
 - Preserve TypeScript strict.
-- Não adicione React, Vue, Svelte, Tailwind, Axios ou estado global sem necessidade concreta e aprovação explícita.
-- Use componentes Astro e JavaScript/TypeScript nativo para interatividade.
+- Use componentes Astro e JavaScript/TypeScript nativo para interatividade, salvo instrução expressa.
 - Não adicione adapter Cloudflare enquanto o projeto permanecer estático.
 - Não introduza backend, autenticação ou CMS fora do escopo aprovado.
 - Prefira a menor mudança correta e preserve a arquitetura descrita no plano.
@@ -116,7 +112,8 @@ npm run preview
 - O merge é por questão: mudança local exclusiva usa local, remota exclusiva usa remoto e conflito na mesma questão usa o último remoto observado.
 - O PUT sempre envia o documento completo mais recente. Uma edição local concluída durante o PUT permanece pendente e não é apagada pela confirmação remota.
 - Saltos de versão, regressão e mudança de `created_at` geram aviso; um cliente com catálogo editorial mais antigo recusa reconciliar ou sobrescrever documento local ou remoto com `questionSetRevision` mais nova; não alegue recuperação ou sincronização perfeita.
-- Gatilhos atuais: seleção/finalização, inicialização, `online`, foco, visibilidade, retry manual e troca de perfil.
+- Gatilhos atuais: seleção/finalização, inicialização, `online`, foco, visibilidade, Background Sync, retry manual e troca de perfil.
+- Background Sync apenas acorda o coordenador em uma janela; nunca deve repetir diretamente um PUT antigo nem contornar IndexedDB, lease, validação e reconciliação.
 - Preferências são cacheadas no IndexedDB, sincronizadas no documento global e mescladas por campo; no mesmo campo alterado dos dois lados, o remoto observado prevalece.
 - Progresso é uma visão materializada das respostas, não sua fonte; no modo `on-submit`, `correct` só existe depois de submissão válida.
 - Progresso mescla por assunto e maior `answerVersion`; revisão divergente aparece como desatualizada, e Configurações oferece recálculo sequencial local.
@@ -184,17 +181,6 @@ Atualize-o na mesma mudança quando ocorrer qualquer alteração relevante em:
 - build, deploy, domínio ou headers;
 - segurança, escopo ou restrições arquiteturais.
 
-Não atualize este arquivo para detalhes locais que não orientem trabalho futuro.
-
-Ao concluir cada fase de `final_plan.md`:
-
-1. Compare a implementação real com este arquivo.
-2. Atualize regras e comandos que mudaram.
-3. Registre novas invariantes que futuros agentes precisam preservar.
-4. Remova instruções superadas.
-5. Valide que todos os caminhos e comandos citados existem.
-
-A última fase do projeto deve fazer uma revisão integral deste arquivo contra o código, testes, deployment e documentação reais. O projeto não está concluído enquanto o `AGENTS.md` estiver desatualizado.
 
 ## Fora de escopo
 
@@ -206,5 +192,3 @@ A última fase do projeto deve fazer uma revisão integral deste arquivo contra 
 - Ranking e comentários.
 - Migração automática entre aliases.
 - Resolução perfeita de concorrência.
-
-Consulte `final_plan.md` para a especificação completa e para qualquer decisão não resumida aqui.
