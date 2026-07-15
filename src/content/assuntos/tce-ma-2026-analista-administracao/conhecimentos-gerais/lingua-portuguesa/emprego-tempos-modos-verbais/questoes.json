@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q184",
+      "revision": 1,
+      "prompt": "No período “A leitura tem sido incentivada nas escolas”, assinale a opção correta a respeito da substituição da locução verbal “tem sido incentivada”.",
+      "options": [
+        { "id": "a", "text": "“Tem sido incentivada” pode ser substituída por “vem sendo incentivada”, mantendo correção e a ideia central de processo em desenvolvimento." },
+        { "id": "b", "text": "“Tem sido incentivada” só pode ser substituída por uma forma de pretérito perfeito simples." },
+        { "id": "c", "text": "A locução apresenta a leitura como ato pontual já concluído no passado." },
+        { "id": "d", "text": "A substituição por “foi incentivada” preserva obrigatoriamente a noção de continuidade até o presente." },
+        { "id": "e", "text": "A locução está no imperativo afirmativo e expressa ordem dirigida às escolas." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "No contexto apresentado, “tem sido incentivada” e “vem sendo incentivada” podem manter a ideia de processo em desenvolvimento. “Foi incentivada” tende a focalizar fato concluído, e a locução não é imperativo. Fonte: questão adaptada de Cebraspe; Prefeitura de Joinville/SC; 2022; questão 6; https://cdn.cebraspe.org.br/concursos/pref_joinville_22/arquivos/767_PREF_JOINVILLE_CB2_01.PDF; adaptação: criação de período autônomo e reformulação das alternativas para dispensar o texto-base original."
+    },
+    {
+      "id": "q185",
+      "revision": 1,
+      "prompt": "Assinale a opção correta acerca do modo indicativo.",
+      "options": [
+        { "id": "a", "text": "Só pode ser usado para fatos cientificamente comprovados." },
+        { "id": "b", "text": "É incompatível com previsão ou hipótese." },
+        { "id": "c", "text": "Apresenta uma proposição como asserção, sem garantir por si só sua verdade absoluta." },
+        { "id": "d", "text": "Exige sempre referência ao presente cronológico." },
+        { "id": "e", "text": "Não pode aparecer em orações subordinadas." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O indicativo enquadra a proposição como assertiva; não certifica, por si, que ela seja verdadeira no mundo. Pode ainda ocorrer em diferentes tempos e em orações subordinadas. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q186",
+      "revision": 1,
+      "prompt": "Sobre o emprego do subjuntivo, assinale a opção correta.",
+      "options": [
+        { "id": "a", "text": "O subjuntivo exprime exclusivamente dúvida." },
+        { "id": "b", "text": "O subjuntivo é incompatível com orações concessivas." },
+        { "id": "c", "text": "O subjuntivo transforma qualquer ordem em afirmação." },
+        { "id": "d", "text": "A escolha entre indicativo e subjuntivo depende apenas da terminação verbal." },
+        { "id": "e", "text": "O subjuntivo pode marcar evento desejado, condicionado, avaliado ou dependente, conforme verbo principal e contexto." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O subjuntivo não se reduz a dúvida: pode ser selecionado por desejo, diretividade, condição, concessão e avaliação. A distribuição também depende do predicado principal e da sequência temporal. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q187",
+      "revision": 1,
+      "prompt": "Em “Consulte o fiscal se houver dúvida.”, a forma “Consulte” realiza principalmente um ato de",
+      "options": [
+        { "id": "a", "text": "narração passada." },
+        { "id": "b", "text": "instrução ou orientação ao interlocutor." },
+        { "id": "c", "text": "hipótese contrafactual." },
+        { "id": "d", "text": "constatação atemporal." },
+        { "id": "e", "text": "referência a evento concluído." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O imperativo pode realizar ordem, pedido, conselho ou instrução; aqui, orienta o interlocutor sobre a conduta diante de dúvida. Não narra fato passado nem formula hipótese. Fonte: questão autoral baseada em Cardoso (2006), https://periodicos.ufmg.br/index.php/relin/article/view/28761."
+    },
+    {
+      "id": "q188",
+      "revision": 1,
+      "prompt": "Na norma-padrão, a forma adequada para uma proibição dirigida a “você” é",
+      "options": [
+        { "id": "a", "text": "“Não faz a alteração.”" },
+        { "id": "b", "text": "“Não fazer a alteração.”" },
+        { "id": "c", "text": "“Não faça a alteração.”" },
+        { "id": "d", "text": "“Não fez a alteração.”" },
+        { "id": "e", "text": "“Não fará a alteração.”" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na tradição da norma-padrão, o imperativo negativo usa forma do presente do subjuntivo: “não faça”. As demais alternativas expressam outros tempos ou construções. Fonte: questão autoral baseada em Cardoso (2006), https://periodicos.ufmg.br/index.php/relin/article/view/28761."
+    },
+    {
+      "id": "q189",
+      "revision": 1,
+      "prompt": "Em “Em 1930, inicia-se uma nova fase política”, o presente do indicativo tem valor de",
+      "options": [
+        { "id": "a", "text": "presente histórico." },
+        { "id": "b", "text": "ordem negativa." },
+        { "id": "c", "text": "futuro do subjuntivo." },
+        { "id": "d", "text": "hipótese contrafactual." },
+        { "id": "e", "text": "anterioridade a outro passado." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A forma presente relata acontecimento situado no passado para produzir efeito de vivacidade narrativa; trata-se de presente histórico. Fonte: questão autoral baseada em Barbosa e Vilaça Cruz (2013), https://ojs.uel.br/revistas/uel/index.php/entretextos/article/view/14446."
+    },
+    {
+      "id": "q190",
+      "revision": 1,
+      "prompt": "No enunciado “Amanhã a equipe apresenta o relatório”, o presente do indicativo exprime principalmente",
+      "options": [
+        { "id": "a", "text": "fato concluído no passado." },
+        { "id": "b", "text": "concessão." },
+        { "id": "c", "text": "ordem dirigida à equipe." },
+        { "id": "d", "text": "futuro programado ou previsto." },
+        { "id": "e", "text": "anterioridade em relação a outro passado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A presença de “amanhã” projeta o evento para o futuro, embora a forma morfológica esteja no presente. O presente admite valores temporais além da simultaneidade com a fala. Fonte: questão autoral baseada em Barbosa e Vilaça Cruz (2013), https://ojs.uel.br/revistas/uel/index.php/entretextos/article/view/14446."
+    },
+    {
+      "id": "q191",
+      "revision": 1,
+      "prompt": "Em “A banca divulgou o resultado ontem”, o pretérito perfeito apresenta a divulgação como",
+      "options": [
+        { "id": "a", "text": "ação habitual em curso." },
+        { "id": "b", "text": "evento futuro condicionado." },
+        { "id": "c", "text": "ordem atenuada." },
+        { "id": "d", "text": "fato anterior a outro passado expresso." },
+        { "id": "e", "text": "acontecimento concluído e delimitado no passado." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O perfeito costuma focalizar um evento concluído e delimitado. Para hábito ou duração no passado, o imperfeito tende a ser mais adequado; para anterioridade a outro passado, usa-se o mais-que-perfeito. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q192",
+      "revision": 1,
+      "prompt": "A forma “tem estudado”, em “O candidato tem estudado a legislação”, tende a indicar",
+      "options": [
+        { "id": "a", "text": "um único evento concluído e isolado." },
+        { "id": "b", "text": "repetição ou duração de uma prática até o presente." },
+        { "id": "c", "text": "uma ordem negativa." },
+        { "id": "d", "text": "um fato anterior a outro passado." },
+        { "id": "e", "text": "uma pergunta direta sobre o futuro." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Com “ter + particípio”, a forma tende a apresentar repetição ou continuidade até o presente, diferentemente de “estudou”, que normalmente focaliza fato concluído. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q193",
+      "revision": 1,
+      "prompt": "No período “A banca divulgava resultados anualmente”, o imperfeito indica principalmente",
+      "options": [
+        { "id": "a", "text": "evento único encerrado." },
+        { "id": "b", "text": "ação posterior a um fato passado." },
+        { "id": "c", "text": "hábito ou repetição no passado." },
+        { "id": "d", "text": "ordem dirigida ao leitor." },
+        { "id": "e", "text": "fato futuro eventual." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O advérbio “anualmente” e o imperfeito apresentam uma prática reiterada no passado. Não se trata de evento pontual, ordem ou projeção futura. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q194",
+      "revision": 1,
+      "prompt": "Em “Enquanto lia o processo, a relatora anotava dúvidas”, o emprego do imperfeito em “lia” e “anotava” contribui para representar",
+      "options": [
+        { "id": "a", "text": "ações em curso ou simultâneas em um quadro passado." },
+        { "id": "b", "text": "fatos futuros e condicionados." },
+        { "id": "c", "text": "uma ordem direta." },
+        { "id": "d", "text": "uma ação concluída antes de outra passada." },
+        { "id": "e", "text": "uma verdade atemporal." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O imperfeito pode construir cenário, duração e simultaneidade no passado. O conector “enquanto” reforça a leitura de ações em desenvolvimento simultâneo. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q195",
+      "revision": 1,
+      "prompt": "Em “Eu queria solicitar uma informação”, o imperfeito “queria” pode funcionar como estratégia de",
+      "options": [
+        { "id": "a", "text": "anterioridade obrigatória ao pedido atual." },
+        { "id": "b", "text": "futuro eventual." },
+        { "id": "c", "text": "negação imperativa." },
+        { "id": "d", "text": "polidez ou atenuação do ato de pedir." },
+        { "id": "e", "text": "verdade geral." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O imperfeito pode atenuar um pedido feito no presente, sem necessariamente localizar o desejo em passado cronológico. A forma produz efeito de polidez. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q196",
+      "revision": 1,
+      "prompt": "No trecho “Quando ele chegou, a comissão já tinha encerrado os trabalhos”, a locução “tinha encerrado” indica",
+      "options": [
+        { "id": "a", "text": "ação futura em relação à chegada." },
+        { "id": "b", "text": "ordem para a comissão." },
+        { "id": "c", "text": "hábito da comissão." },
+        { "id": "d", "text": "ação simultânea à chegada." },
+        { "id": "e", "text": "anterioridade em relação a outro ponto passado." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O encerramento ocorreu antes da chegada, ambos situados no passado. Essa anterioridade caracteriza o mais-que-perfeito composto. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q197",
+      "revision": 1,
+      "prompt": "Em muitos contextos, a substituição de “tinha concluído” por “concluíra”",
+      "options": [
+        { "id": "a", "text": "troca necessariamente passado por futuro." },
+        { "id": "b", "text": "elimina toda noção de anterioridade." },
+        { "id": "c", "text": "pode preservar a anterioridade passada, embora altere o registro e a ênfase estilística." },
+        { "id": "d", "text": "transforma uma afirmação em ordem." },
+        { "id": "e", "text": "só é possível em frases interrogativas." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "As formas composta e simples podem expressar anterioridade a um ponto passado. A forma simples é mais marcada em registro formal ou literário, por isso a equivalência depende do contexto. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q198",
+      "revision": 1,
+      "prompt": "Em “Ele terá quarenta anos”, o futuro do presente pode expressar",
+      "options": [
+        { "id": "a", "text": "apenas fato posterior ao momento da fala." },
+        { "id": "b", "text": "suposição ou inferência sobre a idade atual." },
+        { "id": "c", "text": "ordem negativa." },
+        { "id": "d", "text": "anterioridade a outro passado." },
+        { "id": "e", "text": "condição contrafactual passada." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O futuro pode ter valor modal de conjectura: o enunciador estima a idade atual. Portanto, a forma futura não deve ser interpretada mecanicamente como posterioridade cronológica. Fonte: questão autoral baseada em Sá, Oliveira e Vieira (2019), https://periodicos.ufop.br/caletroscopio/article/view/3851."
+    },
+    {
+      "id": "q199",
+      "revision": 1,
+      "prompt": "Em contexto normativo, a frase “Não matarás” ilustra o futuro do presente com valor de",
+      "options": [
+        { "id": "a", "text": "recordação habitual." },
+        { "id": "b", "text": "anterioridade passada." },
+        { "id": "c", "text": "dúvida subordinada." },
+        { "id": "d", "text": "injunção ou determinação." },
+        { "id": "e", "text": "simultaneidade passada." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Em enunciados normativos, o futuro pode produzir efeito de mandamento ou determinação, e não apenas situar fato depois do presente. Fonte: questão autoral baseada em Sá, Oliveira e Vieira (2019), https://periodicos.ufop.br/caletroscopio/article/view/3851."
+    },
+    {
+      "id": "q200",
+      "revision": 1,
+      "prompt": "Em “Ele informou que retornaria no dia seguinte”, a forma “retornaria” situa o retorno como",
+      "options": [
+        { "id": "a", "text": "futuro em relação ao ato passado de informar." },
+        { "id": "b", "text": "fato concluído antes de informar." },
+        { "id": "c", "text": "ordem dada pelo informante." },
+        { "id": "d", "text": "verdade geral." },
+        { "id": "e", "text": "evento impossível." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O futuro do pretérito pode marcar posterioridade relativa a um ponto passado. O retorno é posterior ao ato de informar, não necessariamente ao presente do enunciador. Fonte: questão autoral baseada em Sá, Oliveira e Vieira (2019), https://periodicos.ufop.br/caletroscopio/article/view/3851."
+    },
+    {
+      "id": "q201",
+      "revision": 1,
+      "prompt": "No período “Se pudesse, recorreria”, a combinação verbal expressa",
+      "options": [
+        { "id": "a", "text": "condição habitual real." },
+        { "id": "b", "text": "ordem futura." },
+        { "id": "c", "text": "hipótese presente ou futura remota." },
+        { "id": "d", "text": "fato concluído no passado." },
+        { "id": "e", "text": "referência exofórica." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Pudesse” está no imperfeito do subjuntivo, e “recorreria”, no futuro do pretérito; a correlação constrói hipótese afastada ou não assumida como provável. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q202",
+      "revision": 1,
+      "prompt": "A troca de “Gostaria de solicitar uma cópia” por “Solicito uma cópia”",
+      "options": [
+        { "id": "a", "text": "transforma necessariamente o pedido em proibição." },
+        { "id": "b", "text": "mantém todos os efeitos de polidez." },
+        { "id": "c", "text": "altera passado em anterioridade." },
+        { "id": "d", "text": "torna o enunciado incorreto." },
+        { "id": "e", "text": "mantém o ato básico de pedir, mas reduz a atenuação produzida pelo futuro do pretérito." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "As duas construções podem realizar um pedido, mas “gostaria” atenua a formulação. A troca preserva parte do conteúdo proposicional e altera o efeito pragmático de polidez. Fonte: questão autoral baseada em Cardoso (2006), https://periodicos.ufmg.br/index.php/relin/article/view/28761."
+    },
+    {
+      "id": "q203",
+      "revision": 1,
+      "prompt": "Em “É necessário que todos leiam o edital”, o presente do subjuntivo é motivado principalmente por",
+      "options": [
+        { "id": "a", "text": "fato concluído e delimitado." },
+        { "id": "b", "text": "dependência modal criada pela expressão de necessidade." },
+        { "id": "c", "text": "anterioridade a outro ponto passado." },
+        { "id": "d", "text": "pergunta direta sobre o futuro." },
+        { "id": "e", "text": "valor de presente histórico." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A oração principal avalia a leitura como necessária, e a subordinada depende dessa modalidade; por isso ocorre “leiam”, no presente do subjuntivo. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q204",
+      "revision": 1,
+      "prompt": "Em “Esperava que ele viesse”, a forma “viesse” está no",
+      "options": [
+        { "id": "a", "text": "pretérito imperfeito do subjuntivo, dependente de referência passada." },
+        { "id": "b", "text": "futuro do presente do indicativo." },
+        { "id": "c", "text": "imperativo afirmativo." },
+        { "id": "d", "text": "pretérito perfeito do indicativo." },
+        { "id": "e", "text": "futuro do subjuntivo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Esperava” situa a expectativa no passado, e “viesse” é imperfeito do subjuntivo subordinado a essa referência. Não se trata de ordem ou de futuro do subjuntivo. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q205",
+      "revision": 1,
+      "prompt": "Assinale a opção correta para completar a frase: “Quando o candidato _____, entregará a prova.”",
+      "options": [
+        { "id": "a", "text": "terminará" },
+        { "id": "b", "text": "terminasse" },
+        { "id": "c", "text": "terminar" },
+        { "id": "d", "text": "terminou" },
+        { "id": "e", "text": "terminaria" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em subordinada temporal que projeta evento futuro eventual, usa-se o futuro do subjuntivo: “quando terminar”. “Terminará” cabe em pergunta direta, não nessa correlação. Fonte: questão autoral baseada em Cebraspe, Prefeitura de Joinville/SC, 2022, https://cdn.cebraspe.org.br/concursos/pref_joinville_22/arquivos/767_PREF_JOINVILLE_CB2_01.PDF."
+    },
+    {
+      "id": "q206",
+      "revision": 1,
+      "prompt": "No período “O candidato que obtiver a nota mínima será classificado”, a forma “obtiver” é empregada para indicar",
+      "options": [
+        { "id": "a", "text": "ação habitual já comprovada." },
+        { "id": "b", "text": "ordem negativa." },
+        { "id": "c", "text": "anterioridade a um passado." },
+        { "id": "d", "text": "referente futuro eventual em oração relativa." },
+        { "id": "e", "text": "fato presente simultâneo à fala." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O candidato ainda não está identificado como alguém que obteve a nota; a relativa projeta a eventual obtenção futura. Por isso, emprega-se futuro do subjuntivo. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q207",
+      "revision": 1,
+      "prompt": "Em “Quando tiver concluído a prova, poderá sair”, a forma composta “tiver concluído” expressa",
+      "options": [
+        { "id": "a", "text": "ordem no passado." },
+        { "id": "b", "text": "hábito presente." },
+        { "id": "c", "text": "conclusão de ação antes de outro momento futuro." },
+        { "id": "d", "text": "evento simultâneo ao presente." },
+        { "id": "e", "text": "fato anterior a um passado já encerrado." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O futuro composto do subjuntivo marca que concluir a prova será anterior ao momento futuro de poder sair. A forma combina futuridade, dependência e perfectividade. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q208",
+      "revision": 1,
+      "prompt": "Na norma-padrão, qual período apresenta correlação adequada em uma oração condicional prototípica?",
+      "options": [
+        { "id": "a", "text": "“Se ele teria estudado, passaria.”" },
+        { "id": "b", "text": "“Se ele tivesse estudado, teria passado.”" },
+        { "id": "c", "text": "“Se ele terá estudado, passasse.”" },
+        { "id": "d", "text": "“Se ele estudaria, terá passado.”" },
+        { "id": "e", "text": "“Se ele tivesse estudado, passa.”" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na condição contrafactual passada, a correlação produtiva é mais-que-perfeito do subjuntivo na prótase e futuro do pretérito composto na consequência: “se tivesse..., teria...”. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q209",
+      "revision": 1,
+      "prompt": "Em “Não sei se ele teria condições de recorrer”, a sequência “se teria” é aceitável porque “se” introduz",
+      "options": [
+        { "id": "a", "text": "uma condição contrafactual passada." },
+        { "id": "b", "text": "uma ordem negativa." },
+        { "id": "c", "text": "uma concessão." },
+        { "id": "d", "text": "uma interrogativa indireta." },
+        { "id": "e", "text": "uma relativa prospectiva." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A frase equivale a “não sei: ele teria condições?”. Nesse uso, “se” não introduz a prótase de uma condicional, por isso a forma “teria” é possível. Fonte: questão autoral baseada em Martins (2010), https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-uso-de-tempos-compostos-em-detrimento-de-tempos-simples/28050."
+    },
+    {
+      "id": "q210",
+      "revision": 1,
+      "prompt": "O período “Se o candidato estuda, melhora” apresenta uma condição",
+      "options": [
+        { "id": "a", "text": "habitual ou geral." },
+        { "id": "b", "text": "contrafactual passada." },
+        { "id": "c", "text": "futura remota." },
+        { "id": "d", "text": "imperativa negativa." },
+        { "id": "e", "text": "anterior a outro passado." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O presente nas duas orações formula regularidade ou relação geral: estudar se associa a melhorar. Não há hipótese afastada nem evento pontual futuro. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q211",
+      "revision": 1,
+      "prompt": "Assinale a opção que exprime condição futura aberta.",
+      "options": [
+        { "id": "a", "text": "“Se estudasse, passaria.”" },
+        { "id": "b", "text": "“Se tivesse estudado, teria passado.”" },
+        { "id": "c", "text": "“Se estudar, passará.”" },
+        { "id": "d", "text": "“Se estudava, passava.”" },
+        { "id": "e", "text": "“Se teria estudado, passará.”" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Futuro do subjuntivo em “estudar” e futuro do presente em “passará” formam correlação de condição futura eventual. As opções A e B exprimem hipóteses mais remotas. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q212",
+      "revision": 1,
+      "prompt": "A forma adequada para completar “Se houver dúvida, _____ o fiscal.” é",
+      "options": [
+        { "id": "a", "text": "consultará" },
+        { "id": "b", "text": "consultasse" },
+        { "id": "c", "text": "consultou" },
+        { "id": "d", "text": "consultaria" },
+        { "id": "e", "text": "consulte" }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A oração condicional futura usa “houver”, futuro do subjuntivo, e a principal pode trazer imperativo para orientar o interlocutor: “consulte”. Fonte: questão autoral baseada em Cardoso (2006), https://periodicos.ufmg.br/index.php/relin/article/view/28761."
+    },
+    {
+      "id": "q213",
+      "revision": 1,
+      "prompt": "Compare: “O candidato que apresentar recurso terá resposta” e “O candidato que apresentou recurso terá resposta”. Assinale a opção correta.",
+      "options": [
+        { "id": "a", "text": "As duas orações relativas projetam fato futuro eventual." },
+        { "id": "b", "text": "A primeira afirma que o recurso já foi apresentado." },
+        { "id": "c", "text": "A primeira projeta a apresentação como eventual e futura; a segunda trata a apresentação como fato já ocorrido." },
+        { "id": "d", "text": "A segunda usa imperativo para ordenar a apresentação do recurso." },
+        { "id": "e", "text": "Não há diferença de referência temporal entre “apresentar” e “apresentou”." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Apresentar” está no futuro do subjuntivo e seleciona referente eventual; “apresentou” está no pretérito perfeito do indicativo e apresenta a ação como realizada. A diferença temporal altera o recorte dos candidatos abrangidos. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q214",
+      "revision": 1,
+      "prompt": "Em “Se tivesse estudado, seria aprovado hoje”, a correlação é possível porque",
+      "options": [
+        { "id": "a", "text": "todo futuro do pretérito exige passado perfeito na oração principal." },
+        { "id": "b", "text": "“seria” está no imperativo." },
+        { "id": "c", "text": "a condição passada não tem relação com o presente." },
+        { "id": "d", "text": "uma condição contrafactual passada pode ser relacionada a consequência situada no presente." },
+        { "id": "e", "text": "“tivesse estudado” é futuro do indicativo." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A frase constrói condição passada não realizada e efeito atual: se o estudo tivesse ocorrido, a aprovação existiria hoje. Essa correlação mista é semanticamente possível. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q215",
+      "revision": 1,
+      "prompt": "Em “Embora tenha estudado, errou”, a forma “tenha estudado” contribui para uma relação de",
+      "options": [
+        { "id": "a", "text": "finalidade." },
+        { "id": "b", "text": "alternância." },
+        { "id": "c", "text": "ordem direta." },
+        { "id": "d", "text": "conclusão necessária." },
+        { "id": "e", "text": "concessão com anterioridade em relação ao erro." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "“Embora” introduz concessão, e “tenha estudado” apresenta o estudo como anterior ao erro, sem impedir que ele ocorra. Não há relação de finalidade ou conclusão. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q216",
+      "revision": 1,
+      "prompt": "Em “Espero que ele tenha estudado”, a locução “tenha estudado” indica",
+      "options": [
+        { "id": "a", "text": "ordem negativa." },
+        { "id": "b", "text": "anterioridade do estudo em relação à expectativa presente." },
+        { "id": "c", "text": "fato habitual no passado." },
+        { "id": "d", "text": "futuro relativo a um passado." },
+        { "id": "e", "text": "evento em curso no momento da fala." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O pretérito perfeito composto do subjuntivo situa o estudo antes da referência dada por “espero”, mantendo a modalidade de expectativa. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q217",
+      "revision": 1,
+      "prompt": "Em “O candidato foi aprovado”, a construção verbal deve ser analisada, em primeiro lugar, como",
+      "options": [
+        { "id": "a", "text": "tempo composto com ter + particípio." },
+        { "id": "b", "text": "futuro do subjuntivo." },
+        { "id": "c", "text": "imperfeito de polidez." },
+        { "id": "d", "text": "locução de obrigação." },
+        { "id": "e", "text": "voz passiva com ser + particípio." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "“Foi aprovado” é construção passiva com auxiliar “ser” e particípio. Não se deve confundi-la com tempo composto formado por ter ou haver mais particípio, como em “a comissão tinha aprovado o candidato”. Fonte: questão autoral baseada em Cebraspe, Prefeitura de Joinville/SC, 2022, https://cdn.cebraspe.org.br/concursos/pref_joinville_22/arquivos/767_PREF_JOINVILLE_CB2_01.PDF."
+    },
+    {
+      "id": "q218",
+      "revision": 1,
+      "prompt": "A troca de “A equipe está estudando o processo” por “A equipe estuda o processo”",
+      "options": [
+        { "id": "a", "text": "pode trocar a ideia de processo em curso por leitura habitual ou geral." },
+        { "id": "b", "text": "preserva obrigatoriamente todos os valores aspectuais." },
+        { "id": "c", "text": "transforma o presente em mais-que-perfeito." },
+        { "id": "d", "text": "cria imperativo negativo." },
+        { "id": "e", "text": "é sempre gramaticalmente impossível." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Está estudando” focaliza atividade em desenvolvimento; “estuda” pode indicar hábito, ocupação ou fato geral. A forma é gramatical, mas a equivalência de aspecto não é automática. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q219",
+      "revision": 1,
+      "prompt": "Assinale a opção que preserva a distinção entre inferência e obrigação.",
+      "options": [
+        { "id": "a", "text": "“Deve ter chegado” e “teve de chegar” são equivalentes em todo contexto." },
+        { "id": "b", "text": "“Deve ter chegado” expressa necessariamente uma ordem ao interlocutor." },
+        { "id": "c", "text": "“Teve de chegar” indica sempre probabilidade sobre fato passado." },
+        { "id": "d", "text": "“Deve ter chegado” pode indicar inferência sobre o passado, enquanto “teve de chegar” tende a indicar obrigação ou necessidade." },
+        { "id": "e", "text": "Nenhuma das duas expressões contém verbo auxiliar." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A primeira locução pode formular conclusão provável do enunciador; a segunda apresenta necessidade ou obrigação. Substituí-las pode alterar a modalidade do enunciado. Fonte: questão autoral baseada em Sá, Oliveira e Vieira (2019), https://periodicos.ufop.br/caletroscopio/article/view/3851."
+    },
+    {
+      "id": "q220",
+      "revision": 1,
+      "prompt": "A reescrita que preserva a modalidade de hipótese remota de “Se ele estudasse, passaria” é",
+      "options": [
+        { "id": "a", "text": "“Se ele estudar, passará.”" },
+        { "id": "b", "text": "“Se ele estudou, passará.”" },
+        { "id": "c", "text": "“Quando ele estudar, passaria.”" },
+        { "id": "d", "text": "“Embora ele estudasse, passará.”" },
+        { "id": "e", "text": "“Caso ele estudasse, passaria.”" }
+      ],
+      "correctOptionId": "e",
+      "explanation": "“Caso ele estudasse, passaria” conserva a estrutura hipotética com imperfeito do subjuntivo e futuro do pretérito. A opção A altera a hipótese para condição futura aberta, e as demais modificam a relação ou a correlação. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q221",
+      "revision": 1,
+      "prompt": "Assinale a pergunta direta em que o futuro do indicativo está corretamente empregado.",
+      "options": [
+        { "id": "a", "text": "“Quando ele chegar, avise-me.”" },
+        { "id": "b", "text": "“Quando ele chegará?”" },
+        { "id": "c", "text": "“Quando ele chegasse, avise-me.”" },
+        { "id": "d", "text": "“Quando ele chegará, avise-me.”" },
+        { "id": "e", "text": "“Quando ele chegou?”" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na pergunta direta sobre um acontecimento futuro, emprega-se o futuro do indicativo: “quando ele chegará?”. Em A, “quando ele chegar” integra oração temporal futura e está corretamente no futuro do subjuntivo, mas não é pergunta direta. Fonte: questão autoral baseada em Cebraspe, Prefeitura de Joinville/SC, 2022, https://cdn.cebraspe.org.br/concursos/pref_joinville_22/arquivos/767_PREF_JOINVILLE_CB2_01.PDF."
+    },
+    {
+      "id": "q222",
+      "revision": 1,
+      "prompt": "Assinale a opção correta quanto ao emprego de “vir” e “vier”.",
+      "options": [
+        { "id": "a", "text": "“Quando ele vir” e “quando ele vier” são sempre formas do mesmo verbo." },
+        { "id": "b", "text": "Em “Quando ele vir o resultado”, “vir” é forma do verbo ver; em “Quando ele vier à sessão”, “vier” é forma do verbo vir." },
+        { "id": "c", "text": "“Vier” é pretérito perfeito do verbo ver." },
+        { "id": "d", "text": "“Vir” não pode ocorrer em oração futura." },
+        { "id": "e", "text": "As duas formas são imperativos negativos." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O contexto e o infinitivo distinguem as formas: “vir” pode ser futuro do subjuntivo de ver, e “vier” é futuro do subjuntivo de vir. A semelhança gráfica é uma armadilha frequente. Fonte: questão autoral baseada nas referências do conteúdo, em especial Cebraspe, Prefeitura de Joinville/SC, 2022, https://cdn.cebraspe.org.br/concursos/pref_joinville_22/arquivos/767_PREF_JOINVILLE_CB2_01.PDF."
+    },
+    {
+      "id": "q223",
+      "revision": 1,
+      "prompt": "Na norma-padrão, a forma adequada para completar “Se eu _____ o documento no sistema, avisarei a equipe.” é",
+      "options": [
+        { "id": "a", "text": "pôr" },
+        { "id": "b", "text": "ponho" },
+        { "id": "c", "text": "pus" },
+        { "id": "d", "text": "puser" },
+        { "id": "e", "text": "pusesse" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A oração condicional futura pede futuro do subjuntivo: “se eu puser”. “Pôr” é infinitivo, e “pusesse” indicaria hipótese remota. Fonte: questão autoral baseada nas referências do conteúdo, em especial Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q224",
+      "revision": 1,
+      "prompt": "Em “Se ele for ao arquivo, buscará os autos”, a forma “for” pode ser corretamente interpretada apenas com base",
+      "options": [
+        { "id": "a", "text": "no contexto, pois pode provir dos verbos ser ou ir em outras construções." },
+        { "id": "b", "text": "na certeza de que é sempre forma do verbo ser." },
+        { "id": "c", "text": "na regra de que todo “for” é pretérito perfeito." },
+        { "id": "d", "text": "na identificação de um imperativo negativo." },
+        { "id": "e", "text": "na equivalência automática com “fosse”." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“For” pode ser futuro do subjuntivo de ser ou de ir; no enunciado, “for ao arquivo” indica deslocamento e provém de ir. O contexto é indispensável. Fonte: questão autoral baseada nas referências do conteúdo, em especial Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q225",
+      "revision": 1,
+      "prompt": "Assinale a opção com futuro do subjuntivo corretamente empregado.",
+      "options": [
+        { "id": "a", "text": "“Se ele faz o recurso, será analisado.”" },
+        { "id": "b", "text": "“Quando ele trouxe o documento, avisará.”" },
+        { "id": "c", "text": "“Se ele dizer a verdade, seria ouvido.”" },
+        { "id": "d", "text": "“Quando ele viesse, será recebido.”" },
+        { "id": "e", "text": "“Se ele fizer o recurso, será analisado.”" }
+      ],
+      "correctOptionId": "e",
+      "explanation": "“Fizer” é futuro do subjuntivo de fazer e combina com a consequência futura “será analisado”. As outras opções misturam tempos ou usam forma inadequada à projeção futura. Fonte: questão autoral baseada nas referências do conteúdo, em especial Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q226",
+      "revision": 1,
+      "prompt": "Para dirigir uma ordem afirmativa a “você” segundo a norma-padrão, a forma esperada é",
+      "options": [
+        { "id": "a", "text": "“Tu faça a leitura.”" },
+        { "id": "b", "text": "“Você faze a leitura.”" },
+        { "id": "c", "text": "“Você faça a leitura.”" },
+        { "id": "d", "text": "“Você fez a leitura.”" },
+        { "id": "e", "text": "“Você fará a leitura.”" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na referência tradicional, o imperativo afirmativo para “você” coincide com o presente do subjuntivo: “faça”. As demais formas não realizam adequadamente a ordem nessa pessoa. Fonte: questão autoral baseada em Cardoso (2006), https://periodicos.ufmg.br/index.php/relin/article/view/28761."
+    },
+    {
+      "id": "q227",
+      "revision": 1,
+      "prompt": "Assinale a opção correta sobre o imperativo negativo na norma-padrão.",
+      "options": [
+        { "id": "a", "text": "Para “você”, usa-se obrigatoriamente o presente do indicativo: “não faz”." },
+        { "id": "b", "text": "As formas negativas seguem o presente do subjuntivo: “não fale”, “não façam”." },
+        { "id": "c", "text": "Imperativo negativo não admite pronomes de tratamento." },
+        { "id": "d", "text": "A negação transforma toda ordem em futuro do pretérito." },
+        { "id": "e", "text": "O imperativo negativo só existe para a segunda pessoa do singular." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A tradição gramatical forma o imperativo negativo com o presente do subjuntivo em todas as pessoas. A variação de uso no PB não elimina esse parâmetro em questão normativa. Fonte: questão autoral baseada em Cardoso (2006), https://periodicos.ufmg.br/index.php/relin/article/view/28761."
+    },
+    {
+      "id": "q228",
+      "revision": 1,
+      "prompt": "Em “Espero que a comissão publique o resultado”, o emprego do subjuntivo é compatível com",
+      "options": [
+        { "id": "a", "text": "a apresentação de fato já concluído e independente." },
+        { "id": "b", "text": "uma ordem negativa direta ao leitor." },
+        { "id": "c", "text": "a dependência da publicação em relação à atitude de expectativa expressa por “espero”." },
+        { "id": "d", "text": "a indicação de anterioridade a outro passado." },
+        { "id": "e", "text": "uma pergunta direta sobre a data da publicação." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A publicação é apresentada como conteúdo desejado ou esperado, dependente do verbo principal “espero”. Isso favorece o subjuntivo. Fonte: questão autoral baseada em Bertucci (2024), https://periodicos.uefs.br/index.php/acordasletras/article/view/9643."
+    },
+    {
+      "id": "q229",
+      "revision": 1,
+      "prompt": "A substituição de “Venha imediatamente” por “Ele virá imediatamente”",
+      "options": [
+        { "id": "a", "text": "preserva integralmente a força de ordem dirigida ao interlocutor." },
+        { "id": "b", "text": "apenas muda a ortografia, sem qualquer efeito de sentido." },
+        { "id": "c", "text": "transforma uma ação concluída em hábito passado." },
+        { "id": "d", "text": "é impossível porque “virá” não existe." },
+        { "id": "e", "text": "troca um ato diretivo por asserção ou predição sobre terceira pessoa." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "“Venha” dirige uma ordem, pedido ou convite ao interlocutor; “ele virá” apresenta previsão ou afirmação sobre terceira pessoa. A modalidade e a força ilocucionária mudam. Fonte: questão autoral baseada em Cardoso (2006), https://periodicos.ufmg.br/index.php/relin/article/view/28761."
+    },
+    {
+      "id": "q230",
+      "revision": 1,
+      "prompt": "No trecho “A equipe analisava o processo quando recebeu nova documentação”, o imperfeito “analisava” apresenta",
+      "options": [
+        { "id": "a", "text": "ação em curso que serve de pano de fundo para o fato pontual expresso por “recebeu”." },
+        { "id": "b", "text": "fato futuro condicionado pela documentação." },
+        { "id": "c", "text": "ordem dirigida à equipe." },
+        { "id": "d", "text": "ação concluída antes de qualquer outro fato passado." },
+        { "id": "e", "text": "verdade geral atemporal." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O imperfeito pode apresentar ação em desenvolvimento no passado, enquanto o perfeito “recebeu” introduz acontecimento pontual nesse quadro. Não há projeção futura, ordem ou anterioridade encerrada. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    },
+    {
+      "id": "q231",
+      "revision": 1,
+      "prompt": "Em “A medida reduziria os custos”, o futuro do pretérito pode indicar",
+      "options": [
+        { "id": "a", "text": "fato histórico concluído." },
+        { "id": "b", "text": "ordem dirigida ao leitor." },
+        { "id": "c", "text": "uma hipótese ou projeção dependente de condições não explicitadas." },
+        { "id": "d", "text": "presente atemporal." },
+        { "id": "e", "text": "exclusivamente tempo posterior ao momento de fala." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sem condição expressa, o futuro do pretérito pode apresentar efeito hipotético, projetado ou não inteiramente assumido. Não equivale necessariamente a futuro cronológico simples. Fonte: questão autoral baseada em Sá, Oliveira e Vieira (2019), https://periodicos.ufop.br/caletroscopio/article/view/3851."
+    },
+    {
+      "id": "q232",
+      "revision": 1,
+      "prompt": "Em “A relatora acabou de chegar à sessão”, a locução “acabou de chegar” indica",
+      "options": [
+        { "id": "a", "text": "hábito repetido até o presente." },
+        { "id": "b", "text": "evento de passado recente." },
+        { "id": "c", "text": "ação futura condicionada." },
+        { "id": "d", "text": "ordem para que a relatora chegue." },
+        { "id": "e", "text": "anterioridade em relação a outro passado expresso." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Acabar de + infinitivo” apresenta ação ocorrida há pouco. A locução não expressa hábito, futuro, ordem ou mais-que-perfeito. Fonte: questão autoral baseada em Martins (2010), https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-uso-de-tempos-compostos-em-detrimento-de-tempos-simples/28050."
+    },
+    {
+      "id": "q233",
+      "revision": 1,
+      "prompt": "Considere: “Quando tiver concluído os autos, o relator poderá votar. Se não tivesse recebido os documentos, não poderia decidir.”. Assinale a análise correta.",
+      "options": [
+        { "id": "a", "text": "“Tiver concluído” é pretérito perfeito do indicativo, e “tivesse recebido” é futuro do presente." },
+        { "id": "b", "text": "“Poderá” é imperativo, e “não poderia” é presente do subjuntivo." },
+        { "id": "c", "text": "“Tiver concluído” marca conclusão anterior a outro ponto futuro; “tivesse recebido” introduz condição contrafactual passada." },
+        { "id": "d", "text": "As duas locuções exprimem exatamente o mesmo valor temporal e modal." },
+        { "id": "e", "text": "Não há correlação entre as formas verbais e as orações em que aparecem." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Tiver concluído” é futuro composto do subjuntivo, anterior ao futuro “poderá votar”. “Tivesse recebido” é mais-que-perfeito do subjuntivo em condição passada não realizada, correlato de “não poderia decidir”. Fonte: questão autoral baseada em Coan e Freitag (2009), https://revistas.ufrj.br/index.php/diadorim/article/view/3899."
+    }
+  ]
+}

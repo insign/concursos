@@ -114,6 +114,7 @@ npm run preview
 - Solicite material completo e relevante para aprendizagem e cobrança em concursos, incluindo provas similares, sem limitar a pesquisa a resumos superficiais.
 - Priorize edital e retificações, legislação e páginas oficiais, provas e gabaritos oficiais, documentação técnica primária e referências acadêmicas reconhecidas.
 - Use o subagente `urlreader` para ler integralmente as páginas mais relevantes e resolver lacunas, divergências ou detalhes que snippets de busca não sustentem.
+- O `urlreader` deve retornar o conteúdo extraído do URL, sem síntese, interpretação, contextualização ou agregação de valor; a análise e a decisão sobre esse conteúdo são responsabilidade do agente que o chamou.
 - Em matérias jurídicas ou normativas, confira vigência, alterações, entendimento aplicável e corte temporal definido pelo edital.
 - Nunca apresente como fato uma afirmação sem apoio nas fontes consultadas. Se fontes confiáveis divergirem, explique o recorte adotado no conteúdo.
 - Termine `conteudo.md` com uma seção de referências que identifique título, entidade responsável e URL de cada fonte efetivamente usada; para normas e jurisprudência, registre também versão, publicação ou vigência relevante e data de acesso.
