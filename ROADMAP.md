@@ -482,7 +482,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 ##### [x] Concluído Assunto 109 - Item 5: Gestão de projetos.
 
-##### [>] Em progresso Assunto 110 - Item 6: Planejamento estratégico.
+##### [R] Em revisão Assunto 110 - Item 6: Planejamento estratégico.
 
 ##### [ ] Assunto 111 - Item 8: Empreendedorismo governamental e novas lideranças no setor público.
 
