@@ -56,7 +56,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - Redação original do subitem 5.1: Emprego das classes de palavras.
 - Exclusividade: o subitem 5.1 é dividido entre os Assuntos 006 a 008 em classes nominais, verbo e classes invariáveis, sem omissão ou duplicação.
 
-##### [ ] Assunto 007 - Item 5, subitem 5.1, recorte: Verbo como classe de palavras.
+##### [>] Em progresso Assunto 007 - Item 5, subitem 5.1, recorte: Verbo como classe de palavras.
 
 - 5.1. Emprego do verbo como classe de palavras, distinguido do emprego de tempos e modos verbais do Assunto 005.
 
