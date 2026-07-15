@@ -12,9 +12,25 @@ A **estrutura organizacional** é o arranjo deliberado pelo qual uma organizaç�
 
 No Poder Executivo federal, o Ministério da Gestão e da Inovação em Serviços Públicos (MGI) descreve a estrutura organizacional como uma hierarquia de subunidades interligadas, cada qual com competências próprias. O desenho dessas estruturas deve considerar macroprocessos, produtos e serviços e buscar melhor atendimento ao cidadão.
 
-## 1. Natureza e finalidade da estrutura formal
+## 1. Natureza e finalidade da organização formal
 
-A **organização formal** é planejada e oficialmente reconhecida. Ela explicita cargos, unidades, competências, responsabilidades, relações de autoridade, regras e fluxos de trabalho. Seus objetivos centrais são:
+A **organização formal** é planejada, institucionalizada e oficialmente reconhecida. Ela explicita cargos, unidades, competências, responsabilidades, relações de autoridade, regras e fluxos de trabalho. A organização informal não desaparece, mas deixa de ser a fonte oficial de competências e deveres.
+
+### 1.1 Características básicas
+
+| Característica | Sentido para a prova |
+| --- | --- |
+| Deliberação | O arranjo é conscientemente desenhado para determinados objetivos. |
+| Oficialidade | Cargos, unidades, competências e relações são reconhecidos pela organização. |
+| Divisão e especialização | O trabalho é decomposto e atribuído a pessoas ou unidades. |
+| Hierarquia | Existem níveis e relações formais de autoridade. |
+| Autoridade e responsabilidade | Direitos decisórios e deveres de execução e prestação de contas são definidos. |
+| Regras e procedimentos | Comportamentos e fluxos podem ser disciplinados e registrados. |
+| Predominância do papel institucional | O exercício do cargo não deve depender apenas de vínculos pessoais. |
+| Coordenação | Unidades diferenciadas precisam integrar decisões, informações e recursos. |
+| Continuidade | A estrutura subsiste à troca das pessoas que ocupam os cargos. |
+
+Seus objetivos centrais são:
 
 - dividir e especializar o trabalho;
 - agrupar atividades relacionadas;
@@ -26,7 +42,7 @@ A **organização formal** é planejada e oficialmente reconhecida. Ela explicit
 
 A estrutura formal convive com a **organização informal**, formada por vínculos sociais, influência, confiança e comunicação espontânea. Uma não elimina a outra. Redes informais podem acelerar a cooperação e a circulação de conhecimento, mas também podem desviar fluxos oficiais ou espalhar informação imprecisa.
 
-### 1.1 O organograma não é a organização inteira
+### 1.2 O organograma não é a organização inteira
 
 O **organograma** representa graficamente unidades, níveis e relações formais de subordinação. Ele ajuda a visualizar quem responde a quem, mas é um retrato parcial e datado: não mostra integralmente processos transversais, poder informal, qualidade da comunicação, cultura ou cooperação efetiva.
 
@@ -34,7 +50,7 @@ O **organograma** representa graficamente unidades, níveis e relações formais
 
 ## 2. Dimensões básicas do desenho organizacional
 
-As dimensões a seguir ajudam a descrever e comparar estruturas.
+As dimensões a seguir ajudam a descrever e comparar estruturas. Elas são relacionadas, mas nenhuma determina automaticamente as demais.
 
 | Dimensão | Pergunta central | Efeito típico |
 | --- | --- | --- |
@@ -51,13 +67,13 @@ As dimensões a seguir ajudam a descrever e comparar estruturas.
 
 A especialização divide o trabalho em tarefas menores e permite domínio técnico, treinamento dirigido e economias de repetição. Seu benefício depende de mecanismos de **coordenação**: quanto maior a diferenciação entre unidades, maior a necessidade de integrar decisões e informações.
 
-Sem integração, a especialização pode gerar **silos**: cada área otimiza seu próprio desempenho, mas perde a visão do resultado final. Reuniões interáreas, papéis de ligação, comitês, equipes multifuncionais, sistemas integrados e gestores de produto ou projeto são mecanismos possíveis de integração.
+Sem integração, a especialização pode gerar **silos**: cada área otimiza seu próprio desempenho, mas perde a visão do resultado final. Reuniões interáreas, papéis de ligação, comitês, equipes multifuncionais, sistemas integrados e gestores de produto, processo ou projeto são mecanismos possíveis de integração.
 
 ### 2.2 Cadeia de comando, autoridade e responsabilidade
 
 **Autoridade** é o direito formal de decidir, ordenar e alocar recursos dentro de determinado âmbito. **Responsabilidade** é o dever de executar e responder pelos resultados. A delegação transfere autoridade para a realização de uma tarefa, mas não apaga a responsabilidade de acompanhamento de quem delegou.
 
-A **unidade de comando** propõe que cada subordinado receba ordens de um único superior. Ela é nítida em estruturas lineares e pode ser relativizada na estrutura matricial, em que coexistem autoridades funcional e de produto ou projeto.
+A **unidade de comando** propõe que cada subordinado receba ordens de um único superior. Ela é nítida em estruturas lineares e pode ser relativizada na estrutura matricial, em que coexistem autoridades funcional e de produto, programa ou projeto.
 
 ### 2.3 Amplitude e níveis hierárquicos
 
@@ -135,8 +151,10 @@ A matriz sobrepõe dois critérios, normalmente função e produto, programa ou 
 | Forma matricial | Predomínio de autoridade |
 | --- | --- |
 | Fraca | Gestor funcional; coordenador de projeto tem poder limitado. |
-| Equilibrada | Autoridade compartilhada entre função e projeto/produto. |
-| Forte | Gestor de projeto/produto possui maior poder, sem eliminar o eixo funcional. |
+| Equilibrada | Autoridade compartilhada entre função e projeto ou produto. |
+| Forte | Gestor de projeto ou produto possui maior poder, sem eliminar o eixo funcional. |
+
+A classificação fraca, equilibrada e forte é especialmente comum na literatura de gestão de projetos. A matriz pode combinar função com projeto, produto, programa, território ou outro eixo; não se limita a uma única combinação.
 
 Matriz é uma estrutura híbrida, mas nem toda estrutura híbrida é matricial. Combinar unidades funcionais e geográficas sem dupla subordinação regular, por exemplo, pode gerar uma forma híbrida não matricial.
 
@@ -149,25 +167,38 @@ Equipes multifuncionais ou relativamente autônomas tornam-se unidades centrais 
 
 Uma estrutura baseada em equipes pode manter regras, hierarquia e formalização. “Equipe” não significa ausência de estrutura.
 
-### 5.4 Estrutura em rede
+### 5.4 Estrutura horizontal ou orientada por processos
+
+A estrutura horizontal organiza o trabalho em torno de **fluxos ponta a ponta**, entregas e equipes multifuncionais, reduzindo barreiras entre departamentos. Em vez de cada unidade otimizar apenas sua etapa, a responsabilidade acompanha o processo desde a demanda até o resultado entregue ao usuário.
+
+- **Vantagens:** foco no usuário, redução de transferências e esperas, integração entre especialidades e responsabilização pelo fluxo completo.
+- **Limitações:** redefinição de autoridade, possível tensão com departamentos funcionais e necessidade de indicadores e responsáveis pelo processo.
+
+Ela não se confunde com a simples **departamentalização por processo**, na qual cada departamento pode continuar responsável somente por uma etapa ou tecnologia. Também não elimina necessariamente a hierarquia ou as unidades funcionais: pode coexistir com elas em desenho híbrido.
+
+### 5.5 Estrutura em rede
 
 Uma organização em rede coordena um núcleo e múltiplas unidades, equipes ou parceiros internos e externos. Ela pode concentrar competências essenciais e contratar ou articular outras capacidades.
 
 - **Vantagens:** flexibilidade, acesso a especialidades e adaptação de capacidade.
 - **Limitações:** dependência de parceiros e tecnologia, fronteiras de responsabilidade, controle de qualidade, segurança e coordenação de interdependências.
 
-### 5.5 Estrutura virtual
+### 5.6 Estrutura virtual, modular e sem fronteiras
 
-Na estrutura virtual, pessoas e unidades geograficamente distribuídas trabalham com forte apoio de tecnologias de informação e comunicação.
+Na estrutura virtual, tecnologias de informação sustentam a coordenação de capacidades distribuídas, que podem incluir equipes internas, especialistas, fornecedores e parceiros externos. Um núcleo relativamente estável pode articular recursos que não estão reunidos na mesma unidade, local ou organização.
 
-- **Vantagens:** acesso a talentos dispersos, menor barreira geográfica e flexibilidade de presença.
-- **Limitações:** isolamento, confiança, comunicação assíncrona, segurança da informação e dificuldade de socialização.
+- **Vantagens:** acesso a competências dispersas, flexibilidade, menor dependência de localização e composição adaptável de recursos.
+- **Limitações:** confiança, comunicação, segurança da informação, dependência tecnológica, controle de qualidade e definição de responsabilidades.
 
-Virtualidade descreve o modo de coordenação e localização; não determina sozinha centralização, formalização ou hierarquia. Uma organização virtual pode ser centralizada e altamente formalizada.
+**Teletrabalho não é sinônimo de estrutura virtual.** Uma organização pode manter o mesmo desenho funcional, a mesma cadeia de comando e todas as atividades internalizadas, apenas permitindo trabalho remoto. Nesse caso, mudou a localização do trabalho, não necessariamente a estrutura.
 
-### 5.6 Estrutura híbrida
+As expressões **virtual**, **modular**, **em rede** e **sem fronteiras** se sobrepõem em parte da literatura. Em prova, resolva pela característica descrita: uso intensivo de tecnologia, permeabilidade das fronteiras, núcleo coordenador, parceiros, terceirização ou composição temporária de capacidades.
 
-Estruturas híbridas combinam formas e critérios para atender realidades diferentes. Uma instituição pode ter áreas centrais funcionais, unidades regionais e equipes matriciais para programas temporários.
+Virtualidade não determina sozinha centralização, formalização ou hierarquia. Uma organização virtual pode ser centralizada e altamente formalizada.
+
+### 5.7 Estrutura híbrida
+
+Estruturas híbridas combinam formas e critérios para atender realidades diferentes. Uma instituição pode ter áreas centrais funcionais, unidades regionais, equipes horizontais para processos prioritários e arranjos matriciais para programas temporários.
 
 A combinação aumenta aderência ao contexto, mas exige fronteiras, responsabilidades e direitos decisórios explícitos. “Híbrida” é categoria mais ampla que “matricial”.
 
@@ -183,21 +214,51 @@ A combinação aumenta aderência ao contexto, mas exige fronteiras, responsabil
 | Cliente ou público | Para quem se trabalha? | Segmentos com necessidades distintas. | Duplicação e fragmentação. |
 | Processo | Em qual etapa ou tecnologia do fluxo? | Operações sequenciais e especialização por fase. | Otimização local em prejuízo do fluxo completo. |
 | Projeto | Qual resultado temporário deve ser entregue? | Entregas únicas e complexas. | Instabilidade e competição por recursos. |
+| Conhecimento, disciplina ou área de especialidade | Qual campo científico, técnico ou profissional reúne o trabalho? | Universidades, pesquisa, hospitais e organizações intensivas em conhecimento. | Barreiras entre disciplinas e dificuldade de integração interdisciplinar. |
 
 ### 6.1 Como reconhecer o critério
 
-Considere uma secretaria fictícia:
+Considere uma instituição fictícia:
 
 - diretorias de finanças, pessoas e tecnologia: **funcional**;
 - divisões autônomas, cada uma responsável de ponta a ponta por emissão de certidões, cursos de capacitação ou atendimento consultivo: **produto ou serviço**;
 - superintendências Norte, Nordeste, Centro-Oeste, Sudeste e Sul: **geográfica**;
 - unidades para cidadãos, empresas e outros órgãos: **cliente**;
-- unidades de recebimento, análise, decisão e recurso: **processo**;
-- equipe temporária de implantação de novo sistema: **projeto**.
+- unidades de recebimento, análise, decisão e recurso: **processo**, por etapas;
+- equipe temporária de implantação de novo sistema: **projeto**;
+- centros de ciências da saúde, engenharias e ciências humanas: **conhecimento ou disciplina**.
 
-Uma organização pode combinar critérios em níveis diferentes. O primeiro nível pode ser geográfico e, dentro de cada região, funcional. Não existe critério universalmente superior: a escolha depende do que precisa ser coordenado mais intensamente.
+Uma organização pode combinar critérios em níveis diferentes. O primeiro nível pode ser geográfico e, dentro de cada região, funcional. Isso não cria uma matriz se não houver dupla subordinação regular.
 
-## 7. Estruturas mecanicistas e orgânicas
+Não existe critério universalmente superior: a escolha depende do que precisa ser coordenado mais intensamente.
+
+### 6.2 Processo como critério e processo ponta a ponta
+
+A palavra “processo” pode aparecer em dois desenhos distintos:
+
+| Situação | Elemento decisivo |
+| --- | --- |
+| Departamentalização por processo | Cada unidade responde por etapa, fase, equipamento ou tecnologia do fluxo. |
+| Estrutura horizontal orientada por processos | Equipe ou responsável integra o fluxo completo e responde pela entrega ponta a ponta. |
+| Gestão de processos | Métodos de identificação, modelagem, medição e melhoria; pertence ao Assunto 107. |
+
+## 7. Variações terminológicas entre autores
+
+As classificações não são universais. A banca pode adotar taxonomias diferentes sem que o fenômeno organizacional mude.
+
+| Variação | Como resolver |
+| --- | --- |
+| Geográfica, por produto e por cliente | Podem aparecer como critérios de departamentalização, tipos divisionais ou estruturas próprias. Observe o eixo de agrupamento. |
+| Conhecimento ou disciplina | Pode ser categoria autônoma ou modalidade da departamentalização funcional. |
+| Organização funcional | Pode significar agrupamento contemporâneo por especialidade ou, em autores clássicos, supervisão funcional taylorista. |
+| Rede, virtual, modular e sem fronteiras | Possuem áreas de sobreposição; procure núcleo coordenador, parceiros, tecnologia e permeabilidade das fronteiras. |
+| Estrutura por processos | Pode designar departamentos por etapas ou desenho horizontal ponta a ponta; identifique o alcance da responsabilidade. |
+| Linha-staff | Pode ser tratada como forma tradicional ou como combinação de linha e assessoria; não implica dupla chefia. |
+| Matriz | Pode combinar função com projeto, produto, programa, território ou outro eixo; a dupla autoridade é a marca decisiva. |
+
+> **Regra de prova:** características concretas valem mais que o rótulo isolado.
+
+## 8. Estruturas mecanicistas e orgânicas
 
 Mecanicista e orgânica são tendências em um contínuo, não rótulos absolutos.
 
@@ -212,7 +273,9 @@ Mecanicista e orgânica são tendências em um contínuo, não rótulos absoluto
 
 Uma forma não é sempre superior à outra. Controle regulatório, segurança e repetibilidade podem justificar características mecanicistas; inovação, incerteza e interdependência podem exigir características orgânicas. A mesma instituição pode combinar ambas em unidades diferentes.
 
-## 8. Fatores contingenciais do desenho
+Organicidade não significa ausência de objetivos, autoridade, normas ou prestação de contas. Significa maior adaptação de papéis, comunicação lateral e distribuição de decisões.
+
+## 9. Fatores contingenciais do desenho
 
 A abordagem contingencial rejeita a ideia de uma única estrutura ótima para toda organização. O desenho deve considerar:
 
@@ -227,7 +290,7 @@ A abordagem contingencial rejeita a ideia de uma única estrutura ótima para to
 
 > **Regra de prova:** estruturas mais orgânicas tendem a responder melhor à incerteza, mas não dispensam objetivos, responsabilização e mecanismos de coordenação.
 
-## 9. Aplicação à Administração Pública
+## 10. Aplicação à Administração Pública
 
 Na Administração Pública, o desenho deve compatibilizar eficiência com legalidade, continuidade, controle, transparência e atendimento ao cidadão. A orientação federal associada ao Manual de Estruturas Organizacionais enfatiza:
 
@@ -240,17 +303,21 @@ Na Administração Pública, o desenho deve compatibilizar eficiência com legal
 
 Essas diretrizes não autorizam apagar competências legais nem presumem que menos níveis sempre sejam melhores. O desenho deve preservar autoridade, segregação de funções e controles proporcionais ao risco.
 
-## 10. Roteiro de resolução de questões
+Uma administração pública pode combinar centralização normativa com descentralização operacional, estrutura funcional para áreas de apoio, unidades territoriais para presença regional e equipes temporárias para programas. O desenho é híbrido quando essas formas coexistem; só será matricial onde houver sobreposição regular de autoridades.
 
-1. Identifique o **eixo de agrupamento**: função, produto, território, cliente, processo ou projeto.
+## 11. Roteiro de resolução de questões
+
+1. Identifique o **eixo de agrupamento**: função, produto, território, cliente, processo, projeto ou conhecimento.
 2. Separe **tipo estrutural** de simples critério de departamentalização.
-3. Procure a marca distintiva: dupla autoridade na matriz; dedicação temporária na projetizada; especialidade na funcional.
-4. Relacione vantagem e custo: foco divisional cobra duplicação; escala funcional cobra coordenação horizontal.
-5. Trate centralização, formalização e amplitude como contínuos, não como escolhas absolutas.
-6. Verifique o contexto: estratégia, ambiente, tecnologia, tamanho, diversidade e risco.
-7. Desconfie de expressões como `sempre`, `necessariamente`, `elimina` e `única estrutura correta`.
+3. Procure a marca distintiva: dupla autoridade na matriz; dedicação temporária na projetizada; especialidade na funcional; fluxo ponta a ponta na horizontal.
+4. Diferencie trabalho remoto de estrutura virtual e departamento por etapa de orientação ponta a ponta.
+5. Relacione vantagem e custo: foco divisional cobra duplicação; escala funcional cobra coordenação horizontal.
+6. Trate centralização, formalização e amplitude como contínuos, não como escolhas absolutas.
+7. Verifique o contexto: estratégia, ambiente, tecnologia, tamanho, diversidade, regulação e risco.
+8. Considere variações de taxonomia e resolva pelas características concretas.
+9. Desconfie de expressões como `sempre`, `necessariamente`, `elimina` e `única estrutura correta`.
 
-## 11. Limites do assunto
+## 12. Limites do assunto
 
 - Planejamento e direção no processo organizacional: Assunto 104.
 - Comunicação organizacional: Assunto 105.
