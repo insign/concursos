@@ -117,6 +117,7 @@ npm run preview
 - Em matérias jurídicas ou normativas, confira vigência, alterações, entendimento aplicável e corte temporal definido pelo edital.
 - Nunca apresente como fato uma afirmação sem apoio nas fontes consultadas. Se fontes confiáveis divergirem, explique o recorte adotado no conteúdo.
 - Termine `conteudo.md` com uma seção de referências que identifique título, entidade responsável e URL de cada fonte efetivamente usada; para normas e jurisprudência, registre também versão, publicação ou vigência relevante e data de acesso.
+- Em Markdown editorial, nunca exponha uma URL crua como texto visível. Todo link deve usar um título curto, descritivo e contextual na forma `[título](URL)`, inclusive nas referências, preservando o endereço completo apenas no destino do link.
 
 ### Conteúdo completo
 

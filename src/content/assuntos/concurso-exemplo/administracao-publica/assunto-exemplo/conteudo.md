@@ -8,7 +8,7 @@ storageId: fundamentos
 
 # Fundamentos de administração pública
 
-Este material demonstra **leitura longa**, ~~uma formulação superada~~ e um endereço automático: https://concursos.helio.me.
+Este material demonstra **leitura longa**, ~~uma formulação superada~~ e um link para o [portal Concursos](https://concursos.helio.me).
 
 ![Ciclo de planejamento, execução, avaliação e correção.](./images/ciclo.svg)
 
