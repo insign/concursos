@@ -501,7 +501,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 #### Administração de Recursos Materiais e Patrimoniais
 
-##### [ ] Assunto 115 - Itens 1, subitem 1.1, 2 e 6: Conceitos de material e patrimônio, patrimônio público e ciclo básico.
+##### [>] Em progresso Assunto 115 - Itens 1, subitem 1.1, 2 e 6: Conceitos de material e patrimônio, patrimônio público e ciclo básico.
 
 - Item 1. Introdução à Administração de Material e Patrimônio.
   - 1.1. Conceituação de Material e Patrimônio.
