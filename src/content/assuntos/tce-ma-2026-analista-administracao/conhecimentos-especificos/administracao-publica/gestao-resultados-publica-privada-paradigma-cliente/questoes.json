@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q834",
+      "revision": 1,
+      "prompt": "Na cadeia de produção de um serviço público, o número de requerimentos validamente decididos constitui, em regra, indicador de",
+      "options": [
+        {"id": "a", "text": "impacto social de longo prazo"},
+        {"id": "b", "text": "necessidade pública inicial"},
+        {"id": "c", "text": "produto ou output"},
+        {"id": "d", "text": "insumo financeiro"},
+        {"id": "e", "text": "fator externo não controlável"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Requerimentos decididos são entregas diretamente produzidas pelo processo administrativo, isto é, produtos. A mudança gerada na situação do público pertence aos resultados ou impactos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q835",
+      "revision": 1,
+      "prompt": "Assinale o exemplo que melhor representa resultado, e não mero produto, de um programa de proteção social.",
+      "options": [
+        {"id": "a", "text": "Aumento do acesso tempestivo das pessoas elegíveis à proteção devida."},
+        {"id": "b", "text": "Quantidade de requerimentos processados."},
+        {"id": "c", "text": "Número de servidores alocados."},
+        {"id": "d", "text": "Total de formulários disponibilizados."},
+        {"id": "e", "text": "Valor do orçamento autorizado."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Resultado descreve mudança direta na condição dos destinatários. Requerimentos e formulários são produtos; servidores e orçamento são insumos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q836",
+      "revision": 1,
+      "prompt": "Quanto à atribuição de resultados na gestão pública, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "todo impacto social observado é exclusivamente causado pelo órgão executor"},
+        {"id": "b", "text": "fatores externos influenciam somente os insumos, nunca os impactos"},
+        {"id": "c", "text": "produto e impacto são necessariamente controlados no mesmo grau"},
+        {"id": "d", "text": "a presença de fatores externos impede qualquer análise de contribuição"},
+        {"id": "e", "text": "quanto mais distante o elo da atividade administrativa, maior tende a ser a influência de outros fatores"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A organização controla mais diretamente processos e produtos. Resultados amplos dependem frequentemente de contexto e outros atores, razão pela qual contribuição não deve ser confundida com atribuição exclusiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q837",
+      "revision": 1,
+      "prompt": "Uma compra pelo menor preço nominal, mas com material que falha rapidamente e eleva o custo total, demonstra que",
+      "options": [
+        {"id": "a", "text": "efetividade é sempre igual ao menor preço"},
+        {"id": "b", "text": "economicidade considera adequação de custo, prazo e qualidade, não apenas o preço inicial"},
+        {"id": "c", "text": "qualidade é irrelevante para o uso dos recursos"},
+        {"id": "d", "text": "a compra foi necessariamente eficaz porque houve entrega"},
+        {"id": "e", "text": "o custo total não integra a análise de desempenho"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Economicidade busca obter e usar recursos em condições adequadas. O menor preço isolado pode gerar desperdício quando prazo, qualidade e custo total são desfavoráveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q838",
+      "revision": 1,
+      "prompt": "A dimensão que relaciona produtos válidos entregues aos recursos consumidos é denominada",
+      "options": [
+        {"id": "a", "text": "equidade"},
+        {"id": "b", "text": "efetividade"},
+        {"id": "c", "text": "legitimidade"},
+        {"id": "d", "text": "eficiência"},
+        {"id": "e", "text": "publicidade"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Eficiência expressa a relação entre entregas e recursos, podendo ser medida por produtividade ou custo unitário. A validade e a qualidade das entregas precisam ser preservadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q839",
+      "revision": 1,
+      "prompt": "Uma unidade gastou R$ 240.000,00 para produzir 800 decisões válidas. Seu custo unitário foi de",
+      "options": [
+        {"id": "a", "text": "R$ 30,00"},
+        {"id": "b", "text": "R$ 300,00"},
+        {"id": "c", "text": "R$ 800,00"},
+        {"id": "d", "text": "R$ 1.920,00"},
+        {"id": "e", "text": "R$ 3.000,00"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Custo unitário = custo total/produtos válidos = 240.000/800 = R$ 300,00 por decisão válida. O indicador deve ser interpretado com dados de qualidade e resultado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q840",
+      "revision": 1,
+      "prompt": "Uma equipe entregou 900 documentos diante de uma meta de 1.000. O cumprimento da meta foi de",
+      "options": [
+        {"id": "a", "text": "9%"},
+        {"id": "b", "text": "10%"},
+        {"id": "c", "text": "100%"},
+        {"id": "d", "text": "111%"},
+        {"id": "e", "text": "90%"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Cumprimento = realizado/meta × 100 = 900/1.000 × 100 = 90%. Esse índice informa eficácia em relação à meta, não efetividade ou eficiência isoladamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q841",
+      "revision": 1,
+      "prompt": "A redução comprovada da reincidência após uma política de reinserção social é evidência predominantemente de",
+      "options": [
+        {"id": "a", "text": "insumo"},
+        {"id": "b", "text": "economicidade da aquisição"},
+        {"id": "c", "text": "efetividade"},
+        {"id": "d", "text": "atividade administrativa"},
+        {"id": "e", "text": "volume documental"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Efetividade examina mudança relevante no problema público ou na realidade dos destinatários. Atribuição e contribuição devem ser avaliadas conforme o desenho e o contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q842",
+      "revision": 1,
+      "prompt": "O tempo médio de atendimento melhorou, mas regiões remotas e pessoas sem acesso digital continuaram com demora muito superior. A dimensão que mais diretamente exige examinar essa distribuição é",
+      "options": [
+        {"id": "a", "text": "equidade"},
+        {"id": "b", "text": "hierarquia"},
+        {"id": "c", "text": "especialização"},
+        {"id": "d", "text": "centralização"},
+        {"id": "e", "text": "unidade de comando"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Equidade observa como acesso, qualidade e resultados se distribuem entre grupos e territórios. Médias agregadas podem ocultar barreiras e desigualdades relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q843",
+      "revision": 1,
+      "prompt": "Na expressão “reduzir o prazo mediano de decisão de 45 para 30 dias até dezembro de 2026”, o valor de 45 dias é",
+      "options": [
+        {"id": "a", "text": "o impacto"},
+        {"id": "b", "text": "a meta final"},
+        {"id": "c", "text": "o benchmark obrigatório"},
+        {"id": "d", "text": "a linha de base"},
+        {"id": "e", "text": "o produto"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Linha de base é a situação inicial usada para comparação. A meta é 30 dias no prazo indicado, enquanto o indicador é a mediana de dias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q844",
+      "revision": 1,
+      "prompt": "Assinale a relação correta entre objetivo, indicador e meta.",
+      "options": [
+        {"id": "a", "text": "Objetivo e indicador são sempre a mesma frase."},
+        {"id": "b", "text": "Objetivo descreve o estado desejado, indicador oferece evidência e meta fixa valor esperado em prazo determinado."},
+        {"id": "c", "text": "Meta é apenas o nome da medida, sem valor ou prazo."},
+        {"id": "d", "text": "Indicador é a ação administrativa que produz o resultado."},
+        {"id": "e", "text": "Objetivo corresponde somente ao valor observado no presente."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os três elementos são relacionados, mas distintos: objetivo indica direção, indicador mensura e meta especifica patamar e prazo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q845",
+      "revision": 1,
+      "prompt": "Sobre benchmark, assinale a afirmativa correta.",
+      "options": [
+        {"id": "a", "text": "É sempre o valor inicial do próprio indicador."},
+        {"id": "b", "text": "Substitui a necessidade de meta e prazo."},
+        {"id": "c", "text": "Pode ser copiado sem considerar público, risco ou recursos."},
+        {"id": "d", "text": "É sinônimo obrigatório de impacto social."},
+        {"id": "e", "text": "É referência comparativa que deve ser contextualizada, e não meta automática."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Benchmark apoia comparação interna ou externa, mas diferenças de contexto podem impedir sua adoção direta como meta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q846",
+      "revision": 1,
+      "prompt": "Um indicador antecedente ou leading caracteriza-se por",
+      "options": [
+        {"id": "a", "text": "sinalizar fator associado ao desempenho futuro"},
+        {"id": "b", "text": "registrar exclusivamente impacto ocorrido há muitos anos"},
+        {"id": "c", "text": "ser necessariamente financeiro"},
+        {"id": "d", "text": "dispensar validação metodológica"},
+        {"id": "e", "text": "substituir todo indicador consequente"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Indicadores antecedentes observam direcionadores que podem antecipar desempenho. Uma cesta equilibrada também usa indicadores consequentes, que registram efeitos produzidos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q847",
+      "revision": 1,
+      "prompt": "A quantidade de pessoas capacitadas é produto para uma escola de governo, mas pode ser esforço para o órgão que pretende melhorar atendimento. Isso demonstra que",
+      "options": [
+        {"id": "a", "text": "todo indicador possui classificação universal e imutável"},
+        {"id": "b", "text": "indicadores de esforço nunca são produtos"},
+        {"id": "c", "text": "a classificação depende do objetivo e da posição na cadeia analisada"},
+        {"id": "d", "text": "capacitação é sempre impacto"},
+        {"id": "e", "text": "a cadeia de resultados dispensa objetivos"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O mesmo dado pode ocupar posições distintas conforme a unidade de análise e o resultado pretendido. A classificação exige contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q848",
+      "revision": 1,
+      "prompt": "Qual elemento integra uma ficha técnica adequada de indicador?",
+      "options": [
+        {"id": "a", "text": "Apenas um nome atraente, sem definição."},
+        {"id": "b", "text": "Somente a meta, sem fonte dos dados."},
+        {"id": "c", "text": "Exclusivamente o nome do dirigente."},
+        {"id": "d", "text": "Fórmula, unidade, fonte, periodicidade, responsável, linha de base, meta e limitações."},
+        {"id": "e", "text": "Uma regra de contagem mantida em segredo."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A ficha técnica torna a medida interpretável e auditável ao explicitar definição, cálculo, dados, responsabilidades, referências e limitações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q849",
+      "revision": 1,
+      "prompt": "Segundo o referencial estudado, um bom indicador deve apresentar, entre outros atributos,",
+      "options": [
+        {"id": "a", "text": "complexidade obrigatória e sigilo"},
+        {"id": "b", "text": "utilidade, confiabilidade, tempestividade e sensibilidade"},
+        {"id": "c", "text": "instabilidade e alto custo de coleta"},
+        {"id": "d", "text": "ausência de relação com objetivos"},
+        {"id": "e", "text": "impossibilidade de comunicação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Utilidade, representatividade, confiabilidade, disponibilidade, economicidade, simplicidade, estabilidade, tempestividade e sensibilidade estão entre os atributos relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q850",
+      "revision": 1,
+      "prompt": "Acompanhar continuamente execução, tendências e alertas para corrigir rumos durante o ciclo corresponde a",
+      "options": [
+        {"id": "a", "text": "privatização"},
+        {"id": "b", "text": "departamentalização"},
+        {"id": "c", "text": "regulação patrimonial"},
+        {"id": "d", "text": "avaliação exclusivamente final"},
+        {"id": "e", "text": "monitoramento"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Monitoramento é contínuo e apoia correção durante a execução. Avaliação formula juízo mais estruturado sobre desenho, implementação ou efeitos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q851",
+      "revision": 1,
+      "prompt": "Uma avaliação de implementação busca principalmente",
+      "options": [
+        {"id": "a", "text": "examinar como a intervenção foi executada e se o desenho chegou à prática"},
+        {"id": "b", "text": "substituir a coleta de qualquer dado"},
+        {"id": "c", "text": "calcular apenas o menor preço de aquisição"},
+        {"id": "d", "text": "eliminar a necessidade de compreender o contexto"},
+        {"id": "e", "text": "medir somente a popularidade do dirigente"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A avaliação de implementação observa processos, alcance e fidelidade da execução, podendo explicar por que resultados ocorreram ou não. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q852",
+      "revision": 1,
+      "prompt": "Em um ciclo consistente de gestão de resultados, após monitorar e avaliar, a organização deve",
+      "options": [
+        {"id": "a", "text": "manter o plano imutável independentemente das evidências"},
+        {"id": "b", "text": "ocultar limitações para preservar a aparência de sucesso"},
+        {"id": "c", "text": "prestar contas, aprender e corrigir, escalar, redesenhar ou encerrar conforme a evidência"},
+        {"id": "d", "text": "abandonar todos os controles de meios"},
+        {"id": "e", "text": "substituir objetivos por indicadores de volume"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A gestão de resultados é cíclica e orientada à aprendizagem. Evidências devem alimentar prestação de contas e decisões de continuidade ou mudança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q853",
+      "revision": 1,
+      "prompt": "A ampliação de autonomia gerencial em um modelo orientado a resultados deve ser acompanhada de",
+      "options": [
+        {"id": "a", "text": "sigilo de critérios e ausência de rastreabilidade"},
+        {"id": "b", "text": "eliminação de competência e limites"},
+        {"id": "c", "text": "controle exclusivamente informal"},
+        {"id": "d", "text": "accountability, transparência, competência clara e controles proporcionais ao risco"},
+        {"id": "e", "text": "liberdade para contrariar a lei quando a meta for atingida"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Autonomia não equivale a arbitrariedade. Ela exige limites, critérios, rastreabilidade, responsabilização e controles adequados aos riscos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q854",
+      "revision": 1,
+      "prompt": "Sobre acordos ou pactos de resultados, assinale a afirmativa correta.",
+      "options": [
+        {"id": "a", "text": "São instrumentos possíveis e devem alinhar objetivo, indicador, meta, recursos, responsabilidades, riscos e prestação de contas."},
+        {"id": "b", "text": "São sinônimos de todo o sistema de gestão de resultados."},
+        {"id": "c", "text": "Dispensam fonte de dados e linha de base."},
+        {"id": "d", "text": "Autorizam descumprir competência legal."},
+        {"id": "e", "text": "Funcionam melhor quando metas são impostas sem recursos."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Pactos podem operacionalizar compromissos, mas não esgotam o modelo. Seu desenho precisa vincular resultados às capacidades, aos dados e à accountability. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q855",
+      "revision": 1,
+      "prompt": "A chamada lei de Goodhart alerta que",
+      "options": [
+        {"id": "a", "text": "toda medida de desempenho é inútil"},
+        {"id": "b", "text": "metas devem ser mantidas secretas"},
+        {"id": "c", "text": "dados qualitativos são sempre superiores"},
+        {"id": "d", "text": "indicadores financeiros não podem ser usados"},
+        {"id": "e", "text": "uma métrica transformada em alvo único pode ser otimizada em prejuízo da finalidade"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A pressão sobre uma única métrica pode induzir gaming, seleção de casos e perda de qualidade. O alerta recomenda desenho balanceado, não abandono da mensuração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q856",
+      "revision": 1,
+      "prompt": "Qual prática reduz o risco de gaming em sistemas de desempenho?",
+      "options": [
+        {"id": "a", "text": "Premiar com base em um único número não auditado."},
+        {"id": "b", "text": "Combinar volume, prazo, qualidade, resultado e equidade, com auditoria e transparência metodológica."},
+        {"id": "c", "text": "Impedir a análise de casos extremos."},
+        {"id": "d", "text": "Alterar regras de contagem sem divulgação."},
+        {"id": "e", "text": "Excluir casos complexos do universo medido."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cestas balanceadas, dados auditáveis e análise de distribuição dificultam otimização artificial de uma métrica isolada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q857",
+      "revision": 1,
+      "prompt": "É uma convergência entre organizações públicas e privadas o uso de",
+      "options": [
+        {"id": "a", "text": "finalidade constitucional idêntica"},
+        {"id": "b", "text": "financiamento exclusivamente tributário"},
+        {"id": "c", "text": "accountability política perante o eleitorado em igual grau"},
+        {"id": "d", "text": "planejamento, processos, pessoas, riscos, tecnologia, custos e indicadores"},
+        {"id": "e", "text": "regime jurídico integralmente comum"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Técnicas gerenciais podem ser utilizadas nos dois setores. Elas devem ser adaptadas à finalidade, ao regime jurídico, aos riscos e às partes interessadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q858",
+      "revision": 1,
+      "prompt": "A diferença central entre gestão pública e privada reside",
+      "options": [
+        {"id": "a", "text": "na impossibilidade de o setor público utilizar indicadores"},
+        {"id": "b", "text": "na inexistência de controle sobre empresas privadas"},
+        {"id": "c", "text": "na combinação de finalidade, legitimidade, regime decisório, financiamento, cobertura e accountability"},
+        {"id": "d", "text": "no uso exclusivo de tecnologia pelo setor privado"},
+        {"id": "e", "text": "na ausência de pessoas e processos em organizações públicas"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os setores compartilham ferramentas, mas operam sob finalidades, fontes de legitimidade, obrigações e controles diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q859",
+      "revision": 1,
+      "prompt": "Na administração pública, a noção de sucesso deve combinar",
+      "options": [
+        {"id": "a", "text": "legalidade, acesso, qualidade, eficiência, efetividade, equidade e confiança"},
+        {"id": "b", "text": "somente lucro financeiro"},
+        {"id": "c", "text": "apenas satisfação do usuário mais vocal"},
+        {"id": "d", "text": "exclusivamente volume de documentos"},
+        {"id": "e", "text": "apenas redução de despesas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Resultado público é multidimensional. Economia ou satisfação isoladas não substituem legalidade, direitos, qualidade, distribuição e mudança relevante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q860",
+      "revision": 1,
+      "prompt": "Assinale a afirmativa correta sobre diferenças entre os setores público e privado.",
+      "options": [
+        {"id": "a", "text": "Todo serviço público é gratuito."},
+        {"id": "b", "text": "Toda organização privada tem finalidade lucrativa."},
+        {"id": "c", "text": "Toda empresa estatal atua fora do mercado."},
+        {"id": "d", "text": "Organizações privadas não se submetem a leis ou regulação."},
+        {"id": "e", "text": "Serviços públicos podem ser custeados por taxas ou tarifas, e existem organizações privadas sem fins lucrativos."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Gratuidade e lucro não definem de modo absoluto os setores. A análise precisa considerar tipo organizacional, regime, fonte de receita e finalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q861",
+      "revision": 1,
+      "prompt": "A delegação da execução de um serviço público a particular",
+      "options": [
+        {"id": "a", "text": "transforma automaticamente todo usuário em acionista"},
+        {"id": "b", "text": "não elimina a finalidade pública, a regulação e a fiscalização"},
+        {"id": "c", "text": "afasta necessariamente todas as normas de proteção ao usuário"},
+        {"id": "d", "text": "impede qualquer obrigação de continuidade"},
+        {"id": "e", "text": "torna o serviço imune à accountability"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A prestação por particular não extingue os deveres públicos de estruturação, regulação e fiscalização do serviço. A Lei nº 13.460/2017 aplica-se subsidiariamente a essa prestação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q862",
+      "revision": 1,
+      "prompt": "O paradigma burocrático, em sua formulação típica, enfatiza",
+      "options": [
+        {"id": "a", "text": "confusão entre patrimônio público e privado"},
+        {"id": "b", "text": "segmentação de mercado como finalidade pública"},
+        {"id": "c", "text": "mérito, impessoalidade, especialização, regras e previsibilidade"},
+        {"id": "d", "text": "ausência de procedimento formal"},
+        {"id": "e", "text": "substituição da cidadania por consumo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A burocracia busca conter o patrimonialismo por profissionalização, impessoalidade e previsibilidade. Modelos posteriores acrescentam desempenho, redes e experiência do usuário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q863",
+      "revision": 1,
+      "prompt": "Entre as ênfases associadas à Nova Gestão Pública — NPM encontra-se",
+      "options": [
+        {"id": "a", "text": "a indistinção entre cargo e propriedade pessoal"},
+        {"id": "b", "text": "a proibição de metas e indicadores"},
+        {"id": "c", "text": "o retorno exclusivo ao controle de procedimento"},
+        {"id": "d", "text": "desempenho, descentralização, contratualização, competição e foco no usuário ou cliente"},
+        {"id": "e", "text": "a eliminação de toda autonomia gerencial"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A NPM reforçou resultados e práticas gerenciais. Entre seus riscos estão fragmentação, metas estreitas e transposição inadequada de lógicas de mercado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q864",
+      "revision": 1,
+      "prompt": "Quanto ao GesPública, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "o Decreto nº 9.094/2017 revogou o Decreto nº 5.378/2005, de modo que o programa é referência histórica, não regime geral vigente"},
+        {"id": "b", "text": "foi instituído pela Lei nº 13.460/2017 e continua obrigatório para todos os entes"},
+        {"id": "c", "text": "substituiu a Constituição como fonte dos princípios administrativos"},
+        {"id": "d", "text": "aplica-se somente a empresas privadas lucrativas"},
+        {"id": "e", "text": "proíbe a mensuração de resultados"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O Decreto nº 5.378/2005 instituiu o GesPública e foi expressamente revogado pelo Decreto nº 9.094/2017. Guias antigos podem ter utilidade metodológica ou histórica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q865",
+      "revision": 1,
+      "prompt": "O principal ganho do paradigma do cliente na gestão pública é",
+      "options": [
+        {"id": "a", "text": "permitir discriminação por rentabilidade"},
+        {"id": "b", "text": "eliminar a competência legal"},
+        {"id": "c", "text": "deslocar o foco da conveniência interna para necessidades, acesso, clareza, prazo, resolução e experiência do usuário"},
+        {"id": "d", "text": "transformar toda política em relação de consumo"},
+        {"id": "e", "text": "subordinar o interesse público a qualquer preferência individual"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A orientação ao usuário melhora jornada e qualidade, mas precisa permanecer subordinada a direitos, legalidade, equidade e interesse público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q866",
+      "revision": 1,
+      "prompt": "Cidadão diferencia-se da metáfora de cliente porque",
+      "options": [
+        {"id": "a", "text": "somente o cliente possui direitos"},
+        {"id": "b", "text": "cidadania existe apenas quando há pagamento direto"},
+        {"id": "c", "text": "cliente sempre decide a política pública"},
+        {"id": "d", "text": "cidadão não participa da vida coletiva"},
+        {"id": "e", "text": "o cidadão é sujeito político, titular de direitos e deveres e participante, mesmo sem usar diretamente o serviço"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Cidadania envolve participação, financiamento, fiscalização e direitos coletivos, dimensões mais amplas que uma relação de atendimento ou consumo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q867",
+      "revision": 1,
+      "prompt": "De acordo com a Lei nº 13.460/2017, usuário é",
+      "options": [
+        {"id": "a", "text": "somente pessoa física que já pagou tarifa"},
+        {"id": "b", "text": "pessoa física ou jurídica que utiliza ou pode utilizar serviço público"},
+        {"id": "c", "text": "apenas servidor que presta o serviço"},
+        {"id": "d", "text": "exclusivamente consumidor em relação regida pelo CDC"},
+        {"id": "e", "text": "somente eleitor do ente prestador"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A lei alcança o usuário efetivo ou potencial, pessoa física ou jurídica. A condição de usuário não se confunde necessariamente com a de consumidor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q868",
+      "revision": 1,
+      "prompt": "Constitui limite correto à metáfora do cliente na gestão pública:",
+      "options": [
+        {"id": "a", "text": "A preferência do usuário mais vocal deve prevalecer sempre."},
+        {"id": "b", "text": "Satisfação elevada permite contrariar direitos de terceiros."},
+        {"id": "c", "text": "Serviços essenciais podem excluir público pouco rentável sem restrição."},
+        {"id": "d", "text": "Foco no usuário não afasta legalidade, impessoalidade, equidade e interesse coletivo."},
+        {"id": "e", "text": "Consulta transfere automaticamente a competência decisória."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A experiência do usuário é relevante, mas não substitui direitos, competências e obrigações coletivas. O referencial adequado é serviço centrado em pessoas e direitos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q869",
+      "revision": 1,
+      "prompt": "A Lei nº 13.460/2017 estabelece normas básicas sobre direitos dos usuários aplicáveis",
+      "options": [
+        {"id": "a", "text": "à administração direta e indireta da União, dos estados, do Distrito Federal e dos municípios, nos Poderes abrangidos"},
+        {"id": "b", "text": "somente ao Poder Executivo federal"},
+        {"id": "c", "text": "exclusivamente às empresas privadas"},
+        {"id": "d", "text": "apenas aos serviços cobrados por tarifa"},
+        {"id": "e", "text": "somente à administração direta municipal"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A Lei nº 13.460/2017 tem alcance federativo amplo e aplicação subsidiária aos serviços públicos prestados por particular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q870",
+      "revision": 1,
+      "prompt": "Nos termos da Lei nº 13.460/2017, não integra expressamente o conjunto de características do serviço adequado do art. 4º a",
+      "options": [
+        {"id": "a", "text": "regularidade"},
+        {"id": "b", "text": "continuidade"},
+        {"id": "c", "text": "lucratividade"},
+        {"id": "d", "text": "segurança"},
+        {"id": "e", "text": "cortesia"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 4º menciona regularidade, continuidade, efetividade, segurança, atualidade, generalidade, transparência e cortesia. Lucratividade não aparece nesse rol. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q871",
+      "revision": 1,
+      "prompt": "É dever do usuário de serviço público, conforme a Lei nº 13.460/2017,",
+      "options": [
+        {"id": "a", "text": "ocultar informações relevantes solicitadas pelo prestador"},
+        {"id": "b", "text": "desrespeitar os agentes públicos quando discordar"},
+        {"id": "c", "text": "danificar os bens utilizados na prestação"},
+        {"id": "d", "text": "exigir tratamento desigual em razão de preferência pessoal"},
+        {"id": "e", "text": "prestar informações pertinentes, colaborar e preservar os bens públicos utilizados"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A lei prevê boa-fé, urbanidade, prestação de informações pertinentes, colaboração e preservação dos bens públicos, ao lado dos direitos do usuário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q872",
+      "revision": 1,
+      "prompt": "A Carta de Serviços ao Usuário deve",
+      "options": [
+        {"id": "a", "text": "funcionar apenas como publicidade institucional"},
+        {"id": "b", "text": "informar serviços, requisitos, etapas, prazo máximo, forma, canais e compromissos de qualidade"},
+        {"id": "c", "text": "permanecer inacessível ao público"},
+        {"id": "d", "text": "dispensar atualização periódica"},
+        {"id": "e", "text": "criar competência administrativa contra a lei"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A Carta reduz assimetria de informação e torna padrões verificáveis. Deve ser periodicamente atualizada e permanentemente divulgada na internet. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q873",
+      "revision": 1,
+      "prompt": "A decisão administrativa final sobre manifestação do usuário deve ser encaminhada, em regra, no prazo de",
+      "options": [
+        {"id": "a", "text": "cinco dias, sem prorrogação"},
+        {"id": "b", "text": "dez dias, prorrogáveis indefinidamente"},
+        {"id": "c", "text": "vinte dias improrrogáveis"},
+        {"id": "d", "text": "trinta dias, prorrogáveis uma vez, justificadamente, por igual período"},
+        {"id": "e", "text": "noventa dias, sem necessidade de justificativa"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Lei nº 13.460/2017 estabelece 30 dias, prorrogáveis uma única vez por igual período mediante justificativa expressa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q874",
+      "revision": 1,
+      "prompt": "A ouvidoria pública, no sistema de proteção ao usuário, deve",
+      "options": [
+        {"id": "a", "text": "promover participação, acompanhar efetividade, propor melhorias e encaminhar manifestações"},
+        {"id": "b", "text": "atuar apenas como balcão comercial"},
+        {"id": "c", "text": "impedir qualquer mediação"},
+        {"id": "d", "text": "ocultar problemas recorrentes"},
+        {"id": "e", "text": "substituir todos os órgãos decisórios"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ouvidoria é mecanismo de participação e melhoria, não mero SAC. Ela recebe, trata, acompanha e propõe aperfeiçoamentos sem substituir competências decisórias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q875",
+      "revision": 1,
+      "prompt": "Quanto aos conselhos de usuários de serviços públicos, assinale a afirmativa correta.",
+      "options": [
+        {"id": "a", "text": "Possuem natureza jurisdicional e suas reuniões devem ser sigilosas."},
+        {"id": "b", "text": "Têm finalidade empresarial e lucrativa."},
+        {"id": "c", "text": "Possuem natureza consultiva, e sua composição deve observar representatividade e pluralidade."},
+        {"id": "d", "text": "Possuem competência legislativa para criar tributos."},
+        {"id": "e", "text": "Suas deliberações vinculam toda decisão administrativa."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os conselhos possuem natureza consultiva, enquanto representatividade e pluralidade são critérios de composição. Eles acompanham, avaliam e propõem melhorias sem exercer decisão vinculante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q876",
+      "revision": 1,
+      "prompt": "A avaliação continuada dos serviços públicos prevista na Lei nº 13.460/2017 deve ser realizada",
+      "options": [
+        {"id": "a", "text": "somente quando houver ordem judicial"},
+        {"id": "b", "text": "a cada dez anos, exclusivamente"},
+        {"id": "c", "text": "sem qualquer publicação dos resultados"},
+        {"id": "d", "text": "apenas com dados financeiros"},
+        {"id": "e", "text": "por pesquisa de satisfação no mínimo anual ou outro meio que garanta significância estatística"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A lei admite pesquisa anual ou outro meio estatisticamente significativo. Os resultados devem ser publicados e considerados na reorientação do serviço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q877",
+      "revision": 1,
+      "prompt": "Sobre satisfação do usuário, assinale a afirmativa correta.",
+      "options": [
+        {"id": "a", "text": "Satisfação elevada comprova necessariamente correção técnica."},
+        {"id": "b", "text": "É dimensão relevante, mas deve ser combinada com qualidade, prazo, legalidade e efetividade."},
+        {"id": "c", "text": "A lei proíbe sua mensuração."},
+        {"id": "d", "text": "Substitui todos os demais indicadores."},
+        {"id": "e", "text": "Uma sanção legal só pode ser aplicada se o destinatário ficar satisfeito."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Satisfação capta percepção, não toda a qualidade objetiva. Atendimento cortês pode produzir decisão errada, e decisão legal pode desagradar o destinatário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q878",
+      "revision": 1,
+      "prompt": "A Lei nº 13.726/2018 orienta a Administração a",
+      "options": [
+        {"id": "a", "text": "exigir sempre reconhecimento de firma e autenticação"},
+        {"id": "b", "text": "repetir prova de fatos já documentados em qualquer hipótese"},
+        {"id": "c", "text": "impedir compartilhamento legal de documentos"},
+        {"id": "d", "text": "racionalizar procedimentos e dispensar formalidades nas hipóteses legais, sem afastar responsabilidade por declaração falsa"},
+        {"id": "e", "text": "eliminar todo controle independentemente do risco"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A lei combate formalidades desnecessárias nos Poderes de todos os entes, preservando controles legais e responsabilização por falsidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q879",
+      "revision": 1,
+      "prompt": "O Decreto nº 9.094/2017 aplica-se diretamente",
+      "options": [
+        {"id": "a", "text": "aos órgãos e entidades do Poder Executivo federal"},
+        {"id": "b", "text": "a todos os Poderes de todos os entes sem distinção"},
+        {"id": "c", "text": "somente a empresas estrangeiras"},
+        {"id": "d", "text": "exclusivamente ao Poder Judiciário municipal"},
+        {"id": "e", "text": "apenas a organizações sem fins lucrativos"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O Decreto nº 9.094/2017 tem escopo direto no Executivo federal. Ele não deve ser confundido com o alcance federativo amplo da Lei nº 13.460/2017. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q880",
+      "revision": 1,
+      "prompt": "No desenho de serviços públicos, simplificar significa",
+      "options": [
+        {"id": "a", "text": "dispensar toda verificação em qualquer situação"},
+        {"id": "b", "text": "transferir todo custo documental ao usuário"},
+        {"id": "c", "text": "eliminar direitos de terceiros para acelerar o processo"},
+        {"id": "d", "text": "manter exigências mesmo quando o custo supera o risco"},
+        {"id": "e", "text": "reduzir exigências desnecessárias e tornar controles proporcionais ao risco, preservando salvaguardas"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Simplificação busca reduzir custo de conformidade e fricção sem remover controles necessários à legalidade, à segurança e à proteção de terceiros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q881",
+      "revision": 1,
+      "prompt": "Um órgão reduziu pela metade o prazo médio e elevou o volume, mas aumentou decisões reformadas e piorou a desigualdade territorial. A conclusão mais adequada é",
+      "options": [
+        {"id": "a", "text": "o serviço alcançou efetividade plena porque ficou mais rápido"},
+        {"id": "b", "text": "qualidade e equidade são irrelevantes diante do volume"},
+        {"id": "c", "text": "há melhora operacional parcial, mas o sucesso exige examinar erro, acesso, eficiência, efetividade e distribuição"},
+        {"id": "d", "text": "toda reforma de decisão prova aumento de economicidade"},
+        {"id": "e", "text": "o prazo médio torna desnecessária qualquer outra evidência"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Rapidez e volume são evidências parciais. Erro e desigualdade podem revelar perdas de qualidade e equidade, e a mudança social ainda precisa ser avaliada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q882",
+      "revision": 1,
+      "prompt": "Para avaliar um serviço de concessão de licenças de forma balanceada, a melhor cesta é",
+      "options": [
+        {"id": "a", "text": "apenas quantidade de licenças emitidas"},
+        {"id": "b", "text": "prazo, custo por decisão válida, taxa de reforma por erro, acesso por território e resultado regulatório"},
+        {"id": "c", "text": "somente satisfação dos servidores"},
+        {"id": "d", "text": "apenas valor do orçamento autorizado"},
+        {"id": "e", "text": "somente número de acessos ao portal"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A cesta proposta combina processo, eficiência, qualidade, equidade e resultado. Um indicador isolado não representa adequadamente o valor do serviço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q883",
+      "revision": 1,
+      "prompt": "A gestão orientada a resultados na produção de serviços públicos",
+      "options": [
+        {"id": "a", "text": "substitui legalidade por satisfação"},
+        {"id": "b", "text": "limita-se à criação de um painel"},
+        {"id": "c", "text": "elimina controles de meios"},
+        {"id": "d", "text": "alinha objetivos, recursos, processos, entregas, resultados, responsabilidades, monitoramento e aprendizagem"},
+        {"id": "e", "text": "mede apenas produtos, sem investigar mudanças"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Gestão para resultados integra a cadeia completa e usa evidências para decisão e aprendizagem. Ela complementa conformidade e legalidade em vez de abandoná-las. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
