@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q684",
+      "revision": 1,
+      "prompt": "Um projeto caracteriza-se por ser",
+      "options": [
+        {"id": "a", "text": "uma operação contínua destinada a repetir indefinidamente a mesma entrega"},
+        {"id": "b", "text": "um esforço temporário para criar produto, serviço, resultado ou capacidade singular"},
+        {"id": "c", "text": "um conjunto obrigatório de atividades sem data de término"},
+        {"id": "d", "text": "uma unidade permanente da estrutura funcional"},
+        {"id": "e", "text": "um plano estratégico sem execução definida"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Projeto possui início e término e produz entrega singular. Operações são contínuas ou recorrentes, embora possam receber as entregas criadas por um projeto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q685",
+      "revision": 1,
+      "prompt": "No conceito de projeto, o atributo temporário significa que",
+      "options": [
+        {"id": "a", "text": "o trabalho deve durar menos de um ano"},
+        {"id": "b", "text": "a entrega será descartada logo após a conclusão"},
+        {"id": "c", "text": "o projeto possui início e término, ainda que sua duração seja longa"},
+        {"id": "d", "text": "a equipe nunca pode conter servidores permanentes"},
+        {"id": "e", "text": "os benefícios terminam junto com o projeto"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Temporariedade se refere à existência de limites de início e fim do esforço, não a uma duração necessariamente curta nem à vida útil da entrega ou dos benefícios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q686",
+      "revision": 1,
+      "prompt": "A gestão coordenada de projetos e atividades relacionados para obter benefícios indisponíveis pela gestão isolada define",
+      "options": [
+        {"id": "a", "text": "programa"},
+        {"id": "b", "text": "operação"},
+        {"id": "c", "text": "pacote de trabalho"},
+        {"id": "d", "text": "linha de base"},
+        {"id": "e", "text": "marco"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Programa reúne componentes relacionados e os coordena para benefícios conjuntos. Ele não é definido apenas por tamanho nem por duração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q687",
+      "revision": 1,
+      "prompt": "Sobre portfólios, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "todos os componentes precisam compartilhar a mesma entrega técnica"},
+        {"id": "b", "text": "são sinônimos de projetos de grande porte"},
+        {"id": "c", "text": "não podem incluir operações"},
+        {"id": "d", "text": "agrupam componentes para alcançar objetivos estratégicos, mesmo sem relação técnica direta entre todos eles"},
+        {"id": "e", "text": "eliminam a necessidade de priorizar recursos"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O portfólio é orientado à estratégia, ao valor, à priorização e à capacidade. Seus componentes podem incluir projetos, programas, subportfólios e operações e não precisam ser tecnicamente relacionados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q688",
+      "revision": 1,
+      "prompt": "Após um projeto implantar um novo portal, a manutenção diária e recorrente desse portal é classificada predominantemente como",
+      "options": [
+        {"id": "a", "text": "programa"},
+        {"id": "b", "text": "operação"},
+        {"id": "c", "text": "portfólio"},
+        {"id": "d", "text": "termo de abertura"},
+        {"id": "e", "text": "EAP"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O projeto cria ou transforma uma capacidade; o trabalho contínuo que sustenta essa capacidade é operação. Melhorias singulares futuras podem originar outros projetos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q689",
+      "revision": 1,
+      "prompt": "Um sistema de protocolo foi implantado e, após seu uso, o tempo mediano de atendimento caiu 30%. Nesse exemplo, o sistema implantado e a redução de prazo representam, respectivamente,",
+      "options": [
+        {"id": "a", "text": "benefício e pacote de trabalho"},
+        {"id": "b", "text": "operação e risco"},
+        {"id": "c", "text": "entrega e benefício mensurável"},
+        {"id": "d", "text": "portfólio e linha de base"},
+        {"id": "e", "text": "custo real e valor planejado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O sistema é a entrega produzida. A melhoria mensurável percebida após seu uso é benefício; ela contribui para valor, mas não se confunde com o artefato entregue. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q690",
+      "revision": 1,
+      "prompt": "Assinale a associação correta entre instrumento e função.",
+      "options": [
+        {"id": "a", "text": "Business case — autorizar formalmente o gerente sem justificar o investimento"},
+        {"id": "b", "text": "Termo de abertura — comparar todas as propostas da licitação"},
+        {"id": "c", "text": "Plano de benefícios — substituir o plano de gerenciamento do projeto"},
+        {"id": "d", "text": "Business case — justificar o investimento; termo de abertura — autorizar formalmente o projeto"},
+        {"id": "e", "text": "Linha de base — registrar qualquer versão preliminar do plano"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O business case fundamenta a decisão com necessidade, alternativas, viabilidade, riscos e benefícios. O termo de abertura formaliza a autorização e a autoridade do gerente dentro das alçadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q691",
+      "revision": 1,
+      "prompt": "É responsabilidade predominante do patrocinador do projeto",
+      "options": [
+        {"id": "a", "text": "executar pessoalmente todas as atividades técnicas"},
+        {"id": "b", "text": "sustentar a justificativa, prover apoio e recursos e tomar ou escalar decisões estratégicas"},
+        {"id": "c", "text": "substituir todas as partes interessadas"},
+        {"id": "d", "text": "aprovar sozinho qualquer despesa, independentemente da alçada"},
+        {"id": "e", "text": "manter o Product Backlog em todo projeto"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O patrocinador conecta o projeto à organização, apoia a justificativa, mobiliza recursos e atua em decisões estratégicas. Ele não substitui gerente, equipe, governança nem regras de competência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q692",
+      "revision": 1,
+      "prompt": "De acordo com o Decreto nº 9.203/2017, os mecanismos de governança pública são",
+      "options": [
+        {"id": "a", "text": "liderança, estratégia e controle"},
+        {"id": "b", "text": "escopo, prazo e custo"},
+        {"id": "c", "text": "produto, programa e portfólio"},
+        {"id": "d", "text": "planejamento, execução e contrato"},
+        {"id": "e", "text": "inspeção, punição e sigilo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O decreto organiza governança em liderança, estratégia e controle, postos em prática para avaliar, direcionar e monitorar a gestão e gerar valor público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q693",
+      "revision": 1,
+      "prompt": "Constitui um dos seis princípios resumidos publicamente para o PMBOK Guide — 8ª edição",
+      "options": [
+        {"id": "a", "text": "eliminar toda adaptação ao contexto"},
+        {"id": "b", "text": "priorizar documentação em vez de valor"},
+        {"id": "c", "text": "integrar sustentabilidade"},
+        {"id": "d", "text": "concentrar decisões em uma única pessoa"},
+        {"id": "e", "text": "evitar equipes empoderadas"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A edição vigente resume seis princípios: visão holística, foco em valor, qualidade incorporada, liderança responsável, sustentabilidade integrada e equipes empoderadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q694",
+      "revision": 1,
+      "prompt": "O conjunto formado apenas pelos sete domínios de desempenho do PMBOK Guide — 8ª edição é",
+      "options": [
+        {"id": "a", "text": "governança, escopo, cronograma, finanças, partes interessadas, recursos e riscos"},
+        {"id": "b", "text": "integração, qualidade, aquisições, comunicações, produto, programa e operação"},
+        {"id": "c", "text": "iniciação, planejamento, execução, monitoramento, controle, encerramento e benefícios"},
+        {"id": "d", "text": "liderança, estratégia, controle, fiscalização, auditoria, contrato e orçamento"},
+        {"id": "e", "text": "escopo, preço, licitação, equipe, operação, processo e estrutura"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A 8ª edição organiza os domínios em governança, escopo, cronograma, finanças, stakeholders, recursos e riscos. Não se deve confundi-los com grupos históricos ou áreas de conhecimento da 6ª edição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q695",
+      "revision": 1,
+      "prompt": "Uma questão que menciona expressamente o PMBOK Guide — 6ª edição pode associá-lo corretamente a",
+      "options": [
+        {"id": "a", "text": "seis princípios e sete domínios, sem áreas de conhecimento"},
+        {"id": "b", "text": "49 processos, cinco grupos de processos e dez áreas de conhecimento"},
+        {"id": "c", "text": "três responsabilidades, cinco eventos e três artefatos"},
+        {"id": "d", "text": "somente métodos adaptativos"},
+        {"id": "e", "text": "quatro grupos e nove áreas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A estrutura de 49 processos, cinco grupos e dez áreas pertence à 6ª edição e deve ser tratada como referência histórica quando a edição for indicada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q696",
+      "revision": 1,
+      "prompt": "A relação entre grupos de processos e fases do ciclo de vida é corretamente descrita em",
+      "options": [
+        {"id": "a", "text": "cada grupo corresponde necessariamente a uma única fase linear"},
+        {"id": "b", "text": "planejamento só ocorre antes de qualquer execução"},
+        {"id": "c", "text": "monitoramento ocorre apenas após a entrega final"},
+        {"id": "d", "text": "grupos podem interagir e repetir-se em diferentes fases; não são sinônimos de fases"},
+        {"id": "e", "text": "encerramento é dispensável em projetos cancelados"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Grupos ou áreas de foco organizam atividades gerenciais e podem operar repetidamente em fases. Fases organizam o ciclo do projeto e não equivalem automaticamente aos grupos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q697",
+      "revision": 1,
+      "prompt": "Uma abordagem em que versões sucessivas refinam a solução e entregas utilizáveis são adicionadas gradualmente é",
+      "options": [
+        {"id": "a", "text": "somente preditiva"},
+        {"id": "b", "text": "iterativa e incremental"},
+        {"id": "c", "text": "necessariamente operacional"},
+        {"id": "d", "text": "incompatível com feedback"},
+        {"id": "e", "text": "restrita a obras públicas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Iterações refinam a solução por aprendizagem; incrementos adicionam partes utilizáveis. Uma abordagem pode combinar ambas as características. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q698",
+      "revision": 1,
+      "prompt": "Tailoring em gestão de projetos consiste em",
+      "options": [
+        {"id": "a", "text": "adaptar conscientemente métodos, controles e artefatos ao contexto e aos riscos"},
+        {"id": "b", "text": "eliminar todos os processos e registros"},
+        {"id": "c", "text": "usar o mesmo modelo em qualquer projeto"},
+        {"id": "d", "text": "ignorar requisitos legais em projetos pequenos"},
+        {"id": "e", "text": "adotar somente Scrum"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tailoring ajusta abordagem, ciclo, práticas e documentação à complexidade, criticidade, equipe, governança e regulação. Não autoriza ausência de disciplina ou descumprimento legal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q699",
+      "revision": 1,
+      "prompt": "Na referência histórica do PMBOK Guide — 6ª edição, a linha de base do escopo reúne",
+      "options": [
+        {"id": "a", "text": "cronograma, orçamento e registro de riscos"},
+        {"id": "b", "text": "business case, termo de abertura e relatório final"},
+        {"id": "c", "text": "declaração do escopo, EAP e dicionário da EAP"},
+        {"id": "d", "text": "organograma, matriz RACI e plano de comunicação"},
+        {"id": "e", "text": "Product Backlog, Sprint Backlog e Incremento"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A linha de base histórica do escopo é formada pela declaração aprovada, pela EAP e por seu dicionário. Ela não se confunde com linhas de base de prazo ou custo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q700",
+      "revision": 1,
+      "prompt": "A Estrutura Analítica do Projeto — EAP é",
+      "options": [
+        {"id": "a", "text": "um gráfico de barras com datas de início e fim"},
+        {"id": "b", "text": "a decomposição hierárquica orientada a entregas do escopo total"},
+        {"id": "c", "text": "um organograma da estrutura permanente"},
+        {"id": "d", "text": "uma lista não hierárquica de riscos"},
+        {"id": "e", "text": "o registro de custos reais"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A EAP decompõe o escopo total em entregas e componentes gerenciáveis. Seu nível inferior é o pacote de trabalho; atividades e cronograma são desenvolvidos a partir dele. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q701",
+      "revision": 1,
+      "prompt": "A regra dos 100% aplicada à EAP recomenda que",
+      "options": [
+        {"id": "a", "text": "cada pacote dure exatamente cem horas"},
+        {"id": "b", "text": "todo o orçamento seja reserva gerencial"},
+        {"id": "c", "text": "todas as atividades sejam críticas"},
+        {"id": "d", "text": "a EAP cubra todo o escopo, inclusive gerenciamento, sem omissão nem duplicação"},
+        {"id": "e", "text": "o projeto use cem pacotes de trabalho"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A regra trata de cobertura integral do escopo, não de quantidade ou duração. A soma dos componentes filhos deve representar o trabalho do elemento pai sem duplicidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q702",
+      "revision": 1,
+      "prompt": "Em um cronograma, marco é",
+      "options": [
+        {"id": "a", "text": "evento significativo de duração zero"},
+        {"id": "b", "text": "atividade de maior custo"},
+        {"id": "c", "text": "pacote de trabalho com duração indeterminada"},
+        {"id": "d", "text": "reserva financeira"},
+        {"id": "e", "text": "risco obrigatoriamente negativo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Marco sinaliza acontecimento relevante, como uma aprovação ou entrega, e possui duração zero. Ele não representa o trabalho necessário para alcançá-lo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q703",
+      "revision": 1,
+      "prompt": "Na relação término para início — TI, a atividade sucessora",
+      "options": [
+        {"id": "a", "text": "termina antes de a predecessora iniciar"},
+        {"id": "b", "text": "inicia somente depois de a predecessora terminar, salvo antecipação definida"},
+        {"id": "c", "text": "inicia quando a predecessora inicia"},
+        {"id": "d", "text": "não possui dependência lógica"},
+        {"id": "e", "text": "sempre pertence ao caminho crítico"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "TI é a relação mais comum: o término da predecessora condiciona o início da sucessora. Leads ou lags podem ajustar a relação quando representam a lógica real. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q704",
+      "revision": 1,
+      "prompt": "Uma atividade possui estimativas PERT otimista de 4 dias, mais provável de 7 dias e pessimista de 16 dias. A duração esperada é",
+      "options": [
+        {"id": "a", "text": "7 dias"},
+        {"id": "b", "text": "8 dias"},
+        {"id": "c", "text": "9 dias"},
+        {"id": "d", "text": "10 dias"},
+        {"id": "e", "text": "12 dias"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "PERT usa (O + 4M + P)/6. Assim, (4 + 4×7 + 16)/6 = 48/6 = 8 dias. A média triangular produziria resultado diferente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q705",
+      "revision": 1,
+      "prompt": "O caminho crítico de um projeto é",
+      "options": [
+        {"id": "a", "text": "o conjunto das atividades mais caras"},
+        {"id": "b", "text": "o caminho com maior número de pessoas"},
+        {"id": "c", "text": "a sequência de maior duração que determina a menor duração calculada do projeto"},
+        {"id": "d", "text": "a lista de todos os riscos altos"},
+        {"id": "e", "text": "sempre único e imutável"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O caminho mais longo na rede controla a data final calculada. Pode haver mais de um caminho crítico, e o caminho pode mudar conforme execução, dependências e recursos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q706",
+      "revision": 1,
+      "prompt": "Folga livre é o atraso que uma atividade pode sofrer sem",
+      "options": [
+        {"id": "a", "text": "aumentar seu custo real"},
+        {"id": "b", "text": "afetar o início mais cedo de uma atividade sucessora"},
+        {"id": "c", "text": "alterar qualquer risco do projeto"},
+        {"id": "d", "text": "exigir recursos"},
+        {"id": "e", "text": "modificar a EAP"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Folga livre preserva o início mais cedo das sucessoras. Folga total considera a data final do projeto, e atividades críticas usualmente têm folga total zero. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q707",
+      "revision": 1,
+      "prompt": "A técnica de compressão que adiciona recursos a atividades críticas para reduzir sua duração é denominada",
+      "options": [
+        {"id": "a", "text": "crashing"},
+        {"id": "b", "text": "nivelamento"},
+        {"id": "c", "text": "fast tracking"},
+        {"id": "d", "text": "decomposição"},
+        {"id": "e", "text": "validação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Crashing troca recursos e, em geral, custo ou risco por redução de duração. Deve atuar em atividades que controlam a data final para produzir efeito no prazo total. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q708",
+      "revision": 1,
+      "prompt": "O fast tracking reduz o cronograma principalmente por",
+      "options": [
+        {"id": "a", "text": "excluir entregas sem aprovação"},
+        {"id": "b", "text": "retirar recursos das atividades críticas"},
+        {"id": "c", "text": "sobrepor atividades antes sequenciais, com possível aumento de risco e retrabalho"},
+        {"id": "d", "text": "aumentar todas as esperas"},
+        {"id": "e", "text": "transformar marcos em pacotes de trabalho"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Fast tracking executa em paralelo trabalho antes sequencial. A antecipação pode exigir refazer trabalho se uma entrada ainda instável mudar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q709",
+      "revision": 1,
+      "prompt": "Quanto às reservas de custos, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "contingência e reserva gerencial integram igualmente a linha de base"},
+        {"id": "b", "text": "a contingência cobre riscos identificados e integra a linha de base; a reserva gerencial fica fora dela"},
+        {"id": "c", "text": "reserva gerencial cobre somente trabalho fora do escopo"},
+        {"id": "d", "text": "contingência não faz parte do orçamento"},
+        {"id": "e", "text": "nenhuma reserva exige governança"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Contingência trata incógnitas conhecidas e compõe a baseline. Reserva gerencial trata trabalho imprevisto dentro do escopo, integra o orçamento total, mas não a linha de base de custos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q710",
+      "revision": 1,
+      "prompt": "No gerenciamento do valor agregado, EV representa",
+      "options": [
+        {"id": "a", "text": "o custo efetivamente pago"},
+        {"id": "b", "text": "o orçamento do trabalho programado"},
+        {"id": "c", "text": "o orçamento do trabalho efetivamente realizado"},
+        {"id": "d", "text": "a reserva gerencial disponível"},
+        {"id": "e", "text": "a previsão final obrigatória"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "EV ou valor agregado é o valor orçado do trabalho concluído. PV é o orçamento do trabalho programado, e AC é o custo real incorrido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q711",
+      "revision": 1,
+      "prompt": "Em uma data de controle, EV = 100, AC = 125 e PV = 120. O projeto apresenta",
+      "options": [
+        {"id": "a", "text": "CV = 25 e CPI = 1,25, com custo favorável"},
+        {"id": "b", "text": "SV = 20 e SPI = 1,20, com prazo favorável"},
+        {"id": "c", "text": "CV = -25 e CPI = 0,80; SV = -20 e SPI aproximadamente 0,83"},
+        {"id": "d", "text": "CV = -20 e SV = -25"},
+        {"id": "e", "text": "desempenho exatamente conforme custo e prazo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "CV=EV-AC=-25; CPI=EV/AC=0,80; SV=EV-PV=-20; SPI=EV/PV≈0,83. Índices abaixo de 1 e variações negativas são desfavoráveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q712",
+      "revision": 1,
+      "prompt": "Se BAC = 1.000 e CPI = 0,80, e o desempenho atual de custos deve continuar, a estimativa na conclusão EAC é",
+      "options": [
+        {"id": "a", "text": "800"},
+        {"id": "b", "text": "1.000"},
+        {"id": "c", "text": "1.080"},
+        {"id": "d", "text": "1.250"},
+        {"id": "e", "text": "1.800"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Quando se projeta a continuidade do desempenho de custo, EAC=BAC/CPI. Logo, 1.000/0,80=1.250, indicando previsão acima do orçamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q713",
+      "revision": 1,
+      "prompt": "Um equipamento com poucas funcionalidades atende integralmente aos requisitos definidos, sem defeitos. Isso demonstra que",
+      "options": [
+        {"id": "a", "text": "grau inferior implica necessariamente baixa qualidade"},
+        {"id": "b", "text": "qualidade e grau são conceitos distintos"},
+        {"id": "c", "text": "qualidade independe de requisitos"},
+        {"id": "d", "text": "inspeção substitui prevenção"},
+        {"id": "e", "text": "toda funcionalidade possível deve ser incluída"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Grau descreve categoria ou quantidade de funcionalidades; qualidade expressa atendimento aos requisitos. Uma entrega simples pode ter alta qualidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q714",
+      "revision": 1,
+      "prompt": "Na matriz RACI, a letra A identifica quem",
+      "options": [
+        {"id": "a", "text": "apenas recebe informação"},
+        {"id": "b", "text": "é consultado antes do trabalho"},
+        {"id": "c", "text": "executa necessariamente todas as tarefas"},
+        {"id": "d", "text": "responde em última instância pela entrega ou decisão"},
+        {"id": "e", "text": "audita obrigatoriamente o contrato"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A é Accountable, responsável final pela entrega ou decisão. R executa, C é consultado e I é informado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q715",
+      "revision": 1,
+      "prompt": "A diferença entre gerenciar comunicações e engajar partes interessadas é que",
+      "options": [
+        {"id": "a", "text": "comunicações tratam do fluxo adequado de informação, enquanto engajamento busca participação, entendimento e apoio"},
+        {"id": "b", "text": "engajamento consiste apenas em enviar relatórios"},
+        {"id": "c", "text": "comunicação elimina conflitos automaticamente"},
+        {"id": "d", "text": "somente partes favoráveis devem receber informação"},
+        {"id": "e", "text": "stakeholders são identificados apenas na iniciação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Informação correta e tempestiva é necessária, mas pode não alterar participação ou expectativas. O engajamento trata a relação com stakeholders ao longo do projeto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q716",
+      "revision": 1,
+      "prompt": "Uma indisponibilidade prevista como possibilidade ocorre e interrompe o serviço. A partir da ocorrência, ela deve ser tratada principalmente como",
+      "options": [
+        {"id": "a", "text": "oportunidade"},
+        {"id": "b", "text": "problema ou issue, sem impedir a identificação de riscos decorrentes"},
+        {"id": "c", "text": "risco ainda inteiramente incerto"},
+        {"id": "d", "text": "reserva gerencial"},
+        {"id": "e", "text": "benefício"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Risco é incerto; quando o evento ocorre, existe um problema atual a resolver. O problema pode produzir novos riscos, que continuam sendo geridos como incertezas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q717",
+      "revision": 1,
+      "prompt": "O conjunto que contém apenas respostas usuais a ameaças é",
+      "options": [
+        {"id": "a", "text": "explorar, melhorar, compartilhar e aceitar"},
+        {"id": "b", "text": "evitar, mitigar, transferir e aceitar"},
+        {"id": "c", "text": "decompor, sequenciar, nivelar e validar"},
+        {"id": "d", "text": "inspecionar, demonstrar, aprovar e encerrar"},
+        {"id": "e", "text": "criar, monitorar, comunicar e auditar"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ameaças podem ser evitadas, mitigadas, transferidas ou aceitas. Escalar também cabe quando o risco excede a alçada ou o escopo do projeto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q718",
+      "revision": 1,
+      "prompt": "Quando a equipe age para garantir que uma oportunidade ocorra e capturar seu benefício, a resposta é",
+      "options": [
+        {"id": "a", "text": "mitigar"},
+        {"id": "b", "text": "transferir"},
+        {"id": "c", "text": "evitar"},
+        {"id": "d", "text": "explorar"},
+        {"id": "e", "text": "reparar"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Explorar busca assegurar a ocorrência da oportunidade. Melhorar eleva probabilidade ou impacto; compartilhar atribui a captura a parte mais apta; aceitar reconhece sem ação proativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q719",
+      "revision": 1,
+      "prompt": "Um risco que permanece depois da implementação da resposta planejada é denominado",
+      "options": [
+        {"id": "a", "text": "risco residual"},
+        {"id": "b", "text": "risco secundário"},
+        {"id": "c", "text": "marco"},
+        {"id": "d", "text": "problema encerrado"},
+        {"id": "e", "text": "benefício planejado"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Residual é a parcela que subsiste após a resposta. Secundário é um novo risco provocado diretamente pela própria resposta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q720",
+      "revision": 1,
+      "prompt": "No controle integrado de mudanças, uma solicitação deve",
+      "options": [
+        {"id": "a", "text": "ser executada imediatamente antes da análise"},
+        {"id": "b", "text": "ser aprovada sempre que partir do patrocinador"},
+        {"id": "c", "text": "ter impactos analisados e ser decidida pela autoridade competente antes de atualizar linhas de base"},
+        {"id": "d", "text": "alterar somente o escopo, sem considerar prazo ou custo"},
+        {"id": "e", "text": "permanecer sem registro para agilizar o trabalho"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mudanças exigem registro, análise integrada, decisão conforme alçada, atualização de planos se aprovadas, comunicação e rastreamento. Solicitar não equivale a aprovar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q721",
+      "revision": 1,
+      "prompt": "Em termos gerenciais gerais, contratos de preço fixo tendem a",
+      "options": [
+        {"id": "a", "text": "transferir maior risco de custo ao fornecedor quando o escopo está claro"},
+        {"id": "b", "text": "deixar todo risco de custo com o comprador"},
+        {"id": "c", "text": "eliminar a necessidade de especificação"},
+        {"id": "d", "text": "dispensar administração contratual"},
+        {"id": "e", "text": "substituir a legislação aplicável"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Preço fixo aloca ao fornecedor maior risco de superar seus custos, sobretudo com escopo claro. A classificação não afasta gestão, mudanças nem o regime jurídico aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q722",
+      "revision": 1,
+      "prompt": "Nos termos da Lei nº 14.133/2021, o Estudo Técnico Preliminar",
+      "options": [
+        {"id": "a", "text": "é sinônimo legal de termo de abertura do projeto"},
+        {"id": "b", "text": "é a primeira etapa do planejamento da contratação e caracteriza necessidade, interesse público e melhor solução"},
+        {"id": "c", "text": "substitui automaticamente o termo de referência"},
+        {"id": "d", "text": "é elaborado somente depois da execução contratual"},
+        {"id": "e", "text": "dispensa análise de alternativas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O ETP fundamenta anteprojeto, termo de referência ou projeto básico conforme o objeto. Ele é instrumento do planejamento da contratação e não se confunde automaticamente com business case ou charter. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q723",
+      "revision": 1,
+      "prompt": "A matriz de riscos prevista na Lei nº 14.133/2021",
+      "options": [
+        {"id": "a", "text": "é cláusula contratual de alocação de riscos e não substitui a gestão completa dos riscos do projeto"},
+        {"id": "b", "text": "elimina toda incerteza da contratação"},
+        {"id": "c", "text": "é o mesmo que registro de stakeholders"},
+        {"id": "d", "text": "transfere obrigatoriamente todos os riscos ao contratado"},
+        {"id": "e", "text": "dispensa controles e fiscalização"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A matriz caracteriza a alocação entre as partes e o equilíbrio econômico-financeiro inicial. O projeto continua exigindo identificação, análise e tratamento de riscos mais amplos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q724",
+      "revision": 1,
+      "prompt": "O Scrum Guide 2020 define Scrum como",
+      "options": [
+        {"id": "a", "text": "metodologia completa e prescritiva para qualquer trabalho"},
+        {"id": "b", "text": "framework leve para gerar valor por soluções adaptativas a problemas complexos"},
+        {"id": "c", "text": "processo exclusivo para contratação pública"},
+        {"id": "d", "text": "técnica de caminho crítico"},
+        {"id": "e", "text": "modelo que elimina planejamento"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Scrum é framework propositalmente incompleto, baseado em empirismo e pensamento Lean. Técnicas compatíveis podem ser incorporadas conforme o contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q725",
+      "revision": 1,
+      "prompt": "No Scrum, a responsabilidade de maximizar o valor e gerenciar eficazmente o Product Backlog pertence ao",
+      "options": [
+        {"id": "a", "text": "Scrum Master"},
+        {"id": "b", "text": "gerente funcional"},
+        {"id": "c", "text": "Product Owner"},
+        {"id": "d", "text": "comitê de Developers"},
+        {"id": "e", "text": "patrocinador obrigatoriamente"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O Product Owner é uma pessoa responsável por maximizar valor e pela gestão efetiva do Product Backlog, ainda que delegue parte do trabalho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q726",
+      "revision": 1,
+      "prompt": "A Daily Scrum é",
+      "options": [
+        {"id": "a", "text": "evento de 15 minutos para Developers inspecionarem progresso à Meta da Sprint e adaptarem o plano"},
+        {"id": "b", "text": "reunião semanal de aprovação pelo patrocinador"},
+        {"id": "c", "text": "demonstração formal obrigatória ao gerente"},
+        {"id": "d", "text": "evento de quatro horas para stakeholders"},
+        {"id": "e", "text": "substituta da Sprint Review"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A Daily Scrum foca o progresso à Meta da Sprint e o plano para o próximo dia. Sua estrutura pode variar e não é uma reunião de reporte hierárquico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q727",
+      "revision": 1,
+      "prompt": "Em uma Sprint de um mês, os timeboxes máximos de Sprint Planning, Sprint Review e Sprint Retrospective são, respectivamente,",
+      "options": [
+        {"id": "a", "text": "4 horas, 8 horas e 15 minutos"},
+        {"id": "b", "text": "8 horas, 4 horas e 3 horas"},
+        {"id": "c", "text": "15 minutos, 3 horas e 8 horas"},
+        {"id": "d", "text": "3 horas, 4 horas e 8 horas"},
+        {"id": "e", "text": "8 horas, 8 horas e 8 horas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Para Sprint mensal, Planning tem até 8 horas, Review até 4 e Retrospective até 3. A Daily Scrum tem 15 minutos. Sprints menores costumam usar eventos menores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q728",
+      "revision": 1,
+      "prompt": "A associação correta entre artefato Scrum e compromisso é",
+      "options": [
+        {"id": "a", "text": "Product Backlog — Meta da Sprint"},
+        {"id": "b", "text": "Sprint Backlog — Definição de Pronto"},
+        {"id": "c", "text": "Incremento — Meta do Produto"},
+        {"id": "d", "text": "Product Backlog — Meta do Produto; Sprint Backlog — Meta da Sprint; Incremento — Definição de Pronto"},
+        {"id": "e", "text": "Incremento — velocidade"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os três compromissos oficiais aumentam foco e transparência: Meta do Produto, Meta da Sprint e Definição de Pronto, ligados aos respectivos artefatos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q729",
+      "revision": 1,
+      "prompt": "Segundo o Scrum Guide 2020, uma Sprint pode ser cancelada",
+      "options": [
+        {"id": "a", "text": "por qualquer Developer, a qualquer momento"},
+        {"id": "b", "text": "somente pelo Scrum Master quando a Daily não ocorre"},
+        {"id": "c", "text": "pelo Product Owner quando a Meta da Sprint se torna obsoleta"},
+        {"id": "d", "text": "apenas após a Sprint Review"},
+        {"id": "e", "text": "automaticamente se um item atrasa"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Somente o Product Owner possui autoridade para cancelar a Sprint, e a justificativa prevista é a obsolescência da Meta da Sprint. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q730",
+      "revision": 1,
+      "prompt": "No Scrum, refinamento do Product Backlog",
+      "options": [
+        {"id": "a", "text": "é um sexto evento formal obrigatório"},
+        {"id": "b", "text": "é atividade contínua de decompor e detalhar itens, não evento formal"},
+        {"id": "c", "text": "só pode ocorrer depois da Sprint"},
+        {"id": "d", "text": "é responsabilidade exclusiva do Scrum Master"},
+        {"id": "e", "text": "substitui a Sprint Planning"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Refinamento melhora descrição, ordem e tamanho dos itens ao longo do trabalho. O Scrum Guide não o lista como evento formal com timebox próprio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q731",
+      "revision": 1,
+      "prompt": "O encerramento adequado de um projeto inclui",
+      "options": [
+        {"id": "a", "text": "somente interromper pagamentos"},
+        {"id": "b", "text": "apenas liberar a equipe"},
+        {"id": "c", "text": "aceite, transição, obrigações contratuais, arquivo, relatório, recursos e lições aprendidas"},
+        {"id": "d", "text": "descartar documentos para reduzir custo"},
+        {"id": "e", "text": "encerrar toda medição de benefícios"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Encerramento formal protege a continuidade, a responsabilização e o conhecimento. Também se aplica a projeto cancelado, ajustado ao estado real das entregas e obrigações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q732",
+      "revision": 1,
+      "prompt": "As lições aprendidas e o acompanhamento de benefícios devem ser tratados de modo que",
+      "options": [
+        {"id": "a", "text": "lições sejam registradas apenas no último dia e benefícios parem no encerramento"},
+        {"id": "b", "text": "lições sejam registradas continuamente e benefícios tenham responsáveis mesmo após a transição"},
+        {"id": "c", "text": "somente falhas sejam documentadas"},
+        {"id": "d", "text": "benefícios nunca sejam medidos pela operação"},
+        {"id": "e", "text": "todo aprendizado permaneça apenas com a equipe temporária"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Registrar durante o projeto permite correção e preserva memória. Como benefícios podem surgir depois, responsáveis e indicadores precisam acompanhar a entrega na operação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q733",
+      "revision": 1,
+      "prompt": "Em um projeto público de serviço digital, a solução foi entregue no prazo e no orçamento, mas permanece inacessível ao público-alvo e não reduz o tempo de atendimento. A avaliação correta é",
+      "options": [
+        {"id": "a", "text": "o projeto é necessariamente bem-sucedido porque cumpriu prazo e custo"},
+        {"id": "b", "text": "acessibilidade e resultado pertencem apenas à operação e não devem ser considerados"},
+        {"id": "c", "text": "o sucesso deve considerar requisitos, resultados, benefícios e valor público, além das restrições de entrega"},
+        {"id": "d", "text": "o business case é irrelevante após a autorização"},
+        {"id": "e", "text": "a ausência de benefício transforma automaticamente o projeto em operação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Prazo e orçamento são dimensões relevantes, mas uma entrega inadequada e sem benefício não satisfaz a finalidade. A gestão deve conectar requisitos, uso, resultado e valor público. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
