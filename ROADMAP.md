@@ -480,7 +480,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 4. Gestão da qualidade.
 - Item 7. Excelência nos serviços públicos.
 
-##### [ ] Assunto 109 - Item 5: Gestão de projetos.
+##### [>] Em progresso Assunto 109 - Item 5: Gestão de projetos.
 
 ##### [ ] Assunto 110 - Item 6: Planejamento estratégico.
 
