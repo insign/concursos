@@ -456,7 +456,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 #### Administração Pública
 
-##### [>] Em progresso Assunto 103 - Item 1: Estruturas e desenho das organizações formais modernas.
+##### [R] Em revisão Assunto 103 - Item 1: Estruturas e desenho das organizações formais modernas.
 
 - Características básicas, tipos de estrutura organizacional, natureza, finalidades e critérios de departamentalização.
 

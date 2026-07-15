@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q384",
+      "revision": 1,
+      "prompt": "A estrutura organizacional pode ser corretamente entendida como o arranjo que",
+      "options": [
+        {"id": "a", "text": "substitui a estratégia por regras operacionais"},
+        {"id": "b", "text": "elimina as relações informais entre trabalhadores"},
+        {"id": "c", "text": "divide, agrupa, distribui autoridade e coordena o trabalho"},
+        {"id": "d", "text": "se limita ao desenho gráfico do organograma"},
+        {"id": "e", "text": "concentra necessariamente todas as decisões no topo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Estrutura organiza divisão, agrupamento, autoridade e coordenação para alcançar objetivos. Ela não substitui a estratégia, não se reduz ao organograma e pode ser centralizada ou descentralizada; relações informais continuam existindo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q385",
+      "revision": 1,
+      "prompt": "Assinale a característica própria da organização formal.",
+      "options": [
+        {"id": "a", "text": "Competências e relações de autoridade oficialmente definidas."},
+        {"id": "b", "text": "Vínculos de amizade formados espontaneamente."},
+        {"id": "c", "text": "Influência pessoal não reconhecida em normas."},
+        {"id": "d", "text": "Comunicação baseada apenas em confiança informal."},
+        {"id": "e", "text": "Ausência de cargos, unidades e responsabilidades."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A estrutura formal explicita cargos, competências, responsabilidades e autoridade. Amizade, influência espontânea e confiança não oficial pertencem à dinâmica informal, que não exclui a formal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q386",
+      "revision": 1,
+      "prompt": "Sobre o organograma, assinale a opção correta.",
+      "options": [
+        {"id": "a", "text": "Retrata integralmente cultura, influência e comunicação real."},
+        {"id": "b", "text": "Demonstra que as relações informais foram eliminadas."},
+        {"id": "c", "text": "É sempre suficiente para avaliar o desempenho organizacional."},
+        {"id": "d", "text": "Representa unidades e relações formais, mas não toda a dinâmica organizacional."},
+        {"id": "e", "text": "Só pode ser usado em estruturas funcionais."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O organograma é um retrato parcial e datado da estrutura formal. Ele não revela integralmente cultura, poder informal, comunicação efetiva ou desempenho e pode representar diferentes tipos estruturais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q387",
+      "revision": 1,
+      "prompt": "Uma finalidade central do desenho da estrutura formal é",
+      "options": [
+        {"id": "a", "text": "impedir qualquer adaptação local"},
+        {"id": "b", "text": "coordenar unidades e alinhar esforços aos objetivos"},
+        {"id": "c", "text": "garantir que toda comunicação seja vertical"},
+        {"id": "d", "text": "maximizar o número de níveis hierárquicos"},
+        {"id": "e", "text": "tornar desnecessária a prestação de contas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A estrutura deve coordenar trabalho interdependente e direcioná-lo a objetivos. Adaptação, comunicação lateral, quantidade de níveis e accountability dependem do contexto e não são eliminadas por definição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q388",
+      "revision": 1,
+      "prompt": "A relação entre organização formal e informal é corretamente descrita em",
+      "options": [
+        {"id": "a", "text": "A informal só existe quando a formal fracassa."},
+        {"id": "b", "text": "A formal elimina vínculos sociais espontâneos."},
+        {"id": "c", "text": "A informal é necessariamente prejudicial aos objetivos."},
+        {"id": "d", "text": "A informal substitui cargos e competências oficiais."},
+        {"id": "e", "text": "As duas coexistem e podem tanto favorecer quanto dificultar a coordenação."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Relações informais coexistem com a estrutura oficial. Podem acelerar cooperação e conhecimento ou desviar fluxos e espalhar informação imprecisa; não substituem competências formais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q389",
+      "revision": 1,
+      "prompt": "A especialização do trabalho consiste em",
+      "options": [
+        {"id": "a", "text": "agrupar unidades por território"},
+        {"id": "b", "text": "dividir o trabalho em tarefas mais específicas"},
+        {"id": "c", "text": "aumentar obrigatoriamente a amplitude de controle"},
+        {"id": "d", "text": "distribuir decisões para níveis inferiores"},
+        {"id": "e", "text": "eliminar a necessidade de coordenação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Especialização é a divisão do trabalho em parcelas menores. Território é critério de departamentalização; amplitude e descentralização são outras dimensões, e maior diferenciação costuma exigir mais coordenação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q390",
+      "revision": 1,
+      "prompt": "Departamentalização é a dimensão do desenho que",
+      "options": [
+        {"id": "a", "text": "mede subordinados diretos por gestor"},
+        {"id": "b", "text": "define onde decisões relevantes são tomadas"},
+        {"id": "c", "text": "estabelece o grau de regras escritas"},
+        {"id": "d", "text": "agrupa atividades, pessoas e recursos segundo um critério"},
+        {"id": "e", "text": "representa exclusivamente a cadeia de comando"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Departamentalizar é agrupar trabalho em unidades. As demais opções descrevem amplitude, centralização, formalização e cadeia de comando, dimensões relacionadas mas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q391",
+      "revision": 1,
+      "prompt": "A cadeia de comando esclarece principalmente",
+      "options": [
+        {"id": "a", "text": "quem possui autoridade formal e quem responde a quem"},
+        {"id": "b", "text": "quantos produtos cada divisão oferece"},
+        {"id": "c", "text": "qual segmento de cliente será atendido"},
+        {"id": "d", "text": "o grau de informalidade dos vínculos sociais"},
+        {"id": "e", "text": "a tecnologia usada em cada processo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Cadeia de comando é a linha formal de autoridade do topo à base. Produtos, clientes e processos são possíveis critérios de agrupamento; vínculos sociais não oficiais não definem a cadeia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q392",
+      "revision": 1,
+      "prompt": "Amplitude de controle corresponde",
+      "options": [
+        {"id": "a", "text": "ao número total de níveis da organização"},
+        {"id": "b", "text": "ao volume de regras de uma unidade"},
+        {"id": "c", "text": "ao número de subordinados supervisionados diretamente por um gestor"},
+        {"id": "d", "text": "à quantidade de parceiros externos"},
+        {"id": "e", "text": "ao valor do orçamento descentralizado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Amplitude mede subordinados diretos. Ela influencia níveis hierárquicos, mas não é o número de níveis nem mede regras, parceiros ou orçamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q393",
+      "revision": 1,
+      "prompt": "Mantidas as demais condições, o aumento da amplitude de controle tende a",
+      "options": [
+        {"id": "a", "text": "aumentar necessariamente a formalização"},
+        {"id": "b", "text": "criar mais níveis hierárquicos"},
+        {"id": "c", "text": "eliminar a supervisão gerencial"},
+        {"id": "d", "text": "centralizar toda decisão no topo"},
+        {"id": "e", "text": "achatar a estrutura, reduzindo níveis hierárquicos"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Se cada gestor supervisiona mais pessoas, são necessários menos níveis para o mesmo contingente. Isso não determina sozinho formalização, centralização nem elimina supervisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q394",
+      "revision": 1,
+      "prompt": "Em desenho organizacional, centralização significa",
+      "options": [
+        {"id": "a", "text": "concentração de decisões relevantes em poucos pontos, geralmente superiores"},
+        {"id": "b", "text": "reunião física de trabalhadores no mesmo edifício"},
+        {"id": "c", "text": "agrupamento de atividades por função"},
+        {"id": "d", "text": "redução da especialização do trabalho"},
+        {"id": "e", "text": "ausência de delegação de tarefas operacionais"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Centralização trata da localização do poder decisório, não da localização física. Ela não equivale à estrutura funcional, à baixa especialização ou à impossibilidade de delegar qualquer tarefa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q395",
+      "revision": 1,
+      "prompt": "A descentralização organizacional",
+      "options": [
+        {"id": "a", "text": "elimina a necessidade de estratégia comum"},
+        {"id": "b", "text": "impede o uso de padrões corporativos"},
+        {"id": "c", "text": "é sinônimo obrigatório de criação de outra pessoa jurídica"},
+        {"id": "d", "text": "distribui direitos decisórios, mas pode preservar controles e limites"},
+        {"id": "e", "text": "torna a prestação de contas incompatível com a autonomia"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Descentralizar aproxima decisões de níveis ou unidades, com limites e responsabilização. Não elimina estratégia, padrões ou accountability e não se confunde automaticamente com descentralização jurídica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q396",
+      "revision": 1,
+      "prompt": "Formalização elevada caracteriza-se por",
+      "options": [
+        {"id": "a", "text": "inexistência de registros e procedimentos"},
+        {"id": "b", "text": "maior explicitação do comportamento por regras, manuais e registros"},
+        {"id": "c", "text": "eliminação de qualquer discricionariedade humana"},
+        {"id": "d", "text": "necessária descentralização de todas as decisões"},
+        {"id": "e", "text": "substituição da cadeia de comando por redes informais"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Formalização expressa expectativas por documentos, procedimentos e registros. Pode reduzir discricionariedade, mas não a elimina necessariamente nem determina descentralização ou ausência de hierarquia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q397",
+      "revision": 1,
+      "prompt": "Sobre padronização e formalização, assinale a opção correta.",
+      "options": [
+        {"id": "a", "text": "São sinônimos absolutos em toda teoria administrativa."},
+        {"id": "b", "text": "A padronização só pode existir por regra escrita."},
+        {"id": "c", "text": "A formalização trata apenas de resultados, nunca de processos."},
+        {"id": "d", "text": "Nenhuma das duas favorece consistência ou previsibilidade."},
+        {"id": "e", "text": "São relacionadas, mas a padronização também pode incidir em processos, resultados ou qualificações."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os conceitos se relacionam sem equivalência universal. Formalização enfatiza regras e registros; padronização busca uniformidade de processo, resultado ou habilidade e pode usar mecanismos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q398",
+      "revision": 1,
+      "prompt": "Na delegação, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "o superior transfere definitivamente toda responsabilidade"},
+        {"id": "b", "text": "somente tarefas, nunca autoridade, podem ser transferidas"},
+        {"id": "c", "text": "autoridade pode ser conferida para a tarefa, sem apagar o dever de acompanhamento de quem delega"},
+        {"id": "d", "text": "a cadeia de comando deixa de existir"},
+        {"id": "e", "text": "toda decisão passa a ser informal"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Delegação confere autoridade compatível com a execução, mas o delegante mantém deveres de supervisão e prestação de contas. Ela não extingue cadeia formal nem torna decisões informais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q399",
+      "revision": 1,
+      "prompt": "O princípio da unidade de comando estabelece que",
+      "options": [
+        {"id": "a", "text": "todos os departamentos devem ter a mesma função"},
+        {"id": "b", "text": "cada subordinado deve receber ordens de um único superior"},
+        {"id": "c", "text": "a organização deve possuir apenas um nível"},
+        {"id": "d", "text": "as decisões devem ser tomadas por unanimidade"},
+        {"id": "e", "text": "o staff deve comandar as unidades de linha"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Unidade de comando é a vinculação a um superior. Matriz pode relativizá-la; ela não exige funções iguais, um só nível, unanimidade ou comando geral do staff. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q400",
+      "revision": 1,
+      "prompt": "Autoridade de linha é aquela que",
+      "options": [
+        {"id": "a", "text": "existe apenas em comitês temporários"},
+        {"id": "b", "text": "se limita a recomendações sem responsabilidade por resultados"},
+        {"id": "c", "text": "decorre exclusivamente de conhecimento informal"},
+        {"id": "d", "text": "liga somente parceiros externos em rede"},
+        {"id": "e", "text": "se exerce diretamente na cadeia hierárquica"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Linha designa autoridade hierárquica direta sobre execução e resultados. Recomendações técnicas caracterizam staff; influência informal e relações externas não definem autoridade de linha. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q401",
+      "revision": 1,
+      "prompt": "A função típica de uma unidade de staff é",
+      "options": [
+        {"id": "a", "text": "substituir toda chefia de linha"},
+        {"id": "b", "text": "criar dupla subordinação em toda a organização"},
+        {"id": "c", "text": "prestar análise, aconselhamento ou serviço técnico especializado"},
+        {"id": "d", "text": "eliminar a responsabilidade do gestor que decide"},
+        {"id": "e", "text": "agrupar unidades exclusivamente por território"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Staff apoia a linha com especialização. Pode haver competência funcional delimitada, mas isso não substitui toda chefia, não elimina responsabilidade nem define matriz ou geografia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q402",
+      "revision": 1,
+      "prompt": "A estrutura linha-staff combina",
+      "options": [
+        {"id": "a", "text": "autoridade hierárquica de linha e apoio técnico de assessoria"},
+        {"id": "b", "text": "duas chefias permanentes sobre toda atividade"},
+        {"id": "c", "text": "divisões geográficas e organizações virtuais"},
+        {"id": "d", "text": "ausência de comando e máxima informalidade"},
+        {"id": "e", "text": "somente equipes temporárias de projeto"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Linha-staff preserva comando hierárquico e acrescenta assessoria especializada. Dupla autoridade regular caracteriza matriz; os demais arranjos não definem linha-staff. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q403",
+      "revision": 1,
+      "prompt": "Uma unidade de staff pode exercer autoridade funcional limitada quando",
+      "options": [
+        {"id": "a", "text": "assume informalmente o comando de toda a organização"},
+        {"id": "b", "text": "dispensa qualquer definição de competência"},
+        {"id": "c", "text": "elimina a autoridade dos gestores de linha"},
+        {"id": "d", "text": "essa competência técnica é formalmente atribuída sobre matéria determinada"},
+        {"id": "e", "text": "a organização passa necessariamente a ser matricial"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Autoridade funcional de staff precisa de delimitação formal. Ela não corresponde a domínio informal geral, não apaga toda linha e não cria automaticamente dois eixos matriciais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q404",
+      "revision": 1,
+      "prompt": "A estrutura linear é especialmente marcada por",
+      "options": [
+        {"id": "a", "text": "dupla autoridade funcional e de projeto"},
+        {"id": "b", "text": "autonomia de parceiros externos sem hierarquia"},
+        {"id": "c", "text": "cadeia simples, autoridade direta e unidade de comando"},
+        {"id": "d", "text": "agrupamento exclusivo por clientes"},
+        {"id": "e", "text": "equipes virtuais geograficamente dispersas"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Linear enfatiza comando direto e simples, adequado a menor complexidade. Dupla autoridade é matriz; cliente, rede e virtualidade são critérios ou formas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q405",
+      "revision": 1,
+      "prompt": "Na estrutura funcional, as unidades são agrupadas principalmente por",
+      "options": [
+        {"id": "a", "text": "especialidade, como finanças, pessoas ou operações"},
+        {"id": "b", "text": "território atendido"},
+        {"id": "c", "text": "segmento de cliente"},
+        {"id": "d", "text": "projeto temporário"},
+        {"id": "e", "text": "produto ou serviço final"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O critério funcional é a especialidade. Território, cliente, projeto e produto são outros critérios de agrupamento e não devem ser confundidos com função. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q406",
+      "revision": 1,
+      "prompt": "Uma limitação típica da estrutura funcional é",
+      "options": [
+        {"id": "a", "text": "impossibilidade de desenvolver especialização"},
+        {"id": "b", "text": "duplicação obrigatória de todas as funções em divisões"},
+        {"id": "c", "text": "ausência necessária de qualquer hierarquia"},
+        {"id": "d", "text": "foco excessivo em territórios locais"},
+        {"id": "e", "text": "formação de silos e coordenação horizontal mais difícil"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A profundidade técnica funcional pode isolar áreas e atrasar decisões interfuncionais. Especialização é justamente uma vantagem; duplicação é risco divisional e território não define a funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q407",
+      "revision": 1,
+      "prompt": "A estrutura divisional tende a",
+      "options": [
+        {"id": "a", "text": "reunir todos os especialistas de uma função em unidade única"},
+        {"id": "b", "text": "organizar recursos em torno de resultados, produtos, territórios ou mercados"},
+        {"id": "c", "text": "eliminar duplicações de áreas de apoio"},
+        {"id": "d", "text": "impedir qualquer descentralização decisória"},
+        {"id": "e", "text": "abolir a responsabilização por resultados"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Divisões concentram recursos para responder por uma entrega ou recorte. Isso favorece foco e descentralização, mas pode duplicar apoio; concentração de especialistas em uma unidade única é funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q408",
+      "revision": 1,
+      "prompt": "Um órgão separa divisões autônomas para três entregas finais ao usuário: emissão de certidões, cursos de capacitação e atendimento consultivo. Cada divisão reúne as especialidades necessárias para sua entrega. O critério predominante é",
+      "options": [
+        {"id": "a", "text": "função administrativa"},
+        {"id": "b", "text": "território"},
+        {"id": "c", "text": "cliente"},
+        {"id": "d", "text": "produto ou serviço"},
+        {"id": "e", "text": "turno"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "As unidades respondem de ponta a ponta por serviços finais distintos, característica do critério por produto ou serviço. Função reuniria uma especialidade, como finanças ou RH; território indicaria regiões; cliente separaria públicos e turno separaria horários. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q409",
+      "revision": 1,
+      "prompt": "Superintendências Norte, Nordeste, Centro-Oeste, Sudeste e Sul caracterizam critério",
+      "options": [
+        {"id": "a", "text": "funcional"},
+        {"id": "b", "text": "por processo"},
+        {"id": "c", "text": "por cliente"},
+        {"id": "d", "text": "por produto"},
+        {"id": "e", "text": "geográfico"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "As regiões indicam agrupamento territorial. Os demais critérios responderiam à especialidade, etapa, público ou entrega, e não ao local atendido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q410",
+      "revision": 1,
+      "prompt": "A criação de unidades distintas para cidadãos, empresas e outros órgãos utiliza critério de departamentalização por",
+      "options": [
+        {"id": "a", "text": "função"},
+        {"id": "b", "text": "cliente ou público atendido"},
+        {"id": "c", "text": "processo"},
+        {"id": "d", "text": "geografia"},
+        {"id": "e", "text": "projeto"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O eixo é quem recebe o serviço. Função pergunta qual especialidade, processo qual etapa, geografia onde e projeto qual resultado temporário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q411",
+      "revision": 1,
+      "prompt": "Unidades de recebimento, análise, decisão e recurso foram agrupadas segundo",
+      "options": [
+        {"id": "a", "text": "segmentos de cliente"},
+        {"id": "b", "text": "áreas geográficas"},
+        {"id": "c", "text": "produtos independentes"},
+        {"id": "d", "text": "etapas do processo"},
+        {"id": "e", "text": "funções corporativas"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os nomes correspondem a fases sequenciais de um fluxo. Não indicam públicos, territórios, entregas independentes nem especialidades corporativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q412",
+      "revision": 1,
+      "prompt": "Na estrutura projetizada, é esperado que",
+      "options": [
+        {"id": "a", "text": "o gestor funcional mantenha sempre autoridade exclusiva"},
+        {"id": "b", "text": "as equipes sejam permanentes e sem entrega delimitada"},
+        {"id": "c", "text": "o projeto seja o eixo dominante e seu gerente tenha elevada autoridade"},
+        {"id": "d", "text": "não haja competição por especialistas"},
+        {"id": "e", "text": "toda organização seja agrupada por território"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A projetizada organiza pessoas e recursos em torno de entregas temporárias, sob forte autoridade do gerente de projeto. Pode haver disputa por especialistas e desafios de realocação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q413",
+      "revision": 1,
+      "prompt": "A existência de um escritório de projetos em uma organização funcional",
+      "options": [
+        {"id": "a", "text": "não basta, por si só, para tornar toda a estrutura projetizada"},
+        {"id": "b", "text": "elimina a cadeia funcional"},
+        {"id": "c", "text": "cria necessariamente dupla autoridade sobre todos"},
+        {"id": "d", "text": "torna todos os cargos temporários"},
+        {"id": "e", "text": "impede o compartilhamento de especialistas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O tipo depende de onde predominam recursos e autoridade, não da simples existência de uma unidade de apoio. Um escritório pode coexistir com estrutura funcional sem transformar todos os vínculos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q414",
+      "revision": 1,
+      "prompt": "A característica distintiva da estrutura matricial é",
+      "options": [
+        {"id": "a", "text": "a ausência de qualquer autoridade formal"},
+        {"id": "b", "text": "a sobreposição de eixos, com autoridade funcional e de produto ou projeto"},
+        {"id": "c", "text": "o agrupamento por um único critério territorial"},
+        {"id": "d", "text": "o uso obrigatório de equipes remotas"},
+        {"id": "e", "text": "a concentração de todas as decisões em assessorias"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A matriz combina dois eixos formais e produz dupla vinculação. Território único, virtualidade e staff não definem matriz, que mantém autoridade formal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q415",
+      "revision": 1,
+      "prompt": "Uma desvantagem recorrente da estrutura matricial é",
+      "options": [
+        {"id": "a", "text": "a impossibilidade de compartilhar especialistas"},
+        {"id": "b", "text": "a ausência de integração horizontal"},
+        {"id": "c", "text": "a eliminação do foco em entregas"},
+        {"id": "d", "text": "a obrigatoriedade de centralização absoluta"},
+        {"id": "e", "text": "o conflito de prioridades e a ambiguidade da dupla autoridade"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A matriz integra especialidades e compartilha recursos, mas exige negociação entre chefias e pode gerar lealdades divididas. As outras opções negam justamente vantagens ou atribuem características não necessárias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q416",
+      "revision": 1,
+      "prompt": "Em uma matriz fraca, tende a predominar a autoridade",
+      "options": [
+        {"id": "a", "text": "do gestor funcional"},
+        {"id": "b", "text": "do parceiro externo"},
+        {"id": "c", "text": "do cliente atendido"},
+        {"id": "d", "text": "do gerente de projeto, sem eixo funcional"},
+        {"id": "e", "text": "de redes informais"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Na matriz fraca, o coordenador de projeto possui poder limitado e a função domina. Na matriz forte ocorre maior autoridade do projeto, ainda com eixo funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q417",
+      "revision": 1,
+      "prompt": "Assinale a afirmação correta sobre estrutura híbrida.",
+      "options": [
+        {"id": "a", "text": "É sempre sinônimo perfeito de estrutura matricial."},
+        {"id": "b", "text": "Proíbe o uso de unidades funcionais."},
+        {"id": "c", "text": "Exige dupla subordinação de todos os empregados."},
+        {"id": "d", "text": "Combina formas ou critérios, e pode existir sem dupla autoridade matricial."},
+        {"id": "e", "text": "Só se aplica a organizações virtuais."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Híbrida é categoria ampla de combinação. A matriz é uma forma híbrida específica; combinações funcional-geográfica ou funcional-equipes podem existir sem dupla chefia universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q418",
+      "revision": 1,
+      "prompt": "Estruturas baseadas em equipes multifuncionais buscam principalmente",
+      "options": [
+        {"id": "a", "text": "reforçar barreiras entre especialidades"},
+        {"id": "b", "text": "concentrar toda decisão no topo"},
+        {"id": "c", "text": "integrar perspectivas e aproximar decisões do trabalho"},
+        {"id": "d", "text": "eliminar papéis e responsabilidades"},
+        {"id": "e", "text": "impedir comunicação horizontal"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Equipes multifuncionais cruzam fronteiras e favorecem visão ponta a ponta. Para funcionar, precisam de papéis e responsabilização claros; não eliminam necessariamente hierarquia ou regras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q419",
+      "revision": 1,
+      "prompt": "Uma estrutura em rede caracteriza-se pela",
+      "options": [
+        {"id": "a", "text": "execução obrigatória de tudo dentro da mesma unidade"},
+        {"id": "b", "text": "ausência de dependência tecnológica ou contratual"},
+        {"id": "c", "text": "eliminação das fronteiras de responsabilidade"},
+        {"id": "d", "text": "proibição de parceiros externos"},
+        {"id": "e", "text": "coordenação de capacidades distribuídas em unidades, equipes ou parceiros"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Redes articulam capacidades internas e externas e podem aumentar flexibilidade. Isso exige governança, comunicação, qualidade e clareza de responsabilidade, não sua eliminação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q420",
+      "revision": 1,
+      "prompt": "A estrutura virtual depende especialmente de",
+      "options": [
+        {"id": "a", "text": "proximidade física permanente"},
+        {"id": "b", "text": "ausência completa de regras"},
+        {"id": "c", "text": "tecnologias de informação e comunicação para coordenar pessoas distribuídas"},
+        {"id": "d", "text": "agrupamento obrigatório por produto"},
+        {"id": "e", "text": "unidade de comando linear em todos os casos"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Virtualidade reduz a necessidade de co-localização por meio de TICs. Ela não define por si só critério de agrupamento, formalização, centralização ou cadeia de comando. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q421",
+      "revision": 1,
+      "prompt": "Sobre organizações virtuais, assinale a opção correta.",
+      "options": [
+        {"id": "a", "text": "Podem ser centralizadas e formalizadas, apesar da distribuição geográfica."},
+        {"id": "b", "text": "São necessariamente orgânicas em todas as dimensões."},
+        {"id": "c", "text": "Não enfrentam riscos de confiança ou segurança da informação."},
+        {"id": "d", "text": "Não podem manter hierarquia formal."},
+        {"id": "e", "text": "Dispensam mecanismos de comunicação e socialização."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Virtual descreve coordenação distribuída, não um pacote obrigatório de centralização, regras ou hierarquia. Confiança, segurança, comunicação e socialização são desafios relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q422",
+      "revision": 1,
+      "prompt": "Uma estrutura de tendência mecanicista costuma apresentar",
+      "options": [
+        {"id": "a", "text": "papéis fluidos e comunicação lateral predominante"},
+        {"id": "b", "text": "baixa formalização e ampla autonomia local"},
+        {"id": "c", "text": "eliminação da especialização"},
+        {"id": "d", "text": "hierarquia mais rígida, regras e maior centralização"},
+        {"id": "e", "text": "ausência de cadeia de comando"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Mecanicismo se associa a especialização, hierarquia, formalização e centralização, sobretudo em tarefas rotineiras e ambientes estáveis. Fluidez e comunicação lateral são tendências orgânicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q423",
+      "revision": 1,
+      "prompt": "Estruturas de tendência orgânica são mais associadas a",
+      "options": [
+        {"id": "a", "text": "tarefas invariáveis e ambiente simples"},
+        {"id": "b", "text": "flexibilidade, comunicação lateral e ambientes incertos"},
+        {"id": "c", "text": "centralização absoluta e papéis estreitos"},
+        {"id": "d", "text": "dependência exclusiva de regras detalhadas"},
+        {"id": "e", "text": "proibição de equipes multifuncionais"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Organicidade favorece adaptação a complexidade e mudança por decisões distribuídas e integração lateral. Estabilidade, regras rígidas e centralização são tendências mecanicistas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q424",
+      "revision": 1,
+      "prompt": "Pela abordagem contingencial, o desenho da estrutura deve",
+      "options": [
+        {"id": "a", "text": "reproduzir sempre o mesmo modelo funcional"},
+        {"id": "b", "text": "ignorar ambiente e tecnologia"},
+        {"id": "c", "text": "adotar necessariamente a forma mais orgânica"},
+        {"id": "d", "text": "ajustar-se a estratégia, ambiente, tecnologia, tamanho e interdependência"},
+        {"id": "e", "text": "maximizar níveis hierárquicos independentemente do risco"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Contingência significa adequação a fatores internos e externos. Nenhum modelo, orgânico ou mecanicista, é sempre correto; desenho e controles devem responder ao contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q425",
+      "revision": 1,
+      "prompt": "A afirmação “existe uma estrutura universalmente superior para qualquer organização” é",
+      "options": [
+        {"id": "a", "text": "correta, pois a matriz sempre supera as demais"},
+        {"id": "b", "text": "incorreta, pois vantagens e custos dependem das contingências"},
+        {"id": "c", "text": "correta apenas para o setor público"},
+        {"id": "d", "text": "correta apenas em ambiente incerto"},
+        {"id": "e", "text": "incorreta somente quando há estrutura informal"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cada forma resolve certos problemas e cria outros. Estratégia, ambiente, diversidade, tecnologia, risco e custos de coordenação impedem uma solução universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q426",
+      "revision": 1,
+      "prompt": "Uma organização que deseja concentrar especialistas e obter economias de escala deve considerar prioritariamente a departamentalização",
+      "options": [
+        {"id": "a", "text": "geográfica"},
+        {"id": "b", "text": "por cliente"},
+        {"id": "c", "text": "por projeto"},
+        {"id": "d", "text": "por produto"},
+        {"id": "e", "text": "funcional"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Agrupar por função reúne competências semelhantes e favorece escala e padronização. Os demais critérios priorizam localidade, público ou entrega e tendem a distribuir especialistas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q427",
+      "revision": 1,
+      "prompt": "Quando diferenças regionais alteram significativamente a prestação do serviço, o critério mais diretamente alinhado é o",
+      "options": [
+        {"id": "a", "text": "funcional"},
+        {"id": "b", "text": "por processo"},
+        {"id": "c", "text": "geográfico"},
+        {"id": "d", "text": "por projeto"},
+        {"id": "e", "text": "por conhecimento"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Departamentalização geográfica aproxima decisão e operação das particularidades territoriais. Seu custo é a possível duplicação e inconsistência, a serem coordenadas centralmente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q428",
+      "revision": 1,
+      "prompt": "A departamentalização por cliente é especialmente útil quando",
+      "options": [
+        {"id": "a", "text": "segmentos atendidos têm necessidades claramente distintas"},
+        {"id": "b", "text": "todas as atividades exigem a mesma especialidade"},
+        {"id": "c", "text": "a localização é o único fator relevante"},
+        {"id": "d", "text": "o fluxo precisa ser separado em etapas técnicas"},
+        {"id": "e", "text": "há apenas uma entrega homogênea e um único público"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O critério por cliente aprofunda conhecimento e resposta a públicos distintos. Especialidade, território e etapas correspondem, respectivamente, aos critérios funcional, geográfico e por processo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q429",
+      "revision": 1,
+      "prompt": "Um risco da departamentalização por processo é",
+      "options": [
+        {"id": "a", "text": "impedir qualquer especialização por etapa"},
+        {"id": "b", "text": "eliminar a possibilidade de padronização"},
+        {"id": "c", "text": "otimizar cada fase sem melhorar o fluxo ponta a ponta"},
+        {"id": "d", "text": "duplicar necessariamente todas as funções corporativas em regiões"},
+        {"id": "e", "text": "tornar toda atividade temporária"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Unidades por etapa podem maximizar metas locais e criar filas ou transferências ruins no processo completo. O critério favorece especialização e padronização; os outros riscos pertencem a formas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q430",
+      "revision": 1,
+      "prompt": "Uma vantagem da estrutura por produto ou serviço é",
+      "options": [
+        {"id": "a", "text": "eliminar qualquer duplicação de apoio"},
+        {"id": "b", "text": "concentrar toda especialidade em uma única área corporativa"},
+        {"id": "c", "text": "impedir responsabilização por resultado"},
+        {"id": "d", "text": "tornar desnecessária a coordenação entre divisões"},
+        {"id": "e", "text": "aumentar o foco e a responsabilização por determinada entrega"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A divisão reúne capacidades em torno de uma entrega e facilita accountability. Em troca, pode duplicar funções e exigir coordenação corporativa; concentração única de especialistas é funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q431",
+      "revision": 1,
+      "prompt": "Uma organização pode adotar regiões no primeiro nível e funções dentro de cada região. Esse caso demonstra que",
+      "options": [
+        {"id": "a", "text": "critérios de departamentalização podem ser combinados em níveis diferentes"},
+        {"id": "b", "text": "todo híbrido é necessariamente matriz"},
+        {"id": "c", "text": "a estrutura deixou de ser formal"},
+        {"id": "d", "text": "a unidade de comando foi obrigatoriamente eliminada"},
+        {"id": "e", "text": "departamentalização não influencia a estrutura"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Organizações grandes combinam critérios por nível. Isso gera forma híbrida, mas não implica dupla autoridade matricial, informalidade ou fim da unidade de comando. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q432",
+      "revision": 1,
+      "prompt": "Segundo a orientação federal sobre estruturas organizacionais, o desenho de órgãos e entidades deve considerar",
+      "options": [
+        {"id": "a", "text": "apenas a reprodução histórica do organograma"},
+        {"id": "b", "text": "macroprocessos, produtos, serviços, objetivos e atendimento ao cidadão"},
+        {"id": "c", "text": "a criação do maior número possível de níveis"},
+        {"id": "d", "text": "a eliminação de competências formalmente atribuídas"},
+        {"id": "e", "text": "exclusivamente a conveniência interna das chefias"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O MGI orienta desenho relacionado a macroprocessos, entregas, objetivos e cidadão-usuário, com melhor alocação de recursos. Isso não autoriza apagar competências ou multiplicar níveis sem necessidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q433",
+      "revision": 1,
+      "prompt": "No estudo conjunto de Administração e Direito Administrativo, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "descentralização decisória interna sempre cria uma nova pessoa jurídica"},
+        {"id": "b", "text": "desconcentração significa transferir atribuições para entidade com personalidade própria"},
+        {"id": "c", "text": "centralização organizacional descreve necessariamente concentração física"},
+        {"id": "d", "text": "distribuição interna de decisões não se confunde automaticamente com descentralização administrativa jurídica"},
+        {"id": "e", "text": "delegação gerencial elimina competências definidas em lei"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "No desenho organizacional, centralização e descentralização tratam da localização das decisões. No Direito, descentralização envolve outra pessoa jurídica, enquanto repartição interna entre órgãos é desconcentração; delegação não pode ignorar limites legais. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
