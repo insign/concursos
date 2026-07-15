@@ -32,11 +32,11 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 #### Língua Portuguesa
 
-##### [R] Assunto 001 - Item 1: Leitura, compreensão e interpretação de textos de gêneros variados.
+##### [x] Assunto 001 - Item 1: Leitura, compreensão e interpretação de textos de gêneros variados.
 
 - Item 1. Compreensão e interpretação de textos de gêneros variados.
 
-##### [R] Assunto 002 - Item 2: Tipos e gêneros textuais.
+##### [x] Assunto 002 - Item 2: Tipos e gêneros textuais.
 
 - Item 2. Reconhecimento de tipos e gêneros textuais.
 
