@@ -50,9 +50,13 @@ As formas nominais conservam valor verbal, mas podem aproximar-se de funções p
 O infinitivo **impessoal** não se flexiona em pessoa ou número: `estudar`, `vender`, `partir`. O **pessoal** admite flexão: `estudares`, `estudar`, `estudarmos`, `estudardes`, `estudarem`.
 
 > É preciso **estudar**.  
+> É necessário **eu estudar** antes da prova.  
+> É necessário **ele estudar** antes da prova.  
 > Antes de os candidatos **estudarem**, a banca divulgou o cronograma.
 
-No primeiro caso, não há sujeito próprio destacado para o infinitivo; no segundo, `os candidatos` é sujeito de `estudarem`, o que justifica a flexão. As formas de primeira e terceira pessoas do singular coincidem graficamente com a forma impessoal; o contexto resolve a análise.
+No primeiro caso, não há sujeito próprio destacado para o infinitivo. No segundo e no terceiro, `eu` e `ele` são sujeitos do infinitivo pessoal, embora a forma `estudar` não apresente terminação visivelmente diferente. No quarto, `os candidatos` é sujeito de `estudarem`, o que torna a flexão explícita.
+
+As formas da primeira e da terceira pessoas do singular do infinitivo pessoal coincidem graficamente com a forma impessoal. Por isso, uma forma isolada como `estudar` não pode ser classificada com segurança como pessoal ou impessoal sem contexto.
 
 O infinitivo pode ser substantivado:
 
@@ -119,14 +123,16 @@ Uma **locução verbal** reúne verbo auxiliar e verbo principal em forma nomina
 | --- | --- | --- |
 | `tinha estudado` | `tinha` | `estudado` (particípio) |
 | `estava estudando` | `estava` | `estudando` (gerúndio) |
-| `começou a estudar` | `começou` | `estudar` (infinitivo) |
+| `pode estudar` | `pode` | `estudar` (infinitivo) |
 
-Em regra, o auxiliar recebe as flexões e o principal concentra o conteúdo lexical. `Ser`, `estar`, `ter` e `haver` são auxiliares frequentes, mas uma mesma forma pode ter outra classificação conforme o contexto:
+Em regra, o auxiliar recebe as flexões e o principal concentra o conteúdo lexical. `Ser`, `estar`, `ter`, `haver`, `poder` e `dever` são auxiliares frequentes, mas uma mesma forma pode ter outra classificação conforme o contexto:
 
 > A servidora **está cansada**.  
 > A servidora **está estudando**.
 
 No primeiro período, `estar` é verbo de ligação e `cansada` é predicativo; no segundo, `estar` é auxiliar da locução `está estudando`.
+
+Construções aspectuais como `começou a estudar` podem receber tratamento diferente conforme a gramática: verbo semiauxiliar, perífrase verbal ou duas estruturas verbais relacionadas. Em prova sem bibliografia indicada, prefira exemplos inequívocos de locução e observe a terminologia adotada pelo enunciado.
 
 ## 6. Vozes verbais
 
@@ -136,7 +142,7 @@ Voz verbal mostra a relação entre o sujeito e o processo.
 | --- | --- |
 | Ativa | o sujeito pratica a ação: `A comissão aprovou o relatório.` |
 | Passiva analítica | o sujeito recebe a ação: `O relatório foi aprovado pela comissão.` |
-| Passiva sintética | `se` apassivador + verbo transitivo direto, com sujeito paciente: `Aprovam-se relatórios.` |
+| Passiva sintética | `se` apassivador + VTD ou VTDI, com sujeito paciente: `Aprovam-se relatórios.` |
 | Reflexiva | o sujeito pratica e recebe a ação: `Ela feriu a si mesma.` |
 | Recíproca | sujeitos agem mutuamente: `Eles se cumprimentaram.` |
 
@@ -145,9 +151,34 @@ Na passiva sintética, a conversão para passiva analítica é teste útil:
 > Vendem-se livros.  
 > Livros são vendidos.
 
+O teste também funciona com verbo transitivo direto e indireto:
+
+> Concederam-se bolsas aos servidores.  
+> Bolsas foram concedidas aos servidores.
+
+Na segunda construção, `bolsas` é sujeito paciente; `aos servidores` permanece complemento indireto.
+
 Nem todo `se` é apassivador. Uma forma inequivocamente reflexiva é `Ela feriu a si mesma`: a ação recai sobre o próprio sujeito.
 
 Para formar passiva, deve haver objeto direto que possa tornar-se sujeito paciente. Por isso, não se forma passiva com `haver` no sentido de existir.
+
+### 6.1 Partícula apassivadora e índice de indeterminação do sujeito
+
+O valor de `se` depende da transitividade e da estrutura da oração.
+
+| Construção | Tipo de verbo | Sujeito e concordância | Exemplo |
+| --- | --- | --- | --- |
+| Partícula apassivadora | VTD ou VTDI | há sujeito paciente; o verbo concorda com ele | `Vendem-se livros.` |
+| Índice de indeterminação do sujeito | VTI, VI ou VL | sujeito indeterminado; verbo na 3ª pessoa do singular | `Precisa-se de apoio.` |
+
+Compare:
+
+> Vendem-se **livros**.  
+> **Livros** são vendidos.
+
+> Precisa-se **de apoio**.
+
+Em `Vendem-se livros`, `livros` é sujeito paciente e determina o plural do verbo. Em `Precisa-se de apoio`, `precisar de` é VTI; `de apoio` é objeto indireto, não pode tornar-se sujeito paciente e o `se` funciona como índice de indeterminação do sujeito.
 
 ## 7. Predicação e transitividade
 
@@ -188,16 +219,26 @@ Em locução cujo verbo principal é impessoal, a impessoalidade alcança o auxi
 
 Em contraste, `existir` é pessoal: `Existem candidatos`. A aparente pluralidade de `candidatos` não transforma `haver` existencial em verbo pessoal.
 
+Também não se deve confundir `haver` impessoal com `haver` auxiliar:
+
+> **Havia** candidatos na sala.  
+> Os candidatos **haviam estudado**.
+
+No primeiro período, `haver` equivale a `existir` e permanece no singular. No segundo, `haviam` é auxiliar de `estudado` e concorda com o sujeito plural `os candidatos`.
+
 ## 9. Roteiro de prova
 
 1. Localize a forma verbal e identifique se há uma ou mais formas no predicado.
 2. Verifique se a forma é finita ou nominal: infinitivo, gerúndio ou particípio.
-3. Em locução, separe auxiliar e principal.
-4. Não confunda irregularidade do verbo com a forma de seu particípio.
-5. Para voz passiva sintética, tente a conversão para `ser + particípio`.
-6. Para reflexividade, experimente `a si mesmo` sem mudar o sentido.
-7. Classifique a transitividade no período concreto.
-8. Em `haver`, `fazer` e fenômenos naturais, confira o sentido antes de decidir pela impessoalidade.
+3. Em infinitivo, procure sujeito próprio; a forma singular pode coincidir com o infinitivo impessoal.
+4. Em locução, separe auxiliar e principal.
+5. Não confunda irregularidade do verbo com a forma de seu particípio.
+6. Para voz passiva sintética, tente a conversão para `ser + particípio`.
+7. Em construções com `se`, confira a transitividade: VTD/VTDI favorecem passiva; VTI/VI/VL favorecem indeterminação do sujeito.
+8. Para reflexividade, experimente `a si mesmo` sem mudar o sentido.
+9. Classifique a transitividade no período concreto.
+10. Em `haver`, `fazer` e fenômenos naturais, confira o sentido antes de decidir pela impessoalidade.
+11. Diferencie `haver` impessoal de `haver` auxiliar, que concorda normalmente com o sujeito.
 
 ## 10. Limites do assunto
 
