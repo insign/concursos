@@ -64,7 +64,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.1. Emprego de advérbio, preposição, conjunção e interjeição.
 
-##### [>] Em progresso Assunto 009 - Item 5, subitem 5.2: Coordenação entre orações e termos da oração.
+##### [ ] Assunto 009 - Item 5, subitem 5.2: Coordenação entre orações e termos da oração.
 
 - 5.2. Relações de coordenação entre orações e entre termos da oração.
 
@@ -456,7 +456,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 #### Administração Pública
 
-##### [ ] Assunto 103 - Item 1: Estruturas e desenho das organizações formais modernas.
+##### [>] Em progresso Assunto 103 - Item 1: Estruturas e desenho das organizações formais modernas.
 
 - Características básicas, tipos de estrutura organizacional, natureza, finalidades e critérios de departamentalização.
 
