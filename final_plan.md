@@ -2,7 +2,7 @@
 
 ## Status
 
-**Ready.** A arquitetura, os contratos de dados, a migração inicial, as validações e os testes estão definidos. Não há decisão externa pendente para implementar este plano.
+**Implementado e validado em 15 de julho de 2026.** A arquitetura, os contratos de dados, as migrações, a documentação e os testes previstos foram concluídos; os quatro gates finais passaram e a revisão independente não deixou correção aprovada pendente. Publicação, CI e validação do Pages permanecem como gates operacionais posteriores ao commit final.
 
 ## Problema
 
