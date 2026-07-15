@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q934",
+      "revision": 1,
+      "prompt": "Entre os fundamentos constitucionais da acessibilidade, encontra-se",
+      "options": [
+        {"id": "a", "text": "a adaptação de logradouros, edifícios de uso público e veículos de transporte coletivo"},
+        {"id": "b", "text": "a dispensa de igualdade nos serviços digitais"},
+        {"id": "c", "text": "a restrição da proteção às relações de trabalho privadas"},
+        {"id": "d", "text": "a substituição da legalidade por critérios assistenciais"},
+        {"id": "e", "text": "a competência exclusiva dos municípios para proteger pessoas com deficiência"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Os arts. 227, § 2º, e 244 da Constituição tratam da adaptação de logradouros, edifícios de uso público e transporte coletivo, em conjunto com dignidade, igualdade e proteção comum. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q935",
+      "revision": 1,
+      "prompt": "A Convenção sobre os Direitos das Pessoas com Deficiência possui, no Brasil,",
+      "options": [
+        {"id": "a", "text": "valor de recomendação administrativa sem força jurídica"},
+        {"id": "b", "text": "hierarquia de decreto autônomo"},
+        {"id": "c", "text": "equivalência a emenda constitucional, por ter sido aprovada no rito do art. 5º, § 3º"},
+        {"id": "d", "text": "aplicação exclusiva à União"},
+        {"id": "e", "text": "hierarquia inferior às leis ordinárias"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Convenção foi aprovada pelo Decreto Legislativo nº 186/2008 segundo o rito do art. 5º, § 3º, e promulgada pelo Decreto nº 6.949/2009, razão de sua equivalência a emenda constitucional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q936",
+      "revision": 1,
+      "prompt": "O modelo social da deficiência orienta a Administração a",
+      "options": [
+        {"id": "a", "text": "localizar toda dificuldade exclusivamente no diagnóstico"},
+        {"id": "b", "text": "presumir incapacidade civil"},
+        {"id": "c", "text": "negar qualquer necessidade de cuidado de saúde"},
+        {"id": "d", "text": "examinar a interação entre impedimentos e barreiras que restringem participação"},
+        {"id": "e", "text": "substituir acessibilidade por reabilitação"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O modelo social desloca o foco exclusivo do indivíduo para a interação entre impedimentos e barreiras. Isso não nega saúde ou reabilitação, mas exige remover obstáculos à participação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q937",
+      "revision": 1,
+      "prompt": "Segundo a LBI, pessoa com deficiência é aquela que",
+      "options": [
+        {"id": "a", "text": "possui qualquer doença, ainda que sem impedimento de longo prazo ou barreira"},
+        {"id": "b", "text": "depende permanentemente de acompanhante"},
+        {"id": "c", "text": "tem impedimento de longo prazo que, em interação com barreiras, pode obstruir participação em igualdade"},
+        {"id": "d", "text": "recebe exclusivamente benefício previdenciário"},
+        {"id": "e", "text": "não consegue exercer capacidade civil"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A definição legal combina impedimento de longo prazo de natureza física, mental, intelectual ou sensorial com sua interação com barreiras que podem obstruir participação plena e efetiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q938",
+      "revision": 1,
+      "prompt": "Quando necessária, a avaliação da deficiência prevista na LBI é",
+      "options": [
+        {"id": "a", "text": "exclusivamente médica e baseada no diagnóstico"},
+        {"id": "b", "text": "realizada pelo acompanhante"},
+        {"id": "c", "text": "exclusivamente econômica"},
+        {"id": "d", "text": "biopsicossocial, multiprofissional e interdisciplinar"},
+        {"id": "e", "text": "limitada às funções corporais"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A avaliação biopsicossocial considera impedimentos corporais, fatores socioambientais, psicológicos e pessoais, limitações de atividade e restrições de participação, por equipe multiprofissional e interdisciplinar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q939",
+      "revision": 1,
+      "prompt": "A pessoa com mobilidade reduzida",
+      "options": [
+        {"id": "a", "text": "é sempre pessoa com deficiência permanente"},
+        {"id": "b", "text": "precisa apresentar cordão de girassóis"},
+        {"id": "c", "text": "é apenas quem utiliza cadeira de rodas"},
+        {"id": "d", "text": "não possui proteção em serviços públicos"},
+        {"id": "e", "text": "pode ter dificuldade temporária, e a definição inclui gestante, lactante, pessoa idosa e pessoa obesa"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Mobilidade reduzida pode ser permanente ou temporária e não se confunde com deficiência. A definição legal inclui, entre outros, pessoa idosa, gestante, lactante e pessoa obesa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q940",
+      "revision": 1,
+      "prompt": "A definição legal de acessibilidade abrange",
+      "options": [
+        {"id": "a", "text": "somente entrada física de edifícios"},
+        {"id": "b", "text": "apenas transporte e calçadas"},
+        {"id": "c", "text": "alcance e uso com segurança e autonomia de espaços, transportes, informação, comunicação, tecnologias e serviços"},
+        {"id": "d", "text": "exclusivamente serviços mantidos pela União"},
+        {"id": "e", "text": "atendimento prioritário, sem relação com autonomia"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Acessibilidade é conceito amplo e alcança ambientes, edificações, transportes, informação, comunicação, sistemas, tecnologias, serviços e instalações, com segurança e autonomia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q941",
+      "revision": 1,
+      "prompt": "Desenho universal corresponde à",
+      "options": [
+        {"id": "a", "text": "adaptação posterior exclusiva para uma pessoa"},
+        {"id": "b", "text": "separação obrigatória dos usuários por deficiência"},
+        {"id": "c", "text": "dispensa de requisitos técnicos"},
+        {"id": "d", "text": "concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou de projeto específico, incluindo os recursos de tecnologia assistiva"},
+        {"id": "e", "text": "solução limitada à arquitetura"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A LBI define desenho universal como a concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou projeto específico, incluindo recursos de tecnologia assistiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q942",
+      "revision": 1,
+      "prompt": "Adaptação razoável é",
+      "options": [
+        {"id": "a", "text": "favor discricionário que pode ser recusado sem análise"},
+        {"id": "b", "text": "substituto do desenho universal em todos os casos"},
+        {"id": "c", "text": "sinônimo de qualquer reforma predial geral"},
+        {"id": "d", "text": "recurso permitido apenas em concursos federais"},
+        {"id": "e", "text": "ajuste necessário e adequado no caso concreto, desde que não imponha ônus desproporcional e indevido"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A adaptação razoável responde à necessidade concreta. Sua recusa, quando cabível, integra o conceito de discriminação; eventual ônus desproporcional deve ser analisado, não presumido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q943",
+      "revision": 1,
+      "prompt": "Tecnologia assistiva compreende",
+      "options": [
+        {"id": "a", "text": "apenas equipamentos eletrônicos importados"},
+        {"id": "b", "text": "somente próteses prescritas por médico"},
+        {"id": "c", "text": "produtos, recursos, metodologias, estratégias, práticas e serviços que promovem funcionalidade e participação"},
+        {"id": "d", "text": "qualquer tecnologia utilizada por servidor"},
+        {"id": "e", "text": "somente adaptações arquitetônicas"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O conceito legal é amplo e inclui produtos, equipamentos, dispositivos, recursos, métodos, estratégias, práticas e serviços voltados à autonomia, funcionalidade e inclusão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q944",
+      "revision": 1,
+      "prompt": "Uma calçada de acesso ao órgão sem rota segura constitui barreira",
+      "options": [
+        {"id": "a", "text": "urbanística"},
+        {"id": "b", "text": "exclusivamente tecnológica"},
+        {"id": "c", "text": "previdenciária"},
+        {"id": "d", "text": "apenas atitudinal"},
+        {"id": "e", "text": "contratual, sem relação com acessibilidade"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Barreiras urbanísticas estão nas vias e nos espaços públicos ou privados abertos ao público ou de uso coletivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q945",
+      "revision": 1,
+      "prompt": "Uma repartição cujo único acesso ao interior é uma escada apresenta barreira",
+      "options": [
+        {"id": "a", "text": "na comunicação"},
+        {"id": "b", "text": "arquitetônica"},
+        {"id": "c", "text": "exclusivamente urbanística"},
+        {"id": "d", "text": "tecnológica"},
+        {"id": "e", "text": "apenas atitudinal"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Barreiras arquitetônicas são as existentes nos edifícios públicos ou privados. A entrada inacessível impede o uso da edificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q946",
+      "revision": 1,
+      "prompt": "Na avaliação da acessibilidade do transporte coletivo, devem ser considerados",
+      "options": [
+        {"id": "a", "text": "apenas os assentos do veículo"},
+        {"id": "b", "text": "apenas os terminais federais"},
+        {"id": "c", "text": "somente o preço da passagem"},
+        {"id": "d", "text": "veículos, terminais, estações, pontos de parada, acessos e operação"},
+        {"id": "e", "text": "exclusivamente os veículos novos"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A acessibilidade do transporte é sistêmica e inclui veículos, infraestrutura, pontos, vias de acesso e operação; um elemento isolado não garante a jornada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q947",
+      "revision": 1,
+      "prompt": "Um vídeo institucional que transmite informação essencial apenas por áudio, sem alternativa, apresenta principalmente barreira",
+      "options": [
+        {"id": "a", "text": "urbanística"},
+        {"id": "b", "text": "orçamentária"},
+        {"id": "c", "text": "arquitetônica"},
+        {"id": "d", "text": "nos transportes"},
+        {"id": "e", "text": "nas comunicações e na informação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Entraves à expressão ou ao recebimento de mensagens e informações por sistemas de comunicação ou TIC são barreiras nas comunicações e na informação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q948",
+      "revision": 1,
+      "prompt": "O agente que ignora o usuário e fala somente com seu acompanhante cria barreira",
+      "options": [
+        {"id": "a", "text": "atitudinal"},
+        {"id": "b", "text": "urbanística"},
+        {"id": "c", "text": "de transporte"},
+        {"id": "d", "text": "exclusivamente tecnológica"},
+        {"id": "e", "text": "natural e inevitável"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Atitudes e comportamentos que prejudicam participação em igualdade, como infantilizar ou presumir incapacidade, configuram barreiras atitudinais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q949",
+      "revision": 1,
+      "prompt": "Um aplicativo público incompatível com leitor de tela e sem alternativa apresenta barreira",
+      "options": [
+        {"id": "a", "text": "tecnológica"},
+        {"id": "b", "text": "somente arquitetônica"},
+        {"id": "c", "text": "apenas urbanística"},
+        {"id": "d", "text": "de transporte"},
+        {"id": "e", "text": "sem classificação legal"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Obstáculos que dificultam ou impedem o acesso da pessoa com deficiência às tecnologias são barreiras tecnológicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q950",
+      "revision": 1,
+      "prompt": "Para a LBI, discriminação em razão da deficiência",
+      "options": [
+        {"id": "a", "text": "somente existe se houver agressão física"},
+        {"id": "b", "text": "exige sempre intenção expressa"},
+        {"id": "c", "text": "não alcança serviços públicos"},
+        {"id": "d", "text": "pode decorrer de ação ou omissão e inclui recusa de adaptação razoável e tecnologia assistiva"},
+        {"id": "e", "text": "é afastada por pedido de desculpas"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A discriminação pode ter propósito ou efeito de prejudicar direitos, decorrer de ação ou omissão e incluir a recusa de adaptações razoáveis e tecnologias assistivas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q951",
+      "revision": 1,
+      "prompt": "Integra o rol atualizado de atendimento prioritário da Lei nº 10.048/2000",
+      "options": [
+        {"id": "a", "text": "somente pessoa com deficiência física"},
+        {"id": "b", "text": "todo acompanhante independentemente do titular"},
+        {"id": "c", "text": "qualquer servidor público em serviço"},
+        {"id": "d", "text": "somente pessoa com mais de 80 anos"},
+        {"id": "e", "text": "pessoa com TEA e doador de sangue, além dos demais grupos legais"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O rol atual inclui pessoas com deficiência, TEA, pessoas idosas, gestantes, lactantes, pessoas com criança de colo, obesas, com mobilidade reduzida e doadores de sangue. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q952",
+      "revision": 1,
+      "prompt": "Quanto à prioridade do doador de sangue, a lei determina atendimento",
+      "options": [
+        {"id": "a", "text": "antes de todos os outros prioritários, sem comprovante"},
+        {"id": "b", "text": "somente em hospitais"},
+        {"id": "c", "text": "apenas no dia da doação"},
+        {"id": "d", "text": "depois dos demais prioritários, mediante comprovante válido por 120 dias"},
+        {"id": "e", "text": "em igualdade com emergências médicas graves"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Lei nº 14.626/2023 colocou o doador após todos os demais beneficiários e exigiu comprovante de doação com validade de 120 dias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q953",
+      "revision": 1,
+      "prompt": "Se não houver guichê ou atendente específico para prioridade, a ordem de atendimento deve",
+      "options": [
+        {"id": "a", "text": "somente no dia seguinte"},
+        {"id": "b", "text": "após toda a fila comum"},
+        {"id": "c", "text": "atender os grupos prioritários após o atendimento em curso e antes do público não prioritário, mantendo doadores depois dos demais beneficiários"},
+        {"id": "d", "text": "apenas mediante ordem judicial"},
+        {"id": "e", "text": "exclusivamente por canal digital"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A ausência de estrutura específica não extingue a prioridade. Concluído o atendimento em curso, os beneficiários precedem o público não prioritário, mas o doador de sangue permanece depois dos demais grupos prioritários. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q954",
+      "revision": 1,
+      "prompt": "Nos serviços de emergência de saúde, a prioridade administrativa",
+      "options": [
+        {"id": "a", "text": "sempre supera a avaliação clínica"},
+        {"id": "b", "text": "fica condicionada à avaliação médica da gravidade dos casos"},
+        {"id": "c", "text": "não admite qualquer triagem"},
+        {"id": "d", "text": "beneficia apenas doadores de sangue"},
+        {"id": "e", "text": "é decidida por ordem de chegada"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em emergência, a prioridade prevista nas regras de atendimento é condicionada à avaliação médica, pois a gravidade clínica organiza o cuidado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q955",
+      "revision": 1,
+      "prompt": "O acompanhante ou atendente pessoal da pessoa prioritária",
+      "options": [
+        {"id": "a", "text": "recebe prioridade autônoma mesmo sem o titular"},
+        {"id": "b", "text": "deve comprovar parentesco"},
+        {"id": "c", "text": "substitui obrigatoriamente a fala da pessoa"},
+        {"id": "d", "text": "é atendido conjunta e acessoriamente ao titular"},
+        {"id": "e", "text": "não pode permanecer no atendimento"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Lei nº 10.048/2000 assegura atendimento conjunto e acessório ao acompanhante ou atendente pessoal, sem transformá-lo no titular do direito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q956",
+      "revision": 1,
+      "prompt": "Uma rota acessível em edifício público deve",
+      "options": [
+        {"id": "a", "text": "limitar-se a uma rampa na calçada"},
+        {"id": "b", "text": "conectar chegada, entrada, circulações, dependências, serviços, sanitários e saída"},
+        {"id": "c", "text": "terminar no balcão de recepção"},
+        {"id": "d", "text": "ser usada somente com autorização prévia"},
+        {"id": "e", "text": "dispensar rota de emergência"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Acessibilidade física exige continuidade da jornada. Elemento isolado ou entrada indisponível não garante alcance e uso autônomo dos serviços. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q957",
+      "revision": 1,
+      "prompt": "Nas áreas de estacionamento localizadas em vias ou espaços públicos, a Lei nº 10.098/2000 prevê reserva de",
+      "options": [
+        {"id": "a", "text": "1% das vagas, sem mínimo"},
+        {"id": "b", "text": "2% das vagas, garantida no mínimo uma"},
+        {"id": "c", "text": "5% das vagas, garantidas dez"},
+        {"id": "d", "text": "10% das vagas em todos os casos"},
+        {"id": "e", "text": "uma vaga apenas quando houver mais de cem"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A lei estabelece 2% do total, assegurada pelo menos uma vaga, próxima aos acessos, sinalizada e conforme especificações técnicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q958",
+      "revision": 1,
+      "prompt": "Em evento com instalação de banheiros químicos, o número mínimo de unidades acessíveis corresponde a",
+      "options": [
+        {"id": "a", "text": "2%, sem mínimo"},
+        {"id": "b", "text": "5%, somente em eventos públicos"},
+        {"id": "c", "text": "10% do total, garantida ao menos uma quando o cálculo resultar em fração inferior a um"},
+        {"id": "d", "text": "20% do total, sem exceção"},
+        {"id": "e", "text": "uma unidade apenas para eventos com mil pessoas"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Lei nº 10.098/2000 exige unidades acessíveis em eventos públicos e privados com banheiros químicos: 10% do total e ao menos uma na hipótese indicada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q959",
+      "revision": 1,
+      "prompt": "A Lei nº 10.098/2000 determina que a Administração Pública federal direta e indireta",
+      "options": [
+        {"id": "a", "text": "destine anualmente dotação para eliminar barreiras arquitetônicas nos edifícios públicos abrangidos"},
+        {"id": "b", "text": "espere solicitação individual antes de planejar"},
+        {"id": "c", "text": "adapte somente edifícios novos"},
+        {"id": "d", "text": "substitua planejamento por campanhas"},
+        {"id": "e", "text": "transfira toda responsabilidade aos municípios"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 23 prevê dotação anual para adaptações e supressão de barreiras em edifícios públicos de propriedade, administração ou uso da Administração federal abrangida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q960",
+      "revision": 1,
+      "prompt": "Segundo o art. 9º do Decreto nº 5.296/2004, as ações de acessibilidade devem incluir",
+      "options": [
+        {"id": "a", "text": "improvisação sem cronograma"},
+        {"id": "b", "text": "suspensão de metas até disponibilidade total de recursos"},
+        {"id": "c", "text": "apenas comunicação institucional"},
+        {"id": "d", "text": "execução isolada pela recepção"},
+        {"id": "e", "text": "prioridades, cronograma, reserva de recursos e planejamento continuado e articulado"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O decreto vincula acessibilidade a priorização, programação, recursos e articulação contínua entre setores, afastando soluções pontuais sem gestão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q961",
+      "revision": 1,
+      "prompt": "No atendimento inclusivo, a conduta adequada do agente é",
+      "options": [
+        {"id": "a", "text": "falar sempre com o acompanhante"},
+        {"id": "b", "text": "tocar a cadeira de rodas para demonstrar ajuda"},
+        {"id": "c", "text": "dirigir-se à pessoa, perguntar como ajudar e respeitar sua resposta"},
+        {"id": "d", "text": "presumir a necessidade pelo diagnóstico"},
+        {"id": "e", "text": "exigir relato público da condição"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A conduta preserva autonomia, consentimento e comunicação direta. Apoio deve atender à necessidade informada, sem infantilização ou presunção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q962",
+      "revision": 1,
+      "prompt": "Quanto aos recursos de comunicação, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "Libras é uma forma de legenda"},
+        {"id": "b", "text": "um único recurso atende toda deficiência sensorial"},
+        {"id": "c", "text": "texto em português sempre substitui Libras"},
+        {"id": "d", "text": "braille serve como audiodescrição"},
+        {"id": "e", "text": "legenda e Libras são recursos distintos e podem atender necessidades diferentes"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Libras é língua visual-espacial, enquanto legenda representa visualmente fala e sons relevantes. Recursos não são intercambiáveis e devem considerar pessoa e contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q963",
+      "revision": 1,
+      "prompt": "A audiodescrição tem por função principal",
+      "options": [
+        {"id": "a", "text": "traduzir português para Libras"},
+        {"id": "b", "text": "substituir toda legenda"},
+        {"id": "c", "text": "ampliar caracteres impressos"},
+        {"id": "d", "text": "descrever verbalmente informação visual relevante"},
+        {"id": "e", "text": "simplificar o vocabulário jurídico"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Audiodescrição torna acessíveis elementos visuais relevantes por descrição verbal. Ela não se confunde com Libras, legenda, braille ou linguagem simples. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q964",
+      "revision": 1,
+      "prompt": "A Lei nº 15.249/2025 passou a prever, entre outras medidas,",
+      "options": [
+        {"id": "a", "text": "proibição de recursos de baixa tecnologia"},
+        {"id": "b", "text": "uso exclusivo por crianças"},
+        {"id": "c", "text": "CAA apenas em aplicativos privados"},
+        {"id": "d", "text": "substituição de Libras por pictogramas"},
+        {"id": "e", "text": "pranchas contextuais de comunicação aumentativa e alternativa com pictogramas em espaços abrangidos"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A atualização incluiu pessoas com necessidades complexas de comunicação e sistemas de CAA de baixa tecnologia, como pranchas de pictogramas adaptadas ao contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q965",
+      "revision": 1,
+      "prompt": "O art. 63 da LBI estabelece que sítios de órgãos de governo",
+      "options": [
+        {"id": "a", "text": "podem excluir usuários de tecnologia assistiva"},
+        {"id": "b", "text": "estão dispensados quando há atendimento presencial"},
+        {"id": "c", "text": "precisam apenas oferecer contraste alto"},
+        {"id": "d", "text": "devem ser acessíveis conforme melhores práticas e diretrizes internacionais"},
+        {"id": "e", "text": "só precisam de acessibilidade após reclamação"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A LBI impõe acessibilidade aos sítios governamentais abrangidos, conforme melhores práticas e diretrizes internacionais, e não a reduz a um único recurso visual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q966",
+      "revision": 1,
+      "prompt": "Os quatro princípios da WCAG são",
+      "options": [
+        {"id": "a", "text": "perceptível, operável, compreensível e robusto"},
+        {"id": "b", "text": "rápido, barato, visual e automático"},
+        {"id": "c", "text": "legal, impessoal, moral e eficiente"},
+        {"id": "d", "text": "físico, social, econômico e ambiental"},
+        {"id": "e", "text": "texto, áudio, vídeo e impressão"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A sigla POUR reúne Perceptível, Operável, Compreensível e Robusto, princípios que organizam diretrizes e critérios de sucesso da WCAG. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q967",
+      "revision": 1,
+      "prompt": "Conformidade no nível AA da WCAG pressupõe",
+      "options": [
+        {"id": "a", "text": "cumprir apenas um critério AAA"},
+        {"id": "b", "text": "aprovação exclusiva por validador automático"},
+        {"id": "c", "text": "ignorar critérios de nível A"},
+        {"id": "d", "text": "instalar uma barra de acessibilidade"},
+        {"id": "e", "text": "cumprir os critérios A e AA aplicáveis"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os níveis são cumulativos: para AA, os critérios A e AA aplicáveis precisam ser satisfeitos. Critério superior isolado não compensa falha básica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q968",
+      "revision": 1,
+      "prompt": "Sobre o eMAG 3.1, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "foi automaticamente substituído pela WCAG 2.2"},
+        {"id": "b", "text": "trata somente de arquitetura"},
+        {"id": "c", "text": "é lei nacional que vincula automaticamente todo TCE"},
+        {"id": "d", "text": "dispensa a LBI"},
+        {"id": "e", "text": "é modelo institucional federal do SISP, historicamente baseado na WCAG 2.0, e permanece publicado"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O eMAG 3.1 continua referência oficial federal em seu âmbito e tem base histórica na WCAG 2.0; não incorpora automaticamente toda atualização posterior da WCAG. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q969",
+      "revision": 1,
+      "prompt": "A ABNT NBR 17225:2025",
+      "options": [
+        {"id": "a", "text": "trata de acessibilidade em conteúdo e aplicações web e se baseia na WCAG 2.2"},
+        {"id": "b", "text": "revogou a LBI"},
+        {"id": "c", "text": "é regulamento exclusivo de rampas"},
+        {"id": "d", "text": "torna-se lei automática para todo ente apenas por existir"},
+        {"id": "e", "text": "proíbe o uso do eMAG"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A NBR 17225:2025 é referência técnica brasileira para conteúdo e aplicações web baseada na WCAG 2.2. Sua incidência obrigatória depende do contexto jurídico que a incorpore. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q970",
+      "revision": 1,
+      "prompt": "Um validador automático não basta para comprovar acessibilidade digital porque",
+      "options": [
+        {"id": "a", "text": "testes automáticos são sempre proibidos"},
+        {"id": "b", "text": "acessibilidade não pode ser testada"},
+        {"id": "c", "text": "apenas a velocidade do site importa"},
+        {"id": "d", "text": "parte dos critérios exige inspeção, uso de tecnologias assistivas e avaliação humana"},
+        {"id": "e", "text": "usuários não devem participar"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Automação é útil, mas não avalia toda a semântica, compreensão, interação e experiência. Testes manuais e com pessoas com deficiência complementam a evidência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q971",
+      "revision": 1,
+      "prompt": "Um PDF composto apenas por imagens digitalizadas",
+      "options": [
+        {"id": "a", "text": "é acessível por estar publicado na internet"},
+        {"id": "b", "text": "pode impedir leitura por tecnologia assistiva e precisa de estrutura e conteúdo acessíveis"},
+        {"id": "c", "text": "substitui formatos solicitados pelo usuário"},
+        {"id": "d", "text": "é sempre preferível a HTML"},
+        {"id": "e", "text": "dispensa ordem de leitura"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Disponibilidade digital não equivale a acessibilidade. Documento precisa de conteúdo textual, estrutura semântica, ordem de leitura, alternativas e demais recursos adequados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q972",
+      "revision": 1,
+      "prompt": "Na gestão de um serviço multicanal, acessibilidade exige",
+      "options": [
+        {"id": "a", "text": "somente aumentar o número de canais"},
+        {"id": "b", "text": "usar apenas atendimento presencial"},
+        {"id": "c", "text": "transferir ao usuário o custo da alternativa"},
+        {"id": "d", "text": "manter o canal principal inacessível"},
+        {"id": "e", "text": "avaliar a jornada completa e evitar que todos os canais reproduzam a mesma barreira"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Vários canais inacessíveis não tornam o serviço inclusivo. A jornada deve cobrir descoberta, autenticação, atendimento, acompanhamento e resposta em condições utilizáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q973",
+      "revision": 1,
+      "prompt": "Um programa institucional consistente de acessibilidade deve",
+      "options": [
+        {"id": "a", "text": "combinar responsabilidade, diagnóstico, participação, metas, recursos, monitoramento e correção"},
+        {"id": "b", "text": "agir apenas após denúncias"},
+        {"id": "c", "text": "limitar-se à compra de rampas"},
+        {"id": "d", "text": "dispensar responsáveis definidos"},
+        {"id": "e", "text": "medir somente capacitações realizadas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Acessibilidade requer governança e ciclo contínuo, com barreiras priorizadas, responsabilidades, orçamento, execução, evidências, transparência e melhoria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q974",
+      "revision": 1,
+      "prompt": "A participação das pessoas com deficiência no desenho de políticas deve ocorrer",
+      "options": [
+        {"id": "a", "text": "desde o diagnóstico, com consulta estreita e envolvimento ativo por organizações representativas"},
+        {"id": "b", "text": "apenas após a implantação"},
+        {"id": "c", "text": "somente quando houver ação judicial"},
+        {"id": "d", "text": "por um único usuário escolhido pela Administração"},
+        {"id": "e", "text": "sem acesso às informações do projeto"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A Convenção exige consulta e envolvimento ativo. A participação deve alcançar diagnóstico, desenho, teste e avaliação, respeitando a diversidade de experiências. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q975",
+      "revision": 1,
+      "prompt": "Em uma contratação de sistema público, a melhor forma de tratar acessibilidade é",
+      "options": [
+        {"id": "a", "text": "adicionar exigência genérica depois da entrega"},
+        {"id": "b", "text": "aceitar declaração do fornecedor sem evidência"},
+        {"id": "c", "text": "definir requisitos, referência aplicável, critérios de aceitação, testes e correção desde o planejamento"},
+        {"id": "d", "text": "dispensar fiscalização"},
+        {"id": "e", "text": "evitar usuários com tecnologia assistiva nos testes"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Requisitos verificáveis e proporcionais ao objeto devem integrar planejamento, seleção, aceitação e gestão contratual, reduzindo remediação tardia e risco de entrega inacessível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q976",
+      "revision": 1,
+      "prompt": "Qual indicador oferece evidência mais útil sobre acessibilidade física de um serviço?",
+      "options": [
+        {"id": "a", "text": "quantidade total de rampas compradas"},
+        {"id": "b", "text": "percentual de jornadas presenciais com rota acessível completa e utilizável"},
+        {"id": "c", "text": "número de cartazes sobre inclusão"},
+        {"id": "d", "text": "quantidade de reuniões internas"},
+        {"id": "e", "text": "valor total do prédio"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A rota completa aproxima o indicador do resultado para o usuário. Quantidade isolada de componentes mede atividade e pode ocultar descontinuidade da jornada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q977",
+      "revision": 1,
+      "prompt": "Um portal é criado desde o início para teclado e leitor de tela, mas um usuário necessita de formato adicional específico. A resposta correta combina",
+      "options": [
+        {"id": "a", "text": "desenho universal no portal e adaptação razoável no caso concreto"},
+        {"id": "b", "text": "somente prioridade de fila"},
+        {"id": "c", "text": "recusa do formato porque o portal já é geral"},
+        {"id": "d", "text": "segregação do usuário"},
+        {"id": "e", "text": "abandono do desenho universal"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A solução geral acessível não elimina necessidades individuais. Desenho universal e adaptação razoável se complementam para assegurar participação em igualdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q978",
+      "revision": 1,
+      "prompt": "Sobre o cordão de girassóis, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "seu uso é obrigatório para exercer direitos"},
+        {"id": "b", "text": "sua ausência elimina prioridade"},
+        {"id": "c", "text": "é opcional, não revela diagnóstico e não dispensa documento em solicitação juridicamente pertinente, necessária e proporcional"},
+        {"id": "d", "text": "comprova qualquer condição de saúde como deficiência"},
+        {"id": "e", "text": "substitui adaptação razoável"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Lei nº 14.624/2023 tornou o cordão símbolo nacional de deficiências ocultas, preservou seu uso opcional e ressalvou que ele não dispensa documento se solicitado por atendente ou autoridade competente; a solicitação deve ter pertinência jurídica, necessidade e proporcionalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q979",
+      "revision": 1,
+      "prompt": "Conforme a Lei nº 15.459/2026, o Símbolo Internacional de Acessibilidade",
+      "options": [
+        {"id": "a", "text": "pode ser usado como decoração institucional"},
+        {"id": "b", "text": "deve identificar local ou serviço cuja adequação ao uso esteja comprovada"},
+        {"id": "c", "text": "torna qualquer local acessível por sua colocação"},
+        {"id": "d", "text": "é facultativo em todo serviço acessível"},
+        {"id": "e", "text": "dispensa avaliação técnica"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A lei exige colocação visível e restringe o símbolo à identificação de local ou serviço habilitado e comprovadamente adequado. O sinal não cria a condição que anuncia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q980",
+      "revision": 1,
+      "prompt": "Quanto à acessibilidade em um tribunal de contas estadual, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "o TCE integra o Poder Judiciário"},
+        {"id": "b", "text": "o dever decorre das normas aplicáveis ao órgão público, e o TCE exerce controle externo sem integrar o Judiciário"},
+        {"id": "c", "text": "somente normas do CNJ podem fundamentar acessibilidade"},
+        {"id": "d", "text": "o controle externo afasta deveres de atendimento"},
+        {"id": "e", "text": "a LBI não alcança órgãos estaduais"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tribunais de contas não constam do art. 92 da Constituição. Seu dever de acessibilidade decorre da Convenção, da LBI e das normas gerais aplicáveis, não de suposta integração ao Judiciário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q981",
+      "revision": 1,
+      "prompt": "O descumprimento de deveres de acessibilidade",
+      "options": [
+        {"id": "a", "text": "gera apenas recomendação sem consequências"},
+        {"id": "b", "text": "é sempre resolvido com capacitação"},
+        {"id": "c", "text": "pode produzir responsabilidades administrativas, civis e penais conforme a norma e o caso"},
+        {"id": "d", "text": "não alcança omissões"},
+        {"id": "e", "text": "é afastado quando há limitação orçamentária genérica"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "LBI, Lei nº 10.048/2000 e Decreto nº 5.296/2004 preveem consequências conforme o fato. A gestão deve cessar a barreira, corrigir causa e prevenir recorrência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q982",
+      "revision": 1,
+      "prompt": "Os prazos de adaptação originalmente fixados pelo Decreto nº 5.296/2004",
+      "options": [
+        {"id": "a", "text": "ainda não começaram"},
+        {"id": "b", "text": "são históricos e já se esgotaram, não autorizando novo adiamento"},
+        {"id": "c", "text": "recomeçam a cada gestão"},
+        {"id": "d", "text": "dispensam edifícios existentes"},
+        {"id": "e", "text": "valem apenas após reclamação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os prazos contados da publicação do decreto se encerraram há muito. Eles não constituem prazo atual para começar o planejamento ou a adequação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q983",
+      "revision": 1,
+      "prompt": "Após reclamação de que um serviço digital é inacessível, a resposta gerencial mais completa é",
+      "options": [
+        {"id": "a", "text": "instalar um selo e encerrar o caso"},
+        {"id": "b", "text": "oferecer solução acessível imediata, registrar a barreira, corrigir a causa, testar com usuários e monitorar recorrência"},
+        {"id": "c", "text": "orientar a pessoa a buscar ajuda familiar"},
+        {"id": "d", "text": "aguardar a próxima contratação sem alternativa"},
+        {"id": "e", "text": "apagar o canal de reclamação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A resposta combina acomodação da necessidade presente e correção estrutural: atendimento, evidência, responsabilização, teste e prevenção, em vez de transferir o custo da barreira ao usuário. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
