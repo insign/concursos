@@ -14,6 +14,15 @@ export const contestSchema = z
   })
   .strict();
 
+export const groupSchema = z
+  .object({
+    schemaVersion: z.literal(1),
+    title: nonEmptyText,
+    order: z.number().int().nonnegative(),
+    description: nonEmptyText.optional(),
+  })
+  .strict();
+
 export const subjectSchema = z
   .object({
     schemaVersion: z.literal(1),
@@ -89,6 +98,7 @@ export const questionSetSchema = z
   });
 
 export type ContestData = z.infer<typeof contestSchema>;
+export type GroupData = z.infer<typeof groupSchema>;
 export type SubjectData = z.infer<typeof subjectSchema>;
 export type QuestionOption = z.infer<typeof questionOptionSchema>;
 export type Question = z.infer<typeof questionSchema>;

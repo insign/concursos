@@ -35,15 +35,52 @@ export function subjectIdFromEntry(entry: string, fileName: string): string {
   return id;
 }
 
-export function parseSubjectId(id: string): { contestSlug: string; subjectSlug: string } {
-  const parts = id.split('/');
+export function groupIdFromEntry(entry: string, fileName = 'grupo.json'): string {
+  const normalized = normalizeEntry(entry);
+  const suffix = `/${fileName}`;
 
-  if (parts.length !== 2) {
-    throw new Error(`ID de assunto deve usar <concurso>/<assunto>: "${id}"`);
+  if (!normalized.endsWith(suffix)) {
+    throw new Error(`Arquivo de grupo deve terminar em "${suffix}": "${entry}"`);
   }
 
-  const [contestSlug, subjectSlug] = parts;
+  const id = normalized.slice(0, -suffix.length);
+  parseGroupId(id);
+  return id;
+}
+
+export function parseGroupId(id: string): { contestSlug: string; groupSlugs: string[] } {
+  const parts = id.split('/');
+
+  if (parts.length < 2) {
+    throw new Error(`ID de grupo deve usar <concurso>/<grupo>[/<grupo>...]: "${id}"`);
+  }
+
+  const [contestSlug, ...groupSlugs] = parts;
   assertRouteSegment(contestSlug, 'Slug de concurso');
+  for (const groupSlug of groupSlugs) {
+    assertRouteSegment(groupSlug, 'Slug de grupo');
+  }
+  return { contestSlug, groupSlugs };
+}
+
+export function parseSubjectId(id: string): {
+  contestSlug: string;
+  groupSlugs: string[];
+  subjectSlug: string;
+} {
+  const parts = id.split('/');
+
+  if (parts.length < 3) {
+    throw new Error(`ID de assunto deve usar <concurso>/<grupo>[/<grupo>...]/<assunto>: "${id}"`);
+  }
+
+  const contestSlug = parts[0]!;
+  const groupSlugs = parts.slice(1, -1);
+  const subjectSlug = parts.at(-1)!;
+  assertRouteSegment(contestSlug, 'Slug de concurso');
+  for (const groupSlug of groupSlugs) {
+    assertRouteSegment(groupSlug, 'Slug de grupo');
+  }
   assertRouteSegment(subjectSlug, 'Slug de assunto');
-  return { contestSlug, subjectSlug };
+  return { contestSlug, groupSlugs, subjectSlug };
 }

@@ -3,10 +3,11 @@ import { glob } from 'astro/loaders';
 import {
   cheatSheetSchema,
   contestSchema,
+  groupSchema,
   questionSetSchema,
   subjectSchema,
 } from './lib/content-schema';
-import { contestIdFromEntry, subjectIdFromEntry } from './lib/content-paths';
+import { contestIdFromEntry, groupIdFromEntry, subjectIdFromEntry } from './lib/content-paths';
 
 const concursos = defineCollection({
   loader: glob({
@@ -15,6 +16,15 @@ const concursos = defineCollection({
     generateId: ({ entry }) => contestIdFromEntry(entry),
   }),
   schema: contestSchema,
+});
+
+const grupos = defineCollection({
+  loader: glob({
+    base: './src/content/assuntos',
+    pattern: '**/grupo.json',
+    generateId: ({ entry }) => groupIdFromEntry(entry),
+  }),
+  schema: groupSchema,
 });
 
 const conteudos = defineCollection({
@@ -44,4 +54,4 @@ const questoes = defineCollection({
   schema: questionSetSchema,
 });
 
-export const collections = { concursos, conteudos, cheatSheets, questoes };
+export const collections = { concursos, grupos, conteudos, cheatSheets, questoes };

@@ -21,6 +21,14 @@ const subjectPath = (slug: string) => `/concursos/${contest.slug}/${slug}/`;
       <a href="/">Concursos</a>
       <span aria-hidden="true">/</span>
       <a href={`/concursos/${contest.slug}/`}>{contest.title}</a>
+      {
+        subject.groupPath.map((group) => (
+          <>
+            <span aria-hidden="true">/</span>
+            <span>{group.title}</span>
+          </>
+        ))
+      }
       <span aria-hidden="true">/</span>
       <span>{subject.title}</span>
     </nav>

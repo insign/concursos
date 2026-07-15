@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { contestSchema, questionSetSchema, subjectSchema } from '../../src/lib/content-schema';
+import { contestSchema, groupSchema, questionSetSchema, subjectSchema } from '../../src/lib/content-schema';
 
 const validQuestionSet = {
   schemaVersion: 1 as const,
@@ -30,6 +30,14 @@ describe('content schemas', () => {
         storageId: 'tse',
       }),
     ).toBeTruthy();
+    expect(groupSchema.parse({ schemaVersion: 1, title: 'Grupo', order: 0 })).toEqual({
+      schemaVersion: 1,
+      title: 'Grupo',
+      order: 0,
+    });
+    expect(
+      groupSchema.parse({ schemaVersion: 1, title: 'Grupo', order: 1, description: 'Descrição' }),
+    ).toBeTruthy();
     expect(
       subjectSchema.parse({
         schemaVersion: 1,
@@ -39,6 +47,15 @@ describe('content schemas', () => {
         storageId: 'portugues',
       }),
     ).toBeTruthy();
+  });
+
+  it('keeps group descriptors strict and free of persisted identity', () => {
+    expect(() => groupSchema.parse({ schemaVersion: 2, title: 'Grupo', order: 0 })).toThrow();
+    expect(() => groupSchema.parse({ schemaVersion: 1, title: 'Grupo', order: -1 })).toThrow();
+    expect(() => groupSchema.parse({ schemaVersion: 1, title: ' ', order: 0 })).toThrow();
+    expect(() =>
+      groupSchema.parse({ schemaVersion: 1, title: 'Grupo', order: 0, storageId: 'grupo' }),
+    ).toThrow();
   });
 
   it('rejects unknown properties, versions and storage limits', () => {

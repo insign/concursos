@@ -1,0 +1,41 @@
+---
+import ProgressSummary from './ProgressSummary.astro';
+import type { CatalogContest, CatalogTreeNode } from '../lib/catalog';
+
+interface Props {
+  contest: CatalogContest;
+  nodes: CatalogTreeNode[];
+  depth?: number;
+}
+
+const { contest, nodes, depth = 0 } = Astro.props;
+const Heading = `h${Math.min(depth + 2, 6)}` as 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+---
+
+<ol class="subject-tree" data-depth={depth}>
+  {
+    nodes.map((node) =>
+      node.kind === 'subject' ? (
+        <li class="subject-item">
+          <article class="subject-card">
+            <a href={`/concursos/${contest.slug}/${node.slug}/`}>{node.title}</a>
+            <p>{node.description}</p>
+            <ProgressSummary
+              contestStorageId={contest.storageId}
+              subjectStorageId={node.storageId}
+              questionSetRevision={node.questionSetEntry.data.questionSetRevision}
+            />
+          </article>
+        </li>
+      ) : (
+        <li class="subject-group">
+          <section class="subject-group-section">
+            <Heading class="subject-group-title">{node.title}</Heading>
+            {node.description && <p class="subject-group-description">{node.description}</p>}
+            <Astro.self contest={contest} nodes={node.children} depth={depth + 1} />
+          </section>
+        </li>
+      ),
+    )
+  }
+</ol>

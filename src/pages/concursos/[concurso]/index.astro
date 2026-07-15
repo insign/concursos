@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import ProgressSummary from '../../../components/ProgressSummary.astro';
 import OfflineContestButton from '../../../components/OfflineContestButton.astro';
+import SubjectCatalogTree from '../../../components/SubjectCatalogTree.astro';
 import { getCatalog, type CatalogContest } from '../../../lib/catalog';
 
 interface Props {
@@ -33,21 +33,7 @@ const { contest } = Astro.props;
     <OfflineContestButton contestStorageId={contest.storageId} contestTitle={contest.title} />
 
     {contest.subjects.length > 0 ? (
-      <ol class="subject-list">
-        {contest.subjects.map((subject) => (
-          <li>
-            <article class="subject-card">
-              <a href={`/concursos/${contest.slug}/${subject.slug}/`}>{subject.title}</a>
-              <p>{subject.description}</p>
-              <ProgressSummary
-                contestStorageId={contest.storageId}
-                subjectStorageId={subject.storageId}
-                questionSetRevision={subject.questionSetEntry.data.questionSetRevision}
-              />
-            </article>
-          </li>
-        ))}
-      </ol>
+      <SubjectCatalogTree contest={contest} nodes={contest.children} />
     ) : (
       <p class="empty-state">Este concurso ainda não possui assuntos publicados.</p>
     )}
