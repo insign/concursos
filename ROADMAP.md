@@ -475,7 +475,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 ##### [x] Concluído Assunto 107 - Item 3: Gestão de processos.
 
-##### [ ] Assunto 108 - Itens 4 e 7: Gestão da qualidade e excelência nos serviços públicos.
+##### [>] Em progresso Assunto 108 - Itens 4 e 7: Gestão da qualidade e excelência nos serviços públicos.
 
 - Item 4. Gestão da qualidade.
 - Item 7. Excelência nos serviços públicos.
