@@ -497,7 +497,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 12. Sustentabilidade pública e acessibilidade.
 - O item 12 é desdobrado nos Assuntos 113 e 114 por eixo de gestão, sem repetição: este assunto trata de sustentabilidade pública.
 
-##### [R] Em revisão Assunto 114 - Item 12, recorte: Acessibilidade na gestão pública.
+##### [x] Concluído Assunto 114 - Item 12, recorte: Acessibilidade na gestão pública.
 
 #### Administração de Recursos Materiais e Patrimoniais
 
