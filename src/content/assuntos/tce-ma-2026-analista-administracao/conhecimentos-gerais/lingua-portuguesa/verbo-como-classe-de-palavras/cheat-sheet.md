@@ -25,7 +25,8 @@
 | Particípio | `estudado`, `vendido` | ação concluída/estado; pode ser adjetival |
 
 - Infinitivo pessoal: `estudares`, `estudarmos`, `estudarem`.
-- Infinitivo impessoal: sem flexão de pessoa/número.
+- 1ª e 3ª pessoas do singular do infinitivo pessoal coincidem com o impessoal: `para eu estudar`, `para ele estudar` × `é preciso estudar`.
+- A forma isolada `estudar` não permite decidir entre infinitivo pessoal e impessoal.
 - `O estudar exige constância`: infinitivo substantivado.
 - Particípios irregulares: `aberto`, `escrito`, `feito`, `visto`, `posto`.
 - Particípio irregular não implica verbo irregular.
@@ -51,14 +52,24 @@
 | --- | --- |
 | `tinha estudado` | auxiliar + particípio principal |
 | `estava estudando` | auxiliar + gerúndio principal |
-| `começou a estudar` | auxiliar/semiauxiliar + infinitivo principal |
+| `pode estudar` | auxiliar + infinitivo principal |
 | `A comissão aprovou o relatório` | ativa |
 | `O relatório foi aprovado` | passiva analítica |
 | `Aprovam-se relatórios` | passiva sintética; `Relatórios são aprovados` |
+| `Concederam-se bolsas aos servidores` | passiva sintética com VTDI |
 | `Ela feriu a si mesma` | reflexiva |
 
+- `começou a estudar` pode ser tratado como construção aspectual, semiauxiliar ou perífrase, conforme a gramática.
 - Nem todo `se` é apassivador.
 - Passiva exige objeto direto passível de virar sujeito paciente.
+- Passiva sintética admite VTD ou VTDI.
+
+### `se`: pegadinha central
+
+| Valor de `se` | Verbo | Regra | Exemplo |
+| --- | --- | --- | --- |
+| Partícula apassivadora | VTD ou VTDI | há sujeito paciente; verbo concorda | `Vendem-se livros.` |
+| Índice de indeterminação | VTI, VI ou VL | sujeito indeterminado; 3ª pessoa singular | `Precisa-se de apoio.` |
 
 ## Predicação e impessoais
 
@@ -70,8 +81,9 @@
 | VI | `o bebê dormiu` |
 | VL | `a equipe parece confiante` |
 
-- Transitividade é contextual: `escreveu o parecer` x `escreve bem`.
+- Transitividade é contextual: `escreveu o parecer` × `escreve bem`.
 - Impessoais: em regra, `choveu` (sentido próprio), `havia recursos`, `há dois anos`, `faz calor`; ressalva: `São duas horas`.
 - Figurativo pode ter sujeito: `choveram pedidos`.
 - Com principal impessoal: `deve haver candidatos`, `podia fazer meses`.
 - `Existem candidatos`; `haver` existencial fica no singular.
+- `Havia candidatos` = impessoal; `os candidatos haviam estudado` = `haver` auxiliar, concordando com o sujeito.
