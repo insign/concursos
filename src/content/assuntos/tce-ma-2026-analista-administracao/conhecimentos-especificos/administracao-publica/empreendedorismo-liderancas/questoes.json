@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q784",
+      "revision": 1,
+      "prompt": "O empreendedorismo governamental caracteriza-se principalmente por",
+      "options": [
+        {"id": "a", "text": "transferir ao agente público a propriedade dos recursos que administra"},
+        {"id": "b", "text": "mobilizar iniciativa, recursos e inovação para gerar valor público, sob legalidade e prestação de contas"},
+        {"id": "c", "text": "buscar lucro pessoal como medida final do desempenho estatal"},
+        {"id": "d", "text": "eliminar controles para acelerar qualquer mudança"},
+        {"id": "e", "text": "substituir obrigatoriamente a prestação pública por empresa privada"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Empreendedorismo governamental combina proatividade, mobilização de capacidades, inovação e risco governado para gerar valor público. O agente não se torna proprietário dos recursos e continua sujeito a legalidade, integridade, controles e accountability. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q785",
+      "revision": 1,
+      "prompt": "Uma servidora sem cargo de chefia identifica barreira de atendimento, articula áreas e testa uma melhoria autorizada dentro do órgão. A situação exemplifica",
+      "options": [
+        {"id": "a", "text": "privatização"},
+        {"id": "b", "text": "terceirização integral"},
+        {"id": "c", "text": "empreendedorismo exclusivamente privado"},
+        {"id": "d", "text": "intraempreendedorismo público"},
+        {"id": "e", "text": "exercício automático de competência decisória superior"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Intraempreendedorismo é a atuação empreendedora dentro de organização existente e pode surgir sem cargo de direção. A iniciativa informal não confere competência jurídica além das alçadas institucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q786",
+      "revision": 1,
+      "prompt": "Sobre inovação no setor público, assinale a afirmativa correta.",
+      "options": [
+        {"id": "a", "text": "Toda ideia criativa já é inovação, mesmo sem implementação."},
+        {"id": "b", "text": "Somente uma solução inédita mundialmente pode ser considerada inovadora."},
+        {"id": "c", "text": "Inovação pressupõe implementação de abordagem nova ou significativamente modificada que melhore a ação pública."},
+        {"id": "d", "text": "Digitalizar um procedimento prova, por si só, que houve geração de valor público."},
+        {"id": "e", "text": "Melhorias incrementais são incompatíveis com inovação."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ideia ou invenção sem aplicação não entrega inovação. A novidade pode ser contextual e incremental, desde que efetivamente implementada e capaz de melhorar serviço, política, processo, regulação ou resultado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q787",
+      "revision": 1,
+      "prompt": "A diferença mais importante entre empreendedorismo privado e governamental é que",
+      "options": [
+        {"id": "a", "text": "no setor público, a finalidade é o valor público sob mandato, direitos e legitimidade, e não o retorno privado ao agente"},
+        {"id": "b", "text": "o setor público não pode aprender nenhum método desenvolvido em empresas"},
+        {"id": "c", "text": "organizações privadas nunca produzem impacto social"},
+        {"id": "d", "text": "o empreendedor público assume pessoalmente a propriedade de todo risco institucional"},
+        {"id": "e", "text": "eficiência é relevante apenas para empresas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O contexto público exige valor público, legalidade, equidade, direitos e accountability. Métodos privados podem ser adaptados, e eficiência continua relevante, mas não substitui a finalidade pública. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q788",
+      "revision": 1,
+      "prompt": "A relação correta entre empreendedorismo governamental e privatização é",
+      "options": [
+        {"id": "a", "text": "é etapa necessária e juridicamente inseparável da privatização: inovar na Administração exige transferir a execução, os ativos ou o controle a um agente privado"},
+        {"id": "b", "text": "privatizar é requisito jurídico para inovar"},
+        {"id": "c", "text": "os conceitos são sinônimos na legislação"},
+        {"id": "d", "text": "nenhuma privatização pode integrar uma reforma administrativa"},
+        {"id": "e", "text": "são conceitos distintos: o primeiro trata de iniciativa inovadora para valor público; a segunda, de transferência conforme o arranjo adotado"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Um órgão pode inovar mantendo execução estatal, e uma transferência ao setor privado não prova por si mesma inovação ou valor público. Privatização e empreendedorismo governamental não são sinônimos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q789",
+      "revision": 1,
+      "prompt": "É característica frequentemente associada à Nova Gestão Pública — NPM",
+      "options": [
+        {"id": "a", "text": "abandono de toda mensuração de desempenho"},
+        {"id": "c", "text": "proibição de contratos e metas"},
+        {"id": "b", "text": "orientação para resultados, descentralização gerencial e uso seletivo de mecanismos de competição e mercado"},
+        {"id": "d", "text": "eliminação da responsabilização de gestores"},
+        {"id": "e", "text": "identidade entre cidadania e consumo, considerando a satisfação individual do usuário critério suficiente para definir e legitimar todo resultado público"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A NPM é conjunto heterogêneo de reformas associado a desempenho, metas, autonomia gerencial, responsabilização, contratos, competição e eficiência. Não equivale integralmente a privatização nem constitui doutrina única. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q790",
+      "revision": 1,
+      "prompt": "Abordagens pós-NPM ou de Nova Governança Pública tendem a enfatizar",
+      "options": [
+        {"id": "d", "text": "coordenação, redes, colaboração, integração, participação e resultados sistêmicos"},
+        {"id": "a", "text": "metas isoladas de cada unidade como único critério de sucesso"},
+        {"id": "b", "text": "competição obrigatória entre todos os órgãos"},
+        {"id": "c", "text": "abandono da eficiência e dos resultados"},
+        {"id": "e", "text": "retorno à hierarquia sem interação externa"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Abordagens pós-NPM reagem especialmente à fragmentação e reforçam coordenação, redes, coprodução, capacidade estatal e legitimidade. Elas combinam essas dimensões com eficiência e desempenho, em vez de eliminá-los. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q791",
+      "revision": 1,
+      "prompt": "À luz do Decreto nº 9.203/2017, valor público corresponde a",
+      "options": [
+        {"id": "a", "text": "qualquer receita obtida pelo Estado"},
+        {"id": "b", "text": "satisfação exclusiva dos servidores da organização"},
+        {"id": "d", "text": "redução do custo operacional de qualquer atividade estatal, ainda que a economia obtida não produza resposta útil a necessidade de interesse público"},
+        {"id": "e", "text": "volume de atividades executadas sem consideração de utilidade"},
+        {"id": "c", "text": "produtos e resultados efetivos e úteis para necessidades de interesse público que modificam a sociedade ou destinatários legítimos"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O conceito normativo vincula valor público a produtos e resultados gerados, preservados ou entregues como respostas efetivas e úteis a necessidades ou demandas de interesse público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q792",
+      "revision": 1,
+      "prompt": "No governo catalisador de Osborne e Gaebler, a Administração deve predominantemente",
+      "options": [
+        {"id": "b", "text": "renunciar às funções de regulação e coordenação"},
+        {"id": "a", "text": "dirigir, articular e garantir resultados, sem precisar executar diretamente toda atividade"},
+        {"id": "c", "text": "privatizar obrigatoriamente todo serviço"},
+        {"id": "d", "text": "atuar apenas depois que o problema ocorrer"},
+        {"id": "e", "text": "substituir missão por regras detalhadas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O princípio catalisador é sintetizado pela distinção entre dirigir e remar. Não significa Estado ausente: direção, regulação, financiamento, garantia de direitos e controle podem permanecer públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q793",
+      "revision": 1,
+      "prompt": "A combinação correta de princípios de Osborne e Gaebler é",
+      "options": [
+        {"id": "a", "text": "orientação por missão = desprezo pela legalidade; orientação a resultados = medir apenas insumos"},
+        {"id": "b", "text": "orientação por missão = seguir todo procedimento sem considerar finalidade; orientação a resultados = aumentar despesas"},
+        {"id": "c", "text": "orientação por missão = centralização rígida; orientação a resultados = extinguir indicadores"},
+        {"id": "e", "text": "orientação por missão = usar propósito para orientar escolhas; orientação a resultados = avaliar resultados, não apenas insumos"},
+        {"id": "d", "text": "orientação por missão = substituir objetivos por mercado; orientação a resultados = medir somente satisfação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Missão orienta escolhas sem afastar regras legais. Orientação a resultados desloca atenção do simples consumo de insumos para efeitos e entregas relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q794",
+      "revision": 1,
+      "prompt": "Um governo que investe em prevenção de enchentes e aproxima decisões operacionais das equipes territoriais aplica, respectivamente, os princípios",
+      "options": [
+        {"id": "b", "text": "preventivo e descentralizado"},
+        {"id": "a", "text": "orientado ao cliente e competitivo"},
+        {"id": "c", "text": "catalisador e orientado ao mercado"},
+        {"id": "d", "text": "empreendedor e orientado por missão"},
+        {"id": "e", "text": "pertencente à comunidade e orientado a insumos"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Prevenção atua antes do dano; descentralização aproxima participação e decisão do problema, reduzindo hierarquia excessivamente rígida sem eliminar coordenação e accountability. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q795",
+      "revision": 1,
+      "prompt": "Na leitura crítica dos princípios de Osborne e Gaebler, assinale a afirmativa correta.",
+      "options": [
+        {"id": "a", "text": "O cidadão deve ser tratado somente como consumidor individual."},
+        {"id": "b", "text": "Fortalecer comunidades significa transferir a elas toda responsabilidade estatal."},
+        {"id": "d", "text": "Orientação ao cliente torna desnecessária a prestação de contas."},
+        {"id": "c", "text": "Ouvir usuários pode melhorar serviços, mas cidadania também envolve direitos, participação, equidade e interesse coletivo."},
+        {"id": "e", "text": "Necessidades de usuários sempre prevalecem sobre a legalidade."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O foco no usuário corrige conveniências burocráticas, mas o cidadão não se reduz ao cliente. Direitos, deveres, participação, equidade e legitimidade diferenciam a relação pública. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q796",
+      "revision": 1,
+      "prompt": "Entre os princípios do governo empreendedor, introduzir competição adequada, buscar oportunidades de receita e usar mecanismos de mercado correspondem, respectivamente, a governo",
+      "options": [
+        {"id": "a", "text": "preventivo, comunitário e descentralizado"},
+        {"id": "d", "text": "competitivo, empreendedor e orientado ao mercado"},
+        {"id": "b", "text": "catalisador, orientado por missão e preventivo"},
+        {"id": "c", "text": "orientado ao cliente, competitivo e comunitário"},
+        {"id": "e", "text": "descentralizado, orientado a insumos e catalisador"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Competição, postura empreendedora diante de receitas e oportunidades, e orientação ao mercado são três princípios distintos. Nenhum deles impõe aplicação automática a todo serviço público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q797",
+      "revision": 1,
+      "prompt": "Uma crítica pertinente à aplicação automática do governo empreendedor e da NPM é que",
+      "options": [
+        {"id": "b", "text": "rejeição de qualquer mensuração de desempenho, porque todo indicador inevitavelmente reduz capacidade estatal e impede coordenação entre órgãos"},
+        {"id": "c", "text": "eficiência nunca interessa ao setor público"},
+        {"id": "d", "text": "coordenação é incompatível com responsabilização"},
+        {"id": "e", "text": "todo contrato é necessariamente ilegítimo"},
+        {"id": "a", "text": "competição e metas estreitas podem fragmentar a ação e deslocar atenção para o que é facilmente mensurável"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Competição, contratos e metas podem ser úteis, mas desenhos estreitos favorecem silos, fragmentação e comportamento orientado apenas ao indicador. A resposta contemporânea é combinar desempenho com coordenação e valores públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q798",
+      "revision": 1,
+      "prompt": "Uma organização que explora cenários futuros e testa respostas antes que determinada transformação tecnológica se consolide pratica inovação predominantemente",
+      "options": [
+        {"id": "a", "text": "de aperfeiçoamento"},
+        {"id": "b", "text": "transacional"},
+        {"id": "e", "text": "antecipatória"},
+        {"id": "c", "text": "corretiva"},
+        {"id": "d", "text": "cartorial"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A inovação antecipatória explora futuros possíveis e prepara respostas. Aperfeiçoamento melhora o existente; adaptação responde a mudanças; orientação por missão mobiliza atores para desafio ambicioso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q799",
+      "revision": 1,
+      "prompt": "No ciclo de inovação pública, a primeira providência mais consistente é",
+      "options": [
+        {"id": "a", "text": "comprar imediatamente a tecnologia mais recente e somente depois adaptar a definição do problema aos recursos e funcionalidades já adquiridos"},
+        {"id": "c", "text": "escalar a ideia antes de qualquer teste"},
+        {"id": "d", "text": "ocultar hipóteses para evitar críticas"},
+        {"id": "e", "text": "fixar o fornecedor e depois investigar a necessidade"},
+        {"id": "b", "text": "definir o problema, seus públicos, causas e resultados desejados antes de se comprometer com uma solução"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Começar pela solução cria risco de resolver o problema errado. Uma definição fundamentada do problema orienta evidências, alternativas, hipóteses, experimentos e critérios de sucesso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q800",
+      "revision": 1,
+      "prompt": "Um experimento público responsável deve",
+      "options": [
+        {"id": "a", "text": "dispensar critérios de interrupção sempre que houver incerteza tecnológica, porque encerrar um teste impediria aprendizagem e inovação futuras"},
+        {"id": "c", "text": "explicitar hipótese, escopo, salvaguardas, riscos, critérios de sucesso e responsabilidades"},
+        {"id": "b", "text": "evitar registrar falhas"},
+        {"id": "d", "text": "eliminar controles de privacidade e integridade"},
+        {"id": "e", "text": "garantir previamente que o resultado será positivo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Experimentação reduz incerteza com teste controlado e critérios explícitos. Aprender com falha não significa tolerar fraude, negligência ou ausência de salvaguardas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q801",
+      "revision": 1,
+      "prompt": "Depois de um piloto promissor, escalar a inovação requer",
+      "options": [
+        {"id": "d", "text": "integrar solução a processos, pessoas, tecnologia, recursos, normas e governança, acompanhando efeitos"},
+        {"id": "a", "text": "replicar sem adaptação em qualquer contexto"},
+        {"id": "b", "text": "encerrar o monitoramento, pois o piloto já provou causalidade universal"},
+        {"id": "c", "text": "eliminar orçamento recorrente para preservar agilidade"},
+        {"id": "e", "text": "manter a solução indefinidamente em ambiente experimental"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Piloto não é fim em si. Escala sustentável depende de capacidade operacional e institucional, adaptação contextual e monitoramento de resultados e efeitos imprevistos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q802",
+      "revision": 1,
+      "prompt": "Decisão pública orientada por evidências significa",
+      "options": [
+        {"id": "b", "text": "obedecer automaticamente ao maior número disponível"},
+        {"id": "c", "text": "substituir responsabilidade decisória por algoritmo"},
+        {"id": "d", "text": "excluir experiência profissional e escuta social"},
+        {"id": "a", "text": "usar evidências criticamente, considerando qualidade, incerteza, vieses, contexto, legalidade e valores"},
+        {"id": "e", "text": "considerar apenas dados que confirmem a solução preferida"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Evidências informam e melhoram a decisão, mas exigem interpretação. Dados, avaliações, ciência, experiência e participação devem ser avaliados quanto a limites, vieses e aderência ao problema. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q803",
+      "revision": 1,
+      "prompt": "Sobre participação social em processos de inovação, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "toda manifestação vincula integralmente a decisão administrativa"},
+        {"id": "b", "text": "participação elimina a necessidade de conhecimento técnico"},
+        {"id": "e", "text": "participação pode trazer conhecimento e legitimidade, sem eliminar competência e responsabilidade de quem decide"},
+        {"id": "c", "text": "somente dirigentes podem revelar barreiras do serviço"},
+        {"id": "d", "text": "a autoridade deve atender qualquer preferência majoritária, ainda que ilegal"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Participação ajuda a compreender necessidades, testar soluções e identificar efeitos, mas seu escopo e sua devolutiva devem ser claros. A Administração preserva legalidade, critérios e competência decisória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q804",
+      "revision": 1,
+      "prompt": "Na inovação pública, gerir riscos adequadamente consiste em",
+      "options": [
+        {"id": "a", "text": "recusar toda iniciativa com qualquer incerteza, pois a governança adequada exige eliminar o risco antes de autorizar um experimento"},
+        {"id": "c", "text": "aceitar riscos sem responsável definido"},
+        {"id": "d", "text": "considerar somente perdas financeiras"},
+        {"id": "b", "text": "identificar, avaliar, tratar e monitorar eventos, com controles proporcionais ao risco"},
+        {"id": "e", "text": "confundir falha experimental com fraude"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gestão de riscos não elimina incerteza; torna-a explícita e governável. Deve abranger integridade, dados, equidade, dependência, continuidade e outros impactos, com respostas e responsáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q805",
+      "revision": 1,
+      "prompt": "Um serviço digital reduz o custo médio, mas impede acesso de pessoas sem conectividade. A análise adequada é que",
+      "options": [
+        {"id": "a", "text": "a redução do custo médio prova a geração integral de valor público, ainda que um grupo de usuários perca acesso e não exista canal alternativo"},
+        {"id": "b", "text": "equidade não integra avaliação de inovação"},
+        {"id": "c", "text": "o ganho de eficiência deve ser confrontado com efeitos distributivos e barreiras de acesso"},
+        {"id": "d", "text": "todo canal digital deve ser abandonado"},
+        {"id": "e", "text": "somente o volume total importa"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Médias podem ocultar exclusão. Inovação pública precisa avaliar quem ganha, quem perde e quais salvaguardas ou canais complementares preservam direitos e valor público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q806",
+      "revision": 1,
+      "prompt": "Segundo o Decreto nº 9.203/2017, são mecanismos para o exercício da governança pública",
+      "options": [
+        {"id": "a", "text": "planejamento, orçamento e licitação"},
+        {"id": "b", "text": "missão, visão e valores"},
+        {"id": "c", "text": "eficiência, eficácia e efetividade"},
+        {"id": "e", "text": "privatização, competição e lucro"},
+        {"id": "d", "text": "liderança, estratégia e controle"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O decreto define governança como mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q807",
+      "revision": 1,
+      "prompt": "Constitui princípio de governança pública previsto no Decreto nº 9.203/2017",
+      "options": [
+        {"id": "a", "text": "capacidade de resposta"},
+        {"id": "b", "text": "maximização de lucro"},
+        {"id": "c", "text": "sigilo como regra"},
+        {"id": "d", "text": "eliminação de controles"},
+        {"id": "e", "text": "competição obrigatória"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 3º lista capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q808",
+      "revision": 1,
+      "prompt": "Entre as diretrizes do Decreto nº 9.203/2017 está",
+      "options": [
+        {"id": "a", "text": "impedir mudanças de prioridade"},
+        {"id": "e", "text": "direcionar ações a resultados para a sociedade, com soluções tempestivas e inovadoras"},
+        {"id": "b", "text": "buscar somente redução de quadro"},
+        {"id": "c", "text": "subordinar resultados à conveniência burocrática"},
+        {"id": "d", "text": "evitar soluções novas diante de recursos limitados"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 4º, I, relaciona resultados para a sociedade a soluções tempestivas e inovadoras diante da limitação de recursos e da mudança de prioridades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q809",
+      "revision": 1,
+      "prompt": "O processo decisório, conforme diretriz do Decreto nº 9.203/2017, deve ser orientado por",
+      "options": [
+        {"id": "a", "text": "intuição exclusiva da chefia"},
+        {"id": "b", "text": "evidências, conformidade legal, qualidade regulatória, desburocratização e apoio à participação social"},
+        {"id": "c", "text": "preferência do fornecedor"},
+        {"id": "d", "text": "sigilo e ausência de justificativa"},
+        {"id": "e", "text": "automatização integral das decisões administrativas, desde que o algoritmo reduza custos e preserve sigilo sobre os critérios utilizados"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A redação corresponde ao art. 4º, VIII. Evidência e participação aparecem junto de conformidade legal e qualidade regulatória, não como substitutos da responsabilidade pública. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q810",
+      "revision": 1,
+      "prompt": "No mecanismo de liderança do Decreto nº 9.203/2017, as condições mínimas para a boa governança são",
+      "options": [
+        {"id": "a", "text": "criatividade, competição, lucro e velocidade"},
+        {"id": "b", "text": "hierarquia, centralização, sigilo e obediência"},
+        {"id": "d", "text": "missão, visão, meta e orçamento"},
+        {"id": "e", "text": "carisma, popularidade, autoridade e improviso"},
+        {"id": "c", "text": "integridade, competência, responsabilidade e motivação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 5º, I, associa à liderança as condições de integridade, competência, responsabilidade e motivação. Criatividade sem essas bases não assegura boa governança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q811",
+      "revision": 1,
+      "prompt": "O sandbox regulatório da Lei Complementar nº 182/2021 é",
+      "options": [
+        {"id": "a", "text": "dispensa permanente de toda norma brasileira"},
+        {"id": "b", "text": "privatização do órgão regulador"},
+        {"id": "c", "text": "contrato de fornecimento automático"},
+        {"id": "d", "text": "ambiente temporário com condições, critérios e limites para teste, no âmbito das competências do regulador"},
+        {"id": "e", "text": "autorização temporária para descumprir normas de qualquer autoridade, desde que o regulador responsável pelo programa considere o teste inovador"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O sandbox permite autorização temporária e afastamento de normas sob competência do regulador, conforme programa, critérios, duração e alcance definidos. Não é espaço sem lei. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q812",
+      "revision": 1,
+      "prompt": "As contratações dos arts. 12 a 15 da Lei Complementar nº 182/2021 têm por finalidade",
+      "options": [
+        {"id": "b", "text": "financiar qualquer empresa sem problema público definido"},
+        {"id": "c", "text": "substituir todas as modalidades da Lei nº 14.133/2021"},
+        {"id": "a", "text": "resolver demandas públicas com solução inovadora tecnológica e promover inovação pelo poder de compra estatal"},
+        {"id": "d", "text": "garantir lucro à contratada independentemente de trabalho"},
+        {"id": "e", "text": "contratar exclusivamente organizações sem fins lucrativos"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 12 explicita as duas finalidades: solucionar demanda pública que exija inovação com tecnologia e promover inovação no setor produtivo por meio do poder de compra do Estado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q813",
+      "revision": 1,
+      "prompt": "Na modalidade especial que pode resultar em CPSI, a Administração pode contratar",
+      "options": [
+        {"id": "e", "text": "pessoas físicas ou jurídicas, isoladas ou em consórcio, para soluções desenvolvidas ou a desenvolver, com ou sem risco tecnológico"},
+        {"id": "a", "text": "somente startups já constituídas"},
+        {"id": "b", "text": "apenas empresas que já apresentem solução integralmente desenvolvida, sem risco tecnológico, e comprovem enquadramento jurídico como startup inovadora"},
+        {"id": "c", "text": "exclusivamente universidades públicas"},
+        {"id": "d", "text": "somente consórcios de grandes empresas"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 13 não restringe a seleção a startups e admite solução pronta ou a desenvolver, com ou sem risco tecnológico. Essa amplitude é pegadinha normativa recorrente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q814",
+      "revision": 1,
+      "prompt": "Na licitação especial da Lei Complementar nº 182/2021, o escopo pode",
+      "options": [
+        {"id": "a", "text": "omitir o problema e definir somente o fornecedor"},
+        {"id": "c", "text": "proibir que licitantes proponham meios diferentes"},
+        {"id": "b", "text": "indicar o problema e os resultados esperados, dispensando descrição prévia de solução técnica"},
+        {"id": "d", "text": "selecionar obrigatoriamente uma única proposta"},
+        {"id": "e", "text": "dispensar qualquer critério de julgamento"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A contratação pode ser orientada pelo desafio: problema, resultados esperados e obstáculos tecnológicos. Os proponentes apresentam diferentes meios de solução, e mais de uma proposta pode ser selecionada se o edital assim limitar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q815",
+      "revision": 1,
+      "prompt": "O CPSI possui vigência",
+      "options": [
+        {"id": "a", "text": "indeterminada"},
+        {"id": "b", "text": "de até seis meses, sem prorrogação"},
+        {"id": "d", "text": "obrigatória de quatro anos"},
+        {"id": "c", "text": "de até doze meses, prorrogável uma vez por até mais doze meses"},
+        {"id": "e", "text": "definida livremente pelo edital e pelo contrato, sem limite legal específico de duração ou número de prorrogações"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 14 limita o CPSI a 12 meses e admite uma prorrogação de até 12 meses. O contrato deve conter metas, aferição, relatórios, matriz de riscos e regras de propriedade intelectual e exploração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q816",
+      "revision": 1,
+      "prompt": "Se o resultado de um CPSI não for atingido em decorrência de risco tecnológico previsto, a Lei Complementar nº 182/2021 determina que",
+      "options": [
+        {"id": "d", "text": "o trabalho executado é pago conforme critério contratual, ressalvado incentivo variável ligado a metas, sem impedir rescisão por inviabilidade"},
+        {"id": "a", "text": "nenhum trabalho executado poderá ser pago, pois a materialização de risco tecnológico transfere integralmente à contratada o custo do experimento, mesmo quando o contrato previr entregas intermediárias"},
+        {"id": "b", "text": "o contrato se transforma automaticamente em fornecimento"},
+        {"id": "c", "text": "a contratada recebe sempre todo incentivo variável"},
+        {"id": "e", "text": "a matriz de riscos deixa de produzir efeitos"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Havendo risco tecnológico, pagamentos seguem os trabalhos executados e o critério pactuado. Incentivo variável depende das metas, e a Administração pode rescindir se a solução se mostrar técnica ou economicamente inviável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q817",
+      "revision": 1,
+      "prompt": "Encerrado o CPSI, o contrato de fornecimento da solução",
+      "options": [
+        {"id": "b", "text": "é automático e obrigatório em qualquer resultado"},
+        {"id": "c", "text": "é proibido pela Lei Complementar nº 182/2021"},
+        {"id": "d", "text": "dispensa avaliação de custo-benefício quando mais de uma solução tiver sido satisfatória e permite escolher qualquer contratada sem motivação adicional"},
+        {"id": "e", "text": "possui vigência necessariamente indeterminada"},
+        {"id": "a", "text": "pode ser celebrado com a mesma contratada, sem nova licitação, por até 24 meses, prorrogáveis uma vez por até mais 24"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 15 usa faculdade: a Administração poderá contratar fornecimento ou integração sem nova licitação por até 24 meses, prorrogáveis uma vez por até mais 24. O valor total é limitado a cinco vezes o máximo aplicável ao CPSI, ressalvadas as hipóteses legais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q818",
+      "revision": 1,
+      "prompt": "O diálogo competitivo da Lei nº 14.133/2021 distingue-se do CPSI porque",
+      "options": [
+        {"id": "a", "text": "é exclusivo de startups, enquanto o CPSI não é"},
+        {"id": "e", "text": "é modalidade para contratação complexa com diálogo para desenvolver alternativas e propostas finais após seu encerramento"},
+        {"id": "b", "text": "não admite objeto com inovação"},
+        {"id": "c", "text": "dispensa proposta final"},
+        {"id": "d", "text": "é contratação direta em que a Administração negocia reservadamente com um fornecedor já escolhido, sem pré-seleção objetiva nem apresentação posterior de proposta final"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Diálogo competitivo e licitação especial que antecede o CPSI possuem fundamentos e procedimentos distintos. O primeiro estrutura diálogo com pré-selecionados e posterior proposta final; a segunda seleciona soluções inovadoras para teste em contrato que disciplina risco tecnológico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q819",
+      "revision": 1,
+      "prompt": "A relação correta entre gestão e liderança é",
+      "options": [
+        {"id": "a", "text": "liderança elimina planejamento e controle"},
+        {"id": "c", "text": "gestão pertence apenas ao setor privado"},
+        {"id": "d", "text": "liderança só existe em cargo formal"},
+        {"id": "e", "text": "as duas expressões são sempre sinônimas, porque planejar, controlar, mobilizar pessoas e orientar mudanças constituem uma única função gerencial em qualquer contexto"},
+        {"id": "b", "text": "gestão estrutura recursos e execução; liderança mobiliza propósito, aprendizagem e mudança; ambas são necessárias"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gestão e liderança possuem ênfases diferentes e complementares. Transformação sem execução se dispersa; execução sem direção e mobilização pode apenas reproduzir rotinas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q820",
+      "revision": 1,
+      "prompt": "Sobre autoridade formal e liderança, assinale a afirmativa correta.",
+      "options": [
+        {"id": "c", "text": "Liderança pode existir sem hierarquia, mas competência jurídica decorre de cargo, norma ou delegação."},
+        {"id": "a", "text": "Toda autoridade formal lidera efetivamente por definição."},
+        {"id": "b", "text": "Liderança informal autoriza qualquer decisão administrativa."},
+        {"id": "d", "text": "Compartilhar liderança elimina a accountability da autoridade."},
+        {"id": "e", "text": "Conhecimento técnico substitui a competência legal."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Influência não depende necessariamente de cargo; decisão formal depende de competência. Distribuir iniciativa e voz não dissolve deveres e responsabilidades atribuídos pela ordem jurídica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q821",
+      "revision": 1,
+      "prompt": "A liderança transformacional enfatiza",
+      "options": [
+        {"id": "a", "text": "somente recompensas por tarefa"},
+        {"id": "b", "text": "manutenção de rotina sem propósito"},
+        {"id": "d", "text": "visão, propósito, inspiração, desenvolvimento e mobilização para mudança"},
+        {"id": "c", "text": "ausência de controle"},
+        {"id": "e", "text": "obediência baseada exclusivamente no cargo"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O modelo transformacional mobiliza sentido, desenvolvimento e mudança. Carisma isolado não basta: ética, competência, execução e accountability continuam necessárias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q822",
+      "revision": 1,
+      "prompt": "A liderança transacional",
+      "options": [
+        {"id": "b", "text": "é sempre incompatível com inovação, porque a definição de metas, acordos e padrões impede autonomia e aprendizagem em qualquer contexto organizacional"},
+        {"id": "a", "text": "clarifica papéis, metas, acordos, reconhecimento e correções, sendo útil a rotinas e conformidade"},
+        {"id": "c", "text": "elimina padrões de desempenho"},
+        {"id": "d", "text": "é idêntica à liderança servidora"},
+        {"id": "e", "text": "depende de ausência de autoridade formal"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O componente transacional não é necessariamente negativo. Expectativas, consequências e padrões sustentam execução e podem complementar propósito e aprendizagem transformacionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q823",
+      "revision": 1,
+      "prompt": "A liderança adaptativa é especialmente adequada quando",
+      "options": [
+        {"id": "a", "text": "há procedimento conhecido que exige apenas aplicação técnica"},
+        {"id": "b", "text": "a chefia deseja evitar participação"},
+        {"id": "c", "text": "qualquer improviso é suficiente"},
+        {"id": "e", "text": "o desafio exige mudança de valores, relações, hábitos ou capacidades e não possui resposta técnica pronta"},
+        {"id": "d", "text": "não existe tensão nem necessidade de aprendizagem"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Desafios adaptativos demandam aprendizagem pelos envolvidos. O líder regula tensão, mantém foco, protege perspectivas e devolve trabalho às pessoas, sem confundir adaptação com improvisação sem direção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q824",
+      "revision": 1,
+      "prompt": "Liderança colaborativa no setor público requer",
+      "options": [
+        {"id": "a", "text": "eliminar divergências por decreto"},
+        {"id": "c", "text": "dispensar definição de papéis"},
+        {"id": "d", "text": "substituir accountability por consenso sempre que a decisão envolver uma rede de organizações com competências e interesses diferentes"},
+        {"id": "b", "text": "construir propósito, confiança, regras de decisão e tratamento de conflitos entre atores"},
+        {"id": "e", "text": "limitar informação à unidade líder"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Colaboração atravessa fronteiras organizacionais e depende de confiança e coordenação. Ela não elimina conflito, competência, alçadas ou responsabilidade; cria mecanismos para administrá-los. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q825",
+      "revision": 1,
+      "prompt": "Na liderança distribuída ou compartilhada",
+      "options": [
+        {"id": "a", "text": "a autoridade máxima deixa de responder por suas competências"},
+        {"id": "c", "text": "influência e iniciativa podem espalhar-se pela equipe ou rede, preservadas as responsabilidades legais"},
+        {"id": "b", "text": "todos passam a decidir qualquer matéria"},
+        {"id": "d", "text": "hierarquia formal se torna juridicamente inexistente"},
+        {"id": "e", "text": "conhecimento local perde relevância"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Distribuir liderança aproveita conhecimento e capacidade de diferentes atores. Isso não transfere automaticamente competência nem dissolve a accountability de quem detém atribuição formal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q826",
+      "revision": 1,
+      "prompt": "Liderança servidora e stewardship associam-se a",
+      "options": [
+        {"id": "a", "text": "permissividade e ausência de padrões"},
+        {"id": "b", "text": "apropriação pessoal dos recursos públicos"},
+        {"id": "c", "text": "prioridade ao status do dirigente"},
+        {"id": "e", "text": "recusa de qualquer cobrança de desempenho"},
+        {"id": "d", "text": "serviço, escuta, desenvolvimento de pessoas e custódia responsável de capacidades e confiança"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Servir e exercer stewardship significa desenvolver pessoas e administrar responsavelmente algo que pertence à coletividade. Não implica paternalismo, permissividade ou renúncia a resultados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q827",
+      "revision": 1,
+      "prompt": "A liderança ambidestra combina",
+      "options": [
+        {"id": "b", "text": "centralização permanente e ausência de experimentos"},
+        {"id": "c", "text": "criatividade sem decisão e sem prazo"},
+        {"id": "a", "text": "abertura para explorar alternativas e fechamento para selecionar, estruturar, executar e monitorar"},
+        {"id": "d", "text": "controle rígido em todas as fases, sem variação"},
+        {"id": "e", "text": "um único comportamento para qualquer contexto"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ambidestria alterna comportamentos conforme a etapa. Descoberta demanda abertura; implementação demanda convergência, prioridade e disciplina. Uma dimensão sem a outra prejudica inovação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q828",
+      "revision": 1,
+      "prompt": "Na liderança da mudança, uma prática adequada é",
+      "options": [
+        {"id": "e", "text": "diagnosticar prontidão, construir propósito e coalizão, desenvolver capacidade e acompanhar adoção e resultados"},
+        {"id": "a", "text": "tratar toda resistência como má-fé"},
+        {"id": "b", "text": "anunciar tecnologia e considerar a mudança concluída"},
+        {"id": "c", "text": "evitar mapear impactos para reduzir oposição"},
+        {"id": "d", "text": "manter incentivos e processos contraditórios com a nova prática"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Mudança efetiva altera comportamentos, capacidades, incentivos e rotinas. Resistência pode revelar riscos ou perdas legítimas; escutá-la não obriga aceitar toda objeção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q829",
+      "revision": 1,
+      "prompt": "Segurança psicológica em uma equipe significa",
+      "options": [
+        {"id": "b", "text": "condição para perguntar, discordar, admitir erros e propor ideias sem humilhação ou retaliação interpessoal"},
+        {"id": "a", "text": "impossibilidade de avaliar desempenho"},
+        {"id": "c", "text": "tolerância a fraude e assédio"},
+        {"id": "d", "text": "concordância permanente"},
+        {"id": "e", "text": "ausência de metas, avaliação e consequências, pois a equipe somente poderá admitir erros e discordar quando nenhuma cobrança de desempenho for possível"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Segurança psicológica favorece aprendizagem, inovação e alerta precoce. Ela convive com padrões, avaliação e responsabilização e não protege condutas ilícitas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q830",
+      "revision": 1,
+      "prompt": "A relação correta entre diversidade e inclusão é",
+      "options": [
+        {"id": "a", "text": "diversidade garante automaticamente influência igual"},
+        {"id": "b", "text": "inclusão elimina divergências"},
+        {"id": "c", "text": "diversidade amplia perspectivas presentes; inclusão cria condições para participação e influência efetivas"},
+        {"id": "d", "text": "ambas dispensam análise de equidade"},
+        {"id": "e", "text": "inclusão significa reduzir critérios de qualidade"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A presença de pessoas ou perspectivas diversas não garante que suas vozes sejam ouvidas. Liderança inclusiva enfrenta barreiras, distribui voz e incorpora efeitos sobre grupos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q831",
+      "revision": 1,
+      "prompt": "A Matriz de Competências Essenciais de Liderança da Enap organiza nove competências nos eixos",
+      "options": [
+        {"id": "a", "text": "planejamento, orçamento e controle"},
+        {"id": "d", "text": "estratégia, resultados e pessoas"},
+        {"id": "b", "text": "legalidade, impessoalidade e moralidade"},
+        {"id": "c", "text": "mercado, cliente e competição"},
+        {"id": "e", "text": "União, Estados e Municípios"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Enap estrutura a matriz em estratégia, resultados e pessoas, com três competências em cada eixo. A matriz brasileira não deve ser atribuída à OCDE. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q832",
+      "revision": 1,
+      "prompt": "Na matriz da Enap, a competência inovação e mudança integra o eixo",
+      "options": [
+        {"id": "b", "text": "resultados, ao lado de orçamento e licitação"},
+        {"id": "c", "text": "pessoas, ao lado de remuneração e seleção"},
+        {"id": "d", "text": "controle, ao lado de auditoria e correição"},
+        {"id": "a", "text": "estratégia, ao lado de visão de futuro e comunicação estratégica"},
+        {"id": "e", "text": "mercado, ao lado de competição e lucro"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O eixo estratégia reúne visão de futuro, inovação e mudança, e comunicação estratégica. A competência envolve questionar abordagens convencionais e criar ambiente de experimentação e melhoria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q833",
+      "revision": 1,
+      "prompt": "A Recommendation of the Council on Public Service Leadership and Capability, OECD/LEGAL/0445, é",
+      "options": [
+        {"id": "a", "text": "lei complementar brasileira sobre startups"},
+        {"id": "b", "text": "decreto federal que instituiu diretamente a matriz brasileira de nove competências de liderança da Enap e tornou sua aplicação obrigatória a todos os entes federativos"},
+        {"id": "c", "text": "norma constitucional autoaplicável em todos os entes"},
+        {"id": "d", "text": "modalidade de licitação da Lei nº 14.133/2021"},
+        {"id": "e", "text": "recomendação internacional de soft law sobre serviço público profissional, orientado por valores, responsivo, inclusivo e capaz"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Adotada em 17 de janeiro de 2019, a recomendação da OCDE orienta capacidades e liderança no serviço público, mas não é lei brasileira autoaplicável nem fonte da matriz específica da Enap. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
