@@ -492,7 +492,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 10. Convergências e diferenças entre a gestão pública e a gestão privada.
 - Item 11. O paradigma do cliente na gestão pública.
 
-##### [R] Em revisão Assunto 113 - Item 12, recorte: Sustentabilidade pública.
+##### [x] Concluído Assunto 113 - Item 12, recorte: Sustentabilidade pública.
 
 - Item 12. Sustentabilidade pública e acessibilidade.
 - O item 12 é desdobrado nos Assuntos 113 e 114 por eixo de gestão, sem repetição: este assunto trata de sustentabilidade pública.
