@@ -473,7 +473,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Este assunto trata de controle e avaliação.
 
-##### [ ] Assunto 107 - Item 3: Gestão de processos.
+##### [>] Em progresso Assunto 107 - Item 3: Gestão de processos.
 
 ##### [ ] Assunto 108 - Itens 4 e 7: Gestão da qualidade e excelência nos serviços públicos.
 
