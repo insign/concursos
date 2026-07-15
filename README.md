@@ -25,7 +25,24 @@ O plano autoritativo da implementação está em [`final_plan.md`](./final_plan.
 
 ## Conteúdo
 
-Os concursos ficam em `src/content/concursos/`. Cada assunto fica em `src/content/assuntos/<concurso>/<assunto>/` e deve conter `conteudo.md`, `cheat-sheet.md` e `questoes.json`. O build valida schemas, referências cruzadas, revisões e a presença do conjunto completo de arquivos.
+Os concursos ficam em `src/content/concursos/`. Grupos editoriais são obrigatórios, descritos por `grupo.json` e podem ser aninhados; eles não aparecem nas URLs públicas nem na identidade persistida. A única organização válida das fontes é:
+
+```
+src/content/assuntos/<concurso>/<grupo>/grupo.json
+src/content/assuntos/<concurso>/<grupo>/<assunto>/
+  conteudo.md
+  cheat-sheet.md
+  questoes.json
+
+src/content/assuntos/<concurso>/<grupo-pai>/grupo.json
+src/content/assuntos/<concurso>/<grupo-pai>/<grupo-filho>/grupo.json
+src/content/assuntos/<concurso>/<grupo-pai>/<grupo-filho>/<assunto>/
+  conteudo.md
+  cheat-sheet.md
+  questoes.json
+```
+
+Arquivos de assunto diretamente sob o concurso são proibidos. O slug final do assunto deve ser único por concurso; a URL pública permanece `/concursos/<concurso>/<assunto>/`. O build valida schemas, referências cruzadas, revisões e a presença do conjunto completo de arquivos.
 
 Os identificadores `storageId` são persistidos em documentos locais e remotos. Depois de publicados, não devem ser alterados silenciosamente.
 

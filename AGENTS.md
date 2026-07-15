@@ -64,13 +64,17 @@ npm run preview
 
 ## Conteúdo e rotas
 
-- A hierarquia canônica é concurso -> assunto.
+- A hierarquia canônica é concurso -> um ou mais grupos -> assunto.
 - Cada assunto terá conteúdo completo, cheat sheet e questões.
 - Conteúdo e cheat sheet ficam em Markdown; questões ficam em JSON.
-- As quatro Content Collections ficam em `src/content.config.ts`: `concursos`, `conteudos`, `cheatSheets` e `questoes`.
+- As cinco Content Collections ficam em `src/content.config.ts`: `concursos`, `grupos`, `conteudos`, `cheatSheets` e `questoes`.
 - Schemas Zod reutilizáveis ficam em `src/lib/content-schema.ts`; mantenha objetos estritos e versões conhecidas.
+- Todo grupo deve ter um descritor estrito `grupo.json`; grupos são obrigatórios, podem ser aninhados e arquivos de assunto diretamente sob o concurso são proibidos.
 - `src/lib/catalog.ts` relaciona as collections, e a página raiz chama `getCatalog()` para que toda validação cruzada execute no build.
-- O caminho gera o ID canônico: arquivo do concurso para `<concurso>` e pasta do assunto para `<concurso>/<assunto>`.
+- O caminho gera o ID canônico interno completo: arquivo do concurso para `<concurso>`, descritor de grupo para `<concurso>/<grupo-1>[/<grupo-n>...]` e pasta do assunto para `<concurso>/<grupo-1>[/<grupo-n>...]/<assunto>`; o slug final do assunto deve ser único dentro de cada concurso.
+- As URLs públicas permanecem curtas, em `/concursos/<concurso>/<assunto>/`, independentemente da profundidade dos grupos internos.
+- Grupos não têm `storageId` e não participam da identidade de KV, IndexedDB, backup, progresso, sincronização ou offline.
+- `contest.subjects` permanece a projeção plana para rotas, persistência e offline; `contest.children` é a árvore editorial.
 - Todo assunto deve possuir `conteudo.md`, `cheat-sheet.md` e `questoes.json`; arquivos ausentes ou órfãos devem falhar no build.
 - Preserve IDs e `storageId` estáveis; nunca use posição de array como identidade.
 - Não duplique metadados que possam ser derivados de sua fonte canônica.
@@ -90,7 +94,7 @@ npm run preview
 ### Seleção e estado no roadmap
 
 - Ao receber uma solicitação para adicionar conteúdo, leia `ROADMAP.md` antes de pesquisar ou editar arquivos.
-- Os títulos de matérias no roadmap são apenas agrupadores. Cada assunto editorial deve formar uma unidade de estudo coesa, com sua própria pasta contendo `conteudo.md`, `cheat-sheet.md` e `questoes.json`.
+- Os títulos de matérias no roadmap organizam grupos editoriais. Cada assunto editorial deve formar uma unidade de estudo coesa, ser atribuído a um ou mais títulos de grupo coesos representados por `grupo.json` e ter sua própria pasta contendo `conteudo.md`, `cheat-sheet.md` e `questoes.json`.
 - Um assunto pode corresponder a um item principal, reunir itens intrinsecamente relacionados ou cobrir uma parte coesa de um item excessivamente amplo. O roadmap deve registrar explicitamente todos os itens, subitens e recortes abrangidos, sem omissão ou duplicação de escopo.
 - Não combine itens apenas por pertencerem à mesma matéria. O agrupamento deve possuir unidade conceitual, normativa, cronológica ou de processo e permanecer viável para estudo isolado; a divisão deve ser usada quando um único item produzir material excessivamente longo ou heterogêneo.
 - Se o usuário indicar um assunto, selecione esse item; caso contrário, selecione o primeiro assunto pendente na ordem do roadmap.
@@ -117,7 +121,7 @@ npm run preview
 ### Conteúdo completo
 
 - Antes de escrever, inspecione os schemas e um assunto existente para preservar caminhos, frontmatter, IDs, estilo Markdown e contratos do catálogo.
-- Salve o material em `src/content/assuntos/<concurso>/<assunto>/conteudo.md` e cubra integralmente todos os itens, subitens e recortes atribuídos ao assunto no roadmap.
+- Salve o material em `src/content/assuntos/<concurso>/<grupo>/.../<assunto>/conteudo.md`, sob um ou mais grupos com `grupo.json`, e cubra integralmente todos os itens, subitens e recortes atribuídos ao assunto no roadmap.
 - Defina `order` conforme a numeração fixa do assunto no roadmap; não renumere assuntos já publicados por mudança de status, omissão ou renomeação.
 - Escreva para aprendizagem: apresente fundamentos, desenvolvimento gradual, exemplos, comparações, classificações, exceções, fórmulas, aplicações e erros recorrentes de prova.
 - Organize o texto em uma ordem pedagógica própria quando a ordem bruta do edital não for a melhor sequência de aprendizagem, sem omitir nenhum tópico.
