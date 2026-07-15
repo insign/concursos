@@ -460,7 +460,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Características básicas, tipos de estrutura organizacional, natureza, finalidades e critérios de departamentalização.
 
-##### [ ] Assunto 104 - Item 2, recorte: planejamento e direção no processo organizacional.
+##### [>] Assunto 104 - Item 2, recorte: planejamento e direção no processo organizacional.
 
 - Item 2. Processo organizacional: planejamento, direção, comunicação, controle e avaliação.
 - Este assunto trata de planejamento e direção.
