@@ -469,7 +469,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Este assunto trata de comunicação.
 
-##### [ ] Assunto 106 - Item 2, recorte: controle e avaliação no processo organizacional.
+##### [>] Em progresso Assunto 106 - Item 2, recorte: controle e avaliação no processo organizacional.
 
 - Este assunto trata de controle e avaliação.
 
