@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q534",
+      "revision": 1,
+      "prompt": "No processo administrativo, controlar significa principalmente",
+      "options": [
+        {"id": "a", "text": "comparar desempenho com referências, analisar desvios e desencadear ações pertinentes"},
+        {"id": "b", "text": "formular exclusivamente a missão institucional"},
+        {"id": "c", "text": "punir toda pessoa associada a um resultado diferente da meta"},
+        {"id": "d", "text": "registrar o maior volume possível de dados"},
+        {"id": "e", "text": "substituir planejamento e direção"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O núcleo do controle é confrontar o observado com uma referência, interpretar o desvio e decidir. Coleta de dados é apenas parte do processo, e correção não equivale necessariamente a punição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q535",
+      "revision": 1,
+      "prompt": "A interdependência entre planejamento e controle decorre do fato de que",
+      "options": [
+        {"id": "a", "text": "o controle formula todos os objetivos antes do planejamento"},
+        {"id": "b", "text": "o planejamento fornece referências, e o controle informa cumprimento e adequação"},
+        {"id": "c", "text": "ambos se limitam à elaboração de orçamento"},
+        {"id": "d", "text": "planejar elimina a necessidade de acompanhar a execução"},
+        {"id": "e", "text": "controlar dispensa padrões quando há muitos dados"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Objetivos, padrões e metas planejados orientam a comparação. O controle retorna evidências sobre execução e resultados, podendo indicar correções ou revisão fundamentada do plano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q536",
+      "revision": 1,
+      "prompt": "Assinale a sequência que melhor representa o ciclo de controle.",
+      "options": [
+        {"id": "a", "text": "agir, medir, abolir o padrão e encerrar"},
+        {"id": "b", "text": "punir, planejar, medir e comunicar"},
+        {"id": "c", "text": "estabelecer referência, medir, comparar, analisar, agir e realimentar"},
+        {"id": "d", "text": "medir, agir, definir o objetivo e comparar"},
+        {"id": "e", "text": "comparar, ocultar o desvio, medir e revisar"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A referência precede a medição e a comparação; o desvio é analisado antes da ação, e o aprendizado realimenta planejamento e execução. Modelos podem agrupar etapas sem alterar essa lógica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q537",
+      "revision": 1,
+      "prompt": "A respeito dos padrões de controle, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "precisam ser exclusivamente monetários"},
+        {"id": "b", "text": "somente medidas numéricas permitem comparação"},
+        {"id": "c", "text": "não podem decorrer de norma técnica"},
+        {"id": "d", "text": "podem ser quantitativos, qualitativos, normativos ou comparativos"},
+        {"id": "e", "text": "devem permanecer imutáveis mesmo quando inadequados"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Prazo e custo são padrões quantitativos, enquanto conformidade técnica e nível de qualidade podem constituir referências qualitativas ou normativas. A adequação do padrão deve ser revisada com evidências. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q538",
+      "revision": 1,
+      "prompt": "Uma unidade registra diariamente o número de solicitações, mas não possui meta, faixa de tolerância nem análise dos dados. Nessa situação, há",
+      "options": [
+        {"id": "a", "text": "controle completo por exceção"},
+        {"id": "b", "text": "avaliação de impacto"},
+        {"id": "c", "text": "correção automática de desvios"},
+        {"id": "d", "text": "planejamento estratégico suficiente"},
+        {"id": "e", "text": "medição ou monitoramento, mas não o ciclo completo de controle"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O registro acompanha a execução, porém faltam referência, comparação, interpretação e decisão. Medir é necessário em muitos controles, mas não caracteriza sozinho a função completa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q539",
+      "revision": 1,
+      "prompt": "Ao comparar o realizado com o padrão, a diferença encontrada",
+      "options": [
+        {"id": "a", "text": "é um desvio cuja relevância depende de tolerância, causa, tendência, risco e consequência"},
+        {"id": "b", "text": "prova automaticamente fraude do executor"},
+        {"id": "c", "text": "deve ser sempre ignorada quando pequena"},
+        {"id": "d", "text": "obriga a cancelar o objetivo"},
+        {"id": "e", "text": "torna desnecessária a análise causal"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Desvio é diferença perante a referência, não diagnóstico pronto. Sua materialidade e sua causa devem ser analisadas, inclusive porque diferenças pequenas e repetidas podem revelar tendência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q540",
+      "revision": 1,
+      "prompt": "Diante de atraso causado por uma etapa redundante, a ação de controle mais consistente com a causa é",
+      "options": [
+        {"id": "a", "text": "aumentar a meta sem examinar o processo"},
+        {"id": "b", "text": "corrigir ou simplificar a etapa e acompanhar o efeito da mudança"},
+        {"id": "c", "text": "punir usuários que aguardam o serviço"},
+        {"id": "d", "text": "ocultar os registros de atraso"},
+        {"id": "e", "text": "medir apenas o orçamento anual"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A ação deve incidir sobre a causa identificada e ser posteriormente verificada. Cobrar apenas recuperação momentânea do prazo pode preservar a redundância que produz o desvio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q541",
+      "revision": 1,
+      "prompt": "A revisão de uma meta durante o ciclo de controle é legítima quando",
+      "options": [
+        {"id": "a", "text": "serve apenas para transformar qualquer fracasso em sucesso"},
+        {"id": "b", "text": "é feita retroativamente e sem registro"},
+        {"id": "c", "text": "evidências mostram que a referência se tornou inadequada e a decisão é transparente"},
+        {"id": "d", "text": "dispensa a análise das causas"},
+        {"id": "e", "text": "elimina a necessidade de novo acompanhamento"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Planos e padrões podem conter premissas superadas. A revisão fundamentada integra aprendizagem; alterar critério apenas para aparentar cumprimento é manipulação da métrica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q542",
+      "revision": 1,
+      "prompt": "No ciclo de controle, retroalimentação corresponde",
+      "options": [
+        {"id": "a", "text": "ao padrão definido sem qualquer informação da execução"},
+        {"id": "b", "text": "à eliminação de toda incerteza"},
+        {"id": "c", "text": "apenas à transmissão descendente de ordens"},
+        {"id": "d", "text": "ao retorno de informação que subsidia correção, prevenção e aprendizagem"},
+        {"id": "e", "text": "à punição obrigatória após cada medição"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A retroalimentação leva informação do desempenho de volta à decisão e ao planejamento. Ela é mecanismo informacional do controle, mas não esgota todas as etapas controladoras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q543",
+      "revision": 1,
+      "prompt": "Monitoramento distingue-se de controle porque o monitoramento",
+      "options": [
+        {"id": "a", "text": "sempre ocorre somente depois do encerramento"},
+        {"id": "b", "text": "formula a missão institucional"},
+        {"id": "c", "text": "dispensa dados sobre execução"},
+        {"id": "d", "text": "é sinônimo de sanção disciplinar"},
+        {"id": "e", "text": "acompanha e organiza dados, enquanto o controle os confronta com referências e aciona decisões"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Monitoramento é acompanhamento regular. Seus dados podem alimentar o controle, que acrescenta comparação, interpretação do desvio e resposta gerencial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q544",
+      "revision": 1,
+      "prompt": "Avaliação organizacional é corretamente caracterizada como",
+      "options": [
+        {"id": "a", "text": "exame sistemático que aplica critérios e evidências para julgar mérito, adequação, desempenho ou efeitos"},
+        {"id": "b", "text": "coleta de qualquer número sem pergunta avaliativa"},
+        {"id": "c", "text": "sinônimo necessário de auditoria contábil"},
+        {"id": "d", "text": "atividade que só pode ocorrer antes da execução"},
+        {"id": "e", "text": "substituição automática da decisão gerencial"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Avaliar envolve julgamento estruturado apoiado por critérios e evidências. Pode ocorrer antes, durante ou depois da implementação e pode usar dados do monitoramento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q545",
+      "revision": 1,
+      "prompt": "Sobre indicadores, assinale a afirmativa correta.",
+      "options": [
+        {"id": "a", "text": "São sempre medidas financeiras."},
+        {"id": "b", "text": "Representam aspectos da realidade e apoiam monitoramento, controle e avaliação."},
+        {"id": "c", "text": "Substituem integralmente o objeto observado."},
+        {"id": "d", "text": "Dispensam padrão e interpretação."},
+        {"id": "e", "text": "Nunca precisam ser revistos."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Indicadores são medidas quantitativas ou qualitativas dotadas de significado. Como representações imperfeitas, precisam ser interpretados e revistos criticamente; não são a própria realidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q546",
+      "revision": 1,
+      "prompt": "A verificação da capacidade do sistema e dos requisitos antes de iniciar uma operação exemplifica controle",
+      "options": [
+        {"id": "a", "text": "posterior"},
+        {"id": "b", "text": "exclusivamente corretivo"},
+        {"id": "c", "text": "prévio ou preventivo"},
+        {"id": "d", "text": "apenas estratégico"},
+        {"id": "e", "text": "por resultado final"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O controle preventivo atua antes da execução para verificar condições e antecipar causas de desvio. Não depende de um resultado final já observado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q547",
+      "revision": 1,
+      "prompt": "Durante o expediente, a chefia acompanha o crescimento da fila e remaneja servidores para evitar atraso. Trata-se de controle",
+      "options": [
+        {"id": "a", "text": "ex ante de política pública"},
+        {"id": "b", "text": "posterior sem possibilidade de correção"},
+        {"id": "c", "text": "externo constitucional"},
+        {"id": "d", "text": "concomitante ou simultâneo"},
+        {"id": "e", "text": "exclusivamente financeiro"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A medição e a ação ocorrem enquanto o processo está em execução, permitindo correção tempestiva. Esse é o núcleo do controle concomitante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q548",
+      "revision": 1,
+      "prompt": "Ao fim do mês, a unidade compara o prazo médio realizado com a meta mensal. Quanto ao momento, esse controle é",
+      "options": [
+        {"id": "a", "text": "prévio"},
+        {"id": "b", "text": "antecipatório"},
+        {"id": "c", "text": "concomitante à operação de cada atendimento"},
+        {"id": "d", "text": "preventivo de entrada"},
+        {"id": "e", "text": "posterior ou subsequente"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A comparação acontece após o ciclo mensal observado. O controle posterior não impede o atraso já ocorrido, mas pode corrigir efeitos e gerar aprendizagem para ciclos seguintes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q549",
+      "revision": 1,
+      "prompt": "Na teoria de sistemas aplicada ao controle, feedforward enfatiza",
+      "options": [
+        {"id": "a", "text": "informação antecipatória sobre entradas e causas para prevenir desvios"},
+        {"id": "b", "text": "somente a sanção aplicada após o resultado"},
+        {"id": "c", "text": "a inexistência de referência planejada"},
+        {"id": "d", "text": "a auditoria externa das demonstrações"},
+        {"id": "e", "text": "a medição de impacto de longo prazo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Feedforward orienta ação antecipatória sobre condições e causas. Ele se aproxima do controle preventivo, mas não deve ser tratado como sinônimo perfeito de toda classificação jurídica de controle prévio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q550",
+      "revision": 1,
+      "prompt": "O acompanhamento da missão, dos objetivos globais e dos riscos críticos da organização caracteriza predominantemente controle",
+      "options": [
+        {"id": "a", "text": "operacional"},
+        {"id": "b", "text": "estratégico ou institucional"},
+        {"id": "c", "text": "apenas concomitante"},
+        {"id": "d", "text": "informal"},
+        {"id": "e", "text": "de tarefa individual"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O nível estratégico observa a organização como um todo, sua missão, suas prioridades e riscos críticos. Seu horizonte tende a ser amplo e a informação, agregada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q551",
+      "revision": 1,
+      "prompt": "O controle de planos e desempenho de uma diretoria ou departamento situa-se predominantemente no nível",
+      "options": [
+        {"id": "a", "text": "externo"},
+        {"id": "b", "text": "constitucional"},
+        {"id": "c", "text": "tático ou intermediário"},
+        {"id": "d", "text": "apenas individual"},
+        {"id": "e", "text": "exclusivamente estratégico"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O nível tático traduz objetivos estratégicos para áreas, unidades, planos e programas intermediários. Ele coordena processos departamentais e seus ajustes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q552",
+      "revision": 1,
+      "prompt": "Prazos de tarefas, qualidade de uma rotina e produtividade diária são objetos típicos de controle",
+      "options": [
+        {"id": "a", "text": "institucional de longo prazo apenas"},
+        {"id": "b", "text": "externo parlamentar"},
+        {"id": "c", "text": "de impacto social exclusivamente"},
+        {"id": "d", "text": "operacional"},
+        {"id": "e", "text": "de formulação da missão"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O controle operacional acompanha tarefas e processos imediatos com informação mais detalhada e frequente. Isso não impede que seus dados alimentem níveis superiores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q553",
+      "revision": 1,
+      "prompt": "A relação entre os níveis estratégico, tático e operacional de controle é corretamente descrita em",
+      "options": [
+        {"id": "a", "text": "cada nível produz dados que nunca podem circular"},
+        {"id": "b", "text": "somente o nível estratégico corrige desvios"},
+        {"id": "c", "text": "o nível operacional independe dos objetivos institucionais"},
+        {"id": "d", "text": "uma mudança estratégica não altera referências inferiores"},
+        {"id": "e", "text": "os níveis são conectados, e dados operacionais podem revelar tendências estratégicas"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os níveis possuem focos distintos, mas integram o mesmo sistema. Objetivos superiores orientam controles inferiores, e evidências da execução podem realimentar decisões estratégicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q554",
+      "revision": 1,
+      "prompt": "No sentido da teoria organizacional, autocontrole ocorre quando",
+      "options": [
+        {"id": "a", "text": "o executor ou gestor verifica o próprio trabalho segundo referências conhecidas"},
+        {"id": "b", "text": "não existem objetivos nem critérios"},
+        {"id": "c", "text": "um tribunal exerce controle constitucional"},
+        {"id": "d", "text": "qualquer desvio é ocultado"},
+        {"id": "e", "text": "a organização renuncia a toda responsabilidade"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Autocontrole atribui ao próprio responsável pela execução ou gestão a verificação do desempenho. Ele requer padrões claros e não elimina controles institucionais complementares. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q555",
+      "revision": 1,
+      "prompt": "A respeito do controle como função administrativa e do controle externo constitucional, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "são expressões necessariamente idênticas"},
+        {"id": "b", "text": "possuem interfaces, mas o controle externo e a auditoria têm regimes próprios"},
+        {"id": "c", "text": "o controle gerencial só existe quando realizado por tribunal"},
+        {"id": "d", "text": "a função administrativa exclui acompanhamento interno"},
+        {"id": "e", "text": "auditoria substitui todo controle da chefia"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Este assunto trata do controle gerencial no processo organizacional. Auditoria, fiscalização contábil e controle externo se relacionam com ele, mas obedecem a conceitos e regimes específicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q556",
+      "revision": 1,
+      "prompt": "Segundo o Guia Referencial da Enap, integram os componentes básicos de um indicador",
+      "options": [
+        {"id": "a", "text": "missão, organograma, cargo, sanção e orçamento"},
+        {"id": "b", "text": "entrada, protocolo, hierarquia, poder e cultura"},
+        {"id": "c", "text": "medida, fórmula, índice, padrão de comparação e meta"},
+        {"id": "d", "text": "somente fórmula e valor financeiro"},
+        {"id": "e", "text": "apenas objetivo e impacto"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A medida define a grandeza; a fórmula, o cálculo; o índice, o valor em um momento; o padrão, a referência; e a meta, o valor desejado no período. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q557",
+      "revision": 1,
+      "prompt": "Assinale a distinção correta entre índice e meta.",
+      "options": [
+        {"id": "a", "text": "Índice é sempre qualitativo, e meta é sempre financeira."},
+        {"id": "b", "text": "Meta é o valor passado, e índice é a missão."},
+        {"id": "c", "text": "São necessariamente sinônimos."},
+        {"id": "d", "text": "Índice é o valor do indicador em um momento; meta é o valor desejado em período definido."},
+        {"id": "e", "text": "Índice dispensa fórmula e meta dispensa prazo."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O índice expressa uma medição observada. A meta orienta o desempenho futuro ou esperado, vinculando valor e prazo a uma finalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q558",
+      "revision": 1,
+      "prompt": "Na definição de uma meta de desempenho, é recomendável",
+      "options": [
+        {"id": "a", "text": "ignorar a situação inicial"},
+        {"id": "b", "text": "eliminar o prazo para ampliar a flexibilidade"},
+        {"id": "c", "text": "escolher valor arbitrário sem relação com capacidade"},
+        {"id": "d", "text": "usar somente a preferência pessoal da chefia"},
+        {"id": "e", "text": "considerar linha de base, histórico, tendências, referências e capacidade de execução"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Metas devem conter finalidade, valor e prazo e ser fundamentadas. Linha de base e histórico permitem avaliar o desafio sem transformar a meta em número arbitrário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q559",
+      "revision": 1,
+      "prompt": "Em um programa de capacitação, instrutores, orçamento e plataforma são classificados como",
+      "options": [
+        {"id": "a", "text": "insumos ou inputs"},
+        {"id": "b", "text": "impactos sociais"},
+        {"id": "c", "text": "resultados finais"},
+        {"id": "d", "text": "metas de efetividade"},
+        {"id": "e", "text": "produtos entregues"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Insumos são recursos humanos, materiais, tecnológicos e financeiros empregados na execução. Eles viabilizam processos, mas não são as entregas produzidas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q560",
+      "revision": 1,
+      "prompt": "Na cadeia de desempenho, processo ou atividade corresponde",
+      "options": [
+        {"id": "a", "text": "ao efeito amplo de longo prazo"},
+        {"id": "b", "text": "ao trabalho que transforma insumos em produtos ou serviços"},
+        {"id": "c", "text": "somente ao orçamento disponível"},
+        {"id": "d", "text": "à meta sem execução"},
+        {"id": "e", "text": "ao valor observado do indicador"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Processos e atividades usam recursos para realizar o trabalho e gerar entregas. Indicadores de processo podem observar tempo, custo, qualidade e produtividade dessa transformação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q561",
+      "revision": 1,
+      "prompt": "O número de turmas concluídas e de certificados emitidos constitui, na cadeia de uma capacitação, indicador de",
+      "options": [
+        {"id": "a", "text": "insumo"},
+        {"id": "b", "text": "impacto institucional de longo prazo"},
+        {"id": "c", "text": "produto ou output"},
+        {"id": "d", "text": "economicidade da aquisição"},
+        {"id": "e", "text": "causa do problema público"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Turmas e certificados são entregas diretas produzidas pelo processo. Sua quantidade não demonstra, isoladamente, aplicação das competências nem melhoria do serviço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q562",
+      "revision": 1,
+      "prompt": "A melhoria sustentada da qualidade do serviço público associada a uma capacitação representa, na cadeia apresentada,",
+      "options": [
+        {"id": "a", "text": "um insumo"},
+        {"id": "b", "text": "uma atividade de aula"},
+        {"id": "c", "text": "apenas um certificado"},
+        {"id": "d", "text": "um impacto amplo"},
+        {"id": "e", "text": "uma fórmula de indicador"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Impacto designa efeito mais amplo e duradouro relacionado à intervenção. Ele está além da entrega direta e da mudança próxima observada nos participantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q563",
+      "revision": 1,
+      "prompt": "Em questões sobre produto, resultado e impacto, o candidato deve considerar que",
+      "options": [
+        {"id": "a", "text": "resultado possui definição universal e única"},
+        {"id": "b", "text": "produto e impacto são sempre sinônimos"},
+        {"id": "c", "text": "todo produto é necessariamente efeito social final"},
+        {"id": "d", "text": "a cadeia dispensa definição do objeto"},
+        {"id": "e", "text": "a terminologia varia entre fontes, devendo prevalecer a cadeia explicitada"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Resultado pode ser usado em sentido restrito ou amplo. A posição lógica da medida e as definições do enunciado são mais seguras que uma equivalência terminológica absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q564",
+      "revision": 1,
+      "prompt": "Economicidade é mais bem expressa pela",
+      "options": [
+        {"id": "a", "text": "obtenção e uso prudente de recursos, considerando custo, qualidade e risco"},
+        {"id": "b", "text": "escolha obrigatória do menor preço, qualquer que seja a qualidade"},
+        {"id": "c", "text": "quantidade de produtos sem considerar recursos"},
+        {"id": "d", "text": "mudança social de longo prazo"},
+        {"id": "e", "text": "mera conformidade formal"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Economicidade exige prudência no uso dos recursos e relação adequada entre custo, qualidade e risco. Menor preço com qualidade insuficiente pode ampliar custo total e não ser econômico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q565",
+      "revision": 1,
+      "prompt": "Eficiência examina predominantemente",
+      "options": [
+        {"id": "a", "text": "somente se a missão foi redigida"},
+        {"id": "b", "text": "a relação entre produtos ou serviços gerados e recursos empregados"},
+        {"id": "c", "text": "apenas o efeito social de longo prazo"},
+        {"id": "d", "text": "o cumprimento literal de qualquer formulário"},
+        {"id": "e", "text": "a existência de controle externo"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Eficiência relaciona entregas a recursos, tempo ou esforço. Uma operação eficiente pode ainda falhar em alcançar a quantidade prevista ou produzir a mudança desejada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q566",
+      "revision": 1,
+      "prompt": "O grau em que uma unidade alcança a meta de emitir mil certidões no mês corresponde principalmente à",
+      "options": [
+        {"id": "a", "text": "economicidade"},
+        {"id": "b", "text": "legitimidade"},
+        {"id": "c", "text": "eficácia"},
+        {"id": "d", "text": "efetividade de longo prazo"},
+        {"id": "e", "text": "auditoria externa"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Eficácia considera o alcance das metas e dos objetivos previstos. O número atingido, isoladamente, não revela recursos consumidos nem transformação na realidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q567",
+      "revision": 1,
+      "prompt": "Efetividade diferencia-se de eficácia porque enfatiza",
+      "options": [
+        {"id": "a", "text": "somente o preço do insumo"},
+        {"id": "b", "text": "apenas o cumprimento do cronograma"},
+        {"id": "c", "text": "a quantidade de formulários preenchidos"},
+        {"id": "d", "text": "a mudança relevante produzida na realidade ou no problema"},
+        {"id": "e", "text": "a fórmula matemática do indicador"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Eficácia pergunta se o previsto foi alcançado; efetividade pergunta se houve transformação relevante. Uma entrega pode cumprir a meta sem resolver a necessidade que a originou. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q568",
+      "revision": 1,
+      "prompt": "Uma unidade reduz o custo por atendimento e alcança a quantidade prevista, mas os usuários continuam sem conseguir resolver sua demanda. Nesse caso, há indícios de",
+      "options": [
+        {"id": "a", "text": "ineficiência e ineficácia necessariamente"},
+        {"id": "b", "text": "efetividade comprovada"},
+        {"id": "c", "text": "ausência de qualquer produto"},
+        {"id": "d", "text": "economicidade automaticamente inválida"},
+        {"id": "e", "text": "eficiência e eficácia sem efetividade suficiente"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O custo por entrega melhorou e a meta de quantidade foi cumprida, mas a necessidade permaneceu. O caso mostra por que critérios de desempenho são complementares. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q569",
+      "revision": 1,
+      "prompt": "Para que uma informação de controle permita ação útil, ela deve ser especialmente",
+      "options": [
+        {"id": "a", "text": "suficientemente exata e tempestiva"},
+        {"id": "b", "text": "sempre extensa e sigilosa"},
+        {"id": "c", "text": "produzida apenas uma vez"},
+        {"id": "d", "text": "desvinculada do objetivo"},
+        {"id": "e", "text": "limitada a valores financeiros"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dados inexatos orientam comparações erradas, e dados tardios podem perder a janela de correção. Exatidão e tempestividade devem ser proporcionais à decisão e ao risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q570",
+      "revision": 1,
+      "prompt": "Um sistema de controle flexível, compreensível e aceitável é aquele que",
+      "options": [
+        {"id": "a", "text": "muda critérios secretamente a cada medição"},
+        {"id": "b", "text": "adapta-se de modo consistente, permite interpretação e usa critérios legítimos conhecidos"},
+        {"id": "c", "text": "elimina qualquer padrão"},
+        {"id": "d", "text": "mede tudo com igual intensidade"},
+        {"id": "e", "text": "impede participação dos responsáveis"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Flexibilidade não é arbitrariedade. O controle precisa responder a mudanças, manter coerência, ser entendido e possuir legitimidade suficiente para orientar comportamento e decisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q571",
+      "revision": 1,
+      "prompt": "O critério de economicidade aplicado ao próprio sistema de controle recomenda",
+      "options": [
+        {"id": "a", "text": "adotar todos os controles tecnicamente possíveis"},
+        {"id": "b", "text": "ignorar riscos de pequena probabilidade e grande impacto"},
+        {"id": "c", "text": "compatibilizar o custo do controle com o benefício e o risco tratado"},
+        {"id": "d", "text": "medir somente o que é gratuito"},
+        {"id": "e", "text": "eliminar controles preventivos"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Controle consome recursos e precisa ser proporcional ao risco e ao benefício esperado. Isso não autoriza ignorar eventos críticos só porque são raros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q572",
+      "revision": 1,
+      "prompt": "O princípio da exceção orienta a gestão a",
+      "options": [
+        {"id": "a", "text": "abandonar todas as rotinas de acompanhamento"},
+        {"id": "b", "text": "examinar apenas resultados positivos"},
+        {"id": "c", "text": "ignorar tendências formadas por pequenas ocorrências"},
+        {"id": "d", "text": "concentrar atenção em desvios relevantes, fora de tolerância ou de maior risco"},
+        {"id": "e", "text": "eliminar a responsabilidade operacional"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Controle por exceção prioriza informação material para reduzir sobrecarga gerencial. Ele não extingue controles rotineiros nem autoriza desprezar padrões de tendência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q573",
+      "revision": 1,
+      "prompt": "Uma avaliação ex ante é realizada para",
+      "options": [
+        {"id": "a", "text": "medir apenas efeitos já consolidados anos depois"},
+        {"id": "b", "text": "aplicar sanção automática ao final"},
+        {"id": "c", "text": "substituir toda decisão por um indicador"},
+        {"id": "d", "text": "auditar somente registros contábeis"},
+        {"id": "e", "text": "examinar antes da implementação problema, alternativas, viabilidade, desenho e efeitos esperados"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Ex ante indica avaliação anterior à implementação. Seu exame pode ser mais amplo que um controle prévio operacional, razão pela qual as duas classificações não são sinônimas perfeitas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q574",
+      "revision": 1,
+      "prompt": "A avaliação intermediária ou in itinere",
+      "options": [
+        {"id": "a", "text": "ocorre durante a execução e pode apoiar aperfeiçoamentos em curso"},
+        {"id": "b", "text": "só começa quando todos os efeitos de longo prazo se encerram"},
+        {"id": "c", "text": "dispensa evidências da implementação"},
+        {"id": "d", "text": "é necessariamente controle externo"},
+        {"id": "e", "text": "não pode examinar obstáculos"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A avaliação durante a implementação examina andamento, dificuldades e adequação, permitindo aprendizagem e ajustes antes do encerramento do ciclo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q575",
+      "revision": 1,
+      "prompt": "A avaliação ex post caracteriza-se por",
+      "options": [
+        {"id": "a", "text": "ocorrer obrigatoriamente antes da escolha da alternativa"},
+        {"id": "b", "text": "examinar após a implementação ou ciclo relevante desempenho, resultados e efeitos observados"},
+        {"id": "c", "text": "impedir todo desvio já ocorrido"},
+        {"id": "d", "text": "usar exclusivamente dados financeiros"},
+        {"id": "e", "text": "eliminar a necessidade de critérios"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ex post significa avaliação posterior. Ela pode apoiar decisões futuras e aprendizagem, mas não previne retroativamente os fatos do período já encerrado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q576",
+      "revision": 1,
+      "prompt": "A avaliação de processo ou implementação concentra-se em",
+      "options": [
+        {"id": "a", "text": "apenas estimar impacto causal de longo prazo"},
+        {"id": "b", "text": "definir a missão antes de conhecer o problema"},
+        {"id": "c", "text": "examinar como atividades foram executadas, alcance, conformidade e obstáculos"},
+        {"id": "d", "text": "contar somente recursos disponíveis"},
+        {"id": "e", "text": "substituir a avaliação de resultados em qualquer caso"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O foco de processo é a implementação: atividades, fluxos, público alcançado, aderência ao desenho e dificuldades. Resultado e impacto respondem a perguntas distintas e complementares. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q577",
+      "revision": 1,
+      "prompt": "Um relatório exato chega depois de encerrada a única janela possível de correção. A principal fragilidade do controle foi a falta de",
+      "options": [
+        {"id": "a", "text": "formalidade"},
+        {"id": "b", "text": "hierarquia"},
+        {"id": "c", "text": "quantidade de indicadores"},
+        {"id": "d", "text": "tempestividade"},
+        {"id": "e", "text": "produto"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A informação chegou tarde para a decisão pretendida. Ela ainda pode apoiar responsabilização ou aprendizagem, mas perdeu utilidade para a correção em curso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q578",
+      "revision": 1,
+      "prompt": "Para atingir uma meta de prazo, uma unidade deixa de registrar casos complexos no sistema. Essa conduta exemplifica",
+      "options": [
+        {"id": "a", "text": "controle preventivo eficaz"},
+        {"id": "b", "text": "economicidade comprovada"},
+        {"id": "c", "text": "avaliação ex ante"},
+        {"id": "d", "text": "flexibilidade legítima"},
+        {"id": "e", "text": "manipulação ou gaming da métrica"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A unidade otimiza artificialmente o indicador sem melhorar o serviço. O controle deve revisar definição, fonte, incentivos e medidas complementares. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q579",
+      "revision": 1,
+      "prompt": "A fixação excessiva em métricas ocorre quando",
+      "options": [
+        {"id": "a", "text": "o número vira fim em si mesmo e aspectos relevantes não mensurados são negligenciados"},
+        {"id": "b", "text": "indicadores quantitativos e análise qualitativa são combinados"},
+        {"id": "c", "text": "a organização revisa criticamente a pertinência da medida"},
+        {"id": "d", "text": "qualidade e quantidade são equilibradas"},
+        {"id": "e", "text": "o padrão está alinhado ao objetivo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Indicadores simplificam a realidade. Transformá-los no próprio objetivo incentiva comportamento voltado ao número e pode excluir qualidade, equidade ou outros aspectos difíceis de medir. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q580",
+      "revision": 1,
+      "prompt": "Uma cultura em que todo desvio gera punição automática pode prejudicar o controle porque",
+      "options": [
+        {"id": "a", "text": "elimina qualquer responsabilidade legal"},
+        {"id": "b", "text": "incentiva ocultação de problemas e reduz a qualidade da informação e da aprendizagem"},
+        {"id": "c", "text": "torna todo indicador mais preciso"},
+        {"id": "d", "text": "garante análise causal"},
+        {"id": "e", "text": "converte controle posterior em preventivo"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Responsabilizar quando cabível não exige tratar qualquer diferença como culpa. Reação exclusivamente punitiva pode suprimir alertas e impedir correção precoce e aprendizagem organizacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q581",
+      "revision": 1,
+      "prompt": "Nos termos do art. 6º do Decreto-Lei nº 200/1967, o controle",
+      "options": [
+        {"id": "a", "text": "é atividade facultativa e externa à Administração Federal"},
+        {"id": "b", "text": "substitui planejamento, coordenação e descentralização"},
+        {"id": "c", "text": "integra os princípios fundamentais das atividades da Administração Federal"},
+        {"id": "d", "text": "é restrito ao sistema de contabilidade"},
+        {"id": "e", "text": "só ocorre depois da execução"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 6º enumera planejamento, coordenação, descentralização, delegação de competência e controle como princípios fundamentais. Nenhum deles substitui os demais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q582",
+      "revision": 1,
+      "prompt": "De acordo com o art. 13 do Decreto-Lei nº 200/1967, o controle das atividades da Administração Federal",
+      "options": [
+        {"id": "a", "text": "cabe somente ao Poder Legislativo"},
+        {"id": "b", "text": "é limitado à guarda de bens"},
+        {"id": "c", "text": "exclui a chefia competente"},
+        {"id": "d", "text": "deve exercer-se em todos os níveis e órgãos, nas modalidades particularmente enumeradas"},
+        {"id": "e", "text": "dispensa a observância das normas das atividades auxiliares"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 13 prevê controle pela chefia sobre programas e normas específicas, pelos órgãos de sistema sobre atividades auxiliares e pelos órgãos próprios do sistema de contabilidade e auditoria sobre dinheiros públicos e bens da União. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q583",
+      "revision": 1,
+      "prompt": "O art. 14 do Decreto-Lei nº 200/1967 determina que o trabalho administrativo seja racionalizado mediante",
+      "options": [
+        {"id": "a", "text": "criação de controle para cada risco, sem considerar custo"},
+        {"id": "b", "text": "eliminação de todos os controles internos"},
+        {"id": "c", "text": "substituição de processos por sanções"},
+        {"id": "d", "text": "centralização integral das decisões"},
+        {"id": "e", "text": "simplificação de processos e supressão de controles puramente formais ou de custo evidentemente superior ao risco"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 14 associa controle à racionalidade administrativa. A presença do controle em todos os níveis, prevista no art. 13, não legitima formalismo inútil ou antieconômico. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
