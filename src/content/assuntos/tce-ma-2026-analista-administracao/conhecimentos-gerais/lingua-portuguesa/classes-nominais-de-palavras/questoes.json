@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q234",
+      "revision": 1,
+      "prompt": "No enunciado “O belo pode ser difícil de definir”, a palavra “belo” é empregada como",
+      "options": [
+        { "id": "a", "text": "adjetivo que caracteriza um substantivo expresso." },
+        { "id": "b", "text": "substantivo, por substantivação favorecida pelo artigo “o”." },
+        { "id": "c", "text": "advérbio que modifica o verbo “definir”." },
+        { "id": "d", "text": "numeral que expressa quantidade exata." },
+        { "id": "e", "text": "pronome demonstrativo que retoma “o”." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em “o belo”, o artigo substantiva “belo”, que passa a nomear uma ideia. A palavra não caracteriza um nome expresso, não modifica verbo e não expressa quantidade ou demonstração. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q235",
+      "revision": 1,
+      "prompt": "Na classificação tradicional, a palavra “saudade” é substantivo abstrato porque designa",
+      "options": [
+        { "id": "a", "text": "uma entidade material que se pode tocar." },
+        { "id": "b", "text": "um conjunto de seres da mesma espécie." },
+        { "id": "c", "text": "um sentimento ou estado, e não um ser independente." },
+        { "id": "d", "text": "um lugar determinado." },
+        { "id": "e", "text": "uma quantidade exata." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A classificação tradicional inclui sentimentos, estados, ações e qualidades entre os substantivos abstratos. “Saudade” não é coletivo, topônimo nem expressão numérica. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Silva e Souza, https://periodicos2.uesb.br/lnostra/article/view/15694."
+    },
+    {
+      "id": "q236",
+      "revision": 1,
+      "prompt": "A respeito da classificação tradicional de substantivos, assinale a opção correta.",
+      "options": [
+        { "id": "a", "text": "Todo substantivo concreto designa objeto material e palpável." },
+        { "id": "b", "text": "“Anjo” pode ser classificado como concreto, embora não designe objeto palpável." },
+        { "id": "c", "text": "Substantivos abstratos não podem estar no plural." },
+        { "id": "d", "text": "Substantivo próprio sempre é composto." },
+        { "id": "e", "text": "Coletivo é obrigatoriamente plural." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na tradição escolar, substantivo concreto designa ser com existência independente, não apenas objeto físico; por isso “anjo” é exemplo recorrente. As demais afirmações impõem restrições inexistentes. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Silva e Souza, https://periodicos2.uesb.br/lnostra/article/view/15694."
+    },
+    {
+      "id": "q237",
+      "revision": 1,
+      "prompt": "No período “O elenco chegou cedo para a reunião”, a forma verbal no singular se explica porque",
+      "options": [
+        { "id": "a", "text": "“elenco” é substantivo coletivo com forma singular e funciona como núcleo do sujeito." },
+        { "id": "b", "text": "substantivos coletivos são invariáveis em número." },
+        { "id": "c", "text": "o verbo “chegar” não admite plural." },
+        { "id": "d", "text": "“cedo” determina o número do verbo." },
+        { "id": "e", "text": "todo coletivo é pronome." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Elenco” designa conjunto, mas está no singular e é o núcleo do sujeito, o que explica “chegou”. Coletivo não é pronome nem impede, em qualquer contexto, outras construções de concordância. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q238",
+      "revision": 1,
+      "prompt": "Assinale a opção que apresenta um substantivo comum de dois gêneros.",
+      "options": [
+        { "id": "a", "text": "a criança" },
+        { "id": "b", "text": "a cobra" },
+        { "id": "c", "text": "o cônjuge" },
+        { "id": "d", "text": "o estudante / a estudante" },
+        { "id": "e", "text": "a testemunha" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "“Estudante” mantém a mesma forma, e o artigo revela o gênero: “o/a estudante”. “Criança”, “cônjuge” e “testemunha” são tradicionalmente sobrecomuns; “cobra” é exemplo de epiceno. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q239",
+      "revision": 1,
+      "prompt": "Em “A vítima prestou depoimento”, a classificação de “vítima” como substantivo sobrecomum decorre de",
+      "options": [
+        { "id": "a", "text": "apresentar uma forma para machos e outra para fêmeas." },
+        { "id": "b", "text": "ser usado exclusivamente para animais." },
+        { "id": "c", "text": "ter um único gênero gramatical, apesar de poder designar pessoa de qualquer sexo." },
+        { "id": "d", "text": "indicar sempre pluralidade." },
+        { "id": "e", "text": "ser um adjetivo substantivado." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sobrecomuns têm uma forma e um único gênero gramatical para pessoas de qualquer sexo. “Vítima” é feminino gramatical, sem que isso determine o sexo da pessoa. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q240",
+      "revision": 1,
+      "prompt": "Na expressão “a onça fêmea”, a indicação “fêmea” é usada porque “onça” é tradicionalmente classificada como substantivo",
+      "options": [
+        { "id": "a", "text": "epiceno." },
+        { "id": "b", "text": "comum de dois gêneros." },
+        { "id": "c", "text": "sobrecomum." },
+        { "id": "d", "text": "abstrato." },
+        { "id": "e", "text": "coletivo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Epicenos designam animais com uma única forma gramatical; “macho” ou “fêmea” pode especificar o sexo. Não se confundem com comuns de dois gêneros nem com sobrecomuns. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q241",
+      "revision": 1,
+      "prompt": "O diminutivo em “O relator apresentou um parecerzinho insuficiente” pode transmitir, além de redução de tamanho, ideia de",
+      "options": [
+        { "id": "a", "text": "ordem dirigida ao leitor." },
+        { "id": "b", "text": "depreciação ou ironia, conforme o contexto." },
+        { "id": "c", "text": "quantidade fracionária." },
+        { "id": "d", "text": "referência espacial." },
+        { "id": "e", "text": "posse de terceira pessoa." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Aumentativos e diminutivos podem produzir efeitos expressivos, como afeto, ironia ou depreciação. O contexto “insuficiente” favorece leitura depreciativa. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q242",
+      "revision": 1,
+      "prompt": "Em “Seu não foi definitivo”, a palavra “não” é classificada como substantivo porque",
+      "options": [
+        { "id": "a", "text": "nega obrigatoriamente um verbo." },
+        { "id": "b", "text": "acompanha um nome próprio." },
+        { "id": "c", "text": "recebe determinante e nomeia uma resposta negativa." },
+        { "id": "d", "text": "exprime quantidade exata." },
+        { "id": "e", "text": "substitui uma preposição." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O possessivo “seu” determina “não”, que passa a nomear uma resposta ou manifestação negativa; ocorre substantivação. Fora desse emprego, “não” pode ser advérbio de negação. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q243",
+      "revision": 1,
+      "prompt": "Em “Um candidato apresentou recurso”, a palavra “um” é, predominantemente,",
+      "options": [
+        { "id": "a", "text": "artigo indefinido, pois introduz o substantivo sem destacar contagem." },
+        { "id": "b", "text": "pronome relativo, pois retoma “candidato”." },
+        { "id": "c", "text": "adjetivo pátrio." },
+        { "id": "d", "text": "numeral ordinal." },
+        { "id": "e", "text": "advérbio de intensidade." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "No enunciado, “um” apenas introduz “candidato”, sem oposição quantitativa expressa; tende a funcionar como artigo indefinido. A forma pode ser numeral em outro contexto. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q244",
+      "revision": 1,
+      "prompt": "Em “Foi aprovado um candidato, não dois”, a palavra “um” é numeral porque",
+      "options": [
+        { "id": "a", "text": "vem antes do substantivo." },
+        { "id": "b", "text": "tem forma masculina." },
+        { "id": "c", "text": "está em contraste explícito com outra quantidade." },
+        { "id": "d", "text": "é sempre artigo quando acompanha substantivo." },
+        { "id": "e", "text": "retoma um termo anterior." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A oposição “um, não dois” torna relevante a quantidade e caracteriza “um” como numeral cardinal. A posição antes do substantivo, isoladamente, não resolve a classificação. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q245",
+      "revision": 1,
+      "prompt": "Compare “A ata foi aprovada” e “A comissão a aprovou”. A análise correta é:",
+      "options": [
+        { "id": "a", "text": "“a” é artigo nas duas ocorrências." },
+        { "id": "b", "text": "“a” é pronome oblíquo nas duas ocorrências." },
+        { "id": "c", "text": "na primeira, “a” é artigo; na segunda, é pronome oblíquo que retoma “ata”." },
+        { "id": "d", "text": "na primeira, “a” é numeral; na segunda, adjetivo." },
+        { "id": "e", "text": "as duas ocorrências são preposições." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Em “a ata”, “a” determina o substantivo e é artigo. Em “a aprovou”, substitui “a ata” como complemento do verbo e é pronome oblíquo. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q246",
+      "revision": 1,
+      "prompt": "A forma “do” em “a análise do processo” resulta da contração de",
+      "options": [
+        { "id": "a", "text": "de + o." },
+        { "id": "b", "text": "em + o." },
+        { "id": "c", "text": "a + o." },
+        { "id": "d", "text": "de + um." },
+        { "id": "e", "text": "por + o." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Do” reúne a preposição “de” e o artigo definido “o”. A contração não elimina a possibilidade de reconhecer os dois elementos na análise. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q247",
+      "revision": 1,
+      "prompt": "A substituição de “Um servidor apresentou a proposta” por “O servidor apresentou a proposta” pode alterar o sentido porque",
+      "options": [
+        { "id": "a", "text": "o artigo definido tende a apresentar o referente como identificável no contexto." },
+        { "id": "b", "text": "artigos definidos só podem acompanhar nomes próprios." },
+        { "id": "c", "text": "o artigo indefinido sempre indica plural." },
+        { "id": "d", "text": "a troca transforma “servidor” em verbo." },
+        { "id": "e", "text": "os artigos não interferem na referência." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Um” tende a introduzir referente não identificado, enquanto “o” tende a retomá-lo ou delimitá-lo. A equivalência depende do contexto discursivo, não apenas da correção formal. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q248",
+      "revision": 1,
+      "prompt": "Em “Um porquê precisa de explicação”, o artigo indefinido contribui para que “porquê” funcione como",
+      "options": [
+        { "id": "a", "text": "conjunção causal." },
+        { "id": "b", "text": "substantivo." },
+        { "id": "c", "text": "pronome pessoal." },
+        { "id": "d", "text": "numeral fracionário." },
+        { "id": "e", "text": "verbo impessoal." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Com determinante e sentido de “motivo”, “porquê” é substantivo. A classe de uma forma depende de seu emprego no enunciado. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q249",
+      "revision": 1,
+      "prompt": "No sintagma “controle financeiro”, a palavra “financeiro” exerce a função de",
+      "options": [
+        { "id": "a", "text": "quantificar o substantivo “controle”." },
+        { "id": "b", "text": "retomar o substantivo “controle”." },
+        { "id": "c", "text": "caracterizar ou relacionar o substantivo “controle”." },
+        { "id": "d", "text": "introduzir uma pergunta." },
+        { "id": "e", "text": "indicar negação." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Financeiro” é adjetivo e caracteriza ou estabelece relação com “controle”. Não expressa quantidade nem retoma o nome como pronome. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q250",
+      "revision": 1,
+      "prompt": "Assinale a opção em que o adjetivo é uniforme em gênero.",
+      "options": [
+        { "id": "a", "text": "servidor atento / servidora atenta" },
+        { "id": "b", "text": "servidor competente / servidora competente" },
+        { "id": "c", "text": "aluno estudioso / aluna estudiosa" },
+        { "id": "d", "text": "cidadão brasileiro / cidadã brasileira" },
+        { "id": "e", "text": "homem público / mulher pública" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Competente” mantém a mesma forma com substantivos masculinos e femininos, por isso é uniforme. Nas demais opções, o adjetivo apresenta flexão de gênero. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q251",
+      "revision": 1,
+      "prompt": "Em “cultura maranhense”, o adjetivo “maranhense” é classificado como",
+      "options": [
+        { "id": "a", "text": "pátrio ou gentílico." },
+        { "id": "b", "text": "numeral ordinal." },
+        { "id": "c", "text": "pronome possessivo." },
+        { "id": "d", "text": "artigo definido." },
+        { "id": "e", "text": "substantivo coletivo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Adjetivos pátrios ou gentílicos indicam origem ou procedência, como “maranhense” e “brasileiro”. No sintagma, “maranhense” caracteriza “cultura”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q252",
+      "revision": 1,
+      "prompt": "A expressão “amor de mãe” é exemplo de locução adjetiva porque",
+      "options": [
+        { "id": "a", "text": "contém necessariamente dois verbos." },
+        { "id": "b", "text": "é um grupo preposicionado que caracteriza o substantivo “amor”." },
+        { "id": "c", "text": "substitui um artigo definido." },
+        { "id": "d", "text": "indica sempre uma fração." },
+        { "id": "e", "text": "retoma um antecedente por meio de pronome relativo." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“De mãe” caracteriza “amor” e forma locução adjetiva. Pode aproximar-se de “materno” em certos contextos, mas a equivalência de sentido não deve ser automática. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q253",
+      "revision": 1,
+      "prompt": "Compare “o brasileiro participou da audiência” e “o cidadão brasileiro participou da audiência”. A análise correta é:",
+      "options": [
+        { "id": "a", "text": "“brasileiro” é artigo nos dois casos." },
+        { "id": "b", "text": "“brasileiro” é substantivo no primeiro caso e adjetivo no segundo." },
+        { "id": "c", "text": "“brasileiro” é numeral no primeiro caso e pronome no segundo." },
+        { "id": "d", "text": "“brasileiro” é sempre adjetivo, pois indica origem." },
+        { "id": "e", "text": "não há diferença de classe entre as ocorrências." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em “o brasileiro”, a palavra é substantivada e designa pessoa; em “cidadão brasileiro”, caracteriza “cidadão” e é adjetivo. A forma isolada não basta para definir a classe. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q254",
+      "revision": 1,
+      "prompt": "A troca de “grande homem” por “homem grande” pode alterar o sentido porque",
+      "options": [
+        { "id": "a", "text": "o adjetivo deixa de concordar com o substantivo." },
+        { "id": "b", "text": "a posição do adjetivo pode favorecer “notável” no primeiro caso e “de grande porte” no segundo." },
+        { "id": "c", "text": "“grande” passa a ser obrigatoriamente numeral." },
+        { "id": "d", "text": "a segunda expressão é sempre incorreta." },
+        { "id": "e", "text": "adjetivos não podem ser pospostos." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A anteposição ou posposição de certos adjetivos pode modificar a leitura. “Grande homem” frequentemente valoriza a pessoa; “homem grande” costuma indicar dimensão física. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q255",
+      "revision": 1,
+      "prompt": "Assinale a opção que apresenta comparativo de igualdade.",
+      "options": [
+        { "id": "a", "text": "A medida é muito útil." },
+        { "id": "b", "text": "A medida é utilíssima." },
+        { "id": "c", "text": "A medida é tão útil quanto a anterior." },
+        { "id": "d", "text": "A medida é a mais útil do grupo." },
+        { "id": "e", "text": "A medida é melhor que a anterior." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A estrutura “tão... quanto” forma comparativo de igualdade. “Muito útil” e “utilíssima” são superlativos absolutos; “a mais útil”, superlativo relativo; “melhor que”, comparativo de superioridade. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q256",
+      "revision": 1,
+      "prompt": "A forma “melhor”, em “Este parecer é melhor que o anterior”, é tradicionalmente classificada como",
+      "options": [
+        { "id": "a", "text": "comparativo sintético de superioridade." },
+        { "id": "b", "text": "superlativo absoluto sintético." },
+        { "id": "c", "text": "numeral multiplicativo." },
+        { "id": "d", "text": "pronome indefinido." },
+        { "id": "e", "text": "artigo indefinido." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Melhor” é forma sintética de comparativo de superioridade de “bom”. Não equivale a superlativo nem a numeral. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q257",
+      "revision": 1,
+      "prompt": "Em “A solução é a mais econômica entre as propostas”, há superlativo",
+      "options": [
+        { "id": "a", "text": "absoluto sintético." },
+        { "id": "b", "text": "absoluto analítico." },
+        { "id": "c", "text": "relativo de superioridade." },
+        { "id": "d", "text": "comparativo de igualdade." },
+        { "id": "e", "text": "numeral ordinal." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A estrutura com artigo e “mais” situa a qualidade em relação a um conjunto (“entre as propostas”), formando superlativo relativo de superioridade. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q258",
+      "revision": 1,
+      "prompt": "No enunciado “A primeira etapa foi concluída”, a palavra “primeira” é numeral",
+      "options": [
+        { "id": "a", "text": "cardinal, pois informa quantidade." },
+        { "id": "b", "text": "ordinal, pois indica posição em uma sequência." },
+        { "id": "c", "text": "multiplicativo, pois indica duplicação." },
+        { "id": "d", "text": "fracionário, pois indica parte de um todo." },
+        { "id": "e", "text": "coletivo, pois designa conjunto de elementos." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Primeira” indica ordem e é numeral ordinal. Não expressa quantidade, multiplicação, fração ou conjunto. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q259",
+      "revision": 1,
+      "prompt": "A respeito da flexão dos numerais, assinale a opção correta.",
+      "options": [
+        { "id": "a", "text": "“Mil” deve ir ao plural em “dois mil candidatos”." },
+        { "id": "b", "text": "“Milhão” não admite plural depois de numeral." },
+        { "id": "c", "text": "A forma correta é “duzentos páginas”." },
+        { "id": "d", "text": "A forma correta é “duzentas páginas”." },
+        { "id": "e", "text": "Numerais ordinais nunca variam em gênero." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "“Duzentas” concorda com “páginas”. Em “dois mil”, “mil” permanece invariável; “milhão” flexiona em “dois milhões”; ordinais podem flexionar, como “primeira etapa”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q260",
+      "revision": 1,
+      "prompt": "Em “A reunião durou meia hora”, “meia” é numeral fracionário porque",
+      "options": [
+        { "id": "a", "text": "indica metade de uma unidade e concorda com “hora”." },
+        { "id": "b", "text": "modifica um adjetivo e é invariável." },
+        { "id": "c", "text": "retoma o substantivo “reunião”." },
+        { "id": "d", "text": "introduz uma oração relativa." },
+        { "id": "e", "text": "expressa negação." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Meia” equivale a metade de uma hora e concorda com o substantivo feminino. Em “meio cansada”, por exemplo, “meio” seria advérbio e ficaria invariável. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q261",
+      "revision": 1,
+      "prompt": "Em “A quantidade de recursos foi o triplo da estimada”, a expressão “triplo” tem valor",
+      "options": [
+        { "id": "a", "text": "cardinal, pois informa uma quantidade simples." },
+        { "id": "b", "text": "ordinal, pois indica posição em série." },
+        { "id": "c", "text": "multiplicativo, pois indica três vezes a quantidade de referência." },
+        { "id": "d", "text": "fracionário, pois indica parte de um todo." },
+        { "id": "e", "text": "pronominal, pois retoma “recursos”." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Triplo” exprime multiplicação por três e, no contexto, tem valor de numeral multiplicativo. Não indica ordem, fração, referência pronominal ou quantidade cardinal simples. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q262",
+      "revision": 1,
+      "prompt": "Na expressão “ambas as propostas”, a palavra “ambas” equivale a",
+      "options": [
+        { "id": "a", "text": "nenhuma das propostas." },
+        { "id": "b", "text": "as duas propostas." },
+        { "id": "c", "text": "algumas propostas, sem quantidade definida." },
+        { "id": "d", "text": "uma proposta já mencionada." },
+        { "id": "e", "text": "propostas localizadas longe do falante." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Ambos/ambas” tem valor de os dois/as duas e é tradicionalmente tratado como numeral. Não exprime indeterminação nem demonstração espacial. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q263",
+      "revision": 1,
+      "prompt": "Em “Eles apresentaram o recurso”, a palavra “eles” é pronome pessoal",
+      "options": [
+        { "id": "a", "text": "reto, empregado como sujeito da oração." },
+        { "id": "b", "text": "oblíquo átono, empregado como objeto direto." },
+        { "id": "c", "text": "oblíquo tônico, precedido de preposição." },
+        { "id": "d", "text": "possessivo, indicando propriedade." },
+        { "id": "e", "text": "relativo, retomando antecedente." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Eles” é pronome pessoal reto e funciona como sujeito de “apresentaram”. Pronomes oblíquos exercem outros papéis e têm formas como “os”, “lhes” ou “mim”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Wink, Finkenauer e Othero (2012), https://seer.ufu.br/index.php/dominiosdelinguagem/article/view/14795."
+    },
+    {
+      "id": "q264",
+      "revision": 1,
+      "prompt": "Em “A comissão os convocou”, “os” é pronome pessoal oblíquo átono porque",
+      "options": [
+        { "id": "a", "text": "acompanha o substantivo “comissão”." },
+        { "id": "b", "text": "retoma um complemento direto masculino plural do verbo “convocou”." },
+        { "id": "c", "text": "indica posse de terceira pessoa." },
+        { "id": "d", "text": "exprime quantidade plural." },
+        { "id": "e", "text": "introduz uma pergunta." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Os” substitui um complemento masculino plural de “convocou”, funcionando como pronome oblíquo átono. Não é artigo, pois não determina substantivo expresso. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Wink, Finkenauer e Othero (2012), https://seer.ufu.br/index.php/dominiosdelinguagem/article/view/14795."
+    },
+    {
+      "id": "q265",
+      "revision": 1,
+      "prompt": "Assinale a opção adequada à norma-padrão.",
+      "options": [
+        { "id": "a", "text": "O relatório é para mim redigir." },
+        { "id": "b", "text": "O relatório é para eu redigir." },
+        { "id": "c", "text": "Entre eu e você, o prazo é curto." },
+        { "id": "d", "text": "A decisão foi entregue para eu." },
+        { "id": "e", "text": "Mim redigirei o relatório." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em “para eu redigir”, “eu” é sujeito do infinitivo “redigir”. Em termos preposicionados sem função de sujeito, usam-se formas como “mim”: “entre mim e você” e “para mim”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Wink, Finkenauer e Othero (2012), https://seer.ufu.br/index.php/dominiosdelinguagem/article/view/14795."
+    },
+    {
+      "id": "q266",
+      "revision": 1,
+      "prompt": "Na norma-padrão, a concordância adequada em “Vossa Excelência _____ por sua proposta” é",
+      "options": [
+        { "id": "a", "text": "decidistes" },
+        { "id": "b", "text": "decidiste" },
+        { "id": "c", "text": "decidiu" },
+        { "id": "d", "text": "decidíramos" },
+        { "id": "e", "text": "decidireis" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pronomes de tratamento pedem concordância de terceira pessoa: “Vossa Excelência decidiu”. A referência ao interlocutor não muda essa concordância formal. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q267",
+      "revision": 1,
+      "prompt": "Em “Minhas decisões foram revistas”, o possessivo “minhas” concorda em gênero e número com",
+      "options": [
+        { "id": "a", "text": "a pessoa que possui, obrigatoriamente feminina e plural." },
+        { "id": "b", "text": "o verbo “foram”." },
+        { "id": "c", "text": "o substantivo possuído “decisões”." },
+        { "id": "d", "text": "o artigo inexistente antes do possessivo." },
+        { "id": "e", "text": "a preposição subentendida." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Possessivos concordam com a coisa possuída: “decisões” é feminino plural, por isso “minhas”. A forma não revela, por si só, o gênero ou número do possuidor. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q268",
+      "revision": 1,
+      "prompt": "A reescrita que elimina a ambiguidade de “João informou a Pedro que seu recurso fora aceito”, preservando a indicação do possuidor, é",
+      "options": [
+        { "id": "a", "text": "“João informou a Pedro que o recurso fora aceito.”" },
+        { "id": "b", "text": "“João informou a Pedro que este recurso fora aceito.”" },
+        { "id": "c", "text": "“João informou a Pedro que o recurso de Pedro fora aceito.”" },
+        { "id": "d", "text": "“João informou a Pedro que o recurso dele fora aceito.”" },
+        { "id": "e", "text": "“João informou a Pedro que qualquer recurso fora aceito.”" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Seu” pode remeter a João ou a Pedro. A expressão “de Pedro” identifica explicitamente o possuidor; as demais opções não resolvem necessariamente a ambiguidade. Fonte: questão autoral baseada nas referências do conteúdo, em especial a Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q269",
+      "revision": 1,
+      "prompt": "No modelo tradicional de coesão textual, em “O edital contém uma regra importante: essa deve ser lida com atenção”, o demonstrativo “essa” tende a",
+      "options": [
+        { "id": "a", "text": "retomar a regra já mencionada." },
+        { "id": "b", "text": "introduzir quantidade exata." },
+        { "id": "c", "text": "indicar posse do leitor." },
+        { "id": "d", "text": "substituir uma preposição." },
+        { "id": "e", "text": "marcar grau superlativo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em uso textual, demonstrativos podem retomar ou anunciar informações. No exemplo, “essa” recupera “uma regra importante”. O emprego efetivo de “este/esse” varia no português brasileiro; em prova, importa o critério explicitado. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Wink, Finkenauer e Othero (2012), https://seer.ufu.br/index.php/dominiosdelinguagem/article/view/14795."
+    },
+    {
+      "id": "q270",
+      "revision": 1,
+      "prompt": "Assinale a opção correta acerca de “isto”, “isso” e “aquilo”.",
+      "options": [
+        { "id": "a", "text": "São formas neutras e não acompanham diretamente substantivo expresso." },
+        { "id": "b", "text": "Flexionam-se em masculino, feminino e plural." },
+        { "id": "c", "text": "São sempre artigos definidos." },
+        { "id": "d", "text": "Só podem indicar pessoas." },
+        { "id": "e", "text": "São numerais cardinais." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Isto”, “isso” e “aquilo” são demonstrativos neutros: não variam e usualmente retomam fatos, ideias ou conteúdos. Para acompanhar substantivo expresso, usam-se formas como “este/esta”, “esse/essa” e “aquele/aquela”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q271",
+      "revision": 1,
+      "prompt": "Em “Esta candidata apresentou recurso”, “esta” é pronome demonstrativo empregado como",
+      "options": [
+        { "id": "a", "text": "pronome adjetivo, pois acompanha “candidata”." },
+        { "id": "b", "text": "pronome substantivo, pois substitui “candidata”." },
+        { "id": "c", "text": "artigo definido, pois determina nome." },
+        { "id": "d", "text": "numeral ordinal, pois vem antes do nome." },
+        { "id": "e", "text": "advérbio de lugar." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Segundo a distinção da NGB, pronome adjetivo acompanha o substantivo; “esta” acompanha “candidata”. Continua sendo pronome demonstrativo quanto à sua classe. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q272",
+      "revision": 1,
+      "prompt": "No período “O assunto de que tratei será retomado”, a preposição “de” antes de “que” é exigida por",
+      "options": [
+        { "id": "a", "text": "concordância entre “assunto” e “que”." },
+        { "id": "b", "text": "regência do verbo “tratar”, na acepção de versar sobre." },
+        { "id": "c", "text": "plural obrigatório do pronome relativo." },
+        { "id": "d", "text": "valor numeral de “que”." },
+        { "id": "e", "text": "posição do antecedente após o relativo." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "No sentido de “versar sobre”, trata-se de algo: “tratar de um assunto”. A preposição é mantida antes do pronome relativo: “o assunto de que tratei”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q273",
+      "revision": 1,
+      "prompt": "A opção adequada à norma-padrão é",
+      "options": [
+        { "id": "a", "text": "A autora cujas as obras foram estudadas compareceu." },
+        { "id": "b", "text": "A autora cujas obras foram estudadas compareceu." },
+        { "id": "c", "text": "A autora cujo obras foram estudadas compareceu." },
+        { "id": "d", "text": "A autora cuja foram estudadas as obras compareceu." },
+        { "id": "e", "text": "A autora que cujas obras foram estudadas compareceu." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Cujo” exprime posse, concorda com o substantivo posterior (“obras” -> “cujas”) e, na norma-padrão, não admite artigo depois dele. As demais construções infringem um desses pontos. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q274",
+      "revision": 1,
+      "prompt": "Em “A autora cujas obras foram estudadas”, a forma “cujas” concorda com",
+      "options": [
+        { "id": "a", "text": "“autora”, que é feminino singular." },
+        { "id": "b", "text": "“obras”, que é feminino plural." },
+        { "id": "c", "text": "o verbo “foram”." },
+        { "id": "d", "text": "o artigo ausente depois de “cujas”." },
+        { "id": "e", "text": "o pronome pessoal subentendido." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O relativo possessivo “cujo” concorda com o substantivo que o segue, isto é, a coisa possuída: “obras”. A autora é o antecedente possuidor, mas não determina a flexão de “cujas”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q275",
+      "revision": 1,
+      "prompt": "Na norma-padrão, o emprego de “onde” é adequado em",
+      "options": [
+        { "id": "a", "text": "“A decisão onde discordamos foi publicada.”" },
+        { "id": "b", "text": "“O argumento onde me opus foi mantido.”" },
+        { "id": "c", "text": "“A cidade onde nasceu o autor é histórica.”" },
+        { "id": "d", "text": "“A regra onde obedecemos é clara.”" },
+        { "id": "e", "text": "“O motivo onde recorreu é legítimo.”" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Onde” retoma antecedente locativo, como “cidade”. Com “decisão”, “argumento”, “regra” ou “motivo”, a norma-padrão pede construções como “em que”, “a que” ou “do qual”, conforme a regência. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q276",
+      "revision": 1,
+      "prompt": "A forma plural adequada do pronome indefinido “qualquer” é",
+      "options": [
+        { "id": "a", "text": "qualqueres" },
+        { "id": "b", "text": "quaisquer" },
+        { "id": "c", "text": "qualquer" },
+        { "id": "d", "text": "quais quer" },
+        { "id": "e", "text": "quaisqueres" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O plural de “qualquer” é “quaisquer”: “quaisquer candidatos”. As formas “qualqueres”, “quaisqueres” e “quais quer” não correspondem à flexão normativa do pronome. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q277",
+      "revision": 1,
+      "prompt": "Em “Não sei quem apresentou o recurso”, a palavra “quem” é pronome interrogativo empregado em",
+      "options": [
+        { "id": "a", "text": "pergunta indireta." },
+        { "id": "b", "text": "oração imperativa." },
+        { "id": "c", "text": "expressão de posse." },
+        { "id": "d", "text": "superlativo relativo." },
+        { "id": "e", "text": "locução adjetiva." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Quem” introduz uma pergunta subordinada a “não sei”, portanto uma interrogativa indireta. O fato de não haver ponto de interrogação não elimina seu valor interrogativo. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q278",
+      "revision": 1,
+      "prompt": "Assinale a opção que contém pronome indefinido.",
+      "options": [
+        { "id": "a", "text": "Esta norma foi alterada." },
+        { "id": "b", "text": "Alguém apresentou recurso." },
+        { "id": "c", "text": "Quem apresentou recurso?" },
+        { "id": "d", "text": "A pessoa que recorreu será ouvida." },
+        { "id": "e", "text": "Meu recurso foi aceito." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Alguém” designa referente não determinado e é pronome indefinido. “Esta” é demonstrativo; “quem”, interrogativo; “que”, relativo; “meu”, possessivo. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q279",
+      "revision": 1,
+      "prompt": "Em “A pessoa a quem me referi compareceu”, a preposição “a” é mantida antes de “quem” porque",
+      "options": [
+        { "id": "a", "text": "o pronome “quem” exige sempre a preposição “a”." },
+        { "id": "b", "text": "o verbo “referir-se” rege a preposição “a”." },
+        { "id": "c", "text": "“a” é artigo feminino antes de pronome relativo." },
+        { "id": "d", "text": "“quem” é numeral e precisa ser quantificado." },
+        { "id": "e", "text": "o antecedente “pessoa” está no singular." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A construção é “referir-se a alguém”. Ao substituir o termo por relativo, a preposição exigida pela regência é preservada: “a quem me referi”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q280",
+      "revision": 1,
+      "prompt": "Assinale a análise correta de “que” em “A norma que foi publicada entrou em vigor”.",
+      "options": [
+        { "id": "a", "text": "É pronome relativo e retoma “norma”." },
+        { "id": "b", "text": "É artigo definido e determina “norma”." },
+        { "id": "c", "text": "É numeral cardinal e quantifica “norma”." },
+        { "id": "d", "text": "É pronome possessivo e indica propriedade." },
+        { "id": "e", "text": "É advérbio de intensidade." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Que” retoma o antecedente “norma” e introduz a oração relativa “que foi publicada”. Não acompanha o nome como artigo nem expressa quantidade ou posse. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q281",
+      "revision": 1,
+      "prompt": "Em “Nenhum candidato apresentou recurso”, a palavra “nenhum” é pronome",
+      "options": [
+        { "id": "a", "text": "pessoal oblíquo." },
+        { "id": "b", "text": "indefinido, empregado com valor negativo." },
+        { "id": "c", "text": "relativo, com antecedente expresso." },
+        { "id": "d", "text": "interrogativo, em pergunta direta." },
+        { "id": "e", "text": "demonstrativo neutro." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Nenhum” integra os pronomes indefinidos e, no enunciado, acompanha “candidato” com sentido negativo. Não retoma antecedente nem introduz pergunta. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q282",
+      "revision": 1,
+      "prompt": "A opção que preserva o emprego adequado de pronome relativo é",
+      "options": [
+        { "id": "a", "text": "“O processo cujo o prazo expirou foi arquivado.”" },
+        { "id": "b", "text": "“O processo onde foi arquivado é complexo.”" },
+        { "id": "c", "text": "“O processo de que tratei foi arquivado.”" },
+        { "id": "d", "text": "“O processo a quem me referi foi arquivado.”" },
+        { "id": "e", "text": "“O processo quais foi arquivado.”" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Tratar de algo” exige “de que”. Em A, “cujo” não admite artigo; em B, “onde” não retoma lugar; em D, “quem” é usado para pessoas; em E, há erro de flexão e estrutura. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    },
+    {
+      "id": "q283",
+      "revision": 1,
+      "prompt": "Considere: “Estas duas servidoras apresentaram seus recursos, mas ninguém soube informar qual deles seria analisado primeiro”. Assinale a opção correta.",
+      "options": [
+        { "id": "a", "text": "“Estas” é artigo definido, e “duas” é adjetivo." },
+        { "id": "b", "text": "“Seus” é numeral possessivo, e “ninguém” é advérbio." },
+        { "id": "c", "text": "“Qual” é pronome relativo, pois retoma “recursos”." },
+        { "id": "d", "text": "“Estas” é demonstrativo; “duas”, numeral cardinal; “seus”, possessivo; “ninguém”, indefinido; e “qual”, interrogativo em pergunta indireta." },
+        { "id": "e", "text": "Todas as palavras em análise são substantivos." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "“Estas” determina “servidoras” como demonstrativo; “duas” quantifica; “seus” indica posse; “ninguém” refere-se de modo indeterminado e negativo; “qual” integra a pergunta indireta subordinada a “soube informar”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+    }
+  ]
+}
