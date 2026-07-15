@@ -40,7 +40,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - Item 2. Reconhecimento de tipos e gêneros textuais.
 
-##### [R] Assunto 003 - Item 3: Domínio da ortografia oficial.
+##### [x] Assunto 003 - Item 3: Domínio da ortografia oficial.
 
 ##### [ ] Assunto 004 - Item 4, subitem 4.1: Coesão por referenciação, substituição, repetição, conectores e sequenciação textual.
 
