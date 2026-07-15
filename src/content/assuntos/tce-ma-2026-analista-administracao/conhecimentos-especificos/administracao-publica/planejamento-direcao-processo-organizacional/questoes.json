@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q434",
+      "revision": 1,
+      "prompt": "No processo administrativo sintetizado por PODC, cabe ao planejamento",
+      "options": [
+        {"id": "a", "text": "definir objetivos e cursos de ação"},
+        {"id": "b", "text": "distribuir formalmente cargos e autoridade"},
+        {"id": "c", "text": "mobilizar pessoas para a execução"},
+        {"id": "d", "text": "comparar resultados e padrões"},
+        {"id": "e", "text": "corrigir exclusivamente desvios já ocorridos"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Planejamento estabelece objetivos e cursos de ação. Distribuir trabalho e autoridade é organização; mobilizar pessoas é direção; comparar resultados e promover correções é controle. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q435",
+      "revision": 1,
+      "prompt": "A respeito das funções do processo administrativo, assinale a afirmação correta.",
+      "options": [
+        {"id": "a", "text": "Cada função produz resultados sem depender das demais."},
+        {"id": "b", "text": "As funções são distinguíveis, interdependentes e realimentadas."},
+        {"id": "c", "text": "O controle encerra definitivamente o processo."},
+        {"id": "d", "text": "A direção sempre começa apenas depois de todo planejamento terminar."},
+        {"id": "e", "text": "A organização substitui o planejamento quando distribui recursos."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "PODC descreve funções conceitualmente distintas, mas integradas: planos orientam organização e direção, enquanto execução e controle produzem informações para revisão. Não há isolamento nem término definitivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q436",
+      "revision": 1,
+      "prompt": "A relação entre a formulação clássica de Fayol e a síntese PODC é corretamente descrita em:",
+      "options": [
+        {"id": "a", "text": "Fayol excluiu previsão e coordenação das funções administrativas."},
+        {"id": "b", "text": "PODC acrescentou comando como quinta função autônoma."},
+        {"id": "c", "text": "Na síntese PODC, previsão é absorvida pelo planejamento, e comando e parte da coordenação aparecem na direção."},
+        {"id": "d", "text": "As duas classificações usam termos e fronteiras literalmente idênticos."},
+        {"id": "e", "text": "A coordenação nunca pode ser apresentada separadamente da direção."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Fayol enunciou prever, organizar, comandar, coordenar e controlar. PODC reorganiza previsão em planejamento e comando e parte da coordenação em direção; outras fontes podem tratar coordenação autonomamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q437",
+      "revision": 1,
+      "prompt": "Um gerente esclarece prioridades, orienta a equipe e mobiliza os servidores para executar um plano já aprovado. Predomina, nesse caso, a função de",
+      "options": [
+        {"id": "a", "text": "planejamento"},
+        {"id": "b", "text": "organização"},
+        {"id": "c", "text": "controle"},
+        {"id": "d", "text": "direção"},
+        {"id": "e", "text": "avaliação"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Orientar, influenciar e mobilizar pessoas para executar objetivos são atividades de direção. O plano já foi definido; não há no enunciado desenho estrutural nem comparação sistemática de resultados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q438",
+      "revision": 1,
+      "prompt": "A precedência do planejamento sobre as demais funções administrativas significa que",
+      "options": [
+        {"id": "a", "text": "todo plano deve permanecer imutável até o controle final"},
+        {"id": "b", "text": "organização, direção e controle não podem ocorrer simultaneamente"},
+        {"id": "c", "text": "o planejamento elimina a necessidade de realimentação"},
+        {"id": "d", "text": "a execução deve aguardar a eliminação de toda incerteza"},
+        {"id": "e", "text": "objetivos e referências precisam ser estabelecidos logicamente antes de orientar meios, pessoas e comparação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A precedência é lógica: as demais funções precisam de objetivos e referências. Ela não impõe sequência rígida, imutabilidade do plano ou eliminação da incerteza; revisão e simultaneidade são possíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q439",
+      "revision": 1,
+      "prompt": "Planejamento administrativo pode ser definido como o processo de",
+      "options": [
+        {"id": "a", "text": "registrar apenas fatos passados para fins contábeis"},
+        {"id": "b", "text": "decidir antecipadamente objetivos e cursos de ação"},
+        {"id": "c", "text": "desenhar exclusivamente o organograma"},
+        {"id": "d", "text": "medir resultados sem estabelecer referências"},
+        {"id": "e", "text": "substituir decisões por previsões certas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Planejar é decidir no presente sobre objetivos e ações futuras, considerando condições e recursos. Não se limita a registros, organogramas ou medição, nem transforma previsões em certeza. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q440",
+      "revision": 1,
+      "prompt": "Assinale a distinção correta entre planejamento e plano.",
+      "options": [
+        {"id": "a", "text": "Planejamento é o documento; plano é a atividade de análise."},
+        {"id": "b", "text": "Ambos designam apenas o documento formal aprovado."},
+        {"id": "c", "text": "Planejamento é o processo de analisar e decidir; plano é um de seus produtos ou registros."},
+        {"id": "d", "text": "Plano existe apenas no nível operacional."},
+        {"id": "e", "text": "Planejamento dispensa revisão depois que o plano é escrito."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O planejamento é um processo contínuo de análise, escolha, articulação e revisão. O plano formaliza escolhas, mas sua existência não comprova a qualidade do processo e não impede ajustes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q441",
+      "revision": 1,
+      "prompt": "Quanto à relação entre planejamento e incerteza, é correto afirmar que o planejamento",
+      "options": [
+        {"id": "a", "text": "elimina todos os riscos antes da execução"},
+        {"id": "b", "text": "só é válido quando prevê exatamente o futuro"},
+        {"id": "c", "text": "torna desnecessárias alternativas de ação"},
+        {"id": "d", "text": "reduz a incerteza ao organizar informações e escolhas, mas não a elimina"},
+        {"id": "e", "text": "impede a revisão de premissas"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O planejamento prepara a organização para agir sob condições incertas, comparando alternativas e explicitando premissas. Futuro, riscos e mudanças não se tornam certos por causa do plano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q442",
+      "revision": 1,
+      "prompt": "Um plano foi revisto porque uma premissa de demanda deixou de ser válida. Essa revisão evidencia que o planejamento deve ser",
+      "options": [
+        {"id": "a", "text": "exclusivamente retrospectivo"},
+        {"id": "b", "text": "independente do ambiente"},
+        {"id": "c", "text": "imutável para preservar autoridade"},
+        {"id": "d", "text": "limitado à elaboração inicial"},
+        {"id": "e", "text": "contínuo e flexível"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Planejamento contínuo e flexível revê escolhas quando condições relevantes mudam. Flexibilidade não é ausência de direção, mas capacidade de manter coerência diante de novas evidências. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q443",
+      "revision": 1,
+      "prompt": "Constitui uma compreensão adequada dos limites do planejamento:",
+      "options": [
+        {"id": "a", "text": "Ele orienta decisões, mas pode falhar por diagnóstico, premissas, recursos ou execução inadequados."},
+        {"id": "b", "text": "Ele garante resultados sempre que houver um documento formal."},
+        {"id": "c", "text": "Ele substitui liderança e coordenação durante a execução."},
+        {"id": "d", "text": "Ele dispensa escolhas porque o futuro pode ser calculado com certeza."},
+        {"id": "e", "text": "Ele só produz valor depois de concluído o controle."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Planejamento orienta ação, reduz incerteza e articula recursos, mas não garante sucesso. Documento, análise e execução são elementos diferentes; liderança, coordenação e revisão continuam necessárias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q444",
+      "revision": 1,
+      "prompt": "O princípio da contribuição aos objetivos determina que",
+      "options": [
+        {"id": "a", "text": "cada unidade maximize suas metas mesmo contra a prioridade institucional"},
+        {"id": "b", "text": "os objetivos sejam definidos somente após a execução"},
+        {"id": "c", "text": "os planos de diferentes níveis e áreas converjam para os resultados da organização"},
+        {"id": "d", "text": "todo plano seja exclusivamente financeiro"},
+        {"id": "e", "text": "a direção substitua os objetivos por ordens"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Planos devem contribuir para objetivos organizacionais. Uma otimização local que prejudique prioridades maiores viola essa convergência, ainda que melhore um indicador isolado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q445",
+      "revision": 1,
+      "prompt": "O princípio geral da precedência do planejamento é atendido quando a organização",
+      "options": [
+        {"id": "a", "text": "controla sem padrões previamente definidos"},
+        {"id": "b", "text": "distribui recursos antes de conhecer prioridades"},
+        {"id": "c", "text": "orienta equipes sem explicitar resultados esperados"},
+        {"id": "d", "text": "define objetivos e referências antes de organizar os meios e mobilizar a execução"},
+        {"id": "e", "text": "proíbe qualquer revisão depois do início do trabalho"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A precedência fornece base lógica às outras funções. Organizar recursos, dirigir esforços e controlar resultados exigem prioridades e referências, embora o ciclo possa depois revisar o plano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q446",
+      "revision": 1,
+      "prompt": "Uma nova prioridade altera processos, tecnologia, capacitação e distribuição de recursos em várias unidades. O caso ilustra o princípio da",
+      "options": [
+        {"id": "a", "text": "especialização absoluta do planejamento"},
+        {"id": "b", "text": "eliminação da interdependência"},
+        {"id": "c", "text": "imutabilidade dos planos setoriais"},
+        {"id": "d", "text": "exclusividade do nível operacional"},
+        {"id": "e", "text": "maior penetração e abrangência do planejamento"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Planejamento penetra diferentes dimensões e partes da organização. Alterações relevantes se propagam por pessoas, processos, tecnologia e recursos, exigindo articulação entre unidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q447",
+      "revision": 1,
+      "prompt": "Uma política pública cumpriu a meta formal de atendimentos e produziu mudança social relevante no público destinatário. O segundo resultado se relaciona principalmente à",
+      "options": [
+        {"id": "a", "text": "efetividade"},
+        {"id": "b", "text": "formalização"},
+        {"id": "c", "text": "amplitude de controle"},
+        {"id": "d", "text": "centralização"},
+        {"id": "e", "text": "especialização"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Efetividade considera efeitos relevantes na realidade e no público. Eficácia se relaciona ao alcance dos objetivos e metas; eficiência, à relação entre meios empregados e produtos gerados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q448",
+      "revision": 1,
+      "prompt": "Os princípios gerais de contribuição aos objetivos, precedência, abrangência e busca de eficiência, eficácia e efetividade",
+      "options": [
+        {"id": "a", "text": "são a reprodução literal dos princípios do art. 37 da Constituição"},
+        {"id": "b", "text": "pertencem ao planejamento administrativo e não se confundem com princípios constitucionais ou com o princípio de Taylor"},
+        {"id": "c", "text": "aplicam-se somente a empresas privadas"},
+        {"id": "d", "text": "eliminam a necessidade de direção"},
+        {"id": "e", "text": "definem prazos fixos para cada nível de plano"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A classificação se refere a princípios gerais do planejamento administrativo. Ela não reproduz o rol constitucional, não é exclusiva do setor privado e não fixa horizontes universais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q449",
+      "revision": 1,
+      "prompt": "O planejamento institucional ou estratégico caracteriza-se tipicamente por",
+      "options": [
+        {"id": "a", "text": "detalhar cada passo de uma rotina individual"},
+        {"id": "b", "text": "limitar-se a uma equipe de execução"},
+        {"id": "c", "text": "ser formulado apenas por supervisores"},
+        {"id": "d", "text": "abranger a organização e orientar objetivos globais"},
+        {"id": "e", "text": "ter obrigatoriamente duração exata de quatro anos"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O nível institucional abrange a organização como um todo e orienta diretrizes e objetivos globais. Seu horizonte tende a ser maior, mas não há duração universal; quatro anos é característica específica do PPA. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q450",
+      "revision": 1,
+      "prompt": "Uma gerência transforma uma diretriz institucional em objetivos, recursos e iniciativas de sua área. Trata-se principalmente de planejamento",
+      "options": [
+        {"id": "a", "text": "informal"},
+        {"id": "b", "text": "normativo constitucional"},
+        {"id": "c", "text": "exclusivamente estratégico"},
+        {"id": "d", "text": "de supervisão diária"},
+        {"id": "e", "text": "tático ou intermediário"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O planejamento tático desdobra diretrizes globais para uma área ou unidade, normalmente sob responsabilidade gerencial. Não se limita à rotina nem substitui o plano institucional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q451",
+      "revision": 1,
+      "prompt": "A definição de tarefas, sequência de execução, responsáveis e prazos de uma equipe corresponde tipicamente ao planejamento",
+      "options": [
+        {"id": "a", "text": "operacional"},
+        {"id": "b", "text": "institucional"},
+        {"id": "c", "text": "constitucional"},
+        {"id": "d", "text": "estratégico global"},
+        {"id": "e", "text": "de governança externa"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O nível operacional detalha atividades, rotinas, equipes, procedimentos e prazos. O nível tático trata áreas; o institucional orienta a organização inteira. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q452",
+      "revision": 1,
+      "prompt": "Sobre os horizontes dos níveis de planejamento, assinale a opção correta.",
+      "options": [
+        {"id": "a", "text": "Todo plano estratégico dura exatamente cinco anos."},
+        {"id": "b", "text": "Prazos mais longos ou curtos são tendências associadas ao alcance, não definições universais rígidas."},
+        {"id": "c", "text": "Todo plano tático deve durar um exercício financeiro."},
+        {"id": "d", "text": "O nível operacional só admite tarefas diárias."},
+        {"id": "e", "text": "A duração de quatro anos do PPA define qualquer plano institucional."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Escopo, incerteza e contexto influenciam os horizontes. Planos institucionais tendem a ser mais longos e operacionais mais curtos, mas números fixos não definem universalmente cada nível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q453",
+      "revision": 1,
+      "prompt": "O alinhamento entre níveis de planejamento exige que",
+      "options": [
+        {"id": "a", "text": "cada área formule objetivos incompatíveis para preservar autonomia"},
+        {"id": "b", "text": "o plano operacional copie literalmente o institucional"},
+        {"id": "c", "text": "planos táticos e operacionais traduzam diretrizes superiores para seu alcance sem perder coerência"},
+        {"id": "d", "text": "somente o nível estratégico defina responsáveis"},
+        {"id": "e", "text": "os níveis sejam independentes para evitar coordenação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Desdobramento significa traduzir objetivos para áreas e atividades, e não copiar textos. A coerência deve ser vertical entre níveis e horizontal entre unidades interdependentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q454",
+      "revision": 1,
+      "prompt": "Assinale a opção que apresenta corretamente a relação entre objetivo e meta.",
+      "options": [
+        {"id": "a", "text": "Objetivo é uma condição assumida; meta é uma previsão."},
+        {"id": "b", "text": "Objetivo descreve sempre etapas; meta define uma política."},
+        {"id": "c", "text": "Meta é necessariamente mais ampla que o objetivo."},
+        {"id": "d", "text": "Objetivo e meta não podem coexistir no mesmo plano."},
+        {"id": "e", "text": "Objetivo expressa resultado pretendido; meta costuma especificá-lo por quantidade, prazo ou critério."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O objetivo indica a direção do resultado. A meta o torna verificável ou delimitado, frequentemente por valor e prazo. Premissas e previsões tratam condições, não resultados desejados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q455",
+      "revision": 1,
+      "prompt": "Ao elaborar um plano, a equipe assume que a demanda crescerá 10% no próximo período. Essa condição adotada como base é uma",
+      "options": [
+        {"id": "a", "text": "premissa"},
+        {"id": "b", "text": "meta"},
+        {"id": "c", "text": "política"},
+        {"id": "d", "text": "regra"},
+        {"id": "e", "text": "estrutura"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Premissa é uma condição assumida para formular o plano. A projeção pode decorrer de uma estimativa, mas, ao servir de base às escolhas, funciona como premissa; não é resultado pretendido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q456",
+      "revision": 1,
+      "prompt": "Uma diretriz geral que orienta decisões recorrentes e preserva margem de julgamento é denominada",
+      "options": [
+        {"id": "a", "text": "cronograma"},
+        {"id": "b", "text": "política"},
+        {"id": "c", "text": "procedimento"},
+        {"id": "d", "text": "orçamento"},
+        {"id": "e", "text": "premissa"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Política orienta decisões sem descrever cada etapa. Procedimento prescreve uma sequência; cronograma distribui tempo; orçamento aloca recursos; premissa sustenta o plano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q457",
+      "revision": 1,
+      "prompt": "O instrumento que descreve a sequência padronizada de etapas para executar uma atividade é o",
+      "options": [
+        {"id": "a", "text": "objetivo"},
+        {"id": "b", "text": "programa"},
+        {"id": "c", "text": "procedimento"},
+        {"id": "d", "text": "orçamento"},
+        {"id": "e", "text": "diagnóstico"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Procedimento define o como fazer em etapas. Uma regra determina conduta específica; política orienta decisões; programa articula ações; objetivo expressa resultado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q458",
+      "revision": 1,
+      "prompt": "Assinale a associação correta entre instrumentos de planejamento.",
+      "options": [
+        {"id": "a", "text": "Programa: sequência obrigatória de passos de uma rotina."},
+        {"id": "b", "text": "Projeto: diretriz permanente para qualquer decisão."},
+        {"id": "c", "text": "Cronograma: expressão financeira dos recursos."},
+        {"id": "d", "text": "Programa: conjunto articulado de ações ou projetos relacionados a objetivos."},
+        {"id": "e", "text": "Orçamento: condição futura assumida como verdadeira."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Programa articula iniciativas para objetivos relacionados. Projeto é esforço delimitado; cronograma organiza tempo; orçamento expressa recursos; procedimento contém etapas e premissa contém uma condição assumida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q459",
+      "revision": 1,
+      "prompt": "A opção que diferencia corretamente orçamento e cronograma é:",
+      "options": [
+        {"id": "a", "text": "Orçamento expressa recursos e limites; cronograma distribui atividades e marcos no tempo."},
+        {"id": "b", "text": "Orçamento define prazos; cronograma define competência legal."},
+        {"id": "c", "text": "Orçamento e cronograma são nomes equivalentes para uma política."},
+        {"id": "d", "text": "Cronograma projeta demanda; orçamento descreve procedimentos."},
+        {"id": "e", "text": "Ambos substituem a definição de objetivos."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Orçamento representa recursos, normalmente de forma financeira ou quantitativa. Cronograma organiza atividades, prazos e marcos. Ambos apoiam, mas não substituem, objetivos e escolhas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q460",
+      "revision": 1,
+      "prompt": "Em um roteiro racional de planejamento, é adequado",
+      "options": [
+        {"id": "a", "text": "escolher a primeira solução antes de diagnosticar o problema"},
+        {"id": "b", "text": "diagnosticar, definir objetivos, examinar premissas, formular alternativas e detalhar a escolha"},
+        {"id": "c", "text": "eliminar alternativas para evitar decisão"},
+        {"id": "d", "text": "definir o orçamento antes de qualquer objetivo"},
+        {"id": "e", "text": "proibir revisão quando condições mudarem"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Planejar exige compreender a situação, estabelecer o estado pretendido, considerar condições e recursos, comparar alternativas e detalhar a ação. A ordem pode ser adaptada, mas não se deve ignorar análise e escolha. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q461",
+      "revision": 1,
+      "prompt": "A formulação e a comparação de alternativas são relevantes no planejamento porque",
+      "options": [
+        {"id": "a", "text": "substituem a necessidade de objetivos"},
+        {"id": "b", "text": "garantem que toda premissa seja verdadeira"},
+        {"id": "c", "text": "permitem escolher cursos de ação considerando recursos, riscos e consequências"},
+        {"id": "d", "text": "eliminam a responsabilidade pela decisão"},
+        {"id": "e", "text": "transformam previsão em certeza"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Escolher pressupõe opções comparáveis e critérios. Alternativas tornam explícitos custos, riscos e efeitos, mas não eliminam incerteza nem transferem a responsabilidade decisória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q462",
+      "revision": 1,
+      "prompt": "Nos termos do Decreto-Lei nº 200/1967, as atividades da Administração Federal obedecem aos princípios fundamentais de",
+      "options": [
+        {"id": "a", "text": "planejamento, privatização, competição, lucro e sigilo"},
+        {"id": "b", "text": "previsão, comando, departamentalização, auditoria e mercado"},
+        {"id": "c", "text": "planejamento, centralização, avocação, informalidade e avaliação"},
+        {"id": "d", "text": "planejamento, coordenação, descentralização, delegação de competência e controle"},
+        {"id": "e", "text": "orçamento, liderança, motivação, comunicação e supervisão"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 6º do Decreto-Lei nº 200/1967 enumera planejamento, coordenação, descentralização, delegação de competência e controle. O rol normativo não é idêntico ao PODC didático. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q463",
+      "revision": 1,
+      "prompt": "Sobre o Plano Plurianual (PPA) como exemplo de planejamento público, assinale a opção correta.",
+      "options": [
+        {"id": "a", "text": "Seu prazo prova que todo plano estratégico deve durar quatro anos."},
+        {"id": "b", "text": "Ele substitui o orçamento anual e a programação financeira."},
+        {"id": "c", "text": "Ele se limita a procedimentos operacionais de uma única equipe."},
+        {"id": "d", "text": "Ele não contém diretrizes, objetivos ou metas."},
+        {"id": "e", "text": "Seu horizonte de quatro anos decorre do regime jurídico-orçamentário e não define prazo universal para outros planos."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O PPA estabelece diretrizes, objetivos e metas nos termos constitucionais. A duração de quatro anos pertence a esse instrumento e não deve ser generalizada como definição temporal de qualquer planejamento institucional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q464",
+      "revision": 1,
+      "prompt": "A função administrativa direção consiste principalmente em",
+      "options": [
+        {"id": "a", "text": "desenhar departamentos e cargos"},
+        {"id": "b", "text": "orientar, influenciar e mobilizar pessoas para executar objetivos e planos"},
+        {"id": "c", "text": "definir exclusivamente objetivos futuros"},
+        {"id": "d", "text": "comparar indicadores com padrões"},
+        {"id": "e", "text": "elaborar somente normas jurídicas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Direção transforma intenção e estrutura em ação por meio de pessoas. Desenho de cargos é organização, objetivos pertencem ao planejamento e comparação sistemática é controle. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q465",
+      "revision": 1,
+      "prompt": "É atividade própria da direção",
+      "options": [
+        {"id": "a", "text": "definir a estrutura departamental"},
+        {"id": "b", "text": "formular apenas o diagnóstico inicial"},
+        {"id": "c", "text": "liderar, motivar, coordenar esforços e implementar decisões"},
+        {"id": "d", "text": "estabelecer padrões exclusivamente para auditoria"},
+        {"id": "e", "text": "substituir toda autoridade formal por influência informal"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liderança, motivação, coordenação e implementação de decisões são dimensões de direção. Estrutura pertence à organização; diagnóstico, ao planejamento; padrões e comparação, ao controle. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q466",
+      "revision": 1,
+      "prompt": "No estudo da Administração, a palavra direção pode designar",
+      "options": [
+        {"id": "a", "text": "somente o órgão máximo de uma entidade"},
+        {"id": "b", "text": "apenas uma ordem escrita emitida pelo dirigente"},
+        {"id": "c", "text": "exclusivamente o planejamento de longo prazo"},
+        {"id": "d", "text": "a função administrativa de mobilizar a execução ou, conforme o contexto, o conjunto de dirigentes superiores"},
+        {"id": "e", "text": "sempre a função de controle"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Direção é termo polissêmico. Como função administrativa, ocorre em vários níveis; como posição, pode identificar a alta direção. O contexto do enunciado define o sentido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q467",
+      "revision": 1,
+      "prompt": "Quanto ao alcance da direção, é correto afirmar que ela",
+      "options": [
+        {"id": "a", "text": "é exclusiva da autoridade máxima"},
+        {"id": "b", "text": "não ocorre no nível operacional"},
+        {"id": "c", "text": "se limita à formulação de planos"},
+        {"id": "d", "text": "é substituída por controle no nível intermediário"},
+        {"id": "e", "text": "ocorre nos níveis institucional, intermediário e operacional, com alcances diferentes"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Dirigentes, gerentes e supervisores orientam pessoas e execução em escalas distintas. A função permanece direção; mudam o alcance, o tipo de decisão e a proximidade da tarefa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q468",
+      "revision": 1,
+      "prompt": "Na direção em nível institucional, predomina",
+      "options": [
+        {"id": "a", "text": "a orientação geral, a definição de prioridades e as decisões de alcance global"},
+        {"id": "b", "text": "a instrução detalhada de cada tarefa individual"},
+        {"id": "c", "text": "a execução de uma rotina sem repercussão externa"},
+        {"id": "d", "text": "a elaboração exclusiva de cronogramas de equipe"},
+        {"id": "e", "text": "a ausência de decisões sobre pessoas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A direção institucional alinha a organização e decide prioridades globais. A orientação imediata de tarefas e rotinas é característica da supervisão operacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q469",
+      "revision": 1,
+      "prompt": "Um gestor de unidade traduz diretrizes gerais, coordena setores e distribui o trabalho entre equipes. Sua atuação de direção situa-se principalmente no nível",
+      "options": [
+        {"id": "a", "text": "externo"},
+        {"id": "b", "text": "constitucional"},
+        {"id": "c", "text": "intermediário"},
+        {"id": "d", "text": "exclusivamente institucional"},
+        {"id": "e", "text": "informal"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "No nível intermediário, a gerência traduz diretrizes institucionais para a área, coordena unidades e conecta a alta direção às equipes operacionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q470",
+      "revision": 1,
+      "prompt": "A supervisão operacional enfatiza",
+      "options": [
+        {"id": "a", "text": "decisões globais para toda a organização"},
+        {"id": "b", "text": "formulação aprofundada da estratégia institucional"},
+        {"id": "c", "text": "aprovação constitucional do orçamento"},
+        {"id": "d", "text": "orientação imediata de equipes, tarefas, rotinas e problemas de execução"},
+        {"id": "e", "text": "eliminação da autonomia dos executores"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A direção operacional está próxima do trabalho realizado e orienta atividades e problemas imediatos. Isso não significa necessariamente microgerenciar ou retirar toda autonomia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q471",
+      "revision": 1,
+      "prompt": "Assinale a afirmação correta sobre autoridade e liderança.",
+      "options": [
+        {"id": "a", "text": "Autoridade formal e liderança são sempre idênticas."},
+        {"id": "b", "text": "Liderança só existe quando concedida por ato administrativo."},
+        {"id": "c", "text": "Influência informal permite agir fora da competência legal."},
+        {"id": "d", "text": "O cargo garante automaticamente adesão e confiança."},
+        {"id": "e", "text": "Autoridade decorre da posição formal; liderança é capacidade de influenciar e não nasce automaticamente do cargo."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Autoridade legitima decisões dentro da competência. Liderança depende da influência exercida e pode existir sem chefia, mas influência não amplia competência legal nem torna o cargo liderança eficaz. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q472",
+      "revision": 1,
+      "prompt": "No setor público, o exercício da autoridade na função de direção",
+      "options": [
+        {"id": "a", "text": "permanece vinculado à competência legal e à finalidade pública"},
+        {"id": "b", "text": "pode ultrapassar a lei quando houver liderança reconhecida"},
+        {"id": "c", "text": "dispensa prestação de contas se houver delegação"},
+        {"id": "d", "text": "decorre apenas de influência informal"},
+        {"id": "e", "text": "é incompatível com motivação e coordenação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A direção pública combina dimensões humanas com limites jurídicos. Liderança e delegação não autorizam atuação fora da competência, da legalidade ou da finalidade pública. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q473",
+      "revision": 1,
+      "prompt": "Sobre motivação no contexto da direção, é adequado afirmar que",
+      "options": [
+        {"id": "a", "text": "um mesmo incentivo produz resposta idêntica em qualquer pessoa"},
+        {"id": "b", "text": "condições, propósito, reconhecimento e diferenças individuais podem influenciar o engajamento"},
+        {"id": "c", "text": "o gestor controla mecanicamente a motivação interna de todos"},
+        {"id": "d", "text": "motivação elimina a necessidade de recursos e clareza"},
+        {"id": "e", "text": "motivação pertence exclusivamente ao planejamento"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A direção pode criar condições favoráveis, mas respostas motivacionais variam. Clareza, recursos, reconhecimento, autonomia e justiça influenciam o comportamento sem funcionar como fórmula universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q474",
+      "revision": 1,
+      "prompt": "Coordenação administrativa consiste em",
+      "options": [
+        {"id": "a", "text": "somar atividades isoladas sem considerar dependências"},
+        {"id": "b", "text": "centralizar obrigatoriamente toda decisão"},
+        {"id": "c", "text": "substituir objetivos por relações informais"},
+        {"id": "d", "text": "integrar esforços e ajustar interdependências em torno de resultados comuns"},
+        {"id": "e", "text": "eliminar a articulação horizontal"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Coordenação harmoniza atividades interdependentes e evita otimizações locais prejudiciais ao resultado completo. Pode usar mecanismos verticais e horizontais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q475",
+      "revision": 1,
+      "prompt": "A coordenação pode aparecer integrada à direção nos modelos PODC e, no Decreto-Lei nº 200/1967,",
+      "options": [
+        {"id": "a", "text": "é proibida entre níveis administrativos"},
+        {"id": "b", "text": "é tratada como sinônimo de controle posterior"},
+        {"id": "c", "text": "foi eliminada pela descentralização"},
+        {"id": "d", "text": "se limita a relações informais"},
+        {"id": "e", "text": "figura como princípio fundamental autônomo e permanente na execução de planos e programas"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A classificação depende da fonte. Modelos didáticos frequentemente incluem coordenação na direção; o Decreto-Lei nº 200/1967 a enumera separadamente e exige coordenação permanente da execução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q476",
+      "revision": 1,
+      "prompt": "Uma delegação administrativa adequada",
+      "options": [
+        {"id": "a", "text": "define finalidade, autoridade, limites e resultados esperados"},
+        {"id": "b", "text": "transfere poder irrestrito e sem acompanhamento"},
+        {"id": "c", "text": "exige que a chefia decida novamente cada ato autorizado"},
+        {"id": "d", "text": "é incompatível com coordenação"},
+        {"id": "e", "text": "equivale ao abandono da atividade"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Delegar exige clareza de escopo e limites, suporte e acompanhamento proporcional. Não é poder ilimitado, abandono nem microgerenciamento que esvazie a autoridade concedida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q477",
+      "revision": 1,
+      "prompt": "Segundo o Decreto-Lei nº 200/1967, a delegação de competência deve ser utilizada especialmente para",
+      "options": [
+        {"id": "a", "text": "afastar decisões dos fatos e problemas"},
+        {"id": "b", "text": "assegurar rapidez e objetividade, aproximando decisões dos fatos, pessoas ou problemas"},
+        {"id": "c", "text": "dispensar a identificação das atribuições delegadas"},
+        {"id": "d", "text": "criar competência ilimitada ao delegado"},
+        {"id": "e", "text": "concentrar toda execução na autoridade máxima"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O Decreto-Lei apresenta a delegação como instrumento de descentralização para rapidez e objetividade decisória. O ato identifica delegante, delegado e atribuições; não cria poder ilimitado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q478",
+      "revision": 1,
+      "prompt": "Depois de aprovada uma decisão, a chefia esclarece responsabilidades, remove impedimentos e obtém adesão para colocá-la em prática. Essa atuação evidencia que a direção",
+      "options": [
+        {"id": "a", "text": "se limita à escolha abstrata da alternativa"},
+        {"id": "b", "text": "substitui a organização formal"},
+        {"id": "c", "text": "inclui a implementação de decisões por meio de pessoas"},
+        {"id": "d", "text": "é sinônimo de controle estatístico"},
+        {"id": "e", "text": "dispensa coordenação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Uma decisão só produz ação quando pessoas compreendem papéis e conseguem executá-la. Direção liga escolha e implementação mediante orientação, influência, coordenação e suporte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q479",
+      "revision": 1,
+      "prompt": "A comunicação relaciona-se à direção porque permite orientar e coordenar pessoas. Contudo, neste recorte, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "direção e comunicação são conceitos integralmente idênticos"},
+        {"id": "b", "text": "a direção pode ocorrer sem qualquer circulação de informação"},
+        {"id": "c", "text": "fluxos e barreiras de comunicação pertencem ao planejamento estratégico"},
+        {"id": "d", "text": "comunicação substitui autoridade, liderança e motivação"},
+        {"id": "e", "text": "comunicação é uma interface necessária, mas seus modelos, canais e barreiras constituem tema próprio"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Orientação exige informação, mas direção inclui também liderança, motivação, coordenação e implementação. O estudo aprofundado de comunicação organizacional possui escopo específico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q480",
+      "revision": 1,
+      "prompt": "Um supervisor orienta como executar a atividade; depois, compara o resultado com o padrão. As ações correspondem, respectivamente, a",
+      "options": [
+        {"id": "a", "text": "direção e controle"},
+        {"id": "b", "text": "planejamento e organização"},
+        {"id": "c", "text": "controle e direção"},
+        {"id": "d", "text": "organização e planejamento"},
+        {"id": "e", "text": "avaliação e departamentalização"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Orientar a execução é direção. Comparar o realizado a um padrão é controle. A proximidade temporal das ações não elimina sua diferença conceitual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q481",
+      "revision": 1,
+      "prompt": "Um órgão define a meta de ampliar serviços digitais, distribui recursos entre áreas, orienta as equipes e mede os resultados. A sequência apresenta, respectivamente,",
+      "options": [
+        {"id": "a", "text": "organização, direção, controle e planejamento"},
+        {"id": "b", "text": "planejamento, organização, direção e controle"},
+        {"id": "c", "text": "direção, planejamento, organização e controle"},
+        {"id": "d", "text": "controle, organização, planejamento e direção"},
+        {"id": "e", "text": "planejamento, controle, direção e organização"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Meta e curso de ação pertencem ao planejamento; distribuição de recursos, à organização; orientação das pessoas, à direção; mensuração e comparação, ao controle. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q482",
+      "revision": 1,
+      "prompt": "A afirmação de que direção consiste apenas em emitir ordens é inadequada porque",
+      "options": [
+        {"id": "a", "text": "ordens pertencem sempre ao planejamento"},
+        {"id": "b", "text": "a direção não se relaciona com pessoas"},
+        {"id": "c", "text": "execução também depende de liderança, motivação, compreensão, recursos e coordenação"},
+        {"id": "d", "text": "autoridade formal é proibida nas organizações"},
+        {"id": "e", "text": "todo trabalho deve ocorrer sem orientação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ordens podem integrar a orientação formal, mas não bastam para produzir desempenho. Direção mobiliza pessoas e combina autoridade com influência, condições de trabalho e integração de esforços. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q483",
+      "revision": 1,
+      "prompt": "Após delegar uma decisão dentro de limites definidos, a chefia deve",
+      "options": [
+        {"id": "a", "text": "reproduzir cada decisão para impedir autonomia"},
+        {"id": "b", "text": "considerar extinta qualquer necessidade de coordenação"},
+        {"id": "c", "text": "permitir atuação fora das competências legais"},
+        {"id": "d", "text": "oferecer suporte e acompanhar resultados sem esvaziar a autoridade delegada"},
+        {"id": "e", "text": "tratar a delegação como renúncia definitiva à competência"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Delegação eficaz combina autonomia delimitada com suporte e acompanhamento. Microgerenciamento anula seu propósito; abandono, poder ilimitado e renúncia definitiva também não a caracterizam. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
