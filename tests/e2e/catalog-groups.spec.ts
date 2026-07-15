@@ -1,8 +1,10 @@
 import { expect, test } from './fixtures';
 
 const contestPath = '/concursos/tce-ma-2026-analista-administracao/';
-const subjectPath = `${contestPath}leitura-interpretacao-tipos-generos/`;
-const subjectTitle = 'Leitura, interpretação, tipos e gêneros textuais';
+const readingPath = `${contestPath}leitura-interpretacao-tipos-generos/`;
+const readingTitle = 'Leitura, compreensão e interpretação de textos';
+const typesPath = `${contestPath}tipos-generos-textuais/`;
+const typesTitle = 'Tipos e gêneros textuais';
 
 test('renders grouped catalogs while preserving short public routes', async ({ page, request }) => {
   const response = await page.goto(contestPath);
@@ -14,16 +16,27 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
   const portugueseSection = generalSection
     .getByRole('heading', { name: 'Língua Portuguesa', level: 3 })
     .locator('..');
-  await expect(portugueseSection.getByRole('link', { name: subjectTitle })).toHaveAttribute(
+  await expect(portugueseSection.getByRole('link', { name: readingTitle })).toHaveAttribute(
     'href',
-    subjectPath,
+    readingPath,
+  );
+  await expect(portugueseSection.getByRole('link', { name: typesTitle })).toHaveAttribute(
+    'href',
+    typesPath,
   );
 
-  for (const route of [subjectPath, `${subjectPath}cheat-sheet/`, `${subjectPath}questoes/`]) {
+  for (const route of [
+    readingPath,
+    `${readingPath}cheat-sheet/`,
+    `${readingPath}questoes/`,
+    typesPath,
+    `${typesPath}cheat-sheet/`,
+    `${typesPath}questoes/`,
+  ]) {
     expect((await request.get(route)).status()).toBe(200);
   }
 
-  await page.goto(subjectPath);
+  await page.goto(readingPath);
   const breadcrumbs = page.locator('.breadcrumbs');
   const labels = await breadcrumbs.locator('a, span:not([aria-hidden])').allTextContents();
   expect(labels.map((label) => label.trim())).toEqual([
@@ -31,7 +44,7 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
     'TCE/MA 2026 - Analista de Administração',
     'Conhecimentos gerais',
     'Língua Portuguesa',
-    subjectTitle,
+    readingTitle,
   ]);
   await expect(breadcrumbs.getByRole('link', { name: 'Conhecimentos gerais' })).toHaveCount(0);
   await expect(breadcrumbs.getByRole('link', { name: 'Língua Portuguesa' })).toHaveCount(0);
@@ -57,7 +70,8 @@ test('keeps catalog hierarchy available without JavaScript', async ({ browser })
 
   await expect(page.getByRole('heading', { name: 'Conhecimentos gerais', level: 2 })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Língua Portuguesa', level: 3 })).toBeVisible();
-  await expect(page.getByRole('link', { name: subjectTitle })).toHaveAttribute('href', subjectPath);
+  await expect(page.getByRole('link', { name: readingTitle })).toHaveAttribute('href', readingPath);
+  await expect(page.getByRole('link', { name: typesTitle })).toHaveAttribute('href', typesPath);
   await context.close();
 });
 
@@ -72,18 +86,33 @@ test('does not expose editorial groups through sync or offline contracts', async
       questionSet: { questionSetRevision: number };
     }>;
   };
-  const subject = syncCatalog.subjects.find(
+  const readingSubject = syncCatalog.subjects.find(
     (entry) =>
       entry.contestStorageId === 'tcema-2026-adm' &&
       entry.subjectStorageId === 'leitura-tipos-generos',
   );
+  const typesSubject = syncCatalog.subjects.find(
+    (entry) =>
+      entry.contestStorageId === 'tcema-2026-adm' &&
+      entry.subjectStorageId === 'tipos-generos-textuais',
+  );
   expect(syncCatalog.schemaVersion).toBe(1);
-  expect(subject).toMatchObject({
+  expect(readingSubject).toMatchObject({
     contestStorageId: 'tcema-2026-adm',
     subjectStorageId: 'leitura-tipos-generos',
+    questionSet: { questionSetRevision: 2 },
+  });
+  expect(typesSubject).toMatchObject({
+    contestStorageId: 'tcema-2026-adm',
+    subjectStorageId: 'tipos-generos-textuais',
     questionSet: { questionSetRevision: 1 },
   });
-  expect(Object.keys(subject ?? {}).sort()).toEqual([
+  expect(Object.keys(readingSubject ?? {}).sort()).toEqual([
+    'contestStorageId',
+    'questionSet',
+    'subjectStorageId',
+  ]);
+  expect(Object.keys(typesSubject ?? {}).sort()).toEqual([
     'contestStorageId',
     'questionSet',
     'subjectStorageId',
@@ -93,9 +122,12 @@ test('does not expose editorial groups through sync or offline contracts', async
   expect(inventoryResponse.status()).toBe(200);
   const inventory = await inventoryResponse.json() as { routes: string[] };
   expect(inventory.routes).toEqual(expect.arrayContaining([
-    subjectPath,
-    `${subjectPath}cheat-sheet/`,
-    `${subjectPath}questoes/`,
+    readingPath,
+    `${readingPath}cheat-sheet/`,
+    `${readingPath}questoes/`,
+    typesPath,
+    `${typesPath}cheat-sheet/`,
+    `${typesPath}questoes/`,
   ]));
   expect(inventory.routes.join('\n')).not.toMatch(/conhecimentos-gerais|lingua-portuguesa/);
 });

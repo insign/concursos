@@ -1,0 +1,1456 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q031",
+      "revision": 1,
+      "prompt": "Leia: 'Às oito horas, a equipe abriu a sala. Minutos depois, percebeu a falta de energia, acionou a manutenção e transferiu o atendimento para outro prédio.' Predomina a sequência:",
+      "options": [
+        {
+          "id": "a",
+          "text": "narrativa, pela sucessão temporal de ações e mudança de situação."
+        },
+        {
+          "id": "b",
+          "text": "descritiva, por enumerar somente características estáticas."
+        },
+        {
+          "id": "c",
+          "text": "injuntiva, por ordenar ações ao leitor."
+        },
+        {
+          "id": "d",
+          "text": "argumentativa, por defender tese."
+        },
+        {
+          "id": "e",
+          "text": "expositiva, por definir um conceito."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O trecho encadeia acontecimentos no tempo e mostra transformação da situação. Não instrui o leitor, define conceito, descreve estado estático nem sustenta tese. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q032",
+      "revision": 1,
+      "prompt": "Leia: 'A sala é retangular, possui duas janelas largas e mantém os arquivos em estantes metálicas junto à parede norte.' Predomina a sequência:",
+      "options": [
+        {
+          "id": "a",
+          "text": "argumentativa."
+        },
+        {
+          "id": "b",
+          "text": "narrativa."
+        },
+        {
+          "id": "c",
+          "text": "descritiva."
+        },
+        {
+          "id": "d",
+          "text": "injuntiva."
+        },
+        {
+          "id": "e",
+          "text": "dialogal."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O trecho apresenta forma, partes, material e localização de elementos. Não há sucessão de acontecimentos, orientação ao leitor ou defesa de posição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q033",
+      "revision": 1,
+      "prompt": "Leia: 'Dados abertos são conjuntos disponibilizados em formato que permite acesso, uso e redistribuição. Em geral, empregam padrões que facilitam o processamento por máquinas.' Predomina a sequência:",
+      "options": [
+        {
+          "id": "a",
+          "text": "expositiva, porque define e explica o conceito."
+        },
+        {
+          "id": "b",
+          "text": "narrativa, porque relata aventura."
+        },
+        {
+          "id": "c",
+          "text": "injuntiva, porque apresenta uma proibição."
+        },
+        {
+          "id": "d",
+          "text": "argumentativa, porque refuta um adversário."
+        },
+        {
+          "id": "e",
+          "text": "descritiva literária, porque caracteriza personagem."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O trecho define dados abertos e explica uma característica geral. Não há trama, comando, refutação nem personagem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q034",
+      "revision": 1,
+      "prompt": "Leia: 'O órgão deve divulgar uma versão simplificada do relatório, pois tabelas sem contexto afastam o cidadão e reduzem a utilidade pública da informação.' Predomina a sequência:",
+      "options": [
+        {
+          "id": "a",
+          "text": "descritiva, sem avaliação."
+        },
+        {
+          "id": "b",
+          "text": "argumentativa, com tese e justificativa."
+        },
+        {
+          "id": "c",
+          "text": "narrativa, com conflito e desfecho."
+        },
+        {
+          "id": "d",
+          "text": "expositiva, sem posição defendida."
+        },
+        {
+          "id": "e",
+          "text": "dialogal, com turnos de fala."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A obrigação de divulgar versão simplificada é a tese; o efeito negativo das tabelas sem contexto funciona como argumento. As demais sequências não explicam essa estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q035",
+      "revision": 1,
+      "prompt": "Leia: 'Acesse o portal, selecione o município, escolha o período e clique em exportar.' Predomina a sequência:",
+      "options": [
+        {
+          "id": "a",
+          "text": "injuntiva, por orientar etapas de uma ação."
+        },
+        {
+          "id": "b",
+          "text": "narrativa, por relatar fatos passados."
+        },
+        {
+          "id": "c",
+          "text": "argumentativa, por defender uma tese."
+        },
+        {
+          "id": "d",
+          "text": "descritiva, por caracterizar um ambiente."
+        },
+        {
+          "id": "e",
+          "text": "expositiva, por classificar teorias."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Os verbos no imperativo organizam um procedimento dirigido ao leitor. Não há relato, caracterização, classificação ou argumentação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q036",
+      "revision": 1,
+      "prompt": "Uma reportagem narra a inauguração de um hospital, descreve suas instalações e apresenta dados sobre capacidade de atendimento. Como classificar esse texto?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ele pertence obrigatoriamente a três gêneros diferentes."
+        },
+        {
+          "id": "b",
+          "text": "Ele combina sequências narrativas, descritivas e expositivas no mesmo gênero."
+        },
+        {
+          "id": "c",
+          "text": "A presença de descrição impede que seja reportagem."
+        },
+        {
+          "id": "d",
+          "text": "A sequência mais curta define sozinha o texto inteiro."
+        },
+        {
+          "id": "e",
+          "text": "Textos reais nunca misturam sequências."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Um único gênero pode mobilizar várias sequências para cumprir sua finalidade. A mistura não cria automaticamente novos gêneros nem impede a classificação como reportagem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q037",
+      "revision": 1,
+      "prompt": "Na classificação 'editorial de sequência predominantemente argumentativa', os termos 'editorial' e 'argumentativa' designam, respectivamente:",
+      "options": [
+        {
+          "id": "a",
+          "text": "suporte e esfera."
+        },
+        {
+          "id": "b",
+          "text": "gênero e tipo textual."
+        },
+        {
+          "id": "c",
+          "text": "tipo textual e suporte."
+        },
+        {
+          "id": "d",
+          "text": "esfera e público."
+        },
+        {
+          "id": "e",
+          "text": "tema e título."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Editorial é uma forma social concreta de comunicação; argumentativa é a sequência abstrata predominante. As outras categorias não correspondem aos termos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q038",
+      "revision": 1,
+      "prompt": "Qual conjunto de traços caracteriza mais diretamente uma notícia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Defesa da posição institucional do veículo sem relatar acontecimento."
+        },
+        {
+          "id": "b",
+          "text": "Registro de deliberações de uma reunião."
+        },
+        {
+          "id": "c",
+          "text": "Informação sobre acontecimento de interesse público, com dados como quem, o quê, quando e onde."
+        },
+        {
+          "id": "d",
+          "text": "Solicitação formal dirigida a uma autoridade."
+        },
+        {
+          "id": "e",
+          "text": "Avaliação detalhada de uma obra cultural."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A notícia tem por finalidade central informar acontecimento e costuma organizar dados básicos do fato. As outras opções descrevem editorial, ata, requerimento e resenha. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q039",
+      "revision": 1,
+      "prompt": "Em comparação com a notícia breve, a reportagem tende a:",
+      "options": [
+        {
+          "id": "a",
+          "text": "eliminar contexto, fontes e dados."
+        },
+        {
+          "id": "b",
+          "text": "aprofundar um tema ou acontecimento com contexto, fontes e recursos variados."
+        },
+        {
+          "id": "c",
+          "text": "ser definida apenas por possuir mais palavras."
+        },
+        {
+          "id": "d",
+          "text": "registrar exclusivamente decisões de reunião."
+        },
+        {
+          "id": "e",
+          "text": "conter obrigatoriamente ordens ao leitor."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Aprofundamento, contextualização e diversidade de fontes são traços funcionais da reportagem. Extensão isolada não define gênero, e as outras finalidades pertencem a ata ou texto injuntivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q040",
+      "revision": 1,
+      "prompt": "Um texto sem assinatura individual, publicado na seção 'Opinião do jornal' e dedicado a defender a posição do veículo sobre política pública, é provavelmente:",
+      "options": [
+        {
+          "id": "a",
+          "text": "editorial."
+        },
+        {
+          "id": "b",
+          "text": "ata."
+        },
+        {
+          "id": "c",
+          "text": "verbete."
+        },
+        {
+          "id": "d",
+          "text": "receita."
+        },
+        {
+          "id": "e",
+          "text": "requerimento."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Posição institucional, localização editorial e ausência de autoria individual apontam para editorial. Os demais gêneros têm finalidades e composições diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q041",
+      "revision": 1,
+      "prompt": "Qual traço distingue mais diretamente um artigo de opinião de um editorial?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O artigo nunca apresenta argumentos."
+        },
+        {
+          "id": "b",
+          "text": "O editorial é sempre uma notícia neutra."
+        },
+        {
+          "id": "c",
+          "text": "O artigo costuma atribuir a tese a um autor identificado; o editorial expressa posição institucional."
+        },
+        {
+          "id": "d",
+          "text": "O artigo só pode circular em papel."
+        },
+        {
+          "id": "e",
+          "text": "O editorial deve ensinar um procedimento."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A autoria individual e a voz institucional são critérios relevantes de distinção. Ambos podem argumentar e circular em diferentes suportes; notícia e tutorial têm outras finalidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q042",
+      "revision": 1,
+      "prompt": "Um texto resume um livro, situa sua proposta, avalia seus resultados e justifica a recomendação de leitura. Trata-se de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "resenha crítica."
+        },
+        {
+          "id": "b",
+          "text": "edital."
+        },
+        {
+          "id": "c",
+          "text": "ata."
+        },
+        {
+          "id": "d",
+          "text": "manual de instalação."
+        },
+        {
+          "id": "e",
+          "text": "notícia sem avaliação."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Apresentação da obra combinada com avaliação fundamentada caracteriza resenha crítica. Regras, registro de reunião, procedimento e relato noticioso não correspondem à finalidade descrita. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q043",
+      "revision": 1,
+      "prompt": "Qual é a finalidade predominante de um verbete de dicionário ou enciclopédia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Solicitar uma providência administrativa."
+        },
+        {
+          "id": "b",
+          "text": "Definir e sistematizar informações sobre uma entrada."
+        },
+        {
+          "id": "c",
+          "text": "Registrar votos de uma reunião."
+        },
+        {
+          "id": "d",
+          "text": "Defender necessariamente a opinião institucional de um jornal."
+        },
+        {
+          "id": "e",
+          "text": "Narrar obrigatoriamente uma sequência de aventuras."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O verbete organiza definição e informações associadas a uma entrada. As demais finalidades correspondem a requerimento, ata, editorial ou narrativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q044",
+      "revision": 1,
+      "prompt": "Um documento apresenta objetivo, metodologia, atividades realizadas, resultados, dificuldades e recomendações de uma auditoria. Seu gênero mais provável é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "relatório."
+        },
+        {
+          "id": "b",
+          "text": "tirinha."
+        },
+        {
+          "id": "c",
+          "text": "campanha publicitária."
+        },
+        {
+          "id": "d",
+          "text": "receita culinária."
+        },
+        {
+          "id": "e",
+          "text": "carta pessoal."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Registro e análise sistemática de atividades, método, resultados e recomendações caracterizam relatório. Os outros gêneros não cumprem essa função institucional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q045",
+      "revision": 1,
+      "prompt": "Um documento público fixa requisitos, prazos, etapas, critérios e formas de recurso de uma seleção. Qual é o gênero?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Editorial."
+        },
+        {
+          "id": "b",
+          "text": "Edital."
+        },
+        {
+          "id": "c",
+          "text": "Crônica."
+        },
+        {
+          "id": "d",
+          "text": "Resenha."
+        },
+        {
+          "id": "e",
+          "text": "Verbete."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tornar públicas e regulamentar as condições de uma seleção é finalidade típica do edital. Os demais gêneros opinam, narram, avaliam obra ou definem entrada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q046",
+      "revision": 1,
+      "prompt": "Qual característica aproxima receita, manual e tutorial?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Predomínio de orientação para executar ações ou etapas."
+        },
+        {
+          "id": "b",
+          "text": "Defesa obrigatória de tese política."
+        },
+        {
+          "id": "c",
+          "text": "Registro de deliberações passadas."
+        },
+        {
+          "id": "d",
+          "text": "Ausência total de sequência temporal."
+        },
+        {
+          "id": "e",
+          "text": "Circulação exclusiva em livros impressos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Os três gêneros costumam orientar procedimentos e mobilizar sequência injuntiva. Podem circular em vários suportes e não exigem tese política ou registro de reunião. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q047",
+      "revision": 1,
+      "prompt": "Uma peça do governo apresenta dados sobre desperdício de água e o apelo 'Feche a torneira enquanto escova os dentes'. Ela é melhor classificada como:",
+      "options": [
+        {
+          "id": "a",
+          "text": "campanha institucional, pois informa e procura promover uma conduta coletiva."
+        },
+        {
+          "id": "b",
+          "text": "ata, pois registra uma reunião."
+        },
+        {
+          "id": "c",
+          "text": "verbete, pois define uma palavra."
+        },
+        {
+          "id": "d",
+          "text": "relatório, pois apenas expõe resultados internos."
+        },
+        {
+          "id": "e",
+          "text": "requerimento, pois solicita decisão de autoridade."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dados e apelo ao público articulam informação e persuasão em favor de comportamento de interesse coletivo. As demais opções têm destinatários e estruturas incompatíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q048",
+      "revision": 1,
+      "prompt": "Qual distinção entre charge e tirinha é mais adequada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A charge costuma comentar criticamente fato contextual; a tirinha organiza uma breve sequência de quadros, muitas vezes narrativa."
+        },
+        {
+          "id": "b",
+          "text": "A charge é sempre verbal, e a tirinha nunca usa palavras."
+        },
+        {
+          "id": "c",
+          "text": "A charge é suporte, e a tirinha é esfera social."
+        },
+        {
+          "id": "d",
+          "text": "Ambas são necessariamente relatórios técnicos."
+        },
+        {
+          "id": "e",
+          "text": "A tirinha não pode produzir humor."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A ligação contextual e crítica é recorrente na charge; a sequência de quadros caracteriza a tirinha. Ambas podem integrar palavra e imagem e produzir humor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q049",
+      "revision": 1,
+      "prompt": "Um leitor escreve ao jornal para contestar dados de uma reportagem publicada na edição anterior e justificar sua discordância. O gênero é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "carta do leitor."
+        },
+        {
+          "id": "b",
+          "text": "edital."
+        },
+        {
+          "id": "c",
+          "text": "ata."
+        },
+        {
+          "id": "d",
+          "text": "manual."
+        },
+        {
+          "id": "e",
+          "text": "verbete."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O texto reage a publicação do veículo e se dirige ao jornal e a seus leitores, traços da carta do leitor. Os outros gêneros regulamentam, registram, instruem ou definem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q050",
+      "revision": 1,
+      "prompt": "Um servidor dirige documento à autoridade competente, identifica-se, expõe fundamento e pede a emissão de certidão. Esse documento é um:",
+      "options": [
+        {
+          "id": "a",
+          "text": "requerimento."
+        },
+        {
+          "id": "b",
+          "text": "editorial."
+        },
+        {
+          "id": "c",
+          "text": "Tirinha."
+        },
+        {
+          "id": "d",
+          "text": "verbete."
+        },
+        {
+          "id": "e",
+          "text": "anúncio comercial."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Solicitação formal de providência a uma autoridade caracteriza requerimento. Editorial, tirinha, verbete e anúncio cumprem outras finalidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q051",
+      "revision": 1,
+      "prompt": "Qual é a finalidade predominante de uma ata?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promover a venda de um produto."
+        },
+        {
+          "id": "b",
+          "text": "Registrar ocorrências e deliberações de uma reunião."
+        },
+        {
+          "id": "c",
+          "text": "Definir um conceito científico."
+        },
+        {
+          "id": "d",
+          "text": "Ensinar a instalar um aplicativo."
+        },
+        {
+          "id": "e",
+          "text": "Defender a opinião de um colunista."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A ata documenta o que ocorreu e foi deliberado em reunião. Venda, definição, instrução e opinião pertencem a outros gêneros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q052",
+      "revision": 1,
+      "prompt": "Notícia, reportagem e editorial circulam tipicamente em qual esfera discursiva?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jornalística."
+        },
+        {
+          "id": "b",
+          "text": "Culinária exclusivamente."
+        },
+        {
+          "id": "c",
+          "text": "Familiar privada exclusivamente."
+        },
+        {
+          "id": "d",
+          "text": "Laboratorial sem comunicação pública."
+        },
+        {
+          "id": "e",
+          "text": "Esportiva apenas quando impressa."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Esses gêneros são formas recorrentes de atuação e circulação na esfera jornalística. As outras opções restringem indevidamente o campo social. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q053",
+      "revision": 1,
+      "prompt": "Qual alternativa apresenta apenas exemplos de suporte ou ambiente de circulação, e não de gênero?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Notícia, editorial e requerimento."
+        },
+        {
+          "id": "b",
+          "text": "Papel, portal eletrônico e aplicativo."
+        },
+        {
+          "id": "c",
+          "text": "Narrativo, descritivo e injuntivo."
+        },
+        {
+          "id": "d",
+          "text": "Jornalístico, administrativo e acadêmico."
+        },
+        {
+          "id": "e",
+          "text": "Tese, argumento e conclusão."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Papel, portal e aplicativo são meios físicos ou virtuais de apresentação e circulação. As outras listas reúnem gêneros, tipos, esferas ou partes argumentativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q054",
+      "revision": 1,
+      "prompt": "Uma reportagem publicada primeiro em revista impressa e depois no portal da mesma instituição:",
+      "options": [
+        {
+          "id": "a",
+          "text": "deixa obrigatoriamente de ser reportagem no portal."
+        },
+        {
+          "id": "b",
+          "text": "mantém necessariamente todos os recursos materiais sem adaptação."
+        },
+        {
+          "id": "c",
+          "text": "pode manter o gênero, embora o novo suporte permita adaptações de forma e leitura."
+        },
+        {
+          "id": "d",
+          "text": "transforma-se automaticamente em editorial."
+        },
+        {
+          "id": "e",
+          "text": "passa a ser um tipo textual chamado digital."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O gênero pode circular em suportes diferentes, com adaptações de hiperlinks, imagens ou extensão. Suporte digital não é tipo textual nem impõe mudança para editorial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q055",
+      "revision": 1,
+      "prompt": "Um anúncio de curso organiza seu texto sob os títulos 'Ingredientes' e 'Modo de preparo', mas sua finalidade é convencer o público a se matricular. Esse caso exemplifica:",
+      "options": [
+        {
+          "id": "a",
+          "text": "intergenericidade: forma de receita usada com função publicitária."
+        },
+        {
+          "id": "b",
+          "text": "transformação obrigatória do anúncio em receita culinária."
+        },
+        {
+          "id": "c",
+          "text": "ausência de qualquer gênero reconhecível."
+        },
+        {
+          "id": "d",
+          "text": "acarretamento entre matrícula e aprovação."
+        },
+        {
+          "id": "e",
+          "text": "descrição neutra sem propósito persuasivo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O texto incorpora a composição de receita, mas conserva finalidade publicitária. Aparência formal isolada não supera propósito, esfera e circulação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q057",
+      "revision": 1,
+      "prompt": "Um artigo de opinião começa descrevendo detalhadamente uma praça e depois defende sua preservação ao longo de oito parágrafos. A classificação global mais adequada é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "descritiva, porque a primeira frase decide todo o texto."
+        },
+        {
+          "id": "b",
+          "text": "argumentativa, com trecho descritivo subordinado à defesa da preservação."
+        },
+        {
+          "id": "c",
+          "text": "injuntiva, porque toda defesa é uma ordem."
+        },
+        {
+          "id": "d",
+          "text": "narrativa, porque a praça é um espaço."
+        },
+        {
+          "id": "e",
+          "text": "sem tipo predominante, pois misturas são proibidas."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A finalidade e o plano global são argumentativos; a descrição fornece material à tese. Um trecho secundário não determina sozinho a classificação do conjunto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q059",
+      "revision": 1,
+      "prompt": "Leia: 'Para solicitar revisão, preencha o formulário até sexta-feira e anexe a justificativa. Pedidos sem identificação não serão analisados.' Se o trecho integrar documento publicado para tornar públicas todas as regras e condições de um processo seletivo, a análise correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gênero edital, com sequência injuntiva predominante no trecho."
+        },
+        {
+          "id": "b",
+          "text": "Gênero injuntivo, com tipo edital."
+        },
+        {
+          "id": "c",
+          "text": "Gênero notícia, porque contém uma data."
+        },
+        {
+          "id": "d",
+          "text": "Gênero ata, porque menciona análise."
+        },
+        {
+          "id": "e",
+          "text": "Suporte formulário, que elimina o gênero do documento."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Edital é o gênero definido pela função de publicar regras; as orientações e condições do trecho realizam sequência injuntiva. As demais opções invertem categorias ou usam pistas irrelevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q061",
+      "revision": 1,
+      "prompt": "Na descrição 'relatório administrativo publicado em portal eletrônico e organizado predominantemente por exposição', os termos 'relatório', 'administrativo', 'portal eletrônico' e 'exposição' indicam, respectivamente:",
+      "options": [
+        {
+          "id": "a",
+          "text": "gênero, domínio, suporte e sequência."
+        },
+        {
+          "id": "b",
+          "text": "sequência, gênero, domínio e suporte."
+        },
+        {
+          "id": "c",
+          "text": "suporte, sequência, gênero e domínio."
+        },
+        {
+          "id": "d",
+          "text": "domínio, suporte, sequência e gênero."
+        },
+        {
+          "id": "e",
+          "text": "tema, gênero, tese e argumento."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Relatório é a ação comunicativa concreta; administrativo, o campo de atividade; portal, o meio; exposição, a organização linguístico-discursiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q062",
+      "revision": 1,
+      "prompt": "Qual trecho apresenta com mais clareza uma sequência narrativa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O prédio possui três pavimentos e fachada de vidro."
+        },
+        {
+          "id": "b",
+          "text": "Transparência ativa é a divulgação espontânea de informações."
+        },
+        {
+          "id": "c",
+          "text": "A equipe chegou, encontrou a sala alagada e transferiu os equipamentos antes da abertura."
+        },
+        {
+          "id": "d",
+          "text": "Preencha os campos e confirme o envio."
+        },
+        {
+          "id": "e",
+          "text": "A medida deve ser revista porque elevou os custos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Há agentes, ações encadeadas e mudança da situação no tempo. As demais opções descrevem, expõem, instruem ou argumentam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q063",
+      "revision": 1,
+      "prompt": "Leia: 'O corredor se estreita perto do arquivo, recebe pouca luz natural e permanece silencioso durante a manhã.' Predomina a sequência:",
+      "options": [
+        {
+          "id": "a",
+          "text": "narrativa."
+        },
+        {
+          "id": "b",
+          "text": "descritiva."
+        },
+        {
+          "id": "c",
+          "text": "argumentativa."
+        },
+        {
+          "id": "d",
+          "text": "injuntiva."
+        },
+        {
+          "id": "e",
+          "text": "dialogal."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O trecho caracteriza espaço, iluminação e estado, sem sucessão de acontecimentos, tese, orientação ou turnos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q064",
+      "revision": 1,
+      "prompt": "Qual característica distingue mais diretamente a exposição da argumentação?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A exposição organiza conhecimento; a argumentação orienta razões para adesão a uma tese."
+        },
+        {
+          "id": "b",
+          "text": "A exposição sempre usa verbos no passado; a argumentação nunca usa."
+        },
+        {
+          "id": "c",
+          "text": "A exposição é gênero; a argumentação é suporte."
+        },
+        {
+          "id": "d",
+          "text": "A exposição proíbe exemplos; a argumentação proíbe definições."
+        },
+        {
+          "id": "e",
+          "text": "Não existe diferença possível entre elas."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Definir, classificar e explicar são operações expositivas; defender posição com razões caracteriza orientação argumentativa, embora textos possam combinar ambas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q065",
+      "revision": 1,
+      "prompt": "Leia: 'A consulta deve permanecer aberta por mais uma semana, pois o prazo atual não permitiu participação das comunidades mais distantes.' Predomina a sequência:",
+      "options": [
+        {
+          "id": "a",
+          "text": "descritiva."
+        },
+        {
+          "id": "b",
+          "text": "argumentativa."
+        },
+        {
+          "id": "c",
+          "text": "narrativa."
+        },
+        {
+          "id": "d",
+          "text": "dialogal."
+        },
+        {
+          "id": "e",
+          "text": "expositiva sem posição."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A ampliação do prazo é defendida como tese, e a baixa possibilidade de participação funciona como razão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q066",
+      "revision": 1,
+      "prompt": "Qual enunciado realiza orientação injuntiva sem empregar verbo no imperativo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O formulário era extenso."
+        },
+        {
+          "id": "b",
+          "text": "É necessário anexar o comprovante antes do envio."
+        },
+        {
+          "id": "c",
+          "text": "A equipe anexou o comprovante ontem."
+        },
+        {
+          "id": "d",
+          "text": "O comprovante possui duas páginas."
+        },
+        {
+          "id": "e",
+          "text": "Talvez o comprovante seja antigo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A construção de necessidade orienta conduta futura, embora não use forma imperativa. As demais descrevem, narram ou modalizam sem instruir. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q067",
+      "revision": 1,
+      "prompt": "Sobre a sequência dialogal, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "É reconhecida como categoria autônoma por todas as tipologias sem divergência."
+        },
+        {
+          "id": "b",
+          "text": "Caracteriza-se pela alternância de turnos e pela construção interacional, mas sua inclusão varia conforme o referencial."
+        },
+        {
+          "id": "c",
+          "text": "É sinônimo de qualquer texto que mencione duas pessoas."
+        },
+        {
+          "id": "d",
+          "text": "Só pode ocorrer oralmente e nunca ser representada por escrito."
+        },
+        {
+          "id": "e",
+          "text": "É um suporte tecnológico."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Alternância de turnos é seu núcleo, mas nem toda classificação teórica a inclui entre as sequências básicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q068",
+      "revision": 1,
+      "prompt": "Um parecer expõe o histórico do processo, descreve documentos e fundamenta uma conclusão. A análise mais adequada é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cada sequência transforma o texto em um gênero diferente."
+        },
+        {
+          "id": "b",
+          "text": "O gênero parecer combina sequências expositiva, descritiva e argumentativa."
+        },
+        {
+          "id": "c",
+          "text": "A descrição impede qualquer conclusão técnica."
+        },
+        {
+          "id": "d",
+          "text": "O primeiro trecho define sozinho a classificação global."
+        },
+        {
+          "id": "e",
+          "text": "Textos institucionais não podem misturar sequências."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Um único gênero pode mobilizar sequências distintas em funções subordinadas ao plano global. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q069",
+      "revision": 1,
+      "prompt": "Para reconhecer um gênero textual com segurança, deve-se priorizar:",
+      "options": [
+        {
+          "id": "a",
+          "text": "uma única palavra repetida."
+        },
+        {
+          "id": "b",
+          "text": "apenas o tema tratado."
+        },
+        {
+          "id": "c",
+          "text": "o conjunto de finalidade, participantes, circulação, composição e estilo."
+        },
+        {
+          "id": "d",
+          "text": "somente o tamanho do texto."
+        },
+        {
+          "id": "e",
+          "text": "exclusivamente o suporte físico."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gênero é prática sociocomunicativa e requer critérios convergentes. Tema, extensão, palavra ou suporte isolados são insuficientes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q070",
+      "revision": 1,
+      "prompt": "Um órgão encaminha formalmente a outro uma solicitação institucional, com identificação, assunto, destinatário e assinatura da autoridade. O gênero mais provável é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ofício."
+        },
+        {
+          "id": "b",
+          "text": "tirinha."
+        },
+        {
+          "id": "c",
+          "text": "verbete."
+        },
+        {
+          "id": "d",
+          "text": "receita."
+        },
+        {
+          "id": "e",
+          "text": "editorial."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Comunicação formal entre instituições ou autoridades, com destinatário e assinatura definidos, caracteriza ofício. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q071",
+      "revision": 1,
+      "prompt": "Um documento examina fatos e normas de um processo, compara interpretações e apresenta conclusão técnica fundamentada. Trata-se de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "aviso."
+        },
+        {
+          "id": "b",
+          "text": "parecer."
+        },
+        {
+          "id": "c",
+          "text": "convite."
+        },
+        {
+          "id": "d",
+          "text": "notícia."
+        },
+        {
+          "id": "e",
+          "text": "formulário."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Análise de questão com conclusão técnica ou jurídica fundamentada é finalidade típica do parecer. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q072",
+      "revision": 1,
+      "prompt": "Um setor especializado publica documento que avalia impactos de uma política, explicita metodologia e oferece subsídios para decisão administrativa. O gênero é mais provavelmente:",
+      "options": [
+        {
+          "id": "a",
+          "text": "nota técnica."
+        },
+        {
+          "id": "b",
+          "text": "bilhete pessoal."
+        },
+        {
+          "id": "c",
+          "text": "anúncio classificado."
+        },
+        {
+          "id": "d",
+          "text": "tirinha."
+        },
+        {
+          "id": "e",
+          "text": "receita."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A nota técnica examina tema especializado e subsidia decisão, normalmente explicitando fundamentos e análise. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q073",
+      "revision": 1,
+      "prompt": "Em um processo, a autoridade registra 'Encaminhe-se à unidade de contratos para análise e manifestação'. Esse enunciado integra tipicamente um:",
+      "options": [
+        {
+          "id": "a",
+          "text": "despacho."
+        },
+        {
+          "id": "b",
+          "text": "editorial."
+        },
+        {
+          "id": "c",
+          "text": "artigo científico."
+        },
+        {
+          "id": "d",
+          "text": "meme."
+        },
+        {
+          "id": "e",
+          "text": "verbete."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Decisão, determinação ou encaminhamento registrado em processo caracteriza despacho e pode conter sequência injuntiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q074",
+      "revision": 1,
+      "prompt": "Um texto mantém a alternância explícita entre perguntas de uma jornalista e respostas de uma pesquisadora. Seu gênero mais provável é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "entrevista."
+        },
+        {
+          "id": "b",
+          "text": "edital."
+        },
+        {
+          "id": "c",
+          "text": "ata."
+        },
+        {
+          "id": "d",
+          "text": "manual."
+        },
+        {
+          "id": "e",
+          "text": "resumo acadêmico."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A composição por perguntas e respostas vinculadas a entrevistadora e entrevistada caracteriza entrevista. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q075",
+      "revision": 1,
+      "prompt": "Um texto curto apresenta objetivo, método, principais resultados e conclusão de uma pesquisa para permitir rápida identificação de seu conteúdo. Trata-se de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "resumo acadêmico."
+        },
+        {
+          "id": "b",
+          "text": "requerimento."
+        },
+        {
+          "id": "c",
+          "text": "charge."
+        },
+        {
+          "id": "d",
+          "text": "ofício."
+        },
+        {
+          "id": "e",
+          "text": "edital."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A condensação estruturada dos elementos centrais de pesquisa é função típica do resumo acadêmico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q076",
+      "revision": 1,
+      "prompt": "Qual conjunto de elementos aponta mais diretamente para um artigo científico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Problema de pesquisa, referencial, método, análise, resultados e referências."
+        },
+        {
+          "id": "b",
+          "text": "Saudação íntima, relato pessoal e despedida familiar."
+        },
+        {
+          "id": "c",
+          "text": "Preço, contato e descrição breve de produto usado."
+        },
+        {
+          "id": "d",
+          "text": "Participantes, deliberações e horário de encerramento de reunião."
+        },
+        {
+          "id": "e",
+          "text": "Ingredientes e modo de preparo de alimento."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Esses componentes servem à comunicação pública e verificável de pesquisa segundo convenções acadêmicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q077",
+      "revision": 1,
+      "prompt": "Um texto pago imita a diagramação de reportagem, apresenta depoimentos e recomenda discretamente um serviço, com identificação de conteúdo patrocinado. Ele é um:",
+      "options": [
+        {
+          "id": "a",
+          "text": "publieditorial."
+        },
+        {
+          "id": "b",
+          "text": "edital."
+        },
+        {
+          "id": "c",
+          "text": "artigo científico."
+        },
+        {
+          "id": "d",
+          "text": "despacho."
+        },
+        {
+          "id": "e",
+          "text": "verbete."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O publieditorial emprega forma próxima à editorial ou jornalística para cumprir finalidade promocional e deve sinalizar o patrocínio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q078",
+      "revision": 1,
+      "prompt": "Uma página intitulada 'Dúvidas frequentes' apresenta pares de perguntas recorrentes e respostas breves sobre um serviço. O gênero é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "FAQ."
+        },
+        {
+          "id": "b",
+          "text": "ata."
+        },
+        {
+          "id": "c",
+          "text": "editorial."
+        },
+        {
+          "id": "d",
+          "text": "tese."
+        },
+        {
+          "id": "e",
+          "text": "suporte digital."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A organização em dúvidas recorrentes e respostas caracteriza FAQ; digital descreve o ambiente, não a sequência nem substitui o gênero. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q079",
+      "revision": 1,
+      "prompt": "Uma instituição publica no mesmo perfil uma série numerada de postagens encadeadas que desenvolvem um único tema e remetem umas às outras. Trata-se de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "thread."
+        },
+        {
+          "id": "b",
+          "text": "ata."
+        },
+        {
+          "id": "c",
+          "text": "ofício."
+        },
+        {
+          "id": "d",
+          "text": "parecer."
+        },
+        {
+          "id": "e",
+          "text": "verbete."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O encadeamento de postagens relacionadas em sequência reconhecível caracteriza thread em ambientes digitais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q080",
+      "revision": 1,
+      "prompt": "A mensagem breve 'Seu prazo termina amanhã. Toque aqui para concluir o envio' aparece automaticamente no celular. O gênero mais provável é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "notificação."
+        },
+        {
+          "id": "b",
+          "text": "dissertação."
+        },
+        {
+          "id": "c",
+          "text": "ata."
+        },
+        {
+          "id": "d",
+          "text": "artigo de opinião."
+        },
+        {
+          "id": "e",
+          "text": "relatório."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Brevidade, alerta temporal e chamada para ação em interface caracterizam notificação digital. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q081",
+      "revision": 1,
+      "prompt": "Uma imagem amplamente reconhecida é reutilizada com nova legenda para comentar, de modo humorístico, a demora de um serviço. No ambiente digital, o gênero é provavelmente:",
+      "options": [
+        {
+          "id": "a",
+          "text": "meme."
+        },
+        {
+          "id": "b",
+          "text": "edital."
+        },
+        {
+          "id": "c",
+          "text": "formulário."
+        },
+        {
+          "id": "d",
+          "text": "ofício."
+        },
+        {
+          "id": "e",
+          "text": "resumo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O meme depende da retomada e transformação de modelo compartilhado, com circulação e efeito contextual, frequentemente humorístico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q082",
+      "revision": 1,
+      "prompt": "Um texto informa ocasião, data, horário, local e destinatários esperados, encerrando com pedido de confirmação de presença. O gênero é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "convite."
+        },
+        {
+          "id": "b",
+          "text": "parecer."
+        },
+        {
+          "id": "c",
+          "text": "relatório."
+        },
+        {
+          "id": "d",
+          "text": "verbete."
+        },
+        {
+          "id": "e",
+          "text": "editorial."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A composição e a finalidade de chamar destinatários para evento caracterizam convite. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q083",
+      "revision": 1,
+      "prompt": "Assinale a alternativa em que o primeiro termo designa um domínio discursivo e o segundo, um gênero que pode circular nele.",
+      "options": [
+        {
+          "id": "a",
+          "text": "jornalístico — notícia."
+        },
+        {
+          "id": "b",
+          "text": "portal — argumentativo."
+        },
+        {
+          "id": "c",
+          "text": "injuntivo — aplicativo."
+        },
+        {
+          "id": "d",
+          "text": "relatório — administrativo."
+        },
+        {
+          "id": "e",
+          "text": "papel — acadêmico."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jornalístico é o campo de atividade, e notícia é uma forma comunicativa concreta desse domínio. As demais alternativas misturam suporte, sequência, gênero e domínio. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

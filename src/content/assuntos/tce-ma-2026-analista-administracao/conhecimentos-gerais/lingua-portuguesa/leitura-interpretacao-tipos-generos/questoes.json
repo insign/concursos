@@ -1,17 +1,32 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q001",
       "revision": 1,
       "prompt": "Leia: 'Das doze unidades avaliadas, oito reduziram o tempo de espera, três mantiveram o índice anterior e uma registrou aumento.' Qual informação está explícita?",
       "options": [
-        { "id": "a", "text": "Todas as unidades melhoraram o atendimento." },
-        { "id": "b", "text": "Quatro unidades aumentaram o tempo de espera." },
-        { "id": "c", "text": "Oito unidades reduziram o tempo de espera." },
-        { "id": "d", "text": "As três unidades estáveis adotaram o mesmo procedimento." },
-        { "id": "e", "text": "A unidade com aumento deixou de atender ao público." }
+        {
+          "id": "a",
+          "text": "Todas as unidades melhoraram o atendimento."
+        },
+        {
+          "id": "b",
+          "text": "Quatro unidades aumentaram o tempo de espera."
+        },
+        {
+          "id": "c",
+          "text": "Oito unidades reduziram o tempo de espera."
+        },
+        {
+          "id": "d",
+          "text": "As três unidades estáveis adotaram o mesmo procedimento."
+        },
+        {
+          "id": "e",
+          "text": "A unidade com aumento deixou de atender ao público."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "O texto afirma diretamente que oito unidades reduziram o tempo de espera. As demais opções alteram as quantidades ou acrescentam causas e procedimentos não informados. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -21,11 +36,26 @@
       "revision": 1,
       "prompt": "Qual alternativa parafraseia com fidelidade a frase 'Alguns relatórios podem conter estimativas preliminares'?",
       "options": [
-        { "id": "a", "text": "Todos os relatórios contêm estimativas definitivas." },
-        { "id": "b", "text": "Há relatórios que talvez apresentem estimativas ainda não definitivas." },
-        { "id": "c", "text": "Nenhum relatório pode apresentar estimativas." },
-        { "id": "d", "text": "Os relatórios devem conter apenas estimativas preliminares." },
-        { "id": "e", "text": "As estimativas preliminares certamente aparecem em cada relatório." }
+        {
+          "id": "a",
+          "text": "Todos os relatórios contêm estimativas definitivas."
+        },
+        {
+          "id": "b",
+          "text": "Há relatórios que talvez apresentem estimativas ainda não definitivas."
+        },
+        {
+          "id": "c",
+          "text": "Nenhum relatório pode apresentar estimativas."
+        },
+        {
+          "id": "d",
+          "text": "Os relatórios devem conter apenas estimativas preliminares."
+        },
+        {
+          "id": "e",
+          "text": "As estimativas preliminares certamente aparecem em cada relatório."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "A opção preserva tanto o quantificador 'alguns' quanto a modalidade de possibilidade expressa por 'podem'. As demais generalizam, negam ou transformam possibilidade em obrigação ou certeza. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -35,11 +65,26 @@
       "revision": 1,
       "prompt": "Leia: 'O atendimento por agendamento começou em abril. Em maio, as filas diminuíram.' Qual conclusão é autorizada apenas por esse trecho?",
       "options": [
-        { "id": "a", "text": "O agendamento foi a única causa da redução das filas." },
-        { "id": "b", "text": "A redução ocorreu antes do início do agendamento." },
-        { "id": "c", "text": "Todos os usuários aprovaram o agendamento." },
-        { "id": "d", "text": "A diminuição das filas ocorreu depois do início do agendamento." },
-        { "id": "e", "text": "As filas foram eliminadas em maio." }
+        {
+          "id": "a",
+          "text": "O agendamento foi a única causa da redução das filas."
+        },
+        {
+          "id": "b",
+          "text": "A redução ocorreu antes do início do agendamento."
+        },
+        {
+          "id": "c",
+          "text": "Todos os usuários aprovaram o agendamento."
+        },
+        {
+          "id": "d",
+          "text": "A diminuição das filas ocorreu depois do início do agendamento."
+        },
+        {
+          "id": "e",
+          "text": "As filas foram eliminadas em maio."
+        }
       ],
       "correctOptionId": "d",
       "explanation": "O trecho sustenta uma relação temporal: a queda veio depois do início do agendamento. Ele não prova causa exclusiva, aprovação unânime nem eliminação das filas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -49,11 +94,26 @@
       "revision": 1,
       "prompt": "Leia: 'Quatro dos seis setores publicaram o relatório no prazo.' Qual inferência NÃO é autorizada?",
       "options": [
-        { "id": "a", "text": "Mais da metade dos setores publicou o relatório no prazo." },
-        { "id": "b", "text": "Dois setores não integram o grupo que publicou no prazo." },
-        { "id": "c", "text": "Havia seis setores considerados na informação." },
-        { "id": "d", "text": "A publicação tempestiva ocorreu em quatro setores." },
-        { "id": "e", "text": "Os dois setores restantes atrasaram deliberadamente a publicação." }
+        {
+          "id": "a",
+          "text": "Mais da metade dos setores publicou o relatório no prazo."
+        },
+        {
+          "id": "b",
+          "text": "Dois setores não integram o grupo que publicou no prazo."
+        },
+        {
+          "id": "c",
+          "text": "Havia seis setores considerados na informação."
+        },
+        {
+          "id": "d",
+          "text": "A publicação tempestiva ocorreu em quatro setores."
+        },
+        {
+          "id": "e",
+          "text": "Os dois setores restantes atrasaram deliberadamente a publicação."
+        }
       ],
       "correctOptionId": "e",
       "explanation": "O texto permite calcular o grupo restante, mas não informa intenção nem motivo. Atribuir atraso deliberado acrescenta avaliação sem pista textual. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -63,11 +123,26 @@
       "revision": 1,
       "prompt": "Na frase 'O órgão voltou a divulgar o boletim mensal', qual conteúdo é pressuposto pelo verbo destacado?",
       "options": [
-        { "id": "a", "text": "O boletim sempre foi divulgado sem interrupção." },
-        { "id": "b", "text": "O órgão já divulgava o boletim mensal em período anterior." },
-        { "id": "c", "text": "O novo boletim contém dados corretos." },
-        { "id": "d", "text": "A divulgação passou a ser diária." },
-        { "id": "e", "text": "O público solicitou formalmente o retorno." }
+        {
+          "id": "a",
+          "text": "O boletim sempre foi divulgado sem interrupção."
+        },
+        {
+          "id": "b",
+          "text": "O órgão já divulgava o boletim mensal em período anterior."
+        },
+        {
+          "id": "c",
+          "text": "O novo boletim contém dados corretos."
+        },
+        {
+          "id": "d",
+          "text": "A divulgação passou a ser diária."
+        },
+        {
+          "id": "e",
+          "text": "O público solicitou formalmente o retorno."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "'Voltou a' apresenta como pano de fundo uma ocorrência anterior da atividade. Continuidade ininterrupta, qualidade, frequência diária e solicitação do público não são pressupostas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -77,11 +152,26 @@
       "revision": 1,
       "prompt": "A frase 'Lia não parou de revisar os dados' mantém qual pressuposição da forma afirmativa 'Lia parou de revisar os dados'?",
       "options": [
-        { "id": "a", "text": "Lia revisava os dados anteriormente." },
-        { "id": "b", "text": "Lia concluiu toda a revisão." },
-        { "id": "c", "text": "Os dados estavam necessariamente errados." },
-        { "id": "d", "text": "Outra pessoa assumiu a tarefa." },
-        { "id": "e", "text": "A revisão era mensal." }
+        {
+          "id": "a",
+          "text": "Lia revisava os dados anteriormente."
+        },
+        {
+          "id": "b",
+          "text": "Lia concluiu toda a revisão."
+        },
+        {
+          "id": "c",
+          "text": "Os dados estavam necessariamente errados."
+        },
+        {
+          "id": "d",
+          "text": "Outra pessoa assumiu a tarefa."
+        },
+        {
+          "id": "e",
+          "text": "A revisão era mensal."
+        }
       ],
       "correctOptionId": "a",
       "explanation": "A construção 'parar de' toma como informação de fundo que a atividade ocorria antes, e esse conteúdo persiste sob negação. As outras informações não decorrem da frase. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -91,11 +181,26 @@
       "revision": 1,
       "prompt": "A afirmação 'A comissão analisou três recursos' acarreta necessariamente que:",
       "options": [
-        { "id": "a", "text": "a comissão acolheu os três recursos." },
-        { "id": "b", "text": "a comissão analisou recursos." },
-        { "id": "c", "text": "somente três recursos existiam." },
-        { "id": "d", "text": "a análise foi concluída no mesmo dia." },
-        { "id": "e", "text": "todos os membros votaram de forma unânime." }
+        {
+          "id": "a",
+          "text": "a comissão acolheu os três recursos."
+        },
+        {
+          "id": "b",
+          "text": "a comissão analisou recursos."
+        },
+        {
+          "id": "c",
+          "text": "somente três recursos existiam."
+        },
+        {
+          "id": "d",
+          "text": "a análise foi concluída no mesmo dia."
+        },
+        {
+          "id": "e",
+          "text": "todos os membros votaram de forma unânime."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Quem analisou três recursos necessariamente analisou recursos. Resultado, total existente, prazo e unanimidade não são consequências semânticas da afirmação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -105,11 +210,26 @@
       "revision": 1,
       "prompt": "Durante uma reunião, uma participante diz ao colega ao lado: 'Está difícil ouvir com a janela aberta.' Nesse contexto, a fala pode funcionar como pedido para fechar a janela. Esse sentido é exemplo de:",
       "options": [
-        { "id": "a", "text": "informação explícita sobre uma ordem direta." },
-        { "id": "b", "text": "acarretamento lógico inevitável." },
-        { "id": "c", "text": "implicatura contextual e cancelável." },
-        { "id": "d", "text": "definição técnica de janela." },
-        { "id": "e", "text": "ambiguidade causada por homonímia." }
+        {
+          "id": "a",
+          "text": "informação explícita sobre uma ordem direta."
+        },
+        {
+          "id": "b",
+          "text": "acarretamento lógico inevitável."
+        },
+        {
+          "id": "c",
+          "text": "implicatura contextual e cancelável."
+        },
+        {
+          "id": "d",
+          "text": "definição técnica de janela."
+        },
+        {
+          "id": "e",
+          "text": "ambiguidade causada por homonímia."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "O pedido não é formulado literalmente; ele é inferido da situação e poderia ser cancelado por esclarecimento posterior. Por isso, não é ordem explícita nem consequência lógica necessária. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -119,11 +239,26 @@
       "revision": 1,
       "prompt": "Leia: 'Ao reduzir deslocamentos e ampliar a flexibilidade, o teletrabalho trouxe ganhos. Sem metas claras, porém, pode dificultar a integração das equipes.' Qual é o tema do trecho?",
       "options": [
-        { "id": "a", "text": "A história mundial do trabalho." },
-        { "id": "b", "text": "Vantagens e risco de gestão associados ao teletrabalho." },
-        { "id": "c", "text": "A proibição do trabalho presencial." },
-        { "id": "d", "text": "A legislação completa sobre jornada." },
-        { "id": "e", "text": "Somente o custo dos deslocamentos urbanos." }
+        {
+          "id": "a",
+          "text": "A história mundial do trabalho."
+        },
+        {
+          "id": "b",
+          "text": "Vantagens e risco de gestão associados ao teletrabalho."
+        },
+        {
+          "id": "c",
+          "text": "A proibição do trabalho presencial."
+        },
+        {
+          "id": "d",
+          "text": "A legislação completa sobre jornada."
+        },
+        {
+          "id": "e",
+          "text": "Somente o custo dos deslocamentos urbanos."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "O recorte desenvolvido combina benefícios do teletrabalho e uma dificuldade possível quando faltam metas. As demais opções ampliam, restringem ou inventam o tema. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -133,11 +268,26 @@
       "revision": 1,
       "prompt": "Qual alternativa distingue corretamente assunto e tema?",
       "options": [
-        { "id": "a", "text": "Assunto é a tese; tema é qualquer exemplo." },
-        { "id": "b", "text": "Assunto é sempre o título; tema é a conclusão." },
-        { "id": "c", "text": "Assunto é o campo geral; tema é o recorte central desenvolvido." },
-        { "id": "d", "text": "Assunto e tema são necessariamente sinônimos perfeitos." },
-        { "id": "e", "text": "Assunto é local; tema é apenas uma palavra repetida." }
+        {
+          "id": "a",
+          "text": "Assunto é a tese; tema é qualquer exemplo."
+        },
+        {
+          "id": "b",
+          "text": "Assunto é sempre o título; tema é a conclusão."
+        },
+        {
+          "id": "c",
+          "text": "Assunto é o campo geral; tema é o recorte central desenvolvido."
+        },
+        {
+          "id": "d",
+          "text": "Assunto e tema são necessariamente sinônimos perfeitos."
+        },
+        {
+          "id": "e",
+          "text": "Assunto é local; tema é apenas uma palavra repetida."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "O assunto nomeia um campo amplo, enquanto o tema delimita o foco efetivamente desenvolvido. Título, tese, exemplo e repetição lexical não definem sozinhos essas categorias. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -147,11 +297,26 @@
       "revision": 1,
       "prompt": "Em um texto sobre transparência, um parágrafo trata exclusivamente das dificuldades de atualizar bases antigas. Esse foco local do parágrafo corresponde ao:",
       "options": [
-        { "id": "a", "text": "suporte." },
-        { "id": "b", "text": "tópico." },
-        { "id": "c", "text": "gênero." },
-        { "id": "d", "text": "interlocutor." },
-        { "id": "e", "text": "tipo de fonte tipográfica." }
+        {
+          "id": "a",
+          "text": "suporte."
+        },
+        {
+          "id": "b",
+          "text": "tópico."
+        },
+        {
+          "id": "c",
+          "text": "gênero."
+        },
+        {
+          "id": "d",
+          "text": "interlocutor."
+        },
+        {
+          "id": "e",
+          "text": "tipo de fonte tipográfica."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Tópico é o foco local de uma parte do texto. Suporte, gênero e interlocutor pertencem a outros níveis de análise, e tipografia não nomeia o foco temático. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -161,11 +326,26 @@
       "revision": 1,
       "prompt": "Leia: 'O novo painel reúne dados antes dispersos, permite filtros por município e oferece arquivos em formato aberto. Assim, facilita tanto a consulta quanto o reuso das informações.' Qual é a ideia principal?",
       "options": [
-        { "id": "a", "text": "O painel dificulta o acesso aos dados municipais." },
-        { "id": "b", "text": "Arquivos abertos não podem ser reutilizados." },
-        { "id": "c", "text": "A reunião e a organização dos dados ampliam sua utilidade." },
-        { "id": "d", "text": "Todos os municípios produzem dados idênticos." },
-        { "id": "e", "text": "O painel substitui qualquer análise especializada." }
+        {
+          "id": "a",
+          "text": "O painel dificulta o acesso aos dados municipais."
+        },
+        {
+          "id": "b",
+          "text": "Arquivos abertos não podem ser reutilizados."
+        },
+        {
+          "id": "c",
+          "text": "A reunião e a organização dos dados ampliam sua utilidade."
+        },
+        {
+          "id": "d",
+          "text": "Todos os municípios produzem dados idênticos."
+        },
+        {
+          "id": "e",
+          "text": "O painel substitui qualquer análise especializada."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "As características enumeradas convergem para a facilitação da consulta e do reuso. As demais opções contradizem o trecho ou generalizam além dele. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -175,11 +355,26 @@
       "revision": 1,
       "prompt": "Leia: 'A oferta digital é importante, mas os órgãos devem manter canais alternativos, porque nem todos dispõem de conexão ou habilidade para usar aplicativos.' Qual é a tese?",
       "options": [
-        { "id": "a", "text": "Aplicativos nunca devem ser usados pelo poder público." },
-        { "id": "b", "text": "Todos os cidadãos preferem atendimento presencial." },
-        { "id": "c", "text": "A conexão à Internet é sempre gratuita." },
-        { "id": "d", "text": "Os órgãos devem preservar canais alternativos ao atendimento digital." },
-        { "id": "e", "text": "A habilidade digital é irrelevante para o acesso." }
+        {
+          "id": "a",
+          "text": "Aplicativos nunca devem ser usados pelo poder público."
+        },
+        {
+          "id": "b",
+          "text": "Todos os cidadãos preferem atendimento presencial."
+        },
+        {
+          "id": "c",
+          "text": "A conexão à Internet é sempre gratuita."
+        },
+        {
+          "id": "d",
+          "text": "Os órgãos devem preservar canais alternativos ao atendimento digital."
+        },
+        {
+          "id": "e",
+          "text": "A habilidade digital é irrelevante para o acesso."
+        }
       ],
       "correctOptionId": "d",
       "explanation": "A posição defendida é a manutenção de canais alternativos, sustentada pela desigualdade de acesso e habilidade. O texto reconhece a importância do digital, portanto não o rejeita integralmente. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -189,11 +384,26 @@
       "revision": 1,
       "prompt": "Um cartaz informa datas de vacinação, apresenta locais de atendimento e encerra com 'Proteja-se: leve seu documento e compareça'. Qual é sua finalidade predominante?",
       "options": [
-        { "id": "a", "text": "Narrar a história das vacinas." },
-        { "id": "b", "text": "Promover o comparecimento à vacinação, fornecendo orientações práticas." },
-        { "id": "c", "text": "Registrar uma reunião administrativa." },
-        { "id": "d", "text": "Avaliar criticamente uma obra científica." },
-        { "id": "e", "text": "Solicitar providência individual a uma autoridade." }
+        {
+          "id": "a",
+          "text": "Narrar a história das vacinas."
+        },
+        {
+          "id": "b",
+          "text": "Promover o comparecimento à vacinação, fornecendo orientações práticas."
+        },
+        {
+          "id": "c",
+          "text": "Registrar uma reunião administrativa."
+        },
+        {
+          "id": "d",
+          "text": "Avaliar criticamente uma obra científica."
+        },
+        {
+          "id": "e",
+          "text": "Solicitar providência individual a uma autoridade."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Informações de serviço e o chamado no imperativo procuram orientar e persuadir o público a comparecer. As outras finalidades correspondem a gêneros distintos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -203,11 +413,26 @@
       "revision": 1,
       "prompt": "Um manual intitulado 'Primeiros passos no sistema de protocolo' explica, com capturas de tela, como servidores recém-ingressos devem cadastrar documentos. O público-alvo principal é:",
       "options": [
-        { "id": "a", "text": "qualquer pessoa interessada em história administrativa." },
-        { "id": "b", "text": "servidores experientes responsáveis pelo desenvolvimento do software." },
-        { "id": "c", "text": "servidores recém-ingressos que usarão o protocolo." },
-        { "id": "d", "text": "somente jornalistas especializados." },
-        { "id": "e", "text": "autores de textos literários." }
+        {
+          "id": "a",
+          "text": "qualquer pessoa interessada em história administrativa."
+        },
+        {
+          "id": "b",
+          "text": "servidores experientes responsáveis pelo desenvolvimento do software."
+        },
+        {
+          "id": "c",
+          "text": "servidores recém-ingressos que usarão o protocolo."
+        },
+        {
+          "id": "d",
+          "text": "somente jornalistas especializados."
+        },
+        {
+          "id": "e",
+          "text": "autores de textos literários."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Título, nível introdutório, exemplos e situação descrita delimitam como destinatários os novos usuários do sistema. As demais audiências não são sustentadas pelas pistas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -217,11 +442,26 @@
       "revision": 1,
       "prompt": "Em 'A audiência ocorreu na terça-feira, mas, na avaliação da associação, foi excessivamente curta', qual segmento apresenta opinião?",
       "options": [
-        { "id": "a", "text": "A audiência ocorreu." },
-        { "id": "b", "text": "na terça-feira." },
-        { "id": "c", "text": "na avaliação da associação." },
-        { "id": "d", "text": "foi excessivamente curta." },
-        { "id": "e", "text": "ocorreu na terça-feira, tomado isoladamente." }
+        {
+          "id": "a",
+          "text": "A audiência ocorreu."
+        },
+        {
+          "id": "b",
+          "text": "na terça-feira."
+        },
+        {
+          "id": "c",
+          "text": "na avaliação da associação."
+        },
+        {
+          "id": "d",
+          "text": "foi excessivamente curta."
+        },
+        {
+          "id": "e",
+          "text": "ocorreu na terça-feira, tomado isoladamente."
+        }
       ],
       "correctOptionId": "d",
       "explanation": "'Excessivamente curta' avalia a duração e constitui opinião atribuída à associação. A ocorrência e a data são apresentadas como informações verificáveis; 'na avaliação' apenas introduz a fonte da opinião. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -231,11 +471,26 @@
       "revision": 1,
       "prompt": "Na frase 'A medida provavelmente reduzirá atrasos', o advérbio 'provavelmente' indica:",
       "options": [
-        { "id": "a", "text": "certeza absoluta do enunciador." },
-        { "id": "b", "text": "negação da possibilidade de redução." },
-        { "id": "c", "text": "avaliação de probabilidade, sem garantia." },
-        { "id": "d", "text": "ordem dirigida ao leitor." },
-        { "id": "e", "text": "localização temporal precisa." }
+        {
+          "id": "a",
+          "text": "certeza absoluta do enunciador."
+        },
+        {
+          "id": "b",
+          "text": "negação da possibilidade de redução."
+        },
+        {
+          "id": "c",
+          "text": "avaliação de probabilidade, sem garantia."
+        },
+        {
+          "id": "d",
+          "text": "ordem dirigida ao leitor."
+        },
+        {
+          "id": "e",
+          "text": "localização temporal precisa."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "O modalizador apresenta a redução como provável, não certa. Ele não nega, ordena nem localiza temporalmente a ação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -245,11 +500,26 @@
       "revision": 1,
       "prompt": "Leia: 'Segundo a matriz de referência do INEP, a leitura de diferentes gêneros mobiliza competências como localizar informações, inferir sentidos e identificar finalidades.' O trecho utiliza principalmente qual estratégia argumentativa?",
       "options": [
-        { "id": "a", "text": "Apelo a uma fonte institucional." },
-        { "id": "b", "text": "Narração de conflito ficcional." },
-        { "id": "c", "text": "Descrição física de personagem." },
-        { "id": "d", "text": "Ordem direta ao leitor." },
-        { "id": "e", "text": "Paródia de um poema." }
+        {
+          "id": "a",
+          "text": "Apelo a uma fonte institucional."
+        },
+        {
+          "id": "b",
+          "text": "Narração de conflito ficcional."
+        },
+        {
+          "id": "c",
+          "text": "Descrição física de personagem."
+        },
+        {
+          "id": "d",
+          "text": "Ordem direta ao leitor."
+        },
+        {
+          "id": "e",
+          "text": "Paródia de um poema."
+        }
       ],
       "correctOptionId": "a",
       "explanation": "A expressão 'segundo a matriz de referência do INEP' mobiliza uma instituição como fonte de apoio. Não há conflito narrativo, descrição, ordem ou paródia. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -259,11 +529,26 @@
       "revision": 1,
       "prompt": "Leia: 'Embora a plataforma seja rápida, sua linguagem ainda precisa ser simplificada.' A oração iniciada por 'embora' exerce função de:",
       "options": [
-        { "id": "a", "text": "apresentar a conclusão principal sem ressalva." },
-        { "id": "b", "text": "reconhecer um dado favorável que não invalida a crítica posterior." },
-        { "id": "c", "text": "explicar a causa única da linguagem complexa." },
-        { "id": "d", "text": "ordenar que a plataforma seja desativada." },
-        { "id": "e", "text": "negar que a plataforma seja rápida." }
+        {
+          "id": "a",
+          "text": "apresentar a conclusão principal sem ressalva."
+        },
+        {
+          "id": "b",
+          "text": "reconhecer um dado favorável que não invalida a crítica posterior."
+        },
+        {
+          "id": "c",
+          "text": "explicar a causa única da linguagem complexa."
+        },
+        {
+          "id": "d",
+          "text": "ordenar que a plataforma seja desativada."
+        },
+        {
+          "id": "e",
+          "text": "negar que a plataforma seja rápida."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "A concessão admite a rapidez, mas mantém a necessidade de simplificação. Ela não nega a vantagem nem a transforma em causa ou ordem. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -273,11 +558,26 @@
       "revision": 1,
       "prompt": "Leia: 'Alega-se que publicar dados brutos basta para garantir transparência. Contudo, sem descrição e contexto, esses dados permanecem pouco compreensíveis.' O segundo período realiza:",
       "options": [
-        { "id": "a", "text": "confirmação integral da alegação inicial." },
-        { "id": "b", "text": "refutação da suficiência atribuída à mera publicação." },
-        { "id": "c", "text": "descrição de um espaço físico." },
-        { "id": "d", "text": "instrução passo a passo." },
-        { "id": "e", "text": "mudança para assunto sem relação." }
+        {
+          "id": "a",
+          "text": "confirmação integral da alegação inicial."
+        },
+        {
+          "id": "b",
+          "text": "refutação da suficiência atribuída à mera publicação."
+        },
+        {
+          "id": "c",
+          "text": "descrição de um espaço físico."
+        },
+        {
+          "id": "d",
+          "text": "instrução passo a passo."
+        },
+        {
+          "id": "e",
+          "text": "mudança para assunto sem relação."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "'Contudo' introduz objeção: publicar sem descrição e contexto não seria suficiente. As demais opções ignoram o contraste e a função argumentativa. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -287,11 +587,26 @@
       "revision": 1,
       "prompt": "Em qual frase a palavra 'ponte' é usada predominantemente em sentido denotativo?",
       "options": [
-        { "id": "a", "text": "O diálogo foi uma ponte entre as equipes." },
-        { "id": "b", "text": "A capacitação criou uma ponte para novas oportunidades." },
-        { "id": "c", "text": "A ponte sobre o rio foi interditada para manutenção." },
-        { "id": "d", "text": "A confiança serviu de ponte durante a crise." },
-        { "id": "e", "text": "O acordo lançou pontes entre ideias opostas." }
+        {
+          "id": "a",
+          "text": "O diálogo foi uma ponte entre as equipes."
+        },
+        {
+          "id": "b",
+          "text": "A capacitação criou uma ponte para novas oportunidades."
+        },
+        {
+          "id": "c",
+          "text": "A ponte sobre o rio foi interditada para manutenção."
+        },
+        {
+          "id": "d",
+          "text": "A confiança serviu de ponte durante a crise."
+        },
+        {
+          "id": "e",
+          "text": "O acordo lançou pontes entre ideias opostas."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Na opção correta, 'ponte' designa literalmente a construção sobre o rio. Nas demais, funciona figuradamente como ligação, acesso ou aproximação. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -301,11 +616,26 @@
       "revision": 1,
       "prompt": "Na frase 'A burocracia ergueu um muro entre o cidadão e o serviço', 'muro' produz o sentido de:",
       "options": [
-        { "id": "a", "text": "estrutura física construída pelo órgão." },
-        { "id": "b", "text": "barreira figurada de acesso." },
-        { "id": "c", "text": "medida exata da fachada." },
-        { "id": "d", "text": "localização geográfica do serviço." },
-        { "id": "e", "text": "material usado em uma obra pública." }
+        {
+          "id": "a",
+          "text": "estrutura física construída pelo órgão."
+        },
+        {
+          "id": "b",
+          "text": "barreira figurada de acesso."
+        },
+        {
+          "id": "c",
+          "text": "medida exata da fachada."
+        },
+        {
+          "id": "d",
+          "text": "localização geográfica do serviço."
+        },
+        {
+          "id": "e",
+          "text": "material usado em uma obra pública."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "O contexto seleciona valor conotativo: a burocracia dificulta o acesso. As leituras físicas não se ajustam à relação abstrata entre cidadão e serviço. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -315,11 +645,26 @@
       "revision": 1,
       "prompt": "A frase 'O assessor informou ao diretor que seu relatório precisava de revisão' é ambígua porque:",
       "options": [
-        { "id": "a", "text": "o verbo 'informou' não possui sentido." },
-        { "id": "b", "text": "o pronome 'seu' pode remeter ao assessor ou ao diretor." },
-        { "id": "c", "text": "não existe relatório no enunciado." },
-        { "id": "d", "text": "a revisão já foi necessariamente concluída." },
-        { "id": "e", "text": "a frase contém duas datas incompatíveis." }
+        {
+          "id": "a",
+          "text": "o verbo 'informou' não possui sentido."
+        },
+        {
+          "id": "b",
+          "text": "o pronome 'seu' pode remeter ao assessor ou ao diretor."
+        },
+        {
+          "id": "c",
+          "text": "não existe relatório no enunciado."
+        },
+        {
+          "id": "d",
+          "text": "a revisão já foi necessariamente concluída."
+        },
+        {
+          "id": "e",
+          "text": "a frase contém duas datas incompatíveis."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "A ambiguidade é referencial: há dois antecedentes possíveis para 'seu'. O verbo e o relatório são compreensíveis, e não há datas ou conclusão da revisão. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -329,11 +674,26 @@
       "revision": 1,
       "prompt": "Qual acréscimo elimina a ambiguidade de 'O assessor informou ao diretor que seu relatório precisava de revisão', deixando claro que o relatório era do diretor?",
       "options": [
-        { "id": "a", "text": "O assessor informou ontem ao diretor que seu relatório precisava de revisão." },
-        { "id": "b", "text": "O assessor informou ao diretor, rapidamente, que seu relatório precisava de revisão." },
-        { "id": "c", "text": "O assessor informou ao diretor que o relatório elaborado pelo diretor precisava de revisão." },
-        { "id": "d", "text": "O assessor talvez tenha informado ao diretor que seu relatório precisava de revisão." },
-        { "id": "e", "text": "O assessor informou ao diretor que seu relatório realmente precisava de revisão." }
+        {
+          "id": "a",
+          "text": "O assessor informou ontem ao diretor que seu relatório precisava de revisão."
+        },
+        {
+          "id": "b",
+          "text": "O assessor informou ao diretor, rapidamente, que seu relatório precisava de revisão."
+        },
+        {
+          "id": "c",
+          "text": "O assessor informou ao diretor que o relatório elaborado pelo diretor precisava de revisão."
+        },
+        {
+          "id": "d",
+          "text": "O assessor talvez tenha informado ao diretor que seu relatório precisava de revisão."
+        },
+        {
+          "id": "e",
+          "text": "O assessor informou ao diretor que seu relatório realmente precisava de revisão."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "A expressão 'elaborado pelo diretor' explicita o referente. Tempo, modo, modalidade e intensidade não resolvem a dupla referência de 'seu'. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -343,11 +703,26 @@
       "revision": 1,
       "prompt": "Leia: 'Para a direção, o novo fluxo é mais rápido. Representantes dos usuários, entretanto, afirmam que ele criou etapas pouco claras.' É correto afirmar que:",
       "options": [
-        { "id": "a", "text": "o autor necessariamente concorda com a direção." },
-        { "id": "b", "text": "o autor necessariamente concorda com os usuários." },
-        { "id": "c", "text": "o trecho apresenta duas avaliações contrastantes atribuídas a fontes distintas." },
-        { "id": "d", "text": "a rapidez e a clareza são apresentadas como fatos incontroversos." },
-        { "id": "e", "text": "não há qualquer voz citada no trecho." }
+        {
+          "id": "a",
+          "text": "o autor necessariamente concorda com a direção."
+        },
+        {
+          "id": "b",
+          "text": "o autor necessariamente concorda com os usuários."
+        },
+        {
+          "id": "c",
+          "text": "o trecho apresenta duas avaliações contrastantes atribuídas a fontes distintas."
+        },
+        {
+          "id": "d",
+          "text": "a rapidez e a clareza são apresentadas como fatos incontroversos."
+        },
+        {
+          "id": "e",
+          "text": "não há qualquer voz citada no trecho."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "As expressões de atribuição e 'entretanto' põem em contraste duas vozes. A simples apresentação delas não revela adesão necessária do autor nem transforma avaliações em fatos incontroversos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -357,11 +732,26 @@
       "revision": 1,
       "prompt": "A presença, em um texto, de falas da direção, de usuários e de especialistas constitui principalmente:",
       "options": [
-        { "id": "a", "text": "polifonia, por encenar diferentes vozes e perspectivas." },
-        { "id": "b", "text": "denotação, por eliminar qualquer ponto de vista." },
-        { "id": "c", "text": "suporte, por definir o meio material." },
-        { "id": "d", "text": "tipografia, por alterar o desenho das letras." },
-        { "id": "e", "text": "acarretamento, por tornar todas as falas verdadeiras." }
+        {
+          "id": "a",
+          "text": "polifonia, por encenar diferentes vozes e perspectivas."
+        },
+        {
+          "id": "b",
+          "text": "denotação, por eliminar qualquer ponto de vista."
+        },
+        {
+          "id": "c",
+          "text": "suporte, por definir o meio material."
+        },
+        {
+          "id": "d",
+          "text": "tipografia, por alterar o desenho das letras."
+        },
+        {
+          "id": "e",
+          "text": "acarretamento, por tornar todas as falas verdadeiras."
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Polifonia designa a presença ou encenação de diferentes vozes no discurso. Ela não define suporte, forma gráfica ou verdade lógica das posições citadas. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -371,11 +761,26 @@
       "revision": 1,
       "prompt": "Um artigo reproduz entre aspas um trecho de lei, identifica o diploma e comenta seu alcance. Há, nesse caso:",
       "options": [
-        { "id": "a", "text": "intertextualidade explícita por citação identificada." },
-        { "id": "b", "text": "ausência de relação entre textos." },
-        { "id": "c", "text": "apenas ambiguidade lexical." },
-        { "id": "d", "text": "somente sequência narrativa." },
-        { "id": "e", "text": "mudança automática do artigo para o gênero lei." }
+        {
+          "id": "a",
+          "text": "intertextualidade explícita por citação identificada."
+        },
+        {
+          "id": "b",
+          "text": "ausência de relação entre textos."
+        },
+        {
+          "id": "c",
+          "text": "apenas ambiguidade lexical."
+        },
+        {
+          "id": "d",
+          "text": "somente sequência narrativa."
+        },
+        {
+          "id": "e",
+          "text": "mudança automática do artigo para o gênero lei."
+        }
       ],
       "correctOptionId": "a",
       "explanation": "A citação e a identificação estabelecem relação explícita entre o artigo e a lei. Incorporar um trecho não transforma o gênero do texto que o comenta. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -385,11 +790,26 @@
       "revision": 1,
       "prompt": "Uma campanha imita o verso 'No meio do caminho tinha uma pedra', substituindo 'pedra' por 'boato' para combater desinformação. O recurso central é:",
       "options": [
-        { "id": "a", "text": "alusão intertextual com transformação do texto conhecido." },
-        { "id": "b", "text": "descrição técnica sem referência cultural." },
-        { "id": "c", "text": "acarretamento matemático." },
-        { "id": "d", "text": "ata de reunião." },
-        { "id": "e", "text": "suporte impresso, independentemente do enunciado." }
+        {
+          "id": "a",
+          "text": "alusão intertextual com transformação do texto conhecido."
+        },
+        {
+          "id": "b",
+          "text": "descrição técnica sem referência cultural."
+        },
+        {
+          "id": "c",
+          "text": "acarretamento matemático."
+        },
+        {
+          "id": "d",
+          "text": "ata de reunião."
+        },
+        {
+          "id": "e",
+          "text": "suporte impresso, independentemente do enunciado."
+        }
       ],
       "correctOptionId": "a",
       "explanation": "O efeito depende do reconhecimento e da transformação de um verso anterior, o que configura relação intertextual. As demais categorias não explicam esse diálogo entre textos. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -399,11 +819,26 @@
       "revision": 1,
       "prompt": "Em um cartaz, a frase 'O prazo está correndo' aparece sobre a imagem de um calendário com pernas. A interpretação adequada depende principalmente:",
       "options": [
-        { "id": "a", "text": "apenas do sentido literal do verbo correr." },
-        { "id": "b", "text": "da integração entre linguagem verbal e imagem." },
-        { "id": "c", "text": "da exclusão completa da frase escrita." },
-        { "id": "d", "text": "de um cálculo estatístico não apresentado." },
-        { "id": "e", "text": "da identificação do papel como gênero textual." }
+        {
+          "id": "a",
+          "text": "apenas do sentido literal do verbo correr."
+        },
+        {
+          "id": "b",
+          "text": "da integração entre linguagem verbal e imagem."
+        },
+        {
+          "id": "c",
+          "text": "da exclusão completa da frase escrita."
+        },
+        {
+          "id": "d",
+          "text": "de um cálculo estatístico não apresentado."
+        },
+        {
+          "id": "e",
+          "text": "da identificação do papel como gênero textual."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "A personificação visualiza a passagem rápida do prazo e completa o jogo verbal. Ignorar qualquer um dos modos elimina parte do efeito; papel é suporte, não gênero. Fonte: questão autoral baseada nas referências do conteúdo."
@@ -413,434 +848,609 @@
       "revision": 1,
       "prompt": "Um gráfico informa que a taxa passou de 20% para 25%. Qual leitura é correta?",
       "options": [
-        { "id": "a", "text": "Houve aumento de 5 pontos percentuais." },
-        { "id": "b", "text": "Houve redução de 5 pontos percentuais." },
-        { "id": "c", "text": "A taxa foi multiplicada por cinco." },
-        { "id": "d", "text": "O gráfico prova, sozinho, a causa do aumento." },
-        { "id": "e", "text": "A taxa chegou a 45%." }
+        {
+          "id": "a",
+          "text": "Houve aumento de 5 pontos percentuais."
+        },
+        {
+          "id": "b",
+          "text": "Houve redução de 5 pontos percentuais."
+        },
+        {
+          "id": "c",
+          "text": "A taxa foi multiplicada por cinco."
+        },
+        {
+          "id": "d",
+          "text": "O gráfico prova, sozinho, a causa do aumento."
+        },
+        {
+          "id": "e",
+          "text": "A taxa chegou a 45%."
+        }
       ],
       "correctOptionId": "a",
       "explanation": "A diferença entre 25% e 20% é de 5 pontos percentuais. O dado não identifica causa, e as demais operações numéricas estão erradas. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q031",
-      "revision": 1,
-      "prompt": "Leia: 'Às oito horas, a equipe abriu a sala. Minutos depois, percebeu a falta de energia, acionou a manutenção e transferiu o atendimento para outro prédio.' Predomina a sequência:",
-      "options": [
-        { "id": "a", "text": "narrativa, pela sucessão temporal de ações e mudança de situação." },
-        { "id": "b", "text": "descritiva, por enumerar somente características estáticas." },
-        { "id": "c", "text": "injuntiva, por ordenar ações ao leitor." },
-        { "id": "d", "text": "argumentativa, por defender tese." },
-        { "id": "e", "text": "expositiva, por definir um conceito." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "O trecho encadeia acontecimentos no tempo e mostra transformação da situação. Não instrui o leitor, define conceito, descreve estado estático nem sustenta tese. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q032",
-      "revision": 1,
-      "prompt": "Leia: 'A sala é retangular, possui duas janelas largas e mantém os arquivos em estantes metálicas junto à parede norte.' Predomina a sequência:",
-      "options": [
-        { "id": "a", "text": "argumentativa." },
-        { "id": "b", "text": "narrativa." },
-        { "id": "c", "text": "descritiva." },
-        { "id": "d", "text": "injuntiva." },
-        { "id": "e", "text": "dialogal." }
-      ],
-      "correctOptionId": "c",
-      "explanation": "O trecho apresenta forma, partes, material e localização de elementos. Não há sucessão de acontecimentos, orientação ao leitor ou defesa de posição. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q033",
-      "revision": 1,
-      "prompt": "Leia: 'Dados abertos são conjuntos disponibilizados em formato que permite acesso, uso e redistribuição. Em geral, empregam padrões que facilitam o processamento por máquinas.' Predomina a sequência:",
-      "options": [
-        { "id": "a", "text": "expositiva, porque define e explica o conceito." },
-        { "id": "b", "text": "narrativa, porque relata aventura." },
-        { "id": "c", "text": "injuntiva, porque apresenta uma proibição." },
-        { "id": "d", "text": "argumentativa, porque refuta um adversário." },
-        { "id": "e", "text": "descritiva literária, porque caracteriza personagem." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "O trecho define dados abertos e explica uma característica geral. Não há trama, comando, refutação nem personagem. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q034",
-      "revision": 1,
-      "prompt": "Leia: 'O órgão deve divulgar uma versão simplificada do relatório, pois tabelas sem contexto afastam o cidadão e reduzem a utilidade pública da informação.' Predomina a sequência:",
-      "options": [
-        { "id": "a", "text": "descritiva, sem avaliação." },
-        { "id": "b", "text": "argumentativa, com tese e justificativa." },
-        { "id": "c", "text": "narrativa, com conflito e desfecho." },
-        { "id": "d", "text": "expositiva, sem posição defendida." },
-        { "id": "e", "text": "dialogal, com turnos de fala." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "A obrigação de divulgar versão simplificada é a tese; o efeito negativo das tabelas sem contexto funciona como argumento. As demais sequências não explicam essa estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q035",
-      "revision": 1,
-      "prompt": "Leia: 'Acesse o portal, selecione o município, escolha o período e clique em exportar.' Predomina a sequência:",
-      "options": [
-        { "id": "a", "text": "injuntiva, por orientar etapas de uma ação." },
-        { "id": "b", "text": "narrativa, por relatar fatos passados." },
-        { "id": "c", "text": "argumentativa, por defender uma tese." },
-        { "id": "d", "text": "descritiva, por caracterizar um ambiente." },
-        { "id": "e", "text": "expositiva, por classificar teorias." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Os verbos no imperativo organizam um procedimento dirigido ao leitor. Não há relato, caracterização, classificação ou argumentação. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q036",
-      "revision": 1,
-      "prompt": "Uma reportagem narra a inauguração de um hospital, descreve suas instalações e apresenta dados sobre capacidade de atendimento. Como classificar esse texto?",
-      "options": [
-        { "id": "a", "text": "Ele pertence obrigatoriamente a três gêneros diferentes." },
-        { "id": "b", "text": "Ele combina sequências narrativas, descritivas e expositivas no mesmo gênero." },
-        { "id": "c", "text": "A presença de descrição impede que seja reportagem." },
-        { "id": "d", "text": "A sequência mais curta define sozinha o texto inteiro." },
-        { "id": "e", "text": "Textos reais nunca misturam sequências." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Um único gênero pode mobilizar várias sequências para cumprir sua finalidade. A mistura não cria automaticamente novos gêneros nem impede a classificação como reportagem. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q037",
-      "revision": 1,
-      "prompt": "Na classificação 'editorial de sequência predominantemente argumentativa', os termos 'editorial' e 'argumentativa' designam, respectivamente:",
-      "options": [
-        { "id": "a", "text": "suporte e esfera." },
-        { "id": "b", "text": "gênero e tipo textual." },
-        { "id": "c", "text": "tipo textual e suporte." },
-        { "id": "d", "text": "esfera e público." },
-        { "id": "e", "text": "tema e título." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Editorial é uma forma social concreta de comunicação; argumentativa é a sequência abstrata predominante. As outras categorias não correspondem aos termos. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q038",
-      "revision": 1,
-      "prompt": "Qual conjunto de traços caracteriza mais diretamente uma notícia?",
-      "options": [
-        { "id": "a", "text": "Defesa da posição institucional do veículo sem relatar acontecimento." },
-        { "id": "b", "text": "Registro de deliberações de uma reunião." },
-        { "id": "c", "text": "Informação sobre acontecimento de interesse público, com dados como quem, o quê, quando e onde." },
-        { "id": "d", "text": "Solicitação formal dirigida a uma autoridade." },
-        { "id": "e", "text": "Avaliação detalhada de uma obra cultural." }
-      ],
-      "correctOptionId": "c",
-      "explanation": "A notícia tem por finalidade central informar acontecimento e costuma organizar dados básicos do fato. As outras opções descrevem editorial, ata, requerimento e resenha. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q039",
-      "revision": 1,
-      "prompt": "Em comparação com a notícia breve, a reportagem tende a:",
-      "options": [
-        { "id": "a", "text": "eliminar contexto, fontes e dados." },
-        { "id": "b", "text": "aprofundar um tema ou acontecimento com contexto, fontes e recursos variados." },
-        { "id": "c", "text": "ser definida apenas por possuir mais palavras." },
-        { "id": "d", "text": "registrar exclusivamente decisões de reunião." },
-        { "id": "e", "text": "conter obrigatoriamente ordens ao leitor." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Aprofundamento, contextualização e diversidade de fontes são traços funcionais da reportagem. Extensão isolada não define gênero, e as outras finalidades pertencem a ata ou texto injuntivo. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q040",
-      "revision": 1,
-      "prompt": "Um texto sem assinatura individual, publicado na seção 'Opinião do jornal' e dedicado a defender a posição do veículo sobre política pública, é provavelmente:",
-      "options": [
-        { "id": "a", "text": "editorial." },
-        { "id": "b", "text": "ata." },
-        { "id": "c", "text": "verbete." },
-        { "id": "d", "text": "receita." },
-        { "id": "e", "text": "requerimento." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Posição institucional, localização editorial e ausência de autoria individual apontam para editorial. Os demais gêneros têm finalidades e composições diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q041",
-      "revision": 1,
-      "prompt": "Qual traço distingue mais diretamente um artigo de opinião de um editorial?",
-      "options": [
-        { "id": "a", "text": "O artigo nunca apresenta argumentos." },
-        { "id": "b", "text": "O editorial é sempre uma notícia neutra." },
-        { "id": "c", "text": "O artigo costuma atribuir a tese a um autor identificado; o editorial expressa posição institucional." },
-        { "id": "d", "text": "O artigo só pode circular em papel." },
-        { "id": "e", "text": "O editorial deve ensinar um procedimento." }
-      ],
-      "correctOptionId": "c",
-      "explanation": "A autoria individual e a voz institucional são critérios relevantes de distinção. Ambos podem argumentar e circular em diferentes suportes; notícia e tutorial têm outras finalidades. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q042",
-      "revision": 1,
-      "prompt": "Um texto resume um livro, situa sua proposta, avalia seus resultados e justifica a recomendação de leitura. Trata-se de:",
-      "options": [
-        { "id": "a", "text": "resenha crítica." },
-        { "id": "b", "text": "edital." },
-        { "id": "c", "text": "ata." },
-        { "id": "d", "text": "manual de instalação." },
-        { "id": "e", "text": "notícia sem avaliação." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Apresentação da obra combinada com avaliação fundamentada caracteriza resenha crítica. Regras, registro de reunião, procedimento e relato noticioso não correspondem à finalidade descrita. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q043",
-      "revision": 1,
-      "prompt": "Qual é a finalidade predominante de um verbete de dicionário ou enciclopédia?",
-      "options": [
-        { "id": "a", "text": "Solicitar uma providência administrativa." },
-        { "id": "b", "text": "Definir e sistematizar informações sobre uma entrada." },
-        { "id": "c", "text": "Registrar votos de uma reunião." },
-        { "id": "d", "text": "Defender necessariamente a opinião institucional de um jornal." },
-        { "id": "e", "text": "Narrar obrigatoriamente uma sequência de aventuras." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "O verbete organiza definição e informações associadas a uma entrada. As demais finalidades correspondem a requerimento, ata, editorial ou narrativa. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q044",
-      "revision": 1,
-      "prompt": "Um documento apresenta objetivo, metodologia, atividades realizadas, resultados, dificuldades e recomendações de uma auditoria. Seu gênero mais provável é:",
-      "options": [
-        { "id": "a", "text": "relatório." },
-        { "id": "b", "text": "tirinha." },
-        { "id": "c", "text": "campanha publicitária." },
-        { "id": "d", "text": "receita culinária." },
-        { "id": "e", "text": "carta pessoal." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Registro e análise sistemática de atividades, método, resultados e recomendações caracterizam relatório. Os outros gêneros não cumprem essa função institucional. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q045",
-      "revision": 1,
-      "prompt": "Um documento público fixa requisitos, prazos, etapas, critérios e formas de recurso de uma seleção. Qual é o gênero?",
-      "options": [
-        { "id": "a", "text": "Editorial." },
-        { "id": "b", "text": "Edital." },
-        { "id": "c", "text": "Crônica." },
-        { "id": "d", "text": "Resenha." },
-        { "id": "e", "text": "Verbete." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Tornar públicas e regulamentar as condições de uma seleção é finalidade típica do edital. Os demais gêneros opinam, narram, avaliam obra ou definem entrada. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q046",
-      "revision": 1,
-      "prompt": "Qual característica aproxima receita, manual e tutorial?",
-      "options": [
-        { "id": "a", "text": "Predomínio de orientação para executar ações ou etapas." },
-        { "id": "b", "text": "Defesa obrigatória de tese política." },
-        { "id": "c", "text": "Registro de deliberações passadas." },
-        { "id": "d", "text": "Ausência total de sequência temporal." },
-        { "id": "e", "text": "Circulação exclusiva em livros impressos." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Os três gêneros costumam orientar procedimentos e mobilizar sequência injuntiva. Podem circular em vários suportes e não exigem tese política ou registro de reunião. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q047",
-      "revision": 1,
-      "prompt": "Uma peça do governo apresenta dados sobre desperdício de água e o apelo 'Feche a torneira enquanto escova os dentes'. Ela é melhor classificada como:",
-      "options": [
-        { "id": "a", "text": "campanha institucional, pois informa e procura promover uma conduta coletiva." },
-        { "id": "b", "text": "ata, pois registra uma reunião." },
-        { "id": "c", "text": "verbete, pois define uma palavra." },
-        { "id": "d", "text": "relatório, pois apenas expõe resultados internos." },
-        { "id": "e", "text": "requerimento, pois solicita decisão de autoridade." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Dados e apelo ao público articulam informação e persuasão em favor de comportamento de interesse coletivo. As demais opções têm destinatários e estruturas incompatíveis. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q048",
-      "revision": 1,
-      "prompt": "Qual distinção entre charge e tirinha é mais adequada?",
-      "options": [
-        { "id": "a", "text": "A charge costuma comentar criticamente fato contextual; a tirinha organiza uma breve sequência de quadros, muitas vezes narrativa." },
-        { "id": "b", "text": "A charge é sempre verbal, e a tirinha nunca usa palavras." },
-        { "id": "c", "text": "A charge é suporte, e a tirinha é esfera social." },
-        { "id": "d", "text": "Ambas são necessariamente relatórios técnicos." },
-        { "id": "e", "text": "A tirinha não pode produzir humor." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "A ligação contextual e crítica é recorrente na charge; a sequência de quadros caracteriza a tirinha. Ambas podem integrar palavra e imagem e produzir humor. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q049",
-      "revision": 1,
-      "prompt": "Um leitor escreve ao jornal para contestar dados de uma reportagem publicada na edição anterior e justificar sua discordância. O gênero é:",
-      "options": [
-        { "id": "a", "text": "carta do leitor." },
-        { "id": "b", "text": "edital." },
-        { "id": "c", "text": "ata." },
-        { "id": "d", "text": "manual." },
-        { "id": "e", "text": "verbete." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "O texto reage a publicação do veículo e se dirige ao jornal e a seus leitores, traços da carta do leitor. Os outros gêneros regulamentam, registram, instruem ou definem. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q050",
-      "revision": 1,
-      "prompt": "Um servidor dirige documento à autoridade competente, identifica-se, expõe fundamento e pede a emissão de certidão. Esse documento é um:",
-      "options": [
-        { "id": "a", "text": "requerimento." },
-        { "id": "b", "text": "editorial." },
-        { "id": "c", "text": "Tirinha." },
-        { "id": "d", "text": "verbete." },
-        { "id": "e", "text": "anúncio comercial." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Solicitação formal de providência a uma autoridade caracteriza requerimento. Editorial, tirinha, verbete e anúncio cumprem outras finalidades. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q051",
-      "revision": 1,
-      "prompt": "Qual é a finalidade predominante de uma ata?",
-      "options": [
-        { "id": "a", "text": "Promover a venda de um produto." },
-        { "id": "b", "text": "Registrar ocorrências e deliberações de uma reunião." },
-        { "id": "c", "text": "Definir um conceito científico." },
-        { "id": "d", "text": "Ensinar a instalar um aplicativo." },
-        { "id": "e", "text": "Defender a opinião de um colunista." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "A ata documenta o que ocorreu e foi deliberado em reunião. Venda, definição, instrução e opinião pertencem a outros gêneros. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q052",
-      "revision": 1,
-      "prompt": "Notícia, reportagem e editorial circulam tipicamente em qual esfera discursiva?",
-      "options": [
-        { "id": "a", "text": "Jornalística." },
-        { "id": "b", "text": "Culinária exclusivamente." },
-        { "id": "c", "text": "Familiar privada exclusivamente." },
-        { "id": "d", "text": "Laboratorial sem comunicação pública." },
-        { "id": "e", "text": "Esportiva apenas quando impressa." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Esses gêneros são formas recorrentes de atuação e circulação na esfera jornalística. As outras opções restringem indevidamente o campo social. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q053",
-      "revision": 1,
-      "prompt": "Qual alternativa apresenta apenas exemplos de suporte ou ambiente de circulação, e não de gênero?",
-      "options": [
-        { "id": "a", "text": "Notícia, editorial e requerimento." },
-        { "id": "b", "text": "Papel, portal eletrônico e aplicativo." },
-        { "id": "c", "text": "Narrativo, descritivo e injuntivo." },
-        { "id": "d", "text": "Jornalístico, administrativo e acadêmico." },
-        { "id": "e", "text": "Tese, argumento e conclusão." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Papel, portal e aplicativo são meios físicos ou virtuais de apresentação e circulação. As outras listas reúnem gêneros, tipos, esferas ou partes argumentativas. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q054",
-      "revision": 1,
-      "prompt": "Uma reportagem publicada primeiro em revista impressa e depois no portal da mesma instituição:",
-      "options": [
-        { "id": "a", "text": "deixa obrigatoriamente de ser reportagem no portal." },
-        { "id": "b", "text": "mantém necessariamente todos os recursos materiais sem adaptação." },
-        { "id": "c", "text": "pode manter o gênero, embora o novo suporte permita adaptações de forma e leitura." },
-        { "id": "d", "text": "transforma-se automaticamente em editorial." },
-        { "id": "e", "text": "passa a ser um tipo textual chamado digital." }
-      ],
-      "correctOptionId": "c",
-      "explanation": "O gênero pode circular em suportes diferentes, com adaptações de hiperlinks, imagens ou extensão. Suporte digital não é tipo textual nem impõe mudança para editorial. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q055",
-      "revision": 1,
-      "prompt": "Um anúncio de curso organiza seu texto sob os títulos 'Ingredientes' e 'Modo de preparo', mas sua finalidade é convencer o público a se matricular. Esse caso exemplifica:",
-      "options": [
-        { "id": "a", "text": "intergenericidade: forma de receita usada com função publicitária." },
-        { "id": "b", "text": "transformação obrigatória do anúncio em receita culinária." },
-        { "id": "c", "text": "ausência de qualquer gênero reconhecível." },
-        { "id": "d", "text": "acarretamento entre matrícula e aprovação." },
-        { "id": "e", "text": "descrição neutra sem propósito persuasivo." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "O texto incorpora a composição de receita, mas conserva finalidade publicitária. Aparência formal isolada não supera propósito, esfera e circulação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q056",
       "revision": 1,
       "prompt": "O título 'Quando o gráfico engana' antecede texto que explica escalas truncadas e comparações inadequadas. Qual função o título exerce?",
       "options": [
-        { "id": "a", "text": "Antecipa o tema e orienta a leitura para usos potencialmente enganosos de gráficos." },
-        { "id": "b", "text": "Prova que todo gráfico contém fraude." },
-        { "id": "c", "text": "Elimina a necessidade de ler o corpo do texto." },
-        { "id": "d", "text": "Transforma o texto em narrativa ficcional." },
-        { "id": "e", "text": "Indica apenas o suporte material." }
+        {
+          "id": "a",
+          "text": "Antecipa o tema e orienta a leitura para usos potencialmente enganosos de gráficos."
+        },
+        {
+          "id": "b",
+          "text": "Prova que todo gráfico contém fraude."
+        },
+        {
+          "id": "c",
+          "text": "Elimina a necessidade de ler o corpo do texto."
+        },
+        {
+          "id": "d",
+          "text": "Transforma o texto em narrativa ficcional."
+        },
+        {
+          "id": "e",
+          "text": "Indica apenas o suporte material."
+        }
       ],
       "correctOptionId": "a",
       "explanation": "O título ativa uma expectativa temática que o corpo especifica. Ele não universaliza a crítica, substitui o texto, define narrativa ou identifica suporte. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q057",
-      "revision": 1,
-      "prompt": "Um artigo de opinião começa descrevendo detalhadamente uma praça e depois defende sua preservação ao longo de oito parágrafos. A classificação global mais adequada é:",
-      "options": [
-        { "id": "a", "text": "descritiva, porque a primeira frase decide todo o texto." },
-        { "id": "b", "text": "argumentativa, com trecho descritivo subordinado à defesa da preservação." },
-        { "id": "c", "text": "injuntiva, porque toda defesa é uma ordem." },
-        { "id": "d", "text": "narrativa, porque a praça é um espaço." },
-        { "id": "e", "text": "sem tipo predominante, pois misturas são proibidas." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "A finalidade e o plano global são argumentativos; a descrição fornece material à tese. Um trecho secundário não determina sozinho a classificação do conjunto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q058",
       "revision": 1,
       "prompt": "O texto afirma: 'Segundo o levantamento, 62% dos entrevistados usam o serviço ao menos uma vez por mês.' O candidato sabe, por experiência pessoal, que o serviço costuma falhar. Qual resposta respeita o texto?",
       "options": [
-        { "id": "a", "text": "O levantamento é falso porque o candidato já enfrentou falhas." },
-        { "id": "b", "text": "Todos os entrevistados usam o serviço diariamente." },
-        { "id": "c", "text": "A experiência pessoal substitui o dado apresentado." },
-        { "id": "d", "text": "O texto atribui ao levantamento o uso mensal por 62% dos entrevistados, sem informar a qualidade do serviço." },
-        { "id": "e", "text": "Os 38% restantes nunca usaram o serviço." }
+        {
+          "id": "a",
+          "text": "O levantamento é falso porque o candidato já enfrentou falhas."
+        },
+        {
+          "id": "b",
+          "text": "Todos os entrevistados usam o serviço diariamente."
+        },
+        {
+          "id": "c",
+          "text": "A experiência pessoal substitui o dado apresentado."
+        },
+        {
+          "id": "d",
+          "text": "O texto atribui ao levantamento o uso mensal por 62% dos entrevistados, sem informar a qualidade do serviço."
+        },
+        {
+          "id": "e",
+          "text": "Os 38% restantes nunca usaram o serviço."
+        }
       ],
       "correctOptionId": "d",
       "explanation": "A alternativa conserva a atribuição e os limites do dado. Experiência externa não o refuta por si só; frequência não informa qualidade, e o grupo restante pode usar com outra periodicidade. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q059",
-      "revision": 1,
-      "prompt": "Leia: 'Para solicitar revisão, preencha o formulário até sexta-feira e anexe a justificativa. Pedidos sem identificação não serão analisados.' Se o trecho integrar documento publicado para tornar públicas todas as regras e condições de um processo seletivo, a análise correta é:",
-      "options": [
-        { "id": "a", "text": "Gênero edital, com sequência injuntiva predominante no trecho." },
-        { "id": "b", "text": "Gênero injuntivo, com tipo edital." },
-        { "id": "c", "text": "Gênero notícia, porque contém uma data." },
-        { "id": "d", "text": "Gênero ata, porque menciona análise." },
-        { "id": "e", "text": "Suporte formulário, que elimina o gênero do documento." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Edital é o gênero definido pela função de publicar regras; as orientações e condições do trecho realizam sequência injuntiva. As demais opções invertem categorias ou usam pistas irrelevantes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q060",
       "revision": 1,
       "prompt": "Leia: 'Especialistas reconhecem que o portal ampliou o acesso aos dados. Ainda assim, a mera publicação não garante transparência: sem contexto e linguagem clara, a informação continua distante do cidadão.' Qual análise integra corretamente vozes, relação argumentativa e tese?",
       "options": [
-        { "id": "a", "text": "O texto nega que tenha havido qualquer ampliação do acesso." },
-        { "id": "b", "text": "A voz dos especialistas é citada como concessão, e a tese sustenta que publicar dados, sem torná-los compreensíveis, é insuficiente." },
-        { "id": "c", "text": "A tese afirma que contexto e clareza impedem a transparência." },
-        { "id": "d", "text": "O trecho é predominantemente narrativo porque usa o verbo 'ampliou'." },
-        { "id": "e", "text": "A fala dos especialistas e a posição do enunciador são necessariamente idênticas em todos os aspectos." }
+        {
+          "id": "a",
+          "text": "O texto nega que tenha havido qualquer ampliação do acesso."
+        },
+        {
+          "id": "b",
+          "text": "A voz dos especialistas é citada como concessão, e a tese sustenta que publicar dados, sem torná-los compreensíveis, é insuficiente."
+        },
+        {
+          "id": "c",
+          "text": "A tese afirma que contexto e clareza impedem a transparência."
+        },
+        {
+          "id": "d",
+          "text": "O trecho é predominantemente narrativo porque usa o verbo 'ampliou'."
+        },
+        {
+          "id": "e",
+          "text": "A fala dos especialistas e a posição do enunciador são necessariamente idênticas em todos os aspectos."
+        }
       ],
       "correctOptionId": "b",
       "explanation": "O primeiro período reconhece um avanço e funciona como concessão; 'ainda assim' introduz a posição central sobre a insuficiência da mera publicação. As demais opções negam a concessão, invertem a tese ou confundem verbo passado com narração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q061",
+      "revision": 1,
+      "prompt": "Leia: 'O levantamento ouviu 300 usuários: 180 acessaram o serviço pelo portal, 90 buscaram atendimento presencial e 30 utilizaram os dois canais.' Qual informação está explicitamente afirmada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Todos os usuários preferem o portal."
+        },
+        {
+          "id": "b",
+          "text": "Trinta usuários utilizaram os dois canais."
+        },
+        {
+          "id": "c",
+          "text": "O atendimento presencial será encerrado."
+        },
+        {
+          "id": "d",
+          "text": "O portal é mais eficiente que o atendimento presencial."
+        },
+        {
+          "id": "e",
+          "text": "Nenhum usuário encontrou dificuldade de acesso."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A quantidade de usuários dos dois canais aparece diretamente no texto. Preferência, eficiência, encerramento e ausência de dificuldades não foram informados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q062",
+      "revision": 1,
+      "prompt": "Leia: 'A unidade ampliou o horário em março. Nos dois meses seguintes, aumentou o número de atendimentos concluídos, enquanto a equipe permaneceu do mesmo tamanho.' Qual conclusão é autorizada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A ampliação do horário foi comprovadamente a única causa do aumento."
+        },
+        {
+          "id": "b",
+          "text": "A equipe recebeu novos integrantes em abril."
+        },
+        {
+          "id": "c",
+          "text": "O aumento dos atendimentos ocorreu depois da ampliação do horário."
+        },
+        {
+          "id": "d",
+          "text": "Todos os atendimentos passaram a ser concluídos."
+        },
+        {
+          "id": "e",
+          "text": "A produtividade individual necessariamente dobrou."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O trecho estabelece sequência temporal e informa estabilidade do tamanho da equipe. Não demonstra causa exclusiva, totalidade, contratação nem duplicação de produtividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q063",
+      "revision": 1,
+      "prompt": "Leia: 'O acesso a dados públicos não depende apenas de disponibilizá-los. Arquivos sem descrição, formatos fechados e páginas inacessíveis podem manter a informação distante do cidadão.' Qual síntese preserva a ideia central?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Publicar qualquer arquivo garante acesso efetivo."
+        },
+        {
+          "id": "b",
+          "text": "Descrição, formato e acessibilidade influenciam o acesso efetivo aos dados."
+        },
+        {
+          "id": "c",
+          "text": "Somente páginas impressas permitem transparência."
+        },
+        {
+          "id": "d",
+          "text": "Todo arquivo fechado contém informação falsa."
+        },
+        {
+          "id": "e",
+          "text": "A divulgação de dados deve ser proibida até que todas as páginas sejam idênticas."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A síntese reúne os três obstáculos e a distinção entre mera disponibilização e acesso efetivo, sem universalizar ou inverter o argumento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q064",
+      "revision": 1,
+      "prompt": "Um texto afirma que linguagem excessivamente técnica afasta parte do público. Em seguida, menciona um formulário que usa siglas sem explicação e exige termos desconhecidos do cidadão. O segundo trecho exerce a função de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "contradizer integralmente a afirmação inicial."
+        },
+        {
+          "id": "b",
+          "text": "apresentar exemplo que concretiza a afirmação geral."
+        },
+        {
+          "id": "c",
+          "text": "mudar para tema sem relação."
+        },
+        {
+          "id": "d",
+          "text": "formular a tese oposta à do texto."
+        },
+        {
+          "id": "e",
+          "text": "provar que toda sigla é necessariamente incorreta."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O caso do formulário ilustra como a linguagem técnica pode criar distância. Ele não transforma o exemplo em regra universal nem abandona a ideia inicial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q065",
+      "revision": 1,
+      "prompt": "Leia: 'Embora a automação reduza tarefas repetitivas, decisões que afetam direitos devem continuar sujeitas a revisão humana.' A tese do trecho é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A automação nunca reduz tarefas repetitivas."
+        },
+        {
+          "id": "b",
+          "text": "Toda decisão automatizada é ilegal."
+        },
+        {
+          "id": "c",
+          "text": "Decisões que afetam direitos devem permanecer revisáveis por pessoas."
+        },
+        {
+          "id": "d",
+          "text": "A revisão humana elimina qualquer erro."
+        },
+        {
+          "id": "e",
+          "text": "Somente tarefas repetitivas afetam direitos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A oração concessiva reconhece uma vantagem da automação; a posição defendida preserva revisão humana para decisões que atingem direitos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q066",
+      "revision": 1,
+      "prompt": "Leia: 'Para a empresa fornecedora, a falha foi pontual. O relatório de auditoria, contudo, identifica ocorrências semelhantes em quatro meses consecutivos.' Qual análise é correta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O narrador adere necessariamente à avaliação da empresa."
+        },
+        {
+          "id": "b",
+          "text": "As duas fontes apresentam avaliações compatíveis e sem contraste."
+        },
+        {
+          "id": "c",
+          "text": "A avaliação da empresa é atribuída a ela e contrastada com evidência do relatório."
+        },
+        {
+          "id": "d",
+          "text": "O relatório afirma que a falha ocorreu uma única vez."
+        },
+        {
+          "id": "e",
+          "text": "A expressão “contudo” elimina a existência da primeira voz."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A atribuição separa a voz da empresa, e “contudo” introduz dado que enfraquece a caracterização da falha como pontual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q067",
+      "revision": 1,
+      "prompt": "Na frase 'A comissão deixou de omitir os critérios no relatório', qual informação é pressuposta pela construção 'deixou de'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A comissão omitia os critérios anteriormente."
+        },
+        {
+          "id": "b",
+          "text": "Os critérios são necessariamente ilegais."
+        },
+        {
+          "id": "c",
+          "text": "O relatório foi aprovado por unanimidade."
+        },
+        {
+          "id": "d",
+          "text": "Nenhum critério voltou a ser mencionado."
+        },
+        {
+          "id": "e",
+          "text": "A comissão foi dissolvida."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Deixar de” apresenta como pano de fundo a ocorrência anterior da atividade, neste caso a omissão. As demais informações não decorrem da frase. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q068",
+      "revision": 1,
+      "prompt": "Durante uma videoconferência, uma participante diz: 'Seu microfone continua ligado.' No contexto, a fala pode funcionar como alerta para que o interlocutor o desligue. Esse sentido é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "uma ordem explicitamente formulada no imperativo."
+        },
+        {
+          "id": "b",
+          "text": "uma implicatura produzida pela situação comunicativa."
+        },
+        {
+          "id": "c",
+          "text": "um acarretamento de que a reunião terminou."
+        },
+        {
+          "id": "d",
+          "text": "uma definição técnica de microfone."
+        },
+        {
+          "id": "e",
+          "text": "uma contradição lógica."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O enunciado afirma o estado do microfone, e o contexto permite inferir o alerta ou pedido. A ação esperada não foi expressa como ordem literal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q069",
+      "revision": 1,
+      "prompt": "Em 'O relatório foi publicado em 3 de junho e apresentou uma análise surpreendentemente superficial', qual segmento expressa avaliação?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O relatório."
+        },
+        {
+          "id": "b",
+          "text": "foi publicado."
+        },
+        {
+          "id": "c",
+          "text": "em 3 de junho."
+        },
+        {
+          "id": "d",
+          "text": "uma análise surpreendentemente superficial."
+        },
+        {
+          "id": "e",
+          "text": "apresentou, sem considerar seu complemento."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "“Surpreendentemente superficial” avalia a qualidade da análise. Publicação e data são apresentadas como informações verificáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q070",
+      "revision": 1,
+      "prompt": "Leia: 'A etapa de conferência tornou-se o gargalo do processo: todos os pedidos aguardavam ali por vários dias.' No contexto, 'gargalo' significa:",
+      "options": [
+        {
+          "id": "a",
+          "text": "parte física estreita de uma garrafa."
+        },
+        {
+          "id": "b",
+          "text": "ponto que limita o fluxo e provoca acúmulo."
+        },
+        {
+          "id": "c",
+          "text": "atalho que elimina a conferência."
+        },
+        {
+          "id": "d",
+          "text": "erro de ortografia no relatório."
+        },
+        {
+          "id": "e",
+          "text": "unidade responsável por ampliar imediatamente a capacidade."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O contexto seleciona o sentido figurado de ponto restritivo do fluxo, confirmado pelo acúmulo e pela espera. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q071",
+      "revision": 1,
+      "prompt": "Na frase 'Em tese, a nova regra simplifica o procedimento; na prática, ainda há etapas redundantes', a expressão 'em tese' indica:",
+      "options": [
+        {
+          "id": "a",
+          "text": "certeza de que a simplificação ocorreu integralmente."
+        },
+        {
+          "id": "b",
+          "text": "contraste entre resultado esperado ou teórico e funcionamento observado."
+        },
+        {
+          "id": "c",
+          "text": "negação de qualquer objetivo de simplificação."
+        },
+        {
+          "id": "d",
+          "text": "localização espacial da regra."
+        },
+        {
+          "id": "e",
+          "text": "ordem para eliminar imediatamente todas as etapas."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A expressão restringe a primeira afirmação ao plano esperado ou teórico, que será contrastado com a observação prática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q072",
+      "revision": 1,
+      "prompt": "Um artigo defende a manutenção de atendimento presencial e informa que 22% dos usuários pesquisados não possuem acesso regular à Internet. No argumento, o dado estatístico funciona como:",
+      "options": [
+        {
+          "id": "a",
+          "text": "evidência usada para sustentar a tese."
+        },
+        {
+          "id": "b",
+          "text": "tese oposta à manutenção do canal."
+        },
+        {
+          "id": "c",
+          "text": "descrição física do posto de atendimento."
+        },
+        {
+          "id": "d",
+          "text": "prova de que nenhum usuário utiliza Internet."
+        },
+        {
+          "id": "e",
+          "text": "informação sem relação com o acesso ao serviço."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O percentual oferece base empírica para a necessidade de canal alternativo. Ele não universaliza a falta de acesso nem substitui a tese. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q073",
+      "revision": 1,
+      "prompt": "Dois gráficos mostram a mesma variação de 98 para 100. O primeiro eixo começa em zero; o segundo, em 97,5. Por que o segundo pode produzir impressão de mudança maior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Porque altera necessariamente os valores numéricos."
+        },
+        {
+          "id": "b",
+          "text": "Porque a escala truncada amplia visualmente uma diferença pequena."
+        },
+        {
+          "id": "c",
+          "text": "Porque todo eixo que não começa em zero contém fraude."
+        },
+        {
+          "id": "d",
+          "text": "Porque transforma valores absolutos em percentuais automaticamente."
+        },
+        {
+          "id": "e",
+          "text": "Porque elimina o período analisado."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ao mostrar apenas uma faixa estreita, o eixo faz a distância gráfica ocupar maior proporção. Os valores permanecem os mesmos, e a escolha não prova fraude por si só. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q074",
+      "revision": 1,
+      "prompt": "Em uma charge, diante de uma fila que contorna o prédio, uma placa anuncia 'Atendimento instantâneo'. O efeito de ironia decorre:",
+      "options": [
+        {
+          "id": "a",
+          "text": "da confirmação visual de que não existe espera."
+        },
+        {
+          "id": "b",
+          "text": "do contraste entre a promessa verbal e a cena representada."
+        },
+        {
+          "id": "c",
+          "text": "da ausência de qualquer relação entre palavra e imagem."
+        },
+        {
+          "id": "d",
+          "text": "de um cálculo de porcentagem."
+        },
+        {
+          "id": "e",
+          "text": "do uso necessariamente literal de “instantâneo”."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A cena de longa espera contradiz a promessa de rapidez e orienta leitura crítica do enunciado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q075",
+      "revision": 1,
+      "prompt": "Uma campanha contra desperdício retoma a frase conhecida 'Ser ou não ser' como 'Reusar ou não reusar? Eis uma decisão diária'. A retomada produz:",
+      "options": [
+        {
+          "id": "a",
+          "text": "intertextualidade por alusão e transformação de enunciado reconhecível."
+        },
+        {
+          "id": "b",
+          "text": "ausência de relação com qualquer texto anterior."
+        },
+        {
+          "id": "c",
+          "text": "acarretamento lógico de que todos já reutilizam materiais."
+        },
+        {
+          "id": "d",
+          "text": "descrição técnica de um processo industrial."
+        },
+        {
+          "id": "e",
+          "text": "ambiguidade exclusivamente sintática."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O efeito depende do reconhecimento do enunciado anterior e de sua adaptação ao novo propósito comunicativo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q076",
+      "revision": 1,
+      "prompt": "Um texto dirigido a novos servidores explica, em linguagem acessível, como identificar mensagens suspeitas e termina com recomendações de segurança. A finalidade predominante é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "entreter especialistas por meio de narrativa ficcional."
+        },
+        {
+          "id": "b",
+          "text": "orientar novos servidores a reconhecer e evitar riscos em mensagens."
+        },
+        {
+          "id": "c",
+          "text": "registrar deliberações de uma reunião."
+        },
+        {
+          "id": "d",
+          "text": "defender que toda mensagem eletrônica é fraudulenta."
+        },
+        {
+          "id": "e",
+          "text": "solicitar nomeação para um cargo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Público, explicações e recomendações convergem para orientação preventiva. As outras opções alteram finalidade ou generalizam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q077",
+      "revision": 1,
+      "prompt": "Leia: 'A plataforma recebeu novos recursos de busca, mas usuários com leitores de tela ainda relatam barreiras. A atualização, portanto, ampliou funções sem assegurar acesso equivalente.' Qual alternativa resume o trecho sem extrapolar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A atualização não acrescentou recurso algum."
+        },
+        {
+          "id": "b",
+          "text": "Todos os usuários deixaram de acessar a plataforma."
+        },
+        {
+          "id": "c",
+          "text": "A ampliação funcional coexistiu com barreiras de acessibilidade."
+        },
+        {
+          "id": "d",
+          "text": "Leitores de tela causaram as falhas de busca."
+        },
+        {
+          "id": "e",
+          "text": "A plataforma deve ser definitivamente desativada."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A opção preserva a concessão entre novos recursos e barreiras remanescentes. As demais contradizem, causalizam ou prescrevem sem base. Fonte: questão autoral baseada nas referências do conteúdo."
     }
   ]
 }

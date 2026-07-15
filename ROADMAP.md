@@ -10,7 +10,7 @@ Regra editorial de dimensionamento: cada assunto deve caber em uma sessão de es
 
 O ciclo de produção tem duas fases. Primeiro, ao iniciar o trabalho, o item deve ser marcado como `[>]` e essa reserva compartilhada deve ser registrada em commit e push antes da pesquisa. Depois de concluídos `conteudo.md`, `cheat-sheet.md`, pelo menos 50 questões, os checks e a revisão independente, o item deve permanecer `[R]` durante a publicação do conteúdo, a CI e o deployment. Somente após deployment bem-sucedido o estado `[x]` deve ser registrado em um commit posterior de status do roadmap e enviado ao remoto. Se a publicação falhar, o item permanece `[R]` para correção ou passa a `[!]` com motivo objetivo.
 
-A sequência global fixa de Assuntos 001 a 153 define o `order` inteiro do frontmatter de cada futuro `conteudo.md`; não pode haver lacunas ou duplicidades, nem renumeração silenciosa depois da publicação. O Assunto 001 foi reaberto porque a publicação anterior combinava os itens 1 e 2; a produção ainda não foi dividida e este assunto deve ser refeito sem presumir que essa separação já esteja implementada. A rastreabilidade ao edital é preservada nos itens, subitens e recortes descritos em cada assunto, mesmo quando a numeração reinicia dentro de cada matéria.
+A sequência global fixa de Assuntos 001 a 153 define o `order` inteiro do frontmatter de cada futuro `conteudo.md`; não pode haver lacunas ou duplicidades, nem renumeração silenciosa depois da publicação. A rastreabilidade ao edital é preservada nos itens, subitens e recortes descritos em cada assunto, mesmo quando a numeração reinicia dentro de cada matéria.
 
 ## TCE/MA 2026 — Cargo 1 Analista Estadual de Apoio ao Controle Externo
 
@@ -32,12 +32,11 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 #### Língua Portuguesa
 
-##### [>] Assunto 001 - Item 1: Leitura, compreensão e interpretação de textos de gêneros variados.
+##### [R] Assunto 001 - Item 1: Leitura, compreensão e interpretação de textos de gêneros variados.
 
 - Item 1. Compreensão e interpretação de textos de gêneros variados.
-- Nota de reabertura: a publicação anterior combinava os itens 1 e 2; a produção ainda não foi dividida e este assunto deve ser refeito sem presumir que essa separação já esteja implementada.
 
-##### [>] Assunto 002 - Item 2: Tipos e gêneros textuais.
+##### [R] Assunto 002 - Item 2: Tipos e gêneros textuais.
 
 - Item 2. Reconhecimento de tipos e gêneros textuais.
 

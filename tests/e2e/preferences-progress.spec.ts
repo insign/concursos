@@ -37,7 +37,7 @@ test('merges preference fields changed concurrently in two tabs', async ({ page,
   await expect(secondPage.getByLabel('Embaralhar questões')).toBeChecked();
 });
 
-test('shows and repairs materialized progress without exposing on-submit score', async ({ page }) => {
+test('shows and repairs materialized progress without exposing on-submit score', async ({ page, request }) => {
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/questoes/');
   await page.getByLabel('Eficiência').check();
   await expect(page.getByText('Resposta salva localmente')).toBeVisible();
@@ -45,7 +45,11 @@ test('shows and repairs materialized progress without exposing on-submit score',
   await page.goto('/concursos/concurso-exemplo/');
   await expect(page.locator('[data-progress-summary]')).toHaveText('1/12 respondidas.');
 
+  const catalogResponse = await request.get('/sync-catalog.json');
+  expect(catalogResponse.ok()).toBe(true);
+  const syncCatalog = await catalogResponse.json() as { subjects: unknown[] };
+
   await page.goto('/configuracoes/');
   await page.getByRole('button', { name: 'Recalcular progresso' }).click();
-  await expect(page.getByText('Progresso recalculado para 2 assunto(s).')).toBeVisible();
+  await expect(page.getByText(`Progresso recalculado para ${syncCatalog.subjects.length} assunto(s).`)).toBeVisible();
 });
