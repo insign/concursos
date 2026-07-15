@@ -50,7 +50,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 4.2. Emprego de tempos e modos verbais.
 
-##### [R] Assunto 006 - Item 5, subitem 5.1, recorte: Classes nominais de palavras.
+##### [x] Assunto 006 - Item 5, subitem 5.1, recorte: Classes nominais de palavras.
 
 - 5.1. Emprego de substantivo, artigo, adjetivo, numeral e pronome.
 - Redação original do subitem 5.1: Emprego das classes de palavras.
