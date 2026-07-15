@@ -2,13 +2,15 @@
 
 Este arquivo é o backlog editorial autoritativo e define o escopo programático dos conteúdos, resumos e questões do projeto. O `final_plan.md` permanece como autoridade arquitetural. Os cabeçalhos de matéria deixam de ser apenas agrupadores: quando o conteúdo do assunto correspondente for publicado, cada agrupamento deverá ser representado por um descritor explícito `grupo.json`, e todo assunto publicado deverá estar abaixo de um ou mais desses grupos editoriais. Cada assunto forma uma unidade de estudo coesa e pode abranger um item principal, itens intrinsecamente relacionados ou uma parte delimitada de um item excessivamente amplo. Cada assunto deve ter seu próprio `conteudo.md`, `cheat-sheet.md` e conjunto de 50 ou mais questões. O trabalho deve ser realizado em um assunto por vez, salvo solicitação explícita para processar um lote. Os números e recortes do edital indicados em cada assunto são escopo obrigatório de aceitação, sem omissão ou duplicação.
 
+Regra editorial de dimensionamento: cada assunto deve caber em uma sessão de estudo focada, responder a uma pergunta ou mapa de estudo claro e conter material coerente suficiente para sustentar as 50 questões obrigatórias, sem enchimento. Não há limite rígido de palavras. Divisões devem seguir fronteiras funcionais, normativas, cronológicas ou de processo, e não uma contagem arbitrária de artigos ou parágrafos. Itens só devem ser agrupados quando forem pequenos demais para estudo autônomo e intrinsecamente relacionados.
+
 ## Legenda
 
 `[ ] Pendente`, `[>] Em progresso`, `[R] Em revisão`, `[x] Concluído`, `[!] Bloqueado`, `[-] Cancelado`.
 
 O ciclo de produção tem duas fases. Primeiro, ao iniciar o trabalho, o item deve ser marcado como `[>]` e essa reserva compartilhada deve ser registrada em commit e push antes da pesquisa. Depois de concluídos `conteudo.md`, `cheat-sheet.md`, pelo menos 50 questões, os checks e a revisão independente, o item deve permanecer `[R]` durante a publicação do conteúdo, a CI e o deployment. Somente após deployment bem-sucedido o estado `[x]` deve ser registrado em um commit posterior de status do roadmap e enviado ao remoto. Se a publicação falhar, o item permanece `[R]` para correção ou passa a `[!]` com motivo objetivo.
 
-A sequência global fixa de Assuntos 001 a 084 define o `order` inteiro do frontmatter de cada futuro `conteudo.md`; não pode haver lacunas ou duplicidades, nem renumeração silenciosa depois da publicação. A rastreabilidade ao edital é preservada nos itens, subitens e recortes descritos em cada assunto, mesmo quando a numeração reinicia dentro de cada matéria.
+A sequência global fixa de Assuntos 001 a 153 define o `order` inteiro do frontmatter de cada futuro `conteudo.md`; não pode haver lacunas ou duplicidades, nem renumeração silenciosa depois da publicação. O Assunto 001 foi reaberto porque a publicação anterior combinava os itens 1 e 2; a produção ainda não foi dividida e este assunto deve ser refeito sem presumir que essa separação já esteja implementada. A rastreabilidade ao edital é preservada nos itens, subitens e recortes descritos em cada assunto, mesmo quando a numeração reinicia dentro de cada matéria.
 
 ## TCE/MA 2026 — Cargo 1 Analista Estadual de Apoio ao Controle Externo
 
@@ -30,253 +32,424 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 #### Língua Portuguesa
 
-##### [x] Assunto 001 - Itens 1 e 2: Leitura, compreensão, interpretação, tipos e gêneros textuais.
+##### [>] Assunto 001 - Item 1: Leitura, compreensão e interpretação de textos de gêneros variados.
 
 - Item 1. Compreensão e interpretação de textos de gêneros variados.
+- Nota de reabertura: a publicação anterior combinava os itens 1 e 2; a produção ainda não foi dividida e este assunto deve ser refeito sem presumir que essa separação já esteja implementada.
+
+##### [>] Assunto 002 - Item 2: Tipos e gêneros textuais.
+
 - Item 2. Reconhecimento de tipos e gêneros textuais.
 
-##### [ ] Assunto 002 - Item 3: Domínio da ortografia oficial.
+##### [ ] Assunto 003 - Item 3: Domínio da ortografia oficial.
 
-##### [ ] Assunto 003 - Item 4: Domínio dos mecanismos de coesão textual.
+##### [ ] Assunto 004 - Item 4, subitem 4.1: Coesão por referenciação, substituição, repetição, conectores e sequenciação textual.
 
 - 4.1. Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.
+
+##### [ ] Assunto 005 - Item 4, subitem 4.2: Emprego de tempos e modos verbais.
+
 - 4.2. Emprego de tempos e modos verbais.
 
-##### [ ] Assunto 004 - Item 5, subitens 5.1 a 5.3: Classes de palavras e relações entre termos e orações.
+##### [ ] Assunto 006 - Item 5, subitem 5.1, recorte: Classes nominais de palavras.
 
-- 5.1. Emprego das classes de palavras.
+- 5.1. Emprego de substantivo, artigo, adjetivo, numeral e pronome.
+- Redação original do subitem 5.1: Emprego das classes de palavras.
+- Exclusividade: o subitem 5.1 é dividido entre os Assuntos 006 a 008 em classes nominais, verbo e classes invariáveis, sem omissão ou duplicação.
+
+##### [ ] Assunto 007 - Item 5, subitem 5.1, recorte: Verbo como classe de palavras.
+
+- 5.1. Emprego do verbo como classe de palavras, distinguido do emprego de tempos e modos verbais do Assunto 005.
+
+##### [ ] Assunto 008 - Item 5, subitem 5.1, recorte: Classes invariáveis de palavras.
+
+- 5.1. Emprego de advérbio, preposição, conjunção e interjeição.
+
+##### [ ] Assunto 009 - Item 5, subitem 5.2: Coordenação entre orações e termos da oração.
+
 - 5.2. Relações de coordenação entre orações e entre termos da oração.
+
+##### [ ] Assunto 010 - Item 5, subitem 5.3: Subordinação entre orações e termos da oração.
+
 - 5.3. Relações de subordinação entre orações e entre termos da oração.
 
-##### [ ] Assunto 005 - Item 5, subitens 5.4 a 5.8: Pontuação, concordância, regência, crase e colocação pronominal.
+##### [ ] Assunto 011 - Item 5, subitem 5.4: Pontuação.
 
 - 5.4. Emprego dos sinais de pontuação.
+
+##### [ ] Assunto 012 - Item 5, subitem 5.5: Concordância verbal e nominal.
+
 - 5.5. Concordância verbal e nominal.
+
+##### [ ] Assunto 013 - Item 5, subitem 5.6: Regência verbal e nominal.
+
 - 5.6. Regência verbal e nominal.
+
+##### [ ] Assunto 014 - Item 5, subitem 5.7: Crase.
+
 - 5.7. Emprego do sinal indicativo de crase.
+
+##### [ ] Assunto 015 - Item 5, subitem 5.8: Colocação pronominal.
+
 - 5.8. Colocação dos pronomes átonos.
 
-##### [ ] Assunto 006 - Item 6: Reescrita de frases e parágrafos do texto.
+##### [ ] Assunto 016 - Item 6, subitens 6.1 e 6.2: Significação, substituição e equivalência lexical no texto.
 
 - 6.1. Significação das palavras.
 - 6.2. Substituição de palavras ou de trechos de texto.
+
+##### [ ] Assunto 017 - Item 6, subitem 6.3: Reorganização da estrutura de orações e períodos.
+
 - 6.3. Reorganização da estrutura de orações e de períodos do texto.
+
+##### [ ] Assunto 018 - Item 6, subitem 6.4: Reescrita de textos de diferentes gêneros e níveis de formalidade.
+
 - 6.4. Reescrita de textos de diferentes gêneros e níveis de formalidade.
 
 #### Competências Digitais e Informática Aplicada ao Setor Público
 
-##### [ ] Assunto 007 - Item 1: Competências digitais no setor público.
+##### [ ] Assunto 019 - Item 1, subitens 1.1 e 1.2: Cultura, cidadania, letramentos digitais, pensamento computacional, ética de dados e desinformação no serviço público.
 
 - 1.1. Conceitos fundamentais: cultura digital, cidadania digital, letramento digital e midiático (BNCC e Política Nacional de Educação Digital - Lei nº 14.533/2023).
 - 1.2. Pensamento computacional aplicado ao serviço público: análise crítica de informações, ética no uso de dados e combate à desinformação.
 
-##### [ ] Assunto 008 - Item 2.1: Microsoft Windows, arquivos, pastas e programas.
+##### [ ] Assunto 020 - Item 2.1: Microsoft Windows, arquivos, pastas e programas.
 
 - 2.1. Sistemas operacionais: Microsoft Windows (conceitos, interface, gerenciamento de arquivos, pastas e programas).
 
-##### [ ] Assunto 009 - Item 2.2: Microsoft Office, documentos, planilhas e apresentações.
+##### [ ] Assunto 021 - Item 2.2, recorte: editores de texto Microsoft Office.
 
 - 2.2. Editores de texto, planilhas e apresentações: Microsoft Office (formatação de documentos, uso de fórmulas e funções, criação de gráficos e apresentações).
+- O item 2.2 é desdobrado nos Assuntos 021 a 023 por ferramenta, sem repetição do seu conteúdo: este assunto trata de documentos e formatação de texto.
 
-##### [ ] Assunto 010 - Item 2, subitens 2.3 e 2.4: Redes, Internet, comunicação e colaboração remota.
+##### [ ] Assunto 022 - Item 2.2, recorte: planilhas, fórmulas, funções e gráficos.
+
+##### [ ] Assunto 023 - Item 2.2, recorte: apresentações.
+
+##### [ ] Assunto 024 - Item 2.3: Redes de computadores, protocolos e interoperabilidade.
 
 - 2.3. Redes de computadores: conceitos básicos (LAN, WAN, Internet), protocolos (TCP/IP, HTTP, SMTP, FTP) e noções de interoperabilidade de sistemas no setor público.
+
+##### [ ] Assunto 025 - Item 2.4: Comunicação, correio eletrônico, colaboração e trabalho remoto.
+
 - 2.4. Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet) e noções de trabalho remoto.
 
-##### [ ] Assunto 011 - Item 3, subitens 3.1 e 3.3: Segurança da informação, backup, ameaças e armazenamento em nuvem.
+##### [ ] Assunto 026 - Item 3, subitens 3.1 e 3.3, recorte: Cópia de segurança e armazenamento em nuvem.
 
-- 3.1. Segurança da informação: procedimentos de cópia de segurança (backup), noções de vírus, worms e pragas virtuais; programas de proteção (antivírus, firewall, anti-spyware); ameaças digitais (phishing, pharming).
+- 3.1. Segurança da informação: procedimentos de cópia de segurança (backup).
 - 3.3. Armazenamento em nuvem (cloud storage): conceitos e aplicações (OneDrive, Google Drive).
+- Exclusividade: o subitem 3.1 é dividido entre os Assuntos 026 e 027 em backup e malware/proteção/ameaças, sem omissão ou duplicação; o subitem 3.3 (armazenamento em nuvem) permanece agrupado com backup, como já documentado.
 
-##### [ ] Assunto 012 - Item 3, subitens 3.2 e 3.5: Proteção de dados e direitos no ambiente digital.
+##### [ ] Assunto 027 - Item 3, subitem 3.1, recorte: Malware, programas de proteção, phishing e pharming.
+
+- 3.1. Segurança da informação: noções de vírus, worms e pragas virtuais; programas de proteção (antivírus, firewall, anti-spyware); ameaças digitais (phishing, pharming).
+
+##### [ ] Assunto 028 - Item 3, subitem 3.2: Lei Geral de Proteção de Dados Pessoais.
 
 - 3.2. Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018): conceitos fundamentais, direitos dos titulares e aplicação no setor público.
+
+##### [ ] Assunto 029 - Item 3, subitem 3.5: Marco Civil da Internet.
+
 - 3.5. Marco Civil da Internet (Lei nº 12.965/2014): princípios, direitos e deveres para o uso da Internet no Brasil.
 
-##### [ ] Assunto 013 - Itens 3.4 e 4.4: Assinaturas digitais e processo eletrônico administrativo.
+##### [ ] Assunto 030 - Itens 3.4 e 4.4.3: Assinatura digital, assinatura eletrônica e certificação em documentos oficiais.
 
 - 3.4. Noções de assinatura digital em processos administrativos.
+- 4.4.3. Noções de assinatura eletrônica e certificação digital em documentos oficiais.
+- Os dois recortes são tratados juntos por serem o mesmo núcleo funcional, sem duplicar assinatura e certificação nos demais assuntos.
+
+##### [ ] Assunto 031 - Item 4, subitens 4.4.1 e 4.4.2: Processo Eletrônico Nacional e Sistema Eletrônico de Informações.
+
 - 4.4. Sistemas e ferramentas do setor público.
   - 4.4.1. Processo Eletrônico Nacional (PEN).
   - 4.4.2. Sistema Eletrônico de Informações (SEI).
-  - 4.4.3. Noções de assinatura eletrônica e certificação digital em documentos oficiais.
 
-##### [ ] Assunto 014 - Item 4, subitens 4.1 a 4.3: Governo digital, dados abertos, transparência e acesso à informação.
+##### [ ] Assunto 032 - Item 4, subitens 4.1, 4.2 e 4.3: Governo digital, Gov.br, dados abertos e transparência digital.
 
 - 4.1. Governo digital e serviços ao cidadão: plataforma Gov.br (login único, carteira digital, serviços integrados).
 - 4.2. Portal Nacional de Dados Abertos.
 - 4.3. Noções de transparência e acesso à informação pública (Lei nº 12.527/2011 - Lei de Acesso à Informação).
+- O subitem 4.3 é estudado aqui como aplicação introdutória no contexto digital; o regime jurídico completo da Lei nº 12.527/2011 pertence aos Assuntos 140 e 141.
 
-O subitem 4.3 deve ser estudado aqui como aplicação introdutória da transparência e do acesso à informação no contexto digital. O regime jurídico completo da Lei nº 12.527/2011 pertence ao Assunto 076.
+##### [ ] Assunto 033 - Item 4.5, recorte: inteligência artificial e automação de serviços públicos.
 
-##### [ ] Assunto 015 - Item 4.5: Tecnologias emergentes no setor público.
+- 4.5. Tecnologias emergentes no setor público: noções de inteligência artificial aplicada a serviços públicos (IA generativa, chatbots, atendimento automatizado).
+- O item 4.5 é desdobrado nos Assuntos 033 e 034 por núcleo tecnológico, sem repetir o conteúdo: este assunto trata de IA e automação.
 
-- 4.5. Tecnologias emergentes no setor público: noções de inteligência artificial aplicada a serviços públicos (IA generativa, chatbots, atendimento automatizado); noções de big data e análise de dados para políticas públicas; Internet das coisas (IoT) em cidades inteligentes.
+##### [ ] Assunto 034 - Item 4.5, recorte: big data, análise de dados, Internet das coisas e cidades inteligentes.
 
-##### [ ] Assunto 016 - Item 4.6: Ética, responsabilidade, inclusão e acessibilidade digital no setor público.
+- 4.5. Noções de big data e análise de dados para políticas públicas; Internet das coisas (IoT) em cidades inteligentes.
+
+##### [ ] Assunto 035 - Item 4.6: Ética, responsabilidade digital, desinformação, inclusão e acessibilidade.
 
 - 4.6. Ética e responsabilidade digital no serviço público: uso ético de tecnologias; combate a fake news e desinformação; inclusão digital e acessibilidade em serviços públicos.
+- Acessibilidade aqui significa inclusão e acesso digital em serviços públicos. As normas gerais de acessibilidade e mobilidade reduzida ficam no Assunto 100, e a aplicação da acessibilidade na gestão pública fica no Assunto 114; não duplicar esses recortes.
 
 #### Raciocínio Lógico
 
-##### [ ] Assunto 017 - Itens 1 e 2: Estruturas lógicas e lógica de argumentação.
+##### [ ] Assunto 036 - Item 1: Estruturas lógicas.
 
 - Item 1. Estruturas lógicas.
+
+##### [ ] Assunto 037 - Item 2, subitem 2.1: Lógica de argumentação, analogias, inferências, deduções e conclusões.
+
 - Item 2. Lógica de argumentação.
 - 2.1. Analogias, inferências, deduções e conclusões.
 
-##### [ ] Assunto 018 - Item 3: Lógica sentencial (ou proposicional).
+##### [ ] Assunto 038 - Item 3, subitens 3.1 e 3.2: Proposições simples e compostas e tabelas-verdade.
 
 - 3.1. Proposições simples e compostas.
 - 3.2. Tabelas-verdade.
+
+##### [ ] Assunto 039 - Item 3, subitens 3.3, 3.4 e 3.5: Equivalências, leis de De Morgan e diagramas lógicos.
+
 - 3.3. Equivalências.
 - 3.4. Leis de De Morgan.
 - 3.5. Diagramas lógicos.
 
-##### [ ] Assunto 019 - Item 4: Lógica de primeira ordem.
+##### [ ] Assunto 040 - Item 4: Lógica de primeira ordem.
 
-##### [ ] Assunto 020 - Item 5: Princípios de contagem e probabilidade.
+##### [ ] Assunto 041 - Item 5: Princípios de contagem e probabilidade.
 
-##### [ ] Assunto 021 - Item 6: Operações com conjuntos.
+- Item 5. Princípios de contagem e probabilidade.
 
-##### [ ] Assunto 022 - Item 7: Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.
+##### [ ] Assunto 042 - Item 6: Operações com conjuntos.
+
+##### [ ] Assunto 043 - Item 7, recorte: problemas aritméticos.
+
+- Item 7. Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.
+- O item 7 é desdobrado nos Assuntos 043 a 045 por domínio matemático, sem repetição do conteúdo: este assunto trata de aritmética.
+
+##### [ ] Assunto 044 - Item 7, recorte: problemas geométricos.
+
+##### [ ] Assunto 045 - Item 7, recorte: problemas matriciais.
 
 #### Controle Externo
 
-##### [ ] Assunto 023 - Itens 1 e 2: Fundamentos, tipos e formas de controle interno e externo.
+##### [ ] Assunto 046 - Itens 1 e 2: Conceito, tipos, formas e controle interno e externo.
 
 - Item 1. Conceito, tipos e formas de controle.
 - Item 2. Controle interno e externo.
 
-##### [ ] Assunto 024 - Itens 3 e 4: Controle parlamentar e controle pelos tribunais de contas.
+##### [ ] Assunto 047 - Item 3: Controle parlamentar.
 
-- Item 3. Controle parlamentar.
-- Item 4. Controle pelos tribunais de contas.
+##### [ ] Assunto 048 - Item 4: Controle pelos tribunais de contas.
 
-##### [ ] Assunto 025 - Item 5: Controle administrativo.
+##### [ ] Assunto 049 - Item 5: Controle administrativo.
 
-##### [ ] Assunto 026 - Item 6: Lei nº 8.429/1992 (Lei de Improbidade Administrativa).
+##### [ ] Assunto 050 - Item 6, recorte: sujeitos, atos e regime de responsabilização da Lei nº 8.429/1992.
 
-##### [ ] Assunto 027 - Itens 7 e 8: Sistemas de controle jurisdicional e controle jurisdicional no direito brasileiro.
+- Item 6. Lei nº 8.429/1992 (Lei de Improbidade Administrativa): sujeitos, atos de improbidade e regime de responsabilização.
+
+##### [ ] Assunto 051 - Item 6, recorte: sanções, procedimento, bens e prescrição da Lei nº 8.429/1992.
+
+- Item 6. Lei nº 8.429/1992 (Lei de Improbidade Administrativa): sanções, procedimento, indisponibilidade e perda de bens, e prescrição.
+
+##### [ ] Assunto 052 - Itens 7 e 8: Contencioso administrativo, jurisdição una e controle jurisdicional.
 
 - 7.1. Contencioso administrativo e sistema da jurisdição una.
 - Item 8. Controle jurisdicional da administração pública no direito brasileiro.
 
-##### [ ] Assunto 028 - Item 9: Controle da atividade financeira do Estado: espécies e sistemas.
+##### [ ] Assunto 053 - Item 9: Controle da atividade financeira do Estado: espécies e sistemas.
 
-##### [ ] Assunto 029 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual.
+##### [ ] Assunto 054 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual.
 
 - Item 10. Tribunal de Contas da União (TCU), tribunais de contas dos estados e do Distrito Federal.
 - Item 11. Tribunal de Contas do Estado do Maranhão na Constituição do Estado do Maranhão.
 
 #### Legislação Específica
 
-##### [ ] Assunto 030 - Item 1: Regimento Interno do Tribunal de Contas do Estado do Maranhão (TCE/MA).
+##### [ ] Assunto 055 - Item 1, recorte: instituição e competência do TCE/MA.
 
-##### [ ] Assunto 031 - Item 2: Lei nº 8.258/2005 (Lei Orgânica).
+- Item 1. Regimento Interno do Tribunal de Contas do Estado do Maranhão (TCE/MA).
+- O Regimento Interno é desdobrado nos Assuntos 055 a 063 por função normativa, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [ ] Assunto 032 - Item 3: Lei nº 9.936/2013 (Organização administrativa).
+##### [ ] Assunto 056 - Item 1, recorte: órgãos, autoridades e organização interna.
 
-##### [ ] Assunto 033 - Item 4: IN nº 50/2017 e suas alterações.
+##### [ ] Assunto 057 - Item 1, recorte: sessões, distribuição e deliberação.
 
-##### [ ] Assunto 034 - Item 5: IN nº 82/2025.
+##### [ ] Assunto 058 - Item 1, recorte: processos de controle externo.
+
+##### [ ] Assunto 059 - Item 1, recorte: denúncias, representações e consultas.
+
+##### [ ] Assunto 060 - Item 1, recorte: garantias processuais, provas e prazos.
+
+##### [ ] Assunto 061 - Item 1, recorte: decisões, sanções e execução.
+
+##### [ ] Assunto 062 - Item 1, recorte: recursos e revisão.
+
+##### [ ] Assunto 063 - Item 1, recorte: atos normativos, ética e regras finais.
+
+##### [ ] Assunto 064 - Item 2, recorte: jurisdição e competência da Lei nº 8.258/2005.
+
+- Item 2. Lei nº 8.258/2005 (Lei Orgânica): jurisdição e competência.
+
+##### [ ] Assunto 065 - Item 2, recorte: organização, membros, Ministério Público de Contas, governança e regras finais da Lei nº 8.258/2005.
+
+- Item 2. Lei nº 8.258/2005 (Lei Orgânica): organização, membros e Ministério Público de Contas; governança e regras finais.
+- A Lei nº 8.258/2005 é desdobrada nos Assuntos 064 a 068 por função, sem inventar faixas de artigos nem repetir dispositivos.
+
+##### [ ] Assunto 066 - Item 2, recorte: contas e instrumentos de controle.
+
+##### [ ] Assunto 067 - Item 2, recorte: processos.
+
+##### [ ] Assunto 068 - Item 2, recorte: decisões, débitos, sanções, execução, recursos e revisão.
+
+##### [ ] Assunto 069 - Item 3, recorte: modelo organizacional, direção e unidades técnicas de controle externo da Lei nº 9.936/2013.
+
+- Item 3. Lei nº 9.936/2013 (Organização administrativa): modelo organizacional e direção; unidades técnicas de controle externo.
+- A Lei nº 9.936/2013 é desdobrada nos Assuntos 069 e 070 por unidade funcional, sem inventar faixas de artigos nem repetir dispositivos.
+
+##### [ ] Assunto 070 - Item 3, recorte: unidades administrativas e de apoio, cargos, funções, anexos e reestruturação vigente.
+
+##### [ ] Assunto 071 - Item 4: IN nº 50/2017 e suas alterações — fluxo completo do procedimento.
+
+- Item 4. IN nº 50/2017 e suas alterações: medidas preliminares; instauração, investigação e quantificação do débito; conclusão, encaminhamento, decadência e anexos.
+- A IN nº 50/2017 é tratada em um único fluxo de procedimento, sem inventar faixas de artigos nem repetir dispositivos.
+
+##### [ ] Assunto 072 - Item 5: IN nº 82/2025.
+
+- Item 5. IN nº 82/2025.
+- Norma curta, mantida em um único assunto.
 
 #### História e Geografia do Estado do Maranhão
 
 I - História do Estado do Maranhão
 
-##### [ ] Assunto 035 - Itens 1 a 5: Formação colonial de São Luís, França Equinocial, Guaxenduba e ocupação holandesa.
+##### [ ] Assunto 073 - Itens 1, 2 e 3: França Equinocial, fundação de São Luís e Batalha de Guaxenduba.
 
 - Item 1. História do Maranhão: França equinocial: expedição de Daniel de La Touche.
 - Item 2. Fundação de São Luís.
 - Item 3. Batalha de Guaxenduba.
+
+##### [ ] Assunto 074 - Itens 4 e 5: Invasão e expulsão dos holandeses.
+
 - Item 4. A invasão holandesa.
 - Item 5. A expulsão dos holandeses.
 
-##### [ ] Assunto 036 - Item 6: Estado do Maranhão e Grão-Pará e Revolta de Bequimão.
+##### [ ] Assunto 075 - Item 6, subitens 6.1, 6.2 e 6.3: Revolta de Bequimão e Companhias de Comércio.
 
 - 6.1. A Revolta de Bequimão.
   - 6.1.1. Causas.
 - 6.2. Companhias de Comércio do Maranhão e Grão-Pará.
 - 6.3. Os objetivos da Revolta.
 
-##### [ ] Assunto 037 - Itens 7 a 9: Independência do Brasil e adesão do Maranhão ao Império.
+##### [ ] Assunto 076 - Itens 7, 8 e 9: Adesão do Maranhão ao Império, Independência do Brasil e Batalha do Jenipapo.
 
 - Item 7. Período do Império: adesão do Maranhão.
 - Item 8. A Independência do Brasil.
 - Item 9. Causas da não adesão: a Batalha do Jenipapo.
 
-##### [ ] Assunto 038 - Item 10: A Balaiada: caracterização e causas do movimento.
+##### [ ] Assunto 077 - Item 10: Balaiada: caracterização e causas.
 
-##### [ ] Assunto 039 - Itens 11 a 13: Maranhão republicano, Revolução de 1930, Vitorinismo e Greve de 1951.
+- Item 10. A Balaiada: caracterização e causas do movimento.
+
+##### [ ] Assunto 078 - Itens 11 e 12: Adesão do Maranhão à República e Revolução de 1930.
 
 - Item 11. Período Republicano: adesão do Maranhão à República.
 - Item 12. A Revolução de 1930 no Maranhão.
-- Item 13. O Vitorinismo e a Greve de 1951.
 
-##### [ ] Assunto 040 - Item 14: Fatos políticos, econômicos e sociais do Maranhão na segunda metade do século XX.
+##### [ ] Assunto 079 - Item 13: Vitorinismo e Greve de 1951.
+
+- Item 13. O Vitorinismo e a Greve de 1951.
+- O item 13 é tratado conjuntamente, por recorte histórico, sem repetição.
+
+##### [ ] Assunto 080 - Item 14, recorte político: fatos políticos do Maranhão na segunda metade do século XX.
+
+- Item 14. Fatos políticos do Maranhão na segunda metade do século XX.
+
+##### [ ] Assunto 081 - Item 14, recorte econômico: fatos econômicos do Maranhão na segunda metade do século XX.
+
+- Item 14. Fatos econômicos do Maranhão na segunda metade do século XX.
+
+##### [ ] Assunto 082 - Item 14, recorte social: fatos sociais do Maranhão na segunda metade do século XX.
+
+- Item 14. Fatos sociais do Maranhão na segunda metade do século XX.
 
 II - Geografia do Estado do Maranhão
 
-##### [ ] Assunto 041 - Itens 1, 3 (geomorfologia, geologia e recursos minerais) e 4: Caracterização físico-territorial e relevo do Maranhão.
+##### [ ] Assunto 083 - Item 1: Localização, superfície, limites, fronteiras e pontos extremos.
 
 - Item 1. Localização do Estado do Maranhão: superfície; limites; linhas de fronteira; pontos extremos.
-- Item 3, recorte: Geomorfologia. Geologia e recursos minerais no Maranhão.
+
+##### [ ] Assunto 084 - Itens 3 e 4: Geomorfologia, geologia, recursos minerais e relevo maranhense.
+
+- Item 3. Geomorfologia. Geologia e recursos minerais no Maranhão.
 - Item 4. Classificação do relevo maranhense: planaltos, planícies e baixadas.
 
-##### [ ] Assunto 042 - Itens 2 e 3 (parques nacionais): Áreas de proteção ambiental e parques nacionais.
+##### [ ] Assunto 085 - Itens 2 e 3: Áreas de Proteção Ambiental e parques nacionais.
 
 - Item 2. Áreas de Proteção Ambiental (APA).
-- Item 3, recorte: Parques nacionais.
+- Item 3. Parques nacionais.
 
-##### [ ] Assunto 043 - Itens 3 (clima) e 7: Clima e formações vegetais do Maranhão.
+##### [ ] Assunto 086 - Itens 3 e 7: Climas e formações vegetais do Maranhão.
 
-- Item 3, recorte: Climas do Maranhão: pluviosidade e temperatura.
+- Item 3. Climas do Maranhão: pluviosidade e temperatura.
 - Item 7. Principais formações vegetais: floresta, cerrado e cocais.
 
-##### [ ] Assunto 044 - Itens 5 e 6: Hidrografia e bacias dos rios maranhenses.
+##### [ ] Assunto 087 - Itens 5 e 6: Rios limítrofes, suas bacias e bacias genuinamente maranhenses.
 
 - Item 5. Características dos rios maranhenses: bacias dos rios limítrofes: bacia do Parnaíba, do Gurupi e do Tocantins-Araguaia.
 - Item 6. Bacias dos rios genuinamente maranhenses.
 
-##### [ ] Assunto 045 - Item 8: Geografia da população: população absoluta, povoamento, urbanização, densidade e movimentos populacionais.
+##### [ ] Assunto 088 - Item 8: População, povoamento, densidade, urbanização e movimentos populacionais.
 
-##### [ ] Assunto 046 - Itens 9 e 10: Agricultura, pecuária e extrativismo no Maranhão.
+- Item 8. Geografia da população: população absoluta, povoamento, urbanização, densidade e movimentos populacionais.
+
+##### [ ] Assunto 089 - Item 9: Agricultura e pecuária maranhenses.
 
 - Item 9. A agricultura maranhense: caracterização e principais produtos agrícolas; caracterização da pecuária.
+
+##### [ ] Assunto 090 - Item 10: Extrativismo vegetal, animal e mineral.
+
 - Item 10. Extrativismo: vegetal, animal e mineral.
 
-##### [ ] Assunto 047 - Itens 11 e 12: Indústria e setor terciário no Maranhão.
+##### [ ] Assunto 091 - Item 11: Indústrias de base e de transformação.
 
 - Item 11. Parque industrial: indústrias de base e indústrias de transformação.
+
+##### [ ] Assunto 092 - Item 12: Comércio, telecomunicações e transportes.
+
 - Item 12. Setor terciário: comércio, telecomunicações, transportes.
 
-##### [ ] Assunto 048 - Itens 13 e 14: Infraestrutura logística: malha viária, portos e aeroportos.
+##### [ ] Assunto 093 - Itens 13 e 14: Malha viária, portos e aeroportos.
 
 - Item 13. Malha viária.
 - Item 14. Portos e aeroportos.
 
-##### [ ] Assunto 049 - Item 15: A cultura maranhense.
+##### [ ] Assunto 094 - Item 15: Cultura maranhense.
+
+- Item 15. A cultura maranhense.
 
 #### Noções de Direitos Humanos
 
-##### [ ] Assunto 050 - Itens 1 e 2: Fundamentos dos direitos humanos e dos direitos fundamentais.
+##### [ ] Assunto 095 - Itens 1 e 2: Teoria geral dos direitos fundamentais e relação entre direitos humanos e fundamentais.
 
 - Item 1. Teoria geral dos direitos fundamentais.
 - Item 2. Direitos humanos e direitos fundamentais.
 
-##### [ ] Assunto 051 - Item 3: Declaração Universal dos Direitos Humanos.
+##### [ ] Assunto 096 - Item 3: Declaração Universal dos Direitos Humanos.
 
-##### [ ] Assunto 052 - Item 4: Agenda 2030 da ONU.
+##### [ ] Assunto 097 - Item 4: Agenda 2030 da ONU.
 
-##### [ ] Assunto 053 - Item 5: Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015 e suas alterações).
+##### [ ] Assunto 098 - Item 5, recorte: fundamentos, direitos e garantias do Estatuto da Pessoa com Deficiência.
 
-##### [ ] Assunto 054 - Itens 6 e 7: Acessibilidade e prioridade de atendimento às pessoas com deficiência ou mobilidade reduzida.
+- Item 5. Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015 e suas alterações).
+- O item 5 é desdobrado nos Assuntos 098 e 099 por função normativa, sem inventar faixas de artigos nem repetir dispositivos: este assunto trata de fundamentos, direitos e garantias.
+
+##### [ ] Assunto 099 - Item 5, recorte: inclusão, acessibilidade e responsabilização no Estatuto da Pessoa com Deficiência.
+
+##### [ ] Assunto 100 - Itens 6 e 7: Normas gerais de acessibilidade e prioridade de atendimento.
 
 - Item 6. Normas gerais e critérios básicos para promoção da acessibilidade às pessoas com deficiência ou com mobilidade reduzida (Lei nº 10.098/2000).
 - Item 7. Prioridade de atendimento às pessoas com deficiência (Lei nº 10.048/2000).
 
-##### [ ] Assunto 055 - Item 8: Lei nº 12.288/2010 (Estatuto da Igualdade Racial).
+##### [ ] Assunto 101 - Item 8, recorte: fundamentos, direitos e igualdade material.
+
+- Item 8. Lei nº 12.288/2010 (Estatuto da Igualdade Racial).
+- O item 8 é desdobrado nos Assuntos 101 e 102 por função normativa, sem inventar faixas de artigos nem repetir dispositivos: este assunto trata de fundamentos, direitos e igualdade material.
+
+##### [ ] Assunto 102 - Item 8, recorte: políticas públicas e mecanismos de promoção da igualdade racial.
 
 ### Conhecimentos específicos
 
@@ -284,137 +457,212 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 #### Administração Pública
 
-##### [ ] Assunto 056 - Item 1: Estruturas e desenho das organizações formais modernas.
+##### [ ] Assunto 103 - Item 1: Estruturas e desenho das organizações formais modernas.
 
 - Características básicas, tipos de estrutura organizacional, natureza, finalidades e critérios de departamentalização.
 
-##### [ ] Assunto 057 - Item 2: Processo organizacional: planejamento, direção, comunicação, controle e avaliação.
+##### [ ] Assunto 104 - Item 2, recorte: planejamento e direção no processo organizacional.
 
-##### [ ] Assunto 058 - Item 3: Gestão de processos.
+- Item 2. Processo organizacional: planejamento, direção, comunicação, controle e avaliação.
+- Este assunto trata de planejamento e direção.
 
-##### [ ] Assunto 059 - Itens 4 e 7: Gestão da qualidade e excelência nos serviços públicos.
+##### [ ] Assunto 105 - Item 2, recorte: comunicação no processo organizacional.
+
+- Este assunto trata de comunicação.
+
+##### [ ] Assunto 106 - Item 2, recorte: controle e avaliação no processo organizacional.
+
+- Este assunto trata de controle e avaliação.
+
+##### [ ] Assunto 107 - Item 3: Gestão de processos.
+
+##### [ ] Assunto 108 - Itens 4 e 7: Gestão da qualidade e excelência nos serviços públicos.
 
 - Item 4. Gestão da qualidade.
 - Item 7. Excelência nos serviços públicos.
 
-##### [ ] Assunto 060 - Item 5: Gestão de projetos.
+##### [ ] Assunto 109 - Item 5: Gestão de projetos.
 
-##### [ ] Assunto 061 - Item 6: Planejamento estratégico.
+##### [ ] Assunto 110 - Item 6: Planejamento estratégico.
 
-##### [ ] Assunto 062 - Item 8: Empreendedorismo governamental e novas lideranças no setor público.
+##### [ ] Assunto 111 - Item 8: Empreendedorismo governamental e novas lideranças no setor público.
 
-##### [ ] Assunto 063 - Itens 9 a 11: Gestão pública orientada a resultados e ao cidadão.
+##### [ ] Assunto 112 - Itens 9, 10 e 11: Gestão de resultados, gestão pública e privada e paradigma do cliente.
 
 - Item 9. Gestão de resultados na produção de serviços públicos.
 - Item 10. Convergências e diferenças entre a gestão pública e a gestão privada.
 - Item 11. O paradigma do cliente na gestão pública.
 
-##### [ ] Assunto 064 - Item 12: Sustentabilidade pública e acessibilidade.
+##### [ ] Assunto 113 - Item 12, recorte: Sustentabilidade pública.
+
+- Item 12. Sustentabilidade pública e acessibilidade.
+- O item 12 é desdobrado nos Assuntos 113 e 114 por eixo de gestão, sem repetição: este assunto trata de sustentabilidade pública.
+
+##### [ ] Assunto 114 - Item 12, recorte: Acessibilidade na gestão pública.
 
 #### Administração de Recursos Materiais e Patrimoniais
 
-##### [ ] Assunto 065 - Itens 1, 2 e 6: Fundamentos e atividades da administração de material e patrimônio.
+##### [ ] Assunto 115 - Itens 1, subitem 1.1, 2 e 6: Conceitos de material e patrimônio, patrimônio público e ciclo básico.
 
 - Item 1. Introdução à Administração de Material e Patrimônio.
   - 1.1. Conceituação de Material e Patrimônio.
 - Item 2. O Patrimônio das empresas e órgãos públicos.
 - Item 6. Atividades básicas da Administração de Material e Patrimônio.
 
-##### [ ] Assunto 066 - Itens 3, 4 e 15: Patrimônio imobiliário público, SPIU, gestão, manutenção e conservação.
+##### [ ] Assunto 116 - Itens 3, 4 e 15: Patrimônio imobiliário, SPIU, gestão, manutenção e conservação.
 
 - Item 3. O Patrimônio Imobiliário.
 - Item 4. Cadastro e registro de bens imóveis (SPIU).
 - Item 15. Gestão, manutenção e conservação dos bens patrimoniais imóveis públicos.
 
-##### [ ] Assunto 067 - Itens 5 e 7 a 10: Patrimônio mobiliário e ciclo da administração patrimonial.
+##### [ ] Assunto 117 - Itens 5 e 7: Patrimônio mobiliário e responsabilidade civil e administrativa.
 
 - Item 5. O Patrimônio Mobiliário.
 - Item 7. Administração Patrimonial: noções sobre responsabilidade civil e administrativa.
+
+##### [ ] Assunto 118 - Itens 8, 9 e 10: Controle, movimentação e sistema patrimonial.
+
 - Item 8. O controle dos materiais e do patrimônio.
 - Item 9. A movimentação do patrimônio.
 - Item 10. Sistema Patrimonial.
 
-##### [ ] Assunto 068 - Item 11: Previsão e controle de estoque.
+##### [ ] Assunto 119 - Item 11: Previsão e controle de estoque.
 
 - Planejamento, processos e políticas de administração de estoques; determinação de níveis de estoque; tempo de ressuprimento e estoques de segurança; avaliação de estoques - métodos.
 
-##### [ ] Assunto 069 - Item 12: Almoxarifado e armazenamento.
+##### [ ] Assunto 120 - Item 12: Almoxarifado e armazenamento.
 
 - Funções, princípios e objetivos; controle, registro, conservação e recuperação de material; técnicas de armazenamento; utilização de espaço; segurança.
 
-##### [ ] Assunto 070 - Item 13 (compras e classificação): Aquisição, classificação, padronização e codificação de materiais e patrimônio.
+##### [ ] Assunto 121 - Item 13, recorte: Compras, classificação, padronização e codificação.
 
-##### [ ] Assunto 071 - Itens 13 (demais processos) e 14: Recebimento, guarda, distribuição, inventário, análise do valor e alienação.
+- Item 13 (compras e classificação): Aquisição, classificação, padronização e codificação de materiais e patrimônio.
+
+##### [ ] Assunto 122 - Item 13, recorte: Arquivamento, recebimento, proteção, conservação, distribuição e inventário.
 
 - Item 13, recorte: arquivamento, recebimento, proteção, conservação, distribuição e inventário.
+
+##### [ ] Assunto 123 - Item 14: Análise do valor e alienação.
+
 - Item 14. Análise do valor e Alienação.
 
 #### Gestão de Contratos
 
-##### [ ] Assunto 072 - Item 1.1: Lei nº 14.133/2021 aplicada à contratação de bens e serviços.
+##### [ ] Assunto 124 - Item 1.1, fase 1: Fundamentos, agentes e processo da Lei nº 14.133/2021.
 
-##### [ ] Assunto 073 - Item 1.2: Instrução Normativa nº 5/2017 da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão.
+- Item 1.1. Lei nº 14.133/2021 aplicada à contratação de bens e serviços: fundamentos, agentes e processo.
+- Os Assuntos 124 a 130 tratam do regime normativo da Lei nº 14.133/2021 aplicado a bens e serviços; não duplicar o item prático 2.
 
-##### [ ] Assunto 074 - Item 2: Elaboração, execução e fiscalização de contratos.
+##### [ ] Assunto 125 - Item 1.1, fase 2: Planejamento e fase preparatória da contratação.
+
+##### [ ] Assunto 126 - Item 1.1, fase 3: Modalidades, julgamento, seleção do fornecedor e contratação direta.
+
+##### [ ] Assunto 127 - Item 1.1, fase 4: Formalização, garantias, alocação de riscos e duração contratual.
+
+##### [ ] Assunto 128 - Item 1.1, fase 5: Execução, fiscalização, alterações e equilíbrio econômico-financeiro.
+
+##### [ ] Assunto 129 - Item 1.1, fase 6: Extinção, recebimento e pagamento.
+
+##### [ ] Assunto 130 - Item 1.1, fase 7: Infrações, sanções, controle, PNCP e regras finais.
+
+##### [ ] Assunto 131 - Item 1.2, fase 1: Planejamento da contratação segundo a IN nº 5/2017.
+
+- Item 1.2. Instrução Normativa nº 5/2017 da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão.
+- O item 1.2 é desdobrado nos Assuntos 131 a 135 por fase operacional, sem inventar faixas de artigos nem repetir dispositivos.
+
+##### [ ] Assunto 132 - Item 1.2, fase 2: Interface com a seleção do fornecedor.
+
+##### [ ] Assunto 133 - Item 1.2, fase 3: Gestão e fiscalização contratual.
+
+##### [ ] Assunto 134 - Item 1.2, fase 4: Medição, pagamento, obrigações trabalhistas e manutenção do equilíbrio econômico.
+
+##### [ ] Assunto 135 - Item 1.2, fase 5: Encerramento e regras operacionais finais.
+
+##### [ ] Assunto 136 - Item 2, subitens 2.1 a 2.4: Gestão aplicada da execução contratual.
 
 - 2.1. Cláusulas e indicadores de nível de serviço.
 - 2.2. Papel do fiscalizador do contrato.
 - 2.3. Papel do preposto da contratada.
 - 2.4. Acompanhamento da execução contratual.
+
+##### [ ] Assunto 137 - Item 2, subitens 2.5 e 2.6: Irregularidades, penalidades e sanções administrativas.
+
 - 2.5. Registro e notificação de irregularidades.
 - 2.6. Definição e aplicação de penalidades e sanções administrativas.
 
 #### Governo Eletrônico, Transparência e Controle Social
 
-##### [ ] Assunto 075 - Item 1 (governo eletrônico): Governo eletrônico na administração pública.
+##### [ ] Assunto 138 - Item 1: Fundamentos, modelos, serviços, canais, integração e governança de governo eletrônico.
 
-##### [ ] Assunto 076 - Itens 1 (demais tópicos) e 2: Transparência, controle social, cidadania, accountability e Lei de Acesso à Informação.
+- Item 1. Governo eletrônico na administração pública: fundamentos e modelos; serviços, canais, integração e governança.
+- Não confundir governo eletrônico com o governo digital do item 4.1 de Competências Digitais.
+
+##### [ ] Assunto 139 - Item 1, recorte: Transparência, controle social, cidadania e accountability.
 
 - Item 1, recorte: transparência da administração pública; controle social e cidadania; accountability.
-- Item 2. Lei nº 12.527/2011 (Lei de Acesso à Informação).
+
+##### [ ] Assunto 140 - Item 2, recorte: Princípios, abrangência, conceitos, pedido de acesso, tramitação e prazos da Lei de Acesso à Informação.
+
+- Item 2. Lei nº 12.527/2011 (Lei de Acesso à Informação): princípios, abrangência e conceitos; pedido de acesso, tramitação e prazos.
+- A Lei de Acesso à Informação é desdobrada nos Assuntos 140 e 141 por função normativa, sem inventar faixas de artigos nem repetir dispositivos.
+
+##### [ ] Assunto 141 - Item 2, recorte: Restrições, classificação, proteção, transparência ativa, recursos e responsabilidades.
+
+- Item 2. Lei nº 12.527/2011 (Lei de Acesso à Informação): restrições, classificação e proteção das informações; transparência ativa, recursos e responsabilidades.
 
 #### Gestão de Pessoas
 
-##### [ ] Assunto 077 - Itens 1 a 3: Fundamentos, evolução, função e sistemas de gestão de pessoas.
+##### [ ] Assunto 142 - Itens 1 e 2: Conceitos, importância, sistemas de organização, teorias e escolas da administração na gestão de pessoas.
 
 - Item 1. Conceitos, importância, relação com os outros sistemas de organização.
 - Item 2. Fundamentos, teorias e escolas da administração e o seu impacto na gestão de pessoas.
-- Item 3. Função do órgão de recursos humanos.
 
+##### [ ] Assunto 143 - Item 3, subitens 3.1 e 3.2: Função do órgão de recursos humanos, atribuições, objetivos, políticas e sistemas de informações gerenciais.
+
+- Item 3. Função do órgão de recursos humanos.
 - 3.1. Atribuições básicas e objetivos.
 - 3.2. Políticas e sistemas de informações gerenciais.
 
-##### [ ] Assunto 078 - Item 4: Comportamento organizacional.
+##### [ ] Assunto 144 - Item 4, subitens 4.1 e 4.3: Relações indivíduo/organização e qualidade de vida.
 
 - 4.1. Relações indivíduo/organização.
-- 4.2. Liderança, motivação e desempenho.
 - 4.3. Qualidade de vida.
 
-##### [ ] Assunto 079 - Itens 5 a 7: Competência interpessoal, gerenciamento de conflitos e gestão da mudança.
+##### [ ] Assunto 145 - Item 4, subitem 4.2: Liderança, motivação e desempenho.
+
+- 4.2. Liderança, motivação e desempenho.
+
+##### [ ] Assunto 146 - Itens 5 e 6: Competência interpessoal e gerenciamento de conflitos.
 
 - Item 5. Competência interpessoal.
 - Item 6. Gerenciamento de conflitos.
+
+##### [ ] Assunto 147 - Item 7: Gestão da mudança.
+
 - Item 7. Gestão da mudança.
 
-##### [ ] Assunto 080 - Itens 8 e 9: Recrutamento, seleção, análise e descrição de cargos.
+##### [ ] Assunto 148 - Item 8, subitens 8.1 e 8.2: Recrutamento, seleção e processo decisório.
 
 - 8.1. Tipos de recrutamento: vantagens e desvantagens.
 - 8.2. Técnicas de seleção: vantagens, desvantagens e processo decisório.
+
+##### [ ] Assunto 149 - Item 9: Análise e descrição de cargos.
+
 - Item 9. Análise e descrição de cargos: objetivos, métodos, vantagens e desvantagens.
 
-##### [ ] Assunto 081 - Item 10: Gestão de desempenho.
+##### [ ] Assunto 150 - Item 10, subitens 10.1 e 10.2: Objetivos e métodos de avaliação de desempenho.
 
 - 10.1. Objetivos.
 - 10.2. Métodos de avaliação de desempenho: características, vantagens e desvantagens.
 
-##### [ ] Assunto 082 - Item 11: Desenvolvimento e capacitação de pessoal.
+##### [ ] Assunto 151 - Item 11, subitens 11.1 e 11.2: Desenvolvimento e capacitação.
 
 - 11.1. Levantamento de necessidades.
 - 11.2. Programação, execução e avaliação.
 
-##### [ ] Assunto 083 - Item 12: Administração de cargos, carreiras e salários.
+##### [ ] Assunto 152 - Item 12: Administração de cargos, carreiras e salários.
 
-##### [ ] Assunto 084 - Itens 13 e 14: Gestão por competências e tendências em gestão de pessoas no setor público.
+##### [ ] Assunto 153 - Itens 13 e 14: Gestão por competências e tendências em gestão de pessoas no setor público.
 
 - Item 13. Gestão por competências.
 - Item 14. Tendências em gestão de pessoas no setor público.
