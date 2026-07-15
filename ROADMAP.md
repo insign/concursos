@@ -60,7 +60,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.1. Emprego do verbo como classe de palavras, distinguido do emprego de tempos e modos verbais do Assunto 005.
 
-##### [>] Em progresso Assunto 008 - Item 5, subitem 5.1, recorte: Classes invariáveis de palavras.
+##### [R] Em revisão Assunto 008 - Item 5, subitem 5.1, recorte: Classes invariáveis de palavras.
 
 - 5.1. Emprego de advérbio, preposição, conjunção e interjeição.
 
