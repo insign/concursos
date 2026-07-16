@@ -575,7 +575,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 ##### [x] Concluído Assunto 134 - Item 1.2, fase 4: Medição, pagamento, obrigações trabalhistas e manutenção do equilíbrio econômico.
 
-##### [ ] Assunto 135 - Item 1.2, fase 5: Encerramento e regras operacionais finais.
+##### [>] Em progresso Assunto 135 - Item 1.2, fase 5: Encerramento e regras operacionais finais.
 
 ##### [ ] Assunto 136 - Item 2, subitens 2.1 a 2.4: Gestão aplicada da execução contratual.
 
