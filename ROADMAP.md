@@ -569,7 +569,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 1.2. Instrução Normativa nº 5/2017 da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão.
 - O item 1.2 é desdobrado nos Assuntos 131 a 135 por fase operacional, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [>] Em progresso Assunto 132 - Item 1.2, fase 2: Interface com a seleção do fornecedor.
+##### [R] Em revisão Assunto 132 - Item 1.2, fase 2: Interface com a seleção do fornecedor.
 
 ##### [ ] Assunto 133 - Item 1.2, fase 3: Gestão e fiscalização contratual.
 
