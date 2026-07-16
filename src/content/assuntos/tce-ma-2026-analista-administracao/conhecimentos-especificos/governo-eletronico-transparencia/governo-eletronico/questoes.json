@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q2259",
+      "revision": 1,
+      "prompt": "Governo eletrônico pode ser corretamente entendido como",
+      "options": [
+        { "id": "A", "text": "mera compra de computadores pelo Estado." },
+        { "id": "B", "text": "uso organizado de TIC para informar, interagir, prestar serviços e integrar relações estatais." },
+        { "id": "C", "text": "substituição obrigatória de todo atendimento humano." },
+        { "id": "D", "text": "competência individual de operar aplicativos." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Governo eletrônico abrange o emprego institucional de TIC nas atividades e relações do Estado, não apenas infraestrutura nem competências pessoais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2260",
+      "revision": 1,
+      "prompt": "Em comparação com a acepção histórica de governo eletrônico, governo digital enfatiza",
+      "options": [
+        { "id": "A", "text": "somente páginas institucionais." },
+        { "id": "B", "text": "proibição do uso de dados." },
+        { "id": "C", "text": "tecnologia, dados e plataformas integrados para produzir valor público." },
+        { "id": "D", "text": "eliminação da governança." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Governo digital amplia o foco para integração, dados, plataformas, desenho institucional e valor público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2261",
+      "revision": 1,
+      "prompt": "Converter um formulário em papel para PDF, sem rever exigências ou fluxo, caracteriza principalmente",
+      "options": [
+        { "id": "A", "text": "digitalização." },
+        { "id": "B", "text": "integração horizontal." },
+        { "id": "C", "text": "omnicanalidade." },
+        { "id": "D", "text": "transformação institucional completa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A conversão do suporte é digitalização; transformação exige redesenho de processos, serviços e governança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2262",
+      "revision": 1,
+      "prompt": "O requerimento digital de um benefício por uma pessoa física é exemplo de relação",
+      "options": [
+        { "id": "A", "text": "G2B." },
+        { "id": "B", "text": "G2E." },
+        { "id": "C", "text": "G2G." },
+        { "id": "D", "text": "G2C." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "G2C designa a relação entre governo e cidadão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2263",
+      "revision": 1,
+      "prompt": "Um portal pelo qual empresas cumprem obrigação regulatória realiza predominantemente relação",
+      "options": [
+        { "id": "A", "text": "G2B." },
+        { "id": "B", "text": "G2C." },
+        { "id": "C", "text": "G2E." },
+        { "id": "D", "text": "B2E." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "G2B corresponde à interação entre governo e empresas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2264",
+      "revision": 1,
+      "prompt": "A troca legítima de dados entre dois órgãos públicos é exemplo de",
+      "options": [
+        { "id": "A", "text": "G2E." },
+        { "id": "B", "text": "G2G." },
+        { "id": "C", "text": "G2C." },
+        { "id": "D", "text": "C2B." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "G2G identifica relações entre governos, órgãos ou entidades públicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2265",
+      "revision": 1,
+      "prompt": "Um sistema interno de férias e assentamentos funcionais dos servidores exemplifica",
+      "options": [
+        { "id": "A", "text": "G2C." },
+        { "id": "B", "text": "G2B." },
+        { "id": "C", "text": "G2E." },
+        { "id": "D", "text": "integração vertical necessariamente." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "G2E corresponde à relação entre governo e seus empregados ou agentes públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2266",
+      "revision": 1,
+      "prompt": "As categorias G2C, G2B, G2G e G2E",
+      "options": [
+        { "id": "A", "text": "classificam o público da relação, não o estágio de maturidade." },
+        { "id": "B", "text": "formam uma sequência obrigatória de evolução." },
+        { "id": "C", "text": "medem acessibilidade." },
+        { "id": "D", "text": "substituem modelos de governança." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As siglas identificam os participantes da relação governamental. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2267",
+      "revision": 1,
+      "prompt": "Um portal que apenas publica endereço, horário e descrição dos serviços encontra-se principalmente no estágio de",
+      "options": [
+        { "id": "A", "text": "transação." },
+        { "id": "B", "text": "integração horizontal." },
+        { "id": "C", "text": "presença ou informação." },
+        { "id": "D", "text": "proatividade." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Presença ou informação é o estágio de publicação institucional sem execução eletrônica completa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2268",
+      "revision": 1,
+      "prompt": "Quando o usuário protocola, paga e recebe o resultado do serviço on-line, há característica de",
+      "options": [
+        { "id": "A", "text": "mera catalogação." },
+        { "id": "B", "text": "transação." },
+        { "id": "C", "text": "exclusão digital." },
+        { "id": "D", "text": "G2G obrigatória." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O estágio transacional permite realizar eletronicamente operações e concluir serviços. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2269",
+      "revision": 1,
+      "prompt": "No modelo de Layne e Lee, o estágio inicial de presença e organização de informações é denominado",
+      "options": [
+        { "id": "A", "text": "catalogação." },
+        { "id": "B", "text": "integração vertical." },
+        { "id": "C", "text": "governo como plataforma." },
+        { "id": "D", "text": "omnicanalidade." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Layne e Lee iniciam o modelo pela catalogação, seguida de transação e integrações vertical e horizontal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2270",
+      "revision": 1,
+      "prompt": "No modelo de Layne e Lee, integração vertical refere-se à conexão",
+      "options": [
+        { "id": "A", "text": "entre canais de atendimento apenas." },
+        { "id": "B", "text": "entre níveis ou esferas governamentais relacionados." },
+        { "id": "C", "text": "entre cidadão e empresa." },
+        { "id": "D", "text": "exclusiva de bancos de dados centrais." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A integração vertical conecta níveis de governo ligados a uma função ou serviço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2271",
+      "revision": 1,
+      "prompt": "A integração entre diferentes áreas funcionais para entregar uma jornada unificada é, em Layne e Lee,",
+      "options": [
+        { "id": "A", "text": "catalogação." },
+        { "id": "B", "text": "transação isolada." },
+        { "id": "C", "text": "integração horizontal." },
+        { "id": "D", "text": "presença." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A integração horizontal conecta funções, áreas ou órgãos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2272",
+      "revision": 1,
+      "prompt": "Sobre modelos de maturidade em governo eletrônico, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "são leis brasileiras obrigatórias." },
+        { "id": "B", "text": "toda organização evolui de forma linear e uniforme." },
+        { "id": "C", "text": "maior tecnologia garante inclusão." },
+        { "id": "D", "text": "são instrumentos analíticos e serviços da mesma organização podem estar em níveis diferentes." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Modelos ajudam a analisar evolução, mas não impõem trajetória linear nem asseguram qualidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2273",
+      "revision": 1,
+      "prompt": "Entre as dimensões contemporâneas de governo digital da OCDE encontra-se",
+      "options": [
+        { "id": "A", "text": "aberto por padrão." },
+        { "id": "B", "text": "sigilo por padrão absoluto." },
+        { "id": "C", "text": "papel por concepção." },
+        { "id": "D", "text": "usuário excluído do desenho." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A OCDE inclui aberto por padrão, digital por concepção, orientação por dados e pelo usuário, plataforma e proatividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2274",
+      "revision": 1,
+      "prompt": "O EGDI da ONU combina",
+      "options": [
+        { "id": "A", "text": "apenas quantidade de aplicativos." },
+        { "id": "B", "text": "serviços on-line, infraestrutura de telecomunicações e capital humano." },
+        { "id": "C", "text": "arrecadação, população e território." },
+        { "id": "D", "text": "auditoria, ouvidoria e corregedoria." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "OSI, TII e HCI são as três dimensões compostas do EGDI. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2275",
+      "revision": 1,
+      "prompt": "Uma posição elevada de um país no EGDI permite concluir automaticamente que",
+      "options": [
+        { "id": "A", "text": "todo serviço local é acessível." },
+        { "id": "B", "text": "cada órgão cumpre integralmente a legislação." },
+        { "id": "C", "text": "o país tem desempenho relativo elevado nas dimensões do índice, não uma certificação de cada órgão." },
+        { "id": "D", "text": "não existe exclusão digital." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O EGDI é comparação nacional relativa e não certifica órgãos ou serviços isolados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2276",
+      "revision": 1,
+      "prompt": "Quanto à Lei nº 14.129/2021, um TCE estadual",
+      "options": [
+        { "id": "A", "text": "é automaticamente subordinado a toda portaria federal de governo digital." },
+        { "id": "B", "text": "integra o SISP por ser tribunal." },
+        { "id": "C", "text": "deve aplicar a EFGD como regulamento próprio." },
+        { "id": "D", "text": "é alcançado pelos comandos da lei na forma de adoção por ato normativo próprio prevista no art. 2º." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Para administrações dos demais entes federados, a lei condiciona a aplicação à adoção por atos normativos próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2277",
+      "revision": 1,
+      "prompt": "A plataforma única prevista entre as diretrizes de Governo Digital",
+      "options": [
+        { "id": "A", "text": "convive com atendimento presencial quando indispensável ou adequado ao serviço." },
+        { "id": "B", "text": "torna ilegal qualquer canal presencial." },
+        { "id": "C", "text": "dispensa acessibilidade." },
+        { "id": "D", "text": "elimina a Carta de Serviços." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 14.129/2021 combina plataforma única com permanência de atendimento presencial conforme características e público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2278",
+      "revision": 1,
+      "prompt": "A diretriz de impor as exigências necessárias de uma única vez admite exigência posterior",
+      "options": [
+        { "id": "A", "text": "por conveniência interna imotivada." },
+        { "id": "B", "text": "apenas diante de dúvida superveniente justificada." },
+        { "id": "C", "text": "sempre que mudar o atendente." },
+        { "id": "D", "text": "para repetir documento válido." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 3º admite exigência posterior justificada somente em caso de dúvida superveniente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2279",
+      "revision": 1,
+      "prompt": "Segundo a Lei nº 14.129/2021, a Administração deve",
+      "options": [
+        { "id": "A", "text": "exigir novamente toda prova já apresentada." },
+        { "id": "B", "text": "presumir má-fé do usuário." },
+        { "id": "C", "text": "evitar exigir prova de fato já comprovado por documento ou informação válida." },
+        { "id": "D", "text": "proibir interoperabilidade." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A vedação de repetir prova válida integra as diretrizes de simplificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2280",
+      "revision": 1,
+      "prompt": "Autosserviço é",
+      "options": [
+        { "id": "A", "text": "acesso digital sem necessidade de mediação humana." },
+        { "id": "B", "text": "atendimento exclusivamente presencial." },
+        { "id": "C", "text": "compartilhamento irrestrito de dados." },
+        { "id": "D", "text": "auditoria automatizada." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei define autosserviço como acesso digital sem mediação humana e o trata como preferencial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2281",
+      "revision": 1,
+      "prompt": "São componentes essenciais da prestação digital, nos termos do art. 18,",
+      "options": [
+        { "id": "A", "text": "somente portal e rede social." },
+        { "id": "B", "text": "Base Nacional de Serviços, Cartas de Serviços e Plataformas de Governo Digital." },
+        { "id": "C", "text": "apenas CPF e assinatura qualificada." },
+        { "id": "D", "text": "ouvidoria e tribunal de contas exclusivamente." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 18 enumera base nacional, cartas e plataformas como componentes essenciais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2282",
+      "revision": 1,
+      "prompt": "As Plataformas de Governo Digital devem possuir pelo menos",
+      "options": [
+        { "id": "A", "text": "rede social e publicidade." },
+        { "id": "B", "text": "chatbot e inteligência artificial." },
+        { "id": "C", "text": "ferramenta de solicitação/acompanhamento e painel de desempenho." },
+        { "id": "D", "text": "um banco central de todos os dados." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Essas são as duas funcionalidades mínimas do art. 20. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2283",
+      "revision": 1,
+      "prompt": "Em uma jornada digital completa, é compatível com a Lei nº 14.129/2021",
+      "options": [
+        { "id": "A", "text": "impedir acompanhamento por etapas." },
+        { "id": "B", "text": "omitir a identificação do serviço." },
+        { "id": "C", "text": "proibir avaliação do usuário." },
+        { "id": "D", "text": "permitir solicitação, protocolo, acompanhamento e notificação." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ferramenta digital deve apoiar identificação, solicitação e acompanhamento, entre outras funções. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2284",
+      "revision": 1,
+      "prompt": "O nível de segurança de um serviço digital deve ser",
+      "options": [
+        { "id": "A", "text": "idêntico para qualquer serviço." },
+        { "id": "B", "text": "compatível com natureza, criticidade e dados utilizados." },
+        { "id": "C", "text": "sempre o menor possível." },
+        { "id": "D", "text": "definido apenas pela preferência do usuário." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A segurança deve ser proporcional ao grau de exigência, natureza e criticidade do serviço e dos dados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2285",
+      "revision": 1,
+      "prompt": "Para subsidiar serviços simples, intuitivos, acessíveis e personalizados, o art. 24 prevê",
+      "options": [
+        { "id": "A", "text": "testes e pesquisas com usuários." },
+        { "id": "B", "text": "sigilo sobre falhas de uso." },
+        { "id": "C", "text": "eliminação da avaliação." },
+        { "id": "D", "text": "desenho exclusivo pela área de TI." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pesquisa e teste com usuários sustentam desenho centrado na jornada real. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2286",
+      "revision": 1,
+      "prompt": "O painel mínimo de desempenho de cada serviço contém",
+      "options": [
+        { "id": "A", "text": "somente custo de pessoal." },
+        { "id": "B", "text": "seguidores em redes sociais." },
+        { "id": "C", "text": "solicitações, tempo médio e satisfação." },
+        { "id": "D", "text": "apenas receita arrecadada." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 22 exige solicitações em andamento/concluídas, tempo médio e satisfação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2287",
+      "revision": 1,
+      "prompt": "Um serviço tem alta satisfação entre quem o concluiu, mas grande abandono por pessoas com deficiência. A conclusão adequada é",
+      "options": [
+        { "id": "A", "text": "a satisfação isolada prova qualidade integral." },
+        { "id": "B", "text": "o abandono é irrelevante." },
+        { "id": "C", "text": "o serviço é automaticamente maduro." },
+        { "id": "D", "text": "é preciso combinar satisfação com acessibilidade, abandono e outros resultados." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Nenhum indicador isolado mede efetividade, inclusão e qualidade de toda a jornada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2288",
+      "revision": 1,
+      "prompt": "Canal digital único e oficial significa",
+      "options": [
+        { "id": "A", "text": "ponto institucional oficial de acesso, não necessariamente único meio de atendimento." },
+        { "id": "B", "text": "proibição de telefone e atendimento presencial." },
+        { "id": "C", "text": "omnicanalidade automática." },
+        { "id": "D", "text": "dispensa de Carta de Serviços." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Unicidade oficial organiza a referência digital, mas não torna o canal exclusivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2289",
+      "revision": 1,
+      "prompt": "Há multicanalidade quando o órgão",
+      "options": [
+        { "id": "A", "text": "mantém apenas balcão físico." },
+        { "id": "B", "text": "oferece vários canais, ainda que sem continuidade entre eles." },
+        { "id": "C", "text": "integra necessariamente todos os dados." },
+        { "id": "D", "text": "adota somente aplicativo." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Multicanalidade é pluralidade de canais e não garante coordenação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2290",
+      "revision": 1,
+      "prompt": "A principal diferença da omnicanalidade em relação à multicanalidade é",
+      "options": [
+        { "id": "A", "text": "o uso obrigatório de rede social." },
+        { "id": "B", "text": "a eliminação do atendimento humano." },
+        { "id": "C", "text": "a coordenação dos canais para consistência e continuidade da jornada." },
+        { "id": "D", "text": "a ausência de governança de dados." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Omnicanalidade integra a experiência e preserva contexto quando adequado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2291",
+      "revision": 1,
+      "prompt": "A prestação digital deve usar tecnologias de amplo acesso para baixa renda e áreas rurais ou isoladas",
+      "options": [
+        { "id": "A", "text": "com supressão imediata do presencial." },
+        { "id": "B", "text": "sem prejuízo do direito ao atendimento presencial." },
+        { "id": "C", "text": "apenas se houver aplicativo proprietário." },
+        { "id": "D", "text": "dispensando acessibilidade." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 14 combina amplo acesso digital com preservação do atendimento presencial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2292",
+      "revision": 1,
+      "prompt": "Exclusão digital pode decorrer",
+      "options": [
+        { "id": "A", "text": "somente da ausência absoluta de internet." },
+        { "id": "B", "text": "apenas da falta de senha." },
+        { "id": "C", "text": "de conexão, custo, dispositivo, habilidade, linguagem, deficiência e território." },
+        { "id": "D", "text": "exclusivamente da idade." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A exclusão é multidimensional e exige respostas de acesso, desenho e suporte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2293",
+      "revision": 1,
+      "prompt": "O eMAG é",
+      "options": [
+        { "id": "A", "text": "modelo de acessibilidade para soluções governamentais, alinhado a referências como WCAG." },
+        { "id": "B", "text": "índice de capital humano da ONU." },
+        { "id": "C", "text": "cadastro de identidade digital." },
+        { "id": "D", "text": "modelo de sanções administrativas." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O eMAG organiza recomendações de acessibilidade digital governamental. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2294",
+      "revision": 1,
+      "prompt": "Um validador automático não encontrou erros em um portal. Isso",
+      "options": [
+        { "id": "A", "text": "prova acessibilidade integral." },
+        { "id": "B", "text": "torna testes com pessoas proibidos." },
+        { "id": "C", "text": "elimina manutenção futura." },
+        { "id": "D", "text": "é evidência parcial e deve ser complementada por avaliação humana e contínua." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ferramentas detectam parte dos problemas; uso real e barreiras exigem testes humanos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2295",
+      "revision": 1,
+      "prompt": "O diagnóstico de acessibilidade digital do TCU reforça que acessibilidade",
+      "options": [
+        { "id": "A", "text": "é apenas escolha de cores." },
+        { "id": "B", "text": "envolve governança, desenvolvimento, testes, cultura, atendimento e melhoria contínua." },
+        { "id": "C", "text": "dispensa retorno do usuário." },
+        { "id": "D", "text": "é responsabilidade exclusiva do fornecedor." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As sete dimensões avaliadas pelo TCU mostram o caráter organizacional e contínuo da acessibilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2296",
+      "revision": 1,
+      "prompt": "Assinale a distinção correta.",
+      "options": [
+        { "id": "A", "text": "Identificação verifica criptograficamente todas as permissões." },
+        { "id": "B", "text": "Autenticação declara uma identidade sem verificá-la." },
+        { "id": "C", "text": "Identificação declara quem é o usuário; autenticação verifica essa identidade." },
+        { "id": "D", "text": "Identificação e autorização são sinônimos." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Identificar é declarar; autenticar é verificar a identidade declarada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2297",
+      "revision": 1,
+      "prompt": "Após autenticar um servidor, o sistema verifica se ele pode aprovar uma despesa. Essa segunda verificação é de",
+      "options": [
+        { "id": "A", "text": "autorização." },
+        { "id": "B", "text": "identificação." },
+        { "id": "C", "text": "catalogação." },
+        { "id": "D", "text": "digitalização." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Autorização define ações permitidas ao usuário já identificado/autenticado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2298",
+      "revision": 1,
+      "prompt": "A assinatura eletrônica de ato digital relaciona-se principalmente a",
+      "options": [
+        { "id": "A", "text": "continuidade entre canais." },
+        { "id": "B", "text": "autoria e integridade, com segurança adequada ao risco." },
+        { "id": "C", "text": "abertura irrestrita de dados." },
+        { "id": "D", "text": "classificação G2B." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A assinatura vincula autoria e integridade e deve observar criticidade e risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2299",
+      "revision": 1,
+      "prompt": "A LGPD, diante da interoperabilidade pública,",
+      "options": [
+        { "id": "A", "text": "proíbe qualquer troca de dados." },
+        { "id": "B", "text": "não se aplica ao poder público." },
+        { "id": "C", "text": "autoriza compartilhamento ilimitado." },
+        { "id": "D", "text": "condiciona o tratamento a finalidade, base jurídica, necessidade, segurança e demais requisitos." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Proteção de dados condiciona a integração legítima, sem proibi-la nem liberá-la em absoluto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2300",
+      "revision": 1,
+      "prompt": "A confiança em serviços públicos digitais depende",
+      "options": [
+        { "id": "A", "text": "apenas de autenticação forte." },
+        { "id": "B", "text": "somente de alta disponibilidade." },
+        { "id": "C", "text": "de funcionalidade, acessibilidade, segurança, transparência e responsabilidade." },
+        { "id": "D", "text": "da ocultação de incidentes." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Confiança é resultado de múltiplos atributos técnicos, jurídicos e institucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2301",
+      "revision": 1,
+      "prompt": "Compatibilizar o significado de campos como “data de conclusão” entre sistemas pertence à dimensão",
+      "options": [
+        { "id": "A", "text": "semântica da interoperabilidade." },
+        { "id": "B", "text": "apenas física." },
+        { "id": "C", "text": "de capital humano do EGDI." },
+        { "id": "D", "text": "de multicanalidade." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Interoperabilidade semântica assegura entendimento comum do significado dos dados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2302",
+      "revision": 1,
+      "prompt": "Dois órgãos conectaram sistemas por API, mas discordam sobre finalidade, competência e significado dos dados. Logo,",
+      "options": [
+        { "id": "A", "text": "a interoperabilidade está completa." },
+        { "id": "B", "text": "há conexão técnica parcial, faltando dimensões semântica, organizacional e jurídica." },
+        { "id": "C", "text": "a LGPD deixou de se aplicar." },
+        { "id": "D", "text": "é obrigatório centralizar todas as bases." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "API resolve parte técnica; interoperabilidade integral exige significado, processos e legitimidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2303",
+      "revision": 1,
+      "prompt": "O art. 38 condiciona a interoperabilidade, entre outros fatores, a",
+      "options": [
+        { "id": "A", "text": "ausência total de custo." },
+        { "id": "B", "text": "decisão exclusiva do fornecedor." },
+        { "id": "C", "text": "restrições legais, segurança, limitações tecnológicas, custo-benefício e proteção de dados." },
+        { "id": "D", "text": "publicação de dados sigilosos." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A interoperabilidade deve respeitar limites jurídicos, técnicos, econômicos e de segurança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2304",
+      "revision": 1,
+      "prompt": "Nos termos do art. 40, nova base de dados somente deve ser criada",
+      "options": [
+        { "id": "A", "text": "após esgotadas as possibilidades de uso dos registros de referência existentes." },
+        { "id": "B", "text": "sempre que mudar a chefia." },
+        { "id": "C", "text": "para duplicar qualquer cadastro." },
+        { "id": "D", "text": "sem avaliar qualidade ou finalidade." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A regra busca evitar replicação desnecessária e favorecer registros de referência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2305",
+      "revision": 1,
+      "prompt": "Formato aberto é aquele que",
+      "options": [
+        { "id": "A", "text": "é gratuito, ainda que secreto e proprietário." },
+        { "id": "B", "text": "não é proprietário, tem especificação pública e livre implementação e uso jurídico." },
+        { "id": "C", "text": "só pode ser implementado pelo fornecedor original." },
+        { "id": "D", "text": "não possui documentação." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Abertura exige especificação pública e ausência de restrições proprietárias ou jurídicas indevidas; gratuidade não basta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2306",
+      "revision": 1,
+      "prompt": "Quanto ao âmbito da e-PING, assinale a correta.",
+      "options": [
+        { "id": "A", "text": "É obrigatória para toda empresa privada." },
+        { "id": "B", "text": "Vincula automaticamente todo TCE estadual." },
+        { "id": "C", "text": "Órgãos do SISP devem observá-la nos casos definidos; outros Poderes e entes podem adotá-la facultativamente." },
+        { "id": "D", "text": "É um índice da ONU." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A e-PING possui âmbito federal próprio e adoção facultativa fora dele, conforme a página oficial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2307",
+      "revision": 1,
+      "prompt": "Na e-PING, padrão proprietário pode ser aceito",
+      "options": [
+        { "id": "A", "text": "como preferência permanente sem justificativa." },
+        { "id": "B", "text": "transitoriamente no legado ou enquanto não houver padrão aberto adequado." },
+        { "id": "C", "text": "para impedir interoperabilidade." },
+        { "id": "D", "text": "somente se eliminar segurança." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A política privilegia padrões abertos, admitindo proprietários nas hipóteses transitórias indicadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2308",
+      "revision": 1,
+      "prompt": "A distinção adequada entre governança e gestão é",
+      "options": [
+        { "id": "A", "text": "governança executa tarefas; gestão apenas observa." },
+        { "id": "B", "text": "são sempre sinônimos." },
+        { "id": "C", "text": "governança direciona, monitora e avalia; gestão planeja e executa." },
+        { "id": "D", "text": "gestão define accountability e não executa." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Governança estabelece direção e supervisão; gestão realiza as operações para cumprir essa direção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2309",
+      "revision": 1,
+      "prompt": "O art. 47 associa mecanismos de governança a",
+      "options": [
+        { "id": "A", "text": "acompanhamento de resultados, melhoria de desempenho e decisão baseada em evidências." },
+        { "id": "B", "text": "eliminação de controles." },
+        { "id": "C", "text": "decisões sem indicadores." },
+        { "id": "D", "text": "terceirização da responsabilidade." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Esses são os três elementos mínimos expressos no art. 47. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2310",
+      "revision": 1,
+      "prompt": "Na gestão de riscos da prestação digital, os controles devem ser",
+      "options": [
+        { "id": "A", "text": "máximos sem considerar custo ou impacto." },
+        { "id": "B", "text": "proporcionais aos riscos e considerar custo-benefício." },
+        { "id": "C", "text": "definidos sem relação com planejamento." },
+        { "id": "D", "text": "eliminados quando o serviço é on-line." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 48 integra riscos ao planejamento e exige controles proporcionais, consideradas causas, impactos e custo-benefício. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2311",
+      "revision": 1,
+      "prompt": "A auditoria interna prevista no art. 49 deve",
+      "options": [
+        { "id": "A", "text": "substituir a gestão." },
+        { "id": "B", "text": "aprovar todo serviço antes do uso." },
+        { "id": "C", "text": "atuar sem independência." },
+        { "id": "D", "text": "avaliar e melhorar governança, riscos e controles com abordagem baseada em risco." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A auditoria agrega valor por avaliação e consultoria independentes e planejamento baseado em risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2312",
+      "revision": 1,
+      "prompt": "No corte de julho de 2026, ENGD e EFGD distinguem-se porque",
+      "options": [
+        { "id": "A", "text": "a ENGD articula recomendações nacionais; a EFGD orienta a administração federal abrangida." },
+        { "id": "B", "text": "a ENGD é municipal e a EFGD estadual." },
+        { "id": "C", "text": "ambas vinculam automaticamente todos os TCEs." },
+        { "id": "D", "text": "a EFGD é índice internacional." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A estratégia nacional articula entes; a federal possui âmbito administrativo federal próprio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2313",
+      "revision": 1,
+      "prompt": "A ENGD 2024–2027 busca, em seu objetivo geral, um Estado",
+      "options": [
+        { "id": "A", "text": "exclusivamente automatizado." },
+        { "id": "B", "text": "inclusivo, eficaz, proativo, participativo e sustentável." },
+        { "id": "C", "text": "fechado e reativo." },
+        { "id": "D", "text": "sem canais presenciais." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esses atributos constam do objetivo geral vigente da ENGD. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2314",
+      "revision": 1,
+      "prompt": "As ferramentas de transparência e controle do tratamento de dados pessoais das Plataformas de Governo Digital devem, ressalvadas as hipóteses legais,",
+      "options": [
+        { "id": "A", "text": "ocultar as fontes dos dados do próprio titular." },
+        { "id": "B", "text": "informar fontes, finalidade e uso compartilhado e permitir requisições ao controlador." },
+        { "id": "C", "text": "autorizar compartilhamento irrestrito entre órgãos." },
+        { "id": "D", "text": "substituir todos os direitos previstos na LGPD." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 25 exige transparência sobre fontes, finalidade e compartilhamentos e meios para o cidadão exercer direitos perante o controlador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2315",
+      "revision": 1,
+      "prompt": "A oferta de grande quantidade de serviços on-line",
+      "options": [
+        { "id": "A", "text": "garante valor público." },
+        { "id": "B", "text": "dispensa medir resultados." },
+        { "id": "C", "text": "prova inclusão." },
+        { "id": "D", "text": "deve ser avaliada por qualidade, acesso, resultados, direitos e custos, não só volume." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Valor público depende de efeitos e qualidade, não da mera contagem de serviços digitalizados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2316",
+      "revision": 1,
+      "prompt": "Uma política digital que encerra todos os canais assistidos sem avaliar o público apresenta risco de",
+      "options": [
+        { "id": "A", "text": "exclusão digital e violação do desenho inclusivo." },
+        { "id": "B", "text": "integração horizontal excessiva apenas." },
+        { "id": "C", "text": "aumento automático do HCI." },
+        { "id": "D", "text": "formato aberto." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Canais e suporte devem considerar barreiras, público-alvo e permanência do presencial quando necessário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2317",
+      "revision": 1,
+      "prompt": "Sobre dados abertos, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "todo dado pessoal deve ser publicado." },
+        { "id": "B", "text": "sigilo e proteção de dados deixam de existir." },
+        { "id": "C", "text": "a abertura observa formato, licença e limites legais de acesso e privacidade." },
+        { "id": "D", "text": "arquivo em imagem é sempre processável por máquina." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Dados abertos exigem acesso e reutilização em formato adequado, sem afastar LAI, LGPD e sigilos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2318",
+      "revision": 1,
+      "prompt": "Dois órgãos alinham competência, significado dos dados, controles de acesso e processo, além de conectar seus sistemas. O caso demonstra",
+      "options": [
+        { "id": "A", "text": "apenas presença informativa." },
+        { "id": "B", "text": "interoperabilidade técnica, semântica, organizacional e jurídica." },
+        { "id": "C", "text": "mera multicanalidade." },
+        { "id": "D", "text": "eliminação da governança." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O cenário reúne conexão, significado comum, coordenação de processos e legitimidade jurídica. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
