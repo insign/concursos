@@ -508,7 +508,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 2. O Patrimônio das empresas e órgãos públicos.
 - Item 6. Atividades básicas da Administração de Material e Patrimônio.
 
-##### [R] Em revisão Assunto 116 - Itens 3, 4 e 15: Patrimônio imobiliário, SPIU, gestão, manutenção e conservação.
+##### [x] Concluído Assunto 116 - Itens 3, 4 e 15: Patrimônio imobiliário, SPIU, gestão, manutenção e conservação.
 
 - Item 3. O Patrimônio Imobiliário.
 - Item 4. Cadastro e registro de bens imóveis (SPIU).
