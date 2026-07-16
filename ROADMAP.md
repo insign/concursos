@@ -537,7 +537,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Item 13 (compras e classificação): Aquisição, classificação, padronização e codificação de materiais e patrimônio.
 
-##### [ ] Assunto 122 - Item 13, recorte: Arquivamento, recebimento, proteção, conservação, distribuição e inventário.
+##### [>] Em progresso Assunto 122 - Item 13, recorte: Arquivamento, recebimento, proteção, conservação, distribuição e inventário.
 
 - Item 13, recorte: arquivamento, recebimento, proteção, conservação, distribuição e inventário.
 
