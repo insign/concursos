@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1184",
+      "revision": 1,
+      "prompt": "O objetivo central de uma política de estoques é",
+      "options": [
+        {"id": "a", "text": "equilibrar continuidade e nível de serviço com custos, riscos e restrições"},
+        {"id": "b", "text": "manter sempre a maior quantidade fisicamente possível"},
+        {"id": "c", "text": "eliminar qualquer estoque de segurança"},
+        {"id": "d", "text": "substituir previsão por compras emergenciais"},
+        {"id": "e", "text": "avaliar todos os itens apenas pelo preço unitário"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A política procura disponibilidade compatível com o serviço sem ignorar custo de posse, falta, validade, orçamento e risco; maximizar ou eliminar estoque indistintamente desloca o problema. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1185",
+      "revision": 1,
+      "prompt": "É exemplo de demanda independente",
+      "options": [
+        {"id": "a", "text": "quatro parafusos calculados para cada cadeira programada"},
+        {"id": "b", "text": "consumo de papel pelas unidades, estimado a partir do uso final"},
+        {"id": "c", "text": "peças obtidas diretamente da estrutura de um equipamento"},
+        {"id": "d", "text": "componentes multiplicados pela quantidade do item-pai"},
+        {"id": "e", "text": "insumos definidos exclusivamente por uma lista técnica de produção"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O consumo final de papel não é calculado diretamente pela demanda de outro item; os demais casos derivam de item-pai, lista técnica ou programação e caracterizam demanda dependente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1186",
+      "revision": 1,
+      "prompt": "A demanda de filtros, quando cada equipamento programado exige exatamente dois filtros, é",
+      "options": [
+        {"id": "a", "text": "sazonal por definição"},
+        {"id": "b", "text": "independente da programação"},
+        {"id": "c", "text": "dependente e calculável a partir da quantidade de equipamentos"},
+        {"id": "d", "text": "necessariamente errática"},
+        {"id": "e", "text": "impossível de estimar por relação técnica"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A relação de dois filtros por equipamento permite calcular a necessidade a partir do item-pai; sazonalidade e irregularidade são padrões diferentes, não consequências automáticas da dependência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1187",
+      "revision": 1,
+      "prompt": "Para um item com muitos meses sem consumo e poucos picos elevados, é mais adequado",
+      "options": [
+        {"id": "a", "text": "considerar a demanda estável sem verificar os dados"},
+        {"id": "b", "text": "usar obrigatoriamente a média de toda a história"},
+        {"id": "c", "text": "tratar cada zero como erro de registro"},
+        {"id": "d", "text": "reconhecer a intermitência e analisar frequência, tamanho dos eventos e criticidade"},
+        {"id": "e", "text": "eliminar o item porque seu consumo não é mensal"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Demanda intermitente exige distinguir zeros legítimos, picos e consequência da falta; uma média isolada pode ocultar o padrão, e não há base para presumir erro ou eliminar o item. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1188",
+      "revision": 1,
+      "prompt": "Quando um novo serviço ainda não possui série histórica, uma previsão justificável pode usar",
+      "options": [
+        {"id": "a", "text": "apenas suavização exponencial com dados inexistentes"},
+        {"id": "b", "text": "MAPE calculado sobre demandas iguais a zero"},
+        {"id": "c", "text": "uma sazonalidade presumida sem ciclos observados"},
+        {"id": "d", "text": "o último consumo do item, que nunca foi utilizado"},
+        {"id": "e", "text": "analogia, especialistas e pesquisa com usuários, com premissas documentadas"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Métodos qualitativos são apropriados diante de pouca história, desde que premissas, participantes e horizonte sejam registrados; métodos quantitativos não criam observações inexistentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1189",
+      "revision": 1,
+      "prompt": "As demandas dos últimos três meses foram 90, 120 e 150 unidades. A média móvel simples de três períodos para o mês seguinte é",
+      "options": [
+        {"id": "a", "text": "120 unidades"},
+        {"id": "b", "text": "150 unidades"},
+        {"id": "c", "text": "360 unidades"},
+        {"id": "d", "text": "90 unidades"},
+        {"id": "e", "text": "30 unidades"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A média é (90 + 120 + 150) / 3 = 120 unidades; 360 é a soma, e os demais valores não representam a média da janela. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1190",
+      "revision": 1,
+      "prompt": "Na suavização exponencial simples, aumentar o parâmetro alfa, mantidas as demais condições, tende a",
+      "options": [
+        {"id": "a", "text": "eliminar o peso da observação mais recente"},
+        {"id": "b", "text": "aumentar a resposta às observações recentes e reduzir a suavização"},
+        {"id": "c", "text": "criar automaticamente um componente sazonal"},
+        {"id": "d", "text": "transformar demanda independente em dependente"},
+        {"id": "e", "text": "garantir erro zero"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Na fórmula, alfa multiplica a demanda recente; valor maior aumenta sua influência e também a sensibilidade ao ruído, sem modelar sazonalidade ou garantir acerto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1191",
+      "revision": 1,
+      "prompt": "Se a demanda apresenta crescimento persistente, uma média simples longa tende a",
+      "options": [
+        {"id": "a", "text": "antecipar necessariamente todos os picos"},
+        {"id": "b", "text": "eliminar a tendência da realidade"},
+        {"id": "c", "text": "reagir com atraso e subestimar valores recentes, exigindo análise de tendência"},
+        {"id": "d", "text": "produzir o mesmo resultado de qualquer regressão"},
+        {"id": "e", "text": "converter o crescimento em sazonalidade"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Observações antigas mais baixas puxam a média para baixo; um modelo de tendência pode responder melhor, mas também precisa de validação e não garante o futuro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1192",
+      "revision": 1,
+      "prompt": "O MAPE exige cuidado especial quando",
+      "options": [
+        {"id": "a", "text": "todas as demandas são altas"},
+        {"id": "b", "text": "o erro é medido em unidades"},
+        {"id": "c", "text": "há somente custos de pedido"},
+        {"id": "d", "text": "a demanda real é zero ou muito pequena"},
+        {"id": "e", "text": "o horizonte possui exatamente doze meses"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O MAPE divide o erro absoluto pela demanda real; zero torna a divisão indefinida, e valores muito baixos podem inflar o percentual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1193",
+      "revision": 1,
+      "prompt": "O desvio absoluto médio, MAD, distingue-se do erro médio porque",
+      "options": [
+        {"id": "a", "text": "mede apenas o maior erro"},
+        {"id": "b", "text": "sempre é expresso em percentual"},
+        {"id": "c", "text": "eleva todos os erros ao quadrado"},
+        {"id": "d", "text": "ignora o tamanho dos desvios"},
+        {"id": "e", "text": "usa valores absolutos e evita a anulação entre erros positivos e negativos"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O MAD calcula a média de |A - F| na unidade original; MFE pode esconder magnitudes quando sinais opostos se compensam, enquanto MSE é que usa quadrados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1194",
+      "revision": 1,
+      "prompt": "Para calcular a demanda no lead time por dL, se d está em unidades por dia, deve-se expressar L em",
+      "options": [
+        {"id": "a", "text": "dias"},
+        {"id": "b", "text": "reais por pedido"},
+        {"id": "c", "text": "unidades"},
+        {"id": "d", "text": "percentual anual"},
+        {"id": "e", "text": "quilogramas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Unidades/dia multiplicadas por dias resultam em unidades; misturar mês, dia ou unidade monetária produz resultado dimensionalmente inválido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1195",
+      "revision": 1,
+      "prompt": "A medição do tempo de ressuprimento deve",
+      "options": [
+        {"id": "a", "text": "ignorar o momento em que o material fica disponível"},
+        {"id": "b", "text": "definir marcos inicial e final e observar as etapas incluídas"},
+        {"id": "c", "text": "usar sempre a data da nota fiscal como início"},
+        {"id": "d", "text": "excluir atrasos reais da série sem análise"},
+        {"id": "e", "text": "ser idêntica em todas as organizações"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lead time pode começar na necessidade, ordem ou outro marco e terminar no recebimento ou liberação; sem definição, médias não são comparáveis. A IN nº 205 possui uma convenção federal específica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1196",
+      "revision": 1,
+      "prompt": "Há 80 unidades disponíveis, 40 em pedido válido e 10 faltas pendentes. Pela fórmula IP = disponível + trânsito - faltas, a posição é",
+      "options": [
+        {"id": "a", "text": "70"},
+        {"id": "b", "text": "80"},
+        {"id": "c", "text": "110"},
+        {"id": "d", "text": "120"},
+        {"id": "e", "text": "130"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "IP = 80 + 40 - 10 = 110 unidades; ignorar trânsito pode duplicar compra, e ignorar faltas superestima a disponibilidade futura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1197",
+      "revision": 1,
+      "prompt": "No sistema de revisão contínua com lote fixo, a conduta típica é",
+      "options": [
+        {"id": "a", "text": "pedir apenas em uma data anual, sem observar saldo"},
+        {"id": "b", "text": "repor até um nível-alvo somente a cada R períodos"},
+        {"id": "c", "text": "dispensar pedidos em trânsito da posição"},
+        {"id": "d", "text": "emitir lote Q quando a posição atinge o ponto de pedido"},
+        {"id": "e", "text": "usar estoque máximo como previsão de demanda"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A revisão contínua observa a posição e dispara a reposição no PP; pedir em intervalos R e elevar a S descreve revisão periódica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1198",
+      "revision": 1,
+      "prompt": "Em revisão periódica, com intervalo R e lead time L, o período que o nível-alvo normalmente precisa proteger é",
+      "options": [
+        {"id": "a", "text": "somente R - L"},
+        {"id": "b", "text": "somente Q/2"},
+        {"id": "c", "text": "somente o último dia"},
+        {"id": "d", "text": "apenas L, independentemente da revisão"},
+        {"id": "e", "text": "R + L"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Depois da revisão, pode ser necessário aguardar R até a próxima oportunidade normal de pedir e mais L até receber, por isso a proteção alcança R + L. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1199",
+      "revision": 1,
+      "prompt": "A demanda média é 15 unidades/dia, o lead time é 4 dias e o estoque de segurança é 20. O ponto de pedido é",
+      "options": [
+        {"id": "a", "text": "80 unidades"},
+        {"id": "b", "text": "60 unidades"},
+        {"id": "c", "text": "35 unidades"},
+        {"id": "d", "text": "19 unidades"},
+        {"id": "e", "text": "300 unidades"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "PP = dL + SS = 15 × 4 + 20 = 80 unidades; 60 cobre apenas a demanda média no prazo e omite a segurança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1200",
+      "revision": 1,
+      "prompt": "Sob demanda uniforme e recebimento instantâneo, um lote Q de 200 unidades e segurança de 30 produzem estoque médio aproximado de",
+      "options": [
+        {"id": "a", "text": "100"},
+        {"id": "b", "text": "130"},
+        {"id": "c", "text": "170"},
+        {"id": "d", "text": "200"},
+        {"id": "e", "text": "230"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "No modelo, estoque médio = Q/2 + SS = 200/2 + 30 = 130; usar 230 confunde máximo aproximado com média. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1201",
+      "revision": 1,
+      "prompt": "No sistema de duas gavetas, a segunda gaveta deve",
+      "options": [
+        {"id": "a", "text": "ser decorativa e permanecer sempre vazia"},
+        {"id": "b", "text": "conter apenas materiais obsoletos"},
+        {"id": "c", "text": "cobrir o consumo durante o ressuprimento e a segurança definida"},
+        {"id": "d", "text": "substituir qualquer registro de consumo"},
+        {"id": "e", "text": "eliminar a necessidade de medir lead time"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Esvaziar a primeira gaveta aciona o pedido; a segunda sustenta o atendimento até a reposição, mas o método visual continua dependente de consumo, prazo e controle. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1202",
+      "revision": 1,
+      "prompt": "A expressão “estoque mínimo” deve ser interpretada com cautela porque",
+      "options": [
+        {"id": "a", "text": "sempre significa estoque máximo"},
+        {"id": "b", "text": "nunca aparece em políticas públicas"},
+        {"id": "c", "text": "é uma unidade monetária"},
+        {"id": "d", "text": "pode representar segurança, piso ou ponto de reposição conforme a convenção"},
+        {"id": "e", "text": "é necessariamente igual ao lote econômico"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Autores e sistemas usam o termo de formas distintas; a IN nº 205 equipara mínimo e segurança em sua convenção, mas isso não vale universalmente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1203",
+      "revision": 1,
+      "prompt": "Quanto às fórmulas de renovação da IN SEDAP nº 205/1988, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "são norma contábil internacional"},
+        {"id": "b", "text": "revogam o art. 106 da Lei nº 4.320/1964"},
+        {"id": "c", "text": "obrigam automaticamente todos os estados"},
+        {"id": "d", "text": "dispensam revisão dos parâmetros"},
+        {"id": "e", "text": "são referência operacional do SISG federal e não se aplicam automaticamente ao TCE-MA"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A própria IN vincula seu objetivo ao SISG e manda redimensionar parâmetros conforme o controle; ela não substitui lei contábil nem cria aplicação automática estadual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1204",
+      "revision": 1,
+      "prompt": "Na convenção da IN SEDAP nº 205/1988, se c = 10 unidades/mês, Em = 25 e T = 2 meses, o ponto de pedido é",
+      "options": [
+        {"id": "a", "text": "45 unidades"},
+        {"id": "b", "text": "35 unidades"},
+        {"id": "c", "text": "25 unidades"},
+        {"id": "d", "text": "20 unidades"},
+        {"id": "e", "text": "5 unidades"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Pp = Em + cT = 25 + 10 × 2 = 45 unidades; as unidades são coerentes porque consumo mensal é multiplicado por meses. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1205",
+      "revision": 1,
+      "prompt": "Em um modelo totalmente determinístico, sem variação de demanda ou prazo e sem falha, o estoque de segurança matemático é",
+      "options": [
+        {"id": "a", "text": "igual ao lote econômico"},
+        {"id": "b", "text": "zero"},
+        {"id": "c", "text": "igual à demanda anual"},
+        {"id": "d", "text": "sempre metade do máximo"},
+        {"id": "e", "text": "impossível de calcular"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sem incerteza, PP = dL e SS = 0 no modelo; a entidade ainda pode adotar reserva por política de risco, mas ela não decorre da variabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1206",
+      "revision": 1,
+      "prompt": "Com demanda variável por período, lead time fixo e observações independentes, uma fórmula usual de estoque de segurança é",
+      "options": [
+        {"id": "a", "text": "SS = d/L"},
+        {"id": "b", "text": "SS = Q/2"},
+        {"id": "c", "text": "SS = z vezes sigma da demanda vezes raiz de L"},
+        {"id": "d", "text": "SS = D vezes S"},
+        {"id": "e", "text": "SS = custo dividido por giro"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "SS = zσd√L agrega a variabilidade independente por período ao longo do prazo; exige unidade, estabilidade e distribuição compatíveis, não sendo fórmula universal sem hipóteses. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1207",
+      "revision": 1,
+      "prompt": "No dimensionamento estatístico da segurança em revisão periódica, a incerteza normalmente deve abranger",
+      "options": [
+        {"id": "a", "text": "somente o instante da contagem"},
+        {"id": "b", "text": "apenas metade do lote"},
+        {"id": "c", "text": "somente o intervalo R"},
+        {"id": "d", "text": "o intervalo de revisão R mais o lead time L"},
+        {"id": "e", "text": "apenas o custo unitário"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A posição pode permanecer sem nova decisão durante R e o pedido ainda demora L; por isso, a demanda incerta do período protegido R + L é relevante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1208",
+      "revision": 1,
+      "prompt": "A fórmula baseada em consumo máximo e prazo máximo para estoque de segurança deve ser tratada como",
+      "options": [
+        {"id": "a", "text": "lei federal de avaliação patrimonial"},
+        {"id": "b", "text": "prova de normalidade dos dados"},
+        {"id": "c", "text": "equivalente universal ao nível de serviço estatístico"},
+        {"id": "d", "text": "critério contábil de custo"},
+        {"id": "e", "text": "heurística de cenário extremo, com hipóteses explicitadas"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A heurística protege contra máximos escolhidos, mas não associa diretamente o resultado a uma probabilidade e não integra as regras contábeis de valoração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1209",
+      "revision": 1,
+      "prompt": "Para D = 12.000 unidades/ano, S = R$75 por pedido e H = R$3 por unidade-ano, o LEC é aproximadamente",
+      "options": [
+        {"id": "a", "text": "775 unidades"},
+        {"id": "b", "text": "300 unidades"},
+        {"id": "c", "text": "1.200 unidades"},
+        {"id": "d", "text": "6.000 unidades"},
+        {"id": "e", "text": "900.000 unidades"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Q* = √(2 × 12.000 × 75 / 3) = √600.000 ≈ 774,6, arredondado para cerca de 775 antes de aplicar embalagens e restrições. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1210",
+      "revision": 1,
+      "prompt": "No ponto ótimo contínuo do modelo básico de lote econômico, ocorre",
+      "options": [
+        {"id": "a", "text": "custo de aquisição unitário igual a zero"},
+        {"id": "b", "text": "igualdade entre custo anual de pedidos e custo anual de manutenção do estoque cíclico"},
+        {"id": "c", "text": "ruptura obrigatória"},
+        {"id": "d", "text": "estoque de segurança igual à demanda anual"},
+        {"id": "e", "text": "lead time igual ao intervalo de revisão"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "No EOQ clássico, DS/Q e QH/2 se igualam no ótimo; custo de aquisição permanece no custo total e não precisa ser zero. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1211",
+      "revision": 1,
+      "prompt": "É hipótese do lote econômico básico",
+      "options": [
+        {"id": "a", "text": "desconto obrigatório por quantidade"},
+        {"id": "b", "text": "demanda desconhecida e sem padrão"},
+        {"id": "c", "text": "demanda e custos constantes, entrega integral e ausência de ruptura"},
+        {"id": "d", "text": "recebimento sempre parcelado"},
+        {"id": "e", "text": "vários itens sujeitos a uma restrição conjunta obrigatória"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O modelo clássico simplifica demanda, prazo, custos e reposição; descontos, faltas, entrega gradual ou restrições conjuntas exigem extensão ou outra análise. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1212",
+      "revision": 1,
+      "prompt": "Quando um fornecedor oferece desconto por quantidade, a decisão correta é",
+      "options": [
+        {"id": "a", "text": "ignorar o preço porque nunca afeta a decisão"},
+        {"id": "b", "text": "escolher sempre o maior lote"},
+        {"id": "c", "text": "usar apenas o ponto de pedido"},
+        {"id": "d", "text": "comparar o custo total dos lotes viáveis, incluindo aquisição, pedido e manutenção"},
+        {"id": "e", "text": "substituir a análise por curva XYZ"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Com preço variável por faixa, o termo de aquisição deixa de ser constante; é necessário testar os pontos viáveis e também validade, espaço e restrições. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1213",
+      "revision": 1,
+      "prompt": "Na fórmula Q* = raiz de 2DS/H, a unidade coerente de H é",
+      "options": [
+        {"id": "a", "text": "unidades por ano"},
+        {"id": "b", "text": "pedidos por mês"},
+        {"id": "c", "text": "dias por entrega"},
+        {"id": "d", "text": "reais por pedido"},
+        {"id": "e", "text": "reais por unidade-ano"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "H mede manutenção anual de uma unidade; S é que está em reais por pedido, enquanto D está em unidades por ano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1214",
+      "revision": 1,
+      "prompt": "A curva ABC de estoques costuma ordenar os itens por",
+      "options": [
+        {"id": "a", "text": "valor anual de consumo, obtido pela demanda anual vezes custo unitário"},
+        {"id": "b", "text": "ordem alfabética da descrição"},
+        {"id": "c", "text": "peso físico exclusivamente"},
+        {"id": "d", "text": "criticidade sem considerar valor"},
+        {"id": "e", "text": "data da última contagem apenas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "ABC é classificação econômica baseada usualmente no valor anual de consumo; criticidade é outra dimensão, frequentemente tratada por XYZ. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1215",
+      "revision": 1,
+      "prompt": "Sobre os percentuais das classes ABC, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "a Constituição fixa 80%, 15% e 5%"},
+        {"id": "b", "text": "não há cortes universais; eles dependem da distribuição e da finalidade"},
+        {"id": "c", "text": "a classe A deve conter sempre 80% dos itens"},
+        {"id": "d", "text": "a classe C não precisa de qualquer controle"},
+        {"id": "e", "text": "a NBC TSP define quantidade fixa de itens por classe"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Faixas como 80-15-5 são referências didáticas, não normas universais; classe C admite controle proporcional, mas não abandono de registro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1216",
+      "revision": 1,
+      "prompt": "A classificação XYZ exige declaração da convenção porque",
+      "options": [
+        {"id": "a", "text": "é sempre sinônimo de curva ABC"},
+        {"id": "b", "text": "mede somente o preço de compra"},
+        {"id": "c", "text": "pode representar criticidade em uma literatura e variabilidade em outra"},
+        {"id": "d", "text": "não admite três classes"},
+        {"id": "e", "text": "foi definida pelo art. 106 da Lei nº 4.320/1964"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "No uso adotado no conteúdo, X é baixa e Z alta criticidade; outros autores usam as letras para previsibilidade, por isso a letra sem definição é ambígua. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1217",
+      "revision": 1,
+      "prompt": "Um insumo de baixo valor anual de consumo cuja falta paralisa um serviço essencial tende a receber, na matriz ABC-XYZ adotada no conteúdo, classificação",
+      "options": [
+        {"id": "a", "text": "AX, necessariamente"},
+        {"id": "b", "text": "AZ, porque todo crítico é caro"},
+        {"id": "c", "text": "CX, porque baixo valor elimina criticidade"},
+        {"id": "d", "text": "CZ, combinando baixo impacto financeiro e alta criticidade"},
+        {"id": "e", "text": "B, sem classe de criticidade"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "ABC e XYZ medem dimensões distintas; o item pode ser C pelo baixo valor anual de consumo e Z pela consequência grave da falta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1218",
+      "revision": 1,
+      "prompt": "Um item tem demanda anual de 200 unidades e custo unitário de R$30. Seu valor anual de consumo para a ABC é",
+      "options": [
+        {"id": "a", "text": "R$230"},
+        {"id": "b", "text": "R$30"},
+        {"id": "c", "text": "R$170"},
+        {"id": "d", "text": "R$600"},
+        {"id": "e", "text": "R$6.000"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Valor anual de consumo = 200 × R$30 = R$6.000; ele ainda precisa ser comparado e acumulado com os demais itens para formar as classes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1219",
+      "revision": 1,
+      "prompt": "Se o consumo anual a custo foi R$24.000 e o estoque médio na mesma base foi R$6.000, o giro foi",
+      "options": [
+        {"id": "a", "text": "4 vezes no ano"},
+        {"id": "b", "text": "0,25 vez no ano"},
+        {"id": "c", "text": "18 vezes no ano"},
+        {"id": "d", "text": "30 vezes no ano"},
+        {"id": "e", "text": "144 vezes no ano"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Giro = 24.000 / 6.000 = 4; as bases devem ser comparáveis, e o valor não prova sozinho eficiência ou ausência de ruptura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1220",
+      "revision": 1,
+      "prompt": "Com 300 unidades disponíveis e demanda média de 20 unidades/dia, a cobertura simples é",
+      "options": [
+        {"id": "a", "text": "6 dias"},
+        {"id": "b", "text": "15 dias"},
+        {"id": "c", "text": "20 dias"},
+        {"id": "d", "text": "280 dias"},
+        {"id": "e", "text": "6.000 dias"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cobertura = 300 / 20 = 15 dias; a interpretação deve informar se o saldo inclui reservas, bloqueios ou segurança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1221",
+      "revision": 1,
+      "prompt": "A diferença entre nível de serviço por ciclo e fill rate é que",
+      "options": [
+        {"id": "a", "text": "ambos medem sempre o valor contábil"},
+        {"id": "b", "text": "o primeiro mede custo e o segundo prazo"},
+        {"id": "c", "text": "o primeiro pode medir probabilidade de ciclo sem ruptura, e o segundo a fração de unidades atendidas imediatamente"},
+        {"id": "d", "text": "fill rate mede apenas número de fornecedores"},
+        {"id": "e", "text": "não existe diferença"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Um único pequeno desabastecimento pode tornar o ciclo não atendido, mas afetar pouco a fração total de unidades; por isso, as métricas não são equivalentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1222",
+      "revision": 1,
+      "prompt": "A respeito do indicador de ruptura, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "só pode ser medido em reais"},
+        {"id": "b", "text": "sua fórmula é constitucionalmente única"},
+        {"id": "c", "text": "ruptura prova sempre erro de previsão"},
+        {"id": "d", "text": "deve declarar se mede ocorrências, dias, unidades ou requisições não atendidas"},
+        {"id": "e", "text": "é sinônimo de estoque máximo"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Há diferentes denominadores e unidades para ruptura; ela também pode decorrer de atraso, saldo incorreto ou evento excepcional, não apenas de previsão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1223",
+      "revision": 1,
+      "prompt": "Acurácia de estoque e acurácia de previsão referem-se, respectivamente, à aderência entre",
+      "options": [
+        {"id": "a", "text": "preço e orçamento; fornecedor e contrato"},
+        {"id": "b", "text": "giro e cobertura; lote e pedido"},
+        {"id": "c", "text": "ABC e XYZ; mínimo e máximo"},
+        {"id": "d", "text": "lead time e entrega; custo e valor justo"},
+        {"id": "e", "text": "registro e físico; demanda prevista e realizada"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A primeira verifica a fidedignidade do saldo; a segunda mede o desempenho do modelo de demanda. Confundi-las impede diagnosticar a origem do erro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1224",
+      "revision": 1,
+      "prompt": "Nos termos do art. 106, III, da Lei nº 4.320/1964, os bens de almoxarifado devem ser avaliados pelo",
+      "options": [
+        {"id": "a", "text": "preço médio ponderado das compras"},
+        {"id": "b", "text": "preço da compra mais recente"},
+        {"id": "c", "text": "maior preço observado"},
+        {"id": "d", "text": "valor anual de consumo da curva ABC"},
+        {"id": "e", "text": "lote econômico"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A lei enuncia expressamente o preço médio ponderado das compras; previsão, ABC, LEC e último preço têm outras finalidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1225",
+      "revision": 1,
+      "prompt": "O PEPS físico da IN SEDAP nº 205/1988 e o PEPS contábil da NBC TSP 04 (R1)",
+      "options": [
+        {"id": "a", "text": "são necessariamente a mesma operação"},
+        {"id": "b", "text": "tratam, respectivamente, da rotação do material e da atribuição de custos"},
+        {"id": "c", "text": "proíbem a saída de itens antigos"},
+        {"id": "d", "text": "equivalem ao UEPS"},
+        {"id": "e", "text": "definem o ponto de pedido"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A IN recomenda fornecer o material mais antigo para evitar envelhecimento; a NBC atribui camadas de custo. Fluxo físico e valoração podem coincidir, mas são decisões conceitualmente distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1226",
+      "revision": 1,
+      "prompt": "A NBC TSP 04 (R1), aprovada em 2025 e publicada em março de 2026, aplica-se, segundo sua cláusula de vigência, aos exercícios iniciados a partir de",
+      "options": [
+        {"id": "a", "text": "1º de janeiro de 2025, sem exceção"},
+        {"id": "b", "text": "17 de março de 2026 somente"},
+        {"id": "c", "text": "1º de janeiro de 2027, salvo prazo nacional específico"},
+        {"id": "d", "text": "1º de janeiro de 2030"},
+        {"id": "e", "text": "data escolhida livremente por cada item"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A norma entra em vigor na publicação, mas sua aplicação é indicada para exercícios iniciados em 01/01/2027, ressalvada norma nacional com prazo específico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1227",
+      "revision": 1,
+      "prompt": "A regra geral de mensuração da NBC TSP 04 (R1) para estoques abrangidos é o menor valor entre",
+      "options": [
+        {"id": "a", "text": "preço máximo e giro"},
+        {"id": "b", "text": "lote econômico e ponto de pedido"},
+        {"id": "c", "text": "custo de falta e custo de pedido"},
+        {"id": "d", "text": "custo e valor realizável líquido"},
+        {"id": "e", "text": "valor nominal e classe ABC"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A norma adota custo ou VRL, dos dois o menor, salvo hipóteses específicas como distribuição gratuita; indicadores gerenciais não são bases contábeis de mensuração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1228",
+      "revision": 1,
+      "prompt": "Estoque mantido para distribuição gratuita ou por valor irrisório deve ser mensurado, pela NBC TSP 04 (R1), pelo menor entre",
+      "options": [
+        {"id": "a", "text": "valor de face e preço máximo"},
+        {"id": "b", "text": "custo e lote econômico"},
+        {"id": "c", "text": "valor anual de consumo e cobertura"},
+        {"id": "d", "text": "preço da última compra e giro"},
+        {"id": "e", "text": "custo e custo corrente de reposição"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Para distribuição gratuita ou irrisória, o potencial de serviços é refletido pelo menor entre custo e custo corrente de reposição, e não pelo VRL de uma venda inexistente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1229",
+      "revision": 1,
+      "prompt": "Segundo a NBC TSP 04 (R1), integra o custo de aquisição do estoque",
+      "options": [
+        {"id": "a", "text": "preço de compra, tributos não recuperáveis e transporte diretamente atribuível, deduzidos descontos"},
+        {"id": "b", "text": "todo desperdício anormal"},
+        {"id": "c", "text": "qualquer despesa comercial"},
+        {"id": "d", "text": "armazenamento sem necessidade produtiva"},
+        {"id": "e", "text": "administração que não contribui para condição ou local"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Custos diretamente atribuíveis para trazer o item à condição e localização atuais integram o custo; descontos o reduzem, enquanto os demais itens listados são despesas nas hipóteses dadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1230",
+      "revision": 1,
+      "prompt": "É exemplo de gasto reconhecido como despesa, e não incluído no custo do estoque, pela NBC TSP 04 (R1)",
+      "options": [
+        {"id": "a", "text": "frete diretamente atribuível à aquisição"},
+        {"id": "b", "text": "desperdício anormal de materiais"},
+        {"id": "c", "text": "tributo de importação não recuperável"},
+        {"id": "d", "text": "seguro diretamente atribuível à compra"},
+        {"id": "e", "text": "manuseio necessário para trazer o item ao local atual"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Desperdício anormal é despesa do período; os outros exemplos podem compor aquisição quando diretamente atribuíveis e não recuperáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1231",
+      "revision": 1,
+      "prompt": "A identificação específica de custos é apropriada para",
+      "options": [
+        {"id": "a", "text": "grandes quantidades intercambiáveis escolhidas para manipular resultado"},
+        {"id": "b", "text": "todo material de expediente indistinto"},
+        {"id": "c", "text": "item não intercambiável ou segregado para projeto específico"},
+        {"id": "d", "text": "qualquer saldo sem documentação"},
+        {"id": "e", "text": "substituir a média ponderada do art. 106 sem análise"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A NBC reserva a identificação específica a itens próprios ou projetos segregados; para grandes quantidades intercambiáveis, ela não é adequada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1232",
+      "revision": 1,
+      "prompt": "Há 100 unidades a R$10 e entram 100 a R$14. Pelo custo médio ponderado, a saída de 120 unidades vale",
+      "options": [
+        {"id": "a", "text": "R$960"},
+        {"id": "b", "text": "R$1.120"},
+        {"id": "c", "text": "R$1.280"},
+        {"id": "d", "text": "R$1.440"},
+        {"id": "e", "text": "R$2.400"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O custo disponível é R$2.400 para 200 unidades, média de R$12; a saída custa 120 × R$12 = R$1.440, e o saldo custa R$960. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1233",
+      "revision": 1,
+      "prompt": "No mesmo cenário de 100 unidades a R$10, entrada de 100 a R$14 e saída de 120, o PEPS produz",
+      "options": [
+        {"id": "a", "text": "saída de R$960 e saldo de R$1.440"},
+        {"id": "b", "text": "saída de R$1.120 e saldo de R$1.280"},
+        {"id": "c", "text": "saída de R$1.440 e saldo de R$960"},
+        {"id": "d", "text": "saída de R$2.400 e saldo zero"},
+        {"id": "e", "text": "saída de R$1.280 e saldo de R$1.120"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "PEPS atribui à saída 100 × R$10 + 20 × R$14 = R$1.280; permanecem 80 unidades da camada de R$14, totalizando R$1.120. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
