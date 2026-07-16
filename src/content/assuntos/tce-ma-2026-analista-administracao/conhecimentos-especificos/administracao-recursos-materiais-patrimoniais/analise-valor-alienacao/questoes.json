@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1384",
+      "revision": 1,
+      "prompt": "Na metodologia de valor, uma solução tende a apresentar maior valor quando",
+      "options": [
+        {"id": "a", "text": "tem o menor preço de compra, independentemente da função"},
+        {"id": "b", "text": "maximiza a quantidade de componentes e acessórios"},
+        {"id": "c", "text": "adota sempre a solução tecnicamente mais complexa"},
+        {"id": "d", "text": "elimina todas as funções secundárias"},
+        {"id": "e", "text": "equilibra o desempenho das funções requeridas com os recursos necessários"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Valor relaciona atendimento confiável das funções com os recursos empregados; menor preço, maior complexidade ou eliminação indiscriminada de funções não garantem esse equilíbrio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1385",
+      "revision": 1,
+      "prompt": "Um equipamento custa menos na compra, mas exige mais energia, manutenção e reposições. Esse caso demonstra que",
+      "options": [
+        {"id": "a", "text": "preço inicial e custo do ciclo de vida são conceitos diferentes"},
+        {"id": "b", "text": "o preço inicial sempre representa o valor residual"},
+        {"id": "c", "text": "manutenção não participa da análise econômica"},
+        {"id": "d", "text": "o item de menor preço deve ser escolhido por definição"},
+        {"id": "e", "text": "custos futuros só importam depois da alienação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Preço é o montante da transação; custo do ciclo pode incluir implantação, operação, manutenção, indisponibilidade e destinação, podendo inverter a comparação inicial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1386",
+      "revision": 1,
+      "prompt": "Na análise funcional, a formulação mais adequada para uma fechadura é",
+      "options": [
+        {"id": "a", "text": "comprar modelo específico"},
+        {"id": "b", "text": "instalar marca indicada"},
+        {"id": "c", "text": "melhorar bastante"},
+        {"id": "d", "text": "restringir acesso"},
+        {"id": "e", "text": "usar componente metálico"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A estrutura verbo de ação mais substantivo mensurável descreve a função sem antecipar componente, material ou fornecedor; as demais alternativas congelam solução ou são vagas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1387",
+      "revision": 1,
+      "prompt": "Quanto às funções básica e secundárias de um produto, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "toda função secundária deve ser eliminada"},
+        {"id": "b", "text": "a função básica expressa a razão essencial de existência, e funções secundárias podem apoiar requisitos necessários"},
+        {"id": "c", "text": "a função básica é sempre a de menor custo"},
+        {"id": "d", "text": "funções secundárias nunca afetam segurança"},
+        {"id": "e", "text": "a distinção depende apenas do nome do componente"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A função básica justifica a solução; funções secundárias podem proteger, informar ou facilitar e não são automaticamente inúteis, baratas ou desvinculadas da segurança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1388",
+      "revision": 1,
+      "prompt": "A Function Analysis System Technique (FAST) é utilizada para",
+      "options": [
+        {"id": "a", "text": "representar relações lógicas entre funções, explorando como e por quê"},
+        {"id": "b", "text": "substituir o inventário físico"},
+        {"id": "c", "text": "calcular automaticamente o valor contábil"},
+        {"id": "d", "text": "definir a estrutura hierárquica do órgão"},
+        {"id": "e", "text": "ordenar cronologicamente documentos de alienação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "FAST é ferramenta de análise das relações funcionais; não é inventário, cálculo contábil, organograma ou mero fluxo documental. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1389",
+      "revision": 1,
+      "prompt": "No Job Plan da SAVE International, a fase imediatamente voltada a gerar diferentes maneiras de cumprir as funções é a de",
+      "options": [
+        {"id": "a", "text": "preparação"},
+        {"id": "b", "text": "informação"},
+        {"id": "c", "text": "criatividade"},
+        {"id": "d", "text": "apresentação"},
+        {"id": "e", "text": "implementação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A criatividade gera alternativas para as funções; preparação define escopo, informação reúne dados, apresentação comunica recomendações e implementação realiza a decisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1390",
+      "revision": 1,
+      "prompt": "Durante a fase criativa de um estudo de valor, a prática mais coerente é",
+      "options": [
+        {"id": "a", "text": "rejeitar cada ideia assim que for apresentada"},
+        {"id": "b", "text": "gerar alternativas antes do julgamento detalhado"},
+        {"id": "c", "text": "limitar as opções ao fornecedor atual"},
+        {"id": "d", "text": "selecionar pela menor despesa sem verificar função"},
+        {"id": "e", "text": "eliminar previamente toda solução com custo inicial maior"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Separar geração e avaliação evita crítica prematura e amplia as opções; fornecedor, preço inicial e solução atual não devem restringir artificialmente a criatividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1391",
+      "revision": 1,
+      "prompt": "Na fase de avaliação do Job Plan, uma alternativa deve ser comparada considerando",
+      "options": [
+        {"id": "a", "text": "somente o preço de aquisição"},
+        {"id": "b", "text": "apenas a preferência da unidade requisitante"},
+        {"id": "c", "text": "exclusivamente a quantidade de peças"},
+        {"id": "d", "text": "função, qualidade, segurança, risco, viabilidade e custo global"},
+        {"id": "e", "text": "somente a economia estimada pela equipe"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A avaliação filtra ideias por critérios técnicos, funcionais, econômicos e de risco; preço ou preferência isolados não demonstram melhor valor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1392",
+      "revision": 1,
+      "prompt": "A equipe multidisciplinar é útil na análise do valor porque",
+      "options": [
+        {"id": "a", "text": "elimina a competência decisória da autoridade"},
+        {"id": "b", "text": "garante que toda proposta seja implementada"},
+        {"id": "c", "text": "reúne perspectivas técnicas, de uso, custos, manutenção, logística e risco"},
+        {"id": "d", "text": "dispensa dados e testes"},
+        {"id": "e", "text": "serve apenas para dividir responsabilidade"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A diversidade funcional melhora informação e comparação, mas não retira a decisão competente, não garante aprovação e não dispensa validação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1393",
+      "revision": 1,
+      "prompt": "Uma equipe estima economia de R$ 100 mil com uma recomendação ainda não aprovada. Para fins de resultado, é correto",
+      "options": [
+        {"id": "a", "text": "registrar toda a economia como realizada imediatamente"},
+        {"id": "b", "text": "considerar que recomendação, implementação e resultado medido são etapas distintas"},
+        {"id": "c", "text": "dispensar a autoridade de decidir"},
+        {"id": "d", "text": "somar a mesma economia em cada fase"},
+        {"id": "e", "text": "ignorar efeitos funcionais depois da implantação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Economia prevista não é realizada até aprovação e implementação, e o resultado deve ser medido sem duplicidade, juntamente com os efeitos funcionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1394",
+      "revision": 1,
+      "prompt": "Desconsiderando valor do dinheiro no tempo e outros custos, o equipamento A custa R$ 10 mil e consome R$ 4 mil anuais por cinco anos; B custa R$ 15 mil e consome R$ 2 mil anuais. O custo do período é",
+      "options": [
+        {"id": "a", "text": "R$ 10 mil para A e R$ 15 mil para B"},
+        {"id": "b", "text": "R$ 20 mil para A e R$ 10 mil para B"},
+        {"id": "c", "text": "R$ 30 mil para A e R$ 25 mil para B"},
+        {"id": "d", "text": "R$ 50 mil para A e R$ 75 mil para B"},
+        {"id": "e", "text": "R$ 14 mil para A e R$ 17 mil para B"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A custa 10 + 5 × 4 = R$ 30 mil; B custa 15 + 5 × 2 = R$ 25 mil. A comparação completa ainda exige equivalência funcional e demais custos relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1395",
+      "revision": 1,
+      "prompt": "A análise do custo do ciclo de vida, isoladamente, não equivale à metodologia de valor porque esta também inclui",
+      "options": [
+        {"id": "a", "text": "somente atualização monetária"},
+        {"id": "b", "text": "análise funcional, geração de alternativas, desenvolvimento e implementação"},
+        {"id": "c", "text": "apenas preço e valor residual"},
+        {"id": "d", "text": "exclusivamente depreciação contábil"},
+        {"id": "e", "text": "somente pesquisa de mercado"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O custo do ciclo é ferramenta comparativa; a metodologia de valor é mais ampla e percorre funções, criatividade, avaliação técnica, recomendação e implementação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1396",
+      "revision": 1,
+      "prompt": "O custeio baseado em atividades (ABC), em relação à análise do valor,",
+      "options": [
+        {"id": "a", "text": "é sinônimo de FAST"},
+        {"id": "b", "text": "substitui todas as fases do Job Plan"},
+        {"id": "c", "text": "pode fornecer dados de custos, mas não substitui análise funcional e criatividade"},
+        {"id": "d", "text": "serve apenas para avaliar imóveis"},
+        {"id": "e", "text": "define juridicamente a modalidade de alienação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "ABC atribui recursos a atividades e objetos de custo; seus dados podem apoiar o estudo, mas não realizam as etapas funcionais, criativas ou jurídicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1397",
+      "revision": 1,
+      "prompt": "Uma especificação exige acabamento dispendioso sem função demonstrada no ambiente de uso. A análise do valor recomenda",
+      "options": [
+        {"id": "a", "text": "retirar o requisito sem qualquer teste"},
+        {"id": "b", "text": "manter sempre a especificação original"},
+        {"id": "c", "text": "formular as funções, gerar alternativas e validar o desempenho antes de alterar"},
+        {"id": "d", "text": "escolher o material mais barato disponível"},
+        {"id": "e", "text": "substituir automaticamente por padrão único"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A metodologia questiona requisitos sem presumir sua inutilidade: a alteração depende de função, alternativas, critérios e validação técnica, não de corte automático. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1398",
+      "revision": 1,
+      "prompt": "O limite de 50% do valor de mercado usado para classificar a recuperação de bens no Decreto nº 12.785/2025",
+      "options": [
+        {"id": "a", "text": "é regra universal de toda organização brasileira"},
+        {"id": "b", "text": "elimina a análise de custo e benefício"},
+        {"id": "c", "text": "integra uma regra federal específica e deve ser lido com a análise de custo e benefício"},
+        {"id": "d", "text": "determina sempre a doação do bem"},
+        {"id": "e", "text": "corresponde ao valor contábil líquido"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O decreto federal usa o percentual e a análise de custo-benefício em seu próprio âmbito; não é critério universal, modalidade de destinação nem sinônimo de valor contábil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1399",
+      "revision": 1,
+      "prompt": "Alienação de um bem é o ato que",
+      "options": [
+        {"id": "a", "text": "transfere o direito de propriedade"},
+        {"id": "b", "text": "apenas muda sua sala"},
+        {"id": "c", "text": "somente retira a plaqueta patrimonial"},
+        {"id": "d", "text": "sempre transfere posse temporária"},
+        {"id": "e", "text": "apenas altera a conta contábil"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O efeito característico da alienação é transferir propriedade; movimentação física, retirada de identificação, cessão temporária ou lançamento isolado não produzem esse efeito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1400",
+      "revision": 1,
+      "prompt": "A baixa patrimonial",
+      "options": [
+        {"id": "a", "text": "é sempre uma venda"},
+        {"id": "b", "text": "transfere por si só a propriedade ao destinatário"},
+        {"id": "c", "text": "registra a desincorporação sustentada por evento e autorização válidos"},
+        {"id": "d", "text": "dispensa o comprovante de entrega"},
+        {"id": "e", "text": "extingue automaticamente eventual dever de ressarcimento"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Baixa é efeito registral e deve refletir fato comprovado; não é venda, título de propriedade, substituto da entrega nem causa automática de extinção de responsabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1401",
+      "revision": 1,
+      "prompt": "Um bem totalmente depreciado na contabilidade e ainda funcional",
+      "options": [
+        {"id": "a", "text": "deve ser descartado imediatamente"},
+        {"id": "b", "text": "perde automaticamente sua propriedade pública"},
+        {"id": "c", "text": "pode continuar útil, pois situação contábil não determina sozinha o destino físico"},
+        {"id": "d", "text": "não pode ser inventariado"},
+        {"id": "e", "text": "tem necessariamente valor de mercado nulo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Depreciação contábil não prova inutilidade, perda de domínio ou ausência de mercado; uso, condição, função e alternativas precisam ser examinados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1402",
+      "revision": 1,
+      "prompt": "Segundo o Código Civil, os bens públicos de uso comum do povo e de uso especial",
+      "options": [
+        {"id": "a", "text": "podem ser alienados sem condição"},
+        {"id": "b", "text": "são inalienáveis enquanto conservarem sua qualificação"},
+        {"id": "c", "text": "são particulares quando ociosos"},
+        {"id": "d", "text": "são sempre dominicais"},
+        {"id": "e", "text": "podem ser adquiridos por usucapião"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 100 preserva a inalienabilidade enquanto mantida a qualificação, e o art. 102 veda usucapião de bens públicos; ociosidade não muda automaticamente a categoria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1403",
+      "revision": 1,
+      "prompt": "O bem público dominical",
+      "options": [
+        {"id": "a", "text": "é bem particular da autoridade"},
+        {"id": "b", "text": "nunca pode ser alienado"},
+        {"id": "c", "text": "pode ser alienado, observadas as exigências legais, e continua público até o ato regular"},
+        {"id": "d", "text": "dispensa avaliação"},
+        {"id": "e", "text": "é necessariamente bem de uso comum"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A categoria dominical admite alienação conforme a lei, sem transformar previamente o bem em particular nem afastar requisitos procedimentais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1404",
+      "revision": 1,
+      "prompt": "Nos termos do caput do art. 76 da Lei nº 14.133/2021, a alienação de bens da Administração Pública será",
+      "options": [
+        {"id": "a", "text": "livre quando o bem estiver sem uso"},
+        {"id": "b", "text": "sempre dispensada de licitação"},
+        {"id": "c", "text": "precedida apenas de baixa contábil"},
+        {"id": "d", "text": "decidida exclusivamente pelo avaliador"},
+        {"id": "e", "text": "subordinada a interesse público devidamente justificado e precedida de avaliação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Interesse público justificado e avaliação prévia são requisitos gerais; ociosidade, baixa ou avaliação isolada não autorizam o ato, e leilão é a regra legal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1405",
+      "revision": 1,
+      "prompt": "Para alienação de bens móveis pela Lei nº 14.133/2021, a regra de licitação é a modalidade",
+      "options": [
+        {"id": "a", "text": "pregão, por menor preço"},
+        {"id": "b", "text": "concurso, por melhor técnica"},
+        {"id": "c", "text": "diálogo competitivo"},
+        {"id": "d", "text": "leilão, ressalvadas as dispensas legais"},
+        {"id": "e", "text": "concorrência, sem exceções"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 76, II, prevê leilão para móveis e enumera hipóteses de dispensa; as demais modalidades e critérios não constituem a regra de alienação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1406",
+      "revision": 1,
+      "prompt": "A doação de bem móvel com dispensa de licitação no art. 76, II, da Lei nº 14.133/2021 é permitida",
+      "options": [
+        {"id": "a", "text": "a qualquer interessado, pela simples gratuidade"},
+        {"id": "b", "text": "sem avaliação prévia"},
+        {"id": "c", "text": "somente quando o valor contábil for zero"},
+        {"id": "d", "text": "exclusivamente para fins e uso de interesse social, após avaliação socioeconômica comparativa"},
+        {"id": "e", "text": "apenas depois de leilão com lance vencedor"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A dispensa exige fins e uso de interesse social e avaliação da oportunidade e conveniência socioeconômica frente a outra alienação; gratuidade ou depreciação não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1407",
+      "revision": 1,
+      "prompt": "A permuta de bem móvel dispensada de licitação pelo art. 76, II, da Lei nº 14.133/2021 é permitida exclusivamente",
+      "options": [
+        {"id": "a", "text": "entre órgãos ou entidades da Administração Pública"},
+        {"id": "b", "text": "com qualquer empresa privada"},
+        {"id": "c", "text": "com servidores do órgão"},
+        {"id": "d", "text": "com o maior licitante"},
+        {"id": "e", "text": "entre pessoas naturais"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A alínea b restringe a permuta dispensada de móveis a órgãos ou entidades públicas; não se amplia a hipótese a particulares por analogia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1408",
+      "revision": 1,
+      "prompt": "A venda de materiais e equipamentos sem utilização previsível por quem os detém a outro órgão ou entidade pública",
+      "options": [
+        {"id": "a", "text": "é uma hipótese de dispensa prevista para bens móveis"},
+        {"id": "b", "text": "é proibida em qualquer situação"},
+        {"id": "c", "text": "dispensa interesse público e avaliação"},
+        {"id": "d", "text": "é necessariamente doação"},
+        {"id": "e", "text": "aplica-se somente a imóveis"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A hipótese consta do art. 76, II, f, para móveis; ela continua sendo venda e não elimina os requisitos gerais de interesse público, avaliação e processo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1409",
+      "revision": 1,
+      "prompt": "Na regra geral de alienação de imóvel público prevista no art. 76 da Lei nº 14.133/2021, exige-se",
+      "options": [
+        {"id": "a", "text": "somente autorização do setor patrimonial"},
+        {"id": "b", "text": "autorização legislativa, avaliação, interesse público e leilão, ressalvadas hipóteses legais"},
+        {"id": "c", "text": "apenas maior lance verbal"},
+        {"id": "d", "text": "dispensa de avaliação para bem dominical"},
+        {"id": "e", "text": "pregão eletrônico obrigatório"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Imóveis seguem requisitos reforçados, inclusive autorização legislativa e leilão como regra; setor patrimonial, dominialidade ou pregão não substituem o regime. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1410",
+      "revision": 1,
+      "prompt": "Imóvel adquirido pela Administração em procedimento judicial ou por dação em pagamento",
+      "options": [
+        {"id": "a", "text": "pode ser vendido sem avaliação"},
+        {"id": "b", "text": "dispensa autorização legislativa, mas exige avaliação prévia e leilão"},
+        {"id": "c", "text": "deve ser doado"},
+        {"id": "d", "text": "dispensa todo processo"},
+        {"id": "e", "text": "só pode ser permutado"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 76, § 1º, cria exceção à autorização legislativa, não à avaliação nem ao leilão; as demais alternativas eliminam requisitos inexistentes na exceção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1411",
+      "revision": 1,
+      "prompt": "Na doação com encargo disciplinada pelo art. 76, § 6º, o instrumento deve conter obrigatoriamente",
+      "options": [
+        {"id": "a", "text": "somente o nome do donatário"},
+        {"id": "b", "text": "encargos, prazo de cumprimento e cláusula de reversão"},
+        {"id": "c", "text": "apenas valor contábil e fotografia"},
+        {"id": "d", "text": "somente recibo de transporte"},
+        {"id": "e", "text": "renúncia irrestrita à reversão"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A lei exige esses três elementos sob pena de nulidade; identificação, avaliação e entrega também importam, mas não substituem o conteúdo legal do encargo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1412",
+      "revision": 1,
+      "prompt": "O critério de julgamento próprio do leilão é",
+      "options": [
+        {"id": "a", "text": "menor preço"},
+        {"id": "b", "text": "maior desconto"},
+        {"id": "c", "text": "melhor técnica"},
+        {"id": "d", "text": "maior retorno econômico"},
+        {"id": "e", "text": "maior lance"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Leilão aliena ao maior lance, observado o preço mínimo e as condições do edital; os demais critérios pertencem a outros contextos licitatórios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1413",
+      "revision": 1,
+      "prompt": "O edital de leilão deve informar, entre outros elementos,",
+      "options": [
+        {"id": "a", "text": "apenas o nome do leiloeiro"},
+        {"id": "b", "text": "descrição do bem, avaliação, preço mínimo, pagamento, localização e eventuais ônus"},
+        {"id": "c", "text": "somente o valor contábil original"},
+        {"id": "d", "text": "dados sigilosos sem relação com o bem"},
+        {"id": "e", "text": "apenas o horário de retirada"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Essas informações sustentam transparência, visitação, formulação de lances e proteção do preço; dados parciais não cumprem o conteúdo previsto no art. 31. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1414",
+      "revision": 1,
+      "prompt": "De acordo com a Lei nº 14.133/2021, o leilão",
+      "options": [
+        {"id": "a", "text": "exige registro cadastral prévio e habilitação complexa"},
+        {"id": "b", "text": "não exige registro cadastral prévio nem possui fase de habilitação"},
+        {"id": "c", "text": "não admite fase recursal"},
+        {"id": "d", "text": "é homologado antes do pagamento"},
+        {"id": "e", "text": "dispensa divulgação do edital"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 31, § 4º, afasta cadastro e habilitação; ainda existem publicidade, lances, recurso, pagamento e homologação na sequência legal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1415",
+      "revision": 1,
+      "prompt": "Se o maior lance de um leilão permanecer abaixo do preço mínimo definido pela Administração,",
+      "options": [
+        {"id": "a", "text": "deve ser aceito porque foi o maior"},
+        {"id": "b", "text": "o bem deve ser entregue gratuitamente"},
+        {"id": "c", "text": "não se torna vencedor apenas por ser o maior lance apresentado"},
+        {"id": "d", "text": "a avaliação perde automaticamente a validade"},
+        {"id": "e", "text": "a modalidade se converte em pregão"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Maior lance e preço mínimo são requisitos cumulativos para a arrematação nas condições do edital; o resultado não autoriza doação ou mudança automática de modalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1416",
+      "revision": 1,
+      "prompt": "O Decreto nº 12.785/2025 disciplina mecanismos de circularidade de bens móveis no âmbito",
+      "options": [
+        {"id": "a", "text": "de todos os entes e poderes brasileiros automaticamente"},
+        {"id": "b", "text": "exclusivamente dos municípios"},
+        {"id": "c", "text": "somente de empresas privadas"},
+        {"id": "d", "text": "da Administração Pública federal direta, autárquica e fundacional"},
+        {"id": "e", "text": "apenas do TCE-MA"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 1º delimita o âmbito federal direto, autárquico e fundacional e há exclusões; não se presume aplicação administrativa automática ao TCE-MA. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1417",
+      "revision": 1,
+      "prompt": "No Decreto nº 12.785/2025, bem ocioso é aquele que",
+      "options": [
+        {"id": "a", "text": "está destruído e não pode cumprir sua função"},
+        {"id": "b", "text": "é necessariamente resíduo perigoso"},
+        {"id": "c", "text": "tem recuperação superior a 50% e injustificável"},
+        {"id": "d", "text": "está em uso regular e tem utilização prevista"},
+        {"id": "e", "text": "está em condições de uso e é vantajoso, mas não é aproveitado pelo órgão detentor"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Ocioso permanece utilizável e vantajoso, distinguindo-se de uso regular, irrecuperável e resíduo; a falta de aproveitamento pelo detentor é o elemento decisivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1418",
+      "revision": 1,
+      "prompt": "Pelo Decreto nº 12.785/2025, um bem fora de uso cuja recuperação custa 40% do valor de mercado e é justificável tende a ser classificado como",
+      "options": [
+        {"id": "a", "text": "recuperável"},
+        {"id": "b", "text": "de uso regular"},
+        {"id": "c", "text": "obrigatoriamente irrecuperável"},
+        {"id": "d", "text": "necessariamente antieconômico"},
+        {"id": "e", "text": "automaticamente alienado"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O custo até 50% ou a análise favorável sustentam a classe recuperável; classificar não equivale a destinar automaticamente nem a dizer que já está em uso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1419",
+      "revision": 1,
+      "prompt": "Bem antieconômico, no Decreto nº 12.785/2025, é o que",
+      "options": [
+        {"id": "a", "text": "está necessariamente destruído"},
+        {"id": "b", "text": "foi adquirido por doação"},
+        {"id": "c", "text": "não tem qualquer valor contábil"},
+        {"id": "d", "text": "é sempre imóvel"},
+        {"id": "e", "text": "está em condições de uso, mas gera custo superior a seu valor ou utilidade ou baixo rendimento"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A classe pode abranger bem funcional oneroso por desgaste, ineficiência ou obsolescência; não depende de destruição, origem, natureza imóvel ou saldo contábil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1420",
+      "revision": 1,
+      "prompt": "No Decreto nº 12.785/2025, são considerados inservíveis os bens",
+      "options": [
+        {"id": "a", "text": "somente irrecuperáveis"},
+        {"id": "b", "text": "somente antieconômicos e irrecuperáveis"},
+        {"id": "c", "text": "em uso regular e ociosos apenas"},
+        {"id": "d", "text": "ociosos, recuperáveis, antieconômicos e irrecuperáveis"},
+        {"id": "e", "text": "apenas sem valor de mercado"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A definição federal de inservível agrega as quatro classes dos incisos II a V; por isso, inservível não significa apenas quebrado ou sem valor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1421",
+      "revision": 1,
+      "prompt": "No regime do Decreto nº 12.785/2025, a diferença central entre cessão e transferência é que",
+      "options": [
+        {"id": "a", "text": "cessão é permanente e transfere sempre propriedade"},
+        {"id": "b", "text": "cessão é precária e temporária, enquanto transferência é permanente e inclui propriedade"},
+        {"id": "c", "text": "ambas são necessariamente vendas"},
+        {"id": "d", "text": "transferência nunca muda responsabilidade"},
+        {"id": "e", "text": "cessão só se aplica a imóveis"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O decreto caracteriza a cessão como movimentação temporária de posse e a transferência como movimentação permanente de posse, propriedade e responsabilidades; nenhuma é venda necessária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1422",
+      "revision": 1,
+      "prompt": "Segundo o Decreto nº 12.785/2025, bens móveis inservíveis sem manifestação de interesse para cessão ou transferência poderão",
+      "options": [
+        {"id": "a", "text": "ser alienados por leilão conforme a Lei nº 14.133/2021"},
+        {"id": "b", "text": "ser abandonados sem processo"},
+        {"id": "c", "text": "ser baixados antes de qualquer destinação"},
+        {"id": "d", "text": "ser entregues ao primeiro interessado sem avaliação"},
+        {"id": "e", "text": "ser ocultados do sistema de controle"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 9º encaminha ao leilão após ausência de interesse nas movimentações, mantendo o regime legal; abandono, entrega informal ou baixa antecipada não são atalhos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1423",
+      "revision": 1,
+      "prompt": "A classificação e a avaliação no Decreto nº 12.785/2025 são realizadas por",
+      "options": [
+        {"id": "a", "text": "qualquer usuário isoladamente"},
+        {"id": "b", "text": "comissão instituída pela autoridade competente, com no mínimo três membros"},
+        {"id": "c", "text": "somente pelo futuro comprador"},
+        {"id": "d", "text": "leiloeiro sem supervisão ou ato"},
+        {"id": "e", "text": "fornecedor original obrigatoriamente"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 19 prevê comissão permanente ou especial e composição mínima de três membros qualificados nos termos do decreto; interessado ou usuário isolado não substitui esse rito federal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1424",
+      "revision": 1,
+      "prompt": "Na IN SEDAP nº 205/1988, descarga significa",
+      "options": [
+        {"id": "a", "text": "necessariamente venda do material"},
+        {"id": "b", "text": "transferência da responsabilidade pela guarda"},
+        {"id": "c", "text": "descarte em aterro"},
+        {"id": "d", "text": "depreciação contábil"},
+        {"id": "e", "text": "doação sem termo"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A instrução define descarga como transferência da responsabilidade pela guarda; ela pode decorrer de diversos fatos e não é sinônimo de venda, baixa contábil ou descarte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1425",
+      "revision": 1,
+      "prompt": "A ordem de prioridade da Política Nacional de Resíduos Sólidos começa por",
+      "options": [
+        {"id": "a", "text": "disposição em aterro e depois reciclagem"},
+        {"id": "b", "text": "incineração de todo material"},
+        {"id": "c", "text": "não geração, redução e reutilização, antes de reciclagem e tratamento"},
+        {"id": "d", "text": "venda e doação obrigatórias"},
+        {"id": "e", "text": "baixa contábil e abandono"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 9º prioriza não gerar, reduzir, reutilizar, reciclar e tratar, deixando a disposição ambientalmente adequada para os rejeitos; alienação e baixa são dimensões distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1426",
+      "revision": 1,
+      "prompt": "Na PNRS, destinação final ambientalmente adequada e disposição final ambientalmente adequada",
+      "options": [
+        {"id": "a", "text": "são expressões idênticas"},
+        {"id": "b", "text": "diferem porque destinação inclui soluções como reutilização e reciclagem, enquanto disposição se refere a rejeitos em aterros"},
+        {"id": "c", "text": "se aplicam apenas a bens privados"},
+        {"id": "d", "text": "dispensam controles de saúde e ambiente"},
+        {"id": "e", "text": "ocorrem antes de qualquer tentativa de redução"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Destinação é gênero com alternativas de aproveitamento e tratamento; disposição é a colocação ordenada de rejeitos em aterros, observando controles ambientais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1427",
+      "revision": 1,
+      "prompt": "A contratação de empresa para transportar e destinar resíduos",
+      "options": [
+        {"id": "a", "text": "sempre elimina toda responsabilidade do gerador"},
+        {"id": "b", "text": "dispensa verificar licenças e comprovantes"},
+        {"id": "c", "text": "não isenta, nos casos legais, a responsabilidade por danos de gerenciamento inadequado"},
+        {"id": "d", "text": "transforma automaticamente resíduo em rejeito"},
+        {"id": "e", "text": "substitui a baixa patrimonial"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A PNRS preserva responsabilidade nos casos abrangidos, razão pela qual habilitação, cadeia de custódia e comprovação continuam necessárias; contratação não muda a natureza do material nem o registro patrimonial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1428",
+      "revision": 1,
+      "prompt": "O sistema obrigatório do Decreto nº 10.240/2020 tem por objeto produtos eletroeletrônicos",
+      "options": [
+        {"id": "a", "text": "de uso doméstico, não abrangendo automaticamente o uso governamental"},
+        {"id": "b", "text": "de qualquer uso, sem distinção"},
+        {"id": "c", "text": "apenas governamentais"},
+        {"id": "d", "text": "somente industriais"},
+        {"id": "e", "text": "apenas hospitalares"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O decreto estrutura a logística reversa doméstica e exclui o uso não doméstico, inclusive governamental e corporativo; essas hipóteses podem ter disciplina contratual e plano próprio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1429",
+      "revision": 1,
+      "prompt": "Antes de alienar um computador público com unidade de armazenamento, o controle mais adequado é",
+      "options": [
+        {"id": "a", "text": "apagar apenas os atalhos da área de trabalho"},
+        {"id": "b", "text": "retirar a plaqueta e entregar"},
+        {"id": "c", "text": "identificar a mídia, sanitizar ou destruir conforme o risco, verificar e registrar a evidência"},
+        {"id": "d", "text": "confiar exclusivamente na declaração do comprador"},
+        {"id": "e", "text": "realizar a baixa antes de examinar os dados"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Proteção da informação exige método compatível, verificação e vínculo com o ativo; exclusão comum, plaqueta, declaração do recebedor ou baixa não comprovam remoção segura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1430",
+      "revision": 1,
+      "prompt": "Na avaliação prévia para alienação, o valor contábil líquido",
+      "options": [
+        {"id": "a", "text": "é sempre igual ao valor de mercado"},
+        {"id": "b", "text": "é dado relevante, mas não substitui automaticamente avaliação de mercado e preço mínimo"},
+        {"id": "c", "text": "define sozinho a modalidade"},
+        {"id": "d", "text": "dispensa observar estado e componentes"},
+        {"id": "e", "text": "torna desnecessária a data-base"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mensuração contábil, valor de mercado e preço mínimo cumprem funções diferentes; método, condição, fontes, data-base e limitações precisam ser documentados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1431",
+      "revision": 1,
+      "prompt": "Em um fluxo controlado de alienação, a baixa patrimonial deve ocorrer",
+      "options": [
+        {"id": "a", "text": "antes da avaliação, para liberar o processo"},
+        {"id": "b", "text": "logo que o bem é separado fisicamente"},
+        {"id": "c", "text": "após destinação, entrega e demais evidências exigidas pelo evento"},
+        {"id": "d", "text": "antes do pagamento do arrematante"},
+        {"id": "e", "text": "sem vínculo com documentos"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A baixa deve refletir desincorporação efetiva e comprovada; segregação, intenção ou avaliação ainda não transferem o bem nem encerram a responsabilidade de guarda. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1432",
+      "revision": 1,
+      "prompt": "Uma entidade social pede a doação de móveis ociosos. A conduta correta é",
+      "options": [
+        {"id": "a", "text": "entregar imediatamente porque não haverá pagamento"},
+        {"id": "b", "text": "avaliar bens, finalidade e uso social, comparar alternativas, verificar competência e formalizar"},
+        {"id": "c", "text": "baixar os bens e depois identificar a entidade"},
+        {"id": "d", "text": "dispensar interesse público por se tratar de doação"},
+        {"id": "e", "text": "presumir que bem ocioso não possui valor"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A doação móvel exige avaliação, interesse social, comparação socioeconômica, recebedor apto, competência e termo; gratuidade e ociosidade não dispensam o processo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1433",
+      "revision": 1,
+      "prompt": "Em um lote de equipamentos eletrônicos destinado a leilão, a prática que melhor integra controles patrimonial, informacional e ambiental é",
+      "options": [
+        {"id": "a", "text": "baixar todo o lote e permitir retirada sem relação individual"},
+        {"id": "b", "text": "usar apenas uma fotografia do depósito"},
+        {"id": "c", "text": "manter identificação e avaliação, sanitizar mídias, controlar pagamento e entrega e arquivar destinação"},
+        {"id": "d", "text": "considerar que o maior lance elimina o preço mínimo"},
+        {"id": "e", "text": "transferir ao arrematante a responsabilidade por dados ainda armazenados"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O processo deve ligar cada bem ao valor, à segurança da informação, ao resultado financeiro, à transferência de guarda e à destinação; baixa antecipada, prova genérica ou terceirização do risco rompem a rastreabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
