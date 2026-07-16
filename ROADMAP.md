@@ -556,7 +556,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 ##### [x] Concluído Assunto 126 - Item 1.1, fase 3: Modalidades, julgamento, seleção do fornecedor e contratação direta.
 
-##### [ ] Assunto 127 - Item 1.1, fase 4: Formalização, garantias, alocação de riscos e duração contratual.
+##### [>] Em progresso Assunto 127 - Item 1.1, fase 4: Formalização, garantias, alocação de riscos e duração contratual.
 
 ##### [ ] Assunto 128 - Item 1.1, fase 5: Execução, fiscalização, alterações e equilíbrio econômico-financeiro.
 
