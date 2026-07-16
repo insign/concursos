@@ -591,7 +591,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 #### Governo Eletrônico, Transparência e Controle Social
 
-##### [R] Em revisão Assunto 138 - Item 1: Fundamentos, modelos, serviços, canais, integração e governança de governo eletrônico.
+##### [x] Concluído Assunto 138 - Item 1: Fundamentos, modelos, serviços, canais, integração e governança de governo eletrônico.
 
 - Item 1. Governo eletrônico na administração pública: fundamentos e modelos; serviços, canais, integração e governança.
 - Não confundir governo eletrônico com o governo digital do item 4.1 de Competências Digitais.
