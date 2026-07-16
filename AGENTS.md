@@ -111,6 +111,7 @@ npm run preview
 ### Pesquisa e fontes
 
 - Use o subagente `researcher` para pesquisar o assunto antes de redigir. O briefing deve informar concurso, cargo, matéria e todos os itens, subitens e recortes do edital atribuídos ao assunto selecionado.
+- Toda pesquisa que envolva o Brasil, legislação brasileira ou conteúdo editorial brasileiro deve usar português brasileiro no briefing ao `researcher`, nas consultas aos provedores e no relatório solicitado. Preserve citações exatas, nomes oficiais, títulos de fontes e termos técnicos necessários no idioma original; o prompt ao `urlreader` deve ser escrito em português, mas o conteúdo extraído deve permanecer no idioma original e sem tradução ou síntese.
 - Solicite material completo e relevante para aprendizagem e cobrança em concursos, incluindo provas similares, sem limitar a pesquisa a resumos superficiais.
 - Priorize edital e retificações, legislação e páginas oficiais, provas e gabaritos oficiais, documentação técnica primária e referências acadêmicas reconhecidas.
 - Use o subagente `urlreader` para ler integralmente as páginas mais relevantes e resolver lacunas, divergências ou detalhes que snippets de busca não sustentem.
