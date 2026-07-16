@@ -541,7 +541,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Item 13, recorte: arquivamento, recebimento, proteção, conservação, distribuição e inventário.
 
-##### [R] Em revisão Assunto 123 - Item 14: Análise do valor e alienação.
+##### [x] Concluído Assunto 123 - Item 14: Análise do valor e alienação.
 
 - Item 14. Análise do valor e Alienação.
 
