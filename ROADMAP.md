@@ -552,7 +552,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 1.1. Lei nº 14.133/2021 aplicada à contratação de bens e serviços: fundamentos, agentes e processo.
 - Os Assuntos 124 a 130 tratam do regime normativo da Lei nº 14.133/2021 aplicado a bens e serviços; não duplicar o item prático 2.
 
-##### [ ] Assunto 125 - Item 1.1, fase 2: Planejamento e fase preparatória da contratação.
+##### [>] Em progresso Assunto 125 - Item 1.1, fase 2: Planejamento e fase preparatória da contratação.
 
 ##### [ ] Assunto 126 - Item 1.1, fase 3: Modalidades, julgamento, seleção do fornecedor e contratação direta.
 
