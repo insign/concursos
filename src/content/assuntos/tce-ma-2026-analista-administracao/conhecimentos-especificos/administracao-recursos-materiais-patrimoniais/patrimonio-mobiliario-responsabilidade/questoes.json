@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1084",
+      "revision": 1,
+      "prompt": "Segundo o Código Civil, são móveis, em sentido básico, os bens",
+      "options": [
+        {"id": "a", "text": "suscetíveis de movimento próprio ou remoção por força alheia sem alteração da substância ou destinação econômico-social"},
+        {"id": "b", "text": "cujo preço seja inferior ao limite fixado para licitação"},
+        {"id": "c", "text": "consumidos necessariamente em até dois anos"},
+        {"id": "d", "text": "registrados individualmente no sistema patrimonial"},
+        {"id": "e", "text": "pertencentes exclusivamente a pessoas privadas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 82 do Código Civil define os móveis pela possibilidade de movimento ou remoção sem alteração da substância ou da destinação econômico-social. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1085",
+      "revision": 1,
+      "prompt": "A respeito de materiais de construção, o Código Civil estabelece que",
+      "options": [
+        {"id": "a", "text": "são sempre imóveis desde a compra"},
+        {"id": "b", "text": "conservam a qualidade de móveis enquanto não empregados e os provenientes de demolição a readquirem"},
+        {"id": "c", "text": "deixam de ter valor patrimonial após a demolição"},
+        {"id": "d", "text": "são intangíveis quando armazenados"},
+        {"id": "e", "text": "dependem apenas do preço para serem móveis"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 84 do Código Civil mantém como móveis os materiais destinados à construção enquanto não empregados e devolve essa qualidade aos materiais de demolição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1086",
+      "revision": 1,
+      "prompt": "A relação correta entre bem móvel, material permanente e ativo imobilizado é",
+      "options": [
+        {"id": "a", "text": "todo bem móvel é material permanente e ativo imobilizado"},
+        {"id": "b", "text": "somente o ativo imobilizado pode ser movido"},
+        {"id": "c", "text": "são classificações com perguntas próprias, respectivamente civil, orçamentária e contábil"},
+        {"id": "d", "text": "material permanente é conceito exclusivamente civil"},
+        {"id": "e", "text": "a etiqueta patrimonial torna as três classificações equivalentes"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Natureza móvel, classificação de material permanente e reconhecimento como imobilizado pertencem a dimensões distintas e não são sinônimos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1087",
+      "revision": 1,
+      "prompt": "Para fins da classificação orçamentária prevista na Lei nº 4.320/1964, material permanente é o de duração",
+      "options": [
+        {"id": "a", "text": "igual ou inferior a seis meses"},
+        {"id": "b", "text": "superior a seis meses"},
+        {"id": "c", "text": "igual a um exercício financeiro"},
+        {"id": "d", "text": "superior a dois anos"},
+        {"id": "e", "text": "indeterminada e necessariamente perpétua"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 15, § 2º, da Lei nº 4.320/1964 considera material permanente o de duração superior a dois anos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1088",
+      "revision": 1,
+      "prompt": "Constitui conjunto de parâmetros usados na análise de material de consumo",
+      "options": [
+        {"id": "a", "text": "receita, despesa, superávit, déficit e caixa"},
+        {"id": "b", "text": "domínio, posse, usucapião, afetação e desapropriação"},
+        {"id": "c", "text": "marca, cor, fornecedor, setor e etiqueta"},
+        {"id": "d", "text": "liquidez, rentabilidade, solvência, preço e inflação"},
+        {"id": "e", "text": "durabilidade, fragilidade, perecibilidade, incorporabilidade e transformabilidade"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O MCASP emprega esses parâmetros para apoiar a classificação, conforme as características e a finalidade do item. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1089",
+      "revision": 1,
+      "prompt": "Na classificação de um item de baixo valor e longa vida útil, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "o baixo valor pode justificar controle simplificado, mas não muda sozinho a natureza do item"},
+        {"id": "b", "text": "todo item barato deve ser classificado como consumo"},
+        {"id": "c", "text": "a vida útil deixa de ser considerada"},
+        {"id": "d", "text": "é proibido adotar qualquer controle por risco"},
+        {"id": "e", "text": "o item se torna intangível"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Materialidade e custo-benefício podem orientar o nível de controle, sem converter automaticamente um bem permanente em material de consumo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1090",
+      "revision": 1,
+      "prompt": "O número de série e a constatação do estado de conservação pertencem predominantemente à dimensão",
+      "options": [
+        {"id": "a", "text": "jurisdicional"},
+        {"id": "b", "text": "física do controle patrimonial"},
+        {"id": "c", "text": "tributária"},
+        {"id": "d", "text": "eleitoral"},
+        {"id": "e", "text": "financeira de mercado"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Existência, identificação física e condição do objeto integram a dimensão física, que deve ser conciliada com as demais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1091",
+      "revision": 1,
+      "prompt": "Um equipamento recebido em comodato por órgão público",
+      "options": [
+        {"id": "a", "text": "torna-se automaticamente propriedade do órgão"},
+        {"id": "b", "text": "dispensa inventário por pertencer a terceiro"},
+        {"id": "c", "text": "exige controle de titular, instrumento, prazo, condição e custódia, sem reconhecimento automático como ativo próprio"},
+        {"id": "d", "text": "deve ser baixado assim que recebido"},
+        {"id": "e", "text": "não pode ser utilizado no serviço público"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bens de terceiros sob guarda do órgão exigem controle, mas o instrumento de uso não transfere automaticamente propriedade nem reconhecimento contábil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1092",
+      "revision": 1,
+      "prompt": "Em um equipamento que contém software, a análise patrimonial adequada é",
+      "options": [
+        {"id": "a", "text": "sempre reconhecer o software separadamente"},
+        {"id": "b", "text": "sempre ignorar o software"},
+        {"id": "c", "text": "considerar todo software material de consumo"},
+        {"id": "d", "text": "avaliar se o software é inseparável do funcionamento ou identificável e controlável separadamente"},
+        {"id": "e", "text": "classificar o equipamento como imóvel"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Software inseparável tende a acompanhar o equipamento; se identificável e controlável separadamente, pode exigir análise como intangível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1093",
+      "revision": 1,
+      "prompt": "No ciclo patrimonial mobiliário, uma movimentação física sem atualização cadastral pode",
+      "options": [
+        {"id": "a", "text": "provar apropriação pelo antigo responsável"},
+        {"id": "b", "text": "eliminar a necessidade de inventário"},
+        {"id": "c", "text": "produzir baixa contábil automática"},
+        {"id": "d", "text": "transferir a propriedade ao setor recebedor"},
+        {"id": "e", "text": "gerar falso desaparecimento e atribuição desatualizada de custódia"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Movimentação sem registro rompe a rastreabilidade e pode fazer um bem existente parecer desaparecido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1094",
+      "revision": 1,
+      "prompt": "A etiqueta ou plaqueta patrimonial",
+      "options": [
+        {"id": "a", "text": "é meio de identificação vinculado ao cadastro, não o próprio cadastro nem prova isolada de propriedade"},
+        {"id": "b", "text": "substitui inventário, nota e termo"},
+        {"id": "c", "text": "transforma qualquer item em ativo"},
+        {"id": "d", "text": "impede toda perda ou dano"},
+        {"id": "e", "text": "só pode conter o preço do bem"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A marca física conecta o objeto ao registro, mas seu significado depende de cadastro e documentação consistentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1095",
+      "revision": 1,
+      "prompt": "Carga patrimonial é",
+      "options": [
+        {"id": "a", "text": "a exclusão definitiva do bem"},
+        {"id": "b", "text": "a atribuição formal de bens a unidade ou agente para guarda, uso ou controle"},
+        {"id": "c", "text": "a transferência da propriedade ao servidor"},
+        {"id": "d", "text": "o cálculo anual da depreciação"},
+        {"id": "e", "text": "a classificação de todo bem como consumo"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Carga formaliza custódia ou controle e não altera a titularidade do bem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1096",
+      "revision": 1,
+      "prompt": "Descarga patrimonial corresponde",
+      "options": [
+        {"id": "a", "text": "necessariamente à destruição do objeto"},
+        {"id": "b", "text": "ao reconhecimento inicial do ativo"},
+        {"id": "c", "text": "à transferência ou retirada formal da responsabilidade pela guarda, sem equivaler necessariamente à baixa"},
+        {"id": "d", "text": "à venda automática do bem"},
+        {"id": "e", "text": "à perda da propriedade pública"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na terminologia da IN nº 205/1988, descarga transfere a responsabilidade pela guarda; baixa é procedimento distinto de retirada regular do patrimônio ou registro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1097",
+      "revision": 1,
+      "prompt": "O termo de responsabilidade patrimonial",
+      "options": [
+        {"id": "a", "text": "cria responsabilidade objetiva do signatário"},
+        {"id": "b", "text": "dispensa a prova do dano"},
+        {"id": "c", "text": "autoriza uso particular"},
+        {"id": "d", "text": "documenta entrega, condição e custódia, devendo ser confrontado com outras evidências em eventual apuração"},
+        {"id": "e", "text": "substitui o processo disciplinar"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O termo é evidência relevante, mas não prova sozinho culpa, nexo ou valor do dano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1098",
+      "revision": 1,
+      "prompt": "Assinale a associação correta de papéis no controle mobiliário.",
+      "options": [
+        {"id": "a", "text": "usuário é sempre o proprietário civil"},
+        {"id": "b", "text": "unidade detentora é necessariamente pessoa física"},
+        {"id": "c", "text": "terceiro contratado nunca responde por bem público"},
+        {"id": "d", "text": "responsável pela carga pode alienar livremente o bem"},
+        {"id": "e", "text": "proprietário, unidade detentora, responsável pela carga e usuário podem ser sujeitos distintos"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Titularidade, vínculo administrativo, custódia formal e uso são posições distintas que podem recair em sujeitos diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1099",
+      "revision": 1,
+      "prompt": "Para equipamentos compartilhados por várias pessoas, o controle mais adequado deve",
+      "options": [
+        {"id": "a", "text": "refletir acesso real, regras de uso, localização e responsabilidade da unidade, conforme o risco"},
+        {"id": "b", "text": "atribuir toda culpa futura ao primeiro usuário"},
+        {"id": "c", "text": "dispensar qualquer registro"},
+        {"id": "d", "text": "transferir propriedade a todos os usuários"},
+        {"id": "e", "text": "impedir manutenção por terceiros"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O desenho de custódia deve corresponder ao acesso e à operação, evitando termos fictícios incapazes de representar a realidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1100",
+      "revision": 1,
+      "prompt": "Segundo a Lei Estadual do Maranhão nº 6.107/1994, é dever do servidor",
+      "options": [
+        {"id": "a", "text": "usar material público em atividade particular de pequeno valor"},
+        {"id": "b", "text": "zelar pela economia do material e conservação do patrimônio público"},
+        {"id": "c", "text": "retirar qualquer objeto sem anuência"},
+        {"id": "d", "text": "ignorar irregularidade patrimonial"},
+        {"id": "e", "text": "transferir a carga sem registro"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 209 do estatuto estadual inclui expressamente o dever de zelar pela economia do material e conservação do patrimônio público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1101",
+      "revision": 1,
+      "prompt": "A Lei Estadual nº 6.107/1994 proíbe ao servidor",
+      "options": [
+        {"id": "a", "text": "comunicar irregularidade à autoridade competente"},
+        {"id": "b", "text": "zelar pelo equipamento confiado"},
+        {"id": "c", "text": "retirar objeto da repartição sem prévia anuência da autoridade competente"},
+        {"id": "d", "text": "solicitar manutenção preventiva"},
+        {"id": "e", "text": "conferir o material recebido"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 210 do estatuto maranhense veda retirar, modificar ou substituir documento oficial ou objeto sem prévia anuência competente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1102",
+      "revision": 1,
+      "prompt": "A Instrução Normativa SEDAP nº 205/1988 deve ser compreendida como",
+      "options": [
+        {"id": "a", "text": "estatuto disciplinar próprio do TCE-MA"},
+        {"id": "b", "text": "norma municipal maranhense"},
+        {"id": "c", "text": "lei civil aplicável a particulares"},
+        {"id": "d", "text": "referência operacional federal do SISG sobre administração de material"},
+        {"id": "e", "text": "norma que extinguiu o inventário"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A IN nº 205/1988 disciplina procedimentos de material no âmbito federal do SISG e não substitui a norma própria do Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1103",
+      "revision": 1,
+      "prompt": "Ao estudar responsabilidade funcional no TCE-MA, o uso da Lei nº 8.112/1990 é adequado quando",
+      "options": [
+        {"id": "a", "text": "suas penalidades são aplicadas automaticamente aos servidores estaduais"},
+        {"id": "b", "text": "ela substitui toda norma estadual"},
+        {"id": "c", "text": "seus prazos prevalecem sobre regulamento do Tribunal"},
+        {"id": "d", "text": "se presume que todo tribunal adota o regime federal"},
+        {"id": "e", "text": "é tratada como referência comparativa, verificando-se separadamente o regime estadual e interno aplicável"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A Lei nº 8.112/1990 rege servidores civis federais; conceitos podem orientar o estudo, mas não autorizam importar rito e penalidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1104",
+      "revision": 1,
+      "prompt": "Na apuração de dano a bem público, constitui sequência lógica de elementos",
+      "options": [
+        {"id": "a", "text": "fato, conduta, dever violado, dano, nexo e elemento subjetivo aplicável"},
+        {"id": "b", "text": "cargo, salário e tempo de serviço apenas"},
+        {"id": "c", "text": "etiqueta e valor histórico apenas"},
+        {"id": "d", "text": "denúncia anônima e sanção imediata"},
+        {"id": "e", "text": "carga assinada e presunção absoluta"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A imputação exige reconstrução do fato e dos pressupostos jurídicos, além de competência e procedimento adequados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1105",
+      "revision": 1,
+      "prompt": "A constatação de que um equipamento está danificado",
+      "options": [
+        {"id": "a", "text": "prova dolo do responsável pela carga"},
+        {"id": "b", "text": "demonstra um resultado a apurar, mas não prova sozinha conduta culposa ou nexo"},
+        {"id": "c", "text": "autoriza desconto remuneratório imediato"},
+        {"id": "d", "text": "caracteriza automaticamente improbidade"},
+        {"id": "e", "text": "dispensa laudo e histórico de manutenção"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dano físico pode decorrer de desgaste, falha, terceiro ou conduta humana; autoria, nexo e culpa precisam ser demonstrados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1106",
+      "revision": 1,
+      "prompt": "O desgaste normal de uma cadeira utilizada adequadamente por vários anos",
+      "options": [
+        {"id": "a", "text": "é necessariamente dano doloso"},
+        {"id": "b", "text": "é apropriação de patrimônio"},
+        {"id": "c", "text": "deve ser distinguido de dano culposo e pode conduzir a manutenção ou baixa regular"},
+        {"id": "d", "text": "gera ressarcimento integral por bem novo"},
+        {"id": "e", "text": "impede atualização do cadastro"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Perda esperada pela vida útil e pelo uso normal não se confunde com violação do dever de cuidado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1107",
+      "revision": 1,
+      "prompt": "A ausência de fechaduras adequadas, controle de acesso e treinamento pode",
+      "options": [
+        {"id": "a", "text": "ser irrelevante em qualquer apuração"},
+        {"id": "b", "text": "provar dolo de todo servidor"},
+        {"id": "c", "text": "transferir propriedade ao usuário"},
+        {"id": "d", "text": "configurar causa organizacional concorrente que deve ser considerada"},
+        {"id": "e", "text": "eliminar a necessidade de inventário"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Falhas de segurança, meios e treinamento podem contribuir para o resultado e afastam imputações simplistas ao detentor formal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1108",
+      "revision": 1,
+      "prompt": "Responsabilidade civil possui como finalidade central",
+      "options": [
+        {"id": "a", "text": "aplicar suspensão funcional"},
+        {"id": "b", "text": "organizar o número patrimonial"},
+        {"id": "c", "text": "classificar a despesa orçamentária"},
+        {"id": "d", "text": "substituir toda esfera administrativa"},
+        {"id": "e", "text": "reparar o dano demonstrado"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A responsabilidade civil é ressarcitória: busca recompor a situação afetada, e não aplicar penalidade funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1109",
+      "revision": 1,
+      "prompt": "Para quantificar o dano decorrente da perda de equipamento usado, a Administração deve",
+      "options": [
+        {"id": "a", "text": "adotar critério técnico motivado, considerando condição, reparo, reposição equivalente, depreciação e valor residual aplicáveis"},
+        {"id": "b", "text": "cobrar sempre o preço do modelo novo mais caro"},
+        {"id": "c", "text": "ignorar seguro e garantia"},
+        {"id": "d", "text": "usar necessariamente o valor histórico sem ajuste"},
+        {"id": "e", "text": "fixar valor punitivo sem relação com o prejuízo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ressarcimento corresponde ao prejuízo efetivo, cuja mensuração deve refletir as circunstâncias e evitar enriquecimento indevido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1110",
+      "revision": 1,
+      "prompt": "O desconto na remuneração de servidor pelo valor de bem não localizado",
+      "options": [
+        {"id": "a", "text": "é automático sempre que houver termo de carga"},
+        {"id": "b", "text": "depende de base legal e procedimento cabível, não decorrendo apenas da carga assinada"},
+        {"id": "c", "text": "dispensa contraditório"},
+        {"id": "d", "text": "é a única forma de ressarcimento"},
+        {"id": "e", "text": "substitui a mensuração do dano"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Carga não autoriza cobrança automática; imputação e desconto devem observar lei, apuração e garantias procedimentais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1111",
+      "revision": 1,
+      "prompt": "Quando agente público, nessa qualidade, causa dano a terceiro, a Constituição prevê, em relação ao lesado, responsabilidade",
+      "options": [
+        {"id": "a", "text": "exclusiva do agente e sempre objetiva"},
+        {"id": "b", "text": "disciplinar do tribunal de contas"},
+        {"id": "c", "text": "objetiva da pessoa jurídica de direito público ou prestadora de serviço público, presentes seus pressupostos"},
+        {"id": "d", "text": "apenas contratual"},
+        {"id": "e", "text": "inexistente se o agente estiver identificado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 37, § 6º, da Constituição estabelece responsabilidade objetiva da pessoa jurídica perante o terceiro lesado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1112",
+      "revision": 1,
+      "prompt": "O direito de regresso do Estado contra o agente causador de dano a terceiro requer",
+      "options": [
+        {"id": "a", "text": "apenas a existência de vínculo funcional"},
+        {"id": "b", "text": "responsabilidade objetiva do agente"},
+        {"id": "c", "text": "somente que o Estado tenha sido demandado"},
+        {"id": "d", "text": "demonstração de dolo ou culpa do agente"},
+        {"id": "e", "text": "prévia demissão do agente"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A parte final do art. 37, § 6º, assegura regresso nos casos de dolo ou culpa, sem objetivar a responsabilidade pessoal do agente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1113",
+      "revision": 1,
+      "prompt": "Conforme a tese do STF no Tema 940, a ação indenizatória por dano causado por agente público nessa qualidade deve ser ajuizada",
+      "options": [
+        {"id": "a", "text": "somente contra a chefia do agente"},
+        {"id": "b", "text": "contra o tribunal de contas"},
+        {"id": "c", "text": "obrigatoriamente contra o agente e o Estado juntos"},
+        {"id": "d", "text": "contra qualquer servidor do setor"},
+        {"id": "e", "text": "contra o Estado ou a pessoa jurídica prestadora, preservado o regresso contra o agente"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A tese protege o lesado e o agente na relação processual direta, sem extinguir a ação regressiva por dolo ou culpa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1114",
+      "revision": 1,
+      "prompt": "Responsabilidade administrativa do servidor decorre principalmente",
+      "options": [
+        {"id": "a", "text": "da violação comprovada de dever ou proibição funcional segundo o regime aplicável"},
+        {"id": "b", "text": "de qualquer defeito surgido em bem sob carga"},
+        {"id": "c", "text": "do mero valor elevado do bem"},
+        {"id": "d", "text": "da propriedade civil do equipamento"},
+        {"id": "e", "text": "da existência de depreciação acumulada"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A esfera disciplinar incide sobre infração funcional individualizada, não sobre todo resultado patrimonial adverso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1115",
+      "revision": 1,
+      "prompt": "Em processo que possa resultar em sanção administrativa ou imputação definitiva de débito, devem ser assegurados",
+      "options": [
+        {"id": "a", "text": "sigilo absoluto e decisão sem motivação"},
+        {"id": "b", "text": "devido processo, contraditório e ampla defesa"},
+        {"id": "c", "text": "presunção absoluta de culpa"},
+        {"id": "d", "text": "julgamento pelo responsável pela carga"},
+        {"id": "e", "text": "apenas defesa oral informal"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 5º, LIV e LV, da Constituição protege devido processo, contraditório e ampla defesa em processos administrativos sancionadores ou gravosos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1116",
+      "revision": 1,
+      "prompt": "Ao apurar o desaparecimento de bem com termo de responsabilidade assinado, a comissão deve",
+      "options": [
+        {"id": "a", "text": "encerrar o caso com condenação imediata"},
+        {"id": "b", "text": "desconsiderar completamente o termo"},
+        {"id": "c", "text": "usar o termo como evidência e examinar acesso, movimentação, segurança, comunicação e capacidade de evitar o resultado"},
+        {"id": "d", "text": "presumir apropriação"},
+        {"id": "e", "text": "cobrar o valor sem identificar o dano"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A carga indica custódia formal, mas responsabilidade depende do conjunto probatório e dos pressupostos jurídicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1117",
+      "revision": 1,
+      "prompt": "Em um evento com falha do usuário, da chefia e do setor de patrimônio, é correto",
+      "options": [
+        {"id": "a", "text": "atribuir tudo ao servidor de menor hierarquia"},
+        {"id": "b", "text": "excluir a responsabilidade de quem não assinou a carga"},
+        {"id": "c", "text": "responsabilizar coletivamente sem individualização"},
+        {"id": "d", "text": "individualizar condutas, deveres, nexos e elementos subjetivos de cada participante"},
+        {"id": "e", "text": "ignorar causas organizacionais"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Responsabilidade funcional é pessoal, embora múltiplas condutas possam concorrer para o mesmo dano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1118",
+      "revision": 1,
+      "prompt": "Segundo a Lei Estadual do Maranhão nº 6.107/1994, as responsabilidades civil, penal e administrativa do servidor",
+      "options": [
+        {"id": "a", "text": "são sempre mutuamente excludentes"},
+        {"id": "b", "text": "dependem de termo patrimonial"},
+        {"id": "c", "text": "só existem após condenação criminal"},
+        {"id": "d", "text": "dependem da aplicação prévia da Lei federal nº 8.112/1990"},
+        {"id": "e", "text": "podem decorrer do exercício irregular das atribuições, acumular-se e manter independência relativa"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os arts. 215 e 219 do estatuto maranhense preveem as três responsabilidades, sua possível cumulação e independência, ressalvadas repercussões legais como a do art. 220. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1119",
+      "revision": 1,
+      "prompt": "A coexistência de ressarcimento civil e penalidade disciplinar pelo mesmo episódio é possível porque",
+      "options": [
+        {"id": "a", "text": "uma busca recompor o dano e a outra sanciona infração funcional, com pressupostos próprios"},
+        {"id": "b", "text": "as duas são multas idênticas"},
+        {"id": "c", "text": "nenhuma exige processo"},
+        {"id": "d", "text": "a carga substitui a prova em ambas"},
+        {"id": "e", "text": "todo dano configura crime"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Esferas distintas podem incidir sem duplicação indevida quando protegem objetos diferentes e observam requisitos próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1120",
+      "revision": 1,
+      "prompt": "A absolvição criminal que reconhece a inexistência do fato ou nega sua autoria",
+      "options": [
+        {"id": "a", "text": "nunca repercute na esfera administrativa"},
+        {"id": "b", "text": "impede conclusão administrativa incompatível sobre o fato ou a autoria"},
+        {"id": "c", "text": "converte o bem em material de consumo"},
+        {"id": "d", "text": "gera sanção disciplinar automática"},
+        {"id": "e", "text": "prova falha do inventário"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A independência das instâncias é relativa; decisão penal que exclui fato ou autoria repercute sobre esses mesmos fundamentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1121",
+      "revision": 1,
+      "prompt": "O dever constitucional de prestar contas alcança",
+      "options": [
+        {"id": "a", "text": "somente agentes eleitos"},
+        {"id": "b", "text": "apenas empresas privadas com lucro"},
+        {"id": "c", "text": "quem utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos"},
+        {"id": "d", "text": "somente o setor de contabilidade"},
+        {"id": "e", "text": "apenas o proprietário civil do bem"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 70, parágrafo único, da Constituição formula dever amplo de prestação de contas sobre recursos e bens públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1122",
+      "revision": 1,
+      "prompt": "No âmbito do controle externo, débito e multa",
+      "options": [
+        {"id": "a", "text": "são sempre sinônimos"},
+        {"id": "b", "text": "substituem qualquer sanção disciplinar"},
+        {"id": "c", "text": "independem de competência legal"},
+        {"id": "d", "text": "têm funções distintas: o débito recompõe dano e a multa possui caráter sancionador conforme a lei"},
+        {"id": "e", "text": "só podem existir em processo penal"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Recomposição patrimonial e sanção de controle externo não se confundem, embora possam coexistir quando legalmente cabíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1123",
+      "revision": 1,
+      "prompt": "Após as alterações promovidas pela Lei nº 14.230/2021, a caracterização de improbidade administrativa exige",
+      "options": [
+        {"id": "a", "text": "qualquer erro material"},
+        {"id": "b", "text": "simples perda de um bem"},
+        {"id": "c", "text": "mera culpa leve"},
+        {"id": "d", "text": "apenas violação abstrata de regulamento"},
+        {"id": "e", "text": "conduta dolosa enquadrada em tipo previsto na Lei nº 8.429/1992"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A improbidade requer dolo e tipicidade; mera ilegalidade, culpa ou dano patrimonial não bastam por si sós. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1124",
+      "revision": 1,
+      "prompt": "Se o servidor repõe espontaneamente um bem danificado, essa reparação",
+      "options": [
+        {"id": "a", "text": "pode recompor o patrimônio, mas não elimina automaticamente eventual infração disciplinar, fraude ou crime"},
+        {"id": "b", "text": "prova necessariamente dolo"},
+        {"id": "c", "text": "impede qualquer registro da ocorrência"},
+        {"id": "d", "text": "substitui autorização para aceitar o bem"},
+        {"id": "e", "text": "converte o equipamento original em bem particular"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A recomposição e as demais esferas possuem objetos próprios; o recebimento da reposição também deve seguir competência e critérios técnicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1125",
+      "revision": 1,
+      "prompt": "Diante de bem não localizado em inventário, a primeira conclusão correta é",
+      "options": [
+        {"id": "a", "text": "houve furto praticado pelo detentor"},
+        {"id": "b", "text": "existe divergência a investigar, inclusive quanto a movimentação pendente, erro cadastral ou desaparecimento real"},
+        {"id": "c", "text": "o bem deve ser imediatamente baixado"},
+        {"id": "d", "text": "o valor integral deve ser descontado"},
+        {"id": "e", "text": "o inventário é inválido"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Não localização é um achado de inventário, e sua causa precisa ser confirmada antes de baixa ou imputação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1126",
+      "revision": 1,
+      "prompt": "Entre as evidências apropriadas para apurar dano a equipamento está",
+      "options": [
+        {"id": "a", "text": "apenas a opinião da chefia"},
+        {"id": "b", "text": "somente o preço atual de um modelo superior"},
+        {"id": "c", "text": "termo, número de série, movimentações, inventários, laudo, comunicações, garantia e controle de acesso"},
+        {"id": "d", "text": "exclusivamente uma planilha sem histórico"},
+        {"id": "e", "text": "a presunção decorrente do cargo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A apuração deve combinar evidências físicas, documentais, técnicas e contextuais capazes de sustentar fato, autoria, nexo e dano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1127",
+      "revision": 1,
+      "prompt": "O registro de boletim de ocorrência sobre furto de bem público",
+      "options": [
+        {"id": "a", "text": "prova automaticamente culpa do servidor"},
+        {"id": "b", "text": "substitui o inventário e o cadastro"},
+        {"id": "c", "text": "afasta sempre qualquer falha funcional"},
+        {"id": "d", "text": "é evidência relevante, mas não encerra por si a apuração administrativa e patrimonial"},
+        {"id": "e", "text": "autoriza baixa sem ato competente"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O boletim formaliza notícia do evento; a Administração ainda deve verificar circunstâncias, controles, autoria, dano e registros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1128",
+      "revision": 1,
+      "prompt": "Um notebook foi furtado durante viagem oficial. Para avaliar a responsabilidade do usuário, deve-se examinar",
+      "options": [
+        {"id": "a", "text": "somente se o equipamento era caro"},
+        {"id": "b", "text": "apenas a assinatura da carga"},
+        {"id": "c", "text": "se o servidor possui outro notebook"},
+        {"id": "d", "text": "necessariamente a compra de equipamento novo"},
+        {"id": "e", "text": "autorização, cautelas exigíveis, modo de guarda, comunicação e inevitabilidade do evento"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Furto não gera culpa automática; a imputação depende das circunstâncias concretas e do cuidado razoavelmente exigível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1129",
+      "revision": 1,
+      "prompt": "Um equipamento está em outra unidade, mas a transferência não foi registrada. A providência inicial adequada é",
+      "options": [
+        {"id": "a", "text": "confirmar a localização, reconstruir a movimentação e sanear o cadastro antes de afirmar dano material"},
+        {"id": "b", "text": "cobrar o antigo responsável"},
+        {"id": "c", "text": "baixar o equipamento"},
+        {"id": "d", "text": "registrar furto"},
+        {"id": "e", "text": "alienar o bem à unidade recebedora"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Se o bem existe, o problema imediato é de rastreabilidade e controle; eventuais infrações devem ser apuradas sem inventar prejuízo inexistente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1130",
+      "revision": 1,
+      "prompt": "Em colisão com veículo oficial conduzido por servidor, o simples fato de ele estar ao volante",
+      "options": [
+        {"id": "a", "text": "prova responsabilidade objetiva pessoal"},
+        {"id": "b", "text": "não basta; devem ser examinados dinâmica, regras de trânsito, condições do veículo, terceiro, seguro e nexo"},
+        {"id": "c", "text": "dispensa perícia"},
+        {"id": "d", "text": "caracteriza improbidade"},
+        {"id": "e", "text": "obriga reposição por veículo zero"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A condução identifica participação no evento, mas não demonstra por si violação do dever de cuidado ou causa exclusiva do dano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1131",
+      "revision": 1,
+      "prompt": "Constitui medida preventiva adequada na gestão do patrimônio mobiliário",
+      "options": [
+        {"id": "a", "text": "atribuir cargas fictícias para simplificar o sistema"},
+        {"id": "b", "text": "evitar manutenção para reduzir despesa corrente"},
+        {"id": "c", "text": "segregar autorização, custódia, registro e conferência conforme o risco"},
+        {"id": "d", "text": "baixar toda divergência no primeiro inventário"},
+        {"id": "e", "text": "impedir comunicação de pequenos defeitos"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Segregação, rastreabilidade, manutenção, treinamento e inventário reduzem riscos e tornam a apuração confiável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1132",
+      "revision": 1,
+      "prompt": "O indicador de percentual de bens não localizados",
+      "options": [
+        {"id": "a", "text": "prova culpa de todos os responsáveis"},
+        {"id": "b", "text": "substitui o inventário"},
+        {"id": "c", "text": "autoriza ressarcimento coletivo"},
+        {"id": "d", "text": "sinaliza risco e qualidade do controle, mas não individualiza responsabilidade"},
+        {"id": "e", "text": "demonstra necessariamente furto"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Indicadores apoiam gestão e priorização, mas cada divergência precisa de investigação própria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1133",
+      "revision": 1,
+      "prompt": "Após inventário, um computador sob carga de Ana não é localizado, mas há e-mail autorizando transferência, aceite da nova unidade e falha de atualização do sistema. A conclusão mais adequada é",
+      "options": [
+        {"id": "a", "text": "Ana deve ressarcir porque assinou a carga"},
+        {"id": "b", "text": "houve necessariamente apropriação"},
+        {"id": "c", "text": "o computador deve ser baixado como perdido"},
+        {"id": "d", "text": "a autorização é irrelevante"},
+        {"id": "e", "text": "deve-se localizar o bem, regularizar carga e cadastro e apurar separadamente a falha procedimental, sem presumir dano ou culpa de Ana"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A evidência indica transferência autorizada e falha de registro, não perda patrimonial; saneamento e eventual responsabilidade procedimental exigem análise própria. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

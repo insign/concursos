@@ -514,7 +514,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 4. Cadastro e registro de bens imóveis (SPIU).
 - Item 15. Gestão, manutenção e conservação dos bens patrimoniais imóveis públicos.
 
-##### [>] Em progresso Assunto 117 - Itens 5 e 7: Patrimônio mobiliário e responsabilidade civil e administrativa.
+##### [R] Em revisão Assunto 117 - Itens 5 e 7: Patrimônio mobiliário e responsabilidade civil e administrativa.
 
 - Item 5. O Patrimônio Mobiliário.
 - Item 7. Administração Patrimonial: noções sobre responsabilidade civil e administrativa.
