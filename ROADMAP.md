@@ -533,7 +533,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Funções, princípios e objetivos; controle, registro, conservação e recuperação de material; técnicas de armazenamento; utilização de espaço; segurança.
 
-##### [>] Em progresso Assunto 121 - Item 13, recorte: Compras, classificação, padronização e codificação.
+##### [R] Em revisão Assunto 121 - Item 13, recorte: Compras, classificação, padronização e codificação.
 
 - Item 13 (compras e classificação): Aquisição, classificação, padronização e codificação de materiais e patrimônio.
 

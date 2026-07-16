@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1284",
+      "revision": 1,
+      "prompt": "A função compras alcança seu objetivo gerencial quando",
+      "options": [
+        {"id": "a", "text": "obtém solução adequada em quantidade, qualidade, prazo, local, fonte e custo total compatíveis"},
+        {"id": "b", "text": "seleciona sempre o menor preço unitário, ainda que o item seja incompatível"},
+        {"id": "c", "text": "maximiza a quantidade adquirida sem considerar validade ou guarda"},
+        {"id": "d", "text": "concentra necessidade, julgamento, recebimento e pagamento em uma pessoa"},
+        {"id": "e", "text": "elimina a pesquisa de mercado quando existe descrição anterior"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Comprar bem combina adequação da solução, quantidade, qualidade, fonte, prazo, local, condição e custo total; preço isolado não cobre incompatibilidade, atraso ou risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1285",
+      "revision": 1,
+      "prompt": "Na gestão de compras, a formalização da demanda deve primariamente",
+      "options": [
+        {"id": "a", "text": "declarar antecipadamente o fornecedor vencedor"},
+        {"id": "b", "text": "registrar a necessidade, a finalidade, a quantidade, a unidade, o prazo e o destino"},
+        {"id": "c", "text": "substituir a especificação técnica por uma marca preferida"},
+        {"id": "d", "text": "atestar o recebimento do objeto ainda não entregue"},
+        {"id": "e", "text": "fixar o preço contratado antes da análise do mercado"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A demanda documenta o problema e os elementos necessários ao planejamento; ela não escolhe fornecedor, não atesta entrega e não substitui a descrição verificável do objeto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1286",
+      "revision": 1,
+      "prompt": "Uma especificação adequada de material",
+      "options": [
+        {"id": "a", "text": "usa expressões vagas para ampliar qualquer interpretação possível"},
+        {"id": "b", "text": "inclui requisitos irrelevantes para reduzir o número de concorrentes"},
+        {"id": "c", "text": "traduz a necessidade em requisitos objetivos, verificáveis e ligados ao resultado pretendido"},
+        {"id": "d", "text": "dispensa unidade de fornecimento, segurança e garantia"},
+        {"id": "e", "text": "é idêntica à requisição de saída do almoxarifado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A especificação deve permitir comparar propostas e verificar conformidade sem criar restrição impertinente; demanda e requisição interna possuem funções distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1287",
+      "revision": 1,
+      "prompt": "A análise de mercado para uma compra deve",
+      "options": [
+        {"id": "a", "text": "limitar-se à média de três números sem verificar o objeto"},
+        {"id": "b", "text": "comparar preços de unidades e datas diferentes como se fossem equivalentes"},
+        {"id": "c", "text": "ignorar assistência, prazo e risco de descontinuidade"},
+        {"id": "d", "text": "examinar soluções, fornecedores, condições, preços, prazos e riscos em bases comparáveis"},
+        {"id": "e", "text": "ocorrer apenas depois de o fornecedor ser escolhido"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Pesquisa útil compreende o mercado e preserva comparabilidade de especificação, unidade, quantidade, data, frete, pagamento e entrega; coletar números heterogêneos não basta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1288",
+      "revision": 1,
+      "prompt": "Follow-up, na função compras, corresponde a",
+      "options": [
+        {"id": "a", "text": "aceitar qualitativamente o material antes da entrega"},
+        {"id": "b", "text": "substituir toda a fiscalização e a gestão do contrato"},
+        {"id": "c", "text": "alterar informalmente o objeto para acelerar o fornecimento"},
+        {"id": "d", "text": "dar entrada contábil no bem ainda não recebido"},
+        {"id": "e", "text": "acompanhar pedido, marcos e ocorrências para prevenir ou tratar atrasos"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O diligenciamento acompanha o fluxo e a comunicação, mas não declara conformidade, não recebe o bem, não atesta pagamento e não autoriza mudança informal do objeto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1289",
+      "revision": 1,
+      "prompt": "É vantagem potencial da centralização de compras",
+      "options": [
+        {"id": "a", "text": "consolidar demanda, obter escala e especializar a equipe"},
+        {"id": "b", "text": "garantir automaticamente maior agilidade para toda demanda local"},
+        {"id": "c", "text": "eliminar a necessidade de governança e catálogo"},
+        {"id": "d", "text": "impedir qualquer tratamento de necessidade específica"},
+        {"id": "e", "text": "tornar dispensável a análise do mercado"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Centralização pode gerar escala, especialização, padrão e controle, mas também pode criar filas e distância da demanda; não é universalmente superior. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1290",
+      "revision": 1,
+      "prompt": "A descentralização de compras pode favorecer",
+      "options": [
+        {"id": "a", "text": "uniformidade absoluta sem coordenação"},
+        {"id": "b", "text": "proximidade com a necessidade e resposta local mais rápida"},
+        {"id": "c", "text": "escala maior em qualquer item comum"},
+        {"id": "d", "text": "eliminação de cadastros duplicados por definição"},
+        {"id": "e", "text": "dispensa de critérios de competência"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A proximidade é vantagem possível, enquanto fragmentação, duplicidade e perda de escala são riscos; o modelo exige governança como qualquer outro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1291",
+      "revision": 1,
+      "prompt": "Um modelo híbrido de compras tende a",
+      "options": [
+        {"id": "a", "text": "descentralizar todos os itens comuns e centralizar toda urgência local"},
+        {"id": "b", "text": "abolir a integração de dados entre unidades"},
+        {"id": "c", "text": "centralizar itens comuns e atribuir demandas específicas ao nível adequado"},
+        {"id": "d", "text": "eliminar a definição de competências"},
+        {"id": "e", "text": "impedir consolidação de demanda"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O arranjo híbrido combina ganhos de escala e padronização com resposta específica, mas depende de critérios claros e informação integrada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1292",
+      "revision": 1,
+      "prompt": "Na comparação entre fazer internamente e comprar externamente, é correto",
+      "options": [
+        {"id": "a", "text": "tratar todo custo afundado como evitável"},
+        {"id": "b", "text": "considerar apenas o preço externo por unidade"},
+        {"id": "c", "text": "presumir que produção interna sempre reduz dependência sem custo"},
+        {"id": "d", "text": "comparar custos relevantes, capacidade, qualidade, prazo, dependência e risco"},
+        {"id": "e", "text": "ignorar escala e custos de transação"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A decisão exige bases equivalentes e fatores financeiros e não financeiros; custo já incorrido não se torna evitável e preço externo não representa sozinho o custo relevante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1293",
+      "revision": 1,
+      "prompt": "Ao avaliar o custo total de uma aquisição, deve-se",
+      "options": [
+        {"id": "a", "text": "excluir transporte e manutenção por não integrarem o preço unitário"},
+        {"id": "b", "text": "ignorar vida útil quando os preços iniciais forem iguais"},
+        {"id": "c", "text": "presumir que o item de maior garantia será sempre o mais vantajoso"},
+        {"id": "d", "text": "somar valores de períodos e moedas diferentes sem ajuste"},
+        {"id": "e", "text": "considerar os dispêndios e riscos pertinentes de obtenção, uso, manutenção e destinação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Custo total pode abranger preço, logística, operação, manutenção, incompatibilidade, risco e destinação; a pertinência e a base temporal devem ser explicitadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1294",
+      "revision": 1,
+      "prompt": "Nos termos do art. 6º, X, da Lei nº 14.133/2021, compra é",
+      "options": [
+        {"id": "a", "text": "aquisição remunerada de bens para fornecimento de uma só vez ou parceladamente"},
+        {"id": "b", "text": "qualquer transferência gratuita de material entre órgãos"},
+        {"id": "c", "text": "somente a aquisição com entrega integral no mesmo dia"},
+        {"id": "d", "text": "prestação de serviço sem fornecimento de bem"},
+        {"id": "e", "text": "alienação de bem móvel ao maior lance"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A definição legal abrange aquisição remunerada de bens com fornecimento único ou parcelado; não se confunde com doação, serviço ou alienação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1295",
+      "revision": 1,
+      "prompt": "A Lei nº 14.133/2021 considera imediata a compra cujo prazo de entrega seja",
+      "options": [
+        {"id": "a", "text": "de até cinco dias da assinatura do edital"},
+        {"id": "b", "text": "de até trinta dias da ordem de fornecimento"},
+        {"id": "c", "text": "superior a doze meses"},
+        {"id": "d", "text": "necessariamente no mesmo dia do empenho"},
+        {"id": "e", "text": "livremente definido após a entrega"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 6º, X, usa o limite de trinta dias contado da ordem de fornecimento; a expressão não significa entrega instantânea ou dispensa automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1296",
+      "revision": 1,
+      "prompt": "Conforme o art. 18 da Lei nº 14.133/2021, o estudo técnico preliminar deve",
+      "options": [
+        {"id": "a", "text": "partir da marca desejada, sem descrever o problema"},
+        {"id": "b", "text": "dispensar estimativas de quantidade e levantamento de mercado"},
+        {"id": "c", "text": "evidenciar o problema e a melhor solução, permitindo avaliar viabilidade técnica e econômica"},
+        {"id": "d", "text": "ser elaborado somente depois do contrato"},
+        {"id": "e", "text": "substituir o planejamento orçamentário"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O ETP integra a fase preparatória e sustenta a escolha da solução por necessidade, quantidades, mercado, valor, parcelamento, impactos e conclusão, nos termos aplicáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1297",
+      "revision": 1,
+      "prompt": "Entre os princípios que o art. 40 da Lei nº 14.133/2021 manda observar no planejamento de compras estão",
+      "options": [
+        {"id": "a", "text": "sigilo, exclusividade e maior estoque"},
+        {"id": "b", "text": "marca única, menor prazo e centralização absoluta"},
+        {"id": "c", "text": "gratuidade, informalidade e livre escolha"},
+        {"id": "d", "text": "padronização, parcelamento quando cabível e responsabilidade fiscal"},
+        {"id": "e", "text": "recebimento, tombamento e alienação"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 40, V, reúne padronização, parcelamento técnica e economicamente vantajoso e responsabilidade fiscal; os demais conjuntos não reproduzem a regra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1298",
+      "revision": 1,
+      "prompt": "Segundo o art. 40, § 1º, I, a especificação do produto deve",
+      "options": [
+        {"id": "a", "text": "omitir segurança para ampliar a competição"},
+        {"id": "b", "text": "reproduzir obrigatoriamente a última marca adquirida"},
+        {"id": "c", "text": "ser substituída pelo código genérico do catálogo"},
+        {"id": "d", "text": "conter apenas o menor preço conhecido"},
+        {"id": "e", "text": "preferir o catálogo eletrônico e observar qualidade, rendimento, compatibilidade, durabilidade e segurança"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A lei vincula a descrição a requisitos de desempenho e segurança e prevê uso preferencial, não cego, do catálogo eletrônico de padronização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1299",
+      "revision": 1,
+      "prompt": "A indicação de marca ou modelo em licitação de bens pode ocorrer",
+      "options": [
+        {"id": "a", "text": "excepcionalmente e com justificativa formal nas hipóteses do art. 41"},
+        {"id": "b", "text": "sempre que o requisitante tiver preferência pessoal"},
+        {"id": "c", "text": "sem motivação quando houver compra anterior"},
+        {"id": "d", "text": "somente se existir um único revendedor"},
+        {"id": "e", "text": "para afastar produtos similares independentemente da qualidade"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 41 admite indicação motivada por padronização, compatibilidade, capacidade exclusiva da marca/modelo comercializada por mais de um fornecedor ou mera referência descritiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1300",
+      "revision": 1,
+      "prompt": "Quando uma amostra é exigida na fase de julgamento das propostas, o art. 41 determina que a exigência se restrinja",
+      "options": [
+        {"id": "a", "text": "a todos os interessados antes da publicação do edital"},
+        {"id": "b", "text": "ao licitante provisoriamente vencedor"},
+        {"id": "c", "text": "ao fornecedor da marca anteriormente usada"},
+        {"id": "d", "text": "apenas ao fabricante estrangeiro"},
+        {"id": "e", "text": "à unidade requisitante"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O parágrafo único do art. 41 limita a amostra ao provisoriamente vencedor quando a exigência ocorrer no julgamento, reduzindo ônus desnecessário aos demais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1301",
+      "revision": 1,
+      "prompt": "Na aplicação do parcelamento às compras, deve-se considerar",
+      "options": [
+        {"id": "a", "text": "apenas a divisão pelo maior número possível de lotes"},
+        {"id": "b", "text": "somente a conveniência do fornecedor atual"},
+        {"id": "c", "text": "viabilidade dos lotes, mercado local, qualidade, competição e concentração"},
+        {"id": "d", "text": "a dispensa de análise econômica"},
+        {"id": "e", "text": "o fracionamento da despesa para evitar regra legal"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 40, § 2º, orienta divisão viável, aproveitamento do mercado local com qualidade e ampliação da competição; parcelamento não é fuga de procedimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1302",
+      "revision": 1,
+      "prompt": "O parcelamento pode ser afastado quando",
+      "options": [
+        {"id": "a", "text": "qualquer unidade preferir um único fornecedor sem análise"},
+        {"id": "b", "text": "houver vários fornecedores capazes, independentemente da escala"},
+        {"id": "c", "text": "o objeto puder ser dividido sem qualquer risco"},
+        {"id": "d", "text": "a economia de escala ou o risco a sistema integrado justificar a contratação conjunta"},
+        {"id": "e", "text": "o órgão desejar reduzir a transparência"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 40, § 3º, prevê economia de escala/custo de gestão, sistema único integrado e padronização ou marca com exclusividade como hipóteses de não parcelar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1303",
+      "revision": 1,
+      "prompt": "O processo de padronização do art. 43 deve conter",
+      "options": [
+        {"id": "a", "text": "somente a marca escolhida pelo usuário"},
+        {"id": "b", "text": "apenas o histórico de menor preço"},
+        {"id": "c", "text": "decisão verbal da equipe de compras"},
+        {"id": "d", "text": "parecer jurídico que substitua toda análise técnica"},
+        {"id": "e", "text": "parecer técnico, despacho motivado superior e divulgação da justificativa e do padrão"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 43 exige análise técnica de desempenho, custo e manutenção, adoção motivada pela autoridade superior e publicidade da síntese e descrição do padrão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1304",
+      "revision": 1,
+      "prompt": "A adoção da padronização realizada por outro órgão",
+      "options": [
+        {"id": "a", "text": "é admitida nos limites legais, com motivação, análise da necessidade e dos riscos e divulgação"},
+        {"id": "b", "text": "dispensa qualquer decisão do órgão adquirente"},
+        {"id": "c", "text": "é válida mesmo se o órgão de origem estiver em nível federativo inferior"},
+        {"id": "d", "text": "transforma automaticamente a marca em fornecedor exclusivo"},
+        {"id": "e", "text": "impede revisão posterior do padrão"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 43, § 1º, admite processo de órgão ou entidade de nível igual ou superior, mas exige ato motivado, necessidade, riscos e publicidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1305",
+      "revision": 1,
+      "prompt": "Quando compra e locação de um bem forem possibilidades reais, o art. 44 exige",
+      "options": [
+        {"id": "a", "text": "preferência obrigatória pela compra"},
+        {"id": "b", "text": "comparação de custos e benefícios no ETP, com indicação da alternativa mais vantajosa"},
+        {"id": "c", "text": "preferência obrigatória pela locação"},
+        {"id": "d", "text": "decisão apenas pelo menor pagamento mensal"},
+        {"id": "e", "text": "dispensa de motivação se houver orçamento"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O artigo não elege uma opção abstrata; exige comparação fundamentada entre custos e benefícios e a indicação da alternativa mais vantajosa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1306",
+      "revision": 1,
+      "prompt": "O catálogo eletrônico de padronização definido no art. 6º, LI, é",
+      "options": [
+        {"id": "a", "text": "o número individual de patrimônio do bem"},
+        {"id": "b", "text": "o endereço físico do material no almoxarifado"},
+        {"id": "c", "text": "sistema informatizado centralizado, com preços, para padronizar itens disponíveis à licitação"},
+        {"id": "d", "text": "sinônimo legal de CATMAT"},
+        {"id": "e", "text": "lista privada sem documentação da fase interna"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A definição legal vincula sistema, gestão centralizada, indicação de preços e itens padronizados para licitação; isso não o converte em tombo, endereço ou CATMAT. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1307",
+      "revision": 1,
+      "prompt": "Nos termos do art. 19, § 2º, a não utilização do catálogo eletrônico ou dos modelos padronizados previstos no artigo",
+      "options": [
+        {"id": "a", "text": "é livre e nunca precisa ser registrada"},
+        {"id": "b", "text": "depende apenas de aviso verbal"},
+        {"id": "c", "text": "é proibida sem exceção"},
+        {"id": "d", "text": "deve ser justificada por escrito e anexada ao processo"},
+        {"id": "e", "text": "exige extinção do catálogo"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A lei admite não utilização, mas exige motivação escrita no processo, preservando rastreabilidade da decisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1308",
+      "revision": 1,
+      "prompt": "Um requisito de sustentabilidade em compra pública deve",
+      "options": [
+        {"id": "a", "text": "ser copiado de qualquer edital, ainda que alheio ao objeto"},
+        {"id": "b", "text": "ser impossível de verificar para não restringir a descrição"},
+        {"id": "c", "text": "ignorar ciclo de vida e logística reversa"},
+        {"id": "d", "text": "prevalecer sobre competitividade sem motivação"},
+        {"id": "e", "text": "ser pertinente, verificável e relacionado aos impactos e resultados pretendidos"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Sustentabilidade integra planejamento quando aplicável, mas deve guardar nexo técnico com o objeto e permitir verificação, sem exigência decorativa ou restritiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1309",
+      "revision": 1,
+      "prompt": "Classificar materiais significa",
+      "options": [
+        {"id": "a", "text": "agrupá-los segundo critérios escolhidos para uma finalidade de gestão"},
+        {"id": "b", "text": "atribuir necessariamente um número de tombo a cada unidade"},
+        {"id": "c", "text": "ordená-los apenas pelo preço unitário"},
+        {"id": "d", "text": "definir onde serão armazenados, sem outros critérios"},
+        {"id": "e", "text": "eliminar a descrição técnica"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Classificação cria grupos úteis por natureza, risco, aplicação, demanda ou outro eixo; tombo, endereço, preço e especificação são conceitos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1310",
+      "revision": 1,
+      "prompt": "Sobre os critérios de classificação de um mesmo material, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "apenas uma classificação pode existir por item"},
+        {"id": "b", "text": "vários eixos podem coexistir conforme finalidades diferentes"},
+        {"id": "c", "text": "criticidade substitui a classificação contábil"},
+        {"id": "d", "text": "perecibilidade e periculosidade são sempre idênticas"},
+        {"id": "e", "text": "ser estocável torna o item permanente"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Um item pode ser simultaneamente de consumo, crítico, perigoso, estocável e de aquisição difícil; cada eixo responde a finalidade própria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1311",
+      "revision": 1,
+      "prompt": "Um sistema de classificação tecnicamente útil tende a ser",
+      "options": [
+        {"id": "a", "text": "rígido, secreto e incapaz de incluir item novo"},
+        {"id": "b", "text": "baseado em descrições duplicadas para ampliar opções"},
+        {"id": "c", "text": "abrangente, flexível, prático, consistente e compreensível"},
+        {"id": "d", "text": "limitado a uma lista legal fechada de atributos"},
+        {"id": "e", "text": "alterado sem documentação a cada compra"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abrangência, flexibilidade, praticidade, consistência e compreensão favorecem expansão e uso uniforme; duplicidade e mudança sem governança prejudicam o sistema. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1312",
+      "revision": 1,
+      "prompt": "Na sequência didática comum das etapas de classificação, a ordem é",
+      "options": [
+        {"id": "a", "text": "codificação, alienação, recebimento, simplificação, baixa e inventário"},
+        {"id": "b", "text": "padronização, pagamento, licitação, catalogação, aceite e tombo"},
+        {"id": "c", "text": "especificação, codificação, recebimento, armazenamento, distribuição e baixa"},
+        {"id": "d", "text": "catalogação, simplificação, especificação, normalização, padronização e codificação"},
+        {"id": "e", "text": "normalização, alienação, catalogação, estoque, compra e descarte"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Essa é a sequência pedagógica difundida para estudo; ela não é rito legal imutável, pois cadastros reais passam por revisões iterativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1313",
+      "revision": 1,
+      "prompt": "Catalogação é a atividade de",
+      "options": [
+        {"id": "a", "text": "calcular o dígito verificador"},
+        {"id": "b", "text": "escolher a marca vencedora"},
+        {"id": "c", "text": "eliminar toda variedade existente"},
+        {"id": "d", "text": "atribuir valor contábil ao estoque"},
+        {"id": "e", "text": "organizar uma relação estruturada e pesquisável de itens e informações"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O catálogo arrola e organiza descrições, códigos, classes e atributos para busca e reutilização; as demais operações têm finalidades diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1314",
+      "revision": 1,
+      "prompt": "Simplificação de materiais procura",
+      "options": [
+        {"id": "a", "text": "reduzir variedades redundantes sem eliminar requisitos essenciais"},
+        {"id": "b", "text": "apagar toda diferença funcional entre os itens"},
+        {"id": "c", "text": "substituir a codificação por nomes vagos"},
+        {"id": "d", "text": "aumentar cadastros duplicados"},
+        {"id": "e", "text": "impedir qualquer item especializado"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Simplificar combate diversidade sem utilidade e duplicidade, preservando desempenho e necessidades específicas justificadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1315",
+      "revision": 1,
+      "prompt": "Especificação diferencia-se de codificação porque a primeira",
+      "options": [
+        {"id": "a", "text": "atribui apenas um símbolo sem descrever o item"},
+        {"id": "b", "text": "descreve características e desempenho verificáveis do objeto"},
+        {"id": "c", "text": "calcula um dígito de controle"},
+        {"id": "d", "text": "determina a localização física no depósito"},
+        {"id": "e", "text": "serve exclusivamente para bens permanentes"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A especificação explicita o que o objeto deve ser ou fazer; o código o representa segundo uma convenção e não substitui a descrição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1316",
+      "revision": 1,
+      "prompt": "Normalização consiste principalmente em",
+      "options": [
+        {"id": "a", "text": "atribuir número patrimonial individual"},
+        {"id": "b", "text": "escolher um fornecedor por costume"},
+        {"id": "c", "text": "adotar regras, normas e requisitos comuns para uniformidade e interoperabilidade"},
+        {"id": "d", "text": "registrar o recebimento do material"},
+        {"id": "e", "text": "calcular o preço de referência"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Normalização estabelece linguagem e requisitos comuns; padronização escolhe um padrão de item, desempenho ou uso, e codificação o representa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1317",
+      "revision": 1,
+      "prompt": "Padronização de materiais tem por finalidade",
+      "options": [
+        {"id": "a", "text": "eliminar a motivação técnica"},
+        {"id": "b", "text": "converter toda preferência de usuário em obrigação"},
+        {"id": "c", "text": "usar necessariamente uma única marca"},
+        {"id": "d", "text": "definir padrão adequado de características, desempenho ou uso"},
+        {"id": "e", "text": "substituir catálogo e especificação"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O padrão reduz variedade injustificada e promove compatibilidade e qualidade; ele precisa de base técnica e não equivale automaticamente a marca. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1318",
+      "revision": 1,
+      "prompt": "Codificação é",
+      "options": [
+        {"id": "a", "text": "a análise do custo do ciclo de vida"},
+        {"id": "b", "text": "a escolha do local de guarda"},
+        {"id": "c", "text": "a eliminação de todos os sinônimos de busca"},
+        {"id": "d", "text": "a aceitação qualitativa do objeto"},
+        {"id": "e", "text": "a atribuição de símbolo único a item ou classe segundo uma convenção"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O código representa uma entidade em pessoas e sistemas, mas depende de descrição, regra de domínio e controle de unicidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1319",
+      "revision": 1,
+      "prompt": "Para efeito de classificação da despesa, a Lei nº 4.320/1964 considera material permanente aquele que",
+      "options": [
+        {"id": "a", "text": "tem duração superior a dois anos"},
+        {"id": "b", "text": "possui preço superior a um limite nacional fixo"},
+        {"id": "c", "text": "é necessariamente estocável"},
+        {"id": "d", "text": "recebe número de patrimônio antes da compra"},
+        {"id": "e", "text": "não pode ser incorporado a outro bem"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 15, § 2º, da Lei nº 4.320/1964 fixa a duração superior a dois anos para material permanente na classificação da despesa; preço, estocagem e tombamento não substituem a análise aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1320",
+      "revision": 1,
+      "prompt": "Segundo a orientação do MCASP para distinguir material de consumo e permanente, é correto",
+      "options": [
+        {"id": "a", "text": "usar exclusivamente o preço de aquisição"},
+        {"id": "b", "text": "considerar em conjunto durabilidade, fragilidade, perecibilidade, incorporabilidade e transformabilidade"},
+        {"id": "c", "text": "classificar como permanente tudo que puder ser guardado"},
+        {"id": "d", "text": "ignorar a perda de identidade física"},
+        {"id": "e", "text": "usar criticidade como natureza da despesa"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O MCASP orienta considerar conjuntamente durabilidade, fragilidade, perecibilidade, incorporabilidade e transformabilidade; preço, estocagem e criticidade pertencem a outros eixos. A Portaria STN nº 448/2002, que também reunia esses parâmetros, foi revogada em 2021. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1321",
+      "revision": 1,
+      "prompt": "O Decreto nº 10.818/2021",
+      "options": [
+        {"id": "a", "text": "cria regra automática de tombamento para todos os entes"},
+        {"id": "b", "text": "define apenas bens permanentes de luxo"},
+        {"id": "c", "text": "regulamenta, em seu âmbito federal, o enquadramento de bens de consumo em qualidade comum e luxo"},
+        {"id": "d", "text": "revoga a necessidade de analisar fragilidade e perecibilidade"},
+        {"id": "e", "text": "aplica-se automaticamente ao cadastro patrimonial do TCE-MA"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O decreto regulamenta o art. 20 da Lei nº 14.133/2021 no âmbito indicado e define bem de consumo para essa finalidade; não é norma automática de tombo estadual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1322",
+      "revision": 1,
+      "prompt": "A classificação de um material como estocável",
+      "options": [
+        {"id": "a", "text": "prova que ele é permanente"},
+        {"id": "b", "text": "prova que ele é de consumo"},
+        {"id": "c", "text": "define seu número de tombo"},
+        {"id": "d", "text": "indica a utilidade de mantê-lo em estoque e não determina sua natureza contábil"},
+        {"id": "e", "text": "elimina a análise de validade"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Estocabilidade é decisão logística; consumo/permanente é classificação da despesa/patrimonial e depende de critérios próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1323",
+      "revision": 1,
+      "prompt": "A criticidade de um material mede principalmente",
+      "options": [
+        {"id": "a", "text": "seu preço unitário"},
+        {"id": "b", "text": "a quantidade de letras do código"},
+        {"id": "c", "text": "sua durabilidade contábil"},
+        {"id": "d", "text": "o espaço físico ocupado"},
+        {"id": "e", "text": "a consequência de sua indisponibilidade para a operação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Um item barato pode ser vital e um item caro pode não interromper a atividade; criticidade expressa impacto da falta, não valor financeiro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1324",
+      "revision": 1,
+      "prompt": "Perecibilidade e periculosidade distinguem-se porque",
+      "options": [
+        {"id": "a", "text": "a primeira trata da perda de condição pelo tempo, e a segunda, de riscos como toxicidade ou inflamabilidade"},
+        {"id": "b", "text": "ambas significam exclusivamente validade curta"},
+        {"id": "c", "text": "periculosidade é sinônimo de alto preço"},
+        {"id": "d", "text": "perecibilidade existe apenas em alimentos"},
+        {"id": "e", "text": "nenhuma delas afeta o tratamento do material"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Perecibilidade focaliza deterioração ou perda de uso; periculosidade focaliza dano potencial por propriedades do material. Elas podem coexistir, mas não são sinônimas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1325",
+      "revision": 1,
+      "prompt": "De acordo com a IN SLTI/MP nº 2/2011, o CATMAT abrange",
+      "options": [
+        {"id": "a", "text": "somente o tombamento de bens permanentes"},
+        {"id": "b", "text": "identificação, descrição e classificação de materiais segundo critérios do Federal Supply Classification"},
+        {"id": "c", "text": "exclusivamente serviços continuados"},
+        {"id": "d", "text": "endereços de prateleiras do almoxarifado"},
+        {"id": "e", "text": "apenas a natureza da despesa"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 2º atribui ao CATMAT a catalogação de materiais da Administração Pública federal nesses três aspectos; ele não é tombo, endereço ou conta contábil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1326",
+      "revision": 1,
+      "prompt": "O CATSER destina-se à catalogação de",
+      "options": [
+        {"id": "a", "text": "bens patrimoniais individualizados"},
+        {"id": "b", "text": "materiais conforme o Federal Supply Classification"},
+        {"id": "c", "text": "serviços segundo padrões de desempenho e critérios adotados pela ONU"},
+        {"id": "d", "text": "locais de armazenamento"},
+        {"id": "e", "text": "fornecedores sancionados"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A IN nº 2/2011 distingue CATMAT para materiais e CATSER para serviços, com as respectivas referências de classificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1327",
+      "revision": 1,
+      "prompt": "No CADMAT/SIADS, o Padrão Descritivo de Material reúne",
+      "options": [
+        {"id": "a", "text": "o número de tombo e o responsável individual"},
+        {"id": "b", "text": "apenas preço e fornecedor"},
+        {"id": "c", "text": "somente o endereço de armazenamento"},
+        {"id": "d", "text": "nome básico/modificador, sinônimos, grupo, classe, unidades e campos de características"},
+        {"id": "e", "text": "a nota fiscal e o ateste de recebimento"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O tutorial do SIADS define esse conjunto no nível material como PDM; o preenchimento das características forma o item de material. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1328",
+      "revision": 1,
+      "prompt": "Na estrutura de dois níveis do CADMAT, um item de material é formado",
+      "options": [
+        {"id": "a", "text": "somente pelo nome básico sem atributos"},
+        {"id": "b", "text": "pelo tombo do exemplar físico"},
+        {"id": "c", "text": "pela conta contábil sem descrição"},
+        {"id": "d", "text": "pelo endereço de guarda"},
+        {"id": "e", "text": "pelo preenchimento das características previstas no PDM e demais dados solicitados"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O nível material define a estrutura; o nível item particulariza os campos, como no exemplo de mesa em madeira com três gavetas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1329",
+      "revision": 1,
+      "prompt": "Na recomendação federal sobre CATMAT/CATSER atualizada em 3 de julho de 2026, o código genérico",
+      "options": [
+        {"id": "a", "text": "é excepcional, quando inexiste código adequado e não se consegue atender momentaneamente ao pedido de novo item"},
+        {"id": "b", "text": "é preferível ao código específico por facilitar qualquer compra"},
+        {"id": "c", "text": "deve ser usado sempre que houver PDM"},
+        {"id": "d", "text": "substitui a especificação do objeto"},
+        {"id": "e", "text": "é obrigatório para todos os bens permanentes"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A orientação do Compras.gov.br prioriza PDM pertinente e código específico; o genérico não é atalho para evitar catalogação adequada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1330",
+      "revision": 1,
+      "prompt": "CATMAT e catálogo eletrônico de padronização",
+      "options": [
+        {"id": "a", "text": "são nomes legais do mesmo cadastro"},
+        {"id": "b", "text": "possuem funções distintas: o primeiro cataloga materiais, e o segundo padroniza itens disponíveis à licitação"},
+        {"id": "c", "text": "são números de tombo individual"},
+        {"id": "d", "text": "indicam somente a localização física do bem"},
+        {"id": "e", "text": "substituem a motivação da compra"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "CATMAT organiza identificação, descrição e classificação; o catálogo do art. 19 reúne padronização e documentação pertinente à licitação. Os conceitos podem se integrar sem serem sinônimos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1331",
+      "revision": 1,
+      "prompt": "Um código sequencial caracteriza-se por",
+      "options": [
+        {"id": "a", "text": "explicar todos os atributos do item em cada dígito"},
+        {"id": "b", "text": "usar obrigatoriamente letras mnemônicas"},
+        {"id": "c", "text": "ser simples e expansível, mas não carregar significado intrínseco"},
+        {"id": "d", "text": "mudar sempre que o item troca de classe"},
+        {"id": "e", "text": "dispensar tabela de cadastro"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A numeração sequencial favorece estabilidade e expansão, enquanto a interpretação dos atributos depende do registro associado, não do número em si. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1332",
+      "revision": 1,
+      "prompt": "O dígito verificador de um código",
+      "options": [
+        {"id": "a", "text": "define a classe de consumo ou permanente"},
+        {"id": "b", "text": "prova que a descrição técnica está correta"},
+        {"id": "c", "text": "possui um único algoritmo obrigatório para todos os sistemas"},
+        {"id": "d", "text": "ajuda a detectar certos erros de digitação ou transposição"},
+        {"id": "e", "text": "substitui o controle de unicidade"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O dígito deriva do algoritmo escolhido pelo sistema e valida a forma do código contra alguns erros; não classifica, especifica nem garante unicidade sem cadastro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1333",
+      "revision": 1,
+      "prompt": "Em um período, 90 de 100 entregas avaliadas ocorreram no prazo definido. O indicador de entrega no prazo foi",
+      "options": [
+        {"id": "a", "text": "10%"},
+        {"id": "b", "text": "0,9%"},
+        {"id": "c", "text": "100%"},
+        {"id": "d", "text": "110%"},
+        {"id": "e", "text": "90%"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Entrega no prazo = 90 ÷ 100 × 100 = 90%. A interpretação ainda depende de regra estável para prazo, tolerância e entregas parciais; não há meta universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
