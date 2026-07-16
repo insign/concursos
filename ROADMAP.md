@@ -525,7 +525,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 9. A movimentação do patrimônio.
 - Item 10. Sistema Patrimonial.
 
-##### [R] Em revisão Assunto 119 - Item 11: Previsão e controle de estoque.
+##### [x] Concluído Assunto 119 - Item 11: Previsão e controle de estoque.
 
 - Planejamento, processos e políticas de administração de estoques; determinação de níveis de estoque; tempo de ressuprimento e estoques de segurança; avaliação de estoques - métodos.
 
