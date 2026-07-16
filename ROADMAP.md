@@ -519,7 +519,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 5. O Patrimônio Mobiliário.
 - Item 7. Administração Patrimonial: noções sobre responsabilidade civil e administrativa.
 
-##### [>] Em progresso Assunto 118 - Itens 8, 9 e 10: Controle, movimentação e sistema patrimonial.
+##### [R] Em revisão Assunto 118 - Itens 8, 9 e 10: Controle, movimentação e sistema patrimonial.
 
 - Item 8. O controle dos materiais e do patrimônio.
 - Item 9. A movimentação do patrimônio.

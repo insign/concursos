@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1134",
+      "revision": 1,
+      "prompt": "Nos termos do art. 70 da Constituição Federal, a fiscalização patrimonial abrange, entre outros critérios,",
+      "options": [
+        {"id": "a", "text": "legalidade, legitimidade e economicidade"},
+        {"id": "b", "text": "apenas a conveniência do gestor"},
+        {"id": "c", "text": "somente a existência de saldo financeiro"},
+        {"id": "d", "text": "exclusivamente o valor de aquisição"},
+        {"id": "e", "text": "apenas os bens imóveis"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 70 inclui a fiscalização patrimonial quanto à legalidade, legitimidade e economicidade, além dos demais critérios constitucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1135",
+      "revision": 1,
+      "prompt": "Segundo o art. 94 da Lei nº 4.320/1964, os bens de caráter permanente devem possuir",
+      "options": [
+        {"id": "a", "text": "apenas uma totalização anual sem responsáveis"},
+        {"id": "b", "text": "registros analíticos com perfeita caracterização e indicação dos agentes responsáveis pela guarda e administração"},
+        {"id": "c", "text": "registro facultativo quando tiverem etiqueta"},
+        {"id": "d", "text": "somente controle financeiro do pagamento"},
+        {"id": "e", "text": "cadastro sem localização ou origem"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 94 exige registros analíticos dos bens permanentes, com elementos de perfeita caracterização e indicação dos agentes responsáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1136",
+      "revision": 1,
+      "prompt": "A Lei nº 4.320/1964 determina, em seu art. 95, a manutenção de",
+      "options": [
+        {"id": "a", "text": "inventário apenas por amostragem"},
+        {"id": "b", "text": "termos individuais apenas para imóveis"},
+        {"id": "c", "text": "registros sintéticos dos bens móveis e imóveis"},
+        {"id": "d", "text": "uma planilha particular por responsável"},
+        {"id": "e", "text": "registros somente após a baixa"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 95 prevê registros sintéticos dos bens móveis e imóveis, complementando o controle analítico dos permanentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1137",
+      "revision": 1,
+      "prompt": "O levantamento geral dos bens móveis e imóveis, conforme o art. 96 da Lei nº 4.320/1964, terá por base",
+      "options": [
+        {"id": "a", "text": "somente declarações verbais dos usuários"},
+        {"id": "b", "text": "apenas notas fiscais do exercício"},
+        {"id": "c", "text": "exclusivamente os saldos bancários"},
+        {"id": "d", "text": "o inventário analítico de cada unidade e os elementos da escrituração sintética da contabilidade"},
+        {"id": "e", "text": "somente o cadastro de fornecedores"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 96 conecta o inventário analítico das unidades aos elementos da escrituração sintética da contabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1138",
+      "revision": 1,
+      "prompt": "A cadeia de evidências de um controle patrimonial efetivo deve relacionar",
+      "options": [
+        {"id": "a", "text": "somente preço e fornecedor"},
+        {"id": "b", "text": "apenas etiqueta e sala"},
+        {"id": "c", "text": "unicamente valor contábil e depreciação"},
+        {"id": "d", "text": "somente responsável e assinatura"},
+        {"id": "e", "text": "bem, documento, localização, responsável, estado, valor e histórico"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "As dimensões se complementam; nenhuma informação isolada demonstra existência, titularidade, custódia, valor e regularidade dos eventos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1139",
+      "revision": 1,
+      "prompt": "É exemplo de controle patrimonial preventivo",
+      "options": [
+        {"id": "a", "text": "exigir autorização prévia e identificação do destino antes da movimentação"},
+        {"id": "b", "text": "contar bens depois de um desaparecimento"},
+        {"id": "c", "text": "corrigir o cadastro após a divergência"},
+        {"id": "d", "text": "apurar dano já ocorrido"},
+        {"id": "e", "text": "emitir relatório anual de exceções passadas"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Autorização e validação antes do evento procuram evitar a ocorrência irregular, característica do controle preventivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1140",
+      "revision": 1,
+      "prompt": "Constitui controle detectivo no patrimônio",
+      "options": [
+        {"id": "a", "text": "bloqueio prévio de campo vazio"},
+        {"id": "b", "text": "inventário físico confrontado com cadastro e contabilidade"},
+        {"id": "c", "text": "manutenção corretiva do bem"},
+        {"id": "d", "text": "aprovação anterior da guia"},
+        {"id": "e", "text": "atribuição inicial de número patrimonial"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Inventário e conciliação detectam diferenças entre a realidade física e os registros existentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1141",
+      "revision": 1,
+      "prompt": "Após confirmar que a localização cadastrada está errada, uma medida corretiva adequada é",
+      "options": [
+        {"id": "a", "text": "apagar todo o histórico do bem"},
+        {"id": "b", "text": "baixar o bem para encerrar a diferença"},
+        {"id": "c", "text": "ajustar a localização com evidência, autorização e preservação da trilha"},
+        {"id": "d", "text": "ignorar a diferença por o bem ter sido encontrado"},
+        {"id": "e", "text": "criar um segundo cadastro"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O ajuste corrige a situação, mas precisa conservar causa, aprovação e valores anteriores para manter a rastreabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1142",
+      "revision": 1,
+      "prompt": "Em relação à segregação de funções, o desenho de controle mais adequado é",
+      "options": [
+        {"id": "a", "text": "permitir que todo usuário exclua logs"},
+        {"id": "b", "text": "concentrar solicitação, aprovação, inventário e correção na mesma pessoa"},
+        {"id": "c", "text": "abolir aprovações em estruturas pequenas"},
+        {"id": "d", "text": "separar funções incompatíveis e usar controles compensatórios quando a estrutura limitar a separação"},
+        {"id": "e", "text": "substituir revisão por confiança pessoal"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A separação reduz erro e fraude; quando inviável, dupla conferência, aprovação superior e revisão independente podem compensar o risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1143",
+      "revision": 1,
+      "prompt": "Sobre o grau de controle dos materiais, a IN SEDAP nº 205/1988 orienta, no âmbito federal, que",
+      "options": [
+        {"id": "a", "text": "todos os itens tenham exatamente o mesmo procedimento"},
+        {"id": "b", "text": "somente itens caros sejam registrados"},
+        {"id": "c", "text": "o controle seja dispensado em acervos grandes"},
+        {"id": "d", "text": "a dificuldade de ressuprimento seja irrelevante"},
+        {"id": "e", "text": "o método e o grau considerem importância, valor relativo e dificuldade de ressuprimento"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O item 7.4 afasta a generalização dispendiosa e admite controles diferenciados conforme risco e relevância do item. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1144",
+      "revision": 1,
+      "prompt": "Uma troca de responsável por equipamentos que permanecem na mesma sala constitui",
+      "options": [
+        {"id": "a", "text": "mudança de responsabilidade sem necessária movimentação física"},
+        {"id": "b", "text": "alienação automática"},
+        {"id": "c", "text": "baixa contábil obrigatória"},
+        {"id": "d", "text": "movimento físico sem alteração de carga"},
+        {"id": "e", "text": "transferência de propriedade ao novo servidor"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "As dimensões são independentes: pode haver nova carga ou custódia sem deslocar os objetos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1145",
+      "revision": 1,
+      "prompt": "Para analisar corretamente uma movimentação patrimonial, é útil separar as dimensões",
+      "options": [
+        {"id": "a", "text": "política, partidária, eleitoral e sindical"},
+        {"id": "b", "text": "física, administrativa, de responsabilidade e contábil"},
+        {"id": "c", "text": "apenas financeira e orçamentária"},
+        {"id": "d", "text": "somente jurídica e física"},
+        {"id": "e", "text": "tributária, cambial, comercial e industrial"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O quadro analítico evita presumir que deslocamento, autorização, carga e efeito contábil ocorram sempre juntos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1146",
+      "revision": 1,
+      "prompt": "Um computador passa para outra sala, mas permanece sob o mesmo consignatário. Nesse caso,",
+      "options": [
+        {"id": "a", "text": "a propriedade passa ao consignatário"},
+        {"id": "b", "text": "o cadastro não precisa ser alterado"},
+        {"id": "c", "text": "há mudança física e de localização, sem necessária troca de responsabilidade"},
+        {"id": "d", "text": "deve haver baixa e nova incorporação"},
+        {"id": "e", "text": "há alienação entre salas"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O local real deve ser atualizado, embora o responsável e a propriedade possam permanecer os mesmos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1147",
+      "revision": 1,
+      "prompt": "A dimensão administrativa de uma movimentação compreende principalmente",
+      "options": [
+        {"id": "a", "text": "somente o transporte físico"},
+        {"id": "b", "text": "a depreciação acumulada"},
+        {"id": "c", "text": "a propriedade civil em qualquer caso"},
+        {"id": "d", "text": "autorização, documento, atualização cadastral e aceite"},
+        {"id": "e", "text": "apenas a embalagem do bem"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A dimensão administrativa legitima e evidencia o evento por processo, autorização, registro e confirmação do destino. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1148",
+      "revision": 1,
+      "prompt": "Quanto ao efeito contábil de uma movimentação física interna, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "sempre reduz o valor do ativo a zero"},
+        {"id": "b", "text": "sempre gera nova aquisição"},
+        {"id": "c", "text": "sempre transfere propriedade"},
+        {"id": "d", "text": "nunca exige análise"},
+        {"id": "e", "text": "pode não gerar lançamento contábil, embora exija atualização física e cadastral"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "As dimensões não se confundem; a mudança de sala pode manter conta, valor, propriedade e responsável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1149",
+      "revision": 1,
+      "prompt": "Antes de movimentar um bem permanente, o conjunto mais útil de informações é",
+      "options": [
+        {"id": "a", "text": "identificação, origem, destino, responsáveis, motivo, estado, datas e autorização"},
+        {"id": "b", "text": "apenas nome do transportador"},
+        {"id": "c", "text": "somente valor de compra"},
+        {"id": "d", "text": "apenas cor e peso"},
+        {"id": "e", "text": "somente a unidade de destino"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Esses elementos permitem validar o evento, acompanhar sua execução e reconstruir a trilha posteriormente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1150",
+      "revision": 1,
+      "prompt": "No recebimento de uma movimentação, o destinatário encontra dano não registrado na origem. A conduta adequada é",
+      "options": [
+        {"id": "a", "text": "aceitar sem observação para concluir rapidamente"},
+        {"id": "b", "text": "registrar a ressalva, preservar evidências e tratar a divergência antes do encerramento regular"},
+        {"id": "c", "text": "apagar o movimento"},
+        {"id": "d", "text": "baixar imediatamente o bem"},
+        {"id": "e", "text": "assumir automaticamente a culpa"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O aceite deve refletir a condição real; ressalvas e evidências permitem investigar transporte, origem e responsabilidade sem presunções. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1151",
+      "revision": 1,
+      "prompt": "Para a IN SEDAP nº 205/1988, carga é",
+      "options": [
+        {"id": "a", "text": "a propriedade privada do material"},
+        {"id": "b", "text": "a baixa definitiva do cadastro"},
+        {"id": "c", "text": "a efetiva responsabilidade pela guarda e uso do material pelo consignatário"},
+        {"id": "d", "text": "o transporte entre cidades"},
+        {"id": "e", "text": "a depreciação mensal"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O item 6 da instrução define carga como responsabilidade efetiva pela guarda e uso, sem transferir propriedade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1152",
+      "revision": 1,
+      "prompt": "Segundo o item 7.9 da IN SEDAP nº 205/1988, a movimentação entre almoxarifado e depósito ou unidade requisitante deve",
+      "options": [
+        {"id": "a", "text": "ser registrada apenas no fim do exercício"},
+        {"id": "b", "text": "dispensar documento quando houver urgência"},
+        {"id": "c", "text": "ocorrer antes de qualquer registro"},
+        {"id": "d", "text": "ser precedida de registro no instrumento de controle à vista do documento pertinente"},
+        {"id": "e", "text": "ser autorizada pelo fornecedor original"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A instrução exige registro prévio com guia de transferência, nota de requisição ou outro documento de descarga. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1153",
+      "revision": 1,
+      "prompt": "Na referência federal da IN SEDAP nº 205/1988, um equipamento que muda de local, mas continua com o mesmo consignatário,",
+      "options": [
+        {"id": "a", "text": "pode ser movido sem qualquer controle"},
+        {"id": "b", "text": "deve ser baixado"},
+        {"id": "c", "text": "passa a ser material de consumo"},
+        {"id": "d", "text": "torna-se bem de terceiro"},
+        {"id": "e", "text": "ainda exige prévia ciência da unidade administrativa competente"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O item 7.13.4 exige ciência prévia mesmo quando não há troca do consignatário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1154",
+      "revision": 1,
+      "prompt": "Em uma redistribuição de material permanente, a IN SEDAP nº 205/1988 determina atualizar o termo com",
+      "options": [
+        {"id": "a", "text": "nova localização, estado de conservação e assinatura do novo consignatário"},
+        {"id": "b", "text": "somente o preço original"},
+        {"id": "c", "text": "apenas o nome da unidade de origem"},
+        {"id": "d", "text": "exclusivamente a data de compra"},
+        {"id": "e", "text": "uma nova marca comercial"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O item 7.13.3 vincula a redistribuição à atualização dessas informações e ao aceite do novo consignatário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1155",
+      "revision": 1,
+      "prompt": "No Decreto federal nº 12.785/2025, cessão de bem móvel é",
+      "options": [
+        {"id": "a", "text": "alienação definitiva por leilão"},
+        {"id": "b", "text": "movimentação precária, por prazo determinado, de bem inservível ocioso ou recuperável, com transmissão da posse e da responsabilidade pela guarda, conservação e manutenção"},
+        {"id": "c", "text": "baixa contábil sem retirada física"},
+        {"id": "d", "text": "transferência automática da propriedade ao usuário"},
+        {"id": "e", "text": "qualquer mudança de sala"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 4º caracteriza a cessão federal como precária e temporária, com posse e responsabilidade pela guarda, conservação e manutenção, sem transmissão da propriedade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1156",
+      "revision": 1,
+      "prompt": "A transferência prevista no Decreto federal nº 12.785/2025 tem caráter",
+      "options": [
+        {"id": "a", "text": "temporário e sem alteração de posse"},
+        {"id": "b", "text": "precário e exclusivamente verbal"},
+        {"id": "c", "text": "permanente, com transmissão de posse, propriedade e responsabilidades associadas"},
+        {"id": "d", "text": "apenas contábil"},
+        {"id": "e", "text": "restrito à manutenção externa"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 6º distingue a transferência permanente da cessão precária e inclui posse, propriedade, guarda, conservação, manutenção e destinação final. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1157",
+      "revision": 1,
+      "prompt": "Segundo o Decreto nº 12.785/2025, na circularidade federal de bens móveis",
+      "options": [
+        {"id": "a", "text": "a transferência externa sempre prefere à interna"},
+        {"id": "b", "text": "bem em uso regular jamais pode ser transferido"},
+        {"id": "c", "text": "cessão e transferência são idênticas"},
+        {"id": "d", "text": "a transferência interna prefere à externa, e bem em uso regular exige justificativa para cessão ou transferência excepcional"},
+        {"id": "e", "text": "toda transferência é temporária"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os arts. 7º e 8º estabelecem a preferência interna e a excepcionalidade fundamentada para bem em uso regular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1158",
+      "revision": 1,
+      "prompt": "O Decreto nº 12.785/2025 deve ser usado no estudo do TCE-MA como",
+      "options": [
+        {"id": "a", "text": "regulamento estadual obrigatório"},
+        {"id": "b", "text": "norma interna comprovada do Tribunal"},
+        {"id": "c", "text": "substituto da Constituição estadual"},
+        {"id": "d", "text": "prova de que o TCE-MA usa SIADS"},
+        {"id": "e", "text": "referência federal atual, sem presunção de aplicabilidade automática ao ente estadual"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O decreto declara âmbito federal direto, autárquico e fundacional; transplantar suas regras ao TCE-MA exigiria base própria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1159",
+      "revision": 1,
+      "prompt": "Um equipamento público é enviado temporariamente para manutenção contratada. Esse evento",
+      "options": [
+        {"id": "a", "text": "muda localização e custódia imediata, mas não transfere automaticamente a propriedade"},
+        {"id": "b", "text": "constitui sempre alienação"},
+        {"id": "c", "text": "exige baixa antes da saída"},
+        {"id": "d", "text": "dispensa prazo de retorno e documento"},
+        {"id": "e", "text": "transforma o bem em material de consumo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A saída temporária deve ser rastreada por ordem, prestador, condição e prazo, preservando a titularidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1160",
+      "revision": 1,
+      "prompt": "No sistema patrimonial, cadastro mestre significa",
+      "options": [
+        {"id": "a", "text": "uma planilha diferente para cada usuário"},
+        {"id": "b", "text": "a fonte oficial definida para identidade e situação dos bens"},
+        {"id": "c", "text": "somente uma cópia de segurança"},
+        {"id": "d", "text": "o relatório impresso do último inventário"},
+        {"id": "e", "text": "qualquer lista informal mais recente"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Uma fonte mestre evita que cadastros paralelos concorram sobre número, localização, carga e situação do mesmo bem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1161",
+      "revision": 1,
+      "prompt": "Uma trilha de auditoria patrimonial adequada registra",
+      "options": [
+        {"id": "a", "text": "apenas o valor final"},
+        {"id": "b", "text": "somente o nome do bem"},
+        {"id": "c", "text": "autor, data e hora, documento, aprovação, estado anterior e novo estado"},
+        {"id": "d", "text": "apenas alterações rejeitadas"},
+        {"id": "e", "text": "somente o usuário administrador"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Esses elementos permitem reconstruir quem fez, aprovou e alterou cada evento sem apagar o passado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1162",
+      "revision": 1,
+      "prompt": "O sistema indica que um bem está na sala 10. Para comprovar existência e estado atuais, é necessário",
+      "options": [
+        {"id": "a", "text": "presumir que o cadastro nunca erra"},
+        {"id": "b", "text": "consultar apenas o valor contábil"},
+        {"id": "c", "text": "imprimir novamente a mesma tela"},
+        {"id": "d", "text": "realizar verificação física e conciliar seu resultado com o registro"},
+        {"id": "e", "text": "alterar a localização antes da visita"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O cadastro é evidência administrativa, mas não demonstra sozinho presença, identidade e condição física. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1163",
+      "revision": 1,
+      "prompt": "Para reduzir divergências causadas por planilhas paralelas, a entidade deve",
+      "options": [
+        {"id": "a", "text": "permitir que cada setor escolha seu identificador"},
+        {"id": "b", "text": "dispensar integração"},
+        {"id": "c", "text": "apagar o cadastro central"},
+        {"id": "d", "text": "manter cópias sem responsável definido"},
+        {"id": "e", "text": "definir fonte mestre, chave estável, interfaces controladas e conciliação de exceções"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Governança de dados define onde cada informação nasce e como falhas ou diferenças entre sistemas serão tratadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1164",
+      "revision": 1,
+      "prompt": "A Portaria nº 232/2020 instituiu o SIADS para gerenciar, em seu âmbito federal,",
+      "options": [
+        {"id": "a", "text": "bens móveis permanentes e de consumo, intangíveis e frota"},
+        {"id": "b", "text": "apenas imóveis da União"},
+        {"id": "c", "text": "somente folha de pagamento"},
+        {"id": "d", "text": "exclusivamente licitações"},
+        {"id": "e", "text": "apenas arrecadação tributária"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 1º da portaria define esse acervo e limita o sistema aos órgãos e entidades federais ali indicados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1165",
+      "revision": 1,
+      "prompt": "A relação entre SIADS e SIAFI, conforme a Portaria nº 232/2020, é corretamente descrita por",
+      "options": [
+        {"id": "a", "text": "são nomes distintos do mesmo cadastro local"},
+        {"id": "b", "text": "o SIADS pode automatizar o registro on-line no SIAFI de atos e fatos das ações administrativas"},
+        {"id": "c", "text": "o SIAFI substitui toda verificação física"},
+        {"id": "d", "text": "o SIADS trata somente orçamento"},
+        {"id": "e", "text": "não existe integração prevista"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A portaria diferencia a gestão patrimonial no SIADS do registro financeiro-contábil federal no SIAFI e prevê integração on-line. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1166",
+      "revision": 1,
+      "prompt": "A existência do SIADS na administração federal permite concluir que",
+      "options": [
+        {"id": "a", "text": "todo tribunal estadual usa o sistema"},
+        {"id": "b", "text": "o sistema é obrigatório para o TCE-MA"},
+        {"id": "c", "text": "ele é exemplo federal, mas o sistema efetivo do TCE-MA depende de fonte institucional própria"},
+        {"id": "d", "text": "não há necessidade de controle local"},
+        {"id": "e", "text": "a portaria federal revogou normas estaduais"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O escopo expresso da portaria não autoriza inferir a plataforma adotada por órgão estadual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1167",
+      "revision": 1,
+      "prompt": "O inventário físico tem como função central",
+      "options": [
+        {"id": "a", "text": "substituir o sistema por anotações sem padrão"},
+        {"id": "b", "text": "confirmar automaticamente qualquer relatório"},
+        {"id": "c", "text": "eliminar documentos de aquisição"},
+        {"id": "d", "text": "verificar existência, quantidade, identidade, localização e estado e confrontá-los com os registros"},
+        {"id": "e", "text": "realizar somente avaliação de preço"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A verificação física produz evidência independente para detectar diferenças no cadastro, carga e contabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1168",
+      "revision": 1,
+      "prompt": "Na IN SEDAP nº 205/1988, o inventário destinado a comprovar quantidade e valor do acervo existente em 31 de dezembro é o",
+      "options": [
+        {"id": "a", "text": "inicial"},
+        {"id": "b", "text": "eventual"},
+        {"id": "c", "text": "de transformação"},
+        {"id": "d", "text": "rotativo"},
+        {"id": "e", "text": "anual"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O item 8.1, a, define o inventário anual pela posição quantitativa e valorativa de 31 de dezembro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1169",
+      "revision": 1,
+      "prompt": "O inventário inicial, na classificação da IN SEDAP nº 205/1988, é realizado",
+      "options": [
+        {"id": "a", "text": "na criação de uma unidade gestora, para identificar e registrar os bens sob sua responsabilidade"},
+        {"id": "b", "text": "somente quando um bem desaparece"},
+        {"id": "c", "text": "a cada manutenção"},
+        {"id": "d", "text": "apenas na extinção da entidade"},
+        {"id": "e", "text": "exclusivamente por amostragem"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O item 8.1, b, vincula o inventário inicial à criação da unidade gestora. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1170",
+      "revision": 1,
+      "prompt": "Na mudança do dirigente de uma unidade gestora, a IN SEDAP nº 205/1988 prevê inventário",
+      "options": [
+        {"id": "a", "text": "anual somente"},
+        {"id": "b", "text": "de transferência de responsabilidade"},
+        {"id": "c", "text": "de compra"},
+        {"id": "d", "text": "de descarte"},
+        {"id": "e", "text": "de depreciação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O item 8.1, c, associa esse inventário à mudança do dirigente e à passagem de responsabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1171",
+      "revision": 1,
+      "prompt": "O inventário que pode ser realizado em qualquer época por iniciativa do dirigente ou do órgão fiscalizador é o",
+      "options": [
+        {"id": "a", "text": "anual"},
+        {"id": "b", "text": "inicial"},
+        {"id": "c", "text": "eventual"},
+        {"id": "d", "text": "de transferência externa"},
+        {"id": "e", "text": "sintético"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O item 8.1, e, define o inventário eventual por sua realização a qualquer tempo e pela iniciativa competente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1172",
+      "revision": 1,
+      "prompt": "Segundo a IN SEDAP nº 205/1988, o inventário analítico deve conter",
+      "options": [
+        {"id": "a", "text": "somente quantidade total"},
+        {"id": "b", "text": "apenas responsável e sala"},
+        {"id": "c", "text": "apenas preço de mercado"},
+        {"id": "d", "text": "descrição padronizada, número de registro, valor, estado e outros elementos necessários"},
+        {"id": "e", "text": "somente fotografias"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O item 8.2 lista esses elementos para a perfeita caracterização do material. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1173",
+      "revision": 1,
+      "prompt": "Inventário rotativo é",
+      "options": [
+        {"id": "a", "text": "baixa automática de bens antigos"},
+        {"id": "b", "text": "contagem única apenas em 31 de dezembro"},
+        {"id": "c", "text": "substituto obrigatório de qualquer inventário integral"},
+        {"id": "d", "text": "registro sem verificação física"},
+        {"id": "e", "text": "levantamento contínuo e seletivo programado para recensear os itens ao longo do exercício"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O item 8.3 o apresenta como instrumento gerencial contínuo e seletivo, sem torná-lo substituto universal das exigências de prestação de contas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1174",
+      "revision": 1,
+      "prompt": "Na conciliação físico-patrimonial-contábil, deve-se",
+      "options": [
+        {"id": "a", "text": "comparar existência, cadastro, carga, documentos e saldos contábeis e explicar diferenças"},
+        {"id": "b", "text": "ajustar todos os sistemas para o menor total sem análise"},
+        {"id": "c", "text": "considerar apenas o valor contábil"},
+        {"id": "d", "text": "ignorar bens de terceiros"},
+        {"id": "e", "text": "apagar eventos rejeitados pela integração"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A conciliação relaciona camadas diferentes e exige causa e tratamento documentados para cada exceção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1175",
+      "revision": 1,
+      "prompt": "Um bem cadastrado não é encontrado no inventário. A primeira resposta adequada é",
+      "options": [
+        {"id": "a", "text": "excluir o registro"},
+        {"id": "b", "text": "preservar evidências, reconferir locais e movimentos e investigar a causa"},
+        {"id": "c", "text": "imputar automaticamente o valor ao signatário do termo"},
+        {"id": "d", "text": "criar outro número patrimonial"},
+        {"id": "e", "text": "reduzir a quantidade contábil sem documento"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Movimento pendente, manutenção, erro de etiqueta ou desaparecimento são hipóteses distintas; a investigação precede ajuste, baixa ou responsabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1176",
+      "revision": 1,
+      "prompt": "Aplicar o princípio do menor privilégio ao sistema patrimonial significa",
+      "options": [
+        {"id": "a", "text": "dar perfil de administrador a todos"},
+        {"id": "b", "text": "usar uma senha compartilhada"},
+        {"id": "c", "text": "conceder a cada usuário apenas os acessos necessários à sua função"},
+        {"id": "d", "text": "impedir qualquer auditoria"},
+        {"id": "e", "text": "eliminar logs para reduzir dados"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A limitação por função reduz alterações indevidas e melhora a atribuição dos atos a usuários individuais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1177",
+      "revision": 1,
+      "prompt": "Para a continuidade de um sistema patrimonial, é essencial",
+      "options": [
+        {"id": "a", "text": "manter apenas uma cópia no equipamento do operador"},
+        {"id": "b", "text": "dispensar plano de recuperação"},
+        {"id": "c", "text": "substituir backup por relatório impresso"},
+        {"id": "d", "text": "realizar cópias de segurança e testar a recuperação dos dados"},
+        {"id": "e", "text": "permitir exclusão dos históricos antigos"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Backup não testado pode falhar quando necessário; disponibilidade exige capacidade comprovada de recuperação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1178",
+      "revision": 1,
+      "prompt": "A respeito de metas para indicadores patrimoniais, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "há uma meta constitucional única para todas as entidades"},
+        {"id": "b", "text": "todo indicador deve ser sempre zero"},
+        {"id": "c", "text": "a meta independe do risco"},
+        {"id": "d", "text": "somente o valor monetário importa"},
+        {"id": "e", "text": "porte, dispersão, criticidade e materialidade orientam parâmetros próprios"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os indicadores são comparáveis no tempo, mas suas metas precisam refletir contexto, risco e capacidade operacional da entidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1179",
+      "revision": 1,
+      "prompt": "O percentual de bens sem responsável ou localização válida mede principalmente",
+      "options": [
+        {"id": "a", "text": "fragilidade de cadastro e custódia"},
+        {"id": "b", "text": "rentabilidade financeira"},
+        {"id": "c", "text": "velocidade de licitação"},
+        {"id": "d", "text": "arrecadação tributária"},
+        {"id": "e", "text": "execução da folha de pagamento"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sem local ou detentor definido, a entidade perde capacidade de localizar, proteger e prestar contas sobre o bem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1180",
+      "revision": 1,
+      "prompt": "Um relatório de movimentações pendentes por idade é útil para",
+      "options": [
+        {"id": "a", "text": "calcular apenas depreciação"},
+        {"id": "b", "text": "identificar eventos que podem ter ocorrido fisicamente sem aceite ou encerramento cadastral tempestivo"},
+        {"id": "c", "text": "substituir o inventário anual"},
+        {"id": "d", "text": "provar automaticamente culpa"},
+        {"id": "e", "text": "autorizar baixa em lote"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Quanto mais antiga a pendência, maior o risco de divergência entre localização real, carga e sistema. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1181",
+      "revision": 1,
+      "prompt": "Durante inventário, encontra-se um bem na sala correta, mas com responsável cadastrado que já deixou a unidade. Deve-se",
+      "options": [
+        {"id": "a", "text": "considerar o controle perfeito porque o bem existe"},
+        {"id": "b", "text": "baixar o bem"},
+        {"id": "c", "text": "verificar a passagem de responsabilidade e formalizar a carga atual com trilha e aceite"},
+        {"id": "d", "text": "manter indefinidamente o nome antigo"},
+        {"id": "e", "text": "transferir a propriedade ao novo usuário"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Existência física correta não elimina a divergência de custódia; o termo e o cadastro devem refletir o responsável atual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1182",
+      "revision": 1,
+      "prompt": "O sistema patrimonial registra 100 equipamentos, e a contabilidade contém valor referente a 102. A conduta adequada é",
+      "options": [
+        {"id": "a", "text": "escolher o menor saldo"},
+        {"id": "b", "text": "criar dois bens sem documento"},
+        {"id": "c", "text": "ignorar por serem sistemas diferentes"},
+        {"id": "d", "text": "conciliar documentos e eventos para identificar integração pendente, duplicidade, baixa ou outro erro"},
+        {"id": "e", "text": "alterar a contabilidade sem aprovação"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A divergência exige explicação verificável e tratamento no sistema de origem, não ajuste arbitrário para igualar totais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1183",
+      "revision": 1,
+      "prompt": "Ao corrigir no sistema o responsável por um bem, a prática que melhor preserva a prestação de contas é",
+      "options": [
+        {"id": "a", "text": "sobrescrever silenciosamente o nome anterior"},
+        {"id": "b", "text": "usar usuário genérico"},
+        {"id": "c", "text": "apagar o termo antigo"},
+        {"id": "d", "text": "alterar diretamente o banco sem processo"},
+        {"id": "e", "text": "registrar motivo, evidência, aprovação, autor, data, responsável anterior e novo responsável"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A correção precisa ser rastreável para que se saiba o que mudou, por quê, por quem e com qual fundamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
