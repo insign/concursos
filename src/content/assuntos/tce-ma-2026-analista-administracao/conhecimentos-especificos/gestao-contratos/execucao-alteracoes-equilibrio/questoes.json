@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1644",
+      "revision": 1,
+      "prompt": "Segundo a Lei nº 14.133/2021, a execução fiel do contrato significa que:",
+      "options": [
+        { "id": "a", "text": "ambas as partes devem observar as cláusulas e a lei, respondendo cada uma pela inexecução total ou parcial." },
+        { "id": "b", "text": "somente o contratado responde por descumprimentos, pois a Administração possui supremacia geral." },
+        { "id": "c", "text": "a Administração pode afastar as cláusulas sempre que mudar o titular do órgão." },
+        { "id": "d", "text": "apenas a inexecução total produz consequências jurídicas." },
+        { "id": "e", "text": "as normas legais são subsidiárias às práticas informais adotadas durante a execução." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 115 vincula as duas partes às cláusulas avençadas e à Lei nº 14.133/2021, atribuindo a cada uma as consequências de sua inexecução total ou parcial. A posição institucional da Administração não elimina sua responsabilidade contratual. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1645",
+      "revision": 1,
+      "prompt": "A posse de novo chefe do Poder Executivo é invocada para retardar, sem outra justificativa, parcelas de uma obra contratada. Essa conduta:",
+      "options": [
+        { "id": "a", "text": "é permitida durante os primeiros cem dias da nova gestão." },
+        { "id": "b", "text": "é proibida, pois a mudança de autoridade não justifica o retardamento imotivado." },
+        { "id": "c", "text": "depende apenas de comunicação verbal ao contratado." },
+        { "id": "d", "text": "converte automaticamente o contrato em contratação emergencial." },
+        { "id": "e", "text": "é obrigatória para revisão de todos os projetos anteriores." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 115, § 1º, proíbe retardar imotivadamente obra, serviço ou parcela, inclusive na posse do chefe do Poder Executivo ou de novo titular do órgão ou entidade. A sucessão administrativa não constitui justificativa automática. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1646",
+      "revision": 1,
+      "prompt": "Em obra cuja responsabilidade pelo licenciamento ambiental cabe à Administração, a manifestação prévia ou licença prévia, quando cabível, deve ser obtida:",
+      "options": [
+        { "id": "a", "text": "depois do recebimento definitivo." },
+        { "id": "b", "text": "somente após a assinatura do contrato." },
+        { "id": "c", "text": "antes da divulgação do edital." },
+        { "id": "d", "text": "durante a elaboração do termo de recebimento provisório." },
+        { "id": "e", "text": "apenas se o contratado a solicitar depois da ordem de serviço." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 115, § 4º, exige a manifestação prévia ou licença prévia antes da divulgação do edital nas obras e serviços de engenharia em que o licenciamento seja responsabilidade da Administração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1647",
+      "revision": 1,
+      "prompt": "Uma ordem de paralisação impede a execução por 18 dias. Quanto ao cronograma, a Lei nº 14.133/2021 determina:",
+      "options": [
+        { "id": "a", "text": "a extinção automática do contrato." },
+        { "id": "b", "text": "a manutenção do prazo original em qualquer caso." },
+        { "id": "c", "text": "a prorrogação por metade do período, mediante aditivo." },
+        { "id": "d", "text": "a prorrogação automática pelo tempo correspondente, anotada por simples apostila." },
+        { "id": "e", "text": "a renovação integral da vigência por igual período ao contrato." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Nos termos do art. 115, § 5º, impedimento, ordem de paralisação ou suspensão do contrato prorroga automaticamente o cronograma pelo tempo correspondente, com registro por apostila. Isso não equivale a renovar toda a vigência. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1648",
+      "revision": 1,
+      "prompt": "Uma obra permanece paralisada, na hipótese do art. 115, § 5º, por mais de um mês. A Administração deve:",
+      "options": [
+        { "id": "a", "text": "manter sigilo até o reinício para proteger a contratada." },
+        { "id": "b", "text": "publicar apenas o valor já medido, sem informar a causa." },
+        { "id": "c", "text": "transferir ao contratado a elaboração obrigatória do aviso." },
+        { "id": "d", "text": "divulgar o fato apenas no diário oficial, sem placa." },
+        { "id": "e", "text": "divulgar aviso em sítio oficial e placa visível, com motivo, responsável e previsão de reinício." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 115, §§ 6º e 7º, exige, após mais de um mês, aviso elaborado pela Administração em sítio oficial e placa de fácil visualização, com motivo, responsável pela inexecução temporária e data prevista para reinício. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1649",
+      "revision": 1,
+      "prompt": "Sobre a reserva legal de cargos durante a execução contratual, assinale a alternativa correta.",
+      "options": [
+        { "id": "a", "text": "O contratado deve mantê-la ao longo de toda a execução e comprová-la, com identificação dos empregados, quando solicitado." },
+        { "id": "b", "text": "A obrigação termina com a habilitação na licitação." },
+        { "id": "c", "text": "Ela alcança apenas aprendizes e exclui pessoas com deficiência." },
+        { "id": "d", "text": "A Administração jamais pode solicitar comprovação durante o contrato." },
+        { "id": "e", "text": "A reserva depende de previsão discricionária em cada contrato, ainda que esteja em lei." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 116 exige, durante toda a execução, as reservas para pessoa com deficiência, reabilitado, aprendiz e outras previstas em normas específicas. Seu parágrafo único autoriza a exigência de comprovação com indicação dos empregados. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1650",
+      "revision": 1,
+      "prompt": "A execução de um contrato regido pela Lei nº 14.133/2021 será acompanhada e fiscalizada:",
+      "options": [
+        { "id": "a", "text": "necessariamente por comissão externa sem agentes públicos." },
+        { "id": "b", "text": "por um ou mais fiscais especialmente designados, representantes da Administração, ou seus substitutos." },
+        { "id": "c", "text": "exclusivamente pelo preposto da empresa contratada." },
+        { "id": "d", "text": "apenas pela assessoria jurídica, sem fiscal próprio." },
+        { "id": "e", "text": "somente após o surgimento de vício no objeto." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 117 prevê um ou mais fiscais, representantes da Administração especialmente designados conforme os requisitos do art. 7º, ou respectivos substitutos. O preposto representa o contratado, não a Administração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1651",
+      "revision": 1,
+      "prompt": "O fiscal encontra problema que exige decisão além de sua competência. Deve:",
+      "options": [
+        { "id": "a", "text": "decidir mesmo sem competência para evitar registro formal." },
+        { "id": "b", "text": "aguardar o encerramento do contrato para produzir relatório único." },
+        { "id": "c", "text": "registrar a ocorrência e informar os superiores em tempo hábil para as providências convenientes." },
+        { "id": "d", "text": "transferir definitivamente a decisão ao preposto." },
+        { "id": "e", "text": "omitir a ocorrência quando ainda não houver dano financeiro." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 117, §§ 1º e 2º, exige registro das ocorrências e comunicação tempestiva aos superiores quando a solução ultrapassar a competência do fiscal. O fiscal determina correções dentro de suas atribuições, mas não usurpa competência decisória. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1652",
+      "revision": 1,
+      "prompt": "A Administração contrata empresa especializada para assistir o fiscal. Essa empresa:",
+      "options": [
+        { "id": "a", "text": "assume integralmente a competência e elimina a responsabilidade do fiscal." },
+        { "id": "b", "text": "pode exercer qualquer atribuição exclusiva do fiscal, desde que possua experiência." },
+        { "id": "c", "text": "responde apenas subjetivamente, mesmo por informação tecnicamente falsa." },
+        { "id": "d", "text": "responde objetivamente pela veracidade e precisão das informações, deve guardar confidencialidade e não exerce atribuição exclusiva do fiscal." },
+        { "id": "e", "text": "substitui os órgãos de assessoramento jurídico e controle interno." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 117, § 4º, atribui ao terceiro responsabilidade civil objetiva pelas informações, exige termo de confidencialidade e veda atribuição própria e exclusiva do fiscal. A contratação também não exime o fiscal nos limites das informações recebidas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1653",
+      "revision": 1,
+      "prompt": "O preposto previsto na Lei nº 14.133/2021 é:",
+      "options": [
+        { "id": "a", "text": "o auditor externo que substitui o controle interno." },
+        { "id": "b", "text": "a autoridade competente para aplicar sanções em nome da Administração." },
+        { "id": "c", "text": "o fiscal público indicado unilateralmente pela contratada." },
+        { "id": "d", "text": "um representante facultativo que só atua após o recebimento definitivo." },
+        { "id": "e", "text": "o representante do contratado, aceito pela Administração e mantido no local da obra ou serviço." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Conforme o art. 118, o contratado mantém preposto aceito pela Administração no local da obra ou serviço para representá-lo na execução. Ele não se confunde com o fiscal, que representa a Administração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1654",
+      "revision": 1,
+      "prompt": "Foram encontrados defeitos resultantes da execução e dos materiais empregados. O contratado deve:",
+      "options": [
+        { "id": "a", "text": "reparar, corrigir, remover, reconstruir ou substituir o objeto, total ou parcialmente, às suas expensas." },
+        { "id": "b", "text": "aguardar que a Administração custeie obrigatoriamente a correção." },
+        { "id": "c", "text": "corrigir apenas defeitos de material, nunca os de execução." },
+        { "id": "d", "text": "indenizar somente se o fiscal não tiver acompanhado o serviço." },
+        { "id": "e", "text": "substituir o fiscal antes de realizar qualquer reparo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 119 impõe ao contratado, às suas expensas, reparar, corrigir, remover, reconstruir ou substituir o objeto com vício, defeito ou incorreção decorrente da execução ou dos materiais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1655",
+      "revision": 1,
+      "prompt": "Um dano direto a terceiro decorre da execução contratual, que era acompanhada diariamente pelo fiscal. A fiscalização:",
+      "options": [
+        { "id": "a", "text": "transfere automaticamente toda responsabilidade à Administração." },
+        { "id": "b", "text": "não exclui nem reduz a responsabilidade do contratado pelo dano." },
+        { "id": "c", "text": "elimina a responsabilidade de ambas as partes." },
+        { "id": "d", "text": "limita a responsabilidade ao valor da garantia contratual." },
+        { "id": "e", "text": "torna o preposto pessoalmente responsável em qualquer hipótese." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 120 responsabiliza o contratado pelos danos diretamente causados à Administração ou a terceiros em razão da execução e afirma que fiscalização ou acompanhamento não excluem nem reduzem essa responsabilidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1656",
+      "revision": 1,
+      "prompt": "Como regra geral, os encargos trabalhistas, previdenciários, fiscais e comerciais resultantes da execução são de responsabilidade:",
+      "options": [
+        { "id": "a", "text": "solidária entre Administração e todos os subcontratados." },
+        { "id": "b", "text": "exclusiva do fiscal que atestou as medições." },
+        { "id": "c", "text": "somente do contratado, ressalvado o regime especial previsto em lei." },
+        { "id": "d", "text": "da Administração, sempre que o serviço for contínuo." },
+        { "id": "e", "text": "do usuário final do serviço público." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O caput do art. 121 estabelece como regra a responsabilidade exclusiva do contratado. O § 2º contém disciplina excepcional para serviços contínuos com dedicação exclusiva de mão de obra. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1657",
+      "revision": 1,
+      "prompt": "Nos serviços contínuos com dedicação exclusiva de mão de obra, comprovada falha de fiscalização das obrigações do contratado, a Lei prevê que a Administração responde:",
+      "options": [
+        { "id": "a", "text": "subsidiariamente pelos previdenciários e solidariamente pelos comerciais." },
+        { "id": "b", "text": "apenas pelos encargos fiscais, sem condição." },
+        { "id": "c", "text": "solidariamente por toda e qualquer dívida empresarial." },
+        { "id": "d", "text": "solidariamente pelos previdenciários e subsidiariamente pelos trabalhistas." },
+        { "id": "e", "text": "somente por multas administrativas impostas ao contratado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 121, § 2º, limita a exceção aos serviços contínuos com dedicação exclusiva e prevê responsabilidade solidária previdenciária e subsidiária trabalhista quando comprovada falha na fiscalização. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1658",
+      "revision": 1,
+      "prompt": "Para assegurar obrigações trabalhistas em serviço contínuo com dedicação exclusiva, a Administração pode:",
+      "options": [
+        { "id": "a", "text": "dispensar toda garantia e pagar antecipadamente salários futuros sem previsão." },
+        { "id": "b", "text": "transferir os empregados ao quadro público de forma automática." },
+        { "id": "c", "text": "proibir a comprovação de quitação antes do pagamento." },
+        { "id": "d", "text": "tornar penhorável a conta vinculada para credores comuns." },
+        { "id": "e", "text": "exigir garantia para verbas rescisórias, usar conta vinculada ou pagar diretamente verbas inadimplidas com dedução." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 121, § 3º, permite essas e outras medidas mediante previsão em edital ou contrato. O pagamento direto de verbas inadimplidas é deduzido do valor devido ao contratado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1659",
+      "revision": 1,
+      "prompt": "Os valores depositados na conta vinculada para assegurar obrigações trabalhistas são:",
+      "options": [
+        { "id": "a", "text": "absolutamente impenhoráveis." },
+        { "id": "b", "text": "livremente movimentáveis pelo contratado para qualquer finalidade." },
+        { "id": "c", "text": "penhoráveis por qualquer credor comercial." },
+        { "id": "d", "text": "convertidos automaticamente em receita pública." },
+        { "id": "e", "text": "obrigatoriamente devolvidos a cada medição mensal." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 121, § 4º, qualifica como absolutamente impenhoráveis os valores depositados na conta vinculada prevista no § 3º, III. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1660",
+      "revision": 1,
+      "prompt": "Sobre a subcontratação na execução, assinale a alternativa correta.",
+      "options": [
+        { "id": "a", "text": "A lei autoriza a transferência total e irrestrita do objeto." },
+        { "id": "b", "text": "Partes do objeto podem ser subcontratadas até o limite autorizado, sem prejuízo das responsabilidades do contratado." },
+        { "id": "c", "text": "A capacidade técnica do subcontratado é irrelevante para o processo." },
+        { "id": "d", "text": "O edital jamais pode restringir a subcontratação." },
+        { "id": "e", "text": "A autorização da Administração rompe o vínculo com o contratado principal." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 122 admite subcontratar partes da obra, serviço ou fornecimento até o limite autorizado em cada caso, preservadas as responsabilidades contratuais e legais do contratado principal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1661",
+      "revision": 1,
+      "prompt": "Pretende-se subcontratar pessoa jurídica cujo dirigente é irmão do agente público que atua na gestão do contrato. Nessa situação:",
+      "options": [
+        { "id": "a", "text": "a subcontratação é livre porque o parentesco só importa na licitação principal." },
+        { "id": "b", "text": "a subcontratação depende apenas de declaração verbal do agente." },
+        { "id": "c", "text": "a subcontratação é vedada, e a proibição deve constar expressamente do edital." },
+        { "id": "d", "text": "o impedimento só alcança parentes em linha reta de primeiro grau." },
+        { "id": "e", "text": "o vínculo desaparece se a capacidade técnica for comprovada." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 122, § 3º, veda a subcontratação quando a pessoa física ou dirigente da pessoa jurídica for cônjuge, companheiro ou parente até o terceiro grau de dirigente ou agente atuante na licitação, fiscalização ou gestão. A vedação deve constar do edital. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1662",
+      "revision": 1,
+      "prompt": "Diante de reclamação pertinente e relacionada à boa execução do contrato, a Administração:",
+      "options": [
+        { "id": "a", "text": "pode manter silêncio indefinidamente." },
+        { "id": "b", "text": "só decide se houver ordem judicial." },
+        { "id": "c", "text": "deve encaminhá-la obrigatoriamente ao contratado para decisão final." },
+        { "id": "d", "text": "tem o dever de emitir decisão explícita." },
+        { "id": "e", "text": "deve extinguir o contrato antes de examinar o mérito." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 123 impõe decisão explícita sobre solicitações e reclamações da execução, excetuando apenas requerimentos manifestamente impertinentes, protelatórios ou sem interesse para a boa execução. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1663",
+      "revision": 1,
+      "prompt": "Sem prazo legal ou contratual específico, concluída a instrução de um requerimento sobre a execução, a Administração terá para decidir:",
+      "options": [
+        { "id": "a", "text": "cinco dias, sem prorrogação." },
+        { "id": "b", "text": "dez dias úteis, prorrogáveis livremente." },
+        { "id": "c", "text": "quinze dias, improrrogáveis." },
+        { "id": "d", "text": "dois meses, prorrogáveis uma vez sem motivação." },
+        { "id": "e", "text": "um mês, admitida prorrogação motivada por igual período." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O parágrafo único do art. 123 fixa um mês após o fim da instrução, salvo prazo específico, e admite prorrogação motivada por igual período. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1664",
+      "revision": 1,
+      "prompt": "A Administração modifica as especificações para melhor adequação técnica aos objetivos do contrato. Trata-se de alteração:",
+      "options": [
+        { "id": "a", "text": "unilateral qualitativa, desde que devidamente justificada." },
+        { "id": "b", "text": "consensual quantitativa, obrigatoriamente." },
+        { "id": "c", "text": "por apostila, porque modifica apenas especificações." },
+        { "id": "d", "text": "vedada em qualquer circunstância." },
+        { "id": "e", "text": "equivalente à substituição da garantia." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 124, I, a, autoriza alteração unilateral de projeto ou especificações para melhor adequação técnica. Ela é qualitativa, exige justificativa e continua sujeita aos limites materiais, inclusive à vedação de transfiguração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1665",
+      "revision": 1,
+      "prompt": "Constitui hipótese de alteração por acordo entre as partes:",
+      "options": [
+        { "id": "a", "text": "qualquer aumento quantitativo imposto sem limite." },
+        { "id": "b", "text": "a substituição conveniente da garantia de execução." },
+        { "id": "c", "text": "a transfiguração do objeto originalmente licitado." },
+        { "id": "d", "text": "a mudança unilateral de cláusula econômico-financeira." },
+        { "id": "e", "text": "o afastamento da matriz de riscos por decisão exclusiva do contratado." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 124, II, a, inclui a substituição conveniente da garantia entre as alterações consensuais. Também dependem de acordo certas mudanças de regime, forma de pagamento e recomposição extraordinária. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1666",
+      "revision": 1,
+      "prompt": "Alteração de contrato de obra decorre de falha do projeto. A Lei determina:",
+      "options": [
+        { "id": "a", "text": "sigilo definitivo para preservar o responsável técnico." },
+        { "id": "b", "text": "transferência automática de todo custo ao usuário do serviço." },
+        { "id": "c", "text": "apuração da responsabilidade técnica e providências para ressarcir os danos à Administração." },
+        { "id": "d", "text": "convalidação da falha sem análise, se o aditivo estiver abaixo de 25%." },
+        { "id": "e", "text": "proibição de corrigir o projeto durante a execução." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 124, § 1º, exige apuração de responsabilidade do responsável técnico e adoção das providências necessárias ao ressarcimento dos danos quando a alteração de obra ou serviço de engenharia decorrer de falha de projeto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1667",
+      "revision": 1,
+      "prompt": "Em obra, a execução foi obstada por atraso no licenciamento ambiental por circunstâncias alheias ao contratado. Aplica-se:",
+      "options": [
+        { "id": "a", "text": "perda automática do direito a qualquer prazo." },
+        { "id": "b", "text": "responsabilidade exclusiva do contratado, mesmo sem risco alocado." },
+        { "id": "c", "text": "apenas multa contra o fiscal." },
+        { "id": "d", "text": "a disciplina de restabelecimento do equilíbrio, além da adequação temporal cabível." },
+        { "id": "e", "text": "conversão obrigatória do contrato em contratação integrada." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 124, § 2º, aplica a recomposição do inciso II, d, quando obra ou serviço de engenharia é obstado por atraso em desapropriação, desocupação, servidão ou licenciamento por circunstância alheia ao contratado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1668",
+      "revision": 1,
+      "prompt": "Em reforma de edifício, os limites legais que o contratado deve aceitar unilateralmente são:",
+      "options": [
+        { "id": "a", "text": "50% para acréscimos e 50% para supressões." },
+        { "id": "b", "text": "25% para acréscimos e nenhuma supressão." },
+        { "id": "c", "text": "100% para acréscimos e 25% para supressões." },
+        { "id": "d", "text": "50% para supressões e 25% para acréscimos." },
+        { "id": "e", "text": "50% para acréscimos e 25% para supressões, sobre o valor inicial atualizado." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 125 mantém o limite geral de 25% para acréscimos e supressões e eleva apenas o acréscimo a 50% na reforma de edifício ou equipamento. A base é o valor inicial atualizado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1669",
+      "revision": 1,
+      "prompt": "Em reforma de equipamento com valor inicial atualizado de R$ 800.000,00, a supressão unilateral ordinariamente exigível do contratado pode chegar a:",
+      "options": [
+        { "id": "a", "text": "R$ 200.000,00." },
+        { "id": "b", "text": "R$ 400.000,00." },
+        { "id": "c", "text": "R$ 600.000,00." },
+        { "id": "d", "text": "R$ 800.000,00." },
+        { "id": "e", "text": "R$ 1.200.000,00." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O limite especial de 50% só vale para acréscimo em reforma. A supressão continua limitada a 25% do valor inicial atualizado: 25% de R$ 800.000,00 = R$ 200.000,00. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1670",
+      "revision": 1,
+      "prompt": "Uma alteração unilateral respeita numericamente 20%, mas substitui o objeto por outro de natureza e finalidade distintas. A alteração é:",
+      "options": [
+        { "id": "a", "text": "válida porque qualquer percentual abaixo de 25% é suficiente." },
+        { "id": "b", "text": "inválida, pois alterações unilaterais não podem transfigurar o objeto." },
+        { "id": "c", "text": "válida se registrada por apostila." },
+        { "id": "d", "text": "obrigatória quando houver saldo orçamentário." },
+        { "id": "e", "text": "válida apenas porque não alcançou 50%." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 126 impõe limite material autônomo: não transfigurar o objeto. Respeitar o percentual do art. 125 não autoriza transformar a contratação em objeto substancialmente diferente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1671",
+      "revision": 1,
+      "prompt": "Quanto ao cálculo dos limites de alterações, a orientação do TCU considera que:",
+      "options": [
+        { "id": "a", "text": "acréscimos e supressões sempre se compensam para formar apenas um saldo líquido." },
+        { "id": "b", "text": "os percentuais incidem sobre o saldo financeiro ainda não executado." },
+        { "id": "c", "text": "acréscimos e supressões devem observar limites também isoladamente, sem compensação entre si." },
+        { "id": "d", "text": "o limite de reforma vale para qualquer compra comum." },
+        { "id": "e", "text": "qualquer alteração consensual está submetida ao mesmo cálculo do art. 125." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O TCU interpreta que acréscimos e supressões devem ser calculados separadamente, sem compensação. Essa é orientação jurisprudencial relevante, enquanto o texto do art. 125 define a base no valor inicial atualizado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1672",
+      "revision": 1,
+      "prompt": "Um aditivo de obra exige item sem preço unitário no contrato. O novo preço será fixado:",
+      "options": [
+        { "id": "a", "text": "livremente pelo contratado, sem referência objetiva." },
+        { "id": "b", "text": "pelo maior preço praticado desde a assinatura." },
+        { "id": "c", "text": "exclusivamente pelo custo histórico do contratado, sem considerar a proposta." },
+        { "id": "d", "text": "aplicando a relação geral proposta/orçamento-base sobre referenciais ou mercado vigentes na data do aditamento." },
+        { "id": "e", "text": "pela média das propostas vencidas na licitação, sem atualização." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 127 preserva a relação econômica da proposta ao aplicá-la aos preços referenciais ou de mercado vigentes na data do aditamento, respeitados os limites do art. 125. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1673",
+      "revision": 1,
+      "prompt": "Em obra, um aditivo modifica a planilha orçamentária. A diferença percentual entre o valor global contratado e o preço global de referência:",
+      "options": [
+        { "id": "a", "text": "deve ser eliminada para elevar o lucro do contratado." },
+        { "id": "b", "text": "pode ser reduzida livremente se cada item novo estiver abaixo do mercado." },
+        { "id": "c", "text": "é irrelevante após a primeira medição." },
+        { "id": "d", "text": "deve ser convertida em pagamento antecipado." },
+        { "id": "e", "text": "não pode ser reduzida em favor do contratado em decorrência do aditivo." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 128 preserva a diferença percentual global em obras e serviços de engenharia, impedindo que aditivos de planilha reduzam o desconto em favor do contratado e favoreçam jogo de planilha. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1674",
+      "revision": 1,
+      "prompt": "Antes de uma supressão, o contratado já adquiriu materiais e os colocou no local da obra. Ele terá direito:",
+      "options": [
+        { "id": "a", "text": "ao pagamento dos custos de aquisição comprovados e reajustados, além de outros danos da supressão se comprovados." },
+        { "id": "b", "text": "somente à retirada dos materiais, sem qualquer pagamento possível." },
+        { "id": "c", "text": "ao dobro do preço da proposta, independentemente de prova." },
+        { "id": "d", "text": "a indenização automática por lucro de toda a parcela suprimida." },
+        { "id": "e", "text": "apenas ao valor residual contábil definido unilateralmente pela Administração." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 129 manda pagar os custos de aquisição regularmente comprovados e monetariamente reajustados dos materiais já adquiridos e postos no local. Outros danos podem ser indenizados, mas também precisam ser comprovados. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1675",
+      "revision": 1,
+      "prompt": "Uma alteração unilateral aumenta os encargos do contratado. O equilíbrio econômico-financeiro inicial deve ser restabelecido:",
+      "options": [
+        { "id": "a", "text": "somente ao final do contrato, se houver saldo." },
+        { "id": "b", "text": "no mesmo termo aditivo que formaliza a alteração." },
+        { "id": "c", "text": "por comunicação verbal do fiscal." },
+        { "id": "d", "text": "apenas em futura licitação do mesmo objeto." },
+        { "id": "e", "text": "exclusivamente por sentença judicial transitada em julgado." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 130 exige que o mesmo termo aditivo restabeleça o equilíbrio quando a alteração unilateral aumentar ou diminuir os encargos. Não se deve postergar a recomposição para momento indeterminado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1676",
+      "revision": 1,
+      "prompt": "Como regra, antes de o contratado executar prestação alterada e determinada pela Administração, deve ocorrer:",
+      "options": [
+        { "id": "a", "text": "apenas autorização verbal do fiscal." },
+        { "id": "b", "text": "o recebimento definitivo da parcela original." },
+        { "id": "c", "text": "a formalização do termo aditivo; em antecipação justificada, ela deve ocorrer em até um mês." },
+        { "id": "d", "text": "a extinção e a celebração obrigatória de novo contrato." },
+        { "id": "e", "text": "a simples emissão de empenho, qualquer que seja a mudança." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 132 torna o termo aditivo condição para executar as prestações alteradas. A antecipação dos efeitos é excepcional, exige necessidade justificada e formalização no prazo máximo de um mês. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1677",
+      "revision": 1,
+      "prompt": "Nos regimes de contratação integrada e semi-integrada, a regra sobre alteração dos valores contratuais é:",
+      "options": [
+        { "id": "a", "text": "liberdade ampla para aditar por qualquer erro do contratado." },
+        { "id": "b", "text": "proibição absoluta, inclusive diante de força maior." },
+        { "id": "c", "text": "alteração automática a cada mudança de insumo." },
+        { "id": "d", "text": "vedação, salvo as exceções legais, como força maior e risco superveniente alocado à Administração." },
+        { "id": "e", "text": "aplicação obrigatória de acréscimo de 50%." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 133 veda em regra a alteração de valores nesses regimes, mas enumera exceções: caso fortuito ou força maior, certas alterações técnicas, hipótese própria da semi-integrada e evento superveniente atribuído à Administração na matriz. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1678",
+      "revision": 1,
+      "prompt": "Na contratação integrada, o projeto precisa ser alterado para corrigir erro imputável ao contratado. Segundo o art. 133, essa situação:",
+      "options": [
+        { "id": "a", "text": "sempre autoriza aumento de 50% do valor." },
+        { "id": "b", "text": "é risco automaticamente transferido ao usuário." },
+        { "id": "c", "text": "gera reajuste por índice, sem demonstração." },
+        { "id": "d", "text": "obriga a Administração a assumir o custo por apostila." },
+        { "id": "e", "text": "não se enquadra na exceção de aumento por alteração técnica pedida pela Administração." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 133, II, só admite a exceção por melhor adequação técnica pedida pela Administração quando a mudança não decorre de erro ou omissão do contratado. Na integrada, os projetos sob sua responsabilidade reforçam essa alocação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1679",
+      "revision": 1,
+      "prompt": "Pode fundamentar revisão extraordinária do equilíbrio econômico-financeiro:",
+      "options": [
+        { "id": "a", "text": "fato imprevisível, ou previsível de consequências incalculáveis, que inviabilize a execução pactuada e não esteja alocado ao contratado." },
+        { "id": "b", "text": "qualquer oscilação ordinária de preço, independentemente de impacto." },
+        { "id": "c", "text": "a vontade do contratado de aumentar sua margem de lucro." },
+        { "id": "d", "text": "evento expressamente assumido pelo contratado na matriz de riscos, sem outra circunstância." },
+        { "id": "e", "text": "a simples passagem de um mês desde a proposta." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 124, II, d, contempla força maior, caso fortuito, fato do príncipe e fatos imprevisíveis ou previsíveis de consequências incalculáveis que inviabilizem a execução como pactuada, respeitada a repartição objetiva de riscos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1680",
+      "revision": 1,
+      "prompt": "A matriz contratual atribui expressamente ao contratado determinado risco ordinário, e exatamente esse evento ocorre. Em regra:",
+      "options": [
+        { "id": "a", "text": "a matriz deve ser ignorada sempre que houver aumento de custo." },
+        { "id": "b", "text": "o risco assumido não pode ser transferido à Administração por simples pedido de revisão." },
+        { "id": "c", "text": "a Administração deve pagar qualquer impacto sem análise causal." },
+        { "id": "d", "text": "o contrato se extingue automaticamente." },
+        { "id": "e", "text": "o evento passa a ser fato do príncipe por definição." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A recomposição deve respeitar a repartição objetiva dos riscos, conforme o art. 124, II, d. A concretização de risco contratualmente assumido integra a equação pactuada e não é automaticamente devolvida à Administração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1681",
+      "revision": 1,
+      "prompt": "Apenas a elevação ordinária e previsível de insumo, sem prova de álea extraordinária, foi apresentada em pedido de revisão. O pedido:",
+      "options": [
+        { "id": "a", "text": "deve ser aceito porque todo aumento é imprevisível." },
+        { "id": "b", "text": "gera automaticamente alteração qualitativa." },
+        { "id": "c", "text": "não basta para revisão extraordinária; variações ordinárias são tratadas pelos mecanismos contratuais próprios." },
+        { "id": "d", "text": "dispensa nexo causal e demonstração de impacto." },
+        { "id": "e", "text": "deve produzir aumento de 25% do contrato." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Revisão exige álea extraordinária, impacto e nexo demonstrados. Oscilações normais e previsíveis são cobertas por reajuste ou repactuação e pelos riscos ordinários da proposta, não por recomposição automática. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1682",
+      "revision": 1,
+      "prompt": "O contrato foi extinto depois que o contratado formulou, durante a vigência e antes da prorrogação, pedido tempestivo de reequilíbrio. A extinção:",
+      "options": [
+        { "id": "a", "text": "apaga automaticamente qualquer desequilíbrio comprovado." },
+        { "id": "b", "text": "transforma o pedido em reajuste por índice." },
+        { "id": "c", "text": "obriga a reativação do contrato por cinco anos." },
+        { "id": "d", "text": "não impede o reconhecimento, podendo haver indenização por termo indenizatório." },
+        { "id": "e", "text": "torna irrelevante o momento em que o pedido foi formulado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 131 admite reconhecer o desequilíbrio após a extinção, mediante termo indenizatório, desde que o pedido tenha sido formulado durante a vigência e antes de eventual prorrogação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1683",
+      "revision": 1,
+      "prompt": "Após a proposta, um tributo é extinto e isso reduz comprovadamente o custo contratado. Os preços:",
+      "options": [
+        { "id": "a", "text": "permanecem imutáveis porque revisão só pode beneficiar o contratado." },
+        { "id": "b", "text": "aumentam para preservar a margem nominal." },
+        { "id": "c", "text": "só mudam se o tributo for federal." },
+        { "id": "d", "text": "dependem de transfiguração do objeto." },
+        { "id": "e", "text": "devem ser alterados para menos, conforme a repercussão comprovada." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 134 determina alteração para mais ou para menos quando criação, alteração ou extinção de tributo ou encargo legal, ou nova disposição legal, repercutir comprovadamente nos preços após a proposta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1684",
+      "revision": 1,
+      "prompt": "Assinale a associação correta entre mecanismo e finalidade.",
+      "options": [
+        { "id": "a", "text": "Reajuste: índice para variação ordinária; repactuação: análise de custos de mão de obra; revisão: evento extraordinário comprovado." },
+        { "id": "b", "text": "Reajuste: força maior; repactuação: qualquer compra; revisão: índice anual automático." },
+        { "id": "c", "text": "Reajuste e revisão são sempre sinônimos e usam apostila." },
+        { "id": "d", "text": "Repactuação dispensa demonstração analítica e revisão exige um ano." },
+        { "id": "e", "text": "Atualização monetária por atraso altera qualitativamente o objeto." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Reajuste absorve variações ordinárias por índice; repactuação analisa custos dos serviços contínuos com dedicação exclusiva ou predominância de mão de obra; revisão recompõe álea extraordinária. São institutos distintos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1685",
+      "revision": 1,
+      "prompt": "A repactuação do art. 135 aplica-se aos contratos de:",
+      "options": [
+        { "id": "a", "text": "qualquer compra de bens de entrega imediata." },
+        { "id": "b", "text": "serviços contínuos com dedicação exclusiva ou predominância de mão de obra." },
+        { "id": "c", "text": "alienação de imóveis públicos." },
+        { "id": "d", "text": "concessão de uso sem prestação de serviço." },
+        { "id": "e", "text": "obra isolada sem custos continuados de mão de obra." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O caput do art. 135 delimita a repactuação aos serviços contínuos com dedicação exclusiva de mão de obra ou predominância de mão de obra. Não é mecanismo geral para compras ou obras. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1686",
+      "revision": 1,
+      "prompt": "Na primeira repactuação, as datas vinculadas aos custos de mercado e de mão de obra são, respectivamente:",
+      "options": [
+        { "id": "a", "text": "assinatura do contrato e primeira medição." },
+        { "id": "b", "text": "publicação do edital e recebimento definitivo." },
+        { "id": "c", "text": "apresentação da proposta e acordo, convenção ou dissídio coletivo ao qual ela esteja vinculada." },
+        { "id": "d", "text": "emissão do empenho e ordem de serviço." },
+        { "id": "e", "text": "último aditivo e data escolhida pelo fiscal." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 135 vincula custos de mercado à apresentação da proposta e custos de mão de obra ao acordo, convenção coletiva ou dissídio coletivo correspondente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1687",
+      "revision": 1,
+      "prompt": "Quanto ao interregno mínimo da repactuação, a Lei nº 14.133/2021 estabelece:",
+      "options": [
+        { "id": "a", "text": "seis meses contados do primeiro pagamento." },
+        { "id": "b", "text": "dois anos contados da assinatura, sem exceção." },
+        { "id": "c", "text": "nenhum período mínimo, bastando pedido verbal." },
+        { "id": "d", "text": "um ano contado da proposta ou da última repactuação, observado por parcela quando houver datas distintas." },
+        { "id": "e", "text": "um mês contado de cada medição." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 135, § 3º, fixa um ano desde a proposta ou última repactuação. Os §§ 4º e 5º permitem parcelas e momentos distintos conforme as anualidades dos custos e categorias. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1688",
+      "revision": 1,
+      "prompt": "Um contrato envolve custos de insumos e duas categorias profissionais com datas-base diferentes. A repactuação:",
+      "options": [
+        { "id": "a", "text": "deve ignorar as datas distintas e usar sempre uma única parcela." },
+        { "id": "b", "text": "é proibida por haver mais de uma categoria." },
+        { "id": "c", "text": "pode ocorrer mensalmente, sem anualidade." },
+        { "id": "d", "text": "deve usar o índice geral de preços sem planilha." },
+        { "id": "e", "text": "pode ser dividida em parcelas e momentos distintos, respeitada a anualidade de cada custo e instrumento coletivo." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os §§ 4º e 5º do art. 135 permitem parcelar a repactuação conforme anualidades distintas de mão de obra, insumos e categorias profissionais, sem afastar o interregno mínimo aplicável a cada parcela. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1689",
+      "revision": 1,
+      "prompt": "Em pedido de repactuação, instrumento coletivo impõe participação nos lucros e índice obrigatório para insumos do contratado. A Administração:",
+      "options": [
+        { "id": "a", "text": "não se vincula a essas disposições, nos termos das vedações do art. 135." },
+        { "id": "b", "text": "deve incorporá-las integralmente porque toda cláusula coletiva vincula o contrato público." },
+        { "id": "c", "text": "deve substituir o instrumento coletivo por reajuste cambial." },
+        { "id": "d", "text": "pode pagar a participação nos lucros por empenho direto aos sócios." },
+        { "id": "e", "text": "fica vinculada apenas se o contrato tiver menos de um ano." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 135, § 1º, afasta vinculação a matérias não trabalhistas, participação nos lucros ou resultados, direitos não previstos em lei e preços obrigatórios de insumos. O § 2º também veda cláusulas aplicáveis somente a contratos públicos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1690",
+      "revision": 1,
+      "prompt": "Para instruir a repactuação, o contratado deve apresentar:",
+      "options": [
+        { "id": "a", "text": "apenas uma declaração genérica de aumento." },
+        { "id": "b", "text": "solicitação com demonstração analítica, por planilha de custos ou novo acordo, convenção ou sentença normativa." },
+        { "id": "c", "text": "somente o balanço patrimonial integral de todos os sócios." },
+        { "id": "d", "text": "pedido verbal do preposto, sem documentos." },
+        { "id": "e", "text": "prova de força maior, ainda que a causa seja ordinária de mão de obra." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 135, § 6º, exige solicitação do contratado e demonstração analítica da variação, com planilha de custos e formação de preços ou o novo instrumento coletivo ou sentença normativa que a fundamente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1691",
+      "revision": 1,
+      "prompt": "Segundo orientação federal do TCU e da AGU, o contratado prorroga o contrato sem ressalvar repactuação já cabível e só depois a pede. Pode ocorrer:",
+      "options": [
+        { "id": "a", "text": "concessão automática, pois a prorrogação nunca afeta o pedido." },
+        { "id": "b", "text": "transformação do pedido em alteração unilateral." },
+        { "id": "c", "text": "preclusão lógica do direito relativo ao período não ressalvado." },
+        { "id": "d", "text": "nulidade automática de toda a licitação." },
+        { "id": "e", "text": "substituição obrigatória do contratado." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A orientação administrativa federal exige pleito tempestivo antes da prorrogação sem ressalva ou do encerramento, sob pena de preclusão lógica. É interpretação TCU/AGU, não prazo decadencial literalmente escrito no art. 135. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1692",
+      "revision": 1,
+      "prompt": "Pode ser registrado por simples apostila, sem termo aditivo:",
+      "options": [
+        { "id": "a", "text": "acréscimo quantitativo de 20% do objeto." },
+        { "id": "b", "text": "mudança do regime de execução da obra." },
+        { "id": "c", "text": "substituição da garantia contratual." },
+        { "id": "d", "text": "reajuste previsto no contrato ou alteração da denominação social do contratado." },
+        { "id": "e", "text": "recomposição extraordinária por força maior." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 136 permite apostila para registros sem alteração contratual, incluindo reajuste ou repactuação já previstos, efeitos financeiros de pagamento, mudança de razão ou denominação social e empenho de dotações. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1693",
+      "revision": 1,
+      "prompt": "A distinção correta entre apostila e termo aditivo é:",
+      "options": [
+        { "id": "a", "text": "apostila serve para qualquer modificação do objeto; aditivo apenas para empenho." },
+        { "id": "b", "text": "os instrumentos são sempre intercambiáveis." },
+        { "id": "c", "text": "apostila exige acordo bilateral; aditivo é sempre unilateral." },
+        { "id": "d", "text": "revisão extraordinária e alteração quantitativa são feitas por apostila." },
+        { "id": "e", "text": "apostila registra fatos sem alterar o contrato; modificações contratuais propriamente ditas exigem aditivo." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 136 reserva a apostila aos registros que não caracterizam alteração contratual. Alterações qualitativas, quantitativas, de garantia, regime, pagamento ou recomposição extraordinária demandam termo aditivo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1694",
+      "revision": 1,
+      "prompt": "O fiscal registra defeito, determina correção dentro de sua competência e comunica risco mais amplo ao superior. O contratado alega que a ordem do fiscal o libera de responsabilidade. Está correto afirmar que:",
+      "options": [
+        { "id": "a", "text": "o fiscal agiu conforme suas atribuições, e sua atuação não exclui a responsabilidade do contratado pela execução e pelos danos." },
+        { "id": "b", "text": "o fiscal não poderia registrar ocorrências nem determinar correções." },
+        { "id": "c", "text": "a comunicação ao superior transfere o contrato ao controle interno." },
+        { "id": "d", "text": "o contratado só responde se não houver fiscal designado." },
+        { "id": "e", "text": "qualquer ordem de correção converte o fiscal em preposto." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Os arts. 117, 119 e 120 combinam fiscalização ativa com responsabilidade própria do contratado. Registrar, determinar regularização e escalar decisões não transforma a Administração em executora nem exonera vícios e danos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1695",
+      "revision": 1,
+      "prompt": "Contrato comum de serviço tem valor inicial atualizado de R$ 2.000.000,00. Já houve supressão unilateral de R$ 300.000,00 e a Administração pretende acréscimo de R$ 450.000,00. Conforme a orientação de cálculo isolado:",
+      "options": [
+        { "id": "a", "text": "o acréscimo é vedado porque deve ser compensado com a supressão." },
+        { "id": "b", "text": "ambos permanecem dentro dos respectivos limites de R$ 500.000,00, sem compensação entre si." },
+        { "id": "c", "text": "o limite de cada movimento é R$ 200.000,00." },
+        { "id": "d", "text": "o acréscimo pode chegar a R$ 1.000.000,00 por se tratar de qualquer serviço." },
+        { "id": "e", "text": "o cálculo deve usar somente o saldo de R$ 1.700.000,00." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O limite geral é 25% do valor inicial atualizado, ou R$ 500.000,00 para cada conjunto. Segundo o TCU, acréscimos e supressões são verificados isoladamente, sem compensação; R$ 450.000,00 e R$ 300.000,00 estão abaixo do limite. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1696",
+      "revision": 1,
+      "prompt": "Assinale a alternativa que distingue corretamente vício do objeto e dano decorrente da execução.",
+      "options": [
+        { "id": "a", "text": "Vício só pode ser corrigido pela Administração, e dano só pelo fiscal." },
+        { "id": "b", "text": "A existência de fiscalização elimina ambos." },
+        { "id": "c", "text": "O contratado corrige o objeto defeituoso às próprias expensas e também responde por danos diretos à Administração ou a terceiros." },
+        { "id": "d", "text": "A correção do objeto substitui necessariamente toda indenização por dano." },
+        { "id": "e", "text": "O dano a terceiro nunca se relaciona à execução contratual." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 119 disciplina a correção material do objeto viciado às expensas do contratado; o art. 120 trata dos danos diretos à Administração ou a terceiros. As responsabilidades podem coexistir e não são afastadas pela fiscalização. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1697",
+      "revision": 1,
+      "prompt": "Circunstância superveniente torna necessária a mudança da forma de pagamento. A alteração:",
+      "options": [
+        { "id": "a", "text": "pode ser imposta sem concordância e sem preservar o valor." },
+        { "id": "b", "text": "permite antecipar qualquer valor sem contraprestação." },
+        { "id": "c", "text": "é proibida mesmo por acordo." },
+        { "id": "d", "text": "pode ocorrer por acordo, mantido o valor inicial atualizado e vedada antecipação sem contraprestação, salvo hipótese legal." },
+        { "id": "e", "text": "deve ser feita por simples empenho, sem aditivo." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 124, II, c, admite alteração consensual da forma de pagamento por circunstância superveniente, preservando o valor inicial atualizado e vedando antecipação sem contraprestação, ressalvada a disciplina legal específica. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1698",
+      "revision": 1,
+      "prompt": "Na contratação integrada, evento superveniente foi expressamente alocado pela matriz de riscos à Administração e elevou os custos. A Lei:",
+      "options": [
+        { "id": "a", "text": "proíbe qualquer alteração porque a integrada transfere todos os riscos ao contratado." },
+        { "id": "b", "text": "autoriza aumento sem prova do evento ou do impacto." },
+        { "id": "c", "text": "obriga a transfigurar o objeto para compensar o custo." },
+        { "id": "d", "text": "trata o evento obrigatoriamente como erro de projeto do contratado." },
+        { "id": "e", "text": "admite alteração do valor nessa exceção, conforme a alocação contratual e a demonstração cabível." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 133, IV, excepciona a vedação de alterar valores na integrada e semi-integrada quando ocorre evento superveniente alocado na matriz como responsabilidade da Administração. A matriz deve ser respeitada e o impacto demonstrado. Fonte: questão autoral baseada em referências do conteúdo."
+    }
+  ]
+}
