@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q2079",
+      "revision": 1,
+      "prompt": "Quanto ao âmbito normativo estudado, é correto afirmar que a IN SEGES/MP nº 5/2017",
+      "options": [
+        { "id": "A", "text": "é norma geral nacional aplicável automaticamente a todos os entes federativos." },
+        { "id": "B", "text": "disciplina contratações federais abrangidas por seu art. 1º e não vincula automaticamente o TCE-MA." },
+        { "id": "C", "text": "prevalece sobre a Lei nº 14.133/2021 quando houver incompatibilidade." },
+        { "id": "D", "text": "foi integralmente revogada com o fim da vigência da Lei nº 8.666/1993." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A IN nº 5/2017 é ato infralegal federal. Ela pode servir de referência técnica fora desse âmbito, mas sua incidência obrigatória sobre o TCE-MA dependeria de fundamento estadual ou interno competente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2080",
+      "revision": 1,
+      "prompt": "Nas contratações federais de serviços submetidas à Lei nº 14.133/2021, a IN SEGES/ME nº 98/2022 autorizou a aplicação da IN nº 5/2017",
+      "options": [
+        { "id": "A", "text": "no que couber, com compatibilização das regras antigas com a nova lei." },
+        { "id": "B", "text": "somente aos contratos celebrados antes de 2021." },
+        { "id": "C", "text": "integralmente, inclusive quando suas remissões contrariarem a nova lei." },
+        { "id": "D", "text": "apenas se o contratado renunciar às garantias da nova lei." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão normativa é 'no que couber'. Técnicas operacionais compatíveis podem ser aproveitadas, mas limites e remissões superados da Lei nº 8.666/1993 não substituem o regime da Lei nº 14.133/2021. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2081",
+      "revision": 1,
+      "prompt": "O simples término do prazo de vigência contratual",
+      "options": [
+        { "id": "A", "text": "quita automaticamente obrigações trabalhistas e multas." },
+        { "id": "B", "text": "dispensa o recebimento final quando o serviço for contínuo." },
+        { "id": "C", "text": "pode deixar pendentes recebimentos, acertos financeiros, garantias e atividades de transição." },
+        { "id": "D", "text": "transforma toda garantia retida em receita pública definitiva." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O fim temporal do vínculo não elimina relações materiais remanescentes. A Administração ainda pode precisar receber prestações, conferir obrigações, decidir glosas e sanções, tratar garantias e concluir a transição. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2082",
+      "revision": 1,
+      "prompt": "Assinale a relação correta entre atos de encerramento contratual.",
+      "options": [
+        { "id": "A", "text": "O relatório final substitui o termo de recebimento definitivo." },
+        { "id": "B", "text": "A extinção torna desnecessário qualquer acerto financeiro posterior." },
+        { "id": "C", "text": "O recebimento definitivo libera automaticamente toda garantia." },
+        { "id": "D", "text": "Recebimento, extinção, acerto financeiro, transição e relatório final cumprem funções distintas." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Cada ato possui finalidade própria. O recebimento verifica o objeto, a extinção encerra o vínculo, o acerto liquida valores, a transição protege a continuidade e o relatório consolida a memória da execução. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2083",
+      "revision": 1,
+      "prompt": "No encerramento de contrato com dedicação exclusiva de mão de obra, o art. 64 da IN nº 5/2017 exige que o fiscal administrativo verifique",
+      "options": [
+        { "id": "A", "text": "o pagamento das verbas rescisórias ou a realocação documentada sem interrupção do contrato de trabalho." },
+        { "id": "B", "text": "obrigatoriamente a demissão de todos os empregados." },
+        { "id": "C", "text": "a contratação dos mesmos trabalhadores pela empresa sucessora." },
+        { "id": "D", "text": "apenas a regularidade fiscal geral da empresa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quitação rescisória e realocação regular são alternativas previstas no art. 64. A segunda exige continuidade do vínculo em outra atividade de prestação de serviços. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2084",
+      "revision": 1,
+      "prompt": "Para satisfazer o art. 64 da IN nº 5/2017, a realocação de empregado deve",
+      "options": [
+        { "id": "A", "text": "ser apenas prometida verbalmente pelo preposto." },
+        { "id": "B", "text": "ocorrer exclusivamente na futura contratada do órgão." },
+        { "id": "C", "text": "ser comprovada em outra atividade de serviços, sem interrupção do contrato de trabalho." },
+        { "id": "D", "text": "ser determinada diretamente pelo fiscal ao empregado." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A norma exige documentos que demonstrem a realocação e a continuidade do contrato de trabalho. Promessa genérica ou ingerência do órgão na gestão de pessoal não atende à regra. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2085",
+      "revision": 1,
+      "prompt": "A verificação de quitação das verbas rescisórias ou de realocação, na literalidade do art. 64, cabe ao",
+      "options": [
+        { "id": "A", "text": "fiscal técnico, sem participação da fiscalização administrativa." },
+        { "id": "B", "text": "fiscal administrativo." },
+        { "id": "C", "text": "empregado escolhido pela contratada." },
+        { "id": "D", "text": "setor de pagamentos, exclusivamente." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 64 atribui expressamente a conferência ao fiscal administrativo, pois se trata de controle de obrigações trabalhistas no encerramento da dedicação exclusiva. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2086",
+      "revision": 1,
+      "prompt": "Entre os documentos finais indicados pelo Anexo VIII-B para empregados celetistas dispensados está",
+      "options": [
+        { "id": "A", "text": "apenas uma declaração unilateral de inexistência de débitos." },
+        { "id": "B", "text": "a proposta comercial apresentada na licitação." },
+        { "id": "C", "text": "o balanço patrimonial da empresa sucessora." },
+        { "id": "D", "text": "o termo rescisório, as guias pertinentes, o extrato do FGTS e o exame demissional." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Anexo VIII-B detalha termos de rescisão, guias previdenciárias e de FGTS, extratos dos depósitos nas contas individuais do FGTS e exames médicos demissionais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2087",
+      "revision": 1,
+      "prompt": "Pela regra literal do Anexo VIII-B, a Administração analisa a documentação trabalhista final em até",
+      "options": [
+        { "id": "A", "text": "30 dias do recebimento, prorrogáveis justificadamente por mais 30 dias." },
+        { "id": "B", "text": "5 dias, sem possibilidade de prorrogação." },
+        { "id": "C", "text": "15 dias úteis, prorrogáveis automaticamente." },
+        { "id": "D", "text": "120 dias contados da extinção." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O prazo contratual rege a entrega dos documentos. Recebida a documentação, o Anexo VIII-B prevê análise em 30 dias, prorrogável por mais 30 mediante justificativa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2088",
+      "revision": 1,
+      "prompt": "Quanto aos encargos resultantes da execução contratual, a Lei nº 14.133/2021 estabelece como regra que",
+      "options": [
+        { "id": "A", "text": "a Administração e o contratado são sempre responsáveis em partes iguais." },
+        { "id": "B", "text": "os empregados respondem pelos encargos previdenciários." },
+        { "id": "C", "text": "somente o contratado responde pelos encargos trabalhistas, previdenciários, fiscais e comerciais." },
+        { "id": "D", "text": "o fiscal assume os encargos ao conferir documentos." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 121 mantém no contratado a responsabilidade primária pelos encargos. A fiscalização não transforma a Administração em empregadora nem transfere automaticamente essas obrigações. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2089",
+      "revision": 1,
+      "prompt": "Nos serviços contínuos com dedicação exclusiva, a responsabilidade da Administração por encargos depende",
+      "options": [
+        { "id": "A", "text": "apenas da existência de inadimplemento da contratada." },
+        { "id": "B", "text": "de falha comprovada na fiscalização, sendo solidária para encargos previdenciários e subsidiária para trabalhistas." },
+        { "id": "C", "text": "de pedido informal do empregado ao fiscal." },
+        { "id": "D", "text": "da duração superior a doze meses." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 121, § 2º, exige falha comprovada na fiscalização e distingue responsabilidade solidária previdenciária de responsabilidade subsidiária trabalhista. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2090",
+      "revision": 1,
+      "prompt": "Durante o fechamento trabalhista, o órgão contratante deve evitar",
+      "options": [
+        { "id": "A", "text": "solicitar documentos previstos no contrato." },
+        { "id": "B", "text": "registrar pendências no processo." },
+        { "id": "C", "text": "conferir a continuidade do vínculo na realocação." },
+        { "id": "D", "text": "dirigir empregados, escolher quem será realocado ou negociar rescisões em lugar da empregadora." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Fiscalizar não significa gerir a força de trabalho da contratada. Ordens de pessoal, seleção para realocação e negociação rescisória permanecem com a empregadora, ressalvadas medidas legais de tutela. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2091",
+      "revision": 1,
+      "prompt": "Até a contratada comprovar quitação ou realocação, o art. 65 da IN nº 5/2017 determina a retenção",
+      "options": [
+        { "id": "A", "text": "da garantia com cobertura pertinente e de valor da fatura proporcional ao inadimplemento." },
+        { "id": "B", "text": "de todos os créditos da empresa, sem limite." },
+        { "id": "C", "text": "apenas da certidão fiscal, sem efeito financeiro." },
+        { "id": "D", "text": "da folha salarial de empregados alocados em outros contratos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 65 combina retenção da garantia coberta para inadimplemento trabalhista e previdenciário com retenção proporcional da nota fiscal ou fatura até a regularização. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2092",
+      "revision": 1,
+      "prompt": "A retenção da nota fiscal ou fatura prevista no art. 65 deve corresponder",
+      "options": [
+        { "id": "A", "text": "sempre ao valor integral da última fatura." },
+        { "id": "B", "text": "ao dobro da garantia contratual." },
+        { "id": "C", "text": "ao valor proporcional ao inadimplemento identificado." },
+        { "id": "D", "text": "a percentual fixado livremente pelo fiscal." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A proporcionalidade é expressa no art. 65, II. A retenção deve guardar relação com a obrigação não comprovada e não autoriza bloquear toda a fatura sem cálculo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2093",
+      "revision": 1,
+      "prompt": "A garantia mencionada no art. 65 da IN nº 5/2017 é aquela",
+      "options": [
+        { "id": "A", "text": "prestada pelo empregado em favor da contratada." },
+        { "id": "B", "text": "contratual, com cobertura para descumprimento de obrigações trabalhistas e previdenciárias." },
+        { "id": "C", "text": "constituída automaticamente pela última fatura." },
+        { "id": "D", "text": "destinada exclusivamente a tributos municipais." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A retenção alcança a garantia contratual prestada com a cobertura pertinente. Sua execução deve respeitar a legislação, o instrumento e os prejuízos efetivamente abrangidos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2094",
+      "revision": 1,
+      "prompt": "Uma empresa deixou de comprovar verba rescisória estimada em R$ 20 mil, e sua última fatura é de R$ 100 mil. Sem outro fundamento, a sistemática do art. 65 recomenda",
+      "options": [
+        { "id": "A", "text": "reter automaticamente os R$ 100 mil." },
+        { "id": "B", "text": "pagar tudo e ignorar a pendência." },
+        { "id": "C", "text": "aplicar multa de R$ 100 mil sem processo." },
+        { "id": "D", "text": "individualizar a obrigação e reter valor proporcional, sem bloqueio indiscriminado." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A fatura só pode ser retida proporcionalmente ao inadimplemento trabalhista demonstrado. Outros efeitos, como multa ou dano, exigem pressupostos e procedimentos próprios. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2095",
+      "revision": 1,
+      "prompt": "Se a contratada não quitar as obrigações em 15 dias na hipótese de retenção proporcional da fatura, a IN nº 5/2017 prevê que a contratante",
+      "options": [
+        { "id": "A", "text": "poderá pagar diretamente os empregados participantes da execução." },
+        { "id": "B", "text": "deverá pagar automaticamente toda a folha da empresa." },
+        { "id": "C", "text": "deverá devolver imediatamente a garantia." },
+        { "id": "D", "text": "não poderá mais adotar providência trabalhista." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O parágrafo único do art. 65 usa o verbo 'poderá'. O pagamento direto após 15 dias é faculdade destinada aos empregados que participaram dos serviços, não consequência automática e ilimitada. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2096",
+      "revision": 1,
+      "prompt": "Sob a Lei nº 14.133/2021, o pagamento direto de verba trabalhista inadimplida",
+      "options": [
+        { "id": "A", "text": "é acrescido ao preço contratual, sem desconto." },
+        { "id": "B", "text": "alcança qualquer empregado da empresa, mesmo alheio ao contrato." },
+        { "id": "C", "text": "é deduzido do pagamento devido ao contratado e deve se limitar às obrigações identificadas." },
+        { "id": "D", "text": "dispensa documentação e previsão no edital ou contrato." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 121, § 3º, IV, permite pagar diretamente as verbas inadimplidas e deduzi-las do crédito do contratado. A medida deve ser documentada e vinculada aos trabalhadores e obrigações do ajuste. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2097",
+      "revision": 1,
+      "prompt": "As medidas trabalhistas do art. 121, § 3º, da Lei nº 14.133/2021, como conta vinculada e pagamento direto, dependem",
+      "options": [
+        { "id": "A", "text": "de ordem verbal do fiscal." },
+        { "id": "B", "text": "de disposição no edital ou no contrato." },
+        { "id": "C", "text": "apenas de autorização do sindicato." },
+        { "id": "D", "text": "de sentença trabalhista transitada em julgado em todos os casos." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do § 3º exige disposição no edital ou contrato para as medidas de garantia das obrigações trabalhistas. A atuação não pode ser improvisada somente no encerramento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2098",
+      "revision": 1,
+      "prompt": "O pagamento trabalhista direto pela Administração deve ser compreendido como",
+      "options": [
+        { "id": "A", "text": "substituição permanente da folha salarial da contratada." },
+        { "id": "B", "text": "reconhecimento automático de vínculo empregatício com o órgão." },
+        { "id": "C", "text": "benefício adicional sem repercussão no crédito contratual." },
+        { "id": "D", "text": "medida excepcional de tutela, sem afastar a apuração contra a empregadora." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O pagamento direto protege trabalhadores diante de inadimplemento identificado, mas não converte o órgão em gestor ordinário da folha nem exonera a contratada de responsabilidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2099",
+      "revision": 1,
+      "prompt": "A glosa distingue-se da retenção trabalhista porque a glosa",
+      "options": [
+        { "id": "A", "text": "ajusta o valor à prestação ausente ou desconforme, enquanto a retenção resguarda obrigação trabalhista não comprovada." },
+        { "id": "B", "text": "é sempre uma sanção administrativa." },
+        { "id": "C", "text": "substitui o processo de aplicação de multa." },
+        { "id": "D", "text": "serve exclusivamente para recolher tributos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A glosa dimensiona o pagamento ao que foi efetivamente prestado. A retenção trabalhista preserva recursos diante de obrigação pendente; multa e retenção tributária possuem finalidades distintas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2100",
+      "revision": 1,
+      "prompt": "A conta vinculada utilizada em contratos com dedicação exclusiva",
+      "options": [
+        { "id": "A", "text": "é idêntica à multa contratual." },
+        { "id": "B", "text": "elimina a responsabilidade da contratada pelas verbas trabalhistas." },
+        { "id": "C", "text": "provisiona parcelas trabalhistas em conta bloqueada durante a execução." },
+        { "id": "D", "text": "só pode ser criada depois da extinção." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Conta vinculada é mecanismo preventivo de provisionamento, previsto no art. 121, § 3º, III. Ela não se confunde com glosa, multa ou retenção final da fatura. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2101",
+      "revision": 1,
+      "prompt": "Glosa, retenção trabalhista, multa e retenção por dano",
+      "options": [
+        { "id": "A", "text": "jamais podem coexistir no mesmo contrato." },
+        { "id": "B", "text": "podem coexistir se cada pressuposto estiver comprovado e não houver cobrança duplicada pelo mesmo efeito." },
+        { "id": "C", "text": "são nomes diferentes para o mesmo instituto." },
+        { "id": "D", "text": "dispensam motivação quando adotadas no encerramento." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os instrumentos têm fundamentos e finalidades diferentes. Sua coexistência é possível, mas exige individualização dos fatos e valores para evitar bis in idem ou retenção excessiva. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2102",
+      "revision": 1,
+      "prompt": "Nos termos do art. 66 da IN nº 5/2017, diante de multa devida pela contratada, o órgão poderá",
+      "options": [
+        { "id": "A", "text": "reter a garantia para executá-la conforme a legislação aplicável." },
+        { "id": "B", "text": "confiscar bens dos sócios sem processo." },
+        { "id": "C", "text": "transformar a glosa em multa sem motivação." },
+        { "id": "D", "text": "reter créditos sem qualquer limite, mesmo após o pagamento da multa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 66, I, permite reter a garantia para execução em razão de multa devida, sempre conforme a cobertura e o procedimento previstos na legislação e no contrato. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2103",
+      "revision": 1,
+      "prompt": "Quando houver necessidade de ressarcir prejuízo causado à Administração, o art. 66 permite",
+      "options": [
+        { "id": "A", "text": "reter salários dos empregados da contratada." },
+        { "id": "B", "text": "dispensar a prova do prejuízo." },
+        { "id": "C", "text": "aplicar automaticamente declaração de inidoneidade." },
+        { "id": "D", "text": "reter créditos contratuais existentes em favor da contratada, observados os limites cabíveis." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A retenção de créditos pode resguardar o ressarcimento, mas depende de prejuízo apurado e não deve exceder danos e multas constituídos segundo o regime aplicável. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2104",
+      "revision": 1,
+      "prompt": "Se a multa aplicada e as indenizações cabíveis superarem o pagamento eventualmente devido pela Administração, a Lei nº 14.133/2021 prevê que, além da perda desse valor, a diferença",
+      "options": [
+        { "id": "A", "text": "seja automaticamente perdoada." },
+        { "id": "B", "text": "seja cobrada dos empregados." },
+        { "id": "C", "text": "seja descontada da garantia prestada ou cobrada judicialmente." },
+        { "id": "D", "text": "seja convertida em prorrogação contratual." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 156, § 8º, prevê perda do pagamento devido, desconto da diferença na garantia e cobrança judicial. Isso pressupõe multa aplicada e indenizações cabíveis, não apropriação sem constituição do débito. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2105",
+      "revision": 1,
+      "prompt": "Entre as possíveis consequências da extinção unilateral previstas no art. 139 da Lei nº 14.133/2021 está",
+      "options": [
+        { "id": "A", "text": "a execução da garantia para prejuízos, multas e verbas trabalhistas cabíveis." },
+        { "id": "B", "text": "a transferência automática de toda dívida privada ao órgão." },
+        { "id": "C", "text": "a vedação absoluta à continuidade do serviço." },
+        { "id": "D", "text": "a liberação obrigatória de todos os créditos antes da apuração." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 139 admite execução da garantia para ressarcimento, verbas trabalhistas, fundiárias e previdenciárias quando cabível, multas e assunção pela seguradora, além de outras medidas previstas no dispositivo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2106",
+      "revision": 1,
+      "prompt": "Na apuração de descumprimento que possa atingir uma garantia contratual, é correto",
+      "options": [
+        { "id": "A", "text": "reter créditos em valor ilimitado para criar margem de segurança." },
+        { "id": "B", "text": "notificar o emitente da garantia no início do processo e limitar créditos aos prejuízos e multas aplicados." },
+        { "id": "C", "text": "executar a garantia antes de identificar sua cobertura." },
+        { "id": "D", "text": "dispensar o emitente de qualquer ciência." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 137, § 4º, exige notificação dos emitentes das garantias sobre o início do processo. O art. 139, IV, limita a retenção de créditos aos prejuízos e multas aplicados. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2107",
+      "revision": 1,
+      "prompt": "A retenção de garantia ou de crédito por multa ou dano",
+      "options": [
+        { "id": "A", "text": "substitui contraditório e ampla defesa." },
+        { "id": "B", "text": "pode se basear apenas em suspeita não documentada." },
+        { "id": "C", "text": "torna desnecessária a prova do prejuízo." },
+        { "id": "D", "text": "não afasta motivação, procedimento cabível e demonstração do valor devido." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Medidas patrimoniais não autorizam sanção ou ressarcimento sumário. A Administração deve provar e quantificar o fundamento, motivar a decisão e respeitar o devido processo aplicável. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2108",
+      "revision": 1,
+      "prompt": "Identificada infração contratual, o art. 68 da IN nº 5/2017 orienta o órgão a",
+      "options": [
+        { "id": "A", "text": "autuar procedimento administrativo específico para eventual sanção e extinção, se for o caso." },
+        { "id": "B", "text": "aplicar imediatamente a sanção mais grave." },
+        { "id": "C", "text": "substituir o processo por anotação informal do fiscal." },
+        { "id": "D", "text": "aguardar necessariamente o fim da vigência." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 68 exige procedimento específico, conforme edital, legislação e normativo interno aplicável. A extinção aparece como consequência possível, não automática. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2109",
+      "revision": 1,
+      "prompt": "O atraso na apresentação da garantia contratual",
+      "options": [
+        { "id": "A", "text": "nunca constitui infração." },
+        { "id": "B", "text": "é citado pelo art. 68 como ocorrência que pode ensejar apuração em procedimento específico." },
+        { "id": "C", "text": "gera automaticamente declaração de inidoneidade." },
+        { "id": "D", "text": "só pode ser tratado como glosa de medição." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 68 menciona expressamente a inobservância do prazo fixado para apresentação da garantia. A resposta depende da instrução, do enquadramento e da dosimetria, não de automatismo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2110",
+      "revision": 1,
+      "prompt": "O registro de uma ocorrência pelo fiscal",
+      "options": [
+        { "id": "A", "text": "equivale à decisão definitiva de aplicação de multa." },
+        { "id": "B", "text": "extingue o contrato por si só." },
+        { "id": "C", "text": "é evidência inicial que deve instruir o procedimento, sem ser sanção pronta." },
+        { "id": "D", "text": "dispensa o enquadramento da conduta." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O fiscal registra fatos e evidências. A responsabilização exige enquadramento, defesa, avaliação das circunstâncias e decisão da autoridade competente no rito cabível. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2111",
+      "revision": 1,
+      "prompt": "São sanções administrativas previstas no art. 156 da Lei nº 14.133/2021",
+      "options": [
+        { "id": "A", "text": "glosa, retenção, advertência e rescisão." },
+        { "id": "B", "text": "advertência, multa, suspensão temporária e prisão administrativa." },
+        { "id": "C", "text": "multa, retenção tributária, impedimento e indenização." },
+        { "id": "D", "text": "advertência, multa, impedimento de licitar e contratar e declaração de inidoneidade." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A nova lei enumera quatro sanções: advertência, multa, impedimento e declaração de inidoneidade. Glosa, retenção, extinção e reparação do dano têm naturezas próprias. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2112",
+      "revision": 1,
+      "prompt": "Na leitura atualizada do regime sancionador, deve-se reconhecer que",
+      "options": [
+        { "id": "A", "text": "a antiga suspensão temporária não é categoria geral nova, e a sanção não exclui reparação integral do dano." },
+        { "id": "B", "text": "a aplicação de multa elimina qualquer dever de indenizar." },
+        { "id": "C", "text": "toda infração gera necessariamente extinção." },
+        { "id": "D", "text": "a glosa substitui as sanções da Lei nº 14.133/2021." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 14.133/2021 usa a categoria de impedimento, e não se deve transplantar a antiga suspensão temporária como sanção geral nova. O art. 156, § 9º, preserva a reparação integral do dano. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2113",
+      "revision": 1,
+      "prompt": "Segundo o art. 69 da IN nº 5/2017, as atividades de transição contratual devem ser promovidas",
+      "options": [
+        { "id": "A", "text": "exclusivamente pela nova contratada." },
+        { "id": "B", "text": "pelos fiscais, incluindo continuidade, transferência de conhecimento e devolução de recursos, no que couber." },
+        { "id": "C", "text": "somente pelo setor financeiro." },
+        { "id": "D", "text": "apenas após todos os processos sancionadores terminarem." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 69 atribui a transição aos fiscais e enumera adequação de recursos, transferência final de conhecimento, devolução de equipamentos, espaços, crachás e outras providências aplicáveis. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2114",
+      "revision": 1,
+      "prompt": "Em uma transição contratual de serviço informatizado, constitui providência adequada",
+      "options": [
+        { "id": "A", "text": "manter indefinidamente todas as credenciais da contratada." },
+        { "id": "B", "text": "eliminar o histórico de ocorrências para proteger a empresa." },
+        { "id": "C", "text": "transferir manuais e inventários, devolver recursos e revogar acessos físicos e lógicos." },
+        { "id": "D", "text": "dispensar responsáveis, prazos e evidências." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A transição protege continuidade, segurança e memória operacional. Documentação, inventários, devoluções e revogação de acessos devem ser planejados e comprovados conforme o objeto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2115",
+      "revision": 1,
+      "prompt": "As atividades de transição contratual",
+      "options": [
+        { "id": "A", "text": "prorrogam automaticamente a vigência por 90 dias." },
+        { "id": "B", "text": "permitem exigir prestação gratuita após o fim do contrato." },
+        { "id": "C", "text": "obrigam a sucessora a contratar todos os empregados anteriores." },
+        { "id": "D", "text": "não autorizam prorrogação informal, prestação gratuita nem imposição de empregados à sucessora." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Transição é atividade contratual de continuidade e transferência, não mecanismo para prolongar informalmente obrigações ou interferir na gestão de pessoal das empresas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2116",
+      "revision": 1,
+      "prompt": "O relatório final previsto no art. 70 deve ser elaborado",
+      "options": [
+        { "id": "A", "text": "pelos fiscais após a conclusão da prestação, para informar futuras contratações." },
+        { "id": "B", "text": "pela licitante antes da apresentação da proposta." },
+        { "id": "C", "text": "somente pelo controle externo, após cinco anos." },
+        { "id": "D", "text": "pelo setor financeiro e restrito aos pagamentos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A literalidade do art. 70 atribui o relatório aos fiscais, depois da conclusão da prestação, para registrar ocorrências da execução e servir de fonte às futuras contratações. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2117",
+      "revision": 1,
+      "prompt": "O relatório final da execução",
+      "options": [
+        { "id": "A", "text": "substitui o termo de recebimento e o processo sancionador." },
+        { "id": "B", "text": "consolida resultados, ocorrências e lições, mas não substitui documentos e processos específicos." },
+        { "id": "C", "text": "deve omitir pendências ainda não resolvidas." },
+        { "id": "D", "text": "não pode conter recomendações ao planejamento." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O relatório reúne memória da execução e recomendações, mas não toma o lugar de recebimentos, inventários, documentos trabalhistas ou procedimentos de responsabilização. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2118",
+      "revision": 1,
+      "prompt": "A regra de prorrogação de serviços contínuos por períodos de 12 meses até 60 meses, com 12 meses excepcionais, constante do Anexo IX",
+      "options": [
+        { "id": "A", "text": "é o limite geral dos contratos novos sob a Lei nº 14.133/2021." },
+        { "id": "B", "text": "foi ampliada para 60 anos pela nova lei." },
+        { "id": "C", "text": "pertence à matriz histórica da Lei nº 8.666/1993 e não rege como limite geral os contratos novos." },
+        { "id": "D", "text": "aplica-se apenas a contratos por escopo." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Anexo IX foi escrito sob o art. 57 da Lei nº 8.666/1993. Para contratos novos, a duração e as prorrogações seguem os arts. 105 a 111 da Lei nº 14.133/2021. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2119",
+      "revision": 1,
+      "prompt": "Pela Lei nº 14.133/2021, serviços e fornecimentos contínuos podem ter",
+      "options": [
+        { "id": "A", "text": "vigência inicial de até 5 anos e prorrogações sucessivas até o máximo de 10 anos, observados os requisitos legais." },
+        { "id": "B", "text": "vigência inicial obrigatória de 12 meses e máximo absoluto de 60 meses." },
+        { "id": "C", "text": "prazo indeterminado em qualquer mercado competitivo." },
+        { "id": "D", "text": "uma única prorrogação de seis meses." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 106 permite prazo inicial de até cinco anos, e o art. 107 admite prorrogações sucessivas, com previsão editalícia e vantagem, até a vigência máxima decenal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2120",
+      "revision": 1,
+      "prompt": "Quanto à prorrogação de serviço contínuo sob a Lei nº 14.133/2021, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "constitui direito subjetivo da contratada." },
+        { "id": "B", "text": "deve repetir obrigatoriamente o período inicial." },
+        { "id": "C", "text": "dispensa decisão administrativa se houver crédito." },
+        { "id": "D", "text": "não é direito subjetivo e pode adotar período diverso, respeitados edital, vantagem e teto legal." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A renovação depende de decisão motivada da Administração e dos requisitos legais. O período prorrogado não precisa reproduzir o originário, desde que permaneça dentro da disciplina aplicável. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2121",
+      "revision": 1,
+      "prompt": "A instrução de uma prorrogação de serviço contínuo deve demonstrar, entre outros elementos,",
+      "options": [
+        { "id": "A", "text": "somente a vontade da contratada." },
+        { "id": "B", "text": "natureza continuada, execução regular, interesse, vantagem, manifestação da contratada e manutenção da habilitação." },
+        { "id": "C", "text": "apenas o menor preço encontrado na internet." },
+        { "id": "D", "text": "necessariamente a troca da garantia e do preposto." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esses elementos do item 3 do Anexo IX permanecem úteis quando compatíveis com a nova lei e permitem decisão motivada sobre continuidade, desempenho, vantagem e capacidade da empresa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2122",
+      "revision": 1,
+      "prompt": "Antes de formalizar ou prorrogar a vigência, o art. 91, § 4º, exige, entre outras providências,",
+      "options": [
+        { "id": "A", "text": "verificar regularidade fiscal, consultar Ceis e Cnep e juntar as certidões indicadas ao processo." },
+        { "id": "B", "text": "consultar apenas a própria contratada." },
+        { "id": "C", "text": "dispensar certidão de débitos trabalhistas." },
+        { "id": "D", "text": "publicar nova licitação antes de qualquer análise." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei exige regularidade fiscal, consultas ao Ceis e ao Cnep e emissão das certidões negativas de inidoneidade, impedimento e débitos trabalhistas, com juntada aos autos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2123",
+      "revision": 1,
+      "prompt": "Um contrato de serviço contínuo expirou sem formalização de aditivo. A Administração pretende prorrogá-lo retroativamente. A solução correta é reconhecer que",
+      "options": [
+        { "id": "A", "text": "qualquer contrato pode ser reanimado em até 30 dias." },
+        { "id": "B", "text": "basta a concordância posterior da contratada." },
+        { "id": "C", "text": "a prorrogação deveria ter sido formalizada durante a vigência; aditivo retroativo não ressuscita contrato expirado." },
+        { "id": "D", "text": "o relatório final funciona como aditivo." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Prorrogação de contrato contínuo exige formalização antes do termo final. Depois de expirada a vigência, não há vínculo a renovar por aditivo retroativo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2124",
+      "revision": 1,
+      "prompt": "No contrato por escopo sob a Lei nº 14.133/2021, se o objeto não for concluído no período firmado, a vigência",
+      "options": [
+        { "id": "A", "text": "termina necessariamente, ainda que o objeto esteja incompleto." },
+        { "id": "B", "text": "é automaticamente prorrogada, sem afastar consequências quando houver culpa do contratado." },
+        { "id": "C", "text": "torna-se indeterminada em qualquer situação." },
+        { "id": "D", "text": "só continua por decisão judicial." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 111 prevê prorrogação automática da vigência para conclusão do escopo. Isso substitui, no regime atual, a leitura histórica de prorrogação meramente excepcional do Anexo IX. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2125",
+      "revision": 1,
+      "prompt": "Quando a não conclusão de contrato por escopo decorrer de culpa do contratado, a prorrogação automática",
+      "options": [
+        { "id": "A", "text": "elimina a mora e impede sanções." },
+        { "id": "B", "text": "obriga a Administração a manter o contrato em qualquer caso." },
+        { "id": "C", "text": "converte o contrato em serviço contínuo." },
+        { "id": "D", "text": "não impede constituição em mora, sanções e eventual opção pela extinção." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O parágrafo único do art. 111 preserva a mora e as sanções e permite à Administração optar pela extinção e adotar medidas legais de continuidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2126",
+      "revision": 1,
+      "prompt": "A Lei nº 14.133/2021 permite vigência por prazo indeterminado quando a Administração",
+      "options": [
+        { "id": "A", "text": "for usuária de serviço público oferecido em regime de monopólio e comprovar créditos a cada exercício." },
+        { "id": "B", "text": "contratar qualquer serviço contínuo por menor preço." },
+        { "id": "C", "text": "não elaborar estimativa de consumo." },
+        { "id": "D", "text": "preferir não realizar nova licitação." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 109 contém hipótese específica: serviço público em regime de monopólio, com comprovação anual de créditos orçamentários vinculados à contratação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2127",
+      "revision": 1,
+      "prompt": "Na análise de vantagem para prorrogação, a Administração deve considerar",
+      "options": [
+        { "id": "A", "text": "exclusivamente o menor preço nominal." },
+        { "id": "B", "text": "preço, desempenho, qualidade, riscos, custos de nova contratação e continuidade do serviço." },
+        { "id": "C", "text": "somente o tempo restante da garantia." },
+        { "id": "D", "text": "apenas a manifestação de interesse da contratada." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Vantajosidade é análise global das condições da manutenção do ajuste. Menor preço é relevante, mas desempenho, riscos de transição, custos de substituição e continuidade também podem influir. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2128",
+      "revision": 1,
+      "prompt": "Em serviço com dedicação exclusiva, a pesquisa de preços para prorrogação pode ser dispensada quando",
+      "options": [
+        { "id": "A", "text": "não existir qualquer critério contratual de atualização." },
+        { "id": "B", "text": "a contratada declarar que seu preço é vantajoso." },
+        { "id": "C", "text": "a mão de obra estiver vinculada a instrumento coletivo ou lei e os insumos a índice oficial adequado, conforme o contrato." },
+        { "id": "D", "text": "o contrato estiver inadimplido." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Anexo IX e a orientação do TCU admitem presunção de vantagem quando os componentes relevantes seguem referenciais objetivos adequados. Sem instrumento coletivo aplicável ou índice representativo, a pesquisa volta a ser necessária. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2129",
+      "revision": 1,
+      "prompt": "Antes de prorrogar contrato sem pagamento pelo fato gerador, a Administração deve atentar para",
+      "options": [
+        { "id": "A", "text": "a inclusão permanente de todos os custos do primeiro ano." },
+        { "id": "B", "text": "a eliminação de custos não renováveis já amortizados e o pedido ou ressalva de repactuação já exigível." },
+        { "id": "C", "text": "a renúncia obrigatória da contratada a qualquer repactuação futura." },
+        { "id": "D", "text": "a proibição de negociar valores." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Custos pagos ou amortizados não devem ser renovados indevidamente. A orientação administrativa também exige que repactuação exigível seja pleiteada ou ressalvada antes da prorrogação, para evitar preclusão lógica. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2130",
+      "revision": 1,
+      "prompt": "Para contratos atuais, o Anexo X da IN nº 5/2017 deve ser lido com base",
+      "options": [
+        { "id": "A", "text": "exclusivamente no art. 65 da Lei nº 8.666/1993." },
+        { "id": "B", "text": "nos arts. 124 a 136 da Lei nº 14.133/2021, distinguindo alterações unilaterais e consensuais." },
+        { "id": "C", "text": "apenas nas regras de pagamento da IN." },
+        { "id": "D", "text": "em decisão livre do fiscal, sem hipótese legal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Anexo X contém remissão histórica à Lei nº 8.666/1993. No regime novo, a base são os arts. 124 a 136, preservados os checklists operacionais compatíveis. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2131",
+      "revision": 1,
+      "prompt": "Nas alterações unilaterais da Lei nº 14.133/2021, o contratado deve aceitar, nas mesmas condições,",
+      "options": [
+        { "id": "A", "text": "qualquer percentual, desde que não haja nova licitação." },
+        { "id": "B", "text": "até 50% de acréscimo ou supressão em todo contrato." },
+        { "id": "C", "text": "até 25% do valor inicial atualizado; em reforma, 50% somente para acréscimos, sem transfigurar o objeto." },
+        { "id": "D", "text": "apenas supressões, nunca acréscimos." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 125 fixa o limite geral de 25% para acréscimos e supressões e eleva a 50% apenas os acréscimos em reforma de edifício ou equipamento. O art. 126 proíbe transfigurar o objeto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2132",
+      "revision": 1,
+      "prompt": "Se uma alteração unilateral aumentar os encargos do contratado, a Administração deve",
+      "options": [
+        { "id": "A", "text": "restabelecer o equilíbrio no mesmo termo aditivo e, em regra, formalizar antes da execução da mudança." },
+        { "id": "B", "text": "aguardar o encerramento para avaliar o equilíbrio." },
+        { "id": "C", "text": "usar sempre apostila, ainda que haja alteração contratual." },
+        { "id": "D", "text": "transferir ao contratado todo custo superveniente." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 130 exige recomposição no mesmo aditivo. O art. 132 condiciona a execução à formalização, salvo antecipação justificada, que deve ser formalizada em até um mês. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2133",
+      "revision": 1,
+      "prompt": "Na instrução de alteração contratual, é correto",
+      "options": [
+        { "id": "A", "text": "usar apostila para qualquer modificação substancial do objeto." },
+        { "id": "B", "text": "dispensar justificativa quando houver concordância da contratada." },
+        { "id": "C", "text": "executar primeiro e documentar sempre ao final." },
+        { "id": "D", "text": "detalhar objeto, mudança, base legal, custos e equilíbrio, usando apostila apenas quando não houver alteração contratual." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O item 2.4 do Anexo X fornece checklist útil. Alterações exigem instrumento e controle jurídico cabíveis; apostila fica reservada aos registros do art. 136 que não caracterizam alteração do contrato. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2134",
+      "revision": 1,
+      "prompt": "O art. 71 da IN nº 5/2017 atribui à SEGES a possibilidade de",
+      "options": [
+        { "id": "A", "text": "desenvolver, propor e implementar modelos, mecanismos, processos e procedimentos para determinadas contratações de serviços." },
+        { "id": "B", "text": "legislar sobre contratos estaduais sem autorização." },
+        { "id": "C", "text": "julgar definitivamente toda sanção aplicada por qualquer ente." },
+        { "id": "D", "text": "dispensar a observância da Lei nº 14.133/2021." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A competência do art. 71 é operacional e normativa dentro do âmbito federal da IN. Ela não transforma a SEGES em órgão legislador ou revisor universal de contratações estaduais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2135",
+      "revision": 1,
+      "prompt": "Em projeto-piloto, o art. 72 permite que a Central de Compras",
+      "options": [
+        { "id": "A", "text": "afaste qualquer lei de licitações por conveniência." },
+        { "id": "B", "text": "afaste ponto incompatível da IN, com justificativa nos autos e respeito à legislação e aos princípios." },
+        { "id": "C", "text": "delegue essa competência automaticamente a qualquer órgão estadual." },
+        { "id": "D", "text": "dispense processo administrativo." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O afastamento é específico para a modelagem do projeto-piloto da Central de Compras, deve ser justificado e não alcança a legislação nem os princípios gerais de licitação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2136",
+      "revision": 1,
+      "prompt": "De acordo com o art. 73 da IN nº 5/2017, os casos omissos são dirimidos",
+      "options": [
+        { "id": "A", "text": "pela empresa contratada." },
+        { "id": "B", "text": "pelo fiscal técnico individualmente." },
+        { "id": "C", "text": "pela SEGES, que pode expedir normas complementares e disponibilizar informações adicionais." },
+        { "id": "D", "text": "exclusivamente pelo Poder Judiciário." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 73 atribui à SEGES a solução das omissões no âmbito da instrução e autoriza normas complementares, especialmente em planejamento, fiscalização, repactuação e valores de referência. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2137",
+      "revision": 1,
+      "prompt": "Sobre a revogação, vigência e transição da IN nº 5/2017, assinale a alternativa correta.",
+      "options": [
+        { "id": "A", "text": "A IN revogou a IN nº 2/2008 e entrou em vigor 120 dias após a publicação; contratos de procedimentos anteriores permanecem na IN nº 2/2008, inclusive nas prorrogações." },
+        { "id": "B", "text": "A IN entrou em vigor na data da assinatura e extinguiu todos os contratos anteriores." },
+        { "id": "C", "text": "A IN nº 7/2018 submeteu retroativamente contratos antigos à IN nº 5/2017." },
+        { "id": "D", "text": "Essa transição regula diretamente a passagem entre as Leis nº 8.666/1993 e nº 14.133/2021." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os arts. 74 e 75 tratam da revogação e da vacatio de 120 dias. A IN nº 7/2018 preservou a IN nº 2/2008 para contratos derivados de procedimentos anteriores, inclusive renovações e prorrogações. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2138",
+      "revision": 1,
+      "prompt": "Ao final de contrato com dedicação exclusiva, parte dos empregados foi realocada, faltou comprovar verbas de outros, dois crachás não foram devolvidos e há multa em apuração. A atuação adequada é",
+      "options": [
+        { "id": "A", "text": "bloquear toda a fatura e aplicar a multa imediatamente." },
+        { "id": "B", "text": "liberar a garantia porque a vigência terminou." },
+        { "id": "C", "text": "considerar tudo resolvido pela realocação parcial." },
+        { "id": "D", "text": "conferir cada empregado, reter proporcionalmente, manter a multa em processo próprio, recolher crachás e registrar tudo no relatório final." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O caso reúne trilhas independentes: conferência trabalhista, retenção proporcional, apuração sancionadora, transição de recursos e memória final. Separá-las evita automatismos e excesso de retenção. Fonte: questão autoral baseada em referências do conteúdo."
+    }
+  ]
+}
