@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1959",
+      "revision": 1,
+      "prompt": "Sob a Lei nº 14.133/2021, a IN SEGES/MP nº 5/2017 é aplicada às contratações federais de serviços",
+      "options": [
+        { "id": "A", "text": "no que couber, com substituição dos fundamentos incompatíveis ou revogados." },
+        { "id": "B", "text": "integralmente, inclusive nas remissões à Lei nº 8.666/1993." },
+        { "id": "C", "text": "somente quando não houver fiscalização administrativa." },
+        { "id": "D", "text": "apenas por decisão do fornecedor contratado." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A IN SEGES/ME nº 98/2022 autorizou a aplicação da IN nº 5/2017 no que couber. Técnicas operacionais compatíveis podem ser preservadas, mas referências e regras incompatíveis com a Lei nº 14.133/2021 devem ser atualizadas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1960",
+      "revision": 1,
+      "prompt": "Quanto ao uso da IN nº 5/2017 e dos Decretos federais nº 11.246/2022 e nº 13.031/2026 pelo TCE-MA, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "todos vinculam automaticamente o Tribunal por tratarem de contratos." },
+        { "id": "B", "text": "é preciso verificar o âmbito e eventual adoção interna, sem impedir seu uso como referência técnica." },
+        { "id": "C", "text": "nenhum deles pode ser consultado fora do Executivo federal." },
+        { "id": "D", "text": "a adoção depende exclusivamente da concordância da contratada." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Esses atos delimitam âmbito federal e não se tornam, por si sós, regulamento interno de um tribunal de contas estadual. Podem orientar tecnicamente, mas a obrigatoriedade local exige fundamento competente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1961",
+      "revision": 1,
+      "prompt": "Segundo o art. 39 da IN nº 5/2017, gestão e fiscalização da execução contratual têm por objetivo principal",
+      "options": [
+        { "id": "A", "text": "substituir o planejamento pela conferência da nota fiscal." },
+        { "id": "B", "text": "limitar o acompanhamento à frequência dos empregados." },
+        { "id": "C", "text": "aferir resultados, acompanhar obrigações e instruir providências para assegurar o contrato." },
+        { "id": "D", "text": "transferir ao contratado a decisão sobre desconformidades." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A gestão e a fiscalização formam conjunto coordenado de ações para aferir resultados, acompanhar regularidade, instruir procedimentos e solucionar problemas do objeto. Não se limitam a documento fiscal ou presença de trabalhadores. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1962",
+      "revision": 1,
+      "prompt": "Na arquitetura da IN nº 5/2017, cabe ao gestor do contrato",
+      "options": [
+        { "id": "A", "text": "executar pessoalmente todas as atividades técnicas e administrativas." },
+        { "id": "B", "text": "representar a empresa contratada perante os empregados." },
+        { "id": "C", "text": "limitar-se a assinar o recebimento definitivo." },
+        { "id": "D", "text": "coordenar as fiscalizações e os atos preparatórios da instrução processual." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O gestor coordena as fiscalizações técnica, administrativa e setorial e prepara a instrução de providências contratuais. Isso não o converte em preposto nem elimina a atuação especializada dos fiscais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1963",
+      "revision": 1,
+      "prompt": "A fiscalização técnica concentra-se em",
+      "options": [
+        { "id": "A", "text": "quantidade, qualidade, tempo, modo e resultados da execução do objeto." },
+        { "id": "B", "text": "decidir definitivamente todas as sanções contratuais." },
+        { "id": "C", "text": "coordenar sozinha a instrução de prorrogações e reequilíbrios." },
+        { "id": "D", "text": "dirigir hierarquicamente os empregados terceirizados." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O fiscal técnico verifica a execução material e os resultados conforme indicadores do contrato. Sanções, procedimentos globais e direção de empregados não constituem seu núcleo funcional. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1964",
+      "revision": 1,
+      "prompt": "No desenho atual do Decreto nº 11.246/2022, a fiscalização administrativa acompanha",
+      "options": [
+        { "id": "A", "text": "apenas a satisfação subjetiva dos usuários." },
+        { "id": "B", "text": "aspectos administrativos, obrigações pertinentes e controles como prazos, revisões e inadimplemento." },
+        { "id": "C", "text": "somente a qualidade física dos materiais empregados." },
+        { "id": "D", "text": "exclusivamente a redação do edital de licitação." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fiscalização administrativa acompanha obrigações previdenciárias, fiscais e trabalhistas e controles relativos a revisões, reajustes, repactuações e inadimplemento, além de apoiar o fluxo administrativo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1965",
+      "revision": 1,
+      "prompt": "A fiscalização setorial é indicada quando",
+      "options": [
+        { "id": "A", "text": "o gestor deseja transferir toda sua responsabilidade." },
+        { "id": "B", "text": "a contratada não possui preposto." },
+        { "id": "C", "text": "a prestação ocorre simultaneamente em setores distintos ou unidades desconcentradas." },
+        { "id": "D", "text": "há apenas uma entrega instantânea em local único." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O fiscal setorial aproxima o acompanhamento técnico ou administrativo dos diferentes locais de execução. Ele não substitui o gestor nem corrige a ausência de preposto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1966",
+      "revision": 1,
+      "prompt": "A fiscalização pelo público usuário",
+      "options": [
+        { "id": "A", "text": "dispensa indicadores objetivos quando a maioria estiver satisfeita." },
+        { "id": "B", "text": "é incompatível com contratos de serviços." },
+        { "id": "C", "text": "substitui o recebimento provisório pelo gestor." },
+        { "id": "D", "text": "produz evidência qualitativa complementar, sem substituir a fiscalização técnica." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A pesquisa de satisfação pode aferir percepção sobre resultados, materiais e procedimentos, mas não sana descumprimento objetivo nem elimina a verificação técnica. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1967",
+      "revision": 1,
+      "prompt": "No modelo federal vigente após o Decreto nº 13.031/2026, os recebimentos provisório e definitivo cabem, respectivamente,",
+      "options": [
+        { "id": "A", "text": "ao fiscal técnico, administrativo ou setorial; e ao gestor, gestor setorial ou comissão." },
+        { "id": "B", "text": "sempre ao preposto; e ao fiscal técnico." },
+        { "id": "C", "text": "ao setor financeiro; e ao público usuário." },
+        { "id": "D", "text": "exclusivamente à autoridade máxima em ambas as etapas." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 25 consolidado do Decreto nº 11.246/2022 atribui o provisório aos fiscais e o definitivo ao gestor, gestor setorial ou comissão designada. As etapas não se confundem. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1968",
+      "revision": 1,
+      "prompt": "As atividades de gestão e fiscalização devem ser realizadas",
+      "options": [
+        { "id": "A", "text": "somente após reclamação do usuário." },
+        { "id": "B", "text": "de forma preventiva, rotineira e sistemática." },
+        { "id": "C", "text": "apenas na proximidade do pagamento." },
+        { "id": "D", "text": "sem registro, para preservar flexibilidade." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A prevenção, a rotina e a sistematicidade permitem detectar e corrigir desvios antes de sua consolidação. Fiscalização apenas reativa ou sem registro contraria esse desenho. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1969",
+      "revision": 1,
+      "prompt": "Sobre o exercício de atividades de gestão e fiscalização por um único agente, assinale a alternativa correta.",
+      "options": [
+        { "id": "A", "text": "É sempre obrigatório em contratos de baixo valor." },
+        { "id": "B", "text": "É sempre proibido, ainda que o objeto seja simples." },
+        { "id": "C", "text": "Pode ocorrer se houver distinção das atividades e se o volume não comprometer o desempenho." },
+        { "id": "D", "text": "Dispensa avaliação de riscos e de capacidade." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A IN e o Decreto admitem equipe ou agente único, desde que as atividades permaneçam distinguíveis e a concentração não prejudique as ações. Não há obrigação nem proibição absoluta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1970",
+      "revision": 1,
+      "prompt": "Na IN nº 5/2017, a indicação de gestor, fiscais e substitutos cabe, em regra,",
+      "options": [
+        { "id": "A", "text": "ao fornecedor vencedor." },
+        { "id": "B", "text": "ao público usuário." },
+        { "id": "C", "text": "à instituição financeira do contrato." },
+        { "id": "D", "text": "aos setores requisitantes, salvo disciplina interna diversa." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 41 atribui a indicação aos setores requisitantes ou à forma definida em normativo próprio. A indicação ainda será seguida de ciência e designação formal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1971",
+      "revision": 1,
+      "prompt": "Antes da formalização do ato de designação, gestores e fiscais devem",
+      "options": [
+        { "id": "A", "text": "ser formalmente cientificados da indicação e de suas atribuições." },
+        { "id": "B", "text": "assinar o contrato em nome da contratada." },
+        { "id": "C", "text": "renunciar ao direito de comunicar limitações." },
+        { "id": "D", "text": "aprovar sozinhos o plano anual de contratações." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A ciência formal prévia permite conhecer o encargo, as atribuições e eventuais limitações antes da designação. Não transfere poderes da contratada nem elimina a comunicação de deficiências. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1972",
+      "revision": 1,
+      "prompt": "Na escolha de gestor ou fiscal, deve-se considerar",
+      "options": [
+        { "id": "A", "text": "apenas a antiguidade no serviço público." },
+        { "id": "B", "text": "compatibilidade do cargo, complexidade, quantidade de contratos e capacidade." },
+        { "id": "C", "text": "somente a preferência pessoal da autoridade." },
+        { "id": "D", "text": "exclusivamente o valor nominal do contrato." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A disciplina exige avaliação conjunta de compatibilidade, complexidade, carga e capacidade. Escolha puramente subjetiva ou baseada em critério isolado não atende ao modelo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1973",
+      "revision": 1,
+      "prompt": "A indicação de um servidor para fiscalizar o contrato",
+      "options": [
+        { "id": "A", "text": "dispensa substituto se o contrato durar menos de um ano." },
+        { "id": "B", "text": "equivale automaticamente à designação formal." },
+        { "id": "C", "text": "não substitui o ato formal de designação pela autoridade competente." },
+        { "id": "D", "text": "pode ser realizada verbalmente pela contratada." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Indicação, ciência e designação são atos distintos. A função decorre do ato formal da autoridade competente, com definição do titular e do substituto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1974",
+      "revision": 1,
+      "prompt": "No Decreto nº 11.246/2022 consolidado, na hipótese de atraso ou falta de indicação, desligamento ou afastamento definitivo, até que a indicação seja providenciada, as atribuições cabem",
+      "options": [
+        { "id": "A", "text": "automaticamente ao preposto." },
+        { "id": "B", "text": "ao licitante que ficou em segundo lugar." },
+        { "id": "C", "text": "ao usuário que apresentou a primeira reclamação." },
+        { "id": "D", "text": "ao responsável pela indicação, salvo previsão interna em contrário." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 6º do art. 8º evita vácuo funcional e, até que a indicação seja providenciada, atribui temporariamente as atividades ao responsável pela indicação, ressalvada norma interna diversa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1975",
+      "revision": 1,
+      "prompt": "O fiscal substituto deve atuar",
+      "options": [
+        { "id": "A", "text": "nas ausências e nos impedimentos eventuais e regulamentares do titular." },
+        { "id": "B", "text": "somente depois da extinção do contrato." },
+        { "id": "C", "text": "como representante da contratada." },
+        { "id": "D", "text": "apenas se houver autorização do público usuário." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A designação de substituto assegura continuidade nas ausências e impedimentos do titular. Ele não representa a empresa e não depende de consulta aos usuários. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1976",
+      "revision": 1,
+      "prompt": "A contratação de terceiro especializado para apoiar a fiscalização",
+      "options": [
+        { "id": "A", "text": "transfere toda a competência decisória ao contratado." },
+        { "id": "B", "text": "pode assistir e subsidiar o fiscal, sem exercer atribuição exclusiva deste." },
+        { "id": "C", "text": "elimina a necessidade de designar fiscal público." },
+        { "id": "D", "text": "dispensa justificativa para a assistência." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O apoio especializado amplia capacidade técnica, mas não terceiriza a função estatal exclusiva. O terceiro assiste e subsidia; o fiscal continua designado e responsável nos limites legais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1977",
+      "revision": 1,
+      "prompt": "Entre os documentos que devem ser disponibilizados aos fiscais, incluem-se",
+      "options": [
+        { "id": "A", "text": "apenas a nota de empenho e a fatura final." },
+        { "id": "B", "text": "somente relatórios produzidos depois da execução." },
+        { "id": "C", "text": "ETP, TR, edital, contrato, proposta, riscos, indicadores e histórico pertinente." },
+        { "id": "D", "text": "documentos escolhidos unilateralmente pelo preposto." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A fiscalização exige acesso às fontes que definem objeto, obrigações, riscos, indicadores e alterações. Entregar apenas documentos financeiros ou posteriores não permite controle preventivo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1978",
+      "revision": 1,
+      "prompt": "O encargo de gestor ou fiscal",
+      "options": [
+        { "id": "A", "text": "pode ser recusado livremente por preferência pessoal." },
+        { "id": "B", "text": "é ilegal se o agente solicitar capacitação." },
+        { "id": "C", "text": "deve ser aceito mesmo diante de conflito de interesses não tratado." },
+        { "id": "D", "text": "não é livremente recusável, sem prejuízo do dever de comunicar limitações relevantes." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regra impede recusa por conveniência, mas exige comunicação de deficiência ou limitação que possa comprometer atuação diligente. A Administração deve tratar o risco informado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1979",
+      "revision": 1,
+      "prompt": "Ao ser designado para objeto complexo sem qualificação suficiente, o agente deve",
+      "options": [
+        { "id": "A", "text": "comunicar formalmente a limitação para que a Administração capacite, apoie ou designe agente adequado." },
+        { "id": "B", "text": "silenciar e delegar informalmente a função à contratada." },
+        { "id": "C", "text": "recusar toda e qualquer função futura." },
+        { "id": "D", "text": "alterar o objeto para torná-lo mais simples." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A limitação deve ser exposta ao superior. A resposta institucional pode envolver capacitação, suporte, redistribuição ou nova designação, e não silêncio ou alteração informal do objeto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1980",
+      "revision": 1,
+      "prompt": "Segundo a IN nº 5/2017, o preposto da contratada deve ser formalmente designado",
+      "options": [
+        { "id": "A", "text": "após o primeiro pagamento." },
+        { "id": "B", "text": "antes do início da prestação, com poderes e deveres expressos." },
+        { "id": "C", "text": "somente se houver sanção." },
+        { "id": "D", "text": "pelo fiscal técnico, em nome da empresa." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O preposto é representante da contratada durante a execução e deve estar formalizado antes do início, com definição dos poderes e deveres. A Administração não o designa em nome da empresa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1981",
+      "revision": 1,
+      "prompt": "A Administração pode recusar a indicação ou a manutenção do preposto",
+      "options": [
+        { "id": "A", "text": "sem motivação e sem permitir substituição." },
+        { "id": "B", "text": "apenas por decisão judicial." },
+        { "id": "C", "text": "desde que justifique, cabendo à empresa designar outro." },
+        { "id": "D", "text": "somente após a extinção do contrato." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A recusa deve ser motivada e conduz à indicação de outro representante pela empresa. Não se trata de escolha arbitrária nem de medida dependente de decisão judicial. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1982",
+      "revision": 1,
+      "prompt": "Quanto às comunicações entre Administração e contratada, a IN nº 5/2017 estabelece que",
+      "options": [
+        { "id": "A", "text": "toda comunicação deve ser oral." },
+        { "id": "B", "text": "mensagens eletrônicas são sempre proibidas." },
+        { "id": "C", "text": "o público usuário decide o meio aplicável." },
+        { "id": "D", "text": "atos que exigem formalidade são escritos, admitida excepcionalmente mensagem eletrônica." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A formalização escrita preserva prova e rastreabilidade. A IN admite excepcionalmente mensagem eletrônica, sem transformar toda comunicação em ato informal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1983",
+      "revision": 1,
+      "prompt": "A manutenção do preposto no local da execução",
+      "options": [
+        { "id": "A", "text": "pode ser exigida quando a natureza dos serviços justificar, inclusive por escala." },
+        { "id": "B", "text": "é obrigatória em todo contrato administrativo." },
+        { "id": "C", "text": "é sempre vedada pela Lei nº 14.133/2021." },
+        { "id": "D", "text": "substitui a designação de fiscal setorial." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A IN permite exigir presença do preposto ou escala conforme a natureza do serviço. Não é regra universal e não elimina a fiscalização exercida pela Administração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1984",
+      "revision": 1,
+      "prompt": "A reunião inicial prevista na IN nº 5/2017 tem por finalidade",
+      "options": [
+        { "id": "A", "text": "renegociar livremente o objeto licitado." },
+        { "id": "B", "text": "apresentar e alinhar plano de fiscalização, obrigações, controles, execução e consequências." },
+        { "id": "C", "text": "substituir o contrato por uma ata informal." },
+        { "id": "D", "text": "transferir a fiscalização ao preposto." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A reunião organiza o início da execução e apresenta obrigações, mecanismos, estratégia, método de aferição e consequências previstas. Não permite alterar livremente o objeto nem transferir competências. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1985",
+      "revision": 1,
+      "prompt": "Os assuntos tratados na reunião inicial devem",
+      "options": [
+        { "id": "A", "text": "permanecer sem registro para favorecer flexibilidade." },
+        { "id": "B", "text": "ser comunicados apenas ao setor financeiro." },
+        { "id": "C", "text": "ser registrados em ata, preferencialmente com gestor, fiscais, preposto e planejamento pertinente." },
+        { "id": "D", "text": "ser definidos exclusivamente pela contratada." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ata cria referência comum e rastreável. A participação dos agentes envolvidos reduz assimetria e alinha o plano de fiscalização, sem atribuir o comando à contratada. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1986",
+      "revision": 1,
+      "prompt": "As reuniões periódicas com o preposto",
+      "options": [
+        { "id": "A", "text": "dispensam o registro das ocorrências específicas." },
+        { "id": "B", "text": "permitem alterar verbalmente os indicadores." },
+        { "id": "C", "text": "são vedadas depois da reunião inicial." },
+        { "id": "D", "text": "ajudam a preservar qualidade e resultados, sem substituir os registros próprios." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Reuniões periódicas são instrumentos preventivos de alinhamento. Elas não dispensam o histórico formal nem autorizam alteração oral do contrato. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1987",
+      "revision": 1,
+      "prompt": "A alteração excepcional do prazo inicial da prestação exige",
+      "options": [
+        { "id": "A", "text": "pedido prévio da contratada, justificativa e autorização competente." },
+        { "id": "B", "text": "apenas aviso posterior do preposto." },
+        { "id": "C", "text": "aprovação unânime dos usuários." },
+        { "id": "D", "text": "pagamento antecipado integral." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A mudança é excepcional, deve ser requerida antes da data prevista e depende de justificativa e autorização. Comunicação posterior ou pagamento antecipado não satisfazem a disciplina. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1988",
+      "revision": 1,
+      "prompt": "Ao analisar pedido de alteração do início dos serviços, a Administração deve verificar",
+      "options": [
+        { "id": "A", "text": "somente se a contratada aumentará seu lucro." },
+        { "id": "B", "text": "edital, isonomia, interesse público, qualidade e vínculo do pagamento à prestação efetiva." },
+        { "id": "C", "text": "apenas a conveniência do fiscal." },
+        { "id": "D", "text": "se os concorrentes desistiram de impugnar." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração não pode violar a disputa, o interesse público ou a qualidade. Mesmo autorizada, o pagamento permanece condicionado ao que foi efetivamente executado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1989",
+      "revision": 1,
+      "prompt": "Um registro adequado de ocorrência deve conter",
+      "options": [
+        { "id": "A", "text": "apenas a conclusão subjetiva do fiscal." },
+        { "id": "B", "text": "somente a resposta da contratada." },
+        { "id": "C", "text": "obrigação, fato, evidência, impacto, providência, prazo, resposta e verificação." },
+        { "id": "D", "text": "exclusivamente fotografias sem contexto." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O registro precisa ligar a obrigação ao fato e à evidência, documentar a correção solicitada e acompanhar seu resultado. Elemento isolado não constitui histórico suficiente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1990",
+      "revision": 1,
+      "prompt": "Quando a situação exige decisão que ultrapassa sua competência, o fiscal deve",
+      "options": [
+        { "id": "A", "text": "decidir mesmo assim para ganhar tempo." },
+        { "id": "B", "text": "ignorar o fato até o fim do contrato." },
+        { "id": "C", "text": "pedir ao preposto que decida pela Administração." },
+        { "id": "D", "text": "registrar e informar tempestivamente ao gestor ou à autoridade competente." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 117 da Lei nº 14.133/2021 combina atuação dentro da competência com escalonamento tempestivo. O fiscal não pode usurpar a decisão nem omitir o fato. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1991",
+      "revision": 1,
+      "prompt": "Os instrumentos de controle do art. 47 da IN nº 5/2017 podem mensurar",
+      "options": [
+        { "id": "A", "text": "resultados, pessoas, materiais, rotina, obrigações e satisfação do usuário." },
+        { "id": "B", "text": "apenas o valor total da nota fiscal." },
+        { "id": "C", "text": "somente o número de reclamações." },
+        { "id": "D", "text": "exclusivamente a presença do preposto." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A IN adota controle multidimensional conforme o caso: resultados, prazos, recursos humanos, materiais, rotina, obrigações e usuários. Um único dado raramente demonstra toda a execução. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1992",
+      "revision": 1,
+      "prompt": "O mecanismo de controle dos materiais empregados deve ser estabelecido",
+      "options": [
+        { "id": "A", "text": "somente após a primeira falha." },
+        { "id": "B", "text": "desde o início da prestação, quando pertinente." },
+        { "id": "C", "text": "apenas no encerramento." },
+        { "id": "D", "text": "pela contratada sem conhecimento da Administração." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O controle inicial permite acompanhar a execução e subsidiar estimativas futuras. Começar apenas depois do problema elimina rastreabilidade e prevenção. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1993",
+      "revision": 1,
+      "prompt": "A conformidade dos materiais é verificada mediante comparação com",
+      "options": [
+        { "id": "A", "text": "a preferência informal dos usuários." },
+        { "id": "B", "text": "o menor preço encontrado depois do contrato." },
+        { "id": "C", "text": "a relação detalhada e as quantidades, especificações, qualidade e uso contratados." },
+        { "id": "D", "text": "a publicidade comercial do fabricante." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A fiscalização confronta a relação apresentada pela contratada com requisitos objetivos do contrato, inclusive quantidades e especificações. Preferências ou publicidade não substituem essa base. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1994",
+      "revision": 1,
+      "prompt": "O Anexo VIII-A prevê que a fiscalização técnica",
+      "options": [
+        { "id": "A", "text": "deve usar exclusivamente o IMR, sem alternativa." },
+        { "id": "B", "text": "não pode medir qualidade." },
+        { "id": "C", "text": "deve delegar a avaliação à contratada." },
+        { "id": "D", "text": "pode usar IMR ou instrumento substituto adequado para aferir a qualidade." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A norma admite IMR ou outro instrumento substituto. O essencial é que o método converta padrões contratuais em evidência objetiva e suficiente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1995",
+      "revision": 1,
+      "prompt": "A utilização do IMR",
+      "options": [
+        { "id": "A", "text": "não impede o uso concomitante de outros mecanismos de avaliação." },
+        { "id": "B", "text": "elimina a necessidade de registrar ocorrências." },
+        { "id": "C", "text": "transforma toda desconformidade em sanção automática." },
+        { "id": "D", "text": "dispensa critérios no contrato." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O IMR pode coexistir com checklist, testes, amostragem e outras evidências. Ele não substitui o registro nem cria sanção automática sem procedimento próprio. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1996",
+      "revision": 1,
+      "prompt": "Durante a execução, o fiscal técnico deve monitorar o nível de qualidade para",
+      "options": [
+        { "id": "A", "text": "evitar qualquer contato com o preposto." },
+        { "id": "B", "text": "prevenir deterioração e requerer correção de faltas, falhas e irregularidades." },
+        { "id": "C", "text": "substituir os empregados da contratada." },
+        { "id": "D", "text": "alterar unilateralmente os indicadores." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fiscalização técnica é preventiva e interventiva dentro do contrato: monitora e exige correção. Não assume a execução nem modifica parâmetros informalmente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1997",
+      "revision": 1,
+      "prompt": "A avaliação da execução produzida pelo fiscal técnico deve ser",
+      "options": [
+        { "id": "A", "text": "mantida secreta da contratada até o pagamento." },
+        { "id": "B", "text": "reescrita pelo público usuário." },
+        { "id": "C", "text": "apresentada ao preposto para ciência, sem transferir a avaliação à empresa." },
+        { "id": "D", "text": "substituída por declaração do próprio prestador." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O preposto toma ciência da avaliação e pode apresentar justificativa, mas a avaliação permanece atribuição da fiscalização. Ciência não equivale a autoria nem a poder de veto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1998",
+      "revision": 1,
+      "prompt": "A justificativa da contratada para prestação com menor nível de conformidade pode ser aceita quando",
+      "options": [
+        { "id": "A", "text": "houver apenas aumento de custo interno previsível." },
+        { "id": "B", "text": "o preposto discordar do indicador." },
+        { "id": "C", "text": "a empresa preferir outro padrão de qualidade." },
+        { "id": "D", "text": "for comprovada excepcionalidade imprevisível e alheia ao controle do prestador." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Anexo VIII-A exige excepcionalidade decorrente exclusivamente de fatores imprevisíveis e alheios ao controle do prestador. Preferência ou dificuldade ordinária não bastam. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1999",
+      "revision": 1,
+      "prompt": "Quando a desconformidade é contínua ou supera os níveis mínimos toleráveis, os fatores redutores",
+      "options": [
+        { "id": "A", "text": "não impedem a aplicação concomitante de sanções conforme o ato convocatório." },
+        { "id": "B", "text": "impedem qualquer procedimento sancionador." },
+        { "id": "C", "text": "obrigam a prorrogação do contrato." },
+        { "id": "D", "text": "transferem o risco integral ao usuário." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Medição do resultado e sanção são institutos distintos. Redimensionar o valor não elimina eventual responsabilização quando presentes seus pressupostos e o devido processo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2000",
+      "revision": 1,
+      "prompt": "A avaliação de desempenho e qualidade da prestação",
+      "options": [
+        { "id": "A", "text": "deve ser atribuída exclusivamente ao preposto." },
+        { "id": "B", "text": "não pode ser atribuída à própria contratada." },
+        { "id": "C", "text": "é dispensável se houver nota fiscal." },
+        { "id": "D", "text": "cabe somente ao setor financeiro." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Anexo VIII-A veda entregar à contratada a avaliação de seu próprio desempenho. A empresa toma ciência e pode justificar, mas a aferição é feita pela fiscalização. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2001",
+      "revision": 1,
+      "prompt": "A periodicidade da avaliação técnica pode ser",
+      "options": [
+        { "id": "A", "text": "apenas anual." },
+        { "id": "B", "text": "sempre diária, independentemente do objeto." },
+        { "id": "C", "text": "diária, semanal ou mensal, desde que suficiente para aferir desempenho e qualidade." },
+        { "id": "D", "text": "definida depois da execução, sem critério." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A periodicidade deve ser adequada à natureza do serviço e suficiente à avaliação. A norma não impõe frequência única para todos os objetos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2002",
+      "revision": 1,
+      "prompt": "Para efeito de recebimento provisório, ao final de cada período mensal, o fiscal técnico deve",
+      "options": [
+        { "id": "A", "text": "pagar diretamente a contratada." },
+        { "id": "B", "text": "eliminar resultados desfavoráveis do histórico." },
+        { "id": "C", "text": "aguardar o fim do contrato para registrar." },
+        { "id": "D", "text": "apurar os resultados das avaliações, registrá-los em relatório e encaminhá-lo ao gestor." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O item 4 do Anexo VIII-A fixa a apuração ao final de cada período mensal para efeito de recebimento provisório, ainda que as avaliações possam ser diárias, semanais ou mensais. O resultado é registrado em relatório ao gestor. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2003",
+      "revision": 1,
+      "prompt": "Pelo art. 117 da Lei nº 14.133/2021, o fiscal deve",
+      "options": [
+        { "id": "A", "text": "registrar ocorrências, determinar regularização dentro de sua competência e informar o que a exceder." },
+        { "id": "B", "text": "decidir sozinho toda alteração contratual." },
+        { "id": "C", "text": "substituir o contratado na execução defeituosa." },
+        { "id": "D", "text": "manter as ocorrências fora do processo." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A lei combina registro, correção e escalonamento. O fiscal atua dentro de sua competência e informa tempestivamente à autoridade quando a providência exige decisão superior. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2004",
+      "revision": 1,
+      "prompt": "O terceiro contratado para subsidiar a fiscalização assume",
+      "options": [
+        { "id": "A", "text": "poder de aplicar sanções em nome próprio." },
+        { "id": "B", "text": "responsabilidade civil objetiva pela precisão das informações e compromisso de confidencialidade." },
+        { "id": "C", "text": "o cargo público do fiscal durante o contrato." },
+        { "id": "D", "text": "responsabilidade apenas se agir com dolo." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O modelo federal atribui ao terceiro responsabilidade civil objetiva pela veracidade e precisão das informações e exige confidencialidade. Isso não lhe dá competência sancionadora. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2005",
+      "revision": 1,
+      "prompt": "A assistência de terceiro especializado",
+      "options": [
+        { "id": "A", "text": "exonera integralmente o fiscal de responsabilidade." },
+        { "id": "B", "text": "autoriza o terceiro a receber definitivamente o objeto." },
+        { "id": "C", "text": "não exime o fiscal, nos limites das informações recebidas do terceiro." },
+        { "id": "D", "text": "dispensa a Administração de verificar conflitos." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O terceiro responde por suas informações, mas sua contratação não apaga a responsabilidade do fiscal nos limites em que ele as recebe e utiliza. Assistência não é transferência integral. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2006",
+      "revision": 1,
+      "prompt": "O assessoramento jurídico e o controle interno auxiliam gestores e fiscais para",
+      "options": [
+        { "id": "A", "text": "executar o serviço no lugar da contratada." },
+        { "id": "B", "text": "assumir automaticamente toda decisão administrativa." },
+        { "id": "C", "text": "dispensar motivação do gestor." },
+        { "id": "D", "text": "dirimir dúvidas e subsidiar a prevenção de riscos, sem transferência automática da decisão." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O apoio institucional oferece orientação técnica, jurídica e de controle. A competência decisória permanece com o agente ou autoridade definidos na norma, que deve motivar sua atuação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2007",
+      "revision": 1,
+      "prompt": "O Decreto nº 11.246/2022 disciplina gestores e fiscais diretamente no âmbito da",
+      "options": [
+        { "id": "A", "text": "Administração Pública federal direta, autárquica e fundacional." },
+        { "id": "B", "text": "totalidade dos órgãos estaduais, sem necessidade de adoção." },
+        { "id": "C", "text": "iniciativa privada contratada por qualquer pessoa." },
+        { "id": "D", "text": "Justiça estadual exclusivamente." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 1º delimita o âmbito federal direto, autárquico e fundacional. Outros entes podem ter regras próprias e, em situações previstas, observar o decreto, mas não há vinculação universal automática. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2008",
+      "revision": 1,
+      "prompt": "Após a alteração de 2026, a definição federal de fiscalização administrativa inclui",
+      "options": [
+        { "id": "A", "text": "somente pesquisas com usuários." },
+        { "id": "B", "text": "obrigações previdenciárias, fiscais e trabalhistas e controles de revisões, reajustes e repactuações." },
+        { "id": "C", "text": "apenas a execução física do objeto." },
+        { "id": "D", "text": "exclusivamente a seleção do fornecedor." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A redação consolidada do art. 19, III, explicita obrigações administrativas e controles contratuais, além de providências tempestivas no inadimplemento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2009",
+      "revision": 1,
+      "prompt": "Entre as atribuições do gestor no Decreto nº 11.246/2022 está",
+      "options": [
+        { "id": "A", "text": "dirigir diretamente os empregados terceirizados." },
+        { "id": "B", "text": "substituir o órgão jurídico em consultas." },
+        { "id": "C", "text": "coordenar registros, riscos, fiscalizações e instrução dos procedimentos contratuais." },
+        { "id": "D", "text": "delegar ao usuário a decisão sobre prorrogação." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gestor coordena o histórico, a atualização de riscos, os fiscais e os atos preparatórios. Não exerce poder empregatício sobre terceirizados nem transfere decisões aos usuários. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2010",
+      "revision": 1,
+      "prompt": "Ao constatar irregularidade técnica corrigível, o fiscal técnico pode",
+      "options": [
+        { "id": "A", "text": "alterar definitivamente o objeto sem processo." },
+        { "id": "B", "text": "aplicar qualquer sanção sem contraditório." },
+        { "id": "C", "text": "ordenar diretamente dispensa de empregado da contratada." },
+        { "id": "D", "text": "emitir notificação, definir prazo de correção e acompanhar o resultado." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A correção de rotinas e inexatidões integra a fiscalização técnica. Alteração contratual, sanção e gestão de pessoal da empresa obedecem competências e procedimentos próprios. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2011",
+      "revision": 1,
+      "prompt": "No recorte estrutural da fiscalização administrativa, a atuação correta é",
+      "options": [
+        { "id": "A", "text": "controlar documentos, prazos e riscos, registrar indícios e reportar o que exceder a competência." },
+        { "id": "B", "text": "medir somente a aparência física do serviço." },
+        { "id": "C", "text": "ignorar condições de habilitação durante a execução." },
+        { "id": "D", "text": "substituir a autoridade na decisão de toda repactuação." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fiscalização administrativa estrutura controles e evidências, atua tempestivamente e subsidia o gestor. Não absorve competências decisórias nem se reduz à qualidade física. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2012",
+      "revision": 1,
+      "prompt": "No Decreto nº 11.246/2022, o fiscal setorial exerce, em seu âmbito,",
+      "options": [
+        { "id": "A", "text": "apenas pesquisa de satisfação." },
+        { "id": "B", "text": "atribuições das fiscalizações técnica e administrativa pertinentes ao local." },
+        { "id": "C", "text": "competência exclusiva para extinguir o contrato." },
+        { "id": "D", "text": "função de representar a contratada." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 24 remete às atribuições dos arts. 22 e 23. O fiscal setorial acompanha aspectos técnicos e administrativos no setor ou unidade, sem se tornar gestor ou preposto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2013",
+      "revision": 1,
+      "prompt": "A gestão setorial incluída pelo Decreto nº 13.031/2026 corresponde à",
+      "options": [
+        { "id": "A", "text": "mera pesquisa de satisfação em cada setor." },
+        { "id": "B", "text": "substituição da contratada por órgão público." },
+        { "id": "C", "text": "coordenação das atividades de gestão em setores, unidades ou órgãos participantes." },
+        { "id": "D", "text": "fiscalização exclusiva das obrigações trabalhistas." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Gestão setorial é função coordenadora em arranjos distribuídos previstos no regulamento federal. Ela não é pesquisa, execução do objeto nem sinônimo de fiscalização administrativa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2014",
+      "revision": 1,
+      "prompt": "A diferença correta entre gestor setorial e fiscal setorial é que",
+      "options": [
+        { "id": "A", "text": "o fiscal coordena toda a gestão, e o gestor apenas observa materiais." },
+        { "id": "B", "text": "ambos são nomes para o preposto da empresa." },
+        { "id": "C", "text": "não existe diferença depois de 2026." },
+        { "id": "D", "text": "o gestor coordena a gestão no âmbito participante, e o fiscal acompanha aspectos técnicos ou administrativos." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A atualização de 2026 criou função coordenadora de gestão setorial sem eliminar a fiscalização setorial, que permanece voltada ao acompanhamento da execução. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2015",
+      "revision": 1,
+      "prompt": "A utilização obrigatória do Sistema Contratos.gov.br prevista no Decreto nº 13.031/2026 alcança diretamente",
+      "options": [
+        { "id": "A", "text": "a Administração Pública federal direta, autárquica e fundacional abrangida pelo decreto." },
+        { "id": "B", "text": "todo tribunal de contas estadual, sem ato local." },
+        { "id": "C", "text": "qualquer empresa privada que emita nota fiscal." },
+        { "id": "D", "text": "somente contratos celebrados antes de 2021." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Decreto nº 13.031/2026 delimita seu âmbito federal. A ferramenta pode ter uso permitido a outros órgãos e entes, mas isso não equivale a obrigação automática do TCE-MA. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2016",
+      "revision": 1,
+      "prompt": "O modelo interno de gestão exigido pelo Decreto nº 13.031/2026 deve conter, entre outros elementos,",
+      "options": [
+        { "id": "A", "text": "somente o nome comercial da contratada." },
+        { "id": "B", "text": "agentes e substitutos, comunicação, métodos de avaliação, prazos e procedimentos contratuais." },
+        { "id": "C", "text": "apenas a previsão de pagamento." },
+        { "id": "D", "text": "renúncia a registros formais." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 7º exige distribuição de agentes, comunicação com preposto, métodos para recebimentos, prazos de pedidos e procedimentos de sanção, glosa e extinção. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2017",
+      "revision": 1,
+      "prompt": "O recebimento provisório realizado pelo fiscal",
+      "options": [
+        { "id": "A", "text": "equivale necessariamente ao pagamento imediato." },
+        { "id": "B", "text": "extingue toda responsabilidade por vícios." },
+        { "id": "C", "text": "é etapa distinta do recebimento definitivo e da liquidação financeira." },
+        { "id": "D", "text": "dispensa termo ou evidência quando o serviço é contínuo." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Recebimento provisório, definitivo, liquidação e pagamento são momentos distintos. O primeiro registra a verificação do fiscal e não elimina responsabilidades posteriores. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2018",
+      "revision": 1,
+      "prompt": "Ao comparar o art. 123 da Lei nº 14.133/2021 com o art. 28 do Decreto federal nº 11.246/2022, assinale a alternativa correta.",
+      "options": [
+        { "id": "A", "text": "Ambos contam o prazo exclusivamente da assinatura do contrato." },
+        { "id": "B", "text": "A Lei dispensa decisão sobre qualquer reclamação, e o Decreto exige decisão imediata." },
+        { "id": "C", "text": "O Decreto elimina as competências próprias do fiscal, do gestor e da autoridade." },
+        { "id": "D", "text": "A Lei conta um mês da conclusão da instrução, enquanto o Decreto federal conta do protocolo; ambos admitem prorrogação igual e motivada, salvo prazo específico." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 123 da Lei conta um mês após a conclusão da instrução e ressalva requerimentos manifestamente impertinentes, protelatórios ou sem interesse para a boa execução. O art. 28 do Decreto federal usa o protocolo como termo inicial. Ambos preservam prazo específico, prorrogação igual e motivada e os limites de competência. Fonte: questão autoral baseada em referências do conteúdo."
+    }
+  ]
+}
