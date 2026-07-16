@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1589",
+      "revision": 1,
+      "prompt": "Quanto ao regime jurídico dos contratos regidos pela Lei nº 14.133/2021, assinale a alternativa correta.",
+      "options": [
+        { "id": "a", "text": "Eles se regem por suas cláusulas e pelo direito público, com aplicação supletiva da teoria geral dos contratos e do direito privado." },
+        { "id": "b", "text": "Eles se regem exclusivamente pelo direito privado, sem prerrogativas administrativas." },
+        { "id": "c", "text": "O direito privado prevalece sempre que divergir do edital." },
+        { "id": "d", "text": "As cláusulas contratuais podem afastar livremente as normas de direito público." },
+        { "id": "e", "text": "A teoria geral dos contratos só se aplica às empresas estatais." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 89 estabelece a primazia das cláusulas e dos preceitos de direito público, com aplicação apenas supletiva da teoria geral dos contratos e do direito privado. A supletividade não afasta o edital nem as prerrogativas legais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1590",
+      "revision": 1,
+      "prompt": "Todo contrato administrativo abrangido pela Lei nº 14.133/2021 deve mencionar, entre outros elementos:",
+      "options": [
+        { "id": "a", "text": "apenas o objeto e o preço global." },
+        { "id": "b", "text": "partes e representantes, finalidade, ato autorizador, processo e sujeição à Lei e às cláusulas." },
+        { "id": "c", "text": "somente os nomes dos fiscais e do gestor." },
+        { "id": "d", "text": "a classificação de todos os licitantes, ainda que não contratados." },
+        { "id": "e", "text": "exclusivamente a proposta do vencedor, sem referência ao edital." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 89, § 1º, exige a identificação das partes e representantes, finalidade, autorização, número do processo e sujeição à Lei e às cláusulas. O contrato também deve ser coerente com o edital e a proposta ou com o ato da contratação direta e a proposta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1591",
+      "revision": 1,
+      "prompt": "O vencedor solicita prorrogação do prazo para assinar o contrato ainda durante o prazo original e apresenta motivo aceito pela Administração. A Lei permite prorrogar:",
+      "options": [
+        { "id": "a", "text": "indefinidamente, enquanto persistir o interesse do vencedor." },
+        { "id": "b", "text": "duas vezes, por períodos definidos unilateralmente pelo vencedor." },
+        { "id": "c", "text": "uma única vez, por igual período." },
+        { "id": "d", "text": "uma única vez, obrigatoriamente pelo dobro do prazo." },
+        { "id": "e", "text": "somente após o vencimento do prazo original." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 90, § 1º, admite uma prorrogação por igual período, mediante pedido durante o prazo, devidamente justificado e aceito. Pedido tardio ou prorrogações sucessivas não atendem à regra. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1592",
+      "revision": 1,
+      "prompt": "Se o vencedor não assinar nem aceitar o instrumento no prazo, a primeira providência facultada à Administração em relação aos remanescentes é:",
+      "options": [
+        { "id": "a", "text": "contratar qualquer interessado sem observar a classificação." },
+        { "id": "b", "text": "aceitar obrigatoriamente a oferta mais cara do segundo colocado." },
+        { "id": "c", "text": "anular o certame de forma automática." },
+        { "id": "d", "text": "convocá-los na ordem de classificação para contratar nas condições propostas pelo vencedor." },
+        { "id": "e", "text": "reabrir a disputa de lances entre todos os participantes." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 90, § 2º, preserva primeiro as condições do vencedor e a ordem classificatória. Só se nenhum remanescente aceitar é que se passa à negociação e às ofertas próprias previstas no § 4º. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1593",
+      "revision": 1,
+      "prompt": "Nenhum remanescente aceitou contratar nas condições do vencedor. Observado o valor estimado atualizado, a Administração poderá:",
+      "options": [
+        { "id": "a", "text": "sortear um licitante e impor o preço do vencedor." },
+        { "id": "b", "text": "ignorar a ordem classificatória para maximizar a rapidez." },
+        { "id": "c", "text": "contratar acima do valor estimado sem motivação." },
+        { "id": "d", "text": "aplicar automaticamente ao segundo colocado a sanção do adjudicatário." },
+        { "id": "e", "text": "negociar preço melhor com os remanescentes na ordem e, frustrada a negociação, contratar suas ofertas respeitando a classificação." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 90, § 4º, permite negociar preço melhor, mesmo acima do adjudicatário, e depois adjudicar nas condições ofertadas pelos remanescentes, sempre na ordem e dentro do valor estimado eventualmente atualizado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1594",
+      "revision": 1,
+      "prompt": "Decorrido o prazo de validade da proposta indicado no edital sem convocação para contratar, os licitantes:",
+      "options": [
+        { "id": "a", "text": "ficam liberados dos compromissos assumidos." },
+        { "id": "b", "text": "continuam vinculados por prazo indeterminado." },
+        { "id": "c", "text": "perdem automaticamente a garantia de proposta." },
+        { "id": "d", "text": "devem renovar a proposta sob pena de sanção." },
+        { "id": "e", "text": "são obrigados a aceitar qualquer atualização definida depois." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 90, § 3º, libera os licitantes quando a validade da proposta termina sem convocação. Não existe vinculação indefinida nem sanção pela simples expiração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1595",
+      "revision": 1,
+      "prompt": "A recusa injustificada do adjudicatário em assinar o contrato no prazo caracteriza:",
+      "options": [
+        { "id": "a", "text": "mero atraso sem consequência sancionatória." },
+        { "id": "b", "text": "descumprimento total, com penalidades e perda imediata da garantia de proposta." },
+        { "id": "c", "text": "renúncia regular, com restituição em dobro da garantia." },
+        { "id": "d", "text": "direito potestativo do vencedor." },
+        { "id": "e", "text": "hipótese que obriga a Administração a elevar o preço." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nos termos do art. 90, § 5º, a recusa injustificada é descumprimento total e sujeita o adjudicatário às penalidades e à perda imediata da garantia de proposta em favor do órgão ou entidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1596",
+      "revision": 1,
+      "prompt": "A perda imediata da garantia por recusa injustificada não se aplica:",
+      "options": [
+        { "id": "a", "text": "ao adjudicatário regularmente convocado." },
+        { "id": "b", "text": "ao vencedor que recusa retirar instrumento equivalente." },
+        { "id": "c", "text": "ao remanescente convocado para negociar melhor preço na forma do art. 90, § 4º, I." },
+        { "id": "d", "text": "ao vencedor que deixa o prazo expirar sem justificativa." },
+        { "id": "e", "text": "a qualquer empresa que tenha apresentado proposta." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 90, § 6º, exclui da regra sancionatória do § 5º os remanescentes convocados para a negociação do § 4º, I. Eles não ocupam a mesma posição jurídica do adjudicatário que assumiu a obrigação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1597",
+      "revision": 1,
+      "prompt": "Para contratar remanescente de obra, serviço ou fornecimento após rescisão contratual, a Administração:",
+      "options": [
+        { "id": "a", "text": "deve contratar obrigatoriamente o antigo subcontratado." },
+        { "id": "b", "text": "não pode recorrer aos classificados da licitação original." },
+        { "id": "c", "text": "pode ignorar preços e a ordem de classificação." },
+        { "id": "d", "text": "pode convocar os demais classificados, observando os critérios dos §§ 2º e 4º do art. 90." },
+        { "id": "e", "text": "deve usar inexigibilidade em qualquer caso." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 90, § 7º, permite convocar classificados para o remanescente e remete aos critérios de preservação das condições, negociação e ordem previstos nos §§ 2º e 4º. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1598",
+      "revision": 1,
+      "prompt": "Segundo as regras incluídas pela Lei nº 14.770/2023 sobre contrato rescindido, assinale a alternativa correta.",
+      "options": [
+        { "id": "a", "text": "Todo saldo empenhado deve ser cancelado imediatamente." },
+        { "id": "b", "text": "Restos a pagar processados podem ser transferidos sem qualquer condição." },
+        { "id": "c", "text": "A nova contratada nunca pode aproveitar saldo a liquidar." },
+        { "id": "d", "text": "O saldo pode financiar objeto totalmente diverso, sem análise de vantagem." },
+        { "id": "e", "text": "Saldo a liquidar ou restos a pagar não processados podem beneficiar a nova contratada; frustradas as convocações, podem compor nova licitação vantajosa com o objeto mantido." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os §§ 8º e 9º do art. 90 permitem o aproveitamento do saldo pela nova contratada e, frustradas as providências legais, seu cômputo em nova licitação, desde que haja vantajosidade e se preserve o objeto programado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1599",
+      "revision": 1,
+      "prompt": "Sobre a forma dos contratos e aditamentos, a Lei nº 14.133/2021 determina que sejam:",
+      "options": [
+        { "id": "a", "text": "escritos, juntados ao processo, divulgados e mantidos disponíveis em sítio oficial." },
+        { "id": "b", "text": "verbais sempre que houver urgência." },
+        { "id": "c", "text": "arquivados fora do processo para preservar a competição." },
+        { "id": "d", "text": "sigilosos até o encerramento da execução." },
+        { "id": "e", "text": "necessariamente físicos, vedada a forma eletrônica." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 91 estabelece forma escrita, integração ao processo, divulgação e disponibilidade pública. A lei admite forma eletrônica e restringe o sigilo às hipóteses de segurança da sociedade e do Estado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1600",
+      "revision": 1,
+      "prompt": "A manutenção em sigilo de contrato ou termo aditivo é admitida quando:",
+      "options": [
+        { "id": "a", "text": "o contratado preferir não divulgar o preço." },
+        { "id": "b", "text": "for imprescindível à segurança da sociedade e do Estado, conforme a legislação de acesso à informação." },
+        { "id": "c", "text": "a licitação tiver critério de menor preço." },
+        { "id": "d", "text": "o objeto for serviço contínuo." },
+        { "id": "e", "text": "a autoridade dispensar motivação." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A publicidade é a regra. O art. 91, § 1º, admite sigilo apenas quando imprescindível à segurança da sociedade e do Estado e nos termos da legislação de acesso à informação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1601",
+      "revision": 1,
+      "prompt": "Contratos relativos a direitos reais sobre imóveis devem ser formalizados por:",
+      "options": [
+        { "id": "a", "text": "simples ordem verbal da autoridade." },
+        { "id": "b", "text": "nota de empenho mantida em sigilo." },
+        { "id": "c", "text": "escritura pública lavrada em notas de tabelião, com divulgação do teor." },
+        { "id": "d", "text": "mensagem eletrônica do contratado." },
+        { "id": "e", "text": "ata interna não integrada ao processo." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 91, § 2º, exige escritura pública para direitos reais sobre imóveis e determina a divulgação e disponibilidade de seu teor em sítio oficial. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1602",
+      "revision": 1,
+      "prompt": "A celebração eletrônica de contratos e termos aditivos:",
+      "options": [
+        { "id": "a", "text": "é proibida pela exigência de forma escrita." },
+        { "id": "b", "text": "só é possível em contrato verbal de pronto pagamento." },
+        { "id": "c", "text": "dispensa qualquer controle regulamentar." },
+        { "id": "d", "text": "é admitida, atendidas as exigências previstas em regulamento." },
+        { "id": "e", "text": "é exclusiva de contratos sobre imóveis." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Forma escrita não significa necessariamente papel. O art. 91, § 3º, admite celebração eletrônica, condicionada às exigências regulamentares. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1603",
+      "revision": 1,
+      "prompt": "Antes de formalizar ou prorrogar a vigência, a Administração deve, entre outras medidas:",
+      "options": [
+        { "id": "a", "text": "consultar apenas o cadastro interno do contratado." },
+        { "id": "b", "text": "dispensar a regularidade fiscal se o preço continuar vantajoso." },
+        { "id": "c", "text": "emitir certidão somente depois da assinatura." },
+        { "id": "d", "text": "consultar apenas o Ceis, sem verificar o Cnep." },
+        { "id": "e", "text": "verificar regularidade fiscal, consultar Ceis e Cnep e juntar as certidões exigidas ao processo." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 91, § 4º, exige regularidade fiscal, consultas ao Ceis e Cnep e certidões negativas de inidoneidade, impedimento e débitos trabalhistas antes da formação ou prorrogação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1604",
+      "revision": 1,
+      "prompt": "Constitui cláusula necessária de todo contrato, segundo o art. 92:",
+      "options": [
+        { "id": "a", "text": "a obrigação de manter as condições de habilitação ou qualificação durante a execução." },
+        { "id": "b", "text": "a renúncia prévia da Administração à fiscalização." },
+        { "id": "c", "text": "o afastamento das reservas legais de cargos." },
+        { "id": "d", "text": "a vedação absoluta de reajustamento." },
+        { "id": "e", "text": "a transferência integral dos riscos públicos ao contratado." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 92, XVI, exige a manutenção das condições de habilitação ou qualificação. Fiscalização, reajuste, reservas de cargos e alocação eficiente de riscos não podem ser afastados como propõem os distratores. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1605",
+      "revision": 1,
+      "prompt": "A regra sobre foro nos contratos administrativos é:",
+      "options": [
+        { "id": "a", "text": "livre escolha do contratado em todos os casos." },
+        { "id": "b", "text": "foro da sede da Administração, ressalvadas as hipóteses internacionais previstas em lei." },
+        { "id": "c", "text": "foro da sede do contratado, sem exceção." },
+        { "id": "d", "text": "foro estrangeiro obrigatório quando a empresa estiver no exterior." },
+        { "id": "e", "text": "ausência de cláusula de foro, pois a competência é sempre arbitral." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 92, § 1º, adota o foro da sede da Administração e ressalva financiamento internacional, certos equipamentos produzidos e entregues no exterior e aquisições por unidades sediadas fora do País. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1606",
+      "revision": 1,
+      "prompt": "Independentemente da duração, o contrato deve conter cláusula de reajustamento com:",
+      "options": [
+        { "id": "a", "text": "data-base escolhida depois da assinatura." },
+        { "id": "b", "text": "índice necessariamente único e geral." },
+        { "id": "c", "text": "data-base vinculada ao orçamento estimado, admitidos índices específicos ou setoriais." },
+        { "id": "d", "text": "periodicidade inferior a um mês." },
+        { "id": "e", "text": "renúncia definitiva a qualquer recomposição." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 92, § 3º, exige índice e data-base vinculada ao orçamento estimado e permite vários índices específicos ou setoriais conforme a realidade dos insumos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1607",
+      "revision": 1,
+      "prompt": "Nos serviços contínuos, respeitado o interregno anual, a correlação correta é:",
+      "options": [
+        { "id": "a", "text": "dedicação exclusiva — reajuste apenas por índice; sem mão de obra — repactuação." },
+        { "id": "b", "text": "qualquer estrutura — somente revisão judicial." },
+        { "id": "c", "text": "qualquer estrutura — maior lance." },
+        { "id": "d", "text": "sem dedicação exclusiva ou predominância — reajuste por índice; com essa mão de obra — repactuação analítica." },
+        { "id": "e", "text": "dedicação exclusiva — ausência de qualquer reajuste." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 92, § 4º, separa reajustamento em sentido estrito por índice e repactuação baseada na variação analítica dos custos conforme a presença de dedicação exclusiva ou predominância de mão de obra. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1608",
+      "revision": 1,
+      "prompt": "Assinale a alternativa correta sobre regras complementares do art. 92.",
+      "options": [
+        { "id": "a", "text": "A medição de engenharia é sempre anual." },
+        { "id": "b", "text": "O prazo preferencial para responder à repactuação é de dez anos." },
+        { "id": "c", "text": "Adimplemento só ocorre depois do pagamento pela Administração." },
+        { "id": "d", "text": "A entrega de parcela nunca pode gerar documento de cobrança." },
+        { "id": "e", "text": "Adimplemento pode ser serviço, obra, entrega ou outro evento contratual vinculado à emissão do documento de cobrança." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O § 7º define adimplemento pelo evento contratual ligado à cobrança. A medição de engenharia é mensal quando compatível, e a resposta à repactuação é preferencialmente de um mês após a documentação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1609",
+      "revision": 1,
+      "prompt": "Em contratação de projeto, serviço técnico especializado ou software com documentação associada, a regra é que o autor:",
+      "options": [
+        { "id": "a", "text": "ceda os direitos patrimoniais à Administração, que poderá usar e alterar o produto sem nova autorização." },
+        { "id": "b", "text": "mantenha exclusividade absoluta de uso contra a Administração." },
+        { "id": "c", "text": "ceda apenas os direitos morais." },
+        { "id": "d", "text": "impeça qualquer alteração posterior do projeto." },
+        { "id": "e", "text": "transfira os direitos somente ao fiscal do contrato." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 93 exige a cessão dos direitos patrimoniais e permite livre uso e alteração pela Administração. Direitos morais e autoria não se confundem com a cessão patrimonial. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1610",
+      "revision": 1,
+      "prompt": "A Administração pode deixar de exigir cessão dos direitos patrimoniais quando o objeto envolver:",
+      "options": [
+        { "id": "a", "text": "qualquer compra comum de prateleira." },
+        { "id": "b", "text": "pesquisa e desenvolvimento científico, tecnológico ou de inovação, observada a Lei nº 10.973/2004." },
+        { "id": "c", "text": "obra material sem conteúdo tecnológico." },
+        { "id": "d", "text": "serviço contínuo de limpeza." },
+        { "id": "e", "text": "contrato verbal de pronto pagamento." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 93, § 2º, faculta dispensar a cessão no contexto de pesquisa, desenvolvimento científico ou tecnológico e inovação, segundo os princípios e mecanismos da Lei de Inovação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1611",
+      "revision": 1,
+      "prompt": "A divulgação do contrato e de seus aditamentos no PNCP é:",
+      "options": [
+        { "id": "a", "text": "mera recomendação sem efeito jurídico." },
+        { "id": "b", "text": "requisito apenas para licitações internacionais." },
+        { "id": "c", "text": "condição indispensável de eficácia." },
+        { "id": "d", "text": "substituída pela publicação em rede social." },
+        { "id": "e", "text": "dispensada em todo contrato direto." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 94 qualifica a divulgação no PNCP como condição indispensável de eficácia do contrato e do aditamento. Ela não se limita à licitação nem é facultativa na contratação direta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1612",
+      "revision": 1,
+      "prompt": "Os prazos para divulgação no PNCP, contados da assinatura, são:",
+      "options": [
+        { "id": "a", "text": "10 dias corridos na licitação e 20 na contratação direta." },
+        { "id": "b", "text": "30 dias úteis em qualquer hipótese." },
+        { "id": "c", "text": "5 dias úteis na licitação e publicação imediata na contratação direta." },
+        { "id": "d", "text": "20 dias úteis na licitação e 10 dias úteis na contratação direta." },
+        { "id": "e", "text": "45 dias úteis na licitação e 25 na contratação direta." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 94 fixa 20 dias úteis para contratos oriundos de licitação e 10 dias úteis para contratação direta, ambos contados da assinatura. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1613",
+      "revision": 1,
+      "prompt": "Um contrato foi celebrado em situação urgente. Quanto à eficácia e à publicação:",
+      "options": [
+        { "id": "a", "text": "não produz efeitos antes do fim da urgência." },
+        { "id": "b", "text": "fica dispensado definitivamente do PNCP." },
+        { "id": "c", "text": "a urgência converte o ajuste em contrato verbal." },
+        { "id": "d", "text": "a publicação pode ocorrer em qualquer tempo, sem nulidade." },
+        { "id": "e", "text": "produz efeitos desde a assinatura, mas deve ser publicado no prazo legal, sob pena de nulidade." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 94, § 1º, antecipa a eficácia do contrato urgente para a assinatura, mas mantém os prazos de publicação e associa nulidade à sua inobservância. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1614",
+      "revision": 1,
+      "prompt": "No caso de obras, além do PNCP, a Administração divulgará em sítio oficial:",
+      "options": [
+        { "id": "a", "text": "quantitativos e preços contratados em até 25 dias úteis da assinatura e os executados em até 45 dias úteis da conclusão." },
+        { "id": "b", "text": "somente o preço global, cinco anos depois." },
+        { "id": "c", "text": "apenas os quantitativos executados antes da assinatura." },
+        { "id": "d", "text": "informações sem preços para preservar o sigilo comercial." },
+        { "id": "e", "text": "nenhum dado adicional, pois obras são exceção à transparência." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 94, § 3º, fixa 25 dias úteis após a assinatura para dados contratados e 45 dias úteis após a conclusão para dados executados, incluindo quantitativos e preços. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1615",
+      "revision": 1,
+      "prompt": "O termo de contrato pode ser substituído por instrumento escrito hábil:",
+      "options": [
+        { "id": "a", "text": "em qualquer contratação, a critério exclusivo do contratado." },
+        { "id": "b", "text": "na dispensa por valor ou na compra de entrega imediata e integral sem obrigação futura." },
+        { "id": "c", "text": "somente em obra de grande vulto." },
+        { "id": "d", "text": "sempre que houver assistência técnica futura." },
+        { "id": "e", "text": "apenas se o contrato for verbal." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 95 prevê duas hipóteses: dispensa em razão do valor e compra de entrega imediata e integral sem obrigação futura, inclusive assistência técnica, independentemente do valor. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1616",
+      "revision": 1,
+      "prompt": "Uma compra de entrega integral ocorrerá em 20 dias, mas inclui assistência técnica futura. Nesse caso:",
+      "options": [
+        { "id": "a", "text": "a entrega em 20 dias torna verbal o contrato." },
+        { "id": "b", "text": "a assistência técnica é irrelevante para a formalização." },
+        { "id": "c", "text": "a hipótese de substituição fundada apenas na entrega imediata não se aplica, pois existe obrigação futura." },
+        { "id": "d", "text": "o termo é vedado porque a entrega ocorre antes de 30 dias." },
+        { "id": "e", "text": "a compra passa a ser inexigível." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Entrega imediata ocorre em até 30 dias, mas o art. 95, II, também exige ausência de obrigações futuras, mencionando expressamente assistência técnica. A rapidez sozinha não basta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1617",
+      "revision": 1,
+      "prompt": "Em 2026, contrato verbal com a Administração somente escapa à nulidade quando envolver:",
+      "options": [
+        { "id": "a", "text": "qualquer serviço contínuo de até R$ 65.492,11." },
+        { "id": "b", "text": "obra urgente de qualquer valor." },
+        { "id": "c", "text": "compra com assistência técnica de até R$ 130.984,20." },
+        { "id": "d", "text": "pequena compra ou serviço de pronto pagamento de até R$ 13.098,41." },
+        { "id": "e", "text": "contrato de tecnologia de até R$ 392.952,63." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 95, § 2º, excepciona somente pequenas compras e serviços de pronto pagamento dentro do valor atualizado para 2026 pelo Decreto nº 12.807/2025: R$ 13.098,41. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1618",
+      "revision": 1,
+      "prompt": "Sobre a exigência de garantia contratual, assinale a alternativa correta.",
+      "options": [
+        { "id": "a", "text": "É obrigatória em todo contrato, sem previsão no edital." },
+        { "id": "b", "text": "Depende apenas da vontade da seguradora." },
+        { "id": "c", "text": "É vedada em fornecimentos." },
+        { "id": "d", "text": "O contratado decide se a Administração poderá exigi-la." },
+        { "id": "e", "text": "Pode ser exigida pela autoridade competente em cada caso, mediante previsão no edital." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 96 torna a exigência discricionária e condicionada à previsão editalícia. A Administração decide exigir; em regra, o contratado escolhe a modalidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1619",
+      "revision": 1,
+      "prompt": "Contém apenas garantias admitidas pelo art. 96:",
+      "options": [
+        { "id": "a", "text": "caução em dinheiro ou títulos escriturais, seguro-garantia, fiança de instituição autorizada e título de capitalização de pagamento único e resgatável pelo valor total." },
+        { "id": "b", "text": "aval pessoal, hipoteca compulsória e cheque pré-datado." },
+        { "id": "c", "text": "fiança emitida por qualquer empresa comercial e nota promissória." },
+        { "id": "d", "text": "somente dinheiro e seguro-garantia." },
+        { "id": "e", "text": "carta de intenção, duplicata e criptoativo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 96 admite caução, seguro-garantia, fiança bancária ou de instituição financeira autorizada e título de capitalização custeado por pagamento único com resgate total. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1620",
+      "revision": 1,
+      "prompt": "Quando o contratado optar por seguro-garantia, o edital deve fixar para sua prestação prazo mínimo:",
+      "options": [
+        { "id": "a", "text": "de um dia após a assinatura." },
+        { "id": "b", "text": "de um mês, contado da homologação e anterior à assinatura." },
+        { "id": "c", "text": "de dez anos após a execução." },
+        { "id": "d", "text": "definido exclusivamente pela seguradora após o contrato." },
+        { "id": "e", "text": "de cinco dias antes da homologação." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 96, § 3º, garante no edital pelo menos um mês desde a homologação e antes da assinatura para a prestação do seguro-garantia escolhido pelo contratado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1621",
+      "revision": 1,
+      "prompt": "Se o contrato for suspenso por ordem ou inadimplemento da Administração, o contratado:",
+      "options": [
+        { "id": "a", "text": "deve dobrar a garantia imediatamente." },
+        { "id": "b", "text": "perde a garantia em favor da Administração." },
+        { "id": "c", "text": "fica desobrigado de renovar a garantia ou endossar a apólice até o reinício ou adimplemento." },
+        { "id": "d", "text": "deve manter a obra ativa por conta própria." },
+        { "id": "e", "text": "substitui obrigatoriamente o seguro por dinheiro." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 96, § 2º, evita impor renovação ou endosso durante suspensão causada por ordem ou inadimplemento administrativo, até o reinício da execução ou o adimplemento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1622",
+      "revision": 1,
+      "prompt": "Quanto ao seguro-garantia, é correto afirmar que:",
+      "options": [
+        { "id": "a", "text": "não cobre multas nem indenizações." },
+        { "id": "b", "text": "a apólice pode durar menos que o contrato." },
+        { "id": "c", "text": "alterações de vigência jamais exigem endosso." },
+        { "id": "d", "text": "continua em vigor mesmo se o contratado não pagar o prêmio nas datas convencionadas." },
+        { "id": "e", "text": "só pode ser usado em serviços sem engenharia." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 97 mantém o seguro apesar do não pagamento do prêmio pelo contratado. A cobertura alcança multas, prejuízos e indenizações, e a apólice deve acompanhar o prazo contratual e suas mudanças. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1623",
+      "revision": 1,
+      "prompt": "Em contrato de execução continuada, a substituição da apólice na renovação ou aniversário:",
+      "options": [
+        { "id": "a", "text": "é sempre proibida." },
+        { "id": "b", "text": "permite reduzir livremente as coberturas." },
+        { "id": "c", "text": "autoriza período descoberto de até 30 dias." },
+        { "id": "d", "text": "depende de converter o seguro em fiança." },
+        { "id": "e", "text": "é permitida se forem mantidas condições e coberturas e não houver lacuna." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O parágrafo único do art. 97 admite a troca, mas preserva condições e coberturas e proíbe período descoberto, ressalvada a suspensão por ato ou inadimplemento administrativo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1624",
+      "revision": 1,
+      "prompt": "A garantia contratual ordinária pode alcançar:",
+      "options": [
+        { "id": "a", "text": "até 5% do valor inicial, ou até 10% com justificativa baseada em complexidade técnica e riscos." },
+        { "id": "b", "text": "sempre 30% do valor estimado, sem motivação." },
+        { "id": "c", "text": "no máximo 1%, pois se confunde com garantia de proposta." },
+        { "id": "d", "text": "50% em qualquer fornecimento contínuo." },
+        { "id": "e", "text": "somente 10%, ainda que o contrato seja simples." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 98 fixa até 5% do valor inicial como regra e permite até 10% mediante análise justificada da complexidade técnica e dos riscos. O limite de 1% pertence à garantia de proposta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1625",
+      "revision": 1,
+      "prompt": "Num fornecimento contínuo com vigência superior a um ano, a base dos percentuais de garantia é:",
+      "options": [
+        { "id": "a", "text": "o valor de toda a vigência, sempre multiplicado por dez." },
+        { "id": "b", "text": "o valor anual do contrato, inclusive nas prorrogações." },
+        { "id": "c", "text": "somente o primeiro pagamento mensal." },
+        { "id": "d", "text": "o patrimônio líquido do contratado." },
+        { "id": "e", "text": "o valor da garantia de proposta." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 98, parágrafo único, usa o valor anual para serviços e fornecimentos contínuos acima de um ano e nas prorrogações, evitando aplicar o percentual ao total plurianual. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1626",
+      "revision": 1,
+      "prompt": "Em 2026, uma obra estimada acima de R$ 261.968.421,04 pode ter, nos termos do art. 99:",
+      "options": [
+        { "id": "a", "text": "garantia de proposta obrigatória de 30%." },
+        { "id": "b", "text": "fiança pessoal obrigatória de 50%." },
+        { "id": "c", "text": "seguro-garantia com cláusula de retomada de até 30% do valor inicial." },
+        { "id": "d", "text": "contrato verbal por ser de grande vulto." },
+        { "id": "e", "text": "garantia sem limite, escolhida depois da execução." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O valor caracteriza grande vulto em 2026. Para obra ou engenharia nessa categoria, o art. 99 admite seguro-garantia com retomada de até 30% do valor inicial, distinto da garantia de proposta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1627",
+      "revision": 1,
+      "prompt": "A garantia prestada pelo contratado será liberada ou restituída:",
+      "options": [
+        { "id": "a", "text": "antes do início da execução, sem análise." },
+        { "id": "b", "text": "somente por decisão judicial." },
+        { "id": "c", "text": "apenas se nunca tiver sido exigida." },
+        { "id": "d", "text": "após a fiel execução ou a extinção por culpa exclusiva da Administração; em dinheiro, com atualização." },
+        { "id": "e", "text": "sempre sem correção monetária." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 100 liga a liberação à fiel execução ou à extinção por culpa exclusiva da Administração e manda atualizar monetariamente a garantia em dinheiro. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1628",
+      "revision": 1,
+      "prompt": "Se a Administração entregar bens dos quais o contratado ficará depositário:",
+      "options": [
+        { "id": "a", "text": "os bens passam gratuitamente ao patrimônio do contratado." },
+        { "id": "b", "text": "a garantia deve ser reduzida pelo valor dos bens." },
+        { "id": "c", "text": "não haverá qualquer efeito sobre a garantia." },
+        { "id": "d", "text": "somente a garantia de proposta será recalculada." },
+        { "id": "e", "text": "o valor dos bens deve ser acrescido ao valor da garantia." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 101 exige somar à garantia o valor dos bens públicos entregues e mantidos em depósito pelo contratado, protegendo também esse patrimônio. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1629",
+      "revision": 1,
+      "prompt": "Na cláusula de retomada de obra ou serviço de engenharia, a seguradora:",
+      "options": [
+        { "id": "a", "text": "firma contrato e aditivos como interveniente anuente e pode acompanhar a execução." },
+        { "id": "b", "text": "fica proibida de acessar instalações e auditorias." },
+        { "id": "c", "text": "substitui a Administração como titular do objeto." },
+        { "id": "d", "text": "não pode subcontratar a conclusão." },
+        { "id": "e", "text": "recebe empenho sem demonstrar regularidade fiscal." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 102 torna a seguradora interveniente anuente e lhe permite acompanhar, acessar instalações e auditorias e pedir esclarecimentos. Empenho exige regularidade fiscal, e a conclusão pode ser subcontratada. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1630",
+      "revision": 1,
+      "prompt": "Em caso de inadimplemento sob cláusula de retomada:",
+      "options": [
+        { "id": "a", "text": "a seguradora paga e conclui cumulativamente em qualquer caso." },
+        { "id": "b", "text": "se concluir o objeto, não paga a importância segurada; se não assumir, paga-a integralmente." },
+        { "id": "c", "text": "a seguradora nunca responde pelo sinistro." },
+        { "id": "d", "text": "a Administração perde o direito à conclusão e à indenização." },
+        { "id": "e", "text": "o contrato se converte em contrato verbal." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 102 oferece duas respostas: execução e conclusão liberam a seguradora do pagamento; a não assunção obriga o pagamento integral da importância indicada na apólice. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1631",
+      "revision": 1,
+      "prompt": "A matriz de alocação de riscos é:",
+      "options": [
+        { "id": "a", "text": "lista informal de servidores responsáveis." },
+        { "id": "b", "text": "sinônimo obrigatório do mapa de riscos do planejamento." },
+        { "id": "c", "text": "cláusula que distribui eventos supervenientes e caracteriza o equilíbrio econômico-financeiro inicial." },
+        { "id": "d", "text": "instrumento que transfere todo risco à iniciativa privada." },
+        { "id": "e", "text": "garantia bancária de proposta." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A matriz é cláusula contratual de distribuição de riscos públicos, privados ou compartilhados e define o equilíbrio inicial diante de eventos supervenientes. Ela não se confunde com mapa de riscos. O contrato deve refletir a alocação nas hipóteses de recomposição, na possibilidade de resolução por sinistro que majore excessivamente ou impeça a execução e nos seguros obrigatórios, cujo custo integra o preço. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1632",
+      "revision": 1,
+      "prompt": "A matriz de alocação de riscos é obrigatória:",
+      "options": [
+        { "id": "a", "text": "somente em pequenas compras de pronto pagamento." },
+        { "id": "b", "text": "em todo contrato verbal." },
+        { "id": "c", "text": "apenas quando o contratado solicitar." },
+        { "id": "d", "text": "em obras e serviços de grande vulto e nas contratações integrada e semi-integrada." },
+        { "id": "e", "text": "exclusivamente em leilões." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A obrigatoriedade decorre do art. 22, § 3º, para grande vulto e regimes integrado ou semi-integrado. Fora dessas hipóteses, a Administração avalia a conveniência conforme as incertezas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1633",
+      "revision": 1,
+      "prompt": "Na alocação contratual, a Lei orienta que:",
+      "options": [
+        { "id": "a", "text": "todo risco seja atribuído ao setor público." },
+        { "id": "b", "text": "riscos seguráveis permaneçam sempre com a Administração." },
+        { "id": "c", "text": "o custo dos riscos não afete o valor estimado." },
+        { "id": "d", "text": "o projeto escolhido pelo contratado integrado gere risco obrigatório para a Administração." },
+        { "id": "e", "text": "riscos seguráveis sejam preferencialmente do contratado e riscos da solução de projeto escolhida no regime integrado sejam atribuídos a ele." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os arts. 22 e 103 orientam a transferência preferencial de riscos seguráveis ao contratado e atribuem a ele, nos regimes integrado e semi-integrado, riscos supervenientes associados à solução de projeto que escolheu. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1634",
+      "revision": 1,
+      "prompt": "Atendidas a matriz e as condições contratuais, as partes renunciam ao reequilíbrio pelos riscos assumidos, exceto quanto:",
+      "options": [
+        { "id": "a", "text": "a alterações unilaterais administrativas e mudança legal de tributos diretamente pagos pelo contratado." },
+        { "id": "b", "text": "a qualquer oscilação ordinária de mercado atribuída ao contratado." },
+        { "id": "c", "text": "a todo risco segurável." },
+        { "id": "d", "text": "a eventos já precificados e assumidos sem ressalva." },
+        { "id": "e", "text": "apenas a mudanças voluntárias da proposta." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 103, § 5º, ressalva alteração unilateral legal e aumento ou redução superveniente de tributos diretamente pagos em decorrência do contrato. Riscos validamente assumidos não geram recomposição ordinária. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1635",
+      "revision": 1,
+      "prompt": "É prerrogativa administrativa prevista no art. 104:",
+      "options": [
+        { "id": "a", "text": "renunciar previamente a toda fiscalização." },
+        { "id": "b", "text": "ocupar provisoriamente bens e utilizar pessoal e serviços diante de risco a serviço essencial ou para acautelar apuração de falta." },
+        { "id": "c", "text": "alterar qualquer cláusula financeira sem recomposição." },
+        { "id": "d", "text": "aplicar sanção sem motivação." },
+        { "id": "e", "text": "extinguir o contrato fora das hipóteses legais." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 104 autoriza ocupação provisória nessas duas hipóteses. Fiscalização, sanção motivada, alteração e extinção dentro da lei também são prerrogativas, mas os distratores as formulam de modo ilegal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1636",
+      "revision": 1,
+      "prompt": "Sobre cláusulas econômico-financeiras e alteração unilateral, assinale a correta.",
+      "options": [
+        { "id": "a", "text": "A Administração pode reduzir unilateralmente a remuneração sem limite." },
+        { "id": "b", "text": "Toda alteração exige concordância prévia sobre o objeto." },
+        { "id": "c", "text": "Cláusulas econômico-financeiras não mudam sem concordância; alteração unilateral lícita do objeto exige revisão para manter o equilíbrio." },
+        { "id": "d", "text": "O equilíbrio é incompatível com contratos administrativos." },
+        { "id": "e", "text": "A concordância do contratado elimina as normas de direito público." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os §§ 1º e 2º do art. 104 protegem as cláusulas econômico-financeiras e impõem sua revisão quando a Administração usa validamente o poder de alterar o contrato. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1637",
+      "revision": 1,
+      "prompt": "A regra geral de duração da Lei nº 14.133/2021 determina que:",
+      "options": [
+        { "id": "a", "text": "todo contrato termina em 31 de dezembro." },
+        { "id": "b", "text": "a duração independe do edital." },
+        { "id": "c", "text": "crédito orçamentário só é verificado na assinatura." },
+        { "id": "d", "text": "a duração vem do edital, com créditos na contratação e a cada exercício e previsão no PPA quando ultrapassar um exercício." },
+        { "id": "e", "text": "todo contrato pode vigorar por prazo indeterminado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 105 desvincula a duração do encerramento automático do exercício, mas exige previsão editalícia, disponibilidade de créditos e PPA quando houver ultrapassagem de exercício. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1638",
+      "revision": 1,
+      "prompt": "Serviços e fornecimentos contínuos podem ter vigência inicial de até:",
+      "options": [
+        { "id": "a", "text": "um ano, sem qualquer exceção." },
+        { "id": "b", "text": "dez anos automaticamente." },
+        { "id": "c", "text": "quinze anos em qualquer objeto." },
+        { "id": "d", "text": "trinta e cinco anos sem investimento." },
+        { "id": "e", "text": "cinco anos, com demonstração da vantagem econômica plurianual e controles anuais." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 106 admite até cinco anos iniciais e exige atestado de vantagem plurianual, créditos e vantagem no começo e em cada exercício. Dez anos é o teto após prorrogações do art. 107. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1639",
+      "revision": 1,
+      "prompt": "Se faltar crédito ou o contrato contínuo deixar de ser vantajoso, a extinção sem ônus prevista no art. 106:",
+      "options": [
+        { "id": "a", "text": "ocorre no próximo aniversário contratual, assegurada ciência ao contratado com antecedência mínima de dois meses." },
+        { "id": "b", "text": "pode ocorrer retroativamente." },
+        { "id": "c", "text": "é proibida mesmo sem crédito." },
+        { "id": "d", "text": "depende de culpa do contratado." },
+        { "id": "e", "text": "transforma o contrato em prazo indeterminado." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 106, III e § 1º, permite a extinção sem ônus por falta de crédito ou vantagem no próximo aniversário. A ON AGU nº 98/2025 interpreta os dois meses como antecedência mínima para ciência do contratado; antes do aniversário, a extinção pode ocorrer com ônus para a Administração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1640",
+      "revision": 1,
+      "prompt": "A prorrogação sucessiva de serviço ou fornecimento contínuo:",
+      "options": [
+        { "id": "a", "text": "é direito subjetivo do contratado." },
+        { "id": "b", "text": "pode alcançar dez anos, com previsão editalícia e atestado de vantagem das condições e preços." },
+        { "id": "c", "text": "é automática e dispensa termo antes do fim da vigência." },
+        { "id": "d", "text": "só pode ocorrer por períodos exatamente iguais." },
+        { "id": "e", "text": "dispensa crédito orçamentário." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 107 fixa teto decenal e exige previsão e vantagem. A prorrogação é discricionária, deve ser formalizada antes da expiração e não precisa repetir exatamente o período anterior. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1641",
+      "revision": 1,
+      "prompt": "Assinale a combinação correta de duração especial.",
+      "options": [
+        { "id": "a", "text": "Toda dispensa — 35 anos; todo serviço contínuo — indeterminado." },
+        { "id": "b", "text": "Serviço monopolizado — 5 anos; hipóteses do art. 108 — 15 anos." },
+        { "id": "c", "text": "Dispensas específicas do art. 108 — até 10 anos; serviço público monopolizado — prazo indeterminado com crédito anual." },
+        { "id": "d", "text": "Contrato verbal — 10 anos; aluguel de equipamentos — indeterminado." },
+        { "id": "e", "text": "Qualquer contratação de TI — 35 anos." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 108 fixa até dez anos apenas para as dispensas que enumera. O art. 109 reserva prazo indeterminado ao serviço público em regime de monopólio, sujeito à comprovação anual de crédito. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1642",
+      "revision": 1,
+      "prompt": "Na contratação que gera receita ou no contrato de eficiência que gera economia, os prazos são:",
+      "options": [
+        { "id": "a", "text": "5 anos com ou sem investimento." },
+        { "id": "b", "text": "15 anos sem investimento e prazo indeterminado com investimento." },
+        { "id": "c", "text": "35 anos sem investimento e 10 com investimento." },
+        { "id": "d", "text": "até 10 anos sem investimento e até 35 com benfeitorias permanentes custeadas pelo contratado e revertidas ao poder público." },
+        { "id": "e", "text": "sempre um exercício financeiro." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 110 diferencia dez anos sem investimento e 35 com benfeitorias permanentes realizadas exclusivamente às expensas do contratado e revertidas ao patrimônio público. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1643",
+      "revision": 1,
+      "prompt": "Sobre contratos por escopo, serviço associado e sistemas estruturantes de TI, assinale a alternativa correta.",
+      "options": [
+        { "id": "a", "text": "Escopo não concluído extingue sempre o contrato, mesmo sem culpa." },
+        { "id": "b", "text": "A prorrogação automática do escopo afasta mora e sanções." },
+        { "id": "c", "text": "Operação e manutenção associadas têm prazo inicial ilimitado." },
+        { "id": "d", "text": "Todo software pode vigorar por 35 anos." },
+        { "id": "e", "text": "Escopo incompleto prorroga a vigência; serviço associado soma entrega e operação/manutenção; sistema estruturante de TI pode chegar a 15 anos." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os arts. 111, 113 e 114 estabelecem essas regras. Culpa no atraso mantém mora e sanções; operação/manutenção associada começa limitada a cinco anos e pode seguir o art. 107; 15 anos restringem-se a sistema estruturante. Fonte: questão autoral baseada em referências do conteúdo."
+    }
+  ]
+}
