@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q2019",
+      "revision": 1,
+      "prompt": "Quanto ao âmbito da IN SEGES/MP nº 5/2017, é correto afirmar que ela",
+      "options": [
+        { "id": "A", "text": "é norma geral nacional e vincula automaticamente todos os tribunais de contas." },
+        { "id": "B", "text": "disciplina a Administração federal abrangida por seu art. 1º e não se torna automaticamente regulamento interno do TCE-MA." },
+        { "id": "C", "text": "foi integralmente revogada pela Lei nº 14.133/2021." },
+        { "id": "D", "text": "somente pode ser usada em contratos sem mão de obra." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A IN nº 5/2017 é ato infralegal federal. A Lei nº 14.133/2021 contém normas gerais, mas a incidência obrigatória da IN sobre o TCE-MA dependeria de fundamento estadual ou interno competente, sem impedir seu uso como referência técnica. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2020",
+      "revision": 1,
+      "prompt": "A IN SEGES/ME nº 98/2022 determinou que, nas contratações federais de serviços sob a Lei nº 14.133/2021, a IN nº 5/2017 seja aplicada",
+      "options": [
+        { "id": "A", "text": "no que couber, mediante compatibilização com a nova lei." },
+        { "id": "B", "text": "apenas depois de autorização da contratada." },
+        { "id": "C", "text": "com prevalência de toda remissão à Lei nº 8.666/1993." },
+        { "id": "D", "text": "somente durante o planejamento." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão normativa é 'no que couber'. Técnicas operacionais compatíveis são aproveitadas, enquanto remissões revogadas ou regras conflitantes cedem à Lei nº 14.133/2021. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2021",
+      "revision": 1,
+      "prompt": "Segundo o art. 92 da Lei nº 14.133/2021, o contrato deve estabelecer",
+      "options": [
+        { "id": "A", "text": "apenas o preço global, deixando medição e pagamento ao fiscal." },
+        { "id": "B", "text": "somente a data de apresentação da nota fiscal." },
+        { "id": "C", "text": "critérios e periodicidade da medição e prazos de liquidação e pagamento." },
+        { "id": "D", "text": "um único prazo nacional para qualquer espécie contratual." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 92, V e VI, exige condições de pagamento, reajustamento, critérios e periodicidade da medição e prazos de liquidação e pagamento. Esses elementos não podem ser criados informalmente pelo fiscal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2022",
+      "revision": 1,
+      "prompt": "No fluxo ordinário dos serviços disciplinados pela IN nº 5/2017, a nota fiscal ou fatura deve ser encaminhada ao pagamento",
+      "options": [
+        { "id": "A", "text": "antes de qualquer verificação da prestação." },
+        { "id": "B", "text": "após medição, recebimentos e instrução com os comprovantes da prestação." },
+        { "id": "C", "text": "somente depois da extinção do contrato." },
+        { "id": "D", "text": "sem relatório quando houver IMR." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Execução e medição produzem as evidências para os recebimentos; depois, o gestor instrui o processo com o documento fiscal e os comprovantes. A nota fiscal isolada não atesta execução. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2023",
+      "revision": 1,
+      "prompt": "Em contrato orientado a resultados, a medição adequada",
+      "options": [
+        { "id": "A", "text": "limita-se a contar empregados presentes." },
+        { "id": "B", "text": "dispensa indicadores se o fiscal conhecer o serviço." },
+        { "id": "C", "text": "considera os padrões contratuais de quantidade, qualidade, prazo e resultado." },
+        { "id": "D", "text": "é realizada exclusivamente pela contratada." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A medição confronta a prestação com o modelo contratual. Presença de pessoal pode ser evidência relevante, mas não substitui indicadores de qualidade, produtividade e resultado previstos para o objeto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2024",
+      "revision": 1,
+      "prompt": "Um Instrumento de Medição de Resultado consistente deve",
+      "options": [
+        { "id": "A", "text": "definir indicador, meta, método, periodicidade, tolerância e repercussão financeira." },
+        { "id": "B", "text": "manter ocultas as faixas de adequação até o pagamento." },
+        { "id": "C", "text": "usar exclusivamente conceitos subjetivos." },
+        { "id": "D", "text": "ser criado depois de constatada a falha." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O IMR deve permitir medição objetiva, previsível e comprovável. Indicadores ou fatores redutores criados posteriormente comprometem a vinculação ao contrato e a rastreabilidade da glosa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2025",
+      "revision": 1,
+      "prompt": "O redimensionamento de pagamento resultante do IMR",
+      "options": [
+        { "id": "A", "text": "é necessariamente multa administrativa." },
+        { "id": "B", "text": "ajusta a contraprestação ao resultado entregue e não se confunde, por si só, com sanção." },
+        { "id": "C", "text": "depende sempre da extinção do contrato." },
+        { "id": "D", "text": "impede qualquer sanção pela mesma ocorrência." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O fator redutor dimensiona o valor devido pela prestação efetiva. Sanção tem pressupostos e processo próprios; os dois efeitos podem coexistir quando juridicamente cabíveis, sem bis in idem. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2026",
+      "revision": 1,
+      "prompt": "Conforme o Anexo VIII-A da IN nº 5/2017, a utilização do IMR",
+      "options": [
+        { "id": "A", "text": "elimina a fiscalização administrativa." },
+        { "id": "B", "text": "impede pesquisas com usuários." },
+        { "id": "C", "text": "não impede outros mecanismos de avaliação da prestação." },
+        { "id": "D", "text": "torna desnecessário o relatório do fiscal." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Anexo VIII-A admite outros mecanismos concomitantes. O IMR estrutura indicadores, mas não exclui controles técnicos, administrativos ou de satisfação pertinentes. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2027",
+      "revision": 1,
+      "prompt": "O Anexo VIII-A prevê redimensionamento do pagamento, entre outras hipóteses, quando a contratada",
+      "options": [
+        { "id": "A", "text": "não produz os resultados ou usa recursos em quantidade ou qualidade inferior à exigida." },
+        { "id": "B", "text": "pede repactuação acompanhada de planilha." },
+        { "id": "C", "text": "mantém toda a execução conforme o contrato." },
+        { "id": "D", "text": "apresenta a nota fiscal no prazo." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Resultados não produzidos, atividades omitidas, qualidade abaixo do mínimo ou recursos insuficientes são hipóteses expressas de redimensionamento segundo os indicadores estabelecidos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2028",
+      "revision": 1,
+      "prompt": "Após receber a avaliação de desempenho apresentada pelo fiscal técnico, a contratada",
+      "options": [
+        { "id": "A", "text": "pode substituir unilateralmente a avaliação pela do preposto." },
+        { "id": "B", "text": "pode justificar desempenho inferior, devendo provar excepcionalidade imprevisível e alheia a seu controle para eventual aceitação." },
+        { "id": "C", "text": "não pode se manifestar em nenhuma hipótese." },
+        { "id": "D", "text": "tem sua justificativa automaticamente aceita." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O preposto toma ciência, e a justificativa pode ser aceita se a excepcionalidade resultar exclusivamente de fatores imprevisíveis e fora do controle do prestador. Não há aceitação automática. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2029",
+      "revision": 1,
+      "prompt": "A avaliação técnica da execução, segundo o Anexo VIII-A, pode ser realizada",
+      "options": [
+        { "id": "A", "text": "somente uma vez por ano." },
+        { "id": "B", "text": "apenas no encerramento." },
+        { "id": "C", "text": "diária, semanal ou mensalmente, desde que o período seja suficiente para aferir o desempenho." },
+        { "id": "D", "text": "sem qualquer periodicidade definida." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A frequência depende do objeto e deve ser suficiente para avaliar a qualidade. Isso não altera a consolidação mensal exigida para o recebimento provisório. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2030",
+      "revision": 1,
+      "prompt": "Para efeito do recebimento provisório, o fiscal técnico deve apurar o resultado das avaliações",
+      "options": [
+        { "id": "A", "text": "ao final de cada período mensal, registrando-o em relatório ao gestor." },
+        { "id": "B", "text": "somente quando a contratada pedir." },
+        { "id": "C", "text": "apenas se houver sanção aplicada." },
+        { "id": "D", "text": "depois do pagamento integral." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O item 4 do Anexo VIII-A exige apuração mensal consolidada e relatório ao gestor, inclusive com eventual redimensionamento do valor. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2031",
+      "revision": 1,
+      "prompt": "Nas obras e nos serviços, o art. 140 da Lei nº 14.133/2021 atribui o recebimento provisório",
+      "options": [
+        { "id": "A", "text": "ao fornecedor, por autodeclaração." },
+        { "id": "B", "text": "ao responsável pelo acompanhamento e fiscalização, mediante termo detalhado após a verificação técnica." },
+        { "id": "C", "text": "sempre ao chefe do Poder Executivo." },
+        { "id": "D", "text": "ao setor contábil, mediante nota fiscal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recebimento provisório verifica exigências técnicas e cabe ao responsável pelo acompanhamento e fiscalização. O definitivo cabe a servidor ou comissão designada, mediante termo detalhado das exigências contratuais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2032",
+      "revision": 1,
+      "prompt": "O recebimento definitivo de um serviço",
+      "options": [
+        { "id": "A", "text": "exclui toda responsabilidade da contratada." },
+        { "id": "B", "text": "impede a rejeição de objeto desconforme." },
+        { "id": "C", "text": "não exclui responsabilidades legais e contratuais pela perfeita execução." },
+        { "id": "D", "text": "equivale ao pagamento antecipado." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 140 permite rejeição total ou parcial da desconformidade e preserva responsabilidades mesmo após os recebimentos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2033",
+      "revision": 1,
+      "prompt": "No procedimento do art. 50 da IN nº 5/2017, os fiscais",
+      "options": [
+        { "id": "A", "text": "produzem relatório circunstanciado, encaminhado ao gestor para o recebimento definitivo." },
+        { "id": "B", "text": "pagam diretamente a fatura." },
+        { "id": "C", "text": "dispensam documentação quando a execução parece regular." },
+        { "id": "D", "text": "delegam a medição ao preposto." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A segregação de funções produz relatórios especializados no recebimento provisório e consolidação pelo gestor no definitivo. O preposto toma ciência, mas não substitui o fiscal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2034",
+      "revision": 1,
+      "prompt": "A distribuição de atribuições de recebimento feita pelo Decreto federal nº 13.031/2026",
+      "options": [
+        { "id": "A", "text": "revoga o art. 140 da Lei nº 14.133/2021." },
+        { "id": "B", "text": "é operacionalização federal e não dispensa verificar o regulamento competente de outro ente." },
+        { "id": "C", "text": "vincula automaticamente o TCE-MA." },
+        { "id": "D", "text": "elimina o recebimento provisório." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O decreto organiza o fluxo da Administração federal. A norma geral permanece no art. 140, e a distribuição local de funções depende do regulamento aplicável ao ente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2035",
+      "revision": 1,
+      "prompt": "Quando o IMR indicar valor inferior ao faturamento inicialmente pretendido, a IN nº 5/2017 orienta",
+      "options": [
+        { "id": "A", "text": "emitir a fatura integral e ignorar a medição." },
+        { "id": "B", "text": "comunicar a empresa para emitir nota fiscal ou fatura pelo valor exatamente dimensionado." },
+        { "id": "C", "text": "converter toda diferença em multa." },
+        { "id": "D", "text": "aguardar o fim da vigência." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 50, II, 'c', e o Anexo XI buscam alinhar o documento fiscal ao valor reconhecido, evitando efeitos tributários sobre parcela glosada. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2036",
+      "revision": 1,
+      "prompt": "Uma glosa tecnicamente fundamentada deve conter",
+      "options": [
+        { "id": "A", "text": "apenas a conclusão de que o serviço foi ruim." },
+        { "id": "B", "text": "cláusula, evidência, período, extensão, fórmula e memória de cálculo." },
+        { "id": "C", "text": "somente a assinatura da autoridade." },
+        { "id": "D", "text": "indicador criado depois da execução." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A rastreabilidade liga fato, regra e efeito financeiro. Avaliação vaga ou fórmula posterior não demonstra o valor efetivamente não devido. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2037",
+      "revision": 1,
+      "prompt": "A finalidade de emitir documento fiscal pelo valor exato após glosa parcial é",
+      "options": [
+        { "id": "A", "text": "evitar efeitos tributários sobre valor que a Administração não reconheceu como devido." },
+        { "id": "B", "text": "dispensar o recebimento definitivo." },
+        { "id": "C", "text": "impedir a contratada de questionar a glosa." },
+        { "id": "D", "text": "transformar a glosa em sanção." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A adequação do documento fiscal acompanha a medição. Ela não elimina a motivação, a manifestação da contratada ou os meios de impugnação cabíveis. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2038",
+      "revision": 1,
+      "prompt": "Existe controvérsia sobre R$ 8.000 de uma medição de R$ 100.000, mas R$ 92.000 são reconhecidos. Segundo o art. 143 da Lei nº 14.133/2021, a Administração deve",
+      "options": [
+        { "id": "A", "text": "reter os R$ 100.000 até decisão final." },
+        { "id": "B", "text": "pagar os R$ 92.000 no prazo e continuar a apuração dos R$ 8.000." },
+        { "id": "C", "text": "pagar os R$ 100.000 sem analisar." },
+        { "id": "D", "text": "extinguir automaticamente o contrato." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A parcela incontroversa deve ser liberada no prazo contratual. O pagamento não decide a parte controvertida nem impede sua análise. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2039",
+      "revision": 1,
+      "prompt": "Se uma mesma falha reduz objetivamente o resultado e também configura infração contratual, a Administração pode",
+      "options": [
+        { "id": "A", "text": "redimensionar o pagamento e, em processo próprio, avaliar sanção." },
+        { "id": "B", "text": "aplicar sanção sem contraditório porque já houve IMR." },
+        { "id": "C", "text": "cobrar duas vezes a mesma perda sem fundamento." },
+        { "id": "D", "text": "ignorar o IMR para evitar qualquer consequência." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O redimensionamento define a contraprestação; a sanção responde à infração. Cada efeito deve respeitar seus pressupostos e procedimento, evitando duplicidade indevida. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2040",
+      "revision": 1,
+      "prompt": "A ordem cronológica de pagamentos da Lei nº 14.133/2021 é organizada",
+      "options": [
+        { "id": "A", "text": "em fila única nacional." },
+        { "id": "B", "text": "por fonte diferenciada de recursos e categoria contratual." },
+        { "id": "C", "text": "somente pelo valor da fatura." },
+        { "id": "D", "text": "a critério livre do gestor." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 141 separa fornecimentos, locações, serviços e obras em cada fonte de recursos. Alterações exigem hipótese legal, justificativa e comunicações próprias. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2041",
+      "revision": 1,
+      "prompt": "O pagamento antecipado sob a Lei nº 14.133/2021",
+      "options": [
+        { "id": "A", "text": "é livre sempre que a contratada solicitar." },
+        { "id": "B", "text": "é regra nos serviços contínuos." },
+        { "id": "C", "text": "é excepcional e exige economia sensível ou indispensabilidade, justificativa e previsão expressa." },
+        { "id": "D", "text": "dispensa garantia adicional." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 145 veda a antecipação como regra. A exceção demanda os pressupostos legais e pode ser condicionada a garantia adicional. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2042",
+      "revision": 1,
+      "prompt": "A responsabilidade primária pelos encargos trabalhistas, previdenciários, fiscais e comerciais da execução é",
+      "options": [
+        { "id": "A", "text": "do fiscal administrativo." },
+        { "id": "B", "text": "do contratado." },
+        { "id": "C", "text": "dos empregados terceirizados." },
+        { "id": "D", "text": "do controle interno." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 121 atribui esses encargos ao contratado. A fiscalização da Administração não converte o vínculo nem elimina essa responsabilidade primária. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2043",
+      "revision": 1,
+      "prompt": "Em serviço contínuo com dedicação exclusiva de mão de obra, a Lei nº 14.133/2021 prevê que, comprovada falha na fiscalização, a Administração responderá",
+      "options": [
+        { "id": "A", "text": "solidariamente por encargos previdenciários e subsidiariamente por encargos trabalhistas." },
+        { "id": "B", "text": "sempre como empregadora direta." },
+        { "id": "C", "text": "apenas por tributos municipais." },
+        { "id": "D", "text": "por todos os débitos comerciais sem exceção." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a hipótese específica do art. 121, § 2º. Ela exige dedicação exclusiva e falha comprovada na fiscalização, não decorrendo automaticamente de todo inadimplemento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2044",
+      "revision": 1,
+      "prompt": "Entre as medidas que o art. 121, § 3º, permite prever para assegurar obrigações trabalhistas está",
+      "options": [
+        { "id": "A", "text": "dispensar toda fiscalização." },
+        { "id": "B", "text": "depositar valores em conta vinculada." },
+        { "id": "C", "text": "transferir o vínculo de emprego à Administração." },
+        { "id": "D", "text": "pagar qualquer fatura sem comprovação." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conta vinculada, garantia, condicionamento do pagamento, pagamento direto de verba inadimplida e pagamento no fato gerador são medidas legais, desde que previstas no edital ou contrato. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2045",
+      "revision": 1,
+      "prompt": "Na fiscalização inicial do Anexo VIII-B, é pertinente verificar",
+      "options": [
+        { "id": "A", "text": "empregados, funções, horários, vínculos, salários, benefícios e exames aplicáveis." },
+        { "id": "B", "text": "apenas o lucro líquido da empresa." },
+        { "id": "C", "text": "somente a nota fiscal do primeiro mês." },
+        { "id": "D", "text": "a vida privada dos empregados sem relação com o contrato." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A planilha-resumo e os documentos iniciais permitem comparar a alocação real com contrato e norma coletiva. O controle deve permanecer pertinente e proporcional. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2046",
+      "revision": 1,
+      "prompt": "Ao final de cada período mensal, o fiscal administrativo verifica, para o recebimento provisório, os dispêndios relativos",
+      "options": [
+        { "id": "A", "text": "a salários e obrigações trabalhistas, previdenciárias e de FGTS do mês anterior." },
+        { "id": "B", "text": "somente às verbas do mês seguinte." },
+        { "id": "C", "text": "apenas ao imposto de renda dos sócios." },
+        { "id": "D", "text": "exclusivamente às multas contratuais." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O item 9 do Anexo VIII-B vincula o relatório mensal à verificação dos dispêndios do mês anterior, produzindo evidência administrativa para o gestor. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2047",
+      "revision": 1,
+      "prompt": "A fiscalização trabalhista por amostragem prevista na IN nº 5/2017 busca",
+      "options": [
+        { "id": "A", "text": "evitar que qualquer empregado seja verificado." },
+        { "id": "B", "text": "gerar efeito surpresa e alcançar todos os empregados ao longo de um ano, sem impedir repetições." },
+        { "id": "C", "text": "examinar sempre a mesma pessoa." },
+        { "id": "D", "text": "substituir todos os demais controles." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A diretriz combina amostragem, expectativa de controle e cobertura temporal do conjunto. Risco elevado pode justificar repetir a verificação de um empregado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2048",
+      "revision": 1,
+      "prompt": "Identificado indício de irregularidade no recolhimento previdenciário, a IN nº 5/2017 orienta o fiscal ou gestor a",
+      "options": [
+        { "id": "A", "text": "ignorar o fato até o encerramento." },
+        { "id": "B", "text": "oficiar à Receita Federal." },
+        { "id": "C", "text": "demitir diretamente o trabalhador." },
+        { "id": "D", "text": "aplicar retenção de 11% como multa." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item 6 do Anexo VIII-B prevê comunicação à Receita Federal. Indício relativo ao FGTS é comunicado ao órgão trabalhista competente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2049",
+      "revision": 1,
+      "prompt": "A irregularidade de uma certidão do contratado",
+      "options": [
+        { "id": "A", "text": "prova automaticamente que o serviço não foi prestado." },
+        { "id": "B", "text": "deve ser tratada conforme o regime de regularidade, sem confundi-la com a medição da execução." },
+        { "id": "C", "text": "converte qualquer pagamento em antecipação." },
+        { "id": "D", "text": "sempre autoriza glosa integral sem processo." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Execução material e manutenção da habilitação são controles distintos. A irregularidade exige providências próprias, mas não apaga a prestação comprovada nem dispensa o art. 143. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2050",
+      "revision": 1,
+      "prompt": "A referência da IN nº 5/2017 à retenção previdenciária de 11% deve ser aplicada",
+      "options": [
+        { "id": "A", "text": "automaticamente sobre qualquer fatura de serviço." },
+        { "id": "B", "text": "como fator redutor do IMR." },
+        { "id": "C", "text": "conforme a hipótese tributária vigente, verificando serviço, base, deduções e dispensas." },
+        { "id": "D", "text": "somente se houver sanção." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A retenção decorre do art. 31 da Lei nº 8.212/1991 e da regulamentação consolidada, não de presunção sobre toda fatura. É obrigação tributária distinta da glosa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2051",
+      "revision": 1,
+      "prompt": "No Anexo XII da IN nº 5/2017, a Conta-Depósito Vinculada provisiona parcelas relacionadas, entre outras, a",
+      "options": [
+        { "id": "A", "text": "décimo terceiro, férias e terço constitucional." },
+        { "id": "B", "text": "lucros dos sócios da contratada." },
+        { "id": "C", "text": "qualquer multa administrativa futura." },
+        { "id": "D", "text": "tributos pessoais do fiscal." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O modelo provisiona décimo terceiro, férias mais um terço, encargos rescisórios descritos no Anexo e incidências sobre férias e décimo terceiro. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2052",
+      "revision": 1,
+      "prompt": "A movimentação dos recursos da Conta-Depósito Vinculada",
+      "options": [
+        { "id": "A", "text": "é livre pela contratada desde o depósito." },
+        { "id": "B", "text": "depende de autorização após comprovação da obrigação e dos cálculos." },
+        { "id": "C", "text": "destina-se ao caixa geral da Administração." },
+        { "id": "D", "text": "substitui toda fiscalização trabalhista." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A conta é aberta em nome do prestador, mas permanece bloqueada. A Administração confere o fato e autoriza movimentação exclusiva para as obrigações previstas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2053",
+      "revision": 1,
+      "prompt": "Os valores depositados em conta vinculada para assegurar obrigações trabalhistas são, segundo a Lei nº 14.133/2021,",
+      "options": [
+        { "id": "A", "text": "receita tributária." },
+        { "id": "B", "text": "absolutamente impenhoráveis." },
+        { "id": "C", "text": "multa automática." },
+        { "id": "D", "text": "livremente transferíveis ao fiscal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 121, § 4º, confere impenhorabilidade absoluta aos valores da conta vinculada prevista no § 3º, III. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2054",
+      "revision": 1,
+      "prompt": "No pagamento pelo fato gerador, as parcelas trabalhistas abrangidas",
+      "options": [
+        { "id": "A", "text": "são pagas antecipadamente sem comprovação." },
+        { "id": "B", "text": "tornam-se pagáveis quando a obrigação ocorre e é comprovada." },
+        { "id": "C", "text": "são depositadas necessariamente em conta judicial." },
+        { "id": "D", "text": "são convertidas em sanção." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lógica evita pagamento mensal estimado de parcela ainda não ocorrida. O valor é reconhecido quando o fato previsto se concretiza e a contratada o comprova. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2055",
+      "revision": 1,
+      "prompt": "A diferença essencial entre conta vinculada e pagamento pelo fato gerador é que",
+      "options": [
+        { "id": "A", "text": "a primeira provisiona mensalmente em conta bloqueada; o segundo paga a parcela após ocorrência e comprovação." },
+        { "id": "B", "text": "ambos são nomes da retenção previdenciária." },
+        { "id": "C", "text": "a conta vinculada é sanção e o fato gerador é multa." },
+        { "id": "D", "text": "o fato gerador dispensa fiscalização." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os mecanismos tratam o risco por momentos financeiros diferentes. Nenhum se confunde com tributo, glosa ou sanção. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2056",
+      "revision": 1,
+      "prompt": "No modelo de gerenciamento de riscos da IN nº 5/2017, conta vinculada e pagamento pelo fato gerador são",
+      "options": [
+        { "id": "A", "text": "alternativas escolhidas conforme custo-benefício, não cumuladas automaticamente sobre a mesma parcela." },
+        { "id": "B", "text": "obrigatórios juntos em toda contratação." },
+        { "id": "C", "text": "aplicáveis apenas a compras comuns." },
+        { "id": "D", "text": "formas de punição disciplinar." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os dois mecanismos mitigam risco trabalhista em serviços pertinentes. A escolha deve ser justificada, e ambos dependem de previsão e operacionalização adequadas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2057",
+      "revision": 1,
+      "prompt": "As atualizações federais sobre garantias trabalhistas publicadas entre 2024 e 2026",
+      "options": [
+        { "id": "A", "text": "vinculam automaticamente todos os entes federativos." },
+        { "id": "B", "text": "têm âmbito federal próprio e exigem fundamento competente para aplicação obrigatória pelo TCE-MA." },
+        { "id": "C", "text": "revogaram o art. 121 da Lei nº 14.133/2021." },
+        { "id": "D", "text": "tratam exclusivamente de obras militares." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Decretos e instruções SEGES/MGI organizam a Administração federal indicada nos atos. A Lei nº 14.133/2021 permanece a base geral, e o ente local pode adotar regulamentação própria. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2058",
+      "revision": 1,
+      "prompt": "A IN SEGES/MGI nº 81/2024 relaciona a compensação de jornada em contratos federais",
+      "options": [
+        { "id": "A", "text": "à fiscalização, ao recebimento provisório e a eventual sugestão de glosa se a compensação não ocorrer." },
+        { "id": "B", "text": "à dispensa de controle da jornada." },
+        { "id": "C", "text": "à transferência do vínculo para a Administração." },
+        { "id": "D", "text": "ao reajuste automático por índice." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A norma federal regulamenta hipóteses e limites da compensação e determina que seu resultado seja acompanhado no fluxo de fiscalização e medição. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2059",
+      "revision": 1,
+      "prompt": "A IN SEGES/MGI nº 176/2024 reforçou, no âmbito federal, controles sobre",
+      "options": [
+        { "id": "A", "text": "custos mínimos relevantes de mão de obra e instrumento coletivo aplicável." },
+        { "id": "B", "text": "sigilo absoluto da planilha de custos." },
+        { "id": "C", "text": "pagamento sem norma coletiva." },
+        { "id": "D", "text": "extinção automática por qualquer erro." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A norma disciplina categoria profissional, instrumento coletivo paradigma, custos mínimos e controles da proposta e da execução, sem eliminar o dever de análise concreta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2060",
+      "revision": 1,
+      "prompt": "Após o Decreto nº 12.926/2026 e a IN SEGES/MGI nº 147/2026, o reembolso-creche nos contratos federais abrangidos",
+      "options": [
+        { "id": "A", "text": "é pago à contratada sem verificar beneficiários." },
+        { "id": "B", "text": "integra controles do Anexo VIII-B e depende de comprovação do desembolso efetivo." },
+        { "id": "C", "text": "substitui o salário-base." },
+        { "id": "D", "text": "é uma sanção trabalhista." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A atualização incluiu documentos e relatórios de beneficiários na fiscalização para calcular o valor efetivamente devido. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2061",
+      "revision": 1,
+      "prompt": "Associe corretamente o instituto à situação típica:",
+      "options": [
+        { "id": "A", "text": "inflação ordinária — revisão extraordinária em qualquer caso." },
+        { "id": "B", "text": "variação analítica da mão de obra dedicada — repactuação." },
+        { "id": "C", "text": "evento extraordinário — reajuste por índice." },
+        { "id": "D", "text": "erro da proposta — recomposição automática." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reajuste por índice trata variação ordinária; repactuação trata custos de serviço contínuo com mão de obra dedicada ou predominante; revisão trata ruptura extraordinária comprovada. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2062",
+      "revision": 1,
+      "prompt": "O reajuste em sentido estrito consiste em",
+      "options": [
+        { "id": "A", "text": "aplicar índice contratual que reflita a variação efetiva do custo de produção." },
+        { "id": "B", "text": "refazer toda a planilha trabalhista a cada mês." },
+        { "id": "C", "text": "indenizar qualquer erro do licitante." },
+        { "id": "D", "text": "aplicar multa por inflação." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a definição do art. 6º, LVIII. Em serviço contínuo sem dedicação exclusiva ou predominância de mão de obra, usam-se índices específicos ou setoriais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2063",
+      "revision": 1,
+      "prompt": "A repactuação é adequada para",
+      "options": [
+        { "id": "A", "text": "serviço contínuo com dedicação exclusiva ou predominância de mão de obra, mediante demonstração analítica." },
+        { "id": "B", "text": "qualquer compra com entrega imediata." },
+        { "id": "C", "text": "sanção por atraso." },
+        { "id": "D", "text": "pagamento de parcela incontroversa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os arts. 6º, LIX, 92, § 4º, II, e 135 da Lei nº 14.133/2021 definem o campo e a técnica da repactuação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2064",
+      "revision": 1,
+      "prompt": "A revisão para restabelecer a equação inicial exige, em regra,",
+      "options": [
+        { "id": "A", "text": "apenas a alegação de redução da margem de lucro." },
+        { "id": "B", "text": "evento extraordinário, nexo, impacto e compatibilidade com a matriz de riscos." },
+        { "id": "C", "text": "um índice anual previamente fixado." },
+        { "id": "D", "text": "erro ordinário na planilha da proposta." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 124, II, 'd', cobre eventos extraordinários que inviabilizem a execução como pactuada, respeitada a alocação objetiva dos riscos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2065",
+      "revision": 1,
+      "prompt": "Na primeira repactuação, a data relevante é",
+      "options": [
+        { "id": "A", "text": "sempre a assinatura do contrato para todos os custos." },
+        { "id": "B", "text": "a proposta para custos de mercado e a norma coletiva de referência para custos de mão de obra." },
+        { "id": "C", "text": "sempre o primeiro pagamento." },
+        { "id": "D", "text": "a data escolhida livremente pelo fiscal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A dualidade de datas reconhece origens diferentes da variação. Para mão de obra, importa o acordo, convenção ou dissídio ao qual a proposta se vinculou. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2066",
+      "revision": 1,
+      "prompt": "O interregno mínimo da repactuação é de",
+      "options": [
+        { "id": "A", "text": "trinta dias." },
+        { "id": "B", "text": "seis meses." },
+        { "id": "C", "text": "um ano." },
+        { "id": "D", "text": "cinco anos." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 135, § 3º, exige um ano contado da proposta ou da última repactuação, conforme a parcela e o fato gerador analisados. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2067",
+      "revision": 1,
+      "prompt": "Quando o contrato envolve várias categorias profissionais com instrumentos coletivos distintos, a repactuação",
+      "options": [
+        { "id": "A", "text": "pode ser dividida conforme as diferentes anualidades e categorias." },
+        { "id": "B", "text": "deve ignorar todas as datas-base." },
+        { "id": "C", "text": "só pode ocorrer no encerramento." },
+        { "id": "D", "text": "transforma-se em reajuste por um único índice." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei permite parcelamento por custos e tantos momentos quantos os instrumentos coletivos das categorias, sempre respeitando a anualidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2068",
+      "revision": 1,
+      "prompt": "A concessão da repactuação deve ser precedida de",
+      "options": [
+        { "id": "A", "text": "solicitação da contratada e demonstração analítica por planilha ou novo instrumento coletivo." },
+        { "id": "B", "text": "decisão oral do preposto." },
+        { "id": "C", "text": "pagamento antecipado integral." },
+        { "id": "D", "text": "aplicação automática de qualquer percentual pedido." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 135, § 6º, exige requerimento e prova. A norma coletiva sustenta custos de mão de obra, mas a Administração analisa os itens efetivamente afetados. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2069",
+      "revision": 1,
+      "prompt": "A Administração não se vincula, na repactuação, a cláusula coletiva que",
+      "options": [
+        { "id": "A", "text": "fixa salário-base trabalhista da categoria." },
+        { "id": "B", "text": "estabelece preço de insumo para contrato administrativo." },
+        { "id": "C", "text": "define benefício trabalhista previsto em lei." },
+        { "id": "D", "text": "registra a data-base da categoria." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 135 veda vinculação a matéria não trabalhista, preços de insumos, encargos sem lei e direitos criados exclusivamente para contratos públicos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2070",
+      "revision": 1,
+      "prompt": "Sob a Lei nº 14.133/2021, o prazo de resposta ao pedido de repactuação de serviço contínuo com mão de obra dedicada ou predominante será",
+      "options": [
+        { "id": "A", "text": "preferencialmente de um mês, contado do fornecimento da documentação pertinente." },
+        { "id": "B", "text": "sempre de 60 dias, sem possibilidade de disciplina contratual." },
+        { "id": "C", "text": "indefinido." },
+        { "id": "D", "text": "de um ano após a decisão." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 92, § 6º, atualiza a leitura do prazo histórico de 60 dias da IN nº 5/2017. O contrato também deve indicar o prazo de resposta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2071",
+      "revision": 1,
+      "prompt": "Os efeitos financeiros de uma repactuação reconhecida",
+      "options": [
+        { "id": "A", "text": "alcançam automaticamente toda a planilha." },
+        { "id": "B", "text": "limitam-se aos itens que a motivaram e à diferença comprovada." },
+        { "id": "C", "text": "constituem multa à Administração." },
+        { "id": "D", "text": "começam sempre na data da decisão, sem exceção." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A IN nº 5/2017 limita os efeitos aos itens motivadores. Como regra, vigem desde o fato gerador, admitidas as situações específicas previstas na norma. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2072",
+      "revision": 1,
+      "prompt": "A variação do valor contratual decorrente de reajuste ou repactuação prevista no próprio contrato pode ser registrada por",
+      "options": [
+        { "id": "A", "text": "apostila." },
+        { "id": "B", "text": "ordem verbal." },
+        { "id": "C", "text": "nota fiscal sem processo." },
+        { "id": "D", "text": "sanção." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 136, I, trata esses registros como situações que não caracterizam alteração contratual e admite apostila. Alteração substancial fora dessas hipóteses exige instrumento adequado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2073",
+      "revision": 1,
+      "prompt": "A contratada tinha direito já exigível à repactuação, mas prorrogou o contrato sem pedido nem ressalva. Segundo o art. 57, § 7º, da IN nº 5/2017, ocorre",
+      "options": [
+        { "id": "A", "text": "pagamento automático." },
+        { "id": "B", "text": "preclusão da repactuação não solicitada." },
+        { "id": "C", "text": "nulidade necessária da prorrogação." },
+        { "id": "D", "text": "reajuste retroativo por qualquer índice." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regra permite à Administração avaliar a prorrogação conhecendo o preço pretendido. Pedido ou ressalva tempestiva preserva a análise, sem assegurar deferimento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2074",
+      "revision": 1,
+      "prompt": "Se a nova convenção coletiva que fundamentaria repactuação ainda não existia na data da prorrogação,",
+      "options": [
+        { "id": "A", "text": "a contratada deveria pedir um direito sem fato gerador." },
+        { "id": "B", "text": "não havia pretensão constituída a ser preclusa naquele ato." },
+        { "id": "C", "text": "qualquer repactuação futura está proibida." },
+        { "id": "D", "text": "a Administração deve inventar uma data-base." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A preclusão pressupõe direito que já pudesse ser exercido. Fato gerador posterior será examinado conforme sua própria anualidade e os demais requisitos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2075",
+      "revision": 1,
+      "prompt": "A preclusão lógica da repactuação",
+      "options": [
+        { "id": "A", "text": "aplica-se automaticamente e sem ressalvas a todo reajuste por índice." },
+        { "id": "B", "text": "não deve ser transportada automaticamente ao reajuste estrito, que pode ser aplicado de ofício." },
+        { "id": "C", "text": "nunca existe." },
+        { "id": "D", "text": "substitui a anualidade." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reajuste indexado e repactuação têm procedimentos distintos. Renúncia ao reajuste exige avaliar previsão contratual e manifestação inequívoca, não mera analogia automática. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2076",
+      "revision": 1,
+      "prompt": "O pedido de restabelecimento do equilíbrio econômico-financeiro deve ser formulado",
+      "options": [
+        { "id": "A", "text": "durante a vigência e antes de eventual prorrogação." },
+        { "id": "B", "text": "somente cinco anos após a extinção." },
+        { "id": "C", "text": "apenas depois do pagamento final." },
+        { "id": "D", "text": "sem demonstração do evento." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 131, parágrafo único, fixa o momento do pedido. A extinção posterior não impede reconhecer pretensão tempestiva, mas não elimina esse requisito. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2077",
+      "revision": 1,
+      "prompt": "A contratada subestimou, sem evento superveniente extraordinário, a quantidade de vale-transporte em sua proposta. Em regra,",
+      "options": [
+        { "id": "A", "text": "o erro gera revisão automática." },
+        { "id": "B", "text": "o ônus do dimensionamento equivocado permanece com a contratada." },
+        { "id": "C", "text": "a Administração deve ignorar a proposta." },
+        { "id": "D", "text": "o caso é de reajuste por índice." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 63 da IN nº 5/2017 atribui à contratada o erro de quantitativos e custos variáveis, salvo evento juridicamente apto a transferir o risco. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2078",
+      "revision": 1,
+      "prompt": "Em um serviço federal com dedicação exclusiva, a fiscalização comprovou qualidade abaixo da meta em 5%, identificou parcela incontroversa e recebeu pedido documentado de repactuação por nova CCT. A solução correta é",
+      "options": [
+        { "id": "A", "text": "tratar tudo como uma única multa e suspender a fatura inteira." },
+        { "id": "B", "text": "aplicar o IMR conforme a fórmula, pagar a parcela incontroversa e analisar separadamente a repactuação demonstrada." },
+        { "id": "C", "text": "ignorar a medição porque existe pedido de repactuação." },
+        { "id": "D", "text": "deferir a repactuação sem planilha e pagar antecipadamente." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cada instituto responde a problema distinto: IMR dimensiona a prestação, art. 143 protege a parcela incontroversa e repactuação analisa a variação de custos mediante prova própria. Fonte: questão autoral baseada em referências do conteúdo."
+    }
+  ]
+}
