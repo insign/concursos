@@ -584,7 +584,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - 2.3. Papel do preposto da contratada.
 - 2.4. Acompanhamento da execução contratual.
 
-##### [ ] Assunto 137 - Item 2, subitens 2.5 e 2.6: Irregularidades, penalidades e sanções administrativas.
+##### [>] Em progresso Assunto 137 - Item 2, subitens 2.5 e 2.6: Irregularidades, penalidades e sanções administrativas.
 
 - 2.5. Registro e notificação de irregularidades.
 - 2.6. Definição e aplicação de penalidades e sanções administrativas.
