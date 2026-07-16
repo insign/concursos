@@ -573,7 +573,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 ##### [x] Concluído Assunto 133 - Item 1.2, fase 3: Gestão e fiscalização contratual.
 
-##### [R] Em revisão Assunto 134 - Item 1.2, fase 4: Medição, pagamento, obrigações trabalhistas e manutenção do equilíbrio econômico.
+##### [x] Concluído Assunto 134 - Item 1.2, fase 4: Medição, pagamento, obrigações trabalhistas e manutenção do equilíbrio econômico.
 
 ##### [ ] Assunto 135 - Item 1.2, fase 5: Encerramento e regras operacionais finais.
 
