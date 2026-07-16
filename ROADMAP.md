@@ -562,7 +562,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 ##### [x] Concluído Assunto 129 - Item 1.1, fase 6: Extinção, recebimento e pagamento.
 
-##### [>] Em progresso Assunto 130 - Item 1.1, fase 7: Infrações, sanções, controle, PNCP e regras finais.
+##### [R] Em revisão Assunto 130 - Item 1.1, fase 7: Infrações, sanções, controle, PNCP e regras finais.
 
 ##### [ ] Assunto 131 - Item 1.2, fase 1: Planejamento da contratação segundo a IN nº 5/2017.
 

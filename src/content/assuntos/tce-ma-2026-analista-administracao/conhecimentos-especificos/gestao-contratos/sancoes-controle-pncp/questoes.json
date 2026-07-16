@@ -1,0 +1,916 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1754",
+      "revision": 1,
+      "prompt": "Ao constatar irregularidade insanável na execução contratual, a autoridade pretende declarar imediatamente a nulidade apenas porque o vício foi comprovado. Segundo o art. 147, ela deve:",
+      "options": [
+        { "id": "a", "text": "avaliar se suspensão ou nulidade é medida de interesse público, considerando as consequências legais, sem afastar responsabilização." },
+        { "id": "b", "text": "anular automaticamente, pois o interesse público é presumido em todo vício." },
+        { "id": "c", "text": "manter o contrato e arquivar qualquer apuração." },
+        { "id": "d", "text": "consultar somente o contratado, que decide se aceita a nulidade." },
+        { "id": "e", "text": "aplicar multa e considerar o contrato automaticamente válido." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 147 prioriza o saneamento e, se ele for impossível, condiciona suspensão ou nulidade à demonstração do interesse público mediante avaliação de consequências. Continuidade, nulidade, reparação e responsabilização são planos distintos; nenhuma solução arquiva automaticamente a apuração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1755",
+      "revision": 1,
+      "prompt": "Como regra, a declaração de nulidade do contrato administrativo:",
+      "options": [
+        { "id": "a", "text": "produz somente efeitos futuros e preserva todos os anteriores." },
+        { "id": "b", "text": "opera retroativamente, impede efeitos ordinários futuros e desconstitui os já produzidos." },
+        { "id": "c", "text": "depende sempre de condenação judicial definitiva." },
+        { "id": "d", "text": "transforma o vínculo em contrato privado." },
+        { "id": "e", "text": "elimina a possibilidade de indenização ou responsabilização." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 148 adota a retroatividade como regra. Se o retorno fático for impossível, haverá solução por perdas e danos; também pode haver eficácia futura para preservar a continuidade. Essas acomodações não transformam a regra em efeito exclusivamente prospectivo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1756",
+      "revision": 1,
+      "prompt": "Para evitar a interrupção de atividade administrativa, a autoridade declara a nulidade, mas precisa de tempo para nova contratação. O art. 148 permite eficácia futura por:",
+      "options": [
+        { "id": "a", "text": "até 30 dias, sem prorrogação." },
+        { "id": "b", "text": "até 90 dias, prorrogáveis indefinidamente." },
+        { "id": "c", "text": "até seis meses, prorrogáveis uma única vez." },
+        { "id": "d", "text": "um ano improrrogável em qualquer situação." },
+        { "id": "e", "text": "prazo livre, definido apenas pelo contratado." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 148, § 2º, autoriza diferir a eficácia por prazo suficiente à nova contratação, limitado a seis meses e prorrogável uma vez. A medida preserva continuidade, mas não convalida o contrato nulo nem cria prazo ilimitado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1757",
+      "revision": 1,
+      "prompt": "Um contratado executou regularmente parte do objeto, mas provocou dolosamente o vício que levou à nulidade. Sobre o art. 149, assinale a correta:",
+      "options": [
+        { "id": "a", "text": "a Administração nunca indeniza execução ocorrida em contrato nulo." },
+        { "id": "b", "text": "a indenização é sempre integral, ainda que o contratado tenha causado o vício." },
+        { "id": "c", "text": "a nulidade exonera automaticamente todos os responsáveis." },
+        { "id": "d", "text": "a proteção indenizatória pressupõe que o vício não seja imputável ao contratado, e quem o causou deve ser responsabilizado." },
+        { "id": "e", "text": "somente o lucro futuro presumido pode ser indenizado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Administração indeniza o executado e prejuízos comprovados desde que a causa da nulidade não seja imputável ao contratado. O enunciado informa culpa do particular, afastando essa proteção, sem eliminar a necessidade de apurar valores e responsabilidades. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1758",
+      "revision": 1,
+      "prompt": "Antes de contratar, o órgão descreve o objeto de modo genérico e não indica créditos para as parcelas que vencerão no exercício. A Lei nº 14.133/2021 determina que:",
+      "options": [
+        { "id": "a", "text": "a ausência de crédito é irrelevante se houver futuro aditivo." },
+        { "id": "b", "text": "somente compras, e não serviços, exigem caracterização do objeto." },
+        { "id": "c", "text": "o fiscal pode suprir ambos os requisitos após a execução." },
+        { "id": "d", "text": "o ato permanece válido, mas o contratado recebe advertência." },
+        { "id": "e", "text": "nenhuma contratação pode ocorrer sem esses requisitos, sob pena de nulidade do ato e responsabilização de quem deu causa." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 150 exige caracterização adequada do objeto e indicação dos créditos das parcelas vincendas no exercício da contratação. Sua falta acarreta nulidade do ato e responsabilização, não sendo sanada por promessa de aditivo ou atuação posterior do fiscal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1759",
+      "revision": 1,
+      "prompt": "A Administração e a contratada divergem sobre o cálculo da recomposição econômico-financeira. Esse conflito:",
+      "options": [
+        { "id": "a", "text": "pode ser submetido a meio alternativo por envolver direito patrimonial disponível expressamente exemplificado na Lei." },
+        { "id": "b", "text": "jamais pode ser objeto de conciliação, mediação ou arbitragem." },
+        { "id": "c", "text": "só admite decisão unilateral do fiscal." },
+        { "id": "d", "text": "deve ser decidido por arbitragem de equidade." },
+        { "id": "e", "text": "torna o contrato automaticamente nulo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O parágrafo único do art. 151 inclui o restabelecimento do equilíbrio econômico-financeiro entre os exemplos de direitos patrimoniais disponíveis. O uso de meio alternativo não é obrigatório e não autoriza arbitragem por equidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1760",
+      "revision": 1,
+      "prompt": "Em arbitragem que envolva a Administração Pública sob a Lei nº 14.133/2021:",
+      "options": [
+        { "id": "a", "text": "o árbitro pode decidir apenas por equidade e o processo é necessariamente sigiloso." },
+        { "id": "b", "text": "a arbitragem será de direito e observará o princípio da publicidade." },
+        { "id": "c", "text": "a sentença arbitral é mera recomendação sem efeitos para as partes." },
+        { "id": "d", "text": "qualquer direito indisponível pode ser transacionado livremente." },
+        { "id": "e", "text": "o controle externo sobre recursos públicos fica excluído." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 152 exige arbitragem de direito e publicidade. A decisão arbitral é vinculante no campo submetido, mas o método não torna disponível o que a lei protege nem afasta controle externo sobre recursos públicos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1761",
+      "revision": 1,
+      "prompt": "Um contrato não contém cláusula original sobre mediação ou arbitragem. Durante a execução, surge conflito patrimonial disponível. Segundo o art. 153:",
+      "options": [
+        { "id": "a", "text": "a omissão original torna impossível qualquer meio alternativo." },
+        { "id": "b", "text": "o fiscal pode impor verbalmente arbitragem de equidade." },
+        { "id": "c", "text": "o contrato pode ser aditado para permitir a adoção do meio alternativo." },
+        { "id": "d", "text": "somente lei nova específica pode alterar o contrato." },
+        { "id": "e", "text": "o conflito deve permanecer sem solução até o término do vínculo." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 153 admite aditamento para permitir meios alternativos. Isso não dispensa motivação, competência e demais requisitos, nem autoriza arbitragem por equidade. A ausência da cláusula inicial não é impedimento absoluto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1762",
+      "revision": 1,
+      "prompt": "A escolha de árbitros, colegiados arbitrais e comitês de resolução de disputas deve observar critérios:",
+      "options": [
+        { "id": "a", "text": "políticos, secretos e discricionários." },
+        { "id": "b", "text": "exclusivamente econômicos, sem motivação." },
+        { "id": "c", "text": "definidos unilateralmente pela contratada." },
+        { "id": "d", "text": "isonômicos, técnicos e transparentes." },
+        { "id": "e", "text": "baseados apenas na ordem de inscrição dos interessados." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 154 explicita os critérios isonômicos, técnicos e transparentes. A escolha não pode ser secreta, meramente política ou dominada por uma das partes. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1763",
+      "revision": 1,
+      "prompt": "Qual conduta é infração administrativa expressamente prevista no art. 155?",
+      "options": [
+        { "id": "a", "text": "formular pedido de esclarecimento tempestivo sobre o edital." },
+        { "id": "b", "text": "apresentar recurso administrativo cabível." },
+        { "id": "c", "text": "recusar aditivo que dependa de acordo entre as partes." },
+        { "id": "d", "text": "solicitar recomposição comprovada do equilíbrio econômico-financeiro." },
+        { "id": "e", "text": "não manter a proposta sem fato superveniente devidamente justificado." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 155, V, tipifica não manter a proposta, ressalvado fato superveniente devidamente justificado. Impugnar, recorrer ou pedir recomposição pelos canais legais não constitui, por si, infração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1764",
+      "revision": 1,
+      "prompt": "A advertência prevista no art. 156 é aplicável:",
+      "options": [
+        { "id": "a", "text": "exclusivamente à inexecução parcial simples do art. 155, I, quando não se justificar sanção mais grave." },
+        { "id": "b", "text": "a qualquer fraude, obrigatoriamente como sanção única." },
+        { "id": "c", "text": "somente à inexecução total." },
+        { "id": "d", "text": "a atos lesivos anticorrupção, em substituição à inidoneidade." },
+        { "id": "e", "text": "a toda infração antes de qualquer outra medida." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A advertência é reservada à infração do art. 155, I, quando a gravidade não justificar penalidade superior. Não é etapa obrigatória para todas as infrações e não substitui o enquadramento próprio de fraude ou ato lesivo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1765",
+      "revision": 1,
+      "prompt": "A multa administrativa do art. 156:",
+      "options": [
+        { "id": "a", "text": "é limitada a 3% e somente incide na inexecução total." },
+        { "id": "b", "text": "pode atingir qualquer infração e varia de 0,5% a 30% do valor do contrato licitado ou da contratação direta." },
+        { "id": "c", "text": "não precisa estar calculada conforme edital ou contrato." },
+        { "id": "d", "text": "substitui sempre a reparação integral do dano." },
+        { "id": "e", "text": "nunca pode ser cumulada com outra sanção." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A multa pode alcançar qualquer infração do art. 155, deve ser calculada conforme edital ou contrato e permanecer entre 0,5% e 30%. Pode cumular-se com advertência, impedimento ou inidoneidade e não elimina reparação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1766",
+      "revision": 1,
+      "prompt": "O impedimento de licitar e contratar aplicado por um Estado, conforme o art. 156, § 4º:",
+      "options": [
+        { "id": "a", "text": "alcança automaticamente todos os entes federativos por seis anos." },
+        { "id": "b", "text": "só pode decorrer das infrações VIII a XII." },
+        { "id": "c", "text": "alcança a Administração direta e indireta do ente sancionador e dura no máximo três anos." },
+        { "id": "d", "text": "não exige processo de responsabilização." },
+        { "id": "e", "text": "é idêntico à declaração de inidoneidade." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O impedimento incide nas infrações II a VII, salvo gravidade que reclame inidoneidade, limita-se ao ente federativo sancionador e tem máximo de três anos. Alcance nacional e faixa de três a seis anos pertencem à inidoneidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1767",
+      "revision": 1,
+      "prompt": "A declaração de inidoneidade para licitar ou contratar:",
+      "options": [
+        { "id": "a", "text": "tem alcance apenas no órgão que conduziu o processo." },
+        { "id": "b", "text": "dura no máximo dois anos." },
+        { "id": "c", "text": "não pode atingir infração dos incisos II a VII, mesmo quando gravíssima." },
+        { "id": "d", "text": "alcança todos os entes federativos por prazo mínimo de três e máximo de seis anos." },
+        { "id": "e", "text": "dispensa análise jurídica prévia." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A inidoneidade alcança a Administração direta e indireta de todos os entes, de três a seis anos. Aplica-se aos incisos VIII a XII e aos casos graves de II a VII, com análise jurídica e competência qualificadas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1768",
+      "revision": 1,
+      "prompt": "Na dosimetria das sanções, a Administração deve considerar:",
+      "options": [
+        { "id": "a", "text": "somente o valor nominal do contrato." },
+        { "id": "b", "text": "apenas os antecedentes do agente público fiscal." },
+        { "id": "c", "text": "exclusivamente a repercussão na imprensa." },
+        { "id": "d", "text": "um percentual fixo nacional, sem atenção ao caso concreto." },
+        { "id": "e", "text": "gravidade, peculiaridades, agravantes e atenuantes, danos e programa de integridade." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 156, § 1º, reúne esses cinco vetores. A lei exige avaliação motivada do caso concreto; valor, opinião pública ou fórmula única não substituem a dosimetria legal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1769",
+      "revision": 1,
+      "prompt": "Sobre cumulação e reparação no regime sancionador, é correto afirmar que:",
+      "options": [
+        { "id": "a", "text": "advertência, impedimento e inidoneidade podem cumular com multa, e nenhuma sanção afasta a reparação integral." },
+        { "id": "b", "text": "a multa impede qualquer outra sanção." },
+        { "id": "c", "text": "a reparação substitui obrigatoriamente o processo sancionador." },
+        { "id": "d", "text": "a inidoneidade quita automaticamente o dano." },
+        { "id": "e", "text": "a advertência nunca pode coexistir com multa." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 156, §§ 7º e 9º, admite a cumulação das três sanções com multa e preserva a reparação integral. Resposta punitiva e recomposição patrimonial têm funções distintas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1770",
+      "revision": 1,
+      "prompt": "Antes de aplicar multa administrativa, a Administração deve facultar defesa ao interessado no prazo de:",
+      "options": [
+        { "id": "a", "text": "três dias corridos da ocorrência." },
+        { "id": "b", "text": "15 dias úteis da intimação." },
+        { "id": "c", "text": "30 dias úteis da assinatura do contrato." },
+        { "id": "d", "text": "cinco anos da ciência da infração." },
+        { "id": "e", "text": "dez dias corridos do relatório do fiscal." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 157 fixa 15 dias úteis, contados da intimação, para defesa na multa. Os cinco anos dizem respeito à prescrição do processo das sanções mais graves, não ao prazo defensivo da multa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1771",
+      "revision": 1,
+      "prompt": "Em órgão com quadro estatutário, o processo para impedimento ou inidoneidade será conduzido por:",
+      "options": [
+        { "id": "a", "text": "um fiscal escolhido pela contratada." },
+        { "id": "b", "text": "qualquer comissão privada sem vínculo com o órgão." },
+        { "id": "c", "text": "comissão composta por dois ou mais servidores estáveis." },
+        { "id": "d", "text": "júri popular com cinco integrantes." },
+        { "id": "e", "text": "tribunal arbitral obrigatoriamente." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 158 exige dois ou mais servidores estáveis. Apenas quando o quadro não é estatutário admite dois ou mais empregados permanentes, preferencialmente com três anos de serviço no órgão. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1772",
+      "revision": 1,
+      "prompt": "No processo de responsabilização, foi deferida produção de nova prova. Depois de intimado, o acusado:",
+      "options": [
+        { "id": "a", "text": "não pode mais se manifestar sobre o material." },
+        { "id": "b", "text": "tem apenas 24 horas para recorrer ao Judiciário." },
+        { "id": "c", "text": "recebe automaticamente absolvição." },
+        { "id": "d", "text": "pode apresentar alegações finais em 15 dias úteis." },
+        { "id": "e", "text": "escolhe a sanção que prefere cumprir." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 158, § 2º, assegura 15 dias úteis para alegações finais após prova nova ou indispensável. A comissão pode indeferir provas inadequadas, mas deve fazê-lo motivadamente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1773",
+      "revision": 1,
+      "prompt": "A prescrição prevista no art. 158 ocorre em cinco anos da ciência da infração pela Administração e:",
+      "options": [
+        { "id": "a", "text": "não admite qualquer alteração na contagem." },
+        { "id": "b", "text": "interrompe-se com simples notícia na imprensa." },
+        { "id": "c", "text": "suspende-se com a instauração do processo." },
+        { "id": "d", "text": "interrompe-se por acordo de leniência." },
+        { "id": "e", "text": "interrompe-se com a instauração do processo e suspende-se por leniência ou decisão judicial impeditiva." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A instauração do processo interrompe a prescrição. Acordo de leniência e decisão judicial que inviabilize concluir a apuração suspendem-na. A lei distingue expressamente as duas técnicas de contagem. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1774",
+      "revision": 1,
+      "prompt": "Uma conduta é simultaneamente infração licitatória e ato lesivo da Lei nº 12.846/2013. Ela será:",
+      "options": [
+        { "id": "a", "text": "apurada e julgada conjuntamente nos mesmos autos, segundo rito e autoridade da Lei Anticorrupção." },
+        { "id": "b", "text": "ignorada no processo licitatório." },
+        { "id": "c", "text": "automaticamente convertida em advertência." },
+        { "id": "d", "text": "processada apenas por árbitro privado." },
+        { "id": "e", "text": "considerada prescrita desde a ocorrência." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 159 manda apurar e julgar conjuntamente essas condutas, nos mesmos autos, observando o rito e a autoridade da Lei Anticorrupção. Não há redução automática da sanção nem abandono da apuração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1775",
+      "revision": 1,
+      "prompt": "A desconsideração da personalidade jurídica para estender efeitos de sanção exige:",
+      "options": [
+        { "id": "a", "text": "apenas que a pessoa seja sócia minoritária." },
+        { "id": "b", "text": "abuso para facilitar, encobrir ou dissimular ilícito ou confusão patrimonial, com defesa e análise jurídica prévia." },
+        { "id": "c", "text": "mera coincidência de endereço entre duas empresas." },
+        { "id": "d", "text": "extensão automática a qualquer empregado." },
+        { "id": "e", "text": "sentença penal como único pressuposto possível." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 160 requer abuso do direito ou confusão patrimonial e preserva contraditório, ampla defesa e análise jurídica. A extensão alcança sujeitos legalmente delimitados, não qualquer sócio, empregado ou empresa semelhante. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1776",
+      "revision": 1,
+      "prompt": "Após aplicar sanção, órgãos e entidades de todos os entes devem atualizar CEIS e CNEP no prazo máximo de:",
+      "options": [
+        { "id": "a", "text": "três dias corridos da abertura do processo." },
+        { "id": "b", "text": "cinco anos do trânsito em julgado." },
+        { "id": "c", "text": "15 dias úteis da aplicação da sanção." },
+        { "id": "d", "text": "30 dias corridos da assinatura do contrato." },
+        { "id": "e", "text": "um ano da reabilitação." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 161 fixa 15 dias úteis da aplicação da sanção. A publicidade cadastral não substitui o processo regular e o prazo não começa na abertura da apuração ou na eventual reabilitação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1777",
+      "revision": 1,
+      "prompt": "O atraso injustificado na execução contratual:",
+      "options": [
+        { "id": "a", "text": "nunca pode gerar multa se não houver dano material." },
+        { "id": "b", "text": "gera automaticamente inidoneidade por seis anos." },
+        { "id": "c", "text": "somente autoriza advertência verbal." },
+        { "id": "d", "text": "sujeita a multa de mora, que pode ser convertida em compensatória, com extinção unilateral e outras sanções cabíveis." },
+        { "id": "e", "text": "impede a Administração de extinguir o contrato." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 162 prevê multa de mora conforme edital ou contrato e admite conversão em compensatória, extinção unilateral e cumulação de sanções. Cada providência ainda depende de seus pressupostos e procedimento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1778",
+      "revision": 1,
+      "prompt": "Para reabilitação após declaração de inidoneidade, entre outros requisitos, exige-se:",
+      "options": [
+        { "id": "a", "text": "apenas pedido verbal após seis meses." },
+        { "id": "b", "text": "perdão automático ao fim do primeiro ano." },
+        { "id": "c", "text": "dispensa do pagamento de multa e da reparação." },
+        { "id": "d", "text": "decisão de autoridade diferente da sancionadora, sem análise jurídica." },
+        { "id": "e", "text": "reparação integral, multa paga, três anos mínimos, condições do ato e análise jurídica conclusiva." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os cinco requisitos do art. 163 são cumulativos. Para inidoneidade, o prazo mínimo é três anos desde a aplicação; a reabilitação é pedida à própria autoridade sancionadora e não decorre automaticamente do tempo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1779",
+      "revision": 1,
+      "prompt": "Além dos cinco requisitos gerais, a reabilitação por qual infração exige programa de integridade?",
+      "options": [
+        { "id": "a", "text": "declaração ou documentação falsa do inciso VIII e ato lesivo anticorrupção do inciso XII." },
+        { "id": "b", "text": "somente inexecução parcial simples do inciso I." },
+        { "id": "c", "text": "qualquer atraso, mesmo justificado." },
+        { "id": "d", "text": "apenas falta de documento do inciso IV." },
+        { "id": "e", "text": "todas as infrações sem distinção." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O parágrafo único do art. 163 vincula a exigência adicional aos incisos VIII e XII do art. 155. Não é condição adicional indistinta para toda reabilitação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1780",
+      "revision": 1,
+      "prompt": "Sobre impugnação de edital e pedido de esclarecimento, assinale a alternativa correta:",
+      "options": [
+        { "id": "a", "text": "somente licitante previamente cadastrado possui legitimidade." },
+        { "id": "b", "text": "qualquer pessoa pode protocolar até três dias úteis antes da abertura, e a resposta respeita o limite do último dia útil anterior." },
+        { "id": "c", "text": "o prazo termina após a assinatura do contrato." },
+        { "id": "d", "text": "a resposta pode permanecer secreta." },
+        { "id": "e", "text": "pedido de esclarecimento sempre suspende a licitação por 30 dias." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 164 confere legitimidade a qualquer pessoa e fixa o protocolo até três dias úteis antes. A resposta é divulgada em sítio oficial em até três dias úteis, limitada ao último dia útil anterior à abertura. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1781",
+      "revision": 1,
+      "prompt": "Cabe recurso administrativo em três dias úteis contra:",
+      "options": [
+        { "id": "a", "text": "qualquer conversa informal entre fiscais." },
+        { "id": "b", "text": "somente a declaração de inidoneidade." },
+        { "id": "c", "text": "julgamento de propostas, habilitação, anulação ou revogação e extinção unilateral, entre atos enumerados no art. 165." },
+        { "id": "d", "text": "a edição de lei pelo Congresso Nacional." },
+        { "id": "e", "text": "sentença judicial transitada em julgado." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 165 lista atos recorríveis em três dias úteis, incluindo os mencionados. Sanções seguem os arts. 166 e 167, com prazos próprios de 15 dias úteis. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1782",
+      "revision": 1,
+      "prompt": "No julgamento das propostas e na habilitação, a intenção de recorrer deve ser:",
+      "options": [
+        { "id": "a", "text": "manifestada somente depois do contrato." },
+        { "id": "b", "text": "substituída por ação judicial obrigatória." },
+        { "id": "c", "text": "omitida para preservar o direito." },
+        { "id": "d", "text": "manifestada imediatamente, sob pena de preclusão, com apreciação em fase única." },
+        { "id": "e", "text": "apresentada em até 15 anos." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 165, § 1º, exige manifestação imediata da intenção nas hipóteses de julgamento e habilitação. A omissão gera preclusão, e a apreciação ocorre em fase única. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1783",
+      "revision": 1,
+      "prompt": "Da aplicação de advertência, multa ou impedimento cabe:",
+      "options": [
+        { "id": "a", "text": "somente pedido de reconsideração em três dias corridos." },
+        { "id": "b", "text": "recurso sem efeito suspensivo em cinco dias." },
+        { "id": "c", "text": "ação arbitral obrigatória." },
+        { "id": "d", "text": "nenhum meio administrativo." },
+        { "id": "e", "text": "recurso em 15 dias úteis; se não reconsiderado em cinco dias úteis, segue à autoridade superior." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 166 prevê recurso em 15 dias úteis. A autoridade recorrida tem cinco dias úteis para reconsiderar; a superior decide em até 20 dias úteis do recebimento dos autos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1784",
+      "revision": 1,
+      "prompt": "Contra declaração de inidoneidade, a Lei admite:",
+      "options": [
+        { "id": "a", "text": "apenas pedido de reconsideração em 15 dias úteis, decidido em até 20 dias úteis." },
+        { "id": "b", "text": "recurso hierárquico em três dias úteis." },
+        { "id": "c", "text": "impugnação ao edital em qualquer tempo." },
+        { "id": "d", "text": "revisão automática mensal." },
+        { "id": "e", "text": "nenhuma forma de revisão administrativa." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 167 usa a expressão 'apenas pedido de reconsideração', com 15 dias úteis para apresentação e até 20 para decisão. Não se aplica o recurso das três sanções anteriores. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1785",
+      "revision": 1,
+      "prompt": "O recurso e o pedido de reconsideração contra sanções têm:",
+      "options": [
+        { "id": "a", "text": "efeito apenas devolutivo, sem exceção." },
+        { "id": "b", "text": "efeito suspensivo até decisão final da autoridade competente." },
+        { "id": "c", "text": "efeito de anular automaticamente a sanção." },
+        { "id": "d", "text": "efeito de reabilitação imediata." },
+        { "id": "e", "text": "validade somente após homologação judicial." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 168 atribui efeito suspensivo até a decisão final. Isso não significa provimento automático; apenas suspende o ato ou decisão recorrida enquanto a autoridade competente examina a medida. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1786",
+      "revision": 1,
+      "prompt": "No modelo do art. 169, integram a terceira linha de defesa:",
+      "options": [
+        { "id": "a", "text": "licitantes e contratados." },
+        { "id": "b", "text": "fiscais e agentes de contratação." },
+        { "id": "c", "text": "órgão central de controle interno e tribunal de contas." },
+        { "id": "d", "text": "assessoramento jurídico e controle interno do próprio órgão." },
+        { "id": "e", "text": "somente o controle social." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A terceira linha reúne controle interno central e tribunal de contas. Fiscais e agentes estão na primeira; jurídico e controle interno local, na segunda. Controle social subordina as contratações, mas não é quarta linha. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1787",
+      "revision": 1,
+      "prompt": "Ao receber documento classificado para realizar fiscalização, o órgão de controle:",
+      "options": [
+        { "id": "a", "text": "deve recusá-lo, pois nunca acessa informação sigilosa." },
+        { "id": "b", "text": "pode divulgá-lo livremente na internet." },
+        { "id": "c", "text": "perde competência para fiscalizar o contrato." },
+        { "id": "d", "text": "tem acesso necessário e torna-se corresponsável pela manutenção do sigilo." },
+        { "id": "e", "text": "deve entregar o documento ao contratado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 169, § 2º, garante acesso irrestrito aos documentos necessários, inclusive classificados, e transfere ao órgão receptor corresponsabilidade pela preservação do sigilo. Acesso para controle não equivale a publicidade irrestrita. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1788",
+      "revision": 1,
+      "prompt": "As linhas de defesa constatam irregularidade que causou dano à Administração. Devem:",
+      "options": [
+        { "id": "a", "text": "tratar o caso apenas como falha formal e arquivá-lo." },
+        { "id": "b", "text": "punir coletivamente todos os servidores, sem individualização." },
+        { "id": "c", "text": "remeter todo caso diretamente ao Judiciário e nada sanear." },
+        { "id": "d", "text": "ignorar a segregação de funções." },
+        { "id": "e", "text": "sanear e mitigar, apurar infrações com segregação e individualização e remeter documentos ao MP quando cabível." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 169, § 3º, II, soma as medidas de saneamento à apuração individualizada, à segregação de funções e à remessa cabível ao Ministério Público. Não autoriza punição coletiva nem omissão de controles. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1789",
+      "revision": 1,
+      "prompt": "Na fiscalização de atos da Lei nº 14.133/2021, os órgãos de controle devem adotar critérios de:",
+      "options": [
+        { "id": "a", "text": "oportunidade, materialidade, relevância e risco, considerando razões do gestor e resultados." },
+        { "id": "b", "text": "preferência política e repercussão social apenas." },
+        { "id": "c", "text": "ordem alfabética dos contratados." },
+        { "id": "d", "text": "valor nominal como único fator." },
+        { "id": "e", "text": "sorteio sem avaliação de risco." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 170 explicita oportunidade, materialidade, relevância e risco, além da consideração das razões apresentadas e dos resultados da contratação. A fiscalização não se reduz a preferência ou fórmula única. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1790",
+      "revision": 1,
+      "prompt": "Quem pode representar contra irregularidade na aplicação da Lei aos órgãos de controle interno ou ao tribunal de contas?",
+      "options": [
+        { "id": "a", "text": "somente a autoridade máxima do órgão." },
+        { "id": "b", "text": "qualquer licitante, contratado ou pessoa física ou jurídica." },
+        { "id": "c", "text": "apenas empresa já contratada." },
+        { "id": "d", "text": "somente membro do Ministério Público." },
+        { "id": "e", "text": "ninguém, pois o controle atua apenas de ofício." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 170, § 4º, confere legitimidade ampla a licitante, contratado e qualquer pessoa física ou jurídica. A atuação por representação convive com outras formas de iniciativa do controle. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1791",
+      "revision": 1,
+      "prompt": "Após suspender cautelarmente uma licitação, o tribunal de contas deve decidir o mérito da irregularidade em:",
+      "options": [
+        { "id": "a", "text": "25 dias corridos desde a publicação do edital, sem prorrogação." },
+        { "id": "b", "text": "dez dias úteis desde a cautelar." },
+        { "id": "c", "text": "25 dias úteis desde o recebimento das informações, prorrogáveis uma vez por igual período." },
+        { "id": "d", "text": "seis meses desde a assinatura do contrato." },
+        { "id": "e", "text": "prazo livre sem marco inicial." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 171, § 1º, fixa 25 dias úteis contados do recebimento das informações do § 2º, com uma prorrogação por igual período. Não se conta da cautelar ou da publicação do edital. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1792",
+      "revision": 1,
+      "prompt": "Intimado da suspensão cautelar, o órgão ou entidade possui, admitida prorrogação, o prazo de:",
+      "options": [
+        { "id": "a", "text": "24 horas para anular obrigatoriamente a licitação." },
+        { "id": "b", "text": "três dias corridos para celebrar o contrato." },
+        { "id": "c", "text": "25 dias úteis para ignorar o tribunal." },
+        { "id": "d", "text": "dez dias úteis para informar cumprimento, prestar informações e apurar responsabilidade, se cabível." },
+        { "id": "e", "text": "um ano para apresentar somente o edital." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 171, § 2º, fixa dez dias úteis, com possibilidade de prorrogação. A cautelar não determina anulação automática; a decisão de mérito definirá saneamento ou anulação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1793",
+      "revision": 1,
+      "prompt": "Segundo o art. 173, as escolas dos tribunais de contas devem:",
+      "options": [
+        { "id": "a", "text": "substituir os agentes de contratação em todas as licitações." },
+        { "id": "b", "text": "editar leis nacionais sobre contratos." },
+        { "id": "c", "text": "aplicar sanções sem processo." },
+        { "id": "d", "text": "gerir diretamente todos os contratos fiscalizados." },
+        { "id": "e", "text": "promover capacitação dos agentes das funções essenciais, inclusive cursos, redes, seminários e congressos." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 173 atribui função de capacitação às escolas de contas. Isso não transfere a elas gestão contratual, função legislativa ou poder sancionador sem processo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1794",
+      "revision": 1,
+      "prompt": "O PNCP destina-se à:",
+      "options": [
+        { "id": "a", "text": "divulgação centralizada e obrigatória dos atos exigidos e realização facultativa das contratações." },
+        { "id": "b", "text": "realização obrigatória de toda contratação dentro de uma única plataforma." },
+        { "id": "c", "text": "publicidade facultativa e contratação sempre presencial." },
+        { "id": "d", "text": "gestão exclusiva de contratos da União." },
+        { "id": "e", "text": "substituição dos tribunais de contas." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 174 distingue as funções: divulgação centralizada e obrigatória dos atos exigidos e realização facultativa das contratações de todos os Poderes e entes. Obrigatoriedade de publicidade não significa uso obrigatório do portal como plataforma transacional. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1795",
+      "revision": 1,
+      "prompt": "O Comitê Gestor da Rede Nacional de Contratações Públicas possui representação:",
+      "options": [
+        { "id": "a", "text": "somente de empresas privadas de tecnologia." },
+        { "id": "b", "text": "da União, dos Estados e Distrito Federal e dos Municípios, sob presidência indicada pelo Presidente da República." },
+        { "id": "c", "text": "apenas do Poder Judiciário federal." },
+        { "id": "d", "text": "exclusivamente dos Municípios com até 20 mil habitantes." },
+        { "id": "e", "text": "somente dos tribunais de contas." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 174, § 1º, prevê composição federativa: três representantes da União, dois dos Estados/DF e dois dos Municípios, além da presidência indicada na forma legal. Não é colegiado privado ou de um único Poder. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1796",
+      "revision": 1,
+      "prompt": "Qual informação integra expressamente o conteúdo previsto para o PNCP?",
+      "options": [
+        { "id": "a", "text": "senhas pessoais dos servidores." },
+        { "id": "b", "text": "dados sigilosos sem base legal." },
+        { "id": "c", "text": "planos anuais, editais e anexos, atas, contratos e aditivos, entre outros itens legais." },
+        { "id": "d", "text": "somente contratos já encerrados." },
+        { "id": "e", "text": "apenas notícias institucionais." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 174, § 2º, lista PCA, catálogos, editais e avisos, atas, contratos, aditivos e notas fiscais cabíveis. O PNCP não se limita a notícias nem autoriza divulgação indevida de segredos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1797",
+      "revision": 1,
+      "prompt": "Após a Lei nº 15.266/2025, entre as funcionalidades do PNCP está:",
+      "options": [
+        { "id": "a", "text": "um sistema obrigatório de votação popular de sanções." },
+        { "id": "b", "text": "a exclusão do cadastro unificado." },
+        { "id": "c", "text": "o bloqueio de acesso ao CEIS e CNEP." },
+        { "id": "d", "text": "o Sistema de Compras Expressas (Sicx)." },
+        { "id": "e", "text": "a eliminação dos dados abertos." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Lei nº 15.266/2025 incluiu o Sicx no art. 174, § 3º, VII. Cadastro, CEIS/CNEP e dados abertos permanecem no modelo legal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1798",
+      "revision": 1,
+      "prompt": "Quanto ao formato e à transparência, o PNCP:",
+      "options": [
+        { "id": "a", "text": "deve usar formato fechado e proprietário." },
+        { "id": "b", "text": "não se submete à Lei de Acesso à Informação." },
+        { "id": "c", "text": "pode ocultar todos os contratos por decisão do fornecedor." },
+        { "id": "d", "text": "publica apenas imagens sem dados estruturados." },
+        { "id": "e", "text": "adota formato de dados abertos e observa as exigências da Lei de Acesso à Informação." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 174, § 4º, exige dados abertos e observância da LAI. Isso concilia transparência com as hipóteses legais de proteção de informação, sem fechamento geral do portal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1799",
+      "revision": 1,
+      "prompt": "Um ente pretende usar plataforma eletrônica fornecida por pessoa jurídica privada para suas contratações. A redação vigente do art. 175 permite essa solução:",
+      "options": [
+        { "id": "a", "text": "desde que mantida integração com o PNCP e observada a regulamentação federal aplicável." },
+        { "id": "b", "text": "somente se abandonar toda integração com o PNCP." },
+        { "id": "c", "text": "apenas para contratos anteriores a 2021." },
+        { "id": "d", "text": "sem publicar qualquer ato exigido." },
+        { "id": "e", "text": "apenas mediante autorização do contratado vencedor." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 175, § 1º, admite sistema de pessoa jurídica de direito público ou privado, desde que integrado ao PNCP, na forma regulamentar. Plataforma alternativa não elimina publicidade centralizada. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1800",
+      "revision": 1,
+      "prompt": "O prazo de seis anos concedido pelo art. 176 a Municípios com até 20 mil habitantes:",
+      "options": [
+        { "id": "a", "text": "suspende integralmente a Lei nº 14.133/2021 até 2030." },
+        { "id": "b", "text": "vai até 1º de abril de 2027 e alcança requisitos específicos, não toda a Lei." },
+        { "id": "c", "text": "terminou na data da publicação da Lei." },
+        { "id": "d", "text": "dispensa para sempre qualquer publicidade." },
+        { "id": "e", "text": "aplica-se a todos os entes, independentemente da população." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Seis anos desde 1º de abril de 2021 levam a 1º de abril de 2027. A transição abrange agentes, forma eletrônica e divulgação oficial específicas; não adia todo o regime legal nem elimina deveres substitutivos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1801",
+      "revision": 1,
+      "prompt": "A divulgação no PNCP como condição de eficácia do contrato ou aditivo deve ocorrer, respectivamente, após licitação e contratação direta, em até:",
+      "options": [
+        { "id": "a", "text": "cinco e cinco dias corridos." },
+        { "id": "b", "text": "30 e 20 dias corridos." },
+        { "id": "c", "text": "20 e dez dias úteis da assinatura." },
+        { "id": "d", "text": "seis meses e um ano." },
+        { "id": "e", "text": "prazos livres definidos pelo contratado." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 94 fixa 20 dias úteis para contratos de licitação e dez para contratação direta. Como regra, a publicação é condição de eficácia; contratos urgentes produzem efeitos desde a assinatura, mas devem ser publicados nos mesmos prazos, sob pena de nulidade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1802",
+      "revision": 1,
+      "prompt": "A Lei nº 14.133/2021 tratou os crimes em licitações e contratos ao:",
+      "options": [
+        { "id": "a", "text": "eliminar toda responsabilização penal." },
+        { "id": "b", "text": "transformar toda infração administrativa em crime automático." },
+        { "id": "c", "text": "manter os tipos exclusivamente nos arts. 89 a 108 da Lei nº 8.666." },
+        { "id": "d", "text": "inserir os tipos nos arts. 337-E a 337-O do Código Penal e a regra da multa no art. 337-P." },
+        { "id": "e", "text": "delegar tipificação penal a cada edital." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 178 criou o Capítulo II-B no Código Penal: os tipos estão nos arts. 337-E a 337-O, e o art. 337-P disciplina a multa. Esferas administrativa e penal são independentes nos respectivos pressupostos; uma infração administrativa não produz condenação penal automática. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1803",
+      "revision": 1,
+      "prompt": "Os valores monetários fixados pela Lei nº 14.133/2021 são:",
+      "options": [
+        { "id": "a", "text": "imutáveis desde 2021." },
+        { "id": "b", "text": "atualizados por cada contratado." },
+        { "id": "c", "text": "revistos apenas a cada dez anos." },
+        { "id": "d", "text": "corrigidos pelo salário mínimo estadual." },
+        { "id": "e", "text": "atualizados em cada 1º de janeiro pelo Executivo federal, pelo IPCA-E ou substituto, e divulgados no PNCP." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 182 estabelece atualização anual em 1º de janeiro pelo IPCA-E ou índice substituto, com divulgação no PNCP. Valores originais não devem ser tratados como permanentes. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1804",
+      "revision": 1,
+      "prompt": "Na contagem dos prazos da Lei nº 14.133/2021:",
+      "options": [
+        { "id": "a", "text": "exclui-se o dia do começo, inclui-se o do vencimento e, em dias úteis, contam-se dias com expediente administrativo." },
+        { "id": "b", "text": "incluem-se começo e vencimento em qualquer hipótese." },
+        { "id": "c", "text": "todos os prazos são corridos." },
+        { "id": "d", "text": "meses sempre equivalem a 30 dias." },
+        { "id": "e", "text": "indisponibilidade eletrônica nunca prorroga vencimento." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 183 traz a regra de exclusão/inclusão e diferencia dias corridos, dias úteis e períodos de meses ou anos. Vencimento sem expediente ou com indisponibilidade eletrônica prorroga-se ao primeiro dia útil seguinte. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1805",
+      "revision": 1,
+      "prompt": "Em 2026, o limite atualizado do art. 184-A para o regime simplificado de instrumentos com participação da União é:",
+      "options": [
+        { "id": "a", "text": "R$ 150.000,00, valor permanente." },
+        { "id": "b", "text": "R$ 1.646.430,90, sujeito às atualizações anuais posteriores." },
+        { "id": "c", "text": "R$ 10.000.000,00, sem atualização." },
+        { "id": "d", "text": "30% do contrato, em qualquer ente." },
+        { "id": "e", "text": "valor livre definido no plano de trabalho." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O Decreto nº 12.807/2025 fixou R$ 1.646.430,90 para 2026. Trata-se de limite anual atualizado, não valor imutável, e o regime se refere aos instrumentos delimitados pelo art. 184-A. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1806",
+      "revision": 1,
+      "prompt": "Segundo o art. 187, Estados, Distrito Federal e Municípios:",
+      "options": [
+        { "id": "a", "text": "são obrigados a copiar todo regulamento federal automaticamente." },
+        { "id": "b", "text": "não podem consultar regulamentos federais." },
+        { "id": "c", "text": "podem aplicar os regulamentos editados pela União para executar a Lei." },
+        { "id": "d", "text": "só podem contratar após autorização do Presidente da República." },
+        { "id": "e", "text": "devem abandonar seus regulamentos próprios já válidos." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O verbo legal é 'poderão'. A norma oferece a possibilidade de aplicação, mas não transforma cada regulamento federal em regra automaticamente vinculante para outros entes ou para o TCE-MA. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1807",
+      "revision": 1,
+      "prompt": "Sobre a transição entre a Lei nº 14.133/2021 e os regimes revogados, é correto afirmar que:",
+      "options": [
+        { "id": "a", "text": "em 2026 ainda se pode iniciar licitação pela Lei nº 8.666/1993." },
+        { "id": "b", "text": "a Administração podia combinar livremente artigos das duas leis." },
+        { "id": "c", "text": "todo contrato antigo migrou automaticamente em 30 de dezembro de 2023." },
+        { "id": "d", "text": "a escolha durante a janela devia ser expressa e sem combinação; contratos validamente antigos continuam no regime escolhido." },
+        { "id": "e", "text": "a transição não alcançou contratação direta." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 191 vedou combinação e preservou o regime expresso escolhido. A janela encerrou-se em 30 de dezembro de 2023, mas arts. 190 e 191 preservam a legislação aplicável aos contratos validamente formados antes ou durante a transição. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1808",
+      "revision": 1,
+      "prompt": "Quanto à revogação e à vigência, assinale a alternativa correta:",
+      "options": [
+        { "id": "a", "text": "a Lei nº 14.133 entrou em vigor somente em 30 de dezembro de 2023." },
+        { "id": "b", "text": "os crimes antigos continuaram na Lei nº 8.666 até 2026." },
+        { "id": "c", "text": "a Medida Provisória nº 1.167/2023 permanece a fonte vigente da data final." },
+        { "id": "d", "text": "a Lei nº 8.666 continua vigente para novas licitações." },
+        { "id": "e", "text": "a nova Lei vigora desde 1º de abril de 2021, e os regimes gerais antigos foram revogados em 30 de dezembro de 2023." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 194 deu vigência imediata em 1º de abril de 2021. A LC nº 198/2023 fixou 30 de dezembro de 2023 para a revogação geral do art. 193, II; os crimes da Lei nº 8.666 já haviam sido revogados na publicação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1809",
+      "revision": 1,
+      "prompt": "O art. 177 alterou o Código de Processo Civil para atribuir prioridade aos processos judiciais:",
+      "options": [
+        { "id": "a", "text": "em que se discuta a aplicação das normas gerais de licitação e contratação mencionadas na Constituição." },
+        { "id": "b", "text": "relativos a qualquer dívida privada do contratado." },
+        { "id": "c", "text": "ajuizados por fornecedor, independentemente do objeto." },
+        { "id": "d", "text": "que discutam somente contratos anteriores a 1993." },
+        { "id": "e", "text": "escolhidos livremente pelo fiscal do contrato." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A alteração do art. 1.048 do CPC alcança processos sobre as normas gerais de licitação e contratação do art. 22, XXVII, da Constituição. Não cria prioridade pessoal irrestrita para fornecedor. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1810",
+      "revision": 1,
+      "prompt": "Os arts. 179 e 180 ajustaram as Leis de Concessões e de PPP para prever licitação nas modalidades:",
+      "options": [
+        { "id": "a", "text": "pregão ou leilão apenas." },
+        { "id": "b", "text": "concorrência ou diálogo competitivo." },
+        { "id": "c", "text": "concurso ou credenciamento." },
+        { "id": "d", "text": "tomada de preços ou convite." },
+        { "id": "e", "text": "dispensa ou inexigibilidade como modalidades." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "As alterações externas admitem concorrência ou diálogo competitivo nas concessões e PPP. Dispensa e inexigibilidade não são modalidades, e tomada de preços e convite pertenciam ao regime anterior. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1811",
+      "revision": 1,
+      "prompt": "Para compras em grande escala destinadas a vários órgãos e entidades, os entes federativos devem:",
+      "options": [
+        { "id": "a", "text": "descentralizar obrigatoriamente cada compra." },
+        { "id": "b", "text": "contratar sem planejamento." },
+        { "id": "c", "text": "instituir centrais de compras; Municípios até dez mil habitantes formarão preferencialmente consórcios públicos." },
+        { "id": "d", "text": "usar empresa privada como autoridade licitante." },
+        { "id": "e", "text": "aguardar regulamento de cada contratado." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 181 prevê centrais de compras e, para Municípios até dez mil habitantes, preferência por consórcios públicos. A regra busca escala e não elimina planejamento ou competência pública. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1812",
+      "revision": 1,
+      "prompt": "Sobre a aplicação a outros regimes, assinale a alternativa correta:",
+      "options": [
+        { "id": "a", "text": "os crimes licitatórios não alcançam a Lei das Estatais." },
+        { "id": "b", "text": "a Lei nº 14.133 substitui integralmente a Lei das PPPs." },
+        { "id": "c", "text": "a aplicação subsidiária alcança apenas a Lei de Concessões." },
+        { "id": "d", "text": "os crimes alcançam licitações da Lei das Estatais, e a Lei nº 14.133 aplica-se subsidiariamente às Leis nº 8.987, nº 11.079 e nº 12.232." },
+        { "id": "e", "text": "a Lei nº 12.232/2010 foi integralmente revogada." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 185 estende os tipos penais às estatais. O art. 186 estabelece aplicação subsidiária às leis de concessões, PPP e contratação de publicidade, sem substituí-las integralmente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1813",
+      "revision": 1,
+      "prompt": "Qual afirmação sobre as disposições finais está correta?",
+      "options": [
+        { "id": "a", "text": "referências legais antigas permanecem sem correspondência com a Lei nº 14.133." },
+        { "id": "b", "text": "todo contrato anterior deve migrar para a nova Lei." },
+        { "id": "c", "text": "contrato de imóvel da União é regido exclusivamente pela Lei nº 14.133." },
+        { "id": "d", "text": "o art. 188 contém regra vigente sobre contratos de imóveis." },
+        { "id": "e", "text": "referências aos regimes revogados remetem à nova Lei; contratos anteriores preservam seu regime, e imóveis da União seguem lei própria com aplicação subsidiária." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A alternativa reúne os arts. 189, 190 e 192. O art. 188 foi vetado; contratos anteriores e imóveis da União não sofrem substituição integral automática de regime. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1814",
+      "revision": 1,
+      "prompt": "Um agente frauda o caráter competitivo de uma licitação com a finalidade específica de obter, para terceiro, vantagem decorrente da adjudicação. Em tese, a conduta corresponde ao crime de:",
+      "options": [
+        { "id": "a", "text": "frustração do caráter competitivo de licitação, do art. 337-F do Código Penal." },
+        { "id": "b", "text": "mera perturbação culposa, não prevista como crime." },
+        { "id": "c", "text": "violação de sigilo, ainda que nenhuma proposta tenha sido devassada." },
+        { "id": "d", "text": "impedimento indevido em registro cadastral." },
+        { "id": "e", "text": "contratação inidônea, independentemente de declaração de inidoneidade." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 337-F combina fraude ou frustração da competição com a finalidade de obter vantagem decorrente da adjudicação para si ou para outrem. O art. 337-I é mais amplo quanto ao ato perturbado, mas não reproduz essa finalidade especial. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1815",
+      "revision": 1,
+      "prompt": "Servidor patrocina interesse privado perante a Administração e causa a celebração de contrato cuja invalidação depois é decretada pelo Poder Judiciário. O núcleo descrito é o de:",
+      "options": [
+        { "id": "a", "text": "afastamento de licitante." },
+        { "id": "b", "text": "patrocínio de contratação indevida." },
+        { "id": "c", "text": "impedimento indevido em cadastro." },
+        { "id": "d", "text": "violação de sigilo em licitação." },
+        { "id": "e", "text": "omissão grave de dado por projetista." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 337-G pune o patrocínio direto ou indireto de interesse privado que cause licitação ou contrato cuja invalidação venha a ser decretada pelo Poder Judiciário. A invalidação judicial integra a descrição do tipo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1816",
+      "revision": 1,
+      "prompt": "Durante a execução, o responsável paga fatura com preterição da ordem cronológica de exigibilidade. Sem prejuízo da análise do caso concreto, essa conduta aparece no tipo de:",
+      "options": [
+        { "id": "a", "text": "contratação direta ilegal." },
+        { "id": "b", "text": "fraude em registro cadastral." },
+        { "id": "c", "text": "modificação ou pagamento irregular em contrato administrativo." },
+        { "id": "d", "text": "patrocínio de contratação indevida." },
+        { "id": "e", "text": "violação de proposta sigilosa." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 337-H inclui expressamente o pagamento de fatura com preterição da ordem cronológica de exigibilidade, além da concessão de modificação ou vantagem contratual sem o amparo indicado no tipo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1817",
+      "revision": 1,
+      "prompt": "Um licitante aceita vantagem oferecida por concorrente e, por isso, desiste de licitar. Segundo o art. 337-K do Código Penal, ele:",
+      "options": [
+        { "id": "a", "text": "não responde, pois o tipo alcança somente quem oferece violência." },
+        { "id": "b", "text": "responde apenas se o contrato já tiver sido executado." },
+        { "id": "c", "text": "comete exclusivamente infração administrativa, nunca crime." },
+        { "id": "d", "text": "incorre na mesma pena prevista para o afastamento de licitante." },
+        { "id": "e", "text": "responde pelo art. 337-O, próprio de projetista." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O parágrafo único do art. 337-K aplica a mesma pena a quem se abstém ou desiste de licitar em razão de vantagem oferecida. O tipo não se limita ao autor da oferta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1818",
+      "revision": 1,
+      "prompt": "Projetista omite deliberadamente levantamento topográfico relevante, em dissonância com a realidade e em detrimento da proposta mais vantajosa, para obter benefício indireto para terceiro. Em tese:",
+      "options": [
+        { "id": "a", "text": "a conduta é atípica porque levantamento topográfico nunca é condição de contorno." },
+        { "id": "b", "text": "incide somente multa administrativa, sem previsão penal." },
+        { "id": "c", "text": "a finalidade de benefício reduz a pena pela metade." },
+        { "id": "d", "text": "o crime exige necessariamente contratação direta já encerrada." },
+        { "id": "e", "text": "pode configurar o art. 337-O, com aplicação em dobro da pena pelo fim de obter benefício para terceiro." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 337-O inclui levantamento topográfico entre as condições de contorno e pune sua omissão, modificação ou entrega em dissonância relevante nas circunstâncias do tipo. O fim de obter benefício direto ou indireto, próprio ou alheio, dobra a pena. Fonte: questão autoral baseada em referências do conteúdo."
+    }
+  ]
+}
