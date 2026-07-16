@@ -3,6 +3,10 @@ import { expect, test } from './fixtures';
 
 const sourceAlias = 'backup-7f3k';
 const targetAlias = 'restore-9x2m';
+const exampleQuestionSetPath = new URL(
+  '../../src/content/assuntos/concurso-exemplo/administracao-publica/assunto-exemplo/questoes.json',
+  import.meta.url,
+);
 
 function backupPayload() {
   return {
@@ -31,6 +35,21 @@ function backupPayload() {
 }
 
 test.beforeEach(async ({ page }) => {
+  const questionSet = JSON.parse(await readFile(exampleQuestionSetPath, 'utf8'));
+  await page.route('**/sync-catalog.json', (route) =>
+    route.fulfill({
+      json: {
+        schemaVersion: 1,
+        subjects: [
+          {
+            contestStorageId: 'exemplo',
+            subjectStorageId: 'fundamentos',
+            questionSet,
+          },
+        ],
+      },
+    }),
+  );
   await page.goto('/');
   await page.evaluate((alias) => localStorage.setItem('concursos:active-alias', alias), sourceAlias);
 });

@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1699",
+      "revision": 1,
+      "prompt": "A Administração identifica possível causa de extinção contratual e decide encerrar imediatamente o vínculo, sem instrução ou manifestação do contratado. À luz do art. 137, a conduta é:",
+      "options": [
+        { "id": "a", "text": "incorreta, porque a causa deve ser formalmente motivada nos autos, com contraditório e ampla defesa." },
+        { "id": "b", "text": "correta sempre que o fiscal relatar uma irregularidade." },
+        { "id": "c", "text": "correta se o contrato tiver garantia." },
+        { "id": "d", "text": "incorreta apenas nos contratos de obra." },
+        { "id": "e", "text": "correta porque extinção contratual nunca depende de processo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Os motivos do art. 137 devem ser formalmente motivados no processo, assegurados contraditório e ampla defesa. O relato do fiscal inicia ou subsidia a apuração, mas não torna automática a extinção; objeto e garantia não afastam essas garantias. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1700",
+      "revision": 1,
+      "prompt": "O contratado ignora determinação regular emitida pelo fiscal para corrigir defeito de execução. Esse fato:",
+      "options": [
+        { "id": "a", "text": "não pode influenciar o vínculo porque o fiscal apenas observa." },
+        { "id": "b", "text": "constitui motivo legal de extinção, sujeito à apuração, motivação e defesa." },
+        { "id": "c", "text": "extingue automaticamente o contrato na data da ordem." },
+        { "id": "d", "text": "só possui relevância se confirmado por decisão judicial." },
+        { "id": "e", "text": "gera apenas recebimento provisório com ressalvas." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 137, II, inclui o desatendimento de determinações regulares da autoridade designada para acompanhar e fiscalizar a execução ou de autoridade superior. A hipótese precisa ser processada e não extingue o contrato automaticamente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1701",
+      "revision": 1,
+      "prompt": "Uma sociedade contratada muda sua estrutura interna. Para essa alteração configurar o motivo do art. 137, III, é necessário que:",
+      "options": [
+        { "id": "a", "text": "qualquer alteração do contrato social seja proibida pelo edital." },
+        { "id": "b", "text": "a mudança aumente o número de empregados." },
+        { "id": "c", "text": "a alteração social, de finalidade ou de estrutura restrinja a capacidade de concluir o contrato." },
+        { "id": "d", "text": "a empresa também deixe de pagar um tributo federal." },
+        { "id": "e", "text": "a Administração prove falência já decretada." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A mudança societária não basta por si só: o art. 137, III, exige que a alteração social ou a modificação da finalidade ou da estrutura restrinja a capacidade de concluir o contrato. Falência é hipótese autônoma do inciso IV. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1702",
+      "revision": 1,
+      "prompt": "Sobre caso fortuito ou força maior como motivo de extinção, assinale a alternativa correta:",
+      "options": [
+        { "id": "a", "text": "qualquer dificuldade econômica alegada basta." },
+        { "id": "b", "text": "a comprovação é dispensada se o evento for notório." },
+        { "id": "c", "text": "o evento precisa apenas tornar a execução mais cara." },
+        { "id": "d", "text": "o evento deve ser regularmente comprovado e impedir a execução do contrato." },
+        { "id": "e", "text": "a hipótese só existe para calamidade pública nacional." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 137, V, requer caso fortuito ou força maior regularmente comprovados e impeditivos da execução. O mero encarecimento pode suscitar outros institutos, mas não satisfaz automaticamente essa causa de extinção. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1703",
+      "revision": 1,
+      "prompt": "A licença ambiental é obtida dentro do prazo, mas impõe alteração substancial do anteprojeto que impede a execução originalmente contratada. A situação:",
+      "options": [
+        { "id": "a", "text": "é irrelevante porque a licença foi tempestiva." },
+        { "id": "b", "text": "permite somente aplicar multa ao órgão ambiental." },
+        { "id": "c", "text": "gera recebimento definitivo do que ainda não foi executado." },
+        { "id": "d", "text": "só pode ser examinada depois de cinco anos." },
+        { "id": "e", "text": "pode constituir motivo de extinção mesmo com a licença obtida no prazo." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 137, VI, abrange atraso ou impossibilidade de obtenção da licença e alteração substancial do anteprojeto dela resultante, ainda que a licença tenha sido obtida no prazo previsto. A tempestividade não elimina o efeito impeditivo da alteração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1704",
+      "revision": 1,
+      "prompt": "A extinção por razões de interesse público exige que as razões sejam:",
+      "options": [
+        { "id": "a", "text": "justificadas pela autoridade máxima do órgão ou entidade contratante." },
+        { "id": "b", "text": "declaradas verbalmente por qualquer fiscal." },
+        { "id": "c", "text": "presumidas a partir da mudança de gestão." },
+        { "id": "d", "text": "aprovadas previamente pelo contratado." },
+        { "id": "e", "text": "limitadas a contratos sem garantia." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 137, VIII, exige razões de interesse público justificadas pela autoridade máxima do órgão ou entidade contratante. A exigência reforça motivação e competência; não há presunção decorrente da troca de gestores. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1705",
+      "revision": 1,
+      "prompt": "Durante a execução, o contratado deixa de cumprir a reserva legal de cargos para aprendizes e pessoas com deficiência. Esse descumprimento:",
+      "options": [
+        { "id": "a", "text": "é irrelevante depois da assinatura do contrato." },
+        { "id": "b", "text": "integra os motivos legais de extinção, sem dispensar processo e defesa." },
+        { "id": "c", "text": "transforma automaticamente a contratação em dispensa." },
+        { "id": "d", "text": "só pode ser apurado pela Justiça do Trabalho." },
+        { "id": "e", "text": "obriga o recebimento definitivo antecipado." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 137, IX, inclui o descumprimento das obrigações de reserva de cargos previstas em lei ou normas específicas. A obrigação acompanha a execução, mas a consequência contratual ainda exige motivação, contraditório e ampla defesa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1706",
+      "revision": 1,
+      "prompt": "A Administração suprime unilateralmente parcelas e altera o valor inicial do contrato além do limite permitido pelo art. 125. O contratado:",
+      "options": [
+        { "id": "a", "text": "deve aceitar toda supressão porque não há limite legal." },
+        { "id": "b", "text": "pode aplicar sanção à Administração." },
+        { "id": "c", "text": "tem direito à extinção do contrato, a ser exercido pela via adequada." },
+        { "id": "d", "text": "passa a ser proprietário do objeto público." },
+        { "id": "e", "text": "só pode pedir recebimento provisório." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 137, § 2º, I, assegura o direito à extinção quando supressões administrativas de obras, serviços ou compras modificarem o valor inicial além do limite do art. 125. Isso não autoriza autotutela privada nem sanção aplicada pelo contratado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1707",
+      "revision": 1,
+      "prompt": "Uma ordem escrita da Administração suspende a execução continuamente. Qual marco configura o direito legal do contratado à extinção nessa hipótese?",
+      "options": [
+        { "id": "a", "text": "qualquer suspensão superior a cinco dias corridos." },
+        { "id": "b", "text": "trinta dias úteis, ainda que a ordem seja verbal." },
+        { "id": "c", "text": "exatamente dois meses desde a nota fiscal." },
+        { "id": "d", "text": "prazo superior a três meses, quando a suspensão decorrer de ordem escrita." },
+        { "id": "e", "text": "cinco anos desde o recebimento definitivo." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 137, § 2º, II, trata da suspensão da execução por ordem escrita da Administração por prazo superior a três meses. Os marcos de dois meses e 90 dias úteis pertencem a hipóteses distintas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1708",
+      "revision": 1,
+      "prompt": "Ordens administrativas sucessivas suspendem a execução por períodos descontínuos. O direito à extinção pela repetição surge quando as suspensões:",
+      "options": [
+        { "id": "a", "text": "somarem 90 dias corridos, sem indenização possível." },
+        { "id": "b", "text": "somarem três meses úteis e tiverem sido pedidas pelo contratado." },
+        { "id": "c", "text": "ocorrerem duas vezes, qualquer que seja a duração." },
+        { "id": "d", "text": "somarem 60 dias úteis e forem previsíveis." },
+        { "id": "e", "text": "totalizarem 90 dias úteis, sem afastar as indenizações legalmente devidas pelas desmobilizações e mobilizações imprevistas." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 137, § 2º, III, usa o total de 90 dias úteis para suspensões repetidas e preserva o pagamento obrigatório relativo às sucessivas e contratualmente imprevistas desmobilizações, mobilizações e demais consequências previstas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1709",
+      "revision": 1,
+      "prompt": "A Administração atrasa parcela devida por serviço. Para o direito à extinção previsto no art. 137, § 2º, IV, considera-se:",
+      "options": [
+        { "id": "a", "text": "atraso superior a dois meses contado da emissão da nota fiscal." },
+        { "id": "b", "text": "qualquer atraso contado da assinatura do edital." },
+        { "id": "c", "text": "atraso superior a 90 dias úteis contado do recebimento provisório." },
+        { "id": "d", "text": "prazo de três meses contado da homologação da licitação." },
+        { "id": "e", "text": "somente atraso relativo à execução de obras." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A lei fixa atraso superior a dois meses, contado da emissão da nota fiscal, para pagamentos ou parcelas devidos por obras, serviços ou fornecimentos. Não se trata de prazo contado da licitação nem restrito a obras. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1710",
+      "revision": 1,
+      "prompt": "A Administração não libera, no prazo contratual, o local da obra e a fonte de material natural especificada no projeto. Essa situação:",
+      "options": [
+        { "id": "a", "text": "não afeta os direitos do contratado." },
+        { "id": "b", "text": "pode fundamentar o direito do contratado à extinção." },
+        { "id": "c", "text": "gera recebimento definitivo tácito." },
+        { "id": "d", "text": "autoriza a Administração a reter créditos sem limite." },
+        { "id": "e", "text": "equivale necessariamente a infração do contratado." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 137, § 2º, V, abrange a não liberação de área, local, objeto ou fontes de materiais naturais especificadas no projeto, dentro dos prazos contratuais. A causa é atribuída à Administração, não ao contratado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1711",
+      "revision": 1,
+      "prompt": "A respeito das hipóteses temporais de suspensão e atraso de pagamento do art. 137, § 2º, II a IV, é correto afirmar que:",
+      "options": [
+        { "id": "a", "text": "sempre se aplicam durante guerra." },
+        { "id": "b", "text": "aplicam-se mesmo quando o contratado causou integralmente o atraso." },
+        { "id": "c", "text": "não se aplicam em calamidade, grave perturbação interna ou guerra, nem quando o contratado causou, participou ou contribuiu para o fato." },
+        { "id": "d", "text": "dependem exclusivamente do valor do contrato." },
+        { "id": "e", "text": "são restritas a compras de bens." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O § 3º exclui essas três hipóteses nas situações extraordinárias indicadas e quando o evento decorre de ato ou fato praticado pelo contratado, com sua participação ou contribuição. A regra impede que ele se beneficie do atraso que ajudou a produzir. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1712",
+      "revision": 1,
+      "prompt": "Configurada uma das hipóteses temporais dos incisos II, III ou IV do § 2º do art. 137, sem incidência das exceções, o contratado pode:",
+      "options": [
+        { "id": "a", "text": "apropriar-se de bem público como compensação." },
+        { "id": "b", "text": "aplicar multa administrativa à autoridade." },
+        { "id": "c", "text": "ignorar definitivamente qualquer formalização da extinção." },
+        { "id": "d", "text": "optar por suspender suas obrigações até a normalização, admitida a recomposição do equilíbrio econômico-financeiro." },
+        { "id": "e", "text": "exigir recebimento definitivo de parcela não executada." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 137, § 3º, II, assegura a opção de suspender as obrigações até a normalização e admite o restabelecimento do equilíbrio econômico-financeiro. A opção não autoriza apropriação, punição da autoridade ou recebimento fictício. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1713",
+      "revision": 1,
+      "prompt": "É aberto processo administrativo para apurar descumprimento de cláusulas contratuais em contrato garantido na forma do art. 96. O emitente da garantia deve ser notificado:",
+      "options": [
+        { "id": "a", "text": "somente depois do trânsito em julgado." },
+        { "id": "b", "text": "apenas se o contratado autorizar." },
+        { "id": "c", "text": "depois de encerrado o prazo da apólice." },
+        { "id": "d", "text": "somente quando já houver ocupação do local." },
+        { "id": "e", "text": "no início do processo administrativo de apuração." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 137, § 4º, manda o contratante notificar os emitentes das garantias do art. 96 quanto ao início do processo administrativo para apurar descumprimento contratual. A regra não se restringe ao seguro-garantia nem posterga a comunicação até a decisão final. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1714",
+      "revision": 1,
+      "prompt": "Quais são formas de extinção admitidas pelo art. 138?",
+      "options": [
+        { "id": "a", "text": "ato unilateral escrito da Administração, solução consensual e decisão arbitral ou judicial." },
+        { "id": "b", "text": "somente sentença judicial transitada em julgado." },
+        { "id": "c", "text": "apenas acordo verbal entre fiscal e preposto." },
+        { "id": "d", "text": "declaração unilateral do contratado e homologação do fornecedor." },
+        { "id": "e", "text": "pregão, concorrência e diálogo competitivo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A lei prevê ato unilateral e escrito da Administração, extinção consensual por diferentes mecanismos e decisão arbitral ou judicial. Modalidades licitatórias não são formas de extinção, e acordo meramente verbal não satisfaz a formalização exigida. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1715",
+      "revision": 1,
+      "prompt": "O inadimplemento que motivaria o encerramento decorreu exclusivamente da conduta da própria Administração. Nesse caso:",
+      "options": [
+        { "id": "a", "text": "a Administração deve aplicar a si mesma sanção de impedimento." },
+        { "id": "b", "text": "não cabe a extinção por ato unilateral da Administração fundada nesse descumprimento." },
+        { "id": "c", "text": "o contrato se extingue automaticamente sem acerto financeiro." },
+        { "id": "d", "text": "o contratado perde a garantia e a desmobilização." },
+        { "id": "e", "text": "somente o fiscal pode decidir judicialmente o caso." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 138, I, excepciona do ato unilateral o descumprimento decorrente da própria conduta administrativa. Devem ser utilizadas as vias adequadas, com preservação dos direitos patrimoniais previstos quando houver culpa exclusiva da Administração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1716",
+      "revision": 1,
+      "prompt": "A extinção unilateral e a extinção consensual possuem em comum a exigência de:",
+      "options": [
+        { "id": "a", "text": "sentença judicial prévia em todos os casos." },
+        { "id": "b", "text": "aprovação unânime dos licitantes derrotados." },
+        { "id": "c", "text": "autorização escrita e fundamentada da autoridade competente e redução a termo no processo." },
+        { "id": "d", "text": "pagamento antecipado integral." },
+        { "id": "e", "text": "ocupação obrigatória das instalações." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nos termos do art. 138, § 1º, tanto a extinção unilateral quanto a consensual devem ser precedidas de autorização escrita e fundamentada da autoridade competente e formalizadas por termo no processo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1717",
+      "revision": 1,
+      "prompt": "Se a extinção decorrer de culpa exclusiva da Administração, o contratado tem direito a:",
+      "options": [
+        { "id": "a", "text": "receber automaticamente todo lucro esperado até o fim da vigência." },
+        { "id": "b", "text": "reter instalações públicas sem processo." },
+        { "id": "c", "text": "substituir a autoridade competente." },
+        { "id": "d", "text": "ressarcimento dos prejuízos regularmente comprovados, devolução da garantia, pagamentos pela execução até a extinção e custo da desmobilização." },
+        { "id": "e", "text": "dispensa de comprovar qualquer valor." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 138, § 2º, assegura ressarcimento dos prejuízos regularmente comprovados e enumera devolução da garantia, pagamentos pela execução até a extinção e custo da desmobilização. A lei não presume lucro futuro nem dispensa prova. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1718",
+      "revision": 1,
+      "prompt": "Entre as possíveis consequências da extinção unilateral está:",
+      "options": [
+        { "id": "a", "text": "a transferência definitiva de todo patrimônio do contratado." },
+        { "id": "b", "text": "a dispensa de motivação e de defesa." },
+        { "id": "c", "text": "o recebimento automático de objeto defeituoso." },
+        { "id": "d", "text": "a eliminação de todas as sanções possíveis." },
+        { "id": "e", "text": "a assunção imediata do objeto no estado e local em que se encontrar." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 139, I, permite a assunção imediata do objeto, no estado e local em que se encontre. A medida busca preservar a continuidade, mas não transfere indistintamente o patrimônio privado nem elimina o devido processo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1719",
+      "revision": 1,
+      "prompt": "Na extinção unilateral, a execução da garantia contratual pode servir para:",
+      "options": [
+        { "id": "a", "text": "ressarcir prejuízos da não execução, pagar verbas trabalhistas, fundiárias e previdenciárias cabíveis e multas ou exigir a assunção e conclusão pela seguradora quando aplicável." },
+        { "id": "b", "text": "financiar objeto estranho ao contrato sem limite." },
+        { "id": "c", "text": "eliminar a necessidade de apurar prejuízos." },
+        { "id": "d", "text": "substituir todo pagamento devido pela execução regular." },
+        { "id": "e", "text": "punir empregados sem relação com o contrato." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 139, III, direciona a garantia a finalidades determinadas: ressarcimento de prejuízos da não execução, verbas trabalhistas, fundiárias e previdenciárias quando cabíveis, multas e assunção do objeto pela seguradora quando aplicável. Não há autorização genérica de gasto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1720",
+      "revision": 1,
+      "prompt": "A retenção de créditos decorrentes do contrato, como efeito da extinção unilateral, pode alcançar:",
+      "options": [
+        { "id": "a", "text": "qualquer valor escolhido pelo fiscal, sem teto." },
+        { "id": "b", "text": "o limite dos prejuízos causados à Administração e das multas aplicadas." },
+        { "id": "c", "text": "somente um por cento do contrato em qualquer caso." },
+        { "id": "d", "text": "todos os créditos de outros contratos, automaticamente." },
+        { "id": "e", "text": "apenas os valores já pagos aos empregados." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 139, IV, limita a retenção dos créditos do contrato aos prejuízos causados e às multas aplicadas. A medida não é confisco ilimitado e pressupõe apuração dos montantes que a justificam. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1721",
+      "revision": 1,
+      "prompt": "A ocupação e utilização de local, instalações, equipamentos, material e pessoal necessários à continuidade, após extinção unilateral:",
+      "options": [
+        { "id": "a", "text": "é obrigatória e independe de autoridade superior." },
+        { "id": "b", "text": "depende exclusivamente de autorização do contratado." },
+        { "id": "c", "text": "fica a critério da Administração e exige autorização expressa da autoridade política indicada no art. 139, § 2º." },
+        { "id": "d", "text": "só pode existir depois de cinco anos." },
+        { "id": "e", "text": "transfere definitivamente a propriedade de todos os equipamentos." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A medida do art. 139, II, é discricionária e deve ser precedida de autorização expressa do ministro de Estado, secretário estadual ou secretário municipal competente, conforme o caso. Uso necessário não equivale a transferência irrestrita de propriedade. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1722",
+      "revision": 1,
+      "prompt": "O recebimento provisório de uma obra ou serviço é realizado:",
+      "options": [
+        { "id": "a", "text": "pelo fornecedor, mediante declaração unilateral." },
+        { "id": "b", "text": "pelo setor contábil, sem análise técnica." },
+        { "id": "c", "text": "pela comissão de licitação, de forma sumária." },
+        { "id": "d", "text": "pelo responsável pelo acompanhamento e fiscalização, mediante termo detalhado após verificação técnica." },
+        { "id": "e", "text": "pelo tribunal de contas, mediante sentença." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 140, I, a, atribui o recebimento provisório de obras e serviços ao responsável por acompanhamento e fiscalização, com termo detalhado após o cumprimento das exigências técnicas. A forma sumária é própria do provisório de compras. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1723",
+      "revision": 1,
+      "prompt": "No recebimento de compras, a etapa provisória ocorre:",
+      "options": [
+        { "id": "a", "text": "por termo judicial que encerra toda responsabilidade." },
+        { "id": "b", "text": "somente depois do pagamento integral." },
+        { "id": "c", "text": "pela autoridade máxima, com análise definitiva." },
+        { "id": "d", "text": "automaticamente se a nota fiscal for emitida." },
+        { "id": "e", "text": "de forma sumária pelo responsável pelo acompanhamento e fiscalização, para posterior verificação da conformidade." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 140, II, a, adota recebimento provisório sumário nas compras, pelo responsável pelo acompanhamento e fiscalização, seguido da verificação material. A entrega ou a nota fiscal não substituem a análise definitiva. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1724",
+      "revision": 1,
+      "prompt": "Tanto em obras e serviços quanto em compras, o recebimento definitivo cabe:",
+      "options": [
+        { "id": "a", "text": "a servidor ou comissão designada pela autoridade competente, mediante termo detalhado que comprove as exigências contratuais." },
+        { "id": "b", "text": "exclusivamente ao contratado, por autodeclaração." },
+        { "id": "c", "text": "ao setor de protocolo, sempre de forma sumária." },
+        { "id": "d", "text": "ao fiscal, sem documentação e sem designação." },
+        { "id": "e", "text": "ao órgão ambiental em todos os objetos." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "As alíneas b dos incisos I e II do art. 140 atribuem o definitivo a servidor ou comissão designada pela autoridade competente, mediante termo detalhado de atendimento contratual. Isso vale para os dois grupos de objetos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1725",
+      "revision": 1,
+      "prompt": "Parte dos bens entregues diverge das especificações contratuais. A Lei nº 14.133/2021 permite:",
+      "options": [
+        { "id": "a", "text": "aceitar obrigatoriamente tudo porque houve entrega física." },
+        { "id": "b", "text": "rejeitar o objeto total ou parcialmente por desacordo com o contrato." },
+        { "id": "c", "text": "pagar toda a fatura antes de verificar a conformidade." },
+        { "id": "d", "text": "alterar verbalmente as especificações retroativamente." },
+        { "id": "e", "text": "transferir a fiscalização ao transportador." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 140, § 1º, autoriza a rejeição total ou parcial do objeto em desacordo com o contrato. A entrega material não obriga a Administração a receber definitivamente prestação desconforme. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1726",
+      "revision": 1,
+      "prompt": "Após o recebimento definitivo, aparece vício relacionado à execução. O contratado afirma que o termo extinguiu toda responsabilidade. Essa afirmação é:",
+      "options": [
+        { "id": "a", "text": "correta em qualquer compra, obra ou serviço." },
+        { "id": "b", "text": "correta se o fiscal assinou sozinho." },
+        { "id": "c", "text": "incorreta, pois o recebimento não exclui as responsabilidades civil e ético-profissional legalmente previstas." },
+        { "id": "d", "text": "correta após 24 horas." },
+        { "id": "e", "text": "incorreta apenas se houver seguro-garantia." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 140, § 2º, preserva a responsabilidade civil pela solidez e segurança e a responsabilidade ético-profissional pela perfeita execução. O recebimento encerra uma etapa de verificação, não todas as responsabilidades. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1727",
+      "revision": 1,
+      "prompt": "Ensaios e testes exigidos por normas técnicas oficiais para demonstrar a boa execução correm:",
+      "options": [
+        { "id": "a", "text": "sempre por conta pessoal do fiscal." },
+        { "id": "b", "text": "obrigatoriamente por conta do tribunal de contas." },
+        { "id": "c", "text": "sem custo para qualquer parte." },
+        { "id": "d", "text": "por conta do contratado, salvo disposição contrária no edital ou em ato normativo." },
+        { "id": "e", "text": "por conta dos licitantes inabilitados." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 140, § 4º, coloca ensaios, testes e demais provas técnicas oficiais por conta do contratado, salvo disposição em contrário constante do edital ou de ato normativo. A ressalva impede tratar o custeio como absoluto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1728",
+      "revision": 1,
+      "prompt": "No recebimento definitivo de projeto de obra, a lei estabelece que:",
+      "options": [
+        { "id": "a", "text": "o projetista fica isento de danos depois da assinatura do termo." },
+        { "id": "b", "text": "a responsabilidade subsiste apenas se houver dolo." },
+        { "id": "c", "text": "a Administração assume todos os danos causados por falha de projeto." },
+        { "id": "d", "text": "a responsabilidade depende de garantia prevista por cinco anos." },
+        { "id": "e", "text": "o recebimento não exime projetista ou consultor da responsabilidade objetiva por todos os danos causados por falha de projeto." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 140, § 5º, preserva a responsabilidade objetiva do projetista ou consultor por todos os danos causados por falha de projeto, apesar do recebimento definitivo. A regra não exige dolo nem fixa nesse parágrafo garantia quinquenal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1729",
+      "revision": 1,
+      "prompt": "Contado do recebimento definitivo da obra, o contratado responde objetivamente por solidez, segurança e funcionalidade durante:",
+      "options": [
+        { "id": "a", "text": "prazo mínimo de cinco anos, admitida garantia superior no edital e no contrato." },
+        { "id": "b", "text": "trinta dias corridos." },
+        { "id": "c", "text": "dois meses, prorrogáveis pelo fiscal." },
+        { "id": "d", "text": "90 dias úteis." },
+        { "id": "e", "text": "prazo livremente reduzível a zero." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 140, § 6º, fixa prazo mínimo de cinco anos desde o recebimento definitivo da obra, admite garantia superior no edital e no contrato e impõe as correções necessárias diante de vício, defeito ou incorreção. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1730",
+      "revision": 1,
+      "prompt": "Quanto aos prazos e métodos de recebimento provisório e definitivo, o art. 140 determina que sejam definidos:",
+      "options": [
+        { "id": "a", "text": "por acordo verbal depois da entrega." },
+        { "id": "b", "text": "no contrato ou em regulamento." },
+        { "id": "c", "text": "exclusivamente por lei municipal." },
+        { "id": "d", "text": "pelo contratado sem participação administrativa." },
+        { "id": "e", "text": "sempre em cinco dias corridos para qualquer objeto." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 140, § 3º, remete prazos e métodos ao contrato ou ao regulamento. A lei geral não fixa no dispositivo um prazo nacional único e invariável para toda obra, serviço e compra. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1731",
+      "revision": 1,
+      "prompt": "Em um contrato de serviços, a equipe quantifica 70 horas executadas, confirma documentalmente a prestação e posteriormente formaliza a conformidade final. Esses atos correspondem, respectivamente, a:",
+      "options": [
+        { "id": "a", "text": "sanção, extinção e licitação." },
+        { "id": "b", "text": "pagamento, garantia e desapropriação." },
+        { "id": "c", "text": "medição, ateste e recebimento." },
+        { "id": "d", "text": "arbitragem, liquidação e falência." },
+        { "id": "e", "text": "ocupação, retenção e recomposição." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Medição quantifica a execução; ateste confirma a prestação para o processamento da despesa; recebimento formaliza a verificação de conformidade. Os atos se encadeiam, mas não são sinônimos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1732",
+      "revision": 1,
+      "prompt": "A ordem cronológica de pagamento deve ser organizada:",
+      "options": [
+        { "id": "a", "text": "em fila nacional única para todos os órgãos e despesas." },
+        { "id": "b", "text": "somente pelo tamanho da empresa credora." },
+        { "id": "c", "text": "pela ordem alfabética dos contratados." },
+        { "id": "d", "text": "para cada fonte diferenciada de recursos, separada entre bens, locações, serviços e obras." },
+        { "id": "e", "text": "apenas entre contratos de obras." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 141 exige ordem para cada fonte diferenciada de recursos e a subdivide nas categorias fornecimento de bens, locações, prestação de serviços e realização de obras. Não há fila única indiferenciada. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1733",
+      "revision": 1,
+      "prompt": "A Administração pretende alterar a ordem para pagar uma microempresa. A condição de microempresa:",
+      "options": [
+        { "id": "a", "text": "nunca pode ser considerada pela lei." },
+        { "id": "b", "text": "autoriza automaticamente preferência permanente." },
+        { "id": "c", "text": "dispensa justificativa e comunicação aos controles." },
+        { "id": "d", "text": "permite ultrapassar qualquer fonte de recursos." },
+        { "id": "e", "text": "pode fundamentar a alteração se houver demonstração de risco de descontinuidade do objeto e forem cumpridas as formalidades." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 141, § 1º, II, inclui microempresa e outros agentes legalmente listados, mas exige risco demonstrado de descontinuidade do cumprimento do objeto, justificativa prévia e comunicações posteriores. A categoria econômica isolada não basta. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1734",
+      "revision": 1,
+      "prompt": "O pagamento de serviço necessário ao funcionamento de sistema estruturante pode alterar a ordem cronológica quando:",
+      "options": [
+        { "id": "a", "text": "for demonstrado risco de descontinuidade do cumprimento do objeto e observadas as formalidades legais." },
+        { "id": "b", "text": "o fornecedor apenas solicitar prioridade." },
+        { "id": "c", "text": "a fatura for a de maior valor." },
+        { "id": "d", "text": "não houver justificativa anterior." },
+        { "id": "e", "text": "o contrato estiver fora da fonte de recursos." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 141, § 1º, III, exige que o serviço seja necessário ao funcionamento de sistema estruturante e que se demonstre risco de descontinuidade do objeto. Pedido ou valor da fatura não substituem esses requisitos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1735",
+      "revision": 1,
+      "prompt": "Contrato imprescindível à integridade do patrimônio público ou ao funcionamento da atividade finalística pode receber prioridade se:",
+      "options": [
+        { "id": "a", "text": "o contratado prometer desconto futuro, apenas." },
+        { "id": "b", "text": "for demonstrado o risco de descontinuidade da prestação de serviço público de relevância ou o cumprimento da missão institucional." },
+        { "id": "c", "text": "a autoridade dispensar qualquer registro." },
+        { "id": "d", "text": "a despesa mudar de categoria depois do pagamento." },
+        { "id": "e", "text": "o objeto for acessório e sem impacto institucional." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A hipótese do art. 141, § 1º, V, trata do contrato imprescindível à integridade patrimonial ou às atividades finalísticas quando demonstrado o risco de descontinuidade da prestação de serviço público de relevância ou o cumprimento da missão institucional. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1736",
+      "revision": 1,
+      "prompt": "A alteração válida da ordem cronológica deve ser acompanhada de:",
+      "options": [
+        { "id": "a", "text": "justificativa posterior e comunicação prévia somente ao contratado." },
+        { "id": "b", "text": "autorização verbal do fiscal e sigilo permanente." },
+        { "id": "c", "text": "justificativa prévia da autoridade competente e comunicação posterior ao controle interno e ao tribunal de contas competente." },
+        { "id": "d", "text": "sentença judicial em qualquer hipótese." },
+        { "id": "e", "text": "mudança da fonte de recursos sem registro." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 141, § 1º, fixa a sequência: justificativa prévia da autoridade competente e comunicação posterior aos dois órgãos de controle indicados. Essas formalidades se somam ao enquadramento em hipótese legal exclusiva. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1737",
+      "revision": 1,
+      "prompt": "A respeito da transparência e responsabilização na ordem de pagamentos, assinale a correta:",
+      "options": [
+        { "id": "a", "text": "a alteração motivada deve permanecer secreta." },
+        { "id": "b", "text": "a publicidade anual do valor total substitui a justificativa." },
+        { "id": "c", "text": "o desvio imotivado não produz apuração." },
+        { "id": "d", "text": "o desvio imotivado enseja apuração, e a ordem dos pagamentos e as justificativas das alterações devem ser divulgadas mensalmente." },
+        { "id": "e", "text": "somente o contratado decide o que será publicado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 141, §§ 2º e 3º, prevê apuração de responsabilidade pela inobservância imotivada e divulgação mensal, em seção específica de acesso à informação, da ordem cronológica e das justificativas de alterações. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1738",
+      "revision": 1,
+      "prompt": "Pagamento em conta vinculada ou pela efetiva comprovação do fato gerador pode ser adotado quando:",
+      "options": [
+        { "id": "a", "text": "o fiscal criar a regra depois da execução, verbalmente." },
+        { "id": "b", "text": "o banco exigir, ainda que o contrato proíba." },
+        { "id": "c", "text": "houver apenas costume administrativo." },
+        { "id": "d", "text": "o contratado escolher unilateralmente a técnica." },
+        { "id": "e", "text": "existir disposição expressa no edital ou no contrato." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 142 exige previsão expressa no edital ou no contrato para conta vinculada ou pagamento pela efetiva comprovação do fato gerador. A técnica não nasce de ordem verbal ou escolha unilateral posterior. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1739",
+      "revision": 1,
+      "prompt": "Há controvérsia sobre 20 das 100 unidades executadas, mas 80 são reconhecidas como conformes e devidas. A Administração deve:",
+      "options": [
+        { "id": "a", "text": "liberar a parcela incontroversa no prazo previsto, mantendo a apuração das 20 unidades discutidas." },
+        { "id": "b", "text": "reter todas as 100 unidades até desaparecer qualquer divergência." },
+        { "id": "c", "text": "pagar também as 20 unidades discutidas como se fossem incontroversas." },
+        { "id": "d", "text": "extinguir automaticamente o contrato." },
+        { "id": "e", "text": "ignorar a ordem cronológica aplicável." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 143 manda liberar no prazo a parcela incontroversa quando a divergência envolver dimensão, qualidade ou quantidade. Isso não antecipa a decisão sobre a parte contestada nem elimina os demais controles de pagamento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1740",
+      "revision": 1,
+      "prompt": "A remuneração variável na contratação de obra, fornecimento ou serviço pode vincular-se:",
+      "options": [
+        { "id": "a", "text": "ao humor posterior da autoridade, sem critérios prévios." },
+        { "id": "b", "text": "a metas, qualidade, sustentabilidade ambiental e prazos definidos no edital e no contrato." },
+        { "id": "c", "text": "somente ao número de aditivos celebrados." },
+        { "id": "d", "text": "a critério secreto conhecido após o recebimento." },
+        { "id": "e", "text": "exclusivamente à antiguidade da empresa." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 144 permite vincular remuneração ao desempenho medido por metas, padrões de qualidade, sustentabilidade e prazos previamente definidos. A objetividade e a previsão afastam variação arbitrária. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1741",
+      "revision": 1,
+      "prompt": "Quando o objeto visa implantar processo de racionalização, a lei admite que o pagamento seja ajustado:",
+      "options": [
+        { "id": "a", "text": "pelo valor de todo o patrimônio do órgão." },
+        { "id": "b", "text": "sem limite orçamentário." },
+        { "id": "c", "text": "em percentual sobre o valor economizado em determinada despesa, à conta dos mesmos créditos e conforme regulamentação específica." },
+        { "id": "d", "text": "somente por decisão verbal posterior." },
+        { "id": "e", "text": "pela quantidade de licitantes derrotados." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 144, § 1º, permite percentual sobre o valor economizado em determinada despesa quando o objeto implantar processo de racionalização; os gastos correm nos mesmos créditos, conforme regulamentação. A técnica também observa motivação e limite orçamentário. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1742",
+      "revision": 1,
+      "prompt": "A utilização de remuneração variável pela Administração:",
+      "options": [
+        { "id": "a", "text": "é livre de motivação se houver economia." },
+        { "id": "b", "text": "permite ultrapassar o orçamento fixado." },
+        { "id": "c", "text": "é proibida em serviços de engenharia." },
+        { "id": "d", "text": "deve ser motivada e respeitar o limite orçamentário fixado." },
+        { "id": "e", "text": "substitui automaticamente o recebimento." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 144, § 2º, condiciona o uso da remuneração variável à motivação e ao limite orçamentário estabelecido pela Administração. A lei inclui expressamente obras e serviços de engenharia no instituto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1743",
+      "revision": 1,
+      "prompt": "Como regra geral, o pagamento antecipado de parcelas contratuais vinculadas a bens, obras ou serviços:",
+      "options": [
+        { "id": "a", "text": "é obrigatório em toda contratação direta." },
+        { "id": "b", "text": "é livre se a empresa for pequena." },
+        { "id": "c", "text": "depende apenas de nota fiscal." },
+        { "id": "d", "text": "é permitido sem justificativa até metade do valor." },
+        { "id": "e", "text": "é proibido, ressalvada a exceção legal expressamente condicionada." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O caput do art. 145 proíbe antecipação total ou parcial de parcelas vinculadas a bens, obras ou serviços. O § 1º cria exceção restrita, que não transforma contratação direta ou porte empresarial em autorização automática. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1744",
+      "revision": 1,
+      "prompt": "Para admitir excepcionalmente antecipação de pagamento, é necessário:",
+      "options": [
+        { "id": "a", "text": "economia sensível ou condição indispensável para obter o bem ou prestar o serviço, justificativa prévia e previsão expressa no edital ou instrumento de contratação direta." },
+        { "id": "b", "text": "somente pedido do fornecedor após assinar o contrato." },
+        { "id": "c", "text": "decisão informal do setor financeiro." },
+        { "id": "d", "text": "renúncia da Administração à devolução." },
+        { "id": "e", "text": "dispensa de planejamento e análise de risco." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 145, § 1º, combina hipótese material, justificativa prévia no processo e previsão expressa no edital ou instrumento formal da contratação direta. Pedido posterior ou conveniência sem demonstração não bastam. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1745",
+      "revision": 1,
+      "prompt": "Como condição do pagamento antecipado excepcional, a Administração:",
+      "options": [
+        { "id": "a", "text": "é proibida de adotar qualquer proteção." },
+        { "id": "b", "text": "pode exigir garantia adicional." },
+        { "id": "c", "text": "deve transferir a fiscalização ao banco." },
+        { "id": "d", "text": "precisa receber definitivamente antes da execução." },
+        { "id": "e", "text": "deve renunciar ao valor antecipado." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 145, § 2º, permite exigir garantia adicional como condição para antecipar o pagamento. A redação legal é facultativa, embora a análise de risco deva justificar as cautelas adotadas no caso. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1746",
+      "revision": 1,
+      "prompt": "Após receber pagamento antecipado válido, o contratado não executa o objeto no prazo contratual. A lei determina:",
+      "options": [
+        { "id": "a", "text": "conversão automática do valor em prêmio." },
+        { "id": "b", "text": "recebimento definitivo fictício." },
+        { "id": "c", "text": "devolução do valor antecipado." },
+        { "id": "d", "text": "prorrogação automática por cinco anos." },
+        { "id": "e", "text": "retenção do valor pelo contratado sem consequência." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 145, § 3º, exige devolução da antecipação quando o objeto não for executado no prazo contratual. A restituição protege o erário e não substitui outras consequências que possam ser cabíveis. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1747",
+      "revision": 1,
+      "prompt": "Uma orientação operacional do MGI fixa procedimento de pagamento para a Administração Pública federal. No estudo voltado ao TCE-MA, essa orientação:",
+      "options": [
+        { "id": "a", "text": "substitui automaticamente a Lei nº 14.133/2021." },
+        { "id": "b", "text": "vincula todo ente federativo sem exame de competência." },
+        { "id": "c", "text": "deve ser tratada como lei estadual maranhense." },
+        { "id": "d", "text": "é referência interpretativa federal, cuja aplicação local depende de competência e incorporação pertinentes." },
+        { "id": "e", "text": "não pode ser consultada nem como referência." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Lei nº 14.133/2021 fornece o regime geral nacional, enquanto instruções e rotinas do MGI disciplinam o âmbito federal. Elas podem orientar o estudo, mas não devem ser apresentadas como organização interna automática do TCE-MA. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1748",
+      "revision": 1,
+      "prompt": "No ato de liquidação da despesa, os serviços de contabilidade devem:",
+      "options": [
+        { "id": "a", "text": "extinguir unilateralmente o contrato." },
+        { "id": "b", "text": "realizar novo julgamento da licitação." },
+        { "id": "c", "text": "dispensar os documentos do crédito." },
+        { "id": "d", "text": "declarar o recebimento definitivo de toda obra." },
+        { "id": "e", "text": "comunicar à administração tributária as características da despesa e os valores pagos, conforme o art. 63 da Lei nº 4.320/1964." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 146 estabelece a comunicação tributária pelos serviços de contabilidade no ato de liquidação, em conexão com o art. 63 da Lei nº 4.320/1964. Liquidação verifica o direito do credor e não se confunde com recebimento ou extinção. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1749",
+      "revision": 1,
+      "prompt": "O mesmo inadimplemento contratual pode levar à extinção do vínculo e à aplicação de sanção. Nessa situação:",
+      "options": [
+        { "id": "a", "text": "cada instituto conserva pressupostos, competência, motivação, defesa e procedimento próprios." },
+        { "id": "b", "text": "a extinção substitui necessariamente qualquer apuração sancionadora." },
+        { "id": "c", "text": "a sanção extingue o contrato sem ato adicional em todos os casos." },
+        { "id": "d", "text": "nenhum contraditório é necessário." },
+        { "id": "e", "text": "o contratado escolhe a sanção que receberá." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Extinção encerra o vínculo e sanção responde à infração. Embora o mesmo fato possa sustentar ambas, não se deve fundir os regimes: cada resposta exige fundamento, competência e procedimento próprios. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1750",
+      "revision": 1,
+      "prompt": "Uma compra é entregue e o responsável registra sumariamente a entrada. Em seguida, a Administração afirma que isso já substituiu o recebimento definitivo. A conclusão é:",
+      "options": [
+        { "id": "a", "text": "correta, porque compras nunca passam por verificação material." },
+        { "id": "b", "text": "incorreta, pois o registro sumário é provisório e o definitivo exige servidor ou comissão designada e termo detalhado." },
+        { "id": "c", "text": "correta se houver nota fiscal, independentemente do contrato." },
+        { "id": "d", "text": "incorreta apenas em obras de engenharia." },
+        { "id": "e", "text": "correta quando a entrega ocorrer pela manhã." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nas compras, o provisório é sumário e serve à verificação posterior; o definitivo cabe a servidor ou comissão designada e utiliza termo detalhado para comprovar as exigências contratuais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1751",
+      "revision": 1,
+      "prompt": "Uma fatura ocupa sua posição regular na fila, mas há divergência somente sobre pequena parte da quantidade. A solução compatível com os arts. 141 e 143 é:",
+      "options": [
+        { "id": "a", "text": "ignorar a fila e antecipar todo o valor." },
+        { "id": "b", "text": "reter indefinidamente tudo sem motivação." },
+        { "id": "c", "text": "observar a ordem aplicável e liberar no prazo a parcela incontroversa, apurando separadamente a divergência." },
+        { "id": "d", "text": "extinguir o contrato sem defesa." },
+        { "id": "e", "text": "converter a controvérsia em recebimento definitivo automático." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A ordem cronológica organiza o dever de pagar, enquanto o art. 143 impede que controvérsia parcial retenha o valor reconhecido. Os dois comandos convivem: paga-se a parcela incontroversa no prazo e na ordem pertinente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1752",
+      "revision": 1,
+      "prompt": "A decretação de falência do contratado aparece entre os motivos do art. 137. Disso decorre que:",
+      "options": [
+        { "id": "a", "text": "o fiscal pode apagar o processo contratual." },
+        { "id": "b", "text": "a garantia deve ser liberada sem qualquer análise." },
+        { "id": "c", "text": "todo objeto precisa ser recebido definitivamente." },
+        { "id": "d", "text": "há causa legal a ser formalmente processada, e não extinção automática sem motivação e defesa." },
+        { "id": "e", "text": "somente o contratado pode reconhecer a falência." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Falência integra o art. 137, IV, mas o caput mantém a exigência de motivação formal, contraditório e ampla defesa no processo de extinção. A enumeração da causa não dispensa o procedimento e a decisão competente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1753",
+      "revision": 1,
+      "prompt": "Assinale a alternativa que relaciona corretamente forma e requisito de extinção:",
+      "options": [
+        { "id": "a", "text": "mediação dispensa interesse da Administração e formalização." },
+        { "id": "b", "text": "ato unilateral pode basear-se no descumprimento causado pela própria Administração." },
+        { "id": "c", "text": "decisão arbitral independe de cláusula compromissória ou compromisso arbitral." },
+        { "id": "d", "text": "acordo verbal do fiscal é forma suficiente de extinção consensual." },
+        { "id": "e", "text": "extinção arbitral pode decorrer de cláusula compromissória ou compromisso arbitral, e a consensual exige interesse da Administração." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 138 admite decisão arbitral apoiada em cláusula compromissória ou compromisso arbitral e soluções consensuais apenas quando houver interesse da Administração. A extinção consensual ainda exige autorização fundamentada e termo no processo. Fonte: questão autoral baseada em referências do conteúdo."
+    }
+  ]
+}

@@ -18,7 +18,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run build && npx wrangler pages dev dist --ip 127.0.0.1 --port 4321 --log-level error',
+    command:
+      'npm run build && npx wrangler pages dev dist --compatibility-date 2026-07-15 --ip 127.0.0.1 --port 4321 --log-level error',
     url: 'http://127.0.0.1:4321',
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,

@@ -560,7 +560,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 ##### [x] Concluído Assunto 128 - Item 1.1, fase 5: Execução, fiscalização, alterações e equilíbrio econômico-financeiro.
 
-##### [>] Assunto 129 - Item 1.1, fase 6: Extinção, recebimento e pagamento.
+##### [R] Em revisão Assunto 129 - Item 1.1, fase 6: Extinção, recebimento e pagamento.
 
 ##### [ ] Assunto 130 - Item 1.1, fase 7: Infrações, sanções, controle, PNCP e regras finais.
 
