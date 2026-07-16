@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q2139",
+      "revision": 1,
+      "prompt": "Quanto ao âmbito normativo da gestão aplicada da execução contratual, assinale a alternativa correta.",
+      "options": [
+        { "id": "A", "text": "A Lei nº 14.133/2021 e a IN nº 5/2017 são normas gerais nacionais de igual hierarquia." },
+        { "id": "B", "text": "O Decreto nº 13.031/2026 tornou o Contratos.gov.br obrigatório para todos os tribunais de contas." },
+        { "id": "C", "text": "A Lei nº 14.133/2021 contém normas gerais, enquanto os modelos federais infralegais não vinculam automaticamente o TCE-MA." },
+        { "id": "D", "text": "A IN nº 5/2017 prevalece sobre a Lei nº 14.133/2021 em matéria de medição." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 14.133/2021 fornece a base geral. INs e decretos federais têm âmbito próprio e podem servir como referência técnica, sem adoção automática pelo TCE-MA. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2140",
+      "revision": 1,
+      "prompt": "Um contrato acompanha quarenta indicadores de baixa relevância, mas não mede as interrupções que comprometem seu resultado principal. O desenho do controle deve",
+      "options": [
+        { "id": "A", "text": "manter todos os indicadores, pois quantidade assegura qualidade." },
+        { "id": "B", "text": "priorizar medidas ligadas ao resultado e aos riscos críticos, eliminando métricas sem utilidade demonstrada." },
+        { "id": "C", "text": "substituir toda medição pela opinião do fiscal." },
+        { "id": "D", "text": "medir apenas o valor da nota fiscal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Indicadores devem nascer dos resultados e riscos relevantes. Excesso de métricas consome recursos e pode ocultar a dimensão essencial da prestação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2141",
+      "revision": 1,
+      "prompt": "Um serviço deve solucionar incidentes críticos em até duas horas. O único indicador proposto conta quantos empregados estavam presentes. Esse indicador é",
+      "options": [
+        { "id": "A", "text": "suficiente, porque presença sempre equivale a resultado." },
+        { "id": "B", "text": "insuficiente, pois não mede diretamente o prazo nem a solução efetivamente entregue." },
+        { "id": "C", "text": "inválido apenas porque todo indicador deve ser financeiro." },
+        { "id": "D", "text": "suficiente se a contratada escolher os empregados contados." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Recursos empregados podem ser relevantes, mas o indicador precisa refletir o resultado contratado. Presença física não demonstra, por si só, tempestividade nem solução. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2142",
+      "revision": 1,
+      "prompt": "A sequência que melhor representa um controle contratual auditável é",
+      "options": [
+        { "id": "A", "text": "evidência, preferência do fiscal, obrigação e sanção." },
+        { "id": "B", "text": "obrigação, indicador, evidência e consequência prevista." },
+        { "id": "C", "text": "pagamento, indicador, contrato e reunião." },
+        { "id": "D", "text": "preposto, usuário, ateste e alteração informal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A obrigação define o dever, o indicador traduz aspecto relevante, a evidência demonstra o ocorrido e a consequência orienta o tratamento contratual do resultado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2143",
+      "revision": 1,
+      "prompt": "Uma cláusula que exige apenas “atendimento de qualidade”, sem padrão, aferição ou evidência definidos, apresenta principalmente o risco de",
+      "options": [
+        { "id": "A", "text": "avaliação excessivamente subjetiva e difícil de reproduzir." },
+        { "id": "B", "text": "medição quantitativa excessivamente precisa." },
+        { "id": "C", "text": "eliminação de toda discricionariedade técnica legítima." },
+        { "id": "D", "text": "redução automática do preço contratado." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Critérios vagos dificultam previsibilidade, contraditório e auditoria. A qualidade deve ser traduzida em fatos ou níveis observáveis quando isso for pertinente ao objeto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2144",
+      "revision": 1,
+      "prompt": "Na gestão contratual, o SLA deve ser compreendido como",
+      "options": [
+        { "id": "A", "text": "uma sanção aplicada pelo fiscal." },
+        { "id": "B", "text": "um conjunto de compromissos de nível de serviço previamente integrado à contratação." },
+        { "id": "C", "text": "um relatório unilateral da contratada." },
+        { "id": "D", "text": "uma autorização para alterar metas em reunião." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "SLA designa compromissos de desempenho. Os critérios materiais relevantes devem integrar validamente o edital, contrato ou seus anexos, e não nascer informalmente na execução. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2145",
+      "revision": 1,
+      "prompt": "A relação correta entre SLA e IMR é:",
+      "options": [
+        { "id": "A", "text": "São necessariamente sinônimos em qualquer contratação." },
+        { "id": "B", "text": "SLA descreve compromisso de desempenho, e o IMR é técnica da IN nº 5/2017 para estruturar e aferir resultados." },
+        { "id": "C", "text": "IMR é sanção, enquanto SLA é recebimento definitivo." },
+        { "id": "D", "text": "SLA só pode ser qualitativo e IMR só pode ser financeiro." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os conceitos podem se relacionar, mas não são sinônimos necessários. O IMR estrutura indicadores, faixas e efeitos de medição no modelo federal de serviços. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2146",
+      "revision": 1,
+      "prompt": "Qual elemento é indispensável para tornar um indicador reproduzível?",
+      "options": [
+        { "id": "A", "text": "Fórmula ou critério e fonte de dados definidos." },
+        { "id": "B", "text": "Avaliação secreta feita pelo fiscal." },
+        { "id": "C", "text": "Possibilidade de mudar a meta após cada resultado." },
+        { "id": "D", "text": "Uso obrigatório de percentual." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A reprodução depende de saber como calcular ou classificar e de qual fonte extrair os fatos. Indicadores podem usar várias unidades, não apenas percentuais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2147",
+      "revision": 1,
+      "prompt": "Em um índice de demandas concluídas no prazo, definir a população computável é importante porque",
+      "options": [
+        { "id": "A", "text": "permite à contratada excluir livremente casos desfavoráveis." },
+        { "id": "B", "text": "determina quais eventos integram o numerador e o denominador da apuração." },
+        { "id": "C", "text": "substitui a necessidade de fonte de dados." },
+        { "id": "D", "text": "elimina a necessidade de meta." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sem população e exclusões previamente definidas, eventos semelhantes podem receber tratamento diferente e distorcer o percentual. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2148",
+      "revision": 1,
+      "prompt": "A respeito da fonte de dados de um indicador, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "pode permanecer indefinida até o encerramento do mês." },
+        { "id": "B", "text": "deve permitir rastrear e verificar a informação usada na apuração." },
+        { "id": "C", "text": "precisa ser sempre um relatório produzido pela contratada." },
+        { "id": "D", "text": "dispensa validação se for eletrônica." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fonte deve ser identificável e confiável. Registros eletrônicos e relatórios da contratada também podem exigir validação, perfis de acesso e trilha de alteração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2149",
+      "revision": 1,
+      "prompt": "Em uma janela computável de 1.000 minutos, houve 8 minutos de indisponibilidade computável. Pela fórmula apresentada no conteúdo, a disponibilidade foi de",
+      "options": [
+        { "id": "A", "text": "99,2%." },
+        { "id": "B", "text": "99,8%." },
+        { "id": "C", "text": "92%." },
+        { "id": "D", "text": "100,8%." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "(1.000 - 8) / 1.000 × 100 = 99,2%. O cálculo ainda pressupõe que janela e indisponibilidades tenham sido corretamente classificadas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2150",
+      "revision": 1,
+      "prompt": "Um índice de prazo com 90 demandas concluídas no prazo entre 100 demandas concluídas computáveis corresponde a",
+      "options": [
+        { "id": "A", "text": "10%." },
+        { "id": "B", "text": "90%." },
+        { "id": "C", "text": "100%." },
+        { "id": "D", "text": "110%." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O índice é 90/100 × 100 = 90%. A validade depende da classificação correta das demandas e dos registros de início e conclusão. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2151",
+      "revision": 1,
+      "prompt": "Por que um percentual geral de conformidade pode ser insuficiente?",
+      "options": [
+        { "id": "A", "text": "Porque percentuais são proibidos em contratos administrativos." },
+        { "id": "B", "text": "Porque pode ocultar diferenças de criticidade entre falhas." },
+        { "id": "C", "text": "Porque toda falha deve ter o mesmo peso." },
+        { "id": "D", "text": "Porque apenas o preposto pode interpretar percentuais." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Falhas leves e críticas podem produzir percentuais parecidos. O modelo pode exigir ponderação ou indicador específico para riscos essenciais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2152",
+      "revision": 1,
+      "prompt": "No desenho de nível de serviço, tolerância é",
+      "options": [
+        { "id": "A", "text": "autorização para descumprimento permanente." },
+        { "id": "B", "text": "margem limitada, tecnicamente justificável e previamente conhecida." },
+        { "id": "C", "text": "sinônimo de meta." },
+        { "id": "D", "text": "perdão concedido pelo fiscal após a medição." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A tolerância trata variações limitadas conforme regra prévia. Não substitui a meta nem permite aceitar resultado abaixo de requisito essencial ou legal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2153",
+      "revision": 1,
+      "prompt": "O chamado efeito penhasco ocorre quando",
+      "options": [
+        { "id": "A", "text": "uma diferença mínima de desempenho produz consequência desproporcional." },
+        { "id": "B", "text": "a medição utiliza mais de uma fonte." },
+        { "id": "C", "text": "a meta possui unidade definida." },
+        { "id": "D", "text": "a fiscalização registra uma falha crítica." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Faixas mal desenhadas podem produzir salto desproporcional entre resultados quase iguais. O instrumento deve buscar relação coerente entre desempenho e efeito. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2154",
+      "revision": 1,
+      "prompt": "Em um período, cinco de cinquenta entregas previstas não foram realizadas. O contrato prevê ajuste proporcional do valor, e a omissão também pode caracterizar infração. Nesse caso,",
+      "options": [
+        { "id": "A", "text": "o ajuste do valor impede qualquer apuração de infração." },
+        { "id": "B", "text": "o valor pode ser dimensionado pela entrega efetiva, enquanto eventual sanção segue fundamento e processo próprios." },
+        { "id": "C", "text": "as cinquenta entregas devem ser pagas para evitar sanção dupla." },
+        { "id": "D", "text": "o fiscal pode escolher uma multa sem previsão ou processo." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A medição ajusta a contraprestação ao resultado entregue. A responsabilização examina a infração em trilha própria, com previsão, competência e contraditório. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2155",
+      "revision": 1,
+      "prompt": "Uma rubrica qualitativa confiável deve",
+      "options": [
+        { "id": "A", "text": "usar apenas os conceitos “bom”, “regular” e “ruim”." },
+        { "id": "B", "text": "descrever fatos observáveis que caracterizam cada nível." },
+        { "id": "C", "text": "ser mantida em sigilo da contratada." },
+        { "id": "D", "text": "ser criada depois de conhecida a entrega." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Descrições observáveis reduzem subjetividade e permitem contraditório e reprodução da avaliação. Conceitos vagos, isoladamente, não bastam. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2156",
+      "revision": 1,
+      "prompt": "A pesquisa de satisfação dos usuários",
+      "options": [
+        { "id": "A", "text": "substitui toda fiscalização técnica." },
+        { "id": "B", "text": "pode complementar outras evidências, sem sanar descumprimento técnico ou legal." },
+        { "id": "C", "text": "prova automaticamente a inexecução quando houver uma reclamação." },
+        { "id": "D", "text": "só pode produzir resultado quantitativo." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A percepção do usuário é útil, mas deve ser combinada com critérios objetivos. Satisfação e conformidade técnica não são equivalentes. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2157",
+      "revision": 1,
+      "prompt": "Constitui medida de integridade dos dados usados na medição",
+      "options": [
+        { "id": "A", "text": "permitir alteração sem registro para corrigir erros." },
+        { "id": "B", "text": "preservar trilha de criação e alteração dos registros." },
+        { "id": "C", "text": "atribuir coleta e validação exclusivamente à contratada." },
+        { "id": "D", "text": "eliminar a memória de cálculo após o ateste." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Rastreabilidade, perfis de acesso, preservação dos registros e reprodução do cálculo reduzem risco de manipulação e erro. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2158",
+      "revision": 1,
+      "prompt": "Relatório de desempenho elaborado pela contratada",
+      "options": [
+        { "id": "A", "text": "deve ser aceito sem conferência por presumir-se verdadeiro." },
+        { "id": "B", "text": "pode ser fonte de informação, mas exige validação pela Administração." },
+        { "id": "C", "text": "transfere à empresa a função de fiscal do contrato." },
+        { "id": "D", "text": "substitui todos os registros primários." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A contratada pode fornecer dados, mas a Administração deve validar a evidência. A IN nº 5/2017 não admite atribuir à própria empresa a avaliação final de seu desempenho. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2159",
+      "revision": 1,
+      "prompt": "Durante a execução, o fiscal percebe que a meta contratual é insuficiente e decide elevá-la por e-mail. Essa conduta é",
+      "options": [
+        { "id": "A", "text": "correta, porque todo fiscal pode aperfeiçoar unilateralmente o objeto." },
+        { "id": "B", "text": "incorreta, porque alteração material do nível de serviço exige o procedimento e a competência aplicáveis." },
+        { "id": "C", "text": "correta se o preposto não responder em 24 horas." },
+        { "id": "D", "text": "obrigatória sempre que houver risco." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fiscalização aplica o contrato; não cria obrigação material por comunicação informal. Mudança válida deve observar competência, justificativa e equilíbrio quando cabível. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2160",
+      "revision": 1,
+      "prompt": "A expressão “fiscalizador do contrato”, no recorte estudado, designa",
+      "options": [
+        { "id": "A", "text": "necessariamente um único cargo com esse nome." },
+        { "id": "B", "text": "a função de acompanhamento e fiscalização, que pode ser distribuída entre fiscais conforme o regulamento." },
+        { "id": "C", "text": "o preposto da empresa." },
+        { "id": "D", "text": "exclusivamente a autoridade que aplica sanções." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Lei nº 14.133/2021 fala em um ou mais fiscais especialmente designados. Regulamentos podem repartir aspectos técnicos, administrativos e setoriais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2161",
+      "revision": 1,
+      "prompt": "Integra o núcleo da atuação do fiscalizador",
+      "options": [
+        { "id": "A", "text": "observar, comparar, evidenciar, registrar, corrigir dentro da competência e escalar." },
+        { "id": "B", "text": "executar diretamente o serviço quando a empresa atrasar." },
+        { "id": "C", "text": "renegociar informalmente o preço." },
+        { "id": "D", "text": "escolher os empregados da contratada." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fiscalização é atividade ativa de verificação e tratamento, mas não transfere ao fiscal a execução empresarial nem competências de alteração ou gestão de pessoal. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2162",
+      "revision": 1,
+      "prompt": "Antes do início da execução, é especialmente relevante que o fiscalizador receba",
+      "options": [
+        { "id": "A", "text": "apenas a nota de empenho." },
+        { "id": "B", "text": "contrato, termo de referência, proposta, indicadores, riscos, canais e identificação dos responsáveis." },
+        { "id": "C", "text": "somente a lista de empregados da contratada." },
+        { "id": "D", "text": "uma autorização genérica para decidir qualquer matéria." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fiscalização depende do conhecimento das obrigações, critérios, riscos, documentos e fluxo de competências. A designação isolada não fornece capacidade material. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2163",
+      "revision": 1,
+      "prompt": "A intensidade da fiscalização deve considerar",
+      "options": [
+        { "id": "A", "text": "apenas o valor mensal do contrato." },
+        { "id": "B", "text": "criticidade, histórico, confiabilidade dos dados e possibilidade de correção do dano." },
+        { "id": "C", "text": "a preferência pessoal do preposto." },
+        { "id": "D", "text": "somente a quantidade de fiscais disponíveis." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O acompanhamento orientado por risco intensifica controles quando impacto, irreversibilidade, reincidência ou fragilidade dos dados assim exigirem. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2164",
+      "revision": 1,
+      "prompt": "É instrumento possível de acompanhamento, conforme o objeto",
+      "options": [
+        { "id": "A", "text": "inspeção, teste, checklist, logs, amostragem ou pesquisa com usuários." },
+        { "id": "B", "text": "apenas declaração verbal do contratado." },
+        { "id": "C", "text": "alteração informal da cláusula." },
+        { "id": "D", "text": "sanção aplicada antes da ocorrência." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As ferramentas variam conforme a obrigação e o risco. O importante é que produzam evidência proporcional e apta a provar o aspecto examinado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2165",
+      "revision": 1,
+      "prompt": "Um relatório fotográfico isolado tende a ser insuficiente para provar",
+      "options": [
+        { "id": "A", "text": "a condição visual em um momento determinado." },
+        { "id": "B", "text": "a disponibilidade contínua de um serviço ao longo de todo o mês." },
+        { "id": "C", "text": "a existência de um equipamento no local." },
+        { "id": "D", "text": "a cor de um material entregue." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Foto captura um instante. Disponibilidade ao longo do tempo normalmente exige logs ou registros contínuos validados. A evidência deve corresponder à natureza da obrigação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2166",
+      "revision": 1,
+      "prompt": "O fiscalizador ultrapassa seu papel quando",
+      "options": [
+        { "id": "A", "text": "determina a correção de defeito coberto pelo contrato." },
+        { "id": "B", "text": "registra fato e comunica o preposto." },
+        { "id": "C", "text": "cria obrigação nova sem base contratual." },
+        { "id": "D", "text": "informa ao gestor matéria fora de sua competência." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Exigir o cumprimento do que já foi pactuado integra a fiscalização. Inovar materialmente no conteúdo do contrato exige procedimento e autoridade competentes. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2167",
+      "revision": 1,
+      "prompt": "A linha que separa uma ordem legítima de correção de uma alteração informal está principalmente",
+      "options": [
+        { "id": "A", "text": "no uso ou não de e-mail." },
+        { "id": "B", "text": "na existência de vínculo entre a ordem e obrigação contratual preexistente." },
+        { "id": "C", "text": "na concordância de um empregado terceirizado." },
+        { "id": "D", "text": "no valor absoluto do contrato." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O fiscal pode determinar a regularização de falta ou defeito já abrangido pelo contrato. Se a ordem cria dever novo, há inovação indevida. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2168",
+      "revision": 1,
+      "prompt": "Sobre o ateste do fiscal, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "é assinatura formal sem conteúdo probatório." },
+        { "id": "B", "text": "certifica fatos relevantes e deve estar apoiado em evidências." },
+        { "id": "C", "text": "resolve automaticamente qualquer sanção." },
+        { "id": "D", "text": "pode incluir parcela não comprovada para acelerar o pagamento." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ateste sustenta etapas posteriores e deve delimitar o que foi comprovado. Divergências e parcelas não demonstradas precisam ser registradas. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2169",
+      "revision": 1,
+      "prompt": "Um relatório afirma apenas que a disponibilidade mensal foi de 99,2%, sem anexar logs, indicar eventos excluídos ou apresentar memória de cálculo. Para fins de auditoria, o registro é",
+      "options": [
+        { "id": "A", "text": "suficiente, porque qualquer percentual dispensa demonstração." },
+        { "id": "B", "text": "insuficiente, pois outra pessoa não consegue reproduzir a classificação e o cálculo." },
+        { "id": "C", "text": "suficiente se tiver sido elaborado pela contratada." },
+        { "id": "D", "text": "insuficiente apenas se a meta tiver sido atingida." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conclusão sem fonte, exclusões e memória não permite verificar o denominador nem reproduzir o resultado. A rastreabilidade independe de o desempenho ser favorável. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2170",
+      "revision": 1,
+      "prompt": "Uma interrupção crítica exige decisão superior, mas o contrato já prevê medida imediata de contingência dentro da alçada do fiscal. Ele deve",
+      "options": [
+        { "id": "A", "text": "aguardar passivamente a decisão superior, mesmo que o dano aumente." },
+        { "id": "B", "text": "acionar a contingência prevista, preservar a evidência e escalar tempestivamente a decisão excedente." },
+        { "id": "C", "text": "alterar o objeto para solucionar definitivamente o problema." },
+        { "id": "D", "text": "delegar ao preposto a decisão da Administração." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Escalonar não impede medidas contratuais já inseridas na competência do fiscal. A resposta deve conter o dano sem usurpar a decisão reservada à instância superior. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2171",
+      "revision": 1,
+      "prompt": "A empresa designa como preposto uma pessoa que apenas recebe mensagens, mas não consegue mobilizar qualquer providência nem obter resposta interna no prazo contratual. A situação indica",
+      "options": [
+        { "id": "A", "text": "representação operacional insuficiente, que pode justificar providência ou substituição motivada." },
+        { "id": "B", "text": "transferência automática da fiscalização à empresa." },
+        { "id": "C", "text": "invalidade de toda comunicação recebida por essa pessoa." },
+        { "id": "D", "text": "obrigação de o fiscal assumir a gestão da equipe privada." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O preposto precisa ter poderes e canais compatíveis com a resposta empresarial. A insuficiência deve ser documentada e tratada sem transferir funções públicas ou empresariais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2172",
+      "revision": 1,
+      "prompt": "O preposto representa",
+      "options": [
+        { "id": "A", "text": "a Administração perante os trabalhadores." },
+        { "id": "B", "text": "a contratada na interlocução sobre a execução." },
+        { "id": "C", "text": "o órgão de controle interno." },
+        { "id": "D", "text": "o fiscal em seus afastamentos." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O preposto é o interlocutor da contratada. Não é agente público, fiscal ou substituto do gestor. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2173",
+      "revision": 1,
+      "prompt": "O fiscal pede a substituição do preposto apenas porque ele apresentou, de forma respeitosa, justificativa técnica contrária à medição. Sem outra razão, o pedido é",
+      "options": [
+        { "id": "A", "text": "adequado, pois o preposto não pode divergir do fiscal." },
+        { "id": "B", "text": "arbitrário, pois a substituição deve apoiar-se em motivo objetivo relacionado à execução ou à representação." },
+        { "id": "C", "text": "obrigatório sempre que houver manifestação da contratada." },
+        { "id": "D", "text": "equivalente à aplicação regular de sanção." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A contratada pode apresentar manifestação e evidências. Recusa ou substituição do preposto exige motivação objetiva, não podendo punir uma divergência técnica legítima. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2174",
+      "revision": 1,
+      "prompt": "O preposto assina a ciência de uma avaliação mensal. Esse ato, por si só,",
+      "options": [
+        { "id": "A", "text": "prova concordância definitiva com todos os cálculos." },
+        { "id": "B", "text": "altera as metas do contrato." },
+        { "id": "C", "text": "demonstra recebimento ou conhecimento, sem necessariamente importar concordância ou poder de alterar o contrato." },
+        { "id": "D", "text": "transforma o preposto em fiscal público." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ciência e concordância são atos distintos. Os poderes do preposto devem ser definidos, e a representação operacional não gera competência ilimitada para alterar ou renunciar. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2175",
+      "revision": 1,
+      "prompt": "Em serviço remoto, o preposto responde pelo canal formal no prazo, participa das medições e comparece quando convocado. Sem necessidade objetiva adicional, exigir presença física contínua seria",
+      "options": [
+        { "id": "A", "text": "automaticamente obrigatória pelo simples nome da função." },
+        { "id": "B", "text": "medida que precisa de justificativa na natureza e nas necessidades da execução." },
+        { "id": "C", "text": "forma de recebimento definitivo." },
+        { "id": "D", "text": "sanção que o fiscal pode aplicar verbalmente." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A presença permanente não decorre automaticamente do papel. Deve ser proporcional ao objeto; disponibilidade e comparecimento podem satisfazer um serviço cuja natureza não exija permanência. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2176",
+      "revision": 1,
+      "prompt": "Na relação entre fiscal e preposto, a divisão adequada é",
+      "options": [
+        { "id": "A", "text": "o fiscal define o resultado contratual exigível e o preposto organiza a resposta empresarial." },
+        { "id": "B", "text": "o preposto fiscaliza a Administração e o fiscal escala empregados." },
+        { "id": "C", "text": "ambos dirigem diretamente os trabalhadores terceirizados." },
+        { "id": "D", "text": "o fiscal transfere ao preposto o ateste público." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Administração exige o cumprimento contratual, mas a organização interna dos trabalhadores pertence à contratada, ordinariamente por meio do preposto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2177",
+      "revision": 1,
+      "prompt": "Como regra, solicitações relativas ao trabalho dos empregados terceirizados devem ser dirigidas",
+      "options": [
+        { "id": "A", "text": "diretamente a cada empregado, como ordem hierárquica." },
+        { "id": "B", "text": "ao preposto da contratada, preservando a autonomia empresarial." },
+        { "id": "C", "text": "ao sindicato da categoria." },
+        { "id": "D", "text": "ao usuário final do serviço." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O canal pelo preposto evita ingerência da Administração na gestão de pessoal e mantém a responsabilidade da contratada pela organização da execução. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2178",
+      "revision": 1,
+      "prompt": "A autonomia da contratada significa que o preposto",
+      "options": [
+        { "id": "A", "text": "pode impedir inspeções e ocultar registros contratuais." },
+        { "id": "B", "text": "organiza a execução empresarial, mas não pode obstruir acesso legítimo da fiscalização a locais e evidências." },
+        { "id": "C", "text": "decide quais cláusulas cumprirá." },
+        { "id": "D", "text": "substitui o fiscal na avaliação final." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autonomia organizacional não elimina o poder-dever de fiscalização. O preposto deve facilitar a interlocução e o acesso legitimamente previsto. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2179",
+      "revision": 1,
+      "prompt": "O ciclo aplicado de acompanhamento pode ser resumido em",
+      "options": [
+        { "id": "A", "text": "preparar, observar, tratar e aprender." },
+        { "id": "B", "text": "licitar, contratar, punir e arquivar." },
+        { "id": "C", "text": "medir, pagar e esquecer." },
+        { "id": "D", "text": "delegar, terceirizar e dispensar evidências." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Papéis e critérios são preparados, a execução é observada, desvios são tratados e o histórico alimenta riscos e contratações futuras. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2180",
+      "revision": 1,
+      "prompt": "Na reunião inicial, as partes percebem que dois sistemas registram horários em fusos diferentes, o que pode distorcer o indicador de prazo. A providência adequada é",
+      "options": [
+        { "id": "A", "text": "ignorar a diferença até o primeiro pagamento." },
+        { "id": "B", "text": "registrar a divergência e definir tratamento compatível com a regra contratual antes da apuração." },
+        { "id": "C", "text": "permitir que a contratada escolha o fuso após cada resultado." },
+        { "id": "D", "text": "eliminar o indicador sem decisão competente." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A reunião inicial deve antecipar problemas de fonte e cálculo. O tratamento precisa preservar a regra pactuada e ser registrado antes de produzir resultados assimétricos. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2181",
+      "revision": 1,
+      "prompt": "Durante a execução, pretende-se trocar apenas a cor dos alertas do painel e, separadamente, mudar a fórmula do índice. Em princípio,",
+      "options": [
+        { "id": "A", "text": "ambas são mudanças materiais do contrato." },
+        { "id": "B", "text": "a aparência pode ser ajuste operacional, mas a fórmula afeta a obrigação medida e exige análise formal competente." },
+        { "id": "C", "text": "nenhuma mudança precisa ser registrada." },
+        { "id": "D", "text": "o preposto decide sozinho as duas mudanças." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A distinção depende dos efeitos. Alterar apresentação sem repercussão pode ser operacional; mudar fórmula, população ou meta modifica a apuração e não cabe informalmente. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2182",
+      "revision": 1,
+      "prompt": "Uma matriz de acompanhamento que relaciona obrigação, risco, indicador, fonte, frequência e responsável",
+      "options": [
+        { "id": "A", "text": "organiza a fiscalização sem substituir o contrato." },
+        { "id": "B", "text": "cria automaticamente obrigações não licitadas." },
+        { "id": "C", "text": "dispensa a identificação de evidências." },
+        { "id": "D", "text": "só pode ser produzida ao final da execução." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A matriz transforma obrigações preexistentes em rotina de acompanhamento. Ela não pode inovar informalmente no objeto ou na remuneração. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2183",
+      "revision": 1,
+      "prompt": "Se o relatório consolidado é mensal, o fiscal",
+      "options": [
+        { "id": "A", "text": "deve aguardar o fim do mês até diante de falha crítica." },
+        { "id": "B", "text": "deve reagir tempestivamente a falhas críticas e consolidar depois os registros do período." },
+        { "id": "C", "text": "pode dispensar observações durante o mês." },
+        { "id": "D", "text": "deve transferir o acompanhamento ao usuário." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Periodicidade de consolidação não elimina acompanhamento contínuo nem resposta imediata quando o risco ou o impacto exigirem. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2184",
+      "revision": 1,
+      "prompt": "Uma etapa de obra que ficará oculta por atividade posterior deve ser fiscalizada",
+      "options": [
+        { "id": "A", "text": "somente no recebimento definitivo." },
+        { "id": "B", "text": "antes de ser coberta, porque a verificação posterior pode ser inviável ou onerosa." },
+        { "id": "C", "text": "apenas se a contratada solicitar." },
+        { "id": "D", "text": "por pesquisa de satisfação." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A frequência deve considerar irreversibilidade e possibilidade de correção. Etapas ocultáveis exigem inspeção no momento oportuno. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2185",
+      "revision": 1,
+      "prompt": "Ao identificar um desvio, a primeira providência probatória adequada é",
+      "options": [
+        { "id": "A", "text": "preservar a evidência e relacionar o fato à obrigação aplicável." },
+        { "id": "B", "text": "aplicar imediatamente a sanção máxima." },
+        { "id": "C", "text": "alterar a meta para incluir o resultado." },
+        { "id": "D", "text": "aguardar a troca do preposto." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O tratamento começa pela preservação do fato e sua ligação ao contrato. Depois se avaliam urgência, competência, comunicação, correção e escalonamento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2186",
+      "revision": 1,
+      "prompt": "A correção rápida de uma falha pela contratada",
+      "options": [
+        { "id": "A", "text": "apaga automaticamente a ocorrência do histórico." },
+        { "id": "B", "text": "reduz o dano, mas não elimina a necessidade de registrar fato e tratamento." },
+        { "id": "C", "text": "impede a medição do período." },
+        { "id": "D", "text": "autoriza o fiscal a destruir a evidência." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O histórico deve mostrar o desvio, a providência e a verificação. Isso permite avaliar reincidência, risco e efeitos contratuais. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2187",
+      "revision": 1,
+      "prompt": "Correção da prestação e responsabilização administrativa",
+      "options": [
+        { "id": "A", "text": "são a mesma trilha e sempre ocorrem juntas." },
+        { "id": "B", "text": "são trilhas distintas: corrigir o resultado não substitui eventual apuração, e apurar não dispensa correção." },
+        { "id": "C", "text": "competem exclusivamente ao preposto." },
+        { "id": "D", "text": "dispensam previsão contratual e legal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A resposta operacional protege a execução, enquanto a responsabilização examina a infração com procedimento próprio. Uma não elimina automaticamente a outra. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2188",
+      "revision": 1,
+      "prompt": "Uma conversa urgente por telefone sobre falha grave",
+      "options": [
+        { "id": "A", "text": "é sempre inválida e deve ser evitada." },
+        { "id": "B", "text": "pode iniciar a resposta, mas providências relevantes devem ser formalizadas e rastreadas." },
+        { "id": "C", "text": "substitui definitivamente o registro próprio." },
+        { "id": "D", "text": "autoriza alteração oral do contrato." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A urgência pode justificar comunicação imediata, mas o acompanhamento exige registro formal do fato, da solicitação e do resultado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2189",
+      "revision": 1,
+      "prompt": "A contratada repete requerimento meramente protelatório, sem fato novo e sem interesse para a boa execução. À luz do art. 123 da Lei nº 14.133/2021,",
+      "options": [
+        { "id": "A", "text": "a ressalva legal ao dever de decisão alcança esse tipo de requerimento." },
+        { "id": "B", "text": "o fiscal deve conceder o pedido para evitar atraso." },
+        { "id": "C", "text": "todo requerimento, por mais protelatório, exige nova instrução completa." },
+        { "id": "D", "text": "a repetição altera automaticamente o contrato." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O dever de decisão explícita ressalva pedidos manifestamente impertinentes, meramente protelatórios ou sem interesse para a boa execução. A classificação deve ser objetiva e documentada. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2190",
+      "revision": 1,
+      "prompt": "O contrato fixa prazo específico de dez dias para responder determinada solicitação operacional. Diante do prazo geral de um mês estudado,",
+      "options": [
+        { "id": "A", "text": "o prazo específico aplicável deve ser observado." },
+        { "id": "B", "text": "o prazo contratual é sempre ignorado em favor do geral." },
+        { "id": "C", "text": "a resposta pode ser adiada até o encerramento." },
+        { "id": "D", "text": "o preposto escolhe livremente entre os prazos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Tanto a lei quanto o decreto federal ressalvam prazo legal ou contratual específico. O prazo geral não afasta disciplina especial válida da solicitação. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2191",
+      "revision": 1,
+      "prompt": "O histórico de gerenciamento do contrato serve para",
+      "options": [
+        { "id": "A", "text": "sustentar decisões, identificar tendências, preservar transições e melhorar contratações futuras." },
+        { "id": "B", "text": "substituir toda prova primária." },
+        { "id": "C", "text": "registrar apenas fatos favoráveis à Administração." },
+        { "id": "D", "text": "eliminar a necessidade de relatório de riscos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ordens, ocorrências, medições, comunicações e decisões formam memória útil para o contrato atual e para o planejamento posterior. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2192",
+      "revision": 1,
+      "prompt": "Na substituição do fiscal ou do preposto, deve-se",
+      "options": [
+        { "id": "A", "text": "reiniciar a medição e apagar as pendências anteriores." },
+        { "id": "B", "text": "transferir formalmente histórico, prazos, acessos, evidências e pendências." },
+        { "id": "C", "text": "alterar automaticamente as metas." },
+        { "id": "D", "text": "suspender o contrato por prazo indeterminado." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A mudança pessoal não zera o contrato. Uma transição documentada protege continuidade e evita perda de informação ou de prazo. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2193",
+      "revision": 1,
+      "prompt": "Em contrato federal acompanhado no modelo de 2026, mensagens ao preposto ficam dispersas em contas pessoais e não são relacionadas às medições. Para corrigir o acompanhamento, o órgão deve",
+      "options": [
+        { "id": "A", "text": "manter as mensagens dispersas, pois comunicação e medição são independentes." },
+        { "id": "B", "text": "definir canal rastreável com o preposto e ligar comunicações relevantes às evidências e avaliações." },
+        { "id": "C", "text": "permitir que cada empregado terceirizado escolha o canal." },
+        { "id": "D", "text": "eliminar a manifestação da contratada para simplificar o registro." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recorte aplicado do modelo federal integra comunicação documentada, avaliação e evidência. Dispersão em canais pessoais prejudica rastreabilidade e tratamento das ocorrências. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2194",
+      "revision": 1,
+      "prompt": "No modelo federal de 2026, o simples registro de um dado no Contratos.gov.br",
+      "options": [
+        { "id": "A", "text": "dispensa validação, porque o sistema garante a verdade material." },
+        { "id": "B", "text": "não elimina o dever do órgão de assegurar integridade nem a necessidade de evidência confiável." },
+        { "id": "C", "text": "transfere à contratada a decisão administrativa." },
+        { "id": "D", "text": "substitui qualquer método de avaliação da conformidade." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ferramenta informatizada organiza o histórico, mas não corrige automaticamente dado incorreto. Integridade, validação e rastreabilidade continuam sob responsabilidade institucional. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2195",
+      "revision": 1,
+      "prompt": "Em indicador de disponibilidade, uma manutenção programada pode ser retirada da indisponibilidade computável",
+      "options": [
+        { "id": "A", "text": "sempre, mesmo sem previsão." },
+        { "id": "B", "text": "quando a exclusão e suas condições estiverem previstas na regra aplicável e forem comprovadas." },
+        { "id": "C", "text": "por decisão unilateral posterior da contratada." },
+        { "id": "D", "text": "apenas porque ocorreu fora do horário do fiscal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Exclusões alteram o denominador ou o tempo computável e precisam ser previamente definidas e demonstradas, não concedidas por conveniência após o evento. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2196",
+      "revision": 1,
+      "prompt": "Após medir disponibilidade de 99,2% diante de meta contratual de 99,5%, o fiscal pode excluir o evento por mera cortesia?",
+      "options": [
+        { "id": "A", "text": "Sim, porque a diferença é pequena." },
+        { "id": "B", "text": "Sim, se o preposto prometer melhora." },
+        { "id": "C", "text": "Não; deve aplicar os critérios e exclusões previstos e encaminhar o resultado ao tratamento competente." },
+        { "id": "D", "text": "Não; deve aplicar imediatamente a sanção máxima." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A apuração deve seguir a regra contratual. Nem tolerância improvisada nem sanção automática substituem a classificação, a manifestação e a decisão competentes. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2197",
+      "revision": 1,
+      "prompt": "No mesmo caso de disponibilidade, o preposto",
+      "options": [
+        { "id": "A", "text": "pode reclassificar ou apagar unilateralmente o log." },
+        { "id": "B", "text": "pode apresentar justificativa e evidências, sujeitas à análise conforme as regras previstas." },
+        { "id": "C", "text": "decide o resultado final da medição." },
+        { "id": "D", "text": "substitui o fiscal para evitar conflito." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A contratada tem direito de se manifestar e produzir prova, mas não controla unilateralmente a evidência nem a avaliação administrativa. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q2198",
+      "revision": 1,
+      "prompt": "Assinale a síntese correta da gestão aplicada da execução contratual.",
+      "options": [
+        { "id": "A", "text": "Indicadores substituem o contrato e o preposto substitui o fiscal." },
+        { "id": "B", "text": "Fiscalização eficiente depende apenas de relatórios mensais." },
+        { "id": "C", "text": "Obrigações claras, indicadores auditáveis, evidências, papéis distintos e tratamento tempestivo formam um ciclo integrado de acompanhamento." },
+        { "id": "D", "text": "A correção de falhas elimina a necessidade de registros e decisões." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A gestão aplicada liga o que foi pactuado ao que foi observado e tratado, preservando competências, contraditório, rastreabilidade e aprendizado institucional. Fonte: questão autoral baseada em referências do conteúdo."
+    }
+  ]
+}
