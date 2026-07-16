@@ -564,7 +564,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 ##### [x] Concluído Assunto 130 - Item 1.1, fase 7: Infrações, sanções, controle, PNCP e regras finais.
 
-##### [>] Em progresso Assunto 131 - Item 1.2, fase 1: Planejamento da contratação segundo a IN nº 5/2017.
+##### [R] Em revisão Assunto 131 - Item 1.2, fase 1: Planejamento da contratação segundo a IN nº 5/2017.
 
 - Item 1.2. Instrução Normativa nº 5/2017 da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão.
 - O item 1.2 é desdobrado nos Assuntos 131 a 135 por fase operacional, sem inventar faixas de artigos nem repetir dispositivos.

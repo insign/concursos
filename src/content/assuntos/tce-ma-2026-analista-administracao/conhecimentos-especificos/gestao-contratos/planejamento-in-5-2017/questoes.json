@@ -1,0 +1,916 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1819",
+      "revision": 1,
+      "prompt": "Qual é o âmbito direto da IN SEGES/MPDG nº 5/2017?",
+      "options": [
+        { "id": "a", "text": "A Administração Pública federal direta, autárquica e fundacional, nas contratações de serviços sob execução indireta." },
+        { "id": "b", "text": "Todos os Poderes e entes federativos, sem necessidade de adoção local." },
+        { "id": "c", "text": "Exclusivamente as empresas privadas contratadas pela União." },
+        { "id": "d", "text": "Somente o Poder Judiciário federal." },
+        { "id": "e", "text": "Apenas os municípios que recebam transferências obrigatórias." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 1º da IN nº 5/2017 delimita sua incidência direta à Administração federal direta, autárquica e fundacional. Isso não transforma a norma em regulamento automático de todos os entes nem restringe seu estudo ao Judiciário ou às empresas contratadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1820",
+      "revision": 1,
+      "prompt": "Nas contratações federais regidas pela Lei nº 14.133/2021, a IN SEGES/ME nº 98/2022 determinou que a IN nº 5/2017 seja aplicada:",
+      "options": [
+        { "id": "a", "text": "integralmente, ainda que contrarie norma posterior." },
+        { "id": "b", "text": "no que couber, exigindo compatibilidade com a nova Lei e com a regulamentação superveniente." },
+        { "id": "c", "text": "somente após reprodução de seu texto no edital." },
+        { "id": "d", "text": "apenas às licitações iniciadas antes de abril de 2021." },
+        { "id": "e", "text": "exclusivamente para definir sanções administrativas." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A IN nº 98/2022 autoriza a aplicação da IN nº 5/2017 no que couber. Portanto, remissões históricas e dispositivos alterados precisam ser lidos em conjunto com a Lei nº 14.133/2021 e atos federais posteriores; não há aplicação literal e irrestrita. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1821",
+      "revision": 1,
+      "prompt": "Um candidato usa o Anexo III original da IN nº 5/2017 como disciplina vigente dos Estudos Técnicos Preliminares. Essa conduta está:",
+      "options": [
+        { "id": "a", "text": "correta, porque anexos de instrução normativa não podem ser revogados." },
+        { "id": "b", "text": "correta apenas em serviços contínuos." },
+        { "id": "c", "text": "incorreta, pois a IN nº 49/2020 revogou o Anexo III e os antigos §§ 1º a 6º do art. 24." },
+        { "id": "d", "text": "incorreta somente se o contrato tiver dedicação exclusiva." },
+        { "id": "e", "text": "correta para qualquer contratação direta atual." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A IN nº 49/2020 deu nova redação ao art. 24 e revogou o Anexo III e seus antigos parágrafos disciplinadores do ETP. O estudo atual não pode tratar esse anexo histórico como vigente, seja a contratação direta, contínua ou com dedicação exclusiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1822",
+      "revision": 1,
+      "prompt": "No regime federal atual da Lei nº 14.133/2021, o ato específico que disciplina a elaboração dos ETP é, em regra, a:",
+      "options": [
+        { "id": "a", "text": "IN nº 5/2014." },
+        { "id": "b", "text": "Portaria nº 443/2018." },
+        { "id": "c", "text": "IN nº 49/2020, isoladamente." },
+        { "id": "d", "text": "IN SEGES nº 58/2022." },
+        { "id": "e", "text": "IN SEGES/ME nº 65/2021." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A redação atual do art. 24 da IN nº 5/2017 remete os ETP a ato específico. Para as contratações federais no regime da Lei nº 14.133/2021, esse ato é a IN SEGES nº 58/2022; a IN nº 65/2021 trata da pesquisa de preços. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1823",
+      "revision": 1,
+      "prompt": "Quanto ao uso da IN nº 5/2017 em uma prova para cargo do TCE-MA, assinale a alternativa correta:",
+      "options": [
+        { "id": "a", "text": "A presença no edital converte a norma em lei estadual." },
+        { "id": "b", "text": "O TCE-MA passa a integrar a Administração federal para essa matéria." },
+        { "id": "c", "text": "Todo modelo da AGU torna-se ato interno obrigatório do Tribunal." },
+        { "id": "d", "text": "A norma deixa de ter natureza federal porque é objeto da avaliação." },
+        { "id": "e", "text": "A norma deve ser dominada como conteúdo do edital, sem ser apresentada como regulamento interno automático do Tribunal." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Cobrança em edital e âmbito jurídico são planos diferentes. O candidato deve conhecer a disciplina federal exigida, mas não pode concluir que sua inclusão na prova incorpora automaticamente a IN nº 5/2017 ou modelos federais ao ordenamento interno do TCE-MA. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1824",
+      "revision": 1,
+      "prompt": "Ao elaborar o objeto de uma contratação terceirizada, o órgão deve descrevê-lo como:",
+      "options": [
+        { "id": "a", "text": "prestação de serviços orientada a resultados, tarefas, volumes e qualidade, e não como mero fornecimento de trabalhadores." },
+        { "id": "b", "text": "cessão exclusiva de empregados sujeitos à hierarquia do órgão." },
+        { "id": "c", "text": "contratação individual de cada trabalhador escolhido pelo fiscal." },
+        { "id": "d", "text": "provimento indireto de cargos públicos vagos." },
+        { "id": "e", "text": "pagamento de salários pela Administração, sem responsabilidade da empresa." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 3º exige que o objeto seja a prestação de serviços e proíbe sua caracterização exclusiva como fornecimento de mão de obra. A contratada organiza os recursos e responde pela execução; postos podem ser usados excepcionalmente sem converter o vínculo em cessão de pessoal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1825",
+      "revision": 1,
+      "prompt": "Durante a execução, o fiscal deseja alterar a rotina da equipe terceirizada. Como regra, ele deve:",
+      "options": [
+        { "id": "a", "text": "emitir ordens hierárquicas individuais a cada empregado." },
+        { "id": "b", "text": "comunicar-se com o preposto da contratada, evitando subordinação direta dos trabalhadores." },
+        { "id": "c", "text": "aplicar suspensão disciplinar ao empregado que discordar." },
+        { "id": "d", "text": "substituir o gestor da empresa e distribuir escalas." },
+        { "id": "e", "text": "incorporar a equipe ao quadro temporário do órgão." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A Administração controla o resultado contratado e, como regra, dirige suas comunicações ao preposto. Comandar, supervisionar hierarquicamente ou sancionar diretamente empregados da contratada caracteriza ingerência e ameaça a autonomia empresarial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1826",
+      "revision": 1,
+      "prompt": "A comunicação direta do órgão com empregado terceirizado é admitida, de forma estreita, quando:",
+      "options": [
+        { "id": "a", "text": "o fiscal quiser substituir o preposto permanentemente." },
+        { "id": "b", "text": "a Administração desejar avaliar a vida privada do trabalhador." },
+        { "id": "c", "text": "se tratar de tarefa específica previamente descrita para determinada função, como recepção ou apoio." },
+        { "id": "d", "text": "houver conveniência para criar vínculo hierárquico cotidiano." },
+        { "id": "e", "text": "for necessário aplicar penalidade trabalhista individual." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 5º admite notificação direta apenas em situações previamente descritas para funções específicas. A exceção operacional não autoriza substituir o preposto, estabelecer comando hierárquico habitual nem exercer poder disciplinar sobre empregado alheio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1827",
+      "revision": 1,
+      "prompt": "A execução indireta regular de um serviço produz, entre a Administração e os empregados da contratada:",
+      "options": [
+        { "id": "a", "text": "vínculo estatutário temporário." },
+        { "id": "b", "text": "estabilidade após três anos." },
+        { "id": "c", "text": "subordinação funcional ao fiscal." },
+        { "id": "d", "text": "nenhum vínculo empregatício, devendo ser evitadas pessoalidade e subordinação direta." },
+        { "id": "e", "text": "investidura tácita em cargo público." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O modelo é uma relação entre Administração e empresa prestadora, não contratação direta dos empregados. Não há vínculo empregatício com o órgão nem investidura pública; pessoalidade e subordinação direta são incompatíveis com a execução indireta regular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1828",
+      "revision": 1,
+      "prompt": "Sobre cláusulas de convenção coletiva na formação dos custos do contrato, a IN nº 5/2017 estabelece que:",
+      "options": [
+        { "id": "a", "text": "toda cláusula coletiva vincula a Administração sem qualquer controle." },
+        { "id": "b", "text": "nenhum direito trabalhista válido pode ser considerado." },
+        { "id": "c", "text": "participação nos lucros deve sempre ser paga pelo órgão." },
+        { "id": "d", "text": "obrigações criadas apenas para contratos públicos prevalecem sobre a norma." },
+        { "id": "e", "text": "certas cláusulas, como as de matéria não trabalhista ou obrigações dirigidas apenas à Administração, não a vinculam, sem que isso elimine direitos legais válidos." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 6º afasta a vinculação a categorias específicas de cláusulas coletivas, inclusive matéria não trabalhista e obrigações impostas somente a contratos públicos. A regra não autoriza desconsiderar direitos trabalhistas válidos da categoria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1829",
+      "revision": 1,
+      "prompt": "A regra que veda à Administração definir a remuneração dos empregados terceirizados:",
+      "options": [
+        { "id": "a", "text": "comporta as hipóteses federais atuais de custos mínimos e a contratação justificada de profissional com expertise superior." },
+        { "id": "b", "text": "autoriza o fiscal a reduzir livremente salários individuais." },
+        { "id": "c", "text": "impede qualquer uso de instrumento coletivo na estimativa de custos." },
+        { "id": "d", "text": "obriga o órgão a pagar diretamente a folha da contratada." },
+        { "id": "e", "text": "foi convertida em autorização geral para tabelar toda categoria." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A vedação à ingerência remuneratória permanece, mas a disciplina federal foi atualizada para admitir custos mínimos nas hipóteses regulamentadas e profissional de expertise superior com justificativa. Isso não confere poder para o fiscal administrar salários individuais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1830",
+      "revision": 1,
+      "prompt": "Qual atividade não deve ser transferida a empresa contratada?",
+      "options": [
+        { "id": "a", "text": "Limpeza material de instalações." },
+        { "id": "b", "text": "Definição de posicionamento institucional que envolva decisão administrativa." },
+        { "id": "c", "text": "Manutenção preventiva de equipamento." },
+        { "id": "d", "text": "Apoio logístico sem poder decisório." },
+        { "id": "e", "text": "Serviço auxiliar de recepção." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Decisões e posicionamentos institucionais em planejamento, coordenação, supervisão e controle permanecem com agentes públicos. Atividades materiais, auxiliares ou instrumentais podem ser executadas indiretamente quando não transferem ato administrativo ou tomada de decisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1831",
+      "revision": 1,
+      "prompt": "Uma atividade técnica é estratégica e sua terceirização exporia conhecimento crítico e tecnologia institucional. No regime federal, ela:",
+      "options": [
+        { "id": "a", "text": "deve ser terceirizada porque toda atividade técnica é acessória." },
+        { "id": "b", "text": "pode ser transferida se o contrato tiver preço fixo." },
+        { "id": "c", "text": "não deve ser objeto de execução indireta quando a transferência coloca em risco processos, conhecimento ou tecnologia." },
+        { "id": "d", "text": "somente é vedada se houver dedicação exclusiva." },
+        { "id": "e", "text": "torna-se terceirizável por previsão genérica no PCA." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O Decreto nº 9.507/2018 exclui da execução indireta atividades estratégicas quando a terceirização pode ameaçar processos, conhecimento ou tecnologia. Preço, dedicação exclusiva ou simples registro no planejamento não afastam essa restrição material. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1832",
+      "revision": 1,
+      "prompt": "Atividades auxiliares, instrumentais ou acessórias:",
+      "options": [
+        { "id": "a", "text": "são sempre indelegáveis, ainda que materiais." },
+        { "id": "b", "text": "podem incluir o exercício de poder de polícia." },
+        { "id": "c", "text": "permitem ao particular aplicar sanções administrativas." },
+        { "id": "d", "text": "podem ser terceirizadas, desde que não se transfiram ato administrativo nem tomada de decisão." },
+        { "id": "e", "text": "dispensam a definição de objeto e resultados." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O caráter auxiliar, instrumental ou acessório favorece a execução indireta, mas a Administração não pode delegar ao particular responsabilidade decisória, poder de polícia, regulação, outorga ou sanção. O objeto continua sujeito a planejamento e definição precisa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1833",
+      "revision": 1,
+      "prompt": "Uma atividade corresponde a atribuição de categoria funcional prevista no plano de cargos do órgão. Sua terceirização:",
+      "options": [
+        { "id": "a", "text": "é sempre obrigatória se houver empresa interessada." },
+        { "id": "b", "text": "é livre quando o serviço for contínuo." },
+        { "id": "c", "text": "depende somente da vontade do gestor." },
+        { "id": "d", "text": "é autorizada pela simples vacância temporária de um cargo." },
+        { "id": "e", "text": "é vedada, salvo disposição legal em contrário ou extinção total ou parcial da categoria." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O Decreto nº 9.507/2018 protege as atribuições inerentes às categorias do plano de cargos, ressalvando previsão legal ou extinção total ou parcial. Vacância, continuidade do serviço ou mera conveniência gerencial não substituem essas exceções. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1834",
+      "revision": 1,
+      "prompt": "A contratação de cooperativa é compatível com a IN nº 5/2017 quando o serviço:",
+      "options": [
+        { "id": "a", "text": "puder ser executado com autonomia pelos cooperados, gestão compartilhada ou rodízio e sem qualquer intermediação ou subcontratação." },
+        { "id": "b", "text": "exigir subordinação direta de cada cooperado ao fiscal." },
+        { "id": "c", "text": "for intermediado por outra empresa que forneça toda a mão de obra." },
+        { "id": "d", "text": "impuser pessoalidade absoluta na escolha dos trabalhadores." },
+        { "id": "e", "text": "reproduzir relação empregatícia individual com a Administração." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Cooperativas exigem compatibilidade real com autonomia, gestão compartilhada ou rodízio entre cooperados. O serviço deve ser executado obrigatoriamente pelos cooperados, vedada qualquer intermediação ou subcontratação, além de serem incompatíveis subordinação e pessoalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1835",
+      "revision": 1,
+      "prompt": "Na contratação de instituição sem fins lucrativos para prestar serviços, exige-se que:",
+      "options": [
+        { "id": "a", "text": "ela revenda integralmente o objeto a empresa comercial." },
+        { "id": "b", "text": "seu estatuto seja compatível com o serviço e a execução ocorra por profissionais de seus próprios quadros." },
+        { "id": "c", "text": "não haja qualquer relação entre finalidade estatutária e objeto." },
+        { "id": "d", "text": "a Administração escolha nominalmente todos os executores." },
+        { "id": "e", "text": "o serviço envolva obrigatoriamente poder de polícia." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A IN nº 5/2017 exige compatibilidade estatutária e execução por profissionais pertencentes aos quadros da instituição sem fins lucrativos. Repasse integral, pessoalidade imposta pelo órgão ou exercício de poder indelegável não satisfazem o modelo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1836",
+      "revision": 1,
+      "prompt": "Um serviço tecnicamente complexo pode ser classificado como comum?",
+      "options": [
+        { "id": "a", "text": "Não, porque complexidade e natureza comum são sempre excludentes." },
+        { "id": "b", "text": "Somente se não houver qualquer requisito técnico." },
+        { "id": "c", "text": "Sim, se seus padrões de desempenho e qualidade puderem ser objetivamente definidos por especificações usuais de mercado." },
+        { "id": "d", "text": "Apenas quando prestado sem contrato." },
+        { "id": "e", "text": "Sim, desde que o preço seja o único critério de planejamento." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O elemento central do serviço comum é a possibilidade de definição objetiva dos padrões por especificações usuais de mercado. Complexidade técnica, por si só, não altera essa conclusão nem dispensa requisitos adequados e planejamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1837",
+      "revision": 1,
+      "prompt": "O que caracteriza um serviço contínuo para fins de planejamento?",
+      "options": [
+        { "id": "a", "text": "A presença diária obrigatória de um empregado específico." },
+        { "id": "b", "text": "A duração exata de doze meses em qualquer caso." },
+        { "id": "c", "text": "O pagamento exclusivo por posto de trabalho." },
+        { "id": "d", "text": "A necessidade permanente ou prolongada cuja interrupção comprometa missão, serviço público ou patrimônio." },
+        { "id": "e", "text": "A impossibilidade de prorrogação contratual." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Continuidade se refere à permanência da necessidade e ao prejuízo da interrupção, não à presença diária de pessoa determinada, ao prazo fixo de doze meses ou a uma unidade de pagamento específica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1838",
+      "revision": 1,
+      "prompt": "Serviço não contínuo ou contratado por escopo é aquele que:",
+      "options": [
+        { "id": "a", "text": "supre necessidade permanente sem produto final delimitado." },
+        { "id": "b", "text": "sempre exige dedicação exclusiva de mão de obra." },
+        { "id": "c", "text": "não pode ter cronograma." },
+        { "id": "d", "text": "somente pode durar até trinta dias." },
+        { "id": "e", "text": "impõe a execução de serviço específico em período predeterminado." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O serviço por escopo se volta a uma entrega específica dentro de período predeterminado. Essa classificação não cria limite universal de trinta dias nem pressupõe dedicação exclusiva ou ausência de cronograma. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1839",
+      "revision": 1,
+      "prompt": "A relação entre continuidade e dedicação exclusiva é corretamente descrita em:",
+      "options": [
+        { "id": "a", "text": "Um serviço contínuo pode ser executado com ou sem dedicação exclusiva, conforme o modelo escolhido e justificado." },
+        { "id": "b", "text": "Todo serviço contínuo exige dedicação exclusiva." },
+        { "id": "c", "text": "Dedicação exclusiva só existe em serviço por escopo." },
+        { "id": "d", "text": "As duas classificações são sinônimas." },
+        { "id": "e", "text": "Continuidade impede fiscalização dos recursos alocados." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Continuidade qualifica a necessidade; dedicação exclusiva qualifica o modo de alocação e controle dos recursos. Por isso, um serviço contínuo não adota automaticamente dedicação exclusiva e pode ser estruturado em qualquer dos modelos compatíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1840",
+      "revision": 1,
+      "prompt": "Qual conjunto indica dedicação exclusiva de mão de obra segundo a IN nº 5/2017?",
+      "options": [
+        { "id": "a", "text": "Compartilhamento irrestrito dos recursos entre vários contratos e impossibilidade de fiscalização." },
+        { "id": "b", "text": "Empregados à disposição nas dependências do contratante, não compartilhamento dos recursos e possibilidade de fiscalizar sua distribuição e supervisão." },
+        { "id": "c", "text": "Escolha nominal dos empregados e subordinação direta ao órgão." },
+        { "id": "d", "text": "Execução exclusiva nas dependências da contratada." },
+        { "id": "e", "text": "Pagamento sem relação com os recursos ou resultados." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 6º, XVI, da Lei nº 14.133/2021 exige que o modelo mantenha empregados à disposição nas dependências do contratante, não compartilhe os recursos e permita fiscalizar sua distribuição, controle e supervisão. Isso não autoriza pessoalidade ou subordinação direta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1841",
+      "revision": 1,
+      "prompt": "Sobre serviço prestado fora das dependências do órgão e sua classificação como dedicação exclusiva, assinale a alternativa correta no regime atual:",
+      "options": [
+        { "id": "a", "text": "Nunca, porque a presença física no órgão é requisito absoluto." },
+        { "id": "b", "text": "Sempre, ainda que os recursos sejam compartilhados livremente." },
+        { "id": "c", "text": "A IN nº 5/2017 o admite literalmente em certas condições, mas, sob a Lei nº 14.133/2021, essa regra só vale no que couber e não afasta genericamente o requisito legal das dependências do contratante." },
+        { "id": "d", "text": "Somente se a Administração contratar diretamente cada empregado." },
+        { "id": "e", "text": "Apenas quando o serviço for não contínuo." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O parágrafo único do art. 17 da IN nº 5/2017 admite literalmente local externo, mas o art. 6º, XVI, da Lei nº 14.133/2021 inclui as dependências do contratante na definição. Pela aplicação apenas no que couber, a regra infralegal não cria exceção genérica ao requisito legal; eventual leitura conciliadora depende do controle concreto do ambiente pelo contratante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1842",
+      "revision": 1,
+      "prompt": "Em contratação com dedicação exclusiva, o gerenciamento de riscos deve obrigatoriamente contemplar:",
+      "options": [
+        { "id": "a", "text": "apenas risco cambial de importação." },
+        { "id": "b", "text": "somente os riscos escolhidos pela empresa." },
+        { "id": "c", "text": "exclusivamente riscos de tecnologia." },
+        { "id": "d", "text": "inadimplemento de obrigações trabalhistas, previdenciárias e de FGTS." },
+        { "id": "e", "text": "nenhum risco relativo aos trabalhadores." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A IN nº 5/2017 torna obrigatório considerar o risco de descumprimento trabalhista, previdenciário e de FGTS em serviços com dedicação exclusiva. Outros riscos permanecem relevantes conforme o objeto, mas não substituem esse bloco obrigatório. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1843",
+      "revision": 1,
+      "prompt": "A escolha entre Conta-Depósito Vinculada e Pagamento pelo Fato Gerador deve ser:",
+      "options": [
+        { "id": "a", "text": "aleatória, porque os controles são idênticos." },
+        { "id": "b", "text": "feita exclusivamente pela contratada após a assinatura." },
+        { "id": "c", "text": "dispensada em toda dedicação exclusiva." },
+        { "id": "d", "text": "baseada apenas no controle usado pelo contrato anterior." },
+        { "id": "e", "text": "fundamentada em avaliação de custo-benefício durante o planejamento." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os dois mecanismos são controles possíveis para riscos trabalhistas, mas sua adoção não é automática nem aleatória. A equipe deve comparar custos, benefícios e adequação ao caso e registrar a decisão no planejamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1844",
+      "revision": 1,
+      "prompt": "O procedimento de contratação de serviços é dividido pelo art. 19 da IN nº 5/2017 em quais fases?",
+      "options": [
+        { "id": "a", "text": "Planejamento da Contratação, Seleção do Fornecedor e Gestão do Contrato." },
+        { "id": "b", "text": "DFD, ETP e Mapa de Riscos." },
+        { "id": "c", "text": "Edital, julgamento e recurso." },
+        { "id": "d", "text": "Empenho, liquidação e pagamento." },
+        { "id": "e", "text": "Necessidade, preço e orçamento." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "As três fases amplas são planejamento, seleção e gestão. DFD, ETP e Mapa são instrumentos ou atividades inseridos no procedimento e não substituem essa divisão geral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1845",
+      "revision": 1,
+      "prompt": "Dentro da fase de Planejamento da Contratação, o art. 20 estabelece as etapas de:",
+      "options": [
+        { "id": "a", "text": "habilitação, julgamento e homologação." },
+        { "id": "b", "text": "Estudos Preliminares, Gerenciamento de Riscos e Termo de Referência ou Projeto Básico." },
+        { "id": "c", "text": "empenho, execução e pagamento." },
+        { "id": "d", "text": "sanção, recurso e reabilitação." },
+        { "id": "e", "text": "pesquisa de preços, adjudicação e fiscalização." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 20 distingue três etapas internas do planejamento: estudos, riscos e TR/PB. Habilitação e julgamento pertencem à seleção; execução, pagamento e fiscalização se projetam na gestão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1846",
+      "revision": 1,
+      "prompt": "O Documento de Formalização da Demanda e a designação da equipe constituem:",
+      "options": [
+        { "id": "a", "text": "uma quarta e uma quinta etapa do art. 20." },
+        { "id": "b", "text": "atividades exclusivas da gestão contratual." },
+        { "id": "c", "text": "procedimentos iniciais que antecedem as três etapas do planejamento." },
+        { "id": "d", "text": "atos facultativos sem função no processo." },
+        { "id": "e", "text": "substitutos integrais do ETP e do TR." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "DFD e formação da equipe iniciam e organizam o planejamento, mas a enumeração do art. 20 continua limitada a ETP, riscos e TR/PB. Os procedimentos iniciais não dispensam os produtos posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1847",
+      "revision": 1,
+      "prompt": "Uma contratação direta de serviço, por estar dispensada de licitação:",
+      "options": [
+        { "id": "a", "text": "elimina automaticamente toda atividade de planejamento." },
+        { "id": "b", "text": "dispensa sempre a caracterização da necessidade e do objeto." },
+        { "id": "c", "text": "não admite gerenciamento de riscos." },
+        { "id": "d", "text": "cumpre as etapas de planejamento no que couber, observadas as exceções normativas específicas." },
+        { "id": "e", "text": "pode iniciar a execução antes da definição do resultado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Contratação direta afasta o certame competitivo na hipótese legal, não a necessidade de planejar. A extensão dos documentos pode variar e o ETP possui hipóteses específicas de faculdade ou dispensa, mas não existe eliminação geral do planejamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1848",
+      "revision": 1,
+      "prompt": "Qual conjunto pertence ao conteúdo do DFD segundo o art. 21 e o Anexo II?",
+      "options": [
+        { "id": "a", "text": "Gabarito da prova, recurso e homologação." },
+        { "id": "b", "text": "Sanções definitivas, glosas executadas e termo de recebimento." },
+        { "id": "c", "text": "Somente o nome da empresa preferida e seu preço." },
+        { "id": "d", "text": "Apenas dotação e minuta integral do futuro contrato." },
+        { "id": "e", "text": "Necessidade e terceirização, quantidade, início previsto, alinhamento quando houver e indicação da equipe." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O DFD registra a necessidade, a opção pela execução indireta, o quantitativo, a data de início, o alinhamento estratégico quando existente e os servidores indicados. Ele não escolhe previamente empresa nem documenta fatos futuros da execução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1849",
+      "revision": 1,
+      "prompt": "No DFD, o alinhamento da contratação aos instrumentos estratégicos deve ser informado:",
+      "options": [
+        { "id": "a", "text": "quando houver instrumento aplicável, sem inventar plano inexistente." },
+        { "id": "b", "text": "somente depois do pagamento final." },
+        { "id": "c", "text": "apenas pela empresa contratada." },
+        { "id": "d", "text": "como substituto da justificativa da necessidade." },
+        { "id": "e", "text": "exclusivamente em serviços não contínuos." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A disciplina do DFD qualifica o alinhamento com planejamento estratégico como aplicável quando existente. A informação complementa, e não substitui, a justificativa da necessidade e deve surgir antes da contratação, não após o pagamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1850",
+      "revision": 1,
+      "prompt": "Ao formalizar uma necessidade, o setor requisitante já fixa marca e método sem comparar alternativas. O problema central é que o DFD:",
+      "options": [
+        { "id": "a", "text": "deveria conter o nome de dois empregados terceirizados." },
+        { "id": "b", "text": "deve identificar a demanda, evitando antecipar solução fechada sem a análise de alternativas do ETP." },
+        { "id": "c", "text": "não pode mencionar qualquer quantidade." },
+        { "id": "d", "text": "somente pode ser criado depois do contrato." },
+        { "id": "e", "text": "dispensa justificativa quando houver marca conhecida." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O DFD nasce do problema e da necessidade. Fechar marca ou método antes do levantamento de mercado pode direcionar a solução e esvaziar o ETP; quantitativo e data, ao contrário, são elementos esperados do documento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1851",
+      "revision": 1,
+      "prompt": "Quem designa formalmente a equipe de Planejamento da Contratação na estrutura descrita pela IN nº 5/2017?",
+      "options": [
+        { "id": "a", "text": "O preposto da futura contratada." },
+        { "id": "b", "text": "Qualquer empregado terceirizado." },
+        { "id": "c", "text": "A autoridade competente do setor de licitações." },
+        { "id": "d", "text": "O licitante que apresentar menor preço." },
+        { "id": "e", "text": "Exclusivamente o controle externo." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Recebido o DFD, a autoridade competente do setor de licitações formaliza a equipe e pode incluir servidor desse setor. Participantes privados e licitantes não exercem essa competência administrativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1852",
+      "revision": 1,
+      "prompt": "A ciência expressa dos integrantes sobre suas atribuições deve ocorrer:",
+      "options": [
+        { "id": "a", "text": "somente após a conclusão do contrato." },
+        { "id": "b", "text": "depois da designação, sem possibilidade de manifestação prévia." },
+        { "id": "c", "text": "apenas se o serviço for não contínuo." },
+        { "id": "d", "text": "antes da designação formal." },
+        { "id": "e", "text": "quando a empresa contratada autorizar." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A IN nº 5/2017 exige ciência prévia e expressa dos servidores indicados sobre as atribuições que assumirão. A formalização não deve surpreender integrantes nem depender da futura contratada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1853",
+      "revision": 1,
+      "prompt": "A equipe de Planejamento da Contratação deve reunir:",
+      "options": [
+        { "id": "a", "text": "somente conhecimento financeiro." },
+        { "id": "b", "text": "apenas servidores do controle externo." },
+        { "id": "c", "text": "exclusivamente profissionais da área requisitante." },
+        { "id": "d", "text": "necessariamente uma nova unidade administrativa permanente." },
+        { "id": "e", "text": "competências técnicas e de uso do objeto, de licitações e de contratos, admitida organização diversa quando houver área técnica específica." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O planejamento é multidisciplinar: precisa entender a necessidade e o objeto, o procedimento de seleção e a futura relação contratual. Isso não obriga criar unidade permanente, e áreas técnicas específicas podem justificar arranjo diverso no que couber. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1854",
+      "revision": 1,
+      "prompt": "Qual é a função central do ETP segundo a disciplina federal atual?",
+      "options": [
+        { "id": "a", "text": "Caracterizar o problema de interesse público, examinar alternativas e demonstrar a melhor solução e sua viabilidade." },
+        { "id": "b", "text": "Escolher previamente a empresa vencedora." },
+        { "id": "c", "text": "Substituir o contrato e autorizar a execução imediata." },
+        { "id": "d", "text": "Aplicar sanções aos futuros licitantes." },
+        { "id": "e", "text": "Registrar apenas a disponibilidade orçamentária." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O ETP começa pelo problema público, compara soluções e conclui sobre adequação e viabilidade, fundamentando o TR/PB. Não seleciona fornecedor, não substitui o contrato e tampouco se limita ao orçamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1855",
+      "revision": 1,
+      "prompt": "Levantamento de mercado e pesquisa de preços distinguem-se porque:",
+      "options": [
+        { "id": "a", "text": "ambos apenas coletam três cotações de fornecedores." },
+        { "id": "b", "text": "o levantamento compara alternativas e arranjos de solução, enquanto a pesquisa estima o valor da contratação." },
+        { "id": "c", "text": "a pesquisa de preços escolhe a tecnologia antes do ETP." },
+        { "id": "d", "text": "o levantamento só pode ocorrer após a assinatura." },
+        { "id": "e", "text": "nenhum deles exige memória ou justificativa." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O levantamento de mercado é uma análise de soluções, métodos, tecnologias, inovação e logística. A pesquisa de preços estima custos da solução delimitada; reduzir o primeiro à coleta de cotações impede comparação adequada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1856",
+      "revision": 1,
+      "prompt": "Quais elementos são obrigatórios, no mínimo, no ETP da IN SEGES nº 58/2022?",
+      "options": [
+        { "id": "a", "text": "Somente requisitos e levantamento de mercado." },
+        { "id": "b", "text": "Apenas impactos ambientais e contratações correlatas." },
+        { "id": "c", "text": "Necessidade, quantidades, estimativa do valor, justificativa do parcelamento e conclusão." },
+        { "id": "d", "text": "Nome do contratado, sanção prevista e fiscal designado." },
+        { "id": "e", "text": "Edital pronto, proposta vencedora e contrato assinado." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os cinco elementos mínimos são descrição da necessidade, estimativas de quantidades, estimativa do valor, justificativa para parcelar ou não e posicionamento conclusivo sobre a contratação. Os demais blocos também devem ser tratados ou ter sua ausência justificada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1857",
+      "revision": 1,
+      "prompt": "Se um ETP não contiver um dos elementos que não integram o núcleo mínimo obrigatório, a equipe deve:",
+      "options": [
+        { "id": "a", "text": "omiti-lo silenciosamente, pois nunca é relevante." },
+        { "id": "b", "text": "cancelar toda contratação, sem examinar o caso." },
+        { "id": "c", "text": "substituí-lo pelo nome de um fornecedor." },
+        { "id": "d", "text": "justificar a ausência no próprio estudo." },
+        { "id": "e", "text": "pedir à contratada que o escreva após o certame." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A IN nº 58/2022 exige justificativa quando o ETP deixa de contemplar algum dos elementos não incluídos no mínimo obrigatório. A flexibilidade evita formalismo vazio, mas não autoriza omissão silenciosa ou decisão terceirizada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1858",
+      "revision": 1,
+      "prompt": "O levantamento de mercado revela que um requisito reduz fortemente o número de fornecedores. A equipe deve:",
+      "options": [
+        { "id": "a", "text": "mantê-lo sem análise porque todo requisito é discricionário." },
+        { "id": "b", "text": "esconder a restrição do processo." },
+        { "id": "c", "text": "escolher diretamente o único fornecedor restante." },
+        { "id": "d", "text": "eliminar qualquer padrão de desempenho." },
+        { "id": "e", "text": "verificar sua indispensabilidade e flexibilizá-lo sempre que isso for possível sem comprometer a necessidade." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Requisito restritivo precisa ser tecnicamente indispensável. O ETP deve testar a necessidade e buscar especificação menos limitadora quando puder preservar o resultado, evitando direcionamento sem eliminar padrões realmente necessários. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1859",
+      "revision": 1,
+      "prompt": "Para serviços de mesma natureza, semelhantes ou afins, a Administração pode:",
+      "options": [
+        { "id": "a", "text": "elaborar ETP e gerenciamento de riscos comuns, desde que a solução compartilhada seja adequada às contratações abrangidas." },
+        { "id": "b", "text": "usar um único contrato sem definir cada necessidade." },
+        { "id": "c", "text": "dispensar toda análise de quantitativos." },
+        { "id": "d", "text": "presumir que riscos e requisitos são sempre idênticos." },
+        { "id": "e", "text": "copiar qualquer estudo antigo sem reavaliar seu conteúdo." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A norma permite estudos e riscos comuns para serviços de mesma natureza, semelhança ou afinidade. A medida busca eficiência, mas não apaga diferenças materiais, quantitativos ou a necessidade de verificar adequação e atualidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1860",
+      "revision": 1,
+      "prompt": "Segundo a IN SEGES nº 58/2022, a elaboração do ETP é facultativa, entre outras, nas contratações fundadas:",
+      "options": [
+        { "id": "a", "text": "em qualquer inciso do art. 75, sem distinção." },
+        { "id": "b", "text": "nos incisos I, II, VII e VIII do art. 75 e na hipótese do art. 90, § 7º, da Lei nº 14.133/2021." },
+        { "id": "c", "text": "somente no art. 75, III." },
+        { "id": "d", "text": "em todas as licitações por pregão." },
+        { "id": "e", "text": "em toda prorrogação de obra por escopo." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 14 da IN nº 58/2022 torna facultativo o ETP nas hipóteses dos incisos I, II, VII e VIII do art. 75 e do art. 90, § 7º. Faculdade permite decidir motivadamente; não se confunde com dispensa normativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1861",
+      "revision": 1,
+      "prompt": "A IN SEGES nº 58/2022 dispensa o ETP:",
+      "options": [
+        { "id": "a", "text": "em toda contratação de serviço comum." },
+        { "id": "b", "text": "sempre que houver dedicação exclusiva." },
+        { "id": "c", "text": "na hipótese do art. 75, III, e nas prorrogações de serviços e fornecimentos contínuos." },
+        { "id": "d", "text": "somente quando não existir orçamento." },
+        { "id": "e", "text": "em qualquer contratação acima do limite legal." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A dispensa expressa alcança o art. 75, III, da Lei nº 14.133/2021 e as prorrogações de serviços e fornecimentos contínuos. Ela não decorre do caráter comum, da dedicação exclusiva ou do valor elevado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1862",
+      "revision": 1,
+      "prompt": "As antigas regras da IN nº 5/2017 que remetem a dispensas da Lei nº 8.666/1993 devem, em contratação regida pela Lei nº 14.133/2021:",
+      "options": [
+        { "id": "a", "text": "ser aplicadas literalmente, mesmo se incompatíveis." },
+        { "id": "b", "text": "prevalecer sobre qualquer norma posterior." },
+        { "id": "c", "text": "ser usadas para ampliar toda dispensa atual." },
+        { "id": "d", "text": "ser lidas historicamente e não transpostas de forma mecânica ao novo regime." },
+        { "id": "e", "text": "converter-se em hipóteses de inexigibilidade." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A aplicação no que couber exige compatibilidade. Referências estruturadas para a Lei nº 8.666/1993 não criam, por simples transposição, faculdades ou dispensas sob a Lei nº 14.133/2021; vale a disciplina atual específica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1863",
+      "revision": 1,
+      "prompt": "O gerenciamento de riscos da IN nº 5/2017 compreende:",
+      "options": [
+        { "id": "a", "text": "apenas listar eventos sem avaliar seus efeitos." },
+        { "id": "b", "text": "transferir todo risco à contratada, sem análise." },
+        { "id": "c", "text": "eliminar qualquer incerteza antes da contratação." },
+        { "id": "d", "text": "registrar somente riscos financeiros já ocorridos." },
+        { "id": "e", "text": "identificar e avaliar riscos, tratar os inaceitáveis, prever contingência residual e definir responsáveis." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O processo combina identificação, avaliação de probabilidade e impacto, tratamento, contingência para risco residual inaceitável e atribuição de responsabilidades. Gerenciar não significa eliminar toda incerteza nem transferi-la indiscriminadamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1864",
+      "revision": 1,
+      "prompt": "Em quais momentos mínimos o Mapa de Riscos deve ser atualizado e juntado aos autos?",
+      "options": [
+        { "id": "a", "text": "Ao final do ETP, ao final do TR/PB, após a seleção e depois de eventos relevantes na gestão." },
+        { "id": "b", "text": "Somente uma vez, antes do DFD." },
+        { "id": "c", "text": "Apenas depois da extinção contratual." },
+        { "id": "d", "text": "Exclusivamente quando o contratado pedir." },
+        { "id": "e", "text": "Somente após a aplicação de sanção." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O Mapa acompanha a evolução do procedimento: fecha estudos, especificação, seleção e responde a eventos relevantes da execução. Um registro único e estático não satisfaz a natureza contínua do gerenciamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1865",
+      "revision": 1,
+      "prompt": "Mapa de Riscos e matriz de riscos diferem porque:",
+      "options": [
+        { "id": "a", "text": "o Mapa distribui preços e a matriz apenas lista servidores." },
+        { "id": "b", "text": "o Mapa gerencia eventos do procedimento, enquanto a matriz contratual distribui riscos entre as partes." },
+        { "id": "c", "text": "ambos são necessariamente a mesma cláusula contratual." },
+        { "id": "d", "text": "a matriz substitui todo gerenciamento durante a seleção." },
+        { "id": "e", "text": "o Mapa só existe após o contrato e a matriz antes do DFD." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O Mapa documenta identificação, avaliação, tratamento, responsáveis e contingências ao longo do procedimento. A matriz de riscos é cláusula de alocação contratual entre Administração e contratado; os instrumentos se relacionam, mas não são sinônimos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1866",
+      "revision": 1,
+      "prompt": "Depois de aplicar uma medida preventiva, o risco residual ainda é inaceitável. A equipe deve:",
+      "options": [
+        { "id": "a", "text": "ignorar o risco porque já houve uma ação." },
+        { "id": "b", "text": "eliminar a identificação do Mapa." },
+        { "id": "c", "text": "definir ação de contingência e responsável para a hipótese de materialização." },
+        { "id": "d", "text": "transferir informalmente toda decisão ao fiscal." },
+        { "id": "e", "text": "considerar o risco automaticamente aceitável." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Se o tratamento preventivo não reduz o risco a patamar aceitável, o gerenciamento exige contingência e responsável. Registrar apenas uma prevenção insuficiente não prepara a Administração para a materialização do evento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1867",
+      "revision": 1,
+      "prompt": "Quanto ao tratamento dos riscos trabalhistas em dedicação exclusiva, é correto afirmar que:",
+      "options": [
+        { "id": "a", "text": "não podem constar do planejamento porque são privados." },
+        { "id": "b", "text": "a empresa escolhe sozinha o controle após o pagamento." },
+        { "id": "c", "text": "a conta vinculada elimina a necessidade de fiscalizar qualquer obrigação." },
+        { "id": "d", "text": "o risco deve ser contemplado e o controle escolhido, como conta vinculada ou fato gerador, precisa de avaliação de custo-benefício." },
+        { "id": "e", "text": "somente o risco de preço pode ser registrado." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A disciplina exige tratar riscos trabalhistas, previdenciários e de FGTS e avaliar o mecanismo de controle adequado. Conta vinculada e fato gerador não tornam desnecessária a gestão nem podem ser escolhidos sem motivação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1868",
+      "revision": 1,
+      "prompt": "O TR/PB deve ser elaborado:",
+      "options": [
+        { "id": "a", "text": "antes do DFD e sem relação com riscos." },
+        { "id": "b", "text": "pela futura contratada, depois da seleção." },
+        { "id": "c", "text": "somente pelo fiscal durante a execução." },
+        { "id": "d", "text": "como cópia de objeto anterior, sem reavaliação." },
+        { "id": "e", "text": "pelo setor requisitante, a partir do ETP e do gerenciamento de riscos, convertendo a solução em obrigações executáveis." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O TR/PB encerra o planejamento e traduz o que foi estudado e tratado em requisitos, execução, gestão, medição e seleção. Sua elaboração compete ao setor requisitante e não pode ser delegada ao futuro contratado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1869",
+      "revision": 1,
+      "prompt": "Entre os conteúdos mínimos do TR/PB previstos no art. 30 está:",
+      "options": [
+        { "id": "a", "text": "modelo de execução, modelo de gestão, critérios de medição e pagamento e estimativas detalhadas de preços." },
+        { "id": "b", "text": "somente o título da contratação." },
+        { "id": "c", "text": "o nome da empresa que deve vencer." },
+        { "id": "d", "text": "a lista nominal imutável dos empregados." },
+        { "id": "e", "text": "apenas as sanções, sem descrição da solução." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 30 estrutura o TR/PB com objeto, fundamentação, solução, requisitos, execução, gestão, medição e pagamento, seleção, preços e orçamento. Direcionar empresa ou trabalhadores não integra essa especificação e viola a impessoalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1870",
+      "revision": 1,
+      "prompt": "Na sequência procedimental da IN nº 5/2017, a elaboração do TR/PB compete ao:",
+      "options": [
+        { "id": "a", "text": "licitante mais bem classificado." },
+        { "id": "b", "text": "setor requisitante, com base nos estudos e no gerenciamento de riscos." },
+        { "id": "c", "text": "preposto da empresa anterior." },
+        { "id": "d", "text": "órgão de controle externo, exclusivamente." },
+        { "id": "e", "text": "sindicato da categoria profissional." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Depois de receber os documentos do planejamento e o prazo definido pela autoridade de licitações, o setor requisitante elabora o TR/PB. Participantes do mercado podem fornecer subsídios, mas não assumem a autoria administrativa da especificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1871",
+      "revision": 1,
+      "prompt": "Transcorreu longo período entre ETP, riscos e elaboração do TR. O setor requisitante deve:",
+      "options": [
+        { "id": "a", "text": "presumir que todos os dados continuam atuais." },
+        { "id": "b", "text": "descartar os estudos e escolher fornecedor diretamente." },
+        { "id": "c", "text": "avaliar se o tempo ou mudanças de contexto exigem atualizar estudos e riscos." },
+        { "id": "d", "text": "alterar apenas a data dos documentos." },
+        { "id": "e", "text": "aguardar a execução para identificar inconsistências." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O planejamento deve refletir a realidade da contratação. A passagem do tempo pode alterar mercado, quantitativos, riscos e solução; por isso, o setor requisitante reavalia a atualidade material, não apenas a data formal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1872",
+      "revision": 1,
+      "prompt": "Ao elaborar TR/PB, a Administração decide não usar modelo padronizado aplicável da AGU. Ela deve:",
+      "options": [
+        { "id": "a", "text": "omitir a decisão dos autos." },
+        { "id": "b", "text": "pedir autorização verbal ao contratado." },
+        { "id": "c", "text": "usar qualquer modelo privado sem análise." },
+        { "id": "d", "text": "justificar a não utilização ou as alterações realizadas no modelo." },
+        { "id": "e", "text": "cancelar a contratação em todos os casos." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Modelos da AGU e Cadernos de Logística são usados no que couber. A adaptação pode ser necessária, mas precisa de motivação nos autos para preservar coerência, transparência e controle do planejamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1873",
+      "revision": 1,
+      "prompt": "Na declaração do objeto do TR/PB, a Administração deve:",
+      "options": [
+        { "id": "a", "text": "exigir especificações irrelevantes para reduzir a competição." },
+        { "id": "b", "text": "omitir quantitativos e prazo para manter flexibilidade absoluta." },
+        { "id": "c", "text": "usar tecnologia defasada mesmo diante de alternativa superior e mais econômica." },
+        { "id": "d", "text": "descrever apenas a quantidade de trabalhadores." },
+        { "id": "e", "text": "informar natureza, quantitativos e prazo, evitando exigências excessivas, direcionadas ou defasadas." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O objeto precisa ser preciso e proporcional: natureza, quantidade, prazo e eventual prorrogação, com especificações úteis ao resultado. Exigência sem valor, direcionamento, excesso ou defasagem viola a qualidade do planejamento e a competição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1874",
+      "revision": 1,
+      "prompt": "Em serviço com categorias profissionais alocadas, o planejamento deve usar a CBO para:",
+      "options": [
+        { "id": "a", "text": "enquadrar adequadamente as categorias e relacioná-las aos requisitos e custos pertinentes." },
+        { "id": "b", "text": "escolher nominalmente os empregados." },
+        { "id": "c", "text": "criar cargo público sem lei." },
+        { "id": "d", "text": "eliminar o instrumento coletivo aplicável." },
+        { "id": "e", "text": "transferir ao fiscal o poder de fixar salários individuais." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A Classificação Brasileira de Ocupações ajuda a identificar corretamente as funções exigidas. O enquadramento apoia requisitos e composição de custos, mas não autoriza pessoalidade, criação de cargo ou administração direta da folha. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1875",
+      "revision": 1,
+      "prompt": "Quando a avaliação prévia do local for imprescindível ao conhecimento das condições de execução, o edital:",
+      "options": [
+        { "id": "a", "text": "é automática em todo serviço contínuo." },
+        { "id": "b", "text": "pode exigir atestado de conhecimento e assegurar vistoria, mas deve sempre admitir sua substituição por declaração formal do responsável técnico." },
+        { "id": "c", "text": "pode ser imposta sem relação com a proposta." },
+        { "id": "d", "text": "serve para identificar previamente o vencedor." },
+        { "id": "e", "text": "dispensa a descrição do ambiente no processo." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os §§ 2º e 3º do art. 63 da Lei nº 14.133/2021 permitem exigir o ateste quando a avaliação local for imprescindível, asseguram o direito de vistoria e obrigam a alternativa de declaração formal assinada pelo responsável técnico. A visita física nunca pode ser a única via. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1876",
+      "revision": 1,
+      "prompt": "A Ordem de Serviço é especialmente adequada quando:",
+      "options": [
+        { "id": "a", "text": "o objeto não foi definido no TR." },
+        { "id": "b", "text": "a empresa deve escolher livremente se executa o contrato." },
+        { "id": "c", "text": "tarefas específicas ou etapas dependem de autorização e precisam de solicitação, acompanhamento, avaliação e ateste." },
+        { "id": "d", "text": "a Administração pretende criar subordinação dos empregados." },
+        { "id": "e", "text": "o pagamento ocorre sem medição." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O modelo de execução pode usar Ordem de Serviço para acionar tarefas ou etapas delimitadas e permitir seu controle do pedido ao ateste. Ela operacionaliza o objeto já definido; não corrige especificação ausente nem autoriza comando direto dos empregados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1877",
+      "revision": 1,
+      "prompt": "Em serviço intelectual cuja continuidade depende do conhecimento produzido, o TR/PB deve:",
+      "options": [
+        { "id": "a", "text": "permitir retenção integral do conhecimento pela contratada." },
+        { "id": "b", "text": "ignorar a futura transição porque ela pertence só à execução." },
+        { "id": "c", "text": "presumir subcontratação total sem motivação." },
+        { "id": "d", "text": "prever transição e transferência de conhecimento, tecnologia e técnicas quando necessárias, além de motivar subcontratação e consórcio." },
+        { "id": "e", "text": "substituir a gestão do contrato por cessão de pessoal." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A continuidade institucional precisa ser planejada antes da execução. Quando pertinente, o modelo prevê transição e transferência do conhecimento; subcontratação e consórcio também exigem decisão motivada, não presunção automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1878",
+      "revision": 1,
+      "prompt": "A remuneração de serviços exclusivamente por horas ou postos de trabalho:",
+      "options": [
+        { "id": "a", "text": "é obrigatória em qualquer terceirização." },
+        { "id": "b", "text": "dispensa controle do resultado." },
+        { "id": "c", "text": "transforma os empregados em servidores." },
+        { "id": "d", "text": "pode ser escolhida sem método de cálculo." },
+        { "id": "e", "text": "é excepcional e exige método e justificativa quando resultados não puderem ser medidos de modo mais adequado." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A norma privilegia unidades que mensurem resultados. Horas e postos podem ser necessários em casos justificados, mas exigem método de cálculo e não afastam padrões de desempenho, fiscalização ou a natureza do objeto como serviço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1879",
+      "revision": 1,
+      "prompt": "Um IMR bem estruturado deve:",
+      "options": [
+        { "id": "a", "text": "definir qualidade observável, metas, evidências e adequação do pagamento, sem confundir essa adequação com sanção." },
+        { "id": "b", "text": "medir fatores totalmente fora do controle do prestador." },
+        { "id": "c", "text": "usar critérios secretos compreendidos apenas pelo fiscal." },
+        { "id": "d", "text": "aplicar multa automática sem processo." },
+        { "id": "e", "text": "remunerar sempre o valor integral, independentemente da entrega." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O IMR torna mensurável a qualidade mediante indicadores objetivos, evidência e metas realistas. A adequação remunera o resultado efetivamente entregue; sanção responde a infração e depende de fundamento e procedimento próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1880",
+      "revision": 1,
+      "prompt": "A estimativa de quantidades e produtividade deve considerar:",
+      "options": [
+        { "id": "a", "text": "somente um número adotado por outro órgão." },
+        { "id": "b", "text": "método, memória de cálculo, dados de suporte, volume, rotina, recursos, qualidade e condições locais." },
+        { "id": "c", "text": "apenas a quantidade de empregados desejada pelo fiscal." },
+        { "id": "d", "text": "parâmetro federal como valor universal e imutável." },
+        { "id": "e", "text": "exclusivamente o orçamento disponível, sem relação com a demanda." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Quantitativos precisam ser demonstráveis e produtividade depende das condições reais de execução. Parâmetros de outros órgãos podem servir de referência, mas não substituem memória de cálculo, dados do local e nível de serviço pretendido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1881",
+      "revision": 1,
+      "prompt": "No regime federal atual da Lei nº 14.133/2021, a estimativa de preços e a composição de custos em dedicação exclusiva devem observar, respectivamente:",
+      "options": [
+        { "id": "a", "text": "somente a revogada IN nº 5/2014 e salários escolhidos pelo fiscal." },
+        { "id": "b", "text": "qualquer cotação isolada e a convenção de outra localidade sem justificativa." },
+        { "id": "c", "text": "a IN nº 65/2021 e o enquadramento por CBO e instrumento coletivo paradigma conforme a disciplina atual." },
+        { "id": "d", "text": "apenas a proposta do futuro contratado." },
+        { "id": "e", "text": "nenhuma referência normativa, porque preço não integra o planejamento." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A pesquisa federal de preços atual é disciplinada pela IN nº 65/2021. Em dedicação exclusiva, CBO, localidade, instrumento coletivo paradigma e custos mínimos regulamentados estruturam a planilha sem reduzir o objeto a fornecimento de trabalhadores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1882",
+      "revision": 1,
+      "prompt": "Sobre sustentabilidade e parcelamento no planejamento, assinale a correta:",
+      "options": [
+        { "id": "a", "text": "Critério ambiental genérico e sem relação com o objeto pode ser imposto livremente, ainda que restrinja a competição." },
+        { "id": "b", "text": "Todo objeto deve ser parcelado, ainda que se destrua a integração da solução." },
+        { "id": "c", "text": "A perda de escala nunca importa para a decisão." },
+        { "id": "d", "text": "Critérios sustentáveis devem ser vinculados e proporcionais, e o parcelamento depende de divisibilidade, viabilidade, escala e preservação do conjunto." },
+        { "id": "e", "text": "Impactos ambientais e interdependências não pertencem ao ETP." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Sustentabilidade exige pertinência e proporcionalidade. Parcelar pode ampliar competição, mas a decisão deve examinar divisibilidade técnica e econômica, ganhos ou perdas de escala e integridade da solução; não há regra automática em nenhum sentido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1883",
+      "revision": 1,
+      "prompt": "Para preservar a segregação prevista no art. 31, é vedado contratar o mesmo prestador para:",
+      "options": [
+        { "id": "a", "text": "executar duas tarefas compatíveis do mesmo serviço." },
+        { "id": "b", "text": "transferir conhecimento ao fim de serviço intelectual." },
+        { "id": "c", "text": "apresentar preposto para comunicação com a Administração." },
+        { "id": "d", "text": "cumprir indicadores objetivos de resultado." },
+        { "id": "e", "text": "executar o serviço e prestar subsídio ou assistência à fiscalização ou supervisão desse mesmo objeto." }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Quem executa o objeto não pode simultaneamente auxiliar a Administração a fiscalizar ou supervisionar sua própria execução. A segregação reduz conflito de interesses e deve ser incorporada ao desenho da contratação. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
