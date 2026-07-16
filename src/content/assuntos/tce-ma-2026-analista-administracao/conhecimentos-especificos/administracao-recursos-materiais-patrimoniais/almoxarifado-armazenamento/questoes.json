@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1234",
+      "revision": 1,
+      "prompt": "A distinção correta entre almoxarifado e armazenagem é",
+      "options": [
+        {"id": "a", "text": "almoxarifado é a unidade ou instalação, e armazenagem é a atividade de guarda, localização, segurança e preservação"},
+        {"id": "b", "text": "almoxarifado é um método contábil, e armazenagem é uma modalidade de compra"},
+        {"id": "c", "text": "almoxarifado é o saldo, e armazenagem é exclusivamente seu valor monetário"},
+        {"id": "d", "text": "almoxarifado é a distribuição, e armazenagem é a aceitação do fornecedor"},
+        {"id": "e", "text": "os dois termos designam necessariamente o inventário anual"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O almoxarifado é a unidade organizacional e física; armazenagem é o conjunto de atividades de guarda, localização, segurança e preservação. Compras, aceitação, distribuição, inventário e avaliação são atividades distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1235",
+      "revision": 1,
+      "prompt": "O objetivo mais adequado de um almoxarifado é",
+      "options": [
+        {"id": "a", "text": "preencher todo o volume da edificação, ainda que se eliminem corredores"},
+        {"id": "b", "text": "manter o material disponível, localizável, íntegro e protegido, com controle e risco compatíveis"},
+        {"id": "c", "text": "substituir os setores de compras, contabilidade e patrimônio"},
+        {"id": "d", "text": "impedir qualquer movimentação para preservar o saldo"},
+        {"id": "e", "text": "concentrar todos os materiais no mesmo espaço, independentemente de compatibilidade"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Disponibilidade, localização, integridade, proteção e controle formam o objetivo; densidade máxima, imobilidade e mistura incompatível prejudicam operação e segurança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1236",
+      "revision": 1,
+      "prompt": "Segundo a definição operacional da IN SEDAP nº 205/1988, a armazenagem compreende",
+      "options": [
+        {"id": "a", "text": "licitação, adjudicação, liquidação e pagamento"},
+        {"id": "b", "text": "previsão, empenho, tombamento e alienação"},
+        {"id": "c", "text": "guarda, localização, segurança e preservação do material"},
+        {"id": "d", "text": "somente o empilhamento físico das embalagens"},
+        {"id": "e", "text": "exclusivamente o registro do custo contábil"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A definição da IN reúne guarda, localização, segurança e preservação; ela não reduz armazenagem a empilhar nem incorpora etapas de contratação ou mensuração contábil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1237",
+      "revision": 1,
+      "prompt": "Não constitui função própria da armazenagem no recorte estudado",
+      "options": [
+        {"id": "a", "text": "preservar a condição de uso"},
+        {"id": "b", "text": "identificar o endereço físico"},
+        {"id": "c", "text": "segregar materiais incompatíveis"},
+        {"id": "d", "text": "conduzir o procedimento de licitação para adquirir o item"},
+        {"id": "e", "text": "prevenir avarias e acessos indevidos"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A licitação pertence à aquisição. Preservação, localização, segregação e proteção integram a gestão interna do almoxarifado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1238",
+      "revision": 1,
+      "prompt": "A armazenagem física distingue-se da avaliação contábil porque",
+      "options": [
+        {"id": "a", "text": "a armazenagem calcula custos, enquanto a avaliação define corredores"},
+        {"id": "b", "text": "a armazenagem só existe para material permanente"},
+        {"id": "c", "text": "a avaliação contábil determina obrigatoriamente o endereço físico"},
+        {"id": "d", "text": "ambas são expressões idênticas para o mesmo procedimento"},
+        {"id": "e", "text": "a primeira cuida da guarda, proteção e fluxo físico, enquanto a segunda mensura valores"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A gestão física trata de localização, proteção e movimento; avaliação contábil trata de mensuração. Um método de custo não define por si o lote fisicamente retirado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1239",
+      "revision": 1,
+      "prompt": "A cadeia mínima de controle interno liga",
+      "options": [
+        {"id": "a", "text": "material físico, endereço, registro e documento justificante"},
+        {"id": "b", "text": "somente material e memória do operador"},
+        {"id": "c", "text": "apenas nota fiscal e valor contábil"},
+        {"id": "d", "text": "fornecedor, edital e proposta comercial, sem localização"},
+        {"id": "e", "text": "inventário anual e compra emergencial"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O controle precisa associar o objeto físico ao local, ao dado registrado e ao documento que sustenta a movimentação; memória ou tecnologia isolada não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1240",
+      "revision": 1,
+      "prompt": "Na localização aleatória ou dinâmica",
+      "options": [
+        {"id": "a", "text": "o operador escolhe um local e não precisa informá-lo"},
+        {"id": "b", "text": "a posição pode variar, mas cada alocação deve ser registrada com precisão"},
+        {"id": "c", "text": "o mesmo endereço é reservado permanentemente a cada item"},
+        {"id": "d", "text": "itens incompatíveis podem ocupar qualquer posição livre"},
+        {"id": "e", "text": "o endereço físico é substituído pelo valor do item"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A localização dinâmica aproveita posições disponíveis e compatíveis, mas depende de atualização rigorosa; a fixa é que reserva posição permanente. Compatibilidade continua obrigatória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1241",
+      "revision": 1,
+      "prompt": "Em um sistema de almoxarifado, código do item e endereço físico respondem, respectivamente, às perguntas",
+      "options": [
+        {"id": "a", "text": "quanto custa e quem comprou"},
+        {"id": "b", "text": "quando vence e quanto pesa"},
+        {"id": "c", "text": "qual é o item e onde ele está"},
+        {"id": "d", "text": "quem forneceu e qual método contábil foi usado"},
+        {"id": "e", "text": "qual é o saldo e qual é o preço de mercado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O código identifica o item; o endereço representa sua posição. Confundir ambos prejudica a localização e impede registrar várias posições para um mesmo item. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1242",
+      "revision": 1,
+      "prompt": "A rastreabilidade interna é adequadamente caracterizada por",
+      "options": [
+        {"id": "a", "text": "uso obrigatório de RFID, mesmo sem documentos"},
+        {"id": "b", "text": "conhecimento informal do encarregado sobre as saídas"},
+        {"id": "c", "text": "saldo mensal sem origem ou destino dos movimentos"},
+        {"id": "d", "text": "capacidade de justificar e reconstruir movimentos por registros e documentos"},
+        {"id": "e", "text": "substituição do endereço por uma etiqueta colorida"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Rastreabilidade é a capacidade de relacionar fato, origem, destino, responsável e documento. RFID pode apoiar, mas não substitui processo, registro e justificativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1243",
+      "revision": 1,
+      "prompt": "Sobre a tempestividade do registro, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "todo movimento pode ser lançado apenas no fim do mês"},
+        {"id": "b", "text": "endereços dinâmicos dispensam lançamento tempestivo"},
+        {"id": "c", "text": "a movimentação física deve anteceder indefinidamente o sistema"},
+        {"id": "d", "text": "apenas entradas precisam ser registradas"},
+        {"id": "e", "text": "deve-se reduzir o intervalo entre a ocorrência e o lançamento para evitar divergências"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A IN nº 205 requer atualização no menor tempo possível; atrasos criam saldos e endereços temporariamente falsos, sobretudo em localização dinâmica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1244",
+      "revision": 1,
+      "prompt": "Em uma verificação de 200 itens, 190 não apresentaram divergência de saldo. A acurácia de saldo foi",
+      "options": [
+        {"id": "a", "text": "95%"},
+        {"id": "b", "text": "90%"},
+        {"id": "c", "text": "10%"},
+        {"id": "d", "text": "105%"},
+        {"id": "e", "text": "não calculável, ainda que a amostra esteja definida"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Acurácia = 190/200 × 100 = 95%. O resultado depende da unidade, tolerância e amostra adotadas, mas os dados fornecidos permitem o cálculo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1245",
+      "revision": 1,
+      "prompt": "O saldo total registrado coincide com a quantidade física, mas parte das unidades está em endereço diferente do sistema. Nesse caso",
+      "options": [
+        {"id": "a", "text": "saldo e localização estão necessariamente corretos"},
+        {"id": "b", "text": "a acurácia de saldo pode estar correta e a de localização, incorreta"},
+        {"id": "c", "text": "somente a avaliação contábil está errada"},
+        {"id": "d", "text": "a divergência deixa de existir porque a quantidade total confere"},
+        {"id": "e", "text": "o endereço físico não integra o controle"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Quantidade e endereço são dimensões diferentes. Um saldo agregado correto não impede erro que atrase a busca ou gere separação indevida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1246",
+      "revision": 1,
+      "prompt": "Em um período, 12 de 2.400 unidades movimentadas sofreram avaria. Usando unidades movimentadas como denominador, o índice foi",
+      "options": [
+        {"id": "a", "text": "5%"},
+        {"id": "b", "text": "2%"},
+        {"id": "c", "text": "0,5%"},
+        {"id": "d", "text": "0,05%"},
+        {"id": "e", "text": "200%"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "12/2.400 × 100 = 0,5%. O denominador deve ser preservado nas comparações, pois usar saldo médio ou volumes produziria outro indicador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1247",
+      "revision": 1,
+      "prompt": "Quanto à meta de acurácia aplicável aos almoxarifados, a IN SEDAP nº 205/1988",
+      "options": [
+        {"id": "a", "text": "fixa obrigatoriamente 80%"},
+        {"id": "b", "text": "fixa 95% para qualquer item"},
+        {"id": "c", "text": "exige sempre 100% com tolerância nacional única"},
+        {"id": "d", "text": "não estabelece percentual universal; critério, amostra e meta precisam ser definidos"},
+        {"id": "e", "text": "proíbe qualquer mensuração por amostra"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A IN exige controle e consistências, mas não fornece uma meta percentual nacional única. Comparação requer método, tolerância e unidade claramente definidos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1248",
+      "revision": 1,
+      "prompt": "A adoção de código de barras em um processo sem disciplina de registro",
+      "options": [
+        {"id": "a", "text": "elimina automaticamente qualquer divergência"},
+        {"id": "b", "text": "dispensa documento de movimentação"},
+        {"id": "c", "text": "torna desnecessário identificar endereços"},
+        {"id": "d", "text": "substitui a definição de responsabilidades"},
+        {"id": "e", "text": "pode acelerar a captura, mas não garante rastreabilidade nem dado correto"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Tecnologia reduz esforço e certos erros, mas depende de identificação, documento, atualização e procedimento; dado incorreto capturado rapidamente continua incorreto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1249",
+      "revision": 1,
+      "prompt": "É medida de conservação de material",
+      "options": [
+        {"id": "a", "text": "controlar umidade, preservar acondicionamento adequado e inspecionar deterioração"},
+        {"id": "b", "text": "ocultar avaria para manter a acurácia"},
+        {"id": "c", "text": "misturar item bloqueado com liberado"},
+        {"id": "d", "text": "apoiar embalagens diretamente no piso úmido"},
+        {"id": "e", "text": "abrir todas as embalagens independentemente da necessidade"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Conservação é preventiva e inclui ambiente, embalagem e inspeção. Ocultação, mistura, umidade e abertura indiscriminada aumentam o risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1250",
+      "revision": 1,
+      "prompt": "Recuperação de material é",
+      "options": [
+        {"id": "a", "text": "sinônimo de limpeza preventiva"},
+        {"id": "b", "text": "ação corretiva destinada a restaurar item avariado quando técnica, segura e economicamente viável"},
+        {"id": "c", "text": "liberação automática de item vencido"},
+        {"id": "d", "text": "mudança do endereço sem registro"},
+        {"id": "e", "text": "avaliação contábil obrigatória pelo PEPS"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Recuperação ocorre após dano e exige viabilidade técnica, segurança, economicidade e oportunidade. Ela não libera vencidos nem se confunde com conservação ou custeio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1251",
+      "revision": 1,
+      "prompt": "Um material sem movimentação, mas íntegro e potencialmente utilizável, é mais adequadamente descrito como",
+      "options": [
+        {"id": "a", "text": "necessariamente irrecuperável"},
+        {"id": "b", "text": "obrigatoriamente vencido"},
+        {"id": "c", "text": "inativo ou ocioso, conforme o critério adotado"},
+        {"id": "d", "text": "sempre avariado"},
+        {"id": "e", "text": "automaticamente alienado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ociosidade ou inatividade decorre da falta de necessidade/movimento no período; não implica dano, vencimento ou destino automático. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1252",
+      "revision": 1,
+      "prompt": "Ao encontrar uma embalagem com vazamento, a sequência operacional mais segura começa por",
+      "options": [
+        {"id": "a", "text": "fornecer rapidamente o material para evitar perda"},
+        {"id": "b", "text": "apagar o lote do sistema sem documento"},
+        {"id": "c", "text": "misturar o conteúdo com embalagens íntegras"},
+        {"id": "d", "text": "bloquear, identificar, registrar e segregar de forma compatível antes da avaliação"},
+        {"id": "e", "text": "recolocar a embalagem na posição até o inventário anual"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A contenção da não conformidade evita uso e mistura indevidos. Liberação, exclusão sem documento ou espera no endereço normal ampliam risco e perda de rastreabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1253",
+      "revision": 1,
+      "prompt": "O critério de recuperação de até 50% do valor estimado de mercado, previsto na IN nº 205/1988",
+      "options": [
+        {"id": "a", "text": "obriga reparar qualquer item abaixo desse percentual"},
+        {"id": "b", "text": "autoriza recuperar produto contaminado"},
+        {"id": "c", "text": "é regra automática do TCE-MA"},
+        {"id": "d", "text": "elimina a análise técnica e de segurança"},
+        {"id": "e", "text": "é parâmetro econômico do SISG para bem móvel e não supera segurança, técnica e oportunidade"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O limite é uma condição econômica no âmbito da IN, não ordem de reparo nem autorização para ignorar risco, regra setorial, oportunidade ou alcance institucional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1254",
+      "revision": 1,
+      "prompt": "Segundo os cuidados de armazenagem da IN nº 205/1988, os materiais",
+      "options": [
+        {"id": "a", "text": "não devem ficar em contato direto com o piso e precisam de acessórios adequados"},
+        {"id": "b", "text": "devem ocupar corredores para ampliar a capacidade"},
+        {"id": "c", "text": "pesados devem ser colocados nos níveis superiores"},
+        {"id": "d", "text": "podem bloquear extintores se houver sinalização"},
+        {"id": "e", "text": "devem ter as etiquetas voltadas para a parede"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Afastar do piso protege contra umidade, sujeira e dano. A IN também orienta pesados embaixo, identificação para o acesso e emergência desobstruída. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1255",
+      "revision": 1,
+      "prompt": "Materiais pesados e volumosos devem, em regra, ser armazenados",
+      "options": [
+        {"id": "a", "text": "no ponto mais alto para liberar o piso"},
+        {"id": "b", "text": "nas partes inferiores, respeitando capacidade e facilitando movimentação segura"},
+        {"id": "c", "text": "sobre qualquer embalagem mais leve"},
+        {"id": "d", "text": "junto às saídas de emergência"},
+        {"id": "e", "text": "sem identificação, devido ao tamanho"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Níveis inferiores reduzem risco de queda e facilitam movimentação, mas piso, estrutura e equipamento ainda devem suportar a carga. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1256",
+      "revision": 1,
+      "prompt": "Sobre a posição de itens de alto giro, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "devem ficar sempre no nível mais alto"},
+        {"id": "b", "text": "devem ficar em qualquer posição vazia, sem considerar risco"},
+        {"id": "c", "text": "favorecem acesso simples e menor percurso, desde que peso, ergonomia e compatibilidade sejam respeitados"},
+        {"id": "d", "text": "não precisam de endereço, pois são movimentados frequentemente"},
+        {"id": "e", "text": "podem ser aproximados de incompatíveis para reduzir distância"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Frequência influencia o slotting, mas não prevalece sobre massa, ergonomia, segurança ou incompatibilidade. Alto giro continua exigindo endereço e registro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1257",
+      "revision": 1,
+      "prompt": "A orientação para concentrar materiais da mesma classe em locais adjacentes",
+      "options": [
+        {"id": "a", "text": "impede qualquer segregação"},
+        {"id": "b", "text": "autoriza misturar produtos que reagem entre si"},
+        {"id": "c", "text": "substitui a classificação de risco do produto"},
+        {"id": "d", "text": "facilita controle, mas cede diante de incompatibilidade ou requisito especial"},
+        {"id": "e", "text": "é uma regra de avaliação contábil"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Adjacência melhora movimentação e controle quando segura; riscos químicos, biológicos, físicos ou de condição podem exigir segregação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1258",
+      "revision": 1,
+      "prompt": "Para facilitar identificação e leitura durante a armazenagem, a IN nº 205/1988 orienta",
+      "options": [
+        {"id": "a", "text": "remover toda marcação da embalagem"},
+        {"id": "b", "text": "manter a etiqueta voltada para a parede"},
+        {"id": "c", "text": "usar apenas a memória visual dos operadores"},
+        {"id": "d", "text": "abrir qualquer embalagem para identificar seu conteúdo"},
+        {"id": "e", "text": "manter a face com marcação ou etiqueta voltada para o lado de acesso"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A marcação voltada ao acesso permite leitura rápida sem manipulação desnecessária; embalagem original deve ser preservada quando adequada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1259",
+      "revision": 1,
+      "prompt": "Unitização é",
+      "options": [
+        {"id": "a", "text": "a reunião de volumes menores em uma unidade de movimentação"},
+        {"id": "b", "text": "a avaliação individual do custo de cada item"},
+        {"id": "c", "text": "a reserva de um endereço fixo para todo material"},
+        {"id": "d", "text": "a abertura de todas as embalagens"},
+        {"id": "e", "text": "o descarte de itens sem uso"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Unitizar cria uma carga manejável a partir de volumes menores. Paletização é uma de suas formas; custeio, endereçamento e descarte são conceitos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1260",
+      "revision": 1,
+      "prompt": "A paletização",
+      "options": [
+        {"id": "a", "text": "torna ilimitada a carga do piso"},
+        {"id": "b", "text": "é forma de unitização e exige compatibilidade entre carga, palete, estrutura e equipamento"},
+        {"id": "c", "text": "elimina a necessidade de inspeção"},
+        {"id": "d", "text": "é adequada a qualquer material, sem análise"},
+        {"id": "e", "text": "dispensa estabilidade e identificação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O palete apoia a movimentação unitizada, mas não aumenta automaticamente resistência, estabilidade ou capacidade dos demais elementos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1261",
+      "revision": 1,
+      "prompt": "Uma vantagem e uma limitação da localização fixa são, respectivamente",
+      "options": [
+        {"id": "a", "text": "ocupação sempre máxima e ausência de endereço"},
+        {"id": "b", "text": "segregação automática e impossibilidade de inspeção"},
+        {"id": "c", "text": "posição previsível e possível ociosidade do espaço reservado"},
+        {"id": "d", "text": "registro dispensável e mistura de lotes"},
+        {"id": "e", "text": "validade automática e custo nulo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A posição permanente simplifica localização, mas pode ficar vazia quando o volume cai; métodos dinâmicos tendem a usar melhor posições variáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1262",
+      "revision": 1,
+      "prompt": "A principal dependência operacional da localização dinâmica é",
+      "options": [
+        {"id": "a", "text": "manter posições vazias permanentemente reservadas"},
+        {"id": "b", "text": "eliminar critérios de compatibilidade"},
+        {"id": "c", "text": "usar exclusivamente registros em papel"},
+        {"id": "d", "text": "registrar tempestivamente cada endereço ocupado e desocupado"},
+        {"id": "e", "text": "impedir que um item ocupe mais de uma posição"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Como a posição não é permanente, a atualização é central para localizar o material e conhecer disponibilidade. Compatibilidade e identificação permanecem necessárias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1263",
+      "revision": 1,
+      "prompt": "No PEPS físico, a prioridade de saída recai sobre",
+      "options": [
+        {"id": "a", "text": "o item de maior preço"},
+        {"id": "b", "text": "o lote mais pesado"},
+        {"id": "c", "text": "a embalagem mais próxima, independentemente da entrada"},
+        {"id": "d", "text": "o lote com maior valor contábil"},
+        {"id": "e", "text": "o material estocado há mais tempo"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "PEPS físico prioriza antiguidade de entrada para reduzir envelhecimento; preço e custo pertencem a outros critérios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1264",
+      "revision": 1,
+      "prompt": "Um lote recebido em fevereiro vence em junho, e outro recebido em janeiro vence em dezembro. Pelo FEFO, deve sair primeiro o lote",
+      "options": [
+        {"id": "a", "text": "de fevereiro, porque vence antes"},
+        {"id": "b", "text": "de janeiro, somente porque entrou antes"},
+        {"id": "c", "text": "de maior custo unitário"},
+        {"id": "d", "text": "com embalagem maior"},
+        {"id": "e", "text": "escolhido sem consultar a validade"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "FEFO/PVPS usa a data de vencimento mais próxima; ele pode divergir do PEPS quando a ordem de validade não acompanha a entrada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1265",
+      "revision": 1,
+      "prompt": "A diferença entre PEPS físico e PEPS contábil está em que",
+      "options": [
+        {"id": "a", "text": "o físico mede valor e o contábil define corredores"},
+        {"id": "b", "text": "o físico orienta a saída real, e o contábil atribui custos às saídas e ao saldo"},
+        {"id": "c", "text": "o físico só vale para serviços, e o contábil só para mercadorias"},
+        {"id": "d", "text": "ambos determinam necessariamente o mesmo lote real"},
+        {"id": "e", "text": "o contábil substitui a identificação de validade"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A rotação física escolhe o lote movimentado; a convenção contábil mensura custo. As duas podem ser coerentes, mas uma não prova a execução da outra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1266",
+      "revision": 1,
+      "prompt": "Na decisão de aproximar dois materiais no almoxarifado, deve prevalecer",
+      "options": [
+        {"id": "a", "text": "apenas a semelhança do nome"},
+        {"id": "b", "text": "exclusivamente o valor contábil"},
+        {"id": "c", "text": "a compatibilidade de riscos, preservação e condição, além da conveniência operacional"},
+        {"id": "d", "text": "sempre a menor distância possível"},
+        {"id": "e", "text": "a cor da embalagem, sem consulta a informações de segurança"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A adjacência deve respeitar reação, contaminação, inflamabilidade, ambiente e status. Conveniência ou classe cadastral não superam incompatibilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1267",
+      "revision": 1,
+      "prompt": "Sobre afastamentos de materiais empilhados, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "a IN nº 205 fixa 70 cm como regra estrutural universal"},
+        {"id": "b", "text": "qualquer distância dispensa legislação contra incêndio"},
+        {"id": "c", "text": "o anexo de rochas da NR 11 define medidas para todo almoxarifado"},
+        {"id": "d", "text": "a IN orienta aproximadamente 70 cm do teto e 50 cm das paredes, sem substituir projeto e regras aplicáveis"},
+        {"id": "e", "text": "não há qualquer regra relativa às estruturas laterais"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os valores da IN são referência federal operacional; a NR 11 também prevê 50 cm de estruturas laterais para empilhados. Projeto e normas de incêndio continuam necessários. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1268",
+      "revision": 1,
+      "prompt": "No indicador de ocupação volumétrica, o denominador adequado é",
+      "options": [
+        {"id": "a", "text": "o volume externo total do terreno"},
+        {"id": "b", "text": "a soma do preço dos materiais"},
+        {"id": "c", "text": "o número de trabalhadores"},
+        {"id": "d", "text": "o volume bruto, incluindo corredores e saídas bloqueáveis"},
+        {"id": "e", "text": "o volume útil e seguro definido para armazenagem"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O indicador compara material armazenado com capacidade útil e segura, excluindo espaços necessários a circulação, emergência, folgas e instalações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1269",
+      "revision": 1,
+      "prompt": "Um almoxarifado possui 200 m³ de volume útil e seguro, dos quais 150 m³ estão ocupados. Sua ocupação volumétrica é",
+      "options": [
+        {"id": "a", "text": "75%"},
+        {"id": "b", "text": "50%"},
+        {"id": "c", "text": "25%"},
+        {"id": "d", "text": "133,3%"},
+        {"id": "e", "text": "350%"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ocupação = 150/200 × 100 = 75%. O resultado não informa sozinho seletividade, segurança ou produtividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1270",
+      "revision": 1,
+      "prompt": "A verticalização do armazenamento",
+      "options": [
+        {"id": "a", "text": "sempre reduz todos os riscos"},
+        {"id": "b", "text": "pode aumentar densidade, mas exige estrutura, estabilidade, acesso e equipamento compatíveis"},
+        {"id": "c", "text": "elimina o limite de carga do piso"},
+        {"id": "d", "text": "dispensa corredores e inspeção"},
+        {"id": "e", "text": "torna desnecessário colocar itens pesados em níveis baixos"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Usar altura amplia capacidade potencial, porém aumenta exigências estruturais e operacionais; não elimina limites de piso, acesso ou posicionamento por massa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1271",
+      "revision": 1,
+      "prompt": "Um depósito com 96% de ocupação, cargas nos corredores e necessidade de retirar três paletes para acessar outro apresenta",
+      "options": [
+        {"id": "a", "text": "eficiência comprovada pela ocupação"},
+        {"id": "b", "text": "seletividade máxima"},
+        {"id": "c", "text": "densidade alta com prejuízo de acesso e segurança"},
+        {"id": "d", "text": "capacidade ilimitada"},
+        {"id": "e", "text": "acurácia automaticamente perfeita"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ocupação isolada não mede bom aproveitamento. Bloqueio e remanejamento excessivo degradam emergência, seletividade e produtividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1272",
+      "revision": 1,
+      "prompt": "A NR 11 determina, em relação aos equipamentos de movimentação, que",
+      "options": [
+        {"id": "a", "text": "a carga máxima permaneça conhecida apenas pelo fabricante"},
+        {"id": "b", "text": "a inspeção ocorra somente após acidente"},
+        {"id": "c", "text": "defeitos possam ser compensados por maior velocidade"},
+        {"id": "d", "text": "ofereçam resistência e segurança, tenham carga máxima visível e sejam mantidos em condições de trabalho"},
+        {"id": "e", "text": "qualquer pessoa opere equipamento motorizado sem requisito específico"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Resistência, conservação, inspeção, identificação de carga e requisitos do operador são controles da NR 11; defeito não deve ser tolerado até acidente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1273",
+      "revision": 1,
+      "prompt": "Conforme a NR 11, o peso do material armazenado",
+      "options": [
+        {"id": "a", "text": "pode exceder o piso se houver palete"},
+        {"id": "b", "text": "é irrelevante quando a embalagem está intacta"},
+        {"id": "c", "text": "depende somente do espaço disponível"},
+        {"id": "d", "text": "pode ser estimado visualmente sem projeto"},
+        {"id": "e", "text": "não pode exceder a capacidade de carga calculada para o piso"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A capacidade calculada do piso é limite de segurança. Palete, embalagem ou espaço vazio não aumentam esse valor por si. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1274",
+      "revision": 1,
+      "prompt": "As regras detalhadas do Anexo I da NR 11 sobre cavaletes e chapas",
+      "options": [
+        {"id": "a", "text": "aplicam-se especificamente à movimentação, armazenagem e manuseio de chapas de rochas ornamentais"},
+        {"id": "b", "text": "definem o layout de qualquer arquivo de escritório"},
+        {"id": "c", "text": "substituem todas as regras gerais da NR 11"},
+        {"id": "d", "text": "são parâmetros universais de porta-paletes"},
+        {"id": "e", "text": "aplicam-se automaticamente ao TCE-MA, mesmo sem a atividade setorial"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O anexo é setorial para chapas de rochas ornamentais. Generalizar suas medidas e equipamentos para materiais comuns é erro de alcance. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1275",
+      "revision": 1,
+      "prompt": "Na ergonomia da movimentação manual não eventual, a avaliação deve considerar",
+      "options": [
+        {"id": "a", "text": "somente o peso nominal"},
+        {"id": "b", "text": "peso, pega, frequência, postura, altura, distância, percurso e características da situação"},
+        {"id": "c", "text": "apenas a idade do almoxarifado"},
+        {"id": "d", "text": "exclusivamente o valor do material"},
+        {"id": "e", "text": "somente a existência de luvas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Risco ergonômico resulta da combinação entre pessoa, carga, pega, repetição, postura e organização. Peso isolado ou EPI não descrevem toda a exposição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1276",
+      "revision": 1,
+      "prompt": "Sobre um limite universal de peso para transporte manual individual, a NR 17",
+      "options": [
+        {"id": "a", "text": "fixa 100 kg para qualquer trabalhador"},
+        {"id": "b", "text": "fixa 60 kg para qualquer frequência"},
+        {"id": "c", "text": "não oferece um único peso seguro universal e exige avaliar o comprometimento da saúde e segurança"},
+        {"id": "d", "text": "dispensa análise quando há carrinho próximo"},
+        {"id": "e", "text": "trata somente de mobiliário de escritório"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A norma proíbe carga suscetível de comprometer saúde ou segurança e estrutura a avaliação da tarefa; não fornece um número isolado válido para toda pessoa e condição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1277",
+      "revision": 1,
+      "prompt": "A NR 23 estabelece que as medidas de prevenção contra incêndios devem observar",
+      "options": [
+        {"id": "a", "text": "somente decisão informal do encarregado"},
+        {"id": "b", "text": "uma tabela nacional única para qualquer edificação"},
+        {"id": "c", "text": "apenas a IN SEDAP nº 205/1988"},
+        {"id": "d", "text": "a legislação estadual e, quando aplicável, normas técnicas oficiais"},
+        {"id": "e", "text": "exclusivamente o valor econômico do estoque"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A NR 23 remete expressamente à legislação estadual e, complementarmente quando aplicável, às normas técnicas; por isso não se inventam distâncias ou extintores universais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1278",
+      "revision": 1,
+      "prompt": "De acordo com a NR 26, o uso de cores na sinalização",
+      "options": [
+        {"id": "a", "text": "elimina a necessidade de qualquer outro controle"},
+        {"id": "b", "text": "deve ocupar todas as superfícies para chamar atenção"},
+        {"id": "c", "text": "dispensa rotulagem de produto perigoso"},
+        {"id": "d", "text": "substitui treinamento e ficha de segurança"},
+        {"id": "e", "text": "indica e adverte riscos, mas não dispensa outras medidas e deve evitar confusão"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A cor é meio de comunicação e não controle suficiente. A NR 26 exige uso reduzido para evitar distração e preserva outras medidas, rótulos e informação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1279",
+      "revision": 1,
+      "prompt": "A rotulagem preventiva de produto químico perigoso segundo a NR 26 deve incluir",
+      "options": [
+        {"id": "a", "text": "identificação e composição do produto químico, pictograma, palavra de advertência, frases de perigo e precaução e informação suplementar"},
+        {"id": "b", "text": "somente o preço e o fornecedor"},
+        {"id": "c", "text": "apenas uma cor escolhida pelo almoxarifado"},
+        {"id": "d", "text": "exclusivamente a data de entrada"},
+        {"id": "e", "text": "somente o endereço da estante"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A NR 26 exige identificação e composição do produto químico, pictograma, palavra de advertência, frases de perigo e precaução e informação suplementar. Preço, entrada e endereço podem integrar outros controles, mas não substituem o rótulo preventivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1280",
+      "revision": 1,
+      "prompt": "Uma faixa colorida correta foi aplicada em uma área, mas a carga continua instável. A conclusão adequada é",
+      "options": [
+        {"id": "a", "text": "a cor estabiliza fisicamente a carga"},
+        {"id": "b", "text": "a sinalização não elimina o risco e a instabilidade deve ser corrigida"},
+        {"id": "c", "text": "o acesso pode permanecer livre porque todos foram avisados"},
+        {"id": "d", "text": "EPI e cor tornam desnecessário rever o empilhamento"},
+        {"id": "e", "text": "a NR 26 substitui a capacidade da estrutura"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sinalização comunica o perigo; não atua sobre estabilidade. A fonte do risco requer correção, isolamento e demais medidas pertinentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1281",
+      "revision": 1,
+      "prompt": "Em um endereço dinâmico, o operador guarda o material em posição diferente da sugerida e decide registrar só no fim do turno. O principal problema é",
+      "options": [
+        {"id": "a", "text": "a localização dinâmica exigir posição fixa"},
+        {"id": "b", "text": "o material passar automaticamente a ser obsoleto"},
+        {"id": "c", "text": "o sistema indicar endereço incorreto durante o intervalo, comprometendo localização e rastreabilidade"},
+        {"id": "d", "text": "o valor contábil mudar com a posição"},
+        {"id": "e", "text": "a etiqueta deixar de identificar o item"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A flexibilidade do método exige atualização tempestiva. Enquanto registro e realidade divergem, buscas e movimentos podem falhar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1282",
+      "revision": 1,
+      "prompt": "Um item bloqueado durante avaliação de avaria deve",
+      "options": [
+        {"id": "a", "text": "ser misturado ao saldo liberado para aproveitar espaço"},
+        {"id": "b", "text": "ser fornecido antes dos demais pelo PEPS"},
+        {"id": "c", "text": "ter a condição removida do sistema para não afetar indicadores"},
+        {"id": "d", "text": "permanecer identificado, segregado e indisponível até decisão e registro competentes"},
+        {"id": "e", "text": "ser automaticamente recuperado se tiver baixo valor"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Bloqueio evita fornecimento indevido; identificação e segregação preservam rastreabilidade e segurança até avaliação. PEPS não supera a condição do item. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1283",
+      "revision": 1,
+      "prompt": "Caracteriza uma armazenagem madura",
+      "options": [
+        {"id": "a", "text": "maximizar ocupação e corrigir registros apenas no inventário anual"},
+        {"id": "b", "text": "usar cores e EPI como substitutos de estabilidade e compatibilidade"},
+        {"id": "c", "text": "manter todos os itens no mesmo local para simplificar o layout"},
+        {"id": "d", "text": "priorizar velocidade mesmo com documento e endereço desatualizados"},
+        {"id": "e", "text": "integrar identificação, endereço, registro, preservação, compatibilidade, acesso e segurança"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O desempenho resulta da integração entre controle e operação física. Densidade, velocidade ou sinalização isoladas não compensam erro, risco ou perda de rastreabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

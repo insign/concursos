@@ -529,7 +529,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Planejamento, processos e políticas de administração de estoques; determinação de níveis de estoque; tempo de ressuprimento e estoques de segurança; avaliação de estoques - métodos.
 
-##### [>] Em progresso Assunto 120 - Item 12: Almoxarifado e armazenamento.
+##### [R] Em revisão Assunto 120 - Item 12: Almoxarifado e armazenamento.
 
 - Funções, princípios e objetivos; controle, registro, conservação e recuperação de material; técnicas de armazenamento; utilização de espaço; segurança.
 
