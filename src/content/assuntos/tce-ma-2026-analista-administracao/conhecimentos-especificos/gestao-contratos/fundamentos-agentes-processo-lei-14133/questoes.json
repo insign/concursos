@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1434",
+      "revision": 1,
+      "prompt": "Um edital de obra prevê obrigações de pagamento, mas autoriza afastar sem base legal as condições efetivas da proposta e exige qualificação econômica sem relação com as obrigações. À luz do art. 37, XXI, da Constituição, essas previsões",
+      "options": [
+        {"id": "a", "text": "são válidas sempre que a Administração invocar genericamente o interesse público"},
+        {"id": "b", "text": "são incompatíveis com a manutenção legal das condições efetivas da proposta e com a limitação da qualificação ao indispensável"},
+        {"id": "c", "text": "são válidas se o edital também assegurar publicidade aos concorrentes"},
+        {"id": "d", "text": "só seriam inválidas se impedissem a participação de empresa local"},
+        {"id": "e", "text": "são válidas quando o critério de julgamento for o menor preço"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A Constituição exige igualdade de condições, cláusulas de pagamento que mantenham as condições efetivas da proposta nos termos da lei e somente qualificações técnica e econômica indispensáveis ao cumprimento das obrigações. Publicidade ou tipo de julgamento não convalidam cláusulas incompatíveis com esses comandos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1435",
+      "revision": 1,
+      "prompt": "Está abrangida diretamente pelas normas gerais da Lei nº 14.133/2021",
+      "options": [
+        {"id": "a", "text": "toda sociedade de economia mista"},
+        {"id": "b", "text": "toda subsidiária de empresa pública"},
+        {"id": "c", "text": "apenas a Administração direta federal"},
+        {"id": "d", "text": "uma autarquia estadual"},
+        {"id": "e", "text": "somente entidade que receba transferência voluntária da União"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 1º alcança Administrações diretas, autárquicas e fundacionais de todos os entes. Empresas públicas, sociedades de economia mista e subsidiárias seguem, em regra, a Lei nº 13.303/2016. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1436",
+      "revision": 1,
+      "prompt": "Quanto às empresas públicas e sociedades de economia mista, a Lei nº 14.133/2021 estabelece que",
+      "options": [
+        {"id": "a", "text": "não são abrangidas por ela como regra, pois se submetem à Lei nº 13.303/2016, ressalvado seu art. 178"},
+        {"id": "b", "text": "são equiparadas às autarquias para qualquer contratação"},
+        {"id": "c", "text": "somente as subsidiárias seguem a Lei nº 13.303/2016"},
+        {"id": "d", "text": "aplicam a Lei nº 14.133/2021 apenas em compras comuns"},
+        {"id": "e", "text": "podem escolher livremente entre os dois regimes"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 1º, § 1º, exclui empresas públicas, sociedades de economia mista e subsidiárias, regidas pela Lei nº 13.303/2016, ressalvando o art. 178; não existe opção livre ou equiparação geral a autarquia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1437",
+      "revision": 1,
+      "prompt": "Entre os objetos expressamente alcançados pelo art. 2º da Lei nº 14.133/2021 está",
+      "options": [
+        {"id": "a", "text": "a gestão da dívida pública"},
+        {"id": "b", "text": "qualquer operação de crédito externo"},
+        {"id": "c", "text": "somente obra de engenharia"},
+        {"id": "d", "text": "apenas compra de bem pronta-entrega"},
+        {"id": "e", "text": "a contratação de tecnologia da informação e comunicação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 2º inclui TIC, compras, locações, serviços, obras e outros objetos. Operações de crédito e gestão da dívida são excluídas pelo art. 3º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1438",
+      "revision": 1,
+      "prompt": "Não se subordina ao regime da Lei nº 14.133/2021, conforme o art. 3º, o contrato cujo objeto seja",
+      "options": [
+        {"id": "a", "text": "compra por encomenda"},
+        {"id": "b", "text": "locação de equipamento"},
+        {"id": "c", "text": "operação de crédito e gestão da dívida pública"},
+        {"id": "d", "text": "prestação de serviço técnico"},
+        {"id": "e", "text": "concessão de direito real de uso"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Operações de crédito, gestão da dívida, agente financeiro e garantias relacionadas ficam fora do regime pelo art. 3º; os demais objetos aparecem no art. 2º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1439",
+      "revision": 1,
+      "prompt": "Em contratação financiada por organismo internacional, uma condição peculiar de seleção pode ser admitida quando, entre outros requisitos,",
+      "options": [
+        {"id": "a", "text": "afastar princípios constitucionais por previsão do financiador"},
+        {"id": "b", "text": "for comunicada ao órgão jurídico apenas depois do contrato de financiamento"},
+        {"id": "c", "text": "for exigida para o financiamento, não conflitar com princípios constitucionais e atender às condições legais"},
+        {"id": "d", "text": "conferir preferência automática a empresa estrangeira"},
+        {"id": "e", "text": "dispensar registro no contrato de empréstimo ou doação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 1º, § 3º, condiciona a admissão das regras do financiador à necessidade para obtenção dos recursos, compatibilidade constitucional, indicação contratual e parecer jurídico favorável prévio, entre outros pontos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1440",
+      "revision": 1,
+      "prompt": "Em licitação de bens dividida em itens, a autoridade pretende usar o valor global do certame para negar os benefícios da LC nº 123/2006, embora cada item permaneça dentro do teto aplicável. A análise correta é que",
+      "options": [
+        {"id": "a", "text": "para bens e serviços em geral, compara-se cada item ao teto de EPP; para obras e engenharia, a lei usa o valor da licitação e o limite de ME"},
+        {"id": "b", "text": "o valor global sempre prevalece, qualquer que seja o objeto"},
+        {"id": "c", "text": "os limites dependem apenas do patrimônio líquido de cada licitante"},
+        {"id": "d", "text": "a autoridade pode criar no edital um teto diferente do previsto em lei"},
+        {"id": "e", "text": "os benefícios não se aplicam a licitações divididas em itens"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 4º, § 1º, distingue as bases: bens e serviços em geral usam o item e o teto de EPP; obras e serviços de engenharia usam a licitação e o limite do art. 3º, I, da LC nº 123/2006, relativo à ME. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1441",
+      "revision": 1,
+      "prompt": "Para aplicar os limites dos §§ 1º e 2º do art. 4º a contrato com vigência superior a um ano, considera-se",
+      "options": [
+        {"id": "a", "text": "o valor do primeiro mês"},
+        {"id": "b", "text": "a metade do valor total"},
+        {"id": "c", "text": "somente o valor já pago"},
+        {"id": "d", "text": "o valor total sem qualquer proporcionalização"},
+        {"id": "e", "text": "o valor anual do contrato"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 4º, § 3º, determina considerar o valor anual quando a vigência for superior a um ano; não usa parcela paga, primeiro mês ou metade arbitrária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1442",
+      "revision": 1,
+      "prompt": "A exigência de que a decisão exponha seus pressupostos de fato e de direito corresponde principalmente ao princípio da",
+      "options": [
+        {"id": "a", "text": "celeridade"},
+        {"id": "b", "text": "motivação"},
+        {"id": "c", "text": "publicidade diferida"},
+        {"id": "d", "text": "padronização"},
+        {"id": "e", "text": "continuidade"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Motivação conecta fatos, normas e decisão. Celeridade cuida do tempo e publicidade da cognoscibilidade; nenhuma substitui a demonstração das razões do ato. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1443",
+      "revision": 1,
+      "prompt": "A relação correta entre publicidade e transparência é",
+      "options": [
+        {"id": "a", "text": "são incompatíveis quando o processo é eletrônico"},
+        {"id": "b", "text": "publicidade autoriza divulgar dado sigiloso e transparência impede motivação"},
+        {"id": "c", "text": "transparência se limita à existência formal de uma publicação"},
+        {"id": "d", "text": "publicidade torna o ato cognoscível, enquanto transparência exige informação útil, íntegra e compreensível"},
+        {"id": "e", "text": "a Lei nº 14.133/2021 prevê apenas publicidade"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ambos constam do art. 5º: publicidade dá conhecimento, e transparência exige qualidade e acessibilidade da informação, respeitadas as hipóteses legais de sigilo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1444",
+      "revision": 1,
+      "prompt": "Um bem é comum, para a Lei nº 14.133/2021, quando",
+      "options": [
+        {"id": "a", "text": "tem baixo valor monetário"},
+        {"id": "b", "text": "não possui qualquer risco técnico"},
+        {"id": "c", "text": "é adquirido rotineiramente por todos os órgãos"},
+        {"id": "d", "text": "pode ser descrito sem edital"},
+        {"id": "e", "text": "seus padrões de desempenho e qualidade podem ser objetivamente definidos por especificações usuais de mercado"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O critério legal é a descrição objetiva por padrões usuais de mercado; preço baixo, ausência de risco ou aparência de simplicidade não definem a categoria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1445",
+      "revision": 1,
+      "prompt": "O enquadramento de bem ou serviço como especial",
+      "options": [
+        {"id": "a", "text": "decorre apenas do valor estimado"},
+        {"id": "b", "text": "pressupõe alta heterogeneidade ou complexidade que impeça descrição como comum e exige justificativa prévia"},
+        {"id": "c", "text": "é automático para todo serviço intelectual"},
+        {"id": "d", "text": "dispensa motivação do contratante"},
+        {"id": "e", "text": "depende exclusivamente da preferência do agente"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A definição do art. 6º combina alta heterogeneidade ou complexidade, impossibilidade de descrição como comum e justificativa prévia; não é escolha livre nem consequência exclusiva do preço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1446",
+      "revision": 1,
+      "prompt": "A compra é considerada imediata pela Lei nº 14.133/2021 quando a entrega ocorre",
+      "options": [
+        {"id": "a", "text": "no mesmo dia da assinatura"},
+        {"id": "b", "text": "em até 5 dias do edital"},
+        {"id": "c", "text": "em até 15 dias da homologação"},
+        {"id": "d", "text": "em até 30 dias da ordem de fornecimento"},
+        {"id": "e", "text": "antes do empenho"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 6º, X, considera imediata a compra com prazo de entrega de até 30 dias da ordem de fornecimento; os demais marcos e prazos não constam da definição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1447",
+      "revision": 1,
+      "prompt": "Para o art. 6º, autoridade é",
+      "options": [
+        {"id": "a", "text": "agente público dotado de poder de decisão"},
+        {"id": "b", "text": "qualquer integrante terceirizado da equipe de apoio"},
+        {"id": "c", "text": "somente o chefe do Poder Executivo"},
+        {"id": "d", "text": "todo licitante que oferece proposta"},
+        {"id": "e", "text": "exclusivamente o assessor jurídico"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A lei define autoridade pelo poder de decisão. O conceito não se limita ao chefe do Executivo nem transforma licitante, terceirizado ou assessor em autoridade por sua mera participação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1448",
+      "revision": 1,
+      "prompt": "O agente de contratação é designado",
+      "options": [
+        {"id": "a", "text": "pelos próprios licitantes"},
+        {"id": "b", "text": "entre quaisquer consultores privados"},
+        {"id": "c", "text": "pela autoridade competente, entre servidores efetivos ou empregados públicos dos quadros permanentes"},
+        {"id": "d", "text": "somente pelo órgão de controle interno"},
+        {"id": "e", "text": "depois da homologação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os arts. 6º, LX, e 8º exigem designação pela autoridade competente e vínculo efetivo ou emprego público permanente; o agente conduz até a homologação, não é escolhido depois dela. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1449",
+      "revision": 1,
+      "prompt": "Quanto ao vínculo permanente dos agentes, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "é irrelevante em todos os casos"},
+        {"id": "b", "text": "é apenas preferência para o agente de contratação"},
+        {"id": "c", "text": "é exigência para toda pessoa que auxilia o processo"},
+        {"id": "d", "text": "o art. 7º o prefere para funções essenciais em geral, e o art. 8º o exige para agente de contratação"},
+        {"id": "e", "text": "é substituído por experiência privada sem designação"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A palavra 'preferencialmente' consta do requisito geral do art. 7º; o art. 8º escolhe o agente de contratação entre servidores efetivos ou empregados públicos permanentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1450",
+      "revision": 1,
+      "prompt": "O requisito técnico-profissional do art. 7º, II, pode ser atendido por agente que",
+      "options": [
+        {"id": "a", "text": "tenha apenas parentesco com a autoridade"},
+        {"id": "b", "text": "seja indicado por um contratado habitual"},
+        {"id": "c", "text": "tenha atribuições relacionadas, formação compatível ou certificação profissional de escola de governo pública"},
+        {"id": "d", "text": "não possua qualquer relação com licitações, desde que aceite o encargo"},
+        {"id": "e", "text": "apresente certificado emitido por qualquer empresa sem outros critérios"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O inciso usa alternativas: atribuições relacionadas, formação compatível ou qualificação por certificação de escola de governo criada e mantida pelo Poder Público; indicação ou certificado privado genérico não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1451",
+      "revision": 1,
+      "prompt": "A segregação de funções busca",
+      "options": [
+        {"id": "a", "text": "impedir qualquer comunicação entre setores"},
+        {"id": "b", "text": "evitar atuação simultânea do mesmo agente em funções mais suscetíveis a risco, reduzindo ocultação de erros e fraude"},
+        {"id": "c", "text": "concentrar decisão e controle na mesma pessoa"},
+        {"id": "d", "text": "substituir a gestão por competências"},
+        {"id": "e", "text": "eliminar a responsabilidade da autoridade"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 7º, § 1º, relaciona segregação a funções simultâneas mais suscetíveis a risco e à redução de ocultação de erros e fraude; não exige isolamento nem elimina outros deveres. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1452",
+      "revision": 1,
+      "prompt": "Durante um certame, a equipe de apoio apresenta análise técnica, e o agente de contratação precisa decidir uma controvérsia e dar seguimento ao procedimento. A conduta compatível com sua atribuição é",
+      "options": [
+        {"id": "a", "text": "transferir a decisão à equipe, pois o apoio técnico desloca sua competência"},
+        {"id": "b", "text": "suspender toda atuação até que o futuro fiscal do contrato decida"},
+        {"id": "c", "text": "homologar o certame em substituição necessária à autoridade competente"},
+        {"id": "d", "text": "limitar-se a protocolar documentos, sem poder decisório ou impulso"},
+        {"id": "e", "text": "considerar o apoio, tomar a decisão de sua competência e impulsionar o certame até a homologação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O agente conduz o procedimento até a homologação, tomando decisões e dando impulso com auxílio da equipe. O apoio não desloca sua competência, e homologar permanece atribuição da autoridade competente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1453",
+      "revision": 1,
+      "prompt": "Em relação aos atos praticados pelo agente de contratação, a Lei nº 14.133/2021 prevê",
+      "options": [
+        {"id": "a", "text": "responsabilidade individual, salvo quando ele for induzido a erro pela equipe de apoio"},
+        {"id": "b", "text": "irresponsabilidade por qualquer ato apoiado pela equipe"},
+        {"id": "c", "text": "responsabilidade exclusiva da autoridade máxima"},
+        {"id": "d", "text": "solidariedade automática de todos os servidores do órgão"},
+        {"id": "e", "text": "imunidade se o procedimento for eletrônico"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 8º, § 1º, fixa responsabilidade individual do agente e ressalva a indução a erro pela equipe; auxílio não cria irresponsabilidade ou solidariedade geral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1454",
+      "revision": 1,
+      "prompt": "Em licitação de bens ou serviços especiais, o agente de contratação",
+      "options": [
+        {"id": "a", "text": "deve ser sempre substituído por um único consultor"},
+        {"id": "b", "text": "não pode receber apoio técnico"},
+        {"id": "c", "text": "pode ser substituído por comissão de contratação com no mínimo três membros"},
+        {"id": "d", "text": "é substituído automaticamente por qualquer fiscal de contrato"},
+        {"id": "e", "text": "deixa de observar os requisitos do art. 7º"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 8º, § 2º, permite, mas não impõe, comissão de ao menos três membros para bens ou serviços especiais, mantidos os requisitos do art. 7º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1455",
+      "revision": 1,
+      "prompt": "Um membro de comissão afasta a responsabilidade solidária por decisão da qual discordou quando",
+      "options": [
+        {"id": "a", "text": "comenta informalmente a discordância após o contrato"},
+        {"id": "b", "text": "se ausenta sem justificativa da reunião"},
+        {"id": "c", "text": "comunica verbalmente a um colega, sem registro"},
+        {"id": "d", "text": "declara que não leu o processo"},
+        {"id": "e", "text": "expressa posição individual fundamentada e a registra na ata da reunião da decisão"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A ressalva legal exige divergência individual, fundamentada e registrada em ata na reunião em que a decisão foi tomada; oposição informal, tardia ou sem fundamento não atende à regra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1456",
+      "revision": 1,
+      "prompt": "Na modalidade pregão, o agente responsável pela condução do certame é designado",
+      "options": [
+        {"id": "a", "text": "fiscal técnico"},
+        {"id": "b", "text": "ordenador de despesas"},
+        {"id": "c", "text": "pregoeiro"},
+        {"id": "d", "text": "leiloeiro em qualquer hipótese"},
+        {"id": "e", "text": "gestor do contrato"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 8º, § 5º, usa a designação pregoeiro para o agente que conduz o pregão; fiscais e gestores atuam na execução, e leiloeiro se relaciona a outra modalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1457",
+      "revision": 1,
+      "prompt": "Em objeto especial não rotineiramente contratado, a Administração pode",
+      "options": [
+        {"id": "a", "text": "transferir toda decisão a um licitante"},
+        {"id": "b", "text": "eliminar a comissão sem motivação"},
+        {"id": "c", "text": "dispensar os requisitos dos agentes"},
+        {"id": "d", "text": "contratar por prazo determinado empresa ou profissional especializado para assessorar os agentes"},
+        {"id": "e", "text": "permitir ao assessor homologar o certame"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 8º, § 4º, admite assessor especializado temporário nesse contexto. O apoio não transfere atribuição exclusiva, não afasta requisitos nem transforma o assessor em homologador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1458",
+      "revision": 1,
+      "prompt": "O Decreto nº 11.246/2022",
+      "options": [
+        {"id": "a", "text": "define automaticamente a organização interna de todo tribunal estadual"},
+        {"id": "b", "text": "regulamenta agentes no âmbito federal direto, autárquico e fundacional, sem aplicação automática ao TCE-MA"},
+        {"id": "c", "text": "revoga os arts. 7º a 10 da Lei nº 14.133/2021"},
+        {"id": "d", "text": "aplica-se exclusivamente a empresas estatais"},
+        {"id": "e", "text": "é lei nacional aprovada pelo Congresso"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O decreto é regulamento do Executivo federal para sua Administração direta, autárquica e fundacional; serve como referência, mas não substitui regras estaduais e internas aplicáveis ao TCE-MA. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1459",
+      "revision": 1,
+      "prompt": "Sem previsão legal e sem relação com o objeto, um edital concede pontuação adicional a empresas sediadas no Maranhão. Essa cláusula",
+      "options": [
+        {"id": "a", "text": "é válida porque todo ente pode criar preferência territorial por edital"},
+        {"id": "b", "text": "viola a vedação de preferência por sede ou domicílio e restringe indevidamente a competição"},
+        {"id": "c", "text": "é válida desde que a pontuação seja divulgada antes da sessão"},
+        {"id": "d", "text": "só seria inválida em licitação presencial"},
+        {"id": "e", "text": "é medida obrigatória de desenvolvimento nacional sustentável"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 9º veda preferência ou distinção por naturalidade, sede ou domicílio, salvo previsão legal. Divulgação prévia, forma eletrônica ou invocação genérica de sustentabilidade não tornam válida a restrição territorial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1460",
+      "revision": 1,
+      "prompt": "As vedações do art. 9º alcançam",
+      "options": [
+        {"id": "a", "text": "somente a autoridade máxima"},
+        {"id": "b", "text": "apenas o agente de contratação efetivo"},
+        {"id": "c", "text": "somente os licitantes estrangeiros"},
+        {"id": "d", "text": "também terceiros auxiliares, como equipe de apoio, especialista e representante de assessoria técnica"},
+        {"id": "e", "text": "apenas quem assina o contrato"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 9º, § 2º, estende as vedações a terceiros que auxiliem a condução, evitando que restrições e conflitos sejam contornados pela terceirização do apoio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1461",
+      "revision": 1,
+      "prompt": "O agente público do órgão licitante ou contratante",
+      "options": [
+        {"id": "a", "text": "não pode participar direta ou indiretamente da licitação nem da execução do contrato"},
+        {"id": "b", "text": "pode disputar se estiver de férias"},
+        {"id": "c", "text": "pode executar o contrato por empresa familiar sem declarar conflito"},
+        {"id": "d", "text": "só fica impedido durante a sessão pública"},
+        {"id": "e", "text": "pode participar se a proposta for a menor"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 9º, § 1º, veda participação direta ou indireta e manda observar conflitos durante ou após o cargo; férias, preço ou interposição familiar não eliminam a vedação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1462",
+      "revision": 1,
+      "prompt": "A representação prevista no art. 10 depende de o ato questionado ter sido praticado",
+      "options": [
+        {"id": "a", "text": "sem qualquer orientação jurídica"},
+        {"id": "b", "text": "antes da designação do agente"},
+        {"id": "c", "text": "com estrita observância de orientação em parecer jurídico elaborado na forma legal"},
+        {"id": "d", "text": "em benefício pessoal do servidor"},
+        {"id": "e", "text": "sob sigilo absoluto"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A defesa institucional está vinculada à estrita observância do parecer do art. 53, § 1º, e à necessidade de defesa administrativa, controladora ou judicial; não é proteção genérica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1463",
+      "revision": 1,
+      "prompt": "A regra de representação do art. 10",
+      "options": [
+        {"id": "a", "text": "protege ato doloso sempre que houver parecer"},
+        {"id": "b", "text": "cessa automaticamente com a exoneração"},
+        {"id": "c", "text": "cria imunidade contra órgãos de controle"},
+        {"id": "d", "text": "é obrigatória mesmo contra a vontade do agente"},
+        {"id": "e", "text": "não se aplica com prova de ilícito doloso nos autos e pode alcançar ex-agente"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A lei exclui a representação diante de prova de ilícito doloso nos autos, admite sua continuidade após a saída do cargo e a condiciona ao critério do agente; não há imunidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1464",
+      "revision": 1,
+      "prompt": "Ao estruturar uma licitação, a Administração escolhe a solução de menor preço inicial sem examinar custos do ciclo de vida e restringe a disputa para favorecer fornecedor conhecido. Essa conduta contraria, entre outros, o objetivo de",
+      "options": [
+        {"id": "a", "text": "priorizar o fornecedor com maior tempo de mercado"},
+        {"id": "b", "text": "dispensar a análise de vantajosidade quando houver menor preço"},
+        {"id": "c", "text": "assegurar resultado vantajoso, isonomia e justa competição"},
+        {"id": "d", "text": "preservar formalidades mesmo sem impacto no resultado"},
+        {"id": "e", "text": "transferir a governança das contratações ao fornecedor"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 11 exige resultado mais vantajoso, inclusive pelo ciclo de vida, além de isonomia e justa competição. Menor preço inicial e familiaridade com fornecedor não afastam esses objetivos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1465",
+      "revision": 1,
+      "prompt": "A proposta apta a gerar resultado mais vantajoso deve ser avaliada",
+      "options": [
+        {"id": "a", "text": "somente pelo preço de aquisição"},
+        {"id": "b", "text": "inclusive quanto ao ciclo de vida do objeto"},
+        {"id": "c", "text": "apenas pela proximidade do fornecedor"},
+        {"id": "d", "text": "sem considerar qualidade ou risco"},
+        {"id": "e", "text": "pela preferência subjetiva da autoridade"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 11, I, menciona expressamente o ciclo de vida. Vantajosidade não se reduz ao preço inicial nem autoriza preferência geográfica ou subjetiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1466",
+      "revision": 1,
+      "prompt": "A distinção correta entre sobrepreço e superfaturamento é",
+      "options": [
+        {"id": "a", "text": "ambos existem somente após decisão judicial"},
+        {"id": "b", "text": "sobrepreço exige pagamento, e superfaturamento nunca gera dano"},
+        {"id": "c", "text": "são sinônimos sem consequência prática"},
+        {"id": "d", "text": "superfaturamento é apenas preço estimado alto"},
+        {"id": "e", "text": "sobrepreço é preço expressivamente acima da referência; superfaturamento envolve dano patrimonial na execução"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Sobrepreço caracteriza distorção do orçamento ou preço contratado; superfaturamento pressupõe dano, como pagamento por quantidade não executada ou redução lesiva de qualidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1467",
+      "revision": 1,
+      "prompt": "A governança das contratações é responsabilidade",
+      "options": [
+        {"id": "a", "text": "da alta administração, que deve avaliar, direcionar e monitorar por processos, riscos e controles"},
+        {"id": "b", "text": "exclusiva do fornecedor vencedor"},
+        {"id": "c", "text": "somente da equipe de apoio"},
+        {"id": "d", "text": "apenas do controle externo"},
+        {"id": "e", "text": "de cada licitante em igualdade de proporção"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O parágrafo único do art. 11 atribui a governança à alta administração, incluindo estruturas de riscos, controles, integridade e alinhamento estratégico e orçamentário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1468",
+      "revision": 1,
+      "prompt": "Uma declaração apresentada pelo licitante contém falha de numeração de página, mas seu conteúdo, sua autoria, a qualificação e a proposta permanecem plenamente compreensíveis. A comissão pretende excluí-lo automaticamente. Segundo o art. 12,",
+      "options": [
+        {"id": "a", "text": "qualquer falha formal exige exclusão, ainda que irrelevante"},
+        {"id": "b", "text": "a falha permite ao licitante reformular o conteúdo substancial da proposta"},
+        {"id": "c", "text": "a comissão deve aceitar a falha apenas para o primeiro colocado"},
+        {"id": "d", "text": "a falha meramente formal não afasta o licitante nem invalida o processo, sem dispensar motivação e tratamento isonômico"},
+        {"id": "e", "text": "o saneamento independe de registro porque não altera o julgamento"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 12, III, adota formalismo moderado para falha irrelevante que não comprometa qualificação ou compreensão. Isso não permite mudar a substância, aplicar critério desigual ou omitir a motivação do saneamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1469",
+      "revision": 1,
+      "prompt": "A autenticidade de cópia de documento pode ser comprovada",
+      "options": [
+        {"id": "a", "text": "somente por cartório, sem exceção"},
+        {"id": "b", "text": "apenas pelo licitante vencedor após o contrato"},
+        {"id": "c", "text": "por declaração anônima"},
+        {"id": "d", "text": "por simples ausência de impugnação"},
+        {"id": "e", "text": "perante agente com apresentação do original ou por declaração de advogado sob responsabilidade pessoal"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 12, IV, admite essas duas formas. A lei não exige cartório em toda situação nem aceita anonimato ou silêncio como prova autônoma. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1470",
+      "revision": 1,
+      "prompt": "O reconhecimento de firma em documento do processo licitatório",
+      "options": [
+        {"id": "a", "text": "é obrigatório para todo documento"},
+        {"id": "b", "text": "é proibido mesmo se a lei o impuser"},
+        {"id": "c", "text": "depende da concordância do concorrente"},
+        {"id": "d", "text": "somente será exigido diante de dúvida de autenticidade, salvo imposição legal"},
+        {"id": "e", "text": "substitui a assinatura do responsável"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 12, V, restringe a exigência à dúvida de autenticidade, ressalvada imposição legal; reconhecimento não substitui assinatura nem depende da vontade do concorrente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1471",
+      "revision": 1,
+      "prompt": "Sobre o plano de contratações anual no art. 12, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "é proibido aos Estados"},
+        {"id": "b", "text": "só existe depois da execução contratual"},
+        {"id": "c", "text": "pode ser elaborado conforme regulamento e, quando elaborado, deve ser divulgado e observado"},
+        {"id": "d", "text": "é sigiloso por natureza"},
+        {"id": "e", "text": "dispensa alinhamento estratégico"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O inciso VII usa 'poderão'; o § 1º exige que o plano elaborado seja divulgado, mantido disponível e observado. Ele busca racionalização e alinhamento, não sigilo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1472",
+      "revision": 1,
+      "prompt": "A publicidade do conteúdo das propostas é",
+      "options": [
+        {"id": "a", "text": "proibida em definitivo"},
+        {"id": "b", "text": "diferida até a respectiva abertura"},
+        {"id": "c", "text": "obrigatória antes da entrega"},
+        {"id": "d", "text": "facultada ao licitante vencedor"},
+        {"id": "e", "text": "substituída por sigilo comercial eterno"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 13 mantém publicidade como regra e posterga o acesso ao conteúdo das propostas até sua abertura; diferimento não é supressão definitiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1473",
+      "revision": 1,
+      "prompt": "A respeito do orçamento da Administração, o art. 13 estabelece que sua publicidade",
+      "options": [
+        {"id": "a", "text": "pode ser diferida nos termos do art. 24, não sendo o sigilo automático em toda licitação"},
+        {"id": "b", "text": "é proibida para sempre"},
+        {"id": "c", "text": "depende exclusivamente do fornecedor"},
+        {"id": "d", "text": "ocorre necessariamente antes da fase preparatória"},
+        {"id": "e", "text": "não admite disciplina legal específica"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 13 remete o diferimento do orçamento ao art. 24. Não há sigilo universal, escolha do fornecedor ou proibição definitiva de acesso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1474",
+      "revision": 1,
+      "prompt": "A empresa Alfa elaborou o projeto básico da contratação. A empresa Beta, integrante do mesmo grupo econômico, pretende disputar a licitação alegando possuir personalidade jurídica própria. Nos termos do art. 14, § 3º,",
+      "options": [
+        {"id": "a", "text": "Beta pode disputar porque o impedimento nunca alcança pessoa jurídica distinta"},
+        {"id": "b", "text": "Beta só fica impedida se Alfa também apresentar proposta no mesmo certame"},
+        {"id": "c", "text": "o edital pode afastar a regra sem motivação porque o projeto já foi entregue"},
+        {"id": "d", "text": "o impedimento depende exclusivamente de condenação judicial por fraude"},
+        {"id": "e", "text": "Beta equipara-se ao autor do projeto, pois integra o mesmo grupo econômico"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 14, § 3º, equipara aos autores do projeto as empresas do mesmo grupo econômico. Personalidade jurídica distinta ou ausência de proposta da autora não elimina essa equiparação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1475",
+      "revision": 1,
+      "prompt": "O autor do projeto relacionado ao objeto pode",
+      "options": [
+        {"id": "a", "text": "apoiar atividades exclusivamente a serviço da Administração e sob supervisão exclusiva de agentes públicos"},
+        {"id": "b", "text": "disputar livremente a licitação sem observar impedimento"},
+        {"id": "c", "text": "definir sozinho o vencedor"},
+        {"id": "d", "text": "atuar simultaneamente para todos os licitantes"},
+        {"id": "e", "text": "substituir a autoridade competente"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 14, § 2º, admite apoio delimitado, a critério da Administração, exclusivamente a seu serviço e sob supervisão pública; não libera disputa ou competência decisória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1476",
+      "revision": 1,
+      "prompt": "O edital silencia sobre consórcios, e uma interessada apresenta compromisso de constituição, sem registrar definitivamente o consórcio antes da proposta. A Administração deve considerar que",
+      "options": [
+        {"id": "a", "text": "o silêncio equivale a proibição absoluta de consórcios"},
+        {"id": "b", "text": "a participação é admitida salvo vedação justificada, e o vencedor constitui e registra o consórcio antes do contrato"},
+        {"id": "c", "text": "somente consórcio definitivamente registrado antes da proposta pode disputar"},
+        {"id": "d", "text": "o compromisso elimina a responsabilidade solidária dos integrantes"},
+        {"id": "e", "text": "cada consorciado pode também concorrer isoladamente no mesmo certame"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 15 admite consórcio salvo vedação motivada. Na disputa basta o compromisso; o vencedor constitui e registra antes do contrato, os integrantes respondem solidariamente e não concorrem também isoladamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1477",
+      "revision": 1,
+      "prompt": "Na habilitação econômico-financeira de consórcio, o edital",
+      "options": [
+        {"id": "a", "text": "deve reduzir 50% do valor exigido individualmente"},
+        {"id": "b", "text": "não pode somar valores dos integrantes"},
+        {"id": "c", "text": "exige sempre o dobro, sem justificativa"},
+        {"id": "d", "text": "dispensa qualquer capacidade financeira"},
+        {"id": "e", "text": "estabelece acréscimo de 10% a 30%, salvo justificação, sem aplicá-lo a consórcio integralmente de ME/EPP"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 15 soma os valores dos consorciados e prevê acréscimo de 10% a 30% sobre a exigência individual, salvo justificação, excetuando consórcios integralmente de ME/EPP. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1478",
+      "revision": 1,
+      "prompt": "Uma cooperativa legalmente constituída demonstra regime cooperado, aceita que qualquer cooperado igualmente qualificado execute o objeto e oferece serviço especializado compatível com seu objeto social. O edital a exclui apenas por sua natureza cooperativa. A solução correta é",
+      "options": [
+        {"id": "a", "text": "manter a exclusão, pois cooperativas são sempre incompatíveis com licitações"},
+        {"id": "b", "text": "admitir apenas se a Administração indicar nominalmente os cooperados executores"},
+        {"id": "c", "text": "afastar a exclusão automática e verificar cumulativamente os requisitos legais de funcionamento, regime, execução e objeto"},
+        {"id": "d", "text": "dispensar a comprovação do regime cooperado por haver compatibilidade do objeto"},
+        {"id": "e", "text": "exigir que a cooperativa substitua a equipe de apoio do órgão"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 16 admite cooperativas quando os requisitos cumulativos são satisfeitos e impede indicação nominal de cooperados pela Administração. A natureza cooperativa não justifica exclusão automática nem dispensa as comprovações legais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1479",
+      "revision": 1,
+      "prompt": "Na sequência ordinária do art. 17, após o julgamento ocorre a fase de",
+      "options": [
+        {"id": "a", "text": "planejamento estratégico"},
+        {"id": "b", "text": "habilitação"},
+        {"id": "c", "text": "execução contratual"},
+        {"id": "d", "text": "pagamento"},
+        {"id": "e", "text": "recebimento definitivo"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A ordem é preparatória, divulgação, propostas/lances, julgamento, habilitação, recursal e homologação; execução, recebimento e pagamento são posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1480",
+      "revision": 1,
+      "prompt": "Um edital coloca a habilitação antes das propostas e do julgamento. Embora a inversão conste do instrumento, o processo não contém ato motivado nem explicita seus benefícios. A inversão",
+      "options": [
+        {"id": "a", "text": "é válida porque a previsão no edital é requisito suficiente"},
+        {"id": "b", "text": "depende apenas da concordância dos licitantes na sessão"},
+        {"id": "c", "text": "é inválida sem ato motivado que explicite benefícios, além da previsão expressa no edital"},
+        {"id": "d", "text": "torna-se válida automaticamente se a licitação for presencial"},
+        {"id": "e", "text": "pode ser convalidada por autorização verbal da equipe de apoio"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 17, § 1º, exige cumulativamente ato motivado, benefícios explicitados e previsão expressa no edital. A previsão isolada não basta, e forma presencial ou concordância dos participantes não substituem a motivação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1481",
+      "revision": 1,
+      "prompt": "Por razões técnicas devidamente motivadas, a Administração decide realizar sessão presencial, mas propõe lavrar apenas a ata, sem gravação. Segundo o art. 17, § 2º, a sessão",
+      "options": [
+        {"id": "a", "text": "pode ocorrer apenas com ata, pois a motivação substitui a gravação"},
+        {"id": "b", "text": "é livre de documentação quando todos os licitantes concordarem"},
+        {"id": "c", "text": "deve ser cancelada porque a forma presencial é absolutamente proibida"},
+        {"id": "d", "text": "exige motivação, ata e gravação em áudio e vídeo, posteriormente juntada aos autos"},
+        {"id": "e", "text": "depende de tornar sigiloso o edital para preservar a competitividade"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A forma eletrônica é preferencial, mas a presencial é admitida se motivada. Nesse caso, ata e gravação audiovisual são cumulativas, e a gravação deve ser juntada aos autos após o encerramento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1482",
+      "revision": 1,
+      "prompt": "Na fase de julgamento, a Administração pode avaliar a conformidade da proposta do provisoriamente vencedor por amostra ou prova de conceito",
+      "options": [
+        {"id": "a", "text": "desde que isso esteja previsto no edital"},
+        {"id": "b", "text": "somente depois de encerrado o contrato"},
+        {"id": "c", "text": "sem relação com especificações do objeto"},
+        {"id": "d", "text": "apenas em processo presencial"},
+        {"id": "e", "text": "para permitir mudança substancial da proposta"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 17, § 3º, exige previsão editalícia e vincula o teste à aderência da proposta às especificações; não depende da forma presencial nem permite reformulação substancial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1483",
+      "revision": 1,
+      "prompt": "Nos termos do art. 17, § 6º, a Administração pode exigir",
+      "options": [
+        {"id": "a", "text": "certificação emitida por qualquer licitante concorrente"},
+        {"id": "b", "text": "certificação sem relação com o objeto"},
+        {"id": "c", "text": "aprovação pessoal do agente sem critérios"},
+        {"id": "d", "text": "laudo estrangeiro sem verificar acreditação"},
+        {"id": "e", "text": "certificação por organização independente acreditada pelo Inmetro nas hipóteses legais"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A lei admite certificação independente acreditada pelo Inmetro para estudos/projetos, conclusão de fases ou objetos e material ou corpo técnico de habilitação, com pertinência e proporcionalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
