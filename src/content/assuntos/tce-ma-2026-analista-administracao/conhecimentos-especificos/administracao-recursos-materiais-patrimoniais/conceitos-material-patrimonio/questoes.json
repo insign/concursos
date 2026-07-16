@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q984",
+      "revision": 1,
+      "prompt": "Na administração de recursos materiais, o termo material",
+      "options": [
+        {"id": "a", "text": "é categoria ampla que pode abranger consumo, equipamentos, componentes, veículos e outros itens empregados na atividade"},
+        {"id": "b", "text": "designa somente itens descartáveis mantidos em almoxarifado"},
+        {"id": "c", "text": "exclui equipamentos e peças de reposição"},
+        {"id": "d", "text": "é sinônimo necessário de ativo imobilizado"},
+        {"id": "e", "text": "alcança apenas bens comprados, nunca os recebidos por doação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Material é designação administrativa ampla e não se limita a itens de consumo ou à forma de ingresso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q985",
+      "revision": 1,
+      "prompt": "Um objetivo central da administração de materiais e patrimônio é",
+      "options": [
+        {"id": "a", "text": "maximizar estoques independentemente da demanda"},
+        {"id": "b", "text": "assegurar recursos adequados no momento e local necessários, evitando falta e excesso"},
+        {"id": "c", "text": "substituir o controle contábil pelo controle físico"},
+        {"id": "d", "text": "eliminar toda manutenção para reduzir despesas imediatas"},
+        {"id": "e", "text": "concentrar-se exclusivamente no preço de compra"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A gestão busca disponibilidade e continuidade com economicidade, evitando ruptura, excesso, desperdício e imobilização desnecessária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q986",
+      "revision": 1,
+      "prompt": "Patrimônio e patrimônio líquido",
+      "options": [
+        {"id": "a", "text": "são expressões sempre idênticas"},
+        {"id": "b", "text": "abrangem somente bens corpóreos"},
+        {"id": "c", "text": "não se confundem, pois o patrimônio líquido é o residual dos ativos após a dedução dos passivos"},
+        {"id": "d", "text": "excluem direitos e obrigações"},
+        {"id": "e", "text": "só existem em empresas privadas"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Patrimônio é conceito amplo; patrimônio líquido é o valor residual da equação patrimonial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q987",
+      "revision": 1,
+      "prompt": "Para a noção contábil de ativo, é relevante",
+      "options": [
+        {"id": "a", "text": "somente a existência de objeto físico"},
+        {"id": "b", "text": "exclusivamente a propriedade formal registrada"},
+        {"id": "c", "text": "apenas a geração imediata de caixa"},
+        {"id": "d", "text": "o controle presente de recurso decorrente de evento passado, com benefício ou potencial de serviços"},
+        {"id": "e", "text": "a inexistência de qualquer obrigação associada"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ativo é recurso controlado, e no setor público pode gerar potencial de serviços mesmo sem lucro ou caixa direto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q988",
+      "revision": 1,
+      "prompt": "Passivo corresponde, em essência, a",
+      "options": [
+        {"id": "a", "text": "todo bem móvel mantido pela entidade"},
+        {"id": "b", "text": "qualquer gasto já pago e encerrado"},
+        {"id": "c", "text": "apenas dívida bancária de longo prazo"},
+        {"id": "d", "text": "diferença positiva entre receita e despesa"},
+        {"id": "e", "text": "obrigação presente decorrente de evento passado"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Passivo é obrigação presente, não apenas dívida bancária, cuja extinção exige ou pode exigir saída de recursos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q989",
+      "revision": 1,
+      "prompt": "A equação simplificada do patrimônio líquido é",
+      "options": [
+        {"id": "a", "text": "ativos menos passivos"},
+        {"id": "b", "text": "ativos mais passivos"},
+        {"id": "c", "text": "receitas menos estoques"},
+        {"id": "d", "text": "bens menos direitos"},
+        {"id": "e", "text": "caixa mais obrigações"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O patrimônio líquido é o residual após deduzir os passivos dos ativos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q990",
+      "revision": 1,
+      "prompt": "No setor público, um recurso pode ser ativo mesmo sem gerar lucro porque",
+      "options": [
+        {"id": "a", "text": "todo gasto público se transforma automaticamente em ativo"},
+        {"id": "b", "text": "pode possuir potencial de serviços à sociedade"},
+        {"id": "c", "text": "o setor público não possui passivos"},
+        {"id": "d", "text": "bens públicos não precisam ser controlados"},
+        {"id": "e", "text": "a contabilidade pública ignora eventos passados"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A capacidade de prestar serviços públicos é relevante para o conceito de recurso, ainda que não haja retorno financeiro direto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q991",
+      "revision": 1,
+      "prompt": "Para efeito de classificação da despesa, segundo o art. 15, § 2º, da Lei nº 4.320/1964, material permanente é o de",
+      "options": [
+        {"id": "a", "text": "valor superior a dois salários mínimos"},
+        {"id": "b", "text": "uso exclusivo por servidor"},
+        {"id": "c", "text": "duração superior a dois anos"},
+        {"id": "d", "text": "aquisição obrigatória por licitação"},
+        {"id": "e", "text": "registro apenas em almoxarifado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Para efeito de classificação da despesa, a Lei nº 4.320/1964 estabelece o marco de duração superior a dois anos; outras dimensões administrativas, patrimoniais e contábeis observam também as regras aplicáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q992",
+      "revision": 1,
+      "prompt": "Um material de consumo mantido no almoxarifado",
+      "options": [
+        {"id": "a", "text": "não exige registro por não ser permanente"},
+        {"id": "b", "text": "deve receber tombamento individual em todos os casos"},
+        {"id": "c", "text": "deixa de ser material antes de distribuído"},
+        {"id": "d", "text": "pode compor estoque e exige controle enquanto estiver sob guarda da entidade"},
+        {"id": "e", "text": "é automaticamente bem de uso comum do povo"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A natureza de consumo não elimina o controle; antes da distribuição, o item pode permanecer registrado como estoque. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q993",
+      "revision": 1,
+      "prompt": "Bem consumível no Código Civil e material de consumo administrativo",
+      "options": [
+        {"id": "a", "text": "são categorias sempre coincidentes"},
+        {"id": "b", "text": "dependem apenas do preço"},
+        {"id": "c", "text": "são definidos pela existência de plaqueta"},
+        {"id": "d", "text": "só se aplicam a empresas"},
+        {"id": "e", "text": "pertencem a planos classificatórios distintos e não devem ser equiparados automaticamente"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O conceito civil olha para destruição da substância ou destinação à alienação; a classificação administrativa considera critérios próprios de duração, uso e identidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q994",
+      "revision": 1,
+      "prompt": "O critério de fragilidade considera se o item",
+      "options": [
+        {"id": "a", "text": "é quebradiço ou deformável, com perda de identidade ou utilidade"},
+        {"id": "b", "text": "foi adquirido por doação"},
+        {"id": "c", "text": "é usado por mais de uma unidade"},
+        {"id": "d", "text": "possui número patrimonial"},
+        {"id": "e", "text": "foi pago à vista"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Fragilidade analisa a possibilidade de quebra ou deformação com perda da identidade ou funcionalidade do item. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q995",
+      "revision": 1,
+      "prompt": "Pelo critério de incorporabilidade, examina-se se o material",
+      "options": [
+        {"id": "a", "text": "foi registrado por valor estimado"},
+        {"id": "b", "text": "integra outro bem e não pode ser retirado sem prejuízo do principal"},
+        {"id": "c", "text": "é fornecido mediante requisição"},
+        {"id": "d", "text": "está localizado fora do almoxarifado"},
+        {"id": "e", "text": "gera receita própria"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Incorporabilidade se relaciona à integração física a outro bem e à inviabilidade de retirada sem prejuízo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q996",
+      "revision": 1,
+      "prompt": "Transformabilidade, como critério operacional, ocorre quando o item",
+      "options": [
+        {"id": "a", "text": "muda apenas de sala"},
+        {"id": "b", "text": "recebe nova etiqueta"},
+        {"id": "c", "text": "é adquirido para ser transformado em outro produto"},
+        {"id": "d", "text": "é inventariado anualmente"},
+        {"id": "e", "text": "é cedido a outra unidade"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O critério observa a finalidade de transformação do material, não sua movimentação ou identificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q997",
+      "revision": 1,
+      "prompt": "O critério operacional de durabilidade aponta para consumo quando o item",
+      "options": [
+        {"id": "a", "text": "possui garantia contratual"},
+        {"id": "b", "text": "foi comprado em lote"},
+        {"id": "c", "text": "é armazenado em estante"},
+        {"id": "d", "text": "perde ou reduz suas condições normais de funcionamento em até dois anos"},
+        {"id": "e", "text": "é usado por órgão público"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Durabilidade considera a perda ou redução das condições normais de funcionamento no horizonte definido pela referência aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q998",
+      "revision": 1,
+      "prompt": "A existência de plaqueta patrimonial em um objeto",
+      "options": [
+        {"id": "a", "text": "é o único critério legal de permanência"},
+        {"id": "b", "text": "dispensa registro contábil"},
+        {"id": "c", "text": "transforma automaticamente consumo em permanente"},
+        {"id": "d", "text": "prova propriedade privada do usuário"},
+        {"id": "e", "text": "é instrumento de identificação e não define, isoladamente, a natureza do material"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O tombamento materializa o controle individual, mas a classificação decorre dos critérios legais e administrativos aplicáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q999",
+      "revision": 1,
+      "prompt": "A Portaria STN nº 448/2002",
+      "options": [
+        {"id": "a", "text": "foi expressamente revogada pela Portaria STN nº 841/2021 e não deve ser apresentada como vigente"},
+        {"id": "b", "text": "é lei nacional ainda vigente"},
+        {"id": "c", "text": "substituiu a Lei nº 4.320/1964"},
+        {"id": "d", "text": "vincula automaticamente todos os tribunais estaduais"},
+        {"id": "e", "text": "define bens públicos no Código Civil"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A Portaria STN nº 841/2021, art. 2º, XLVIII, revogou expressamente a Portaria nº 448/2002 a partir de 1º de junho de 2021. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1000",
+      "revision": 1,
+      "prompt": "Crédito a receber que satisfaça os critérios contábeis pode ser",
+      "options": [
+        {"id": "a", "text": "apenas obrigação"},
+        {"id": "b", "text": "ativo, embora não seja bem físico"},
+        {"id": "c", "text": "sempre patrimônio líquido"},
+        {"id": "d", "text": "material permanente"},
+        {"id": "e", "text": "bem de uso comum"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ativos podem ser incorpóreos; um direito controlado com benefícios ou potencial de serviços pode satisfazer o conceito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1001",
+      "revision": 1,
+      "prompt": "A relação entre material e ativo é corretamente descrita por",
+      "options": [
+        {"id": "a", "text": "todo material distribuído deixa de exigir qualquer controle"},
+        {"id": "b", "text": "todo ativo é necessariamente material corpóreo"},
+        {"id": "c", "text": "material é categoria administrativa, enquanto ativo depende dos critérios contábeis de recurso controlado"},
+        {"id": "d", "text": "material e ativo são sempre sinônimos"},
+        {"id": "e", "text": "nenhum estoque pode ser ativo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "As categorias possuem finalidades distintas: a administrativa organiza materiais; a contábil reconhece recursos conforme critérios próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1002",
+      "revision": 1,
+      "prompt": "Universalidade de fato, segundo o Código Civil, é",
+      "options": [
+        {"id": "a", "text": "todo conjunto de obrigações sem valor econômico"},
+        {"id": "b", "text": "um único bem considerado isoladamente"},
+        {"id": "c", "text": "qualquer imóvel incorporado ao solo"},
+        {"id": "d", "text": "a pluralidade de bens singulares da mesma pessoa com destinação unitária"},
+        {"id": "e", "text": "somente o patrimônio líquido de uma empresa"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 90 do Código Civil define universalidade de fato pela reunião de bens singulares pertencentes à mesma pessoa e destinados unitariamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1003",
+      "revision": 1,
+      "prompt": "Bem móvel fungível é aquele que",
+      "options": [
+        {"id": "a", "text": "não pode ser removido sem destruição"},
+        {"id": "b", "text": "pertence necessariamente ao poder público"},
+        {"id": "c", "text": "é sempre consumido imediatamente"},
+        {"id": "d", "text": "forma obrigatoriamente universalidade de direito"},
+        {"id": "e", "text": "pode ser substituído por outro da mesma espécie, qualidade e quantidade"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 85 do Código Civil define como fungíveis os móveis substituíveis por outros da mesma espécie, qualidade e quantidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1004",
+      "revision": 1,
+      "prompt": "Uma dívida presente com fornecedor, decorrente de entrega passada, tende a representar",
+      "options": [
+        {"id": "a", "text": "passivo"},
+        {"id": "b", "text": "bem de uso especial"},
+        {"id": "c", "text": "material de consumo"},
+        {"id": "d", "text": "ativo imobilizado"},
+        {"id": "e", "text": "patrimônio líquido positivo"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A obrigação presente originada de evento passado corresponde à noção de passivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1005",
+      "revision": 1,
+      "prompt": "Se os passivos superarem os ativos, o patrimônio líquido simplificado será",
+      "options": [
+        {"id": "a", "text": "necessariamente nulo"},
+        {"id": "b", "text": "negativo"},
+        {"id": "c", "text": "igual ao total dos bens móveis"},
+        {"id": "d", "text": "positivo por definição"},
+        {"id": "e", "text": "inexistente porque há passivos"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pela equação ativos menos passivos, obrigações superiores aos recursos produzem situação líquida negativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1006",
+      "revision": 1,
+      "prompt": "Uma diferença relevante entre foco empresarial e público é que",
+      "options": [
+        {"id": "a", "text": "o setor público não administra patrimônio"},
+        {"id": "b", "text": "empresas não possuem obrigações"},
+        {"id": "c", "text": "ativos públicos podem ser mantidos principalmente por seu potencial de prestar serviços"},
+        {"id": "d", "text": "apenas empresas registram bens"},
+        {"id": "e", "text": "o setor público não realiza inventário"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "No setor público, o potencial de serviços é central para recursos destinados à finalidade coletiva, mesmo sem retorno financeiro direto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1007",
+      "revision": 1,
+      "prompt": "Praças, ruas e estradas são exemplos típicos de bens",
+      "options": [
+        {"id": "a", "text": "dominicais"},
+        {"id": "b", "text": "particulares afetados"},
+        {"id": "c", "text": "de consumo"},
+        {"id": "d", "text": "de uso comum do povo"},
+        {"id": "e", "text": "imateriais"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 99, I, do Código Civil inclui estradas, ruas e praças entre os bens de uso comum do povo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1008",
+      "revision": 1,
+      "prompt": "Um prédio público pertencente a pessoa jurídica de direito público e destinado ao funcionamento de uma repartição é, tipicamente, bem",
+      "options": [
+        {"id": "a", "text": "de uso comum do povo"},
+        {"id": "b", "text": "consumível"},
+        {"id": "c", "text": "dominical sem afetação"},
+        {"id": "d", "text": "particular por ser usado por servidores"},
+        {"id": "e", "text": "de uso especial"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Bens destinados a serviço ou estabelecimento da Administração são de uso especial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1009",
+      "revision": 1,
+      "prompt": "Terreno pertencente a pessoa jurídica de direito público e sem afetação específica pode ser bem",
+      "options": [
+        {"id": "a", "text": "dominical"},
+        {"id": "b", "text": "de consumo imediato"},
+        {"id": "c", "text": "de uso comum necessariamente"},
+        {"id": "d", "text": "particular do gestor"},
+        {"id": "e", "text": "imune a qualquer forma de alienação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bens dominicais integram o patrimônio público sem a afetação típica ao uso comum ou especial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1010",
+      "revision": 1,
+      "prompt": "Bens públicos de uso comum do povo e de uso especial são",
+      "options": [
+        {"id": "a", "text": "sempre alienáveis sem condição"},
+        {"id": "b", "text": "inalienáveis enquanto conservarem sua qualificação, na forma da lei"},
+        {"id": "c", "text": "sujeitos a usucapião após cinco anos"},
+        {"id": "d", "text": "necessariamente gratuitos em qualquer uso"},
+        {"id": "e", "text": "bens privados da Administração"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 100 do Código Civil condiciona a inalienabilidade à manutenção da qualificação de uso comum ou especial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1011",
+      "revision": 1,
+      "prompt": "Os bens públicos dominicais",
+      "options": [
+        {"id": "a", "text": "deixam de ser públicos"},
+        {"id": "b", "text": "são sempre inalienáveis"},
+        {"id": "c", "text": "podem ser alienados, observadas as exigências legais"},
+        {"id": "d", "text": "são adquiridos por usucapião"},
+        {"id": "e", "text": "só podem ser bens móveis"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O Código Civil admite a alienação de dominicais conforme a lei, sem retirar sua natureza pública antes do ato regular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1012",
+      "revision": 1,
+      "prompt": "Quanto à usucapião, o Código Civil estabelece que os bens públicos",
+      "options": [
+        {"id": "a", "text": "podem ser usucapidos se dominicais"},
+        {"id": "b", "text": "podem ser usucapidos se móveis"},
+        {"id": "c", "text": "dependem apenas de autorização administrativa"},
+        {"id": "d", "text": "não estão sujeitos a usucapião"},
+        {"id": "e", "text": "só são protegidos durante o uso especial"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 102 do Código Civil exclui os bens públicos da aquisição por usucapião, sem ressalva para dominicais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1013",
+      "revision": 1,
+      "prompt": "O uso comum dos bens públicos",
+      "options": [
+        {"id": "a", "text": "deve ser sempre remunerado"},
+        {"id": "b", "text": "deve ser sempre gratuito"},
+        {"id": "c", "text": "transforma o bem em particular"},
+        {"id": "d", "text": "dispensa qualquer disciplina legal"},
+        {"id": "e", "text": "pode ser gratuito ou remunerado conforme a lei da entidade competente"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 103 do Código Civil admite gratuidade ou retribuição, conforme estabelecido legalmente pela entidade competente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1014",
+      "revision": 1,
+      "prompt": "A afirmação correta sobre bem dominical é",
+      "options": [
+        {"id": "a", "text": "continua sendo público, embora possa ser alienado com observância das exigências legais"},
+        {"id": "b", "text": "é automaticamente propriedade privada do ocupante"},
+        {"id": "c", "text": "é necessariamente uma praça"},
+        {"id": "d", "text": "não integra o patrimônio público"},
+        {"id": "e", "text": "é sinônimo de material permanente"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A categoria dominical pertence ao patrimônio das pessoas jurídicas de direito público; alienabilidade condicionada não elimina sua natureza pública. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1015",
+      "revision": 1,
+      "prompt": "A Lei nº 4.320/1964 determina, no art. 83, que a contabilidade evidencie a situação de quem",
+      "options": [
+        {"id": "a", "text": "somente autoriza licitações"},
+        {"id": "b", "text": "arrecada, despende, administra ou guarda bens públicos"},
+        {"id": "c", "text": "apenas elabora o orçamento"},
+        {"id": "d", "text": "usa bem particular fora do serviço"},
+        {"id": "e", "text": "somente exerce cargo político"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 83 conecta evidenciação contábil às pessoas que arrecadam, despendem, administram ou guardam bens públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1016",
+      "revision": 1,
+      "prompt": "Segundo o art. 94 da Lei nº 4.320/1964, os bens permanentes devem possuir",
+      "options": [
+        {"id": "a", "text": "apenas registro sintético sem responsável"},
+        {"id": "b", "text": "controle exclusivamente pelo fornecedor"},
+        {"id": "c", "text": "registros analíticos com caracterização e indicação dos agentes responsáveis pela guarda e administração"},
+        {"id": "d", "text": "registro somente depois da alienação"},
+        {"id": "e", "text": "controle facultativo quando em uso"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A lei exige registro analítico dos permanentes e identificação de quem responde por sua guarda e administração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1017",
+      "revision": 1,
+      "prompt": "O art. 95 da Lei nº 4.320/1964 prevê registros sintéticos de",
+      "options": [
+        {"id": "a", "text": "somente materiais consumidos"},
+        {"id": "b", "text": "apenas direitos incorpóreos"},
+        {"id": "c", "text": "somente bens dominicais"},
+        {"id": "d", "text": "bens móveis e imóveis"},
+        {"id": "e", "text": "apenas bens recebidos por compra"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A escrituração sintética abrange bens móveis e imóveis, complementando os controles analíticos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1018",
+      "revision": 1,
+      "prompt": "O levantamento geral dos bens móveis e imóveis, conforme o art. 96 da Lei nº 4.320/1964, baseia-se",
+      "options": [
+        {"id": "a", "text": "somente em estimativa verbal do gestor"},
+        {"id": "b", "text": "apenas nas notas fiscais do exercício"},
+        {"id": "c", "text": "exclusivamente no relatório de compras"},
+        {"id": "d", "text": "na ausência de conferência física"},
+        {"id": "e", "text": "no inventário analítico de cada unidade e na escrituração sintética contábil"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A lei articula inventário analítico das unidades com os registros sintéticos da contabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1019",
+      "revision": 1,
+      "prompt": "Segundo o art. 85 da Lei nº 4.320/1964, os serviços contábeis devem permitir",
+      "options": [
+        {"id": "a", "text": "conhecer a composição patrimonial"},
+        {"id": "b", "text": "dispensar o registro de bens"},
+        {"id": "c", "text": "eliminar inventários"},
+        {"id": "d", "text": "substituir o controle administrativo"},
+        {"id": "e", "text": "ocultar obrigações sem caixa"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A composição patrimonial deve ser conhecida por meio dos serviços de contabilidade organizados conforme a lei. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1020",
+      "revision": 1,
+      "prompt": "Controle físico e controle contábil do patrimônio",
+      "options": [
+        {"id": "a", "text": "são excludentes"},
+        {"id": "b", "text": "devem ser conciliados, pois divergências entre existência e registro exigem apuração"},
+        {"id": "c", "text": "só se relacionam em empresas privadas"},
+        {"id": "d", "text": "dispensam identificação de responsável"},
+        {"id": "e", "text": "tornam o inventário desnecessário"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A rastreabilidade depende da convergência entre realidade física, controles administrativos e escrituração contábil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1021",
+      "revision": 1,
+      "prompt": "No ciclo material, a primeira etapa lógica é",
+      "options": [
+        {"id": "a", "text": "baixar o bem"},
+        {"id": "b", "text": "realizar inventário de encerramento"},
+        {"id": "c", "text": "identificar e justificar a necessidade, verificando disponibilidade existente"},
+        {"id": "d", "text": "aceitar qualquer entrega"},
+        {"id": "e", "text": "atribuir plaqueta antes da aquisição"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A compra decorre de necessidade planejada; verificar estoque, bens ociosos e soluções disponíveis evita duplicidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1022",
+      "revision": 1,
+      "prompt": "A centralização de aquisições de itens comuns",
+      "options": [
+        {"id": "a", "text": "é proibida em qualquer organização"},
+        {"id": "b", "text": "elimina a necessidade de planejamento"},
+        {"id": "c", "text": "sempre aumenta custos"},
+        {"id": "d", "text": "pode favorecer escala, padronização e controle, conforme o desenho organizacional aplicável"},
+        {"id": "e", "text": "dispensa a verificação de estoque"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Centralização pode trazer economicidade e uniformidade, mas sua adoção deve respeitar competências, necessidades e contexto logístico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1023",
+      "revision": 1,
+      "prompt": "Na IN SEDAP nº 205/1988, o recebimento",
+      "options": [
+        {"id": "a", "text": "equivale à aceitação definitiva"},
+        {"id": "b", "text": "dispensa conferência"},
+        {"id": "c", "text": "ocorre somente após o uso"},
+        {"id": "d", "text": "é a baixa do estoque do fornecedor sem efeito de guarda"},
+        {"id": "e", "text": "é a entrega ao órgão e transfere a guarda, sem implicar aceitação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Receber transfere a responsabilidade pela guarda e conservação; aceitar exige verificar conformidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1024",
+      "revision": 1,
+      "prompt": "Aceitação do material é a operação que",
+      "options": [
+        {"id": "a", "text": "declara que o material recebido satisfaz às especificações contratadas"},
+        {"id": "b", "text": "substitui a entrega física"},
+        {"id": "c", "text": "atribui automaticamente carga a qualquer usuário"},
+        {"id": "d", "text": "elimina exame qualitativo quando necessário"},
+        {"id": "e", "text": "autoriza baixa patrimonial"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A aceitação resulta da conferência e, quando cabível, do exame qualitativo que confirmam a conformidade da entrega. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1025",
+      "revision": 1,
+      "prompt": "Armazenagem compreende",
+      "options": [
+        {"id": "a", "text": "somente a compra"},
+        {"id": "b", "text": "guarda, localização, segurança e preservação do material"},
+        {"id": "c", "text": "apenas o registro contábil"},
+        {"id": "d", "text": "somente o transporte externo"},
+        {"id": "e", "text": "a alienação de itens em uso"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Armazenar não é apenas guardar fisicamente; envolve localização, segurança e preservação até o atendimento da necessidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1026",
+      "revision": 1,
+      "prompt": "Distribuição é o processo de",
+      "options": [
+        {"id": "a", "text": "declarar a conformidade da entrega do fornecedor"},
+        {"id": "b", "text": "registrar dívida com fornecedor"},
+        {"id": "c", "text": "fazer o material chegar ao usuário em condições adequadas"},
+        {"id": "d", "text": "classificar juridicamente bem público"},
+        {"id": "e", "text": "retirar todo controle do item permanente"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Distribuição atende o usuário interno e deve preservar condição, quantidade, documentação e rastreabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1027",
+      "revision": 1,
+      "prompt": "Incorporação patrimonial é",
+      "options": [
+        {"id": "a", "text": "a simples mudança de sala"},
+        {"id": "b", "text": "a destruição do bem"},
+        {"id": "c", "text": "o fornecimento de consumo por pressão"},
+        {"id": "d", "text": "a inclusão formal do bem e de suas características no sistema patrimonial aplicável"},
+        {"id": "e", "text": "a conferência exclusiva da nota fiscal"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Incorporar é registrar formalmente o ingresso no acervo patrimonial; tombar é identificar individualmente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1028",
+      "revision": 1,
+      "prompt": "Tombamento patrimonial administrativo corresponde à",
+      "options": [
+        {"id": "a", "text": "aquisição por compra"},
+        {"id": "b", "text": "aceitação qualitativa"},
+        {"id": "c", "text": "baixa por alienação"},
+        {"id": "d", "text": "conversão de material de consumo em permanente"},
+        {"id": "e", "text": "atribuição de número para identificação individual do bem"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O tombamento identifica o bem no acervo; não é compra, aceitação, inventário ou baixa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1029",
+      "revision": 1,
+      "prompt": "Carga patrimonial é",
+      "options": [
+        {"id": "a", "text": "a responsabilidade formal pela guarda e uso do bem"},
+        {"id": "b", "text": "o peso físico transportado"},
+        {"id": "c", "text": "a baixa contábil automática"},
+        {"id": "d", "text": "a destruição do material"},
+        {"id": "e", "text": "o valor do patrimônio líquido"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Na gestão patrimonial, carga designa a atribuição de responsabilidade pela guarda e uso ao consignatário ou unidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1030",
+      "revision": 1,
+      "prompt": "Na terminologia da IN SEDAP nº 205/1988, descarga é",
+      "options": [
+        {"id": "a", "text": "obrigatoriamente alienação"},
+        {"id": "b", "text": "transferência da responsabilidade pela guarda do material"},
+        {"id": "c", "text": "sinônimo de recebimento"},
+        {"id": "d", "text": "classificação de bem dominical"},
+        {"id": "e", "text": "apuração do patrimônio líquido"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Carga é responsabilidade pela guarda e uso; descarga transfere essa responsabilidade e não significa necessariamente desfazimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1031",
+      "revision": 1,
+      "prompt": "Inventário físico exige",
+      "options": [
+        {"id": "a", "text": "somente imprimir o saldo do sistema"},
+        {"id": "b", "text": "aceitar divergências sem apuração"},
+        {"id": "c", "text": "confrontar existência, quantidade, estado, localização e responsabilidade com os registros"},
+        {"id": "d", "text": "baixar todos os bens não encontrados sem processo"},
+        {"id": "e", "text": "dispensar conferência dos permanentes"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Inventário é verificação física e documental; relatório sistêmico isolado não comprova a realidade do acervo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1032",
+      "revision": 1,
+      "prompt": "A manutenção preventiva busca",
+      "options": [
+        {"id": "a", "text": "aguardar toda falha antes de agir"},
+        {"id": "b", "text": "eliminar registros de conservação"},
+        {"id": "c", "text": "substituir o inventário"},
+        {"id": "d", "text": "reduzir falhas e preservar a capacidade de uso por intervenções planejadas"},
+        {"id": "e", "text": "converter automaticamente o bem em consumo"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A prevenção atua antes da falha e pode ampliar disponibilidade e vida útil; a corretiva reage a defeito ocorrido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1033",
+      "revision": 1,
+      "prompt": "Uma visão integrada do ciclo material e patrimonial reconhece que",
+      "options": [
+        {"id": "a", "text": "a compra encerra a responsabilidade administrativa"},
+        {"id": "b", "text": "cada etapa funciona sem registros das demais"},
+        {"id": "c", "text": "inventário e planejamento são independentes"},
+        {"id": "d", "text": "a baixa pode ocorrer por simples desaparecimento físico"},
+        {"id": "e", "text": "necessidade, aquisição, uso, controle, manutenção e destinação formam ciclo interdependente que retroalimenta o planejamento"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A gestão acompanha o recurso por todo o ciclo e usa dados de consumo, falha, inventário e destinação para planejar novamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
