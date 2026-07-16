@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1334",
+      "revision": 1,
+      "prompt": "Segundo a Lei nº 8.159/1991, podem integrar os arquivos da administração de materiais",
+      "options": [
+        {"id": "a", "text": "apenas documentos em papel assinados manualmente"},
+        {"id": "b", "text": "somente documentos de valor histórico já recolhidos"},
+        {"id": "c", "text": "documentos produzidos ou recebidos no exercício das atividades, independentemente do suporte"},
+        {"id": "d", "text": "apenas notas fiscais que tenham gerado pagamento"},
+        {"id": "e", "text": "somente relatórios finais de inventário"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Documento de arquivo decorre da atividade que o produziu ou recebeu, qualquer que seja o suporte; o conceito não se limita a papel, documento histórico, nota paga ou relatório final. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1335",
+      "revision": 1,
+      "prompt": "Gestão documental compreende",
+      "options": [
+        {"id": "a", "text": "somente o armazenamento de documentos permanentes"},
+        {"id": "b", "text": "produção, tramitação, uso, avaliação e arquivamento, com destinação adequada"},
+        {"id": "c", "text": "a destruição anual de todo documento sem consulta recente"},
+        {"id": "d", "text": "apenas a digitalização de processos físicos"},
+        {"id": "e", "text": "a classificação de todo documento como sigiloso"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A gestão documental acompanha o ciclo desde produção e tramitação até avaliação e destinação; não se reduz a guarda, digitalização, eliminação ou sigilo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1336",
+      "revision": 1,
+      "prompt": "A classificação arquivística de uma requisição de material",
+      "options": [
+        {"id": "a", "text": "torna o documento automaticamente secreto"},
+        {"id": "b", "text": "define sozinha quem responderá por eventual falta física"},
+        {"id": "c", "text": "substitui o registro da saída no estoque"},
+        {"id": "d", "text": "relaciona o documento à função e atividade e auxilia a aplicar temporalidade e destinação"},
+        {"id": "e", "text": "elimina a necessidade de metadados e contexto"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Classificação arquivística organiza documentos segundo função e atividade e se relaciona à temporalidade; ela não equivale a sigilo nem substitui controles materiais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1337",
+      "revision": 1,
+      "prompt": "Quanto ao prazo de guarda dos documentos de almoxarifado, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "todo documento deve ser eliminado após cinco anos"},
+        {"id": "b", "text": "todo documento deve ser guardado permanentemente"},
+        {"id": "c", "text": "o prazo depende da classificação, da tabela de temporalidade aplicável e de exigências específicas"},
+        {"id": "d", "text": "o usuário escolhe o prazo conforme o espaço disponível"},
+        {"id": "e", "text": "a baixa do material elimina imediatamente todo documento relacionado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Não há prazo universal para toda documentação de materiais; a classe, a tabela competente e obrigações administrativas, legais e probatórias determinam a guarda. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1338",
+      "revision": 1,
+      "prompt": "Após digitalizar corretamente um dossiê de recebimento, o órgão",
+      "options": [
+        {"id": "a", "text": "deve destruir de imediato todos os originais"},
+        {"id": "b", "text": "ainda deve observar a avaliação, a tabela de temporalidade e o procedimento de destinação competente"},
+        {"id": "c", "text": "pode dispensar metadados porque a imagem preserva todo o contexto"},
+        {"id": "d", "text": "deixa de precisar controlar autenticidade e integridade"},
+        {"id": "e", "text": "transforma automaticamente o documento em guarda permanente"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Digitalização não redefine sozinha a destinação nem autoriza eliminação automática; requisitos arquivísticos e o rito competente permanecem aplicáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1339",
+      "revision": 1,
+      "prompt": "Uma cópia de segurança isolada",
+      "options": [
+        {"id": "a", "text": "comprova por si só a autoria de todos os documentos"},
+        {"id": "b", "text": "substitui a tabela de temporalidade"},
+        {"id": "c", "text": "autoriza eliminar documentos permanentes"},
+        {"id": "d", "text": "dispensa controle de formato, metadados e acesso"},
+        {"id": "e", "text": "ajuda na recuperação, mas não equivale à preservação arquivística completa"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Backup é controle de recuperação; preservação arquivística também exige contexto, autenticidade, integridade, metadados e continuidade de acesso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1340",
+      "revision": 1,
+      "prompt": "Na terminologia operacional da IN SEDAP nº 205/1988, o recebimento de material",
+      "options": [
+        {"id": "a", "text": "declara necessariamente a conformidade técnica definitiva"},
+        {"id": "b", "text": "registra a entrega e transfere inicialmente a guarda e conservação, sem implicar aceitação"},
+        {"id": "c", "text": "ocorre apenas depois do pagamento"},
+        {"id": "d", "text": "dispensa conferência quantitativa"},
+        {"id": "e", "text": "elimina a responsabilidade do fornecedor por qualquer desconformidade"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Recebimento e aceitação são atos distintos: a entrega inicia custódia, enquanto a aceitação depende da verificação de conformidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1341",
+      "revision": 1,
+      "prompt": "Quando um equipamento volumoso é entregue diretamente na unidade técnica, fora do almoxarifado, essa entrega",
+      "options": [
+        {"id": "a", "text": "dispensa registro de entrada"},
+        {"id": "b", "text": "equivale automaticamente à aceitação definitiva"},
+        {"id": "c", "text": "deve ser comunicada, conferida e registrada segundo o fluxo aplicável"},
+        {"id": "d", "text": "impede a realização de exame qualitativo"},
+        {"id": "e", "text": "autoriza o uso antes de qualquer formalidade"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A entrega em local designado pode ser necessária, mas não afasta conferência, aceite e registro; na IN nº 205/1988, o registro de entrada permanece no almoxarifado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1342",
+      "revision": 1,
+      "prompt": "É documento hábil de recebimento rotineiro expressamente relacionado na IN SEDAP nº 205/1988",
+      "options": [
+        {"id": "a", "text": "guia de produção para material produzido internamente"},
+        {"id": "b", "text": "mensagem verbal sem registro"},
+        {"id": "c", "text": "fotografia sem identificação da transação"},
+        {"id": "d", "text": "planilha pessoal sem origem"},
+        {"id": "e", "text": "etiqueta de endereço do depósito, isoladamente"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A instrução relaciona nota fiscal/fatura, termos pertinentes, guia de remessa ou transferência e guia de produção; os demais itens não documentam adequadamente a origem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1343",
+      "revision": 1,
+      "prompt": "Um pedido prevê 30 caixas com 12 unidades cada, e são entregues 29 caixas completas. A conferência quantitativa registra",
+      "options": [
+        {"id": "a", "text": "30 unidades"},
+        {"id": "b", "text": "29 unidades"},
+        {"id": "c", "text": "360 unidades recebidas"},
+        {"id": "d", "text": "348 unidades recebidas e falta de 12"},
+        {"id": "e", "text": "quantidade indeterminada, porque caixas não podem ser convertidas"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A unidade de fornecimento deve ser convertida corretamente: 29 × 12 = 348, diante das 360 previstas, com falta de 12 unidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1344",
+      "revision": 1,
+      "prompt": "Na triagem inicial de uma remessa, é adequado verificar",
+      "options": [
+        {"id": "a", "text": "apenas o preço de mercado atual"},
+        {"id": "b", "text": "somente o nome do motorista"},
+        {"id": "c", "text": "a depreciação acumulada futura"},
+        {"id": "d", "text": "a destinação arquivística final de todos os documentos"},
+        {"id": "e", "text": "destinatário, documentos, volumes, lacres e sinais de avaria ou violação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A triagem identifica a remessa e condições externas antes da conferência detalhada; valoração e destinação documental são controles de outras etapas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1345",
+      "revision": 1,
+      "prompt": "A conferência qualitativa busca verificar",
+      "options": [
+        {"id": "a", "text": "apenas o número de volumes"},
+        {"id": "b", "text": "somente se a nota foi emitida"},
+        {"id": "c", "text": "aderência a requisitos de composição, integridade, validade, desempenho e demais especificações"},
+        {"id": "d", "text": "exclusivamente a quantidade física"},
+        {"id": "e", "text": "a conveniência de aumentar o pedido depois da entrega"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Qualidade trata da conformidade do objeto com requisitos e condição de uso; quantidade e existência de documento são verificações relacionadas, mas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1346",
+      "revision": 1,
+      "prompt": "Um equipamento especializado depende de teste técnico para aceite. Segundo a lógica da IN nº 205/1988, o exame qualitativo pode ser realizado",
+      "options": [
+        {"id": "a", "text": "por técnico especializado ou comissão especial"},
+        {"id": "b", "text": "necessariamente pelo transportador"},
+        {"id": "c", "text": "somente pelo fornecedor"},
+        {"id": "d", "text": "por qualquer usuário sem designação ou registro"},
+        {"id": "e", "text": "apenas após o encerramento da garantia"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Quando a natureza do material exige conhecimento específico, a instrução admite técnico especializado ou comissão, em vez de presumir conformidade pela entrega. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1347",
+      "revision": 1,
+      "prompt": "A assinatura de comprovante que registra apenas dez volumes sem avaria aparente",
+      "options": [
+        {"id": "a", "text": "atesta necessariamente a quantidade interna e a qualidade de todos os itens"},
+        {"id": "b", "text": "pode comprovar a entrega externa, mas não substitui automaticamente a conferência do conteúdo"},
+        {"id": "c", "text": "impede qualquer ressalva posterior"},
+        {"id": "d", "text": "equivale sempre ao recebimento definitivo da Lei nº 14.133/2021"},
+        {"id": "e", "text": "dispensa vincular a remessa ao pedido"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O alcance da assinatura importa: contar volumes externos não prova, sem procedimento adicional, conteúdo, especificação e funcionamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1348",
+      "revision": 1,
+      "prompt": "Para compras, o recebimento provisório previsto no art. 140 da Lei nº 14.133/2021 ocorre",
+      "options": [
+        {"id": "a", "text": "por comissão de inventário, após o pagamento"},
+        {"id": "b", "text": "apenas quando já existe termo definitivo"},
+        {"id": "c", "text": "sem possibilidade de exame posterior"},
+        {"id": "d", "text": "de forma sumária pelo responsável por acompanhamento e fiscalização, com verificação posterior da conformidade"},
+        {"id": "e", "text": "pelo fornecedor, mediante declaração unilateral"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A lei distingue o recebimento provisório sumário da posterior verificação; ele não é termo definitivo nem manifestação unilateral do contratado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1349",
+      "revision": 1,
+      "prompt": "O recebimento definitivo de compras na Lei nº 14.133/2021 deve ser realizado",
+      "options": [
+        {"id": "a", "text": "pelo entregador, em recibo simples"},
+        {"id": "b", "text": "automaticamente pelo decurso de um dia"},
+        {"id": "c", "text": "por servidor ou comissão designada, mediante termo detalhado de atendimento às exigências contratuais"},
+        {"id": "d", "text": "pela unidade financeira antes da entrega"},
+        {"id": "e", "text": "sem considerar o contrato"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 140 exige agente designado e termo detalhado no recebimento definitivo de compras, com base nas exigências contratuais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1350",
+      "revision": 1,
+      "prompt": "Se o objeto estiver em desacordo com o contrato, a Lei nº 14.133/2021 admite que ele seja",
+      "options": [
+        {"id": "a", "text": "rejeitado no todo ou em parte"},
+        {"id": "b", "text": "aceito obrigatoriamente por ter chegado ao endereço"},
+        {"id": "c", "text": "pago antes da apuração"},
+        {"id": "d", "text": "incorporado ao estoque disponível sem ressalva"},
+        {"id": "e", "text": "considerado conforme pela emissão da nota fiscal"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A desconformidade permite rejeição total ou parcial; entrega e documento fiscal não transformam objeto inadequado em objeto aceito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1351",
+      "revision": 1,
+      "prompt": "Ao identificar falta e avaria durante a conferência, a providência mais adequada é",
+      "options": [
+        {"id": "a", "text": "misturar os itens ao estoque disponível e corrigir depois"},
+        {"id": "b", "text": "alterar o pedido para igualá-lo ao entregue"},
+        {"id": "c", "text": "segregar, documentar a ocorrência, comunicar os responsáveis e encaminhar regularização"},
+        {"id": "d", "text": "descartar os documentos para evitar duplicidade"},
+        {"id": "e", "text": "presumir responsabilidade do almoxarife sem apuração"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A divergência precisa permanecer identificada e rastreável até devolução, substituição, complementação ou outra solução autorizada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1352",
+      "revision": 1,
+      "prompt": "A aceitação parcial de uma entrega",
+      "options": [
+        {"id": "a", "text": "é sempre proibida"},
+        {"id": "b", "text": "dispensa identificar a parcela rejeitada"},
+        {"id": "c", "text": "torna conformes todos os itens remanescentes"},
+        {"id": "d", "text": "autoriza apagar a primeira conferência"},
+        {"id": "e", "text": "exige admissibilidade e individualização clara do que foi aceito e do que ficou pendente"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A parte aceita deve ser separável e estar conforme, enquanto a pendência permanece documentada; não há autorização geral nem proibição absoluta em qualquer contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1353",
+      "revision": 1,
+      "prompt": "Assinale a sequência que distingue corretamente eventos do ciclo de materiais e da despesa",
+      "options": [
+        {"id": "a", "text": "pagamento é chegada; carga é nota fiscal; aceite é inventário"},
+        {"id": "b", "text": "entrada física e liquidação são sempre o mesmo ato"},
+        {"id": "c", "text": "carga significa transferência da propriedade ao servidor"},
+        {"id": "d", "text": "entrada física é chegada; registro incorpora o aceito; carga atribui guarda/uso; liquidação verifica o direito do credor"},
+        {"id": "e", "text": "aceitação ocorre somente depois do pagamento"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os eventos se relacionam, mas têm objetos e efeitos diferentes; carga não transfere propriedade e a liquidação não é simples chegada física. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1354",
+      "revision": 1,
+      "prompt": "Nos termos do art. 63 da Lei nº 4.320/1964, a liquidação da despesa por fornecimento de material considera",
+      "options": [
+        {"id": "a", "text": "somente a existência de saldo no almoxarifado"},
+        {"id": "b", "text": "a verificação do direito do credor com base nos títulos e documentos, inclusive comprovantes da entrega"},
+        {"id": "c", "text": "apenas a vontade do fornecedor"},
+        {"id": "d", "text": "o inventário anual como único documento possível"},
+        {"id": "e", "text": "a dispensa de verificar origem, objeto e importância a pagar"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Liquidação verifica o direito adquirido pelo credor com suporte documental; a prova da entrega integra essa verificação, sem se confundir com saldo ou inventário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1355",
+      "revision": 1,
+      "prompt": "No ciclo de materiais, proteção e conservação correspondem, respectivamente, a",
+      "options": [
+        {"id": "a", "text": "pagamento e liquidação"},
+        {"id": "b", "text": "classificação e codificação"},
+        {"id": "c", "text": "barreiras contra riscos e manutenção das características e aptidão de uso"},
+        {"id": "d", "text": "inventário e alienação"},
+        {"id": "e", "text": "requisição e compra"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Proteção previne acesso, perda e dano; conservação busca manter condição e funcionalidade. Os demais pares pertencem a outros processos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1356",
+      "revision": 1,
+      "prompt": "Um lote recebido está aguardando teste técnico. Até a decisão, ele deve",
+      "options": [
+        {"id": "a", "text": "permanecer identificado e segregado, sem compor o saldo livre"},
+        {"id": "b", "text": "ser distribuído para evitar atraso"},
+        {"id": "c", "text": "ser misturado a itens já aceitos"},
+        {"id": "d", "text": "ter o status alterado para disponível"},
+        {"id": "e", "text": "ser descartado antes do exame"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Material sob inspeção ainda não está liberado; segregação física e lógica previne uso indevido e preserva sua identidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1357",
+      "revision": 1,
+      "prompt": "A aplicação física do PEPS prioriza",
+      "options": [
+        {"id": "a", "text": "o item de maior preço"},
+        {"id": "b", "text": "o lote que entrou há mais tempo"},
+        {"id": "c", "text": "sempre o lote recebido por último"},
+        {"id": "d", "text": "o lote bloqueado"},
+        {"id": "e", "text": "qualquer lote, sem considerar idade"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "PEPS significa primeiro a entrar, primeiro a sair e busca reduzir envelhecimento; condição e validade continuam podendo impedir fornecimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1358",
+      "revision": 1,
+      "prompt": "Quando dois lotes têm datas de entrada diferentes, mas o lote mais novo vence antes, o critério FEFO/PVPS prioriza",
+      "options": [
+        {"id": "a", "text": "sempre o lote mais antigo, mesmo vencido"},
+        {"id": "b", "text": "o lote com maior quantidade"},
+        {"id": "c", "text": "o lote de maior preço"},
+        {"id": "d", "text": "o lote com vencimento mais próximo, se ainda próprio para uso"},
+        {"id": "e", "text": "o lote sem registro de validade"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "FEFO/PVPS usa a proximidade do vencimento, não a entrada; nenhum método permite fornecer material vencido ou impróprio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1359",
+      "revision": 1,
+      "prompt": "Entre os cuidados de proteção previstos como referência na IN nº 205/1988 está",
+      "options": [
+        {"id": "a", "text": "bloquear corredores e extintores para ampliar capacidade"},
+        {"id": "b", "text": "manter material diretamente sobre o piso"},
+        {"id": "c", "text": "armazenar itens pesados e volumosos nas partes inferiores"},
+        {"id": "d", "text": "ocultar etiquetas para evitar leitura"},
+        {"id": "e", "text": "misturar itens incompatíveis da mesma classe"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Posições inferiores reduzem risco e facilitam movimentação de itens pesados; piso, emergência, identificação e compatibilidade exigem proteção, não obstrução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1360",
+      "revision": 1,
+      "prompt": "Um almoxarifado possui 900 unidades físicas: 700 disponíveis, 100 reservadas e 60 bloqueadas. Quantas unidades estão avariadas, se essas quatro condições esgotam o saldo físico?",
+      "options": [
+        {"id": "a", "text": "40"},
+        {"id": "b", "text": "60"},
+        {"id": "c", "text": "100"},
+        {"id": "d", "text": "140"},
+        {"id": "e", "text": "200"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Avariadas = 900 − 700 − 100 − 60 = 40. O exemplo mostra por que saldo físico não equivale a saldo disponível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1361",
+      "revision": 1,
+      "prompt": "Para material sensível a temperatura, evidência adequada de conservação pode incluir",
+      "options": [
+        {"id": "a", "text": "apenas a quantidade comprada"},
+        {"id": "b", "text": "somente o nome do fornecedor"},
+        {"id": "c", "text": "uma declaração genérica sem data"},
+        {"id": "d", "text": "a exclusão de registros de desvio"},
+        {"id": "e", "text": "monitoramento de temperatura, inspeções e providências diante de anomalias"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A evidência deve corresponder ao risco e mostrar condição e tratamento de desvios; dados de compra não demonstram conservação posterior. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1362",
+      "revision": 1,
+      "prompt": "No fornecimento por pressão descrito na IN nº 205/1988, o material é entregue",
+      "options": [
+        {"id": "a", "text": "apenas após requisição individual a cada entrega"},
+        {"id": "b", "text": "conforme tabelas de provisão e épocas fixadas, sem solicitação posterior do usuário"},
+        {"id": "c", "text": "sem planejamento de quantidade ou periodicidade"},
+        {"id": "d", "text": "diretamente pelo fornecedor, sem almoxarifado"},
+        {"id": "e", "text": "somente quando o estoque se esgotou"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pressão usa provisão previamente estabelecida e calendário; não é fornecimento arbitrário nem se confunde com requisição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1363",
+      "revision": 1,
+      "prompt": "O fornecimento por requisição caracteriza-se por",
+      "options": [
+        {"id": "a", "text": "entrega automática em datas fixas"},
+        {"id": "b", "text": "ausência de identificação da unidade usuária"},
+        {"id": "c", "text": "dispensa de autorização e registro"},
+        {"id": "d", "text": "entrega mediante pedido interno de material"},
+        {"id": "e", "text": "compra direta pela unidade sem consulta ao estoque"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Requisição é o pedido interno que inicia o atendimento de estoque; ainda exige validação, disponibilidade, registro e entrega controlada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1364",
+      "revision": 1,
+      "prompt": "Uma unidade requisita quantidade muito superior ao histórico. O almoxarifado deve",
+      "options": [
+        {"id": "a", "text": "negar sempre, sem conhecer a causa"},
+        {"id": "b", "text": "atender sempre, sem avaliar saldo ou validade"},
+        {"id": "c", "text": "verificar unidade, finalidade, mudança de demanda e competência para eventual exceção"},
+        {"id": "d", "text": "alterar o histórico para justificar o pedido"},
+        {"id": "e", "text": "eliminar o registro da requisição"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O histórico orienta, mas eventos reais podem alterar a demanda; a decisão deve ser analisada, autorizada e documentada, não automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1365",
+      "revision": 1,
+      "prompt": "Em um fluxo controlado de distribuição, a sequência adequada é",
+      "options": [
+        {"id": "a", "text": "validar requisição, separar, conferir, registrar saída, entregar e obter confirmação"},
+        {"id": "b", "text": "entregar, apagar o saldo e depois solicitar autorização"},
+        {"id": "c", "text": "registrar saída sem separar nem entregar"},
+        {"id": "d", "text": "separar item semelhante sem conferir o código"},
+        {"id": "e", "text": "entregar material bloqueado para reduzir pendências"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A sequência sincroniza demanda, item físico, registro e prova da entrega; as demais alternativas criam saldo fictício ou fornecimento indevido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1366",
+      "revision": 1,
+      "prompt": "Na remessa de material para outra localidade, deve-se considerar",
+      "options": [
+        {"id": "a", "text": "somente a distância em quilômetros"},
+        {"id": "b", "text": "apenas o preço unitário"},
+        {"id": "c", "text": "a exclusão do destinatário para proteger dados"},
+        {"id": "d", "text": "que embalagem é irrelevante depois da saída"},
+        {"id": "e", "text": "fragilidade, perecibilidade, transporte, valor, destinatário, volumes e acondicionamento"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A remessa deve preservar o material e permitir sua conferência e entrega; risco, embalagem e identificação são elementos integrados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1367",
+      "revision": 1,
+      "prompt": "A confirmação de recebimento pelo destinatário de uma remessa",
+      "options": [
+        {"id": "a", "text": "apaga automaticamente qualquer ressalva registrada"},
+        {"id": "b", "text": "fecha uma etapa da cadeia, mas deve preservar faltas, avarias ou outras ressalvas"},
+        {"id": "c", "text": "dispensa confrontar volumes e documento"},
+        {"id": "d", "text": "substitui o inventário anual"},
+        {"id": "e", "text": "torna o transportador responsável por todo erro de cadastro"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A confirmação registra a chegada ao destino, porém ocorrências devem permanecer explícitas para tratamento e responsabilização conforme a causa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1368",
+      "revision": 1,
+      "prompt": "Na referência da IN SEDAP nº 205/1988, um equipamento permanente deve, em regra, ser distribuído à unidade requisitante",
+      "options": [
+        {"id": "a", "text": "sem identificação individual"},
+        {"id": "b", "text": "antes do recebimento e da aceitação"},
+        {"id": "c", "text": "com a respectiva carga formalizada em termo de responsabilidade, observadas as ressalvas da norma"},
+        {"id": "d", "text": "sem registrar localização e consignatário"},
+        {"id": "e", "text": "como se fosse material de consumo sem controle"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A instrução vincula, em regra, a distribuição de permanente à carga e ao termo, para identificar bem, localização e responsabilidade, ressalvando o controle por relação-carga para certos bens de pequeno valor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1369",
+      "revision": 1,
+      "prompt": "O inventário físico tem como finalidade principal",
+      "options": [
+        {"id": "a", "text": "imprimir a listagem do sistema sem observar os bens"},
+        {"id": "b", "text": "substituir todos os documentos de entrada e saída"},
+        {"id": "c", "text": "autorizar automaticamente qualquer baixa"},
+        {"id": "d", "text": "confrontar existência, identidade, quantidade, condição e registros"},
+        {"id": "e", "text": "confirmar sempre o saldo informado pelo custodiante"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Inventário é procedimento de verificação da realidade contra os controles; uma listagem é apenas insumo, não o resultado da conferência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1370",
+      "revision": 1,
+      "prompt": "Na IN SEDAP nº 205/1988, o inventário anual destina-se a comprovar quantidade e valor dos bens existentes",
+      "options": [
+        {"id": "a", "text": "na data de cada requisição"},
+        {"id": "b", "text": "somente na criação da unidade"},
+        {"id": "c", "text": "em 31 de dezembro de cada exercício"},
+        {"id": "d", "text": "apenas quando muda o dirigente"},
+        {"id": "e", "text": "em data escolhida pelo fornecedor"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A instrução federal define a posição de 31 de dezembro para o inventário anual; criação e mudança de dirigente correspondem a outros tipos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1371",
+      "revision": 1,
+      "prompt": "O inventário realizado quando da criação de uma unidade gestora é denominado",
+      "options": [
+        {"id": "a", "text": "inicial"},
+        {"id": "b", "text": "anual"},
+        {"id": "c", "text": "eventual"},
+        {"id": "d", "text": "por pressão"},
+        {"id": "e", "text": "de distribuição"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O inventário inicial identifica e registra bens sob responsabilidade da unidade recém-criada; os demais termos têm finalidades diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1372",
+      "revision": 1,
+      "prompt": "A mudança do dirigente de uma unidade gestora motiva, na classificação da IN nº 205/1988, inventário",
+      "options": [
+        {"id": "a", "text": "por amostragem obrigatório"},
+        {"id": "b", "text": "de transferência de responsabilidade"},
+        {"id": "c", "text": "de aquisição"},
+        {"id": "d", "text": "de alienação automática"},
+        {"id": "e", "text": "de recebimento provisório"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A transferência de responsabilidade exige verificar o acervo associado à mudança de dirigente; não é aquisição, alienação ou recebimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1373",
+      "revision": 1,
+      "prompt": "O inventário realizado em qualquer época por iniciativa do dirigente ou do órgão fiscalizador é o",
+      "options": [
+        {"id": "a", "text": "inicial"},
+        {"id": "b", "text": "anual"},
+        {"id": "c", "text": "de transformação"},
+        {"id": "d", "text": "de transferência"},
+        {"id": "e", "text": "eventual"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A característica do eventual é poder ser determinado em qualquer época por iniciativa gerencial ou fiscalizatória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1374",
+      "revision": 1,
+      "prompt": "Inventário rotativo consiste em",
+      "options": [
+        {"id": "a", "text": "contar somente quando há desaparecimento"},
+        {"id": "b", "text": "substituir todos os registros por estimativas"},
+        {"id": "c", "text": "conferir uma amostra uma única vez e extrapolar sempre"},
+        {"id": "d", "text": "levantar continuamente grupos programados para recensear os itens ao longo do exercício"},
+        {"id": "e", "text": "girar fisicamente as embalagens durante a contagem"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Rotativo é contínuo, seletivo e programado; ele distribui as contagens ao longo do período, não é mera estimativa ou reação a extravio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1375",
+      "revision": 1,
+      "prompt": "Sobre inventário por amostragem, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "sempre substitui qualquer inventário integral exigido"},
+        {"id": "b", "text": "dispensa critério de seleção e registro"},
+        {"id": "c", "text": "pode ser instrumento gerencial em grande acervo, sem substituir automaticamente exigência integral"},
+        {"id": "d", "text": "só pode ser aplicado a um único item"},
+        {"id": "e", "text": "torna desnecessária a conciliação"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A amostragem pode apoiar controle gerencial, mas sua suficiência depende da finalidade e da norma aplicável; ela não elimina documentação nem conciliação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1376",
+      "revision": 1,
+      "prompt": "Quando não é possível paralisar entradas e saídas durante o inventário, o corte controlado serve para",
+      "options": [
+        {"id": "a", "text": "atribuir cada movimento ao momento correto e evitar dupla contagem ou omissão"},
+        {"id": "b", "text": "cancelar todas as requisições já entregues"},
+        {"id": "c", "text": "ocultar movimentos da comissão"},
+        {"id": "d", "text": "transformar diferenças em ajustes automáticos"},
+        {"id": "e", "text": "substituir a identificação dos itens"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O corte define a qual período e local pertence o movimento próximo à data-base, preservando a consistência da contagem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1377",
+      "revision": 1,
+      "prompt": "A contagem cega é um controle que",
+      "options": [
+        {"id": "a", "text": "impede identificar o item contado"},
+        {"id": "b", "text": "omite, quando viável, o saldo esperado para reduzir o viés de confirmação"},
+        {"id": "c", "text": "proíbe recontagem"},
+        {"id": "d", "text": "dispensa registrar responsáveis e horários"},
+        {"id": "e", "text": "aceita qualquer estimativa do custodiante"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A equipe ainda identifica o material, mas não usa o saldo esperado como meta visual; diferenças devem ser registradas e recontadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1378",
+      "revision": 1,
+      "prompt": "O saldo inicial era 500 unidades. Houve 180 entradas, 210 saídas e ajuste autorizado positivo de 5. O saldo esperado é",
+      "options": [
+        {"id": "a", "text": "465"},
+        {"id": "b", "text": "470"},
+        {"id": "c", "text": "485"},
+        {"id": "d", "text": "475"},
+        {"id": "e", "text": "895"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Saldo esperado = 500 + 180 − 210 + 5 = 475. As demais alternativas decorrem de omitir ou aplicar incorretamente entradas, saídas ou ajuste. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1379",
+      "revision": 1,
+      "prompt": "Em um inventário, 194 dos 200 itens contados não apresentaram divergência. A acurácia por itens foi",
+      "options": [
+        {"id": "a", "text": "3%"},
+        {"id": "b", "text": "6%"},
+        {"id": "c", "text": "97%"},
+        {"id": "d", "text": "194%"},
+        {"id": "e", "text": "200%"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Acurácia = 194 ÷ 200 × 100 = 97%. O indicador deve ser complementado por valor, quantidade, criticidade e causa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1380",
+      "revision": 1,
+      "prompt": "Uma sobra física encontrada no inventário",
+      "options": [
+        {"id": "a", "text": "comprova automaticamente excelente gestão"},
+        {"id": "b", "text": "pode ser incorporada sem documento ou investigação"},
+        {"id": "c", "text": "deve ser ocultada porque apenas faltas são divergências"},
+        {"id": "d", "text": "autoriza reduzir outro item para equilibrar o total"},
+        {"id": "e", "text": "é divergência e pode decorrer de entrada não registrada, devolução informal ou erro de identificação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Diferença positiva também revela possível falha de processo; ela precisa ser confirmada, explicada e regularizada com suporte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1381",
+      "revision": 1,
+      "prompt": "Confirmada uma diferença entre saldo físico e sistema, a sequência mais adequada é",
+      "options": [
+        {"id": "a", "text": "registrar, recontar, investigar documentos e movimentos, decidir, ajustar com autorização e monitorar"},
+        {"id": "b", "text": "ajustar primeiro e investigar apenas se alguém perguntar"},
+        {"id": "c", "text": "apagar o histórico e criar um novo saldo inicial"},
+        {"id": "d", "text": "atribuir culpa ao custodiante sem ouvir ou examinar evidências"},
+        {"id": "e", "text": "ignorar diferenças de baixo valor em qualquer hipótese"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Detecção, investigação, decisão e ajuste são fases distintas; preservar a diferença original mantém a trilha e permite tratar a causa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1382",
+      "revision": 1,
+      "prompt": "O inventário analítico deve permitir a caracterização do material mediante",
+      "options": [
+        {"id": "a", "text": "somente o valor total da classe"},
+        {"id": "b", "text": "descrição padronizada, número de registro, valor, estado e outros elementos necessários"},
+        {"id": "c", "text": "apenas o nome do responsável"},
+        {"id": "d", "text": "estimativa global sem identificar itens"},
+        {"id": "e", "text": "exclusivamente a fotografia do depósito"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A IN nº 205/1988 exige elementos individualizadores no inventário analítico; total de classe é informação sintética e não basta para caracterização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1383",
+      "revision": 1,
+      "prompt": "O sistema registra 500 unidades disponíveis. A contagem encontra 490, mas há uma saída documentada de 10 unidades durante o corte que ainda não foi processada. A conclusão correta é",
+      "options": [
+        {"id": "a", "text": "há necessariamente extravio de 10 unidades"},
+        {"id": "b", "text": "a saída deve ser ignorada porque ocorreu durante o inventário"},
+        {"id": "c", "text": "a diferença pode ser explicada pelo movimento pendente, que deve ser validado e processado com rastreabilidade"},
+        {"id": "d", "text": "o físico deve ser alterado para 500"},
+        {"id": "e", "text": "o documento deve ser destruído após ajustar o saldo"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O corte controlado identifica movimentos legítimos ainda não refletidos no sistema. Confirmado o documento e o momento, processa-se a saída sem presumir extravio nem apagar evidência. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
