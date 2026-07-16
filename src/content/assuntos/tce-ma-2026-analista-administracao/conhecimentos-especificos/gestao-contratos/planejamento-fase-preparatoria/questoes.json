@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q1484",
+      "revision": 1,
+      "prompt": "Uma unidade inicia a contratação pela escolha de uma marca, deixando para depois a descrição do problema. Essa sequência é inadequada porque a fase preparatória deve",
+      "options": [
+        {"id": "a", "text": "partir do orçamento sigiloso e dispensar estudo de alternativas"},
+        {"id": "b", "text": "partir da necessidade pública, comparar soluções e só então definir o objeto"},
+        {"id": "c", "text": "transferir ao fornecedor a identificação da necessidade administrativa"},
+        {"id": "d", "text": "definir primeiro o vencedor e depois justificar a contratação"},
+        {"id": "e", "text": "limitar-se à elaboração formal do edital"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A fase preparatória é planejamento orientado pelo problema público: necessidade, alternativas, solução e objeto. Começar por marca ou vencedor antecipa a resposta e pode direcionar a competição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1485",
+      "revision": 1,
+      "prompt": "Segundo o art. 18, a fase preparatória deve compatibilizar-se",
+      "options": [
+        {"id": "a", "text": "apenas com o plano de contratações federal, mesmo para ente estadual"},
+        {"id": "b", "text": "somente com a lei orçamentária anual, ignorando outros instrumentos"},
+        {"id": "c", "text": "com o PCA apenas depois da assinatura do contrato"},
+        {"id": "d", "text": "com o PCA sempre que elaborado e com as leis orçamentárias"},
+        {"id": "e", "text": "exclusivamente com a preferência do setor requisitante"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 18 exige compatibilidade com o PCA, sempre que elaborado, e com as leis orçamentárias, além de considerações técnicas, mercadológicas e de gestão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1486",
+      "revision": 1,
+      "prompt": "Integra expressamente a instrução da fase preparatória prevista no art. 18",
+      "options": [
+        {"id": "a", "text": "a análise dos riscos que possam comprometer o sucesso da licitação e a boa execução"},
+        {"id": "b", "text": "a escolha informal do fornecedor antes do edital"},
+        {"id": "c", "text": "a renúncia à estimativa de valor quando o objeto for comum"},
+        {"id": "d", "text": "a substituição da minuta contratual pelo ETP em todos os casos"},
+        {"id": "e", "text": "a dispensa de motivação das exigências de habilitação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A análise de riscos é o inciso X do art. 18. A fase também exige orçamento, edital, objeto e motivação; não admite escolha prévia ou dispensa genérica desses elementos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1487",
+      "revision": 1,
+      "prompt": "Ao exigir qualificação técnica restritiva e limitar a participação em consórcio, a Administração deve, na fase preparatória,",
+      "options": [
+        {"id": "a", "text": "usar texto padronizado sem examinar o objeto"},
+        {"id": "b", "text": "adiar qualquer justificativa para depois da homologação"},
+        {"id": "c", "text": "pedir ao licitante vencedor que motive as regras"},
+        {"id": "d", "text": "presumir que toda restrição aumenta a eficiência"},
+        {"id": "e", "text": "apresentar motivação circunstanciada e relacionada às características da contratação"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 18, IX, exige motivação circunstanciada de exigências técnicas, econômico-financeiras, critérios técnicos e regras de consórcio. Modelo padronizado não substitui pertinência concreta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1488",
+      "revision": 1,
+      "prompt": "A proporcionalidade documental na fase preparatória significa",
+      "options": [
+        {"id": "a", "text": "eliminar todo documento em contratação de baixo valor"},
+        {"id": "b", "text": "produzir sempre o mesmo volume de estudos, qualquer que seja o risco"},
+        {"id": "c", "text": "ajustar profundidade e complexidade ao objeto e ao risco, preservando exigências legais"},
+        {"id": "d", "text": "substituir documentos legais por decisão verbal"},
+        {"id": "e", "text": "dispensar justificativa sempre que houver urgência interna"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Planejamento proporcional evita formalismo inútil, mas não elimina elementos legais. A profundidade deve acompanhar complexidade, valor e risco da contratação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1489",
+      "revision": 1,
+      "prompt": "O Estudo Técnico Preliminar deve",
+      "options": [
+        {"id": "a", "text": "evidenciar o problema, identificar a melhor solução e permitir avaliar viabilidade técnica e econômica"},
+        {"id": "b", "text": "limitar-se a reproduzir as cláusulas da futura minuta contratual"},
+        {"id": "c", "text": "escolher o fornecedor que apresentará o menor orçamento"},
+        {"id": "d", "text": "substituir o edital e a pesquisa de preços"},
+        {"id": "e", "text": "descrever somente a marca pretendida pela área requisitante"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O ETP investiga o problema e a melhor solução para avaliar viabilidade técnica e econômica. Ele não seleciona fornecedor nem substitui os documentos posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1490",
+      "revision": 1,
+      "prompt": "Conforme o art. 18, § 2º, os elementos mínimos do ETP correspondem aos incisos",
+      "options": [
+        {"id": "a", "text": "I, II, III, IV e V"},
+        {"id": "b", "text": "II, V, VII, IX e XII"},
+        {"id": "c", "text": "I, IV, VI, VIII e XIII"},
+        {"id": "d", "text": "III, VI, IX, X e XI"},
+        {"id": "e", "text": "IV, V, VII, X e XII"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Lei exige no mínimo necessidade, quantidades, estimativa de valor, justificativa do parcelamento e conclusão de adequação: incisos I, IV, VI, VIII e XIII. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1491",
+      "revision": 1,
+      "prompt": "Se o ETP não contemplar um dos oito elementos que não integram o conteúdo mínimo legal, a Administração",
+      "options": [
+        {"id": "a", "text": "pode omiti-lo silenciosamente"},
+        {"id": "b", "text": "deve cancelar a contratação em qualquer hipótese"},
+        {"id": "c", "text": "pode substituí-lo pela indicação de marca"},
+        {"id": "d", "text": "deve obter autorização do futuro contratado"},
+        {"id": "e", "text": "deve apresentar a devida justificativa para a ausência"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os cinco mínimos devem constar, e a ausência dos demais elementos previstos no § 1º requer justificativa. Não há omissão livre nem cancelamento automático. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1492",
+      "revision": 1,
+      "prompt": "A estimativa de quantidades no ETP deve",
+      "options": [
+        {"id": "a", "text": "repetir necessariamente o quantitativo do último contrato"},
+        {"id": "b", "text": "ser apoiada por memórias e documentos, considerando interdependências e economia de escala"},
+        {"id": "c", "text": "ser definida pelo fornecedor depois do julgamento"},
+        {"id": "d", "text": "desconsiderar estoque e consumo histórico"},
+        {"id": "e", "text": "ser ocultada dos órgãos de controle"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 18, § 1º, IV, exige memórias e documentos de suporte e consideração de contratações interdependentes para economia de escala. Histórico pode ajudar, mas não substitui análise. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1493",
+      "revision": 1,
+      "prompt": "No ETP, levantamento de mercado consiste principalmente em",
+      "options": [
+        {"id": "a", "text": "obter três propostas para uma marca já escolhida"},
+        {"id": "b", "text": "confirmar a preferência inicial da área requisitante"},
+        {"id": "c", "text": "selecionar antecipadamente o futuro contratado"},
+        {"id": "d", "text": "analisar alternativas possíveis e justificar técnica e economicamente a solução escolhida"},
+        {"id": "e", "text": "definir apenas o preço máximo do edital"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "Levantamento de mercado compara alternativas de solução e fundamenta a escolha. Pesquisa de preços é etapa relacionada, mas não equivale a esse estudo de alternativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1494",
+      "revision": 1,
+      "prompt": "Quanto ao parcelamento da contratação, o ETP deve",
+      "options": [
+        {"id": "a", "text": "parcelar sempre, ainda que destrua integração e escala"},
+        {"id": "b", "text": "justificar o parcelamento ou sua rejeição conforme mercado, competição, integração e economia de escala"},
+        {"id": "c", "text": "proibir lotes em qualquer compra"},
+        {"id": "d", "text": "deixar a decisão exclusivamente ao licitante vencedor"},
+        {"id": "e", "text": "omitir o tema por integrar sempre os elementos facultativos"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A justificativa para parcelar ou não é elemento mínimo do ETP. A decisão depende dos efeitos sobre competição, especialização, integração, responsabilidade e escala. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1495",
+      "revision": 1,
+      "prompt": "Entre os aspectos ambientais do ETP, quando aplicáveis, incluem-se",
+      "options": [
+        {"id": "a", "text": "apenas a cor externa do equipamento"},
+        {"id": "b", "text": "somente medidas escolhidas após o descarte"},
+        {"id": "c", "text": "exclusivamente a origem geográfica do fornecedor"},
+        {"id": "d", "text": "apenas declaração genérica de sustentabilidade"},
+        {"id": "e", "text": "baixo consumo, mitigação, logística reversa, desfazimento e reciclagem"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 18, § 1º, XII, conecta impactos e mitigação a consumo de recursos, logística reversa, desfazimento e reciclagem, quando pertinentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1496",
+      "revision": 1,
+      "prompt": "A unidade precisa dar mobilidade segura a 100 servidores. Para preservar a lógica do ETP, a necessidade deve ser inicialmente formulada como",
+      "options": [
+        {"id": "a", "text": "comprar obrigatoriamente 100 equipamentos da marca indicada"},
+        {"id": "b", "text": "renovar o contrato anterior sem avaliar demanda"},
+        {"id": "c", "text": "adquirir o produto com maior preço e qualidade"},
+        {"id": "d", "text": "viabilizar trabalho móvel seguro, permitindo comparar compra, locação e outras soluções"},
+        {"id": "e", "text": "usar exatamente a especificação sugerida pelo primeiro fornecedor"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A formulação pelo problema mantém abertas as alternativas. Fixar marca ou modelo antes do levantamento de mercado antecipa a solução sem justificativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1497",
+      "revision": 1,
+      "prompt": "A distinção correta entre ETP e TR é",
+      "options": [
+        {"id": "a", "text": "o ETP escolhe e justifica a solução; o TR define o objeto executável e mensurável"},
+        {"id": "b", "text": "o ETP seleciona fornecedor; o TR homologa o certame"},
+        {"id": "c", "text": "ambos são documentos idênticos com nomes distintos"},
+        {"id": "d", "text": "o TR antecede sempre a identificação da necessidade"},
+        {"id": "e", "text": "o ETP substitui edital, contrato e orçamento"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O ETP investiga alternativas e viabilidade; o TR detalha a solução escolhida em requisitos, execução, gestão, medição, seleção e preço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1498",
+      "revision": 1,
+      "prompt": "Sobre a numeração dos elementos mínimos do ETP na Lei e na IN SEGES nº 58/2022, é correto afirmar que",
+      "options": [
+        {"id": "a", "text": "a IN revogou os incisos da Lei"},
+        {"id": "b", "text": "a Lei e a IN exigem conteúdos materiais diferentes e incompatíveis"},
+        {"id": "c", "text": "a numeração muda pela ordem própria da IN, mas o conteúdo mínimo material coincide"},
+        {"id": "d", "text": "a IN exige somente elementos escolhidos livremente pela equipe"},
+        {"id": "e", "text": "a numeração federal deve substituir o texto legal em todos os entes"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Na Lei, os mínimos são I, IV, VI, VIII e XIII; na ordem do art. 9º da IN, I, V, VI, VII e XIII. Ambos correspondem a necessidade, quantidades, valor, parcelamento e conclusão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1499",
+      "revision": 1,
+      "prompt": "As exceções de elaboração do ETP previstas na IN SEGES nº 58/2022",
+      "options": [
+        {"id": "a", "text": "são normas gerais nacionais que revogam regulamentos estaduais"},
+        {"id": "b", "text": "aplicam-se automaticamente a todo tribunal de contas estadual"},
+        {"id": "c", "text": "dispensam ETP em toda licitação de bens comuns"},
+        {"id": "d", "text": "pertencem ao regime federal e não devem ser generalizadas sem base de incidência"},
+        {"id": "e", "text": "impedem qualquer ente de elaborar disciplina própria"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A IN rege a Administração federal direta, autárquica e fundacional e hipóteses expressas de transferências voluntárias. Não é regulamento automático do TCE-MA. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1500",
+      "revision": 1,
+      "prompt": "É elemento próprio do Termo de Referência para bens e serviços",
+      "options": [
+        {"id": "a", "text": "a nomeação do licitante vencedor antes da disputa"},
+        {"id": "b", "text": "o modelo de execução e gestão, com critérios de medição e pagamento"},
+        {"id": "c", "text": "a dispensa de estimativa do valor"},
+        {"id": "d", "text": "a substituição da adequação orçamentária por marca"},
+        {"id": "e", "text": "a revogação das conclusões de qualquer estudo sem motivação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O TR define como o objeto será executado, gerido, medido e pago, além de requisitos, seleção, estimativa e adequação orçamentária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1501",
+      "revision": 1,
+      "prompt": "Em serviço comum de engenharia, a equipe propõe especificar o objeto apenas por TR. Isso é possível quando",
+      "options": [
+        {"id": "a", "text": "for demonstrada ausência de prejuízo à aferição dos padrões de desempenho e qualidade"},
+        {"id": "b", "text": "a autoridade declarar verbalmente que todo projeto é inútil"},
+        {"id": "c", "text": "o futuro contratado escolher livremente os padrões"},
+        {"id": "d", "text": "não houver qualquer definição mensurável do objeto"},
+        {"id": "e", "text": "a licitação usar necessariamente maior desconto"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 18, § 3º, condiciona a especificação apenas por TR ou projeto básico à demonstração de que não haverá prejuízo aos padrões desejados; o rótulo comum não basta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1502",
+      "revision": 1,
+      "prompt": "A relação correta entre as peças de engenharia é",
+      "options": [
+        {"id": "a", "text": "anteprojeto e projeto executivo são idênticos"},
+        {"id": "b", "text": "projeto executivo antecede a definição da necessidade"},
+        {"id": "c", "text": "projeto básico é apenas uma lista de marcas"},
+        {"id": "d", "text": "anteprojeto sempre contém todo detalhamento da execução"},
+        {"id": "e", "text": "anteprojeto subsidia, projeto básico define e dimensiona, e executivo detalha a execução completa"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "As peças têm graus e funções distintos: concepção e subsídios no anteprojeto, definição suficiente no projeto básico e detalhamento executivo para realizar a solução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1503",
+      "revision": 1,
+      "prompt": "Entre os deveres estruturantes do art. 19 está",
+      "options": [
+        {"id": "a", "text": "proibir centralização em qualquer contratação"},
+        {"id": "b", "text": "eliminar apoio jurídico na criação de modelos"},
+        {"id": "c", "text": "criar catálogo eletrônico e modelos padronizados e acompanhar obras por sistema informatizado"},
+        {"id": "d", "text": "substituir documentos de planejamento por decisões do fornecedor"},
+        {"id": "e", "text": "impedir o uso de tecnologias digitais em engenharia"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 19 prevê centralização preferencial, catálogo, acompanhamento informatizado de obras, modelos com apoio jurídico/controle e adoção gradual de modelagem digital. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1504",
+      "revision": 1,
+      "prompt": "Um órgão estadual decide não usar catálogo eletrônico nem modelo de minuta disponível. À luz do art. 19, deve",
+      "options": [
+        {"id": "a", "text": "manter a decisão sem registro porque padronização é proibida"},
+        {"id": "b", "text": "pedir autorização ao primeiro licitante"},
+        {"id": "c", "text": "adotar obrigatoriamente todo ato do Executivo federal"},
+        {"id": "d", "text": "cancelar qualquer contratação não padronizada"},
+        {"id": "e", "text": "justificar por escrito a não utilização e anexar a justificativa ao processo"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Outros entes podem adotar catálogo e minutas federais. A não utilização do catálogo ou dos modelos aplicáveis requer justificativa escrita juntada aos autos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1505",
+      "revision": 1,
+      "prompt": "A Modelagem da Informação da Construção (BIM), no art. 19,",
+      "options": [
+        {"id": "a", "text": "é preferencial em obras, engenharia e arquitetura quando adequada ao objeto, em adoção gradual"},
+        {"id": "b", "text": "é proibida em licitações públicas"},
+        {"id": "c", "text": "é universalmente obrigatória em qualquer compra"},
+        {"id": "d", "text": "substitui toda fiscalização humana"},
+        {"id": "e", "text": "só pode ser usada por empresa estrangeira"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A lei combina adoção gradual e preferência quando a tecnologia for adequada ao objeto; não estabelece obrigação universal e imediata. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1506",
+      "revision": 1,
+      "prompt": "Uma área pede equipamento mais durável que o modelo mais barato e demonstra que a vida útil reduz custo e interrupções. O art. 20",
+      "options": [
+        {"id": "a", "text": "proíbe qualquer qualidade acima da opção mais barata"},
+        {"id": "b", "text": "classifica automaticamente todo bem durável como luxo"},
+        {"id": "c", "text": "permite qualidade funcionalmente necessária, vedando excesso luxuoso sem justificativa"},
+        {"id": "d", "text": "dispensa regulamento de classificação pelos Poderes"},
+        {"id": "e", "text": "manda escolher o item de maior preço disponível"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Qualidade comum significa suficiente à finalidade, não necessariamente a pior. Durabilidade pode ser requisito legítimo; luxo é excesso sem adequação funcional demonstrada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1507",
+      "revision": 1,
+      "prompt": "A Administração pretende realizar audiência pública eletrônica sobre licitação complexa. Segundo o art. 21, deve",
+      "options": [
+        {"id": "a", "text": "convocá-la somente depois da assinatura do contrato"},
+        {"id": "b", "text": "restringir manifestações aos fornecedores convidados"},
+        {"id": "c", "text": "ocultar ETP e elementos do edital até a reunião"},
+        {"id": "d", "text": "convocá-la com ao menos oito dias úteis, informações prévias e participação dos interessados"},
+        {"id": "e", "text": "tratá-la como obrigatória em toda contratação de grande vulto"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A audiência é facultativa, presencial ou eletrônica, com antecedência mínima de oito dias úteis, disponibilização de informações e possibilidade de manifestação geral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1508",
+      "revision": 1,
+      "prompt": "A equipe identifica risco de atraso na integração dos sistemas e define ações preventivas. Ainda não distribuiu contratualmente o evento entre as partes. Ela realizou",
+      "options": [
+        {"id": "a", "text": "matriz completa, porque identificar e alocar são sinônimos"},
+        {"id": "b", "text": "análise de riscos, que não se confunde com a matriz de alocação"},
+        {"id": "c", "text": "julgamento antecipado da proposta"},
+        {"id": "d", "text": "contratação direta por inexigibilidade"},
+        {"id": "e", "text": "homologação da licitação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Identificar, avaliar e tratar eventos integra a análise do art. 18, X. A matriz do art. 22 atribui riscos ao contratante ou contratado e será refletida no contrato. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1509",
+      "revision": 1,
+      "prompt": "A matriz de alocação de riscos é obrigatória no edital quando a contratação envolver",
+      "options": [
+        {"id": "a", "text": "qualquer bem de consumo comum"},
+        {"id": "b", "text": "somente serviço contínuo de baixo valor"},
+        {"id": "c", "text": "obra ou serviço de grande vulto ou regime integrado ou semi-integrado"},
+        {"id": "d", "text": "toda consulta pública"},
+        {"id": "e", "text": "apenas licitação presencial"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 22, § 3º, exige matriz para obras e serviços de grande vulto e para contratações integrada e semi-integrada. Fora dessas hipóteses, o edital pode contemplá-la. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1510",
+      "revision": 1,
+      "prompt": "Para fins da Lei nº 14.133/2021, o valor atualizado de grande vulto vigente desde 1º de janeiro de 2026 é superior a",
+      "options": [
+        {"id": "a", "text": "R$ 65.492,11"},
+        {"id": "b", "text": "R$ 130.984,20"},
+        {"id": "c", "text": "R$ 13.098,41"},
+        {"id": "d", "text": "R$ 261.968.421,04"},
+        {"id": "e", "text": "R$ 1.646.430,90"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O Decreto nº 12.807/2025 atualizou o art. 6º, XXII, para R$ 261.968.421,04 a partir de 2026; grande vulto é valor estimado superior a esse montante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1511",
+      "revision": 1,
+      "prompt": "Uma matriz de riscos adequada deve",
+      "options": [
+        {"id": "a", "text": "transferir todos os eventos ao contratado sem análise"},
+        {"id": "b", "text": "alocar eficientemente responsabilidades e prever prevenção e mitigação"},
+        {"id": "c", "text": "eliminar do contrato qualquer referência aos riscos"},
+        {"id": "d", "text": "impedir a consideração de taxa de risco no valor estimado"},
+        {"id": "e", "text": "ser conhecida somente depois do sinistro"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 22 exige alocação eficiente, responsabilidade de cada parte e mecanismos de prevenção e mitigação; o contrato deve refletir a matriz. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1512",
+      "revision": 1,
+      "prompt": "O valor previamente estimado da contratação deve",
+      "options": [
+        {"id": "a", "text": "ser compatível com o mercado, considerando bases públicas, quantidades, escala e peculiaridades locais"},
+        {"id": "b", "text": "corresponder sempre à menor cotação recebida"},
+        {"id": "c", "text": "ser escolhido sem memória ou fonte"},
+        {"id": "d", "text": "ignorar condições de entrega e pagamento"},
+        {"id": "e", "text": "ser definido pelo vencedor após a homologação"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O caput do art. 23 exige aderência ao mercado e consideração de bancos públicos, quantidades, economia de escala e particularidades do local. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1513",
+      "revision": 1,
+      "prompt": "Os parâmetros do art. 23, § 1º, para bens e serviços em geral",
+      "options": [
+        {"id": "a", "text": "devem ser todos usados cumulativamente em qualquer caso"},
+        {"id": "b", "text": "limitam-se a cotações de fornecedores"},
+        {"id": "c", "text": "proíbem sistemas oficiais de preços"},
+        {"id": "d", "text": "excluem contratações públicas similares"},
+        {"id": "e", "text": "podem ser adotados de forma combinada ou não, com formação justificada do melhor preço"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A lei oferece cinco parâmetros que podem ser combinados ou não. A escolha deve produzir referência compatível e criticamente fundamentada, não ritual automático. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1514",
+      "revision": 1,
+      "prompt": "Ao usar contratações públicas similares como parâmetro para bens e serviços em geral, a Lei considera as que estejam em execução ou tenham sido concluídas",
+      "options": [
+        {"id": "a", "text": "em qualquer época, sem atualização"},
+        {"id": "b", "text": "no período de um ano anterior à data da pesquisa, com atualização correspondente"},
+        {"id": "c", "text": "somente depois da divulgação do novo edital"},
+        {"id": "d", "text": "exclusivamente no mesmo órgão e no mesmo mês"},
+        {"id": "e", "text": "apenas quando tiverem sido anuladas"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 23, § 1º, II, usa contratações similares em execução ou concluídas no ano anterior à pesquisa e exige observar atualização de preços. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1515",
+      "revision": 1,
+      "prompt": "Na pesquisa direta de preços prevista no art. 23, § 1º, IV, exige-se",
+      "options": [
+        {"id": "a", "text": "uma única proposta escolhida sem justificativa"},
+        {"id": "b", "text": "cotação verbal sem registro e sem prazo"},
+        {"id": "c", "text": "orçamentos obtidos depois da assinatura do contrato"},
+        {"id": "d", "text": "ao menos três fornecedores, escolha justificada e orçamentos de até seis meses antes do edital"},
+        {"id": "e", "text": "somente fornecedores indicados pelo futuro contratado"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A pesquisa direta é formal, alcança no mínimo três fornecedores, exige justificar sua escolha e usa orçamentos não anteriores a seis meses da divulgação do edital. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1516",
+      "revision": 1,
+      "prompt": "Dados obtidos em sítio eletrônico especializado ou de domínio amplo, como parâmetro legal de preço, devem",
+      "options": [
+        {"id": "a", "text": "ser aceitos sem identificar a consulta"},
+        {"id": "b", "text": "ser produzidos pelo licitante vencedor"},
+        {"id": "c", "text": "conter a data e a hora de acesso"},
+        {"id": "d", "text": "substituir necessariamente todos os demais parâmetros"},
+        {"id": "e", "text": "ser mantidos em segredo dos controles"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 23 exige data e hora para permitir rastreabilidade da fonte. A informação deve ainda ser comparável ao objeto e analisada criticamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1517",
+      "revision": 1,
+      "prompt": "A IN SEGES/ME nº 65/2021",
+      "options": [
+        {"id": "a", "text": "disciplina preços de bens e serviços em geral no âmbito federal e não se aplica a obras e engenharia"},
+        {"id": "b", "text": "é lei nacional automaticamente aplicável a toda obra estadual"},
+        {"id": "c", "text": "proíbe média e mediana na formação de preços"},
+        {"id": "d", "text": "dispensa análise de valores anormais"},
+        {"id": "e", "text": "autoriza pesquisa sem memória ou justificativa"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A IN nº 65/2021 rege bens e serviços em geral da Administração federal e transferências voluntárias expressas; seu art. 1º exclui obras e serviços de engenharia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1518",
+      "revision": 1,
+      "prompt": "Na estimativa de obras e serviços de engenharia, a ordem legal de parâmetros começa por",
+      "options": [
+        {"id": "a", "text": "pesquisa direta informal com um fornecedor"},
+        {"id": "b", "text": "base de notas fiscais antes de qualquer sistema oficial"},
+        {"id": "c", "text": "contratação similar sem atualização"},
+        {"id": "d", "text": "mídia especializada antes de Sicro e Sinapi"},
+        {"id": "e", "text": "Sicro para transportes ou Sinapi para as demais obras e serviços"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 23, § 2º, estabelece ordem: Sicro/Sinapi, mídia e tabelas, contratações similares e base de NF-e, com BDI e encargos sociais cabíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1519",
+      "revision": 1,
+      "prompt": "Estado, Distrito Federal ou Município que contrate sem recursos da União",
+      "options": [
+        {"id": "a", "text": "fica proibido de estimar obras"},
+        {"id": "b", "text": "deve usar somente cotação do futuro contratado"},
+        {"id": "c", "text": "pode ignorar compatibilidade com o mercado"},
+        {"id": "d", "text": "pode utilizar outros sistemas de custos adotados pelo próprio ente"},
+        {"id": "e", "text": "deve aplicar toda instrução federal sem exceção"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 23, § 3º, admite sistemas próprios para esses entes sem recursos da União. Permanece o dever geral de compatibilidade com mercado, escala e local. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1520",
+      "revision": 1,
+      "prompt": "Em contratação direta, se for inviável estimar pelos parâmetros dos §§ 1º a 3º do art. 23,",
+      "options": [
+        {"id": "a", "text": "o futuro contratado deve comprovar preços de objetos semelhantes por notas fiscais para outros contratantes emitidas até um ano antes da contratação ou por outro meio idôneo"},
+        {"id": "b", "text": "a Administração aceita qualquer preço sem justificativa"},
+        {"id": "c", "text": "a estimativa é feita somente após o pagamento"},
+        {"id": "d", "text": "o controle fica impedido de examinar os valores"},
+        {"id": "e", "text": "a inviabilidade da pesquisa torna desnecessária a conformidade com mercado"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O § 4º exige demonstração prévia de preços conformes a contratações semelhantes da mesma natureza, por notas fiscais emitidas para outros contratantes no período de até um ano anterior à data da contratação pela Administração ou por outro meio idôneo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1521",
+      "revision": 1,
+      "prompt": "Na estimativa de engenharia sob contratação integrada ou semi-integrada,",
+      "options": [
+        {"id": "a", "text": "todo orçamento deve ser substituído por valor arbitrário"},
+        {"id": "b", "text": "a remuneração de risco é sempre proibida"},
+        {"id": "c", "text": "método paramétrico deve substituir todas as partes detalhadas"},
+        {"id": "d", "text": "o licitante pode apresentar orçamento menos detalhado que a referência sintética"},
+        {"id": "e", "text": "o orçamento pode considerar risco e reservar métodos aproximados às frações não detalhadas no anteprojeto"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 23, §§ 5º e 6º, combina orçamento sintético, eventual remuneração de risco e métodos aproximados apenas onde o anteprojeto não permite detalhamento suficiente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1522",
+      "revision": 1,
+      "prompt": "A Administração decide manter sigiloso o orçamento estimado, mas não apresenta justificativa. A decisão é",
+      "options": [
+        {"id": "a", "text": "válida porque todo orçamento é sigiloso por natureza"},
+        {"id": "b", "text": "válida se também ocultar quantitativos dos licitantes"},
+        {"id": "c", "text": "incompatível com o art. 24, que condiciona o sigilo à justificativa"},
+        {"id": "d", "text": "obrigatória em qualquer contratação de baixo valor"},
+        {"id": "e", "text": "irrelevante porque orçamento só é formado após a disputa"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O orçamento pode ser sigiloso desde que justificado. Ele continua sendo formado previamente, e informações necessárias à elaboração das propostas permanecem disponíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1523",
+      "revision": 1,
+      "prompt": "O caráter sigiloso do orçamento estimado",
+      "options": [
+        {"id": "a", "text": "impede acesso do controle externo"},
+        {"id": "b", "text": "não prevalece perante os órgãos de controle interno e externo"},
+        {"id": "c", "text": "autoriza dispensar documentos de suporte"},
+        {"id": "d", "text": "permite ocultar todas as informações do objeto"},
+        {"id": "e", "text": "elimina a motivação do momento de divulgação"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 24 preserva acesso dos controles. Sigilo não elimina orçamento, suporte, quantitativos necessários ou motivação prevista no art. 18, XI. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1524",
+      "revision": 1,
+      "prompt": "Se o critério de julgamento for maior desconto,",
+      "options": [
+        {"id": "a", "text": "o preço estimado ou o máximo aceitável deve constar do edital"},
+        {"id": "b", "text": "o orçamento deve permanecer secreto até o pagamento"},
+        {"id": "c", "text": "a Administração fica dispensada de estimar valores"},
+        {"id": "d", "text": "os quantitativos podem ser omitidos"},
+        {"id": "e", "text": "o controle externo só acessa o preço com autorização do vencedor"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O parágrafo único do art. 24 afasta o sigilo do preço de referência nessa hipótese, pois o desconto precisa incidir sobre base conhecida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1525",
+      "revision": 1,
+      "prompt": "O edital deve conter, entre outras matérias,",
+      "options": [
+        {"id": "a", "text": "somente o nome do objeto e a data da sessão"},
+        {"id": "b", "text": "a identidade do vencedor previamente escolhido"},
+        {"id": "c", "text": "regras de convocação, julgamento, habilitação, recursos, penalidades, gestão, entrega e pagamento"},
+        {"id": "d", "text": "apenas regras definidas oralmente pelo agente"},
+        {"id": "e", "text": "cláusula que dispensa fiscalização e recebimento"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O caput do art. 25 exige objeto e regras que percorrem seleção e futura execução: convocação, julgamento, habilitação, recursos, penalidades, fiscalização/gestão, entrega e pagamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1526",
+      "revision": 1,
+      "prompt": "Quanto aos anexos do edital, o art. 25 determina que",
+      "options": [
+        {"id": "a", "text": "sejam acessíveis somente ao licitante cadastrado"},
+        {"id": "b", "text": "TR, projetos, minuta e demais elementos sejam divulgados na mesma data, sem registro para acesso"},
+        {"id": "c", "text": "a minuta seja publicada apenas depois do contrato"},
+        {"id": "d", "text": "o anteprojeto permaneça sempre secreto"},
+        {"id": "e", "text": "somente o vencedor possa consultar as especificações"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O § 3º exige divulgação simultânea dos elementos e acesso sem cadastro ou identificação, garantindo conhecimento integral das condições da disputa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1527",
+      "revision": 1,
+      "prompt": "O edital pretende exigir materiais e mão de obra existentes no local da execução. A exigência é admissível quando",
+      "options": [
+        {"id": "a", "text": "decorre apenas da preferência econômica do gestor"},
+        {"id": "b", "text": "beneficia empresa local, ainda que elimine competição"},
+        {"id": "c", "text": "não consta de qualquer estudo"},
+        {"id": "d", "text": "é criada depois da apresentação das propostas"},
+        {"id": "e", "text": "o ETP demonstra que não haverá prejuízo à competitividade nem à eficiência contratual"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 25, § 2º, condiciona requisitos locais à demonstração no ETP e à ausência de prejuízo à competição e à eficiência; não autoriza preferência territorial disfarçada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1528",
+      "revision": 1,
+      "prompt": "Em obra de grande vulto, o edital deve prever que o vencedor implante programa de integridade",
+      "options": [
+        {"id": "a", "text": "antes de apresentar proposta, sem regulamento"},
+        {"id": "b", "text": "somente depois do encerramento do contrato"},
+        {"id": "c", "text": "em prazo livre definido pelo próprio licitante"},
+        {"id": "d", "text": "em até seis meses contados da celebração do contrato, conforme regulamento"},
+        {"id": "e", "text": "apenas se o controle externo dispensar a exigência"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 25, § 4º, torna a previsão editalícia obrigatória em obras, serviços e fornecimentos de grande vulto e fixa seis meses da celebração para implantação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1529",
+      "revision": 1,
+      "prompt": "Independentemente do prazo do contrato, o edital deve prever",
+      "options": [
+        {"id": "a", "text": "reajuste sem data-base e segundo escolha posterior"},
+        {"id": "b", "text": "proibição absoluta de recomposição de preços"},
+        {"id": "c", "text": "índice de reajustamento com data-base vinculada ao orçamento estimado"},
+        {"id": "d", "text": "um único índice genérico para qualquer insumo"},
+        {"id": "e", "text": "reajuste definido exclusivamente pelo contratado"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 25, § 7º, exige índice de reajuste em todo contrato e vincula sua data-base ao orçamento estimado, admitindo índices específicos ou setoriais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1530",
+      "revision": 1,
+      "prompt": "A margem de preferência do art. 26 pode alcançar",
+      "options": [
+        {"id": "a", "text": "qualquer empresa escolhida sem critério técnico"},
+        {"id": "b", "text": "somente produtos estrangeiros"},
+        {"id": "c", "text": "bens de luxo, independentemente de regulamento"},
+        {"id": "d", "text": "fornecedor local apenas por sua sede"},
+        {"id": "e", "text": "bens e serviços nacionais conformes e bens reciclados, recicláveis ou biodegradáveis"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 26 vincula a preferência a bens manufaturados e serviços nacionais conformes a normas técnicas e a bens sustentáveis definidos em regulamento; não é favoritismo subjetivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1531",
+      "revision": 1,
+      "prompt": "Para bens e serviços nacionais resultantes de desenvolvimento e inovação tecnológica realizados no País, a margem legal pode ser de até",
+      "options": [
+        {"id": "a", "text": "20%"},
+        {"id": "b", "text": "50%"},
+        {"id": "c", "text": "75%"},
+        {"id": "d", "text": "100%"},
+        {"id": "e", "text": "valor ilimitado"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 26, § 2º, admite margem de até 20% para desenvolvimento e inovação nacional; a margem comum pode chegar a 10%. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1532",
+      "revision": 1,
+      "prompt": "A transparência anual do art. 27 exige divulgar",
+      "options": [
+        {"id": "a", "text": "somente o total global sem identificar beneficiários"},
+        {"id": "b", "text": "apenas empresas que não receberam margem"},
+        {"id": "c", "text": "informações sigilosas dos trabalhadores dos fornecedores"},
+        {"id": "d", "text": "as empresas favorecidas pela margem e o volume de recursos destinado a cada uma"},
+        {"id": "e", "text": "somente a lista de produtos estrangeiros rejeitados"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 27 manda divulgar, a cada exercício, a relação de empresas favorecidas e o volume de recursos destinado individualmente, permitindo avaliar a política. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1533",
+      "revision": 1,
+      "prompt": "No planejamento de digitalização de documentos, a equipe estima demanda, compara compra, locação e serviço gerenciado, avalia ciclo de vida, justifica lotes, define riscos e depois detalha o TR. Esse procedimento",
+      "options": [
+        {"id": "a", "text": "é inválido porque o TR deve preceder a identificação da necessidade"},
+        {"id": "b", "text": "segue a lógica do planejamento ao investigar problema e alternativas antes de especificar o objeto"},
+        {"id": "c", "text": "dispensa pesquisa de preços e compatibilidade orçamentária"},
+        {"id": "d", "text": "autoriza escolher fornecedor durante o ETP"},
+        {"id": "e", "text": "torna desnecessários edital e minuta"}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O caso percorre necessidade, alternativas, viabilidade, parcelamento, riscos e definição do objeto na ordem adequada. As etapas posteriores continuam necessárias. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
