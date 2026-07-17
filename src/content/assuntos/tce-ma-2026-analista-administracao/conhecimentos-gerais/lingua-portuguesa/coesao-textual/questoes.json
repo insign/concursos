@@ -1,706 +1,1746 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q134",
-      "revision": 1,
-      "prompt": "Assinale a opção correta a respeito de coesão e coerência textual.",
+      "revision": 2,
+      "prompt": "Considere o trecho: “O relatório foi entregue no prazo. O documento, contudo, não responde às perguntas centrais. Portanto, a análise terá de ser complementada.” Assinale a opção correta.",
       "options": [
-        { "id": "a", "text": "A presença de pronomes e conectores garante, por si só, a coerência de um texto." },
-        { "id": "b", "text": "Coerência é apenas a conformidade da frase com as regras de concordância e regência." },
-        { "id": "c", "text": "Coesão organiza relações linguísticas entre partes do texto, enquanto coerência diz respeito à construção de um sentido global interpretável." },
-        { "id": "d", "text": "Um texto coerente dispensa qualquer mecanismo de coesão." },
-        { "id": "e", "text": "Coesão e coerência são nomes diferentes para o mesmo fenômeno." }
+        {
+          "id": "a",
+          "text": "O trecho apresenta coesão referencial em “O documento” e coesão sequencial em “contudo” e “portanto”, mas a presença dessas marcas não basta, por si só, para garantir a coerência de qualquer texto."
+        },
+        {
+          "id": "b",
+          "text": "A recategorização de “relatório” por “documento” elimina a necessidade de verificar se ambos designam o mesmo objeto."
+        },
+        {
+          "id": "c",
+          "text": "“Contudo” e “portanto” são intercambiáveis, pois ambos apenas conectam períodos."
+        },
+        {
+          "id": "d",
+          "text": "A coerência do trecho decorre exclusivamente da concordância nominal entre “relatório” e “documento”."
+        },
+        {
+          "id": "e",
+          "text": "O pronome demonstrativo implícito em “O documento” torna o segundo período exofórico."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Coesão reúne marcas como pronomes, elipses, repetições e conectores; coerência depende de relações semânticas e pragmáticas que tornem o conjunto interpretável. As demais opções confundem os conceitos ou afirmam uma garantia inexistente. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e coerência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3) e na justificativa oficial do Cebraspe para CNMP 2023 (https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/CNMP_23_JUSTIFICATIVAS_DE_ALTERAES_DE_GABARITO.PDF)."
+      "correctOptionId": "a",
+      "explanation": "“O documento” retoma e recategoriza “o relatório”; “contudo” introduz oposição, e “portanto”, conclusão. Coesão é a articulação formal e semântica entre partes do texto; coerência é a construção de um sentido global, que não nasce automaticamente da mera presença de conectores ou retomadas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q135",
-      "revision": 1,
-      "prompt": "No trecho “A auditora protocolou o parecer. Ela solicitou prioridade na análise.”, a palavra “Ela” exerce função de",
+      "revision": 2,
+      "prompt": "No trecho “A auditora apresentou o parecer à diretora. Em seguida, ela solicitou nova diligência.”, por que o referente de “ela” não pode ser determinado apenas pela proximidade linear?",
       "options": [
-        { "id": "a", "text": "catáfora exofórica." },
-        { "id": "b", "text": "anáfora endofórica." },
-        { "id": "c", "text": "elipse verbal." },
-        { "id": "d", "text": "conector conclusivo." },
-        { "id": "e", "text": "hiperônimo de “auditora”." }
+        {
+          "id": "a",
+          "text": "Porque pronomes pessoais nunca possuem antecedente expresso no texto."
+        },
+        {
+          "id": "b",
+          "text": "Porque “auditora” e “diretora” são candidatas compatíveis em gênero e número, de modo que o contexto e o sentido da ação devem decidir a cadeia referencial."
+        },
+        {
+          "id": "c",
+          "text": "Porque “ela” funciona como conector temporal, não como expressão referencial."
+        },
+        {
+          "id": "d",
+          "text": "Porque o pronome retoma obrigatoriamente o primeiro substantivo do período anterior."
+        },
+        {
+          "id": "e",
+          "text": "Porque a proximidade só pode ser usada quando o antecedente está no mesmo período."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "“Ela” retoma, dentro do próprio texto, a expressão anterior “a auditora”; é, portanto, referência endofórica anafórica. Catáfora antecipa elemento posterior, e exófora depende da situação externa. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre referenciação (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "O antecedente mais próximo é apenas uma pista. Como as duas expressões nominais são femininas e singulares, a leitura precisa recorrer ao contexto, ao papel semântico e à progressão do texto; sem informação adicional, há ambiguidade referencial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q136",
-      "revision": 1,
-      "prompt": "No enunciado “Só uma medida é indispensável: revisar o contrato.”, a expressão “uma medida” estabelece, em relação ao trecho posterior, uma",
+      "revision": 2,
+      "prompt": "No enunciado “Uma providência é indispensável: que a comissão reexamine os contratos”, a expressão “uma providência” estabelece com a oração posterior uma relação de",
       "options": [
-        { "id": "a", "text": "anáfora, porque retoma “revisar o contrato”." },
-        { "id": "b", "text": "exófora, porque depende de gesto do enunciador." },
-        { "id": "c", "text": "elipse, porque omite o verbo principal." },
-        { "id": "d", "text": "catáfora, porque anuncia conteúdo explicitado depois." },
-        { "id": "e", "text": "repetição lexical, porque repete o termo “contrato”." }
+        {
+          "id": "a",
+          "text": "anáfora direta, pois repete literalmente “contratos”."
+        },
+        {
+          "id": "b",
+          "text": "exófora, pois depende de um gesto do enunciador."
+        },
+        {
+          "id": "c",
+          "text": "catáfora, pois anuncia um conteúdo que será especificado depois dos dois-pontos."
+        },
+        {
+          "id": "d",
+          "text": "anáfora indireta, pois ativa a ideia de edifício público."
+        },
+        {
+          "id": "e",
+          "text": "elipse verbal, pois omite o predicado da segunda oração."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "A expressão vaga “uma medida” é esclarecida posteriormente pela oração “revisar o contrato”; há antecipação, isto é, catáfora. Não há retomada de elemento anterior nem dependência obrigatória de contexto externo. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre referenciação (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "A expressão inicialmente vaga é preenchida pelo segmento posterior “que a comissão reexamine os contratos”. A direção da referência é prospectiva, característica da catáfora. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q137",
-      "revision": 1,
-      "prompt": "Se uma mensagem isolada contém apenas a frase “Coloque isso ali”, os termos “isso” e “ali” são compreendidos principalmente por meio de referência",
+      "revision": 2,
+      "prompt": "Em um memorando autônomo, lê-se apenas “Deixe estes documentos ali”. Sem outra indicação no texto, “estes documentos” e “ali” são interpretados principalmente por referência",
       "options": [
-        { "id": "a", "text": "exofórica, pois dependem da situação comunicativa." },
-        { "id": "b", "text": "anafórica, pois retomam termos anteriores da própria frase." },
-        { "id": "c", "text": "catafórica, pois antecipam uma enumeração." },
-        { "id": "d", "text": "hiponímica, pois especificam um termo geral." },
-        { "id": "e", "text": "elíptica, pois substituem um verbo omitido." }
+        {
+          "id": "a",
+          "text": "anafórica, porque retomam o título do memorando."
+        },
+        {
+          "id": "b",
+          "text": "catafórica, porque antecipam uma enumeração necessariamente posterior."
+        },
+        {
+          "id": "c",
+          "text": "encapsuladora, porque resumem uma proposição anterior."
+        },
+        {
+          "id": "d",
+          "text": "exofórica, dependente da situação comunicativa compartilhada."
+        },
+        {
+          "id": "e",
+          "text": "indireta, porque “documentos” ativa a ideia de arquivo."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Sem texto anterior ou posterior que identifique objeto e lugar, “isso” e “ali” exigem o contexto exterior, como gesto, espaço ou situação compartilhada. Essa dependência caracteriza a exófora. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e referência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "d",
+      "explanation": "As expressões apontam para objetos e lugar que não estão identificados no enunciado. A recuperação depende do ambiente, de gesto ou de conhecimento situacional, o que caracteriza exófora. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q138",
-      "revision": 1,
-      "prompt": "No trecho “O tribunal divulgou o relatório. Esse documento será analisado amanhã.”, a expressão “Esse documento”",
+      "revision": 2,
+      "prompt": "Considere: “O TCE publicou um relatório sobre as compras. O diagnóstico apontou falhas de planejamento.” A expressão “O diagnóstico”",
       "options": [
-        { "id": "a", "text": "introduz um referente sem relação com “o relatório”." },
-        { "id": "b", "text": "depende exclusivamente de circunstância extratextual." },
-        { "id": "c", "text": "substitui um verbo omitido." },
-        { "id": "d", "text": "antecipa uma informação que ainda será apresentada." },
-        { "id": "e", "text": "retoma e recategoriza, no texto, o relatório anteriormente mencionado." }
+        {
+          "id": "a",
+          "text": "é obrigatoriamente sinônimo dicionarizado de “relatório”."
+        },
+        {
+          "id": "b",
+          "text": "introduz sempre um novo referente, porque utiliza substantivo diferente."
+        },
+        {
+          "id": "c",
+          "text": "retoma exclusivamente a palavra “compras”."
+        },
+        {
+          "id": "d",
+          "text": "funciona como conector conclusivo entre os períodos."
+        },
+        {
+          "id": "e",
+          "text": "pode recategorizar o relatório, desde que o contexto sustente que esse documento contém a avaliação mencionada."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "“Esse documento” aponta para “o relatório” e o apresenta sob uma designação compatível. Há retomada interna e recategorização do mesmo objeto de discurso. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "explanation": "A referenciação é dinâmica: o mesmo objeto de discurso pode ser retomado sob nova designação pertinente. A recategorização não depende de sinonímia perfeita, mas precisa ser compatível com o conteúdo e a cadeia referencial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q139",
-      "revision": 1,
-      "prompt": "Em “A relatora apresentou seu voto, e ela propôs diligências.”, os mecanismos de referência empregados são, respectivamente,",
+      "revision": 2,
+      "prompt": "No período “A comissão examinou a proposta que previa a digitalização do arquivo”, qual é o antecedente mais provável do pronome relativo “que”?",
       "options": [
-        { "id": "a", "text": "comparativo e espacial." },
-        { "id": "b", "text": "catafórico e temporal." },
-        { "id": "c", "text": "pessoal possessivo e pessoal pronominal." },
-        { "id": "d", "text": "hiperonímico e hiponímico." },
-        { "id": "e", "text": "elíptico e conjuntivo." }
+        {
+          "id": "a",
+          "text": "“a proposta”, porque é essa entidade que, no contexto, contém a previsão de digitalização."
+        },
+        {
+          "id": "b",
+          "text": "“a comissão”, por ser o sujeito da oração principal."
+        },
+        {
+          "id": "c",
+          "text": "“o arquivo”, por ser o substantivo mais próximo do fim do período."
+        },
+        {
+          "id": "d",
+          "text": "toda a oração “A comissão examinou”, porque todo relativo retoma uma proposição."
+        },
+        {
+          "id": "e",
+          "text": "nenhum termo, pois o relativo é sempre exofórico."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "“Seu” é possessivo e “ela” é pronome pessoal; ambos podem participar da referência pessoal. Não se trata de conectores, elipses nem de relações lexicais de generalidade. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre referenciação (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "a",
+      "explanation": "O relativo introduz a oração que caracteriza “a proposta”. A identificação do antecedente exige compatibilidade semântica e sintática, não simples escolha do substantivo mais próximo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q140",
-      "revision": 1,
-      "prompt": "Acerca do emprego de demonstrativos na coesão textual, assinale a opção correta.",
+      "revision": 2,
+      "prompt": "No trecho “A gerente informou à assessora que seu relatório seria revisto”, qual reescrita elimina a ambiguidade caso o relatório pertença à assessora?",
       "options": [
-        { "id": "a", "text": "“Este” é sempre catafórico, e “esse” é sempre anafórico." },
-        { "id": "b", "text": "A direção da referência demonstrativa deve ser identificada no contexto; não há fórmula infalível baseada apenas na escolha entre “este” e “esse”." },
-        { "id": "c", "text": "Demonstrativos só podem retomar nomes de pessoas." },
-        { "id": "d", "text": "“Isso” jamais pode resumir uma oração ou um conjunto de fatos anteriores." },
-        { "id": "e", "text": "Todo demonstrativo depende obrigatoriamente de situação externa ao texto." }
+        {
+          "id": "a",
+          "text": "“A gerente informou à assessora que o seu relatório seria revisto.”"
+        },
+        {
+          "id": "b",
+          "text": "“A gerente informou à assessora que o relatório da assessora seria revisto.”"
+        },
+        {
+          "id": "c",
+          "text": "“A gerente informou à assessora que esse relatório seria revisto.”"
+        },
+        {
+          "id": "d",
+          "text": "“A gerente informou à assessora: seu relatório seria revisto.”"
+        },
+        {
+          "id": "e",
+          "text": "“A gerente informou à assessora que ele seria revisto.”"
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Demonstrativos podem retomar, antecipar ou apontar para a situação de fala; o contexto define a direção e o referente. As afirmações absolutas das demais opções ignoram essa variedade de usos. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre referência endofórica e exofórica (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "O possessivo “seu” pode remeter à gerente ou à assessora. A repetição nominal controlada explicita a proprietária pretendida; artigo, demonstrativo, pontuação ou pronome pessoal não resolvem necessariamente a dúvida. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q141",
-      "revision": 1,
-      "prompt": "No período “A segunda proposta contém os mesmos critérios da primeira.”, a expressão “os mesmos” estabelece principalmente uma relação de referência",
+      "revision": 2,
+      "prompt": "Considere: “A unidade não publicou os dados nem justificou a omissão. Isso comprometeu a transparência.” A forma “Isso” retoma",
       "options": [
-        { "id": "a", "text": "temporal." },
-        { "id": "b", "text": "espacial." },
-        { "id": "c", "text": "exofórica." },
-        { "id": "d", "text": "comparativa de identidade." },
-        { "id": "e", "text": "elíptica verbal." }
+        {
+          "id": "a",
+          "text": "somente “a omissão”, por ser a expressão imediatamente anterior."
+        },
+        {
+          "id": "b",
+          "text": "apenas “os dados”, por concordar semanticamente com informação."
+        },
+        {
+          "id": "c",
+          "text": "o conjunto das duas condutas anteriores, e não apenas o substantivo mais próximo."
+        },
+        {
+          "id": "d",
+          "text": "um fato que será enunciado no período seguinte."
+        },
+        {
+          "id": "e",
+          "text": "uma entidade exterior ao texto, necessariamente apontada por gesto."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "“Os mesmos” compara os critérios das duas propostas e afirma identidade entre eles. Não organiza o texto no tempo ou no espaço, nem omite um verbo. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre mecanismos de coesão (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "O demonstrativo neutro pode encapsular uma proposição ou sequência de proposições. Aqui, o comprometimento decorre da não publicação e da falta de justificativa, conforme o alcance construído pelo contexto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q142",
-      "revision": 1,
-      "prompt": "Assinale a formulação correta sobre antecedente e referente.",
+      "revision": 2,
+      "prompt": "Em “A comissão entrou no prédio. A recepção estava vazia”, a expressão “A recepção” exemplifica",
       "options": [
-        { "id": "a", "text": "O antecedente é uma expressão textual que pode permitir identificar um referente, o qual pode ser pessoa, objeto, fato, conceito ou segmento discursivo." },
-        { "id": "b", "text": "Todo referente é obrigatoriamente uma palavra anterior ao pronome." },
-        { "id": "c", "text": "Antecedente e referente são sempre sinônimos perfeitos." },
-        { "id": "d", "text": "Referente é apenas um nome próprio de pessoa." },
-        { "id": "e", "text": "A noção de referente exclui orações e fatos anteriormente mencionados." }
+        {
+          "id": "a",
+          "text": "anáfora direta, pois “recepção” é outro nome obrigatório para “prédio”."
+        },
+        {
+          "id": "b",
+          "text": "catáfora, pois antecipa a entrada da comissão."
+        },
+        {
+          "id": "c",
+          "text": "substituição verbal, pois ocupa o lugar de “entrou”."
+        },
+        {
+          "id": "d",
+          "text": "anáfora indireta ou associativa, pois é interpretada por uma relação de conhecimento entre prédio e recepção, sem correferência literal."
+        },
+        {
+          "id": "e",
+          "text": "exófora pura, pois não há qualquer pista textual para sua interpretação."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Um antecedente textual pode orientar a identificação do referente, mas o referente não se limita a uma palavra anterior nem a uma pessoa. Expressões como “isso” e “essa decisão” podem remeter a fatos ou segmentos inteiros. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "correctOptionId": "d",
+      "explanation": "A expressão definida introduz uma entidade nova, mas inferível a partir do cenário ativado por “prédio”. Não retoma o mesmo objeto; constrói-se por associação sociocognitiva. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q143",
-      "revision": 1,
-      "prompt": "Considere a frase “A gerente falou com a analista quando ela chegou.”. Se a intenção for informar que a analista chegou, a reescrita mais precisa é",
+      "revision": 2,
+      "prompt": "No trecho “A licitação foi anulada, o contrato não foi assinado e os fornecedores recorreram. Essa sequência exigiu novo cronograma”, “Essa sequência” funciona como",
       "options": [
-        { "id": "a", "text": "“A gerente falou com a analista quando a gerente chegou.”" },
-        { "id": "b", "text": "“A gerente falou com a analista, pois a analista chegou.”" },
-        { "id": "c", "text": "“A gerente falou com a analista quando a analista chegou.”" },
-        { "id": "d", "text": "“A gerente falou com a analista quando chegou.”" },
-        { "id": "e", "text": "“A gerente falou com a analista depois que ela chegou.”" }
+        {
+          "id": "a",
+          "text": "anáfora direta de “fornecedores”, pois concorda com o plural."
+        },
+        {
+          "id": "b",
+          "text": "catáfora de “novo cronograma”, pois antecipa o predicativo."
+        },
+        {
+          "id": "c",
+          "text": "hipônimo de “contrato”, pois é mais específica."
+        },
+        {
+          "id": "d",
+          "text": "conector causal, pois substitui “porque”."
+        },
+        {
+          "id": "e",
+          "text": "anáfora encapsuladora, porque transforma vários acontecimentos anteriores em um objeto de comentário."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "A repetição controlada de “a analista” elimina a ambiguidade de “ela”. A atribui a chegada à gerente; B altera a relação temporal para causal; D e E preservam a dúvida sobre quem chegou. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e coerência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "e",
+      "explanation": "O sintagma nominal resume o encadeamento precedente e permite predicar algo sobre ele. O referente não é um único nome, mas uma porção discursiva complexa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q144",
-      "revision": 1,
-      "prompt": "Sobre referência e substituição, assinale a opção correta.",
+      "revision": 2,
+      "prompt": "Assinale a opção que distingue adequadamente referência e substituição em uma análise textual estrita.",
       "options": [
-        { "id": "a", "text": "Todo pronome é necessariamente uma substituição verbal." },
-        { "id": "b", "text": "Referência e substituição não podem aparecer no mesmo texto." },
-        { "id": "c", "text": "Elipse é a repetição integral de uma expressão anterior." },
-        { "id": "d", "text": "A classificação dos mecanismos dispensa verificar se a reescrita preserva o sentido." },
-        { "id": "e", "text": "Em classificação estrita, uma forma pronominal pode direcionar o leitor a um referente, enquanto a substituição ocupa o lugar de uma unidade recuperável; em prova, importa verificar o efeito textual." }
+        {
+          "id": "a",
+          "text": "Em “O parecer chegou. Ele será lido”, “ele” orienta a identificação do referente; em “Preciso de uma cópia. Você tem uma?”, “uma” ocupa o lugar de “uma cópia”."
+        },
+        {
+          "id": "b",
+          "text": "Em qualquer classificação, todo pronome pessoal é substituição verbal."
+        },
+        {
+          "id": "c",
+          "text": "Referência exige repetição literal, enquanto substituição exige sempre omissão."
+        },
+        {
+          "id": "d",
+          "text": "Substituição só ocorre com conectores, e referência, apenas com substantivos."
+        },
+        {
+          "id": "e",
+          "text": "A distinção técnica torna desnecessário verificar se a reescrita preserva sentido e correção."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Referência e substituição têm descrições técnicas distintas, embora materiais de concurso às vezes as agrupem. Em qualquer nomenclatura, a análise deve preservar referente, estrutura, correção e sentido. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre os mecanismos clássicos de coesão (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "a",
+      "explanation": "A primeira forma aponta para um objeto de discurso já introduzido; a segunda substitui uma unidade nominal recuperável. Em provas, a terminologia deve ser articulada ao efeito real da forma no contexto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q145",
-      "revision": 1,
-      "prompt": "Em “Preciso de uma cópia do relatório. Você tem uma?”, o termo “uma” no segundo período exemplifica",
+      "revision": 2,
+      "prompt": "No diálogo “Há duas versões do parecer. Preciso de uma para instruir o processo. Você pode enviar a mais recente?”, a expressão “uma”",
       "options": [
-        { "id": "a", "text": "catáfora." },
-        { "id": "b", "text": "substituição nominal." },
-        { "id": "c", "text": "conjunção adversativa." },
-        { "id": "d", "text": "referência espacial." },
-        { "id": "e", "text": "hiponímia." }
+        {
+          "id": "a",
+          "text": "retoma apenas o substantivo “processo”."
+        },
+        {
+          "id": "b",
+          "text": "substitui nominalmente “uma versão do parecer”, enquanto “a mais recente” seleciona uma das versões já introduzidas."
+        },
+        {
+          "id": "c",
+          "text": "introduz uma causa para a solicitação."
+        },
+        {
+          "id": "d",
+          "text": "é catáfora da forma verbal “enviar”."
+        },
+        {
+          "id": "e",
+          "text": "é exofórica porque não há antecedente no diálogo."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "“Uma” ocupa o lugar de “uma cópia do relatório”, expressão recuperável do contexto anterior. Não introduz oposição, espaço nem uma relação de gênero e espécie. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre substituição (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "O numeral/artigo substantivado ocupa o lugar de uma expressão nominal recuperável. A continuação da cadeia restringe qual exemplar deve ser enviado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q146",
-      "revision": 1,
-      "prompt": "No trecho “A comissão revisou os autos, e a relatora também o fez.”, a locução “o fez” retoma",
+      "revision": 2,
+      "prompt": "Considere: “A equipe revisou os indicadores, e a relatora também o fez antes da reunião.” A expressão “o fez”",
       "options": [
-        { "id": "a", "text": "somente a palavra “autos”." },
-        { "id": "b", "text": "a identidade da relatora." },
-        { "id": "c", "text": "uma circunstância exterior ao texto." },
-        { "id": "d", "text": "a ação de revisar os autos." },
-        { "id": "e", "text": "uma relação de causa." }
+        {
+          "id": "a",
+          "text": "retoma apenas “os indicadores” como pronome pessoal."
+        },
+        {
+          "id": "b",
+          "text": "substitui a expressão temporal “antes da reunião”."
+        },
+        {
+          "id": "c",
+          "text": "substitui o predicado “revisou os indicadores”, preservando a ação e seu complemento recuperável."
+        },
+        {
+          "id": "d",
+          "text": "introduz oposição entre equipe e relatora."
+        },
+        {
+          "id": "e",
+          "text": "é uma elipse impossível de reconstruir."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "A expressão “o fez” substitui a ação anteriormente enunciada, isto é, revisar os autos. Ela não designa apenas o objeto “autos” nem funciona como conector causal. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre substituição e coesão (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "A substituição verbal evita repetir o conteúdo predicativo. O leitor recupera a ação completa a partir da primeira oração; o sujeito da segunda é “a relatora”. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q147",
-      "revision": 1,
-      "prompt": "No período “A primeira equipe analisou contratos; a segunda, convênios.”, ocorre",
+      "revision": 2,
+      "prompt": "No período “A primeira unidade analisou contratos; a segunda, convênios; a terceira, atas”, as vírgulas após “segunda” e “terceira” sinalizam",
       "options": [
-        { "id": "a", "text": "elipse do verbo “analisou” no segundo segmento." },
-        { "id": "b", "text": "catáfora do termo “convênios”." },
-        { "id": "c", "text": "exófora do termo “equipe”." },
-        { "id": "d", "text": "substituição de “contratos” por “convênios”." },
-        { "id": "e", "text": "conector de finalidade." }
+        {
+          "id": "a",
+          "text": "omissão dos sujeitos das três orações."
+        },
+        {
+          "id": "b",
+          "text": "substituição de “contratos” por “unidades”."
+        },
+        {
+          "id": "c",
+          "text": "catáfora dos termos “convênios” e “atas”."
+        },
+        {
+          "id": "d",
+          "text": "elipse do verbo “analisou”, recuperável nos dois segmentos posteriores."
+        },
+        {
+          "id": "e",
+          "text": "introdução de orações explicativas por aposto."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O verbo “analisou” não é repetido no segundo membro, mas pode ser recuperado com segurança: “a segunda equipe analisou convênios”. Isso caracteriza elipse. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre elipse (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "d",
+      "explanation": "O verbo expresso no primeiro membro vale para os seguintes e sua ausência é marcada pela vírgula. A estrutura paralela torna a recuperação segura. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q148",
-      "revision": 1,
-      "prompt": "Para que uma elipse contribua para a coesão textual, é necessário que",
+      "revision": 2,
+      "prompt": "Qual reescrita evita uma elipse potencialmente ambígua?",
       "options": [
-        { "id": "a", "text": "o termo omitido seja impossível de recuperar." },
-        { "id": "b", "text": "a omissão produza pelo menos duas leituras igualmente plausíveis." },
-        { "id": "c", "text": "se elimine obrigatoriamente qualquer repetição lexical." },
-        { "id": "d", "text": "a frase omita sempre o sujeito da oração anterior." },
-        { "id": "e", "text": "o leitor consiga reconstruir com segurança o elemento omitido." }
+        {
+          "id": "a",
+          "text": "“A diretora comunicou à assessora que participaria da reunião.”"
+        },
+        {
+          "id": "b",
+          "text": "“A diretora comunicou à assessora a participação.”"
+        },
+        {
+          "id": "c",
+          "text": "“A diretora comunicou à assessora que ela participaria.”"
+        },
+        {
+          "id": "d",
+          "text": "“A diretora comunicou à assessora: participaria da reunião.”"
+        },
+        {
+          "id": "e",
+          "text": "“A diretora comunicou à assessora que a assessora participaria da reunião.”"
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "A elipse é econômica apenas quando o contexto permite recuperar o termo sem ambiguidade relevante. Se a omissão deixa leituras concorrentes, ela prejudica a precisão da ligação textual. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre elipse e coesão (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "Nas demais formulações, o sujeito de “participaria” pode ser a diretora ou a assessora. A repetição controlada é menos econômica, mas fixa o referente e protege a precisão do texto administrativo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q149",
-      "revision": 1,
-      "prompt": "A respeito da repetição lexical, assinale a opção correta.",
+      "revision": 2,
+      "prompt": "Considere: “O contrato define as metas. O contrato também estabelece os indicadores. Por fim, o contrato atribui responsabilidades.” Nesse contexto, a repetição de “o contrato”",
       "options": [
-        { "id": "a", "text": "Toda repetição é vício de linguagem e deve ser eliminada." },
-        { "id": "b", "text": "Repetição só pode ocorrer em textos literários." },
-        { "id": "c", "text": "A repetição pode manter o tópico, dar ênfase ou evitar ambiguidade, especialmente em textos técnicos." },
-        { "id": "d", "text": "Repetição é sempre equivalente a hiponímia." },
-        { "id": "e", "text": "Repetir uma palavra impede qualquer progressão de informação." }
+        {
+          "id": "a",
+          "text": "pode ser funcional, pois mantém o tópico e evita que um pronome seja confundido com “metas” ou “indicadores”, embora o texto ainda deva avançar informacionalmente."
+        },
+        {
+          "id": "b",
+          "text": "é sempre vício e torna o trecho automaticamente incoerente."
+        },
+        {
+          "id": "c",
+          "text": "elimina a coesão porque impede qualquer cadeia referencial."
+        },
+        {
+          "id": "d",
+          "text": "só seria aceitável em texto literário, nunca em documento técnico."
+        },
+        {
+          "id": "e",
+          "text": "transforma “contrato” em conector de adição."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Repetição funcional pode manter a cadeia temática e ser mais clara que um pronome ambíguo. O defeito não está na repetição em si, mas em seu uso sem função textual ou sem avanço informacional. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão lexical (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3) e em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "correctOptionId": "a",
+      "explanation": "Repetição não é defeito por natureza. Em textos técnicos, pode favorecer clareza e continuidade; torna-se problemática quando é vazia, excessiva ou substitui uma articulação necessária. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q150",
-      "revision": 1,
-      "prompt": "No trecho “O tribunal divulgou o acórdão. A Corte esclareceu os fundamentos da decisão.”, a coesão lexical entre “tribunal” e “Corte” é válida se",
+      "revision": 2,
+      "prompt": "No trecho “O tribunal publicou o acórdão. A Corte esclareceu os fundamentos da decisão”, a retomada por “A Corte” é adequada se",
       "options": [
-        { "id": "a", "text": "as duas palavras tiverem o mesmo número de letras." },
-        { "id": "b", "text": "o contexto permitir que ambas designem o mesmo referente institucional." },
-        { "id": "c", "text": "“Corte” for necessariamente um hiperônimo de “tribunal”." },
-        { "id": "d", "text": "a segunda palavra estiver sempre mais próxima do verbo." },
-        { "id": "e", "text": "não houver nenhuma relação de sentido entre elas." }
+        {
+          "id": "a",
+          "text": "as palavras tiverem exatamente o mesmo significado em todo uso da língua."
+        },
+        {
+          "id": "b",
+          "text": "o contexto mostrar que “tribunal” e “Corte” designam a mesma instituição, sem introduzir novo referente."
+        },
+        {
+          "id": "c",
+          "text": "“Corte” aparecer mais perto do verbo que “tribunal”."
+        },
+        {
+          "id": "d",
+          "text": "a segunda expressão for sempre hiperônimo da primeira."
+        },
+        {
+          "id": "e",
+          "text": "a substituição apagar qualquer diferença de perspectiva discursiva."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "A sinonímia ou recategorização relevante é contextual: “Corte” só retoma “tribunal” se o texto sustentar que se trata da mesma instituição. Sem esse apoio, a troca pode introduzir outro referente. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "explanation": "A sinonímia coesiva é contextual. A nova designação pode recategorizar o objeto de discurso e até destacar uma faceta institucional, mas deve conservar a identidade referencial pretendida. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q151",
-      "revision": 1,
-      "prompt": "No enunciado “Foram examinados diversos documentos: contratos, convênios e termos aditivos.”, a relação correta é",
+      "revision": 2,
+      "prompt": "Em “Foram analisados documentos de contratação: editais, contratos, atas e termos aditivos”, qual relação lexical sustenta a enumeração?",
       "options": [
-        { "id": "a", "text": "“contratos” é hiperônimo de “documentos”." },
-        { "id": "b", "text": "“convênios” é sinônimo perfeito de “documentos”." },
-        { "id": "c", "text": "“termos aditivos” é antônimo de “documentos”." },
-        { "id": "d", "text": "“documentos” é hiperônimo, e os itens enumerados são hipônimos." },
-        { "id": "e", "text": "não há coesão lexical entre o termo geral e a enumeração." }
+        {
+          "id": "a",
+          "text": "“Editais” é hiperônimo de todas as demais expressões."
+        },
+        {
+          "id": "b",
+          "text": "Os itens são sinônimos perfeitos e intercambiáveis em qualquer contexto."
+        },
+        {
+          "id": "c",
+          "text": "“Documentos de contratação” funciona como hiperônimo, e os itens enumerados são hipônimos contextualizados."
+        },
+        {
+          "id": "d",
+          "text": "“Termos aditivos” é antônimo de “contratos”."
+        },
+        {
+          "id": "e",
+          "text": "A enumeração não mantém vínculo lexical com o termo geral."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "“Documentos” é a categoria mais geral, enquanto contratos, convênios e termos aditivos são espécies nela incluídas. Essa relação de generalização e especificação ajuda a desenvolver o tópico. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão lexical (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "O termo geral abre uma classe e os elementos seguintes a especificam. A relação ajuda a organizar o tópico, sem autorizar a conclusão de que todas as espécies são equivalentes entre si. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q152",
-      "revision": 1,
-      "prompt": "Em “A licitação foi anulada, houve recurso e o contrato foi revisto. Esses fatos exigiram nova análise.”, a expressão “Esses fatos”",
+      "revision": 2,
+      "prompt": "Considere: “A comissão decidiu suspender a contratação. A decisão surpreendeu os fornecedores.” A nominalização “A decisão”",
       "options": [
-        { "id": "a", "text": "encapsula e retoma o conjunto de acontecimentos anteriores." },
-        { "id": "b", "text": "antecipa fatos que ainda serão narrados." },
-        { "id": "c", "text": "substitui exclusivamente o verbo “exigiram”." },
-        { "id": "d", "text": "introduz uma relação de oposição." },
-        { "id": "e", "text": "elimina a necessidade de interpretar o contexto." }
+        {
+          "id": "a",
+          "text": "retoma exclusivamente o substantivo “contratação”."
+        },
+        {
+          "id": "b",
+          "text": "é sinônimo perfeito do verbo “surpreendeu”."
+        },
+        {
+          "id": "c",
+          "text": "transforma a segunda oração em exofórica."
+        },
+        {
+          "id": "d",
+          "text": "retoma o processo expresso por “decidiu suspender”, mas pode deixar menos explícitos agente, tempo e modalidade se for isolada do contexto."
+        },
+        {
+          "id": "e",
+          "text": "não produz coesão porque muda a classe gramatical da expressão retomada."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "“Esses fatos” transforma a sequência anterior em um objeto de comentário e a retoma de modo resumido. Esse encapsulamento pode abranger mais de uma oração ou evento, não apenas um nome isolado. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "correctOptionId": "d",
+      "explanation": "A nominalização converte um evento em objeto de discurso e permite novas predicações. Ela favorece a progressão, mas não é automaticamente equivalente a toda formulação verbal possível. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q153",
-      "revision": 1,
-      "prompt": "No trecho “A comissão decidiu revisar o ato. A decisão exigirá prazo adicional.”, a expressão “A decisão”",
+      "revision": 2,
+      "prompt": "Qual sequência forma uma cadeia referencial coesa e semanticamente estável?",
       "options": [
-        { "id": "a", "text": "é um conector de condição." },
-        { "id": "b", "text": "é uma nominalização que retoma o processo antes expresso por forma verbal." },
-        { "id": "c", "text": "é uma exófora, pois não tem relação com o texto." },
-        { "id": "d", "text": "repete literalmente a palavra “revisar”." },
-        { "id": "e", "text": "é um hiperônimo obrigatório de “ato”." }
+        {
+          "id": "a",
+          "text": "“Uma comissão examinou o processo. A empresa ouviu os responsáveis. Ela aprovou o relatório.”"
+        },
+        {
+          "id": "b",
+          "text": "“O processo foi autuado. A comissão reuniu-se. Ele aprovou o relatório.”"
+        },
+        {
+          "id": "c",
+          "text": "“A auditora apresentou o voto. O prazo foi prorrogado. Ela continha três anexos.”"
+        },
+        {
+          "id": "d",
+          "text": "“O tribunal julgou o recurso. A Corte publicou a decisão. Ela recorreu novamente.”"
+        },
+        {
+          "id": "e",
+          "text": "“Uma comissão especial examinou o processo. O colegiado ouviu os responsáveis. Ele aprovou o relatório por unanimidade.”"
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "“A decisão” nominaliza e retoma o ato de decidir expresso antes. A retomada mantém o tópico, mas uma nominalização pode deixar menos explícitos agente, tempo ou modalidade, razão pela qual equivalências devem ser avaliadas no contexto. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "correctOptionId": "e",
+      "explanation": "“O colegiado” recategoriza “uma comissão especial”, e “ele” retoma esse mesmo grupo. Nas demais alternativas, a mudança de designação ou o predicado produz referente incompatível ou ambíguo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q154",
-      "revision": 1,
-      "prompt": "Qual trecho apresenta uma cadeia referencial coerente em torno de um mesmo objeto de discurso?",
+      "revision": 2,
+      "prompt": "Assinale a frase em que o pronome relativo foi empregado de modo a preservar uma relação coesiva adequada.",
       "options": [
-        { "id": "a", "text": "“A relatora apresentou o voto. O prazo venceu. Ela contém fundamentos.”" },
-        { "id": "b", "text": "“O contrato foi assinado. Portanto, a cláusula chegou.”" },
-        { "id": "c", "text": "“A coordenadora apresentou o relatório. O documento apontou falhas. Ele recomendou diligências.”" },
-        { "id": "d", "text": "“O parecer foi lido. Embora, a comissão arquivou.”" },
-        { "id": "e", "text": "“A auditoria começou. Aquele, porém, concluiu.”" }
+        {
+          "id": "a",
+          "text": "“A unidade apresentou o plano cujas metas serão monitoradas mensalmente.”"
+        },
+        {
+          "id": "b",
+          "text": "“A unidade apresentou o plano cujo as metas serão monitoradas.”"
+        },
+        {
+          "id": "c",
+          "text": "“A unidade apresentou o plano que suas metas serão monitoradas.”"
+        },
+        {
+          "id": "d",
+          "text": "“A unidade apresentou o plano onde as metas serão monitoradas.”"
+        },
+        {
+          "id": "e",
+          "text": "“A unidade apresentou o plano de cujo as metas dependem o controle.”"
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Em C, “o documento” recategoriza “o relatório”, e “ele” o retoma de modo compatível. Nas demais opções, há quebra de referência, conector inadequado ou pronome sem referente identificável. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "correctOptionId": "a",
+      "explanation": "“Cujas” concorda com “metas” e estabelece relação de posse entre as metas e o plano, sem artigo depois do relativo. As outras formas apresentam concordância, construção possessiva ou emprego locativo inadequado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q155",
-      "revision": 1,
-      "prompt": "No período “O relatório apontou falhas. Além disso, recomendou diligências.”, a locução “Além disso” exprime relação de",
+      "revision": 2,
+      "prompt": "No período “O sistema em que os dados são registrados será substituído”, a troca de “em que” por “onde”",
       "options": [
-        { "id": "a", "text": "concessão." },
-        { "id": "b", "text": "adição." },
-        { "id": "c", "text": "condição." },
-        { "id": "d", "text": "finalidade." },
-        { "id": "e", "text": "proporção." }
+        {
+          "id": "a",
+          "text": "é sempre obrigatória, pois “onde” pode retomar qualquer substantivo."
+        },
+        {
+          "id": "b",
+          "text": "pode ser aceitável se “sistema” for conceptualizado como espaço, mas “em que” é a forma mais neutra e evita estender “onde” a antecedente não locativo."
+        },
+        {
+          "id": "c",
+          "text": "é sempre proibida, inclusive com antecedentes claramente locativos."
+        },
+        {
+          "id": "d",
+          "text": "transforma a oração relativa em coordenada conclusiva."
+        },
+        {
+          "id": "e",
+          "text": "dispensa a preposição exigida pela relação “registrar dados no sistema”."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "“Além disso” acrescenta uma segunda informação ao que já foi afirmado: além de apontar falhas, o relatório recomenda diligências. Não apresenta obstáculo, condição, objetivo ou proporção. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores e coesão (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "A substituição de relativos depende do antecedente, da regência e do valor semântico. “Onde” é prototipicamente locativo; “em que” e “no qual” possuem alcance mais neutro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q156",
-      "revision": 1,
-      "prompt": "No trecho “Embora o prazo fosse curto, a equipe concluiu a análise.”, a oração introduzida por “Embora” expressa",
+      "revision": 2,
+      "prompt": "No trecho “A equipe revisou os dados e identificou a inconsistência”, o conector “e” exprime adição. Em qual reescrita ele adquire, pelo contexto, valor próximo de consequência?",
       "options": [
-        { "id": "a", "text": "adição de uma consequência." },
-        { "id": "b", "text": "finalidade da análise." },
-        { "id": "c", "text": "causa que necessariamente impede o resultado." },
-        { "id": "d", "text": "concessão: um obstáculo admitido que não impede o resultado." },
-        { "id": "e", "text": "conformidade com uma norma." }
+        {
+          "id": "a",
+          "text": "“A equipe revisou contratos e convênios.”"
+        },
+        {
+          "id": "b",
+          "text": "“O relatório contém tabelas e gráficos.”"
+        },
+        {
+          "id": "c",
+          "text": "“O sistema falhou, e o atendimento foi interrompido.”"
+        },
+        {
+          "id": "d",
+          "text": "“A unidade publicou a ata e o edital.”"
+        },
+        {
+          "id": "e",
+          "text": "“O servidor e a gestora assinaram o termo.”"
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "A concessão admite uma circunstância potencialmente contrária, “o prazo fosse curto”, mas informa que o resultado ocorreu apesar dela. Não se trata de causa necessária, finalidade ou conformidade. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "A conjunção “e” é polifuncional. No enunciado correto, o segundo evento é interpretado como resultado do primeiro; nas demais opções, há apenas coordenação aditiva de ações, objetos ou sujeitos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q157",
-      "revision": 1,
-      "prompt": "Em “A sessão foi adiada porque faltava quórum.”, o conector “porque” introduz uma relação de",
+      "revision": 2,
+      "prompt": "Compare: I. “O prazo era curto, mas a equipe concluiu a análise.” II. “Embora o prazo fosse curto, a equipe concluiu a análise.” Assinale a análise correta.",
       "options": [
-        { "id": "a", "text": "causa ou justificativa." },
-        { "id": "b", "text": "consequência." },
-        { "id": "c", "text": "alternância." },
-        { "id": "d", "text": "proporção." },
-        { "id": "e", "text": "comparação." }
+        {
+          "id": "a",
+          "text": "I e II possuem estrutura sintática idêntica, de modo que “mas” e “embora” são intercambiáveis sem ajuste."
+        },
+        {
+          "id": "b",
+          "text": "I expressa causa, e II, finalidade."
+        },
+        {
+          "id": "c",
+          "text": "I é conclusivo, e II, explicativo."
+        },
+        {
+          "id": "d",
+          "text": "Os dois períodos ativam contraste de expectativa, mas I coordena segmentos adversativos e II subordina uma circunstância concessiva; a troca exige reorganização sintática."
+        },
+        {
+          "id": "e",
+          "text": "A concessão de II afirma que o prazo curto impediu a conclusão."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "A falta de quórum é apresentada como razão do adiamento da sessão. “Porque” liga o efeito, adiamento, a sua causa ou justificativa contextual. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "d",
+      "explanation": "Adversidade e concessão podem aproximar-se argumentativamente, mas não têm o mesmo funcionamento. “Embora” introduz oração subordinada e normalmente seleciona subjuntivo; “mas” coordena. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q158",
-      "revision": 1,
-      "prompt": "No enunciado “O documento não contém assinatura; portanto, não pode ser validado.”, o conector “portanto” introduz",
+      "revision": 2,
+      "prompt": "Assinale a opção que distingue causa de explicação ou justificativa.",
       "options": [
-        { "id": "a", "text": "uma explicação do termo “assinatura”." },
-        { "id": "b", "text": "uma alternativa entre duas hipóteses." },
-        { "id": "c", "text": "uma concessão." },
-        { "id": "d", "text": "uma condição para a assinatura." },
-        { "id": "e", "text": "uma conclusão ou consequência decorrente da informação anterior." }
+        {
+          "id": "a",
+          "text": "Toda oração com “porque” expressa causa física e nunca justificativa discursiva."
+        },
+        {
+          "id": "b",
+          "text": "A causa sempre aparece depois de uma ordem, e a explicação, depois de um fato."
+        },
+        {
+          "id": "c",
+          "text": "Explicação e causa diferem apenas pela presença de vírgula, sem efeito semântico."
+        },
+        {
+          "id": "d",
+          "text": "No primeiro exemplo, o adiamento causa a falta de quórum; no segundo, não existe relação textual."
+        },
+        {
+          "id": "e",
+          "text": "Em “A sessão foi adiada porque faltou quórum”, a falta de quórum é causa do adiamento; em “A sessão deve ter sido adiada, porque a sala está vazia”, a segunda oração justifica a inferência do enunciador."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "A impossibilidade de validação é apresentada como decorrência da ausência de assinatura. “Portanto” é incompatível com uma leitura de oposição, alternância ou concessão nesse contexto. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores e relações lógicas (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "A causa integra a relação entre fatos apresentados; a explicação ou justificativa sustenta uma afirmação, ordem, avaliação ou inferência do enunciador. Pontuação e estrutura ajudam, mas a relação discursiva é decisiva. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q159",
-      "revision": 1,
-      "prompt": "Em “Caso haja recurso, o prazo será reaberto.”, a oração introduzida por “Caso” exprime",
+      "revision": 2,
+      "prompt": "Assinale a opção que distingue consequência de conclusão.",
       "options": [
-        { "id": "a", "text": "comparação." },
-        { "id": "b", "text": "conclusão." },
-        { "id": "c", "text": "condição." },
-        { "id": "d", "text": "conformidade." },
-        { "id": "e", "text": "adição." }
+        {
+          "id": "a",
+          "text": "Em “A chuva alagou a sala; por isso, a reunião foi cancelada”, o cancelamento é apresentado como efeito; em “Todos os requisitos foram cumpridos; logo, o pedido é admissível”, a segunda oração formula uma inferência conclusiva."
+        },
+        {
+          "id": "b",
+          "text": "Consequência e conclusão são sempre idênticas e jamais precisam ser distinguidas."
+        },
+        {
+          "id": "c",
+          "text": "Conclusão descreve apenas eventos físicos, e consequência, apenas opiniões."
+        },
+        {
+          "id": "d",
+          "text": "“Por isso” só pode indicar conclusão lógica, e “logo”, apenas tempo."
+        },
+        {
+          "id": "e",
+          "text": "A diferença depende exclusivamente de haver ponto e vírgula."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "A reabertura do prazo depende da eventual ocorrência de recurso. A relação é condicional, não conclusiva nem explicativa. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "a",
+      "explanation": "Consequência apresenta um resultado atribuído ao estado de coisas anterior; conclusão marca uma inferência argumentativa do enunciador. Em muitos contextos há aproximação, mas a leitura não deve ser mecânica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q160",
-      "revision": 1,
-      "prompt": "No período “A comissão abriu prazo para que os interessados se manifestassem.”, a locução “para que” indica",
+      "revision": 2,
+      "prompt": "Qual reescrita preserva a relação de finalidade de “A comissão abriu prazo para que os interessados apresentassem razões”?",
       "options": [
-        { "id": "a", "text": "oposição." },
-        { "id": "b", "text": "finalidade." },
-        { "id": "c", "text": "consequência inevitável." },
-        { "id": "d", "text": "alternância." },
-        { "id": "e", "text": "recapitulação." }
+        {
+          "id": "a",
+          "text": "“A comissão abriu prazo, embora os interessados apresentassem razões.”"
+        },
+        {
+          "id": "b",
+          "text": "“A comissão abriu prazo a fim de que os interessados apresentassem razões.”"
+        },
+        {
+          "id": "c",
+          "text": "“A comissão abriu prazo, portanto os interessados apresentaram razões.”"
+        },
+        {
+          "id": "d",
+          "text": "“A comissão abriu prazo, porque os interessados apresentaram razões.”"
+        },
+        {
+          "id": "e",
+          "text": "“A comissão abriu prazo, conforme os interessados apresentaram razões.”"
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Abrir o prazo tem como objetivo permitir que os interessados se manifestem. A oração introduzida por “para que” expressa finalidade. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "“A fim de que” mantém o objetivo atribuído à abertura do prazo e preserva o subjuntivo. As demais formas convertem a relação em concessão, conclusão, causa ou conformidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q161",
-      "revision": 1,
-      "prompt": "Em “Conforme o regulamento, a comissão publicou a ata.”, o termo “Conforme” estabelece relação de",
+      "revision": 2,
+      "prompt": "Em “À medida que a equipe conferia os registros, diminuía o número de inconsistências”, a locução destaca",
       "options": [
-        { "id": "a", "text": "causa." },
-        { "id": "b", "text": "concessão." },
-        { "id": "c", "text": "conclusão." },
-        { "id": "d", "text": "conformidade." },
-        { "id": "e", "text": "proporção." }
+        {
+          "id": "a",
+          "text": "alternância excludente entre duas ações."
+        },
+        {
+          "id": "b",
+          "text": "causa obrigatoriamente anterior no tempo."
+        },
+        {
+          "id": "c",
+          "text": "variação proporcional entre o avanço da conferência e a redução das inconsistências."
+        },
+        {
+          "id": "d",
+          "text": "concessão de um obstáculo que não impede resultado."
+        },
+        {
+          "id": "e",
+          "text": "finalidade atribuída à diminuição."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "“Conforme o regulamento” apresenta a norma ou parâmetro de acordo com o qual a comissão agiu. Não indica causa, obstáculo, resultado ou variação proporcional. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores e sequenciação (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "As duas grandezas se modificam correlatamente. A locução pode envolver simultaneidade temporal, mas seu valor central no período é proporcional. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q162",
-      "revision": 1,
-      "prompt": "No trecho “À medida que os dados eram conferidos, os riscos diminuíam.”, a expressão “À medida que” introduz ideia de",
+      "revision": 2,
+      "prompt": "A palavra “como” é polifuncional. Em qual alternativa ela introduz causa?",
       "options": [
-        { "id": "a", "text": "proporção ou variação correlata." },
-        { "id": "b", "text": "alternância excludente." },
-        { "id": "c", "text": "explicação do termo “dados”." },
-        { "id": "d", "text": "referência exofórica." },
-        { "id": "e", "text": "concessão." }
+        {
+          "id": "a",
+          "text": "“O relatório foi redigido como determina o manual.”"
+        },
+        {
+          "id": "b",
+          "text": "“A nova solução funciona como a anterior.”"
+        },
+        {
+          "id": "c",
+          "text": "“A equipe atuou como unidade de apoio.”"
+        },
+        {
+          "id": "d",
+          "text": "“Como o sistema estava indisponível, o prazo foi prorrogado.”"
+        },
+        {
+          "id": "e",
+          "text": "“O parecer descreve como os dados foram coletados.”"
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O aumento da conferência dos dados é apresentado como correlato da diminuição dos riscos. Trata-se de relação proporcional, não de alternância ou concessão. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "d",
+      "explanation": "Anteposta, a oração apresenta a indisponibilidade como razão da prorrogação. Nas demais alternativas, “como” exprime conformidade, comparação, predicação ou modo/interrogação indireta. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q163",
-      "revision": 1,
-      "prompt": "No período “O parecer é consistente, pois apresenta dados verificáveis.”, a palavra “pois” introduz principalmente uma",
+      "revision": 2,
+      "prompt": "Compare: I. “Reveja o ato, pois ele apresenta vício.” II. “O ato apresenta vício; deverá, pois, ser revisto.” Assinale a análise correta.",
       "options": [
-        { "id": "a", "text": "alternância entre dois pareceres." },
-        { "id": "b", "text": "comparação entre dados." },
-        { "id": "c", "text": "condição para a consistência." },
-        { "id": "d", "text": "concessão que anula a consistência." },
-        { "id": "e", "text": "explicação ou justificativa da afirmação anterior." }
+        {
+          "id": "a",
+          "text": "Em ambos, “pois” é exclusivamente causal e não sofre influência da posição."
+        },
+        {
+          "id": "b",
+          "text": "Em I, “pois” é conclusivo; em II, explicativo."
+        },
+        {
+          "id": "c",
+          "text": "Em II, as vírgulas são proibidas porque conectores conclusivos nunca podem ser intercalados."
+        },
+        {
+          "id": "d",
+          "text": "A diferença decorre apenas do tempo verbal, não da relação argumentativa."
+        },
+        {
+          "id": "e",
+          "text": "Em I, “pois” introduz explicação ou justificativa; em II, posposto a “deverá” e intercalado, introduz conclusão."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "A apresentação de dados verificáveis justifica a afirmação de que o parecer é consistente. O valor de “pois” deve ser inferido da relação entre as proposições, não de uma regra isolada de posição. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores e coesão (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "O “pois” explicativo normalmente antecede a justificativa. O “pois” conclusivo aparece posposto a um termo da oração e, quando intercalado, fica isolado por vírgulas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q164",
-      "revision": 1,
-      "prompt": "As expressões “inicialmente”, “em seguida” e “por fim”, em um relatório de procedimentos, contribuem sobretudo para a sequenciação",
+      "revision": 2,
+      "prompt": "A palavra “assim” assume valores diferentes. Em qual opção ela funciona como conector conclusivo?",
       "options": [
-        { "id": "a", "text": "comparativa." },
-        { "id": "b", "text": "concessiva." },
-        { "id": "c", "text": "temporal ou ordenadora de etapas." },
-        { "id": "d", "text": "exofórica." },
-        { "id": "e", "text": "hiponímica." }
+        {
+          "id": "a",
+          "text": "“Os controles falharam; assim, o procedimento deverá ser revisto.”"
+        },
+        {
+          "id": "b",
+          "text": "“O servidor organizou os autos assim.”"
+        },
+        {
+          "id": "c",
+          "text": "“Assim que o sistema voltou, a equipe retomou o atendimento.”"
+        },
+        {
+          "id": "d",
+          "text": "“O relatório foi redigido assim como o modelo anterior.”"
+        },
+        {
+          "id": "e",
+          "text": "“Nunca vi decisão assim.”"
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Esses marcadores organizam a sucessão de etapas no tempo ou na exposição procedimental. Não estabelecem comparação, concessão ou relação de gênero e espécie. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e sequenciação (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "a",
+      "explanation": "No enunciado correto, “assim” introduz uma conclusão derivada da falha dos controles. Nas demais opções, indica modo, integra locução temporal, participa de comparação ou qualifica um nome. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q165",
-      "revision": 1,
-      "prompt": "No trecho “No quadro acima estão os dados gerais; abaixo aparecem as justificativas.”, os advérbios “acima” e “abaixo” promovem sequenciação",
+      "revision": 2,
+      "prompt": "Em qual alternativa “já” estabelece contraste, e não tempo?",
       "options": [
-        { "id": "a", "text": "causal." },
-        { "id": "b", "text": "espacial." },
-        { "id": "c", "text": "condicional." },
-        { "id": "d", "text": "conclusiva." },
-        { "id": "e", "text": "concessiva." }
+        {
+          "id": "a",
+          "text": "“A comissão já concluiu a análise.”"
+        },
+        {
+          "id": "b",
+          "text": "“O primeiro relatório descreve os fatos; já o segundo propõe medidas corretivas.”"
+        },
+        {
+          "id": "c",
+          "text": "“Quando cheguei, a sessão já havia começado.”"
+        },
+        {
+          "id": "d",
+          "text": "“O prazo já terminou.”"
+        },
+        {
+          "id": "e",
+          "text": "“Os dados já estavam disponíveis.”"
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "“Acima” e “abaixo” orientam o leitor pela disposição espacial do documento. Eles não explicam causa, condição, conclusão ou concessão. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e sequenciação (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "Anteposto ao segundo tópico, “já” contrasta duas características. Nas demais opções, marca anterioridade ou situação temporal já alcançada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q166",
-      "revision": 1,
-      "prompt": "Em um texto argumentativo, as expressões “Em síntese” e “Por outro lado” são usadas principalmente para",
+      "revision": 2,
+      "prompt": "No trecho “A equipe concluiu a conferência; então, encaminhou o relatório”, “então” pode ser lido como",
       "options": [
-        { "id": "a", "text": "indicar pessoas já mencionadas." },
-        { "id": "b", "text": "substituir verbos elípticos." },
-        { "id": "c", "text": "apresentar uma relação de hiperonímia." },
-        { "id": "d", "text": "organizar metadiscursivamente a exposição e sinalizar a posição de cada trecho." },
-        { "id": "e", "text": "apontar obrigatoriamente para objetos fora do texto." }
+        {
+          "id": "a",
+          "text": "pronome que retoma “a equipe”."
+        },
+        {
+          "id": "b",
+          "text": "conector exclusivamente concessivo."
+        },
+        {
+          "id": "c",
+          "text": "marcador de sequência temporal e, conforme o contexto, de consequência entre as ações."
+        },
+        {
+          "id": "d",
+          "text": "substituição verbal de “concluiu”."
+        },
+        {
+          "id": "e",
+          "text": "relativo cujo antecedente é “relatório”."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Essas expressões ajudam o leitor a acompanhar a arquitetura argumentativa: uma resume, e a outra introduz contraponto. Elas não funcionam como pronomes nem como substituições verbais. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e coerência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "“Então” é polifuncional: ordena eventos e pode sugerir que o encaminhamento decorreu da conclusão da conferência. A interpretação depende da relação entre as proposições. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q167",
-      "revision": 1,
-      "prompt": "O trecho “O relatório foi entregue. O relatório será analisado. O relatório poderá ser retificado.” exemplifica predominantemente",
+      "revision": 2,
+      "prompt": "Em um relatório de auditoria, as expressões “inicialmente”, “na etapa seguinte” e “por fim”",
       "options": [
-        { "id": "a", "text": "progressão de tema constante." },
-        { "id": "b", "text": "progressão por tema derivado." },
-        { "id": "c", "text": "referência exofórica." },
-        { "id": "d", "text": "concessão." },
-        { "id": "e", "text": "elipse verbal." }
+        {
+          "id": "a",
+          "text": "retomam anaforicamente o mesmo referente nominal."
+        },
+        {
+          "id": "b",
+          "text": "substituem os verbos das etapas descritas."
+        },
+        {
+          "id": "c",
+          "text": "estabelecem necessariamente oposição entre as fases."
+        },
+        {
+          "id": "d",
+          "text": "ordenam o percurso procedimental e ajudam o leitor a reconstruir a sequência temporal ou expositiva."
+        },
+        {
+          "id": "e",
+          "text": "formam uma cadeia de hipônimos do termo “auditoria”."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O mesmo tema, “o relatório”, recebe informações novas em cada período. Há continuidade temática com desenvolvimento de predicações sobre o mesmo objeto. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "correctOptionId": "d",
+      "explanation": "Esses marcadores situam etapas e explicitam a arquitetura da exposição. Eles não substituem referentes nem determinam, sozinhos, contraste ou relação lexical. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q168",
-      "revision": 1,
-      "prompt": "No trecho “A auditoria encontrou uma falha. A falha exigiu diligência. A diligência atrasou a conclusão.”, ocorre predominantemente",
+      "revision": 2,
+      "prompt": "No início de um parágrafo, “Em síntese” e “Por outro lado” são exemplos de elementos",
       "options": [
-        { "id": "a", "text": "tema constante sem informação nova." },
-        { "id": "b", "text": "sequenciação espacial." },
-        { "id": "c", "text": "referência exclusivamente exofórica." },
-        { "id": "d", "text": "alternância entre tópicos sem ligação." },
-        { "id": "e", "text": "progressão linear, pois a informação nova passa a ser tema seguinte." }
+        {
+          "id": "a",
+          "text": "exofóricos, porque dependem de gesto do autor."
+        },
+        {
+          "id": "b",
+          "text": "catafóricos nominais, porque antecipam sempre um substantivo."
+        },
+        {
+          "id": "c",
+          "text": "substitutivos verbais, porque ocupam o lugar de predicados."
+        },
+        {
+          "id": "d",
+          "text": "hiponímicos, porque especificam o conteúdo anterior."
+        },
+        {
+          "id": "e",
+          "text": "metadiscursivos: o primeiro anuncia resumo; o segundo, mudança para um contraponto."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "“Uma falha”, introduzida como informação nova, torna-se tema da frase seguinte; “a diligência” faz o mesmo no período posterior. Esse encadeamento caracteriza progressão linear. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "explanation": "As expressões orientam o leitor na organização argumentativa do próprio texto. Seu alcance pode abranger mais de um período ou parágrafo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q169",
-      "revision": 1,
-      "prompt": "O trecho “A fiscalização envolve planejamento, execução e monitoramento. O planejamento define metas. A execução verifica procedimentos. O monitoramento acompanha resultados.” ilustra",
+      "revision": 2,
+      "prompt": "Depois de dois parágrafos que expõem falhas de planejamento e de execução, um terceiro começa com “Diante desse quadro, recomenda-se revisar o processo”. A expressão inicial",
       "options": [
-        { "id": "a", "text": "catáfora sem progressão temática." },
-        { "id": "b", "text": "tema derivado, pois um tópico geral se desdobra em subtópicos." },
-        { "id": "c", "text": "elipse que impossibilita recuperar o referente." },
-        { "id": "d", "text": "oposição entre planejamento e execução." },
-        { "id": "e", "text": "exófora de “monitoramento”." }
+        {
+          "id": "a",
+          "text": "encapsula o conteúdo dos dois parágrafos anteriores e introduz uma recomendação fundada nesse conjunto."
+        },
+        {
+          "id": "b",
+          "text": "retoma apenas a última palavra do parágrafo imediatamente anterior."
+        },
+        {
+          "id": "c",
+          "text": "é exofórica porque “quadro” só pode designar objeto físico."
+        },
+        {
+          "id": "d",
+          "text": "antecipa uma enumeração sem relação com os parágrafos anteriores."
+        },
+        {
+          "id": "e",
+          "text": "substitui o verbo “recomenda-se”."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "O tópico amplo “fiscalização” é desdobrado nos subtópicos planejamento, execução e monitoramento, cada um desenvolvido depois. Não há oposição ou referência exterior ao texto. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "correctOptionId": "a",
+      "explanation": "O alcance de um elemento coesivo não se limita à oração adjacente. “Desse quadro” sumariza um bloco argumentativo e funciona como base para a progressão seguinte. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q170",
-      "revision": 1,
-      "prompt": "Para que a progressão tópica seja eficiente, o texto deve",
+      "revision": 2,
+      "prompt": "Qual trecho exemplifica progressão de tema constante sem mera repetição de informação?",
       "options": [
-        { "id": "a", "text": "repetir exatamente a mesma informação em todos os períodos." },
-        { "id": "b", "text": "introduzir apenas informações totalmente novas, sem vínculo com o que veio antes." },
-        { "id": "c", "text": "eliminar todo pronome e todo conector." },
-        { "id": "d", "text": "equilibrar informação compartilhada e informação nova, mantendo e desenvolvendo o tema." },
-        { "id": "e", "text": "substituir todos os termos técnicos por pronomes pessoais." }
+        {
+          "id": "a",
+          "text": "“O plano define as metas. As metas exigem indicadores. Os indicadores orientam a avaliação.”"
+        },
+        {
+          "id": "b",
+          "text": "“O plano define as metas. O plano também distribui responsabilidades. O plano, por fim, estabelece os indicadores de acompanhamento.”"
+        },
+        {
+          "id": "c",
+          "text": "“A gestão envolve pessoas, processos e tecnologia. As pessoas executam; os processos organizam; a tecnologia apoia.”"
+        },
+        {
+          "id": "d",
+          "text": "“O plano define metas. Choveu ontem. A comissão reuniu-se.”"
+        },
+        {
+          "id": "e",
+          "text": "“O plano define as metas. O plano define as metas. O plano define as metas.”"
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "A progressão depende de continuidade suficiente para o leitor acompanhar o tópico e de novidade suficiente para o texto avançar. Repetição absoluta ou mudança sem conexão comprometem essa dinâmica. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "correctOptionId": "b",
+      "explanation": "O mesmo tópico recebe predicações novas e relacionadas. A primeira alternativa distratora exemplifica progressão linear; a segunda, tema derivado; as demais quebram o tópico ou repetem sem avanço. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q171",
-      "revision": 1,
-      "prompt": "Em um texto técnico, a substituição de um nome por pronome deve ser evitada quando",
+      "revision": 2,
+      "prompt": "Qual trecho exemplifica progressão linear?",
       "options": [
-        { "id": "a", "text": "o nome tiver mais de três sílabas." },
-        { "id": "b", "text": "houver apenas um referente possível no contexto." },
-        { "id": "c", "text": "o pronome puder criar ambiguidade sobre a entidade retomada." },
-        { "id": "d", "text": "a repetição do nome for gramaticalmente correta." },
-        { "id": "e", "text": "o texto contiver qualquer conector." }
+        {
+          "id": "a",
+          "text": "“A auditoria identificou riscos. A auditoria classificou riscos. A auditoria comunicou riscos.”"
+        },
+        {
+          "id": "b",
+          "text": "“A fiscalização envolve planejamento e execução. O planejamento define metas; a execução verifica resultados.”"
+        },
+        {
+          "id": "c",
+          "text": "“A auditoria identificou um risco. O risco motivou uma diligência. A diligência produziu novas evidências.”"
+        },
+        {
+          "id": "d",
+          "text": "“A auditoria começou. O edifício é antigo. A ata foi impressa.”"
+        },
+        {
+          "id": "e",
+          "text": "“A auditoria identificou um risco. A auditoria identificou um risco novamente.”"
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Quando há mais de um referente plausível, a repetição controlada do nome pode ser mais precisa que o pronome. O tamanho da palavra e a mera presença de conectores não determinam essa escolha. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e coerência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "A informação nova de cada enunciado torna-se o tema do seguinte: risco → diligência → evidências. Isso produz encadeamento linear. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q172",
-      "revision": 1,
-      "prompt": "Para que a troca de um conector em uma reescrita seja considerada adequada, é necessário que ela preserve",
+      "revision": 2,
+      "prompt": "No trecho “A governança do projeto envolve direção, controle e prestação de contas. A direção define prioridades; o controle acompanha desvios; a prestação de contas informa resultados”, ocorre",
       "options": [
-        { "id": "a", "text": "somente a presença de duas orações no período." },
-        { "id": "b", "text": "apenas a correção ortográfica do novo conector." },
-        { "id": "c", "text": "necessariamente as mesmas palavras do texto original." },
-        { "id": "d", "text": "a maior extensão possível da frase." },
-        { "id": "e", "text": "a correção da construção e a relação semântica pertinente entre as partes, sem alterar indevidamente o sentido global." }
+        {
+          "id": "a",
+          "text": "progressão linear, pois cada predicado vira obrigatoriamente o sujeito seguinte."
+        },
+        {
+          "id": "b",
+          "text": "tema constante, pois a mesma expressão é repetida em todas as orações."
+        },
+        {
+          "id": "c",
+          "text": "quebra de coesão, pois os subtópicos não podem ser retomados separadamente."
+        },
+        {
+          "id": "d",
+          "text": "progressão por tema derivado, pois um hipertema é desdobrado em subtópicos relacionados."
+        },
+        {
+          "id": "e",
+          "text": "exófora, pois “governança” depende de situação externa."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Uma troca pode ser gramatical e ainda mudar causa em consequência, oposição em conclusão ou condição em finalidade. A preservação exige examinar a relação efetiva entre as proposições e o sentido do conjunto. Fonte: questão autoral baseada em justificativa oficial do Cebraspe para SEFAZ/SE 2025 (https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/E9BE3280DB6EB7C2C6F71FF3AF947E55763D75C9F89EAE471A29DABA88116249.pdf)."
+      "correctOptionId": "d",
+      "explanation": "O tópico geral fornece três componentes, que depois são desenvolvidos individualmente. A divisão preserva a unidade temática e adiciona informação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q173",
-      "revision": 1,
-      "prompt": "Assinale a opção que preserva o paralelismo na enumeração de providências.",
+      "revision": 2,
+      "prompt": "Para que um texto progrida sem perder o fio temático, é necessário",
       "options": [
-        { "id": "a", "text": "O parecer recomendou reduzir despesas, ampliar controles e revisar contratos." },
-        { "id": "b", "text": "O parecer recomendou reduzir despesas, a ampliação de controles e que se revisassem contratos." },
-        { "id": "c", "text": "O parecer recomendou a redução de despesas, ampliar controles e revisão de contratos." },
-        { "id": "d", "text": "O parecer recomendou que se reduzissem despesas, ampliar controles e a revisão de contratos." },
-        { "id": "e", "text": "O parecer recomendou reduzir despesas, controles ampliados e que contratos fossem revisados." }
+        {
+          "id": "a",
+          "text": "repetir todas as frases literalmente para eliminar qualquer novidade."
+        },
+        {
+          "id": "b",
+          "text": "introduzir tópicos novos sem retomada, evitando redundância."
+        },
+        {
+          "id": "c",
+          "text": "substituir todos os nomes por pronomes, ainda que surja ambiguidade."
+        },
+        {
+          "id": "d",
+          "text": "usar um conector no início de cada período, independentemente da relação de sentido."
+        },
+        {
+          "id": "e",
+          "text": "equilibrar informação compartilhada e informação nova, mantendo pistas suficientes para o leitor conectar cada etapa."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Em A, os três complementos são construídos com verbos no infinitivo: reduzir, ampliar e revisar. Nas demais opções, a mistura de infinitivos, sintagmas nominais e orações quebra o paralelismo da série. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e coerência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "e",
+      "explanation": "Continuidade sem novidade produz estagnação; novidade sem vínculo produz ruptura. Cadeias referenciais, relações lexicais e conectores devem sustentar esse equilíbrio. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q174",
-      "revision": 1,
-      "prompt": "A frase “Aqueles documentos estão ali” exige, para sua interpretação plena, informação sobre objetos e lugar presentes na situação de fala. Trata-se de referência",
+      "revision": 2,
+      "prompt": "No trecho “O diretor entregou o relatório ao assessor quando ele chegou”, qual reescrita informa inequivocamente que o assessor chegou?",
       "options": [
-        { "id": "a", "text": "anafórica." },
-        { "id": "b", "text": "catafórica." },
-        { "id": "c", "text": "lexical por hiponímia." },
-        { "id": "d", "text": "exofórica." },
-        { "id": "e", "text": "elíptica verbal." }
+        {
+          "id": "a",
+          "text": "“Quando o assessor chegou, o diretor lhe entregou o relatório.”"
+        },
+        {
+          "id": "b",
+          "text": "“O diretor entregou o relatório ao assessor quando chegou.”"
+        },
+        {
+          "id": "c",
+          "text": "“O diretor entregou-lhe o relatório quando ele chegou.”"
+        },
+        {
+          "id": "d",
+          "text": "“Quando ele chegou, o diretor entregou o relatório ao assessor.”"
+        },
+        {
+          "id": "e",
+          "text": "“O diretor, quando ele chegou, entregou o relatório ao assessor.”"
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "“Aqueles” e “ali” apontam para elementos que precisam ser identificados na situação exterior ao texto. A referência exofórica pode funcionar bem em interação presencial, mas não se resolve pelo enunciado isolado. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre referência exofórica (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "a",
+      "explanation": "A repetição de “o assessor” fixa o sujeito da oração temporal. Nas outras versões, o pronome ou a elipse continua permitindo que a chegada seja atribuída ao diretor. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q175",
-      "revision": 1,
-      "prompt": "No trecho “A comissão anulou a licitação. Isso gerou recurso.”, o pronome “Isso” retoma",
+      "revision": 2,
+      "prompt": "Considere: “A comissão rejeitou a proposta da empresa porque ela não comprovou capacidade técnica.” Qual fator, além da concordância, favorece a leitura de “ela” como “a empresa”?",
       "options": [
-        { "id": "a", "text": "somente a palavra “comissão”." },
-        { "id": "b", "text": "o fato expresso pela proposição anterior, isto é, a anulação da licitação." },
-        { "id": "c", "text": "um objeto apontado fora do texto." },
-        { "id": "d", "text": "a palavra “recurso”, que aparece depois." },
-        { "id": "e", "text": "um verbo elíptico sem relação com a oração anterior." }
+        {
+          "id": "a",
+          "text": "A regra de que o pronome sempre retoma o último substantivo, sem exceção."
+        },
+        {
+          "id": "b",
+          "text": "O predicado “não comprovou capacidade técnica” é semanticamente compatível com a empresa como participante avaliada no processo."
+        },
+        {
+          "id": "c",
+          "text": "O fato de “comissão” e “empresa” terem o mesmo gênero gramatical."
+        },
+        {
+          "id": "d",
+          "text": "A presença do conector “porque”, que impede qualquer retomada da comissão."
+        },
+        {
+          "id": "e",
+          "text": "A posição do pronome depois do verbo, única pista necessária."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "“Isso” encapsula a situação previamente enunciada, a anulação da licitação, e a toma como causa do recurso. O referente pode ser uma proposição inteira, não apenas um substantivo isolado. Fonte: questão autoral baseada em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "explanation": "O referente é construído pela combinação de concordância, papéis semânticos, conhecimento do evento e progressão discursiva. Proximidade e gênero, isoladamente, não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q176",
-      "revision": 1,
-      "prompt": "No trecho “O primeiro relatório continha erros. Outro relatório foi solicitado.”, a palavra “Outro” indica que o segundo relatório",
+      "revision": 2,
+      "prompt": "Assinale a opção que preserva o paralelismo na enumeração.",
       "options": [
-        { "id": "a", "text": "é obrigatoriamente o mesmo objeto já mencionado." },
-        { "id": "b", "text": "não pode ter qualquer relação temática com o primeiro." },
-        { "id": "c", "text": "funciona como conector de consequência." },
-        { "id": "d", "text": "substitui o verbo “continha”." },
-        { "id": "e", "text": "é apresentado como entidade distinta, ainda que relacionada pelo contexto." }
+        {
+          "id": "a",
+          "text": "“O plano prevê reduzir despesas, a ampliação de controles e que se revisem contratos.”"
+        },
+        {
+          "id": "b",
+          "text": "“O plano prevê a redução de despesas, ampliar controles e revisão de contratos.”"
+        },
+        {
+          "id": "c",
+          "text": "“O plano prevê reduzir despesas, ampliar controles e revisar contratos.”"
+        },
+        {
+          "id": "d",
+          "text": "“O plano prevê que se reduzam despesas, ampliar controles e a revisão dos contratos.”"
+        },
+        {
+          "id": "e",
+          "text": "“O plano prevê reduzir despesas, controles ampliados e que os contratos sejam revistos.”"
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "“Outro” marca diferença em relação ao primeiro relatório; pode haver relação temática entre ambos, mas não simples correferência. Não é conector nem substituição verbal. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre referência comparativa (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "Os três complementos são construídos com infinitivos coordenados. As outras alternativas misturam orações desenvolvidas, sintagmas nominais e formas verbais, produzindo quebra de simetria. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q177",
-      "revision": 1,
-      "prompt": "Assinale a opção correta sobre a interpretação de “este” e “esse” em textos.",
+      "revision": 2,
+      "prompt": "Ao substituir um conector em uma reescrita, qual procedimento é completo?",
       "options": [
-        { "id": "a", "text": "A escolha entre “este” e “esse” dispensa a leitura do contexto." },
-        { "id": "b", "text": "“Esse” só pode referir-se a seres humanos." },
-        { "id": "c", "text": "A direção da retomada ou antecipação deve ser demonstrada pela organização textual efetiva, e não por uma regra mecânica isolada." },
-        { "id": "d", "text": "Todo uso de “este” é exofórico." },
-        { "id": "e", "text": "Demonstrativos jamais podem encapsular segmentos discursivos." }
+        {
+          "id": "a",
+          "text": "Conferir apenas se o novo conector pertence à mesma classe gramatical."
+        },
+        {
+          "id": "b",
+          "text": "Manter a pontuação original em qualquer troca, pois conectores não a afetam."
+        },
+        {
+          "id": "c",
+          "text": "Examinar somente a correção ortográfica da nova forma."
+        },
+        {
+          "id": "d",
+          "text": "Verificar sintaxe, pontuação, modo e tempo verbal, relação lógica, alcance entre os segmentos e orientação argumentativa."
+        },
+        {
+          "id": "e",
+          "text": "Aceitar a troca sempre que a frase resultante continuar compreensível."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Demonstrativos podem assumir diferentes direções e funções conforme o texto. Fórmulas simplificadoras podem ajudar em certos usos formais, mas não substituem a análise do referente no contexto concreto. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão referencial (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "d",
+      "explanation": "Conectores selecionam estruturas e relações diferentes. Uma frase pode permanecer gramatical e, ainda assim, alterar causa, oposição, conclusão, pressupostos ou força argumentativa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q178",
-      "revision": 1,
-      "prompt": "No período “O documento não contém assinatura; portanto, não pode ser validado.”, qual substituição preserva mais diretamente a relação conclusiva?",
+      "revision": 2,
+      "prompt": "No período “O documento contém todas as assinaturas; portanto, pode ser validado”, qual substituição preserva mais diretamente a relação conclusiva e a pontuação?",
       "options": [
-        { "id": "a", "text": "“O documento não contém assinatura; por conseguinte, não pode ser validado.”" },
-        { "id": "b", "text": "“O documento não contém assinatura; contudo, não pode ser validado.”" },
-        { "id": "c", "text": "“O documento não contém assinatura; embora, não pode ser validado.”" },
-        { "id": "d", "text": "“O documento não contém assinatura; caso não pode ser validado.”" },
-        { "id": "e", "text": "“O documento não contém assinatura; a fim de não pode ser validado.”" }
+        {
+          "id": "a",
+          "text": "“O documento contém todas as assinaturas; contudo, pode ser validado.”"
+        },
+        {
+          "id": "b",
+          "text": "“O documento contém todas as assinaturas; embora possa ser validado.”"
+        },
+        {
+          "id": "c",
+          "text": "“O documento contém todas as assinaturas; porque pode ser validado.”"
+        },
+        {
+          "id": "d",
+          "text": "“O documento contém todas as assinaturas; a fim de que possa ser validado.”"
+        },
+        {
+          "id": "e",
+          "text": "“O documento contém todas as assinaturas; por conseguinte, pode ser validado.”"
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "“Por conseguinte” introduz conclusão ou consequência, como “portanto”. “Contudo” indicaria oposição, e as demais formas não expressam adequadamente a relação ou sequer formam construção apropriada. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre conectores e coesão (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "e",
+      "explanation": "“Por conseguinte” mantém a inferência conclusiva. As outras formas introduzem oposição, concessão, causa/explicação ou finalidade, além de exigirem estruturas distintas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q179",
-      "revision": 1,
-      "prompt": "Se a intenção é afirmar que apenas a portaria entrará em vigor, qual reescrita elimina a ambiguidade no trecho “A norma e a portaria foram revistas. Elas entrarão em vigor amanhã.”?",
+      "revision": 2,
+      "prompt": "Considere: “A unidade omitiu dados e não explicou a ausência. Isso levou o tribunal a determinar nova inspeção.” Qual alteração preserva o alcance de “Isso”?",
       "options": [
-        { "id": "a", "text": "“A norma e a portaria foram revistas. Elas mesmas entrarão em vigor amanhã.”" },
-        { "id": "b", "text": "“A norma e a portaria foram revistas. Estas entrarão em vigor amanhã.”" },
-        { "id": "c", "text": "“A norma e a portaria foram revistas. Isso entrará em vigor amanhã.”" },
-        { "id": "d", "text": "“A norma e a portaria foram revistas. A portaria entrará em vigor amanhã.”" },
-        { "id": "e", "text": "“A norma e a portaria foram revistas. Entrarão em vigor amanhã.”" }
+        {
+          "id": "a",
+          "text": "“Essas duas condutas levaram o tribunal a determinar nova inspeção.”"
+        },
+        {
+          "id": "b",
+          "text": "“A ausência levou o tribunal a determinar nova inspeção.”, obrigatoriamente com o mesmo alcance."
+        },
+        {
+          "id": "c",
+          "text": "“Os dados levaram o tribunal a determinar nova inspeção.”"
+        },
+        {
+          "id": "d",
+          "text": "“A unidade levou o tribunal a determinar nova inspeção.”, sem qualquer mudança de foco."
+        },
+        {
+          "id": "e",
+          "text": "“A inspeção levou o tribunal a determinar isso.”"
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "A repetição de “a portaria” fixa inequivocamente o referente pretendido. “Elas” tende a retomar ambas; “estas”, “isso” e a elipse não resolvem com segurança qual dos dois elementos entrará em vigor. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e precisão referencial (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "a",
+      "explanation": "A paráfrase explicita que o demonstrativo encapsula a omissão e a falta de explicação. Reduzi-lo a um único nome ou inverter a direção da referência altera o conteúdo retomado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q180",
-      "revision": 1,
-      "prompt": "Na classificação clássica de mecanismos de coesão apresentada em materiais didáticos, estão incluídos",
+      "revision": 2,
+      "prompt": "No trecho “O primeiro relatório continha inconsistências. Outro relatório foi solicitado”, “outro”",
       "options": [
-        { "id": "a", "text": "somente sujeito, predicado e objeto." },
-        { "id": "b", "text": "referência, substituição, elipse, conjunção e coesão lexical." },
-        { "id": "c", "text": "apenas metáfora, metonímia e ironia." },
-        { "id": "d", "text": "unicamente catáfora e exófora." },
-        { "id": "e", "text": "somente conectores de causa e consequência." }
+        {
+          "id": "a",
+          "text": "retoma necessariamente o mesmo exemplar sob nova designação."
+        },
+        {
+          "id": "b",
+          "text": "introduz uma entidade distinta da primeira, embora pertencente à mesma classe e ligada ao mesmo tópico."
+        },
+        {
+          "id": "c",
+          "text": "é pronome relativo cujo antecedente é “inconsistências”."
+        },
+        {
+          "id": "d",
+          "text": "transforma a segunda oração em conclusão da primeira."
+        },
+        {
+          "id": "e",
+          "text": "elimina toda relação coesiva entre os períodos."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "A classificação ampla reúne referência, substituição, elipse, conjunção e coesão lexical. Anáfora e catáfora descrevem direções de referência, e conectores causais ou conclusivos são apenas parte das possibilidades de conjunção. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e coerência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "explanation": "A referência comparativa marca diferença. A expressão mantém continuidade temática pela classe “relatório”, mas não estabelece correferência com o primeiro documento. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q181",
-      "revision": 1,
-      "prompt": "Um diálogo pode conter repetição da palavra “Brasília” em todas as falas e, ainda assim, ser incoerente se as respostas não atenderem às perguntas. Nesse caso, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Um diálogo repete várias vezes o nome “Brasília”, mas cada resposta ignora a pergunta anterior. Nesse caso, é correto afirmar que",
       "options": [
-        { "id": "a", "text": "não há qualquer ligação formal entre as falas." },
-        { "id": "b", "text": "a repetição transforma automaticamente o diálogo em coerente." },
-        { "id": "c", "text": "a coerência depende apenas de o mesmo termo aparecer diversas vezes." },
-        { "id": "d", "text": "a presença de coesão lexical impede falhas pragmáticas de sentido." },
-        { "id": "e", "text": "pode haver coesão lexical formal sem que haja coerência global entre as ideias." }
+        {
+          "id": "a",
+          "text": "a repetição garante que todas as respostas sejam pertinentes."
+        },
+        {
+          "id": "b",
+          "text": "não existe coesão, pois repetição nunca é mecanismo textual."
+        },
+        {
+          "id": "c",
+          "text": "pode haver coesão lexical pela repetição sem coerência pragmática no encadeamento das falas."
+        },
+        {
+          "id": "d",
+          "text": "a coerência depende apenas de concordância e regência."
+        },
+        {
+          "id": "e",
+          "text": "qualquer conector acrescentado tornaria o diálogo automaticamente coerente."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "A repetição pode criar um elo lexical, mas não assegura que uma fala responda adequadamente à outra ou que o conjunto tenha percurso de sentido compatível. Coesão e coerência são relacionadas, porém não equivalentes. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e coerência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "c",
+      "explanation": "A presença de um elo formal não assegura relevância, compatibilidade de ideias ou propósito comunicativo. Coesão e coerência relacionam-se, mas não se confundem. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q182",
-      "revision": 1,
-      "prompt": "No trecho “Os relatórios foram entregues à comissão. Eles serão examinados amanhã.”, a palavra “Eles” retoma adequadamente “os relatórios” porque",
+      "revision": 2,
+      "prompt": "Considere: “Os relatórios foram entregues à comissão. Eles serão examinados amanhã, e esse trabalho deverá terminar em uma semana.” Assinale a análise correta.",
       "options": [
-        { "id": "a", "text": "há compatibilidade de número e de sentido entre o pronome e o referente textual pretendido." },
-        { "id": "b", "text": "todo pronome plural retoma obrigatoriamente o nome mais distante." },
-        { "id": "c", "text": "a comissão não pode ser antecedente de nenhum pronome." },
-        { "id": "d", "text": "o pronome funciona como conector conclusivo." },
-        { "id": "e", "text": "o referente é identificado apenas pela posição final do período." }
+        {
+          "id": "a",
+          "text": "“Eles” retoma “a comissão”, e “esse trabalho” aponta para um objeto fora do texto."
+        },
+        {
+          "id": "b",
+          "text": "“Eles” é catáfora de “uma semana”, e “esse trabalho” retoma somente “amanhã”."
+        },
+        {
+          "id": "c",
+          "text": "Ambas as formas retomam exclusivamente o substantivo mais próximo."
+        },
+        {
+          "id": "d",
+          "text": "“Eles” retoma “os relatórios”, e “esse trabalho” encapsula a ação futura de examiná-los."
+        },
+        {
+          "id": "e",
+          "text": "“Esse trabalho” substitui o conector aditivo “e”."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O pronome plural masculino é compatível com “os relatórios” e o predicado “serão examinados” também se ajusta a eles. A análise referencial combina concordância, sentido e contexto, não uma regra de distância fixa. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão referencial (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3)."
+      "correctOptionId": "d",
+      "explanation": "Número, gênero e sentido vinculam “Eles” aos relatórios. A expressão nominal seguinte transforma o processo de exame em objeto de comentário e acrescenta prazo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q183",
-      "revision": 1,
-      "prompt": "Considere o trecho: “O tribunal divulgou o relatório. O documento apontou inconsistências. Por isso, a comissão pediu revisão. Essa medida será acompanhada pela corregedoria.”. Assinale a análise correta.",
+      "revision": 2,
+      "prompt": "Leia: “O tribunal divulgou o relatório que examinou as compras. O documento apontou inconsistências; por isso, a comissão pediu revisão. Essa medida, contudo, não suspendeu o contrato.” Assinale a análise correta.",
       "options": [
-        { "id": "a", "text": "“O documento” introduz referente sem relação com “o relatório”, e “Por isso” é adversativo." },
-        { "id": "b", "text": "“Essa medida” é exofórica, pois não se relaciona a qualquer fato do trecho." },
-        { "id": "c", "text": "“O documento” recategoriza “o relatório”; “Por isso” introduz consequência; e “Essa medida” retoma o pedido de revisão." },
-        { "id": "d", "text": "“Por isso” introduz finalidade, e “Essa medida” retoma exclusivamente a palavra “corregedoria”." },
-        { "id": "e", "text": "O trecho não apresenta coesão referencial nem sequencial." }
+        {
+          "id": "a",
+          "text": "“Que” retoma “o tribunal”, e “por isso” introduz concessão."
+        },
+        {
+          "id": "b",
+          "text": "“O documento” introduz novo referente, e “Essa medida” é exofórica."
+        },
+        {
+          "id": "c",
+          "text": "“Por isso” e “contudo” são conclusivos e podem ser trocados sem mudança."
+        },
+        {
+          "id": "d",
+          "text": "“Essa medida” retoma apenas “o contrato”, e “que” não possui antecedente textual."
+        },
+        {
+          "id": "e",
+          "text": "“Que” tem como antecedente “o relatório”; “O documento” recategoriza esse referente; “por isso” introduz consequência; “Essa medida” retoma o pedido de revisão; e “contudo” marca oposição."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O trecho integra coesão relativa, recategorização, consequência, encapsulamento e oposição. Cada forma tem alcance próprio e a leitura resulta da cadeia completa, não de proximidade automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q184",
+      "revision": 1,
+      "prompt": "Em um texto, a expressão “esse fenômeno” resume uma situação descrita no período anterior e permite que o autor formule comentário sobre ela. Esse emprego constitui mecanismo de coesão referencial porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "um elemento textual remete a outro segmento do próprio texto e mantém o objeto de discurso em desenvolvimento."
+        },
+        {
+          "id": "b",
+          "text": "a expressão funciona apenas como conector de conclusão."
+        },
+        {
+          "id": "c",
+          "text": "todo demonstrativo depende necessariamente da situação externa."
+        },
+        {
+          "id": "d",
+          "text": "a coesão só existe quando há repetição literal de uma palavra."
+        },
+        {
+          "id": "e",
+          "text": "a expressão elimina a necessidade de interpretar o antecedente."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A coesão referencial ocorre quando uma forma orienta o leitor para entidade ou segmento textual recuperável. O demonstrativo encapsula a situação anterior e a transforma em tópico da nova predicação. Fonte: questão adaptada de Cebraspe/CNMP/Cargo 3 — Analista, Comunicação Social/2023/item 70/https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/CNMP_23_JUSTIFICATIVAS_DE_ALTERAES_DE_GABARITO.PDF; adaptação: conversão da justificativa oficial em múltipla escolha e criação de trecho autossuficiente."
+    },
+    {
+      "id": "q185",
+      "revision": 1,
+      "prompt": "Original: “A medida reduziu custos, mas ampliou riscos.” Qual reescrita preserva simultaneamente a coesão e a relação de contraste?",
+      "options": [
+        {
+          "id": "a",
+          "text": "“A medida reduziu custos, portanto ampliou riscos.”"
+        },
+        {
+          "id": "b",
+          "text": "“Embora tenha reduzido custos, a medida ampliou riscos.”"
+        },
+        {
+          "id": "c",
+          "text": "“A medida reduziu custos, porque ampliou riscos.”"
+        },
+        {
+          "id": "d",
+          "text": "“A medida reduziu custos, para que ampliasse riscos.”"
+        },
+        {
+          "id": "e",
+          "text": "“A medida reduziu custos, assim ampliou riscos.”"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A concessiva reorganiza a sintaxe, mas mantém a expectativa contrariada entre redução de custos e aumento de riscos. As demais formas convertem a relação em conclusão, causa, finalidade ou consequência ambígua. Fonte: questão adaptada de Cebraspe/SEFAZ-SE/Auditor Fiscal Tributário/2025/questão 3/https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/E9BE3280DB6EB7C2C6F71FF3AF947E55763D75C9F89EAE471A29DABA88116249.pdf; adaptação: criação de trecho autossuficiente e de uma única alternativa que preserve coesão e sentidos, em resposta ao fundamento da anulação oficial."
+    },
+    {
+      "id": "q186",
+      "revision": 1,
+      "prompt": "Leia: “A inovação alterou o atendimento. Ela reduziu filas porque automatizou etapas. Mas isso não eliminou a necessidade de supervisão.” Assinale a análise correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Ela” retoma “filas”, e “porque” é conclusivo."
+        },
+        {
+          "id": "b",
+          "text": "“Mas” pode ser substituído por “portanto” sem alteração argumentativa."
+        },
+        {
+          "id": "c",
+          "text": "“Ela” retoma “a inovação”; “porque” introduz a razão da redução; “Mas” contrapõe a limitação ao benefício; e “isso” encapsula a automatização e seus efeitos no contexto."
+        },
+        {
+          "id": "d",
+          "text": "“Isso” antecipa exclusivamente “supervisão”."
+        },
+        {
+          "id": "e",
+          "text": "O trecho não contém coesão referencial, apenas conectores."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "“O documento” retoma o relatório por recategorização; “Por isso” liga as inconsistências ao pedido de revisão como consequência; “Essa medida” retoma esse pedido. O trecho combina coesão referencial e sequencial de modo compatível. Fonte: questão autoral baseada em material didático do IMD/UFRN sobre coesão e coerência (https://materialpublic.imd.ufrn.br/curso/disciplina/3/11/9/3) e em Marcuschi, “Referenciação e progressão tópica” (https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251)."
+      "explanation": "O item exige analisar conjuntamente referente, relação causal, oposição e alcance demonstrativo. Nenhuma dessas decisões pode ser tomada apenas pela posição linear da palavra. Fonte: questão adaptada de Cebraspe/Prefeitura de Boa Vista/Técnico em Saúde Bucal/2025/Gran Questões Q4168331/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4168331; adaptação: condensação do texto-base, reunião dos fenômenos em uma questão de múltipla escolha e paráfrase integral."
+    },
+    {
+      "id": "q187",
+      "revision": 1,
+      "prompt": "No período “O programa atende regiões de clima diverso que exigem soluções específicas”, qual expressão é o antecedente mais adequado de “que”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "“O programa”, porque todo relativo retoma o sujeito da oração principal."
+        },
+        {
+          "id": "b",
+          "text": "“clima”, porque é o substantivo mais próximo do relativo."
+        },
+        {
+          "id": "c",
+          "text": "“soluções específicas”, porque aparece depois do relativo."
+        },
+        {
+          "id": "d",
+          "text": "“regiões de clima diverso”, pois são elas que, segundo a construção, exigem soluções específicas."
+        },
+        {
+          "id": "e",
+          "text": "a oração inteira, pois “que” nunca retoma sintagma nominal."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A leitura combina número, sentido e estrutura da oração relativa. A proximidade de “clima” não supera a concordância plural e a predicação atribuída às regiões. Fonte: questão adaptada de Cebraspe/SEBRAE/Analista Técnico I — Projetos/2026/Gran Questões Q4400833/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4400833; adaptação: substituição do texto-base, manutenção da cobrança do antecedente exato e conversão em múltipla escolha autossuficiente."
+    },
+    {
+      "id": "q188",
+      "revision": 1,
+      "prompt": "Leia: “Os recenseadores visitaram os domicílios e entrevistaram os moradores. Eles registraram as respostas em dispositivo eletrônico.” O referente mais plausível de “Eles” é",
+      "options": [
+        {
+          "id": "a",
+          "text": "“os domicílios”, por ser a expressão plural mais próxima do primeiro verbo."
+        },
+        {
+          "id": "b",
+          "text": "“os moradores”, obrigatoriamente, porque é o último sintagma plural."
+        },
+        {
+          "id": "c",
+          "text": "“as respostas”, por concordar semanticamente com registro."
+        },
+        {
+          "id": "d",
+          "text": "um grupo exterior ao texto, pois o pronome é exofórico."
+        },
+        {
+          "id": "e",
+          "text": "“os recenseadores”, porque são os agentes compatíveis com a ação de registrar as respostas."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Embora haja mais de um sintagma plural, o papel semântico e o conhecimento da atividade censitária favorecem “os recenseadores”. A proximidade não decide sozinha. Fonte: questão adaptada de Cebraspe/IBGE/Agente de Pesquisas e Mapeamento/2021/Gran Questões Q1786443/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/1786443; adaptação: criação de trecho administrativo equivalente, paráfrase e conversão para múltipla escolha."
+    },
+    {
+      "id": "q189",
+      "revision": 1,
+      "prompt": "Considere: “Estudiosos analisaram os efeitos da medida durante anos. Eles concluíram que o impacto varia entre os setores.” A coesão referencial de “Eles” decorre de",
+      "options": [
+        {
+          "id": "a",
+          "text": "retomada anafórica de “Estudiosos”, compatível em número, gênero não marcado e papel de agente da conclusão."
+        },
+        {
+          "id": "b",
+          "text": "catáfora de “os setores”."
+        },
+        {
+          "id": "c",
+          "text": "retomada de “os efeitos”, porque é o nome plural mais próximo."
+        },
+        {
+          "id": "d",
+          "text": "substituição verbal da forma “analisaram”."
+        },
+        {
+          "id": "e",
+          "text": "referência exofórica a pesquisadores não mencionados."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O predicado cognitivo “concluíram” seleciona participantes humanos e sustenta a retomada do sujeito anterior. O antecedente não é escolhido por distância pura. Fonte: questão adaptada de Cebraspe/TCDF/Auditor de Controle Externo/2021/Gran Questões Q1594932/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/1594932; adaptação: texto-base condensado, paráfrase e explicitação dos critérios referenciais."
+    },
+    {
+      "id": "q190",
+      "revision": 1,
+      "prompt": "Leia: “Os acordos firmados no início do século redefiniram obrigações comerciais. Eles também influenciaram decisões posteriores.” O pronome “Eles” retoma",
+      "options": [
+        {
+          "id": "a",
+          "text": "“obrigações comerciais”, porque aparece imediatamente antes do ponto."
+        },
+        {
+          "id": "b",
+          "text": "“Os acordos firmados no início do século”."
+        },
+        {
+          "id": "c",
+          "text": "“decisões posteriores”, por catáfora."
+        },
+        {
+          "id": "d",
+          "text": "“o início do século”, por concordância semântica."
+        },
+        {
+          "id": "e",
+          "text": "um referente externo, não expresso no período."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A concordância plural masculina e a compatibilidade com o verbo “influenciaram” mantêm como tópico os acordos. A expressão intermediária não se torna antecedente apenas por proximidade. Fonte: questão adaptada de Cebraspe/Prefeitura de Mossoró/Analista — Direito/2024/Gran Questões Q3539921/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3539921; adaptação: substituição do texto-base, paráfrase e conversão para múltipla escolha."
+    },
+    {
+      "id": "q191",
+      "revision": 1,
+      "prompt": "Considere: “Os cargos foram reorganizados para atender às novas atribuições. Eles permanecerão vagos até a conclusão do concurso.” O referente de “Eles” é",
+      "options": [
+        {
+          "id": "a",
+          "text": "“as novas atribuições”, por ser a expressão plural mais próxima."
+        },
+        {
+          "id": "b",
+          "text": "“a conclusão”, por catáfora."
+        },
+        {
+          "id": "c",
+          "text": "“Os cargos”, pois essa expressão concorda com o pronome e é semanticamente compatível com “permanecerão vagos”."
+        },
+        {
+          "id": "d",
+          "text": "“o concurso”, porque concursos podem ficar vagos."
+        },
+        {
+          "id": "e",
+          "text": "nenhum termo textual, porque o pronome é exofórico."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A predicação “permanecer vagos” seleciona cargos, não atribuições, conclusão ou concurso. A cadeia combina concordância e compatibilidade semântica. Fonte: questão adaptada de Cebraspe/TRF da 1.ª Região/Analista Judiciário — Taquigrafia/2017/Gran Questões Q929862/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/929862; adaptação: criação de trecho autossuficiente, paráfrase e manutenção do fenômeno de retomada pronominal."
+    },
+    {
+      "id": "q192",
+      "revision": 1,
+      "prompt": "No período “A equipe revisou o procedimento e identificou a origem da falha”, a substituição de “e” por “porque” produziria “A equipe revisou o procedimento porque identificou a origem da falha”. Essa troca",
+      "options": [
+        {
+          "id": "a",
+          "text": "preserva integralmente o sentido, porque toda conjunção liga orações."
+        },
+        {
+          "id": "b",
+          "text": "torna a segunda oração concessiva."
+        },
+        {
+          "id": "c",
+          "text": "elimina o sujeito da primeira oração."
+        },
+        {
+          "id": "d",
+          "text": "altera a relação: a identificação passa a justificar ou causar a revisão, em vez de apenas coordenar duas ações em sequência."
+        },
+        {
+          "id": "e",
+          "text": "transforma “procedimento” em referente de “falha”."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A conjunção “e” pode apenas somar/ordenar as ações; “porque” atribui à segunda o papel de razão da primeira. Correção gramatical não garante equivalência semântica. Fonte: questão adaptada de Cebraspe/Ministério da Integração Nacional/Assistente Técnico Administrativo/2009/Gran Questões Q380647/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/380647; adaptação: substituição do texto-base e conversão do julgamento certo/errado para múltipla escolha explicativa."
+    },
+    {
+      "id": "q193",
+      "revision": 1,
+      "prompt": "Leia: “O órgão investiu em análise de dados. Nessa área, a formação contínua é indispensável para acompanhar novas técnicas.” A expressão “Nessa área”",
+      "options": [
+        {
+          "id": "a",
+          "text": "retoma exclusivamente “o órgão”, por proximidade."
+        },
+        {
+          "id": "b",
+          "text": "é catafórica de “formação contínua”."
+        },
+        {
+          "id": "c",
+          "text": "indica espaço físico obrigatoriamente exterior ao texto."
+        },
+        {
+          "id": "d",
+          "text": "substitui o verbo “investiu”."
+        },
+        {
+          "id": "e",
+          "text": "retoma o campo de análise de dados e o transforma no enquadramento temático da afirmação seguinte."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O demonstrativo com nome geral recategoriza o campo introduzido no período anterior. O valor é anafórico e temático, não necessariamente locativo físico. Fonte: questão adaptada de Cebraspe/SEPLAG-DF/Analista de Trânsito — Estatística/2008/Gran Questões Q304155/https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/304155; adaptação: criação de trecho administrativo equivalente, paráfrase e conversão para múltipla escolha."
     }
   ]
 }
