@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q031",
@@ -62,61 +62,61 @@
     },
     {
       "id": "q033",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Leia: 'Dados abertos são conjuntos disponibilizados em formato que permite acesso, uso e redistribuição. Em geral, empregam padrões que facilitam o processamento por máquinas.' Predomina a sequência:",
       "options": [
         {
           "id": "a",
-          "text": "expositiva, porque define e explica o conceito."
+          "text": "dissertativo-expositiva, porque define e explica o conceito."
         },
         {
           "id": "b",
-          "text": "narrativa, porque relata aventura."
+          "text": "narrativa, porque encadeia acontecimentos e mudança de situação."
         },
         {
           "id": "c",
-          "text": "injuntiva, porque apresenta uma proibição."
+          "text": "injuntiva, porque impõe uma conduta futura ao leitor."
         },
         {
           "id": "d",
-          "text": "argumentativa, porque refuta um adversário."
+          "text": "dissertativo-argumentativa, porque sustenta uma tese controversa."
         },
         {
           "id": "e",
-          "text": "descritiva literária, porque caracteriza personagem."
+          "text": "descritiva, porque apresenta a aparência física de um objeto."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "O trecho define dados abertos e explica uma característica geral. Não há trama, comando, refutação nem personagem. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O trecho define dados abertos e explica uma característica geral. Na nomenclatura recorrente em concursos, trata-se de dissertação expositiva."
     },
     {
       "id": "q034",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Leia: 'O órgão deve divulgar uma versão simplificada do relatório, pois tabelas sem contexto afastam o cidadão e reduzem a utilidade pública da informação.' Predomina a sequência:",
       "options": [
         {
           "id": "a",
-          "text": "descritiva, sem avaliação."
+          "text": "descritiva, porque apresenta um estado sem avaliação."
         },
         {
           "id": "b",
-          "text": "argumentativa, com tese e justificativa."
+          "text": "dissertativo-argumentativa, porque formula tese e a sustenta com uma razão."
         },
         {
           "id": "c",
-          "text": "narrativa, com conflito e desfecho."
+          "text": "narrativa, porque relata conflito e desfecho."
         },
         {
           "id": "d",
-          "text": "expositiva, sem posição defendida."
+          "text": "dissertativo-expositiva, porque apenas define relatório simplificado."
         },
         {
           "id": "e",
-          "text": "dialogal, com turnos de fala."
+          "text": "injuntiva, porque enumera etapas de um procedimento."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "A obrigação de divulgar versão simplificada é a tese; o efeito negativo das tabelas sem contexto funciona como argumento. As demais sequências não explicam essa estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A divulgação de versão simplificada é defendida como tese, e o efeito negativo das tabelas sem contexto funciona como argumento."
     },
     {
       "id": "q035",
@@ -149,41 +149,41 @@
     },
     {
       "id": "q036",
-      "revision": 1,
-      "prompt": "Uma reportagem narra a inauguração de um hospital, descreve suas instalações e apresenta dados sobre capacidade de atendimento. Como classificar esse texto?",
+      "revision": 2,
+      "prompt": "Uma reportagem narra a inauguração de um hospital, descreve suas instalações e apresenta dados sobre a capacidade de atendimento. A análise correta é:",
       "options": [
         {
           "id": "a",
-          "text": "Ele pertence obrigatoriamente a três gêneros diferentes."
+          "text": "A alternância de sequências transforma necessariamente o texto em três gêneros."
         },
         {
           "id": "b",
-          "text": "Ele combina sequências narrativas, descritivas e expositivas no mesmo gênero."
+          "text": "O gênero reportagem combina sequências narrativa, descritiva e dissertativo-expositiva."
         },
         {
           "id": "c",
-          "text": "A presença de descrição impede que seja reportagem."
+          "text": "A descrição impede que o texto cumpra finalidade jornalística."
         },
         {
           "id": "d",
-          "text": "A sequência mais curta define sozinha o texto inteiro."
+          "text": "A sequência presente no primeiro período define sozinha a classificação global."
         },
         {
           "id": "e",
-          "text": "Textos reais nunca misturam sequências."
+          "text": "A heterogeneidade textual impede o reconhecimento da predominância."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Um único gênero pode mobilizar várias sequências para cumprir sua finalidade. A mistura não cria automaticamente novos gêneros nem impede a classificação como reportagem. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Um gênero pode mobilizar várias sequências subordinadas à sua finalidade. A heterogeneidade é normal nos textos reais."
     },
     {
       "id": "q037",
-      "revision": 1,
-      "prompt": "Na classificação 'editorial de sequência predominantemente argumentativa', os termos 'editorial' e 'argumentativa' designam, respectivamente:",
+      "revision": 2,
+      "prompt": "Na expressão 'editorial de sequência predominantemente dissertativo-argumentativa', os termos 'editorial' e 'dissertativo-argumentativa' designam, respectivamente:",
       "options": [
         {
           "id": "a",
-          "text": "suporte e esfera."
+          "text": "suporte e domínio."
         },
         {
           "id": "b",
@@ -195,15 +195,15 @@
         },
         {
           "id": "d",
-          "text": "esfera e público."
+          "text": "domínio e público."
         },
         {
           "id": "e",
-          "text": "tema e título."
+          "text": "tema e composição."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Editorial é uma forma social concreta de comunicação; argumentativa é a sequência abstrata predominante. As outras categorias não correspondem aos termos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Editorial é uma forma comunicativa concreta; dissertativo-argumentativa é a organização linguístico-discursiva predominante."
     },
     {
       "id": "q038",
@@ -236,32 +236,32 @@
     },
     {
       "id": "q039",
-      "revision": 1,
-      "prompt": "Em comparação com a notícia breve, a reportagem tende a:",
+      "revision": 2,
+      "prompt": "Em comparação com uma notícia breve, uma reportagem tende a:",
       "options": [
         {
           "id": "a",
-          "text": "eliminar contexto, fontes e dados."
+          "text": "abandonar a finalidade informativa para expressar obrigatoriamente a opinião do veículo."
         },
         {
           "id": "b",
-          "text": "aprofundar um tema ou acontecimento com contexto, fontes e recursos variados."
+          "text": "aprofundar tema ou acontecimento com contexto, fontes e recursos variados."
         },
         {
           "id": "c",
-          "text": "ser definida apenas por possuir mais palavras."
+          "text": "ser definida apenas pela quantidade de palavras."
         },
         {
           "id": "d",
-          "text": "registrar exclusivamente decisões de reunião."
+          "text": "restringir-se ao registro cronológico de fatos, sem explicações."
         },
         {
           "id": "e",
-          "text": "conter obrigatoriamente ordens ao leitor."
+          "text": "apresentar necessariamente instruções ao leitor."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Aprofundamento, contextualização e diversidade de fontes são traços funcionais da reportagem. Extensão isolada não define gênero, e as outras finalidades pertencem a ata ou texto injuntivo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A reportagem se caracteriza pelo aprofundamento e pela contextualização, não apenas pela extensão nem pela presença obrigatória de opinião."
     },
     {
       "id": "q040",
@@ -729,41 +729,41 @@
     },
     {
       "id": "q057",
-      "revision": 1,
-      "prompt": "Um artigo de opinião começa descrevendo detalhadamente uma praça e depois defende sua preservação ao longo de oito parágrafos. A classificação global mais adequada é:",
+      "revision": 2,
+      "prompt": "Um artigo de opinião começa descrevendo detalhadamente uma praça e, nos parágrafos seguintes, defende sua preservação. A classificação global mais adequada é:",
       "options": [
         {
           "id": "a",
-          "text": "descritiva, porque a primeira frase decide todo o texto."
+          "text": "descritiva, porque a abertura determina todo o texto."
         },
         {
           "id": "b",
-          "text": "argumentativa, com trecho descritivo subordinado à defesa da preservação."
+          "text": "dissertativo-argumentativa, com trecho descritivo subordinado à tese."
         },
         {
           "id": "c",
-          "text": "injuntiva, porque toda defesa é uma ordem."
+          "text": "injuntiva, porque toda defesa equivale a uma ordem."
         },
         {
           "id": "d",
-          "text": "narrativa, porque a praça é um espaço."
+          "text": "narrativa, porque a praça constitui espaço."
         },
         {
           "id": "e",
-          "text": "sem tipo predominante, pois misturas são proibidas."
+          "text": "sem predominância, porque sequências diferentes não podem coexistir."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "A finalidade e o plano global são argumentativos; a descrição fornece material à tese. Um trecho secundário não determina sozinho a classificação do conjunto. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A finalidade e a macroestrutura são argumentativas; a descrição fornece material para a defesa da preservação."
     },
     {
       "id": "q059",
-      "revision": 1,
-      "prompt": "Leia: 'Para solicitar revisão, preencha o formulário até sexta-feira e anexe a justificativa. Pedidos sem identificação não serão analisados.' Se o trecho integrar documento publicado para tornar públicas todas as regras e condições de um processo seletivo, a análise correta é:",
+      "revision": 2,
+      "prompt": "Leia: 'Para solicitar revisão, preencha o formulário até sexta-feira e anexe a justificativa. Pedidos sem identificação não serão analisados.' Se o trecho integra documento que publica todas as regras de um processo seletivo, a análise correta é:",
       "options": [
         {
           "id": "a",
-          "text": "Gênero edital, com sequência injuntiva predominante no trecho."
+          "text": "Gênero edital, com sequência injuntiva ou prescritiva predominante no trecho."
         },
         {
           "id": "b",
@@ -771,11 +771,11 @@
         },
         {
           "id": "c",
-          "text": "Gênero notícia, porque contém uma data."
+          "text": "Gênero notícia, porque há informação temporal."
         },
         {
           "id": "d",
-          "text": "Gênero ata, porque menciona análise."
+          "text": "Gênero ata, porque se menciona análise."
         },
         {
           "id": "e",
@@ -783,7 +783,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Edital é o gênero definido pela função de publicar regras; as orientações e condições do trecho realizam sequência injuntiva. As demais opções invertem categorias ou usam pistas irrelevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Edital é o gênero definido pela publicação das regras; as orientações e condições realizam sequência injuntiva ou prescritiva."
     },
     {
       "id": "q061",
@@ -874,36 +874,36 @@
     },
     {
       "id": "q064",
-      "revision": 1,
-      "prompt": "Qual característica distingue mais diretamente a exposição da argumentação?",
+      "revision": 2,
+      "prompt": "Qual característica distingue mais diretamente a dissertação expositiva da dissertação argumentativa?",
       "options": [
         {
           "id": "a",
-          "text": "A exposição organiza conhecimento; a argumentação orienta razões para adesão a uma tese."
+          "text": "A primeira organiza conhecimento; a segunda orienta razões para a adesão a uma tese."
         },
         {
           "id": "b",
-          "text": "A exposição sempre usa verbos no passado; a argumentação nunca usa."
+          "text": "A primeira sempre usa pretérito; a segunda nunca o emprega."
         },
         {
           "id": "c",
-          "text": "A exposição é gênero; a argumentação é suporte."
+          "text": "A primeira é gênero; a segunda é suporte."
         },
         {
           "id": "d",
-          "text": "A exposição proíbe exemplos; a argumentação proíbe definições."
+          "text": "A primeira não pode apresentar exemplos; a segunda não pode apresentar definições."
         },
         {
           "id": "e",
-          "text": "Não existe diferença possível entre elas."
+          "text": "A diferença depende apenas da extensão do texto."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Definir, classificar e explicar são operações expositivas; defender posição com razões caracteriza orientação argumentativa, embora textos possam combinar ambas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Definir, classificar e explicar são operações expositivas; sustentar uma posição por razões caracteriza argumentação."
     },
     {
       "id": "q065",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Leia: 'A consulta deve permanecer aberta por mais uma semana, pois o prazo atual não permitiu participação das comunidades mais distantes.' Predomina a sequência:",
       "options": [
         {
@@ -912,7 +912,7 @@
         },
         {
           "id": "b",
-          "text": "argumentativa."
+          "text": "dissertativo-argumentativa."
         },
         {
           "id": "c",
@@ -924,15 +924,15 @@
         },
         {
           "id": "e",
-          "text": "expositiva sem posição."
+          "text": "dissertativo-expositiva sem posição defendida."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "A ampliação do prazo é defendida como tese, e a baixa possibilidade de participação funciona como razão. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A ampliação do prazo é defendida como tese, e a dificuldade de participação funciona como razão."
     },
     {
       "id": "q066",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Qual enunciado realiza orientação injuntiva sem empregar verbo no imperativo?",
       "options": [
         {
@@ -957,7 +957,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "A construção de necessidade orienta conduta futura, embora não use forma imperativa. As demais descrevem, narram ou modalizam sem instruir. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A construção de necessidade orienta conduta futura, embora não use forma imperativa."
     },
     {
       "id": "q067",
@@ -1451,6 +1451,296 @@
       ],
       "correctOptionId": "a",
       "explanation": "Jornalístico é o campo de atividade, e notícia é uma forma comunicativa concreta desse domínio. As demais alternativas misturam suporte, sequência, gênero e domínio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q084",
+      "revision": 1,
+      "prompt": "Um texto apenas define accountability, classifica suas dimensões e apresenta exemplos, sem defender solução ou juízo de valor. A tipologia predominante é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "narrativa."
+        },
+        {
+          "id": "b",
+          "text": "descritiva."
+        },
+        {
+          "id": "c",
+          "text": "injuntiva."
+        },
+        {
+          "id": "d",
+          "text": "dissertativo-expositiva."
+        },
+        {
+          "id": "e",
+          "text": "dissertativo-argumentativa."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Definição, classificação e exemplificação organizam conhecimento sem tese persuasiva. Questão autoral construída a partir da nomenclatura recorrente em concursos."
+    },
+    {
+      "id": "q085",
+      "revision": 1,
+      "prompt": "Um artigo sustenta que a transparência ativa deve ser ampliada e usa dados de acesso, comparação entre órgãos e argumento de autoridade. A tipologia predominante é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "dissertativo-argumentativa."
+        },
+        {
+          "id": "b",
+          "text": "dissertativo-expositiva."
+        },
+        {
+          "id": "c",
+          "text": "narrativa."
+        },
+        {
+          "id": "d",
+          "text": "descritiva."
+        },
+        {
+          "id": "e",
+          "text": "injuntiva."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Há tese e estratégias de sustentação destinadas à adesão do leitor. Questão autoral construída a partir do padrão de classificação cobrado por bancas."
+    },
+    {
+      "id": "q086",
+      "revision": 1,
+      "prompt": "Um texto acadêmico explica a evolução de bibliotecas digitais, define conceitos e organiza dados históricos, sem orientar o leitor a aceitar uma tese. A melhor classificação é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "injuntivo."
+        },
+        {
+          "id": "b",
+          "text": "descritivo."
+        },
+        {
+          "id": "c",
+          "text": "dissertativo-expositivo."
+        },
+        {
+          "id": "d",
+          "text": "dissertativo-argumentativo."
+        },
+        {
+          "id": "e",
+          "text": "dialogal."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A definição e a organização informativa de conhecimento apontam para dissertação expositiva. Questão adaptada do padrão CESPE/CEBRASPE — CAPES, Analista/Biblioteconomia, 2024, Q3221231."
+    },
+    {
+      "id": "q087",
+      "revision": 1,
+      "prompt": "Assinale o par que apresenta, respectivamente, um gênero textual e um tipo textual.",
+      "options": [
+        {
+          "id": "a",
+          "text": "argumentação — descrição."
+        },
+        {
+          "id": "b",
+          "text": "ofício — dissertação."
+        },
+        {
+          "id": "c",
+          "text": "narração — relatório."
+        },
+        {
+          "id": "d",
+          "text": "administrativo — injunção."
+        },
+        {
+          "id": "e",
+          "text": "portal — notícia."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ofício é gênero concreto; dissertação é designação de tipo. Questão adaptada do padrão CESPE/CEBRASPE — IFF-RJ, Professor/Letras, 2018, Q990475."
+    },
+    {
+      "id": "q088",
+      "revision": 1,
+      "prompt": "Um texto de revista especializada apresenta o problema das desigualdades no acesso digital, reproduz posições de pesquisadores e conclui defendendo investimento público. A classificação mais adequada é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "narrativo, porque menciona acontecimentos."
+        },
+        {
+          "id": "b",
+          "text": "descritivo, porque contém dados."
+        },
+        {
+          "id": "c",
+          "text": "dissertativo-argumentativo, porque articula informações em defesa de uma posição."
+        },
+        {
+          "id": "d",
+          "text": "jornalístico, sendo impossível reconhecer a tipologia."
+        },
+        {
+          "id": "e",
+          "text": "injuntivo, porque o tema envolve política pública."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A exposição de ideias e vozes está orientada para uma conclusão defendida. Questão adaptada do padrão CESPE/CEBRASPE — SEPLAD-DF, Auditor/Finanças e Controle, 2023, Q2926422."
+    },
+    {
+      "id": "q089",
+      "revision": 1,
+      "prompt": "Uma matéria apresenta título informativo, contextualiza problema de abastecimento, reúne dados técnicos e falas de especialistas, sem assumir voz institucional opinativa. A combinação mais provável é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "editorial narrativo."
+        },
+        {
+          "id": "b",
+          "text": "manifesto dissertativo."
+        },
+        {
+          "id": "c",
+          "text": "reportagem informativa."
+        },
+        {
+          "id": "d",
+          "text": "entrevista prescritiva."
+        },
+        {
+          "id": "e",
+          "text": "artigo de opinião descritivo."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Aprofundamento, contexto, fontes e finalidade informativa apontam para reportagem informativa. Questão adaptada do padrão CESPE/CEBRASPE — CAESB, Operador de Estação de Tratamento, 2025, Q3979867."
+    },
+    {
+      "id": "q090",
+      "revision": 1,
+      "prompt": "Um texto apresenta conceito, exemplos e consequências de determinado fenômeno, mas não formula tese que o leitor deva aceitar. A alternativa correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "injuntivo, porque todo exemplo orienta ação."
+        },
+        {
+          "id": "b",
+          "text": "narrativo, porque consequências implicam sequência temporal."
+        },
+        {
+          "id": "c",
+          "text": "descritivo, porque conceitos são características."
+        },
+        {
+          "id": "d",
+          "text": "dissertativo-argumentativo, porque qualquer explicação persuade."
+        },
+        {
+          "id": "e",
+          "text": "dissertativo-expositivo, porque informa e explica sem defender posição."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A ausência de tese e a função de explicar caracterizam dissertação expositiva. Questão adaptada do padrão CESPE/CEBRASPE — PC-PB, Escrivão, 2022, Q2582146."
+    },
+    {
+      "id": "q091",
+      "revision": 1,
+      "prompt": "Um ensaio contém parágrafos que defendem uma ideia e, no final, dirige ao leitor uma recomendação direta. Sobre a composição, é correto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a recomendação elimina os trechos argumentativos."
+        },
+        {
+          "id": "b",
+          "text": "o texto pode combinar sequência argumentativa com trecho injuntivo."
+        },
+        {
+          "id": "c",
+          "text": "a presença de injunção transforma o gênero em manual."
+        },
+        {
+          "id": "d",
+          "text": "tipos textuais diferentes não podem coexistir."
+        },
+        {
+          "id": "e",
+          "text": "dirigir-se ao leitor é suficiente para classificar o texto como entrevista."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Textos podem combinar sequências, e uma recomendação injuntiva pode integrar plano predominantemente argumentativo. Questão adaptada do padrão CESPE/CEBRASPE — UNIVESP, Supervisor Pedagógico, 2025, Q3793875."
+    },
+    {
+      "id": "q092",
+      "revision": 1,
+      "prompt": "Qual enunciado exemplifica melhor a dissertação expositiva?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A administração deveria ampliar imediatamente o atendimento digital."
+        },
+        {
+          "id": "b",
+          "text": "O atendimento digital reduz deslocamentos e pode ser oferecido por portal ou aplicativo."
+        },
+        {
+          "id": "c",
+          "text": "A equipe abriu o sistema, encontrou falha e chamou o suporte."
+        },
+        {
+          "id": "d",
+          "text": "Clique em 'entrar', informe a senha e confirme."
+        },
+        {
+          "id": "e",
+          "text": "A interface é azul, compacta e organizada em três colunas."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A alternativa correta apresenta informação sobre o tema sem comando, narração, descrição predominante ou tese normativa. Questão adaptada do padrão FGV — DPE-RO, Analista em Redação, 2025, Q3847268."
+    },
+    {
+      "id": "q093",
+      "revision": 1,
+      "prompt": "A distinção mais adequada entre texto instrucional e texto prescritivo é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "O instrucional ensina procedimento; o prescritivo estabelece obrigação, permissão ou proibição."
+        },
+        {
+          "id": "b",
+          "text": "O instrucional sempre narra; o prescritivo sempre descreve."
+        },
+        {
+          "id": "c",
+          "text": "O instrucional é gênero; o prescritivo é suporte."
+        },
+        {
+          "id": "d",
+          "text": "O instrucional só existe em papel; o prescritivo só existe em portal."
+        },
+        {
+          "id": "e",
+          "text": "Não há relação entre ambos e a injunção."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ambos orientam ação futura e podem aparecer sob o rótulo injuntivo; o primeiro enfatiza o modo de fazer, e o segundo, a regulação da conduta."
     }
   ]
 }
