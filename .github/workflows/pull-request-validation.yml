@@ -32,10 +32,15 @@ jobs:
           import zlib
           from pathlib import Path
 
-          payload = (
-              Path('.github/coesao-questions.part1').read_text(encoding='utf-8')
-              + Path('.github/coesao-questions.part2').read_text(encoding='utf-8')
-          )
+          parts = [
+              '.github/coesao-questions.part1',
+              '.github/coesao-questions.part2a',
+              '.github/coesao-questions.part2b',
+              '.github/coesao-questions.part2c',
+              '.github/coesao-questions.part2d',
+              '.github/coesao-questions.part2e',
+          ]
+          payload = ''.join(Path(part).read_text(encoding='utf-8') for part in parts)
           target = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/coesao-textual/questoes.json')
           target.write_bytes(zlib.decompress(base64.b64decode(payload)))
           print('materialized bytes:', target.stat().st_size)
