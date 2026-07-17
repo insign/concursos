@@ -596,7 +596,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 1. Governo eletrônico na administração pública: fundamentos e modelos; serviços, canais, integração e governança.
 - Não confundir governo eletrônico com o governo digital do item 4.1 de Competências Digitais.
 
-##### [R] Em revisão Assunto 139 - Item 1, recorte: Transparência, controle social, cidadania e accountability.
+##### [x] Concluído Assunto 139 - Item 1, recorte: Transparência, controle social, cidadania e accountability.
 
 - Item 1, recorte: transparência da administração pública; controle social e cidadania; accountability.
 
