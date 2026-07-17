@@ -1,0 +1,354 @@
+name: Update tipos e generos questions
+
+on:
+  push:
+    branches:
+      - agent/revise-tipos-generos-textuais
+
+permissions:
+  contents: write
+
+jobs:
+  update-questions:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/revise-tipos-generos-textuais
+
+      - name: Revise and expand question bank
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/tipos-generos-textuais/questoes.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          by_id = {q["id"]: q for q in data["questions"]}
+
+          def replace(qid, prompt, options, correct, explanation):
+              q = by_id[qid]
+              q["revision"] = int(q.get("revision", 1)) + 1
+              q["prompt"] = prompt
+              q["options"] = [
+                  {"id": letter, "text": text}
+                  for letter, text in zip("abcde", options)
+              ]
+              q["correctOptionId"] = "abcde"[correct]
+              q["explanation"] = explanation
+
+          replace(
+              "q033",
+              "Leia: 'Dados abertos são conjuntos disponibilizados em formato que permite acesso, uso e redistribuição. Em geral, empregam padrões que facilitam o processamento por máquinas.' Predomina a sequência:",
+              [
+                  "dissertativo-expositiva, porque define e explica o conceito.",
+                  "narrativa, porque encadeia acontecimentos e mudança de situação.",
+                  "injuntiva, porque impõe uma conduta futura ao leitor.",
+                  "dissertativo-argumentativa, porque sustenta uma tese controversa.",
+                  "descritiva, porque apresenta a aparência física de um objeto."
+              ],
+              0,
+              "O trecho define dados abertos e explica uma característica geral. Na nomenclatura recorrente em concursos, trata-se de dissertação expositiva."
+          )
+
+          replace(
+              "q034",
+              "Leia: 'O órgão deve divulgar uma versão simplificada do relatório, pois tabelas sem contexto afastam o cidadão e reduzem a utilidade pública da informação.' Predomina a sequência:",
+              [
+                  "descritiva, porque apresenta um estado sem avaliação.",
+                  "dissertativo-argumentativa, porque formula tese e a sustenta com uma razão.",
+                  "narrativa, porque relata conflito e desfecho.",
+                  "dissertativo-expositiva, porque apenas define relatório simplificado.",
+                  "injuntiva, porque enumera etapas de um procedimento."
+              ],
+              1,
+              "A divulgação de versão simplificada é defendida como tese, e o efeito negativo das tabelas sem contexto funciona como argumento."
+          )
+
+          replace(
+              "q036",
+              "Uma reportagem narra a inauguração de um hospital, descreve suas instalações e apresenta dados sobre a capacidade de atendimento. A análise correta é:",
+              [
+                  "A alternância de sequências transforma necessariamente o texto em três gêneros.",
+                  "O gênero reportagem combina sequências narrativa, descritiva e dissertativo-expositiva.",
+                  "A descrição impede que o texto cumpra finalidade jornalística.",
+                  "A sequência presente no primeiro período define sozinha a classificação global.",
+                  "A heterogeneidade textual impede o reconhecimento da predominância."
+              ],
+              1,
+              "Um gênero pode mobilizar várias sequências subordinadas à sua finalidade. A heterogeneidade é normal nos textos reais."
+          )
+
+          replace(
+              "q037",
+              "Na expressão 'editorial de sequência predominantemente dissertativo-argumentativa', os termos 'editorial' e 'dissertativo-argumentativa' designam, respectivamente:",
+              [
+                  "suporte e domínio.",
+                  "gênero e tipo textual.",
+                  "tipo textual e suporte.",
+                  "domínio e público.",
+                  "tema e composição."
+              ],
+              1,
+              "Editorial é uma forma comunicativa concreta; dissertativo-argumentativa é a organização linguístico-discursiva predominante."
+          )
+
+          replace(
+              "q039",
+              "Em comparação com uma notícia breve, uma reportagem tende a:",
+              [
+                  "abandonar a finalidade informativa para expressar obrigatoriamente a opinião do veículo.",
+                  "aprofundar tema ou acontecimento com contexto, fontes e recursos variados.",
+                  "ser definida apenas pela quantidade de palavras.",
+                  "restringir-se ao registro cronológico de fatos, sem explicações.",
+                  "apresentar necessariamente instruções ao leitor."
+              ],
+              1,
+              "A reportagem se caracteriza pelo aprofundamento e pela contextualização, não apenas pela extensão nem pela presença obrigatória de opinião."
+          )
+
+          replace(
+              "q057",
+              "Um artigo de opinião começa descrevendo detalhadamente uma praça e, nos parágrafos seguintes, defende sua preservação. A classificação global mais adequada é:",
+              [
+                  "descritiva, porque a abertura determina todo o texto.",
+                  "dissertativo-argumentativa, com trecho descritivo subordinado à tese.",
+                  "injuntiva, porque toda defesa equivale a uma ordem.",
+                  "narrativa, porque a praça constitui espaço.",
+                  "sem predominância, porque sequências diferentes não podem coexistir."
+              ],
+              1,
+              "A finalidade e a macroestrutura são argumentativas; a descrição fornece material para a defesa da preservação."
+          )
+
+          replace(
+              "q059",
+              "Leia: 'Para solicitar revisão, preencha o formulário até sexta-feira e anexe a justificativa. Pedidos sem identificação não serão analisados.' Se o trecho integra documento que publica todas as regras de um processo seletivo, a análise correta é:",
+              [
+                  "Gênero edital, com sequência injuntiva ou prescritiva predominante no trecho.",
+                  "Gênero injuntivo, com tipo edital.",
+                  "Gênero notícia, porque há informação temporal.",
+                  "Gênero ata, porque se menciona análise.",
+                  "Suporte formulário, que elimina o gênero do documento."
+              ],
+              0,
+              "Edital é o gênero definido pela publicação das regras; as orientações e condições realizam sequência injuntiva ou prescritiva."
+          )
+
+          replace(
+              "q064",
+              "Qual característica distingue mais diretamente a dissertação expositiva da dissertação argumentativa?",
+              [
+                  "A primeira organiza conhecimento; a segunda orienta razões para a adesão a uma tese.",
+                  "A primeira sempre usa pretérito; a segunda nunca o emprega.",
+                  "A primeira é gênero; a segunda é suporte.",
+                  "A primeira não pode apresentar exemplos; a segunda não pode apresentar definições.",
+                  "A diferença depende apenas da extensão do texto."
+              ],
+              0,
+              "Definir, classificar e explicar são operações expositivas; sustentar uma posição por razões caracteriza argumentação."
+          )
+
+          replace(
+              "q065",
+              "Leia: 'A consulta deve permanecer aberta por mais uma semana, pois o prazo atual não permitiu participação das comunidades mais distantes.' Predomina a sequência:",
+              [
+                  "descritiva.",
+                  "dissertativo-argumentativa.",
+                  "narrativa.",
+                  "dialogal.",
+                  "dissertativo-expositiva sem posição defendida."
+              ],
+              1,
+              "A ampliação do prazo é defendida como tese, e a dificuldade de participação funciona como razão."
+          )
+
+          replace(
+              "q066",
+              "Qual enunciado realiza orientação injuntiva sem empregar verbo no imperativo?",
+              [
+                  "O formulário era extenso.",
+                  "É necessário anexar o comprovante antes do envio.",
+                  "A equipe anexou o comprovante ontem.",
+                  "O comprovante possui duas páginas.",
+                  "Talvez o comprovante seja antigo."
+              ],
+              1,
+              "A construção de necessidade orienta conduta futura, embora não use forma imperativa."
+          )
+
+          new_questions = [
+              {
+                  "id": "q084",
+                  "revision": 1,
+                  "prompt": "Um texto apenas define accountability, classifica suas dimensões e apresenta exemplos, sem defender solução ou juízo de valor. A tipologia predominante é:",
+                  "options": [
+                      {"id": "a", "text": "narrativa."},
+                      {"id": "b", "text": "descritiva."},
+                      {"id": "c", "text": "injuntiva."},
+                      {"id": "d", "text": "dissertativo-expositiva."},
+                      {"id": "e", "text": "dissertativo-argumentativa."}
+                  ],
+                  "correctOptionId": "d",
+                  "explanation": "Definição, classificação e exemplificação organizam conhecimento sem tese persuasiva. Questão autoral construída a partir da nomenclatura recorrente em concursos."
+              },
+              {
+                  "id": "q085",
+                  "revision": 1,
+                  "prompt": "Um artigo sustenta que a transparência ativa deve ser ampliada e usa dados de acesso, comparação entre órgãos e argumento de autoridade. A tipologia predominante é:",
+                  "options": [
+                      {"id": "a", "text": "dissertativo-argumentativa."},
+                      {"id": "b", "text": "dissertativo-expositiva."},
+                      {"id": "c", "text": "narrativa."},
+                      {"id": "d", "text": "descritiva."},
+                      {"id": "e", "text": "injuntiva."}
+                  ],
+                  "correctOptionId": "a",
+                  "explanation": "Há tese e estratégias de sustentação destinadas à adesão do leitor. Questão autoral construída a partir do padrão de classificação cobrado por bancas."
+              },
+              {
+                  "id": "q086",
+                  "revision": 1,
+                  "prompt": "Um texto acadêmico explica a evolução de bibliotecas digitais, define conceitos e organiza dados históricos, sem orientar o leitor a aceitar uma tese. A melhor classificação é:",
+                  "options": [
+                      {"id": "a", "text": "injuntivo."},
+                      {"id": "b", "text": "descritivo."},
+                      {"id": "c", "text": "dissertativo-expositivo."},
+                      {"id": "d", "text": "dissertativo-argumentativo."},
+                      {"id": "e", "text": "dialogal."}
+                  ],
+                  "correctOptionId": "c",
+                  "explanation": "A definição e a organização informativa de conhecimento apontam para dissertação expositiva. Questão adaptada do padrão CESPE/CEBRASPE — CAPES, Analista/Biblioteconomia, 2024, Q3221231."
+              },
+              {
+                  "id": "q087",
+                  "revision": 1,
+                  "prompt": "Assinale o par que apresenta, respectivamente, um gênero textual e um tipo textual.",
+                  "options": [
+                      {"id": "a", "text": "argumentação — descrição."},
+                      {"id": "b", "text": "ofício — dissertação."},
+                      {"id": "c", "text": "narração — relatório."},
+                      {"id": "d", "text": "administrativo — injunção."},
+                      {"id": "e", "text": "portal — notícia."}
+                  ],
+                  "correctOptionId": "b",
+                  "explanation": "Ofício é gênero concreto; dissertação é designação de tipo. Questão adaptada do padrão CESPE/CEBRASPE — IFF-RJ, Professor/Letras, 2018, Q990475."
+              },
+              {
+                  "id": "q088",
+                  "revision": 1,
+                  "prompt": "Um texto de revista especializada apresenta o problema das desigualdades no acesso digital, reproduz posições de pesquisadores e conclui defendendo investimento público. A classificação mais adequada é:",
+                  "options": [
+                      {"id": "a", "text": "narrativo, porque menciona acontecimentos."},
+                      {"id": "b", "text": "descritivo, porque contém dados."},
+                      {"id": "c", "text": "dissertativo-argumentativo, porque articula informações em defesa de uma posição."},
+                      {"id": "d", "text": "jornalístico, sendo impossível reconhecer a tipologia."},
+                      {"id": "e", "text": "injuntivo, porque o tema envolve política pública."}
+                  ],
+                  "correctOptionId": "c",
+                  "explanation": "A exposição de ideias e vozes está orientada para uma conclusão defendida. Questão adaptada do padrão CESPE/CEBRASPE — SEPLAD-DF, Auditor/Finanças e Controle, 2023, Q2926422."
+              },
+              {
+                  "id": "q089",
+                  "revision": 1,
+                  "prompt": "Uma matéria apresenta título informativo, contextualiza problema de abastecimento, reúne dados técnicos e falas de especialistas, sem assumir voz institucional opinativa. A combinação mais provável é:",
+                  "options": [
+                      {"id": "a", "text": "editorial narrativo."},
+                      {"id": "b", "text": "manifesto dissertativo."},
+                      {"id": "c", "text": "reportagem informativa."},
+                      {"id": "d", "text": "entrevista prescritiva."},
+                      {"id": "e", "text": "artigo de opinião descritivo."}
+                  ],
+                  "correctOptionId": "c",
+                  "explanation": "Aprofundamento, contexto, fontes e finalidade informativa apontam para reportagem informativa. Questão adaptada do padrão CESPE/CEBRASPE — CAESB, Operador de Estação de Tratamento, 2025, Q3979867."
+              },
+              {
+                  "id": "q090",
+                  "revision": 1,
+                  "prompt": "Um texto apresenta conceito, exemplos e consequências de determinado fenômeno, mas não formula tese que o leitor deva aceitar. A alternativa correta é:",
+                  "options": [
+                      {"id": "a", "text": "injuntivo, porque todo exemplo orienta ação."},
+                      {"id": "b", "text": "narrativo, porque consequências implicam sequência temporal."},
+                      {"id": "c", "text": "descritivo, porque conceitos são características."},
+                      {"id": "d", "text": "dissertativo-argumentativo, porque qualquer explicação persuade."},
+                      {"id": "e", "text": "dissertativo-expositivo, porque informa e explica sem defender posição."}
+                  ],
+                  "correctOptionId": "e",
+                  "explanation": "A ausência de tese e a função de explicar caracterizam dissertação expositiva. Questão adaptada do padrão CESPE/CEBRASPE — PC-PB, Escrivão, 2022, Q2582146."
+              },
+              {
+                  "id": "q091",
+                  "revision": 1,
+                  "prompt": "Um ensaio contém parágrafos que defendem uma ideia e, no final, dirige ao leitor uma recomendação direta. Sobre a composição, é correto afirmar que:",
+                  "options": [
+                      {"id": "a", "text": "a recomendação elimina os trechos argumentativos."},
+                      {"id": "b", "text": "o texto pode combinar sequência argumentativa com trecho injuntivo."},
+                      {"id": "c", "text": "a presença de injunção transforma o gênero em manual."},
+                      {"id": "d", "text": "tipos textuais diferentes não podem coexistir."},
+                      {"id": "e", "text": "dirigir-se ao leitor é suficiente para classificar o texto como entrevista."}
+                  ],
+                  "correctOptionId": "b",
+                  "explanation": "Textos podem combinar sequências, e uma recomendação injuntiva pode integrar plano predominantemente argumentativo. Questão adaptada do padrão CESPE/CEBRASPE — UNIVESP, Supervisor Pedagógico, 2025, Q3793875."
+              },
+              {
+                  "id": "q092",
+                  "revision": 1,
+                  "prompt": "Qual enunciado exemplifica melhor a dissertação expositiva?",
+                  "options": [
+                      {"id": "a", "text": "A administração deveria ampliar imediatamente o atendimento digital."},
+                      {"id": "b", "text": "O atendimento digital reduz deslocamentos e pode ser oferecido por portal ou aplicativo."},
+                      {"id": "c", "text": "A equipe abriu o sistema, encontrou falha e chamou o suporte."},
+                      {"id": "d", "text": "Clique em 'entrar', informe a senha e confirme."},
+                      {"id": "e", "text": "A interface é azul, compacta e organizada em três colunas."}
+                  ],
+                  "correctOptionId": "b",
+                  "explanation": "A alternativa correta apresenta informação sobre o tema sem comando, narração, descrição predominante ou tese normativa. Questão adaptada do padrão FGV — DPE-RO, Analista em Redação, 2025, Q3847268."
+              },
+              {
+                  "id": "q093",
+                  "revision": 1,
+                  "prompt": "A distinção mais adequada entre texto instrucional e texto prescritivo é:",
+                  "options": [
+                      {"id": "a", "text": "O instrucional ensina procedimento; o prescritivo estabelece obrigação, permissão ou proibição."},
+                      {"id": "b", "text": "O instrucional sempre narra; o prescritivo sempre descreve."},
+                      {"id": "c", "text": "O instrucional é gênero; o prescritivo é suporte."},
+                      {"id": "d", "text": "O instrucional só existe em papel; o prescritivo só existe em portal."},
+                      {"id": "e", "text": "Não há relação entre ambos e a injunção."}
+                  ],
+                  "correctOptionId": "a",
+                  "explanation": "Ambos orientam ação futura e podem aparecer sob o rótulo injuntivo; o primeiro enfatiza o modo de fazer, e o segundo, a regulação da conduta."
+              }
+          ]
+
+          existing_ids = {q["id"] for q in data["questions"]}
+          for question in new_questions:
+              if question["id"] not in existing_ids:
+                  data["questions"].append(question)
+
+          data["questionSetRevision"] = 2
+
+          ids = [q["id"] for q in data["questions"]]
+          assert len(ids) == 60, f"expected 60 questions, found {len(ids)}"
+          assert len(ids) == len(set(ids)), "duplicate question ids"
+          for question in data["questions"]:
+              option_ids = [option["id"] for option in question["options"]]
+              assert option_ids == list("abcde"), f"invalid options in {question['id']}"
+              assert question["correctOptionId"] in option_ids, f"invalid answer in {question['id']}"
+
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Commit question bank and remove temporary workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm .github/workflows/update-tipos-generos-questions.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/tipos-generos-textuais/questoes.json \
+            .github/workflows/update-tipos-generos-questions.yml
+          git commit -m "feat(content): expand tipos e generos questions"
+          git push origin HEAD:agent/revise-tipos-generos-textuais
