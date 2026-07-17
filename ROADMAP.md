@@ -645,7 +645,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - 8.1. Tipos de recrutamento: vantagens e desvantagens.
 - 8.2. Técnicas de seleção: vantagens, desvantagens e processo decisório.
 
-##### [>] Em progresso Assunto 149 - Item 9: Análise e descrição de cargos.
+##### [R] Em revisão Assunto 149 - Item 9: Análise e descrição de cargos.
 
 - Item 9. Análise e descrição de cargos: objetivos, métodos, vantagens e desvantagens.
 
