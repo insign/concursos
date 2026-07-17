@@ -654,7 +654,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - 10.1. Objetivos.
 - 10.2. Métodos de avaliação de desempenho: características, vantagens e desvantagens.
 
-##### [R] Em revisão Assunto 151 - Item 11, subitens 11.1 e 11.2: Desenvolvimento e capacitação.
+##### [x] Concluído Assunto 151 - Item 11, subitens 11.1 e 11.2: Desenvolvimento e capacitação.
 
 - 11.1. Levantamento de necessidades.
 - 11.2. Programação, execução e avaliação.
