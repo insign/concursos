@@ -68,7 +68,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.2. Relações de coordenação entre orações e entre termos da oração.
 
-##### [>] Em progresso Assunto 010 - Item 5, subitem 5.3: Subordinação entre orações e termos da oração.
+##### [R] Em revisão Assunto 010 - Item 5, subitem 5.3: Subordinação entre orações e termos da oração.
 
 - 5.3. Relações de subordinação entre orações e entre termos da oração.
 
