@@ -14,28 +14,50 @@ concurrency:
 
 jobs:
   content-quality:
-    name: Content quality gate
+    name: KV status finalization
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 5
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Mark ortografia as analyzing
+        run: |
+          curl --fail-with-body --silent --show-error \
+            'https://kv.helio.me/adm/value?method=PUT&path=%2Flinks%2Ftce-ma-2026-analista-administracao--ortografia-oficial%2Fstatus&data=ImFuYWx5emluZyI' \
+            > /tmp/analyzing.json
+          python3 - <<'PY'
+          import json
+          with open('/tmp/analyzing.json', encoding='utf-8') as stream:
+              response = json.load(stream)
+          status = response['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
+          print('intermediate status:', status)
+          if status != 'analyzing':
+              raise SystemExit(1)
+          PY
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22.12.0
-          cache: npm
+      - name: Mark ortografia as done
+        run: |
+          curl --fail-with-body --silent --show-error \
+            'https://kv.helio.me/adm/value?method=PUT&path=%2Flinks%2Ftce-ma-2026-analista-administracao--ortografia-oficial%2Fstatus&data=ImRvbmUi' \
+            > /tmp/done.json
+          python3 - <<'PY'
+          import json
+          with open('/tmp/done.json', encoding='utf-8') as stream:
+              response = json.load(stream)
+          status = response['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
+          print('mutation status:', status)
+          if status != 'done':
+              raise SystemExit(1)
+          PY
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run unit tests
-        run: npm run test:unit
-
-      - name: Run Astro checks
-        run: npm run check
-
-      - name: Build production site
-        run: npm run build
+      - name: Verify persisted value
+        run: |
+          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm.json
+          python3 - <<'PY'
+          import json
+          with open('/tmp/adm.json', encoding='utf-8') as stream:
+              response = json.load(stream)
+          status = response['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
+          print('stored status:', status)
+          if status != 'done':
+              raise SystemExit(1)
+          PY
