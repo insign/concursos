@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q2499",
+      "revision": 1,
+      "prompt": "Gestão de pessoas pode ser definida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "conjunto integrado de políticas e práticas relativas às pessoas da organização."
+        },
+        {
+          "id": "B",
+          "text": "apenas processamento da folha."
+        },
+        {
+          "id": "C",
+          "text": "atividade exclusiva dos empregados."
+        },
+        {
+          "id": "D",
+          "text": "substituição da estratégia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A área integra decisões e práticas para prover capacidades organizacionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2500",
+      "revision": 1,
+      "prompt": "O Departamento Pessoal enfatiza",
+      "options": [
+        {
+          "id": "A",
+          "text": "teoria de sistemas."
+        },
+        {
+          "id": "B",
+          "text": "registros, frequência, folha e conformidade."
+        },
+        {
+          "id": "C",
+          "text": "somente cultura."
+        },
+        {
+          "id": "D",
+          "text": "estratégia competitiva exclusivamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "DP representa o núcleo jurídico-administrativo e operacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2501",
+      "revision": 1,
+      "prompt": "A Administração de Recursos Humanos ampliou o foco para",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente contabilidade."
+        },
+        {
+          "id": "B",
+          "text": "eliminação de processos."
+        },
+        {
+          "id": "C",
+          "text": "recrutamento, seleção, treinamento, cargos e avaliação."
+        },
+        {
+          "id": "D",
+          "text": "apenas frequência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ARH especializou processos além do registro funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2502",
+      "revision": 1,
+      "prompt": "Gestão estratégica de pessoas caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandonar conformidade."
+        },
+        {
+          "id": "B",
+          "text": "tratar pessoas apenas como custo."
+        },
+        {
+          "id": "C",
+          "text": "ignorar resultados."
+        },
+        {
+          "id": "D",
+          "text": "alinhar capacidades humanas e práticas aos objetivos institucionais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O alinhamento estratégico dá coerência aos processos de pessoas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2503",
+      "revision": 1,
+      "prompt": "A evolução DP-ARH-GP estratégica",
+      "options": [
+        {
+          "id": "A",
+          "text": "representa tipos didáticos que podem coexistir."
+        },
+        {
+          "id": "B",
+          "text": "elimina totalmente cada estágio anterior."
+        },
+        {
+          "id": "C",
+          "text": "é cronologia universal rígida."
+        },
+        {
+          "id": "D",
+          "text": "dispensa rotinas operacionais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As funções operacionais permanecem necessárias e coexistem com atuação estratégica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2504",
+      "revision": 1,
+      "prompt": "No setor público, gestão estratégica de pessoas deve orientar-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "ausência de mérito."
+        },
+        {
+          "id": "B",
+          "text": "valor público, legalidade, impessoalidade e continuidade."
+        },
+        {
+          "id": "C",
+          "text": "lucro como único objetivo."
+        },
+        {
+          "id": "D",
+          "text": "interesse privado do gestor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A finalidade pública condiciona práticas e resultados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2505",
+      "revision": 1,
+      "prompt": "Planejamento da força de trabalho busca identificar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas preferências individuais."
+        },
+        {
+          "id": "B",
+          "text": "nenhum risco."
+        },
+        {
+          "id": "C",
+          "text": "quantitativos e competências necessários."
+        },
+        {
+          "id": "D",
+          "text": "somente salários passados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Planejamento conecta demandas institucionais a pessoas e capacidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2506",
+      "revision": 1,
+      "prompt": "Gerir pessoas é responsabilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusiva do RH."
+        },
+        {
+          "id": "B",
+          "text": "apenas da folha."
+        },
+        {
+          "id": "C",
+          "text": "somente do dirigente máximo."
+        },
+        {
+          "id": "D",
+          "text": "compartilhada entre alta administração, unidade de GP, gestores e pessoas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A unidade especializada apoia, mas gestores aplicam práticas cotidianas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2507",
+      "revision": 1,
+      "prompt": "Ao gestor de linha cabe tipicamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "distribuir trabalho, acompanhar e dar feedback."
+        },
+        {
+          "id": "B",
+          "text": "formular sozinho toda política institucional."
+        },
+        {
+          "id": "C",
+          "text": "ignorar a equipe."
+        },
+        {
+          "id": "D",
+          "text": "substituir a unidade jurídica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Gestores realizam a gestão cotidiana de suas equipes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2508",
+      "revision": 1,
+      "prompt": "A unidade de gestão de pessoas deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "atuar sem gestores."
+        },
+        {
+          "id": "B",
+          "text": "oferecer políticas, métodos, dados e apoio especializado."
+        },
+        {
+          "id": "C",
+          "text": "monopolizar todas as relações de equipe."
+        },
+        {
+          "id": "D",
+          "text": "ignorar estratégia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Seu papel especializado complementa a responsabilidade gerencial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2509",
+      "revision": 1,
+      "prompt": "A relação entre estratégia e GP ocorre porque a estratégia",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede indicadores."
+        },
+        {
+          "id": "B",
+          "text": "é irrelevante para pessoas."
+        },
+        {
+          "id": "C",
+          "text": "define prioridades e capacidades críticas."
+        },
+        {
+          "id": "D",
+          "text": "elimina competências."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "GP traduz prioridades estratégicas em necessidades humanas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2510",
+      "revision": 1,
+      "prompt": "Estrutura e processos influenciam GP ao definir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o ambiente externo."
+        },
+        {
+          "id": "B",
+          "text": "somente remuneração."
+        },
+        {
+          "id": "C",
+          "text": "nenhuma competência."
+        },
+        {
+          "id": "D",
+          "text": "divisão do trabalho, cargos, fluxos e coordenação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O desenho organizacional condiciona quantitativos e capacidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2511",
+      "revision": 1,
+      "prompt": "Tecnologia relaciona-se à gestão de pessoas porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "altera tarefas, competências e fornece dados decisórios."
+        },
+        {
+          "id": "B",
+          "text": "elimina toda necessidade humana."
+        },
+        {
+          "id": "C",
+          "text": "não muda o trabalho."
+        },
+        {
+          "id": "D",
+          "text": "substitui governança."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Mudança tecnológica exige redesenho e desenvolvimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2512",
+      "revision": 1,
+      "prompt": "O orçamento",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui estratégia."
+        },
+        {
+          "id": "B",
+          "text": "condiciona provimento, remuneração e desenvolvimento."
+        },
+        {
+          "id": "C",
+          "text": "não se relaciona a GP."
+        },
+        {
+          "id": "D",
+          "text": "permite gasto ilimitado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Decisões de pessoas possuem restrições e impactos financeiros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2513",
+      "revision": 1,
+      "prompt": "Capacitação desconectada de processos e alocação",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa avaliação."
+        },
+        {
+          "id": "B",
+          "text": "é necessariamente estratégica."
+        },
+        {
+          "id": "C",
+          "text": "pode não gerar aplicação do aprendizado."
+        },
+        {
+          "id": "D",
+          "text": "sempre produz resultado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A visão sistêmica exige coerência entre subsistemas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2514",
+      "revision": 1,
+      "prompt": "O Decreto nº 9.991/2019 institui a PNDP no",
+      "options": [
+        {
+          "id": "A",
+          "text": "TCE-MA automaticamente."
+        },
+        {
+          "id": "B",
+          "text": "setor privado mundial."
+        },
+        {
+          "id": "C",
+          "text": "Judiciário estadual."
+        },
+        {
+          "id": "D",
+          "text": "Poder Executivo federal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A referência federal não se aplica automaticamente ao tribunal estadual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2515",
+      "revision": 1,
+      "prompt": "O PDP deve partir de necessidades relacionadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "aos objetivos institucionais."
+        },
+        {
+          "id": "B",
+          "text": "somente ao interesse pessoal."
+        },
+        {
+          "id": "C",
+          "text": "a cursos disponíveis, sem diagnóstico."
+        },
+        {
+          "id": "D",
+          "text": "apenas à folha."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Alinhamento institucional é elemento da PNDP. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2516",
+      "revision": 1,
+      "prompt": "O diagnóstico de competências identifica",
+      "options": [
+        {
+          "id": "A",
+          "text": "nenhum comportamento."
+        },
+        {
+          "id": "B",
+          "text": "conhecimentos, habilidades e condutas necessários."
+        },
+        {
+          "id": "C",
+          "text": "somente diplomas."
+        },
+        {
+          "id": "D",
+          "text": "apenas remuneração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O diagnóstico orienta necessidades de desenvolvimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2517",
+      "revision": 1,
+      "prompt": "A Administração Científica associa-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Weber e necessidades."
+        },
+        {
+          "id": "B",
+          "text": "Mayo e burocracia."
+        },
+        {
+          "id": "C",
+          "text": "Taylor e ênfase nas tarefas."
+        },
+        {
+          "id": "D",
+          "text": "Fayol e relações informais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Taylor buscou método e eficiência no trabalho operacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2518",
+      "revision": 1,
+      "prompt": "Entre os princípios de Taylor está",
+      "options": [
+        {
+          "id": "A",
+          "text": "ausência de planejamento."
+        },
+        {
+          "id": "B",
+          "text": "improvisação como método."
+        },
+        {
+          "id": "C",
+          "text": "eliminação da cooperação."
+        },
+        {
+          "id": "D",
+          "text": "seleção e treinamento científicos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Taylor não se restringe a incentivos salariais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2519",
+      "revision": 1,
+      "prompt": "Na Administração Científica, planejamento e execução",
+      "options": [
+        {
+          "id": "A",
+          "text": "são divididos entre gerência e trabalhadores."
+        },
+        {
+          "id": "B",
+          "text": "não são diferenciados."
+        },
+        {
+          "id": "C",
+          "text": "cabem só ao cliente."
+        },
+        {
+          "id": "D",
+          "text": "são abolidos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A gerência estuda e planeja métodos, enquanto a execução é especializada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2520",
+      "revision": 1,
+      "prompt": "Crítica à abordagem taylorista é",
+      "options": [
+        {
+          "id": "A",
+          "text": "focar ambiente externo."
+        },
+        {
+          "id": "B",
+          "text": "reduzir autonomia e subestimar dimensões sociais e cognitivas."
+        },
+        {
+          "id": "C",
+          "text": "valorizar excessivamente grupos informais."
+        },
+        {
+          "id": "D",
+          "text": "rejeitar padronização."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A visão mecanicista limita a compreensão do trabalhador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2521",
+      "revision": 1,
+      "prompt": "A Teoria Clássica associa-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mayo e regras legais."
+        },
+        {
+          "id": "B",
+          "text": "Simon e tarefa padronizada."
+        },
+        {
+          "id": "C",
+          "text": "Fayol e organização como um todo."
+        },
+        {
+          "id": "D",
+          "text": "Taylor e grupos informais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Fayol enfatiza estrutura e administração geral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2522",
+      "revision": 1,
+      "prompt": "POCCC significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "planejar, observar, comunicar, contratar e capacitar."
+        },
+        {
+          "id": "B",
+          "text": "produzir, operar, competir, cooperar e criar."
+        },
+        {
+          "id": "C",
+          "text": "padronizar, ordenar, calcular, corrigir e cobrar."
+        },
+        {
+          "id": "D",
+          "text": "prever, organizar, comandar, coordenar e controlar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "É a formulação das funções administrativas de Fayol. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2523",
+      "revision": 1,
+      "prompt": "Unidade de comando significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "cada empregado receber ordens de um superior."
+        },
+        {
+          "id": "B",
+          "text": "todos comandarem todos."
+        },
+        {
+          "id": "C",
+          "text": "ausência de autoridade."
+        },
+        {
+          "id": "D",
+          "text": "uma organização por país."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É princípio clássico relacionado à clareza de autoridade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2524",
+      "revision": 1,
+      "prompt": "Taylor e Fayol diferenciam-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taylor formulou POCCC."
+        },
+        {
+          "id": "B",
+          "text": "Taylor enfatiza tarefas; Fayol, estrutura e administração geral."
+        },
+        {
+          "id": "C",
+          "text": "ambos focam exclusivamente grupos."
+        },
+        {
+          "id": "D",
+          "text": "Fayol criou a burocracia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A distinção de foco é clássica em provas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2525",
+      "revision": 1,
+      "prompt": "A burocracia weberiana baseia-se em dominação",
+      "options": [
+        {
+          "id": "A",
+          "text": "informal apenas."
+        },
+        {
+          "id": "B",
+          "text": "sem regras."
+        },
+        {
+          "id": "C",
+          "text": "racional-legal."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente carismática."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A legitimidade decorre de normas e competências. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2526",
+      "revision": 1,
+      "prompt": "É característica burocrática",
+      "options": [
+        {
+          "id": "A",
+          "text": "favoritismo pessoal."
+        },
+        {
+          "id": "B",
+          "text": "ausência de documentação."
+        },
+        {
+          "id": "C",
+          "text": "improvisação."
+        },
+        {
+          "id": "D",
+          "text": "impessoalidade e cargos definidos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Regras, hierarquia, mérito e documentação promovem previsibilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2527",
+      "revision": 1,
+      "prompt": "Para Weber, seleção deve apoiar-se em",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualificação técnica."
+        },
+        {
+          "id": "B",
+          "text": "parentesco."
+        },
+        {
+          "id": "C",
+          "text": "preferência pessoal."
+        },
+        {
+          "id": "D",
+          "text": "sorte informal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Profissionalização e mérito integram o tipo ideal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2528",
+      "revision": 1,
+      "prompt": "Burocracia weberiana",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina carreira."
+        },
+        {
+          "id": "B",
+          "text": "não é sinônimo de corrupção ou ineficiência."
+        },
+        {
+          "id": "C",
+          "text": "significa excesso de papel necessariamente."
+        },
+        {
+          "id": "D",
+          "text": "rejeita regras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Trata-se de tipo ideal racional-legal; disfunções são fenômenos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2529",
+      "revision": 1,
+      "prompt": "Apego excessivo às regras com perda da finalidade é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Teoria Y."
+        },
+        {
+          "id": "B",
+          "text": "gestão estratégica."
+        },
+        {
+          "id": "C",
+          "text": "disfunção burocrática e deslocamento de objetivos."
+        },
+        {
+          "id": "D",
+          "text": "equifinalidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O meio formal passa a substituir o objetivo organizacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2530",
+      "revision": 1,
+      "prompt": "A Escola das Relações Humanas destacou",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente regras legais."
+        },
+        {
+          "id": "B",
+          "text": "apenas tempos e movimentos."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente estrutura formal."
+        },
+        {
+          "id": "D",
+          "text": "grupos informais e fatores sociais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A abordagem ampliou a visão do trabalho para relações sociais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2531",
+      "revision": 1,
+      "prompt": "Os estudos de Hawthorne associam-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elton Mayo e colaboradores."
+        },
+        {
+          "id": "B",
+          "text": "Max Weber."
+        },
+        {
+          "id": "C",
+          "text": "Henri Fayol."
+        },
+        {
+          "id": "D",
+          "text": "Frederick Taylor apenas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Hawthorne tornou-se marco histórico das Relações Humanas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2532",
+      "revision": 1,
+      "prompt": "Sobre o efeito Hawthorne, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "foi formulado por Weber."
+        },
+        {
+          "id": "B",
+          "text": "não prova que mera observação sempre eleva produtividade."
+        },
+        {
+          "id": "C",
+          "text": "é lei universal incontestável."
+        },
+        {
+          "id": "D",
+          "text": "elimina fatores técnicos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A narrativa popular simplifica estudos metodologicamente debatidos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2533",
+      "revision": 1,
+      "prompt": "A abordagem comportamental aprofunda",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas organogramas."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente normas jurídicas."
+        },
+        {
+          "id": "C",
+          "text": "decisão, necessidades, cooperação e comportamento."
+        },
+        {
+          "id": "D",
+          "text": "somente tarefas físicas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ela amplia criticamente as Relações Humanas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2534",
+      "revision": 1,
+      "prompt": "Herbert Simon associa-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "administração científica."
+        },
+        {
+          "id": "B",
+          "text": "hierarquia de necessidades."
+        },
+        {
+          "id": "C",
+          "text": "POCCC."
+        },
+        {
+          "id": "D",
+          "text": "racionalidade limitada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Decisores operam com limites de informação, tempo e cognição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2535",
+      "revision": 1,
+      "prompt": "Na racionalidade limitada, o decisor tende a buscar",
+      "options": [
+        {
+          "id": "A",
+          "text": "alternativa satisfatória, não maximização perfeita."
+        },
+        {
+          "id": "B",
+          "text": "informação infinita."
+        },
+        {
+          "id": "C",
+          "text": "decisão sem limites."
+        },
+        {
+          "id": "D",
+          "text": "ausência de critérios."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Satisficing decorre dos limites decisórios reais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2536",
+      "revision": 1,
+      "prompt": "Chester Barnard compreendeu organizações como",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas mercados."
+        },
+        {
+          "id": "B",
+          "text": "sistemas cooperativos."
+        },
+        {
+          "id": "C",
+          "text": "máquinas sem comunicação."
+        },
+        {
+          "id": "D",
+          "text": "estruturas sem pessoas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cooperação, comunicação e aceitação da autoridade são centrais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2537",
+      "revision": 1,
+      "prompt": "Para Barnard, a autoridade depende também de",
+      "options": [
+        {
+          "id": "A",
+          "text": "ausência de comunicação."
+        },
+        {
+          "id": "B",
+          "text": "somente posição formal."
+        },
+        {
+          "id": "C",
+          "text": "aceitação por quem recebe a comunicação."
+        },
+        {
+          "id": "D",
+          "text": "violência necessariamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A teoria da aceitação destaca o papel do subordinado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2538",
+      "revision": 1,
+      "prompt": "Maslow associa-se à",
+      "options": [
+        {
+          "id": "A",
+          "text": "teoria dos dois fatores."
+        },
+        {
+          "id": "B",
+          "text": "burocracia."
+        },
+        {
+          "id": "C",
+          "text": "equifinalidade."
+        },
+        {
+          "id": "D",
+          "text": "hierarquia de necessidades."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Maslow propôs um modelo de necessidades humanas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2539",
+      "revision": 1,
+      "prompt": "Herzberg distingue",
+      "options": [
+        {
+          "id": "A",
+          "text": "fatores higiênicos e motivacionais."
+        },
+        {
+          "id": "B",
+          "text": "Teorias X e Y."
+        },
+        {
+          "id": "C",
+          "text": "tarefas e estrutura."
+        },
+        {
+          "id": "D",
+          "text": "inputs e outputs."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Higiene evita insatisfação; motivadores ligam-se ao conteúdo do trabalho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2540",
+      "revision": 1,
+      "prompt": "As Teorias X e Y de McGregor representam",
+      "options": [
+        {
+          "id": "A",
+          "text": "estágios sistêmicos."
+        },
+        {
+          "id": "B",
+          "text": "pressupostos gerenciais contrastantes sobre pessoas e trabalho."
+        },
+        {
+          "id": "C",
+          "text": "tipos biológicos fixos."
+        },
+        {
+          "id": "D",
+          "text": "graus de burocracia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Não são categorias naturais imutáveis de trabalhadores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2541",
+      "revision": 1,
+      "prompt": "A abordagem estruturalista considera",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas tarefa."
+        },
+        {
+          "id": "B",
+          "text": "ausência de poder."
+        },
+        {
+          "id": "C",
+          "text": "organização formal e informal, conflitos e múltiplos objetivos."
+        },
+        {
+          "id": "D",
+          "text": "somente harmonia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Estruturalismo amplia e articula perspectivas anteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2542",
+      "revision": 1,
+      "prompt": "Para o estruturalismo, conflito",
+      "options": [
+        {
+          "id": "A",
+          "text": "não existe."
+        },
+        {
+          "id": "B",
+          "text": "é sempre eliminado por grupos informais."
+        },
+        {
+          "id": "C",
+          "text": "é sinônimo de ilegalidade."
+        },
+        {
+          "id": "D",
+          "text": "é fenômeno legítimo de análise organizacional."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Tensões entre objetivos e papéis não são ocultadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2543",
+      "revision": 1,
+      "prompt": "A abordagem sistêmica vê a organização como",
+      "options": [
+        {
+          "id": "A",
+          "text": "sistema aberto em interação com o ambiente."
+        },
+        {
+          "id": "B",
+          "text": "conjunto isolado."
+        },
+        {
+          "id": "C",
+          "text": "soma sem relações."
+        },
+        {
+          "id": "D",
+          "text": "estrutura fechada necessariamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Entradas, transformação, saídas e feedback conectam organização e ambiente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2544",
+      "revision": 1,
+      "prompt": "Interdependência sistêmica significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o ambiente importa."
+        },
+        {
+          "id": "B",
+          "text": "mudanças em um subsistema afetam outros e o todo."
+        },
+        {
+          "id": "C",
+          "text": "cada área é isolada."
+        },
+        {
+          "id": "D",
+          "text": "não há feedback."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Subsistemas mantêm relações recíprocas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2545",
+      "revision": 1,
+      "prompt": "Feedback é",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas entrada financeira."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo de hierarquia."
+        },
+        {
+          "id": "C",
+          "text": "informação sobre resultados usada para ajuste."
+        },
+        {
+          "id": "D",
+          "text": "ausência de controle."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Retroalimentação permite correção e adaptação do sistema. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2546",
+      "revision": 1,
+      "prompt": "Equifinalidade indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "há apenas um método correto."
+        },
+        {
+          "id": "B",
+          "text": "todo sistema é fechado."
+        },
+        {
+          "id": "C",
+          "text": "entradas são irrelevantes."
+        },
+        {
+          "id": "D",
+          "text": "diferentes caminhos podem levar a resultado semelhante."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Sistemas abertos podem alcançar fins por trajetórias distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2547",
+      "revision": 1,
+      "prompt": "A Teoria Geral dos Sistemas associa-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ludwig von Bertalanffy."
+        },
+        {
+          "id": "B",
+          "text": "Taylor."
+        },
+        {
+          "id": "C",
+          "text": "Mayo."
+        },
+        {
+          "id": "D",
+          "text": "Fayol."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Bertalanffy é referência central da TGS. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2548",
+      "revision": 1,
+      "prompt": "Sobre Barnard e sistemas, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é autor do taylorismo."
+        },
+        {
+          "id": "B",
+          "text": "é precursor cooperativo, não fundador exclusivo da Teoria dos Sistemas."
+        },
+        {
+          "id": "C",
+          "text": "criou sozinho toda TGS."
+        },
+        {
+          "id": "D",
+          "text": "rejeitou cooperação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sua classificação varia, mas cooperação e comunicação são inequívocas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2549",
+      "revision": 1,
+      "prompt": "A abordagem contingencial afirma que",
+      "options": [
+        {
+          "id": "A",
+          "text": "contexto é irrelevante."
+        },
+        {
+          "id": "B",
+          "text": "planejamento é inútil."
+        },
+        {
+          "id": "C",
+          "text": "não existe uma única melhor maneira de organizar."
+        },
+        {
+          "id": "D",
+          "text": "há receita universal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A solução depende do ajuste entre variáveis organizacionais e ambientais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2550",
+      "revision": 1,
+      "prompt": "São variáveis contingenciais",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente preferência do gestor."
+        },
+        {
+          "id": "B",
+          "text": "apenas remuneração."
+        },
+        {
+          "id": "C",
+          "text": "nenhuma característica interna."
+        },
+        {
+          "id": "D",
+          "text": "ambiente, estratégia, tecnologia, porte e natureza do trabalho."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O diagnóstico contextual orienta estrutura e práticas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2551",
+      "revision": 1,
+      "prompt": "Contingência não significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "improvisação ou ausência de princípios."
+        },
+        {
+          "id": "B",
+          "text": "ajuste ao contexto."
+        },
+        {
+          "id": "C",
+          "text": "diagnóstico."
+        },
+        {
+          "id": "D",
+          "text": "congruência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A abordagem exige análise sistemática das variáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2552",
+      "revision": 1,
+      "prompt": "A abordagem neoclássica caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "abolir as funções administrativas."
+        },
+        {
+          "id": "B",
+          "text": "retomar princípios clássicos com pragmatismo e orientação para resultados."
+        },
+        {
+          "id": "C",
+          "text": "rejeitar objetivos organizacionais."
+        },
+        {
+          "id": "D",
+          "text": "concentrar-se apenas em grupos informais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A abordagem neoclássica atualiza princípios clássicos e enfatiza objetivos e resultados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2553",
+      "revision": 1,
+      "prompt": "A Administração por Objetivos, associada a Peter Drucker, envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "abandono da responsabilização gerencial."
+        },
+        {
+          "id": "B",
+          "text": "substituição dos resultados por procedimentos informais."
+        },
+        {
+          "id": "C",
+          "text": "definição de objetivos, acompanhamento de resultados e realimentação do planejamento."
+        },
+        {
+          "id": "D",
+          "text": "imposição unilateral de metas sem revisão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A APO articula objetivos claros, acompanhamento, responsabilização e revisão; não é mera imposição de metas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2554",
+      "revision": 1,
+      "prompt": "A sequência correta de focos é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taylor-grupos; Fayol-necessidades; Weber-contingência."
+        },
+        {
+          "id": "B",
+          "text": "Taylor-sistemas; Fayol-Hawthorne; Weber-motivação."
+        },
+        {
+          "id": "C",
+          "text": "Taylor-cultura; Fayol-feedback; Weber-equifinalidade."
+        },
+        {
+          "id": "D",
+          "text": "Taylor-tarefa; Fayol-estrutura; Weber-racionalidade legal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Esses focos distinguem as três abordagens iniciais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2555",
+      "revision": 1,
+      "prompt": "A sequência correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relações Humanas-grupos; Comportamental-decisão; Sistemas-interdependência."
+        },
+        {
+          "id": "B",
+          "text": "Relações Humanas-regras; Comportamental-tarefas; Sistemas-isolamento."
+        },
+        {
+          "id": "C",
+          "text": "Relações Humanas-hierarquia; Comportamental-POCCC; Sistemas-fechamento."
+        },
+        {
+          "id": "D",
+          "text": "Relações Humanas-mérito; Comportamental-padronização; Sistemas-unidade de comando."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alternativa associa corretamente cada abordagem ao núcleo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2556",
+      "revision": 1,
+      "prompt": "O impacto das teorias administrativas na GP deve ser entendido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituição integral entre escolas."
+        },
+        {
+          "id": "B",
+          "text": "contribuições históricas com limites, não receitas universais."
+        },
+        {
+          "id": "C",
+          "text": "leis naturais imutáveis."
+        },
+        {
+          "id": "D",
+          "text": "modelos sem aplicação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Abordagens coexistem e ajudam a diagnosticar dimensões diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2557",
+      "revision": 1,
+      "prompt": "Uma gestão de pessoas sistêmica deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ignorar feedback."
+        },
+        {
+          "id": "B",
+          "text": "separar desenvolvimento do trabalho."
+        },
+        {
+          "id": "C",
+          "text": "integrar práticas a estratégia, estrutura, tecnologia e cultura."
+        },
+        {
+          "id": "D",
+          "text": "otimizar cada processo isoladamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Integração reduz incoerências entre subsistemas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2558",
+      "revision": 1,
+      "prompt": "A síntese correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "GP limita-se à folha."
+        },
+        {
+          "id": "B",
+          "text": "uma escola resolve toda organização."
+        },
+        {
+          "id": "C",
+          "text": "setor público dispensa alinhamento."
+        },
+        {
+          "id": "D",
+          "text": "gestão estratégica integra pessoas e sistemas; teorias oferecem lentes complementares e contextuais."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alternativa reúne evolução, visão sistêmica e pluralidade teórica. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

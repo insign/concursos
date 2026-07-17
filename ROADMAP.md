@@ -611,7 +611,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 #### Gestão de Pessoas
 
-##### [>] Em progresso Assunto 142 - Itens 1 e 2: Conceitos, importância, sistemas de organização, teorias e escolas da administração na gestão de pessoas.
+##### [R] Em revisão Assunto 142 - Itens 1 e 2: Conceitos, importância, sistemas de organização, teorias e escolas da administração na gestão de pessoas.
 
 - Item 1. Conceitos, importância, relação com os outros sistemas de organização.
 - Item 2. Fundamentos, teorias e escolas da administração e o seu impacto na gestão de pessoas.
