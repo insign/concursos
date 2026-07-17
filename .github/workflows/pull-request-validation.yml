@@ -35,7 +35,24 @@ jobs:
         run: npm run test:unit
 
       - name: Run Astro checks
-        run: npm run check
+        id: astro-check
+        shell: bash
+        run: |
+          set +e
+          npm run check 2>&1 | tee astro-check.log
+          status=${PIPESTATUS[0]}
+          echo "status=${status}" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Upload Astro check log
+        uses: actions/upload-artifact@v4
+        with:
+          name: astro-check-log
+          path: astro-check.log
+
+      - name: Fail when Astro check fails
+        if: steps.astro-check.outputs.status != '0'
+        run: exit 1
 
       - name: Build production site
         run: npm run build
