@@ -72,7 +72,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.3. Relações de subordinação entre orações e entre termos da oração.
 
-##### [>] Em progresso Assunto 011 - Item 5, subitem 5.4: Pontuação.
+##### [R] Em revisão Assunto 011 - Item 5, subitem 5.4: Pontuação.
 
 - 5.4. Emprego dos sinais de pontuação.
 
