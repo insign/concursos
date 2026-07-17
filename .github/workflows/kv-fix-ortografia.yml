@@ -1,4 +1,4 @@
-name: Repair ortografia status in KV
+name: Register coesao textual in KV
 
 on:
   pull_request:
@@ -9,47 +9,30 @@ permissions:
   contents: read
 
 jobs:
-  repair-kv:
-    name: Repair KV status
+  register-kv:
+    name: Register next content as analyzing
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Mark analyzing
+      - name: Add coesao textual and mark analyzing
         shell: bash
         run: |
           curl --fail-with-body --silent --show-error \
             -X PUT \
             -H 'Content-Type: application/json' \
-            --data '"analyzing"' \
-            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--ortografia-oficial%2Fstatus' \
-            > /tmp/analyzing.json
+            --data '{"path":"/concursos/tce-ma-2026-analista-administracao/coesao-textual/","status":"analyzing"}' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--coesao-textual' \
+            > /tmp/result.json
           python3 - <<'PY'
           import json
-          with open('/tmp/analyzing.json', encoding='utf-8') as stream:
+          key = 'tce-ma-2026-analista-administracao--coesao-textual'
+          expected_path = '/concursos/tce-ma-2026-analista-administracao/coesao-textual/'
+          with open('/tmp/result.json', encoding='utf-8') as stream:
               data = json.load(stream)
-          status = data['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
-          print('status after first mutation:', status)
-          if status != 'analyzing':
-              raise SystemExit(1)
-          PY
-
-      - name: Mark done
-        shell: bash
-        run: |
-          curl --fail-with-body --silent --show-error \
-            -X PUT \
-            -H 'Content-Type: application/json' \
-            --data '"done"' \
-            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--ortografia-oficial%2Fstatus' \
-            > /tmp/done.json
-          python3 - <<'PY'
-          import json
-          with open('/tmp/done.json', encoding='utf-8') as stream:
-              data = json.load(stream)
-          status = data['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
-          print('status after second mutation:', status)
-          if status != 'done':
+          item = data['json']['links'][key]
+          print('registered item:', item)
+          if item != {'path': expected_path, 'status': 'analyzing'}:
               raise SystemExit(1)
           PY
 
@@ -61,11 +44,13 @@ jobs:
             > /tmp/adm.json
           python3 - <<'PY'
           import json
+          key = 'tce-ma-2026-analista-administracao--coesao-textual'
+          expected_path = '/concursos/tce-ma-2026-analista-administracao/coesao-textual/'
           with open('/tmp/adm.json', encoding='utf-8') as stream:
               data = json.load(stream)
-          status = data['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
-          print('persisted status:', status)
+          item = data['json']['links'][key]
+          print('persisted item:', item)
           print('version:', data['version'])
-          if status != 'done':
+          if item != {'path': expected_path, 'status': 'analyzing'}:
               raise SystemExit(1)
           PY
