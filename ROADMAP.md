@@ -616,7 +616,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 1. Conceitos, importância, relação com os outros sistemas de organização.
 - Item 2. Fundamentos, teorias e escolas da administração e o seu impacto na gestão de pessoas.
 
-##### [R] Em revisão Assunto 143 - Item 3, subitens 3.1 e 3.2: Função do órgão de recursos humanos, atribuições, objetivos, políticas e sistemas de informações gerenciais.
+##### [x] Concluído Assunto 143 - Item 3, subitens 3.1 e 3.2: Função do órgão de recursos humanos, atribuições, objetivos, políticas e sistemas de informações gerenciais.
 
 - Item 3. Função do órgão de recursos humanos.
 - 3.1. Atribuições básicas e objetivos.
