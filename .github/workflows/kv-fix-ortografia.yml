@@ -1,4 +1,4 @@
-name: Register coesao textual in KV
+name: Finalize coesao textual in KV
 
 on:
   pull_request:
@@ -9,20 +9,20 @@ permissions:
   contents: read
 
 jobs:
-  register-kv:
-    name: Register next content as analyzing
+  finalize-kv:
+    name: Mark coesao textual as done
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Add coesao textual and mark analyzing
+      - name: Mark done
         shell: bash
         run: |
           curl --fail-with-body --silent --show-error \
             -X PUT \
             -H 'Content-Type: application/json' \
-            --data '{"path":"/concursos/tce-ma-2026-analista-administracao/coesao-textual/","status":"analyzing"}' \
-            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--coesao-textual' \
+            --data '"done"' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--coesao-textual%2Fstatus' \
             > /tmp/result.json
           python3 - <<'PY'
           import json
@@ -31,8 +31,8 @@ jobs:
           with open('/tmp/result.json', encoding='utf-8') as stream:
               data = json.load(stream)
           item = data['json']['links'][key]
-          print('registered item:', item)
-          if item != {'path': expected_path, 'status': 'analyzing'}:
+          print('mutation item:', item)
+          if item != {'path': expected_path, 'status': 'done'}:
               raise SystemExit(1)
           PY
 
@@ -51,6 +51,6 @@ jobs:
           item = data['json']['links'][key]
           print('persisted item:', item)
           print('version:', data['version'])
-          if item != {'path': expected_path, 'status': 'analyzing'}:
+          if item != {'path': expected_path, 'status': 'done'}:
               raise SystemExit(1)
           PY
