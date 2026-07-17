@@ -659,7 +659,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - 11.1. Levantamento de necessidades.
 - 11.2. Programação, execução e avaliação.
 
-##### [>] Em progresso Assunto 152 - Item 12: Administração de cargos, carreiras e salários.
+##### [R] Em revisão Assunto 152 - Item 12: Administração de cargos, carreiras e salários.
 
 ##### [ ] Assunto 153 - Itens 13 e 14: Gestão por competências e tendências em gestão de pessoas no setor público.
 
