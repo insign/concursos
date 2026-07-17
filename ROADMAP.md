@@ -640,7 +640,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Item 7. Gestão da mudança.
 
-##### [ ] Assunto 148 - Item 8, subitens 8.1 e 8.2: Recrutamento, seleção e processo decisório.
+##### [>] Em progresso Assunto 148 - Item 8, subitens 8.1 e 8.2: Recrutamento, seleção e processo decisório.
 
 - 8.1. Tipos de recrutamento: vantagens e desvantagens.
 - 8.2. Técnicas de seleção: vantagens, desvantagens e processo decisório.
