@@ -88,7 +88,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.7. Emprego do sinal indicativo de crase.
 
-##### [R] Em revisão Assunto 015 - Item 5, subitem 5.8: Colocação pronominal.
+##### [x] Concluído Assunto 015 - Item 5, subitem 5.8: Colocação pronominal.
 
 - 5.8. Colocação dos pronomes átonos.
 
