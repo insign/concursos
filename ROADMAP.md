@@ -636,7 +636,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 5. Competência interpessoal.
 - Item 6. Gerenciamento de conflitos.
 
-##### [>] Em progresso Assunto 147 - Item 7: Gestão da mudança.
+##### [R] Em revisão Assunto 147 - Item 7: Gestão da mudança.
 
 - Item 7. Gestão da mudança.
 
