@@ -622,7 +622,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - 3.1. Atribuições básicas e objetivos.
 - 3.2. Políticas e sistemas de informações gerenciais.
 
-##### [>] Em progresso Assunto 144 - Item 4, subitens 4.1 e 4.3: Relações indivíduo/organização e qualidade de vida.
+##### [R] Em revisão Assunto 144 - Item 4, subitens 4.1 e 4.3: Relações indivíduo/organização e qualidade de vida.
 
 - 4.1. Relações indivíduo/organização.
 - 4.3. Qualidade de vida.
