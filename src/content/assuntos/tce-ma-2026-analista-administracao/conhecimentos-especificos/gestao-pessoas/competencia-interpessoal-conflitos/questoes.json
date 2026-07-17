@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q2739",
+      "revision": 1,
+      "prompt": "No contexto organizacional, competência interpessoal corresponde principalmente à capacidade de",
+      "options": [
+        {
+          "id": "A",
+          "text": "perceber, interpretar e manejar interações para alcançar objetivos legítimos com respeito e efetividade."
+        },
+        {
+          "id": "B",
+          "text": "evitar qualquer discordância para preservar a harmonia."
+        },
+        {
+          "id": "C",
+          "text": "demonstrar extroversão em todas as situações de trabalho."
+        },
+        {
+          "id": "D",
+          "text": "substituir critérios técnicos pela sensibilidade às emoções alheias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Competência interpessoal integra percepção, interpretação, ação e autorregulação no contexto; não equivale a harmonia artificial, extroversão ou abandono de critérios técnicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2740",
+      "revision": 1,
+      "prompt": "O autoconhecimento contribui para a competência interpessoal porque permite ao trabalhador",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar definitivamente emoções consideradas negativas."
+        },
+        {
+          "id": "B",
+          "text": "reconhecer emoções, valores, limites, gatilhos e efeitos do próprio comportamento."
+        },
+        {
+          "id": "C",
+          "text": "inferir com certeza as intenções ocultas dos colegas."
+        },
+        {
+          "id": "D",
+          "text": "prescindir de feedback sobre sua atuação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autoconhecimento amplia a consciência sobre si e favorece escolhas reguladas; não elimina emoções, não lê mentes e não torna feedback dispensável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2741",
+      "revision": 1,
+      "prompt": "A percepção social competente deve ser acompanhada de checagem porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "sinais não verbais são sempre irrelevantes."
+        },
+        {
+          "id": "B",
+          "text": "o contexto impede qualquer interpretação do comportamento."
+        },
+        {
+          "id": "C",
+          "text": "interpretações de sinais, papéis e contexto podem sofrer vieses."
+        },
+        {
+          "id": "D",
+          "text": "perguntas diretas eliminam toda ambiguidade relacional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Sinais e contexto são úteis, mas sua interpretação pode ser enviesada; perguntas e paráfrases reduzem, sem eliminar, a ambiguidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2742",
+      "revision": 1,
+      "prompt": "Empatia, no trabalho, significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "concordar com toda reivindicação da outra pessoa."
+        },
+        {
+          "id": "B",
+          "text": "isentar de responsabilidade quem demonstra sofrimento."
+        },
+        {
+          "id": "C",
+          "text": "favorecer interesses individuais para evitar desconforto."
+        },
+        {
+          "id": "D",
+          "text": "compreender a perspectiva e a experiência alheias sem que isso imponha concordância."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Empatia é compreensão de perspectiva, não concordância, favorecimento, isenção ou tolerância a conduta inadequada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2743",
+      "revision": 1,
+      "prompt": "Constitui prática característica de escuta ativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "parafrasear o que foi entendido e pedir confirmação."
+        },
+        {
+          "id": "B",
+          "text": "preparar a refutação enquanto a outra pessoa fala."
+        },
+        {
+          "id": "C",
+          "text": "evitar perguntas para não interferir no relato."
+        },
+        {
+          "id": "D",
+          "text": "aceitar a conclusão alheia sem análise crítica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Paráfrase e checagem verificam entendimento. Antecipar refutação reduz atenção; perguntas são úteis; escutar não obriga concordar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2744",
+      "revision": 1,
+      "prompt": "Uma manifestação assertiva caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "omitir limites para impedir tensão."
+        },
+        {
+          "id": "B",
+          "text": "expressar fatos, necessidades, limites e propostas com clareza e respeito."
+        },
+        {
+          "id": "C",
+          "text": "impor uma solução para demonstrar segurança."
+        },
+        {
+          "id": "D",
+          "text": "usar rótulos pessoais para tornar a mensagem direta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Assertividade combina defesa clara da posição com respeito aos limites alheios; omissão é passividade, e imposição ou ataque são agressividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2745",
+      "revision": 1,
+      "prompt": "Um feedback interpessoal construtivo deve priorizar",
+      "options": [
+        {
+          "id": "A",
+          "text": "julgamentos sobre a personalidade do destinatário."
+        },
+        {
+          "id": "B",
+          "text": "generalizações para demonstrar que o padrão é recorrente."
+        },
+        {
+          "id": "C",
+          "text": "comportamento observável, contexto, impacto e alternativa futura."
+        },
+        {
+          "id": "D",
+          "text": "exposição pública para reforçar a responsabilização."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Feedback específico e orientado ao futuro favorece compreensão e ação; rótulos, generalizações e exposição desnecessária aumentam defensividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2746",
+      "revision": 1,
+      "prompt": "A inteligência emocional aplicada às relações de trabalho",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa conhecimento técnico quando o clima é positivo."
+        },
+        {
+          "id": "B",
+          "text": "torna desnecessários critérios e autoridade formal."
+        },
+        {
+          "id": "C",
+          "text": "consiste em suprimir emoções antes de decidir."
+        },
+        {
+          "id": "D",
+          "text": "envolve reconhecer, compreender e regular emoções próprias e considerar emoções alheias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Inteligência emocional favorece reconhecimento e regulação, mas não substitui técnica, ética, critérios ou autoridade e não pressupõe supressão emocional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2747",
+      "revision": 1,
+      "prompt": "No âmbito das equipes, confiança pode ser entendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "expectativa de competência, integridade e previsibilidade."
+        },
+        {
+          "id": "B",
+          "text": "certeza de que nunca ocorrerá erro."
+        },
+        {
+          "id": "C",
+          "text": "ausência de mecanismos de controle."
+        },
+        {
+          "id": "D",
+          "text": "aceitação irrestrita de decisões da chefia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Confiança envolve expectativas sobre capacidade e conduta; ela não garante infalibilidade, não elimina controles e não exige obediência acrítica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2748",
+      "revision": 1,
+      "prompt": "Há segurança psicológica quando os integrantes de uma equipe",
+      "options": [
+        {
+          "id": "A",
+          "text": "ficam dispensados de padrões de desempenho."
+        },
+        {
+          "id": "B",
+          "text": "podem perguntar, admitir erro, pedir ajuda e discordar sem humilhação ou retaliação."
+        },
+        {
+          "id": "C",
+          "text": "evitam críticas para não gerar desconforto."
+        },
+        {
+          "id": "D",
+          "text": "mantêm confidenciais todos os problemas encontrados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Segurança psicológica permite riscos interpessoais voltados à aprendizagem; ela é compatível com cobrança e crítica e não justifica ocultar problemas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2749",
+      "revision": 1,
+      "prompt": "Colaboração organizacional efetiva pressupõe",
+      "options": [
+        {
+          "id": "A",
+          "text": "homogeneidade de opiniões entre os membros."
+        },
+        {
+          "id": "B",
+          "text": "eliminação das responsabilidades individuais."
+        },
+        {
+          "id": "C",
+          "text": "coordenação de contribuições, informações, papéis e decisões em torno de objetivo comum."
+        },
+        {
+          "id": "D",
+          "text": "ausência de conflitos de tarefa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Colaboração coordena interdependências para um objetivo; diferenças, responsabilidades individuais e conflitos de tarefa moderados podem permanecer. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2750",
+      "revision": 1,
+      "prompt": "Conflito organizacional é mais adequadamente definido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "agressão manifestada entre duas pessoas."
+        },
+        {
+          "id": "B",
+          "text": "descumprimento de ordem hierárquica."
+        },
+        {
+          "id": "C",
+          "text": "falha gerencial que deve ser sempre eliminada."
+        },
+        {
+          "id": "D",
+          "text": "percepção de incompatibilidade, divergência ou interferência entre partes."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Conflito é uma percepção de incompatibilidade e pode existir sem agressão ou insubordinação; seus efeitos dependem do tipo e do manejo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2751",
+      "revision": 1,
+      "prompt": "Um servidor hesita entre denunciar uma irregularidade e preservar uma amizade, vivenciando objetivos pessoais incompatíveis. Trata-se de conflito",
+      "options": [
+        {
+          "id": "A",
+          "text": "intrapessoal."
+        },
+        {
+          "id": "B",
+          "text": "interpessoal."
+        },
+        {
+          "id": "C",
+          "text": "intragrupal."
+        },
+        {
+          "id": "D",
+          "text": "intergrupal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O dilema ocorre dentro da própria pessoa, portanto é intrapessoal; as demais categorias envolvem duas pessoas, uma equipe ou grupos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2752",
+      "revision": 1,
+      "prompt": "Duas servidoras divergem diretamente sobre a divisão de uma atividade. Quanto ao nível, o conflito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "intrapessoal."
+        },
+        {
+          "id": "B",
+          "text": "interpessoal."
+        },
+        {
+          "id": "C",
+          "text": "intergrupal."
+        },
+        {
+          "id": "D",
+          "text": "organizacional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A divergência entre duas pessoas é interpessoal, ainda que sua causa possa envolver aspectos estruturais ou processuais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2753",
+      "revision": 1,
+      "prompt": "Uma equipe discorda internamente sobre quem deve executar cada etapa de um relatório. Quanto ao nível, ocorre conflito",
+      "options": [
+        {
+          "id": "A",
+          "text": "intrapessoal."
+        },
+        {
+          "id": "B",
+          "text": "interpessoal exclusivamente."
+        },
+        {
+          "id": "C",
+          "text": "intragrupal."
+        },
+        {
+          "id": "D",
+          "text": "intergrupal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Como a divergência ocorre dentro da equipe, o nível é intragrupal; seu conteúdo específico é de processo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2754",
+      "revision": 1,
+      "prompt": "A disputa entre duas diretorias por recursos orçamentários escassos constitui conflito",
+      "options": [
+        {
+          "id": "A",
+          "text": "intrapessoal."
+        },
+        {
+          "id": "B",
+          "text": "interpessoal apenas."
+        },
+        {
+          "id": "C",
+          "text": "intragrupal."
+        },
+        {
+          "id": "D",
+          "text": "intergrupal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A disputa envolve unidades distintas, caracterizando nível intergrupal; a escassez de recursos é sua fonte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2755",
+      "revision": 1,
+      "prompt": "Uma divergência sobre evidências e alternativas para decidir um procedimento é conflito de",
+      "options": [
+        {
+          "id": "A",
+          "text": "tarefa."
+        },
+        {
+          "id": "B",
+          "text": "relacionamento."
+        },
+        {
+          "id": "C",
+          "text": "identidade."
+        },
+        {
+          "id": "D",
+          "text": "autoridade necessariamente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O conteúdo está na substância da decisão, portanto é conflito de tarefa; não há, no enunciado, hostilidade pessoal ou disputa de autoridade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2756",
+      "revision": 1,
+      "prompt": "Hostilidade, ressentimento e desqualificação pessoal indicam predominantemente conflito de",
+      "options": [
+        {
+          "id": "A",
+          "text": "tarefa."
+        },
+        {
+          "id": "B",
+          "text": "relacionamento."
+        },
+        {
+          "id": "C",
+          "text": "processo."
+        },
+        {
+          "id": "D",
+          "text": "recursos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Tensão afetiva e ataques pessoais caracterizam conflito de relacionamento; tarefa e processo tratam, respectivamente, de conteúdo e coordenação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2757",
+      "revision": 1,
+      "prompt": "A divergência sobre responsabilidades, sequência de etapas e uso de recursos caracteriza conflito de",
+      "options": [
+        {
+          "id": "A",
+          "text": "valores."
+        },
+        {
+          "id": "B",
+          "text": "relacionamento."
+        },
+        {
+          "id": "C",
+          "text": "processo."
+        },
+        {
+          "id": "D",
+          "text": "tarefa exclusivamente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Responsabilidades, métodos, sequência e recursos dizem respeito ao processo de trabalho, não necessariamente ao mérito da tarefa ou à relação pessoal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2758",
+      "revision": 1,
+      "prompt": "É fonte comum de conflito organizacional",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a incompatibilidade de personalidade."
+        },
+        {
+          "id": "B",
+          "text": "apenas a comunicação agressiva."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente o descumprimento de normas."
+        },
+        {
+          "id": "D",
+          "text": "ambiguidade de papéis, metas incompatíveis ou recursos escassos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Conflitos possuem múltiplas fontes estruturais, processuais e relacionais; reduzi-los a personalidade, agressividade ou infração prejudica o diagnóstico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2759",
+      "revision": 1,
+      "prompt": "No modelo didático de evolução do conflito, a ordem correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "condições latentes, conflito percebido, conflito sentido, conflito manifesto e consequências."
+        },
+        {
+          "id": "B",
+          "text": "conflito manifesto, condições latentes, conflito percebido e solução."
+        },
+        {
+          "id": "C",
+          "text": "conflito sentido, manifestação, percepção e latência."
+        },
+        {
+          "id": "D",
+          "text": "percepção, consequência, latência, sentimento e manifestação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O modelo parte de condições latentes e progride por percepção, sentimento e manifestação até consequências; a sequência não é inevitável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2760",
+      "revision": 1,
+      "prompt": "Antes de escolher uma estratégia de manejo, o diagnóstico deve identificar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas quem iniciou a discussão."
+        },
+        {
+          "id": "B",
+          "text": "partes, objeto, nível, fase, fatos, interesses, poder, impactos e instância competente."
+        },
+        {
+          "id": "C",
+          "text": "somente as emoções expressas pelas partes."
+        },
+        {
+          "id": "D",
+          "text": "uma técnica padronizada aplicável a todo conflito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Diagnóstico multidimensional orienta a intervenção; procurar culpado, observar só emoções ou adotar técnica universal simplifica indevidamente o caso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2761",
+      "revision": 1,
+      "prompt": "Um conflito pode ser considerado potencialmente funcional quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "produz consenso imediato."
+        },
+        {
+          "id": "B",
+          "text": "mantém as partes permanentemente confortáveis."
+        },
+        {
+          "id": "C",
+          "text": "revela riscos ou amplia alternativas sem destruir a coordenação."
+        },
+        {
+          "id": "D",
+          "text": "elimina a necessidade de decisão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A funcionalidade decorre de efeitos como melhor diagnóstico e alternativas com coordenação preservada, não de consenso, conforto ou ausência de decisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2762",
+      "revision": 1,
+      "prompt": "Sobre conflito de tarefa, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "É sempre funcional, independentemente da intensidade."
+        },
+        {
+          "id": "B",
+          "text": "É necessariamente disfuncional porque impede consenso."
+        },
+        {
+          "id": "C",
+          "text": "Só pode ocorrer entre especialistas da mesma área."
+        },
+        {
+          "id": "D",
+          "text": "Pode contribuir para a decisão quando moderado e respeitoso, mas também pode degradar-se ou paralisar o grupo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O efeito do conflito de tarefa é contingente a intensidade, contexto e manejo; não há benefício ou dano automático nem restrição a uma área profissional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2763",
+      "revision": 1,
+      "prompt": "No modelo Thomas-Kilmann, competição combina",
+      "options": [
+        {
+          "id": "A",
+          "text": "alta assertividade e baixa cooperação."
+        },
+        {
+          "id": "B",
+          "text": "alta assertividade e alta cooperação."
+        },
+        {
+          "id": "C",
+          "text": "baixa assertividade e baixa cooperação."
+        },
+        {
+          "id": "D",
+          "text": "baixa assertividade e alta cooperação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Competição prioriza os próprios interesses. As demais combinações correspondem, respectivamente, a colaboração, evitação e acomodação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2764",
+      "revision": 1,
+      "prompt": "No modelo Thomas-Kilmann, colaboração caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "baixa assertividade e alta cooperação."
+        },
+        {
+          "id": "B",
+          "text": "alta assertividade e alta cooperação."
+        },
+        {
+          "id": "C",
+          "text": "níveis intermediários de assertividade e cooperação."
+        },
+        {
+          "id": "D",
+          "text": "baixa assertividade e baixa cooperação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Colaboração busca atender interesses relevantes das partes, combinando alta assertividade e cooperação; as outras opções descrevem acomodação, compromisso e evitação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2765",
+      "revision": 1,
+      "prompt": "O compromisso, segundo Thomas-Kilmann, tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "maximizar simultaneamente todos os interesses."
+        },
+        {
+          "id": "B",
+          "text": "impor integralmente a posição mais forte."
+        },
+        {
+          "id": "C",
+          "text": "buscar solução intermediária aceitável mediante concessões."
+        },
+        {
+          "id": "D",
+          "text": "adiar indefinidamente a discussão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Compromisso envolve assertividade e cooperação intermediárias e concessões; não equivale a colaboração plena, competição ou evitação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2766",
+      "revision": 1,
+      "prompt": "A evitação pode ser adequada quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "há ilegalidade urgente que exige providência."
+        },
+        {
+          "id": "B",
+          "text": "uma decisão crítica não admite atraso."
+        },
+        {
+          "id": "C",
+          "text": "o silêncio expõe uma pessoa a risco continuado."
+        },
+        {
+          "id": "D",
+          "text": "o tema é trivial ou é necessário reduzir a ativação emocional antes de dialogar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Evitar temporariamente pode ser útil em trivialidade ou para esfriar ânimos; não deve postergar risco, ilegalidade ou decisão crítica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2767",
+      "revision": 1,
+      "prompt": "A acomodação pode ser uma resposta adequada quando uma parte",
+      "options": [
+        {
+          "id": "A",
+          "text": "reconhece que está errada ou que o tema é muito mais importante para a outra parte."
+        },
+        {
+          "id": "B",
+          "text": "precisa fazer cumprir imediatamente regra não negociável."
+        },
+        {
+          "id": "C",
+          "text": "deseja integrar profundamente interesses complexos."
+        },
+        {
+          "id": "D",
+          "text": "pretende colher mais informações antes de agir."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Acomodar pode preservar relação ou corrigir erro em tema de menor importância própria; as demais situações sugerem competição, colaboração ou evitação temporária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2768",
+      "revision": 1,
+      "prompt": "Quanto aos modos de manejo de conflitos, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "colaboração é superior em qualquer situação."
+        },
+        {
+          "id": "B",
+          "text": "a adequação do modo depende do tema, tempo, poder, risco, relação e limites institucionais."
+        },
+        {
+          "id": "C",
+          "text": "cada pessoa possui um único modo imutável."
+        },
+        {
+          "id": "D",
+          "text": "competição e evitação são sempre disfuncionais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os modos são comportamentos situacionais e sua utilidade é contingente; nenhum é universalmente melhor ou necessariamente disfuncional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2769",
+      "revision": 1,
+      "prompt": "Constitui intervenção estrutural no manejo de conflitos",
+      "options": [
+        {
+          "id": "A",
+          "text": "pedir às partes que sejam mais empáticas."
+        },
+        {
+          "id": "B",
+          "text": "parafrasear os argumentos apresentados."
+        },
+        {
+          "id": "C",
+          "text": "clarificar papéis, alçadas, metas e interdependências."
+        },
+        {
+          "id": "D",
+          "text": "realizar mediação sem alterar processos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Papéis, alçadas, metas e interdependências pertencem à estrutura do trabalho; empatia, paráfrase e mediação são intervenções relacionais ou processuais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2770",
+      "revision": 1,
+      "prompt": "É exemplo de estratégia processual para manejar conflito",
+      "options": [
+        {
+          "id": "A",
+          "text": "alterar a personalidade dos envolvidos."
+        },
+        {
+          "id": "B",
+          "text": "substituir todos os membros da equipe."
+        },
+        {
+          "id": "C",
+          "text": "ignorar a pauta até as emoções desaparecerem."
+        },
+        {
+          "id": "D",
+          "text": "definir fatos mínimos, critérios, sequência, responsáveis, prazo e revisão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A estratégia processual organiza como o problema será tratado; mudança de personalidade é inviável, substituição é extrema e omissão não organiza a decisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2771",
+      "revision": 1,
+      "prompt": "Uma intervenção relacional pode envolver",
+      "options": [
+        {
+          "id": "A",
+          "text": "escuta ativa, assertividade, feedback e regras de respeito."
+        },
+        {
+          "id": "B",
+          "text": "somente redistribuição de orçamento."
+        },
+        {
+          "id": "C",
+          "text": "alteração exclusiva das competências legais."
+        },
+        {
+          "id": "D",
+          "text": "eliminação de todo registro formal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A dimensão relacional trabalha a interação entre as partes; orçamento e competências são estruturais, e registros podem ser obrigatórios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2772",
+      "revision": 1,
+      "prompt": "A negociação distributiva parte, em regra, da percepção de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "novos interesses devem sempre ser criados."
+        },
+        {
+          "id": "B",
+          "text": "o valor disponível é limitado e precisa ser dividido."
+        },
+        {
+          "id": "C",
+          "text": "a relação elimina qualquer disputa por recursos."
+        },
+        {
+          "id": "D",
+          "text": "critérios objetivos são incompatíveis com concessões."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lógica distributiva concentra-se na divisão de valor limitado; criação de opções é típica da integrativa, e critérios podem apoiar ambos os processos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2773",
+      "revision": 1,
+      "prompt": "A negociação integrativa procura",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocultar interesses para elevar o poder de barganha."
+        },
+        {
+          "id": "B",
+          "text": "dividir mecanicamente a diferença entre posições."
+        },
+        {
+          "id": "C",
+          "text": "investigar interesses, criar opções e aplicar critérios objetivos."
+        },
+        {
+          "id": "D",
+          "text": "garantir que todo conflito resulte em ganho igual."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A abordagem integrativa busca ampliar possibilidades a partir de interesses e critérios; não garante igualdade ou ganha-ganha e não se limita à divisão de posições. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2774",
+      "revision": 1,
+      "prompt": "Em uma negociação, a distinção correta entre posição e interesse é",
+      "options": [
+        {
+          "id": "A",
+          "text": "posição é emoção; interesse é norma jurídica."
+        },
+        {
+          "id": "B",
+          "text": "posição é critério objetivo; interesse é concessão."
+        },
+        {
+          "id": "C",
+          "text": "posição é alternativa sem acordo; interesse é ameaça."
+        },
+        {
+          "id": "D",
+          "text": "posição é a exigência declarada; interesse é a necessidade, o risco ou o objetivo subjacente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A posição expressa o pedido, enquanto o interesse explica o que está por trás dele; BATNA, critérios e emoções são conceitos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2775",
+      "revision": 1,
+      "prompt": "BATNA designa",
+      "options": [
+        {
+          "id": "A",
+          "text": "a melhor alternativa disponível caso não haja acordo."
+        },
+        {
+          "id": "B",
+          "text": "o primeiro pedido apresentado à outra parte."
+        },
+        {
+          "id": "C",
+          "text": "o ponto médio entre duas propostas."
+        },
+        {
+          "id": "D",
+          "text": "uma ameaça usada para obter concessões."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "BATNA permite comparar propostas à melhor alternativa sem acordo; não é posição inicial, média ou ameaça. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2776",
+      "revision": 1,
+      "prompt": "Na facilitação, o terceiro",
+      "options": [
+        {
+          "id": "A",
+          "text": "profere decisão vinculante sobre o mérito."
+        },
+        {
+          "id": "B",
+          "text": "organiza o processo, a participação e o andamento da reunião."
+        },
+        {
+          "id": "C",
+          "text": "representa juridicamente uma das partes."
+        },
+        {
+          "id": "D",
+          "text": "substitui a autoridade competente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O facilitador organiza a interação sem decidir o mérito ou representar parte; decisão vinculante aproxima-se da arbitragem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2777",
+      "revision": 1,
+      "prompt": "Na mediação, o terceiro normalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "impõe a solução que considera mais justa."
+        },
+        {
+          "id": "B",
+          "text": "atua como superior hierárquico das partes."
+        },
+        {
+          "id": "C",
+          "text": "auxilia a comunicação e a construção consensual sem decidir a controvérsia."
+        },
+        {
+          "id": "D",
+          "text": "dispensa a verificação de limites jurídicos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O mediador apoia o diálogo e a autocomposição, mas não impõe decisão; hierarquia e limites jurídicos continuam relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2778",
+      "revision": 1,
+      "prompt": "A arbitragem distingue-se da mediação porque, na arbitragem, o terceiro",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas organiza a reunião."
+        },
+        {
+          "id": "B",
+          "text": "evita analisar o mérito."
+        },
+        {
+          "id": "C",
+          "text": "só pode formular perguntas abertas."
+        },
+        {
+          "id": "D",
+          "text": "decide a controvérsia nos limites jurídicos e procedimentais aplicáveis."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A função decisória distingue a arbitragem da mediação e facilitação, sempre condicionada à validade jurídica e ao procedimento aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2779",
+      "revision": 1,
+      "prompt": "Ao explicar o atraso de um colega como preguiça, ignorando que o sistema ficou indisponível, um gestor pode estar incorrendo em",
+      "options": [
+        {
+          "id": "A",
+          "text": "erro fundamental de atribuição."
+        },
+        {
+          "id": "B",
+          "text": "negociação integrativa."
+        },
+        {
+          "id": "C",
+          "text": "acomodação."
+        },
+        {
+          "id": "D",
+          "text": "segurança psicológica."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O erro fundamental de atribuição supervaloriza características pessoais e subestima fatores situacionais; os outros conceitos não descrevem esse julgamento causal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2780",
+      "revision": 1,
+      "prompt": "Buscar somente mensagens que sustentem a crença inicial de que um setor não coopera exemplifica viés de",
+      "options": [
+        {
+          "id": "A",
+          "text": "autovalorização."
+        },
+        {
+          "id": "B",
+          "text": "confirmação."
+        },
+        {
+          "id": "C",
+          "text": "reciprocidade."
+        },
+        {
+          "id": "D",
+          "text": "ancoragem afetiva obrigatoriamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O viés de confirmação seleciona e interpreta evidências em favor da crença prévia; os demais termos não correspondem ao padrão descrito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2781",
+      "revision": 1,
+      "prompt": "É sinal de escalada de um conflito",
+      "options": [
+        {
+          "id": "A",
+          "text": "separar fatos de interpretações."
+        },
+        {
+          "id": "B",
+          "text": "formular critérios objetivos."
+        },
+        {
+          "id": "C",
+          "text": "migrar do problema para ataques de identidade, status e poder."
+        },
+        {
+          "id": "D",
+          "text": "resumir pontos de convergência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ataques pessoais, absolutismos e coalizões indicam escalada; separar fatos, criar critérios e sintetizar convergências ajudam a contê-la. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2782",
+      "revision": 1,
+      "prompt": "Diante de forte assimetria de poder entre as partes, uma intervenção adequada deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir que a autoridade tem razão."
+        },
+        {
+          "id": "B",
+          "text": "obrigar confronto público para equilibrar posições."
+        },
+        {
+          "id": "C",
+          "text": "dispensar registros para aumentar a espontaneidade."
+        },
+        {
+          "id": "D",
+          "text": "adotar canais seguros, critérios transparentes, registro e proteção contra retaliação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Assimetrias podem inibir voz e ampliar risco; segurança, transparência, documentação e proteção são mais adequadas que presunção, exposição ou informalidade absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2783",
+      "revision": 1,
+      "prompt": "Sobre diversidade e competência interpessoal, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diferenças podem ampliar perspectivas, mas requerem inclusão, voz, segurança e manejo de vieses."
+        },
+        {
+          "id": "B",
+          "text": "Diversidade garante automaticamente maior desempenho."
+        },
+        {
+          "id": "C",
+          "text": "Competência interpessoal exige homogeneidade de valores e experiências."
+        },
+        {
+          "id": "D",
+          "text": "Conflitos em equipes diversas são sempre de relacionamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Diversidade oferece potencial, não garantia; seu aproveitamento depende de inclusão e processos adequados, sem exigir homogeneidade nem determinar o tipo de conflito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2784",
+      "revision": 1,
+      "prompt": "No setor público, a empatia no manejo de conflitos",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza tratamento privilegiado para evitar sofrimento."
+        },
+        {
+          "id": "B",
+          "text": "deve coexistir com legalidade, impessoalidade e critérios legítimos."
+        },
+        {
+          "id": "C",
+          "text": "substitui o dever de motivar decisões."
+        },
+        {
+          "id": "D",
+          "text": "permite afastar norma inconveniente mediante consenso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Compreensão da perspectiva alheia deve respeitar princípios e deveres públicos; não autoriza privilégio, decisão imotivada ou afastamento consensual de norma. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2785",
+      "revision": 1,
+      "prompt": "A confidencialidade em uma conversa de manejo de conflitos",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre impede qualquer registro posterior."
+        },
+        {
+          "id": "B",
+          "text": "elimina o dever de apurar possível irregularidade."
+        },
+        {
+          "id": "C",
+          "text": "deve ser compatibilizada com deveres de registro, transparência, proteção e apuração."
+        },
+        {
+          "id": "D",
+          "text": "pode ser prometida de forma absoluta por qualquer agente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Confidencialidade possui limites institucionais e legais; promessas absolutas não podem suprimir registro, transparência ou apuração devida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2786",
+      "revision": 1,
+      "prompt": "A negociação no serviço público",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite renunciar a qualquer competência se houver consenso."
+        },
+        {
+          "id": "B",
+          "text": "torna dispensável a finalidade pública."
+        },
+        {
+          "id": "C",
+          "text": "autoriza acordo sobre matéria ilegal quando há ganho mútuo."
+        },
+        {
+          "id": "D",
+          "text": "deve respeitar competência, base jurídica, finalidade pública e matérias efetivamente negociáveis."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Autocomposição e negociação permanecem submetidas ao direito e ao interesse público; consenso não sana ilegalidade nem transfere competência por si só. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2787",
+      "revision": 1,
+      "prompt": "Em reunião, Ana afirma: 'Entendi que sua principal preocupação é o prazo e que você propõe redistribuir duas etapas. É isso?'. A conduta exemplifica",
+      "options": [
+        {
+          "id": "A",
+          "text": "escuta ativa por paráfrase e checagem de entendimento."
+        },
+        {
+          "id": "B",
+          "text": "acomodação, pois Ana aceitou a proposta."
+        },
+        {
+          "id": "C",
+          "text": "competição, pois Ana delimitou o tema."
+        },
+        {
+          "id": "D",
+          "text": "arbitragem, pois Ana sintetizou a controvérsia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ana reformulou a mensagem e pediu confirmação, sem ainda concordar, impor ou decidir; trata-se de escuta ativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2788",
+      "revision": 1,
+      "prompt": "Um servidor diz ao colega: 'O relatório chegou sem os anexos previstos, o que impediu a conferência. Preciso que os inclua até as 15h ou me avise sobre impedimentos'. Essa fala é predominantemente",
+      "options": [
+        {
+          "id": "A",
+          "text": "passiva, por explicar o impacto."
+        },
+        {
+          "id": "B",
+          "text": "assertiva, por descrever fato, impacto, necessidade e alternativa sem ataque pessoal."
+        },
+        {
+          "id": "C",
+          "text": "agressiva, por fixar prazo."
+        },
+        {
+          "id": "D",
+          "text": "acomodativa, por admitir impedimentos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A mensagem é específica, respeitosa e estabelece expectativa e canal para dificuldades; prazo não implica agressividade, e abertura não é acomodação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2789",
+      "revision": 1,
+      "prompt": "Após um erro, a equipe analisa causas e admite dúvidas sem humilhação, mas mantém padrões claros e define responsáveis pela correção. O cenário combina",
+      "options": [
+        {
+          "id": "A",
+          "text": "complacência e evitação."
+        },
+        {
+          "id": "B",
+          "text": "competição e punição informal."
+        },
+        {
+          "id": "C",
+          "text": "segurança psicológica e responsabilização."
+        },
+        {
+          "id": "D",
+          "text": "acomodação e ausência de controle."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Abertura para aprender e padrões claros coexistem; segurança psicológica não é complacência, evitação nem ausência de responsabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2790",
+      "revision": 1,
+      "prompt": "Em equipe respeitosa, dois especialistas apresentam evidências distintas sobre a melhor técnica, e a discussão revela um risco antes ignorado. O conflito é",
+      "options": [
+        {
+          "id": "A",
+          "text": "de relacionamento e necessariamente disfuncional."
+        },
+        {
+          "id": "B",
+          "text": "de processo, pois envolve pessoas diferentes."
+        },
+        {
+          "id": "C",
+          "text": "interpessoal e, por isso, sempre prejudicial."
+        },
+        {
+          "id": "D",
+          "text": "de tarefa e potencialmente funcional no caso descrito."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A divergência recai sobre o conteúdo técnico e gerou melhor diagnóstico sem hostilidade, ilustrando conflito de tarefa potencialmente funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2791",
+      "revision": 1,
+      "prompt": "Uma autoridade precisa interromper imediatamente prática contrária à lei, sem margem para negociação sobre sua continuidade. Entre os modos de Thomas-Kilmann, é justificável usar",
+      "options": [
+        {
+          "id": "A",
+          "text": "competição."
+        },
+        {
+          "id": "B",
+          "text": "acomodação."
+        },
+        {
+          "id": "C",
+          "text": "evitação."
+        },
+        {
+          "id": "D",
+          "text": "compromisso sobre o cumprimento da norma."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Urgência e regra não negociável podem justificar alta assertividade; ceder, adiar ou negociar o descumprimento seria inadequado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2792",
+      "revision": 1,
+      "prompt": "Duas unidades dependem uma da outra, possuem interesses legítimos distintos e precisam criar fluxo duradouro para problema complexo. Havendo tempo e disposição, o modo mais promissor é",
+      "options": [
+        {
+          "id": "A",
+          "text": "evitação."
+        },
+        {
+          "id": "B",
+          "text": "colaboração."
+        },
+        {
+          "id": "C",
+          "text": "competição."
+        },
+        {
+          "id": "D",
+          "text": "acomodação unilateral."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Alta importância, interdependência e necessidade de solução integrada favorecem colaboração; os demais modos tendem a não integrar os interesses no cenário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2793",
+      "revision": 1,
+      "prompt": "Durante discussão muito acalorada sobre tema não urgente, a chefia agenda retomada no dia seguinte e solicita dados adicionais. Essa evitação temporária",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre omissão gerencial."
+        },
+        {
+          "id": "B",
+          "text": "resolve definitivamente o conflito."
+        },
+        {
+          "id": "C",
+          "text": "pode ser funcional para reduzir ativação emocional e obter informação."
+        },
+        {
+          "id": "D",
+          "text": "equivale a acomodar a posição mais forte."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O adiamento tem finalidade, prazo e coleta de dados, podendo preparar diálogo melhor; não é solução definitiva nem concessão automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2794",
+      "revision": 1,
+      "prompt": "As partes pedem a um terceiro que decida a controvérsia, em procedimento juridicamente admissível. A intervenção pretendida é",
+      "options": [
+        {
+          "id": "A",
+          "text": "facilitação."
+        },
+        {
+          "id": "B",
+          "text": "escuta ativa."
+        },
+        {
+          "id": "C",
+          "text": "mediação."
+        },
+        {
+          "id": "D",
+          "text": "arbitragem."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A decisão pelo terceiro caracteriza arbitragem; facilitador e mediador organizam ou apoiam a construção das próprias partes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2795",
+      "revision": 1,
+      "prompt": "Um setor exige 'mais dois servidores'. Ao investigar, descobre-se que seu objetivo é cumprir prazo durante pico temporário. Esse objetivo subjacente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o interesse, enquanto a exigência por dois servidores é a posição."
+        },
+        {
+          "id": "B",
+          "text": "a posição, enquanto o número de servidores é o BATNA."
+        },
+        {
+          "id": "C",
+          "text": "o compromisso, enquanto o prazo é a arbitragem."
+        },
+        {
+          "id": "D",
+          "text": "a acomodação, enquanto a exigência é distributiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cumprir o prazo é o interesse que motiva a posição declarada; conhecê-lo permite considerar opções além da alocação permanente pedida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2796",
+      "revision": 1,
+      "prompt": "Um gestor atribui a si próprio o sucesso do projeto, mas explica o fracasso apenas por fatores externos. Esse padrão se aproxima do viés de",
+      "options": [
+        {
+          "id": "A",
+          "text": "confirmação."
+        },
+        {
+          "id": "B",
+          "text": "autovalorização."
+        },
+        {
+          "id": "C",
+          "text": "percepção social precisa."
+        },
+        {
+          "id": "D",
+          "text": "cooperação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A autovalorização associa sucesso ao próprio mérito e falha ao ambiente; confirmação trata da seleção de evidências, e os demais itens não são vieses equivalentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2797",
+      "revision": 1,
+      "prompt": "Dois servidores entram repetidamente em atrito porque ambos recebem formalmente responsabilidade pela mesma aprovação. A resposta mais consistente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "treinar empatia e manter a sobreposição."
+        },
+        {
+          "id": "B",
+          "text": "pedir que evitem conversar sobre o tema."
+        },
+        {
+          "id": "C",
+          "text": "clarificar competência, alçada e fluxo, além de tratar os efeitos relacionais já produzidos."
+        },
+        {
+          "id": "D",
+          "text": "classificar o problema apenas como incompatibilidade de personalidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A causa central é estrutural, por sobreposição de papéis; habilidades relacionais podem reparar efeitos, mas não substituem a correção do desenho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2798",
+      "revision": 1,
+      "prompt": "Sobre referências éticas no manejo de conflitos do TCE-MA, assinale a afirmativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O Decreto federal nº 1.171/1994 vincula automaticamente todos os servidores estaduais."
+        },
+        {
+          "id": "B",
+          "text": "O consenso entre as partes prevalece sobre dever legal expresso."
+        },
+        {
+          "id": "C",
+          "text": "A informalidade do conflito dispensa observância da impessoalidade."
+        },
+        {
+          "id": "D",
+          "text": "A Constituição, o regime estadual e as normas próprias devem orientar o caso; referências federais não incidem automaticamente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Normas federais podem servir de referência, mas sua incidência não é automática sobre órgão estadual; legalidade e impessoalidade permanecem aplicáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

@@ -631,7 +631,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - 4.2. Liderança, motivação e desempenho.
 
-##### [>] Em progresso Assunto 146 - Itens 5 e 6: Competência interpessoal e gerenciamento de conflitos.
+##### [R] Em revisão Assunto 146 - Itens 5 e 6: Competência interpessoal e gerenciamento de conflitos.
 
 - Item 5. Competência interpessoal.
 - Item 6. Gerenciamento de conflitos.
