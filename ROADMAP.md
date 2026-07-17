@@ -80,7 +80,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.5. Concordância verbal e nominal.
 
-##### [R] Em revisão Assunto 013 - Item 5, subitem 5.6: Regência verbal e nominal.
+##### [x] Concluído Assunto 013 - Item 5, subitem 5.6: Regência verbal e nominal.
 
 - 5.6. Regência verbal e nominal.
 
