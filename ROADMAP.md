@@ -627,7 +627,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - 4.1. Relações indivíduo/organização.
 - 4.3. Qualidade de vida.
 
-##### [ ] Assunto 145 - Item 4, subitem 4.2: Liderança, motivação e desempenho.
+##### [>] Em progresso Assunto 145 - Item 4, subitem 4.2: Liderança, motivação e desempenho.
 
 - 4.2. Liderança, motivação e desempenho.
 
