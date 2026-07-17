@@ -605,7 +605,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Item 2. Lei nº 12.527/2011 (Lei de Acesso à Informação): princípios, abrangência e conceitos; pedido de acesso, tramitação e prazos.
 - A Lei de Acesso à Informação é desdobrada nos Assuntos 140 e 141 por função normativa, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [ ] Assunto 141 - Item 2, recorte: Restrições, classificação, proteção, transparência ativa, recursos e responsabilidades.
+##### [>] Em progresso Assunto 141 - Item 2, recorte: Restrições, classificação, proteção, transparência ativa, recursos e responsabilidades.
 
 - Item 2. Lei nº 12.527/2011 (Lei de Acesso à Informação): restrições, classificação e proteção das informações; transparência ativa, recursos e responsabilidades.
 
