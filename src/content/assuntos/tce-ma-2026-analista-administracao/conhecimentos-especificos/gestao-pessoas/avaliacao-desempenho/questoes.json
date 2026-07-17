@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q2979",
+      "revision": 1,
+      "prompt": "Gestão de desempenho distingue-se de avaliação de desempenho porque a gestão",
+      "options": [
+        {
+          "id": "A",
+          "text": "concentra-se no cálculo da nota ao fim do período."
+        },
+        {
+          "id": "B",
+          "text": "transfere a definição das expectativas para a etapa de avaliação."
+        },
+        {
+          "id": "C",
+          "text": "trata o feedback como atividade posterior ao ciclo formal."
+        },
+        {
+          "id": "D",
+          "text": "integra planejamento, acompanhamento, desenvolvimento, avaliação e reconhecimento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A avaliação é etapa ou instrumento de um processo mais amplo e contínuo de gestão do desempenho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2980",
+      "revision": 1,
+      "prompt": "A avaliação de desempenho consiste principalmente em",
+      "options": [
+        {
+          "id": "A",
+          "text": "medir a personalidade geral do servidor."
+        },
+        {
+          "id": "B",
+          "text": "comparar evidências de comportamentos e resultados com critérios, metas ou padrões definidos."
+        },
+        {
+          "id": "C",
+          "text": "ordenar pessoas independentemente de padrão."
+        },
+        {
+          "id": "D",
+          "text": "presumir a causa pessoal de todo resultado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Avaliar é formular juízo fundamentado mediante comparação entre evidência e referencial de desempenho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2981",
+      "revision": 1,
+      "prompt": "O desempenho individual deve ser interpretado como",
+      "options": [
+        {
+          "id": "A",
+          "text": "interação entre capacidade, motivação, oportunidade, recursos, processos e contexto."
+        },
+        {
+          "id": "B",
+          "text": "efeito exclusivo da motivação."
+        },
+        {
+          "id": "C",
+          "text": "traço estável de caráter."
+        },
+        {
+          "id": "D",
+          "text": "sinônimo de potencial para funções futuras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Resultados e comportamentos dependem da pessoa e das condições de execução; desempenho atual também não equivale a potencial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2982",
+      "revision": 1,
+      "prompt": "Constitui objetivo legítimo da avaliação de desempenho",
+      "options": [
+        {
+          "id": "A",
+          "text": "centralizar os demais subsistemas de pessoas sob o resultado avaliativo."
+        },
+        {
+          "id": "B",
+          "text": "produzir diagnóstico clínico para explicar o comportamento do avaliado."
+        },
+        {
+          "id": "C",
+          "text": "vincular promoção diretamente ao alcance da média, sem decisão adicional."
+        },
+        {
+          "id": "D",
+          "text": "oferecer feedback e identificar necessidades de desenvolvimento e suporte."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A avaliação subsidia feedback, desenvolvimento e decisões previstas, mas não substitui processos nem cria consequência automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2983",
+      "revision": 1,
+      "prompt": "O alinhamento estratégico ocorre quando a organização",
+      "options": [
+        {
+          "id": "A",
+          "text": "traduz objetivos institucionais em entregas e comportamentos esperados das pessoas e equipes."
+        },
+        {
+          "id": "B",
+          "text": "prioriza características pessoais genéricas como representação dos objetivos."
+        },
+        {
+          "id": "C",
+          "text": "reduz o uso de metas coletivas para estimular competição individual."
+        },
+        {
+          "id": "D",
+          "text": "comunica os critérios apenas quando apresenta o resultado consolidado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O alinhamento conecta missão e prioridades ao trabalho observável, com expectativas conhecidas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2984",
+      "revision": 1,
+      "prompt": "Um instrumento criado para feedback de desenvolvimento",
+      "options": [
+        {
+          "id": "A",
+          "text": "fornece base suficiente para decisão remuneratória porque já mede desempenho."
+        },
+        {
+          "id": "B",
+          "text": "pode não ter precisão e garantias para decisão administrativa de alto impacto."
+        },
+        {
+          "id": "C",
+          "text": "pode manter sua finalidade implícita quando o uso for interno."
+        },
+        {
+          "id": "D",
+          "text": "deve restringir a identificação das fontes inclusive para revisão autorizada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Validade depende da finalidade; reutilizar instrumento para decisão distinta requer suporte técnico e jurídico adequado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2985",
+      "revision": 1,
+      "prompt": "Na etapa de planejamento do desempenho, é essencial definir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o formulário final."
+        },
+        {
+          "id": "B",
+          "text": "a nota desejada pela chefia."
+        },
+        {
+          "id": "C",
+          "text": "a classificação relativa antes da execução."
+        },
+        {
+          "id": "D",
+          "text": "entregas, critérios, metas, pesos, evidências, responsabilidades e acompanhamento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Planejamento torna expectativas e regras conhecidas antes da observação e da avaliação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2986",
+      "revision": 1,
+      "prompt": "A participação do servidor na definição de objetivos",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ampliar compreensão e compromisso, sem afastar legalidade e interesse público."
+        },
+        {
+          "id": "B",
+          "text": "retira a competência decisória da Administração."
+        },
+        {
+          "id": "C",
+          "text": "transforma toda meta em escolha privada."
+        },
+        {
+          "id": "D",
+          "text": "dispensa alinhamento institucional."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Participação favorece entendimento, mas permanece limitada pela missão, pelas competências e pelo regime aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2987",
+      "revision": 1,
+      "prompt": "O monitoramento contínuo permite",
+      "options": [
+        {
+          "id": "A",
+          "text": "identificar obstáculos e agir antes da avaliação final."
+        },
+        {
+          "id": "B",
+          "text": "recalibrar os padrões a partir das impressões mais recentes da chefia."
+        },
+        {
+          "id": "C",
+          "text": "alterar metas retroativamente quando o resultado ficar abaixo do esperado."
+        },
+        {
+          "id": "D",
+          "text": "concentrar os registros em fatos negativos que demandem correção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Acompanhamento regular produz feedback, revela problemas cedo e permite suporte ou ajuste justificado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2988",
+      "revision": 1,
+      "prompt": "Quando mudança externa relevante torna uma meta inviável, a gestão adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter o indicador e ignorar o contexto."
+        },
+        {
+          "id": "B",
+          "text": "reduzir secretamente a meta de quem já foi avaliado."
+        },
+        {
+          "id": "C",
+          "text": "justificar, comunicar e aplicar de modo equitativo eventual ajuste."
+        },
+        {
+          "id": "D",
+          "text": "excluir a dimensão sem registro."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Flexibilidade legítima exige rastreabilidade, comunicação e tratamento coerente, não manipulação retroativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2989",
+      "revision": 1,
+      "prompt": "A etapa de desenvolvimento pode incluir",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente curso formal."
+        },
+        {
+          "id": "B",
+          "text": "apenas sanção pela nota baixa."
+        },
+        {
+          "id": "C",
+          "text": "capacitação, orientação, prática supervisionada, suporte e melhoria de processos."
+        },
+        {
+          "id": "D",
+          "text": "mudança de meta para esconder a lacuna."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Desenvolver capacidade envolve diferentes ações e também pode exigir remover obstáculos organizacionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2990",
+      "revision": 1,
+      "prompt": "Na avaliação final do ciclo, o julgador deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "atribuir maior peso ao episódio recente por representar o estado atual."
+        },
+        {
+          "id": "B",
+          "text": "comparar as evidências do período com os critérios e explicar o juízo."
+        },
+        {
+          "id": "C",
+          "text": "converter a impressão geral em notas coerentes para as demais dimensões."
+        },
+        {
+          "id": "D",
+          "text": "afastar fatores contextuais para preservar a comparabilidade das notas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O rating resume o período contra padrões definidos e precisa de fundamentação e evidências distribuídas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2991",
+      "revision": 1,
+      "prompt": "Critério de avaliação responde à pergunta",
+      "options": [
+        {
+          "id": "A",
+          "text": "qual pessoa deve receber a maior nota?"
+        },
+        {
+          "id": "B",
+          "text": "qual consequência ocorrerá sem base normativa?"
+        },
+        {
+          "id": "C",
+          "text": "qual dado pessoal pode ser coletado futuramente?"
+        },
+        {
+          "id": "D",
+          "text": "qual dimensão do desempenho será julgada?"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Critério delimita a dimensão, como qualidade ou cooperação; indicador e meta cumprem funções distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2992",
+      "revision": 1,
+      "prompt": "Indicador é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a evidência observável ou mensurável usada para representar um critério."
+        },
+        {
+          "id": "B",
+          "text": "a finalidade geral da política."
+        },
+        {
+          "id": "C",
+          "text": "a recompensa necessariamente vinculada à nota."
+        },
+        {
+          "id": "D",
+          "text": "o peso atribuído à chefia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Indicador operacionaliza a observação do critério, enquanto meta expressa resultado esperado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2993",
+      "revision": 1,
+      "prompt": "Uma meta tecnicamente adequada deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "depender de fator totalmente fora da influência do avaliado."
+        },
+        {
+          "id": "B",
+          "text": "ser conhecida somente após o resultado."
+        },
+        {
+          "id": "C",
+          "text": "indicar resultado e prazo e considerar recursos e grau de influência."
+        },
+        {
+          "id": "D",
+          "text": "medir exclusivamente quantidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Metas precisam ser claras, temporalmente delimitadas e sensíveis às condições reais de execução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2994",
+      "revision": 1,
+      "prompt": "Usar apenas quantidade como indicador pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "demonstrar por si só a qualidade entregue, independentemente de outras evidências."
+        },
+        {
+          "id": "B",
+          "text": "reduzir incentivos disfuncionais ao simplificar o foco do avaliado."
+        },
+        {
+          "id": "C",
+          "text": "preservar prazo e conformidade, pois o volume os incorpora implicitamente."
+        },
+        {
+          "id": "D",
+          "text": "incentivar volume com perda de qualidade, exigindo equilíbrio de dimensões."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Indicador isolado pode deslocar comportamento; a seleção deve refletir o conjunto relevante de resultados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2995",
+      "revision": 1,
+      "prompt": "Validade de uma avaliação diz respeito a",
+      "options": [
+        {
+          "id": "A",
+          "text": "produzir sempre a mesma nota, ainda que para aspecto irrelevante."
+        },
+        {
+          "id": "B",
+          "text": "medir o desempenho relevante para a finalidade pretendida."
+        },
+        {
+          "id": "C",
+          "text": "concentrar avaliações no centro da escala."
+        },
+        {
+          "id": "D",
+          "text": "obter concordância por autoridade hierárquica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Validade trata da pertinência e interpretação da medida para seu uso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2996",
+      "revision": 1,
+      "prompt": "Confiabilidade elevada",
+      "options": [
+        {
+          "id": "A",
+          "text": "é suficiente para demonstrar que o critério representa trabalho relevante."
+        },
+        {
+          "id": "B",
+          "text": "reduz estereótipos mesmo quando os critérios permanecem vagos."
+        },
+        {
+          "id": "C",
+          "text": "indica consistência, mas não garante validade."
+        },
+        {
+          "id": "D",
+          "text": "torna secundário o treinamento dos avaliadores na aplicação da escala."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Uma medida pode ser consistente e, mesmo assim, medir aspecto inadequado do trabalho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2997",
+      "revision": 1,
+      "prompt": "O método de escalas gráficas apresenta",
+      "options": [
+        {
+          "id": "A",
+          "text": "entrevista aprofundada conduzida por especialista."
+        },
+        {
+          "id": "B",
+          "text": "comparação obrigatória de cada pessoa com todas as outras."
+        },
+        {
+          "id": "C",
+          "text": "fatores e graus em uma grade padronizada."
+        },
+        {
+          "id": "D",
+          "text": "somente relato narrativo livre."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A escala gráfica cruza dimensões avaliadas com graus numéricos, conceituais ou descritivos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2998",
+      "revision": 1,
+      "prompt": "Uma vantagem das escalas gráficas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar o halo por construção."
+        },
+        {
+          "id": "B",
+          "text": "produzir diagnóstico causal profundo."
+        },
+        {
+          "id": "C",
+          "text": "dispensar definição dos fatores."
+        },
+        {
+          "id": "D",
+          "text": "oferecer aplicação simples, padronizada e de baixo custo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Simplicidade e comparabilidade são forças; superficialidade e erros de avaliação permanecem limitações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2999",
+      "revision": 1,
+      "prompt": "No método de escolha forçada, o avaliador",
+      "options": [
+        {
+          "id": "A",
+          "text": "seleciona entre blocos de frases as que melhor ou pior descrevem o avaliado."
+        },
+        {
+          "id": "B",
+          "text": "impõe percentuais de pessoas em cada faixa."
+        },
+        {
+          "id": "C",
+          "text": "ordena todos os integrantes sem usar frases."
+        },
+        {
+          "id": "D",
+          "text": "redige necessariamente um ensaio livre."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Escolha forçada opera por blocos descritivos e não se confunde com distribuição forçada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3000",
+      "revision": 1,
+      "prompt": "Uma limitação da escolha forçada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser sempre transparente quanto aos pesos das frases."
+        },
+        {
+          "id": "B",
+          "text": "não reduzir nenhum padrão deliberado de notas."
+        },
+        {
+          "id": "C",
+          "text": "depender necessariamente de comparação pareada."
+        },
+        {
+          "id": "D",
+          "text": "exigir construção complexa e oferecer pouca informação útil ao feedback."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O método pode dificultar manipulação simples, mas custa desenvolver e explica pouco ao avaliado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3001",
+      "revision": 1,
+      "prompt": "A pesquisa de campo caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "questionário enviado a clientes."
+        },
+        {
+          "id": "B",
+          "text": "registro apenas de eventos extremos."
+        },
+        {
+          "id": "C",
+          "text": "ordenação automática por produtividade."
+        },
+        {
+          "id": "D",
+          "text": "apoio de especialista à chefia por entrevistas, diagnóstico e plano de ação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A pesquisa de campo aprofunda fatos e causas com participação técnica de gestão de pessoas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3002",
+      "revision": 1,
+      "prompt": "A principal desvantagem da pesquisa de campo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "não permitir contextualização."
+        },
+        {
+          "id": "B",
+          "text": "usar critérios previamente definidos."
+        },
+        {
+          "id": "C",
+          "text": "demandar tempo, custo e profissional especializado."
+        },
+        {
+          "id": "D",
+          "text": "ser simples e barata."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Profundidade diagnóstica reduz escalabilidade e aumenta recursos necessários. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3003",
+      "revision": 1,
+      "prompt": "O método dos incidentes críticos registra",
+      "options": [
+        {
+          "id": "A",
+          "text": "cada atividade rotineira com o mesmo peso."
+        },
+        {
+          "id": "B",
+          "text": "comportamentos excepcionalmente eficazes ou ineficazes e seus efeitos."
+        },
+        {
+          "id": "C",
+          "text": "somente a nota global ao final."
+        },
+        {
+          "id": "D",
+          "text": "características pessoais sem situação concreta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Incidentes descrevem fatos significativos, não rótulos nem inventário completo da rotina. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3004",
+      "revision": 1,
+      "prompt": "Registrar incidentes ao longo de todo o ciclo ajuda a controlar",
+      "options": [
+        {
+          "id": "A",
+          "text": "a necessidade de analisar o trabalho."
+        },
+        {
+          "id": "B",
+          "text": "qualquer diferença entre cargos."
+        },
+        {
+          "id": "C",
+          "text": "a validade jurídica de toda consequência."
+        },
+        {
+          "id": "D",
+          "text": "o viés de recência, embora os extremos não representem todo o desempenho."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Registros contínuos reduzem dependência da memória final, mas não substituem outras evidências do padrão típico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3005",
+      "revision": 1,
+      "prompt": "O ensaio ou narrativa é especialmente útil para",
+      "options": [
+        {
+          "id": "A",
+          "text": "obter ranking numérico sem interpretação."
+        },
+        {
+          "id": "B",
+          "text": "explicar forças, limitações, contexto e necessidades de desenvolvimento."
+        },
+        {
+          "id": "C",
+          "text": "padronizar mecanicamente grandes populações."
+        },
+        {
+          "id": "D",
+          "text": "eliminar influência da redação do avaliador."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A narrativa fornece contexto rico, mas sua qualidade e comparabilidade dependem da redação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3006",
+      "revision": 1,
+      "prompt": "Lista de verificação tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "produzir análise causal aprofundada por si."
+        },
+        {
+          "id": "B",
+          "text": "facilitar aplicação padronizada, com risco de superficialidade."
+        },
+        {
+          "id": "C",
+          "text": "substituir evidência de frequência e impacto."
+        },
+        {
+          "id": "D",
+          "text": "impedir itens genéricos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Checklist cobre itens de modo simples, mas marcar presença pode não mostrar qualidade, contexto ou impacto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3007",
+      "revision": 1,
+      "prompt": "Comparação pareada avalia cada pessoa",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente contra um padrão absoluto."
+        },
+        {
+          "id": "B",
+          "text": "em confronto com cada uma das demais para produzir posição relativa."
+        },
+        {
+          "id": "C",
+          "text": "por blocos de frases de valor oculto."
+        },
+        {
+          "id": "D",
+          "text": "mediante entrevista de campo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O método compara pares de pessoas e ajuda a ordenar, mas não revela distância em relação ao padrão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3008",
+      "revision": 1,
+      "prompt": "Uma pessoa ocupar a última posição de um ranking significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessariamente não atingiu o padrão mínimo."
+        },
+        {
+          "id": "B",
+          "text": "deve receber sanção."
+        },
+        {
+          "id": "C",
+          "text": "foi avaliada por múltiplas fontes."
+        },
+        {
+          "id": "D",
+          "text": "teve posição relativa inferior, sem conclusão automática sobre suficiência absoluta."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Todos podem ter alcançado o padrão, embora alguém ocupe a última posição relativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3009",
+      "revision": 1,
+      "prompt": "Distribuição forçada consiste em",
+      "options": [
+        {
+          "id": "A",
+          "text": "selecionar frases que descrevem o avaliado."
+        },
+        {
+          "id": "B",
+          "text": "definir objetivos com participação."
+        },
+        {
+          "id": "C",
+          "text": "impor proporções de pessoas em faixas de desempenho."
+        },
+        {
+          "id": "D",
+          "text": "ancorar cada grau em comportamento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A curva obrigatória distribui pessoas por categorias e não equivale à escolha forçada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3010",
+      "revision": 1,
+      "prompt": "Em equipe homogênea e de alto desempenho, a distribuição forçada pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "comprovar que o padrão foi mal definido."
+        },
+        {
+          "id": "B",
+          "text": "medir diferenças absolutas com precisão."
+        },
+        {
+          "id": "C",
+          "text": "classificar injustamente parte dos membros em faixa baixa para cumprir a proporção."
+        },
+        {
+          "id": "D",
+          "text": "fortalecer necessariamente a cooperação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A obrigação de preencher faixas pode criar diferenças artificiais e competição, independentemente do padrão alcançado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3011",
+      "revision": 1,
+      "prompt": "As escalas BARS associam",
+      "options": [
+        {
+          "id": "A",
+          "text": "pessoas a percentuais predeterminados."
+        },
+        {
+          "id": "B",
+          "text": "recompensas a traços de personalidade."
+        },
+        {
+          "id": "C",
+          "text": "níveis da escala a exemplos específicos de comportamento relacionado ao trabalho."
+        },
+        {
+          "id": "D",
+          "text": "metas a clientes sem participação interna."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Âncoras comportamentais concretizam o significado de cada nível da escala. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3012",
+      "revision": 1,
+      "prompt": "Quanto às BARS, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "reduzem halo e leniência pela presença das âncoras, dispensando outros controles."
+        },
+        {
+          "id": "B",
+          "text": "funcionam como listas de comportamentos sem graduação entre níveis."
+        },
+        {
+          "id": "C",
+          "text": "podem ser transferidas entre cargos semelhantes sem nova análise do trabalho."
+        },
+        {
+          "id": "D",
+          "text": "melhoram a concretude, mas exigem desenvolvimento e revisão e não garantem validade por si."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "BARS favorece clareza comportamental, porém custa construir, depende do trabalho e continua sujeita a vieses. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3013",
+      "revision": 1,
+      "prompt": "Na administração por objetivos, a avaliação concentra-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "no alcance de objetivos definidos e acompanhados por gestor e avaliado."
+        },
+        {
+          "id": "B",
+          "text": "em impressão geral da chefia."
+        },
+        {
+          "id": "C",
+          "text": "em distribuição obrigatória de notas."
+        },
+        {
+          "id": "D",
+          "text": "somente em características pessoais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "APO/MBO orienta o desempenho a resultados pactuados e acompanhados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3014",
+      "revision": 1,
+      "prompt": "Uma limitação da APO é",
+      "options": [
+        {
+          "id": "A",
+          "text": "não permitir qualquer alinhamento."
+        },
+        {
+          "id": "B",
+          "text": "induzir curto-prazismo, metas fáceis e foco apenas no mensurável."
+        },
+        {
+          "id": "C",
+          "text": "impedir participação."
+        },
+        {
+          "id": "D",
+          "text": "avaliar sempre comportamentos vagos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Objetivos mal desenhados podem deslocar prioridades e negligenciar qualidade, cooperação ou efeitos de longo prazo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3015",
+      "revision": 1,
+      "prompt": "A avaliação participativa por objetivos",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina a autoridade e o interesse público."
+        },
+        {
+          "id": "B",
+          "text": "ocorre apenas no encerramento."
+        },
+        {
+          "id": "C",
+          "text": "combina negociação de objetivos, acompanhamento, autoavaliação, feedback e desenvolvimento."
+        },
+        {
+          "id": "D",
+          "text": "proíbe revisão de metas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Participação é parte de um ciclo de resultados e diálogo, sem privatizar a missão institucional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3016",
+      "revision": 1,
+      "prompt": "Combinar metas, BARS, incidentes e narrativa pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "reduzir a necessidade de governança."
+        },
+        {
+          "id": "B",
+          "text": "garantir ausência de vieses."
+        },
+        {
+          "id": "C",
+          "text": "tornar a finalidade irrelevante."
+        },
+        {
+          "id": "D",
+          "text": "ampliar cobertura, mas também custo, complexidade e risco de dupla contagem."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Métodos complementares captam dimensões distintas, desde que a integração e os pesos sejam coerentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3017",
+      "revision": 1,
+      "prompt": "A chefia imediata é fonte útil porque costuma observar",
+      "options": [
+        {
+          "id": "A",
+          "text": "prioridades, entregas e contexto da unidade, embora possa não ver todo o cotidiano."
+        },
+        {
+          "id": "B",
+          "text": "a maior parte das interações do servidor, o que torna outras fontes redundantes."
+        },
+        {
+          "id": "C",
+          "text": "relações entre pares com mais detalhe que os integrantes da própria equipe."
+        },
+        {
+          "id": "D",
+          "text": "a experiência dos clientes com precisão superior ao relato desses usuários."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A chefia possui perspectiva relevante, mas parcial, razão pela qual critérios e outras evidências podem complementar o juízo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3018",
+      "revision": 1,
+      "prompt": "Autoavaliação pode contribuir ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "estimular reflexão e trazer contexto, embora possa sofrer autopromoção ou autodepreciação."
+        },
+        {
+          "id": "B",
+          "text": "substituir todas as demais fontes."
+        },
+        {
+          "id": "C",
+          "text": "definir unilateralmente a nota final."
+        },
+        {
+          "id": "D",
+          "text": "eliminar divergência entre avaliadores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A visão do avaliado enriquece o diálogo, mas não é automaticamente imparcial ou suficiente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3019",
+      "revision": 1,
+      "prompt": "Pares tendem a observar melhor",
+      "options": [
+        {
+          "id": "A",
+          "text": "cooperação, interfaces e comportamentos cotidianos da equipe."
+        },
+        {
+          "id": "B",
+          "text": "decisões reservadas exclusivamente à chefia."
+        },
+        {
+          "id": "C",
+          "text": "toda experiência do usuário externo."
+        },
+        {
+          "id": "D",
+          "text": "somente resultados financeiros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Colegas presenciam interdependência e colaboração, mas avaliações podem sofrer amizade, rivalidade e reciprocidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3020",
+      "revision": 1,
+      "prompt": "Avaliação por subordinados é útil sobretudo para liderança, desde que",
+      "options": [
+        {
+          "id": "A",
+          "text": "os nomes sejam divulgados a toda a unidade."
+        },
+        {
+          "id": "B",
+          "text": "haja proteção contra retaliação e confidencialidade quando apropriada."
+        },
+        {
+          "id": "C",
+          "text": "popularidade seja o único critério."
+        },
+        {
+          "id": "D",
+          "text": "a chefia escolha apenas avaliadores favoráveis."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Segurança para responder e critérios ligados à liderança são necessários para informação válida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3021",
+      "revision": 1,
+      "prompt": "Clientes devem avaliar",
+      "options": [
+        {
+          "id": "A",
+          "text": "todas as dimensões do cargo."
+        },
+        {
+          "id": "B",
+          "text": "aspectos pertinentes do atendimento e do resultado percebido, reconhecendo sua visão parcial."
+        },
+        {
+          "id": "C",
+          "text": "competências técnicas que não conseguem observar."
+        },
+        {
+          "id": "D",
+          "text": "a conformidade interna desconhecida por eles."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cada fonte deve se limitar a comportamentos e resultados que efetivamente pode observar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3022",
+      "revision": 1,
+      "prompt": "Sobre 180 graus, a afirmação mais precisa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "frequentemente combina chefia e autoavaliação, mas a nomenclatura varia entre fontes."
+        },
+        {
+          "id": "B",
+          "text": "possui definição uniforme na literatura de gestão de pessoas."
+        },
+        {
+          "id": "C",
+          "text": "designa prioritariamente a combinação entre pares e clientes."
+        },
+        {
+          "id": "D",
+          "text": "costuma excluir autoavaliação para preservar independência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A configuração descrita no enunciado prevalece, pois os rótulos de graus não são uniformes em toda a literatura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3023",
+      "revision": 1,
+      "prompt": "Avaliação 360 graus caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar obrigatoriamente distribuição forçada."
+        },
+        {
+          "id": "B",
+          "text": "reunir múltiplas fontes pertinentes, como chefia, pares, subordinados, autoavaliação e clientes."
+        },
+        {
+          "id": "C",
+          "text": "medir somente resultados financeiros."
+        },
+        {
+          "id": "D",
+          "text": "eliminar a necessidade de confidencialidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O método amplia perspectivas, com fontes selecionadas conforme a dimensão observável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3024",
+      "revision": 1,
+      "prompt": "A multiplicidade de fontes na avaliação 360 graus",
+      "options": [
+        {
+          "id": "A",
+          "text": "corrige a vagueza da escala ao aumentar a quantidade de observações."
+        },
+        {
+          "id": "B",
+          "text": "permite tratar divergências como erro de aplicação a ser removido pela média."
+        },
+        {
+          "id": "C",
+          "text": "reduz a necessidade de treinamento e proteção dos dados dos participantes."
+        },
+        {
+          "id": "D",
+          "text": "não elimina vieses nem compensa um instrumento mal construído."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Mais avaliadores podem ampliar cobertura, mas também reproduzir problemas comuns do instrumento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3025",
+      "revision": 1,
+      "prompt": "O efeito halo ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "fatos recentes dominam o período."
+        },
+        {
+          "id": "B",
+          "text": "todos recebem a nota central."
+        },
+        {
+          "id": "C",
+          "text": "uma impressão positiva em uma dimensão contamina o julgamento das demais."
+        },
+        {
+          "id": "D",
+          "text": "o avaliador favorece pessoa semelhante."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Halo generaliza indevidamente um aspecto favorável; a versão negativa é frequentemente chamada efeito horn. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3026",
+      "revision": 1,
+      "prompt": "O efeito horn consiste em",
+      "options": [
+        {
+          "id": "A",
+          "text": "comparar com outra pessoa."
+        },
+        {
+          "id": "B",
+          "text": "deixar uma impressão negativa contaminar todas as dimensões."
+        },
+        {
+          "id": "C",
+          "text": "dar notas altas sistematicamente."
+        },
+        {
+          "id": "D",
+          "text": "valorizar apenas o início do ciclo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Horn é a generalização negativa que obscurece evidências distintas em outros critérios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3027",
+      "revision": 1,
+      "prompt": "Viés de recência é controlado principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "lembrar apenas o último mês com maior detalhe."
+        },
+        {
+          "id": "B",
+          "text": "reduzir todas as notas ao centro."
+        },
+        {
+          "id": "C",
+          "text": "ordenar os avaliados."
+        },
+        {
+          "id": "D",
+          "text": "registros de evidências distribuídos ao longo do período."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Documentação contínua impede que fatos próximos ao encerramento tenham peso indevido por memória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3028",
+      "revision": 1,
+      "prompt": "Tendência central ocorre quando o avaliador",
+      "options": [
+        {
+          "id": "A",
+          "text": "favorece quem se parece com ele."
+        },
+        {
+          "id": "B",
+          "text": "atribui notas sistematicamente altas."
+        },
+        {
+          "id": "C",
+          "text": "usa o primeiro fato como referência."
+        },
+        {
+          "id": "D",
+          "text": "concentra indevidamente as pessoas no meio da escala para evitar distinções."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Centralização evita extremos mesmo quando as evidências justificam diferenciação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3029",
+      "revision": 1,
+      "prompt": "Leniência e severidade correspondem, respectivamente, a",
+      "options": [
+        {
+          "id": "A",
+          "text": "notas médias e comparação entre pessoas."
+        },
+        {
+          "id": "B",
+          "text": "favoritismo e estereótipo."
+        },
+        {
+          "id": "C",
+          "text": "notas sistematicamente altas e sistematicamente baixas em relação às evidências."
+        },
+        {
+          "id": "D",
+          "text": "efeitos positivo e negativo de uma dimensão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "São padrões de rigor do avaliador, em direções opostas, que prejudicam comparabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3030",
+      "revision": 1,
+      "prompt": "Erro de contraste aparece quando o avaliador",
+      "options": [
+        {
+          "id": "A",
+          "text": "julga contra os padrões conhecidos."
+        },
+        {
+          "id": "B",
+          "text": "usa exemplos comportamentais."
+        },
+        {
+          "id": "C",
+          "text": "compara a pessoa com outro avaliado, em vez de compará-la com o padrão."
+        },
+        {
+          "id": "D",
+          "text": "considera recursos disponíveis."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Contraste faz o julgamento depender de quem foi avaliado antes ou ao lado, e não do critério. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3031",
+      "revision": 1,
+      "prompt": "O viés de semelhança leva o avaliador a",
+      "options": [
+        {
+          "id": "A",
+          "text": "favorecer quem compartilha características, trajetória ou opiniões com ele."
+        },
+        {
+          "id": "B",
+          "text": "registrar fatos de todo o período."
+        },
+        {
+          "id": "C",
+          "text": "usar fonte pertinente."
+        },
+        {
+          "id": "D",
+          "text": "separar resultado individual e contexto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Afinidade percebida pode substituir evidência do trabalho e comprometer impessoalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3032",
+      "revision": 1,
+      "prompt": "Calibragem de avaliações deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "comparar a aplicação dos critérios entre gestores com base em evidências."
+        },
+        {
+          "id": "B",
+          "text": "impor o mesmo número de notas em cada faixa."
+        },
+        {
+          "id": "C",
+          "text": "eliminar justificativas individuais."
+        },
+        {
+          "id": "D",
+          "text": "alterar conceitos até reproduzir ranking prévio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Calibragem busca coerência interpretativa; não é sinônimo de curva ou distribuição forçada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3033",
+      "revision": 1,
+      "prompt": "Treinamento de avaliadores é mais efetivo quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "pede que cada gestor crie seu próprio significado da escala."
+        },
+        {
+          "id": "B",
+          "text": "prioriza somente o preenchimento do sistema."
+        },
+        {
+          "id": "C",
+          "text": "usa casos, padrões, vieses e exemplos comuns para exercitar julgamentos."
+        },
+        {
+          "id": "D",
+          "text": "substitui a necessidade de critérios válidos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Treino melhora aplicação e reconhecimento de erros, mas não conserta sozinho um desenho inválido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3034",
+      "revision": 1,
+      "prompt": "Feedback eficaz deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "descrever situação, comportamento ou resultado, impacto, contexto e próximos passos."
+        },
+        {
+          "id": "B",
+          "text": "rotular a personalidade para produzir impacto."
+        },
+        {
+          "id": "C",
+          "text": "ser adiado até o ciclo seguinte."
+        },
+        {
+          "id": "D",
+          "text": "omitir o padrão para evitar discussão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Feedback específico e bilateral orienta ação e evita julgamento pessoal genérico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3035",
+      "revision": 1,
+      "prompt": "Diante de resultado insuficiente, o diagnóstico adequado começa por",
+      "options": [
+        {
+          "id": "A",
+          "text": "distinguir lacunas de competência, clareza, recurso, processo, carga, coordenação e conduta."
+        },
+        {
+          "id": "B",
+          "text": "presumir desmotivação."
+        },
+        {
+          "id": "C",
+          "text": "prescrever o mesmo curso a todos."
+        },
+        {
+          "id": "D",
+          "text": "eliminar o direito de contestação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Causas diferentes exigem respostas diferentes; capacitação não resolve falha estrutural ou meta contraditória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3036",
+      "revision": 1,
+      "prompt": "No setor público, a consequência de uma avaliação",
+      "options": [
+        {
+          "id": "A",
+          "text": "decorre automaticamente do método escolhido."
+        },
+        {
+          "id": "B",
+          "text": "depende de base normativa, competência, motivação e garantias do regime aplicável."
+        },
+        {
+          "id": "C",
+          "text": "pode ser criada informalmente pela chefia."
+        },
+        {
+          "id": "D",
+          "text": "dispensa impessoalidade se houver meta numérica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Técnica administrativa não substitui legalidade, autoridade competente e procedimento devido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3037",
+      "revision": 1,
+      "prompt": "O Decreto nº 12.374/2025 deve ser usado no estudo do TCE-MA como",
+      "options": [
+        {
+          "id": "A",
+          "text": "regulamento estadual obrigatório do Tribunal."
+        },
+        {
+          "id": "B",
+          "text": "fonte dos pesos que todo órgão brasileiro deve adotar."
+        },
+        {
+          "id": "C",
+          "text": "referência federal para estágio probatório no Sipec, sem incidência automática no TCE-MA."
+        },
+        {
+          "id": "D",
+          "text": "substituto da legislação maranhense."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O próprio decreto limita seu âmbito a órgãos e entidades integrantes do Sipec; o Tribunal estadual depende de normas aplicáveis próprias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3038",
+      "revision": 1,
+      "prompt": "Na avaliação de pessoa com deficiência, a conduta correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reduzir a nota pela adaptação razoável utilizada."
+        },
+        {
+          "id": "B",
+          "text": "avaliar resultados e comportamentos do trabalho com acessibilidade, adaptação e proteção de dados."
+        },
+        {
+          "id": "C",
+          "text": "divulgar o diagnóstico para justificar o resultado."
+        },
+        {
+          "id": "D",
+          "text": "confundir avaliação biopsicossocial com avaliação de desempenho."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "LBI e LGPD exigem inclusão, necessidade, segurança e não discriminação; a deficiência não substitui evidência de desempenho. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

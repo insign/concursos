@@ -649,7 +649,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Item 9. Análise e descrição de cargos: objetivos, métodos, vantagens e desvantagens.
 
-##### [>] Em progresso Assunto 150 - Item 10, subitens 10.1 e 10.2: Objetivos e métodos de avaliação de desempenho.
+##### [R] Em revisão Assunto 150 - Item 10, subitens 10.1 e 10.2: Objetivos e métodos de avaliação de desempenho.
 
 - 10.1. Objetivos.
 - 10.2. Métodos de avaliação de desempenho: características, vantagens e desvantagens.
