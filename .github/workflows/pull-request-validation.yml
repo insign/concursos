@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: pull-request-validation-${{ github.event.pull_request.number }}
@@ -19,38 +19,14 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check out pull request branch
+      - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22.12.0
           cache: npm
-
-      - name: Repair and format the question set
-        shell: bash
-        run: |
-          node <<'NODE'
-          const fs = require('node:fs');
-          const path = 'src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/ortografia-oficial/questoes.json';
-          let source = fs.readFileSync(path, 'utf8');
-          source = source.replace(
-            'Escrevem-se “autoavaliação”, "dia a dia", "arguem", “à queima-roupa” e “5 kg”.',
-            'Escrevem-se “autoavaliação”, “dia a dia”, “arguem”, “à queima-roupa” e “5 kg”.',
-          );
-          const parsed = JSON.parse(source);
-          fs.writeFileSync(path, `${JSON.stringify(parsed, null, 2)}\n`);
-          NODE
-          if ! git diff --quiet -- src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/ortografia-oficial/questoes.json; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/ortografia-oficial/questoes.json
-            git commit -m "content: corrige serialização das questões"
-            git push origin HEAD:${{ github.head_ref }}
-          fi
 
       - name: Install dependencies
         run: npm ci
