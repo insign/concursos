@@ -600,7 +600,7 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 
 - Item 1, recorte: transparência da administração pública; controle social e cidadania; accountability.
 
-##### [ ] Assunto 140 - Item 2, recorte: Princípios, abrangência, conceitos, pedido de acesso, tramitação e prazos da Lei de Acesso à Informação.
+##### [>] Em progresso Assunto 140 - Item 2, recorte: Princípios, abrangência, conceitos, pedido de acesso, tramitação e prazos da Lei de Acesso à Informação.
 
 - Item 2. Lei nº 12.527/2011 (Lei de Acesso à Informação): princípios, abrangência e conceitos; pedido de acesso, tramitação e prazos.
 - A Lei de Acesso à Informação é desdobrada nos Assuntos 140 e 141 por função normativa, sem inventar faixas de artigos nem repetir dispositivos.
