@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q2559",
+      "revision": 1,
+      "prompt": "A atuação operacional do órgão de recursos humanos caracteriza-se principalmente por",
+      "options": [
+        { "id": "A", "text": "substituir a alta administração na definição da estratégia." },
+        { "id": "B", "text": "manter cadastros, atos, folha, benefícios e controles com regularidade." },
+        { "id": "C", "text": "eliminar a responsabilidade dos gestores de linha." },
+        { "id": "D", "text": "limitar-se à análise preditiva da força de trabalho." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cadastro, folha, atos, benefícios e controles integram o papel operacional, voltado à regularidade, à tempestividade e à confiabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2560",
+      "revision": 1,
+      "prompt": "O papel consultivo ou de staff da unidade de RH inclui",
+      "options": [
+        { "id": "A", "text": "atuar sem observar competências normativas." },
+        { "id": "B", "text": "exercer automaticamente autoridade hierárquica sobre todas as equipes." },
+        { "id": "C", "text": "aprovar sozinho toda política institucional." },
+        { "id": "D", "text": "orientar gestores, formular métodos e produzir análises técnicas." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Staff presta orientação especializada, formula políticas e métodos e apoia decisões, sem assumir automaticamente a hierarquia das unidades atendidas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2561",
+      "revision": 1,
+      "prompt": "Em gestão estratégica de pessoas no setor público, o objetivo central é",
+      "options": [
+        { "id": "A", "text": "maximizar lucro como finalidade exclusiva." },
+        { "id": "B", "text": "abandonar as rotinas operacionais." },
+        { "id": "C", "text": "alinhar capacidades, riscos e prioridades à missão e ao valor público." },
+        { "id": "D", "text": "automatizar todas as decisões funcionais." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A dimensão estratégica conecta força de trabalho e capacidades à missão institucional e à geração de valor público, sem eliminar operação e conformidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2562",
+      "revision": 1,
+      "prompt": "A coexistência dos papéis operacional e estratégico do RH significa que",
+      "options": [
+        { "id": "A", "text": "regularidade e estratégia são objetivos incompatíveis." },
+        { "id": "B", "text": "o papel estratégico torna desnecessário o cadastro funcional." },
+        { "id": "C", "text": "somente o nível estratégico precisa de controles." },
+        { "id": "D", "text": "dados operacionais confiáveis sustentam análises e decisões estratégicas." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Operação e estratégia se reforçam: erros de cadastro, folha ou atos comprometem indicadores, cenários e decisões. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2563",
+      "revision": 1,
+      "prompt": "Na distinção entre linha e staff, cabe tipicamente ao gestor de linha",
+      "options": [
+        { "id": "A", "text": "formular sozinho todas as políticas de RH." },
+        { "id": "B", "text": "auditar de forma independente os próprios controles." },
+        { "id": "C", "text": "distribuir tarefas, acompanhar entregas e conduzir cotidianamente a equipe." },
+        { "id": "D", "text": "manter toda a infraestrutura tecnológica de RH." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A chefia de linha conduz o trabalho cotidiano e responde pelas entregas de sua unidade; o RH oferece políticas, instrumentos e apoio especializado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2564",
+      "revision": 1,
+      "prompt": "A classificação da unidade de RH como staff implica que ela",
+      "options": [
+        { "id": "A", "text": "jamais pode exercer autoridade funcional." },
+        { "id": "B", "text": "não possui chefia sobre sua própria equipe." },
+        { "id": "C", "text": "assessora tecnicamente e pode exercer competências funcionais previstas em norma." },
+        { "id": "D", "text": "substitui a cadeia hierárquica da organização." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Staff não significa ausência absoluta de autoridade: competências funcionais podem ser previstas, mas não criam hierarquia geral nem dispensam base normativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2565",
+      "revision": 1,
+      "prompt": "A responsabilidade pela gestão de pessoas é adequadamente descrita como",
+      "options": [
+        { "id": "A", "text": "exclusiva da unidade de RH." },
+        { "id": "B", "text": "exclusiva das chefias, sem apoio técnico." },
+        { "id": "C", "text": "compartilhada, com papéis distintos entre RH, gestores e alta administração." },
+        { "id": "D", "text": "transferida à auditoria interna." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A responsabilidade é compartilhada sem ser indistinta: RH coordena tecnicamente, gestores conduzem equipes e a alta administração direciona e monitora. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2566",
+      "revision": 1,
+      "prompt": "Entre os objetivos básicos do órgão de RH está",
+      "options": [
+        { "id": "A", "text": "separar planejamento de pessoas da estratégia." },
+        { "id": "B", "text": "evitar qualquer movimentação de pessoal." },
+        { "id": "C", "text": "substituir direitos funcionais por metas." },
+        { "id": "D", "text": "prover quantidade e competências compatíveis com as necessidades institucionais." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Prover capacidade institucional envolve identificar quantidade, perfis e competências e apoiar provimento, alocação e continuidade sob as restrições aplicáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2567",
+      "revision": 1,
+      "prompt": "Alinhar pessoas à missão institucional não autoriza o órgão de RH a",
+      "options": [
+        { "id": "A", "text": "traduzir objetivos em prioridades de desenvolvimento." },
+        { "id": "B", "text": "apoiar a organização do trabalho." },
+        { "id": "C", "text": "ignorar direitos e tratar pessoas apenas como instrumentos." },
+        { "id": "D", "text": "integrar planejamento e informação gerencial." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O alinhamento deve respeitar direitos, dignidade e regime jurídico; não legitima instrumentalização ou arbitrariedade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2568",
+      "revision": 1,
+      "prompt": "A manutenção de atos, registros e pagamentos corretos contribui diretamente para",
+      "options": [
+        { "id": "A", "text": "substituição da legislação por políticas internas." },
+        { "id": "B", "text": "eliminação da necessidade de controles." },
+        { "id": "C", "text": "dispensa de prestação de contas." },
+        { "id": "D", "text": "regularidade, rastreabilidade e proteção de direitos." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Administração de pessoal confiável assegura direitos, conformidade e rastreabilidade e reduz erros, fraudes e tratamentos arbitrários. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2569",
+      "revision": 1,
+      "prompt": "Ao disponibilizar um indicador para apoiar uma decisão de alocação, o RH deve",
+      "options": [
+        { "id": "A", "text": "tratar o número como decisão automática." },
+        { "id": "B", "text": "explicitar método e limites e preservar o julgamento competente." },
+        { "id": "C", "text": "omitir a fonte para evitar questionamentos." },
+        { "id": "D", "text": "ignorar dados qualitativos." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Indicadores apoiam, mas não substituem a decisão; conceito, fonte, método, contexto e limitações devem ser conhecidos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2570",
+      "revision": 1,
+      "prompt": "Uma política de gestão de pessoas é",
+      "options": [
+        { "id": "A", "text": "qualquer formulário utilizado pelo setor." },
+        { "id": "B", "text": "um evento isolado de capacitação." },
+        { "id": "C", "text": "conjunto deliberado de princípios, objetivos, critérios, responsabilidades e instrumentos." },
+        { "id": "D", "text": "sinônimo obrigatório de sistema informatizado." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A política orienta decisões recorrentes por meio de princípios, objetivos, diretrizes, critérios e responsabilidades; formulários e sistemas são instrumentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2571",
+      "revision": 1,
+      "prompt": "No ciclo de uma política de pessoas, o diagnóstico deve preceder a escolha da solução porque",
+      "options": [
+        { "id": "A", "text": "impede qualquer revisão futura." },
+        { "id": "B", "text": "torna desnecessária a avaliação posterior." },
+        { "id": "C", "text": "substitui a aprovação competente." },
+        { "id": "D", "text": "permite compreender problema, evidências, riscos e restrições." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Diagnosticar evita adotar previamente uma solução que trate apenas sintomas ou preferências e permite delimitar necessidades reais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2572",
+      "revision": 1,
+      "prompt": "Na formulação de uma política, é apropriado definir",
+      "options": [
+        { "id": "A", "text": "somente um título atraente." },
+        { "id": "B", "text": "objetivo, público, critérios, responsabilidades, controles, indicadores e metas." },
+        { "id": "C", "text": "apenas o software a adquirir." },
+        { "id": "D", "text": "resultados sem linha de base ou fonte." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O desenho deve tornar explícitos finalidade, destinatários, instrumentos, responsabilidades, recursos, controles e como o resultado será medido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2573",
+      "revision": 1,
+      "prompt": "A aprovação formal de uma política",
+      "options": [
+        { "id": "A", "text": "é sempre dispensável." },
+        { "id": "B", "text": "garante por si só adesão e resultados." },
+        { "id": "C", "text": "deve observar autoridade e instrumento competentes, mas não substitui implementação." },
+        { "id": "D", "text": "elimina a necessidade de comunicação." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Institucionalização competente dá legitimidade e estabilidade, porém publicar o ato não executa processos nem produz compreensão automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2574",
+      "revision": 1,
+      "prompt": "Durante a implementação de uma política de RH, deve-se",
+      "options": [
+        { "id": "A", "text": "evitar registrar responsabilidades." },
+        { "id": "B", "text": "adiar toda comunicação até a avaliação final." },
+        { "id": "C", "text": "dispensar suporte aos gestores." },
+        { "id": "D", "text": "adaptar processos e sistemas, preparar pessoas e comunicar regras e canais." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Implementar requer meios organizacionais, tecnológicos e humanos, além de comunicação clara sobre finalidade, regras, responsabilidades e suporte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2575",
+      "revision": 1,
+      "prompt": "Monitoramento e avaliação diferenciam-se porque o monitoramento",
+      "options": [
+        { "id": "A", "text": "dispensa indicadores." },
+        { "id": "B", "text": "prova sozinho a causalidade da política." },
+        { "id": "C", "text": "ocorre apenas depois da descontinuação." },
+        { "id": "D", "text": "acompanha continuamente execução, cobertura, prazos, custos e riscos." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Monitoramento acompanha a execução e permite ajustes durante o percurso; avaliação examina mérito, resultados, efeitos e sustentabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2576",
+      "revision": 1,
+      "prompt": "Se um indicador melhorou depois de uma política, a conclusão metodologicamente correta é que",
+      "options": [
+        { "id": "A", "text": "a política foi necessariamente a única causa." },
+        { "id": "B", "text": "a avaliação se tornou inútil." },
+        { "id": "C", "text": "a mudança é evidência relevante, mas causalidade exige análise adicional." },
+        { "id": "D", "text": "todo efeito não previsto pode ser ignorado." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Sequência temporal e correlação não bastam para atribuir causalidade; contexto, desenho avaliativo e explicações alternativas precisam ser examinados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2577",
+      "revision": 1,
+      "prompt": "Coerência vertical em gestão de pessoas ocorre quando",
+      "options": [
+        { "id": "A", "text": "as políticas de RH são idênticas em todas as unidades." },
+        { "id": "B", "text": "cada subsistema opera sem relação com os demais." },
+        { "id": "C", "text": "missão, estratégia, objetivos de pessoas, planos e atividades se conectam." },
+        { "id": "D", "text": "indicadores substituem os objetivos." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Coerência vertical liga os diferentes níveis, da missão às atividades, evitando planos de pessoas desconectados dos resultados institucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2578",
+      "revision": 1,
+      "prompt": "Coerência horizontal significa",
+      "options": [
+        { "id": "A", "text": "compatibilidade entre políticas e subsistemas de pessoas." },
+        { "id": "B", "text": "subordinação do RH à tecnologia." },
+        { "id": "C", "text": "igualdade absoluta de tratamento em qualquer contexto." },
+        { "id": "D", "text": "eliminação de critérios diferenciados legítimos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Coerência horizontal evita contradições entre provimento, alocação, desenvolvimento, desempenho, carreiras e demais subsistemas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2579",
+      "revision": 1,
+      "prompt": "Uma organização diagnostica falta de competência digital, mas não relaciona esse achado a desenvolvimento ou alocação. Há problema de",
+      "options": [
+        { "id": "A", "text": "coerência horizontal entre subsistemas." },
+        { "id": "B", "text": "integridade referencial exclusivamente." },
+        { "id": "C", "text": "exatidão cadastral apenas." },
+        { "id": "D", "text": "anonimização." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O diagnóstico precisa alimentar instrumentos de desenvolvimento, seleção, movimentação ou organização do trabalho; sem conexão, os subsistemas ficam incoerentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2580",
+      "revision": 1,
+      "prompt": "Na distinção adotada pelo TCU, governança organizacional consiste em",
+      "options": [
+        { "id": "A", "text": "executar todas as tarefas operacionais." },
+        { "id": "B", "text": "avaliar, direcionar e monitorar." },
+        { "id": "C", "text": "processar folha e frequência." },
+        { "id": "D", "text": "substituir os gestores responsáveis." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Governança avalia necessidades, direciona prioridades e monitora resultados e riscos; a gestão planeja, executa e controla operacionalmente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2581",
+      "revision": 1,
+      "prompt": "O planejamento da gestão de pessoas recomendado pelo TCU deve",
+      "options": [
+        { "id": "A", "text": "eliminar o acompanhamento da alta administração." },
+        { "id": "B", "text": "limitar-se ao calendário de cursos." },
+        { "id": "C", "text": "ser independente da estratégia organizacional." },
+        { "id": "D", "text": "abranger objetivos, indicadores, metas e principais funções de RH." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A referência do TCU exige planejamento alinhado à estratégia, com objetivos, indicadores, metas, ações e acompanhamento, cobrindo as funções relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2582",
+      "revision": 1,
+      "prompt": "Sobre o Decreto nº 9.991/2019, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "se aplica automaticamente a qualquer tribunal de contas estadual." },
+        { "id": "B", "text": "é norma municipal sobre folha." },
+        { "id": "C", "text": "disciplina a PNDP no âmbito federal definido e serve como referência didática fora dele." },
+        { "id": "D", "text": "dispensa alinhamento entre desenvolvimento e objetivos institucionais." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O decreto rege órgãos e entidades federais de seu âmbito, especialmente integrantes do SIPEC; não vincula automaticamente o TCE-MA. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2583",
+      "revision": 1,
+      "prompt": "No exemplo federal da PNDP, a unidade de gestão de pessoas",
+      "options": [
+        { "id": "A", "text": "substitui a aprovação da autoridade competente." },
+        { "id": "B", "text": "atua apenas depois da execução." },
+        { "id": "C", "text": "não participa do monitoramento." },
+        { "id": "D", "text": "apoia gestores e autoridade máxima do planejamento à avaliação do desenvolvimento." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Decreto nº 9.991/2019 atribui à unidade de GP apoio durante todo o ciclo do desenvolvimento, sem retirar as competências de gestores e autoridades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2584",
+      "revision": 1,
+      "prompt": "Um sistema de informações gerenciais de RH é melhor definido como",
+      "options": [
+        { "id": "A", "text": "somente o programa instalado nos computadores." },
+        { "id": "B", "text": "qualquer planilha sem governança." },
+        { "id": "C", "text": "conjunto de pessoas, processos, dados, tecnologia e controles que produz informação." },
+        { "id": "D", "text": "um painel público de remuneração." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "SIG é sistema sociotécnico: tecnologia é um componente junto de processos, pessoas, dados, responsabilidades e controles. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2585",
+      "revision": 1,
+      "prompt": "No nível operacional, um SIG de RH apoia principalmente",
+      "options": [
+        { "id": "A", "text": "auditorias externas exclusivamente." },
+        { "id": "B", "text": "somente cenários macroeconômicos." },
+        { "id": "C", "text": "decisões sem dados cadastrais." },
+        { "id": "D", "text": "registros e transações como vínculo, lotação, frequência e eventos funcionais." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O nível operacional registra e processa transações funcionais que sustentam serviços, controles e níveis gerenciais superiores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2586",
+      "revision": 1,
+      "prompt": "No nível estratégico, um SIG de RH pode fornecer",
+      "options": [
+        { "id": "A", "text": "apenas comprovantes individuais." },
+        { "id": "B", "text": "decisões juridicamente vinculantes sem autoridade humana." },
+        { "id": "C", "text": "cenários, tendências, riscos e projeções da força de trabalho." },
+        { "id": "D", "text": "dados sem contexto ou período." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O nível estratégico transforma dados integrados em cenários e análises para decisões de maior alcance, sempre sujeitos a método e julgamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2587",
+      "revision": 1,
+      "prompt": "A sigla SIG de RH",
+      "options": [
+        { "id": "A", "text": "designa obrigatoriamente o Sigepe." },
+        { "id": "B", "text": "é conceito genérico, enquanto Sigepe e SouGov são plataformas específicas." },
+        { "id": "C", "text": "identifica sistema presumidamente adotado pelo TCE-MA." },
+        { "id": "D", "text": "é sinônimo de banco de dados sem processos." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "SIG descreve uma função informacional geral; nomes de plataformas federais não são sinônimos universais nem comprovam adoção por outro ente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2588",
+      "revision": 1,
+      "prompt": "São exemplos de dados mestres de RH",
+      "options": [
+        { "id": "A", "text": "metas sem responsável ou período." },
+        { "id": "B", "text": "somente comentários em redes sociais." },
+        { "id": "C", "text": "apenas imagens sem identificação." },
+        { "id": "D", "text": "vínculo, cargo, função, unidade, lotação e vigência." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Dados mestres são referências compartilhadas relativamente estáveis, como pessoa, vínculo, cargo, função e estrutura organizacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2589",
+      "revision": 1,
+      "prompt": "Uma boa governança de dados mestres exige",
+      "options": [
+        { "id": "A", "text": "múltiplos identificadores contraditórios." },
+        { "id": "B", "text": "fonte responsável, identificador estável, semântica comum, histórico e validação." },
+        { "id": "C", "text": "eliminação de trilhas de alteração." },
+        { "id": "D", "text": "acesso irrestrito por conveniência." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Responsabilidade, identificação, metadados, vigência, validação e rastreabilidade evitam duplicidade e versões incompatíveis do mesmo fato. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2590",
+      "revision": 1,
+      "prompt": "Integrar sistemas de RH e orçamento de forma confiável requer",
+      "options": [
+        { "id": "A", "text": "apenas enviar planilhas por correio eletrônico." },
+        { "id": "B", "text": "chaves, periodicidade, validações, reconciliação e responsáveis definidos." },
+        { "id": "C", "text": "dispensar tratamento de erros." },
+        { "id": "D", "text": "compartilhar todos os dados disponíveis." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Integração é processo governado, não simples transporte de arquivos; exige regras técnicas, semânticas, operacionais e de responsabilização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2591",
+      "revision": 1,
+      "prompt": "Dois sistemas registram lotações diferentes para a mesma pessoa. A dimensão de qualidade mais diretamente afetada é",
+      "options": [
+        { "id": "A", "text": "consistência." },
+        { "id": "B", "text": "publicidade." },
+        { "id": "C", "text": "economicidade." },
+        { "id": "D", "text": "anonimização." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Valores contraditórios para o mesmo fato indicam falha de consistência entre registros ou fontes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2592",
+      "revision": 1,
+      "prompt": "Um cadastro possui todos os campos, mas conserva situação funcional antiga. O principal problema é de",
+      "options": [
+        { "id": "A", "text": "completude." },
+        { "id": "B", "text": "atualidade." },
+        { "id": "C", "text": "unicidade." },
+        { "id": "D", "text": "formatação visual." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os dados existem, mas não refletem o momento relevante; isso compromete a atualidade e pode induzir decisão errada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2593",
+      "revision": 1,
+      "prompt": "Há falha de completude quando",
+      "options": [
+        { "id": "A", "text": "a origem não pode ser verificada." },
+        { "id": "B", "text": "o valor não corresponde ao fato." },
+        { "id": "C", "text": "existem registros duplicados." },
+        { "id": "D", "text": "faltam campos ou registros necessários à finalidade." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Completude mede a presença dos elementos necessários; exatidão, unicidade e rastreabilidade tratam dos outros defeitos descritos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2594",
+      "revision": 1,
+      "prompt": "A integridade referencial de um banco de RH é violada quando",
+      "options": [
+        { "id": "A", "text": "o dado é atualizado tempestivamente." },
+        { "id": "B", "text": "um relatório informa sua fonte." },
+        { "id": "C", "text": "um campo possui domínio válido." },
+        { "id": "D", "text": "uma lotação aponta para unidade inexistente." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Integridade referencial exige relações válidas entre registros; referenciar unidade inexistente rompe essa relação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2595",
+      "revision": 1,
+      "prompt": "Rastreabilidade da informação permite",
+      "options": [
+        { "id": "A", "text": "considerar qualquer correlação causal." },
+        { "id": "B", "text": "eliminar toda necessidade de validação." },
+        { "id": "C", "text": "ocultar responsáveis pelo dado." },
+        { "id": "D", "text": "identificar origem, alterações e transformações até o indicador." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Rastreabilidade permite reconstruir a linhagem do dado, verificar fontes, transformações e responsabilidades e auditar o resultado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2596",
+      "revision": 1,
+      "prompt": "Segundo o princípio da qualidade dos dados da LGPD, deve-se garantir",
+      "options": [
+        { "id": "A", "text": "uso para qualquer finalidade futura." },
+        { "id": "B", "text": "retenção ilimitada de todo dado coletado." },
+        { "id": "C", "text": "publicidade irrestrita de cadastros funcionais." },
+        { "id": "D", "text": "exatidão, clareza, relevância e atualização conforme necessidade e finalidade." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 6º, V, vincula qualidade à exatidão, clareza, relevância e atualização necessárias ao cumprimento da finalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2597",
+      "revision": 1,
+      "prompt": "Um indicador gerencial bem especificado deve informar",
+      "options": [
+        { "id": "A", "text": "dados individuais desnecessários à finalidade." },
+        { "id": "B", "text": "apenas um valor destacado por cor." },
+        { "id": "C", "text": "somente a meta, sem linha de base." },
+        { "id": "D", "text": "conceito, fórmula, fonte, período, população, periodicidade e limitações." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Metadados e método tornam o indicador interpretável, reproduzível e adequadamente limitado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2598",
+      "revision": 1,
+      "prompt": "O número de cursos oferecidos é, isoladamente, um indicador de",
+      "options": [
+        { "id": "A", "text": "atividade, não prova necessária de desenvolvimento aplicado." },
+        { "id": "B", "text": "impacto causal comprovado." },
+        { "id": "C", "text": "qualidade cadastral." },
+        { "id": "D", "text": "integridade referencial." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A contagem mede entrega ou atividade; resultado e impacto exigem evidência sobre aprendizagem, aplicação e efeitos institucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2599",
+      "revision": 1,
+      "prompt": "Ao comparar absenteísmo entre duas unidades, é necessário considerar",
+      "options": [
+        { "id": "A", "text": "missão, porte, composição, riscos e contexto de trabalho." },
+        { "id": "B", "text": "somente a cor do dashboard." },
+        { "id": "C", "text": "que toda diferença prova pior gestão." },
+        { "id": "D", "text": "que dados de saúde nunca são sensíveis." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Comparações sem ajuste de contexto podem ser enganosas, e dados associados à saúde exigem proteção reforçada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2600",
+      "revision": 1,
+      "prompt": "A principal função de um dashboard de RH é",
+      "options": [
+        { "id": "A", "text": "organizar visualmente informações para acompanhamento e análise." },
+        { "id": "B", "text": "corrigir automaticamente dados de baixa qualidade." },
+        { "id": "C", "text": "substituir política e governança." },
+        { "id": "D", "text": "provar causalidade por meio de gráficos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Dashboard é instrumento de visualização; não conserta a base, não define objetivos e não substitui análise, governança ou julgamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2601",
+      "revision": 1,
+      "prompt": "Para a LGPD, dado pessoal é informação relacionada a",
+      "options": [
+        { "id": "A", "text": "somente pessoa identificada pelo nome completo." },
+        { "id": "B", "text": "qualquer instituição pública, ainda que sem pessoa vinculada." },
+        { "id": "C", "text": "pessoa natural identificada ou identificável." },
+        { "id": "D", "text": "apenas consumidor de empresa privada." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A definição do art. 5º, I, abrange informação ligada a pessoa natural identificada ou que possa ser identificada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2602",
+      "revision": 1,
+      "prompt": "É exemplo de dado pessoal sensível no contexto de RH",
+      "options": [
+        { "id": "A", "text": "dado de saúde ou biométrico vinculado a pessoa natural." },
+        { "id": "B", "text": "nome de uma unidade administrativa sem vínculo individual." },
+        { "id": "C", "text": "quantidade total de prédios." },
+        { "id": "D", "text": "código de um processo sem associação possível a pessoa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Saúde, biometria, origem racial, opinião política e filiação sindical estão entre as categorias sensíveis quando vinculadas a pessoa natural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2603",
+      "revision": 1,
+      "prompt": "O tratamento de dados pessoais pelo Poder Público deve buscar",
+      "options": [
+        { "id": "A", "text": "finalidade pública e execução de competências ou atribuições legais." },
+        { "id": "B", "text": "qualquer finalidade futura ainda não definida." },
+        { "id": "C", "text": "vantagem comercial da chefia." },
+        { "id": "D", "text": "divulgação integral por padrão." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 23 da LGPD vincula o tratamento estatal à finalidade pública, ao interesse público e às competências ou atribuições legais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2604",
+      "revision": 1,
+      "prompt": "Sobre consentimento em rotinas funcionais, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "é autorização genérica para qualquer uso futuro." },
+        { "id": "B", "text": "é sempre a única base possível para o Poder Público." },
+        { "id": "C", "text": "não deve ser presumido como base universal; o tratamento pode decorrer de finalidade e competência legal." },
+        { "id": "D", "text": "afasta os princípios de necessidade e segurança." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Consentimento não é autorização aberta nem base única; o Poder Público deve identificar o fundamento e a finalidade aplicáveis e observar todos os princípios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2605",
+      "revision": 1,
+      "prompt": "O princípio da necessidade determina",
+      "options": [
+        { "id": "A", "text": "coletar todo dado que possa ser útil algum dia." },
+        { "id": "B", "text": "limitar o tratamento ao mínimo pertinente, proporcional e não excessivo." },
+        { "id": "C", "text": "manter os dados indefinidamente." },
+        { "id": "D", "text": "dispensar a definição de finalidade." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Necessidade exige minimização em relação à finalidade: somente dados pertinentes, proporcionais e não excessivos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2606",
+      "revision": 1,
+      "prompt": "A interoperabilidade prevista na LGPD",
+      "options": [
+        { "id": "A", "text": "autoriza circulação indiscriminada de dados pessoais." },
+        { "id": "B", "text": "deve servir a finalidades públicas e respeitar princípios de proteção de dados." },
+        { "id": "C", "text": "elimina controles de acesso." },
+        { "id": "D", "text": "torna todos os dados automaticamente públicos." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Formato interoperável e uso compartilhado continuam vinculados a finalidades específicas, atribuições legais e princípios como necessidade e segurança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2607",
+      "revision": 1,
+      "prompt": "Transparência em gestão pública de pessoas",
+      "options": [
+        { "id": "A", "text": "equivale à divulgação irrestrita de qualquer dado pessoal." },
+        { "id": "B", "text": "deve ser compatibilizada com finalidade, necessidade e proteção de dados." },
+        { "id": "C", "text": "é incompatível com informação agregada." },
+        { "id": "D", "text": "dispensa avaliação da base legal." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Publicidade e proteção de dados convivem; a divulgação deve observar finalidade, necessidade, regime aplicável e salvaguardas como agregação quando adequada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2608",
+      "revision": 1,
+      "prompt": "A afirmação de que a LGPD se restringe à União está",
+      "options": [
+        { "id": "A", "text": "correta, porque estados não tratam dados pessoais." },
+        { "id": "B", "text": "incorreta, pois suas normas gerais são de interesse nacional e alcançam os entes federativos." },
+        { "id": "C", "text": "correta apenas para dados de servidores." },
+        { "id": "D", "text": "correta quando há sistema próprio." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 1º, parágrafo único, determina observância das normas gerais pela União, estados, Distrito Federal e municípios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2609",
+      "revision": 1,
+      "prompt": "É controle adequado para um SIG de RH",
+      "options": [
+        { "id": "A", "text": "acesso por perfil e necessidade funcional, com revisão e trilhas." },
+        { "id": "B", "text": "conta compartilhada por toda a organização." },
+        { "id": "C", "text": "permissão permanente mesmo após mudança de função." },
+        { "id": "D", "text": "ausência de registro de acessos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Menor privilégio, segregação, revisão de permissões e trilhas de auditoria reduzem acesso indevido e aumentam responsabilização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2610",
+      "revision": 1,
+      "prompt": "People analytics consiste em",
+      "options": [
+        { "id": "A", "text": "usar dados e métodos analíticos para apoiar decisões de gestão de pessoas." },
+        { "id": "B", "text": "substituir gestores por algoritmos." },
+        { "id": "C", "text": "coletar dados sem pergunta de gestão." },
+        { "id": "D", "text": "publicar dados individuais em dashboards." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "People analytics produz evidências e insights por análise de dados para apoiar decisões, com finalidade, método e capacidade de agir. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2611",
+      "revision": 1,
+      "prompt": "Um órgão projeta aposentadorias, identifica os perfis que faltarão e planeja os meios legais de ingresso e movimentação. Na classificação didática dos processos de RH, predomina o grupo de",
+      "options": [
+        { "id": "A", "text": "agregar ou prover pessoas e capacidades." },
+        { "id": "B", "text": "recompensar, porque toda vacância exige benefício financeiro." },
+        { "id": "C", "text": "manter, porque ingresso e movimentação tratam apenas de qualidade de vida." },
+        { "id": "D", "text": "aplicar, exclusivamente, porque o planejamento não influencia a provisão." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Planejamento da força de trabalho, ingresso, recrutamento, seleção e movimentação integram predominantemente o grupo de agregar ou prover. O monitoramento fornece dados, mas não é a finalidade principal do caso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2612",
+      "revision": 1,
+      "prompt": "Depois do ingresso, a unidade define responsabilidades, aloca a pessoa e acompanha suas entregas. O conjunto pertence predominantemente ao processo de",
+      "options": [
+        { "id": "A", "text": "prover, pois se limita à seleção externa." },
+        { "id": "B", "text": "aplicar, por organizar o trabalho, a alocação e o desempenho." },
+        { "id": "C", "text": "recompensar, pois toda entrega gera vantagem remuneratória." },
+        { "id": "D", "text": "manter, pois descrição de responsabilidades equivale a saúde ocupacional." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aplicar abrange desenho e descrição do trabalho, lotação, alocação e acompanhamento do desempenho. O ingresso já ocorreu e não há recompensa automática. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2613",
+      "revision": 1,
+      "prompt": "A área de RH analisa estrutura remuneratória legal, benefícios, carreira e formas institucionais de reconhecimento. A finalidade predominante é",
+      "options": [
+        { "id": "A", "text": "recompensar dentro dos limites jurídicos do setor público." },
+        { "id": "B", "text": "prover, porque carreira é meio de ingresso externo." },
+        { "id": "C", "text": "monitorar, porque remuneração se reduz ao cadastro." },
+        { "id": "D", "text": "aplicar, porque reconhecimento substitui gestão do trabalho." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Remuneração, vantagens legais, benefícios, carreira e reconhecimento integram o grupo de recompensar. No setor público, dependem do regime jurídico e não de livre decisão gerencial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2614",
+      "revision": 1,
+      "prompt": "Após mapear lacunas de capacidade, o órgão programa aprendizagem, prepara lideranças e adota medidas de gestão do conhecimento e sucessão. Predomina o grupo de",
+      "options": [
+        { "id": "A", "text": "manter, pois toda aprendizagem é ação de saúde." },
+        { "id": "B", "text": "desenvolver, por ampliar e preservar capacidades institucionais." },
+        { "id": "C", "text": "recompensar, pois capacitação é vantagem remuneratória." },
+        { "id": "D", "text": "prover, pois sucessão significa necessariamente novo concurso." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aprendizagem, desenvolvimento de lideranças, gestão do conhecimento e sucessão ampliam e preservam capacidades, núcleo do processo de desenvolver. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2615",
+      "revision": 1,
+      "prompt": "Uma política reúne saúde e segurança, inclusão, relações de trabalho, qualidade de vida e retenção. Na classificação dos subsistemas, essas ações pertencem principalmente a",
+      "options": [
+        { "id": "A", "text": "manter pessoas e condições adequadas de trabalho." },
+        { "id": "B", "text": "monitorar, pois saúde se resume à produção de relatórios." },
+        { "id": "C", "text": "aplicar, pois inclusão é apenas distribuição de tarefas." },
+        { "id": "D", "text": "prover, pois retenção e ingresso são sempre o mesmo processo." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O grupo de manter reúne condições de continuidade, saúde, segurança, inclusão, relações e qualidade de vida. Pode influenciar retenção sem se confundir com provisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2616",
+      "revision": 1,
+      "prompt": "A unidade consolida cadastros, verifica a qualidade dos dados, produz indicadores e acompanha riscos e resultados das políticas. Predomina o processo de",
+      "options": [
+        { "id": "A", "text": "monitorar, com informação, controles, riscos e avaliação." },
+        { "id": "B", "text": "recompensar, pois indicador equivale a benefício." },
+        { "id": "C", "text": "prover, pois cadastro é forma de recrutamento." },
+        { "id": "D", "text": "manter, exclusivamente, pois todo risco é ocupacional." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cadastro, SIG, indicadores, conformidade, riscos e avaliação fornecem acompanhamento e aprendizagem, constituindo o núcleo do grupo de monitorar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2617",
+      "revision": 1,
+      "prompt": "Uma vacância crítica é detectada em indicador. O RH planeja reposição, realoca temporariamente pessoas e programa desenvolvimento para reduzir a lacuna. O caso demonstra que",
+      "options": [
+        { "id": "A", "text": "cada processo deve ser executado por sistema isolado e sem troca de dados." },
+        { "id": "B", "text": "monitorar, prover, aplicar e desenvolver são processos interdependentes." },
+        { "id": "C", "text": "a detecção da vacância elimina a necessidade de decisão gerencial." },
+        { "id": "D", "text": "a realocação transforma toda atividade em processo de recompensa." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O indicador monitora, a reposição provê, a realocação aplica e a capacitação desenvolve. O caso evidencia integração entre processos, não fronteiras rígidas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q2618",
+      "revision": 1,
+      "prompt": "Sobre os grupos agregar, aplicar, recompensar, desenvolver, manter e monitorar, assinale a afirmação correta.",
+      "options": [
+        { "id": "A", "text": "São competências legais uniformes em todos os órgãos públicos." },
+        { "id": "B", "text": "Cada atividade pertence obrigatoriamente a um único grupo, sem sobreposição." },
+        { "id": "C", "text": "São uma classificação didática de processos interdependentes, cujos nomes podem variar." },
+        { "id": "D", "text": "O grupo monitorar substitui os demais porque concentra os dados." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A taxonomia organiza o estudo, mas não cria competências jurídicas nem separa processos que se alimentam mutuamente; autores também podem usar nomes diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
