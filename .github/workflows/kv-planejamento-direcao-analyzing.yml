@@ -1,0 +1,78 @@
+name: Reserve planejamento e direção in KV
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  reserve-kv:
+    name: Mark planejamento e direção as analyzing
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Inspect current state
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm-before.json
+          python3 - <<'PY'
+          import json
+          key = 'tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional'
+          with open('/tmp/adm-before.json', encoding='utf-8') as stream:
+              data = json.load(stream)
+          item = data.get('json', {}).get('links', {}).get(key)
+          print('version before:', data.get('version'))
+          print('item before:', item)
+          if isinstance(item, dict) and item.get('status') == 'done':
+              print('ITEM_ALREADY_DONE')
+              raise SystemExit(2)
+          PY
+
+      - name: Mark analyzing
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            -H 'Content-Type: application/json' \
+            --data '{"path":"/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/","status":"analyzing"}' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional' \
+            > /tmp/result.json
+          python3 - <<'PY'
+          import json
+          key = 'tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/',
+              'status': 'analyzing',
+          }
+          with open('/tmp/result.json', encoding='utf-8') as stream:
+              data = json.load(stream)
+          item = data['json']['links'][key]
+          print('mutation item:', item)
+          print('version after mutation:', data.get('version'))
+          if item != expected:
+              raise SystemExit(1)
+          PY
+
+      - name: Verify persisted value
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm-after.json
+          python3 - <<'PY'
+          import json
+          key = 'tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/',
+              'status': 'analyzing',
+          }
+          with open('/tmp/adm-after.json', encoding='utf-8') as stream:
+              data = json.load(stream)
+          item = data['json']['links'][key]
+          print('persisted item:', item)
+          print('persisted version:', data.get('version'))
+          if item != expected:
+              raise SystemExit(1)
+          PY
