@@ -1,0 +1,71 @@
+name: Repair ortografia status in KV
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  repair-kv:
+    name: Repair KV status
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Mark analyzing
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            -H 'Content-Type: application/json' \
+            --data '"analyzing"' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--ortografia-oficial%2Fstatus' \
+            > /tmp/analyzing.json
+          python3 - <<'PY'
+          import json
+          with open('/tmp/analyzing.json', encoding='utf-8') as stream:
+              data = json.load(stream)
+          status = data['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
+          print('status after first mutation:', status)
+          if status != 'analyzing':
+              raise SystemExit(1)
+          PY
+
+      - name: Mark done
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            -H 'Content-Type: application/json' \
+            --data '"done"' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--ortografia-oficial%2Fstatus' \
+            > /tmp/done.json
+          python3 - <<'PY'
+          import json
+          with open('/tmp/done.json', encoding='utf-8') as stream:
+              data = json.load(stream)
+          status = data['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
+          print('status after second mutation:', status)
+          if status != 'done':
+              raise SystemExit(1)
+          PY
+
+      - name: Verify persisted value
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error \
+            'https://kv.helio.me/adm' \
+            > /tmp/adm.json
+          python3 - <<'PY'
+          import json
+          with open('/tmp/adm.json', encoding='utf-8') as stream:
+              data = json.load(stream)
+          status = data['json']['links']['tce-ma-2026-analista-administracao--ortografia-oficial']['status']
+          print('persisted status:', status)
+          print('version:', data['version'])
+          if status != 'done':
+              raise SystemExit(1)
+          PY
