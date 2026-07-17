@@ -92,7 +92,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.8. Colocação dos pronomes átonos.
 
-##### [ ] Assunto 016 - Item 6, subitens 6.1 e 6.2: Significação, substituição e equivalência lexical no texto.
+##### [>] Em progresso Assunto 016 - Item 6, subitens 6.1 e 6.2: Significação, substituição e equivalência lexical no texto.
 
 - 6.1. Significação das palavras.
 - 6.2. Substituição de palavras ou de trechos de texto.
