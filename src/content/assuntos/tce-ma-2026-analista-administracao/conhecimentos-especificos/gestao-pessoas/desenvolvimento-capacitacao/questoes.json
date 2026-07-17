@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q3039",
+      "revision": 1,
+      "prompt": "No sistema de TD&E, a aprendizagem corresponde principalmente",
+      "options": [
+        { "id": "A", "text": "ao catálogo de ações oferecido pela organização." },
+        { "id": "B", "text": "à certificação emitida após a frequência mínima." },
+        { "id": "C", "text": "ao orçamento reservado para desenvolvimento." },
+        { "id": "D", "text": "à aquisição ou mudança de conhecimentos, habilidades, atitudes e outros atributos." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Aprendizagem é o processo ou resultado de mudança do repertório; curso, certificado e orçamento são meios ou registros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3040",
+      "revision": 1,
+      "prompt": "Em uma distinção usual entre treinamento e desenvolvimento, o treinamento tende a",
+      "options": [
+        { "id": "A", "text": "abranger toda a formação social e cidadã da pessoa." },
+        { "id": "B", "text": "focalizar lacunas relacionadas às tarefas e responsabilidades mais imediatas." },
+        { "id": "C", "text": "preparar exclusivamente para cargos ainda inexistentes." },
+        { "id": "D", "text": "dispensar alinhamento com resultados do trabalho." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Treinamento costuma ter foco mais imediato no trabalho atual, sem que isso impeça efeitos duradouros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3041",
+      "revision": 1,
+      "prompt": "O desenvolvimento de pessoas caracteriza-se por",
+      "options": [
+        { "id": "A", "text": "ter alcance amplo e preparar para mudanças, responsabilidades futuras e novas capacidades." },
+        { "id": "B", "text": "limitar-se à correção de erro operacional presente." },
+        { "id": "C", "text": "substituir a aprendizagem no trabalho por ensino formal." },
+        { "id": "D", "text": "produzir resultado apenas quando associado à promoção." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Desenvolvimento tem orientação mais abrangente e prospectiva, embora também possa melhorar o desempenho atual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3042",
+      "revision": 1,
+      "prompt": "No campo de TD&E, educação é compreendida como",
+      "options": [
+        { "id": "A", "text": "sinônimo estrito de treinamento para a tarefa atual." },
+        { "id": "B", "text": "atividade desvinculada de cultura e valores." },
+        { "id": "C", "text": "modalidade aplicável apenas a cursos de longa duração." },
+        { "id": "D", "text": "conceito abrangente que pode incluir formação continuada, escolarização, cultura e cidadania." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Educação é a categoria mais abrangente e não se restringe a prazo, modalidade ou tarefa presente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3043",
+      "revision": 1,
+      "prompt": "Um processo consistente de capacitação deve começar por",
+      "options": [
+        { "id": "A", "text": "analisar estratégia, trabalho, pessoas e contexto para identificar necessidades." },
+        { "id": "B", "text": "contratar o curso mais bem avaliado por outros órgãos." },
+        { "id": "C", "text": "escolher a modalidade com menor custo por participante." },
+        { "id": "D", "text": "definir a prova final antes de conhecer o problema." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "TD&E começa pelo diagnóstico; solução, modalidade e avaliação devem decorrer da necessidade identificada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3044",
+      "revision": 1,
+      "prompt": "O levantamento de necessidades de treinamento busca",
+      "options": [
+        { "id": "A", "text": "converter preferências individuais em inscrições automáticas." },
+        { "id": "B", "text": "identificar e priorizar lacunas entre o desempenho requerido e o atual, examinando suas causas." },
+        { "id": "C", "text": "substituir a análise organizacional pela avaliação individual." },
+        { "id": "D", "text": "medir apenas a satisfação com cursos anteriores." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "LNT/ANT é diagnóstico de lacunas e causas em múltiplos níveis, não levantamento de preferências ou reação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3045",
+      "revision": 1,
+      "prompt": "A manifestação de interesse de muitos servidores por determinado curso",
+      "options": [
+        { "id": "A", "text": "comprova que existe lacuna de competência crítica." },
+        { "id": "B", "text": "dispensa a análise de alinhamento estratégico." },
+        { "id": "C", "text": "define, por si, o público e o método da ação." },
+        { "id": "D", "text": "é um dado possível, mas não prova sozinha uma necessidade institucional." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Preferências podem integrar a coleta, porém precisam ser confrontadas com trabalho requerido, estratégia, evidências e causas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3046",
+      "revision": 1,
+      "prompt": "No nível organizacional do LNT, examinam-se principalmente",
+      "options": [
+        { "id": "A", "text": "missão, estratégia, riscos, indicadores e mudanças do ambiente." },
+        { "id": "B", "text": "somente notas individuais de desempenho." },
+        { "id": "C", "text": "apenas a sequência motora de cada tarefa." },
+        { "id": "D", "text": "as preferências didáticas de uma turma já inscrita." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A análise organizacional conecta capacidades necessárias às finalidades, prioridades, riscos e contexto da instituição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3047",
+      "revision": 1,
+      "prompt": "A análise ocupacional ou de tarefas procura identificar",
+      "options": [
+        { "id": "A", "text": "atividades, padrões, responsabilidades e competências exigidos pelo trabalho." },
+        { "id": "B", "text": "o retorno financeiro agregado de todo o plano de capacitação." },
+        { "id": "C", "text": "a reação afetiva dos participantes ao instrutor." },
+        { "id": "D", "text": "a estratégia institucional sem examinar processos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O nível ocupacional define o desempenho requerido pela função, pelas tarefas e pelos processos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3048",
+      "revision": 1,
+      "prompt": "Na análise individual de necessidades, deve-se",
+      "options": [
+        { "id": "A", "text": "presumir que toda nota baixa decorre de falta de conhecimento." },
+        { "id": "B", "text": "usar exclusivamente a autoavaliação do interessado." },
+        { "id": "C", "text": "comparar repertório e desempenho demonstrados com o padrão requerido e investigar o contexto." },
+        { "id": "D", "text": "selecionar primeiro o curso e depois localizar quem possa frequentá-lo." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O nível individual identifica quem precisa desenvolver o quê, mas deve considerar evidências, critérios e fatores contextuais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3049",
+      "revision": 1,
+      "prompt": "As classificações macro, meso e micro do LNT correspondem usualmente",
+      "options": [
+        { "id": "A", "text": "a reação, aprendizagem e comportamento." },
+        { "id": "B", "text": "a contexto, insumo e processo." },
+        { "id": "C", "text": "aos níveis organizacional, ocupacional e individual." },
+        { "id": "D", "text": "a eficiência, eficácia e efetividade." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Macro, meso e micro são formas de representar níveis organizacional, do trabalho e individual do diagnóstico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3050",
+      "revision": 1,
+      "prompt": "A análise e a descrição de cargos contribuem para o LNT porque",
+      "options": [
+        { "id": "A", "text": "eliminam a necessidade de observar mudanças no trabalho." },
+        { "id": "B", "text": "oferecem referências sobre tarefas, responsabilidades e requisitos do desempenho." },
+        { "id": "C", "text": "demonstram automaticamente quem possui cada competência." },
+        { "id": "D", "text": "substituem o diagnóstico organizacional e individual." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A análise do trabalho informa o padrão requerido, mas precisa ser atualizada e combinada com outros níveis e fontes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3051",
+      "revision": 1,
+      "prompt": "A avaliação de desempenho, no levantamento de necessidades, deve ser tratada como",
+      "options": [
+        { "id": "A", "text": "prova conclusiva de que o problema é educacional." },
+        { "id": "B", "text": "substituto integral da análise do trabalho." },
+        { "id": "C", "text": "fonte dispensável quando existe descrição de cargo." },
+        { "id": "D", "text": "fonte relevante de evidências, sujeita a vieses, critérios e fatores contextuais." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O desempenho observado ajuda a localizar lacunas, mas nota ou relato isolado não determina causa nem intervenção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3052",
+      "revision": 1,
+      "prompt": "Triangular dados no LNT significa",
+      "options": [
+        { "id": "A", "text": "combinar e confrontar fontes ou métodos para robustecer o diagnóstico." },
+        { "id": "B", "text": "usar três questionários com as mesmas perguntas." },
+        { "id": "C", "text": "aceitar a média como solução de toda divergência." },
+        { "id": "D", "text": "restringir a coleta aos três níveis hierárquicos superiores." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Triangulação confronta evidências distintas; ela não exige exatamente três fontes nem corrige automaticamente dados inválidos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3053",
+      "revision": 1,
+      "prompt": "A observação direta como método de LNT",
+      "options": [
+        { "id": "A", "text": "dispensa critérios de registro por ocorrer no trabalho real." },
+        { "id": "B", "text": "mede necessariamente a causa da lacuna observada." },
+        { "id": "C", "text": "permite examinar comportamento no contexto, mas pode ter custo e efeito do observador." },
+        { "id": "D", "text": "é adequada apenas para tarefas exclusivamente intelectuais." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Observação aproxima o diagnóstico da execução real, mas requer critérios e pode influenciar o comportamento ou demandar recursos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3054",
+      "revision": 1,
+      "prompt": "O uso de questionários para levantar necessidades apresenta como combinação típica",
+      "options": [
+        { "id": "A", "text": "alta profundidade causal e ausência de viés de resposta." },
+        { "id": "B", "text": "observação direta e custo elevado por respondente." },
+        { "id": "C", "text": "prova de transferência e baixa padronização." },
+        { "id": "D", "text": "amplo alcance e padronização, com risco de respostas superficiais ou centradas em cursos desejados." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Questionários favorecem escala e comparação, mas podem captar preferências ou percepções pouco aprofundadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3055",
+      "revision": 1,
+      "prompt": "Um bom resultado em teste ou simulação anterior à capacitação",
+      "options": [
+        { "id": "A", "text": "comprova que o desempenho no trabalho será equivalente." },
+        { "id": "B", "text": "informa repertório em condição controlada, sem provar transferência ao trabalho." },
+        { "id": "C", "text": "torna desnecessária a análise da tarefa." },
+        { "id": "D", "text": "mede reação favorável à ação planejada." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Teste e simulação fornecem evidência de repertório sob condições específicas; aplicação sustentada requer avaliação no trabalho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3056",
+      "revision": 1,
+      "prompt": "Antes de prescrever treinamento para uma lacuna, é necessário",
+      "options": [
+        { "id": "A", "text": "calcular o ROI esperado independentemente da causa." },
+        { "id": "B", "text": "confirmar apenas a disponibilidade orçamentária." },
+        { "id": "C", "text": "investigar conhecimento, habilidade, clareza, recursos, processo, incentivos e oportunidade." },
+        { "id": "D", "text": "atribuir o resultado à motivação individual." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Diagnóstico causal distingue lacunas educacionais de barreiras de gestão, processo, recurso ou contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3057",
+      "revision": 1,
+      "prompt": "Uma equipe conhece o procedimento, mas o sistema não disponibiliza o campo obrigatório. A intervenção principal deve",
+      "options": [
+        { "id": "A", "text": "aumentar a carga horária do treinamento." },
+        { "id": "B", "text": "repetir a avaliação de aprendizagem." },
+        { "id": "C", "text": "premiar quem contornar informalmente o sistema." },
+        { "id": "D", "text": "corrigir a barreira tecnológica ou processual, sem tratar o problema como simples falta de capacitação." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Conhecimento não supera ferramenta incompatível; a causa não educacional exige mudança no sistema ou no processo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3058",
+      "revision": 1,
+      "prompt": "Quando uma lacuna combina desconhecimento do procedimento e fluxo de trabalho ambíguo, recomenda-se",
+      "options": [
+        { "id": "A", "text": "adotar apenas a solução de menor custo." },
+        { "id": "B", "text": "combinar ação educacional com revisão do fluxo e dos apoios necessários." },
+        { "id": "C", "text": "escolher entre capacitação e processo, pois intervenções não podem coexistir." },
+        { "id": "D", "text": "aguardar a avaliação anual para identificar responsáveis." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Causas múltiplas justificam solução combinada, alinhando aprendizagem e condições organizacionais de desempenho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3059",
+      "revision": 1,
+      "prompt": "A priorização de necessidades de desenvolvimento pode considerar",
+      "options": [
+        { "id": "A", "text": "somente o número de pessoas interessadas." },
+        { "id": "B", "text": "alinhamento, risco, criticidade, urgência, alcance, custo, viabilidade e impacto potencial." },
+        { "id": "C", "text": "apenas lacunas já manifestadas, excluindo necessidades futuras." },
+        { "id": "D", "text": "exclusivamente o menor custo por participante." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Priorização combina relevância institucional, risco e condições de intervenção, incluindo necessidades atuais e futuras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3060",
+      "revision": 1,
+      "prompt": "Uma necessidade de capacitação está descrita de forma mais útil quando registra",
+      "options": [
+        { "id": "A", "text": "o desempenho necessário, o contexto e a entrega esperada, antes de fixar o nome do curso." },
+        { "id": "B", "text": "apenas o tema mais solicitado pelos servidores." },
+        { "id": "C", "text": "a empresa fornecedora preferida." },
+        { "id": "D", "text": "somente a quantidade de vagas e a carga horária." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Descrever a necessidade como desempenho observável evita confundir problema com solução previamente escolhida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3061",
+      "revision": 1,
+      "prompt": "Na programação de uma ação de capacitação, devem ser articulados",
+      "options": [
+        { "id": "A", "text": "somente conteúdo, carga horária e instrutor." },
+        { "id": "B", "text": "necessidade, público, objetivos, métodos, recursos, acessibilidade, avaliação e transferência." },
+        { "id": "C", "text": "tema e modalidade, independentemente do público." },
+        { "id": "D", "text": "apenas cronograma, orçamento e lista de presença." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Programação traduz o diagnóstico em solução coerente e executável, incluindo condições de aplicação e avaliação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3062",
+      "revision": 1,
+      "prompt": "Um objetivo instrucional bem formulado tende a explicitar",
+      "options": [
+        { "id": "A", "text": "a satisfação esperada do participante." },
+        { "id": "B", "text": "o nome do conteúdo e a duração da aula." },
+        { "id": "C", "text": "comportamento observável, condição de execução e critério de qualidade." },
+        { "id": "D", "text": "o currículo do facilitador e o formato do certificado." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Comportamento, condição e critério tornam verificável o resultado de aprendizagem pretendido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3063",
+      "revision": 1,
+      "prompt": "A formulação “compreender o procedimento” é insuficiente como objetivo quando",
+      "options": [
+        { "id": "A", "text": "não indica qual desempenho evidenciará a compreensão nem o padrão esperado." },
+        { "id": "B", "text": "o curso possui avaliação formativa." },
+        { "id": "C", "text": "a turma já conhece parte do conteúdo." },
+        { "id": "D", "text": "a modalidade é presencial." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Verbo mental vago precisa ser traduzido em ação observável e critério para orientar ensino e avaliação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3064",
+      "revision": 1,
+      "prompt": "Para desenvolver julgamento em situações complexas, tende a ser adequado utilizar",
+      "options": [
+        { "id": "A", "text": "exposição seguida apenas de teste de recordação dos conceitos." },
+        { "id": "B", "text": "estudo de caso ou resolução de problemas com justificativa." },
+        { "id": "C", "text": "demonstração passo a passo de um procedimento inteiramente padronizado." },
+        { "id": "D", "text": "simulação sem critérios de decisão, feedback ou discussão posterior." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Casos e problemas exigem análise, decisão e justificativa, aproximando o método do objetivo cognitivo complexo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3065",
+      "revision": 1,
+      "prompt": "Para ensinar a execução de um procedimento técnico, uma combinação coerente é",
+      "options": [
+        { "id": "A", "text": "palestra motivacional e pesquisa de reação." },
+        { "id": "B", "text": "leitura livre sem demonstração nem feedback." },
+        { "id": "C", "text": "debate sobre preferências de modalidade." },
+        { "id": "D", "text": "demonstração, prática ou simulação e feedback sobre o desempenho." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Habilidade procedimental requer oportunidade de observar, praticar e receber informação corretiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3066",
+      "revision": 1,
+      "prompt": "Presencial, remoto síncrono, assíncrono e híbrido são principalmente",
+      "options": [
+        { "id": "A", "text": "níveis de avaliação de resultados." },
+        { "id": "B", "text": "modalidades cuja adequação depende do objetivo, acesso, interação, prática e suporte." },
+        { "id": "C", "text": "métodos que garantem, por si, transferência." },
+        { "id": "D", "text": "critérios de priorização de necessidades." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Modalidade é forma de oferta; não possui qualidade intrínseca independente do desenho e das condições. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3067",
+      "revision": 1,
+      "prompt": "Mentoria e aprendizagem no trabalho são especialmente úteis quando se pretende",
+      "options": [
+        { "id": "A", "text": "eliminar a necessidade de prática." },
+        { "id": "B", "text": "substituir todo conteúdo conceitual por convivência informal." },
+        { "id": "C", "text": "restringir o desenvolvimento ao ambiente de sala de aula." },
+        { "id": "D", "text": "apoiar desenvolvimento contextualizado e aplicação em situações reais." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Mentoria e aprendizagem no trabalho conectam orientação, experiência e aplicação ao contexto de atuação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3068",
+      "revision": 1,
+      "prompt": "No modelo ADDIE, a fase Analysis abrange",
+      "options": [
+        { "id": "A", "text": "somente a correção do material já ofertado." },
+        { "id": "B", "text": "apenas a escolha da plataforma tecnológica." },
+        { "id": "C", "text": "necessidade, público, tarefas, contexto e restrições." },
+        { "id": "D", "text": "exclusivamente a mensuração do ROI." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A análise fundamenta o desenho ao examinar problema, participantes, trabalho e condições da solução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3069",
+      "revision": 1,
+      "prompt": "Na fase Design do ADDIE, definem-se principalmente",
+      "options": [
+        { "id": "A", "text": "contratos e inscrições, sem tratar objetivos." },
+        { "id": "B", "text": "objetivos, sequência, métodos, atividades e estratégia de avaliação." },
+        { "id": "C", "text": "apenas os resultados organizacionais já alcançados." },
+        { "id": "D", "text": "somente as causas não educacionais da lacuna." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Design transforma a análise em arquitetura pedagógica e avaliativa antes da produção dos recursos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3070",
+      "revision": 1,
+      "prompt": "A fase Development do ADDIE concentra-se em",
+      "options": [
+        { "id": "A", "text": "autorizar progressões funcionais." },
+        { "id": "B", "text": "medir comportamento no trabalho antes de produzir a ação." },
+        { "id": "C", "text": "produzir e testar materiais, atividades e instrumentos." },
+        { "id": "D", "text": "identificar a missão institucional." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Development materializa o desenho em recursos, atividades e instrumentos que serão implementados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3071",
+      "revision": 1,
+      "prompt": "No ADDIE, Implementation corresponde",
+      "options": [
+        { "id": "A", "text": "à preparação e oferta da solução aos participantes." },
+        { "id": "B", "text": "à definição exclusiva da estratégia institucional." },
+        { "id": "C", "text": "ao cálculo obrigatório de impacto financeiro." },
+        { "id": "D", "text": "à descrição inicial da lacuna." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Implementation abrange colocar a solução em funcionamento, incluindo preparação, ambiente, equipe e oferta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3072",
+      "revision": 1,
+      "prompt": "A Evaluation no ADDIE",
+      "options": [
+        { "id": "A", "text": "ocorre apenas após o encerramento da ação." },
+        { "id": "B", "text": "mede somente a satisfação dos participantes." },
+        { "id": "C", "text": "transforma o ADDIE em modelo exclusivo de impacto." },
+        { "id": "D", "text": "pode ser formativa e somativa e retroalimentar fases anteriores." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "ADDIE admite avaliação ao longo do desenvolvimento e ao final, em um processo iterativo de melhoria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3073",
+      "revision": 1,
+      "prompt": "A execução de uma ação de capacitação inclui",
+      "options": [
+        { "id": "A", "text": "preparar ambiente e facilitadores, assegurar acessibilidade, oferecer suporte e acompanhar a realização." },
+        { "id": "B", "text": "apenas ministrar o conteúdo no horário previsto." },
+        { "id": "C", "text": "substituir objetivos por ajustes improvisados durante a oferta." },
+        { "id": "D", "text": "presumir que tecnologia e materiais funcionarão sem teste." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Execução compreende condições pedagógicas, operacionais, tecnológicas e de acesso, além da facilitação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3074",
+      "revision": 1,
+      "prompt": "A frequência e a emissão de certificado demonstram diretamente",
+      "options": [
+        { "id": "A", "text": "mudança sustentada no comportamento de trabalho." },
+        { "id": "B", "text": "participação e cumprimento de condições formais, não necessariamente aprendizagem ou transferência." },
+        { "id": "C", "text": "resultado organizacional atribuível à ação." },
+        { "id": "D", "text": "eliminação da lacuna que motivou o programa." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Registros de presença e certificação dizem respeito à execução; resultados exigem outras evidências. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3075",
+      "revision": 1,
+      "prompt": "Transferência de aprendizagem é",
+      "options": [
+        { "id": "A", "text": "a satisfação imediata com o curso." },
+        { "id": "B", "text": "a obtenção de nota mínima em teste." },
+        { "id": "C", "text": "a aplicação e manutenção, no trabalho, do repertório aprendido." },
+        { "id": "D", "text": "a divulgação do material para outras unidades." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Transferência ocorre no ambiente de trabalho e envolve uso sustentado, não apenas reação ou aprendizagem em condição controlada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3076",
+      "revision": 1,
+      "prompt": "Favorece a transferência da aprendizagem",
+      "options": [
+        { "id": "A", "text": "a disponibilização de material de apoio sem oportunidade real de uso." },
+        { "id": "B", "text": "o compromisso do participante sem envolvimento da chefia nem ajuste de incentivos." },
+        { "id": "C", "text": "a repetição da avaliação de reação semanas depois da ação." },
+        { "id": "D", "text": "o apoio da chefia, a oportunidade de aplicar, os recursos e o feedback pós-ação." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Aplicação depende tanto da aprendizagem quanto do suporte, dos recursos e das oportunidades no ambiente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3077",
+      "revision": 1,
+      "prompt": "Se o participante aprende em simulação, mas a chefia proíbe o novo procedimento, conclui-se que",
+      "options": [
+        { "id": "A", "text": "a aprendizagem necessariamente foi insuficiente." },
+        { "id": "B", "text": "a modalidade escolhida foi a única causa da falha." },
+        { "id": "C", "text": "existe barreira no ambiente de transferência que deve ser tratada." },
+        { "id": "D", "text": "a reação ao curso determina o comportamento futuro." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Mesmo com aprendizagem, falta de apoio ou autorização pode impedir a aplicação no trabalho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3078",
+      "revision": 1,
+      "prompt": "A avaliação diagnóstica é usada predominantemente para",
+      "options": [
+        { "id": "A", "text": "identificar repertório prévio, lacunas e condições de entrada antes da ação." },
+        { "id": "B", "text": "certificar o resultado final sem linha de base." },
+        { "id": "C", "text": "medir somente impacto organizacional de longo prazo." },
+        { "id": "D", "text": "calcular benefícios monetários líquidos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A função diagnóstica antecede a ação e informa ponto de partida, perfil e necessidades dos participantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3079",
+      "revision": 1,
+      "prompt": "A avaliação formativa caracteriza-se por",
+      "options": [
+        { "id": "A", "text": "ocorrer somente para prestação de contas final." },
+        { "id": "B", "text": "acompanhar o processo e orientar ajustes enquanto a ação está em curso." },
+        { "id": "C", "text": "substituir os objetivos por opiniões dos participantes." },
+        { "id": "D", "text": "medir exclusivamente retorno financeiro." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A avaliação formativa fornece feedback durante o processo para corrigir desenho, facilitação ou apoio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3080",
+      "revision": 1,
+      "prompt": "A avaliação somativa tem como função predominante",
+      "options": [
+        { "id": "A", "text": "identificar apenas preferências antes do curso." },
+        { "id": "B", "text": "ajustar cada atividade enquanto ela ocorre." },
+        { "id": "C", "text": "sintetizar evidências ao final para julgamento, certificação ou decisão." },
+        { "id": "D", "text": "substituir o acompanhamento da transferência." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A função somativa consolida resultados ao término, embora não precise limitar toda a avaliação ao fim. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3081",
+      "revision": 1,
+      "prompt": "A avaliação diagnóstica aplicada a uma turma difere do LNT completo porque",
+      "options": [
+        { "id": "A", "text": "o LNT não utiliza dados individuais." },
+        { "id": "B", "text": "a avaliação diagnóstica sempre ocorre após o curso." },
+        { "id": "C", "text": "o LNT é apenas um teste de conhecimentos." },
+        { "id": "D", "text": "o LNT também examina organização, trabalho, contexto e causas da necessidade." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O diagnóstico de entrada da turma é mais restrito que a análise multinível e causal de necessidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3082",
+      "revision": 1,
+      "prompt": "Um plano de avaliação deve ser elaborado preferencialmente",
+      "options": [
+        { "id": "A", "text": "antes da execução, com perguntas, linha de base, indicadores, fontes, momentos e uso dos dados." },
+        { "id": "B", "text": "após conhecer os resultados, para selecionar apenas indicadores favoráveis." },
+        { "id": "C", "text": "sem relação com os objetivos instrucionais." },
+        { "id": "D", "text": "somente quando houver obrigação de calcular ROI." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Planejamento prévio assegura indicadores, linha de base e instrumentos compatíveis com as decisões pretendidas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3083",
+      "revision": 1,
+      "prompt": "No modelo clássico de Kirkpatrick, o nível reação avalia",
+      "options": [
+        { "id": "A", "text": "impactos sociais de longo prazo." },
+        { "id": "B", "text": "percepção de relevância, engajamento e condições da experiência." },
+        { "id": "C", "text": "aplicação sustentada no trabalho." },
+        { "id": "D", "text": "aquisição objetiva de conhecimentos e habilidades." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reação é o primeiro nível e trata da experiência percebida; não demonstra, por si, aprendizagem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3084",
+      "revision": 1,
+      "prompt": "No segundo nível de Kirkpatrick, examina-se",
+      "options": [
+        { "id": "A", "text": "a satisfação com instalações e instrutor." },
+        { "id": "B", "text": "o retorno monetário líquido." },
+        { "id": "C", "text": "a aquisição de conhecimentos, habilidades, atitudes ou outros resultados de aprendizagem." },
+        { "id": "D", "text": "a estratégia institucional anterior ao programa." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O nível aprendizagem verifica mudança de repertório, distinta da reação e da aplicação no trabalho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3085",
+      "revision": 1,
+      "prompt": "O nível comportamento de Kirkpatrick procura verificar",
+      "options": [
+        { "id": "A", "text": "se os participantes gostaram da modalidade." },
+        { "id": "B", "text": "se o material foi entregue no prazo." },
+        { "id": "C", "text": "se houve redução global de custos, qualquer que seja a causa." },
+        { "id": "D", "text": "se os comportamentos críticos aprendidos são aplicados no ambiente de trabalho." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Comportamento corresponde à transferência para o trabalho e depende também do ambiente de desempenho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3086",
+      "revision": 1,
+      "prompt": "No nível resultados de Kirkpatrick, o foco recai sobre",
+      "options": [
+        { "id": "A", "text": "efeitos organizacionais pretendidos associados ao programa." },
+        { "id": "B", "text": "presença e pontualidade na ação." },
+        { "id": "C", "text": "preferências individuais por cursos futuros." },
+        { "id": "D", "text": "produção dos materiais instrucionais." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O quarto nível examina consequências organizacionais, com cautela quanto à atribuição causal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3087",
+      "revision": 1,
+      "prompt": "Uma reação muito favorável dos participantes permite concluir que",
+      "options": [
+        { "id": "A", "text": "a aprendizagem e a transferência foram comprovadas." },
+        { "id": "B", "text": "houve necessariamente resultado organizacional." },
+        { "id": "C", "text": "a ação foi percebida positivamente, mas outros níveis exigem evidências próprias." },
+        { "id": "D", "text": "o ROI é positivo." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os níveis não se confundem: satisfação não comprova aprendizagem, aplicação ou resultado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3088",
+      "revision": 1,
+      "prompt": "Após uma capacitação, a qualidade melhora ao mesmo tempo que novo sistema automatiza parte do trabalho. A avaliação deve",
+      "options": [
+        { "id": "A", "text": "atribuir toda a melhora ao curso por ter ocorrido depois dele." },
+        { "id": "B", "text": "ignorar o resultado porque existem múltiplas causas." },
+        { "id": "C", "text": "considerar explicações alternativas e tentar estimar a contribuição da capacitação." },
+        { "id": "D", "text": "usar apenas a reação dos participantes para resolver a atribuição." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Sequência temporal e correlação não isolam causalidade; mudanças concorrentes precisam ser consideradas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3089",
+      "revision": 1,
+      "prompt": "No modelo CIPP, Context refere-se a",
+      "options": [
+        { "id": "A", "text": "necessidades, problemas, oportunidades e prioridades que justificam o programa." },
+        { "id": "B", "text": "somente materiais e instrutores contratados." },
+        { "id": "C", "text": "apenas a execução das atividades planejadas." },
+        { "id": "D", "text": "exclusivamente resultados finais monetizados." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Context sustenta decisões sobre necessidades e objetivos, antes da escolha dos recursos e do acompanhamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3090",
+      "revision": 1,
+      "prompt": "No CIPP, a correspondência correta é",
+      "options": [
+        { "id": "A", "text": "Input = reação; Process = aprendizagem; Product = comportamento." },
+        { "id": "B", "text": "Input = estratégias e recursos; Process = implementação; Product = resultados e efeitos." },
+        { "id": "C", "text": "Input = impacto; Process = contexto; Product = orçamento." },
+        { "id": "D", "text": "Input = certificação; Process = ROI; Product = modalidade." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Input examina alternativas e plano, Process acompanha a implementação e Product julga resultados e efeitos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3091",
+      "revision": 1,
+      "prompt": "O modelo CIPP evidencia que a avaliação",
+      "options": [
+        { "id": "A", "text": "deve ocorrer apenas quando todos os produtos estiverem concluídos." },
+        { "id": "B", "text": "é incompatível com ações de capacitação." },
+        { "id": "C", "text": "acompanha contexto, insumos, processo e produto para apoiar decisão e melhoria." },
+        { "id": "D", "text": "se limita à satisfação do participante." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "CIPP distribui avaliação por todo o programa e serve à melhoria e à responsabilização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3092",
+      "revision": 1,
+      "prompt": "Na abordagem de Phillips, o ROI percentual é calculado pela razão entre",
+      "options": [
+        { "id": "A", "text": "benefícios totais e número de participantes." },
+        { "id": "B", "text": "custos do programa e benefícios brutos." },
+        { "id": "C", "text": "reação favorável e aprendizagem demonstrada." },
+        { "id": "D", "text": "benefícios monetários líquidos e custos do programa, multiplicada por cem." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Benefícios líquidos são benefícios monetários menos custos; sua divisão pelos custos, vezes cem, produz o ROI percentual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3093",
+      "revision": 1,
+      "prompt": "Uma avaliação responsável de ROI requer",
+      "options": [
+        { "id": "A", "text": "custos completos, monetização defensável e tentativa de isolar a contribuição do programa." },
+        { "id": "B", "text": "atribuir todo benefício posterior à capacitação." },
+        { "id": "C", "text": "calcular retorno para toda ação, mesmo sem benefício monetizável." },
+        { "id": "D", "text": "excluir custos indiretos para simplificar o resultado." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "ROI útil depende de custos e benefícios consistentes e de cautela na atribuição, não de número produzido a qualquer preço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3094",
+      "revision": 1,
+      "prompt": "É correto afirmar que o ROI",
+      "options": [
+        { "id": "A", "text": "é o quinto nível original do modelo clássico de Kirkpatrick." },
+        { "id": "B", "text": "substitui a análise de legalidade e equidade no setor público." },
+        { "id": "C", "text": "deve ser estimado mesmo quando a monetização seria artificial." },
+        { "id": "D", "text": "é uma extensão associada a Phillips e não precisa ser calculado para toda ação." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Phillips acrescenta a dimensão financeira; o Kirkpatrick clássico possui quatro níveis e nem toda ação comporta ROI válido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3095",
+      "revision": 1,
+      "prompt": "Em avaliação de capacitação, eficiência refere-se",
+      "options": [
+        { "id": "A", "text": "à relação entre recursos empregados e produtos gerados." },
+        { "id": "B", "text": "ao alcance integral dos objetivos, sem considerar recursos." },
+        { "id": "C", "text": "à mudança social ou institucional de longo prazo." },
+        { "id": "D", "text": "à satisfação média dos participantes." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Eficiência examina uso dos meios e relação insumo-produto; não equivale a alcance de objetivo ou impacto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3096",
+      "revision": 1,
+      "prompt": "Uma ação alcançou a meta de aprendizagem definida, embora tenha custado mais que o previsto. Ela foi",
+      "options": [
+        { "id": "A", "text": "necessariamente efetiva, pois toda aprendizagem muda a instituição." },
+        { "id": "B", "text": "eficaz quanto ao objetivo, sem que isso prove eficiência." },
+        { "id": "C", "text": "ineficaz, porque eficácia mede apenas custo." },
+        { "id": "D", "text": "eficiente, porque atingiu a meta independentemente dos recursos." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Eficácia é alcance do objetivo; custo acima do previsto pode afetar eficiência, e impacto ainda exige outra evidência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3097",
+      "revision": 1,
+      "prompt": "A efetividade de uma capacitação pública está relacionada",
+      "options": [
+        { "id": "A", "text": "somente à redução do custo por vaga." },
+        { "id": "B", "text": "apenas à aprovação na avaliação final." },
+        { "id": "C", "text": "à mudança relevante produzida na realidade institucional ou no problema público." },
+        { "id": "D", "text": "ao cumprimento da carga horária planejada." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Efetividade examina efeitos concretos na realidade, além dos produtos, da aprendizagem e do alcance imediato de metas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3098",
+      "revision": 1,
+      "prompt": "Ao usar o Decreto nº 9.991/2019 e a PNDP como referência para estudar capacitação no TCE-MA, é correto",
+      "options": [
+        { "id": "A", "text": "transpor o PDP e o relatório anual porque o alinhamento estratégico torna a norma nacional." },
+        { "id": "B", "text": "ignorar o decreto por completo, pois norma federal não pode oferecer referência técnica a órgão estadual." },
+        { "id": "C", "text": "aplicar suas regras supletivamente sempre que não houver ato interno do Tribunal." },
+        { "id": "D", "text": "distinguir a referência federal da disciplina concreta, que depende do regime estadual e dos atos internos aplicáveis." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Decreto nº 9.991/2019 alcança a administração pública federal direta, autárquica e fundacional; não incide automaticamente em tribunal estadual. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
