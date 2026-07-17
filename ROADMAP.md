@@ -84,7 +84,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.6. Regência verbal e nominal.
 
-##### [>] Em progresso Assunto 014 - Item 5, subitem 5.7: Crase.
+##### [R] Em revisão Assunto 014 - Item 5, subitem 5.7: Crase.
 
 - 5.7. Emprego do sinal indicativo de crase.
 
