@@ -64,7 +64,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.1. Emprego de advérbio, preposição, conjunção e interjeição.
 
-##### [R] Em revisão Assunto 009 - Item 5, subitem 5.2: Coordenação entre orações e termos da oração.
+##### [x] Concluído Assunto 009 - Item 5, subitem 5.2: Coordenação entre orações e termos da oração.
 
 - 5.2. Relações de coordenação entre orações e entre termos da oração.
 
