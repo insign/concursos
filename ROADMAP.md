@@ -97,7 +97,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 6.1. Significação das palavras.
 - 6.2. Substituição de palavras ou de trechos de texto.
 
-##### [>] Em progresso Assunto 017 - Item 6, subitem 6.3: Reorganização da estrutura de orações e períodos.
+##### [R] Em revisão Assunto 017 - Item 6, subitem 6.3: Reorganização da estrutura de orações e períodos.
 
 - 6.3. Reorganização da estrutura de orações e de períodos do texto.
 
