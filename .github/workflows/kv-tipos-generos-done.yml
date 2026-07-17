@@ -1,0 +1,51 @@
+name: KV tipos e generos done
+
+on:
+  push:
+    branches:
+      - agent/kv-tipos-generos-done
+
+permissions:
+  contents: write
+
+jobs:
+  update-kv:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/kv-tipos-generos-done
+
+      - name: Mark topic done and verify
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--tipos-generos-textuais' \
+            -H 'Content-Type: application/json' \
+            --data '{"path":"/concursos/tce-ma-2026-analista-administracao/tipos-generos-textuais/","status":"done"}' \
+            > /tmp/kv-put.json
+          curl --fail-with-body --silent --show-error \
+            'https://kv.helio.me/adm' \
+            > kv-adm-after-done.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload = json.loads(Path('kv-adm-after-done.json').read_text(encoding='utf-8'))
+          document = payload.get('json', payload)
+          key = 'tce-ma-2026-analista-administracao--tipos-generos-textuais'
+          assert document['links'][key]['status'] == 'done', document['links'][key]
+          PY
+
+      - name: Commit verification and remove workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm .github/workflows/kv-tipos-generos-done.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add kv-adm-after-done.json .github/workflows/kv-tipos-generos-done.yml
+          git commit -m 'chore: verify tipos e generos done in kv'
+          git push origin HEAD:agent/kv-tipos-generos-done
