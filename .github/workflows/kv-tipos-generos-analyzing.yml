@@ -1,0 +1,23 @@
+name: KV tipos e generos analyzing
+
+on:
+  push:
+    branches:
+      - agent/kv-tipos-generos-analyzing
+
+permissions:
+  contents: read
+
+jobs:
+  update-kv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark topic as analyzing
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--tipos-generos-textuais' \
+            -H 'Content-Type: application/json' \
+            --data '{"path":"/concursos/tce-ma-2026-analista-administracao/tipos-generos-textuais/","status":"analyzing"}'
