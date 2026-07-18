@@ -1,99 +1,186 @@
-# Verbo como classe de palavras
+# Verbo como classe de palavras — revisão rápida
 
-## Essencial
+## Núcleo
 
-- Verbo é classe variável que exprime processo: ação, estado, mudança de estado ou fenômeno natural.
-- Não reduza verbo a ação física: `ser`, `estar`, `parecer` e `chover` são verbos.
-- A classificação depende da ocorrência: um verbo pode ser irregular, auxiliar e transitivo ao mesmo tempo, sob critérios diferentes.
+Verbo pode expressar ação, estado, mudança, processo ou fenômeno. É variável em:
+
+- pessoa;
+- número;
+- tempo;
+- modo;
+- voz.
+
+## Estrutura
+
+| Parte | Exemplo em `cantávamos` |
+| --- | --- |
+| radical | `cant-` |
+| vogal temática | `-a-` |
+| tema | `canta-` |
+| desinência modo-temporal | `-va-` |
+| desinência número-pessoal | `-mos` |
+
+- Rizotônica: tonicidade no radical — `canto`.
+- Arrizotônica: tonicidade fora do radical — `cantamos`.
 
 ## Conjugações
 
-| Conjugação | Infinitivo | Exemplos |
+- 1ª: `-ar`;
+- 2ª: `-er` e `pôr`/derivados;
+- 3ª: `-ir`.
+
+`Pôr` não cria quarta conjugação.
+
+## Formas finitas e não finitas
+
+- Finita: pessoa, número, tempo e modo — `analisávamos`.
+- Não finita: infinitivo, gerúndio ou particípio.
+
+| Forma | Exemplo | Valor frequente |
 | --- | --- | --- |
-| 1ª | `-ar` | `falar`, `estudar` |
-| 2ª | `-er` | `vender`, `fazer` |
-| 3ª | `-ir` | `partir`, `decidir` |
+| infinitivo | `analisar` | processo em abstrato |
+| gerúndio | `analisando` | curso, simultaneidade ou modo |
+| particípio | `analisado` | resultado, tempo composto ou passiva |
 
-- `pôr` e derivados pertencem tradicionalmente à 2ª conjugação.
+## Infinitivo pessoal
 
-## Formas nominais
+### Flexão esperada
 
-| Forma | Marca | Alerta |
-| --- | --- | --- |
-| Infinitivo | `estudar`, `vender`, `partir` | pode ser pessoal ou impessoal; pode substantivar-se |
-| Gerúndio | `estudando` | processo, duração ou simultaneidade; não é erro por si só |
-| Particípio | `estudado`, `vendido` | ação concluída/estado; pode ser adjetival |
+- sujeito próprio plural;
+- contraste de agentes;
+- necessidade de clareza.
 
-- Infinitivo pessoal flexionado: `estudares`, `estudarmos`, `estudarem`.
-- 1ª e 3ª pessoas do singular coincidem com o impessoal: `para eu estudar`, `para ele estudar` × `é preciso estudar`.
-- A forma isolada `estudar` não decide a classificação; procure sujeito próprio e contexto.
-- `O estudar exige constância`: infinitivo substantivado.
-- Particípios irregulares: `aberto`, `escrito`, `feito`, `visto`, `posto`.
-- Particípio irregular não implica verbo irregular.
-- Gerundismo: avalie o contexto; processo em curso justifica o gerúndio.
+`Antes de os servidores responderem.`
+
+### Flexão facultativa
+
+Depende de foco e estrutura:
+
+`a capacidade das pessoas de ter/terem acesso`.
+
+### Flexão evitada
+
+Em locução com o mesmo sujeito:
+
+`os servidores devem responder`, não `devem responderem`.
 
 ## Classificações
 
-| Tipo | Critério |
+- Regular: segue o paradigma.
+- Irregular: altera radical ou terminações.
+- Anômalo: alterações profundas, conforme a gramática.
+- Defectivo: paradigma incompleto no uso normativo.
+- Abundante: mais de uma forma equivalente.
+- Auxiliar: participa de tempo, voz, aspecto ou modalidade.
+- Principal: concentra o conteúdo lexical.
+- Pronominal: ocorre com pronome integrante.
+- Unipessoal: usado sobretudo na 3ª pessoa, mas possui sujeito.
+
+Classificações podem coexistir.
+
+## Pronominal × reflexivo
+
+- `Ele se arrependeu.` — verbo pronominal.
+- `Ele se feriu.` — reflexivo.
+- Teste reflexivo: `a si mesmo`.
+- Verbo pronominal não é automaticamente reflexivo.
+
+## Auxiliares
+
+| Construção | Valor |
 | --- | --- |
-| Regular | segue paradigma da conjugação |
-| Irregular | altera radical/desinência em relação ao paradigma |
-| Anômalo | irregularidade muito intensa: `ser`, `ir` |
-| Defectivo | paradigma incompleto na tradição |
-| Abundante | duas ou mais formas equivalentes, sobretudo particípios |
-| Auxiliar | forma locução e recebe normalmente a flexão |
-| Principal | leva o conteúdo lexical da locução |
+| `ter/haver + particípio` | tempo composto |
+| `ser + particípio` | passiva |
+| `estar + gerúndio` | progressividade |
+| `ir + infinitivo` | futuro/iminência |
+| `dever + infinitivo` | obrigação/probabilidade |
+| `poder + infinitivo` | possibilidade/permissão/capacidade |
+| `haver de + infinitivo` | futuro/modalidade |
+| `vir + gerúndio` | desenvolvimento |
 
-- Preferência tradicional: regular com `ter/haver`; irregular com `ser/estar`. Não é regra absoluta.
+Nem toda sequência de verbos é locução.
 
-## Locuções
+## Vozes
 
-| Construção | Análise |
+- Ativa: sujeito pratica.
+- Passiva analítica: `ser + particípio`.
+- Passiva sintética: VTD/VTDI + `se`.
+- Reflexiva: sujeito age sobre si.
+- Recíproca: sujeitos agem uns sobre os outros.
+
+## Passiva × resultado
+
+- `foi aprovado` — evento passivo;
+- `está aprovado` — estado resultante;
+- `tinha sido aprovado` — passiva composta;
+- `tinha aprovado` — ativa em tempo composto.
+
+## Valores de `se`
+
+| Valor | Exemplo |
 | --- | --- |
-| `tinha estudado` | auxiliar + particípio principal |
-| `estava estudando` | auxiliar + gerúndio principal |
-| `deve estudar` | auxiliar + infinitivo principal |
-| `está cansada` | `estar` é verbo de ligação |
-| `está estudando` | `estar` é auxiliar |
+| apassivador | `Publicaram-se os resultados.` |
+| indeterminador | `Precisa-se de servidores.` |
+| reflexivo | `Ela se feriu.` |
+| recíproco | `Eles se cumprimentaram.` |
+| integrante | `Ele se arrependeu.` |
+| realce/expletivo | depende da construção |
 
-- `começou a estudar` pode ser descrito como perífrase com semiauxiliar; a terminologia varia entre gramáticas.
-- `Os candidatos haviam estudado`: `haver` auxiliar e pessoal.
-- `Havia candidatos`: `haver` existencial e impessoal.
+### Testes
 
-## Vozes e valores do `se`
+- Admite `ser + particípio`? Possível passiva.
+- Admite `a si mesmo`? Possível reflexivo.
+- Verbo exige preposição e fica no singular? Possível indeterminação.
+- Pronome integra o verbo? Possível pronominal.
 
-| Construção | Análise |
+## Transitividade
+
+É propriedade da ocorrência:
+
+- `assistir ao julgamento` — VTI;
+- `assistir o paciente` — VTD;
+- `aspirar ao cargo` — VTI;
+- `aspirar o ar` — VTD.
+
+Passiva exige objeto direto na ativa.
+
+## Impessoais e próximos
+
+| Construção | Regra |
 | --- | --- |
-| `A comissão aprovou o relatório` | ativa |
-| `O relatório foi aprovado` | passiva analítica |
-| `Aprovam-se relatórios` | passiva sintética; `Relatórios são aprovados` |
-| `Ela feriu a si mesma` | reflexiva |
-| `Eles se cumprimentaram` | recíproca |
+| `há problemas` | `haver` impessoal |
+| `deve haver problemas` | auxiliar no singular |
+| `existem problemas` | pessoal; concorda |
+| `ocorreram problemas` | pessoal; concorda |
+| `faz dois anos` | `fazer` temporal impessoal |
+| `havia estudado` | `haver` auxiliar pessoal |
+| `hão de estudar` | auxiliar modal/futuro |
+| `tem muita gente` | uso corrente; banca pode exigir `há` |
 
-| `se` | Verbo e teste | Concordância |
-| --- | --- | --- |
-| Partícula apassivadora | VTD ou VTDI; admite `ser + particípio`; há sujeito paciente | concorda com o sujeito: `Vendem-se casas` |
-| Índice de indeterminação | VTI, VI ou VL; não há sujeito paciente | 3ª pessoa do singular: `Precisa-se de apoio` |
-| Reflexivo | equivale a `a si mesmo` | concordância normal com o sujeito |
-| Recíproco | ação mútua entre sujeitos | concordância normal com o sujeito |
+## Pegadinhas
 
-- Passiva exige objeto direto passível de virar sujeito paciente.
-- VTDI também admite passiva: `Concederam-se bolsas aos servidores`.
-- Nem todo `se` é apassivador.
-
-## Predicação e impessoais
-
-| Tipo | Exemplo |
+| Afirmação | Julgamento |
 | --- | --- |
-| VTD | `revisou o texto` |
-| VTI | `precisa de tempo` |
-| VTDI | `entregou o relatório à chefia` |
-| VI | `o bebê dormiu` |
-| VL | `a equipe parece confiante` |
+| todo verbo exprime ação | errado |
+| todo `se` com VTD é apassivador | examine a construção |
+| verbo pronominal é sempre reflexivo | errado |
+| verbo unipessoal é impessoal | errado |
+| `haver` é sempre impessoal | errado |
+| `haver de + infinitivo` é existencial | errado |
+| infinitivo sem desinência visível é sempre impessoal | errado |
+| toda sequência de verbos é locução | errado |
+| todo `estar + particípio` equivale a passiva | errado |
+| irregularidade afeta igualmente todo o paradigma | errado |
 
-- Transitividade é contextual: `escreveu o parecer` × `escreve bem`.
-- Impessoais: em regra, `choveu` (sentido próprio), `havia recursos`, `há dois anos`, `faz calor`; ressalva: `São duas horas`.
-- Figurativo pode ter sujeito: `choveram pedidos`.
-- Com principal impessoal: `deve haver candidatos`, `podia fazer meses`.
-- `Existem candidatos`; `haver` existencial fica no singular.
-- Não confunda `haviam estudado` (auxiliar pessoal) com `havia candidatos` (existencial impessoal).
+## Roteiro de prova
+
+1. Localize o verbo e a forma nominal.
+2. Identifique flexão e estrutura.
+3. Verifique sujeito próprio do infinitivo.
+4. Separe auxiliar de verbo lexical.
+5. Teste a passiva.
+6. Classifique o `se`.
+7. Reanalise a transitividade no contexto.
+8. Confira impessoalidade e concordância.
+9. Distinga evento passivo de estado resultante.
+10. Avalie correção e sentido da reescrita.
