@@ -1,4 +1,4 @@
-name: Reserve planejamento e direção in KV
+name: Finalize planejamento e direção in KV
 
 on:
   pull_request:
@@ -9,44 +9,27 @@ permissions:
   contents: read
 
 jobs:
-  reserve-kv:
-    name: Mark planejamento e direção as analyzing
+  finalize-kv:
+    name: Mark planejamento e direção as done
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Inspect current state
-        shell: bash
-        run: |
-          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm-before.json
-          python3 - <<'PY'
-          import json
-          key = 'tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional'
-          with open('/tmp/adm-before.json', encoding='utf-8') as stream:
-              data = json.load(stream)
-          item = data.get('json', {}).get('links', {}).get(key)
-          print('version before:', data.get('version'))
-          print('item before:', item)
-          if isinstance(item, dict) and item.get('status') == 'done':
-              print('ITEM_ALREADY_DONE')
-              raise SystemExit(2)
-          PY
-
-      - name: Mark analyzing
+      - name: Mark done
         shell: bash
         run: |
           curl --fail-with-body --silent --show-error \
             -X PUT \
             -H 'Content-Type: application/json' \
-            --data '{"path":"/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/","status":"analyzing"}' \
-            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional' \
+            --data '"done"' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional%2Fstatus' \
             > /tmp/result.json
           python3 - <<'PY'
           import json
           key = 'tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional'
           expected = {
               'path': '/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/',
-              'status': 'analyzing',
+              'status': 'done',
           }
           with open('/tmp/result.json', encoding='utf-8') as stream:
               data = json.load(stream)
@@ -66,7 +49,7 @@ jobs:
           key = 'tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional'
           expected = {
               'path': '/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/',
-              'status': 'analyzing',
+              'status': 'done',
           }
           with open('/tmp/adm-after.json', encoding='utf-8') as stream:
               data = json.load(stream)
