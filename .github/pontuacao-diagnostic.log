@@ -2,12 +2,13 @@
 .github/pontuacao-bundle.part2 chars= 5000 sha256= e5b3700269d17f1c34b480c96bb2057563bb81b771592821cc504cbf945fa6f5
 .github/pontuacao-bundle.part3 chars= 5000 sha256= bd3d353625386e659dc2d2c023a069be4e60555f497455ffd55cfec18db1c9fd
 .github/pontuacao-bundle.part4 chars= 3312 sha256= b163a2997739424106cf516230a6ac716214d677dbf76f7eec7f356da638dad6
+compressed bytes: 13732 sha256= a907120cc052a83020dbe8aa744babd2100ebd187a2990def9c0919c5a0097f1
 Traceback (most recent call last):
   File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 287, in <module>
     main()
   File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 280, in main
     bundle = load_bundle()
              ^^^^^^^^^^^^^
-  File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 33, in load_bundle
-    raise RuntimeError(f"length mismatch for {path}: {len(segment)}")
-RuntimeError: length mismatch for .github/pontuacao-bundle.part4: 3312
+  File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 46, in load_bundle
+    raise RuntimeError("compressed payload checksum mismatch")
+RuntimeError: compressed payload checksum mismatch
