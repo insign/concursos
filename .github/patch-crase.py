@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import base64
 import bz2
 import copy
 import hashlib
@@ -13,24 +12,17 @@ ROOT = Path(
     "conhecimentos-gerais/lingua-portuguesa/crase"
 )
 BUNDLE_PATH = Path('.github/crase-bundle.b64')
-EXPECTED_PAYLOAD_LEN = 17648
-EXPECTED_PAYLOAD_SHA = 'c725fe848b6e4e9793181e61a05f977d8cf5617d8eadc20f20d6a47e5844d856'
+EXPECTED_COMPRESSED_LEN = 13234
 EXPECTED_COMPRESSED_SHA = '34d8d2b9199a6e2f43bd6203820ca1081bcaa700c7606b746d872bd2edad073c'
 EXPECTED_RAW_SHA = 'c86ec605fec4ebc0a98655fc9bc6898c437a8b83604435e77fca9d8a47a6b9e2'
 LETTERS = list('ABCDE')
 
 
 def load_bundle() -> dict:
-    payload = ''.join(BUNDLE_PATH.read_text(encoding='utf-8').split())
-    payload_sha = hashlib.sha256(payload.encode('utf-8')).hexdigest()
-    print('payload chars:', len(payload), 'sha256=', payload_sha)
-    if len(payload) != EXPECTED_PAYLOAD_LEN or payload_sha != EXPECTED_PAYLOAD_SHA:
-        raise RuntimeError('bundle payload checksum mismatch')
-
-    compressed = base64.b64decode(payload, validate=True)
+    compressed = BUNDLE_PATH.read_bytes()
     compressed_sha = hashlib.sha256(compressed).hexdigest()
     print('compressed bytes:', len(compressed), 'sha256=', compressed_sha)
-    if compressed_sha != EXPECTED_COMPRESSED_SHA:
+    if len(compressed) != EXPECTED_COMPRESSED_LEN or compressed_sha != EXPECTED_COMPRESSED_SHA:
         raise RuntimeError('compressed bundle checksum mismatch')
 
     raw = bz2.decompress(compressed)
