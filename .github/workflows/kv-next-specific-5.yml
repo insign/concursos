@@ -1,4 +1,4 @@
-name: Finalize gestão de resultados in KV
+name: Repair gestão de resultados path in KV
 
 on:
   pull_request:
@@ -9,26 +9,34 @@ permissions:
   contents: read
 
 jobs:
-  finalize-kv:
-    name: Mark gestão de resultados as done
+  repair-kv:
+    name: Persist canonical gestão de resultados link
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Mark done
+      - name: Replace item with canonical path and done status
         shell: bash
         run: |
+          cat > /tmp/payload.json <<'JSON'
+          {
+            "path": "/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-paradigma-cliente/",
+            "status": "done"
+          }
+          JSON
+
           curl --fail-with-body --silent --show-error \
             -X PUT \
             -H 'Content-Type: application/json' \
-            --data '"done"' \
-            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--gestao-resultados-publica-privada-cliente%2Fstatus' \
+            --data @/tmp/payload.json \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--gestao-resultados-publica-privada-cliente' \
             > /tmp/mutation.json
+
           python3 - <<'PY'
           import json
           key = 'tce-ma-2026-analista-administracao--gestao-resultados-publica-privada-cliente'
           expected = {
-              'path': '/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-cliente/',
+              'path': '/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-paradigma-cliente/',
               'status': 'done',
           }
           with open('/tmp/mutation.json', encoding='utf-8') as stream:
@@ -48,7 +56,7 @@ jobs:
           import json
           key = 'tce-ma-2026-analista-administracao--gestao-resultados-publica-privada-cliente'
           expected = {
-              'path': '/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-cliente/',
+              'path': '/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-paradigma-cliente/',
               'status': 'done',
           }
           with open('/tmp/adm-after.json', encoding='utf-8') as stream:
