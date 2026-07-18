@@ -175,7 +175,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 4.5. Tecnologias emergentes no setor público: noções de inteligência artificial aplicada a serviços públicos (IA generativa, chatbots, atendimento automatizado).
 - O item 4.5 é desdobrado nos Assuntos 033 e 034 por núcleo tecnológico, sem repetir o conteúdo: este assunto trata de IA e automação.
 
-##### [>] Em progresso Assunto 034 - Item 4.5, recorte: big data, análise de dados, Internet das coisas e cidades inteligentes.
+##### [R] Em revisão Assunto 034 - Item 4.5, recorte: big data, análise de dados, Internet das coisas e cidades inteligentes.
 
 - 4.5. Noções de big data e análise de dados para políticas públicas; Internet das coisas (IoT) em cidades inteligentes.
 
