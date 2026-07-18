@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Coordenação entre orações e termos da oração
-description: Relações coordenativas, conectores, valores semânticos, pontuação, paralelismo e reescrita na norma-padrão brasileira.
+description: Coordenação de termos e orações, conectores, escopo, paralelismo, pontuação e reescrita em questões de concursos.
 order: 9
 storageId: coordenacao-oracoes-termos
 ---
@@ -23,6 +23,26 @@ Coordenação liga unidades no mesmo nível sintático: palavras, sintagmas, ter
 
 Subordinação ocorre quando uma oração exerce função sintática em outra. Uma ideia de causa ou contraste, sozinha, não define a arquitetura; é preciso verificar a função e o conectivo.
 
+<!-- REVISAO-COORDENACAO-2026 -->
+### 1.1 Teste do mesmo nível sintático
+
+Para reconhecer coordenação, não basta localizar uma conjunção. Identifique primeiro a função de cada segmento.
+
+> O plano prevê **a integração das bases**, **a revisão dos formulários** e **a auditoria dos dados**.
+
+Os três sintagmas são objetos diretos de *prevê*. Há coordenação porque ocupam a mesma posição sintática. Compare:
+
+> O plano prevê **a integração das bases**, **revisar os formulários** e **que os dados sejam auditados**.
+
+A frase continua compreensível, mas perde paralelismo ao combinar sintagma nominal, oração reduzida de infinitivo e oração desenvolvida. Em prova, verifique:
+
+1. qual termo rege a série;
+2. qual função cada membro exerce;
+3. se há preposição ou artigo compartilhado;
+4. se a forma verbal, a voz e o nível de abstração permanecem compatíveis.
+
+**Coordenação aparente** ocorre quando a conjunção liga unidades que parecem semelhantes, mas exercem funções diferentes. A correção depende da arquitetura completa, não do conector isolado.
+
 ## 2. Coordenação entre termos
 
 Termos coordenados desempenham a mesma função em relação a outro elemento:
@@ -36,6 +56,22 @@ Termos coordenados desempenham a mesma função em relação a outro elemento:
 
 Os membros podem ser palavras isoladas ou estruturas extensas. O essencial é equivalência funcional. Coordenar elementos de funções diferentes sem projeto discursivo claro produz quebra de paralelismo.
 
+### 2.1 Séries extensas, modificadores e escopo
+
+Membros coordenados podem conter estruturas internas complexas:
+
+> Participaram **os técnicos responsáveis pela extração dos dados** e **os auditores designados para validar a amostra**.
+
+Os núcleos *técnicos* e *auditores* coordenam-se como sujeito composto; cada núcleo conserva seus próprios modificadores. Pergunte sempre até onde vai cada membro da série.
+
+Em construções como “técnicos e auditores experientes”, o adjetivo pode alcançar os dois grupos ou apenas o segundo, conforme contexto e prosódia. A reescrita deve eliminar a ambiguidade quando ela for relevante:
+
+- **técnicos experientes e auditores experientes** — alcance sobre ambos;
+- **técnicos e auditores que sejam experientes** — alcance explicitado;
+- **técnicos e auditores experientes, respectivamente...** — distribuição indicada pelo contexto.
+
+A coordenação pode admitir leitura **coletiva** (“João e Maria carregaram a mesa”) ou **distributiva** (“João e Maria preencheram um formulário cada”). A presença de *cada*, *juntos*, *respectivamente* ou do contexto orienta a leitura.
+
 ## 3. Coordenação entre orações
 
 ### 3.1 Assindética
@@ -45,6 +81,18 @@ Não apresenta conjunção coordenativa expressa:
 > A comissão reuniu os documentos, conferiu os dados, redigiu o parecer.
 
 A relação é inferida pela ordem, pelo contexto e pela pontuação. Vírgula, ponto e vírgula ou ponto podem separar as orações, com efeitos de ritmo e autonomia.
+
+#### Assíndeto e polissíndeto
+
+**Assíndeto** é a ausência deliberada de conectores entre membros coordenados:
+
+> Conferiu, corrigiu, publicou.
+
+**Polissíndeto** é a repetição expressiva do conector:
+
+> E conferiu, e corrigiu, e publicou.
+
+Os dois recursos preservam a coordenação, mas alteram ritmo, progressão e ênfase. A troca entre eles não é semanticamente neutra, embora os fatos básicos possam permanecer.
 
 ### 3.2 Sindética
 
@@ -59,6 +107,35 @@ Apresenta conectivo e recebe, na tradição escolar, cinco classificações:
 | explicativa | justificativa de afirmação, ordem ou avaliação | porque, que, pois |
 
 O valor é contextual. O mesmo item lexical pode assumir funções distintas, e a substituição entre conectores pode mudar foco, força argumentativa ou pontuação.
+
+### 3.3 Coordenação dentro de estruturas subordinadas
+
+Coordenação e subordinação podem coexistir no mesmo período:
+
+> Espero **que a equipe revise o ato e que publique a retificação**.
+
+As duas orações introduzidas por *que* são coordenadas entre si; o bloco inteiro funciona como complemento de *espero*. Também é possível:
+
+> Espero **que a equipe revise o ato e publique a retificação**.
+
+A segunda oração compartilha o subordinador e o sujeito. Ao reescrever, preserve o número de núcleos verbais e a função externa do conjunto.
+
+### 3.4 Conjunção coordenativa e conector móvel
+
+Nem todos os articuladores adversativos ou conclusivos comportam-se como *mas*:
+
+| Propriedade | `mas` | `porém`, `contudo`, `entretanto`, `portanto` |
+| --- | --- | --- |
+| posição prototípica | início do segundo membro | maior mobilidade |
+| intercalação | muito restrita | frequente |
+| isolamento por vírgulas | não depois do vocábulo, salvo inciso | esperado quando intercalado |
+| combinação com `e` | pouco natural na mesma função | possível: `e, contudo`; `e, portanto` |
+
+> O pedido era regular, **mas** foi indeferido.  
+> O pedido era regular; foi, **contudo**, indeferido.  
+> O pedido era regular **e, contudo**, foi indeferido.
+
+Na última frase, *e* realiza a coordenação formal e *contudo* orienta argumentativamente o segundo segmento. A nomenclatura pode variar entre gramáticas; o comportamento sintático é o dado decisivo.
 
 ## 4. Aditivas
 
@@ -84,6 +161,36 @@ Pode equivaler aproximadamente a “e não”, mas foco, ritmo e alcance da nega
 ### 4.3 Correlações aditivas
 
 Pares como **não só... mas também**, **não apenas... como também** e **tanto... como** articulam segmentos correspondentes. O segundo membro não é adversativo apenas por conter *mas*; o conjunto exprime adição enfática.
+
+### 4.4 Escopo da negação
+
+Compare:
+
+- **Não revisou nem publicou.** — a negação alcança os dois processos;
+- **Não revisou e publicou.** — a leitura mais imediata nega apenas *revisou*;
+- **Não só revisou, mas também publicou.** — a estrutura confirma os dois fatos e nega apenas a suficiência do primeiro;
+- **Não revisou o relatório ou a planilha.** — pode haver ambiguidade sobre o alcance de *não* e de *ou*.
+
+Trocar *nem* por *e não*, deslocar a negação ou alterar a ordem pode manter a correção e modificar foco, pressuposto ou alcance.
+
+### 4.5 Correlações ampliadas
+
+Além de *não só... mas também*, são frequentes:
+
+- **nem... nem**;
+- **ou... ou**;
+- **ora... ora**;
+- **quer... quer**;
+- **seja... seja**;
+- **tanto... quanto/como**;
+- **não apenas... como também**;
+- **não... mas sim / e sim**;
+- **bem como** e **assim como**.
+
+As correlações exigem correspondência de função, preposição, artigo, forma verbal, voz e nível semântico. Compare:
+
+> Inadequado: mostrou interesse **em revisar o ato e pela publicação do resultado**.  
+> Adequado: mostrou interesse **na revisão do ato e na publicação do resultado**.
 
 ## 5. Adversativas
 
@@ -154,6 +261,27 @@ Um teste útil, não absoluto, é perguntar: o segundo segmento causa o aconteci
 > Está chovendo; não sairei, **pois**. — a decisão é apresentada como conclusão.
 
 Posição, pontuação e relação argumentativa atuam em conjunto.
+
+### 8.1 Explicação, causa e conclusão: quadro de decisão
+
+| Pergunta | Tendência |
+| --- | --- |
+| O segundo segmento provoca o fato descrito? | causa subordinada |
+| Justifica por que o enunciador afirmou, avaliou ou ordenou algo? | explicação coordenada |
+| Pode ser deslocado como circunstância do evento? | favorece leitura causal |
+| Fundamenta uma ordem, conselho ou avaliação? | favorece leitura explicativa |
+| `pois` aparece depois do verbo ou no fim? | favorece leitura conclusiva |
+
+### 8.2 Reescrita entre coordenação e subordinação
+
+| Coordenação | Reescrita aproximada | Efeito possível |
+| --- | --- | --- |
+| Chovia, mas saí. | Embora chovesse, saí. | contraste passa a circunstância concessiva |
+| Cumpriu os requisitos; portanto, será admitido. | Como cumpriu os requisitos, será admitido. | conclusão passa a causa explícita |
+| Estude e passará. | Se estudar, passará. | consequência implícita passa a condição |
+| Não saia, pois chove. | Como chove, não saia. | justificativa passa a causal anteposta |
+
+A reescrita pode preservar a proposição central e alterar hierarquia, foco, pressuposto, ordem argumentativa, forma verbal e pontuação.
 
 ## 9. Pontuação das coordenadas
 
@@ -235,6 +363,16 @@ Ao reescrever, preserve:
 - escopo da negação;
 - pontuação e foco argumentativo.
 
+### 12.1 Coordenação distributiva, coletiva e agrupamento
+
+A coordenação não determina sozinha se o predicado se aplica ao grupo como unidade ou a cada membro:
+
+- **A comissão e a empresa assinaram o acordo.** — leitura coletiva possível;
+- **A comissão e a empresa apresentaram um relatório cada.** — leitura distributiva;
+- **Técnicos e auditores experientes participaram.** — possível ambiguidade de alcance de *experientes*.
+
+Em questões de reescrita, verifique se expressões como *cada*, *juntos*, *respectivamente*, *ambos* ou a repetição do modificador preservam a leitura original.
+
 ## 13. Roteiro de análise
 
 1. Localize verbos e locuções para delimitar orações.
@@ -244,6 +382,16 @@ Ao reescrever, preserve:
 5. Examine posição e mobilidade do conectivo.
 6. Confira paralelismo, escopo e pontuação.
 7. Em reescrita, compare sentido e arquitetura sintática.
+
+## Referências complementares da revisão
+
+- BECHARA, Evanildo. *Moderna gramática portuguesa*.
+- CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*.
+- NEVES, Maria Helena de Moura. *Gramática de usos do português*.
+- CASTILHO, Ataliba T. de. *Nova gramática do português brasileiro*.
+- CEBRASPE. Cadernos e gabaritos de provas de Língua Portuguesa, com destaque para CAU/MG 2025, STM 2025, TRF da 6ª Região 2025, MPE/TO 2024, SEMED 2024, SEDUC/PE 2022, PF 2014, FUB 2014, SEDUC/AL 2018, IBAMA 2009 e concursos correlatos.
+
+As questões adaptadas no banco informam banca, órgão, ano e natureza da transformação. Quando o texto integral da prova não é reproduzido, o item é identificado como inspirado na tese linguística cobrada, e não como transcrição literal.
 
 ## Referências
 
