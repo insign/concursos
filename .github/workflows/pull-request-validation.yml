@@ -152,7 +152,23 @@ jobs:
         run: npm run test:unit
 
       - name: Run Astro checks
-        run: npm run check
+        shell: bash
+        run: |
+          set +e
+          npm run check 2>&1 | tee /tmp/qualidade-astro-check.log
+          status=${PIPESTATUS[0]}
+          set -e
+          if [ "$status" -ne 0 ]; then
+            cp /tmp/qualidade-astro-check.log .github/qualidade-astro-check.log
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add .github/qualidade-astro-check.log
+            if ! git diff --cached --quiet; then
+              git commit -m 'ci: registra diagnóstico do Astro check'
+              git push origin HEAD:${{ github.head_ref }}
+            fi
+            exit "$status"
+          fi
 
       - name: Build production site
         run: npm run build
