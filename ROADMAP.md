@@ -121,7 +121,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 2.2. Editores de texto, planilhas e apresentações: Microsoft Office (formatação de documentos, uso de fórmulas e funções, criação de gráficos e apresentações).
 - O item 2.2 é desdobrado nos Assuntos 021 a 023 por ferramenta, sem repetição do seu conteúdo: este assunto trata de documentos e formatação de texto.
 
-##### [ ] Assunto 022 - Item 2.2, recorte: planilhas, fórmulas, funções e gráficos.
+##### [>] Em progresso Assunto 022 - Item 2.2, recorte: planilhas, fórmulas, funções e gráficos.
 
 ##### [ ] Assunto 023 - Item 2.2, recorte: apresentações.
 
