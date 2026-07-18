@@ -1,148 +1,189 @@
-# Comunicação no processo organizacional
+# Comunicação organizacional: revisão rápida
 
 ## Processo
 
-| Elemento | Lembrete |
+| Elemento | Pergunta |
 | --- | --- |
-| Fonte/emissor | origina ou envia |
-| Codificação | ideia → signos |
-| Mensagem | conteúdo |
-| Canal/meio | suporte da transmissão |
-| Receptor | recebe |
-| Decodificação | signos → significado |
-| Feedback | retorno sobre recepção/compreensão |
-| Contexto | condições e relações da interação |
-| Ruído | interferência física, tecnológica, semântica, perceptiva ou organizacional |
+| emissor | quem inicia? |
+| codificação | como a intenção vira sinais? |
+| mensagem | qual é o conteúdo? |
+| canal | por onde circula? |
+| receptor | quem recebe? |
+| decodificação | como interpreta? |
+| feedback | que resposta retorna? |
+| contexto | em que situação? |
+| ruído | o que interfere? |
 
-- Mensagem enviada ≠ mensagem necessariamente compreendida.
-- Fonte e emissor podem ser sinônimos; siga a definição do enunciado.
-- Mensagem é conteúdo; canal é meio.
+Mensagem enviada ≠ mensagem compreendida.
 
-## Feedback e escuta
+## Funções clássicas
 
-- Unidirecional: envio sem retorno efetivo no fluxo.
-- Bidirecional: admite resposta, esclarecimento e ajuste.
-- Canal de resposta disponível não garante feedback útil.
-- Feedback comunicacional verifica compreensão; controle compara resultados e padrões.
-- Escuta ativa: atenção + pergunta + paráfrase + confirmação.
-- Escuta ativa é prática; feedback é retorno.
+- **Controle:** regula comportamento.
+- **Motivação:** esclarece metas, desempenho e feedback.
+- **Expressão emocional:** permite manifestar sentimentos e pertencimento.
+- **Informação:** apoia decisão e execução.
 
-## Formal e informal
+As quatro podem coexistir.
 
-| Tipo | Núcleo |
+## Feedback
+
+- Unidirecional: sem interação imediata prevista.
+- Bidirecional: resposta, esclarecimento e ajuste.
+- Feedback reduz incerteza, mas não prova compreensão.
+- Silêncio, “ciente” ou resposta protocolar não comprovam entendimento.
+- Feedback comunicacional ≠ controle administrativo.
+
+## Formal, informal e rumores
+
+| Tipo | Ideia-chave |
 | --- | --- |
-| Formal | canais e competências reconhecidos |
-| Informal | relações sociais e contatos espontâneos |
+| formal | canal reconhecido, registro e rastreabilidade |
+| informal | relações sociais, rapidez e sinais do ambiente |
+| grapevine | rede informal de rumores, não controlada integralmente |
 
-- Formal pode ser oral, escrito, ascendente, descendente ou horizontal.
-- Informal não é necessariamente falso, proibido ou prejudicial.
-- Rumor = informação de verificação incerta; não resume toda rede informal.
+- Informal não é sinônimo de falso.
+- Rede informal não deve ser ignorada.
+- Rumores crescem com interesse, incerteza e vazio de informação oficial.
+- A resposta gerencial é informar, esclarecer e monitorar.
 
 ## Fluxos
 
 | Fluxo | Sentido |
 | --- | --- |
-| Descendente | superior → subordinado |
-| Ascendente | subordinado → superior |
-| Horizontal/lateral | mesmo nível |
-| Diagonal | áreas e níveis diferentes fora da linha direta |
+| descendente | superior → inferior |
+| ascendente | inferior → superior |
+| horizontal | mesmo nível |
+| diagonal | áreas e níveis distintos |
 
-- Transversal varia entre autores; não presuma sinônimo universal de diagonal.
-- Horizontal não elimina competências.
-- Diagonal não é necessariamente informal.
+- Vertical = descendente + ascendente.
+- Descendente: risco de perda em cascata.
+- Ascendente: risco de filtragem e medo.
+- Horizontal: risco de silos e disputa.
+- Diagonal: risco de dúvida de autoridade.
 
 ## Formas
 
-- Oral: interação rápida; registro não é automático.
-- Escrita: registro e consulta; não elimina ambiguidade.
-- Digital: meio que pode reunir texto, áudio, vídeo e sinais não verbais.
-- Não verbal: expressão, postura, gesto, tom, ritmo, silêncio e distância.
-- Síncrona: interação no mesmo intervalo de tempo.
-- Assíncrona: emissão e resposta em momentos distintos.
-- Silêncio não significa necessariamente concordância.
+- Oral: rapidez, interação e feedback.
+- Escrita: registro e consulta.
+- Digital: combina formatos e automação.
+- Não verbal: postura, tom, silêncio e espaço.
+- Síncrona: simultânea.
+- Assíncrona: momentos diferentes.
+
+As classificações podem sobrepor-se.
 
 ## Canal e riqueza
 
+Canal mais rico:
+
+- múltiplas pistas;
+- feedback rápido;
+- linguagem variada;
+- personalização.
+
 Escolha conforme:
 
-- objetivo e público;
-- ambiguidade e complexidade;
-- urgência;
-- feedback necessário;
-- registro;
-- acessibilidade;
-- alcance, disponibilidade e segurança.
+1. equivocidade;
+2. urgência;
+3. registro;
+4. público;
+5. sigilo;
+6. acessibilidade;
+7. custo;
+8. risco jurídico.
 
-- Meios mais ricos oferecem mais pistas, interação e personalização.
-- Ambiguidade tende a pedir mais interação.
-- Rotina padronizada pode usar meio mais enxuto e registrável.
-- Não existe canal universalmente melhor.
+Meio mais rico não é sempre o melhor.
+
+## Incerteza × equivocidade
+
+- **Incerteza:** falta de informação.
+- **Equivocidade:** interpretações concorrentes.
+- Mais dados podem reduzir incerteza.
+- Equivocidade costuma exigir interação e contexto.
 
 ## Redes
 
-| Rede | Desenho |
-| --- | --- |
-| Cadeia | sequência linear/hierárquica |
-| Roda | ponto central concentra contatos |
-| Todos os canais | membros comunicam-se diretamente |
+| Rede | Centralização | Tendência |
+| --- | ---: | --- |
+| roda | alta | rapidez em tarefa simples; dependência do centro |
+| cadeia | intermediária | sequência hierárquica |
+| círculo | baixa/intermediária | circulação local |
+| Y | intermediária/alta | bifurcação e centro parcial |
+| todos os canais | baixa | participação e tarefa complexa |
 
-- Tipologia não é exaustiva.
-- Velocidade, precisão e satisfação dependem da tarefa e do grupo.
+- Centralizadas: rapidez, precisão e liderança em problemas simples.
+- Descentralizadas: satisfação, participação e problemas complexos.
+- Nenhuma rede é universalmente superior.
 
 ## Barreiras
 
-| Barreira | Exemplo |
+- filtragem;
+- percepção seletiva;
+- jargão e semântica;
+- status e poder;
+- emoções;
+- sobrecarga;
+- silos;
+- falha tecnológica;
+- falta de acessibilidade.
+
+Mais mensagens podem aumentar a sobrecarga.
+
+## Escuta ativa
+
+- atenção;
+- perguntas;
+- paráfrase;
+- confirmação;
+- resposta pertinente.
+
+## Perspectivas
+
+| Perspectiva | Ênfase |
 | --- | --- |
-| Filtragem | seleção, omissão ou alteração no fluxo |
-| Percepção seletiva | expectativa molda interpretação |
-| Semântica | jargão, sigla, ambiguidade |
-| Status | receio de discordar ou relatar problema |
-| Emoção | medo, irritação, ansiedade, defesa |
-| Sobrecarga | volume supera capacidade de processar |
-| Física/tecnológica | interrupção, conexão, sistema, formato |
-| Canal inadequado | meio incompatível com público ou mensagem |
+| funcionalista | transmissão, eficiência e controle |
+| interpretativa | significados construídos na interação |
+| crítica | poder, dominação e emancipação |
 
-- Ruído não é apenas som.
-- Tecnologia não elimina barreiras humanas.
-- Mais mensagens podem aumentar sobrecarga.
+## Linguagem simples no setor público
 
-## Melhorias
+Lei nº 15.263/2025:
 
-1. definir objetivo e público;
-2. selecionar conteúdo relevante;
-3. usar linguagem compreensível;
-4. estruturar prioridades;
-5. escolher canal adequado;
-6. permitir feedback;
-7. escutar ativamente;
-8. confirmar entendimento crítico;
-9. revisar acessibilidade;
-10. reduzir excesso sem omitir o essencial.
+- frases curtas;
+- ordem direta;
+- palavras conhecidas;
+- explicação de termos;
+- organização visual;
+- informação essencial;
+- acessibilidade;
+- teste com usuários.
 
-## Eficiência e eficácia
-
-- Eficiência: tempo, esforço, custo e volume empregados.
-- Eficácia: entendimento e efeito pretendidos.
-- Rapidez de envio não prova eficácia.
-- Terminologia pode variar; observe a definição da questão.
-
-## Linguagem simples
-
-- Lei nº 15.263/2025: Administração direta e indireta, todos os Poderes e entes, na comunicação com a população.
-- Linguagem simples: técnicas para o cidadão encontrar, compreender e usar informação.
-- Ordem direta, voz ativa, frases curtas, uma ideia por parágrafo.
-- Palavras comuns; explicar termos técnicos e siglas.
-- Informação importante primeiro; usar listas e tabelas quando adequadas.
-- Garantir acessibilidade e testar com o público-alvo.
-- Não significa omitir conteúdo, abolir todo termo técnico ou infantilizar.
+Linguagem simples ≠ perda de precisão.
 
 ## Pegadinhas
 
-- Formal não é só descendente.
-- Informal não é sempre ruim.
-- Escrita não elimina ruído.
-- Feedback não garante entendimento automático.
-- Canal digital não é modalidade única.
-- Horizontal não extingue hierarquia.
-- Rede em roda não é sempre superior.
-- Formular objetivos é planejamento; comparar resultados é controle.
+| Afirmação | Julgamento |
+| --- | --- |
+| comunicação não exerce controle | errado |
+| comunicação informal é sempre falsa | errado |
+| rede informal deve ser ignorada | errado |
+| feedback prova compreensão | errado |
+| vertical é somente descendente | errado |
+| canal rico é sempre superior | errado |
+| todos os canais é rede centralizada | errado |
+| sobrecarga melhora informação | errado |
+| linguagem simples elimina termo técnico | errado |
+| silêncio prova concordância | errado |
+
+## Roteiro de prova
+
+1. identifique elementos do processo;
+2. determine a função;
+3. classifique fluxo e formalidade;
+4. avalie canal, riqueza e sincronismo;
+5. localize ruído ou barreira;
+6. identifique rede e centralização;
+7. diferencie incerteza e equivocidade;
+8. teste feedback e compreensão;
+9. rejeite absolutos;
+10. no setor público, preserve clareza, precisão e acessibilidade.

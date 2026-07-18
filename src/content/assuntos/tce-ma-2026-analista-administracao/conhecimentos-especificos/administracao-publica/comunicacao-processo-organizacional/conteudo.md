@@ -1,293 +1,357 @@
 ---
 schemaVersion: 1
 title: Comunicação no processo organizacional
-description: Processo, fluxos, formas, redes, canais e barreiras da comunicação organizacional, com aplicação pública.
+description: Processo, funções, fluxos, redes, canais, barreiras e melhoria da comunicação organizacional, com aplicação ao setor público.
 order: 105
 storageId: comunicacao-organizacional
 ---
 
 # Comunicação no processo organizacional
 
-**Comunicação organizacional** é o processo pelo qual mensagens são produzidas, transmitidas, recebidas e interpretadas no contexto de uma organização. Ela permite compartilhar informações, esclarecer tarefas, integrar áreas, coordenar interdependências, sustentar decisões e relacionar a organização com seus públicos.
+**Comunicação organizacional** é o processo pelo qual mensagens são produzidas, transmitidas, recebidas e interpretadas no contexto de uma organização. Ela viabiliza coordenação, decisão, execução, aprendizagem, integração de áreas, mobilização de pessoas e relacionamento com públicos internos e externos.
 
-Comunicar não é apenas enviar. Uma mensagem pode chegar ao destino e não produzir compreensão; pode estar gramaticalmente correta e ser inadequada ao público; pode circular rapidamente e gerar uma interpretação diferente da pretendida.
+Comunicar não é apenas emitir. A mensagem recebida pode diferir da mensagem pretendida por causa da codificação, do canal, do contexto, das expectativas do receptor ou de diferentes espécies de ruído.
 
-> **Ideia central:** a mensagem emitida não é necessariamente a mensagem compreendida.
+> **Ideia central:** mensagem enviada não equivale automaticamente a mensagem compreendida.
 
 ## 1. Elementos do processo de comunicação
 
-Um modelo didático recorrente reúne os seguintes elementos:
+Um modelo didático recorrente reúne:
 
-| Elemento | Função no processo |
+| Elemento | Função |
 | --- | --- |
-| **Fonte ou emissor** | origina a informação ou inicia a transmissão |
-| **Codificação** | transforma a ideia em palavras, imagens, números, gestos ou outros signos |
-| **Mensagem** | conteúdo codificado que se pretende comunicar |
-| **Canal ou meio** | suporte pelo qual a mensagem circula |
-| **Receptor ou destinatário** | recebe a mensagem |
-| **Decodificação** | atribui sentido aos signos recebidos |
-| **Feedback ou retroação** | retorno sobre recebimento, interpretação ou necessidade de ajuste |
-| **Contexto** | condições, objetivos, relações, cultura, tempo e ambiente da interação |
-| **Ruído** | interferência que prejudica transmissão, recepção ou interpretação |
+| emissor ou fonte | inicia a comunicação e possui uma intenção |
+| codificação | transforma a intenção em sinais compartilháveis |
+| mensagem | conteúdo produzido |
+| canal ou meio | suporte pelo qual a mensagem circula |
+| receptor | destinatário individual ou coletivo |
+| decodificação | interpretação dos sinais |
+| feedback | resposta que retorna ao processo |
+| contexto | situação social, institucional, temporal e cultural |
+| ruído | interferência que altera transmissão ou compreensão |
 
-**Fonte**, **emissor** e **remetente** podem aparecer como sinônimos em modelos introdutórios. Em análises mais detalhadas, a fonte pode ser a unidade que gera a informação e o emissor, a pessoa que a transmite. A definição oferecida pela questão deve orientar a resposta.
+Exemplo:
 
-### 1.1 Codificação e decodificação
+> A diretoria envia, pelo sistema eletrônico, instrução sobre nova rotina. A unidade lê, interpreta e responde com uma dúvida.
 
-Na **codificação**, o emissor seleciona signos e uma forma de apresentação. Na **decodificação**, o receptor interpreta esses signos com base em conhecimentos, experiências, expectativas e contexto.
+- diretoria: emissor;
+- instrução: mensagem;
+- sistema eletrônico: canal;
+- unidade: receptor;
+- leitura e atribuição de sentido: decodificação;
+- dúvida encaminhada: feedback.
 
-O compartilhamento do idioma não garante significado idêntico. Siglas, jargões, ambiguidades e referências culturais podem levar receptor e emissor a atribuir sentidos diferentes à mesma expressão.
+### Mensagem, canal e ruído
 
-### 1.2 Mensagem, canal e ruído
+**Mensagem** é o conteúdo; **canal** é o suporte. Um mesmo conteúdo pode circular por reunião, ofício, telefone, painel, e-mail ou sistema corporativo.
 
-A **mensagem** é o conteúdo; o **canal** é o meio. Um relatório pode ser a mensagem registrada em documento eletrônico; uma videoconferência pode ser o canal de uma explicação oral e visual.
+Ruído não é apenas som. Pode ser:
 
-Ruído não é somente som. Pode ser:
+- **físico:** falha de áudio, ambiente inadequado;
+- **técnico:** sistema indisponível, arquivo corrompido;
+- **semântico:** jargão, polissemia, linguagem vaga;
+- **psicológico:** ansiedade, hostilidade, distração;
+- **organizacional:** excesso de níveis, silos, regras contraditórias;
+- **cultural:** códigos e pressupostos não compartilhados.
 
-- físico, como interrupção ou ambiente inadequado;
-- tecnológico, como falha de conexão ou sistema indisponível;
-- semântico, como termo ambíguo ou jargão desconhecido;
-- perceptivo, quando expectativas alteram a interpretação;
-- organizacional, quando status, filtragem ou excesso de etapas distorcem a mensagem.
+## 2. Funções da comunicação nas organizações
 
-## 2. Feedback e comunicação em um ou dois sentidos
+Quatro funções clássicas são especialmente cobradas:
 
-**Feedback** é o retorno que permite ao emissor conhecer o recebimento, a compreensão, a reação ou a necessidade de esclarecimento. Ele fecha um ciclo de interação, mas não garante por si só que a comunicação tenha sido eficaz: o retorno pode ser tardio, incompleto ou também mal interpretado.
+| Função | Aplicação |
+| --- | --- |
+| **controle** | políticas, hierarquia, orientações e regulação do comportamento |
+| **motivação** | metas, expectativas, desempenho e feedback |
+| **expressão emocional** | manifestação de satisfação, frustração, pertencimento e necessidades sociais |
+| **informação** | dados e elementos necessários à decisão e à execução |
 
-- **comunicação unidirecional** privilegia o envio sem retorno efetivo no próprio fluxo;
-- **comunicação bidirecional** admite resposta, esclarecimento e ajuste entre os participantes.
+As funções podem coexistir. Um feedback de desempenho informa resultados, orienta comportamento, influencia motivação e pode provocar expressão emocional.
 
-Uma caixa de resposta tecnicamente disponível não torna a comunicação efetivamente bidirecional se ninguém puder usá-la, se o retorno não for considerado ou se não houver tempo para esclarecimento.
+Pegadinha: afirmar que a comunicação não exerce função de controle ou de motivação contraria a classificação clássica.
 
-### 2.1 Feedback comunicacional não é controle administrativo
+## 3. Comunicação unidirecional e bidirecional
 
-Confirmar que uma instrução foi compreendida é feedback comunicacional. Comparar resultados com padrões, identificar desvios e adotar ação corretiva pertence à função administrativa de controle. Os processos podem se apoiar, mas não são sinônimos.
+- **Unidirecional:** a mensagem segue do emissor ao receptor sem interação imediata prevista.
+- **Bidirecional:** há possibilidade de resposta, esclarecimento e ajuste.
 
-### 2.2 Escuta ativa
+A comunicação bidirecional tende a favorecer compreensão e correção de ruído, mas pode demandar mais tempo e coordenação. A unidirecional pode ser adequada a avisos simples e padronizados.
 
-**Escuta ativa** envolve atenção deliberada, perguntas de esclarecimento, paráfrase e confirmação do entendimento. Em vez de preparar apenas a própria resposta, o ouvinte procura compreender conteúdo, contexto e sinais relevantes.
+### Feedback não é prova automática de compreensão
 
-Escuta ativa favorece feedback de qualidade, mas não se confunde com ele. A escuta é uma prática do receptor; feedback é o retorno produzido no processo.
+O feedback reduz incerteza sobre a recepção, mas precisa ser interpretado. Uma resposta protocolar, o silêncio ou um “ciente” não demonstram, por si sós, que a mensagem foi compreendida e será aplicada corretamente.
 
-## 3. Comunicação formal e informal
+Não confunda:
 
-### 3.1 Formal
+- **feedback comunicacional:** retorno do receptor ao processo;
+- **controle administrativo:** comparação de resultados com padrões e adoção de medidas corretivas.
 
-A comunicação **formal** utiliza canais, competências e procedimentos reconhecidos pela organização. Inclui, conforme o contexto, ofícios, relatórios, decisões, reuniões oficiais, sistemas corporativos e orientações hierárquicas.
+O feedback pode alimentar o controle, mas os conceitos não são idênticos.
 
-Formal não significa apenas escrita nem apenas descendente. Uma reunião registrada pode ser formal e oral; um relatório técnico enviado por subordinado à chefia é formal e ascendente; uma troca entre unidades do mesmo nível pode ser formal e horizontal.
+## 4. Comunicação formal, informal e rede de rumores
 
-### 3.2 Informal
+### Formal
 
-A comunicação **informal** nasce das relações sociais e de canais não oficialmente estruturados: conversas espontâneas, vínculos de confiança e redes de contato. Ela pode acelerar circulação de conhecimento e integração, mas também pode transmitir informação incompleta ou não verificada.
+Segue canais reconhecidos pela organização: sistemas, reuniões instituídas, ofícios, processos, relatórios e comunicações hierárquicas.
 
-Informal não é sinônimo de falsa, proibida ou prejudicial. O risco depende do conteúdo, da confiabilidade e do uso. Um **rumor** é informação de verificação incerta; a rede informal não se reduz a rumores.
+Vantagens frequentes:
 
-## 4. Fluxos da comunicação
+- registro;
+- responsabilização;
+- padronização;
+- rastreabilidade.
 
-| Fluxo | Sentido típico | Exemplos |
+Riscos:
+
+- lentidão;
+- burocratização;
+- filtragem;
+- excesso documental.
+
+### Informal
+
+Surge das relações sociais e pode atravessar níveis e unidades. Não é sinônimo de informação falsa nem deve ser ignorada.
+
+Pode:
+
+- acelerar circulação;
+- indicar clima, dúvidas e resistências;
+- favorecer cooperação;
+- preencher lacunas deixadas por canais formais.
+
+Também pode distorcer, excluir pessoas ou reforçar rumores.
+
+### Rede de rumores (*grapevine*)
+
+É uma rede informal que:
+
+- não é controlada integralmente pela direção;
+- circula com rapidez;
+- atende a necessidades sociais e informacionais;
+- pode ser percebida como confiável pelos empregados;
+- pode conter informação correta, incompleta ou falsa;
+- ganha força quando há incerteza, interesse e insuficiência de informação oficial.
+
+A resposta gerencial adequada não é fingir que ela não existe, mas monitorar sinais, oferecer informação verificável e reduzir vazios informacionais.
+
+## 5. Direção dos fluxos
+
+| Fluxo | Direção | Exemplos |
 | --- | --- | --- |
-| **Descendente** | nível superior para nível subordinado | prioridades, instruções, políticas e orientação |
-| **Ascendente** | nível subordinado para nível superior | sugestões, dificuldades, relatórios e retorno |
-| **Horizontal ou lateral** | pessoas ou unidades em nível equivalente | articulação entre pares e coordenação entre áreas |
-| **Diagonal** | níveis e áreas diferentes fora da linha direta | contato entre especialista de uma área e gestor de outra |
+| descendente | níveis superiores para inferiores | metas, normas, instruções, feedback |
+| ascendente | níveis inferiores para superiores | relatórios, sugestões, alertas, reclamações |
+| horizontal ou lateral | mesmo nível | coordenação entre unidades equivalentes |
+| diagonal | áreas e níveis distintos, sem seguir apenas a linha hierárquica | equipe de projeto, comitê transversal |
 
-Comunicação **transversal** é expressão usada para fluxos que atravessam áreas, níveis ou silos. Alguns autores a aproximam da diagonal; outros dão alcance mais amplo. Não se deve presumir identidade universal entre os termos sem conhecer a definição adotada.
+A expressão **comunicação vertical** abrange fluxos descendente e ascendente.
 
-### 4.1 Pegadinhas dos fluxos
+Em algumas obras, **transversal** é usada como sinônimo de diagonal; em outras, designa articulação ampla que atravessa fronteiras. A questão deve indicar a classificação adotada.
 
-- descendente não é sinônimo de formal;
-- ascendente não elimina hierarquia;
-- horizontal não extingue competências e responsabilidades;
-- diagonal não é necessariamente informal;
-- qualquer fluxo pode sofrer ruído, filtragem e atraso.
+### Problemas típicos
 
-## 5. Formas e temporalidade
+- descendente: perda de detalhes em cascata e linguagem excessivamente normativa;
+- ascendente: medo de retaliação, filtragem de problemas e “maquiagem” de resultados;
+- horizontal: disputa de competência e silos;
+- diagonal: conflito com chefias e dúvida sobre responsabilidades.
 
-### 5.1 Oral
+## 6. Formas e canais
 
-Conversas, telefonemas, reuniões e apresentações usam comunicação oral. Ela pode oferecer interação e ajuste rápidos, mas não gera automaticamente registro durável. Oralidade pode ser formal ou informal.
+### Oral, escrita, digital e não verbal
 
-### 5.2 Escrita
+- **Oral:** favorece rapidez, interação e feedback.
+- **Escrita:** favorece registro, precisão e consulta posterior.
+- **Digital:** pode combinar texto, áudio, vídeo, dados, automação e registro.
+- **Não verbal:** postura, expressão, silêncio, espaço e tom influenciam a interpretação.
 
-Ofícios, mensagens, relatórios, notas e manuais usam comunicação escrita. O registro favorece consulta, padronização e rastreabilidade, mas não elimina ambiguidade. Texto excessivo, desorganizado ou inadequado ao público continua sendo barreira.
+A classificação pode sobrepor-se. Uma videoconferência é oral, digital e rica em pistas não verbais; um e-mail é escrito, digital e normalmente assíncrono.
 
-### 5.3 Digital
+### Síncrona e assíncrona
 
-**Digital** descreve o meio ou suporte, não uma modalidade única. E-mail é predominantemente escrito; videoconferência reúne fala, imagem, sinais não verbais e texto; sistema pode combinar formulários, alertas e documentos.
+- **Síncrona:** interação simultânea, como reunião ao vivo.
+- **Assíncrona:** participantes acessam em momentos diferentes, como processo eletrônico ou mensagem registrada.
 
-### 5.4 Não verbal
+Síncrono não é automaticamente melhor. Assíncrono pode ser preferível quando há necessidade de reflexão, registro e participantes em horários distintos.
 
-Expressão facial, postura, gestos, contato visual, tom, ritmo, silêncio e distância influenciam a interpretação. Sinais não verbais podem reforçar, complementar ou contradizer a fala. Seu sentido depende do contexto; silêncio, por exemplo, não significa necessariamente concordância.
+## 7. Escolha do canal e riqueza dos meios
 
-### 5.5 Síncrona e assíncrona
+A **teoria da riqueza dos meios** compara a capacidade de um canal de transmitir múltiplas pistas, oferecer feedback rápido, usar linguagem variada e favorecer personalização.
 
-- **síncrona**: participantes interagem no mesmo intervalo de tempo, como em conversa ou videoconferência ao vivo;
-- **assíncrona**: emissão e resposta ocorrem em momentos diferentes, como em e-mail ou fórum.
+Tendência frequente:
 
-Sincronia favorece esclarecimento imediato, mas não garante qualidade. Assincronia pode favorecer reflexão e registro, mas também atrasar retorno. A adequação depende da necessidade.
+- conversa presencial e videoconferência: mais ricas;
+- telefone: riqueza intermediária;
+- documentos padronizados e comunicações impessoais: menos ricos.
 
-## 6. Escolha de canais e riqueza dos meios
+Não existe “melhor canal” em abstrato. A escolha depende de:
 
-Não existe canal universalmente superior. A escolha deve considerar:
-
-- objetivo da mensagem;
-- público e suas necessidades;
-- complexidade ou ambiguidade;
+- complexidade e equivocidade;
 - urgência;
-- necessidade de interação e feedback;
 - necessidade de registro;
+- tamanho e dispersão do público;
+- confidencialidade;
 - acessibilidade;
-- alcance, disponibilidade e segurança do meio.
+- custo;
+- familiaridade do usuário;
+- risco jurídico.
 
-A **teoria da riqueza dos meios**, associada a Richard Daft e Robert Lengel, compara meios por sua capacidade de permitir feedback, transmitir múltiplas pistas, usar variedade de linguagem e personalizar a interação. Situações ambíguas tendem a se beneficiar de meios com mais interação; informações rotineiras e padronizadas podem usar meios mais enxutos e registráveis.
+### Incerteza × equivocidade
 
-Essa teoria é um referencial de adequação, não uma hierarquia absoluta. Reunião presencial não é sempre melhor que documento; mensagem instantânea não é sempre mais eficaz que relatório. Canal rico usado sem necessidade pode consumir tempo, e canal enxuto diante de alta ambiguidade pode gerar retrabalho.
+- **Incerteza:** falta de informação.
+- **Equivocidade:** presença de interpretações concorrentes ou dificuldade de atribuir sentido único.
 
-## 7. Redes de comunicação em grupos
+Mais informação pode reduzir incerteza. A equivocidade tende a exigir interação, contexto, feedback rápido e múltiplas pistas.
 
-Uma tipologia clássica distingue:
+Exemplo: para comunicar uma data objetiva, um canal escrito pode bastar. Para negociar responsabilidades em crise, um meio mais rico pode ser adequado.
 
-### 7.1 Cadeia
+## 8. Redes formais de comunicação
 
-A comunicação percorre uma sequência linear, frequentemente associada à hierarquia. Cada participante se comunica com posições adjacentes no fluxo.
+As redes descrevem quem se comunica diretamente com quem.
 
-### 7.2 Roda
-
-Um ponto central concentra a comunicação com os demais membros. Os participantes periféricos dependem do centro para circular informação entre si.
-
-### 7.3 Todos os canais
-
-Os membros podem comunicar-se diretamente uns com os outros. A rede favorece interação distribuída, mas pode exigir mais coordenação quando o grupo cresce.
-
-Cadeia, roda e todos os canais não esgotam todos os desenhos possíveis. Também não existe resultado universal: velocidade, precisão, satisfação e adequação dependem da tarefa, do tamanho do grupo e do critério observado.
-
-## 8. Barreiras e distorções
-
-Classificações variam entre autores, mas as barreiras abaixo são recorrentes.
-
-### 8.1 Filtragem
-
-É a seleção, omissão ou alteração deliberada ou condicionada da informação ao longo do fluxo. Pode ocorrer para tornar a mensagem mais favorável, abreviá-la ou evitar reação negativa.
-
-### 8.2 Percepção seletiva
-
-Participantes percebem e interpretam mensagens segundo expectativas, interesses e experiências. A pessoa pode notar apenas parte do conteúdo ou atribuir sentido coerente com sua expectativa anterior.
-
-### 8.3 Linguagem e semântica
-
-Jargões, siglas, termos técnicos, palavras vagas, traduções inadequadas e significados não compartilhados dificultam a compreensão. Conhecimento técnico do emissor não dispensa adaptação ao destinatário.
-
-### 8.4 Status e hierarquia
-
-Diferenças de posição podem levar subordinados a suavizar problemas, omitir discordância ou evitar perguntas. Chefias também podem desprezar informações ascendentes por causa da origem.
-
-### 8.5 Emoções
-
-Medo, irritação, ansiedade, entusiasmo e defensividade podem alterar codificação, escuta e interpretação. Emoção não invalida automaticamente a mensagem, mas precisa ser considerada no contexto.
-
-### 8.6 Sobrecarga informacional
-
-Volume, velocidade ou simultaneidade acima da capacidade de processamento levam a omissão, atraso, seleção apressada ou perda de prioridade. Enviar mais mensagens nem sempre comunica melhor.
-
-### 8.7 Barreiras físicas e tecnológicas
-
-Interrupções, ruído ambiental, indisponibilidade, conexão instável, interface inadequada e incompatibilidade de formatos podem impedir acesso ou distorcer conteúdo. Tecnologia cria possibilidades, mas não elimina barreiras humanas, semânticas ou organizacionais.
-
-### 8.8 Canal inadequado e silêncio
-
-Um canal pode ser inadequado à urgência, complexidade, necessidade de registro ou acessibilidade. Silêncio pode decorrer de concordância, receio, dúvida, desconhecimento, falta de acesso ou escolha de não responder; não possui sentido único.
-
-## 9. Como melhorar a comunicação
-
-Práticas úteis incluem:
-
-1. definir objetivo e público;
-2. selecionar conteúdo relevante;
-3. usar linguagem compreensível;
-4. estruturar a mensagem e explicitar prioridades;
-5. escolher canal adequado;
-6. permitir feedback quando necessário;
-7. praticar escuta ativa;
-8. confirmar entendimento em temas críticos;
-9. revisar acessibilidade e condições de acesso;
-10. reduzir etapas, jargões e excesso de informação sem omitir o essencial.
-
-Repetição planejada por canais complementares pode reforçar uma mensagem crítica. Repetição indiscriminada, porém, pode aumentar sobrecarga e fazer o destinatário ignorar alertas.
-
-## 10. Eficiência e eficácia comunicacional
-
-Em uma distinção administrativa útil:
-
-- **eficiência** considera tempo, esforço, custo e quantidade de informação empregados;
-- **eficácia** considera se a mensagem alcançou o entendimento e o efeito pretendidos.
-
-Rapidez de envio pode ser eficiente, mas não eficaz se o destinatário não compreender. Uma reunião longa pode produzir entendimento, mas usar recursos desnecessários. As definições podem variar entre fontes; a questão de prova deve explicitar o critério quando exigir distinção mais específica.
-
-## 11. Linguagem simples na Administração Pública
-
-A Lei nº 15.263/2025 instituiu a **Política Nacional de Linguagem Simples** para órgãos e entidades da Administração Pública direta e indireta de todos os Poderes da União, dos Estados, do Distrito Federal e dos Municípios, em sua comunicação com a população.
-
-A lei define linguagem simples como o conjunto de técnicas destinadas à transmissão clara e objetiva de informações, de modo que palavras, estrutura e leiaute permitam ao cidadão encontrar, compreender e usar a informação.
-
-Entre as técnicas legais para textos dirigidos ao cidadão estão:
-
-- frases em ordem direta e preferencialmente na voz ativa;
-- frases curtas e uma ideia por parágrafo;
-- palavras comuns e de fácil compreensão;
-- explicação de termos técnicos e jargões quando necessários;
-- nome completo antes de siglas;
-- listas, tabelas e recursos gráficos quando adequados;
-- informações mais importantes primeiro;
-- linguagem acessível à pessoa com deficiência;
-- teste de compreensão com o público-alvo.
-
-Linguagem simples não significa retirar informação necessária, abolir todo termo técnico ou infantilizar o destinatário. Significa adequar conteúdo, estrutura e apresentação para uso efetivo da informação.
-
-Este recorte usa a lei como aplicação direta da adequação da mensagem ao destinatário. Transparência, Lei de Acesso à Informação, publicidade institucional, ouvidoria e estratégia de comunicação pública não são aprofundadas aqui.
-
-## 12. Exemplo integrado
-
-Um órgão precisa informar mudança no agendamento de atendimento:
-
-1. identifica servidores e cidadãos afetados;
-2. codifica a mensagem com termos compreensíveis e instrução clara;
-3. usa sistema interno para equipes e página acessível para o público;
-4. combina aviso registrado com canal para esclarecimento;
-5. acompanha dúvidas recorrentes como feedback de compreensão;
-6. corrige ambiguidade detectada, sem confundir esse ajuste comunicacional com o controle dos resultados do serviço.
-
-O exemplo mostra que eficácia depende de conteúdo, destinatário, canal, contexto e retorno, e não apenas da publicação formal.
-
-## 13. Quadro de distinções
-
-| Conceito | Núcleo | Não confundir com |
+| Rede | Estrutura | Centralização e tendência frequente |
 | --- | --- | --- |
-| Codificação | converter ideia em signos | decodificação pelo receptor |
-| Mensagem | conteúdo transmitido | canal que a transporta |
-| Feedback | retorno na interação | controle administrativo de resultados |
-| Formal | canal reconhecido | apenas escrita ou descendente |
-| Informal | relação social espontânea | falsidade necessária |
-| Horizontal | mesmo nível | ausência de responsabilidade formal |
-| Digital | meio ou suporte | modalidade única |
-| Ruído | interferência ampla | somente som físico |
-| Escuta ativa | compreender, esclarecer e confirmar | feedback como resposta produzida |
-| Linguagem simples | clareza orientada ao uso | perda de precisão ou conteúdo |
+| cadeia | sequência linear | aderência hierárquica; risco de distorção ao longo dos elos |
+| roda ou radial | membros comunicam-se por um centro | alta centralização; rapidez em tarefa simples; dependência do centro |
+| círculo | cada membro liga-se aos vizinhos | circulação local; menor concentração que a roda |
+| Y | cadeia com bifurcação | centralização intermediária ou alta |
+| todos os canais ou conexão total | todos podem comunicar-se diretamente | baixa centralização; participação e adequação a tarefas complexas |
 
-## 14. Limites deste assunto
+Os resultados dependem da tarefa:
 
-Para preservar os recortes do edital:
+- redes centralizadas tendem a produzir rapidez, exatidão e liderança mais nítida em problemas simples;
+- redes descentralizadas tendem a aumentar participação, satisfação e capacidade de lidar com problemas complexos;
+- nenhum desenho é universalmente superior.
 
-- planejamento e direção pertencem ao Assunto 104;
-- controle e avaliação pertencem ao Assunto 106;
-- desenho estrutural e autoridade formal pertencem ao Assunto 103;
-- teorias de liderança e motivação pertencem ao Assunto 111;
-- regimes de transparência, LAI e estratégia de comunicação pública não integram este item.
+## 9. Barreiras e distorções
+
+### Filtragem
+
+O emissor seleciona ou altera informação para torná-la mais favorável ao receptor. Pode ocorrer especialmente no fluxo ascendente quando há medo de consequências.
+
+### Percepção seletiva
+
+O receptor interpreta conforme expectativas, experiências, interesses e crenças.
+
+### Linguagem e semântica
+
+Jargão, siglas, termos vagos e diferenças de repertório alteram a interpretação.
+
+### Status e poder
+
+Distância hierárquica pode inibir perguntas, alertas e discordâncias.
+
+### Emoções e atitudes defensivas
+
+Ansiedade, irritação e desconfiança afetam codificação e decodificação.
+
+### Sobrecarga informacional
+
+O volume supera a capacidade de processamento. Aumentar mensagens sem priorização pode piorar a comunicação.
+
+### Silos e fragmentação
+
+Unidades retêm informação ou usam sistemas incompatíveis, dificultando coordenação.
+
+### Problemas tecnológicos
+
+Falhas de conexão, sistemas pouco usáveis, notificações excessivas e ausência de acessibilidade constituem barreiras reais.
+
+## 10. Escuta ativa e melhoria da comunicação
+
+**Escuta ativa** envolve atenção, perguntas, paráfrase, verificação de entendimento e resposta pertinente.
+
+Práticas úteis:
+
+1. definir o objetivo;
+2. conhecer o público;
+3. selecionar informação essencial;
+4. usar linguagem clara;
+5. escolher canal compatível;
+6. explicitar ação, prazo e responsabilidade;
+7. permitir perguntas;
+8. verificar entendimento;
+9. registrar o que exigir rastreabilidade;
+10. avaliar resultados e corrigir ruído.
+
+Clareza não significa superficialidade. Significa organizar a informação para que o público compreenda e aja adequadamente.
+
+## 11. Perspectivas sobre comunicação organizacional
+
+| Perspectiva | Ênfase |
+| --- | --- |
+| tradicional ou funcionalista | transmissão, eficiência, controle e alcance de objetivos |
+| interpretativa | construção compartilhada da realidade e dos significados |
+| crítica | poder, dominação, conflito, exclusão e emancipação |
+
+As perspectivas não são apenas nomes para canais. Elas representam modos diferentes de compreender a organização e a comunicação.
+
+## 12. Comunicação pública e linguagem simples
+
+A comunicação no setor público deve observar legalidade, impessoalidade, publicidade, eficiência, acessibilidade e direito à informação.
+
+A Lei nº 15.263/2025 instituiu a Política Nacional de Linguagem Simples para órgãos e entidades da administração pública direta e indireta de todos os Poderes e entes federativos em sua comunicação com a população.
+
+Entre as práticas compatíveis com a política:
+
+- frases curtas;
+- ordem direta;
+- palavras conhecidas;
+- explicação de termos técnicos;
+- organização visual;
+- destaque da informação essencial;
+- acessibilidade;
+- teste de compreensão com usuários.
+
+Linguagem simples não significa omitir requisito jurídico, infantilizar o cidadão ou substituir precisão por informalidade.
+
+## 13. Aplicação a uma situação-problema
+
+Problema: um órgão altera o agendamento de atendimento, mas usuários e servidores continuam seguindo a rotina antiga.
+
+Roteiro:
+
+1. identificar públicos afetados;
+2. definir objetivo e comportamento esperado;
+3. escrever a mensagem essencial;
+4. escolher canais conforme urgência, riqueza, registro e acessibilidade;
+5. combinar fluxos descendente, horizontal e externo;
+6. definir responsável pela emissão;
+7. disponibilizar canal de dúvidas;
+8. acompanhar feedback e dúvidas recorrentes;
+9. corrigir ruído semântico ou técnico;
+10. avaliar alcance, compreensão e adesão.
+
+A solução não é “enviar mais mensagens” indiscriminadamente. É adequar conteúdo, canal, fluxo, tempo e verificação.
+
+## 14. Método de resolução em prova
+
+1. identifique emissor, receptor, mensagem, canal e feedback;
+2. determine a função predominante;
+3. reconheça o fluxo;
+4. separe formal de informal;
+5. avalie riqueza, registro, urgência e acessibilidade;
+6. identifique barreira ou ruído;
+7. reconheça a rede e a centralização;
+8. verifique se há incerteza ou equivocidade;
+9. rejeite absolutos: “sempre”, “somente”, “dispensa”, “elimina”;
+10. no setor público, preserve precisão, transparência e linguagem acessível.
+
+## 15. Limites do assunto
+
+Este assunto trata da comunicação como componente do processo organizacional. Outros tópicos aprofundam:
+
+- liderança e motivação;
+- controle e avaliação;
+- clima e cultura;
+- gestão de pessoas;
+- comunicação social institucional.
+
+Esses elementos aparecem aqui apenas quando necessários para compreender funções, fluxos, redes, canais e barreiras.
 
 ## Referências
 
-- FERREIRA, Marlette Cassia Oliveira. Instituto Federal de São Paulo/Rede e-Tec Brasil. [Comunicação Empresarial](https://proedu.rnp.br/bitstream/handle/123456789/1493/Comunicacao_Empresarial_ADMINISTRACAO-IFSP.pdf?isAllowed=y&sequence=1). Cuiabá, 2015. Acesso em: 15 jul. 2026.
-- ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA. [Módulo IV: Gerenciamento dos Riscos, das Partes Interessadas e das Comunicações](https://repositorio.enap.gov.br/jspui/bitstream/1/5320/4/Modulo%20IV%20-%20Gerenciamento%20dos%20Riscos,%20das%20Partes%20Interessadas%20e%20das%20Comunica%C3%A7%C3%B5es.pdf). Versão 2017. Acesso em: 15 jul. 2026.
-- SOUZA, Antônio Artur de. CAPES/Programa Nacional de Formação em Administração Pública. [Organização, Processos e Tomada de Decisão](https://educapes.capes.gov.br/handle/capes/145365). 2015. ISBN 978-85-7988-281-4. Acesso em: 15 jul. 2026.
-- DAFT, Richard L.; LENGEL, Robert H. [Organizational Information Requirements, Media Richness and Structural Design](https://doi.org/10.1287/mnsc.32.5.554). Management Science, v. 32, n. 5, p. 554-571, 1986. Acesso em: 15 jul. 2026.
-- BRASIL. Presidência da República. [Lei nº 15.263, de 14 de novembro de 2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15263.htm). Política Nacional de Linguagem Simples, texto publicado em 17 nov. 2025. Acesso em: 15 jul. 2026.
+- BRASIL. **Lei nº 15.263, de 14 de novembro de 2025**. Institui a Política Nacional de Linguagem Simples. Disponível no [texto oficial da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15263-14-novembro-2025-798293-norma-pl.html). Acesso em: 18 jul. 2026.
+- DAFT, Richard L.; LENGEL, Robert H. **Organizational Information Requirements, Media Richness and Structural Design**. *Management Science*, v. 32, n. 5, 1986. Disponível no [registro do artigo na INFORMS](https://doi.org/10.1287/mnsc.32.5.554). Acesso em: 18 jul. 2026.
+- ROBBINS, Stephen P.; JUDGE, Timothy A. **Comportamento organizacional**. Referência para funções, barreiras, fluxos, redes e rede de rumores.
+- KUNSCH, Margarida Maria Krohling. **Planejamento de relações públicas na comunicação integrada**. Referência para comunicação organizacional e perspectivas.
+- CEBRASPE. **Concurso TCE/PA 2016**. Disponível na [página oficial do concurso](https://cdn.cebraspe.org.br/concursos/TCE_PA_16/). Acesso em: 18 jul. 2026.
+- CEBRASPE. **Concurso IPHAN 2018**. Disponível na [página oficial do concurso](https://cdn.cebraspe.org.br/concursos/IPHAN_18/). Acesso em: 18 jul. 2026.
+- GOVERNO DO ESPÍRITO SANTO. **Concurso DETRAN/ES 2010**. Disponível na [página institucional sobre o concurso](https://www.es.gov.br/Noticia/detranes-divulga-edital-de-concurso-publico-a). Acesso em: 18 jul. 2026.
