@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: pull-request-validation-${{ github.event.pull_request.number }}
@@ -19,121 +19,8 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check out pull request branch
+      - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-
-      - name: Diagnose and materialize reviewed subject files
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import base64
-          import bz2
-          import hashlib
-          import json
-          import traceback
-          from pathlib import Path
-
-          parts = [
-              ('.github/planejamento-bundle.part1a', 1500, '443aabd0db7d5efa516f3ab53f0b55a0fcd99c6a29f351084f91e8fa3783bf45'),
-              ('.github/planejamento-bundle.part1b', 1500, '8dc87a4039f7f854f7fb2e97fafbc72a2f0fa0570666628490c2776940069b60'),
-              ('.github/planejamento-bundle.part1c', 1500, '460afadd421bc504177532bf2d4e03b2c6449a6a219149b523cfda265fce95da'),
-              ('.github/planejamento-bundle.part1d', 1500, '2094f402d6fbf45c96ddf70c067733fa7c185ca978fd977673d856a18d914c12'),
-              ('.github/planejamento-bundle.part1e', 1500, '634bc0abdf2317e6507d83c0b37b6f96efbbf3ed477bf4cb536401d81104d45e'),
-              ('.github/planejamento-bundle.part2a', 1500, 'c9aa8b7ff36e93602c7d3efdb115ffcd01313bd0a4f4617ab79c1c7f84a4bbd6'),
-              ('.github/planejamento-bundle.part2b', 1500, '0126784bddd62219aac074ecfd2c2f82df83a93fb92e07b90e8bba7ce7005aa7'),
-              ('.github/planejamento-bundle.part2c', 1500, '3013db3bc1ece26e7470028913e3594a7f2bef394ac7d684ceaff43baead75b0'),
-              ('.github/planejamento-bundle.part2d', 1500, 'fcd28dfdd6ebde6e29d824fb1bfa3bdc1857f688caea8d8ec99e6ecf1fcc81de'),
-              ('.github/planejamento-bundle.part2e', 1500, 'bd75071095f1a59f38ff9ec38bd84c9c10dc88148d738315bc82d344a7029d72'),
-              ('.github/planejamento-bundle.part3a', 1500, '26a972a7a922e70c02eb7727d3166238984c23a9295d0708f99dcce02daf2354'),
-              ('.github/planejamento-bundle.part3b', 1500, 'b2dd7f412ea31378db68ba36372b19f44b6745b75d29469da40d93c68050dc62'),
-              ('.github/planejamento-bundle.part3c', 1500, 'e918d536a7e8e84730e7a08b362c80d8a9d4cf7f6dfa55946afc448c118275fd'),
-              ('.github/planejamento-bundle.part3d', 1500, '1a85ba2018d9c157131f59e5c2bd382a958fcb34aaf381ca777745af3360bab6'),
-              ('.github/planejamento-bundle.part3e1', 750, '89137be04221b55d6c6e7cc537d931d463151661abbdbb13040fe504f06a52fa'),
-              ('.github/planejamento-bundle.part3e2', 750, 'ebfd41ccf1cdd27493d41456aeb57385407e881d5fd3f1fb3cd37ce00509efab'),
-              ('.github/planejamento-bundle.part4a', 1200, '3c640fd36c38b7fc1690cc095590c2d2aae8afde547712427f0a840bf9abc64f'),
-              ('.github/planejamento-bundle.part4b', 1200, '02a2905c28d6ec1f1dec7a64a378fc06b224397ccaad0ff4ebba40b23d40cebe'),
-              ('.github/planejamento-bundle.part4c', 996, 'a08a3895dfc5ec122a45172f7d68db5ecdf4210e9b056738ebd9ba8c01bbc28c'),
-          ]
-          report = []
-          status = 'failure'
-          try:
-              segments = []
-              for path, expected_length, expected_hash in parts:
-                  segment = Path(path).read_text(encoding='utf-8').strip()
-                  actual_hash = hashlib.sha256(segment.encode()).hexdigest()
-                  report.append(f'{path}: length={len(segment)} sha256={actual_hash}')
-                  if len(segment) != expected_length:
-                      raise ValueError(f'length mismatch for {path}: {len(segment)} != {expected_length}')
-                  if actual_hash != expected_hash:
-                      raise ValueError(f'hash mismatch for {path}')
-                  segments.append(segment)
-
-              payload = ''.join(segments)
-              report.append(f'payload: length={len(payload)} sha256={hashlib.sha256(payload.encode()).hexdigest()}')
-              if len(payload) != 25896:
-                  raise ValueError(f'unexpected payload length: {len(payload)}')
-
-              compressed = base64.b64decode(payload, validate=True)
-              compressed_sha = hashlib.sha256(compressed).hexdigest()
-              report.append(f'compressed: bytes={len(compressed)} sha256={compressed_sha}')
-              if compressed_sha != '37c9f0075fdf816518e09ace90ba85122e850b0da41a59ef0917c36ec5c7b3d9':
-                  raise ValueError('compressed payload checksum mismatch')
-
-              bundle = bz2.decompress(compressed)
-              bundle_sha = hashlib.sha256(bundle).hexdigest()
-              report.append(f'bundle: bytes={len(bundle)} sha256={bundle_sha}')
-              if bundle_sha != 'fba3807f8e8eb66f23c3b7cb118dd7dd8f16853f9bd91c56eec3e9e6b7c98325':
-                  raise ValueError('bundle checksum mismatch')
-
-              files = json.loads(bundle.decode('utf-8'))
-              expected = {
-                  'conteudo.md': '26ab2fdfe05c18d659c1f04044edc79b313deb9309da1904499ae9e45d7297c4',
-                  'cheat-sheet.md': '22aa9efd3fffda380b3724e19d4f1f8cfdd16eaca7e1149634b789a95ccc4d31',
-                  'questoes.json': '3d12be82a44573b128890d8a8479003b5df6a2ba7668e5a3129e3617dbb2acb5',
-              }
-              if set(files) != set(expected):
-                  raise ValueError(f'unexpected bundle entries: {sorted(files)}')
-
-              target_dir = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-estrategico')
-              for name, checksum in expected.items():
-                  content = files[name].encode('utf-8')
-                  actual = hashlib.sha256(content).hexdigest()
-                  report.append(f'{name}: bytes={len(content)} sha256={actual}')
-                  if actual != checksum:
-                      raise ValueError(f'checksum mismatch for {name}')
-                  (target_dir / name).write_bytes(content)
-              status = 'success'
-          except Exception as error:
-              report.append(f'error_type={type(error).__name__}')
-              report.append(f'error={error}')
-              report.extend(traceback.format_exc().splitlines())
-
-          report.append(f'status={status}')
-          Path('.github/planejamento-diagnostic.txt').write_text('\n'.join(report) + '\n', encoding='utf-8')
-          Path('/tmp/materialize-status').write_text(status, encoding='utf-8')
-          print('\n'.join(report))
-          PY
-
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-estrategico'
-
-          if [ "$(cat /tmp/materialize-status)" != 'success' ]; then
-            git add .github/planejamento-diagnostic.txt
-            if ! git diff --cached --quiet; then
-              git commit -m 'ci: registra diagnóstico do pacote de planejamento'
-              git push origin HEAD:${{ github.head_ref }}
-            fi
-            exit 1
-          fi
-
-          git add .github/planejamento-diagnostic.txt "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
-          if ! git diff --cached --quiet; then
-            git commit -m 'content: aprofunda planejamento estratégico'
-            git push origin HEAD:${{ github.head_ref }}
-          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
