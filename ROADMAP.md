@@ -206,7 +206,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 3.4. Leis de De Morgan.
 - 3.5. Diagramas lógicos.
 
-##### [ ] Assunto 040 - Item 4: Lógica de primeira ordem.
+##### [>] Em progresso Assunto 040 - Item 4: Lógica de primeira ordem.
 
 ##### [ ] Assunto 041 - Item 5: Princípios de contagem e probabilidade.
 
