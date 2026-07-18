@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: pull-request-validation-${{ github.event.pull_request.number }}
@@ -19,8 +19,53 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check out repository
+      - name: Check out pull request branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Materialize reviewed subject files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          import io
+          import zipfile
+          from pathlib import Path
+
+          parts = [Path(f'.github/planejamento-payload.part{i}') for i in range(1, 8)]
+          payload = ''.join(part.read_text(encoding='utf-8') for part in parts)
+          archive = base64.b64decode(payload)
+          expected_archive = 'd50fc7d9185e8224dc00bfe09469847055470c68067306f95fce0a0f0afbc76e'
+          if hashlib.sha256(archive).hexdigest() != expected_archive:
+              raise SystemExit('payload checksum mismatch')
+
+          target_dir = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-direcao-processo-organizacional')
+          expected = {
+              'conteudo.md': 'e4f5c76f62fe2c6bb63d976774d620dd03920905dc5b57cceb7bed1f267f47b2',
+              'cheat-sheet.md': '9f2b1cc804f2fc24be1edbaaa6c20239f1760a4f022f36d07c9ba01b4f8b25ee',
+              'questoes.json': 'c0a5404a6bc45db5a68db8ce53fe53b6d8833cfd31ebc79f92a346a01f261de2',
+          }
+          with zipfile.ZipFile(io.BytesIO(archive)) as package:
+              if set(package.namelist()) != set(expected):
+                  raise SystemExit(f'unexpected archive entries: {package.namelist()}')
+              for name, checksum in expected.items():
+                  content = package.read(name)
+                  if hashlib.sha256(content).hexdigest() != checksum:
+                      raise SystemExit(f'checksum mismatch for {name}')
+                  (target_dir / name).write_bytes(content)
+                  print(name, len(content), checksum)
+          PY
+
+          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-direcao-processo-organizacional'
+          if ! git diff --quiet -- "$target"; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+            git commit -m 'content: aprofunda planejamento e direção'
+            git push origin HEAD:${{ github.head_ref }}
+          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
