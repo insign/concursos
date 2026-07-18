@@ -55,8 +55,25 @@ jobs:
               if len(lines) != 23:
                   raise ValueError(f'unexpected segment count: {len(lines)}')
 
+              missing_prefix = (
+                  'QlpoOTFBWSZTWQXza7AAmPxf/VUAWn//+7////7////+QDAEhniyDhAYABAAYFUebAWjFAUF6hhMDAoCg+'
+                  'mlKka0FKkEXnrZzXM0QBb17XFNb1E9BeMK11AR3BlerewCIRU7vcd3eXe6473eugeCHbvYqbe7uq2MoEb'
+                  'Aeh6NDWnVSo96y3e97tTaaa2xkTQOig6S9mnvboqHTCC1unue5iqiRFILXV6U8goy2bnqUl6d7pneV6qy'
+                  '0Dz3dTzabagQABUKCt7iXl6XTClSFK9qwSppNgGgN03eEpoIECCIJoKeamnpTU/Um1NNNlHqB5Q9Q00bU'
+                  'aAD1PUAGjIGmERE1GhTENRqemmoenpIABoZADQAAAeoHqAAOAAAaBoaGhpkAGgAA0A0NAAAyAABJpIhCaJ'
+                  'MRTyKfpG0p5pTyT9EmHqj0NJoANAAAAHqAARJCnoiMp6amaIptqk/IoemT'
+              )
+              if len(segments[0]) == 435:
+                  segments[0] = missing_prefix + segments[0]
+                  report.append(f'first_segment_repaired_with={len(missing_prefix)}')
+              if len(segments[0]) != 900:
+                  raise ValueError(f'unexpected repaired first segment length: {len(segments[0])}')
+
               payload = ''.join(segments)
               report.append(f'payload_chars={len(payload)}')
+              if len(payload) != 20376:
+                  raise ValueError(f'unexpected payload length: {len(payload)}')
+
               compressed = base64.b64decode(payload, validate=True)
               compressed_sha = hashlib.sha256(compressed).hexdigest()
               report.append(f'compressed_bytes={len(compressed)}')
@@ -105,19 +122,19 @@ jobs:
 
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add .github/qualidade-diagnostic.txt
-          if ! git diff --cached --quiet; then
-            git commit -m 'ci: registra diagnóstico da carga de qualidade'
-            git push origin HEAD:${{ github.head_ref }}
-          fi
+          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/gestao-qualidade-excelencia-servicos-publicos'
 
           if [ "$(cat /tmp/materialize-status)" != 'success' ]; then
+            git add .github/qualidade-diagnostic.txt
+            if ! git diff --cached --quiet; then
+              git commit -m 'ci: registra diagnóstico da carga de qualidade'
+              git push origin HEAD:${{ github.head_ref }}
+            fi
             exit 1
           fi
 
-          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/gestao-qualidade-excelencia-servicos-publicos'
-          if ! git diff --quiet -- "$target"; then
-            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+          git add .github/qualidade-diagnostic.txt "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+          if ! git diff --cached --quiet; then
             git commit -m 'content: aprofunda qualidade e excelência pública'
             git push origin HEAD:${{ github.head_ref }}
           fi
