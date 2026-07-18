@@ -24,7 +24,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Materialize reviewed subject files
+      - name: Diagnose and materialize reviewed subject files
         shell: bash
         run: |
           python3 - <<'PY'
@@ -32,63 +32,97 @@ jobs:
           import bz2
           import hashlib
           import json
+          import traceback
           from pathlib import Path
 
           parts = [
-              '.github/planejamento-bundle.part1',
-              '.github/planejamento-bundle.part2',
-              '.github/planejamento-bundle.part3a',
-              '.github/planejamento-bundle.part3b',
-              '.github/planejamento-bundle.part3c',
-              '.github/planejamento-bundle.part3d',
-              '.github/planejamento-bundle.part3e1',
-              '.github/planejamento-bundle.part3e2',
-              '.github/planejamento-bundle.part4a',
-              '.github/planejamento-bundle.part4b',
-              '.github/planejamento-bundle.part4c',
+              ('.github/planejamento-bundle.part1', 7500, 'f39d97491decc026d3bbac5616a9e5cfbedbe580d2ec5ec0218fb87c55fc6d8e'),
+              ('.github/planejamento-bundle.part2', 7500, '61040efd8b86853ca3d65f7c0b9e7b6f6e6b12c9c2d1e257866a7fa1ddcd28aa'),
+              ('.github/planejamento-bundle.part3a', 1500, '26a972a7a922e70c02eb7727d3166238984c23a9295d0708f99dcce02daf2354'),
+              ('.github/planejamento-bundle.part3b', 1500, 'b2dd7f412ea31378db68ba36372b19f44b6745b75d29469da40d93c68050dc62'),
+              ('.github/planejamento-bundle.part3c', 1500, 'e918d536a7e8e84730e7a08b362c80d8a9d4cf7f6dfa55946afc448c118275fd'),
+              ('.github/planejamento-bundle.part3d', 1500, '1a85ba2018d9c157131f59e5c2bd382a958fcb34aaf381ca777745af3360bab6'),
+              ('.github/planejamento-bundle.part3e1', 750, '89137be04221b55d6c6e7cc537d931d463151661abbdbb13040fe504f06a52fa'),
+              ('.github/planejamento-bundle.part3e2', 750, 'ebfd41ccf1cdd27493d41456aeb57385407e881d5fd3f1fb3cd37ce00509efab'),
+              ('.github/planejamento-bundle.part4a', 1200, '3c640fd36c38b7fc1690cc095590c2d2aae8afde547712427f0a840bf9abc64f'),
+              ('.github/planejamento-bundle.part4b', 1200, '02a2905c28d6ec1f1dec7a64a378fc06b224397ccaad0ff4ebba40b23d40cebe'),
+              ('.github/planejamento-bundle.part4c', 996, 'a08a3895dfc5ec122a45172f7d68db5ecdf4210e9b056738ebd9ba8c01bbc28c'),
           ]
-          payload = ''.join(Path(part).read_text(encoding='utf-8').strip() for part in parts)
-          if len(payload) != 25896:
-              raise SystemExit(f'unexpected payload length: {len(payload)}')
+          report = []
+          status = 'failure'
+          try:
+              segments = []
+              for path, expected_length, expected_hash in parts:
+                  segment = Path(path).read_text(encoding='utf-8').strip()
+                  actual_hash = hashlib.sha256(segment.encode()).hexdigest()
+                  report.append(f'{path}: length={len(segment)} sha256={actual_hash}')
+                  if len(segment) != expected_length:
+                      raise ValueError(f'length mismatch for {path}: {len(segment)} != {expected_length}')
+                  if actual_hash != expected_hash:
+                      raise ValueError(f'hash mismatch for {path}')
+                  segments.append(segment)
 
-          compressed = base64.b64decode(payload, validate=True)
-          compressed_sha = hashlib.sha256(compressed).hexdigest()
-          print('compressed bytes:', len(compressed))
-          print('compressed sha256:', compressed_sha)
-          if compressed_sha != '37c9f0075fdf816518e09ace90ba85122e850b0da41a59ef0917c36ec5c7b3d9':
-              raise SystemExit('compressed payload checksum mismatch')
+              payload = ''.join(segments)
+              report.append(f'payload: length={len(payload)} sha256={hashlib.sha256(payload.encode()).hexdigest()}')
+              if len(payload) != 25896:
+                  raise ValueError(f'unexpected payload length: {len(payload)}')
 
-          bundle = bz2.decompress(compressed)
-          bundle_sha = hashlib.sha256(bundle).hexdigest()
-          print('bundle bytes:', len(bundle))
-          print('bundle sha256:', bundle_sha)
-          if bundle_sha != 'fba3807f8e8eb66f23c3b7cb118dd7dd8f16853f9bd91c56eec3e9e6b7c98325':
-              raise SystemExit('bundle checksum mismatch')
+              compressed = base64.b64decode(payload, validate=True)
+              compressed_sha = hashlib.sha256(compressed).hexdigest()
+              report.append(f'compressed: bytes={len(compressed)} sha256={compressed_sha}')
+              if compressed_sha != '37c9f0075fdf816518e09ace90ba85122e850b0da41a59ef0917c36ec5c7b3d9':
+                  raise ValueError('compressed payload checksum mismatch')
 
-          files = json.loads(bundle.decode('utf-8'))
-          expected = {
-              'conteudo.md': '26ab2fdfe05c18d659c1f04044edc79b313deb9309da1904499ae9e45d7297c4',
-              'cheat-sheet.md': '22aa9efd3fffda380b3724e19d4f1f8cfdd16eaca7e1149634b789a95ccc4d31',
-              'questoes.json': '3d12be82a44573b128890d8a8479003b5df6a2ba7668e5a3129e3617dbb2acb5',
-          }
-          if set(files) != set(expected):
-              raise SystemExit(f'unexpected bundle entries: {sorted(files)}')
+              bundle = bz2.decompress(compressed)
+              bundle_sha = hashlib.sha256(bundle).hexdigest()
+              report.append(f'bundle: bytes={len(bundle)} sha256={bundle_sha}')
+              if bundle_sha != 'fba3807f8e8eb66f23c3b7cb118dd7dd8f16853f9bd91c56eec3e9e6b7c98325':
+                  raise ValueError('bundle checksum mismatch')
 
-          target_dir = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-estrategico')
-          for name, checksum in expected.items():
-              content = files[name].encode('utf-8')
-              actual = hashlib.sha256(content).hexdigest()
-              print(name, len(content), actual)
-              if actual != checksum:
-                  raise SystemExit(f'checksum mismatch for {name}')
-              (target_dir / name).write_bytes(content)
+              files = json.loads(bundle.decode('utf-8'))
+              expected = {
+                  'conteudo.md': '26ab2fdfe05c18d659c1f04044edc79b313deb9309da1904499ae9e45d7297c4',
+                  'cheat-sheet.md': '22aa9efd3fffda380b3724e19d4f1f8cfdd16eaca7e1149634b789a95ccc4d31',
+                  'questoes.json': '3d12be82a44573b128890d8a8479003b5df6a2ba7668e5a3129e3617dbb2acb5',
+              }
+              if set(files) != set(expected):
+                  raise ValueError(f'unexpected bundle entries: {sorted(files)}')
+
+              target_dir = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-estrategico')
+              for name, checksum in expected.items():
+                  content = files[name].encode('utf-8')
+                  actual = hashlib.sha256(content).hexdigest()
+                  report.append(f'{name}: bytes={len(content)} sha256={actual}')
+                  if actual != checksum:
+                      raise ValueError(f'checksum mismatch for {name}')
+                  (target_dir / name).write_bytes(content)
+              status = 'success'
+          except Exception as error:
+              report.append(f'error_type={type(error).__name__}')
+              report.append(f'error={error}')
+              report.extend(traceback.format_exc().splitlines())
+
+          report.append(f'status={status}')
+          Path('.github/planejamento-diagnostic.txt').write_text('\n'.join(report) + '\n', encoding='utf-8')
+          Path('/tmp/materialize-status').write_text(status, encoding='utf-8')
+          print('\n'.join(report))
           PY
 
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-estrategico'
-          if ! git diff --quiet -- "$target"; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+
+          if [ "$(cat /tmp/materialize-status)" != 'success' ]; then
+            git add .github/planejamento-diagnostic.txt
+            if ! git diff --cached --quiet; then
+              git commit -m 'ci: registra diagnóstico do pacote de planejamento'
+              git push origin HEAD:${{ github.head_ref }}
+            fi
+            exit 1
+          fi
+
+          git add .github/planejamento-diagnostic.txt "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+          if ! git diff --cached --quiet; then
             git commit -m 'content: aprofunda planejamento estratégico'
             git push origin HEAD:${{ github.head_ref }}
           fi
