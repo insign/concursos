@@ -133,7 +133,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 2.4. Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet) e noções de trabalho remoto.
 
-##### [>] Em progresso Assunto 026 - Item 3, subitens 3.1 e 3.3, recorte: Cópia de segurança e armazenamento em nuvem.
+##### [R] Em revisão Assunto 026 - Item 3, subitens 3.1 e 3.3, recorte: Cópia de segurança e armazenamento em nuvem.
 
 - 3.1. Segurança da informação: procedimentos de cópia de segurança (backup).
 - 3.3. Armazenamento em nuvem (cloud storage): conceitos e aplicações (OneDrive, Google Drive).
