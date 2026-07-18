@@ -1,316 +1,282 @@
-# Gestão da qualidade e excelência nos serviços públicos
+# Gestão da qualidade e excelência: revisão rápida
 
-## Núcleo
+## Qualidade pública
 
-- Qualidade = atender requisitos e necessidades relevantes.
-- Qualidade pública = conformidade + adequação + valor público + direitos do usuário.
-- Excelência = resultados superiores e sustentáveis com aprendizado contínuo.
-- Excelência ≠ perfeição, prêmio ou certificação isolada.
-- Satisfação individual não afasta legalidade, igualdade nem interesse público.
+- conformidade;
+- adequação ao uso;
+- consistência;
+- experiência do usuário;
+- equidade e acessibilidade;
+- valor e resultado público.
 
-## Perspectivas
-
-| Perspectiva | Foco |
-| --- | --- |
-| Conformidade | norma, padrão e requisito |
-| Adequação ao uso | solução da necessidade |
-| Percepção | experiência avaliada pelo usuário |
-| Valor público | benefício legítimo para a sociedade |
-| Equidade/acesso | alcance sem discriminação e com acessibilidade |
-| Continuidade/segurança | disponibilidade e proteção |
-
-- Usuário = pessoa física ou jurídica, efetiva ou potencial.
-- Cidadão possui direitos, deveres e participação; não é mero consumidor.
-- Cliente é metáfora gerencial útil, não transposição integral da lógica privada.
+Satisfação individual não supera legalidade, direitos ou interesse coletivo.
 
 ## Evolução
 
-| Ênfase | Núcleo |
+| Abordagem | Foco |
 | --- | --- |
-| Inspeção | detectar defeito na entrega |
-| Controle | medir variação e corrigir processo |
-| Garantia | prevenir por sistema, padrão e responsabilidade |
-| GQT/TQM | integrar estratégia, pessoas, processos e usuários |
-
-- As fases não se excluem totalmente.
-- Inspeção é reativa; garantia prioriza prevenção.
-- Qualidade é responsabilidade de todos, com papéis definidos.
+| inspeção | detectar defeito final |
+| controle | monitorar processo |
+| garantia | prevenir por sistema e padrão |
+| qualidade total | envolver toda a organização |
+| excelência | alinhar governança, estratégia e resultados |
 
 ## Autores
 
-- Deming: sistema, variação, aprendizado e melhoria contínua.
-- Juran: planejamento + controle + melhoria; adequação ao uso.
-- Crosby: conformidade, prevenção, zero defeito e custo da não conformidade.
-- Ishikawa: qualidade ampla, participação e causa e efeito.
-- Zero defeito = orientação preventiva; não promessa de infalibilidade.
-
-## Serviços
-
-- Intangibilidade: não predominam bens examináveis antes do uso.
-- Inseparabilidade: produção e consumo podem coincidir.
-- Variabilidade: pessoa, contexto e canal alteram a experiência.
-- Perecibilidade: capacidade ociosa não vira estoque acabado.
-- São tendências, não regras absolutas.
-
-## SERVQUAL
-
-| Dimensão | Lembrete |
+| Autor | Associação |
 | --- | --- |
-| Tangibilidade | instalações, equipamentos e aparência |
-| Confiabilidade | cumprir corretamente o prometido |
-| Responsividade | disposição e rapidez para ajudar |
-| Segurança/garantia | conhecimento, cortesia e confiança |
-| Empatia | atenção às necessidades |
+| Shewhart | cartas de controle, causas comuns e especiais |
+| Deming | sistema, liderança, PDSA/PDCA, 14 pontos |
+| Juran | trilogia: planejamento, controle e melhoria |
+| Crosby | conformidade, prevenção, zero defeitos |
+| Ishikawa | causa e efeito, círculos da qualidade |
+| Feigenbaum | controle da qualidade total |
+| Taguchi | robustez e função perda |
+| Garvin | oito dimensões da qualidade |
 
-- Compara expectativa e percepção.
-- Modelo acadêmico, não norma jurídica.
-- Confiabilidade ≠ dimensão segurança.
+### Pegadinhas
 
-## ISO
+- Deming não defende inspeção em massa.
+- Juran não é “zero defeitos”.
+- Crosby não criou Ishikawa.
+- Diagrama de Ishikawa não prova causa.
+- Taguchi admite perda pelo afastamento do alvo, mesmo dentro da especificação.
 
-Sete princípios, sem prioridade fixa:
+## ISO em 18/07/2026
 
-1. foco no cliente;
+| Norma | Situação |
+| --- | --- |
+| ISO 9000:2026 | publicada; fundamentos e vocabulário |
+| ISO 9001:2015 + Amd 1:2024 | requisitos publicados vigentes |
+| ISO 9001:2026 | em publicação; prevista para setembro |
+
+- ISO 9000 não é norma de certificação.
+- ISO 9001 contém requisitos.
+- Certificação não prova ausência de falhas.
+- Princípios não têm ordem universal rígida.
+
+## Sete princípios
+
+1. foco no usuário;
 2. liderança;
-3. engajamento das pessoas;
-4. abordagem de processos;
+3. engajamento;
+4. abordagem de processo;
 5. melhoria;
-6. decisão baseada em evidências;
+6. decisão baseada em evidência;
 7. gestão de relacionamentos.
 
-- ISO 9000 = fundamentos e vocabulário.
-- ISO 9001 = requisitos de sistema de gestão da qualidade.
-- Certificação ≠ excelência, legalidade ou satisfação automáticas.
+## Correção × ação corretiva × prevenção
 
-## PDCA
-
-| Fase | Ação |
+| Conceito | Ação |
 | --- | --- |
-| Plan | problema, causa, meta, método, indicador e plano |
-| Do | executar, capacitar e coletar dados |
-| Check | comparar resultado com meta/padrão |
-| Act | padronizar ou corrigir e replanejar |
+| correção | trata falha detectada |
+| ação corretiva | elimina causa da recorrência |
+| prevenção por riscos | atua antes da ocorrência |
 
-- Check não encerra o ciclo.
-- Meta = resultado pretendido.
-- Método = como executar.
-- Padrão = condição estabelecida.
-- Indicador = medida.
-- Padronizar ≠ congelar.
+## PDCA/PDSA
+
+| Etapa | Núcleo |
+| --- | --- |
+| Plan | problema, causa, meta e plano |
+| Do | executar ou testar |
+| Check/Study | medir e aprender |
+| Act | padronizar ou corrigir |
+
+O ciclo não termina no Check.
 
 ## MASP
 
 1. identificação;
 2. observação;
 3. análise;
-4. plano de ação;
+4. plano;
 5. ação;
 6. verificação;
 7. padronização;
 8. conclusão.
 
-- MASP é método estruturado relacionado ao PDCA.
-- Oito etapas são convenção didática, não regra legal.
-- Sintoma ≠ causa.
-- Solução preferida ≠ causa comprovada.
+Observação reúne fatos; análise busca causas.
 
 ## Sete ferramentas
 
-| Ferramenta | Uso | Pegadinha |
-| --- | --- | --- |
-| Fluxograma | sequência e decisões | desenho não melhora sozinho |
-| Folha de verificação | coleta padronizada | não prova causa |
-| Histograma | distribuição de frequências | pode perder ordem temporal |
-| Pareto | priorização por relevância | 80/20 não é lei |
-| Ishikawa | hipóteses de causa | hipótese exige validação |
-| Dispersão | associação entre variáveis | correlação ≠ causalidade |
-| Carta de controle | variação temporal | controle ≠ especificação/meta |
+| Ferramenta | Uso |
+| --- | --- |
+| folha de verificação | coletar |
+| estratificação | separar categorias |
+| histograma | visualizar distribuição |
+| Pareto | priorizar |
+| Ishikawa | organizar causas |
+| dispersão | examinar associação |
+| carta de controle | acompanhar estabilidade |
 
-- Ishikawa: método, mão de obra, máquina, material, medição e meio ambiente.
-- Categorias podem ser adaptadas a serviços.
-- Causa comum = variação do sistema.
-- Causa especial = evento específico a investigar.
+- Pareto não prova causa.
+- Correlação não prova causalidade.
+- Limite de controle não é especificação.
 
-## Outras ferramentas
+## Controle estatístico
 
-- Brainstorming: gerar ideias; selecionar depois com critérios.
-- Cinco porquês: aprofundar investigação; cinco não é número rígido.
-- GUT: gravidade × urgência × tendência.
-- 5W2H: what, why, where, when, who, how, how much.
-- Benchmarking: aprender e adaptar; não copiar.
-- Esforço × impacto: apoiar priorização.
-- 5W2H planeja ação; não descobre causa raiz.
+- causa comum: inerente ao sistema;
+- causa especial: evento identificável;
+- estável: variação previsível;
+- capaz: atende especificação;
+- estável ≠ capaz.
 
-## Indicadores
+Sinais especiais: ponto fora do limite, tendência, sequência prolongada, padrão não aleatório.
 
-Ficha mínima:
+## 5S
 
-- nome e objetivo;
-- definição e fórmula;
-- unidade;
-- fonte;
-- periodicidade;
-- responsável;
-- linha de base;
-- meta/faixa;
-- segmentação;
-- ação associada.
+| Senso | Núcleo |
+| --- | --- |
+| Seiri | utilização |
+| Seiton | ordenação |
+| Seiso | limpeza |
+| Seiketsu | padronização/saúde |
+| Shitsuke | disciplina |
 
-- Indicador ≠ meta.
-- Prazo: média, mediana, percentil, percentual no prazo.
-- Qualidade: erro, devolução e retrabalho.
-- Usuário: satisfação, esforço e reclamações.
-- Acesso: cobertura, abandono e acessibilidade.
-- Eficiência: custo por serviço concluído, com qualidade.
-- Volume isolado não prova valor público.
+As traduções podem variar.
+
+## Six Sigma — DMAIC
+
+| Etapa | Núcleo |
+| --- | --- |
+| Define | problema e escopo |
+| Measure | dados e desempenho |
+| Analyze | causas |
+| Improve | soluções |
+| Control | sustentação |
+
+Objetivo: reduzir variação e defeitos.
 
 ## Custos
 
-| Categoria | Exemplos |
-| --- | --- |
-| Prevenção | capacitação, padrão, manutenção e riscos |
-| Avaliação | teste, auditoria, inspeção e pesquisa |
-| Falha interna | erro antes da entrega e retrabalho |
-| Falha externa | reclamação, correção posterior e dano |
+- prevenção;
+- avaliação;
+- falha interna;
+- falha externa.
 
-- Não qualidade = falhas internas + externas, na classificação usual.
-- Não qualidade pública inclui atraso de direito, desperdício e perda de confiança.
-- Mais gasto em controle não garante mais qualidade.
+Falha externa ocorre após chegar ao usuário.
 
-## Processo e risco
+## Serviços
 
-1. usuário e requisito;
-2. entrega e padrão;
-3. fluxo/jornada;
-4. falha, espera e barreira;
-5. risco;
-6. controle proporcional;
-7. indicadores;
-8. melhoria e padrão;
-9. risco residual.
+### SERVQUAL
 
-- Qualidade deve ser construída no processo.
-- Risco e qualidade são complementares.
-- Controle excessivo pode criar custo e demora.
+- tangibilidade;
+- confiabilidade;
+- responsividade;
+- segurança;
+- empatia.
+
+Confiabilidade = cumprir corretamente.  
+Responsividade = ajudar com rapidez.
+
+### Lacunas
+
+1. expectativa × percepção gerencial;
+2. percepção × especificação;
+3. especificação × execução;
+4. execução × comunicação externa;
+5. esperado × percebido.
+
+### Blueprint
+
+- ações do usuário;
+- front office;
+- back office;
+- apoio;
+- evidências;
+- linhas de interação e visibilidade.
+
+## Indicadores
+
+Combine:
+
+- prazo;
+- erro/retrabalho;
+- custo;
+- produtividade;
+- acesso;
+- equidade;
+- satisfação;
+- resolutividade;
+- impacto.
+
+Reduzir tempo com mais erro não é melhoria.
+
+## Qualidade em processos
+
+Procure:
+
+- valor;
+- gargalo;
+- variabilidade;
+- retrabalho;
+- risco;
+- controle;
+- causa;
+- indicador.
+
+Automação não corrige processo ruim automaticamente.
 
 ## Excelência pública
 
-- Valor público e usuário.
-- Visão sistêmica.
-- Liderança, integridade e governança.
-- Estratégia, pessoas e processos alinhados.
-- Evidência, aprendizado, inovação e melhoria.
-- Relacionamentos e partes interessadas.
-- Resultados sustentáveis e comparáveis.
+### MEGP histórico
 
-## GesPública
+- liderança;
+- estratégias e planos;
+- cidadãos;
+- sociedade;
+- informação e conhecimento;
+- pessoas;
+- processos;
+- resultados.
 
-- Decreto nº 5.378/2005 instituiu GesPública e MEGP.
-- Objetivos: desburocratização, qualidade, resultados e avaliação contínua.
-- Decreto nº 9.094/2017 revogou expressamente o Decreto nº 5.378/2005.
-- GesPública/MEGP = referência histórica, não programa vigente.
+GesPública foi revogado.
 
-## Gestaopublicagov.br
+### Gestaopublicagov.br
 
-- Instituído pela Portaria SEGES/MGI nº 7.383/2023.
-- Escopo: órgãos e entidades que operacionalizam transferências da União no Transferegov.br.
-- Não é modelo obrigatório universal para toda a Administração.
+- modelo atual;
+- IMGGs;
+- diagnóstico e melhoria;
+- reconhecimento nacional;
+- ativo em 2026.
 
-Ciclo:
-
-1. Acordo de Adesão;
-2. aplicação do IMGG;
-3. execução do PMGG.
-
-- Validação externa: requisitos e IMGG ≥ 50%.
-- Condições mantidas: certificado; abaixo: declaração de aplicação.
-- Declaração/certificado: validade de dois anos.
-- OSCs do marco indicado: excluídas.
-- TransformaGov: aplicação dispensável nas condições do ato.
-- Organização com menos de um ano: aplicação facultativa.
-
-## Reconhecimento
-
-- Portaria nº 3.558/2024 = Reconhecimento Nacional da Excelência.
-- Distingue destaques nos IMGGs e validadores externos.
-- Alterada pela Portaria MGI-SEGES/MGI nº 2.855/2025.
-- Pode ocorrer anualmente por conveniência e oportunidade.
-- Reconhecimento ≠ instituição do modelo.
+Reconhecimento não garante excelência permanente.
 
 ## Lei nº 13.460/2017
 
-- Alcance: administração direta/indireta da União, estados, DF e municípios.
-- Aplicação subsidiária aos serviços prestados por particular.
+- direitos do usuário;
+- Carta de Serviços;
+- ouvidoria;
+- manifestações;
+- avaliação continuada;
+- divulgação dos resultados.
 
-Art. 4º:
+Carta desatualizada não gera transparência efetiva.
 
-- regularidade;
-- continuidade;
-- efetividade;
-- segurança;
-- atualidade;
-- generalidade;
-- transparência;
-- cortesia.
+## Pegadinhas finais
 
-Diretrizes: urbanidade, acessibilidade, boa-fé, igualdade, prazo, segurança, simplificação, tecnologia e linguagem simples.
+| Afirmação | Julgamento |
+| --- | --- |
+| inspeção elimina causas | errado |
+| 80/20 é lei universal | errado |
+| ponto dentro do limite prova estabilidade | errado |
+| estabilidade garante capacidade | errado |
+| ação corretiva é corrigir o efeito | errado |
+| 5S é só limpeza | errado |
+| Six Sigma aumenta variabilidade | errado |
+| ISO 9000 contém requisitos certificáveis | errado |
+| GesPública está vigente | errado |
+| satisfação basta para qualidade pública | errado |
 
-## Carta de Serviços
+## Roteiro
 
-- Serviço.
-- Requisitos/documentos/informações.
-- Etapas.
-- Prazo máximo.
-- Forma de prestação.
-- Local/meio de manifestação.
-- Prioridades e espera.
-- Comunicação e resposta.
-- Consulta de andamento.
-- Atualização periódica e divulgação permanente na internet.
-- Carta ≠ propaganda.
-
-## Ouvidoria e avaliação
-
-- Manifestação: reclamação, denúncia, sugestão, elogio etc.
-- Decisão final: 30 dias + uma prorrogação justificada de 30.
-- Relatório de gestão da ouvidoria: anual e integralmente na internet.
-- Conselho de usuários: consultivo, representativo e plural.
-
-Avaliar:
-
-1. satisfação;
-2. qualidade do atendimento;
-3. compromissos e prazos;
-4. quantidade de manifestações;
-5. medidas de melhoria.
-
-- Pesquisa no mínimo anual ou outro meio com significância estatística.
-- Resultado integral + ranking de maior incidência de reclamações.
-- Evidência deve reorientar o serviço e a Carta.
-
-## Decreto nº 9.094/2017
-
-- Âmbito: Poder Executivo federal.
-- Boa-fé, integração, racionalização, risco, tecnologia e linguagem clara.
-- Disciplina Carta e simplificação no âmbito federal.
-- Simplifique!: oportunidade de simplificação ou melhoria.
-- Pesquisa de satisfação deve reorientar e ajustar o serviço.
-
-## Pegadinhas
-
-- Lei nº 13.460/2017: alcance federativo amplo.
-- Decreto nº 9.094/2017: Executivo federal.
-- Satisfação ≠ qualidade integral.
-- Inspeção ≠ garantia.
-- GQT ≠ setor da qualidade.
-- SERVQUAL ≠ ISO.
-- ISO 9000 ≠ ISO 9001.
-- PDCA não termina no Check.
-- Ishikawa não comprova causa.
-- Pareto não obriga 80/20.
-- Correlação não prova causa.
-- Limite de controle não é meta.
-- Carta não é catálogo promocional.
-- GesPública está revogado.
-- Gestaopublicagov.br tem escopo delimitado.
-- Portaria nº 7.383 institui modelo; nº 3.558 institui reconhecimento.
+1. identifique autor e conceito;
+2. localize etapa do método;
+3. escolha ferramenta pela finalidade;
+4. diferencie causa comum e especial;
+5. separe estabilidade e capacidade;
+6. diferencie correção e ação corretiva;
+7. em serviços, localize a lacuna;
+8. confira norma e edição;
+9. no setor público, preserve direitos e equidade;
+10. rejeite absolutos.
