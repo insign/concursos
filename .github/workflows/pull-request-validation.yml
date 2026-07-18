@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: pull-request-validation-${{ github.event.pull_request.number }}
@@ -19,140 +19,8 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check out pull request branch
+      - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-
-      - name: Diagnose and materialize reviewed subject files
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import base64
-          import bz2
-          import hashlib
-          import json
-          import traceback
-          from pathlib import Path
-
-          report = []
-          status = 'failure'
-          try:
-              raw = Path('.github/qualidade-bundle.b64').read_text(encoding='utf-8')
-              lines = raw.splitlines()
-              report.append(f'line_count={len(lines)}')
-              report.append(f'raw_chars={len(raw)}')
-
-              segments = []
-              for expected_number, line in enumerate(lines, 1):
-                  prefix, segment = line.split(':', 1)
-                  report.append(f'line_{expected_number:02d}_prefix={prefix}')
-                  report.append(f'line_{expected_number:02d}_chars={len(segment)}')
-                  if prefix != f'{expected_number:02d}':
-                      raise ValueError(f'unexpected segment prefix: {prefix}')
-                  segments.append(''.join(segment.split()))
-
-              if len(lines) != 23:
-                  raise ValueError(f'unexpected segment count: {len(lines)}')
-
-              missing_prefix = (
-                  'QlpoOTFBWSZTWQXza7AAmPxf/VUAWn//+7////7////+QDAEhniyDhAYABAAYFUebAWjFAUF6hhMDAoCg+'
-                  'mlKka0FKkEXnrZzXM0QBb17XFNb1E9BeMK11AR3BlerewCIRU7vcd3eXe6473eugeCHbvYqbe7uq2MoEb'
-                  'Aeh6NDWnVSo96y3e97tTaaa2xkTQOig6S9mnvboqHTCC1unue5iqiRFILXV6U8goy2bnqUl6d7pneV6qy'
-                  '0Dz3dTzabagQABUKCt7iXl6XTClSFK9qwSppNgGgN03eEpoIECCIJoKeamnpTU/Um1NNNlHqB5Q9Q00bU'
-                  'aAD1PUAGjIGmERE1GhTENRqemmoenpIABoZADQAAAeoHqAAOAAAaBoaGhpkAGgAA0A0NAAAyAABJpIhCaJ'
-                  'MRTyKfpG0p5pTyT9EmHqj0NJoANAAAAHqAARJCnoiMp6amaIptqk/IoemT'
-              )
-              if len(segments[0]) == 435:
-                  segments[0] = missing_prefix + segments[0]
-                  report.append(f'first_segment_repaired_with={len(missing_prefix)}')
-              if len(segments[0]) != 900:
-                  raise ValueError(f'unexpected repaired first segment length: {len(segments[0])}')
-
-              payload = ''.join(segments)
-              report.append(f'payload_chars={len(payload)}')
-              if len(payload) != 20376:
-                  raise ValueError(f'unexpected payload length: {len(payload)}')
-
-              compressed = base64.b64decode(payload, validate=True)
-              compressed_sha = hashlib.sha256(compressed).hexdigest()
-              report.append(f'compressed_bytes={len(compressed)}')
-              report.append(f'compressed_sha256={compressed_sha}')
-              if compressed_sha != '6b9ec09b87811dd87b064dfbb8287c68fafa9f4aa42aa756404bc76672cdd4bd':
-                  raise ValueError('compressed payload checksum mismatch')
-
-              bundle = bz2.decompress(compressed)
-              bundle_sha = hashlib.sha256(bundle).hexdigest()
-              report.append(f'bundle_bytes={len(bundle)}')
-              report.append(f'bundle_sha256={bundle_sha}')
-              if bundle_sha != 'b39c759c8cbfc8bffadb320cb2cddf4494d9680dfcc85850a7ec155923f383b6':
-                  raise ValueError('bundle checksum mismatch')
-
-              files = json.loads(bundle.decode('utf-8'))
-              expected = {
-                  'conteudo.md': '0143233c804b575b45d4fa90499160263aa0e615c97b2de3672133cd6f5c9be4',
-                  'cheat-sheet.md': 'c937deb99e31fd899f98071eb4346daa8cc68c3adfcf96f19ae316b35c92eb23',
-                  'questoes.json': 'e7da061d73bdc3f700aa58d9440d61227f037d307f9e23674a90c45672163cc0',
-              }
-              report.append(f'bundle_entries={sorted(files)}')
-              if set(files) != set(expected):
-                  raise ValueError(f'unexpected bundle entries: {sorted(files)}')
-
-              target_dir = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/gestao-qualidade-excelencia-servicos-publicos')
-              for name, checksum in expected.items():
-                  content = files[name].encode('utf-8')
-                  actual = hashlib.sha256(content).hexdigest()
-                  report.append(f'{name}_source_bytes={len(content)}')
-                  report.append(f'{name}_source_sha256={actual}')
-                  if actual != checksum:
-                      raise ValueError(f'checksum mismatch for source {name}')
-                  (target_dir / name).write_bytes(content)
-
-              content_path = target_dir / 'conteudo.md'
-              corrected = content_path.read_text(encoding='utf-8')
-              corrected = corrected.replace('order: 107\n', 'order: 108\n', 1)
-              corrected = corrected.replace(
-                  'storageId: gestao-qualidade-excelencia-servicos-publicos\n',
-                  'storageId: gestao-qualidade-excelencia\n',
-                  1,
-              )
-              content_path.write_text(corrected, encoding='utf-8')
-              corrected_sha = hashlib.sha256(content_path.read_bytes()).hexdigest()
-              report.append(f'conteudo.md_corrected_sha256={corrected_sha}')
-              if corrected_sha != '3fa068a7c06b37ef4b907a72ffaf1200798575ca932847f987d8695ea57c97c1':
-                  raise ValueError('checksum mismatch for corrected conteudo.md')
-
-              status = 'success'
-          except Exception as error:
-              report.append(f'error_type={type(error).__name__}')
-              report.append(f'error={error}')
-              report.append('traceback=')
-              report.extend(traceback.format_exc().splitlines())
-
-          report.append(f'status={status}')
-          Path('.github/qualidade-diagnostic.txt').write_text('\n'.join(report) + '\n', encoding='utf-8')
-          Path('/tmp/materialize-status').write_text(status, encoding='utf-8')
-          print('\n'.join(report))
-          PY
-
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/gestao-qualidade-excelencia-servicos-publicos'
-
-          if [ "$(cat /tmp/materialize-status)" != 'success' ]; then
-            git add .github/qualidade-diagnostic.txt
-            if ! git diff --cached --quiet; then
-              git commit -m 'ci: registra diagnóstico da carga de qualidade'
-              git push origin HEAD:${{ github.head_ref }}
-            fi
-            exit 1
-          fi
-
-          git add .github/qualidade-diagnostic.txt "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
-          if ! git diff --cached --quiet; then
-            git commit -m 'content: corrige metadados de qualidade e excelência'
-            git push origin HEAD:${{ github.head_ref }}
-          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -167,23 +35,7 @@ jobs:
         run: npm run test:unit
 
       - name: Run Astro checks
-        shell: bash
-        run: |
-          set +e
-          npm run check 2>&1 | tee /tmp/qualidade-astro-check.log
-          status=${PIPESTATUS[0]}
-          set -e
-          if [ "$status" -ne 0 ]; then
-            cp /tmp/qualidade-astro-check.log .github/qualidade-astro-check.log
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add .github/qualidade-astro-check.log
-            if ! git diff --cached --quiet; then
-              git commit -m 'ci: registra diagnóstico do Astro check'
-              git push origin HEAD:${{ github.head_ref }}
-            fi
-            exit "$status"
-          fi
+        run: npm run check
 
       - name: Build production site
         run: npm run build
