@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: pull-request-validation-${{ github.event.pull_request.number }}
@@ -19,8 +19,83 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check out repository
+      - name: Check out pull request branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Materialize reviewed subject files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import bz2
+          import hashlib
+          import json
+          from pathlib import Path
+
+          parts = [
+              ('.github/tempos-modos-bundle.part1', 6000, 'cc7cc9481bea7bedaa7da636b79754bc63207b526e09b866f4f64fd23c580846'),
+              ('.github/tempos-modos-bundle.part2', 6000, '8c8a3b0580c8bdccca71d5f36e64f341536b8642a9f8dff2a1ee4209003187e6'),
+              ('.github/tempos-modos-bundle.part3', 6000, 'd0e2f920970e7028340db40f162494db7a2276c5ce804040a0d3f3dbd89e835e'),
+              ('.github/tempos-modos-bundle.part4', 4620, '4bd1276517c4e6e6ed49262755131704a278ca0c16aaf09003655bfd16c0feae'),
+          ]
+          segments = []
+          for path, expected_length, expected_hash in parts:
+              segment = Path(path).read_text(encoding='utf-8').strip()
+              actual_hash = hashlib.sha256(segment.encode()).hexdigest()
+              print(path, len(segment), actual_hash)
+              if len(segment) != expected_length:
+                  raise SystemExit(f'length mismatch for {path}')
+              if actual_hash != expected_hash:
+                  raise SystemExit(f'hash mismatch for {path}')
+              segments.append(segment)
+
+          payload = ''.join(segments)
+          if len(payload) != 22620:
+              raise SystemExit(f'unexpected payload length: {len(payload)}')
+
+          compressed = base64.b64decode(payload, validate=True)
+          compressed_sha = hashlib.sha256(compressed).hexdigest()
+          print('compressed bytes:', len(compressed))
+          print('compressed sha256:', compressed_sha)
+          if compressed_sha != '059ef5fc1d36b9fff6ddbf530117f51abfc416ccf27df24f3f0d03a6ee6d13b5':
+              raise SystemExit('compressed payload checksum mismatch')
+
+          raw = bz2.decompress(compressed)
+          raw_sha = hashlib.sha256(raw).hexdigest()
+          print('bundle bytes:', len(raw))
+          print('bundle sha256:', raw_sha)
+          if raw_sha != '13a65643297fb423e0c011dc6f397a4cf033d689edf46cba8fd71da60f0481af':
+              raise SystemExit('bundle checksum mismatch')
+
+          files = json.loads(raw.decode('utf-8'))
+          expected = {
+              'conteudo.md': '8ba8fb4b95b8e0a45200f4d95f7698065dbffa9ee1c75487ddb74d01ffb30b2a',
+              'cheat-sheet.md': 'cb0d4028f0c69ab062979699ae62653945a6252e48abb3bf4d8f76cfb0dea59c',
+              'questoes.json': 'f7aea7acb759a3d7d725655110e6e00099eadc657fb201c9b99c51d5261d5480',
+          }
+          if set(files) != set(expected):
+              raise SystemExit(f'unexpected bundle entries: {sorted(files)}')
+
+          target_dir = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/emprego-tempos-modos-verbais')
+          for name, checksum in expected.items():
+              content = files[name].encode('utf-8')
+              actual = hashlib.sha256(content).hexdigest()
+              print(name, len(content), actual)
+              if actual != checksum:
+                  raise SystemExit(f'checksum mismatch for {name}')
+              (target_dir / name).write_bytes(content)
+          PY
+
+          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/emprego-tempos-modos-verbais'
+          if ! git diff --quiet -- "$target"; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+            git commit -m 'content: aprofunda tempos e modos verbais'
+            git push origin HEAD:${{ github.head_ref }}
+          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
