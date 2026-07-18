@@ -219,7 +219,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - Item 7. Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.
 - O item 7 é desdobrado nos Assuntos 043 a 045 por domínio matemático, sem repetição do conteúdo: este assunto trata de aritmética.
 
-##### [ ] Assunto 044 - Item 7, recorte: problemas geométricos.
+##### [>] Em progresso Assunto 044 - Item 7, recorte: problemas geométricos.
 
 ##### [ ] Assunto 045 - Item 7, recorte: problemas matriciais.
 
