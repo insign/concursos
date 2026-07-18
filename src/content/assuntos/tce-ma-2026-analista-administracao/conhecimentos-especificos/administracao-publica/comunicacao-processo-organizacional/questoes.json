@@ -1,706 +1,1746 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q484",
-      "revision": 1,
-      "prompt": "Comunicação organizacional é corretamente entendida como o processo de",
+      "revision": 2,
+      "prompt": "Em um aviso, a diretoria transforma sua intenção em texto antes de enviá-lo pelo sistema corporativo. Essa transformação corresponde à",
       "options": [
-        {"id": "a", "text": "produzir, transmitir, receber e interpretar mensagens no contexto da organização"},
-        {"id": "b", "text": "emitir exclusivamente documentos escritos"},
-        {"id": "c", "text": "eliminar relações informais"},
-        {"id": "d", "text": "comparar resultados com padrões"},
-        {"id": "e", "text": "formular objetivos estratégicos"}
+        {
+          "id": "a",
+          "text": "codificação da mensagem."
+        },
+        {
+          "id": "b",
+          "text": "decodificação pelo receptor."
+        },
+        {
+          "id": "c",
+          "text": "seleção do canal pelo destinatário."
+        },
+        {
+          "id": "d",
+          "text": "retroalimentação do processo."
+        },
+        {
+          "id": "e",
+          "text": "formação da rede informal."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "Comunicação envolve produção, transmissão, recepção e interpretação contextualizada. Não se limita à escrita; controle compara resultados, e planejamento formula objetivos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Codificação é a conversão da intenção do emissor em sinais compartilháveis. Decodificação ocorre no receptor; canal é o suporte; feedback é o retorno. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q485",
-      "revision": 1,
-      "prompt": "No processo de comunicação, o elemento que transporta a mensagem é o",
+      "revision": 2,
+      "prompt": "No processo de comunicação, qual elemento corresponde ao suporte pelo qual o conteúdo circula?",
       "options": [
-        {"id": "a", "text": "contexto"},
-        {"id": "b", "text": "canal ou meio"},
-        {"id": "c", "text": "feedback"},
-        {"id": "d", "text": "receptor"},
-        {"id": "e", "text": "ruído"}
+        {
+          "id": "a",
+          "text": "A intenção do emissor."
+        },
+        {
+          "id": "b",
+          "text": "O canal ou meio."
+        },
+        {
+          "id": "c",
+          "text": "A decodificação."
+        },
+        {
+          "id": "d",
+          "text": "O contexto cultural."
+        },
+        {
+          "id": "e",
+          "text": "A função motivacional."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Canal é o suporte pelo qual o conteúdo circula. Mensagem é o conteúdo; receptor interpreta; feedback retorna informação; ruído interfere no processo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Canal é o suporte de circulação, como reunião, e-mail ou sistema. Mensagem é o conteúdo; decodificação é a interpretação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q486",
-      "revision": 1,
-      "prompt": "A transformação de uma ideia em palavras, números, imagens ou gestos denomina-se",
+      "revision": 2,
+      "prompt": "Uma unidade recebe uma instrução, interpreta-a e atribui-lhe significado. O ato descrito é a",
       "options": [
-        {"id": "a", "text": "retroação"},
-        {"id": "b", "text": "filtragem"},
-        {"id": "c", "text": "codificação"},
-        {"id": "d", "text": "decodificação"},
-        {"id": "e", "text": "controle"}
+        {
+          "id": "a",
+          "text": "filtragem ascendente."
+        },
+        {
+          "id": "b",
+          "text": "codificação."
+        },
+        {
+          "id": "c",
+          "text": "decodificação."
+        },
+        {
+          "id": "d",
+          "text": "centralização da rede."
+        },
+        {
+          "id": "e",
+          "text": "comunicação diagonal."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Codificação converte uma ideia em signos compartilháveis. Decodificação é a interpretação desses signos pelo receptor; feedback é o retorno. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Decodificar é interpretar os sinais recebidos. Codificar é produzir os sinais a partir da intenção. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q487",
-      "revision": 1,
-      "prompt": "No modelo emissor-receptor, a decodificação ocorre quando",
+      "revision": 2,
+      "prompt": "A chefia envia uma orientação e a equipe devolve uma pergunta específica sobre sua aplicação. A pergunta funciona como",
       "options": [
-        {"id": "a", "text": "o emissor escolhe o canal"},
-        {"id": "b", "text": "a organização define uma política"},
-        {"id": "c", "text": "o ruído é eliminado"},
-        {"id": "d", "text": "o receptor atribui sentido aos signos recebidos"},
-        {"id": "e", "text": "a mensagem é arquivada"}
+        {
+          "id": "a",
+          "text": "canal descendente."
+        },
+        {
+          "id": "b",
+          "text": "ruído semântico obrigatório."
+        },
+        {
+          "id": "c",
+          "text": "mensagem não verbal."
+        },
+        {
+          "id": "d",
+          "text": "feedback comunicacional."
+        },
+        {
+          "id": "e",
+          "text": "controle administrativo completo."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Decodificar é interpretar signos com base em linguagem, conhecimentos e contexto. O emissor codifica; escolha de canal e arquivamento são operações distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A resposta que retorna ao processo é feedback. Ela pode alimentar o controle, mas não equivale ao ciclo completo de controle administrativo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q488",
-      "revision": 1,
-      "prompt": "Assinale a distinção correta entre mensagem e canal.",
+      "revision": 2,
+      "prompt": "Qual situação exemplifica ruído semântico?",
       "options": [
-        {"id": "a", "text": "Mensagem é o destinatário; canal é o emissor."},
-        {"id": "b", "text": "Mensagem é o ruído; canal é o contexto."},
-        {"id": "c", "text": "Ambos designam apenas documentos escritos."},
-        {"id": "d", "text": "Canal é o conteúdo; mensagem é o suporte."},
-        {"id": "e", "text": "Mensagem é o conteúdo; canal é o suporte de transmissão."}
+        {
+          "id": "a",
+          "text": "O microfone falha durante a reunião."
+        },
+        {
+          "id": "b",
+          "text": "O sistema fica indisponível."
+        },
+        {
+          "id": "c",
+          "text": "O servidor omite dado para agradar à chefia."
+        },
+        {
+          "id": "d",
+          "text": "A rede todos os canais gera muitas interações."
+        },
+        {
+          "id": "e",
+          "text": "Um ofício usa siglas e jargão que o público não consegue interpretar."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "A mensagem contém o que se comunica; o canal a transporta. O mesmo conteúdo pode circular por reunião, e-mail ou sistema, com efeitos diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Ruído semântico decorre do significado e do repertório linguístico. Falha de áudio é física; indisponibilidade é técnica; omissão deliberada é filtragem. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q489",
-      "revision": 1,
-      "prompt": "Feedback comunicacional é",
+      "revision": 2,
+      "prompt": "A comunicação organizacional exerce função de controle quando",
       "options": [
-        {"id": "a", "text": "a eliminação automática de qualquer ruído"},
-        {"id": "b", "text": "o retorno sobre recebimento, compreensão, reação ou necessidade de ajuste"},
-        {"id": "c", "text": "a formulação inicial da mensagem"},
-        {"id": "d", "text": "o suporte físico da comunicação"},
-        {"id": "e", "text": "a comparação administrativa entre meta e resultado"}
+        {
+          "id": "a",
+          "text": "transmite políticas, orientações e limites que regulam comportamentos."
+        },
+        {
+          "id": "b",
+          "text": "serve exclusivamente para manifestar emoções."
+        },
+        {
+          "id": "c",
+          "text": "elimina a necessidade de liderança."
+        },
+        {
+          "id": "d",
+          "text": "substitui o planejamento por mensagens."
+        },
+        {
+          "id": "e",
+          "text": "impede qualquer comunicação informal."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Feedback retorna informação ao processo e permite esclarecer entendimento. Não elimina ruído por si só e não se confunde com controle administrativo de resultados. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "A função de controle regula comportamento por normas, hierarquia e orientações. As demais alternativas absolutizam ou confundem funções. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q490",
-      "revision": 1,
-      "prompt": "Em comunicação, ruído é",
+      "revision": 2,
+      "prompt": "Qual exemplo representa predominantemente a função motivacional da comunicação?",
       "options": [
-        {"id": "a", "text": "somente som ambiental intenso"},
-        {"id": "b", "text": "qualquer resposta do receptor"},
-        {"id": "c", "text": "interferência física, tecnológica, semântica, perceptiva ou organizacional"},
-        {"id": "d", "text": "apenas mensagem informal"},
-        {"id": "e", "text": "o objetivo pretendido pelo emissor"}
+        {
+          "id": "a",
+          "text": "Um servidor comenta informalmente sua frustração."
+        },
+        {
+          "id": "b",
+          "text": "A chefia esclarece a meta, informa o desempenho e orienta como melhorá-lo."
+        },
+        {
+          "id": "c",
+          "text": "A unidade arquiva um documento para consulta."
+        },
+        {
+          "id": "d",
+          "text": "O sistema transmite um alerta de indisponibilidade."
+        },
+        {
+          "id": "e",
+          "text": "A diretoria publica a estrutura organizacional."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Ruído é categoria ampla de interferência na transmissão, recepção ou interpretação. Pode ser som, falha técnica, ambiguidade, percepção ou filtragem organizacional. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "Metas, desempenho e feedback integram a função motivacional. Expressão de frustração é emocional; arquivamento e alerta são sobretudo informacionais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q491",
-      "revision": 1,
-      "prompt": "O contexto influencia a comunicação porque",
+      "revision": 2,
+      "prompt": "A expressão emocional, como função da comunicação, manifesta-se quando",
       "options": [
-        {"id": "a", "text": "substitui a mensagem"},
-        {"id": "b", "text": "elimina diferenças culturais"},
-        {"id": "c", "text": "torna desnecessária a codificação"},
-        {"id": "d", "text": "objetivos, relações, cultura, tempo e ambiente afetam o significado"},
-        {"id": "e", "text": "garante interpretação idêntica"}
+        {
+          "id": "a",
+          "text": "a organização elimina sentimentos do ambiente de trabalho."
+        },
+        {
+          "id": "b",
+          "text": "somente a direção transmite ordens formais."
+        },
+        {
+          "id": "c",
+          "text": "membros do grupo expressam satisfação, frustração, pertencimento ou necessidades sociais."
+        },
+        {
+          "id": "d",
+          "text": "um canal escrito substitui qualquer interação."
+        },
+        {
+          "id": "e",
+          "text": "o receptor ignora o contexto."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Significado não depende apenas da gramática. Relações, momento, ambiente e cultura orientam codificação e decodificação, sem garantir interpretações idênticas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "A comunicação permite manifestação de emoções e necessidades sociais. Essa função não se limita a ordens nem desaparece em organizações formais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q492",
-      "revision": 1,
-      "prompt": "A comunicação unidirecional caracteriza-se por",
+      "revision": 2,
+      "prompt": "A função informacional da comunicação oferece principalmente",
       "options": [
-        {"id": "a", "text": "feedback obrigatório e imediato"},
-        {"id": "b", "text": "negociação contínua entre participantes"},
-        {"id": "c", "text": "uso exclusivo de canal oral"},
-        {"id": "d", "text": "ausência de mensagem"},
-        {"id": "e", "text": "envio sem retorno efetivo no próprio fluxo"}
+        {
+          "id": "a",
+          "text": "punição automática por desvio."
+        },
+        {
+          "id": "b",
+          "text": "liderança informal obrigatória."
+        },
+        {
+          "id": "c",
+          "text": "eliminação da equivocidade por volume."
+        },
+        {
+          "id": "d",
+          "text": "dados e elementos necessários à decisão e à execução."
+        },
+        {
+          "id": "e",
+          "text": "centralização de toda rede."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Na comunicação unidirecional, predomina a transmissão em um sentido. Ela pode usar meio oral, escrito ou digital; o traço definidor é a falta de retorno efetivo no fluxo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Informação apoia decisões e tarefas. O simples aumento de volume pode gerar sobrecarga e não elimina interpretações concorrentes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q493",
-      "revision": 1,
-      "prompt": "Um e-mail possui botão de resposta, mas o remetente não lê retornos. Nesse caso, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Um feedback de desempenho pode, simultaneamente, informar resultados, orientar comportamento e influenciar esforço. Isso demonstra que",
       "options": [
-        {"id": "a", "text": "a possibilidade técnica não assegura comunicação bidirecional efetiva"},
-        {"id": "b", "text": "o canal garante feedback de qualidade"},
-        {"id": "c", "text": "todo e-mail é necessariamente bidirecional"},
-        {"id": "d", "text": "a mensagem se torna informal"},
-        {"id": "e", "text": "a decodificação deixa de existir"}
+        {
+          "id": "a",
+          "text": "cada mensagem exerce obrigatoriamente apenas uma função."
+        },
+        {
+          "id": "b",
+          "text": "controle e motivação são incompatíveis."
+        },
+        {
+          "id": "c",
+          "text": "expressão emocional só existe fora do trabalho."
+        },
+        {
+          "id": "d",
+          "text": "informação elimina a necessidade de feedback."
+        },
+        {
+          "id": "e",
+          "text": "as funções da comunicação podem coexistir na mesma interação."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Bidirecionalidade efetiva exige retorno possível e considerado. A funcionalidade técnica, sem uso ou incorporação do feedback, não produz interação real. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "As funções são analíticas e podem coexistir. Uma mesma mensagem pode informar, controlar, motivar e suscitar expressão emocional. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q494",
-      "revision": 1,
-      "prompt": "Confirmar se uma instrução foi compreendida e comparar o resultado do trabalho com a meta são, respectivamente,",
+      "revision": 2,
+      "prompt": "A comunicação bidirecional distingue-se da unidirecional porque",
       "options": [
-        {"id": "a", "text": "planejamento e direção"},
-        {"id": "b", "text": "controle e codificação"},
-        {"id": "c", "text": "feedback comunicacional e controle administrativo"},
-        {"id": "d", "text": "organização e comunicação informal"},
-        {"id": "e", "text": "decodificação e planejamento"}
+        {
+          "id": "a",
+          "text": "prevê retorno, esclarecimento e possível ajuste entre os participantes."
+        },
+        {
+          "id": "b",
+          "text": "é necessariamente informal."
+        },
+        {
+          "id": "c",
+          "text": "dispensa canal e mensagem."
+        },
+        {
+          "id": "d",
+          "text": "não admite registro."
+        },
+        {
+          "id": "e",
+          "text": "é sempre mais rápida."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Feedback verifica recepção ou entendimento da mensagem. Comparar realizado e referência é controle; a integração dos processos não os torna sinônimos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Bidirecionalidade envolve resposta. Pode ser formal, registrada e até mais lenta, dependendo do contexto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q495",
-      "revision": 1,
-      "prompt": "Constitui prática de escuta ativa",
+      "revision": 2,
+      "prompt": "Após receber um comunicado, a unidade responde apenas “ciente”. A conclusão tecnicamente mais segura é que",
       "options": [
-        {"id": "a", "text": "interromper para concluir pelo emissor"},
-        {"id": "b", "text": "ignorar sinais não verbais"},
-        {"id": "c", "text": "preparar apenas a própria resposta"},
-        {"id": "d", "text": "perguntar, parafrasear e confirmar o entendimento"},
-        {"id": "e", "text": "evitar qualquer esclarecimento"}
+        {
+          "id": "a",
+          "text": "o entendimento foi integralmente comprovado."
+        },
+        {
+          "id": "b",
+          "text": "houve retorno, mas a compreensão e a aplicação ainda podem precisar de verificação."
+        },
+        {
+          "id": "c",
+          "text": "não houve feedback."
+        },
+        {
+          "id": "d",
+          "text": "a mensagem tornou-se informal."
+        },
+        {
+          "id": "e",
+          "text": "o controle administrativo foi concluído."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Escuta ativa exige atenção e verificação do sentido mediante perguntas, paráfrase e confirmação. Ela favorece feedback, mas é uma prática do receptor, não sinônimo do retorno. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "O retorno constitui feedback, porém uma resposta protocolar não prova entendimento nem execução correta. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q496",
-      "revision": 1,
-      "prompt": "Comunicação formal é aquela que",
+      "revision": 2,
+      "prompt": "A comunicação formal caracteriza-se principalmente por",
       "options": [
-        {"id": "a", "text": "sempre ocorre por escrito"},
-        {"id": "b", "text": "sempre flui de cima para baixo"},
-        {"id": "c", "text": "exclui reuniões e sistemas"},
-        {"id": "d", "text": "surge apenas de amizade"},
-        {"id": "e", "text": "utiliza canais, competências ou procedimentos reconhecidos pela organização"}
+        {
+          "id": "a",
+          "text": "ser sempre verdadeira e isenta de ruído."
+        },
+        {
+          "id": "b",
+          "text": "circular apenas oralmente."
+        },
+        {
+          "id": "c",
+          "text": "utilizar canais reconhecidos pela organização e favorecer registro e rastreabilidade."
+        },
+        {
+          "id": "d",
+          "text": "não poder atravessar níveis hierárquicos."
+        },
+        {
+          "id": "e",
+          "text": "eliminar a rede de rumores."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Formalidade deriva do reconhecimento organizacional, não da modalidade ou direção. Reuniões orais, relatórios ascendentes e trocas horizontais podem ser formais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Formalidade relaciona-se ao reconhecimento institucional do canal, não à infalibilidade da mensagem nem a um único formato. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q497",
-      "revision": 1,
-      "prompt": "A comunicação informal",
+      "revision": 2,
+      "prompt": "Sobre a comunicação informal, assinale a afirmação correta.",
       "options": [
-        {"id": "a", "text": "decorre de relações sociais e pode complementar ou distorcer fluxos oficiais"},
-        {"id": "b", "text": "é necessariamente falsa"},
-        {"id": "c", "text": "é sempre proibida"},
-        {"id": "d", "text": "substitui competências formais"},
-        {"id": "e", "text": "existe apenas fora da organização"}
+        {
+          "id": "a",
+          "text": "É necessariamente falsa."
+        },
+        {
+          "id": "b",
+          "text": "Deve ser desconsiderada como fonte de sinais organizacionais."
+        },
+        {
+          "id": "c",
+          "text": "É controlada integralmente pela direção."
+        },
+        {
+          "id": "d",
+          "text": "Pode acelerar a circulação, revelar dúvidas e resistências e também produzir distorções."
+        },
+        {
+          "id": "e",
+          "text": "Só ocorre entre pessoas do mesmo nível."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Redes informais surgem espontaneamente e podem acelerar conhecimento ou transmitir informação não verificada. Informalidade não implica falsidade, proibição ou substituição da estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "A rede informal tem efeitos úteis e riscos. Não é sinônimo de falsidade, não é plenamente controlada e atravessa níveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q498",
-      "revision": 1,
-      "prompt": "Um relatório oficial enviado por um servidor à chefia é exemplo de comunicação",
+      "revision": 2,
+      "prompt": "A rede de rumores tende a ganhar força quando",
       "options": [
-        {"id": "a", "text": "informal e descendente"},
-        {"id": "b", "text": "formal e ascendente"},
-        {"id": "c", "text": "informal e horizontal"},
-        {"id": "d", "text": "diagonal e necessariamente oral"},
-        {"id": "e", "text": "não verbal"}
+        {
+          "id": "a",
+          "text": "todas as mensagens são simples e verificadas."
+        },
+        {
+          "id": "b",
+          "text": "a direção proíbe qualquer conversa."
+        },
+        {
+          "id": "c",
+          "text": "o canal escolhido é escrito."
+        },
+        {
+          "id": "d",
+          "text": "a rede formal é do tipo círculo."
+        },
+        {
+          "id": "e",
+          "text": "há interesse elevado, incerteza e insuficiência de informação oficial."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "O canal reconhecido torna a comunicação formal, e o sentido subordinado-chefia a torna ascendente. Formal não significa obrigatoriamente descendente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "Rumores preenchem vazios interpretativos e informacionais. Proibição não elimina a rede e o formato escrito não é determinante. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q499",
-      "revision": 1,
-      "prompt": "Prioridades e instruções transmitidas da chefia para a equipe seguem fluxo",
+      "revision": 2,
+      "prompt": "Qual resposta gerencial é mais adequada diante de um rumor relevante sobre mudança organizacional?",
       "options": [
-        {"id": "a", "text": "ascendente"},
-        {"id": "b", "text": "horizontal"},
-        {"id": "c", "text": "externo"},
-        {"id": "d", "text": "descendente"},
-        {"id": "e", "text": "informal obrigatório"}
+        {
+          "id": "a",
+          "text": "Monitorar o sinal, comunicar fatos verificáveis e reduzir o vazio de informação."
+        },
+        {
+          "id": "b",
+          "text": "Ignorar toda rede informal."
+        },
+        {
+          "id": "c",
+          "text": "Repetir o rumor sem checagem."
+        },
+        {
+          "id": "d",
+          "text": "Punir todos os que fizeram perguntas."
+        },
+        {
+          "id": "e",
+          "text": "Substituir documentos por conversas privadas."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Fluxo descendente parte de nível superior para subordinado. Pode comunicar políticas, prioridades, orientação e instruções, sem ser a única forma de comunicação formal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "A gestão deve reconhecer a rede informal, esclarecer fatos e evitar ampliar informação não verificada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q500",
-      "revision": 1,
-      "prompt": "Sugestões e dificuldades comunicadas pela equipe aos níveis superiores caracterizam fluxo",
+      "revision": 2,
+      "prompt": "A transmissão de metas e instruções da direção para as unidades operacionais constitui fluxo",
       "options": [
-        {"id": "a", "text": "descendente"},
-        {"id": "b", "text": "lateral externo"},
-        {"id": "c", "text": "unidirecional obrigatório"},
-        {"id": "d", "text": "não verbal"},
-        {"id": "e", "text": "ascendente"}
+        {
+          "id": "a",
+          "text": "ascendente."
+        },
+        {
+          "id": "b",
+          "text": "descendente."
+        },
+        {
+          "id": "c",
+          "text": "horizontal."
+        },
+        {
+          "id": "d",
+          "text": "diagonal."
+        },
+        {
+          "id": "e",
+          "text": "exclusivamente informal."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Fluxo ascendente leva informações de níveis subordinados aos superiores. Ele pode sustentar sugestões, alertas e retorno sem eliminar a hierarquia. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "Fluxo descendente parte de níveis superiores para inferiores. Pode usar canais formais ou informais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q501",
-      "revision": 1,
-      "prompt": "A articulação formal entre duas unidades situadas no mesmo nível hierárquico constitui comunicação",
+      "revision": 2,
+      "prompt": "Relatórios de problemas e sugestões enviados por servidores à alta administração constituem fluxo",
       "options": [
-        {"id": "a", "text": "horizontal ou lateral"},
-        {"id": "b", "text": "descendente"},
-        {"id": "c", "text": "ascendente"},
-        {"id": "d", "text": "necessariamente informal"},
-        {"id": "e", "text": "exclusivamente externa"}
+        {
+          "id": "a",
+          "text": "descendente."
+        },
+        {
+          "id": "b",
+          "text": "horizontal."
+        },
+        {
+          "id": "c",
+          "text": "ascendente."
+        },
+        {
+          "id": "d",
+          "text": "radial."
+        },
+        {
+          "id": "e",
+          "text": "externo obrigatório."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Comunicação horizontal ou lateral ocorre entre pares ou unidades equivalentes. Ela favorece coordenação, mas não extingue responsabilidades formais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Fluxo ascendente leva informação dos níveis inferiores aos superiores e pode sofrer filtragem por medo ou desejo de agradar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q502",
-      "revision": 1,
-      "prompt": "Um especialista de uma área comunica-se diretamente com um gestor de outra área e de nível diferente, fora da linha direta de comando. O fluxo é",
+      "revision": 2,
+      "prompt": "Duas diretorias de mesmo nível coordenam um cronograma comum. Predomina o fluxo",
       "options": [
-        {"id": "a", "text": "horizontal"},
-        {"id": "b", "text": "diagonal"},
-        {"id": "c", "text": "apenas descendente"},
-        {"id": "d", "text": "apenas ascendente"},
-        {"id": "e", "text": "necessariamente informal"}
+        {
+          "id": "a",
+          "text": "descendente."
+        },
+        {
+          "id": "b",
+          "text": "ascendente."
+        },
+        {
+          "id": "c",
+          "text": "vertical completo."
+        },
+        {
+          "id": "d",
+          "text": "horizontal ou lateral."
+        },
+        {
+          "id": "e",
+          "text": "unidirecional obrigatório."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Fluxo diagonal atravessa áreas e níveis fora da cadeia direta. Ele pode usar canal formal; a direção do fluxo não determina informalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Comunicação entre unidades equivalentes é horizontal. Pode ser bidirecional e formal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q503",
-      "revision": 1,
-      "prompt": "Sobre os termos comunicação diagonal e transversal, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Um analista de tecnologia conversa diretamente com a chefe de uma unidade finalística, situada em outro nível e área, para resolver incidente de projeto. Trata-se de fluxo",
       "options": [
-        {"id": "a", "text": "possuem definição legal única"},
-        {"id": "b", "text": "são sempre opostos"},
-        {"id": "c", "text": "o uso varia entre autores, devendo prevalecer a definição do enunciado"},
-        {"id": "d", "text": "transversal significa apenas descendente"},
-        {"id": "e", "text": "diagonal significa necessariamente informal"}
+        {
+          "id": "a",
+          "text": "apenas descendente."
+        },
+        {
+          "id": "b",
+          "text": "apenas ascendente."
+        },
+        {
+          "id": "c",
+          "text": "horizontal puro."
+        },
+        {
+          "id": "d",
+          "text": "externo."
+        },
+        {
+          "id": "e",
+          "text": "diagonal."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Algumas fontes aproximam os termos; outras usam transversal em sentido mais amplo. Afirmações universais são inadequadas sem definição explícita. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "O fluxo diagonal atravessa áreas e níveis sem seguir apenas a linha hierárquica tradicional. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q504",
-      "revision": 1,
-      "prompt": "A comunicação oral",
+      "revision": 2,
+      "prompt": "A expressão comunicação vertical abrange",
       "options": [
-        {"id": "a", "text": "é sempre informal"},
-        {"id": "b", "text": "elimina ruído"},
-        {"id": "c", "text": "produz registro durável automaticamente"},
-        {"id": "d", "text": "não admite feedback"},
-        {"id": "e", "text": "pode favorecer interação rápida, mas não gera registro durável por si só"}
+        {
+          "id": "a",
+          "text": "os fluxos descendente e ascendente."
+        },
+        {
+          "id": "b",
+          "text": "somente o fluxo descendente."
+        },
+        {
+          "id": "c",
+          "text": "somente o fluxo ascendente."
+        },
+        {
+          "id": "d",
+          "text": "apenas a comunicação externa."
+        },
+        {
+          "id": "e",
+          "text": "todos os canais informais."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Conversa e reunião podem permitir esclarecimento imediato, mas o registro exige gravação ou documentação. Oralidade pode ser formal ou informal e continua sujeita a ruído. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Vertical descreve as duas direções entre níveis hierárquicos. Horizontal ocorre no mesmo nível. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q505",
-      "revision": 1,
-      "prompt": "Uma vantagem potencial da comunicação escrita é",
+      "revision": 2,
+      "prompt": "Qual barreira é especialmente associada ao fluxo ascendente?",
       "options": [
-        {"id": "a", "text": "favorecer registro e consulta posterior"},
-        {"id": "b", "text": "eliminar toda ambiguidade"},
-        {"id": "c", "text": "garantir linguagem adequada"},
-        {"id": "d", "text": "tornar o contexto irrelevante"},
-        {"id": "e", "text": "impedir sobrecarga"}
+        {
+          "id": "a",
+          "text": "A ausência obrigatória de feedback."
+        },
+        {
+          "id": "b",
+          "text": "A filtragem de problemas por medo de retaliação ou desejo de agradar à chefia."
+        },
+        {
+          "id": "c",
+          "text": "A riqueza excessiva do meio presencial."
+        },
+        {
+          "id": "d",
+          "text": "A inexistência de hierarquia."
+        },
+        {
+          "id": "e",
+          "text": "A comunicação com usuários externos."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Texto pode ser registrado, consultado e padronizado. Isso não garante clareza: excesso, jargão, estrutura ruim e contexto inadequado continuam gerando barreiras. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "No fluxo ascendente, subordinados podem suavizar ou omitir informação. Isso é filtragem, não ausência estrutural de feedback. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q506",
-      "revision": 1,
-      "prompt": "A comunicação digital deve ser entendida como",
+      "revision": 2,
+      "prompt": "Uma videoconferência pode ser classificada simultaneamente como comunicação",
       "options": [
-        {"id": "a", "text": "sinônimo exclusivo de texto"},
-        {"id": "b", "text": "meio que pode combinar escrita, áudio, vídeo e sinais não verbais"},
-        {"id": "c", "text": "modalidade sempre assíncrona"},
-        {"id": "d", "text": "forma necessariamente informal"},
-        {"id": "e", "text": "canal sem ruídos tecnológicos"}
+        {
+          "id": "a",
+          "text": "apenas escrita e assíncrona."
+        },
+        {
+          "id": "b",
+          "text": "exclusivamente não verbal."
+        },
+        {
+          "id": "c",
+          "text": "oral, digital, síncrona e dotada de pistas não verbais."
+        },
+        {
+          "id": "d",
+          "text": "formal por definição legal."
+        },
+        {
+          "id": "e",
+          "text": "unidirecional em todos os casos."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Digital descreve suporte. E-mail veicula texto; videoconferência reúne fala, imagem e gestos; sistemas combinam formatos. Pode ser síncrono ou assíncrono. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "As classificações se sobrepõem. Videoconferência combina fala, tecnologia, simultaneidade e imagem. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q507",
-      "revision": 1,
-      "prompt": "Na comunicação não verbal, expressão facial, postura, tom e silêncio",
+      "revision": 2,
+      "prompt": "Quando o órgão precisa de registro consultável e os participantes estão em horários distintos, tende a ser adequada uma comunicação",
       "options": [
-        {"id": "a", "text": "possuem significado fixo e universal"},
-        {"id": "b", "text": "não afetam a fala"},
-        {"id": "c", "text": "podem reforçar, complementar ou contradizer a mensagem conforme o contexto"},
-        {"id": "d", "text": "só existem em comunicação informal"},
-        {"id": "e", "text": "substituem necessariamente o conteúdo verbal"}
+        {
+          "id": "a",
+          "text": "oral sem registro."
+        },
+        {
+          "id": "b",
+          "text": "não verbal e presencial."
+        },
+        {
+          "id": "c",
+          "text": "radial obrigatória."
+        },
+        {
+          "id": "d",
+          "text": "escrita e assíncrona."
+        },
+        {
+          "id": "e",
+          "text": "informal e secreta."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Sinais não verbais participam da interpretação, mas seu sentido depende do contexto. Eles podem acompanhar ou tensionar a fala sem ter significado universal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Escrita e assincronia favorecem registro, reflexão e acesso em momentos diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q508",
-      "revision": 1,
-      "prompt": "Assinale a associação correta.",
+      "revision": 2,
+      "prompt": "A escolha de um canal deve considerar",
       "options": [
-        {"id": "a", "text": "E-mail: necessariamente síncrono."},
-        {"id": "b", "text": "Videoconferência ao vivo: necessariamente assíncrona."},
-        {"id": "c", "text": "Assincronia: resposta no mesmo instante."},
-        {"id": "d", "text": "Sincronia: interação no mesmo intervalo; assincronia: momentos distintos."},
-        {"id": "e", "text": "Sincronia: ausência de feedback possível."}
+        {
+          "id": "a",
+          "text": "apenas a preferência pessoal do emissor."
+        },
+        {
+          "id": "b",
+          "text": "sempre o meio mais rico disponível."
+        },
+        {
+          "id": "c",
+          "text": "somente o custo financeiro."
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente a posição hierárquica do receptor."
+        },
+        {
+          "id": "e",
+          "text": "equivocidade, urgência, registro, público, acessibilidade, custo e risco jurídico."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Sincronia aproxima temporalmente os participantes; assincronia separa emissão e resposta. Nenhuma delas garante qualidade, formalidade ou feedback efetivo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "A adequação do canal depende de múltiplos critérios. Riqueza é relevante, mas não absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q509",
-      "revision": 1,
-      "prompt": "A escolha de um canal de comunicação deve considerar",
+      "revision": 2,
+      "prompt": "Segundo a teoria da riqueza dos meios, um canal tende a ser mais rico quando",
       "options": [
-        {"id": "a", "text": "objetivo, público, ambiguidade, urgência, registro e acessibilidade"},
-        {"id": "b", "text": "apenas o menor custo"},
-        {"id": "c", "text": "somente a preferência do emissor"},
-        {"id": "d", "text": "uma hierarquia universal dos meios"},
-        {"id": "e", "text": "a exclusão de feedback"}
+        {
+          "id": "a",
+          "text": "oferece feedback rápido, múltiplas pistas, linguagem variada e personalização."
+        },
+        {
+          "id": "b",
+          "text": "impede qualquer resposta."
+        },
+        {
+          "id": "c",
+          "text": "reduz toda mensagem a formulário padronizado."
+        },
+        {
+          "id": "d",
+          "text": "é necessariamente mais barato."
+        },
+        {
+          "id": "e",
+          "text": "elimina o contexto."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "Adequação depende da mensagem e dos destinatários, incluindo interação, registro, acesso e segurança. Um critério isolado não determina o melhor canal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Riqueza relaciona-se à capacidade de reduzir equivocidade por interação, pistas e personalização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q510",
-      "revision": 1,
-      "prompt": "Segundo a teoria da riqueza dos meios, situações muito ambíguas tendem a se beneficiar de canais",
+      "revision": 2,
+      "prompt": "Para divulgar a data objetiva de fechamento de um sistema a milhares de usuários, com necessidade de registro, é razoável priorizar",
       "options": [
-        {"id": "a", "text": "sem possibilidade de retorno"},
-        {"id": "b", "text": "com maior interação, múltiplas pistas e feedback"},
-        {"id": "c", "text": "necessariamente escritos e padronizados"},
-        {"id": "d", "text": "escolhidos apenas pelo custo"},
-        {"id": "e", "text": "que eliminem o destinatário"}
+        {
+          "id": "a",
+          "text": "reuniões individuais com todos os usuários."
+        },
+        {
+          "id": "b",
+          "text": "mensagem escrita, clara e registrada, com canal para dúvidas."
+        },
+        {
+          "id": "c",
+          "text": "apenas comunicação não verbal."
+        },
+        {
+          "id": "d",
+          "text": "rumor deliberadamente estimulado."
+        },
+        {
+          "id": "e",
+          "text": "mensagem oral sem confirmação."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Riqueza está ligada à capacidade de tratar equivocalidade por feedback, pistas e personalização. É tendência de adequação, não obrigação de usar sempre o meio mais rico. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Informação simples e padronizável não exige o meio mais rico; registro e alcance favorecem comunicação escrita, sem impedir feedback. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q511",
-      "revision": 1,
-      "prompt": "Sobre adequação dos canais, assinale a opção correta.",
+      "revision": 2,
+      "prompt": "Para negociar responsabilidades ambíguas em uma crise entre várias áreas, tende a ser útil",
       "options": [
-        {"id": "a", "text": "Reunião presencial é sempre superior."},
-        {"id": "b", "text": "Documento é inadequado a toda informação rotineira."},
-        {"id": "c", "text": "Não há canal universalmente melhor; a adequação depende da situação."},
-        {"id": "d", "text": "Meio rico nunca consome recursos desnecessários."},
-        {"id": "e", "text": "Mensagem instantânea garante compreensão."}
+        {
+          "id": "a",
+          "text": "apenas um formulário impessoal sem possibilidade de dúvida."
+        },
+        {
+          "id": "b",
+          "text": "somente um aviso descendente."
+        },
+        {
+          "id": "c",
+          "text": "um meio rico, interativo e com feedback rápido, seguido de registro das decisões."
+        },
+        {
+          "id": "d",
+          "text": "a exclusão das áreas divergentes."
+        },
+        {
+          "id": "e",
+          "text": "o aumento indiscriminado do volume de e-mails."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Complexidade, urgência, interação, registro e público definem adequação. Meios ricos podem ser excessivos para rotinas, e meios enxutos insuficientes para ambiguidade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Alta equivocidade favorece interação e contexto. O registro posterior preserva rastreabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q512",
-      "revision": 1,
-      "prompt": "Para uma instrução rotineira que exige consulta posterior, tende a ser adequado usar",
+      "revision": 2,
+      "prompt": "Incerteza e equivocidade diferenciam-se porque",
       "options": [
-        {"id": "a", "text": "apenas conversa sem registro"},
-        {"id": "b", "text": "somente sinais não verbais"},
-        {"id": "c", "text": "rumor informal"},
-        {"id": "d", "text": "meio escrito, claro e registrável, com canal de dúvida se necessário"},
-        {"id": "e", "text": "canal inacessível ao destinatário"}
+        {
+          "id": "a",
+          "text": "são sinônimos perfeitos."
+        },
+        {
+          "id": "b",
+          "text": "equivocidade é apenas falha de conexão."
+        },
+        {
+          "id": "c",
+          "text": "incerteza decorre sempre de emoção."
+        },
+        {
+          "id": "d",
+          "text": "incerteza é falta de informação; equivocidade envolve interpretações concorrentes."
+        },
+        {
+          "id": "e",
+          "text": "equivocidade se resolve apenas com mais documentos."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Rotina e necessidade de consulta favorecem registro. Clareza e possibilidade de esclarecimento evitam tratar escrita como garantia automática de compreensão. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Mais informação pode reduzir incerteza; interpretações concorrentes frequentemente exigem interação e contextualização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q513",
-      "revision": 1,
-      "prompt": "A acessibilidade é critério de escolha do canal porque",
+      "revision": 2,
+      "prompt": "O aumento do volume de mensagens sem priorização pode",
       "options": [
-        {"id": "a", "text": "o meio mais moderno atende qualquer pessoa"},
-        {"id": "b", "text": "todo destinatário usa a mesma tecnologia"},
-        {"id": "c", "text": "registro elimina barreiras"},
-        {"id": "d", "text": "somente mensagens externas precisam ser compreendidas"},
-        {"id": "e", "text": "uma mensagem indisponível ou inadequada às condições do público não produz acesso efetivo"}
+        {
+          "id": "a",
+          "text": "eliminar automaticamente todos os rumores."
+        },
+        {
+          "id": "b",
+          "text": "garantir compreensão."
+        },
+        {
+          "id": "c",
+          "text": "transformar o fluxo em horizontal."
+        },
+        {
+          "id": "d",
+          "text": "reduzir sempre a equivocidade."
+        },
+        {
+          "id": "e",
+          "text": "produzir sobrecarga informacional e piorar a capacidade de perceber o essencial."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "Comunicação eficaz exige que o público consiga acessar e usar o meio. Tecnologia, formato ou linguagem inadequados podem excluir destinatários mesmo quando a mensagem foi publicada. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Quantidade não equivale a qualidade. Sobrecarga excede a capacidade de processamento e pode ocultar informação crítica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q514",
-      "revision": 1,
-      "prompt": "Na rede de comunicação em cadeia, as mensagens",
+      "revision": 2,
+      "prompt": "Na rede em roda, a comunicação ocorre predominantemente",
       "options": [
-        {"id": "a", "text": "partem sempre de um centro para todos"},
-        {"id": "b", "text": "percorrem uma sequência linear, frequentemente associada à hierarquia"},
-        {"id": "c", "text": "circulam diretamente entre todos os membros"},
-        {"id": "d", "text": "são necessariamente informais"},
-        {"id": "e", "text": "não sofrem filtragem"}
+        {
+          "id": "a",
+          "text": "por meio de um membro central que conecta os demais."
+        },
+        {
+          "id": "b",
+          "text": "entre todos os membros diretamente."
+        },
+        {
+          "id": "c",
+          "text": "apenas entre vizinhos de um círculo."
+        },
+        {
+          "id": "d",
+          "text": "em sequência sem centro."
+        },
+        {
+          "id": "e",
+          "text": "fora de qualquer estrutura."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Cadeia é arranjo linear em que participantes se ligam a posições adjacentes. Roda centraliza; todos os canais distribui contatos diretos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "A roda é altamente centralizada e depende do centro para circulação entre membros periféricos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q515",
-      "revision": 1,
-      "prompt": "A rede em roda caracteriza-se por",
+      "revision": 2,
+      "prompt": "Em tarefas simples e rotineiras, redes centralizadas como a roda tendem a favorecer",
       "options": [
-        {"id": "a", "text": "comunicação direta irrestrita entre todos"},
-        {"id": "b", "text": "sequência sem ponto central"},
-        {"id": "c", "text": "concentração dos contatos em um membro central"},
-        {"id": "d", "text": "ausência de coordenação"},
-        {"id": "e", "text": "superioridade universal em satisfação"}
+        {
+          "id": "a",
+          "text": "maior participação de todos por definição."
+        },
+        {
+          "id": "b",
+          "text": "rapidez, precisão e emergência de liderança clara."
+        },
+        {
+          "id": "c",
+          "text": "ausência de dependência do centro."
+        },
+        {
+          "id": "d",
+          "text": "igualdade completa de influência."
+        },
+        {
+          "id": "e",
+          "text": "adequação universal a qualquer problema."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Na roda, membros periféricos dependem do centro para circular informação entre si. Seu desempenho varia com tarefa, tamanho e critério; não é sempre superior. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "A centralização pode ser eficiente em problemas simples, mas cria dependência e não é superior em toda situação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q516",
-      "revision": 1,
-      "prompt": "Na rede todos os canais,",
+      "revision": 2,
+      "prompt": "A rede todos os canais caracteriza-se por",
       "options": [
-        {"id": "a", "text": "somente a chefia transmite mensagens"},
-        {"id": "b", "text": "o fluxo segue uma única linha"},
-        {"id": "c", "text": "cada membro fala apenas com o centro"},
-        {"id": "d", "text": "os membros podem comunicar-se diretamente entre si"},
-        {"id": "e", "text": "não há necessidade possível de coordenação"}
+        {
+          "id": "a",
+          "text": "depender de um único centro."
+        },
+        {
+          "id": "b",
+          "text": "seguir sequência hierárquica rígida."
+        },
+        {
+          "id": "c",
+          "text": "permitir comunicação direta entre todos os participantes e apresentar baixa centralização."
+        },
+        {
+          "id": "d",
+          "text": "ligar cada membro somente a dois vizinhos."
+        },
+        {
+          "id": "e",
+          "text": "proibir participação ampla."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Todos os canais distribui contatos diretos entre membros. Isso favorece interação, mas grupos maiores ainda podem exigir coordenação para evitar excesso e dispersão. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Todos os canais aumenta interações, participação e adequação a tarefas complexas, com menor centralização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q517",
-      "revision": 1,
-      "prompt": "A respeito das redes cadeia, roda e todos os canais, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Qual rede liga, em regra, cada participante aos dois membros adjacentes?",
       "options": [
-        {"id": "a", "text": "esgotam todos os desenhos possíveis"},
-        {"id": "b", "text": "a roda sempre maximiza satisfação"},
-        {"id": "c", "text": "a cadeia sempre elimina erros"},
-        {"id": "d", "text": "todos os canais é sempre a rede mais rápida"},
-        {"id": "e", "text": "são uma tipologia, e seu desempenho depende da tarefa e do grupo"}
+        {
+          "id": "a",
+          "text": "A roda."
+        },
+        {
+          "id": "b",
+          "text": "A cadeia."
+        },
+        {
+          "id": "c",
+          "text": "Todos os canais."
+        },
+        {
+          "id": "d",
+          "text": "A rede em círculo."
+        },
+        {
+          "id": "e",
+          "text": "A rede de rumores."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "A tipologia ajuda a comparar padrões, mas não é exaustiva nem determina resultado universal. Velocidade, precisão e satisfação variam por contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "No círculo, cada membro se liga aos vizinhos, formando circulação local sem centro único. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q518",
-      "revision": 1,
-      "prompt": "Um servidor omite dados desfavoráveis antes de encaminhar um relatório à chefia. O caso exemplifica",
+      "revision": 2,
+      "prompt": "A rede em Y pode ser descrita como",
       "options": [
-        {"id": "a", "text": "filtragem"},
-        {"id": "b", "text": "escuta ativa"},
-        {"id": "c", "text": "riqueza do meio"},
-        {"id": "d", "text": "comunicação horizontal"},
-        {"id": "e", "text": "redundância planejada"}
+        {
+          "id": "a",
+          "text": "comunicação direta de todos com todos."
+        },
+        {
+          "id": "b",
+          "text": "rede informal sem desenho."
+        },
+        {
+          "id": "c",
+          "text": "círculo sem qualquer centro."
+        },
+        {
+          "id": "d",
+          "text": "canal externo exclusivo."
+        },
+        {
+          "id": "e",
+          "text": "estrutura parcialmente centralizada que combina trecho linear e bifurcação."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Filtragem seleciona, omite ou altera informação no fluxo, muitas vezes para torná-la favorável ou evitar reação. Não é simples síntese quando exclui conteúdo relevante. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "A forma Y cria um ponto de concentração intermediário ou alto e não equivale à conexão total. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q519",
-      "revision": 1,
-      "prompt": "A interpretação de uma mensagem apenas conforme expectativas anteriores, ignorando partes incompatíveis, caracteriza",
+      "revision": 2,
+      "prompt": "Na rede em cadeia, um risco frequente é",
       "options": [
-        {"id": "a", "text": "codificação formal"},
-        {"id": "b", "text": "canal rico"},
-        {"id": "c", "text": "percepção seletiva"},
-        {"id": "d", "text": "comunicação descendente"},
-        {"id": "e", "text": "feedback integral"}
+        {
+          "id": "a",
+          "text": "a distorção acumulada ao longo dos elos sucessivos."
+        },
+        {
+          "id": "b",
+          "text": "a comunicação direta de todos."
+        },
+        {
+          "id": "c",
+          "text": "a inexistência de sequência."
+        },
+        {
+          "id": "d",
+          "text": "a ausência completa de hierarquia."
+        },
+        {
+          "id": "e",
+          "text": "a riqueza excessiva do canal."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Percepção seletiva faz o receptor notar ou interpretar conteúdo segundo interesses, experiências e expectativas, podendo distorcer a decodificação. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Como a mensagem passa por elos, detalhes podem ser perdidos ou modificados. A cadeia pode refletir hierarquia. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q520",
-      "revision": 1,
-      "prompt": "O uso de siglas e jargões não explicados a um público que não os conhece constitui barreira",
+      "revision": 2,
+      "prompt": "Para uma equipe enfrentar problema novo e complexo que exige combinar conhecimentos diversos, tende a ser mais adequada",
       "options": [
-        {"id": "a", "text": "física"},
-        {"id": "b", "text": "hierárquica exclusivamente"},
-        {"id": "c", "text": "temporal"},
-        {"id": "d", "text": "semântica ou linguística"},
-        {"id": "e", "text": "financeira"}
+        {
+          "id": "a",
+          "text": "uma roda em qualquer circunstância."
+        },
+        {
+          "id": "b",
+          "text": "uma rede descentralizada, como todos os canais, com participação ampla."
+        },
+        {
+          "id": "c",
+          "text": "uma cadeia sem feedback."
+        },
+        {
+          "id": "d",
+          "text": "o silêncio dos especialistas."
+        },
+        {
+          "id": "e",
+          "text": "apenas comunicação descendente."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Significados não compartilhados, termos técnicos e siglas podem impedir compreensão. Conhecimento do emissor não dispensa adequação da linguagem ao destinatário. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "Problemas complexos se beneficiam de múltiplas contribuições e interação. Nenhuma rede é universalmente melhor. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q521",
-      "revision": 1,
-      "prompt": "Uma barreira de status ocorre quando",
+      "revision": 2,
+      "prompt": "A principal vulnerabilidade da rede em roda é",
       "options": [
-        {"id": "a", "text": "o sistema fica indisponível"},
-        {"id": "b", "text": "há ruído ambiental"},
-        {"id": "c", "text": "a mensagem usa palavra ambígua"},
-        {"id": "d", "text": "o volume excede a capacidade"},
-        {"id": "e", "text": "o subordinado evita relatar problema por receio da posição superior"}
+        {
+          "id": "a",
+          "text": "a inexistência de liderança."
+        },
+        {
+          "id": "b",
+          "text": "a baixa centralização."
+        },
+        {
+          "id": "c",
+          "text": "a sobrecarga e a dependência do membro central."
+        },
+        {
+          "id": "d",
+          "text": "a comunicação direta entre periféricos."
+        },
+        {
+          "id": "e",
+          "text": "a impossibilidade de rapidez em tarefas simples."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Assimetria hierárquica pode inibir perguntas, discordância e notícias desfavoráveis. Falhas técnicas, som, semântica e volume são outras barreiras. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "O centro concentra mensagens e pode tornar-se gargalo ou ponto único de falha. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q522",
-      "revision": 1,
-      "prompt": "Emoções podem funcionar como barreira porque",
+      "revision": 2,
+      "prompt": "Comparando redes, é correto afirmar que",
       "options": [
-        {"id": "a", "text": "medo, irritação ou ansiedade podem alterar emissão, escuta e interpretação"},
-        {"id": "b", "text": "toda emoção torna a mensagem falsa"},
-        {"id": "c", "text": "somente o emissor possui estados emocionais"},
-        {"id": "d", "text": "emoções eliminam o contexto"},
-        {"id": "e", "text": "a comunicação formal impede emoções"}
+        {
+          "id": "a",
+          "text": "a roda é sempre superior."
+        },
+        {
+          "id": "b",
+          "text": "todos os canais é sempre mais rápido."
+        },
+        {
+          "id": "c",
+          "text": "a cadeia elimina ruído."
+        },
+        {
+          "id": "d",
+          "text": "o desempenho depende do tipo de tarefa, do grau de centralização e das necessidades de participação."
+        },
+        {
+          "id": "e",
+          "text": "o círculo é sempre formal."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Estados emocionais influenciam codificação e decodificação, mas não invalidam automaticamente a mensagem. Precisam ser considerados junto ao contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "A adequação é contingencial. Afirmações absolutas ignoram complexidade, velocidade, satisfação e risco de sobrecarga. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q523",
-      "revision": 1,
-      "prompt": "Sobrecarga informacional ocorre quando",
+      "revision": 2,
+      "prompt": "Uma equipe usa conexão total para deliberar, mas formaliza a decisão em processo eletrônico. Essa combinação demonstra que",
       "options": [
-        {"id": "a", "text": "há pouca formalização"},
-        {"id": "b", "text": "volume, velocidade ou simultaneidade excedem a capacidade de processamento"},
-        {"id": "c", "text": "todos os textos são curtos"},
-        {"id": "d", "text": "o canal permite feedback"},
-        {"id": "e", "text": "a rede é horizontal"}
+        {
+          "id": "a",
+          "text": "rede descentralizada impede registro."
+        },
+        {
+          "id": "b",
+          "text": "processo eletrônico torna a rede radial."
+        },
+        {
+          "id": "c",
+          "text": "formalidade exige cadeia."
+        },
+        {
+          "id": "d",
+          "text": "todos os canais é necessariamente informal."
+        },
+        {
+          "id": "e",
+          "text": "desenho da rede e formalidade do registro são dimensões diferentes e podem ser combinadas."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Excesso pode causar omissão, atraso e perda de prioridades. Enviar mais mensagens ou repetir indiscriminadamente não significa comunicar melhor. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "A rede descreve ligações entre participantes; formalidade descreve o reconhecimento institucional do canal e do registro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q524",
-      "revision": 1,
-      "prompt": "Falha de conexão durante videoconferência é exemplo de",
+      "revision": 2,
+      "prompt": "Quando um servidor omite problemas para apresentar desempenho mais favorável à chefia, ocorre",
       "options": [
-        {"id": "a", "text": "percepção seletiva"},
-        {"id": "b", "text": "política formal"},
-        {"id": "c", "text": "fluxo ascendente"},
-        {"id": "d", "text": "ruído tecnológico"},
-        {"id": "e", "text": "feedback eficaz"}
+        {
+          "id": "a",
+          "text": "filtragem."
+        },
+        {
+          "id": "b",
+          "text": "equivocidade criada pelo canal rico."
+        },
+        {
+          "id": "c",
+          "text": "escuta ativa."
+        },
+        {
+          "id": "d",
+          "text": "comunicação horizontal."
+        },
+        {
+          "id": "e",
+          "text": "linguagem simples."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Conectividade, sistema, interface e formato podem interferir na transmissão ou recepção. São ruídos tecnológicos, distintos de barreiras semânticas ou perceptivas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Filtragem é seleção ou alteração deliberada da informação, comum em fluxos ascendentes sob pressão hierárquica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q525",
-      "revision": 1,
-      "prompt": "O silêncio de um destinatário após receber uma orientação",
+      "revision": 2,
+      "prompt": "Percepção seletiva ocorre quando o receptor",
       "options": [
-        {"id": "a", "text": "prova concordância"},
-        {"id": "b", "text": "prova compreensão"},
-        {"id": "c", "text": "é sempre insubordinação"},
-        {"id": "d", "text": "elimina a necessidade de contexto"},
-        {"id": "e", "text": "pode ter causas distintas e não possui significado único"}
+        {
+          "id": "a",
+          "text": "apenas repete literalmente o texto."
+        },
+        {
+          "id": "b",
+          "text": "interpreta a mensagem conforme expectativas, experiências e interesses."
+        },
+        {
+          "id": "c",
+          "text": "usa necessariamente canal escrito."
+        },
+        {
+          "id": "d",
+          "text": "elimina qualquer emoção."
+        },
+        {
+          "id": "e",
+          "text": "transforma o fluxo em diagonal."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Silêncio pode refletir concordância, dúvida, medo, falta de acesso ou decisão de não responder. Sem contexto e feedback, não autoriza conclusão única. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "A interpretação não é neutra; repertório e expectativas influenciam o sentido atribuído. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q526",
-      "revision": 1,
-      "prompt": "A introdução de nova tecnologia de comunicação",
+      "revision": 2,
+      "prompt": "Qual prática caracteriza escuta ativa?",
       "options": [
-        {"id": "a", "text": "pode reduzir algumas barreiras e criar outras, sem eliminar fatores humanos e semânticos"},
-        {"id": "b", "text": "elimina automaticamente filtragem"},
-        {"id": "c", "text": "garante acessibilidade"},
-        {"id": "d", "text": "torna feedback desnecessário"},
-        {"id": "e", "text": "assegura interpretação uniforme"}
+        {
+          "id": "a",
+          "text": "Interromper para concluir pelo outro."
+        },
+        {
+          "id": "b",
+          "text": "Presumir concordância diante do silêncio."
+        },
+        {
+          "id": "c",
+          "text": "Fazer perguntas, parafrasear e confirmar o entendimento antes de responder."
+        },
+        {
+          "id": "d",
+          "text": "Enviar mais mensagens sem priorização."
+        },
+        {
+          "id": "e",
+          "text": "Evitar qualquer feedback."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Tecnologia amplia alcance e velocidade, mas pode gerar falhas, exclusão e sobrecarga. Percepção, linguagem, status e contexto continuam afetando a comunicação. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Escuta ativa exige atenção e verificação, não mera espera passiva nem presunção de entendimento. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q527",
-      "revision": 1,
-      "prompt": "Para reduzir erros de compreensão em mensagem crítica, é recomendável",
+      "revision": 2,
+      "prompt": "A distância de status pode prejudicar a comunicação porque",
       "options": [
-        {"id": "a", "text": "multiplicar avisos sem prioridade"},
-        {"id": "b", "text": "estruturar o essencial, adequar linguagem e canal e confirmar entendimento"},
-        {"id": "c", "text": "eliminar qualquer termo necessário"},
-        {"id": "d", "text": "impedir perguntas"},
-        {"id": "e", "text": "usar somente rede informal"}
+        {
+          "id": "a",
+          "text": "torna todo canal informal."
+        },
+        {
+          "id": "b",
+          "text": "elimina a hierarquia."
+        },
+        {
+          "id": "c",
+          "text": "garante informação sem filtragem."
+        },
+        {
+          "id": "d",
+          "text": "inibe perguntas, alertas e discordâncias dos níveis inferiores."
+        },
+        {
+          "id": "e",
+          "text": "impede qualquer comunicação descendente."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Objetivo, público, clareza, canal e feedback devem ser articulados. Repetição sem critério aumenta sobrecarga; simplificar não é omitir o essencial. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Poder e medo de consequências podem reduzir franqueza, especialmente no fluxo ascendente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q528",
-      "revision": 1,
-      "prompt": "Uma mensagem foi enviada rapidamente e com baixo custo, mas não foi compreendida. Pelo critério apresentado no conteúdo, ela foi",
+      "revision": 2,
+      "prompt": "Na perspectiva interpretativa, a comunicação é entendida principalmente como",
       "options": [
-        {"id": "a", "text": "eficaz e necessariamente efetiva"},
-        {"id": "b", "text": "ineficiente por definição"},
-        {"id": "c", "text": "potencialmente eficiente no uso de recursos, mas ineficaz no entendimento"},
-        {"id": "d", "text": "eficaz porque chegou"},
-        {"id": "e", "text": "formal e, portanto, correta"}
+        {
+          "id": "a",
+          "text": "mera transmissão mecânica de dados."
+        },
+        {
+          "id": "b",
+          "text": "instrumento exclusivamente jurídico."
+        },
+        {
+          "id": "c",
+          "text": "rede de cabos e sistemas."
+        },
+        {
+          "id": "d",
+          "text": "controle sem interação."
+        },
+        {
+          "id": "e",
+          "text": "processo pelo qual participantes constroem e negociam significados e realidade organizacional."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Eficiência considera meios empregados; eficácia, entendimento e efeito pretendido. Rapidez e custo baixo não compensam a falta de compreensão, observada a definição da questão. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "A perspectiva interpretativa enfatiza significados construídos na interação; a funcionalista enfatiza transmissão e eficiência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q529",
-      "revision": 1,
-      "prompt": "Sobre rumor e comunicação informal, assinale a opção correta.",
+      "revision": 2,
+      "prompt": "A perspectiva crítica da comunicação organizacional enfatiza",
       "options": [
-        {"id": "a", "text": "Toda comunicação informal é rumor."},
-        {"id": "b", "text": "Todo rumor é verdadeiro por circular rapidamente."},
-        {"id": "c", "text": "A rede informal é sempre ilegal."},
-        {"id": "d", "text": "Canais formais nunca sofrem distorção."},
-        {"id": "e", "text": "Rumor tem verificação incerta, mas a rede informal também pode circular conhecimento válido."}
+        {
+          "id": "a",
+          "text": "relações de poder, dominação, conflito, exclusão e possibilidades de emancipação."
+        },
+        {
+          "id": "b",
+          "text": "apenas velocidade do canal."
+        },
+        {
+          "id": "c",
+          "text": "somente gramática da mensagem."
+        },
+        {
+          "id": "d",
+          "text": "centralização como solução universal."
+        },
+        {
+          "id": "e",
+          "text": "ausência de interesses nas organizações."
+        }
       ],
-      "correctOptionId": "e",
-      "explanation": "Rumor é informação não confirmada; comunicação informal é fenômeno mais amplo. Redes formais e informais podem transmitir conteúdo correto ou distorcido. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "A abordagem crítica examina como comunicação e poder estruturam vozes, silêncios e desigualdades. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q530",
-      "revision": 1,
-      "prompt": "A Política Nacional de Linguagem Simples instituída pela Lei nº 15.263/2025 aplica-se",
+      "revision": 2,
+      "prompt": "A perspectiva tradicional ou funcionalista tende a tratar a comunicação como",
       "options": [
-        {"id": "a", "text": "à administração direta e indireta de todos os Poderes e entes federativos, na comunicação com a população"},
-        {"id": "b", "text": "somente ao Poder Executivo federal"},
-        {"id": "c", "text": "apenas a empresas privadas contratadas"},
-        {"id": "d", "text": "exclusivamente a documentos internos sigilosos"},
-        {"id": "e", "text": "somente aos Municípios"}
+        {
+          "id": "a",
+          "text": "construção de sentido sem qualquer finalidade."
+        },
+        {
+          "id": "b",
+          "text": "instrumento de transmissão, coordenação, eficiência e alcance de objetivos."
+        },
+        {
+          "id": "c",
+          "text": "processo exclusivamente emocional."
+        },
+        {
+          "id": "d",
+          "text": "manifestação apenas informal."
+        },
+        {
+          "id": "e",
+          "text": "negação de estruturas e canais."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "A lei alcança órgãos e entidades da administração direta e indireta de todos os Poderes da União, Estados, Distrito Federal e Municípios em comunicação com a população. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "A abordagem funcionalista privilegia fluxo, eficiência, controle e resultados organizacionais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q531",
-      "revision": 1,
-      "prompt": "Para a Lei nº 15.263/2025, linguagem simples é",
+      "revision": 2,
+      "prompt": "Segundo a Política Nacional de Linguagem Simples, é prática adequada",
       "options": [
-        {"id": "a", "text": "retirada de todo termo técnico"},
-        {"id": "b", "text": "conjunto de técnicas para permitir ao cidadão encontrar, compreender e usar a informação"},
-        {"id": "c", "text": "redução obrigatória de qualquer texto a uma frase"},
-        {"id": "d", "text": "comunicação exclusivamente oral"},
-        {"id": "e", "text": "substituição do conteúdo por recursos gráficos"}
+        {
+          "id": "a",
+          "text": "omitir requisitos jurídicos."
+        },
+        {
+          "id": "b",
+          "text": "infantilizar o cidadão."
+        },
+        {
+          "id": "c",
+          "text": "destacar informação essencial, usar ordem direta e explicar termos técnicos necessários."
+        },
+        {
+          "id": "d",
+          "text": "usar jargão sem explicação."
+        },
+        {
+          "id": "e",
+          "text": "substituir precisão por informalidade."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "A definição legal enfatiza transmissão clara e objetiva mediante palavras, estrutura e leiaute úteis. Termos técnicos necessários podem ser explicados, sem perda de conteúdo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Linguagem simples busca compreensão e acesso sem sacrificar conteúdo necessário e precisão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q532",
-      "revision": 1,
-      "prompt": "É técnica de linguagem simples prevista na Lei nº 15.263/2025",
+      "revision": 2,
+      "prompt": "Um órgão altera o agendamento e usuários continuam seguindo a rotina antiga. A primeira resposta gerencial mais adequada é",
       "options": [
-        {"id": "a", "text": "priorizar voz passiva e frases longas"},
-        {"id": "b", "text": "usar siglas antes do nome completo"},
-        {"id": "c", "text": "empregar ordem direta, frases curtas e informações importantes primeiro"},
-        {"id": "d", "text": "evitar teste com o público-alvo"},
-        {"id": "e", "text": "proibir listas e tabelas"}
+        {
+          "id": "a",
+          "text": "repetir a mesma mensagem indefinidamente."
+        },
+        {
+          "id": "b",
+          "text": "responsabilizar o receptor sem verificar ruído."
+        },
+        {
+          "id": "c",
+          "text": "usar apenas rede informal."
+        },
+        {
+          "id": "d",
+          "text": "diagnosticar públicos, mensagem, canais, dúvidas e barreiras antes de simplesmente aumentar o volume de avisos."
+        },
+        {
+          "id": "e",
+          "text": "retirar todo canal de feedback."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "A lei recomenda ordem direta, frases curtas, uma ideia por parágrafo, informação principal primeiro, explicação de termos e recursos estruturais quando adequados. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "O problema pode decorrer de conteúdo, canal, alcance, acessibilidade, tempo ou entendimento. Diagnóstico antecede a correção. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q533",
-      "revision": 1,
-      "prompt": "Assinale a correta delimitação entre comunicação e funções administrativas adjacentes.",
+      "revision": 2,
+      "prompt": "Na comunicação pública, clareza e acessibilidade devem coexistir com",
       "options": [
-        {"id": "a", "text": "Formular objetivos é comunicar, não planejar."},
-        {"id": "b", "text": "Comparar resultados e padrões é apenas feedback comunicacional."},
-        {"id": "c", "text": "Motivação e liderança são elementos do canal."},
-        {"id": "d", "text": "Comunicação apoia direção e controle, mas não absorve planejamento, liderança ou comparação de resultados."},
-        {"id": "e", "text": "Comunicação organizacional se limita à publicidade externa."}
+        {
+          "id": "a",
+          "text": "supressão de toda terminologia técnica."
+        },
+        {
+          "id": "b",
+          "text": "ausência de registro."
+        },
+        {
+          "id": "c",
+          "text": "comunicação somente oral."
+        },
+        {
+          "id": "d",
+          "text": "eliminação de controles jurídicos."
+        },
+        {
+          "id": "e",
+          "text": "precisão, legalidade, transparência e preservação da informação necessária."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Simplificar a linguagem não autoriza omitir deveres, direitos, condições ou fundamentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q534",
+      "revision": 1,
+      "prompt": "Em item de prova, afirmou-se que a comunicação atua na motivação, informação e expressão emocional, mas não no controle. A correção é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A afirmação está errada, porque controle também é função clássica da comunicação."
+        },
+        {
+          "id": "b",
+          "text": "A afirmação está certa, pois controle pertence apenas à contabilidade."
+        },
+        {
+          "id": "c",
+          "text": "A afirmação está certa somente em órgãos públicos."
+        },
+        {
+          "id": "d",
+          "text": "A afirmação está errada porque expressão emocional não é função."
+        },
+        {
+          "id": "e",
+          "text": "A afirmação está certa quando o canal é formal."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A classificação clássica inclui controle, motivação, expressão emocional e informação. Fonte: questão adaptada de CESPE/CEBRASPE, MCT, Analista em Ciência Pleno 2 — Secretariado Executivo, 2004, item reproduzido em Gran Questões Q633011 (https://questoes.grancursosonline.com.br/questoes-de-concursos/relacoes-humanas-395073/633011); adaptação: conversão de certo/errado para múltipla escolha e atualização da redação."
+    },
+    {
+      "id": "q535",
+      "revision": 1,
+      "prompt": "Qual conjunto apresenta as quatro funções clássicas da comunicação dentro de grupos e organizações?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Planejamento, organização, direção e controle."
+        },
+        {
+          "id": "b",
+          "text": "Controle, motivação, expressão emocional e informação."
+        },
+        {
+          "id": "c",
+          "text": "Codificação, canal, ruído e contexto."
+        },
+        {
+          "id": "d",
+          "text": "Cadeia, roda, círculo e Y."
+        },
+        {
+          "id": "e",
+          "text": "Autoridade, liderança, poder e conflito."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O conjunto correto reúne as quatro funções de comunicação; as demais alternativas apresentam funções administrativas, elementos ou redes. Fonte: questão adaptada de CESPE/CEBRASPE, TCE/PA, Auditor de Controle Externo — Comunicação/Publicidade, 2016, item reproduzido em Gran Questões Q2444551 (https://questoes.grancursosonline.com.br/questoes-de-concursos/comunicacao-social-17/2444551) e concurso oficial (https://cdn.cebraspe.org.br/concursos/TCE_PA_16/); adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q536",
+      "revision": 1,
+      "prompt": "Uma questão sustenta que redes formais prevalecem e, por isso, redes informais devem ser desconsideradas. Essa conclusão é",
+      "options": [
+        {
+          "id": "a",
+          "text": "correta, porque informal significa falso."
+        },
+        {
+          "id": "b",
+          "text": "correta, porque a direção controla integralmente rumores."
+        },
+        {
+          "id": "c",
+          "text": "incorreta, porque redes informais fornecem sinais relevantes, embora possam conter distorções."
+        },
+        {
+          "id": "d",
+          "text": "correta apenas em organizações públicas."
+        },
+        {
+          "id": "e",
+          "text": "incorreta porque redes formais não existem."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Formal e informal coexistem. Desconsiderar a rede informal elimina uma fonte de percepção sobre dúvidas, clima e resistências. Fonte: questão adaptada de CESPE/CEBRASPE, DETRAN/ES, Administrador, 2010, item reproduzido em Só Provas Q101593 (https://soprovas.com/questoes/304786) e página institucional do concurso (https://www.es.gov.br/Noticia/detranes-divulga-edital-de-concurso-publico-a); adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q537",
+      "revision": 1,
+      "prompt": "Sobre a rede de rumores, qual afirmação é mais adequada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "É formal e obrigatoriamente documentada."
+        },
+        {
+          "id": "b",
+          "text": "É sempre menos confiável para todos os empregados."
+        },
+        {
+          "id": "c",
+          "text": "É controlada integralmente pela direção."
+        },
+        {
+          "id": "d",
+          "text": "É informal, rápida, não totalmente controlada e pode ser percebida como confiável, sem garantia de exatidão."
+        },
+        {
+          "id": "e",
+          "text": "Só transmite informação falsa."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Comunicação sustenta as funções administrativas, mas mantém identidade própria. Objetivos pertencem ao planejamento, liderança e motivação à direção, e comparação e correção ao controle. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A grapevine possui rapidez e relevância social, mas sua exatidão varia; percepção de confiança não equivale a garantia factual. Fonte: questão adaptada de CESPE/CEBRASPE, BASA, Psicólogo do Trabalho, 2010, item reproduzido em Gran Questões Q2506172 (https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/2506172); adaptação: conversão para múltipla escolha e explicitação do conceito de grapevine."
+    },
+    {
+      "id": "q538",
+      "revision": 1,
+      "prompt": "Em item anterior, afirmou-se que controle e informação são funções da comunicação interpessoal. O julgamento conceitualmente correto é",
+      "options": [
+        {
+          "id": "a",
+          "text": "errado, pois somente informação é função."
+        },
+        {
+          "id": "b",
+          "text": "errado, pois somente controle é função."
+        },
+        {
+          "id": "c",
+          "text": "certo, mas apenas em comunicação escrita."
+        },
+        {
+          "id": "d",
+          "text": "errado, pois comunicação não regula comportamento."
+        },
+        {
+          "id": "e",
+          "text": "certo, sem excluir motivação e expressão emocional como outras funções."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Controle e informação integram a classificação clássica, juntamente com motivação e expressão emocional. Fonte: questão adaptada de CESPE/CEBRASPE, MCT, Analista em Ciência Júnior — Secretariado Executivo, 2004, item reproduzido em Gran Questões Q635751 (https://questoes.grancursosonline.com.br/questoes-de-concursos/comunicacao-social-17/635751); adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q539",
+      "revision": 1,
+      "prompt": "Um plano de comunicação prevê mensagens da direção às equipes, relatórios das equipes à direção e coordenação entre áreas equivalentes. Os fluxos são, respectivamente,",
+      "options": [
+        {
+          "id": "a",
+          "text": "descendente, ascendente e horizontal."
+        },
+        {
+          "id": "b",
+          "text": "ascendente, descendente e diagonal."
+        },
+        {
+          "id": "c",
+          "text": "horizontal, ascendente e descendente."
+        },
+        {
+          "id": "d",
+          "text": "descendente, horizontal e ascendente."
+        },
+        {
+          "id": "e",
+          "text": "diagonal, descendente e externo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A classificação depende da direção entre níveis: superior-inferior, inferior-superior e mesmo nível. Fonte: questão adaptada de CESPE/CEBRASPE, IPHAN, 2018, prova de conhecimentos específicos sobre comunicação, concurso oficial (https://cdn.cebraspe.org.br/concursos/IPHAN_18/); adaptação: síntese didática da cobrança sobre fluxos descendente, ascendente e lateral em múltipla escolha."
+    },
+    {
+      "id": "q540",
+      "revision": 1,
+      "prompt": "Uma organização precisa comunicar decisão delicada e ambígua, permitir perguntas imediatas e depois preservar registro. A combinação mais adequada é",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente formulário impessoal."
+        },
+        {
+          "id": "b",
+          "text": "reunião ou videoconferência interativa, seguida de documento com as decisões."
+        },
+        {
+          "id": "c",
+          "text": "apenas rumor informal."
+        },
+        {
+          "id": "d",
+          "text": "mensagem não verbal sem registro."
+        },
+        {
+          "id": "e",
+          "text": "aviso unidirecional sem canal de dúvida."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A interação reduz equivocidade; o documento posterior assegura rastreabilidade. Fonte: questão adaptada de CESPE/CEBRASPE, FUB, 2015/2016, prova administrativa sobre escolha de meios de comunicação, concurso oficial (https://cdn.cebraspe.org.br/concursos/FUB_16_1/); adaptação: contextualização e conversão para múltipla escolha."
+    },
+    {
+      "id": "q541",
+      "revision": 1,
+      "prompt": "Associe a perspectiva interpretativa à afirmação que melhor a representa.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comunicação é somente transmissão eficiente."
+        },
+        {
+          "id": "b",
+          "text": "O único foco é a velocidade do canal."
+        },
+        {
+          "id": "c",
+          "text": "A realidade organizacional é construída e negociada por significados nas interações."
+        },
+        {
+          "id": "d",
+          "text": "Poder e dominação são irrelevantes."
+        },
+        {
+          "id": "e",
+          "text": "Toda mensagem possui um sentido fixo independente do contexto."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A abordagem interpretativa enfatiza construção social de significados; a funcionalista privilegia transmissão e a crítica examina poder. Fonte: questão adaptada de CESPE/CEBRASPE, TSE, Analista, item sobre perspectivas da comunicação organizacional; adaptação: reorganização das associações em múltipla escolha, conforme referência secundária QConcursos (https://www.qconcursos.com/questoes-de-concursos/questoes/07e20e2a-29)."
+    },
+    {
+      "id": "q542",
+      "revision": 1,
+      "prompt": "Ao perceber que um rumor sobre reestruturação se espalhou, a gestão deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "ignorar a rede informal por princípio."
+        },
+        {
+          "id": "b",
+          "text": "confirmar o rumor sem checagem."
+        },
+        {
+          "id": "c",
+          "text": "proibir qualquer conversa entre servidores."
+        },
+        {
+          "id": "d",
+          "text": "verificar os fatos, comunicar o que puder com transparência e manter canal de dúvidas."
+        },
+        {
+          "id": "e",
+          "text": "substituir todos os canais formais por rumores."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A rede informal não deve ser tratada como irrelevante, mas tampouco como fonte automaticamente verdadeira. Fonte: questão adaptada de CESPE/CEBRASPE, DETRAN/ES, Administrador, 2010, item sobre redes formais e informais reproduzido em Só Provas Q101593 (https://soprovas.com/questoes/304786); adaptação: criação de situação aplicada."
+    },
+    {
+      "id": "q543",
+      "revision": 1,
+      "prompt": "Uma devolutiva de desempenho informa o resultado, esclarece padrão esperado e incentiva melhoria. Nessa interação coexistem principalmente as funções de",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente expressão emocional."
+        },
+        {
+          "id": "b",
+          "text": "apenas comunicação externa."
+        },
+        {
+          "id": "c",
+          "text": "codificação e ruído, que são funções."
+        },
+        {
+          "id": "d",
+          "text": "cadeia e roda, que são funções."
+        },
+        {
+          "id": "e",
+          "text": "informação, controle e motivação."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "As funções podem coexistir: a mensagem traz dados, orienta comportamento e influencia esforço. Fonte: questão adaptada de CESPE/CEBRASPE, TCE/PA, 2016, item sobre funções da comunicação, concurso oficial (https://cdn.cebraspe.org.br/concursos/TCE_PA_16/); adaptação: integração entre funções em situação gerencial."
     }
   ]
 }
