@@ -1,0 +1,57 @@
+name: Materialize significação lexical review
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: materialize-significacao-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  materialize:
+    name: Materialize significação lexical review
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out pull request branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Materialize reviewed subject files
+        shell: bash
+        run: |
+          python3 .github/patch-significacao.py
+
+          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/significacao-substituicao-lexical'
+          if ! git diff --quiet -- "$target"; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+            git commit -m 'content: aprofunda significação e substituição lexical'
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.12.0
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run unit tests
+        run: npm run test:unit
+
+      - name: Run Astro checks
+        run: npm run check
+
+      - name: Build production site
+        run: npm run build
