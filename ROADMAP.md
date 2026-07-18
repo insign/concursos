@@ -170,7 +170,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 4.3. Noções de transparência e acesso à informação pública (Lei nº 12.527/2011 - Lei de Acesso à Informação).
 - O subitem 4.3 é estudado aqui como aplicação introdutória no contexto digital; o regime jurídico completo da Lei nº 12.527/2011 pertence aos Assuntos 140 e 141.
 
-##### [>] Em progresso Assunto 033 - Item 4.5, recorte: inteligência artificial e automação de serviços públicos.
+##### [R] Em revisão Assunto 033 - Item 4.5, recorte: inteligência artificial e automação de serviços públicos.
 
 - 4.5. Tecnologias emergentes no setor público: noções de inteligência artificial aplicada a serviços públicos (IA generativa, chatbots, atendimento automatizado).
 - O item 4.5 é desdobrado nos Assuntos 033 e 034 por núcleo tecnológico, sem repetir o conteúdo: este assunto trata de IA e automação.
