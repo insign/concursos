@@ -1,3 +1,8 @@
-  File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 100
-    required = {
-IndentationError: unexpected indent
+.github/pontuacao-bundle.part1 chars= 5000 sha256= 45e3ab4fb86ac7c19ffb43b2263f6339691fc8bcbb355180fcd79071c55386da
+.github/pontuacao-bundle.part2 chars= 5000 sha256= e5b3700269d17f1c34b480c96bb2057563bb81b771592821cc504cbf945fa6f5
+.github/pontuacao-bundle.part3 chars= 5000 sha256= bd3d353625386e659dc2d2c023a069be4e60555f497455ffd55cfec18db1c9fd
+.github/pontuacao-bundle.part4 chars= 3312 sha256= b163a2997739424106cf516230a6ac716214d677dbf76f7eec7f356da638dad6
+compressed bytes: 13732 sha256= 72e1ddcee75de93ff4fc9cb759f65c53da893e345ab19179d98f327d2e005b5e
+bundle bytes: 75450 sha256= 1d58dbd005cd22fff90ec60e66c07392b9b4fdf7370d5fad2569e23d71c2064d
+question count: 130
+answer counts: {'A': 26, 'B': 26, 'C': 26, 'D': 26, 'E': 26}
