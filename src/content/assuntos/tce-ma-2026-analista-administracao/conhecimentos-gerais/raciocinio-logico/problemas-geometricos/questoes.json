@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q5319",
+      "revision": 1,
+      "prompt": "O complemento de um ângulo de 38° mede:",
+      "options": [
+        { "id": "A", "text": "42°" },
+        { "id": "B", "text": "48°" },
+        { "id": "C", "text": "52°" },
+        { "id": "D", "text": "142°" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ângulos complementares somam 90°. Portanto, 90° - 38° = 52°. O valor 142° seria o suplemento, não o complemento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5320",
+      "revision": 1,
+      "prompt": "O suplemento de um ângulo de 127° mede:",
+      "options": [
+        { "id": "A", "text": "53°" },
+        { "id": "B", "text": "63°" },
+        { "id": "C", "text": "37°" },
+        { "id": "D", "text": "233°" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ângulos suplementares somam 180°. Assim, 180° - 127° = 53°. Subtrair de 90° não se aplica porque a relação não é de complementaridade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5321",
+      "revision": 1,
+      "prompt": "Duas retas se cruzam. Se um dos ângulos formados mede 68°, o ângulo oposto pelo vértice a ele mede:",
+      "options": [
+        { "id": "A", "text": "22°" },
+        { "id": "B", "text": "112°" },
+        { "id": "C", "text": "136°" },
+        { "id": "D", "text": "68°" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ângulos opostos pelo vértice são congruentes, logo o ângulo pedido também mede 68°. O valor 112° corresponde aos ângulos adjacentes suplementares. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5322",
+      "revision": 1,
+      "prompt": "Duas retas paralelas são cortadas por uma transversal. Se um ângulo mede 115°, seu ângulo correspondente mede:",
+      "options": [
+        { "id": "A", "text": "65°" },
+        { "id": "B", "text": "115°" },
+        { "id": "C", "text": "75°" },
+        { "id": "D", "text": "245°" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em retas paralelas cortadas por transversal, ângulos correspondentes são congruentes. Portanto, a medida permanece 115°; 65° seria a medida de um ângulo suplementar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5323",
+      "revision": 1,
+      "prompt": "Dois ângulos internos de um triângulo medem 48° e 67°. O terceiro mede:",
+      "options": [
+        { "id": "A", "text": "55°" },
+        { "id": "B", "text": "65°" },
+        { "id": "C", "text": "75°" },
+        { "id": "D", "text": "115°" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A soma dos ângulos internos de um triângulo é 180°. Logo, 180° - 48° - 67° = 65°. O valor 115° é apenas a soma dos dois ângulos dados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5324",
+      "revision": 1,
+      "prompt": "Em um triângulo, dois ângulos internos não adjacentes a certo ângulo externo medem 35° e 72°. Esse ângulo externo mede:",
+      "options": [
+        { "id": "A", "text": "37°" },
+        { "id": "B", "text": "73°" },
+        { "id": "C", "text": "93°" },
+        { "id": "D", "text": "107°" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Um ângulo externo de triângulo é igual à soma dos dois ângulos internos não adjacentes: 35° + 72° = 107°. Subtrair os ângulos ou completar 180° sem identificar o adjacente leva a outros valores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5325",
+      "revision": 1,
+      "prompt": "Qual conjunto de comprimentos pode formar um triângulo não degenerado?",
+      "options": [
+        { "id": "A", "text": "5, 6 e 10" },
+        { "id": "B", "text": "2, 3 e 5" },
+        { "id": "C", "text": "4, 4 e 9" },
+        { "id": "D", "text": "1, 6 e 8" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No conjunto 5, 6 e 10, a soma dos dois menores é 11, estritamente maior que 10. Nos demais, a soma dos dois menores é igual ou inferior ao maior lado, o que impede um triângulo não degenerado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5326",
+      "revision": 1,
+      "prompt": "Um triângulo isósceles tem ângulo do vértice igual a 40°. Cada ângulo da base mede:",
+      "options": [
+        { "id": "A", "text": "40°" },
+        { "id": "B", "text": "60°" },
+        { "id": "C", "text": "70°" },
+        { "id": "D", "text": "80°" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os dois ângulos da base são congruentes e somam 180° - 40° = 140°. Cada um mede 140°/2 = 70°. Dividir 180° por três só seria adequado no caso equilátero. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5327",
+      "revision": 1,
+      "prompt": "O perímetro de um triângulo equilátero de lado 9 cm é:",
+      "options": [
+        { "id": "A", "text": "18 cm" },
+        { "id": "B", "text": "24 cm" },
+        { "id": "C", "text": "81 cm" },
+        { "id": "D", "text": "27 cm" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Um triângulo equilátero possui três lados de mesma medida. Seu perímetro é 3 × 9 = 27 cm. O número 81 resulta de 9², cálculo de área que teria unidade cm², e não do contorno pedido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5328",
+      "revision": 1,
+      "prompt": "Três ângulos internos de um quadrilátero medem 80°, 95° e 105°. O quarto mede:",
+      "options": [
+        { "id": "A", "text": "70°" },
+        { "id": "B", "text": "80°" },
+        { "id": "C", "text": "90°" },
+        { "id": "D", "text": "100°" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A soma interna de um quadrilátero é 360°. Os três ângulos dados somam 280°, restando 360° - 280° = 80°. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5329",
+      "revision": 1,
+      "prompt": "A soma dos ângulos internos de um octógono simples é:",
+      "options": [
+        { "id": "A", "text": "720°" },
+        { "id": "B", "text": "900°" },
+        { "id": "C", "text": "1.080°" },
+        { "id": "D", "text": "1.440°" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Para n = 8, a soma interna é (8 - 2) × 180° = 6 × 180° = 1.080°. Multiplicar 8 diretamente por 180° conta dois triângulos a mais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5330",
+      "revision": 1,
+      "prompt": "Cada ângulo interno de um decágono regular mede:",
+      "options": [
+        { "id": "A", "text": "144°" },
+        { "id": "B", "text": "108°" },
+        { "id": "C", "text": "135°" },
+        { "id": "D", "text": "150°" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A soma interna é (10 - 2) × 180° = 1.440°. Como o decágono é regular, divide-se por 10: 1.440°/10 = 144°. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5331",
+      "revision": 1,
+      "prompt": "O número de diagonais de um hexágono convexo é:",
+      "options": [
+        { "id": "A", "text": "9" },
+        { "id": "B", "text": "6" },
+        { "id": "C", "text": "12" },
+        { "id": "D", "text": "18" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pela fórmula D = n(n - 3)/2, para n = 6 tem-se D = 6 × 3/2 = 9. O fator 1/2 evita contar cada diagonal a partir de seus dois extremos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5332",
+      "revision": 1,
+      "prompt": "Um quadrado tem perímetro de 52 cm. A medida de seu lado é:",
+      "options": [
+        { "id": "A", "text": "12 cm" },
+        { "id": "B", "text": "14 cm" },
+        { "id": "C", "text": "13 cm" },
+        { "id": "D", "text": "26 cm" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O perímetro do quadrado é quatro vezes o lado. Logo, l = 52/4 = 13 cm. Dividir por dois consideraria apenas dois lados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5333",
+      "revision": 1,
+      "prompt": "A área de um retângulo de 12 cm de comprimento e 8 cm de largura é:",
+      "options": [
+        { "id": "A", "text": "40 cm²" },
+        { "id": "B", "text": "96 cm²" },
+        { "id": "C", "text": "48 cm²" },
+        { "id": "D", "text": "192 cm²" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A área do retângulo é comprimento × largura = 12 × 8 = 96 cm². O valor 40 corresponde ao perímetro, uma grandeza diferente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5334",
+      "revision": 1,
+      "prompt": "Um triângulo tem base de 14 cm e altura perpendicular de 9 cm. Sua área é:",
+      "options": [
+        { "id": "A", "text": "46 cm²" },
+        { "id": "B", "text": "72 cm²" },
+        { "id": "C", "text": "126 cm²" },
+        { "id": "D", "text": "63 cm²" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A área triangular é bh/2 = 14 × 9/2 = 63 cm². O valor 126 cm² resulta de esquecer o fator 1/2. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5335",
+      "revision": 1,
+      "prompt": "A área de um paralelogramo com base 12 cm e altura perpendicular 7 cm é:",
+      "options": [
+        { "id": "A", "text": "38 cm²" },
+        { "id": "B", "text": "42 cm²" },
+        { "id": "C", "text": "84 cm²" },
+        { "id": "D", "text": "168 cm²" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A área do paralelogramo é bh = 12 × 7 = 84 cm². O fator 1/2 não é usado nessa figura, ao contrário do triângulo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5336",
+      "revision": 1,
+      "prompt": "Um trapézio tem bases de 10 cm e 18 cm e altura perpendicular de 6 cm. Sua área é:",
+      "options": [
+        { "id": "A", "text": "54 cm²" },
+        { "id": "B", "text": "72 cm²" },
+        { "id": "C", "text": "168 cm²" },
+        { "id": "D", "text": "84 cm²" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A área é (B + b)h/2 = (18 + 10) × 6/2 = 84 cm². Multiplicar apenas uma base pela altura desconsidera a variação entre as bases. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5337",
+      "revision": 1,
+      "prompt": "As diagonais de um losango medem 12 cm e 16 cm. A área do losango é:",
+      "options": [
+        { "id": "A", "text": "48 cm²" },
+        { "id": "B", "text": "96 cm²" },
+        { "id": "C", "text": "112 cm²" },
+        { "id": "D", "text": "192 cm²" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A área do losango é Dd/2 = 12 × 16/2 = 96 cm². O produto 192 cm² omite a divisão por dois. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5338",
+      "revision": 1,
+      "prompt": "De um retângulo de 10 cm por 8 cm foi retirado integralmente um quadrado de lado 3 cm, sem sobreposição restante. A área remanescente é:",
+      "options": [
+        { "id": "A", "text": "71 cm²" },
+        { "id": "B", "text": "74 cm²" },
+        { "id": "C", "text": "77 cm²" },
+        { "id": "D", "text": "89 cm²" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A área do retângulo é 80 cm², e a do quadrado retirado é 3² = 9 cm². Restam 80 - 9 = 71 cm². Subtrair apenas o lado 3 confundiria comprimento com área. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5339",
+      "revision": 1,
+      "prompt": "Um triângulo retângulo tem catetos de 6 cm e 8 cm. A hipotenusa mede:",
+      "options": [
+        { "id": "A", "text": "9 cm" },
+        { "id": "B", "text": "10 cm" },
+        { "id": "C", "text": "12 cm" },
+        { "id": "D", "text": "14 cm" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pelo Teorema de Pitágoras, c² = 6² + 8² = 36 + 64 = 100, portanto c = 10 cm. Somar os catetos não fornece a hipotenusa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5340",
+      "revision": 1,
+      "prompt": "A hipotenusa de um triângulo retângulo mede 13 cm, e um cateto mede 5 cm. O outro cateto mede:",
+      "options": [
+        { "id": "A", "text": "12 cm" },
+        { "id": "B", "text": "8 cm" },
+        { "id": "C", "text": "10 cm" },
+        { "id": "D", "text": "18 cm" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Se b é o outro cateto, b² = 13² - 5² = 169 - 25 = 144. Logo, b = 12 cm. A hipotenusa deve permanecer o maior lado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5341",
+      "revision": 1,
+      "prompt": "A diagonal de um quadrado de lado 6 cm mede:",
+      "options": [
+        { "id": "A", "text": "6 cm" },
+        { "id": "B", "text": "12 cm" },
+        { "id": "C", "text": "3√2 cm" },
+        { "id": "D", "text": "6√2 cm" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A diagonal é hipotenusa de um triângulo retângulo com catetos 6 e 6. Assim, d² = 36 + 36 = 72 e d = 6√2 cm. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5342",
+      "revision": 1,
+      "prompt": "No plano cartesiano, a distância entre A(1, 2) e B(7, 10) é:",
+      "options": [
+        { "id": "A", "text": "8" },
+        { "id": "B", "text": "9" },
+        { "id": "C", "text": "10" },
+        { "id": "D", "text": "14" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As diferenças são 7 - 1 = 6 e 10 - 2 = 8. A distância é √(6² + 8²) = √100 = 10, uma aplicação de Pitágoras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5343",
+      "revision": 1,
+      "prompt": "O ponto médio do segmento com extremos A(-2, 4) e B(6, 8) é:",
+      "options": [
+        { "id": "A", "text": "(2, 6)" },
+        { "id": "B", "text": "(4, 12)" },
+        { "id": "C", "text": "(2, 4)" },
+        { "id": "D", "text": "(-4, 2)" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Calculam-se as médias das coordenadas: ((-2 + 6)/2, (4 + 8)/2) = (2, 6). Somar sem dividir por dois não produz o ponto médio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5344",
+      "revision": 1,
+      "prompt": "Dois triângulos são semelhantes. Um lado de 6 cm no menor corresponde a 9 cm no maior. Se outro lado do menor mede 8 cm, seu correspondente no maior mede:",
+      "options": [
+        { "id": "A", "text": "10 cm" },
+        { "id": "B", "text": "12 cm" },
+        { "id": "C", "text": "14 cm" },
+        { "id": "D", "text": "16 cm" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A razão linear do menor para o maior é 9/6 = 3/2. Aplicando-a ao lado 8, obtém-se 8 × 3/2 = 12 cm. Somar 3 cm não preserva a proporcionalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5345",
+      "revision": 1,
+      "prompt": "Duas figuras planas semelhantes têm razão entre comprimentos correspondentes igual a 3. A razão entre suas áreas, maior para menor, é:",
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "6" },
+        { "id": "C", "text": "9" },
+        { "id": "D", "text": "27" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Áreas de figuras semelhantes variam com o quadrado da razão linear. Assim, 3² = 9. O valor 27 seria a razão de volumes de sólidos semelhantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5346",
+      "revision": 1,
+      "prompt": "Dois sólidos semelhantes têm razão linear igual a 2. A razão entre seus volumes, maior para menor, é:",
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "6" },
+        { "id": "D", "text": "8" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Volumes de sólidos semelhantes variam com o cubo da razão linear. Portanto, 2³ = 8. O valor 4 corresponde à razão entre áreas homólogas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5347",
+      "revision": 1,
+      "prompt": "Três retas paralelas determinam, em duas transversais, segmentos correspondentes de medidas 4 e 6 na primeira e x e 9 na segunda. O valor de x é:",
+      "options": [
+        { "id": "A", "text": "4" },
+        { "id": "B", "text": "5" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "6" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Pelo Teorema de Tales, 4/6 = x/9. Da multiplicação cruzada, 6x = 36 e x = 6. A proporcionalidade depende do paralelismo declarado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5348",
+      "revision": 1,
+      "prompt": "Em uma planta na escala 1:50, um segmento mede 8 cm. O comprimento real representado é:",
+      "options": [
+        { "id": "A", "text": "0,4 m" },
+        { "id": "B", "text": "2 m" },
+        { "id": "C", "text": "4 m" },
+        { "id": "D", "text": "40 m" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O comprimento real é 8 × 50 = 400 cm, equivalente a 4 m. A conversão para metros deve ocorrer após respeitar a escala linear. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5349",
+      "revision": 1,
+      "prompt": "Em um mapa na escala 1:200.000, uma distância mede 3,5 cm. A distância real é:",
+      "options": [
+        { "id": "A", "text": "7 km" },
+        { "id": "B", "text": "3,5 km" },
+        { "id": "C", "text": "70 km" },
+        { "id": "D", "text": "700 km" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A distância real é 3,5 × 200.000 = 700.000 cm. Como 100.000 cm = 1 km, isso corresponde a 7 km. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5350",
+      "revision": 1,
+      "prompt": "Uma maquete usa razão linear 1:10 em relação ao objeto real. A razão entre a área de uma face da maquete e a área da face real correspondente é:",
+      "options": [
+        { "id": "A", "text": "1:10" },
+        { "id": "B", "text": "1:100" },
+        { "id": "C", "text": "1:1.000" },
+        { "id": "D", "text": "1:20" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Áreas variam com o quadrado da razão linear. Assim, (1/10)² = 1/100. A razão 1/1.000 corresponderia a volumes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5351",
+      "revision": 1,
+      "prompt": "O comprimento de uma circunferência de raio 5 cm é:",
+      "options": [
+        { "id": "A", "text": "5π cm" },
+        { "id": "B", "text": "25π cm" },
+        { "id": "C", "text": "10π cm" },
+        { "id": "D", "text": "50π cm" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O comprimento é C = 2πr = 2π × 5 = 10π cm. O valor 25π corresponde à área do círculo, não ao contorno. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5352",
+      "revision": 1,
+      "prompt": "A área de um círculo de raio 6 cm é:",
+      "options": [
+        { "id": "A", "text": "36π cm²" },
+        { "id": "B", "text": "12π cm²" },
+        { "id": "C", "text": "18π cm²" },
+        { "id": "D", "text": "72π cm²" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A área do círculo é πr² = π × 6² = 36π cm². A expressão 2πr = 12π mede o comprimento da circunferência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5353",
+      "revision": 1,
+      "prompt": "A área de um semicírculo de raio 4 cm é:",
+      "options": [
+        { "id": "A", "text": "4π cm²" },
+        { "id": "B", "text": "8π cm²" },
+        { "id": "C", "text": "12π cm²" },
+        { "id": "D", "text": "16π cm²" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O círculo completo tem área π × 4² = 16π cm². O semicírculo ocupa metade dessa região, portanto sua área é 8π cm². Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5354",
+      "revision": 1,
+      "prompt": "Um arco de 90° pertence a uma circunferência de raio 8 cm. O comprimento desse arco é:",
+      "options": [
+        { "id": "A", "text": "2π cm" },
+        { "id": "B", "text": "8π cm" },
+        { "id": "C", "text": "16π cm" },
+        { "id": "D", "text": "4π cm" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O arco de 90° corresponde a 1/4 da circunferência. Como 2πr = 16π cm, seu quarto mede 4π cm. O cálculo é de comprimento, não de área. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5355",
+      "revision": 1,
+      "prompt": "A área de um setor circular de 60° em um círculo de raio 6 cm é:",
+      "options": [
+        { "id": "A", "text": "3π cm²" },
+        { "id": "B", "text": "6π cm²" },
+        { "id": "C", "text": "12π cm²" },
+        { "id": "D", "text": "18π cm²" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O setor representa 60°/360° = 1/6 do círculo. Como a área total é 36π cm², a área do setor é 36π/6 = 6π cm². Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5356",
+      "revision": 1,
+      "prompt": "Uma coroa circular é limitada por círculos concêntricos de raios 5 cm e 3 cm. Sua área é:",
+      "options": [
+        { "id": "A", "text": "8π cm²" },
+        { "id": "B", "text": "12π cm²" },
+        { "id": "C", "text": "16π cm²" },
+        { "id": "D", "text": "22π cm²" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A área é π(5² - 3²) = π(25 - 9) = 16π cm². Calcular π(5 - 3)² daria 4π e aplicaria incorretamente o quadrado da diferença. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5357",
+      "revision": 1,
+      "prompt": "Uma roda tem comprimento de circunferência igual a 2 m. Sem deslizamento, após 150 voltas ela percorre:",
+      "options": [
+        { "id": "A", "text": "75 m" },
+        { "id": "B", "text": "150 m" },
+        { "id": "C", "text": "225 m" },
+        { "id": "D", "text": "300 m" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Cada volta avança um comprimento de circunferência. Assim, a distância é 150 × 2 = 300 m. A hipótese sem deslizamento é necessária para essa equivalência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5358",
+      "revision": 1,
+      "prompt": "A diferença entre as áreas de dois círculos concêntricos de raios 10 cm e 6 cm é:",
+      "options": [
+        { "id": "A", "text": "64π cm²" },
+        { "id": "B", "text": "16π cm²" },
+        { "id": "C", "text": "40π cm²" },
+        { "id": "D", "text": "136π cm²" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A diferença é π(10² - 6²) = π(100 - 36) = 64π cm². O valor 16π viria de elevar apenas a diferença dos raios ao quadrado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5359",
+      "revision": 1,
+      "prompt": "O volume de um cubo de aresta 4 cm é:",
+      "options": [
+        { "id": "A", "text": "64 cm³" },
+        { "id": "B", "text": "16 cm³" },
+        { "id": "C", "text": "48 cm³" },
+        { "id": "D", "text": "96 cm³" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O volume do cubo é l³ = 4³ = 64 cm³. O valor 16 corresponde à área de uma face, não ao volume. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5360",
+      "revision": 1,
+      "prompt": "Um paralelepípedo retângulo tem dimensões 3 cm, 4 cm e 10 cm. Seu volume é:",
+      "options": [
+        { "id": "A", "text": "17 cm³" },
+        { "id": "B", "text": "70 cm³" },
+        { "id": "C", "text": "240 cm³" },
+        { "id": "D", "text": "120 cm³" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O volume é o produto das três dimensões: 3 × 4 × 10 = 120 cm³. Somar dimensões não produz uma medida tridimensional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5361",
+      "revision": 1,
+      "prompt": "A área total de um cubo de aresta 5 cm é:",
+      "options": [
+        { "id": "A", "text": "25 cm²" },
+        { "id": "B", "text": "125 cm²" },
+        { "id": "C", "text": "150 cm²" },
+        { "id": "D", "text": "100 cm²" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Cada uma das seis faces tem área 5² = 25 cm². Logo, a área total é 6 × 25 = 150 cm²; 125 cm³ seria o volume. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5362",
+      "revision": 1,
+      "prompt": "Um prisma reto tem área da base 20 cm², perímetro da base 18 cm e altura 7 cm. Sua área total é:",
+      "options": [
+        { "id": "A", "text": "126 cm²" },
+        { "id": "B", "text": "166 cm²" },
+        { "id": "C", "text": "140 cm²" },
+        { "id": "D", "text": "266 cm²" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A área lateral é 18 × 7 = 126 cm². Somando as duas bases, 2 × 20 = 40 cm², obtém-se área total 166 cm². A alternativa 126 inclui apenas a lateral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5363",
+      "revision": 1,
+      "prompt": "O volume de um cilindro circular reto de raio 3 cm e altura 10 cm é:",
+      "options": [
+        { "id": "A", "text": "30π cm³" },
+        { "id": "B", "text": "60π cm³" },
+        { "id": "C", "text": "180π cm³" },
+        { "id": "D", "text": "90π cm³" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O volume é πr²h = π × 3² × 10 = 90π cm³. Usar apenas πrh esqueceria elevar o raio ao quadrado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5364",
+      "revision": 1,
+      "prompt": "A área lateral de um cilindro circular reto de raio 4 cm e altura 6 cm é:",
+      "options": [
+        { "id": "A", "text": "24π cm²" },
+        { "id": "B", "text": "48π cm²" },
+        { "id": "C", "text": "64π cm²" },
+        { "id": "D", "text": "80π cm²" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lateral aberta forma um retângulo de base 2πr e altura h. Logo, Al = 2π × 4 × 6 = 48π cm². As bases não entram na área lateral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5365",
+      "revision": 1,
+      "prompt": "O volume de um cone circular reto de raio 3 cm e altura 12 cm é:",
+      "options": [
+        { "id": "A", "text": "36π cm³" },
+        { "id": "B", "text": "54π cm³" },
+        { "id": "C", "text": "108π cm³" },
+        { "id": "D", "text": "144π cm³" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O volume do cone é πr²h/3 = π × 9 × 12/3 = 36π cm³. O valor 108π é o volume do cilindro de mesma base e altura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5366",
+      "revision": 1,
+      "prompt": "Uma pirâmide tem área da base de 48 cm² e altura perpendicular de 9 cm. Seu volume é:",
+      "options": [
+        { "id": "A", "text": "96 cm³" },
+        { "id": "B", "text": "216 cm³" },
+        { "id": "C", "text": "144 cm³" },
+        { "id": "D", "text": "432 cm³" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O volume é Abh/3 = 48 × 9/3 = 144 cm³. O produto 432 cm³ omite o fator 1/3 característico das pirâmides. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5367",
+      "revision": 1,
+      "prompt": "O volume de uma esfera de raio 3 cm é:",
+      "options": [
+        { "id": "A", "text": "27π cm³" },
+        { "id": "B", "text": "36π cm³" },
+        { "id": "C", "text": "12π cm³" },
+        { "id": "D", "text": "108π cm³" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O volume é (4/3)πr³ = (4/3)π × 27 = 36π cm³. O valor 108π resulta de omitir a divisão por três. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5368",
+      "revision": 1,
+      "prompt": "A área da superfície de uma esfera de raio 4 cm é:",
+      "options": [
+        { "id": "A", "text": "16π cm²" },
+        { "id": "B", "text": "32π cm²" },
+        { "id": "C", "text": "48π cm²" },
+        { "id": "D", "text": "64π cm²" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A área da esfera é 4πr² = 4π × 4² = 64π cm². A fórmula usa unidade quadrada, ao contrário do volume. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5369",
+      "revision": 1,
+      "prompt": "Um poliedro convexo tem 8 vértices e 12 arestas. Pela relação de Euler, ele possui:",
+      "options": [
+        { "id": "A", "text": "6 faces" },
+        { "id": "B", "text": "4 faces" },
+        { "id": "C", "text": "8 faces" },
+        { "id": "D", "text": "10 faces" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Para poliedros convexos, V - E + F = 2. Assim, 8 - 12 + F = 2, de onde F = 6. A convexidade declarada garante a aplicação da relação estudada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5370",
+      "revision": 1,
+      "prompt": "Um prisma triangular possui quantos vértices, arestas e faces, respectivamente?",
+      "options": [
+        { "id": "A", "text": "5, 8 e 5" },
+        { "id": "B", "text": "6, 8 e 4" },
+        { "id": "C", "text": "6, 9 e 5" },
+        { "id": "D", "text": "8, 12 e 6" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As duas bases triangulares fornecem 6 vértices e 6 arestas; três arestas laterais completam 9. Há duas bases e três faces laterais, totalizando 5 faces. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5371",
+      "revision": 1,
+      "prompt": "Toda planificação válida da superfície de um cubo é composta por quantos quadrados congruentes?",
+      "options": [
+        { "id": "A", "text": "4" },
+        { "id": "B", "text": "5" },
+        { "id": "C", "text": "6" },
+        { "id": "D", "text": "8" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Um cubo tem seis faces quadradas congruentes, e a planificação preserva todas elas. Nem todo arranjo de seis quadrados é válido, mas toda planificação válida contém exatamente seis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5372",
+      "revision": 1,
+      "prompt": "Um volume de 2 m³ corresponde a:",
+      "options": [
+        { "id": "A", "text": "2.000 L" },
+        { "id": "B", "text": "200 L" },
+        { "id": "C", "text": "20.000 L" },
+        { "id": "D", "text": "2 L" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Como 1 m³ = 1.000 L, então 2 m³ = 2.000 L. O litro é unidade de capacidade equivalente ao decímetro cúbico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5373",
+      "revision": 1,
+      "prompt": "Uma área de 2.500 cm², expressa em metros quadrados, é:",
+      "options": [
+        { "id": "A", "text": "2,5 m²" },
+        { "id": "B", "text": "0,25 m²" },
+        { "id": "C", "text": "25 m²" },
+        { "id": "D", "text": "0,025 m²" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Como 1 m² = 10.000 cm², divide-se 2.500 por 10.000, obtendo 0,25 m². Usar fator 100 seria uma conversão linear indevida para área. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5374",
+      "revision": 1,
+      "prompt": "Uma capacidade de 0,8 litro corresponde a:",
+      "options": [
+        { "id": "A", "text": "80 cm³" },
+        { "id": "B", "text": "8.000 cm³" },
+        { "id": "C", "text": "0,8 cm³" },
+        { "id": "D", "text": "800 cm³" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Um litro corresponde a 1.000 cm³. Logo, 0,8 × 1.000 = 800 cm³. O resultado preserva a equivalência entre capacidade e volume. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5375",
+      "revision": 1,
+      "prompt": "Um reservatório em forma de paralelepípedo retângulo tem dimensões internas de 2 m, 1,5 m e 0,8 m. Sua capacidade total é:",
+      "options": [
+        { "id": "A", "text": "2.400 L" },
+        { "id": "B", "text": "240 L" },
+        { "id": "C", "text": "4.300 L" },
+        { "id": "D", "text": "24.000 L" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O volume é 2 × 1,5 × 0,8 = 2,4 m³. Como cada metro cúbico corresponde a 1.000 litros, a capacidade é 2.400 L. Somar dimensões não calcula volume. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5376",
+      "revision": 1,
+      "prompt": "Uma caixa retangular sem tampa tem base de 10 cm por 6 cm e altura de 4 cm. A área de material necessária, desconsiderando abas e espessura, é:",
+      "options": [
+        { "id": "A", "text": "128 cm²" },
+        { "id": "B", "text": "168 cm²" },
+        { "id": "C", "text": "188 cm²" },
+        { "id": "D", "text": "248 cm²" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A base mede 10 × 6 = 60 cm². As faces laterais somam 2 × 10 × 4 + 2 × 6 × 4 = 128 cm². Sem tampa, o total é 60 + 128 = 188 cm². Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5377",
+      "revision": 1,
+      "prompt": "Um cone e um cilindro têm bases de mesma área e alturas iguais. O volume do cone corresponde a:",
+      "options": [
+        { "id": "A", "text": "metade do volume do cilindro" },
+        { "id": "B", "text": "ao mesmo volume do cilindro" },
+        { "id": "C", "text": "ao triplo do volume do cilindro" },
+        { "id": "D", "text": "um terço do volume do cilindro" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O cilindro tem volume Abh, enquanto o cone tem Abh/3. Com mesma base e mesma altura, o cone ocupa um terço do volume do cilindro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5378",
+      "revision": 1,
+      "prompt": "Um reservatório cilíndrico de raio 2 m e altura 5 m está preenchido até 3/4 de sua capacidade. O volume ocupado é:",
+      "options": [
+        { "id": "A", "text": "10π m³" },
+        { "id": "B", "text": "15π m³" },
+        { "id": "C", "text": "20π m³" },
+        { "id": "D", "text": "30π m³" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A capacidade total é πr²h = π × 2² × 5 = 20π m³. Três quartos desse volume são (3/4) × 20π = 15π m³. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
