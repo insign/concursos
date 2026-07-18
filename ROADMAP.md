@@ -157,7 +157,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 4.4.3. Noções de assinatura eletrônica e certificação digital em documentos oficiais.
 - Os dois recortes são tratados juntos por serem o mesmo núcleo funcional, sem duplicar assinatura e certificação nos demais assuntos.
 
-##### [ ] Assunto 031 - Item 4, subitens 4.4.1 e 4.4.2: Processo Eletrônico Nacional e Sistema Eletrônico de Informações.
+##### [>] Em progresso Assunto 031 - Item 4, subitens 4.4.1 e 4.4.2: Processo Eletrônico Nacional e Sistema Eletrônico de Informações.
 
 - 4.4. Sistemas e ferramentas do setor público.
   - 4.4.1. Processo Eletrônico Nacional (PEN).
