@@ -225,7 +225,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 #### Controle Externo
 
-##### [R] Em revisão Assunto 046 - Itens 1 e 2: Conceito, tipos, formas e controle interno e externo.
+##### [x] Concluído Assunto 046 - Itens 1 e 2: Conceito, tipos, formas e controle interno e externo.
 
 - Item 1. Conceito, tipos e formas de controle.
 - Item 2. Controle interno e externo.
