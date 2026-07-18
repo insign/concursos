@@ -1,268 +1,283 @@
-# Planejamento estratégico
+# Planejamento estratégico: revisão rápida
 
 ## Conceitos
 
 | Conceito | Núcleo |
 | --- | --- |
-| Estratégia | escolhas + prioridades + direção para resultados |
-| Planejamento estratégico | processo sistêmico de estabelecer a estratégia |
-| PEI | produto documental do planejamento |
-| Gestão estratégica | implementar + monitorar + avaliar + revisar |
+| estratégia | escolhas coerentes |
+| planejamento estratégico | processo sistêmico |
+| plano/PEI | produto documental |
+| gestão estratégica | implementar, monitorar, avaliar e revisar |
 
-- Planejamento estratégico é o principal instrumento da gestão estratégica; não a esgota.
-- Plano sem implementação e aprendizagem = intenção documentada.
-- Estratégia exige escolhas e renúncias.
+Plano publicado ≠ estratégia implementada.
 
-## Características
+## Formação da estratégia
 
-- Sistêmico.
-- Orientado ao futuro.
-- Seletivo.
-- Integrado.
-- Baseado em evidências.
-- Dinâmico.
-- Orientado a resultados e valor público.
-- Planejamento reduz incerteza; não a elimina.
+| Tipo | Ideia |
+| --- | --- |
+| pretendida | intenção inicial |
+| deliberada | intenção efetivamente realizada |
+| não realizada | intenção abandonada |
+| emergente | padrão surgido durante a ação |
+| realizada | deliberada + emergente |
+
+Emergente ≠ improvisação sem direção.
+
+## Cinco Ps
+
+- plano: curso intencional;
+- pretexto/manobra: movimento específico;
+- padrão: consistência observada;
+- posição: lugar no ambiente;
+- perspectiva: modo compartilhado de perceber.
 
 ## Níveis
 
-| Nível | Foco |
+| Nível | Escopo |
 | --- | --- |
-| Estratégico | organização, ambiente, missão, visão e prioridades |
-| Tático | unidade, área, programa, recursos e contribuições |
-| Operacional | processo, atividade, responsável, prazo e entrega |
+| estratégico | organização e ambiente |
+| tático | área ou unidade |
+| operacional | tarefas, processos e entregas |
 
-- Não há prazos universais fixos para cada nível.
-- Todos podem ter metas, indicadores e riscos.
-- Alinhamento vertical = estratégia → unidades → processos/projetos → atividades.
-- Alinhamento horizontal = coordenação entre áreas dependentes.
+Precedência e amplitude não criam prazos universais.
 
 ## Identidade
 
-- Missão = razão de ser e contribuição presente.
-- Visão = situação futura desejada.
-- Valores = princípios que orientam decisão e conduta.
-- Cadeia de valor = como competências e processos produzem entregas e resultados.
-- Cadeia de valor ≠ organograma, cronograma ou mapa estratégico.
+- missão: razão de ser atual;
+- visão: futuro desejado;
+- valores: princípios;
+- propósito: impacto ou razão maior;
+- cadeia de valor: como processos geram entregas;
+- valor público: resultado útil e legítimo ao interesse público.
 
-## Valor público e stakeholders
+## Alinhamento
 
-- Decreto nº 9.203/2017: produtos e resultados úteis e efetivos para necessidades de interesse público.
-- Valor público ≠ lucro.
-- Valor público ≠ economia isolada.
-- Stakeholder = quem afeta ou é afetado pela estratégia.
-- Inclui cidadãos, usuários, servidores, controle, Legislativo, parceiros, fornecedores e sociedade.
-- Participar ≠ decidir tudo; a autoridade preserva competência e interesse público.
+- vertical: missão → objetivos → unidades → processos/projetos → atividades;
+- horizontal: coordenação entre áreas;
+- desdobrar ≠ copiar o mesmo objetivo.
 
 ## Ciclo
 
 1. identidade e mandato;
-2. diagnóstico e stakeholders;
-3. prioridades e objetivos;
+2. diagnóstico;
+3. formulação;
 4. indicadores, metas e iniciativas;
-5. desdobramento e comunicação;
+5. desdobramento;
 6. implementação;
-7. monitoramento e riscos;
+7. monitoramento;
 8. avaliação;
-9. aprendizagem e revisão.
+9. revisão.
 
-## Diagnóstico
+Formulação e implementação são interdependentes.
 
-### SWOT/FOFA
+## SWOT e TOWS
 
 | Fator | Ambiente |
 | --- | --- |
-| Força | interno favorável |
-| Fraqueza | interno desfavorável |
-| Oportunidade | externo favorável |
-| Ameaça | externo desfavorável |
-
-- SWOT organiza fatores; não cria plano de ação.
-
-### TOWS
+| força | interno favorável |
+| fraqueza | interno desfavorável |
+| oportunidade | externo favorável |
+| ameaça | externo desfavorável |
 
 | Cruzamento | Resposta |
 | --- | --- |
 | SO | força aproveita oportunidade |
 | WO | reduz fraqueza para aproveitar oportunidade |
 | ST | força enfrenta ameaça |
-| WT | reduz vulnerabilidade diante de ameaça |
+| WT | reduz vulnerabilidade |
 
-- TOWS não muda a natureza interna/externa.
+SWOT organiza; não prioriza nem executa.
 
-### PESTEL
+## PESTEL e cenários
 
-- Político.
-- Econômico.
-- Social.
-- Tecnológico.
-- Ecológico/ambiental.
-- Legal.
-- Foco no macroambiente externo.
+PESTEL: político, econômico, social, tecnológico, ambiental e legal.
 
-### Cenários
+Cenários:
 
-- Futuros plausíveis, não previsão única.
-- Tendências + variáveis críticas + incertezas.
-- Testam robustez e orientam contingências.
-- Cenário ≠ meta.
+- futuros plausíveis;
+- não são previsão exata;
+- testam robustez;
+- usam premissas, sinais e respostas.
 
-## Objetivos e mensuração
+## FCS, objetivo, indicador, meta e iniciativa
 
-| Elemento | Função |
-| --- | --- |
-| Objetivo | mudança pretendida |
-| Indicador | medida relevante |
-| Linha de base | valor inicial |
-| Meta | valor esperado + prazo |
-| Iniciativa | intervenção para influenciar resultado |
+- objetivo: mudança desejada;
+- FCS: condição essencial ao sucesso;
+- indicador: medida;
+- linha de base: valor inicial;
+- meta: valor + prazo;
+- iniciativa: ação estruturada.
 
-- Atividade concluída ≠ resultado comprovado.
-- Meta sem indicador é difícil de verificar.
-- Indicador sem objetivo pode medir irrelevância.
+## SMART
 
-### Indicador do PEI
+- específico;
+- mensurável;
+- alcançável/atingível;
+- relevante/realista;
+- temporal.
 
-Mínimo da IN nº 24/2020:
+## Cadeia de resultados
 
-1. fórmula de cálculo;
-2. periodicidade de medição;
-3. linha de base;
-4. metas.
+insumo → atividade → produto → resultado → impacto
 
-Outros atributos úteis: fonte, responsável, unidade, sentido, recortes e limitações.
+- eficiência: recursos/produtos;
+- eficácia: metas/resultados;
+- efetividade: efeitos na realidade.
 
-### Cadeia de resultados
+## Escolas
 
-1. insumo = recurso;
-2. processo = atividade;
-3. produto/output = entrega;
-4. resultado/outcome = mudança no destinatário;
-5. impacto = efeito amplo e duradouro.
+### Prescritivas
 
-- Distância do produto aumenta o desafio de atribuição causal.
-- Eficiência = recursos/produtos.
-- Eficácia = alcance de metas/objetivos.
-- Efetividade = mudança relevante na realidade.
-- Terminologia pode variar: observar a referência da questão.
+- design: concepção e ajuste;
+- planejamento: processo formal;
+- posicionamento: análise e posições genéricas.
 
-## Implementação
+### Descritivas
 
-- Governança e patrocínio.
-- Estrutura e processos.
-- Pessoas e competências.
-- Orçamento e recursos.
-- Projetos e iniciativas.
-- Tecnologia e dados.
-- Comunicação.
-- Riscos e controles.
-- Rotinas de decisão.
+- empreendedora: visão;
+- cognitiva: processo mental;
+- aprendizagem: emergência;
+- poder: negociação;
+- cultural: crenças compartilhadas;
+- ambiental: adaptação.
 
-- Priorizar por valor, alinhamento, risco, custo, capacidade, dependências e viabilidade.
-- Estratégia deve orientar também o que interromper.
+### Integrativa
+
+- configuração: estados e transformação.
+
+## Porter
+
+Cinco forças:
+
+1. rivalidade;
+2. entrantes;
+3. substitutos;
+4. compradores;
+5. fornecedores.
+
+Estratégias:
+
+- custos;
+- diferenciação;
+- enfoque.
+
+Enfoque ≠ diferenciação automática.
+
+## Ansoff
+
+| Produtos | Mercados | Estratégia |
+| --- | --- | --- |
+| atuais | atuais | penetração |
+| atuais | novos | desenvolvimento de mercado |
+| novos | atuais | desenvolvimento de produto |
+| novos | novos | diversificação |
+
+## BCG
+
+| Crescimento | Participação | Quadrante |
+| --- | --- | --- |
+| alto | alta | estrela |
+| alto | baixa | interrogação |
+| baixo | alta | vaca leiteira |
+| baixo | baixa | abacaxi/cão |
 
 ## BSC
 
-- Kaplan e Norton, artigo original de 1992.
-- Não é apenas painel; traduz estratégia em objetivos, indicadores, metas e iniciativas.
+Perspectivas clássicas:
 
-Perspectivas originais:
+- financeira;
+- clientes;
+- processos internos;
+- aprendizado e crescimento.
 
-1. financeira;
-2. clientes;
-3. processos internos do negócio;
-4. inovação e aprendizagem.
+No setor público, sociedade/usuários pode ocupar o topo.
 
-- Formulação posterior comum: aprendizado e crescimento.
-- Mapa estratégico expressa hipóteses de causa e efeito.
-- Hipótese ≠ causalidade cientificamente provada.
+Mapa estratégico:
 
-### Setor público
+- representa objetivos;
+- mostra relações de causa e efeito;
+- não é organograma, cronograma ou lista de projetos.
 
-- Missão, sociedade, cidadão, usuário e valor público são finalísticos.
-- Finanças = meio, restrição, sustentabilidade, legalidade e economicidade.
-- Não existe adaptação pública única obrigatória.
-- Perspectivas podem ser renomeadas, reordenadas ou acrescidas.
+Indicadores:
+
+- tendência/antecedente: capacidade ou ação;
+- resultado/consequente: efeito alcançado.
 
 ## OKR
 
-- Objective = direção qualitativa clara e mobilizadora.
-- Key Results = evidências mensuráveis de progresso/alcance.
-- Iniciativas = ações para influenciar KRs.
-- “Implantar sistema” tende a ser iniciativa, não KR de resultado.
-- Cadência trimestral é comum, não universal.
-- BSC e OKR podem ser complementares.
+- objetivo: direção qualitativa;
+- resultado-chave: evidência mensurável;
+- tarefa não é necessariamente resultado-chave;
+- não exige ciclo trimestral universal;
+- pode coexistir com BSC e PEI.
+
+## Implementação
+
+Exige:
+
+- patrocínio;
+- portfólio;
+- recursos;
+- responsáveis;
+- comunicação;
+- mudança;
+- riscos;
+- monitoramento.
+
+Plano sem capacidade e orçamento = intenção.
 
 ## Governança e riscos
 
-- Decreto nº 9.203/2017: liderança + estratégia + controle.
-- Governança: avaliar + direcionar + monitorar a gestão.
-- Gestão: planejar + executar + administrar recursos.
-- Estratégia: diretrizes, objetivos, planos, ações, priorização e alinhamento.
-- Risco ≠ somente problema negativo já ocorrido.
-- Riscos devem integrar estratégia, desdobramentos, atividades, processos e projetos.
-- Controle proporcional ao risco e ao custo-benefício.
+- governança: avalia, direciona e monitora;
+- gestão: planeja, executa e controla;
+- risco: efeito da incerteza sobre objetivos;
+- risco pode ser ameaça ou oportunidade.
 
-## Monitorar, avaliar e revisar
+## Monitoramento × avaliação × revisão
 
-| Processo | Pergunta |
+- monitoramento: acompanhamento frequente;
+- avaliação: análise profunda;
+- revisão: alteração fundamentada.
+
+Desvio pode indicar execução ruim, meta ruim, indicador ruim ou premissa alterada.
+
+## PEI × PPA × LDO × LOA
+
+| Instrumento | Núcleo |
 | --- | --- |
-| Monitoramento | o que está acontecendo? |
-| Avaliação | por que, para quem e com que efeitos? |
-| Revisão | o que deve mudar? |
-| Aprendizagem | o que incorporar às próximas decisões? |
+| PEI | estratégia institucional |
+| PPA | objetivos e metas governamentais de médio prazo |
+| LDO | prioridades e orientação orçamentária |
+| LOA | receita e despesa anual |
 
-- Painel sem decisão = exposição de números.
-- Revisão baseada em evidência ≠ fracasso do planejamento.
-- Mudar meta só para esconder baixo desempenho ≠ revisão legítima.
+PEI não substitui os instrumentos orçamentários.
 
-## PEI federal: IN nº 24/2020
+## Pegadinhas
 
-Abrange Administração Pública Federal direta, autárquica e fundacional.
-
-Conteúdo mínimo:
-
-1. cadeia de valor;
-2. missão + visão + valores + mapa estratégico;
-3. objetivos e metas;
-4. indicadores com fórmula + periodicidade + baseline + metas;
-5. projetos com entregas + prazos + unidade responsável.
-
-- Aprovação e monitoramento: comitê interno de governança.
-- Monitoramento: no mínimo trimestral.
-- Revisão: pelo menos anual; atualização se necessária.
-- Divulgação: sítio eletrônico institucional.
-- Menção ao PPA 2020–2023 no art. 4º é histórica.
-
-## PEI, PPA, LDO e LOA
-
-| Instrumento | Função |
+| Afirmação | Julgamento |
 | --- | --- |
-| PEI | estratégia institucional; não é lei orçamentária |
-| PPA | planejamento legal de médio prazo e regionalizado |
-| LDO | metas/prioridades, diretrizes fiscais e orientação da LOA |
-| LOA | estima receitas e fixa despesas anuais |
+| planejamento elimina incerteza | errado |
+| missão descreve o futuro | errado |
+| visão é a razão de ser atual | errado |
+| oportunidade é fator interno | errado |
+| SWOT define responsável e prazo | errado |
+| estratégia emergente deve ser suprimida | errado |
+| FCS é sempre um problema | errado |
+| meta é iniciativa | errado |
+| BSC é apenas financeiro | errado |
+| mapa é organograma | errado |
+| enfoque é sempre diferenciação | errado |
+| PEI substitui PPA e LOA | errado |
 
-- CF, art. 165: PPA + LDO + LOA.
-- PPA vigente: 2024–2027, Lei nº 14.802/2024.
-- Regulamento: Decreto nº 12.066/2024.
-- Portal oficial registra revisão de 2026.
-- PEI deve alinhar-se à dimensão estratégica do PPA.
-- PPA ≠ LOA de quatro anos.
-- LDO = ponte entre PPA e LOA.
-- LOA compreende orçamentos fiscal, de investimento e da seguridade social.
+## Roteiro de prova
 
-## Pegadinhas finais
-
-- Planejamento ≠ plano ≠ gestão estratégica.
-- Missão ≠ visão.
-- SWOT ≠ TOWS.
-- PESTEL não analisa capacidade interna.
-- Cenário ≠ previsão certa.
-- Objetivo ≠ indicador ≠ meta ≠ iniciativa.
-- BSC ≠ conjunto solto de métricas.
-- Objective ≠ KR ≠ tarefa.
-- Governança ≠ gestão.
-- Monitoramento ≠ avaliação.
-- PEI: trimestre para monitorar; ano para revisar.
-- PEI ≠ PPA ≠ LDO ≠ LOA.
+1. processo, plano ou gestão?
+2. qual nível?
+3. missão, visão, valor ou meta?
+4. fator interno ou externo?
+5. qual escola ou modelo?
+6. objetivo, FCS, indicador, meta ou iniciativa?
+7. qual perspectiva do BSC?
+8. há causa e efeito plausível?
+9. existem recursos, riscos e governança?
+10. há absoluto indevido?

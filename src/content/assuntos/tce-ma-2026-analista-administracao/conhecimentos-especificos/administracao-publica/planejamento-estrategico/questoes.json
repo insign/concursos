@@ -1,706 +1,2616 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q734",
-      "revision": 1,
-      "prompt": "Segundo a IN SEGES/ME nº 24/2020, planejamento estratégico é",
+      "revision": 2,
+      "prompt": "Em um órgão público, qual situação caracteriza planejamento estratégico, e não apenas a existência de um plano?",
       "options": [
-        {"id": "a", "text": "o documento orçamentário que fixa as despesas anuais da organização"},
-        {"id": "b", "text": "o processo sistêmico de estabelecimento da estratégia que parte da condição presente, da identidade e do contexto para alcançar situação futura desejada"},
-        {"id": "c", "text": "a atividade operacional de distribuir tarefas diárias entre servidores"},
-        {"id": "d", "text": "o controle posterior realizado exclusivamente pela auditoria interna"},
-        {"id": "e", "text": "a previsão exata e imutável de todos os eventos futuros"}
+        {
+          "id": "a",
+          "text": "A alta administração define escolhas, desdobra objetivos, aloca recursos, monitora resultados e revisa hipóteses com base em evidências."
+        },
+        {
+          "id": "b",
+          "text": "A unidade publica missão e visão, mas não atribui responsáveis nem acompanha resultados."
+        },
+        {
+          "id": "c",
+          "text": "A área de orçamento fixa despesas anuais sem relacioná-las a objetivos institucionais."
+        },
+        {
+          "id": "d",
+          "text": "Uma equipe distribui tarefas diárias e considera encerrado o processo estratégico."
+        },
+        {
+          "id": "e",
+          "text": "O órgão produz um diagnóstico extenso, porém evita escolher prioridades para não excluir demandas."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "A IN nº 24/2020 define planejamento estratégico como processo sistêmico que considera condição presente, organização, papel e contexto para alcançar situação futura desejada, buscando efetividade e eficiência. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "O planejamento estratégico é processo sistêmico; o plano é seu produto. Gestão estratégica exige implementação, monitoramento, avaliação e revisão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q735",
-      "revision": 1,
-      "prompt": "A relação correta entre planejamento estratégico e Plano Estratégico Institucional — PEI é",
+      "revision": 2,
+      "prompt": "Segundo a IN SEGES/ME nº 24/2020, qual relação entre planejamento estratégico e PEI está correta?",
       "options": [
-        {"id": "a", "text": "o planejamento é o processo, e o PEI é seu produto documental"},
-        {"id": "b", "text": "o PEI é o processo, e o planejamento é apenas um indicador"},
-        {"id": "c", "text": "ambos são leis orçamentárias anuais"},
-        {"id": "d", "text": "o planejamento só começa depois do encerramento do PEI"},
-        {"id": "e", "text": "os termos são legalmente idênticos e intercambiáveis"}
+        {
+          "id": "a",
+          "text": "O PEI é o processo, e o planejamento estratégico é apenas um indicador de desempenho."
+        },
+        {
+          "id": "b",
+          "text": "O planejamento estratégico é o processo; o PEI é o produto que documenta elementos mínimos da estratégia."
+        },
+        {
+          "id": "c",
+          "text": "Os termos são juridicamente idênticos e intercambiáveis."
+        },
+        {
+          "id": "d",
+          "text": "O PEI substitui PPA, LDO e LOA."
+        },
+        {
+          "id": "e",
+          "text": "O planejamento estratégico começa somente depois da publicação do PEI."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Planejamento estratégico é o processo de estabelecer a estratégia; PEI é o produto que a documenta. Confundir processo e documento é uma pegadinha recorrente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "A norma distingue processo sistêmico e produto documental. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q736",
-      "revision": 1,
-      "prompt": "Gestão estratégica distingue-se do mero registro de um plano porque",
+      "revision": 2,
+      "prompt": "Uma organização possui um plano aprovado, mas não acompanha indicadores, riscos nem iniciativas. O que falta principalmente?",
       "options": [
-        {"id": "a", "text": "elimina a necessidade de objetivos e indicadores"},
-        {"id": "b", "text": "limita-se a formular missão e visão uma única vez"},
-        {"id": "c", "text": "abrange implementação, condução, monitoramento, avaliação, aprendizagem e revisão da estratégia"},
-        {"id": "d", "text": "substitui toda gestão tática e operacional"},
-        {"id": "e", "text": "é exercida somente por órgãos de controle externo"}
+        {
+          "id": "a",
+          "text": "Missão institucional, pois todo plano aprovado elimina a razão de ser."
+        },
+        {
+          "id": "b",
+          "text": "Planejamento operacional, porque apenas tarefas diárias podem medir estratégia."
+        },
+        {
+          "id": "c",
+          "text": "Gestão estratégica, porque a estratégia ainda não está sendo conduzida, monitorada e revista."
+        },
+        {
+          "id": "d",
+          "text": "Análise externa, que deve ocorrer apenas depois da execução."
+        },
+        {
+          "id": "e",
+          "text": "Valores organizacionais, pois indicadores são incompatíveis com valores."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Gestão estratégica é processo contínuo e superior de implementação e acompanhamento da estratégia. O planejamento é seu principal instrumento, mas não esgota a gestão. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Plano aprovado não equivale a estratégia implementada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q737",
-      "revision": 1,
-      "prompt": "Uma decisão que define visão institucional, objetivos de maior alcance e prioridades para a organização inteira pertence predominantemente ao nível",
+      "revision": 2,
+      "prompt": "Uma decisão que define visão institucional, prioridades e objetivos para toda a organização pertence predominantemente ao nível",
       "options": [
-        {"id": "a", "text": "operacional"},
-        {"id": "b", "text": "transacional"},
-        {"id": "c", "text": "procedimental"},
-        {"id": "d", "text": "estratégico"},
-        {"id": "e", "text": "cartorial"}
+        {
+          "id": "a",
+          "text": "operacional."
+        },
+        {
+          "id": "b",
+          "text": "procedimental."
+        },
+        {
+          "id": "c",
+          "text": "transacional."
+        },
+        {
+          "id": "d",
+          "text": "estratégico."
+        },
+        {
+          "id": "e",
+          "text": "tático de curto alcance exclusivamente."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "O nível estratégico trata da organização em sua relação com o ambiente, da direção futura, dos objetivos institucionais e das escolhas de maior alcance. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O nível estratégico abrange organização e ambiente e estabelece direção de maior alcance. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q738",
-      "revision": 1,
-      "prompt": "Uma diretoria traduz um objetivo institucional em plano setorial, capacidades, recursos e responsabilidades de sua área. Esse trabalho é predominantemente",
+      "revision": 2,
+      "prompt": "Qual exemplo representa alinhamento vertical?",
       "options": [
-        {"id": "a", "text": "tático"},
-        {"id": "b", "text": "constitucional"},
-        {"id": "c", "text": "exclusivamente estratégico"},
-        {"id": "d", "text": "exclusivamente operacional"},
-        {"id": "e", "text": "estranho ao planejamento"}
+        {
+          "id": "a",
+          "text": "Duas unidades equivalentes ajustam interfaces sem referência aos objetivos institucionais."
+        },
+        {
+          "id": "b",
+          "text": "Cada área copia literalmente o mesmo objetivo e o mesmo indicador."
+        },
+        {
+          "id": "c",
+          "text": "A organização abandona planos táticos para preservar autonomia operacional."
+        },
+        {
+          "id": "d",
+          "text": "Os objetivos estratégicos são definidos apenas depois das tarefas individuais."
+        },
+        {
+          "id": "e",
+          "text": "Um objetivo institucional é desdobrado em contribuições de unidades, processos, projetos, atividades e indicadores compatíveis."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O nível tático traduz a estratégia para unidades, áreas, programas ou funções, articulando contribuição, recursos e responsabilidades. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "Alinhamento vertical conecta níveis; copiar sem adaptar não é desdobramento real. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q739",
-      "revision": 1,
-      "prompt": "Detalhar tarefas, responsáveis, prazos e padrões de execução de um processo corresponde predominantemente ao planejamento",
+      "revision": 2,
+      "prompt": "Qual declaração é uma missão institucional?",
       "options": [
-        {"id": "a", "text": "estratégico nacional"},
-        {"id": "b", "text": "operacional"},
-        {"id": "c", "text": "legislativo"},
-        {"id": "d", "text": "prospectivo de cenários"},
-        {"id": "e", "text": "orçamentário plurianual"}
+        {
+          "id": "a",
+          "text": "Exercer o controle externo para contribuir com a boa gestão dos recursos públicos em benefício da sociedade."
+        },
+        {
+          "id": "b",
+          "text": "Ser reconhecido, até 2030, como tribunal de contas mais tempestivo do país."
+        },
+        {
+          "id": "c",
+          "text": "Reduzir o tempo médio de apreciação em 30% até dezembro de 2028."
+        },
+        {
+          "id": "d",
+          "text": "Integridade, imparcialidade, inovação e cooperação."
+        },
+        {
+          "id": "e",
+          "text": "Implantar painel de dados em todas as unidades no próximo exercício."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "O planejamento operacional detalha o fazer cotidiano: processos, atividades, equipes, responsáveis, prazos, padrões e entregas concretas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Missão expressa razão de ser e contribuição presente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q740",
-      "revision": 1,
-      "prompt": "Sobre os horizontes dos níveis de planejamento, assinale a afirmativa correta.",
+      "revision": 2,
+      "prompt": "Qual declaração é uma visão de futuro?",
       "options": [
-        {"id": "a", "text": "Todo plano estratégico deve durar exatamente dez anos."},
-        {"id": "b", "text": "Todo plano tático deve coincidir com o ano civil."},
-        {"id": "c", "text": "Planejamento operacional jamais possui metas."},
-        {"id": "d", "text": "A classificação dos níveis não impõe prazos universais fixos; horizonte e detalhamento dependem do objeto e do contexto."},
-        {"id": "e", "text": "O nível estratégico trata somente do curto prazo."}
+        {
+          "id": "a",
+          "text": "Fiscalizar recursos públicos em benefício da sociedade."
+        },
+        {
+          "id": "b",
+          "text": "Ser reconhecido até 2030 pela tempestividade e pelo impacto das decisões de controle."
+        },
+        {
+          "id": "c",
+          "text": "Integridade, transparência e compromisso com resultados."
+        },
+        {
+          "id": "d",
+          "text": "Alcançar 90% de processos eletrônicos integrados até dezembro de 2027."
+        },
+        {
+          "id": "e",
+          "text": "Implantar um programa de capacitação de gestores."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "Estratégico, tático e operacional diferem principalmente por abrangência e função. Não há duração universal obrigatória para cada nível, e todos podem possuir metas e indicadores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "Visão descreve estado futuro desejado; meta e iniciativa são elementos diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q741",
-      "revision": 1,
-      "prompt": "A declaração que expressa a razão de ser, o mandato e a contribuição presente de uma organização corresponde à",
+      "revision": 2,
+      "prompt": "Valores organizacionais são corretamente entendidos como",
       "options": [
-        {"id": "a", "text": "missão"},
-        {"id": "b", "text": "meta"},
-        {"id": "c", "text": "linha de base"},
-        {"id": "d", "text": "ameaça"},
-        {"id": "e", "text": "iniciativa"}
+        {
+          "id": "a",
+          "text": "resultados quantitativos obrigatórios para cada exercício."
+        },
+        {
+          "id": "b",
+          "text": "projetos temporários destinados a executar a estratégia."
+        },
+        {
+          "id": "c",
+          "text": "princípios e crenças que orientam escolhas e comportamentos."
+        },
+        {
+          "id": "d",
+          "text": "fatores externos favoráveis identificados na SWOT."
+        },
+        {
+          "id": "e",
+          "text": "medidas usadas para calcular a linha de base."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Missão responde por que, para quem e com que contribuição a organização existe. Ela não é uma meta temporária nem uma medida de desempenho. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Valores orientam conduta e critérios; não são metas ou indicadores. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q742",
-      "revision": 1,
-      "prompt": "A situação futura desejada que orienta a transformação institucional é denominada",
+      "revision": 2,
+      "prompt": "No setor público, valor público corresponde principalmente a",
       "options": [
-        {"id": "a", "text": "valor"},
-        {"id": "b", "text": "processo"},
-        {"id": "c", "text": "visão de futuro"},
-        {"id": "d", "text": "linha de base"},
-        {"id": "e", "text": "insumo"}
+        {
+          "id": "a",
+          "text": "lucro financeiro distribuído aos dirigentes."
+        },
+        {
+          "id": "b",
+          "text": "satisfação de qualquer grupo interno, independentemente da legalidade."
+        },
+        {
+          "id": "c",
+          "text": "redução de custos, ainda que o serviço deixe de atender destinatários legítimos."
+        },
+        {
+          "id": "d",
+          "text": "entregas e resultados úteis, legítimos e efetivos para necessidades de interesse público."
+        },
+        {
+          "id": "e",
+          "text": "volume de atividades executadas, mesmo sem resultado social."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "A visão descreve uma aspiração ou situação futura desejada. A missão expressa a razão de ser presente, enquanto valores orientam decisões e condutas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Valor público envolve utilidade, legitimidade, interesse público e efeitos relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q743",
-      "revision": 1,
-      "prompt": "No planejamento estratégico, valores institucionais são",
+      "revision": 2,
+      "prompt": "Na análise de stakeholders, a administração deve",
       "options": [
-        {"id": "a", "text": "os montantes financeiros autorizados na LOA"},
-        {"id": "b", "text": "crenças e princípios que orientam decisões e comportamentos"},
-        {"id": "c", "text": "as metas numéricas de cada indicador"},
-        {"id": "d", "text": "os fatores externos favoráveis da SWOT"},
-        {"id": "e", "text": "as tarefas atribuídas às equipes"}
+        {
+          "id": "a",
+          "text": "atender integralmente toda demanda do grupo mais influente."
+        },
+        {
+          "id": "b",
+          "text": "transferir a decisão final aos interessados consultados."
+        },
+        {
+          "id": "c",
+          "text": "excluir grupos de baixa influência, ainda que fortemente afetados."
+        },
+        {
+          "id": "d",
+          "text": "substituir diagnóstico por consulta pública."
+        },
+        {
+          "id": "e",
+          "text": "considerar influência, interesse, impacto e necessidades legítimas, preservando legalidade e competência decisória."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Valores são referências de conduta e decisão. Não se confundem com recursos financeiros, metas, oportunidades ou atividades. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "Participação qualifica a decisão, mas não elimina alçadas nem dever de ponderação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q744",
-      "revision": 1,
-      "prompt": "À luz do Decreto nº 9.203/2017, valor público é melhor representado por",
+      "revision": 2,
+      "prompt": "Qual afirmação sobre estratégia pretendida, deliberada, emergente e realizada está correta?",
       "options": [
-        {"id": "a", "text": "qualquer economia orçamentária, ainda que prejudique o serviço"},
-        {"id": "b", "text": "o lucro distribuído aos dirigentes"},
-        {"id": "c", "text": "a satisfação exclusiva de interesses internos"},
-        {"id": "d", "text": "produtos e resultados úteis e efetivos que respondem a necessidades de interesse público e modificam a realidade de destinatários legítimos"},
-        {"id": "e", "text": "o volume de documentos produzidos, independentemente de utilidade"}
+        {
+          "id": "a",
+          "text": "A estratégia realizada pode combinar elementos deliberados e emergentes."
+        },
+        {
+          "id": "b",
+          "text": "Toda estratégia pretendida torna-se deliberada."
+        },
+        {
+          "id": "c",
+          "text": "Estratégia emergente é sempre erro de planejamento."
+        },
+        {
+          "id": "d",
+          "text": "Estratégia não realizada é idêntica à estratégia emergente."
+        },
+        {
+          "id": "e",
+          "text": "Estratégia deliberada focaliza exclusivamente aprendizagem espontânea."
+        }
       ],
-      "correctOptionId": "d",
-      "explanation": "O decreto vincula valor público a produtos e resultados que constituam respostas efetivas e úteis a necessidades ou demandas de interesse público. Não se reduz a lucro, economia ou produção interna. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "A realização resulta do que foi intencionalmente executado e do que emergiu na prática. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q745",
-      "revision": 1,
-      "prompt": "Na análise estratégica de uma organização pública, partes interessadas incluem",
+      "revision": 2,
+      "prompt": "Nos cinco Ps de Mintzberg, estratégia como plano significa",
       "options": [
-        {"id": "a", "text": "somente clientes que pagam diretamente pelo serviço"},
-        {"id": "b", "text": "somente os dirigentes máximos"},
-        {"id": "c", "text": "pessoas, grupos e instituições que afetam ou são afetados pela estratégia, como cidadãos, servidores, controle e parceiros"},
-        {"id": "d", "text": "apenas fornecedores contratados"},
-        {"id": "e", "text": "exclusivamente usuários externos já atendidos"}
+        {
+          "id": "a",
+          "text": "consistência observada no comportamento passado."
+        },
+        {
+          "id": "b",
+          "text": "curso de ação intencional formulado para o futuro."
+        },
+        {
+          "id": "c",
+          "text": "lugar ocupado em relação ao ambiente."
+        },
+        {
+          "id": "d",
+          "text": "modo compartilhado de perceber o mundo."
+        },
+        {
+          "id": "e",
+          "text": "manobra pontual para influenciar um concorrente."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Stakeholders abrangem diferentes atores internos e externos com influência, interesse ou impacto. Sua participação não elimina a competência decisória nem a ponderação do interesse público. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "Plano enfatiza intenção futura; padrão, posição, perspectiva e pretexto são outros Ps. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q746",
-      "revision": 1,
-      "prompt": "Em uma matriz SWOT, uma equipe com elevada competência técnica e uma infraestrutura interna obsoleta constituem, respectivamente,",
+      "revision": 2,
+      "prompt": "Quando uma organização mantém, ao longo dos anos, a prática consistente de priorizar atendimento digital, mesmo sem documento inicial único, a estratégia é observada como",
       "options": [
-        {"id": "a", "text": "oportunidade e ameaça"},
-        {"id": "b", "text": "força e fraqueza"},
-        {"id": "c", "text": "força e oportunidade"},
-        {"id": "d", "text": "ameaça e fraqueza"},
-        {"id": "e", "text": "duas oportunidades"}
+        {
+          "id": "a",
+          "text": "plano."
+        },
+        {
+          "id": "b",
+          "text": "pretexto."
+        },
+        {
+          "id": "c",
+          "text": "padrão."
+        },
+        {
+          "id": "d",
+          "text": "posição."
+        },
+        {
+          "id": "e",
+          "text": "perspectiva exclusivamente cultural."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Forças e fraquezas são fatores internos favoráveis e desfavoráveis. Competência interna é força; infraestrutura interna inadequada é fraqueza. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Padrão é consistência no comportamento realizado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q747",
-      "revision": 1,
-      "prompt": "Uma nova tecnologia disponível no mercado e uma alteração legal que eleva obrigações institucionais podem ser classificadas na SWOT, respectivamente, como",
+      "revision": 2,
+      "prompt": "Nos cinco Ps, escolher atender um segmento específico de usuários representa estratégia como",
       "options": [
-        {"id": "a", "text": "força e fraqueza"},
-        {"id": "b", "text": "fraqueza e força"},
-        {"id": "c", "text": "oportunidade e ameaça, conforme seus efeitos sobre os objetivos"},
-        {"id": "d", "text": "duas forças internas"},
-        {"id": "e", "text": "dois processos operacionais"}
+        {
+          "id": "a",
+          "text": "padrão."
+        },
+        {
+          "id": "b",
+          "text": "plano necessariamente formal."
+        },
+        {
+          "id": "c",
+          "text": "perspectiva interna apenas."
+        },
+        {
+          "id": "d",
+          "text": "posição."
+        },
+        {
+          "id": "e",
+          "text": "pretexto sem relação com ambiente."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Oportunidades e ameaças são condições externas favoráveis ou desfavoráveis. A classificação depende do efeito relevante para os objetivos da organização. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Posição descreve o lugar ocupado em relação ao ambiente ou aos públicos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q748",
-      "revision": 1,
-      "prompt": "Na matriz TOWS, usar uma força institucional para aproveitar uma oportunidade externa corresponde à combinação",
+      "revision": 2,
+      "prompt": "Qual sequência melhor representa um ciclo de gestão estratégica?",
       "options": [
-        {"id": "a", "text": "SO"},
-        {"id": "b", "text": "WO"},
-        {"id": "c", "text": "ST"},
-        {"id": "d", "text": "WT"},
-        {"id": "e", "text": "PE"}
+        {
+          "id": "a",
+          "text": "Execução, missão, orçamento, diagnóstico e encerramento definitivo."
+        },
+        {
+          "id": "b",
+          "text": "Visão, auditoria, punição e congelamento do plano."
+        },
+        {
+          "id": "c",
+          "text": "Formulação, publicação e abandono dos indicadores."
+        },
+        {
+          "id": "d",
+          "text": "Operação diária, controle financeiro e definição posterior da identidade."
+        },
+        {
+          "id": "e",
+          "text": "Diagnóstico, formulação, definição de medidas, implementação, monitoramento, avaliação e revisão."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "SO combina Strength e Opportunity: mobiliza forças para aproveitar oportunidades. TOWS converte fatores da SWOT em alternativas estratégicas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "O ciclo é contínuo e realimentado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q749",
-      "revision": 1,
-      "prompt": "Uma estratégia destinada a reduzir uma fraqueza interna para que a organização possa aproveitar uma oportunidade externa é classificada, na TOWS, como",
+      "revision": 2,
+      "prompt": "Qual fator deve ser classificado como interno na perspectiva de uma autarquia?",
       "options": [
-        {"id": "a", "text": "SO"},
-        {"id": "b", "text": "WO"},
-        {"id": "c", "text": "ST"},
-        {"id": "d", "text": "WT"},
-        {"id": "e", "text": "SW"}
+        {
+          "id": "a",
+          "text": "Baixa interoperabilidade entre seus sistemas corporativos."
+        },
+        {
+          "id": "b",
+          "text": "Alteração da taxa básica de juros."
+        },
+        {
+          "id": "c",
+          "text": "Nova legislação nacional aplicável ao setor."
+        },
+        {
+          "id": "d",
+          "text": "Mudança demográfica da população atendida."
+        },
+        {
+          "id": "e",
+          "text": "Disponibilidade de financiamento internacional."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "WO relaciona Weakness e Opportunity: busca superar ou reduzir fraquezas para aproveitar oportunidades. O cruzamento não altera a natureza interna ou externa dos fatores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Recursos, processos, tecnologia e capacidades sob maior influência organizacional são internos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q750",
-      "revision": 1,
-      "prompt": "A análise PESTEL é utilizada principalmente para examinar",
+      "revision": 2,
+      "prompt": "Na SWOT, uma equipe com domínio avançado de análise de dados constitui",
       "options": [
-        {"id": "a", "text": "apenas competências individuais da equipe"},
-        {"id": "b", "text": "fatores políticos, econômicos, sociais, tecnológicos, ambientais e legais do macroambiente"},
-        {"id": "c", "text": "somente o orçamento interno"},
-        {"id": "d", "text": "a sequência diária de tarefas"},
-        {"id": "e", "text": "exclusivamente as quatro perspectivas do BSC"}
+        {
+          "id": "a",
+          "text": "oportunidade externa."
+        },
+        {
+          "id": "b",
+          "text": "força interna."
+        },
+        {
+          "id": "c",
+          "text": "ameaça externa."
+        },
+        {
+          "id": "d",
+          "text": "meta estratégica."
+        },
+        {
+          "id": "e",
+          "text": "iniciativa temporária."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "PESTEL estrutura a leitura do macroambiente externo em seis categorias. Ela complementa, mas não substitui, a análise das capacidades internas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Força é capacidade interna favorável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q751",
-      "revision": 1,
-      "prompt": "No planejamento estratégico, cenários são",
+      "revision": 2,
+      "prompt": "Na SWOT, a abertura de linha internacional de financiamento para digitalização constitui",
       "options": [
-        {"id": "a", "text": "previsões únicas e certas do futuro"},
-        {"id": "b", "text": "metas quantitativas já aprovadas"},
-        {"id": "c", "text": "descrições coerentes de futuros plausíveis usadas para testar escolhas e preparar respostas"},
-        {"id": "d", "text": "substitutos do diagnóstico interno"},
-        {"id": "e", "text": "demonstrativos contábeis de execução"}
+        {
+          "id": "a",
+          "text": "força interna."
+        },
+        {
+          "id": "b",
+          "text": "fraqueza interna."
+        },
+        {
+          "id": "c",
+          "text": "oportunidade externa."
+        },
+        {
+          "id": "d",
+          "text": "resultado institucional."
+        },
+        {
+          "id": "e",
+          "text": "fator crítico necessariamente negativo."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Cenários combinam tendências e incertezas para explorar futuros plausíveis. Não predizem com certeza nem se confundem com metas ou projeção única. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Oportunidade é condição externa favorável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q752",
-      "revision": 1,
-      "prompt": "Assinale a associação correta.",
+      "revision": 2,
+      "prompt": "Na TOWS, uma estratégia SO busca",
       "options": [
-        {"id": "a", "text": "Objetivo — valor inicial; indicador — ação; meta — missão."},
-        {"id": "b", "text": "Objetivo — mudança pretendida; indicador — medida; meta — valor esperado em determinado prazo."},
-        {"id": "c", "text": "Objetivo — tarefa diária; indicador — visão; meta — valor institucional."},
-        {"id": "d", "text": "Objetivo — recurso; indicador — ameaça; meta — processo."},
-        {"id": "e", "text": "Objetivo, indicador e meta são sinônimos."}
+        {
+          "id": "a",
+          "text": "reduzir fraquezas para enfrentar ameaças."
+        },
+        {
+          "id": "b",
+          "text": "transformar ameaças em fatores internos."
+        },
+        {
+          "id": "c",
+          "text": "usar oportunidades para eliminar missão e visão."
+        },
+        {
+          "id": "d",
+          "text": "usar forças para aproveitar oportunidades."
+        },
+        {
+          "id": "e",
+          "text": "substituir objetivos por uma lista de fatores."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "O objetivo declara o resultado desejado; o indicador mede aspecto relevante; e a meta estabelece o valor esperado, normalmente acompanhado de prazo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "SO combina força interna com oportunidade externa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q753",
-      "revision": 1,
-      "prompt": "A linha de base de um indicador corresponde",
+      "revision": 2,
+      "prompt": "Uma estratégia WO procura",
       "options": [
-        {"id": "a", "text": "ao valor inicial de referência contra o qual a evolução pode ser comparada"},
-        {"id": "b", "text": "à lista de iniciativas ainda não aprovadas"},
-        {"id": "c", "text": "à missão institucional"},
-        {"id": "d", "text": "ao cenário mais otimista"},
-        {"id": "e", "text": "ao valor que obrigatoriamente deve ser alcançado"}
+        {
+          "id": "a",
+          "text": "usar forças para enfrentar ameaças."
+        },
+        {
+          "id": "b",
+          "text": "reduzir forças diante de oportunidades."
+        },
+        {
+          "id": "c",
+          "text": "preservar fraquezas para evitar riscos."
+        },
+        {
+          "id": "d",
+          "text": "converter metas em fatores externos."
+        },
+        {
+          "id": "e",
+          "text": "reduzir ou superar fraquezas para aproveitar oportunidades."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Linha de base registra a situação inicial ou referência. A meta é o valor esperado; sem baseline, torna-se mais difícil interpretar a magnitude da mudança. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "WO usa uma oportunidade para enfrentar uma limitação interna. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q754",
-      "revision": 1,
-      "prompt": "Conforme a IN nº 24/2020, os indicadores do PEI devem apresentar, no mínimo,",
+      "revision": 2,
+      "prompt": "Uma mudança na composição etária da população é classificada, em PESTEL, predominantemente como fator",
       "options": [
-        {"id": "a", "text": "nome do dirigente e custo de cada reunião"},
-        {"id": "b", "text": "fórmula de cálculo, periodicidade de medição, linha de base e metas"},
-        {"id": "c", "text": "somente um título e uma cor no painel"},
-        {"id": "d", "text": "apenas a meta final"},
-        {"id": "e", "text": "um projeto e uma ameaça externa"}
+        {
+          "id": "a",
+          "text": "social."
+        },
+        {
+          "id": "b",
+          "text": "econômico exclusivamente."
+        },
+        {
+          "id": "c",
+          "text": "tecnológico."
+        },
+        {
+          "id": "d",
+          "text": "legal."
+        },
+        {
+          "id": "e",
+          "text": "interno."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Esses quatro atributos são expressamente exigidos pela IN nº 24/2020. Fonte, responsável e limitações também são úteis, embora não integrem essa lista mínima literal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Demografia integra o macroambiente social, embora possa interagir com outros fatores. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q755",
-      "revision": 1,
-      "prompt": "Um órgão implantou um portal e, após seu uso, reduziu o tempo mediano de atendimento. O portal implantado e a redução do tempo são, respectivamente,",
+      "revision": 2,
+      "prompt": "Qual afirmação sobre planejamento por cenários está correta?",
       "options": [
-        {"id": "a", "text": "resultado e insumo"},
-        {"id": "b", "text": "impacto e processo"},
-        {"id": "c", "text": "produto ou entrega e resultado"},
-        {"id": "d", "text": "ameaça e força"},
-        {"id": "e", "text": "meta e missão"}
+        {
+          "id": "a",
+          "text": "Cenário é uma previsão única e exata."
+        },
+        {
+          "id": "b",
+          "text": "Cenários descrevem futuros plausíveis e ajudam a testar a robustez de escolhas sem eliminar a incerteza."
+        },
+        {
+          "id": "c",
+          "text": "Cenários substituem indicadores e metas."
+        },
+        {
+          "id": "d",
+          "text": "A técnica só pode considerar variáveis internas."
+        },
+        {
+          "id": "e",
+          "text": "Um cenário deve ser escolhido como verdade oficial antes da formulação."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "A implantação é uma entrega produzida; a mudança observada no desempenho após seu uso é resultado. Concluir a entrega não prova automaticamente que o resultado ocorreu. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "Cenários apoiam preparação e aprendizagem; não prometem previsão certa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q756",
-      "revision": 1,
-      "prompt": "A sequência que vai dos meios aos efeitos mais amplos é",
+      "revision": 2,
+      "prompt": "Fator crítico de sucesso é",
       "options": [
-        {"id": "a", "text": "impacto, resultado, produto, processo e insumo"},
-        {"id": "b", "text": "insumo, processo, produto, resultado e impacto"},
-        {"id": "c", "text": "meta, missão, valor, força e ameaça"},
-        {"id": "d", "text": "produto, insumo, impacto, processo e resultado"},
-        {"id": "e", "text": "processo, impacto, insumo, produto e resultado"}
+        {
+          "id": "a",
+          "text": "qualquer problema que deva ser evitado."
+        },
+        {
+          "id": "b",
+          "text": "sinônimo obrigatório de indicador."
+        },
+        {
+          "id": "c",
+          "text": "condição ou capacidade essencial ao êxito da estratégia."
+        },
+        {
+          "id": "d",
+          "text": "lista detalhada de tarefas operacionais."
+        },
+        {
+          "id": "e",
+          "text": "tecnologia adquirida independentemente do objetivo."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Recursos alimentam atividades, que produzem entregas; o uso das entregas pode gerar resultados e contribuir para impactos mais amplos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "FCS identifica aquilo que precisa funcionar bem para a estratégia prosperar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q757",
-      "revision": 1,
-      "prompt": "Quanto mais um indicador se aproxima de impactos amplos e duradouros, em geral",
+      "revision": 2,
+      "prompt": "Qual relação está correta?",
       "options": [
-        {"id": "a", "text": "mais simples é atribuir todo o efeito exclusivamente à organização"},
-        {"id": "b", "text": "menos relevantes se tornam as fontes de dados"},
-        {"id": "c", "text": "maior tende a ser o desafio de atribuição causal, pois outros fatores podem influenciar a mudança"},
-        {"id": "d", "text": "o indicador deixa obrigatoriamente de ser mensurável"},
-        {"id": "e", "text": "a entrega passa a ser idêntica ao impacto"}
+        {
+          "id": "a",
+          "text": "Objetivo mede; indicador executa; meta diagnostica; iniciativa define missão."
+        },
+        {
+          "id": "b",
+          "text": "Meta é sinônimo de projeto; indicador é sinônimo de valor."
+        },
+        {
+          "id": "c",
+          "text": "Iniciativa substitui objetivo e linha de base."
+        },
+        {
+          "id": "d",
+          "text": "Objetivo expressa mudança desejada; indicador mede; meta fixa valor e prazo; iniciativa estrutura a ação."
+        },
+        {
+          "id": "e",
+          "text": "Indicador é sempre financeiro e objetivo é sempre qualitativo."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Impactos estão mais distantes da ação direta e podem receber influência de múltiplos fatores. Isso exige interpretação e desenho adequados, não abandono da mensuração. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Os elementos têm funções complementares, não intercambiáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q758",
-      "revision": 1,
-      "prompt": "Na terminologia didática mais frequente, eficiência, eficácia e efetividade relacionam-se, respectivamente, a",
+      "revision": 2,
+      "prompt": "Um objetivo SMART deve ser",
       "options": [
-        {"id": "a", "text": "recursos e produtos; alcance de metas; mudanças relevantes na realidade"},
-        {"id": "b", "text": "visão; missão; valores"},
-        {"id": "c", "text": "ameaças; oportunidades; forças"},
-        {"id": "d", "text": "longo prazo; médio prazo; curto prazo"},
-        {"id": "e", "text": "PPA; LDO; LOA"}
+        {
+          "id": "a",
+          "text": "genérico, imutável, amplo, reservado e tácito."
+        },
+        {
+          "id": "b",
+          "text": "financeiro, anual, centralizado, rígido e secreto."
+        },
+        {
+          "id": "c",
+          "text": "subjetivo, inspirador, ilimitado, reativo e informal."
+        },
+        {
+          "id": "d",
+          "text": "operacional, punitivo, obrigatório, universal e definitivo."
+        },
+        {
+          "id": "e",
+          "text": "específico, mensurável, alcançável, relevante e temporal."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Esse é o uso didático recorrente: eficiência trata da relação meios-produtos, eficácia do alcance e efetividade dos efeitos. A terminologia pode variar, devendo-se observar a referência da questão. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "SMART é critério de clareza e acompanhamento; traduções de A e R podem variar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q759",
-      "revision": 1,
-      "prompt": "A implementação da estratégia exige",
+      "revision": 2,
+      "prompt": "Se o indicador de tempo médio apresenta 180 dias antes da intervenção e a organização pretende alcançar 126 dias até 2028, 180 e 126 representam, respectivamente,",
       "options": [
-        {"id": "a", "text": "somente publicar missão e visão"},
-        {"id": "b", "text": "desconectar objetivos de orçamento para preservar flexibilidade"},
-        {"id": "c", "text": "conectar objetivos a governança, pessoas, processos, recursos, projetos, riscos, comunicação e rotinas de decisão"},
-        {"id": "d", "text": "medir exclusivamente o número de atividades"},
-        {"id": "e", "text": "executar todas as iniciativas propostas, sem priorização"}
+        {
+          "id": "a",
+          "text": "linha de base e meta."
+        },
+        {
+          "id": "b",
+          "text": "meta e iniciativa."
+        },
+        {
+          "id": "c",
+          "text": "indicador e objetivo."
+        },
+        {
+          "id": "d",
+          "text": "resultado e insumo."
+        },
+        {
+          "id": "e",
+          "text": "projeto e programa."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Estratégia implementável mobiliza capacidades e mecanismos organizacionais. Documento, comunicação inicial ou lista de iniciativas, isoladamente, não asseguram execução. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Linha de base é o valor inicial; meta é o valor esperado em prazo definido. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q760",
-      "revision": 1,
-      "prompt": "O alinhamento horizontal da estratégia refere-se principalmente à",
+      "revision": 2,
+      "prompt": "Qual opção é uma iniciativa estratégica?",
       "options": [
-        {"id": "a", "text": "fixação de um prazo universal para todas as unidades"},
-        {"id": "b", "text": "coordenação entre áreas e atores cujas contribuições são interdependentes"},
-        {"id": "c", "text": "substituição dos planos setoriais pela LOA"},
-        {"id": "d", "text": "concentração de todas as tarefas na alta administração"},
-        {"id": "e", "text": "eliminação dos objetivos operacionais"}
+        {
+          "id": "a",
+          "text": "Reduzir o tempo médio para 120 dias até dezembro de 2028."
+        },
+        {
+          "id": "b",
+          "text": "Implantar integração automatizada de bases de dados para reduzir o tempo de análise."
+        },
+        {
+          "id": "c",
+          "text": "Percentual de bases integradas no prazo."
+        },
+        {
+          "id": "d",
+          "text": "Ampliar tempestividade das decisões."
+        },
+        {
+          "id": "e",
+          "text": "Dados confiáveis disponíveis no prazo."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Alinhamento horizontal coordena unidades que precisam atuar conjuntamente. O vertical liga direção estratégica, planos táticos, processos, projetos e atividades. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Iniciativa é ação estruturada; as demais opções representam meta, indicador, objetivo e FCS. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q761",
-      "revision": 1,
-      "prompt": "As quatro perspectivas clássicas do Balanced Scorecard são",
+      "revision": 2,
+      "prompt": "Na cadeia de resultados, um relatório emitido é normalmente classificado como",
       "options": [
-        {"id": "a", "text": "financeira, clientes, processos internos e inovação e aprendizagem"},
-        {"id": "b", "text": "política, econômica, social e legal"},
-        {"id": "c", "text": "forças, fraquezas, oportunidades e ameaças"},
-        {"id": "d", "text": "PPA, LDO, LOA e PEI"},
-        {"id": "e", "text": "insumos, processos, produtos e impactos"}
+        {
+          "id": "a",
+          "text": "insumo."
+        },
+        {
+          "id": "b",
+          "text": "atividade."
+        },
+        {
+          "id": "c",
+          "text": "produto."
+        },
+        {
+          "id": "d",
+          "text": "resultado final necessariamente."
+        },
+        {
+          "id": "e",
+          "text": "impacto social."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O artigo original de Kaplan e Norton organiza o BSC nas perspectivas financeira, clientes, processos internos do negócio e inovação e aprendizagem. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Produto é entrega direta da atividade; resultado e impacto são efeitos posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q762",
-      "revision": 1,
-      "prompt": "Sobre a quarta perspectiva do BSC, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Qual exemplo representa efetividade?",
       "options": [
-        {"id": "a", "text": "o artigo original a denomina inovação e aprendizagem, enquanto aprendizado e crescimento é formulação posterior amplamente difundida"},
-        {"id": "b", "text": "ela foi sempre denominada orçamento e controle"},
-        {"id": "c", "text": "ela não existe no modelo original"},
-        {"id": "d", "text": "ela se aplica exclusivamente a empresas de tecnologia"},
-        {"id": "e", "text": "seu nome oficial é PESTEL"}
+        {
+          "id": "a",
+          "text": "Produzir mais relatórios com os mesmos recursos."
+        },
+        {
+          "id": "b",
+          "text": "Emitir 95% dos relatórios previstos."
+        },
+        {
+          "id": "c",
+          "text": "Executar todas as atividades programadas."
+        },
+        {
+          "id": "d",
+          "text": "A redução sustentável de desperdícios públicos decorrente de decisões mais tempestivas."
+        },
+        {
+          "id": "e",
+          "text": "Reduzir o custo unitário sem avaliar efeitos."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O texto de 1992 usa inovação e aprendizagem. A literatura posterior popularizou aprendizado e crescimento, razão pela qual o referencial indicado pela questão importa. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Efetividade observa efeitos relevantes na realidade; eficiência e eficácia medem relações diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q763",
-      "revision": 1,
-      "prompt": "O Balanced Scorecard deve ser compreendido como",
+      "revision": 2,
+      "prompt": "A escola do design entende a formulação estratégica predominantemente como",
       "options": [
-        {"id": "a", "text": "uma lista solta de indicadores sem vínculo com objetivos"},
-        {"id": "b", "text": "um sistema que traduz a estratégia em objetivos, medidas, metas e iniciativas articulados"},
-        {"id": "c", "text": "um substituto obrigatório do planejamento estratégico"},
-        {"id": "d", "text": "uma técnica exclusiva de previsão orçamentária"},
-        {"id": "e", "text": "um método destinado apenas à auditoria posterior"}
+        {
+          "id": "a",
+          "text": "processo emergente de aprendizagem."
+        },
+        {
+          "id": "b",
+          "text": "negociação política exclusivamente."
+        },
+        {
+          "id": "c",
+          "text": "reação passiva ao ambiente."
+        },
+        {
+          "id": "d",
+          "text": "transformação sem diagnóstico."
+        },
+        {
+          "id": "e",
+          "text": "processo de concepção e ajuste deliberado entre capacidades e ambiente."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "O BSC evoluiu de sistema equilibrado de medição para metodologia de gestão e tradução da estratégia. Um painel sem relações estratégicas não realiza sua proposta. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "Design é escola prescritiva centrada em concepção e ajuste. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q764",
-      "revision": 1,
-      "prompt": "Na adaptação do BSC ao setor público,",
+      "revision": 2,
+      "prompt": "A escola do planejamento enfatiza",
       "options": [
-        {"id": "a", "text": "o lucro deve obrigatoriamente ocupar o topo do mapa"},
-        {"id": "b", "text": "a perspectiva financeira deixa de ter qualquer utilidade"},
-        {"id": "c", "text": "missão, sociedade, cidadãos e valor público tendem a ser finalísticos, e os recursos funcionam como meios e restrições"},
-        {"id": "d", "text": "é proibido adaptar nomes ou ordem de perspectivas"},
-        {"id": "e", "text": "existe uma única taxonomia legal para todos os órgãos"}
+        {
+          "id": "a",
+          "text": "processo formal, programado e decomposto em etapas."
+        },
+        {
+          "id": "b",
+          "text": "visão intuitiva do empreendedor."
+        },
+        {
+          "id": "c",
+          "text": "formação emergente sem formalização."
+        },
+        {
+          "id": "d",
+          "text": "construção cultural inconsciente."
+        },
+        {
+          "id": "e",
+          "text": "pressões ambientais como único determinante."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "A organização pública é orientada por missão e valor público, não por lucro como fim. Finanças permanecem relevantes para sustentabilidade, legalidade e economicidade, e não há adaptação única obrigatória. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "É uma escola prescritiva de formalização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q765",
-      "revision": 1,
-      "prompt": "As relações de causa e efeito representadas em um mapa estratégico do BSC",
+      "revision": 2,
+      "prompt": "A escola do posicionamento caracteriza a formulação como",
       "options": [
-        {"id": "a", "text": "constituem hipóteses estratégicas que devem ser monitoradas e avaliadas"},
-        {"id": "b", "text": "provam automaticamente causalidade científica"},
-        {"id": "c", "text": "dispensam indicadores"},
-        {"id": "d", "text": "eliminam riscos externos"},
-        {"id": "e", "text": "substituem toda avaliação de resultados"}
+        {
+          "id": "a",
+          "text": "processo mental individual sem análise."
+        },
+        {
+          "id": "b",
+          "text": "processo analítico de escolha de posições e estratégias genéricas."
+        },
+        {
+          "id": "c",
+          "text": "aprendizagem incremental apenas."
+        },
+        {
+          "id": "d",
+          "text": "negociação política interna."
+        },
+        {
+          "id": "e",
+          "text": "configuração histórica de estados organizacionais."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O mapa explicita a lógica de como capacidades e processos contribuiriam para resultados. Essa lógica é hipótese a ser testada por evidências, não prova automática de causalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "A escola do posicionamento privilegia análise e posições competitivas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q766",
-      "revision": 1,
-      "prompt": "Em OKR, o Objective expressa predominantemente",
+      "revision": 2,
+      "prompt": "A escola empreendedora enfatiza",
       "options": [
-        {"id": "a", "text": "uma direção qualitativa, clara e mobilizadora"},
-        {"id": "b", "text": "a lista completa de tarefas diárias"},
-        {"id": "c", "text": "o custo contábil de cada projeto"},
-        {"id": "d", "text": "um fator externo da SWOT"},
-        {"id": "e", "text": "a fórmula de um indicador sem finalidade"}
+        {
+          "id": "a",
+          "text": "planejamento formal por especialistas."
+        },
+        {
+          "id": "b",
+          "text": "adaptação passiva ao ambiente."
+        },
+        {
+          "id": "c",
+          "text": "visão estratégica concentrada na liderança."
+        },
+        {
+          "id": "d",
+          "text": "estratégias genéricas baseadas em indústria."
+        },
+        {
+          "id": "e",
+          "text": "cultura coletiva sem papel da liderança."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "O Objective indica o que se pretende alcançar de forma clara e mobilizadora. Os Key Results fornecem evidências mensuráveis de progresso ou alcance. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "Seu processo é visionário. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q767",
-      "revision": 1,
-      "prompt": "Em um OKR voltado a tornar o atendimento mais tempestivo, constitui melhor exemplo de Key Result",
+      "revision": 2,
+      "prompt": "A escola cognitiva trata estratégia como",
       "options": [
-        {"id": "a", "text": "realizar reuniões sempre que possível"},
-        {"id": "b", "text": "melhorar bastante o atendimento"},
-        {"id": "c", "text": "elevar de 62% para 85% os atendimentos concluídos no prazo até dezembro"},
-        {"id": "d", "text": "criar uma comissão sem resultado definido"},
-        {"id": "e", "text": "redigir uma visão institucional"}
+        {
+          "id": "a",
+          "text": "posição competitiva calculada apenas por dados setoriais."
+        },
+        {
+          "id": "b",
+          "text": "programação formal de etapas."
+        },
+        {
+          "id": "c",
+          "text": "acordo político sem cognição."
+        },
+        {
+          "id": "d",
+          "text": "processo mental de percepção, interpretação e construção de mapas cognitivos."
+        },
+        {
+          "id": "e",
+          "text": "reação automática a normas."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "Um KR deve fornecer evidência mensurável de progresso. O valor inicial, o valor esperado, a medida e o prazo tornam o resultado verificável. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "A cognição do estrategista é o foco. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q768",
-      "revision": 1,
-      "prompt": "No contexto de OKR, iniciativas são",
+      "revision": 2,
+      "prompt": "A escola da aprendizagem associa a estratégia a",
       "options": [
-        {"id": "a", "text": "ações, projetos ou experimentos realizados para influenciar os resultados-chave"},
-        {"id": "b", "text": "sinônimos obrigatórios de Key Results"},
-        {"id": "c", "text": "apenas valores de linha de base"},
-        {"id": "d", "text": "fatores macroambientais"},
-        {"id": "e", "text": "as três leis do art. 165 da Constituição"}
+        {
+          "id": "a",
+          "text": "plano totalmente deliberado e imutável."
+        },
+        {
+          "id": "b",
+          "text": "visão centralizada que dispensa aprendizagem."
+        },
+        {
+          "id": "c",
+          "text": "análise competitiva exclusivamente quantitativa."
+        },
+        {
+          "id": "d",
+          "text": "pressão ambiental sem ação organizacional."
+        },
+        {
+          "id": "e",
+          "text": "processo emergente construído ao longo da experiência."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Iniciativas são meios executados para influenciar KRs. Concluir uma tarefa, como implantar um sistema, não comprova por si só o resultado que o KR deve medir. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "A escola da aprendizagem explica formação gradual e emergente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q769",
-      "revision": 1,
-      "prompt": "Sobre BSC e OKR no planejamento institucional, assinale a afirmativa correta.",
+      "revision": 2,
+      "prompt": "A escola do poder destaca",
       "options": [
-        {"id": "a", "text": "São necessariamente incompatíveis."},
-        {"id": "b", "text": "OKR deve sempre ter ciclo trimestral por exigência legal universal."},
-        {"id": "c", "text": "Podem ser complementares: BSC apoia arquitetura e alinhamento, e OKR pode apoiar prioridades e resultados mensuráveis em cadências adequadas."},
-        {"id": "d", "text": "BSC elimina a necessidade de monitoramento."},
-        {"id": "e", "text": "OKR substitui obrigatoriamente o PEI."}
+        {
+          "id": "a",
+          "text": "negociação, influência, coalizões e conflito."
+        },
+        {
+          "id": "b",
+          "text": "controle estatístico de processos."
+        },
+        {
+          "id": "c",
+          "text": "visão de futuro do empreendedor apenas."
+        },
+        {
+          "id": "d",
+          "text": "adequação automática ao ambiente."
+        },
+        {
+          "id": "e",
+          "text": "construção de indicadores financeiros."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "O MPO divulga uso complementar das metodologias. Cadências curtas são comuns em OKR, mas não há regra universal que imponha trimestre ou substituição do PEI. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Poder interpreta a estratégia como processo político. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q770",
-      "revision": 1,
-      "prompt": "Conforme o Decreto nº 9.203/2017, os mecanismos da governança pública são",
+      "revision": 2,
+      "prompt": "A escola cultural entende a estratégia como",
       "options": [
-        {"id": "a", "text": "planejamento, organização e direção"},
-        {"id": "b", "text": "liderança, estratégia e controle"},
-        {"id": "c", "text": "PPA, LDO e LOA"},
-        {"id": "d", "text": "missão, visão e valores"},
-        {"id": "e", "text": "força, oportunidade e ameaça"}
+        {
+          "id": "a",
+          "text": "cálculo de participação relativa de mercado."
+        },
+        {
+          "id": "b",
+          "text": "processo coletivo influenciado por crenças e significados compartilhados."
+        },
+        {
+          "id": "c",
+          "text": "plano elaborado exclusivamente por consultoria."
+        },
+        {
+          "id": "d",
+          "text": "reação mecânica à legislação."
+        },
+        {
+          "id": "e",
+          "text": "sequência de tarefas operacionais."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "O decreto define governança por mecanismos de liderança, estratégia e controle, postos em prática para avaliar, direcionar e monitorar a gestão. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Cultura enfatiza valores e interpretações coletivas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q771",
-      "revision": 1,
-      "prompt": "A distinção correta entre governança e gestão é",
+      "revision": 2,
+      "prompt": "A escola ambiental atribui maior ênfase a",
       "options": [
-        {"id": "a", "text": "governança avalia, direciona e monitora; gestão planeja, executa e administra recursos dentro desse direcionamento"},
-        {"id": "b", "text": "governança executa todas as tarefas, e gestão apenas observa"},
-        {"id": "c", "text": "governança e gestão são sinônimos perfeitos"},
-        {"id": "d", "text": "gestão pertence apenas ao controle externo"},
-        {"id": "e", "text": "governança se limita à elaboração da LOA"}
+        {
+          "id": "a",
+          "text": "visão pessoal do líder."
+        },
+        {
+          "id": "b",
+          "text": "negociação interna como fonte exclusiva."
+        },
+        {
+          "id": "c",
+          "text": "pressões externas e adaptação da organização ao ambiente."
+        },
+        {
+          "id": "d",
+          "text": "formalização orçamentária."
+        },
+        {
+          "id": "e",
+          "text": "cadeia causal do BSC."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Governança oferece direção e supervisão; gestão conduz a execução e os recursos. Os campos interagem, mas possuem funções predominantes distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "O ambiente ocupa papel dominante nessa escola descritiva. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q772",
-      "revision": 1,
-      "prompt": "No Decreto nº 9.203/2017, o mecanismo estratégia compreende",
+      "revision": 2,
+      "prompt": "A escola da configuração procura",
       "options": [
-        {"id": "a", "text": "somente a redação de missão e visão"},
-        {"id": "b", "text": "diretrizes, objetivos, planos, ações e critérios de priorização e alinhamento entre organizações e partes interessadas"},
-        {"id": "c", "text": "apenas auditorias realizadas depois da execução"},
-        {"id": "d", "text": "exclusivamente controles financeiros"},
-        {"id": "e", "text": "somente a distribuição de tarefas diárias"}
+        {
+          "id": "a",
+          "text": "substituir todas as escolas por SWOT."
+        },
+        {
+          "id": "b",
+          "text": "eliminar mudanças para preservar consistência."
+        },
+        {
+          "id": "c",
+          "text": "tratar estratégia apenas como posição."
+        },
+        {
+          "id": "d",
+          "text": "integrar estados organizacionais relativamente estáveis e períodos de transformação."
+        },
+        {
+          "id": "e",
+          "text": "reduzir estratégia a programação financeira."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "O decreto conecta estratégia a direção, objetivos, planos, ações, priorização e alinhamento para que serviços e produtos alcancem o resultado pretendido. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Configuração integra estrutura, contexto e transformação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q773",
-      "revision": 1,
-      "prompt": "A gestão de riscos, segundo o Decreto nº 9.203/2017, deve ser integrada",
+      "revision": 2,
+      "prompt": "Qual elemento NÃO integra as cinco forças de Porter?",
       "options": [
-        {"id": "a", "text": "somente à auditoria anual"},
-        {"id": "b", "text": "apenas aos projetos de tecnologia"},
-        {"id": "c", "text": "ao planejamento estratégico, seus desdobramentos, atividades, processos e projetos nos níveis relevantes"},
-        {"id": "d", "text": "exclusivamente ao orçamento de investimento"},
-        {"id": "e", "text": "somente depois que o evento ocorrer"}
+        {
+          "id": "a",
+          "text": "A ameaça de novos entrantes."
+        },
+        {
+          "id": "b",
+          "text": "O poder de barganha dos fornecedores."
+        },
+        {
+          "id": "c",
+          "text": "A ameaça de substitutos."
+        },
+        {
+          "id": "d",
+          "text": "A rivalidade entre concorrentes."
+        },
+        {
+          "id": "e",
+          "text": "A competência interna da equipe de planejamento."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "O art. 17 exige integração ampla da gestão de riscos à estratégia e à execução. Ela não é atividade isolada de auditoria nem resposta apenas posterior. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "As cinco forças analisam a estrutura competitiva externa; competência interna pertence a outra análise. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q774",
-      "revision": 1,
-      "prompt": "Sobre riscos e controles na estratégia, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Uma organização que atende deliberadamente um segmento restrito adota, segundo Porter, estratégia de",
       "options": [
-        {"id": "a", "text": "risco é somente um problema negativo já ocorrido"},
-        {"id": "b", "text": "todo risco deve receber o controle mais caro disponível"},
-        {"id": "c", "text": "controles devem ser proporcionais aos riscos e considerar custo-benefício"},
-        {"id": "d", "text": "gestores não possuem responsabilidade por riscos"},
-        {"id": "e", "text": "a existência de planejamento elimina a incerteza"}
+        {
+          "id": "a",
+          "text": "enfoque."
+        },
+        {
+          "id": "b",
+          "text": "diversificação."
+        },
+        {
+          "id": "c",
+          "text": "penetração de mercado."
+        },
+        {
+          "id": "d",
+          "text": "vaca leiteira."
+        },
+        {
+          "id": "e",
+          "text": "aprendizagem."
+        }
       ],
-      "correctOptionId": "c",
-      "explanation": "O decreto orienta controles proporcionais às causas, fontes, consequências e impactos dos riscos, observada a relação custo-benefício. Risco envolve incerteza sobre objetivos, não apenas fato consumado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "Enfoque concentra-se em segmento e pode combinar custos ou diferenciação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q775",
-      "revision": 1,
-      "prompt": "A distinção adequada entre monitoramento e avaliação é",
+      "revision": 2,
+      "prompt": "Na matriz de Ansoff, oferecer um novo serviço a usuários já atendidos corresponde a",
       "options": [
-        {"id": "a", "text": "monitoramento acompanha continuamente execução e indicadores; avaliação analisa de modo mais aprofundado desenho, implementação e resultados"},
-        {"id": "b", "text": "monitoramento ocorre apenas no fim, e avaliação diariamente"},
-        {"id": "c", "text": "ambos significam apenas coletar dados"},
-        {"id": "d", "text": "avaliação dispensa evidências"},
-        {"id": "e", "text": "monitoramento substitui toda decisão gerencial"}
+        {
+          "id": "a",
+          "text": "penetração de mercado."
+        },
+        {
+          "id": "b",
+          "text": "desenvolvimento de produto."
+        },
+        {
+          "id": "c",
+          "text": "desenvolvimento de mercado."
+        },
+        {
+          "id": "d",
+          "text": "diversificação."
+        },
+        {
+          "id": "e",
+          "text": "enfoque."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Monitorar acompanha o que está acontecendo e sinaliza desvios; avaliar investiga questões como causas, qualidade, resultados e efeitos. Ambos devem alimentar decisões. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "Produtos/serviços novos em mercado atual caracterizam desenvolvimento de produto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q776",
-      "revision": 1,
-      "prompt": "Constitui revisão estratégica legítima",
+      "revision": 2,
+      "prompt": "Na matriz BCG, um produto com baixa participação relativa e alto crescimento é",
       "options": [
-        {"id": "a", "text": "reduzir a meta apenas para ocultar baixo desempenho"},
-        {"id": "b", "text": "alterar escolhas ou iniciativas com base em evidências, contexto e aprovação competente"},
-        {"id": "c", "text": "ignorar mudanças externas para preservar o documento original"},
-        {"id": "d", "text": "cancelar o monitoramento após publicar o plano"},
-        {"id": "e", "text": "substituir todos os objetivos a cada reunião"}
+        {
+          "id": "a",
+          "text": "estrela."
+        },
+        {
+          "id": "b",
+          "text": "vaca leiteira."
+        },
+        {
+          "id": "c",
+          "text": "ponto de interrogação."
+        },
+        {
+          "id": "d",
+          "text": "abacaxi/cão."
+        },
+        {
+          "id": "e",
+          "text": "força."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Revisão é parte da aprendizagem estratégica quando fundamentada, transparente e aprovada. Ela não deve maquiar desempenho nem produzir instabilidade arbitrária. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "O quadrante combina alto crescimento com baixa participação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q777",
-      "revision": 1,
-      "prompt": "Entre os elementos mínimos do PEI previstos na IN nº 24/2020 estão",
+      "revision": 2,
+      "prompt": "No BSC clássico, capacitação, cultura e sistemas de informação pertencem predominantemente à perspectiva",
       "options": [
-        {"id": "a", "text": "cadeia de valor; missão, visão, valores e mapa; objetivos e metas; indicadores; e projetos estratégicos"},
-        {"id": "b", "text": "somente missão e orçamento anual"},
-        {"id": "c", "text": "apenas projetos e contratos"},
-        {"id": "d", "text": "exclusivamente forças e fraquezas"},
-        {"id": "e", "text": "PPA, LDO e LOA integralmente reproduzidos"}
+        {
+          "id": "a",
+          "text": "financeira."
+        },
+        {
+          "id": "b",
+          "text": "clientes."
+        },
+        {
+          "id": "c",
+          "text": "processos internos."
+        },
+        {
+          "id": "d",
+          "text": "aprendizado e crescimento."
+        },
+        {
+          "id": "e",
+          "text": "ambiente externo."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "A IN exige cadeia de valor, identidade estratégica, objetivos e metas, indicadores com atributos e projetos com entregas, prazos e unidade responsável. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Essa perspectiva reúne capacidades que sustentam os demais objetivos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q778",
-      "revision": 1,
-      "prompt": "Os projetos estratégicos do PEI devem indicar, conforme a IN nº 24/2020,",
+      "revision": 2,
+      "prompt": "Mapa estratégico é",
       "options": [
-        {"id": "a", "text": "apenas seus nomes"},
-        {"id": "b", "text": "principais entregas, prazos e unidade responsável"},
-        {"id": "c", "text": "somente o valor da última despesa"},
-        {"id": "d", "text": "apenas ameaças externas"},
-        {"id": "e", "text": "a composição completa do Congresso Nacional"}
+        {
+          "id": "a",
+          "text": "organograma da instituição."
+        },
+        {
+          "id": "b",
+          "text": "cronograma de todas as iniciativas."
+        },
+        {
+          "id": "c",
+          "text": "relatório de execução orçamentária."
+        },
+        {
+          "id": "d",
+          "text": "lista de fatores da SWOT sem conexão."
+        },
+        {
+          "id": "e",
+          "text": "representação visual dos objetivos e de suas relações de causa e efeito."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "A norma exige esses três atributos mínimos para os projetos estratégicos, conectando intenção a entrega, tempo e responsabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "O mapa traduz a lógica estratégica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q779",
-      "revision": 1,
-      "prompt": "O monitoramento do PEI pelos comitês internos de governança deve ocorrer",
+      "revision": 2,
+      "prompt": "Qual par representa, respectivamente, indicador de tendência e indicador de resultado?",
       "options": [
-        {"id": "a", "text": "somente uma vez a cada quatro anos"},
-        {"id": "b", "text": "no mínimo trimestralmente, com atenção a desvios e antecipação de problemas"},
-        {"id": "c", "text": "apenas quando todas as metas forem descumpridas"},
-        {"id": "d", "text": "exclusivamente ao final da vigência"},
-        {"id": "e", "text": "sem periodicidade mínima"}
+        {
+          "id": "a",
+          "text": "Percentual de equipes capacitadas; redução do tempo médio de análise."
+        },
+        {
+          "id": "b",
+          "text": "Redução do tempo médio; percentual de equipes capacitadas."
+        },
+        {
+          "id": "c",
+          "text": "Missão; visão."
+        },
+        {
+          "id": "d",
+          "text": "Projeto implantado; orçamento autorizado."
+        },
+        {
+          "id": "e",
+          "text": "SWOT; TOWS."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "A IN nº 24/2020 determina monitoramento sistemático e contínuo, no mínimo trimestral, para observar desvios e tomar ações em relação ao trimestre seguinte. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "a",
+      "explanation": "O primeiro sinaliza capacidade antecedente; o segundo evidencia efeito. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q780",
-      "revision": 1,
-      "prompt": "A revisão do PEI, segundo a IN nº 24/2020, deve ocorrer",
+      "revision": 2,
+      "prompt": "Na adaptação do BSC ao setor público, é correto",
       "options": [
-        {"id": "a", "text": "pelo menos uma vez por ano, com atualização se necessária"},
-        {"id": "b", "text": "obrigatoriamente todos os meses"},
-        {"id": "c", "text": "somente quando mudar o Presidente da República"},
-        {"id": "d", "text": "apenas depois de dez anos"},
-        {"id": "e", "text": "nunca, pois o plano deve ser imutável"}
+        {
+          "id": "a",
+          "text": "eliminar toda medida financeira."
+        },
+        {
+          "id": "b",
+          "text": "posicionar resultados para sociedade ou usuários no topo e tratar recursos como sustentação à entrega de valor público."
+        },
+        {
+          "id": "c",
+          "text": "manter lucro como finalidade obrigatória."
+        },
+        {
+          "id": "d",
+          "text": "substituir missão por orçamento."
+        },
+        {
+          "id": "e",
+          "text": "usar apenas indicadores de atividade."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Revisão anual é o piso normativo. Se necessária, a atualização deve considerar evolução de indicadores, metas e situação dos projetos do ciclo anterior. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "A lógica deve ser adaptada à missão pública sem abandonar sustentabilidade e eficiência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q781",
-      "revision": 1,
-      "prompt": "A IN SEGES/ME nº 24/2020 disciplina diretamente o planejamento estratégico institucional da Administração Pública Federal",
+      "revision": 2,
+      "prompt": "Em OKR, resultado-chave é",
       "options": [
-        {"id": "a", "text": "direta, autárquica e fundacional"},
-        {"id": "b", "text": "apenas das empresas privadas"},
-        {"id": "c", "text": "exclusivamente dos Municípios"},
-        {"id": "d", "text": "somente do Poder Judiciário estadual"},
-        {"id": "e", "text": "apenas das organizações internacionais"}
+        {
+          "id": "a",
+          "text": "lista de qualquer tarefa executada."
+        },
+        {
+          "id": "b",
+          "text": "sinônimo de missão institucional."
+        },
+        {
+          "id": "c",
+          "text": "evidência mensurável de progresso em direção ao objetivo."
+        },
+        {
+          "id": "d",
+          "text": "obrigatoriamente trimestral."
+        },
+        {
+          "id": "e",
+          "text": "substituto do PEI e do orçamento."
+        }
       ],
-      "correctOptionId": "a",
-      "explanation": "Esse é o âmbito expresso do art. 1º da IN. Sua incidência não deve ser automaticamente estendida a outros entes ou Poderes sem examinar o marco aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "KR mede progresso; tarefas podem ser meios, não resultados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q782",
-      "revision": 1,
-      "prompt": "Assinale a associação correta entre instrumentos de planejamento e orçamento.",
+      "revision": 2,
+      "prompt": "Qual conduta integra corretamente estratégia e riscos?",
       "options": [
-        {"id": "a", "text": "PPA estima receitas anuais; LDO fixa despesas; LOA define a missão institucional."},
-        {"id": "b", "text": "PPA planeja o médio prazo; LDO define metas, prioridades e orienta a LOA; LOA estima receitas e fixa despesas anuais."},
-        {"id": "c", "text": "PEI é uma quarta lei orçamentária prevista no art. 165 da Constituição."},
-        {"id": "d", "text": "LDO substitui simultaneamente PPA e LOA."},
-        {"id": "e", "text": "LOA possui vigência plurianual e torna o PPA desnecessário."}
+        {
+          "id": "a",
+          "text": "Manter registro de riscos separado da estratégia."
+        },
+        {
+          "id": "b",
+          "text": "Tratar todo risco como ameaça a eliminar."
+        },
+        {
+          "id": "c",
+          "text": "Revisar riscos apenas no encerramento do plano."
+        },
+        {
+          "id": "d",
+          "text": "Vincular riscos a objetivos, responsáveis, controles, indicadores e decisões de tratamento."
+        },
+        {
+          "id": "e",
+          "text": "Excluir oportunidades da análise de riscos."
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "PPA, LDO e LOA são leis distintas e articuladas. O PEI é plano institucional e não integra a enumeração de leis do art. 165 da Constituição. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "Risco é efeito da incerteza sobre objetivos e precisa informar decisões. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q783",
-      "revision": 1,
-      "prompt": "No corte temporal deste material, a relação correta entre o PEI federal e o PPA vigente é",
+      "revision": 2,
+      "prompt": "Qual afirmação sobre PEI, PPA, LDO e LOA está correta?",
       "options": [
-        {"id": "a", "text": "o PPA vigente continua sendo o de 2020–2023 porque é citado na IN nº 24/2020"},
-        {"id": "b", "text": "o PPA vigente é o 2024–2027, instituído pela Lei nº 14.802/2024 e revisto em 2026; os planejamentos estratégicos dos órgãos da União devem alinhar-se à sua dimensão estratégica"},
-        {"id": "c", "text": "o PEI substitui o PPA e a LOA"},
-        {"id": "d", "text": "a revisão do PPA elimina sua vigência"},
-        {"id": "e", "text": "PPA e PEI não possuem qualquer relação de alinhamento"}
+        {
+          "id": "a",
+          "text": "O PEI substitui PPA, LDO e LOA."
+        },
+        {
+          "id": "b",
+          "text": "A LOA define missão e visão institucional."
+        },
+        {
+          "id": "c",
+          "text": "A LDO executa projetos sem relação com orçamento."
+        },
+        {
+          "id": "d",
+          "text": "O PPA é plano operacional de uma única unidade."
+        },
+        {
+          "id": "e",
+          "text": "O PEI orienta a estratégia institucional e deve alinhar-se aos instrumentos governamentais, sem substituí-los."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os instrumentos são distintos e complementares. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q784",
+      "revision": 1,
+      "prompt": "Uma declaração institucional afirma: “Exercer o controle externo, orientando e fiscalizando a gestão dos recursos públicos, em benefício da sociedade”. Essa declaração representa melhor",
+      "options": [
+        {
+          "id": "a",
+          "text": "a missão, porque explicita razão de ser e contribuição presente."
+        },
+        {
+          "id": "b",
+          "text": "a visão, porque descreve posição futura reconhecida."
+        },
+        {
+          "id": "c",
+          "text": "uma meta, porque contém valor e prazo."
+        },
+        {
+          "id": "d",
+          "text": "um valor, porque enumera princípios de conduta."
+        },
+        {
+          "id": "e",
+          "text": "uma iniciativa, porque descreve projeto temporário."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A declaração descreve o que a instituição faz e para quem, não um estado futuro. Fonte: questão adaptada de Cebraspe, TCE/RN, Técnico Administrativo, 2026, Q4120748. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/963be38e-6a. Adaptação: conversão do julgamento certo/errado em múltipla escolha e explicitação das categorias."
+    },
+    {
+      "id": "q785",
+      "revision": 1,
+      "prompt": "Em ambiente altamente volátil, qual postura estratégica é mais adequada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abandonar toda formulação de longo prazo."
+        },
+        {
+          "id": "b",
+          "text": "Manter direção e objetivos, mas combinar planos deliberados com aprendizagem e estratégias emergentes fundamentadas."
+        },
+        {
+          "id": "c",
+          "text": "Suprimir qualquer estratégia emergente para preservar o plano."
+        },
+        {
+          "id": "d",
+          "text": "Substituir monitoramento por improvisação."
+        },
+        {
+          "id": "e",
+          "text": "Congelar metas e premissas até o fim do ciclo."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "A menção da IN ao PPA 2020–2023 é histórica. O ciclo vigente é 2024–2027, e a Lei nº 14.802/2024 exige alinhamento dos planejamentos estratégicos dos órgãos da União à dimensão estratégica do PPA. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Adaptabilidade não exige rejeitar planejamento; exige flexibilidade e aprendizagem. Fonte: questão adaptada de Cebraspe, TCE/RN, Auditor de Controle Externo — Administração/Gestão Pública, 2026, Q4019626. Referência: https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2026-tce-rn-auditor-de-controle-externo-especialidade-administracao-gestao-de-politicas-publicas-gestao-publica/questoes?discipline_ids%5B%5D=21. Adaptação: transformação do item em situação de múltipla escolha."
+    },
+    {
+      "id": "q786",
+      "revision": 1,
+      "prompt": "Na SWOT de uma organização, ameaças e oportunidades são",
+      "options": [
+        {
+          "id": "a",
+          "text": "variáveis internas, respectivamente favoráveis e desfavoráveis."
+        },
+        {
+          "id": "b",
+          "text": "metas negativas e positivas."
+        },
+        {
+          "id": "c",
+          "text": "variáveis externas, respectivamente desfavoráveis e favoráveis."
+        },
+        {
+          "id": "d",
+          "text": "projetos defensivos e ofensivos."
+        },
+        {
+          "id": "e",
+          "text": "indicadores de resultado e de tendência."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ameaças e oportunidades pertencem ao ambiente externo. Fonte: questão adaptada de Cebraspe, ANSA, Ênfase Administração, 2026, Q4082499. Referência: https://www.qconcursos.com/questoes-de-concursos/disciplinas/administracao-administracao-geral/analise-swot/questoes. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q787",
+      "revision": 1,
+      "prompt": "Uma organização mede capacitação de equipes e, meses depois, mede a redução do tempo de atendimento. Para validar a estratégia, deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "avaliar apenas o indicador financeiro."
+        },
+        {
+          "id": "b",
+          "text": "desconsiderar a capacitação por ser atividade interna."
+        },
+        {
+          "id": "c",
+          "text": "tratar os dois indicadores como metas idênticas."
+        },
+        {
+          "id": "d",
+          "text": "analisar o indicador de tendência em conexão com o indicador de resultado e testar a relação causal."
+        },
+        {
+          "id": "e",
+          "text": "substituir o mapa estratégico por uma SWOT."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A validação exige verificar se os direcionadores produziram os efeitos esperados. Fonte: questão adaptada de Cebraspe, Câmara dos Deputados, Analista Legislativo — Processo Legislativo e Gestão, 2026, Q3932615. Referência: https://www.qconcursos.com/questoes-de-concursos/disciplinas/administracao-administracao-geral/balanced-scorecard-na-administracao-geral/questoes. Adaptação: contextualização e conversão para múltipla escolha."
+    },
+    {
+      "id": "q788",
+      "revision": 1,
+      "prompt": "A eficácia da execução estratégica depende do alinhamento vertical porque ele",
+      "options": [
+        {
+          "id": "a",
+          "text": "elimina o alinhamento entre áreas."
+        },
+        {
+          "id": "b",
+          "text": "transforma toda meta em tarefa operacional."
+        },
+        {
+          "id": "c",
+          "text": "impede ajustes durante a execução."
+        },
+        {
+          "id": "d",
+          "text": "atribui a formulação exclusivamente às equipes de linha."
+        },
+        {
+          "id": "e",
+          "text": "desdobra diretrizes da alta administração em objetivos, contribuições, entregas e medidas nos níveis inferiores."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O alinhamento vertical conecta os níveis da estratégia à execução. Fonte: questão adaptada de Cebraspe, Câmara dos Deputados, Analista Legislativo — Processo Legislativo e Gestão, 2026, Q3932617. Referência: https://www.qconcursos.com/questoes-de-concursos/disciplinas/administracao-administracao-geral/planejamento-estrategico-tatico-e-operacional/questoes. Adaptação: conversão do julgamento para múltipla escolha."
+    },
+    {
+      "id": "q789",
+      "revision": 1,
+      "prompt": "Uma autarquia usa o BSC. Qual medida financeira é compatível com sua natureza pública?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eficiência orçamentária necessária para sustentar a entrega de serviços e valor público."
+        },
+        {
+          "id": "b",
+          "text": "Lucro distribuível aos dirigentes."
+        },
+        {
+          "id": "c",
+          "text": "Retorno ao acionista como finalidade superior."
+        },
+        {
+          "id": "d",
+          "text": "Eliminação de toda medida de recursos."
+        },
+        {
+          "id": "e",
+          "text": "Receita comercial como única medida de sucesso."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "No setor público, a perspectiva financeira pode monitorar sustentabilidade e uso responsável de recursos. Fonte: questão adaptada de Cebraspe, TCE/RN, Técnico Administrativo, 2026, Q4120747. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/96391f7e-6a. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q790",
+      "revision": 1,
+      "prompt": "Qual opção corrige a inversão entre missão e visão?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Missão é a meta anual; visão é o orçamento."
+        },
+        {
+          "id": "b",
+          "text": "Missão define a razão de ser atual; visão descreve o estado futuro desejado."
+        },
+        {
+          "id": "c",
+          "text": "Missão é o futuro; visão é o propósito atual."
+        },
+        {
+          "id": "d",
+          "text": "Missão e visão são sinônimos legais."
+        },
+        {
+          "id": "e",
+          "text": "Missão é um indicador; visão, uma iniciativa."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A inversão entre missão e visão é pegadinha clássica. Fonte: questão adaptada de Cebraspe, TCE/RN, Auditor de Controle Externo — Administração/Gestão Pública, 2026, Q4019625. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/3c6b9c4b-42. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q791",
+      "revision": 1,
+      "prompt": "Em um mapa BSC, a meta “reduzir o tempo médio de deslocamento em 20%” deve ser classificada como",
+      "options": [
+        {
+          "id": "a",
+          "text": "iniciativa, pois toda expressão numérica é ação."
+        },
+        {
+          "id": "b",
+          "text": "missão, porque orienta a organização."
+        },
+        {
+          "id": "c",
+          "text": "meta associada a indicador e objetivo, não como iniciativa estratégica."
+        },
+        {
+          "id": "d",
+          "text": "valor, porque expressa preferência."
+        },
+        {
+          "id": "e",
+          "text": "fator externo da SWOT."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Meta especifica nível esperado; iniciativa descreve o que será feito. Fonte: questão adaptada de Cebraspe, TCE/RN, Auditor de Controle Externo — Administração/Gestão Pública, 2026, caso Mobilidade 2030. Referência: https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2026-tce-rn-auditor-de-controle-externo-especialidade-administracao-gestao-de-politicas-publicas-gestao-publica/questoes?page=4. Adaptação: extração de uma tese do caso e conversão em múltipla escolha."
+    },
+    {
+      "id": "q792",
+      "revision": 1,
+      "prompt": "Uma secretaria classifica crescimento da frota particular como fraqueza e baixa integração entre modais como ameaça. A classificação mais adequada é",
+      "options": [
+        {
+          "id": "a",
+          "text": "manter a classificação porque todo problema social é interno."
+        },
+        {
+          "id": "b",
+          "text": "converter ambos em forças."
+        },
+        {
+          "id": "c",
+          "text": "tratar crescimento da frota como meta."
+        },
+        {
+          "id": "d",
+          "text": "reexaminar ambos: são fatores externos se não estiverem sob controle direto da secretaria; baixa integração interna entre seus sistemas poderia ser fraqueza."
+        },
+        {
+          "id": "e",
+          "text": "considerar ameaça e fraqueza sinônimos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A natureza interna ou externa depende do ponto de vista e do grau de controle organizacional. Fonte: questão adaptada de Cebraspe, TCE/RN, Auditor de Controle Externo — Administração/Gestão Pública, 2026, caso Mobilidade 2030. Referência: https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2026-tce-rn-auditor-de-controle-externo-especialidade-administracao-gestao-de-politicas-publicas-gestao-publica/questoes?page=4. Adaptação: reformulação para discutir a classificação SWOT."
+    },
+    {
+      "id": "q793",
+      "revision": 1,
+      "prompt": "Em planejamento, matriz GUT e 5W2H exercem funções diferentes porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "ambas servem exclusivamente para definir missão e visão."
+        },
+        {
+          "id": "b",
+          "text": "GUT executa projetos e 5W2H calcula participação de mercado."
+        },
+        {
+          "id": "c",
+          "text": "GUT substitui SWOT e 5W2H substitui BSC."
+        },
+        {
+          "id": "d",
+          "text": "ambas são indicadores de resultado."
+        },
+        {
+          "id": "e",
+          "text": "GUT prioriza problemas por gravidade, urgência e tendência; 5W2H detalha ações, responsáveis, prazos, locais, razões, métodos e custos."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "As ferramentas são complementares, não equivalentes. Fonte: questão adaptada de Cebraspe, TCE/RN, Auditor de Controle Externo — Administração/Gestão Pública, 2026, caso Mobilidade 2030. Referência: https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2026-tce-rn-auditor-de-controle-externo-especialidade-administracao-gestao-de-politicas-publicas-gestao-publica/questoes?page=4. Adaptação: conversão do item integrado em múltipla escolha."
+    },
+    {
+      "id": "q794",
+      "revision": 1,
+      "prompt": "No BSC de uma empresa industrial, automação de linha de produção e melhoria do ciclo produtivo pertencem predominantemente à perspectiva",
+      "options": [
+        {
+          "id": "a",
+          "text": "processos internos."
+        },
+        {
+          "id": "b",
+          "text": "financeira."
+        },
+        {
+          "id": "c",
+          "text": "clientes."
+        },
+        {
+          "id": "d",
+          "text": "aprendizado e crescimento exclusivamente."
+        },
+        {
+          "id": "e",
+          "text": "ambiente externo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Objetivos ligados ao funcionamento do processo pertencem à perspectiva interna. Fonte: questão adaptada de Cebraspe, Telebras, Especialista em Gestão de Telecomunicações — Administrativo, 2026, Q3886963. Referência: https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2026-telebras-especialista-em-gestao-de-telecomunicacoes-analista-superior-subatividade-administrativo/questoes?discipline_ids%5B%5D=21. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q795",
+      "revision": 1,
+      "prompt": "O BSC contribui para o planejamento porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "limita-se ao diagnóstico SWOT."
+        },
+        {
+          "id": "b",
+          "text": "representa a estratégia de forma balanceada, clara e alinhada, conectando setores à visão."
+        },
+        {
+          "id": "c",
+          "text": "dispensa relações de causa e efeito."
+        },
+        {
+          "id": "d",
+          "text": "é usado apenas no início, sem monitoramento contínuo."
+        },
+        {
+          "id": "e",
+          "text": "não se relaciona com missão e visão."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O BSC traduz e comunica a estratégia. Fonte: questão adaptada de Cebraspe, Banrisul, Técnico em TI — Transformação Digital e Gestão de TI, 2025, Q3875959. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/tecnologia-da-informacao-14/3875959. Adaptação: paráfrase e conversão da alternativa correta em questão autônoma."
+    },
+    {
+      "id": "q796",
+      "revision": 1,
+      "prompt": "Na construção de um mapa estratégico, qual prática é correta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Excluir objetivos para evitar rigidez."
+        },
+        {
+          "id": "b",
+          "text": "Manter a estratégia restrita aos gestores."
+        },
+        {
+          "id": "c",
+          "text": "Relacionar objetivos, definir indicadores e metas e alinhar iniciativas providas dos recursos necessários."
+        },
+        {
+          "id": "d",
+          "text": "Evitar tradução operacional."
+        },
+        {
+          "id": "e",
+          "text": "Separar iniciativas de objetivos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Objetivos, medidas, metas e iniciativas precisam manter coerência. Fonte: questão adaptada de Cebraspe, Banrisul, Técnico em TI — Transformação Digital e Gestão de TI, 2025, Q3875962. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/tecnologia-da-informacao-14/3875962. Adaptação: síntese da alternativa correta."
+    },
+    {
+      "id": "q797",
+      "revision": 1,
+      "prompt": "No BSC, o mapa estratégico tem por função",
+      "options": [
+        {
+          "id": "a",
+          "text": "substituir a implementação por representação gráfica."
+        },
+        {
+          "id": "b",
+          "text": "listar apenas indicadores financeiros."
+        },
+        {
+          "id": "c",
+          "text": "registrar exclusivamente o organograma."
+        },
+        {
+          "id": "d",
+          "text": "mostrar dinamicamente como objetivos e relações causais explicam a criação de valor e a execução da estratégia."
+        },
+        {
+          "id": "e",
+          "text": "eliminar a interação entre formulação e execução."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O mapa descreve a lógica estratégica. Fonte: questão adaptada de Cebraspe, Embrapa, Analista — Gestão Estratégica: Inteligência e Planejamento Estratégico, 2025, Q3734614. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/3734614. Adaptação: conversão do item certo/errado em múltipla escolha."
+    },
+    {
+      "id": "q798",
+      "revision": 1,
+      "prompt": "Uma aplicação adequada do BSC deve considerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente grupos internos."
+        },
+        {
+          "id": "b",
+          "text": "somente acionistas financeiros."
+        },
+        {
+          "id": "c",
+          "text": "apenas gestores da alta administração."
+        },
+        {
+          "id": "d",
+          "text": "nenhum stakeholder, para preservar objetividade."
+        },
+        {
+          "id": "e",
+          "text": "grupos internos e externos relevantes à criação de valor e à execução da estratégia."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O BSC não se limita a públicos internos. Fonte: questão adaptada de Cebraspe, Embrapa, Analista — Gestão Estratégica: Governança e Estratégia, 2025, Q3734448. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-publica-403716/3734448. Adaptação: inversão do item e conversão para múltipla escolha."
+    },
+    {
+      "id": "q799",
+      "revision": 1,
+      "prompt": "Planejamento por cenários é mais bem definido como",
+      "options": [
+        {
+          "id": "a",
+          "text": "construção de múltiplos futuros plausíveis para identificar riscos, oportunidades, sinais e respostas."
+        },
+        {
+          "id": "b",
+          "text": "produção de um único futuro específico considerado certo."
+        },
+        {
+          "id": "c",
+          "text": "substituição da estratégia por previsão matemática."
+        },
+        {
+          "id": "d",
+          "text": "definição de metas sem diagnóstico."
+        },
+        {
+          "id": "e",
+          "text": "análise exclusiva de dados internos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A técnica não se limita a um cenário único. Fonte: questão adaptada de Cebraspe, Embrapa, Analista — Inteligência e Planejamento Estratégico, 2025, Q3279795. Referência: https://www.qconcursos.com/questoes-de-concursos/disciplinas/administracao-administracao-geral/planejamento-baseado-em-cenarios/questoes?has_professor_commentaries=true. Adaptação: conversão do julgamento em múltipla escolha."
+    },
+    {
+      "id": "q800",
+      "revision": 1,
+      "prompt": "Segundo Porter, a estratégia de enfoque",
+      "options": [
+        {
+          "id": "a",
+          "text": "significa atender todo o mercado com produto padronizado."
+        },
+        {
+          "id": "b",
+          "text": "concentra-se em segmento específico e pode buscar vantagem por custos ou diferenciação adequada ao público-alvo."
+        },
+        {
+          "id": "c",
+          "text": "é sinônimo obrigatório de diferenciação ampla."
+        },
+        {
+          "id": "d",
+          "text": "corresponde à diversificação da matriz Ansoff."
+        },
+        {
+          "id": "e",
+          "text": "elimina a necessidade de escolher segmento."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O enfoque define escopo restrito; o mecanismo competitivo pode variar. Fonte: questão adaptada de Cebraspe, UnB, Engenheiro de Produção, 2025, Q3482530. Referência: https://www.qconcursos.com/questoes-de-concursos/disciplinas/engenharia-engenharia-de-producao/planejamento-estrategico/questoes. Adaptação: conversão em múltipla escolha."
+    },
+    {
+      "id": "q801",
+      "revision": 1,
+      "prompt": "Qual afirmação sintetiza corretamente o uso do BSC?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Foi criado exclusivamente para TI."
+        },
+        {
+          "id": "b",
+          "text": "Não deve ser usado junto ao planejamento estratégico."
+        },
+        {
+          "id": "c",
+          "text": "Ele esclarece e traduz visão e estratégia, comunica objetivos e medidas, estabelece metas e alinha expectativas."
+        },
+        {
+          "id": "d",
+          "text": "Considera apenas medidas financeiras."
+        },
+        {
+          "id": "e",
+          "text": "Não admite relações de causa e efeito."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O BSC integra formulação, comunicação e gestão do desempenho. Fonte: questão adaptada de Cebraspe, TCE/ES, Analista Administrativo — TI, 2014, Q869402. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/869402. Adaptação: síntese da alternativa correta."
+    },
+    {
+      "id": "q802",
+      "revision": 1,
+      "prompt": "Os objetivos “desenvolver competências de liderança” e “inovar em tecnologia da informação” pertencem, no BSC, à perspectiva",
+      "options": [
+        {
+          "id": "a",
+          "text": "clientes."
+        },
+        {
+          "id": "b",
+          "text": "financeira."
+        },
+        {
+          "id": "c",
+          "text": "processos internos exclusivamente."
+        },
+        {
+          "id": "d",
+          "text": "aprendizado e crescimento."
+        },
+        {
+          "id": "e",
+          "text": "sociedade como resultado final."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Competências e infraestrutura informacional sustentam a estratégia. Fonte: questão adaptada de Cebraspe, MPC, Analista Ministerial — Administração, 2019, Q1107365. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/1107365. Adaptação: conversão e consolidação dos dois objetivos."
+    },
+    {
+      "id": "q803",
+      "revision": 1,
+      "prompt": "Assinale a opção correta sobre níveis de planejamento.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O ambiente interno da SWOT contém oportunidades e ameaças."
+        },
+        {
+          "id": "b",
+          "text": "Planos operacionais são elaborados apenas pelo nível intermediário."
+        },
+        {
+          "id": "c",
+          "text": "O estratégico deve detalhar tarefas individuais."
+        },
+        {
+          "id": "d",
+          "text": "O tático é sempre o de menor prazo."
+        },
+        {
+          "id": "e",
+          "text": "A visão é definida no planejamento estratégico e orienta o futuro de longo alcance."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A visão integra a identidade estratégica; os demais enunciados trocam níveis ou categorias. Fonte: questão adaptada de Cebraspe, TRT 8ª Região, Analista Judiciário — Administração, 2016, Q816093. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/816093. Adaptação: paráfrase das alternativas."
+    },
+    {
+      "id": "q804",
+      "revision": 1,
+      "prompt": "A análise SWOT integra o planejamento estratégico porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "identifica forças, fraquezas, oportunidades e ameaças relevantes à formulação."
+        },
+        {
+          "id": "b",
+          "text": "substitui missão, visão e objetivos."
+        },
+        {
+          "id": "c",
+          "text": "considera somente o ambiente externo."
+        },
+        {
+          "id": "d",
+          "text": "define automaticamente iniciativas e orçamento."
+        },
+        {
+          "id": "e",
+          "text": "mede apenas resultados financeiros."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SWOT é ferramenta de diagnóstico, não plano completo. Fonte: questão adaptada de Cebraspe, Dataprev, Analista — Estratégia e Governança, 2023, Q3036619. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/3036619. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q805",
+      "revision": 1,
+      "prompt": "Um órgão que concentra atendimento em contribuintes de maior valor adota, no modelo de Porter, predominantemente",
+      "options": [
+        {
+          "id": "a",
+          "text": "liderança em custos para todo o setor."
+        },
+        {
+          "id": "b",
+          "text": "estratégia de enfoque, e não necessariamente diferenciação."
+        },
+        {
+          "id": "c",
+          "text": "diversificação."
+        },
+        {
+          "id": "d",
+          "text": "penetração de mercado."
+        },
+        {
+          "id": "e",
+          "text": "vaca leiteira."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A concentração em segmento caracteriza enfoque. Fonte: questão adaptada de Cebraspe, PGE/PE, Analista de Planejamento e Gestão, 2019, questão 78. Referência: https://www.questoesestrategicas.com.br/questoes/ver/C-u6m7akwdT2J_Nz4lagWmHjuG9KZ4p6feRyKiNG1MU. Adaptação: conversão do julgamento em múltipla escolha."
+    },
+    {
+      "id": "q806",
+      "revision": 1,
+      "prompt": "Uma organização que constrói a estratégia a partir de como seus servidores percebem e interpretam o ambiente aproxima-se da escola",
+      "options": [
+        {
+          "id": "a",
+          "text": "planejamento, prescritiva."
+        },
+        {
+          "id": "b",
+          "text": "posicionamento, prescritiva."
+        },
+        {
+          "id": "c",
+          "text": "cognitiva, integrante das escolas descritivas."
+        },
+        {
+          "id": "d",
+          "text": "ambiental, prescritiva."
+        },
+        {
+          "id": "e",
+          "text": "design, descritiva."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A escola cognitiva estuda processos mentais. Fonte: questão adaptada de Cebraspe, PGE/PE, Analista de Planejamento e Gestão, 2019, questão 80. Referência: https://www.questoesestrategicas.com.br/questoes/ver/o8lkn9E1JUoY_QIOkRl-Y8O-3YTj4ujLCNMQ3cDKwac. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q807",
+      "revision": 1,
+      "prompt": "Os objetivos estratégicos de uma organização devem ser estabelecidos considerando",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente o orçamento anual."
+        },
+        {
+          "id": "b",
+          "text": "apenas as tarefas já executadas."
+        },
+        {
+          "id": "c",
+          "text": "exclusivamente demandas do grupo mais influente."
+        },
+        {
+          "id": "d",
+          "text": "missão e visão, além do diagnóstico e das escolhas estratégicas."
+        },
+        {
+          "id": "e",
+          "text": "um horizonte imutável sem revisão."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Objetivos materializam identidade e direção. Fonte: questão adaptada de Cebraspe, EMAP, diversos cargos, 2018, Q1186138. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/8daf2b10-58. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q808",
+      "revision": 1,
+      "prompt": "Uma declaração de missão pode incluir",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas a posição futura desejada."
+        },
+        {
+          "id": "b",
+          "text": "somente uma meta quantitativa."
+        },
+        {
+          "id": "c",
+          "text": "lista de projetos e cronogramas."
+        },
+        {
+          "id": "d",
+          "text": "quadrantes da matriz BCG."
+        },
+        {
+          "id": "e",
+          "text": "propósito, escopo de atuação e público que a organização pretende atender."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A missão explicita razão de ser e campo de atuação. Fonte: questão adaptada de Cebraspe, EMAP, diversos cargos, 2018, Q1186121. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/a8daf129-08. Adaptação: conversão do item em múltipla escolha."
+    },
+    {
+      "id": "q809",
+      "revision": 1,
+      "prompt": "Estratégias emergentes",
+      "options": [
+        {
+          "id": "a",
+          "text": "podem resultar da dinâmica organizacional e da aprendizagem e não devem ser automaticamente suprimidas pelo planejamento formal."
+        },
+        {
+          "id": "b",
+          "text": "devem sempre ser proibidas para preservar controle."
+        },
+        {
+          "id": "c",
+          "text": "representam necessariamente falha ética."
+        },
+        {
+          "id": "d",
+          "text": "são idênticas à estratégia pretendida."
+        },
+        {
+          "id": "e",
+          "text": "eliminam a necessidade de direção."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Planejamento e emergência podem coexistir. Fonte: questão adaptada de Cebraspe, Banco da Amazônia, Técnico Científico — Administração, 2010, Q34605. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/33f089b6-47. Adaptação: inversão da tese e conversão para múltipla escolha."
+    },
+    {
+      "id": "q810",
+      "revision": 1,
+      "prompt": "A estratégia deliberada distingue-se da emergente porque a deliberada",
+      "options": [
+        {
+          "id": "a",
+          "text": "é a única que admite aprendizagem."
+        },
+        {
+          "id": "b",
+          "text": "decorre de intenção prévia realizada, enquanto a emergente se forma pela aprendizagem e pelos padrões da ação."
+        },
+        {
+          "id": "c",
+          "text": "surge sem intenção e a emergente é formal."
+        },
+        {
+          "id": "d",
+          "text": "é sempre superior."
+        },
+        {
+          "id": "e",
+          "text": "corresponde à parte não realizada."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A aprendizagem é associada especialmente à emergência, embora também possa aperfeiçoar planos. Fonte: questão adaptada de Cebraspe, Inmetro, Analista Executivo — Processos de Negócios e TI, 2009, Q2917265. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/b00672a2a09. Adaptação: conversão do julgamento em comparação direta."
+    },
+    {
+      "id": "q811",
+      "revision": 1,
+      "prompt": "Um fator crítico de sucesso pode apoiar",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente a auditoria posterior."
+        },
+        {
+          "id": "b",
+          "text": "apenas o orçamento anual."
+        },
+        {
+          "id": "c",
+          "text": "o planejamento estratégico e a identificação de requisitos essenciais ao negócio."
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente a seleção de softwares."
+        },
+        {
+          "id": "e",
+          "text": "o detalhamento de qualquer tarefa, independentemente da estratégia."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "FCS conecta condições essenciais aos resultados desejados. Fonte: questão adaptada de Cebraspe, TRT 17ª Região, Analista Judiciário — TI, 2013, Q722652. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/tecnologia-da-informacao-14/722652. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q812",
+      "revision": 1,
+      "prompt": "No planejamento público, fatores críticos de sucesso devem ser tratados como",
+      "options": [
+        {
+          "id": "a",
+          "text": "aspectos negativos que sempre devem ser evitados."
+        },
+        {
+          "id": "b",
+          "text": "ameaças externas exclusivamente."
+        },
+        {
+          "id": "c",
+          "text": "sinônimos de indicadores."
+        },
+        {
+          "id": "d",
+          "text": "condições essenciais que precisam funcionar satisfatoriamente, podendo ser capacidades, processos ou relações."
+        },
+        {
+          "id": "e",
+          "text": "metas financeiras."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "FCS não significa fator negativo. Fonte: questão adaptada de Cebraspe, TRT 17ª Região, Técnico Judiciário — Administração, 2013, Q722775. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-publica-403716/722775. Adaptação: inversão do item e conversão."
+    },
+    {
+      "id": "q813",
+      "revision": 1,
+      "prompt": "“Pequeno capital disponível para investimento” é, em regra, melhor classificado como",
+      "options": [
+        {
+          "id": "a",
+          "text": "oportunidade externa."
+        },
+        {
+          "id": "b",
+          "text": "meta estratégica."
+        },
+        {
+          "id": "c",
+          "text": "indicador de tendência."
+        },
+        {
+          "id": "d",
+          "text": "missão."
+        },
+        {
+          "id": "e",
+          "text": "restrição ou fraqueza, e não como fator crítico de sucesso."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "FCS é condição essencial; limitação financeira é restrição ou fraqueza. Fonte: questão adaptada de Cebraspe, ANAC, Analista Administrativo, 2012, Q571654. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/571654. Adaptação: conversão em classificação múltipla."
+    },
+    {
+      "id": "q814",
+      "revision": 1,
+      "prompt": "Fatores demográficos, sociais, legais e ecológicos devem ser examinados, no planejamento estratégico, principalmente por meio da análise",
+      "options": [
+        {
+          "id": "a",
+          "text": "macroambiental, como PESTEL."
+        },
+        {
+          "id": "b",
+          "text": "de tarefas operacionais."
+        },
+        {
+          "id": "c",
+          "text": "da estrutura de cargos."
+        },
+        {
+          "id": "d",
+          "text": "de custos da qualidade."
+        },
+        {
+          "id": "e",
+          "text": "de configuração do BSC."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Esses fatores pertencem ao ambiente externo. Fonte: questão adaptada de Cebraspe, MME, Administrador, 2023, Q3054942. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral/3054942. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q815",
+      "revision": 1,
+      "prompt": "No BSC clássico, as quatro perspectivas são",
+      "options": [
+        {
+          "id": "a",
+          "text": "forças, fraquezas, oportunidades e ameaças."
+        },
+        {
+          "id": "b",
+          "text": "financeira, clientes, processos internos e aprendizado e crescimento."
+        },
+        {
+          "id": "c",
+          "text": "missão, visão, valores e projetos."
+        },
+        {
+          "id": "d",
+          "text": "política, economia, sociedade e tecnologia."
+        },
+        {
+          "id": "e",
+          "text": "insumos, atividades, produtos e impactos."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Essas são as perspectivas clássicas, adaptáveis ao setor público. Fonte: questão adaptada de Cebraspe, CNPq, Analista — Administração e Recursos Logísticos, 2024, questão discursiva Q3504317. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/3504317. Adaptação: transformação de comando discursivo em múltipla escolha."
+    },
+    {
+      "id": "q816",
+      "revision": 1,
+      "prompt": "Qual relação entre planejamento tático e operacional está correta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O tático é menos amplo que o operacional."
+        },
+        {
+          "id": "b",
+          "text": "O operacional define missão e visão."
+        },
+        {
+          "id": "c",
+          "text": "O tático é menos amplo que o estratégico e mais amplo que o operacional."
+        },
+        {
+          "id": "d",
+          "text": "O estratégico detalha tarefas individuais."
+        },
+        {
+          "id": "e",
+          "text": "Os três níveis são idênticos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A amplitude diminui do estratégico para o operacional. Fonte: questão adaptada de Cebraspe, CNJ, Técnico Administrativo, 2024, questão 55. Referência: https://www.questoesestrategicas.com.br/questoes/ver/bimj9sk5JI-ymT4u_NSN8cYpWjBMyDl91hqBWxSpMYI. Adaptação: conversão do julgamento em múltipla escolha."
+    },
+    {
+      "id": "q817",
+      "revision": 1,
+      "prompt": "Em uma sequência coerente de planejamento, qual ordenação é mais adequada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Metas → missão → indicadores → visão."
+        },
+        {
+          "id": "b",
+          "text": "Iniciativas → objetivos → ambiente → valores."
+        },
+        {
+          "id": "c",
+          "text": "Indicadores → missão → orçamento → objetivos."
+        },
+        {
+          "id": "d",
+          "text": "Objetivos → indicadores → metas → iniciativas."
+        },
+        {
+          "id": "e",
+          "text": "Visão → tarefas → missão → ameaças."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Objetivos orientam medidas; metas fixam resultados esperados; iniciativas executam. Fonte: questão adaptada de Cebraspe, TCE/TO, Analista de Controle Externo — TI, 2009, Q340879. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/tecnologia-da-informacao-14/340879. Adaptação: isolamento e conversão da tese sobre sequência."
+    },
+    {
+      "id": "q818",
+      "revision": 1,
+      "prompt": "Na matriz BCG, pontos de interrogação apresentam",
+      "options": [
+        {
+          "id": "a",
+          "text": "baixo crescimento e alta participação."
+        },
+        {
+          "id": "b",
+          "text": "alto crescimento e alta participação."
+        },
+        {
+          "id": "c",
+          "text": "baixo crescimento e baixa participação com geração elevada de caixa."
+        },
+        {
+          "id": "d",
+          "text": "posição definida apenas por lucratividade."
+        },
+        {
+          "id": "e",
+          "text": "alto crescimento e baixa participação relativa, exigindo decisão de investimento ou retirada."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "É o quadrante de potencial com posição ainda fraca. Fonte: questão adaptada de Cebraspe, DPU, Técnico em Assuntos Educacionais, 2010, Q604598. Referência: https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/604598. Adaptação: conversão e contextualização."
+    },
+    {
+      "id": "q819",
+      "revision": 1,
+      "prompt": "O método de fatores críticos de sucesso",
+      "options": [
+        {
+          "id": "a",
+          "text": "pode apoiar práticas gerenciais e o planejamento estratégico, não se limitando à definição de sistemas de informação."
+        },
+        {
+          "id": "b",
+          "text": "não possui impacto gerencial."
+        },
+        {
+          "id": "c",
+          "text": "substitui missão e visão."
+        },
+        {
+          "id": "d",
+          "text": "é exclusivo de controle interno."
+        },
+        {
+          "id": "e",
+          "text": "identifica apenas fatores negativos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O método tem aplicação estratégica mais ampla. Fonte: questão adaptada de Cebraspe, MPU, Analista de Informática — Perito, 2010, Q80570. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/ac456262-08. Adaptação: inversão do item e conversão."
+    },
+    {
+      "id": "q820",
+      "revision": 1,
+      "prompt": "Um objetivo que seja específico, mensurável, atingível, relevante e temporal atende ao critério",
+      "options": [
+        {
+          "id": "a",
+          "text": "SWOT."
+        },
+        {
+          "id": "b",
+          "text": "SMART."
+        },
+        {
+          "id": "c",
+          "text": "TOWS."
+        },
+        {
+          "id": "d",
+          "text": "BCG."
+        },
+        {
+          "id": "e",
+          "text": "PESTEL."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os atributos correspondem ao acrônimo SMART. Fonte: questão adaptada de Cebraspe, SEFIN Fortaleza, Analista Fazendário — Administração, 2023, Q2221546. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/d2abb86d-29. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q821",
+      "revision": 1,
+      "prompt": "Na análise ambiental de uma prefeitura, distribuição de renda e perfil etário da população são",
+      "options": [
+        {
+          "id": "a",
+          "text": "forças internas."
+        },
+        {
+          "id": "b",
+          "text": "metas operacionais."
+        },
+        {
+          "id": "c",
+          "text": "variáveis externas relevantes à formulação da estratégia."
+        },
+        {
+          "id": "d",
+          "text": "valores institucionais."
+        },
+        {
+          "id": "e",
+          "text": "indicadores financeiros."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Aspectos demográficos e socioeconômicos integram o ambiente externo. Fonte: questão adaptada de Cebraspe, SEFIN Fortaleza, Auditor do Tesouro Municipal, 2023, Q2222007. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/00d936e9-2a. Adaptação: conversão do item em múltipla escolha."
+    },
+    {
+      "id": "q822",
+      "revision": 1,
+      "prompt": "O planejamento baseado em cenários",
+      "options": [
+        {
+          "id": "a",
+          "text": "produz previsão exata."
+        },
+        {
+          "id": "b",
+          "text": "define apenas um cenário oficial."
+        },
+        {
+          "id": "c",
+          "text": "dispensa monitoramento."
+        },
+        {
+          "id": "d",
+          "text": "não elimina incerteza, mas ajuda a preparar a organização para surpresas e futuros alternativos."
+        },
+        {
+          "id": "e",
+          "text": "considera somente dados históricos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Cenários aumentam preparação, não certeza. Fonte: questão adaptada de Cebraspe, SEFIN Fortaleza, Analista Fazendário — Administração, 2023, Q2221598. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/d32bf05c-29. Adaptação: conversão para múltipla escolha."
+    },
+    {
+      "id": "q823",
+      "revision": 1,
+      "prompt": "Nos cinco Ps de Mintzberg, quando a organização define seu lugar em relação ao ambiente e aos públicos, estratégia é entendida como",
+      "options": [
+        {
+          "id": "a",
+          "text": "plano."
+        },
+        {
+          "id": "b",
+          "text": "padrão."
+        },
+        {
+          "id": "c",
+          "text": "pretexto."
+        },
+        {
+          "id": "d",
+          "text": "perspectiva."
+        },
+        {
+          "id": "e",
+          "text": "posição."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Posição expressa a localização estratégica em relação ao contexto. Fonte: questão adaptada de VUNESP, SPTrans, Analista de Gestão Pleno — Administração, 2012, Q274571. Referência: https://www.qconcursos.com/questoes-de-concursos/questoes/d4dff537-32. Adaptação: uso de questão similar para preencher lacuna pouco cobrada pelo Cebraspe."
     }
   ]
 }
