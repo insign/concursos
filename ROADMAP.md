@@ -179,7 +179,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 4.5. Noções de big data e análise de dados para políticas públicas; Internet das coisas (IoT) em cidades inteligentes.
 
-##### [>] Em progresso Assunto 035 - Item 4.6: Ética, responsabilidade digital, desinformação, inclusão e acessibilidade.
+##### [R] Em revisão Assunto 035 - Item 4.6: Ética, responsabilidade digital, desinformação, inclusão e acessibilidade.
 
 - 4.6. Ética e responsabilidade digital no serviço público: uso ético de tecnologias; combate a fake news e desinformação; inclusão digital e acessibilidade em serviços públicos.
 - Acessibilidade aqui significa inclusão e acesso digital em serviços públicos. As normas gerais de acessibilidade e mobilidade reduzida ficam no Assunto 100, e a aplicação da acessibilidade na gestão pública fica no Assunto 114; não duplicar esses recortes.
