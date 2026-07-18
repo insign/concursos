@@ -1,133 +1,201 @@
-# Planejamento e direção no processo organizacional
+# Planejamento e direção: revisão rápida
 
 ## PODC
 
 | Função | Núcleo |
 | --- | --- |
-| Planejamento | definir objetivos e cursos de ação |
-| Organização | distribuir trabalho, recursos e autoridade |
-| Direção | mobilizar pessoas para executar |
-| Controle | comparar execução e referências e promover ajustes |
+| Planejamento | objetivos e cursos de ação |
+| Organização | trabalho, recursos e autoridade |
+| Direção | mobilização de pessoas |
+| Controle | comparação, desvios e correção |
 
-- Funções interdependentes, contínuas e realimentadas.
-- Planejamento tem precedência **lógica**, não sequência cronológica rígida.
+- As funções são interdependentes e realimentadas.
+- A precedência do planejamento é **lógica**, não cronologia rígida.
 - Fayol: prever, organizar, comandar, coordenar e controlar.
-- Na síntese PODC, previsão entra em planejamento; comando e parte da coordenação entram em direção.
+- PODC: previsão incorporada ao planejamento; comando e coordenação concentrados na direção.
 
-## Planejamento
+## Planejamento × plano
 
-- Processo de decidir antecipadamente objetivos e cursos de ação.
-- Planejamento = processo; plano = produto ou registro.
-- Reduz incerteza; não elimina risco nem garante resultado.
-- É prospectivo, decisório, sistêmico, contínuo, flexível e abrangente.
-- Diagnóstico = situação atual; objetivo = estado pretendido.
+- **Planejamento:** processo decisório contínuo.
+- **Plano:** produto que registra decisões.
+- Plano escrito não comprova planejamento eficaz.
+- Planejamento reduz, mas não elimina, a incerteza.
+- Flexibilidade = revisar meios e premissas sem perder objetivos legítimos.
 
-### Princípios gerais
+## Princípios gerais
 
-1. contribuição aos objetivos;
-2. precedência sobre as demais funções;
-3. maior penetração e abrangência;
-4. maior eficiência, eficácia e efetividade.
-
-| Critério | Lembrete |
+| Princípio | Essência |
 | --- | --- |
-| Eficiência | relação entre meios e produtos |
-| Eficácia | alcance dos objetivos |
-| Efetividade | efeitos relevantes na realidade |
+| contribuição aos objetivos | todo plano deve apoiar resultados organizacionais |
+| precedência | fornece referências às demais funções |
+| maior abrangência | afeta pessoas, tecnologia e sistemas |
+| eficiência, eficácia e efetividade | recursos, alcance de metas e impacto |
 
-- Não confundir com princípios constitucionais nem com o princípio de Taylor.
+## Princípios específicos
+
+| Princípio | Essência | Não confundir |
+| --- | --- | --- |
+| participativo | aprendizagem e comprometimento pelo processo | ausência de coordenação |
+| coordenado | aspectos interdependentes articulados | integração dos níveis |
+| integrado | compatibilidade entre estratégico, tático e operacional | mera participação |
+| permanente | revisão contínua | plano imutável |
+
+## Filosofias de Ackoff
+
+- **Satisfação:** solução suficientemente aceitável.
+- **Otimização:** melhor resultado segundo critérios.
+- **Adaptação:** aprendizagem, inovação e ajuste contínuo.
+- Satisfação ≠ maximização.
+- Filosofia ≠ nível de planejamento.
+
+## Conceitos próximos
+
+| Conceito | Núcleo |
+| --- | --- |
+| planejamento | decide como construir o futuro desejado |
+| previsão | estima eventos por probabilidades |
+| projeção | prolonga tendências observadas |
+| predição | afirma um futuro esperado |
+| plano | registra decisões |
+
+Previsão, projeção e predição podem alimentar o planejamento; não são sinônimos dele.
 
 ## Níveis
 
-| Nível | Alcance | Traço típico |
+| Nível | Escopo | Detalhamento |
 | --- | --- | --- |
-| Institucional/estratégico | organização inteira | amplo, global, menos detalhado |
-| Intermediário/tático | área ou unidade | desdobramento setorial |
-| Operacional | atividade, equipe ou rotina | específico e detalhado |
+| estratégico | organização e ambiente | amplo, menos detalhado |
+| tático | áreas e unidades | desdobramento funcional |
+| operacional | tarefas e processos | alto detalhamento |
 
-- Prazos são tendências, não números universais.
-- Todas as funções administrativas ocorrem nos três níveis.
-- Planejamento estratégico aprofundado fica no Assunto 110.
+- Não há prazos universais.
+- Metas, tarefas, responsáveis, recursos e prazos de um projeto: predominantemente operacional.
+- Planos operacionais desdobram planos táticos; os táticos desdobram a estratégia.
 
-## Instrumentos
+## Objetivo, meta, premissa e restrição
 
-| Instrumento | Definição rápida |
+- **Objetivo:** resultado desejado amplo.
+- **Meta:** quantidade + prazo.
+- **Premissa:** hipótese adotada; deve ser monitorada.
+- **Restrição:** limite jurídico, financeiro, temporal, tecnológico ou de capacidade.
+
+## Planos
+
+### Permanentes ou repetidos
+
+- **Política:** critério geral para decisão.
+- **Procedimento:** sequência recorrente.
+- **Regra:** determina ou proíbe conduta.
+
+### Temporários ou de uso único
+
+- **Programa:** conjunto coordenado de ações/projetos.
+- **Projeto:** esforço temporário com resultado específico.
+- **Orçamento:** recursos e limites quantitativos.
+- **Cronograma:** atividades e marcos no tempo.
+- **Plano de ação:** ações, responsáveis, recursos, prazos e acompanhamento.
+
+## Processo de planejamento
+
+1. diagnóstico;
+2. objetivos e metas;
+3. premissas e restrições;
+4. alternativas;
+5. riscos e viabilidade;
+6. escolha;
+7. ações, responsáveis, recursos e prazos;
+8. execução;
+9. acompanhamento e revisão.
+
+- Cenário = futuro possível coerente; não previsão exata.
+- 5W2H ajuda a detalhar, mas não substitui riscos, indicadores e governança.
+
+## Benefícios e riscos
+
+| Benefícios | Riscos |
 | --- | --- |
-| Objetivo | resultado pretendido |
-| Meta | resultado específico, frequentemente quantificado e temporalizado |
-| Previsão | projeção de condição futura |
-| Premissa | condição assumida como base |
-| Política | diretriz geral para decisões |
-| Procedimento | sequência padronizada de etapas |
-| Regra | determinação específica de fazer ou não fazer |
-| Programa | ações ou projetos articulados |
-| Projeto | esforço delimitado com entrega própria |
-| Orçamento | recursos e limites financeiros ou quantitativos |
-| Cronograma | atividades, prazos e marcos no tempo |
-
-- Política não é procedimento.
-- Premissa não é objetivo.
-- Orçamento não é cronograma.
-
-## Roteiro
-
-1. diagnosticar situação e problema;
-2. definir objetivos;
-3. identificar premissas, restrições e recursos;
-4. formular alternativas;
-5. comparar alternativas e riscos;
-6. escolher o curso de ação;
-7. detalhar responsáveis, recursos e prazos;
-8. executar, acompanhar e revisar.
+| foco e prioridade | custo de planejamento |
+| coordenação | falsa certeza |
+| alocação de recursos | premissas ruins |
+| referências ao controle | rigidez |
+| alternativas | plano sem execução |
+| aprendizagem | baixa adesão |
 
 ## Direção
 
-- Orienta, influencia e mobiliza pessoas para executar objetivos e planos.
-- Envolve orientação, liderança, motivação, coordenação, delegação e implementação de decisões.
-- Não se reduz a ordens formais.
-- Como função, ocorre em todos os níveis.
+- Atua diretamente sobre pessoas.
+- Orienta, comunica, motiva, lidera, coordena, decide e delega.
+- Definir objetivos = planejamento.
+- Distribuir estrutura = organização.
+- Mobilizar pessoas = direção.
+- Comparar desempenho = controle.
 
-| Nível | Ênfase |
-| --- | --- |
-| Institucional | orientação geral e decisões globais |
-| Intermediário | tradução de diretrizes e coordenação setorial |
-| Operacional | orientação imediata de equipes e tarefas |
+## Autoridade, poder e liderança
 
-- Nomes didáticos: direção, gerência e supervisão.
-- Muda o alcance; a função administrativa continua sendo direção.
+- **Autoridade formal:** decorre do cargo e da competência.
+- **Poder:** capacidade de influenciar.
+- **Liderança:** processo de influência em direção a objetivos.
+- Chefia não garante liderança.
+- Liderança não afasta legalidade e responsabilidade.
 
-## Pessoas e autoridade
+## Coordenação
 
-- Autoridade = competência formal ligada à posição.
-- Liderança = capacidade de influenciar; não nasce automaticamente do cargo.
-- Influência informal não cria competência legal.
-- Motivação varia entre pessoas e situações; não há incentivo universal.
-- Coordenação integra esforços e interdependências.
-- Comunicação viabiliza direção, mas seu estudo detalhado fica no Assunto 105.
+- Harmoniza esforços e reduz duplicidade, lacuna e conflito.
+- Pode usar hierarquia, comitês, metas comuns, processos, sistemas e equipes transversais.
+- No Decreto-Lei nº 200/1967, é princípio fundamental e deve ocorrer em todos os níveis.
 
 ## Delegação
 
-- Atribui exercício de tarefa ou autoridade com finalidade e limites.
-- Aproxima decisões dos fatos, pessoas e problemas.
-- Não é poder ilimitado, abandono nem renúncia definitiva.
-- Exige clareza, suporte, coordenação e acompanhamento.
-- Decreto-Lei nº 200/1967: instrumento para rapidez e objetividade; ato identifica delegante, delegado e atribuições.
+### Gerencial
+
+- atribui tarefas, decisões e autoridade;
+- exige resultado, limites, recursos e acompanhamento;
+- não é abandono;
+- não elimina supervisão.
+
+### De competência administrativa
+
+- transfere o exercício de atribuição jurídica nos limites legais;
+- aproxima decisões dos fatos, pessoas e problemas;
+- integra a diretriz de descentralização do Decreto-Lei nº 200/1967.
+
+## Centralização × descentralização
+
+| Tendência | Vantagem | Risco |
+| --- | --- | --- |
+| centralização | uniformidade | lentidão e sobrecarga |
+| descentralização | agilidade e adaptação | dispersão e inconsistência |
 
 ## Setor público
 
+- Constituição: legalidade, impessoalidade, moralidade, publicidade e eficiência.
 - Decreto-Lei nº 200/1967: planejamento, coordenação, descentralização, delegação de competência e controle.
-- Instrumentos citados: plano geral, programas plurianuais, orçamento-programa anual e programação financeira.
-- PPA: diretrizes, objetivos e metas regionalizados da Administração Pública federal para despesas de capital, outras delas decorrentes e relativas a programas de duração continuada.
-- Seus quatro anos decorrem do regime jurídico-orçamentário; isso não define prazo universal para planejamento estratégico.
-- Autoridade pública permanece vinculada à competência legal e à finalidade pública.
+- Órgãos centrais: planejamento, supervisão, coordenação e controle.
+- Casos individuais: tão próximos quanto possível dos fatos e das pessoas.
 
 ## Pegadinhas
 
-- Plano escrito não prova planejamento de qualidade.
-- Planejar não elimina incerteza.
-- Estratégico não significa prazo fixo universal.
-- Supervisores também planejam e dirigem.
-- Direção não desenha organograma e não mede resultados.
-- Autoridade formal não garante liderança.
-- Em PODC, coordenação costuma integrar direção; no Decreto-Lei nº 200/1967, é princípio autônomo.
-- Delegar não é abandonar nem microgerenciar.
+| Afirmação | Julgamento |
+| --- | --- |
+| planejamento elimina incerteza | errado |
+| precedência cria sequência cronológica rígida | errado |
+| participativo é elaboração exclusiva do setor de planejamento | errado |
+| coordenado enfatiza interdependência | certo |
+| integrado relaciona níveis | certo |
+| permanente significa plano imutável | errado |
+| satisfação busca o máximo | errado |
+| previsão é sinônimo de planejamento | errado |
+| direção define objetivos organizacionais | errado |
+| delegação elimina supervisão | errado |
+
+## Roteiro de prova
+
+1. Identifique a função administrativa.
+2. Defina o nível.
+3. Separe planejamento de plano.
+4. Localize o princípio ou filosofia.
+5. Diferencie previsão, projeção e predição.
+6. Classifique o plano.
+7. Em direção, procure pessoas e influência.
+8. Confira competência, legalidade e supervisão.
+9. Rejeite absolutos.
