@@ -1,706 +1,1746 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q584",
-      "revision": 1,
-      "prompt": "Um processo organizacional é corretamente definido como",
+      "revision": 2,
+      "prompt": "Ao analisar o atendimento de uma solicitação pública desde o protocolo até a entrega, qual definição melhor caracteriza o processo?",
       "options": [
-        {"id": "a", "text": "encadeamento de atividades que transforma entradas em saídas para gerar uma entrega com valor"},
-        {"id": "b", "text": "posição isolada no organograma"},
-        {"id": "c", "text": "software utilizado por uma unidade"},
-        {"id": "d", "text": "projeto necessariamente temporário"},
-        {"id": "e", "text": "documento que descreve somente uma tarefa"}
+        {
+          "id": "a",
+          "text": "Encadeamento de atividades inter-relacionadas que transforma entradas em uma entrega e pode atravessar várias unidades."
+        },
+        {
+          "id": "b",
+          "text": "Posição fixa do organograma responsável por uma especialidade."
+        },
+        {
+          "id": "c",
+          "text": "Projeto temporário criado para produzir um resultado único."
+        },
+        {
+          "id": "d",
+          "text": "Sistema de informação usado para registrar documentos."
+        },
+        {
+          "id": "e",
+          "text": "Procedimento isolado executado por uma única pessoa."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "Processo articula entradas, atividades de transformação e saídas orientadas a uma entrega. Estrutura, sistema, projeto e procedimento podem participar do processo, mas não são sinônimos dele. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Processo é fluxo recorrente orientado a uma entrega. Unidade, projeto, sistema e procedimento podem participar dele, mas não o definem. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q585",
-      "revision": 1,
-      "prompt": "No modelo básico de transformação, a solicitação recebida corresponde à entrada, enquanto",
+      "revision": 2,
+      "prompt": "Em um processo de concessão de licença, o requerimento é analisado com apoio de servidores, sistema e norma jurídica. A classificação correta é",
       "options": [
-        {"id": "a", "text": "a norma aplicável é necessariamente a saída"},
-        {"id": "b", "text": "as atividades realizam a transformação e produzem a saída"},
-        {"id": "c", "text": "o usuário é sempre um recurso interno"},
-        {"id": "d", "text": "o sistema é sempre o gatilho"},
-        {"id": "e", "text": "o fornecedor é o resultado final"}
+        {
+          "id": "a",
+          "text": "requerimento como recurso, servidores como saída e norma como entrada."
+        },
+        {
+          "id": "b",
+          "text": "requerimento como entrada, servidores e sistema como recursos e norma como regra."
+        },
+        {
+          "id": "c",
+          "text": "requerimento como saída, sistema como fornecedor e norma como cliente."
+        },
+        {
+          "id": "d",
+          "text": "servidores como entrada, requerimento como controle e norma como recurso."
+        },
+        {
+          "id": "e",
+          "text": "norma como saída, sistema como atividade e requerimento como indicador."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Atividades transformam entradas em saídas. Regras condicionam a execução, recursos a viabilizam, fornecedores oferecem entradas e usuários recebem ou utilizam a entrega. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Entrada é o objeto transformado; recursos viabilizam o trabalho; regras condicionam a execução. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q586",
-      "revision": 1,
-      "prompt": "A visão ponta a ponta de um processo recomenda",
+      "revision": 2,
+      "prompt": "Uma unidade reduziu seu tempo interno, mas passou a enviar lotes maiores à unidade seguinte, aumentando a espera total do usuário. A análise adequada é",
       "options": [
-        {"id": "a", "text": "encerrar a análise quando a primeira unidade termina sua parte"},
-        {"id": "b", "text": "medir somente o setor com maior número de servidores"},
-        {"id": "c", "text": "acompanhar o fluxo desde o gatilho até a entrega, inclusive entre áreas e sistemas"},
-        {"id": "d", "text": "ignorar fornecedores e usuários internos"},
-        {"id": "e", "text": "substituir todas as unidades por uma única equipe"}
+        {
+          "id": "a",
+          "text": "o processo melhorou porque toda redução local reduz o lead time."
+        },
+        {
+          "id": "b",
+          "text": "o gargalo foi eliminado porque a primeira unidade ficou mais rápida."
+        },
+        {
+          "id": "c",
+          "text": "a meta local melhorou, mas o desempenho ponta a ponta piorou."
+        },
+        {
+          "id": "d",
+          "text": "a visão funcional e a visão por processos produziram o mesmo resultado."
+        },
+        {
+          "id": "e",
+          "text": "a fila posterior não integra o processo porque ocorre em outra unidade."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Ponta a ponta considera todo o fluxo necessário à entrega, não apenas a parcela de uma unidade. Essa visão torna visíveis interfaces, esperas e deslocamentos de problema entre áreas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Gestão por processos avalia o fluxo completo. Otimização local pode deslocar espera e piorar a entrega. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q587",
-      "revision": 1,
-      "prompt": "Em um processo de emissão de certidão, a solicitação é uma entrada e os servidores e sistemas são",
+      "revision": 2,
+      "prompt": "Assinale a distinção correta entre processo e projeto.",
       "options": [
-        {"id": "a", "text": "saídas"},
-        {"id": "b", "text": "usuários finais"},
-        {"id": "c", "text": "limites"},
-        {"id": "d", "text": "recursos"},
-        {"id": "e", "text": "gatilhos posteriores"}
+        {
+          "id": "a",
+          "text": "Processo é sempre temporário; projeto é sempre permanente."
+        },
+        {
+          "id": "b",
+          "text": "Projeto é uma área do organograma; processo é uma descrição de cargo."
+        },
+        {
+          "id": "c",
+          "text": "Processo só existe com software; projeto independe de recursos."
+        },
+        {
+          "id": "d",
+          "text": "Processo tende a ser recorrente; projeto é temporário e busca um resultado único."
+        },
+        {
+          "id": "e",
+          "text": "Projeto não pode criar, implantar ou redesenhar um processo."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "A entrada é aquilo que será transformado; recursos, como pessoas, dados e tecnologia, viabilizam a transformação. Confundir os dois prejudica a descrição do processo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Projetos podem implementar mudanças em processos, mas possuem natureza temporária; processos tendem à recorrência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q588",
-      "revision": 1,
-      "prompt": "Sobre a saída de um processo de apoio, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Na arquitetura de processos, qual sequência representa uma decomposição do nível mais agregado ao mais detalhado?",
       "options": [
-        {"id": "a", "text": "precisa ser sempre um objeto físico"},
-        {"id": "b", "text": "não pode ser informação"},
-        {"id": "c", "text": "deve chegar diretamente ao cidadão"},
-        {"id": "d", "text": "não influencia processos finalísticos"},
-        {"id": "e", "text": "pode ser a entrada de outro processo interno que contribui para a entrega final"}
+        {
+          "id": "a",
+          "text": "Tarefa, atividade, processo, cadeia de valor, sistema e projeto."
+        },
+        {
+          "id": "b",
+          "text": "Organograma, cargo, função, projeto, processo e tarefa."
+        },
+        {
+          "id": "c",
+          "text": "Macroprocesso, cadeia de valor, tarefa, processo, atividade e regra."
+        },
+        {
+          "id": "d",
+          "text": "Projeto, programa, processo, macroprocesso, fornecedor e cliente."
+        },
+        {
+          "id": "e",
+          "text": "Cadeia de valor, macroprocesso, processo, subprocesso, atividade e tarefa."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "Processos são interligados. Uma saída interna, como cadastro validado ou contratação concluída, pode alimentar outro fluxo e afetar indiretamente o valor entregue ao usuário externo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A nomenclatura varia, mas essa é uma decomposição didática recorrente do agregado ao detalhado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q589",
-      "revision": 1,
-      "prompt": "A distinção entre função e processo está corretamente expressa em",
+      "revision": 2,
+      "prompt": "Um processo de fiscalização entrega diretamente resultado relacionado à missão; a gestão de pessoas fornece capacidade; e a gestão estratégica coordena objetivos. Eles são, respectivamente,",
       "options": [
-        {"id": "a", "text": "função agrupa competências semelhantes; processo integra trabalho em fluxo orientado à entrega"},
-        {"id": "b", "text": "função é temporária e processo é uma posição hierárquica"},
-        {"id": "c", "text": "função e processo são sempre a mesma unidade"},
-        {"id": "d", "text": "processo nunca atravessa funções"},
-        {"id": "e", "text": "função existe somente em empresas privadas"}
+        {
+          "id": "a",
+          "text": "finalístico, de apoio e gerencial."
+        },
+        {
+          "id": "b",
+          "text": "de apoio, finalístico e operacional."
+        },
+        {
+          "id": "c",
+          "text": "gerencial, finalístico e de apoio."
+        },
+        {
+          "id": "d",
+          "text": "projeto, processo e função."
+        },
+        {
+          "id": "e",
+          "text": "primário, primário e primário."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "A função reúne especialidade, como compras ou tecnologia. O processo pode atravessar várias funções para produzir uma entrega ponta a ponta. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Processos finalísticos realizam a missão; apoio fornece capacidades; gerenciais planejam e governam. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q590",
-      "revision": 1,
-      "prompt": "A relação entre unidade organizacional e processo é corretamente descrita em",
+      "revision": 2,
+      "prompt": "Sobre gestão por processos e estrutura funcional, assinale a opção correta.",
       "options": [
-        {"id": "a", "text": "cada processo deve permanecer dentro de um setor"},
-        {"id": "b", "text": "uma unidade pode participar de vários processos, e um processo pode cruzar várias unidades"},
-        {"id": "c", "text": "a unidade é sempre o usuário externo"},
-        {"id": "d", "text": "processos tornam o organograma juridicamente inexistente"},
-        {"id": "e", "text": "somente unidades finalísticas executam processos"}
+        {
+          "id": "a",
+          "text": "A gestão por processos substitui obrigatoriamente toda hierarquia por equipes autônomas."
+        },
+        {
+          "id": "b",
+          "text": "A gestão por processos acrescenta coordenação transversal e indicadores ponta a ponta sem exigir a extinção dos departamentos."
+        },
+        {
+          "id": "c",
+          "text": "A estrutura funcional impede qualquer processo transversal."
+        },
+        {
+          "id": "d",
+          "text": "A visão por processos mede apenas o desempenho de cada unidade."
+        },
+        {
+          "id": "e",
+          "text": "Metas locais sempre asseguram o melhor resultado global."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Unidade é componente da estrutura formal; processo representa fluxo. Não há correspondência obrigatória de um para um entre ambos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A orientação por processos complementa a estrutura, articulando unidades em torno da entrega. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q591",
-      "revision": 1,
-      "prompt": "Assinale o exemplo de projeto relacionado à gestão de processos.",
+      "revision": 2,
+      "prompt": "Qual associação está correta?",
       "options": [
-        {"id": "a", "text": "atender continuamente solicitações de certidão"},
-        {"id": "b", "text": "executar mensalmente a folha de pagamento"},
-        {"id": "c", "text": "implantar, com início e fim definidos, um novo processo eletrônico"},
-        {"id": "d", "text": "receber diariamente documentos"},
-        {"id": "e", "text": "controlar rotineiramente o estoque"}
+        {
+          "id": "a",
+          "text": "BPM é notação; BPMN é software; BPMS é projeto; workflow é organograma."
+        },
+        {
+          "id": "b",
+          "text": "BPM e BPMN são sinônimos de automação integral."
+        },
+        {
+          "id": "c",
+          "text": "BPM é disciplina gerencial; BPMN é notação; BPMS é suíte de software; workflow é encaminhamento do trabalho."
+        },
+        {
+          "id": "d",
+          "text": "BPMS substitui governança e análise de processos."
+        },
+        {
+          "id": "e",
+          "text": "Workflow corresponde necessariamente ao processo ponta a ponta completo."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "A implantação temporária produz uma mudança única e, portanto, possui natureza de projeto. Depois de implantado, o fluxo eletrônico pode operar como processo recorrente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Os quatro conceitos se relacionam, mas não se confundem. Software não substitui gestão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q592",
-      "revision": 1,
-      "prompt": "Procedimento diferencia-se de processo porque o procedimento",
+      "revision": 2,
+      "prompt": "Em relação a processo, modelo e instância, assinale a opção correta.",
       "options": [
-        {"id": "a", "text": "é sempre temporário"},
-        {"id": "b", "text": "não pode ser documentado"},
-        {"id": "c", "text": "representa obrigatoriamente toda a cadeia de valor"},
-        {"id": "d", "text": "prescreve como executar atividade ou parte do fluxo"},
-        {"id": "e", "text": "substitui entradas e saídas"}
+        {
+          "id": "a",
+          "text": "A instância é sempre o desenho futuro e o modelo é a unidade organizacional."
+        },
+        {
+          "id": "b",
+          "text": "Processo e instância são sinônimos, pois ambos representam uma execução específica."
+        },
+        {
+          "id": "c",
+          "text": "Modelo é o software que executa o processo e não pode ser representação."
+        },
+        {
+          "id": "d",
+          "text": "Uma solicitação concreta é uma instância; o fluxo padronizado é o modelo; a lógica recorrente constitui o processo."
+        },
+        {
+          "id": "e",
+          "text": "Alterar uma instância equivale obrigatoriamente a redesenhar todo o processo."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Procedimento detalha método ou modo de execução. O processo abrange objetivo, limites, interfaces e entrega, podendo conter vários procedimentos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Instância é ocorrência concreta; modelo representa; processo é a lógica recorrente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q593",
-      "revision": 1,
-      "prompt": "A respeito de sistemas de informação e processos, é correto afirmar que",
+      "revision": 2,
+      "prompt": "No ciclo de BPM, qual sequência é coerente com o BPM CBOK?",
       "options": [
-        {"id": "a", "text": "todo processo é um software"},
-        {"id": "b", "text": "adquirir sistema elimina a necessidade de mapear"},
-        {"id": "c", "text": "a regra de negócio deve decorrer apenas da limitação tecnológica"},
-        {"id": "d", "text": "digitalização garante simplificação"},
-        {"id": "e", "text": "o sistema apoia ou automatiza etapas, mas não se confunde com o processo"}
+        {
+          "id": "a",
+          "text": "Modelagem, extinção da estratégia, compra de software, execução e encerramento definitivo."
+        },
+        {
+          "id": "b",
+          "text": "Controle, projeto, organograma, orçamento, cadeia de valor e auditoria."
+        },
+        {
+          "id": "c",
+          "text": "Implementação, análise, planejamento, refinamento e abandono do monitoramento."
+        },
+        {
+          "id": "d",
+          "text": "Automação, treinamento, auditoria e dissolução do processo."
+        },
+        {
+          "id": "e",
+          "text": "Planejamento e estratégia, análise, desenho e modelagem, implementação, monitoramento e controle, refinamento."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "Tecnologia é recurso. Um processo inclui pessoas, regras, decisões e interfaces, e pode continuar inadequado mesmo depois de informatizado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O ciclo articula estratégia, análise, desenho, implementação, monitoramento e refinamento contínuo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q594",
-      "revision": 1,
-      "prompt": "Na hierarquia didática de processos, a ordem do nível mais agregado ao mais detalhado é",
+      "revision": 2,
+      "prompt": "A relação correta entre AS IS, TO BE e transformação é",
       "options": [
-        {"id": "a", "text": "cadeia de valor, macroprocesso, processo, subprocesso, atividade e tarefa"},
-        {"id": "b", "text": "tarefa, cadeia de valor, processo, macroprocesso e atividade"},
-        {"id": "c", "text": "processo, tarefa, cadeia de valor, função e projeto"},
-        {"id": "d", "text": "macroprocesso, organograma, projeto, tarefa e sistema"},
-        {"id": "e", "text": "atividade, função, processo, estratégia e usuário"}
+        {
+          "id": "a",
+          "text": "AS IS representa o estado atual; TO BE representa o futuro; transformação ocorre quando a mudança é implementada."
+        },
+        {
+          "id": "b",
+          "text": "AS IS é o plano futuro e TO BE é apenas a descrição histórica."
+        },
+        {
+          "id": "c",
+          "text": "TO BE aprovado já equivale a benefícios realizados."
+        },
+        {
+          "id": "d",
+          "text": "AS IS deve ser construído sem participação de executores."
+        },
+        {
+          "id": "e",
+          "text": "Transformação é sinônimo de produzir um fluxograma."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "A sequência expressa decomposição do mapa institucional agregado até a unidade elementar de trabalho. As nomenclaturas podem variar, mas a lógica de detalhamento permanece. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Modelos precisam ser validados e a transformação depende da implementação do desenho futuro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q595",
-      "revision": 1,
-      "prompt": "Quanto à hierarquia de processos, é correto reconhecer que",
+      "revision": 2,
+      "prompt": "Assinale a distinção didática mais adequada entre diagrama, mapa e modelo de processo.",
       "options": [
-        {"id": "a", "text": "há uma nomenclatura legal universal para todos os níveis"},
-        {"id": "b", "text": "metodologias podem agrupar ou nomear níveis de modo diferente, preservando a lógica de decomposição"},
-        {"id": "c", "text": "atividade é sempre mais agregada que cadeia de valor"},
-        {"id": "d", "text": "subprocesso não pode ser detalhado"},
-        {"id": "e", "text": "tarefa equivale necessariamente à missão"}
+        {
+          "id": "a",
+          "text": "Diagrama é necessariamente executável; mapa é organograma; modelo é apenas texto."
+        },
+        {
+          "id": "b",
+          "text": "Diagrama é mais simples; mapa acrescenta relações e responsabilidades; modelo pode sustentar análise ou simulação."
+        },
+        {
+          "id": "c",
+          "text": "Mapa contém menos informação que um símbolo isolado."
+        },
+        {
+          "id": "d",
+          "text": "Modelo só pode ser produzido automaticamente por BPMS."
+        },
+        {
+          "id": "e",
+          "text": "Os três termos possuem definição universal idêntica em toda metodologia."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Não existe catálogo terminológico único. A questão deve informar a convenção adotada, e o candidato deve observar o nível de abstração e a relação entre as partes. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A nomenclatura varia, mas o aumento de detalhe e finalidade analítica é uma distinção útil. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q596",
-      "revision": 1,
-      "prompt": "Em um órgão cuja missão inclui fiscalizar a aplicação de recursos públicos, o processo de fiscalização tende a ser classificado como",
+      "revision": 2,
+      "prompt": "O SIPOC é mais útil para",
       "options": [
-        {"id": "a", "text": "de apoio"},
-        {"id": "b", "text": "projeto"},
-        {"id": "c", "text": "primário ou finalístico"},
-        {"id": "d", "text": "procedimento de tecnologia"},
-        {"id": "e", "text": "recurso"}
+        {
+          "id": "a",
+          "text": "substituir toda modelagem detalhada em BPMN."
+        },
+        {
+          "id": "b",
+          "text": "calcular sozinho a capacidade de cada recurso."
+        },
+        {
+          "id": "c",
+          "text": "delimitar fornecedores, entradas, visão agregada do processo, saídas e clientes."
+        },
+        {
+          "id": "d",
+          "text": "representar exclusivamente a estrutura hierárquica."
+        },
+        {
+          "id": "e",
+          "text": "definir o orçamento de um projeto temporário."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "A fiscalização realiza diretamente a missão e gera entrega ao usuário externo ou à sociedade. Esse vínculo caracteriza processo finalístico. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "SIPOC delimita fronteiras e elementos essenciais antes do detalhamento. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q597",
-      "revision": 1,
-      "prompt": "Gestão de pessoas, compras e tecnologia são exemplos típicos de processos",
+      "revision": 2,
+      "prompt": "Em BPMN, qual afirmação é correta?",
       "options": [
-        {"id": "a", "text": "finalísticos em qualquer organização"},
-        {"id": "b", "text": "temporários"},
-        {"id": "c", "text": "externos"},
-        {"id": "d", "text": "de apoio ou suporte"},
-        {"id": "e", "text": "sem usuários"}
+        {
+          "id": "a",
+          "text": "Fluxo de sequência deve atravessar pools para representar mensagens."
+        },
+        {
+          "id": "b",
+          "text": "Gateway representa necessariamente uma pessoa responsável."
+        },
+        {
+          "id": "c",
+          "text": "Evento é sempre uma atividade manual."
+        },
+        {
+          "id": "d",
+          "text": "Fluxo de sequência ordena atividades dentro de um participante; fluxo de mensagem comunica participantes distintos."
+        },
+        {
+          "id": "e",
+          "text": "Lane é sinônimo de organização inteira e substitui o pool."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Processos de suporte fornecem recursos e condições aos processos finalísticos e gerenciais. Sua relevância não é menor, embora a relação com a missão seja indireta. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "BPMN distingue ordem interna e comunicação entre participantes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q598",
-      "revision": 1,
-      "prompt": "Um processo de governança e priorização de melhorias é classificado predominantemente como",
+      "revision": 2,
+      "prompt": "No BPMN, um gateway é usado principalmente para",
       "options": [
-        {"id": "a", "text": "finalístico de atendimento"},
-        {"id": "b", "text": "recurso tecnológico"},
-        {"id": "c", "text": "tarefa operacional"},
-        {"id": "d", "text": "processo externo"},
-        {"id": "e", "text": "gerencial ou de gestão"}
+        {
+          "id": "a",
+          "text": "identificar o patrocinador do processo."
+        },
+        {
+          "id": "b",
+          "text": "registrar o custo total de uma instância."
+        },
+        {
+          "id": "c",
+          "text": "substituir todos os eventos de início e fim."
+        },
+        {
+          "id": "d",
+          "text": "representar exclusivamente documento anexado."
+        },
+        {
+          "id": "e",
+          "text": "representar decisão, divisão ou convergência de caminhos."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "Processos gerenciais dirigem, coordenam, monitoram e melhoram o sistema organizacional. Eles orientam finalísticos e de suporte. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Gateways controlam ramificações e junções; não são papéis nem indicadores. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q599",
-      "revision": 1,
-      "prompt": "Um risco típico da visão estritamente funcional é",
+      "revision": 2,
+      "prompt": "Sobre pool e lane em BPMN, assinale a opção correta.",
       "options": [
-        {"id": "a", "text": "cada área otimizar sua meta local e deslocar espera ou retrabalho para a seguinte"},
-        {"id": "b", "text": "considerar a entrega ponta a ponta"},
-        {"id": "c", "text": "integrar interfaces"},
-        {"id": "d", "text": "definir proprietário do processo"},
-        {"id": "e", "text": "medir experiência do usuário"}
+        {
+          "id": "a",
+          "text": "Pool representa participante; lane subdivide responsabilidades dentro do participante."
+        },
+        {
+          "id": "b",
+          "text": "Lane representa mensagem e pool representa gateway."
+        },
+        {
+          "id": "c",
+          "text": "Pool só pode conter uma atividade."
+        },
+        {
+          "id": "d",
+          "text": "Lane é obrigatória para todo diagrama simples."
+        },
+        {
+          "id": "e",
+          "text": "Fluxo de sequência deve ligar pools distintos."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "Silos favorecem otimização local sem considerar o fluxo completo. Um ganho setorial pode criar fila, erro ou custo em outra etapa. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Pools separam participantes; lanes organizam responsabilidades internas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q600",
-      "revision": 1,
-      "prompt": "A gestão por processos ou horizontal",
+      "revision": 2,
+      "prompt": "O patrocinador e o proprietário do processo distinguem-se porque",
       "options": [
-        {"id": "a", "text": "elimina obrigatoriamente todas as chefias"},
-        {"id": "b", "text": "coordena o fluxo entre funções sem exigir a extinção dos departamentos"},
-        {"id": "c", "text": "impede especialização técnica"},
-        {"id": "d", "text": "substitui toda norma por decisão informal"},
-        {"id": "e", "text": "mede somente unidades isoladas"}
+        {
+          "id": "a",
+          "text": "o patrocinador executa todas as tarefas e o proprietário apenas desenha símbolos."
+        },
+        {
+          "id": "b",
+          "text": "o patrocinador oferece apoio e recursos, enquanto o proprietário presta contas pelo desempenho ponta a ponta."
+        },
+        {
+          "id": "c",
+          "text": "o proprietário é necessariamente o chefe de todos os participantes."
+        },
+        {
+          "id": "d",
+          "text": "ambos são papéis exclusivamente tecnológicos."
+        },
+        {
+          "id": "e",
+          "text": "o patrocinador não participa da remoção de barreiras."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "A lente horizontal complementa a estrutura funcional. Ela integra interfaces e responsabilidades para a entrega, mas não torna desnecessárias especialização, hierarquia e estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Patrocínio e propriedade são complementares, não equivalentes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q601",
-      "revision": 1,
-      "prompt": "O proprietário ou dono do processo é responsável principalmente por",
+      "revision": 2,
+      "prompt": "Na matriz RACI, a associação correta é",
       "options": [
-        {"id": "a", "text": "executar pessoalmente todas as tarefas"},
-        {"id": "b", "text": "chefiar formalmente cada participante"},
-        {"id": "c", "text": "coordenar coerência, desempenho e evolução do fluxo ponta a ponta"},
-        {"id": "d", "text": "substituir a alta administração"},
-        {"id": "e", "text": "manter somente o software"}
+        {
+          "id": "a",
+          "text": "R responde juridicamente, A executa, C controla e I implementa."
+        },
+        {
+          "id": "b",
+          "text": "R é recurso, A é atividade, C é cliente e I é entrada."
+        },
+        {
+          "id": "c",
+          "text": "R executa, A responde pelo resultado, C é consultado e I é informado."
+        },
+        {
+          "id": "d",
+          "text": "R e A devem ser atribuídos a todas as pessoas do processo."
+        },
+        {
+          "id": "e",
+          "text": "C e I são sinônimos e não precisam ser diferenciados."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "O proprietário responde pelo processo como conjunto e articula participantes. Essa responsabilidade transversal não pressupõe execução integral nem autoridade hierárquica sobre todos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "RACI esclarece execução, prestação de contas, consulta e informação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q602",
-      "revision": 1,
-      "prompt": "Em uma iniciativa de transformação processual, cabe tipicamente ao patrocinador",
+      "revision": 2,
+      "prompt": "Uma etapa com capacidade menor que a demanda restringe a vazão do processo. Trata-se de",
       "options": [
-        {"id": "a", "text": "desenhar sozinho todas as tarefas"},
-        {"id": "b", "text": "validar apenas símbolos BPMN"},
-        {"id": "c", "text": "assumir a titularidade de todos os processos"},
-        {"id": "d", "text": "estabelecer prioridade, remover barreiras e assegurar recursos"},
-        {"id": "e", "text": "substituir executores nas entrevistas"}
+        {
+          "id": "a",
+          "text": "cadeia de valor."
+        },
+        {
+          "id": "b",
+          "text": "patrocinador."
+        },
+        {
+          "id": "c",
+          "text": "evento de mensagem."
+        },
+        {
+          "id": "d",
+          "text": "gargalo."
+        },
+        {
+          "id": "e",
+          "text": "projeto temporário."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "O patrocinador oferece apoio institucional para a mudança. Modelagem e validação exigem participação de proprietário, executores e especialistas, não atuação isolada da autoridade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Gargalo é a restrição que limita o desempenho global. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q603",
-      "revision": 1,
-      "prompt": "O escritório de processos deve",
+      "revision": 2,
+      "prompt": "Quando demandas chegam de modo sustentado em ritmo superior à capacidade, tende a ocorrer",
       "options": [
-        {"id": "a", "text": "ser proprietário de todos os fluxos"},
-        {"id": "b", "text": "retirar dos gestores a responsabilidade pelo desempenho"},
-        {"id": "c", "text": "executar todas as atividades finalísticas"},
-        {"id": "d", "text": "limitar-se a comprar software"},
-        {"id": "e", "text": "apoiar método, notação, repositório, capacitação e melhoria"}
+        {
+          "id": "a",
+          "text": "eliminação automática do tempo de espera."
+        },
+        {
+          "id": "b",
+          "text": "redução necessária do lead time."
+        },
+        {
+          "id": "c",
+          "text": "aumento garantido da qualidade."
+        },
+        {
+          "id": "d",
+          "text": "transformação do processo em projeto."
+        },
+        {
+          "id": "e",
+          "text": "crescimento da fila."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "O escritório funciona como centro de competência e apoio. A responsabilidade por cada processo permanece com seu proprietário e com a governança competente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Sem ajuste de capacidade, chegada, priorização ou desenho, a fila tende a crescer. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q604",
-      "revision": 1,
-      "prompt": "A distinção correta entre BPM e BPMN é",
+      "revision": 2,
+      "prompt": "Handoff é",
       "options": [
-        {"id": "a", "text": "BPM é disciplina de gestão contínua; BPMN é notação para modelar processos e colaborações"},
-        {"id": "b", "text": "BPM é um símbolo, e BPMN é um departamento"},
-        {"id": "c", "text": "ambos significam somente automação"},
-        {"id": "d", "text": "BPMN substitui análise e melhoria"},
-        {"id": "e", "text": "BPM existe apenas em sistemas de TI"}
+        {
+          "id": "a",
+          "text": "transferência de trabalho ou informação entre pessoas, áreas ou sistemas."
+        },
+        {
+          "id": "b",
+          "text": "evento que sempre encerra o processo."
+        },
+        {
+          "id": "c",
+          "text": "atividade que necessariamente agrega valor ao usuário."
+        },
+        {
+          "id": "d",
+          "text": "sinônimo de cadeia de valor."
+        },
+        {
+          "id": "e",
+          "text": "instrumento que elimina dúvidas de responsabilidade."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "BPM administra processos; BPMN os representa segundo uma linguagem padronizada. Um diagrama pode apoiar a gestão, mas não executa por si análise, mudança ou governança. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Handoffs podem gerar espera e perda de contexto, embora alguns sejam necessários. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q605",
-      "revision": 1,
-      "prompt": "Assinale a sequência coerente de um ciclo ampliado de BPM.",
+      "revision": 2,
+      "prompt": "Assinale a opção correta sobre retrabalho.",
       "options": [
-        {"id": "a", "text": "automatizar, descobrir, definir missão e encerrar"},
-        {"id": "b", "text": "alinhar, inventariar/priorizar, modelar AS IS, analisar, desenhar TO BE, implementar e monitorar"},
-        {"id": "c", "text": "monitorar, ocultar desvios, desenhar AS IS e abolir regras"},
-        {"id": "d", "text": "comprar sistema, publicar organograma e concluir"},
-        {"id": "e", "text": "desenhar TO BE, ignorar o estado atual e dispensar transição"}
+        {
+          "id": "a",
+          "text": "É toda repetição planejada de atividade periódica."
+        },
+        {
+          "id": "b",
+          "text": "É repetição causada por erro, informação incompleta ou não conformidade e deve ser medida como problema de qualidade."
+        },
+        {
+          "id": "c",
+          "text": "É indicador exclusivo de volume."
+        },
+        {
+          "id": "d",
+          "text": "Sempre agrega valor diretamente ao usuário."
+        },
+        {
+          "id": "e",
+          "text": "Desaparece automaticamente quando o processo é digitalizado."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "A sequência parte de alinhamento e seleção, compreende o fluxo atual, analisa causas, propõe futuro, implementa e acompanha. A melhoria contínua reinicia o ciclo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Retrabalho consome capacidade e amplia prazo e custo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q606",
-      "revision": 1,
-      "prompt": "Sobre ciclos de vida BPM, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Sobre lead time, touch time e cycle time, assinale a opção correta.",
       "options": [
-        {"id": "a", "text": "possuem número universal fixado pela BPMN"},
-        {"id": "b", "text": "terminam obrigatoriamente na modelagem"},
-        {"id": "c", "text": "nomes e agrupamentos variam, mas análise, desenho, implementação e acompanhamento preservam uma lógica contínua"},
-        {"id": "d", "text": "não incluem melhoria"},
-        {"id": "e", "text": "são exclusivamente projetos de software"}
+        {
+          "id": "a",
+          "text": "Cycle time e lead time são sinônimos universais."
+        },
+        {
+          "id": "b",
+          "text": "Touch time inclui apenas espera."
+        },
+        {
+          "id": "c",
+          "text": "A terminologia varia; deve-se seguir a definição do enunciado e separar tempo total, trabalho efetivo e espera."
+        },
+        {
+          "id": "d",
+          "text": "Lead time nunca inclui processamento."
+        },
+        {
+          "id": "e",
+          "text": "A definição independe da referência utilizada."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Metodologias agrupam etapas de modos diferentes. BPMN não prescreve ciclo gerencial, pois é uma especificação de notação. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "As referências usam convenções diferentes; a questão deve explicitar o conceito. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q607",
-      "revision": 1,
-      "prompt": "Um inventário de processos deve registrar preferencialmente",
+      "revision": 2,
+      "prompt": "Um indicador local que recompensa apenas quantidade produzida pode",
       "options": [
-        {"id": "a", "text": "somente nomes de departamentos"},
-        {"id": "b", "text": "apenas cargos vagos"},
-        {"id": "c", "text": "exclusivamente aplicações de TI"},
-        {"id": "d", "text": "processos, objetivos, limites, usuários, saídas, proprietários, criticidade e relações"},
-        {"id": "e", "text": "somente atividades já automatizadas"}
+        {
+          "id": "a",
+          "text": "garantir automaticamente satisfação do usuário."
+        },
+        {
+          "id": "b",
+          "text": "eliminar a necessidade de indicadores de qualidade."
+        },
+        {
+          "id": "c",
+          "text": "provar que não existe gargalo."
+        },
+        {
+          "id": "d",
+          "text": "aumentar estoque intermediário e piorar o tempo ponta a ponta."
+        },
+        {
+          "id": "e",
+          "text": "substituir a análise de riscos."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "O inventário cria visão administrável dos fluxos e de sua arquitetura. Listar unidades não revela entregas, interfaces nem responsabilidade ponta a ponta. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Métricas locais podem induzir comportamento disfuncional quando desconectadas do resultado global. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q608",
-      "revision": 1,
-      "prompt": "Para priorizar processos a melhorar, é adequado considerar",
+      "revision": 2,
+      "prompt": "Qual conjunto apresenta dimensões complementares de desempenho?",
       "options": [
-        {"id": "a", "text": "somente a preferência do modelador"},
-        {"id": "b", "text": "apenas o processo mais fácil"},
-        {"id": "c", "text": "exclusivamente quantidade de caixas no diagrama"},
-        {"id": "d", "text": "somente custo, sem risco ou usuário"},
-        {"id": "e", "text": "valor público, risco, volume, dor do usuário, alinhamento, dependências e viabilidade"}
+        {
+          "id": "a",
+          "text": "Somente número de servidores e posição hierárquica."
+        },
+        {
+          "id": "b",
+          "text": "Apenas custo, independentemente de qualidade."
+        },
+        {
+          "id": "c",
+          "text": "Apenas quantidade de documentos emitidos."
+        },
+        {
+          "id": "d",
+          "text": "Somente presença de software e fluxograma."
+        },
+        {
+          "id": "e",
+          "text": "Prazo, custo, qualidade, volume, capacidade, satisfação e resultado."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "Priorização combina relevância e capacidade de intervenção. Um processo crítico pode merecer prioridade mesmo quando sua mudança é mais complexa. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Um sistema equilibrado evita conclusões baseadas em um único indicador. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q609",
-      "revision": 1,
-      "prompt": "O modelo AS IS deve representar",
+      "revision": 2,
+      "prompt": "Na análise de valor, uma verificação legal obrigatória que não é percebida pelo usuário deve ser classificada como",
       "options": [
-        {"id": "a", "text": "a prática atual real, incluindo esperas, exceções, atalhos e retrabalho relevantes"},
-        {"id": "b", "text": "somente o fluxo ideal da chefia"},
-        {"id": "c", "text": "apenas o texto normativo, mesmo quando diverge da prática"},
-        {"id": "d", "text": "o estado futuro já implantado"},
-        {"id": "e", "text": "exclusivamente o sistema de informação"}
+        {
+          "id": "a",
+          "text": "necessária à administração ou à conformidade, e não automaticamente como desperdício."
+        },
+        {
+          "id": "b",
+          "text": "atividade que sempre agrega valor direto."
+        },
+        {
+          "id": "c",
+          "text": "atividade que deve ser eliminada sem análise."
+        },
+        {
+          "id": "d",
+          "text": "gargalo por definição."
+        },
+        {
+          "id": "e",
+          "text": "projeto temporário."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "AS IS é diagnóstico do funcionamento presente. Omitir exceções e problemas produz base irreal para a análise e para o desenho futuro. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A classificação deve separar valor ao usuário, necessidade legítima e desperdício. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q610",
-      "revision": 1,
-      "prompt": "O desenho TO BE",
+      "revision": 2,
+      "prompt": "Uma aprovação duplicada sem fundamento de risco, legal ou gerencial é, em princípio,",
       "options": [
-        {"id": "a", "text": "é mera cópia do estado atual"},
-        {"id": "b", "text": "representa o futuro proposto e deve considerar viabilidade, papéis, regras, riscos, medidas e transição"},
-        {"id": "c", "text": "dispensa implementação"},
-        {"id": "d", "text": "deve ignorar obrigação legal"},
-        {"id": "e", "text": "é sinônimo de organograma"}
+        {
+          "id": "a",
+          "text": "controle obrigatório por existir no fluxo atual."
+        },
+        {
+          "id": "b",
+          "text": "atividade que não agrega valor e deve ser questionada."
+        },
+        {
+          "id": "c",
+          "text": "processo finalístico."
+        },
+        {
+          "id": "d",
+          "text": "instância do processo."
+        },
+        {
+          "id": "e",
+          "text": "indicador de satisfação."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "TO BE orienta a mudança, mas não é a mudança concluída. Precisa ser implementável e acompanhado por ações de transição, capacitação e ajustes necessários. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Existência histórica não prova necessidade; o desenho deve justificar controles. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q611",
-      "revision": 1,
-      "prompt": "A validação de um modelo de processo deve envolver",
+      "revision": 2,
+      "prompt": "Padronização contribui para",
       "options": [
-        {"id": "a", "text": "somente quem desenhou o diagrama"},
-        {"id": "b", "text": "apenas a área de tecnologia"},
-        {"id": "c", "text": "executores, proprietário, fornecedores, receptores e especialistas afetados"},
-        {"id": "d", "text": "exclusivamente autoridade externa"},
-        {"id": "e", "text": "somente usuários que nunca utilizaram o serviço"}
+        {
+          "id": "a",
+          "text": "eliminar toda flexibilidade legítima."
+        },
+        {
+          "id": "b",
+          "text": "substituir análise de risco."
+        },
+        {
+          "id": "c",
+          "text": "reduzir variação indevida e criar base para treinamento e controle."
+        },
+        {
+          "id": "d",
+          "text": "transformar processo em projeto."
+        },
+        {
+          "id": "e",
+          "text": "dispensar monitoramento."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Participantes do fluxo conhecem prática, interfaces, regras e exceções. A validação reduz o risco de documentar um processo idealizado ou incompleto. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Padrões ajudam consistência, mas devem admitir exceções justificadas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q612",
-      "revision": 1,
-      "prompt": "O fluxograma é especialmente útil para",
+      "revision": 2,
+      "prompt": "A simplificação de processos busca",
       "options": [
-        {"id": "a", "text": "substituir toda governança"},
-        {"id": "b", "text": "provar que o processo está automatizado"},
-        {"id": "c", "text": "medir impacto social sem dados"},
-        {"id": "d", "text": "representar de forma simples sequência, decisões e responsáveis"},
-        {"id": "e", "text": "definir a estrutura jurídica do órgão"}
+        {
+          "id": "a",
+          "text": "aumentar a quantidade de controles independentemente do risco."
+        },
+        {
+          "id": "b",
+          "text": "automatizar todas as atividades antes de compreendê-las."
+        },
+        {
+          "id": "c",
+          "text": "criar mais níveis hierárquicos."
+        },
+        {
+          "id": "d",
+          "text": "remover passos, documentos, aprovações e transferências sem justificativa."
+        },
+        {
+          "id": "e",
+          "text": "eliminar requisitos legais válidos."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Fluxogramas comunicam o fluxo de modo acessível. Eles não substituem análise de causas, indicadores, governança ou implementação. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Simplificação preserva requisitos legítimos e elimina complexidade sem valor. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q613",
-      "revision": 1,
-      "prompt": "A ferramenta SIPOC oferece uma visão macro de",
+      "revision": 2,
+      "prompt": "A automação de um processo mal desenhado pode",
       "options": [
-        {"id": "a", "text": "estratégia, indicador, projeto, objetivo e controle"},
-        {"id": "b", "text": "sistema, interface, programa, operação e custo"},
-        {"id": "c", "text": "somente tarefas e decisões detalhadas"},
-        {"id": "d", "text": "estrutura, informação, pessoa, órgão e competência"},
-        {"id": "e", "text": "fornecedor, entrada, processo, saída e cliente"}
+        {
+          "id": "a",
+          "text": "corrigir automaticamente regras contraditórias."
+        },
+        {
+          "id": "b",
+          "text": "substituir governança."
+        },
+        {
+          "id": "c",
+          "text": "eliminar toda necessidade de treinamento."
+        },
+        {
+          "id": "d",
+          "text": "transformar controle desnecessário em valor ao usuário."
+        },
+        {
+          "id": "e",
+          "text": "acelerar erros, filas e desperdícios."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "SIPOC delimita Supplier, Input, Process, Output e Customer. É útil para alinhamento inicial, mas não detalha todas as exceções e decisões. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Tecnologia potencializa o desenho existente; por isso, análise e simplificação devem preceder automação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q614",
-      "revision": 1,
-      "prompt": "A cadeia de valor é utilizada para",
+      "revision": 2,
+      "prompt": "Redesenho e reengenharia distinguem-se porque",
       "options": [
-        {"id": "a", "text": "oferecer visão agregada de como processos contribuem para entregas e valor institucional"},
-        {"id": "b", "text": "detalhar cada clique de um sistema"},
-        {"id": "c", "text": "substituir o fluxo operacional"},
-        {"id": "d", "text": "representar somente projetos"},
-        {"id": "e", "text": "eliminar a classificação dos processos"}
+        {
+          "id": "a",
+          "text": "reengenharia implica mudança radical; redesenho pode ser relevante sem ser necessariamente radical."
+        },
+        {
+          "id": "b",
+          "text": "redesenho é sempre tecnológico e reengenharia é sempre jurídica."
+        },
+        {
+          "id": "c",
+          "text": "reengenharia é melhoria exclusivamente incremental."
+        },
+        {
+          "id": "d",
+          "text": "redesenho não pode alterar papéis."
+        },
+        {
+          "id": "e",
+          "text": "os termos são necessariamente sinônimos em toda referência."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "A cadeia de valor situa grandes agrupamentos de trabalho e sua contribuição à missão. Seu nível agregado difere do mapa operacional detalhado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Reengenharia busca ruptura e ganhos expressivos; redesenho possui amplitude variável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q615",
-      "revision": 1,
-      "prompt": "Na BPMN, um pool representa",
+      "revision": 2,
+      "prompt": "A análise de causa raiz deve",
       "options": [
-        {"id": "a", "text": "uma tarefa atômica"},
-        {"id": "b", "text": "um participante de uma colaboração"},
-        {"id": "c", "text": "uma condição exclusiva"},
-        {"id": "d", "text": "uma sequência entre atividades"},
-        {"id": "e", "text": "um indicador"}
+        {
+          "id": "a",
+          "text": "escolher a primeira explicação apresentada pela chefia."
+        },
+        {
+          "id": "b",
+          "text": "combinar dados, observação, entrevistas e validação, evitando confundir correlação com causa."
+        },
+        {
+          "id": "c",
+          "text": "usar somente Pareto e dispensar evidências."
+        },
+        {
+          "id": "d",
+          "text": "tratar sintoma e causa como equivalentes."
+        },
+        {
+          "id": "e",
+          "text": "ocorrer apenas depois da automação."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Pool é a representação gráfica de um participante e pode conter ou referenciar um processo. Interações entre pools são mostradas por mensagens. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Ferramentas estruturam a investigação, mas não substituem evidências. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q616",
-      "revision": 1,
-      "prompt": "Uma lane em BPMN",
+      "revision": 2,
+      "prompt": "Qual técnica é apropriada para priorizar propostas de melhoria considerando benefício e dificuldade?",
       "options": [
-        {"id": "a", "text": "é sempre uma pessoa específica"},
-        {"id": "b", "text": "não pode organizar atividades"},
-        {"id": "c", "text": "subdivide o processo para categorização, sem equivaler obrigatoriamente a departamento"},
-        {"id": "d", "text": "representa mensagem entre organizações"},
-        {"id": "e", "text": "é sinônimo de evento final"}
+        {
+          "id": "a",
+          "text": "Organograma funcional."
+        },
+        {
+          "id": "b",
+          "text": "Fluxo de mensagem."
+        },
+        {
+          "id": "c",
+          "text": "Matriz esforço × impacto."
+        },
+        {
+          "id": "d",
+          "text": "Matriz RACI."
+        },
+        {
+          "id": "e",
+          "text": "Evento de início."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "A BPMN deixa o significado da lane ao modelador. Ela pode organizar atividades por papel, equipe, função ou unidade, conforme o propósito do modelo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Esforço × impacto apoia priorização; RACI trata papéis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q617",
-      "revision": 1,
-      "prompt": "Na BPMN, os três tipos principais de eventos quanto à posição no processo são",
+      "revision": 2,
+      "prompt": "Benchmarking em gestão de processos deve ser entendido como",
       "options": [
-        {"id": "a", "text": "entrada, recurso e saída"},
-        {"id": "b", "text": "pool, lane e mensagem"},
-        {"id": "c", "text": "tarefa, subprocesso e chamada"},
-        {"id": "d", "text": "início, intermediário e fim"},
-        {"id": "e", "text": "exclusivo, paralelo e inclusivo"}
+        {
+          "id": "a",
+          "text": "substituição da análise interna por imitação."
+        },
+        {
+          "id": "b",
+          "text": "garantia de que a solução externa funcionará no mesmo contexto."
+        },
+        {
+          "id": "c",
+          "text": "modelo BPMN executável."
+        },
+        {
+          "id": "d",
+          "text": "comparação estruturada para aprendizagem, sem cópia automática de práticas."
+        },
+        {
+          "id": "e",
+          "text": "forma de eliminar requisitos legais."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Eventos representam algo que acontece e afeta o fluxo. Eventos de início disparam o processo, intermediários ocorrem durante ele e eventos de fim encerram caminhos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Práticas precisam ser adaptadas a estratégia, contexto e restrições. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q618",
-      "revision": 1,
-      "prompt": "Em BPMN, tarefa e subprocesso são",
+      "revision": 2,
+      "prompt": "A simulação de processos pode apoiar",
       "options": [
-        {"id": "a", "text": "tipos de gateway"},
-        {"id": "b", "text": "mensagens entre pools"},
-        {"id": "c", "text": "eventos de início"},
-        {"id": "d", "text": "partições do organograma"},
-        {"id": "e", "text": "atividades, sendo a tarefa atômica e o subprocesso decomponível"}
+        {
+          "id": "a",
+          "text": "definição automática da competência legal."
+        },
+        {
+          "id": "b",
+          "text": "prova definitiva de causalidade."
+        },
+        {
+          "id": "c",
+          "text": "eliminação da necessidade de dados."
+        },
+        {
+          "id": "d",
+          "text": "substituição de toda validação com participantes."
+        },
+        {
+          "id": "e",
+          "text": "avaliação de cenários de capacidade, fila e regras antes da implementação."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "Atividade é trabalho. A tarefa não é decomposta no nível adotado; o subprocesso possui detalhes internos representáveis por outros elementos de fluxo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Simulação testa hipóteses; depende de premissas e dados confiáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q619",
-      "revision": 1,
-      "prompt": "A função de um gateway em BPMN é",
+      "revision": 2,
+      "prompt": "Sobre mineração de processos, assinale a opção correta.",
       "options": [
-        {"id": "a", "text": "controlar como fluxos divergem ou convergem"},
-        {"id": "b", "text": "executar uma tarefa de trabalho"},
-        {"id": "c", "text": "representar o proprietário do processo"},
-        {"id": "d", "text": "medir o tempo de ciclo"},
-        {"id": "e", "text": "armazenar documentos"}
+        {
+          "id": "a",
+          "text": "Usa logs de eventos para descobrir, verificar conformidade ou aprimorar modelos."
+        },
+        {
+          "id": "b",
+          "text": "É sinônimo de entrevista sem dados de sistema."
+        },
+        {
+          "id": "c",
+          "text": "Só se aplica a mineração mineral."
+        },
+        {
+          "id": "d",
+          "text": "Substitui automaticamente análise normativa."
+        },
+        {
+          "id": "e",
+          "text": "Exige que todo processo já esteja perfeitamente modelado."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "Gateways controlam decisões, bifurcações, junções e sincronização. Eles não representam trabalho executado, que é modelado como atividade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Process mining extrai evidências de execução; seus resultados dependem da qualidade dos logs. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q620",
-      "revision": 1,
-      "prompt": "O fluxo de sequência em BPMN",
+      "revision": 2,
+      "prompt": "Na mineração de processos, conformance checking consiste em",
       "options": [
-        {"id": "a", "text": "deve conectar pools distintos"},
-        {"id": "b", "text": "mostra a ordem dos elementos, pode cruzar lanes e não pode cruzar o limite do pool"},
-        {"id": "c", "text": "representa somente mensagens externas"},
-        {"id": "d", "text": "é um tipo de atividade"},
-        {"id": "e", "text": "não possui origem nem destino"}
+        {
+          "id": "a",
+          "text": "gerar organograma a partir de cargos."
+        },
+        {
+          "id": "b",
+          "text": "comparar a execução real registrada com o modelo esperado."
+        },
+        {
+          "id": "c",
+          "text": "calcular apenas custo de projeto."
+        },
+        {
+          "id": "d",
+          "text": "definir missão institucional."
+        },
+        {
+          "id": "e",
+          "text": "automatizar todas as tarefas manuais."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "O processo e seus fluxos de sequência ficam contidos no pool. Lanes são subdivisões internas e podem ser atravessadas pelo fluxo de sequência. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Verificação de conformidade identifica desvios entre o realizado e o previsto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q621",
-      "revision": 1,
-      "prompt": "Na BPMN, o fluxo de mensagem é usado para",
+      "revision": 2,
+      "prompt": "Task mining distingue-se de process mining porque",
       "options": [
-        {"id": "a", "text": "ligar duas tarefas no mesmo pool"},
-        {"id": "b", "text": "representar a ordem interna de um processo"},
-        {"id": "c", "text": "mostrar comunicação entre participantes representados por pools distintos"},
-        {"id": "d", "text": "subdividir atividades em lanes"},
-        {"id": "e", "text": "calcular capacidade"}
+        {
+          "id": "a",
+          "text": "analisa apenas cadeia de valor estratégica."
+        },
+        {
+          "id": "b",
+          "text": "é sinônimo de BPMN."
+        },
+        {
+          "id": "c",
+          "text": "foca interações detalhadas do usuário com sistemas e tarefas."
+        },
+        {
+          "id": "d",
+          "text": "não utiliza dados."
+        },
+        {
+          "id": "e",
+          "text": "substitui a gestão de mudanças."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Message Flow conecta participantes separados e não deve conectar dois objetos dentro do mesmo pool. A ordem interna é representada por Sequence Flow. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Task mining observa granularidade de ações; process mining usa eventos do fluxo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q622",
-      "revision": 1,
-      "prompt": "Em BPMN, um gateway paralelo — AND — é utilizado para",
+      "revision": 2,
+      "prompt": "Ao selecionar processos para melhoria, um portfólio maduro considera",
       "options": [
-        {"id": "a", "text": "selecionar necessariamente apenas uma alternativa"},
-        {"id": "b", "text": "esperar exclusivamente uma mensagem externa"},
-        {"id": "c", "text": "representar trabalho manual"},
-        {"id": "d", "text": "abrir ou sincronizar caminhos concorrentes"},
-        {"id": "e", "text": "substituir o evento de início"}
+        {
+          "id": "a",
+          "text": "somente a preferência da chefia."
+        },
+        {
+          "id": "b",
+          "text": "apenas a facilidade de automatização."
+        },
+        {
+          "id": "c",
+          "text": "exclusivamente o processo com mais etapas."
+        },
+        {
+          "id": "d",
+          "text": "alinhamento, impacto, volume, risco, custo, viabilidade e dependências."
+        },
+        {
+          "id": "e",
+          "text": "somente o menor custo de mudança."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "O gateway paralelo ativa caminhos concorrentes ou os sincroniza. O exclusivo — XOR — seleciona alternativa, e o inclusivo — OR — pode ativar uma ou mais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Priorização deve equilibrar benefício, criticidade e viabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q623",
-      "revision": 1,
-      "prompt": "Uma etapa consegue tratar vinte demandas por dia, enquanto todas as demais tratam cinquenta. Se a demanda supera vinte, essa etapa tende a ser",
+      "revision": 2,
+      "prompt": "Um plano de implementação de TO BE deve incluir",
       "options": [
-        {"id": "a", "text": "um evento"},
-        {"id": "b", "text": "uma cadeia de valor"},
-        {"id": "c", "text": "um usuário"},
-        {"id": "d", "text": "um projeto"},
-        {"id": "e", "text": "um gargalo ou restrição do fluxo"}
+        {
+          "id": "a",
+          "text": "somente o desenho final."
+        },
+        {
+          "id": "b",
+          "text": "apenas compra de software."
+        },
+        {
+          "id": "c",
+          "text": "eliminação automática de toda resistência."
+        },
+        {
+          "id": "d",
+          "text": "encerramento do monitoramento."
+        },
+        {
+          "id": "e",
+          "text": "mudança normativa, tecnologia, treinamento, comunicação, indicadores e riscos conforme o caso."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "A menor capacidade limita a vazão global e tende a gerar fila antes da etapa. Melhorar atividades que não restringem o fluxo pode não elevar a entrega total. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A transição converte desenho em prática e exige gestão multidimensional. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q624",
-      "revision": 1,
-      "prompt": "Handoff é",
+      "revision": 2,
+      "prompt": "A resistência dos executores ao redesenho pode",
       "options": [
-        {"id": "a", "text": "transferência de trabalho ou informação entre pessoas, áreas, sistemas ou organizações"},
-        {"id": "b", "text": "valor futuro de uma meta"},
-        {"id": "c", "text": "evento final de BPMN"},
-        {"id": "d", "text": "sinônimo de cadeia de valor"},
-        {"id": "e", "text": "atividade sem qualquer interface"}
+        {
+          "id": "a",
+          "text": "revelar risco real ou conhecimento operacional ignorado e deve ser investigada."
+        },
+        {
+          "id": "b",
+          "text": "ser sempre considerada irracional."
+        },
+        {
+          "id": "c",
+          "text": "provar que o processo atual é ótimo."
+        },
+        {
+          "id": "d",
+          "text": "ser eliminada sem comunicação."
+        },
+        {
+          "id": "e",
+          "text": "dispensar validação do AS IS."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "Transferências são pontos frequentes de espera, perda de informação e responsabilidade difusa. Nem todo handoff é dispensável, mas deve possuir finalidade e interface claras. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Participantes detêm conhecimento tácito e também podem ter preocupações legítimas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q625",
-      "revision": 1,
-      "prompt": "A diferença entre tempo de ciclo e tempo de processamento consiste em que",
+      "revision": 2,
+      "prompt": "No setor público, digitalização madura de serviço significa",
       "options": [
-        {"id": "a", "text": "o processamento inclui toda espera, e o ciclo não"},
-        {"id": "b", "text": "o ciclo mede o período do início ao fim, inclusive espera; o processamento mede trabalho efetivo"},
-        {"id": "c", "text": "ambos medem necessariamente custo"},
-        {"id": "d", "text": "o ciclo é sempre menor"},
-        {"id": "e", "text": "processamento é sinônimo de impacto"}
+        {
+          "id": "a",
+          "text": "manter todas as exigências e apenas mudar o suporte."
+        },
+        {
+          "id": "b",
+          "text": "revisar fluxo, integração, dados, regras e experiência do usuário, não apenas converter papel em PDF."
+        },
+        {
+          "id": "c",
+          "text": "eliminar controles legais."
+        },
+        {
+          "id": "d",
+          "text": "substituir atendimento acessível por canal único."
+        },
+        {
+          "id": "e",
+          "text": "automatizar sem avaliar valor público."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "Lead time ou tempo de ciclo inclui espera, fila e movimentação. O tempo de processamento corresponde ao período em que o item está sendo efetivamente trabalhado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Transformação digital combina simplificação, integração e desenho centrado no usuário. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q626",
-      "revision": 1,
-      "prompt": "Demandas devolvidas repetidamente por informação incompleta indicam principalmente",
+      "revision": 2,
+      "prompt": "A aplicação da Lei nº 14.129/2021 aos demais entes federativos",
       "options": [
-        {"id": "a", "text": "aumento automático de valor"},
-        {"id": "b", "text": "fim do processo"},
-        {"id": "c", "text": "retrabalho e possível falha na interface ou na regra de entrada"},
-        {"id": "d", "text": "ausência de usuário"},
-        {"id": "e", "text": "projeto concluído"}
+        {
+          "id": "a",
+          "text": "é automática e integral sem qualquer ato local."
+        },
+        {
+          "id": "b",
+          "text": "é proibida fora da União."
+        },
+        {
+          "id": "c",
+          "text": "depende da adoção de seus comandos por atos normativos próprios, conforme o texto legal."
+        },
+        {
+          "id": "d",
+          "text": "elimina a autonomia federativa."
+        },
+        {
+          "id": "e",
+          "text": "dispensa análise da legislação atualizada."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Devolução repete trabalho e aumenta tempo de ciclo. A análise deve examinar causa, como exigência pouco clara, validação tardia ou perda de informação no handoff. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A lei estabelece regra federativa específica; a prova deve observar o texto vigente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q627",
-      "revision": 1,
-      "prompt": "A técnica dos cinco porquês auxilia a análise ao",
+      "revision": 2,
+      "prompt": "Em processo público, pedir novamente documento já disponível em base acessível deve ser",
       "options": [
-        {"id": "a", "text": "substituir toda evidência por opinião"},
-        {"id": "b", "text": "desenhar automaticamente o TO BE"},
-        {"id": "c", "text": "eliminar qualquer norma"},
-        {"id": "d", "text": "aprofundar sucessivamente a investigação de causas em vez de parar no sintoma"},
-        {"id": "e", "text": "calcular fluxo de mensagem"}
+        {
+          "id": "a",
+          "text": "preservado sempre, pois toda repetição é controle."
+        },
+        {
+          "id": "b",
+          "text": "automatizado antes de verificar necessidade."
+        },
+        {
+          "id": "c",
+          "text": "considerado valor direto ao usuário."
+        },
+        {
+          "id": "d",
+          "text": "questionado sob a ótica de integração, simplificação e proteção de dados."
+        },
+        {
+          "id": "e",
+          "text": "ignorado por não afetar o processo."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Perguntas sucessivas ajudam a chegar a fatores subjacentes. A técnica não garante causa correta sem dados, validação e compreensão do contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Exigências redundantes ampliam custo e tempo e podem contrariar princípios de governo digital. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q628",
-      "revision": 1,
-      "prompt": "Constitui conjunto equilibrado de medidas básicas de processo",
+      "revision": 2,
+      "prompt": "A relação correta entre PDCA e BPM é",
       "options": [
-        {"id": "a", "text": "somente volume de entrada"},
-        {"id": "b", "text": "apenas quantidade de servidores"},
-        {"id": "c", "text": "missão, visão e valores"},
-        {"id": "d", "text": "organograma e cargos"},
-        {"id": "e", "text": "tempo, custo, erro ou retrabalho, volume e capacidade"}
+        {
+          "id": "a",
+          "text": "PDCA e BPM são sinônimos absolutos."
+        },
+        {
+          "id": "b",
+          "text": "BPM exclui monitoramento."
+        },
+        {
+          "id": "c",
+          "text": "PDCA é notação gráfica."
+        },
+        {
+          "id": "d",
+          "text": "BPM só pode ser aplicado em projetos temporários."
+        },
+        {
+          "id": "e",
+          "text": "PDCA pode apoiar melhoria; BPM possui escopo próprio de gestão ponta a ponta."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "Medidas complementares evitam otimização unilateral. Reduzir prazo com aumento de erro, por exemplo, pode indicar piora global apesar do ganho em velocidade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "As abordagens dialogam, mas têm identidade e escopo distintos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q629",
-      "revision": 1,
-      "prompt": "Na análise de valor de um processo público, uma atividade legalmente obrigatória",
+      "revision": 2,
+      "prompt": "Lean contribui para gestão de processos principalmente ao enfatizar",
       "options": [
-        {"id": "a", "text": "pode não agregar valor percebido diretamente, mas deve ser cumprida e simplificada quando possível"},
-        {"id": "b", "text": "deve ser removida sempre que o usuário não a perceber"},
-        {"id": "c", "text": "é necessariamente desperdício"},
-        {"id": "d", "text": "não pode ser executada com eficiência"},
-        {"id": "e", "text": "dispensa exame de proporcionalidade"}
+        {
+          "id": "a",
+          "text": "fluxo, tempo e eliminação de desperdícios."
+        },
+        {
+          "id": "b",
+          "text": "apenas estrutura hierárquica."
+        },
+        {
+          "id": "c",
+          "text": "somente conformidade contábil."
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente desenho em BPMN."
+        },
+        {
+          "id": "e",
+          "text": "extinção de todos os controles."
+        }
       ],
       "correctOptionId": "a",
-      "explanation": "Valor percebido não é o único critério no setor público. Legalidade, segurança e controle podem justificar atividades, cuja execução ainda deve ser simples e proporcional. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Lean analisa valor e fluxo; controles necessários devem ser preservados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q630",
-      "revision": 1,
-      "prompt": "Assinale a distinção correta entre padronização e simplificação.",
+      "revision": 2,
+      "prompt": "Six Sigma relaciona-se à gestão de processos por enfatizar",
       "options": [
-        {"id": "a", "text": "Padronizar elimina revisão; simplificar elimina toda regra."},
-        {"id": "b", "text": "Padronizar reduz variação indevida; simplificar remove carga ou etapa desnecessária."},
-        {"id": "c", "text": "Ambas significam apenas digitalizar."},
-        {"id": "d", "text": "Simplificar exige adicionar aprovações."},
-        {"id": "e", "text": "Padronizar impede aprendizagem."}
+        {
+          "id": "a",
+          "text": "substituição de indicadores por opinião."
+        },
+        {
+          "id": "b",
+          "text": "redução de variação e defeitos baseada em dados."
+        },
+        {
+          "id": "c",
+          "text": "eliminação de toda padronização."
+        },
+        {
+          "id": "d",
+          "text": "apenas desenho de organograma."
+        },
+        {
+          "id": "e",
+          "text": "mudança radical obrigatória em qualquer caso."
+        }
       ],
       "correctOptionId": "b",
-      "explanation": "O padrão torna a execução previsível, mas pode ser melhorado. A simplificação reduz complexidade real sem remover requisitos válidos de forma irrefletida. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Six Sigma foca variação e desempenho; não é sinônimo de BPM. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q631",
-      "revision": 1,
-      "prompt": "Antes de automatizar um processo com cadastros duplicados e aprovações sem finalidade, recomenda-se",
+      "revision": 2,
+      "prompt": "Um escritório de processos deve",
       "options": [
-        {"id": "a", "text": "replicar exatamente cada redundância no sistema"},
-        {"id": "b", "text": "escolher tecnologia sem conhecer o fluxo"},
-        {"id": "c", "text": "compreender o AS IS, questionar exigências, simplificar e desenhar o TO BE"},
-        {"id": "d", "text": "transformar limitações técnicas em regras permanentes"},
-        {"id": "e", "text": "dispensar participação dos usuários"}
+        {
+          "id": "a",
+          "text": "executar todas as atividades operacionais."
+        },
+        {
+          "id": "b",
+          "text": "ser o dono de todos os processos."
+        },
+        {
+          "id": "c",
+          "text": "apoiar método, padrões, capacitação, governança e portfólio."
+        },
+        {
+          "id": "d",
+          "text": "substituir gestores e especialistas."
+        },
+        {
+          "id": "e",
+          "text": "atuar exclusivamente como equipe de TI."
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "Automação de processo ruim acelera burocracia, erro e retrabalho. Tecnologia deve apoiar um fluxo analisado, simplificado e validado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O escritório promove capacidade organizacional sem centralizar toda execução. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q632",
-      "revision": 1,
-      "prompt": "A diferença entre melhoria incremental e reengenharia está em que",
+      "revision": 2,
+      "prompt": "Em uma situação na qual cada unidade cumpre sua meta, mas o usuário espera entre transferências, a primeira providência analítica deve ser",
       "options": [
-        {"id": "a", "text": "somente a melhoria usa evidências"},
-        {"id": "b", "text": "reengenharia significa comprar software"},
-        {"id": "c", "text": "melhoria sempre elimina o processo"},
-        {"id": "d", "text": "a melhoria faz ajustes sucessivos, enquanto a reengenharia altera radicalmente a lógica"},
-        {"id": "e", "text": "não há diferença de intensidade ou risco"}
+        {
+          "id": "a",
+          "text": "premiar a unidade com maior produção."
+        },
+        {
+          "id": "b",
+          "text": "comprar BPMS imediatamente."
+        },
+        {
+          "id": "c",
+          "text": "eliminar todos os controles."
+        },
+        {
+          "id": "d",
+          "text": "mapear o fluxo ponta a ponta e medir processamento, espera, erros e handoffs."
+        },
+        {
+          "id": "e",
+          "text": "redesenhar sem compreender o estado atual."
+        }
       ],
       "correctOptionId": "d",
-      "explanation": "Melhoria incremental preserva a base e evolui em ciclos; reengenharia busca ruptura profunda. Mudança radical tende a exigir maior gestão de risco e transição. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O diagnóstico ponta a ponta evita soluções locais e automação prematura. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q633",
-      "revision": 1,
-      "prompt": "A respeito da Lei nº 14.129/2021 e da gestão de processos públicos, é correto afirmar que",
+      "revision": 2,
+      "prompt": "Assinale a análise integrada correta.",
       "options": [
-        {"id": "a", "text": "a lei determina que todo serviço seja exclusivamente digital"},
-        {"id": "b", "text": "interoperabilidade dispensa proteção de dados"},
-        {"id": "c", "text": "digitalização impede atendimento presencial"},
-        {"id": "d", "text": "a lei incide automaticamente e sem ato próprio sobre todos os entes federados"},
-        {"id": "e", "text": "a lei orienta simplificação e otimização, e sua aplicação aos demais entes depende de adoção por ato normativo próprio"}
+        {
+          "id": "a",
+          "text": "O dono executa tudo; o gargalo é a etapa mais cara; e o TO BE aprovado já gera benefício."
+        },
+        {
+          "id": "b",
+          "text": "BPMN substitui BPM; handoff sempre deve ser eliminado; e todo controle é desperdício."
+        },
+        {
+          "id": "c",
+          "text": "BPMS elimina governança; AS IS é desnecessário; e fila não afeta prazo."
+        },
+        {
+          "id": "d",
+          "text": "Processo é departamento; instância é modelo; e automação precede análise."
+        },
+        {
+          "id": "e",
+          "text": "O dono responde pelo resultado; o gargalo restringe a vazão; o TO BE precisa de transição; e indicador local pode piorar o todo."
+        }
       ],
       "correctOptionId": "e",
-      "explanation": "A lei promove integração, interoperabilidade, simplificação e uso de tecnologia, preservando atendimento presencial quando necessário e proteção de dados. O art. 2º condiciona sua aplicação aos demais entes à adoção por atos normativos próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A opção articula propriedade, restrição, implementação e medição de forma coerente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q634",
+      "revision": 1,
+      "prompt": "Uma organização identifica três grupos: os que entregam diretamente serviços ao beneficiário, os que fornecem recursos internos e os que monitoram resultados. A classificação adequada é",
+      "options": [
+        {
+          "id": "a",
+          "text": "processos primários, de apoio e gerenciais, respectivamente."
+        },
+        {
+          "id": "b",
+          "text": "processos gerenciais, primários e de apoio."
+        },
+        {
+          "id": "c",
+          "text": "projetos, processos e funções."
+        },
+        {
+          "id": "d",
+          "text": "atividades, tarefas e sistemas."
+        },
+        {
+          "id": "e",
+          "text": "processos de apoio, de apoio e de apoio."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A classificação considera a relação com a missão e a governança, não o grau de importância. Fonte: questão adaptada de Cebraspe/ANS/2013/https://www.qconcursos.com/questoes-de-concursos/questoes/d7eada04-f6; adaptação: conversão para múltipla escolha e contextualização sem reproduzir o enunciado integral."
+    },
+    {
+      "id": "q635",
+      "revision": 1,
+      "prompt": "À luz dos papéis do BPM, qual afirmação descreve melhor o dono do processo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "É o especialista responsável apenas por modelos de referência."
+        },
+        {
+          "id": "b",
+          "text": "Responde pelo desempenho ponta a ponta e pela prestação de contas, sem executar necessariamente todas as atividades."
+        },
+        {
+          "id": "c",
+          "text": "É o analista que desenha símbolos, sem responsabilidade por desempenho."
+        },
+        {
+          "id": "d",
+          "text": "É sempre o chefe hierárquico de todos os participantes."
+        },
+        {
+          "id": "e",
+          "text": "É o profissional de TI que administra o BPMS."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O dono ou proprietário possui accountability pelo processo; execução e desenho podem ser distribuídos. Fonte: questão adaptada de Cebraspe/TCE-PR/Analista de Controle - Administração/2016/Q693872/https://www.qconcursos.com/questoes-de-concursos/questoes/05631e07-7b; adaptação: reformulação das alternativas e foco na distinção de papéis."
+    },
+    {
+      "id": "q636",
+      "revision": 1,
+      "prompt": "O gerenciamento de processos de negócio abrange",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente a programação do sistema que executa o fluxo."
+        },
+        {
+          "id": "b",
+          "text": "apenas atividades internas da área de tecnologia."
+        },
+        {
+          "id": "c",
+          "text": "estratégia, análise, desenho, implementação, monitoramento, governança e melhoria, e não apenas automação."
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente o desenho do fluxograma atual."
+        },
+        {
+          "id": "e",
+          "text": "somente projetos temporários de digitalização."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "BPM possui escopo gerencial amplo e transversal. Fonte: questão adaptada de Cebraspe/TRE-PE/2016/https://questoes.grancursosonline.com.br/questoes-de-concursos/tecnologia-da-informacao-14/875089; adaptação: conversão para múltipla escolha e síntese do escopo."
+    },
+    {
+      "id": "q637",
+      "revision": 1,
+      "prompt": "Assinale a opção correta sobre processo e cadeia de valor.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Processo e cadeia de valor são sinônimos de departamento."
+        },
+        {
+          "id": "b",
+          "text": "Cadeia de valor é uma única tarefa operacional."
+        },
+        {
+          "id": "c",
+          "text": "Processo existe apenas quando representado em BPMN."
+        },
+        {
+          "id": "d",
+          "text": "Processo é fluxo de transformação; cadeia de valor organiza, em nível agregado, conjuntos de processos que produzem valor."
+        },
+        {
+          "id": "e",
+          "text": "Cadeia de valor descreve somente a hierarquia de cargos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A cadeia de valor possui visão agregada; o processo possui fronteiras e entrega próprias. Fonte: questão adaptada de Cebraspe/SEDF/2017/https://www.qconcursos.com/questoes-de-concursos/questoes/903ecaf0-e6; adaptação: conversão de item conceitual para múltipla escolha."
+    },
+    {
+      "id": "q638",
+      "revision": 1,
+      "prompt": "Uma equipe afirma que o BPM possui como principal desvantagem ser necessariamente operacional e micro. Essa afirmação está",
+      "options": [
+        {
+          "id": "a",
+          "text": "correta, porque BPM não alcança processos ponta a ponta."
+        },
+        {
+          "id": "b",
+          "text": "correta, porque gestão de processos se limita a tarefas."
+        },
+        {
+          "id": "c",
+          "text": "correta, porque cadeia de valor não integra BPM."
+        },
+        {
+          "id": "d",
+          "text": "errada apenas porque BPM é uma notação gráfica."
+        },
+        {
+          "id": "e",
+          "text": "errada, porque BPM deve ser alinhado à estratégia e pode oferecer visão macro e transversal."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "BPM conecta estratégia, arquitetura, processos e desempenho; não se restringe ao nível micro. Fonte: questão adaptada de Cebraspe/TCDF/Analista de Controle Externo/2023/Q135/https://www.questoesestrategicas.com.br/questoes/ver/iI3tGE3HryUIGanowW5TDcdZ783UzlCJt68pouLDoCQ; adaptação: conversão de certo/errado para múltipla escolha."
+    },
+    {
+      "id": "q639",
+      "revision": 1,
+      "prompt": "Qual alternativa corresponde ao ciclo de vida de BPM apresentado pelo BPM CBOK?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Planejamento e estratégia; análise; desenho e modelagem; implementação; monitoramento e controle; refinamento."
+        },
+        {
+          "id": "b",
+          "text": "Patrocínio; orçamento; organograma; tecnologia; auditoria; encerramento."
+        },
+        {
+          "id": "c",
+          "text": "Automação; treinamento; execução; extinção do processo."
+        },
+        {
+          "id": "d",
+          "text": "Análise; desenho; abandono do monitoramento; projeto."
+        },
+        {
+          "id": "e",
+          "text": "Estratégia; compra de BPMS; encerramento definitivo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O refinamento realimenta o ciclo; BPM não se encerra com a implementação. Fonte: questão adaptada de Cebraspe/TCE-PR/Auditor de Controle Externo - Administração/2024/Q3384509/https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/3384509; adaptação: redução das alternativas e preservação do núcleo cobrado."
+    },
+    {
+      "id": "q640",
+      "revision": 1,
+      "prompt": "Na transformação de processos, a relação AS IS → TO BE significa que",
+      "options": [
+        {
+          "id": "a",
+          "text": "o estado futuro substitui automaticamente o atual quando aprovado."
+        },
+        {
+          "id": "b",
+          "text": "o estado atual é modelado e analisado, o estado futuro é desenhado e a transformação exige implementação."
+        },
+        {
+          "id": "c",
+          "text": "o AS IS é dispensável em qualquer contexto."
+        },
+        {
+          "id": "d",
+          "text": "o TO BE descreve somente o passado."
+        },
+        {
+          "id": "e",
+          "text": "a transformação se limita a produzir um desenho."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O desenho futuro precisa ser convertido em prática por plano de transição. Fonte: questão adaptada de Cebraspe/CNPq/Analista - Gestão e Governança de TI/2024/Q3129442/https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/3129442; adaptação: conversão de certo/errado para múltipla escolha."
+    },
+    {
+      "id": "q641",
+      "revision": 1,
+      "prompt": "A afirmação de que, na gestão por processos, as tarefas devem ocorrer sob rígida supervisão hierárquica está",
+      "options": [
+        {
+          "id": "a",
+          "text": "correta, porque processos impedem colaboração transversal."
+        },
+        {
+          "id": "b",
+          "text": "correta, porque todo processo é uma unidade hierárquica."
+        },
+        {
+          "id": "c",
+          "text": "errada, porque a orientação por processos enfatiza integração, autonomia compatível e responsabilidade pelo fluxo."
+        },
+        {
+          "id": "d",
+          "text": "correta, porque dono do processo deve controlar pessoalmente cada tarefa."
+        },
+        {
+          "id": "e",
+          "text": "errada apenas porque processos não possuem responsáveis."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gestão por processos não elimina autoridade, mas supera dependência de supervisão rígida como princípio central. Fonte: questão adaptada de Cebraspe/CNPq/Analista - Administração de Pessoal/2024/Q3128872/https://questoes.grancursosonline.com.br/questoes-de-concursos/administracao-geral-404571/3128872; adaptação: conversão de certo/errado para múltipla escolha."
+    },
+    {
+      "id": "q642",
+      "revision": 1,
+      "prompt": "A elaboração de fluxograma pode apoiar a melhoria porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "gera automaticamente um modelo executável pronto para automação."
+        },
+        {
+          "id": "b",
+          "text": "substitui indicadores e observação."
+        },
+        {
+          "id": "c",
+          "text": "elimina a necessidade de validação com participantes."
+        },
+        {
+          "id": "d",
+          "text": "torna visíveis atividades, decisões e transferências, facilitando a identificação de problemas."
+        },
+        {
+          "id": "e",
+          "text": "garante que todas as atividades existentes agreguem valor."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Representação visual amplia compreensão, mas não produz sozinha execução, evidência ou melhoria. Fonte: questão adaptada de Cebraspe/TCDF/Analista de Controle Externo/2023/Q136/https://www.questoesestrategicas.com.br/questoes/ver/XLjANrrkCIQa4gd9AxhHrlYQJUICf23K0K5fZ9PYUU8; adaptação: conversão de certo/errado para múltipla escolha."
+    },
+    {
+      "id": "q643",
+      "revision": 1,
+      "prompt": "Em um tribunal, modelagem e análise dos fluxos de trabalho podem",
+      "options": [
+        {
+          "id": "a",
+          "text": "garantir agilidade sem qualquer mudança de capacidade."
+        },
+        {
+          "id": "b",
+          "text": "substituir a prestação jurisdicional."
+        },
+        {
+          "id": "c",
+          "text": "eliminar automaticamente filas ao desenhar o processo."
+        },
+        {
+          "id": "d",
+          "text": "dispensar dados, controles e validação."
+        },
+        {
+          "id": "e",
+          "text": "dar visão clara das etapas e ajudar a identificar gargalos e oportunidades de melhoria."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Modelagem e análise apoiam decisão; os resultados dependem de implementação e acompanhamento. Fonte: questão adaptada de Cebraspe/STJ/Analista Judiciário/2024/https://www.mapadaprova.com.br/questoes/superior-tribunal-de-justica-instituicao/administracao/bpm-cbok-ciclo-pdca-6-sigma-etc; adaptação: conversão de certo/errado para múltipla escolha e contextualização."
     }
   ]
 }
