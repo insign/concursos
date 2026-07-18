@@ -1,0 +1,46 @@
+{
+  "version": 54,
+  "items": {
+    "tce-ma-2026-analista-administracao--classes-nominais-de-palavras": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/classes-nominais-de-palavras/",
+      "status": "analyzing"
+    },
+    "tce-ma-2026-analista-administracao--classes-invariaveis-de-palavras": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/classes-invariaveis-de-palavras/",
+      "status": "analyzing"
+    },
+    "tce-ma-2026-analista-administracao--subordinacao-oracoes-termos": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/subordinacao-oracoes-termos/",
+      "status": "analyzing"
+    },
+    "tce-ma-2026-analista-administracao--coesao-textual": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/coesao-textual/",
+      "status": "done"
+    },
+    "tce-ma-2026-analista-administracao--ortografia-oficial": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/ortografia-oficial/",
+      "status": "done"
+    },
+    "tce-ma-2026-analista-administracao--pontuacao": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/pontuacao/",
+      "status": "done"
+    },
+    "tce-ma-2026-analista-administracao--concordancia-verbal-nominal": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/concordancia-verbal-nominal/",
+      "status": "done"
+    },
+    "tce-ma-2026-analista-administracao--regencia-verbal-nominal": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/regencia-verbal-nominal/",
+      "status": "analyzing"
+    },
+    "tce-ma-2026-analista-administracao--crase": {
+      "path": "/concursos/tce-ma-2026-analista-administracao/crase/",
+      "status": "analyzing"
+    },
+    "tce-ma-2026-analista-administracao--colocacao-pronominal": null,
+    "tce-ma-2026-analista-administracao--significacao-palavras": null,
+    "tce-ma-2026-analista-administracao--substituicao-palavras-trechos": null,
+    "tce-ma-2026-analista-administracao--reorganizacao-oracoes-periodos": null,
+    "tce-ma-2026-analista-administracao--reescrita-generos-formalidade": null
+  }
+}
