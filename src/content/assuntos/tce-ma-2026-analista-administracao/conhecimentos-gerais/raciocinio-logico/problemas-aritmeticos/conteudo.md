@@ -28,7 +28,7 @@ Um roteiro seguro tem cinco etapas:
 | trabalho, produção, vazão, movimento e misturas | problemas de taxas e conservação |
 | juros e sequências numéricas | tratamento aritmético |
 | áreas, perímetros, ângulos e volumes geométricos | Assunto 044 |
-| operações, determinantes e padrões em matrizes | Assunto 045 |
+| operações e padrões em matrizes | Assunto 045 |
 
 Conversões de unidades pertencem a este assunto quando a tarefa é numérica. Se for necessário descobrir uma área ou um volume por propriedades de figuras, a parte central é geométrica.
 

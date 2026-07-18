@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q5379",
+      "revision": 1,
+      "prompt": "Uma matriz possui 3 linhas e 4 colunas. Qual é a sua ordem?",
+      "options": [
+        { "id": "A", "text": "4 × 3" },
+        { "id": "B", "text": "7 × 1" },
+        { "id": "C", "text": "3 × 4" },
+        { "id": "D", "text": "12 × 1" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A ordem registra primeiro o número de linhas e depois o de colunas. Assim, a matriz é 3 × 4; 4 × 3 corresponderia à sua transposta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5380",
+      "revision": 1,
+      "prompt": "Considere A = [[4, 7, 1], [9, 2, 6]]. O valor de a₂₃ é:",
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "9" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O primeiro índice indica a linha e o segundo indica a coluna. Na segunda linha e terceira coluna está o número 6; o número 1 ocupa a posição a₁₃. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5381",
+      "revision": 1,
+      "prompt": "Uma matriz de ordem 2 × 3 possui:",
+      "options": [
+        { "id": "A", "text": "3 linhas e 2 colunas" },
+        { "id": "B", "text": "2 linhas e 2 colunas" },
+        { "id": "C", "text": "3 linhas e 3 colunas" },
+        { "id": "D", "text": "2 linhas e 3 colunas" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na notação m × n, m é o número de linhas e n o número de colunas. Portanto, 2 × 3 significa duas linhas e três colunas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5382",
+      "revision": 1,
+      "prompt": "Na matriz [[2, 4, 1], [0, 5, 3], [7, 6, 8]], a diagonal principal é formada por:",
+      "options": [
+        { "id": "A", "text": "1, 5 e 7" },
+        { "id": "B", "text": "2, 5 e 8" },
+        { "id": "C", "text": "2, 4 e 1" },
+        { "id": "D", "text": "7, 6 e 8" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A diagonal principal contém a₁₁, a₂₂ e a₃₃, isto é, 2, 5 e 8. Os valores 1, 5 e 7 formam a diagonal secundária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5383",
+      "revision": 1,
+      "prompt": "A matriz [3, 5, 2, 8], escrita com uma única linha, tem ordem:",
+      "options": [
+        { "id": "A", "text": "4 × 4" },
+        { "id": "B", "text": "1 × 4" },
+        { "id": "C", "text": "4 × 1" },
+        { "id": "D", "text": "1 × 1" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Uma matriz linha com quatro elementos possui uma linha e quatro colunas, logo tem ordem 1 × 4. A ordem 4 × 1 descreveria uma matriz coluna. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5384",
+      "revision": 1,
+      "prompt": "Uma matriz coluna formada por quatro elementos tem ordem:",
+      "options": [
+        { "id": "A", "text": "1 × 4" },
+        { "id": "B", "text": "4 × 4" },
+        { "id": "C", "text": "1 × 1" },
+        { "id": "D", "text": "4 × 1" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os quatro elementos ocupam quatro linhas e uma coluna, o que produz ordem 4 × 1. A ordem 1 × 4 seria de uma matriz linha. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5385",
+      "revision": 1,
+      "prompt": "Qual das ordens abaixo corresponde a uma matriz quadrada?",
+      "options": [
+        { "id": "A", "text": "3 × 3" },
+        { "id": "B", "text": "2 × 5" },
+        { "id": "C", "text": "1 × 4" },
+        { "id": "D", "text": "4 × 2" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Uma matriz é quadrada quando possui igual número de linhas e colunas. Entre as opções, somente 3 × 3 satisfaz essa condição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5386",
+      "revision": 1,
+      "prompt": "Uma matriz nula é aquela em que:",
+      "options": [
+        { "id": "A", "text": "apenas a diagonal principal contém zeros" },
+        { "id": "B", "text": "a soma dos elementos é zero" },
+        { "id": "C", "text": "todos os elementos são iguais a zero" },
+        { "id": "D", "text": "o número de linhas é zero" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Por definição, todos os elementos de uma matriz nula são zero. Uma soma total igual a zero não basta, pois elementos positivos e negativos poderiam se cancelar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5387",
+      "revision": 1,
+      "prompt": "Qual matriz é a identidade de ordem 2?",
+      "options": [
+        { "id": "A", "text": "[[1, 0], [0, 1]]" },
+        { "id": "B", "text": "[[0, 1], [1, 0]]" },
+        { "id": "C", "text": "[[1, 1], [1, 1]]" },
+        { "id": "D", "text": "[[0, 0], [0, 0]]" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A identidade I₂ possui 1 na diagonal principal e 0 nas demais posições. A matriz com todos os zeros é a matriz nula. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5388",
+      "revision": 1,
+      "prompt": "Se [[x, 4], [1, y]] = [[3, 4], [1, -2]], então:",
+      "options": [
+        { "id": "A", "text": "x = 4 e y = 1" },
+        { "id": "B", "text": "x = -2 e y = 3" },
+        { "id": "C", "text": "x = 3 e y = -2" },
+        { "id": "D", "text": "x = 1 e y = 4" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Matrizes iguais têm elementos correspondentes iguais. Comparando as posições (1,1) e (2,2), obtêm-se x = 3 e y = -2. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5389",
+      "revision": 1,
+      "prompt": "Uma matriz A tem ordem 2 × 3 e uma matriz B tem ordem 3 × 2. Sobre a igualdade A = B, é correto afirmar que:",
+      "options": [
+        { "id": "A", "text": "é possível se ambas tiverem seis elementos" },
+        { "id": "B", "text": "é impossível, pois as ordens são diferentes" },
+        { "id": "C", "text": "é possível se A e B tiverem os mesmos números" },
+        { "id": "D", "text": "é automática, pois as ordens são transpostas" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A igualdade exige a mesma ordem e igualdade em cada posição. Ter seis elementos em ambas não supera a diferença entre as ordens 2 × 3 e 3 × 2. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5390",
+      "revision": 1,
+      "prompt": "Em uma matriz definida por aᵢⱼ = 2i + j, o elemento a₃₂ vale:",
+      "options": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "6" },
+        { "id": "C", "text": "7" },
+        { "id": "D", "text": "8" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Substituindo i = 3 e j = 2, resulta a₃₂ = 2·3 + 2 = 8. Inverter os índices produziria outro cálculo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5391",
+      "revision": 1,
+      "prompt": "Se A = [[2, 1], [3, 4]] e B = [[5, 2], [1, 0]], então A + B é:",
+      "options": [
+        { "id": "A", "text": "[[10, 2], [3, 0]]" },
+        { "id": "B", "text": "[[3, -1], [2, 4]]" },
+        { "id": "C", "text": "[[7, 2], [6, 4]]" },
+        { "id": "D", "text": "[[7, 3], [4, 4]]" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A soma é elemento a elemento: 2 + 5 = 7, 1 + 2 = 3, 3 + 1 = 4 e 4 + 0 = 4. A opção A multiplica posições correspondentes, o que não é a soma. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5392",
+      "revision": 1,
+      "prompt": "Se N registra valores novos e A registra valores antigos nas mesmas posições, a matriz de variações 'novo menos antigo' é:",
+      "options": [
+        { "id": "A", "text": "A - N" },
+        { "id": "B", "text": "N - A" },
+        { "id": "C", "text": "N + A" },
+        { "id": "D", "text": "AN" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A variação é calculada como valor final menos valor inicial, portanto N - A. A subtração inversa mudaria o sinal de todas as variações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5393",
+      "revision": 1,
+      "prompt": "Se A = [[2, -1], [0, 4]], então 3A é:",
+      "options": [
+        { "id": "A", "text": "[[5, 2], [3, 7]]" },
+        { "id": "B", "text": "[[6, -1], [0, 12]]" },
+        { "id": "C", "text": "[[6, -3], [0, 12]]" },
+        { "id": "D", "text": "[[2, -3], [0, 4]]" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A multiplicação por escalar atinge todos os elementos: 3·2 = 6, 3·(-1) = -3, 3·0 = 0 e 3·4 = 12. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5394",
+      "revision": 1,
+      "prompt": "Para A = [[5, 3], [2, 4]] e B = [[1, 2], [0, 1]], o resultado de A - 2B é:",
+      "options": [
+        { "id": "A", "text": "[[3, -1], [2, 2]]" },
+        { "id": "B", "text": "[[8, 10], [4, 10]]" },
+        { "id": "C", "text": "[[4, 1], [2, 3]]" },
+        { "id": "D", "text": "[[3, 1], [0, 2]]" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Primeiro, 2B = [[2, 4], [0, 2]]. Subtraindo de A elemento a elemento, obtém-se [[3, -1], [2, 2]]. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5395",
+      "revision": 1,
+      "prompt": "A soma A + B está definida quando:",
+      "options": [
+        { "id": "A", "text": "A e B são quadradas" },
+        { "id": "B", "text": "A e B têm a mesma ordem" },
+        { "id": "C", "text": "o número de colunas de A iguala o de linhas de B" },
+        { "id": "D", "text": "A e B possuem determinante" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A adição combina posições correspondentes e, por isso, exige matrizes de mesma ordem. A igualdade entre dimensões internas é condição do produto, não da soma. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5396",
+      "revision": 1,
+      "prompt": "As matrizes A = [[8, 5], [4, 7]] e N = [[10, 3], [9, 6]] representam dados antigos e novos. A variação N - A é:",
+      "options": [
+        { "id": "A", "text": "[[2, -2], [5, -1]]" },
+        { "id": "B", "text": "[[-2, 2], [-5, 1]]" },
+        { "id": "C", "text": "[[18, 8], [13, 13]]" },
+        { "id": "D", "text": "[[80, 15], [36, 42]]" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Subtraindo o antigo do novo em cada posição: 10 - 8 = 2, 3 - 5 = -2, 9 - 4 = 5 e 6 - 7 = -1. Valores negativos indicam redução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5397",
+      "revision": 1,
+      "prompt": "Se A tem ordem 2 × 4, então Aᵀ tem ordem:",
+      "options": [
+        { "id": "A", "text": "2 × 4" },
+        { "id": "B", "text": "2 × 2" },
+        { "id": "C", "text": "4 × 4" },
+        { "id": "D", "text": "4 × 2" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A transposição troca linhas por colunas. Assim, a ordem 2 × 4 passa a 4 × 2. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5398",
+      "revision": 1,
+      "prompt": "Se A = [[1, 4, 7], [2, 5, 8]], qual é Aᵀ?",
+      "options": [
+        { "id": "A", "text": "[[1, 4], [7, 2], [5, 8]]" },
+        { "id": "B", "text": "[[8, 5, 2], [7, 4, 1]]" },
+        { "id": "C", "text": "[[1, 2], [4, 5], [7, 8]]" },
+        { "id": "D", "text": "[[1, 4, 7], [2, 5, 8]]" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Cada linha de A torna-se a coluna correspondente de Aᵀ. A primeira coluna é [1, 4, 7]ᵀ e a segunda é [2, 5, 8]ᵀ. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5399",
+      "revision": 1,
+      "prompt": "A matriz [[2, x], [5, 1]] é simétrica. O valor de x é:",
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "5" },
+        { "id": "D", "text": "7" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em uma matriz simétrica, a₁₂ = a₂₁. Como a₂₁ = 5, deve-se ter x = 5; os elementos da diagonal não determinam esse valor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5400",
+      "revision": 1,
+      "prompt": "Para qualquer matriz A, (Aᵀ)ᵀ é igual a:",
+      "options": [
+        { "id": "A", "text": "-A" },
+        { "id": "B", "text": "A²" },
+        { "id": "C", "text": "I" },
+        { "id": "D", "text": "A" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A primeira transposição troca linhas por colunas e a segunda desfaz essa troca. Logo, (Aᵀ)ᵀ = A. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5401",
+      "revision": 1,
+      "prompt": "Se A tem ordem 2 × 3 e B tem ordem 3 × 4, a ordem de AB é:",
+      "options": [
+        { "id": "A", "text": "2 × 4" },
+        { "id": "B", "text": "3 × 3" },
+        { "id": "C", "text": "4 × 2" },
+        { "id": "D", "text": "2 × 3" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As dimensões internas, 3 e 3, coincidem. As dimensões externas, 2 e 4, determinam que AB tenha ordem 2 × 4. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5402",
+      "revision": 1,
+      "prompt": "Se A = [[1, 2], [3, 4]] e B = [[5, 0], [2, 1]], o elemento da posição (2,1) de AB é:",
+      "options": [
+        { "id": "A", "text": "13" },
+        { "id": "B", "text": "23" },
+        { "id": "C", "text": "17" },
+        { "id": "D", "text": "20" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Combina-se a segunda linha de A com a primeira coluna de B: 3·5 + 4·2 = 15 + 8 = 23. O cálculo não usa apenas os elementos da posição (2,1). Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5403",
+      "revision": 1,
+      "prompt": "Para A = [[1, 2], [0, 3]] e B = [[4, 1], [2, 5]], o produto AB é:",
+      "options": [
+        { "id": "A", "text": "[[4, 2], [0, 15]]" },
+        { "id": "B", "text": "[[6, 3], [2, 8]]" },
+        { "id": "C", "text": "[[8, 10], [6, 15]]" },
+        { "id": "D", "text": "[[8, 11], [6, 15]]" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Pelo produto linha por coluna: c₁₁ = 1·4 + 2·2 = 8, c₁₂ = 1·1 + 2·5 = 11, c₂₁ = 0·4 + 3·2 = 6 e c₂₂ = 0·1 + 3·5 = 15. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5404",
+      "revision": 1,
+      "prompt": "Considere A = [[1, 1], [0, 1]] e B = [[1, 0], [1, 1]]. Qual afirmação é correta?",
+      "options": [
+        { "id": "A", "text": "AB = BA = I₂" },
+        { "id": "B", "text": "AB e BA não existem" },
+        { "id": "C", "text": "AB e BA existem, mas AB ≠ BA" },
+        { "id": "D", "text": "Somente AB existe" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ambas são 2 × 2, então os dois produtos existem. Calculando, AB = [[2, 1], [1, 1]] e BA = [[1, 1], [1, 2]], o que demonstra a não comutatividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5405",
+      "revision": 1,
+      "prompt": "Se A tem ordem 2 × 3 e B tem ordem 2 × 2, qual afirmação sobre AB é correta?",
+      "options": [
+        { "id": "A", "text": "AB existe e tem ordem 2 × 2" },
+        { "id": "B", "text": "AB não existe, pois 3 ≠ 2 nas dimensões internas" },
+        { "id": "C", "text": "AB existe e tem ordem 3 × 2" },
+        { "id": "D", "text": "AB existe porque A e B têm duas linhas" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Para AB existir, o número de colunas de A deve igualar o número de linhas de B. Aqui seriam 3 e 2, que não coincidem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5406",
+      "revision": 1,
+      "prompt": "O produto da matriz linha [2, 3, 1] pela matriz coluna [4, 0, 5]ᵀ é:",
+      "options": [
+        { "id": "A", "text": "13" },
+        { "id": "B", "text": "[8, 0, 5]" },
+        { "id": "C", "text": "14" },
+        { "id": "D", "text": "[6, 3, 6]" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O resultado 1 × 1 é 2·4 + 3·0 + 1·5 = 8 + 0 + 5 = 13. A lista [8, 0, 5] seria produto posição a posição, não produto matricial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5407",
+      "revision": 1,
+      "prompt": "Se A tem ordem 2 × 3, então o produto AI₃ é igual a:",
+      "options": [
+        { "id": "A", "text": "A" },
+        { "id": "B", "text": "I₂" },
+        { "id": "C", "text": "Aᵀ" },
+        { "id": "D", "text": "3A" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A identidade de ordem 3 é compatível à direita com as três colunas de A e é o elemento neutro: AI₃ = A. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5408",
+      "revision": 1,
+      "prompt": "Se A tem ordem 2 × 3, qual identidade preserva A quando multiplicada à esquerda?",
+      "options": [
+        { "id": "A", "text": "I₃A = A" },
+        { "id": "B", "text": "I₂A = A" },
+        { "id": "C", "text": "AI₂ = A" },
+        { "id": "D", "text": "I₁A = A" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "À esquerda, a identidade deve ter ordem igual ao número de linhas de A. Como A é 2 × 3, I₂A existe e é igual a A. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5409",
+      "revision": 1,
+      "prompt": "Se D = [[2, 0], [0, 3]], então D² é:",
+      "options": [
+        { "id": "A", "text": "[[2, 0], [0, 3]]" },
+        { "id": "B", "text": "[[4, 0], [0, 6]]" },
+        { "id": "C", "text": "[[4, 0], [0, 9]]" },
+        { "id": "D", "text": "[[4, 6], [6, 9]]" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "D² = DD. Como D é diagonal, os elementos da diagonal são elevados ao quadrado e os demais permanecem zero: 2² = 4 e 3² = 9. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5410",
+      "revision": 1,
+      "prompt": "Para S = [[0, 1], [1, 0]], o valor de S² é:",
+      "options": [
+        { "id": "A", "text": "S" },
+        { "id": "B", "text": "[[0, 0], [0, 0]]" },
+        { "id": "C", "text": "[[-1, 0], [0, -1]]" },
+        { "id": "D", "text": "I₂" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Multiplicando S por si mesma, obtém-se [[1, 0], [0, 1]] = I₂. A potência é um produto matricial, não o quadrado isolado de cada entrada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5411",
+      "revision": 1,
+      "prompt": "Quando AB está definido, a transposta do produto satisfaz:",
+      "options": [
+        { "id": "A", "text": "(AB)ᵀ = AᵀBᵀ" },
+        { "id": "B", "text": "(AB)ᵀ = AB" },
+        { "id": "C", "text": "(AB)ᵀ = BᵀAᵀ" },
+        { "id": "D", "text": "(AB)ᵀ = BA" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ao transpor um produto, transponem-se os fatores e inverte-se sua ordem: (AB)ᵀ = BᵀAᵀ. Manter A antes de B é uma pegadinha recorrente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5412",
+      "revision": 1,
+      "prompt": "Uma matriz Q de quantidades tem ordem 2 × 3, e o vetor coluna p de preços tem ordem 3 × 1. A ordem de Qp é:",
+      "options": [
+        { "id": "A", "text": "2 × 1" },
+        { "id": "B", "text": "3 × 3" },
+        { "id": "C", "text": "1 × 2" },
+        { "id": "D", "text": "2 × 3" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As três colunas de Q correspondem às três linhas de p. As dimensões externas determinam um resultado 2 × 1, um total para cada linha de Q. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5413",
+      "revision": 1,
+      "prompt": "Dois setores consomem dois materiais segundo Q = [[2, 3], [1, 5]]. Os preços unitários são p = [10, 4]ᵀ. Qual é Qp?",
+      "options": [
+        { "id": "A", "text": "[20, 20]ᵀ" },
+        { "id": "B", "text": "[32, 30]ᵀ" },
+        { "id": "C", "text": "[14, 15]ᵀ" },
+        { "id": "D", "text": "[30, 12]ᵀ" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O primeiro total é 2·10 + 3·4 = 32, e o segundo é 1·10 + 5·4 = 30. Cada entrada representa o custo total do setor correspondente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5414",
+      "revision": 1,
+      "prompt": "Uma matriz R de ordem 2 × 3 distribui recursos entre programas, e P de ordem 3 × 4 detalha cada recurso em quatro categorias. A matriz composta RP tem ordem:",
+      "options": [
+        { "id": "A", "text": "3 × 3" },
+        { "id": "B", "text": "4 × 2" },
+        { "id": "C", "text": "2 × 3" },
+        { "id": "D", "text": "2 × 4" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "No produto (2 × 3)(3 × 4), as dimensões internas coincidem e as externas formam 2 × 4. Assim, o resultado traz quatro categorias para cada um dos dois programas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5415",
+      "revision": 1,
+      "prompt": "Se B representa a primeira etapa de uma transformação de dados e A representa a etapa seguinte, a composição que aplica B primeiro e A depois é:",
+      "options": [
+        { "id": "A", "text": "A + B" },
+        { "id": "B", "text": "BA" },
+        { "id": "C", "text": "AᵀB" },
+        { "id": "D", "text": "AB" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na composição matricial, o fator mais à direita atua primeiro. Portanto, B é aplicado antes e A depois no produto AB; BA inverteria as etapas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5416",
+      "revision": 1,
+      "prompt": "Duas matrizes de mesma ordem registram quantidades dos períodos 1 e 2 com linhas e colunas idênticas. Para obter o total dos dois períodos, usa-se:",
+      "options": [
+        { "id": "A", "text": "a transposta da primeira" },
+        { "id": "B", "text": "a soma das matrizes" },
+        { "id": "C", "text": "o produto matricial" },
+        { "id": "D", "text": "a identidade" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Como as posições representam as mesmas grandezas, a soma elemento a elemento agrega os períodos. O produto modelaria combinação entre eixos, não simples total temporal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5417",
+      "revision": 1,
+      "prompt": "Todos os valores de uma matriz A devem ser reajustados em 10%. A matriz com os novos valores é:",
+      "options": [
+        { "id": "A", "text": "1,10A" },
+        { "id": "B", "text": "0,10A" },
+        { "id": "C", "text": "10A" },
+        { "id": "D", "text": "A + 10" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O novo valor corresponde a 100% + 10% = 110% do original, isto é, 1,10A. O produto 0,10A fornece apenas o acréscimo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5418",
+      "revision": 1,
+      "prompt": "Em cada linha da matriz [[2, 3, 5], [4, 7, 11], [6, x, 15]], o terceiro elemento é a soma dos dois primeiros. O valor de x é:",
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "9" },
+        { "id": "D", "text": "21" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na última linha, 6 + x = 15, logo x = 9. A regra é confirmada pelas duas linhas anteriores: 2 + 3 = 5 e 4 + 7 = 11. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5419",
+      "revision": 1,
+      "prompt": "Uma matriz é definida por aᵢⱼ = i - j. Qual é o valor de a₃₁?",
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "-2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na posição a₃₁, substituem-se i = 3 e j = 1: 3 - 1 = 2. O valor -2 resultaria da inversão indevida dos índices. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5420",
+      "revision": 1,
+      "prompt": "Na matriz [[1, 2, 4], [3, 5, 6], [7, 8, 9]], a soma dos elementos da diagonal secundária é:",
+      "options": [
+        { "id": "A", "text": "12" },
+        { "id": "B", "text": "14" },
+        { "id": "C", "text": "15" },
+        { "id": "D", "text": "16" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A diagonal secundária contém 4, 5 e 7. Sua soma é 4 + 5 + 7 = 16. A diagonal principal contém 1, 5 e 9 e soma 15, valor que resultaria da escolha da diagonal errada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5421",
+      "revision": 1,
+      "prompt": "Em uma matriz binária de relações, r₂₃ = 1 significa que:",
+      "options": [
+        { "id": "A", "text": "o elemento 3 não se relaciona com o 2" },
+        { "id": "B", "text": "a matriz possui duas linhas e três colunas" },
+        { "id": "C", "text": "o elemento 2 se relaciona com o elemento 3" },
+        { "id": "D", "text": "todos os elementos da matriz valem 1" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pela convenção apresentada, a entrada 1 na linha 2 e coluna 3 registra a existência da relação do elemento 2 para o elemento 3. Ela nada afirma, sozinha, sobre r₃₂. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5422",
+      "revision": 1,
+      "prompt": "Se uma relação binária é recíproca, de modo que rᵢⱼ = rⱼᵢ para todos os pares, sua matriz é:",
+      "options": [
+        { "id": "A", "text": "nula" },
+        { "id": "B", "text": "simétrica" },
+        { "id": "C", "text": "retangular não quadrada" },
+        { "id": "D", "text": "diagonal" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A condição rᵢⱼ = rⱼᵢ equivale a Rᵀ = R, que define uma matriz simétrica. A matriz não precisa ser diagonal, pois pode haver relações entre elementos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5423",
+      "revision": 1,
+      "prompt": "Em uma matriz binária de relações, a linha de certo elemento é [0, 1, 1, 0]. Quantos elementos estão relacionados a ele segundo essa linha?",
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Há duas entradas iguais a 1, nas segunda e terceira posições. Cada 1 registra uma relação existente; os zeros registram ausência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5424",
+      "revision": 1,
+      "prompt": "Se R representa uma relação direcionada do elemento da linha para o da coluna, Rᵀ representa:",
+      "options": [
+        { "id": "A", "text": "a exclusão de todas as relações" },
+        { "id": "B", "text": "a mesma relação, obrigatoriamente" },
+        { "id": "C", "text": "a relação com as direções invertidas" },
+        { "id": "D", "text": "a soma das relações" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A transposição troca rᵢⱼ por rⱼᵢ, invertendo origem e destino. Rᵀ só coincide com R quando a relação é recíproca e a matriz é simétrica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5425",
+      "revision": 1,
+      "prompt": "Em uma relação direcionada, qual situação é possível?",
+      "options": [
+        { "id": "A", "text": "A matriz não possui linhas" },
+        { "id": "B", "text": "Todas as entradas devem ser 1" },
+        { "id": "C", "text": "A matriz deve ser identidade" },
+        { "id": "D", "text": "r₁₂ = 1 e r₂₁ = 0" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Uma relação direcionada pode existir de 1 para 2 sem existir de 2 para 1. Por isso, r₁₂ e r₂₁ podem ser diferentes e a matriz não precisa ser simétrica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5426",
+      "revision": 1,
+      "prompt": "Se A tem ordem 3 × 2 e B tem ordem 2 × 5, então AB:",
+      "options": [
+        { "id": "A", "text": "existe e tem ordem 3 × 5" },
+        { "id": "B", "text": "existe e tem ordem 2 × 2" },
+        { "id": "C", "text": "existe e tem ordem 5 × 3" },
+        { "id": "D", "text": "não existe" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As dimensões internas são ambas 2, então o produto existe. As dimensões externas formam a ordem 3 × 5. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5427",
+      "revision": 1,
+      "prompt": "Em Qp, Q registra quantidades por setor nas linhas e p registra preços por material. A segunda entrada do vetor resultante representa:",
+      "options": [
+        { "id": "A", "text": "o preço do segundo material" },
+        { "id": "B", "text": "a quantidade total de setores" },
+        { "id": "C", "text": "o custo do primeiro setor" },
+        { "id": "D", "text": "o custo total do segundo setor" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Cada linha de Q produz uma entrada em Qp. A segunda entrada combina as quantidades da segunda linha com todos os preços, fornecendo o custo total do segundo setor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5428",
+      "revision": 1,
+      "prompt": "Para comparar, posição por posição, um quadro novo N com um quadro antigo A e preservar o sinal da mudança, deve-se calcular:",
+      "options": [
+        { "id": "A", "text": "N - A" },
+        { "id": "B", "text": "N + A" },
+        { "id": "C", "text": "NA" },
+        { "id": "D", "text": "Nᵀ" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A subtração N - A produz, em cada posição, aumento positivo, redução negativa ou estabilidade zero. A soma não preserva a noção de variação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5429",
+      "revision": 1,
+      "prompt": "Um quadro está organizado como 'setores nas linhas e produtos nas colunas'. Para reorganizá-lo como 'produtos nas linhas e setores nas colunas', usa-se:",
+      "options": [
+        { "id": "A", "text": "a matriz identidade" },
+        { "id": "B", "text": "a transposta" },
+        { "id": "C", "text": "a matriz nula" },
+        { "id": "D", "text": "o dobro da matriz" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A transposta troca linhas por colunas, convertendo o eixo setor × produto em produto × setor sem alterar os valores correspondentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5430",
+      "revision": 1,
+      "prompt": "Qual operação combina uma matriz de quantidades por item com um vetor coluna de preços para obter totais ponderados por linha?",
+      "options": [
+        { "id": "A", "text": "adição" },
+        { "id": "B", "text": "transposição isolada" },
+        { "id": "C", "text": "produto matricial" },
+        { "id": "D", "text": "subtração" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O produto matricial realiza, para cada linha, a soma dos produtos quantidade × preço. Adição e subtração não combinam pesos diferentes por coluna. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5431",
+      "revision": 1,
+      "prompt": "Sobre a igualdade AB = BA, é correto afirmar que:",
+      "options": [
+        { "id": "A", "text": "vale para quaisquer matrizes" },
+        { "id": "B", "text": "em geral não vale, mesmo quando os dois produtos existem" },
+        { "id": "C", "text": "vale sempre que A e B têm a mesma ordem" },
+        { "id": "D", "text": "vale apenas quando as matrizes não são quadradas" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O produto matricial não é comutativo em geral. Ter a mesma ordem pode garantir a existência dos dois produtos em matrizes quadradas, mas não sua igualdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5432",
+      "revision": 1,
+      "prompt": "Qual identidade expressa a distributividade do produto matricial à esquerda?",
+      "options": [
+        { "id": "A", "text": "A(B + C) = BA + CA" },
+        { "id": "B", "text": "A(B + C) = AB + C" },
+        { "id": "C", "text": "A(B + C) = A + B + C" },
+        { "id": "D", "text": "A(B + C) = AB + AC" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Mantendo a ordem dos fatores, A distribui-se sobre B e C: A(B + C) = AB + AC. Trocar para BA e CA alteraria a ordem dos produtos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5433",
+      "revision": 1,
+      "prompt": "Para matrizes A e B de mesma ordem e um escalar k, qual igualdade é válida?",
+      "options": [
+        { "id": "A", "text": "k(A + B) = kA + kB" },
+        { "id": "B", "text": "k(A + B) = A + kB" },
+        { "id": "C", "text": "k(A + B) = kA + B" },
+        { "id": "D", "text": "k(A + B) = AB" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A multiplicação por escalar distribui-se sobre a soma, pois cada elemento de A + B é multiplicado por k. As outras opções deixam de multiplicar parte da soma ou confundem a operação com produto matricial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5434",
+      "revision": 1,
+      "prompt": "Duas matrizes A e B têm ordem 2 × 3. Qual afirmação é correta?",
+      "options": [
+        { "id": "A", "text": "AB existe e tem ordem 2 × 3" },
+        { "id": "B", "text": "A + B não existe" },
+        { "id": "C", "text": "A + B existe, mas AB não existe" },
+        { "id": "D", "text": "nem A + B nem AB existem" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A soma existe porque as ordens são iguais. Já AB exigiria que as três colunas de A coincidissem com as duas linhas de B, o que não ocorre. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5435",
+      "revision": 1,
+      "prompt": "Se AB está definido, então:",
+      "options": [
+        { "id": "A", "text": "BA também está sempre definido" },
+        { "id": "B", "text": "A e B têm necessariamente a mesma ordem" },
+        { "id": "C", "text": "BA pode não estar definido" },
+        { "id": "D", "text": "AB é necessariamente quadrado" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "AB exige apenas que as colunas de A igualem as linhas de B. A condição inversa, necessária para BA, pode falhar; o resultado também não precisa ser quadrado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5436",
+      "revision": 1,
+      "prompt": "A potência A² pelo produto matricial usual está definida quando A é:",
+      "options": [
+        { "id": "A", "text": "uma matriz linha" },
+        { "id": "B", "text": "quadrada" },
+        { "id": "C", "text": "de qualquer ordem" },
+        { "id": "D", "text": "obrigatoriamente nula" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Em A² = AA, o número de colunas de A deve igualar seu número de linhas. Isso ocorre precisamente quando A é quadrada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5437",
+      "revision": 1,
+      "prompt": "Para uma matriz A de ordem 2 × 3, quais igualdades usam identidades de ordens compatíveis?",
+      "options": [
+        { "id": "A", "text": "I₃A = A e AI₂ = A" },
+        { "id": "B", "text": "I₁A = A e AI₁ = A" },
+        { "id": "C", "text": "I₂A = I₂ e AI₃ = I₃" },
+        { "id": "D", "text": "I₂A = A e AI₃ = A" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A identidade à esquerda deve ter ordem 2, correspondente às linhas de A; à direita, deve ter ordem 3, correspondente às colunas. Ambas preservam A. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5438",
+      "revision": 1,
+      "prompt": "A matriz Q = [[3, 2], [1, 4]] registra quantidades de dois itens em dois setores, e p = [5, 2]ᵀ registra preços unitários. O vetor de custos Qp é:",
+      "options": [
+        { "id": "A", "text": "[19, 13]ᵀ" },
+        { "id": "B", "text": "[15, 8]ᵀ" },
+        { "id": "C", "text": "[8, 6]ᵀ" },
+        { "id": "D", "text": "[17, 9]ᵀ" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O primeiro custo é 3·5 + 2·2 = 19, e o segundo é 1·5 + 4·2 = 13. Cada resultado combina a linha do setor com o vetor de preços. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
