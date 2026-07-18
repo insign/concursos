@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Crase
-description: Formação e emprego do sinal indicativo de crase, com condições estruturais, testes, casos obrigatórios, proibidos e facultativos, locuções e reescritas.
+description: Crase com regência, artigo, demonstrativos, relativos, elipses, pronomes, horários, locuções e reescritas cobradas em concursos.
 order: 14
 storageId: crase
 ---
@@ -115,6 +115,27 @@ Em séries coordenadas, analise cada termo:
 
 No segundo exemplo, *projetos* está no plural sem artigo. O paralelismo sintático não obriga todos os itens a exibir a mesma marca gráfica.
 
+<!-- REVISAO-CRASE-2026 -->
+### 3.5 Mapa de decisão em cinco passos
+
+Em prova, a decisão pode ser organizada assim:
+
+1. **Localize o regente**: verbo, nome ou locução que introduz o termo seguinte.
+2. **Identifique a preposição**: confirme se a relação exige ou admite `a`.
+3. **Examine o termo regido**: verifique se há artigo `a/as`, demonstrativo iniciado por `a` ou relativo `a qual/as quais`.
+4. **Reconstrua a frase-base**: retire incisos e substitua o núcleo por masculino equivalente sem mudar função ou determinação.
+5. **Classifique o caso**: obrigatório, proibido, facultativo ou dependente de convenção editorial.
+
+| Estrutura | Resultado |
+|---|---|
+| preposição `a` + artigo `a/as` | `à/às` |
+| preposição `a` + `aquele/aquela/aquilo` | `àquele/àquela/àquilo` |
+| preposição `a` + relativo `a qual/as quais` | `à qual/às quais` |
+| preposição `a` + artigo indefinido, pronome pessoal ou infinitivo | sem acento |
+| outra preposição já presente | não se acrescenta `à/às` |
+
+A pergunta decisiva não é “a palavra seguinte é feminina?”, mas “quais unidades sintáticas estão efetivamente presentes?”.
+
 ## 4. Antes de nomes femininos
 
 Emprega-se o acento quando o regente exige *a* e o nome feminino recebe artigo:
@@ -130,6 +151,19 @@ Não se emprega se faltar uma das condições:
 - “Referiu-se **a uma diretora**.” — artigo indefinido;
 - “Referiu-se **a diretoras experientes**.” — sem artigo definido;
 - “Começou **a revisão**.” — o primeiro *a* é apenas artigo de objeto direto.
+
+### 4.1 Plural, artigo e determinação
+
+Compare construções em que o substantivo feminino permanece o mesmo, mas a determinação muda:
+
+- “referiu-se **a futuras servidoras**” — plural sem artigo;
+- “referiu-se **às futuras servidoras do quadro**” — grupo definido;
+- “teve acesso **a outras formas de atendimento**” — indefinição;
+- “teve acesso **às outras formas previstas no regulamento**” — conjunto identificável;
+- “dirigiu-se **a duas servidoras**” — numeral sem artigo definido;
+- “dirigiu-se **às duas servidoras responsáveis**” — artigo plural antes do numeral.
+
+O acento pode alterar a interpretação referencial. Em reescritas, não basta preservar o gênero; é preciso preservar o grau de determinação.
 
 ## 5. Demonstrativos e relativos
 
@@ -176,6 +210,31 @@ Em construções como “situação semelhante **à que** enfrentamos”, o acen
 
 O teste masculino confirma: “caso semelhante **ao que** enfrentamos”. Não confunda esse padrão com “a proposta **a que** me referi”.
 
+### 5.5 Demonstrativo feminino elíptico
+
+O acento pode surgir diante de uma expressão que recupera um nome feminino omitido:
+
+- “decisão semelhante **à da comissão**” = semelhante **àquela decisão da comissão**;
+- “normas superiores **às anteriores**” = superiores **àquelas normas anteriores**;
+- “regra idêntica **à prevista no edital**” = idêntica **àquela regra prevista**;
+- “dificuldades semelhantes **às que ocorreram**” = semelhantes **àquelas que ocorreram**.
+
+O teste masculino ajuda: “parecer semelhante **ao da comissão**”. Nesses casos, `à/às` não está acentuado por causa de `que`, `da` ou do particípio; representa preposição mais demonstrativo.
+
+### 5.6 Roteiro para trocar relativos
+
+Ao substituir um relativo, reconstrua a função desempenhada dentro da oração:
+
+| Forma | Exemplo |
+|---|---|
+| `a que` | a proposta **a que** me referi |
+| `à qual` | a proposta **à qual** me referi |
+| `a quem` | a pessoa **a quem** entreguei o ofício |
+| `a cujo` | a autora **a cujo texto** aludi |
+| `à que` | a decisão semelhante **à que** foi anulada, com sentido de `àquela que` |
+
+Não use `à cujo`, porque `cujo` não admite artigo. A troca de `que` por `a qual` exige ajustar artigo, gênero e número, além de manter a preposição selecionada pelo regente.
+
 ## 6. Locuções femininas
 
 Emprega-se tradicionalmente o acento em muitas locuções com núcleo feminino.
@@ -202,6 +261,15 @@ Emprega-se tradicionalmente o acento em muitas locuções com núcleo feminino.
 - **à proporção que**.
 
 Nem toda sequência feminina com *a* é locução consagrada. É preciso reconhecer a expressão e seu sentido. “Começou a tarde” pode significar que a tarde começou, com artigo e sem crase; “trabalhou **à tarde**” é locução adverbial de tempo.
+
+### 6.4 `À medida que` e `na medida em que`
+
+As duas locuções não são equivalentes:
+
+- **à medida que** indica proporção ou desenvolvimento paralelo: “A precisão aumenta **à medida que** os dados são revisados.”;
+- **na medida em que** introduz causa, justificativa ou delimitação: “A revisão é necessária **na medida em que** surgiram inconsistências.”
+
+No padrão formal adotado, evitam-se os cruzamentos `à medida em que` e `na medida que`.
 
 ## 7. Horas, intervalos e duração
 
@@ -245,6 +313,23 @@ Preserve o paralelismo dos determinantes:
 - “A reunião ocorrerá **de 8h a 10h**.”
 
 Evite misturar “de 8h às 10h” ou “das 8h a 10h” quando a intenção é construir limites paralelos.
+
+### 7.5 `Há`, `a` e `à`
+
+| Forma | Valor | Exemplo |
+|---|---|---|
+| `há` | tempo decorrido ou existência | “O prazo terminou **há duas horas**.” |
+| `a` | intervalo futuro ou distância | “O prazo terminará daqui **a duas horas**.” |
+| `à/às` | horário determinado | “A sessão começará **às duas horas**.” |
+
+Outros contrastes:
+
+- “chegou **há uma hora**” — uma hora atrás;
+- “chegou **à uma hora**” — à 1h;
+- “fica **a uma hora de viagem**” — distância temporal;
+- “daqui **a pouco**” × “ocorreu **há pouco**”.
+
+A presença de numeral não resolve a questão; é o valor sintático e semântico que distingue as formas.
 
 ## 8. Elipse de *moda* ou *maneira*
 
@@ -301,6 +386,22 @@ Com artigo definido plural, usa-se *às*: “referiu-se **às pessoas presentes*
 
 A estrutura distributiva ou recíproca não recebe artigo definido entre os termos.
 
+### 9.6 Antes de infinitivo e em sequências com dois `a`
+
+O infinitivo não admite artigo feminino:
+
+- começou **a analisar**;
+- chegou **a adquirir** experiência;
+- voltou **a produzir** relatórios;
+- passou **a integrar** a equipe;
+- estava **a considerar** a proposta.
+
+Uma mesma frase pode conter preposição antes do infinitivo e artigo antes de um substantivo:
+
+> Começou **a analisar a proposta**.
+
+O primeiro `a` liga-se ao infinitivo; o segundo determina `proposta`. Nenhum deles resulta de `a + a`.
+
 ## 10. Antes de pronomes e formas de tratamento
 
 ### 10.1 Regra geral sem artigo
@@ -322,6 +423,18 @@ Essas formas podem admitir artigo conforme região, grau de familiaridade, pragm
 - sem artigo: “dirigiu-se **a Dona Lúcia**”.
 
 Fontes institucionais e consultórios linguísticos não apresentam tratamento uniforme para todos os casos. A decisão depende do artigo efetivamente usado; não há proibição ou obrigatoriedade universal apenas por aparecer *Dona* ou *Senhora*.
+
+### 10.3 Matriz de pronomes e determinantes
+
+| Sem artigo antes do termo | Com possibilidade de contração |
+|---|---|
+| `a ela`, `a elas`, `a mim`, `a nós` | `àquela servidora`, `àquelas pessoas` |
+| `a esta norma`, `a esse órgão` | `à mesma norma`, `à própria interessada` |
+| `a qualquer pessoa`, `a cada unidade` | `às outras unidades`, `à outra parte` |
+| `a nenhuma autoridade` | `à senhora responsável`, se houver artigo |
+| `a Vossa Excelência` | `à senhora`, conforme o uso efetivo do artigo |
+
+A regência pode exigir a preposição `a`, mas isso não autoriza `à mim`, `à ela`, `à cada` ou `à Vossa Excelência`.
 
 ## 11. Casos facultativos
 
@@ -434,6 +547,16 @@ Numeral não provoca nem proíbe crase sozinho:
 
 A função e o artigo decidem, não a simples presença do número.
 
+### 16.1 Número, artigo e escopo referencial
+
+O contraste entre `a` e `às` pode distinguir referência genérica de conjunto definido:
+
+> O programa se destina **a mulheres em situação de risco**.
+
+> O programa se destina **às mulheres cadastradas nesta etapa**.
+
+A mesma oposição ocorre com `outras`, `duas`, `certas`, `determinadas` e adjetivos antepostos. O acento não é facultativo quando sua presença introduz um artigo que muda a determinação.
+
 ## 17. Reescritas e mudança de correção
 
 ### 17.1 Troca do verbo
@@ -467,6 +590,22 @@ As duas são corretas: *que* não recebe artigo; *a qual* contém artigo que se 
 
 Não se conserva mecanicamente o acento quando a reescrita introduz outra preposição.
 
+### 17.5 Reescrita integrada
+
+Antes de julgar uma substituição, verifique quatro dimensões:
+
+1. **regência** do novo verbo ou nome;
+2. **determinante** do termo regido;
+3. **função e forma do relativo**;
+4. **sentido** produzido pela nova determinação.
+
+Compare:
+
+- “limitou-se **à implementação**” → “apenas **implementou**”: a nova forma é direta;
+- “referiu-se **à proposta**” → “mencionou **a proposta**”: o acento desaparece com a troca do regente;
+- “a norma **a que** aludiu” → “a norma **à qual** aludiu”: muda o relativo, não a relação sintática;
+- “acesso **às outras formas**” → “acesso **a outras formas**”: ambas podem ser gramaticais, mas a determinação e o sentido não são idênticos.
+
 ## 18. Método de prova
 
 1. Não olhe apenas para a palavra feminina; localize o termo anterior.
@@ -490,6 +629,14 @@ Não se conserva mecanicamente o acento quando a reescrita introduz outra prepos
 - Colocação dos pronomes átonos pertence ao Assunto 015.
 
 Esses temas aparecem apenas quando determinam a existência dos dois elementos cuja fusão ou tradição gráfica produz o acento grave.
+
+### Referências complementares da revisão de 2026
+
+- BECHARA, Evanildo. *Moderna gramática portuguesa*. Emprego da preposição, artigo, demonstrativos e acento indicativo de crase.
+- CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*. Crase, regência e uso do artigo.
+- ROCHA LIMA, Carlos Henrique. *Gramática normativa da língua portuguesa*. Regência e casos especiais de crase.
+- SENADO FEDERAL. Manual de Comunicação: verbetes **crase**, **à medida que/na medida em que** e **a distância/à distância de**.
+- Questões Cebraspe e de bancas similares de 2024 a 2026 foram usadas como matrizes temáticas; os enunciados e as alternativas deste banco foram reescritos e a natureza da adaptação é declarada em cada explicação.
 
 ## Referências
 

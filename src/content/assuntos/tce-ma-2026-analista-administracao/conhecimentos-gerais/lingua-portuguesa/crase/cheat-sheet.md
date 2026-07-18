@@ -1,176 +1,163 @@
-# Crase
+# Crase — revisão rápida
 
 ## Regra central
 
-- Crase: fusão de vogais idênticas.
-- Acento grave: sinal gráfico da fusão.
+- Crase é fusão; acento grave é o sinal gráfico.
 - Caso básico: preposição **a** + artigo **a/as** = **à/às**.
-- Também: **àquele(s), àquela(s), àquilo, à qual, às quais**.
-- Palavra feminina sozinha não basta.
+- Também ocorre em **àquele(s), àquela(s), àquilo, à qual, às quais**.
+- Feminino sozinho não basta.
+
+## Decisão em cinco passos
+
+1. Localize o regente.
+2. Confirme a preposição **a**.
+3. Verifique artigo, demonstrativo ou relativo.
+4. Reconstrua a frase-base e faça o teste masculino.
+5. Classifique: obrigatório, proibido, facultativo ou editorial.
 
 ## Duplo filtro
 
-1. O termo anterior exige preposição **a**?
-2. O termo posterior admite artigo **a/as**?
-
-- referir-se **a** + **a** norma = referir-se **à norma**.
-- visitar + **a** norma = visitar **a norma**.
-- referir-se **a uma** norma = sem crase.
-- referir-se **a esta** norma = sem crase.
+- referir-se **a** + **a** norma → **à norma**.
+- visitar + **a** norma → **a norma**.
+- referir-se **a uma** norma → sem crase.
+- referir-se **a esta** norma → sem crase.
+- referir-se **a ela** → sem crase.
 
 ## Testes
 
-- Feminino → masculino:
-  - à diretora → ao diretor;
-  - às propostas → aos projetos.
-- Lugar:
-  - vou à Bahia / volto da Bahia;
-  - vou a Brasília / volto de Brasília.
-- Troca por **para** revela artigo:
-  - para a Bahia;
-  - para Rondônia.
-- Teste confirma análise; não substitui regência e sentido.
+- à diretora → ao diretor.
+- às propostas → aos projetos.
+- vou à Bahia / volto da Bahia.
+- vou a Brasília / volto de Brasília.
+- Testes só valem se função, determinação e sentido forem preservados.
 
-## Uso obrigatório
+## Nomes femininos e determinação
 
-- Nome feminino determinado após regente com **a**:
-  - obedecer **às normas**;
-  - favorável **à medida**.
-- Demonstrativos:
-  - **àquele**, **àquela**, **àquilo**.
-- Relativo:
-  - a norma **à qual** me referi;
-  - regras **às quais** obedeci.
-- Horas determinadas:
-  - **às 8h**, **à uma hora**, **à meia-noite**.
-- Locuções femininas consagradas:
-  - **à tarde**, **às vezes**, **às pressas**;
-  - **à espera de**, **à custa de**;
-  - **à medida que**, **à proporção que**.
-- Elipse de moda/maneira:
-  - gol **à Pelé**;
-  - texto **à Machado de Assis**;
-  - bife **à milanesa**.
+- **a futuras servidoras**: plural sem artigo.
+- **às futuras servidoras do quadro**: grupo definido.
+- **a outras formas**: referência menos determinada.
+- **às outras formas previstas**: conjunto identificado.
+- **a duas servidoras** × **às duas servidoras responsáveis**.
+
+## Demonstrativos e relativos
+
+- **àquele, àquela, àquilo**: preposição + início do demonstrativo.
+- proposta **a que** me referi: `que` sem artigo.
+- proposta **à qual** me referi: `a qual` com artigo.
+- pessoa **a quem** entreguei.
+- autora **a cujo texto** aludi: nunca `à cujo`.
+- situação semelhante **à que** enfrentamos = **àquela que**.
+
+## Demonstrativo elíptico
+
+- decisão semelhante **à da comissão** = àquela decisão.
+- normas superiores **às anteriores** = àquelas normas.
+- regra idêntica **à prevista** = àquela regra.
+- dificuldades semelhantes **às que ocorreram** = àquelas dificuldades.
+
+## Locuções
+
+- **à tarde, à noite, às vezes, às pressas, à vontade**.
+- **à espera de, à procura de, à custa de, à frente de**.
+- **à medida que** = proporção.
+- **na medida em que** = causa, justificativa ou delimitação.
+- Evitar `à medida em que` e `na medida que` no padrão formal adotado.
+
+## Horas: `há × a × à`
+
+- terminou **há duas horas**: tempo decorrido.
+- terminará daqui **a duas horas**: futuro.
+- começará **às duas horas**: horário.
+- chegou **há uma hora** × chegou **à uma hora**.
+- fica **a uma hora de viagem**.
+
+## Intervalos
+
+- **das 8h às 10h**.
+- **de 8h a 10h**.
+- desde **as 8h**; após **as 14h**; entre **as 9h e as 10h**.
+- Não acumular preposições: `desde às`, `entre às`.
+
+## Antes de infinitivo
+
+- começou **a analisar**.
+- chegou **a adquirir**.
+- voltou **a produzir**.
+- passou **a integrar**.
+- começou **a analisar a proposta**: preposição + artigo, sem fusão.
 
 ## Sem acento
 
-- Masculino: **a prazo, a lápis, a cavalo, a partir de**.
-- Verbo: começou **a analisar**.
-- Artigo indefinido: dirigiu-se **a uma** servidora.
-- Plural sem artigo: referiu-se **a pessoas**.
-- Repetição: cara **a** cara; passo **a** passo.
-- Pronome pessoal/indefinido: **a ela, a qualquer pessoa**.
-- Demonstrativo este/esse: **a esta norma**.
-- Tratamento sem artigo: **a Vossa Excelência**.
-- Relativos: **a que, a quem, a cujo**.
+- masculino: **a prazo, a lápis, a cavalo, a partir de**.
+- artigo indefinido: **a uma servidora**.
+- plural sem artigo: **a pessoas**.
+- repetição: **cara a cara, passo a passo, dia a dia**.
+- pessoais: **a mim, a ela, a nós, a elas**.
+- indefinidos/distributivos: **a qualquer, a cada, a nenhuma**.
+- demonstrativos: **a esta, a essa**.
+- tratamentos sem artigo: **a Vossa Excelência**.
 
-## Relativos
+## Matriz de pronomes
 
-- proposta **a que** me referi: *que* não recebe artigo.
-- proposta **à qual** me referi: *a qual* contém artigo.
-- situação semelhante **à que** enfrentamos:
-  - **à** = àquela;
-  - masculino: semelhante **ao que**.
-- servidora **a quem** entreguei.
-- norma **a cujo texto** fiz alusão.
-
-## Horas e intervalos
-
-- Hora marcada: **às 8h**, **à uma hora**.
-- Futuro/duração: daqui **a duas horas**.
-- Distância numérica: fica **a três quilômetros**.
-- Outra preposição:
-  - desde **as 8h**;
-  - após **as 14h**;
-  - entre **as 9h e as 10h**.
-- Paralelismo:
-  - **das 8h às 10h**;
-  - **de 8h a 10h**.
+- `a ela` ≠ `àquela servidora`.
+- `a esta norma` ≠ `à mesma norma`.
+- `a qualquer pessoa` ≠ `à outra pessoa`.
+- `a Vossa Excelência` ≠ `à senhora`, quando há artigo.
 
 ## Facultativos
 
-- Possessivo feminino:
-  - referiu-se **a sua/à sua** proposta.
-- Nome próprio feminino:
-  - entregou **a Ana/à Ana**.
-- Depois de **até**:
-  - foi **até a/até à** sala;
-  - trabalhou **até as/até às** três horas.
+- possessivo feminino: **a sua/à sua proposta**.
+- nome próprio feminino: **a Ana/à Ana**.
+- depois de **até**: **até a/até à sala**.
+- Facultatividade depende da possibilidade real de omitir artigo ou preposição.
 
-Facultatividade depende de o artigo ou a preposição também serem facultativos no contexto.
+## Casa, terra e topônimos
 
-## Casa e terra
-
-- **a casa** = lar, sem determinação.
+- **a casa** = lar sem determinação.
 - **à casa dos pais** = determinada.
-- **a terra** = terra firme, em oposição a bordo.
-- **à terra natal** = determinada.
-- **à Terra** = planeta com artigo.
+- **a terra** = terra firme.
+- **à terra natal**; **à Terra** = planeta.
+- **à Bahia** / da Bahia.
+- **a Brasília** / de Brasília.
+- Modificador pode introduzir artigo: **à Brasília de sua juventude**.
 
-## Topônimos
+## Moda, distância e instrumento
 
-- Aceita artigo + regência **a**: **à Bahia**.
-- Sem artigo: **a Brasília**, **a Roma**.
-- Modificador pode introduzir artigo:
-  - **à Roma das Sete Colinas**;
-  - **à Brasília de sua juventude**.
-
-## Tratamentos
-
-- **Vossa Excelência**: sem artigo → **a Vossa Excelência**.
-- Senhora, Senhorita, Dona e Madame podem variar quanto ao artigo.
-- Com artigo: **à senhora**, **à Dona Lúcia**.
-- Sem artigo: **a Dona Lúcia**.
-- Não imponha regra universal sem contexto ou fonte editorial.
-
-## Distância e instrumento
-
-- Distância tem divergência editorial:
-  - tradição: **a distância** sem medida; **à distância de** dois metros;
-  - Senado admite **à distância** por clareza/tradição.
-- Locuções registradas:
-  - escrever **à mão**, **à máquina**;
-  - pagar **à vista**;
-  - ferir **à bala**.
-- Contrastes:
-  - à vista × a prazo;
-  - à mão × a lápis.
-- Não diga que todo instrumento feminino recebe crase.
-
-## Numerais
-
-- Daqui **a duas semanas**: futuro.
-- Chegou **às duas horas**: horário.
-- Referiu-se **às duas servidoras**: com artigo.
-- Referiu-se **a duas servidoras**: sem artigo.
-- Numeral sozinho não decide.
-
-## Paralelismo
-
-- à educação, à infraestrutura e à saúde.
-- à pesquisa, à formação e **a projetos**: *projetos* sem artigo.
-- das 8h às 10h / de 8h a 10h.
-- Não force a mesma marca se os termos admitem determinantes diferentes.
+- **à moda de** elíptica: bife à milanesa; gol à Pelé.
+- Distância: observar a fonte editorial; não absolutizar.
+- Locuções registradas: **à mão, à máquina, à vista, à bala**.
+- Não concluir que todo instrumento feminino recebe acento.
 
 ## Reescrita
 
 - visitar **a escola** × dirigir-se **à escola**.
-- a uma servidora × à servidora.
-- a pessoas × às pessoas presentes.
+- mencionar **a proposta** × referir-se **à proposta**.
 - proposta **a que** × proposta **à qual**.
-- às 8h × entre as 8h e as 10h.
+- **a outras formas** × **às outras formas previstas**: correção possível, sentido diferente.
+- Trocar verbo, determinante, relativo ou preposição exige refazer toda a análise.
 
-Refaça a análise quando mudar verbo, preposição, artigo, relativo ou determinação.
+## Pegadinhas
 
-## Checklist
+- Toda palavra feminina admite crase: **errado**.
+- Todo verbo que exige `a` produz crase: **errado**.
+- `a que` é sempre erro: **errado**.
+- `à que` pode equivaler a `àquela que`: **certo**.
+- `à mim` pode ser correto: **errado**.
+- `a futuras servidoras` pode ser correto: **certo**.
+- `à medida que` = `na medida em que`: **errado**.
+- `até a` e `até à` podem ser admitidos: **certo**.
+- A mesma facultatividade vale após `desde`: **errado**.
+- Reescrita gramatical preserva necessariamente a determinação: **errado**.
+
+## Checklist final
 
 1. Há preposição **a**?
-2. Há artigo **a/as** ou forma iniciada por **a** que se contrai?
+2. O termo seguinte admite artigo **a/as**?
 3. O masculino produz **ao/aos**?
-4. É locução consagrada ou elipse de moda/maneira?
-5. É hora marcada ou duração?
-6. Outra preposição já governa o termo?
-7. O pronome admite artigo?
-8. O nome próprio/topônimo está determinado?
-9. O caso é facultativo ou controverso?
-10. A reescrita preservou toda a estrutura?
+4. Há demonstrativo ou relativo com artigo?
+5. É locução consagrada?
+6. É hora marcada, tempo decorrido ou intervalo futuro?
+7. Outra preposição já rege o termo?
+8. O pronome admite artigo?
+9. O nome está determinado?
+10. A reescrita preservou regência, artigo, função e sentido?
