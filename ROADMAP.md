@@ -125,7 +125,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 023 - Item 2.2, recorte: apresentações. - Commit hash: 7290b22
 
-##### [ ] Assunto 024 - Item 2.3: Redes de computadores, protocolos e interoperabilidade.
+##### [>] Em progresso Assunto 024 - Item 2.3: Redes de computadores, protocolos e interoperabilidade.
 
 - 2.3. Redes de computadores: conceitos básicos (LAN, WAN, Internet), protocolos (TCP/IP, HTTP, SMTP, FTP) e noções de interoperabilidade de sistemas no setor público.
 
