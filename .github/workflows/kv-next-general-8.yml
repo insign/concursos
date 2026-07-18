@@ -1,4 +1,4 @@
-name: Report current general-content status in KV
+name: Finalize crase in KV
 
 on:
   pull_request:
@@ -6,61 +6,56 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  report-kv:
-    name: Persist current candidate status report
+  finalize-kv:
+    name: Mark crase as done
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Check out pull request branch
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-
-      - name: Read KV and persist concise report
+      - name: Mark done
         shell: bash
         run: |
-          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm.json
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            -H 'Content-Type: application/json' \
+            --data '"done"' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--crase%2Fstatus' \
+            > /tmp/mutation.json
           python3 - <<'PY'
           import json
-          from pathlib import Path
-
-          keys = [
-              'tce-ma-2026-analista-administracao--classes-nominais-de-palavras',
-              'tce-ma-2026-analista-administracao--classes-invariaveis-de-palavras',
-              'tce-ma-2026-analista-administracao--subordinacao-oracoes-termos',
-              'tce-ma-2026-analista-administracao--coesao-textual',
-              'tce-ma-2026-analista-administracao--ortografia-oficial',
-              'tce-ma-2026-analista-administracao--pontuacao',
-              'tce-ma-2026-analista-administracao--concordancia-verbal-nominal',
-              'tce-ma-2026-analista-administracao--regencia-verbal-nominal',
-              'tce-ma-2026-analista-administracao--crase',
-              'tce-ma-2026-analista-administracao--colocacao-pronominal',
-              'tce-ma-2026-analista-administracao--significacao-palavras',
-              'tce-ma-2026-analista-administracao--substituicao-palavras-trechos',
-              'tce-ma-2026-analista-administracao--reorganizacao-oracoes-periodos',
-              'tce-ma-2026-analista-administracao--reescrita-generos-formalidade',
-          ]
-          document = json.loads(Path('/tmp/adm.json').read_text(encoding='utf-8'))
-          links = document.get('json', {}).get('links', {})
-          report = {
-              'version': document.get('version'),
-              'items': {key: links.get(key) for key in keys},
+          key = 'tce-ma-2026-analista-administracao--crase'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/crase/',
+              'status': 'done',
           }
-          Path('.github/kv-next-general-8-report.json').write_text(
-              json.dumps(report, ensure_ascii=False, indent=2) + '\n',
-              encoding='utf-8',
-          )
-          print(json.dumps(report, ensure_ascii=False, indent=2))
+          with open('/tmp/mutation.json', encoding='utf-8') as stream:
+              document = json.load(stream)
+          item = document['json']['links'][key]
+          print('MUTATION_ITEM', item)
+          print('KV_VERSION_AFTER_MUTATION', document.get('version'))
+          if item != expected:
+              raise SystemExit(1)
           PY
 
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add .github/kv-next-general-8-report.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'ci: registra estado atual dos conteúdos gerais no KV'
-            git push origin HEAD:${{ github.head_ref }}
-          fi
+      - name: Verify persisted value
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm-after.json
+          python3 - <<'PY'
+          import json
+          key = 'tce-ma-2026-analista-administracao--crase'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/crase/',
+              'status': 'done',
+          }
+          with open('/tmp/adm-after.json', encoding='utf-8') as stream:
+              document = json.load(stream)
+          item = document['json']['links'][key]
+          print('PERSISTED_ITEM', item)
+          print('KV_VERSION_PERSISTED', document.get('version'))
+          if item != expected:
+              raise SystemExit(1)
+          PY
