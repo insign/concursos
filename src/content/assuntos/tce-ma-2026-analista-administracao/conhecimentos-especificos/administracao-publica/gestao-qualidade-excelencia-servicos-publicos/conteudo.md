@@ -2,8 +2,8 @@
 schemaVersion: 1
 title: Gestão da qualidade e excelência nos serviços públicos
 description: Fundamentos, autores, métodos, ferramentas, normas ISO, qualidade em serviços e modelos de excelência aplicados à Administração Pública.
-order: 107
-storageId: gestao-qualidade-excelencia-servicos-publicos
+order: 108
+storageId: gestao-qualidade-excelencia
 ---
 
 # Gestão da qualidade e excelência nos serviços públicos
