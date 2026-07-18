@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Gestão de resultados, gestão pública e privada e paradigma do cliente
-description: Gestão de resultados na produção de serviços públicos, convergências e diferenças entre gestão pública e privada e paradigma do cliente na gestão pública.
+description: Gestão orientada a resultados, 6Es, indicadores, avaliação, valor público, comparação público-privado e serviços centrados em pessoas e direitos.
 order: 112
 storageId: gestao-resultados-cliente
 ---
@@ -63,6 +63,24 @@ Quanto mais distante o elo está da atividade administrativa, mais fatores exter
 
 Exemplo: realizar fiscalizações é produto. Reduzir acidentes é resultado desejado, porém também depende de comportamento, infraestrutura, clima e atuação de outros órgãos. Avaliação séria evita tanto atribuir todo efeito ao programa quanto ignorar sua contribuição.
 
+<!-- REVISAO-RESULTADOS-2026 -->
+### 2.2 Teoria de mudança e tipos de avaliação
+
+A cadeia de resultados torna-se uma **teoria de mudança** quando explicita por que as atividades devem produzir resultados. Para isso, registra hipóteses causais, pressupostos, riscos externos, público alcançado, cobertura, condições necessárias, efeitos não intencionais e contribuição de outros atores.
+
+Exemplo: integrar bases pode reduzir exigências repetidas, mas o resultado depende de acesso aos canais, qualidade dos dados, capacidade de decisão e adesão das unidades. Se a decisão continuar errada, menor prazo não resolve o problema.
+
+| Avaliação | Pergunta central |
+| --- | --- |
+| **ex ante** | o desenho é pertinente, viável e coerente? |
+| **de implementação** | a intervenção ocorreu como prevista e alcançou o público? |
+| **formativa** | o que precisa ser corrigido durante a execução? |
+| **somativa** | qual o mérito ao final do ciclo e o que decidir sobre continuidade? |
+| **de resultados** | que mudanças diretas foram observadas? |
+| **de impacto** | que parcela da mudança pode ser atribuída causalmente à intervenção? |
+
+Comparar a situação final com a linha de base mostra mudança, mas não prova causalidade. Avaliação de impacto exige um **contrafactual plausível**: estimativa do que teria ocorrido sem a intervenção.
+
 ## 3. Dimensões do desempenho
 
 ### 3.1 Economicidade
@@ -104,6 +122,24 @@ Uma unidade que entrega 900 documentos diante da meta de 1.000 alcança 90% da m
 - **equidade:** distribuição de acesso, qualidade e resultados entre grupos e territórios, considerando diferenças relevantes.
 
 Uma média melhor pode esconder piora para grupos vulneráveis. Por isso, indicadores devem ser desagregados quando território, renda, raça, idade, deficiência, gênero ou acesso digital puderem revelar barreiras.
+
+### 3.6 Modelo dos 6Es do desempenho
+
+O modelo dos 6Es organiza dimensões de esforço e de resultado.
+
+| Dimensões de esforço | Pergunta |
+| --- | --- |
+| **economicidade** | os recursos foram obtidos nas condições adequadas de custo, prazo e qualidade? |
+| **execução** | processos, projetos e atividades foram realizados conforme a programação? |
+| **excelência** | a execução atendeu aos padrões de qualidade e conformidade? |
+
+| Dimensões de resultado | Pergunta |
+| --- | --- |
+| **eficiência** | qual a relação entre produtos válidos e recursos empregados? |
+| **eficácia** | as metas e entregas foram alcançadas? |
+| **efetividade** | houve transformação relevante no problema público? |
+
+Pegadinha: economicidade, execução e excelência são dimensões de **esforço**; eficiência, eficácia e efetividade são dimensões de **resultado**.
 
 ## 4. Indicadores e sistema de medição
 
@@ -165,6 +201,21 @@ O Guia Referencial da Enap destaca utilidade, representatividade, confiabilidade
 
 O conjunto deve ser seletivo e balanceado. Indicadores demais dispersam atenção; poucos demais ocultam qualidade, risco ou equidade.
 
+### 4.6 Integridade, governança e comparabilidade dos dados
+
+Além da fórmula, um indicador deve explicitar:
+
+- numerador, denominador e unidade;
+- população elegível e população efetivamente atendida;
+- regra para casos reabertos, cancelados, transferidos ou duplicados;
+- período de referência e eventual uso de coortes;
+- tratamento de dados ausentes;
+- data de extração e versão da base;
+- revisão retroativa e quebra de série quando a metodologia mudar;
+- rastreabilidade desde a fonte original.
+
+Média e mediana respondem a perguntas diferentes. Em distribuições assimétricas, a média pode ser dominada por poucos casos extremos; percentis e faixas ajudam a revelar a cauda. Excluir processos antigos, transferir casos difíceis ou mudar a regra sem transparência compromete a interpretação.
+
 ## 5. Ciclo de gestão de resultados
 
 Uma gestão madura percorre ciclos, não uma sequência encerrada:
@@ -198,6 +249,24 @@ Gestão por resultados não autoriza “controle somente posterior”. Determina
 Contratos, acordos ou pactos de resultados são instrumentos possíveis, não sinônimos do modelo inteiro. Um desenho consistente informa objetivo, competência, indicador, linha de base, meta, prazo, fonte de dados, responsabilidades, autonomia, recursos, riscos, prestação de contas e consequências.
 
 Meta imposta sem recursos, competência ou dados confiáveis favorece ritualismo. Autonomia sem accountability favorece arbitrariedade. O equilíbrio é parte do desenho.
+
+### 5.3 Desenho de contratos, acordos e pactos de resultados
+
+Um pacto robusto integra três blocos:
+
+**Compromisso**
+
+- finalidade, objetivo, indicador, linha de base, meta e prazo;
+
+**Capacidade**
+
+- competência, autonomia, equipe, orçamento, tecnologia, riscos e dependências;
+
+**Accountability**
+
+- fonte dos dados, monitoramento, verificação, prestação de contas, revisão e consequências.
+
+Eficiência ou cumprimento da meta não autorizam violação de regras legais. Mudança relevante de contexto pode justificar revisão motivada; não deve gerar manipulação retroativa para aparentar sucesso.
 
 ## 6. Monitoramento, avaliação e aprendizagem
 
@@ -238,6 +307,16 @@ Quando uma métrica se transforma no alvo único, agentes podem otimizar o núme
 6. publicar método, limitações e mudanças de série;
 7. evitar remuneração ou punição baseada em um único número.
 
+### 7.3 Triângulo estratégico do valor público
+
+Uma estratégia pública consistente combina:
+
+1. **valor público substantivo:** benefício, direito, proteção ou redução de dano;
+2. **legitimidade e apoio:** autorização jurídica, política e social;
+3. **capacidade operacional:** recursos, competências, processos, tecnologia e articulação.
+
+Valor sem capacidade produz promessa inviável; capacidade sem legitimidade produz atuação contestável; legitimidade e capacidade sem valor podem executar com eficiência algo socialmente irrelevante.
+
 ## 8. Gestão pública e gestão privada: convergências
 
 Organizações públicas e privadas precisam coordenar pessoas e recursos. Ambas podem usar:
@@ -265,6 +344,19 @@ Ferramentas não possuem resultado automático. A técnica deve ser adaptada à 
 | **accountability** | jurídica, política, administrativa, fiscal e social, perante múltiplos fóruns | societária, contratual, financeira, regulatória e reputacional |
 | **cobertura** | continuidade, generalidade, acessibilidade e equidade podem exigir prestação pouco rentável | segmentação e encerramento de linha podem ser decisões empresariais legítimas |
 | **sucesso** | legalidade, acesso, qualidade, eficiência, efetividade, equidade e confiança | sustentabilidade financeira, mercado, qualidade, reputação e objetivos organizacionais |
+
+### 9.1 Condicionantes adicionais
+
+A gestão pública também se distingue por:
+
+- objetivos múltiplos e potencialmente conflitantes;
+- ambiente autorizador formado por vários Poderes, órgãos de controle e grupos sociais;
+- receitas inclusive coercitivas, como tributos;
+- deveres de universalidade, continuidade, acessibilidade e equidade;
+- dificuldade de monetizar prevenção de danos e benefícios coletivos;
+- menor liberdade para selecionar apenas usuários rentáveis;
+- influência do ciclo político e obrigação de motivar decisões;
+- maior escrutínio público e diferentes tolerâncias ao risco.
 
 ### 9.1 Evitar falsos absolutos
 
@@ -328,6 +420,16 @@ A Lei nº 13.460/2017 não afasta o Código de Defesa do Consumidor quando houve
 
 O referencial mais seguro é **serviço centrado em pessoas e direitos**, e não simples reprodução de marketing privado.
 
+### 11.4 Serviços centrados em pessoas e direitos
+
+A evolução do paradigma do cliente incorpora jornada, pontos de contato, desistência, resolução no primeiro contato, acessibilidade multicanal, coprodução e testes de usabilidade.
+
+O ciclo de feedback precisa ser fechado:
+
+`manifestação → análise → resposta → melhoria → comunicação da mudança`
+
+Grupos vulneráveis devem participar dos testes e da avaliação. Um canal digital eficiente para a maioria pode excluir quem não possui conectividade, alfabetização digital ou tecnologia assistiva.
+
 ## 12. Lei nº 13.460/2017 e orientação a resultados
 
 A Lei nº 13.460/2017 estabelece normas básicas de participação, proteção e defesa dos usuários. Aplica-se à administração direta e indireta da União, dos estados, do Distrito Federal e dos municípios, nos Poderes abrangidos, e subsidiariamente aos serviços públicos prestados por particular.
@@ -355,6 +457,8 @@ Usuários possuem direitos de participação, informação, escolha entre meios 
 A Carta torna o padrão prometido verificável. Deve informar serviços, requisitos, documentos, etapas, prazo máximo, forma de prestação, canais de manifestação e compromissos de qualidade. A atualização é periódica e a divulgação na internet, permanente.
 
 A Carta não é peça publicitária nem cria, por si só, competência ou direito contra a lei. Ela reduz assimetria de informação e oferece referência para monitoramento e cobrança.
+
+A Carta também é instrumento de gestão: padrões prometidos devem orientar indicadores, avaliação, transparência e revisão do serviço, em canais digitais e não digitais. Orientações recentes do SisOuv reforçam linguagem simples, padronização, experiência, efetividade e atualização contínua.
 
 ### 13.2 Ouvidoria
 
@@ -467,3 +571,8 @@ Aqui, indicadores, qualidade e direitos do usuário aparecem apenas no que integ
 - ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT. [Serving Citizens: Measuring the Performance of Services for a Better User Experience](https://www.oecd.org/en/publications/serving-citizens_65223af7-en.html). Paris: OECD Publishing, 2022. Acesso em: 15 jul. 2026.
 - ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT. [Measurement, Engagement and Improvement of Public Administrative Services](https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en/full-report/measurement-engagement-and-improvement-of-public-administrative-services_3b589a5f.html). *Government at a Glance 2025*. Acesso em: 15 jul. 2026.
 - ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT. [Public Administration after “New Public Management”](https://www.oecd.org/en/publications/public-administration-after-new-public-management_9789264086449-en.html). Paris: OECD Publishing, 2010. Acesso em: 15 jul. 2026.
+
+- MINISTÉRIO DO PLANEJAMENTO. **Guia Referencial para Medição de Desempenho e Manual para Construção de Indicadores**. Modelo da cadeia de valor e dos 6Es do desempenho.
+- MOORE, Mark H. **Creating Public Value: The Core Idea of Strategic Management in Government**. Harvard Kennedy School. Referencial do triângulo estratégico: valor, legitimidade/apoio e capacidade operacional.
+- CONTROLADORIA-GERAL DA UNIÃO. **Guia da Carta de Serviços do SisOuv**. Edição de 2025, disponibilizada em 2026.
+- OECD. **Government at a Glance 2025 — Measurement, Engagement and Improvement of Public Administrative Services**. Serviços responsivos, inclusivos e centrados nas pessoas.
