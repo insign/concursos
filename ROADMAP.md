@@ -200,7 +200,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 3.1. Proposições simples e compostas.
 - 3.2. Tabelas-verdade.
 
-##### [R] Em revisão Assunto 039 - Item 3, subitens 3.3, 3.4 e 3.5: Equivalências, leis de De Morgan e diagramas lógicos.
+##### [x] Concluído Assunto 039 - Item 3, subitens 3.3, 3.4 e 3.5: Equivalências, leis de De Morgan e diagramas lógicos.
 
 - 3.3. Equivalências.
 - 3.4. Leis de De Morgan.
