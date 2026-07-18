@@ -29,6 +29,8 @@ jobs:
         run: |
           sed -i 's/08369c793f0ca82bf76b08b610d2cf2c2728329f48b2ad0a04549afef183404d/e5b3700269d17f1c34b480c96bb2057563bb81b771592821cc504cbf945fa6f5/' .github/patch-pontuacao.py
           sed -i 's/e8a75e19f2af66c9852e92df7ba7b8605cc85e5af84b70a60a532ab987107983/bd3d353625386e659dc2d2c023a069be4e60555f497455ffd55cfec18db1c9fd/' .github/patch-pontuacao.py
+          sed -i 's/3288, "d3856d49679b161aec67d424b521e7bb5e3a6e506e7f6cf4bdef0a225411263f"/3312, "b163a2997739424106cf516230a6ac716214d677dbf76f7eec7f356da638dad6"/' .github/patch-pontuacao.py
+          sed -i 's/len(payload) != 18288/len(payload) != 18312/' .github/patch-pontuacao.py
 
           set +e
           python3 .github/patch-pontuacao.py 2>&1 | tee /tmp/pontuacao-diagnostic.log
