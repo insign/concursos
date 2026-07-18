@@ -129,7 +129,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 2.3. Redes de computadores: conceitos básicos (LAN, WAN, Internet), protocolos (TCP/IP, HTTP, SMTP, FTP) e noções de interoperabilidade de sistemas no setor público.
 
-##### [ ] Assunto 025 - Item 2.4: Comunicação, correio eletrônico, colaboração e trabalho remoto.
+##### [>] Em progresso Assunto 025 - Item 2.4: Comunicação, correio eletrônico, colaboração e trabalho remoto.
 
 - 2.4. Ferramentas de comunicação e colaboração: correio eletrônico (webmail, cliente de e-mail), aplicativos de comunicação (Microsoft Teams, Google Meet) e noções de trabalho remoto.
 
