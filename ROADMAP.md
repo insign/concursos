@@ -186,7 +186,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 #### Raciocínio Lógico
 
-##### [ ] Assunto 036 - Item 1: Estruturas lógicas.
+##### [>] Em progresso Assunto 036 - Item 1: Estruturas lógicas.
 
 - Item 1. Estruturas lógicas.
 
