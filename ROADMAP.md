@@ -221,7 +221,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 044 - Item 7, recorte: problemas geométricos.
 
-##### [R] Em revisão Assunto 045 - Item 7, recorte: problemas matriciais.
+##### [x] Concluído Assunto 045 - Item 7, recorte: problemas matriciais.
 
 #### Controle Externo
 
