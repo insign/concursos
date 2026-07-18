@@ -116,7 +116,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 2.1. Sistemas operacionais: Microsoft Windows (conceitos, interface, gerenciamento de arquivos, pastas e programas).
 
-##### [>] Em progresso Assunto 021 - Item 2.2, recorte: editores de texto Microsoft Office.
+##### [R] Em revisão Assunto 021 - Item 2.2, recorte: editores de texto Microsoft Office.
 
 - 2.2. Editores de texto, planilhas e apresentações: Microsoft Office (formatação de documentos, uso de fórmulas e funções, criação de gráficos e apresentações).
 - O item 2.2 é desdobrado nos Assuntos 021 a 023 por ferramenta, sem repetição do seu conteúdo: este assunto trata de documentos e formatação de texto.
