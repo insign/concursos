@@ -143,7 +143,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 3.1. Segurança da informação: noções de vírus, worms e pragas virtuais; programas de proteção (antivírus, firewall, anti-spyware); ameaças digitais (phishing, pharming).
 
-##### [ ] Assunto 028 - Item 3, subitem 3.2: Lei Geral de Proteção de Dados Pessoais.
+##### [>] Em progresso Assunto 028 - Item 3, subitem 3.2: Lei Geral de Proteção de Dados Pessoais.
 
 - 3.2. Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018): conceitos fundamentais, direitos dos titulares e aplicação no setor público.
 
