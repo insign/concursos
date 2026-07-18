@@ -208,7 +208,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 040 - Item 4: Lógica de primeira ordem.
 
-##### [R] Em revisão Assunto 041 - Item 5: Princípios de contagem e probabilidade.
+##### [x] Concluído Assunto 041 - Item 5: Princípios de contagem e probabilidade.
 
 - Item 5. Princípios de contagem e probabilidade.
 
