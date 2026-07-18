@@ -102,11 +102,26 @@ jobs:
               for name, checksum in expected.items():
                   content = files[name].encode('utf-8')
                   actual = hashlib.sha256(content).hexdigest()
-                  report.append(f'{name}_bytes={len(content)}')
-                  report.append(f'{name}_sha256={actual}')
+                  report.append(f'{name}_source_bytes={len(content)}')
+                  report.append(f'{name}_source_sha256={actual}')
                   if actual != checksum:
-                      raise ValueError(f'checksum mismatch for {name}')
+                      raise ValueError(f'checksum mismatch for source {name}')
                   (target_dir / name).write_bytes(content)
+
+              content_path = target_dir / 'conteudo.md'
+              corrected = content_path.read_text(encoding='utf-8')
+              corrected = corrected.replace('order: 107\n', 'order: 108\n', 1)
+              corrected = corrected.replace(
+                  'storageId: gestao-qualidade-excelencia-servicos-publicos\n',
+                  'storageId: gestao-qualidade-excelencia\n',
+                  1,
+              )
+              content_path.write_text(corrected, encoding='utf-8')
+              corrected_sha = hashlib.sha256(content_path.read_bytes()).hexdigest()
+              report.append(f'conteudo.md_corrected_sha256={corrected_sha}')
+              if corrected_sha != '3fa068a7c06b37ef4b907a72ffaf1200798575ca932847f987d8695ea57c97c1':
+                  raise ValueError('checksum mismatch for corrected conteudo.md')
+
               status = 'success'
           except Exception as error:
               report.append(f'error_type={type(error).__name__}')
@@ -135,7 +150,7 @@ jobs:
 
           git add .github/qualidade-diagnostic.txt "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
           if ! git diff --cached --quiet; then
-            git commit -m 'content: aprofunda qualidade e excelência pública'
+            git commit -m 'content: corrige metadados de qualidade e excelência'
             git push origin HEAD:${{ github.head_ref }}
           fi
 
