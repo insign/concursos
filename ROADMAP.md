@@ -195,7 +195,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - Item 2. Lógica de argumentação.
 - 2.1. Analogias, inferências, deduções e conclusões.
 
-##### [R] Em revisão Assunto 038 - Item 3, subitens 3.1 e 3.2: Proposições simples e compostas e tabelas-verdade.
+##### [x] Concluído Assunto 038 - Item 3, subitens 3.1 e 3.2: Proposições simples e compostas e tabelas-verdade.
 
 - 3.1. Proposições simples e compostas.
 - 3.2. Tabelas-verdade.
