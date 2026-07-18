@@ -101,7 +101,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 6.3. Reorganização da estrutura de orações e de períodos do texto.
 
-##### [ ] Assunto 018 - Item 6, subitem 6.4: Reescrita de textos de diferentes gêneros e níveis de formalidade.
+##### [>] Em progresso Assunto 018 - Item 6, subitem 6.4: Reescrita de textos de diferentes gêneros e níveis de formalidade.
 
 - 6.4. Reescrita de textos de diferentes gêneros e níveis de formalidade.
 
