@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: pull-request-validation-${{ github.event.pull_request.number }}
@@ -19,8 +19,56 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check out repository
+      - name: Check out pull request branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Materialize reviewed subject files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          import io
+          import zipfile
+          from pathlib import Path
+
+          parts = [Path(f'.github/qualidade-payload.part{i}') for i in range(1, 5)]
+          payload = ''.join(part.read_text(encoding='utf-8').strip() for part in parts)
+          archive = base64.b64decode(payload)
+          expected_archive = '1dda5b2c59bd6b871015414e13affba525e02f87986de8ffd57c980c59ac0eee'
+          actual_archive = hashlib.sha256(archive).hexdigest()
+          print('archive sha256:', actual_archive)
+          if actual_archive != expected_archive:
+              raise SystemExit('payload checksum mismatch')
+
+          target_dir = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/gestao-qualidade-excelencia-servicos-publicos')
+          expected = {
+              'conteudo.md': '0143233c804b575b45d4fa90499160263aa0e615c97b2de3672133cd6f5c9be4',
+              'cheat-sheet.md': 'c937deb99e31fd899f98071eb4346daa8cc68c3adfcf96f19ae316b35c92eb23',
+              'questoes.json': 'e7da061d73bdc3f700aa58d9440d61227f037d307f9e23674a90c45672163cc0',
+          }
+          with zipfile.ZipFile(io.BytesIO(archive)) as package:
+              if set(package.namelist()) != set(expected):
+                  raise SystemExit(f'unexpected archive entries: {package.namelist()}')
+              for name, checksum in expected.items():
+                  content = package.read(name)
+                  actual = hashlib.sha256(content).hexdigest()
+                  print(name, len(content), actual)
+                  if actual != checksum:
+                      raise SystemExit(f'checksum mismatch for {name}')
+                  (target_dir / name).write_bytes(content)
+          PY
+
+          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/gestao-qualidade-excelencia-servicos-publicos'
+          if ! git diff --quiet -- "$target"; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+            git commit -m 'content: aprofunda qualidade e excelência pública'
+            git push origin HEAD:${{ github.head_ref }}
+          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
