@@ -1,56 +1,2906 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
-    {"id":"q284","revision":2,"prompt":"Considere: “A comissão analisou o recurso; o candidato permaneceu calmo; a situação piorou; choveu durante a sessão”. A conclusão correta é:","options":[{"id":"a","text":"Somente “analisou” é verbo, porque apenas ele exprime ação."},{"id":"b","text":"“Permaneceu” e “piorou” são adjetivos, pois indicam estado."},{"id":"c","text":"As quatro formas destacadas são verbos e exprimem processos de naturezas distintas."},{"id":"d","text":"“Choveu” não é verbo, porque não possui sujeito."},{"id":"e","text":"Todo verbo da sequência é invariável."}],"correctOptionId":"c","explanation":"Verbo não se limita a ação: pode exprimir ação, estado, mudança de estado ou fenômeno natural. A ausência de sujeito em “choveu” não retira sua natureza verbal. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q285","revision":2,"prompt":"Em “A servidora está atenta”, a análise adequada de “está” é:","options":[{"id":"a","text":"verbo de ligação, pois relaciona o sujeito ao predicativo “atenta”."},{"id":"b","text":"verbo auxiliar, pois “atenta” é forma nominal de “atentar”."},{"id":"c","text":"verbo transitivo direto, pois “atenta” é objeto direto."},{"id":"d","text":"verbo impessoal, pois não admite flexão."},{"id":"e","text":"particípio com valor adjetivo."}],"correctOptionId":"a","explanation":"“Está” é forma do verbo “estar” e, no contexto, liga “a servidora” ao predicativo “atenta”. Não há locução verbal nem objeto direto. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q286","revision":2,"prompt":"Assinale a opção em que os três verbos pertencem, respectivamente, à primeira, à segunda e à terceira conjugações.","options":[{"id":"a","text":"analisar — vender — decidir"},{"id":"b","text":"vender — analisar — partir"},{"id":"c","text":"estudar — propor — vender"},{"id":"d","text":"fazer — receber — dormir"},{"id":"e","text":"partir — pôr — estudar"}],"correctOptionId":"a","explanation":"“Analisar” termina em -ar, “vender” em -er e “decidir” em -ir, correspondendo à primeira, segunda e terceira conjugações. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q287","revision":2,"prompt":"A respeito de “pôr” e de seus derivados, assinale a opção correta.","options":[{"id":"a","text":"Formam uma quarta conjugação."},{"id":"b","text":"Pertencem tradicionalmente à segunda conjugação."},{"id":"c","text":"São verbos sem vogal temática e sem conjugação."},{"id":"d","text":"Pertencem à terceira conjugação por terminarem graficamente em -or."},{"id":"e","text":"São sempre formas nominais."}],"correctOptionId":"b","explanation":"A tradição gramatical vincula “pôr” e derivados, como “propor” e “compor”, à segunda conjugação; não há quarta conjugação. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q288","revision":2,"prompt":"No período “Após analisar os dados, a equipe continuou revisando o relatório já concluído”, as formas nominais destacadas são, respectivamente:","options":[{"id":"a","text":"infinitivo, gerúndio e particípio."},{"id":"b","text":"gerúndio, infinitivo e particípio."},{"id":"c","text":"infinitivo, particípio e gerúndio."},{"id":"d","text":"particípio, gerúndio e infinitivo."},{"id":"e","text":"indicativo, subjuntivo e imperativo."}],"correctOptionId":"a","explanation":"“Analisar” está no infinitivo, “revisando” no gerúndio e “concluído” no particípio. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q289","revision":2,"prompt":"Em “É necessário eu estudar antes da prova”, a forma “estudar” corresponde:","options":[{"id":"a","text":"ao infinitivo impessoal, porque não apresenta desinência visível."},{"id":"b","text":"ao infinitivo pessoal da primeira pessoa do singular."},{"id":"c","text":"ao futuro do subjuntivo."},{"id":"d","text":"ao presente do indicativo."},{"id":"e","text":"a um infinitivo substantivado."}],"correctOptionId":"b","explanation":"O pronome “eu” é sujeito próprio do infinitivo. Na primeira pessoa do singular, o infinitivo pessoal coincide graficamente com a forma impessoal; o contexto decide a análise. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q290","revision":2,"prompt":"Em “Antes de os candidatos estudarem, a banca divulgou o cronograma”, a flexão de “estudarem” ocorre porque:","options":[{"id":"a","text":"todo infinitivo precedido de preposição deve flexionar."},{"id":"b","text":"o infinitivo possui sujeito próprio expresso: “os candidatos”."},{"id":"c","text":"a forma pertence ao futuro do subjuntivo."},{"id":"d","text":"“os candidatos” é objeto direto de “estudarem”."},{"id":"e","text":"o verbo é impessoal e exige plural."}],"correctOptionId":"b","explanation":"“Os candidatos” funciona como sujeito do infinitivo pessoal “estudarem”; a marca de plural torna a flexão inequívoca. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q291","revision":2,"prompt":"Em “O estudar exige constância”, o artigo definido antes de “estudar” indica que:","options":[{"id":"a","text":"o infinitivo foi substantivado e nomeia a atividade."},{"id":"b","text":"o verbo passou ao gerúndio."},{"id":"c","text":"“estudar” é verbo de ligação."},{"id":"d","text":"a oração não possui verbo."},{"id":"e","text":"o infinitivo se tornou particípio irregular."}],"correctOptionId":"a","explanation":"O artigo permite que o infinitivo nomeie a atividade de estudar. A forma continua sendo infinitivo, mas exerce emprego substantivado. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q292","revision":2,"prompt":"Compare “É preciso estudar” e “É preciso eu estudar”. A análise correta é:","options":[{"id":"a","text":"“Estudar” é necessariamente impessoal nas duas ocorrências."},{"id":"b","text":"A primeira ocorrência é impessoal; a segunda é infinitivo pessoal de primeira pessoa do singular."},{"id":"c","text":"A primeira é futuro do subjuntivo; a segunda, presente do indicativo."},{"id":"d","text":"As duas formas são gerúndios sem marca de número."},{"id":"e","text":"A presença de “eu” transforma “estudar” em substantivo."}],"correctOptionId":"b","explanation":"Na primeira oração, o infinitivo não possui sujeito próprio destacado. Na segunda, “eu” é seu sujeito; a forma pessoal singular coincide graficamente com a impessoal. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q293","revision":2,"prompt":"Assinale o emprego em que o gerúndio expressa adequadamente processo em desenvolvimento.","options":[{"id":"a","text":"A equipe está revisando os autos neste momento."},{"id":"b","text":"A equipe vai estar remetendo o ofício amanhã, com simples valor de futuro."},{"id":"c","text":"O relatório revisando foi protocolado."},{"id":"d","text":"Revisando é sempre erro na norma-padrão."},{"id":"e","text":"A equipe revisado os autos."}],"correctOptionId":"a","explanation":"Em “está revisando”, o gerúndio expressa ação efetivamente em curso. A crítica ao gerundismo não alcança todo uso de gerúndio, mas construções inadequadas ao valor pretendido. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q294","revision":2,"prompt":"Em “Vi o relator saindo da sala”, a forma “saindo” apresenta:","options":[{"id":"a","text":"ação em desenvolvimento relacionada ao ato de ver."},{"id":"b","text":"ação concluída anterior ao ato de ver."},{"id":"c","text":"infinitivo pessoal com sujeito oculto."},{"id":"d","text":"particípio irregular de “sair”."},{"id":"e","text":"valor exclusivamente adjetivo."}],"correctOptionId":"a","explanation":"“Saindo” é gerúndio e representa processo em desenvolvimento ou simultâneo em relação a “vi”. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q295","revision":2,"prompt":"Assinale a opção formada apenas por particípios tradicionalmente irregulares.","options":[{"id":"a","text":"aberto — escrito — posto"},{"id":"b","text":"analisado — vendido — partido"},{"id":"c","text":"aceitado — entregado — matado"},{"id":"d","text":"estudando — escrito — feito"},{"id":"e","text":"abrir — escrever — pôr"}],"correctOptionId":"a","explanation":"“Aberto”, “escrito” e “posto” são particípios irregulares tradicionais. As formas em -ado/-ido da alternativa B são regulares. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q296","revision":2,"prompt":"Compare “A comissão tinha analisado o recurso” e “O recurso está analisado”. A conclusão correta é:","options":[{"id":"a","text":"“Analisado” integra locução verbal no primeiro período e pode indicar estado resultante no segundo."},{"id":"b","text":"“Analisado” é adjetivo nos dois períodos, sem valor verbal."},{"id":"c","text":"“Analisado” é gerúndio no primeiro e infinitivo no segundo."},{"id":"d","text":"“Tinha” e “está” são verbos impessoais."},{"id":"e","text":"As duas construções estão obrigatoriamente na voz passiva."}],"correctOptionId":"a","explanation":"Com “tinha”, o particípio integra uma locução verbal; com “está”, pode expressar estado resultante e aproximar-se de valor adjetival. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q297","revision":2,"prompt":"A respeito de particípio irregular e verbo irregular, assinale a opção correta.","options":[{"id":"a","text":"São expressões equivalentes e sempre se aplicam ao paradigma inteiro."},{"id":"b","text":"Particípio irregular qualifica uma forma nominal; verbo irregular qualifica o paradigma de conjugação."},{"id":"c","text":"Todo verbo com particípio regular é verbo regular."},{"id":"d","text":"Todo verbo irregular possui gerúndio irregular."},{"id":"e","text":"Particípio não pertence ao sistema verbal."}],"correctOptionId":"b","explanation":"Os critérios são diferentes: “particípio irregular” descreve uma forma nominal específica; “verbo irregular” descreve o comportamento flexional do paradigma. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q298","revision":2,"prompt":"Em “Os relatórios haviam sido feitos”, o verbo “haver” pode ser classificado, no contexto, como:","options":[{"id":"a","text":"auxiliar e pessoal, concordando com o sujeito plural."},{"id":"b","text":"impessoal existencial, obrigatoriamente singular."},{"id":"c","text":"verbo de ligação."},{"id":"d","text":"principal e intransitivo."},{"id":"e","text":"particípio irregular."}],"correctOptionId":"a","explanation":"“Haviam” integra a locução “haviam sido feitos” e concorda com “os relatórios”. O uso auxiliar não se confunde com “haver” existencial impessoal. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q299","revision":2,"prompt":"Assinale a afirmação correta sobre as classificações verbais.","options":[{"id":"a","text":"Um verbo auxiliar não pode ser irregular."},{"id":"b","text":"Transitividade, regularidade e função auxiliar são critérios independentes e podem coexistir."},{"id":"c","text":"Todo verbo anômalo é necessariamente impessoal."},{"id":"d","text":"Verbo defectivo é o que não admite objeto direto."},{"id":"e","text":"Verbo abundante é sempre verbo de ligação."}],"correctOptionId":"b","explanation":"As classificações observam critérios distintos. Uma forma pode pertencer a verbo irregular, atuar como auxiliar e integrar uma construção transitiva sem contradição. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q300","revision":2,"prompt":"Na tradição gramatical, verbo defectivo é aquele que:","options":[{"id":"a","text":"possui paradigma considerado incompleto."},{"id":"b","text":"apresenta obrigatoriamente dois particípios."},{"id":"c","text":"não possui sujeito em nenhuma ocorrência."},{"id":"d","text":"só se flexiona na terceira pessoa do plural."},{"id":"e","text":"não admite formas nominais."}],"correctOptionId":"a","explanation":"Defectividade diz respeito a lacunas no paradigma segundo a tradição normativa; não se confunde com impessoalidade, abundância ou transitividade. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q301","revision":2,"prompt":"Segundo a preferência escolar tradicional para verbos abundantes, assinale a opção mais esperada, sem transformar a preferência em regra absoluta.","options":[{"id":"a","text":"A comissão tinha aceitado a proposta; a proposta foi aceita."},{"id":"b","text":"A comissão tinha aceita a proposta; a proposta foi aceitado."},{"id":"c","text":"A comissão tinha aceito a proposta; a proposta foi aceitada, sempre."},{"id":"d","text":"Somente “aceitado” é admitido com qualquer auxiliar."},{"id":"e","text":"Somente “aceito” é admitido com qualquer auxiliar."}],"correctOptionId":"a","explanation":"A orientação tradicional costuma preferir o particípio regular com “ter/haver” e o irregular com “ser/estar”, embora o uso real não seja reduzido a fórmula absoluta. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q302","revision":2,"prompt":"Na oração “A equipe estava revisando o texto”, a análise correta é:","options":[{"id":"a","text":"“Estava” é auxiliar flexionado; “revisando” é o principal no gerúndio."},{"id":"b","text":"“Estava” é principal; “revisando” é objeto direto."},{"id":"c","text":"“Estava” é verbo de ligação; “revisando” é predicativo."},{"id":"d","text":"“Revisando” é particípio; “estava” é impessoal."},{"id":"e","text":"Não há locução verbal porque os verbos estão separados."}],"correctOptionId":"a","explanation":"O auxiliar “estava” recebe as marcas de tempo, pessoa e número; “revisando” concentra o conteúdo lexical da locução. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q303","revision":2,"prompt":"Compare “A servidora está cansada” e “A servidora está estudando”. Assinale a análise correta.","options":[{"id":"a","text":"“Estar” é auxiliar nas duas construções."},{"id":"b","text":"“Estar” é verbo de ligação na primeira e auxiliar na segunda."},{"id":"c","text":"“Estar” é intransitivo na primeira e transitivo direto na segunda."},{"id":"d","text":"“Cansada” e “estudando” são particípios."},{"id":"e","text":"A segunda construção não contém verbo principal."}],"correctOptionId":"b","explanation":"Na primeira oração, “estar” liga o sujeito ao predicativo “cansada”; na segunda, auxilia o verbo principal “estudando”. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q304","revision":2,"prompt":"Assinale a opção que apresenta locução verbal com verbo principal no infinitivo sem depender da classificação controversa de um semiauxiliar aspectual.","options":[{"id":"a","text":"deve analisar"},{"id":"b","text":"começou a análise"},{"id":"c","text":"analisou o recurso"},{"id":"d","text":"relatório analisado"},{"id":"e","text":"análise concluída"}],"correctOptionId":"a","explanation":"“Deve analisar” reúne o auxiliar modal “deve” e o verbo principal “analisar” no infinitivo. As demais opções não formam essa locução. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q305","revision":2,"prompt":"Em “A comissão aprovou o relatório”, a relação entre sujeito e processo caracteriza voz:","options":[{"id":"a","text":"ativa, porque o sujeito pratica a ação."},{"id":"b","text":"passiva analítica, porque há particípio."},{"id":"c","text":"passiva sintética, porque o sujeito é paciente."},{"id":"d","text":"reflexiva, porque a ação retorna ao sujeito."},{"id":"e","text":"recíproca, porque há ação mútua."}],"correctOptionId":"a","explanation":"“A comissão” pratica a ação de aprovar, e “o relatório” é objeto direto; trata-se de voz ativa. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q306","revision":2,"prompt":"A transposição de “A comissão aprovou o relatório” para a passiva analítica, preservando sentido e relações sintáticas, é:","options":[{"id":"a","text":"O relatório foi aprovado pela comissão."},{"id":"b","text":"A comissão foi aprovada pelo relatório."},{"id":"c","text":"O relatório aprovou-se pela comissão."},{"id":"d","text":"Aprovou-se a comissão pelo relatório."},{"id":"e","text":"O relatório havia aprovado a comissão."}],"correctOptionId":"a","explanation":"O objeto direto “o relatório” torna-se sujeito paciente; “pela comissão” pode expressar o agente da passiva. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q307","revision":2,"prompt":"Em “Vendem-se livros técnicos”, a análise correta é:","options":[{"id":"a","text":"“se” é partícula apassivadora, e “livros técnicos” é sujeito paciente."},{"id":"b","text":"“se” é índice de indeterminação, e “livros técnicos” é objeto indireto."},{"id":"c","text":"“se” é reflexivo, e “livros técnicos” pratica a ação."},{"id":"d","text":"o verbo deveria ficar no singular, pois toda construção com “se” é impessoal."},{"id":"e","text":"não há possibilidade de conversão para passiva analítica."}],"correctOptionId":"a","explanation":"A oração admite “Livros técnicos são vendidos”. Logo, “se” é apassivador, “livros técnicos” é sujeito paciente e o verbo concorda no plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q308","revision":2,"prompt":"Em “Concederam-se bolsas aos servidores”, a passiva sintética é possível porque:","options":[{"id":"a","text":"“conceder” é VTDI, e seu objeto direto “bolsas” pode tornar-se sujeito paciente."},{"id":"b","text":"todo verbo com objeto indireto forma passiva."},{"id":"c","text":"“aos servidores” é sujeito paciente da oração."},{"id":"d","text":"“se” transforma qualquer verbo em impessoal."},{"id":"e","text":"o verbo é intransitivo no contexto."}],"correctOptionId":"a","explanation":"Verbos transitivos diretos e indiretos admitem passiva quando o objeto direto pode ser promovido a sujeito paciente: “Bolsas foram concedidas aos servidores”. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q309","revision":2,"prompt":"Assinale a redação correta segundo a concordância da passiva sintética.","options":[{"id":"a","text":"Publicaram-se os resultados."},{"id":"b","text":"Publicou-se os resultados."},{"id":"c","text":"Precisam-se de servidores."},{"id":"d","text":"Houveram-se incidentes."},{"id":"e","text":"Fazem-se dois anos."}],"correctOptionId":"a","explanation":"Em “Publicaram-se os resultados”, “os resultados” é sujeito paciente plural. “Precisa-se de servidores” usa índice de indeterminação e singular; “haver” e “fazer” impessoais também ficam no singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q310","revision":2,"prompt":"Em “Precisa-se de apoio técnico”, o “se” funciona como:","options":[{"id":"a","text":"índice de indeterminação do sujeito, com verbo transitivo indireto no singular."},{"id":"b","text":"partícula apassivadora, e “de apoio técnico” é sujeito paciente."},{"id":"c","text":"pronome reflexivo, equivalente a “a si mesmo”."},{"id":"d","text":"pronome recíproco."},{"id":"e","text":"parte integrante de uma locução passiva analítica."}],"correctOptionId":"a","explanation":"“Precisar de” é VTI; não há objeto direto que possa tornar-se sujeito paciente. O “se” indetermina o sujeito, e o verbo fica na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q311","revision":2,"prompt":"Em “Vive-se bem nesta cidade”, a análise adequada é:","options":[{"id":"a","text":"“se” indetermina o sujeito de um verbo intransitivo, mantido no singular."},{"id":"b","text":"“se” apassiva a oração, e “bem” é sujeito paciente."},{"id":"c","text":"“se” é reflexivo, pois a cidade vive a si mesma."},{"id":"d","text":"“vive” deveria concordar com “cidade”."},{"id":"e","text":"há passiva analítica reduzida."}],"correctOptionId":"a","explanation":"“Viver”, nesse uso, é intransitivo; “bem” é adjunto adverbial e “nesta cidade” indica lugar. O “se” é índice de indeterminação do sujeito. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q312","revision":2,"prompt":"Em “A candidata se feriu durante a prova”, o teste que confirma o valor reflexivo do “se” é:","options":[{"id":"a","text":"substituí-lo por “a si mesma” sem alterar o sentido básico."},{"id":"b","text":"converter a oração em “A candidata foi ferida” obrigatoriamente."},{"id":"c","text":"identificar objeto indireto introduzido por “de”."},{"id":"d","text":"manter o verbo sempre no singular impessoal."},{"id":"e","text":"trocar “se” por “uns aos outros”."}],"correctOptionId":"a","explanation":"Na construção reflexiva, sujeito pratica e recebe a ação; “A candidata feriu a si mesma” preserva essa relação. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q313","revision":2,"prompt":"Em “Os servidores se cumprimentaram ao chegar”, o “se” indica:","options":[{"id":"a","text":"reciprocidade, pois a ação é mútua."},{"id":"b","text":"passiva sintética, pois os servidores são pacientes."},{"id":"c","text":"sujeito indeterminado."},{"id":"d","text":"impessoalidade do verbo."},{"id":"e","text":"reflexividade individual obrigatória."}],"correctOptionId":"a","explanation":"O plural permite a leitura de ação mútua: cada servidor cumprimentou o outro. O “se” tem valor recíproco. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q314","revision":2,"prompt":"Considere: I. “Vendem-se imóveis.” II. “Precisa-se de avaliadores.” III. “Os avaliadores se cumprimentaram.” A sequência correta dos valores de “se” é:","options":[{"id":"a","text":"partícula apassivadora — índice de indeterminação — pronome recíproco."},{"id":"b","text":"índice de indeterminação — partícula apassivadora — pronome reflexivo."},{"id":"c","text":"pronome reflexivo — índice de indeterminação — partícula apassivadora."},{"id":"d","text":"partícula apassivadora — pronome reflexivo — índice de indeterminação."},{"id":"e","text":"índice de indeterminação — pronome recíproco — partícula apassivadora."}],"correctOptionId":"a","explanation":"I admite “Imóveis são vendidos”; II traz VTI e sujeito indeterminado; III expressa ação mútua entre avaliadores. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q315","revision":2,"prompt":"Em “A equipe revisou o texto”, a predicação de “revisou” é:","options":[{"id":"a","text":"transitiva direta, pois “o texto” é objeto direto."},{"id":"b","text":"transitiva indireta, pois há preposição implícita."},{"id":"c","text":"direta e indireta, pois há dois complementos."},{"id":"d","text":"intransitiva, pois a oração possui sentido completo."},{"id":"e","text":"de ligação, pois “texto” é predicativo."}],"correctOptionId":"a","explanation":"“Revisar” seleciona, no contexto, o objeto direto “o texto”, sem preposição obrigatória. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q316","revision":2,"prompt":"Em “A equipe precisa de tempo”, a expressão “de tempo” exerce a função de:","options":[{"id":"a","text":"objeto indireto de um verbo transitivo indireto."},{"id":"b","text":"sujeito paciente de uma passiva sintética."},{"id":"c","text":"objeto direto preposicionado obrigatório."},{"id":"d","text":"predicativo do sujeito."},{"id":"e","text":"agente da passiva."}],"correctOptionId":"a","explanation":"No sentido de necessitar, “precisar” rege a preposição “de”; “de tempo” é objeto indireto. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q317","revision":2,"prompt":"Em “A equipe entregou o relatório à chefia”, a análise adequada é:","options":[{"id":"a","text":"verbo transitivo direto e indireto, com “o relatório” como objeto direto e “à chefia” como objeto indireto."},{"id":"b","text":"verbo transitivo direto, com dois objetos diretos."},{"id":"c","text":"verbo transitivo indireto, sem objeto direto."},{"id":"d","text":"verbo intransitivo, com dois adjuntos adverbiais."},{"id":"e","text":"verbo de ligação, com predicativo composto."}],"correctOptionId":"a","explanation":"“Entregou” seleciona o que foi entregue (“o relatório”) e a quem foi entregue (“à chefia”), configurando VTDI. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q318","revision":2,"prompt":"Assinale a opção em que o verbo destacado é intransitivo no contexto.","options":[{"id":"a","text":"O bebê dormiu."},{"id":"b","text":"A equipe revisou o texto."},{"id":"c","text":"A equipe precisa de apoio."},{"id":"d","text":"A comissão entregou o parecer à chefia."},{"id":"e","text":"A candidata parece preparada."}],"correctOptionId":"a","explanation":"Em “O bebê dormiu”, o verbo não exige complemento. As demais opções trazem VTD, VTI, VTDI e verbo de ligação. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q319","revision":2,"prompt":"Em “A candidata parece preparada”, “preparada” é:","options":[{"id":"a","text":"predicativo do sujeito, ligado por “parece”."},{"id":"b","text":"objeto direto de “parece”."},{"id":"c","text":"objeto indireto sem preposição."},{"id":"d","text":"agente da passiva."},{"id":"e","text":"verbo principal de uma locução."}],"correctOptionId":"a","explanation":"“Parece” funciona como verbo de ligação e relaciona o sujeito “a candidata” ao predicativo “preparada”. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q320","revision":2,"prompt":"Compare “A relatora escreveu o parecer” e “A relatora escreve bem”. A conclusão correta é:","options":[{"id":"a","text":"a transitividade de “escrever” varia conforme a ocorrência: VTD no primeiro caso e possível VI no segundo."},{"id":"b","text":"“Escrever” é sempre VTD, e “bem” é objeto direto."},{"id":"c","text":"“Escrever” é sempre intransitivo."},{"id":"d","text":"“O parecer” e “bem” são predicativos."},{"id":"e","text":"as duas formas integram locuções verbais."}],"correctOptionId":"a","explanation":"No primeiro período, “o parecer” é objeto direto. No segundo, o verbo pode ser intransitivo e “bem” é adjunto adverbial. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q321","revision":2,"prompt":"A passiva não pode ser formada a partir de “A equipe precisa de apoio” porque:","options":[{"id":"a","text":"“precisar de” é VTI e não possui objeto direto que possa tornar-se sujeito paciente."},{"id":"b","text":"todo verbo com preposição é impessoal."},{"id":"c","text":"“apoio” já é sujeito paciente."},{"id":"d","text":"a oração está na voz reflexiva."},{"id":"e","text":"verbos no presente não admitem passiva."}],"correctOptionId":"a","explanation":"A formação da passiva exige objeto direto. Como “de apoio” é objeto indireto, não há termo que possa ser promovido a sujeito paciente. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q322","revision":2,"prompt":"Em “Havia recursos para revisão”, a forma singular de “havia” se explica porque:","options":[{"id":"a","text":"“haver” equivale a “existir” e é impessoal."},{"id":"b","text":"“recursos” é sujeito oculto singular."},{"id":"c","text":"“haver” é auxiliar de “revisão”."},{"id":"d","text":"todo verbo no pretérito fica no singular."},{"id":"e","text":"a oração está na passiva sintética."}],"correctOptionId":"a","explanation":"No sentido existencial, “haver” forma oração sem sujeito e permanece na terceira pessoa do singular; “recursos” não é sujeito. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q323","revision":2,"prompt":"Em “Houve incidentes durante a sessão”, a análise correta é:","options":[{"id":"a","text":"“haver” equivale a “ocorrer” e é impessoal."},{"id":"b","text":"“incidentes” é sujeito plural, e a forma correta seria “houveram”."},{"id":"c","text":"“houve” é auxiliar de um verbo omitido."},{"id":"d","text":"a construção é passiva analítica."},{"id":"e","text":"o verbo é de ligação."}],"correctOptionId":"a","explanation":"“Haver”, no sentido de ocorrer, é impessoal; por isso permanece no singular e “incidentes” não funciona como sujeito. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q324","revision":2,"prompt":"Assinale a opção correta quanto ao emprego de “haver”.","options":[{"id":"a","text":"Há dois anos estudo para o concurso."},{"id":"b","text":"Hão dois anos estudo para o concurso."},{"id":"c","text":"Haviam dois anos que eu estudava."},{"id":"d","text":"Houveram muitos recursos."},{"id":"e","text":"Devem haver alternativas."}],"correctOptionId":"a","explanation":"“Haver” indicando tempo decorrido é impessoal e fica no singular. O mesmo vale para o uso existencial e para o auxiliar que acompanha “haver” impessoal. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q325","revision":2,"prompt":"Em “Faz dois anos que estudo” e “Fez calor durante a prova”, o verbo “fazer” é:","options":[{"id":"a","text":"impessoal nos dois casos, por indicar tempo decorrido e clima."},{"id":"b","text":"pessoal nos dois casos, concordando com “anos” e “calor”."},{"id":"c","text":"auxiliar no primeiro e de ligação no segundo."},{"id":"d","text":"transitivo direto nos dois casos."},{"id":"e","text":"reflexivo no primeiro e recíproco no segundo."}],"correctOptionId":"a","explanation":"“Fazer” com valor temporal ou climático integra oração sem sujeito e permanece na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q326","revision":2,"prompt":"Compare “Choveu durante a prova” e “Choveram pedidos de revisão”. A análise correta é:","options":[{"id":"a","text":"o primeiro uso é impessoal e literal; o segundo é figurado, pessoal e concorda com “pedidos”."},{"id":"b","text":"ambos são impessoais e deveriam ficar no singular."},{"id":"c","text":"ambos possuem sujeito oculto."},{"id":"d","text":"o primeiro é verbo de ligação e o segundo, auxiliar."},{"id":"e","text":"o plural no segundo é inadequado em qualquer contexto."}],"correctOptionId":"a","explanation":"Fenômeno natural em sentido próprio é impessoal. No uso figurado, “pedidos” funciona como sujeito e determina a concordância plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q327","revision":2,"prompt":"Assinale a construção adequada segundo a impessoalidade do verbo principal.","options":[{"id":"a","text":"Deve haver candidatos."},{"id":"b","text":"Devem haver candidatos."},{"id":"c","text":"Deve haverem candidatos."},{"id":"d","text":"Houveram candidatos."},{"id":"e","text":"Devem haverem candidatos."}],"correctOptionId":"a","explanation":"Quando “haver” existencial é o verbo principal da locução, sua impessoalidade alcança o auxiliar: “deve haver”. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q328","revision":2,"prompt":"Em “Pode fazer meses que ele não volta”, o singular de “pode” decorre do fato de que:","options":[{"id":"a","text":"o principal “fazer” indica tempo e é impessoal."},{"id":"b","text":"todo auxiliar é invariável."},{"id":"c","text":"“meses” é objeto direto singular."},{"id":"d","text":"a construção está na voz passiva."},{"id":"e","text":"“fazer” é substantivo."}],"correctOptionId":"a","explanation":"A impessoalidade de “fazer” temporal transmite-se ao auxiliar da locução, que permanece na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q329","revision":2,"prompt":"Compare “Existem alternativas” e “Há alternativas”. A análise correta é:","options":[{"id":"a","text":"“existir” é pessoal e concorda com “alternativas”; “haver” existencial é impessoal."},{"id":"b","text":"os dois verbos são impessoais e devem permanecer no singular."},{"id":"c","text":"os dois verbos são pessoais e devem concordar no plural."},{"id":"d","text":"“alternativas” é objeto direto nas duas orações."},{"id":"e","text":"as duas construções estão na voz passiva."}],"correctOptionId":"a","explanation":"“Existir” possui sujeito e concorda com ele; “haver” no sentido de existir forma oração sem sujeito e fica no singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q330","revision":2,"prompt":"Assinale a opção que distingue corretamente “haver” auxiliar de “haver” impessoal.","options":[{"id":"a","text":"Os candidatos haviam estudado; havia candidatos na sala."},{"id":"b","text":"Os candidatos havia estudado; haviam candidatos na sala."},{"id":"c","text":"Os candidatos houveram estudado; houveram candidatos na sala."},{"id":"d","text":"Os candidatos haviam estudado; haviam candidatos na sala."},{"id":"e","text":"Os candidatos havia estudado; havia candidatos na sala."}],"correctOptionId":"a","explanation":"Em “haviam estudado”, “haver” é auxiliar e concorda com o sujeito plural. Em “havia candidatos”, é existencial e impessoal. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q331","revision":2,"prompt":"Em “São duas horas”, o plural de “ser” mostra que:","options":[{"id":"a","text":"o verbo “ser” admite ressalvas tradicionais de concordância em indicações de horas."},{"id":"b","text":"toda oração sem sujeito exige verbo no plural."},{"id":"c","text":"“duas horas” é objeto direto de “são”."},{"id":"d","text":"“ser” deixou de ser verbo."},{"id":"e","text":"a oração está na passiva analítica."}],"correctOptionId":"a","explanation":"Embora verbos impessoais fiquem em regra no singular, “ser” apresenta construções tradicionais especiais em indicações de horas, distâncias e quantidades. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q332","revision":2,"prompt":"Considere a reescrita de “Vendem-se relatórios” para “Relatórios são vendidos”. A transformação:","options":[{"id":"a","text":"confirma a passiva sintética e preserva “relatórios” como sujeito paciente."},{"id":"b","text":"transforma índice de indeterminação em voz reflexiva."},{"id":"c","text":"é impossível porque “vender” é VTI."},{"id":"d","text":"altera “relatórios” de objeto indireto para agente da passiva."},{"id":"e","text":"prova que o verbo da primeira oração deveria estar no singular."}],"correctOptionId":"a","explanation":"A equivalência com “ser + particípio” confirma a partícula apassivadora; “relatórios” é sujeito paciente nas duas construções e determina o plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q333","revision":2,"prompt":"Considere: I. “É preciso eu estudar.” II. “Concederam-se bolsas aos servidores.” III. “Devem existir alternativas.” IV. “Deve haver alternativas.” Assinale a análise correta.","options":[{"id":"a","text":"I traz infinitivo pessoal singular; II é passiva sintética com VTDI; III usa “existir” pessoal; IV conserva “haver” impessoal."},{"id":"b","text":"I traz infinitivo necessariamente impessoal; II contém sujeito indeterminado; III e IV usam verbos impessoais."},{"id":"c","text":"I está no futuro do subjuntivo; II é reflexiva; III está incorreta; IV exige “devem”."},{"id":"d","text":"I contém infinitivo substantivado; II não admite passiva; III e IV devem ficar no singular."},{"id":"e","text":"I, II, III e IV apresentam sujeito indeterminado."}],"correctOptionId":"a","explanation":"O contexto identifica o infinitivo pessoal em I; o objeto direto “bolsas” vira sujeito paciente em II; “existir” concorda com seu sujeito em III; “haver” existencial permanece impessoal em IV. Fonte: questão autoral baseada nas referências do conteúdo."}
+    {
+      "id": "q284",
+      "revision": 3,
+      "prompt": "Considere: “A comissão analisou o recurso; o candidato permaneceu calmo; a situação piorou; choveu durante a sessão”. A conclusão correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "As quatro formas destacadas são verbos e exprimem processos de naturezas distintas."
+        },
+        {
+          "id": "b",
+          "text": "Somente “analisou” é verbo, porque apenas ele exprime ação."
+        },
+        {
+          "id": "c",
+          "text": "“Permaneceu” e “piorou” são adjetivos, pois indicam estado."
+        },
+        {
+          "id": "d",
+          "text": "“Choveu” não é verbo, porque não possui sujeito."
+        },
+        {
+          "id": "e",
+          "text": "Todo verbo da sequência é invariável."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Verbo não se limita a ação: pode exprimir ação, estado, mudança de estado ou fenômeno natural. A ausência de sujeito em “choveu” não retira sua natureza verbal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q285",
+      "revision": 3,
+      "prompt": "Em “A servidora está atenta”, a análise adequada de “está” é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "verbo auxiliar, pois “atenta” é forma nominal de “atentar”."
+        },
+        {
+          "id": "b",
+          "text": "verbo de ligação, pois relaciona o sujeito ao predicativo “atenta”."
+        },
+        {
+          "id": "c",
+          "text": "verbo transitivo direto, pois “atenta” é objeto direto."
+        },
+        {
+          "id": "d",
+          "text": "verbo impessoal, pois não admite flexão."
+        },
+        {
+          "id": "e",
+          "text": "particípio com valor adjetivo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Está” é forma do verbo “estar” e, no contexto, liga “a servidora” ao predicativo “atenta”. Não há locução verbal nem objeto direto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q286",
+      "revision": 3,
+      "prompt": "Assinale a opção em que os três verbos pertencem, respectivamente, à primeira, à segunda e à terceira conjugações.",
+      "options": [
+        {
+          "id": "a",
+          "text": "vender — analisar — partir"
+        },
+        {
+          "id": "b",
+          "text": "estudar — propor — vender"
+        },
+        {
+          "id": "c",
+          "text": "analisar — vender — decidir"
+        },
+        {
+          "id": "d",
+          "text": "fazer — receber — dormir"
+        },
+        {
+          "id": "e",
+          "text": "partir — pôr — estudar"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Analisar” termina em -ar, “vender” em -er e “decidir” em -ir, correspondendo à primeira, segunda e terceira conjugações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q287",
+      "revision": 3,
+      "prompt": "A respeito de “pôr” e de seus derivados, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Formam uma quarta conjugação."
+        },
+        {
+          "id": "b",
+          "text": "São verbos sem vogal temática e sem conjugação."
+        },
+        {
+          "id": "c",
+          "text": "Pertencem à terceira conjugação por terminarem graficamente em -or."
+        },
+        {
+          "id": "d",
+          "text": "Pertencem tradicionalmente à segunda conjugação."
+        },
+        {
+          "id": "e",
+          "text": "São sempre formas nominais."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A tradição gramatical vincula “pôr” e derivados, como “propor” e “compor”, à segunda conjugação; não há quarta conjugação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q288",
+      "revision": 3,
+      "prompt": "No período “Após analisar os dados, a equipe continuou revisando o relatório já concluído”, as formas nominais destacadas são, respectivamente:",
+      "options": [
+        {
+          "id": "a",
+          "text": "gerúndio, infinitivo e particípio."
+        },
+        {
+          "id": "b",
+          "text": "infinitivo, particípio e gerúndio."
+        },
+        {
+          "id": "c",
+          "text": "particípio, gerúndio e infinitivo."
+        },
+        {
+          "id": "d",
+          "text": "indicativo, subjuntivo e imperativo."
+        },
+        {
+          "id": "e",
+          "text": "infinitivo, gerúndio e particípio."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "“Analisar” está no infinitivo, “revisando” no gerúndio e “concluído” no particípio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q289",
+      "revision": 3,
+      "prompt": "Em “É necessário eu estudar antes da prova”, a forma “estudar” corresponde:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ao infinitivo pessoal da primeira pessoa do singular."
+        },
+        {
+          "id": "b",
+          "text": "ao infinitivo impessoal, porque não apresenta desinência visível."
+        },
+        {
+          "id": "c",
+          "text": "ao futuro do subjuntivo."
+        },
+        {
+          "id": "d",
+          "text": "ao presente do indicativo."
+        },
+        {
+          "id": "e",
+          "text": "a um infinitivo substantivado."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O pronome “eu” é sujeito próprio do infinitivo. Na primeira pessoa do singular, o infinitivo pessoal coincide graficamente com a forma impessoal; o contexto decide a análise. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q290",
+      "revision": 3,
+      "prompt": "Em “Antes de os candidatos estudarem, a banca divulgou o cronograma”, a flexão de “estudarem” ocorre porque:",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo infinitivo precedido de preposição deve flexionar."
+        },
+        {
+          "id": "b",
+          "text": "o infinitivo possui sujeito próprio expresso: “os candidatos”."
+        },
+        {
+          "id": "c",
+          "text": "a forma pertence ao futuro do subjuntivo."
+        },
+        {
+          "id": "d",
+          "text": "“os candidatos” é objeto direto de “estudarem”."
+        },
+        {
+          "id": "e",
+          "text": "o verbo é impessoal e exige plural."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Os candidatos” funciona como sujeito do infinitivo pessoal “estudarem”; a marca de plural torna a flexão inequívoca. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q291",
+      "revision": 3,
+      "prompt": "Em “O estudar exige constância”, o artigo definido antes de “estudar” indica que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "o verbo passou ao gerúndio."
+        },
+        {
+          "id": "b",
+          "text": "“estudar” é verbo de ligação."
+        },
+        {
+          "id": "c",
+          "text": "o infinitivo foi substantivado e nomeia a atividade."
+        },
+        {
+          "id": "d",
+          "text": "a oração não possui verbo."
+        },
+        {
+          "id": "e",
+          "text": "o infinitivo se tornou particípio irregular."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O artigo permite que o infinitivo nomeie a atividade de estudar. A forma continua sendo infinitivo, mas exerce emprego substantivado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q292",
+      "revision": 3,
+      "prompt": "Compare “É preciso estudar” e “É preciso eu estudar”. A análise correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Estudar” é necessariamente impessoal nas duas ocorrências."
+        },
+        {
+          "id": "b",
+          "text": "A primeira é futuro do subjuntivo; a segunda, presente do indicativo."
+        },
+        {
+          "id": "c",
+          "text": "As duas formas são gerúndios sem marca de número."
+        },
+        {
+          "id": "d",
+          "text": "A primeira ocorrência é impessoal; a segunda é infinitivo pessoal de primeira pessoa do singular."
+        },
+        {
+          "id": "e",
+          "text": "A presença de “eu” transforma “estudar” em substantivo."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Na primeira oração, o infinitivo não possui sujeito próprio destacado. Na segunda, “eu” é seu sujeito; a forma pessoal singular coincide graficamente com a impessoal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q293",
+      "revision": 3,
+      "prompt": "Assinale o emprego em que o gerúndio expressa adequadamente processo em desenvolvimento.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A equipe vai estar remetendo o ofício amanhã, com simples valor de futuro."
+        },
+        {
+          "id": "b",
+          "text": "O relatório revisando foi protocolado."
+        },
+        {
+          "id": "c",
+          "text": "Revisando é sempre erro na norma-padrão."
+        },
+        {
+          "id": "d",
+          "text": "A equipe revisado os autos."
+        },
+        {
+          "id": "e",
+          "text": "A equipe está revisando os autos neste momento."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Em “está revisando”, o gerúndio expressa ação efetivamente em curso. A crítica ao gerundismo não alcança todo uso de gerúndio, mas construções inadequadas ao valor pretendido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q294",
+      "revision": 3,
+      "prompt": "Em “Vi o relator saindo da sala”, a forma “saindo” apresenta:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ação em desenvolvimento relacionada ao ato de ver."
+        },
+        {
+          "id": "b",
+          "text": "ação concluída anterior ao ato de ver."
+        },
+        {
+          "id": "c",
+          "text": "infinitivo pessoal com sujeito oculto."
+        },
+        {
+          "id": "d",
+          "text": "particípio irregular de “sair”."
+        },
+        {
+          "id": "e",
+          "text": "valor exclusivamente adjetivo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Saindo” é gerúndio e representa processo em desenvolvimento ou simultâneo em relação a “vi”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q295",
+      "revision": 3,
+      "prompt": "Assinale a opção formada apenas por particípios tradicionalmente irregulares.",
+      "options": [
+        {
+          "id": "a",
+          "text": "analisado — vendido — partido"
+        },
+        {
+          "id": "b",
+          "text": "aberto — escrito — posto"
+        },
+        {
+          "id": "c",
+          "text": "aceitado — entregado — matado"
+        },
+        {
+          "id": "d",
+          "text": "estudando — escrito — feito"
+        },
+        {
+          "id": "e",
+          "text": "abrir — escrever — pôr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Aberto”, “escrito” e “posto” são particípios irregulares tradicionais. As formas em -ado/-ido da alternativa B são regulares. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q296",
+      "revision": 3,
+      "prompt": "Compare “A comissão tinha analisado o recurso” e “O recurso está analisado”. A conclusão correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Analisado” é adjetivo nos dois períodos, sem valor verbal."
+        },
+        {
+          "id": "b",
+          "text": "“Analisado” é gerúndio no primeiro e infinitivo no segundo."
+        },
+        {
+          "id": "c",
+          "text": "“Analisado” integra locução verbal no primeiro período e pode indicar estado resultante no segundo."
+        },
+        {
+          "id": "d",
+          "text": "“Tinha” e “está” são verbos impessoais."
+        },
+        {
+          "id": "e",
+          "text": "As duas construções estão obrigatoriamente na voz passiva."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Com “tinha”, o particípio integra uma locução verbal; com “está”, pode expressar estado resultante e aproximar-se de valor adjetival. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q297",
+      "revision": 3,
+      "prompt": "A respeito de particípio irregular e verbo irregular, assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "São expressões equivalentes e sempre se aplicam ao paradigma inteiro."
+        },
+        {
+          "id": "b",
+          "text": "Todo verbo com particípio regular é verbo regular."
+        },
+        {
+          "id": "c",
+          "text": "Todo verbo irregular possui gerúndio irregular."
+        },
+        {
+          "id": "d",
+          "text": "Particípio irregular qualifica uma forma nominal; verbo irregular qualifica o paradigma de conjugação."
+        },
+        {
+          "id": "e",
+          "text": "Particípio não pertence ao sistema verbal."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os critérios são diferentes: “particípio irregular” descreve uma forma nominal específica; “verbo irregular” descreve o comportamento flexional do paradigma. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q298",
+      "revision": 3,
+      "prompt": "Em “Os relatórios haviam sido feitos”, o verbo “haver” pode ser classificado, no contexto, como:",
+      "options": [
+        {
+          "id": "a",
+          "text": "impessoal existencial, obrigatoriamente singular."
+        },
+        {
+          "id": "b",
+          "text": "verbo de ligação."
+        },
+        {
+          "id": "c",
+          "text": "principal e intransitivo."
+        },
+        {
+          "id": "d",
+          "text": "particípio irregular."
+        },
+        {
+          "id": "e",
+          "text": "auxiliar e pessoal, concordando com o sujeito plural."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "“Haviam” integra a locução “haviam sido feitos” e concorda com “os relatórios”. O uso auxiliar não se confunde com “haver” existencial impessoal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q299",
+      "revision": 3,
+      "prompt": "Assinale a afirmação correta sobre as classificações verbais.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transitividade, regularidade e função auxiliar são critérios independentes e podem coexistir."
+        },
+        {
+          "id": "b",
+          "text": "Um verbo auxiliar não pode ser irregular."
+        },
+        {
+          "id": "c",
+          "text": "Todo verbo anômalo é necessariamente impessoal."
+        },
+        {
+          "id": "d",
+          "text": "Verbo defectivo é o que não admite objeto direto."
+        },
+        {
+          "id": "e",
+          "text": "Verbo abundante é sempre verbo de ligação."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "As classificações observam critérios distintos. Uma forma pode pertencer a verbo irregular, atuar como auxiliar e integrar uma construção transitiva sem contradição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q300",
+      "revision": 3,
+      "prompt": "Na tradição gramatical, verbo defectivo é aquele que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "apresenta obrigatoriamente dois particípios."
+        },
+        {
+          "id": "b",
+          "text": "possui paradigma considerado incompleto."
+        },
+        {
+          "id": "c",
+          "text": "não possui sujeito em nenhuma ocorrência."
+        },
+        {
+          "id": "d",
+          "text": "só se flexiona na terceira pessoa do plural."
+        },
+        {
+          "id": "e",
+          "text": "não admite formas nominais."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Defectividade diz respeito a lacunas no paradigma segundo a tradição normativa; não se confunde com impessoalidade, abundância ou transitividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q301",
+      "revision": 3,
+      "prompt": "Segundo a preferência escolar tradicional para verbos abundantes, assinale a opção mais esperada, sem transformar a preferência em regra absoluta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A comissão tinha aceita a proposta; a proposta foi aceitado."
+        },
+        {
+          "id": "b",
+          "text": "A comissão tinha aceito a proposta; a proposta foi aceitada, sempre."
+        },
+        {
+          "id": "c",
+          "text": "A comissão tinha aceitado a proposta; a proposta foi aceita."
+        },
+        {
+          "id": "d",
+          "text": "Somente “aceitado” é admitido com qualquer auxiliar."
+        },
+        {
+          "id": "e",
+          "text": "Somente “aceito” é admitido com qualquer auxiliar."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A orientação tradicional costuma preferir o particípio regular com “ter/haver” e o irregular com “ser/estar”, embora o uso real não seja reduzido a fórmula absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q302",
+      "revision": 3,
+      "prompt": "Na oração “A equipe estava revisando o texto”, a análise correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Estava” é principal; “revisando” é objeto direto."
+        },
+        {
+          "id": "b",
+          "text": "“Estava” é verbo de ligação; “revisando” é predicativo."
+        },
+        {
+          "id": "c",
+          "text": "“Revisando” é particípio; “estava” é impessoal."
+        },
+        {
+          "id": "d",
+          "text": "“Estava” é auxiliar flexionado; “revisando” é o principal no gerúndio."
+        },
+        {
+          "id": "e",
+          "text": "Não há locução verbal porque os verbos estão separados."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O auxiliar “estava” recebe as marcas de tempo, pessoa e número; “revisando” concentra o conteúdo lexical da locução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q303",
+      "revision": 3,
+      "prompt": "Compare “A servidora está cansada” e “A servidora está estudando”. Assinale a análise correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Estar” é auxiliar nas duas construções."
+        },
+        {
+          "id": "b",
+          "text": "“Estar” é intransitivo na primeira e transitivo direto na segunda."
+        },
+        {
+          "id": "c",
+          "text": "“Cansada” e “estudando” são particípios."
+        },
+        {
+          "id": "d",
+          "text": "A segunda construção não contém verbo principal."
+        },
+        {
+          "id": "e",
+          "text": "“Estar” é verbo de ligação na primeira e auxiliar na segunda."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Na primeira oração, “estar” liga o sujeito ao predicativo “cansada”; na segunda, auxilia o verbo principal “estudando”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q304",
+      "revision": 3,
+      "prompt": "Assinale a opção que apresenta locução verbal com verbo principal no infinitivo sem depender da classificação controversa de um semiauxiliar aspectual.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deve analisar"
+        },
+        {
+          "id": "b",
+          "text": "começou a análise"
+        },
+        {
+          "id": "c",
+          "text": "analisou o recurso"
+        },
+        {
+          "id": "d",
+          "text": "relatório analisado"
+        },
+        {
+          "id": "e",
+          "text": "análise concluída"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Deve analisar” reúne o auxiliar modal “deve” e o verbo principal “analisar” no infinitivo. As demais opções não formam essa locução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q305",
+      "revision": 3,
+      "prompt": "Em “A comissão aprovou o relatório”, a relação entre sujeito e processo caracteriza voz:",
+      "options": [
+        {
+          "id": "a",
+          "text": "passiva analítica, porque há particípio."
+        },
+        {
+          "id": "b",
+          "text": "ativa, porque o sujeito pratica a ação."
+        },
+        {
+          "id": "c",
+          "text": "passiva sintética, porque o sujeito é paciente."
+        },
+        {
+          "id": "d",
+          "text": "reflexiva, porque a ação retorna ao sujeito."
+        },
+        {
+          "id": "e",
+          "text": "recíproca, porque há ação mútua."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“A comissão” pratica a ação de aprovar, e “o relatório” é objeto direto; trata-se de voz ativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q306",
+      "revision": 3,
+      "prompt": "A transposição de “A comissão aprovou o relatório” para a passiva analítica, preservando sentido e relações sintáticas, é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A comissão foi aprovada pelo relatório."
+        },
+        {
+          "id": "b",
+          "text": "O relatório aprovou-se pela comissão."
+        },
+        {
+          "id": "c",
+          "text": "O relatório foi aprovado pela comissão."
+        },
+        {
+          "id": "d",
+          "text": "Aprovou-se a comissão pelo relatório."
+        },
+        {
+          "id": "e",
+          "text": "O relatório havia aprovado a comissão."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O objeto direto “o relatório” torna-se sujeito paciente; “pela comissão” pode expressar o agente da passiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q307",
+      "revision": 3,
+      "prompt": "Em “Vendem-se livros técnicos”, a análise correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“se” é índice de indeterminação, e “livros técnicos” é objeto indireto."
+        },
+        {
+          "id": "b",
+          "text": "“se” é reflexivo, e “livros técnicos” pratica a ação."
+        },
+        {
+          "id": "c",
+          "text": "o verbo deveria ficar no singular, pois toda construção com “se” é impessoal."
+        },
+        {
+          "id": "d",
+          "text": "“se” é partícula apassivadora, e “livros técnicos” é sujeito paciente."
+        },
+        {
+          "id": "e",
+          "text": "não há possibilidade de conversão para passiva analítica."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A oração admite “Livros técnicos são vendidos”. Logo, “se” é apassivador, “livros técnicos” é sujeito paciente e o verbo concorda no plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q308",
+      "revision": 3,
+      "prompt": "Em “Concederam-se bolsas aos servidores”, a passiva sintética é possível porque:",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo verbo com objeto indireto forma passiva."
+        },
+        {
+          "id": "b",
+          "text": "“aos servidores” é sujeito paciente da oração."
+        },
+        {
+          "id": "c",
+          "text": "“se” transforma qualquer verbo em impessoal."
+        },
+        {
+          "id": "d",
+          "text": "o verbo é intransitivo no contexto."
+        },
+        {
+          "id": "e",
+          "text": "“conceder” é VTDI, e seu objeto direto “bolsas” pode tornar-se sujeito paciente."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Verbos transitivos diretos e indiretos admitem passiva quando o objeto direto pode ser promovido a sujeito paciente: “Bolsas foram concedidas aos servidores”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q309",
+      "revision": 3,
+      "prompt": "Assinale a redação correta segundo a concordância da passiva sintética.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Publicaram-se os resultados."
+        },
+        {
+          "id": "b",
+          "text": "Publicou-se os resultados."
+        },
+        {
+          "id": "c",
+          "text": "Precisam-se de servidores."
+        },
+        {
+          "id": "d",
+          "text": "Houveram-se incidentes."
+        },
+        {
+          "id": "e",
+          "text": "Fazem-se dois anos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em “Publicaram-se os resultados”, “os resultados” é sujeito paciente plural. “Precisa-se de servidores” usa índice de indeterminação e singular; “haver” e “fazer” impessoais também ficam no singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q310",
+      "revision": 3,
+      "prompt": "Em “Precisa-se de apoio técnico”, o “se” funciona como:",
+      "options": [
+        {
+          "id": "a",
+          "text": "partícula apassivadora, e “de apoio técnico” é sujeito paciente."
+        },
+        {
+          "id": "b",
+          "text": "índice de indeterminação do sujeito, com verbo transitivo indireto no singular."
+        },
+        {
+          "id": "c",
+          "text": "pronome reflexivo, equivalente a “a si mesmo”."
+        },
+        {
+          "id": "d",
+          "text": "pronome recíproco."
+        },
+        {
+          "id": "e",
+          "text": "parte integrante de uma locução passiva analítica."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Precisar de” é VTI; não há objeto direto que possa tornar-se sujeito paciente. O “se” indetermina o sujeito, e o verbo fica na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q311",
+      "revision": 3,
+      "prompt": "Em “Vive-se bem nesta cidade”, a análise adequada é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“se” apassiva a oração, e “bem” é sujeito paciente."
+        },
+        {
+          "id": "b",
+          "text": "“se” é reflexivo, pois a cidade vive a si mesma."
+        },
+        {
+          "id": "c",
+          "text": "“se” indetermina o sujeito de um verbo intransitivo, mantido no singular."
+        },
+        {
+          "id": "d",
+          "text": "“vive” deveria concordar com “cidade”."
+        },
+        {
+          "id": "e",
+          "text": "há passiva analítica reduzida."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Viver”, nesse uso, é intransitivo; “bem” é adjunto adverbial e “nesta cidade” indica lugar. O “se” é índice de indeterminação do sujeito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q312",
+      "revision": 3,
+      "prompt": "Em “A candidata se feriu durante a prova”, o teste que confirma o valor reflexivo do “se” é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "converter a oração em “A candidata foi ferida” obrigatoriamente."
+        },
+        {
+          "id": "b",
+          "text": "identificar objeto indireto introduzido por “de”."
+        },
+        {
+          "id": "c",
+          "text": "manter o verbo sempre no singular impessoal."
+        },
+        {
+          "id": "d",
+          "text": "substituí-lo por “a si mesma” sem alterar o sentido básico."
+        },
+        {
+          "id": "e",
+          "text": "trocar “se” por “uns aos outros”."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Na construção reflexiva, sujeito pratica e recebe a ação; “A candidata feriu a si mesma” preserva essa relação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q313",
+      "revision": 3,
+      "prompt": "Em “Os servidores se cumprimentaram ao chegar”, o “se” indica:",
+      "options": [
+        {
+          "id": "a",
+          "text": "passiva sintética, pois os servidores são pacientes."
+        },
+        {
+          "id": "b",
+          "text": "sujeito indeterminado."
+        },
+        {
+          "id": "c",
+          "text": "impessoalidade do verbo."
+        },
+        {
+          "id": "d",
+          "text": "reflexividade individual obrigatória."
+        },
+        {
+          "id": "e",
+          "text": "reciprocidade, pois a ação é mútua."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O plural permite a leitura de ação mútua: cada servidor cumprimentou o outro. O “se” tem valor recíproco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q314",
+      "revision": 3,
+      "prompt": "Considere: I. “Vendem-se imóveis.” II. “Precisa-se de avaliadores.” III. “Os avaliadores se cumprimentaram.” A sequência correta dos valores de “se” é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "partícula apassivadora — índice de indeterminação — pronome recíproco."
+        },
+        {
+          "id": "b",
+          "text": "índice de indeterminação — partícula apassivadora — pronome reflexivo."
+        },
+        {
+          "id": "c",
+          "text": "pronome reflexivo — índice de indeterminação — partícula apassivadora."
+        },
+        {
+          "id": "d",
+          "text": "partícula apassivadora — pronome reflexivo — índice de indeterminação."
+        },
+        {
+          "id": "e",
+          "text": "índice de indeterminação — pronome recíproco — partícula apassivadora."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "I admite “Imóveis são vendidos”; II traz VTI e sujeito indeterminado; III expressa ação mútua entre avaliadores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q315",
+      "revision": 3,
+      "prompt": "Em “A equipe revisou o texto”, a predicação de “revisou” é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "transitiva indireta, pois há preposição implícita."
+        },
+        {
+          "id": "b",
+          "text": "transitiva direta, pois “o texto” é objeto direto."
+        },
+        {
+          "id": "c",
+          "text": "direta e indireta, pois há dois complementos."
+        },
+        {
+          "id": "d",
+          "text": "intransitiva, pois a oração possui sentido completo."
+        },
+        {
+          "id": "e",
+          "text": "de ligação, pois “texto” é predicativo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Revisar” seleciona, no contexto, o objeto direto “o texto”, sem preposição obrigatória. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q316",
+      "revision": 3,
+      "prompt": "Em “A equipe precisa de tempo”, a expressão “de tempo” exerce a função de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "sujeito paciente de uma passiva sintética."
+        },
+        {
+          "id": "b",
+          "text": "objeto direto preposicionado obrigatório."
+        },
+        {
+          "id": "c",
+          "text": "objeto indireto de um verbo transitivo indireto."
+        },
+        {
+          "id": "d",
+          "text": "predicativo do sujeito."
+        },
+        {
+          "id": "e",
+          "text": "agente da passiva."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "No sentido de necessitar, “precisar” rege a preposição “de”; “de tempo” é objeto indireto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q317",
+      "revision": 3,
+      "prompt": "Em “A equipe entregou o relatório à chefia”, a análise adequada é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "verbo transitivo direto, com dois objetos diretos."
+        },
+        {
+          "id": "b",
+          "text": "verbo transitivo indireto, sem objeto direto."
+        },
+        {
+          "id": "c",
+          "text": "verbo intransitivo, com dois adjuntos adverbiais."
+        },
+        {
+          "id": "d",
+          "text": "verbo transitivo direto e indireto, com “o relatório” como objeto direto e “à chefia” como objeto indireto."
+        },
+        {
+          "id": "e",
+          "text": "verbo de ligação, com predicativo composto."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "“Entregou” seleciona o que foi entregue (“o relatório”) e a quem foi entregue (“à chefia”), configurando VTDI. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q318",
+      "revision": 3,
+      "prompt": "Assinale a opção em que o verbo destacado é intransitivo no contexto.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A equipe revisou o texto."
+        },
+        {
+          "id": "b",
+          "text": "A equipe precisa de apoio."
+        },
+        {
+          "id": "c",
+          "text": "A comissão entregou o parecer à chefia."
+        },
+        {
+          "id": "d",
+          "text": "A candidata parece preparada."
+        },
+        {
+          "id": "e",
+          "text": "O bebê dormiu."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Em “O bebê dormiu”, o verbo não exige complemento. As demais opções trazem VTD, VTI, VTDI e verbo de ligação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q319",
+      "revision": 3,
+      "prompt": "Em “A candidata parece preparada”, “preparada” é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "predicativo do sujeito, ligado por “parece”."
+        },
+        {
+          "id": "b",
+          "text": "objeto direto de “parece”."
+        },
+        {
+          "id": "c",
+          "text": "objeto indireto sem preposição."
+        },
+        {
+          "id": "d",
+          "text": "agente da passiva."
+        },
+        {
+          "id": "e",
+          "text": "verbo principal de uma locução."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Parece” funciona como verbo de ligação e relaciona o sujeito “a candidata” ao predicativo “preparada”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q320",
+      "revision": 3,
+      "prompt": "Compare “A relatora escreveu o parecer” e “A relatora escreve bem”. A conclusão correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Escrever” é sempre VTD, e “bem” é objeto direto."
+        },
+        {
+          "id": "b",
+          "text": "a transitividade de “escrever” varia conforme a ocorrência: VTD no primeiro caso e possível VI no segundo."
+        },
+        {
+          "id": "c",
+          "text": "“Escrever” é sempre intransitivo."
+        },
+        {
+          "id": "d",
+          "text": "“O parecer” e “bem” são predicativos."
+        },
+        {
+          "id": "e",
+          "text": "as duas formas integram locuções verbais."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "No primeiro período, “o parecer” é objeto direto. No segundo, o verbo pode ser intransitivo e “bem” é adjunto adverbial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q321",
+      "revision": 3,
+      "prompt": "A passiva não pode ser formada a partir de “A equipe precisa de apoio” porque:",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo verbo com preposição é impessoal."
+        },
+        {
+          "id": "b",
+          "text": "“apoio” já é sujeito paciente."
+        },
+        {
+          "id": "c",
+          "text": "“precisar de” é VTI e não possui objeto direto que possa tornar-se sujeito paciente."
+        },
+        {
+          "id": "d",
+          "text": "a oração está na voz reflexiva."
+        },
+        {
+          "id": "e",
+          "text": "verbos no presente não admitem passiva."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A formação da passiva exige objeto direto. Como “de apoio” é objeto indireto, não há termo que possa ser promovido a sujeito paciente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q322",
+      "revision": 3,
+      "prompt": "Em “Havia recursos para revisão”, a forma singular de “havia” se explica porque:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“recursos” é sujeito oculto singular."
+        },
+        {
+          "id": "b",
+          "text": "“haver” é auxiliar de “revisão”."
+        },
+        {
+          "id": "c",
+          "text": "todo verbo no pretérito fica no singular."
+        },
+        {
+          "id": "d",
+          "text": "“haver” equivale a “existir” e é impessoal."
+        },
+        {
+          "id": "e",
+          "text": "a oração está na passiva sintética."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "No sentido existencial, “haver” forma oração sem sujeito e permanece na terceira pessoa do singular; “recursos” não é sujeito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q323",
+      "revision": 3,
+      "prompt": "Em “Houve incidentes durante a sessão”, a análise correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“incidentes” é sujeito plural, e a forma correta seria “houveram”."
+        },
+        {
+          "id": "b",
+          "text": "“houve” é auxiliar de um verbo omitido."
+        },
+        {
+          "id": "c",
+          "text": "a construção é passiva analítica."
+        },
+        {
+          "id": "d",
+          "text": "o verbo é de ligação."
+        },
+        {
+          "id": "e",
+          "text": "“haver” equivale a “ocorrer” e é impessoal."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "“Haver”, no sentido de ocorrer, é impessoal; por isso permanece no singular e “incidentes” não funciona como sujeito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q324",
+      "revision": 3,
+      "prompt": "Assinale a opção correta quanto ao emprego de “haver”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Há dois anos estudo para o concurso."
+        },
+        {
+          "id": "b",
+          "text": "Hão dois anos estudo para o concurso."
+        },
+        {
+          "id": "c",
+          "text": "Haviam dois anos que eu estudava."
+        },
+        {
+          "id": "d",
+          "text": "Houveram muitos recursos."
+        },
+        {
+          "id": "e",
+          "text": "Devem haver alternativas."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Haver” indicando tempo decorrido é impessoal e fica no singular. O mesmo vale para o uso existencial e para o auxiliar que acompanha “haver” impessoal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q325",
+      "revision": 3,
+      "prompt": "Em “Faz dois anos que estudo” e “Fez calor durante a prova”, o verbo “fazer” é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "pessoal nos dois casos, concordando com “anos” e “calor”."
+        },
+        {
+          "id": "b",
+          "text": "impessoal nos dois casos, por indicar tempo decorrido e clima."
+        },
+        {
+          "id": "c",
+          "text": "auxiliar no primeiro e de ligação no segundo."
+        },
+        {
+          "id": "d",
+          "text": "transitivo direto nos dois casos."
+        },
+        {
+          "id": "e",
+          "text": "reflexivo no primeiro e recíproco no segundo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "“Fazer” com valor temporal ou climático integra oração sem sujeito e permanece na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q326",
+      "revision": 3,
+      "prompt": "Compare “Choveu durante a prova” e “Choveram pedidos de revisão”. A análise correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ambos são impessoais e deveriam ficar no singular."
+        },
+        {
+          "id": "b",
+          "text": "ambos possuem sujeito oculto."
+        },
+        {
+          "id": "c",
+          "text": "o primeiro uso é impessoal e literal; o segundo é figurado, pessoal e concorda com “pedidos”."
+        },
+        {
+          "id": "d",
+          "text": "o primeiro é verbo de ligação e o segundo, auxiliar."
+        },
+        {
+          "id": "e",
+          "text": "o plural no segundo é inadequado em qualquer contexto."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Fenômeno natural em sentido próprio é impessoal. No uso figurado, “pedidos” funciona como sujeito e determina a concordância plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q327",
+      "revision": 3,
+      "prompt": "Assinale a construção adequada segundo a impessoalidade do verbo principal.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Devem haver candidatos."
+        },
+        {
+          "id": "b",
+          "text": "Deve haverem candidatos."
+        },
+        {
+          "id": "c",
+          "text": "Houveram candidatos."
+        },
+        {
+          "id": "d",
+          "text": "Deve haver candidatos."
+        },
+        {
+          "id": "e",
+          "text": "Devem haverem candidatos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Quando “haver” existencial é o verbo principal da locução, sua impessoalidade alcança o auxiliar: “deve haver”. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q328",
+      "revision": 3,
+      "prompt": "Em “Pode fazer meses que ele não volta”, o singular de “pode” decorre do fato de que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo auxiliar é invariável."
+        },
+        {
+          "id": "b",
+          "text": "“meses” é objeto direto singular."
+        },
+        {
+          "id": "c",
+          "text": "a construção está na voz passiva."
+        },
+        {
+          "id": "d",
+          "text": "“fazer” é substantivo."
+        },
+        {
+          "id": "e",
+          "text": "o principal “fazer” indica tempo e é impessoal."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A impessoalidade de “fazer” temporal transmite-se ao auxiliar da locução, que permanece na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q329",
+      "revision": 3,
+      "prompt": "Compare “Existem alternativas” e “Há alternativas”. A análise correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "“existir” é pessoal e concorda com “alternativas”; “haver” existencial é impessoal."
+        },
+        {
+          "id": "b",
+          "text": "os dois verbos são impessoais e devem permanecer no singular."
+        },
+        {
+          "id": "c",
+          "text": "os dois verbos são pessoais e devem concordar no plural."
+        },
+        {
+          "id": "d",
+          "text": "“alternativas” é objeto direto nas duas orações."
+        },
+        {
+          "id": "e",
+          "text": "as duas construções estão na voz passiva."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Existir” possui sujeito e concorda com ele; “haver” no sentido de existir forma oração sem sujeito e fica no singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q330",
+      "revision": 3,
+      "prompt": "Assinale a opção que distingue corretamente “haver” auxiliar de “haver” impessoal.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Os candidatos havia estudado; haviam candidatos na sala."
+        },
+        {
+          "id": "b",
+          "text": "Os candidatos haviam estudado; havia candidatos na sala."
+        },
+        {
+          "id": "c",
+          "text": "Os candidatos houveram estudado; houveram candidatos na sala."
+        },
+        {
+          "id": "d",
+          "text": "Os candidatos haviam estudado; haviam candidatos na sala."
+        },
+        {
+          "id": "e",
+          "text": "Os candidatos havia estudado; havia candidatos na sala."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em “haviam estudado”, “haver” é auxiliar e concorda com o sujeito plural. Em “havia candidatos”, é existencial e impessoal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q331",
+      "revision": 3,
+      "prompt": "Em “São duas horas”, o plural de “ser” mostra que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "toda oração sem sujeito exige verbo no plural."
+        },
+        {
+          "id": "b",
+          "text": "“duas horas” é objeto direto de “são”."
+        },
+        {
+          "id": "c",
+          "text": "o verbo “ser” admite ressalvas tradicionais de concordância em indicações de horas."
+        },
+        {
+          "id": "d",
+          "text": "“ser” deixou de ser verbo."
+        },
+        {
+          "id": "e",
+          "text": "a oração está na passiva analítica."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Embora verbos impessoais fiquem em regra no singular, “ser” apresenta construções tradicionais especiais em indicações de horas, distâncias e quantidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q332",
+      "revision": 3,
+      "prompt": "Considere a reescrita de “Vendem-se relatórios” para “Relatórios são vendidos”. A transformação:",
+      "options": [
+        {
+          "id": "a",
+          "text": "transforma índice de indeterminação em voz reflexiva."
+        },
+        {
+          "id": "b",
+          "text": "é impossível porque “vender” é VTI."
+        },
+        {
+          "id": "c",
+          "text": "altera “relatórios” de objeto indireto para agente da passiva."
+        },
+        {
+          "id": "d",
+          "text": "confirma a passiva sintética e preserva “relatórios” como sujeito paciente."
+        },
+        {
+          "id": "e",
+          "text": "prova que o verbo da primeira oração deveria estar no singular."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A equivalência com “ser + particípio” confirma a partícula apassivadora; “relatórios” é sujeito paciente nas duas construções e determina o plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q333",
+      "revision": 3,
+      "prompt": "Considere: I. “É preciso eu estudar.” II. “Concederam-se bolsas aos servidores.” III. “Devem existir alternativas.” IV. “Deve haver alternativas.” Assinale a análise correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "I traz infinitivo necessariamente impessoal; II contém sujeito indeterminado; III e IV usam verbos impessoais."
+        },
+        {
+          "id": "b",
+          "text": "I está no futuro do subjuntivo; II é reflexiva; III está incorreta; IV exige “devem”."
+        },
+        {
+          "id": "c",
+          "text": "I contém infinitivo substantivado; II não admite passiva; III e IV devem ficar no singular."
+        },
+        {
+          "id": "d",
+          "text": "I, II, III e IV apresentam sujeito indeterminado."
+        },
+        {
+          "id": "e",
+          "text": "I traz infinitivo pessoal singular; II é passiva sintética com VTDI; III usa “existir” pessoal; IV conserva “haver” impessoal."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O contexto identifica o infinitivo pessoal em I; o objeto direto “bolsas” vira sujeito paciente em II; “existir” concorda com seu sujeito em III; “haver” existencial permanece impessoal em IV. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q334",
+      "revision": 1,
+      "prompt": "Na forma verbal “partiremos”, a segmentação morfológica mais adequada identifica",
+      "options": [
+        {
+          "id": "a",
+          "text": "o radical `part-`, a vogal temática `-i-` e a desinência número-pessoal `-mos`."
+        },
+        {
+          "id": "b",
+          "text": "o radical `parti-` e a vogal temática `-r-`."
+        },
+        {
+          "id": "c",
+          "text": "apenas um radical, sem desinências flexionais."
+        },
+        {
+          "id": "d",
+          "text": "o prefixo `par-`, o radical `-tir-` e o sufixo nominal `-mos`."
+        },
+        {
+          "id": "e",
+          "text": "uma forma nominal, porque termina em `-mos`."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em `partiremos`, `part-` concentra o conteúdo lexical; `-i-` integra o tema da terceira conjugação; `-mos` marca a primeira pessoa do plural. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q335",
+      "revision": 1,
+      "prompt": "Assinale a opção correta sobre formas rizotônicas e arrizotônicas.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ambas são arrizotônicas porque pertencem à primeira conjugação."
+        },
+        {
+          "id": "b",
+          "text": "Em `canto`, a tonicidade recai no radical; em `cantamos`, recai fora dele."
+        },
+        {
+          "id": "c",
+          "text": "Em `canto`, a tonicidade recai na desinência número-pessoal."
+        },
+        {
+          "id": "d",
+          "text": "Em `cantamos`, a tonicidade recai no radical `cant-`."
+        },
+        {
+          "id": "e",
+          "text": "A distinção depende do modo verbal, não da posição do acento tônico."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A classificação observa onde recai a tonicidade: no radical, a forma é rizotônica; fora dele, arrizotônica. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q336",
+      "revision": 1,
+      "prompt": "Em “os técnicos haviam concluído o exame”, a forma `haviam` deve ser classificada como",
+      "options": [
+        {
+          "id": "a",
+          "text": "verbo existencial impessoal, obrigatoriamente no singular."
+        },
+        {
+          "id": "b",
+          "text": "verbo principal de sentido possessivo."
+        },
+        {
+          "id": "c",
+          "text": "verbo auxiliar pessoal, flexionado de acordo com o sujeito plural."
+        },
+        {
+          "id": "d",
+          "text": "partícula de realce da locução."
+        },
+        {
+          "id": "e",
+          "text": "verbo defectivo sem sujeito."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "`Haver + particípio` forma tempo composto; o auxiliar recebe a flexão do sujeito. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — TCE/ES, conhecimentos básicos, 2013, Q360547: https://www.qconcursos.com/questoes-de-concursos/questoes/749e884a-ab."
+    },
+    {
+      "id": "q337",
+      "revision": 1,
+      "prompt": "A respeito do verbo `pôr`, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ele constitui sozinho a quarta conjugação."
+        },
+        {
+          "id": "b",
+          "text": "Ele pertence à terceira conjugação por terminar graficamente em `-or`."
+        },
+        {
+          "id": "c",
+          "text": "Ele é invariável e não possui vogal temática."
+        },
+        {
+          "id": "d",
+          "text": "Na tradição gramatical, ele e seus derivados pertencem à segunda conjugação."
+        },
+        {
+          "id": "e",
+          "text": "Seus derivados são sempre regulares."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A forma histórica relaciona `pôr` à segunda conjugação; não se cria uma quarta conjugação. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q338",
+      "revision": 1,
+      "prompt": "Em “os cães latiram durante a noite”, o verbo `latir`, no emprego apresentado, é tradicionalmente considerado",
+      "options": [
+        {
+          "id": "a",
+          "text": "impessoal, porque designa voz de animal."
+        },
+        {
+          "id": "b",
+          "text": "pronominal, porque exige pronome reflexivo."
+        },
+        {
+          "id": "c",
+          "text": "defectivo, porque só admite singular."
+        },
+        {
+          "id": "d",
+          "text": "auxiliar, porque acompanha expressão temporal."
+        },
+        {
+          "id": "e",
+          "text": "unipessoal, mas a oração possui sujeito e concordância verbal."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Verbo unipessoal é usado sobretudo na terceira pessoa, mas possui sujeito; não se confunde com impessoal. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q339",
+      "revision": 1,
+      "prompt": "Em “ela se arrependeu da decisão”, o pronome `se`",
+      "options": [
+        {
+          "id": "a",
+          "text": "integra um verbo pronominal e não exprime necessariamente ação reflexiva."
+        },
+        {
+          "id": "b",
+          "text": "é partícula apassivadora, pois permite `foi arrependida`."
+        },
+        {
+          "id": "c",
+          "text": "indetermina o sujeito de um verbo transitivo indireto."
+        },
+        {
+          "id": "d",
+          "text": "é pronome recíproco, equivalente a `uma à outra`."
+        },
+        {
+          "id": "e",
+          "text": "é conjunção condicional."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "`Arrepender-se` é verbo essencialmente pronominal; o teste `a si mesma` não reproduz adequadamente a estrutura. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — Instituto Rio Branco, Diplomata, 2014, Q389573: https://www.qconcursos.com/questoes-de-concursos/questoes/0c62331e-ed."
+    },
+    {
+      "id": "q340",
+      "revision": 1,
+      "prompt": "Um verbo pode ser simultaneamente irregular e auxiliar porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo auxiliar é, por definição, regular."
+        },
+        {
+          "id": "b",
+          "text": "as classificações consideram critérios diferentes e podem coexistir na mesma ocorrência."
+        },
+        {
+          "id": "c",
+          "text": "irregularidade e função auxiliar se excluem."
+        },
+        {
+          "id": "d",
+          "text": "auxiliar é uma conjugação verbal autônoma."
+        },
+        {
+          "id": "e",
+          "text": "a irregularidade só existe no infinitivo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Regularidade descreve o paradigma; função auxiliar descreve o papel sintático-semântico na construção. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q341",
+      "revision": 1,
+      "prompt": "Em “a multidão vociferou contra a decisão”, a classificação tradicional de `vociferar` como unipessoal",
+      "options": [
+        {
+          "id": "a",
+          "text": "obriga o verbo a permanecer sempre na terceira pessoa do singular."
+        },
+        {
+          "id": "b",
+          "text": "transforma a oração em oração sem sujeito."
+        },
+        {
+          "id": "c",
+          "text": "não elimina o sujeito expresso nem impede a concordância no plural em outro contexto."
+        },
+        {
+          "id": "d",
+          "text": "faz do verbo um auxiliar aspectual."
+        },
+        {
+          "id": "e",
+          "text": "impede qualquer uso figurado."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Unipessoalidade é uma restrição de uso típica, não impessoalidade sintática. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q342",
+      "revision": 1,
+      "prompt": "A forma `faço`, em relação a `fazer`, exemplifica",
+      "options": [
+        {
+          "id": "a",
+          "text": "defectividade, porque falta a primeira pessoa."
+        },
+        {
+          "id": "b",
+          "text": "abundância, porque existem dois particípios."
+        },
+        {
+          "id": "c",
+          "text": "impessoalidade, porque o verbo não possui sujeito."
+        },
+        {
+          "id": "d",
+          "text": "irregularidade no radical de parte do paradigma."
+        },
+        {
+          "id": "e",
+          "text": "regularidade integral da segunda conjugação."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A alteração `faz-`/`faç-` mostra que a irregularidade pode ser localizada. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q343",
+      "revision": 1,
+      "prompt": "Em “é necessário revisar os dados”, a forma `revisar` é",
+      "options": [
+        {
+          "id": "a",
+          "text": "forma finita no presente do indicativo."
+        },
+        {
+          "id": "b",
+          "text": "particípio com valor adjetivo."
+        },
+        {
+          "id": "c",
+          "text": "gerúndio reduzido."
+        },
+        {
+          "id": "d",
+          "text": "desinência modo-temporal do verbo `necessitar`."
+        },
+        {
+          "id": "e",
+          "text": "infinitivo, forma não finita que introduz o processo sem marcas completas de pessoa, tempo e modo."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O infinitivo é forma não finita, ainda que possa exercer funções sintáticas e conservar complementos. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre formas nominais do verbo: https://www.qconcursos.com/questoes-militares/disciplinas/letras-portugues/formas-nominais-do-verbo-participio-gerundio-infinitivo/questoes."
+    },
+    {
+      "id": "q344",
+      "revision": 1,
+      "prompt": "Na frase “antes de os analistas emitirem o parecer”, a redação formal preserva `de os` porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "a preposição rege o infinitivo, e `os analistas` funciona como sujeito de `emitirem`."
+        },
+        {
+          "id": "b",
+          "text": "o artigo masculino nunca pode contrair-se com preposição."
+        },
+        {
+          "id": "c",
+          "text": "a forma `emitirem` é gerúndio."
+        },
+        {
+          "id": "d",
+          "text": "a contração é proibida diante de qualquer substantivo."
+        },
+        {
+          "id": "e",
+          "text": "o termo `os analistas` é objeto direto de `antes`."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A separação evidencia o sujeito próprio do infinitivo pessoal. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre infinitivo pessoal e impessoal: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=1&has_professor_commentaries=true&subject_ids%5B%5D=16185."
+    },
+    {
+      "id": "q345",
+      "revision": 1,
+      "prompt": "Em “os servidores devem analisar os recursos”, substituir `analisar` por `analisarem`",
+      "options": [
+        {
+          "id": "a",
+          "text": "é obrigatória porque o sujeito está no plural."
+        },
+        {
+          "id": "b",
+          "text": "rompe a unidade da locução, pois a flexão de pessoa e número já aparece no auxiliar."
+        },
+        {
+          "id": "c",
+          "text": "transforma corretamente a construção em passiva."
+        },
+        {
+          "id": "d",
+          "text": "é facultativa sem qualquer efeito estrutural."
+        },
+        {
+          "id": "e",
+          "text": "faz de `devem` um verbo impessoal."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Em locução com o mesmo sujeito, o infinitivo principal permanece impessoal e o auxiliar recebe a flexão. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre infinitivo pessoal e impessoal: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=1&has_professor_commentaries=true&subject_ids%5B%5D=16185."
+    },
+    {
+      "id": "q346",
+      "revision": 1,
+      "prompt": "No trecho “a capacidade das pessoas de ter acesso”, a troca de `ter` por `terem`",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre obrigatória porque `pessoas` está no plural."
+        },
+        {
+          "id": "b",
+          "text": "é sempre proibida após preposição."
+        },
+        {
+          "id": "c",
+          "text": "pode ser aceita conforme a análise do sujeito do infinitivo e o foco da construção."
+        },
+        {
+          "id": "d",
+          "text": "muda o infinitivo para particípio."
+        },
+        {
+          "id": "e",
+          "text": "torna `capacidade` sujeito de `terem`."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O Cebraspe já admitiu a alternância em estrutura semelhante; a flexão do infinitivo depende da análise sintática e discursiva. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — MPOG, Analista de Infraestrutura, 2012, Q251972: https://www.qconcursos.com/questoes-de-concursos/questoes/900dc307-e6."
+    },
+    {
+      "id": "q347",
+      "revision": 1,
+      "prompt": "Assinale a frase em que o infinitivo pessoal está adequadamente empregado para distinguir os agentes.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Os técnicos devem revisarem os cálculos."
+        },
+        {
+          "id": "b",
+          "text": "Os técnicos podem revisarem o relatório."
+        },
+        {
+          "id": "c",
+          "text": "O diretor vai revisarem os cálculos."
+        },
+        {
+          "id": "d",
+          "text": "O diretor autorizou os técnicos a revisarem os cálculos."
+        },
+        {
+          "id": "e",
+          "text": "Os técnicos haviam revisarem os cálculos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Com sujeitos distintos — diretor autoriza, técnicos revisam — a flexão explicita o agente do infinitivo. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre infinitivo pessoal e impessoal: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=1&has_professor_commentaries=true&subject_ids%5B%5D=16185."
+    },
+    {
+      "id": "q348",
+      "revision": 1,
+      "prompt": "Em “concluído o exame, a equipe publicou o resultado”, `concluído`",
+      "options": [
+        {
+          "id": "a",
+          "text": "é infinitivo pessoal com sujeito oculto."
+        },
+        {
+          "id": "b",
+          "text": "é gerúndio de valor progressivo."
+        },
+        {
+          "id": "c",
+          "text": "é verbo finito no pretérito perfeito."
+        },
+        {
+          "id": "d",
+          "text": "é auxiliar modal."
+        },
+        {
+          "id": "e",
+          "text": "é particípio em oração reduzida e conserva relação com o processo de concluir."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O particípio pode introduzir oração reduzida e exprimir anterioridade ou estado resultante. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — PC/PB, cargos de apoio pericial, 2009, Q151010: https://www.qconcursos.com/questoes-de-concursos/questoes/d3ad9766-a8."
+    },
+    {
+      "id": "q349",
+      "revision": 1,
+      "prompt": "Na sequência “tocar, escutar e despejando”, as formas nominais são, respectivamente,",
+      "options": [
+        {
+          "id": "a",
+          "text": "infinitivo, infinitivo e gerúndio."
+        },
+        {
+          "id": "b",
+          "text": "particípio, infinitivo e particípio."
+        },
+        {
+          "id": "c",
+          "text": "infinitivo, gerúndio e particípio."
+        },
+        {
+          "id": "d",
+          "text": "gerúndio, gerúndio e infinitivo."
+        },
+        {
+          "id": "e",
+          "text": "formas finitas do indicativo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "As terminações `-ar/-er/-ir` caracterizam infinitivo; `-ndo`, gerúndio. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre formas nominais do verbo: https://www.qconcursos.com/questoes-militares/disciplinas/letras-portugues/formas-nominais-do-verbo-participio-gerundio-infinitivo/questoes."
+    },
+    {
+      "id": "q350",
+      "revision": 1,
+      "prompt": "Em “o documento está assinado”, o particípio `assinado`",
+      "options": [
+        {
+          "id": "a",
+          "text": "forma obrigatoriamente tempo composto ativo."
+        },
+        {
+          "id": "b",
+          "text": "pode focalizar o estado resultante, e não necessariamente um evento passivo equivalente a `foi assinado`."
+        },
+        {
+          "id": "c",
+          "text": "é infinitivo flexionado."
+        },
+        {
+          "id": "d",
+          "text": "torna `estar` impessoal."
+        },
+        {
+          "id": "e",
+          "text": "é sempre particípio irregular."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A combinação `estar + particípio` tende à leitura resultativa ou adjetival, conforme o contexto. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre formas nominais do verbo: https://www.qconcursos.com/questoes-militares/disciplinas/letras-portugues/formas-nominais-do-verbo-participio-gerundio-infinitivo/questoes."
+    },
+    {
+      "id": "q351",
+      "revision": 1,
+      "prompt": "Na oração “ao terminar a reunião, a comissão publicou a ata”, o infinitivo `terminar` exprime",
+      "options": [
+        {
+          "id": "a",
+          "text": "sujeito indeterminado da oração principal."
+        },
+        {
+          "id": "b",
+          "text": "voz passiva sintética."
+        },
+        {
+          "id": "c",
+          "text": "circunstância temporal em oração reduzida."
+        },
+        {
+          "id": "d",
+          "text": "predicado nominal sem verbo."
+        },
+        {
+          "id": "e",
+          "text": "tempo composto do indicativo."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "`Ao + infinitivo` frequentemente introduz relação temporal. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — Câmara dos Deputados, Analista Legislativo, 2012, Q281920: https://www.qconcursos.com/questoes-de-concursos/questoes/6d8753f7-46."
+    },
+    {
+      "id": "q352",
+      "revision": 1,
+      "prompt": "Em “para aprimorar o serviço, o órgão revisou o fluxo”, o infinitivo introduz",
+      "options": [
+        {
+          "id": "a",
+          "text": "causa necessária."
+        },
+        {
+          "id": "b",
+          "text": "concessão."
+        },
+        {
+          "id": "c",
+          "text": "voz passiva."
+        },
+        {
+          "id": "d",
+          "text": "finalidade."
+        },
+        {
+          "id": "e",
+          "text": "comparação."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "`Para + infinitivo` pode introduzir oração reduzida de finalidade. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — Câmara dos Deputados, Analista Legislativo, 2012, Q281920: https://www.qconcursos.com/questoes-de-concursos/questoes/6d8753f7-46."
+    },
+    {
+      "id": "q353",
+      "revision": 1,
+      "prompt": "Assinale a opção em que o gerúndio expressa ação simultânea e não vício automático de linguagem.",
+      "options": [
+        {
+          "id": "a",
+          "text": "O setor vai estar enviando o documento amanhã, em cadeia desnecessária."
+        },
+        {
+          "id": "b",
+          "text": "O processo foi analisado ontem."
+        },
+        {
+          "id": "c",
+          "text": "Os gestores devem analisar o caso."
+        },
+        {
+          "id": "d",
+          "text": "A equipe havia concluído o relatório."
+        },
+        {
+          "id": "e",
+          "text": "O servidor conferiu os dados, comparando-os com a base oficial."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O gerúndio é legítimo quando exprime processo em curso, modo ou simultaneidade; o problema é o uso inadequado, não a forma em si. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre formas nominais do verbo: https://www.qconcursos.com/questoes-militares/disciplinas/letras-portugues/formas-nominais-do-verbo-participio-gerundio-infinitivo/questoes."
+    },
+    {
+      "id": "q354",
+      "revision": 1,
+      "prompt": "Em “é importante os candidatos conhecerem o regulamento”, `conhecerem`",
+      "options": [
+        {
+          "id": "a",
+          "text": "é infinitivo pessoal cujo sujeito é `os candidatos`."
+        },
+        {
+          "id": "b",
+          "text": "é futuro do subjuntivo."
+        },
+        {
+          "id": "c",
+          "text": "é terceira pessoa do plural do presente do indicativo."
+        },
+        {
+          "id": "d",
+          "text": "integra locução com `é`."
+        },
+        {
+          "id": "e",
+          "text": "é particípio abundante."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A forma flexionada do infinitivo recebe sujeito próprio na oração reduzida. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre infinitivo pessoal e impessoal: https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=1&has_professor_commentaries=true&subject_ids%5B%5D=16185."
+    },
+    {
+      "id": "q355",
+      "revision": 1,
+      "prompt": "A forma nominal que pode atuar como adjetivo e participar de passiva ou tempo composto é",
+      "options": [
+        {
+          "id": "a",
+          "text": "o gerúndio apenas."
+        },
+        {
+          "id": "b",
+          "text": "o particípio."
+        },
+        {
+          "id": "c",
+          "text": "o infinitivo impessoal apenas."
+        },
+        {
+          "id": "d",
+          "text": "a desinência modo-temporal."
+        },
+        {
+          "id": "e",
+          "text": "o radical verbal."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O particípio aparece em `foi aprovado`, `tinha aprovado` e `documento aprovado`, com funções distintas. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — PC/PB, cargos de apoio pericial, 2009, Q151010: https://www.qconcursos.com/questoes-de-concursos/questoes/d3ad9766-a8."
+    },
+    {
+      "id": "q356",
+      "revision": 1,
+      "prompt": "Em “os candidatos hão de estudar”, `hão`",
+      "options": [
+        {
+          "id": "a",
+          "text": "é `haver` existencial impessoal e deveria ficar no singular."
+        },
+        {
+          "id": "b",
+          "text": "é verbo principal de posse."
+        },
+        {
+          "id": "c",
+          "text": "é auxiliar flexionado, com valor de futuridade ou compromisso."
+        },
+        {
+          "id": "d",
+          "text": "é partícula apassivadora."
+        },
+        {
+          "id": "e",
+          "text": "é forma nominal do particípio."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "`Haver de + infinitivo` não é construção existencial; o auxiliar concorda com o sujeito. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — CLDF, 2005, questão sobre infinitivo e `haver de`: https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/893866."
+    },
+    {
+      "id": "q357",
+      "revision": 1,
+      "prompt": "Em “há de haver alternativas”, a análise correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ambos são existenciais e devem permanecer no singular por idêntica razão."
+        },
+        {
+          "id": "b",
+          "text": "ambos são auxiliares pessoais."
+        },
+        {
+          "id": "c",
+          "text": "o primeiro é particípio e o segundo, gerúndio."
+        },
+        {
+          "id": "d",
+          "text": "o primeiro `haver` é auxiliar; o segundo é existencial impessoal."
+        },
+        {
+          "id": "e",
+          "text": "a construção contém dois sujeitos expressos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A impessoalidade pertence ao `haver` existencial principal; o primeiro elemento integra a perífrase modal. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — CLDF, 2005, questão sobre infinitivo e `haver de`: https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/893866."
+    },
+    {
+      "id": "q358",
+      "revision": 1,
+      "prompt": "Na frase “os relatórios vinham sendo revisados”, há",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas um verbo lexical sem locução."
+        },
+        {
+          "id": "b",
+          "text": "dois verbos impessoais."
+        },
+        {
+          "id": "c",
+          "text": "voz ativa simples no presente."
+        },
+        {
+          "id": "d",
+          "text": "infinitivo pessoal."
+        },
+        {
+          "id": "e",
+          "text": "cadeia de auxiliares que combina desenvolvimento progressivo e voz passiva."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "`Vir + gerúndio` exprime desenvolvimento; `ser + particípio`, passiva. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q359",
+      "revision": 1,
+      "prompt": "Em “o servidor deseja estudar”, a sequência verbal",
+      "options": [
+        {
+          "id": "a",
+          "text": "não deve ser classificada automaticamente como locução; `desejar` conserva sentido lexical."
+        },
+        {
+          "id": "b",
+          "text": "é sempre tempo composto."
+        },
+        {
+          "id": "c",
+          "text": "é passiva analítica."
+        },
+        {
+          "id": "d",
+          "text": "torna o infinitivo pessoal."
+        },
+        {
+          "id": "e",
+          "text": "é equivalente a `tem estudado`."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nem toda sequência de verbos forma unidade auxiliar; verbos volitivos podem reger oração reduzida. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q360",
+      "revision": 1,
+      "prompt": "Em “o relatório tinha sido aprovado”, as formas `tinha` e `sido`",
+      "options": [
+        {
+          "id": "a",
+          "text": "são dois verbos principais coordenados."
+        },
+        {
+          "id": "b",
+          "text": "integram uma cadeia auxiliar de tempo composto e voz passiva."
+        },
+        {
+          "id": "c",
+          "text": "formam voz reflexiva."
+        },
+        {
+          "id": "d",
+          "text": "tornam a oração impessoal."
+        },
+        {
+          "id": "e",
+          "text": "constituem gerúndio e infinitivo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "`Ter + particípio` marca anterioridade; `ser + particípio` marca passiva. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q361",
+      "revision": 1,
+      "prompt": "Em “a equipe pode concluir hoje”, o auxiliar `pode` pode exprimir",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente obrigação jurídica."
+        },
+        {
+          "id": "b",
+          "text": "apenas tempo passado."
+        },
+        {
+          "id": "c",
+          "text": "possibilidade, permissão ou capacidade, conforme o contexto."
+        },
+        {
+          "id": "d",
+          "text": "voz passiva sintética."
+        },
+        {
+          "id": "e",
+          "text": "impessoalidade existencial."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Auxiliares modais não possuem um único valor fora do contexto. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q362",
+      "revision": 1,
+      "prompt": "Na oração “deve haver falhas”, a forma `deve`",
+      "options": [
+        {
+          "id": "a",
+          "text": "deve ir ao plural para concordar com `falhas`."
+        },
+        {
+          "id": "b",
+          "text": "é verbo principal transitivo direto."
+        },
+        {
+          "id": "c",
+          "text": "forma passiva sintética."
+        },
+        {
+          "id": "d",
+          "text": "permanece no singular porque a impessoalidade do verbo principal se transmite ao auxiliar."
+        },
+        {
+          "id": "e",
+          "text": "é infinitivo pessoal."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Em locução com `haver` existencial, o auxiliar fica na terceira pessoa do singular. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — PM/DF, Soldado, 2009, Q141466: https://www.qconcursos.com/questoes-militares/questoes/c90b1aa7-a1."
+    },
+    {
+      "id": "q363",
+      "revision": 1,
+      "prompt": "Em “os técnicos haviam terminado a análise”, afirmar que `haver` é impessoal",
+      "options": [
+        {
+          "id": "a",
+          "text": "é correto, porque todo uso de `haver` é impessoal."
+        },
+        {
+          "id": "b",
+          "text": "é correto apenas porque `análise` está no singular."
+        },
+        {
+          "id": "c",
+          "text": "é incorreto porque `haviam` é verbo de ligação."
+        },
+        {
+          "id": "d",
+          "text": "é correto porque o particípio impede concordância."
+        },
+        {
+          "id": "e",
+          "text": "é incorreto, pois ele funciona como auxiliar e concorda com o sujeito."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A impessoalidade de `haver` ocorre no sentido existencial ou temporal, não quando atua como auxiliar de tempo composto. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — TCE/ES, conhecimentos básicos, 2013, Q360547: https://www.qconcursos.com/questoes-de-concursos/questoes/749e884a-ab."
+    },
+    {
+      "id": "q364",
+      "revision": 1,
+      "prompt": "Em “o órgão vai publicar o resultado”, `ir + infinitivo` exprime, no contexto mais comum,",
+      "options": [
+        {
+          "id": "a",
+          "text": "futuridade próxima ou intenção."
+        },
+        {
+          "id": "b",
+          "text": "passiva analítica."
+        },
+        {
+          "id": "c",
+          "text": "anterioridade concluída."
+        },
+        {
+          "id": "d",
+          "text": "sujeito indeterminado."
+        },
+        {
+          "id": "e",
+          "text": "particípio resultativo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O auxiliar `ir` pode marcar futuridade ou iminência, mantendo o verbo principal no infinitivo. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q365",
+      "revision": 1,
+      "prompt": "Em “publicaram-se os resultados”, o termo `os resultados` é",
+      "options": [
+        {
+          "id": "a",
+          "text": "objeto direto, com sujeito indeterminado."
+        },
+        {
+          "id": "b",
+          "text": "sujeito paciente, e a construção admite `os resultados foram publicados`."
+        },
+        {
+          "id": "c",
+          "text": "adjunto adverbial."
+        },
+        {
+          "id": "d",
+          "text": "agente da passiva."
+        },
+        {
+          "id": "e",
+          "text": "predicativo do objeto."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Com VTD e `se`, a passivização e a concordância identificam a voz passiva sintética. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — Polícia Federal, Agente Administrativo, 2014, Q369499: https://www.qconcursos.com/questoes-de-concursos/questoes/773266bb-c6."
+    },
+    {
+      "id": "q366",
+      "revision": 1,
+      "prompt": "Em “precisa-se de servidores”, o `se`",
+      "options": [
+        {
+          "id": "a",
+          "text": "apassiva `servidores`."
+        },
+        {
+          "id": "b",
+          "text": "é reflexivo."
+        },
+        {
+          "id": "c",
+          "text": "indetermina o sujeito, e o verbo permanece no singular."
+        },
+        {
+          "id": "d",
+          "text": "é parte integrante de `precisar-se`."
+        },
+        {
+          "id": "e",
+          "text": "introduz oração condicional."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "`Precisar de` é VTI; não há objeto direto que se converta em sujeito paciente. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — INPI, conhecimentos básicos, 2013, Q305459: https://www.qconcursos.com/questoes-de-concursos/questoes/8d968113-9c."
+    },
+    {
+      "id": "q367",
+      "revision": 1,
+      "prompt": "Em “os colegas se cumprimentaram”, o pronome exprime",
+      "options": [
+        {
+          "id": "a",
+          "text": "voz passiva sintética."
+        },
+        {
+          "id": "b",
+          "text": "indeterminação do sujeito."
+        },
+        {
+          "id": "c",
+          "text": "parte integrante obrigatória de verbo impessoal."
+        },
+        {
+          "id": "d",
+          "text": "reciprocidade, equivalente a `um ao outro`."
+        },
+        {
+          "id": "e",
+          "text": "conjunção integrante."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A pluralidade do sujeito e o teste `um ao outro` sustentam a leitura recíproca. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q368",
+      "revision": 1,
+      "prompt": "Em “ela se feriu durante o trabalho”, `se` é",
+      "options": [
+        {
+          "id": "a",
+          "text": "apassivador, com sujeito paciente."
+        },
+        {
+          "id": "b",
+          "text": "índice de indeterminação."
+        },
+        {
+          "id": "c",
+          "text": "parte integrante de `ferir-se` em qualquer contexto."
+        },
+        {
+          "id": "d",
+          "text": "partícula temporal."
+        },
+        {
+          "id": "e",
+          "text": "reflexivo, pois a ação recai sobre o próprio sujeito."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O teste `ela feriu a si mesma` confirma a reflexividade. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q369",
+      "revision": 1,
+      "prompt": "Em “o servidor se queixou do sistema”, o pronome",
+      "options": [
+        {
+          "id": "a",
+          "text": "integra o verbo pronominal `queixar-se`."
+        },
+        {
+          "id": "b",
+          "text": "é reflexivo, porque equivale necessariamente a `a si mesmo`."
+        },
+        {
+          "id": "c",
+          "text": "é apassivador."
+        },
+        {
+          "id": "d",
+          "text": "indetermina o sujeito."
+        },
+        {
+          "id": "e",
+          "text": "é pronome recíproco."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Verbos essencialmente pronominais exigem o pronome sem que haja leitura reflexiva. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — Instituto Rio Branco, Diplomata, 2014, Q389573: https://www.qconcursos.com/questoes-de-concursos/questoes/0c62331e-ed."
+    },
+    {
+      "id": "q370",
+      "revision": 1,
+      "prompt": "A conversão de “implementaram-se novas rotinas” para a voz passiva analítica produz",
+      "options": [
+        {
+          "id": "a",
+          "text": "“foram implementar novas rotinas”."
+        },
+        {
+          "id": "b",
+          "text": "“novas rotinas foram implementadas”."
+        },
+        {
+          "id": "c",
+          "text": "“houve novas rotinas implementando-se”."
+        },
+        {
+          "id": "d",
+          "text": "“precisou-se de novas rotinas”."
+        },
+        {
+          "id": "e",
+          "text": "“as novas rotinas se implementaram a si mesmas”."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A concordância e a conversão confirmam a partícula apassivadora. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — STF, conhecimentos básicos, 2013, Q373817: https://www.qconcursos.com/questoes-de-concursos/questoes/aef27a57-cf."
+    },
+    {
+      "id": "q371",
+      "revision": 1,
+      "prompt": "Em “estabelece-se um padrão”, a classificação de `se` depende principalmente de",
+      "options": [
+        {
+          "id": "a",
+          "text": "posição gráfica do pronome apenas."
+        },
+        {
+          "id": "b",
+          "text": "tempo verbal exclusivamente."
+        },
+        {
+          "id": "c",
+          "text": "transitividade, concordância e possibilidade de passiva analítica."
+        },
+        {
+          "id": "d",
+          "text": "presença de qualquer substantivo após o verbo."
+        },
+        {
+          "id": "e",
+          "text": "número de sílabas do verbo."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O teste `um padrão é estabelecido` indica passiva quando a construção e o sentido o permitem. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — INPI, conhecimentos básicos, 2013, Q305459: https://www.qconcursos.com/questoes-de-concursos/questoes/8d968113-9c."
+    },
+    {
+      "id": "q372",
+      "revision": 1,
+      "prompt": "Em “se irradiaria como política”, classificar o pronome exige",
+      "options": [
+        {
+          "id": "a",
+          "text": "aplicar automaticamente a regra VTD + `se`."
+        },
+        {
+          "id": "b",
+          "text": "tratar todo `se` como reflexivo."
+        },
+        {
+          "id": "c",
+          "text": "ignorar a relação semântica com o sujeito."
+        },
+        {
+          "id": "d",
+          "text": "considerar a construção e o sentido contextual, inclusive a possibilidade de verbo pronominal."
+        },
+        {
+          "id": "e",
+          "text": "considerar apenas a colocação pronominal."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O Cebraspe já exigiu análise contextual em estrutura metafórica, rejeitando classificações automáticas. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — Instituto Rio Branco, 2014, classificação contextual de `se`: https://www.qconcursos.com/questoes-de-concursos/questoes/0c62331e-ed."
+    },
+    {
+      "id": "q373",
+      "revision": 1,
+      "prompt": "Em “o relatório foi analisado” e “o relatório está analisado”, a diferença mais provável é que",
+      "options": [
+        {
+          "id": "a",
+          "text": "ambas são necessariamente tempos compostos ativos."
+        },
+        {
+          "id": "b",
+          "text": "a segunda é sempre reflexiva."
+        },
+        {
+          "id": "c",
+          "text": "a primeira não contém particípio."
+        },
+        {
+          "id": "d",
+          "text": "a segunda torna `relatório` objeto direto."
+        },
+        {
+          "id": "e",
+          "text": "a primeira construção focaliza o evento passivo; a segunda, o estado resultante."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O auxiliar `ser` prototipicamente marca passiva; `estar + particípio` pode focalizar resultado. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q374",
+      "revision": 1,
+      "prompt": "Em “vendem-se imóveis”, a concordância no plural ocorre porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "`imóveis` é sujeito paciente da passiva sintética."
+        },
+        {
+          "id": "b",
+          "text": "o sujeito está indeterminado."
+        },
+        {
+          "id": "c",
+          "text": "`se` é conjunção condicional."
+        },
+        {
+          "id": "d",
+          "text": "todo verbo seguido de plural deve ir ao plural."
+        },
+        {
+          "id": "e",
+          "text": "`imóveis` é objeto indireto."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A forma admite `imóveis são vendidos`; por isso, o verbo concorda com o sujeito paciente. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — Polícia Federal, Agente Administrativo, 2014, Q369499: https://www.qconcursos.com/questoes-de-concursos/questoes/773266bb-c6."
+    },
+    {
+      "id": "q375",
+      "revision": 1,
+      "prompt": "Em “vive-se bem nesta cidade”, o `se`",
+      "options": [
+        {
+          "id": "a",
+          "text": "apassiva o advérbio `bem`."
+        },
+        {
+          "id": "b",
+          "text": "indetermina o sujeito de verbo intransitivo, que fica no singular."
+        },
+        {
+          "id": "c",
+          "text": "torna `cidade` sujeito paciente."
+        },
+        {
+          "id": "d",
+          "text": "é reflexivo."
+        },
+        {
+          "id": "e",
+          "text": "integra tempo composto."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Verbo intransitivo não oferece objeto direto para a passiva; a construção indetermina o agente. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — INPI, conhecimentos básicos, 2013, Q305459: https://www.qconcursos.com/questoes-de-concursos/questoes/8d968113-9c."
+    },
+    {
+      "id": "q376",
+      "revision": 1,
+      "prompt": "Em “descreveram-se os procedimentos”, a reescrita que preserva a voz é",
+      "options": [
+        {
+          "id": "a",
+          "text": "“os procedimentos descreveram a si mesmos”."
+        },
+        {
+          "id": "b",
+          "text": "“precisou-se dos procedimentos”."
+        },
+        {
+          "id": "c",
+          "text": "“os procedimentos foram descritos”."
+        },
+        {
+          "id": "d",
+          "text": "“houve procedimentos descrevendo”."
+        },
+        {
+          "id": "e",
+          "text": "“descrever os procedimentos”."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A passiva analítica confirma o papel apassivador do pronome. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — STF, conhecimentos básicos, 2013, Q373817: https://www.qconcursos.com/questoes-de-concursos/questoes/aef27a57-cf."
+    },
+    {
+      "id": "q377",
+      "revision": 1,
+      "prompt": "A afirmação “todo `se` ligado a verbo transitivo direto é apassivador” é",
+      "options": [
+        {
+          "id": "a",
+          "text": "correta sem exceções."
+        },
+        {
+          "id": "b",
+          "text": "incorreta apenas no futuro."
+        },
+        {
+          "id": "c",
+          "text": "correta quando o sujeito é pessoa."
+        },
+        {
+          "id": "d",
+          "text": "inadequada, porque verbos pronominais e construções reflexivas também podem conter verbo transitivo."
+        },
+        {
+          "id": "e",
+          "text": "incorreta porque VTD nunca admite `se`."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A classificação exige análise da construção, do sentido, da concordância e dos testes sintáticos. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — Instituto Rio Branco, Diplomata, 2014, Q389573: https://www.qconcursos.com/questoes-de-concursos/questoes/0c62331e-ed."
+    },
+    {
+      "id": "q378",
+      "revision": 1,
+      "prompt": "Ao substituir “houve falhas e atrasos” por verbo pessoal, a forma adequada é",
+      "options": [
+        {
+          "id": "a",
+          "text": "“existiu falhas e atrasos”."
+        },
+        {
+          "id": "b",
+          "text": "“houveram falhas e atrasos”."
+        },
+        {
+          "id": "c",
+          "text": "“deveria existirem falhas e atrasos”."
+        },
+        {
+          "id": "d",
+          "text": "“foi existido falhas e atrasos”."
+        },
+        {
+          "id": "e",
+          "text": "“existiram falhas e atrasos”."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "`Haver` existencial é impessoal; `existir` é pessoal e concorda com o sujeito plural. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — PM/DF, Soldado, 2009, Q141466: https://www.qconcursos.com/questoes-militares/questoes/c90b1aa7-a1."
+    },
+    {
+      "id": "q379",
+      "revision": 1,
+      "prompt": "Em “há dois anos não ocorre falha”, `há`",
+      "options": [
+        {
+          "id": "a",
+          "text": "é impessoal e exprime tempo decorrido."
+        },
+        {
+          "id": "b",
+          "text": "é auxiliar de tempo composto."
+        },
+        {
+          "id": "c",
+          "text": "concorda com `dois anos` e deveria ser `hão`."
+        },
+        {
+          "id": "d",
+          "text": "é verbo pronominal."
+        },
+        {
+          "id": "e",
+          "text": "forma passiva analítica."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "`Haver` temporal, assim como o existencial, permanece na terceira pessoa do singular. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — PC/RN, Agente e Escrivão, 2009, Q95585: https://www.qconcursos.com/questoes-de-concursos/questoes/7b38a7a5-72."
+    },
+    {
+      "id": "q380",
+      "revision": 1,
+      "prompt": "Assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ambos os verbos são impessoais."
+        },
+        {
+          "id": "b",
+          "text": "Em `aconteceram problemas`, o verbo concorda com `problemas`; em `houve problemas`, `haver` fica no singular."
+        },
+        {
+          "id": "c",
+          "text": "Ambos devem ficar no plural."
+        },
+        {
+          "id": "d",
+          "text": "`Acontecer` é sempre auxiliar."
+        },
+        {
+          "id": "e",
+          "text": "`Haver` concorda com o termo posterior quando ele está no plural."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "`Acontecer` e `ocorrer` são pessoais; `haver` existencial é impessoal. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — PM/DF, Soldado, 2009, Q141466: https://www.qconcursos.com/questoes-militares/questoes/c90b1aa7-a1."
+    },
+    {
+      "id": "q381",
+      "revision": 1,
+      "prompt": "Em “o médico assistiu o paciente” e “o servidor assistiu à sessão”, o verbo `assistir`",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre transitivo indireto."
+        },
+        {
+          "id": "b",
+          "text": "é sempre transitivo direto."
+        },
+        {
+          "id": "c",
+          "text": "apresenta transitividade e sentido diferentes em cada ocorrência."
+        },
+        {
+          "id": "d",
+          "text": "é impessoal nas duas ocorrências."
+        },
+        {
+          "id": "e",
+          "text": "forma voz passiva sintética nas duas ocorrências."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A transitividade pertence ao uso contextual: prestar assistência pode ser VTD; presenciar, VTI. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q382",
+      "revision": 1,
+      "prompt": "A oração “o paciente foi assistido pelo médico” deriva adequadamente de",
+      "options": [
+        {
+          "id": "a",
+          "text": "“o médico assistiu ao paciente”, no sentido de presenciar."
+        },
+        {
+          "id": "b",
+          "text": "“precisa-se do médico”."
+        },
+        {
+          "id": "c",
+          "text": "“há médico no setor”."
+        },
+        {
+          "id": "d",
+          "text": "“o médico assistiu o paciente”, no sentido de prestar assistência."
+        },
+        {
+          "id": "e",
+          "text": "“o médico se assistiu”."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A passiva pressupõe objeto direto na ativa; no sentido de prestar assistência, `assistir` admite esse emprego. Fonte: Questão autoral inspirada em cobranças anteriores, com enunciado e alternativas reescritos, de Banco de questões anteriores sobre classificação verbal: https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/classificacao-dos-verbos-regulares-irregulares-defectivos-abundantes-unipessoais-pronominais/questoes."
+    },
+    {
+      "id": "q383",
+      "revision": 1,
+      "prompt": "Em “tem muita gente na fila”, a análise adequada para prova normativa é que",
+      "options": [
+        {
+          "id": "a",
+          "text": "`ter` é sempre impessoal e obrigatório na norma-padrão."
+        },
+        {
+          "id": "b",
+          "text": "a frase contém voz passiva."
+        },
+        {
+          "id": "c",
+          "text": "`gente` é objeto indireto de verbo auxiliar."
+        },
+        {
+          "id": "d",
+          "text": "a única correção possível é `têm muitas gentes`."
+        },
+        {
+          "id": "e",
+          "text": "se trata de uso existencial corrente no português brasileiro, mas a redação formal pode preferir `há muita gente`."
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O uso existencial de `ter` é frequente no português brasileiro, mas concursos normativos podem exigir `haver` ou `existir` conforme a construção. Fonte: Adaptação didática, com enunciado e alternativas reescritos, de Cebraspe — PC/RN, Agente e Escrivão, 2009, Q95585: https://www.qconcursos.com/questoes-de-concursos/questoes/7b38a7a5-72."
+    }
   ]
 }
