@@ -123,7 +123,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 022 - Item 2.2, recorte: planilhas, fórmulas, funções e gráficos. - Commit hash: d19fa6b
 
-##### [R] Em revisão Assunto 023 - Item 2.2, recorte: apresentações.
+##### [x] Concluído Assunto 023 - Item 2.2, recorte: apresentações. - Commit hash: 7290b22
 
 ##### [ ] Assunto 024 - Item 2.3: Redes de computadores, protocolos e interoperabilidade.
 
