@@ -64,50 +64,50 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 5.1. Emprego de advérbio, preposição, conjunção e interjeição.
 
-##### [>] Em progresso Assunto 009 - Item 5, subitem 5.2: Coordenação entre orações e termos da oração.
+##### [x] Concluído Assunto 009 - Item 5, subitem 5.2: Coordenação entre orações e termos da oração.
 
 - 5.2. Relações de coordenação entre orações e entre termos da oração.
 
-##### [ ] Assunto 010 - Item 5, subitem 5.3: Subordinação entre orações e termos da oração.
+##### [x] Concluído Assunto 010 - Item 5, subitem 5.3: Subordinação entre orações e termos da oração.
 
 - 5.3. Relações de subordinação entre orações e entre termos da oração.
 
-##### [ ] Assunto 011 - Item 5, subitem 5.4: Pontuação.
+##### [x] Concluído Assunto 011 - Item 5, subitem 5.4: Pontuação.
 
 - 5.4. Emprego dos sinais de pontuação.
 
-##### [ ] Assunto 012 - Item 5, subitem 5.5: Concordância verbal e nominal.
+##### [x] Concluído Assunto 012 - Item 5, subitem 5.5: Concordância verbal e nominal.
 
 - 5.5. Concordância verbal e nominal.
 
-##### [ ] Assunto 013 - Item 5, subitem 5.6: Regência verbal e nominal.
+##### [x] Concluído Assunto 013 - Item 5, subitem 5.6: Regência verbal e nominal.
 
 - 5.6. Regência verbal e nominal.
 
-##### [ ] Assunto 014 - Item 5, subitem 5.7: Crase.
+##### [x] Concluído Assunto 014 - Item 5, subitem 5.7: Crase.
 
 - 5.7. Emprego do sinal indicativo de crase.
 
-##### [ ] Assunto 015 - Item 5, subitem 5.8: Colocação pronominal.
+##### [x] Concluído Assunto 015 - Item 5, subitem 5.8: Colocação pronominal.
 
 - 5.8. Colocação dos pronomes átonos.
 
-##### [ ] Assunto 016 - Item 6, subitens 6.1 e 6.2: Significação, substituição e equivalência lexical no texto.
+##### [x] Concluído Assunto 016 - Item 6, subitens 6.1 e 6.2: Significação, substituição e equivalência lexical no texto.
 
 - 6.1. Significação das palavras.
 - 6.2. Substituição de palavras ou de trechos de texto.
 
-##### [ ] Assunto 017 - Item 6, subitem 6.3: Reorganização da estrutura de orações e períodos.
+##### [x] Concluído Assunto 017 - Item 6, subitem 6.3: Reorganização da estrutura de orações e períodos.
 
 - 6.3. Reorganização da estrutura de orações e de períodos do texto.
 
-##### [ ] Assunto 018 - Item 6, subitem 6.4: Reescrita de textos de diferentes gêneros e níveis de formalidade.
+##### [x] Concluído Assunto 018 - Item 6, subitem 6.4: Reescrita de textos de diferentes gêneros e níveis de formalidade.
 
 - 6.4. Reescrita de textos de diferentes gêneros e níveis de formalidade.
 
 #### Competências Digitais e Informática Aplicada ao Setor Público
 
-##### [ ] Assunto 019 - Item 1, subitens 1.1 e 1.2: Cultura, cidadania, letramentos digitais, pensamento computacional, ética de dados e desinformação no serviço público.
+##### [>] Em progresso Assunto 019 - Item 1, subitens 1.1 e 1.2: Cultura, cidadania, letramentos digitais, pensamento computacional, ética de dados e desinformação no serviço público.
 
 - 1.1. Conceitos fundamentais: cultura digital, cidadania digital, letramento digital e midiático (BNCC e Política Nacional de Educação Digital - Lei nº 14.533/2023).
 - 1.2. Pensamento computacional aplicado ao serviço público: análise crítica de informações, ética no uso de dados e combate à desinformação.

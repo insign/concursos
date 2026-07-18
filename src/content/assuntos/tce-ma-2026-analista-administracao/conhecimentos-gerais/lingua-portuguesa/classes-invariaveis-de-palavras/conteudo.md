@@ -128,7 +128,7 @@ Locuções interjetivas têm mais de uma palavra: `ai de mim!`, `ora bolas!`, `m
 
 - Classes nominais: Assunto 006.
 - Verbo como classe de palavras: Assunto 007.
-- Coordenação e subordinação entre termos e orações: Assunto 009.
+- Coordenação e subordinação entre termos e orações: Assuntos 009 e 010, respectivamente.
 - Texto, coesão e conectores como estratégia textual: Assunto 004.
 - Pontuação: Assunto 011.
 
