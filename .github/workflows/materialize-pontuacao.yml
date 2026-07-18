@@ -24,19 +24,30 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Materialize reviewed subject files
+      - name: Diagnose and materialize reviewed subject files
         shell: bash
         run: |
-          python3 .github/patch-pontuacao.py
+          set +e
+          python3 .github/patch-pontuacao.py 2>&1 | tee /tmp/pontuacao-diagnostic.log
+          status=${PIPESTATUS[0]}
+          set -e
+
+          cp /tmp/pontuacao-diagnostic.log .github/pontuacao-diagnostic.log
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
           target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/pontuacao'
-          if ! git diff --quiet -- "$target"; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .github/pontuacao-diagnostic.log
+          if [ "$status" -eq 0 ]; then
             git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
-            git commit -m 'content: aprofunda pontuação'
+          fi
+
+          if ! git diff --cached --quiet; then
+            git commit -m 'ci: registra diagnóstico da revisão de pontuação'
             git push origin HEAD:${{ github.head_ref }}
           fi
+
+          exit "$status"
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
