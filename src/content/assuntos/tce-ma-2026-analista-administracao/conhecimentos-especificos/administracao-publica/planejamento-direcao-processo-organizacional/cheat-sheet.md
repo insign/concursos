@@ -199,3 +199,4 @@ Previsão, projeção e predição podem alimentar o planejamento; não são sin
 7. Em direção, procure pessoas e influência.
 8. Confira competência, legalidade e supervisão.
 9. Rejeite absolutos.
+10. Relacione planejamento, direção e controle no caso concreto.
