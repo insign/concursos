@@ -36,8 +36,16 @@ jobs:
           from pathlib import Path
 
           parts = [
-              ('.github/planejamento-bundle.part1', 7500, 'f39d97491decc026d3bbac5616a9e5cfbedbe580d2ec5ec0218fb87c55fc6d8e'),
-              ('.github/planejamento-bundle.part2', 7500, '61040efd8b86853ca3d65f7c0b9e7b6f6e6b12c9c2d1e257866a7fa1ddcd28aa'),
+              ('.github/planejamento-bundle.part1a', 1500, '443aabd0db7d5efa516f3ab53f0b55a0fcd99c6a29f351084f91e8fa3783bf45'),
+              ('.github/planejamento-bundle.part1b', 1500, '8dc87a4039f7f854f7fb2e97fafbc72a2f0fa0570666628490c2776940069b60'),
+              ('.github/planejamento-bundle.part1c', 1500, '460afadd421bc504177532bf2d4e03b2c6449a6a219149b523cfda265fce95da'),
+              ('.github/planejamento-bundle.part1d', 1500, '2094f402d6fbf45c96ddf70c067733fa7c185ca978fd977673d856a18d914c12'),
+              ('.github/planejamento-bundle.part1e', 1500, '634bc0abdf2317e6507d83c0b37b6f96efbbf3ed477bf4cb536401d81104d45e'),
+              ('.github/planejamento-bundle.part2a', 1500, 'c9aa8b7ff36e93602c7d3efdb115ffcd01313bd0a4f4617ab79c1c7f84a4bbd6'),
+              ('.github/planejamento-bundle.part2b', 1500, '0126784bddd62219aac074ecfd2c2f82df83a93fb92e07b90e8bba7ce7005aa7'),
+              ('.github/planejamento-bundle.part2c', 1500, '3013db3bc1ece26e7470028913e3594a7f2bef394ac7d684ceaff43baead75b0'),
+              ('.github/planejamento-bundle.part2d', 1500, 'fcd28dfdd6ebde6e29d824fb1bfa3bdc1857f688caea8d8ec99e6ecf1fcc81de'),
+              ('.github/planejamento-bundle.part2e', 1500, 'bd75071095f1a59f38ff9ec38bd84c9c10dc88148d738315bc82d344a7029d72'),
               ('.github/planejamento-bundle.part3a', 1500, '26a972a7a922e70c02eb7727d3166238984c23a9295d0708f99dcce02daf2354'),
               ('.github/planejamento-bundle.part3b', 1500, 'b2dd7f412ea31378db68ba36372b19f44b6745b75d29469da40d93c68050dc62'),
               ('.github/planejamento-bundle.part3c', 1500, 'e918d536a7e8e84730e7a08b362c80d8a9d4cf7f6dfa55946afc448c118275fd'),
