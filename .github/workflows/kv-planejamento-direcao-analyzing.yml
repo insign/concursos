@@ -1,0 +1,60 @@
+name: Register planejamento e direcao in KV
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  register-kv:
+    name: Mark planejamento e direcao as analyzing
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Add item and mark analyzing
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            -H 'Content-Type: application/json' \
+            --data '{"path":"/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/","status":"analyzing"}' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional' \
+            > /tmp/result.json
+          python3 - <<'PY'
+          import json
+          key = 'tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/',
+              'status': 'analyzing',
+          }
+          with open('/tmp/result.json', encoding='utf-8') as stream:
+              data = json.load(stream)
+          item = data['json']['links'][key]
+          print('mutation item:', item)
+          if item != expected:
+              raise SystemExit(1)
+          PY
+
+      - name: Verify persisted value
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm.json
+          python3 - <<'PY'
+          import json
+          key = 'tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/',
+              'status': 'analyzing',
+          }
+          with open('/tmp/adm.json', encoding='utf-8') as stream:
+              data = json.load(stream)
+          item = data['json']['links'][key]
+          print('persisted item:', item)
+          print('version:', data['version'])
+          if item != expected:
+              raise SystemExit(1)
+          PY
