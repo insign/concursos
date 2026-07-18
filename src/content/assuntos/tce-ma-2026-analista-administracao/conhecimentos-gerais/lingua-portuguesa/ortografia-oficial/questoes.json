@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q084",
-      "revision": 2,
-      "prompt": "Considere os trechos “é conferida aos cidadãos uma série de direitos”, “bem-estar”, “torná-la”, “fazê-la”, “à” e “período”. Quanto à ortografia oficial, assinale a opção correta.",
+      "revision": 3,
+      "prompt": "Considere os trechos “é conferida aos cidadãos uma série de direitos”, “bem-estar”, “torná-la”, “fazê-la”, “à” e “período”. Quanto aos aspectos ortográficos e gramaticais, assinale a opção correta.",
       "options": [
         {
           "id": "a",
@@ -874,32 +874,32 @@
     },
     {
       "id": "q114",
-      "revision": 2,
-      "prompt": "Assinale a alternativa integralmente correta quanto a formações com bem e mal.",
+      "revision": 3,
+      "prompt": "Em um relatório, foram empregados os trechos “o benfeito alcançou a comunidade”, “um parecer bem-feito” e “o parecer foi bem feito pela equipe”. Assinale a análise correta.",
       "options": [
         {
           "id": "a",
-          "text": "bem estar, mal-estar, bemvindo, bem-feito, mal-feito; “trabalho malfeito”"
+          "text": "As três expressões devem ser escritas sem hífen, pois “bem” nunca integra compostos."
         },
         {
           "id": "b",
-          "text": "bemestar, malestar, bem-vindo, benfeito, mal-feito; “trabalho malfeito”"
+          "text": "“Benfeito” é adjetivo e pode substituir “bem-feito” em qualquer contexto."
         },
         {
           "id": "c",
-          "text": "bem-estar, mal estar, bem vindo, bemfeito, malfeito; “trabalho malfeito”"
+          "text": "“Benfeito” é substantivo; “bem-feito” é adjetivo composto; “bem feito” é sequência sintática com advérbio e particípio."
         },
         {
           "id": "d",
-          "text": "bem-estar, mal-estar, bem-vindo, benfeito, malfeito; “trabalho mal feito”"
+          "text": "Somente “bem feito” pode funcionar como substantivo, e as outras duas formas são antigas."
         },
         {
           "id": "e",
-          "text": "bem-estar, mal-estar, bemvindo, ben-feito, malfeito; “trabalho mal-feito”"
+          "text": "As três grafias são variantes livres e independem da classe gramatical."
         }
       ],
-      "correctOptionId": "d",
-      "explanation": "São registradas “bem-estar”, “mal-estar”, “bem-vindo”, “benfeito” e “malfeito”. Na sequência sintática, porém, escreve-se “trabalho mal feito”, com advérbio e particípio separados. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "c",
+      "explanation": "As três grafias têm funções distintas. “Benfeito” é substantivo, equivalente a benefício ou benfeitoria; “bem-feito” é adjetivo; “bem feito” mantém o advérbio separado do particípio. Fonte: questão autoral baseada no VOLP e na distinção registrada pela UFLA em https://www.ufla.br/dcom/2014/03/11/dicas-de-portugues-bem-feito-bem-feito-e-benfeito-atualizado/."
     },
     {
       "id": "q115",
@@ -1222,32 +1222,32 @@
     },
     {
       "id": "q126",
-      "revision": 2,
-      "prompt": "Qual frase pontua corretamente uma abreviatura no final do período?",
+      "revision": 3,
+      "prompt": "Em qual período a abreviatura final está pontuada de acordo com a norma?",
       "options": [
         {
           "id": "a",
-          "text": "A informação está na pág."
+          "text": "A relação inclui nomes, cargos, datas etc.."
         },
         {
           "id": "b",
-          "text": "A informação está na pág.."
+          "text": "A relação inclui nomes, cargos, datas etc."
         },
         {
           "id": "c",
-          "text": "A informação está na pág"
+          "text": "A relação inclui nomes, cargos, datas etc"
         },
         {
           "id": "d",
-          "text": "A informação está na pag.."
+          "text": "A relação inclui nomes, cargos, datas e.t.c."
         },
         {
           "id": "e",
-          "text": "A informação está na p'ág."
+          "text": "A relação inclui nomes, cargos, datas etc..."
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "A abreviatura “pág.” leva ponto. Se encerra o período, esse ponto cumpre também a função final e não se duplica. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "O ponto que integra a abreviatura “etc.” também encerra o período; não se acrescenta um segundo ponto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q127",
@@ -1657,12 +1657,12 @@
     },
     {
       "id": "q141",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Em item do BNB, foram reunidos os vocábulos “trás”, “é” e “nós”. Assinale a opção correta.",
       "options": [
         {
           "id": "a",
-          "text": "Os três são monossílabos tônicos terminados em a, e ou o."
+          "text": "Os três são monossílabos tônicos terminados em a(s), e(s) ou o(s)."
         },
         {
           "id": "b",
@@ -1681,8 +1681,8 @@
           "text": "“Trás” é oxítona terminada em a(s); “é” e “nós” são monossílabos tônicos, logo os três acentos não decorrem da mesma regra."
         }
       ],
-      "correctOptionId": "e",
-      "explanation": "“Trás” tem mais de uma sílaba e é oxítona; “é” e “nós” são monossílabos tônicos. As terminações são semelhantes, mas as regras classificatórias não são idênticas. Fonte: questão adaptada de Cebraspe/BNB/Analista Bancário/2018/Q950776/https://www.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18; adaptação: conversão do julgamento certo/errado para múltipla escolha e explicitação da classificação."
+      "correctOptionId": "a",
+      "explanation": "“Trás”, “é” e “nós” são monossílabos tônicos. Terminam em a(s), e(s) ou o(s) e recebem acento pela mesma regra. Fonte: questão adaptada de Cebraspe/BNB/Analista Bancário/2018/Q950776/https://www.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18; adaptação: conversão do julgamento certo/errado para múltipla escolha e explicitação da classificação."
     },
     {
       "id": "q142",
@@ -1715,8 +1715,8 @@
     },
     {
       "id": "q143",
-      "revision": 1,
-      "prompt": "Um parecer contêm: “A auto-avaliação ocorrerá no dia-a-dia; os analistas argúem que a decisão foi anunciada à queima roupa e que o equipamento pesa 5 kgs.” Qual revisão está integralmente de acordo com a ortografia vigente?",
+      "revision": 2,
+      "prompt": "Um parecer contém: “A auto-avaliação ocorrerá no dia-a-dia; os analistas argúem que a decisão foi anunciada à queima roupa e que o equipamento pesa 5 kgs.” Qual revisão está integralmente de acordo com a ortografia vigente?",
       "options": [
         {
           "id": "a",
@@ -1741,6 +1741,296 @@
       ],
       "correctOptionId": "e",
       "explanation": "Escrevem-se “autoavaliação”, “dia a dia”, “arguem”, “à queima-roupa” e “5 kg”. A questão reúne regra prefixal, locução comum, forma de “arguir”, exceção hifenizada e símbolo técnico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q144",
+      "revision": 1,
+      "prompt": "Em prova do TCE-MG, a banca examinou as formas “aquicultura”, “aqüicultura”, “catorze” e “quatorze”. Assinale a análise correta segundo a ortografia vigente.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Aquicultura” e “aqüicultura” são variantes livres, mas apenas “quatorze” é admitida."
+        },
+        {
+          "id": "b",
+          "text": "O trema é obrigatório em “aqüicultura”, e as duas grafias do numeral são admitidas."
+        },
+        {
+          "id": "c",
+          "text": "Escreve-se “aquicultura”, sem trema, e tanto “catorze” quanto “quatorze” são formas admitidas."
+        },
+        {
+          "id": "d",
+          "text": "Apenas “catorze” é admitida, e o trema permanece porque o u é pronunciado."
+        },
+        {
+          "id": "e",
+          "text": "Escreve-se “aquicultura”, mas o numeral só pode ser grafado como “quatorze” em textos oficiais."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O trema foi suprimido em palavras portuguesas e aportuguesadas, portanto se escreve “aquicultura”. O VOLP admite “catorze” e “quatorze”. Fonte: questão adaptada de Cebraspe/TCE-MG/Analista de Controle Externo/2026/https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2026-tce-mg-analista-de-controle-externo-especialidade-direito/questoes; adaptação: recorte dos itens estritamente ortográficos e conversão em múltipla escolha."
+    },
+    {
+      "id": "q145",
+      "revision": 1,
+      "prompt": "Assinale a única forma grafada de acordo com a ortografia oficial vigente.",
+      "options": [
+        {
+          "id": "a",
+          "text": "seminternato"
+        },
+        {
+          "id": "b",
+          "text": "hiperssensibilidade"
+        },
+        {
+          "id": "c",
+          "text": "contra-regra"
+        },
+        {
+          "id": "d",
+          "text": "mão-de-obra"
+        },
+        {
+          "id": "e",
+          "text": "autoanálise"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A forma correta é “autoanálise”: o prefixo termina em o e o segundo elemento começa por a, vogal diferente. As demais seriam “semi-internato”, “hipersensibilidade”, “contrarregra” e “mão de obra”. Fonte: questão oficial de Cebraspe/SEED-PR/Professor de Língua Portuguesa/2021/Q1689724/https://www.qconcursos.com/questoes-de-concursos/questoes/be70581d-7d."
+    },
+    {
+      "id": "q146",
+      "revision": 1,
+      "prompt": "Em item do TC-DF, a forma verbal “vêm” concordava com o sujeito composto “o planejamento urbano e a gestão das cidades e áreas metropolitanas”. Por que o circunflexo está correto?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Porque toda forma do verbo “vir” recebe acento circunflexo."
+        },
+        {
+          "id": "b",
+          "text": "Porque “vêm” marca a terceira pessoa do plural e se distingue da forma singular “vem”."
+        },
+        {
+          "id": "c",
+          "text": "Porque se trata de oxítona terminada em em."
+        },
+        {
+          "id": "d",
+          "text": "Porque o verbo está no futuro do subjuntivo."
+        },
+        {
+          "id": "e",
+          "text": "Porque o acento é facultativo quando há sujeito composto."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O circunflexo diferencia “vêm”, terceira pessoa do plural do presente de “vir”, de “vem”, terceira pessoa do singular. Fonte: questão adaptada de Cebraspe/TC-DF/Auditor de Controle Externo/2021/Q1699467/https://www.qconcursos.com/questoes-de-concursos/questoes/7aed5c2e-83; adaptação: conversão do julgamento certo/errado para múltipla escolha."
+    },
+    {
+      "id": "q147",
+      "revision": 1,
+      "prompt": "Em prova da SEED-PR, foram comparados os vocábulos “línguas” e “países”. Assinale a análise correta segundo a classificação brasileira corrente.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ambos são paroxítonos; “línguas” é acentuado por terminar em ditongo oral, e “países”, pela regra do hiato com i tônico seguido de s."
+        },
+        {
+          "id": "b",
+          "text": "Ambos são proparoxítonos e recebem acento pela mesma regra."
+        },
+        {
+          "id": "c",
+          "text": "“Línguas” é oxítono, e “países” é proparoxítono."
+        },
+        {
+          "id": "d",
+          "text": "Os dois acentos são diferenciais e poderiam ser omitidos."
+        },
+        {
+          "id": "e",
+          "text": "“Países” é acentuado apenas porque termina em s."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Na análise brasileira corrente, as duas palavras são paroxítonas. “Línguas” termina em ditongo oral; em “países”, o i tônico forma hiato e vem seguido de s. Fonte: questão adaptada de Cebraspe/SEED-PR/Professor de Séries Iniciais/2021/Q1705473/https://www.qconcursos.com/questoes-de-concursos/questoes/6d3eddff-88; adaptação: simplificação das alternativas sem alterar o núcleo lógico."
+    },
+    {
+      "id": "q148",
+      "revision": 1,
+      "prompt": "Em item do INSS, afirmou-se que o substantivo “bem-estar” poderia ser grafado como “bem estar”. Assinale a avaliação correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A afirmação está correta, porque substantivos nunca recebem hífen."
+        },
+        {
+          "id": "b",
+          "text": "A afirmação está correta apenas no plural."
+        },
+        {
+          "id": "c",
+          "text": "A afirmação está errada: o substantivo composto “bem-estar” conserva o hífen."
+        },
+        {
+          "id": "d",
+          "text": "A afirmação está errada porque a forma correta é “benestar”."
+        },
+        {
+          "id": "e",
+          "text": "As duas grafias são variantes livres no Brasil."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Bem-estar” é substantivo composto registrado com hífen; sua classe gramatical não autoriza a grafia separada “bem estar”. Fonte: questão adaptada de Cebraspe/INSS/Técnico do Seguro Social/2022/Q2638044/https://www.qconcursos.com/questoes-de-concursos/questoes/3dc2f1f7-76; adaptação: conversão do julgamento certo/errado para múltipla escolha."
+    },
+    {
+      "id": "q149",
+      "revision": 1,
+      "prompt": "Em prova da Prefeitura de Camaçari, perguntou-se qual formação emprega o hífen pela mesma regra geral aplicada a “bem-estar”. Assinale a opção esperada pela banca.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mal-humorado"
+        },
+        {
+          "id": "b",
+          "text": "super-ricos"
+        },
+        {
+          "id": "c",
+          "text": "sem-teto"
+        },
+        {
+          "id": "d",
+          "text": "auto-organização"
+        },
+        {
+          "id": "e",
+          "text": "cana-de-açúcar"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A banca aproximou os elementos “bem-” e “sem-”, que mantêm hífen nessas formações: “bem-estar” e “sem-teto”. As demais opções decorrem de regras ou registros diferentes. Fonte: questão oficial de Cebraspe/Prefeitura de Camaçari/Assistente Administrativo e outros cargos/2024/Q2352595/https://www.qconcursos.com/questoes-de-concursos/questoes/a33dc310-bb."
+    },
+    {
+      "id": "q150",
+      "revision": 1,
+      "prompt": "Em prova da PC-PE, compararam-se “possíveis” e “panorâmica”. Assinale a análise correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "“Possíveis” é paroxítona terminada em ditongo; “panorâmica” é proparoxítona, portanto os acentos decorrem de regras distintas."
+        },
+        {
+          "id": "b",
+          "text": "As duas são proparoxítonas e seguem a mesma regra."
+        },
+        {
+          "id": "c",
+          "text": "As duas são paroxítonas terminadas em ditongo."
+        },
+        {
+          "id": "d",
+          "text": "“Possíveis” recebe acento diferencial, e “panorâmica”, acento de hiato."
+        },
+        {
+          "id": "e",
+          "text": "Nenhuma das duas deveria ser acentuada após o Acordo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "“Possíveis” é paroxítona terminada em ditongo oral; “panorâmica” tem tonicidade na antepenúltima sílaba e é proparoxítona. Fonte: questão adaptada de Cebraspe/PC-PE/Agente de Polícia/2024/Q2386574/https://www.qconcursos.com/questoes-de-concursos/questoes/22f99ed9-db; adaptação: isolamento do item ortográfico e conversão em múltipla escolha."
+    },
+    {
+      "id": "q151",
+      "revision": 1,
+      "prompt": "Em questão da Itaipu Binacional, pediu-se uma palavra acentuada pela mesma regra de “eólica”. Assinale a opção correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "renovável"
+        },
+        {
+          "id": "b",
+          "text": "elevará"
+        },
+        {
+          "id": "c",
+          "text": "pássaros"
+        },
+        {
+          "id": "d",
+          "text": "carvão"
+        },
+        {
+          "id": "e",
+          "text": "ruído"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "“Eólica” e “pássaros” são proparoxítonas, e todas as proparoxítonas recebem acento. Fonte: questão oficial de Cebraspe/Itaipu Binacional/Profissional de Nível Universitário Júnior/2024/Q2375094/https://www.qconcursos.com/questoes-de-concursos/questoes/6aa0ed2e-d0."
+    },
+    {
+      "id": "q152",
+      "revision": 1,
+      "prompt": "Em prova do CBM-PA, a banca analisou os vocábulos “psicológica” e “únicas”. Assinale a classificação correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ambos são proparoxítonos e recebem acento agudo por essa regra."
+        },
+        {
+          "id": "b",
+          "text": "Ambos são paroxítonos terminados em ditongo."
+        },
+        {
+          "id": "c",
+          "text": "“Psicológica” é oxítona, e “únicas” é monossílabo tônico."
+        },
+        {
+          "id": "d",
+          "text": "Os dois acentos são diferenciais."
+        },
+        {
+          "id": "e",
+          "text": "Somente “psicológica” deveria ser acentuada."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A sílaba tônica é a antepenúltima em “psicológica” e “únicas”; ambas são proparoxítonas e recebem acento. Fonte: questão adaptada de Cebraspe/CBM-PA/Oficial do Corpo de Bombeiros/2024/Q2350464/https://www.qconcursos.com/questoes-militares/questoes/341e2ffe-b9; adaptação: isolamento da alternativa ortográfica correta."
+    },
+    {
+      "id": "q153",
+      "revision": 1,
+      "prompt": "Em item da DPE-DF, propôs-se a grafia “Co-existem” como variante de “Coexistem”. Assinale a avaliação correta.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A proposta está correta, porque todo prefixo terminado em vogal recebe hífen antes de vogal."
+        },
+        {
+          "id": "b",
+          "text": "A proposta está correta apenas quando a palavra inicia período."
+        },
+        {
+          "id": "c",
+          "text": "A proposta está errada: escreve-se “coexistem”, sem hífen."
+        },
+        {
+          "id": "d",
+          "text": "A proposta está errada porque a forma correta é “coo-existem”."
+        },
+        {
+          "id": "e",
+          "text": "As duas grafias são variantes livres previstas no Acordo."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O elemento “co-” aglutina-se ao segundo elemento; a grafia registrada é “coexistem”, sem hífen. Fonte: questão adaptada de Cebraspe/DPE-DF/Analista de Apoio à Assistência Judiciária — Administração/2022/Q1883768/https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2022-dpe-df-analista-de-apoio-a-assistencia-judiciaria-administracao/questoes?page=2; adaptação: conversão do julgamento certo/errado para múltipla escolha."
     }
   ]
 }

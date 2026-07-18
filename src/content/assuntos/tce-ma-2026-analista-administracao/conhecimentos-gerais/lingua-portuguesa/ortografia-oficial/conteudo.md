@@ -74,6 +74,32 @@ Não existe regra única capaz de prever todas as escolhas entre `x`/`ch`, `g`/`
 
 Uma questão bem construída costuma usar formas plausíveis, não apenas erros evidentes. Compare, por exemplo, `descrição` × `discrição`, `comprimento` × `cumprimento` e `eminente` × `iminente`: todas existem, mas têm sentidos diferentes.
 
+### Famílias, sufixos e pares de sentido
+
+Alguns padrões ajudam a reduzir a memorização, desde que a base da palavra esteja clara:
+
+- substantivos abstratos derivados de adjetivos aparecem com frequência em `-ez` ou `-eza`: `rígido` → `rigidez`, `escasso` → `escassez`, `claro` → `clareza`;
+- verbos formados com o sufixo `-izar` escrevem-se com `z`: `fiscalizar`, `padronizar`, `legalizar`;
+- quando o `s` já pertence à base, ele se conserva: `análise` → `analisar`, `pesquisa` → `pesquisar`.
+
+Esses padrões não dispensam o VOLP: primeiro identifique a base e o processo de formação; depois confirme formas duvidosas.
+
+| Forma | Sentido útil em contexto administrativo |
+| --- | --- |
+| `sessão` / `seção` / `cessão` | reunião ou período / setor ou divisão / ato de ceder |
+| `deferir` / `diferir` | conceder / adiar ou distinguir |
+| `ratificar` / `retificar` | confirmar / corrigir |
+| `mandado` / `mandato` | ordem judicial / período ou poder conferido |
+| `descrição` / `discrição` | ato de descrever / reserva no comportamento |
+| `eminente` / `iminente` | destacado / prestes a ocorrer |
+| `infringir` / `infligir` | violar uma norma / aplicar pena ou castigo |
+| `tráfego` / `tráfico` | circulação / comércio ilícito |
+| `concerto` / `conserto` | apresentação musical ou acordo / reparo |
+| `cumprimento` / `comprimento` | saudação ou execução / extensão |
+
+Como todas essas formas existem, o contexto decide a escolha gráfica: `retificar o parecer` é corrigi-lo; `ratificar o parecer` é confirmá-lo.
+
+
 ## 3. Acentuação gráfica
 
 Acento gráfico não é sinônimo de sílaba tônica. Toda palavra de mais de uma sílaba possui tonicidade, mas apenas algumas recebem sinal gráfico.
@@ -227,7 +253,14 @@ Empregam hífen, entre outros:
 
 `Bem-` aparece em `bem-estar`, `bem-humorado` e `bem-vindo`, mas há lexicalizações como `benfeito`. `Mal-` aparece em `mal-estar` e `mal-humorado`, enquanto outras formações se aglutinam, como `malcriado` e `malfeito`.
 
-Não confunda palavra lexicalizada com sequência sintática: `malfeito`, mas “o trabalho foi mal feito”.
+Não confunda registros de funções diferentes:
+
+- `benfeito` é substantivo, com sentido de benefício ou benfeitoria: “O benfeito promovido pelo município alcançou a comunidade”;
+- `bem-feito` é adjetivo composto: “O relatório está bem-feito”;
+- `bem feito` é sequência sintática, com `bem` modificando o particípio: “O relatório foi bem feito pela equipe”;
+- `malfeito` é forma lexicalizada, mas se escreve “o trabalho foi mal feito” quando `mal` funciona separadamente como advérbio.
+
+A semelhança sonora não torna essas grafias intercambiáveis: classe gramatical e contexto determinam a forma.
 
 ## 7. Compostos, locuções e encadeamentos
 
@@ -344,3 +377,4 @@ Na objetiva, priorize alternativas plausíveis e itens que combinem regras. Na d
 - ACADEMIA BRASILEIRA DE LETRAS. **Vocabulário Ortográfico da Língua Portuguesa, edição digital 2025–2026**. Disponível no [VOLP digital da ABL](https://www.academia.org.br/nossa-lingua/vocabulario-ortografico). Acesso em: 17 jul. 2026.
 - BECHARA, Evanildo. **Empregos do hífen após o Acordo Ortográfico**. Academia Brasileira de Letras. Disponível no [artigo sobre empregos do hífen](https://www.academia.org.br/artigos/empregos-do-hifen-apos-o-acordo-ortografico). Acesso em: 17 jul. 2026.
 - ACADEMIA BRASILEIRA DE LETRAS. **Reduções**. Disponível na [lista de reduções da ABL](https://www.academia.org.br/nossa-lingua/reducoes). Acesso em: 17 jul. 2026.
+- UNIVERSIDADE FEDERAL DE LAVRAS. **Bem feito, bem-feito e benfeito (atualizado)**. Disponível em [orientação da UFLA](https://www.ufla.br/dcom/2014/03/11/dicas-de-portugues-bem-feito-bem-feito-e-benfeito-atualizado/). Acesso em: 18 jul. 2026.
