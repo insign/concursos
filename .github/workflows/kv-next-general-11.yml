@@ -1,4 +1,4 @@
-name: Reserve next published general content in KV
+name: Reserve next published specific content in KV
 
 on:
   pull_request:
@@ -10,12 +10,12 @@ permissions:
 
 jobs:
   reserve-kv:
-    name: Select and mark next general content as analyzing
+    name: Select and mark next specific content as analyzing
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Select first available published general subject
+      - name: Select first available published specific subject
         shell: bash
         run: |
           curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm.json
@@ -24,12 +24,16 @@ jobs:
           from urllib.parse import quote
 
           candidates = [
-              ('tce-ma-2026-analista-administracao--classes-nominais-de-palavras', '/concursos/tce-ma-2026-analista-administracao/classes-nominais-de-palavras/'),
-              ('tce-ma-2026-analista-administracao--classes-invariaveis-de-palavras', '/concursos/tce-ma-2026-analista-administracao/classes-invariaveis-de-palavras/'),
-              ('tce-ma-2026-analista-administracao--subordinacao-oracoes-termos', '/concursos/tce-ma-2026-analista-administracao/subordinacao-oracoes-termos/'),
-              ('tce-ma-2026-analista-administracao--regencia-verbal-nominal', '/concursos/tce-ma-2026-analista-administracao/regencia-verbal-nominal/'),
-              ('tce-ma-2026-analista-administracao--reorganizacao-oracoes-periodos', '/concursos/tce-ma-2026-analista-administracao/reorganizacao-oracoes-periodos/'),
-              ('tce-ma-2026-analista-administracao--reescrita-generos-formalidade', '/concursos/tce-ma-2026-analista-administracao/reescrita-generos-formalidade/'),
+              ('tce-ma-2026-analista-administracao--estruturas-desenho-organizacoes-formais-modernas', '/concursos/tce-ma-2026-analista-administracao/estruturas-desenho-organizacoes-formais-modernas/'),
+              ('tce-ma-2026-analista-administracao--planejamento-direcao-processo-organizacional', '/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/'),
+              ('tce-ma-2026-analista-administracao--gestao-processos', '/concursos/tce-ma-2026-analista-administracao/gestao-processos/'),
+              ('tce-ma-2026-analista-administracao--gestao-qualidade-excelencia-servicos-publicos', '/concursos/tce-ma-2026-analista-administracao/gestao-qualidade-excelencia-servicos-publicos/'),
+              ('tce-ma-2026-analista-administracao--gestao-projetos', '/concursos/tce-ma-2026-analista-administracao/gestao-projetos/'),
+              ('tce-ma-2026-analista-administracao--planejamento-estrategico', '/concursos/tce-ma-2026-analista-administracao/planejamento-estrategico/'),
+              ('tce-ma-2026-analista-administracao--empreendedorismo-liderancas', '/concursos/tce-ma-2026-analista-administracao/empreendedorismo-liderancas/'),
+              ('tce-ma-2026-analista-administracao--gestao-resultados-publica-privada-paradigma-cliente', '/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-paradigma-cliente/'),
+              ('tce-ma-2026-analista-administracao--sustentabilidade-publica', '/concursos/tce-ma-2026-analista-administracao/sustentabilidade-publica/'),
+              ('tce-ma-2026-analista-administracao--acessibilidade-na-gestao-publica', '/concursos/tce-ma-2026-analista-administracao/acessibilidade-na-gestao-publica/'),
           ]
 
           with open('/tmp/adm.json', encoding='utf-8') as stream:
@@ -55,7 +59,7 @@ jobs:
               print('SELECTED_PATH', path)
               break
           else:
-              raise SystemExit('no available published general subject found')
+              raise SystemExit('no available published specific subject found')
           PY
 
       - name: Mark selected subject as analyzing
