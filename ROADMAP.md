@@ -112,7 +112,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 1.1. Conceitos fundamentais: cultura digital, cidadania digital, letramento digital e midiático (BNCC e Política Nacional de Educação Digital - Lei nº 14.533/2023).
 - 1.2. Pensamento computacional aplicado ao serviço público: análise crítica de informações, ética no uso de dados e combate à desinformação.
 
-##### [R] Em revisão Assunto 020 - Item 2.1: Microsoft Windows, arquivos, pastas e programas.
+##### [x] Concluído Assunto 020 - Item 2.1: Microsoft Windows, arquivos, pastas e programas.
 
 - 2.1. Sistemas operacionais: Microsoft Windows (conceitos, interface, gerenciamento de arquivos, pastas e programas).
 
