@@ -151,7 +151,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 3.5. Marco Civil da Internet (Lei nº 12.965/2014): princípios, direitos e deveres para o uso da Internet no Brasil.
 
-##### [R] Em revisão Assunto 030 - Itens 3.4 e 4.4.3: Assinatura digital, assinatura eletrônica e certificação em documentos oficiais.
+##### [x] Concluído Assunto 030 - Itens 3.4 e 4.4.3: Assinatura digital, assinatura eletrônica e certificação em documentos oficiais.
 
 - 3.4. Noções de assinatura digital em processos administrativos.
 - 4.4.3. Noções de assinatura eletrônica e certificação digital em documentos oficiais.
