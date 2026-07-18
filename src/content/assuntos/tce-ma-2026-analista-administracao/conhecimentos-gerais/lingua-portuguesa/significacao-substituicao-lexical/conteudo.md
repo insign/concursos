@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Significação, substituição e equivalência lexical no texto
-description: Sentido lexical e contextual, relações semânticas e critérios para substituir palavras ou trechos sem perder correção, informação, referência ou efeito discursivo.
+description: Sentido contextual, relações lexicais, inferência, operadores e critérios para substituir palavras ou trechos sem perder gramática, referência ou efeito.
 order: 16
 storageId: significacao-substituicao
 ---
@@ -175,6 +175,43 @@ Relações como `página` / `relatório` ou `motor` / `veículo` ligam parte e t
 
 ---
 
+<!-- REVISAO-SIGNIFICACAO-2026 -->
+
+### 4.9 Meronímia, holonímia e co-hiponímia
+
+A relação entre parte e todo recebe nomes úteis para a prova:
+
+- **merônimo**: a parte em relação ao todo — `página` em relação a `relatório`;
+- **holônimo**: o todo em relação à parte — `relatório` em relação a `página`;
+- **co-hipônimos**: espécies diferentes de uma mesma categoria — `portaria`, `resolução` e `instrução normativa` podem ser co-hipônimos de `ato normativo`.
+
+Co-hipônimos pertencem ao mesmo campo e podem compartilhar traços, mas não são sinônimos. Trocar `portaria` por `resolução` muda o tipo do ato, ainda que ambos sejam atos normativos.
+
+### 4.10 Ambiguidade, vagueza e subespecificação
+
+| Fenômeno | Caracterização | Exemplo |
+|---|---|---|
+| ambiguidade lexical | uma forma permite acepções distintas | `banco` |
+| ambiguidade sintática | a estrutura permite mais de uma ligação | `vi o servidor com o binóculo` |
+| ambiguidade referencial | há mais de um antecedente possível | `o auditor informou ao gestor a decisão de sua equipe` |
+| vagueza | os limites do conceito são graduais ou contextuais | `alto`, `recente`, `grande` |
+| subespecificação | o texto não fornece dado suficiente para uma leitura mais precisa | `o órgão adotará providências` |
+
+Resolver uma ambiguidade por meio de uma substituição pode melhorar a clareza, mas também pode **acrescentar informação não autorizada**. Trocar `sua equipe` por `a equipe do gestor`, por exemplo, escolhe um antecedente que o original deixava aberto.
+
+### 4.11 Posição do adjetivo e mudança de acepção
+
+A posição do adjetivo pode alterar o sentido:
+
+| Anteposto | Posposto |
+|---|---|
+| `certo problema` — algum problema, não especificado | `problema certo` — correto, seguro ou inevitável |
+| `grande homem` — homem notável | `homem grande` — homem de grandes dimensões |
+| `simples servidor` — mero servidor | `servidor simples` — servidor sem sofisticação |
+| `pobre homem` — digno de pena | `homem pobre` — sem recursos |
+
+A troca de posição não é uma operação meramente estilística. A banca pode manter as mesmas palavras e alterar a acepção, o foco ou a avaliação.
+
 ## 5. Três níveis de equivalência
 
 ### 5.1 Equivalência estrita
@@ -205,6 +242,27 @@ Há associação, mas uma diferença relevante impede a troca:
 Prever não equivale necessariamente a permitir.
 
 ---
+
+### 5.4 Relações de inferência
+
+A equivalência pode ser testada por quatro relações:
+
+| Relação | Teste | Exemplo |
+|---|---|---|
+| acarretamento | se a primeira é verdadeira, a segunda também precisa ser | `conseguiu concluir` → `concluiu` |
+| pressuposição | a informação tende a permanecer sob negação ou pergunta | `não voltou a assinar` ainda sugere assinatura anterior |
+| implicatura | inferência contextual cancelável | `alguns compareceram` costuma sugerir “não todos”, mas admite `alguns, talvez todos` |
+| contradição | as duas proposições não podem ser verdadeiras no mesmo cenário | `nenhum compareceu` × `algum compareceu` |
+
+Compare:
+
+- `tentou concluir` **não acarreta** `concluiu`;
+- `conseguiu concluir` acarreta conclusão;
+- `parou de recorrer` pressupõe recursos anteriores;
+- `alguns compareceram` não significa logicamente `alguns e não todos`;
+- `nenhum compareceu` contradiz `algum compareceu`.
+
+O teste de negação ajuda, mas não é infalível: pressuposições podem ser contestadas, suspensas ou acomodadas conforme o contexto.
 
 ## 6. O gate gramatical da substituição
 
@@ -290,6 +348,27 @@ A paráfrase pode preservar participantes, mas tende a mudar foco, concisão e e
 
 ---
 
+### 7.5 Verbos de fala, evidência e compromisso
+
+Verbos próximos podem atribuir ao enunciador graus diferentes de compromisso:
+
+| Verbo | Valor frequente |
+|---|---|
+| `afirmar` | apresentar um conteúdo assertivamente |
+| `alegar` | atribuir ou apresentar conteúdo possivelmente controvertido |
+| `sustentar` | defender uma tese |
+| `admitir` | reconhecer algo que poderia ser negado |
+| `confessar` | reconhecer conteúdo geralmente desfavorável |
+| `constatar` | apresentar como resultado de verificação |
+| `indicar` | apontar um indício ou uma direção |
+| `sugerir` | compromisso mais fraco, recomendação ou inferência |
+| `demonstrar` | apresentar como sustentado por evidências |
+| `provar` | reivindicar comprovação conclusiva |
+
+Trocar `alegou` por `demonstrou` pode transformar uma fala atribuída em conclusão evidencial. Trocar `sugerem` por `provam` aumenta indevidamente o compromisso do texto.
+
+O verbo `representar` só equivale a `significar` quando a acepção contextual permitir. Em `a medida representa avanço`, a troca pode funcionar; em `o servidor representa o órgão`, `representar` envolve atuação em nome de alguém.
+
 ## 8. Modalidade, tempo e aspecto
 
 ### 8.1 Modalidade
@@ -321,6 +400,30 @@ A paráfrase pode preservar participantes, mas tende a mudar foco, concisão e e
 Retirar o auxiliar pode manter o tema e alterar decisivamente a perspectiva temporal.
 
 ---
+
+### 8.4 Escalas, limites e aproximação
+
+| Forma | Informação básica |
+|---|---|
+| `quase todos` | número inferior, mas próximo da totalidade |
+| `praticamente todos` | aproximação pragmática |
+| `cerca de 30` | valor aproximado |
+| `mais de 30` | limite inferior exclusivo |
+| `ao menos 30` | limite inferior inclusivo |
+| `no máximo 30` | limite superior |
+| `exatamente 30` | quantidade fixa |
+| `apenas 30` | restrição, frequentemente com avaliação de insuficiência |
+| `até 30` | limite ou inclusão, conforme o contexto |
+
+Também não são idênticos:
+
+- `principalmente` — estabelece prioridade;
+- `especialmente` — destaca elemento relevante;
+- `sobretudo` — concentra a ênfase;
+- `inclusive` — inclui item que poderia parecer excluído;
+- `mesmo` — pode intensificar ou incluir com efeito argumentativo.
+
+A retirada desses elementos pode preservar o fato básico e perder a escala, a hierarquia ou a atitude do enunciador.
 
 ## 9. Operadores, quantificadores e escopo
 
@@ -410,6 +513,26 @@ Paráfrases como `assinou`, `não assinou`, `o diretor concordou` e `o problema 
 
 ---
 
+### 11.1 Encapsulamento e rotulação discursiva
+
+Expressões nominais podem resumir um segmento anterior e, ao mesmo tempo, classificá-lo:
+
+- `esse fato`;
+- `essa decisão`;
+- `tal argumento`;
+- `essa hipótese`;
+- `essa conclusão`;
+- `o problema`;
+- `a medida`.
+
+Compare:
+
+> Pode haver relação entre os dados. **Essa hipótese** será testada.
+
+> Pode haver relação entre os dados. **Esse fato** será considerado.
+
+A troca de `hipótese` por `fato` mantém o conteúdo retomado, mas altera seu estatuto epistêmico. Da mesma forma, chamar uma providência de `solução`, `tentativa` ou `problema` acrescenta avaliação.
+
 ## 12. Referência, repetição e substituição lexical
 
 ### 12.1 Referente preservado
@@ -443,6 +566,31 @@ Identidade de referente não implica identidade de sentido expressivo.
 
 ---
 
+### 12.5 Unidades pluriverbais e expressões fixas
+
+Muitas equivalências precisam ser examinadas na expressão inteira:
+
+- `levar em conta`;
+- `dar conta de`;
+- `tomar uma decisão`;
+- `prestar contas`;
+- `à luz de`;
+- `em face de`;
+- `ao passo que`;
+- `só que`;
+- `o que significa que`;
+- `por motivo de`.
+
+A substituição palavra por palavra pode destruir:
+
+1. o sentido idiomático;
+2. a regência;
+3. a relação lógica;
+4. a colocação lexical;
+5. o registro.
+
+`Dar conta de um problema` pode significar resolvê-lo ou compreendê-lo, conforme o contexto; não equivale automaticamente a `prestar contas do problema`. `Só que` costuma introduzir contraste e pode aproximar-se de `mas`, mas a troca deve preservar pontuação e estrutura.
+
 ## 13. Registro, tecnicidade e alcance
 
 Uma troca pode alterar:
@@ -458,6 +606,22 @@ Termos técnicos próximos não são intercambiáveis por conveniência estilís
 
 ---
 
+### 13.1 Precisão terminológica em textos públicos
+
+Termos administrativos ou jurídicos próximos podem ter extensões diferentes:
+
+| Par ou série | Cuidado |
+|---|---|
+| `anular` / `revogar` | vício de legalidade não equivale a juízo de conveniência |
+| `publicidade` / `transparência` | divulgação formal não esgota abertura e inteligibilidade |
+| `eficiência` / `eficácia` / `efetividade` | recursos, alcance de objetivos e efeitos não são o mesmo critério |
+| `cidadão` / `usuário` / `interessado` | os conjuntos podem coincidir apenas parcialmente |
+| `documento` / `processo` / `expediente` | parte, conjunto e fluxo administrativo podem divergir |
+| `sanção` / `penalidade` | a equivalência depende do regime e do uso técnico |
+| `dever` / `competência` / `atribuição` | obrigação, poder jurídico e tarefa não são idênticos |
+
+Em questão de Língua Portuguesa, não é necessário desenvolver toda a teoria jurídica. O objetivo é perceber que um termo técnico mais amplo, mais estreito ou pertencente a outro instituto pode alterar o alcance da frase.
+
 ## 14. Como usar dicionários e vocabulários
 
 1. Consulte a acepção compatível com a frase, não apenas a primeira.
@@ -469,6 +633,29 @@ Termos técnicos próximos não são intercambiáveis por conveniência estilís
 O Vocabulário Ortográfico da Língua Portuguesa ajuda a confirmar existência e grafia de formas. Não substitui dicionário de acepções, gramática ou leitura contextual.
 
 ---
+
+### 14.1 Matriz final de substituição
+
+| Operação | Verificações obrigatórias |
+|---|---|
+| palavra por quase-sinônimo | acepção, intensidade, avaliação, registro e colocação |
+| verbo por verbo | regência, participantes, aspecto e compromisso do enunciador |
+| expressão por advérbio | classe, pontuação, escopo e relação lógica |
+| nome específico por hiperônimo | perda de informação |
+| hiperônimo por nome específico | possível invenção de dado |
+| ativa por passiva | agente, foco, referência e concordância |
+| oração por nominalização | participantes, tempo, determinação e concisão |
+| pronome por nome | antecedente, avaliação e ambiguidade |
+| conector por conector | relação lógica, posição e hierarquia |
+| operador por ausência | escala, pressuposição, implicatura ou foco perdido |
+
+Antes de aprovar a troca, responda:
+
+1. As duas formulações podem ser verdadeiras nos mesmos cenários?
+2. Alguma informação passou de hipótese a fato, de possibilidade a obrigação ou de indício a prova?
+3. O referente continua inequívoco?
+4. A construção continua natural e correta?
+5. O comando exige apenas conteúdo básico ou manutenção integral do efeito?
 
 ## 15. Método para itens de substituição
 
@@ -561,6 +748,12 @@ Uma substituição local pode romper cadeia referencial ou progressão global.
 - **Reorganização de orações e períodos (Assunto 017):** aqui a estrutura entra como gate de equivalência; transformações sintáticas amplas serão aprofundadas depois.
 - **Gêneros e níveis de formalidade (Assunto 018):** aqui o registro é um traço a preservar; adequação global ao gênero será tratada no assunto seguinte.
 - **Coesão e referenciação:** aqui se confirma o antecedente necessário à substituição; o sistema completo de mecanismos coesivos pertence ao recorte específico.
+
+- CANÇADO, Márcia. *Manual de semântica: noções básicas e exercícios*. Belo Horizonte: Editora UFMG. Relações de sentido, acarretamento, pressuposição e papéis semânticos.
+- ILARI, Rodolfo; GERALDI, João Wanderley. *Semântica*. São Paulo: Ática. Sentido contextual, relações lexicais e inferência.
+- LEVINSON, Stephen C. *Pragmática*. São Paulo: Martins Fontes. Pressuposição, implicatura e interpretação contextual.
+- NEVES, Maria Helena de Moura. *Gramática de usos do português*. São Paulo: Editora UNESP. Operadores, modalidade, aspecto e construção do sentido.
+- KOCH, Ingedore Villaça. *A coesão textual*. São Paulo: Contexto. Referenciação, substituição, encapsulamento e progressão.
 
 ## Referências
 
