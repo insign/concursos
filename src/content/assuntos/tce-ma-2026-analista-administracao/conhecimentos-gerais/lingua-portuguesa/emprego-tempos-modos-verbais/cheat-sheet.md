@@ -1,111 +1,181 @@
-# Emprego de tempos e modos verbais
+# Tempos e modos verbais: revisão rápida
 
 ## Quatro planos
 
 | Plano | Foco |
 | --- | --- |
-| Tempo cronológico | Anterioridade, simultaneidade ou posterioridade. |
-| Tempo verbal | Forma flexionada: presente, perfeito, imperfeito etc. |
-| Aspecto | Fato concluído, habitual, em curso, repetido ou anterior a outro. |
-| Modo/modalidade | Asserção, hipótese, desejo, ordem, possibilidade, avaliação. |
+| tempo cronológico | anterioridade, simultaneidade e posterioridade |
+| tempo verbal | presente, perfeito, imperfeito, futuro etc. |
+| aspecto | concluído, em curso, habitual, reiterado, inicial |
+| modo/modalidade | afirmação, hipótese, desejo, ordem, avaliação |
 
-- Forma verbal e valor contextual não são idênticos.
-- Reescrita correta preserva tempo, aspecto, modalidade e força comunicativa.
+Forma verbal ≠ valor contextual.
 
 ## Modos
 
-| Modo | Valor básico | Exemplo |
-| --- | --- | --- |
-| Indicativo | Apresenta fato/processo em asserção. | `O órgão publicou o edital.` |
-| Subjuntivo | Evento dependente, eventual, desejado, avaliado ou condicionado. | `Espero que publique.` |
-| Imperativo | Ordem, pedido, conselho, instrução, convite, proibição. | `Leia.` / `Não altere.` |
+- **Indicativo:** conteúdo assertado ou assumido no enunciado.
+- **Subjuntivo:** evento dependente, desejado, avaliado, condicionado ou prospectivo.
+- **Imperativo:** ordem, pedido, conselho, instrução, convite ou proibição.
 
-- Indicativo não significa verdade absoluta.
-- Subjuntivo não significa apenas dúvida.
-- Em norma-padrão, imperativo negativo usa subjuntivo: `não fale`, `não façam`.
-- Há variação no PB; em questão normativa, seguir pessoa de tratamento e polaridade exigidas.
+Pegadinhas:
+
+- indicativo não garante verdade absoluta;
+- subjuntivo não exprime apenas dúvida;
+- imperativo negativo usa presente do subjuntivo na norma-padrão.
+
+## Aspecto
+
+| Valor | Exemplo |
+| --- | --- |
+| perfectivo | `analisou` |
+| imperfectivo | `analisava` |
+| progressivo | `estava analisando` |
+| habitual | `analisava toda semana` |
+| iterativo | `tem analisado vários casos` |
+| incoativo | `passou a analisar` |
+| continuativo | `continua analisando` |
+| terminativo | `deixou de analisar` |
+| resultativo | `está concluído` |
 
 ## Indicativo
 
 | Tempo | Valores frequentes |
 | --- | --- |
-| Presente | atual, habitual, atemporal, histórico, futuro programado |
-| Perfeito | fato concluído e delimitado no passado |
-| Imperfeito | hábito, cenário, duração, simultaneidade, polidez |
-| Mais-que-perfeito | anterioridade a outro ponto passado |
-| Futuro do presente | posterioridade, suposição, injunção, previsão |
-| Futuro do pretérito | futuro relativo a passado, hipótese, polidez, informação não confirmada |
+| presente | atual, habitual, atemporal, histórico, futuro programado |
+| perfeito | fato delimitado; progressão narrativa |
+| imperfeito | cenário, duração, hábito, simultaneidade, polidez |
+| mais-que-perfeito | anterioridade a outro passado |
+| futuro do presente | posterioridade, previsão, inferência, injunção |
+| futuro do pretérito | futuro relativo ao passado, hipótese, cortesia, informação atribuída |
 
-### Alertas
+Alertas:
 
 - `Amanhã viajo`: presente com valor futuro.
-- `Em 1930, inicia-se...`: presente histórico.
-- `Queria solicitar...`: imperfeito de polidez.
-- `Ele terá quarenta anos`: futuro com valor de suposição.
-- `Ele disse que voltaria`: futuro relativo ao ato passado de dizer.
+- `Em 1988, promulga-se...`: presente histórico.
+- `Eu queria pedir...`: imperfeito de polidez.
+- `Ele terá quarenta anos`: futuro com inferência.
+- `Segundo a notícia, teria ocorrido`: distanciamento/evidencialidade.
+
+## Seleção de modo
+
+| Estrutura | Tendência |
+| --- | --- |
+| `sei que`, `é certo que` | indicativo |
+| `espero que`, `é necessário que` | subjuntivo |
+| `embora`, `ainda que` | subjuntivo |
+| `caso`, `contanto que` | subjuntivo |
+| `quando` + evento futuro | futuro do subjuntivo |
+| relativa factual | indicativo |
+| relativa eventual | subjuntivo |
+
+- `Procuro o servidor que conhece`: referente identificado.
+- `Procuro um servidor que conheça`: referente eventual.
 
 ## Subjuntivo
 
-| Tempo | Emprego frequente | Exemplo |
-| --- | --- | --- |
-| Presente | dependência modal, simultaneidade/posterioridade | `Espero que venha.` |
-| Imperfeito | hipótese remota, desejo, referência passada | `Se estudasse, passaria.` |
-| Futuro | temporal, condicional ou relativa futura eventual | `Quando chegar, avise.` |
-| Perfeito composto | anterioridade a referência presente/futura | `Espero que tenha estudado.` |
-| Mais-que-perfeito composto | contrafactual passado | `Se tivesse estudado, teria passado.` |
-| Futuro composto | conclusão antes de outro futuro | `Quando tiver concluído, sairá.` |
-
-## Correlação verbal
-
-| Contexto | Padrão |
+| Tempo | Exemplo |
 | --- | --- |
-| Hábito/regra geral | `Se estuda, melhora.` |
-| Condição futura aberta | `Se estudar, melhorará.` |
-| Ordem condicionada | `Se houver dúvida, consulte.` |
-| Hipótese remota | `Se estudasse, passaria.` |
-| Contrafactual passado | `Se tivesse estudado, teria passado.` |
-| Consequência atual de passado | `Se tivesse estudado, seria aprovado hoje.` |
-| Temporal futura | `Quando terminar, entregará.` |
-| Relativa futura eventual | `Quem apresentar recurso terá resposta.` |
+| presente | `Espero que venha.` |
+| imperfeito | `Se viesse, conversaríamos.` |
+| futuro | `Quando vier, conversaremos.` |
 
-- Em oração condicional: `se tivesse/estudasse..., teria/passaria...`.
-- `Não sei se teria condições` é interrogativa indireta, não prótase condicional.
-- `Quando ele chegar` x `Quando ele chegará?`: subordinada temporal x pergunta direta.
+## Condicionais
 
-## Compostos, locuções e passiva
-
-| Forma | Valor/alerta |
+| Sentido | Padrão |
 | --- | --- |
-| `tem estudado` | repetição/duração até o presente; não equivale sempre a `estudou` |
-| `tinha estudado` | anterioridade passada |
-| `está estudando` | processo em curso; não é mero hábito |
-| `vai estudar` | futuridade próxima ou planejada |
-| `deve ter chegado` | inferência sobre passado |
-| `teve de chegar` | obrigação/necessidade |
-| `foi aprovado` | voz passiva; não assumir tempo composto com `ter/haver` |
-| `está aprovado` | estado resultante ou passiva de estado |
+| hábito | `Se estuda, melhora.` |
+| futuro aberto | `Se estudar, melhorará.` |
+| ordem condicionada | `Se houver dúvida, consulte.` |
+| hipótese remota | `Se estudasse, passaria.` |
+| contrafactual passado | `Se tivesse estudado, teria passado.` |
+| consequência atual | `Se tivesse estudado, estaria tranquilo.` |
 
-## Formas irregulares decisivas
+`Não sei se teria condições` é interrogativa indireta; `se teria` não é erro automático.
 
-| Infinitivo | Futuro do subjuntivo | Imperfeito do subjuntivo |
-| --- | --- | --- |
-| fazer | fizer | fizesse |
-| dizer | disser | dissesse |
-| trazer | trouxer | trouxesse |
-| pôr | puser | pusesse |
-| ter | tiver | tivesse |
-| vir | vier | viesse |
-| poder | puder | pudesse |
-| saber | souber | soubesse |
+## Futuro do subjuntivo irregular
 
-- `quando ele vir` = ver; `quando ele vier` = vir.
-- `se eu puser`, não `se eu pôr`.
-- `se ele for` pode vir de `ser` ou `ir`: contexto decide.
+| Infinitivo | Forma |
+| --- | --- |
+| ter/manter/obter | tiver/mantiver/obtiver |
+| fazer/satisfazer | fizer/satisfizer |
+| dizer/trazer | disser/trouxer |
+| pôr/propor | puser/propuser |
+| vir/intervir | vier/intervier |
+| ver/prever | vir/previr |
+| reaver | reouver |
+| caber | couber |
+| requerer | requerer |
 
-## Roteiro de prova
+## Locuções
 
-1. Localize o ponto de referência temporal.
-2. Identifique modo e valor modal.
-3. Observe aspecto: concluído, habitual, em curso, repetido.
-4. Leia principal + subordinada + conector.
-5. Teste reescrita por completo: forma, sentido e pragmática.
+- `tem analisado`: repetição/duração até o presente.
+- `tinha analisado`: anterioridade passada.
+- `estava analisando`: processo em curso no passado.
+- `vai analisar`: futuro próximo/planejado.
+- `acabou de analisar`: passado recente.
+- `passou a analisar`: início.
+- `deixou de analisar`: interrupção ou não ocorrência.
+- `voltou a analisar`: retomada.
+- `continua/vem analisando`: continuidade.
+- `deve analisar`: obrigação ou probabilidade, conforme contexto.
+- `pode analisar`: possibilidade, permissão ou capacidade.
+
+## Discurso relatado
+
+| Direto | Indireto ancorado no passado |
+| --- | --- |
+| `Voltarei amanhã.` | disse que voltaria no dia seguinte |
+| `Estou analisando.` | disse que estava analisando |
+| `Concluí.` | disse que havia concluído/concluíra |
+| `Venha agora.` | ordenou que viesse naquele momento |
+
+A mudança não é mecânica: `voltará` pode ser mantido se o fato ainda for futuro no novo momento.
+
+## Passiva × estado resultante
+
+- `Foi aprovado pela comissão`: passiva eventiva.
+- `Está aprovado`: estado resultante.
+- `Tem sido aprovado`: passiva reiterada/durativa.
+
+## Reescrita
+
+Pergunte separadamente:
+
+1. continua gramatical?
+2. preserva a referência temporal?
+3. preserva aspecto?
+4. preserva modalidade?
+5. preserva coerência e sentido?
+
+Exemplo:
+
+- `iam ocorrer` → `ocorriam`: correto, mas habitual/passado;
+- `iam ocorrer` → `ocorreriam`: correto e preserva projeção futura no contexto.
+
+## Pegadinhas
+
+| Afirmação | Julgamento |
+| --- | --- |
+| forma correta preserva necessariamente o sentido | errado |
+| todo presente é simultâneo à fala | errado |
+| todo futuro do pretérito indica posterioridade | errado |
+| `tem feito` equivale sempre a `fez` | errado |
+| `havia feito` pode equivaler a `fizera` | certo, conforme contexto |
+| `quando chegará?` e `quando chegar` têm a mesma estrutura | errado |
+| correlação mista é sempre defeituosa | errado |
+| `estar + particípio` é sempre tempo composto | errado |
+| `se teria` é sempre incorreto | errado |
+| futuro do subjuntivo de `ver` é `vir` | certo |
+
+## Método de prova
+
+1. localize o ponto de referência;
+2. identifique forma e modo;
+3. determine o aspecto;
+4. observe verbo principal e conjunção;
+5. em relativas, avalie o referente;
+6. em condicionais, separe prótase e apódose;
+7. em locuções, interprete o auxiliar;
+8. compare correção e sentido separadamente;
+9. elimine absolutos;
+10. confira a forma irregular.
