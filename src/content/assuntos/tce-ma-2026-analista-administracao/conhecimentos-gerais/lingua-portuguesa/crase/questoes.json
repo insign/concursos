@@ -1,66 +1,4066 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
-    {"id":"q3519","revision":1,"prompt":"A distinção correta entre crase e acento grave é","options":[{"id":"A","text":"crase é a fusão de vogais idênticas, e o acento grave é o sinal gráfico que a indica."},{"id":"B","text":"crase é apenas o nome do acento colocado em qualquer palavra feminina."},{"id":"C","text":"acento grave é fenômeno sintático, e crase é uma letra do alfabeto."},{"id":"D","text":"os dois termos designam obrigatoriamente qualquer preposição 'a'."}],"correctOptionId":"A","explanation":"Crase é o fenômeno de fusão; o acento grave é sua representação gráfica nos casos prescritos. Palavra feminina ou preposição isolada não bastam. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3520","revision":1,"prompt":"No caso básico, o emprego de 'à' exige cumulativamente","options":[{"id":"A","text":"verbo no plural e substantivo feminino."},{"id":"B","text":"preposição 'a' exigida ou introduzida antes e artigo feminino 'a' admitido depois."},{"id":"C","text":"qualquer preposição e qualquer palavra feminina."},{"id":"D","text":"artigo indefinido e pronome pessoal."}],"correctOptionId":"B","explanation":"A fusão básica é preposição 'a' + artigo 'a'; gênero sozinho, plural verbal, outra preposição ou artigo indefinido não produzem essa contração. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3521","revision":1,"prompt":"Qual par mostra corretamente que a regência do verbo altera o uso do acento grave?","options":[{"id":"A","text":"Visitou à escola / dirigiu-se a escola."},{"id":"B","text":"Visitou à escola / dirigiu-se à escola."},{"id":"C","text":"Visitou a escola / dirigiu-se à escola."},{"id":"D","text":"Visitou a escola / dirigiu-se a escola."}],"correctOptionId":"C","explanation":"'Visitar' é direto e recebe apenas o artigo; 'dirigir-se' seleciona a preposição 'a', que se funde com o artigo de 'escola'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3522","revision":1,"prompt":"O teste de substituição por masculino confirma a crase em 'dirigiu-se à diretora' porque a forma correspondente é","options":[{"id":"A","text":"dirigiu-se do diretor."},{"id":"B","text":"dirigiu-se o diretor."},{"id":"C","text":"dirigiu-se para diretor."},{"id":"D","text":"dirigiu-se ao diretor."}],"correctOptionId":"D","explanation":"O aparecimento de 'ao' revela preposição 'a' mais artigo masculino 'o', correspondente a 'à' no feminino; as outras formas não preservam a mesma estrutura. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3523","revision":1,"prompt":"Sobre os testes práticos de crase, é correto afirmar que","options":[{"id":"A","text":"eles confirmam a análise, mas devem preservar função, determinação e sentido da estrutura substituída."},{"id":"B","text":"o teste masculino dispensa conhecer a regência do termo anterior."},{"id":"C","text":"qualquer troca por palavra masculina que produza 'ao' prova a correção, mesmo que mude o sentido."},{"id":"D","text":"topônimos femininos recebem crase independentemente do artigo."}],"correctOptionId":"A","explanation":"Os testes são auxiliares e só valem com estrutura equivalente; mudanças de função, sentido ou artigo podem produzir resultado enganoso. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3524","revision":1,"prompt":"Em qual frase as duas condições básicas para a crase estão presentes?","options":[{"id":"A","text":"A comissão analisou a resolução."},{"id":"B","text":"O relatório se refere à resolução."},{"id":"C","text":"O relatório se refere a uma resolução."},{"id":"D","text":"O relatório se refere a este regulamento."}],"correctOptionId":"B","explanation":"'Referir-se' exige 'a' e 'a resolução' admite artigo definido; em A não há preposição, e em C e D não há artigo feminino 'a'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3525","revision":1,"prompt":"Não se usa acento grave em 'dirigiu-se a uma servidora' porque","options":[{"id":"A","text":"'servidora' é objeto direto de 'dirigir-se'."},{"id":"B","text":"palavras femininas nunca recebem artigo."},{"id":"C","text":"a preposição 'a' é seguida do artigo indefinido 'uma', e não do artigo 'a'."},{"id":"D","text":"o verbo não admite qualquer complemento."}],"correctOptionId":"C","explanation":"Existe preposição, mas não há segundo 'a' para fundir: 'uma' é artigo indefinido. O gênero feminino não muda essa estrutura. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3526","revision":1,"prompt":"A oposição correta entre plural sem artigo e plural determinado ocorre em","options":[{"id":"A","text":"referiu-se às pessoas / referiu-se às pessoas presentes, sem diferença."},{"id":"B","text":"referiu-se à pessoas / referiu-se as pessoas presentes."},{"id":"C","text":"referiu-se a pessoas / referiu-se as pessoas presentes."},{"id":"D","text":"referiu-se a pessoas / referiu-se às pessoas presentes."}],"correctOptionId":"D","explanation":"'A pessoas' contém só preposição; em 'às pessoas presentes', o artigo definido plural se soma à preposição. 'À pessoas' também viola a concordância de número. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3527","revision":1,"prompt":"O acento em 'referiu-se àquele processo' decorre","options":[{"id":"A","text":"da preposição 'a' exigida por 'referir-se' fundida à vogal inicial de 'aquele'."},{"id":"B","text":"do gênero feminino da palavra 'processo'."},{"id":"C","text":"de todo demonstrativo exigir acento grave."},{"id":"D","text":"da existência de artigo feminino antes de 'processo'."}],"correctOptionId":"A","explanation":"A contração ocorre entre a preposição e o início de 'aquele'; o substantivo é masculino, e o demonstrativo sem preposição não recebe acento. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3528","revision":1,"prompt":"Em qual frase o demonstrativo não recebe acento porque não há preposição anterior?","options":[{"id":"A","text":"Deu importância àquele parecer."},{"id":"B","text":"Aquele parecer foi publicado."},{"id":"C","text":"Fez alusão àquela decisão."},{"id":"D","text":"Não se referiu àquilo."}],"correctOptionId":"B","explanation":"'Aquele' é sujeito sem preposição em B; nas demais frases, os regentes selecionam 'a', que se contrai com o demonstrativo. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3529","revision":1,"prompt":"A forma relativa adequada é","options":[{"id":"A","text":"A norma a qual me referi, sem preposição."},{"id":"B","text":"A norma à que me referi, com artigo obrigatório diante de 'que'."},{"id":"C","text":"A norma à qual me referi."},{"id":"D","text":"A norma há qual me referi."}],"correctOptionId":"C","explanation":"'Referir-se à norma' produz 'a norma à qual me referi': a preposição se funde com o artigo de 'a qual'. 'Que' simples não recebe artigo, e 'há' é verbo. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3530","revision":1,"prompt":"Por que se escreve 'a proposta a que me referi', sem acento grave?","options":[{"id":"A","text":"Porque 'referir-se' não exige preposição."},{"id":"B","text":"Porque 'proposta' é masculina."},{"id":"C","text":"Porque toda oração relativa proíbe preposição."},{"id":"D","text":"Porque há preposição 'a', mas o relativo 'que' não admite artigo antes de si."}],"correctOptionId":"D","explanation":"A preposição é mantida, mas falta o segundo 'a' necessário à fusão; com 'a qual', haveria 'à qual'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3531","revision":1,"prompt":"Em 'situação semelhante à que enfrentamos', o segmento 'à que' é justificável porque","options":[{"id":"A","text":"'à' equivale ao demonstrativo 'àquela', confirmado pelo masculino 'ao que'."},{"id":"B","text":"todo pronome 'que' recebe artigo feminino."},{"id":"C","text":"'enfrentar' exige a preposição 'a'."},{"id":"D","text":"a palavra 'situação' obriga acento diante de qualquer relativo."}],"correctOptionId":"A","explanation":"A estrutura é 'semelhante àquela que enfrentamos'; o acento recai no demonstrativo elíptico, não em artigo acrescentado diretamente ao relativo 'que'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3532","revision":1,"prompt":"Qual alternativa apresenta somente locuções femininas tradicionalmente acentuadas?","options":[{"id":"A","text":"a prazo, a lápis, a cavalo."},{"id":"B","text":"à tarde, às pressas, à vontade."},{"id":"C","text":"a partir de, a respeito de, cara a cara."},{"id":"D","text":"a uma pessoa, a esta regra, a quem."}],"correctOptionId":"B","explanation":"As expressões da alternativa B são locuções adverbiais femininas consagradas; as demais contêm masculino, repetição, artigo indefinido ou pronomes sem artigo. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3533","revision":1,"prompt":"A diferença entre 'Começou a tarde' e 'Trabalhou à tarde' está corretamente explicada em","options":[{"id":"A","text":"as duas expressões são sempre locuções de tempo."},{"id":"B","text":"a primeira deveria obrigatoriamente ter crase porque 'tarde' é feminino."},{"id":"C","text":"na primeira, 'a tarde' pode ser sujeito ou complemento com artigo; na segunda, 'à tarde' é locução adverbial."},{"id":"D","text":"a segunda não admite acento porque o verbo é intransitivo."}],"correctOptionId":"C","explanation":"A função da expressão inteira decide: artigo isolado em 'a tarde' não equivale à locução temporal consagrada 'à tarde'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3534","revision":1,"prompt":"Qual alternativa contém locuções conjuntivas com acento grave?","options":[{"id":"A","text":"a fim de que e a menos que."},{"id":"B","text":"a partir de que e a respeito de que."},{"id":"C","text":"a que e a quem."},{"id":"D","text":"à medida que e à proporção que."}],"correctOptionId":"D","explanation":"'À medida que' e 'à proporção que' são locuções conjuntivas femininas consagradas; os demais segmentos têm outras estruturas e não recebem acento por essa regra. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3535","revision":1,"prompt":"O emprego do acento em indicação de horário está correto em","options":[{"id":"A","text":"A sessão começa às 8 horas."},{"id":"B","text":"Daqui à duas horas a sessão começa."},{"id":"C","text":"A uma hora qualquer, com acento obrigatório em 'a'."},{"id":"D","text":"O local fica à três quilômetros."}],"correctOptionId":"A","explanation":"'Às 8 horas' indica horário determinado. Futuro, hora indeterminada e distância numérica usam apenas 'a' nos exemplos restantes. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3536","revision":1,"prompt":"Em 'Daqui a duas horas, o resultado será publicado', não há acento porque","options":[{"id":"A","text":"numerais nunca admitem artigo."},{"id":"B","text":"a expressão indica tempo futuro, sem artigo feminino fundido à preposição."},{"id":"C","text":"'horas' é palavra masculina."},{"id":"D","text":"a palavra 'daqui' proíbe qualquer preposição."}],"correctOptionId":"B","explanation":"A expressão mede intervalo futuro e contém apenas a preposição 'a'; numerais podem participar de estruturas com crase, como 'às duas horas'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3537","revision":1,"prompt":"Qual frase respeita a preposição que já introduz o horário?","options":[{"id":"A","text":"O atendimento funciona desde às 8h."},{"id":"B","text":"A reunião ocorrerá entre às 9h e às 10h."},{"id":"C","text":"O atendimento funciona desde as 8h."},{"id":"D","text":"A sessão terminou após às 14h."}],"correctOptionId":"C","explanation":"Depois de 'desde', o segmento 'as' é artigo, sem preposição 'a' para fundir; 'entre' e 'após' seguem o mesmo princípio nos outros exemplos. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3538","revision":1,"prompt":"Qual indicação de intervalo preserva o paralelismo dos determinantes?","options":[{"id":"A","text":"de 8h às 10h."},{"id":"B","text":"das 8h a 10h."},{"id":"C","text":"entre às 8h e às 10h."},{"id":"D","text":"das 8h às 10h."}],"correctOptionId":"D","explanation":"'Das... às...' usa artigo nos dois limites; também seria paralelo 'de... a...'. As outras formas misturam padrões ou acrescentam 'a' depois de 'entre'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3539","revision":1,"prompt":"O acento em 'gol à Pelé' é explicado pela","options":[{"id":"A","text":"elipse de 'à maneira de' ou 'à moda de Pelé'."},{"id":"B","text":"regra de que todo nome masculino recebe crase."},{"id":"C","text":"presença obrigatória de artigo feminino antes de qualquer nome próprio."},{"id":"D","text":"transformação de 'Pelé' em palavra feminina."}],"correctOptionId":"A","explanation":"Recupera-se um núcleo feminino elíptico, 'maneira/moda'; o gênero do nome visível não cria a crase por si só. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3540","revision":1,"prompt":"Qual frase mostra a exceção aparente ao bloqueio antes de palavra masculina por haver elipse feminina?","options":[{"id":"A","text":"O pagamento foi feito à prazo."},{"id":"B","text":"O texto foi escrito à Machado de Assis."},{"id":"C","text":"O documento foi preenchido à lápis."},{"id":"D","text":"O servidor chegou à cavalo."}],"correctOptionId":"B","explanation":"'À Machado de Assis' pode equivaler a 'à maneira de Machado de Assis'; prazo, lápis e cavalo são masculinos sem elipse que justifique acento nos exemplos. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3541","revision":1,"prompt":"Assinale a frase correta quanto ao termo anterior a infinitivo.","options":[{"id":"A","text":"Começou à analisar os dados."},{"id":"B","text":"Passou à redigir o relatório."},{"id":"C","text":"Começou a analisar os dados."},{"id":"D","text":"Estava à estudar o processo."}],"correctOptionId":"C","explanation":"O infinitivo não admite artigo feminino; há apenas preposição ou elemento da perífrase. Por isso não se usa acento diante de 'analisar', 'redigir' ou 'estudar'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3542","revision":1,"prompt":"Qual expressão repetida está grafada de acordo com a norma-padrão?","options":[{"id":"A","text":"cara à cara."},{"id":"B","text":"passo à passo."},{"id":"C","text":"gota à gota."},{"id":"D","text":"frente a frente."}],"correctOptionId":"D","explanation":"Expressões com palavras repetidas usam apenas 'a', sem artigo definido e sem fusão: cara a cara, passo a passo, gota a gota e frente a frente. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3543","revision":1,"prompt":"Qual série está integralmente correta quanto aos pronomes?","options":[{"id":"A","text":"entregou a ela; referiu-se a qualquer pessoa; aludiu a esta norma."},{"id":"B","text":"entregou à ela; referiu-se à qualquer pessoa; aludiu à esta norma."},{"id":"C","text":"entregou a ela; referiu-se à qualquer pessoa; aludiu à esta norma."},{"id":"D","text":"entregou à ela; referiu-se a qualquer pessoa; aludiu à esta norma."}],"correctOptionId":"A","explanation":"Pronomes pessoais, indefinidos e os demonstrativos 'este/esse' não admitem artigo anterior; existe preposição 'a', mas não segundo 'a'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3544","revision":1,"prompt":"A forma adequada diante do pronome de tratamento é","options":[{"id":"A","text":"Dirigiu-se à Vossa Excelência."},{"id":"B","text":"Dirigiu-se a Vossa Excelência."},{"id":"C","text":"Dirigiu-se há Vossa Excelência."},{"id":"D","text":"Dirigiu-se as Vossa Excelência."}],"correctOptionId":"B","explanation":"'Vossa Excelência' não recebe artigo; há somente a preposição exigida por 'dirigir-se'. 'Há' é forma verbal, e as demais formas inserem artigo indevido. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3545","revision":1,"prompt":"Sobre o acento antes de 'Senhora' e 'Dona', a orientação mais precisa é","options":[{"id":"A","text":"ele é sempre proibido antes das duas formas."},{"id":"B","text":"ele é sempre obrigatório, qualquer que seja a região ou o contexto."},{"id":"C","text":"depende de a construção exigir preposição e de o uso concreto admitir artigo: 'à senhora/à Dona Lúcia' ou 'a Dona Lúcia'."},{"id":"D","text":"as formas são verbos e, por isso, nunca admitem artigo."}],"correctOptionId":"C","explanation":"O artigo com formas de tratamento varia por uso, região e pragmática; não há regra absoluta sem observar a construção e o padrão editorial. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3546","revision":1,"prompt":"Antes de possessivo feminino, a crase pode ser facultativa, como em","options":[{"id":"A","text":"referiu-se à uma proposta / a uma proposta."},{"id":"B","text":"referiu-se à esta proposta / a esta proposta."},{"id":"C","text":"referiu-se à qualquer proposta / a qualquer proposta."},{"id":"D","text":"referiu-se a sua proposta / à sua proposta."}],"correctOptionId":"D","explanation":"O artigo antes do possessivo pode ser empregado ou omitido; 'uma', 'esta' e 'qualquer' não admitem o artigo feminino adicional mostrado nas alternativas. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3547","revision":1,"prompt":"A facultatividade antes de nome próprio feminino aparece em","options":[{"id":"A","text":"Entregou o relatório a Ana / à Ana."},{"id":"B","text":"Entregou o relatório à Brasília / a Brasília, sempre sem diferença de artigo."},{"id":"C","text":"Entregou o relatório à ela / a ela."},{"id":"D","text":"Entregou o relatório à uma Ana / a uma Ana."}],"correctOptionId":"A","explanation":"O nome de pessoa pode ser usado com ou sem artigo, conforme familiaridade e uso regional; pronome pessoal e artigo indefinido não seguem essa facultatividade. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3548","revision":1,"prompt":"Depois de 'até', a norma admite","options":[{"id":"A","text":"somente 'até à sala'."},{"id":"B","text":"'até a sala' e 'até à sala', conforme se empregue ou não a preposição 'a' após 'até'."},{"id":"C","text":"somente 'até a sala', pois nunca existe preposição depois de 'até'."},{"id":"D","text":"a mesma facultatividade depois de 'desde', 'após' e 'entre'."}],"correctOptionId":"B","explanation":"'Até' pode aparecer sozinho ou seguido de 'a', gerando as duas formas; essa variação não autoriza 'desde às', 'após às' ou 'entre às'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3549","revision":1,"prompt":"Qual par emprega corretamente 'casa'?","options":[{"id":"A","text":"voltou à casa, no sentido de lar sem determinação / voltou a casa dos pais."},{"id":"B","text":"voltou à casa em qualquer sentido / voltou à casa dos pais."},{"id":"C","text":"voltou a casa, no sentido de lar / voltou à casa dos pais."},{"id":"D","text":"voltou a casa em qualquer sentido / voltou a casa dos pais."}],"correctOptionId":"C","explanation":"'Casa' como lar sem determinante aparece sem artigo; 'casa dos pais' está especificada e recebe artigo, que se funde com a preposição. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3550","revision":1,"prompt":"A oposição correta com 'terra' é","options":[{"id":"A","text":"os marinheiros chegaram à terra, obrigatoriamente / voltaram a terra natal."},{"id":"B","text":"os marinheiros chegaram à terra firme / voltaram a terra natal, sempre sem artigo."},{"id":"C","text":"'terra' nunca admite acento grave."},{"id":"D","text":"os marinheiros chegaram a terra, em oposição a bordo / voltaram à terra natal."}],"correctOptionId":"D","explanation":"No sentido de terra firme não determinada, a tradição omite artigo; a especificação 'natal' introduz determinação e permite a fusão. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3551","revision":1,"prompt":"O teste do artigo com topônimos está corretamente aplicado em","options":[{"id":"A","text":"vou à Bahia, volto da Bahia; vou a Brasília, volto de Brasília."},{"id":"B","text":"vou a Bahia, volto da Bahia; vou à Brasília, volto de Brasília."},{"id":"C","text":"todo topônimo feminino recebe crase, independentemente do uso."},{"id":"D","text":"nenhum nome de cidade admite artigo."}],"correctOptionId":"A","explanation":"'Bahia' admite artigo nesse uso, enquanto 'Brasília' normalmente não; gênero aparente não decide sozinho. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3552","revision":1,"prompt":"Um modificador pode alterar o artigo de um topônimo, como em","options":[{"id":"A","text":"viajou à Roma, sempre, porque Roma é feminino."},{"id":"B","text":"referiu-se à Roma das Sete Colinas, em contraste com 'viajou a Roma'."},{"id":"C","text":"viajou há Roma das Sete Colinas."},{"id":"D","text":"referiu-se a à Roma antiga."}],"correctOptionId":"B","explanation":"O modificador determina o topônimo e pode introduzir artigo; sem ele, 'Roma' costuma ocorrer sem artigo. 'Há' e a sequência 'a à' não cabem. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3553","revision":1,"prompt":"A respeito de 'a distância/à distância', é correto afirmar que","options":[{"id":"A","text":"todas as fontes proíbem o acento sem medida expressa."},{"id":"B","text":"todas as fontes exigem o acento em qualquer contexto."},{"id":"C","text":"há divergência editorial: parte da tradição distingue determinação, enquanto o Senado admite 'à distância' por clareza ou tradição."},{"id":"D","text":"a expressão é sempre masculina."}],"correctOptionId":"C","explanation":"As fontes não são uniformes; a resposta deve considerar determinação e padrão editorial, sem converter uma orientação em regra universal. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3554","revision":1,"prompt":"Qual orientação evita generalização indevida sobre instrumento e meio?","options":[{"id":"A","text":"Todo instrumento feminino exige acento grave."},{"id":"B","text":"Nenhuma locução de instrumento recebe acento."},{"id":"C","text":"O gênero do objeto é o único critério."},{"id":"D","text":"Devem-se reconhecer locuções consagradas, como 'à mão' e 'à máquina', e o padrão editorial aplicável."}],"correctOptionId":"D","explanation":"Manuais registram certas locuções por tradição ou clareza, mas isso não cria regra automática para todo nome feminino de instrumento. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3555","revision":1,"prompt":"Qual contraste está corretamente grafado?","options":[{"id":"A","text":"pagamento à vista / pagamento a prazo."},{"id":"B","text":"pagamento a vista / pagamento à prazo."},{"id":"C","text":"pagamento à vista / pagamento à prazo."},{"id":"D","text":"pagamento a vista / pagamento a prazo, sem diferença."}],"correctOptionId":"A","explanation":"'À vista' é locução feminina consagrada; 'a prazo' contém palavra masculina e não apresenta elipse feminina. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3556","revision":1,"prompt":"A presença de numeral está corretamente analisada em","options":[{"id":"A","text":"numeral cardinal sempre proíbe crase."},{"id":"B","text":"'às duas horas' indica horário, enquanto 'a duas horas' pode indicar intervalo ou ausência de artigo."},{"id":"C","text":"numeral cardinal sempre exige crase."},{"id":"D","text":"'a duas servidoras' e 'às duas servidoras' são necessariamente idênticos quanto à determinação."}],"correctOptionId":"B","explanation":"O numeral não decide sozinho: horário e artigo definido podem produzir 'às', enquanto intervalo ou nome sem artigo usa apenas 'a'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3557","revision":1,"prompt":"Qual série coordenada analisa cada artigo sem forçar paralelismo gráfico?","options":[{"id":"A","text":"referiu-se a pesquisa, à formação e à projetos."},{"id":"B","text":"referiu-se à pesquisa, a formação e aos projetos."},{"id":"C","text":"referiu-se à pesquisa, à formação e a projetos experimentais."},{"id":"D","text":"referiu-se a à pesquisa, à formação e à projetos."}],"correctOptionId":"C","explanation":"Os dois primeiros nomes recebem artigo; 'projetos' está no plural sem artigo. Paralelismo sintático não obriga a inserir artigo onde ele foi omitido. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3558","revision":1,"prompt":"A reescrita de 'visitou a escola' para 'dirigiu-se à escola' exige acento porque","options":[{"id":"A","text":"a palavra 'escola' mudou de gênero."},{"id":"B","text":"todo verbo pronominal exige crase."},{"id":"C","text":"a escola se tornou sujeito."},{"id":"D","text":"o novo verbo seleciona a preposição 'a', que se funde com o artigo já admitido pelo nome."}],"correctOptionId":"D","explanation":"A mudança do regente introduz a preposição; o nome permanece feminino e articulado. Nem todo verbo pronominal produz essa estrutura. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3559","revision":1,"prompt":"Qual sequência mostra corretamente a mudança de determinação?","options":[{"id":"A","text":"a uma servidora / à servidora / a servidoras / às servidoras aprovadas."},{"id":"B","text":"à uma servidora / a servidora / à servidoras / as servidoras aprovadas."},{"id":"C","text":"a uma servidora / a servidora / às servidoras / a servidoras aprovadas, obrigatoriamente."},{"id":"D","text":"à uma servidora / à servidora / à servidoras / às servidoras."}],"correctOptionId":"A","explanation":"Artigo indefinido e plural sem artigo não se fundem; artigo definido singular ou plural, após preposição, produz 'à/às'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3560","revision":1,"prompt":"A substituição de um pronome relativo por 'à qual' mantém a correção em","options":[{"id":"A","text":"a norma que foi publicada → a norma à qual foi publicada."},{"id":"B","text":"a proposta a que me referi → a proposta à qual me referi."},{"id":"C","text":"a pessoa com quem conversei → a pessoa à qual conversei, porque todo relativo feminino exige crase."},{"id":"D","text":"a autora a cujo texto aludi → a autora à cujo texto aludi."}],"correctOptionId":"B","explanation":"'Referir-se a' exige preposição; 'que' não recebe artigo, enquanto 'a qual' o contém e forma 'à qual'. As demais trocas alteram função ou inserem artigo indevido. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3561","revision":1,"prompt":"Ao reescrever 'A sessão começa às 8h' como 'A sessão ocorre entre as 8h e as 10h', a retirada do acento é necessária porque","options":[{"id":"A","text":"horas deixam de ser femininas depois de 'entre'."},{"id":"B","text":"o plural nunca admite acento grave."},{"id":"C","text":"'entre' já é a preposição da estrutura, e 'as' funciona como artigo."},{"id":"D","text":"intervalos nunca admitem artigo."}],"correctOptionId":"C","explanation":"Não há preposição 'a' para fundir depois de 'entre'; o artigo plural permanece. Em 'das 8h às 10h', outra estrutura justificaria 'às'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3562","revision":1,"prompt":"Qual frase combina corretamente regência nominal e artigo?","options":[{"id":"A","text":"A medida é favorável a decisão."},{"id":"B","text":"A medida é favorável há decisão."},{"id":"C","text":"A medida é favorável da decisão."},{"id":"D","text":"A medida é favorável à decisão."}],"correctOptionId":"D","explanation":"'Favorável' seleciona 'a', e 'decisão' admite artigo definido 'a'; a fusão produz 'à'. 'Há' é verbo, e 'de' muda a regência. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3563","revision":1,"prompt":"Qual par distingue corretamente demonstrativos que não se contraem e os iniciados por 'a'?","options":[{"id":"A","text":"referiu-se a esta norma / referiu-se àquela norma."},{"id":"B","text":"referiu-se à esta norma / referiu-se aquela norma."},{"id":"C","text":"referiu-se à essa norma / referiu-se a àquela norma."},{"id":"D","text":"referiu-se há esta norma / referiu-se aquela norma."}],"correctOptionId":"A","explanation":"'Esta' não admite artigo antes de si, enquanto a preposição se incorpora ao início de 'aquela'. As demais formas inserem ou retiram indevidamente elementos. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3564","revision":1,"prompt":"Em 'A norma a qual foi publicada ontem será aplicada', a ausência de acento é explicável porque","options":[{"id":"A","text":"'norma' não admite artigo."},{"id":"B","text":"'a qual' exerce função sem preposição; há apenas o artigo integrante do relativo."},{"id":"C","text":"todo relativo 'qual' proíbe acento."},{"id":"D","text":"o verbo 'publicar' exige preposição 'de'."}],"correctOptionId":"B","explanation":"Como sujeito de 'foi publicada', o relativo não é antecedido por preposição; em função exigida por 'referir-se a', apareceria 'à qual'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3565","revision":1,"prompt":"O mnemônico 'vou a, volto de; vou à, volto da' deve ser usado","options":[{"id":"A","text":"como regra baseada apenas no gênero do nome da cidade."},{"id":"B","text":"para concluir que modificadores nunca alteram o artigo."},{"id":"C","text":"como teste do artigo no contexto real do topônimo, sujeito a determinação e variação de uso."},{"id":"D","text":"somente com nomes próprios masculinos."}],"correctOptionId":"C","explanation":"O teste revela se o lugar aceita artigo naquele contexto; modificadores, história e variação regional podem alterar o resultado. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3566","revision":1,"prompt":"Em 'A comissão analisou a medida', não há crase porque","options":[{"id":"A","text":"'medida' é advérbio."},{"id":"B","text":"palavras femininas nunca recebem acento."},{"id":"C","text":"o artigo definido está proibido depois de verbo."},{"id":"D","text":"'analisar' é transitivo direto nessa construção, e o 'a' é apenas artigo."}],"correctOptionId":"D","explanation":"Sem preposição 'a' antes do artigo, não há fusão. O substantivo continua feminino e recebe artigo normalmente. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3567","revision":1,"prompt":"A frase 'Começou a revisão' não leva acento no primeiro 'a' porque","options":[{"id":"A","text":"'a revisão' é sintagma nominal introduzido apenas por artigo, sem preposição 'a' exigida por 'começar'."},{"id":"B","text":"'revisão' é palavra masculina."},{"id":"C","text":"todo objeto direto dispensa artigo."},{"id":"D","text":"o acento grave só existe no plural."}],"correctOptionId":"A","explanation":"O verbo inicia algo diretamente, e 'a' determina 'revisão'; artigo isolado não constitui crase. As outras afirmações são falsas. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3568","revision":1,"prompt":"Qual contraste entre hora marcada e intervalo está correto?","options":[{"id":"A","text":"Chegou a uma hora / Daqui à uma hora."},{"id":"B","text":"Chegou à uma hora / Daqui a uma hora."},{"id":"C","text":"Chegou há uma hora / Daqui à uma hora."},{"id":"D","text":"Chegou à uma hora / Daqui há uma hora, com o mesmo valor."}],"correctOptionId":"B","explanation":"Ponto determinado no relógio admite 'à uma hora'; intervalo futuro usa 'a uma hora'. 'Há uma hora' indicaria tempo decorrido, não futuro. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3569","revision":1,"prompt":"A diferença entre 'referiu-se a duas servidoras' e 'referiu-se às duas servidoras' é que","options":[{"id":"A","text":"a primeira é sempre incorreta."},{"id":"B","text":"a segunda não contém artigo."},{"id":"C","text":"a segunda determina o grupo com artigo definido, enquanto a primeira usa apenas preposição antes do numeral."},{"id":"D","text":"o numeral torna as duas estruturas idênticas."}],"correctOptionId":"C","explanation":"'Às' resulta de preposição mais artigo plural; sem artigo, permanece 'a duas'. O numeral não elimina a diferença de determinação. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3570","revision":1,"prompt":"Qual série evita acumular preposições?","options":[{"id":"A","text":"perante à autoridade; desde às 8h; após às 14h."},{"id":"B","text":"perante a autoridade; desde às 8h; após as 14h."},{"id":"C","text":"perante à autoridade; desde as 8h; após as 14h."},{"id":"D","text":"perante a autoridade; desde as 8h; após as 14h."}],"correctOptionId":"D","explanation":"'Perante', 'desde' e 'após' já introduzem os termos; 'a/as' é artigo, sem preposição 'a' adicional para formar crase. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3571","revision":1,"prompt":"Em qual expressão a recuperação de 'à moda de' é semanticamente adequada?","options":[{"id":"A","text":"Preparou um bife à milanesa."},{"id":"B","text":"Preencheu o formulário à lápis."},{"id":"C","text":"Viajou à cavalo."},{"id":"D","text":"Pagou à prazo."}],"correctOptionId":"A","explanation":"'À milanesa' significa à moda milanesa; lápis, cavalo e prazo são masculinos sem elipse de moda ou maneira nos contextos dados. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3572","revision":1,"prompt":"Qual alternativa contém somente locuções prepositivas femininas acentuadas?","options":[{"id":"A","text":"à medida que; à proporção que."},{"id":"B","text":"à espera de; à procura de; à mercê de."},{"id":"C","text":"à tarde; às vezes; à direita."},{"id":"D","text":"a partir de; a respeito de; a fim de."}],"correctOptionId":"B","explanation":"As expressões de B terminam em 'de' e introduzem complemento, funcionando como locuções prepositivas; A é conjuntiva, C é adverbial e D não recebe acento. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3573","revision":1,"prompt":"Qual par contrasta locução feminina consagrada e instrumento masculino?","options":[{"id":"A","text":"escrever a mão / escrever à lápis."},{"id":"B","text":"escrever à mão / escrever à lápis."},{"id":"C","text":"escrever à mão / escrever a lápis."},{"id":"D","text":"escrever a mão / escrever a lápis, obrigatoriamente sem distinção."}],"correctOptionId":"C","explanation":"'À mão' é locução tradicionalmente acentuada; 'a lápis' tem núcleo masculino e não envolve elipse feminina. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3574","revision":1,"prompt":"Por que alguns manuais registram acento em certas locuções mesmo discutindo a existência de fusão estrita?","options":[{"id":"A","text":"Porque qualquer palavra feminina deve receber acento."},{"id":"B","text":"Porque o acento grave passou a marcar plural."},{"id":"C","text":"Porque preposição e artigo são sempre indistinguíveis."},{"id":"D","text":"Porque tradição e clareza gráfica também sustentam grafias consagradas em determinadas locuções."}],"correctOptionId":"D","explanation":"Manuais como o do Senado distinguem a explicação estrita da prescrição por tradição ou clareza; isso não autoriza acentuar qualquer expressão feminina. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3575","revision":1,"prompt":"Diante de uma questão sobre 'ensino a distância/à distância' sem fonte normativa declarada, a postura tecnicamente adequada é","options":[{"id":"A","text":"reconhecer a divergência editorial e evitar afirmar que apenas uma grafia é universalmente possível."},{"id":"B","text":"considerar sempre errada a forma sem acento."},{"id":"C","text":"considerar sempre errada a forma com acento."},{"id":"D","text":"eliminar a expressão porque distância é verbo."}],"correctOptionId":"A","explanation":"Há orientação por determinação e orientação que acentua a locução por clareza/tradição; o julgamento depende do padrão adotado e do contexto. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3576","revision":1,"prompt":"Qual é o primeiro procedimento seguro para decidir o acento antes de um nome feminino?","options":[{"id":"A","text":"acentuar imediatamente porque o nome é feminino."},{"id":"B","text":"identificar se o termo anterior exige preposição 'a' e se o nome admite artigo 'a/as'."},{"id":"C","text":"verificar apenas se a frase está no plural."},{"id":"D","text":"substituir qualquer verbo por 'haver'."}],"correctOptionId":"B","explanation":"A decisão nasce do duplo filtro de preposição e artigo; gênero, número isolado ou troca arbitrária de verbo não resolvem a estrutura. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3577","revision":1,"prompt":"A delimitação correta do estudo da crase é","options":[{"id":"A","text":"substituir todo o estudo de regência e de classes de palavras."},{"id":"B","text":"ensinar a posição de todos os pronomes átonos."},{"id":"C","text":"usar regência e artigo apenas para reconhecer a fusão ou a grafia tradicional, deixando seus sistemas completos nos assuntos próprios."},{"id":"D","text":"tratar qualquer acento grave como questão de concordância verbal."}],"correctOptionId":"C","explanation":"O foco é a existência da preposição e do artigo ou forma contrátil; regência, classes e colocação pronominal fornecem apoio, mas mantêm escopo próprio. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3578","revision":1,"prompt":"Ao revisar o emprego do acento grave depois de uma reescrita, deve-se","options":[{"id":"A","text":"manter o acento na mesma posição gráfica, ainda que o verbo mude."},{"id":"B","text":"observar apenas se a palavra seguinte continua feminina."},{"id":"C","text":"retirar todo acento se houver numeral ou pronome."},{"id":"D","text":"refazer a análise de regência, artigo, determinação, relativo, preposição e sentido da nova estrutura."}],"correctOptionId":"D","explanation":"Mudanças no regente, determinante, relativo ou preposição podem tornar o acento obrigatório, proibido ou facultativo; aparência gráfica não garante equivalência. Fonte: questão autoral baseada nas referências do conteúdo."}
+    {
+      "id": "q3519",
+      "revision": 2,
+      "prompt": "A distinção correta entre crase e acento grave é",
+      "options": [
+        {
+          "id": "A",
+          "text": "crase é a fusão de vogais idênticas, e o acento grave é o sinal gráfico que a indica."
+        },
+        {
+          "id": "B",
+          "text": "crase é apenas o nome do acento colocado em qualquer palavra feminina."
+        },
+        {
+          "id": "C",
+          "text": "acento grave é fenômeno sintático, e crase é uma letra do alfabeto."
+        },
+        {
+          "id": "D",
+          "text": "os dois termos designam obrigatoriamente qualquer preposição 'a'."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Crase é o fenômeno de fusão; o acento grave é sua representação gráfica nos casos prescritos. Palavra feminina ou preposição isolada não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3520",
+      "revision": 2,
+      "prompt": "No caso básico, o emprego de 'à' exige cumulativamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "verbo no plural e substantivo feminino."
+        },
+        {
+          "id": "B",
+          "text": "preposição 'a' exigida ou introduzida antes e artigo feminino 'a' admitido depois."
+        },
+        {
+          "id": "C",
+          "text": "qualquer preposição e qualquer palavra feminina."
+        },
+        {
+          "id": "D",
+          "text": "artigo indefinido e pronome pessoal."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A fusão básica é preposição 'a' + artigo 'a'; gênero sozinho, plural verbal, outra preposição ou artigo indefinido não produzem essa contração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3521",
+      "revision": 2,
+      "prompt": "Qual par mostra corretamente que a regência do verbo altera o uso do acento grave?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Visitou à escola / dirigiu-se a escola."
+        },
+        {
+          "id": "B",
+          "text": "Visitou à escola / dirigiu-se à escola."
+        },
+        {
+          "id": "C",
+          "text": "Visitou a escola / dirigiu-se à escola."
+        },
+        {
+          "id": "D",
+          "text": "Visitou a escola / dirigiu-se a escola."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'Visitar' é direto e recebe apenas o artigo; 'dirigir-se' seleciona a preposição 'a', que se funde com o artigo de 'escola'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3522",
+      "revision": 2,
+      "prompt": "O teste de substituição por masculino confirma a crase em 'dirigiu-se à diretora' porque a forma correspondente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "dirigiu-se do diretor."
+        },
+        {
+          "id": "B",
+          "text": "dirigiu-se o diretor."
+        },
+        {
+          "id": "C",
+          "text": "dirigiu-se para diretor."
+        },
+        {
+          "id": "D",
+          "text": "dirigiu-se ao diretor."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O aparecimento de 'ao' revela preposição 'a' mais artigo masculino 'o', correspondente a 'à' no feminino; as outras formas não preservam a mesma estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3523",
+      "revision": 2,
+      "prompt": "Sobre os testes práticos de crase, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o teste masculino dispensa conhecer a regência do termo anterior."
+        },
+        {
+          "id": "B",
+          "text": "qualquer troca por palavra masculina que produza 'ao' prova a correção, mesmo que mude o sentido."
+        },
+        {
+          "id": "C",
+          "text": "topônimos femininos recebem crase independentemente do artigo."
+        },
+        {
+          "id": "D",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "eles confirmam a análise, mas devem preservar função, determinação e sentido da estrutura substituída."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os testes são auxiliares e só valem com estrutura equivalente; mudanças de função, sentido ou artigo podem produzir resultado enganoso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3524",
+      "revision": 2,
+      "prompt": "Em qual frase as duas condições básicas para a crase estão presentes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O relatório se refere à resolução."
+        },
+        {
+          "id": "B",
+          "text": "A comissão analisou a resolução."
+        },
+        {
+          "id": "C",
+          "text": "O relatório se refere a uma resolução."
+        },
+        {
+          "id": "D",
+          "text": "O relatório se refere a este regulamento."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Referir-se' exige 'a' e 'a resolução' admite artigo definido; em A não há preposição, e em C e D não há artigo feminino 'a'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3525",
+      "revision": 2,
+      "prompt": "Não se usa acento grave em 'dirigiu-se a uma servidora' porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "'servidora' é objeto direto de 'dirigir-se'."
+        },
+        {
+          "id": "B",
+          "text": "a preposição 'a' é seguida do artigo indefinido 'uma', e não do artigo 'a'."
+        },
+        {
+          "id": "C",
+          "text": "palavras femininas nunca recebem artigo."
+        },
+        {
+          "id": "D",
+          "text": "o verbo não admite qualquer complemento."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Existe preposição, mas não há segundo 'a' para fundir: 'uma' é artigo indefinido. O gênero feminino não muda essa estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3526",
+      "revision": 2,
+      "prompt": "A oposição correta entre plural sem artigo e plural determinado ocorre em",
+      "options": [
+        {
+          "id": "A",
+          "text": "referiu-se às pessoas / referiu-se às pessoas presentes, sem diferença."
+        },
+        {
+          "id": "B",
+          "text": "referiu-se à pessoas / referiu-se as pessoas presentes."
+        },
+        {
+          "id": "C",
+          "text": "referiu-se a pessoas / referiu-se às pessoas presentes."
+        },
+        {
+          "id": "D",
+          "text": "referiu-se a pessoas / referiu-se as pessoas presentes."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'A pessoas' contém só preposição; em 'às pessoas presentes', o artigo definido plural se soma à preposição. 'À pessoas' também viola a concordância de número. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3527",
+      "revision": 2,
+      "prompt": "O acento em 'referiu-se àquele processo' decorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "do gênero feminino da palavra 'processo'."
+        },
+        {
+          "id": "B",
+          "text": "de todo demonstrativo exigir acento grave."
+        },
+        {
+          "id": "C",
+          "text": "da existência de artigo feminino antes de 'processo'."
+        },
+        {
+          "id": "D",
+          "text": "da preposição 'a' exigida por 'referir-se' fundida à vogal inicial de 'aquele'."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A contração ocorre entre a preposição e o início de 'aquele'; o substantivo é masculino, e o demonstrativo sem preposição não recebe acento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3528",
+      "revision": 2,
+      "prompt": "Em qual frase o demonstrativo não recebe acento porque não há preposição anterior?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deu importância àquele parecer."
+        },
+        {
+          "id": "B",
+          "text": "Fez alusão àquela decisão."
+        },
+        {
+          "id": "C",
+          "text": "Não se referiu àquilo."
+        },
+        {
+          "id": "D",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        },
+        {
+          "id": "E",
+          "text": "Aquele parecer foi publicado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "'Aquele' é sujeito sem preposição em B; nas demais frases, os regentes selecionam 'a', que se contrai com o demonstrativo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3529",
+      "revision": 2,
+      "prompt": "A forma relativa adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "A norma à qual me referi."
+        },
+        {
+          "id": "B",
+          "text": "A norma a qual me referi, sem preposição."
+        },
+        {
+          "id": "C",
+          "text": "A norma à que me referi, com artigo obrigatório diante de 'que'."
+        },
+        {
+          "id": "D",
+          "text": "A norma há qual me referi."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Referir-se à norma' produz 'a norma à qual me referi': a preposição se funde com o artigo de 'a qual'. 'Que' simples não recebe artigo, e 'há' é verbo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3530",
+      "revision": 2,
+      "prompt": "Por que se escreve 'a proposta a que me referi', sem acento grave?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque 'referir-se' não exige preposição."
+        },
+        {
+          "id": "B",
+          "text": "Porque há preposição 'a', mas o relativo 'que' não admite artigo antes de si."
+        },
+        {
+          "id": "C",
+          "text": "Porque 'proposta' é masculina."
+        },
+        {
+          "id": "D",
+          "text": "Porque toda oração relativa proíbe preposição."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A preposição é mantida, mas falta o segundo 'a' necessário à fusão; com 'a qual', haveria 'à qual'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3531",
+      "revision": 2,
+      "prompt": "Em 'situação semelhante à que enfrentamos', o segmento 'à que' é justificável porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo pronome 'que' recebe artigo feminino."
+        },
+        {
+          "id": "B",
+          "text": "'enfrentar' exige a preposição 'a'."
+        },
+        {
+          "id": "C",
+          "text": "'à' equivale ao demonstrativo 'àquela', confirmado pelo masculino 'ao que'."
+        },
+        {
+          "id": "D",
+          "text": "a palavra 'situação' obriga acento diante de qualquer relativo."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A estrutura é 'semelhante àquela que enfrentamos'; o acento recai no demonstrativo elíptico, não em artigo acrescentado diretamente ao relativo 'que'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3532",
+      "revision": 2,
+      "prompt": "Qual alternativa apresenta somente locuções femininas tradicionalmente acentuadas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a prazo, a lápis, a cavalo."
+        },
+        {
+          "id": "B",
+          "text": "a partir de, a respeito de, cara a cara."
+        },
+        {
+          "id": "C",
+          "text": "a uma pessoa, a esta regra, a quem."
+        },
+        {
+          "id": "D",
+          "text": "à tarde, às pressas, à vontade."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As expressões da alternativa B são locuções adverbiais femininas consagradas; as demais contêm masculino, repetição, artigo indefinido ou pronomes sem artigo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3533",
+      "revision": 2,
+      "prompt": "A diferença entre 'Começou a tarde' e 'Trabalhou à tarde' está corretamente explicada em",
+      "options": [
+        {
+          "id": "A",
+          "text": "as duas expressões são sempre locuções de tempo."
+        },
+        {
+          "id": "B",
+          "text": "a primeira deveria obrigatoriamente ter crase porque 'tarde' é feminino."
+        },
+        {
+          "id": "C",
+          "text": "a segunda não admite acento porque o verbo é intransitivo."
+        },
+        {
+          "id": "D",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "na primeira, 'a tarde' pode ser sujeito ou complemento com artigo; na segunda, 'à tarde' é locução adverbial."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A função da expressão inteira decide: artigo isolado em 'a tarde' não equivale à locução temporal consagrada 'à tarde'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3534",
+      "revision": 2,
+      "prompt": "Qual alternativa contém locuções conjuntivas com acento grave?",
+      "options": [
+        {
+          "id": "A",
+          "text": "à medida que e à proporção que."
+        },
+        {
+          "id": "B",
+          "text": "a fim de que e a menos que."
+        },
+        {
+          "id": "C",
+          "text": "a partir de que e a respeito de que."
+        },
+        {
+          "id": "D",
+          "text": "a que e a quem."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'À medida que' e 'à proporção que' são locuções conjuntivas femininas consagradas; os demais segmentos têm outras estruturas e não recebem acento por essa regra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3535",
+      "revision": 2,
+      "prompt": "O emprego do acento em indicação de horário está correto em",
+      "options": [
+        {
+          "id": "A",
+          "text": "Daqui à duas horas a sessão começa."
+        },
+        {
+          "id": "B",
+          "text": "A sessão começa às 8 horas."
+        },
+        {
+          "id": "C",
+          "text": "A uma hora qualquer, com acento obrigatório em 'a'."
+        },
+        {
+          "id": "D",
+          "text": "O local fica à três quilômetros."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'Às 8 horas' indica horário determinado. Futuro, hora indeterminada e distância numérica usam apenas 'a' nos exemplos restantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3536",
+      "revision": 2,
+      "prompt": "Em 'Daqui a duas horas, o resultado será publicado', não há acento porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "numerais nunca admitem artigo."
+        },
+        {
+          "id": "B",
+          "text": "'horas' é palavra masculina."
+        },
+        {
+          "id": "C",
+          "text": "a expressão indica tempo futuro, sem artigo feminino fundido à preposição."
+        },
+        {
+          "id": "D",
+          "text": "a palavra 'daqui' proíbe qualquer preposição."
+        },
+        {
+          "id": "E",
+          "text": "Toda expressão numérica de tempo exige acento grave, independentemente do valor temporal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A expressão mede intervalo futuro e contém apenas a preposição 'a'; numerais podem participar de estruturas com crase, como 'às duas horas'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3537",
+      "revision": 2,
+      "prompt": "Qual frase respeita a preposição que já introduz o horário?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O atendimento funciona desde às 8h."
+        },
+        {
+          "id": "B",
+          "text": "A reunião ocorrerá entre às 9h e às 10h."
+        },
+        {
+          "id": "C",
+          "text": "A sessão terminou após às 14h."
+        },
+        {
+          "id": "D",
+          "text": "O atendimento funciona desde as 8h."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Depois de 'desde', o segmento 'as' é artigo, sem preposição 'a' para fundir; 'entre' e 'após' seguem o mesmo princípio nos outros exemplos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3538",
+      "revision": 2,
+      "prompt": "Qual indicação de intervalo preserva o paralelismo dos determinantes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "de 8h às 10h."
+        },
+        {
+          "id": "B",
+          "text": "das 8h a 10h."
+        },
+        {
+          "id": "C",
+          "text": "entre às 8h e às 10h."
+        },
+        {
+          "id": "D",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        },
+        {
+          "id": "E",
+          "text": "das 8h às 10h."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "'Das... às...' usa artigo nos dois limites; também seria paralelo 'de... a...'. As outras formas misturam padrões ou acrescentam 'a' depois de 'entre'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3539",
+      "revision": 2,
+      "prompt": "O acento em 'gol à Pelé' é explicado pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "elipse de 'à maneira de' ou 'à moda de Pelé'."
+        },
+        {
+          "id": "B",
+          "text": "regra de que todo nome masculino recebe crase."
+        },
+        {
+          "id": "C",
+          "text": "presença obrigatória de artigo feminino antes de qualquer nome próprio."
+        },
+        {
+          "id": "D",
+          "text": "transformação de 'Pelé' em palavra feminina."
+        },
+        {
+          "id": "E",
+          "text": "A regência com preposição a torna obrigatório o acento diante de qualquer pronome."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Recupera-se um núcleo feminino elíptico, 'maneira/moda'; o gênero do nome visível não cria a crase por si só. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3540",
+      "revision": 2,
+      "prompt": "Qual frase mostra a exceção aparente ao bloqueio antes de palavra masculina por haver elipse feminina?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O pagamento foi feito à prazo."
+        },
+        {
+          "id": "B",
+          "text": "O texto foi escrito à Machado de Assis."
+        },
+        {
+          "id": "C",
+          "text": "O documento foi preenchido à lápis."
+        },
+        {
+          "id": "D",
+          "text": "O servidor chegou à cavalo."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'À Machado de Assis' pode equivaler a 'à maneira de Machado de Assis'; prazo, lápis e cavalo são masculinos sem elipse que justifique acento nos exemplos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3541",
+      "revision": 2,
+      "prompt": "Assinale a frase correta quanto ao termo anterior a infinitivo.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Começou à analisar os dados."
+        },
+        {
+          "id": "B",
+          "text": "Passou à redigir o relatório."
+        },
+        {
+          "id": "C",
+          "text": "Começou a analisar os dados."
+        },
+        {
+          "id": "D",
+          "text": "Estava à estudar o processo."
+        },
+        {
+          "id": "E",
+          "text": "O infinitivo admite artigo feminino sempre que completar um verbo que rege a preposição a."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O infinitivo não admite artigo feminino; há apenas preposição ou elemento da perífrase. Por isso não se usa acento diante de 'analisar', 'redigir' ou 'estudar'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3542",
+      "revision": 2,
+      "prompt": "Qual expressão repetida está grafada de acordo com a norma-padrão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "cara à cara."
+        },
+        {
+          "id": "B",
+          "text": "passo à passo."
+        },
+        {
+          "id": "C",
+          "text": "gota à gota."
+        },
+        {
+          "id": "D",
+          "text": "frente a frente."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Expressões com palavras repetidas usam apenas 'a', sem artigo definido e sem fusão: cara a cara, passo a passo, gota a gota e frente a frente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3543",
+      "revision": 2,
+      "prompt": "Qual série está integralmente correta quanto aos pronomes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "entregou à ela; referiu-se à qualquer pessoa; aludiu à esta norma."
+        },
+        {
+          "id": "B",
+          "text": "entregou a ela; referiu-se à qualquer pessoa; aludiu à esta norma."
+        },
+        {
+          "id": "C",
+          "text": "entregou à ela; referiu-se a qualquer pessoa; aludiu à esta norma."
+        },
+        {
+          "id": "D",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        },
+        {
+          "id": "E",
+          "text": "entregou a ela; referiu-se a qualquer pessoa; aludiu a esta norma."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Pronomes pessoais, indefinidos e os demonstrativos 'este/esse' não admitem artigo anterior; existe preposição 'a', mas não segundo 'a'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3544",
+      "revision": 2,
+      "prompt": "A forma adequada diante do pronome de tratamento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dirigiu-se a Vossa Excelência."
+        },
+        {
+          "id": "B",
+          "text": "Dirigiu-se à Vossa Excelência."
+        },
+        {
+          "id": "C",
+          "text": "Dirigiu-se há Vossa Excelência."
+        },
+        {
+          "id": "D",
+          "text": "Dirigiu-se as Vossa Excelência."
+        },
+        {
+          "id": "E",
+          "text": "A regência com preposição a torna obrigatório o acento diante de qualquer pronome."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Vossa Excelência' não recebe artigo; há somente a preposição exigida por 'dirigir-se'. 'Há' é forma verbal, e as demais formas inserem artigo indevido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3545",
+      "revision": 2,
+      "prompt": "Sobre o acento antes de 'Senhora' e 'Dona', a orientação mais precisa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ele é sempre proibido antes das duas formas."
+        },
+        {
+          "id": "B",
+          "text": "depende de a construção exigir preposição e de o uso concreto admitir artigo: 'à senhora/à Dona Lúcia' ou 'a Dona Lúcia'."
+        },
+        {
+          "id": "C",
+          "text": "ele é sempre obrigatório, qualquer que seja a região ou o contexto."
+        },
+        {
+          "id": "D",
+          "text": "as formas são verbos e, por isso, nunca admitem artigo."
+        },
+        {
+          "id": "E",
+          "text": "Toda expressão numérica de tempo exige acento grave, independentemente do valor temporal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo com formas de tratamento varia por uso, região e pragmática; não há regra absoluta sem observar a construção e o padrão editorial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3546",
+      "revision": 2,
+      "prompt": "Antes de possessivo feminino, a crase pode ser facultativa, como em",
+      "options": [
+        {
+          "id": "A",
+          "text": "referiu-se à uma proposta / a uma proposta."
+        },
+        {
+          "id": "B",
+          "text": "referiu-se à esta proposta / a esta proposta."
+        },
+        {
+          "id": "C",
+          "text": "referiu-se a sua proposta / à sua proposta."
+        },
+        {
+          "id": "D",
+          "text": "referiu-se à qualquer proposta / a qualquer proposta."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo antes do possessivo pode ser empregado ou omitido; 'uma', 'esta' e 'qualquer' não admitem o artigo feminino adicional mostrado nas alternativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3547",
+      "revision": 2,
+      "prompt": "A facultatividade antes de nome próprio feminino aparece em",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entregou o relatório à Brasília / a Brasília, sempre sem diferença de artigo."
+        },
+        {
+          "id": "B",
+          "text": "Entregou o relatório à ela / a ela."
+        },
+        {
+          "id": "C",
+          "text": "Entregou o relatório à uma Ana / a uma Ana."
+        },
+        {
+          "id": "D",
+          "text": "Entregou o relatório a Ana / à Ana."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O nome de pessoa pode ser usado com ou sem artigo, conforme familiaridade e uso regional; pronome pessoal e artigo indefinido não seguem essa facultatividade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3548",
+      "revision": 2,
+      "prompt": "Depois de 'até', a norma admite",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente 'até à sala'."
+        },
+        {
+          "id": "B",
+          "text": "somente 'até a sala', pois nunca existe preposição depois de 'até'."
+        },
+        {
+          "id": "C",
+          "text": "a mesma facultatividade depois de 'desde', 'após' e 'entre'."
+        },
+        {
+          "id": "D",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "'até a sala' e 'até à sala', conforme se empregue ou não a preposição 'a' após 'até'."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "'Até' pode aparecer sozinho ou seguido de 'a', gerando as duas formas; essa variação não autoriza 'desde às', 'após às' ou 'entre às'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3549",
+      "revision": 2,
+      "prompt": "Qual par emprega corretamente 'casa'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "voltou a casa, no sentido de lar / voltou à casa dos pais."
+        },
+        {
+          "id": "B",
+          "text": "voltou à casa, no sentido de lar sem determinação / voltou a casa dos pais."
+        },
+        {
+          "id": "C",
+          "text": "voltou à casa em qualquer sentido / voltou à casa dos pais."
+        },
+        {
+          "id": "D",
+          "text": "voltou a casa em qualquer sentido / voltou a casa dos pais."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Casa' como lar sem determinante aparece sem artigo; 'casa dos pais' está especificada e recebe artigo, que se funde com a preposição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3550",
+      "revision": 2,
+      "prompt": "A oposição correta com 'terra' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "os marinheiros chegaram à terra, obrigatoriamente / voltaram a terra natal."
+        },
+        {
+          "id": "B",
+          "text": "os marinheiros chegaram a terra, em oposição a bordo / voltaram à terra natal."
+        },
+        {
+          "id": "C",
+          "text": "os marinheiros chegaram à terra firme / voltaram a terra natal, sempre sem artigo."
+        },
+        {
+          "id": "D",
+          "text": "'terra' nunca admite acento grave."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No sentido de terra firme não determinada, a tradição omite artigo; a especificação 'natal' introduz determinação e permite a fusão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3551",
+      "revision": 2,
+      "prompt": "O teste do artigo com topônimos está corretamente aplicado em",
+      "options": [
+        {
+          "id": "A",
+          "text": "vou a Bahia, volto da Bahia; vou à Brasília, volto de Brasília."
+        },
+        {
+          "id": "B",
+          "text": "todo topônimo feminino recebe crase, independentemente do uso."
+        },
+        {
+          "id": "C",
+          "text": "vou à Bahia, volto da Bahia; vou a Brasília, volto de Brasília."
+        },
+        {
+          "id": "D",
+          "text": "nenhum nome de cidade admite artigo."
+        },
+        {
+          "id": "E",
+          "text": "Todo nome de lugar feminino recebe artigo definido e, por isso, exige crase."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'Bahia' admite artigo nesse uso, enquanto 'Brasília' normalmente não; gênero aparente não decide sozinho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3552",
+      "revision": 2,
+      "prompt": "Um modificador pode alterar o artigo de um topônimo, como em",
+      "options": [
+        {
+          "id": "A",
+          "text": "viajou à Roma, sempre, porque Roma é feminino."
+        },
+        {
+          "id": "B",
+          "text": "viajou há Roma das Sete Colinas."
+        },
+        {
+          "id": "C",
+          "text": "referiu-se a à Roma antiga."
+        },
+        {
+          "id": "D",
+          "text": "referiu-se à Roma das Sete Colinas, em contraste com 'viajou a Roma'."
+        },
+        {
+          "id": "E",
+          "text": "Todo nome de lugar feminino recebe artigo definido e, por isso, exige crase."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O modificador determina o topônimo e pode introduzir artigo; sem ele, 'Roma' costuma ocorrer sem artigo. 'Há' e a sequência 'a à' não cabem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3553",
+      "revision": 2,
+      "prompt": "A respeito de 'a distância/à distância', é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todas as fontes proíbem o acento sem medida expressa."
+        },
+        {
+          "id": "B",
+          "text": "todas as fontes exigem o acento em qualquer contexto."
+        },
+        {
+          "id": "C",
+          "text": "a expressão é sempre masculina."
+        },
+        {
+          "id": "D",
+          "text": "Qualquer expressão feminina de modo, meio ou distância recebe acento por regra mecânica."
+        },
+        {
+          "id": "E",
+          "text": "há divergência editorial: parte da tradição distingue determinação, enquanto o Senado admite 'à distância' por clareza ou tradição."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As fontes não são uniformes; a resposta deve considerar determinação e padrão editorial, sem converter uma orientação em regra universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3554",
+      "revision": 2,
+      "prompt": "Qual orientação evita generalização indevida sobre instrumento e meio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Devem-se reconhecer locuções consagradas, como 'à mão' e 'à máquina', e o padrão editorial aplicável."
+        },
+        {
+          "id": "B",
+          "text": "Todo instrumento feminino exige acento grave."
+        },
+        {
+          "id": "C",
+          "text": "Nenhuma locução de instrumento recebe acento."
+        },
+        {
+          "id": "D",
+          "text": "O gênero do objeto é o único critério."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Manuais registram certas locuções por tradição ou clareza, mas isso não cria regra automática para todo nome feminino de instrumento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3555",
+      "revision": 2,
+      "prompt": "Qual contraste está corretamente grafado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "pagamento a vista / pagamento à prazo."
+        },
+        {
+          "id": "B",
+          "text": "pagamento à vista / pagamento a prazo."
+        },
+        {
+          "id": "C",
+          "text": "pagamento à vista / pagamento à prazo."
+        },
+        {
+          "id": "D",
+          "text": "pagamento a vista / pagamento a prazo, sem diferença."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'À vista' é locução feminina consagrada; 'a prazo' contém palavra masculina e não apresenta elipse feminina. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3556",
+      "revision": 2,
+      "prompt": "A presença de numeral está corretamente analisada em",
+      "options": [
+        {
+          "id": "A",
+          "text": "numeral cardinal sempre proíbe crase."
+        },
+        {
+          "id": "B",
+          "text": "numeral cardinal sempre exige crase."
+        },
+        {
+          "id": "C",
+          "text": "'às duas horas' indica horário, enquanto 'a duas horas' pode indicar intervalo ou ausência de artigo."
+        },
+        {
+          "id": "D",
+          "text": "'a duas servidoras' e 'às duas servidoras' são necessariamente idênticos quanto à determinação."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O numeral não decide sozinho: horário e artigo definido podem produzir 'às', enquanto intervalo ou nome sem artigo usa apenas 'a'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3557",
+      "revision": 2,
+      "prompt": "Qual série coordenada analisa cada artigo sem forçar paralelismo gráfico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "referiu-se a pesquisa, à formação e à projetos."
+        },
+        {
+          "id": "B",
+          "text": "referiu-se à pesquisa, a formação e aos projetos."
+        },
+        {
+          "id": "C",
+          "text": "referiu-se a à pesquisa, à formação e à projetos."
+        },
+        {
+          "id": "D",
+          "text": "referiu-se à pesquisa, à formação e a projetos experimentais."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os dois primeiros nomes recebem artigo; 'projetos' está no plural sem artigo. Paralelismo sintático não obriga a inserir artigo onde ele foi omitido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3558",
+      "revision": 2,
+      "prompt": "A reescrita de 'visitou a escola' para 'dirigiu-se à escola' exige acento porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a palavra 'escola' mudou de gênero."
+        },
+        {
+          "id": "B",
+          "text": "todo verbo pronominal exige crase."
+        },
+        {
+          "id": "C",
+          "text": "a escola se tornou sujeito."
+        },
+        {
+          "id": "D",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "o novo verbo seleciona a preposição 'a', que se funde com o artigo já admitido pelo nome."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A mudança do regente introduz a preposição; o nome permanece feminino e articulado. Nem todo verbo pronominal produz essa estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3559",
+      "revision": 2,
+      "prompt": "Qual sequência mostra corretamente a mudança de determinação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a uma servidora / à servidora / a servidoras / às servidoras aprovadas."
+        },
+        {
+          "id": "B",
+          "text": "à uma servidora / a servidora / à servidoras / as servidoras aprovadas."
+        },
+        {
+          "id": "C",
+          "text": "a uma servidora / a servidora / às servidoras / a servidoras aprovadas, obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "à uma servidora / à servidora / à servidoras / às servidoras."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Artigo indefinido e plural sem artigo não se fundem; artigo definido singular ou plural, após preposição, produz 'à/às'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3560",
+      "revision": 2,
+      "prompt": "A substituição de um pronome relativo por 'à qual' mantém a correção em",
+      "options": [
+        {
+          "id": "A",
+          "text": "a norma que foi publicada → a norma à qual foi publicada."
+        },
+        {
+          "id": "B",
+          "text": "a proposta a que me referi → a proposta à qual me referi."
+        },
+        {
+          "id": "C",
+          "text": "a pessoa com quem conversei → a pessoa à qual conversei, porque todo relativo feminino exige crase."
+        },
+        {
+          "id": "D",
+          "text": "a autora a cujo texto aludi → a autora à cujo texto aludi."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'Referir-se a' exige preposição; 'que' não recebe artigo, enquanto 'a qual' o contém e forma 'à qual'. As demais trocas alteram função ou inserem artigo indevido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3561",
+      "revision": 2,
+      "prompt": "Ao reescrever 'A sessão começa às 8h' como 'A sessão ocorre entre as 8h e as 10h', a retirada do acento é necessária porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "horas deixam de ser femininas depois de 'entre'."
+        },
+        {
+          "id": "B",
+          "text": "o plural nunca admite acento grave."
+        },
+        {
+          "id": "C",
+          "text": "'entre' já é a preposição da estrutura, e 'as' funciona como artigo."
+        },
+        {
+          "id": "D",
+          "text": "intervalos nunca admitem artigo."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Não há preposição 'a' para fundir depois de 'entre'; o artigo plural permanece. Em 'das 8h às 10h', outra estrutura justificaria 'às'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3562",
+      "revision": 2,
+      "prompt": "Qual frase combina corretamente regência nominal e artigo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A medida é favorável a decisão."
+        },
+        {
+          "id": "B",
+          "text": "A medida é favorável há decisão."
+        },
+        {
+          "id": "C",
+          "text": "A medida é favorável da decisão."
+        },
+        {
+          "id": "D",
+          "text": "A medida é favorável à decisão."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "'Favorável' seleciona 'a', e 'decisão' admite artigo definido 'a'; a fusão produz 'à'. 'Há' é verbo, e 'de' muda a regência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3563",
+      "revision": 2,
+      "prompt": "Qual par distingue corretamente demonstrativos que não se contraem e os iniciados por 'a'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "referiu-se à esta norma / referiu-se aquela norma."
+        },
+        {
+          "id": "B",
+          "text": "referiu-se à essa norma / referiu-se a àquela norma."
+        },
+        {
+          "id": "C",
+          "text": "referiu-se há esta norma / referiu-se aquela norma."
+        },
+        {
+          "id": "D",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        },
+        {
+          "id": "E",
+          "text": "referiu-se a esta norma / referiu-se àquela norma."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "'Esta' não admite artigo antes de si, enquanto a preposição se incorpora ao início de 'aquela'. As demais formas inserem ou retiram indevidamente elementos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3564",
+      "revision": 2,
+      "prompt": "Em 'A norma a qual foi publicada ontem será aplicada', a ausência de acento é explicável porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "'a qual' exerce função sem preposição; há apenas o artigo integrante do relativo."
+        },
+        {
+          "id": "B",
+          "text": "'norma' não admite artigo."
+        },
+        {
+          "id": "C",
+          "text": "todo relativo 'qual' proíbe acento."
+        },
+        {
+          "id": "D",
+          "text": "o verbo 'publicar' exige preposição 'de'."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Como sujeito de 'foi publicada', o relativo não é antecedido por preposição; em função exigida por 'referir-se a', apareceria 'à qual'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3565",
+      "revision": 2,
+      "prompt": "O mnemônico 'vou a, volto de; vou à, volto da' deve ser usado",
+      "options": [
+        {
+          "id": "A",
+          "text": "como regra baseada apenas no gênero do nome da cidade."
+        },
+        {
+          "id": "B",
+          "text": "como teste do artigo no contexto real do topônimo, sujeito a determinação e variação de uso."
+        },
+        {
+          "id": "C",
+          "text": "para concluir que modificadores nunca alteram o artigo."
+        },
+        {
+          "id": "D",
+          "text": "somente com nomes próprios masculinos."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O teste revela se o lugar aceita artigo naquele contexto; modificadores, história e variação regional podem alterar o resultado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3566",
+      "revision": 2,
+      "prompt": "Em 'A comissão analisou a medida', não há crase porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "'medida' é advérbio."
+        },
+        {
+          "id": "B",
+          "text": "palavras femininas nunca recebem acento."
+        },
+        {
+          "id": "C",
+          "text": "'analisar' é transitivo direto nessa construção, e o 'a' é apenas artigo."
+        },
+        {
+          "id": "D",
+          "text": "o artigo definido está proibido depois de verbo."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Sem preposição 'a' antes do artigo, não há fusão. O substantivo continua feminino e recebe artigo normalmente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3567",
+      "revision": 2,
+      "prompt": "A frase 'Começou a revisão' não leva acento no primeiro 'a' porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "'revisão' é palavra masculina."
+        },
+        {
+          "id": "B",
+          "text": "todo objeto direto dispensa artigo."
+        },
+        {
+          "id": "C",
+          "text": "o acento grave só existe no plural."
+        },
+        {
+          "id": "D",
+          "text": "'a revisão' é sintagma nominal introduzido apenas por artigo, sem preposição 'a' exigida por 'começar'."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O verbo inicia algo diretamente, e 'a' determina 'revisão'; artigo isolado não constitui crase. As outras afirmações são falsas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3568",
+      "revision": 2,
+      "prompt": "Qual contraste entre hora marcada e intervalo está correto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chegou a uma hora / Daqui à uma hora."
+        },
+        {
+          "id": "B",
+          "text": "Chegou há uma hora / Daqui à uma hora."
+        },
+        {
+          "id": "C",
+          "text": "Chegou à uma hora / Daqui há uma hora, com o mesmo valor."
+        },
+        {
+          "id": "D",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        },
+        {
+          "id": "E",
+          "text": "Chegou à uma hora / Daqui a uma hora."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Ponto determinado no relógio admite 'à uma hora'; intervalo futuro usa 'a uma hora'. 'Há uma hora' indicaria tempo decorrido, não futuro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3569",
+      "revision": 2,
+      "prompt": "A diferença entre 'referiu-se a duas servidoras' e 'referiu-se às duas servidoras' é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a segunda determina o grupo com artigo definido, enquanto a primeira usa apenas preposição antes do numeral."
+        },
+        {
+          "id": "B",
+          "text": "a primeira é sempre incorreta."
+        },
+        {
+          "id": "C",
+          "text": "a segunda não contém artigo."
+        },
+        {
+          "id": "D",
+          "text": "o numeral torna as duas estruturas idênticas."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Às' resulta de preposição mais artigo plural; sem artigo, permanece 'a duas'. O numeral não elimina a diferença de determinação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3570",
+      "revision": 2,
+      "prompt": "Qual série evita acumular preposições?",
+      "options": [
+        {
+          "id": "A",
+          "text": "perante à autoridade; desde às 8h; após às 14h."
+        },
+        {
+          "id": "B",
+          "text": "perante a autoridade; desde as 8h; após as 14h."
+        },
+        {
+          "id": "C",
+          "text": "perante a autoridade; desde às 8h; após as 14h."
+        },
+        {
+          "id": "D",
+          "text": "perante à autoridade; desde as 8h; após as 14h."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'Perante', 'desde' e 'após' já introduzem os termos; 'a/as' é artigo, sem preposição 'a' adicional para formar crase. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3571",
+      "revision": 2,
+      "prompt": "Em qual expressão a recuperação de 'à moda de' é semanticamente adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preencheu o formulário à lápis."
+        },
+        {
+          "id": "B",
+          "text": "Viajou à cavalo."
+        },
+        {
+          "id": "C",
+          "text": "Preparou um bife à milanesa."
+        },
+        {
+          "id": "D",
+          "text": "Pagou à prazo."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'À milanesa' significa à moda milanesa; lápis, cavalo e prazo são masculinos sem elipse de moda ou maneira nos contextos dados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3572",
+      "revision": 2,
+      "prompt": "Qual alternativa contém somente locuções prepositivas femininas acentuadas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "à medida que; à proporção que."
+        },
+        {
+          "id": "B",
+          "text": "à tarde; às vezes; à direita."
+        },
+        {
+          "id": "C",
+          "text": "a partir de; a respeito de; a fim de."
+        },
+        {
+          "id": "D",
+          "text": "à espera de; à procura de; à mercê de."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As expressões de B terminam em 'de' e introduzem complemento, funcionando como locuções prepositivas; A é conjuntiva, C é adverbial e D não recebe acento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3573",
+      "revision": 2,
+      "prompt": "Qual par contrasta locução feminina consagrada e instrumento masculino?",
+      "options": [
+        {
+          "id": "A",
+          "text": "escrever a mão / escrever à lápis."
+        },
+        {
+          "id": "B",
+          "text": "escrever à mão / escrever à lápis."
+        },
+        {
+          "id": "C",
+          "text": "escrever a mão / escrever a lápis, obrigatoriamente sem distinção."
+        },
+        {
+          "id": "D",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        },
+        {
+          "id": "E",
+          "text": "escrever à mão / escrever a lápis."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "'À mão' é locução tradicionalmente acentuada; 'a lápis' tem núcleo masculino e não envolve elipse feminina. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3574",
+      "revision": 2,
+      "prompt": "Por que alguns manuais registram acento em certas locuções mesmo discutindo a existência de fusão estrita?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque tradição e clareza gráfica também sustentam grafias consagradas em determinadas locuções."
+        },
+        {
+          "id": "B",
+          "text": "Porque qualquer palavra feminina deve receber acento."
+        },
+        {
+          "id": "C",
+          "text": "Porque o acento grave passou a marcar plural."
+        },
+        {
+          "id": "D",
+          "text": "Porque preposição e artigo são sempre indistinguíveis."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Manuais como o do Senado distinguem a explicação estrita da prescrição por tradição ou clareza; isso não autoriza acentuar qualquer expressão feminina. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3575",
+      "revision": 2,
+      "prompt": "Diante de uma questão sobre 'ensino a distância/à distância' sem fonte normativa declarada, a postura tecnicamente adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar sempre errada a forma sem acento."
+        },
+        {
+          "id": "B",
+          "text": "reconhecer a divergência editorial e evitar afirmar que apenas uma grafia é universalmente possível."
+        },
+        {
+          "id": "C",
+          "text": "considerar sempre errada a forma com acento."
+        },
+        {
+          "id": "D",
+          "text": "eliminar a expressão porque distância é verbo."
+        },
+        {
+          "id": "E",
+          "text": "Qualquer expressão feminina de modo, meio ou distância recebe acento por regra mecânica."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Há orientação por determinação e orientação que acentua a locução por clareza/tradição; o julgamento depende do padrão adotado e do contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3576",
+      "revision": 2,
+      "prompt": "Qual é o primeiro procedimento seguro para decidir o acento antes de um nome feminino?",
+      "options": [
+        {
+          "id": "A",
+          "text": "acentuar imediatamente porque o nome é feminino."
+        },
+        {
+          "id": "B",
+          "text": "verificar apenas se a frase está no plural."
+        },
+        {
+          "id": "C",
+          "text": "identificar se o termo anterior exige preposição 'a' e se o nome admite artigo 'a/as'."
+        },
+        {
+          "id": "D",
+          "text": "substituir qualquer verbo por 'haver'."
+        },
+        {
+          "id": "E",
+          "text": "O acento depende apenas do gênero do antecedente, não da função interna do relativo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A decisão nasce do duplo filtro de preposição e artigo; gênero, número isolado ou troca arbitrária de verbo não resolvem a estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3577",
+      "revision": 2,
+      "prompt": "A delimitação correta do estudo da crase é",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir todo o estudo de regência e de classes de palavras."
+        },
+        {
+          "id": "B",
+          "text": "ensinar a posição de todos os pronomes átonos."
+        },
+        {
+          "id": "C",
+          "text": "tratar qualquer acento grave como questão de concordância verbal."
+        },
+        {
+          "id": "D",
+          "text": "usar regência e artigo apenas para reconhecer a fusão ou a grafia tradicional, deixando seus sistemas completos nos assuntos próprios."
+        },
+        {
+          "id": "E",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O foco é a existência da preposição e do artigo ou forma contrátil; regência, classes e colocação pronominal fornecem apoio, mas mantêm escopo próprio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3578",
+      "revision": 2,
+      "prompt": "Ao revisar o emprego do acento grave depois de uma reescrita, deve-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter o acento na mesma posição gráfica, ainda que o verbo mude."
+        },
+        {
+          "id": "B",
+          "text": "observar apenas se a palavra seguinte continua feminina."
+        },
+        {
+          "id": "C",
+          "text": "retirar todo acento se houver numeral ou pronome."
+        },
+        {
+          "id": "D",
+          "text": "A palavra feminina, por si só, torna o acento grave obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "refazer a análise de regência, artigo, determinação, relativo, preposição e sentido da nova estrutura."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Mudanças no regente, determinante, relativo ou preposição podem tornar o acento obrigatório, proibido ou facultativo; aparência gráfica não garante equivalência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3579",
+      "revision": 1,
+      "prompt": "Assinale a frase em que o acento grave resulta corretamente da regência do termo anterior e da presença de artigo definido.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A equipe chegou à mesma conclusão após a auditoria."
+        },
+        {
+          "id": "B",
+          "text": "A equipe analisou à mesma conclusão do relatório."
+        },
+        {
+          "id": "C",
+          "text": "A equipe chegou à uma conclusão provisória."
+        },
+        {
+          "id": "D",
+          "text": "A equipe chegou à esta conclusão."
+        },
+        {
+          "id": "E",
+          "text": "A equipe chegou à conclusões semelhantes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "`Chegar a` exige preposição e `a mesma conclusão` admite artigo definido. Nas demais, falta preposição, há artigo indefinido, demonstrativo sem artigo ou plural sem artigo. Fonte: adaptação autoral de cobrança Cebraspe — InoversaSul, 2025, sobre regência e artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3580",
+      "revision": 1,
+      "prompt": "Na frase “A norma se aplica a uma situação excepcional”, a substituição de `a uma` por `à uma` seria",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque toda palavra feminina exige acento grave."
+        },
+        {
+          "id": "B",
+          "text": "incorreta, porque a preposição `a` não se funde com o artigo indefinido `uma`."
+        },
+        {
+          "id": "C",
+          "text": "facultativa, porque `situação` é feminina."
+        },
+        {
+          "id": "D",
+          "text": "obrigatória, porque `aplicar-se` é pronominal."
+        },
+        {
+          "id": "E",
+          "text": "correta apenas se `uma` indicar quantidade exata."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A crase básica exige preposição `a` e artigo definido `a/as`, não artigo indefinido. Fonte: adaptação autoral de cobrança Cebraspe — SUSEP, 2025, sobre artigo indefinido; enunciado reescrito."
+    },
+    {
+      "id": "q3581",
+      "revision": 1,
+      "prompt": "Em “A política à qual o relatório se refere foi atualizada”, a retirada do acento grave",
+      "options": [
+        {
+          "id": "A",
+          "text": "manteria a correção porque pronomes relativos nunca recebem acento."
+        },
+        {
+          "id": "B",
+          "text": "seria facultativa por o antecedente estar no singular."
+        },
+        {
+          "id": "C",
+          "text": "romperia a correção, pois `referir-se` exige `a` e o relativo `a qual` contém artigo."
+        },
+        {
+          "id": "D",
+          "text": "exigiria apenas trocar `qual` por `quem` sem outras mudanças."
+        },
+        {
+          "id": "E",
+          "text": "manteria a correção porque a preposição já está expressa no antecedente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A função interna do relativo é complemento de `referir-se a`; `a + a qual` produz `à qual`. Fonte: adaptação autoral de item Cebraspe — TRF da 6ª Região, 2025, sobre `à qual`; enunciado reescrito."
+    },
+    {
+      "id": "q3582",
+      "revision": 1,
+      "prompt": "No trecho “o regulamento limitou-se à implementação das medidas urgentes”, o acento grave é",
+      "options": [
+        {
+          "id": "A",
+          "text": "proibido, porque substantivos abstratos não admitem artigo."
+        },
+        {
+          "id": "B",
+          "text": "facultativo, porque `implementação` é singular."
+        },
+        {
+          "id": "C",
+          "text": "indevido, porque o verbo é pronominal."
+        },
+        {
+          "id": "D",
+          "text": "obrigatório, porque `limitar-se` rege `a` e `implementação` está determinada pelo artigo."
+        },
+        {
+          "id": "E",
+          "text": "apenas estilístico, sem fundamento sintático."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A presença simultânea da preposição selecionada e do artigo definido exige a contração. Fonte: adaptação autoral de cobrança Cebraspe — TCE/RN, 2026, sobre complemento nominal com crase; enunciado reescrito."
+    },
+    {
+      "id": "q3583",
+      "revision": 1,
+      "prompt": "Assinale a redação correta para referência genérica, sem artigo definido.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O programa oferece apoio à futuras servidoras do órgão."
+        },
+        {
+          "id": "B",
+          "text": "O programa oferece apoio às futuras servidoras, sem que elas estejam identificadas no contexto."
+        },
+        {
+          "id": "C",
+          "text": "O programa oferece apoio à servidoras futuras."
+        },
+        {
+          "id": "D",
+          "text": "O programa oferece apoio às servidoras qualquer."
+        },
+        {
+          "id": "E",
+          "text": "O programa oferece apoio a futuras servidoras do órgão."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O plural sem artigo é introduzido apenas pela preposição `a`. `À` singular não pode anteceder plural, e `às` introduziria determinação. Fonte: adaptação autoral de cobrança Cebraspe — FUB, 2025, sobre plural sem artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3584",
+      "revision": 1,
+      "prompt": "Em “Os técnicos chegaram a adquirir experiência”, inserir acento grave no `a` seria",
+      "options": [
+        {
+          "id": "A",
+          "text": "incorreto, porque o termo seguinte é infinitivo e não admite artigo feminino."
+        },
+        {
+          "id": "B",
+          "text": "correto, porque `chegar` exige preposição."
+        },
+        {
+          "id": "C",
+          "text": "facultativo, porque `adquirir` pode ser substantivado em qualquer contexto."
+        },
+        {
+          "id": "D",
+          "text": "obrigatório, porque há locução verbal."
+        },
+        {
+          "id": "E",
+          "text": "correto apenas no plural."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A preposição pode estar presente antes do infinitivo, mas não existe segundo `a` para fusão. Fonte: adaptação autoral de cobrança Cebraspe — UDESC, 2026, sobre preposição antes de infinitivo; enunciado reescrito."
+    },
+    {
+      "id": "q3585",
+      "revision": 1,
+      "prompt": "No período “À época, o sistema enviava os avisos a mim e funcionava à tarde”, os três segmentos destacados são, respectivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "artigo, crase facultativa e artigo."
+        },
+        {
+          "id": "B",
+          "text": "locução temporal com acento, pronome pessoal sem acento e locução temporal com acento."
+        },
+        {
+          "id": "C",
+          "text": "três casos obrigatórios de crase."
+        },
+        {
+          "id": "D",
+          "text": "três preposições simples sem acento."
+        },
+        {
+          "id": "E",
+          "text": "crase facultativa, crase obrigatória e artigo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "`À época` e `à tarde` são locuções femininas; `mim` não admite artigo. Fonte: adaptação autoral de cobrança Cebraspe — CAESB, 2025, sobre locução e pronome pessoal; enunciado reescrito."
+    },
+    {
+      "id": "q3586",
+      "revision": 1,
+      "prompt": "Na frase “O portal dá acesso a elas”, a forma `a elas`",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser escrita `à elas`, pois `acesso` rege `a`."
+        },
+        {
+          "id": "B",
+          "text": "admite as duas grafias sem mudança de sentido."
+        },
+        {
+          "id": "C",
+          "text": "não recebe acento grave, porque pronomes pessoais não admitem artigo."
+        },
+        {
+          "id": "D",
+          "text": "deve ser substituída por `às elas`."
+        },
+        {
+          "id": "E",
+          "text": "só fica sem acento se o referente for masculino."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A regência fornece a preposição, mas o pronome pessoal não fornece artigo. Fonte: adaptação autoral de cobrança Cebraspe — Embrapa, 2025, sobre `a elas`; enunciado reescrito."
+    },
+    {
+      "id": "q3587",
+      "revision": 1,
+      "prompt": "Em “as condições são semelhantes à da Terra”, `à` equivale a",
+      "options": [
+        {
+          "id": "A",
+          "text": "artigo isolado antes de preposição `de`."
+        },
+        {
+          "id": "B",
+          "text": "preposição simples sem demonstrativo."
+        },
+        {
+          "id": "C",
+          "text": "acento exigido diretamente pelo nome próprio `Terra`."
+        },
+        {
+          "id": "D",
+          "text": "`àquela condição`, com núcleo feminino elíptico."
+        },
+        {
+          "id": "E",
+          "text": "locução adverbial de lugar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O masculino `semelhante ao do planeta` evidencia preposição mais demonstrativo elíptico. Fonte: questão autoral inspirada em item de 2026 sobre demonstrativo feminino elíptico; não reprodução literal."
+    },
+    {
+      "id": "q3588",
+      "revision": 1,
+      "prompt": "Assinale a frase em que o emprego do acento grave está incorreto.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A reunião começou às cinco horas."
+        },
+        {
+          "id": "B",
+          "text": "O pagamento foi feito à vista."
+        },
+        {
+          "id": "C",
+          "text": "A equipe cingiu-se às pequenas alterações."
+        },
+        {
+          "id": "D",
+          "text": "O manuscrito estava à vista de todos."
+        },
+        {
+          "id": "E",
+          "text": "O documento fazia às vezes de comprovante provisório."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A expressão correta é `fazer as vezes de`, com artigo plural e sem preposição `a`; não há crase. Fonte: adaptação autoral de cobrança FGV — TJ/RS, 2025, sobre usos contrastivos da crase; enunciado reescrito."
+    },
+    {
+      "id": "q3589",
+      "revision": 1,
+      "prompt": "Assinale a sequência em que todos os empregos estão corretos: I. situação igual à que ocorreu; II. norma à qual me referi; III. atenção àquilo que importa; IV. proteção à quem utiliza o serviço.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apenas I, II e III."
+        },
+        {
+          "id": "B",
+          "text": "Apenas I e IV."
+        },
+        {
+          "id": "C",
+          "text": "Apenas II e IV."
+        },
+        {
+          "id": "D",
+          "text": "Apenas III e IV."
+        },
+        {
+          "id": "E",
+          "text": "I, II, III e IV."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "`À que` pode equivaler a `àquela que`; `à qual` contém artigo; `àquilo` incorpora a preposição. `Quem` não admite artigo: `a quem`. Fonte: adaptação autoral de questão AMEOSC, 2025, sobre crase diante de pronomes; enunciado reescrito."
+    },
+    {
+      "id": "q3590",
+      "revision": 1,
+      "prompt": "Na expressão “em relação a qual área”, inserir o acento grave em `a qual` seria",
+      "options": [
+        {
+          "id": "A",
+          "text": "obrigatório, porque `relação` rege `a`."
+        },
+        {
+          "id": "B",
+          "text": "indevido, porque `qual` é interrogativo e não contém artigo definido."
+        },
+        {
+          "id": "C",
+          "text": "facultativo por se tratar de palavra feminina."
+        },
+        {
+          "id": "D",
+          "text": "obrigatório sempre que `qual` vier depois de `a`."
+        },
+        {
+          "id": "E",
+          "text": "correto apenas se `área` estiver no plural."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Não se confunde o relativo `a qual` com a expressão interrogativa `a qual área`. Fonte: adaptação autoral de questão Nosso Rumo — SEFAZ/SP, 2025, sobre casos proibidos; enunciado reescrito."
+    },
+    {
+      "id": "q3591",
+      "revision": 1,
+      "prompt": "Em “A decisão é idêntica à prevista no edital”, a forma acentuada representa",
+      "options": [
+        {
+          "id": "A",
+          "text": "artigo de um objeto direto."
+        },
+        {
+          "id": "B",
+          "text": "preposição diante de infinitivo."
+        },
+        {
+          "id": "C",
+          "text": "preposição `a` mais demonstrativo feminino equivalente a `aquela decisão`."
+        },
+        {
+          "id": "D",
+          "text": "locução adverbial de modo."
+        },
+        {
+          "id": "E",
+          "text": "contração com o pronome relativo `que`."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O núcleo `decisão` foi omitido e recuperado pelo demonstrativo `a`. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre topônimos e determinação."
+    },
+    {
+      "id": "q3592",
+      "revision": 1,
+      "prompt": "Assinale a reescrita correta de “a proposta a que o parecer aludiu”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "a proposta à que o parecer aludiu."
+        },
+        {
+          "id": "B",
+          "text": "a proposta a qual o parecer aludiu."
+        },
+        {
+          "id": "C",
+          "text": "a proposta à quem o parecer aludiu."
+        },
+        {
+          "id": "D",
+          "text": "a proposta à qual o parecer aludiu."
+        },
+        {
+          "id": "E",
+          "text": "a proposta a cuja o parecer aludiu."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "`Aludir a` exige preposição; o relativo `a qual` contém artigo e forma `à qual`. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre horários e intervalos."
+    },
+    {
+      "id": "q3593",
+      "revision": 1,
+      "prompt": "A construção “a autora à cujo texto fiz referência” deve ser corrigida para",
+      "options": [
+        {
+          "id": "A",
+          "text": "a autora à cujo o texto fiz referência."
+        },
+        {
+          "id": "B",
+          "text": "a autora às cujo texto fiz referência."
+        },
+        {
+          "id": "C",
+          "text": "a autora à qual texto fiz referência."
+        },
+        {
+          "id": "D",
+          "text": "a autora cujo ao texto fiz referência."
+        },
+        {
+          "id": "E",
+          "text": "a autora a cujo texto fiz referência."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "`Cujo` não admite artigo; a preposição `a` permanece isolada. Fonte: questão autoral inspirada em cobranças de tribunais sobre reescrita, regência e crase."
+    },
+    {
+      "id": "q3594",
+      "revision": 1,
+      "prompt": "Em “normas superiores às anteriores”, `às anteriores` pode ser expandido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "às normas anteriores."
+        },
+        {
+          "id": "B",
+          "text": "aos regulamentos anteriores, sem mudança de gênero."
+        },
+        {
+          "id": "C",
+          "text": "as anteriores, com apenas artigo."
+        },
+        {
+          "id": "D",
+          "text": "a normas anteriores, obrigatoriamente sem artigo."
+        },
+        {
+          "id": "E",
+          "text": "àquelas anterior, no singular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O adjetivo substantivado recupera o núcleo feminino plural; há preposição e artigo. Fonte: questão autoral de integração baseada nas gramáticas de Bechara, Cunha e Cintra e Rocha Lima."
+    },
+    {
+      "id": "q3595",
+      "revision": 1,
+      "prompt": "Na frase “A servidora a quem entreguei o ofício respondeu”, o acento grave antes de `quem` seria",
+      "options": [
+        {
+          "id": "A",
+          "text": "obrigatório por causa de `entregar a`."
+        },
+        {
+          "id": "B",
+          "text": "incorreto, porque `quem` não recebe artigo."
+        },
+        {
+          "id": "C",
+          "text": "facultativo por o antecedente ser feminino."
+        },
+        {
+          "id": "D",
+          "text": "correto se a servidora for determinada."
+        },
+        {
+          "id": "E",
+          "text": "obrigatório apenas no plural."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A preposição exigida por `entregar algo a alguém` aparece sem artigo. Fonte: adaptação autoral de cobrança Cebraspe — InoversaSul, 2025, sobre regência e artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3596",
+      "revision": 1,
+      "prompt": "Assinale a frase correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Não atribuiu importância aquilo que foi comprovado."
+        },
+        {
+          "id": "B",
+          "text": "Não atribuiu importância à isso que foi comprovado."
+        },
+        {
+          "id": "C",
+          "text": "Não atribuiu importância àquilo que foi comprovado."
+        },
+        {
+          "id": "D",
+          "text": "Não atribuiu importância à este dado."
+        },
+        {
+          "id": "E",
+          "text": "Não atribuiu importância à qualquer evidência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A preposição se incorpora ao início de `aquilo`; `isso`, `este` e `qualquer` não admitem artigo nesse uso. Fonte: adaptação autoral de cobrança Cebraspe — SUSEP, 2025, sobre artigo indefinido; enunciado reescrito."
+    },
+    {
+      "id": "q3597",
+      "revision": 1,
+      "prompt": "Em “a diretriz à qual a portaria se opõe”, o segmento `à qual` exerce função de",
+      "options": [
+        {
+          "id": "A",
+          "text": "sujeito da oração principal."
+        },
+        {
+          "id": "B",
+          "text": "objeto direto sem preposição."
+        },
+        {
+          "id": "C",
+          "text": "adjunto adverbial de tempo."
+        },
+        {
+          "id": "D",
+          "text": "complemento preposicionado do verbo `opor-se` dentro da oração relativa."
+        },
+        {
+          "id": "E",
+          "text": "artigo do antecedente `diretriz`."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A crase depende da função interna do relativo, não apenas do gênero do antecedente. Fonte: adaptação autoral de item Cebraspe — TRF da 6ª Região, 2025, sobre `à qual`; enunciado reescrito."
+    },
+    {
+      "id": "q3598",
+      "revision": 1,
+      "prompt": "A frase “A norma à que me referi” é inadequada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo relativo exige acento grave."
+        },
+        {
+          "id": "B",
+          "text": "o verbo `referir-se` não admite preposição."
+        },
+        {
+          "id": "C",
+          "text": "`norma` é palavra masculina na sintaxe."
+        },
+        {
+          "id": "D",
+          "text": "a crase só ocorre no plural."
+        },
+        {
+          "id": "E",
+          "text": "o relativo simples `que` não admite artigo; deve-se escrever `a que` ou `à qual`."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "`À que` só é cabível quando `à` equivale a demonstrativo `àquela`, não como artigo do relativo simples. Fonte: adaptação autoral de cobrança Cebraspe — TCE/RN, 2026, sobre complemento nominal com crase; enunciado reescrito."
+    },
+    {
+      "id": "q3599",
+      "revision": 1,
+      "prompt": "Assinale a opção correta quanto à crase diante de pronomes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trouxe o documento a você e entregou a cópia à secretária."
+        },
+        {
+          "id": "B",
+          "text": "Trouxe o documento à você e entregou a cópia a secretária."
+        },
+        {
+          "id": "C",
+          "text": "Trouxe o documento à qualquer pessoa."
+        },
+        {
+          "id": "D",
+          "text": "Dirigiu-se à Vossa Excelência."
+        },
+        {
+          "id": "E",
+          "text": "Entregou o processo à ela."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "`Você`, `qualquer`, `Vossa Excelência` e `ela` não recebem artigo nesse uso; `secretária` admite artigo. Fonte: adaptação autoral de cobrança Cebraspe — FUB, 2025, sobre plural sem artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3600",
+      "revision": 1,
+      "prompt": "Em “referiu-se à mesma norma”, a crase ocorre porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo pronome demonstrativo exige acento."
+        },
+        {
+          "id": "B",
+          "text": "`mesma` funciona com artigo feminino no sintagma regido pela preposição `a`."
+        },
+        {
+          "id": "C",
+          "text": "`mesma` é sempre substantivo feminino."
+        },
+        {
+          "id": "D",
+          "text": "a preposição está contida no adjetivo `mesma`."
+        },
+        {
+          "id": "E",
+          "text": "a construção é locução adverbial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sintagma é `a mesma norma`; a preposição do regente se funde com o artigo. Fonte: adaptação autoral de cobrança Cebraspe — UDESC, 2026, sobre preposição antes de infinitivo; enunciado reescrito."
+    },
+    {
+      "id": "q3601",
+      "revision": 1,
+      "prompt": "A forma correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "A medida se aplica à cada unidade responsável."
+        },
+        {
+          "id": "B",
+          "text": "A medida se aplica às cada unidade responsável."
+        },
+        {
+          "id": "C",
+          "text": "A medida se aplica a cada unidade responsável."
+        },
+        {
+          "id": "D",
+          "text": "A medida se aplica à qualquer unidade."
+        },
+        {
+          "id": "E",
+          "text": "A medida se aplica à nenhuma unidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "`Cada`, `qualquer` e `nenhuma` não vêm precedidos de artigo definido nesse padrão. Fonte: adaptação autoral de cobrança Cebraspe — CAESB, 2025, sobre locução e pronome pessoal; enunciado reescrito."
+    },
+    {
+      "id": "q3602",
+      "revision": 1,
+      "prompt": "Assinale a frase em que a presença do acento grave pode ser facultativa por causa do artigo diante de possessivo.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O diretor entregou o ofício à ela."
+        },
+        {
+          "id": "B",
+          "text": "O diretor começou à analisar."
+        },
+        {
+          "id": "C",
+          "text": "O diretor voltou desde à sala."
+        },
+        {
+          "id": "D",
+          "text": "O diretor fez referência a sua proposta / à sua proposta."
+        },
+        {
+          "id": "E",
+          "text": "O diretor se opôs à qualquer medida."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Com possessivo feminino singular, o artigo pode ser usado ou omitido em muitos contextos; a preposição permanece. Fonte: adaptação autoral de cobrança Cebraspe — Embrapa, 2025, sobre `a elas`; enunciado reescrito."
+    },
+    {
+      "id": "q3603",
+      "revision": 1,
+      "prompt": "Em “entregou o relatório a Ana / à Ana”, a variação decorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "da facultatividade geral de toda crase."
+        },
+        {
+          "id": "B",
+          "text": "da ausência de regência do verbo `entregar`."
+        },
+        {
+          "id": "C",
+          "text": "de o nome próprio ser sempre masculino."
+        },
+        {
+          "id": "D",
+          "text": "de `Ana` ser pronome pessoal."
+        },
+        {
+          "id": "E",
+          "text": "da possibilidade contextual ou regional de usar artigo antes do nome próprio feminino."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A preposição é exigida; o artigo diante do nome próprio pode variar. Fonte: questão autoral inspirada em item de 2026 sobre demonstrativo feminino elíptico; não reprodução literal."
+    },
+    {
+      "id": "q3604",
+      "revision": 1,
+      "prompt": "A frase “Dirigiu-se à Vossa Excelência” deve ser corrigida para",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dirigiu-se a Vossa Excelência."
+        },
+        {
+          "id": "B",
+          "text": "Dirigiu-se às Vossa Excelência."
+        },
+        {
+          "id": "C",
+          "text": "Dirigiu-se à Vossas Excelências."
+        },
+        {
+          "id": "D",
+          "text": "Dirigiu-se a à Vossa Excelência."
+        },
+        {
+          "id": "E",
+          "text": "Dirigiu-se para à Vossa Excelência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pronomes de tratamento com `Vossa` não recebem artigo definido. Fonte: adaptação autoral de cobrança FGV — TJ/RS, 2025, sobre usos contrastivos da crase; enunciado reescrito."
+    },
+    {
+      "id": "q3605",
+      "revision": 1,
+      "prompt": "Em “entregou o convite à senhora responsável”, o acento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre proibido diante de qualquer forma de tratamento."
+        },
+        {
+          "id": "B",
+          "text": "correto se `senhora` estiver empregado com artigo definido."
+        },
+        {
+          "id": "C",
+          "text": "sempre facultativo, sem depender do artigo."
+        },
+        {
+          "id": "D",
+          "text": "incorreto porque `senhora` é pronome pessoal."
+        },
+        {
+          "id": "E",
+          "text": "obrigatório mesmo sem preposição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Formas como `senhora` podem admitir artigo; a análise depende do uso efetivo. Fonte: adaptação autoral de questão AMEOSC, 2025, sobre crase diante de pronomes; enunciado reescrito."
+    },
+    {
+      "id": "q3606",
+      "revision": 1,
+      "prompt": "Assinale a frase correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A norma se aplica à outras unidades previstas no anexo."
+        },
+        {
+          "id": "B",
+          "text": "A norma se aplica às qualquer unidades."
+        },
+        {
+          "id": "C",
+          "text": "A norma se aplica às outras unidades previstas no anexo."
+        },
+        {
+          "id": "D",
+          "text": "A norma se aplica à cada unidade."
+        },
+        {
+          "id": "E",
+          "text": "A norma se aplica à nenhuma unidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "`Às outras unidades` contém artigo plural e referência delimitada; as demais combinam acento com determinantes sem artigo. Fonte: adaptação autoral de questão Nosso Rumo — SEFAZ/SP, 2025, sobre casos proibidos; enunciado reescrito."
+    },
+    {
+      "id": "q3607",
+      "revision": 1,
+      "prompt": "A diferença entre “acesso a outras formas” e “acesso às outras formas previstas” está",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas na pronúncia, sem efeito sintático ou semântico."
+        },
+        {
+          "id": "B",
+          "text": "no fato de `outras` ser masculino na primeira."
+        },
+        {
+          "id": "C",
+          "text": "em uma facultatividade absoluta do acento."
+        },
+        {
+          "id": "D",
+          "text": "na determinação do conjunto: a segunda forma contém artigo definido plural."
+        },
+        {
+          "id": "E",
+          "text": "na mudança de preposição de `a` para `de`."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As duas construções podem ser gramaticais, mas não são necessariamente equivalentes. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre topônimos e determinação."
+    },
+    {
+      "id": "q3608",
+      "revision": 1,
+      "prompt": "Em “A comissão deu a mim a palavra”, substituir `a mim` por `à mim`",
+      "options": [
+        {
+          "id": "A",
+          "text": "seria obrigatório por `dar algo a alguém`."
+        },
+        {
+          "id": "B",
+          "text": "seria facultativo diante de pronome pessoal."
+        },
+        {
+          "id": "C",
+          "text": "seria correto apenas se o falante fosse mulher."
+        },
+        {
+          "id": "D",
+          "text": "manteria a correção por haver duas vogais pronunciadas."
+        },
+        {
+          "id": "E",
+          "text": "produziria erro, porque `mim` não admite artigo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A preposição existe; falta o artigo que permitiria a fusão. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre horários e intervalos."
+    },
+    {
+      "id": "q3609",
+      "revision": 1,
+      "prompt": "Complete corretamente: “O aviso foi publicado ___ duas horas; a sessão começará ___ duas horas e terminará daqui ___ três horas.”",
+      "options": [
+        {
+          "id": "A",
+          "text": "há; às; a."
+        },
+        {
+          "id": "B",
+          "text": "à; a; há."
+        },
+        {
+          "id": "C",
+          "text": "a; há; às."
+        },
+        {
+          "id": "D",
+          "text": "há; a; às."
+        },
+        {
+          "id": "E",
+          "text": "às; há; à."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Tempo decorrido pede `há`; horário determinado, `às`; intervalo futuro, `a`. Fonte: questão autoral inspirada em cobranças de tribunais sobre reescrita, regência e crase."
+    },
+    {
+      "id": "q3610",
+      "revision": 1,
+      "prompt": "A frase “Chegou à uma hora” significa, no contexto mais direto, que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a chegada ocorreu uma hora atrás."
+        },
+        {
+          "id": "B",
+          "text": "a chegada ocorreu à 1h."
+        },
+        {
+          "id": "C",
+          "text": "o local fica a uma hora de distância."
+        },
+        {
+          "id": "D",
+          "text": "a chegada ocorrerá daqui a uma hora."
+        },
+        {
+          "id": "E",
+          "text": "o numeral impede qualquer artigo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O acento marca horário determinado; `há uma hora` e `a uma hora de distância` têm outras funções. Fonte: questão autoral de integração baseada nas gramáticas de Bechara, Cunha e Cintra e Rocha Lima."
+    },
+    {
+      "id": "q3611",
+      "revision": 1,
+      "prompt": "Assinale o intervalo construído com paralelismo adequado.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O atendimento funciona de 8h às 12h."
+        },
+        {
+          "id": "B",
+          "text": "O atendimento funciona das 8h a 12h."
+        },
+        {
+          "id": "C",
+          "text": "O atendimento funciona das 8h às 12h."
+        },
+        {
+          "id": "D",
+          "text": "O atendimento funciona desde às 8h até às 12h."
+        },
+        {
+          "id": "E",
+          "text": "O atendimento funciona entre às 8h e às 12h."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Com artigos nos dois limites, usa-se `das... às`; sem artigos, `de... a`. Fonte: adaptação autoral de cobrança Cebraspe — InoversaSul, 2025, sobre regência e artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3612",
+      "revision": 1,
+      "prompt": "Em “desde as oito horas”, o acento grave não é usado porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "horas nunca admitem artigo."
+        },
+        {
+          "id": "B",
+          "text": "`desde` exige obrigatoriamente `à`."
+        },
+        {
+          "id": "C",
+          "text": "o numeral está no plural."
+        },
+        {
+          "id": "D",
+          "text": "a preposição `desde` já rege o sintagma; `as` é apenas artigo."
+        },
+        {
+          "id": "E",
+          "text": "a crase é proibida depois de qualquer advérbio."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Não se acumulam `desde + a`; por isso `desde às` é inadequado. Fonte: adaptação autoral de cobrança Cebraspe — SUSEP, 2025, sobre artigo indefinido; enunciado reescrito."
+    },
+    {
+      "id": "q3613",
+      "revision": 1,
+      "prompt": "Assinale a frase correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O local fica à três quilômetros da sede."
+        },
+        {
+          "id": "B",
+          "text": "O local fica às três quilômetros da sede."
+        },
+        {
+          "id": "C",
+          "text": "O local fica há três quilômetros da sede."
+        },
+        {
+          "id": "D",
+          "text": "O local fica à distância três quilômetros."
+        },
+        {
+          "id": "E",
+          "text": "O local fica a três quilômetros da sede."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A expressão numérica indica distância e não contém artigo feminino. Fonte: adaptação autoral de item Cebraspe — TRF da 6ª Região, 2025, sobre `à qual`; enunciado reescrito."
+    },
+    {
+      "id": "q3614",
+      "revision": 1,
+      "prompt": "Na frase “referiu-se às duas servidoras responsáveis”, o acento ocorre porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "há preposição e artigo definido plural antes do numeral."
+        },
+        {
+          "id": "B",
+          "text": "todo numeral feminino exige crase."
+        },
+        {
+          "id": "C",
+          "text": "o numeral `duas` contém preposição."
+        },
+        {
+          "id": "D",
+          "text": "a expressão indica horário."
+        },
+        {
+          "id": "E",
+          "text": "o plural dispensa artigo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O contraste é `a duas servidoras` sem artigo versus `às duas servidoras` com artigo. Fonte: adaptação autoral de cobrança Cebraspe — TCE/RN, 2026, sobre complemento nominal com crase; enunciado reescrito."
+    },
+    {
+      "id": "q3615",
+      "revision": 1,
+      "prompt": "Assinale a frase em que `a` indica intervalo futuro.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A prova começou há duas semanas."
+        },
+        {
+          "id": "B",
+          "text": "A prova ocorrerá daqui a duas semanas."
+        },
+        {
+          "id": "C",
+          "text": "A prova começará às duas horas."
+        },
+        {
+          "id": "D",
+          "text": "A prova foi marcada à tarde."
+        },
+        {
+          "id": "E",
+          "text": "A prova ocorrerá à uma hora."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "`Daqui a` projeta o evento no futuro; os demais indicam passado, horário ou locução. Fonte: adaptação autoral de cobrança Cebraspe — FUB, 2025, sobre plural sem artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3616",
+      "revision": 1,
+      "prompt": "A escrita correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "A reunião ocorrerá entre às nove e às dez horas."
+        },
+        {
+          "id": "B",
+          "text": "A reunião ocorrerá entre à nove e à dez horas."
+        },
+        {
+          "id": "C",
+          "text": "A reunião ocorrerá entre as nove e as dez horas."
+        },
+        {
+          "id": "D",
+          "text": "A reunião ocorrerá entre as nove e às dez horas."
+        },
+        {
+          "id": "E",
+          "text": "A reunião ocorrerá entre às nove e as dez horas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A preposição `entre` governa os dois termos; `as` funciona como artigo. Fonte: adaptação autoral de cobrança Cebraspe — UDESC, 2026, sobre preposição antes de infinitivo; enunciado reescrito."
+    },
+    {
+      "id": "q3617",
+      "revision": 1,
+      "prompt": "Em “o sistema fecha à zero hora”, o acento grave",
+      "options": [
+        {
+          "id": "A",
+          "text": "é proibido porque zero é masculino."
+        },
+        {
+          "id": "B",
+          "text": "deve ser substituído por `há`."
+        },
+        {
+          "id": "C",
+          "text": "é facultativo em qualquer horário."
+        },
+        {
+          "id": "D",
+          "text": "é compatível com a indicação de horário determinado."
+        },
+        {
+          "id": "E",
+          "text": "marca distância física."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A expressão designa um ponto do relógio e admite artigo na locução temporal. Fonte: adaptação autoral de cobrança Cebraspe — CAESB, 2025, sobre locução e pronome pessoal; enunciado reescrito."
+    },
+    {
+      "id": "q3618",
+      "revision": 1,
+      "prompt": "Assinale a opção em que a mudança de grafia altera o valor temporal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "trabalhou à tarde / trabalhou à noite."
+        },
+        {
+          "id": "B",
+          "text": "das oito às dez / das nove às onze."
+        },
+        {
+          "id": "C",
+          "text": "foi à Bahia / foi à Roma modificada."
+        },
+        {
+          "id": "D",
+          "text": "à vista / à prazo."
+        },
+        {
+          "id": "E",
+          "text": "chegou há uma hora / chegou à uma hora."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "`Há uma hora` indica tempo decorrido; `à uma hora`, horário. Fonte: adaptação autoral de cobrança Cebraspe — Embrapa, 2025, sobre `a elas`; enunciado reescrito."
+    },
+    {
+      "id": "q3619",
+      "revision": 1,
+      "prompt": "Assinale a frase em que a locução está corretamente grafada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A equipe trabalhou à medida que os dados chegavam."
+        },
+        {
+          "id": "B",
+          "text": "A equipe trabalhou à medida em que os dados chegavam."
+        },
+        {
+          "id": "C",
+          "text": "A equipe trabalhou na medida que os dados chegavam."
+        },
+        {
+          "id": "D",
+          "text": "A equipe trabalhou a medida que os dados chegavam."
+        },
+        {
+          "id": "E",
+          "text": "A equipe trabalhou à medida de que os dados chegavam."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "`À medida que` é locução conjuntiva proporcional; os cruzamentos não pertencem ao padrão formal adotado. Fonte: questão autoral inspirada em item de 2026 sobre demonstrativo feminino elíptico; não reprodução literal."
+    },
+    {
+      "id": "q3620",
+      "revision": 1,
+      "prompt": "Em “A revisão é necessária na medida em que surgiram falhas”, a locução exprime",
+      "options": [
+        {
+          "id": "A",
+          "text": "proporção e deve ser escrita `à medida que` sem mudança de sentido."
+        },
+        {
+          "id": "B",
+          "text": "causa ou justificativa, sem acento grave em `na`."
+        },
+        {
+          "id": "C",
+          "text": "horário determinado."
+        },
+        {
+          "id": "D",
+          "text": "instrumento."
+        },
+        {
+          "id": "E",
+          "text": "distância."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "`Na medida em que` não é variante livre de `à medida que`. Fonte: adaptação autoral de cobrança FGV — TJ/RS, 2025, sobre usos contrastivos da crase; enunciado reescrito."
+    },
+    {
+      "id": "q3621",
+      "revision": 1,
+      "prompt": "Assinale a frase que contém elipse de `à maneira de`.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O atacante entregou a Pelé o troféu."
+        },
+        {
+          "id": "B",
+          "text": "O atacante viu a Pelé na arquibancada."
+        },
+        {
+          "id": "C",
+          "text": "O atacante marcou um gol à Pelé."
+        },
+        {
+          "id": "D",
+          "text": "O atacante começou à correr."
+        },
+        {
+          "id": "E",
+          "text": "O atacante referiu-se à ele."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O acento é explicado pelo sentido de estilo ou maneira, não pelo nome masculino em si. Fonte: adaptação autoral de questão AMEOSC, 2025, sobre crase diante de pronomes; enunciado reescrito."
+    },
+    {
+      "id": "q3622",
+      "revision": 1,
+      "prompt": "No contraste “bateu a máquina” / “escreveu à máquina”, o acento grave",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatório diante de qualquer substantivo feminino."
+        },
+        {
+          "id": "B",
+          "text": "indica horário."
+        },
+        {
+          "id": "C",
+          "text": "substitui o artigo indefinido."
+        },
+        {
+          "id": "D",
+          "text": "ajuda a distinguir o objeto direto da locução de meio."
+        },
+        {
+          "id": "E",
+          "text": "é sempre facultativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A primeira expressão tem objeto direto; a segunda, locução tradicional de meio. Fonte: adaptação autoral de questão Nosso Rumo — SEFAZ/SP, 2025, sobre casos proibidos; enunciado reescrito."
+    },
+    {
+      "id": "q3623",
+      "revision": 1,
+      "prompt": "Sobre `a distância` e `à distância`, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente `a distância` é possível em qualquer contexto."
+        },
+        {
+          "id": "B",
+          "text": "somente `à distância` é possível em qualquer contexto."
+        },
+        {
+          "id": "C",
+          "text": "a expressão nunca admite medida especificada."
+        },
+        {
+          "id": "D",
+          "text": "o acento depende do gênero da pessoa observada."
+        },
+        {
+          "id": "E",
+          "text": "há divergência editorial, e a fonte normativa da prova deve ser observada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Manuais divergem especialmente sem especificação; `à distância de dois metros` é amplamente ensinada. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre topônimos e determinação."
+    },
+    {
+      "id": "q3624",
+      "revision": 1,
+      "prompt": "Assinale a opção correta quanto aos topônimos.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Foi à Bahia e voltou da Bahia."
+        },
+        {
+          "id": "B",
+          "text": "Foi à Brasília e voltou de Brasília."
+        },
+        {
+          "id": "C",
+          "text": "Foi a Bahia e voltou da Bahia."
+        },
+        {
+          "id": "D",
+          "text": "Foi à Roma e voltou de Roma, sem qualquer modificador."
+        },
+        {
+          "id": "E",
+          "text": "Foi a Bahia e voltou da Bahia porque nomes próprios nunca têm artigo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O teste `volto da/de` revela o uso do artigo no contexto. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre horários e intervalos."
+    },
+    {
+      "id": "q3625",
+      "revision": 1,
+      "prompt": "A construção “referiu-se à Brasília de sua juventude” é possível porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo topônimo feminino exige artigo."
+        },
+        {
+          "id": "B",
+          "text": "o modificador determina o topônimo e favorece o artigo."
+        },
+        {
+          "id": "C",
+          "text": "`Brasília` sempre recebe artigo em qualquer contexto."
+        },
+        {
+          "id": "D",
+          "text": "a preposição foi eliminada."
+        },
+        {
+          "id": "E",
+          "text": "a expressão é horário determinado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Topônimos sem artigo podem recebê-lo quando modificados e individualizados. Fonte: questão autoral inspirada em cobranças de tribunais sobre reescrita, regência e crase."
+    },
+    {
+      "id": "q3626",
+      "revision": 1,
+      "prompt": "Em “os marinheiros chegaram a terra”, a ausência de acento segue a tradição porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "`terra` é palavra masculina."
+        },
+        {
+          "id": "B",
+          "text": "o verbo `chegar` não rege preposição."
+        },
+        {
+          "id": "C",
+          "text": "`terra` significa terra firme, em oposição a bordo, sem artigo."
+        },
+        {
+          "id": "D",
+          "text": "todo substantivo sem maiúscula rejeita artigo."
+        },
+        {
+          "id": "E",
+          "text": "a expressão indica instrumento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Com determinação, a estrutura muda: `à terra natal`. Fonte: questão autoral de integração baseada nas gramáticas de Bechara, Cunha e Cintra e Rocha Lima."
+    },
+    {
+      "id": "q3627",
+      "revision": 1,
+      "prompt": "Assinale a frase correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os servidores voltaram à casa, no sentido de próprio lar sem determinante."
+        },
+        {
+          "id": "B",
+          "text": "Os servidores voltaram a casa dos pais."
+        },
+        {
+          "id": "C",
+          "text": "Os servidores visitaram à casa dos pais."
+        },
+        {
+          "id": "D",
+          "text": "Os servidores voltaram à casa dos pais."
+        },
+        {
+          "id": "E",
+          "text": "Os servidores começaram à voltar a casa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "`Voltar a` mais `a casa dos pais` produz crase; `visitar` é direto e infinitivo não admite artigo. Fonte: adaptação autoral de cobrança Cebraspe — InoversaSul, 2025, sobre regência e artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3628",
+      "revision": 1,
+      "prompt": "A expressão corretamente grafada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "pagamento a vista e parcelamento à prazo."
+        },
+        {
+          "id": "B",
+          "text": "pagamento à vista e parcelamento à prazo."
+        },
+        {
+          "id": "C",
+          "text": "pagamento a vista e parcelamento a prazo, obrigatoriamente sem acentos."
+        },
+        {
+          "id": "D",
+          "text": "pagamento às vista e parcelamento aos prazo."
+        },
+        {
+          "id": "E",
+          "text": "pagamento à vista e parcelamento a prazo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "`À vista` é locução feminina tradicional; `a prazo` contém palavra masculina. Fonte: adaptação autoral de cobrança Cebraspe — SUSEP, 2025, sobre artigo indefinido; enunciado reescrito."
+    },
+    {
+      "id": "q3629",
+      "revision": 1,
+      "prompt": "Assinale a frase incorreta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O servidor se dispôs à colaborar com a apuração."
+        },
+        {
+          "id": "B",
+          "text": "O servidor se dispôs a colaborar com a apuração."
+        },
+        {
+          "id": "C",
+          "text": "O servidor se referiu à colaboração prevista."
+        },
+        {
+          "id": "D",
+          "text": "O servidor se referiu a uma colaboração eventual."
+        },
+        {
+          "id": "E",
+          "text": "O servidor começou a colaborar."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Não se usa acento antes de infinitivo. Fonte: adaptação autoral de item Cebraspe — TRF da 6ª Região, 2025, sobre `à qual`; enunciado reescrito."
+    },
+    {
+      "id": "q3630",
+      "revision": 1,
+      "prompt": "Em “foi até a sala / foi até à sala”, as duas formas podem ser admitidas porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda palavra feminina torna a crase facultativa."
+        },
+        {
+          "id": "B",
+          "text": "`até` pode aparecer sozinho ou acompanhado da preposição `a`."
+        },
+        {
+          "id": "C",
+          "text": "o artigo de `sala` é sempre omitido."
+        },
+        {
+          "id": "D",
+          "text": "a preposição `até` exige obrigatoriamente outra preposição."
+        },
+        {
+          "id": "E",
+          "text": "o acento é apenas decorativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A facultatividade é específica e não se estende automaticamente a outras preposições. Fonte: adaptação autoral de cobrança Cebraspe — TCE/RN, 2026, sobre complemento nominal com crase; enunciado reescrito."
+    },
+    {
+      "id": "q3631",
+      "revision": 1,
+      "prompt": "A construção inadequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "O atendimento funciona desde as oito horas."
+        },
+        {
+          "id": "B",
+          "text": "O atendimento ocorre das oito às dez horas."
+        },
+        {
+          "id": "C",
+          "text": "O atendimento funciona desde às oito horas."
+        },
+        {
+          "id": "D",
+          "text": "O atendimento ocorre de oito a dez horas."
+        },
+        {
+          "id": "E",
+          "text": "O atendimento termina às dez horas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "`Desde` já é preposição; `às` acumularia outra preposição. Fonte: adaptação autoral de cobrança Cebraspe — FUB, 2025, sobre plural sem artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3632",
+      "revision": 1,
+      "prompt": "Em “referiu-se a sua proposta / à sua proposta”, a alternância",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que toda crase é facultativa."
+        },
+        {
+          "id": "B",
+          "text": "é possível mesmo sem preposição no regente."
+        },
+        {
+          "id": "C",
+          "text": "só ocorre com possessivo masculino."
+        },
+        {
+          "id": "D",
+          "text": "pode decorrer do uso facultativo do artigo antes do possessivo feminino singular."
+        },
+        {
+          "id": "E",
+          "text": "é obrigatória em textos administrativos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A preposição permanece; varia o artigo. Fonte: adaptação autoral de cobrança Cebraspe — UDESC, 2026, sobre preposição antes de infinitivo; enunciado reescrito."
+    },
+    {
+      "id": "q3633",
+      "revision": 1,
+      "prompt": "Assinale a frase correta com expressão repetida.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os negociadores ficaram frente à frente."
+        },
+        {
+          "id": "B",
+          "text": "Os negociadores ficaram à frente à frente."
+        },
+        {
+          "id": "C",
+          "text": "Os negociadores ficaram às frentes."
+        },
+        {
+          "id": "D",
+          "text": "Os negociadores ficaram frente às frente."
+        },
+        {
+          "id": "E",
+          "text": "Os negociadores ficaram frente a frente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Expressões repetidas desse tipo são tradicionalmente grafadas sem acento. Fonte: adaptação autoral de cobrança Cebraspe — CAESB, 2025, sobre locução e pronome pessoal; enunciado reescrito."
+    },
+    {
+      "id": "q3634",
+      "revision": 1,
+      "prompt": "Na frase “A equipe analisou a proposta”, inserir acento em `a proposta` seria",
+      "options": [
+        {
+          "id": "A",
+          "text": "incorreto, porque `analisar` é transitivo direto e há apenas artigo."
+        },
+        {
+          "id": "B",
+          "text": "obrigatório, porque `proposta` é feminina."
+        },
+        {
+          "id": "C",
+          "text": "facultativo, porque o objeto está determinado."
+        },
+        {
+          "id": "D",
+          "text": "correto apenas no plural."
+        },
+        {
+          "id": "E",
+          "text": "necessário por causa do tempo verbal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sem preposição não há fusão. Fonte: adaptação autoral de cobrança Cebraspe — Embrapa, 2025, sobre `a elas`; enunciado reescrito."
+    },
+    {
+      "id": "q3635",
+      "revision": 1,
+      "prompt": "A frase “Prefiro a estabilidade à mudança constante” apresenta crase porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "`preferir` exige sempre `de`."
+        },
+        {
+          "id": "B",
+          "text": "a comparação com o primeiro termo direto introduz o segundo por `a`, que se funde com o artigo."
+        },
+        {
+          "id": "C",
+          "text": "a palavra `mudança` é feminina, independentemente da regência."
+        },
+        {
+          "id": "D",
+          "text": "a expressão é locução adverbial."
+        },
+        {
+          "id": "E",
+          "text": "o acento é facultativo diante de qualquer comparação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na regência padrão, prefere-se uma coisa a outra; com artigo, forma-se `à`. Fonte: questão autoral inspirada em item de 2026 sobre demonstrativo feminino elíptico; não reprodução literal."
+    },
+    {
+      "id": "q3636",
+      "revision": 1,
+      "prompt": "Em “submeteu o texto a revisão”, a correção para `à revisão` depende de",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas de `revisão` ser feminina."
+        },
+        {
+          "id": "B",
+          "text": "apenas de o verbo estar no pretérito."
+        },
+        {
+          "id": "C",
+          "text": "o verbo estar empregado com a regência `submeter algo a` e de `revisão` admitir artigo no contexto."
+        },
+        {
+          "id": "D",
+          "text": "a palavra seguinte estar no singular."
+        },
+        {
+          "id": "E",
+          "text": "a expressão indicar tempo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os dois filtros devem ser satisfeitos. Fonte: adaptação autoral de cobrança FGV — TJ/RS, 2025, sobre usos contrastivos da crase; enunciado reescrito."
+    },
+    {
+      "id": "q3637",
+      "revision": 1,
+      "prompt": "Assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A servidora ficou cara à cara com a diretora."
+        },
+        {
+          "id": "B",
+          "text": "A servidora ficou à cara a cara com a diretora."
+        },
+        {
+          "id": "C",
+          "text": "A servidora ficou às caras."
+        },
+        {
+          "id": "D",
+          "text": "A servidora ficou cara a cara com a diretora."
+        },
+        {
+          "id": "E",
+          "text": "A servidora ficou cara às cara."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A expressão repetida é grafada sem acento. Fonte: adaptação autoral de questão AMEOSC, 2025, sobre crase diante de pronomes; enunciado reescrito."
+    },
+    {
+      "id": "q3638",
+      "revision": 1,
+      "prompt": "Em “o relatório está a disposição”, a grafia padrão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o relatório está a disposição, porque `disposição` é objeto direto."
+        },
+        {
+          "id": "B",
+          "text": "o relatório está há disposição."
+        },
+        {
+          "id": "C",
+          "text": "o relatório está as disposição."
+        },
+        {
+          "id": "D",
+          "text": "o relatório está à dispor."
+        },
+        {
+          "id": "E",
+          "text": "o relatório está à disposição."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "`À disposição` é locução adverbial/prepositiva consagrada. Fonte: adaptação autoral de questão Nosso Rumo — SEFAZ/SP, 2025, sobre casos proibidos; enunciado reescrito."
+    },
+    {
+      "id": "q3639",
+      "revision": 1,
+      "prompt": "A reescrita que preserva a correção é",
+      "options": [
+        {
+          "id": "A",
+          "text": "O relatório se refere à norma / O relatório menciona a norma."
+        },
+        {
+          "id": "B",
+          "text": "O relatório se refere a norma / O relatório menciona à norma."
+        },
+        {
+          "id": "C",
+          "text": "O relatório se refere à norma / O relatório menciona à norma."
+        },
+        {
+          "id": "D",
+          "text": "O relatório se refere a à norma / O relatório menciona a norma."
+        },
+        {
+          "id": "E",
+          "text": "O relatório se refere à uma norma / O relatório menciona à uma norma."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "`Referir-se` rege `a`; `mencionar` é direto. A troca do verbo altera a presença da preposição. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre topônimos e determinação."
+    },
+    {
+      "id": "q3640",
+      "revision": 1,
+      "prompt": "Ao substituir “a proposta a que aludiu” por uma construção com `a qual`, deve-se escrever",
+      "options": [
+        {
+          "id": "A",
+          "text": "a proposta a qual aludiu."
+        },
+        {
+          "id": "B",
+          "text": "a proposta à qual aludiu."
+        },
+        {
+          "id": "C",
+          "text": "a proposta à que aludiu."
+        },
+        {
+          "id": "D",
+          "text": "a proposta a à qual aludiu."
+        },
+        {
+          "id": "E",
+          "text": "a proposta às qual aludiu."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A preposição se funde com o artigo do relativo. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre horários e intervalos."
+    },
+    {
+      "id": "q3641",
+      "revision": 1,
+      "prompt": "Em “teve acesso às outras formas previstas”, retirar o acento pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser sempre impossível porque `outras` exige artigo."
+        },
+        {
+          "id": "B",
+          "text": "ser sempre facultativo e semanticamente neutro."
+        },
+        {
+          "id": "C",
+          "text": "manter a gramaticalidade em outro contexto, mas alterar a determinação do conjunto."
+        },
+        {
+          "id": "D",
+          "text": "transformar `outras` em verbo."
+        },
+        {
+          "id": "E",
+          "text": "eliminar a preposição exigida por `acesso`."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "`A outras formas` contém a preposição, mas não o artigo definido plural. Fonte: questão autoral inspirada em cobranças de tribunais sobre reescrita, regência e crase."
+    },
+    {
+      "id": "q3642",
+      "revision": 1,
+      "prompt": "A substituição de “limitou-se à implementação” por “limitou-se a implementar”",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantém obrigatoriamente `à implementar`."
+        },
+        {
+          "id": "B",
+          "text": "exige `há implementar`."
+        },
+        {
+          "id": "C",
+          "text": "é impossível, porque o verbo muda de regência."
+        },
+        {
+          "id": "D",
+          "text": "retira corretamente o acento, porque o novo termo é infinitivo."
+        },
+        {
+          "id": "E",
+          "text": "torna a preposição facultativa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regência permanece; desaparece o artigo. Fonte: questão autoral de integração baseada nas gramáticas de Bechara, Cunha e Cintra e Rocha Lima."
+    },
+    {
+      "id": "q3643",
+      "revision": 1,
+      "prompt": "Assinale a reescrita correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O documento foi enviado a unidade responsável / à esta unidade."
+        },
+        {
+          "id": "B",
+          "text": "O documento foi enviado à unidade responsável / à esta unidade."
+        },
+        {
+          "id": "C",
+          "text": "O documento foi enviado a à unidade responsável / a esta unidade."
+        },
+        {
+          "id": "D",
+          "text": "O documento foi enviado às unidade responsável / esta unidade."
+        },
+        {
+          "id": "E",
+          "text": "O documento foi enviado à unidade responsável / O documento foi enviado a esta unidade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "`Unidade` recebe artigo; `esta` não. Fonte: adaptação autoral de cobrança Cebraspe — InoversaSul, 2025, sobre regência e artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3644",
+      "revision": 1,
+      "prompt": "A troca de “à Bahia” por “a Brasília” pode ser correta porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "os topônimos podem diferir quanto ao uso do artigo."
+        },
+        {
+          "id": "B",
+          "text": "a regência do verbo deixa de existir."
+        },
+        {
+          "id": "C",
+          "text": "nomes femininos nunca recebem artigo."
+        },
+        {
+          "id": "D",
+          "text": "todo nome de cidade exige crase."
+        },
+        {
+          "id": "E",
+          "text": "a preposição se transforma em advérbio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O teste `volto da/de` revela a diferença de artigo. Fonte: adaptação autoral de cobrança Cebraspe — SUSEP, 2025, sobre artigo indefinido; enunciado reescrito."
+    },
+    {
+      "id": "q3645",
+      "revision": 1,
+      "prompt": "A reescrita “chegou à uma hora” → “chegou há uma hora”",
+      "options": [
+        {
+          "id": "A",
+          "text": "preserva integralmente o mesmo sentido."
+        },
+        {
+          "id": "B",
+          "text": "muda de horário determinado para tempo decorrido."
+        },
+        {
+          "id": "C",
+          "text": "é apenas alteração ortográfica."
+        },
+        {
+          "id": "D",
+          "text": "transforma a frase em distância física."
+        },
+        {
+          "id": "E",
+          "text": "é impossível porque `há` não indica tempo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As formas são gramaticais, mas expressam relações temporais distintas. Fonte: adaptação autoral de item Cebraspe — TRF da 6ª Região, 2025, sobre `à qual`; enunciado reescrito."
+    },
+    {
+      "id": "q3646",
+      "revision": 1,
+      "prompt": "Em “a situação é semelhante à que ocorreu”, substituir `à que` por `a que`",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre obrigatório, pois `que` nunca aceita acento."
+        },
+        {
+          "id": "B",
+          "text": "preserva o mesmo sentido em qualquer contexto."
+        },
+        {
+          "id": "C",
+          "text": "tende a romper a estrutura, porque se perde o demonstrativo equivalente a `aquela`."
+        },
+        {
+          "id": "D",
+          "text": "transforma `que` em artigo."
+        },
+        {
+          "id": "E",
+          "text": "é exigido porque `semelhante` rege `de`."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O `à` representa preposição mais demonstrativo elíptico. Fonte: adaptação autoral de cobrança Cebraspe — TCE/RN, 2026, sobre complemento nominal com crase; enunciado reescrito."
+    },
+    {
+      "id": "q3647",
+      "revision": 1,
+      "prompt": "Assinale a transformação correta de determinação.",
+      "options": [
+        {
+          "id": "A",
+          "text": "referiu-se à candidatas / referiu-se a candidatas aprovadas, com o mesmo sentido."
+        },
+        {
+          "id": "B",
+          "text": "referiu-se às candidatas / referiu-se à candidatas."
+        },
+        {
+          "id": "C",
+          "text": "referiu-se a às candidatas / referiu-se à candidatas."
+        },
+        {
+          "id": "D",
+          "text": "referiu-se a candidatas / referiu-se às candidatas aprovadas."
+        },
+        {
+          "id": "E",
+          "text": "referiu-se há candidatas / referiu-se as candidatas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo definido plural aparece apenas no segundo sintagma. Fonte: adaptação autoral de cobrança Cebraspe — FUB, 2025, sobre plural sem artigo; enunciado reescrito."
+    },
+    {
+      "id": "q3648",
+      "revision": 1,
+      "prompt": "A substituição de “à medida que” por “na medida em que”",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre neutra e preserva exatamente o sentido."
+        },
+        {
+          "id": "B",
+          "text": "é obrigatória em qualquer texto formal."
+        },
+        {
+          "id": "C",
+          "text": "elimina a conjunção e cria um substantivo."
+        },
+        {
+          "id": "D",
+          "text": "produz somente diferença de pontuação."
+        },
+        {
+          "id": "E",
+          "text": "pode alterar a relação de proporcionalidade para causa ou justificativa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As locuções têm valores semânticos distintos. Fonte: adaptação autoral de cobrança Cebraspe — UDESC, 2026, sobre preposição antes de infinitivo; enunciado reescrito."
+    },
+    {
+      "id": "q3649",
+      "revision": 1,
+      "prompt": "Considere: I. O atendimento começou às oito horas. II. O atendimento começou a funcionar. III. O atendimento começou a manhã com atraso. Em quais ocorrências há acento grave corretamente empregado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente em I."
+        },
+        {
+          "id": "B",
+          "text": "Em I e II."
+        },
+        {
+          "id": "C",
+          "text": "Em I e III."
+        },
+        {
+          "id": "D",
+          "text": "Em II e III."
+        },
+        {
+          "id": "E",
+          "text": "Em I, II e III."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "I indica horário; II traz infinitivo; em III, `a manhã` é objeto direto com artigo. Fonte: adaptação autoral de cobrança Cebraspe — CAESB, 2025, sobre locução e pronome pessoal; enunciado reescrito."
+    },
+    {
+      "id": "q3650",
+      "revision": 1,
+      "prompt": "Considere: I. referiu-se àquela norma; II. referiu-se a esta norma; III. referiu-se à mesma norma; IV. referiu-se à qualquer norma. Estão corretas",
+      "options": [
+        {
+          "id": "A",
+          "text": "I e IV apenas."
+        },
+        {
+          "id": "B",
+          "text": "I, II e III apenas."
+        },
+        {
+          "id": "C",
+          "text": "II e IV apenas."
+        },
+        {
+          "id": "D",
+          "text": "III e IV apenas."
+        },
+        {
+          "id": "E",
+          "text": "I, II, III e IV."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "`Aquela` contrai, `esta` não recebe artigo, `a mesma` admite artigo e `qualquer` não. Fonte: adaptação autoral de cobrança Cebraspe — Embrapa, 2025, sobre `a elas`; enunciado reescrito."
+    },
+    {
+      "id": "q3651",
+      "revision": 1,
+      "prompt": "Em qual alternativa a retirada do acento grave mantém a correção, mas pode alterar o sentido referencial?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A norma à qual me referi → a norma a qual me referi."
+        },
+        {
+          "id": "B",
+          "text": "Chegou à uma hora → chegou a uma hora, mantendo o mesmo horário necessariamente."
+        },
+        {
+          "id": "C",
+          "text": "O sistema oferece acesso às outras formas previstas → acesso a outras formas."
+        },
+        {
+          "id": "D",
+          "text": "Obedeceu à norma → obedeceu a norma."
+        },
+        {
+          "id": "E",
+          "text": "Referiu-se àquilo → referiu-se aquilo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "No primeiro caso, a preposição permanece e o artigo pode ser omitido em outra leitura; nos demais, perde-se elemento exigido ou muda-se a relação. Fonte: questão autoral inspirada em item de 2026 sobre demonstrativo feminino elíptico; não reprodução literal."
+    },
+    {
+      "id": "q3652",
+      "revision": 1,
+      "prompt": "Assinale a alternativa em que o acento grave decorre de fenômeno diferente da fusão com artigo definido feminino.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Obedeceu à norma interna."
+        },
+        {
+          "id": "B",
+          "text": "Entregou o ofício à diretora."
+        },
+        {
+          "id": "C",
+          "text": "Mostrou-se favorável à proposta."
+        },
+        {
+          "id": "D",
+          "text": "Referiu-se àquilo que constava do processo."
+        },
+        {
+          "id": "E",
+          "text": "Compareceu às reuniões previstas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Em `àquilo`, a preposição se incorpora ao início do demonstrativo, não a artigo feminino. Fonte: adaptação autoral de cobrança FGV — TJ/RS, 2025, sobre usos contrastivos da crase; enunciado reescrito."
+    },
+    {
+      "id": "q3653",
+      "revision": 1,
+      "prompt": "A frase “O plano se destina à mulheres em situação de risco” deve ser corrigida para",
+      "options": [
+        {
+          "id": "A",
+          "text": "O plano se destina às mulheres em situação de risco, obrigatoriamente, mesmo sem contexto definido."
+        },
+        {
+          "id": "B",
+          "text": "O plano se destina à mulher em situações, sem mudar o número."
+        },
+        {
+          "id": "C",
+          "text": "O plano se destina há mulheres em situação de risco."
+        },
+        {
+          "id": "D",
+          "text": "O plano se destina as mulheres, sem preposição."
+        },
+        {
+          "id": "E",
+          "text": "O plano se destina a mulheres em situação de risco."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O plural genérico sem artigo recebe apenas a preposição. Fonte: adaptação autoral de questão AMEOSC, 2025, sobre crase diante de pronomes; enunciado reescrito."
+    },
+    {
+      "id": "q3654",
+      "revision": 1,
+      "prompt": "Em “A decisão foi comunicada à própria interessada”, o acento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correto, porque o sintagma `a própria interessada` admite artigo definido e é regido por `a`."
+        },
+        {
+          "id": "B",
+          "text": "proibido diante de `própria` em qualquer uso."
+        },
+        {
+          "id": "C",
+          "text": "facultativo por ser pronome pessoal."
+        },
+        {
+          "id": "D",
+          "text": "indevido porque `comunicar` é sempre direto."
+        },
+        {
+          "id": "E",
+          "text": "mera marca de ênfase sem função sintática."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A estrutura é `comunicar algo a alguém`; o termo regido contém artigo. Fonte: adaptação autoral de questão Nosso Rumo — SEFAZ/SP, 2025, sobre casos proibidos; enunciado reescrito."
+    },
+    {
+      "id": "q3655",
+      "revision": 1,
+      "prompt": "Qual análise está correta para “Foi até à sala e permaneceu lá desde as oito horas”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ambos os segmentos exigem acento."
+        },
+        {
+          "id": "B",
+          "text": "`Até à sala` é variante admitida; `desde as oito` não recebe acento porque `desde` já é preposição."
+        },
+        {
+          "id": "C",
+          "text": "Nenhum pode conter artigo."
+        },
+        {
+          "id": "D",
+          "text": "`Até à` é sempre erro e `desde às` seria obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "Apenas `desde às oito` seria correto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A facultatividade após `até` não se estende a `desde`. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre topônimos e determinação."
+    },
+    {
+      "id": "q3656",
+      "revision": 1,
+      "prompt": "Assinale a frase em que o acento grave marca locução, não complemento selecionado por regência nominal ou verbal.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O relatório se refere à resolução."
+        },
+        {
+          "id": "B",
+          "text": "A decisão foi favorável à servidora."
+        },
+        {
+          "id": "C",
+          "text": "Os autos ficaram à disposição da comissão."
+        },
+        {
+          "id": "D",
+          "text": "Obedeceu às normas internas."
+        },
+        {
+          "id": "E",
+          "text": "Aludiu à proposta anterior."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "`À disposição` é locução; nos demais, a fusão é determinada pela regência do termo anterior. Fonte: questão autoral inspirada em cobranças Cebraspe recorrentes sobre horários e intervalos."
+    },
+    {
+      "id": "q3657",
+      "revision": 1,
+      "prompt": "Em “A equipe trabalhou à noite e apresentou o relatório a uma hora qualquer do dia”, a análise correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "os dois segmentos exigem acento."
+        },
+        {
+          "id": "B",
+          "text": "os dois segmentos rejeitam acento."
+        },
+        {
+          "id": "C",
+          "text": "apenas `à uma hora qualquer` deve ter acento."
+        },
+        {
+          "id": "D",
+          "text": "`à noite` é locução; `a uma hora qualquer` não indica horário determinado com artigo definido."
+        },
+        {
+          "id": "E",
+          "text": "`à noite` contém objeto direto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A determinação e o valor temporal diferenciam as construções. Fonte: questão autoral inspirada em cobranças de tribunais sobre reescrita, regência e crase."
+    },
+    {
+      "id": "q3658",
+      "revision": 1,
+      "prompt": "Considere a reescrita: “A comissão se referiu à regra idêntica à prevista no edital.” O primeiro e o segundo `à` resultam, respectivamente, de",
+      "options": [
+        {
+          "id": "A",
+          "text": "duas locuções adverbiais."
+        },
+        {
+          "id": "B",
+          "text": "dois artigos sem preposição."
+        },
+        {
+          "id": "C",
+          "text": "preposição + infinitivo; artigo + relativo."
+        },
+        {
+          "id": "D",
+          "text": "demonstrativo + artigo; preposição + pronome pessoal."
+        },
+        {
+          "id": "E",
+          "text": "preposição + artigo de `regra`; preposição + demonstrativo elíptico equivalente a `aquela regra`."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A primeira fusão introduz o nome expresso; a segunda recupera um núcleo feminino omitido. Fonte: questão autoral de integração baseada nas gramáticas de Bechara, Cunha e Cintra e Rocha Lima."
+    }
   ]
 }
