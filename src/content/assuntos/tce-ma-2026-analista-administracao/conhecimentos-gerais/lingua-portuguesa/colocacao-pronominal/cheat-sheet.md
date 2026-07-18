@@ -1,191 +1,262 @@
-# Colocação pronominal
+---
+schemaVersion: 1
+title: Colocação pronominal — folha de revisão
+description: Próclise, ênclise, mesóclise, locuções, cadeias verbais, funções de se, grafia e reescrita.
+order: 15
+storageId: colocacao-pronominal
+---
 
-## Formas átonas
+# Colocação pronominal — revisão rápida
 
-`me`, `te`, `se`, `o`, `a`, `os`, `as`, `lhe`, `lhes`, `nos`, `vos`.
+## 1. Primeiro filtro
 
-- `o/a/os/as`: em regra, objeto direto.
-- `lhe/lhes`: em regra, objeto indireto.
-- Escolha do pronome = regência/função; posição = colocação.
-- `mim`, `ti`, `ele`, `comigo`, `conosco` etc. são tônicos: não levam hífen com o verbo.
+1. O termo é pronome átono?
+2. Qual função exerce?
+3. Qual é a oração?
+4. Há verbo simples ou cadeia verbal?
+5. Existe atrator inequívoco na mesma oração?
+6. O verbo está no futuro simples?
+7. O principal é infinitivo, gerúndio ou particípio?
+8. A reescrita preserva referente e sentido?
 
-## Três posições
+## 2. Formas
 
-| Posição | Estrutura | Exemplo |
-|---|---|---|
-| Próclise | pronome + verbo | `Não me avisaram.` |
-| Ênclise | verbo-pronome | `Avisaram-me.` |
-| Mesóclise | verbo-pronome-futuro | `Avisar-me-ão.` |
-
-- Próclise: sem hífen.
-- Ênclise: um hífen.
-- Mesóclise: dois hífens.
-
-## Decisão rápida
-
-1. Delimite a oração.
-2. Procure atrator.
-3. Com atrator: próclise.
-4. Sem atrator + futuro simples: mesóclise.
-5. Sem atrator + demais formas: ênclise, ressalvadas formas variáveis.
-6. Em locução, veja se o principal é infinitivo, gerúndio ou particípio.
-
-## Atratores de próclise
-
-| Fator | Exemplo |
+| Posição | Exemplo |
 |---|---|
-| Negativa | `Nunca lhe negaram acesso.` |
-| Relativo | `O ato que se publicou...` |
-| Indefinido | `Alguém me avisou.` |
-| Interrogativo | `Quem lhe contou?` |
-| Exclamativo | `Como nos surpreendeu!` |
-| Subordinativa | `Quando se encerrar...` |
-| Advérbio sem pausa | `Aqui se trabalha.` |
-| Optativa | `Deus o proteja.` |
-| `em + gerúndio` | `Em se tratando de...` |
-| Alternativa | `Ou se aprova, ou se rejeita.` |
+| próclise | `Não me avisaram.` |
+| ênclise | `Avisaram-me.` |
+| mesóclise | `Avisar-me-ão.` |
 
-O atrator deve atuar na mesma oração.
+## 3. Força dos fatores
 
-## Advérbio e pausa
+| Situação | Orientação |
+|---|---|
+| negativa | próclise |
+| relativo | próclise |
+| subordinativa | próclise |
+| interrogativo/exclamativo | próclise |
+| `em + gerúndio` | próclise |
+| advérbio sem pausa | próclise favorecida ou exigida conforme a orientação |
+| advérbio com pausa | reanalisar |
+| indefinido | contexto |
+| sujeito anteposto | não é atrator absoluto |
+| coordenativa | não atrai automaticamente |
+| termo de outra oração | não interfere |
 
-- Sem pausa: `Desde cedo se preparava.`
-- Com pausa: `Desde cedo, preparava-se.`
-- Não aplique mecanicamente `vírgula = ênclise`; analise escopo e oração.
+## 4. Próclise inequívoca
 
-## Início de oração
+- `Não me informaram.`
+- `Quem lhe comunicou?`
+- `O parecer que me enviaram...`
+- `Quando se manifestarem...`
+- `Para que se evitem dúvidas...`
+- `Em se tratando de urgência...`
+- `Que Deus o proteja.`
 
-Resposta conservadora:
+## 5. Falsos atratores
 
-- `Avisaram-me ontem.`
-- Não: `Me avisaram ontem.`
+- `Para tanto, faz-se necessária a revisão.`
+- `Hoje, segundo a comissão, divulgar-se-á o resultado.`
+- `O parecer, contudo, foi-lhe enviado.`
 
-A próclise inicial é frequente no português brasileiro, mas não é a escolha mais segura em cobrança tradicional.
+Retire o inciso e reconstrua a frase-base.
 
-## Futuro simples
+## 6. Ênclise
 
-- Futuro do presente: `Comunicar-lhe-ei.`
-- Futuro do pretérito: `Comunicar-lhe-ia.`
-- Com atrator: `Não lhe comunicarei.`
-- Não: `Não comunicar-lhe-ei.`
-- Não, na tradição: `Comunicarei-lhe.`
-- Mesóclise não se aplica a locução verbal.
+### Padrão conservador
 
-## Imperativo
+- início de oração: `Avisaram-me.`
+- imperativo afirmativo: `Envie-me o documento.`
+- gerúndio sem atrator: `Examinando-o...`
+- verbo simples sem atrator: `Publicou-se o edital.`
 
-- Afirmativo: `Envie-me o documento.`
-- Negativo: `Não me envie o documento.`
+### Não use
 
-## Formas nominais
+- `Não avisaram-me.`
+- `Quem informou-lhe?`
+- `Quando entregaram-me...`
 
-### Infinitivo
+## 7. Imperativo
 
-- `É preciso informá-lo.`
-- `Para não o prejudicar...`
-- `Para nos prepararmos...`
+| Estrutura | Forma |
+|---|---|
+| afirmativo sem atrator | `Informe-me.` |
+| negativo | `Não me informe.` |
+| afirmativo com atrator | siga o fator de próclise |
 
-### Gerúndio
+## 8. Futuro simples
 
-- `Continuou examinando-o.`
-- `Não o encontrando...`
-- `Em se tratando de...`
+| Contexto | Forma |
+|---|---|
+| sem atrator, tradição | `Comunicar-lhe-ei.` |
+| com negativa | `Não lhe comunicarei.` |
+| com relativo | `O fato que lhe comunicarei...` |
+| sujeito expresso | `Eu lhe comunicarei.` em descrições que admitem a próclise |
+| ênclise simples | `Comunicarei-lhe` é rejeitada na orientação conservadora |
 
-### Particípio
+Mesóclise é correta, mas marcada estilisticamente.
 
-- Isolado: forma tônica — `Dada a mim a oportunidade...`
-- Nunca use átono depois do particípio: não `tinha informado-o`.
+## 9. Grafia com `o/a/os/as`
 
-## Locução com infinitivo ou gerúndio
+### Depois de `r`, `s`, `z`
 
-Sem atrator:
-
-- `Deve-se informar.`
-- `Deve informar-se.`
-- `Ia-se preparando.`
-- `Ia preparando-se.`
-
-Com atrator:
-
-- `Não se deve informar.`
-- `Não deve informar-se.`
-- Não: `Não deve-se informar.`
-
-`Deve se informar` é corrente no português brasileiro; em item prescritivo conservador, prefira as formas acima.
-
-## Locução com particípio
-
-- Sem atrator: `Tinha-o informado.`
-- Com atrator: `Não o tinha informado.`
-- Nunca: `Tinha informado-o.`
-
-## `o/a/os/as` na ênclise
-
-### Depois de `r/s/z`
-
-Perde-se a consoante; use `lo/la/los/las`:
-
-- `amar + o` → `amá-lo`;
-- `fazer + a` → `fazê-la`;
-- `fiz + o` → `fi-lo`;
-- `pôs + a` → `pô-la`.
+- `amar + o` → `amá-lo`
+- `fazer + a` → `fazê-la`
+- `fiz + o` → `fi-lo`
+- `pôs + a` → `pô-la`
 
 ### Depois de som nasal
 
-Use `no/na/nos/nas`:
+- `fizeram + o` → `fizeram-no`
+- `dão + a` → `dão-na`
+- `põem + os` → `põem-nos`
 
-- `fizeram + o` → `fizeram-no`;
-- `dão + a` → `dão-na`;
-- `põem + os` → `põem-nos`.
+### Outros
 
-## Coordenação e sujeito
+- `entregou-me`
+- `referiu-se`
+- `comunicou-lhe`
+- `informou-nos`
 
-- `e`, `mas`, `pois` coordenativos não atraem por si: `analisou e encaminhou-o`.
-- Sujeito expresso não deve ser tratado como atrator absoluto.
-- Compare: `A comissão se manifestou` / `A comissão manifestou-se`.
-- Com pronome reto e futuro, manuais registram: `Eu lhe comunicarei.`
+## 10. Formas nominais
 
-## Combinações
+### Infinitivo
 
-- `lho/lha`, `mo/ma`, `to/ta`, `no-lo`, `vo-la` são registradas, mas raras no português brasileiro.
-- Não forme `lhe-o`.
-- Em texto administrativo, explicite: `Entregou-lhe o documento.`
+- sem atrator: `informá-lo`
+- com negativa: `não o informar`
+- variação: `para o ajudar` / `para ajudá-lo`
 
-## Reescrita
+### Gerúndio
 
-Ao mudar a frase, confira novamente:
+- sem atrator: `examinando-o`
+- com negativa: `não o encontrando`
+- com `em`: `em se tratando`
 
-1. oração e atrator;
-2. tempo e modo verbal;
-3. verbo simples ou locução;
-4. forma nominal do principal;
-5. função e referente do pronome;
-6. hífens e alterações gráficas;
-7. manutenção do sentido.
+### Particípio
 
-Exemplo:
+Nunca depois do particípio:
 
-- `Não lhe comunicarei.`
-- sem negativa: `Comunicar-lhe-ei.`
+- `Tinha-o informado.`
+- `Não o tinha informado.`
+- não `tinha informado-o`.
 
-## Pegadinhas
+## 11. Locução com infinitivo ou gerúndio
 
-- `não informaram-me` ❌ → `não me informaram` ✅
-- `em tratando-se` ❌ → `em se tratando` ✅
-- `não comunicar-lhe-ei` ❌ → `não lhe comunicarei` ✅
-- `comunicarei-lhe` ❌ na tradição → `comunicar-lhe-ei` ✅
-- `não deve-se informar` ❌ → `não se deve informar` ✅
-- `tinha informado-o` ❌ → `tinha-o informado` ✅
-- `fazer-o` ❌ → `fazê-lo` ✅
-- `fizeram-o` ❌ → `fizeram-no` ✅
+| Forma | Exemplo |
+|---|---|
+| junto ao auxiliar | `Deve-se informar.` |
+| junto ao principal | `Deve informar-se.` |
+| antes do auxiliar com atrator | `Não se deve informar.` |
+| junto ao principal com atrator | `Não deve informar-se.` |
+| entre os verbos | `Pode se manifestar.` — produtiva no português brasileiro |
+| erro | `Não deve-se manifestar.` |
 
-## Checklist final
+## 12. Cadeias com três verbos
 
-- [ ] O pronome é átono?
-- [ ] O atrator pertence à mesma oração?
-- [ ] Há pausa real depois do advérbio?
-- [ ] O verbo está em futuro simples?
-- [ ] A frase é imperativa afirmativa ou negativa?
-- [ ] Em locução, o principal é infinitivo, gerúndio ou particípio?
-- [ ] A posição escolhida é normativa para o comando da questão?
-- [ ] `o/a` virou `lo/la` ou `no/na` quando necessário?
-- [ ] Função, referente e sentido foram preservados?
+Arquitetura:
+
+```text
+modal → auxiliar de tempo composto → particípio
+```
+
+- `pode ter-se manifestado`
+- `pode ter se manifestado`
+- `não se pode ter manifestado`
+- `não pode ter-se manifestado`
+- `deveria ter-lhe comunicado`
+- não `ter manifestado-se`
+
+## 13. Funções de `se`
+
+| Função | Exemplo |
+|---|---|
+| reflexivo | `Ele se feriu.` |
+| recíproco | `Eles se cumprimentaram.` |
+| apassivador | `Vendem-se livros.` |
+| indeterminador | `Precisa-se de servidores.` |
+| parte integrante | `Ele se arrependeu.` |
+| lexical | `Referiu-se ao processo.` |
+
+Posição não substitui análise de função e concordância.
+
+## 14. Escolha do pronome
+
+| Estrutura | Pronome |
+|---|---|
+| informou o candidato | `informou-o` |
+| informou o resultado ao candidato | `informou-lhe o resultado` |
+| proporcionou satisfação à servidora | `proporcionou-lhe satisfação` |
+| encontrou a servidora | `encontrou-a` |
+| referiu-se ao processo | `referiu-se a ele` |
+
+`Lhe` não substitui qualquer objeto humano.
+
+## 15. Sujeito, advérbio e pausa
+
+- sujeito expresso: próclise ou ênclise podem coexistir em diferentes descrições;
+- advérbio sem pausa: favorece próclise;
+- advérbio com pausa: reanalise;
+- negativa e relativo: fatores fortes;
+- vírgula não é interruptor automático.
+
+## 16. Coordenação
+
+Conjunções coordenativas não atraem por si:
+
+- `Analisou o processo e encaminhou-o.`
+- `Leu o parecer, mas recusou-se a assiná-lo.`
+
+Com outro atrator:
+
+- `Não o analisou nem o encaminhou.`
+
+## 17. Combinações
+
+- `mo`, `to`, `lho`
+- `no-lo`, `vo-la`
+
+São formas tradicionais e marcadas. Em texto administrativo, prefira clareza:
+
+- `Entregou-lhe o documento.`
+- `Entregou o documento a ela.`
+
+## 18. Matriz de reescrita
+
+| Mudança | Refaça |
+|---|---|
+| retirar negativa | posição |
+| inserir futuro | mesóclise/próclise |
+| verbo simples → locução | posições possíveis |
+| infinitivo → particípio | proibição pós-particípio |
+| `o` ↔ `lhe` | regência e função |
+| inserir vírgula | escopo e pausa |
+| trocar oração | alcance do atrator |
+| mover `se` | função e concordância |
+
+## 19. Pegadinhas
+
+| Afirmação | Julgamento |
+|---|---|
+| toda palavra anterior atrai | errado |
+| todo advérbio atrai, mesmo com pausa | errado |
+| sujeito sempre atrai | errado |
+| coordenativa sempre exige ênclise | errado |
+| colocação entre verbos é sempre incorreta | errado |
+| clítico pode ficar depois do particípio | errado |
+| mesóclise é sempre a melhor escolha | errado |
+| mover `se` preserva sua função | errado |
+| `lhe` substitui qualquer pessoa | errado |
+| reescrita correta preserva o referente | não necessariamente |
+
+## 20. Checklist final
+
+1. pronome átono?
+2. função?
+3. mesma oração?
+4. fator forte?
+5. futuro simples?
+6. forma nominal?
+7. cadeia verbal?
+8. grafia?
+9. concordância?
+10. referente e sentido?

@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Colocação pronominal
-description: Próclise, ênclise e mesóclise dos pronomes átonos, fatores de atração, formas nominais, locuções verbais, alterações gráficas e reescrita.
+description: Colocação dos pronomes átonos com atratores, locuções, cadeias verbais, funções de se, regência, grafia e reescritas de concurso.
 order: 15
 storageId: colocacao-pronominal
 ---
@@ -32,6 +32,33 @@ Em questões prescritivas, deve-se distinguir:
 Formas como `Me avisaram` e `A comissão deve se manifestar` são frequentes no português brasileiro. Isso não torna automaticamente erradas as formas conservadoras `Avisaram-me` e `A comissão deve manifestar-se`, nem transforma o uso corrente em resposta segura quando a questão pede conformidade com a tradição normativa.
 
 ---
+
+
+<!-- REVISAO-COLOCACAO-2026 -->
+
+### 1.2 Hierarquia de decisão
+
+Em questões avançadas, a lista de palavras atrativas não basta. Use esta ordem:
+
+1. identifique o **registro** exigido pelo comando: tradição normativa, texto formal contemporâneo ou descrição do português brasileiro;
+2. confirme que a forma é pronome oblíquo átono;
+3. delimite a oração e a cadeia verbal;
+4. procure fator de próclise inequívoco **na mesma oração**;
+5. diferencie atração obrigatória de mera preferência contextual;
+6. verifique se há futuro simples, forma nominal ou locução;
+7. preserve função sintática, referente, concordância e sentido.
+
+A mesma sequência superficial pode receber análises diferentes:
+
+- `Não se pode divulgar o dado.` — negativa e próclise ao auxiliar;
+- `Não pode divulgá-lo.` — negativa e ênclise ao infinitivo;
+- `Pode-se divulgar o dado.` — ênclise ao auxiliar, sem atrator;
+- `Pode divulgar-se o dado.` — ênclise ao infinitivo;
+- `Pode se divulgar o dado.` — colocação entre os verbos, produtiva no português brasileiro e relevante em questões de variação;
+- `Não pode-se divulgar o dado.` — inadequada, porque a negativa não admite ênclise imediata ao auxiliar;
+- `Tinha divulgado-se o dado.` — inadequada: o pronome não fica depois do particípio.
+
+> Correção, frequência e adequação estilística são critérios distintos.
 
 ## 2. Quais são os pronomes átonos
 
@@ -99,6 +126,25 @@ Há fator de próclise?
 Esse roteiro é ponto de partida, não substituto da análise. Locuções verbais e infinitivos admitem mais de uma posição normativa.
 
 ---
+
+
+### 3.2 Força dos fatores de colocação
+
+| Grupo | Exemplos | Orientação |
+|---|---|---|
+| fatores fortes | negativa, relativo, subordinativa, interrogativo, `em + gerúndio` | próclise |
+| fatores contextuais | advérbio não negativo, indefinido, sujeito expresso, pausa | examine a construção e o registro |
+| não atratores por si | coordenativa, substantivo próximo, inciso, termo de outra oração | não autorizam próclise automática |
+
+Compare:
+
+- `Nunca me avisaram.` — fator forte;
+- `Hoje se publicará o resultado.` — advérbio sem pausa favorece a próclise;
+- `Hoje, publicar-se-á o resultado.` — a pausa retira a integração imediata e reaparece o futuro sem atrator;
+- `Para tanto, faz-se necessária a revisão.` — a expressão preposicionada deslocada não atrai mecanicamente o pronome;
+- `O parecer, contudo, foi-lhe enviado.` — o inciso não determina a posição do clítico.
+
+A pergunta decisiva é: **qual elemento atua sobre o verbo dentro da oração analisada?**
 
 ## 4. Próclise: fatores de atração
 
@@ -224,6 +270,36 @@ Estruturas correlativas com `ou... ou` e `ora... ora` admitem próclise:
 
 ---
 
+
+### 4.10 Falsos atratores por proximidade
+
+A proximidade gráfica não cria atração. Retire incisos e reconstrua a frase-base:
+
+- `Para tanto, faz-se necessária a revisão.` → `Faz-se necessária a revisão.`
+- `Hoje, segundo a comissão, divulgar-se-á o resultado.` → `Hoje, divulgar-se-á o resultado.`
+- `O parecer, contudo, foi-lhe entregue.` → `O parecer foi-lhe entregue.`
+
+Também não há atração automática quando o suposto fator pertence a outra oração:
+
+- `Não creio [que o diretor se manifeste].`
+
+O `não` rege a oração principal; na subordinada, a próclise decorre de `que`.
+
+### 4.11 Funções de `se`
+
+Antes de decidir a posição, classifique a função:
+
+| Função | Exemplo |
+|---|---|
+| reflexivo | `O servidor se feriu.` |
+| recíproco | `Os candidatos se cumprimentaram.` |
+| partícula apassivadora | `Publicaram-se os resultados.` |
+| índice de indeterminação | `Precisa-se de servidores.` |
+| parte integrante de verbo pronominal | `Ele se arrependeu.` |
+| valor lexical | `A comissão se referiu ao processo.` |
+
+Mover `se` não autoriza mudar concordância, apagar pronome de verbo pronominal nem reinterpretá-lo como apassivador.
+
 ## 5. Ênclise: posição posterior ao verbo
 
 Ênclise é a colocação do pronome depois do verbo, com hífen:
@@ -284,6 +360,23 @@ Se houver outro fator atrativo, ele deve ser considerado:
 
 ---
 
+
+### 5.5 Ênclise e registro contemporâneo
+
+A tradição normativa favorece a ênclise em início de oração e em formas simples sem atrator. Entretanto, a prova pode pedir:
+
+- conformidade com o padrão conservador;
+- adequação a um texto formal contemporâneo;
+- descrição do português brasileiro;
+- preservação de sentido em uma reescrita.
+
+Por isso:
+
+- `Avisaram-me.` é a solução conservadora;
+- `Me avisaram.` é corrente no português brasileiro, mas pode ser rejeitada em item estritamente prescritivo;
+- `A comissão manifestou-se.` e `A comissão se manifestou.` podem coexistir em diferentes descrições;
+- a existência de uma variante não torna todas as posições intercambiáveis.
+
 ## 6. Mesóclise: futuro simples sem atrator
 
 Mesóclise é a inserção do pronome no interior de uma forma verbal simples. Só ocorre com:
@@ -330,6 +423,27 @@ O Manual de Revisão da FUNAG registra a próclise com pronome pessoal reto ante
 Não se cria mesóclise no infinitivo de uma locução: `vou comunicar-lhe`, e não uma forma interna artificial.
 
 ---
+
+
+### 6.5 Mesóclise: correção e escolha estilística
+
+A mesóclise integra a tradição normativa, mas é marcada no uso contemporâneo. Distinga:
+
+- **correção:** `Comunicar-lhe-ei a decisão.`;
+- **alternativa com sujeito expresso:** `Eu lhe comunicarei a decisão.`;
+- **alternativa perifrástica:** `Vou comunicar-lhe a decisão.`;
+- **forma com atrator:** `Não lhe comunicarei a decisão.`;
+- **forma inadequada na tradição:** `Comunicarei-lhe a decisão.`
+
+Evitar uma mesóclise muito marcada não significa considerá-la incorreta. A questão pode avaliar correção, frequência ou adequação estilística.
+
+### 6.6 Mesóclise em cadeias verbais
+
+A mesóclise pertence ao futuro simples, não ao infinitivo de uma locução:
+
+- `Deverá comunicar-lhe o resultado.`;
+- `Vai comunicar-lhe o resultado.`;
+- não se forma uma mesóclise artificial dentro de `comunicar`.
 
 ## 7. Alterações gráficas com `o, a, os, as`
 
@@ -380,6 +494,26 @@ Não confunda o pronome `nos`, em `põem-nos`, com o pronome de primeira pessoa 
 
 ---
 
+
+### 7.4 Formas gráficas menos óbvias
+
+A transformação depende da terminação verbal, não da posição visual do pronome:
+
+- `dizer + o` → `dizê-lo`;
+- `trazer + a` → `trazê-la`;
+- `fiz + o` → `fi-lo`;
+- `pôs + a` → `pô-la`;
+- `fizeram + os` → `fizeram-nos`;
+- `dão + a` → `dão-na`.
+
+Em formas terminadas em `-mos`, examine o pronome:
+
+- `damo-nos` — pronome `nos`, sem conversão para `lo`;
+- `queremos fazê-lo` — `o` liga-se ao infinitivo `fazer`;
+- grafia rara não deve ser inferida por analogia livre.
+
+A prova pode misturar colocação, acentuação e função sintática na mesma alternativa.
+
 ## 8. Infinitivo, gerúndio e particípio
 
 ### 8.1 Infinitivo
@@ -423,6 +557,29 @@ Observe a classe verbal no contexto:
 Não basta olhar a grafia da forma verbal; é preciso identificar seu valor morfossintático.
 
 ---
+
+
+### 8.4 Forma nominal e cadeia verbal
+
+Não analise apenas o verbo mais próximo do pronome. Reconstrua toda a cadeia:
+
+- `pode ter-se manifestado`;
+- `pode ter se manifestado`;
+- `não se pode ter manifestado`;
+- `não pode ter-se manifestado`;
+- `deveria ter-lhe comunicado a decisão`;
+- `não lhe deveria ter comunicado a decisão`.
+
+Arquitetura:
+
+```text
+auxiliar modal → auxiliar do tempo composto → particípio
+```
+
+O pronome pode ligar-se ao infinitivo `ter`, mas nunca ficar depois do particípio:
+
+- possível: `ter-se manifestado`;
+- inadequado: `ter manifestado-se`.
 
 ## 9. Colocação nas locuções verbais
 
@@ -488,6 +645,23 @@ Se a questão perguntar sobre uso brasileiro, adequação a gênero menos monito
 
 ---
 
+
+### 9.5 Colocação entre auxiliar e principal
+
+Construções como `pode se manifestar`, `vai me avisar` e `vinha lhe oferecendo` são muito produtivas no português brasileiro e aparecem em itens do Cebraspe. Não devem ser tratadas genericamente como inexistentes.
+
+| Construção | Leitura normativa |
+|---|---|
+| `não se pode manifestar` | próclise ao auxiliar |
+| `não pode manifestar-se` | ênclise ao infinitivo |
+| `pode-se manifestar` | ênclise ao auxiliar |
+| `pode manifestar-se` | ênclise ao infinitivo |
+| `pode se manifestar` | colocação entre verbos, relevante na descrição contemporânea |
+| `não pode-se manifestar` | inadequada depois da negativa |
+| `tinha manifestado-se` | inadequada depois do particípio |
+
+O comando da questão decide se a análise é prescritiva conservadora, descritiva ou estilística.
+
 ## 10. Sujeito expresso, pausa e zonas de variação
 
 ### 10.1 Sujeito anteposto
@@ -520,6 +694,31 @@ Há variação documentada. Em prova, dê preferência à forma mais inequívoca
 
 ---
 
+
+### 10.4 Escolha do pronome e regência
+
+A posição correta não compensa a escolha errada do clítico:
+
+| Estrutura | Substituição |
+|---|---|
+| `informou o candidato` | `informou-o` |
+| `informou o resultado ao candidato` | `informou-lhe o resultado` |
+| `proporcionou satisfação à servidora` | `proporcionou-lhe satisfação` |
+| `encontrou a servidora` | `encontrou-a` |
+| `referiu-se ao processo` | `referiu-se a ele`; não `referiu-o` |
+
+`Lhe` não substitui qualquer objeto humano. É preciso verificar regência e função.
+
+### 10.5 Sujeito, advérbio e pausa
+
+- sujeito expresso não é atrator absoluto;
+- advérbio não negativo pode favorecer próclise sem pausa;
+- vírgula não funciona como interruptor universal;
+- negativa e relativo conservam força estrutural;
+- um atrator de outra oração não interfere.
+
+Em itens sobre obrigatoriedade, prefira fatores inequívocos.
+
 ## 11. Combinações pronominais
 
 A tradição registra combinações de dois complementos, como:
@@ -541,6 +740,27 @@ Essas combinações são raras e marcadas no português brasileiro contemporâne
 Não se formam combinações livres como `lhe-o`. Reconhecer uma forma registrada não significa que ela seja a melhor escolha estilística em qualquer contexto.
 
 ---
+
+
+### 11.1 Clareza e combinações raras
+
+Formas como `lho`, `mo`, `to`, `no-lo` e `vo-la` pertencem à tradição, mas podem reduzir a clareza em texto administrativo. Compare:
+
+- `Entregou-lho.`;
+- `Entregou-lhe o documento.`;
+- `Entregou o documento a ela.`
+
+Reconhecer uma forma válida não significa escolhê-la como a redação mais clara.
+
+### 11.2 Referente e ambiguidade
+
+Em `A diretora informou-lhe que a servidora seria convocada`, o referente de `lhe` precisa estar recuperável. Mover o pronome não resolve ambiguidade referencial. Em reescrita, verifique:
+
+1. função;
+2. referente;
+3. posição;
+4. concordância;
+5. sentido.
 
 ## 12. Reescrita: o que precisa ser preservado
 
@@ -590,6 +810,34 @@ A função pertence à sintaxe; a posição depende também dos atratores e da f
 
 ---
 
+
+### 12.6 Matriz de reescrita
+
+| Alteração | Refaça a análise de |
+|---|---|
+| retirada de negativa | desaparecimento do fator de próclise |
+| mudança para futuro | possível mesóclise |
+| verbo simples → locução | novas posições possíveis |
+| infinitivo → particípio | proibição de pronome depois do particípio |
+| troca de `o` por `lhe` | função e regência |
+| inserção de vírgula | pausa, escopo e delimitação |
+| troca de oração principal | alcance do atrator |
+| deslocamento de `se` | função e concordância |
+
+Uma reescrita pode continuar gramatical e mudar foco, registro, referente ou sentido.
+
+### 12.7 Teste de autonomia
+
+Ao adaptar um item de prova:
+
+1. preserve o trecho necessário;
+2. retire incisos para encontrar a frase-base;
+3. identifique a cadeia verbal;
+4. marque o atrator real;
+5. confronte todas as posições possíveis;
+6. confira grafia e regência;
+7. compare o sentido final.
+
 ## 13. Erros frequentes
 
 ### Erro 1: iniciar oração com átono em item prescritivo
@@ -637,6 +885,30 @@ Pontuação, escopo e oração devem ser analisados em conjunto. Não há regra 
 `Deve se manifestar` é corrente no Brasil; `deve manifestar-se` é a escolha conservadora mais segura em cobrança normativa explícita.
 
 ---
+
+
+### Erro 9: tratar colocação entre verbos como sempre incorreta
+
+> `Pode se manifestar.`
+
+A construção é produtiva no português brasileiro e aparece em questões de variação. Em cobrança conservadora, `pode-se manifestar` ou `pode manifestar-se` podem ser preferidas; o comando precisa ser lido.
+
+### Erro 10: mover `se` sem revisar concordância
+
+- `Vendem-se livros.` — passiva sintética;
+- `Precisa-se de servidores.` — sujeito indeterminado.
+
+A posição e a função precisam ser analisadas conjuntamente.
+
+### Erro 11: trocar `lhe` por `o` sem revisar regência
+
+- `proporcionou-lhe satisfação`;
+- não `proporcionou-o satisfação`.
+
+### Erro 12: pôr clítico depois do particípio em cadeia longa
+
+- correto: `pode ter-se manifestado`;
+- inadequado: `pode ter manifestado-se`.
 
 ## 14. Método de prova
 
@@ -693,6 +965,14 @@ Reescrita gramatical pode não ser semanticamente equivalente.
 8. Pronome não fica depois de particípio em locução verbal.
 9. Depois de `r/s/z`, use `lo/la/los/las`; depois de som nasal, `no/na/nos/nas`.
 10. Em reescrita, refaça toda a análise; não mova apenas o pronome.
+
+
+### Referências complementares da revisão
+
+- CEBRASPE. Provas de Câmara dos Deputados (2026), TCE/RN (2026), UDESC (2026), IBAMA (2025), InoversaSul (2025), FUNPRESP (2025), TSE (2024), Banco Central (2024) e Prefeitura de Mossoró (2024). Itens sobre locuções, advérbios, funções de `se`, formação de `-lo/-la` e reescrita; consultados para elaboração de questões adaptadas ou inspiradas.
+- BECHARA, Evanildo. *Moderna gramática portuguesa*. Colocação dos pronomes pessoais átonos e locuções verbais.
+- CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*. Próclise, mesóclise, ênclise e colocação em grupos verbais.
+- NEVES, Maria Helena de Moura. *Gramática de usos do português*. Distribuição dos clíticos e variação no português brasileiro.
 
 ## Referências
 
