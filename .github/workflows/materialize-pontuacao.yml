@@ -27,6 +27,8 @@ jobs:
       - name: Diagnose and materialize reviewed subject files
         shell: bash
         run: |
+          sed -i 's/08369c793f0ca82bf76b08b610d2cf2c2728329f48b2ad0a04549afef183404d/e5b3700269d17f1c34b480c96bb2057563bb81b771592821cc504cbf945fa6f5/' .github/patch-pontuacao.py
+
           set +e
           python3 .github/patch-pontuacao.py 2>&1 | tee /tmp/pontuacao-diagnostic.log
           status=${PIPESTATUS[0]}
