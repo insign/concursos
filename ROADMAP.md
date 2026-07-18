@@ -190,7 +190,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - Item 1. Estruturas lógicas.
 
-##### [>] Em progresso Assunto 037 - Item 2, subitem 2.1: Lógica de argumentação, analogias, inferências, deduções e conclusões.
+##### [R] Em revisão Assunto 037 - Item 2, subitem 2.1: Lógica de argumentação, analogias, inferências, deduções e conclusões.
 
 - Item 2. Lógica de argumentação.
 - 2.1. Analogias, inferências, deduções e conclusões.
