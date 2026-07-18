@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: pull-request-validation-${{ github.event.pull_request.number }}
@@ -19,56 +19,8 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check out pull request branch
+      - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-
-      - name: Materialize reviewed subject files
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import base64
-          import hashlib
-          import io
-          import zipfile
-          from pathlib import Path
-
-          parts = [Path(f'.github/gestao-processos-payload.part{i}') for i in range(1, 11)]
-          payload = ''.join(part.read_text(encoding='utf-8').strip() for part in parts)
-          archive = base64.b64decode(payload)
-          expected_archive = '96028bb1d29782980f7a293feed878ad134381584fddf6487d6681f92fe48a2d'
-          actual_archive = hashlib.sha256(archive).hexdigest()
-          print('archive sha256:', actual_archive)
-          if actual_archive != expected_archive:
-              raise SystemExit('payload checksum mismatch')
-
-          target_dir = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/gestao-processos')
-          expected = {
-              'conteudo.md': '3a01d0a949d5b64f56a0b488968bd8eb6c6bce557440d4da7ee1fc0d2c3eb84c',
-              'cheat-sheet.md': '23ed0b398c142427904da13f7935bd26070b195f7f628cdbf163e2ea2b175054',
-              'questoes.json': 'd5b6736b30ade5a17f57376fe6e21964867bf5e2fb72d3a09ec81ed2a55d5c02',
-          }
-          with zipfile.ZipFile(io.BytesIO(archive)) as package:
-              if set(package.namelist()) != set(expected):
-                  raise SystemExit(f'unexpected archive entries: {package.namelist()}')
-              for name, checksum in expected.items():
-                  content = package.read(name)
-                  actual = hashlib.sha256(content).hexdigest()
-                  print(name, len(content), actual)
-                  if actual != checksum:
-                      raise SystemExit(f'checksum mismatch for {name}')
-                  (target_dir / name).write_bytes(content)
-          PY
-
-          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/gestao-processos'
-          if ! git diff --quiet -- "$target"; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
-            git commit -m 'content: aprofunda gestão de processos'
-            git push origin HEAD:${{ github.head_ref }}
-          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
