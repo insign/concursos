@@ -1,0 +1,560 @@
+name: Patch reescrita generos formalidade
+
+on:
+  push:
+    branches:
+      - agent/revisa-reescrita-generos-formalidade
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Mark content as analyzing in KV
+        shell: bash
+        run: |
+          curl --fail --silent --show-error --location \
+            'https://kv.helio.me/adm/value?method=PUT&path=%2Flinks%2Ftce-ma-2026-analista-administracao--reescrita-generos-formalidade&data=eyJwYXRoIjoiL2NvbmN1cnNvcy90Y2UtbWEtMjAyNi1hbmFsaXN0YS1hZG1pbmlzdHJhY2FvL3JlZXNjcml0YS1nZW5lcm9zLWZvcm1hbGlkYWRlLyIsInN0YXR1cyI6ImFuYWx5emluZyJ9' \
+            --output /tmp/kv-reescrita-analyzing.json
+          jq -e '.json.links["tce-ma-2026-analista-administracao--reescrita-generos-formalidade"].status == "analyzing"' /tmp/kv-reescrita-analyzing.json
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.12.0"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Apply editorial patch
+        shell: bash
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          import json
+
+          base = Path("src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/reescrita-generos-formalidade")
+          content_path = base / "conteudo.md"
+          cheat_path = base / "cheat-sheet.md"
+          questions_path = base / "questoes.json"
+
+          def replace_once(text: str, old: str, new: str, label: str) -> str:
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f"{label}: expected exactly one anchor, found {count}")
+              return text.replace(old, new, 1)
+
+          def replace_section(text: str, start: str, end: str, replacement: str, label: str) -> str:
+              start_pos = text.find(start)
+              if start_pos < 0:
+                  raise SystemExit(f"{label}: start anchor not found")
+              end_pos = text.find(end, start_pos)
+              if end_pos < 0:
+                  raise SystemExit(f"{label}: end anchor not found")
+              return text[:start_pos] + replacement.rstrip() + text[end_pos:]
+
+          content = content_path.read_text(encoding="utf-8")
+
+          invariant_anchor = "`A medida pode reduzir custos` não equivale a `A medida reduzirá custos`. `A equipe avalia a proposta` não equivale a `A equipe aprovou a proposta`."
+          invariant_block = invariant_anchor + """
+
+          ### 5.3 Matriz de invariantes
+
+          Antes de aceitar uma reescrita, compare estas dimensões:
+
+          | Dimensão | Pergunta de controle | Alteração indevida típica |
+          |---|---|---|
+          | fonte | quem afirmou continua sendo o mesmo? | criar `segundo o órgão` sem fonte na base |
+          | modalidade | certeza, possibilidade, obrigação e recomendação foram preservadas? | `pode ocorrer` → `ocorrerá` |
+          | agente | quem pratica ou sofre a ação continua igual? | trocar a comissão pelo servidor |
+          | tempo e quantidade | datas, prazos, frequência e alcance permaneceram? | `até 30 de agosto` → `em agosto` |
+          | relação lógica | causa, condição, concessão e conclusão continuam sustentadas? | inserir `portanto` sem conclusão |
+          | polaridade | afirmação, negação e restrição foram mantidas? | `nem sempre` → `quase nunca` |
+          | atribuição avaliativa | opinião e previsão continuam atribuídas? | transformar avaliação alheia em fato do redator |
+          | dêixis | o novo leitor localiza tempo, espaço e participantes? | manter `amanhã` em documento permanente sem data |
+
+          A preservação não exige repetir as mesmas palavras. Exige conservar o conteúdo e as relações que tornam a informação verdadeira no novo contexto.
+          """
+          content = replace_once(content, invariant_anchor, invariant_block, "invariant matrix")
+          content = replace_once(content, "### 5.3 O que pode mudar de forma controlada", "### 5.4 O que pode mudar de forma controlada", "section renumber")
+
+          oral_old = """Base oral:
+
+          `Oi, gente. Então, amanhã vai ficar sem sistema um tempinho, tá? Acho que de duas até umas quatro. Depois a gente avisa.`
+
+          Uma reescrita segura não deve conservar a incerteza como horário oficial sem confirmação. Se os dados forem confirmados:
+
+          `O sistema ficará indisponível amanhã, das 14h às 16h. A normalização será comunicada neste canal.`
+
+          Mudanças realizadas:
+
+          - eliminação de marcadores conversacionais;
+          - explicitação do sujeito;
+          - substituição de expressão vaga por intervalo;
+          - ajuste de pessoa e tom;
+          - indicação do canal de atualização.
+
+          Se o horário continuar estimado, preserve a modalidade: `A previsão é de indisponibilidade entre 14h e 16h.`"""
+          oral_new = """Base oral:
+
+          `Oi, gente. Então, amanhã vai ficar sem sistema um tempinho, tá? Acho que de duas até umas quatro. Depois a gente avisa.`
+
+          Uma reescrita segura não deve converter a estimativa em horário oficial sem confirmação. Se os dados forem confirmados e a mensagem circular no mesmo contexto temporal:
+
+          `O sistema ficará indisponível amanhã, das 14h às 16h. A normalização será comunicada neste canal.`
+
+          Em aviso persistente, processo ou página que poderá ser lida depois, ancore a dêixis:
+
+          `O sistema ficará indisponível em 21 de julho de 2026, das 14h às 16h. A normalização será comunicada neste canal.`
+
+          Mudanças realizadas:
+
+          - eliminação de marcadores conversacionais;
+          - explicitação do sujeito;
+          - substituição de expressão vaga por intervalo;
+          - ajuste de pessoa e tom;
+          - indicação do canal de atualização;
+          - troca de `amanhã` por data absoluta quando o suporte não preserva o contexto.
+
+          Se o horário continuar estimado, preserve a modalidade: `A previsão é de indisponibilidade entre 14h e 16h.`"""
+          content = replace_once(content, oral_old, oral_new, "deixis example")
+
+          integrated_anchor = "Imperativo não é automaticamente descortês. Em instruções, ele pode ser a forma mais clara: `Clique em Enviar`. A cortesia decorre do conjunto, não de evitar todo comando direto."
+          integrated_block = integrated_anchor + """
+
+          ### 8.1 Exemplo integrado: mensagem informal para registro
+
+          Base:
+
+          `Pessoal, parece que a bomba parou de novo depois do almoço. O João viu e chamou a manutenção.`
+
+          Registro seguro, após confirmar os dados:
+
+          `Após as 13h, João identificou nova paralisação da bomba e acionou a equipe de manutenção.`
+
+          A versão elimina a saudação, explicita o agente, substitui `depois do almoço` por referência temporal controlada e mantém a ideia de recorrência em `nova paralisação`. Se a paralisação ainda não estiver confirmada, preserve `há indício de` ou `foi relatada possível paralisação`.
+
+          ### 8.2 Exemplo integrado: nota técnica para aviso ao usuário
+
+          Base técnica:
+
+          `A autenticação ficará temporariamente indisponível em razão da atualização do módulo de gestão de identidades, sem impacto sobre sessões já iniciadas.`
+
+          Aviso:
+
+          `Das 18h às 19h, não será possível iniciar nova sessão no sistema devido a uma atualização. Sessões já abertas continuarão funcionando.`
+
+          A mudança reorganiza a informação pela necessidade do usuário, explica o efeito operacional e conserva a ressalva sobre sessões em andamento.
+          """
+          content = replace_once(content, integrated_anchor, integrated_block, "integrated examples")
+
+          opinion_start = "## 9. Da opinião para a notícia ou o relatório"
+          opinion_end = "\n---\n\n## 10."
+          opinion_replacement = """## 9. Da opinião para a notícia ou o relatório
+
+          Base opinativa atribuída:
+
+          `Segundo o órgão, a excelente medida finalmente resolverá o grave problema.`
+
+          Versão informativa:
+
+          `O órgão afirmou que a medida resolverá o problema.`
+
+          Foram removidos os adjetivos avaliativos, mas a fonte e o grau de certeza da declaração permaneceram. A reescrita não apresenta a previsão como fato independente: registra o que o órgão afirmou.
+
+          Se a base não trouxer fonte externa, não a invente. Para `A excelente medida finalmente resolverá o grave problema`, uma versão segura é `O autor avalia que a medida resolverá o problema` — desde que o contexto permita identificar esse enunciador.
+
+          Em relatório, separe:
+
+          - dado observado;
+          - interpretação;
+          - recomendação;
+          - fonte e limite da evidência."""
+          content = replace_section(content, opinion_start, opinion_end, opinion_replacement, "opinion section")
+
+          official_start = "## 10. Comunicação oficial"
+          official_end = "\n---\n\n## 11."
+          official_replacement = """## 10. Comunicação institucional como aplicação
+
+          Avisos, e-mails, registros e relatórios institucionais permitem aplicar este assunto, mas o foco aqui é a adequação global do texto, não a memorização de formatos de correspondência oficial.
+
+          Clareza, precisão, objetividade, concisão, coesão, coerência, impessoalidade, formalidade, padronização e norma-padrão são controles úteis. Concisão não é mutilação, e impessoalidade não exige voz passiva nem apagamento do agente: `A comissão aprovou o relatório` pode ser mais claro que `O relatório foi aprovado`.
+
+          Regras específicas de tratamento, endereçamento ou formato só devem ser aplicadas quando o comando, o órgão ou a norma pertinente as tornar relevantes. Uma regra federal de tratamento não pode ser universalizada para outros Poderes, tribunais de contas, entes federativos ou relações privadas.
+
+          Em prova de reescrita, a pergunta principal continua sendo: a versão preserva fatos, atribuições e força do ato comunicativo e, ao mesmo tempo, funciona no gênero e no nível de formalidade solicitados?"""
+          content = replace_section(content, official_start, official_end, official_replacement, "official section")
+
+          content = replace_once(
+              content,
+              "| excelente medida resolverá | segundo o órgão, a medida busca reduzir | separa avaliação e atribui finalidade |",
+              "| segundo o órgão, a excelente medida resolverá | o órgão afirmou que a medida resolverá | remove avaliação e preserva fonte e certeza atribuída |",
+              "judgment table",
+          )
+          content = replace_once(content, "9. Transformar opinião em fato.", "9. Transformar opinião em fato ou inventar fonte para legitimá-la.", "error source")
+          content = replace_once(content, "14. Ignorar modelo institucional obrigatório.", "14. Ignorar modelo institucional obrigatório.\n15. Manter `amanhã`, `aqui` ou `isso` quando o novo suporte não conserva o contexto.", "error deixis")
+          content = content.replace(
+              "https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf",
+              "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          )
+          content_path.write_text(content, encoding="utf-8")
+
+          cheat = cheat_path.read_text(encoding="utf-8")
+          cheat_anchor = "`Recomenda-se` ≠ `é obrigatório`."
+          cheat_matrix = cheat_anchor + """
+
+          ### Matriz-relâmpago
+
+          | Controle | Pergunta |
+          |---|---|
+          | fonte | quem afirmou continua igual? |
+          | modalidade | possibilidade, certeza e obrigação foram mantidas? |
+          | agente | quem age ou sofre a ação mudou? |
+          | tempo/quantidade | prazo, data, frequência ou alcance foram enfraquecidos? |
+          | lógica | causa, condição, concessão ou conclusão permanecem? |
+          | polaridade | negação e restrições continuam? |
+          | dêixis | `hoje`, `amanhã`, `aqui` e `isso` ainda são localizáveis? |
+
+          Preservar não é copiar palavra por palavra; é manter informação, relações e compromisso do enunciador.
+          """
+          cheat = replace_once(cheat, cheat_anchor, cheat_matrix, "cheat matrix")
+          cheat = replace_once(
+              cheat,
+              "Preserve incerteza real: `acho que das duas às quatro` só vira horário categórico se houver confirmação.",
+              "Preserve incerteza real: `acho que das duas às quatro` só vira horário categórico se houver confirmação. Em texto persistente, troque `amanhã` por data absoluta: `em 21 de julho de 2026`.",
+              "cheat deixis",
+          )
+          opinion_old = """## Opinião → informação
+
+          - Separe fato, avaliação e previsão.
+          - Atribua declaração à fonte.
+          - Remova adjetivo promocional sem evidência.
+          - `Resolverá` não pode virar fato se a fonte apenas afirma que `busca reduzir`."""
+          opinion_new = """## Opinião → informação
+
+          - Separe fato, avaliação e previsão.
+          - Preserve a fonte existente; nunca crie `segundo o órgão` se a base não mencionar órgão.
+          - Remova adjetivo promocional sem alterar o grau de certeza atribuído.
+          - `Segundo o órgão, resolverá` pode virar `o órgão afirmou que resolverá`; não pode virar fato independente do redator."""
+          cheat = replace_once(cheat, opinion_old, opinion_new, "cheat opinion")
+
+          official_start = "## Redação oficial"
+          official_end = "\n## Modalização"
+          official_replacement = """## Comunicação institucional
+
+          Controles úteis: clareza, precisão, objetividade, concisão, coesão, coerência, impessoalidade, formalidade, padronização e norma-padrão.
+
+          - Impessoalidade não exige passiva nem agente oculto.
+          - Concisão não autoriza cortar prazo, condição, fonte ou responsável.
+          - Tratamento e endereçamento dependem da norma e do órgão aplicáveis; regra federal não é universal.
+          - Neste assunto, priorize a adequação de gênero e registro, não a memorização de formatos de correspondência."""
+          cheat = replace_section(cheat, official_start, official_end, official_replacement, "cheat official")
+          cheat = replace_once(
+              cheat,
+              "- Fato virou opinião ou hipótese virou certeza?",
+              "- Fato virou opinião ou hipótese virou certeza?\n- Surgiu fonte, atribuição ou agente que não existia na base?\n- `Hoje`, `amanhã`, `aqui` e outros dêiticos continuam identificáveis?",
+              "cheat gates",
+          )
+          cheat = replace_once(
+              cheat,
+              "- Regra de tratamento federal não é universal.",
+              "- Regra de tratamento federal não é universal.\n- Nunca invente fonte para tornar a versão mais institucional.\n- Dêitico sem contexto deve ser ancorado em data, local ou participante.",
+              "cheat traps",
+          )
+          cheat_path.write_text(cheat, encoding="utf-8")
+
+          data = json.loads(questions_path.read_text(encoding="utf-8"))
+          questions = data["questions"]
+          by_id = {question["id"]: question for question in questions}
+          if len(by_id) != len(questions):
+              raise SystemExit("duplicate question IDs before patch")
+
+          def update_question(qid: str, prompt: str, options: list[tuple[str, str]], correct: str, explanation: str) -> None:
+              question = by_id[qid]
+              question["revision"] = int(question["revision"]) + 1
+              question["prompt"] = prompt
+              question["options"] = [{"id": oid, "text": text} for oid, text in options]
+              question["correctOptionId"] = correct
+              question["explanation"] = explanation
+
+          update_question(
+              "q3781",
+              "A base é 'A excelente medida finalmente resolverá o grave problema' e não identifica fonte externa. Qual reescrita informativa evita inventar atribuição?",
+              [
+                  ("A", "Segundo o órgão, a medida resolverá o problema."),
+                  ("B", "O autor avalia que a medida resolverá o problema."),
+                  ("C", "O órgão comprovou que a medida já resolveu o problema."),
+                  ("D", "Especialistas confirmaram a eficácia definitiva da medida."),
+              ],
+              "B",
+              "A versão identifica a avaliação como posição do enunciador disponível na base, sem criar órgão, especialistas ou resultado comprovado. Fonte: questão autoral baseada nas referências do conteúdo.",
+          )
+          update_question(
+              "q3787",
+              "A mensagem 'Oi, chefe, dá para mandar o relatório até as 17h?' deve virar e-mail profissional sem aumentar a força do pedido. Assinale a melhor versão.",
+              [
+                  ("A", "Determine-se o envio obrigatório do relatório até as 17h."),
+                  ("B", "Solicito, se possível, o envio do relatório até as 17h."),
+                  ("C", "O relatório foi enviado às 17h."),
+                  ("D", "É proibido enviar o relatório depois das 17h."),
+              ],
+              "B",
+              "A formulação ajusta saudação e registro, preserva o caráter de pedido e mantém o prazo. As demais criam obrigação, fato consumado ou proibição. Fonte: questão autoral baseada nas referências do conteúdo.",
+          )
+          update_question(
+              "q3788",
+              "Um aviso será publicado em página que permanecerá acessível por meses. A base diz 'o sistema ficará indisponível amanhã, das 14h às 16h'. Qual adaptação é mais segura, sabendo-se que a interrupção ocorrerá em 21 de julho de 2026?",
+              [
+                  ("A", "O sistema ficará indisponível em breve."),
+                  ("B", "O sistema ficará indisponível amanhã, em algum horário."),
+                  ("C", "O sistema ficará indisponível em 21 de julho de 2026, das 14h às 16h."),
+                  ("D", "O sistema esteve indisponível ontem, das 14h às 16h."),
+              ],
+              "C",
+              "Em suporte persistente, a data absoluta ancora o dêitico e preserva o intervalo. Fonte: questão autoral baseada nas referências do conteúdo.",
+          )
+          update_question(
+              "q3789",
+              "A nota técnica informa: 'A autenticação ficará indisponível, sem impacto sobre sessões já iniciadas'. Qual aviso ao público preserva a ressalva?",
+              [
+                  ("A", "Todo acesso ao sistema será encerrado."),
+                  ("B", "Não será possível iniciar nova sessão durante a atualização; sessões já abertas continuarão funcionando."),
+                  ("C", "O sistema talvez deixe de funcionar por completo."),
+                  ("D", "A atualização não terá qualquer efeito sobre os usuários."),
+              ],
+              "B",
+              "A versão explica o efeito ao usuário e mantém a exceção relativa às sessões em andamento. Fonte: questão autoral baseada nas referências do conteúdo.",
+          )
+          update_question(
+              "q3790",
+              "A mensagem 'Parece que a bomba parou de novo; João chamou a manutenção' será registrada antes da confirmação da falha. Qual versão preserva a incerteza e os agentes?",
+              [
+                  ("A", "João causou nova paralisação da bomba."),
+                  ("B", "A manutenção confirmou defeito definitivo na bomba."),
+                  ("C", "Foi relatada possível nova paralisação da bomba, e João acionou a manutenção."),
+                  ("D", "A bomba certamente parou, mas ninguém comunicou a manutenção."),
+              ],
+              "C",
+              "A reescrita mantém a modalidade de relato não confirmado e identifica quem acionou a manutenção. Fonte: questão autoral baseada nas referências do conteúdo.",
+          )
+          update_question(
+              "q3810",
+              "Relatada posteriormente, em outro dia, a fala 'Enviarei hoje', proferida pelo diretor, pode tornar-se",
+              [
+                  ("A", "O diretor disse que enviaria naquele dia."),
+                  ("B", "O diretor disse que envio ontem."),
+                  ("C", "O diretor disse que enviará sempre."),
+                  ("D", "O diretor disse: você enviará amanhã."),
+              ],
+              "A",
+              "Como o relato ocorre a partir de outro ponto temporal, ajustam-se pessoa, futuro do pretérito e dêixis: 'naquele dia'. Em relato feito no mesmo dia, a ancoragem poderia ser diferente. Fonte: questão autoral baseada nas referências do conteúdo.",
+          )
+
+          caesb = "https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf"
+          pcdf = "https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF"
+          new_questions = [
+              {
+                  "id": "q3819", "revision": 1,
+                  "prompt": "No trecho 'Sem mudanças substanciais, os impactos climáticos devem se intensificar', a forma 'devem' expressa principalmente",
+                  "options": [{"id":"A","text":"certeza consumada."},{"id":"B","text":"probabilidade condicionada à ausência de mudanças."},{"id":"C","text":"ordem dirigida aos impactos."},{"id":"D","text":"permissão concedida pelo autor."}],
+                  "correctOptionId": "B",
+                  "explanation": f"No contexto, 'devem se intensificar' apresenta resultado provável, condicionado à inexistência de mudanças substanciais; não é certeza nem obrigação. Fonte: questão oficial adaptada de Cebraspe/CAESB/2024, questão 7, {caesb}; adaptação: conversão para enunciado autônomo de múltipla escolha.",
+              },
+              {
+                  "id": "q3820", "revision": 1,
+                  "prompt": "Um texto jornalístico aborda fatos atuais sobre aquecimento global, reúne previsões e declarações de especialistas e tem como finalidade principal informar. A classificação mais adequada é",
+                  "options": [{"id":"A","text":"reportagem informativa."},{"id":"B","text":"ata deliberativa."},{"id":"C","text":"manual injuntivo."},{"id":"D","text":"requerimento administrativo."}],
+                  "correctOptionId": "A",
+                  "explanation": f"A apuração de fatos atuais, a presença de fontes e a finalidade de informar caracterizam reportagem informativa. Fonte: questão oficial adaptada de Cebraspe/CAESB/2024, questão 8, {caesb}; adaptação: síntese do texto-base e redução das alternativas.",
+              },
+              {
+                  "id": "q3821", "revision": 1,
+                  "prompt": "Na abertura 'Mesmo com a previsão de uma leve redução, o planeta continua em trajetória de aquecimento', qual substituição preserva correção e sentido?",
+                  "options": [{"id":"A","text":"Em razão da previsão de uma leve redução"},{"id":"B","text":"Apesar da previsão de uma leve redução"},{"id":"C","text":"Portanto, a previsão de uma leve redução"},{"id":"D","text":"Como consequência da previsão de uma leve redução"}],
+                  "correctOptionId": "B",
+                  "explanation": f"'Mesmo com' e 'apesar de' exprimem concessão; as demais opções introduzem causa ou conclusão. Fonte: questão oficial de Cebraspe/CAESB/2024, questão 9, {caesb}; adaptação: manutenção do núcleo da questão com alternativas condensadas.",
+              },
+              {
+                  "id": "q3822", "revision": 1,
+                  "prompt": "Em 'a clara trajetória ascendente em que estamos', a expressão 'em que' pode ser substituída, sem prejuízo da correção e do sentido, por",
+                  "options": [{"id":"A","text":"que."},{"id":"B","text":"aonde."},{"id":"C","text":"à qual."},{"id":"D","text":"na qual."}],
+                  "correctOptionId": "D",
+                  "explanation": f"A contração 'na' preserva a preposição 'em', e 'a qual' retoma a expressão feminina definida. Fonte: questão oficial de Cebraspe/CAESB/2024, questão 10, {caesb}; adaptação: reprodução do núcleo linguístico em formato autônomo.",
+              },
+              {
+                  "id": "q3823", "revision": 1,
+                  "prompt": "A base informa que a média de cinco anos entre 2024 e 2028 pode ultrapassar 1,5 °C acima do período pré-industrial. Qual resumo preserva a modalidade?",
+                  "options": [{"id":"A","text":"A média do período ultrapassará necessariamente 1,5 °C."},{"id":"B","text":"A média do período pode ultrapassar 1,5 °C."},{"id":"C","text":"A média do período já ultrapassou 1,9 °C em todos os anos."},{"id":"D","text":"Não haverá aumento de temperatura no período."}],
+                  "correctOptionId": "B",
+                  "explanation": f"A base expressa possibilidade, não certeza, e se refere à média de 2024 a 2028. Fonte: questão oficial adaptada de Cebraspe/CAESB/2024, questão 1, {caesb}; adaptação: transformação da inferência correta em controle de modalidade.",
+              },
+              {
+                  "id": "q3824", "revision": 1,
+                  "prompt": "A base prevê leve redução do aquecimento em 2025, devido ao La Niña, em comparação com 2024. Qual versão informativa é compatível com essa previsão?",
+                  "options": [{"id":"A","text":"Espera-se que 2025 seja ligeiramente mais frio que 2024."},{"id":"B","text":"Está comprovado que 2025 será o ano mais quente da história."},{"id":"C","text":"O uso de combustíveis fósseis terminará em 2025."},{"id":"D","text":"Não existe previsão para 2025."}],
+                  "correctOptionId": "A",
+                  "explanation": f"A alternativa preserva a previsão de leve redução em relação a 2024, sem transformar medidas desejáveis em fatos. Fonte: questão oficial adaptada de Cebraspe/CAESB/2024, questão 2, {caesb}; adaptação: explicitação do parâmetro comparativo.",
+              },
+              {
+                  "id": "q3825", "revision": 1,
+                  "prompt": "No trecho 'a meta de 1,5 °C do Acordo de Paris (...) Um relatório prevê que a média (...) possa ultrapassar esse limite', 'esse limite' retoma",
+                  "options": [{"id":"A","text":"0,2 °C por década."},{"id":"B","text":"1,5 °C."},{"id":"C","text":"a década de 2030."},{"id":"D","text":"um único ano."}],
+                  "correctOptionId": "B",
+                  "explanation": f"O demonstrativo retoma o limite de 1,5 °C mencionado imediatamente antes. Fonte: questão oficial de Cebraspe/CAESB/2024, questão 4, {caesb}; adaptação: recorte do mecanismo referencial.",
+              },
+              {
+                  "id": "q3826", "revision": 1,
+                  "prompt": "O texto apenas descreve a posição da delegação brasileira em conferência ambiental de 1972. Uma reescrita afirma que essa participação 'comprometeu a eficácia dos acordos estabelecidos'. O problema é que a versão",
+                  "options": [{"id":"A","text":"explicita uma consequência comprovada."},{"id":"B","text":"extrapola o conteúdo ao criar efeito não informado."},{"id":"C","text":"preserva exatamente a mesma informação."},{"id":"D","text":"apenas reduz a formalidade."}],
+                  "correctOptionId": "B",
+                  "explanation": f"Não havia informação sobre comprometimento da eficácia dos acordos; a afirmação acrescenta consequência. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 1, {pcdf}; adaptação: conversão do julgamento em diagnóstico de reescrita.",
+              },
+              {
+                  "id": "q3827", "revision": 1,
+                  "prompt": "A base afirma que redemocratização, fortalecimento da sociedade civil, avanço científico e governança ambiental favoreceram novas percepções. Qual reescrita altera a direção causal?",
+                  "options": [{"id":"A","text":"Esses processos favoreceram novas percepções ambientais."},{"id":"B","text":"Novas percepções ambientais resultaram desses processos."},{"id":"C","text":"Esses processos resultaram da mudança de percepções ambientais."},{"id":"D","text":"A mudança de percepções foi favorecida por esses processos."}],
+                  "correctOptionId": "C",
+                  "explanation": f"A alternativa C inverte causa e consequência: na base, os processos favorecem as novas percepções. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 5, {pcdf}; adaptação: construção de alternativas de equivalência causal.",
+              },
+              {
+                  "id": "q3828", "revision": 1,
+                  "prompt": "No mesmo texto, 'as duas esferas' retoma soberania estatal e políticas ambientais, enquanto 'esses dois setores' retoma sociedade e instituições de defesa. Dizer que as duas expressões têm o mesmo referente é",
+                  "options": [{"id":"A","text":"correto, porque ambas estão no plural."},{"id":"B","text":"correto, porque todo demonstrativo retoma o primeiro parágrafo."},{"id":"C","text":"incorreto, porque as cadeias referenciais são diferentes."},{"id":"D","text":"incorreto apenas por falta de concordância verbal."}],
+                  "correctOptionId": "C",
+                  "explanation": f"As expressões retomam pares distintos; igualá-las muda os participantes do texto. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 6, {pcdf}; adaptação: explicitação dos referentes no enunciado.",
+              },
+              {
+                  "id": "q3829", "revision": 1,
+                  "prompt": "Em contexto que descreve uma percepção vigente durante certo tempo e depois superada, a substituição de 'a preservação foi vista como ameaça' por 'a preservação era vista como ameaça'",
+                  "options": [{"id":"A","text":"é coerente e gramaticalmente correta."},{"id":"B","text":"transforma o passado em obrigação."},{"id":"C","text":"elimina necessariamente o agente."},{"id":"D","text":"é incorreta porque 'era' só expressa hábito presente."}],
+                  "correctOptionId": "A",
+                  "explanation": f"O pretérito imperfeito pode apresentar estado ou percepção durativa no passado, compatível com 'durante certo tempo'. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 7, {pcdf}; adaptação: apresentação autônoma do contexto.",
+              },
+              {
+                  "id": "q3830", "revision": 1,
+                  "prompt": "Na estrutura 'foi vista não como precondição, mas como ameaça', substituir 'mas' por 'embora' preservaria o período?",
+                  "options": [{"id":"A","text":"Sim, sem nenhuma outra alteração."},{"id":"B","text":"Não, porque 'embora' exigiria reorganização sintática e não completa a correlação 'não... mas'."},{"id":"C","text":"Sim, porque 'mas' e 'embora' são sempre intercambiáveis."},{"id":"D","text":"Não, porque 'embora' só pode introduzir causa."}],
+                  "correctOptionId": "B",
+                  "explanation": f"A correlação 'não... mas' organiza contraste; 'embora' é concessivo e não pode ocupar esse ponto sem reconstruir a frase. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 8, {pcdf}; adaptação: explicitação da exigência de reorganização.",
+              },
+              {
+                  "id": "q3831", "revision": 1,
+                  "prompt": "A expressão 'gerenciar seus recursos naturais de maneira autônoma, em busca do desenvolvimento' pode ser reescrita, preservando sentido e correção, como",
+                  "options": [{"id":"A","text":"gerenciar seus recursos naturais de maneira autônoma, visando ao desenvolvimento."},{"id":"B","text":"gerenciar seus recursos naturais de maneira autônoma, apesar do desenvolvimento."},{"id":"C","text":"gerenciar seus recursos naturais de maneira autônoma, porque o desenvolvimento."},{"id":"D","text":"gerenciar seus recursos naturais de maneira autônoma, contrário ao desenvolvimento."}],
+                  "correctOptionId": "A",
+                  "explanation": f"'Visando ao desenvolvimento' preserva a ideia de finalidade e atende à regência de 'visar' com sentido de almejar. Fonte: questão oficial de Cebraspe/PCDF/2024, item 10, {pcdf}; adaptação: conversão para múltipla escolha.",
+              },
+              {
+                  "id": "q3832", "revision": 1,
+                  "prompt": "Na citação 'qualquer fórmula que (...) impusesse uma sistemática de consulta seria inaceitável', a forma 'impusesse' apresenta",
+                  "options": [{"id":"A","text":"uma hipótese que caracteriza a fórmula."},{"id":"B","text":"uma ordem já cumprida."},{"id":"C","text":"uma condição introduzida por 'se'."},{"id":"D","text":"um fato observado no presente."}],
+                  "correctOptionId": "A",
+                  "explanation": f"O subjuntivo integra oração relativa e apresenta fórmula hipotética; não há oração condicional introduzida por 'se'. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 12, {pcdf}; adaptação: transformação do julgamento em classificação contextual.",
+              },
+              {
+                  "id": "q3833", "revision": 1,
+                  "prompt": "A base diz que vários processos 'favoreceram essas novas percepções e, sobretudo, a aproximação desses dois setores'. Reescrever o final como 'essas novas percepções, que aproximaram os dois setores'",
+                  "options": [{"id":"A","text":"preserva o agente da aproximação."},{"id":"B","text":"muda o agente ao atribuir a aproximação às novas percepções."},{"id":"C","text":"apenas troca voz ativa por passiva."},{"id":"D","text":"elimina qualquer relação entre as ideias."}],
+                  "correctOptionId": "B",
+                  "explanation": f"Na base, os processos enumerados favorecem tanto as percepções quanto a aproximação; a relativa atribui a aproximação às percepções. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 13, {pcdf}; adaptação: explicitação da mudança de referente.",
+              },
+              {
+                  "id": "q3834", "revision": 1,
+                  "prompt": "Dois períodos sucessivos acrescentam informações diferentes, sem relação conclusiva. Inserir 'Portanto' no início do segundo período",
+                  "options": [{"id":"A","text":"é adequado porque todo novo parágrafo é conclusão."},{"id":"B","text":"é inadequado porque cria conclusão não sustentada."},{"id":"C","text":"é obrigatório em texto formal."},{"id":"D","text":"não afeta a relação lógica."}],
+                  "correctOptionId": "B",
+                  "explanation": f"O conector conclusivo altera a relação entre as ideias quando o segundo período apenas acrescenta informação. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 14, {pcdf}; adaptação: generalização controlada do contexto original.",
+              },
+              {
+                  "id": "q3835", "revision": 1,
+                  "prompt": "Em 'interpretações relativas às preocupações ambientais', a expressão 'relativas às' pode ser substituída, sem prejuízo da correção e da coerência, por",
+                  "options": [{"id":"A","text":"acerca das."},{"id":"B","text":"apesar das."},{"id":"C","text":"de encontro as."},{"id":"D","text":"ao invés às."}],
+                  "correctOptionId": "A",
+                  "explanation": f"No contexto, 'acerca das' mantém o sentido de 'a respeito das'. Fonte: questão oficial de Cebraspe/PCDF/2024, item 15, {pcdf}; adaptação: conversão para múltipla escolha.",
+              },
+              {
+                  "id": "q3836", "revision": 1,
+                  "prompt": "Substituir 'a relação nem sempre se deu em bases cooperativas' por 'a relação quase nunca se deu em bases cooperativas'",
+                  "options": [{"id":"A","text":"preserva a frequência expressa."},{"id":"B","text":"altera o sentido, pois 'nem sempre' apenas nega constância, enquanto 'quase nunca' indica raridade."},{"id":"C","text":"muda somente o nível de formalidade."},{"id":"D","text":"é obrigatório para tornar o texto conciso."}],
+                  "correctOptionId": "B",
+                  "explanation": f"'Nem sempre' admite extensão indeterminada dos momentos divergentes; 'quase nunca' afirma que os casos foram raros. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 16, {pcdf}; adaptação: conversão do julgamento para comparação semântica.",
+              },
+              {
+                  "id": "q3837", "revision": 1,
+                  "prompt": "No contexto em que um posicionamento é sinal de determinada compreensão, substituir 'seria sintomático desse entendimento' por 'seria revelador desse entendimento'",
+                  "options": [{"id":"A","text":"preserva coerência e sentido."},{"id":"B","text":"transforma hipótese em obrigação."},{"id":"C","text":"elimina o referente de 'desse'."},{"id":"D","text":"é incorreto porque 'revelador' só se aplica a pessoas."}],
+                  "correctOptionId": "A",
+                  "explanation": f"'Revelador' possui sentido contextual próximo ao de 'sintomático': algo que evidencia determinada compreensão. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 17, {pcdf}; adaptação: apresentação autônoma do contexto.",
+              },
+              {
+                  "id": "q3838", "revision": 1,
+                  "prompt": "No trecho 'as inestimáveis riquezas naturais', substituir 'inestimáveis' por 'incalculáveis'",
+                  "options": [{"id":"A","text":"é possível no contexto, pois ambas podem indicar valor difícil ou impossível de estimar."},{"id":"B","text":"cria necessariamente sentido de pequena importância."},{"id":"C","text":"é impossível porque as palavras têm classes diferentes."},{"id":"D","text":"transforma o substantivo em verbo."}],
+                  "correctOptionId": "A",
+                  "explanation": f"No contexto, os adjetivos podem designar riquezas cujo valor não se consegue calcular ou estimar. Fonte: questão oficial adaptada de Cebraspe/PCDF/2024, item 18, {pcdf}; adaptação: conversão para múltipla escolha.",
+              },
+          ]
+
+          existing_ids = set(by_id)
+          duplicate_new = existing_ids.intersection(question["id"] for question in new_questions)
+          if duplicate_new:
+              raise SystemExit(f"new question IDs already exist: {sorted(duplicate_new)}")
+          questions.extend(new_questions)
+          data["questionSetRevision"] = int(data.get("questionSetRevision", 0)) + 1
+
+          final_ids = [question["id"] for question in questions]
+          if len(final_ids) != len(set(final_ids)):
+              raise SystemExit("duplicate question IDs after patch")
+          if len(questions) != 80:
+              raise SystemExit(f"expected 80 questions, found {len(questions)}")
+          for question in questions:
+              options = question.get("options", [])
+              option_ids = [option.get("id") for option in options]
+              if len(options) != 4 or len(option_ids) != len(set(option_ids)):
+                  raise SystemExit(f"invalid options in {question['id']}")
+              if question.get("correctOptionId") not in option_ids:
+                  raise SystemExit(f"invalid correct option in {question['id']}")
+              if "Fonte:" not in question.get("explanation", ""):
+                  raise SystemExit(f"missing source in {question['id']}")
+
+          lines = ["{", f'  "schemaVersion": {int(data["schemaVersion"])},', f'  "questionSetRevision": {int(data["questionSetRevision"])},', '  "questions": [']
+          for index, question in enumerate(questions):
+              suffix = "," if index < len(questions) - 1 else ""
+              lines.append("    " + json.dumps(question, ensure_ascii=False, separators=(",", ":")) + suffix)
+          lines.extend(["  ]", "}"])
+          questions_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+          PY
+
+      - name: Unit tests
+        run: npm run test:unit
+
+      - name: Astro check
+        run: npm run check
+
+      - name: Production build
+        run: npm run build
+
+      - name: Commit validated changes
+        shell: bash
+        run: |
+          rm .github/workflows/patch-reescrita-generos-formalidade.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- \
+            .github/workflows/patch-reescrita-generos-formalidade.yml \
+            src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/reescrita-generos-formalidade/conteudo.md \
+            src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/reescrita-generos-formalidade/cheat-sheet.md \
+            src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa/reescrita-generos-formalidade/questoes.json
+          git diff --cached --check
+          git diff --cached --quiet && { echo "No changes to commit"; exit 1; }
+          git commit -m "Revisa reescrita de gêneros e formalidade"
+          git push origin HEAD:${GITHUB_REF_NAME}
