@@ -147,7 +147,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 3.2. Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018): conceitos fundamentais, direitos dos titulares e aplicação no setor público.
 
-##### [R] Em revisão Assunto 029 - Item 3, subitem 3.5: Marco Civil da Internet.
+##### [x] Concluído Assunto 029 - Item 3, subitem 3.5: Marco Civil da Internet.
 
 - 3.5. Marco Civil da Internet (Lei nº 12.965/2014): princípios, direitos e deveres para o uso da Internet no Brasil.
 
