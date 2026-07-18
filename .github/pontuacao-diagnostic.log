@@ -9,6 +9,10 @@ Traceback (most recent call last):
   File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 280, in main
     bundle = load_bundle()
              ^^^^^^^^^^^^^
-  File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 46, in load_bundle
-    raise RuntimeError("compressed payload checksum mismatch")
-RuntimeError: compressed payload checksum mismatch
+  File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 48, in load_bundle
+    raw = bz2.decompress(compressed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/bz2.py", line 333, in decompress
+    res = decomp.decompress(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Invalid data stream
