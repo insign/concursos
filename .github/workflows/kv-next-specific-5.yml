@@ -1,4 +1,4 @@
-name: Reserve next specific content in KV
+name: Finalize gestão de resultados in KV
 
 on:
   pull_request:
@@ -9,81 +9,31 @@ permissions:
   contents: read
 
 jobs:
-  reserve-kv:
-    name: Select and mark next specific content as analyzing
+  finalize-kv:
+    name: Mark gestão de resultados as done
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Select first available specific subject
+      - name: Mark done
         shell: bash
         run: |
-          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm.json
-          python3 - <<'PY'
-          import json
-          from urllib.parse import quote
-
-          candidates = [
-              ('tce-ma-2026-analista-administracao--controle-avaliacao-processo-organizacional', '/concursos/tce-ma-2026-analista-administracao/controle-avaliacao-processo-organizacional/'),
-              ('tce-ma-2026-analista-administracao--gestao-projetos', '/concursos/tce-ma-2026-analista-administracao/gestao-projetos/'),
-              ('tce-ma-2026-analista-administracao--empreendedorismo-governamental-novas-liderancas', '/concursos/tce-ma-2026-analista-administracao/empreendedorismo-governamental-novas-liderancas/'),
-              ('tce-ma-2026-analista-administracao--gestao-resultados-publica-privada-cliente', '/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-cliente/'),
-              ('tce-ma-2026-analista-administracao--sustentabilidade-publica-acessibilidade', '/concursos/tce-ma-2026-analista-administracao/sustentabilidade-publica-acessibilidade/'),
-              ('tce-ma-2026-analista-administracao--previsao-controle-estoques', '/concursos/tce-ma-2026-analista-administracao/previsao-controle-estoques/'),
-              ('tce-ma-2026-analista-administracao--almoxarifado', '/concursos/tce-ma-2026-analista-administracao/almoxarifado/'),
-              ('tce-ma-2026-analista-administracao--compras-organizacoes', '/concursos/tce-ma-2026-analista-administracao/compras-organizacoes/'),
-              ('tce-ma-2026-analista-administracao--analise-valor-alienacao', '/concursos/tce-ma-2026-analista-administracao/analise-valor-alienacao/'),
-              ('tce-ma-2026-analista-administracao--gestao-manutencao-conservacao-imoveis-publicos', '/concursos/tce-ma-2026-analista-administracao/gestao-manutencao-conservacao-imoveis-publicos/'),
-              ('tce-ma-2026-analista-administracao--fiscalizacao-contratos', '/concursos/tce-ma-2026-analista-administracao/fiscalizacao-contratos/'),
-              ('tce-ma-2026-analista-administracao--governo-eletronico-transparencia-controle-social', '/concursos/tce-ma-2026-analista-administracao/governo-eletronico-transparencia-controle-social/'),
-              ('tce-ma-2026-analista-administracao--lideranca-motivacao-desempenho', '/concursos/tce-ma-2026-analista-administracao/lideranca-motivacao-desempenho/'),
-              ('tce-ma-2026-analista-administracao--gestao-competencias', '/concursos/tce-ma-2026-analista-administracao/gestao-competencias/'),
-          ]
-
-          with open('/tmp/adm.json', encoding='utf-8') as stream:
-              document = json.load(stream)
-          links = document.get('json', {}).get('links', {})
-          print('KV_VERSION_BEFORE', document.get('version'))
-
-          for key, path in candidates:
-              item = links.get(key)
-              status = item.get('status') if isinstance(item, dict) else None
-              print('CANDIDATE', key, status or 'absent', item)
-              if status in {'done', 'analyzing'}:
-                  continue
-              selected = {'key': key, 'path': path}
-              payload = {'path': path, 'status': 'analyzing'}
-              with open('/tmp/selected.json', 'w', encoding='utf-8') as out:
-                  json.dump(selected, out, ensure_ascii=False)
-              with open('/tmp/payload.json', 'w', encoding='utf-8') as out:
-                  json.dump(payload, out, ensure_ascii=False)
-              with open('/tmp/pointer.txt', 'w', encoding='utf-8') as out:
-                  out.write(quote('/links/' + key, safe=''))
-              print('SELECTED_KEY', key)
-              print('SELECTED_PATH', path)
-              break
-          else:
-              raise SystemExit('no available specific subject found')
-          PY
-
-      - name: Mark selected subject as analyzing
-        shell: bash
-        run: |
-          pointer=$(cat /tmp/pointer.txt)
           curl --fail-with-body --silent --show-error \
             -X PUT \
             -H 'Content-Type: application/json' \
-            --data @/tmp/payload.json \
-            "https://kv.helio.me/adm/value?path=${pointer}" \
+            --data '"done"' \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--gestao-resultados-publica-privada-cliente%2Fstatus' \
             > /tmp/mutation.json
           python3 - <<'PY'
           import json
-          with open('/tmp/selected.json', encoding='utf-8') as stream:
-              selected = json.load(stream)
-          expected = {'path': selected['path'], 'status': 'analyzing'}
+          key = 'tce-ma-2026-analista-administracao--gestao-resultados-publica-privada-cliente'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-cliente/',
+              'status': 'done',
+          }
           with open('/tmp/mutation.json', encoding='utf-8') as stream:
               document = json.load(stream)
-          item = document['json']['links'][selected['key']]
+          item = document['json']['links'][key]
           print('MUTATION_ITEM', item)
           print('KV_VERSION_AFTER_MUTATION', document.get('version'))
           if item != expected:
@@ -96,12 +46,14 @@ jobs:
           curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm-after.json
           python3 - <<'PY'
           import json
-          with open('/tmp/selected.json', encoding='utf-8') as stream:
-              selected = json.load(stream)
-          expected = {'path': selected['path'], 'status': 'analyzing'}
+          key = 'tce-ma-2026-analista-administracao--gestao-resultados-publica-privada-cliente'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-cliente/',
+              'status': 'done',
+          }
           with open('/tmp/adm-after.json', encoding='utf-8') as stream:
               document = json.load(stream)
-          item = document['json']['links'][selected['key']]
+          item = document['json']['links'][key]
           print('PERSISTED_ITEM', item)
           print('KV_VERSION_PERSISTED', document.get('version'))
           if item != expected:
