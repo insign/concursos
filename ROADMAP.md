@@ -163,7 +163,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
   - 4.4.1. Processo Eletrônico Nacional (PEN).
   - 4.4.2. Sistema Eletrônico de Informações (SEI).
 
-##### [>] Em progresso Assunto 032 - Item 4, subitens 4.1, 4.2 e 4.3: Governo digital, Gov.br, dados abertos e transparência digital.
+##### [R] Em revisão Assunto 032 - Item 4, subitens 4.1, 4.2 e 4.3: Governo digital, Gov.br, dados abertos e transparência digital.
 
 - 4.1. Governo digital e serviços ao cidadão: plataforma Gov.br (login único, carteira digital, serviços integrados).
 - 4.2. Portal Nacional de Dados Abertos.
