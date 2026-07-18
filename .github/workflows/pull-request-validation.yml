@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: pull-request-validation-${{ github.event.pull_request.number }}
@@ -19,54 +19,8 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Check out pull request branch
+      - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-
-      - name: Materialize reviewed subject files
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import base64
-          import zlib
-          from pathlib import Path
-
-          root = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-direcao-processo-organizacional')
-          files = {
-              root / 'conteudo.md': [
-                  '.github/plan-dir-content.1',
-                  '.github/plan-dir-content.2',
-              ],
-              root / 'cheat-sheet.md': [
-                  '.github/plan-dir-cheat.1',
-              ],
-              root / 'questoes.json': [
-                  '.github/plan-dir-questions.1',
-                  '.github/plan-dir-questions.2',
-                  '.github/plan-dir-questions.3',
-              ],
-          }
-
-          for target, parts in files.items():
-              payload = ''.join(Path(part).read_text(encoding='utf-8').strip() for part in parts)
-              target.write_bytes(zlib.decompress(base64.b64decode(payload)))
-              print(f'materialized {target}: {target.stat().st_size} bytes')
-          PY
-
-          targets=(
-            'src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-direcao-processo-organizacional/conteudo.md'
-            'src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-direcao-processo-organizacional/cheat-sheet.md'
-            'src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/planejamento-direcao-processo-organizacional/questoes.json'
-          )
-
-          if ! git diff --quiet -- "${targets[@]}"; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add "${targets[@]}"
-            git commit -m 'content: aprofunda planejamento e direção'
-            git push origin HEAD:${{ github.head_ref }}
-          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
