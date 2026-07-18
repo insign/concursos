@@ -1,5 +1,6 @@
 .github/pontuacao-bundle.part1 chars= 5000 sha256= b952f8b8fb8eca403decd530bcf7ce1772271090606d34998325204b2d652f64
 .github/pontuacao-bundle.part2 chars= 5000 sha256= e5b3700269d17f1c34b480c96bb2057563bb81b771592821cc504cbf945fa6f5
+.github/pontuacao-bundle.part3 chars= 5000 sha256= bd3d353625386e659dc2d2c023a069be4e60555f497455ffd55cfec18db1c9fd
 Traceback (most recent call last):
   File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 287, in <module>
     main()
@@ -8,4 +9,4 @@ Traceback (most recent call last):
              ^^^^^^^^^^^^^
   File "/home/runner/work/concursos/concursos/.github/patch-pontuacao.py", line 35, in load_bundle
     raise RuntimeError(f"hash mismatch for {path}: {actual_hash}")
-RuntimeError: hash mismatch for .github/pontuacao-bundle.part2: e5b3700269d17f1c34b480c96bb2057563bb81b771592821cc504cbf945fa6f5
+RuntimeError: hash mismatch for .github/pontuacao-bundle.part3: bd3d353625386e659dc2d2c023a069be4e60555f497455ffd55cfec18db1c9fd
