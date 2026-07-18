@@ -107,7 +107,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 #### Competências Digitais e Informática Aplicada ao Setor Público
 
-##### [R] Em revisão Assunto 019 - Item 1, subitens 1.1 e 1.2: Cultura, cidadania, letramentos digitais, pensamento computacional, ética de dados e desinformação no serviço público.
+##### [x] Concluído Assunto 019 - Item 1, subitens 1.1 e 1.2: Cultura, cidadania, letramentos digitais, pensamento computacional, ética de dados e desinformação no serviço público.
 
 - 1.1. Conceitos fundamentais: cultura digital, cidadania digital, letramento digital e midiático (BNCC e Política Nacional de Educação Digital - Lei nº 14.533/2023).
 - 1.2. Pensamento computacional aplicado ao serviço público: análise crítica de informações, ética no uso de dados e combate à desinformação.
