@@ -62,31 +62,8 @@ jobs:
       - name: Run unit tests
         run: npm run test:unit
 
-      - name: Run Astro checks and persist diagnostic on failure
-        shell: bash
-        run: |
-          set +e
-          npm run check 2>&1 | tee /tmp/colocacao-check.log
-          status=${PIPESTATUS[0]}
-          set -e
-
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
-          if [ "$status" -ne 0 ]; then
-            cp /tmp/colocacao-check.log .github/colocacao-check.log
-            git add .github/colocacao-check.log
-            if ! git diff --cached --quiet; then
-              git commit -m 'ci: registra diagnóstico da revisão de colocação'
-              git push origin HEAD:${{ github.head_ref }}
-            fi
-          elif [ -f .github/colocacao-check.log ]; then
-            git rm -f .github/colocacao-check.log
-            git commit -m 'ci: remove diagnóstico resolvido de colocação'
-            git push origin HEAD:${{ github.head_ref }}
-          fi
-
-          exit "$status"
+      - name: Run Astro checks
+        run: npm run check
 
       - name: Build production site
         run: npm run build
