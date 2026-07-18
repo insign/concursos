@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: Colocação pronominal — folha de revisão
-description: Próclise, ênclise, mesóclise, locuções, cadeias verbais, funções de se, grafia e reescrita.
-order: 15
-storageId: colocacao-pronominal
----
-
 # Colocação pronominal — revisão rápida
 
 ## 1. Primeiro filtro
