@@ -139,7 +139,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 3.3. Armazenamento em nuvem (cloud storage): conceitos e aplicações (OneDrive, Google Drive).
 - Exclusividade: o subitem 3.1 é dividido entre os Assuntos 026 e 027 em backup e malware/proteção/ameaças, sem omissão ou duplicação; o subitem 3.3 (armazenamento em nuvem) permanece agrupado com backup, como já documentado.
 
-##### [R] Em revisão Assunto 027 - Item 3, subitem 3.1, recorte: Malware, programas de proteção, phishing e pharming.
+##### [x] Concluído Assunto 027 - Item 3, subitem 3.1, recorte: Malware, programas de proteção, phishing e pharming.
 
 - 3.1. Segurança da informação: noções de vírus, worms e pragas virtuais; programas de proteção (antivírus, firewall, anti-spyware); ameaças digitais (phishing, pharming).
 
