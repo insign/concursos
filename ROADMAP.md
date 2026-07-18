@@ -212,7 +212,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - Item 5. Princípios de contagem e probabilidade.
 
-##### [ ] Assunto 042 - Item 6: Operações com conjuntos.
+##### [>] Em progresso Assunto 042 - Item 6: Operações com conjuntos.
 
 ##### [ ] Assunto 043 - Item 7, recorte: problemas aritméticos.
 
