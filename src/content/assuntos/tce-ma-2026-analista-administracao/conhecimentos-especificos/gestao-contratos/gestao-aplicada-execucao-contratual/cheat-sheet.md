@@ -1,247 +1,346 @@
 # Gestão aplicada da execução contratual
 
-## Leitura normativa
+## Fontes e âmbito
 
-- Lei nº 14.133/2021: norma geral, especialmente arts. 92, 115, 117, 118 e 123.
-- IN nº 5/2017: modelo operacional federal de serviços.
-- IN nº 98/2022: aplicação federal da IN nº 5/2017 sob a nova lei somente **no que couber**.
-- Decretos nº 11.246/2022 e nº 13.031/2026: modelos federais; não vinculam automaticamente o TCE-MA.
+| Fonte | Papel | Âmbito |
+|---|---|---|
+| Lei nº 14.133/2021 | Base geral | Administração abrangida pela lei |
+| IN nº 5/2017 | Modelo operacional de serviços | Federal, no que couber |
+| IN nº 98/2022 | Uso da IN nº 5 sob a nova lei | Federal |
+| Decreto nº 11.246/2022 | Gestor, fiscais, assistência e recebimento | Federal |
+| Decreto nº 13.031/2026 | Contratos.gov.br e modelo atualizado | Federal |
+| Norma interna | Competência, fluxo e sistema | TCE-MA ou ente |
+| Contrato | Obrigação, indicador, evidência e efeito | Caso concreto |
+
+- Norma federal operacional não vincula automaticamente o TCE-MA.
+- Corte desta revisão: **19 de julho de 2026**.
 
 ## Cadeia de controle
 
-| Elemento | Função |
+| Elemento | Pergunta |
 |---|---|
-| Obrigação | O que deve ser entregue |
-| Indicador | Como parte relevante será medida |
-| Evidência | O que prova a execução |
-| Consequência | Tratamento contratual do resultado |
+| Obrigação | O que deve ser entregue? |
+| Indicador | Como medir parte relevante? |
+| Evidência | O que prova o fato? |
+| Consequência | Qual tratamento foi previsto? |
 
-- Começar pelo resultado e pelo risco.
-- Indicador sem evidência reproduzível não é auditável.
-- Indicador sem consequência pode ser apenas informativo.
-- Excesso de métricas também prejudica o controle.
+## Medida, meta e compromisso
 
-## SLA e IMR
+| Conceito | Função |
+|---|---|
+| SLI | Resultado observado |
+| SLO | Meta pretendida |
+| SLA | Compromisso contratual |
+| IMR | Estrutura federal de aferição |
+| Aceitação | Condição para receber |
+| Consequência | Efeito do resultado |
 
-- SLA: conjunto de compromissos de nível de serviço.
-- IMR: técnica da IN nº 5/2017 para estruturar e aferir resultados.
-- SLA e IMR podem se relacionar, mas não são sinônimos necessários.
-- Obrigação material deve estar no contrato ou anexo integrante.
-- Fiscal não cria meta durante a execução.
-- IMR mede resultado; não é sanção.
+- SLI e SLO são termos técnicos frequentes.
+- Indicador não cria obrigação.
+- IMR não é sanção.
 
-## Indicador completo
+## Ficha do indicador
 
-1. Nome e finalidade.
-2. Fórmula ou critério.
-3. Unidade.
-4. População e exclusões.
-5. Fonte de dados.
-6. Periodicidade.
-7. Meta.
-8. Tolerância.
-9. Evidência.
-10. Responsáveis.
-11. Consequência prevista.
+- finalidade;
+- fórmula;
+- unidade;
+- população;
+- exclusões;
+- início e fim do relógio;
+- horário útil ou corrido;
+- calendário e fuso;
+- severidade;
+- reabertura e duplicidade;
+- arredondamento;
+- período;
+- fonte primária;
+- versão e vigência;
+- dado ausente;
+- evento contestado;
+- evidência;
+- responsáveis;
+- consequência.
 
-## Fórmulas típicas
+## Fórmulas
 
-$$
-\text{Disponibilidade} = \frac{\text{tempo previsto} - \text{indisponibilidade computável}}{\text{tempo previsto}} \times 100
-$$
+```text
+disponibilidade =
+(tempo previsto − indisponibilidade computável)
+÷ tempo previsto × 100
+```
 
-$$
-\text{Índice de prazo} = \frac{\text{demandas no prazo}}{\text{demandas computáveis}} \times 100
-$$
+```text
+prazo =
+demandas computáveis concluídas no prazo
+÷ demandas concluídas computáveis × 100
+```
 
-$$
-\text{Conformidade} = \frac{\text{entregas sem correção}}{\text{entregas avaliadas}} \times 100
-$$
+```text
+conformidade =
+entregas aceitas sem correção
+÷ entregas avaliadas × 100
+```
 
-- Definir denominador e exclusões.
-- Percentual não substitui análise de criticidade.
-- Manutenção programada só é excluída se a regra aplicável permitir.
+## Integridade do dado
 
-## Meta e tolerância
+- identificador único;
+- relógio sincronizado;
+- trilha de criação e alteração;
+- segregação entre registrar e validar;
+- fonte primária independente;
+- relatório de mudanças;
+- conciliação entre sistemas;
+- memória reproduzível;
+- retenção definida.
 
-- Meta: desempenho esperado.
-- Tolerância: margem limitada, justificada e prévia.
-- Tolerância não cria direito permanente ao desempenho inferior.
-- Evitar efeito penhasco e zona sem tratamento.
-- Fator de ajuste deve guardar relação com o resultado e o contrato.
+## Manipulação de métricas
 
-## Quantitativo e qualitativo
+| Conduta | Risco |
+|---|---|
+| fechar e reabrir | encurtar prazo |
+| rebaixar severidade | ampliar prazo |
+| excluir evento | melhorar resultado |
+| iniciar registro tarde | encurtar duração |
+| escolher amostra | superestimar qualidade |
+| chamar falha de manutenção | retirar indisponibilidade |
+| editar sem log | impedir auditoria |
 
-- Indicador não precisa ser percentual.
-- Qualidade pode exigir teste, inspeção, amostra ou rubrica.
-- “Bom”, “regular” e “ruim” sem fatos observáveis são subjetivos.
-- Pesquisa de satisfação é complementar.
-- Satisfação não sana descumprimento técnico ou legal.
+## Estatística
 
-## Integridade dos dados
+- média pode esconder cauda;
+- mediana resiste a extremo;
+- percentil mostra limite de parte da distribuição;
+- máximo revela pior caso;
+- proporção no prazo responde cumprimento;
+- segmentar por severidade evita mistura indevida.
 
-- Rastreabilidade de criação e alteração.
-- Perfis de acesso.
-- Preservação de logs e documentos.
-- Tratamento de ausências e duplicidades.
-- Conferência por fonte independente ou amostra.
-- Memória de cálculo reproduzível.
-- Relatório da contratada exige validação administrativa.
-- Contratada não avalia sozinha o próprio desempenho.
+## Piso crítico
 
-## Papel do fiscalizador
+- requisito eliminatório;
+- piso mínimo;
+- teto do escore global;
+- indicador crítico independente;
+- não compensação;
+- consequência própria.
 
-1. Conhecer contrato e modelo de gestão.
-2. Observar a execução.
-3. Comparar fato e critério.
-4. Produzir e validar evidência.
-5. Registrar ocorrência.
-6. Determinar correção dentro da competência.
-7. Verificar atendimento.
-8. Escalar tempestivamente o excedente.
+## Evidências
 
-- Fiscalização não é presença simbólica.
-- Ateste exige suporte documental.
-- Controle deve ser proporcional ao risco.
+| Evidência | Uso |
+|---|---|
+| registro primário | evento na origem |
+| log íntegro | autoria e horário |
+| teste reproduzível | comportamento |
+| documento assinado | declaração e autoria |
+| foto ou vídeo | condição visual |
+| relatório derivado | síntese dependente da origem |
+| entrevista | contexto com corroboração |
+| captura de tela | apoio limitado |
 
-## Ferramentas de fiscalização
+## Amostragem
 
-- Inspeção presencial.
-- Teste funcional.
-- Checklist.
-- Foto ou vídeo.
-- Logs de sistema.
-- Amostragem.
-- Pesquisa com usuários.
-- Conciliação de fontes.
-- Reunião com ata.
+| Método | Uso |
+|---|---|
+| aleatória | reduzir viés |
+| estratificada | representar grupos |
+| sistemática | intervalos definidos |
+| por risco | focar criticidade |
+| censitária | população pequena ou crítica |
+| reexecução | repetir cálculo ou teste |
 
-- A ferramenta deve provar a obrigação examinada.
-- Foto não prova disponibilidade mensal.
-- Log pode não provar qualidade percebida.
+Registrar população, período, unidade, método, tamanho, exclusões, seleção, resultado e limitações.
 
-## Limites do fiscalizador
+## Papéis
 
-- Não altera objeto ou remuneração informalmente.
-- Não cria obrigação nova.
-- Não dirige empregados da contratada.
-- Não assume a execução.
-- Não aplica sanção sem competência e processo.
-- Não atesta genericamente.
-- Não retém assunto que deve ser escalado.
+| Atividade | Fiscal | Gestor | Preposto | Autoridade |
+|---|---|---|---|---|
+| coletar evidência | executa | acompanha | fornece | — |
+| validar medição | executa | consolida | manifesta-se | — |
+| exigir correção | executa | acompanha | mobiliza | — |
+| alterar contrato | instrui | propõe | representa | decide |
+| sancionar | registra | instrui | defende-se | decide |
+| decidir pleito | instrui | encaminha | formula | decide |
 
-## Registro útil
+## Fiscal
 
-- Período, local e responsável.
-- Cláusula, obrigação ou indicador.
-- Método e fonte.
-- Fato e evidência.
-- Memória de cálculo.
-- Manifestação do preposto.
-- Correção, prazo e verificação.
-- Impacto e encaminhamento.
+Pode:
+
+- observar;
+- testar;
+- medir;
+- registrar;
+- exigir correção prevista;
+- verificar correção;
+- escalar matéria;
+- atestar conforme atribuição.
+
+Não pode:
+
+- criar obrigação;
+- alterar preço ou objeto;
+- dirigir empregados;
+- assumir a execução;
+- sancionar sem competência;
+- atestar sem prova;
+- reter matéria fora da alçada.
+
+## Assistência por terceiros
+
+- terceiro pode subsidiar;
+- laudo deve ser avaliado;
+- terceiro responde pelo que fornece;
+- responsabilidade do fiscal permanece;
+- decisão é do agente competente.
 
 ## Preposto
 
-- Representa a contratada.
-- Deve ser aceito pela Administração.
-- Recebe comunicações.
-- Mobiliza a resposta empresarial.
-- Apresenta informação e justificativa.
-- Acompanha medição e toma ciência.
-- Organiza correções.
-- Não substitui fiscal nem responsável técnico.
+- representa a contratada;
+- recebe comunicações;
+- mobiliza a empresa;
+- apresenta justificativa e evidência;
+- acompanha a medição;
+- organiza correção;
+- não substitui o fiscal;
+- não substitui responsável técnico.
 
-## Poderes e substituição do preposto
+A recusa ou substituição deve ser motivada.
 
-- Poderes compatíveis, não ilimitados.
-- Definir canal, prazo, documentos e contingência.
-- Presença contínua somente quando a natureza justificar.
-- Recusa ou substituição: motivada e ligada à execução.
-- Troca deve preservar histórico e pendências.
+## Ordens e não ingerência
 
-## Sem ingerência trabalhista
+Regra: solicitações aos empregados passam pelo preposto.
 
-- Fiscal exige resultado contratual.
-- Preposto organiza os trabalhadores.
-- Ordens aos empregados passam ordinariamente pelo preposto.
-- Fiscal não é chefe da equipe terceirizada.
-- Preposto não impede acesso legítimo à fiscalização.
+Exceção: tarefa específica previamente prevista pode admitir notificação operacional direta.
 
-## Ciclo de acompanhamento
+Nunca autoriza:
 
-| Fase | Núcleo |
+- ordem pessoal estranha ao objeto;
+- gestão de jornada ou folga;
+- escolha informal de empregado;
+- criação de obrigação;
+- subordinação trabalhista.
+
+## Eventos
+
+| Evento | Pergunta |
 |---|---|
-| Preparar | Papéis, canais, indicadores e evidências |
-| Observar | Dados, inspeções, testes e usuários |
-| Tratar | Registrar, comunicar, corrigir e escalar |
-| Aprender | Histórico, riscos e melhoria futura |
+| incidente | houve degradação? |
+| não conformidade | requisito foi descumprido? |
+| solicitação | atividade prevista foi pedida? |
+| mudança | ambiente será alterado? |
+| pleito | parte pede reconhecimento? |
+| risco materializado | previsão ocorreu? |
+| problema | qual causa recorrente? |
 
-- O ciclo se repete.
-- Relatório mensal não substitui reação imediata.
+## Incidente
 
-## Reunião inicial
+```text
+detectar
+→ classificar
+→ preservar
+→ comunicar
+→ conter
+→ restaurar
+→ resolver
+→ validar
+→ analisar causa
+→ corrigir
+→ prevenir
+→ encerrar
+```
 
-- Alinhar papéis e substitutos.
-- Confirmar cronograma e marcos.
-- Confirmar indicadores e fontes.
-- Definir canais e prazos.
-- Organizar acessos e registros.
-- Discutir riscos e contingências.
-- Registrar em ata.
-- Ata não altera materialmente o contrato.
+- resposta ≠ contenção;
+- restauração ≠ resolução definitiva;
+- resolução ≠ validação;
+- correção ≠ apagamento da ocorrência.
 
-## Frequência por risco
+## Governança
 
-- Dano rápido → controle mais frequente.
-- Etapa irreversível → inspeção antes da ocultação.
-- Serviço essencial → alerta tempestivo.
-- Dados frágeis → validação reforçada.
-- Histórico ruim → intensidade maior.
-- Baixo risco → amostra documentada pode bastar.
+| Rito | Finalidade |
+|---|---|
+| reunião inicial | ativar papéis e canais |
+| operacional | acompanhar pendências |
+| mensal | fechar medição |
+| incidente crítico | impacto e causa |
+| riscos | atualizar controles |
+| mudança | avaliar efeitos |
+| transição | transferir histórico |
+| encerramento | concluir pendências |
+
+Toda ata útil contém ação, responsável, prazo, estado e evidência.
 
 ## Tratamento do desvio
 
-1. Preservar evidência.
-2. Relacionar fato e obrigação.
-3. Avaliar urgência e competência.
-4. Comunicar o preposto.
-5. Definir correção e prazo.
-6. Analisar manifestação.
-7. Verificar correção.
-8. Atualizar medição e riscos.
-9. Escalar o excedente.
+1. preservar evidência;
+2. ligar fato ao critério;
+3. avaliar urgência e competência;
+4. comunicar o preposto;
+5. exigir correção prevista;
+6. analisar manifestação;
+7. testar eficácia;
+8. atualizar medição e risco;
+9. escalar o excedente.
 
-- Correção não apaga ocorrência.
-- Correção e responsabilização são trilhas distintas.
+Trilhas distintas:
 
-## Dever de decidir
+- corrigir;
+- medir;
+- decidir valor devido;
+- apurar responsabilidade.
 
-- Lei nº 14.133/2021, art. 123: decisão explícita.
-- Ressalvas: requerimento manifestamente impertinente, meramente protelatório ou sem interesse para a boa execução.
-- Lei: um mês após conclusão da instrução.
-- Decreto federal nº 11.246/2022: um mês do protocolo do requerimento.
-- Prorrogação: uma vez, por igual período, motivadamente.
-- Prazo específico legal ou contratual prevalece.
+## Decisões e requerimentos
 
-## Modelo federal de 2026
+- decisão deve ser explícita;
+- requerimento manifestamente impertinente pode receber tratamento próprio;
+- fonte pedida define termo inicial;
+- fiscal instrui, autoridade decide quando necessário;
+- silêncio não substitui decisão.
 
-- Contratos.gov.br: âmbito federal definido no Decreto nº 13.031/2026.
-- Requisitos completos do modelo interno: Assunto 133.
-- Recorte aplicado: canal com preposto + avaliação da conformidade + registros íntegros.
-- Obrigatoriedade federal não equivale a adoção automática pelo TCE-MA.
+## Transição
+
+Transferir:
+
+- pendências;
+- incidentes;
+- pleitos;
+- medições;
+- acessos;
+- ativos;
+- documentos;
+- dados;
+- conhecimento;
+- prazos;
+- riscos.
+
+Revogar credenciais antigas. Treinamento exige conteúdo, público, prova e aceite.
 
 ## Pegadinhas
 
-- “SLA pode nascer em reunião” → errado.
-- “Todo indicador é percentual” → errado.
-- “Relatório da empresa basta” → errado.
-- “IMR é sanção” → errado.
-- “Fiscal só observa” → errado.
-- “Fiscal pode criar obrigação” → errado.
-- “Preposto representa a Administração” → errado.
-- “Fiscal dirige terceirizados” → errado.
-- “Ata altera o contrato” → errado.
-- “Correção elimina o registro” → errado.
-- “Medição mensal permite demora crítica” → errado.
-- “Contratos.gov.br obriga o TCE-MA” → errado.
+| Afirmação | Julgamento |
+|---|---|
+| média adequada prova atendimento uniforme | errado |
+| percentil revela cauda | certo |
+| contratada escolhe sozinha a amostra | errado |
+| sistema eletrônico garante verdade | errado |
+| severidade pode ser manipulada | certo |
+| falha crítica pode ter piso não compensável | certo |
+| restauração sempre é resolução | errado |
+| terceiro transfere responsabilidade do fiscal | errado |
+| preposto assume responsabilidade da Administração | errado |
+| ordem direta é sempre permitida | errado |
+| reunião inicial muda fórmula | errado |
+| foto prova disponibilidade mensal | errado |
+| correção apaga ocorrência | errado |
+| troca de fiscal reinicia histórico | errado |
+| Contratos.gov.br é obrigatório ao TCE-MA | errado |
+
+## Sequência de prova
+
+1. identifique obrigação;
+2. identifique fonte e âmbito;
+3. defina evento e população;
+4. valide relógio e evidência;
+5. calcule resultado;
+6. ouça a contratada;
+7. trate correção;
+8. separe pagamento e sanção;
+9. escale competência;
+10. preserve histórico.
