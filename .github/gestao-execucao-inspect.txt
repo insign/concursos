@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<stdin>", line 20, in <module>
+  File "/usr/lib/python3.12/bz2.py", line 333, in decompress
+    res = decomp.decompress(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Invalid data stream
+.github/gestao-execucao-bundle.part1 chars= 6000 sha256= de2146983f3eaaba9abc3f1bc6d892730cff1005bb27f56b9e5380aea1116edc
+.github/gestao-execucao-bundle.part2 chars= 6000 sha256= 8fbbf89165f7de57ae6cb2bc3f4f443393afa9e78b0c8f79f64c2535a05f9c6e
+.github/gestao-execucao-bundle.part3 chars= 6000 sha256= db20da5ac7db7ed21585eb7a32a3f567c4197d231939163e386cbfe6fdce066e
+.github/gestao-execucao-bundle.part4 chars= 6000 sha256= 1bcc797647a269cd40e7d6cd09e9aba0b6df9550f2246fd481c1bd86360360d0
+.github/gestao-execucao-bundle.part5 chars= 2988 sha256= dcdebce3563ef76c4bc58c45e4fdf973fbf9b4bd07b53b3a6d2d423399cfa4f3
+payload chars= 26988 sha256= ec6407a3b2ab3d67b270c891f57bd1b165a016a12bfeb135ff7fed75fb2081c3
+compressed bytes= 20240 sha256= f32680819f1391178f6576fe7abc359f836fdc4561d320ef92fdad8906a02260
