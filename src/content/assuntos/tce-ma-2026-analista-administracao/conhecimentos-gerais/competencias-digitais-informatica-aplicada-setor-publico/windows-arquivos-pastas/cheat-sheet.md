@@ -48,8 +48,7 @@ Abas:
 
 ## 3. Caminhos, nomes, extensões e pesquisa
 
-Exemplo: `C:\Users\Ana\Documents
-elatorio.docx`
+Exemplo: `C:\Users\Ana\Documents\relatorio.docx`
 
 - `C:` = unidade; `C:\` = raiz; `\` separa níveis;
 - mesmo nome pode existir em caminhos diferentes;
@@ -60,7 +59,7 @@ Nomes:
 
 | Regra | Exemplos |
 |---|---|
-| proibidos | `< > : " / \ | ? *` |
+| proibidos | `<`, `>`, `:`, `"`, `/`, `\`, `?`, `*` e barra vertical |
 | reservados | `CON`, `PRN`, `AUX`, `NUL`, `COM1`–`COM9`, `LPT1`–`LPT9` |
 | extensão não neutraliza | `CON.txt` continua inválido |
 | terminação | não encerrar por espaço ou ponto |
