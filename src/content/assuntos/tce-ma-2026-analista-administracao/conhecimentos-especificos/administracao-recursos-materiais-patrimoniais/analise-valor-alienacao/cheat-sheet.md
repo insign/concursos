@@ -1,318 +1,428 @@
-# Análise do valor e alienação
+---
+schemaVersion: 1
+title: Análise do valor e alienação — revisão rápida
+description: Funções, Job Plan, custo do ciclo, alienação, leilão, circularidade, avaliação, resíduos, dados, baixa e auditoria.
+order: 123
+storageId: analise-valor-alienacao-cheat
+---
 
-## Mapa central
+# Análise do valor e alienação — revisão rápida
 
-- Análise do valor: melhorar relação entre funções e recursos.
-- Avaliação patrimonial: estimar valor monetário para decisão, registro ou alienação.
-- Alienação: transferir propriedade.
-- Baixa: registrar desincorporação após fato válido.
-- Descarte: encaminhar resíduo ou rejeito à solução ambiental adequada.
+## 1. Núcleo do assunto
 
-> Menor preço não garante maior valor; baixa no sistema não transfere propriedade.
+```text
+análise do valor = funções + desempenho + alternativas + recursos
+alienação = transferência de propriedade por forma juridicamente admitida
+baixa = registro de desincorporação sustentado por fato válido
+desfazimento = processo que reúne diferentes alternativas de destinação
+```
 
-## Metodologia de valor
+Menor preço não garante melhor valor. Receita elevada não convalida alienação irregular.
 
-$$
-\text{Valor} = \frac{\text{desempenho das funções}}{\text{recursos}}
-$$
+## 2. Terminologia da metodologia de valor
 
-- Recursos: dinheiro, tempo e outros meios necessários.
-- Valor melhora com mais desempenho funcional para recursos proporcionais ou com mesma função para menos recursos.
-- Cortar requisito necessário piora o valor.
-- A fórmula é gerencial, não contábil ou jurídica.
-
-| Conceito | Essência |
+| Termo | Uso frequente |
 | --- | --- |
-| preço | montante da transação |
-| custo | recursos consumidos pela solução |
-| *worth* | recurso justificável para realizar a função |
-| valor | relação entre função/desempenho e recursos |
-| avaliação patrimonial | estimativa monetária do bem |
-| ABC | custos atribuídos por atividades |
+| Value Methodology | abordagem geral |
+| Value Analysis | solução já existente |
+| Value Engineering | projeto ou desenvolvimento |
+| Value Management | governança de decisões e portfólios |
 
-- Análise de custos e ABC podem fornecer dados; não substituem Job Plan.
-- Análise do custo do ciclo de vida é ferramenta; não equivale à metodologia completa.
+As divisões variam entre fontes. Preserve o núcleo funcional.
 
-## Funções
+## 3. Preço, custo, *worth*, valor e avaliação
+
+| Conceito | Pergunta |
+| --- | --- |
+| preço | quanto se paga ou se oferece? |
+| custo | quais recursos são consumidos? |
+| *worth* | quanto recurso se justifica para a função? |
+| valor | o desempenho requerido é entregue com recursos adequados? |
+| avaliação patrimonial | qual estimativa monetária sustenta a decisão? |
+
+Relação custo/*worth* alta indica oportunidade de estudo, não corte automático.
+
+## 4. Funções
 
 - Função básica: razão essencial de existência.
-- Funções secundárias: apoiam, protegem, informam ou facilitam.
-- Formular por verbo de ação + substantivo mensurável.
-- “Restringir acesso” abre alternativas; “instalar fechadura X” antecipa solução.
-- Função cara pode ser indispensável.
-- Função secundária não é sinônimo de dispensável.
+- Função secundária: apoia, protege, informa ou facilita.
+- Secundária não significa dispensável.
+- Formulação preferida: **verbo de ação + substantivo mensurável**.
+- “Restringir acesso” é melhor que “instalar fechadura X”.
+- Função precisa de critério de desempenho.
 
-### FAST
-
-- Relaciona funções pela lógica “como?” e “por quê?”.
-- Ajuda a separar função básica e funções de suporte.
-- Não é organograma, lista de materiais, orçamento ou fluxograma comum.
-- É ferramenta metodológica, não obrigação legal brasileira geral.
-
-## Job Plan SAVE
-
-1. preparação: escopo, momento, equipe e critérios;
-2. informação: necessidade, requisitos, dados, custos, riscos e restrições;
-3. análise de função: funções, desempenho, custo e importância;
-4. criatividade: alternativas sem julgamento prematuro;
-5. avaliação: viabilidade, função, qualidade, risco e custo global;
-6. desenvolvimento: testes, especificação, custos e implementação;
-7. apresentação: recomendação fundamentada aos decisores;
-8. implementação: aprovação, execução e medição.
-
-- Fontes podem agrupar preparação e encerramento de modo diferente.
-- Não misturar criatividade e crítica prematura.
-- Equipe multidisciplinar amplia dados e reduz visão parcial.
-- Equipe recomenda; autoridade competente decide.
-- Economia prevista só se realiza após implementação.
-
-## Custo do ciclo
-
-$$
-\text{custo do ciclo} =
-\text{aquisição} + \text{implantação} + \text{operação} + \text{manutenção}
-+ \text{indisponibilidade} + \text{destinação} - \text{valor residual}
-$$
-
-- Ajustar componentes ao caso.
-- Considerar valor do dinheiro no tempo quando relevante.
-- Incluir treinamento, consumíveis, energia, licenças, peças, logística e risco quando materiais.
-- Preço inicial menor pode produzir custo global maior.
-- Alternativas comparadas devem atender às mesmas funções requeridas.
-
-## Aplicações
-
-- questionar tolerância, acabamento ou requisito sem contribuição funcional;
-- padronizar sem eliminar compatibilidade necessária;
-- substituir material somente após validação técnica;
-- comparar reparar, modernizar e substituir;
-- comparar fazer, comprar e contratar por capacidade, qualidade, risco e custo global;
-- projetar para durabilidade, eficiência, manutenção e destinação.
-
-## Atos distintos
-
-| Ato | Efeito |
+| Função | Medida possível |
 | --- | --- |
-| reaproveitar | manter bem útil no acervo |
-| ceder | transferir posse/uso nos limites do regime |
-| transferir | mudar unidade, órgão ou titularidade conforme a norma |
-| alienar | transferir propriedade |
-| descartar | destinar resíduo/rejeito |
-| baixar | registrar desincorporação |
-| descarregar na IN 205 | transferir responsabilidade pela guarda |
+| restringir acesso | tentativas não autorizadas impedidas |
+| conservar documento | período e condição de preservação |
+| transportar carga | capacidade, tempo e integridade |
+| manter serviço | disponibilidade e recuperação |
+| reduzir consumo | insumo por unidade de resultado |
 
-- Cessão não implica sempre propriedade.
-- Alienação pode gerar baixa; baixa não é alienação.
-- Ocioso para uma unidade pode ser útil para outra.
-- Depreciação total não prova inutilidade.
-- Obsolescência não significa destruição física.
+## 5. FAST
 
-## Bens públicos
+FAST:
 
-| Código Civil | Alienabilidade |
+- relaciona funções;
+- explora “como?” e “por quê?”;
+- ajuda a distinguir básica e suporte.
+
+FAST não é:
+
+- organograma;
+- lista de materiais;
+- orçamento;
+- fluxograma cronológico comum;
+- exigência geral da legislação brasileira.
+
+## 6. Job Plan
+
+| Fase | Produto |
 | --- | --- |
-| uso comum do povo | inalienável enquanto mantiver a qualificação |
-| uso especial | inalienável enquanto mantiver a qualificação |
-| dominical | alienável conforme exigências legais |
+| preparação | escopo, equipe, agenda e patrocínio |
+| informação | requisitos, dados, custos, riscos e restrições |
+| análise de função | funções e oportunidades custo/*worth* |
+| criatividade | alternativas sem crítica prematura |
+| avaliação | comparação técnica, econômica e de risco |
+| desenvolvimento | detalhamento, teste e implementação |
+| apresentação | recomendação fundamentada |
+| implementação | execução e medição |
 
-- Bem dominical continua público.
-- Ociosidade não desafeta bem de uso comum ou especial.
-- Alteração da destinação depende de regime e ato competente.
-- Bem público não se sujeita a usucapião.
-- Uso comum pode ser gratuito ou retribuído conforme a disciplina legal do ente.
+Equipe recomenda; autoridade competente decide.
 
-## Lei nº 14.133/2021, art. 76
+## 7. Benefícios
 
-Requisitos comuns:
+| Estágio | Significado |
+| --- | --- |
+| oportunidade | possibilidade |
+| estimativa | cálculo preliminar |
+| aprovação | decisão formal |
+| implementação | mudança executada |
+| realização | resultado medido |
+| benefício líquido | resultado menos transição e efeitos adversos |
 
-1. interesse público devidamente justificado;
+Diferencie:
+
+- redução de despesa;
+- custo evitado;
+- postergação;
+- transferência de custo;
+- ganho operacional;
+- benefício ambiental.
+
+## 8. Custo do ciclo de vida
+
+```text
+ciclo =
+aquisição
++ implantação
++ operação
++ manutenção
++ indisponibilidade
++ destinação
+− valor residual
+```
+
+Para períodos longos:
+
+\[
+VP=C_0+\sum_{t=1}^{n}\frac{C_t}{(1+i)^t}
+-\frac{VR_n}{(1+i)^n}
+\]
+
+Teste taxa, vida útil, energia, falhas, indisponibilidade, valor residual e cenários.
+
+Custo de transição pode incluir treinamento, migração, integração, paralisação, adaptação e estoque remanescente.
+
+## 9. Atos patrimoniais
+
+| Ato | Efeito principal |
+| --- | --- |
+| reaproveitamento | mantém utilidade no acervo |
+| cessão | transfere uso, posse ou responsabilidade conforme regime |
+| transferência | muda unidade, órgão ou titularidade conforme norma |
+| alienação | transfere propriedade |
+| reciclagem/descarte | destinação física e ambiental |
+| baixa | registra desincorporação |
+| descarga da IN 205 | transfere responsabilidade pela guarda |
+
+Baixa não aliena. Entrega a reciclador não é sinônimo de baixa. Desreconhecimento contábil não prova retirada física.
+
+## 10. Natureza dos bens públicos
+
+| Classe | Regra |
+| --- | --- |
+| uso comum | inalienável enquanto mantida a qualificação |
+| uso especial | inalienável enquanto mantida a qualificação |
+| dominical | pode ser alienado conforme a lei |
+
+Ociosidade não produz desafetação automática. Dominical continua sendo público.
+
+## 11. Fontes e âmbitos
+
+| Fonte | Papel |
+| --- | --- |
+| Código Civil | natureza e alienabilidade |
+| Lei 14.133/2021 | requisitos gerais, leilão e dispensa |
+| Decreto 11.461/2023 | leilão eletrônico do Executivo federal |
+| Decreto 12.785/2025 | circularidade federal de móveis |
+| IN SEDAP 205/1988 | conceitos do SISG federal |
+| norma interna | comissão, alçadas, formulários e sistemas |
+
+Norma federal operacional não vira automaticamente regulamento do TCE-MA.
+
+## 12. Lei nº 14.133/2021 — art. 76
+
+Alienação exige:
+
+1. interesse público justificado;
 2. avaliação prévia;
-3. competência e processo;
-4. leilão ou hipótese legal estrita de dispensa;
-5. requisitos próprios do bem móvel ou imóvel.
+3. competência e formalização;
+4. leilão como regra ou hipótese legal de dispensa;
+5. requisitos próprios do tipo de bem.
 
-### Móveis: leilão como regra
+Dispensa de licitação não dispensa processo, avaliação ou motivação.
 
-Dispensas do art. 76, II:
+### Bens móveis — hipóteses legais
 
-- doação para fins e uso de interesse social, após comparação socioeconômica;
-- permuta exclusivamente entre órgãos ou entidades públicas;
-- venda de ações, que poderão ser negociadas em bolsa, com legislação específica;
-- venda de títulos, com legislação pertinente;
-- venda de bens produzidos/comercializados pela finalidade da entidade;
-- venda de materiais/equipamentos sem uso previsível a outro órgão ou entidade pública.
+- doação para fins e uso de interesse social, com comparação socioeconômica;
+- permuta entre órgãos ou entidades da Administração;
+- venda de ações;
+- venda de títulos;
+- venda de bens produzidos ou comercializados pela finalidade da entidade;
+- venda de materiais e equipamentos sem utilização previsível para outros órgãos ou entidades.
 
-> Dispensa de licitação não dispensa avaliação, motivação ou processo.
-
-### Imóveis
-
-- Regra: autorização legislativa + avaliação + leilão + interesse público.
-- Art. 76, I: hipóteses específicas de dispensa.
-- Aquisição judicial ou dação em pagamento: dispensa autorização legislativa, mas mantém avaliação e leilão.
-- Não transportar hipótese de móvel para imóvel ou vice-versa.
+Não amplie por analogia.
 
 ### Doação com encargo
 
-- Regra: licitação.
-- Instrumento: encargos, prazo e cláusula de reversão, sob pena de nulidade.
-- Dispensa possível por interesse público devidamente justificado.
-- Monitorar cumprimento e reversão.
+- instrumento com encargo;
+- prazo;
+- cláusula de reversão;
+- monitoramento;
+- licitação, salvo interesse público devidamente justificado para dispensa.
 
-## Leilão
+## 13. Leilão
 
-- Objeto: imóveis ou móveis inservíveis/legalmente apreendidos.
-- Critério: maior lance.
-- Maior lance abaixo do preço mínimo não vence automaticamente.
-- Condutor: leiloeiro oficial ou servidor designado.
-- Sem cadastro prévio e sem fase de habilitação.
+- critério: maior lance;
+- lance precisa respeitar mínimo;
+- sem cadastro prévio;
+- sem fase de habilitação;
+- edital descreve bem, avaliação, mínimo, pagamento, comissão, localização e ônus;
+- publicidade suficiente;
+- pagamento antes da conclusão e retirada conforme rito aplicável.
 
-Edital informa:
+### Condutor
 
-- descrição e características;
-- avaliação e preço mínimo;
-- condições de pagamento e comissão, se houver;
-- localização dos móveis;
-- sítio/período ou local/data da forma presencial excepcional;
-- ônus, gravames e pendências.
+- servidor designado; ou
+- leiloeiro oficial.
 
-Publicidade:
+Leiloeiro oficial: seleção por credenciamento ou pregão segundo o art. 31, § 1º, e o regulamento aplicável. Servidor não recebe comissão de leiloeiro.
 
-- sítio eletrônico oficial;
-- afixação em local de ampla circulação na sede;
-- outros meios necessários à competição.
+### Leilão sem êxito
 
-## Decreto federal nº 12.785/2025
+Não reduza mínimo automaticamente. Reexamine:
 
-Âmbito: Administração Pública federal direta, autárquica e fundacional.
+- avaliação e data-base;
+- descrição e condição;
+- lotes;
+- publicidade;
+- visitação;
+- retirada;
+- localização;
+- reaproveitamento.
 
-| Classe | Essência |
+## 14. Decreto nº 12.785/2025 — referência federal
+
+| Classe | Síntese |
 | --- | --- |
-| uso regular | utilizável, vantajoso e usado ou previsto |
-| ocioso | utilizável e vantajoso, sem uso pelo detentor |
-| recuperável | recuperação até 50% do mercado ou custo-benefício favorável |
-| antieconômico | utilizável, mas oneroso/baixo rendimento |
-| irrecuperável | sem função ou recuperação acima de 50%/injustificável |
+| uso regular | utilizável, vantajoso e em uso ou com uso previsto |
+| ocioso | utilizável e vantajoso, mas sem aproveitamento |
+| recuperável | fora de uso, recuperação até 50% do mercado ou custo-benefício justificável |
+| antieconômico | utilizável, porém oneroso ou de baixo rendimento |
+| irrecuperável | sem aptidão ou recuperação injustificável |
 
-- Inservível = ocioso, recuperável, antieconômico ou irrecuperável.
-- Ocioso/recuperável: cessão ou transferência.
-- Sem interesse: leilão pode seguir.
-- Doação: interesse social e comparação socioeconômica.
-- Permuta: em regra ocioso/recuperável; uso regular exige vantagem.
-- Antieconômico/irrecuperável: resíduo/rejeito se alienação impossível ou inviável.
-- Comissão federal: no mínimo três membros.
-- Não presumir aplicação automática ao TCE-MA.
+“Inservível” inclui ocioso, recuperável, antieconômico e irrecuperável.
 
-## IN SEDAP nº 205/1988
+- transferência interna prefere externa;
+- uso regular pode ser cedido ou transferido excepcionalmente;
+- cessão e transferência têm efeitos e destinatários próprios;
+- ausência de interessado pode conduzir ao leilão;
+- doação exige interesse social e comparação;
+- eletroeletrônicos observam a política federal de inclusão digital;
+- bens especiais seguem disciplina própria.
 
-- Âmbito: SISG federal.
-- Cessão: posse e responsabilidade, gratuitamente, na Administração Federal direta.
-- Alienação: propriedade por venda, permuta ou doação.
-- Saneamento: simplificar, reutilizar, recuperar, movimentar e alienar.
-- Descarga: transferir responsabilidade pela guarda.
-- Decreto nº 12.785/2025 não a revogou expressamente; incompatibilidade posterior prevalece.
+## 15. Avaliação
 
-## Avaliação prévia
+| Abordagem | Aplicação |
+| --- | --- |
+| mercado | comparáveis |
+| reposição depreciada | ausência de mercado ativo |
+| renda | fluxos mensuráveis em hipótese adequada |
+| liquidação | venda em condições de liquidação |
+| sucata/partes | materiais ou componentes aproveitáveis |
 
-Registrar:
+Laudo:
 
-- patrimônio, série, quantidade, titularidade e localização;
-- estado, idade, uso, manutenção e componentes;
-- ônus e restrições;
-- método, fontes, responsável e data-base;
-- mercado comparável e ajustes;
-- remoção, reparo, transporte e destinação;
-- valor residual e partes aproveitáveis;
-- conclusão e limitações.
+- identificação;
+- condição;
+- titularidade e ônus;
+- metodologia;
+- fontes;
+- data-base;
+- ajustes;
+- custos de retirada;
+- valor residual;
+- limitações.
 
-- Valor contábil líquido ≠ valor de mercado ≠ preço mínimo.
-- Avaliação informa; autoridade decide a destinação.
-- Lote não pode ocultar bem valioso nem destruir rastreabilidade.
+Valor contábil não é automaticamente valor de mercado ou preço mínimo.
 
-## Fluxo de desfazimento
+## 16. Lotes
 
-1. identificar bem e titularidade;
-2. recolher e segregar;
-3. conciliar físico, patrimônio, contabilidade e documentos;
-4. classificar condição e restrições;
-5. avaliar valores e custos;
-6. comparar reaproveitamento, reparo, cessão, transferência, permuta, doação, leilão e descarte;
-7. motivar interesse público e autorizar;
-8. dar publicidade/selecionar quando exigido;
-9. preparar bem, mídias e materiais perigosos;
-10. receber pagamento e formalizar entrega;
-11. comprovar destinação e transferência de responsabilidade;
-12. baixar e contabilizar;
-13. arquivar, monitorar encargos e medir resultado.
+Evite:
 
-> Baixa deve suceder o evento efetivo; não serve para limpar cadastro antes da entrega.
+- lote heterogêneo;
+- lote grande demais;
+- item valioso misturado à sucata;
+- fragmentação artificial;
+- falta de identificação.
 
-## PNRS
+Considere homogeneidade, valor, mercado, localização, retirada, inspeção e custo administrativo.
 
-Prioridade do art. 9º:
+## 17. Fluxo do desfazimento
 
-$$
-\text{não gerar} \rightarrow \text{reduzir} \rightarrow \text{reutilizar}
-\rightarrow \text{reciclar} \rightarrow \text{tratar}
-\rightarrow \text{dispor rejeitos}
-$$
+```text
+identificar
+→ recolher e segregar
+→ conciliar
+→ classificar
+→ avaliar
+→ comparar alternativas
+→ motivar e autorizar
+→ selecionar e dar publicidade
+→ preparar o bem
+→ entregar e comprovar
+→ baixar e contabilizar
+→ arquivar e monitorar
+```
 
-- Destinação: reutilização, reciclagem, tratamento e outras soluções admitidas.
-- Disposição: distribuição ordenada de rejeitos em aterros, conforme normas operacionais específicas.
-- Resíduo não é automaticamente rejeito.
-- Contratar terceiro não elimina responsabilidade por gerenciamento inadequado nos casos legais.
-- Verificar licença, cadeia de custódia e comprovante.
+Enquanto não houver entrega e assunção de responsabilidade, o órgão mantém dever de guarda.
 
-## Eletroeletrônicos e dados
+## 18. Resíduos e PNRS
 
-- Decreto nº 10.240/2020: sistema obrigatório de eletroeletrônicos de uso doméstico.
-- Uso governamental/corporativo está fora do objeto do decreto.
-- Art. 6º admite disciplina contratual para uso não doméstico e destinação no plano aplicável.
-- Não enviar equipamento público automaticamente a ponto doméstico.
+Prioridade:
 
-Antes da saída:
+```text
+não geração
+→ redução
+→ reutilização
+→ reciclagem
+→ tratamento
+→ disposição de rejeitos
+```
 
-- inventariar mídias;
-- identificar sensibilidade;
-- sanitizar ou destruir por método adequado;
-- verificar resultado;
-- registrar ativo, mídia, método, executor, data e destino;
-- tratar licenças, credenciais e certificados.
+Destinação é mais ampla que disposição. Aterro é para rejeito.
 
-- Excluir arquivo ou restaurar sistema não prova sanitização.
-- Foto genérica de transporte não comprova destino individualizado.
+Conforme o caso:
 
-## Controles finais
+- PGRS;
+- classificação;
+- transportador autorizado;
+- MTR;
+- destinador habilitado;
+- certificado;
+- CNORP para resíduos perigosos;
+- conciliação de quantidades.
 
-- revisão de reaproveitamento evita vender bem útil;
-- avaliação com fontes e data-base reduz manipulação;
-- enquadramento literal evita dispensa indevida;
-- entrega após pagamento protege o patrimônio;
-- termo e monitoramento protegem finalidade da doação;
-- patrimônio/série/lote preservam rastreio;
-- sanitização comprovada protege informação;
-- destinador habilitado protege cadeia ambiental;
-- segregação de funções reduz conflito de interesses;
-- conciliação alinha físico, patrimônio, contabilidade e documentos.
+Contratar terceiro não elimina diligência.
 
-## Pegadinhas
+## 19. Eletroeletrônicos e dados
 
-- valor ≠ menor preço;
-- análise do valor ≠ corte linear;
-- preço ≠ custo do ciclo;
-- ABC ≠ Job Plan;
-- FAST ≠ fluxograma comum;
-- função secundária ≠ função inútil;
-- recomendação ≠ economia realizada;
-- depreciação total ≠ inutilidade;
-- inservível ≠ somente quebrado;
-- cessão ≠ alienação necessária;
-- baixa ≠ transferência de propriedade;
-- dominical ≠ particular;
-- ociosidade ≠ desafetação;
-- dispensa de licitação ≠ dispensa de avaliação;
-- leilão = maior lance, respeitado o mínimo;
-- doação ≠ liberalidade sem processo;
-- norma federal operacional ≠ regra automática do TCE-MA;
-- destinação ≠ disposição;
-- eletroeletrônico governamental ≠ sistema doméstico automático;
-- exclusão de arquivo ≠ sanitização comprovada.
+Uso governamental não entra automaticamente no sistema doméstico do Decreto 10.240/2020.
+
+Antes de transferir, vender, doar ou reciclar:
+
+- identificar mídias;
+- remover credenciais;
+- tratar software licenciado;
+- aplicar sanitização compatível;
+- verificar;
+- documentar;
+- manter vínculo com patrimônio e destino.
+
+| Nível | Uso |
+| --- | --- |
+| limpeza lógica | reutilização e risco compatível |
+| purga | proteção mais forte, preservando a mídia |
+| destruição | inutilização física necessária |
+
+Excluir arquivo ou restaurar padrão não comprova sanitização.
+
+## 20. Indicadores
+
+| Indicador | Fórmula |
+| --- | --- |
+| reaproveitamento | reaproveitados ÷ classificados |
+| recuperação financeira | receita líquida ÷ avaliação |
+| lotes sem êxito | sem proposta válida ÷ ofertados |
+| tempo de destinação | mediana recolhimento–entrega |
+| benefício realizado | benefício líquido ÷ aprovado |
+| sanitização | mídias comprovadas ÷ destinadas |
+| documentação ambiental | completas ÷ ambientais |
+| encargos | cumpridos ÷ vencidos |
+| custo do procedimento | despesas ÷ receita ou benefício |
+
+## 21. Riscos e controles
+
+| Risco | Controle |
+| --- | --- |
+| vender bem útil | consulta de reaproveitamento |
+| avaliação manipulada | fontes, data-base e revisão |
+| dispensa indevida | enquadramento literal |
+| retirada sem pagamento | bloqueio e conciliação |
+| desvio de doação | termo, encargo e monitoramento |
+| perda de rastreio | série, patrimônio e destinatário |
+| vazamento | sanitização e verificação |
+| descarte irregular | cadeia ambiental comprovada |
+| baixa prematura | gatilho após evento efetivo |
+| conflito de funções | segregação e revisão |
+
+## 22. Sinais de alerta
+
+- bem útil classificado como inservível;
+- valor reduzido sem vistoria;
+- comprador recorrente;
+- baixa competição;
+- lotes atípicos;
+- retirada antecipada;
+- parte relacionada;
+- leilões desertos com publicidade fraca;
+- baixa antes da entrega;
+- sanitização sem evidência;
+- destinador sem habilitação;
+- benefício anunciado sem implementação.
+
+Sinal de alerta orienta teste; não prova sozinho.
+
+## 23. Pegadinhas finais
+
+- Valor não é menor preço.
+- Função secundária não é necessariamente dispensável.
+- Economia estimada não é realizada.
+- Custo evitado não é redução orçamentária automática.
+- FAST não é organograma.
+- Custo do ciclo não é toda a metodologia de valor.
+- Depreciação integral não prova inutilidade.
+- Inservível federal não significa apenas quebrado.
+- Cessão não é alienação.
+- Baixa não transfere propriedade.
+- Ociosidade não desafeta bem.
+- Dispensa não elimina avaliação.
+- Leilão usa maior lance, respeitado o mínimo.
+- Leiloeiro não é escolhido informalmente.
+- Fracasso do leilão não reduz mínimo automaticamente.
+- Desfazimento não é modalidade única.
+- Lote heterogêneo pode ocultar valor.
+- PGRS não substitui comprovantes.
+- Limpeza, purga e destruição não são sinônimos.
+- Rapidez ou receita não convalidam irregularidade.
