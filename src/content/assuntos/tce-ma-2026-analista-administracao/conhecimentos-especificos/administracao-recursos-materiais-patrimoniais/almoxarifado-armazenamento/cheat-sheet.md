@@ -1,213 +1,336 @@
-# Almoxarifado e armazenamento
+---
+schemaVersion: 1
+title: Almoxarifado e armazenamento — revisão rápida
+description: Conceitos, localização, slotting, conservação, técnicas, espaço, segurança, indicadores e pegadinhas.
+order: 120
+storageId: almoxarifado-armazenamento
+---
 
-> Almoxarifado é a **unidade**; armazenagem é a **atividade** de guarda, localização, segurança e preservação.
+# Almoxarifado e armazenamento — revisão rápida
 
-## Escopo normativo
+## 1. Conceitos
 
-| Fonte | Regra-chave |
+| Termo | Núcleo |
 | --- | --- |
-| IN SEDAP nº 205/1988 | referência operacional do SISG federal; não é norma automática do TCE-MA |
-| NR 11 | capacidade, equipamentos, empilhamento, circulação e emergência |
-| NR 17 | ergonomia conforme tarefa, pessoa, carga, frequência, pega e percurso |
-| NR 23 | prevenção contra incêndio conforme legislação estadual e normas aplicáveis |
-| NR 26 | cores, GHS, rotulagem e ficha com dados de segurança |
+| almoxarifado | unidade organizacional e instalação |
+| armazenagem | guarda, localização, segurança e preservação |
+| estoque | itens e quantidades mantidos para uso futuro |
+| endereço | local físico do item |
+| código | identidade do item |
+| slotting | decisão sobre o melhor endereço |
+| staging | área temporária vinculada a um fluxo |
 
-## Funções e princípios
+**Almoxarifado não é sinônimo de compras, recebimento, inventário, contabilidade ou alienação.**
 
-- Guardar e preservar.
-- Identificar item e posição.
-- Registrar toda movimentação.
-- Manter rastreabilidade.
-- Facilitar acesso e inspeção.
-- Prevenir avaria, furto, contaminação e envelhecimento.
-- Segregar incompatíveis e não conformes.
-- Usar espaço sem sacrificar segurança.
+## 2. Alcance normativo
 
-Princípios: **identificação + registro tempestivo + rastreabilidade + preservação + seletividade + compatibilidade + segurança + responsabilidade**.
+| Fonte | Papel |
+| --- | --- |
+| IN SEDAP 205/1988 | referência operacional do SISG federal |
+| NR 1 | GRO e PGR |
+| NR 11 | movimentação e armazenagem |
+| NR 17 | ergonomia |
+| NR 23 | incêndio articulado à lei estadual |
+| NR 26 | GHS, rótulo e ficha de segurança |
+| Lei MA 11.390/2020 e CBMMA | incêndio no Maranhão |
+| fabricante/projeto | capacidade, instalação e manutenção |
 
-## Cadeia de controle
+## 3. GRO/PGR
 
 ```text
-material físico <-> endereço <-> registro <-> documento
+identificar perigo
+→ avaliar risco
+→ priorizar
+→ definir medidas
+→ plano de ação
+→ implementar
+→ verificar eficácia
+→ revisar
 ```
 
-Campos úteis:
-
-- item, unidade e quantidade;
-- endereço;
-- data e tipo de movimento;
-- documento, origem, destino e responsável;
-- lote, série e validade;
-- condição: liberado, bloqueado, avariado.
-
-> Tecnologia ajuda, mas código de barras, RFID ou WMS não substituem processo e atualização.
-
-## Endereçamento
+Hierarquia:
 
 ```text
-zona-corredor-estante-nivel-posicao
+eliminar
+→ substituir
+→ engenharia
+→ administrativo
+→ EPI
 ```
 
-- **Código:** qual item.
-- **Endereço:** onde está.
-- Um item pode ocupar várias posições, todas registradas.
+EPI não corrige estante instável, sobrecarga, incompatibilidade ou rota bloqueada.
 
-| Localização | Vantagem | Risco/limite |
-| --- | --- | --- |
-| fixa | busca simples | espaço reservado pode ficar ocioso |
-| aleatória/dinâmica | melhor ocupação potencial | exige atualização rigorosa |
+## 4. Controle
 
-> Aleatória não significa sem endereço.
-
-## Acurácia e indicadores
-
-$$
-\text{acurácia de saldo} =
-\frac{\text{itens sem divergência de saldo}}
-{\text{itens verificados}} \times 100
-$$
-
-$$
-\text{acurácia de localização} =
-\frac{\text{itens no endereço registrado}}
-{\text{itens testados}} \times 100
-$$
-
-$$
-\text{avarias} =
-\frac{\text{unidades avariadas}}
-{\text{unidades movimentadas}} \times 100
-$$
-
-$$
-\text{registro tempestivo} =
-\frac{\text{movimentos registrados no prazo}}
-{\text{movimentos ocorridos}} \times 100
-$$
-
-- Declare unidade, tolerância, amostra e período.
-- Não há meta nacional universal na IN nº 205.
-- Saldo correto não prova endereço correto.
-
-## Conservação x recuperação
-
-| Conservação | Recuperação |
-| --- | --- |
-| preventiva | corretiva |
-| mantém condição | restaura item avariado |
-| atua antes da perda | atua após o dano |
-
-Fluxo de não conformidade:
+Cadeia mínima:
 
 ```text
-identificar -> bloquear -> registrar -> segregar -> avaliar -> recuperar ou encaminhar
+material
++ endereço
++ registro
++ documento
 ```
 
-- Ocioso pode estar íntegro.
-- Avariado pode ser recuperável.
-- Vencido não é liberado porque “parece bom”.
-- Na IN nº 205, recuperação de bem móvel é economicamente viável até 50% do valor estimado de mercado.
-- O limite de 50% não supera segurança, técnica, oportunidade, regra setorial ou limite de aplicação ao SISG.
+Qualidade:
 
-## Técnicas de armazenagem
+- completude;
+- exatidão;
+- consistência;
+- tempestividade;
+- unicidade;
+- validade;
+- rastreabilidade.
 
-- Nunca apoiar material diretamente no piso.
-- Manter etiqueta voltada ao acesso.
-- Pesados e volumosos nos níveis inferiores.
-- Alto giro em acesso fácil, se peso e risco permitirem.
-- Preservar embalagem original quando adequada.
-- Respeitar carga de piso, estrutura, palete e equipamento.
-- Agrupar mesma classe somente quando compatível.
-- Proteger contra clima, pragas, furto e perigo mecânico.
-- Não obstruir saída, extintor, iluminação ou circulação.
+Exceções:
 
-### Unitização
+- saldo sem endereço;
+- endereço com item diferente;
+- lote vencido liberado;
+- bloqueado contado como disponível;
+- série duplicada;
+- movimento sem documento.
 
-- **Unitização:** reúne volumes em uma unidade de movimentação.
-- **Paletização:** unitização com palete.
-- Palete não aumenta automaticamente a capacidade da carga, estrutura ou piso.
+## 5. Localização
 
-### Rotação física
-
-| Método | Prioridade |
+| Método | Regra |
 | --- | --- |
-| PEPS/FIFO | entrada mais antiga |
+| fixa | posição reservada |
+| livre/dinâmica | posição compatível disponível, registrada |
+| híbrida | picking fixo e reserva dinâmica |
+
+“Livre” não significa sem endereço.
+
+Critérios:
+
+- frequência;
+- acomodabilidade;
+- complementaridade;
+- massa;
+- cubagem;
+- validade;
+- criticidade;
+- valor;
+- compatibilidade;
+- acesso.
+
+## 6. Acurácia
+
+```text
+acurácia de saldo =
+itens sem divergência de quantidade ÷ itens verificados
+```
+
+```text
+acurácia de localização =
+itens no endereço correto ÷ itens testados
+```
+
+```text
+acurácia por valor =
+valor correto ÷ valor verificado
+```
+
+Saldo correto não garante endereço correto.
+
+## 7. Saldo utilizável
+
+```text
+utilizável =
+físico
+− vencido
+− bloqueado
+− avariado
+− reservado
+− quarentena
+```
+
+## 8. Conservação e não conformidade
+
+Conservação = prevenção.  
+Recuperação = correção após avaria.
+
+Fluxo:
+
+```text
+identificar
+→ interromper
+→ bloquear
+→ segregar
+→ registrar
+→ avaliar
+→ decidir
+→ liberar somente com registro
+```
+
+Custo de recuperação abaixo de 50% na IN 205 não obriga reparo.
+
+## 9. Rotação
+
+| Regra | Prioridade |
+| --- | --- |
+| PEPS/FIFO físico | entrada mais antiga |
 | FEFO/PVPS | vencimento mais próximo |
 
-- PEPS **físico** evita envelhecimento.
-- PEPS **contábil** avalia custos: não confundir.
-- FEFO prevalece quando lote mais novo vence antes.
+FEFO não autoriza fornecer vencido e não corrige excesso de compra.
 
-## Espaço e layout
+## 10. Movimentação de materiais
 
-Preservar:
+- mínima distância;
+- mínima manipulação;
+- fluxo;
+- utilização cúbica;
+- carga unitária;
+- segurança;
+- flexibilidade;
+- padronização;
+- gravidade controlada.
 
-- corredores e rotas;
-- acesso a emergência;
-- inspeção e limpeza;
-- movimentação segura;
-- folgas estruturais;
-- ventilação e iluminação;
-- segregação de bloqueados/incompatíveis.
+A mínima distância não supera incompatibilidade ou segurança.
 
-$$
-\text{ocupação volumétrica} =
-\frac{\text{volume ocupado}}
-{\text{volume útil e seguro}} \times 100
-$$
+## 11. Horizontalização, verticalização e cross-docking
 
-> Volume útil não é volume bruto. Não há ocupação ideal universal.
+| Técnica | Ideia |
+| --- | --- |
+| horizontalização | uso predominante do piso |
+| verticalização | uso da altura |
+| cross-docking | fluxo rápido com pouca ou nenhuma estocagem |
 
-- Verticalização: mais densidade, mais exigência estrutural e operacional.
-- Adensamento: mais ocupação, menos seletividade potencial.
-- Ocupação alta pode indicar corredor bloqueado e operação ruim.
+Empilhadeira alcançando nível alto = verticalização.
 
-## Segurança
+## 12. Sistemas
 
-### NR 11
+| Sistema | Ponto principal |
+| --- | --- |
+| bloco | densidade alta, seletividade baixa |
+| porta-palete seletivo | acesso direto |
+| drive-in | muitos paletes homogêneos |
+| flow rack | gravidade e rotação |
+| push-back | densidade em canais |
+| cantilever | itens longos |
+| mezanino | área adicional, exige projeto |
+| automatizado | densidade/ergonomia, dependência tecnológica |
 
-- Carga não excede piso ou equipamento.
-- Carga máxima do equipamento fica visível.
-- Equipamentos e componentes são inspecionados.
-- Porta, extintor, saída, trânsito e iluminação ficam livres.
-- Material empilhado: ao menos 50 cm das estruturas laterais.
-- Anexo de rochas ornamentais não é regra geral de almoxarifado.
+## 13. Reserva, picking e staging
 
-### NR 17
+- reserva: maior quantidade;
+- picking: separação frequente;
+- reposição interna: reserva → picking;
+- bloqueados: indisponíveis;
+- quarentena: aguardam decisão;
+- staging: temporário.
 
-- Não existe peso seguro universal.
-- Avaliar pessoa, pega, postura, frequência, altura e percurso.
-- Aproximar carga, usar meios auxiliares e reduzir esforço/distância.
+## 14. Slotting
 
-### NR 23
+| Critério | Tendência |
+| --- | --- |
+| alto giro | perto da separação |
+| pesado | nível baixo |
+| volumoso | posição ampla |
+| validade | facilitar FEFO |
+| alto valor | acesso restrito |
+| frágil | proteção |
+| incompatível | segregar |
 
-- Observar legislação estadual contra incêndio.
-- Informar trabalhadores sobre equipamentos, alarme, evacuação e resposta.
-- Manter saídas e passagens identificadas e desobstruídas.
+Frequência não vence segurança.
 
-### NR 26
+## 15. Espaço
 
-- Cor adverte; não elimina risco.
-- Produtos químicos: GHS, rótulo e ficha com dados de segurança.
-- Rótulo de perigoso: identificação e composição do produto químico, pictograma, palavra de advertência, frases de perigo e precaução e informação suplementar.
+```text
+ocupação de posições =
+posições ocupadas ÷ posições utilizáveis
+```
 
-## Distâncias com cautela
+```text
+utilização cúbica =
+volume ocupado ÷ volume útil seguro
+```
 
-- IN nº 205: aproximadamente 70 cm do teto e 50 cm das paredes.
-- NR 11: material empilhado a pelo menos 50 cm das estruturas laterais.
-- Não transformar orientação da IN em substituto do projeto ou da legislação de incêndio.
+Honeycombing = espaço perdido em posições parcialmente ocupadas.
 
-## Pegadinhas
+Ocupação alta pode significar congestionamento.
 
-1. Almoxarifado = unidade; armazenagem = atividade.
-2. Localização dinâmica exige registro imediato.
-3. Código identifica; endereço localiza.
-4. Conservação previne; recuperação corrige.
-5. PEPS físico não é avaliação contábil.
-6. FEFO prioriza validade, não entrada.
-7. Mesma classe não supera incompatibilidade.
-8. Ocupação máxima não é eficiência máxima.
-9. EPI não corrige pilha instável.
-10. Cor não substitui prevenção.
-11. Regra setorial da NR 11 não se universaliza.
-12. IN nº 205 não é norma automática do TCE-MA.
+## 16. Segurança
+
+NR 11:
+
+- capacidade visível;
+- equipamento em condição;
+- piso e estrutura compatíveis;
+- circulação;
+- saídas e combate a incêndio livres.
+
+NR 17:
+
+- peso;
+- pega;
+- postura;
+- frequência;
+- altura;
+- distância;
+- meios auxiliares.
+
+NR 23 + CBMMA:
+
+- lei estadual;
+- projeto;
+- medidas instaladas;
+- inspeção e manutenção;
+- rotas livres.
+
+NR 26:
+
+- GHS;
+- pictograma;
+- palavra de advertência;
+- frases de perigo e precaução;
+- ficha de segurança;
+- treinamento.
+
+## 17. Tecnologia
+
+WMS, código de barras e RFID apoiam o controle, mas não provam sozinhos:
+
+- quantidade;
+- condição;
+- propriedade;
+- endereço atual;
+- regularidade.
+
+## 18. Indicadores
+
+```text
+avarias =
+unidades avariadas ÷ unidades movimentadas
+```
+
+```text
+registro tempestivo =
+movimentos no prazo ÷ movimentos ocorridos
+```
+
+```text
+validade crítica =
+unidades próximas do vencimento ÷ unidades sujeitas a validade
+```
+
+```text
+distância por linha =
+distância percorrida ÷ linhas separadas
+```
+
+Acompanhar também incidentes, quase acidentes, bloqueados antigos e tempo de localização.
+
+## 19. Pegadinhas
+
+- localização livre dispensa endereço — errado;
+- saldo correto garante localização — errado;
+- verticalização aumenta capacidade estrutural — errado;
+- cross-docking é estocagem longa — errado;
+- alta densidade sempre melhora seletividade — errado;
+- FEFO e PEPS são sempre iguais — errado;
+- PGR substitui projeto de incêndio — errado;
+- sinalização elimina risco — errado;
+- item bloqueado está disponível — errado;
+- reserva e picking são iguais — errado;
+- RFID garante rastreabilidade — errado;
+- item barato nunca é crítico — errado.
