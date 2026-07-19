@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: Análise do valor e alienação — revisão rápida
-description: Funções, Job Plan, custo do ciclo, alienação, leilão, circularidade, avaliação, resíduos, dados, baixa e auditoria.
-order: 123
-storageId: analise-valor-alienacao-cheat
----
-
 # Análise do valor e alienação — revisão rápida
 
 ## 1. Núcleo do assunto
