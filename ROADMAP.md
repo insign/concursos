@@ -236,7 +236,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 049 - Item 5: Controle administrativo.
 
-##### [ ] Assunto 050 - Item 6, recorte: sujeitos, atos e regime de responsabilização da Lei nº 8.429/1992.
+##### [>] Em progresso Assunto 050 - Item 6, recorte: sujeitos, atos e regime de responsabilização da Lei nº 8.429/1992.
 
 - Item 6. Lei nº 8.429/1992 (Lei de Improbidade Administrativa): sujeitos, atos de improbidade e regime de responsabilização.
 
