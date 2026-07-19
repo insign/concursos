@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Controle, movimentação e sistema patrimonial
-description: Controles de materiais e bens, movimentação física e administrativa, atualização de carga, inventário, conciliação, sistema patrimonial, riscos e indicadores.
+description: Controle patrimonial, movimentação física, administrativa, jurídica e contábil, sistemas, inventário, conciliação, indicadores e auditoria.
 order: 118
 storageId: controle-movimentacao-sistema
 ---
@@ -62,6 +62,43 @@ Esses dispositivos formam uma sequência lógica:
 
 Controle não significa burocracia idêntica para todos os objetos. A IN SEDAP nº 205/1988 reconhece, no âmbito federal, que o grau de controle deve considerar importância, valor relativo e dificuldade de ressuprimento. Um item crítico, portátil ou de alto valor demanda acompanhamento mais rigoroso que um conjunto de baixo valor e risco, sem que isso autorize abandonar o registro necessário.
 
+<!-- REVISAO-CONTROLE-MOVIMENTACAO-2026 -->
+
+## 1.3 Governança, papéis e qualidade da informação
+
+O controle patrimonial não pertence exclusivamente ao setor de patrimônio. Ele depende de papéis coordenados e de dados com qualidade suficiente para sustentar decisão, custódia, contabilidade e prestação de contas.
+
+### Matriz de responsabilidades
+
+| Papel | Responsabilidade central |
+| --- | --- |
+| área requisitante | justificar necessidade, uso, mudança ou devolução |
+| responsável pela carga | guardar, apresentar o bem e comunicar ocorrências |
+| usuário | utilizar corretamente e informar mudança, dano ou indisponibilidade |
+| patrimônio | cadastrar, identificar, validar, formalizar, movimentar e conciliar |
+| logística/transporte | preservar identidade, integridade e cadeia de custódia |
+| contabilidade | reconhecer, mensurar e conciliar contas e valores |
+| tecnologia da informação | acessos, disponibilidade, integrações, logs e recuperação |
+| comissão de inventário | verificar com independência existência, estado e custódia |
+| controle interno/auditoria | avaliar desenho, funcionamento e evidência dos controles |
+| autoridade competente | autorizar eventos sensíveis e regularizações |
+
+A matriz precisa ser adaptada à estrutura local. Em unidade pequena, a impossibilidade de separar plenamente funções incompatíveis exige controles compensatórios, como dupla conferência, aprovação superior, revisão independente e inventário mais frequente.
+
+### Critérios de qualidade dos dados
+
+| Critério | Pergunta de verificação |
+| --- | --- |
+| completude | os campos, documentos e vínculos obrigatórios existem? |
+| exatidão | o cadastro corresponde ao objeto, à fonte e ao evento real? |
+| consistência | localização, carga, documento, série e contabilidade concordam? |
+| tempestividade | o fato foi registrado sem atraso material? |
+| unicidade | existe apenas um cadastro válido para cada identidade patrimonial? |
+| validade | os valores obedecem ao formato, domínio e regra aplicáveis? |
+| rastreabilidade | é possível reconstruir autor, data, motivo, aprovação e valores anteriores? |
+
+Relatórios de exceção devem destacar, entre outros casos, bem ativo sem responsável, responsável desligado, local inexistente, série duplicada, movimentação vencida, item simultaneamente disponível e em manutenção, baixa sem reflexo contábil e lançamento contábil sem suporte patrimonial.
+
 ## 2. Arquitetura de controles
 
 ### 2.1 Cadastro, identificação e custódia
@@ -108,6 +145,21 @@ Em estruturas pequenas, nem toda separação ideal é possível. A resposta não
 | corretivo | após a divergência confirmada | ajuste rastreável, atualização de carga, manutenção, apuração e encaminhamento regular |
 
 Os três tipos se complementam. Bloquear movimentação sem destino reduz erros, mas não detecta bem retirado sem autorização. Inventário encontra a divergência, mas não evita sua ocorrência. A correção regulariza o dado, mas deve preservar a causa e a evidência para impedir repetição.
+
+## 2.4 Risco, materialidade e controles proporcionais
+
+O grau de controle deve combinar pelo menos:
+
+- valor monetário;
+- portabilidade e facilidade de subtração;
+- criticidade para a continuidade do serviço;
+- sensibilidade da informação armazenada;
+- dificuldade e tempo de reposição;
+- dispersão geográfica;
+- histórico de perdas e divergências;
+- custo do próprio controle.
+
+Materialidade não se limita ao valor. Um token criptográfico de baixo custo pode ser crítico; um conjunto volumoso e pouco móvel pode exigir controle menos granular. Simplificar o controle não significa dispensar identificação, responsabilidade ou evidência quando necessárias.
 
 ## 3. O que é movimentação patrimonial
 
@@ -164,6 +216,53 @@ Não se deve presumir que toda saída física retire o bem do patrimônio:
 - descarte é destinação física e ambiental, não simples exclusão cadastral.
 
 Avaliação, alienação, baixa e desfazimento serão aprofundados no Assunto 123. Aqui, a regra de controle é: **não remover o registro como atalho para resolver uma divergência física**.
+
+### 3.3 Quinta dimensão: efeito jurídico
+
+Além das dimensões física, administrativa, de responsabilidade e contábil, questões complexas exigem identificar a dimensão jurídica:
+
+| Pergunta jurídica | Exemplos |
+| --- | --- |
+| quem é o proprietário? | órgão, outra entidade ou terceiro |
+| quem possui ou detém o bem? | servidor, contratado, oficina ou cessionário |
+| existe direito de uso? | licença, comodato, arrendamento ou cessão |
+| há dever de devolver? | cautela, manutenção, empréstimo ou cessão temporária |
+| a propriedade mudou? | transferência definitiva ou alienação regular |
+
+Uma saída para manutenção pode alterar localização e detenção sem modificar propriedade, reconhecimento contábil ou carga definitiva. Já uma transferência entre pessoas jurídicas pode exigir instrumento, aceite, baixa na origem, incorporação no destino e conciliação contábil.
+
+### 3.4 Estados da movimentação
+
+Um fluxo eletrônico pode usar estados como:
+
+```text
+rascunho → solicitado → autorizado → preparado → em trânsito
+→ recebido com ou sem ressalva → aceito ou rejeitado → encerrado
+```
+
+Estados alternativos incluem `cancelado`, `expirado`, `devolvido`, `contestado` e `bloqueado para apuração`.
+
+Cada transição deve registrar:
+
+- agente competente;
+- data e hora;
+- documento e justificativa;
+- condição do bem;
+- origem e destino;
+- responsável anterior e futuro;
+- prazo de devolução, se houver;
+- reflexo administrativo e contábil;
+- pendências e ressalvas.
+
+O sistema não deve mostrar o evento como encerrado na origem e inexistente no destino. Durante o transporte, o estado `em trânsito` preserva a cadeia de custódia.
+
+### 3.5 Data efetiva e data de lançamento
+
+A data do fato não é necessariamente a data do registro.
+
+> Um notebook saiu em 10 de julho, foi recebido em 11 de julho e lançado no sistema em 15 de julho.
+
+Nesse caso, há pelo menos três marcos: saída, recebimento e lançamento. Corrigir o cadastro retroativamente não deve apagar o atraso. A trilha precisa preservar a data real do evento e a data em que a informação foi incluída ou corrigida, permitindo medir tempestividade e exposição.
 
 ## 4. Fluxo seguro de movimentação
 
@@ -222,6 +321,18 @@ Na terminologia da instrução federal:
 - a passagem de responsabilidade deve ser apoiada em verificação física e novo termo.
 
 Portanto, descarga não significa necessariamente baixa. Ela pode ocorrer porque a responsabilidade passou a outro consignatário. Confundir os conceitos pode eliminar indevidamente um bem que continua pertencendo à entidade.
+
+### 4.5 Casos de movimentação que exigem desenho próprio
+
+- **teletrabalho:** registrar cautela, endereço ou local autorizado, acessórios, condição, prazo e devolução;
+- **manutenção externa:** relacionar ordem de serviço, prestador, acessórios, condição de saída e retorno;
+- **bem de terceiro:** controlar posse e custódia sem tratá-lo como propriedade da entidade;
+- **bem sob contratado:** definir obrigação de guarda, inventário, comunicação e devolução;
+- **evento temporário:** estabelecer responsável, prazo e retorno;
+- **transferência em lote:** preservar identidade individual e totais de controle;
+- **item em trânsito no inventário:** classificar a situação e confirmar origem, destino e documentação;
+- **devolução com dano:** registrar ressalva, evidência, aceite condicionado e apuração cabível;
+- **movimento cadastrado sem deslocamento:** cancelar ou regularizar com trilha, sem simular o fato.
 
 ## 5. Sistema patrimonial
 
@@ -303,6 +414,48 @@ Como o sistema sustenta prestação de contas, deve-se proteger:
 
 Cadastros duplicados, usuários genéricos, exclusão de logs, perfis excessivos e correções diretas no banco reduzem a força da evidência. Migrações também exigem contagem, totalização, amostragem e conciliação antes e depois da carga de dados.
 
+### 5.6 Controles gerais de tecnologia e controles da aplicação
+
+#### Controles gerais de tecnologia
+
+- acesso individual e revisão periódica de perfis;
+- segregação entre desenvolvimento, homologação e produção;
+- gestão de mudanças;
+- backup e recuperação testada;
+- continuidade e tratamento de incidentes;
+- monitoramento de disponibilidade;
+- proteção e retenção de logs.
+
+#### Controles da aplicação patrimonial
+
+- identificador estável e não reutilizável;
+- validação da situação do bem;
+- campos e documentos obrigatórios;
+- alçadas de aprovação;
+- bloqueio de eventos incompatíveis;
+- aceite do destino;
+- totalizações e cálculos validados;
+- tratamento de rejeições de interface;
+- histórico do estado anterior e do novo estado.
+
+O número patrimonial não deve ser reutilizado depois da baixa. A reutilização mistura aquisições, cargas, manutenção, depreciação, ocorrências e responsabilização de objetos diferentes.
+
+Código de barras, RFID, plaqueta e número de série vinculam o objeto ao cadastro, mas não comprovam isoladamente propriedade, localização atual, condição ou regularidade da carga.
+
+### 5.7 Integração: origem, interface e destino
+
+Toda integração deve definir:
+
+1. sistema de origem de cada dado;
+2. chave estável de relacionamento;
+3. regra de transformação;
+4. total de controle;
+5. tratamento de rejeição e duplicidade;
+6. responsável pela correção;
+7. reconciliação periódica.
+
+Quando a interface falha, a correção deve ocorrer preferencialmente no sistema que originou o erro. Ajustar apenas o destino pode fazer os sistemas voltarem a divergir na próxima transmissão.
+
 ## 6. Inventário e conciliação
 
 ### 6.1 Inventário físico
@@ -352,6 +505,31 @@ Encontrar diferença não autoriza ajustar de imediato para “fechar” o relat
 
 Depois da análise, a solução pode ser concluir movimentação, atualizar localização ou termo, corrigir cadastro com aprovação, registrar evento contábil, abrir manutenção ou iniciar apuração. Baixa e responsabilização dependem de pressupostos próprios.
 
+### 6.4 Técnicas para inventário confiável
+
+- **cutoff:** controlar movimentos próximos à data-base;
+- **contagem cega:** evitar que o saldo esperado induza a equipe;
+- **cadastro → físico:** localizar todos os itens registrados;
+- **físico → cadastro:** identificar objetos sem registro;
+- **recontagem independente:** confirmar exceções;
+- **estratificação por risco:** aumentar rigor para itens portáteis, críticos ou valiosos;
+- **cadeia de custódia das listas:** preservar versão, autoria e alterações;
+- **independência:** evitar que o único custodiante seja o único conferente;
+- **causa-raiz:** distinguir atraso, falha de interface, erro de identidade, movimento clandestino, dano e desaparecimento.
+
+O aplicativo de inventário eletrônico pode acelerar a coleta por código de barras, mas não substitui o procedimento, a análise de exceções, a conciliação nem a plataforma patrimonial.
+
+### 6.5 Conciliação em quatro camadas
+
+| Camada | Comparação |
+| --- | --- |
+| física | objeto encontrado × item esperado |
+| administrativa | físico × cadastro, carga, localização e documento |
+| contábil | cadastro patrimonial × razão, conta e valor |
+| tecnológica | sistema de origem × interface × sistema de destino |
+
+A solução depende da causa. Divergência causada por movimento pendente não recebe o mesmo tratamento de duplicidade, dano, desaparecimento ou erro de conta.
+
 ## 7. Riscos, controles e indicadores
 
 ### 7.1 Riscos frequentes
@@ -386,6 +564,34 @@ Depois da análise, a solução pode ser concluir movimentação, atualizar loca
 
 Não há meta universal para esses indicadores. A entidade deve definir critérios segundo porte, dispersão, criticidade, materialidade, capacidade operacional e apetite a risco. “Zero divergência” pode significar excelente controle, mas também inventário superficial; o indicador precisa ser acompanhado da qualidade do procedimento.
 
+### 7.3 Indicadores com fórmula
+
+| Indicador | Fórmula básica |
+| --- | --- |
+| acurácia por quantidade | itens corretos ÷ itens verificados |
+| acurácia por valor | valor conciliado ÷ valor verificado |
+| bens sem carga válida | bens sem responsável válido ÷ bens ativos |
+| pendências vencidas | movimentos vencidos ÷ movimentos abertos |
+| regularização | divergências resolvidas ÷ divergências confirmadas |
+| cobertura do inventário rotativo | itens inventariados no ciclo ÷ universo previsto |
+| reincidência | ocorrências com causa repetida ÷ ocorrências totais |
+| tempestividade | mediana entre data efetiva e data do lançamento |
+
+A taxa precisa definir numerador, denominador, período e universo. Acurácia por quantidade e por valor podem produzir leituras diferentes: poucos itens caros podem concentrar a maior exposição.
+
+### 7.4 Perspectiva de auditoria
+
+| Elemento | Aplicação |
+| --- | --- |
+| critério | norma exige autorização e termo atualizado |
+| condição | parte dos notebooks mudou de local sem registro |
+| causa | usuários deslocam bens diretamente |
+| efeito | cadastro inexato e risco de perda ou responsabilização equivocada |
+| evidência | inspeção, logs, termos, lotação e entrevistas |
+| encaminhamento | fluxo eletrônico, validação, comunicação e monitoramento |
+
+A recomendação deve atacar a causa. Apenas atualizar o cadastro corrige a condição encontrada, mas não impede novas movimentações irregulares.
+
 ## 8. Casos integrados
 
 ### Caso 1: mudança de sala com o mesmo usuário
@@ -408,6 +614,26 @@ O sistema patrimonial totaliza 100 equipamentos, e a contabilidade registra valo
 
 A comissão preserva a listagem, reconfere localizações, consulta movimentos e manutenção, ouve responsáveis e registra a exceção. Somente depois se decide por correção cadastral, localização, apuração ou outro procedimento. Excluir o registro antes da investigação destrói evidência e pode mascarar dano.
 
+### Caso 6: usuário desligado
+
+O sistema mantém a carga em nome de servidor que deixou a unidade. A existência física dos bens não elimina a divergência. É necessário inventariar, verificar a passagem de responsabilidade, formalizar o novo responsável e preservar o período em que a carga ficou desatualizada.
+
+### Caso 7: item em trânsito durante o inventário
+
+O bem não está na origem nem chegou ao destino. A comissão verifica guia, autorização, transportador, prazo, estado do fluxo e confirmação posterior. Classificá-lo imediatamente como desaparecido ou simplesmente ignorá-lo seriam respostas inadequadas.
+
+### Caso 8: integração rejeitada
+
+A baixa foi aprovada no patrimônio, mas a interface contábil rejeitou a conta. O evento deve permanecer pendente, ser corrigido na origem ou na regra de integração e depois conciliado. Alterar manualmente apenas a contabilidade enfraquece a trilha e pode gerar nova divergência.
+
+### Caso 9: identificador reutilizado
+
+Após a baixa de uma impressora, o número patrimonial foi atribuído a um notebook. O histórico tornou-se ambíguo. O identificador antigo deveria permanecer encerrado e o novo bem receber número próprio.
+
+### Caso 10: inventário sem independência
+
+O responsável pela carga apenas assina a listagem que ele próprio mantém. O procedimento não produz evidência independente suficiente. É preciso verificar fisicamente, testar nos dois sentidos e reconferir exceções.
+
 ## 9. Pegadinhas de prova
 
 1. **Registro analítico não é registro sintético.** O primeiro caracteriza individualmente; o segundo totaliza classes patrimoniais.
@@ -427,6 +653,14 @@ A comissão preserva a listagem, reconfere localizações, consulta movimentos e
 
 ## Referências
 
+- BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Art. 70.
+- BRASIL. [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm). Arts. 75, 78 e 94 a 96.
+- BRASIL. [Decreto nº 12.785, de 19 de dezembro de 2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12785.htm). Circularidade de bens móveis no âmbito federal.
+- BRASIL. [Portaria nº 232, de 2 de junho de 2020, atualizada](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-no-232-de-2-de-junho-de-2020). Institui o SIADS e disciplina seu âmbito.
+- BRASIL. [Instrução Normativa SEDAP nº 205, de 8 de abril de 1988](https://www.gov.br/patrimonio/pt-br/central-de-conteudo/legislacao/instrucoes-normativas/instrucao-normativa-no-205-de-08-de-abril-de-1988). Carga, descarga, movimentação, inventário e controles.
+- BRASIL. [Portal do SIADS](https://www.gov.br/patrimonio/pt-br/siads). Funções, público obrigatório e integração.
+- BRASIL. [Aplicativo Inventário Eletrônico SIADS](https://www.gov.br/patrimonio/pt-br/siads/app-inventario-eletronico-siads). Ferramenta auxiliar de coleta.
+- CONSELHO FEDERAL DE CONTABILIDADE. [NBC TSP 37 — Ativo Imobilizado e NBC TSP 38 — Mensuração](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/).
 - BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Art. 70. Texto vigente até 15 jul. 2026. Acesso em 16 jul. 2026.
 - BRASIL. [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm). Arts. 75, 78 e 94 a 96. Texto vigente até 15 jul. 2026. Acesso em 16 jul. 2026.
 - BRASIL. [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 5º e 7º. Texto vigente até 15 jul. 2026. Acesso em 16 jul. 2026.
@@ -434,5 +668,4 @@ A comissão preserva a listagem, reconfere localizações, consulta movimentos e
 - BRASIL. [Decreto nº 12.785, de 19 de dezembro de 2025](https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12785-19-dezembro-2025-798522-publicacaooriginal-177487-pe.html). Publicação original reproduzida pela Câmara dos Deputados; DOU, Seção 1, 22 dez. 2025, p. 9. Vigente desde 22 dez. 2025. Acesso em 16 jul. 2026.
 - BRASIL. Ministério da Economia. [Portaria nº 232, de 2 de junho de 2020, atualizada](https://www.gov.br/patrimonio/pt-br/central-de-conteudo/legislacao/portarias/portaria-no-232-de-2-de-junho-de-2020-atualizada). Institui o SIADS no âmbito federal indicado no art. 1º; página modificada em 1º nov. 2024. Acesso em 16 jul. 2026.
 - BRASIL. Secretaria do Tesouro Nacional. [Manual de Contabilidade Aplicada ao Setor Público, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1). Edição vigente em 2026. Acesso em 16 jul. 2026.
-- CONSELHO FEDERAL DE CONTABILIDADE. [NBC TSP 07 — Ativo Imobilizado](https://www1.cfc.org.br/sisweb/SRE/docs/NBCTSP07.pdf). Norma contábil aplicada ao reconhecimento, mensuração e evidenciação do imobilizado. Acesso em 16 jul. 2026.
 - TRIBUNAL DE CONTAS DA UNIÃO. [Acórdão nº 2.366/2007 — Segunda Câmara](https://pesquisa.apps.tcu.gov.br/doc/acordao-completo/2366/2007/Segunda%20C%C3%A2mara). Recomendações federais sobre inventário, conciliação, termos de responsabilidade e apuração. Acesso em 16 jul. 2026.
