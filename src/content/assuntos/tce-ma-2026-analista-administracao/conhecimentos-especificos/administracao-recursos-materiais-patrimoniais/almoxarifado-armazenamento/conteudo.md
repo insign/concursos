@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Almoxarifado e armazenamento
-description: Almoxarifado, armazenagem, localização, conservação, slotting, espaço, segurança, sistemas, indicadores e auditoria.
+description: Funções e objetivos do almoxarifado, registros e endereçamento, conservação e recuperação, técnicas de armazenagem, utilização do espaço e segurança.
 order: 120
 storageId: almoxarifado-armazenamento
 ---
@@ -70,61 +70,6 @@ Princípios operacionais importantes:
 - **segurança:** densidade e velocidade nunca justificam sobrecarga, obstrução ou exposição indevida;
 - **economicidade:** espaço, tecnologia e grau de controle devem ser proporcionais ao risco e ao valor;
 - **responsabilidade:** acesso, guarda, registro e tratamento de ocorrências precisam de responsáveis definidos.
-
-
-<!-- REVISAO-ALMOXARIFADO-2026 -->
-
-### 1.4 Alcance normativo e fonte da regra
-
-A gestão do almoxarifado combina referências com campos de aplicação diferentes. Antes de julgar uma afirmação, identifique **quem é o destinatário da norma**, **qual o risco tratado** e **qual é a data de referência**.
-
-| Fonte | Papel no assunto | Cuidado de prova |
-| --- | --- | --- |
-| IN SEDAP nº 205/1988 | referência operacional do SISG federal para guarda, localização, segurança, preservação, rotação e inventário | não se aplica automaticamente ao TCE-MA |
-| NR 1 | estrutura o gerenciamento de riscos ocupacionais e o PGR, quando houver incidência | GRO/PGR integra os riscos; não substitui medidas técnicas específicas |
-| NR 11 | transporte, movimentação, armazenagem e manuseio | capacidade, estabilidade, circulação e operação segura |
-| NR 17 | ergonomia e adaptação da tarefa | não existe um único peso seguro para toda pessoa e situação |
-| NR 23 | proteção contra incêndios | articula-se com a legislação estadual e normas técnicas aplicáveis |
-| NR 26 | sinalização, classificação GHS, rotulagem e ficha com dados de segurança | cor e rótulo não eliminam o risco |
-| Lei Estadual nº 11.390/2020 e normas do CBMMA | segurança contra incêndio em edificações e áreas de risco no Maranhão | medidas dependem da ocupação, carga de incêndio, projeto e situação concreta |
-| fabricante e responsável técnico | instalação, capacidade, inspeção, manutenção e uso de estruturas e equipamentos | não se deve inventar capacidade por analogia |
-| norma setorial do produto | requisitos sanitários, ambientais, químicos ou técnicos | prevalece para riscos específicos |
-
-> **Regra de decisão:** referência federal, norma trabalhista, legislação estadual de incêndio, projeto e manual do fabricante podem coexistir. Uma não deve ser usada para apagar o campo de aplicação da outra.
-
-### 1.5 GRO, PGR e hierarquia de controles
-
-A NR 1 fornece a estrutura geral para o gerenciamento de riscos ocupacionais. No almoxarifado, o ciclo gerencial pode ser resumido assim:
-
-1. identificar perigos nas tarefas, materiais, equipamentos e instalações;
-2. avaliar probabilidade, exposição e consequências;
-3. classificar e priorizar os riscos;
-4. definir medidas e responsáveis;
-5. registrar o plano de ação;
-6. implementar e acompanhar;
-7. verificar eficácia;
-8. revisar após mudanças, incidentes, quase acidentes ou perda de eficácia.
-
-A preferência preventiva segue, em termos gerais, esta lógica:
-
-```text
-eliminar ou evitar o perigo
-→ substituir material, processo ou equipamento
-→ adotar controles de engenharia
-→ adotar controles administrativos
-→ utilizar EPI
-```
-
-EPI é necessário em muitas atividades, mas não legitima:
-
-- estante instável;
-- carga acima da capacidade;
-- equipamento defeituoso;
-- circulação conflitante entre pedestres e veículos;
-- material incompatível armazenado em conjunto;
-- rota de emergência obstruída.
-
-A revisão do risco deve ocorrer quando houver mudança de leiaute, volume, tecnologia, produto, equipamento, jornada, ocorrência ou requisito normativo.
 
 ## 2. Controle, registro e localização
 
@@ -223,60 +168,6 @@ $$
 
 O denominador do índice de avarias precisa ser declarado. Dividir por unidades movimentadas mede uma coisa; dividir pelo saldo médio mede outra. Metas também dependem de criticidade, tipo de material e processo.
 
-
-### 2.6 Qualidade dos dados e relatórios de exceção
-
-A qualidade do controle não depende apenas de haver um sistema. Os dados devem ser:
-
-| Critério | Pergunta de controle |
-| --- | --- |
-| completude | todos os campos, lotes, validades e documentos obrigatórios existem? |
-| exatidão | o registro corresponde ao material e à evidência? |
-| consistência | código, unidade, endereço, saldo e condição não se contradizem? |
-| tempestividade | a movimentação foi registrada no momento ou prazo definido? |
-| unicidade | há cadastros ou endereços duplicados? |
-| validade | o dado respeita a regra do domínio e o formato esperado? |
-| rastreabilidade | é possível reconstruir quem alterou, quando e por quê? |
-
-Relatórios de exceção úteis:
-
-- saldo positivo sem endereço;
-- endereço ocupado por item diferente;
-- lote vencido ou próximo do vencimento ainda liberado;
-- item bloqueado contado como disponível;
-- número de série duplicado;
-- posição dinâmica alterada sem registro;
-- material de alto valor em área sem restrição;
-- movimento físico sem documento;
-- item sem movimentação por período relevante;
-- divergência repetida na mesma posição.
-
-A correção deve atingir a **causa**. Alterar apenas o saldo final pode esconder falha de recebimento, separação, unidade de medida, cadastro, acesso ou interface.
-
-### 2.7 WMS, código de barras e RFID
-
-Um sistema de gestão de armazém pode apoiar:
-
-- endereçamento;
-- recebimento e alocação;
-- reposição interna;
-- separação;
-- lote, série e validade;
-- bloqueio e liberação;
-- inventário cíclico;
-- produtividade e rastreabilidade.
-
-Código de barras, QR code e RFID são tecnologias de identificação e captura. Eles não comprovam sozinhos:
-
-- quantidade;
-- condição;
-- propriedade;
-- compatibilidade;
-- endereço atual;
-- regularidade do movimento.
-
-A leitura correta do identificador precisa ser combinada com processo, documento, estado do item, endereço e confirmação física.
-
 ## 3. Conservação e recuperação
 
 ### 3.1 Conservação é preventiva
@@ -335,35 +226,6 @@ Esse parâmetro exige cautela:
 - não deve ser transposto mecanicamente para todo material de consumo do TCE-MA.
 
 Conservação evita ou retarda a avaria; recuperação atua **depois** dela. Nenhuma das duas se confunde com simples ocultação do defeito.
-
-
-### 3.5 Validade, condição e saldo utilizável
-
-O saldo físico pode incluir material que não está apto ao fornecimento.
-
-```text
-saldo utilizável =
-saldo físico
-− vencido
-− bloqueado
-− avariado
-− reservado
-− em quarentena
-```
-
-A situação deve ser visível tanto fisicamente quanto no sistema. Área de bloqueados não pode ser uma extensão informal do estoque liberado.
-
-Para itens com validade, o controle deve incluir:
-
-- lote;
-- data de vencimento;
-- condição;
-- prazo mínimo remanescente exigido;
-- regra de liberação;
-- alertas;
-- destinação de exceções.
-
-FEFO reduz o risco de vencimento, mas não corrige excesso de compra, temperatura inadequada ou cadastro incompleto.
 
 ## 4. Técnicas de armazenamento
 
@@ -441,60 +303,6 @@ Agrupar por classe melhora localização, mas a compatibilidade prevalece. Devem
 
 Não existe uma única matriz de segregação válida para todos os produtos. A decisão deve seguir classificação do produto, ficha com dados de segurança, instruções do fabricante e regulamentação específica.
 
-
-### 4.6 Leis ou princípios da movimentação de materiais
-
-A literatura de Administração de Materiais costuma apresentar princípios que ajudam a avaliar o fluxo:
-
-| Princípio | Aplicação |
-| --- | --- |
-| mínima distância | reduzir trajetos e zigue-zague sem comprometer segurança |
-| mínima manipulação | reduzir toques, reempilhamentos e transferências |
-| obediência ao fluxo | evitar retornos e cruzamentos desnecessários |
-| utilização cúbica | aproveitar o volume, inclusive a altura, com capacidade demonstrada |
-| carga unitária | consolidar volumes quando a unitização for segura |
-| segurança e satisfação | reduzir risco, esforço, fadiga e improvisação |
-| flexibilidade | permitir mudança de volume, mix e processo |
-| padronização | reduzir variedade desnecessária de equipamentos e procedimentos |
-| gravidade | utilizá-la apenas quando tecnicamente segura e controlada |
-
-A lei da mínima distância não significa colocar todo material junto da saída. Massa, incompatibilidade, validade, criticidade e circulação podem justificar outro endereço.
-
-### 4.7 Horizontalização e verticalização
-
-| Técnica | Característica | Possível efeito |
-| --- | --- | --- |
-| horizontalização | expansão predominante no plano do piso | acesso simples, mas maior percurso e consumo de área |
-| verticalização | aproveitamento da altura por estruturas e equipamentos | maior densidade, com exigências adicionais de estrutura, acesso e segurança |
-
-Pegadinhas:
-
-- empilhadeira que alcança níveis elevados é recurso de verticalização;
-- verticalizar não aumenta a capacidade do piso ou da estante;
-- horizontalizar não elimina necessidade de corredores;
-- alta densidade pode reduzir seletividade.
-
-### 4.8 Cross-docking
-
-No **cross-docking**, o material permanece pouco ou nenhum tempo em estoque:
-
-```text
-receber
-→ identificar e conferir
-→ triar, consolidar ou fracionar
-→ encaminhar ao destino
-```
-
-Cross-docking não é:
-
-- localização dinâmica;
-- simples descarga;
-- armazenagem de longo prazo;
-- dispensa de conferência;
-- dispensa de rastreabilidade.
-
-A técnica é adequada quando fluxo, informação, sincronização e destino estão suficientemente coordenados.
-
 ## 5. Utilização do espaço e layout
 
 ### 5.1 Espaço útil não é espaço bruto
@@ -554,71 +362,6 @@ Ocupação mede espaço preenchido; **aproveitamento seguro** considera também:
 - resposta a emergência.
 
 Uma pilha que bloqueia a saída aumenta a ocupação e piora o almoxarifado.
-
-
-### 5.5 Sistemas de armazenagem e seletividade
-
-| Sistema | Uso predominante | Limitação ou cuidado |
-| --- | --- | --- |
-| empilhamento em bloco | cargas homogêneas e empilháveis | baixa seletividade e risco de compressão |
-| porta-paletes seletivo | acesso direto a cada posição | densidade relativa menor |
-| drive-in/drive-through | muitos paletes do mesmo item | baixa seletividade e controle de sequência |
-| flow rack | fluxo por gravidade, útil à rotação | custo, manutenção e restrições de carga |
-| push-back | maior densidade em canais | sequência e compatibilidade dos paletes |
-| cantilever | itens longos | apoio, retenção e estabilidade |
-| mezanino | expansão da área operacional | projeto estrutural, circulação e emergência |
-| carrossel ou sistema automatizado | alta densidade e ergonomia em certos perfis | investimento, continuidade e dependência tecnológica |
-
-Não existe sistema universalmente superior. A escolha depende de seletividade, densidade, giro, variedade, validade, massa, risco, equipamento, investimento e capacidade operacional.
-
-### 5.6 Slotting
-
-**Slotting** é a decisão sobre o endereço mais adequado para cada item.
-
-| Critério | Consequência provável |
-| --- | --- |
-| alto giro | menor distância de separação |
-| grande massa | níveis inferiores e estrutura compatível |
-| grande cubagem | posição que comporte volume e manobra |
-| validade | facilidade de aplicar FEFO |
-| criticidade | controle e disponibilidade compatíveis |
-| alto valor e portabilidade | acesso restrito e rastreabilidade reforçada |
-| fragilidade | proteção contra impacto, vibração e compressão |
-| incompatibilidade | segregação |
-| demanda conjunta | proximidade, se não houver conflito de risco |
-
-A frequência não prevalece automaticamente sobre segurança. Um item de alto giro, pesado e incompatível pode exigir posição mais distante da expedição.
-
-### 5.7 Reserva, picking, reposição interna e staging
-
-| Área ou função | Finalidade |
-| --- | --- |
-| reserva | maior quantidade e menor frequência de acesso |
-| picking | quantidade menor, preparada para separação frequente |
-| reposição interna | transferência controlada da reserva para o picking |
-| bloqueados | material indisponível |
-| quarentena | material aguardando análise ou decisão |
-| staging | permanência temporária associada a recebimento, expedição ou transferência |
-
-O staging não deve virar depósito permanente. A reposição interna precisa registrar origem, destino, quantidade, lote e momento.
-
-### 5.8 Indicadores de utilização do espaço
-
-Além da ocupação volumétrica, podem ser utilizados:
-
-$$
-\text{ocupação de posições} =
-\frac{\text{posições ocupadas}}
-{\text{posições utilizáveis}} \times 100
-$$
-
-$$
-\text{utilização cúbica} =
-\frac{\text{volume efetivamente ocupado}}
-{\text{volume útil seguro}} \times 100
-$$
-
-**Honeycombing** é o espaço perdido dentro de posições parcialmente ocupadas ou mal dimensionadas. Uma taxa de ocupação elevada pode coexistir com honeycombing, corredores congestionados e baixa seletividade.
 
 ## 6. Segurança
 
@@ -700,60 +443,6 @@ Boas práticas integradas:
 - manter equipamentos conforme fabricante e registro de inspeção;
 - não improvisar estruturas, prolongadores ou capacidades.
 
-
-### 6.7 Incêndio no Maranhão e CBMMA
-
-A NR 23 exige observância da legislação estadual. No Maranhão, o estudo deve reconhecer:
-
-- Lei Estadual nº 11.390/2020;
-- Norma Técnica 01 do CBMMA, atualizada em 2024;
-- normas complementares conforme ocupação, produto e risco;
-- projeto, licenciamento, inspeção e manutenção das medidas instaladas.
-
-Método de análise:
-
-1. identificar ocupação e risco;
-2. verificar a norma estadual e técnica aplicável;
-3. confirmar projeto e medidas requeridas;
-4. manter sistemas instalados, acessíveis e operacionais;
-5. registrar inspeção e manutenção;
-6. reavaliar quando mudar uso, leiaute, material ou carga de incêndio.
-
-PGR, extintor, sinalização e treinamento são elementos complementares; nenhum deles substitui o conjunto de medidas exigidas para a edificação.
-
-### 6.8 Indicadores de segurança e conservação
-
-Indicadores adicionais:
-
-$$
-\text{validade crítica} =
-\frac{\text{unidades próximas do vencimento}}
-{\text{unidades sujeitas a validade}} \times 100
-$$
-
-$$
-\text{bloqueados antigos} =
-\frac{\text{itens bloqueados além do prazo}}
-{\text{itens bloqueados}} \times 100
-$$
-
-$$
-\text{distância por linha separada} =
-\frac{\text{distância percorrida}}
-{\text{linhas processadas}}
-$$
-
-Também devem ser acompanhados:
-
-- incidentes e quase acidentes;
-- tempo médio de localização;
-- obstruções identificadas;
-- inspeções vencidas;
-- itens sem ficha de segurança acessível;
-- reincidência de avarias.
-
-A queda do número de incidentes não prova, isoladamente, redução do risco. Pode haver subnotificação ou redução temporária da atividade.
-
 ## 7. Casos integrados
 
 ### Caso 1: saldo existe, mas ninguém encontra
@@ -776,34 +465,6 @@ Uma caixa apresenta vazamento. O erro é recolocá-la no endereço para “avali
 
 O sistema indicou uma posição livre, mas o operador guardou o material em outra e deixou para registrar no fim do turno. A localização aleatória perdeu seu controle central. O registro precisa acompanhar a alocação.
 
-
-### Caso 6: reserva correta, picking vazio
-
-O saldo total é suficiente, mas a posição de picking está vazia e a reserva não foi reposta. O problema não é falta global: é falha de reposição interna. O sistema precisa diferenciar os dois níveis.
-
-### Caso 7: material em cross-docking
-
-Uma remessa chega identificada para cinco unidades e deve sair no mesmo turno. Ela pode passar por área de staging, conferência e fracionamento, sem ser tratada como estoque regular de longo prazo.
-
-### Caso 8: alta ocupação e honeycombing
-
-O depósito informa 92% de posições ocupadas, mas várias posições contêm apenas pequenas caixas em estruturas dimensionadas para paletes. A ocupação de posições está alta, porém a utilização cúbica é baixa.
-
-### Caso 9: PGR com controle inadequado
-
-O inventário de riscos registra colisão entre empilhadeiras e pedestres, mas o plano limita-se a fornecer coletes. A medida é insuficiente se forem possíveis segregação física, rotas, barreiras, velocidade controlada e mudança de fluxo.
-
-### Caso 10: achado de auditoria
-
-| Elemento | Aplicação |
-| --- | --- |
-| critério | sistema exige atualização no momento da alocação |
-| condição | itens estavam em endereços diferentes dos registros |
-| causa | registro apenas ao fim do turno |
-| efeito | buscas, separações erradas e falsa ruptura |
-| evidência | inspeção física, logs e documentos |
-| encaminhamento | leitura na alocação, exceções e indicador de tempestividade |
-
 ## 8. Erros recorrentes em prova
 
 1. **“Almoxarifado e armazenagem são a mesma categoria.”** Errado: unidade e atividade.
@@ -822,23 +483,6 @@ O inventário de riscos registra colisão entre empilhadeiras e pedestres, mas o
 14. **“Código de barras garante rastreabilidade.”** Errado: depende de documento, processo e atualização.
 15. **“Cor de segurança substitui outras medidas.”** Errado: a própria NR 26 afasta essa conclusão.
 
-
-16. **“Horizontalização usa a posição mais alta da estante.”** Errado: isso caracteriza verticalização.
-17. **“Cross-docking é armazenagem prolongada.”** Errado: o objetivo é fluxo rápido.
-18. **“Estocagem livre dispensa endereço.”** Errado: a posição precisa ser registrada.
-19. **“Alta densidade sempre melhora seletividade.”** Errado: frequentemente ocorre tradeoff.
-20. **“Carga nominal da empilhadeira independe do centro de carga.”** Errado.
-21. **“RFID comprova quantidade, condição e propriedade.”** Errado.
-22. **“Item bloqueado integra saldo disponível.”** Errado.
-23. **“PGR substitui projeto de incêndio.”** Errado.
-24. **“Sinalização elimina a necessidade de segregação.”** Errado.
-25. **“Reserva e picking são a mesma função.”** Errado.
-26. **“Criticidade pode justificar controle rigoroso de item barato.”** Certo.
-27. **“Ocupação de posições e utilização cúbica são o mesmo indicador.”** Errado.
-28. **“Coletes são suficientes para todo conflito entre veículos e pedestres.”** Errado.
-29. **“Staging pode virar área permanente sem alteração de processo.”** Errado.
-30. **“FEFO corrige excesso de compra.”** Errado.
-
 ## 9. Síntese operacional
 
 Uma rotina madura de armazenagem segue a lógica:
@@ -856,10 +500,6 @@ Uma rotina madura de armazenagem segue a lógica:
 
 ## Referências
 
-
-- [NR 1 — Disposições Gerais e Gerenciamento de Riscos Ocupacionais](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1) — Ministério do Trabalho e Emprego. Redação vigente desde 26 maio 2026.
-- [Legislação Técnica do Corpo de Bombeiros Militar do Maranhão](https://cbm.ssp.ma.gov.br/unidades-bm/unidades-administrativas/dat/legislacao-tecnica-dat/) — Lei Estadual nº 11.390/2020, NT 01/CBMMA e normas complementares.
-- [Atualização da Norma Técnica 01/CBMMA/2024](https://cbm.ssp.ma.gov.br/2024/08/31/atualizacao-da-norma-tecnica-01-cbmma-2024/) — Corpo de Bombeiros Militar do Maranhão.
 - [Edital nº 1/2026 do TCE-MA](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf) — Cebraspe e Tribunal de Contas do Estado do Maranhão, 2026. Item 14.2.4, Cargo 1. Acesso em 16 jul. 2026.
 - [Instrução Normativa SEDAP nº 205, de 8 de abril de 1988](https://www.gov.br/patrimonio/pt-br/central-de-conteudo/legislacao/instrucoes-normativas/instrucao-normativa-no-205-de-08-de-abril-de-1988) — Secretaria de Administração Pública da Presidência da República. Texto oficial disponibilizado pelo Ministério da Gestão e da Inovação em Serviços Públicos; âmbito do SISG federal; página modificada em 1º nov. 2024. Acesso em 16 jul. 2026.
 - [NR 11 — Transporte, Movimentação, Armazenagem e Manuseio de Materiais](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-11-atualizada-2016.pdf) — Ministério do Trabalho e Emprego. Texto consolidado com última alteração indicada pela Portaria MTPS nº 505/2016. Acesso em 16 jul. 2026.
