@@ -1,283 +1,146 @@
-# Microsoft Windows: arquivos, pastas e programas
+# Microsoft Windows: revisão rápida
 
-## Recorte de versão
+## 1. Versão e objetos
 
-- Referência atual: Windows 11.
-- Conceitos básicos também valem para Windows 10.
-- Se o enunciado indicar versão, ela prevalece.
-- Aparência, posição e visibilidade de elementos podem ser personalizadas.
-- Suporte gratuito regular do Windows 10: encerrado em 14/10/2025.
-
-## Sistema operacional
-
-O Windows:
-
-- oferece interface;
-- executa e coordena programas;
-- gerencia memória, processamento e dispositivos;
-- organiza unidades, pastas e arquivos;
-- controla contas, permissões e segurança;
-- fornece serviços aos aplicativos.
-
-| Elemento | Regra curta |
+| Item | Regra |
 |---|---|
 | Windows | sistema operacional |
-| Explorador de Arquivos | aplicativo de navegação e gerenciamento |
-| arquivo | unidade de informação |
-| pasta/diretório | contêiner hierárquico |
-| atalho | referência ao original, não cópia |
+| Explorador de Arquivos | aplicativo para navegar e gerenciar itens |
+| arquivo | unidade de informação identificada por nome e caminho |
+| pasta | contêiner hierárquico |
+| atalho | referência; não é cópia do destino |
+| ícone fixado | acesso conveniente; não instala nem duplica |
 
-Fixar ou criar atalho **não instala, move nem duplica** o item de destino.
+- A versão citada na questão prevalece.
+- 24H2 e 25H2 atendem computadores existentes; 26H1 é voltada a certos dispositivos novos e não é atualização local geral.
+- Fechar janela não garante encerrar todo processo em segundo plano.
 
-## Interface
+## 2. Interface e Explorador
 
-### Área de trabalho
-
-- Superfície gráfica principal.
-- Pode exibir ícones, arquivos, pastas e atalhos.
-- `Win + D`: exibir/ocultar; não fecha janelas.
-
-### Menu Iniciar
-
-- Acesso a pesquisa, aplicativos, arquivos, configurações, conta e energia.
-- Windows 11: itens fixados, Todos, recomendações, conta e energia.
-- Ícones ficam centralizados por padrão, mas podem ser alinhados à esquerda.
-- Blocos dinâmicos são característica histórica do Windows 10, não do Windows 11 atual.
-
-### Barra de tarefas
-
-- Inicia aplicativos e alterna janelas.
-- Ícone fixado ≠ aplicativo aberto.
-- Linha sob o ícone: aplicativo em execução no Windows 11.
-- Aplicativo ativo recebe destaque.
-- Botão direito pode abrir Lista de Atalhos (*Jump List*).
-
-### Bandeja do sistema
-
-- Ícones de recursos, apps em segundo plano, relógio e indicadores.
-- `Win + A`: Configurações Rápidas no Windows 11.
-- `Win + N`: notificações e calendário no Windows 11.
-
-### Janelas
-
-| Controle | Efeito |
+| Recurso | Função |
 |---|---|
-| minimizar | oculta a janela sem encerrá-la |
-| maximizar | ocupa a área disponível |
-| restaurar | volta ao tamanho anterior |
-| fechar | fecha a janela ativa |
-
-Fechar janela não garante eliminação de todo processo em segundo plano.
-
-## Multitarefa
-
-| Atalho | Ação |
-|---|---|
-| `Alt + Tab` | alternar janelas abertas |
+| Área de trabalho | superfície principal; `Win + D` mostra ou oculta |
+| Menu Iniciar | pesquisa, aplicativos, arquivos, conta, configurações e energia |
+| Barra de tarefas | inicia e alterna apps; fixado ≠ em execução |
+| `Win + A` | Configurações Rápidas no Windows 11 |
+| `Win + N` | notificações e calendário no Windows 11 |
+| `Alt + Tab` | alterna janelas |
 | `Win + Tab` | Visão de Tarefas |
-| `Win + ←/→` | encaixar à esquerda/direita |
-| `Win + Z` | layouts de encaixe no Windows 11 |
-| `Win + Ctrl + D` | criar área de trabalho |
-| `Win + Ctrl + ←/→` | alternar áreas de trabalho |
-| `Win + Ctrl + F4` | fechar área de trabalho atual |
+| `Win + E` | abre o Explorador |
 
-Fechar área virtual transfere suas janelas para outra área; não encerra a sessão.
+Partes do Explorador:
 
-## Explorador de Arquivos
+- barra de endereços = caminho;
+- caixa de pesquisa = busca no escopo atual;
+- painel de navegação = árvore de locais;
+- painel de conteúdo = itens do local;
+- painel de visualização = prévia;
+- painel de detalhes = propriedades;
+- barra de status = seleção e controles de apresentação.
 
-- Abre com `Win + E`.
-- Gerencia arquivos/pastas locais e, se configurado, na nuvem.
-- Elementos: navegação, endereço, pesquisa, conteúdo, comandos e painéis.
-- Windows 11: abre por padrão em Início (*Home*), configurável para Este Computador.
-- Fixar no acesso rápido cria referência; não move nem copia.
-- Menu simplificado: **Mostrar mais opções** abre comandos clássicos.
+Abas:
 
-### Caminho
+- `Ctrl + T`: nova aba;
+- `Ctrl + W`: fecha aba ativa; fecha a janela se for a única;
+- `Ctrl + Tab`: próxima aba;
+- `Ctrl + Shift + Tab`: aba anterior;
+- fechar aba não exclui a pasta.
 
-`C:\Users\Ana\Documents\relatorio.docx`
+## 3. Caminhos, nomes, extensões e pesquisa
 
-- `C:` = unidade;
-- `C:\` = raiz;
-- `\` = separador;
-- pastas = níveis;
-- `relatorio.docx` = arquivo.
+Exemplo: `C:\Users\Ana\Documents
+elatorio.docx`
 
-Mesmo nome pode existir em pastas diferentes.
+- `C:` = unidade; `C:\` = raiz; `\` separa níveis;
+- mesmo nome pode existir em caminhos diferentes;
+- trocar `.txt` por `.pdf` não converte o conteúdo;
+- extensão pode estar oculta e não prova segurança.
 
-### Extensão
+Nomes:
 
-- Parte final: `.pdf`, `.docx`, `.jpg`.
-- Ajuda na associação com aplicativo.
-- Pode estar oculta.
-- Exibir: **Exibir > Mostrar > Extensões de nome de arquivo**.
-- Renomear `.txt` para `.pdf` **não converte** o conteúdo.
-- Extensão/ícone não garantem segurança.
+| Regra | Exemplos |
+|---|---|
+| proibidos | `< > : " / \ | ? *` |
+| reservados | `CON`, `PRN`, `AUX`, `NUL`, `COM1`–`COM9`, `LPT1`–`LPT9` |
+| extensão não neutraliza | `CON.txt` continua inválido |
+| terminação | não encerrar por espaço ou ponto |
 
-### Propriedades e atributos
+Pesquisa e indexação:
 
-- `Alt + Enter`: propriedades.
-- Propriedades: localização, tamanho, tipo, datas e metadados disponíveis.
-- Atributos: oculto, somente leitura e, conforme sistema, compactado/criptografado.
-- Oculto ≠ protegido.
-- Itens ocultos: **Exibir > Mostrar > Itens ocultos**.
+- o escopo atual importa;
+- modo Clássico indexa áreas comuns; Aprimorado amplia o alcance;
+- índice pode conter nome, caminho, propriedades e conteúdo compatível;
+- ausência no índice ≠ inexistência;
+- `Ctrl + E`/`Ctrl + F`: pesquisa; `Ctrl + L`/`Alt + D`: endereço.
 
-## Seleção
+Exibições:
 
-| Ação | Resultado |
+- Ícones = miniatura/ícone;
+- Lista = apresentação compacta;
+- Detalhes = linhas e colunas;
+- Conteúdo/Blocos = nome com propriedades;
+- classificar, agrupar, filtrar ou mudar exibição não move arquivos.
+
+## 4. Selecionar, copiar, mover e excluir
+
+| Seleção | Resultado |
 |---|---|
 | clique | um item |
 | `Ctrl` + clique | itens não contíguos |
 | `Shift` + clique | intervalo contíguo |
-| `Ctrl + A` | todos os itens |
+| `Ctrl + A` | todos os itens da área ativa |
 
-## Operações
-
-| Operação | Atalho | Efeito |
-|---|---|---|
-| copiar | `Ctrl + C` | original permanece |
-| recortar | `Ctrl + X` | prepara transferência |
-| colar | `Ctrl + V` | conclui cópia/movimento |
-| desfazer | `Ctrl + Z` | desfaz ação compatível |
-| nova pasta | `Ctrl + Shift + N` | cria pasta |
-| renomear | `F2` | muda nome |
-
-Recortar **não é exclusão imediata**.
-
-### Arrastar sem modificadores
-
-A regra considera volumes; em situações comuns, cada letra de unidade identifica um volume.
-
-| Situação | Padrão |
+| Operação | Atalho |
 |---|---|
-| mesmo volume | mover |
-| volumes diferentes | copiar |
+| copiar | `Ctrl + C` |
+| recortar | `Ctrl + X` |
+| colar | `Ctrl + V` |
+| desfazer | `Ctrl + Z` |
+| nova pasta | `Ctrl + Shift + N` |
+| renomear | `F2` |
+| propriedades | `Alt + Enter` |
 
-### Modificadores no arrasto
+Arrastar e soltar:
 
-| Tecla | Força |
-|---|---|
-| `Shift` | mover |
-| `Ctrl` | copiar |
-| `Ctrl + Shift` | criar atalho |
+| Origem/destino | Sem tecla | `Shift` | `Ctrl` | `Ctrl + Shift` |
+|---|---|---|---|---|
+| mesmo volume | mover | mover | copiar | criar atalho |
+| volumes diferentes | copiar | mover | copiar | criar atalho |
 
-A regra é do arrastar padrão. Rede, nuvem, biblioteca, pesquisa e políticas podem exigir ressalva.
+Lixeira:
 
-### Permissões NTFS
+- `Delete`/`Ctrl + D`: envia normalmente à Lixeira;
+- `Shift + Delete`: exclui sem Lixeira;
+- Restaurar retorna, em regra, ao local original;
+- rede, mídia removível, tamanho e configuração podem mudar o comportamento;
+- sem Lixeira não significa irrecuperável em sentido forense.
 
-- mover no mesmo volume: preserva permissões por padrão;
-- copiar ou mover a outro volume: herda permissões do destino por padrão;
-- não generalizar para FAT, rede ou nuvem.
+## 5. Compactação e programas
 
-## Exclusão e Lixeira
+- ZIP reúne e pode reduzir tamanho; não é sinônimo de criptografia.
+- JPEG e outros formatos já comprimidos podem reduzir pouco.
+- Windows 11 24H2 oferece suporte nativo a ZIP, RAR, 7z e TAR, mas não a todo arquivo criptografado.
+- instalar ≠ fixar ≠ criar atalho;
+- desafixar ou apagar atalho não desinstala;
+- mudar aplicativo padrão não converte arquivos;
+- `Ctrl + Shift + Esc` abre o Gerenciador de Tarefas;
+- Finalizar tarefa pode causar perda de dados não salvos;
+- `Win + L` bloqueia sem encerrar a sessão.
 
-| Ação | Efeito padrão |
-|---|---|
-| `Delete` ou `Ctrl + D` | envia à Lixeira |
-| `Shift + Delete` | exclui sem Lixeira |
-| Restaurar | retorna ao local original, em regra |
-| Esvaziar | remove os itens da Lixeira |
+**Aprofundamento NTFS:** mover no mesmo volume tende a preservar permissões; copiar ou mover para outro volume tende a herdar as permissões do destino.
 
-- Nem toda exclusão usa a Lixeira.
-- Rede, mídia removível, tamanho e configuração podem alterar o comportamento.
-- Sem Lixeira ≠ irrecuperável por qualquer técnica.
+## 6. Pegadinhas e método
 
-## Organização visual
-
-| Recurso | Efeito |
-|---|---|
-| pesquisar | localizar no escopo |
-| classificar | ordenar por propriedade |
-| agrupar | reunir visualmente por propriedade |
-| visualizar | mudar a apresentação |
-
-Classificar, agrupar e visualizar **não movem** arquivos.
-
-| Atalho | Ação no Explorador |
-|---|---|
-| `Ctrl + E/F` | pesquisa |
-| `Ctrl + L` ou `Alt + D` | barra de endereços |
-| `F3` | pesquisar arquivo/pasta |
-| `F5` | atualizar |
-| `Alt + ←/→/↑` | voltar/avançar/subir |
-
-## ZIP
-
-- Agrupa itens e pode reduzir espaço.
-- Compactar: **Mostrar mais opções > Enviar para > Pasta compactada (zipada)**.
-- Todo o conteúdo: **Extrair Tudo**.
-- Um item: abrir e arrastar para fora.
+- Explorador ≠ Windows.
+- Atalho ≠ cópia.
+- Fixar ≠ instalar.
+- Minimizar ≠ encerrar.
+- Renomear extensão ≠ converter.
+- Oculto ≠ criptografado.
+- Pesquisa sem resultado ≠ arquivo inexistente.
+- Fechar aba ≠ excluir pasta.
+- Classificar/agrupar ≠ mover.
 - ZIP ≠ criptografia.
-- JPEG pode quase não reduzir.
-- Windows 11 24H2 suporta também RAR, 7z e TAR: especificidade de versão.
-- Formato suportado ≠ arquivo compactado criptografado suportado.
+- Dado em Lixeira ≠ já apagado do local original e irrecuperável.
 
-## Programas e aplicativos
-
-### Instalar e abrir
-
-- Instalação integra componentes ao sistema.
-- Pode ocorrer por instalador, Store ou mecanismo corporativo.
-- Abrir: Iniciar, Pesquisa, barra, atalho ou arquivo associado.
-- Fixar/desafixar ≠ instalar/desinstalar.
-
-### Controle
-
-| Atalho/ação | Efeito |
-|---|---|
-| `Alt + F4` | fechar janela ativa |
-| `Ctrl + Shift + Esc` | Gerenciador de Tarefas |
-| Finalizar tarefa | forçar encerramento; pode perder dados |
-| `Win + L` | bloquear sem encerrar sessão/apps |
-
-### Desinstalar
-
-- Iniciar > Todos > app > Desinstalar.
-- Configurações > Aplicativos > Aplicativos instalados.
-- Painel de Controle > Programas e Recursos, quando aplicável.
-- Alguns apps integrados não podem ser desinstalados.
-- Apagar pasta, atalho ou ícone **não é** desinstalação adequada.
-
-### Aplicativos padrão
-
-- Configurações > Aplicativos > Aplicativos padrão.
-- Associação pode ser por extensão, protocolo ou aplicativo.
-- Alterar associação muda como o tipo abre; não converte o arquivo.
-
-## Atalhos essenciais
-
-| Atalho | Ação |
-|---|---|
-| `Win` / `Ctrl + Esc` | menu Iniciar |
-| `Win + E` | Explorador |
-| `Win + I` | Configurações |
-| `Win + D` | área de trabalho |
-| `Win + L` | bloquear |
-| `Win + Tab` | Visão de Tarefas |
-| `Alt + Tab` | alternar janelas |
-| `Alt + F4` | fechar janela ativa |
-| `Ctrl + Shift + Esc` | Gerenciador de Tarefas |
-| `F2` | renomear |
-| `Alt + Enter` | propriedades |
-
-## Pegadinhas
-
-- Explorador ≠ sistema operacional.
-- atalho ≠ cópia;
-- fixar ≠ instalar;
-- minimizar ≠ encerrar;
-- `Alt + Tab` ≠ fechar;
-- extensão renomeada ≠ formato convertido;
-- arquivo oculto ≠ arquivo protegido;
-- associação ≠ vínculo imutável;
-- mesmo volume + arrastar ≠ copiar por padrão;
-- volumes diferentes + arrastar ≠ mover por padrão;
-- recortar ≠ excluir imediatamente;
-- `Shift + Delete` ≠ impossibilidade forense de recuperação;
-- classificar/agrupar ≠ mover;
-- ZIP ≠ criptografia;
-- desafixar/excluir atalho ≠ desinstalar;
-- `Win + L` ≠ sair da conta.
-
-## Sequência de decisão
-
-**Objeto → operação → origem/destino → modificadores → versão → condições → efeito real.**
+Sequência: **objeto → operação → origem/destino → tecla → versão → configuração → efeito real**.

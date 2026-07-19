@@ -6,17 +6,28 @@ order: 20
 storageId: windows-arquivos-pastas
 ---
 
+
 ## 1. Como estudar Windows quando o edital não indica versão
 
-O edital cobra Microsoft Windows sem indicar uma edição específica. Este assunto adota o **Windows 11 atual** como referência de interface e preserva os comportamentos básicos compartilhados com o Windows 10. Quando uma função depende da versão, da configuração, do tipo de unidade ou de políticas administrativas, essa condição é indicada expressamente.
+O edital cobra Microsoft Windows sem indicar edição ou atualização. Este assunto usa o **Windows 11** como referência de interface e preserva os comportamentos básicos compartilhados com o Windows 10. Quando uma função depende de versão, configuração, unidade, sistema de arquivos ou política administrativa, essa condição é indicada.
 
-Essa cautela evita duas falhas comuns:
+Em julho de 2026, a Microsoft mantém diferentes versões do Windows 11. Para prova, não é produtivo decorar números de compilação; é importante reconhecer o alcance de cada referência:
 
-- tratar uma aparência personalizável como regra absoluta;
-- transportar para o Windows 11 um comando ou elemento visual específico do Windows 10.
+| Referência | Como interpretar |
+|---|---|
+| **24H2** | versão ainda suportada e base de muitos ambientes existentes |
+| **25H2** | atualização ampla para computadores elegíveis e referência corrente para implantação em dispositivos existentes |
+| **26H1** | versão destinada a determinados dispositivos novos de 2026; não é oferecida como atualização local de 24H2 ou 25H2 |
+| **Windows 10** | aplicar quando o enunciado o mencionar ou quando o comportamento for transversal |
+| **versão expressa na questão** | sempre prevalece sobre a referência geral do material |
 
-O suporte gratuito regular do Windows 10 terminou em 14 de outubro de 2025, mas isso não tornou incorretos seus conceitos fundamentais de arquivo, pasta, janela, cópia, movimentação ou atalho. Em prova, a versão mencionada no enunciado prevalece.
+Essa cautela evita três falhas comuns:
 
+- tratar aparência personalizável como regra absoluta;
+- transportar para o Windows 11 elemento visual específico do Windows 10;
+- presumir que toda versão mais nova é atualização geral para qualquer computador existente.
+
+O suporte gratuito regular do Windows 10 terminou em 14 de outubro de 2025, mas isso não tornou incorretos seus conceitos fundamentais de arquivo, pasta, janela, cópia, movimentação ou atalho.
 ---
 
 ## 2. Sistema operacional: conceito e funções
@@ -137,6 +148,20 @@ O Windows 11 apresenta menu de contexto simplificado. Comandos comuns como recor
 
 A aparência pode mudar com atualizações e aplicativos instalados; a função do comando importa mais que a posição visual exata.
 
+### 5.3 Abas e escopo de navegação
+
+No Windows 11 atual, uma mesma janela do Explorador pode manter várias **abas**, cada uma exibindo uma pasta, unidade ou local diferente.
+
+- mudar de aba altera o local apresentado, não move os arquivos;
+- fechar uma aba não exclui nem fecha a pasta no sistema de arquivos;
+- `Ctrl + T` abre nova aba e a ativa;
+- `Ctrl + W` fecha a aba ativa e fecha a janela quando resta apenas uma aba;
+- `Ctrl + Tab` avança entre abas;
+- `Ctrl + Shift + Tab` retorna à aba anterior.
+
+Não confunda aba, janela e pasta. Uma aba é uma forma de visualizar um local; o local continua existindo independentemente da aba que o apresenta.
+
+
 ---
 
 ## 6. Unidades, caminhos, pastas e arquivos
@@ -169,7 +194,23 @@ Pontos de prova:
 - a extensão e o ícone não garantem que um arquivo seja legítimo ou seguro;
 - a associação entre extensão e aplicativo padrão pode ser alterada.
 
-### 6.3 Propriedades, metadados e atributos
+
+### 6.3 Regras de nomenclatura
+
+A interface comum do Windows impõe regras aos nomes de arquivos e pastas:
+
+| Regra | Consequência |
+|---|---|
+| caracteres reservados | não use `< > : " / \ | ? *` |
+| nomes de dispositivo | não use `CON`, `PRN`, `AUX`, `NUL`, `COM1` a `COM9` nem `LPT1` a `LPT9` |
+| extensão após nome reservado | `CON.txt` e `NUL.pdf` continuam inválidos na interface comum |
+| terminação | não termine o nome com espaço ou ponto |
+| mesmo nome em pastas diferentes | permitido, porque os caminhos são distintos |
+
+Caracteres como hífen, sublinhado, parênteses, espaço interno e `@` podem ser aceitos. A pergunta deve ser resolvida pelo conjunto completo do nome e pelo caminho, não pela aparência de um único caractere.
+
+### 6.4 Propriedades, metadados e atributos
+
 
 As **propriedades** podem informar nome, tipo, caminho, tamanho, datas e outros dados. Conforme o formato, também podem existir metadados como autor, título, dimensões, duração e etiquetas.
 
@@ -232,7 +273,7 @@ Teclas modificadoras tornam a intenção explícita:
 
 A regra se refere ao arrastar e soltar padrão entre volumes. Ela não substitui os comandos explícitos Copiar/Colar e Recortar/Colar e não deve ser generalizada sem ressalva para resultados de pesquisa, bibliotecas, nuvem, rede, mídia removível ou políticas corporativas.
 
-### 7.4 Efeito básico sobre permissões NTFS
+### 7.4 Aprofundamento: efeito básico sobre permissões NTFS
 
 Em volumes NTFS, por padrão:
 
@@ -254,21 +295,57 @@ Em operação local comum:
 
 A Lixeira não é garantia universal. Um item pode não passar por ela por causa do modo de exclusão, tamanho, configuração, tipo ou local da unidade, compartilhamento de rede ou mídia removível.
 
-“Excluir permanentemente” na interface significa não usar a Lixeira; não é afirmação de impossibilidade absoluta de recuperação forense. Também não se deve confundir restaurar da Lixeira com desfazer uma cópia ou uma movimentação.
+**Aprofundamento:** “excluir permanentemente” na interface significa não usar a Lixeira; não prova impossibilidade absoluta de recuperação forense. Para a prova básica, retenha a distinção operacional entre `Delete`, `Shift + Delete`, Restaurar e Esvaziar Lixeira. Também não confunda restaurar da Lixeira com desfazer cópia ou movimentação.
 
 ---
 
-## 9. Pesquisa, classificação, agrupamento e visualização
 
-O Explorador oferece maneiras diferentes de encontrar e organizar a apresentação dos itens:
+## 9. Pesquisa, indexação, visualização e organização
 
-- **pesquisar:** localiza arquivos e pastas no escopo indicado;
-- **classificar:** ordena por propriedade, como nome, data, tipo ou tamanho;
-- **agrupar:** reúne visualmente itens que compartilham uma propriedade;
-- **visualizar:** altera a forma de exibição, como ícones, lista, detalhes ou conteúdo;
-- **filtrar:** quando disponível, restringe o conjunto mostrado por critérios.
+### 9.1 Pesquisa e escopo
 
-Classificar ou agrupar não muda a pasta física dos arquivos. Mudar para a exibição Detalhes também não altera o conteúdo: apenas apresenta colunas de propriedades. A disponibilidade de metadados e colunas varia conforme o tipo de arquivo.
+A caixa de pesquisa trabalha no local ou escopo atual. Pesquisar em uma pasta, em **Este Computador**, em unidade externa ou em local de nuvem pode produzir conjuntos diferentes.
+
+A indexação acelera a localização ao manter catálogo de arquivos e propriedades. Conforme o tipo de arquivo, o manipulador disponível e a configuração, o índice também pode incluir conteúdo interno.
+
+| Configuração | Alcance geral |
+|---|---|
+| **Clássico** | indexa por padrão áreas comuns, como Documentos, Imagens, Músicas e Área de Trabalho |
+| **Aprimorado** | amplia a busca indexada para o computador, com exclusões configuráveis e maior uso de recursos |
+| propriedades apenas | considera nome, caminho e metadados suportados |
+| propriedades e conteúdo | também indexa texto interno de tipos compatíveis |
+
+Pontos de prova:
+
+- a pesquisa não se limita necessariamente ao nome;
+- ausência no índice não significa inexistência do arquivo;
+- item ainda pode ser encontrado por busca mais lenta ou em outro escopo;
+- conteúdo interno depende de formato, configuração e suporte;
+- pesquisa no Explorador não é sinônimo de pesquisa na Internet.
+
+### 9.2 Partes da janela
+
+| Elemento | Função |
+|---|---|
+| barra de endereços | mostra ou recebe o caminho do local atual |
+| caixa de pesquisa | localiza itens no escopo atual |
+| painel de navegação | apresenta pastas, unidades e locais hierárquicos |
+| painel de conteúdo | lista os itens do local selecionado |
+| painel de visualização | mostra prévia compatível do item |
+| painel de detalhes | exibe propriedades e metadados |
+| barra de status | informa seleção e oferece controles de apresentação |
+
+### 9.3 Modos de exibição
+
+| Exibição | Característica principal |
+|---|---|
+| Ícones | prioriza ícone ou miniatura em diferentes tamanhos |
+| Lista | apresentação compacta em sequência |
+| Detalhes | linhas e colunas de propriedades |
+| Conteúdo | combina nome com informações textuais do item |
+| Blocos | mostra ícones acompanhados de propriedades selecionadas |
+
+**Classificar** ordena; **agrupar** cria grupos visuais; **filtrar** restringe o conjunto mostrado; **alterar a exibição** muda a apresentação. Nenhuma dessas operações move fisicamente os arquivos.
 
 Atalhos úteis:
 
@@ -276,8 +353,8 @@ Atalhos úteis:
 - `Ctrl + L` ou `Alt + D`: barra de endereços;
 - `F3`: pesquisar arquivo ou pasta;
 - `F5`: atualizar a janela;
+- `Alt + P`: mostrar ou ocultar o painel de visualização;
 - `Alt + ←`, `Alt + →` e `Alt + ↑`: voltar, avançar e subir um nível.
-
 ---
 
 ## 10. Pastas compactadas e arquivos ZIP
@@ -297,7 +374,7 @@ O ZIP é criado no mesmo local e pode ser renomeado. Para extrair:
 - use **Extrair Tudo** para todo o conteúdo;
 - abra o ZIP e arraste um item para outro local para extrair apenas esse item.
 
-### 10.2 Limites e pegadinhas
+### 10.2 Dependências de versão e segurança
 
 - ZIP não é sinônimo de criptografia.
 - Arquivos já comprimidos, como muitas imagens JPEG, podem reduzir muito pouco.
@@ -402,6 +479,15 @@ Diego fixa `Projetos` no acesso rápido. A pasta continua em seu caminho origina
 
 Erika tenta primeiro fechar normalmente o programa, preservando a chance de salvar. Se ele permanecer travado, pode usar o Gerenciador de Tarefas, sabendo que finalizar o processo pode perder alterações não salvas.
 
+### 13.6 Pesquisa indexada
+
+Fábio procura dentro de `C:\Processos` uma expressão presente no conteúdo de arquivos PDF. O resultado depende do escopo, da indexação, do tipo de arquivo e do manipulador capaz de extrair o texto. Não localizar a expressão na primeira busca não prova que os arquivos inexistam.
+
+### 13.7 Abas do Explorador
+
+Gabriela abre `C:\Relatórios` em uma aba e `E:\Backup` em outra. Alternar entre elas não copia nem move itens. Fechar a aba de `E:\Backup` encerra apenas aquela visualização; a unidade e suas pastas permanecem.
+
+
 ---
 
 ## 14. Pegadinhas de prova
@@ -426,6 +512,14 @@ Erika tenta primeiro fechar normalmente o programa, preservando a chance de salv
 - Desafixar ou apagar atalho **não** desinstala.
 - Bloquear com `Win + L` **não** encerra a sessão.
 - A interface do Windows é personalizável; posição e visibilidade de elementos podem variar.
+- `< > : " / \ | ? *` não podem integrar nomes comuns de arquivos e pastas.
+- `CON.txt` continua usando nome reservado; a extensão não o neutraliza.
+- Fechar aba do Explorador não exclui a pasta exibida.
+- Pesquisa indexada não se limita necessariamente ao nome.
+- Ausência em resultado indexado não prova inexistência.
+- Mudar modo de exibição, classificar ou agrupar não move arquivos.
+- Precisar de 26H1 não significa que ela seja atualização geral de 24H2 ou 25H2.
+
 
 ---
 
@@ -436,9 +530,10 @@ Erika tenta primeiro fechar normalmente o programa, preservando a chance de salv
 3. **Observe origem e destino:** mesmo volume ou volumes diferentes?
 4. **Procure modificadores:** `Ctrl`, `Shift`, `Ctrl + Shift` ou nenhum.
 5. **Separe aparência de efeito:** fixar, ocultar e classificar não movem o original.
-6. **Confira a versão:** o enunciado cita Windows 10, Windows 11 ou nenhum?
+6. **Confira a versão:** o enunciado cita Windows 10, Windows 11, 24H2, 25H2, 26H1 ou nenhuma versão?
 7. **Identifique condições:** comportamento padrão, configuração, permissão, rede ou nuvem.
 8. **Rejeite absolutos indevidos:** “sempre visível”, “todo arquivo”, “nunca recuperável” e “necessariamente encerra”.
+9. **Diferencie busca de existência:** escopo, índice e suporte ao formato condicionam o resultado.
 
 ## Referências
 
@@ -454,3 +549,7 @@ Erika tenta primeiro fechar normalmente o programa, preservando a chance de salv
 - MICROSOFT. [Alterar os aplicativos padrão no Windows](https://support.microsoft.com/pt-br/windows/alterar-aplica%C3%A7%C3%B5es-predefinidas-no-windows-e5d82cad-17d1-c53b-3505-f10a32e1894d). Documentação oficial de associações por extensão, protocolo e aplicativo. Acesso em 18 jul. 2026.
 - MICROSOFT. Raymond Chen. [Will dragging a file result in a move or a copy?](https://devblogs.microsoft.com/oldnewthing/20041112-00/?p=37323). Regra oficial de arrastar e soltar com unidades e teclas modificadoras, 12 nov. 2004. Acesso em 18 jul. 2026.
 - MICROSOFT. [Permissions when you copy and move files](https://learn.microsoft.com/en-us/troubleshoot/windows-client/windows-security/permissions-on-copying-moving-files). Comportamento de permissões NTFS em cópia e movimentação, atualização de fev. 2026. Acesso em 18 jul. 2026.
+- MICROSOFT. [Windows 11 release information](https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information). Versões 24H2, 25H2 e 26H1 e alcance específico da 26H1. Acesso em 19 jul. 2026.
+- MICROSOFT. [Naming Files, Paths, and Namespaces](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file). Caracteres proibidos, nomes reservados e terminações não aceitas pelo shell. Acesso em 19 jul. 2026.
+- MICROSOFT. [Search indexing in Windows](https://support.microsoft.com/en-us/windows/experience/performance-optimization/search-indexing-in-windows). Modos Clássico e Aprimorado, propriedades e conteúdo indexável. Acesso em 19 jul. 2026.
+- MICROSOFT. [Use a screen reader to explore and navigate File Explorer](https://support.microsoft.com/en-us/accessibility/windows/use-a-screen-reader-to-explore-and-navigate-file-explorer-in-windows). Abas, painéis, barra de status e navegação no Explorador do Windows 11. Acesso em 19 jul. 2026.

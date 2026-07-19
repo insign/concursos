@@ -1,6 +1,0 @@
-exit_status=0
---- stdout ---
-{"questionCount": 90, "newRange": ["q4389", "q4418"], "questionSetRevision": 2, "cheatSheetLines": 146}
---- stderr ---
-/tmp/windows-patch.py:184: SyntaxWarning: invalid escape sequence '\P'
-  cases_block = cases_anchor + textwrap.dedent("""
