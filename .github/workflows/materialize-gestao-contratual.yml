@@ -27,7 +27,23 @@ jobs:
       - name: Materialize reviewed subject files
         shell: bash
         run: |
-          python3 .github/patch-gestao-contratual.py
+          set +e
+          python3 .github/patch-gestao-contratual.py > /tmp/gestao-contratual-patch.log 2>&1
+          status=$?
+          set -e
+          cat /tmp/gestao-contratual-patch.log
+
+          if [ "$status" -ne 0 ]; then
+            cp /tmp/gestao-contratual-patch.log .github/gestao-contratual-diagnostic.txt
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add .github/gestao-contratual-diagnostic.txt
+            if ! git diff --cached --quiet; then
+              git commit -m 'ci: registra diagnóstico de gestão contratual'
+              git push origin HEAD:${{ github.head_ref }}
+            fi
+            exit "$status"
+          fi
 
           target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/gestao-contratos/gestao-aplicada-execucao-contratual'
           if ! git diff --quiet -- "$target"; then
