@@ -1,4 +1,4 @@
-name: Finalize almoxarifado e armazenamento in KV
+name: Verify and repair completed KV subjects
 
 on:
   pull_request:
@@ -9,61 +9,88 @@ permissions:
   contents: read
 
 jobs:
-  finalize-kv:
-    name: Mark almoxarifado e armazenamento as done
+  verify-kv:
+    name: Verify almoxarifado and previsão remain done
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Mark done
+      - name: Inspect current states
         shell: bash
         run: |
-          cat > /tmp/payload.json <<'JSON'
-          {
-            "path": "/concursos/tce-ma-2026-analista-administracao/almoxarifado-armazenamento/",
-            "status": "done"
-          }
-          JSON
-
-          curl --fail-with-body --silent --show-error \
-            -X PUT \
-            -H 'Content-Type: application/json' \
-            --data @/tmp/payload.json \
-            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--almoxarifado-armazenamento' \
-            > /tmp/mutation.json
-
+          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/before.json
           python3 - <<'PY'
           import json
-          key = 'tce-ma-2026-analista-administracao--almoxarifado-armazenamento'
-          expected = {
-              'path': '/concursos/tce-ma-2026-analista-administracao/almoxarifado-armazenamento/',
-              'status': 'done',
+          subjects = {
+              'tce-ma-2026-analista-administracao--previsao-controle-estoque': '/concursos/tce-ma-2026-analista-administracao/previsao-controle-estoque/',
+              'tce-ma-2026-analista-administracao--almoxarifado-armazenamento': '/concursos/tce-ma-2026-analista-administracao/almoxarifado-armazenamento/',
           }
-          with open('/tmp/mutation.json', encoding='utf-8') as stream:
+          with open('/tmp/before.json', encoding='utf-8') as stream:
               document = json.load(stream)
-          item = document['json']['links'][key]
-          print('MUTATION_ITEM', item)
-          print('KV_VERSION_AFTER_MUTATION', document.get('version'))
-          if item != expected:
-              raise SystemExit(1)
+          links = document['json']['links']
+          print('KV_VERSION_BEFORE_REPAIR', document.get('version'))
+          repairs = []
+          for key, path in subjects.items():
+              item = links.get(key)
+              print('CURRENT_ITEM', key, item)
+              if item != {'path': path, 'status': 'done'}:
+                  repairs.append({'key': key, 'path': path})
+          with open('/tmp/repairs.json', 'w', encoding='utf-8') as stream:
+              json.dump(repairs, stream)
+          print('REPAIR_COUNT', len(repairs))
           PY
 
-      - name: Verify persisted value
+      - name: Repair stale states when necessary
         shell: bash
         run: |
-          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/adm-after.json
           python3 - <<'PY'
           import json
-          key = 'tce-ma-2026-analista-administracao--almoxarifado-armazenamento'
-          expected = {
-              'path': '/concursos/tce-ma-2026-analista-administracao/almoxarifado-armazenamento/',
-              'status': 'done',
+          import subprocess
+          from urllib.parse import quote
+
+          with open('/tmp/repairs.json', encoding='utf-8') as stream:
+              repairs = json.load(stream)
+
+          for repair in repairs:
+              payload_path = '/tmp/payload-' + repair['key'] + '.json'
+              response_path = '/tmp/response-' + repair['key'] + '.json'
+              with open(payload_path, 'w', encoding='utf-8') as out:
+                  json.dump({'path': repair['path'], 'status': 'done'}, out)
+              pointer = quote('/links/' + repair['key'], safe='')
+              subprocess.run(
+                  [
+                      'curl', '--fail-with-body', '--silent', '--show-error',
+                      '-X', 'PUT', '-H', 'Content-Type: application/json',
+                      '--data', '@' + payload_path,
+                      'https://kv.helio.me/adm/value?path=' + pointer,
+                      '-o', response_path,
+                  ],
+                  check=True,
+              )
+              with open(response_path, encoding='utf-8') as stream:
+                  response = json.load(stream)
+              print('REPAIRED_ITEM', repair['key'], response['json']['links'][repair['key']])
+              print('KV_VERSION_AFTER_REPAIR', response.get('version'))
+          PY
+
+      - name: Verify persisted states
+        shell: bash
+        run: |
+          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/after.json
+          python3 - <<'PY'
+          import json
+          subjects = {
+              'tce-ma-2026-analista-administracao--previsao-controle-estoque': '/concursos/tce-ma-2026-analista-administracao/previsao-controle-estoque/',
+              'tce-ma-2026-analista-administracao--almoxarifado-armazenamento': '/concursos/tce-ma-2026-analista-administracao/almoxarifado-armazenamento/',
           }
-          with open('/tmp/adm-after.json', encoding='utf-8') as stream:
+          with open('/tmp/after.json', encoding='utf-8') as stream:
               document = json.load(stream)
-          item = document['json']['links'][key]
-          print('PERSISTED_ITEM', item)
+          links = document['json']['links']
           print('KV_VERSION_PERSISTED', document.get('version'))
-          if item != expected:
-              raise SystemExit(1)
+          for key, path in subjects.items():
+              expected = {'path': path, 'status': 'done'}
+              item = links.get(key)
+              print('PERSISTED_ITEM', key, item)
+              if item != expected:
+                  raise SystemExit(1)
           PY
