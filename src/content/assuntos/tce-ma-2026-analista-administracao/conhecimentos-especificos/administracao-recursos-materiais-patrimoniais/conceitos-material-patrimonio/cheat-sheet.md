@@ -1,201 +1,246 @@
 # Conceitos de material e patrimônio e ciclo básico
 
-## Núcleo
+## Regra-mãe
 
-- Gestão material e patrimonial começa na necessidade, não na compra.
-- Recurso certo + quantidade certa + qualidade + prazo + local + custo total adequado.
-- Comprar ≠ administrar o ciclo.
-- Registro físico, administrativo e contábil devem convergir.
-- Menor preço nominal ≠ maior economicidade no ciclo de vida.
+- A gestão começa na **necessidade**, não na compra.
+- Recurso certo + quantidade + qualidade + prazo + local + custo total.
+- Menor preço nominal não garante economicidade.
+- Físico, administrativo, orçamentário e contábil devem convergir.
+- A palavra **material** depende da fonte usada na questão.
+
+## Fonte × significado
+
+| Fonte/plano | Uso predominante |
+| --- | --- |
+| IN SEDAP nº 205/1988 | material como gênero amplo, inclusive permanentes |
+| literatura administrativa | pode separar recursos materiais e patrimoniais |
+| Lei nº 4.320/1964 | consumo × permanente para classificar a despesa |
+| controle patrimonial | incorporação, tombamento, carga, movimentação, inventário e baixa |
+| contabilidade | estoque, imobilizado, intangível, direito de uso etc. |
+| Código Civil | móvel, imóvel, fungível, consumível, divisível e universalidades |
+
+> Uma classificação não elimina as outras.
+
+## Cinco perguntas independentes
+
+| Pergunta | Plano |
+| --- | --- |
+| é móvel, fungível ou consumível? | civil |
+| a despesa é consumo ou permanente? | orçamentário |
+| exige tombamento, relação-carga ou lote? | administrativo |
+| está em estoque ou distribuído? | logístico |
+| é estoque, imobilizado, intangível ou outro ativo? | contábil |
 
 ## Conceitos
 
-| Termo | Sentido |
+| Termo | Núcleo |
 | --- | --- |
-| material | categoria administrativa ampla de itens empregados ou empregáveis na atividade |
-| bem | objeto material ou imaterial com utilidade e valor jurídico/econômico |
-| propriedade | direito real sobre um bem |
-| direito | posição economicamente apreciável em favor da entidade |
-| obrigação | dever presente da entidade |
-| ativo | recurso controlado, decorrente de evento passado, com benefício ou potencial de serviços |
+| material | categoria administrativa de itens usados na atividade |
+| bem | objeto material ou imaterial com utilidade e valor |
+| propriedade | direito real sobre o bem |
+| ativo | recurso controlado com benefício ou potencial de serviços |
 | passivo | obrigação presente decorrente de evento passado |
-| patrimônio líquido | residual dos ativos após dedução dos passivos |
+| patrimônio líquido | ativos menos passivos |
+| custódia | guarda sem necessariamente haver propriedade |
 
 $$
-\text{PL} = \text{Ativos} - \text{Passivos}
+PL = Ativos - Passivos
 $$
 
-- Patrimônio ≠ apenas bens.
-- Patrimônio ≠ patrimônio líquido.
-- Ativo ≠ somente bem físico ou formalmente próprio.
-- Material ≠ somente material de consumo.
+- Patrimônio não é apenas bens.
+- Patrimônio não é patrimônio líquido.
+- Ativo não exige forma física.
+- Propriedade, controle e custódia são distintos.
 
-### Classificações civis
+## Classificações civis
 
 | Classe | Núcleo |
 | --- | --- |
-| imóvel | solo + incorporação natural ou artificial |
-| móvel | movimento próprio ou remoção sem alteração da substância/destinação |
+| móvel | removível sem alteração da substância/destinação |
+| imóvel | solo e incorporações |
 | fungível | substituível por mesma espécie, qualidade e quantidade |
 | consumível | uso destrói a substância; inclui destinado à alienação |
-| divisível | fracionável sem alteração, redução considerável de valor ou prejuízo ao uso |
-| singular | considerado de forma individual |
-| universalidade de fato | bens singulares da mesma pessoa + destinação unitária |
-| universalidade de direito | relações jurídicas de uma pessoa + valor econômico |
+| divisível | fracionável sem prejuízo relevante |
+| singular | considerado individualmente |
+| universalidade de fato | bens singulares com destinação unitária |
+| universalidade de direito | relações jurídicas com valor econômico |
 
-## Consumo e permanente
+## Consumo, permanente e controle
 
-- Para classificar a despesa, Lei nº 4.320/1964, art. 15, § 2º: material permanente = duração superior a 2 anos.
-- O marco temporal não esgota o tratamento administrativo, patrimonial e contábil.
-- Natureza não nasce da plaqueta.
-- Tombamento é controle, não critério classificatório.
+- Lei nº 4.320/1964, art. 15, § 2º: permanente = duração superior a dois anos **para classificar a despesa**.
+- Plaqueta não cria natureza permanente.
+- Tombamento é técnica de identificação.
+- Portaria STN nº 448/2002: revogada.
+- Bem consumível civil não equivale automaticamente a material de consumo.
+- Consumo no almoxarifado pode ser estoque contábil.
 
-| Critério operacional | Sinal de consumo |
+| Critério operacional | Pergunta |
 | --- | --- |
-| durabilidade | perde condições normais em até 2 anos |
-| fragilidade | quebra/deforma com perda de identidade ou utilidade |
-| perecibilidade | deteriora-se física ou quimicamente |
-| incorporabilidade | integra outro bem sem retirada viável sem prejuízo |
-| transformabilidade | adquirido para transformação |
+| durabilidade | perde condições normais em até dois anos? |
+| fragilidade | quebra/deforma com perda de identidade ou uso? |
+| perecibilidade | deteriora-se física ou quimicamente? |
+| incorporabilidade | integra outro bem sem retirada viável? |
+| transformabilidade | foi adquirido para transformação? |
 
-- Critérios detalhados dependem da norma administrativa aplicável.
-- Portaria STN nº 448/2002: **revogada** pela Portaria STN nº 841/2021.
-- Bem consumível civil ≠ automaticamente material de consumo administrativo.
-- Material de consumo em almoxarifado pode ser estoque contábil.
+## Controle proporcional
 
-## Patrimônio empresarial
+| Situação | Controle |
+| --- | --- |
+| bem relevante e individualizável | número patrimonial e carga individual |
+| conjunto homogêneo | controle por conjunto, quando autorizado |
+| durável de pequeno valor/baixo risco | relação-carga ou controle simplificado |
+| consumo | estoque, lote, quantidade ou valor |
+| bem de terceiro | registro de custódia |
+| intangível | registro próprio, sem plaqueta física |
 
-- Bens e direitos reconhecidos → ativos.
-- Obrigações presentes → passivos.
-- Ativos - passivos → patrimônio líquido.
-- PL pode ser positivo, nulo ou negativo.
-- Muitos bens físicos não garantem situação líquida positiva.
+- Controle simplificado não é ausência de controle.
+- Avalie valor, criticidade, mobilidade, atratividade, quantidade e custo de controle.
 
-## Patrimônio público
+## Estoques, imobilizado e intangível
 
-- Pode gerar potencial de serviços, não lucro direto.
-- Escola, estrada e equipamento hospitalar podem ser ativos pelo serviço que permitem.
+- NBC TSP 04 (R1): estoques.
+- NBC TSP 08 (R1): ativo intangível.
+- NBC TSP 37: ativo imobilizado.
+- NBC TSP 38: mensuração.
+- Publicação da norma não deve ser confundida com a data de aplicação prevista nela.
+- Software pode ser intangível.
+- Serviço em nuvem não gera automaticamente ativo.
+- Material permanente orçamentário não é sinônimo automático de imobilizado individual.
+
+## Patrimônio empresarial e público
+
+- Empresas: ativos + passivos + PL.
+- Setor público: ativos podem gerar **potencial de serviços**, sem lucro.
+- Nem todo bem de empresa estatal é automaticamente bem público do Código Civil.
+- Analise natureza da entidade, titularidade, afetação e regime.
 
 ### Lei nº 4.320/1964
 
-| Dispositivo | Regra-chave |
+| Artigo | Núcleo |
 | --- | --- |
-| art. 83 | evidencia quem arrecada, despende, administra ou guarda bens |
-| art. 85 | permite conhecer a composição patrimonial |
-| art. 89 | evidencia fatos orçamentários, financeiros, patrimoniais e industriais |
-| art. 94 | registro analítico dos permanentes + agentes responsáveis |
-| art. 95 | registros sintéticos de móveis e imóveis |
-| art. 96 | inventário analítico por unidade + escrituração sintética |
+| 83 | evidencia quem administra ou guarda bens |
+| 85 | conhecimento da composição patrimonial |
+| 89 | fatos orçamentários, financeiros e patrimoniais |
+| 94 | registro analítico + responsáveis |
+| 95 | registros sintéticos |
+| 96 | inventário analítico + escrituração sintética |
 
 ## Bens públicos
 
 | Classe | Exemplo | Regra |
 | --- | --- | --- |
-| uso comum do povo | rua, praça, rio | inalienável enquanto qualificado |
-| uso especial | escola, hospital, repartição | inalienável enquanto qualificado |
-| dominical | terreno público sem afetação | alienável com exigências legais |
+| uso comum | rua/praça | inalienável enquanto qualificado |
+| uso especial | escola/repartição | inalienável enquanto qualificado |
+| dominical | terreno sem afetação específica | alienável com requisitos legais |
 
 - Dominical continua público.
 - Bem público não se usucape.
-- Uso comum pode ser gratuito ou remunerado conforme lei.
-- Uso especial = afetação a serviço/estabelecimento, não uso privado de servidor.
+- Uso comum pode ser gratuito ou remunerado.
+- Uso especial não é uso privado do servidor.
 
-## Funções básicas
+## Integração organizacional
 
-1. planejar necessidades;
-2. especificar, classificar, padronizar e codificar;
-3. adquirir;
-4. receber e aceitar;
-5. registrar entrada;
-6. armazenar e controlar estoque;
-7. requisitar e distribuir;
-8. incorporar e tombar;
-9. atribuir carga e controlar movimentação;
-10. conservar, manter e recuperar;
-11. inventariar e conciliar;
-12. reaproveitar, transferir, alienar e baixar.
+Planejamento → orçamento → compras/contratos → requisitante → almoxarifado → patrimônio → contabilidade → auditoria.
 
-## Distinções decisivas
+- A área de materiais não atua isoladamente.
+- Compra, recebimento, pagamento e registro precisam conversar.
+- Segregue solicitar, autorizar, receber, registrar, guardar e conferir.
+
+## Formas de ingresso
+
+- compra;
+- cessão;
+- doação;
+- permuta;
+- transferência;
+- produção interna.
+
+Na produção interna, o custo pode incluir materiais, mão de obra direta e outros custos diretamente atribuíveis.
+
+## Etapas que a banca troca
 
 | Etapa | Sentido |
 | --- | --- |
-| recebimento | entrega e transferência da guarda; não implica aceitação |
-| aceitação | declaração de conformidade com especificações |
+| recebimento | entrega e transferência da guarda; não aceita |
+| aceitação | declaração de conformidade |
 | incorporação | inclusão formal no sistema patrimonial |
-| tombamento | número patrimonial para identificação individual |
+| tombamento | identificação individual |
 | carga | responsabilidade pela guarda e uso |
-| descarga | transferência da responsabilidade, na IN nº 205/1988 |
-| inventário | confronto físico e documental |
+| descarga | transferência da responsabilidade na IN nº 205/1988 |
+| inventário | confronto físico, documental e sistêmico |
 | baixa | retirada formal do registro por fato regular |
 
-- Compra é uma forma de aquisição; doação, cessão e transferência são outras.
-- Receber ≠ aceitar.
-- Distribuir ≠ baixar.
-- Movimentar ≠ alienar.
-- Relatório do sistema sem conferência física ≠ inventário físico.
+## Desconformidades
 
-## Ciclo
+| Ocorrência | Ação |
+| --- | --- |
+| falta quantitativa | registrar e regularizar |
+| item diferente | não aceitar como conforme |
+| defeito | documentar e substituir/corrigir |
+| exame técnico | especialista ou comissão |
+| entrega parcial admitida | registrar a parcela |
+| rejeição | preservar evidência e devolver formalmente |
+
+## Fornecimento interno
+
+- **pressão:** tabela e periodicidade predefinidas, sem pedido posterior.
+- **requisição:** entrega mediante pedido interno.
+- Conceitos da IN nº 205/1988 pertencem ao SISG federal.
+
+## Inventários
+
+| Tipo | Finalidade |
+| --- | --- |
+| anual | encerramento do exercício |
+| inicial | início da unidade |
+| transferência | mudança de responsável |
+| extinção/transformação | alteração institucional |
+| eventual | necessidade específica |
+| rotativo | contagem programada contínua |
+| amostragem | exame de amostras de grande acervo |
+
+Relatório de sistema sem verificação física não é inventário físico.
+
+## Ciclo básico
 
 1. necessidade;
-2. verificação de disponibilidade;
+2. disponibilidade interna;
 3. planejamento e especificação;
 4. aquisição;
 5. recebimento;
 6. conferência e aceitação;
 7. registro e armazenagem;
 8. requisição e distribuição;
-9. incorporação, tombamento e carga, se permanente;
-10. uso, conservação, manutenção e movimentação;
+9. incorporação, tombamento e carga;
+10. uso, movimentação e manutenção;
 11. inventário e conciliação;
-12. saneamento, destinação e baixa regular.
+12. saneamento, destinação e baixa.
 
 O ciclo retroalimenta o planejamento.
-
-## Fornecimento interno
-
-- Por pressão: tabela e periodicidade predefinidas, sem pedido posterior.
-- Por requisição: entrega mediante pedido interno; processo mais comum.
-- Conceitos da IN nº 205/1988 têm alcance no SISG federal.
-
-## Controle
-
-- documento para cada entrada, saída e movimentação;
-- identificação única;
-- localização e responsável atualizados;
-- conciliação almoxarifado-patrimônio-contabilidade;
-- segregação entre solicitar, autorizar, receber, registrar, guardar e conferir;
-- inventário confronta sistema e realidade.
 
 ## Indicadores
 
 - ruptura: falta quando necessário;
 - acurácia: físico próximo do registro;
 - tempo de atendimento: requisição até entrega;
-- bens localizados: qualidade do controle;
+- bens localizados: qualidade patrimonial;
 - ociosidade/obsolescência: possível falha de planejamento;
-- indicador sinaliza; não prova causa sozinho.
+- indicador sinaliza, mas não prova causa sozinho.
 
 ## Pegadinhas
 
-- Patrimônio não é apenas bens nem apenas PL.
-- Recurso público pode ser ativo por potencial de serviços.
-- Consumo ainda exige controle.
-- Plaqueta não cria material permanente.
-- Recebimento não aceita automaticamente.
-- Tombamento não é inventário nem baixa.
-- Descarga não significa necessariamente desfazimento.
-- Dominical não é particular.
-- Uso comum/especial é inalienável enquanto mantiver a qualificação.
-- IN nº 205/1988 não vincula automaticamente TCE estadual.
-- Portaria STN nº 448/2002 não está vigente.
-
-## Limites
-
-- 116: imóveis e SPIU.
-- 117: móveis e responsabilidade.
-- 118: controle, movimentação e sistema patrimonial.
-- 119: previsão e estoque.
-- 120: almoxarifado e armazenamento.
-- 121: compras, classificação, padronização e codificação.
-- 122: recebimento, conservação, distribuição e inventário.
-- 123: análise do valor e alienação.
+- Material não é sempre sinônimo de consumo.
+- Recurso patrimonial não é apenas imóvel.
+- Bem móvel civil não é automaticamente consumo.
+- Plaqueta não define a classificação.
+- Permanente não exige sempre plaqueta individual.
+- Item em estoque pode ser ativo.
+- Software não é material permanente como regra geral.
+- Bem de terceiro deve ser controlado.
+- Receber não é aceitar.
+- Distribuir não é baixar.
+- Carga não é peso físico.
+- Descarga não é necessariamente desfazimento.
+- Relatório sem contagem não prova inventário.
+- Área de materiais não atua isoladamente.
+- IN nº 205/1988 não vincula automaticamente um TCE estadual.
