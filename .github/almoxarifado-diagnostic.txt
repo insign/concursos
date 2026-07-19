@@ -1,0 +1,12 @@
+.github/almoxarifado-bundle.part1 chars= 5000 sha256= 6b19b2dbeefed0bed1d20f04b81c205f61111fc7e6e8cc2f69f7083360ba3cb4
+.github/almoxarifado-bundle.part2 chars= 5000 sha256= a70f45be7f25c2812e4a8aae0f9f219e628126292e900f5137bd2caa7724d809
+.github/almoxarifado-bundle.part3 chars= 5000 sha256= e1c9c5b1bc0f44b5b1e809d4b1fa215381c436acebaf4e71cdfe051801fdd491
+Traceback (most recent call last):
+  File "/home/runner/work/concursos/concursos/.github/patch-almoxarifado.py", line 275, in <module>
+    main()
+  File "/home/runner/work/concursos/concursos/.github/patch-almoxarifado.py", line 268, in main
+    bundle = load_bundle()
+             ^^^^^^^^^^^^^
+  File "/home/runner/work/concursos/concursos/.github/patch-almoxarifado.py", line 41, in load_bundle
+    raise RuntimeError(f"hash mismatch for {path}: {actual_hash}")
+RuntimeError: hash mismatch for .github/almoxarifado-bundle.part3: e1c9c5b1bc0f44b5b1e809d4b1fa215381c436acebaf4e71cdfe051801fdd491
