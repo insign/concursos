@@ -1,11 +1,3 @@
----
-schemaVersion: 1
-title: Almoxarifado e armazenamento — revisão rápida
-description: Conceitos, localização, slotting, conservação, técnicas, espaço, segurança, indicadores e pegadinhas.
-order: 120
-storageId: almoxarifado-armazenamento
----
-
 # Almoxarifado e armazenamento — revisão rápida
 
 ## 1. Conceitos
