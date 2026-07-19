@@ -1,0 +1,130 @@
+name: Materialize previsão e controle de estoque review
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: materialize-previsao-estoque-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  materialize:
+    name: Materialize previsão e controle de estoque review
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Check out pull request branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Mark subject as analyzing in KV
+        shell: bash
+        run: |
+          cat > /tmp/kv-analyzing.json <<'JSON'
+          {
+            "path": "/concursos/tce-ma-2026-analista-administracao/previsao-controle-estoque/",
+            "status": "analyzing"
+          }
+          JSON
+
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            -H 'Content-Type: application/json' \
+            --data @/tmp/kv-analyzing.json \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--previsao-controle-estoque' \
+            > /tmp/kv-analyzing-response.json
+
+          python3 - <<'PY'
+          import json
+          key = 'tce-ma-2026-analista-administracao--previsao-controle-estoque'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/previsao-controle-estoque/',
+              'status': 'analyzing',
+          }
+          with open('/tmp/kv-analyzing-response.json', encoding='utf-8') as stream:
+              document = json.load(stream)
+          item = document['json']['links'][key]
+          print('KV_ANALYZING_ITEM', item)
+          print('KV_VERSION_AFTER_ANALYZING', document.get('version'))
+          if item != expected:
+              raise SystemExit(1)
+          PY
+
+      - name: Materialize reviewed subject files
+        shell: bash
+        run: |
+          python3 .github/patch-previsao-estoque.py
+
+          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/previsao-controle-estoque'
+          if ! git diff --quiet -- "$target"; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+            git commit -m 'content: aprofunda previsão e controle de estoque'
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.12.0
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run unit tests
+        run: npm run test:unit
+
+      - name: Run Astro checks
+        run: npm run check
+
+      - name: Build production site
+        run: npm run build
+
+      - name: Mark subject as done in KV
+        shell: bash
+        run: |
+          cat > /tmp/kv-done.json <<'JSON'
+          {
+            "path": "/concursos/tce-ma-2026-analista-administracao/previsao-controle-estoque/",
+            "status": "done"
+          }
+          JSON
+
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            -H 'Content-Type: application/json' \
+            --data @/tmp/kv-done.json \
+            'https://kv.helio.me/adm/value?path=%2Flinks%2Ftce-ma-2026-analista-administracao--previsao-controle-estoque' \
+            > /tmp/kv-done-response.json
+
+          curl --fail-with-body --silent --show-error 'https://kv.helio.me/adm' > /tmp/kv-persisted.json
+
+          python3 - <<'PY'
+          import json
+          key = 'tce-ma-2026-analista-administracao--previsao-controle-estoque'
+          expected = {
+              'path': '/concursos/tce-ma-2026-analista-administracao/previsao-controle-estoque/',
+              'status': 'done',
+          }
+          with open('/tmp/kv-done-response.json', encoding='utf-8') as stream:
+              mutation = json.load(stream)
+          with open('/tmp/kv-persisted.json', encoding='utf-8') as stream:
+              persisted = json.load(stream)
+          print('KV_DONE_ITEM', mutation['json']['links'][key])
+          print('KV_VERSION_AFTER_DONE', mutation.get('version'))
+          print('KV_PERSISTED_ITEM', persisted['json']['links'][key])
+          print('KV_VERSION_PERSISTED', persisted.get('version'))
+          if mutation['json']['links'][key] != expected:
+              raise SystemExit(1)
+          if persisted['json']['links'][key] != expected:
+              raise SystemExit(1)
+          PY
