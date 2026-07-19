@@ -304,7 +304,7 @@ A terminologia varia entre autores e instituições. Na taxonomia mais frequente
 
 Em prova, siga a definição da fonte indicada pelo enunciado. Na ausência de fonte, reconheça a distinção mais difundida sem tratá-la como fronteira terminológica universal. Para o agente público, a conduta prática continua sendo verificar antes de usar ou divulgar, comunicar incerteza e corrigir com transparência.
 
-### 8.1 Fatores de circulação### 8.1 Fatores de circulação
+### 8.1 Fatores de circulação
 
 - apelo emocional e urgência artificial;
 - confirmação de crenças prévias;
