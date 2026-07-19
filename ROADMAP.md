@@ -251,7 +251,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 053 - Item 9: Controle da atividade financeira do Estado: espécies e sistemas. ([conteúdo](src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/controle-externo/controle-atividade-financeira/conteudo.md), commit `5dcd916`)
 
-##### [ ] Assunto 054 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual.
+##### [>] Em progresso Assunto 054 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual.
 
 - Item 10. Tribunal de Contas da União (TCU), tribunais de contas dos estados e do Distrito Federal.
 - Item 11. Tribunal de Contas do Estado do Maranhão na Constituição do Estado do Maranhão.
