@@ -1,267 +1,297 @@
-# Sustentabilidade pública
+# Cheat sheet — Sustentabilidade pública
 
-## Núcleo
+## 1. Regra-mãe
 
-- Atender necessidades presentes sem comprometer as futuras.
-- Sustentabilidade = critério de decisão, não campanha paralela.
-- Valor público sustentável = benefício legítimo + eficiência + inclusão + duração + integridade.
-- Economia imediata pode transferir custos e riscos ao futuro.
-- Produto rotulado como verde não é automaticamente sustentável.
+Sustentabilidade pública = valor público duradouro com integração de:
 
-## Constituição
+- ambiente;
+- economia;
+- sociedade;
+- governança;
+- legalidade;
+- evidência;
+- equidade;
+- capacidade institucional.
 
-- CF, art. 170, VI: defesa do meio ambiente na ordem econômica.
-- CF, art. 225: meio ambiente equilibrado + dever do Poder Público e da coletividade.
-- Art. 225: presentes **e futuras gerações**.
-- Eficiência, legalidade, impessoalidade, moralidade e publicidade continuam aplicáveis.
+**Não é:** campanha isolada, preço mínimo automático, produto “verde” por rótulo, compensação sem redução ou publicidade sem prova.
 
-## Quatro dimensões
+## 2. Quatro dimensões
 
-| Dimensão | Foco |
+| Dimensão | Pergunta |
 | --- | --- |
-| Ambiental | recursos, resíduos, emissões, biodiversidade e clima |
-| Econômica | viabilidade, custo total, manutenção, durabilidade e continuidade |
-| Social | direitos, equidade, inclusão, saúde e trabalho decente |
-| Institucional/governança | capacidade, integridade, dados, riscos, participação e controle |
+| ambiental | recursos, emissões, resíduos, biodiversidade e clima |
+| econômica | custo, vida útil, manutenção, produtividade e continuidade |
+| social | direitos, inclusão, trabalho, saúde e distribuição dos efeitos |
+| institucional | estratégia, dados, riscos, integridade, capacidade e accountability |
 
-- Dimensões são integradas, não concorrentes por definição.
-- Sustentabilidade econômica ≠ menor gasto imediato.
-- Sustentabilidade ambiental ≠ restrição indevida à competição.
+## 3. Pensamento sistêmico
 
-## Agenda 2030
+Sempre compare:
 
-- 17 ODS e 169 metas.
-- ODS frequentes: 6, 7, 8, 11, 12, 13, 16 e 17.
-- ODS 12.7: compras públicas sustentáveis.
-- Agenda 2030 = referência de alinhamento.
-- Agenda 2030 ≠ substituição de leis e regulamentos.
-- Associar a ODS ≠ provar resultado.
+1. impacto direto e indireto;
+2. valor absoluto e intensidade;
+3. sede e cadeia de fornecedores;
+4. presente e ciclo de vida;
+5. ganho médio e distribuição por grupos;
+6. redução real e simples transferência.
 
-## Governança e ciclo
+**Efeito rebote:** eficiência por unidade melhora, mas o uso cresce e reduz ou elimina o ganho total.
 
-1. diagnosticar;
-2. priorizar impactos materiais;
-3. planejar objetivos, ações e recursos;
-4. definir linha de base, meta, prazo e responsável;
-5. executar;
-6. monitorar;
-7. avaliar resultados e efeitos;
-8. prestar contas;
-9. corrigir e revisar.
+## 4. Agenda 2030
 
-- Governança direciona, supervisiona e avalia.
-- Gestão planeja, executa e controla.
-- Plano sem responsável, recursos, prazo e monitoramento tende ao formalismo.
-- Materialidade = relevância do impacto para missão, recursos e partes interessadas.
+- 17 ODS e 169 metas;
+- ODS 12.7: compras públicas sustentáveis;
+- alinhamento a ODS ≠ resultado comprovado;
+- Agenda 2030 ≠ lei que substitui normas nacionais.
 
-## Indicadores
+## 5. Governança e ciclo
 
-- Absoluto: consumo total.
-- Intensidade: consumo por pessoa, área, atendimento ou produto.
-- Processo: prática implantada ou contrato fiscalizado.
-- Resultado: redução efetiva de custo, consumo, resíduo ou emissão.
-- Atividade executada ≠ impacto alcançado.
+`diagnóstico → materialidade → prioridade → plano → linha de base → meta → execução → indicador → avaliação → transparência → revisão`
 
-$$
-\text{Energia por área} = \frac{\text{kWh}}{\text{m}^2}
-$$
+Plano sem responsável, prazo, orçamento e monitoramento = risco de formalismo.
 
-$$
-\text{Redução (\%)} = \frac{\text{linha de base} - \text{atual}}{\text{linha de base}} \times 100
-$$
+## 6. Indicadores
 
-$$
-\text{Destinação adequada (\%)} = \frac{\text{massa comprovada}}{\text{massa gerada}} \times 100
-$$
-
-- Ficha: conceito, fórmula, unidade, fonte, periodicidade, responsável, base, meta e limites.
-- Compare série histórica e explique mudança metodológica.
-
-## A3P
-
-- Programa do Ministério do Meio Ambiente e Mudança do Clima.
-- Instituições dos três Poderes e das três esferas podem aderir.
-- Adesão **voluntária**.
-- Termo de Adesão: cinco anos, com possibilidade de nova adesão.
-
-Seis eixos:
-
-1. uso racional de recursos naturais e bens públicos;
-2. gestão de resíduos;
-3. qualidade de vida no trabalho;
-4. sensibilização e capacitação;
-5. compras públicas sustentáveis;
-6. construções sustentáveis.
-
-- A3P ≠ PLS.
-- A3P e PLS podem ser complementares.
-- A3P voluntária ≠ toda obrigação ambiental voluntária.
-
-## PLS e âmbitos
-
-| Ato | Aplicação direta principal |
+| Tipo | Exemplo |
 | --- | --- |
-| Decreto nº 7.746/2012 | Administração federal e estatais dependentes no âmbito do decreto |
+| absoluto | kWh total |
+| intensidade | kWh/m² ou por atendimento |
+| processo | contratos fiscalizados |
+| resultado | redução efetiva |
+| impacto | mudança ambiental ou social atribuível |
+| qualitativo | maturidade fundamentada |
+
+**Cuidado:** intensidade melhor pode coexistir com total maior.
+
+## 7. A3P
+
+- programa do MMA;
+- adesão voluntária;
+- três Poderes e três esferas;
+- seis eixos:
+  1. recursos naturais e bens públicos;
+  2. resíduos;
+  3. qualidade de vida;
+  4. sensibilização e capacitação;
+  5. compras sustentáveis;
+  6. construções sustentáveis.
+
+A3P ≠ PLS. Voluntariedade da A3P ≠ voluntariedade das leis.
+
+## 8. PLS e âmbitos
+
+| Referência | Âmbito principal |
+| --- | --- |
+| Decreto nº 7.746/2012 | sujeitos federais indicados no ato |
 | Portaria SEGES/MGI nº 5.376/2023 | Administração federal direta, autárquica e fundacional |
-| Resolução CNJ nº 400/2021 | conselhos e tribunais do Poder Judiciário |
+| Resolução CNJ nº 400/2021 | Poder Judiciário |
+| política/programa do TCU | Tribunal de Contas da União |
+| ato próprio do TCE/MA | âmbito definido pela norma estadual/institucional |
 
-- Encontram-se as expressões Plano de Gestão e Plano Diretor de Logística Sustentável.
-- PLS: objetivos + responsabilidades + indicadores + metas + prazos + monitoramento + avaliação.
-- Portaria nº 5.376/2023: aprovação da autoridade + publicação em 15 dias + relatório anual.
-- Decreto nº 7.746/2012 segue relevante; referência antiga à Lei nº 8.666/1993 não restaura lei revogada.
-- Dispositivos antigos da CISAP foram revogados.
+**Pergunta de prova:** quem é o destinatário jurídico?
 
-## PLS no Judiciário
+## 9. Tribunal de Contas
 
-Temas mínimos:
+Três planos:
 
-- insumos, energia, água e esgoto;
-- resíduos;
-- qualidade de vida e capacitação;
-- deslocamentos;
-- obras e leiaute;
-- equidade e diversidade;
-- contratações sustentáveis;
-- descarbonização.
+- gestão interna sustentável;
+- governança institucional;
+- controle externo de políticas, contratos, metas e alegações.
 
-- Resolução CNJ nº 400/2021: use o texto compilado com alterações de 2024 e 2025.
-- Judiciário: unidade de sustentabilidade permanente + comissão gestora.
-- TCE exerce controle externo e **não integra o Poder Judiciário**.
-- Resolução CNJ nº 400/2021 não vincula automaticamente TCE.
+Referência técnica não é vinculação automática.
 
-## Contratações sustentáveis
+## 10. Contratação sustentável
 
-- Lei nº 14.133/2021: desenvolvimento nacional sustentável = princípio e objetivo.
-- Vantajosidade considera o ciclo de vida do objeto.
-- ETP trata, quando aplicável, de impactos, mitigação, baixo consumo e logística reversa.
+Critério deve ser:
 
-`necessidade → produção → aquisição → transporte → uso → manutenção → reparo → reúso → descarte/retorno`
+- ligado ao objeto;
+- tecnicamente fundamentado;
+- proporcional;
+- objetivo;
+- verificável;
+- competitivo;
+- fiscalizável;
+- associado a consequência contratual.
 
-- Preço inicial ≠ custo do ciclo de vida.
-- Custo do ciclo de vida ≠ todos os impactos do ciclo de vida.
-- Critério deve ser pertinente, motivado, objetivo, proporcional, verificável e fiscalizável.
-- Sustentabilidade não afasta isonomia e competitividade.
-- Selo pode ser prova; não justifica automaticamente marca ou certificação exclusiva.
+Selo específico sem equivalência e sem justificativa = risco de restrição indevida.
 
-## ENCP
+## 11. Ciclo de vida
 
-- Decreto nº 12.771/2025.
-- Finalidade: orientar o poder de compra para capacidade produtiva, tecnologia e desenvolvimento sustentável.
+| Conceito | Foco |
+| --- | --- |
+| preço | desembolso inicial |
+| custo total de propriedade | aquisição + uso + manutenção + indisponibilidade + descarte |
+| custeio do ciclo de vida | fluxos monetários no período |
+| avaliação do ciclo de vida | inventário e impactos ambientais |
+| impacto social | trabalho, direitos e efeitos distributivos |
+| vantajosidade | resultado global juridicamente motivado |
+
+Menor custo ≠ menor impacto. Menor impacto ≠ contratação automaticamente vantajosa.
+
+## 12. ENCP
 
 Quatro eixos:
 
-1. econômico;
-2. social;
-3. ambiental;
-4. gestão.
+- econômico;
+- social;
+- ambiental;
+- gestão.
 
-- Instrumentos: plano de ação, PCA, PLS federais e Taxonomia Sustentável quando aplicável.
-- Dever direto de adequação: Administração federal direta, autárquica e fundacional.
-- Estados, DF, municípios e estatais podem aderir conforme ato do MGI.
-- “Nacional” ≠ imposição idêntica automática a todos os entes.
+“Nacional” ≠ aplicação obrigatória idêntica a todos os entes.
 
-## Consumo racional
+## 13. Taxonomia Sustentável Brasileira
 
-- Primeiro questione a necessidade.
-- Depois compare reduzir, compartilhar, manter, reparar, reutilizar e substituir.
-- Medir água e energia por unidade/processo.
-- Localizar vazamentos, perdas e equipamentos ineficientes.
-- Manutenção preventiva reduz custo, falha e descarte.
-- Digitalização também consome energia, equipamentos e gera resíduo eletrônico.
-- Mobilidade inclui pessoas, bens e materiais.
+É sistema de classificação de atividades, ativos e projetos.
 
-## PNRS
+Não é:
 
-Ordem do art. 9º:
+- selo de fornecedor;
+- certificação universal;
+- autorização automática para restringir competição;
+- substituição da Lei nº 14.133/2021;
+- requisito obrigatório em toda compra.
 
-`não geração → redução → reutilização → reciclagem → tratamento → disposição dos rejeitos`
+## 14. Consumo e patrimônio
 
-| Conceito | Lembrete |
+Prioridade prática:
+
+`evitar demanda → usar melhor → manter → reparar → compartilhar → reutilizar → substituir com estudo → destinar`
+
+Digitalização, teletrabalho e terceirização também possuem impactos indiretos.
+
+## 15. PNRS
+
+Ordem:
+
+`não geração → redução → reutilização → reciclagem → tratamento → disposição de rejeitos`
+
+| Distinção | Regra |
 | --- | --- |
-| Resíduo | bem descartado que requer destinação |
-| Rejeito | sem recuperação viável; vai à disposição final adequada |
-| Reutilização | aproveitamento sem transformação |
-| Reciclagem | transformação em insumo ou produto |
-| Destinação | reúso, reciclagem, compostagem, recuperação etc. |
-| Disposição | distribuição ordenada de rejeitos em aterro |
-| Logística reversa | restituição ao setor empresarial |
+| resíduo × rejeito | rejeito não tem recuperação viável |
+| destinação × disposição | disposição é para rejeito |
+| reutilização × reciclagem | reciclagem transforma |
+| coleta seletiva × logística reversa | reversa devolve ao setor empresarial |
+| responsabilidade compartilhada | atribuições individualizadas e encadeadas |
 
-- Coleta seletiva ≠ logística reversa.
-- Resíduo ≠ rejeito.
-- Destinação ≠ disposição.
-- Responsabilidade compartilhada = atribuições individualizadas e encadeadas.
-- Responsabilidade compartilhada ≠ responsabilidade igual.
-- Aterro é destino de rejeitos, não primeira opção para todo resíduo.
+## 16. Coleta Seletiva Cidadã
 
-## Economia circular
+No âmbito federal:
 
-- Linear: extrair → produzir → usar → descartar.
-- Circular: desenhar → compartilhar → manter → reparar → reutilizar → remanufaturar → reciclar.
-- Circularidade busca manter valor e reduzir extração e resíduos.
-- Economia circular ≠ reciclagem isolada.
-- Avaliar segurança, qualidade, escala e rastreabilidade.
+- separação de recicláveis;
+- seleção de associação/cooperativa habilitada;
+- destinação prioritária;
+- termo de compromisso;
+- rastreabilidade e comprovação.
 
-## Clima
+Lixeira colorida ≠ resultado comprovado.
 
-- Mitigação: reduzir ou evitar emissões.
-- Adaptação: ajustar-se aos efeitos climáticos.
-- Resiliência: manter/recuperar funções diante de choques.
-- Inventário: quantificar emissões com método e limites.
-- Compensação: tratar emissões residuais com integridade verificável.
+## 17. Economia circular
 
-Sequência: `medir → prevenir → reduzir → substituir → compensar residual`
+Mais ampla que reciclagem:
 
-- Compensação ≠ licença para emitir.
-- Neutralidade até 2030 da Resolução CNJ nº 400/2021 = regra do Judiciário.
-- Não generalize essa meta para toda a Administração.
+`desenho → compartilhamento → manutenção → reparo → reúso → remanufatura → reciclagem`
 
-## Dimensão social
+Circularidade não elimina segurança, qualidade, custo ou rastreabilidade.
 
-- Trabalho decente e cadeia de fornecedores.
-- Saúde, segurança e qualidade de vida.
-- Equidade, diversidade e inclusão.
-- Participação e diálogo.
-- Efeitos distributivos das decisões.
-- Medida ambiental pode ampliar exclusão; avalie públicos afetados.
-- Acessibilidade será aprofundada no Assunto 114.
+## 18. Clima
 
-## Greenwashing
+| Conceito | Sentido |
+| --- | --- |
+| mitigação | reduzir emissões |
+| adaptação | reduzir exposição ou vulnerabilidade |
+| resiliência | manter/recuperar funções |
+| inventário | quantificar por fronteira e método |
+| compensação | tratar emissão residual com integridade |
+
+Sequência prudente: `medir → prevenir → reduzir → substituir → tratar residual`.
+
+## 19. Inventário de emissões
+
+Definir:
+
+- limite organizacional;
+- limite operacional;
+- período;
+- emissões diretas;
+- energia adquirida;
+- cadeia de valor relevante;
+- fatores de emissão;
+- incerteza;
+- dupla contagem.
+
+Terceirizar emissão ≠ eliminá-la.
+
+## 20. Adaptação climática
+
+`perigo → exposição → vulnerabilidade → risco → resposta → risco residual`
+
+Adaptar = integrar clima a ativos, pessoas, continuidade, orçamento e planejamento.
+
+## 21. Transição justa
+
+Pergunte:
+
+- quem ganha?
+- quem paga?
+- quem perde trabalho ou acesso?
+- quais grupos enfrentam barreiras?
+- há alternativa, capacitação e mitigação?
+
+Equidade ≠ tratamento idêntico.
+
+## 22. Greenwashing
 
 Sinais:
 
-- “verde” ou “neutro” sem definição;
-- meta sem linha de base, prazo ou responsável;
-- atividade apresentada como impacto;
-- selo ou compensação sem rastreabilidade;
-- omissão de impacto material;
-- seleção só de resultado favorável;
-- método alterado sem explicação.
+- termo vago;
+- meta sem linha de base;
+- ação pequena apresentada como impacto;
+- indicador de atividade chamado de resultado;
+- selo sem verificação;
+- compensação sem redução;
+- metodologia alterada sem explicação;
+- omissão de resultados negativos.
 
-Controles:
+## 23. Auditoria
 
-- critérios públicos;
-- dados rastreáveis;
-- séries comparáveis;
-- verificação técnica e contratual;
-- riscos e segregação de funções;
-- resultados positivos e negativos;
-- correção de desvios.
+Achado:
 
-## Pegadinhas finais
+`critério → condição → causa → efeito → evidência`
 
-- Sustentabilidade ≠ meio ambiente isolado.
-- Economia imediata ≠ custo total.
-- ODS associado ≠ resultado provado.
-- Campanha ≠ governança.
-- A3P = voluntária.
-- A3P ≠ PLS.
-- PLS federal ≠ todos os entes.
-- CNJ = Judiciário; TCE ≠ Judiciário.
-- ENCP = econômico + social + ambiental + gestão.
-- Ciclo de vida ≠ preço inicial.
-- Critério sustentável ≠ barreira competitiva livre.
-- Não geração vem antes da reciclagem.
-- Coleta seletiva ≠ logística reversa.
-- Mitigação ≠ adaptação.
-- Compensação ≠ redução.
-- Greenwashing = alegação maior que a evidência.
+Recomendação deve atacar a causa e ser proporcional ao risco.
+
+## 24. Pegadinhas
+
+| Afirmação | Julgamento |
+| --- | --- |
+| sustentabilidade = apenas ambiente | errado |
+| economia imediata = sustentabilidade econômica | errado |
+| preço mais baixo = vantajosidade | errado |
+| ODS = prova de resultado | errado |
+| A3P = obrigatória | errado |
+| A3P = PLS | errado |
+| CNJ vincula todo tribunal | errado |
+| programa do TCU vincula TCE/MA | errado |
+| TSB = selo | errado |
+| custo e impacto do ciclo de vida = sinônimos | errado |
+| coleta seletiva = logística reversa | errado |
+| reciclagem vem antes da redução | errado |
+| terceirização elimina impacto | errado |
+| compensação substitui redução | errado |
+| intensidade menor prova redução total | errado |
+| segurança e acessibilidade integram sustentabilidade | certo |
+| resultado negativo deve ser ocultado | errado |
+| alegação pública pode ser greenwashing | certo |
+
+## 25. Roteiro de prova
+
+1. identifique a norma e seu destinatário;
+2. defina necessidade e impacto material;
+3. compare alternativas e ciclo de vida;
+4. verifique linha de base, indicador e meta;
+5. examine equidade e riscos;
+6. confira evidência e fiscalização;
+7. diferencie atividade, resultado e impacto;
+8. procure transferência de impacto;
+9. teste greenwashing;
+10. conclua com motivação e proporcionalidade.
