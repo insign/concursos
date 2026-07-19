@@ -1,0 +1,53 @@
+name: Debug Windows finalize
+
+on:
+  push:
+    branches:
+      - agent/revisa-windows-arquivos-pastas
+
+permissions:
+  contents: write
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Reproduce publication and capture output
+        shell: bash
+        run: |
+          set +e
+          {
+            python3 <<'PY'
+          from pathlib import Path
+          source = Path('.github/workflows/patch-windows-arquivos-pastas.yml').read_text(encoding='utf-8').splitlines()
+          start = next(i for i, line in enumerate(source) if "python3 <<'PY'" in line) + 1
+          end = next(i for i in range(start, len(source)) if source[i].strip() == 'PY')
+          script = '\n'.join(line[10:] if line.startswith('          ') else line for line in source[start:end]) + '\n'
+          Path('/tmp/windows-patch.py').write_text(script, encoding='utf-8')
+          PY
+            echo extract_status=$?
+            python3 /tmp/windows-patch.py
+            echo patch_status=$?
+            rm -f .github/workflows/patch-windows-arquivos-pastas.yml .github/workflows/finalize-windows-patch.yml .github/workflows/debug-windows-finalize.yml .windows-patch-debug.log .windows-validation-debug.log
+            echo rm_status=$?
+            git add -A
+            echo add_status=$?
+            git diff --cached --check
+            echo diff_check_status=$?
+            git status --short
+          } > /tmp/finalize-debug.log 2>&1
+          set -e
+          git reset --hard HEAD
+          cp /tmp/finalize-debug.log .windows-finalize-debug.log
+          rm .github/workflows/debug-windows-finalize.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- .github/workflows/debug-windows-finalize.yml .windows-finalize-debug.log
+          git commit -m "chore: registra diagnóstico de publicação de Windows"
+          git push origin HEAD:${GITHUB_REF_NAME}
