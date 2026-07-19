@@ -1,5 +1,6 @@
 name: Materialize gestão aplicada da execução contratual review
 
+# O pacote editorial é recomposto e validado antes de qualquer alteração no conteúdo.
 on:
   pull_request:
     branches:
