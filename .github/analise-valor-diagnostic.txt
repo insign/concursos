@@ -1,0 +1,53 @@
+
+> concursos@0.0.1 check
+> astro check
+
+[2m19:30:21[22m [34m[astro-mermaid][39m Setting up Mermaid integration
+[2m19:30:21[22m [34m[astro-mermaid][39m Existing rehype plugins:
+[2m19:30:21[22m [34m[astro-mermaid][39m Skipping ELK support
+[2m19:30:23[22m [34m[content][39m Syncing content
+[2m19:30:24[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/concurso-exemplo/administracao-publica/assunto-exemplo/cheat-sheet.md
+[2m19:30:24[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 1
+[2m19:30:24[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/concurso-exemplo/administracao-publica/assunto-exemplo/conteudo.md
+[2m19:30:24[22m [34m[astro-mermaid][39m Remark transformed mermaid block #2 in /home/runner/work/concursos/concursos/src/content/assuntos/concurso-exemplo/administracao-publica/assunto-exemplo/conteudo.md
+[2m19:30:24[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 2
+[2m19:30:29[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/gestao-contratos/extincao-recebimento-pagamento/conteudo.md
+[2m19:30:29[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 1
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "í" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "â" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "é" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ç" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ã" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "í" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "é" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "é" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "í" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "é" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ç" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ã" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+[31m[InvalidContentEntryDataError][39m [1mcheatSheets → tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/analise-valor-alienacao[22m data does not match collection schema.
+
+  ****: Unrecognized keys: "schemaVersion", "title", "description", "order", "storageId"
+
+  [1mHint:[22m
+[33m    See [4mhttps://docs.astro.build/en/guides/content-collections/[24m for more information on content schemas.[39m
+  [1mError reference:[22m
+    [36m[4mhttps://docs.astro.build/en/reference/errors/invalid-content-entry-data-error/[24m[39m
+  [1mLocation:[22m
+    [4m/home/runner/work/concursos/concursos/src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/analise-valor-alienacao/cheat-sheet.md:0:0[24m
+  [1mStack trace:[22m
+[2m    at getEntryData (/home/runner/work/concursos/concursos/node_modules/astro/dist/content/utils.js:121:9)
+    at async eval (/home/runner/work/concursos/concursos/node_modules/astro/dist/content/loaders/glob.js:211:13)[22m
