@@ -234,7 +234,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 048 - Item 4: Controle pelos tribunais de contas.
 
-##### [ ] Assunto 049 - Item 5: Controle administrativo.
+##### [>] Em progresso Assunto 049 - Item 5: Controle administrativo.
 
 ##### [ ] Assunto 050 - Item 6, recorte: sujeitos, atos e regime de responsabilização da Lei nº 8.429/1992.
 
