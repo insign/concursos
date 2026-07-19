@@ -1,0 +1,211 @@
+patch_status=0
+npm_ci_status=0
+unit_status=0
+check_status=0
+build_status=0
+--- patch tail ---
+/tmp/windows-patch.py:184: SyntaxWarning: invalid escape sequence '\P'
+  cases_block = cases_anchor + textwrap.dedent("""
+{"questionCount": 90, "newRange": ["q4389", "q4418"], "questionSetRevision": 2, "cheatSheetLines": 146}
+--- npm-ci tail ---
+npm warn deprecated source-map@0.8.0-beta.0: The work that was done in this beta branch won't be included in future versions
+npm warn deprecated glob@11.1.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+
+added 839 packages, and audited 840 packages in 14s
+
+265 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+--- test tail ---
+
+> concursos@0.0.1 test:unit
+> vitest run tests/unit
+
+[2m18:06:55[22m [34m[astro-mermaid][39m Setting up Mermaid integration
+[2m18:06:55[22m [34m[astro-mermaid][39m Existing rehype plugins:
+[2m18:06:55[22m [34m[astro-mermaid][39m Skipping ELK support
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.10 [39m[90m/home/runner/work/concursos/concursos[39m
+
+ [32m✓[39m tests/unit/offline-packages.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 75[2mms[22m[39m
+ [32m✓[39m tests/unit/profile-backup.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 111[2mms[22m[39m
+ [32m✓[39m tests/unit/offline-db.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 113[2mms[22m[39m
+ [32m✓[39m tests/unit/catalog.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m tests/unit/preferences-progress.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m tests/unit/sync.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32m✓[39m tests/unit/content-schema.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32m✓[39m tests/unit/kv-client.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 81[2mms[22m[39m
+ [32m✓[39m tests/unit/questionnaire.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32m✓[39m tests/unit/content-paths.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m tests/unit/identity.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+ [32m✓[39m tests/unit/question-order.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m tests/unit/pwa-update.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m13 passed[39m[22m[90m (13)[39m
+[2m      Tests [22m [1m[32m76 passed[39m[22m[90m (76)[39m
+[2m   Start at [22m 18:06:55
+[2m   Duration [22m 1.60s[2m (transform 513ms, setup 0ms, import 1.80s, tests 535ms, environment 2ms)[22m
+
+--- check tail ---
+
+> concursos@0.0.1 check
+> astro check
+
+[2m18:06:59[22m [34m[astro-mermaid][39m Setting up Mermaid integration
+[2m18:06:59[22m [34m[astro-mermaid][39m Existing rehype plugins:
+[2m18:06:59[22m [34m[astro-mermaid][39m Skipping ELK support
+[2m18:07:00[22m [34m[content][39m Syncing content
+[2m18:07:01[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/concurso-exemplo/administracao-publica/assunto-exemplo/cheat-sheet.md
+[2m18:07:01[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 1
+[2m18:07:01[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/concurso-exemplo/administracao-publica/assunto-exemplo/conteudo.md
+[2m18:07:01[22m [34m[astro-mermaid][39m Remark transformed mermaid block #2 in /home/runner/work/concursos/concursos/src/content/assuntos/concurso-exemplo/administracao-publica/assunto-exemplo/conteudo.md
+[2m18:07:01[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 2
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "é" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ç" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ã" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+[2m18:07:06[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/gestao-contratos/extincao-recebimento-pagamento/conteudo.md
+[2m18:07:06[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 1
+[2m18:07:06[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/gestao-contratos/gestao-fiscalizacao-in-5-2017/conteudo.md
+[2m18:07:06[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 1
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ã" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ç" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ã" used in math mode [unicodeTextInMathMode]
+[2m18:07:07[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/gestao-contratos/sancoes-controle-pncp/conteudo.md
+[2m18:07:07[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 1
+[2m18:07:07[22m [34m[astro-mermaid][39m Remark transformed mermaid block #1 in /home/runner/work/concursos/concursos/src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/gestao-contratos/selecao-fornecedor-in-5-2017/conteudo.md
+[2m18:07:07[22m [34m[astro-mermaid][39m Remark total mermaid blocks transformed: 1
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "í" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "â" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "é" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ç" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "ã" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "í" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "é" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "á" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "é" used in math mode [unicodeTextInMathMode]
+LaTeX-incompatible input and strict mode is set to 'warn': Accented Unicode text character "í" used in math mode [unicodeTextInMathMode]
+[2m18:07:11[22m [34m[content][39m Synced content
+[2m18:07:11[22m [34m[types][39m Generated [2m12.29s[22m
+[2m18:07:11[22m [34m[check][39m Getting diagnostics for Astro files in /home/runner/work/concursos/concursos...
+[96msrc/components/Questionnaire.astro[0m:[93m64[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m64[0m   <script type="application/json" data-questionnaire-config set:html={serializedConfig}></script>
+[7m  [0m [93m          ~~~~[0m
+
+[96msrc/lib/profile-backup.ts[0m:[93m35[0m:[93m28[0m - [93mwarning[0m[90m ts(6385): [0m'(params?: string | { abort?: boolean | undefined; precision?: number | null | undefined; offset?: boolean | undefined; local?: boolean | undefined; error?: string | $ZodErrorMap<$ZodIssueInvalidStringFormat> | undefined; message?: string | undefined; } | undefined): ZodString' is deprecated.
+
+[7m35[0m     exportedAt: z.string().datetime({ offset: true }),
+[7m  [0m [93m                           ~~~~~~~~[0m
+
+[96msrc/lib/sync.ts[0m:[93m826[0m:[93m17[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m826[0m export function requestProfileSync(profileId = getActiveAlias()): Promise<boolean> {
+[7m   [0m [93m                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/lib/sync.ts[0m:[93m630[0m:[93m17[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m630[0m export function syncPendingProfile(profileId: string): Promise<boolean> {
+[7m   [0m [93m                ~~~~~~~~~~~~~~~~~~[0m
+
+Result (79 files): 
+- 0 errors
+- 0 warnings
+- 4 hints
+
+--- build tail ---
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/microsoft-word-documentos/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/microsoft-excel-planilhas/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/microsoft-powerpoint-apresentacoes/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/redes-tcp-ip-interoperabilidade/index.html[22m [2m(+4ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/comunicacao-colaboracao-remota/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/backup-armazenamento-nuvem/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/malware-protecao-ameacas/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/estruturas-desenho-organizacoes-formais-modernas/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/planejamento-direcao-processo-organizacional/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/comunicacao-processo-organizacional/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/controle-avaliacao-processo-organizacional/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/gestao-processos/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/gestao-qualidade-excelencia-servicos-publicos/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/gestao-projetos/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/planejamento-estrategico/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/empreendedorismo-liderancas/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/gestao-resultados-publica-privada-paradigma-cliente/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/sustentabilidade-publica/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/acessibilidade-na-gestao-publica/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/conceitos-material-patrimonio/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/patrimonio-imobiliario-spiu/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/patrimonio-mobiliario-responsabilidade/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/controle-movimentacao-sistema/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/previsao-controle-estoque/index.html[22m [2m(+2ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/almoxarifado-armazenamento/index.html[22m [2m(+2ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/compras-classificacao-padronizacao-codificacao/index.html[22m [2m(+2ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/arquivamento-recebimento-distribuicao-inventario/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/analise-valor-alienacao/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/fundamentos-agentes-processo-lei-14133/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/planejamento-fase-preparatoria/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/modalidades-julgamento-selecao-contratacao-direta/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/formalizacao-garantias-riscos-duracao/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/execucao-alteracoes-equilibrio/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/extincao-recebimento-pagamento/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/sancoes-controle-pncp/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/planejamento-in-5-2017/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/selecao-fornecedor-in-5-2017/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/gestao-fiscalizacao-in-5-2017/index.html[22m [2m(+5ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/medicao-pagamento-obrigacoes-equilibrio/index.html[22m [2m(+2ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/encerramento-regras-operacionais-in-5-2017/index.html[22m [2m(+2ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/gestao-aplicada-execucao-contratual/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/irregularidades-penalidades-sancoes/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/governo-eletronico/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/transparencia-controle-social-accountability/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/lei-acesso-informacao-fundamentos-pedidos/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/lei-acesso-informacao-restricoes-recursos/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/fundamentos-evolucao-teorias/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/funcao-politicas-sistemas-rh/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/relacoes-individuo-organizacao-qvt/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/lideranca-motivacao-desempenho/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/competencia-interpessoal-conflitos/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/gestao-mudanca/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/recrutamento-selecao-processo-decisorio/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/analise-descricao-cargos/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/avaliacao-desempenho/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/desenvolvimento-capacitacao/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/cargos-carreiras-salarios/index.html[22m [2m(+4ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/competencias-tendencias-setor-publico/index.html[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/concurso-exemplo/index.html[22m [2m(+3ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/concursos/tce-ma-2026-analista-administracao/index.html[22m [2m(+4ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/configuracoes/index.html[22m [2m(+4ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/offline/index.html[22m [2m(+82ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/offline-inventories/exemplo.json[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/offline-inventories/tcema-2026-adm.json[22m [2m(+1ms)[22m 
+[2m18:07:22[22m   [34m├─[39m [2m/sync-catalog.json[22m [2m(+107ms)[22m 
+[2m18:07:23[22m   [34m├─[39m [2m/index.html[22m [2m(+80ms)[22m 
+[2m18:07:23[22m [32m✓ Completed in 1.36s.
+[39m
+[42m[30m generating optimized images [39m[49m
+[2m18:07:23[22m   [32m▶[39m /_astro/ciclo.DB-X0TMT_XhaNg.svg [2m(before: 0kB, after: 0kB)[22m [2m(+44ms)[22m [2m(1/1)[22m
+[2m18:07:23[22m [32m✓ Completed in 45ms.
+[39m
+[2m18:07:23[22m [34m[build][39m [32m✓ Completed in 3.34s.[39m
+[2m18:07:23[22m [34m[build][39m 243 page(s) built in [1m4.50s[22m
+[2m18:07:23[22m [34m[build][39m [1mComplete![22m
+Security policy finalized in 243 HTML files.
+Offline inventory generated: offline-inventories/exemplo.json
+Offline inventory generated: offline-inventories/tcema-2026-adm.json
+[warn] `inlineDynamicImports` option is ignored because `codeSplitting: false` is set.
+Service Worker generated with 75 precached resources.
