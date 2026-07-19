@@ -1,706 +1,4356 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1034",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Segundo o Código Civil, considera-se imóvel, em sentido básico,",
       "options": [
-        {"id": "a", "text": "o solo e tudo quanto se lhe incorporar natural ou artificialmente"},
-        {"id": "b", "text": "somente a edificação com matrícula individual"},
-        {"id": "c", "text": "apenas o terreno urbano pertencente ao poder público"},
-        {"id": "d", "text": "todo bem que possua valor elevado"},
-        {"id": "e", "text": "qualquer equipamento fixado temporariamente em uma sala"}
+        {
+          "id": "a",
+          "text": "o solo e tudo quanto se lhe incorporar natural ou artificialmente"
+        },
+        {
+          "id": "b",
+          "text": "somente a edificação com matrícula individual"
+        },
+        {
+          "id": "c",
+          "text": "apenas o terreno urbano pertencente ao poder público"
+        },
+        {
+          "id": "d",
+          "text": "todo bem que possua valor elevado"
+        },
+        {
+          "id": "e",
+          "text": "qualquer equipamento fixado temporariamente em uma sala"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "O art. 79 do Código Civil define como imóvel o solo e tudo quanto se lhe incorporar natural ou artificialmente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1035",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um prédio pertencente a pessoa jurídica de direito público e destinado ao funcionamento de uma repartição é, tipicamente, bem",
       "options": [
-        {"id": "a", "text": "dominical por ser edificado"},
-        {"id": "b", "text": "de uso especial por estar destinado a serviço público"},
-        {"id": "c", "text": "de uso comum do povo por receber cidadãos"},
-        {"id": "d", "text": "particular de uso coletivo"},
-        {"id": "e", "text": "móvel por possuir instalações removíveis"}
+        {
+          "id": "a",
+          "text": "dominical por ser edificado"
+        },
+        {
+          "id": "b",
+          "text": "de uso especial por estar destinado a serviço público"
+        },
+        {
+          "id": "c",
+          "text": "de uso comum do povo por receber cidadãos"
+        },
+        {
+          "id": "d",
+          "text": "particular de uso coletivo"
+        },
+        {
+          "id": "e",
+          "text": "móvel por possuir instalações removíveis"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Edifícios destinados a serviço ou estabelecimento da Administração enquadram-se como bens de uso especial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1036",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A respeito de um terreno público dominical, é correto afirmar que",
       "options": [
-        {"id": "a", "text": "deixa de ser público por não estar afetado"},
-        {"id": "b", "text": "pode ser adquirido por usucapião quando estiver vazio"},
-        {"id": "c", "text": "continua público e sua alienação depende das exigências legais"},
-        {"id": "d", "text": "é necessariamente bem de uso comum do povo"},
-        {"id": "e", "text": "dispensa registro e controle patrimonial"}
+        {
+          "id": "a",
+          "text": "deixa de ser público por não estar afetado"
+        },
+        {
+          "id": "b",
+          "text": "pode ser adquirido por usucapião quando estiver vazio"
+        },
+        {
+          "id": "c",
+          "text": "continua público e sua alienação depende das exigências legais"
+        },
+        {
+          "id": "d",
+          "text": "é necessariamente bem de uso comum do povo"
+        },
+        {
+          "id": "e",
+          "text": "dispensa registro e controle patrimonial"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "O bem dominical integra o patrimônio público e somente pode ser alienado com observância das exigências legais; bens públicos não se sujeitam a usucapião. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1037",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No regime dos bens públicos, afetação é",
       "options": [
-        {"id": "a", "text": "a mera inclusão do valor do imóvel na contabilidade"},
-        {"id": "b", "text": "a retirada automática de todo bem desocupado do patrimônio"},
-        {"id": "c", "text": "a atribuição de um RIP pela SPU"},
-        {"id": "d", "text": "a vinculação do bem a uso comum ou especial"},
-        {"id": "e", "text": "o desgaste físico causado pelo uso"}
+        {
+          "id": "a",
+          "text": "a mera inclusão do valor do imóvel na contabilidade"
+        },
+        {
+          "id": "b",
+          "text": "a retirada automática de todo bem desocupado do patrimônio"
+        },
+        {
+          "id": "c",
+          "text": "a atribuição de um RIP pela SPU"
+        },
+        {
+          "id": "d",
+          "text": "a vinculação do bem a uso comum ou especial"
+        },
+        {
+          "id": "e",
+          "text": "o desgaste físico causado pelo uso"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "Afetação é a destinação jurídica do bem a uso comum do povo ou a uso especial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1038",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A simples desocupação de um edifício público",
       "options": [
-        {"id": "a", "text": "prova sua desafetação"},
-        {"id": "b", "text": "autoriza imediatamente sua alienação"},
-        {"id": "c", "text": "extingue a responsabilidade por conservação"},
-        {"id": "d", "text": "converte sua matrícula em RIP"},
-        {"id": "e", "text": "não substitui a análise da afetação nem o ato jurídico cabível"}
+        {
+          "id": "a",
+          "text": "prova sua desafetação"
+        },
+        {
+          "id": "b",
+          "text": "autoriza imediatamente sua alienação"
+        },
+        {
+          "id": "c",
+          "text": "extingue a responsabilidade por conservação"
+        },
+        {
+          "id": "d",
+          "text": "converte sua matrícula em RIP"
+        },
+        {
+          "id": "e",
+          "text": "não substitui a análise da afetação nem o ato jurídico cabível"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Mudança fática de ocupação não equivale automaticamente a desafetação ou disponibilidade jurídica para alienar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1039",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma gestão imobiliária completa deve integrar",
       "options": [
-        {"id": "a", "text": "as dimensões física, jurídica, cadastral, contábil e funcional"},
-        {"id": "b", "text": "apenas o valor contábil e a área construída"},
-        {"id": "c", "text": "somente a matrícula e a escritura"},
-        {"id": "d", "text": "exclusivamente os custos de manutenção"},
-        {"id": "e", "text": "apenas a unidade ocupante e o endereço"}
+        {
+          "id": "a",
+          "text": "as dimensões física, jurídica, cadastral, contábil e funcional"
+        },
+        {
+          "id": "b",
+          "text": "apenas o valor contábil e a área construída"
+        },
+        {
+          "id": "c",
+          "text": "somente a matrícula e a escritura"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente os custos de manutenção"
+        },
+        {
+          "id": "e",
+          "text": "apenas a unidade ocupante e o endereço"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Existência e condição, domínio, cadastro, contabilidade e adequação ao serviço são dimensões complementares do imóvel. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1040",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A relação correta entre registro cartorial e cadastro patrimonial é",
       "options": [
-        {"id": "a", "text": "o cadastro interno sempre substitui a matrícula"},
-        {"id": "b", "text": "o registro produz efeitos jurídicos próprios, enquanto o cadastro reúne dados gerenciais complementares"},
-        {"id": "c", "text": "ambos são lançamentos exclusivamente contábeis"},
-        {"id": "d", "text": "a matrícula registra ordens de serviço e custos de manutenção"},
-        {"id": "e", "text": "o cadastro comprova domínio independentemente de documentos"}
+        {
+          "id": "a",
+          "text": "o cadastro interno sempre substitui a matrícula"
+        },
+        {
+          "id": "b",
+          "text": "o registro produz efeitos jurídicos próprios, enquanto o cadastro reúne dados gerenciais complementares"
+        },
+        {
+          "id": "c",
+          "text": "ambos são lançamentos exclusivamente contábeis"
+        },
+        {
+          "id": "d",
+          "text": "a matrícula registra ordens de serviço e custos de manutenção"
+        },
+        {
+          "id": "e",
+          "text": "o cadastro comprova domínio independentemente de documentos"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Registro imobiliário e cadastro administrativo têm funções próprias e complementares; um não substitui o outro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1041",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A matrícula imobiliária",
       "options": [
-        {"id": "a", "text": "é o identificador contábil do SIAFI"},
-        {"id": "b", "text": "é sinônimo de ordem de serviço predial"},
-        {"id": "c", "text": "individualiza o imóvel e concentra seu histórico registral"},
-        {"id": "d", "text": "substitui toda inspeção e inventário"},
-        {"id": "e", "text": "é atribuída pelo ocupante do prédio"}
+        {
+          "id": "a",
+          "text": "é o identificador contábil do SIAFI"
+        },
+        {
+          "id": "b",
+          "text": "é sinônimo de ordem de serviço predial"
+        },
+        {
+          "id": "c",
+          "text": "individualiza o imóvel e concentra seu histórico registral"
+        },
+        {
+          "id": "d",
+          "text": "substitui toda inspeção e inventário"
+        },
+        {
+          "id": "e",
+          "text": "é atribuída pelo ocupante do prédio"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "A matrícula é elemento do Registro de Imóveis que individualiza o imóvel e reúne seu histórico registral. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1042",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Entre os dados apropriados a um cadastro patrimonial imobiliário está",
       "options": [
-        {"id": "a", "text": "somente o preço original de compra"},
-        {"id": "b", "text": "apenas a identificação do último ocupante"},
-        {"id": "c", "text": "exclusivamente o número da matrícula"},
-        {"id": "d", "text": "área, título, destinação, ocupante, condição, valor e histórico de intervenções"},
-        {"id": "e", "text": "apenas informações sem atualização posterior"}
+        {
+          "id": "a",
+          "text": "somente o preço original de compra"
+        },
+        {
+          "id": "b",
+          "text": "apenas a identificação do último ocupante"
+        },
+        {
+          "id": "c",
+          "text": "exclusivamente o número da matrícula"
+        },
+        {
+          "id": "d",
+          "text": "área, título, destinação, ocupante, condição, valor e histórico de intervenções"
+        },
+        {
+          "id": "e",
+          "text": "apenas informações sem atualização posterior"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "Cadastro gerencial útil reúne dados físicos, jurídicos, administrativos, contábeis e históricos e deve ser atualizado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1043",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Conciliar as bases de um imóvel significa",
       "options": [
-        {"id": "a", "text": "copiar o valor contábil para todos os sistemas"},
-        {"id": "b", "text": "ignorar diferenças de área sem efeito financeiro"},
-        {"id": "c", "text": "substituir a vistoria pela matrícula"},
-        {"id": "d", "text": "manter sistemas isolados para evitar conflito"},
-        {"id": "e", "text": "comparar realidade física, documentos, cadastro e contabilidade e sanear divergências"}
+        {
+          "id": "a",
+          "text": "copiar o valor contábil para todos os sistemas"
+        },
+        {
+          "id": "b",
+          "text": "ignorar diferenças de área sem efeito financeiro"
+        },
+        {
+          "id": "c",
+          "text": "substituir a vistoria pela matrícula"
+        },
+        {
+          "id": "d",
+          "text": "manter sistemas isolados para evitar conflito"
+        },
+        {
+          "id": "e",
+          "text": "comparar realidade física, documentos, cadastro e contabilidade e sanear divergências"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Conciliação confronta as diversas camadas, identifica diferenças e promove regularização com evidências. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1044",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No inventário de imóveis, constitui procedimento adequado",
       "options": [
-        {"id": "a", "text": "verificar existência, condição, título, uso, valor e correspondência com os registros"},
-        {"id": "b", "text": "imprimir a relação do sistema e dispensar conferência"},
-        {"id": "c", "text": "avaliar apenas imóveis desocupados"},
-        {"id": "d", "text": "limitar-se à contagem de edifícios"},
-        {"id": "e", "text": "baixar automaticamente toda divergência"}
+        {
+          "id": "a",
+          "text": "verificar existência, condição, título, uso, valor e correspondência com os registros"
+        },
+        {
+          "id": "b",
+          "text": "imprimir a relação do sistema e dispensar conferência"
+        },
+        {
+          "id": "c",
+          "text": "avaliar apenas imóveis desocupados"
+        },
+        {
+          "id": "d",
+          "text": "limitar-se à contagem de edifícios"
+        },
+        {
+          "id": "e",
+          "text": "baixar automaticamente toda divergência"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Inventário imobiliário é levantamento físico e documental e não mera emissão de relatório do sistema. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1045",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A Lei nº 4.320/1964 determina que o levantamento geral dos bens móveis e imóveis seja baseado",
       "options": [
-        {"id": "a", "text": "somente em estimativa de mercado"},
-        {"id": "b", "text": "no inventário analítico de cada unidade e na escrituração sintética contábil"},
-        {"id": "c", "text": "apenas no cadastro tributário municipal"},
-        {"id": "d", "text": "exclusivamente em declaração do responsável"},
-        {"id": "e", "text": "na matrícula, sem informação contábil"}
+        {
+          "id": "a",
+          "text": "somente em estimativa de mercado"
+        },
+        {
+          "id": "b",
+          "text": "no inventário analítico de cada unidade e na escrituração sintética contábil"
+        },
+        {
+          "id": "c",
+          "text": "apenas no cadastro tributário municipal"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente em declaração do responsável"
+        },
+        {
+          "id": "e",
+          "text": "na matrícula, sem informação contábil"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "O art. 96 da Lei nº 4.320/1964 conecta o inventário analítico das unidades à escrituração sintética. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1046",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No ciclo de vida do imóvel público, após uma obra que altere a área construída, é necessário",
       "options": [
-        {"id": "a", "text": "apenas pagar a contratada"},
-        {"id": "b", "text": "manter o cadastro anterior para preservar o histórico"},
-        {"id": "c", "text": "avaliar e atualizar as dimensões técnica, cadastral, jurídica e contábil afetadas"},
-        {"id": "d", "text": "baixar o terreno"},
-        {"id": "e", "text": "atribuir nova matrícula sem procedimento registral"}
+        {
+          "id": "a",
+          "text": "apenas pagar a contratada"
+        },
+        {
+          "id": "b",
+          "text": "manter o cadastro anterior para preservar o histórico"
+        },
+        {
+          "id": "c",
+          "text": "avaliar e atualizar as dimensões técnica, cadastral, jurídica e contábil afetadas"
+        },
+        {
+          "id": "d",
+          "text": "baixar o terreno"
+        },
+        {
+          "id": "e",
+          "text": "atribuir nova matrícula sem procedimento registral"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Alteração física pode produzir efeitos em projetos, cadastro, registro, valor e contabilidade, que devem ser analisados de forma integrada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1047",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Se a área medida de um imóvel divergir da matrícula, a conduta mais adequada é",
       "options": [
-        {"id": "a", "text": "apagar a matrícula do cadastro"},
-        {"id": "b", "text": "considerar automaticamente correta a maior área"},
-        {"id": "c", "text": "ignorar a diferença se o prédio estiver ocupado"},
-        {"id": "d", "text": "apurar tecnicamente a origem, regularizar quando cabível e atualizar as bases com evidências"},
-        {"id": "e", "text": "alienar a área divergente"}
+        {
+          "id": "a",
+          "text": "apagar a matrícula do cadastro"
+        },
+        {
+          "id": "b",
+          "text": "considerar automaticamente correta a maior área"
+        },
+        {
+          "id": "c",
+          "text": "ignorar a diferença se o prédio estiver ocupado"
+        },
+        {
+          "id": "d",
+          "text": "apurar tecnicamente a origem, regularizar quando cabível e atualizar as bases com evidências"
+        },
+        {
+          "id": "e",
+          "text": "alienar a área divergente"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "Divergência exige levantamento, análise documental e procedimento de saneamento, não alteração unilateral sem suporte. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1048",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Segundo a Lei nº 9.636/1998, o sistema unificado de informações sobre imóveis da União deve conter, entre outros dados,",
       "options": [
-        {"id": "a", "text": "somente a receita arrecadada"},
-        {"id": "b", "text": "apenas a unidade que realizou a compra"},
-        {"id": "c", "text": "exclusivamente o valor venal"},
-        {"id": "d", "text": "somente a planta arquitetônica"},
-        {"id": "e", "text": "localização, área, matrícula, uso, destinatário e valor atualizado disponível"}
+        {
+          "id": "a",
+          "text": "somente a receita arrecadada"
+        },
+        {
+          "id": "b",
+          "text": "apenas a unidade que realizou a compra"
+        },
+        {
+          "id": "c",
+          "text": "exclusivamente o valor venal"
+        },
+        {
+          "id": "d",
+          "text": "somente a planta arquitetônica"
+        },
+        {
+          "id": "e",
+          "text": "localização, área, matrícula, uso, destinatário e valor atualizado disponível"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "O art. 3º-A da Lei nº 9.636/1998 enumera esses elementos para o sistema federal de informações. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1049",
-      "revision": 1,
+      "revision": 2,
       "prompt": "As regras do Decreto-Lei nº 9.760/1946, o RIP e os sistemas SPIUnet/SPUnet",
       "options": [
-        {"id": "a", "text": "integram o referencial federal dos imóveis da União e não vinculam automaticamente o patrimônio estadual"},
-        {"id": "b", "text": "são sistemas obrigatórios para qualquer entidade privada"},
-        {"id": "c", "text": "substituem as leis patrimoniais de todos os entes"},
-        {"id": "d", "text": "formam o cadastro imobiliário exclusivo do Maranhão"},
-        {"id": "e", "text": "tratam apenas de bens móveis"}
+        {
+          "id": "a",
+          "text": "integram o referencial federal dos imóveis da União e não vinculam automaticamente o patrimônio estadual"
+        },
+        {
+          "id": "b",
+          "text": "são sistemas obrigatórios para qualquer entidade privada"
+        },
+        {
+          "id": "c",
+          "text": "substituem as leis patrimoniais de todos os entes"
+        },
+        {
+          "id": "d",
+          "text": "formam o cadastro imobiliário exclusivo do Maranhão"
+        },
+        {
+          "id": "e",
+          "text": "tratam apenas de bens móveis"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Esses instrumentos pertencem diretamente ao contexto do patrimônio imobiliário da União; outro ente depende de suas normas e sistemas aplicáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1050",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No contexto do patrimônio imobiliário federal, SPU designa",
       "options": [
-        {"id": "a", "text": "o número da matrícula cartorial"},
-        {"id": "b", "text": "a Secretaria do Patrimônio da União"},
-        {"id": "c", "text": "a depreciação de imóveis"},
-        {"id": "d", "text": "o sistema contábil estadual"},
-        {"id": "e", "text": "uma classe de bem dominical"}
+        {
+          "id": "a",
+          "text": "o número da matrícula cartorial"
+        },
+        {
+          "id": "b",
+          "text": "a Secretaria do Patrimônio da União"
+        },
+        {
+          "id": "c",
+          "text": "a depreciação de imóveis"
+        },
+        {
+          "id": "d",
+          "text": "o sistema contábil estadual"
+        },
+        {
+          "id": "e",
+          "text": "uma classe de bem dominical"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "SPU é a Secretaria do Patrimônio da União, órgão federal responsável pela gestão do patrimônio imobiliário da União. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1051",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O Registro Imobiliário Patrimonial (RIP) é",
       "options": [
-        {"id": "a", "text": "uma escritura pública de aquisição"},
-        {"id": "b", "text": "o número universal do Cartório de Registro de Imóveis"},
-        {"id": "c", "text": "um identificador cadastral utilizado pela SPU"},
-        {"id": "d", "text": "um laudo de avaliação"},
-        {"id": "e", "text": "uma ordem de manutenção preventiva"}
+        {
+          "id": "a",
+          "text": "uma escritura pública de aquisição"
+        },
+        {
+          "id": "b",
+          "text": "o número universal do Cartório de Registro de Imóveis"
+        },
+        {
+          "id": "c",
+          "text": "um identificador cadastral utilizado pela SPU"
+        },
+        {
+          "id": "d",
+          "text": "um laudo de avaliação"
+        },
+        {
+          "id": "e",
+          "text": "uma ordem de manutenção preventiva"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "RIP é identificador administrativo do cadastro da SPU e não se confunde com matrícula cartorial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1052",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Historicamente, o SPIUnet abrigava",
       "options": [
-        {"id": "a", "text": "somente bens móveis de consumo"},
-        {"id": "b", "text": "todos os registros cartoriais brasileiros"},
-        {"id": "c", "text": "apenas despesas de pessoal"},
-        {"id": "d", "text": "dados cadastrais de imóveis de uso especial da União e de suas utilizações"},
-        {"id": "e", "text": "exclusivamente imóveis do TCE-MA"}
+        {
+          "id": "a",
+          "text": "somente bens móveis de consumo"
+        },
+        {
+          "id": "b",
+          "text": "todos os registros cartoriais brasileiros"
+        },
+        {
+          "id": "c",
+          "text": "apenas despesas de pessoal"
+        },
+        {
+          "id": "d",
+          "text": "dados cadastrais de imóveis de uso especial da União e de suas utilizações"
+        },
+        {
+          "id": "e",
+          "text": "exclusivamente imóveis do TCE-MA"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "A página oficial do sistema descreve o SPIUnet como cadastro dos imóveis de uso especial no âmbito da SPU. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1053",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Sobre a denominação histórica do SPIUnet, é correto reconhecer que",
       "options": [
-        {"id": "a", "text": "não existe definição oficial"},
-        {"id": "b", "text": "sempre significou SIAFI Patrimonial Integrado da União"},
-        {"id": "c", "text": "a sigla identifica a Secretaria do Patrimônio da União"},
-        {"id": "d", "text": "o nome se refere a um cartório federal"},
-        {"id": "e", "text": "fontes oficiais o associam tanto a Sistema de Patrimônio Imobiliário da União quanto a Sistema de Gerenciamento dos Imóveis de Uso Especial"}
+        {
+          "id": "a",
+          "text": "não existe definição oficial"
+        },
+        {
+          "id": "b",
+          "text": "sempre significou SIAFI Patrimonial Integrado da União"
+        },
+        {
+          "id": "c",
+          "text": "a sigla identifica a Secretaria do Patrimônio da União"
+        },
+        {
+          "id": "d",
+          "text": "o nome se refere a um cartório federal"
+        },
+        {
+          "id": "e",
+          "text": "fontes oficiais o associam tanto a Sistema de Patrimônio Imobiliário da União quanto a Sistema de Gerenciamento dos Imóveis de Uso Especial"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "O glossário e a página operacional oficiais usam descrições distintas; a interpretação segura preserva o contexto do sistema federal legado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1054",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Segundo a comunicação oficial da SPU, o SPIUnet foi desativado definitivamente para operação e mantido apenas para consulta em",
       "options": [
-        {"id": "a", "text": "9 de março de 2026"},
-        {"id": "b", "text": "2 de abril de 2026"},
-        {"id": "c", "text": "31 de dezembro de 2024"},
-        {"id": "d", "text": "15 de julho de 2026"},
-        {"id": "e", "text": "1º de janeiro de 2027"}
+        {
+          "id": "a",
+          "text": "9 de março de 2026"
+        },
+        {
+          "id": "b",
+          "text": "2 de abril de 2026"
+        },
+        {
+          "id": "c",
+          "text": "31 de dezembro de 2024"
+        },
+        {
+          "id": "d",
+          "text": "15 de julho de 2026"
+        },
+        {
+          "id": "e",
+          "text": "1º de janeiro de 2027"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "A SPU informou a desativação definitiva em 9 de março de 2026, com disponibilidade posterior apenas para consulta. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1055",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Os fluxos de trabalho antes executados no SPIUnet passaram a ser realizados exclusivamente no SPUnet em",
       "options": [
-        {"id": "a", "text": "9 de março de 2026"},
-        {"id": "b", "text": "2 de abril de 2026"},
-        {"id": "c", "text": "4 de julho de 2023"},
-        {"id": "d", "text": "11 de junho de 2026"},
-        {"id": "e", "text": "1º de agosto de 2023"}
+        {
+          "id": "a",
+          "text": "9 de março de 2026"
+        },
+        {
+          "id": "b",
+          "text": "2 de abril de 2026"
+        },
+        {
+          "id": "c",
+          "text": "4 de julho de 2023"
+        },
+        {
+          "id": "d",
+          "text": "11 de junho de 2026"
+        },
+        {
+          "id": "e",
+          "text": "1º de agosto de 2023"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "A migração operacional exclusiva dos fluxos ao SPUnet ocorreu em 2 de abril de 2026. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1056",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No corte temporal de 15 de julho de 2026, o sistema que recebeu os fluxos operacionais do SPIUnet é",
       "options": [
-        {"id": "a", "text": "RIP"},
-        {"id": "b", "text": "SISREI"},
-        {"id": "c", "text": "SPUnet"},
-        {"id": "d", "text": "SPIU-MA"},
-        {"id": "e", "text": "Registro de Imóveis"}
+        {
+          "id": "a",
+          "text": "RIP"
+        },
+        {
+          "id": "b",
+          "text": "SISREI"
+        },
+        {
+          "id": "c",
+          "text": "SPUnet"
+        },
+        {
+          "id": "d",
+          "text": "SPIU-MA"
+        },
+        {
+          "id": "e",
+          "text": "Registro de Imóveis"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "O SPUnet é a plataforma federal atual para os fluxos migrados; SPIUnet ficou como sistema legado de consulta. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1057",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A menção a SPIU em edital de tribunal de contas estadual permite concluir que",
       "options": [
-        {"id": "a", "text": "o tribunal necessariamente opera o SPIUnet"},
-        {"id": "b", "text": "o patrimônio estadual pertence à União"},
-        {"id": "c", "text": "o RIP substitui o cadastro local"},
-        {"id": "d", "text": "o referencial federal deve ser estudado, sem presumir adoção operacional pelo ente estadual"},
-        {"id": "e", "text": "a matrícula cartorial é dispensável"}
+        {
+          "id": "a",
+          "text": "o tribunal necessariamente opera o SPIUnet"
+        },
+        {
+          "id": "b",
+          "text": "o patrimônio estadual pertence à União"
+        },
+        {
+          "id": "c",
+          "text": "o RIP substitui o cadastro local"
+        },
+        {
+          "id": "d",
+          "text": "o referencial federal deve ser estudado, sem presumir adoção operacional pelo ente estadual"
+        },
+        {
+          "id": "e",
+          "text": "a matrícula cartorial é dispensável"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "O tópico pode cobrar o sistema federal como conhecimento, mas sua presença no edital não prova uso pelo TCE-MA ou pelo Estado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1058",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O cadastro de um imóvel locado de terceiro em sistema patrimonial",
       "options": [
-        {"id": "a", "text": "transfere a propriedade ao órgão"},
-        {"id": "b", "text": "dispensa o contrato de locação"},
-        {"id": "c", "text": "cria matrícula em nome da Administração"},
-        {"id": "d", "text": "obriga seu reconhecimento como imóvel próprio"},
-        {"id": "e", "text": "apoia a gestão do uso e do contrato sem alterar, por si, a titularidade"}
+        {
+          "id": "a",
+          "text": "transfere a propriedade ao órgão"
+        },
+        {
+          "id": "b",
+          "text": "dispensa o contrato de locação"
+        },
+        {
+          "id": "c",
+          "text": "cria matrícula em nome da Administração"
+        },
+        {
+          "id": "d",
+          "text": "obriga seu reconhecimento como imóvel próprio"
+        },
+        {
+          "id": "e",
+          "text": "apoia a gestão do uso e do contrato sem alterar, por si, a titularidade"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Cadastro gerencial de utilização não converte bem de terceiro em propriedade pública nem decide sozinho o reconhecimento contábil. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1059",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na relação histórica entre SPIUnet e SIAFI,",
       "options": [
-        {"id": "a", "text": "o primeiro apoiava o cadastro imobiliário e o segundo os registros financeiros e contábeis federais"},
-        {"id": "b", "text": "ambos eram cartórios imobiliários"},
-        {"id": "c", "text": "o SIAFI atribuía matrícula cartorial"},
-        {"id": "d", "text": "o SPIUnet era exclusivo para execução orçamentária"},
-        {"id": "e", "text": "a integração tornava desnecessária a conciliação"}
+        {
+          "id": "a",
+          "text": "o primeiro apoiava o cadastro imobiliário e o segundo os registros financeiros e contábeis federais"
+        },
+        {
+          "id": "b",
+          "text": "ambos eram cartórios imobiliários"
+        },
+        {
+          "id": "c",
+          "text": "o SIAFI atribuía matrícula cartorial"
+        },
+        {
+          "id": "d",
+          "text": "o SPIUnet era exclusivo para execução orçamentária"
+        },
+        {
+          "id": "e",
+          "text": "a integração tornava desnecessária a conciliação"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Os sistemas possuíam funções distintas; eventual integração de dados não os tornava equivalentes nem eliminava controle e conciliação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1060",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Para reconhecer um imóvel como ativo, é relevante verificar",
       "options": [
-        {"id": "a", "text": "apenas se existe escritura"},
-        {"id": "b", "text": "controle decorrente de evento passado, potencial de serviços ou benefício e mensuração confiável"},
-        {"id": "c", "text": "somente se gera aluguel"},
-        {"id": "d", "text": "exclusivamente o valor venal"},
-        {"id": "e", "text": "apenas se é novo"}
+        {
+          "id": "a",
+          "text": "apenas se existe escritura"
+        },
+        {
+          "id": "b",
+          "text": "controle decorrente de evento passado, potencial de serviços ou benefício e mensuração confiável"
+        },
+        {
+          "id": "c",
+          "text": "somente se gera aluguel"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente o valor venal"
+        },
+        {
+          "id": "e",
+          "text": "apenas se é novo"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "O reconhecimento contábil depende dos critérios de ativo e mensuração aplicáveis, não apenas de forma documental ou geração de caixa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1061",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na mensuração inicial do imóvel, a regra geral utiliza",
       "options": [
-        {"id": "a", "text": "sempre o valor venal municipal"},
-        {"id": "b", "text": "o valor escolhido livremente pelo gestor"},
-        {"id": "c", "text": "o custo, com tratamento apropriado para transações sem contraprestação"},
-        {"id": "d", "text": "somente o valor do terreno"},
-        {"id": "e", "text": "o custo de manutenção do primeiro ano"}
+        {
+          "id": "a",
+          "text": "sempre o valor venal municipal"
+        },
+        {
+          "id": "b",
+          "text": "o valor escolhido livremente pelo gestor"
+        },
+        {
+          "id": "c",
+          "text": "o custo, com tratamento apropriado para transações sem contraprestação"
+        },
+        {
+          "id": "d",
+          "text": "somente o valor do terreno"
+        },
+        {
+          "id": "e",
+          "text": "o custo de manutenção do primeiro ano"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "O custo é a base inicial usual; aquisições sem contraprestação ou simbólicas podem exigir valor justo conforme a norma. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1062",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Quanto ao tratamento contábil de terreno e edificação adquiridos em conjunto,",
       "options": [
-        {"id": "a", "text": "devem sempre permanecer em um único componente"},
-        {"id": "b", "text": "ambos são sempre depreciados pela mesma vida útil"},
-        {"id": "c", "text": "somente o terreno é depreciado"},
-        {"id": "d", "text": "são ativos separáveis; em regra, o terreno não deprecia e a edificação deprecia"},
-        {"id": "e", "text": "a separação depende apenas da existência de duas matrículas"}
+        {
+          "id": "a",
+          "text": "devem sempre permanecer em um único componente"
+        },
+        {
+          "id": "b",
+          "text": "ambos são sempre depreciados pela mesma vida útil"
+        },
+        {
+          "id": "c",
+          "text": "somente o terreno é depreciado"
+        },
+        {
+          "id": "d",
+          "text": "são ativos separáveis; em regra, o terreno não deprecia e a edificação deprecia"
+        },
+        {
+          "id": "e",
+          "text": "a separação depende apenas da existência de duas matrículas"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "Terreno e edificação têm naturezas e vidas úteis distintas e são contabilmente separáveis, mesmo quando adquiridos juntos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1063",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A depreciação de uma edificação começa, em regra, quando ela",
       "options": [
-        {"id": "a", "text": "é prevista no orçamento"},
-        {"id": "b", "text": "recebe a primeira manutenção"},
-        {"id": "c", "text": "é totalmente paga"},
-        {"id": "d", "text": "obtém um RIP"},
-        {"id": "e", "text": "está disponível para uso na condição pretendida"}
+        {
+          "id": "a",
+          "text": "é prevista no orçamento"
+        },
+        {
+          "id": "b",
+          "text": "recebe a primeira manutenção"
+        },
+        {
+          "id": "c",
+          "text": "é totalmente paga"
+        },
+        {
+          "id": "d",
+          "text": "obtém um RIP"
+        },
+        {
+          "id": "e",
+          "text": "está disponível para uso na condição pretendida"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "A disponibilidade para uso, e não a data de pagamento ou cadastro isolado, marca o início da depreciação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1064",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Valor de aquisição, valor de mercado, valor justo e valor contábil líquido",
       "options": [
-        {"id": "a", "text": "são grandezas distintas e podem divergir conforme finalidade e método"},
-        {"id": "b", "text": "são sempre idênticos"},
-        {"id": "c", "text": "equivalem necessariamente ao valor venal"},
-        {"id": "d", "text": "não se aplicam a imóveis públicos"},
-        {"id": "e", "text": "são definidos exclusivamente pelo ocupante"}
+        {
+          "id": "a",
+          "text": "são grandezas distintas e podem divergir conforme finalidade e método"
+        },
+        {
+          "id": "b",
+          "text": "são sempre idênticos"
+        },
+        {
+          "id": "c",
+          "text": "equivalem necessariamente ao valor venal"
+        },
+        {
+          "id": "d",
+          "text": "não se aplicam a imóveis públicos"
+        },
+        {
+          "id": "e",
+          "text": "são definidos exclusivamente pelo ocupante"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Cada medida possui conceito e uso próprios; a existência de um valor não autoriza substituir automaticamente os demais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1065",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um gasto que apenas restaura o desempenho originalmente esperado de uma instalação tende a",
       "options": [
-        {"id": "a", "text": "aumentar obrigatoriamente o valor do terreno"},
-        {"id": "b", "text": "ser despesa de manutenção, conforme a análise dos critérios aplicáveis"},
-        {"id": "c", "text": "ser sempre uma nova edificação"},
-        {"id": "d", "text": "dispensar documentação"},
-        {"id": "e", "text": "gerar nova matrícula"}
+        {
+          "id": "a",
+          "text": "aumentar obrigatoriamente o valor do terreno"
+        },
+        {
+          "id": "b",
+          "text": "ser despesa de manutenção, conforme a análise dos critérios aplicáveis"
+        },
+        {
+          "id": "c",
+          "text": "ser sempre uma nova edificação"
+        },
+        {
+          "id": "d",
+          "text": "dispensar documentação"
+        },
+        {
+          "id": "e",
+          "text": "gerar nova matrícula"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Preservar ou restaurar o desempenho original tende a caracterizar manutenção do período; ampliação de potencial pode ter outro tratamento. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1066",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Quando um componente significativo de uma edificação é substituído, a contabilidade pode exigir",
       "options": [
-        {"id": "a", "text": "somente a alteração do endereço"},
-        {"id": "b", "text": "a depreciação do terreno"},
-        {"id": "c", "text": "a baixa do componente substituído e o reconhecimento do novo, se atendidos os critérios"},
-        {"id": "d", "text": "a baixa de todo o imóvel"},
-        {"id": "e", "text": "a conversão do bem em dominical"}
+        {
+          "id": "a",
+          "text": "somente a alteração do endereço"
+        },
+        {
+          "id": "b",
+          "text": "a depreciação do terreno"
+        },
+        {
+          "id": "c",
+          "text": "a baixa do componente substituído e o reconhecimento do novo, se atendidos os critérios"
+        },
+        {
+          "id": "d",
+          "text": "a baixa de todo o imóvel"
+        },
+        {
+          "id": "e",
+          "text": "a conversão do bem em dominical"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "A contabilização por componentes evita manter no ativo parte substituída e permite reconhecer a nova quando cabível. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1067",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Reavaliação de imóvel público",
       "options": [
-        {"id": "a", "text": "é aumento discricionário do valor"},
-        {"id": "b", "text": "equivale sempre a correção monetária"},
-        {"id": "c", "text": "dispensa base técnica quando o mercado sobe"},
-        {"id": "d", "text": "depende da política contábil, de base confiável e de aplicação consistente"},
-        {"id": "e", "text": "só pode reduzir o valor"}
+        {
+          "id": "a",
+          "text": "é aumento discricionário do valor"
+        },
+        {
+          "id": "b",
+          "text": "equivale sempre a correção monetária"
+        },
+        {
+          "id": "c",
+          "text": "dispensa base técnica quando o mercado sobe"
+        },
+        {
+          "id": "d",
+          "text": "depende da política contábil, de base confiável e de aplicação consistente"
+        },
+        {
+          "id": "e",
+          "text": "só pode reduzir o valor"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "Reavaliar exige valor confiável e tratamento consistente; não é atualização arbitrária do ativo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1068",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A Portaria Conjunta STN/SPU nº 10/2023",
       "options": [
-        {"id": "a", "text": "define depreciação obrigatória para imóveis de todos os entes"},
-        {"id": "b", "text": "é norma estadual do Maranhão"},
-        {"id": "c", "text": "substitui o MCASP para qualquer ativo"},
-        {"id": "d", "text": "regulamenta cartórios de registro"},
-        {"id": "e", "text": "traz procedimentos específicos para imóveis da União, autarquias e fundações públicas federais"}
+        {
+          "id": "a",
+          "text": "define depreciação obrigatória para imóveis de todos os entes"
+        },
+        {
+          "id": "b",
+          "text": "é norma estadual do Maranhão"
+        },
+        {
+          "id": "c",
+          "text": "substitui o MCASP para qualquer ativo"
+        },
+        {
+          "id": "d",
+          "text": "regulamenta cartórios de registro"
+        },
+        {
+          "id": "e",
+          "text": "traz procedimentos específicos para imóveis da União, autarquias e fundações públicas federais"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "A Portaria disciplina sistemas, mensuração, atualização, reavaliação e depreciação no âmbito federal definido em seu texto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1069",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Antes de adquirir ou locar novo imóvel, a gestão da carteira deve",
       "options": [
-        {"id": "a", "text": "verificar necessidade, capacidade, imóveis próprios disponíveis e custo total do ciclo de vida"},
-        {"id": "b", "text": "considerar apenas o menor aluguel"},
-        {"id": "c", "text": "ignorar imóveis subutilizados"},
-        {"id": "d", "text": "desconsiderar manutenção futura"},
-        {"id": "e", "text": "avaliar somente a localização"}
+        {
+          "id": "a",
+          "text": "verificar necessidade, capacidade, imóveis próprios disponíveis e custo total do ciclo de vida"
+        },
+        {
+          "id": "b",
+          "text": "considerar apenas o menor aluguel"
+        },
+        {
+          "id": "c",
+          "text": "ignorar imóveis subutilizados"
+        },
+        {
+          "id": "d",
+          "text": "desconsiderar manutenção futura"
+        },
+        {
+          "id": "e",
+          "text": "avaliar somente a localização"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Planejamento imobiliário compara alternativas na carteira e custos de aquisição, ocupação, operação, manutenção e desmobilização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1070",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Ao desocupar um prédio público, a medida gerencial adequada é",
       "options": [
-        {"id": "a", "text": "suspender todo controle até nova ocupação"},
-        {"id": "b", "text": "proteger, inspecionar, atualizar o cadastro e decidir tempestivamente a destinação"},
-        {"id": "c", "text": "presumir sua alienação"},
-        {"id": "d", "text": "baixá-lo contabilmente de imediato"},
-        {"id": "e", "text": "cancelar a matrícula"}
+        {
+          "id": "a",
+          "text": "suspender todo controle até nova ocupação"
+        },
+        {
+          "id": "b",
+          "text": "proteger, inspecionar, atualizar o cadastro e decidir tempestivamente a destinação"
+        },
+        {
+          "id": "c",
+          "text": "presumir sua alienação"
+        },
+        {
+          "id": "d",
+          "text": "baixá-lo contabilmente de imediato"
+        },
+        {
+          "id": "e",
+          "text": "cancelar a matrícula"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Vacância aumenta riscos de invasão, vandalismo e deterioração e exige controle e decisão, não abandono administrativo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1071",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O custo total de ocupação de um imóvel pode incluir",
       "options": [
-        {"id": "a", "text": "somente preço de compra"},
-        {"id": "b", "text": "apenas aluguel e condomínio"},
-        {"id": "c", "text": "aquisição ou aluguel, operação, energia, manutenção, adequações e desmobilização"},
-        {"id": "d", "text": "exclusivamente tributos"},
-        {"id": "e", "text": "apenas custos já pagos"}
+        {
+          "id": "a",
+          "text": "somente preço de compra"
+        },
+        {
+          "id": "b",
+          "text": "apenas aluguel e condomínio"
+        },
+        {
+          "id": "c",
+          "text": "aquisição ou aluguel, operação, energia, manutenção, adequações e desmobilização"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente tributos"
+        },
+        {
+          "id": "e",
+          "text": "apenas custos já pagos"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Economicidade imobiliária deve considerar custos durante o ciclo de vida, e não apenas o preço inicial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1072",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Conservação distingue-se de manutenção porque a primeira enfatiza",
       "options": [
-        {"id": "a", "text": "a aquisição de novo imóvel"},
-        {"id": "b", "text": "a baixa contábil"},
-        {"id": "c", "text": "somente reparos emergenciais"},
-        {"id": "d", "text": "a preservação física e funcional contra deterioração e perda de utilidade"},
-        {"id": "e", "text": "a ampliação obrigatória de capacidade"}
+        {
+          "id": "a",
+          "text": "a aquisição de novo imóvel"
+        },
+        {
+          "id": "b",
+          "text": "a baixa contábil"
+        },
+        {
+          "id": "c",
+          "text": "somente reparos emergenciais"
+        },
+        {
+          "id": "d",
+          "text": "a preservação física e funcional contra deterioração e perda de utilidade"
+        },
+        {
+          "id": "e",
+          "text": "a ampliação obrigatória de capacidade"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "Conservação tem foco preservativo; manutenção reúne ações técnicas e administrativas para conservar ou recuperar desempenho e segurança. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1073",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Manutenção preventiva é aquela",
       "options": [
-        {"id": "a", "text": "executada somente após colapso"},
-        {"id": "b", "text": "realizada sem plano ou critério"},
-        {"id": "c", "text": "limitada a defeitos estéticos"},
-        {"id": "d", "text": "que elimina qualquer necessidade de corretiva"},
-        {"id": "e", "text": "programada antes da falha com base em tempo, uso ou recomendação técnica"}
+        {
+          "id": "a",
+          "text": "executada somente após colapso"
+        },
+        {
+          "id": "b",
+          "text": "realizada sem plano ou critério"
+        },
+        {
+          "id": "c",
+          "text": "limitada a defeitos estéticos"
+        },
+        {
+          "id": "d",
+          "text": "que elimina qualquer necessidade de corretiva"
+        },
+        {
+          "id": "e",
+          "text": "programada antes da falha com base em tempo, uso ou recomendação técnica"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "A preventiva busca reduzir a probabilidade ou consequência de falhas por ações antecipadas, mas não elimina toda corretiva. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1074",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A manutenção preditiva ou baseada em condição utiliza",
       "options": [
-        {"id": "a", "text": "medições, inspeções e tendências para decidir o momento da intervenção"},
-        {"id": "b", "text": "somente calendário fixo sem observar o ativo"},
-        {"id": "c", "text": "apenas resposta a emergência"},
-        {"id": "d", "text": "exclusivamente o valor contábil"},
-        {"id": "e", "text": "a matrícula como diagnóstico técnico"}
+        {
+          "id": "a",
+          "text": "medições, inspeções e tendências para decidir o momento da intervenção"
+        },
+        {
+          "id": "b",
+          "text": "somente calendário fixo sem observar o ativo"
+        },
+        {
+          "id": "c",
+          "text": "apenas resposta a emergência"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente o valor contábil"
+        },
+        {
+          "id": "e",
+          "text": "a matrícula como diagnóstico técnico"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "A estratégia baseada em condição observa sinais reais de desempenho e tendência para planejar a intervenção. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1075",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Manutenção detectiva busca",
       "options": [
-        {"id": "a", "text": "construir nova edificação"},
-        {"id": "b", "text": "identificar falhas ocultas em sistemas de proteção ou reserva"},
-        {"id": "c", "text": "corrigir apenas dano visível"},
-        {"id": "d", "text": "substituir todo componente por prazo"},
-        {"id": "e", "text": "avaliar domínio imobiliário"}
+        {
+          "id": "a",
+          "text": "construir nova edificação"
+        },
+        {
+          "id": "b",
+          "text": "identificar falhas ocultas em sistemas de proteção ou reserva"
+        },
+        {
+          "id": "c",
+          "text": "corrigir apenas dano visível"
+        },
+        {
+          "id": "d",
+          "text": "substituir todo componente por prazo"
+        },
+        {
+          "id": "e",
+          "text": "avaliar domínio imobiliário"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Testes detectivos procuram falhas que permanecem ocultas até a demanda, como em sistemas de proteção e contingência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1076",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na priorização da manutenção predial, criticidade deve considerar",
       "options": [
-        {"id": "a", "text": "somente o custo do reparo"},
-        {"id": "b", "text": "apenas a aparência da falha"},
-        {"id": "c", "text": "probabilidade e consequências para segurança, continuidade, patrimônio e conformidade"},
-        {"id": "d", "text": "exclusivamente a ordem de chegada dos chamados"},
-        {"id": "e", "text": "somente a idade do prédio"}
+        {
+          "id": "a",
+          "text": "somente o custo do reparo"
+        },
+        {
+          "id": "b",
+          "text": "apenas a aparência da falha"
+        },
+        {
+          "id": "c",
+          "text": "probabilidade e consequências para segurança, continuidade, patrimônio e conformidade"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente a ordem de chegada dos chamados"
+        },
+        {
+          "id": "e",
+          "text": "somente a idade do prédio"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Criticidade combina chance de ocorrência e impacto, permitindo priorizar riscos relevantes mesmo quando o reparo é barato. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1077",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um plano de manutenção predial consistente deve conter",
       "options": [
-        {"id": "a", "text": "apenas a lista de fornecedores"},
-        {"id": "b", "text": "somente chamados corretivos"},
-        {"id": "c", "text": "um orçamento sem inventário técnico"},
-        {"id": "d", "text": "inventário, diagnóstico, criticidade, tarefas, responsáveis, recursos, histórico e indicadores"},
-        {"id": "e", "text": "somente o cronograma de limpeza"}
+        {
+          "id": "a",
+          "text": "apenas a lista de fornecedores"
+        },
+        {
+          "id": "b",
+          "text": "somente chamados corretivos"
+        },
+        {
+          "id": "c",
+          "text": "um orçamento sem inventário técnico"
+        },
+        {
+          "id": "d",
+          "text": "inventário, diagnóstico, criticidade, tarefas, responsáveis, recursos, histórico e indicadores"
+        },
+        {
+          "id": "e",
+          "text": "somente o cronograma de limpeza"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "O plano integra conhecimento dos sistemas, riscos, programação, execução, evidência e avaliação de desempenho. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1078",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma ordem de serviço predial é mais útil ao controle quando registra",
       "options": [
-        {"id": "a", "text": "apenas o nome do técnico"},
-        {"id": "b", "text": "somente a data de abertura"},
-        {"id": "c", "text": "apenas o custo estimado"},
-        {"id": "d", "text": "um texto genérico sem componente ou local"},
-        {"id": "e", "text": "solicitação, diagnóstico, prioridade, recursos, execução, teste, aceite e evidências"}
+        {
+          "id": "a",
+          "text": "apenas o nome do técnico"
+        },
+        {
+          "id": "b",
+          "text": "somente a data de abertura"
+        },
+        {
+          "id": "c",
+          "text": "apenas o custo estimado"
+        },
+        {
+          "id": "d",
+          "text": "um texto genérico sem componente ou local"
+        },
+        {
+          "id": "e",
+          "text": "solicitação, diagnóstico, prioridade, recursos, execução, teste, aceite e evidências"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "A ordem deve permitir rastrear do problema ao encerramento verificado, inclusive custos, responsáveis e evidências. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1079",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma inspeção identifica risco grave em instalação elétrica. O controle adequado é",
       "options": [
-        {"id": "a", "text": "classificar a urgência, adotar proteção, encaminhar a correção e acompanhar até a evidência de solução"},
-        {"id": "b", "text": "arquivar o laudo sem ação"},
-        {"id": "c", "text": "aguardar o próximo inventário anual"},
-        {"id": "d", "text": "alterar apenas o valor contábil"},
-        {"id": "e", "text": "encerrar a ocorrência ao emitir o diagnóstico"}
+        {
+          "id": "a",
+          "text": "classificar a urgência, adotar proteção, encaminhar a correção e acompanhar até a evidência de solução"
+        },
+        {
+          "id": "b",
+          "text": "arquivar o laudo sem ação"
+        },
+        {
+          "id": "c",
+          "text": "aguardar o próximo inventário anual"
+        },
+        {
+          "id": "d",
+          "text": "alterar apenas o valor contábil"
+        },
+        {
+          "id": "e",
+          "text": "encerrar a ocorrência ao emitir o diagnóstico"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Diagnóstico sem tratamento não reduz risco; o achado exige resposta proporcional e acompanhamento até a solução. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1080",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Quando a manutenção predial é terceirizada, a Administração",
       "options": [
-        {"id": "a", "text": "transfere integralmente sua responsabilidade de controle"},
-        {"id": "b", "text": "deve planejar, fiscalizar, medir, testar e aceitar os serviços com evidências"},
-        {"id": "c", "text": "pode pagar apenas pela presença da equipe"},
-        {"id": "d", "text": "dispensa inventário e plano preventivo"},
-        {"id": "e", "text": "não precisa controlar peças substituídas"}
+        {
+          "id": "a",
+          "text": "transfere integralmente sua responsabilidade de controle"
+        },
+        {
+          "id": "b",
+          "text": "deve planejar, fiscalizar, medir, testar e aceitar os serviços com evidências"
+        },
+        {
+          "id": "c",
+          "text": "pode pagar apenas pela presença da equipe"
+        },
+        {
+          "id": "d",
+          "text": "dispensa inventário e plano preventivo"
+        },
+        {
+          "id": "e",
+          "text": "não precisa controlar peças substituídas"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Terceirização transfere execução contratada, não o dever administrativo de governar, fiscalizar e aceitar resultados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1081",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na interface entre manutenção e acessibilidade, é correto afirmar que",
       "options": [
-        {"id": "a", "text": "acessibilidade só importa em prédios novos"},
-        {"id": "b", "text": "uma rota acessível pode ficar bloqueada indefinidamente durante reparos"},
-        {"id": "c", "text": "intervenções devem preservar ou restabelecer acesso, circulação, equipamentos e uso seguro"},
-        {"id": "d", "text": "a manutenção não pode corrigir barreiras"},
-        {"id": "e", "text": "equipamento de acessibilidade inoperante não afeta serviço público"}
+        {
+          "id": "a",
+          "text": "acessibilidade só importa em prédios novos"
+        },
+        {
+          "id": "b",
+          "text": "uma rota acessível pode ficar bloqueada indefinidamente durante reparos"
+        },
+        {
+          "id": "c",
+          "text": "intervenções devem preservar ou restabelecer acesso, circulação, equipamentos e uso seguro"
+        },
+        {
+          "id": "d",
+          "text": "a manutenção não pode corrigir barreiras"
+        },
+        {
+          "id": "e",
+          "text": "equipamento de acessibilidade inoperante não afeta serviço público"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Conservação e manutenção devem tratar condições acessíveis porque sua perda pode impedir o acesso efetivo ao serviço. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1082",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma alta proporção de manutenção corretiva emergencial em relação à preventiva",
       "options": [
-        {"id": "a", "text": "prova fraude contratual"},
-        {"id": "b", "text": "demonstra sempre economia"},
-        {"id": "c", "text": "é irrelevante para a gestão"},
-        {"id": "d", "text": "pode sinalizar manutenção reativa, mas exige análise de idade, criticidade e contexto"},
-        {"id": "e", "text": "autoriza dispensar inspeções"}
+        {
+          "id": "a",
+          "text": "prova fraude contratual"
+        },
+        {
+          "id": "b",
+          "text": "demonstra sempre economia"
+        },
+        {
+          "id": "c",
+          "text": "é irrelevante para a gestão"
+        },
+        {
+          "id": "d",
+          "text": "pode sinalizar manutenção reativa, mas exige análise de idade, criticidade e contexto"
+        },
+        {
+          "id": "e",
+          "text": "autoriza dispensar inspeções"
+        }
       ],
       "correctOptionId": "d",
       "explanation": "Indicadores apontam riscos e tendências, mas não provam causa sem comparação e contexto operacional. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1083",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A substituição completa da cobertura de um prédio público deve ser tratada gerencialmente como",
       "options": [
-        {"id": "a", "text": "despesa sem qualquer efeito cadastral ou contábil"},
-        {"id": "b", "text": "nova matrícula obrigatória"},
-        {"id": "c", "text": "baixa automática de todo o imóvel"},
-        {"id": "d", "text": "mera mudança de ocupante"},
-        {"id": "e", "text": "intervenção a documentar, distinguindo reparo, melhoria e componentes e avaliando efeitos técnicos, cadastrais e contábeis"}
+        {
+          "id": "a",
+          "text": "despesa sem qualquer efeito cadastral ou contábil"
+        },
+        {
+          "id": "b",
+          "text": "nova matrícula obrigatória"
+        },
+        {
+          "id": "c",
+          "text": "baixa automática de todo o imóvel"
+        },
+        {
+          "id": "d",
+          "text": "mera mudança de ocupante"
+        },
+        {
+          "id": "e",
+          "text": "intervenção a documentar, distinguindo reparo, melhoria e componentes e avaliando efeitos técnicos, cadastrais e contábeis"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "O nome da obra não resolve seu tratamento; a entidade deve analisar substância, componentes substituídos, potencial de serviços, garantias e registros afetados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1084",
+      "revision": 1,
+      "prompt": "Um edifício público desocupado há dois anos, mas ainda formalmente destinado a uma repartição,",
+      "options": [
+        {
+          "id": "a",
+          "text": "não se torna dominical apenas pela desocupação; a afetação e o ato jurídico aplicável devem ser verificados"
+        },
+        {
+          "id": "b",
+          "text": "passa automaticamente ao domínio privado do ocupante anterior"
+        },
+        {
+          "id": "c",
+          "text": "pode ser alienado sem procedimento porque não está sendo usado"
+        },
+        {
+          "id": "d",
+          "text": "perde a natureza imobiliária enquanto estiver vazio"
+        },
+        {
+          "id": "e",
+          "text": "deixa de exigir conservação até nova ocupação"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A vacância é fato operacional e não equivale, por si só, à desafetação ou à disponibilidade jurídica para alienação. Fonte: questão inspirada em cobranças do Cebraspe sobre classificação e afetação de bens públicos."
+    },
+    {
+      "id": "q1085",
+      "revision": 1,
+      "prompt": "Em uma auditoria, a equipe encontra área física de 12.000 m², matrícula com 10.000 m² e cadastro com 11.500 m². A providência adequada é",
+      "options": [
+        {
+          "id": "a",
+          "text": "adotar a maior área por prudência e encerrar o achado"
+        },
+        {
+          "id": "b",
+          "text": "apurar a origem da divergência com levantamento e documentos, avaliar regularização e atualizar todas as bases afetadas"
+        },
+        {
+          "id": "c",
+          "text": "alterar apenas o cadastro para 12.000 m², pois ele prevalece sobre o cartório"
+        },
+        {
+          "id": "d",
+          "text": "manter os três valores, porque cada base pode representar livremente um imóvel diferente"
+        },
+        {
+          "id": "e",
+          "text": "baixar contabilmente a diferença de 2.000 m² sem análise jurídica"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A divergência exige diligência técnica e dominial; nenhum dos valores deve ser escolhido mecanicamente. Fonte: questão autoral atualizada sobre regularização dominial e conciliação."
+    },
+    {
+      "id": "q1086",
+      "revision": 1,
+      "prompt": "A matrícula imobiliária e o cadastro patrimonial distinguem-se porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "o cadastro prova domínio e a matrícula serve apenas à manutenção"
+        },
+        {
+          "id": "b",
+          "text": "a matrícula registra ordens de serviço e o cadastro registra direitos reais"
+        },
+        {
+          "id": "c",
+          "text": "a matrícula produz efeitos registrais próprios, enquanto o cadastro organiza informações gerenciais e referencia os documentos competentes"
+        },
+        {
+          "id": "d",
+          "text": "ambos têm exatamente a mesma função, variando somente o órgão emissor"
+        },
+        {
+          "id": "e",
+          "text": "o cadastro substitui a matrícula quando contém coordenadas geográficas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "As camadas são complementares: publicidade registral e gestão administrativa não se confundem. Fonte: questão inspirada em itens do Cebraspe sobre registro e cadastro de imóveis."
+    },
+    {
+      "id": "q1087",
+      "revision": 1,
+      "prompt": "A respeito de uma edificação pública não averbada na matrícula, é correto afirmar que",
+      "options": [
+        {
+          "id": "a",
+          "text": "a ausência de averbação torna a edificação juridicamente inexistente para qualquer finalidade"
+        },
+        {
+          "id": "b",
+          "text": "basta inserir uma fotografia no cadastro para sanar a situação dominial"
+        },
+        {
+          "id": "c",
+          "text": "o valor da edificação deve ser excluído da contabilidade sem outra análise"
+        },
+        {
+          "id": "d",
+          "text": "a situação exige análise documental e registral, além de atualização cadastral e contábil quando cabível"
+        },
+        {
+          "id": "e",
+          "text": "o cadastro técnico não pode registrar a edificação até a averbação, mesmo para gestão de risco"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A falta de averbação é divergência relevante, mas seu tratamento exige providências coordenadas e não soluções automáticas. Fonte: questão autoral atualizada sobre diligência registral."
+    },
+    {
+      "id": "q1088",
+      "revision": 1,
+      "prompt": "Um imóvel público de uso especial permanece inalienável",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente enquanto estiver ocupado por servidores"
+        },
+        {
+          "id": "b",
+          "text": "até receber um RIP, que o transforma em dominical"
+        },
+        {
+          "id": "c",
+          "text": "apenas durante o exercício financeiro da aquisição"
+        },
+        {
+          "id": "d",
+          "text": "porque todo bem público é absolutamente inalienável em qualquer situação"
+        },
+        {
+          "id": "e",
+          "text": "enquanto conservar essa qualificação, sem prejuízo do procedimento de desafetação quando juridicamente cabível"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A inalienabilidade decorre da afetação; bens dominicais podem ser alienados mediante os requisitos legais. Fonte: questão inspirada em cobrança anterior do Cebraspe sobre bens de uso especial."
+    },
+    {
+      "id": "q1089",
+      "revision": 1,
+      "prompt": "Duas matrículas correspondem a prédios integrados que funcionam como um único complexo. A equipe patrimonial deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "manter rastreabilidade de cada título e avaliar, conforme o caso, integração física, cadastral, contábil e eventual unificação registral"
+        },
+        {
+          "id": "b",
+          "text": "cancelar uma matrícula no cadastro para evitar duplicidade"
+        },
+        {
+          "id": "c",
+          "text": "somar as áreas e criar matrícula administrativa única com efeito cartorial"
+        },
+        {
+          "id": "d",
+          "text": "registrar apenas o prédio de maior valor"
+        },
+        {
+          "id": "e",
+          "text": "tratar os dois imóveis como um único bem sem documentar a relação entre eles"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Integração operacional não autoriza apagar os títulos; é necessário preservar a cadeia de evidências. Fonte: questão autoral de gestão integrada da carteira."
+    },
+    {
+      "id": "q1090",
+      "revision": 1,
+      "prompt": "Uma ocupação de imóvel público sem instrumento formal válido deve ser tratada prioritariamente como",
+      "options": [
+        {
+          "id": "a",
+          "text": "prova automática de domínio do ocupante"
+        },
+        {
+          "id": "b",
+          "text": "pendência de regularização do fundamento de uso, com avaliação jurídica, cadastral e de riscos"
+        },
+        {
+          "id": "c",
+          "text": "situação irrelevante se houver pagamento de despesas de manutenção"
+        },
+        {
+          "id": "d",
+          "text": "desafetação tácita do bem"
+        },
+        {
+          "id": "e",
+          "text": "mero problema contábil solucionado por reavaliação"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O uso precisa de fundamento e responsabilidades identificados; a realidade fática deve ser regularizada. Fonte: questão inspirada em auditorias de patrimônio imobiliário público."
+    },
+    {
+      "id": "q1091",
+      "revision": 1,
+      "prompt": "Em relação à desafetação, a alternativa correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "decorre automaticamente do fechamento temporário do prédio"
+        },
+        {
+          "id": "b",
+          "text": "é realizada pelo setor contábil ao mudar a conta patrimonial"
+        },
+        {
+          "id": "c",
+          "text": "depende do ordenamento, da competência e do ato adequado, não sendo produzida apenas por abandono ou mudança de uso fático"
+        },
+        {
+          "id": "d",
+          "text": "ocorre quando o cadastro muda a destinação para 'vazio'"
+        },
+        {
+          "id": "e",
+          "text": "é desnecessária para qualquer bem de uso especial"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A desafetação é fenômeno jurídico; bases administrativas devem refletir o ato, não substituí-lo. Fonte: questão autoral de consolidação conceitual."
+    },
+    {
+      "id": "q1092",
+      "revision": 1,
+      "prompt": "Um terreno sem destinação pública específica, classificado como dominical,",
+      "options": [
+        {
+          "id": "a",
+          "text": "torna-se particular se permanecer vazio por prazo prolongado"
+        },
+        {
+          "id": "b",
+          "text": "é bem de uso comum do povo por definição"
+        },
+        {
+          "id": "c",
+          "text": "pode ser alienado sem avaliação, autorização ou licitação"
+        },
+        {
+          "id": "d",
+          "text": "continua sendo bem público e não se sujeita a usucapião"
+        },
+        {
+          "id": "e",
+          "text": "dispensa inventário por não estar afetado"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Dominical não significa privado; a alienação depende do regime jurídico aplicável. Fonte: questão inspirada em cobrança do Cebraspe sobre bens dominicais."
+    },
+    {
+      "id": "q1093",
+      "revision": 1,
+      "prompt": "Ao encontrar demolição realizada, mas não refletida na matrícula, no cadastro e na contabilidade, o gestor deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "manter a edificação em todas as bases até que outra seja construída"
+        },
+        {
+          "id": "b",
+          "text": "apagar imediatamente o imóvel inteiro do cadastro"
+        },
+        {
+          "id": "c",
+          "text": "baixar somente o terreno, pois a edificação não existe mais"
+        },
+        {
+          "id": "d",
+          "text": "substituir a matrícula por relatório fotográfico"
+        },
+        {
+          "id": "e",
+          "text": "obter evidência da demolição, verificar averbação e atualizar cadastro, inventário técnico e registro contábil conforme o caso"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A demolição altera componentes físicos e pode exigir providências registrais e contábeis distintas. Fonte: questão autoral sobre conciliação pós-demolição."
+    },
+    {
+      "id": "q1094",
+      "revision": 1,
+      "prompt": "BIM e GIS, aplicados à gestão imobiliária pública,",
+      "options": [
+        {
+          "id": "a",
+          "text": "apoiam inventário, localização e manutenção, mas não substituem título, matrícula, cadastro oficial ou contabilidade"
+        },
+        {
+          "id": "b",
+          "text": "produzem domínio imobiliário quando o modelo possui coordenadas"
+        },
+        {
+          "id": "c",
+          "text": "eliminam a necessidade de vistoria porque representam o prédio"
+        },
+        {
+          "id": "d",
+          "text": "substituem automaticamente o registro contábil do ativo"
+        },
+        {
+          "id": "e",
+          "text": "dispensam a decisão da autoridade sobre destinação"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ferramentas digitais são meios de gestão e evidência técnica; não acumulam funções jurídicas e contábeis. Fonte: questão autoral atualizada sobre transformação digital patrimonial."
+    },
+    {
+      "id": "q1095",
+      "revision": 1,
+      "prompt": "Na governança de um imóvel, a existência de várias unidades participantes significa que",
+      "options": [
+        {
+          "id": "a",
+          "text": "nenhuma unidade pode ser responsabilizada por divergências"
+        },
+        {
+          "id": "b",
+          "text": "as responsabilidades de decidir, executar, validar e informar devem ser formalmente distribuídas"
+        },
+        {
+          "id": "c",
+          "text": "a unidade usuária deve assumir todas as atribuições jurídicas e contábeis"
+        },
+        {
+          "id": "d",
+          "text": "a terceirizada de manutenção passa a ser proprietária dos dados"
+        },
+        {
+          "id": "e",
+          "text": "o controle interno deve executar diretamente toda manutenção"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Fragmentação organizacional exige matriz de responsabilidades, não ausência de dono do processo. Fonte: questão autoral de governança patrimonial."
+    },
+    {
+      "id": "q1096",
+      "revision": 1,
+      "prompt": "No corte de julho de 2026, os novos fluxos antes executados no SPIUnet",
+      "options": [
+        {
+          "id": "a",
+          "text": "continuam obrigatoriamente no SPIUnet até dezembro de 2026"
+        },
+        {
+          "id": "b",
+          "text": "foram transferidos ao SIAFI, que substituiu o cadastro imobiliário"
+        },
+        {
+          "id": "c",
+          "text": "são realizados no SPUnet, permanecendo o SPIUnet apenas para consulta"
+        },
+        {
+          "id": "d",
+          "text": "passaram ao SIAPA exclusivamente para imóveis de uso especial"
+        },
+        {
+          "id": "e",
+          "text": "foram extintos, sem plataforma substituta"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A SPU colocou SPIUnet e SISREI em consulta em 9/3/2026 e transferiu os fluxos do SPIUnet ao SPUnet em 2/4/2026. Fonte: questão inspirada em comunicados oficiais da SPU de 2026."
+    },
+    {
+      "id": "q1097",
+      "revision": 1,
+      "prompt": "Uma questão afirma, no pretérito, que o SPIUnet permitia cadastrar imóvel locado de terceiro. Essa afirmação",
+      "options": [
+        {
+          "id": "a",
+          "text": "é necessariamente falsa porque o SPIUnet foi desativado em 2026"
+        },
+        {
+          "id": "b",
+          "text": "é falsa porque apenas imóveis próprios podiam ser cadastrados"
+        },
+        {
+          "id": "c",
+          "text": "é correta e prova reconhecimento automático no SIAFI"
+        },
+        {
+          "id": "d",
+          "text": "pode ser correta historicamente, embora o cadastro não transformasse o imóvel em propriedade da União"
+        },
+        {
+          "id": "e",
+          "text": "é correta apenas para imóveis dominicais do SIAPA"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A data e o tempo verbal importam: funcionalidades históricas continuam sendo matéria de prova. Fonte: questão inspirada em cobrança anterior do Cebraspe sobre funcionalidades do SPIUnet."
+    },
+    {
+      "id": "q1098",
+      "revision": 1,
+      "prompt": "O RIP, no patrimônio da União, é",
+      "options": [
+        {
+          "id": "a",
+          "text": "título de propriedade emitido pela SPU"
+        },
+        {
+          "id": "b",
+          "text": "número da conta contábil no SIAFI"
+        },
+        {
+          "id": "c",
+          "text": "certidão cartorial que substitui a matrícula"
+        },
+        {
+          "id": "d",
+          "text": "laudo de avaliação com validade nacional"
+        },
+        {
+          "id": "e",
+          "text": "identificador cadastral numérico, distinto da matrícula do registro de imóveis"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "RIP identifica o cadastro patrimonial; não comprova domínio por si só. Fonte: questão inspirada em item do Cebraspe sobre Cadastro Nacional de Bens Imóveis da União."
+    },
+    {
+      "id": "q1099",
+      "revision": 1,
+      "prompt": "Em um imóvel federal compartilhado por três unidades gestoras, o controle histórico adequado no SPIUnet poderia exigir",
+      "options": [
+        {
+          "id": "a",
+          "text": "utilizações individualizadas para representar responsabilidades, parcelas ou ocupações distintas"
+        },
+        {
+          "id": "b",
+          "text": "uma única utilização sem identificação de usuários"
+        },
+        {
+          "id": "c",
+          "text": "três matrículas cartoriais obrigatórias"
+        },
+        {
+          "id": "d",
+          "text": "três propriedades distintas criadas pelo sistema"
+        },
+        {
+          "id": "e",
+          "text": "baixa do imóvel no SIAFI por compartilhamento"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O cadastro do imóvel pode sustentar múltiplas utilizações vinculadas. Fonte: questão inspirada em cobrança do Cebraspe sobre RIP utilização."
+    },
+    {
+      "id": "q1100",
+      "revision": 1,
+      "prompt": "O RIP utilização",
+      "options": [
+        {
+          "id": "a",
+          "text": "substitui o RIP imóvel e pode existir isoladamente"
+        },
+        {
+          "id": "b",
+          "text": "depende do cadastro do imóvel e representa uma utilização vinculada"
+        },
+        {
+          "id": "c",
+          "text": "é sempre igual ao número da matrícula cartorial"
+        },
+        {
+          "id": "d",
+          "text": "é criado apenas para terrenos dominicais"
+        },
+        {
+          "id": "e",
+          "text": "dispensa unidade gestora e regime de utilização"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A utilização é subordinada ao cadastro do imóvel-base. Fonte: questão autoral baseada na orientação histórica da SPU."
+    },
+    {
+      "id": "q1101",
+      "revision": 1,
+      "prompt": "No modelo federal histórico, SPIUnet e SIAFI",
+      "options": [
+        {
+          "id": "a",
+          "text": "eram nomes diferentes do mesmo sistema"
+        },
+        {
+          "id": "b",
+          "text": "tinham dados independentes que nunca se comunicavam"
+        },
+        {
+          "id": "c",
+          "text": "possuíam funções distintas, com integração em situações definidas e necessidade de conciliação"
+        },
+        {
+          "id": "d",
+          "text": "substituíam o registro imobiliário quando usados conjuntamente"
+        },
+        {
+          "id": "e",
+          "text": "eram aplicáveis automaticamente a todos os estados e municípios"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Cadastro patrimonial e contabilidade federal não se confundem. Fonte: questão inspirada em manuais e FAQ da SPU."
+    },
+    {
+      "id": "q1102",
+      "revision": 1,
+      "prompt": "O cadastro de locação de terceiro no SPIUnet",
+      "options": [
+        {
+          "id": "a",
+          "text": "transformava o locador em unidade gestora federal"
+        },
+        {
+          "id": "b",
+          "text": "produzia transferência automática da propriedade"
+        },
+        {
+          "id": "c",
+          "text": "exigia baixa da despesa de aluguel"
+        },
+        {
+          "id": "d",
+          "text": "era necessário para gestão do uso, mas não gerava contabilização como imóvel próprio no SIAFI"
+        },
+        {
+          "id": "e",
+          "text": "era proibido por o imóvel não pertencer à União"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A SPU distinguia o cadastro gerencial da propriedade e do reflexo contábil. Fonte: questão inspirada em FAQ oficial do SPIUnet."
+    },
+    {
+      "id": "q1103",
+      "revision": 1,
+      "prompt": "O SPUnet, em julho de 2026, deve ser descrito como",
+      "options": [
+        {
+          "id": "a",
+          "text": "sistema concluído que já substituiu definitivamente todos os sistemas da SPU"
+        },
+        {
+          "id": "b",
+          "text": "módulo exclusivo do SIAFI para contabilidade"
+        },
+        {
+          "id": "c",
+          "text": "plataforma própria do TCE-MA"
+        },
+        {
+          "id": "d",
+          "text": "novo nome da matrícula cartorial federal"
+        },
+        {
+          "id": "e",
+          "text": "plataforma integrada em implantação progressiva, ainda incorporando módulos, funcionalidades e bases legadas"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Fontes oficiais de 2026 registravam implantação progressiva e integração futura do SIAPA. Fonte: questão autoral atualizada com base em páginas oficiais do SPUnet."
+    },
+    {
+      "id": "q1104",
+      "revision": 1,
+      "prompt": "Duas páginas oficiais de 2026 informam quantidades diferentes de módulos implantados no SPUnet. Em prova, deve-se",
+      "options": [
+        {
+          "id": "a",
+          "text": "considerar a data e o estágio temporal de cada fonte, evitando tratar o número como característica permanente"
+        },
+        {
+          "id": "b",
+          "text": "presumir que uma das páginas é necessariamente falsa"
+        },
+        {
+          "id": "c",
+          "text": "usar sempre o menor número, por prudência"
+        },
+        {
+          "id": "d",
+          "text": "somar os números das duas páginas"
+        },
+        {
+          "id": "e",
+          "text": "concluir que o SPUnet não possui módulos"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A implantação evolutiva produz fotografias temporais diferentes. Fonte: questão autoral sobre leitura temporal de fonte oficial."
+    },
+    {
+      "id": "q1105",
+      "revision": 1,
+      "prompt": "O SIAPA está historicamente associado",
+      "options": [
+        {
+          "id": "a",
+          "text": "exclusivamente a imóveis de uso especial ocupados por órgãos"
+        },
+        {
+          "id": "b",
+          "text": "à gestão de imóveis dominiais e receitas patrimoniais, em processo de integração progressiva ao SPUnet"
+        },
+        {
+          "id": "c",
+          "text": "ao registro de matrículas nos cartórios"
+        },
+        {
+          "id": "d",
+          "text": "à contabilidade de todos os entes federativos"
+        },
+        {
+          "id": "e",
+          "text": "à manutenção predial do TCE-MA"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "SIAPA e SPIUnet cobriam universos e processos distintos no patrimônio federal. Fonte: questão autoral baseada em documentação da SPU."
+    },
+    {
+      "id": "q1106",
+      "revision": 1,
+      "prompt": "O SISREI, após a migração de 2026,",
+      "options": [
+        {
+          "id": "a",
+          "text": "substituiu o SPUnet para novos cadastros"
+        },
+        {
+          "id": "b",
+          "text": "passou a registrar depreciação no SIAFI"
+        },
+        {
+          "id": "c",
+          "text": "ficou em consulta e os requerimentos passaram a fluxo específico no Portal de Serviços da SPU"
+        },
+        {
+          "id": "d",
+          "text": "tornou-se cadastro de imóveis dominicais"
+        },
+        {
+          "id": "e",
+          "text": "foi adotado pelo TCE-MA"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A migração dos requerimentos não foi para o SPIUnet nem para o SIAFI. Fonte: questão autoral atualizada com base no FAQ de desligamento."
+    },
+    {
+      "id": "q1107",
+      "revision": 1,
+      "prompt": "A afirmação 'todo imóvel com RIP pertence à União' é",
+      "options": [
+        {
+          "id": "a",
+          "text": "correta, porque a SPU emite títulos de domínio por RIP"
+        },
+        {
+          "id": "b",
+          "text": "correta apenas quando o RIP termina em número par"
+        },
+        {
+          "id": "c",
+          "text": "incorreta somente para terrenos rurais"
+        },
+        {
+          "id": "d",
+          "text": "incorreta, pois o RIP é identificador cadastral e o cadastro pode incluir situações de uso que não equivalem à propriedade"
+        },
+        {
+          "id": "e",
+          "text": "correta sempre que houver utilização ativa"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Cadastro e domínio são dimensões distintas. Fonte: questão autoral de pegadinha cadastral."
+    },
+    {
+      "id": "q1108",
+      "revision": 1,
+      "prompt": "No sistema histórico, alterar dado do RIP imóvel e não acionar a utilização correspondente poderia",
+      "options": [
+        {
+          "id": "a",
+          "text": "cancelar automaticamente a matrícula"
+        },
+        {
+          "id": "b",
+          "text": "converter a utilização em propriedade"
+        },
+        {
+          "id": "c",
+          "text": "criar um novo ente federativo"
+        },
+        {
+          "id": "d",
+          "text": "desafetar o bem"
+        },
+        {
+          "id": "e",
+          "text": "prejudicar a atualização dos reflexos integrados, exigindo controle e conciliação"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A integração dependia de regras de negócio e do regime de utilização. Fonte: questão inspirada em FAQ oficial do SPIUnet."
+    },
+    {
+      "id": "q1109",
+      "revision": 1,
+      "prompt": "A sigla SPU identifica",
+      "options": [
+        {
+          "id": "a",
+          "text": "a Secretaria do Patrimônio da União"
+        },
+        {
+          "id": "b",
+          "text": "o Sistema Patrimonial Único do TCE-MA"
+        },
+        {
+          "id": "c",
+          "text": "o Registro Imobiliário Patrimonial"
+        },
+        {
+          "id": "d",
+          "text": "o módulo contábil do SIAFI"
+        },
+        {
+          "id": "e",
+          "text": "a matrícula nacional de imóveis públicos"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SPU é órgão; SPIUnet e SPUnet são sistemas/plataformas. Fonte: questão básica autoral para nivelamento."
+    },
+    {
+      "id": "q1110",
+      "revision": 1,
+      "prompt": "O fato de o edital mencionar SPIU",
+      "options": [
+        {
+          "id": "a",
+          "text": "obriga o Tribunal a integrar o SIAFI"
+        },
+        {
+          "id": "b",
+          "text": "não autoriza concluir que o TCE-MA utilize operacionalmente SPIUnet ou SPUnet"
+        },
+        {
+          "id": "c",
+          "text": "transforma toda norma federal em norma estadual"
+        },
+        {
+          "id": "d",
+          "text": "dispensa estudar o contexto histórico federal"
+        },
+        {
+          "id": "e",
+          "text": "prova que todos os imóveis estaduais têm RIP"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O conteúdo pode usar o modelo federal como referência sem presumir adoção local. Fonte: questão autoral alinhada ao escopo do edital."
+    },
+    {
+      "id": "q1111",
+      "revision": 1,
+      "prompt": "Em uma prova, a frase 'o SPIUnet permanece disponível para consulta' é, no corte de julho de 2026,",
+      "options": [
+        {
+          "id": "a",
+          "text": "incorreta, porque foi apagado integralmente em março"
+        },
+        {
+          "id": "b",
+          "text": "incorreta, porque passou a ser módulo do SIAPA"
+        },
+        {
+          "id": "c",
+          "text": "correta"
+        },
+        {
+          "id": "d",
+          "text": "correta apenas para o TCE-MA"
+        },
+        {
+          "id": "e",
+          "text": "correta e significa que aceita novos cadastros"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A desativação operacional preservou consulta de informações. Fonte: questão autoral atualizada com base no aviso oficial da SPU."
+    },
+    {
+      "id": "q1112",
+      "revision": 1,
+      "prompt": "O SPUnet substitui a matrícula cartorial?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sim, sempre que houver georreferenciamento"
+        },
+        {
+          "id": "b",
+          "text": "Sim, para todos os imóveis de uso especial"
+        },
+        {
+          "id": "c",
+          "text": "Sim, se o chefe validar o cadastro"
+        },
+        {
+          "id": "d",
+          "text": "Não; a plataforma cadastral referencia documentos e processos, mas não assume os efeitos do registro de imóveis"
+        },
+        {
+          "id": "e",
+          "text": "Não, porque o SPUnet é exclusivamente contábil"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Sistema cadastral e registro imobiliário têm funções diferentes. Fonte: questão autoral de integração de camadas."
+    },
+    {
+      "id": "q1113",
+      "revision": 1,
+      "prompt": "O SIAFI, no contexto do patrimônio imobiliário federal,",
+      "options": [
+        {
+          "id": "a",
+          "text": "produz matrículas imobiliárias"
+        },
+        {
+          "id": "b",
+          "text": "define afetação e desafetação"
+        },
+        {
+          "id": "c",
+          "text": "é sistema de manutenção predial"
+        },
+        {
+          "id": "d",
+          "text": "é adotado automaticamente pela contabilidade de qualquer ente estadual"
+        },
+        {
+          "id": "e",
+          "text": "registra fatos financeiros e contábeis, não substituindo o cadastro técnico e jurídico do imóvel"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A conciliação aproxima os sistemas sem torná-los equivalentes. Fonte: questão inspirada em itens de administração patrimonial."
+    },
+    {
+      "id": "q1114",
+      "revision": 1,
+      "prompt": "Ao migrar do SPIUnet para o SPUnet, a Administração deve priorizar",
+      "options": [
+        {
+          "id": "a",
+          "text": "mapeamento de identificadores, exceções, validação documental e conciliação pós-migração"
+        },
+        {
+          "id": "b",
+          "text": "a cópia integral sem validação, para manter velocidade"
+        },
+        {
+          "id": "c",
+          "text": "a eliminação de todos os identificadores legados"
+        },
+        {
+          "id": "d",
+          "text": "o bloqueio permanente de consulta ao sistema antigo"
+        },
+        {
+          "id": "e",
+          "text": "a reavaliação automática de todos os imóveis pelo maior valor disponível"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Migrar dado sem governança pode perpetuar duplicidades e erros. Fonte: questão autoral de governança de dados."
+    },
+    {
+      "id": "q1115",
+      "revision": 1,
+      "prompt": "A existência de login e perfil no SPUnet",
+      "options": [
+        {
+          "id": "a",
+          "text": "autoriza qualquer usuário a alterar todos os imóveis"
+        },
+        {
+          "id": "b",
+          "text": "não elimina segregação de funções, validação e trilha de auditoria"
+        },
+        {
+          "id": "c",
+          "text": "substitui a competência administrativa"
+        },
+        {
+          "id": "d",
+          "text": "prova a titularidade do imóvel consultado"
+        },
+        {
+          "id": "e",
+          "text": "dispensa aprovação de avaliações"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Acesso tecnológico é distinto de competência e controle. Fonte: questão autoral baseada nas páginas oficiais de perfis do SPUnet."
+    },
+    {
+      "id": "q1116",
+      "revision": 1,
+      "prompt": "Um inventário imobiliário que apenas imprime a listagem do sistema",
+      "options": [
+        {
+          "id": "a",
+          "text": "é completo se o relatório estiver assinado"
+        },
+        {
+          "id": "b",
+          "text": "substitui vistoria quando o cadastro possui fotos"
+        },
+        {
+          "id": "c",
+          "text": "é insuficiente, pois deve verificar existência, condição, ocupação, documentos e conciliação"
+        },
+        {
+          "id": "d",
+          "text": "dispensa análise de matrícula"
+        },
+        {
+          "id": "e",
+          "text": "permite baixar automaticamente itens não localizados"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Inventário é procedimento de verificação e saneamento, não mera extração. Fonte: questão inspirada em cobranças de inventário patrimonial."
+    },
+    {
+      "id": "q1117",
+      "revision": 1,
+      "prompt": "O critério de qualidade 'unicidade' procura identificar",
+      "options": [
+        {
+          "id": "a",
+          "text": "campos obrigatórios vazios"
+        },
+        {
+          "id": "b",
+          "text": "atraso na atualização"
+        },
+        {
+          "id": "c",
+          "text": "valor fora do formato"
+        },
+        {
+          "id": "d",
+          "text": "duplicidades e registros concorrentes para o mesmo imóvel"
+        },
+        {
+          "id": "e",
+          "text": "ausência de assinatura digital"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Cada dimensão de qualidade responde a risco diferente. Fonte: questão autoral de governança de dados."
+    },
+    {
+      "id": "q1118",
+      "revision": 1,
+      "prompt": "O critério 'tempestividade' é violado quando",
+      "options": [
+        {
+          "id": "a",
+          "text": "o endereço é escrito em formato válido"
+        },
+        {
+          "id": "b",
+          "text": "há um único RIP por imóvel"
+        },
+        {
+          "id": "c",
+          "text": "a matrícula está anexada"
+        },
+        {
+          "id": "d",
+          "text": "o valor foi avaliado por profissional habilitado"
+        },
+        {
+          "id": "e",
+          "text": "mudança de ocupante ocorre, mas o cadastro permanece desatualizado por período relevante"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Tempestividade mede o atraso entre o evento e sua atualização. Fonte: questão autoral de qualidade cadastral."
+    },
+    {
+      "id": "q1119",
+      "revision": 1,
+      "prompt": "Cadastro, matrícula e contabilidade apresentam valores de área diferentes. A conciliação deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "explicar a origem das diferenças e promover saneamento nas bases competentes"
+        },
+        {
+          "id": "b",
+          "text": "forçar todos os sistemas a aceitar o valor contábil"
+        },
+        {
+          "id": "c",
+          "text": "usar média aritmética das áreas"
+        },
+        {
+          "id": "d",
+          "text": "manter a divergência como característica normal"
+        },
+        {
+          "id": "e",
+          "text": "excluir a matrícula da análise por ser externa ao órgão"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Conciliação não é uniformização arbitrária. Fonte: questão autoral de conciliação."
+    },
+    {
+      "id": "q1120",
+      "revision": 1,
+      "prompt": "Em uma migração, o total de registros é igual antes e depois, mas vários imóveis foram duplicados e outros desapareceram. Isso demonstra que",
+      "options": [
+        {
+          "id": "a",
+          "text": "a migração foi perfeita porque a quantidade total não mudou"
+        },
+        {
+          "id": "b",
+          "text": "totais globais são necessários, mas insuficientes sem controles de unicidade e correspondência"
+        },
+        {
+          "id": "c",
+          "text": "o sistema novo deve ser descartado"
+        },
+        {
+          "id": "d",
+          "text": "as matrículas foram automaticamente canceladas"
+        },
+        {
+          "id": "e",
+          "text": "a contabilidade deve adotar o total sem investigar"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Controles quantitativos precisam ser combinados com testes de conteúdo. Fonte: questão autoral de auditoria de migração."
+    },
+    {
+      "id": "q1121",
+      "revision": 1,
+      "prompt": "A rastreabilidade cadastral permite",
+      "options": [
+        {
+          "id": "a",
+          "text": "substituir o documento original"
+        },
+        {
+          "id": "b",
+          "text": "dispensar segregação de funções"
+        },
+        {
+          "id": "c",
+          "text": "identificar autor, data, alteração e evidência que fundamentou a mudança"
+        },
+        {
+          "id": "d",
+          "text": "provar domínio sem matrícula"
+        },
+        {
+          "id": "e",
+          "text": "eliminar a necessidade de inventário"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Trilha de auditoria sustenta responsabilização e reconstrução do histórico. Fonte: questão autoral de controle interno."
+    },
+    {
+      "id": "q1122",
+      "revision": 1,
+      "prompt": "Um imóvel aparece na contabilidade, mas não é localizado fisicamente. O tratamento correto é",
+      "options": [
+        {
+          "id": "a",
+          "text": "baixar imediatamente sem evidência"
+        },
+        {
+          "id": "b",
+          "text": "criar novo imóvel físico com o mesmo valor"
+        },
+        {
+          "id": "c",
+          "text": "presumir que foi alienado"
+        },
+        {
+          "id": "d",
+          "text": "investigar existência, identificação, transferência, baixa ou erro de conciliação antes de ajustar registros"
+        },
+        {
+          "id": "e",
+          "text": "manter indefinidamente porque consta no balanço"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ausência física é achado que exige evidência e procedimento. Fonte: questão inspirada em auditorias patrimoniais."
+    },
+    {
+      "id": "q1123",
+      "revision": 1,
+      "prompt": "Uma planta desatualizada deve levar a",
+      "options": [
+        {
+          "id": "a",
+          "text": "substituição da matrícula pela planta nova"
+        },
+        {
+          "id": "b",
+          "text": "desafetação do imóvel"
+        },
+        {
+          "id": "c",
+          "text": "reavaliação pelo maior valor venal"
+        },
+        {
+          "id": "d",
+          "text": "cancelamento do cadastro"
+        },
+        {
+          "id": "e",
+          "text": "levantamento e atualização do inventário técnico, do projeto e das bases afetadas"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A planta é evidência técnica e precisa refletir a realidade. Fonte: questão autoral de documentação técnica."
+    },
+    {
+      "id": "q1124",
+      "revision": 1,
+      "prompt": "O inventário identifica imóvel ocioso e contrato de locação ativo na mesma região. O auditor deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "comparar adequação, localização, capacidade, custo de adaptação e continuidade antes de concluir"
+        },
+        {
+          "id": "b",
+          "text": "afirmar desperdício apenas pela coexistência"
+        },
+        {
+          "id": "c",
+          "text": "determinar a ocupação imediata sem análise"
+        },
+        {
+          "id": "d",
+          "text": "ignorar o imóvel próprio porque está vazio"
+        },
+        {
+          "id": "e",
+          "text": "considerar apenas o aluguel mensal"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A coincidência é indício, não conclusão automática. Fonte: questão autoral de auditoria operacional."
+    },
+    {
+      "id": "q1125",
+      "revision": 1,
+      "prompt": "Quando a unidade usuária altera a ocupação e não informa a área patrimonial, o problema principal é de",
+      "options": [
+        {
+          "id": "a",
+          "text": "matrícula, que se altera automaticamente"
+        },
+        {
+          "id": "b",
+          "text": "governança e tempestividade, com reflexos potenciais em cadastro, custos e responsabilidades"
+        },
+        {
+          "id": "c",
+          "text": "depreciação do terreno"
+        },
+        {
+          "id": "d",
+          "text": "usucapião do usuário"
+        },
+        {
+          "id": "e",
+          "text": "alienação tácita"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A matriz de responsabilidades deve prever comunicação de eventos. Fonte: questão autoral de governança."
+    },
+    {
+      "id": "q1126",
+      "revision": 1,
+      "prompt": "A amostragem documental em uma migração serve para",
+      "options": [
+        {
+          "id": "a",
+          "text": "substituir todos os controles automáticos"
+        },
+        {
+          "id": "b",
+          "text": "escolher o maior valor entre sistemas"
+        },
+        {
+          "id": "c",
+          "text": "verificar se os dados migrados correspondem às fontes e regras aplicáveis"
+        },
+        {
+          "id": "d",
+          "text": "dispensar relatório de exceções"
+        },
+        {
+          "id": "e",
+          "text": "provar que nenhum erro existe fora da amostra"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A amostra fornece evidência sobre a qualidade, sem eliminar outras verificações. Fonte: questão autoral de auditoria de sistemas."
+    },
+    {
+      "id": "q1127",
+      "revision": 1,
+      "prompt": "Um cadastro completo, porém com dados incorretos,",
+      "options": [
+        {
+          "id": "a",
+          "text": "atende a todos os critérios de qualidade"
+        },
+        {
+          "id": "b",
+          "text": "falha apenas em tempestividade"
+        },
+        {
+          "id": "c",
+          "text": "prova a titularidade do imóvel"
+        },
+        {
+          "id": "d",
+          "text": "atende à completude, mas falha em exatidão"
+        },
+        {
+          "id": "e",
+          "text": "dispensa conciliação"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Completude e exatidão são dimensões diferentes. Fonte: questão autoral de qualidade da informação."
+    },
+    {
+      "id": "q1128",
+      "revision": 1,
+      "prompt": "A principal norma brasileira atual sobre ativo imobilizado no setor público, publicada em março de 2026, é a",
+      "options": [
+        {
+          "id": "a",
+          "text": "NBC TSP 07, sem qualquer substituição"
+        },
+        {
+          "id": "b",
+          "text": "NBC TSP 35"
+        },
+        {
+          "id": "c",
+          "text": "NBC TSP 06 (R1)"
+        },
+        {
+          "id": "d",
+          "text": "NBC TSP 38 exclusivamente"
+        },
+        {
+          "id": "e",
+          "text": "NBC TSP 37"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A NBC TSP 37 passou a ser a referência atual para ativo imobilizado. Fonte: questão autoral atualizada com base no quadro oficial do CFC."
+    },
+    {
+      "id": "q1129",
+      "revision": 1,
+      "prompt": "A NBC TSP 38 trata predominantemente de",
+      "options": [
+        {
+          "id": "a",
+          "text": "bases e princípios de mensuração de ativos e passivos"
+        },
+        {
+          "id": "b",
+          "text": "classificação jurídica dos bens públicos"
+        },
+        {
+          "id": "c",
+          "text": "registro cartorial de imóveis"
+        },
+        {
+          "id": "d",
+          "text": "manutenção preventiva"
+        },
+        {
+          "id": "e",
+          "text": "licitação de obras"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A norma de mensuração complementa normas específicas de classes de ativos. Fonte: questão autoral atualizada com base no CFC."
+    },
+    {
+      "id": "q1130",
+      "revision": 1,
+      "prompt": "Um imóvel mantido predominantemente para aluguel ou valorização deve levar a entidade a examinar",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente a NBC TSP 37, independentemente da finalidade"
+        },
+        {
+          "id": "b",
+          "text": "a NBC TSP 06 (R1), sobre propriedade para investimento"
+        },
+        {
+          "id": "c",
+          "text": "o Código Civil como única norma contábil"
+        },
+        {
+          "id": "d",
+          "text": "a Lei nº 4.320/1964 como critério exclusivo"
+        },
+        {
+          "id": "e",
+          "text": "a norma de estoques, sempre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A finalidade de uso influencia a classificação contábil. Fonte: questão inspirada em cobranças de contabilidade pública sobre propriedades para investimento."
+    },
+    {
+      "id": "q1131",
+      "revision": 1,
+      "prompt": "Um prédio utilizado mediante arrendamento",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre ativo próprio por possuir RIP"
+        },
+        {
+          "id": "b",
+          "text": "nunca produz efeito contábil para o arrendatário"
+        },
+        {
+          "id": "c",
+          "text": "pode exigir reconhecimento de ativo de direito de uso conforme a NBC TSP 35, sem transferir a propriedade jurídica"
+        },
+        {
+          "id": "d",
+          "text": "deve ser registrado como terreno dominical"
+        },
+        {
+          "id": "e",
+          "text": "dispensa análise do prazo e dos termos contratuais"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Direito de uso e propriedade são dimensões diferentes. Fonte: questão autoral atualizada sobre arrendamentos."
+    },
+    {
+      "id": "q1132",
+      "revision": 1,
+      "prompt": "A aquisição conjunta de terreno e edifício exige",
+      "options": [
+        {
+          "id": "a",
+          "text": "depreciar todo o valor pelo prazo do edifício"
+        },
+        {
+          "id": "b",
+          "text": "não depreciar nenhuma parcela"
+        },
+        {
+          "id": "c",
+          "text": "usar apenas o valor venal do terreno"
+        },
+        {
+          "id": "d",
+          "text": "separar os componentes para fins contábeis, pois o terreno em regra não deprecia e a edificação pode depreciar"
+        },
+        {
+          "id": "e",
+          "text": "registrar ambos como manutenção"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Terreno e edificação têm padrões de consumo distintos. Fonte: questão inspirada em itens de ativo imobilizado."
+    },
+    {
+      "id": "q1133",
+      "revision": 1,
+      "prompt": "A depreciação de uma edificação começa, em regra, quando",
+      "options": [
+        {
+          "id": "a",
+          "text": "a nota fiscal é emitida, ainda que o prédio não esteja pronto"
+        },
+        {
+          "id": "b",
+          "text": "a matrícula é aberta, mesmo sem controle do recurso"
+        },
+        {
+          "id": "c",
+          "text": "o primeiro pagamento é realizado"
+        },
+        {
+          "id": "d",
+          "text": "a vida útil termina"
+        },
+        {
+          "id": "e",
+          "text": "o ativo está disponível para uso"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Disponibilidade para uso é marco contábil, não mero desembolso. Fonte: questão inspirada em cobrança de contabilidade pública."
+    },
+    {
+      "id": "q1134",
+      "revision": 1,
+      "prompt": "A troca de um elevador relevante, controlado como componente separado, pode exigir",
+      "options": [
+        {
+          "id": "a",
+          "text": "baixa do componente antigo e reconhecimento do novo, além de atualização técnica"
+        },
+        {
+          "id": "b",
+          "text": "manter os dois componentes para preservar o histórico contábil"
+        },
+        {
+          "id": "c",
+          "text": "registrar apenas a despesa, sempre"
+        },
+        {
+          "id": "d",
+          "text": "baixar o terreno"
+        },
+        {
+          "id": "e",
+          "text": "reavaliar todo o patrimônio pelo preço do elevador"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A substituição de componente relevante deve evitar ativo inexistente na base. Fonte: questão autoral de componentização."
+    },
+    {
+      "id": "q1135",
+      "revision": 1,
+      "prompt": "Uma intervenção que apenas restaura a capacidade originalmente esperada tende a",
+      "options": [
+        {
+          "id": "a",
+          "text": "ser capitalizada obrigatoriamente por ocorrer em imóvel"
+        },
+        {
+          "id": "b",
+          "text": "ser reconhecida como despesa de manutenção, conforme a análise aplicável"
+        },
+        {
+          "id": "c",
+          "text": "aumentar automaticamente a vida útil"
+        },
+        {
+          "id": "d",
+          "text": "ser classificada como terreno"
+        },
+        {
+          "id": "e",
+          "text": "eliminar a depreciação acumulada"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O efeito econômico da intervenção, e não seu nome, orienta o tratamento. Fonte: questão inspirada em itens sobre gasto posterior."
+    },
+    {
+      "id": "q1136",
+      "revision": 1,
+      "prompt": "Uma obra que amplia significativamente a capacidade do prédio",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre despesa porque obra pública é custeio"
+        },
+        {
+          "id": "b",
+          "text": "deve ser ignorada até nova matrícula"
+        },
+        {
+          "id": "c",
+          "text": "pode ser capitalizada se atender aos critérios de reconhecimento e mensuração"
+        },
+        {
+          "id": "d",
+          "text": "transforma o imóvel em propriedade para investimento"
+        },
+        {
+          "id": "e",
+          "text": "elimina a necessidade de baixa de componentes substituídos"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Melhoria pode aumentar potencial de serviços, mas exige análise documentada. Fonte: questão autoral de mensuração posterior."
+    },
+    {
+      "id": "q1137",
+      "revision": 1,
+      "prompt": "A classificação orçamentária de uma reforma como despesa de capital",
+      "options": [
+        {
+          "id": "a",
+          "text": "obriga a capitalização integral"
+        },
+        {
+          "id": "b",
+          "text": "proíbe a baixa de componentes"
+        },
+        {
+          "id": "c",
+          "text": "substitui a NBC TSP 37"
+        },
+        {
+          "id": "d",
+          "text": "não resolve, sozinha, o reconhecimento patrimonial de cada parcela"
+        },
+        {
+          "id": "e",
+          "text": "determina o valor justo"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Orçamento e contabilidade patrimonial dialogam, mas não são decisões idênticas. Fonte: questão inspirada em cobrança de contabilidade aplicada ao setor público."
+    },
+    {
+      "id": "q1138",
+      "revision": 1,
+      "prompt": "Valor justo, valor de mercado e valor venal",
+      "options": [
+        {
+          "id": "a",
+          "text": "são sempre iguais quando o imóvel é público"
+        },
+        {
+          "id": "b",
+          "text": "equivalem ao custo histórico corrigido"
+        },
+        {
+          "id": "c",
+          "text": "substituem a avaliação técnica"
+        },
+        {
+          "id": "d",
+          "text": "são definidos pelo cadastro sem método"
+        },
+        {
+          "id": "e",
+          "text": "não são sinônimos automáticos; dependem de definições, finalidade e base de mensuração"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A base deve ser identificada e justificada. Fonte: questão autoral de mensuração."
+    },
+    {
+      "id": "q1139",
+      "revision": 1,
+      "prompt": "Um imóvel recebido por valor simbólico",
+      "options": [
+        {
+          "id": "a",
+          "text": "pode exigir mensuração por base adequada prevista na norma, em vez de registrar somente o valor pago"
+        },
+        {
+          "id": "b",
+          "text": "deve ser registrado sempre por zero"
+        },
+        {
+          "id": "c",
+          "text": "não pode ser reconhecido"
+        },
+        {
+          "id": "d",
+          "text": "é automaticamente propriedade para investimento"
+        },
+        {
+          "id": "e",
+          "text": "deve ser depreciado como terreno"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Transação sem contraprestação ou simbólica demanda análise da base de mensuração. Fonte: questão inspirada em questão da FGV sobre imóvel adquirido por valor simbólico."
+    },
+    {
+      "id": "q1140",
+      "revision": 1,
+      "prompt": "A reavaliação de um imóvel público",
+      "options": [
+        {
+          "id": "a",
+          "text": "é atualização livre pelo gestor"
+        },
+        {
+          "id": "b",
+          "text": "depende de política, base técnica, consistência por classe e frequência suficiente"
+        },
+        {
+          "id": "c",
+          "text": "deve ocorrer sempre pelo maior anúncio imobiliário"
+        },
+        {
+          "id": "d",
+          "text": "elimina perdas por redução ao valor recuperável"
+        },
+        {
+          "id": "e",
+          "text": "substitui a depreciação"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Reavaliação não é simples majoração discricionária. Fonte: questão inspirada em cobranças de NBC TSP."
+    },
+    {
+      "id": "q1141",
+      "revision": 1,
+      "prompt": "Desocupação prolongada e perda de utilidade",
+      "options": [
+        {
+          "id": "a",
+          "text": "impedem qualquer teste contábil"
+        },
+        {
+          "id": "b",
+          "text": "produzem desafetação automática"
+        },
+        {
+          "id": "c",
+          "text": "podem indicar redução do potencial de serviços e necessidade de avaliar perda por redução ao valor recuperável"
+        },
+        {
+          "id": "d",
+          "text": "obrigam valor contábil zero sem laudo"
+        },
+        {
+          "id": "e",
+          "text": "transformam o imóvel em estoque"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Indicadores de impairment exigem avaliação, não baixa automática. Fonte: questão autoral de mensuração posterior."
+    },
+    {
+      "id": "q1142",
+      "revision": 1,
+      "prompt": "Uma benfeitoria realizada em imóvel de terceiro",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre propriedade do órgão por ter sido paga com recurso público"
+        },
+        {
+          "id": "b",
+          "text": "nunca pode ser reconhecida"
+        },
+        {
+          "id": "c",
+          "text": "é automaticamente terreno"
+        },
+        {
+          "id": "d",
+          "text": "deve ser analisada quanto a controle, potencial de serviços, prazo de uso e substância do arranjo"
+        },
+        {
+          "id": "e",
+          "text": "dispensa depreciação"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Propriedade jurídica e reconhecimento do recurso não são perguntas idênticas. Fonte: questão autoral de casos integrados."
+    },
+    {
+      "id": "q1143",
+      "revision": 1,
+      "prompt": "O cadastro de imóvel locado de terceiro",
+      "options": [
+        {
+          "id": "a",
+          "text": "obriga a entidade a depreciar o terreno do locador"
+        },
+        {
+          "id": "b",
+          "text": "substitui o contrato de locação"
+        },
+        {
+          "id": "c",
+          "text": "prova controle perpétuo do recurso"
+        },
+        {
+          "id": "d",
+          "text": "determina classificação como bem dominical"
+        },
+        {
+          "id": "e",
+          "text": "não produz reconhecimento automático como propriedade própria"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Cadastro gerencial não define a classe contábil. Fonte: questão inspirada em FAQ do SPIUnet."
+    },
+    {
+      "id": "q1144",
+      "revision": 1,
+      "prompt": "A NBC TSP 35 foi publicada no DOU em 2026 para disciplinar",
+      "options": [
+        {
+          "id": "a",
+          "text": "arrendamentos no setor público"
+        },
+        {
+          "id": "b",
+          "text": "registro imobiliário"
+        },
+        {
+          "id": "c",
+          "text": "bens de uso comum"
+        },
+        {
+          "id": "d",
+          "text": "inventário físico"
+        },
+        {
+          "id": "e",
+          "text": "licitações sustentáveis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A norma abrange reconhecimento, mensuração, apresentação e divulgação de arrendamentos. Fonte: questão autoral atualizada com base no CFC."
+    },
+    {
+      "id": "q1145",
+      "revision": 1,
+      "prompt": "A Portaria Conjunta STN/SPU nº 10/2023",
+      "options": [
+        {
+          "id": "a",
+          "text": "revoga todas as NBC TSP"
+        },
+        {
+          "id": "b",
+          "text": "contém regras federais específicas e não deve ser generalizada automaticamente a qualquer ente"
+        },
+        {
+          "id": "c",
+          "text": "é norma do TCE-MA"
+        },
+        {
+          "id": "d",
+          "text": "substitui a matrícula"
+        },
+        {
+          "id": "e",
+          "text": "aplica seus percentuais a todo imóvel público brasileiro"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Âmbito federal específico deve ser preservado. Fonte: questão autoral de alcance normativo."
+    },
+    {
+      "id": "q1146",
+      "revision": 1,
+      "prompt": "Antes de alugar novo prédio, a Administração deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "comparar apenas o aluguel mensal"
+        },
+        {
+          "id": "b",
+          "text": "ignorar imóveis subutilizados"
+        },
+        {
+          "id": "c",
+          "text": "examinar carteira própria, adequação, localização, acessibilidade, custo total e continuidade"
+        },
+        {
+          "id": "d",
+          "text": "adotar o imóvel mais barato sem vistoria"
+        },
+        {
+          "id": "e",
+          "text": "considerar manutenção apenas após a assinatura"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A decisão imobiliária deve observar o ciclo de vida e alternativas existentes. Fonte: questão autoral de gestão de carteira."
+    },
+    {
+      "id": "q1147",
+      "revision": 1,
+      "prompt": "O custo total de ocupação inclui",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas o preço inicial"
+        },
+        {
+          "id": "b",
+          "text": "somente tributos cartoriais"
+        },
+        {
+          "id": "c",
+          "text": "apenas a depreciação"
+        },
+        {
+          "id": "d",
+          "text": "aluguel ou aquisição, adequações, energia, água, manutenção, segurança, limpeza e desmobilização, entre outros"
+        },
+        {
+          "id": "e",
+          "text": "somente despesas com pessoal da unidade"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Comparar imóveis apenas pelo preço inicial pode distorcer a economicidade. Fonte: questão autoral de custo do ciclo de vida."
+    },
+    {
+      "id": "q1148",
+      "revision": 1,
+      "prompt": "Uma taxa elevada de vacância",
+      "options": [
+        {
+          "id": "a",
+          "text": "prova sempre desperdício"
+        },
+        {
+          "id": "b",
+          "text": "autoriza alienação automática"
+        },
+        {
+          "id": "c",
+          "text": "elimina manutenção"
+        },
+        {
+          "id": "d",
+          "text": "define o valor justo"
+        },
+        {
+          "id": "e",
+          "text": "sinaliza oportunidade ou risco, mas exige análise de adequação, localização e estratégia"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Indicadores não explicam a causa sozinhos. Fonte: questão autoral de indicadores."
+    },
+    {
+      "id": "q1149",
+      "revision": 1,
+      "prompt": "Área por usuário muito baixa pode indicar",
+      "options": [
+        {
+          "id": "a",
+          "text": "adensamento excessivo e possível perda de qualidade, não necessariamente eficiência"
+        },
+        {
+          "id": "b",
+          "text": "sempre melhor aproveitamento"
+        },
+        {
+          "id": "c",
+          "text": "redução automática de custo total"
+        },
+        {
+          "id": "d",
+          "text": "cumprimento de acessibilidade"
+        },
+        {
+          "id": "e",
+          "text": "ausência de risco de incêndio"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Eficiência espacial deve ser combinada com segurança, acessibilidade e serviço. Fonte: questão autoral de interpretação de indicador."
+    },
+    {
+      "id": "q1150",
+      "revision": 1,
+      "prompt": "Imóvel desocupado deve acionar",
+      "options": [
+        {
+          "id": "a",
+          "text": "suspensão de toda manutenção"
+        },
+        {
+          "id": "b",
+          "text": "proteção, inspeção, atualização cadastral e decisão tempestiva de destinação"
+        },
+        {
+          "id": "c",
+          "text": "desafetação automática"
+        },
+        {
+          "id": "d",
+          "text": "baixa contábil imediata"
+        },
+        {
+          "id": "e",
+          "text": "cancelamento da matrícula"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Vacância aumenta risco de invasão, vandalismo e deterioração. Fonte: questão inspirada em riscos destacados pelo TCU."
+    },
+    {
+      "id": "q1151",
+      "revision": 1,
+      "prompt": "O gasto com locação enquanto há imóvel próprio vazio",
+      "options": [
+        {
+          "id": "a",
+          "text": "prova definitiva de irregularidade"
+        },
+        {
+          "id": "b",
+          "text": "é sempre eficiente"
+        },
+        {
+          "id": "c",
+          "text": "é indício que exige comparação da aptidão e do custo de adaptação do bem próprio"
+        },
+        {
+          "id": "d",
+          "text": "não pode ser auditado"
+        },
+        {
+          "id": "e",
+          "text": "dispensa análise de localização"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A auditoria deve construir o contrafactual realista. Fonte: questão autoral de auditoria operacional."
+    },
+    {
+      "id": "q1152",
+      "revision": 1,
+      "prompt": "Um prédio de hospital antigo custa mais por metro quadrado que um depósito novo. Isso",
+      "options": [
+        {
+          "id": "a",
+          "text": "prova desperdício no hospital"
+        },
+        {
+          "id": "b",
+          "text": "autoriza reduzir manutenção crítica"
+        },
+        {
+          "id": "c",
+          "text": "demonstra erro cadastral"
+        },
+        {
+          "id": "d",
+          "text": "não prova ineficiência sem comparar criticidade, idade, padrão e nível de serviço"
+        },
+        {
+          "id": "e",
+          "text": "obriga alienação"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Comparação requer unidades equivalentes e contexto. Fonte: questão autoral de indicadores."
+    },
+    {
+      "id": "q1153",
+      "revision": 1,
+      "prompt": "O compartilhamento de imóvel entre órgãos pode",
+      "options": [
+        {
+          "id": "a",
+          "text": "dispensar cadastro de utilizações"
+        },
+        {
+          "id": "b",
+          "text": "eliminar todos os contratos"
+        },
+        {
+          "id": "c",
+          "text": "transferir domínio aos ocupantes"
+        },
+        {
+          "id": "d",
+          "text": "substituir o inventário"
+        },
+        {
+          "id": "e",
+          "text": "reduzir ociosidade, mas exige governança de uso, custos, manutenção e responsabilidades"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Eficiência espacial depende de regras claras e informação. Fonte: questão autoral de gestão compartilhada."
+    },
+    {
+      "id": "q1154",
+      "revision": 1,
+      "prompt": "A decisão de desmobilizar imóvel deve considerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "custos de saída, obrigações, recuperação, transferência de dados e destinação dos componentes"
+        },
+        {
+          "id": "b",
+          "text": "somente o valor de venda"
+        },
+        {
+          "id": "c",
+          "text": "apenas a opinião da unidade usuária"
+        },
+        {
+          "id": "d",
+          "text": "a eliminação de registros históricos"
+        },
+        {
+          "id": "e",
+          "text": "a baixa antes da entrega física"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O fim do uso é etapa do ciclo de vida e precisa de controles. Fonte: questão autoral de gestão do ciclo."
+    },
+    {
+      "id": "q1155",
+      "revision": 1,
+      "prompt": "O indicador custo de manutenção por área deve ser",
+      "options": [
+        {
+          "id": "a",
+          "text": "usado isoladamente para punir gestores"
+        },
+        {
+          "id": "b",
+          "text": "interpretado com contexto e, quando possível, segmentado por tipo de uso e criticidade"
+        },
+        {
+          "id": "c",
+          "text": "comparado sem correção de escopo"
+        },
+        {
+          "id": "d",
+          "text": "substituído por valor venal"
+        },
+        {
+          "id": "e",
+          "text": "ignorado em qualquer análise"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Indicador agregado pode esconder diferenças estruturais. Fonte: questão autoral de desempenho patrimonial."
+    },
+    {
+      "id": "q1156",
+      "revision": 1,
+      "prompt": "Manutenção preventiva é",
+      "options": [
+        {
+          "id": "a",
+          "text": "correção imediata após colapso"
+        },
+        {
+          "id": "b",
+          "text": "teste para descobrir falha oculta exclusivamente"
+        },
+        {
+          "id": "c",
+          "text": "intervenção programada antes da falha, conforme tempo, uso, condição ou recomendação"
+        },
+        {
+          "id": "d",
+          "text": "reforma que sempre aumenta valor"
+        },
+        {
+          "id": "e",
+          "text": "intervenção feita somente quando o usuário reclama"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A preventiva procura reduzir probabilidade e consequência da falha. Fonte: questão inspirada em cobrança do Cebraspe sobre manutenção predial preventiva."
+    },
+    {
+      "id": "q1157",
+      "revision": 1,
+      "prompt": "Manutenção preditiva baseia-se principalmente em",
+      "options": [
+        {
+          "id": "a",
+          "text": "calendário fixo sem dados"
+        },
+        {
+          "id": "b",
+          "text": "falha total do equipamento"
+        },
+        {
+          "id": "c",
+          "text": "ordem judicial"
+        },
+        {
+          "id": "d",
+          "text": "medições, inspeções e tendências da condição do componente"
+        },
+        {
+          "id": "e",
+          "text": "valor venal do imóvel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A decisão é apoiada no estado observado ou estimado. Fonte: questão autoral de estratégias de manutenção."
+    },
+    {
+      "id": "q1158",
+      "revision": 1,
+      "prompt": "Manutenção detectiva tem como objetivo",
+      "options": [
+        {
+          "id": "a",
+          "text": "embelezar fachadas"
+        },
+        {
+          "id": "b",
+          "text": "aumentar a área construída"
+        },
+        {
+          "id": "c",
+          "text": "substituir toda preventiva"
+        },
+        {
+          "id": "d",
+          "text": "desafetar o imóvel"
+        },
+        {
+          "id": "e",
+          "text": "descobrir falhas ocultas em sistemas de proteção ou reserva"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Testes de alarme, redundância e dispositivos de segurança são exemplos. Fonte: questão autoral de estratégias de manutenção."
+    },
+    {
+      "id": "q1159",
+      "revision": 1,
+      "prompt": "Uma falha barata em sistema de incêndio pode receber prioridade maior que dano estético caro porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "criticidade combina probabilidade e consequência, não apenas custo de reparo"
+        },
+        {
+          "id": "b",
+          "text": "o custo nunca importa"
+        },
+        {
+          "id": "c",
+          "text": "defeitos estéticos não podem ser reparados"
+        },
+        {
+          "id": "d",
+          "text": "sistema de incêndio não exige inspeção"
+        },
+        {
+          "id": "e",
+          "text": "a estética é sempre irrelevante"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Risco à vida e à continuidade pode dominar a priorização. Fonte: questão autoral de criticidade."
+    },
+    {
+      "id": "q1160",
+      "revision": 1,
+      "prompt": "A ordem de serviço deve ser encerrada",
+      "options": [
+        {
+          "id": "a",
+          "text": "quando a equipe é mobilizada"
+        },
+        {
+          "id": "b",
+          "text": "após execução, teste, aceite e registro das evidências aplicáveis"
+        },
+        {
+          "id": "c",
+          "text": "assim que o material é comprado"
+        },
+        {
+          "id": "d",
+          "text": "antes do diagnóstico para reduzir backlog"
+        },
+        {
+          "id": "e",
+          "text": "sem validar a solução, se o prazo venceu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Encerramento sem teste mascara reincidência. Fonte: questão autoral de controle de manutenção."
+    },
+    {
+      "id": "q1161",
+      "revision": 1,
+      "prompt": "Backlog elevado de itens críticos indica",
+      "options": [
+        {
+          "id": "a",
+          "text": "eficiência por reduzir gastos"
+        },
+        {
+          "id": "b",
+          "text": "ausência de falhas"
+        },
+        {
+          "id": "c",
+          "text": "risco acumulado e possível insuficiência de capacidade ou priorização"
+        },
+        {
+          "id": "d",
+          "text": "melhoria automática da disponibilidade"
+        },
+        {
+          "id": "e",
+          "text": "desnecessidade de orçamento"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O backlog deve ser analisado por criticidade e idade. Fonte: questão autoral de indicador de manutenção."
+    },
+    {
+      "id": "q1162",
+      "revision": 1,
+      "prompt": "Laudo que identifica risco estrutural, sem plano, responsável ou prazo,",
+      "options": [
+        {
+          "id": "a",
+          "text": "elimina a responsabilidade do gestor"
+        },
+        {
+          "id": "b",
+          "text": "substitui a intervenção"
+        },
+        {
+          "id": "c",
+          "text": "permite manter o uso sem análise"
+        },
+        {
+          "id": "d",
+          "text": "não controla o risco por si só"
+        },
+        {
+          "id": "e",
+          "text": "equivale ao aceite da obra"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Achado técnico precisa gerar decisão e acompanhamento. Fonte: questão inspirada em auditorias de manutenção."
+    },
+    {
+      "id": "q1163",
+      "revision": 1,
+      "prompt": "PMOC, quando exigível, integra",
+      "options": [
+        {
+          "id": "a",
+          "text": "a matrícula cartorial"
+        },
+        {
+          "id": "b",
+          "text": "o RIP do imóvel"
+        },
+        {
+          "id": "c",
+          "text": "a classificação dominical"
+        },
+        {
+          "id": "d",
+          "text": "o registro de usucapião"
+        },
+        {
+          "id": "e",
+          "text": "a matriz de conformidade de climatização e manutenção"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Conformidade técnica deve ser controlada por validade, responsável e evidência. Fonte: questão autoral de conformidade predial."
+    },
+    {
+      "id": "q1164",
+      "revision": 1,
+      "prompt": "Documento de segurança contra incêndio vencido e equipamento inoperante",
+      "options": [
+        {
+          "id": "a",
+          "text": "são ocorrências distintas que podem coexistir e demandar providências próprias"
+        },
+        {
+          "id": "b",
+          "text": "são o mesmo fato cadastral"
+        },
+        {
+          "id": "c",
+          "text": "são sanadas por uma fotografia"
+        },
+        {
+          "id": "d",
+          "text": "dispensam inspeção física"
+        },
+        {
+          "id": "e",
+          "text": "produzem desafetação"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Conformidade documental e condição operacional devem ser verificadas separadamente. Fonte: questão autoral de matriz de conformidade."
+    },
+    {
+      "id": "q1165",
+      "revision": 1,
+      "prompt": "A manutenção emergencial deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "dispensar registro por ser urgente"
+        },
+        {
+          "id": "b",
+          "text": "proteger vida, patrimônio ou continuidade e ser seguida de documentação e tratamento definitivo"
+        },
+        {
+          "id": "c",
+          "text": "substituir permanentemente o plano preventivo"
+        },
+        {
+          "id": "d",
+          "text": "ser priorizada pelo menor custo"
+        },
+        {
+          "id": "e",
+          "text": "ser executada sem avaliação de risco"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Urgência não elimina rastreabilidade nem correção da causa. Fonte: questão autoral de resposta a emergência."
+    },
+    {
+      "id": "q1166",
+      "revision": 1,
+      "prompt": "A reincidência da mesma falha pode indicar",
+      "options": [
+        {
+          "id": "a",
+          "text": "sucesso do plano preventivo"
+        },
+        {
+          "id": "b",
+          "text": "necessidade de encerrar ordens mais rapidamente"
+        },
+        {
+          "id": "c",
+          "text": "diagnóstico inadequado, reparo de baixa qualidade ou causa raiz não tratada"
+        },
+        {
+          "id": "d",
+          "text": "aumento automático do valor do ativo"
+        },
+        {
+          "id": "e",
+          "text": "ausência de risco"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Reincidência é indicador de qualidade e aprendizagem. Fonte: questão autoral de análise de desempenho."
+    },
+    {
+      "id": "q1167",
+      "revision": 1,
+      "prompt": "A periodicidade de manutenção deve considerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "a mesma frequência para todos os ativos"
+        },
+        {
+          "id": "b",
+          "text": "apenas o valor de aquisição"
+        },
+        {
+          "id": "c",
+          "text": "somente a conveniência do fornecedor"
+        },
+        {
+          "id": "d",
+          "text": "fabricante, norma, ambiente, idade, condição, criticidade e histórico"
+        },
+        {
+          "id": "e",
+          "text": "a data da matrícula"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Periodicidade uniforme pode gerar excesso ou insuficiência de manutenção. Fonte: questão autoral de planejamento."
+    },
+    {
+      "id": "q1168",
+      "revision": 1,
+      "prompt": "A substituição de componente durante manutenção deve gerar, quando aplicável,",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente pagamento da nota fiscal"
+        },
+        {
+          "id": "b",
+          "text": "cancelamento do imóvel"
+        },
+        {
+          "id": "c",
+          "text": "nova matrícula cartorial"
+        },
+        {
+          "id": "d",
+          "text": "mudança automática de afetação"
+        },
+        {
+          "id": "e",
+          "text": "controle da peça retirada, teste, garantia, atualização do inventário e análise contábil"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A intervenção produz efeitos técnicos, contratuais e patrimoniais. Fonte: questão autoral de integração manutenção-contabilidade."
+    },
+    {
+      "id": "q1169",
+      "revision": 1,
+      "prompt": "Uma contratação baseada apenas em disponibilidade de equipe",
+      "options": [
+        {
+          "id": "a",
+          "text": "não comprova que tarefas, qualidade e resultados de manutenção foram entregues"
+        },
+        {
+          "id": "b",
+          "text": "é suficiente para aceite integral"
+        },
+        {
+          "id": "c",
+          "text": "substitui ordens de serviço"
+        },
+        {
+          "id": "d",
+          "text": "dispensa indicadores"
+        },
+        {
+          "id": "e",
+          "text": "transfere a responsabilidade ao preposto"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Fiscalização deve relacionar recursos, execução, teste e resultado. Fonte: questão autoral de fiscalização de manutenção."
+    },
+    {
+      "id": "q1170",
+      "revision": 1,
+      "prompt": "Manutenção exclusivamente corretiva e emergencial tende a",
+      "options": [
+        {
+          "id": "a",
+          "text": "eliminar backlog"
+        },
+        {
+          "id": "b",
+          "text": "aumentar imprevisibilidade, interrupções e custo de falhas"
+        },
+        {
+          "id": "c",
+          "text": "substituir inspeções"
+        },
+        {
+          "id": "d",
+          "text": "garantir melhor ciclo de vida"
+        },
+        {
+          "id": "e",
+          "text": "dispensar estoque de peças"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Uma carteira madura equilibra estratégias segundo risco. Fonte: questão autoral de gestão de manutenção."
+    },
+    {
+      "id": "q1171",
+      "revision": 1,
+      "prompt": "Um plano de manutenção sem inventário técnico",
+      "options": [
+        {
+          "id": "a",
+          "text": "é completo se houver contrato"
+        },
+        {
+          "id": "b",
+          "text": "dispensa identificação de componentes"
+        },
+        {
+          "id": "c",
+          "text": "tem dificuldade para definir escopo, periodicidade, criticidade e orçamento"
+        },
+        {
+          "id": "d",
+          "text": "pode usar apenas a área do terreno"
+        },
+        {
+          "id": "e",
+          "text": "substitui inspeções por chamados"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O inventário técnico é base do plano. Fonte: questão autoral de planejamento predial."
+    },
+    {
+      "id": "q1172",
+      "revision": 1,
+      "prompt": "Mesmo com manutenção terceirizada, cabe à Administração",
+      "options": [
+        {
+          "id": "a",
+          "text": "transferir toda responsabilidade à contratada"
+        },
+        {
+          "id": "b",
+          "text": "pagar sem evidência se houver equipe disponível"
+        },
+        {
+          "id": "c",
+          "text": "dispensar responsável técnico"
+        },
+        {
+          "id": "d",
+          "text": "planejar, fiscalizar, medir, testar e aceitar os serviços"
+        },
+        {
+          "id": "e",
+          "text": "deixar de atualizar o histórico"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Terceirização transfere execução, não a responsabilidade institucional. Fonte: questão inspirada em cobranças de fiscalização contratual."
+    },
+    {
+      "id": "q1173",
+      "revision": 1,
+      "prompt": "Um serviço extraordinário de manutenção deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "ser executado e faturado sem análise"
+        },
+        {
+          "id": "b",
+          "text": "substituir a medição ordinária"
+        },
+        {
+          "id": "c",
+          "text": "ser pago pelo valor estimado do imóvel"
+        },
+        {
+          "id": "d",
+          "text": "dispensar justificativa em qualquer emergência"
+        },
+        {
+          "id": "e",
+          "text": "ser autorizado e documentado conforme o contrato e a competência"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A urgência pode alterar o rito, mas não elimina competência e evidência. Fonte: questão autoral de gestão contratual."
+    },
+    {
+      "id": "q1174",
+      "revision": 1,
+      "prompt": "O aceite de manutenção deve basear-se em",
+      "options": [
+        {
+          "id": "a",
+          "text": "verificação da execução, testes, qualidade e evidências"
+        },
+        {
+          "id": "b",
+          "text": "presença da equipe no prédio"
+        },
+        {
+          "id": "c",
+          "text": "emissão da nota fiscal"
+        },
+        {
+          "id": "d",
+          "text": "opinião informal do usuário"
+        },
+        {
+          "id": "e",
+          "text": "quantidade de horas sem análise do resultado"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Aceite certifica entrega conforme critérios definidos. Fonte: questão autoral de fiscalização."
+    },
+    {
+      "id": "q1175",
+      "revision": 1,
+      "prompt": "Peças retiradas em contrato de manutenção",
+      "options": [
+        {
+          "id": "a",
+          "text": "pertencem sempre à contratada"
+        },
+        {
+          "id": "b",
+          "text": "devem ter destinação e controle definidos, especialmente quando possuem valor ou relevância patrimonial"
+        },
+        {
+          "id": "c",
+          "text": "podem ser descartadas sem registro"
+        },
+        {
+          "id": "d",
+          "text": "substituem o inventário do imóvel"
+        },
+        {
+          "id": "e",
+          "text": "não afetam garantia ou contabilidade"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O controle evita perda, fraude e registro duplicado de componentes. Fonte: questão autoral de controle de materiais em manutenção."
+    },
+    {
+      "id": "q1176",
+      "revision": 1,
+      "prompt": "Nível de serviço em contrato predial deve ser",
+      "options": [
+        {
+          "id": "a",
+          "text": "descrição genérica de boa execução"
+        },
+        {
+          "id": "b",
+          "text": "somente quantidade de trabalhadores"
+        },
+        {
+          "id": "c",
+          "text": "mensurável e relacionado a prazo, disponibilidade, qualidade e criticidade"
+        },
+        {
+          "id": "d",
+          "text": "valor do imóvel dividido pelo prazo"
+        },
+        {
+          "id": "e",
+          "text": "substituído por relatório sem evidência"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Indicador contratual precisa permitir medição e consequência. Fonte: questão autoral de SLA patrimonial."
+    },
+    {
+      "id": "q1177",
+      "revision": 1,
+      "prompt": "Reincidência elevada da mesma falha, apesar de ordens encerradas, deve levar o fiscal a",
+      "options": [
+        {
+          "id": "a",
+          "text": "aumentar a velocidade de encerramento"
+        },
+        {
+          "id": "b",
+          "text": "ignorar por já ter havido pagamento"
+        },
+        {
+          "id": "c",
+          "text": "desativar o cadastro"
+        },
+        {
+          "id": "d",
+          "text": "examinar diagnóstico, qualidade, causa raiz e critérios de aceite"
+        },
+        {
+          "id": "e",
+          "text": "alterar a matrícula"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O histórico contratual deve apoiar correção e responsabilização. Fonte: questão autoral de fiscalização orientada a resultado."
+    },
+    {
+      "id": "q1178",
+      "revision": 1,
+      "prompt": "Em um achado, '40% dos sistemas críticos não foram inspecionados' corresponde à",
+      "options": [
+        {
+          "id": "a",
+          "text": "causa"
+        },
+        {
+          "id": "b",
+          "text": "critério"
+        },
+        {
+          "id": "c",
+          "text": "recomendação"
+        },
+        {
+          "id": "d",
+          "text": "responsável"
+        },
+        {
+          "id": "e",
+          "text": "condição"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Condição descreve o estado encontrado. Fonte: questão autoral baseada no método de auditoria operacional."
+    },
+    {
+      "id": "q1179",
+      "revision": 1,
+      "prompt": "No mesmo achado, 'inventário técnico incompleto impediu o planejamento' corresponde à",
+      "options": [
+        {
+          "id": "a",
+          "text": "causa"
+        },
+        {
+          "id": "b",
+          "text": "condição"
+        },
+        {
+          "id": "c",
+          "text": "critério"
+        },
+        {
+          "id": "d",
+          "text": "evidência"
+        },
+        {
+          "id": "e",
+          "text": "benefício financeiro"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A causa explica por que a condição divergiu do critério. Fonte: questão autoral baseada na estrutura de achados."
+    },
+    {
+      "id": "q1180",
+      "revision": 1,
+      "prompt": "Contrato exige inspeção semestral. Essa exigência é, na estrutura do achado, o",
+      "options": [
+        {
+          "id": "a",
+          "text": "efeito"
+        },
+        {
+          "id": "b",
+          "text": "critério"
+        },
+        {
+          "id": "c",
+          "text": "condição"
+        },
+        {
+          "id": "d",
+          "text": "causa"
+        },
+        {
+          "id": "e",
+          "text": "encaminhamento"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Critério define o estado esperado. Fonte: questão autoral de auditoria."
+    },
+    {
+      "id": "q1181",
+      "revision": 1,
+      "prompt": "O risco de incêndio e interrupção do serviço decorrente da falta de inspeção corresponde ao",
+      "options": [
+        {
+          "id": "a",
+          "text": "critério"
+        },
+        {
+          "id": "b",
+          "text": "causa"
+        },
+        {
+          "id": "c",
+          "text": "efeito ou risco"
+        },
+        {
+          "id": "d",
+          "text": "objeto auditado"
+        },
+        {
+          "id": "e",
+          "text": "título dominial"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Efeito descreve consequência real ou potencial. Fonte: questão autoral de auditoria."
+    },
+    {
+      "id": "q1182",
+      "revision": 1,
+      "prompt": "Uma recomendação de auditoria adequada deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "repetir a condição sem ação"
+        },
+        {
+          "id": "b",
+          "text": "determinar sempre a alienação"
+        },
+        {
+          "id": "c",
+          "text": "substituir o gestor pelo auditor"
+        },
+        {
+          "id": "d",
+          "text": "atacar a causa, ser proporcional ao risco e permitir monitoramento"
+        },
+        {
+          "id": "e",
+          "text": "ignorar custo e viabilidade"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Encaminhamento efetivo relaciona causa, responsabilidade e prazo. Fonte: questão autoral de controle externo."
+    },
+    {
+      "id": "q1183",
+      "revision": 1,
+      "prompt": "O TCU classifica a gestão do patrimônio imobiliário da União como área de alto risco por problemas como",
+      "options": [
+        {
+          "id": "a",
+          "text": "excesso de matrículas atualizadas"
+        },
+        {
+          "id": "b",
+          "text": "ausência total de imóveis federais"
+        },
+        {
+          "id": "c",
+          "text": "baixo custo de manutenção em todos os prédios"
+        },
+        {
+          "id": "d",
+          "text": "proibição constitucional de inventário"
+        },
+        {
+          "id": "e",
+          "text": "vacância, abandono, dados pouco confiáveis, sistemas inadequados e fragilidade de governança"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os achados federais ilustram riscos relevantes, sem provar sua ocorrência em todo ente. Fonte: questão inspirada na Lista de Alto Risco do TCU."
     }
   ]
 }
