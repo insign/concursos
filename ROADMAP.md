@@ -232,7 +232,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 047 - Item 3: Controle parlamentar.
 
-##### [R] Em revisão Assunto 048 - Item 4: Controle pelos tribunais de contas.
+##### [x] Concluído Assunto 048 - Item 4: Controle pelos tribunais de contas.
 
 ##### [ ] Assunto 049 - Item 5: Controle administrativo.
 
