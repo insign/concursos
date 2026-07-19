@@ -230,7 +230,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - Item 1. Conceito, tipos e formas de controle.
 - Item 2. Controle interno e externo.
 
-##### [R] Em revisão Assunto 047 - Item 3: Controle parlamentar.
+##### [x] Concluído Assunto 047 - Item 3: Controle parlamentar.
 
 ##### [ ] Assunto 048 - Item 4: Controle pelos tribunais de contas.
 
