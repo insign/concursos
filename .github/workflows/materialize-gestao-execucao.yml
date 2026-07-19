@@ -1,4 +1,4 @@
-name: Materialize gestão aplicada da execução contratual review
+name: Inspect gestão aplicada da execução contratual package
 
 on:
   pull_request:
@@ -9,14 +9,14 @@ permissions:
   contents: write
 
 concurrency:
-  group: materialize-gestao-execucao-${{ github.event.pull_request.number }}
+  group: inspect-gestao-execucao-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
-  materialize:
-    name: Materialize gestão aplicada da execução contratual review
+  inspect:
+    name: Inspect gestão aplicada package
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 5
 
     steps:
       - name: Check out pull request branch
@@ -24,50 +24,49 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Materialize reviewed subject files
+      - name: Inspect and persist package diagnostics
         shell: bash
         run: |
-          set +e
-          python3 .github/patch-gestao-execucao.py > /tmp/gestao-execucao-patch.log 2>&1
-          status=$?
-          set -e
-          cat /tmp/gestao-execucao-patch.log
+          python3 - <<'PY' > .github/gestao-execucao-inspect.txt 2>&1
+          import base64
+          import bz2
+          import hashlib
+          import json
+          import traceback
+          from pathlib import Path
 
-          if [ "$status" -ne 0 ]; then
-            cp /tmp/gestao-execucao-patch.log .github/gestao-execucao-diagnostic.txt
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add .github/gestao-execucao-diagnostic.txt
-            if ! git diff --cached --quiet; then
-              git commit -m 'ci: registra diagnóstico de gestão aplicada'
-              git push origin HEAD:${{ github.head_ref }}
-            fi
-            exit "$status"
-          fi
+          parts = [Path(f'.github/gestao-execucao-bundle.part{i}') for i in range(1, 6)]
+          segments = []
+          for path in parts:
+              segment = ''.join(path.read_text(encoding='utf-8').split())
+              segments.append(segment)
+              print(path, 'chars=', len(segment), 'sha256=', hashlib.sha256(segment.encode()).hexdigest())
 
-          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/gestao-contratos/gestao-aplicada-execucao-contratual'
-          if ! git diff --quiet -- "$target"; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
-            git commit -m 'content: aprofunda gestão aplicada da execução contratual'
+          payload = ''.join(segments)
+          print('payload chars=', len(payload), 'sha256=', hashlib.sha256(payload.encode()).hexdigest())
+          try:
+              compressed = base64.b64decode(payload, validate=True)
+              print('compressed bytes=', len(compressed), 'sha256=', hashlib.sha256(compressed).hexdigest())
+              raw = bz2.decompress(compressed)
+              print('raw bytes=', len(raw), 'sha256=', hashlib.sha256(raw).hexdigest())
+              bundle = json.loads(raw.decode('utf-8'))
+              print('keys=', sorted(bundle))
+              print('insertions=', sorted(bundle.get('insertions', {})))
+              print('cheat chars=', len(bundle.get('cheat', '')))
+              print('questions=', len(bundle.get('questions', [])))
+              if bundle.get('questions'):
+                  print('first id=', bundle['questions'][0].get('id'))
+                  print('last id=', bundle['questions'][-1].get('id'))
+          except Exception:
+              traceback.print_exc()
+          PY
+
+          cat .github/gestao-execucao-inspect.txt
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .github/gestao-execucao-inspect.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'ci: inspeciona pacote de gestão aplicada'
             git push origin HEAD:${{ github.head_ref }}
           fi
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22.12.0
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run unit tests
-        run: npm run test:unit
-
-      - name: Run Astro checks
-        run: npm run check
-
-      - name: Build production site
-        run: npm run build
+          exit 1
