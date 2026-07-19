@@ -15,18 +15,18 @@ ROOT = Path(
     "almoxarifado-armazenamento"
 )
 PARTS = [
-    (Path(".github/almoxarifado-bundle.part1"), 5000, "813a52d91da49183f2117a0c74c45bf9c1ef65a6ea93c49dc92a0f62b3224d7e"),
-    (Path(".github/almoxarifado-bundle.part2"), 5000, "4808d29bc683c9d72f2afdaa1fc1b7c56171efa814189e7c15e05226c51e5f50"),
-    (Path(".github/almoxarifado-bundle.part3"), 5000, "2fed29f8288a149af8e7fa0690e7fe261f3d455d713b0c11ed3abd8d063f9ec5"),
-    (Path(".github/almoxarifado-bundle.part4"), 5000, "51479ad31b92a2ae79c72f06c9e6163e48d1706e3ee55ad976bf36c2f6ecd022"),
-    (Path(".github/almoxarifado-bundle.part5"), 5000, "a8f1c2094ada4074f9e982564efe5735e8297ea94b967a82b5b90f283dd07850"),
-    (Path(".github/almoxarifado-bundle.part6"), 876, "961427a82ab0409d704bc41406d9aa33012394785d68bdeb5dcfc07f75aaff13"),
+    (Path(".github/almoxarifado-bundle.part1"), 5000, "6b19b2dbeefed0bed1d20f04b81c205f61111fc7e6e8cc2f69f7083360ba3cb4"),
+    (Path(".github/almoxarifado-bundle.part2"), 5000, "a70f45be7f25c2812e4a8aae0f9f219e628126292e900f5137bd2caa7724d809"),
+    (Path(".github/almoxarifado-bundle.part3"), 5000, "0c96de2e5e6f9c7f344ca6554b905291682e75d97c632c4f7fe5a5f20fe2fecc"),
+    (Path(".github/almoxarifado-bundle.part4"), 5000, "c3d662e035842d567cd9085b9ad52edb8e21ee61d91f52488e3506e98ca4d468"),
+    (Path(".github/almoxarifado-bundle.part5"), 5000, "8f4c12ed95bf6b28c10e12df9a8aee6d09b1cdbcd7b6c6dfbe62a28a112a2c2b"),
+    (Path(".github/almoxarifado-bundle.part6"), 4448, "a7ce14d6ebc8bf807b242501295bfec9eaeb79c30238b87da8e02c607bf25419"),
 ]
-EXPECTED_PAYLOAD_SHA = "15796c9bf5911a5875572160afcaeb7add97097a392d0aefc92d863d5c14dae9"
-EXPECTED_COMPRESSED_SHA = "7ae6daf9db12a0607353498d164fa38ab2107986fd78dd6dd9237034107bbb57"
-EXPECTED_RAW_SHA = "30e8a6a45efc694412ee62e8a68f38378998bfafa8bd21868125782247d7a742"
+EXPECTED_PAYLOAD_SHA = "76dcbd8c2d00b7e48b81250e1c54c12761514b91a638a116c3a8e75139883b79"
+EXPECTED_COMPRESSED_SHA = "3b815a7c51691192c6be0c79a6ec0ba183290a93012b5ce65b566297a9bd4696"
+EXPECTED_RAW_SHA = "f25ce0bdf69b1b6b33bc1168424f339db3a1266808c55c373dda1b3b58b8ce00"
 LETTERS = list("abcde")
-EXISTING_TARGETS = list("aebbebcdbaceebdecadabccbaccacdddcdbbedcaedaeaeadbe")
+EXISTING_TARGETS = list("ebcccecdccdcadbedabbeedaddbacaeaaeadbbbeadbcacbeed")
 
 
 def load_bundle() -> dict:
@@ -42,7 +42,7 @@ def load_bundle() -> dict:
         segments.append(segment)
 
     payload = "".join(segments)
-    if len(payload) != 25876:
+    if len(payload) != 29448:
         raise RuntimeError(f"unexpected payload length: {len(payload)}")
     if hashlib.sha256(payload.encode("utf-8")).hexdigest() != EXPECTED_PAYLOAD_SHA:
         raise RuntimeError("payload checksum mismatch")
@@ -69,25 +69,38 @@ def insert_before(text: str, marker: str, block: str) -> str:
     return text.replace(marker, block.rstrip() + "\n\n" + marker, 1)
 
 
+def insert_after(text: str, marker: str, block: str) -> str:
+    if marker not in text:
+        raise RuntimeError(f"marker not found: {marker}")
+    return text.replace(marker, marker + "\n\n" + block.rstrip(), 1)
+
+
+def replace_heading(text: str, old: str, new: str) -> str:
+    if old not in text:
+        raise RuntimeError(f"heading not found: {old}")
+    return text.replace(old, new, 1)
+
+
 def patch_content(bundle: dict) -> None:
     path = ROOT / "conteudo.md"
     text = path.read_text(encoding="utf-8")
     text = re.sub(
         r"^description: .+$",
-        "description: Almoxarifado, armazenagem, localização, conservação, slotting, espaço, segurança, sistemas, indicadores e auditoria.",
+        "description: Almoxarifado, endereçamento, slotting, armazenagem, conservação, segurança, indicadores, tecnologia e auditoria.",
         text,
         count=1,
         flags=re.MULTILINE,
     )
+    text = text.replace("15 de julho de 2026", "19 de julho de 2026", 1)
 
     if "<!-- REVISAO-ALMOXARIFADO-2026 -->" not in text:
         ins = bundle["insertions"]
         required = {
             "before_control",
             "before_conservation",
-            "before_techniques",
-            "before_layout",
+            "after_techniques",
             "before_safety",
+            "after_safety",
             "before_cases",
             "before_errors",
             "before_synthesis",
@@ -96,12 +109,27 @@ def patch_content(bundle: dict) -> None:
         if set(ins) != required:
             raise RuntimeError(f"unexpected insertion keys: {sorted(ins)}")
 
+        for old, new in (
+            ("### 4.1 Acondicionamento e acessórios", "### 4.4 Acondicionamento e acessórios"),
+            ("### 4.2 Regras de arrumação da IN nº 205/1988", "### 4.5 Regras de arrumação da IN nº 205/1988"),
+            ("### 4.3 Giro, seletividade e posição", "### 4.6 Giro, seletividade e posição"),
+            ("### 4.4 PEPS físico e FEFO", "### 4.7 PEPS físico e FEFO"),
+            ("### 4.5 Compatibilidade e segregação", "### 4.8 Compatibilidade e segregação"),
+            ("### 6.1 Gestão por risco", "### 6.3 Gestão por risco"),
+            ("### 6.2 NR 11: movimentação e armazenamento", "### 6.4 NR 11: movimentação e armazenamento"),
+            ("### 6.3 NR 17: ergonomia", "### 6.5 NR 17: ergonomia"),
+            ("### 6.4 NR 23: incêndio", "### 6.6 NR 23: incêndio"),
+            ("### 6.5 NR 26: sinalização e produtos químicos", "### 6.7 NR 26: sinalização e produtos químicos"),
+            ("### 6.6 Limpeza, acesso e emergência", "### 6.10 Limpeza, acesso e emergência"),
+        ):
+            text = replace_heading(text, old, new)
+
         text = insert_before(text, "## 2. Controle, registro e localização", ins["before_control"])
         text = insert_before(text, "## 3. Conservação e recuperação", ins["before_conservation"])
-        text = insert_before(text, "## 4. Técnicas de armazenamento", ins["before_techniques"])
-        text = insert_before(text, "## 5. Utilização do espaço e layout", ins["before_layout"])
+        text = insert_after(text, "## 4. Técnicas de armazenamento", ins["after_techniques"])
         text = insert_before(text, "## 6. Segurança", ins["before_safety"])
-        text = insert_before(text, "## 7. Casos integrados", ins["before_cases"])
+        text = insert_after(text, "## 6. Segurança", ins["after_safety"])
+        text = insert_before(text, "### 6.10 Limpeza, acesso e emergência", ins["before_cases"])
         text = insert_before(text, "## 8. Erros recorrentes em prova", ins["before_errors"])
         text = insert_before(text, "## 9. Síntese operacional", ins["before_synthesis"])
 
@@ -119,7 +147,7 @@ def patch_content(bundle: dict) -> None:
 
 def patch_cheat(bundle: dict) -> None:
     cheat = bundle["cheat"]
-    if not isinstance(cheat, str) or len(cheat) < 6000:
+    if not isinstance(cheat, str) or len(cheat) < 7000:
         raise RuntimeError("invalid cheat sheet in bundle")
     (ROOT / "cheat-sheet.md").write_text(cheat.rstrip() + "\n", encoding="utf-8")
 
@@ -171,6 +199,7 @@ def validate(data: dict, bundle: dict) -> None:
         raise RuntimeError("question IDs must be unique and sequential from q1234 to q1433")
 
     counts = Counter()
+    prompts = set()
     for index, question in enumerate(questions):
         expected_keys = {"id", "revision", "prompt", "options", "correctOptionId", "explanation"}
         if set(question) != expected_keys:
@@ -189,6 +218,9 @@ def validate(data: dict, bundle: dict) -> None:
         expected_revision = 2 if index < 50 else 1
         if question["revision"] != expected_revision:
             raise RuntimeError(f"unexpected revision in {question['id']}")
+        if question["prompt"] in prompts:
+            raise RuntimeError(f"duplicate prompt in {question['id']}")
+        prompts.add(question["prompt"])
 
     print("question count:", len(questions))
     print("answer counts:", dict(counts))
