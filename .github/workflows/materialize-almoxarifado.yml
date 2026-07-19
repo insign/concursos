@@ -1,4 +1,4 @@
-name: Materialize almoxarifado e armazenamento review
+name: Diagnose almoxarifado review
 
 on:
   pull_request:
@@ -9,12 +9,12 @@ permissions:
   contents: write
 
 concurrency:
-  group: materialize-almoxarifado-${{ github.event.pull_request.number }}
+  group: diagnose-almoxarifado-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
-  materialize:
-    name: Materialize almoxarifado e armazenamento review
+  diagnose:
+    name: Validate and diagnose almoxarifado review
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
@@ -24,19 +24,8 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Materialize reviewed subject files
-        shell: bash
-        run: |
-          python3 .github/patch-almoxarifado.py
-
-          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/almoxarifado-armazenamento'
-          if ! git diff --quiet -- "$target"; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
-            git commit -m 'content: aprofunda almoxarifado e armazenamento'
-            git push origin HEAD:${{ github.head_ref }}
-          fi
+      - name: Validate materialized files
+        run: python3 .github/patch-almoxarifado.py
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -50,8 +39,25 @@ jobs:
       - name: Run unit tests
         run: npm run test:unit
 
-      - name: Run Astro checks
-        run: npm run check
+      - name: Run Astro checks and persist diagnostic
+        shell: bash
+        run: |
+          set +e
+          npm run check > /tmp/astro-check.log 2>&1
+          status=$?
+          set -e
+          cat /tmp/astro-check.log
+          if [ "$status" -ne 0 ]; then
+            cp /tmp/astro-check.log .github/astro-diagnostic-almoxarifado.txt
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add .github/astro-diagnostic-almoxarifado.txt
+            if ! git diff --cached --quiet; then
+              git commit -m 'ci: registra diagnóstico Astro de almoxarifado'
+              git push origin HEAD:${{ github.head_ref }}
+            fi
+            exit "$status"
+          fi
 
       - name: Build production site
         run: npm run build
