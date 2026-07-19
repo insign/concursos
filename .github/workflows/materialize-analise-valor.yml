@@ -29,12 +29,25 @@ jobs:
         run: |
           python3 .github/patch-analise-valor.py
 
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/analise-valor-alienacao/cheat-sheet.md')
+          text = path.read_text(encoding='utf-8')
+          if text.startswith('---\n'):
+              end = text.find('\n---\n', 4)
+              if end < 0:
+                  raise SystemExit('invalid cheat-sheet front matter')
+              text = text[end + len('\n---\n'):].lstrip('\n')
+              path.write_text(text, encoding='utf-8')
+          PY
+
           target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/analise-valor-alienacao'
           if ! git diff --quiet -- "$target"; then
             git config user.name github-actions[bot]
             git config user.email 41898282+github-actions[bot]@users.noreply.github.com
             git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
-            git commit -m 'content: aprofunda análise do valor e alienação'
+            git commit -m 'content: corrige estrutura do cheat sheet de análise do valor'
             git push origin HEAD:${{ github.head_ref }}
           fi
 
@@ -51,25 +64,7 @@ jobs:
         run: npm run test:unit
 
       - name: Run Astro checks
-        shell: bash
-        run: |
-          set +e
-          npm run check > /tmp/analise-valor-check.log 2>&1
-          status=$?
-          set -e
-          cat /tmp/analise-valor-check.log
-
-          if [ "$status" -ne 0 ]; then
-            cp /tmp/analise-valor-check.log .github/analise-valor-diagnostic.txt
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add .github/analise-valor-diagnostic.txt
-            if ! git diff --cached --quiet; then
-              git commit -m 'ci: registra diagnóstico de análise do valor'
-              git push origin HEAD:${{ github.head_ref }}
-            fi
-            exit "$status"
-          fi
+        run: npm run check
 
       - name: Build production site
         run: npm run build
