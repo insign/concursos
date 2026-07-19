@@ -1,4 +1,4 @@
-name: Diagnose almoxarifado review
+name: Validate materialized almoxarifado review
 
 on:
   pull_request:
@@ -6,15 +6,15 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: diagnose-almoxarifado-${{ github.event.pull_request.number }}
+  group: validate-materialized-almoxarifado-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
-  diagnose:
-    name: Validate and diagnose almoxarifado review
+  validate:
+    name: Validate materialized almoxarifado review
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
@@ -24,8 +24,58 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Validate materialized files
-        run: python3 .github/patch-almoxarifado.py
+      - name: Validate final editorial files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          root = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-recursos-materiais-patrimoniais/almoxarifado-armazenamento')
+          content = (root / 'conteudo.md').read_text(encoding='utf-8')
+          cheat = (root / 'cheat-sheet.md').read_text(encoding='utf-8')
+          data = json.loads((root / 'questoes.json').read_text(encoding='utf-8'))
+
+          if '<!-- REVISAO-ALMOXARIFADO-2026 -->' not in content:
+              raise SystemExit('revision marker missing from content')
+          if cheat.lstrip().startswith('---'):
+              raise SystemExit('cheat sheet must not contain frontmatter')
+          if data.get('questionSetRevision') != 2:
+              raise SystemExit('questionSetRevision must be 2')
+
+          questions = data.get('questions')
+          expected_ids = [f'q{number}' for number in range(1234, 1434)]
+          actual_ids = [question.get('id') for question in questions]
+          if actual_ids != expected_ids:
+              raise SystemExit('question IDs must be q1234 through q1433')
+
+          counts = Counter()
+          prompts = set()
+          for index, question in enumerate(questions):
+              if [option.get('id') for option in question['options']] != list('abcde'):
+                  raise SystemExit(f'invalid options in {question["id"]}')
+              if len({option.get('text') for option in question['options']}) != 5:
+                  raise SystemExit(f'duplicate option in {question["id"]}')
+              answer = question['correctOptionId']
+              counts[answer] += 1
+              expected_revision = 2 if index < 50 else 1
+              if question['revision'] != expected_revision:
+                  raise SystemExit(f'invalid revision in {question["id"]}')
+              if 'Fonte:' not in question['explanation']:
+                  raise SystemExit(f'missing provenance in {question["id"]}')
+              if question['prompt'] in prompts:
+                  raise SystemExit(f'duplicate prompt in {question["id"]}')
+              prompts.add(question['prompt'])
+
+          expected_counts = Counter({letter: 40 for letter in 'abcde'})
+          if counts != expected_counts:
+              raise SystemExit(f'unbalanced answer key: {dict(counts)}')
+
+          print('question count:', len(questions))
+          print('answer counts:', dict(counts))
+          print('content, cheat sheet and question bank validated')
+          PY
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -39,25 +89,8 @@ jobs:
       - name: Run unit tests
         run: npm run test:unit
 
-      - name: Run Astro checks and persist diagnostic
-        shell: bash
-        run: |
-          set +e
-          npm run check > /tmp/astro-check.log 2>&1
-          status=$?
-          set -e
-          cat /tmp/astro-check.log
-          if [ "$status" -ne 0 ]; then
-            cp /tmp/astro-check.log .github/astro-diagnostic-almoxarifado.txt
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add .github/astro-diagnostic-almoxarifado.txt
-            if ! git diff --cached --quiet; then
-              git commit -m 'ci: registra diagnóstico Astro de almoxarifado'
-              git push origin HEAD:${{ github.head_ref }}
-            fi
-            exit "$status"
-          fi
+      - name: Run Astro checks
+        run: npm run check
 
       - name: Build production site
         run: npm run build
