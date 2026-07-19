@@ -28,7 +28,7 @@ jobs:
         shell: bash
         run: |
           set +e
-          python3 .github/patch-gestao-contratual.py > /tmp/gestao-contratual-patch.log 2>&1
+          python3 .github/patch-gestao-contratual-fixed.py > /tmp/gestao-contratual-patch.log 2>&1
           status=$?
           set -e
           cat /tmp/gestao-contratual-patch.log
