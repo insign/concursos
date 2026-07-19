@@ -1,0 +1,80 @@
+name: Materialize gestão aplicada da execução contratual review
+
+# O pacote editorial é recomposto e validado antes de qualquer alteração no conteúdo.
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: materialize-gestao-execucao-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  materialize:
+    name: Materialize gestão aplicada da execução contratual review
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Check out pull request branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Rebuild and materialize reviewed subject files
+        shell: bash
+        run: |
+          set +e
+          python3 .github/repair-gestao-execucao.py > /tmp/gestao-execucao-patch.log 2>&1
+          repair_status=$?
+          if [ "$repair_status" -eq 0 ]; then
+            python3 .github/patch-gestao-execucao.py >> /tmp/gestao-execucao-patch.log 2>&1
+            patch_status=$?
+          else
+            patch_status=$repair_status
+          fi
+          set -e
+          cat /tmp/gestao-execucao-patch.log
+
+          if [ "$patch_status" -ne 0 ]; then
+            cp /tmp/gestao-execucao-patch.log .github/gestao-execucao-diagnostic.txt
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add .github/gestao-execucao-diagnostic.txt
+            if ! git diff --cached --quiet; then
+              git commit -m 'ci: registra diagnóstico de gestão aplicada'
+              git push origin HEAD:${{ github.head_ref }}
+            fi
+            exit "$patch_status"
+          fi
+
+          target='src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/gestao-contratos/gestao-aplicada-execucao-contratual'
+          if ! git diff --quiet -- "$target"; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add "$target/conteudo.md" "$target/cheat-sheet.md" "$target/questoes.json"
+            git commit -m 'content: aprofunda gestão aplicada da execução contratual'
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.12.0
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run unit tests
+        run: npm run test:unit
+
+      - name: Run Astro checks
+        run: npm run check
+
+      - name: Build production site
+        run: npm run build
