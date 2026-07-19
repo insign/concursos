@@ -244,7 +244,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - Item 6. Lei nº 8.429/1992 (Lei de Improbidade Administrativa): sanções, procedimento, indisponibilidade e perda de bens, e prescrição.
 
-##### [R] Em revisão Assunto 052 - Itens 7 e 8: Contencioso administrativo, jurisdição una e controle jurisdicional.
+##### [x] Concluído Assunto 052 - Itens 7 e 8: Contencioso administrativo, jurisdição una e controle jurisdicional. ([conteúdo](src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/controle-externo/contencioso-controle-judicial/conteudo.md), commit `b4ef410`)
 
 - 7.1. Contencioso administrativo e sistema da jurisdição una.
 - Item 8. Controle jurisdicional da administração pública no direito brasileiro.
