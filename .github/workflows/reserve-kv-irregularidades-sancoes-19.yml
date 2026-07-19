@@ -1,4 +1,4 @@
-name: Reserve irregularidades, penalidades e sanções in KV
+name: Complete irregularidades, penalidades e sanções in KV
 
 on:
   pull_request:
@@ -9,13 +9,13 @@ permissions:
   contents: read
 
 jobs:
-  reserve-kv:
-    name: Reserve next specific subject
+  complete-kv:
+    name: Mark analyzed subject as done
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: Read current KV state and reserve subject
+      - name: Validate current state and mark subject done
         shell: bash
         run: |
           set -euo pipefail
@@ -25,45 +25,48 @@ jobs:
           curl --fail-with-body --silent --show-error \
             'https://kv.helio.me/adm' > /tmp/adm-before.json
 
-          python3 - "$key" <<'PY'
-          import json
-          import sys
-
-          key = sys.argv[1]
-          with open('/tmp/adm-before.json', encoding='utf-8') as stream:
-              document = json.load(stream)
-          item = document.get('json', {}).get('links', {}).get(key)
-          print('KV_VERSION_BEFORE', document.get('version'))
-          print('CURRENT_ITEM', item)
-          if item is not None:
-              status = item.get('status')
-              if status == 'done':
-                  raise SystemExit('SUBJECT_ALREADY_DONE')
-              if status == 'analyzing':
-                  raise SystemExit('SUBJECT_ALREADY_ANALYZING')
-              raise SystemExit(f'UNEXPECTED_EXISTING_STATUS:{status!r}')
-          PY
-
-          cat > /tmp/payload.json <<JSON
-          {
-            "path": "$path",
-            "status": "analyzing"
-          }
-          JSON
-
-          curl --fail-with-body --silent --show-error \
-            -X PUT \
-            -H 'Content-Type: application/json' \
-            --data @/tmp/payload.json \
-            "https://kv.helio.me/adm/value?path=%2Flinks%2F${key}" \
-            > /tmp/mutation.json
-
-          python3 - "$key" "$path" <<'PY'
+          action="$(python3 - "$key" "$path" <<'PY'
           import json
           import sys
 
           key, path = sys.argv[1:]
-          expected = {'path': path, 'status': 'analyzing'}
+          analyzing = {'path': path, 'status': 'analyzing'}
+          done = {'path': path, 'status': 'done'}
+          with open('/tmp/adm-before.json', encoding='utf-8') as stream:
+              document = json.load(stream)
+          item = document.get('json', {}).get('links', {}).get(key)
+          print('KV_VERSION_BEFORE', document.get('version'), file=sys.stderr)
+          print('CURRENT_ITEM', item, file=sys.stderr)
+          if item == done:
+              print('already-done')
+          elif item == analyzing:
+              print('mutate')
+          else:
+              raise SystemExit(f'UNEXPECTED_CURRENT_ITEM:{item!r}')
+          PY
+          )"
+
+          if [[ "$action" == 'mutate' ]]; then
+            cat > /tmp/payload.json <<JSON
+          {
+            "path": "$path",
+            "status": "done"
+          }
+          JSON
+
+            curl --fail-with-body --silent --show-error \
+              -X PUT \
+              -H 'Content-Type: application/json' \
+              --data @/tmp/payload.json \
+              "https://kv.helio.me/adm/value?path=%2Flinks%2F${key}" \
+              > /tmp/mutation.json
+
+            python3 - "$key" "$path" <<'PY'
+          import json
+          import sys
+
+          key, path = sys.argv[1:]
+          expected = {'path': path, 'status': 'done'}
           with open('/tmp/mutation.json', encoding='utf-8') as stream:
               document = json.load(stream)
           item = document['json']['links'][key]
@@ -72,6 +75,9 @@ jobs:
           if item != expected:
               raise SystemExit(1)
           PY
+          else
+            echo 'KV item was already done; no mutation needed.'
+          fi
 
       - name: Verify persisted value
         shell: bash
@@ -86,7 +92,7 @@ jobs:
           import sys
 
           key, path = sys.argv[1:]
-          expected = {'path': path, 'status': 'analyzing'}
+          expected = {'path': path, 'status': 'done'}
           with open('/tmp/adm-after.json', encoding='utf-8') as stream:
               document = json.load(stream)
           item = document['json']['links'][key]
