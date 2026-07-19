@@ -36,12 +36,13 @@ jobs:
           base = Path('src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/competencias-digitais-informatica-aplicada-setor-publico/windows-arquivos-pastas')
           content_path = base / 'conteudo.md'
           cheat_path = base / 'cheat-sheet.md'
+          bs = chr(92)
 
           content_lines = content_path.read_text(encoding='utf-8').splitlines()
           content_count = 0
           for index, line in enumerate(content_lines):
               if line.startswith('| caracteres reservados |'):
-                  content_lines[index] = '| caracteres reservados | não use `<`, `>`, `:`, `"`, `/`, `\\`, `?`, `*` nem a barra vertical |'
+                  content_lines[index] = f'| caracteres reservados | não use `<`, `>`, `:`, `"`, `/`, `{bs}`, `?`, `*` nem a barra vertical |'
                   content_count += 1
           if content_count != 1:
               raise SystemExit(f'expected one content naming row, found {content_count}')
@@ -51,16 +52,18 @@ jobs:
           fixed_lines = []
           path_fixed = False
           table_fixed = False
+          broken_first = f'Exemplo: `C:{bs}Users{bs}Ana{bs}Documents'
+          fixed_path = f'Exemplo: `C:{bs}Users{bs}Ana{bs}Documents{bs}relatorio.docx`'
           index = 0
           while index < len(cheat_lines):
               line = cheat_lines[index]
-              if line == 'Exemplo: `C:\\Users\\Ana\\Documents' and index + 1 < len(cheat_lines) and cheat_lines[index + 1] == 'elatorio.docx`':
-                  fixed_lines.append('Exemplo: `C:\\Users\\Ana\\Documents\\relatorio.docx`')
+              if line == broken_first and index + 1 < len(cheat_lines) and cheat_lines[index + 1] == 'elatorio.docx`':
+                  fixed_lines.append(fixed_path)
                   path_fixed = True
                   index += 2
                   continue
               if line.startswith('| proibidos |'):
-                  fixed_lines.append('| proibidos | `<`, `>`, `:`, `"`, `/`, `\\`, `?`, `*` e barra vertical |')
+                  fixed_lines.append(f'| proibidos | `<`, `>`, `:`, `"`, `/`, `{bs}`, `?`, `*` e barra vertical |')
                   table_fixed = True
                   index += 1
                   continue
