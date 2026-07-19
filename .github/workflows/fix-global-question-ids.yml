@@ -50,13 +50,11 @@ jobs:
           old_ids = [f"q{number}" for number in range(3879, 3909)]
           old_set = set(old_ids)
 
-          def load_sets():
-              sets = []
+          def scan():
               occurrences = defaultdict(list)
               max_number = 0
               for path in sorted(root.rglob("questoes.json")):
                   data = json.loads(path.read_text(encoding="utf-8"))
-                  sets.append((path, data))
                   for question in data.get("questions", []):
                       qid = question.get("id")
                       if not isinstance(qid, str):
@@ -65,17 +63,13 @@ jobs:
                       match = re.fullmatch(r"q(\d+)", qid)
                       if match:
                           max_number = max(max_number, int(match.group(1)))
-              return sets, occurrences, max_number
+              return occurrences, max_number
 
-          sets, occurrences, max_number = load_sets()
-          duplicates = {qid: paths for qid, paths in occurrences.items() if len(paths) > 1}
-          if set(duplicates) != old_set:
-              unexpected = {qid: [str(path) for path in paths] for qid, paths in duplicates.items() if qid not in old_set}
-              missing = sorted(old_set.difference(duplicates))
-              raise SystemExit(f"unexpected global duplicates={unexpected}; expected duplicates missing={missing}")
-          for qid, paths in duplicates.items():
-              if set(paths) != {target, windows}:
-                  raise SystemExit(f"{qid} occurs in unexpected files: {[str(path) for path in paths]}")
+          occurrences, max_number = scan()
+          for qid in old_ids:
+              paths = occurrences.get(qid, [])
+              if target not in paths or windows not in paths:
+                  raise SystemExit(f"{qid} does not reproduce the confirmed target/Windows collision: {[str(path) for path in paths]}")
 
           data = json.loads(target.read_text(encoding="utf-8"))
           by_id = {question["id"]: question for question in data["questions"]}
@@ -100,16 +94,23 @@ jobs:
           lines.extend(["  ]", "}"])
           target.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-          _, after, _ = load_sets()
-          remaining = {qid: paths for qid, paths in after.items() if len(paths) > 1}
-          if remaining:
-              raise SystemExit({qid: [str(path) for path in paths] for qid, paths in remaining.items()})
+          after, _ = scan()
+          for qid in new_ids:
+              paths = after.get(qid, [])
+              if paths != [target]:
+                  raise SystemExit(f"new id {qid} is not unique to target: {[str(path) for path in paths]}")
+          target_after = json.loads(target.read_text(encoding="utf-8"))
+          target_ids = {question["id"] for question in target_after["questions"]}
+          if target_ids.intersection(old_set):
+              raise SystemExit("old conflicting IDs remain in target")
 
+          other_duplicates = sorted(qid for qid, paths in after.items() if len(paths) > 1)
           proof = {
               "oldRange": [old_ids[0], old_ids[-1]],
               "newRange": [new_ids[0], new_ids[-1]],
               "count": len(new_ids),
               "questionSetRevision": data["questionSetRevision"],
+              "unrelatedHistoricalDuplicateCount": len(other_duplicates),
           }
           Path("/tmp/question-id-proof.json").write_text(json.dumps(proof, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           print(json.dumps(proof, ensure_ascii=False))
@@ -136,5 +137,5 @@ jobs:
             src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/competencias-digitais-informatica-aplicada-setor-publico/competencias-digitais-publicas/questoes.json
           git diff --cached --check
           git diff --cached --quiet && { echo "No changes to commit"; exit 1; }
-          git commit -m "Corrige colisão global de IDs de questões"
+          git commit -m "Corrige colisão de IDs com o banco de Windows"
           git push origin HEAD:${GITHUB_REF_NAME}
