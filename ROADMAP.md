@@ -240,7 +240,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - Item 6. Lei nº 8.429/1992 (Lei de Improbidade Administrativa): sujeitos, atos de improbidade e regime de responsabilização.
 
-##### [R] Em revisão Assunto 051 - Item 6, recorte: sanções, procedimento, bens e prescrição da Lei nº 8.429/1992.
+##### [x] Concluído Assunto 051 - Item 6, recorte: sanções, procedimento, bens e prescrição da Lei nº 8.429/1992. - Commit hash: 953ae00
 
 - Item 6. Lei nº 8.429/1992 (Lei de Improbidade Administrativa): sanções, procedimento, indisponibilidade e perda de bens, e prescrição.
 
