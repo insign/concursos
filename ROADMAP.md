@@ -249,7 +249,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - 7.1. Contencioso administrativo e sistema da jurisdição una.
 - Item 8. Controle jurisdicional da administração pública no direito brasileiro.
 
-##### [>] Em progresso Assunto 053 - Item 9: Controle da atividade financeira do Estado: espécies e sistemas.
+##### [R] Em revisão Assunto 053 - Item 9: Controle da atividade financeira do Estado: espécies e sistemas.
 
 ##### [ ] Assunto 054 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual.
 
