@@ -1,0 +1,97 @@
+name: Reserve irregularidades, penalidades e sanções in KV
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  reserve-kv:
+    name: Reserve next specific subject
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Read current KV state and reserve subject
+        shell: bash
+        run: |
+          set -euo pipefail
+          key='tce-ma-2026-analista-administracao--irregularidades-penalidades-sancoes'
+          path='/concursos/tce-ma-2026-analista-administracao/irregularidades-penalidades-sancoes/'
+
+          curl --fail-with-body --silent --show-error \
+            'https://kv.helio.me/adm' > /tmp/adm-before.json
+
+          python3 - "$key" <<'PY'
+          import json
+          import sys
+
+          key = sys.argv[1]
+          with open('/tmp/adm-before.json', encoding='utf-8') as stream:
+              document = json.load(stream)
+          item = document.get('json', {}).get('links', {}).get(key)
+          print('KV_VERSION_BEFORE', document.get('version'))
+          print('CURRENT_ITEM', item)
+          if item is not None:
+              status = item.get('status')
+              if status == 'done':
+                  raise SystemExit('SUBJECT_ALREADY_DONE')
+              if status == 'analyzing':
+                  raise SystemExit('SUBJECT_ALREADY_ANALYZING')
+              raise SystemExit(f'UNEXPECTED_EXISTING_STATUS:{status!r}')
+          PY
+
+          cat > /tmp/payload.json <<JSON
+          {
+            "path": "$path",
+            "status": "analyzing"
+          }
+          JSON
+
+          curl --fail-with-body --silent --show-error \
+            -X PUT \
+            -H 'Content-Type: application/json' \
+            --data @/tmp/payload.json \
+            "https://kv.helio.me/adm/value?path=%2Flinks%2F${key}" \
+            > /tmp/mutation.json
+
+          python3 - "$key" "$path" <<'PY'
+          import json
+          import sys
+
+          key, path = sys.argv[1:]
+          expected = {'path': path, 'status': 'analyzing'}
+          with open('/tmp/mutation.json', encoding='utf-8') as stream:
+              document = json.load(stream)
+          item = document['json']['links'][key]
+          print('MUTATION_ITEM', item)
+          print('KV_VERSION_AFTER_MUTATION', document.get('version'))
+          if item != expected:
+              raise SystemExit(1)
+          PY
+
+      - name: Verify persisted value
+        shell: bash
+        run: |
+          set -euo pipefail
+          key='tce-ma-2026-analista-administracao--irregularidades-penalidades-sancoes'
+          path='/concursos/tce-ma-2026-analista-administracao/irregularidades-penalidades-sancoes/'
+          curl --fail-with-body --silent --show-error \
+            'https://kv.helio.me/adm' > /tmp/adm-after.json
+          python3 - "$key" "$path" <<'PY'
+          import json
+          import sys
+
+          key, path = sys.argv[1:]
+          expected = {'path': path, 'status': 'analyzing'}
+          with open('/tmp/adm-after.json', encoding='utf-8') as stream:
+              document = json.load(stream)
+          item = document['json']['links'][key]
+          print('PERSISTED_ITEM', item)
+          print('KV_VERSION_PERSISTED', document.get('version'))
+          if item != expected:
+              raise SystemExit(1)
+          PY
