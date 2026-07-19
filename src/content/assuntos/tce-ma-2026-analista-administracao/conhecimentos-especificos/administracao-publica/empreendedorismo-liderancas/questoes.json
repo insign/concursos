@@ -1,706 +1,4356 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q784",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O empreendedorismo governamental caracteriza-se principalmente por",
       "options": [
-        {"id": "a", "text": "transferir ao agente público a propriedade dos recursos que administra"},
-        {"id": "b", "text": "mobilizar iniciativa, recursos e inovação para gerar valor público, sob legalidade e prestação de contas"},
-        {"id": "c", "text": "buscar lucro pessoal como medida final do desempenho estatal"},
-        {"id": "d", "text": "eliminar controles para acelerar qualquer mudança"},
-        {"id": "e", "text": "substituir obrigatoriamente a prestação pública por empresa privada"}
+        {
+          "id": "a",
+          "text": "mobilizar iniciativa, recursos e inovação para gerar valor público, sob legalidade e prestação de contas"
+        },
+        {
+          "id": "b",
+          "text": "transferir ao agente público a propriedade dos recursos que administra"
+        },
+        {
+          "id": "c",
+          "text": "buscar lucro pessoal como medida final do desempenho estatal"
+        },
+        {
+          "id": "d",
+          "text": "eliminar controles para acelerar qualquer mudança"
+        },
+        {
+          "id": "e",
+          "text": "substituir obrigatoriamente a prestação pública por empresa privada"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Empreendedorismo governamental combina proatividade, mobilização de capacidades, inovação e risco governado para gerar valor público. O agente não se torna proprietário dos recursos e continua sujeito a legalidade, integridade, controles e accountability. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q785",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma servidora sem cargo de chefia identifica barreira de atendimento, articula áreas e testa uma melhoria autorizada dentro do órgão. A situação exemplifica",
       "options": [
-        {"id": "a", "text": "privatização"},
-        {"id": "b", "text": "terceirização integral"},
-        {"id": "c", "text": "empreendedorismo exclusivamente privado"},
-        {"id": "d", "text": "intraempreendedorismo público"},
-        {"id": "e", "text": "exercício automático de competência decisória superior"}
+        {
+          "id": "a",
+          "text": "privatização"
+        },
+        {
+          "id": "b",
+          "text": "intraempreendedorismo público"
+        },
+        {
+          "id": "c",
+          "text": "terceirização integral"
+        },
+        {
+          "id": "d",
+          "text": "empreendedorismo exclusivamente privado"
+        },
+        {
+          "id": "e",
+          "text": "exercício automático de competência decisória superior"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "b",
       "explanation": "Intraempreendedorismo é a atuação empreendedora dentro de organização existente e pode surgir sem cargo de direção. A iniciativa informal não confere competência jurídica além das alçadas institucionais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q786",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Sobre inovação no setor público, assinale a afirmativa correta.",
       "options": [
-        {"id": "a", "text": "Toda ideia criativa já é inovação, mesmo sem implementação."},
-        {"id": "b", "text": "Somente uma solução inédita mundialmente pode ser considerada inovadora."},
-        {"id": "c", "text": "Inovação pressupõe implementação de abordagem nova ou significativamente modificada que melhore a ação pública."},
-        {"id": "d", "text": "Digitalizar um procedimento prova, por si só, que houve geração de valor público."},
-        {"id": "e", "text": "Melhorias incrementais são incompatíveis com inovação."}
+        {
+          "id": "a",
+          "text": "Toda ideia criativa já é inovação, mesmo sem implementação."
+        },
+        {
+          "id": "b",
+          "text": "Somente uma solução inédita mundialmente pode ser considerada inovadora."
+        },
+        {
+          "id": "c",
+          "text": "Inovação pressupõe implementação de abordagem nova ou significativamente modificada que melhore a ação pública."
+        },
+        {
+          "id": "d",
+          "text": "Digitalizar um procedimento prova, por si só, que houve geração de valor público."
+        },
+        {
+          "id": "e",
+          "text": "Melhorias incrementais são incompatíveis com inovação."
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Ideia ou invenção sem aplicação não entrega inovação. A novidade pode ser contextual e incremental, desde que efetivamente implementada e capaz de melhorar serviço, política, processo, regulação ou resultado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q787",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A diferença mais importante entre empreendedorismo privado e governamental é que",
       "options": [
-        {"id": "a", "text": "no setor público, a finalidade é o valor público sob mandato, direitos e legitimidade, e não o retorno privado ao agente"},
-        {"id": "b", "text": "o setor público não pode aprender nenhum método desenvolvido em empresas"},
-        {"id": "c", "text": "organizações privadas nunca produzem impacto social"},
-        {"id": "d", "text": "o empreendedor público assume pessoalmente a propriedade de todo risco institucional"},
-        {"id": "e", "text": "eficiência é relevante apenas para empresas"}
+        {
+          "id": "a",
+          "text": "o setor público não pode aprender nenhum método desenvolvido em empresas"
+        },
+        {
+          "id": "b",
+          "text": "organizações privadas nunca produzem impacto social"
+        },
+        {
+          "id": "c",
+          "text": "o empreendedor público assume pessoalmente a propriedade de todo risco institucional"
+        },
+        {
+          "id": "d",
+          "text": "no setor público, a finalidade é o valor público sob mandato, direitos e legitimidade, e não o retorno privado ao agente"
+        },
+        {
+          "id": "e",
+          "text": "eficiência é relevante apenas para empresas"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "O contexto público exige valor público, legalidade, equidade, direitos e accountability. Métodos privados podem ser adaptados, e eficiência continua relevante, mas não substitui a finalidade pública. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q788",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A relação correta entre empreendedorismo governamental e privatização é",
       "options": [
-        {"id": "a", "text": "é etapa necessária e juridicamente inseparável da privatização: inovar na Administração exige transferir a execução, os ativos ou o controle a um agente privado"},
-        {"id": "b", "text": "privatizar é requisito jurídico para inovar"},
-        {"id": "c", "text": "os conceitos são sinônimos na legislação"},
-        {"id": "d", "text": "nenhuma privatização pode integrar uma reforma administrativa"},
-        {"id": "e", "text": "são conceitos distintos: o primeiro trata de iniciativa inovadora para valor público; a segunda, de transferência conforme o arranjo adotado"}
+        {
+          "id": "a",
+          "text": "é etapa necessária e juridicamente inseparável da privatização: inovar na Administração exige transferir a execução, os ativos ou o controle a um agente privado"
+        },
+        {
+          "id": "b",
+          "text": "privatizar é requisito jurídico para inovar"
+        },
+        {
+          "id": "c",
+          "text": "os conceitos são sinônimos na legislação"
+        },
+        {
+          "id": "d",
+          "text": "nenhuma privatização pode integrar uma reforma administrativa"
+        },
+        {
+          "id": "e",
+          "text": "são conceitos distintos: o primeiro trata de iniciativa inovadora para valor público; a segunda, de transferência conforme o arranjo adotado"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Um órgão pode inovar mantendo execução estatal, e uma transferência ao setor privado não prova por si mesma inovação ou valor público. Privatização e empreendedorismo governamental não são sinônimos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q789",
-      "revision": 1,
+      "revision": 2,
       "prompt": "É característica frequentemente associada à Nova Gestão Pública — NPM",
       "options": [
-        {"id": "a", "text": "abandono de toda mensuração de desempenho"},
-        {"id": "c", "text": "proibição de contratos e metas"},
-        {"id": "b", "text": "orientação para resultados, descentralização gerencial e uso seletivo de mecanismos de competição e mercado"},
-        {"id": "d", "text": "eliminação da responsabilização de gestores"},
-        {"id": "e", "text": "identidade entre cidadania e consumo, considerando a satisfação individual do usuário critério suficiente para definir e legitimar todo resultado público"}
+        {
+          "id": "a",
+          "text": "orientação para resultados, descentralização gerencial e uso seletivo de mecanismos de competição e mercado"
+        },
+        {
+          "id": "b",
+          "text": "abandono de toda mensuração de desempenho"
+        },
+        {
+          "id": "c",
+          "text": "proibição de contratos e metas"
+        },
+        {
+          "id": "d",
+          "text": "eliminação da responsabilização de gestores"
+        },
+        {
+          "id": "e",
+          "text": "identidade entre cidadania e consumo, considerando a satisfação individual do usuário critério suficiente para definir e legitimar todo resultado público"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "A NPM é conjunto heterogêneo de reformas associado a desempenho, metas, autonomia gerencial, responsabilização, contratos, competição e eficiência. Não equivale integralmente a privatização nem constitui doutrina única. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q790",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Abordagens pós-NPM ou de Nova Governança Pública tendem a enfatizar",
       "options": [
-        {"id": "d", "text": "coordenação, redes, colaboração, integração, participação e resultados sistêmicos"},
-        {"id": "a", "text": "metas isoladas de cada unidade como único critério de sucesso"},
-        {"id": "b", "text": "competição obrigatória entre todos os órgãos"},
-        {"id": "c", "text": "abandono da eficiência e dos resultados"},
-        {"id": "e", "text": "retorno à hierarquia sem interação externa"}
+        {
+          "id": "a",
+          "text": "metas isoladas de cada unidade como único critério de sucesso"
+        },
+        {
+          "id": "b",
+          "text": "coordenação, redes, colaboração, integração, participação e resultados sistêmicos"
+        },
+        {
+          "id": "c",
+          "text": "competição obrigatória entre todos os órgãos"
+        },
+        {
+          "id": "d",
+          "text": "abandono da eficiência e dos resultados"
+        },
+        {
+          "id": "e",
+          "text": "retorno à hierarquia sem interação externa"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "b",
       "explanation": "Abordagens pós-NPM reagem especialmente à fragmentação e reforçam coordenação, redes, coprodução, capacidade estatal e legitimidade. Elas combinam essas dimensões com eficiência e desempenho, em vez de eliminá-los. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q791",
-      "revision": 1,
+      "revision": 2,
       "prompt": "À luz do Decreto nº 9.203/2017, valor público corresponde a",
       "options": [
-        {"id": "a", "text": "qualquer receita obtida pelo Estado"},
-        {"id": "b", "text": "satisfação exclusiva dos servidores da organização"},
-        {"id": "d", "text": "redução do custo operacional de qualquer atividade estatal, ainda que a economia obtida não produza resposta útil a necessidade de interesse público"},
-        {"id": "e", "text": "volume de atividades executadas sem consideração de utilidade"},
-        {"id": "c", "text": "produtos e resultados efetivos e úteis para necessidades de interesse público que modificam a sociedade ou destinatários legítimos"}
+        {
+          "id": "a",
+          "text": "qualquer receita obtida pelo Estado"
+        },
+        {
+          "id": "b",
+          "text": "satisfação exclusiva dos servidores da organização"
+        },
+        {
+          "id": "c",
+          "text": "produtos e resultados efetivos e úteis para necessidades de interesse público que modificam a sociedade ou destinatários legítimos"
+        },
+        {
+          "id": "d",
+          "text": "redução do custo operacional de qualquer atividade estatal, ainda que a economia obtida não produza resposta útil a necessidade de interesse público"
+        },
+        {
+          "id": "e",
+          "text": "volume de atividades executadas sem consideração de utilidade"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "O conceito normativo vincula valor público a produtos e resultados gerados, preservados ou entregues como respostas efetivas e úteis a necessidades ou demandas de interesse público. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q792",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No governo catalisador de Osborne e Gaebler, a Administração deve predominantemente",
       "options": [
-        {"id": "b", "text": "renunciar às funções de regulação e coordenação"},
-        {"id": "a", "text": "dirigir, articular e garantir resultados, sem precisar executar diretamente toda atividade"},
-        {"id": "c", "text": "privatizar obrigatoriamente todo serviço"},
-        {"id": "d", "text": "atuar apenas depois que o problema ocorrer"},
-        {"id": "e", "text": "substituir missão por regras detalhadas"}
+        {
+          "id": "a",
+          "text": "renunciar às funções de regulação e coordenação"
+        },
+        {
+          "id": "b",
+          "text": "privatizar obrigatoriamente todo serviço"
+        },
+        {
+          "id": "c",
+          "text": "atuar apenas depois que o problema ocorrer"
+        },
+        {
+          "id": "d",
+          "text": "dirigir, articular e garantir resultados, sem precisar executar diretamente toda atividade"
+        },
+        {
+          "id": "e",
+          "text": "substituir missão por regras detalhadas"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "O princípio catalisador é sintetizado pela distinção entre dirigir e remar. Não significa Estado ausente: direção, regulação, financiamento, garantia de direitos e controle podem permanecer públicos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q793",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A combinação correta de princípios de Osborne e Gaebler é",
       "options": [
-        {"id": "a", "text": "orientação por missão = desprezo pela legalidade; orientação a resultados = medir apenas insumos"},
-        {"id": "b", "text": "orientação por missão = seguir todo procedimento sem considerar finalidade; orientação a resultados = aumentar despesas"},
-        {"id": "c", "text": "orientação por missão = centralização rígida; orientação a resultados = extinguir indicadores"},
-        {"id": "e", "text": "orientação por missão = usar propósito para orientar escolhas; orientação a resultados = avaliar resultados, não apenas insumos"},
-        {"id": "d", "text": "orientação por missão = substituir objetivos por mercado; orientação a resultados = medir somente satisfação"}
+        {
+          "id": "a",
+          "text": "orientação por missão = desprezo pela legalidade; orientação a resultados = medir apenas insumos"
+        },
+        {
+          "id": "b",
+          "text": "orientação por missão = seguir todo procedimento sem considerar finalidade; orientação a resultados = aumentar despesas"
+        },
+        {
+          "id": "c",
+          "text": "orientação por missão = centralização rígida; orientação a resultados = extinguir indicadores"
+        },
+        {
+          "id": "d",
+          "text": "orientação por missão = substituir objetivos por mercado; orientação a resultados = medir somente satisfação"
+        },
+        {
+          "id": "e",
+          "text": "orientação por missão = usar propósito para orientar escolhas; orientação a resultados = avaliar resultados, não apenas insumos"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Missão orienta escolhas sem afastar regras legais. Orientação a resultados desloca atenção do simples consumo de insumos para efeitos e entregas relevantes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q794",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um governo que investe em prevenção de enchentes e aproxima decisões operacionais das equipes territoriais aplica, respectivamente, os princípios",
       "options": [
-        {"id": "b", "text": "preventivo e descentralizado"},
-        {"id": "a", "text": "orientado ao cliente e competitivo"},
-        {"id": "c", "text": "catalisador e orientado ao mercado"},
-        {"id": "d", "text": "empreendedor e orientado por missão"},
-        {"id": "e", "text": "pertencente à comunidade e orientado a insumos"}
+        {
+          "id": "a",
+          "text": "preventivo e descentralizado"
+        },
+        {
+          "id": "b",
+          "text": "orientado ao cliente e competitivo"
+        },
+        {
+          "id": "c",
+          "text": "catalisador e orientado ao mercado"
+        },
+        {
+          "id": "d",
+          "text": "empreendedor e orientado por missão"
+        },
+        {
+          "id": "e",
+          "text": "pertencente à comunidade e orientado a insumos"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Prevenção atua antes do dano; descentralização aproxima participação e decisão do problema, reduzindo hierarquia excessivamente rígida sem eliminar coordenação e accountability. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q795",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na leitura crítica dos princípios de Osborne e Gaebler, assinale a afirmativa correta.",
       "options": [
-        {"id": "a", "text": "O cidadão deve ser tratado somente como consumidor individual."},
-        {"id": "b", "text": "Fortalecer comunidades significa transferir a elas toda responsabilidade estatal."},
-        {"id": "d", "text": "Orientação ao cliente torna desnecessária a prestação de contas."},
-        {"id": "c", "text": "Ouvir usuários pode melhorar serviços, mas cidadania também envolve direitos, participação, equidade e interesse coletivo."},
-        {"id": "e", "text": "Necessidades de usuários sempre prevalecem sobre a legalidade."}
+        {
+          "id": "a",
+          "text": "O cidadão deve ser tratado somente como consumidor individual."
+        },
+        {
+          "id": "b",
+          "text": "Ouvir usuários pode melhorar serviços, mas cidadania também envolve direitos, participação, equidade e interesse coletivo."
+        },
+        {
+          "id": "c",
+          "text": "Fortalecer comunidades significa transferir a elas toda responsabilidade estatal."
+        },
+        {
+          "id": "d",
+          "text": "Orientação ao cliente torna desnecessária a prestação de contas."
+        },
+        {
+          "id": "e",
+          "text": "Necessidades de usuários sempre prevalecem sobre a legalidade."
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "O foco no usuário corrige conveniências burocráticas, mas o cidadão não se reduz ao cliente. Direitos, deveres, participação, equidade e legitimidade diferenciam a relação pública. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q796",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Entre os princípios do governo empreendedor, introduzir competição adequada, buscar oportunidades de receita e usar mecanismos de mercado correspondem, respectivamente, a governo",
       "options": [
-        {"id": "a", "text": "preventivo, comunitário e descentralizado"},
-        {"id": "d", "text": "competitivo, empreendedor e orientado ao mercado"},
-        {"id": "b", "text": "catalisador, orientado por missão e preventivo"},
-        {"id": "c", "text": "orientado ao cliente, competitivo e comunitário"},
-        {"id": "e", "text": "descentralizado, orientado a insumos e catalisador"}
+        {
+          "id": "a",
+          "text": "preventivo, comunitário e descentralizado"
+        },
+        {
+          "id": "b",
+          "text": "catalisador, orientado por missão e preventivo"
+        },
+        {
+          "id": "c",
+          "text": "competitivo, empreendedor e orientado ao mercado"
+        },
+        {
+          "id": "d",
+          "text": "orientado ao cliente, competitivo e comunitário"
+        },
+        {
+          "id": "e",
+          "text": "descentralizado, orientado a insumos e catalisador"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "Competição, postura empreendedora diante de receitas e oportunidades, e orientação ao mercado são três princípios distintos. Nenhum deles impõe aplicação automática a todo serviço público. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q797",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma crítica pertinente à aplicação automática do governo empreendedor e da NPM é que",
       "options": [
-        {"id": "b", "text": "rejeição de qualquer mensuração de desempenho, porque todo indicador inevitavelmente reduz capacidade estatal e impede coordenação entre órgãos"},
-        {"id": "c", "text": "eficiência nunca interessa ao setor público"},
-        {"id": "d", "text": "coordenação é incompatível com responsabilização"},
-        {"id": "e", "text": "todo contrato é necessariamente ilegítimo"},
-        {"id": "a", "text": "competição e metas estreitas podem fragmentar a ação e deslocar atenção para o que é facilmente mensurável"}
+        {
+          "id": "a",
+          "text": "rejeição de qualquer mensuração de desempenho, porque todo indicador inevitavelmente reduz capacidade estatal e impede coordenação entre órgãos"
+        },
+        {
+          "id": "b",
+          "text": "eficiência nunca interessa ao setor público"
+        },
+        {
+          "id": "c",
+          "text": "coordenação é incompatível com responsabilização"
+        },
+        {
+          "id": "d",
+          "text": "competição e metas estreitas podem fragmentar a ação e deslocar atenção para o que é facilmente mensurável"
+        },
+        {
+          "id": "e",
+          "text": "todo contrato é necessariamente ilegítimo"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "Competição, contratos e metas podem ser úteis, mas desenhos estreitos favorecem silos, fragmentação e comportamento orientado apenas ao indicador. A resposta contemporânea é combinar desempenho com coordenação e valores públicos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q798",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma organização que explora cenários futuros e testa respostas antes que determinada transformação tecnológica se consolide pratica inovação predominantemente",
       "options": [
-        {"id": "a", "text": "de aperfeiçoamento"},
-        {"id": "b", "text": "transacional"},
-        {"id": "e", "text": "antecipatória"},
-        {"id": "c", "text": "corretiva"},
-        {"id": "d", "text": "cartorial"}
+        {
+          "id": "a",
+          "text": "de aperfeiçoamento"
+        },
+        {
+          "id": "b",
+          "text": "transacional"
+        },
+        {
+          "id": "c",
+          "text": "corretiva"
+        },
+        {
+          "id": "d",
+          "text": "cartorial"
+        },
+        {
+          "id": "e",
+          "text": "antecipatória"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "A inovação antecipatória explora futuros possíveis e prepara respostas. Aperfeiçoamento melhora o existente; adaptação responde a mudanças; orientação por missão mobiliza atores para desafio ambicioso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q799",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No ciclo de inovação pública, a primeira providência mais consistente é",
       "options": [
-        {"id": "a", "text": "comprar imediatamente a tecnologia mais recente e somente depois adaptar a definição do problema aos recursos e funcionalidades já adquiridos"},
-        {"id": "c", "text": "escalar a ideia antes de qualquer teste"},
-        {"id": "d", "text": "ocultar hipóteses para evitar críticas"},
-        {"id": "e", "text": "fixar o fornecedor e depois investigar a necessidade"},
-        {"id": "b", "text": "definir o problema, seus públicos, causas e resultados desejados antes de se comprometer com uma solução"}
+        {
+          "id": "a",
+          "text": "definir o problema, seus públicos, causas e resultados desejados antes de se comprometer com uma solução"
+        },
+        {
+          "id": "b",
+          "text": "comprar imediatamente a tecnologia mais recente e somente depois adaptar a definição do problema aos recursos e funcionalidades já adquiridos"
+        },
+        {
+          "id": "c",
+          "text": "escalar a ideia antes de qualquer teste"
+        },
+        {
+          "id": "d",
+          "text": "ocultar hipóteses para evitar críticas"
+        },
+        {
+          "id": "e",
+          "text": "fixar o fornecedor e depois investigar a necessidade"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Começar pela solução cria risco de resolver o problema errado. Uma definição fundamentada do problema orienta evidências, alternativas, hipóteses, experimentos e critérios de sucesso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q800",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um experimento público responsável deve",
       "options": [
-        {"id": "a", "text": "dispensar critérios de interrupção sempre que houver incerteza tecnológica, porque encerrar um teste impediria aprendizagem e inovação futuras"},
-        {"id": "c", "text": "explicitar hipótese, escopo, salvaguardas, riscos, critérios de sucesso e responsabilidades"},
-        {"id": "b", "text": "evitar registrar falhas"},
-        {"id": "d", "text": "eliminar controles de privacidade e integridade"},
-        {"id": "e", "text": "garantir previamente que o resultado será positivo"}
+        {
+          "id": "a",
+          "text": "dispensar critérios de interrupção sempre que houver incerteza tecnológica, porque encerrar um teste impediria aprendizagem e inovação futuras"
+        },
+        {
+          "id": "b",
+          "text": "explicitar hipótese, escopo, salvaguardas, riscos, critérios de sucesso e responsabilidades"
+        },
+        {
+          "id": "c",
+          "text": "evitar registrar falhas"
+        },
+        {
+          "id": "d",
+          "text": "eliminar controles de privacidade e integridade"
+        },
+        {
+          "id": "e",
+          "text": "garantir previamente que o resultado será positivo"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Experimentação reduz incerteza com teste controlado e critérios explícitos. Aprender com falha não significa tolerar fraude, negligência ou ausência de salvaguardas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q801",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Depois de um piloto promissor, escalar a inovação requer",
       "options": [
-        {"id": "d", "text": "integrar solução a processos, pessoas, tecnologia, recursos, normas e governança, acompanhando efeitos"},
-        {"id": "a", "text": "replicar sem adaptação em qualquer contexto"},
-        {"id": "b", "text": "encerrar o monitoramento, pois o piloto já provou causalidade universal"},
-        {"id": "c", "text": "eliminar orçamento recorrente para preservar agilidade"},
-        {"id": "e", "text": "manter a solução indefinidamente em ambiente experimental"}
+        {
+          "id": "a",
+          "text": "replicar sem adaptação em qualquer contexto"
+        },
+        {
+          "id": "b",
+          "text": "encerrar o monitoramento, pois o piloto já provou causalidade universal"
+        },
+        {
+          "id": "c",
+          "text": "integrar solução a processos, pessoas, tecnologia, recursos, normas e governança, acompanhando efeitos"
+        },
+        {
+          "id": "d",
+          "text": "eliminar orçamento recorrente para preservar agilidade"
+        },
+        {
+          "id": "e",
+          "text": "manter a solução indefinidamente em ambiente experimental"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "Piloto não é fim em si. Escala sustentável depende de capacidade operacional e institucional, adaptação contextual e monitoramento de resultados e efeitos imprevistos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q802",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Decisão pública orientada por evidências significa",
       "options": [
-        {"id": "b", "text": "obedecer automaticamente ao maior número disponível"},
-        {"id": "c", "text": "substituir responsabilidade decisória por algoritmo"},
-        {"id": "d", "text": "excluir experiência profissional e escuta social"},
-        {"id": "a", "text": "usar evidências criticamente, considerando qualidade, incerteza, vieses, contexto, legalidade e valores"},
-        {"id": "e", "text": "considerar apenas dados que confirmem a solução preferida"}
+        {
+          "id": "a",
+          "text": "obedecer automaticamente ao maior número disponível"
+        },
+        {
+          "id": "b",
+          "text": "substituir responsabilidade decisória por algoritmo"
+        },
+        {
+          "id": "c",
+          "text": "excluir experiência profissional e escuta social"
+        },
+        {
+          "id": "d",
+          "text": "usar evidências criticamente, considerando qualidade, incerteza, vieses, contexto, legalidade e valores"
+        },
+        {
+          "id": "e",
+          "text": "considerar apenas dados que confirmem a solução preferida"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "Evidências informam e melhoram a decisão, mas exigem interpretação. Dados, avaliações, ciência, experiência e participação devem ser avaliados quanto a limites, vieses e aderência ao problema. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q803",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Sobre participação social em processos de inovação, é correto afirmar que",
       "options": [
-        {"id": "a", "text": "toda manifestação vincula integralmente a decisão administrativa"},
-        {"id": "b", "text": "participação elimina a necessidade de conhecimento técnico"},
-        {"id": "e", "text": "participação pode trazer conhecimento e legitimidade, sem eliminar competência e responsabilidade de quem decide"},
-        {"id": "c", "text": "somente dirigentes podem revelar barreiras do serviço"},
-        {"id": "d", "text": "a autoridade deve atender qualquer preferência majoritária, ainda que ilegal"}
+        {
+          "id": "a",
+          "text": "toda manifestação vincula integralmente a decisão administrativa"
+        },
+        {
+          "id": "b",
+          "text": "participação elimina a necessidade de conhecimento técnico"
+        },
+        {
+          "id": "c",
+          "text": "somente dirigentes podem revelar barreiras do serviço"
+        },
+        {
+          "id": "d",
+          "text": "a autoridade deve atender qualquer preferência majoritária, ainda que ilegal"
+        },
+        {
+          "id": "e",
+          "text": "participação pode trazer conhecimento e legitimidade, sem eliminar competência e responsabilidade de quem decide"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Participação ajuda a compreender necessidades, testar soluções e identificar efeitos, mas seu escopo e sua devolutiva devem ser claros. A Administração preserva legalidade, critérios e competência decisória. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q804",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na inovação pública, gerir riscos adequadamente consiste em",
       "options": [
-        {"id": "a", "text": "recusar toda iniciativa com qualquer incerteza, pois a governança adequada exige eliminar o risco antes de autorizar um experimento"},
-        {"id": "c", "text": "aceitar riscos sem responsável definido"},
-        {"id": "d", "text": "considerar somente perdas financeiras"},
-        {"id": "b", "text": "identificar, avaliar, tratar e monitorar eventos, com controles proporcionais ao risco"},
-        {"id": "e", "text": "confundir falha experimental com fraude"}
+        {
+          "id": "a",
+          "text": "identificar, avaliar, tratar e monitorar eventos, com controles proporcionais ao risco"
+        },
+        {
+          "id": "b",
+          "text": "recusar toda iniciativa com qualquer incerteza, pois a governança adequada exige eliminar o risco antes de autorizar um experimento"
+        },
+        {
+          "id": "c",
+          "text": "aceitar riscos sem responsável definido"
+        },
+        {
+          "id": "d",
+          "text": "considerar somente perdas financeiras"
+        },
+        {
+          "id": "e",
+          "text": "confundir falha experimental com fraude"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Gestão de riscos não elimina incerteza; torna-a explícita e governável. Deve abranger integridade, dados, equidade, dependência, continuidade e outros impactos, com respostas e responsáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q805",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um serviço digital reduz o custo médio, mas impede acesso de pessoas sem conectividade. A análise adequada é que",
       "options": [
-        {"id": "a", "text": "a redução do custo médio prova a geração integral de valor público, ainda que um grupo de usuários perca acesso e não exista canal alternativo"},
-        {"id": "b", "text": "equidade não integra avaliação de inovação"},
-        {"id": "c", "text": "o ganho de eficiência deve ser confrontado com efeitos distributivos e barreiras de acesso"},
-        {"id": "d", "text": "todo canal digital deve ser abandonado"},
-        {"id": "e", "text": "somente o volume total importa"}
+        {
+          "id": "a",
+          "text": "a redução do custo médio prova a geração integral de valor público, ainda que um grupo de usuários perca acesso e não exista canal alternativo"
+        },
+        {
+          "id": "b",
+          "text": "o ganho de eficiência deve ser confrontado com efeitos distributivos e barreiras de acesso"
+        },
+        {
+          "id": "c",
+          "text": "equidade não integra avaliação de inovação"
+        },
+        {
+          "id": "d",
+          "text": "todo canal digital deve ser abandonado"
+        },
+        {
+          "id": "e",
+          "text": "somente o volume total importa"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Médias podem ocultar exclusão. Inovação pública precisa avaliar quem ganha, quem perde e quais salvaguardas ou canais complementares preservam direitos e valor público. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q806",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Segundo o Decreto nº 9.203/2017, são mecanismos para o exercício da governança pública",
       "options": [
-        {"id": "a", "text": "planejamento, orçamento e licitação"},
-        {"id": "b", "text": "missão, visão e valores"},
-        {"id": "c", "text": "eficiência, eficácia e efetividade"},
-        {"id": "e", "text": "privatização, competição e lucro"},
-        {"id": "d", "text": "liderança, estratégia e controle"}
+        {
+          "id": "a",
+          "text": "planejamento, orçamento e licitação"
+        },
+        {
+          "id": "b",
+          "text": "missão, visão e valores"
+        },
+        {
+          "id": "c",
+          "text": "liderança, estratégia e controle"
+        },
+        {
+          "id": "d",
+          "text": "eficiência, eficácia e efetividade"
+        },
+        {
+          "id": "e",
+          "text": "privatização, competição e lucro"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "O decreto define governança como mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q807",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Constitui princípio de governança pública previsto no Decreto nº 9.203/2017",
       "options": [
-        {"id": "a", "text": "capacidade de resposta"},
-        {"id": "b", "text": "maximização de lucro"},
-        {"id": "c", "text": "sigilo como regra"},
-        {"id": "d", "text": "eliminação de controles"},
-        {"id": "e", "text": "competição obrigatória"}
+        {
+          "id": "a",
+          "text": "maximização de lucro"
+        },
+        {
+          "id": "b",
+          "text": "sigilo como regra"
+        },
+        {
+          "id": "c",
+          "text": "eliminação de controles"
+        },
+        {
+          "id": "d",
+          "text": "capacidade de resposta"
+        },
+        {
+          "id": "e",
+          "text": "competição obrigatória"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "O art. 3º lista capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q808",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Entre as diretrizes do Decreto nº 9.203/2017 está",
       "options": [
-        {"id": "a", "text": "impedir mudanças de prioridade"},
-        {"id": "e", "text": "direcionar ações a resultados para a sociedade, com soluções tempestivas e inovadoras"},
-        {"id": "b", "text": "buscar somente redução de quadro"},
-        {"id": "c", "text": "subordinar resultados à conveniência burocrática"},
-        {"id": "d", "text": "evitar soluções novas diante de recursos limitados"}
+        {
+          "id": "a",
+          "text": "impedir mudanças de prioridade"
+        },
+        {
+          "id": "b",
+          "text": "buscar somente redução de quadro"
+        },
+        {
+          "id": "c",
+          "text": "subordinar resultados à conveniência burocrática"
+        },
+        {
+          "id": "d",
+          "text": "evitar soluções novas diante de recursos limitados"
+        },
+        {
+          "id": "e",
+          "text": "direcionar ações a resultados para a sociedade, com soluções tempestivas e inovadoras"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "O art. 4º, I, relaciona resultados para a sociedade a soluções tempestivas e inovadoras diante da limitação de recursos e da mudança de prioridades. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q809",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O processo decisório, conforme diretriz do Decreto nº 9.203/2017, deve ser orientado por",
       "options": [
-        {"id": "a", "text": "intuição exclusiva da chefia"},
-        {"id": "b", "text": "evidências, conformidade legal, qualidade regulatória, desburocratização e apoio à participação social"},
-        {"id": "c", "text": "preferência do fornecedor"},
-        {"id": "d", "text": "sigilo e ausência de justificativa"},
-        {"id": "e", "text": "automatização integral das decisões administrativas, desde que o algoritmo reduza custos e preserve sigilo sobre os critérios utilizados"}
+        {
+          "id": "a",
+          "text": "evidências, conformidade legal, qualidade regulatória, desburocratização e apoio à participação social"
+        },
+        {
+          "id": "b",
+          "text": "intuição exclusiva da chefia"
+        },
+        {
+          "id": "c",
+          "text": "preferência do fornecedor"
+        },
+        {
+          "id": "d",
+          "text": "sigilo e ausência de justificativa"
+        },
+        {
+          "id": "e",
+          "text": "automatização integral das decisões administrativas, desde que o algoritmo reduza custos e preserve sigilo sobre os critérios utilizados"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "A redação corresponde ao art. 4º, VIII. Evidência e participação aparecem junto de conformidade legal e qualidade regulatória, não como substitutos da responsabilidade pública. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q810",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No mecanismo de liderança do Decreto nº 9.203/2017, as condições mínimas para a boa governança são",
       "options": [
-        {"id": "a", "text": "criatividade, competição, lucro e velocidade"},
-        {"id": "b", "text": "hierarquia, centralização, sigilo e obediência"},
-        {"id": "d", "text": "missão, visão, meta e orçamento"},
-        {"id": "e", "text": "carisma, popularidade, autoridade e improviso"},
-        {"id": "c", "text": "integridade, competência, responsabilidade e motivação"}
+        {
+          "id": "a",
+          "text": "criatividade, competição, lucro e velocidade"
+        },
+        {
+          "id": "b",
+          "text": "integridade, competência, responsabilidade e motivação"
+        },
+        {
+          "id": "c",
+          "text": "hierarquia, centralização, sigilo e obediência"
+        },
+        {
+          "id": "d",
+          "text": "missão, visão, meta e orçamento"
+        },
+        {
+          "id": "e",
+          "text": "carisma, popularidade, autoridade e improviso"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "O art. 5º, I, associa à liderança as condições de integridade, competência, responsabilidade e motivação. Criatividade sem essas bases não assegura boa governança. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q811",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O sandbox regulatório da Lei Complementar nº 182/2021 é",
       "options": [
-        {"id": "a", "text": "dispensa permanente de toda norma brasileira"},
-        {"id": "b", "text": "privatização do órgão regulador"},
-        {"id": "c", "text": "contrato de fornecimento automático"},
-        {"id": "d", "text": "ambiente temporário com condições, critérios e limites para teste, no âmbito das competências do regulador"},
-        {"id": "e", "text": "autorização temporária para descumprir normas de qualquer autoridade, desde que o regulador responsável pelo programa considere o teste inovador"}
+        {
+          "id": "a",
+          "text": "dispensa permanente de toda norma brasileira"
+        },
+        {
+          "id": "b",
+          "text": "privatização do órgão regulador"
+        },
+        {
+          "id": "c",
+          "text": "ambiente temporário com condições, critérios e limites para teste, no âmbito das competências do regulador"
+        },
+        {
+          "id": "d",
+          "text": "contrato de fornecimento automático"
+        },
+        {
+          "id": "e",
+          "text": "autorização temporária para descumprir normas de qualquer autoridade, desde que o regulador responsável pelo programa considere o teste inovador"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "O sandbox permite autorização temporária e afastamento de normas sob competência do regulador, conforme programa, critérios, duração e alcance definidos. Não é espaço sem lei. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q812",
-      "revision": 1,
+      "revision": 2,
       "prompt": "As contratações dos arts. 12 a 15 da Lei Complementar nº 182/2021 têm por finalidade",
       "options": [
-        {"id": "b", "text": "financiar qualquer empresa sem problema público definido"},
-        {"id": "c", "text": "substituir todas as modalidades da Lei nº 14.133/2021"},
-        {"id": "a", "text": "resolver demandas públicas com solução inovadora tecnológica e promover inovação pelo poder de compra estatal"},
-        {"id": "d", "text": "garantir lucro à contratada independentemente de trabalho"},
-        {"id": "e", "text": "contratar exclusivamente organizações sem fins lucrativos"}
+        {
+          "id": "a",
+          "text": "financiar qualquer empresa sem problema público definido"
+        },
+        {
+          "id": "b",
+          "text": "substituir todas as modalidades da Lei nº 14.133/2021"
+        },
+        {
+          "id": "c",
+          "text": "garantir lucro à contratada independentemente de trabalho"
+        },
+        {
+          "id": "d",
+          "text": "resolver demandas públicas com solução inovadora tecnológica e promover inovação pelo poder de compra estatal"
+        },
+        {
+          "id": "e",
+          "text": "contratar exclusivamente organizações sem fins lucrativos"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "O art. 12 explicita as duas finalidades: solucionar demanda pública que exija inovação com tecnologia e promover inovação no setor produtivo por meio do poder de compra do Estado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q813",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na modalidade especial que pode resultar em CPSI, a Administração pode contratar",
       "options": [
-        {"id": "e", "text": "pessoas físicas ou jurídicas, isoladas ou em consórcio, para soluções desenvolvidas ou a desenvolver, com ou sem risco tecnológico"},
-        {"id": "a", "text": "somente startups já constituídas"},
-        {"id": "b", "text": "apenas empresas que já apresentem solução integralmente desenvolvida, sem risco tecnológico, e comprovem enquadramento jurídico como startup inovadora"},
-        {"id": "c", "text": "exclusivamente universidades públicas"},
-        {"id": "d", "text": "somente consórcios de grandes empresas"}
+        {
+          "id": "a",
+          "text": "somente startups já constituídas"
+        },
+        {
+          "id": "b",
+          "text": "apenas empresas que já apresentem solução integralmente desenvolvida, sem risco tecnológico, e comprovem enquadramento jurídico como startup inovadora"
+        },
+        {
+          "id": "c",
+          "text": "exclusivamente universidades públicas"
+        },
+        {
+          "id": "d",
+          "text": "somente consórcios de grandes empresas"
+        },
+        {
+          "id": "e",
+          "text": "pessoas físicas ou jurídicas, isoladas ou em consórcio, para soluções desenvolvidas ou a desenvolver, com ou sem risco tecnológico"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "O art. 13 não restringe a seleção a startups e admite solução pronta ou a desenvolver, com ou sem risco tecnológico. Essa amplitude é pegadinha normativa recorrente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q814",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na licitação especial da Lei Complementar nº 182/2021, o escopo pode",
       "options": [
-        {"id": "a", "text": "omitir o problema e definir somente o fornecedor"},
-        {"id": "c", "text": "proibir que licitantes proponham meios diferentes"},
-        {"id": "b", "text": "indicar o problema e os resultados esperados, dispensando descrição prévia de solução técnica"},
-        {"id": "d", "text": "selecionar obrigatoriamente uma única proposta"},
-        {"id": "e", "text": "dispensar qualquer critério de julgamento"}
+        {
+          "id": "a",
+          "text": "indicar o problema e os resultados esperados, dispensando descrição prévia de solução técnica"
+        },
+        {
+          "id": "b",
+          "text": "omitir o problema e definir somente o fornecedor"
+        },
+        {
+          "id": "c",
+          "text": "proibir que licitantes proponham meios diferentes"
+        },
+        {
+          "id": "d",
+          "text": "selecionar obrigatoriamente uma única proposta"
+        },
+        {
+          "id": "e",
+          "text": "dispensar qualquer critério de julgamento"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "A contratação pode ser orientada pelo desafio: problema, resultados esperados e obstáculos tecnológicos. Os proponentes apresentam diferentes meios de solução, e mais de uma proposta pode ser selecionada se o edital assim limitar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q815",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O CPSI possui vigência",
       "options": [
-        {"id": "a", "text": "indeterminada"},
-        {"id": "b", "text": "de até seis meses, sem prorrogação"},
-        {"id": "d", "text": "obrigatória de quatro anos"},
-        {"id": "c", "text": "de até doze meses, prorrogável uma vez por até mais doze meses"},
-        {"id": "e", "text": "definida livremente pelo edital e pelo contrato, sem limite legal específico de duração ou número de prorrogações"}
+        {
+          "id": "a",
+          "text": "indeterminada"
+        },
+        {
+          "id": "b",
+          "text": "de até doze meses, prorrogável uma vez por até mais doze meses"
+        },
+        {
+          "id": "c",
+          "text": "de até seis meses, sem prorrogação"
+        },
+        {
+          "id": "d",
+          "text": "obrigatória de quatro anos"
+        },
+        {
+          "id": "e",
+          "text": "definida livremente pelo edital e pelo contrato, sem limite legal específico de duração ou número de prorrogações"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "O art. 14 limita o CPSI a 12 meses e admite uma prorrogação de até 12 meses. O contrato deve conter metas, aferição, relatórios, matriz de riscos e regras de propriedade intelectual e exploração. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q816",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Se o resultado de um CPSI não for atingido em decorrência de risco tecnológico previsto, a Lei Complementar nº 182/2021 determina que",
       "options": [
-        {"id": "d", "text": "o trabalho executado é pago conforme critério contratual, ressalvado incentivo variável ligado a metas, sem impedir rescisão por inviabilidade"},
-        {"id": "a", "text": "nenhum trabalho executado poderá ser pago, pois a materialização de risco tecnológico transfere integralmente à contratada o custo do experimento, mesmo quando o contrato previr entregas intermediárias"},
-        {"id": "b", "text": "o contrato se transforma automaticamente em fornecimento"},
-        {"id": "c", "text": "a contratada recebe sempre todo incentivo variável"},
-        {"id": "e", "text": "a matriz de riscos deixa de produzir efeitos"}
+        {
+          "id": "a",
+          "text": "nenhum trabalho executado poderá ser pago, pois a materialização de risco tecnológico transfere integralmente à contratada o custo do experimento, mesmo quando o contrato previr entregas intermediárias"
+        },
+        {
+          "id": "b",
+          "text": "o contrato se transforma automaticamente em fornecimento"
+        },
+        {
+          "id": "c",
+          "text": "o trabalho executado é pago conforme critério contratual, ressalvado incentivo variável ligado a metas, sem impedir rescisão por inviabilidade"
+        },
+        {
+          "id": "d",
+          "text": "a contratada recebe sempre todo incentivo variável"
+        },
+        {
+          "id": "e",
+          "text": "a matriz de riscos deixa de produzir efeitos"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "Havendo risco tecnológico, pagamentos seguem os trabalhos executados e o critério pactuado. Incentivo variável depende das metas, e a Administração pode rescindir se a solução se mostrar técnica ou economicamente inviável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q817",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Encerrado o CPSI, o contrato de fornecimento da solução",
       "options": [
-        {"id": "b", "text": "é automático e obrigatório em qualquer resultado"},
-        {"id": "c", "text": "é proibido pela Lei Complementar nº 182/2021"},
-        {"id": "d", "text": "dispensa avaliação de custo-benefício quando mais de uma solução tiver sido satisfatória e permite escolher qualquer contratada sem motivação adicional"},
-        {"id": "e", "text": "possui vigência necessariamente indeterminada"},
-        {"id": "a", "text": "pode ser celebrado com a mesma contratada, sem nova licitação, por até 24 meses, prorrogáveis uma vez por até mais 24"}
+        {
+          "id": "a",
+          "text": "é automático e obrigatório em qualquer resultado"
+        },
+        {
+          "id": "b",
+          "text": "é proibido pela Lei Complementar nº 182/2021"
+        },
+        {
+          "id": "c",
+          "text": "dispensa avaliação de custo-benefício quando mais de uma solução tiver sido satisfatória e permite escolher qualquer contratada sem motivação adicional"
+        },
+        {
+          "id": "d",
+          "text": "pode ser celebrado com a mesma contratada, sem nova licitação, por até 24 meses, prorrogáveis uma vez por até mais 24"
+        },
+        {
+          "id": "e",
+          "text": "possui vigência necessariamente indeterminada"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "O art. 15 usa faculdade: a Administração poderá contratar fornecimento ou integração sem nova licitação por até 24 meses, prorrogáveis uma vez por até mais 24. O valor total é limitado a cinco vezes o máximo aplicável ao CPSI, ressalvadas as hipóteses legais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q818",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O diálogo competitivo da Lei nº 14.133/2021 distingue-se do CPSI porque",
       "options": [
-        {"id": "a", "text": "é exclusivo de startups, enquanto o CPSI não é"},
-        {"id": "e", "text": "é modalidade para contratação complexa com diálogo para desenvolver alternativas e propostas finais após seu encerramento"},
-        {"id": "b", "text": "não admite objeto com inovação"},
-        {"id": "c", "text": "dispensa proposta final"},
-        {"id": "d", "text": "é contratação direta em que a Administração negocia reservadamente com um fornecedor já escolhido, sem pré-seleção objetiva nem apresentação posterior de proposta final"}
+        {
+          "id": "a",
+          "text": "é exclusivo de startups, enquanto o CPSI não é"
+        },
+        {
+          "id": "b",
+          "text": "não admite objeto com inovação"
+        },
+        {
+          "id": "c",
+          "text": "dispensa proposta final"
+        },
+        {
+          "id": "d",
+          "text": "é contratação direta em que a Administração negocia reservadamente com um fornecedor já escolhido, sem pré-seleção objetiva nem apresentação posterior de proposta final"
+        },
+        {
+          "id": "e",
+          "text": "é modalidade para contratação complexa com diálogo para desenvolver alternativas e propostas finais após seu encerramento"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Diálogo competitivo e licitação especial que antecede o CPSI possuem fundamentos e procedimentos distintos. O primeiro estrutura diálogo com pré-selecionados e posterior proposta final; a segunda seleciona soluções inovadoras para teste em contrato que disciplina risco tecnológico. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q819",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A relação correta entre gestão e liderança é",
       "options": [
-        {"id": "a", "text": "liderança elimina planejamento e controle"},
-        {"id": "c", "text": "gestão pertence apenas ao setor privado"},
-        {"id": "d", "text": "liderança só existe em cargo formal"},
-        {"id": "e", "text": "as duas expressões são sempre sinônimas, porque planejar, controlar, mobilizar pessoas e orientar mudanças constituem uma única função gerencial em qualquer contexto"},
-        {"id": "b", "text": "gestão estrutura recursos e execução; liderança mobiliza propósito, aprendizagem e mudança; ambas são necessárias"}
+        {
+          "id": "a",
+          "text": "gestão estrutura recursos e execução; liderança mobiliza propósito, aprendizagem e mudança; ambas são necessárias"
+        },
+        {
+          "id": "b",
+          "text": "liderança elimina planejamento e controle"
+        },
+        {
+          "id": "c",
+          "text": "gestão pertence apenas ao setor privado"
+        },
+        {
+          "id": "d",
+          "text": "liderança só existe em cargo formal"
+        },
+        {
+          "id": "e",
+          "text": "as duas expressões são sempre sinônimas, porque planejar, controlar, mobilizar pessoas e orientar mudanças constituem uma única função gerencial em qualquer contexto"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Gestão e liderança possuem ênfases diferentes e complementares. Transformação sem execução se dispersa; execução sem direção e mobilização pode apenas reproduzir rotinas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q820",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Sobre autoridade formal e liderança, assinale a afirmativa correta.",
       "options": [
-        {"id": "c", "text": "Liderança pode existir sem hierarquia, mas competência jurídica decorre de cargo, norma ou delegação."},
-        {"id": "a", "text": "Toda autoridade formal lidera efetivamente por definição."},
-        {"id": "b", "text": "Liderança informal autoriza qualquer decisão administrativa."},
-        {"id": "d", "text": "Compartilhar liderança elimina a accountability da autoridade."},
-        {"id": "e", "text": "Conhecimento técnico substitui a competência legal."}
+        {
+          "id": "a",
+          "text": "Toda autoridade formal lidera efetivamente por definição."
+        },
+        {
+          "id": "b",
+          "text": "Liderança pode existir sem hierarquia, mas competência jurídica decorre de cargo, norma ou delegação."
+        },
+        {
+          "id": "c",
+          "text": "Liderança informal autoriza qualquer decisão administrativa."
+        },
+        {
+          "id": "d",
+          "text": "Compartilhar liderança elimina a accountability da autoridade."
+        },
+        {
+          "id": "e",
+          "text": "Conhecimento técnico substitui a competência legal."
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Influência não depende necessariamente de cargo; decisão formal depende de competência. Distribuir iniciativa e voz não dissolve deveres e responsabilidades atribuídos pela ordem jurídica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q821",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A liderança transformacional enfatiza",
       "options": [
-        {"id": "a", "text": "somente recompensas por tarefa"},
-        {"id": "b", "text": "manutenção de rotina sem propósito"},
-        {"id": "d", "text": "visão, propósito, inspiração, desenvolvimento e mobilização para mudança"},
-        {"id": "c", "text": "ausência de controle"},
-        {"id": "e", "text": "obediência baseada exclusivamente no cargo"}
+        {
+          "id": "a",
+          "text": "somente recompensas por tarefa"
+        },
+        {
+          "id": "b",
+          "text": "manutenção de rotina sem propósito"
+        },
+        {
+          "id": "c",
+          "text": "visão, propósito, inspiração, desenvolvimento e mobilização para mudança"
+        },
+        {
+          "id": "d",
+          "text": "ausência de controle"
+        },
+        {
+          "id": "e",
+          "text": "obediência baseada exclusivamente no cargo"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "O modelo transformacional mobiliza sentido, desenvolvimento e mudança. Carisma isolado não basta: ética, competência, execução e accountability continuam necessárias. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q822",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A liderança transacional",
       "options": [
-        {"id": "b", "text": "é sempre incompatível com inovação, porque a definição de metas, acordos e padrões impede autonomia e aprendizagem em qualquer contexto organizacional"},
-        {"id": "a", "text": "clarifica papéis, metas, acordos, reconhecimento e correções, sendo útil a rotinas e conformidade"},
-        {"id": "c", "text": "elimina padrões de desempenho"},
-        {"id": "d", "text": "é idêntica à liderança servidora"},
-        {"id": "e", "text": "depende de ausência de autoridade formal"}
+        {
+          "id": "a",
+          "text": "é sempre incompatível com inovação, porque a definição de metas, acordos e padrões impede autonomia e aprendizagem em qualquer contexto organizacional"
+        },
+        {
+          "id": "b",
+          "text": "elimina padrões de desempenho"
+        },
+        {
+          "id": "c",
+          "text": "é idêntica à liderança servidora"
+        },
+        {
+          "id": "d",
+          "text": "clarifica papéis, metas, acordos, reconhecimento e correções, sendo útil a rotinas e conformidade"
+        },
+        {
+          "id": "e",
+          "text": "depende de ausência de autoridade formal"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "O componente transacional não é necessariamente negativo. Expectativas, consequências e padrões sustentam execução e podem complementar propósito e aprendizagem transformacionais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q823",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A liderança adaptativa é especialmente adequada quando",
       "options": [
-        {"id": "a", "text": "há procedimento conhecido que exige apenas aplicação técnica"},
-        {"id": "b", "text": "a chefia deseja evitar participação"},
-        {"id": "c", "text": "qualquer improviso é suficiente"},
-        {"id": "e", "text": "o desafio exige mudança de valores, relações, hábitos ou capacidades e não possui resposta técnica pronta"},
-        {"id": "d", "text": "não existe tensão nem necessidade de aprendizagem"}
+        {
+          "id": "a",
+          "text": "há procedimento conhecido que exige apenas aplicação técnica"
+        },
+        {
+          "id": "b",
+          "text": "a chefia deseja evitar participação"
+        },
+        {
+          "id": "c",
+          "text": "qualquer improviso é suficiente"
+        },
+        {
+          "id": "d",
+          "text": "não existe tensão nem necessidade de aprendizagem"
+        },
+        {
+          "id": "e",
+          "text": "o desafio exige mudança de valores, relações, hábitos ou capacidades e não possui resposta técnica pronta"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Desafios adaptativos demandam aprendizagem pelos envolvidos. O líder regula tensão, mantém foco, protege perspectivas e devolve trabalho às pessoas, sem confundir adaptação com improvisação sem direção. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q824",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Liderança colaborativa no setor público requer",
       "options": [
-        {"id": "a", "text": "eliminar divergências por decreto"},
-        {"id": "c", "text": "dispensar definição de papéis"},
-        {"id": "d", "text": "substituir accountability por consenso sempre que a decisão envolver uma rede de organizações com competências e interesses diferentes"},
-        {"id": "b", "text": "construir propósito, confiança, regras de decisão e tratamento de conflitos entre atores"},
-        {"id": "e", "text": "limitar informação à unidade líder"}
+        {
+          "id": "a",
+          "text": "construir propósito, confiança, regras de decisão e tratamento de conflitos entre atores"
+        },
+        {
+          "id": "b",
+          "text": "eliminar divergências por decreto"
+        },
+        {
+          "id": "c",
+          "text": "dispensar definição de papéis"
+        },
+        {
+          "id": "d",
+          "text": "substituir accountability por consenso sempre que a decisão envolver uma rede de organizações com competências e interesses diferentes"
+        },
+        {
+          "id": "e",
+          "text": "limitar informação à unidade líder"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Colaboração atravessa fronteiras organizacionais e depende de confiança e coordenação. Ela não elimina conflito, competência, alçadas ou responsabilidade; cria mecanismos para administrá-los. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q825",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na liderança distribuída ou compartilhada",
       "options": [
-        {"id": "a", "text": "a autoridade máxima deixa de responder por suas competências"},
-        {"id": "c", "text": "influência e iniciativa podem espalhar-se pela equipe ou rede, preservadas as responsabilidades legais"},
-        {"id": "b", "text": "todos passam a decidir qualquer matéria"},
-        {"id": "d", "text": "hierarquia formal se torna juridicamente inexistente"},
-        {"id": "e", "text": "conhecimento local perde relevância"}
+        {
+          "id": "a",
+          "text": "a autoridade máxima deixa de responder por suas competências"
+        },
+        {
+          "id": "b",
+          "text": "influência e iniciativa podem espalhar-se pela equipe ou rede, preservadas as responsabilidades legais"
+        },
+        {
+          "id": "c",
+          "text": "todos passam a decidir qualquer matéria"
+        },
+        {
+          "id": "d",
+          "text": "hierarquia formal se torna juridicamente inexistente"
+        },
+        {
+          "id": "e",
+          "text": "conhecimento local perde relevância"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "Distribuir liderança aproveita conhecimento e capacidade de diferentes atores. Isso não transfere automaticamente competência nem dissolve a accountability de quem detém atribuição formal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q826",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Liderança servidora e stewardship associam-se a",
       "options": [
-        {"id": "a", "text": "permissividade e ausência de padrões"},
-        {"id": "b", "text": "apropriação pessoal dos recursos públicos"},
-        {"id": "c", "text": "prioridade ao status do dirigente"},
-        {"id": "e", "text": "recusa de qualquer cobrança de desempenho"},
-        {"id": "d", "text": "serviço, escuta, desenvolvimento de pessoas e custódia responsável de capacidades e confiança"}
+        {
+          "id": "a",
+          "text": "permissividade e ausência de padrões"
+        },
+        {
+          "id": "b",
+          "text": "apropriação pessoal dos recursos públicos"
+        },
+        {
+          "id": "c",
+          "text": "serviço, escuta, desenvolvimento de pessoas e custódia responsável de capacidades e confiança"
+        },
+        {
+          "id": "d",
+          "text": "prioridade ao status do dirigente"
+        },
+        {
+          "id": "e",
+          "text": "recusa de qualquer cobrança de desempenho"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "Servir e exercer stewardship significa desenvolver pessoas e administrar responsavelmente algo que pertence à coletividade. Não implica paternalismo, permissividade ou renúncia a resultados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q827",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A liderança ambidestra combina",
       "options": [
-        {"id": "b", "text": "centralização permanente e ausência de experimentos"},
-        {"id": "c", "text": "criatividade sem decisão e sem prazo"},
-        {"id": "a", "text": "abertura para explorar alternativas e fechamento para selecionar, estruturar, executar e monitorar"},
-        {"id": "d", "text": "controle rígido em todas as fases, sem variação"},
-        {"id": "e", "text": "um único comportamento para qualquer contexto"}
+        {
+          "id": "a",
+          "text": "centralização permanente e ausência de experimentos"
+        },
+        {
+          "id": "b",
+          "text": "criatividade sem decisão e sem prazo"
+        },
+        {
+          "id": "c",
+          "text": "controle rígido em todas as fases, sem variação"
+        },
+        {
+          "id": "d",
+          "text": "abertura para explorar alternativas e fechamento para selecionar, estruturar, executar e monitorar"
+        },
+        {
+          "id": "e",
+          "text": "um único comportamento para qualquer contexto"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "Ambidestria alterna comportamentos conforme a etapa. Descoberta demanda abertura; implementação demanda convergência, prioridade e disciplina. Uma dimensão sem a outra prejudica inovação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q828",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na liderança da mudança, uma prática adequada é",
       "options": [
-        {"id": "e", "text": "diagnosticar prontidão, construir propósito e coalizão, desenvolver capacidade e acompanhar adoção e resultados"},
-        {"id": "a", "text": "tratar toda resistência como má-fé"},
-        {"id": "b", "text": "anunciar tecnologia e considerar a mudança concluída"},
-        {"id": "c", "text": "evitar mapear impactos para reduzir oposição"},
-        {"id": "d", "text": "manter incentivos e processos contraditórios com a nova prática"}
+        {
+          "id": "a",
+          "text": "tratar toda resistência como má-fé"
+        },
+        {
+          "id": "b",
+          "text": "anunciar tecnologia e considerar a mudança concluída"
+        },
+        {
+          "id": "c",
+          "text": "evitar mapear impactos para reduzir oposição"
+        },
+        {
+          "id": "d",
+          "text": "manter incentivos e processos contraditórios com a nova prática"
+        },
+        {
+          "id": "e",
+          "text": "diagnosticar prontidão, construir propósito e coalizão, desenvolver capacidade e acompanhar adoção e resultados"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Mudança efetiva altera comportamentos, capacidades, incentivos e rotinas. Resistência pode revelar riscos ou perdas legítimas; escutá-la não obriga aceitar toda objeção. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q829",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Segurança psicológica em uma equipe significa",
       "options": [
-        {"id": "b", "text": "condição para perguntar, discordar, admitir erros e propor ideias sem humilhação ou retaliação interpessoal"},
-        {"id": "a", "text": "impossibilidade de avaliar desempenho"},
-        {"id": "c", "text": "tolerância a fraude e assédio"},
-        {"id": "d", "text": "concordância permanente"},
-        {"id": "e", "text": "ausência de metas, avaliação e consequências, pois a equipe somente poderá admitir erros e discordar quando nenhuma cobrança de desempenho for possível"}
+        {
+          "id": "a",
+          "text": "condição para perguntar, discordar, admitir erros e propor ideias sem humilhação ou retaliação interpessoal"
+        },
+        {
+          "id": "b",
+          "text": "impossibilidade de avaliar desempenho"
+        },
+        {
+          "id": "c",
+          "text": "tolerância a fraude e assédio"
+        },
+        {
+          "id": "d",
+          "text": "concordância permanente"
+        },
+        {
+          "id": "e",
+          "text": "ausência de metas, avaliação e consequências, pois a equipe somente poderá admitir erros e discordar quando nenhuma cobrança de desempenho for possível"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "Segurança psicológica favorece aprendizagem, inovação e alerta precoce. Ela convive com padrões, avaliação e responsabilização e não protege condutas ilícitas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q830",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A relação correta entre diversidade e inclusão é",
       "options": [
-        {"id": "a", "text": "diversidade garante automaticamente influência igual"},
-        {"id": "b", "text": "inclusão elimina divergências"},
-        {"id": "c", "text": "diversidade amplia perspectivas presentes; inclusão cria condições para participação e influência efetivas"},
-        {"id": "d", "text": "ambas dispensam análise de equidade"},
-        {"id": "e", "text": "inclusão significa reduzir critérios de qualidade"}
+        {
+          "id": "a",
+          "text": "diversidade garante automaticamente influência igual"
+        },
+        {
+          "id": "b",
+          "text": "diversidade amplia perspectivas presentes; inclusão cria condições para participação e influência efetivas"
+        },
+        {
+          "id": "c",
+          "text": "inclusão elimina divergências"
+        },
+        {
+          "id": "d",
+          "text": "ambas dispensam análise de equidade"
+        },
+        {
+          "id": "e",
+          "text": "inclusão significa reduzir critérios de qualidade"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "A presença de pessoas ou perspectivas diversas não garante que suas vozes sejam ouvidas. Liderança inclusiva enfrenta barreiras, distribui voz e incorpora efeitos sobre grupos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q831",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A Matriz de Competências Essenciais de Liderança da Enap organiza nove competências nos eixos",
       "options": [
-        {"id": "a", "text": "planejamento, orçamento e controle"},
-        {"id": "d", "text": "estratégia, resultados e pessoas"},
-        {"id": "b", "text": "legalidade, impessoalidade e moralidade"},
-        {"id": "c", "text": "mercado, cliente e competição"},
-        {"id": "e", "text": "União, Estados e Municípios"}
+        {
+          "id": "a",
+          "text": "planejamento, orçamento e controle"
+        },
+        {
+          "id": "b",
+          "text": "legalidade, impessoalidade e moralidade"
+        },
+        {
+          "id": "c",
+          "text": "estratégia, resultados e pessoas"
+        },
+        {
+          "id": "d",
+          "text": "mercado, cliente e competição"
+        },
+        {
+          "id": "e",
+          "text": "União, Estados e Municípios"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "A Enap estrutura a matriz em estratégia, resultados e pessoas, com três competências em cada eixo. A matriz brasileira não deve ser atribuída à OCDE. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q832",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na matriz da Enap, a competência inovação e mudança integra o eixo",
       "options": [
-        {"id": "b", "text": "resultados, ao lado de orçamento e licitação"},
-        {"id": "c", "text": "pessoas, ao lado de remuneração e seleção"},
-        {"id": "d", "text": "controle, ao lado de auditoria e correição"},
-        {"id": "a", "text": "estratégia, ao lado de visão de futuro e comunicação estratégica"},
-        {"id": "e", "text": "mercado, ao lado de competição e lucro"}
+        {
+          "id": "a",
+          "text": "resultados, ao lado de orçamento e licitação"
+        },
+        {
+          "id": "b",
+          "text": "pessoas, ao lado de remuneração e seleção"
+        },
+        {
+          "id": "c",
+          "text": "controle, ao lado de auditoria e correição"
+        },
+        {
+          "id": "d",
+          "text": "estratégia, ao lado de visão de futuro e comunicação estratégica"
+        },
+        {
+          "id": "e",
+          "text": "mercado, ao lado de competição e lucro"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "O eixo estratégia reúne visão de futuro, inovação e mudança, e comunicação estratégica. A competência envolve questionar abordagens convencionais e criar ambiente de experimentação e melhoria. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q833",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A Recommendation of the Council on Public Service Leadership and Capability, OECD/LEGAL/0445, é",
       "options": [
-        {"id": "a", "text": "lei complementar brasileira sobre startups"},
-        {"id": "b", "text": "decreto federal que instituiu diretamente a matriz brasileira de nove competências de liderança da Enap e tornou sua aplicação obrigatória a todos os entes federativos"},
-        {"id": "c", "text": "norma constitucional autoaplicável em todos os entes"},
-        {"id": "d", "text": "modalidade de licitação da Lei nº 14.133/2021"},
-        {"id": "e", "text": "recomendação internacional de soft law sobre serviço público profissional, orientado por valores, responsivo, inclusivo e capaz"}
+        {
+          "id": "a",
+          "text": "lei complementar brasileira sobre startups"
+        },
+        {
+          "id": "b",
+          "text": "decreto federal que instituiu diretamente a matriz brasileira de nove competências de liderança da Enap e tornou sua aplicação obrigatória a todos os entes federativos"
+        },
+        {
+          "id": "c",
+          "text": "norma constitucional autoaplicável em todos os entes"
+        },
+        {
+          "id": "d",
+          "text": "modalidade de licitação da Lei nº 14.133/2021"
+        },
+        {
+          "id": "e",
+          "text": "recomendação internacional de soft law sobre serviço público profissional, orientado por valores, responsivo, inclusivo e capaz"
+        }
       ],
       "correctOptionId": "e",
       "explanation": "Adotada em 17 de janeiro de 2019, a recomendação da OCDE orienta capacidades e liderança no serviço público, mas não é lei brasileira autoaplicável nem fonte da matriz específica da Enap. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q834",
+      "revision": 1,
+      "prompt": "Uma servidora identifica uma barreira de acesso, articula áreas e propõe teste autorizado, sem possuir cargo de chefia. A classificação mais adequada é",
+      "options": [
+        {
+          "id": "a",
+          "text": "intraempreendedorismo público com liderança informal, limitado pelas alçadas institucionais"
+        },
+        {
+          "id": "b",
+          "text": "privatização tácita do serviço"
+        },
+        {
+          "id": "c",
+          "text": "exercício automático de competência superior"
+        },
+        {
+          "id": "d",
+          "text": "empreendedorismo privado dentro do órgão"
+        },
+        {
+          "id": "e",
+          "text": "delegação jurídica presumida"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A iniciativa dentro da organização pode ser empreendedora sem cargo formal, mas não cria competência jurídica. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q835",
+      "revision": 1,
+      "prompt": "Em uma política intersetorial, vários órgãos, municípios e organizações sociais redesenham conjuntamente o atendimento. O nível predominante do empreendedorismo é",
+      "options": [
+        {
+          "id": "a",
+          "text": "exclusivamente individual"
+        },
+        {
+          "id": "b",
+          "text": "sistêmico ou ecossistêmico"
+        },
+        {
+          "id": "c",
+          "text": "apenas operacional"
+        },
+        {
+          "id": "d",
+          "text": "estritamente patrimonial"
+        },
+        {
+          "id": "e",
+          "text": "privado mercantil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O problema atravessa organizações e exige coordenação entre atores, caracterizando escala sistêmica. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q836",
+      "revision": 1,
+      "prompt": "A distinção correta entre inovação e ideia é que",
+      "options": [
+        {
+          "id": "a",
+          "text": "qualquer ideia inédita já é inovação"
+        },
+        {
+          "id": "b",
+          "text": "somente invenção patenteada é inovação"
+        },
+        {
+          "id": "c",
+          "text": "inovação exige implementação de abordagem nova ou significativamente modificada"
+        },
+        {
+          "id": "d",
+          "text": "inovação dispensa resultado público"
+        },
+        {
+          "id": "e",
+          "text": "melhoria incremental nunca é inovação"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A ideia pode anteceder a inovação, mas a inovação requer implementação no contexto público. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q837",
+      "revision": 1,
+      "prompt": "Digitalizar formulário ineficiente sem rever exigências e fluxo",
+      "options": [
+        {
+          "id": "a",
+          "text": "comprova inovação transformadora"
+        },
+        {
+          "id": "b",
+          "text": "elimina risco de exclusão"
+        },
+        {
+          "id": "c",
+          "text": "garante efetividade"
+        },
+        {
+          "id": "d",
+          "text": "pode apenas automatizar desperdício, sem comprovar inovação ou valor público"
+        },
+        {
+          "id": "e",
+          "text": "torna desnecessária avaliação"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Digitalização é meio; é preciso verificar redesenho, utilidade, acesso e resultado. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q838",
+      "revision": 1,
+      "prompt": "No nível institucional do empreendedorismo público, é típico",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas mudar a interface de um formulário"
+        },
+        {
+          "id": "b",
+          "text": "abrir empresa em nome do órgão"
+        },
+        {
+          "id": "c",
+          "text": "transferir patrimônio ao servidor"
+        },
+        {
+          "id": "d",
+          "text": "dispensar autorização normativa"
+        },
+        {
+          "id": "e",
+          "text": "alterar regras, incentivos ou arranjos para viabilizar nova resposta pública"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O nível institucional envolve mudanças em regras e arranjos, não propriedade privada ou ausência de legalidade. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q839",
+      "revision": 1,
+      "prompt": "A autonomia do agente empreendedor público",
+      "options": [
+        {
+          "id": "a",
+          "text": "é limitada por competência, governança, orçamento e responsabilidade"
+        },
+        {
+          "id": "b",
+          "text": "equivale à propriedade dos recursos"
+        },
+        {
+          "id": "c",
+          "text": "afasta controle externo"
+        },
+        {
+          "id": "d",
+          "text": "permite descumprir regra em nome da missão"
+        },
+        {
+          "id": "e",
+          "text": "substitui a autoridade competente"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Proatividade não elimina os limites jurídicos e institucionais. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q840",
+      "revision": 1,
+      "prompt": "Uma solução já usada por outro governo pode ser inovação para determinado órgão quando",
+      "options": [
+        {
+          "id": "a",
+          "text": "é inédita mundialmente"
+        },
+        {
+          "id": "b",
+          "text": "é nova ou significativamente modificada no contexto e produz melhoria implementada"
+        },
+        {
+          "id": "c",
+          "text": "é apenas anunciada"
+        },
+        {
+          "id": "d",
+          "text": "elimina qualquer controle"
+        },
+        {
+          "id": "e",
+          "text": "é fornecida por startup"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Novidade contextual e implementação podem caracterizar inovação pública. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q841",
+      "revision": 1,
+      "prompt": "Uma melhoria de rotina que reduz retrabalho sem alterar o modelo de serviço é, em regra,",
+      "options": [
+        {
+          "id": "a",
+          "text": "necessariamente inovação transformadora"
+        },
+        {
+          "id": "b",
+          "text": "invenção sem aplicação"
+        },
+        {
+          "id": "c",
+          "text": "inovação incremental ou melhoria implementada"
+        },
+        {
+          "id": "d",
+          "text": "privatização"
+        },
+        {
+          "id": "e",
+          "text": "missão governamental"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mudanças graduais podem ser inovadoras sem transformar todo o modelo. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q842",
+      "revision": 1,
+      "prompt": "A atuação de equipe que redesenha um serviço inteiro, mantendo a política e as regras centrais, ocorre sobretudo no nível",
+      "options": [
+        {
+          "id": "a",
+          "text": "individual exclusivo"
+        },
+        {
+          "id": "b",
+          "text": "sistêmico obrigatório"
+        },
+        {
+          "id": "c",
+          "text": "jurisdicional"
+        },
+        {
+          "id": "d",
+          "text": "organizacional"
+        },
+        {
+          "id": "e",
+          "text": "mercantil"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O redesenho está centrado na organização e em sua capacidade de entrega. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q843",
+      "revision": 1,
+      "prompt": "Liderança informal no setor público",
+      "options": [
+        {
+          "id": "a",
+          "text": "substitui delegação formal"
+        },
+        {
+          "id": "b",
+          "text": "dissolve responsabilidade"
+        },
+        {
+          "id": "c",
+          "text": "dispensa prestação de contas"
+        },
+        {
+          "id": "d",
+          "text": "torna o servidor proprietário do projeto"
+        },
+        {
+          "id": "e",
+          "text": "pode mobilizar mudança, mas não confere competência decisória não prevista"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Influência e competência jurídica são conceitos distintos. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q844",
+      "revision": 1,
+      "prompt": "No triângulo estratégico do valor público, o ambiente autorizador corresponde a",
+      "options": [
+        {
+          "id": "a",
+          "text": "mandato, legitimidade, apoio, autorização e sustentação institucional"
+        },
+        {
+          "id": "b",
+          "text": "capacidade técnica isolada"
+        },
+        {
+          "id": "c",
+          "text": "lucro esperado"
+        },
+        {
+          "id": "d",
+          "text": "popularidade do líder"
+        },
+        {
+          "id": "e",
+          "text": "quantidade de ideias"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O ambiente autorizador reúne as bases de legitimidade e sustentação para agir. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q845",
+      "revision": 1,
+      "prompt": "Uma iniciativa produz benefício relevante e possui autorização, mas não dispõe de equipe, integração nem orçamento. Falta-lhe",
+      "options": [
+        {
+          "id": "a",
+          "text": "proposta de valor"
+        },
+        {
+          "id": "b",
+          "text": "capacidade operacional"
+        },
+        {
+          "id": "c",
+          "text": "pressuposto mercantil"
+        },
+        {
+          "id": "d",
+          "text": "competição"
+        },
+        {
+          "id": "e",
+          "text": "privatização"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Valor e autorização não substituem recursos, processos e competências de execução. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q846",
+      "revision": 1,
+      "prompt": "Apoio político amplo a uma solução que viola direitos",
+      "options": [
+        {
+          "id": "a",
+          "text": "garante legitimidade substantiva"
+        },
+        {
+          "id": "b",
+          "text": "substitui legalidade"
+        },
+        {
+          "id": "c",
+          "text": "não basta para gerar valor público legítimo"
+        },
+        {
+          "id": "d",
+          "text": "dispensa equidade"
+        },
+        {
+          "id": "e",
+          "text": "converte preferência em direito"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ambiente autorizador não elimina a avaliação de direitos, benefício e equidade. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q847",
+      "revision": 1,
+      "prompt": "Uma organização possui tecnologia e equipe excelentes, mas otimiza atividade sem utilidade social comprovada. O problema principal está na",
+      "options": [
+        {
+          "id": "a",
+          "text": "capacidade operacional"
+        },
+        {
+          "id": "b",
+          "text": "existência de controle"
+        },
+        {
+          "id": "c",
+          "text": "presença de servidores"
+        },
+        {
+          "id": "d",
+          "text": "proposta de valor público"
+        },
+        {
+          "id": "e",
+          "text": "estrutura de custos privada"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Capacidade pode acelerar atividade de pouco valor se a finalidade pública não estiver clara. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q848",
+      "revision": 1,
+      "prompt": "No triângulo estratégico, a ausência de ambiente autorizador tende a produzir",
+      "options": [
+        {
+          "id": "a",
+          "text": "eficiência automática"
+        },
+        {
+          "id": "b",
+          "text": "escalabilidade garantida"
+        },
+        {
+          "id": "c",
+          "text": "valor público mensurado"
+        },
+        {
+          "id": "d",
+          "text": "competência técnica ampliada"
+        },
+        {
+          "id": "e",
+          "text": "iniciativa sem sustentação, legitimidade ou mandato suficientes"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Boa ideia sem autorização e sustentação tende a ser bloqueada ou descontinuada. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q849",
+      "revision": 1,
+      "prompt": "Um serviço digital reduz custo médio, mas exclui cidadãos sem conectividade. A conclusão correta é",
+      "options": [
+        {
+          "id": "a",
+          "text": "eficiência parcial não comprova valor público nem equidade"
+        },
+        {
+          "id": "b",
+          "text": "redução de custo encerra a análise"
+        },
+        {
+          "id": "c",
+          "text": "o usuário excluído deixa de ser destinatário"
+        },
+        {
+          "id": "d",
+          "text": "digitalização substitui acesso"
+        },
+        {
+          "id": "e",
+          "text": "equidade é irrelevante"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Valor público exige considerar acesso, direitos e efeitos distributivos. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q850",
+      "revision": 1,
+      "prompt": "A capacidade operacional inclui",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente orçamento"
+        },
+        {
+          "id": "b",
+          "text": "pessoas, processos, tecnologia, dados, parceiros e governança"
+        },
+        {
+          "id": "c",
+          "text": "apenas autoridade legal"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente apoio político"
+        },
+        {
+          "id": "e",
+          "text": "somente comunicação"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A execução depende de um conjunto integrado de capacidades. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q851",
+      "revision": 1,
+      "prompt": "Uma proposta de valor público deve explicitar",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas número de atividades"
+        },
+        {
+          "id": "b",
+          "text": "somente retorno financeiro"
+        },
+        {
+          "id": "c",
+          "text": "benefício, destinatários, direitos e resultado relevante"
+        },
+        {
+          "id": "d",
+          "text": "preferência do dirigente"
+        },
+        {
+          "id": "e",
+          "text": "quantidade de reuniões"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Valor público não se confunde com atividade, conveniência interna ou popularidade. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q852",
+      "revision": 1,
+      "prompt": "O triângulo estratégico é útil porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "substitui a lei"
+        },
+        {
+          "id": "b",
+          "text": "elimina conflito político"
+        },
+        {
+          "id": "c",
+          "text": "garante causalidade"
+        },
+        {
+          "id": "d",
+          "text": "obriga a articular valor, legitimidade e capacidade"
+        },
+        {
+          "id": "e",
+          "text": "dispensa avaliação"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O modelo organiza condições de viabilidade, sem automatizar decisões. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q853",
+      "revision": 1,
+      "prompt": "Uma inovação com valor e capacidade, mas sem base normativa necessária, deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "ser executada informalmente"
+        },
+        {
+          "id": "b",
+          "text": "ocultar o teste"
+        },
+        {
+          "id": "c",
+          "text": "substituir a competência"
+        },
+        {
+          "id": "d",
+          "text": "ignorar o risco jurídico"
+        },
+        {
+          "id": "e",
+          "text": "buscar o ambiente autorizador adequado antes da implementação"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A legitimidade e a autorização integram a viabilidade da iniciativa. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q854",
+      "revision": 1,
+      "prompt": "A Nova Gestão Pública é frequentemente associada a",
+      "options": [
+        {
+          "id": "a",
+          "text": "desempenho, metas, autonomia gerencial e responsabilização"
+        },
+        {
+          "id": "b",
+          "text": "abandono de indicadores"
+        },
+        {
+          "id": "c",
+          "text": "eliminação de contratos"
+        },
+        {
+          "id": "d",
+          "text": "centralização absoluta"
+        },
+        {
+          "id": "e",
+          "text": "rejeição de eficiência"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A NPM enfatiza resultados e instrumentos gerenciais, sem constituir doutrina única. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q855",
+      "revision": 1,
+      "prompt": "Abordagens pós-NPM procuram enfrentar especialmente",
+      "options": [
+        {
+          "id": "a",
+          "text": "excesso de participação"
+        },
+        {
+          "id": "b",
+          "text": "fragmentação, silos e falta de coordenação"
+        },
+        {
+          "id": "c",
+          "text": "ausência de hierarquia em todo contexto"
+        },
+        {
+          "id": "d",
+          "text": "inexistência de metas"
+        },
+        {
+          "id": "e",
+          "text": "proibição de redes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A reintegração e o governo como um todo respondem à fragmentação. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q856",
+      "revision": 1,
+      "prompt": "Nova Governança Pública enfatiza",
+      "options": [
+        {
+          "id": "a",
+          "text": "lucro pessoal"
+        },
+        {
+          "id": "b",
+          "text": "controle exclusivamente mercantil"
+        },
+        {
+          "id": "c",
+          "text": "redes, coprodução, confiança e pluralidade de atores"
+        },
+        {
+          "id": "d",
+          "text": "isolamento organizacional"
+        },
+        {
+          "id": "e",
+          "text": "competição universal"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O referencial destaca relações interorganizacionais e produção conjunta. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q857",
+      "revision": 1,
+      "prompt": "Burocracia profissional, NPM e Nova Governança",
+      "options": [
+        {
+          "id": "a",
+          "text": "são fases universais mutuamente excludentes"
+        },
+        {
+          "id": "b",
+          "text": "eliminam legalidade"
+        },
+        {
+          "id": "c",
+          "text": "têm a mesma ênfase"
+        },
+        {
+          "id": "d",
+          "text": "podem coexistir em diferentes práticas da mesma organização"
+        },
+        {
+          "id": "e",
+          "text": "proíbem mensuração"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os referenciais respondem a problemas diferentes e podem ser combinados. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q858",
+      "revision": 1,
+      "prompt": "Governo catalisador significa",
+      "options": [
+        {
+          "id": "a",
+          "text": "ausência estatal"
+        },
+        {
+          "id": "b",
+          "text": "privatização obrigatória"
+        },
+        {
+          "id": "c",
+          "text": "eliminação de regulação"
+        },
+        {
+          "id": "d",
+          "text": "abandono de financiamento"
+        },
+        {
+          "id": "e",
+          "text": "dirigir, articular e garantir resultados sem executar necessariamente tudo"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Catalisar não é desaparecer; direção e garantia pública permanecem. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q859",
+      "revision": 1,
+      "prompt": "No princípio orientado por missão, a missão",
+      "options": [
+        {
+          "id": "a",
+          "text": "orienta escolhas sem autorizar descumprimento da legalidade"
+        },
+        {
+          "id": "b",
+          "text": "substitui normas"
+        },
+        {
+          "id": "c",
+          "text": "elimina controle"
+        },
+        {
+          "id": "d",
+          "text": "dispensa competência"
+        },
+        {
+          "id": "e",
+          "text": "torna metas irrelevantes"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Propósito não afasta o ordenamento nem a accountability. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q860",
+      "revision": 1,
+      "prompt": "O princípio preventivo prioriza",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas reagir a crises"
+        },
+        {
+          "id": "b",
+          "text": "atuar antes do dano ou do agravamento do problema"
+        },
+        {
+          "id": "c",
+          "text": "medir insumos"
+        },
+        {
+          "id": "d",
+          "text": "privatizar riscos"
+        },
+        {
+          "id": "e",
+          "text": "eliminar participação"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Prevenção busca evitar ou reduzir problemas antes de sua materialização. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q861",
+      "revision": 1,
+      "prompt": "A crítica correta à competição no setor público é que",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre superior"
+        },
+        {
+          "id": "b",
+          "text": "é sempre ilegal"
+        },
+        {
+          "id": "c",
+          "text": "pode gerar eficiência em alguns contextos e fragmentação em outros"
+        },
+        {
+          "id": "d",
+          "text": "substitui cooperação"
+        },
+        {
+          "id": "e",
+          "text": "não produz qualquer efeito"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O instrumento deve ser avaliado conforme contexto e efeitos sistêmicos. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q862",
+      "revision": 1,
+      "prompt": "Tratar o cidadão apenas como cliente é insuficiente porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "serviços não têm usuários"
+        },
+        {
+          "id": "b",
+          "text": "eficiência é proibida"
+        },
+        {
+          "id": "c",
+          "text": "satisfação nunca importa"
+        },
+        {
+          "id": "d",
+          "text": "cidadania envolve direitos, deveres, participação e interesse coletivo"
+        },
+        {
+          "id": "e",
+          "text": "o Estado não deve ouvir pessoas"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O foco no usuário é relevante, mas não esgota a relação pública. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q863",
+      "revision": 1,
+      "prompt": "Pós-NPM não implica",
+      "options": [
+        {
+          "id": "a",
+          "text": "coordenação interorganizacional"
+        },
+        {
+          "id": "b",
+          "text": "integração de serviços"
+        },
+        {
+          "id": "c",
+          "text": "redes"
+        },
+        {
+          "id": "d",
+          "text": "resultados sistêmicos"
+        },
+        {
+          "id": "e",
+          "text": "abandono de eficiência, resultados e responsabilidade"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A proposta é combinar desempenho com coordenação e valores públicos. Fonte: questão autoral inspirada em cobranças de concursos sobre Osborne e Gaebler e Nova Gestão Pública."
+    },
+    {
+      "id": "q864",
+      "revision": 1,
+      "prompt": "Uma automação de conferência documental é inovação principalmente de",
+      "options": [
+        {
+          "id": "a",
+          "text": "processo"
+        },
+        {
+          "id": "b",
+          "text": "política externa"
+        },
+        {
+          "id": "c",
+          "text": "liderança servidora"
+        },
+        {
+          "id": "d",
+          "text": "privatização"
+        },
+        {
+          "id": "e",
+          "text": "jurisdição"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O objeto modificado é o fluxo de trabalho. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q865",
+      "revision": 1,
+      "prompt": "Uma rede interinstitucional com regra comum de decisão representa inovação de",
+      "options": [
+        {
+          "id": "a",
+          "text": "produto privado"
+        },
+        {
+          "id": "b",
+          "text": "governança"
+        },
+        {
+          "id": "c",
+          "text": "apenas comunicação"
+        },
+        {
+          "id": "d",
+          "text": "patrimônio"
+        },
+        {
+          "id": "e",
+          "text": "carreira"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A mudança está no arranjo de coordenação e decisão. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q866",
+      "revision": 1,
+      "prompt": "Inovação antecipatória busca",
+      "options": [
+        {
+          "id": "a",
+          "text": "prever exatamente o futuro"
+        },
+        {
+          "id": "b",
+          "text": "reduzir toda incerteza"
+        },
+        {
+          "id": "c",
+          "text": "explorar futuros possíveis e preparar respostas"
+        },
+        {
+          "id": "d",
+          "text": "apenas melhorar rotina"
+        },
+        {
+          "id": "e",
+          "text": "eliminar cenários"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Antecipação trabalha com possibilidades e preparação, não previsão infalível. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q867",
+      "revision": 1,
+      "prompt": "Inovação orientada por missão procura",
+      "options": [
+        {
+          "id": "a",
+          "text": "executar tarefa isolada"
+        },
+        {
+          "id": "b",
+          "text": "substituir legalidade"
+        },
+        {
+          "id": "c",
+          "text": "evitar mensuração"
+        },
+        {
+          "id": "d",
+          "text": "mobilizar atores e capacidades para desafio público ambicioso"
+        },
+        {
+          "id": "e",
+          "text": "privatizar a política"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Missões organizam esforços em torno de problemas complexos e objetivos públicos. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q868",
+      "revision": 1,
+      "prompt": "Uma inovação regulatória pode ser simultaneamente",
+      "options": [
+        {
+          "id": "a",
+          "text": "necessariamente transformadora"
+        },
+        {
+          "id": "b",
+          "text": "sempre orientada por missão"
+        },
+        {
+          "id": "c",
+          "text": "incompatível com aperfeiçoamento"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente privada"
+        },
+        {
+          "id": "e",
+          "text": "adaptativa, se responder a mudança inesperada"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Objeto e orientação são dimensões distintas. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q869",
+      "revision": 1,
+      "prompt": "Aversão indiscriminada ao risco deve ser enfrentada por",
+      "options": [
+        {
+          "id": "a",
+          "text": "gestão de riscos, salvaguardas e alçadas claras"
+        },
+        {
+          "id": "b",
+          "text": "eliminação de controle"
+        },
+        {
+          "id": "c",
+          "text": "sigilo"
+        },
+        {
+          "id": "d",
+          "text": "improviso"
+        },
+        {
+          "id": "e",
+          "text": "delegação presumida"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O objetivo é governar o risco, não ignorá-lo. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q870",
+      "revision": 1,
+      "prompt": "Silos organizacionais dificultam inovação porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "aumentam automaticamente legitimidade"
+        },
+        {
+          "id": "b",
+          "text": "fragmentam informação, recursos e resultados"
+        },
+        {
+          "id": "c",
+          "text": "garantem interoperabilidade"
+        },
+        {
+          "id": "d",
+          "text": "eliminam conflito"
+        },
+        {
+          "id": "e",
+          "text": "criam valor público"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Problemas complexos exigem coordenação além das fronteiras internas. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q871",
+      "revision": 1,
+      "prompt": "A dependência excessiva de fornecedor pode ser mitigada por",
+      "options": [
+        {
+          "id": "a",
+          "text": "exclusividade sem justificativa"
+        },
+        {
+          "id": "b",
+          "text": "ausência de documentação"
+        },
+        {
+          "id": "c",
+          "text": "arquitetura, interoperabilidade, gestão contratual e análise de dependências"
+        },
+        {
+          "id": "d",
+          "text": "eliminação de padrões"
+        },
+        {
+          "id": "e",
+          "text": "abandono da governança"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A organização deve preservar capacidade e opções de continuidade. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q872",
+      "revision": 1,
+      "prompt": "Escolher a solução antes de compreender o problema aumenta o risco de",
+      "options": [
+        {
+          "id": "a",
+          "text": "gerar ambiente autorizador"
+        },
+        {
+          "id": "b",
+          "text": "provar causalidade"
+        },
+        {
+          "id": "c",
+          "text": "eliminar vieses"
+        },
+        {
+          "id": "d",
+          "text": "resolver sintoma irrelevante ou automatizar desperdício"
+        },
+        {
+          "id": "e",
+          "text": "garantir escala"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Diagnóstico e alternativas precedem compromisso com solução. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q873",
+      "revision": 1,
+      "prompt": "Baixa capacidade de dados exige",
+      "options": [
+        {
+          "id": "a",
+          "text": "decisão sem evidência"
+        },
+        {
+          "id": "b",
+          "text": "uso de qualquer dado disponível"
+        },
+        {
+          "id": "c",
+          "text": "supressão de participação"
+        },
+        {
+          "id": "d",
+          "text": "metas sem linha de base"
+        },
+        {
+          "id": "e",
+          "text": "melhoria de infraestrutura, qualidade e competência analítica"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Dados úteis dependem de qualidade, governança e capacidade de interpretação. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q874",
+      "revision": 1,
+      "prompt": "Reconhecer melhoria e aprendizagem ajuda a enfrentar",
+      "options": [
+        {
+          "id": "a",
+          "text": "incentivos voltados apenas à rotina"
+        },
+        {
+          "id": "b",
+          "text": "base legal"
+        },
+        {
+          "id": "c",
+          "text": "competência formal"
+        },
+        {
+          "id": "d",
+          "text": "direito adquirido"
+        },
+        {
+          "id": "e",
+          "text": "valor público"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Incentivos moldam comportamentos e disposição para melhorar. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q875",
+      "revision": 1,
+      "prompt": "Uma equipe inovadora sem patrocínio e sem tempo protegido enfrenta sobretudo",
+      "options": [
+        {
+          "id": "a",
+          "text": "excesso de escalabilidade"
+        },
+        {
+          "id": "b",
+          "text": "barreira de ambiente autorizador e recursos"
+        },
+        {
+          "id": "c",
+          "text": "carência de competição"
+        },
+        {
+          "id": "d",
+          "text": "problema de meronímia"
+        },
+        {
+          "id": "e",
+          "text": "privatização"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A iniciativa precisa de sustentação e condições práticas. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q876",
+      "revision": 1,
+      "prompt": "Copiar exatamente um piloto para contexto distinto",
+      "options": [
+        {
+          "id": "a",
+          "text": "garante fidelidade"
+        },
+        {
+          "id": "b",
+          "text": "dispensa adaptação"
+        },
+        {
+          "id": "c",
+          "text": "pode falhar por ignorar condições locais e mecanismo de valor"
+        },
+        {
+          "id": "d",
+          "text": "elimina risco"
+        },
+        {
+          "id": "e",
+          "text": "prova eficiência"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Escala responsável preserva o mecanismo, não necessariamente a forma. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q877",
+      "revision": 1,
+      "prompt": "Portfólio equilibrado de inovação",
+      "options": [
+        {
+          "id": "a",
+          "text": "escolhe uma única orientação"
+        },
+        {
+          "id": "b",
+          "text": "abandona melhoria incremental"
+        },
+        {
+          "id": "c",
+          "text": "evita antecipação"
+        },
+        {
+          "id": "d",
+          "text": "combina orientações diferentes conforme problemas e incertezas"
+        },
+        {
+          "id": "e",
+          "text": "proíbe missão"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Organizações precisam melhorar rotinas e explorar respostas a desafios emergentes. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q878",
+      "revision": 1,
+      "prompt": "Uma mudança de linguagem para tornar serviço compreensível é inovação de",
+      "options": [
+        {
+          "id": "a",
+          "text": "controle externo"
+        },
+        {
+          "id": "b",
+          "text": "patrimônio"
+        },
+        {
+          "id": "c",
+          "text": "licitação"
+        },
+        {
+          "id": "d",
+          "text": "hierarquia"
+        },
+        {
+          "id": "e",
+          "text": "comunicação"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O objeto principal é a forma de comunicação com os destinatários. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q879",
+      "revision": 1,
+      "prompt": "Um protótipo é mais adequado para",
+      "options": [
+        {
+          "id": "a",
+          "text": "representar e testar rapidamente aspectos da solução"
+        },
+        {
+          "id": "b",
+          "text": "provar impacto em larga escala"
+        },
+        {
+          "id": "c",
+          "text": "substituir contrato"
+        },
+        {
+          "id": "d",
+          "text": "garantir adoção"
+        },
+        {
+          "id": "e",
+          "text": "eliminar risco regulatório"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Protótipos reduzem incerteza inicial sobre desenho e uso. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q880",
+      "revision": 1,
+      "prompt": "Prova de conceito busca verificar",
+      "options": [
+        {
+          "id": "a",
+          "text": "legitimidade política"
+        },
+        {
+          "id": "b",
+          "text": "viabilidade técnica de princípio ou tecnologia"
+        },
+        {
+          "id": "c",
+          "text": "impacto distributivo completo"
+        },
+        {
+          "id": "d",
+          "text": "escalabilidade automática"
+        },
+        {
+          "id": "e",
+          "text": "satisfação universal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "PoC responde principalmente à incerteza técnica. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q881",
+      "revision": 1,
+      "prompt": "Piloto diferencia-se do protótipo porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre apenas desenho em papel"
+        },
+        {
+          "id": "b",
+          "text": "elimina necessidade de avaliação"
+        },
+        {
+          "id": "c",
+          "text": "opera em contexto real e escala limitada"
+        },
+        {
+          "id": "d",
+          "text": "garante contratação posterior"
+        },
+        {
+          "id": "e",
+          "text": "dispensa usuário real"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Piloto testa operação real, embora ainda não prove escala. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q882",
+      "revision": 1,
+      "prompt": "Sandbox regulatório",
+      "options": [
+        {
+          "id": "a",
+          "text": "elimina todas as normas"
+        },
+        {
+          "id": "b",
+          "text": "substitui piloto operacional"
+        },
+        {
+          "id": "c",
+          "text": "autoriza qualquer pessoa sem controle"
+        },
+        {
+          "id": "d",
+          "text": "autoriza teste temporário sob critérios e limites do regulador"
+        },
+        {
+          "id": "e",
+          "text": "garante sucesso técnico"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O ambiente é controlado e limitado à competência regulatória. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q883",
+      "revision": 1,
+      "prompt": "Escalar para cima significa",
+      "options": [
+        {
+          "id": "a",
+          "text": "replicar territorialmente"
+        },
+        {
+          "id": "b",
+          "text": "alterar cultura apenas"
+        },
+        {
+          "id": "c",
+          "text": "encerrar a solução"
+        },
+        {
+          "id": "d",
+          "text": "reduzir o alcance"
+        },
+        {
+          "id": "e",
+          "text": "institucionalizar em normas, políticas, orçamento ou estruturas"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Escala para cima incorpora a inovação ao arranjo institucional. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q884",
+      "revision": 1,
+      "prompt": "Escalar para fora significa",
+      "options": [
+        {
+          "id": "a",
+          "text": "replicar em outras unidades, organizações ou territórios"
+        },
+        {
+          "id": "b",
+          "text": "mudar cultura"
+        },
+        {
+          "id": "c",
+          "text": "criar base legal apenas"
+        },
+        {
+          "id": "d",
+          "text": "reduzir serviço"
+        },
+        {
+          "id": "e",
+          "text": "eliminar monitoramento"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A expansão horizontal leva a solução a outros contextos. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q885",
+      "revision": 1,
+      "prompt": "Desescalar uma iniciativa pode ser adequado quando",
+      "options": [
+        {
+          "id": "a",
+          "text": "a inovação já foi anunciada"
+        },
+        {
+          "id": "b",
+          "text": "evidência mostra ineficácia, injustiça ou insustentabilidade"
+        },
+        {
+          "id": "c",
+          "text": "há custo afundado"
+        },
+        {
+          "id": "d",
+          "text": "o líder é popular"
+        },
+        {
+          "id": "e",
+          "text": "o piloto usou tecnologia"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Aprendizagem responsável inclui reduzir ou encerrar o que não funciona. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q886",
+      "revision": 1,
+      "prompt": "Hipótese falsificada em experimento responsável",
+      "options": [
+        {
+          "id": "a",
+          "text": "é necessariamente fraude"
+        },
+        {
+          "id": "b",
+          "text": "prova negligência"
+        },
+        {
+          "id": "c",
+          "text": "pode gerar aprendizagem válida e evitar escala indevida"
+        },
+        {
+          "id": "d",
+          "text": "deve ser ocultada"
+        },
+        {
+          "id": "e",
+          "text": "obriga continuidade"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Resultado negativo pode reduzir incerteza e orientar decisão. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q887",
+      "revision": 1,
+      "prompt": "Repetir erro já conhecido sem correção caracteriza",
+      "options": [
+        {
+          "id": "a",
+          "text": "experimentação legítima"
+        },
+        {
+          "id": "b",
+          "text": "prototipagem"
+        },
+        {
+          "id": "c",
+          "text": "valor público"
+        },
+        {
+          "id": "d",
+          "text": "falha de aprendizagem e controle"
+        },
+        {
+          "id": "e",
+          "text": "liderança ambidestra"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Aprender exige registrar e mudar a conduta. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q888",
+      "revision": 1,
+      "prompt": "Falha de implementação deve levar prioritariamente a",
+      "options": [
+        {
+          "id": "a",
+          "text": "alterar a hipótese sem diagnóstico"
+        },
+        {
+          "id": "b",
+          "text": "chamar o problema de fraude"
+        },
+        {
+          "id": "c",
+          "text": "escalar imediatamente"
+        },
+        {
+          "id": "d",
+          "text": "eliminar monitoramento"
+        },
+        {
+          "id": "e",
+          "text": "ajustar capacidade, processo, treinamento ou execução"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O problema está na execução, não necessariamente no desenho da solução. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q889",
+      "revision": 1,
+      "prompt": "Dados administrativos representam apenas quem já acessa o serviço. A resposta adequada é",
+      "options": [
+        {
+          "id": "a",
+          "text": "complementar dados e examinar grupos excluídos"
+        },
+        {
+          "id": "b",
+          "text": "usar a média como prova de equidade"
+        },
+        {
+          "id": "c",
+          "text": "ignorar ausência de registro"
+        },
+        {
+          "id": "d",
+          "text": "eliminar participação"
+        },
+        {
+          "id": "e",
+          "text": "presumir cobertura universal"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dados podem ter viés de seleção e ocultar barreiras. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q890",
+      "revision": 1,
+      "prompt": "Participação social em inovação",
+      "options": [
+        {
+          "id": "a",
+          "text": "obriga atender toda preferência"
+        },
+        {
+          "id": "b",
+          "text": "informa diagnóstico e legitimidade, sem transferir automaticamente a competência"
+        },
+        {
+          "id": "c",
+          "text": "substitui decisão formal"
+        },
+        {
+          "id": "d",
+          "text": "elimina conflito"
+        },
+        {
+          "id": "e",
+          "text": "dispensa devolutiva"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Escopo e limites da participação precisam ser claros. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q891",
+      "revision": 1,
+      "prompt": "Controle proporcional ao risco significa",
+      "options": [
+        {
+          "id": "a",
+          "text": "ausência de controle em inovação"
+        },
+        {
+          "id": "b",
+          "text": "mesmo controle para todo risco"
+        },
+        {
+          "id": "c",
+          "text": "intensidade compatível com probabilidade, impacto e custo-benefício"
+        },
+        {
+          "id": "d",
+          "text": "sigilo obrigatório"
+        },
+        {
+          "id": "e",
+          "text": "proibição de experimento"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A proporcionalidade protege sem criar burocracia indiferenciada. Fonte: questão autoral inspirada em cobranças Cebraspe sobre governança e o Decreto nº 9.203/2017."
+    },
+    {
+      "id": "q892",
+      "revision": 1,
+      "prompt": "No Decreto nº 9.203/2017, governança usa os mecanismos de",
+      "options": [
+        {
+          "id": "a",
+          "text": "planejamento, orçamento e compras"
+        },
+        {
+          "id": "b",
+          "text": "missão, mercado e cliente"
+        },
+        {
+          "id": "c",
+          "text": "chefia, carisma e competição"
+        },
+        {
+          "id": "d",
+          "text": "liderança, estratégia e controle"
+        },
+        {
+          "id": "e",
+          "text": "regulação, privatização e lucro"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A tríade normativa é liderança, estratégia e controle. Fonte: questão autoral inspirada em cobranças Cebraspe sobre governança e o Decreto nº 9.203/2017."
+    },
+    {
+      "id": "q893",
+      "revision": 1,
+      "prompt": "Integridade, competência, responsabilidade e motivação são condições ligadas ao mecanismo de",
+      "options": [
+        {
+          "id": "a",
+          "text": "estratégia"
+        },
+        {
+          "id": "b",
+          "text": "controle"
+        },
+        {
+          "id": "c",
+          "text": "mercado"
+        },
+        {
+          "id": "d",
+          "text": "contratação"
+        },
+        {
+          "id": "e",
+          "text": "liderança"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O decreto associa essas condições às práticas de liderança. Fonte: questão autoral inspirada em cobranças Cebraspe sobre governança e o Decreto nº 9.203/2017."
+    },
+    {
+      "id": "q894",
+      "revision": 1,
+      "prompt": "Avaliação do ambiente, objetivos e alinhamento pertencem principalmente ao mecanismo de",
+      "options": [
+        {
+          "id": "a",
+          "text": "estratégia"
+        },
+        {
+          "id": "b",
+          "text": "liderança"
+        },
+        {
+          "id": "c",
+          "text": "controle"
+        },
+        {
+          "id": "d",
+          "text": "sandbox"
+        },
+        {
+          "id": "e",
+          "text": "stewardship"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Estratégia direciona prioridades e coordena a organização. Fonte: questão autoral inspirada em cobranças Cebraspe sobre governança e o Decreto nº 9.203/2017."
+    },
+    {
+      "id": "q895",
+      "revision": 1,
+      "prompt": "Gestão de riscos, controles internos e auditoria pertencem principalmente ao mecanismo de",
+      "options": [
+        {
+          "id": "a",
+          "text": "liderança"
+        },
+        {
+          "id": "b",
+          "text": "controle"
+        },
+        {
+          "id": "c",
+          "text": "estratégia"
+        },
+        {
+          "id": "d",
+          "text": "missão"
+        },
+        {
+          "id": "e",
+          "text": "coprodução"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Controle oferece segurança razoável e accountability. Fonte: questão autoral inspirada em cobranças Cebraspe sobre governança e o Decreto nº 9.203/2017."
+    },
+    {
+      "id": "q896",
+      "revision": 1,
+      "prompt": "Liderança sem estratégia pode",
+      "options": [
+        {
+          "id": "a",
+          "text": "garantir valor público"
+        },
+        {
+          "id": "b",
+          "text": "substituir planejamento"
+        },
+        {
+          "id": "c",
+          "text": "mobilizar pessoas sem direção clara"
+        },
+        {
+          "id": "d",
+          "text": "eliminar risco"
+        },
+        {
+          "id": "e",
+          "text": "provar resultado"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os mecanismos precisam operar de forma integrada. Fonte: questão autoral inspirada em cobranças Cebraspe sobre governança e o Decreto nº 9.203/2017."
+    },
+    {
+      "id": "q897",
+      "revision": 1,
+      "prompt": "Controle excessivamente uniforme pode",
+      "options": [
+        {
+          "id": "a",
+          "text": "garantir inovação"
+        },
+        {
+          "id": "b",
+          "text": "eliminar todo risco"
+        },
+        {
+          "id": "c",
+          "text": "aumentar legitimidade automaticamente"
+        },
+        {
+          "id": "d",
+          "text": "sufocar aprendizagem e proteger rotinas de pouco valor"
+        },
+        {
+          "id": "e",
+          "text": "substituir liderança"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Controles devem ser proporcionais e orientados ao risco. Fonte: questão autoral inspirada em cobranças Cebraspe sobre governança e o Decreto nº 9.203/2017."
+    },
+    {
+      "id": "q898",
+      "revision": 1,
+      "prompt": "Uma melhoria de eficiência média que piora acesso de pessoas com deficiência",
+      "options": [
+        {
+          "id": "a",
+          "text": "é inovação bem-sucedida por definição"
+        },
+        {
+          "id": "b",
+          "text": "dispensa correção"
+        },
+        {
+          "id": "c",
+          "text": "é neutra"
+        },
+        {
+          "id": "d",
+          "text": "deve ser escalada"
+        },
+        {
+          "id": "e",
+          "text": "pode reduzir valor público por perda de equidade e acessibilidade"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Resultados agregados não podem ocultar impactos distributivos. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q899",
+      "revision": 1,
+      "prompt": "No CPSI, o edital pode definir",
+      "options": [
+        {
+          "id": "a",
+          "text": "problema, resultados esperados e desafios, sem antecipar toda solução técnica"
+        },
+        {
+          "id": "b",
+          "text": "apenas marca comercial"
+        },
+        {
+          "id": "c",
+          "text": "contratada vencedora previamente"
+        },
+        {
+          "id": "d",
+          "text": "lucro do fornecedor"
+        },
+        {
+          "id": "e",
+          "text": "dispensa de critérios"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O instrumento permite contratação orientada ao problema. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q900",
+      "revision": 1,
+      "prompt": "O CPSI pode envolver",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente produto pronto"
+        },
+        {
+          "id": "b",
+          "text": "solução pronta ou a desenvolver, com ou sem risco tecnológico"
+        },
+        {
+          "id": "c",
+          "text": "apenas startup"
+        },
+        {
+          "id": "d",
+          "text": "necessariamente risco tecnológico"
+        },
+        {
+          "id": "e",
+          "text": "somente pessoa jurídica"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A LC nº 182 admite diferentes proponentes e estágios da solução. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q901",
+      "revision": 1,
+      "prompt": "A seleção de mais de uma solução no CPSI",
+      "options": [
+        {
+          "id": "a",
+          "text": "é proibida"
+        },
+        {
+          "id": "b",
+          "text": "obriga contratação posterior de todas"
+        },
+        {
+          "id": "c",
+          "text": "pode ocorrer para teste, conforme limite do edital"
+        },
+        {
+          "id": "d",
+          "text": "elimina competição"
+        },
+        {
+          "id": "e",
+          "text": "converte o CPSI em diálogo competitivo"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A lei admite pluralidade de soluções testadas. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q902",
+      "revision": 1,
+      "prompt": "Contrato de fornecimento após CPSI",
+      "options": [
+        {
+          "id": "a",
+          "text": "é obrigatório"
+        },
+        {
+          "id": "b",
+          "text": "é vedado"
+        },
+        {
+          "id": "c",
+          "text": "dispensa avaliação"
+        },
+        {
+          "id": "d",
+          "text": "é possibilidade legal, não consequência automática"
+        },
+        {
+          "id": "e",
+          "text": "decorre do simples piloto"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Administração decide conforme resultado e condições legais. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q903",
+      "revision": 1,
+      "prompt": "CPSI não é exclusivo de startups porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "startups não podem participar"
+        },
+        {
+          "id": "b",
+          "text": "somente autarquias contratam"
+        },
+        {
+          "id": "c",
+          "text": "não há licitação"
+        },
+        {
+          "id": "d",
+          "text": "o contrato é privado"
+        },
+        {
+          "id": "e",
+          "text": "a lei admite pessoas físicas, jurídicas e consórcios nas condições legais"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O universo de participantes é mais amplo. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q904",
+      "revision": 1,
+      "prompt": "Diálogo competitivo é adequado quando",
+      "options": [
+        {
+          "id": "a",
+          "text": "a Administração precisa dialogar para desenvolver alternativas em contratação complexa"
+        },
+        {
+          "id": "b",
+          "text": "já definiu solução simples"
+        },
+        {
+          "id": "c",
+          "text": "quer testar várias soluções por CPSI"
+        },
+        {
+          "id": "d",
+          "text": "deseja afastar qualquer norma"
+        },
+        {
+          "id": "e",
+          "text": "pretende contratar sem propostas finais"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A modalidade possui fase de diálogo e posterior competição final. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q905",
+      "revision": 1,
+      "prompt": "A diferença central entre CPSI e diálogo competitivo é que",
+      "options": [
+        {
+          "id": "a",
+          "text": "são sinônimos"
+        },
+        {
+          "id": "b",
+          "text": "o CPSI contrata teste de solução inovadora; o diálogo desenvolve alternativas para contratação complexa"
+        },
+        {
+          "id": "c",
+          "text": "ambos dispensam licitação"
+        },
+        {
+          "id": "d",
+          "text": "só startups participam de ambos"
+        },
+        {
+          "id": "e",
+          "text": "ambos garantem contrato posterior"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os instrumentos têm bases legais e finalidades distintas. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q906",
+      "revision": 1,
+      "prompt": "Sandbox regulatório não autoriza",
+      "options": [
+        {
+          "id": "a",
+          "text": "condições especiais temporárias"
+        },
+        {
+          "id": "b",
+          "text": "limites de teste"
+        },
+        {
+          "id": "c",
+          "text": "afastar normas fora da competência do regulador"
+        },
+        {
+          "id": "d",
+          "text": "monitoramento"
+        },
+        {
+          "id": "e",
+          "text": "autorização controlada"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O regulador atua dentro de sua competência. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q907",
+      "revision": 1,
+      "prompt": "Pagamento em CPSI com risco tecnológico",
+      "options": [
+        {
+          "id": "a",
+          "text": "só ocorre se a tecnologia funcionar integralmente"
+        },
+        {
+          "id": "b",
+          "text": "é sempre integral e antecipado"
+        },
+        {
+          "id": "c",
+          "text": "dispensa cronograma"
+        },
+        {
+          "id": "d",
+          "text": "considera o trabalho executado e as regras contratuais, não simples garantia de sucesso"
+        },
+        {
+          "id": "e",
+          "text": "elimina matriz de riscos"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O contrato deve disciplinar risco, execução e aferição. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q908",
+      "revision": 1,
+      "prompt": "Escolher instrumento jurídico de inovação exige",
+      "options": [
+        {
+          "id": "a",
+          "text": "preferência pessoal do dirigente"
+        },
+        {
+          "id": "b",
+          "text": "usar sempre CPSI"
+        },
+        {
+          "id": "c",
+          "text": "usar sempre diálogo competitivo"
+        },
+        {
+          "id": "d",
+          "text": "evitar planejamento"
+        },
+        {
+          "id": "e",
+          "text": "aderência à hipótese legal e à incerteza a enfrentar"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Instrumentos não podem ser escolhidos apenas por conveniência. Fonte: questão autoral inspirada em cobranças de concursos sobre a LC nº 182/2021 e a Lei nº 14.133/2021."
+    },
+    {
+      "id": "q909",
+      "revision": 1,
+      "prompt": "Gestão e liderança são complementares porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "gestão organiza entregas e liderança mobiliza propósito e mudança"
+        },
+        {
+          "id": "b",
+          "text": "gestão elimina pessoas"
+        },
+        {
+          "id": "c",
+          "text": "liderança substitui controle"
+        },
+        {
+          "id": "d",
+          "text": "só liderança planeja"
+        },
+        {
+          "id": "e",
+          "text": "só gestão produz resultado"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Organizações precisam de estrutura e mobilização. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q910",
+      "revision": 1,
+      "prompt": "Autoridade formal decorre de",
+      "options": [
+        {
+          "id": "a",
+          "text": "carisma"
+        },
+        {
+          "id": "b",
+          "text": "cargo, competência ou delegação"
+        },
+        {
+          "id": "c",
+          "text": "popularidade"
+        },
+        {
+          "id": "d",
+          "text": "rede informal"
+        },
+        {
+          "id": "e",
+          "text": "criatividade"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Autoridade jurídica não nasce apenas da influência. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q911",
+      "revision": 1,
+      "prompt": "Liderança transformacional enfatiza",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas correção de desvios"
+        },
+        {
+          "id": "b",
+          "text": "obediência sem sentido"
+        },
+        {
+          "id": "c",
+          "text": "visão, inspiração, desenvolvimento e mudança"
+        },
+        {
+          "id": "d",
+          "text": "ausência de meta"
+        },
+        {
+          "id": "e",
+          "text": "permissividade"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O modelo mobiliza propósito e desenvolvimento. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q912",
+      "revision": 1,
+      "prompt": "Liderança transacional",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre negativa"
+        },
+        {
+          "id": "b",
+          "text": "elimina controle"
+        },
+        {
+          "id": "c",
+          "text": "não funciona em rotina"
+        },
+        {
+          "id": "d",
+          "text": "pode sustentar metas, papéis, reconhecimento e conformidade"
+        },
+        {
+          "id": "e",
+          "text": "dispensa padrões"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Transações claras são úteis, embora não bastem para toda mudança. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q913",
+      "revision": 1,
+      "prompt": "Problema adaptativo exige",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas aplicar manual conhecido"
+        },
+        {
+          "id": "b",
+          "text": "somente autoridade técnica"
+        },
+        {
+          "id": "c",
+          "text": "improviso sem direção"
+        },
+        {
+          "id": "d",
+          "text": "eliminação de tensão"
+        },
+        {
+          "id": "e",
+          "text": "aprendizagem e mudança de valores, relações ou hábitos"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Desafios adaptativos não têm resposta técnica pronta. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q914",
+      "revision": 1,
+      "prompt": "O líder adaptativo deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "regular tensão e devolver parte do trabalho aos envolvidos"
+        },
+        {
+          "id": "b",
+          "text": "resolver tudo sozinho"
+        },
+        {
+          "id": "c",
+          "text": "eliminar divergência"
+        },
+        {
+          "id": "d",
+          "text": "ocultar conflito"
+        },
+        {
+          "id": "e",
+          "text": "fornecer resposta pronta"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A aprendizagem precisa envolver as pessoas afetadas. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q915",
+      "revision": 1,
+      "prompt": "Liderança distribuída significa",
+      "options": [
+        {
+          "id": "a",
+          "text": "ausência de autoridade"
+        },
+        {
+          "id": "b",
+          "text": "influência e iniciativa espalhadas, sem dissolver responsabilidade legal"
+        },
+        {
+          "id": "c",
+          "text": "decisão sem regra"
+        },
+        {
+          "id": "d",
+          "text": "fim da accountability"
+        },
+        {
+          "id": "e",
+          "text": "competência presumida"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Distribuição de liderança não elimina alçadas. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q916",
+      "revision": 1,
+      "prompt": "Liderança servidora",
+      "options": [
+        {
+          "id": "a",
+          "text": "é permissividade"
+        },
+        {
+          "id": "b",
+          "text": "evita feedback"
+        },
+        {
+          "id": "c",
+          "text": "prioriza serviço, escuta e desenvolvimento, sem dispensar exigência"
+        },
+        {
+          "id": "d",
+          "text": "rejeita metas"
+        },
+        {
+          "id": "e",
+          "text": "substitui governança"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Servir não significa tolerar baixo desempenho ou ilícito. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q917",
+      "revision": 1,
+      "prompt": "Stewardship destaca",
+      "options": [
+        {
+          "id": "a",
+          "text": "propriedade pessoal"
+        },
+        {
+          "id": "b",
+          "text": "privatização"
+        },
+        {
+          "id": "c",
+          "text": "carisma"
+        },
+        {
+          "id": "d",
+          "text": "custódia responsável de recursos e confiança que não pertencem ao líder"
+        },
+        {
+          "id": "e",
+          "text": "competição"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O líder atua como guardião do interesse e da continuidade institucional. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q918",
+      "revision": 1,
+      "prompt": "Liderança ambidestra combina",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas criatividade"
+        },
+        {
+          "id": "b",
+          "text": "apenas controle"
+        },
+        {
+          "id": "c",
+          "text": "ausência de decisão"
+        },
+        {
+          "id": "d",
+          "text": "mesmo estilo em toda fase"
+        },
+        {
+          "id": "e",
+          "text": "abertura para explorar e fechamento para selecionar e executar"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A combinação varia conforme descoberta e implementação. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q919",
+      "revision": 1,
+      "prompt": "Liderança de fronteiras exige",
+      "options": [
+        {
+          "id": "a",
+          "text": "traduzir linguagens, negociar papéis e construir accountability entre atores"
+        },
+        {
+          "id": "b",
+          "text": "comando hierárquico sobre todos"
+        },
+        {
+          "id": "c",
+          "text": "ausência de conflito"
+        },
+        {
+          "id": "d",
+          "text": "sigilo"
+        },
+        {
+          "id": "e",
+          "text": "competência jurídica universal"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Em redes, o líder mobiliza sem controlar todos os participantes. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q920",
+      "revision": 1,
+      "prompt": "Resistência à mudança pode indicar",
+      "options": [
+        {
+          "id": "a",
+          "text": "sempre má-fé"
+        },
+        {
+          "id": "b",
+          "text": "risco real, perda percebida, sobrecarga ou diagnóstico divergente"
+        },
+        {
+          "id": "c",
+          "text": "proibição de inovar"
+        },
+        {
+          "id": "d",
+          "text": "ausência de competência técnica"
+        },
+        {
+          "id": "e",
+          "text": "necessidade de punição automática"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Escutar resistência ajuda a separar objeções legítimas de interesses particulares. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q921",
+      "revision": 1,
+      "prompt": "Uma condução consistente da mudança inclui",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas publicar norma"
+        },
+        {
+          "id": "b",
+          "text": "instalar tecnologia e encerrar"
+        },
+        {
+          "id": "c",
+          "text": "diagnóstico, patrocínio, comunicação, capacidade, alinhamento e monitoramento"
+        },
+        {
+          "id": "d",
+          "text": "eliminar diálogo"
+        },
+        {
+          "id": "e",
+          "text": "ignorar incentivos"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mudança envolve rotinas, competências e relações. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q922",
+      "revision": 1,
+      "prompt": "Colaboração em rede",
+      "options": [
+        {
+          "id": "a",
+          "text": "garante consenso"
+        },
+        {
+          "id": "b",
+          "text": "dissolve autoridade"
+        },
+        {
+          "id": "c",
+          "text": "dispensa regras"
+        },
+        {
+          "id": "d",
+          "text": "não elimina conflito, papéis nem prestação de contas"
+        },
+        {
+          "id": "e",
+          "text": "substitui controle"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A governança da rede deve prever decisão e responsabilização. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q923",
+      "revision": 1,
+      "prompt": "Cargo de chefia",
+      "options": [
+        {
+          "id": "a",
+          "text": "elimina necessidade de confiança"
+        },
+        {
+          "id": "b",
+          "text": "cria competência ilimitada"
+        },
+        {
+          "id": "c",
+          "text": "dispensa comunicação"
+        },
+        {
+          "id": "d",
+          "text": "substitui conhecimento"
+        },
+        {
+          "id": "e",
+          "text": "não garante liderança efetiva"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Autoridade formal e influência são dimensões distintas. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q924",
+      "revision": 1,
+      "prompt": "Alta segurança psicológica e alta accountability tendem a produzir",
+      "options": [
+        {
+          "id": "a",
+          "text": "aprendizagem e desempenho responsável"
+        },
+        {
+          "id": "b",
+          "text": "apatia"
+        },
+        {
+          "id": "c",
+          "text": "zona de conforto"
+        },
+        {
+          "id": "d",
+          "text": "ansiedade silenciosa"
+        },
+        {
+          "id": "e",
+          "text": "ausência de padrão"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Pessoas podem falar e também respondem por padrões e resultados. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q925",
+      "revision": 1,
+      "prompt": "Alta segurança psicológica e baixa accountability podem gerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "alto desempenho garantido"
+        },
+        {
+          "id": "b",
+          "text": "zona de conforto"
+        },
+        {
+          "id": "c",
+          "text": "controle excessivo"
+        },
+        {
+          "id": "d",
+          "text": "silêncio defensivo"
+        },
+        {
+          "id": "e",
+          "text": "autoridade formal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Voz sem exigência pode reduzir disciplina de execução. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q926",
+      "revision": 1,
+      "prompt": "Baixa segurança psicológica e alta accountability podem gerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "aprendizagem aberta"
+        },
+        {
+          "id": "b",
+          "text": "inovação segura"
+        },
+        {
+          "id": "c",
+          "text": "ansiedade e ocultação de problemas"
+        },
+        {
+          "id": "d",
+          "text": "coprodução"
+        },
+        {
+          "id": "e",
+          "text": "autonomia responsável"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Cobrança sem segurança incentiva silêncio e comportamento defensivo. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q927",
+      "revision": 1,
+      "prompt": "Diversidade não garante inclusão porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "diversidade é irrelevante"
+        },
+        {
+          "id": "b",
+          "text": "inclusão elimina conflito"
+        },
+        {
+          "id": "c",
+          "text": "representação substitui decisão"
+        },
+        {
+          "id": "d",
+          "text": "perspectivas diversas só produzem efeito quando conseguem participar e influenciar"
+        },
+        {
+          "id": "e",
+          "text": "todo grupo pensa igual"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Inclusão transforma presença em participação efetiva. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q928",
+      "revision": 1,
+      "prompt": "Na matriz da Enap, visão de futuro, inovação e mudança e comunicação estratégica pertencem ao eixo",
+      "options": [
+        {
+          "id": "a",
+          "text": "resultados"
+        },
+        {
+          "id": "b",
+          "text": "pessoas"
+        },
+        {
+          "id": "c",
+          "text": "controle"
+        },
+        {
+          "id": "d",
+          "text": "licitações"
+        },
+        {
+          "id": "e",
+          "text": "estratégia"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Essas três competências compõem o eixo estratégia. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q929",
+      "revision": 1,
+      "prompt": "Na matriz da Enap, coordenação e colaboração em rede pertence ao eixo",
+      "options": [
+        {
+          "id": "a",
+          "text": "pessoas"
+        },
+        {
+          "id": "b",
+          "text": "estratégia"
+        },
+        {
+          "id": "c",
+          "text": "resultados"
+        },
+        {
+          "id": "d",
+          "text": "controle"
+        },
+        {
+          "id": "e",
+          "text": "mercado"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O eixo pessoas inclui redes, engajamento e autoconhecimento. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q930",
+      "revision": 1,
+      "prompt": "A recomendação OECD/LEGAL/0445",
+      "options": [
+        {
+          "id": "a",
+          "text": "é lei brasileira autoaplicável"
+        },
+        {
+          "id": "b",
+          "text": "é instrumento de soft law sobre liderança e capacidade do serviço público"
+        },
+        {
+          "id": "c",
+          "text": "substitui o Decreto nº 9.203"
+        },
+        {
+          "id": "d",
+          "text": "cria competência administrativa"
+        },
+        {
+          "id": "e",
+          "text": "é contrato internacional de compras"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A recomendação orienta políticas, sem ser lei brasileira autoaplicável. Fonte: questão autoral inspirada em cobranças Cebraspe sobre modelos de liderança no setor público."
+    },
+    {
+      "id": "q931",
+      "revision": 1,
+      "prompt": "Uma organização depende de um líder heroico e não institucionaliza processos. O principal risco é",
+      "options": [
+        {
+          "id": "a",
+          "text": "excesso de capacidade"
+        },
+        {
+          "id": "b",
+          "text": "valor público automático"
+        },
+        {
+          "id": "c",
+          "text": "descontinuidade quando a pessoa sai"
+        },
+        {
+          "id": "d",
+          "text": "controle proporcional"
+        },
+        {
+          "id": "e",
+          "text": "escala garantida"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Inovação sustentável exige estruturas e capacidades além da pessoa. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q932",
+      "revision": 1,
+      "prompt": "Em caso integrado, a decisão de escalar deve considerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas entusiasmo do piloto"
+        },
+        {
+          "id": "b",
+          "text": "somente economia"
+        },
+        {
+          "id": "c",
+          "text": "preferência do fornecedor"
+        },
+        {
+          "id": "d",
+          "text": "evidência, custo, equidade, capacidade, risco e governança"
+        },
+        {
+          "id": "e",
+          "text": "quantidade de publicidade"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Escala é decisão multidimensional. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
+    },
+    {
+      "id": "q933",
+      "revision": 1,
+      "prompt": "A melhor síntese de empreendedorismo público responsável é",
+      "options": [
+        {
+          "id": "a",
+          "text": "novidade sem controle"
+        },
+        {
+          "id": "b",
+          "text": "lucro do agente"
+        },
+        {
+          "id": "c",
+          "text": "digitalização obrigatória"
+        },
+        {
+          "id": "d",
+          "text": "carisma do dirigente"
+        },
+        {
+          "id": "e",
+          "text": "iniciativa implementada para valor público, com legitimidade, capacidade, evidências e accountability"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O conceito integra propósito, execução e responsabilidade. Fonte: questão autoral inspirada em padrões de cobrança do Cebraspe sobre empreendedorismo público e inovação."
     }
   ]
 }
