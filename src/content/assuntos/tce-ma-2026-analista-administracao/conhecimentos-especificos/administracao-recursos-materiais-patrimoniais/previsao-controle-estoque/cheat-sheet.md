@@ -1,48 +1,49 @@
-# Previsão e controle de estoque
+# Previsão e controle de estoque — revisão rápida
 
-> Política de estoque equilibra **continuidade + nível de serviço + custo de falta + custo de excesso**.
+> Política de estoque equilibra **continuidade, nível de serviço, custo, risco, validade, espaço e orçamento**.
 
-## Escopo e fontes
+## 1. Dados antes do modelo
 
-| Fonte | Regra-chave |
+| Grandeza | Significado |
 | --- | --- |
-| Lei nº 4.320/1964, art. 106, III | bens de almoxarifado: preço médio ponderado das compras |
-| NBC TSP 04 (R1) | tratamento contábil; aplicação indicada para exercícios iniciados em 01/01/2027 |
-| MCASP 11ª edição | procedimentos contábeis patrimoniais do setor público |
-| IN SEDAP nº 205/1988 | referência operacional do SISG federal; não é regra automática do TCE-MA |
+| solicitada | quanto o usuário pediu |
+| atendida | quanto foi entregue |
+| pendente | quanto permanece devido |
+| perdida | quanto foi cancelado, substituído ou não registrado |
+| saída | quanto saiu fisicamente |
 
-## Política de estoque
+**Ruptura censura a demanda.** Saída baixa durante falta não prova necessidade baixa.
 
-Definir por item ou classe:
+Verificar:
 
-- demanda, horizonte e unidade;
-- criticidade e consequência da falta;
-- nível de serviço;
-- sistema de revisão;
-- lead time e variabilidade;
-- segurança, ponto de pedido, lote e máximo;
-- validade, espaço, orçamento e responsáveis;
-- indicadores e frequência de revisão.
+- código e unidade de medida;
+- devoluções e estornos;
+- substituições;
+- pedidos represados;
+- campanhas e eventos extraordinários;
+- períodos de ruptura;
+- alteração normativa ou de serviço;
+- justificativa de outliers.
 
-### Custos
+## 2. Padrão da demanda
 
-- **Aquisição:** preço e custos diretamente atribuíveis.
-- **Pedido:** processar, contratar, emitir e acompanhar.
-- **Posse:** capital, espaço, seguro, controle, perda e obsolescência.
-- **Falta:** interrupção, urgência, atraso e risco.
+- **independente:** exige previsão ou observação do consumo;
+- **dependente:** calculada pelo item-pai;
+- **estável:** nível aproximadamente constante;
+- **tendência:** crescimento ou queda;
+- **sazonal:** ciclo repetido;
+- **intermitente:** muitos zeros e eventos positivos;
+- **errática:** picos sem padrão claro.
 
-# Demanda e previsão
+Métodos para intermitência:
 
-## Classificação
+- Croston;
+- SBA;
+- TSB;
+- quantil empírico;
+- cenários técnicos.
 
-- **Independente:** não deriva diretamente de outro item; costuma exigir previsão.
-- **Dependente:** calculada pelo item-pai ou pela programação.
-- **Estável:** nível aproximadamente constante.
-- **Tendência:** crescimento ou queda persistente.
-- **Sazonal:** padrão periódico repetido.
-- **Intermitente/errática:** zeros e picos; média pode enganar.
-
-## Fórmulas
+## 3. Previsão
 
 Média simples:
 
@@ -60,73 +61,97 @@ Suavização exponencial:
 
 $$F_{t+1}=\alpha A_t+(1-\alpha)F_t$$
 
-- $\alpha$ alto: mais resposta e menos suavização.
-- Forma simples: sem tendência/sazonalidade material.
+- $\alpha$ alto: reage mais e suaviza menos;
+- forma simples: sem tendência ou sazonalidade material.
 
 Tendência linear:
 
-$$\widehat{D_t}=a+bt$$
+$$\widehat D_t=a+bt$$
 
-## Erro
+## 4. Validação
 
-Convenção: $e_t=A_t-F_t$.
+1. separar treino e validação;
+2. manter ordem temporal;
+3. comparar com benchmark;
+4. usar origem móvel quando possível;
+5. medir erro fora da amostra;
+6. monitorar após implantação.
 
-| Medida | Cuidado |
+Benchmarks:
+
+- último valor;
+- média;
+- mesmo período anterior;
+- previsão vigente.
+
+Convenção:
+
+$$e_t=A_t-F_t$$
+
+| Métrica | Cuidado |
 | --- | --- |
-| MFE | sinais se anulam; mede viés |
-| MAD | erro absoluto na unidade original |
+| MFE | mede viés; sinais se anulam |
+| MAD | erro absoluto na unidade |
 | MSE/RMSE | penalizam erros grandes |
-| MAPE | inadequado com demanda zero ou muito baixa |
-| WAPE | razão agregada; exige soma da demanda significativa |
+| MAPE | falha com zero ou valor muito baixo |
+| WAPE | exige soma da demanda significativa |
+| MASE | compara com previsão ingênua |
+| tracking signal | erro acumulado ÷ MAD; declarar sinal |
 
-Não há erro aceitável universal.
+## 5. Saldo e posição
 
-# Níveis e ressuprimento
+$$
+utilizável=físico-vencido-bloqueado-reservado-avariado
+$$
 
-## Não confundir
+$$
+IP=utilizável+trânsito\ válido-faltas-compromissos
+$$
 
-- **Segurança:** buffer de incerteza.
-- **Mínimo:** piso da política; o nome varia.
-- **Ponto de pedido:** gatilho de reposição.
-- **Máximo:** teto ou nível-alvo.
-- **Cíclico:** parcela gerada pelo lote.
-- **Médio:** média durante o ciclo.
-- **Em trânsito:** pedido ainda indisponível.
+Pedido cancelado, vencido ou contestado não é disponibilidade certa.
 
-Posição:
+## 6. Lead time
 
-$$IP=disponível+em\ trânsito-faltas\ pendentes$$
+Componentes possíveis:
 
-## Lead time
+- aprovação;
+- contratação;
+- emissão da ordem;
+- fornecedor;
+- transporte;
+- recebimento;
+- inspeção;
+- liberação.
 
-Definir marco inicial e final. Pode incluir aprovação, contratação, ordem, produção, transporte, recebimento, inspeção e liberação.
+Definir início e fim. Se $d$ está em unidades/dia, $L$ deve estar em dias.
 
-> Se $d$ está em unidades/dia, $L$ deve estar em dias.
+## 7. Políticas de reposição
 
-## Revisão contínua
+| Política | Regra |
+| --- | --- |
+| $(Q,r)$ | atingiu $r$, pedir $Q$ |
+| $(R,S)$ | a cada $R$, elevar a $S$ |
+| $(s,S)$ | abaixo de $s$, elevar a $S$ |
+| base-stock | recompor nível-base |
+| duas gavetas | segunda protege prazo + segurança |
+
+Revisão contínua:
 
 $$PP=dL+SS$$
 
 $$E_{máx}\approx Q+SS$$
 
-$$E_{médio}\approx\frac{Q}{2}+SS$$
+$$E_{médio}\approx Q/2+SS$$
 
-- $PP$ responde **quando**.
-- $Q$ responde **quanto**.
-
-## Revisão periódica
+Revisão periódica:
 
 $$Q_{pedido}=S-IP$$
 
 Período protegido: **$R+L$**.
 
-## Duas gavetas
+## 8. IN SEDAP nº 205/1988
 
-Esvaziar a primeira dispara reposição; a segunda cobre lead time + segurança. Método visual não elimina cálculo.
-
-## IN SEDAP nº 205/1988
-
-Convenção federal, com $c$ em unidades/mês e tempos em meses:
+Convenção federal, com consumo mensal:
 
 $$Em=cf$$
 
@@ -136,20 +161,19 @@ $$Pp=Em+cT$$
 
 $$Q=cI$$
 
-- $T$: tempo de aquisição.
-- $I$: intervalo entre aquisições.
-- $f$: parcela temporal de segurança, em princípio $0{,}25T$ a $0{,}50T$ na IN.
-- Recalibrar parâmetros conforme resultados.
+Não é norma automática do TCE-MA.
 
-# Estoque de segurança
+## 9. Estoque de segurança
 
-Determinístico: $SS=0$ e $PP=dL$.
+Determinístico:
 
-Demanda variável e prazo fixo:
+$$SS=0;\quad PP=dL$$
 
-$$SS=z\sigma_d\sqrt{L}$$
+Demanda variável, prazo fixo:
 
-Demanda constante e prazo variável:
+$$SS=z\sigma_d\sqrt L$$
+
+Demanda constante, prazo variável:
 
 $$SS=zd\sigma_L$$
 
@@ -157,21 +181,31 @@ Demanda e prazo variáveis independentes:
 
 $$SS=z\sqrt{\bar L\sigma_d^2+d^2\sigma_L^2}$$
 
-Revisão periódica: incerteza sobre $R+L$.
-
-Heurística de máximos:
+Heurística:
 
 $$SS=(d_{máx}L_{máx})-(\bar d\bar L)$$
 
-Hipóteses, distribuição, independência e unidades precisam ser explícitas.
+Alternativas:
 
-# Lote econômico
+- quantil empírico;
+- bootstrap;
+- simulação;
+- cenários.
+
+**$z$ não determina automaticamente o fill rate.**
+
+## 10. Nível de serviço
+
+| Métrica | Pergunta |
+| --- | --- |
+| serviço por ciclo | houve ruptura no ciclo? |
+| fill rate | qual fração das unidades foi atendida? |
+| requisição completa | qual fração foi atendida integralmente? |
+| tempo de falta | por quanto tempo faltou? |
+
+## 11. Lote econômico
 
 $$Q^*=\sqrt{\frac{2DS}{H}}$$
-
-- $D$: unidades/ano.
-- $S$: R$/pedido.
-- $H$: R$/unidade-ano.
 
 Se $H=iC$:
 
@@ -181,76 +215,112 @@ $$C_{pedidos}=\frac{D}{Q}S$$
 
 $$C_{manutenção}=\frac{Q}{2}H$$
 
+$$N=\frac{D}{Q}$$
+
+$$T=\frac{Q}{D}$$
+
 No ótimo básico, pedido = manutenção.
 
-Hipóteses: demanda e prazo constantes, entrega instantânea, sem ruptura, sem desconto, custos constantes e item isolado.
+Hipóteses:
 
-LEC é apoio gerencial, não obrigação legal.
+- demanda constante;
+- prazo conhecido;
+- entrega integral e instantânea;
+- sem ruptura;
+- sem desconto;
+- custos constantes;
+- item isolado.
 
-# ABC e XYZ
+Com desconto: comparar custo total das faixas viáveis.
 
-## ABC
+LEC é apoio gerencial, não autorização legal.
+
+## 12. Segmentação
+
+ABC:
 
 $$VAC=D_{anual}\times C_{unitário}$$
 
-- A: maior impacto financeiro.
-- B: intermediário.
-- C: menor impacto financeiro.
-- Não há percentuais universais.
+- A: maior impacto financeiro;
+- B: intermediário;
+- C: menor impacto financeiro;
+- sem percentuais universais.
 
-## XYZ neste material
+XYZ, nesta página:
 
-- X: baixa criticidade.
-- Y: média.
-- Z: alta; falta ameaça continuidade ou segurança.
+- X: baixa criticidade;
+- Y: média;
+- Z: alta criticidade.
 
-Outra literatura usa XYZ para variabilidade: declarar a convenção.
+Outras fontes usam XYZ para variabilidade. Declarar a convenção.
 
-> ABC mede valor; XYZ mede criticidade. Item de baixo valor anual de consumo pode ser CZ.
+Avaliar também:
 
-# Indicadores
+- variabilidade;
+- lead time;
+- substituibilidade;
+- escassez;
+- validade;
+- portabilidade.
+
+Item barato pode ser crítico.
+
+## 13. Validade
+
+$$
+utilizável=físico-vencido-bloqueado-reservado-avariado
+$$
+
+**FEFO:** sai primeiro o que vence primeiro.
+
+FEFO físico não é automaticamente PEPS contábil.
+
+## 14. Indicadores
 
 $$Giro=\frac{consumo\ anual\ a\ custo}{estoque\ médio\ a\ custo}$$
 
-$$Cobertura=\frac{estoque\ disponível}{demanda\ média\ por\ período}$$
+$$Cobertura=\frac{estoque\ utilizável}{demanda\ média\ por\ período}$$
 
-- **Cycle service level:** probabilidade de ciclo sem ruptura.
-- **Fill rate:** fração da demanda atendida imediatamente.
-- **Ruptura:** informar se mede ocorrência, dia, unidade ou requisição.
-- **Acurácia de estoque:** físico × registro.
-- **Acurácia de previsão:** realizado × previsto.
+$$Fill\ rate=\frac{unidades\ atendidas\ imediatamente}{unidades\ demandadas}$$
 
-Giro alto pode significar eficiência ou falta; indicador isolado não explica causa.
+Informar numerador, denominador, período e unidade.
 
-# Avaliação contábil
+Giro alto pode significar eficiência ou ruptura.
 
-## NBC TSP 04 (R1)
+## 15. Avaliação contábil
 
-- Regra geral: menor entre custo e VRL.
-- Distribuição gratuita/valor irrisório: menor entre custo e custo corrente de reposição.
-- Sem contraprestação: valor justo no recebimento.
-- Custo: aquisição + transformação + outros para condição/local atuais.
-- Descontos e abatimentos reduzem custo.
-- Desperdício anormal, armazenagem desnecessária, administração sem contribuição e comercialização: despesa.
-- Perda/redução: resultado; reversão limitada à redução original.
+Lei nº 4.320/1964, art. 106, III:
 
-## Métodos
+- bens de almoxarifado: preço médio ponderado das compras.
 
-| Método | Regra |
-| --- | --- |
-| identificação específica | item não intercambiável/projeto específico |
-| PEPS | custos mais antigos saem primeiro |
-| média periódica | média no período |
-| média móvel | recalcula em cada recebimento |
-| UEPS | não permitido pela NBC TSP 04 (R1) |
+NBC TSP 04 (R1):
 
-## Pegadinhas
+- regra geral: menor entre custo e VRL;
+- distribuição gratuita ou irrisória: menor entre custo e custo corrente de reposição;
+- recebido sem contraprestação: valor justo no recebimento;
+- custo: aquisição + transformação + outros para condição e local;
+- desperdício anormal e armazenamento desnecessário: despesa;
+- métodos: identificação específica, PEPS e média ponderada;
+- UEPS não admitido.
 
-- preço médio ponderado ≠ última compra;
-- PEPS físico da IN ≠ PEPS contábil da NBC;
-- VRL ≠ valor justo líquido;
+IN nº 205/1988:
+
+- material mais antigo sai primeiro como rotação física.
+
+## 16. Pegadinhas
+
+- saída histórica ≠ demanda real;
+- melhor ajuste passado ≠ melhor previsão;
+- MAPE ≠ adequado com zeros;
+- saldo físico ≠ utilizável;
+- pedido emitido ≠ recebimento certo;
 - segurança ≠ ponto de pedido;
-- saldo físico ≠ posição de estoque;
-- giro alto ≠ resultado sempre bom;
-- MAPE ≠ adequado com zero;
-- IN SEDAP nº 205/1988 ≠ norma automática do TCE-MA.
+- $PP$ responde quando; $Q$ responde quanto;
+- revisão periódica protege $R+L$;
+- $z$ ≠ fill rate automático;
+- FEFO ≠ PEPS contábil;
+- ABC ≠ criticidade;
+- LEC ≠ obrigação legal;
+- preço médio ponderado ≠ última compra;
+- PEPS físico ≠ PEPS contábil;
+- IN nº 205/1988 ≠ norma automática do TCE-MA.
