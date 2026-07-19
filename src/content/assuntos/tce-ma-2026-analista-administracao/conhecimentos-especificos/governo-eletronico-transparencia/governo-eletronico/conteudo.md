@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: "Governo eletrônico: fundamentos, serviços, integração e governança"
-description: "Conceitos, modelos de maturidade, relações, serviços, canais, interoperabilidade, inclusão e governança do governo eletrônico."
+description: "Governo eletrônico e digital, serviços, plataformas, inclusão, identidade, interoperabilidade, dados, governança e automação responsável."
 order: 138
 storageId: "governo-eletronico"
 ---
@@ -23,7 +23,34 @@ Transparência, controle social, cidadania e accountability serão aprofundados 
 
 A Lei nº 14.129/2021 fornece a principal referência legislativa brasileira sobre Governo Digital e eficiência pública. Ela se aplica diretamente à administração federal indicada em seu art. 2º. Para administrações estaduais, distrital e municipais, seus comandos dependem de adoção por atos normativos próprios. A Estratégia Nacional de Governo Digital, a estratégia federal, a e-PING e o eMAG são referências importantes, mas instrumentos federais infralegais não vinculam automaticamente o TCE-MA.
 
-> **Corte de atualização:** normas e orientações consultadas até 16 de julho de 2026.
+> **Corte de atualização:** normas e orientações consultadas até 19 de julho de 2026.
+
+
+<!-- REVISAO-GOVERNO-ELETRONICO-2026 -->
+
+## Evolução do governo eletrônico no Brasil
+
+Uma leitura histórica útil separa etapas que podem coexistir:
+
+```text
+informatização interna
+→ presença institucional na internet
+→ interação e formulários
+→ transações digitais
+→ integração e plataformas compartilhadas
+→ governo orientado por dados, eventos de vida e valor público
+```
+
+A sequência é didática. Órgãos e serviços podem apresentar maturidades diferentes no mesmo período. Governo eletrônico não nasceu com transparência em tempo real, e a existência de portal não prova redesenho institucional.
+
+| Etapa | Núcleo | Limite frequente |
+| --- | --- | --- |
+| informatização | automatizar atividades internas | pouco efeito percebido pelo usuário |
+| presença | publicar informações | serviço ainda depende do balcão |
+| interação | permitir contato e envio inicial | processo interno continua fragmentado |
+| transação | concluir etapas on-line | dados e canais podem continuar isolados |
+| integração | conectar processos e registros | conexão técnica não resolve significado ou competência |
+| transformação | reorganizar serviços por necessidade pública | exige governança, inclusão e avaliação contínua |
 
 ## 2. Conceitos fundamentais
 
@@ -103,6 +130,25 @@ A ONU usa o E-Government Development Index (EGDI) para comparar governos naciona
 
 O EGDI é relativo e nacional. Ele não certifica a qualidade de um serviço, não mede isoladamente um órgão e não prova conformidade jurídica.
 
+
+## Governo como plataforma e capacidades compartilhadas
+
+Governo como plataforma significa disponibilizar capacidades reutilizáveis para que órgãos não reconstruam isoladamente componentes comuns. Não significa criar um único sistema monolítico.
+
+| Capacidade | Exemplos de uso |
+| --- | --- |
+| identidade | autenticação e gestão de credenciais |
+| representação | atuação por procurador ou representante de pessoa jurídica |
+| notificações | comunicação institucional e acompanhamento |
+| pagamentos | arrecadação e confirmação de transações |
+| assinatura | autoria e integridade de atos eletrônicos |
+| interoperabilidade | APIs, padrões e serviços de intercâmbio |
+| design | componentes acessíveis e linguagem consistente |
+| dados | catálogos, metadados e registros de referência |
+| observabilidade | logs, métricas, alertas e trilhas de auditoria |
+
+Reutilização reduz duplicidade, mas não elimina a responsabilidade de cada órgão pela finalidade, legalidade, segurança, qualidade e continuidade do serviço que oferece.
+
 ## 4. Princípios brasileiros de Governo Digital
 
 O art. 3º da Lei nº 14.129/2021 reúne diretrizes que se reforçam mutuamente:
@@ -124,6 +170,35 @@ O art. 3º da Lei nº 14.129/2021 reúne diretrizes que se reforçam mutuamente:
 - padrões e formatos preferencialmente abertos.
 
 Autosserviço é acesso ao serviço digital sem mediação humana. A lei o apresenta como preferência, não como obrigação absoluta. Plataforma única organiza o acesso, mas também não significa canal exclusivo.
+
+
+### 4.1 Princípio de pedir uma única vez
+
+O princípio frequentemente chamado de *once only* busca evitar que o usuário reapresente informação que a Administração já possui e pode reutilizar legitimamente.
+
+```text
+necessidade do dado
+→ busca por registro de referência
+→ verificação de competência e base jurídica
+→ avaliação de qualidade e atualidade
+→ acesso seguro e proporcional
+→ reutilização
+→ transparência e correção quando cabíveis
+```
+
+O princípio não autoriza acesso irrestrito. Um dado existente pode estar desatualizado, incompleto ou ser inadequado à finalidade. O usuário deve dispor de caminho para correção e contestação quando o dado afetar seu serviço.
+
+### 4.2 Integração, interoperabilidade e compartilhamento
+
+| Conceito | Pergunta central |
+| --- | --- |
+| integração | os componentes foram conectados? |
+| interoperabilidade | conseguem trocar e usar informação corretamente? |
+| compartilhamento | um dado foi disponibilizado a outro agente? |
+| reutilização | o dado foi empregado novamente em finalidade legítima? |
+| centralização | os dados foram concentrados fisicamente? |
+
+Pode haver integração técnica sem interoperabilidade semântica. Também pode haver interoperabilidade sem uma base física central única.
 
 ## 5. Serviços públicos eletrônicos
 
@@ -173,6 +248,43 @@ O painel de desempenho do art. 22 deve conter, no mínimo, para cada serviço:
 
 Outros indicadores úteis incluem taxa de conclusão, abandono, retrabalho, disponibilidade, incidentes, acessibilidade, custo, cobertura e desigualdade de acesso.
 
+
+### 5.4 Serviços proativos e eventos de vida
+
+Serviço proativo antecipa uma necessidade com base em evento legítimo e dado confiável. Pode lembrar vencimento, preencher dados, informar possível direito ou iniciar etapa prevista.
+
+A proatividade exige:
+
+- finalidade pública e base jurídica;
+- transparência sobre origem e uso dos dados;
+- qualidade, atualização e possibilidade de correção;
+- segurança e prevenção a fraude;
+- não discriminação;
+- possibilidade de contestação;
+- canal humano proporcional ao risco.
+
+Proatividade não equivale a decidir automaticamente contra o usuário. Pré-preenchimento também não elimina a obrigação de permitir revisão.
+
+### 5.5 Valor público e experiência ponta a ponta
+
+Um serviço deve ser avaliado pela solução do problema público, não apenas pela quantidade de etapas digitalizadas. A jornada inclui descoberta, solicitação, análise, decisão, comunicação, eventual recurso e conclusão.
+
+Indicadores úteis:
+
+| Dimensão | Exemplo |
+| --- | --- |
+| adoção | usuários digitais ÷ usuários elegíveis |
+| conclusão | jornadas concluídas ÷ iniciadas |
+| abandono | jornadas interrompidas ÷ iniciadas |
+| tempo | mediana e percentis da duração |
+| retrabalho | solicitações devolvidas ou repetidas |
+| disponibilidade | tempo disponível ÷ tempo previsto |
+| acessibilidade | barreiras confirmadas por testes |
+| inclusão | desempenho por território ou grupo |
+| satisfação | avaliação após a jornada |
+| custo | custo por transação concluída |
+| resultado | problema público efetivamente resolvido |
+
 ## 6. Canais e continuidade do atendimento
 
 Canal é o meio pelo qual a pessoa acessa informações, comunica-se ou recebe o serviço: portal, aplicativo, e-mail, telefone, chat, vídeo, unidade presencial ou correspondência.
@@ -186,6 +298,22 @@ Canal é o meio pelo qual a pessoa acessa informações, comunica-se ou recebe o
 Na multicanalidade, o usuário pode precisar repetir dados ao trocar de canal. Na omnicanalidade, o contexto acompanha a jornada quando isso é legal e tecnicamente adequado. Nenhuma das estratégias autoriza eliminar indiscriminadamente o atendimento presencial.
 
 O art. 14 exige tecnologias de amplo acesso, inclusive para população de baixa renda e residentes em áreas rurais ou isoladas, sem prejuízo do direito ao atendimento presencial.
+
+
+### 6.1 Atendimento digital assistido
+
+Atendimento digital assistido ajuda a pessoa a usar o serviço eletrônico sem retirar sua autonomia nem transformar o atendente em titular da decisão.
+
+Pode incluir:
+
+- orientação presencial ou remota;
+- equipamentos acessíveis;
+- apoio para leitura e preenchimento;
+- mediação em linguagem simples;
+- canais para recuperação de conta;
+- registro de consentimentos e representação quando exigidos.
+
+O desenho deve evitar que o auxílio exponha dados ou credenciais. O atendente não deve conhecer senha, código de autenticação ou fator secreto do usuário.
 
 ## 7. Inclusão e acessibilidade
 
@@ -205,6 +333,25 @@ O eMAG é o Modelo de Acessibilidade em Governo Eletrônico, alinhado a padrões
 
 O diagnóstico do TCU de 2024–2025 organizou acessibilidade digital em sete dimensões: governança; design e desenvolvimento; testes e validação; capacitação e cultura; atendimento e retorno do usuário; manutenção e melhoria; transparência. Isso demonstra que acessibilidade é qualidade e governança, não mero acabamento visual.
 
+
+### 7.1 Acessibilidade como processo
+
+Acessibilidade deve ser incorporada ao ciclo completo:
+
+```text
+governança
+→ requisitos
+→ design
+→ desenvolvimento
+→ testes automáticos e humanos
+→ publicação
+→ atendimento ao usuário
+→ monitoramento
+→ correção
+```
+
+Conformidade técnica é necessária, mas a verificação deve incluir pessoas com deficiência e tarefas reais. Uma página isolada pode ser acessível enquanto a jornada completa permanece bloqueada.
+
 ## 8. Identidade, segurança, privacidade e confiança
 
 Quatro conceitos não devem ser confundidos:
@@ -221,6 +368,33 @@ Interoperabilidade não autoriza compartilhamento irrestrito. Tratamento e uso c
 O art. 25 da Lei nº 14.129/2021 exige ferramentas claras e acessíveis de transparência e controle do tratamento de dados pessoais. Ressalvadas as hipóteses legais, elas informam fontes, finalidade específica e órgãos com os quais houve uso compartilhado, inclusive histórico, e permitem ao cidadão encaminhar requisições ao controlador.
 
 Confiança digital resulta da combinação de serviço funcional, acessível, transparente, seguro e responsável. Ela requer gestão de riscos, continuidade, prevenção a fraude, controles de acesso, registros de auditoria, resposta a incidentes e prestação de contas.
+
+
+### 8.1 Identidade digital, confiança e representação
+
+| Etapa | Pergunta |
+| --- | --- |
+| identificação | quem a pessoa declara ser? |
+| registro | como a identidade foi criada ou vinculada? |
+| autenticação | como a identidade é comprovada agora? |
+| autorização | quais ações são permitidas? |
+| representação | em nome de quem a pessoa atua? |
+| assinatura | como autoria e integridade se vinculam ao ato? |
+| auditoria | como o uso fica registrado? |
+
+O mecanismo de autenticação deve ser proporcional ao risco. Serviços informativos não exigem a mesma confiança que alteração cadastral sensível ou operação financeira.
+
+A governança deve prever:
+
+- autenticação multifator quando proporcional;
+- recuperação de conta segura;
+- prevenção e detecção de fraude;
+- representação de pessoa jurídica e procurações;
+- revogação de credenciais;
+- registros de acesso;
+- resposta a comprometimento de conta.
+
+Uma autenticação forte não corrige autorização excessiva, dado incorreto ou processo ilegal.
 
 ## 9. Interoperabilidade e integração
 
@@ -247,6 +421,40 @@ Formato aberto, segundo a lei, é não proprietário, documentado publicamente, 
 
 A e-PING define premissas, políticas e especificações técnicas mínimas de interoperabilidade para o Poder Executivo federal. Órgãos do SISP devem observá-la em planejamento de contratação, aquisição e atualização de sistemas. Para outros Poderes e entes federativos, sua adoção é facultativa. Padrões proprietários podem aparecer transitoriamente em legado ou quando não existir padrão aberto, observados segurança e integridade.
 
+
+### 9.4 Infraestrutura Nacional de Dados
+
+No âmbito federal, a Infraestrutura Nacional de Dados reúne normas, políticas, arquiteturas, padrões, ferramentas tecnológicas e ativos de informação para descoberta, interoperabilidade, acesso, uso estratégico, privacidade e segurança.
+
+| Elemento | Função |
+| --- | --- |
+| catálogo | localizar conjuntos, serviços e responsáveis |
+| metadado | explicar origem, significado, atualização e qualidade |
+| registro de referência | servir como fonte autorizada para dado básico |
+| vocabulário comum | reduzir divergência semântica |
+| serviço de intercâmbio | permitir acesso controlado |
+| governança | definir responsabilidade, qualidade e uso |
+| trilha de auditoria | registrar consultas e compartilhamentos |
+
+A IND possui âmbito federal próprio. Seu modelo pode orientar outros entes, mas não vincula automaticamente o TCE-MA.
+
+### 9.5 Qualidade e responsabilidade pelos dados
+
+Interoperabilidade amplifica tanto dados bons quanto erros. Antes da reutilização, devem ser avaliados:
+
+- titularidade e responsabilidade;
+- significado e unidade;
+- completude;
+- atualidade;
+- consistência;
+- duplicidade;
+- origem;
+- regras de correção;
+- disponibilidade;
+- restrições de acesso.
+
+O órgão consumidor não deve presumir que todo dado de outra base esteja correto apenas por ser governamental.
+
 ## 10. Governança do governo eletrônico
 
 Governança é o sistema pelo qual a alta administração direciona, monitora e avalia iniciativas para gerar valor público, controlar riscos e prestar contas. Gestão executa planos e opera serviços; governança define direção, supervisiona e avalia.
@@ -270,6 +478,34 @@ A ENGD 2024–2027, formalizada pelo Decreto nº 12.069/2024 e revisada pela Por
 
 A EFGD 2024–2027, instituída pelo Decreto nº 12.198/2024, dirige-se à Administração Pública federal direta, autárquica e fundacional. ENGD e EFGD não são sinônimos, e a EFGD não vincula automaticamente o TCE-MA.
 
+
+### 10.2 Portfólio, arquitetura e ciclo de vida
+
+Governança digital deve decidir:
+
+- quais problemas públicos têm prioridade;
+- quais capacidades podem ser compartilhadas;
+- quais sistemas devem ser mantidos, integrados, substituídos ou descontinuados;
+- quem responde por dados, segurança, acessibilidade e continuidade;
+- como benefícios e riscos serão medidos;
+- como dependências e fornecedores serão administrados.
+
+Uma solução tecnicamente sofisticada pode ser rejeitada quando cria dependência excessiva, custo de transição incompatível, risco de descontinuidade ou barreira de acesso.
+
+### 10.3 Instrumentos de planejamento
+
+| Instrumento | Papel |
+| --- | --- |
+| estratégia de governo digital | direção e prioridades |
+| plano de transformação | carteira de serviços e entregas |
+| arquitetura | princípios, componentes e integrações |
+| governança de dados | responsabilidade, qualidade e acesso |
+| plano de continuidade | resposta a indisponibilidade |
+| gestão de riscos | ameaças, controles e responsáveis |
+| indicadores | adoção, qualidade, inclusão e resultado |
+
+Planejamento deve conectar iniciativa, benefício esperado, responsável, prazo, recurso, risco e evidência de resultado.
+
 ## 11. Riscos, limites e erros recorrentes
 
 | Afirmação | Avaliação correta |
@@ -286,6 +522,49 @@ A EFGD 2024–2027, instituída pelo Decreto nº 12.198/2024, dirige-se à Admin
 | “acessibilidade é validada só por software” | falso: exige avaliação humana e contínua |
 | “EGDI mede um órgão público” | falso: compara países |
 | “mais serviços on-line significam maior valor público” | não necessariamente |
+
+
+## 11.1 Inteligência artificial e automação responsável
+
+IA pode apoiar triagem, busca, atendimento, previsão, detecção de anomalias e análise. A governança deve ser proporcional ao risco e incluir:
+
+- finalidade e base jurídica;
+- qualidade e representatividade dos dados;
+- documentação do modelo e de suas versões;
+- testes antes da implantação;
+- supervisão humana quando necessária;
+- monitoramento de erro, viés e deriva;
+- explicação adequada ao contexto;
+- registro das interações relevantes;
+- contestação e correção;
+- continuidade quando o modelo falhar.
+
+Chatbot disponível vinte e quatro horas é apenas um canal. Não prova transformação, correção jurídica ou qualidade da decisão.
+
+### 11.2 Gestão documental e preservação digital
+
+Serviços digitais produzem requerimentos, decisões, comprovantes, logs, metadados, assinaturas e comunicações. O meio eletrônico não elimina:
+
+- classificação documental;
+- temporalidade;
+- autenticidade;
+- integridade;
+- preservação;
+- acesso;
+- descarte autorizado;
+- proteção de dados.
+
+A exclusão técnica de arquivo não equivale automaticamente a eliminação documental regular.
+
+### 11.3 Casos integrados
+
+**Serviço excludente:** órgão encerra canal presencial e o formulário não funciona por teclado. Devem ser avaliados acessibilidade, inclusão, canal assistido e testes com usuários.
+
+**Dado existente, mas incorreto:** cadastro antigo é reutilizado e causa indeferimento. Devem existir transparência, correção, contestação e revisão proporcional.
+
+**API sem semântica comum:** sistemas conectados usam conceitos distintos para o mesmo campo. Há integração técnica, mas não interoperabilidade completa.
+
+**Chatbot conclusivo:** robô informa inexistência de direito e encerra a jornada. A resposta exige governança, registro, supervisão e canal de contestação.
 
 ## 12. Síntese para prova
 
@@ -304,12 +583,17 @@ A EFGD 2024–2027, instituída pelo Decreto nº 12.198/2024, dirige-se à Admin
 
 ## Referências
 
-- BRASIL. Presidência da República. [Lei nº 14.129, de 29 de março de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm). Versão vigente consultada em 16 jul. 2026.
-- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Estratégia Nacional de Governo Digital 2024–2027](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/estrategianacional/estrategia-nacional-de-governo-digital/). Revisão publicada pela Portaria SGD/MGI nº 5.395/2026. Acesso em 16 jul. 2026.
-- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Estratégia Federal de Governo Digital 2024–2027](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD). Acesso em 16 jul. 2026.
-- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Padrões de Interoperabilidade e-PING](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/interoperabilidade/padroes-de-interoperabilidade). Atualizado em 19 jun. 2026; acesso em 16 jul. 2026.
-- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Modelo de Acessibilidade em Governo Eletrônico](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/modelo-de-acessibilidade). Versão 3.1; acesso em 16 jul. 2026.
-- BRASIL. Tribunal de Contas da União. [Diagnóstico de Acessibilidade Digital](https://portal.tcu.gov.br/tecnologia-da-informacao/diagnostico-de-acessibilidade-digital). Fiscalização 2024–2025; acesso em 16 jul. 2026.
+
+- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Infraestrutura Nacional de Dados](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados). Atualizado em 29 jun. 2026; acesso em 19 jul. 2026.
+- BRASIL. Presidência da República. [Decreto nº 12.198, de 24 de setembro de 2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12198.htm). Institui a EFGD 2024–2027 e a Infraestrutura Nacional de Dados no âmbito federal.
+- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Revisão da Estratégia Nacional de Governo Digital 2024–2027](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/estrategianacional/revisao_engd_2026). Portaria SGD/MGI nº 5.395/2026; acesso em 19 jul. 2026.
+- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Estratégia Federal de Governo Digital 2024–2027](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD). Atualizações de 2026; acesso em 19 jul. 2026.
+- BRASIL. Presidência da República. [Lei nº 14.129, de 29 de março de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm). Versão vigente consultada em 19 jul. 2026.
+- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Estratégia Nacional de Governo Digital 2024–2027](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/estrategianacional/estrategia-nacional-de-governo-digital/). Revisão publicada pela Portaria SGD/MGI nº 5.395/2026. Acesso em 19 jul. 2026.
+- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Estratégia Federal de Governo Digital 2024–2027](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD). Acesso em 19 jul. 2026.
+- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Padrões de Interoperabilidade e-PING](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/interoperabilidade/padroes-de-interoperabilidade). Atualizado em 19 jun. 2026; acesso em 19 jul. 2026.
+- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Modelo de Acessibilidade em Governo Eletrônico](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/modelo-de-acessibilidade). Versão 3.1; acesso em 19 jul. 2026.
+- BRASIL. Tribunal de Contas da União. [Diagnóstico de Acessibilidade Digital](https://portal.tcu.gov.br/tecnologia-da-informacao/diagnostico-de-acessibilidade-digital). Fiscalização 2024–2025; acesso em 19 jul. 2026.
 - LAYNE, Karen; LEE, Jungwoo. [Developing fully functional E-government: A four stage model](https://doi.org/10.1016/S0740-624X(01)00066-1). Government Information Quarterly, 2001.
-- UNITED NATIONS. Department of Economic and Social Affairs. [E-Government Development Index](https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index). Acesso em 16 jul. 2026.
-- OECD. [Digital Government Index](https://goingdigital.oecd.org/en/indicator/58). Acesso em 16 jul. 2026.
+- UNITED NATIONS. Department of Economic and Social Affairs. [E-Government Development Index](https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index). Acesso em 19 jul. 2026.
+- OECD. [Digital Government Index](https://goingdigital.oecd.org/en/indicator/58). Acesso em 19 jul. 2026.
