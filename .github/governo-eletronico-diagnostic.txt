@@ -1,0 +1,13 @@
+.github/governo-eletronico-bundle.part1 chars= 4000 sha256= 350da45ff78292beacf76fc23df97148adda4e47c6f010fa3fbb95f8f01d3a3c
+.github/governo-eletronico-bundle.part2 chars= 4000 sha256= dac22da11408caec836de73bc7013e3d4d37be521a16ac71e2966e79a8076251
+.github/governo-eletronico-bundle.part3 chars= 4000 sha256= 9562e45366e285bc379b0fe661e2f4d9e83e649aa8285a781ca3e6975f6fbe0a
+.github/governo-eletronico-bundle.part4 chars= 4000 sha256= dc988bfa7ea172111cf6795837ae07d8b9e766045572ded56dfee7b5fbf36593
+.github/governo-eletronico-bundle.part5 chars= 3856 sha256= 1aa76853c16abced455f476c80baf95cc2f91ed71c04216ac6fa9b33169d1629
+Traceback (most recent call last):
+  File "/home/runner/work/concursos/concursos/.github/patch-governo-eletronico.py", line 251, in <module>
+    main()
+  File "/home/runner/work/concursos/concursos/.github/patch-governo-eletronico.py", line 247, in main
+    patch_questions(bundle)
+  File "/home/runner/work/concursos/concursos/.github/patch-governo-eletronico.py", line 236, in patch_questions
+    raise RuntimeError(f"unexpected current question set: {len(current)}")
+RuntimeError: unexpected current question set: 200
