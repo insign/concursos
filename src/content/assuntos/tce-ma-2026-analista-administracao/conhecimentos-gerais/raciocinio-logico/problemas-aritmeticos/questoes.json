@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q5259",
+      "revision": 1,
+      "prompt": "O valor de 3/4 + 5/6 é:",
+      "options": [
+        { "id": "A", "text": "13/12" },
+        { "id": "B", "text": "19/12" },
+        { "id": "C", "text": "8/10" },
+        { "id": "D", "text": "17/12" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O mínimo múltiplo comum de 4 e 6 é 12. Assim, 3/4 = 9/12 e 5/6 = 10/12, cuja soma é 19/12. Somar numeradores e denominadores diretamente ou usar conversões incompletas leva aos demais resultados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5260",
+      "revision": 1,
+      "prompt": "Uma repartição destinou 2/5 de 350 processos a uma equipe. Quantos processos essa equipe recebeu?",
+      "options": [
+        { "id": "A", "text": "70" },
+        { "id": "B", "text": "105" },
+        { "id": "C", "text": "175" },
+        { "id": "D", "text": "140" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A expressão '2/5 de 350' indica multiplicação: (2/5) × 350 = 2 × 70 = 140. O valor 70 corresponde apenas a um quinto, e 175 corresponde à metade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5261",
+      "revision": 1,
+      "prompt": "O menor inteiro positivo divisível simultaneamente por 12 e 18 é:",
+      "options": [
+        { "id": "A", "text": "36" },
+        { "id": "B", "text": "54" },
+        { "id": "C", "text": "72" },
+        { "id": "D", "text": "216" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pelas fatorações 12 = 2² × 3 e 18 = 2 × 3², o MMC usa as maiores potências: 2² × 3² = 36. Os números 72 e 216 são múltiplos comuns posteriores, enquanto 54 não é divisível por 12. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5262",
+      "revision": 1,
+      "prompt": "Dois procedimentos periódicos são executados, respectivamente, a cada 8 e 12 dias. Se ambos foram executados hoje, voltarão a coincidir após:",
+      "options": [
+        { "id": "A", "text": "16 dias" },
+        { "id": "B", "text": "20 dias" },
+        { "id": "C", "text": "24 dias" },
+        { "id": "D", "text": "48 dias" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A próxima coincidência ocorre no MMC de 8 e 12, que é 24. Somar os períodos produz 20 sem representar a simultaneidade, e 48 é um múltiplo comum posterior, mas não o primeiro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5263",
+      "revision": 1,
+      "prompt": "A razão 18:24, escrita na forma irredutível, é:",
+      "options": [
+        { "id": "A", "text": "2:3" },
+        { "id": "B", "text": "4:5" },
+        { "id": "C", "text": "3:4" },
+        { "id": "D", "text": "6:7" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O MDC de 18 e 24 é 6. Dividindo ambos os termos por 6, obtém-se 3:4, que preserva o quociente 18/24. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5264",
+      "revision": 1,
+      "prompt": "Se x/15 = 8/20, então x é igual a:",
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "10" },
+        { "id": "D", "text": "12" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na proporção, 20x = 15 × 8 = 120, portanto x = 6. O valor 8 é o numerador da razão dada, não o termo proporcional procurado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5265",
+      "revision": 1,
+      "prompt": "Um total de 720 unidades será dividido diretamente na razão 2:3:4. A maior parcela será:",
+      "options": [
+        { "id": "A", "text": "160" },
+        { "id": "B", "text": "240" },
+        { "id": "C", "text": "280" },
+        { "id": "D", "text": "320" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A soma dos pesos é 9, e cada unidade da razão vale 720/9 = 80. A maior parcela, associada ao peso 4, vale 4 × 80 = 320; 160 e 240 são as outras parcelas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5266",
+      "revision": 1,
+      "prompt": "Um prêmio de 600 unidades será dividido em parcelas inversamente proporcionais a 2 e 3. A parcela associada ao número 2 será:",
+      "options": [
+        { "id": "A", "text": "240" },
+        { "id": "B", "text": "360" },
+        { "id": "C", "text": "300" },
+        { "id": "D", "text": "400" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os pesos inversos são 1/2 e 1/3, equivalentes à razão 3:2. A parcela associada a 2 recebe o peso maior e vale 600 × 3/5 = 360; 240 é a outra parcela. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5267",
+      "revision": 1,
+      "prompt": "Se 5 unidades idênticas custam R$ 140,00, quanto custarão 8 unidades ao mesmo preço unitário?",
+      "options": [
+        { "id": "A", "text": "R$ 224,00" },
+        { "id": "B", "text": "R$ 210,00" },
+        { "id": "C", "text": "R$ 245,00" },
+        { "id": "D", "text": "R$ 280,00" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O preço unitário é 140/5 = 28 reais. Para 8 unidades, o custo é 8 × 28 = 224 reais. A relação é diretamente proporcional porque o preço unitário permanece constante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5268",
+      "revision": 1,
+      "prompt": "Se 6 trabalhadores de igual produtividade concluem um serviço em 15 dias, 10 trabalhadores, nas mesmas condições, concluirão o mesmo serviço em:",
+      "options": [
+        { "id": "A", "text": "6 dias" },
+        { "id": "B", "text": "8 dias" },
+        { "id": "C", "text": "9 dias" },
+        { "id": "D", "text": "10 dias" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Para trabalho fixo e produtividade igual, trabalhadores e tempo são inversamente proporcionais. Logo, 6 × 15 = 10t, de onde t = 9 dias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5269",
+      "revision": 1,
+      "prompt": "Quatro máquinas idênticas produzem 480 peças em 6 horas. Mantida a produtividade, 10 máquinas produzirão, em 3 horas:",
+      "options": [
+        { "id": "A", "text": "540 peças" },
+        { "id": "B", "text": "600 peças" },
+        { "id": "C", "text": "720 peças" },
+        { "id": "D", "text": "800 peças" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A produtividade é 480/(4 × 6) = 20 peças por máquina-hora. Assim, 10 × 3 × 20 = 600 peças. Usar apenas a razão entre máquinas ou apenas a razão entre tempos ignora uma das grandezas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5270",
+      "revision": 1,
+      "prompt": "Dezoito por cento de 250 correspondem a:",
+      "options": [
+        { "id": "A", "text": "36" },
+        { "id": "B", "text": "40" },
+        { "id": "C", "text": "42" },
+        { "id": "D", "text": "45" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Como 18% = 0,18, tem-se 0,18 × 250 = 45. Uma decomposição equivalente é 10% + 8% = 25 + 20 = 45. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5271",
+      "revision": 1,
+      "prompt": "Um produto de R$ 800,00 recebeu desconto de 15%. Seu preço final é:",
+      "options": [
+        { "id": "A", "text": "R$ 660,00" },
+        { "id": "B", "text": "R$ 670,00" },
+        { "id": "C", "text": "R$ 700,00" },
+        { "id": "D", "text": "R$ 680,00" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O fator de desconto é 1 - 0,15 = 0,85. Portanto, 800 × 0,85 = 680 reais. Subtrair apenas 15 unidades confundiria percentual com valor absoluto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5272",
+      "revision": 1,
+      "prompt": "Uma quantidade de 500 unidades aumentou 12%. O novo valor é:",
+      "options": [
+        { "id": "A", "text": "540" },
+        { "id": "B", "text": "560" },
+        { "id": "C", "text": "612" },
+        { "id": "D", "text": "620" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O aumento vale 500 × 0,12 = 60, e o novo valor é 500 + 60 = 560. Equivalentemente, aplica-se o fator 1,12. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5273",
+      "revision": 1,
+      "prompt": "Após desconto de 20%, um item passou a custar R$ 240,00. O preço anterior ao desconto era:",
+      "options": [
+        { "id": "A", "text": "R$ 288,00" },
+        { "id": "B", "text": "R$ 292,00" },
+        { "id": "C", "text": "R$ 300,00" },
+        { "id": "D", "text": "R$ 320,00" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O preço final corresponde a 80% do original: 0,8V = 240. Logo, V = 240/0,8 = 300. Somar 20% de 240 usa a base errada e não desfaz o desconto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5274",
+      "revision": 1,
+      "prompt": "Um valor aumenta 20% e, em seguida, diminui 20% sobre o valor já aumentado. Em relação ao valor inicial, o resultado representa:",
+      "options": [
+        { "id": "A", "text": "redução de 4%" },
+        { "id": "B", "text": "nenhuma variação" },
+        { "id": "C", "text": "aumento de 4%" },
+        { "id": "D", "text": "redução de 8%" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os fatores são 1,20 e 0,80, cujo produto é 0,96. O valor final equivale a 96% do inicial, isto é, redução de 4%. Somar +20% e -20% ignora que as bases são diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5275",
+      "revision": 1,
+      "prompt": "Uma taxa passou de 40% para 50%. Essa mudança equivale a:",
+      "options": [
+        { "id": "A", "text": "aumento de 10% e de 10 pontos percentuais" },
+        { "id": "B", "text": "aumento relativo de 25% e de 10 pontos percentuais" },
+        { "id": "C", "text": "aumento relativo de 20% e de 25 pontos percentuais" },
+        { "id": "D", "text": "aumento relativo de 50% e de 10 pontos percentuais" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A diferença absoluta é 50% - 40% = 10 pontos percentuais. Relativamente à taxa inicial, o aumento é 10/40 = 25%. Percentual relativo e ponto percentual não são sinônimos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5276",
+      "revision": 1,
+      "prompt": "Dois descontos sucessivos de 10% e 20% equivalem a um desconto único de:",
+      "options": [
+        { "id": "A", "text": "28%" },
+        { "id": "B", "text": "30%" },
+        { "id": "C", "text": "26%" },
+        { "id": "D", "text": "32%" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O valor remanescente é 0,90 × 0,80 = 0,72 do inicial. Portanto, o desconto equivalente é 1 - 0,72 = 0,28, ou 28%. Somar 10% e 20% desconsidera a mudança de base. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5277",
+      "revision": 1,
+      "prompt": "A média aritmética dos números 7, 9, 10 e 14 é:",
+      "options": [
+        { "id": "A", "text": "9" },
+        { "id": "B", "text": "9,5" },
+        { "id": "C", "text": "10,5" },
+        { "id": "D", "text": "10" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A soma é 7 + 9 + 10 + 14 = 40. Dividindo pelos quatro valores, a média é 10. Dividir por quantidade diferente de quatro altera indevidamente o resultado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5278",
+      "revision": 1,
+      "prompt": "Uma nota 6 tem peso 2, e uma nota 8 tem peso 3. A média ponderada é:",
+      "options": [
+        { "id": "A", "text": "6,8" },
+        { "id": "B", "text": "7,0" },
+        { "id": "C", "text": "7,2" },
+        { "id": "D", "text": "7,5" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A soma ponderada é 6 × 2 + 8 × 3 = 36, e a soma dos pesos é 5. Logo, a média é 36/5 = 7,2. A média simples 7 ignora os pesos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5279",
+      "revision": 1,
+      "prompt": "Cinco valores têm média 18. Ao acrescentar o valor 24 ao conjunto, a nova média passa a ser:",
+      "options": [
+        { "id": "A", "text": "18,5" },
+        { "id": "B", "text": "20" },
+        { "id": "C", "text": "19" },
+        { "id": "D", "text": "21" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A soma inicial é 5 × 18 = 90. Com o novo valor, a soma é 114 e há seis elementos; 114/6 = 19. Fazer a média apenas entre 18 e 24 trataria grupos de tamanhos diferentes como iguais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5280",
+      "revision": 1,
+      "prompt": "Um veículo percorre duas distâncias iguais, a primeira a 60 km/h e a segunda a 40 km/h. Sua velocidade média no percurso completo é:",
+      "options": [
+        { "id": "A", "text": "45 km/h" },
+        { "id": "B", "text": "50 km/h" },
+        { "id": "C", "text": "52 km/h" },
+        { "id": "D", "text": "48 km/h" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Para distâncias iguais, a média é 2 × 60 × 40/(60 + 40) = 48 km/h. A média simples de 50 km/h seria válida para tempos iguais, não para distâncias iguais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5281",
+      "revision": 1,
+      "prompt": "O triplo de um número, somado a 7, resulta em 40. Esse número é:",
+      "options": [
+        { "id": "A", "text": "11" },
+        { "id": "B", "text": "9" },
+        { "id": "C", "text": "13" },
+        { "id": "D", "text": "15" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A frase gera 3x + 7 = 40. Subtraindo 7 e dividindo por 3, obtém-se x = 11; a substituição confirma 3 × 11 + 7 = 40. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5282",
+      "revision": 1,
+      "prompt": "Dois números somam 30, e o maior excede o menor em 6. O menor número é:",
+      "options": [
+        { "id": "A", "text": "10" },
+        { "id": "B", "text": "12" },
+        { "id": "C", "text": "15" },
+        { "id": "D", "text": "18" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Com x + y = 30 e x - y = 6, a soma das equações dá x = 18; então y = 12. O valor 18 é o maior, e 15 seria apenas metade da soma se os números fossem iguais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5283",
+      "revision": 1,
+      "prompt": "Hoje, um pai tem quatro vezes a idade do filho. Daqui a 12 anos, terá o dobro da idade do filho. A idade atual do filho é:",
+      "options": [
+        { "id": "A", "text": "4 anos" },
+        { "id": "B", "text": "8 anos" },
+        { "id": "C", "text": "12 anos" },
+        { "id": "D", "text": "6 anos" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Se o filho tem x, o pai tem 4x. Daqui a 12 anos, 4x + 12 = 2(x + 12), o que dá x = 6. A verificação produz idades futuras 36 e 18, na razão 2:1. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5284",
+      "revision": 1,
+      "prompt": "A soma de dois números é 52, e a diferença entre o maior e o menor é 8. O maior número é:",
+      "options": [
+        { "id": "A", "text": "22" },
+        { "id": "B", "text": "26" },
+        { "id": "C", "text": "30" },
+        { "id": "D", "text": "34" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O maior é (52 + 8)/2 = 30, enquanto o menor é (52 - 8)/2 = 22. Os valores satisfazem simultaneamente soma 52 e diferença 8. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5285",
+      "revision": 1,
+      "prompt": "Uma pessoa conclui sozinha um serviço em 12 dias, mantendo taxa constante. Em 3 dias, ela executa qual fração do serviço?",
+      "options": [
+        { "id": "A", "text": "1/3" },
+        { "id": "B", "text": "1/4" },
+        { "id": "C", "text": "1/6" },
+        { "id": "D", "text": "3/4" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A taxa diária é 1/12 do serviço. Em 3 dias, executa 3 × 1/12 = 1/4. A fração 3/4 confunde dias trabalhados com dias restantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5286",
+      "revision": 1,
+      "prompt": "Uma pessoa realiza um serviço em 6 dias e outra, em 3 dias. Trabalhando juntas, com taxas constantes e aditivas, concluirão o serviço em:",
+      "options": [
+        { "id": "A", "text": "2 dias" },
+        { "id": "B", "text": "3 dias" },
+        { "id": "C", "text": "4 dias" },
+        { "id": "D", "text": "4,5 dias" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As taxas são 1/6 e 1/3, cuja soma é 1/2 do serviço por dia. O inverso da taxa conjunta é 2 dias. Somar ou tirar média dos tempos não combina corretamente as produtividades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5287",
+      "revision": 1,
+      "prompt": "Oito trabalhadores de igual produtividade executam uma tarefa em 15 dias. Com 12 trabalhadores nas mesmas condições, o tempo necessário será:",
+      "options": [
+        { "id": "A", "text": "10 dias" },
+        { "id": "B", "text": "12 dias" },
+        { "id": "C", "text": "18 dias" },
+        { "id": "D", "text": "22,5 dias" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A quantidade de trabalhador-dias é 8 × 15 = 120. Dividindo por 12 trabalhadores, são necessários 10 dias. A resposta pressupõe produtividade individual e jornada constantes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5288",
+      "revision": 1,
+      "prompt": "Uma tarefa levava 16 horas. Após aumento de 25% na produtividade, sem alterar a quantidade de trabalho, o novo tempo é:",
+      "options": [
+        { "id": "A", "text": "12 horas" },
+        { "id": "B", "text": "12,8 horas" },
+        { "id": "C", "text": "13 horas" },
+        { "id": "D", "text": "20 horas" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Para trabalho fixo, tempo e produtividade são inversamente proporcionais. O novo tempo é 16/1,25 = 12,8 horas. Subtrair diretamente 25% do tempo daria 12 horas e aplicaria indevidamente o mesmo percentual a grandezas inversas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5289",
+      "revision": 1,
+      "prompt": "Uma torneira despeja 150 litros por minuto em um reservatório vazio de 1.200 litros. Mantida a vazão e sem saída de água, o reservatório ficará cheio em:",
+      "options": [
+        { "id": "A", "text": "6 minutos" },
+        { "id": "B", "text": "7 minutos" },
+        { "id": "C", "text": "8 minutos" },
+        { "id": "D", "text": "10 minutos" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O tempo é volume dividido pela vazão: 1.200/150 = 8 minutos. Multiplicar as grandezas ou ignorar a unidade L/min não representa a relação física dada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5290",
+      "revision": 1,
+      "prompt": "Um reservatório vazio recebe 100 L/min, mas perde simultaneamente 25 L/min. Para acumular 900 litros, com vazões constantes, serão necessários:",
+      "options": [
+        { "id": "A", "text": "9 minutos" },
+        { "id": "B", "text": "10 minutos" },
+        { "id": "C", "text": "11 minutos" },
+        { "id": "D", "text": "12 minutos" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A vazão líquida é 100 - 25 = 75 L/min. Assim, 900/75 = 12 minutos. Usar apenas a entrada desconsideraria a perda simultânea. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5291",
+      "revision": 1,
+      "prompt": "Um veículo percorre 180 km em 2,5 horas, com velocidade média de:",
+      "options": [
+        { "id": "A", "text": "68 km/h" },
+        { "id": "B", "text": "72 km/h" },
+        { "id": "C", "text": "75 km/h" },
+        { "id": "D", "text": "90 km/h" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Velocidade média é distância total dividida pelo tempo total: 180/2,5 = 72 km/h. Tratar 2,5 horas como 2 horas e 5 minutos produziria uma conversão incorreta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5292",
+      "revision": 1,
+      "prompt": "Dois veículos estão separados por 280 km e seguem um ao encontro do outro, a 60 km/h e 80 km/h. Mantidas as velocidades, o encontro ocorrerá após:",
+      "options": [
+        { "id": "A", "text": "1 hora" },
+        { "id": "B", "text": "1,5 hora" },
+        { "id": "C", "text": "1,75 hora" },
+        { "id": "D", "text": "2 horas" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na aproximação em sentidos opostos, a velocidade relativa é 60 + 80 = 140 km/h. O tempo é 280/140 = 2 horas; subtrair velocidades corresponderia a uma perseguição no mesmo sentido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5293",
+      "revision": 1,
+      "prompt": "A soma de 1,5 km com 750 m, expressa em metros, é:",
+      "options": [
+        { "id": "A", "text": "900 m" },
+        { "id": "B", "text": "1.750 m" },
+        { "id": "C", "text": "2.250 m" },
+        { "id": "D", "text": "7.650 m" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Como 1,5 km = 1.500 m, a soma é 1.500 + 750 = 2.250 m. Somar 1,5 diretamente a 750 misturaria unidades incompatíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5294",
+      "revision": 1,
+      "prompt": "Um automóvel mantém 80 km/h durante 2 horas e 15 minutos. A distância percorrida é:",
+      "options": [
+        { "id": "A", "text": "180 km" },
+        { "id": "B", "text": "172 km" },
+        { "id": "C", "text": "176 km" },
+        { "id": "D", "text": "200 km" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quinze minutos correspondem a 0,25 hora, logo o tempo total é 2,25 horas. A distância é 80 × 2,25 = 180 km. Interpretar 2 h 15 min como 2,15 h é incorreto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5295",
+      "revision": 1,
+      "prompt": "Uma solução de 20 litros possui concentração de 30%. Ao adicionar 10 litros de água, sem perda de soluto, a nova concentração será:",
+      "options": [
+        { "id": "A", "text": "10%" },
+        { "id": "B", "text": "15%" },
+        { "id": "C", "text": "20%" },
+        { "id": "D", "text": "25%" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Há 20 × 0,30 = 6 litros de soluto, que permanecem após a adição de água. No total de 30 litros, a concentração é 6/30 = 20%. Subtrair pontos percentuais sem conservar o soluto não modela a diluição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5296",
+      "revision": 1,
+      "prompt": "Uma solução de 12 litros contém 25% de soluto. Quantos litros de soluto puro devem ser adicionados para que a concentração passe a 40%, admitindo volumes aditivos?",
+      "options": [
+        { "id": "A", "text": "2 litros" },
+        { "id": "B", "text": "3 litros" },
+        { "id": "C", "text": "4 litros" },
+        { "id": "D", "text": "5 litros" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A solução inicial contém 3 litros de soluto. Se x litros de soluto puro são adicionados, (3 + x)/(12 + x) = 0,40, o que fornece x = 3. O acréscimo entra tanto no numerador quanto no volume total. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5297",
+      "revision": 1,
+      "prompt": "Misturam-se 10 kg de um produto com 20% de uma substância e 15 kg de outro com 40% da mesma substância. A concentração final é:",
+      "options": [
+        { "id": "A", "text": "32%" },
+        { "id": "B", "text": "30%" },
+        { "id": "C", "text": "34%" },
+        { "id": "D", "text": "36%" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As quantidades da substância são 10 × 0,20 = 2 kg e 15 × 0,40 = 6 kg. No total, há 8 kg em 25 kg, isto é, 8/25 = 32%. A média simples de 30% ignora as massas diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5298",
+      "revision": 1,
+      "prompt": "Um comerciante mistura 20 kg de café a R$ 30,00 por kg com 30 kg de café a R$ 40,00 por kg. Sem outras despesas, o custo médio por quilograma da mistura é:",
+      "options": [
+        { "id": "A", "text": "R$ 34,00" },
+        { "id": "B", "text": "R$ 35,00" },
+        { "id": "C", "text": "R$ 38,00" },
+        { "id": "D", "text": "R$ 36,00" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O custo total é 20 × 30 + 30 × 40 = 1.800 reais para 50 kg. O custo médio é 1.800/50 = 36 reais por kg. A média simples de 35 reais não pondera as quantidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5299",
+      "revision": 1,
+      "prompt": "Um capital de R$ 2.000,00 é aplicado a juros simples de 2% ao mês por 5 meses. O valor dos juros é:",
+      "options": [
+        { "id": "A", "text": "R$ 100,00" },
+        { "id": "B", "text": "R$ 120,00" },
+        { "id": "C", "text": "R$ 180,00" },
+        { "id": "D", "text": "R$ 200,00" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Nos juros simples, J = Cit = 2.000 × 0,02 × 5 = 200 reais. O montante seria 2.200 reais, mas a pergunta solicita apenas os juros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5300",
+      "revision": 1,
+      "prompt": "Um capital de R$ 1.500,00 é aplicado a juros simples de 3% ao mês por 8 meses. O montante é:",
+      "options": [
+        { "id": "A", "text": "R$ 1.860,00" },
+        { "id": "B", "text": "R$ 1.740,00" },
+        { "id": "C", "text": "R$ 1.920,00" },
+        { "id": "D", "text": "R$ 2.040,00" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O montante simples é M = C(1 + it) = 1.500(1 + 0,03 × 8) = 1.500 × 1,24 = 1.860 reais. O acréscimo de 360 reais corresponde aos juros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5301",
+      "revision": 1,
+      "prompt": "Um capital de R$ 1.000,00 é aplicado a juros compostos de 10% por período durante dois períodos. O montante é:",
+      "options": [
+        { "id": "A", "text": "R$ 1.200,00" },
+        { "id": "B", "text": "R$ 1.210,00" },
+        { "id": "C", "text": "R$ 1.220,00" },
+        { "id": "D", "text": "R$ 1.100,00" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Nos juros compostos, M = 1.000 × (1,10)² = 1.210 reais. O valor 1.200 reais seria o montante pelo regime simples nas mesmas taxa e duração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5302",
+      "revision": 1,
+      "prompt": "Para R$ 1.000,00 aplicados a 10% por período durante dois períodos, a diferença entre os montantes composto e simples é:",
+      "options": [
+        { "id": "A", "text": "R$ 5,00" },
+        { "id": "B", "text": "R$ 20,00" },
+        { "id": "C", "text": "R$ 10,00" },
+        { "id": "D", "text": "R$ 100,00" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O montante composto é 1.000 × 1,1² = 1.210 reais, e o simples é 1.000(1 + 0,1 × 2) = 1.200 reais. A diferença é 10 reais, gerada pelos juros sobre os juros do primeiro período. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5303",
+      "revision": 1,
+      "prompt": "Na sequência 2, 5, 10, 17, ..., em que cada termo na posição n é n² + 1, o próximo termo é:",
+      "options": [
+        { "id": "A", "text": "26" },
+        { "id": "B", "text": "24" },
+        { "id": "C", "text": "25" },
+        { "id": "D", "text": "27" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O quinto termo é 5² + 1 = 26. As diferenças 3, 5, 7 e 9 também evidenciam o padrão de acréscimos ímpares consecutivos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5304",
+      "revision": 1,
+      "prompt": "Em uma progressão aritmética com primeiro termo 7 e razão 4, o 12º termo é:",
+      "options": [
+        { "id": "A", "text": "47" },
+        { "id": "B", "text": "48" },
+        { "id": "C", "text": "51" },
+        { "id": "D", "text": "55" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pelo termo geral, a12 = 7 + (12 - 1) × 4 = 7 + 44 = 51. Multiplicar a razão por 12 em vez de por 11 conta um intervalo a mais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5305",
+      "revision": 1,
+      "prompt": "A soma dos vinte primeiros inteiros positivos é:",
+      "options": [
+        { "id": "A", "text": "190" },
+        { "id": "B", "text": "200" },
+        { "id": "C", "text": "220" },
+        { "id": "D", "text": "210" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os inteiros de 1 a 20 formam uma PA. Sua soma é 20(1 + 20)/2 = 210. O produto 20 × 10 = 200 usaria média incorreta, pois a média dos extremos é 10,5. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5306",
+      "revision": 1,
+      "prompt": "Uma sequência é definida por a1 = 3 e an = 2a(n-1) + 1 para n maior que 1. O quarto termo é:",
+      "options": [
+        { "id": "A", "text": "23" },
+        { "id": "B", "text": "31" },
+        { "id": "C", "text": "15" },
+        { "id": "D", "text": "33" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aplicando a recorrência: a2 = 7, a3 = 15 e a4 = 31. O valor 15 é apenas o terceiro termo; a regra deve ser repetida até a posição solicitada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5307",
+      "revision": 1,
+      "prompt": "Duas horas e quarenta e cinco minutos correspondem a:",
+      "options": [
+        { "id": "A", "text": "145 minutos" },
+        { "id": "B", "text": "155 minutos" },
+        { "id": "C", "text": "165 minutos" },
+        { "id": "D", "text": "175 minutos" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Duas horas equivalem a 2 × 60 = 120 minutos. Somando 45, obtêm-se 165 minutos. A escrita 2,45 não representa 2 h 45 min em horas decimais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5308",
+      "revision": 1,
+      "prompt": "A massa de 3,5 kg, expressa em gramas, é:",
+      "options": [
+        { "id": "A", "text": "3.500 g" },
+        { "id": "B", "text": "350 g" },
+        { "id": "C", "text": "35.000 g" },
+        { "id": "D", "text": "3.050 g" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Como 1 kg = 1.000 g, 3,5 × 1.000 = 3.500 g. O deslocamento decimal deve refletir o fator mil, não cem ou dez mil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5309",
+      "revision": 1,
+      "prompt": "Um volume de 2,4 litros corresponde a:",
+      "options": [
+        { "id": "A", "text": "240 mL" },
+        { "id": "B", "text": "2.400 mL" },
+        { "id": "C", "text": "24.000 mL" },
+        { "id": "D", "text": "2.040 mL" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Como 1 L = 1.000 mL, 2,4 L equivalem a 2,4 × 1.000 = 2.400 mL. A unidade menor exige um número numericamente maior para a mesma capacidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5310",
+      "revision": 1,
+      "prompt": "A velocidade de 90 km/h, expressa em metros por segundo, é:",
+      "options": [
+        { "id": "A", "text": "18 m/s" },
+        { "id": "B", "text": "20 m/s" },
+        { "id": "C", "text": "22,5 m/s" },
+        { "id": "D", "text": "25 m/s" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Para converter km/h em m/s, divide-se por 3,6: 90/3,6 = 25 m/s. O fator combina 1.000 metros por quilômetro e 3.600 segundos por hora. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5311",
+      "revision": 1,
+      "prompt": "Um número de dois algarismos tem soma dos algarismos igual a 11 e excede em 27 o número obtido pela inversão dos algarismos. Esse número é:",
+      "options": [
+        { "id": "A", "text": "47" },
+        { "id": "B", "text": "74" },
+        { "id": "C", "text": "83" },
+        { "id": "D", "text": "65" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Se x é a dezena e y a unidade, x + y = 11 e 9(x - y) = 27, logo x - y = 3. O sistema fornece x = 7 e y = 4, formando 74; de fato, 74 - 47 = 27. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5312",
+      "revision": 1,
+      "prompt": "Qual dos números a seguir deixa resto 3 quando dividido por 7?",
+      "options": [
+        { "id": "A", "text": "41" },
+        { "id": "B", "text": "44" },
+        { "id": "C", "text": "45" },
+        { "id": "D", "text": "49" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Como 45 = 7 × 6 + 3, seu resto na divisão por 7 é 3. Os números 41, 44 e 49 deixam restos 6, 2 e 0, respectivamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5313",
+      "revision": 1,
+      "prompt": "Uma pessoa gasta 1/3 de um valor e, depois, gasta 1/4 do que restou. A fração do valor inicial que permanece é:",
+      "options": [
+        { "id": "A", "text": "1/3" },
+        { "id": "B", "text": "5/12" },
+        { "id": "C", "text": "7/12" },
+        { "id": "D", "text": "1/2" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Após o primeiro gasto, restam 2/3. O segundo gasto é 1/4 de 2/3, isto é, 1/6 do inicial; portanto, resta 2/3 - 1/6 = 1/2. Somar 1/3 e 1/4 trataria bases diferentes como iguais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5314",
+      "revision": 1,
+      "prompt": "Um salário de R$ 3.000,00 recebe aumento de 10%. Se a pessoa poupar 20% do novo salário, o valor poupado será:",
+      "options": [
+        { "id": "A", "text": "R$ 660,00" },
+        { "id": "B", "text": "R$ 600,00" },
+        { "id": "C", "text": "R$ 630,00" },
+        { "id": "D", "text": "R$ 720,00" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O novo salário é 3.000 × 1,10 = 3.300 reais. A poupança é 20% dessa nova base: 3.300 × 0,20 = 660 reais. Usar 20% do salário antigo daria 600 e ignoraria o aumento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5315",
+      "revision": 1,
+      "prompt": "Uma fábrica produzia 800 unidades. Após elevar a produção em 15%, constatou que 5% do novo total eram defeituosos. Quantas unidades não defeituosas foram obtidas?",
+      "options": [
+        { "id": "A", "text": "860" },
+        { "id": "B", "text": "880" },
+        { "id": "C", "text": "900" },
+        { "id": "D", "text": "874" }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A nova produção é 800 × 1,15 = 920. As unidades aproveitáveis correspondem a 95% desse total: 920 × 0,95 = 874. Somar 15% e subtrair 5% sobre a base antiga não respeita as etapas sucessivas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5316",
+      "revision": 1,
+      "prompt": "Um grupo de 20 pessoas tem média 70, e outro grupo de 30 pessoas tem média 80. A média do conjunto de 50 pessoas é:",
+      "options": [
+        { "id": "A", "text": "74" },
+        { "id": "B", "text": "76" },
+        { "id": "C", "text": "75" },
+        { "id": "D", "text": "78" }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A soma do primeiro grupo é 20 × 70 = 1.400 e a do segundo, 30 × 80 = 2.400. A média conjunta é 3.800/50 = 76. A média simples 75 ignora que os grupos têm tamanhos diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5317",
+      "revision": 1,
+      "prompt": "A soma de três inteiros consecutivos é 72. O maior deles é:",
+      "options": [
+        { "id": "A", "text": "25" },
+        { "id": "B", "text": "24" },
+        { "id": "C", "text": "26" },
+        { "id": "D", "text": "27" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Representando os números por x - 1, x e x + 1, sua soma é 3x = 72, então x = 24. O maior é x + 1 = 25; 24 é apenas o termo central. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5318",
+      "revision": 1,
+      "prompt": "Um reservatório está com 3/5 de sua capacidade. Após receber 240 litros, passa a conter 9/10 da capacidade. A capacidade total é:",
+      "options": [
+        { "id": "A", "text": "600 litros" },
+        { "id": "B", "text": "720 litros" },
+        { "id": "C", "text": "800 litros" },
+        { "id": "D", "text": "900 litros" }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O acréscimo corresponde a 9/10 - 3/5 = 9/10 - 6/10 = 3/10 da capacidade. Se 3/10 valem 240 litros, a capacidade é 240 × 10/3 = 800 litros. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

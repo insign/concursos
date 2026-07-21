@@ -143,115 +143,115 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - 3.1. Segurança da informação: noções de vírus, worms e pragas virtuais; programas de proteção (antivírus, firewall, anti-spyware); ameaças digitais (phishing, pharming).
 
-##### [>] Em progresso Assunto 028 - Item 3, subitem 3.2: Lei Geral de Proteção de Dados Pessoais.
+##### [x] Concluído Assunto 028 - Item 3, subitem 3.2: Lei Geral de Proteção de Dados Pessoais.
 
 - 3.2. Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018): conceitos fundamentais, direitos dos titulares e aplicação no setor público.
 
-##### [ ] Assunto 029 - Item 3, subitem 3.5: Marco Civil da Internet.
+##### [x] Concluído Assunto 029 - Item 3, subitem 3.5: Marco Civil da Internet.
 
 - 3.5. Marco Civil da Internet (Lei nº 12.965/2014): princípios, direitos e deveres para o uso da Internet no Brasil.
 
-##### [ ] Assunto 030 - Itens 3.4 e 4.4.3: Assinatura digital, assinatura eletrônica e certificação em documentos oficiais.
+##### [x] Concluído Assunto 030 - Itens 3.4 e 4.4.3: Assinatura digital, assinatura eletrônica e certificação em documentos oficiais.
 
 - 3.4. Noções de assinatura digital em processos administrativos.
 - 4.4.3. Noções de assinatura eletrônica e certificação digital em documentos oficiais.
 - Os dois recortes são tratados juntos por serem o mesmo núcleo funcional, sem duplicar assinatura e certificação nos demais assuntos.
 
-##### [ ] Assunto 031 - Item 4, subitens 4.4.1 e 4.4.2: Processo Eletrônico Nacional e Sistema Eletrônico de Informações.
+##### [x] Concluído Assunto 031 - Item 4, subitens 4.4.1 e 4.4.2: Processo Eletrônico Nacional e Sistema Eletrônico de Informações.
 
 - 4.4. Sistemas e ferramentas do setor público.
   - 4.4.1. Processo Eletrônico Nacional (PEN).
   - 4.4.2. Sistema Eletrônico de Informações (SEI).
 
-##### [ ] Assunto 032 - Item 4, subitens 4.1, 4.2 e 4.3: Governo digital, Gov.br, dados abertos e transparência digital.
+##### [x] Concluído Assunto 032 - Item 4, subitens 4.1, 4.2 e 4.3: Governo digital, Gov.br, dados abertos e transparência digital.
 
 - 4.1. Governo digital e serviços ao cidadão: plataforma Gov.br (login único, carteira digital, serviços integrados).
 - 4.2. Portal Nacional de Dados Abertos.
 - 4.3. Noções de transparência e acesso à informação pública (Lei nº 12.527/2011 - Lei de Acesso à Informação).
 - O subitem 4.3 é estudado aqui como aplicação introdutória no contexto digital; o regime jurídico completo da Lei nº 12.527/2011 pertence aos Assuntos 140 e 141.
 
-##### [ ] Assunto 033 - Item 4.5, recorte: inteligência artificial e automação de serviços públicos.
+##### [x] Concluído Assunto 033 - Item 4.5, recorte: inteligência artificial e automação de serviços públicos.
 
 - 4.5. Tecnologias emergentes no setor público: noções de inteligência artificial aplicada a serviços públicos (IA generativa, chatbots, atendimento automatizado).
 - O item 4.5 é desdobrado nos Assuntos 033 e 034 por núcleo tecnológico, sem repetir o conteúdo: este assunto trata de IA e automação.
 
-##### [ ] Assunto 034 - Item 4.5, recorte: big data, análise de dados, Internet das coisas e cidades inteligentes.
+##### [x] Concluído Assunto 034 - Item 4.5, recorte: big data, análise de dados, Internet das coisas e cidades inteligentes.
 
 - 4.5. Noções de big data e análise de dados para políticas públicas; Internet das coisas (IoT) em cidades inteligentes.
 
-##### [ ] Assunto 035 - Item 4.6: Ética, responsabilidade digital, desinformação, inclusão e acessibilidade.
+##### [x] Concluído Assunto 035 - Item 4.6: Ética, responsabilidade digital, desinformação, inclusão e acessibilidade.
 
 - 4.6. Ética e responsabilidade digital no serviço público: uso ético de tecnologias; combate a fake news e desinformação; inclusão digital e acessibilidade em serviços públicos.
 - Acessibilidade aqui significa inclusão e acesso digital em serviços públicos. As normas gerais de acessibilidade e mobilidade reduzida ficam no Assunto 100, e a aplicação da acessibilidade na gestão pública fica no Assunto 114; não duplicar esses recortes.
 
 #### Raciocínio Lógico
 
-##### [ ] Assunto 036 - Item 1: Estruturas lógicas.
+##### [x] Concluído Assunto 036 - Item 1: Estruturas lógicas.
 
 - Item 1. Estruturas lógicas.
 
-##### [ ] Assunto 037 - Item 2, subitem 2.1: Lógica de argumentação, analogias, inferências, deduções e conclusões.
+##### [x] Concluído Assunto 037 - Item 2, subitem 2.1: Lógica de argumentação, analogias, inferências, deduções e conclusões.
 
 - Item 2. Lógica de argumentação.
 - 2.1. Analogias, inferências, deduções e conclusões.
 
-##### [ ] Assunto 038 - Item 3, subitens 3.1 e 3.2: Proposições simples e compostas e tabelas-verdade.
+##### [x] Concluído Assunto 038 - Item 3, subitens 3.1 e 3.2: Proposições simples e compostas e tabelas-verdade.
 
 - 3.1. Proposições simples e compostas.
 - 3.2. Tabelas-verdade.
 
-##### [ ] Assunto 039 - Item 3, subitens 3.3, 3.4 e 3.5: Equivalências, leis de De Morgan e diagramas lógicos.
+##### [x] Concluído Assunto 039 - Item 3, subitens 3.3, 3.4 e 3.5: Equivalências, leis de De Morgan e diagramas lógicos.
 
 - 3.3. Equivalências.
 - 3.4. Leis de De Morgan.
 - 3.5. Diagramas lógicos.
 
-##### [ ] Assunto 040 - Item 4: Lógica de primeira ordem.
+##### [x] Concluído Assunto 040 - Item 4: Lógica de primeira ordem.
 
-##### [ ] Assunto 041 - Item 5: Princípios de contagem e probabilidade.
+##### [x] Concluído Assunto 041 - Item 5: Princípios de contagem e probabilidade.
 
 - Item 5. Princípios de contagem e probabilidade.
 
-##### [ ] Assunto 042 - Item 6: Operações com conjuntos.
+##### [x] Concluído Assunto 042 - Item 6: Operações com conjuntos.
 
-##### [ ] Assunto 043 - Item 7, recorte: problemas aritméticos.
+##### [x] Concluído Assunto 043 - Item 7, recorte: problemas aritméticos.
 
 - Item 7. Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais.
 - O item 7 é desdobrado nos Assuntos 043 a 045 por domínio matemático, sem repetição do conteúdo: este assunto trata de aritmética.
 
-##### [ ] Assunto 044 - Item 7, recorte: problemas geométricos.
+##### [x] Concluído Assunto 044 - Item 7, recorte: problemas geométricos.
 
-##### [ ] Assunto 045 - Item 7, recorte: problemas matriciais.
+##### [x] Concluído Assunto 045 - Item 7, recorte: problemas matriciais.
 
 #### Controle Externo
 
-##### [ ] Assunto 046 - Itens 1 e 2: Conceito, tipos, formas e controle interno e externo.
+##### [x] Concluído Assunto 046 - Itens 1 e 2: Conceito, tipos, formas e controle interno e externo.
 
 - Item 1. Conceito, tipos e formas de controle.
 - Item 2. Controle interno e externo.
 
-##### [ ] Assunto 047 - Item 3: Controle parlamentar.
+##### [x] Concluído Assunto 047 - Item 3: Controle parlamentar.
 
-##### [ ] Assunto 048 - Item 4: Controle pelos tribunais de contas.
+##### [x] Concluído Assunto 048 - Item 4: Controle pelos tribunais de contas.
 
-##### [ ] Assunto 049 - Item 5: Controle administrativo.
+##### [x] Concluído Assunto 049 - Item 5: Controle administrativo.
 
-##### [ ] Assunto 050 - Item 6, recorte: sujeitos, atos e regime de responsabilização da Lei nº 8.429/1992.
+##### [x] Concluído Assunto 050 - Item 6, recorte: sujeitos, atos e regime de responsabilização da Lei nº 8.429/1992.
 
 - Item 6. Lei nº 8.429/1992 (Lei de Improbidade Administrativa): sujeitos, atos de improbidade e regime de responsabilização.
 
-##### [ ] Assunto 051 - Item 6, recorte: sanções, procedimento, bens e prescrição da Lei nº 8.429/1992.
+##### [x] Concluído Assunto 051 - Item 6, recorte: sanções, procedimento, bens e prescrição da Lei nº 8.429/1992. - Commit hash: 953ae00
 
 - Item 6. Lei nº 8.429/1992 (Lei de Improbidade Administrativa): sanções, procedimento, indisponibilidade e perda de bens, e prescrição.
 
-##### [ ] Assunto 052 - Itens 7 e 8: Contencioso administrativo, jurisdição una e controle jurisdicional.
+##### [x] Concluído Assunto 052 - Itens 7 e 8: Contencioso administrativo, jurisdição una e controle jurisdicional. ([conteúdo](src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/controle-externo/contencioso-controle-judicial/conteudo.md), commit `b4ef410`)
 
 - 7.1. Contencioso administrativo e sistema da jurisdição una.
 - Item 8. Controle jurisdicional da administração pública no direito brasileiro.
 
-##### [ ] Assunto 053 - Item 9: Controle da atividade financeira do Estado: espécies e sistemas.
+##### [x] Concluído Assunto 053 - Item 9: Controle da atividade financeira do Estado: espécies e sistemas. ([conteúdo](src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/controle-externo/controle-atividade-financeira/conteudo.md), commit `5dcd916`)
 
-##### [ ] Assunto 054 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual.
+##### [>] Em progresso Assunto 054 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual.
 
 - Item 10. Tribunal de Contas da União (TCU), tribunais de contas dos estados e do Distrito Federal.
 - Item 11. Tribunal de Contas do Estado do Maranhão na Constituição do Estado do Maranhão.
