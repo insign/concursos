@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Conceitos de material e patrimônio e ciclo básico
-description: Fundamentos de materiais e patrimônio, patrimônio empresarial e público, bens públicos, objetivos, atividades e ciclo básico da gestão material e patrimonial.
+description: Conceitos de material e patrimônio, classificações civil, orçamentária, administrativa, logística e contábil e ciclo básico integrado.
 order: 115
 storageId: conceitos-material-patrimonio
 ---
@@ -28,6 +28,31 @@ Os objetivos gerais são:
 - produzir evidências para inventário, prestação de contas, auditoria e controle.
 
 Economicidade não significa comprar sempre pelo menor preço nominal. Um item inadequado, de baixa durabilidade ou de manutenção desproporcional pode custar mais durante o ciclo de vida.
+
+<!-- REVISAO-CONCEITOS-MATERIAL-2026 -->
+
+## Como ler o termo “material” na prova
+
+A palavra **material** não possui um único alcance em todas as fontes. Antes de julgar a assertiva, identifique o plano adotado pelo enunciado.
+
+| Fonte ou plano | Uso predominante |
+| --- | --- |
+| **IN SEDAP nº 205/1988** | “material” como gênero administrativo amplo, incluindo equipamentos, componentes, veículos, matérias-primas e itens permanentes |
+| **literatura de Administração de Materiais** | pode separar recursos materiais, voltados ao consumo, e recursos patrimoniais, voltados aos permanentes |
+| **Lei nº 4.320/1964** | classificação da despesa entre material de consumo e material permanente |
+| **controle patrimonial** | incorporação, identificação, carga, localização, movimentação, inventário e baixa |
+| **contabilidade** | estoque, ativo imobilizado, intangível, direito de uso ou outra classe conforme os critérios de reconhecimento |
+| **Código Civil** | móvel, imóvel, fungível, consumível, divisível, singular e universalidades |
+
+Assim, um computador pode ser, ao mesmo tempo:
+
+- bem móvel no plano civil;
+- material permanente para a classificação da despesa;
+- recurso patrimonial na terminologia acadêmica;
+- item sujeito a controle individual;
+- ativo imobilizado, se atendidos os critérios contábeis.
+
+> **Regra de prova:** quando duas definições parecem conflitantes, verifique se pertencem a fontes ou finalidades classificatórias diferentes.
 
 ## 2. Vocabulário essencial
 
@@ -72,6 +97,33 @@ $$
 
 Patrimônio, em sentido amplo, não é sinônimo de patrimônio líquido. O primeiro alcança o complexo econômico-jurídico da entidade; o segundo é o valor residual da equação contábil.
 
+## Cinco decisões que não se confundem
+
+| Pergunta | Plano de análise |
+| --- | --- |
+| o objeto é móvel, fungível ou consumível? | civil |
+| a despesa é material de consumo ou permanente? | orçamentário |
+| deve receber tombamento, relação-carga ou controle por lote? | administrativo |
+| permanece em estoque ou já foi distribuído? | logístico |
+| deve ser reconhecido como estoque, imobilizado, intangível ou outro ativo? | contábil |
+
+Uma resposta em um plano não decide automaticamente os demais. A classificação orçamentária na aquisição, por exemplo, não substitui a análise de reconhecimento contábil nem define sozinha a intensidade do controle administrativo.
+
+### Materialidade e custo-benefício do controle
+
+O controle deve ser proporcional ao valor, ao risco, à criticidade, à facilidade de desvio, à relevância operacional e ao custo de administrar o item.
+
+| Situação | Controle possível |
+| --- | --- |
+| bem relevante e individualizável | número patrimonial, localização e carga individual |
+| conjunto homogêneo administrado como unidade | controle por conjunto, quando autorizado |
+| bem durável de pequeno valor e baixo risco | relação-carga ou mecanismo simplificado previsto na norma aplicável |
+| material de consumo | controle por estoque, lote, quantidade ou valor |
+| bem de terceiro sob guarda | registro de custódia, sem presumir propriedade pública |
+| ativo intangível | controle próprio, sem plaqueta física |
+
+A IN nº 205/1988 admite, no SISG federal, o controle por simples relação de material quando o custo de controle individual for evidentemente superior ao risco de perda. Isso não autoriza ausência de controle.
+
 ## 3. Material de consumo e material permanente
 
 Para efeito de **classificação da despesa**, a Lei nº 4.320/1964 estabelece no art. 15, § 2º, que **material permanente é o de duração superior a dois anos**. Esse marco legal não esgota o tratamento administrativo, patrimonial e contábil do item, que deve observar a finalidade e as demais regras aplicáveis; a natureza também não deve ser inferida apenas pela aparência do objeto ou pela existência de plaqueta.
@@ -104,6 +156,22 @@ Um item pode ser material de consumo e permanecer registrado como estoque antes 
 
 Não confunda esse uso administrativo de “tombamento” com o tombamento de proteção do patrimônio histórico e cultural.
 
+## Recursos imateriais, direitos de uso e serviços tecnológicos
+
+A gestão patrimonial não se limita a objetos físicos. Podem exigir análise própria:
+
+- software adquirido;
+- licença de uso;
+- desenvolvimento interno;
+- base de dados;
+- direito contratual identificável;
+- ativo de direito de uso;
+- serviço em nuvem.
+
+A inexistência de forma física não impede o reconhecimento de ativo intangível. Por outro lado, pagar por tecnologia não cria automaticamente um ativo: contrato de serviço, assinatura de plataforma ou acesso temporário podem representar despesa de serviço, conforme os fatos e a norma aplicável.
+
+> **Pegadinha:** software não é “material permanente” como regra geral; a classificação depende do plano orçamentário, administrativo e contábil utilizado.
+
 ## 4. Patrimônio das empresas
 
 No ambiente empresarial, patrimônio compreende bens, direitos e obrigações vinculados à entidade. Bens e direitos que satisfaçam os critérios de reconhecimento compõem ativos; obrigações presentes compõem passivos; o residual forma o patrimônio líquido.
@@ -120,6 +188,21 @@ Exemplo simplificado:
 | diferença entre ativos e passivos | patrimônio líquido |
 
 O patrimônio líquido pode ser positivo, nulo ou negativo. A existência de muitos bens físicos não prova boa situação patrimonial se as obrigações forem superiores aos ativos.
+
+## Patrimônio de empresas estatais e entidades públicas
+
+Nem todo bem pertencente a entidade controlada pelo Estado é automaticamente **bem público** na classificação dos arts. 98 a 103 do Código Civil.
+
+A análise deve observar:
+
+1. natureza jurídica da entidade;
+2. titularidade do bem;
+3. afetação a serviço público;
+4. regime jurídico específico;
+5. classificação contábil;
+6. regras de controle, uso e alienação.
+
+O patrimônio de uma empresa estatal também reúne ativos, passivos, direitos e obrigações, mas o regime civil dos bens pode variar. Não trate “patrimônio das empresas e órgãos públicos” como uma categoria jurídica única.
 
 ## 5. Patrimônio público
 
@@ -168,6 +251,24 @@ As duas áreas são integradas, mas possuem ênfases diferentes:
 
 A integração evita lacunas. A compra precisa conversar com o almoxarifado; o recebimento, com o contrato; a incorporação, com a contabilidade; a distribuição, com a carga; o inventário, com os registros; e o desfazimento, com a baixa.
 
+## Integração organizacional
+
+A área de materiais e patrimônio não funciona isoladamente.
+
+| Área relacionada | Integração necessária |
+| --- | --- |
+| planejamento | transforma objetivos e demanda em necessidades justificadas |
+| orçamento e finanças | verifica disponibilidade, classificação e pagamento |
+| compras e contratos | especifica, seleciona fornecedor e acompanha obrigações |
+| área requisitante | define necessidade, uso e requisitos técnicos |
+| almoxarifado | recebe, guarda, registra e distribui |
+| patrimônio | incorpora, identifica, atribui carga e controla movimentação |
+| contabilidade | reconhece, mensura, concilia e evidencia |
+| tecnologia e segurança | protege sistemas, dados e bens críticos |
+| auditoria e controle | avalia conformidade, risco, eficiência e evidência |
+
+A integração reduz compras duplicadas, recebimentos indevidos, saldos fictícios, bens sem responsável e pagamentos sem comprovação.
+
 ## 8. Funções ou subsistemas básicos
 
 Uma visão abrangente reúne:
@@ -195,11 +296,37 @@ O ciclo começa com a necessidade, não com a compra. A unidade deve verificar f
 
 Comprar sem verificar estoque, bem ocioso ou solução equivalente pode gerar duplicidade e desperdício. A IN nº 205/1988 recomenda, no SISG, conferir a inexistência de material ou sucedâneo capaz de atender à necessidade antes de processar a aquisição.
 
+### Aquisição e formação do custo
+
+O ingresso pode decorrer de compra, cessão, doação, permuta, transferência ou produção interna. A forma de ingresso não elimina a necessidade de documentação, registro, avaliação e controle.
+
+Na produção interna, o custo não se limita necessariamente à matéria-prima. Conforme a norma contábil e a finalidade do item, podem integrar o custo:
+
+- materiais diretamente empregados;
+- mão de obra diretamente atribuível;
+- outros custos necessários para colocar o recurso na condição e localização pretendidas.
+
+Não devem ser incluídos automaticamente desperdícios anormais, ineficiências ou gastos sem relação direta com a formação do item.
+
 ### 9.2 Aquisição
 
 Aquisição é o ingresso planejado de recursos por compra ou outras formas admitidas, como cessão, doação, permuta, transferência e produção interna. Compra é apenas uma forma de aquisição.
 
 Centralizar itens comuns pode aumentar escala, padronização e controle, mas a decisão organizacional deve considerar especialização, prazo, distribuição e competência. A recomendação de centralização da IN nº 205/1988 pertence ao âmbito federal do SISG e não é obrigação automática para todo órgão estadual.
+
+### Matriz de desconformidades no recebimento
+
+| Ocorrência | Providência inicial |
+| --- | --- |
+| quantidade inferior | registrar a falta e providenciar complementação ou outra regularização |
+| item diferente do contratado | não declarar conformidade |
+| defeito aparente | documentar e solicitar substituição ou correção |
+| exame técnico necessário | encaminhar a especialista ou comissão |
+| entrega parcial admitida | registrar a parcela e verificar o instrumento |
+| material rejeitado | preservar evidências e formalizar devolução |
+| regularização possível | admitir complementação, substituição ou devolução parcial/total, conforme o caso |
+
+A regularização deve ser documentada. O simples fato de o material ter entrado fisicamente no órgão não autoriza atestar que a obrigação foi cumprida.
 
 ### 9.3 Recebimento e aceitação
 
@@ -237,6 +364,20 @@ A responsabilidade acompanha o bem. Transferência de local ou de responsável d
 
 O usuário deve empregar o recurso conforme a finalidade, comunicar irregularidades e zelar pela conservação. Manutenção preventiva reduz falhas e pode prolongar vida útil; manutenção corretiva reage ao defeito; recuperação busca restituir capacidade de uso quando técnica e economicamente viável.
 
+### Tipos introdutórios de inventário
+
+| Tipo | Finalidade típica |
+| --- | --- |
+| anual | comprovar a situação patrimonial ao encerramento do exercício |
+| inicial | registrar a situação quando a unidade inicia atividades |
+| transferência de responsabilidade | apurar a situação na mudança do responsável ou dirigente |
+| extinção ou transformação | levantar o acervo na alteração institucional |
+| eventual | atender necessidade específica de gestão ou fiscalização |
+| rotativo | contar continuamente grupos programados ao longo do exercício |
+| por amostragem | examinar amostras de acervo de grande porte, quando autorizado |
+
+O tipo de inventário não elimina a necessidade de evidência suficiente. Inventário rotativo e por amostragem são instrumentos gerenciais previstos na referência federal da IN nº 205/1988.
+
 ### 9.8 Inventário e conciliação
 
 Inventário é levantamento físico e documental. Ele confronta existência, quantidade, estado, localização, valor e responsabilidade com os registros administrativos e contábeis.
@@ -267,6 +408,22 @@ O fluxo pode ser memorizado assim:
 12. registrar a baixa quando juridicamente cabível.
 
 O ciclo não é apenas linear. Consumo, falha, inventário, mudança tecnológica e demanda alimentam novo planejamento.
+
+## Controle proporcional e rastreabilidade
+
+O desenho do controle deve combinar risco e custo-benefício.
+
+| Fator | Pergunta |
+| --- | --- |
+| valor | a perda teria impacto relevante? |
+| criticidade | a indisponibilidade interromperia serviço essencial? |
+| mobilidade | o item é facilmente deslocado ou desviado? |
+| atratividade | possui mercado de revenda ou uso pessoal? |
+| quantidade | o controle individual é viável? |
+| rastreabilidade | é possível ligar entrada, localização, responsável e saída? |
+| custo de controle | o procedimento é proporcional ao risco? |
+
+Controle simplificado não significa controle inexistente. A entidade deve manter evidência suficiente para saber o que recebeu, onde está, quem usa, como saiu e qual documento sustenta cada evento.
 
 ## 11. Informação, controle e segregação
 
@@ -318,6 +475,30 @@ Papel é material de consumo, mas enquanto estocado precisa de registro, guarda,
 
 O terreno pode ser bem dominical. Continua público, não está sujeito a usucapião e somente pode ser alienado com observância das exigências legais. Se for afetado a uma escola ou repartição, a classificação jurídica pode mudar para uso especial.
 
+## Matriz final de decisão
+
+Antes de responder a uma questão, aplique esta sequência:
+
+1. identifique a fonte ou o plano conceitual;
+2. determine a finalidade da classificação;
+3. separe propriedade, controle e custódia;
+4. localize o item no ciclo: necessidade, aquisição, recebimento, estoque, uso ou destinação;
+5. verifique a documentação e a competência;
+6. defina o tipo de controle proporcional;
+7. confronte físico, administrativo e contábil;
+8. só então julgue a assertiva.
+
+### Exemplos rápidos
+
+| Situação | Leitura correta |
+| --- | --- |
+| computador de baixo valor unitário | pode ser permanente e receber controle simplificado, se a norma autorizar |
+| papel no almoxarifado | consumo e estoque controlado |
+| software adquirido | possível intangível; não se tomba com plaqueta |
+| notebook de empresa cedido ao órgão | bem de terceiro sob custódia, não propriedade pública |
+| material produzido internamente | ingresso documentado; custo pode incluir mão de obra direta |
+| relatório sem contagem física | não prova inventário físico |
+
 ## 14. Pegadinhas de prova
 
 1. **Patrimônio não é apenas o conjunto de bens:** direitos e obrigações também importam.
@@ -353,6 +534,10 @@ Os conceitos essenciais aparecem aqui para tornar o ciclo compreensível, sem su
 
 ## Referências
 
+- [NBC TSP 04 (R1) — Estoques](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, quadro normativo vigente; publicada no DOU em 17 mar. 2026.
+- [NBC TSP 08 (R1) — Ativo Intangível](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, quadro normativo vigente; publicada no DOU em 17 mar. 2026.
+- [NBC TSP 37 — Ativo Imobilizado](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 mar. 2026.
+- [NBC TSP 38 — Mensuração](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 abr. 2026.
 - [Lei nº 4.320/1964 — normas gerais de direito financeiro](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm) — Presidência da República, texto compilado, especialmente arts. 15, § 2º, 83, 85, 89 e 94 a 96; acesso em 15 jul. 2026.
 - [Código Civil — Lei nº 10.406/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) — Presidência da República, texto compilado, especialmente arts. 79 a 91 e 98 a 103; acesso em 15 jul. 2026.
 - [Manual de Contabilidade Aplicada ao Setor Público, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1) — Secretaria do Tesouro Nacional, edição vigente divulgada em 2025; acesso em 15 jul. 2026.

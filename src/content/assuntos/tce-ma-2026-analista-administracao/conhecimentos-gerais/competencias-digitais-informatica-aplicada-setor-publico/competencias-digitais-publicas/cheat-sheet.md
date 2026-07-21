@@ -1,20 +1,8 @@
 # Competências digitais no serviço público
 
-## Visão central
+## 1. Conceitos fundamentais
 
-Competência digital = **conhecimentos + habilidades + atitudes** para compreender, escolher, usar, avaliar e criar soluções digitais de modo:
-
-- crítico;
-- seguro;
-- inclusivo;
-- ético;
-- orientado ao interesse público.
-
-Perguntas-chave: funciona, serve à finalidade pública, inclui, protege e pode ser explicado/controlado?
-
-Digitalizar não é apenas colocar o processo na tela. É revisar finalidade, fluxo, riscos, dados e experiência do cidadão.
-
-## Conceitos que não são sinônimos
+Competência digital = **conhecimentos + habilidades + atitudes** para compreender, escolher, usar, avaliar e criar soluções digitais de modo crítico, seguro, inclusivo, ético e orientado ao interesse público.
 
 | Conceito | Núcleo |
 |---|---|
@@ -22,238 +10,100 @@ Digitalizar não é apenas colocar o processo na tela. É revisar finalidade, fl
 | cidadania digital | direitos, deveres, participação e convivência responsável no digital |
 | letramento digital | usar e criar com tecnologias de modo autônomo, seguro e apropriado |
 | letramento informacional | reconhecer necessidade, localizar, avaliar, usar e comunicar informação |
-| letramento midiático | analisar mensagens, mídias, formatos, agentes, interesses e efeitos |
-| pensamento computacional | formular e resolver problemas de forma metódica, inclusive por algoritmos |
+| letramento midiático | analisar mensagens, agentes, interesses, formatos, circulação e efeitos |
+| pensamento computacional | formular e resolver problemas metodicamente, inclusive por algoritmos |
 
-- Alfabetização digital: pode indicar domínio inicial.
-- Letramento: enfatiza uso social e crítico.
-- Competência: mobiliza saber, saber fazer e atitude.
-- Os termos podem aparecer sobrepostos em diferentes fontes.
+**Inclusão efetiva:** conectividade + acessibilidade + competência + linguagem clara + apoio + segurança + teste com usuários.
 
-## Cultura e cidadania digital
-
-Cultura digital inclui:
-
-- colaboração em rede;
-- dataficação;
-- plataformas e algoritmos;
-- novas linguagens e formas de trabalho;
-- riscos de exclusão, vigilância, desinformação e discriminação.
-
-Cidadania digital não é só etiqueta. Inclui:
-
-- acesso e participação;
-- liberdade e responsabilidade;
-- privacidade e proteção de dados;
-- segurança e respeito;
-- avaliação crítica de informação;
-- direitos e deveres no ambiente digital.
-
-## Inclusão digital
-
-Inclusão efetiva combina:
-
-- conectividade e equipamentos;
-- acessibilidade e tecnologia assistiva;
-- competência para uso autônomo;
-- linguagem clara;
-- apoio ou alternativa adequada;
-- segurança e proteção de dados;
-- teste com usuários.
-
-Serviço apenas digital, inacessível ou dependente de conexão incompatível com o público cria barreira.
-
-## PNED: Lei nº 14.533/2023
-
-### Quatro eixos estruturantes
-
-1. Inclusão Digital.
-2. Educação Digital Escolar.
-3. Capacitação e Especialização Digital.
-4. Pesquisa e Desenvolvimento em TICs.
-
-A PNED articula programas e ações; **não substitui** políticas nacionais, estaduais, distritais ou municipais.
-
-### Educação Digital Escolar: cinco campos
-
-1. pensamento computacional;
-2. mundo digital;
-3. cultura digital;
-4. direitos digitais;
-5. tecnologia assistiva.
-
-O eixo deve estar em consonância com a BNCC e outras diretrizes curriculares.
-
-### Relação com o serviço público
-
-O eixo Capacitação e Especialização Digital prevê qualificação digital de servidores e funcionários públicos e política de gestão de pessoas contra o déficit de competências digitais na administração.
-
-O eixo de P&D objetiva TICs acessíveis e inclusivas.
-
-## BNCC Computação
-
-Três eixos:
-
-1. **pensamento computacional**;
-2. **mundo digital**;
-3. **cultura digital**.
-
-Não confundir:
+## 2. Matriz 4–5–3 e cadeia normativa
 
 | Estrutura | Quantidade |
 |---|---:|
 | eixos estruturantes da PNED | 4 |
-| campos do art. 3º da PNED | 5 |
+| campos da Educação Digital Escolar no art. 3º | 5 |
 | eixos da BNCC Computação | 3 |
 
-## Pensamento computacional
+**PNED — 4 eixos:** Inclusão Digital; Educação Digital Escolar; Capacitação e Especialização Digital; Pesquisa e Desenvolvimento em TICs.
 
-Não é sinônimo de programação. Algoritmo pode ser expresso em linguagem comum, fluxograma ou tabela.
+**Art. 3º — 5 campos:** pensamento computacional; mundo digital; cultura digital; direitos digitais; tecnologia assistiva.
+
+**BNCC Computação — 3 eixos:** pensamento computacional; mundo digital; cultura digital.
+
+| Marco | Função |
+|---|---|
+| Parecer CNE/CEB nº 2/2022 | fundamenta Computação como complemento à BNCC |
+| Resolução CNE/CEB nº 1/2022 | institui as normas de Computação na Educação Básica |
+| Lei nº 14.533/2023 | institui a PNED |
+| Resolução CNE/CEB nº 2/2025 | integra educação digital e midiática ao currículo e disciplina o uso de dispositivos |
+
+A PNED articula políticas; **não substitui** políticas nacionais, estaduais, distritais ou municipais.
+
+## 3. Pensamento computacional
+
+Não é sinônimo de programação. Algoritmo pode ser descrito em linguagem comum, fluxograma ou tabela.
 
 | Operação | Pergunta |
 |---|---|
 | decomposição | em quais partes o problema pode ser dividido? |
 | reconhecimento de padrões | que regularidades e exceções se repetem? |
-| abstração | quais características são relevantes para o modelo? |
+| abstração | quais características são essenciais? |
 | algoritmo | quais passos, condições e saídas resolvem o problema? |
 
-Método:
+Método: **problema → pessoas/dados/etapas → decomposição/padrões → abstração → regras → testes → impactos → monitoramento**.
 
-1. definir problema e finalidade;
-2. mapear pessoas, dados, etapas e decisões;
-3. decompor e reconhecer padrões;
-4. abstrair sem apagar diferenças relevantes;
-5. criar regras;
-6. testar casos normais, limites e adversos;
-7. avaliar precisão, equidade, acessibilidade e dados;
-8. monitorar e corrigir.
+Automação não elimina responsabilidade, explicação, teste de vieses, revisão, contestação ou monitoramento.
 
-Automação não elimina:
+## 4. Verificação de informação
 
-- responsabilidade;
-- explicação e registro dos critérios;
-- proteção de dados;
-- teste de vieses e erros;
-- revisão e contestação;
-- monitoramento.
+1. delimite a alegação;
+2. identifique autor, publicador e data;
+3. localize a fonte primária;
+4. examine evidência, método e contexto;
+5. abra novas abas e investigue quem publica;
+6. compare fontes independentes e qualificadas;
+7. separe fato, opinião, previsão, sátira e publicidade;
+8. reconheça incerteza;
+9. documente o caminho de verificação;
+10. decida se deve compartilhar, corrigir, contextualizar ou não amplificar.
 
-## Análise crítica de informação
+**Leitura lateral:** saia da página, pesquise o domínio, procure cobertura independente e rastreie imagem, dado ou declaração até a origem.
 
-Roteiro:
+Fonte primária informa o que foi registrado; não garante imparcialidade nem interpretação correta.
 
-1. delimitar a alegação;
-2. identificar autor, publicador e data;
-3. localizar fonte primária;
-4. examinar evidência e método;
-5. conferir contexto;
-6. comparar fontes qualificadas;
-7. separar fato, opinião, previsão, sátira e publicidade;
-8. reconhecer incerteza;
-9. decidir se deve compartilhar, corrigir, contextualizar ou não amplificar.
+Em gráficos: fonte, data, definição, amostra, período, valores absolutos/relativos, escala e correlação ≠ causalidade.
 
-Sinais de cautela não são prova isolada. Aparência profissional também não garante credibilidade.
+## 5. Desordem informacional
 
-Em gráficos, confira fonte, data, definição, amostra, período, valores absolutos/relativos, escala e diferença entre correlação e causalidade.
-
-## Desinformação
-
-Viralidade mede circulação, não verdade.
-
-Fatores de difusão:
-
-- emoção e urgência;
-- confirmação de crenças;
-- repetição;
-- recortes fora de contexto;
-- imitação de fonte legítima;
-- redes coordenadas;
-- recomendação por engajamento;
-- conteúdo sintético ou manipulado.
-
-Resposta pública responsável:
-
-- consultar fonte primária;
-- indicar fonte, data e contexto;
-- explicar certeza e incerteza;
-- usar linguagem clara e acessível;
-- corrigir erro institucional visivelmente;
-- não amplificar boato sem necessidade;
-- preservar dados protegidos.
-
-Combate à desinformação não autoriza censura genérica.
-
-## Ética de dados
-
-Pergunte:
-
-- qual é a finalidade?
-- os dados são necessários e proporcionais?
-- estão corretos e atuais?
-- quem é beneficiado ou prejudicado?
-- há vieses e impactos desiguais?
-- o tratamento é compreensível e contestável?
-- quem presta contas?
-
-Pseudonimização não é anonimização automática. Na pseudonimização, informação adicional ainda pode permitir associação.
-
-## LGPD: conceitos
-
-| Termo | Regra curta |
+| Categoria | Regra curta |
 |---|---|
-| dado pessoal | relaciona-se a pessoa natural identificada ou identificável |
-| dado sensível | inclui saúde, biometria, origem racial, opinião política e categorias legais correlatas |
-| tratamento | coleta, acesso, uso, armazenamento, compartilhamento, eliminação etc. |
-| controlador | decide sobre o tratamento |
-| operador | trata em nome do controlador |
-| encarregado | canal entre controlador, titulares e ANPD |
-| titular | pessoa natural a quem os dados se referem |
+| informação incorreta | falso compartilhado sem intenção de enganar |
+| desinformação | falso ou enganoso difundido deliberadamente |
+| má-informação | verdadeiro usado fora de contexto ou para causar dano |
+| fake news | rótulo impreciso; prefira a categoria específica |
 
-## LGPD: princípios do art. 6º
+Viralidade mede circulação, não verdade. Aparência profissional, posição em buscador e repetição também não comprovam veracidade.
 
-1. finalidade;
-2. adequação;
-3. necessidade;
-4. livre acesso;
-5. qualidade dos dados;
-6. transparência;
-7. segurança;
-8. prevenção;
-9. não discriminação;
-10. responsabilização e prestação de contas.
+**Conteúdo sintético:** procure origem, versões anteriores, contexto, continuidade, metadados e confirmação independente. Detector de IA não é prova conclusiva.
 
-Ter base legal não dispensa nenhum princípio aplicável.
+Resposta pública: fonte + data + contexto + grau de certeza + linguagem clara + correção visível + proteção de dados.
 
-## LGPD no Poder Público
+## 6. Ética de dados
 
-- Tratamento não exige sempre consentimento.
-- É preciso identificar base legal adequada dos arts. 7º ou 11.
-- Consentimento é inadequado quando não há escolha efetivamente livre.
-- Art. 23: finalidade pública, interesse público, competências e atribuições legais.
-- O órgão deve publicar informações claras sobre previsão legal, finalidade, procedimentos, práticas e encarregado.
-- Publicidade do tratamento não significa divulgação indiscriminada dos dados.
+| Etapa | Controle-chave |
+|---|---|
+| coleta | finalidade e necessidade |
+| preparação | qualidade e rastreabilidade |
+| modelagem | testes por grupos e casos-limite |
+| decisão | explicação, supervisão e contestação |
+| compartilhamento | minimização e controle de acesso |
+| publicação | agregação, contexto e metodologia |
+| retenção | prazo e descarte seguro |
 
-### Dados públicos e compartilhamento
+Precisão média pode esconder falsos positivos ou falsos negativos concentrados em determinados grupos.
 
-Dado publicamente acessível não é livre para qualquer finalidade.
+Pseudonimização não equivale automaticamente a anonimização.
 
-Compartilhamento público exige:
-
-- finalidade específica;
-- base legal;
-- dados mínimos necessários;
-- formalização e registro;
-- responsabilidades e duração;
-- transparência e segurança;
-- direitos dos titulares.
-
-Transparência e proteção de dados devem ser compatibilizadas. Agregação e ocultação de campos desnecessários podem reduzir riscos.
-
-## Casos rápidos
-
-- **Painel público:** prefira indicador agregado quando identificação individual não for necessária.
-- **Triagem automática:** documente critérios, teste exceções, vieses e revisão.
-- **Boato institucional:** verifique ato primário antes de compartilhar e comunique incerteza.
-- **Reconhecimento facial:** biometria é dado sensível; avalie necessidade, precisão, não discriminação, segurança e contestação.
+**Ponte com LGPD:** controlador decide; operador trata em nome do controlador; consentimento não é a única base; dados públicos não têm uso irrestrito; transparência e proteção devem ser compatibilizadas. O estudo jurídico completo pertence ao tópico 3.2 do edital.
 
 ## Pegadinhas
 
@@ -263,13 +113,12 @@ Transparência e proteção de dados devem ser compatibilizadas. Agregação e o
 - pensamento computacional ≠ programação;
 - algoritmo ≠ código necessariamente;
 - automação ≠ neutralidade;
+- fonte primária ≠ fonte automaticamente verdadeira;
 - viral ≠ verdadeiro;
-- PNED: 4 eixos;
-- art. 3º da PNED: 5 campos;
-- BNCC Computação: 3 eixos;
-- poder público ≠ consentimento obrigatório em todo tratamento;
-- dado público ≠ uso irrestrito;
-- LGPD ≠ fim da transparência pública.
+- detector de IA ≠ prova;
+- PNED = 4; art. 3º = 5; BNCC Computação = 3;
+- precisão global ≠ equidade;
+- dado público ≠ uso irrestrito.
 
 ## Sequência de decisão
 

@@ -1,148 +1,279 @@
-# Pontuação
+# Pontuação — revisão rápida
 
 ## Princípio
 
-- Pontuação organiza sintaxe, sentido, escopo, foco e ritmo.
-- Pausa para respirar não justifica sinal sozinha.
-- Primeiro: função sintática. Depois: sentido e ênfase.
-- Correção gramatical não garante preservação de sentido.
+Pontuação organiza:
 
-## Não separar por vírgula
+- sintaxe;
+- relações entre segmentos;
+- escopo;
+- foco;
+- pressupostos;
+- ritmo e destaque.
 
-- Sujeito e predicado.
-- Verbo e objeto direto/indireto.
-- Nome e complemento necessário.
-- Principal e subordinada substantiva integrada.
-- Objeto deslocado e verbo apenas por deslocamento.
+Pausa oral, isoladamente, não cria regra.
 
-> “Os relatórios enviados ontem serão revistos.”
+## Obrigatório, proibido, facultativo ou editorial
 
-## Vírgula dentro da oração
-
-- Enumeração assindética: leitura, análise, síntese e revisão.
-- Vocativo: “Candidatos, leiam”.
-- Aposto explicativo: “São Luís, capital do Maranhão, ...”.
-- Aposto especificativo: sem isolamento em regra.
-- Expressões: isto é, ou seja, ou melhor, por exemplo.
-- Adjunto deslocado: normalmente isolado.
-- Adjunto curto: vírgula pode ser dispensada ou marcar realce.
-- Zeugma: “A primeira analisou dados; a segunda, recursos”.
-
-## Orações
-
-| Estrutura | Regra prototípica |
-| --- | --- |
-| coordenada assindética | separada |
-| adversativa/conclusiva/explicativa | demarcada |
-| ligada por **e** | sem vírgula em regra |
+| Caso | Tendência |
+|---|---|
+| sujeito × predicado | vírgula proibida, salvo inciso |
+| verbo × complemento | vírgula proibida, salvo inciso |
+| nome × complemento necessário | vírgula proibida |
+| vocativo | isolamento obrigatório |
+| aposto explicativo | isolamento obrigatório |
+| adjetiva explicativa intercalada | par de sinais obrigatório |
 | adjetiva restritiva | sem isolamento |
-| adjetiva explicativa | isolada |
-| adverbial anteposta/intercalada | isolada |
-| reduzida adverbial deslocada | isolada |
-| substantiva integrada | sem separação do regente |
-| oração intercalada | isolada |
+| adverbial anteposta extensa | isolamento normalmente exigido |
+| adjunto curto anteposto | frequentemente facultativo |
+| conector intercalado | isolamento |
+| ponto × aspas | convenção editorial |
+| vírgula antes de `etc.` | convenção variável |
 
-## Vírgula antes de **e**
+Facultativo ≠ semanticamente neutro.
 
-- Regra: não usar.
-- Pode aparecer com sujeitos diferentes.
-- Pode aparecer no polissíndeto: “e lê, e revê, e corrige”.
-- Pode marcar oposição, consequência, realce ou blocos extensos.
-- “Nunca antes de **e**” é falso.
-- Sujeitos diferentes não tornam a vírgula automaticamente obrigatória.
+## Frase-base
+
+1. retire o inciso;
+2. reconstrua a oração;
+3. identifique a função;
+4. confira abertura e fechamento.
+
+> O relatório, segundo a comissão, será publicado.  
+> Base: O relatório será publicado.
+
+## Vírgula proibida
+
+- sujeito e predicado;
+- verbo e objeto;
+- verbo e complemento preposicionado;
+- nome e complemento;
+- regente e subordinada substantiva integrada.
+
+Errado:
+
+- `Os relatórios, serão auditados.`
+- `A equipe concluiu, a análise.`
+- `A decisão depende, de provas.`
+- `O parecer demonstra que, houve falha.`
+
+## Vocativo, aposto e enumeração
+
+- vocativo: `Senhores, iniciemos.`
+- aposto explicativo: `O relator, presidente da comissão, votou.`
+- aposto enumerativo: `Há três etapas: diagnóstico, execução e avaliação.`
+- enumeração: vírgulas;
+- itens com vírgulas internas: ponto e vírgula.
+
+## Adjunto adverbial
+
+- anteposto extenso: vírgula normalmente exigida;
+- curto anteposto: frequentemente facultativa;
+- intercalado: par de sinais;
+- posposto integrado: geralmente sem isolamento.
+
+> Hoje, o tribunal decide.  
+> Ao fim da sessão, o tribunal decidirá.
+
+## Zeugma
+
+> Uns defendiam a revisão; outros, a manutenção.
+
+A vírgula marca a omissão de `defendiam`.
+
+## Coordenação com `e`
+
+Não existem as regras:
+
+- “nunca há vírgula antes de `e`”;
+- “sujeitos diferentes sempre exigem vírgula”.
+
+Examine:
+
+- sujeitos;
+- extensão;
+- autonomia;
+- mudança de direção;
+- efeito discursivo.
+
+## Correlativas
+
+- `não só... mas também`;
+- `tanto... quanto`;
+- `ora... ora`;
+- `quer... quer`;
+- `seja... seja`.
+
+> Não só reduziu o prazo, mas também melhorou a qualidade.
+
+## O teste do `que`
+
+1. conjunção integrante? Não separar a oração do regente.
+2. relativo restritivo? Não isolar.
+3. relativo explicativo? Isolar.
+4. há inciso depois de `que`? Retire-o.
+
+> Demonstrou que houve falha.  
+> Demonstrou que, segundo a auditoria, houve falha.
+
+## Restritiva × explicativa
+
+> Os servidores que concluíram receberam certificado.  
+> Apenas o subgrupo.
+
+> Os servidores, que concluíram, receberam certificado.  
+> Informação sobre o grupo já delimitado.
+
+Retirar vírgulas pode manter a gramática e alterar o sentido.
+
+## Orações adverbiais
+
+- anteposta: normalmente isolada;
+- intercalada: par de sinais;
+- posposta: pode permanecer integrada;
+- reduzida anteposta: normalmente isolada.
+
+> Quando o prazo terminar, publicaremos.  
+> Concluída a análise, publicaremos.
 
 ## Conectores
 
-- Intercalado: “A tese, porém, falhou”.
-- Inicial: fronteira antes do conector; sem vírgula automática depois.
-- **pois** explicativo: anteposto: “Revise, pois há falhas”.
-- **pois** conclusivo: posposto e isolado: “Revise, pois, o texto”.
-- Classifique por posição, sintaxe e sentido.
+Intercalados:
+
+> Os dados, porém, são insuficientes.  
+> A medida é, de fato, necessária.
+
+Iniciais:
+
+> Porém os dados são insuficientes.  
+> Em suma, o plano será revisto.
+
+Não insira vírgula mecanicamente depois de toda palavra da lista.
+
+## `Pois`
+
+| Exemplo | Valor |
+|---|---|
+| `Publicaremos, pois os dados foram confirmados.` | explicação |
+| `Os dados foram confirmados; publicaremos, pois, o relatório.` | conclusão |
 
 ## Ponto e vírgula
 
-- Separação maior que vírgula; menor ruptura que ponto.
-- Separa coordenadas longas.
-- Organiza blocos com vírgulas internas.
-- Estrutura enumerações complexas.
-- Ajuda em zeugmas paralelos.
-- Hierarquiza; não é só “pausa média”.
+- separa blocos coordenados extensos;
+- organiza enumeração complexa;
+- destaca conector;
+- marca hierarquia maior que a vírgula e menor que o ponto.
+
+Não é “pausa média” automática.
 
 ## Dois-pontos
 
-- Enumeração.
-- Explicação/esclarecimento.
-- Síntese ou consequência.
-- Citação e discurso direto.
-- Aposto ou subordinada apositiva.
-- Rótulos: Nota:, Atenção:, Fonte:.
-- Anunciam desdobramento do trecho anterior.
+Teste: o primeiro segmento anuncia o segundo?
 
-## Sinais finais
+Usos:
 
-- Ponto: fecha período declarativo.
-- Abreviatura no fim: não duplicar ponto.
-- `?`: pergunta direta.
-- Pergunta indireta: sem `?` por esse motivo.
-- `!`: emoção, apelo ou ordem enfática; parcimônia no texto técnico.
-- `...`: suspensão, hesitação, interrupção ou continuidade sugerida.
-- Supressão em citação: `[...]`.
-- `?!`, `!?`: efeito expressivo, não neutro.
+- enumeração;
+- explicação;
+- consequência;
+- síntese;
+- discurso direto;
+- termo anunciador + aposto.
 
-## Travessão
+Errado:
 
-- `—` travessão; `-` hífen; `–` meia-risca.
-- Marca fala, inciso, explicação ou anúncio enfático.
-- Frase prossegue: dois travessões.
-- Inciso no fim: apenas travessão inicial.
-- Vírgula externa exigida vem após o segundo travessão: `—,`.
-- Produz destaque maior que vírgulas.
+- `A equipe analisou: o processo.`
+- `Depende de: provas.`
 
-## Parênteses
+## Ponto
 
-- Comentário, data, sigla, tradução, referência ou remissão.
-- Informação mais lateral ao fluxo.
-- Pontuação externa obedece à frase-base.
-- Fechar parêntese não cria vírgula automaticamente.
+Pode:
+
+- manter a correção;
+- aumentar a autonomia do segundo enunciado;
+- alterar a articulação discursiva.
+
+Ajuste a letra inicial.
+
+## Discurso direto
+
+- `Afirmou: “Terminou.”`
+- `“Terminou”, afirmou.`
+- `“O prazo”, afirmou, “terminou.”`
+- `— Terminou — afirmou.`
+
+Interrogativa direta: `Terminou?`  
+Indireta: `Perguntou se terminara.`
+
+## Travessões, parênteses e vírgulas
+
+- delimitam incisos;
+- exigem fechamento;
+- podem ser intercambiáveis em certos contextos;
+- mudam o destaque.
+
+Travessões: destaque maior.  
+Parênteses: comentário mais rebaixado.  
+Vírgulas: integração maior.
+
+## Pontuação externa ao parêntese
+
+O fechamento não cria vírgula automaticamente. Reconstrua a frase-base.
 
 ## Aspas
 
-- Citação literal.
-- Uso não habitual, gíria, regionalismo, ironia ou distanciamento.
-- Não são marcador genérico de ênfase.
-- Palavra isolada entre aspas pode sugerir ironia involuntária.
-- Aspas simples: trecho dentro de outro já entre aspas.
-- Posição do ponto pode variar por manual editorial.
+Podem marcar:
+
+- citação;
+- palavra mencionada;
+- ironia;
+- gíria;
+- uso figurado;
+- expressão não usual.
+
+Aspas ≠ erro obrigatório.
 
 ## Colchetes
 
-- Segundo nível dentro de parênteses.
-- Supressão: `[...]`.
-- Acréscimo editorial: `[do processo]`.
-- Forma preservada do original: `[sic]`.
+Em citação:
 
-## Efeito dos incisos
+- intervenção editorial;
+- esclarecimento;
+- adaptação;
+- `[...]` = supressão.
 
-| Sinal | Efeito usual |
-| --- | --- |
-| vírgulas | integração neutra |
-| travessões | relevo e ruptura |
-| parênteses | lateralidade |
+## Interrogação e reticências
 
-## Convenções variáveis
+- pergunta direta: `?`;
+- indireta: normalmente ponto final;
+- reticências autorais: suspensão/hesitação;
+- `[...]`: supressão editorial.
 
-- Ponto dentro ou fora das aspas.
-- Vírgula antes de **etc.**
-- Pontuação de enumerações.
-- Preferência em adjunto curto.
-- Sem manual indicado, não trate convenção de casa como regra universal.
+## Pegadinhas
 
-## Método de prova
+| Afirmação | Julgamento |
+|---|---|
+| toda vírgula corresponde a pausa oral | errado |
+| sujeito longo admite vírgula antes do verbo | errado |
+| todo `que` pode ser seguido de vírgula | errado |
+| vírgula facultativa não altera foco | errado |
+| nome próprio gera sempre explicativa | errado |
+| todo conector inicial exige vírgula posterior | errado |
+| todo `pois` após vírgula é conclusivo | errado |
+| dois-pontos podem separar verbo e objeto | errado |
+| ponto e vírgula substitui qualquer vírgula | errado |
+| sinais pares dispensam fechamento | errado |
+| parêntese cria vírgula externa | errado |
+| aspas provam erro ou falsidade | errado |
+| ponto pode manter correção e mudar articulação | certo |
+| retirar vírgulas de explicativa pode mudar sentido | certo |
 
-1. Retire os incisos e ache a frase-base.
-2. Marque sujeito, predicado, regentes e complementos.
-3. Delimite termos e orações.
-4. Classifique os segmentos isolados.
-5. Verifique sintaxe, alcance e pressupostos.
-6. Distinga obrigatório, proibido, facultativo e editorial.
-7. Compare foco, ritmo e adequação ao gênero.
+## Roteiro de prova
+
+1. reconstrua a frase-base;
+2. identifique sujeito, verbo, complementos e incisos;
+3. classifique coordenação ou subordinação;
+4. determine se o sinal é proibido, obrigatório, facultativo ou editorial;
+5. compare correção e sentido separadamente;
+6. observe escopo, pressuposto e foco;
+7. em reescrita, confira letra inicial e fechamento dos sinais;
+8. rejeite regras baseadas só em pausa, tamanho ou lista de palavras.

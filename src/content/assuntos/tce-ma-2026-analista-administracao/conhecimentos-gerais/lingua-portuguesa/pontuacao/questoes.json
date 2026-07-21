@@ -1,66 +1,3776 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
-    {"id":"q3339","revision":1,"prompt":"A análise segura da pontuação deve começar pela","options":[{"id":"A","text":"duração da pausa necessária para respirar."},{"id":"B","text":"estrutura sintática e pela função dos segmentos, antes dos efeitos de ritmo e ênfase."},{"id":"C","text":"quantidade de palavras existente entre dois sinais."},{"id":"D","text":"preferência sonora individual do leitor."}],"correctOptionId":"B","explanation":"A pontuação organiza sintaxe e sentido; a pausa oral, isoladamente, não justifica o emprego de um sinal. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3340","revision":1,"prompt":"Qual frase respeita a regra de integração entre sujeito e predicado?","options":[{"id":"A","text":"Os relatórios enviados durante o último trimestre serão examinados."},{"id":"B","text":"Os relatórios enviados durante o último trimestre, serão examinados."},{"id":"C","text":"Os relatórios, enviados durante o último trimestre serão examinados."},{"id":"D","text":"Os relatórios enviados, durante o último trimestre serão examinados."}],"correctOptionId":"A","explanation":"A extensão do sujeito não autoriza vírgula entre ele e o predicado. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3341","revision":1,"prompt":"Em 'Os relatórios, segundo a comissão, serão examinados', as vírgulas","options":[{"id":"A","text":"separam diretamente o sujeito de seu predicado."},{"id":"B","text":"marcam a omissão do verbo 'serão'."},{"id":"C","text":"isolam um comentário intercalado, sem romper a frase-base."},{"id":"D","text":"transformam 'relatórios' em vocativo."}],"correctOptionId":"C","explanation":"Retirado o inciso 'segundo a comissão', resta a estrutura integrada 'Os relatórios serão examinados'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3342","revision":1,"prompt":"O simples deslocamento de um objeto para o início da oração","options":[{"id":"A","text":"obriga o uso de dois-pontos antes do verbo."},{"id":"B","text":"transforma o objeto em vocativo."},{"id":"C","text":"exige vírgula por criar adjunto adverbial."},{"id":"D","text":"não basta para justificar seu isolamento por vírgula."}],"correctOptionId":"D","explanation":"Em 'Esse processo eu ainda não examinei', o objeto deslocado continua integrado ao verbo e não recebe vírgula apenas pela posição. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3343","revision":1,"prompt":"A forma adequada é 'O relatório demonstra que houve melhora' porque","options":[{"id":"A","text":"a oração iniciada por 'que' funciona como complemento integrado do verbo."},{"id":"B","text":"toda ocorrência de 'que' proíbe pontuação no período inteiro."},{"id":"C","text":"o verbo 'demonstrar' não admite objeto."},{"id":"D","text":"a subordinada é adverbial deslocada."}],"correctOptionId":"A","explanation":"A subordinada substantiva objetiva direta completa 'demonstra' e não deve ser separada do regente por vírgula arbitrária. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3344","revision":1,"prompt":"Na enumeração 'leitura, comparação, síntese e revisão', a vírgula separa","options":[{"id":"A","text":"sujeito e predicado."},{"id":"B","text":"termos coordenados de mesma função não ligados por conjunção."},{"id":"C","text":"uma oração explicativa."},{"id":"D","text":"o verbo de seu complemento."}],"correctOptionId":"B","explanation":"Elementos coordenados assindéticos de uma enumeração são separados por vírgulas; o último é ligado por 'e'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3345","revision":1,"prompt":"Em 'Candidatos, leiam o comando', o termo 'Candidatos' é","options":[{"id":"A","text":"sujeito expresso de 'leiam'."},{"id":"B","text":"objeto direto deslocado."},{"id":"C","text":"aposto especificativo."},{"id":"D","text":"vocativo corretamente isolado."}],"correctOptionId":"D","explanation":"O nome interpela os destinatários; o sujeito está implícito na forma imperativa. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3346","revision":1,"prompt":"Em 'O escritor Machado de Assis nasceu no Rio de Janeiro', a ausência de vírgulas ocorre porque","options":[{"id":"A","text":"nomes próprios nunca podem formar aposto."},{"id":"B","text":"o segmento é um adjunto adverbial curto."},{"id":"C","text":"'Machado de Assis' especifica o termo genérico 'o escritor'."},{"id":"D","text":"o predicado deve ser isolado do sujeito."}],"correctOptionId":"C","explanation":"O aposto especificativo individualiza o referente e, em regra, não é isolado, diferentemente do explicativo. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3347","revision":1,"prompt":"Sobre o adjunto adverbial curto anteposto, é correto afirmar que","options":[{"id":"A","text":"a vírgula pode ser dispensada ou usada para realce, conforme clareza e contexto."},{"id":"B","text":"a vírgula é sempre proibida."},{"id":"C","text":"a vírgula é sempre obrigatória, qualquer que seja o contexto."},{"id":"D","text":"sua extensão deve ser aferida por regra fixa de três palavras."}],"correctOptionId":"A","explanation":"Fontes normativas reconhecem facultatividade em adjuntos de pequena extensão, sem regra universal de contagem de palavras. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3348","revision":1,"prompt":"Em 'A primeira equipe analisou os dados; a segunda, os recursos', a vírgula após 'segunda'","options":[{"id":"A","text":"isola um vocativo."},{"id":"B","text":"marca a zeugma do verbo 'analisou'."},{"id":"C","text":"separa sujeito e predicado sem justificativa."},{"id":"D","text":"introduz uma citação."}],"correctOptionId":"B","explanation":"A vírgula assinala a omissão recuperável de termo já expresso; o ponto e vírgula separa os blocos paralelos. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3349","revision":1,"prompt":"Em 'Chegou, conferiu, assinou, saiu', as vírgulas separam","options":[{"id":"A","text":"orações subordinadas substantivas."},{"id":"B","text":"apostos explicativos."},{"id":"C","text":"orações coordenadas assindéticas."},{"id":"D","text":"um único predicado de seu sujeito composto."}],"correctOptionId":"C","explanation":"Os verbos formam orações coordenadas sem conjunção e são delimitados por vírgulas. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3350","revision":1,"prompt":"Em 'A equipe revisou os dados e publicou o relatório', não se usa vírgula antes de 'e' porque","options":[{"id":"A","text":"o período não contém verbo."},{"id":"B","text":"'e' é pronome relativo."},{"id":"C","text":"toda conjunção elimina qualquer pontuação possível."},{"id":"D","text":"as orações têm o mesmo sujeito e formam coordenação aditiva simples."}],"correctOptionId":"D","explanation":"Na coordenação aditiva simples com sujeito compartilhado, a regra ordinária é não separar as orações por vírgula. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3351","revision":1,"prompt":"A vírgula antes de 'e' é admissível em 'A equipe encerrou a análise, e o relator publicou o voto' porque","options":[{"id":"A","text":"o primeiro verbo foi omitido."},{"id":"B","text":"'e' possui obrigatoriamente valor adversativo."},{"id":"C","text":"a mudança de sujeito favorece a delimitação das duas orações."},{"id":"D","text":"a segunda oração é substantiva."}],"correctOptionId":"C","explanation":"Orações coordenadas ligadas por 'e' podem ser separadas quando possuem sujeitos diferentes; o contexto define a necessidade efetiva. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3352","revision":1,"prompt":"Em 'Os servidores que concluíram o curso foram promovidos', a oração relativa","options":[{"id":"A","text":"é explicativa e pressupõe que todos concluíram."},{"id":"B","text":"é restritiva e seleciona o subconjunto promovido."},{"id":"C","text":"é substantiva e funciona como objeto."},{"id":"D","text":"deveria ser isolada por duas vírgulas sem mudança de sentido."}],"correctOptionId":"B","explanation":"Sem isolamento, a adjetiva restringe o antecedente aos servidores que satisfazem a condição indicada. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3353","revision":1,"prompt":"Em 'Os servidores, que concluíram o curso, foram promovidos', a pontuação favorece a leitura de que","options":[{"id":"A","text":"a conclusão do curso é comentário explicativo sobre o grupo identificado."},{"id":"B","text":"apenas parte dos servidores foi referida."},{"id":"C","text":"nenhum servidor concluiu o curso."},{"id":"D","text":"'servidores' é vocativo."}],"correctOptionId":"A","explanation":"As vírgulas isolam a adjetiva explicativa e alteram o alcance em relação à versão restritiva. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3354","revision":1,"prompt":"Uma oração explicativa intercalada","options":[{"id":"A","text":"recebe somente a vírgula inicial."},{"id":"B","text":"recebe somente a vírgula final."},{"id":"C","text":"não pode ser isolada por sinal algum."},{"id":"D","text":"deve ter seu início e seu fim demarcados por um par de sinais compatível."}],"correctOptionId":"D","explanation":"O inciso precisa ser fechado; uma única vírgula deixa a construção assimétrica e pode romper a frase-base. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3355","revision":1,"prompt":"Em 'Quando terminou a sessão, os presentes saíram', a vírgula","options":[{"id":"A","text":"separa adequadamente a oração adverbial temporal anteposta."},{"id":"B","text":"separa o sujeito 'os presentes' de seu verbo."},{"id":"C","text":"marca a omissão de 'terminou'."},{"id":"D","text":"transforma a oração temporal em substantiva."}],"correctOptionId":"A","explanation":"Orações subordinadas adverbiais antepostas são normalmente isoladas da oração principal. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3356","revision":1,"prompt":"Em 'Terminada a sessão, os presentes saíram', o segmento inicial","options":[{"id":"A","text":"é objeto direto de 'saíram'."},{"id":"B","text":"não contém relação temporal recuperável."},{"id":"C","text":"é vocativo composto."},{"id":"D","text":"é oração reduzida com valor adverbial e está adequadamente isolado."}],"correctOptionId":"D","explanation":"A reduzida de particípio equivale, no contexto, a uma adverbial temporal deslocada. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3357","revision":1,"prompt":"Em 'A medida, afirmou o relator, será revista', o trecho entre vírgulas é","options":[{"id":"A","text":"predicado de 'a medida'."},{"id":"B","text":"oração adjetiva restritiva."},{"id":"C","text":"oração intercalada de fala."},{"id":"D","text":"objeto direto de 'será revista'."}],"correctOptionId":"C","explanation":"A oração de elocução interrompe parenteticamente a estrutura 'A medida será revista' e deve ser isolada. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3358","revision":1,"prompt":"A frase 'A tese, porém, não convenceu' isola 'porém' porque o conector","options":[{"id":"A","text":"é o sujeito do verbo."},{"id":"B","text":"está intercalado na oração."},{"id":"C","text":"é conjunção integrante."},{"id":"D","text":"introduz citação direta."}],"correctOptionId":"B","explanation":"Conectores adversativos deslocados para dentro da oração ficam isolados por vírgulas. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3359","revision":1,"prompt":"Em 'A tese parecia sólida; porém não convenceu', a ausência de vírgula logo após 'porém' mostra que","options":[{"id":"A","text":"um conector no início da oração não recebe isolamento automático depois de si."},{"id":"B","text":"o ponto e vírgula eliminou o valor adversativo."},{"id":"C","text":"'porém' passou a funcionar como verbo."},{"id":"D","text":"a segunda oração não possui predicado."}],"correctOptionId":"A","explanation":"A fronteira entre os blocos já vem antes do conector; o isolamento em duas vírgulas aplica-se à posição intercalada. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3360","revision":1,"prompt":"Em 'Revise o texto, pois há falhas', 'pois' é","options":[{"id":"A","text":"conclusivo posposto e deve ficar entre duas vírgulas."},{"id":"B","text":"explicativo anteposto à oração que justifica a orientação."},{"id":"C","text":"pronome relativo com antecedente 'texto'."},{"id":"D","text":"marca de zeugma."}],"correctOptionId":"B","explanation":"Anteposto à oração, 'pois' apresenta a explicação para o ato de fala expresso pelo imperativo. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3361","revision":1,"prompt":"Em 'Há falhas; revise, pois, o texto', o isolamento de 'pois' decorre de seu valor","options":[{"id":"A","text":"causal subordinativo."},{"id":"B","text":"temporal intercalado."},{"id":"C","text":"conclusivo, equivalente a 'portanto', em posição posposta."},{"id":"D","text":"integrante de uma oração substantiva."}],"correctOptionId":"C","explanation":"O 'pois' conclusivo aparece depois de termo da oração a que pertence e fica isolado. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3362","revision":1,"prompt":"O ponto e vírgula é especialmente útil para","options":[{"id":"A","text":"separar qualquer sujeito curto de seu predicado."},{"id":"B","text":"encerrar exclusivamente perguntas diretas."},{"id":"C","text":"substituir todo ponto final sem efeito discursivo."},{"id":"D","text":"hierarquizar blocos extensos ou já marcados internamente por vírgulas."}],"correctOptionId":"D","explanation":"O sinal cria fronteira mais forte que a vírgula e organiza estruturas internas complexas sem encerrar totalmente a articulação. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3363","revision":1,"prompt":"Em 'A equipe técnica, após longa análise, aprovou; o setor jurídico, entretanto, pediu documentos', o ponto e vírgula","options":[{"id":"A","text":"isola o sujeito da primeira oração."},{"id":"B","text":"marca uma pergunta indireta."},{"id":"C","text":"substitui a vírgula de zeugma após 'jurídico'."},{"id":"D","text":"separa duas orações que já contêm vírgulas internas."}],"correctOptionId":"D","explanation":"A separação de nível superior torna clara a fronteira entre blocos internamente pontuados. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3364","revision":1,"prompt":"Em 'Há três etapas: coleta, análise e decisão', os dois-pontos introduzem","options":[{"id":"A","text":"vocativo."},{"id":"B","text":"enumeração anunciada pelo segmento anterior."},{"id":"C","text":"oração interrogativa direta."},{"id":"D","text":"sujeito de 'há'."}],"correctOptionId":"B","explanation":"Os dois-pontos criam expectativa de desdobramento e apresentam os itens anunciados. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3365","revision":1,"prompt":"Em 'O problema era claro: faltavam dados', os dois-pontos estabelecem relação de","options":[{"id":"A","text":"alternância."},{"id":"B","text":"vocativo."},{"id":"C","text":"explicação do problema anunciado."},{"id":"D","text":"interrogação indireta."}],"correctOptionId":"C","explanation":"O segundo segmento esclarece o conteúdo do problema apresentado no primeiro. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3366","revision":1,"prompt":"Se uma abreviatura terminada em ponto fecha o período, deve-se","options":[{"id":"A","text":"usar um único ponto, sem duplicação."},{"id":"B","text":"trocar o ponto da abreviatura por vírgula."},{"id":"C","text":"eliminar a abreviatura."},{"id":"D","text":"acrescentar sempre mais dois pontos."}],"correctOptionId":"A","explanation":"O ponto da abreviatura também encerra o período quando ambos coincidem. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3367","revision":1,"prompt":"Qual enunciado constitui pergunta direta corretamente pontuada?","options":[{"id":"A","text":"O recurso foi protocolado?"},{"id":"B","text":"O relator perguntou se o recurso havia sido protocolado."},{"id":"C","text":"O recurso, foi protocolado?"},{"id":"D","text":"O relator perguntou: se o recurso foi protocolado?"}],"correctOptionId":"A","explanation":"A primeira frase formula diretamente a pergunta; o ponto de interrogação marca sua entonação interrogativa. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3368","revision":1,"prompt":"A frase 'O relator perguntou se o recurso havia sido protocolado.' termina com ponto porque","options":[{"id":"A","text":"não contém ideia de pergunta."},{"id":"B","text":"toda ocorrência de 'se' proíbe interrogação."},{"id":"C","text":"a pergunta é indireta e integra uma oração declarativa maior."},{"id":"D","text":"o verbo 'perguntar' exige exclamação."}],"correctOptionId":"C","explanation":"Interrogativas indiretas funcionam como conteúdo do verbo e não recebem ponto de interrogação apenas por expressarem uma pergunta relatada. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3369","revision":1,"prompt":"Sobre o ponto de exclamação em texto técnico-administrativo, é correto afirmar que","options":[{"id":"A","text":"é obrigatório ao fim de toda ordem."},{"id":"B","text":"é gramatical em certos contextos, mas deve ser usado com parcimônia conforme o gênero."},{"id":"C","text":"substitui a fundamentação de uma afirmação."},{"id":"D","text":"é incompatível com a língua escrita."}],"correctOptionId":"B","explanation":"O sinal marca emoção, apelo ou ordem enfática, mas a sobriedade do gênero técnico restringe sua conveniência. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3370","revision":1,"prompt":"As reticências podem indicar","options":[{"id":"A","text":"somente erro tipográfico."},{"id":"B","text":"exclusivamente o fim definitivo de um argumento."},{"id":"C","text":"sempre uma supressão feita pelo editor."},{"id":"D","text":"suspensão, hesitação, interrupção ou continuidade sugerida."}],"correctOptionId":"D","explanation":"O sinal produz efeitos de incompletude e expectativa; a intervenção editorial em citação deve ser distinguida por colchetes. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3371","revision":1,"prompt":"Em uma citação, a forma que indica inequivocamente supressão editorial é","options":[{"id":"A","text":"?!"},{"id":"B","text":"[...]"},{"id":"C","text":"—"},{"id":"D","text":"::"}],"correctOptionId":"B","explanation":"Reticências entre colchetes mostram que o corte foi feito por quem editou a citação, não pelo autor original. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3372","revision":1,"prompt":"A distinção gráfica correta é","options":[{"id":"A","text":"travessão (—), hífen (-), meia-risca (–)."},{"id":"B","text":"travessão (-), hífen (—), meia-risca (/)."},{"id":"C","text":"travessão (–), hífen (/), meia-risca (-)."},{"id":"D","text":"os três sinais são idênticos e intercambiáveis."}],"correctOptionId":"A","explanation":"Travessão, hífen e meia-risca têm extensões e funções distintas. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3373","revision":1,"prompt":"Em 'A proposta — ainda provisória — será debatida', usam-se dois travessões porque","options":[{"id":"A","text":"o primeiro encerra uma pergunta."},{"id":"B","text":"o segundo marca o sujeito."},{"id":"C","text":"a oração principal continua depois do inciso."},{"id":"D","text":"todo travessão precisa ser duplicado, inclusive no fim da frase."}],"correctOptionId":"C","explanation":"O par abre e fecha a informação intercalada antes da retomada da frase-base. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3374","revision":1,"prompt":"Na construção 'Quando falou — sem consultar as notas —, a sessão já terminava', a vírgula depois do segundo travessão","options":[{"id":"A","text":"é necessariamente erro, pois sinais nunca se combinam."},{"id":"B","text":"pertence ao inciso interno."},{"id":"C","text":"substitui o segundo travessão."},{"id":"D","text":"é exigida pela estrutura externa da oração adverbial anteposta."}],"correctOptionId":"D","explanation":"Retirado o inciso, resta 'Quando falou, a sessão já terminava'; a vírgula externa é preservada após o fechamento do travessão. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3375","revision":1,"prompt":"Os parênteses são adequados para","options":[{"id":"A","text":"isolar comentário, data, sigla, tradução, referência ou informação lateral."},{"id":"B","text":"separar obrigatoriamente sujeito e verbo."},{"id":"C","text":"marcar toda pergunta direta."},{"id":"D","text":"substituir qualquer preposição."}],"correctOptionId":"A","explanation":"Parênteses afastam informação acessória do fluxo principal e têm usos editoriais recorrentes. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3376","revision":1,"prompt":"Ao fechar um parêntese no meio do período, a pontuação seguinte","options":[{"id":"A","text":"deve ser sempre uma vírgula."},{"id":"B","text":"depende da estrutura da frase-base, não do simples fechamento do parêntese."},{"id":"C","text":"deve ser sempre um ponto final."},{"id":"D","text":"é proibida em qualquer caso."}],"correctOptionId":"B","explanation":"Retira-se mentalmente o inciso e aplica-se o sinal que a construção externa realmente exige. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3377","revision":1,"prompt":"O uso descuidado de aspas em uma palavra isolada pode","options":[{"id":"A","text":"eliminar qualquer ambiguidade."},{"id":"B","text":"garantir neutralidade absoluta."},{"id":"C","text":"transformar a palavra em verbo."},{"id":"D","text":"sugerir ironia, descrença ou sentido pejorativo involuntário."}],"correctOptionId":"D","explanation":"Aspas podem marcar distanciamento semântico e não funcionam como destaque neutro em todo contexto. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3378","revision":1,"prompt":"Aspas simples são usadas, entre outras possibilidades, para","options":[{"id":"A","text":"indicar todo adjunto adverbial."},{"id":"B","text":"substituir o ponto final."},{"id":"C","text":"delimitar trecho dentro de outro já colocado entre aspas."},{"id":"D","text":"marcar obrigatoriamente palavras estrangeiras."}],"correctOptionId":"C","explanation":"A citação interna pode receber aspas simples para manter a hierarquia gráfica. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3379","revision":1,"prompt":"Em uma citação, '[do processo]' sinaliza","options":[{"id":"A","text":"acréscimo explicativo do editor que não pertence ao original."},{"id":"B","text":"fala direta do autor original."},{"id":"C","text":"fim obrigatório do período."},{"id":"D","text":"ironia do texto citado."}],"correctOptionId":"A","explanation":"Os colchetes tornam visível uma intervenção esclarecedora feita na reprodução do texto. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3380","revision":1,"prompt":"A marca '[sic]' é empregada para","options":[{"id":"A","text":"corrigir silenciosamente o original."},{"id":"B","text":"indicar que uma forma foi reproduzida como está no original."},{"id":"C","text":"marcar pergunta indireta."},{"id":"D","text":"substituir o nome do autor."}],"correctOptionId":"B","explanation":"A indicação preserva a forma citada e evita atribuir ao editor uma possível inadequação do original. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3381","revision":1,"prompt":"A posição do ponto final em relação às aspas","options":[{"id":"A","text":"possui uma única solução universal em todos os manuais."},{"id":"B","text":"não depende de a citação ser integral ou parcial."},{"id":"C","text":"pode seguir convenções editoriais diferentes e exige atenção ao padrão indicado."},{"id":"D","text":"é irrelevante mesmo quando a questão indica um manual."}],"correctOptionId":"C","explanation":"Senado e Embrapa adotam convenções não idênticas; sem padrão indicado, não se deve absolutizar preferência editorial. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3382","revision":1,"prompt":"Ao trocar vírgulas por travessões ou parênteses em um inciso, pode-se","options":[{"id":"A","text":"garantir preservação integral de foco e ritmo."},{"id":"B","text":"eliminar obrigatoriamente a informação intercalada."},{"id":"C","text":"mudar a função sintática do sujeito em todos os casos."},{"id":"D","text":"manter a correção básica e ainda alterar destaque ou lateralidade."}],"correctOptionId":"D","explanation":"Vírgulas integram de modo mais neutro, travessões realçam e parênteses tendem a marginalizar o comentário. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3383","revision":1,"prompt":"Uma reescrita pontuada pode permanecer gramatical e, ainda assim,","options":[{"id":"A","text":"deixar de possuir estrutura sintática."},{"id":"B","text":"preservar necessariamente todos os sentidos."},{"id":"C","text":"alterar alcance, pressupostos, foco ou relação discursiva."},{"id":"D","text":"tornar todos os sinais facultativos."}],"correctOptionId":"C","explanation":"Correção e equivalência semântica são critérios distintos, especialmente em restritivas, explicativas e incisos. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3384","revision":1,"prompt":"Em 'Dedicou a obra à filha, Ana', o isolamento do nome tende a apresentar","options":[{"id":"A","text":"'Ana' como vocativo dirigido à filha."},{"id":"B","text":"o nome como explicação de referente já identificado, podendo sugerir filha única no contexto."},{"id":"C","text":"uma enumeração de várias filhas."},{"id":"D","text":"oração subordinada adverbial."}],"correctOptionId":"B","explanation":"Aposto explicativo e especificativo diferem também em pressupostos; sem vírgula, o nome pode selecionar qual filha. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3385","revision":1,"prompt":"Qual frase mostra objeto deslocado sem vírgula indevida?","options":[{"id":"A","text":"Esse relatório eu ainda não li."},{"id":"B","text":"Esse relatório; eu ainda não li."},{"id":"C","text":"Esse relatório, eu ainda não li."},{"id":"D","text":"Esse relatório: eu ainda não li."}],"correctOptionId":"A","explanation":"A anteposição do objeto direto não exige seu isolamento; a integração com o verbo permanece. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3386","revision":1,"prompt":"A pontuação de 'E pergunta, e compara, e contesta' decorre","options":[{"id":"A","text":"da presença de sujeitos necessariamente diferentes."},{"id":"B","text":"de uma oração adjetiva explicativa."},{"id":"C","text":"da omissão de todos os verbos."},{"id":"D","text":"da repetição expressiva da conjunção, caso de polissíndeto."}],"correctOptionId":"D","explanation":"A conjunção reiterada permite separar os membros coordenados e reforça o encadeamento. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3387","revision":1,"prompt":"Sobre orações ligadas por 'e' com sujeitos diferentes, a formulação mais precisa é","options":[{"id":"A","text":"a vírgula é geralmente admissível ou favorecida, mas o contexto impede tratá-la como automatismo absoluto."},{"id":"B","text":"a vírgula é sempre proibida."},{"id":"C","text":"a vírgula transforma a coordenação em subordinação."},{"id":"D","text":"os sujeitos diferentes deixam de exercer função sintática."}],"correctOptionId":"A","explanation":"A mudança de sujeito é um fator importante de delimitação, não uma autorização para ignorar estrutura, extensão e sentido. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3388","revision":1,"prompt":"Para pontuar conectores como 'porém', 'portanto' e 'pois', deve-se observar","options":[{"id":"A","text":"somente o número de letras."},{"id":"B","text":"exclusivamente a velocidade de leitura."},{"id":"C","text":"apenas se o conector aparece no dicionário."},{"id":"D","text":"posição, valor semântico e estrutura da oração."}],"correctOptionId":"D","explanation":"Conectores iniciais, intercalados e pospostos recebem tratamentos distintos conforme a relação construída. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3389","revision":1,"prompt":"Substituir ponto e vírgula por ponto entre duas coordenadas pode","options":[{"id":"A","text":"ser sempre agramatical."},{"id":"B","text":"preservar necessariamente o mesmo grau de conexão."},{"id":"C","text":"manter enunciados corretos, mas criar novo período e afrouxar a articulação explícita."},{"id":"D","text":"transformar o segundo período em vocativo."}],"correctOptionId":"C","explanation":"Os sinais compartilham capacidade de segmentar, mas organizam a continuidade discursiva em graus diferentes. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3390","revision":1,"prompt":"Trocar os dois-pontos por ponto em 'O problema era claro: faltavam dados'","options":[{"id":"A","text":"preserva obrigatoriamente a relação explícita de explicação."},{"id":"B","text":"pode manter correção, mas reduzir o vínculo de anúncio e esclarecimento."},{"id":"C","text":"elimina o verbo do segundo segmento."},{"id":"D","text":"torna a primeira oração interrogativa."}],"correctOptionId":"B","explanation":"Os dois-pontos codificam que o segundo segmento desdobra o primeiro; o ponto cria unidade mais independente. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3391","revision":1,"prompt":"Quanto a uma oração adverbial posposta à principal, é correto afirmar que","options":[{"id":"A","text":"sempre exige duas vírgulas."},{"id":"B","text":"sua pontuação depende da integração, da relação e do efeito, não de transferência automática da regra de anteposição."},{"id":"C","text":"nunca admite qualquer sinal."},{"id":"D","text":"funciona necessariamente como sujeito."}],"correctOptionId":"B","explanation":"A posição final pode favorecer maior integração; contexto sintático e semântico orienta a pontuação. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3392","revision":1,"prompt":"A afirmação 'toda vírgula corresponde a uma pausa real e toda pausa exige vírgula' é","options":[{"id":"A","text":"inadequada, pois pontuação e fala não mantêm correspondência mecânica."},{"id":"B","text":"regra suficiente para qualquer prova."},{"id":"C","text":"válida somente com sujeitos longos."},{"id":"D","text":"definição de ponto e vírgula."}],"correctOptionId":"A","explanation":"A escrita usa sinais para relações sintáticas e discursivas que não se reduzem à duração de pausas na fala. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3393","revision":1,"prompt":"Em uma enumeração complexa cujos itens já contêm vírgulas, o sinal mais útil para separar os itens de nível superior é","options":[{"id":"A","text":"apóstrofo."},{"id":"B","text":"hífen."},{"id":"C","text":"ponto e vírgula."},{"id":"D","text":"ponto de interrogação."}],"correctOptionId":"C","explanation":"O ponto e vírgula hierarquiza os itens e preserva as vírgulas para relações internas. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3394","revision":1,"prompt":"A retirada das vírgulas em uma oração adjetiva explicativa pode","options":[{"id":"A","text":"alterar somente a ortografia do pronome relativo."},{"id":"B","text":"apagar o antecedente materialmente."},{"id":"C","text":"ser sempre estilística e semanticamente neutra."},{"id":"D","text":"produzir leitura restritiva e mudar o conjunto de referentes."}],"correctOptionId":"D","explanation":"A oposição explicativa/restritiva afeta o alcance da propriedade atribuída ao antecedente. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3395","revision":1,"prompt":"Ao avaliar a pontuação de um inciso, um procedimento eficiente é","options":[{"id":"A","text":"retirá-lo mentalmente e verificar a estrutura e a pontuação exigidas pela frase-base."},{"id":"B","text":"considerar todo termo entre sinais como sujeito."},{"id":"C","text":"eliminar sempre os dois sinais de fechamento."},{"id":"D","text":"substituir qualquer inciso por pergunta direta."}],"correctOptionId":"A","explanation":"A frase-base revela integrações essenciais e mostra se há pontuação externa que deve permanecer após o inciso. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3396","revision":1,"prompt":"A vírgula antes de 'etc.' deve ser tratada como","options":[{"id":"A","text":"erro absoluto em qualquer publicação."},{"id":"B","text":"convenção que pode variar entre manuais editoriais."},{"id":"C","text":"sinal obrigatório por regra de sujeito e predicado."},{"id":"D","text":"marca de interrogativa indireta."}],"correctOptionId":"B","explanation":"A Embrapa a exige em suas publicações, enquanto outras tradições editoriais adotam solução diferente. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3397","revision":1,"prompt":"Qual generalização permanece válida mesmo quando o sujeito é muito extenso?","options":[{"id":"A","text":"Todo sujeito extenso recebe ponto e vírgula."},{"id":"B","text":"Todo sujeito extenso se transforma em vocativo."},{"id":"C","text":"A extensão elimina a necessidade de concordância."},{"id":"D","text":"Não se usa vírgula única para separar sujeito e predicado apenas por causa da extensão."}],"correctOptionId":"D","explanation":"A integração sintática entre sujeito e predicado não depende do número de palavras do sujeito. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3398","revision":1,"prompt":"Diante de uma proposta de mudança de pontuação, a sequência mais completa é","options":[{"id":"A","text":"contar palavras, estimar respiração e aceitar a troca."},{"id":"B","text":"comparar apenas o desenho visual dos sinais."},{"id":"C","text":"analisar frase-base, funções, orações, integração, alcance, foco, obrigatoriedade e convenção aplicável."},{"id":"D","text":"verificar somente se a versão final termina com ponto."}],"correctOptionId":"C","explanation":"O método reúne critérios sintáticos, semânticos, discursivos e editoriais necessários para julgar correção e equivalência. Fonte: questão autoral baseada nas referências do conteúdo."}
+    {
+      "id": "q3339",
+      "revision": 2,
+      "prompt": "A análise segura da pontuação deve começar pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "estrutura sintática e pela função dos segmentos, antes dos efeitos de ritmo e ênfase."
+        },
+        {
+          "id": "B",
+          "text": "duração da pausa necessária para respirar."
+        },
+        {
+          "id": "C",
+          "text": "quantidade de palavras existente entre dois sinais."
+        },
+        {
+          "id": "D",
+          "text": "preferência sonora individual do leitor."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A pontuação organiza sintaxe e sentido; a pausa oral, isoladamente, não justifica o emprego de um sinal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3340",
+      "revision": 2,
+      "prompt": "Qual frase respeita a regra de integração entre sujeito e predicado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os relatórios enviados durante o último trimestre, serão examinados."
+        },
+        {
+          "id": "B",
+          "text": "Os relatórios enviados durante o último trimestre serão examinados."
+        },
+        {
+          "id": "C",
+          "text": "Os relatórios, enviados durante o último trimestre serão examinados."
+        },
+        {
+          "id": "D",
+          "text": "Os relatórios enviados, durante o último trimestre serão examinados."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A extensão do sujeito não autoriza vírgula entre ele e o predicado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3341",
+      "revision": 2,
+      "prompt": "Em 'Os relatórios, segundo a comissão, serão examinados', as vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "separam diretamente o sujeito de seu predicado."
+        },
+        {
+          "id": "B",
+          "text": "marcam a omissão do verbo 'serão'."
+        },
+        {
+          "id": "C",
+          "text": "isolam um comentário intercalado, sem romper a frase-base."
+        },
+        {
+          "id": "D",
+          "text": "transformam 'relatórios' em vocativo."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Retirado o inciso 'segundo a comissão', resta a estrutura integrada 'Os relatórios serão examinados'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3342",
+      "revision": 2,
+      "prompt": "O simples deslocamento de um objeto para o início da oração",
+      "options": [
+        {
+          "id": "A",
+          "text": "obriga o uso de dois-pontos antes do verbo."
+        },
+        {
+          "id": "B",
+          "text": "transforma o objeto em vocativo."
+        },
+        {
+          "id": "C",
+          "text": "exige vírgula por criar adjunto adverbial."
+        },
+        {
+          "id": "D",
+          "text": "não basta para justificar seu isolamento por vírgula."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Em 'Esse processo eu ainda não examinei', o objeto deslocado continua integrado ao verbo e não recebe vírgula apenas pela posição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3343",
+      "revision": 2,
+      "prompt": "A forma adequada é 'O relatório demonstra que houve melhora' porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda ocorrência de 'que' proíbe pontuação no período inteiro."
+        },
+        {
+          "id": "B",
+          "text": "o verbo 'demonstrar' não admite objeto."
+        },
+        {
+          "id": "C",
+          "text": "a subordinada é adverbial deslocada."
+        },
+        {
+          "id": "D",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        },
+        {
+          "id": "E",
+          "text": "a oração iniciada por 'que' funciona como complemento integrado do verbo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A subordinada substantiva objetiva direta completa 'demonstra' e não deve ser separada do regente por vírgula arbitrária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3344",
+      "revision": 2,
+      "prompt": "Na enumeração 'leitura, comparação, síntese e revisão', a vírgula separa",
+      "options": [
+        {
+          "id": "A",
+          "text": "termos coordenados de mesma função não ligados por conjunção."
+        },
+        {
+          "id": "B",
+          "text": "sujeito e predicado."
+        },
+        {
+          "id": "C",
+          "text": "uma oração explicativa."
+        },
+        {
+          "id": "D",
+          "text": "o verbo de seu complemento."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Elementos coordenados assindéticos de uma enumeração são separados por vírgulas; o último é ligado por 'e'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3345",
+      "revision": 2,
+      "prompt": "Em 'Candidatos, leiam o comando', o termo 'Candidatos' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sujeito expresso de 'leiam'."
+        },
+        {
+          "id": "B",
+          "text": "vocativo corretamente isolado."
+        },
+        {
+          "id": "C",
+          "text": "objeto direto deslocado."
+        },
+        {
+          "id": "D",
+          "text": "aposto especificativo."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O nome interpela os destinatários; o sujeito está implícito na forma imperativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3346",
+      "revision": 2,
+      "prompt": "Em 'O escritor Machado de Assis nasceu no Rio de Janeiro', a ausência de vírgulas ocorre porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "nomes próprios nunca podem formar aposto."
+        },
+        {
+          "id": "B",
+          "text": "o segmento é um adjunto adverbial curto."
+        },
+        {
+          "id": "C",
+          "text": "'Machado de Assis' especifica o termo genérico 'o escritor'."
+        },
+        {
+          "id": "D",
+          "text": "o predicado deve ser isolado do sujeito."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O aposto especificativo individualiza o referente e, em regra, não é isolado, diferentemente do explicativo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3347",
+      "revision": 2,
+      "prompt": "Sobre o adjunto adverbial curto anteposto, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a vírgula é sempre proibida."
+        },
+        {
+          "id": "B",
+          "text": "a vírgula é sempre obrigatória, qualquer que seja o contexto."
+        },
+        {
+          "id": "C",
+          "text": "sua extensão deve ser aferida por regra fixa de três palavras."
+        },
+        {
+          "id": "D",
+          "text": "a vírgula pode ser dispensada ou usada para realce, conforme clareza e contexto."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Fontes normativas reconhecem facultatividade em adjuntos de pequena extensão, sem regra universal de contagem de palavras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3348",
+      "revision": 2,
+      "prompt": "Em 'A primeira equipe analisou os dados; a segunda, os recursos', a vírgula após 'segunda'",
+      "options": [
+        {
+          "id": "A",
+          "text": "isola um vocativo."
+        },
+        {
+          "id": "B",
+          "text": "separa sujeito e predicado sem justificativa."
+        },
+        {
+          "id": "C",
+          "text": "introduz uma citação."
+        },
+        {
+          "id": "D",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        },
+        {
+          "id": "E",
+          "text": "marca a zeugma do verbo 'analisou'."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A vírgula assinala a omissão recuperável de termo já expresso; o ponto e vírgula separa os blocos paralelos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3349",
+      "revision": 2,
+      "prompt": "Em 'Chegou, conferiu, assinou, saiu', as vírgulas separam",
+      "options": [
+        {
+          "id": "A",
+          "text": "orações coordenadas assindéticas."
+        },
+        {
+          "id": "B",
+          "text": "orações subordinadas substantivas."
+        },
+        {
+          "id": "C",
+          "text": "apostos explicativos."
+        },
+        {
+          "id": "D",
+          "text": "um único predicado de seu sujeito composto."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os verbos formam orações coordenadas sem conjunção e são delimitados por vírgulas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3350",
+      "revision": 2,
+      "prompt": "Em 'A equipe revisou os dados e publicou o relatório', não se usa vírgula antes de 'e' porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o período não contém verbo."
+        },
+        {
+          "id": "B",
+          "text": "as orações têm o mesmo sujeito e formam coordenação aditiva simples."
+        },
+        {
+          "id": "C",
+          "text": "'e' é pronome relativo."
+        },
+        {
+          "id": "D",
+          "text": "toda conjunção elimina qualquer pontuação possível."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Na coordenação aditiva simples com sujeito compartilhado, a regra ordinária é não separar as orações por vírgula. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3351",
+      "revision": 2,
+      "prompt": "A vírgula antes de 'e' é admissível em 'A equipe encerrou a análise, e o relator publicou o voto' porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o primeiro verbo foi omitido."
+        },
+        {
+          "id": "B",
+          "text": "'e' possui obrigatoriamente valor adversativo."
+        },
+        {
+          "id": "C",
+          "text": "a mudança de sujeito favorece a delimitação das duas orações."
+        },
+        {
+          "id": "D",
+          "text": "a segunda oração é substantiva."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Orações coordenadas ligadas por 'e' podem ser separadas quando possuem sujeitos diferentes; o contexto define a necessidade efetiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3352",
+      "revision": 2,
+      "prompt": "Em 'Os servidores que concluíram o curso foram promovidos', a oração relativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "é explicativa e pressupõe que todos concluíram."
+        },
+        {
+          "id": "B",
+          "text": "é substantiva e funciona como objeto."
+        },
+        {
+          "id": "C",
+          "text": "deveria ser isolada por duas vírgulas sem mudança de sentido."
+        },
+        {
+          "id": "D",
+          "text": "é restritiva e seleciona o subconjunto promovido."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Sem isolamento, a adjetiva restringe o antecedente aos servidores que satisfazem a condição indicada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3353",
+      "revision": 2,
+      "prompt": "Em 'Os servidores, que concluíram o curso, foram promovidos', a pontuação favorece a leitura de que",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas parte dos servidores foi referida."
+        },
+        {
+          "id": "B",
+          "text": "nenhum servidor concluiu o curso."
+        },
+        {
+          "id": "C",
+          "text": "'servidores' é vocativo."
+        },
+        {
+          "id": "D",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        },
+        {
+          "id": "E",
+          "text": "a conclusão do curso é comentário explicativo sobre o grupo identificado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "As vírgulas isolam a adjetiva explicativa e alteram o alcance em relação à versão restritiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3354",
+      "revision": 2,
+      "prompt": "Uma oração explicativa intercalada",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ter seu início e seu fim demarcados por um par de sinais compatível."
+        },
+        {
+          "id": "B",
+          "text": "recebe somente a vírgula inicial."
+        },
+        {
+          "id": "C",
+          "text": "recebe somente a vírgula final."
+        },
+        {
+          "id": "D",
+          "text": "não pode ser isolada por sinal algum."
+        },
+        {
+          "id": "E",
+          "text": "A presença de pronome relativo torna as vírgulas obrigatórias em qualquer contexto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O inciso precisa ser fechado; uma única vírgula deixa a construção assimétrica e pode romper a frase-base. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3355",
+      "revision": 2,
+      "prompt": "Em 'Quando terminou a sessão, os presentes saíram', a vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "separa o sujeito 'os presentes' de seu verbo."
+        },
+        {
+          "id": "B",
+          "text": "separa adequadamente a oração adverbial temporal anteposta."
+        },
+        {
+          "id": "C",
+          "text": "marca a omissão de 'terminou'."
+        },
+        {
+          "id": "D",
+          "text": "transforma a oração temporal em substantiva."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Orações subordinadas adverbiais antepostas são normalmente isoladas da oração principal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3356",
+      "revision": 2,
+      "prompt": "Em 'Terminada a sessão, os presentes saíram', o segmento inicial",
+      "options": [
+        {
+          "id": "A",
+          "text": "é objeto direto de 'saíram'."
+        },
+        {
+          "id": "B",
+          "text": "não contém relação temporal recuperável."
+        },
+        {
+          "id": "C",
+          "text": "é oração reduzida com valor adverbial e está adequadamente isolado."
+        },
+        {
+          "id": "D",
+          "text": "é vocativo composto."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A reduzida de particípio equivale, no contexto, a uma adverbial temporal deslocada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3357",
+      "revision": 2,
+      "prompt": "Em 'A medida, afirmou o relator, será revista', o trecho entre vírgulas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "predicado de 'a medida'."
+        },
+        {
+          "id": "B",
+          "text": "oração adjetiva restritiva."
+        },
+        {
+          "id": "C",
+          "text": "objeto direto de 'será revista'."
+        },
+        {
+          "id": "D",
+          "text": "oração intercalada de fala."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A oração de elocução interrompe parenteticamente a estrutura 'A medida será revista' e deve ser isolada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3358",
+      "revision": 2,
+      "prompt": "A frase 'A tese, porém, não convenceu' isola 'porém' porque o conector",
+      "options": [
+        {
+          "id": "A",
+          "text": "é o sujeito do verbo."
+        },
+        {
+          "id": "B",
+          "text": "é conjunção integrante."
+        },
+        {
+          "id": "C",
+          "text": "introduz citação direta."
+        },
+        {
+          "id": "D",
+          "text": "Todo conector exige vírgula imediatamente depois de si, qualquer que seja sua posição."
+        },
+        {
+          "id": "E",
+          "text": "está intercalado na oração."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Conectores adversativos deslocados para dentro da oração ficam isolados por vírgulas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3359",
+      "revision": 2,
+      "prompt": "Em 'A tese parecia sólida; porém não convenceu', a ausência de vírgula logo após 'porém' mostra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "um conector no início da oração não recebe isolamento automático depois de si."
+        },
+        {
+          "id": "B",
+          "text": "o ponto e vírgula eliminou o valor adversativo."
+        },
+        {
+          "id": "C",
+          "text": "'porém' passou a funcionar como verbo."
+        },
+        {
+          "id": "D",
+          "text": "a segunda oração não possui predicado."
+        },
+        {
+          "id": "E",
+          "text": "Todo conector exige vírgula imediatamente depois de si, qualquer que seja sua posição."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fronteira entre os blocos já vem antes do conector; o isolamento em duas vírgulas aplica-se à posição intercalada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3360",
+      "revision": 2,
+      "prompt": "Em 'Revise o texto, pois há falhas', 'pois' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "conclusivo posposto e deve ficar entre duas vírgulas."
+        },
+        {
+          "id": "B",
+          "text": "explicativo anteposto à oração que justifica a orientação."
+        },
+        {
+          "id": "C",
+          "text": "pronome relativo com antecedente 'texto'."
+        },
+        {
+          "id": "D",
+          "text": "marca de zeugma."
+        },
+        {
+          "id": "E",
+          "text": "Todo conector exige vírgula imediatamente depois de si, qualquer que seja sua posição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Anteposto à oração, 'pois' apresenta a explicação para o ato de fala expresso pelo imperativo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3361",
+      "revision": 2,
+      "prompt": "Em 'Há falhas; revise, pois, o texto', o isolamento de 'pois' decorre de seu valor",
+      "options": [
+        {
+          "id": "A",
+          "text": "causal subordinativo."
+        },
+        {
+          "id": "B",
+          "text": "temporal intercalado."
+        },
+        {
+          "id": "C",
+          "text": "conclusivo, equivalente a 'portanto', em posição posposta."
+        },
+        {
+          "id": "D",
+          "text": "integrante de uma oração substantiva."
+        },
+        {
+          "id": "E",
+          "text": "Todo conector exige vírgula imediatamente depois de si, qualquer que seja sua posição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O 'pois' conclusivo aparece depois de termo da oração a que pertence e fica isolado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3362",
+      "revision": 2,
+      "prompt": "O ponto e vírgula é especialmente útil para",
+      "options": [
+        {
+          "id": "A",
+          "text": "separar qualquer sujeito curto de seu predicado."
+        },
+        {
+          "id": "B",
+          "text": "encerrar exclusivamente perguntas diretas."
+        },
+        {
+          "id": "C",
+          "text": "substituir todo ponto final sem efeito discursivo."
+        },
+        {
+          "id": "D",
+          "text": "hierarquizar blocos extensos ou já marcados internamente por vírgulas."
+        },
+        {
+          "id": "E",
+          "text": "O ponto e vírgula pode substituir qualquer vírgula sem alterar a hierarquia do período."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O sinal cria fronteira mais forte que a vírgula e organiza estruturas internas complexas sem encerrar totalmente a articulação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3363",
+      "revision": 2,
+      "prompt": "Em 'A equipe técnica, após longa análise, aprovou; o setor jurídico, entretanto, pediu documentos', o ponto e vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "isola o sujeito da primeira oração."
+        },
+        {
+          "id": "B",
+          "text": "marca uma pergunta indireta."
+        },
+        {
+          "id": "C",
+          "text": "substitui a vírgula de zeugma após 'jurídico'."
+        },
+        {
+          "id": "D",
+          "text": "O ponto e vírgula pode substituir qualquer vírgula sem alterar a hierarquia do período."
+        },
+        {
+          "id": "E",
+          "text": "separa duas orações que já contêm vírgulas internas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A separação de nível superior torna clara a fronteira entre blocos internamente pontuados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3364",
+      "revision": 2,
+      "prompt": "Em 'Há três etapas: coleta, análise e decisão', os dois-pontos introduzem",
+      "options": [
+        {
+          "id": "A",
+          "text": "enumeração anunciada pelo segmento anterior."
+        },
+        {
+          "id": "B",
+          "text": "vocativo."
+        },
+        {
+          "id": "C",
+          "text": "oração interrogativa direta."
+        },
+        {
+          "id": "D",
+          "text": "sujeito de 'há'."
+        },
+        {
+          "id": "E",
+          "text": "Os dois-pontos servem apenas para representar uma pausa intermediária da leitura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os dois-pontos criam expectativa de desdobramento e apresentam os itens anunciados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3365",
+      "revision": 2,
+      "prompt": "Em 'O problema era claro: faltavam dados', os dois-pontos estabelecem relação de",
+      "options": [
+        {
+          "id": "A",
+          "text": "alternância."
+        },
+        {
+          "id": "B",
+          "text": "explicação do problema anunciado."
+        },
+        {
+          "id": "C",
+          "text": "vocativo."
+        },
+        {
+          "id": "D",
+          "text": "interrogação indireta."
+        },
+        {
+          "id": "E",
+          "text": "Os dois-pontos servem apenas para representar uma pausa intermediária da leitura."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O segundo segmento esclarece o conteúdo do problema apresentado no primeiro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3366",
+      "revision": 2,
+      "prompt": "Se uma abreviatura terminada em ponto fecha o período, deve-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "trocar o ponto da abreviatura por vírgula."
+        },
+        {
+          "id": "B",
+          "text": "eliminar a abreviatura."
+        },
+        {
+          "id": "C",
+          "text": "usar um único ponto, sem duplicação."
+        },
+        {
+          "id": "D",
+          "text": "acrescentar sempre mais dois pontos."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O ponto da abreviatura também encerra o período quando ambos coincidem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3367",
+      "revision": 2,
+      "prompt": "Qual enunciado constitui pergunta direta corretamente pontuada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O relator perguntou se o recurso havia sido protocolado."
+        },
+        {
+          "id": "B",
+          "text": "O recurso, foi protocolado?"
+        },
+        {
+          "id": "C",
+          "text": "O relator perguntou: se o recurso foi protocolado?"
+        },
+        {
+          "id": "D",
+          "text": "O recurso foi protocolado?"
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A primeira frase formula diretamente a pergunta; o ponto de interrogação marca sua entonação interrogativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3368",
+      "revision": 2,
+      "prompt": "A frase 'O relator perguntou se o recurso havia sido protocolado.' termina com ponto porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "não contém ideia de pergunta."
+        },
+        {
+          "id": "B",
+          "text": "toda ocorrência de 'se' proíbe interrogação."
+        },
+        {
+          "id": "C",
+          "text": "o verbo 'perguntar' exige exclamação."
+        },
+        {
+          "id": "D",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        },
+        {
+          "id": "E",
+          "text": "a pergunta é indireta e integra uma oração declarativa maior."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Interrogativas indiretas funcionam como conteúdo do verbo e não recebem ponto de interrogação apenas por expressarem uma pergunta relatada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3369",
+      "revision": 2,
+      "prompt": "Sobre o ponto de exclamação em texto técnico-administrativo, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é gramatical em certos contextos, mas deve ser usado com parcimônia conforme o gênero."
+        },
+        {
+          "id": "B",
+          "text": "é obrigatório ao fim de toda ordem."
+        },
+        {
+          "id": "C",
+          "text": "substitui a fundamentação de uma afirmação."
+        },
+        {
+          "id": "D",
+          "text": "é incompatível com a língua escrita."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O sinal marca emoção, apelo ou ordem enfática, mas a sobriedade do gênero técnico restringe sua conveniência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3370",
+      "revision": 2,
+      "prompt": "As reticências podem indicar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente erro tipográfico."
+        },
+        {
+          "id": "B",
+          "text": "suspensão, hesitação, interrupção ou continuidade sugerida."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente o fim definitivo de um argumento."
+        },
+        {
+          "id": "D",
+          "text": "sempre uma supressão feita pelo editor."
+        },
+        {
+          "id": "E",
+          "text": "As reticências indicam sempre supressão editorial feita por quem cita."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sinal produz efeitos de incompletude e expectativa; a intervenção editorial em citação deve ser distinguida por colchetes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3371",
+      "revision": 2,
+      "prompt": "Em uma citação, a forma que indica inequivocamente supressão editorial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "?!"
+        },
+        {
+          "id": "B",
+          "text": "—"
+        },
+        {
+          "id": "C",
+          "text": "[...]"
+        },
+        {
+          "id": "D",
+          "text": "::"
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Reticências entre colchetes mostram que o corte foi feito por quem editou a citação, não pelo autor original. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3372",
+      "revision": 2,
+      "prompt": "A distinção gráfica correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "travessão (-), hífen (—), meia-risca (/)."
+        },
+        {
+          "id": "B",
+          "text": "travessão (–), hífen (/), meia-risca (-)."
+        },
+        {
+          "id": "C",
+          "text": "os três sinais são idênticos e intercambiáveis."
+        },
+        {
+          "id": "D",
+          "text": "travessão (—), hífen (-), meia-risca (–)."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Travessão, hífen e meia-risca têm extensões e funções distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3373",
+      "revision": 2,
+      "prompt": "Em 'A proposta — ainda provisória — será debatida', usam-se dois travessões porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o primeiro encerra uma pergunta."
+        },
+        {
+          "id": "B",
+          "text": "o segundo marca o sujeito."
+        },
+        {
+          "id": "C",
+          "text": "todo travessão precisa ser duplicado, inclusive no fim da frase."
+        },
+        {
+          "id": "D",
+          "text": "O travessão dispensa o sinal de fechamento do trecho intercalado."
+        },
+        {
+          "id": "E",
+          "text": "a oração principal continua depois do inciso."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O par abre e fecha a informação intercalada antes da retomada da frase-base. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3374",
+      "revision": 2,
+      "prompt": "Na construção 'Quando falou — sem consultar as notas —, a sessão já terminava', a vírgula depois do segundo travessão",
+      "options": [
+        {
+          "id": "A",
+          "text": "é exigida pela estrutura externa da oração adverbial anteposta."
+        },
+        {
+          "id": "B",
+          "text": "é necessariamente erro, pois sinais nunca se combinam."
+        },
+        {
+          "id": "C",
+          "text": "pertence ao inciso interno."
+        },
+        {
+          "id": "D",
+          "text": "substitui o segundo travessão."
+        },
+        {
+          "id": "E",
+          "text": "O travessão dispensa o sinal de fechamento do trecho intercalado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Retirado o inciso, resta 'Quando falou, a sessão já terminava'; a vírgula externa é preservada após o fechamento do travessão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3375",
+      "revision": 2,
+      "prompt": "Os parênteses são adequados para",
+      "options": [
+        {
+          "id": "A",
+          "text": "separar obrigatoriamente sujeito e verbo."
+        },
+        {
+          "id": "B",
+          "text": "isolar comentário, data, sigla, tradução, referência ou informação lateral."
+        },
+        {
+          "id": "C",
+          "text": "marcar toda pergunta direta."
+        },
+        {
+          "id": "D",
+          "text": "substituir qualquer preposição."
+        },
+        {
+          "id": "E",
+          "text": "O fechamento dos parênteses cria automaticamente uma vírgula externa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Parênteses afastam informação acessória do fluxo principal e têm usos editoriais recorrentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3376",
+      "revision": 2,
+      "prompt": "Ao fechar um parêntese no meio do período, a pontuação seguinte",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser sempre uma vírgula."
+        },
+        {
+          "id": "B",
+          "text": "deve ser sempre um ponto final."
+        },
+        {
+          "id": "C",
+          "text": "depende da estrutura da frase-base, não do simples fechamento do parêntese."
+        },
+        {
+          "id": "D",
+          "text": "é proibida em qualquer caso."
+        },
+        {
+          "id": "E",
+          "text": "O fechamento dos parênteses cria automaticamente uma vírgula externa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Retira-se mentalmente o inciso e aplica-se o sinal que a construção externa realmente exige. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3377",
+      "revision": 2,
+      "prompt": "O uso descuidado de aspas em uma palavra isolada pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar qualquer ambiguidade."
+        },
+        {
+          "id": "B",
+          "text": "garantir neutralidade absoluta."
+        },
+        {
+          "id": "C",
+          "text": "transformar a palavra em verbo."
+        },
+        {
+          "id": "D",
+          "text": "sugerir ironia, descrença ou sentido pejorativo involuntário."
+        },
+        {
+          "id": "E",
+          "text": "As aspas provam necessariamente que a expressão contém erro gramatical."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Aspas podem marcar distanciamento semântico e não funcionam como destaque neutro em todo contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3378",
+      "revision": 2,
+      "prompt": "Aspas simples são usadas, entre outras possibilidades, para",
+      "options": [
+        {
+          "id": "A",
+          "text": "indicar todo adjunto adverbial."
+        },
+        {
+          "id": "B",
+          "text": "substituir o ponto final."
+        },
+        {
+          "id": "C",
+          "text": "marcar obrigatoriamente palavras estrangeiras."
+        },
+        {
+          "id": "D",
+          "text": "As aspas provam necessariamente que a expressão contém erro gramatical."
+        },
+        {
+          "id": "E",
+          "text": "delimitar trecho dentro de outro já colocado entre aspas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A citação interna pode receber aspas simples para manter a hierarquia gráfica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3379",
+      "revision": 2,
+      "prompt": "Em uma citação, '[do processo]' sinaliza",
+      "options": [
+        {
+          "id": "A",
+          "text": "acréscimo explicativo do editor que não pertence ao original."
+        },
+        {
+          "id": "B",
+          "text": "fala direta do autor original."
+        },
+        {
+          "id": "C",
+          "text": "fim obrigatório do período."
+        },
+        {
+          "id": "D",
+          "text": "ironia do texto citado."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os colchetes tornam visível uma intervenção esclarecedora feita na reprodução do texto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3380",
+      "revision": 2,
+      "prompt": "A marca '[sic]' é empregada para",
+      "options": [
+        {
+          "id": "A",
+          "text": "corrigir silenciosamente o original."
+        },
+        {
+          "id": "B",
+          "text": "indicar que uma forma foi reproduzida como está no original."
+        },
+        {
+          "id": "C",
+          "text": "marcar pergunta indireta."
+        },
+        {
+          "id": "D",
+          "text": "substituir o nome do autor."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A indicação preserva a forma citada e evita atribuir ao editor uma possível inadequação do original. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3381",
+      "revision": 2,
+      "prompt": "A posição do ponto final em relação às aspas",
+      "options": [
+        {
+          "id": "A",
+          "text": "possui uma única solução universal em todos os manuais."
+        },
+        {
+          "id": "B",
+          "text": "não depende de a citação ser integral ou parcial."
+        },
+        {
+          "id": "C",
+          "text": "pode seguir convenções editoriais diferentes e exige atenção ao padrão indicado."
+        },
+        {
+          "id": "D",
+          "text": "é irrelevante mesmo quando a questão indica um manual."
+        },
+        {
+          "id": "E",
+          "text": "As aspas provam necessariamente que a expressão contém erro gramatical."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Senado e Embrapa adotam convenções não idênticas; sem padrão indicado, não se deve absolutizar preferência editorial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3382",
+      "revision": 2,
+      "prompt": "Ao trocar vírgulas por travessões ou parênteses em um inciso, pode-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "garantir preservação integral de foco e ritmo."
+        },
+        {
+          "id": "B",
+          "text": "eliminar obrigatoriamente a informação intercalada."
+        },
+        {
+          "id": "C",
+          "text": "mudar a função sintática do sujeito em todos os casos."
+        },
+        {
+          "id": "D",
+          "text": "manter a correção básica e ainda alterar destaque ou lateralidade."
+        },
+        {
+          "id": "E",
+          "text": "O travessão dispensa o sinal de fechamento do trecho intercalado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Vírgulas integram de modo mais neutro, travessões realçam e parênteses tendem a marginalizar o comentário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3383",
+      "revision": 2,
+      "prompt": "Uma reescrita pontuada pode permanecer gramatical e, ainda assim,",
+      "options": [
+        {
+          "id": "A",
+          "text": "deixar de possuir estrutura sintática."
+        },
+        {
+          "id": "B",
+          "text": "preservar necessariamente todos os sentidos."
+        },
+        {
+          "id": "C",
+          "text": "tornar todos os sinais facultativos."
+        },
+        {
+          "id": "D",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        },
+        {
+          "id": "E",
+          "text": "alterar alcance, pressupostos, foco ou relação discursiva."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Correção e equivalência semântica são critérios distintos, especialmente em restritivas, explicativas e incisos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3384",
+      "revision": 2,
+      "prompt": "Em 'Dedicou a obra à filha, Ana', o isolamento do nome tende a apresentar",
+      "options": [
+        {
+          "id": "A",
+          "text": "o nome como explicação de referente já identificado, podendo sugerir filha única no contexto."
+        },
+        {
+          "id": "B",
+          "text": "'Ana' como vocativo dirigido à filha."
+        },
+        {
+          "id": "C",
+          "text": "uma enumeração de várias filhas."
+        },
+        {
+          "id": "D",
+          "text": "oração subordinada adverbial."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Aposto explicativo e especificativo diferem também em pressupostos; sem vírgula, o nome pode selecionar qual filha. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3385",
+      "revision": 2,
+      "prompt": "Qual frase mostra objeto deslocado sem vírgula indevida?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Esse relatório; eu ainda não li."
+        },
+        {
+          "id": "B",
+          "text": "Esse relatório eu ainda não li."
+        },
+        {
+          "id": "C",
+          "text": "Esse relatório, eu ainda não li."
+        },
+        {
+          "id": "D",
+          "text": "Esse relatório: eu ainda não li."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A anteposição do objeto direto não exige seu isolamento; a integração com o verbo permanece. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3386",
+      "revision": 2,
+      "prompt": "A pontuação de 'E pergunta, e compara, e contesta' decorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "da presença de sujeitos necessariamente diferentes."
+        },
+        {
+          "id": "B",
+          "text": "de uma oração adjetiva explicativa."
+        },
+        {
+          "id": "C",
+          "text": "da repetição expressiva da conjunção, caso de polissíndeto."
+        },
+        {
+          "id": "D",
+          "text": "da omissão de todos os verbos."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A conjunção reiterada permite separar os membros coordenados e reforça o encadeamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3387",
+      "revision": 2,
+      "prompt": "Sobre orações ligadas por 'e' com sujeitos diferentes, a formulação mais precisa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a vírgula é sempre proibida."
+        },
+        {
+          "id": "B",
+          "text": "a vírgula transforma a coordenação em subordinação."
+        },
+        {
+          "id": "C",
+          "text": "os sujeitos diferentes deixam de exercer função sintática."
+        },
+        {
+          "id": "D",
+          "text": "a vírgula é geralmente admissível ou favorecida, mas o contexto impede tratá-la como automatismo absoluto."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A mudança de sujeito é um fator importante de delimitação, não uma autorização para ignorar estrutura, extensão e sentido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3388",
+      "revision": 2,
+      "prompt": "Para pontuar conectores como 'porém', 'portanto' e 'pois', deve-se observar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o número de letras."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente a velocidade de leitura."
+        },
+        {
+          "id": "C",
+          "text": "apenas se o conector aparece no dicionário."
+        },
+        {
+          "id": "D",
+          "text": "Todo conector exige vírgula imediatamente depois de si, qualquer que seja sua posição."
+        },
+        {
+          "id": "E",
+          "text": "posição, valor semântico e estrutura da oração."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Conectores iniciais, intercalados e pospostos recebem tratamentos distintos conforme a relação construída. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3389",
+      "revision": 2,
+      "prompt": "Substituir ponto e vírgula por ponto entre duas coordenadas pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter enunciados corretos, mas criar novo período e afrouxar a articulação explícita."
+        },
+        {
+          "id": "B",
+          "text": "ser sempre agramatical."
+        },
+        {
+          "id": "C",
+          "text": "preservar necessariamente o mesmo grau de conexão."
+        },
+        {
+          "id": "D",
+          "text": "transformar o segundo período em vocativo."
+        },
+        {
+          "id": "E",
+          "text": "O ponto e vírgula pode substituir qualquer vírgula sem alterar a hierarquia do período."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os sinais compartilham capacidade de segmentar, mas organizam a continuidade discursiva em graus diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3390",
+      "revision": 2,
+      "prompt": "Trocar os dois-pontos por ponto em 'O problema era claro: faltavam dados'",
+      "options": [
+        {
+          "id": "A",
+          "text": "preserva obrigatoriamente a relação explícita de explicação."
+        },
+        {
+          "id": "B",
+          "text": "pode manter correção, mas reduzir o vínculo de anúncio e esclarecimento."
+        },
+        {
+          "id": "C",
+          "text": "elimina o verbo do segundo segmento."
+        },
+        {
+          "id": "D",
+          "text": "torna a primeira oração interrogativa."
+        },
+        {
+          "id": "E",
+          "text": "Os dois-pontos servem apenas para representar uma pausa intermediária da leitura."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os dois-pontos codificam que o segundo segmento desdobra o primeiro; o ponto cria unidade mais independente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3391",
+      "revision": 2,
+      "prompt": "Quanto a uma oração adverbial posposta à principal, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre exige duas vírgulas."
+        },
+        {
+          "id": "B",
+          "text": "nunca admite qualquer sinal."
+        },
+        {
+          "id": "C",
+          "text": "sua pontuação depende da integração, da relação e do efeito, não de transferência automática da regra de anteposição."
+        },
+        {
+          "id": "D",
+          "text": "funciona necessariamente como sujeito."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A posição final pode favorecer maior integração; contexto sintático e semântico orienta a pontuação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3392",
+      "revision": 2,
+      "prompt": "A afirmação 'toda vírgula corresponde a uma pausa real e toda pausa exige vírgula' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "regra suficiente para qualquer prova."
+        },
+        {
+          "id": "B",
+          "text": "válida somente com sujeitos longos."
+        },
+        {
+          "id": "C",
+          "text": "definição de ponto e vírgula."
+        },
+        {
+          "id": "D",
+          "text": "inadequada, pois pontuação e fala não mantêm correspondência mecânica."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A escrita usa sinais para relações sintáticas e discursivas que não se reduzem à duração de pausas na fala. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3393",
+      "revision": 2,
+      "prompt": "Em uma enumeração complexa cujos itens já contêm vírgulas, o sinal mais útil para separar os itens de nível superior é",
+      "options": [
+        {
+          "id": "A",
+          "text": "apóstrofo."
+        },
+        {
+          "id": "B",
+          "text": "hífen."
+        },
+        {
+          "id": "C",
+          "text": "ponto de interrogação."
+        },
+        {
+          "id": "D",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        },
+        {
+          "id": "E",
+          "text": "ponto e vírgula."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O ponto e vírgula hierarquiza os itens e preserva as vírgulas para relações internas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3394",
+      "revision": 2,
+      "prompt": "A retirada das vírgulas em uma oração adjetiva explicativa pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "produzir leitura restritiva e mudar o conjunto de referentes."
+        },
+        {
+          "id": "B",
+          "text": "alterar somente a ortografia do pronome relativo."
+        },
+        {
+          "id": "C",
+          "text": "apagar o antecedente materialmente."
+        },
+        {
+          "id": "D",
+          "text": "ser sempre estilística e semanticamente neutra."
+        },
+        {
+          "id": "E",
+          "text": "A presença de pronome relativo torna as vírgulas obrigatórias em qualquer contexto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A oposição explicativa/restritiva afeta o alcance da propriedade atribuída ao antecedente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3395",
+      "revision": 2,
+      "prompt": "Ao avaliar a pontuação de um inciso, um procedimento eficiente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar todo termo entre sinais como sujeito."
+        },
+        {
+          "id": "B",
+          "text": "retirá-lo mentalmente e verificar a estrutura e a pontuação exigidas pela frase-base."
+        },
+        {
+          "id": "C",
+          "text": "eliminar sempre os dois sinais de fechamento."
+        },
+        {
+          "id": "D",
+          "text": "substituir qualquer inciso por pergunta direta."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A frase-base revela integrações essenciais e mostra se há pontuação externa que deve permanecer após o inciso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3396",
+      "revision": 2,
+      "prompt": "A vírgula antes de 'etc.' deve ser tratada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "erro absoluto em qualquer publicação."
+        },
+        {
+          "id": "B",
+          "text": "sinal obrigatório por regra de sujeito e predicado."
+        },
+        {
+          "id": "C",
+          "text": "convenção que pode variar entre manuais editoriais."
+        },
+        {
+          "id": "D",
+          "text": "marca de interrogativa indireta."
+        },
+        {
+          "id": "E",
+          "text": "A decisão deve ser tomada exclusivamente pela duração da pausa prevista na leitura."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Embrapa a exige em suas publicações, enquanto outras tradições editoriais adotam solução diferente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3397",
+      "revision": 2,
+      "prompt": "Qual generalização permanece válida mesmo quando o sujeito é muito extenso?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo sujeito extenso recebe ponto e vírgula."
+        },
+        {
+          "id": "B",
+          "text": "Todo sujeito extenso se transforma em vocativo."
+        },
+        {
+          "id": "C",
+          "text": "A extensão elimina a necessidade de concordância."
+        },
+        {
+          "id": "D",
+          "text": "Não se usa vírgula única para separar sujeito e predicado apenas por causa da extensão."
+        },
+        {
+          "id": "E",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A integração sintática entre sujeito e predicado não depende do número de palavras do sujeito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3398",
+      "revision": 2,
+      "prompt": "Diante de uma proposta de mudança de pontuação, a sequência mais completa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "contar palavras, estimar respiração e aceitar a troca."
+        },
+        {
+          "id": "B",
+          "text": "comparar apenas o desenho visual dos sinais."
+        },
+        {
+          "id": "C",
+          "text": "verificar somente se a versão final termina com ponto."
+        },
+        {
+          "id": "D",
+          "text": "A escolha do sinal independe da estrutura sintática e dos efeitos de sentido."
+        },
+        {
+          "id": "E",
+          "text": "analisar frase-base, funções, orações, integração, alcance, foco, obrigatoriedade e convenção aplicável."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O método reúne critérios sintáticos, semânticos, discursivos e editoriais necessários para julgar correção e equivalência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3399",
+      "revision": 1,
+      "prompt": "Na frase «A adoção da tecnologia exige formação contínua dos servidores», a inserção de vírgula logo após «tecnologia»",
+      "options": [
+        {
+          "id": "A",
+          "text": "separaria o sujeito de seu predicado e prejudicaria a correção gramatical."
+        },
+        {
+          "id": "B",
+          "text": "seria obrigatória porque o sujeito possui mais de três palavras."
+        },
+        {
+          "id": "C",
+          "text": "marcaria um vocativo dirigido ao leitor."
+        },
+        {
+          "id": "D",
+          "text": "transformaria «formação contínua» em aposto explicativo."
+        },
+        {
+          "id": "E",
+          "text": "seria facultativa por anteceder verbo transitivo direto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O sujeito completo é «A adoção da tecnologia»; sua extensão não autoriza vírgula antes de «exige». Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4451949 sobre inserção de vírgula e relações sintáticas. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4451949"
+    },
+    {
+      "id": "q3400",
+      "revision": 1,
+      "prompt": "Considere «É indispensável conciliar crescimento econômico e inclusão social com a proteção ambiental». A vírgula depois de «social»",
+      "options": [
+        {
+          "id": "A",
+          "text": "isolaria corretamente uma oração adjetiva explicativa."
+        },
+        {
+          "id": "B",
+          "text": "romperia a ligação entre o verbo «conciliar» e o complemento introduzido por «com»."
+        },
+        {
+          "id": "C",
+          "text": "marcaria a elipse de «conciliar»."
+        },
+        {
+          "id": "D",
+          "text": "seria exigida por haver duas expressões coordenadas."
+        },
+        {
+          "id": "E",
+          "text": "transformaria «com a proteção ambiental» em vocativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A sequência «conciliar X com Y» forma uma estrutura integrada; a vírgula proposta separaria partes do complemento. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4451593 sobre vírgula entre termos coordenados e complemento. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4451593"
+    },
+    {
+      "id": "q3401",
+      "revision": 1,
+      "prompt": "Qual reescrita preserva a correção de «Os relatórios enviados no último trimestre serão auditados»?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os relatórios enviados no último trimestre, serão auditados."
+        },
+        {
+          "id": "B",
+          "text": "Os relatórios, enviados no último trimestre serão auditados."
+        },
+        {
+          "id": "C",
+          "text": "Os relatórios enviados no último trimestre serão auditados."
+        },
+        {
+          "id": "D",
+          "text": "Os relatórios enviados, no último trimestre serão auditados."
+        },
+        {
+          "id": "E",
+          "text": "Os relatórios enviados no último trimestre; serão auditados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Não se separa por vírgula o sujeito completo «Os relatórios enviados no último trimestre» do predicado. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389382 sobre emprego correto dos sinais de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389382"
+    },
+    {
+      "id": "q3402",
+      "revision": 1,
+      "prompt": "Na frase «O parecer demonstra que houve falha no procedimento», a inserção de vírgula logo depois de «que»",
+      "options": [
+        {
+          "id": "A",
+          "text": "seria obrigatória porque «que» é pronome relativo."
+        },
+        {
+          "id": "B",
+          "text": "transformaria a oração seguinte em vocativo."
+        },
+        {
+          "id": "C",
+          "text": "indicaria corretamente a omissão do verbo «demonstrar»."
+        },
+        {
+          "id": "D",
+          "text": "seria inadequada se não houvesse um inciso a ser isolado."
+        },
+        {
+          "id": "E",
+          "text": "seria facultativa em qualquer oração iniciada por «que»."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A oração substantiva «que houve falha no procedimento» completa «demonstra» e não deve ser fragmentada por vírgula arbitrária. Fonte: questão adaptada de Cebraspe — TBG, 2023, item Q3106719 sobre vírgula imediatamente após «que». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3106719"
+    },
+    {
+      "id": "q3403",
+      "revision": 1,
+      "prompt": "Em «O parecer demonstra que, segundo a auditoria, houve falha», as vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "separam o verbo «demonstra» de seu objeto."
+        },
+        {
+          "id": "B",
+          "text": "transformam «segundo a auditoria» em sujeito composto."
+        },
+        {
+          "id": "C",
+          "text": "marcam uma enumeração de orações coordenadas."
+        },
+        {
+          "id": "D",
+          "text": "são dispensáveis sem qualquer alteração sintática ou informacional."
+        },
+        {
+          "id": "E",
+          "text": "isolam o inciso «segundo a auditoria»; retirado o inciso, permanece «demonstra que houve falha»."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O teste de retirada do inciso mostra que a integração entre o verbo e a oração iniciada por «que» permanece intacta. Fonte: questão adaptada de Cebraspe — TBG, 2023, item Q3106719 sobre vírgula imediatamente após «que». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3106719"
+    },
+    {
+      "id": "q3404",
+      "revision": 1,
+      "prompt": "Assinale a frase em que a vírgula foi usada corretamente.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Segundo o relatório, os prazos foram cumpridos."
+        },
+        {
+          "id": "B",
+          "text": "Os prazos, foram cumpridos."
+        },
+        {
+          "id": "C",
+          "text": "A equipe concluiu, a análise."
+        },
+        {
+          "id": "D",
+          "text": "O parecer depende, de documentos confiáveis."
+        },
+        {
+          "id": "E",
+          "text": "A comissão informou que, o resultado seria publicado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A vírgula isola o adjunto adverbial anteposto «Segundo o relatório»; nas demais opções, rompe integrações sintáticas. Fonte: questão adaptada de Cebraspe — TCE/MS, 2025, item Q4153674 sobre inserção de vírgula em diferentes posições. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4153674"
+    },
+    {
+      "id": "q3405",
+      "revision": 1,
+      "prompt": "Em «Esse processo eu ainda não examinei», o simples deslocamento do objeto para o início",
+      "options": [
+        {
+          "id": "A",
+          "text": "obriga dois-pontos antes do verbo."
+        },
+        {
+          "id": "B",
+          "text": "não torna obrigatória a vírgula depois de «processo»."
+        },
+        {
+          "id": "C",
+          "text": "transforma o objeto em vocativo."
+        },
+        {
+          "id": "D",
+          "text": "exige ponto e vírgula entre objeto e sujeito."
+        },
+        {
+          "id": "E",
+          "text": "impede qualquer leitura sem pausa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A anteposição do objeto não basta, por si só, para autorizar seu isolamento; é preciso considerar a estrutura e eventual tópico marcado. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389382 sobre emprego correto dos sinais de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389382"
+    },
+    {
+      "id": "q3406",
+      "revision": 1,
+      "prompt": "Na frase «A decisão depende de dados confiáveis», uma vírgula entre «depende» e «de dados confiáveis»",
+      "options": [
+        {
+          "id": "A",
+          "text": "seria obrigatória por introduzir objeto indireto."
+        },
+        {
+          "id": "B",
+          "text": "marcaria corretamente uma oração explicativa."
+        },
+        {
+          "id": "C",
+          "text": "separaria o verbo de seu complemento preposicionado."
+        },
+        {
+          "id": "D",
+          "text": "indicaria zeugma do verbo."
+        },
+        {
+          "id": "E",
+          "text": "seria facultativa porque o complemento é longo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O verbo «depender» rege o complemento «de dados confiáveis»; a vírgula não deve romper essa relação. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4451949 sobre inserção de vírgula e relações sintáticas. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4451949"
+    },
+    {
+      "id": "q3407",
+      "revision": 1,
+      "prompt": "Em «A principal exigência é que os dados sejam verificáveis», a vírgula antes de «que»",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatória antes de toda conjunção integrante."
+        },
+        {
+          "id": "B",
+          "text": "marca um aposto enumerativo."
+        },
+        {
+          "id": "C",
+          "text": "transforma a oração em adverbial concessiva."
+        },
+        {
+          "id": "D",
+          "text": "não se justifica, porque a oração funciona como predicativo integrado à estrutura."
+        },
+        {
+          "id": "E",
+          "text": "é exigida pelo verbo de ligação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A oração «que os dados sejam verificáveis» completa o predicado nominal e não deve ser separada arbitrariamente. Fonte: questão adaptada de Cebraspe — TBG, 2023, item Q3106719 sobre vírgula imediatamente após «que». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3106719"
+    },
+    {
+      "id": "q3408",
+      "revision": 1,
+      "prompt": "Qual opção contém pontuação inadequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O governo, segundo o relatório, identificou o problema."
+        },
+        {
+          "id": "B",
+          "text": "O governo identificou o problema e adotou medidas."
+        },
+        {
+          "id": "C",
+          "text": "Segundo o relatório, o governo identificou o problema."
+        },
+        {
+          "id": "D",
+          "text": "O governo identificou o problema; depois, adotou medidas."
+        },
+        {
+          "id": "E",
+          "text": "O governo identificou, o problema e adotou medidas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A vírgula da opção correta separa «identificou» de seu objeto direto «o problema». Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389382 sobre emprego correto dos sinais de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389382"
+    },
+    {
+      "id": "q3409",
+      "revision": 1,
+      "prompt": "Em «Senhores conselheiros, a sessão será retomada», a vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "isola o vocativo «Senhores conselheiros»."
+        },
+        {
+          "id": "B",
+          "text": "separa o sujeito de seu predicado."
+        },
+        {
+          "id": "C",
+          "text": "marca a omissão do verbo «ser»."
+        },
+        {
+          "id": "D",
+          "text": "introduz uma oração adjetiva restritiva."
+        },
+        {
+          "id": "E",
+          "text": "é facultativa porque o chamamento está no início."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O vocativo é termo de chamamento e deve ser isolado da oração. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389274 sobre elipse, aposto, oração reduzida e ponto e vírgula. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389274"
+    },
+    {
+      "id": "q3410",
+      "revision": 1,
+      "prompt": "Na frase «O relator, presidente da comissão, apresentou o voto», o segmento entre vírgulas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "vocativo, porque nomeia uma pessoa."
+        },
+        {
+          "id": "B",
+          "text": "aposto explicativo, que acrescenta uma informação sobre «o relator»."
+        },
+        {
+          "id": "C",
+          "text": "objeto direto de «apresentou»."
+        },
+        {
+          "id": "D",
+          "text": "oração adjetiva restritiva."
+        },
+        {
+          "id": "E",
+          "text": "adjunto adverbial de modo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O trecho renomeia e explica o referente «o relator», sem restringi-lo. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389274 sobre elipse, aposto, oração reduzida e ponto e vírgula. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389274"
+    },
+    {
+      "id": "q3411",
+      "revision": 1,
+      "prompt": "Qual frase emprega adequadamente as vírgulas com aposto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A medida, exige três providências diagnóstico, comunicação e monitoramento."
+        },
+        {
+          "id": "B",
+          "text": "A medida exige, três providências diagnóstico comunicação e monitoramento."
+        },
+        {
+          "id": "C",
+          "text": "A medida exige três providências: diagnóstico, comunicação e monitoramento."
+        },
+        {
+          "id": "D",
+          "text": "A medida exige três, providências: diagnóstico, comunicação e monitoramento."
+        },
+        {
+          "id": "E",
+          "text": "A medida exige três providências diagnóstico; comunicação e monitoramento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os dois-pontos introduzem o aposto enumerativo anunciado por «três providências». Fonte: questão adaptada de Cebraspe — SEMA/AM, 2026, item Q4384780 sobre reescrita, vírgula, dois-pontos e aposto. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4384780"
+    },
+    {
+      "id": "q3412",
+      "revision": 1,
+      "prompt": "Em «Hoje, o tribunal divulgará o resultado», a vírgula depois de «Hoje»",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre proibida porque o adjunto tem uma palavra."
+        },
+        {
+          "id": "B",
+          "text": "transforma «Hoje» em vocativo."
+        },
+        {
+          "id": "C",
+          "text": "separa o sujeito de seu predicado."
+        },
+        {
+          "id": "D",
+          "text": "pode realçar a circunstância temporal anteposta; sua necessidade depende da integração e do efeito pretendido."
+        },
+        {
+          "id": "E",
+          "text": "indica que o verbo foi omitido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Adjuntos curtos antepostos podem admitir vírgula por realce, sem que se estabeleça uma regra mecânica de número de palavras. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4451698 sobre isolamento e ênfase de adjunto temporal. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4451698"
+    },
+    {
+      "id": "q3413",
+      "revision": 1,
+      "prompt": "Em «Ao término da sessão de julgamento, os conselheiros assinaram a ata», a vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "marca uma oração adjetiva explicativa."
+        },
+        {
+          "id": "B",
+          "text": "separa o sujeito «os conselheiros» do verbo."
+        },
+        {
+          "id": "C",
+          "text": "é dispensável em qualquer redação formal."
+        },
+        {
+          "id": "D",
+          "text": "introduz discurso direto."
+        },
+        {
+          "id": "E",
+          "text": "separa o adjunto adverbial anteposto, extenso o bastante para justificar o isolamento."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O segmento inicial situa temporalmente a oração principal e vem anteposto. Fonte: questão adaptada de Cebraspe — PM/AL, 2021, item Q1881701 sobre adjuntos adverbiais deslocados. https://questoes.grancursosonline.com.br/prova/pm-al-al-2021-cespe-cebraspe-soldado-combatente/7"
+    },
+    {
+      "id": "q3414",
+      "revision": 1,
+      "prompt": "Na frase «Uns defendiam a revisão; outros, a manutenção da regra», a vírgula depois de «outros» marca",
+      "options": [
+        {
+          "id": "A",
+          "text": "zeugma do verbo «defendiam»."
+        },
+        {
+          "id": "B",
+          "text": "vocativo."
+        },
+        {
+          "id": "C",
+          "text": "aposto explicativo."
+        },
+        {
+          "id": "D",
+          "text": "oração subordinada adverbial."
+        },
+        {
+          "id": "E",
+          "text": "separação entre sujeito e predicado sem verbo omitido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A vírgula ocupa a posição do verbo já expresso na oração anterior; o ponto e vírgula hierarquiza as duas partes. Fonte: questão adaptada de Cebraspe — SEED/SE, 2026, item Q4297780 sobre adverbial, zeugma, ponto e vírgula e aspas. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4297780"
+    },
+    {
+      "id": "q3415",
+      "revision": 1,
+      "prompt": "A pontuação mais adequada para uma enumeração cujos itens já contêm vírgulas internas é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar vírgula entre todos os segmentos, independentemente da ambiguidade."
+        },
+        {
+          "id": "B",
+          "text": "usar ponto e vírgula entre os itens principais."
+        },
+        {
+          "id": "C",
+          "text": "usar interrogação após cada item."
+        },
+        {
+          "id": "D",
+          "text": "eliminar qualquer sinal de separação."
+        },
+        {
+          "id": "E",
+          "text": "usar dois-pontos entre cada palavra da lista."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O ponto e vírgula ajuda a distinguir o nível principal de separação quando os itens contêm vírgulas internas. Fonte: questão adaptada de Cebraspe — TRE/MG, 2009, item Q291018 sobre coordenação, ponto e vírgula e adverbial. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/291018"
+    },
+    {
+      "id": "q3416",
+      "revision": 1,
+      "prompt": "Em «Foram avaliados legalidade, economicidade, eficiência e efetividade», as vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "isolam orações adjetivas explicativas."
+        },
+        {
+          "id": "B",
+          "text": "separam o verbo de seus objetos."
+        },
+        {
+          "id": "C",
+          "text": "separam termos coordenados de mesma função sintática."
+        },
+        {
+          "id": "D",
+          "text": "marcam discurso direto."
+        },
+        {
+          "id": "E",
+          "text": "indicam a omissão obrigatória de uma preposição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Trata-se de enumeração de núcleos coordenados. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389382 sobre emprego correto dos sinais de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389382"
+    },
+    {
+      "id": "q3417",
+      "revision": 1,
+      "prompt": "Em «O diretor afirmou: “O prazo terminou.”», os dois-pontos",
+      "options": [
+        {
+          "id": "A",
+          "text": "separam o sujeito do predicado."
+        },
+        {
+          "id": "B",
+          "text": "substituem obrigatoriamente o ponto de interrogação."
+        },
+        {
+          "id": "C",
+          "text": "marcam uma oração adjetiva restritiva."
+        },
+        {
+          "id": "D",
+          "text": "anunciam o discurso direto que desenvolve o verbo de elocução."
+        },
+        {
+          "id": "E",
+          "text": "podem ser eliminados sem qualquer ajuste."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O segmento posterior reproduz a fala anunciada pelo verbo «afirmou». Fonte: questão adaptada de Cebraspe — Polícia Federal, 2002, item Q134248 sobre dois-pontos e interrogação direta. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/134248"
+    },
+    {
+      "id": "q3418",
+      "revision": 1,
+      "prompt": "Em «“O prazo terminou”, afirmou o diretor», a vírgula antes da oração de elocução",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma «diretor» em vocativo."
+        },
+        {
+          "id": "B",
+          "text": "deveria ser substituída obrigatoriamente por dois-pontos."
+        },
+        {
+          "id": "C",
+          "text": "separa o sujeito da fala de seu predicado."
+        },
+        {
+          "id": "D",
+          "text": "indica que a fala é uma pergunta indireta."
+        },
+        {
+          "id": "E",
+          "text": "integra a fala citada à oração que identifica quem falou."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Quando a oração de elocução vem após a fala, a pontuação articula os dois segmentos. Fonte: questão adaptada de Cebraspe — TRE/MG, 2009, item Q288435 sobre coordenação, dois-pontos e interrogação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/288435"
+    },
+    {
+      "id": "q3419",
+      "revision": 1,
+      "prompt": "Em «A equipe analisou os dados e publicou o relatório», a vírgula antes de «e»",
+      "options": [
+        {
+          "id": "A",
+          "text": "não é necessária na coordenação simples com o mesmo sujeito e sem efeito especial."
+        },
+        {
+          "id": "B",
+          "text": "é obrigatória antes de toda conjunção coordenativa."
+        },
+        {
+          "id": "C",
+          "text": "transformaria «publicou» em verbo impessoal."
+        },
+        {
+          "id": "D",
+          "text": "marcaria uma oração adjetiva explicativa."
+        },
+        {
+          "id": "E",
+          "text": "é exigida porque há dois verbos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A presença de dois verbos não basta para exigir vírgula antes de «e». Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389382 sobre emprego correto dos sinais de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389382"
+    },
+    {
+      "id": "q3420",
+      "revision": 1,
+      "prompt": "Na frase «A comissão revisou a minuta, e o plenário aprovou o texto», a vírgula antes de «e»",
+      "options": [
+        {
+          "id": "A",
+          "text": "é proibida porque «e» nunca admite vírgula."
+        },
+        {
+          "id": "B",
+          "text": "pode sinalizar a passagem entre orações com sujeitos diferentes e blocos autônomos."
+        },
+        {
+          "id": "C",
+          "text": "é obrigatória em qualquer coordenação com «e»."
+        },
+        {
+          "id": "D",
+          "text": "transforma a segunda oração em subordinada."
+        },
+        {
+          "id": "E",
+          "text": "marca necessariamente zeugma."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A pontuação com «e» depende da extensão, dos sujeitos, da autonomia dos blocos e do efeito discursivo. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389382 sobre emprego correto dos sinais de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389382"
+    },
+    {
+      "id": "q3421",
+      "revision": 1,
+      "prompt": "Qual frase apresenta uma estrutura correlativa pontuada adequadamente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O programa, não só reduziu o prazo mas também, melhorou a qualidade."
+        },
+        {
+          "id": "B",
+          "text": "O programa não só, reduziu o prazo, mas também melhorou a qualidade."
+        },
+        {
+          "id": "C",
+          "text": "O programa não só reduziu o prazo, mas também melhorou a qualidade."
+        },
+        {
+          "id": "D",
+          "text": "O programa não só reduziu, o prazo mas também melhorou a qualidade."
+        },
+        {
+          "id": "E",
+          "text": "O programa; não só reduziu o prazo, mas também melhorou a qualidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A vírgula separa os dois membros oracionais correlativos sem romper verbo e complemento. Fonte: questão adaptada de Cebraspe — UNIVESP, 2025, item Q3793566 sobre reescritas integradas de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3793566"
+    },
+    {
+      "id": "q3422",
+      "revision": 1,
+      "prompt": "Em «Ora os dados chegam incompletos, ora chegam fora do prazo», a vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "é proibida por haver repetição da conjunção."
+        },
+        {
+          "id": "B",
+          "text": "marca um vocativo."
+        },
+        {
+          "id": "C",
+          "text": "separa sujeito e predicado."
+        },
+        {
+          "id": "D",
+          "text": "separa os membros da correlação alternativa «ora... ora»."
+        },
+        {
+          "id": "E",
+          "text": "deve ser substituída por dois-pontos em toda correlação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As construções correlativas podem coordenar orações ou termos; a pontuação acompanha a estrutura efetiva. Fonte: questão adaptada de Cebraspe — UNIVESP, 2025, item Q3793566 sobre reescritas integradas de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3793566"
+    },
+    {
+      "id": "q3423",
+      "revision": 1,
+      "prompt": "Em «Os dados, porém, ainda são insuficientes», as vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "separam sujeito e predicado."
+        },
+        {
+          "id": "B",
+          "text": "marcam elipse do verbo."
+        },
+        {
+          "id": "C",
+          "text": "transformam «porém» em vocativo."
+        },
+        {
+          "id": "D",
+          "text": "são facultativas sem qualquer efeito sintático."
+        },
+        {
+          "id": "E",
+          "text": "isolam o conector adversativo intercalado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Conectores deslocados ou intercalados costumam ser isolados. Fonte: questão adaptada de Cebraspe — Caixa Econômica Federal, 2010, item Q431704 sobre marcadores, ponto e vírgula e dois-pontos. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/431704"
+    },
+    {
+      "id": "q3424",
+      "revision": 1,
+      "prompt": "Na frase «Porém os dados ainda são insuficientes», a vírgula logo depois de «Porém»",
+      "options": [
+        {
+          "id": "A",
+          "text": "não decorre automaticamente da simples presença do conector em posição inicial."
+        },
+        {
+          "id": "B",
+          "text": "é obrigatória porque todo conector inicial é seguido de vírgula."
+        },
+        {
+          "id": "C",
+          "text": "é proibida em qualquer contexto."
+        },
+        {
+          "id": "D",
+          "text": "marca necessariamente um aposto."
+        },
+        {
+          "id": "E",
+          "text": "substitui o ponto final anterior."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "É preciso verificar se existe inciso ou outro elemento que justifique o sinal; listas mecânicas de conectores são insuficientes. Fonte: questão adaptada de Cebraspe — Caixa Econômica Federal, 2010, item Q431704 sobre marcadores, ponto e vírgula e dois-pontos. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/431704"
+    },
+    {
+      "id": "q3425",
+      "revision": 1,
+      "prompt": "Em «Os resultados foram consistentes; portanto, a metodologia foi mantida», o ponto e vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "introduz uma oração adjetiva restritiva."
+        },
+        {
+          "id": "B",
+          "text": "separa orações coordenadas e ajuda a destacar o conector conclusivo."
+        },
+        {
+          "id": "C",
+          "text": "separa o verbo de seu objeto."
+        },
+        {
+          "id": "D",
+          "text": "marca discurso direto."
+        },
+        {
+          "id": "E",
+          "text": "é equivalente a qualquer vírgula, sem mudança de hierarquia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sinal articula blocos relativamente autônomos e torna clara a conclusão. Fonte: questão adaptada de Cebraspe — AGE/ES, 2004, item Q199755 sobre vírgula, ponto e vírgula e ponto. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/199755"
+    },
+    {
+      "id": "q3426",
+      "revision": 1,
+      "prompt": "Assinale a opção em que «pois» tem valor conclusivo e está adequadamente isolado.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O relatório será pois publicado, porque os dados foram confirmados."
+        },
+        {
+          "id": "B",
+          "text": "Pois os dados foram confirmados o relatório será publicado."
+        },
+        {
+          "id": "C",
+          "text": "Os dados foram confirmados; o relatório será, pois, publicado."
+        },
+        {
+          "id": "D",
+          "text": "Os dados pois foram confirmados; o relatório será publicado."
+        },
+        {
+          "id": "E",
+          "text": "O relatório, será publicado pois, os dados foram confirmados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O «pois» conclusivo tende a aparecer posposto ao verbo ou intercalado e deve ser isolado. Fonte: questão adaptada de Cebraspe — TRE/BA, 2010, item Q550745 sobre isolamento de «ou seja». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/550745"
+    },
+    {
+      "id": "q3427",
+      "revision": 1,
+      "prompt": "Em «O relatório será publicado, pois os dados foram confirmados», o segmento iniciado por «pois»",
+      "options": [
+        {
+          "id": "A",
+          "text": "é necessariamente conclusivo por vir após vírgula."
+        },
+        {
+          "id": "B",
+          "text": "constitui vocativo."
+        },
+        {
+          "id": "C",
+          "text": "deve ser isolado por duas vírgulas em qualquer posição."
+        },
+        {
+          "id": "D",
+          "text": "apresenta a razão ou explicação para a afirmação anterior."
+        },
+        {
+          "id": "E",
+          "text": "é uma oração adjetiva restritiva."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O «pois» anteposto à oração que fornece fundamento ou explicação não recebe a mesma análise do «pois» conclusivo intercalado. Fonte: questão adaptada de Cebraspe — Polícia Federal, 2002, item Q134216 sobre dois-pontos e valor de «pois». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/134216"
+    },
+    {
+      "id": "q3428",
+      "revision": 1,
+      "prompt": "Em «A medida é, de fato, necessária», o isolamento de «de fato»",
+      "options": [
+        {
+          "id": "A",
+          "text": "separa o verbo de seu predicativo sem justificativa."
+        },
+        {
+          "id": "B",
+          "text": "indica uma enumeração."
+        },
+        {
+          "id": "C",
+          "text": "transforma o segmento em oração subordinada substantiva."
+        },
+        {
+          "id": "D",
+          "text": "é incompatível com a norma-padrão."
+        },
+        {
+          "id": "E",
+          "text": "marca o caráter intercalado do marcador discursivo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Marcadores como «de fato», «aliás», «em suma» e «ou seja» podem ser isolados quando intercalados. Fonte: questão adaptada de Cebraspe — TRE/BA, 2010, item Q550745 sobre isolamento de «ou seja». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/550745"
+    },
+    {
+      "id": "q3429",
+      "revision": 1,
+      "prompt": "Na frase «Os servidores que concluíram o curso receberão certificado», a oração sem vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "restringe o grupo de servidores aos que concluíram o curso."
+        },
+        {
+          "id": "B",
+          "text": "afirma que todos os servidores concluíram o curso."
+        },
+        {
+          "id": "C",
+          "text": "constitui vocativo."
+        },
+        {
+          "id": "D",
+          "text": "funciona como oração substantiva objetiva direta."
+        },
+        {
+          "id": "E",
+          "text": "deve ser isolada obrigatoriamente por travessões."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A oração adjetiva restritiva delimita o referente e não é isolada. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4450709 sobre oração adjetiva explicativa e mudança de sentido. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4450709"
+    },
+    {
+      "id": "q3430",
+      "revision": 1,
+      "prompt": "Em «Os servidores, que concluíram o curso, receberão certificado», as vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "transformam a oração em restritiva."
+        },
+        {
+          "id": "B",
+          "text": "apresentam a oração como explicativa e sugerem que o grupo referido concluiu o curso."
+        },
+        {
+          "id": "C",
+          "text": "separam sujeito e predicado sem inciso."
+        },
+        {
+          "id": "D",
+          "text": "marcam discurso direto."
+        },
+        {
+          "id": "E",
+          "text": "indicam que «que» é conjunção integrante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A explicativa acrescenta comentário sobre um referente já delimitado. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4450709 sobre oração adjetiva explicativa e mudança de sentido. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4450709"
+    },
+    {
+      "id": "q3431",
+      "revision": 1,
+      "prompt": "A retirada das vírgulas em uma oração adjetiva explicativa",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre impossível na norma-padrão."
+        },
+        {
+          "id": "B",
+          "text": "mantém necessariamente o mesmo sentido."
+        },
+        {
+          "id": "C",
+          "text": "pode manter a gramaticalidade e alterar o conjunto de referentes e o pressuposto."
+        },
+        {
+          "id": "D",
+          "text": "transforma automaticamente o trecho em oração adverbial."
+        },
+        {
+          "id": "E",
+          "text": "exige a mudança do verbo para o subjuntivo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A banca costuma distinguir correção gramatical de preservação semântica. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4450709 sobre oração adjetiva explicativa e mudança de sentido. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4450709"
+    },
+    {
+      "id": "q3432",
+      "revision": 1,
+      "prompt": "Em «Quando o prazo terminar, a comissão publicará o relatório», a vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "marca uma oração adjetiva explicativa."
+        },
+        {
+          "id": "B",
+          "text": "separa o sujeito «a comissão» do predicado."
+        },
+        {
+          "id": "C",
+          "text": "indica hesitação."
+        },
+        {
+          "id": "D",
+          "text": "separa a oração adverbial temporal anteposta da principal."
+        },
+        {
+          "id": "E",
+          "text": "introduz uma enumeração."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Orações adverbiais antepostas são normalmente isoladas. Fonte: questão adaptada de Cebraspe — TCE/ES, 2012, item Q749078 sobre oração adverbial e justificativa da vírgula. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/749078"
+    },
+    {
+      "id": "q3433",
+      "revision": 1,
+      "prompt": "Em «A comissão publicará o relatório quando o prazo terminar», a vírgula antes de «quando»",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre obrigatória diante de oração adverbial."
+        },
+        {
+          "id": "B",
+          "text": "transforma «quando» em pronome relativo."
+        },
+        {
+          "id": "C",
+          "text": "é exigida porque o período contém dois verbos."
+        },
+        {
+          "id": "D",
+          "text": "substitui a conjunção temporal."
+        },
+        {
+          "id": "E",
+          "text": "não é automaticamente obrigatória; a oração posposta pode permanecer integrada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A posição e o grau de integração da oração adverbial influenciam a pontuação. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q388973 sobre obrigatoriedade e facultatividade da vírgula. https://questoes.grancursosonline.com.br/prova/tre-ma-ma-2009-cespe-cebraspe-analista-judiciario-area-judiciaria/4"
+    },
+    {
+      "id": "q3434",
+      "revision": 1,
+      "prompt": "Na frase «Se os atos estiverem regulares, o processo seguirá», a oração inicial",
+      "options": [
+        {
+          "id": "A",
+          "text": "é condicional e deve ser separada da principal pela vírgula."
+        },
+        {
+          "id": "B",
+          "text": "é explicação em forma de paráfrase."
+        },
+        {
+          "id": "C",
+          "text": "é aposto enumerativo."
+        },
+        {
+          "id": "D",
+          "text": "funciona como sujeito do verbo «seguir»."
+        },
+        {
+          "id": "E",
+          "text": "é oração adjetiva restritiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A oração introduz a condição para o desenvolvimento da principal. Fonte: questão adaptada de Cebraspe — TCE/ES, 2012, item Q749078 sobre oração adverbial e justificativa da vírgula. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/749078"
+    },
+    {
+      "id": "q3435",
+      "revision": 1,
+      "prompt": "Em «Concluída a auditoria, o relatório foi publicado», o segmento inicial",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sujeito simples do verbo «foi»."
+        },
+        {
+          "id": "B",
+          "text": "é oração reduzida de particípio com valor adverbial e vem isolado."
+        },
+        {
+          "id": "C",
+          "text": "constitui vocativo."
+        },
+        {
+          "id": "D",
+          "text": "é oração substantiva predicativa."
+        },
+        {
+          "id": "E",
+          "text": "não admite vírgula por não ter conjunção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ausência de conjunção não elimina o valor adverbial nem a necessidade de separar o segmento anteposto. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389274 sobre elipse, aposto, oração reduzida e ponto e vírgula. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389274"
+    },
+    {
+      "id": "q3436",
+      "revision": 1,
+      "prompt": "Em «A equipe revisou o texto, eliminando ambiguidades», a vírgula antes do gerúndio",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma o gerúndio em substantivo."
+        },
+        {
+          "id": "B",
+          "text": "é proibida porque gerúndios nunca recebem vírgula."
+        },
+        {
+          "id": "C",
+          "text": "pode apresentar a ação reduzida como circunstância ou resultado, conforme o contexto."
+        },
+        {
+          "id": "D",
+          "text": "separa o sujeito do predicado."
+        },
+        {
+          "id": "E",
+          "text": "marca uma pergunta indireta."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A interpretação da oração reduzida depende da relação semântica estabelecida com a principal. Fonte: questão adaptada de Cebraspe — TRE/MA, 2009, item Q389274 sobre elipse, aposto, oração reduzida e ponto e vírgula. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/389274"
+    },
+    {
+      "id": "q3437",
+      "revision": 1,
+      "prompt": "Em «Embora os dados sejam parciais, a tendência é clara», a vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "marca uma oração adjetiva restritiva."
+        },
+        {
+          "id": "B",
+          "text": "introduz discurso direto."
+        },
+        {
+          "id": "C",
+          "text": "separa verbo e objeto."
+        },
+        {
+          "id": "D",
+          "text": "separa a oração concessiva anteposta."
+        },
+        {
+          "id": "E",
+          "text": "é meramente editorial e não sintática."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A subordinada concessiva anteposta funciona como circunstância do enunciado principal. Fonte: questão adaptada de Cebraspe — SEMA/AM, 2026, item Q4384780 sobre reescrita, vírgula, dois-pontos e aposto. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4384780"
+    },
+    {
+      "id": "q3438",
+      "revision": 1,
+      "prompt": "Em «É certo que os dados melhoraram», a inserção de vírgula depois de «certo»",
+      "options": [
+        {
+          "id": "A",
+          "text": "seria obrigatória por anteceder conjunção integrante."
+        },
+        {
+          "id": "B",
+          "text": "marcaria corretamente uma oração explicativa."
+        },
+        {
+          "id": "C",
+          "text": "transformaria «que» em pronome relativo."
+        },
+        {
+          "id": "D",
+          "text": "é exigida em toda oração com verbo de ligação."
+        },
+        {
+          "id": "E",
+          "text": "romperia a ligação entre o predicativo e a oração que completa seu sentido."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A oração substantiva integra o predicado «é certo» e não deve ser separada sem inciso. Fonte: questão adaptada de Cebraspe — TBG, 2023, item Q3106719 sobre vírgula imediatamente após «que». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3106719"
+    },
+    {
+      "id": "q3439",
+      "revision": 1,
+      "prompt": "Em «O relatório, se confirmado pelos dados, sustentará a decisão», as vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "isolam a oração condicional intercalada."
+        },
+        {
+          "id": "B",
+          "text": "separam sujeito e predicado sem justificativa."
+        },
+        {
+          "id": "C",
+          "text": "marcam uma adjetiva restritiva."
+        },
+        {
+          "id": "D",
+          "text": "indicam elipse de «confirmar»."
+        },
+        {
+          "id": "E",
+          "text": "transformam «o relatório» em vocativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O par de vírgulas fecha o segmento intercalado; retirar apenas uma deixaria o inciso mal delimitado. Fonte: questão adaptada de Cebraspe — TCE/MS, 2025, item Q4153674 sobre inserção de vírgula em diferentes posições. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4153674"
+    },
+    {
+      "id": "q3440",
+      "revision": 1,
+      "prompt": "Em «A regra segundo a qual o prazo é contínuo foi mantida», a inserção de vírgulas em torno de «segundo a qual o prazo é contínuo»",
+      "options": [
+        {
+          "id": "A",
+          "text": "seria obrigatória por haver pronome relativo."
+        },
+        {
+          "id": "B",
+          "text": "alteraria a leitura de restritiva para explicativa e poderia mudar o sentido."
+        },
+        {
+          "id": "C",
+          "text": "seria indiferente semanticamente."
+        },
+        {
+          "id": "D",
+          "text": "transformaria a oração em substantiva objetiva."
+        },
+        {
+          "id": "E",
+          "text": "eliminaria a relação com o antecedente «regra»."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Orações relativas devem ser classificadas pelo papel que exercem no contexto, não apenas pela forma do antecedente. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4450709 sobre oração adjetiva explicativa e mudança de sentido. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4450709"
+    },
+    {
+      "id": "q3441",
+      "revision": 1,
+      "prompt": "Qual emprego dos dois-pontos é adequado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A comissão: analisou o processo."
+        },
+        {
+          "id": "B",
+          "text": "O parecer depende de: dados confiáveis."
+        },
+        {
+          "id": "C",
+          "text": "Há uma conclusão inevitável: o procedimento precisa ser revisto."
+        },
+        {
+          "id": "D",
+          "text": "Os servidores que: concluíram o curso receberão certificado."
+        },
+        {
+          "id": "E",
+          "text": "A equipe enviou: ao relator o documento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O primeiro segmento anuncia uma conclusão que o segundo explicita; nas demais frases, os dois-pontos rompem integrações sintáticas. Fonte: questão adaptada de Cebraspe — SEMA/AM, 2026, item Q4384780 sobre reescrita, vírgula, dois-pontos e aposto. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4384780"
+    },
+    {
+      "id": "q3442",
+      "revision": 1,
+      "prompt": "A substituição dos dois-pontos por «, assim,» é possível quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "os dois-pontos separam verbo e objeto."
+        },
+        {
+          "id": "B",
+          "text": "o segundo segmento é vocativo."
+        },
+        {
+          "id": "C",
+          "text": "há uma oração adjetiva restritiva."
+        },
+        {
+          "id": "D",
+          "text": "o segundo segmento explicita ou resume a consequência anunciada pelo primeiro."
+        },
+        {
+          "id": "E",
+          "text": "a frase contém qualquer enumeração, independentemente da sintaxe."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A reescrita deve preservar a relação discursiva e exigir os ajustes de pontuação e de letra inicial. Fonte: questão adaptada de Cebraspe — TRF da 6.ª Região, 2025, item Q3639866 sobre dois-pontos e reescrita com «assim». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3639866"
+    },
+    {
+      "id": "q3443",
+      "revision": 1,
+      "prompt": "Em «O sistema falhou: os dados não foram atualizados», os dois-pontos podem explicitar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas uma pausa média sem relação semântica."
+        },
+        {
+          "id": "B",
+          "text": "um vocativo."
+        },
+        {
+          "id": "C",
+          "text": "uma pergunta indireta."
+        },
+        {
+          "id": "D",
+          "text": "a separação entre sujeito e predicado."
+        },
+        {
+          "id": "E",
+          "text": "uma relação de causa, explicação ou desenvolvimento entre os segmentos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os dois-pontos anunciam um desdobramento; em certos contextos, a relação pode ser parafraseada por conectores explicativos. Fonte: questão adaptada de Cebraspe — Câmara dos Deputados, 2012, item Q904966 sobre dois-pontos e relação explicativa. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/904966"
+    },
+    {
+      "id": "q3444",
+      "revision": 1,
+      "prompt": "Em «O processo exige três etapas: diagnóstico; execução; avaliação», o ponto e vírgula entre itens",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser útil quando se deseja hierarquizar uma enumeração, especialmente se os itens forem extensos."
+        },
+        {
+          "id": "B",
+          "text": "é proibido em enumerações."
+        },
+        {
+          "id": "C",
+          "text": "serve apenas para encerrar o período."
+        },
+        {
+          "id": "D",
+          "text": "transforma os itens em vocativos."
+        },
+        {
+          "id": "E",
+          "text": "substitui obrigatoriamente os dois-pontos introdutórios."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O ponto e vírgula marca divisões internas mais fortes que a vírgula. Fonte: questão adaptada de Cebraspe — SEED/SE, 2026, item Q4297780 sobre adverbial, zeugma, ponto e vírgula e aspas. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4297780"
+    },
+    {
+      "id": "q3445",
+      "revision": 1,
+      "prompt": "A substituição de um ponto final por ponto e vírgula",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre impossível."
+        },
+        {
+          "id": "B",
+          "text": "pode preservar a correção, desde que os segmentos permaneçam sintaticamente completos e semanticamente relacionados."
+        },
+        {
+          "id": "C",
+          "text": "mantém necessariamente a mesma hierarquia discursiva."
+        },
+        {
+          "id": "D",
+          "text": "obriga o uso de letra maiúscula depois do ponto e vírgula."
+        },
+        {
+          "id": "E",
+          "text": "transforma a segunda oração em subordinada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ponto e ponto e vírgula podem ambos articular segmentos completos, mas o grau de separação e a leitura discursiva mudam. Fonte: questão adaptada de Cebraspe — AGE/ES, 2004, item Q199755 sobre vírgula, ponto e vírgula e ponto. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/199755"
+    },
+    {
+      "id": "q3446",
+      "revision": 1,
+      "prompt": "Na reescrita «Os dados foram validados. Portanto, o relatório será publicado», o ponto",
+      "options": [
+        {
+          "id": "A",
+          "text": "torna a segunda frase agramatical por iniciar com conector."
+        },
+        {
+          "id": "B",
+          "text": "equivale obrigatoriamente a uma vírgula."
+        },
+        {
+          "id": "C",
+          "text": "cria dois períodos, preservando a relação conclusiva explicitada por «Portanto»."
+        },
+        {
+          "id": "D",
+          "text": "elimina toda relação semântica entre as frases."
+        },
+        {
+          "id": "E",
+          "text": "transforma «Portanto» em vocativo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A pontuação e o conector trabalham juntos; o ponto aumenta a autonomia do segundo enunciado. Fonte: questão adaptada de Cebraspe — SEFAZ/AC, 2024, item Q3452551 sobre ponto, parênteses e vírgulas. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3452551"
+    },
+    {
+      "id": "q3447",
+      "revision": 1,
+      "prompt": "Em «Perguntamo-nos: o procedimento é seguro?», os sinais empregados",
+      "options": [
+        {
+          "id": "A",
+          "text": "marcam uma pergunta indireta, que não admite interrogação."
+        },
+        {
+          "id": "B",
+          "text": "separam o sujeito do predicado."
+        },
+        {
+          "id": "C",
+          "text": "introduzem um aposto restritivo."
+        },
+        {
+          "id": "D",
+          "text": "introduzem uma pergunta direta anunciada pelo verbo e a encerram com interrogação."
+        },
+        {
+          "id": "E",
+          "text": "indicam discurso indireto livre obrigatoriamente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os dois-pontos anunciam o conteúdo da pergunta direta; o ponto de interrogação encerra a interrogativa. Fonte: questão adaptada de Cebraspe — Polícia Federal, 2002, item Q134248 sobre dois-pontos e interrogação direta. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/134248"
+    },
+    {
+      "id": "q3448",
+      "revision": 1,
+      "prompt": "A reescrita «A equipe explicou o motivo: faltavam dados» é adequada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo objeto direto deve ser seguido de dois-pontos."
+        },
+        {
+          "id": "B",
+          "text": "os dois-pontos substituem a preposição regida por «motivo»."
+        },
+        {
+          "id": "C",
+          "text": "a segunda oração funciona como vocativo."
+        },
+        {
+          "id": "D",
+          "text": "o sinal é obrigatório antes de qualquer verbo no plural."
+        },
+        {
+          "id": "E",
+          "text": "o termo «o motivo» anuncia a explicação apresentada depois dos dois-pontos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Um termo anunciador pode preparar o desdobramento que vem após os dois-pontos. Fonte: questão adaptada de Cebraspe — Caixa Econômica Federal, 2010, item Q431704 sobre marcadores, ponto e vírgula e dois-pontos. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/431704"
+    },
+    {
+      "id": "q3449",
+      "revision": 1,
+      "prompt": "Em «A decisão — segundo o relator — foi unânime», os travessões",
+      "options": [
+        {
+          "id": "A",
+          "text": "isolam um inciso e lhe conferem destaque relativamente maior que o de vírgulas."
+        },
+        {
+          "id": "B",
+          "text": "separam o sujeito do predicado sem qualquer justificativa."
+        },
+        {
+          "id": "C",
+          "text": "marcam discurso direto."
+        },
+        {
+          "id": "D",
+          "text": "transformam o segmento em oração restritiva."
+        },
+        {
+          "id": "E",
+          "text": "dispensam o segundo sinal de fechamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O inciso intercalado pode ser delimitado por par de travessões; a escolha do sinal também afeta o relevo informacional. Fonte: questão adaptada de Cebraspe — SEFAZ/SE, 2025, item Q4084385 sobre travessões e parênteses. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4084385"
+    },
+    {
+      "id": "q3450",
+      "revision": 1,
+      "prompt": "A substituição de um par de travessões por parênteses",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre proibida."
+        },
+        {
+          "id": "B",
+          "text": "pode preservar a correção quando o trecho é incidental, embora altere seu grau de destaque."
+        },
+        {
+          "id": "C",
+          "text": "mantém necessariamente o mesmo efeito de foco."
+        },
+        {
+          "id": "D",
+          "text": "transforma o trecho em sujeito."
+        },
+        {
+          "id": "E",
+          "text": "exige retirar toda pontuação externa do período."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Travessões e parênteses podem delimitar incisos, mas não são semanticamente idênticos em todos os contextos. Fonte: questão adaptada de Cebraspe — SEFAZ/SE, 2025, item Q4084385 sobre travessões e parênteses. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4084385"
+    },
+    {
+      "id": "q3451",
+      "revision": 1,
+      "prompt": "Em «A medida (ainda provisória) será revista amanhã», os parênteses",
+      "options": [
+        {
+          "id": "A",
+          "text": "transformam o segmento em vocativo."
+        },
+        {
+          "id": "B",
+          "text": "marcam uma oração adjetiva restritiva."
+        },
+        {
+          "id": "C",
+          "text": "rebaixam o segmento a comentário incidental, sem eliminar sua relação com a frase-base."
+        },
+        {
+          "id": "D",
+          "text": "obrigam o ponto final antes do fechamento."
+        },
+        {
+          "id": "E",
+          "text": "substituem o verbo principal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A frase-base é «A medida será revista amanhã»; o conteúdo parentético é acessório. Fonte: questão adaptada de Cebraspe — ANTAQ, 2009, item Q372288 sobre parênteses e travessões. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/372288"
+    },
+    {
+      "id": "q3452",
+      "revision": 1,
+      "prompt": "Depois do fechamento de um parêntese intercalado, uma vírgula externa",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "é sempre proibida."
+        },
+        {
+          "id": "C",
+          "text": "transforma o conteúdo parentético em aposto especificativo."
+        },
+        {
+          "id": "D",
+          "text": "só deve aparecer se a estrutura da frase principal a exigir."
+        },
+        {
+          "id": "E",
+          "text": "substitui o fechamento do parêntese."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O parêntese não cria automaticamente uma vírgula; reconstrói-se a frase-base para decidir. Fonte: questão adaptada de Cebraspe — MPE/RO, 2023, item Q2974875 sobre dois-pontos, parênteses e letra inicial. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/2974875"
+    },
+    {
+      "id": "q3453",
+      "revision": 1,
+      "prompt": "No trecho «A expressão “custo invisível” foi empregada em sentido figurado», as aspas",
+      "options": [
+        {
+          "id": "A",
+          "text": "demonstram necessariamente erro gramatical."
+        },
+        {
+          "id": "B",
+          "text": "transformam o trecho em pergunta direta."
+        },
+        {
+          "id": "C",
+          "text": "marcam uma oração adjetiva explicativa."
+        },
+        {
+          "id": "D",
+          "text": "substituem a necessidade de citar a fonte."
+        },
+        {
+          "id": "E",
+          "text": "podem sinalizar uso especial, metalinguístico ou figurado da expressão."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Aspas podem indicar citação, palavra mencionada, ironia, gíria ou uso não usual; o contexto define a função. Fonte: questão adaptada de Cebraspe — SEED/SE, 2026, item Q4297780 sobre adverbial, zeugma, ponto e vírgula e aspas. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4297780"
+    },
+    {
+      "id": "q3454",
+      "revision": 1,
+      "prompt": "Em uma citação, o emprego de colchetes costuma indicar",
+      "options": [
+        {
+          "id": "A",
+          "text": "intervenção editorial, esclarecimento ou ajuste inserido por quem cita."
+        },
+        {
+          "id": "B",
+          "text": "fala espontânea do autor original."
+        },
+        {
+          "id": "C",
+          "text": "oração adjetiva restritiva."
+        },
+        {
+          "id": "D",
+          "text": "obrigatoriedade de ponto e vírgula."
+        },
+        {
+          "id": "E",
+          "text": "erro de concordância na fonte."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Colchetes distinguem a intervenção do editor/citador do conteúdo originalmente citado. Fonte: questão adaptada de Cebraspe — SEED/SE, 2026, item Q4297780 sobre adverbial, zeugma, ponto e vírgula e aspas. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4297780"
+    },
+    {
+      "id": "q3455",
+      "revision": 1,
+      "prompt": "A substituição das vírgulas que isolam um inciso por travessões",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre impossível."
+        },
+        {
+          "id": "B",
+          "text": "pode manter a correção e aumentar o destaque do segmento."
+        },
+        {
+          "id": "C",
+          "text": "mantém necessariamente o mesmo relevo discursivo."
+        },
+        {
+          "id": "D",
+          "text": "transforma o inciso em vocativo."
+        },
+        {
+          "id": "E",
+          "text": "dispensa o sinal de fechamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sinais diferentes podem delimitar o mesmo inciso, mas o efeito de foco pode mudar. Fonte: questão adaptada de Cebraspe — TELEBRAS, 2026, item Q4337918 sobre substituição de vírgulas por travessões. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4337918"
+    },
+    {
+      "id": "q3456",
+      "revision": 1,
+      "prompt": "Em «A decisão (segundo o relator) foi unânime», a supressão apenas do parêntese de fechamento",
+      "options": [
+        {
+          "id": "A",
+          "text": "transformaria o inciso em restritiva correta."
+        },
+        {
+          "id": "B",
+          "text": "seria aceitável porque a vírgula final é implícita."
+        },
+        {
+          "id": "C",
+          "text": "deixaria o inciso sem delimitação completa e prejudicaria a estrutura gráfica."
+        },
+        {
+          "id": "D",
+          "text": "marcaria discurso direto."
+        },
+        {
+          "id": "E",
+          "text": "não produziria qualquer diferença."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Incisos delimitados por sinais pares exigem abertura e fechamento correspondentes. Fonte: questão adaptada de Cebraspe — TJ/BA, 2003, item Q130594 sobre travessões e parênteses. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/130594"
+    },
+    {
+      "id": "q3457",
+      "revision": 1,
+      "prompt": "Na frase «Os servidores, que concluíram o curso, receberam certificado», retirar as vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "mantém necessariamente a afirmação sobre todos os servidores."
+        },
+        {
+          "id": "B",
+          "text": "transforma a oração em substantiva."
+        },
+        {
+          "id": "C",
+          "text": "gera obrigatoriamente erro de concordância."
+        },
+        {
+          "id": "D",
+          "text": "pode restringir o referente aos servidores que concluíram o curso."
+        },
+        {
+          "id": "E",
+          "text": "muda o verbo para voz passiva."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A alteração pode preservar a correção e mudar o pressuposto sobre o grupo. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4450709 sobre oração adjetiva explicativa e mudança de sentido. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4450709"
+    },
+    {
+      "id": "q3458",
+      "revision": 1,
+      "prompt": "A troca de ponto final por dois-pontos entre duas frases é adequada quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "as frases não mantêm qualquer relação."
+        },
+        {
+          "id": "B",
+          "text": "a primeira termina em verbo transitivo cujo objeto foi omitido."
+        },
+        {
+          "id": "C",
+          "text": "a segunda é vocativo."
+        },
+        {
+          "id": "D",
+          "text": "se pretende apenas reduzir a pausa da leitura."
+        },
+        {
+          "id": "E",
+          "text": "a segunda constitui explicação, consequência, síntese ou desdobramento anunciado pela primeira."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A substituição depende da relação semântica e da completude sintática dos segmentos. Fonte: questão adaptada de Cebraspe — SEMA/AM, 2026, item Q4384780 sobre reescrita, vírgula, dois-pontos e aposto. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4384780"
+    },
+    {
+      "id": "q3459",
+      "revision": 1,
+      "prompt": "Em «Os dados eram incompletos; ainda assim, a análise prosseguiu», a substituição do ponto e vírgula por ponto",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode preservar a correção e fortalecer a autonomia do segundo enunciado."
+        },
+        {
+          "id": "B",
+          "text": "é proibida porque «ainda assim» não pode iniciar período."
+        },
+        {
+          "id": "C",
+          "text": "elimina necessariamente a relação concessiva."
+        },
+        {
+          "id": "D",
+          "text": "transforma a segunda oração em vocativo."
+        },
+        {
+          "id": "E",
+          "text": "exige retirar a vírgula após «assim»."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O conector mantém a relação argumentativa, enquanto o ponto aumenta a separação entre os períodos. Fonte: questão adaptada de Cebraspe — AGE/ES, 2004, item Q199755 sobre vírgula, ponto e vírgula e ponto. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/199755"
+    },
+    {
+      "id": "q3460",
+      "revision": 1,
+      "prompt": "Qual reescrita preserva a correção e a relação explicativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O procedimento foi, revisto pois os dados eram inconsistentes."
+        },
+        {
+          "id": "B",
+          "text": "O procedimento foi revisto, pois os dados eram inconsistentes."
+        },
+        {
+          "id": "C",
+          "text": "O procedimento foi revisto pois, os dados eram inconsistentes."
+        },
+        {
+          "id": "D",
+          "text": "O procedimento, foi revisto, pois os dados eram inconsistentes."
+        },
+        {
+          "id": "E",
+          "text": "O procedimento foi revisto; pois, os dados eram inconsistentes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A oração introduzida por «pois» apresenta a justificativa da revisão e é separada da anterior pela vírgula. Fonte: questão adaptada de Cebraspe — Polícia Federal, 2002, item Q134216 sobre dois-pontos e valor de «pois». https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/134216"
+    },
+    {
+      "id": "q3461",
+      "revision": 1,
+      "prompt": "Em «Não sabemos se o prazo será prorrogado», o ponto de interrogação ao fim",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatório por haver dúvida."
+        },
+        {
+          "id": "B",
+          "text": "transformaria «se» em pronome relativo."
+        },
+        {
+          "id": "C",
+          "text": "não é exigido, porque a construção contém uma interrogativa indireta."
+        },
+        {
+          "id": "D",
+          "text": "substitui a vírgula antes de «se»."
+        },
+        {
+          "id": "E",
+          "text": "é incompatível com qualquer verbo de cognição."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Perguntas indiretas integram uma oração declarativa e normalmente terminam com ponto final. Fonte: questão adaptada de Cebraspe — TRE/MG, 2009, item Q291018 sobre coordenação, ponto e vírgula e adverbial. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/291018"
+    },
+    {
+      "id": "q3462",
+      "revision": 1,
+      "prompt": "Em «O prazo será prorrogado?», o ponto de interrogação",
+      "options": [
+        {
+          "id": "A",
+          "text": "é incompatível com sujeito posposto."
+        },
+        {
+          "id": "B",
+          "text": "indica sempre ironia."
+        },
+        {
+          "id": "C",
+          "text": "substitui dois-pontos obrigatórios."
+        },
+        {
+          "id": "D",
+          "text": "marca uma interrogativa direta."
+        },
+        {
+          "id": "E",
+          "text": "marca uma subordinada substantiva."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A frase formula diretamente a pergunta ao interlocutor. Fonte: questão adaptada de Cebraspe — Polícia Federal, 2002, item Q134248 sobre dois-pontos e interrogação direta. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/134248"
+    },
+    {
+      "id": "q3463",
+      "revision": 1,
+      "prompt": "As reticências em «Talvez o relatório...» podem indicar",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessariamente supressão feita por editor."
+        },
+        {
+          "id": "B",
+          "text": "sempre término lógico completo do período."
+        },
+        {
+          "id": "C",
+          "text": "oração adjetiva restritiva."
+        },
+        {
+          "id": "D",
+          "text": "substituição obrigatória do ponto e vírgula."
+        },
+        {
+          "id": "E",
+          "text": "suspensão, hesitação, continuidade implícita ou efeito expressivo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Reticências autorais têm função expressiva; reticências entre colchetes, em citação, costumam marcar supressão editorial. Fonte: questão adaptada de Cebraspe — TRE/MG, 2009, item Q288435 sobre coordenação, dois-pontos e interrogação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/288435"
+    },
+    {
+      "id": "q3464",
+      "revision": 1,
+      "prompt": "Em uma citação, «[...]» costuma sinalizar",
+      "options": [
+        {
+          "id": "A",
+          "text": "trecho suprimido pelo editor ou citador."
+        },
+        {
+          "id": "B",
+          "text": "hesitação do autor original."
+        },
+        {
+          "id": "C",
+          "text": "vocativo oculto."
+        },
+        {
+          "id": "D",
+          "text": "mudança da oração para voz passiva."
+        },
+        {
+          "id": "E",
+          "text": "obrigatoriedade de letra minúscula depois do sinal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A combinação de colchetes e reticências distingue a intervenção editorial da pontuação original. Fonte: questão adaptada de Cebraspe — SEED/SE, 2026, item Q4297780 sobre adverbial, zeugma, ponto e vírgula e aspas. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4297780"
+    },
+    {
+      "id": "q3465",
+      "revision": 1,
+      "prompt": "A substituição de vírgula por ponto pode manter a correção e, simultaneamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter obrigatoriamente todos os efeitos de sentido."
+        },
+        {
+          "id": "B",
+          "text": "alterar a articulação discursiva e o grau de autonomia dos segmentos."
+        },
+        {
+          "id": "C",
+          "text": "ser impossível em qualquer período composto."
+        },
+        {
+          "id": "D",
+          "text": "transformar o segundo segmento em oração subordinada."
+        },
+        {
+          "id": "E",
+          "text": "dispensar ajustes de letra inicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Correção gramatical e preservação integral do efeito discursivo são critérios distintos. Fonte: questão adaptada de Cebraspe — UNIVESP, 2025, item Q3793566 sobre reescritas integradas de pontuação. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3793566"
+    },
+    {
+      "id": "q3466",
+      "revision": 1,
+      "prompt": "Na frase «O relatório, sem dúvida, é relevante», as vírgulas",
+      "options": [
+        {
+          "id": "A",
+          "text": "separam indevidamente sujeito e predicado sem inciso."
+        },
+        {
+          "id": "B",
+          "text": "transformam «sem dúvida» em vocativo."
+        },
+        {
+          "id": "C",
+          "text": "isolam um marcador modal intercalado."
+        },
+        {
+          "id": "D",
+          "text": "indicam uma enumeração."
+        },
+        {
+          "id": "E",
+          "text": "são exigidas apenas porque a expressão tem duas palavras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O segmento intercalado comenta o grau de certeza do enunciador e é retirável da frase-base. Fonte: questão adaptada de Cebraspe — TCE/RN, 2026, item Q4451698 sobre isolamento e ênfase de adjunto temporal. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/4451698"
+    },
+    {
+      "id": "q3467",
+      "revision": 1,
+      "prompt": "Em «Os dados foram validados — etapa indispensável — antes da publicação», os travessões",
+      "options": [
+        {
+          "id": "A",
+          "text": "marcam uma oração restritiva."
+        },
+        {
+          "id": "B",
+          "text": "separam verbo e complemento."
+        },
+        {
+          "id": "C",
+          "text": "indicam pergunta indireta."
+        },
+        {
+          "id": "D",
+          "text": "isolam um aposto explicativo com destaque."
+        },
+        {
+          "id": "E",
+          "text": "podem ser substituídos por apenas uma vírgula."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O segmento renomeia/comenta a validação; sinais pares devem delimitar completamente o inciso. Fonte: questão adaptada de Cebraspe — InoversaSul, 2025, item Q3663739 sobre travessões e parênteses. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/3663739"
+    },
+    {
+      "id": "q3468",
+      "revision": 1,
+      "prompt": "Assinale a reescrita em que a pontuação preserva a estrutura de «O relatório, contudo, não foi publicado».",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contudo o relatório, não foi publicado."
+        },
+        {
+          "id": "B",
+          "text": "O relatório contudo não, foi publicado."
+        },
+        {
+          "id": "C",
+          "text": "O relatório; contudo não foi, publicado."
+        },
+        {
+          "id": "D",
+          "text": "O relatório contudo, não foi publicado."
+        },
+        {
+          "id": "E",
+          "text": "Contudo, o relatório não foi publicado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O conector pode ser deslocado para o início; a vírgula separa-o do restante do enunciado nesse emprego. Fonte: questão adaptada de Cebraspe — STJ, 2008, item Q322660 sobre conector e relação entre orações. https://questoes.grancursosonline.com.br/questoes-de-concursos/lingua-portuguesa-403587/322660"
+    }
   ]
 }

@@ -181,6 +181,18 @@ Não confunda:
 
 A referência à BNCC no edital ajuda a compreender a formação para cidadania digital, mas a aplicação ao serviço público exige traduzir essas capacidades para processos, informações, decisões, serviços e deveres administrativos.
 
+### 5.1 Cadeia normativa: não confunda os documentos
+
+| Marco | Função principal |
+|---|---|
+| **Parecer CNE/CEB nº 2/2022** | fundamenta as normas de Computação na Educação Básica como complemento à BNCC |
+| **Resolução CNE/CEB nº 1/2022** | institui as normas de Computação na Educação Básica — Complemento à BNCC |
+| **Lei nº 14.533/2023** | institui a PNED e seus quatro eixos estruturantes |
+| **Resolução CNE/CEB nº 2/2025** | estabelece diretrizes sobre dispositivos digitais e integração curricular da educação digital e midiática |
+
+A sequência é cumulativa. A BNCC Computação não é um quinto eixo da PNED, e a Resolução nº 2/2025 não substitui a Lei nº 14.533/2023. Em prova, identifique primeiro qual documento e qual nível de organização o enunciado menciona.
+
+
 ---
 
 ## 6. Pensamento computacional aplicado ao serviço público
@@ -244,11 +256,25 @@ Informação abundante não equivale a informação confiável. A análise crít
 8. **Reconheça incerteza.** Ausência de prova não autoriza inventar certeza.
 9. **Decida como comunicar.** Compartilhar, corrigir, contextualizar ou não amplificar.
 
-### 7.2 Sinais não são prova isolada
+### 7.2 Leitura lateral
+
+Em vez de permanecer apenas na página suspeita, abra novas fontes e investigue o ecossistema da alegação:
+
+1. interrompa a avaliação baseada só na aparência da página;
+2. pesquise quem publica, financia ou mantém o domínio;
+3. procure cobertura independente e qualificada;
+4. localize o ato, estudo, base, imagem ou declaração original;
+5. confira data, versão, contexto e alterações posteriores;
+6. retorne à alegação e classifique o grau de sustentação.
+
+Fonte primária não é sinônimo de fonte imparcial ou infalível. Ela é a referência adequada para saber o que determinado ato, órgão, estudo ou agente efetivamente registrou; a interpretação de seus resultados ainda exige método, contexto e comparação.
+
+
+### 7.3 Sinais não são prova isolada
 
 Erro ortográfico, título emocional, domínio desconhecido ou grande número de compartilhamentos podem motivar cautela, mas nenhum desses elementos decide sozinho a veracidade. Uma página visualmente profissional também pode enganar. A verificação depende de evidência e contexto.
 
-### 7.3 Números e visualizações
+### 7.4 Números e visualizações
 
 Ao avaliar gráfico ou indicador, confira:
 
@@ -264,9 +290,19 @@ Um dado verdadeiro pode produzir conclusão enganosa quando retirado do período
 
 ---
 
-## 8. Desinformação e comunicação pública
 
-**Desinformação** pode ser entendida, no recorte deste assunto, como conteúdo falso ou enganoso produzido ou difundido de modo capaz de induzir pessoas a erro. Nem toda informação incorreta decorre de intenção deliberada; uma pessoa pode compartilhar erro por desconhecimento. Para o agente público, o dever prático é verificar antes de usar ou divulgar e corrigir com transparência quando necessário.
+## 8. Desordem informacional e comunicação pública
+
+A terminologia varia entre autores e instituições. Na taxonomia mais frequente entre organismos das Nações Unidas, a intenção distingue informação incorreta de desinformação:
+
+| Categoria | Distinção operacional |
+|---|---|
+| **informação incorreta** (`misinformation`) | conteúdo falso ou inexato compartilhado sem intenção de enganar |
+| **desinformação** (`disinformation`) | conteúdo falso ou enganoso difundido deliberadamente para enganar ou manipular |
+| **má-informação** (`mal-information`) | conteúdo verdadeiro usado fora de contexto ou de modo destinado a causar dano |
+| **fake news** | expressão imprecisa; prefira identificar a categoria e a técnica empregada |
+
+Em prova, siga a definição da fonte indicada pelo enunciado. Na ausência de fonte, reconheça a distinção mais difundida sem tratá-la como fronteira terminológica universal. Para o agente público, a conduta prática continua sendo verificar antes de usar ou divulgar, comunicar incerteza e corrigir com transparência.
 
 ### 8.1 Fatores de circulação
 
@@ -296,6 +332,20 @@ Ao enfrentar alegação enganosa sobre serviço ou política pública, a respost
 
 Combater desinformação não autoriza censura genérica nem dispensa direitos fundamentais. A atuação pública deve ser legal, proporcional, transparente e voltada à integridade da informação e ao interesse público.
 
+### 8.3 Conteúdo sintético ou manipulado
+
+Diante de áudio, imagem ou vídeo possivelmente gerado ou alterado por inteligência artificial:
+
+- procure a publicação original e versões anteriores;
+- confira se o material aparece em outro contexto, data ou local;
+- examine cortes, continuidade, sincronização e metadados disponíveis;
+- compare com registros independentes e com a fonte atribuída;
+- não trate detector automático de IA como prova conclusiva;
+- documente o caminho de verificação e o grau de incerteza.
+
+Aparência convincente e coerência interna não substituem procedência e confirmação externa.
+
+
 ---
 
 ## 9. Ética no uso de dados
@@ -314,81 +364,40 @@ Perguntas essenciais:
 
 Anonimizar, agregar ou pseudonimizar dados pode reduzir riscos, mas cada técnica possui limites. Dados anonimizados deixam de ser pessoais para a LGPD quando o processo não puder ser revertido por meios próprios ou esforços razoáveis, considerados fatores objetivos. **Pseudonimização não equivale automaticamente a anonimização**: ainda pode haver associação ao titular mediante informação adicional mantida separadamente.
 
+### 9.1 Ciclo ético dos dados
+
+| Etapa | Risco principal | Controle esperado |
+|---|---|---|
+| coleta | excesso ou finalidade vaga | delimitar problema, finalidade e necessidade |
+| preparação | erro, ausência ou distorção | qualidade, documentação e rastreabilidade |
+| modelagem | viés e correlação espúria | testes por grupos, casos-limite e revisão |
+| decisão | opacidade e automatismo | explicação, supervisão e contestação |
+| compartilhamento | reutilização incompatível | finalidade, minimização e controle de acesso |
+| publicação | reidentificação ou conclusão enganosa | agregação, contexto e metodologia |
+| retenção | conservação indefinida | prazo, revisão e descarte seguro |
+
+Uma taxa global de acerto pode ocultar injustiça. Sistema com 95% de precisão total pode produzir falsos positivos muito superiores para determinado grupo; por isso, desempenho médio deve ser examinado junto com a distribuição dos erros e seus impactos.
+
+
 ---
 
-## 10. Núcleo da LGPD para a atuação pública
 
-A Lei Geral de Proteção de Dados Pessoais aplica-se ao tratamento realizado por pessoas jurídicas de direito público e privado, ressalvadas as hipóteses legais de não incidência. O guia da ANPD esclarece que o conceito de Poder Público alcança União, estados, Distrito Federal e municípios, os três Poderes, Cortes de Contas e Ministério Público.
+## 10. Ponte com a LGPD
 
-### 10.1 Conceitos básicos
+Ética de dados e conformidade jurídica são relacionadas, mas não idênticas. Nesta página, o foco está em finalidade, proporcionalidade, qualidade, vieses, explicabilidade, impactos e prestação de contas. O estudo sistemático de conceitos, bases legais, direitos dos titulares e regras do Poder Público pertence ao tópico **3.2 — LGPD** do edital.
 
-| Conceito | Definição funcional |
+Para integrar os assuntos sem duplicá-los, retenha o mapa mínimo:
+
+| Ponto | Regra de conexão |
 |---|---|
-| **dado pessoal** | informação relacionada a pessoa natural identificada ou identificável |
-| **dado pessoal sensível** | dado sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização religiosa, filosófica ou política, saúde, vida sexual, ou dado genético ou biométrico vinculado a pessoa natural |
-| **tratamento** | operação como coleta, acesso, classificação, uso, armazenamento, compartilhamento ou eliminação |
-| **controlador** | pessoa natural ou jurídica que toma decisões referentes ao tratamento |
-| **operador** | quem realiza tratamento em nome do controlador |
-| **encarregado** | canal de comunicação entre controlador, titulares e ANPD |
-| **titular** | pessoa natural a quem os dados se referem |
+| agentes | controlador decide; operador trata em nome do controlador; encarregado atua como canal nos termos legais |
+| princípios | finalidade, adequação, necessidade, qualidade, transparência, segurança, prevenção, não discriminação e prestação de contas limitam o tratamento |
+| base legal | consentimento não é a única hipótese e pode ser inadequado quando não há escolha efetivamente livre |
+| Poder Público | o tratamento deve servir à finalidade pública, ao interesse público e às competências ou atribuições legais |
+| dados públicos | disponibilidade pública não autoriza reutilização irrestrita |
+| transparência | publicidade administrativa e proteção de dados devem ser compatibilizadas |
 
-### 10.2 Princípios do art. 6º
-
-Além da boa-fé, o tratamento deve observar:
-
-| Princípio | Aplicação prática |
-|---|---|
-| **finalidade** | propósito legítimo, específico, explícito e informado |
-| **adequação** | compatibilidade entre tratamento, finalidade informada e contexto |
-| **necessidade** | mínimo de dados pertinentes, proporcionais e não excessivos |
-| **livre acesso** | consulta facilitada e gratuita sobre forma, duração e integralidade dos dados |
-| **qualidade dos dados** | exatidão, clareza, relevância e atualização conforme a necessidade |
-| **transparência** | informações claras, precisas e acessíveis sobre tratamento e agentes |
-| **segurança** | medidas técnicas e administrativas contra acessos e eventos indevidos |
-| **prevenção** | medidas para evitar danos decorrentes do tratamento |
-| **não discriminação** | proibição de tratamento para fins discriminatórios ilícitos ou abusivos |
-| **responsabilização e prestação de contas** | demonstração de medidas eficazes de conformidade |
-
-Os princípios são cumulativos. Ter uma base legal não autoriza ignorar necessidade, segurança ou transparência.
-
-### 10.3 Base legal não é sinônimo de consentimento
-
-O tratamento deve apoiar-se em hipótese dos arts. 7º ou 11 da LGPD. No setor público, são frequentes:
-
-- cumprimento de obrigação legal ou regulatória;
-- execução de políticas públicas previstas em lei, regulamento ou instrumento aplicável, nos limites de cada hipótese;
-- outras bases cabíveis conforme o caso concreto.
-
-O consentimento exige manifestação livre, informada e inequívoca para finalidade determinada; para dados sensíveis, deve ser específico e destacado. Ele muitas vezes é inadequado quando o cidadão não possui escolha efetiva diante de obrigação ou prerrogativa estatal. Isso não significa que o poder público esteja dispensado de base legal: significa que deve identificar a hipótese correta e cumprir todos os demais deveres.
-
-### 10.4 Regras próprias do Poder Público
-
-Segundo o art. 23, o tratamento pelo Poder Público deve atender à finalidade pública, perseguir o interesse público e executar competências legais ou cumprir atribuições legais do serviço público.
-
-Os órgãos devem divulgar, em meios de fácil acesso, preferencialmente em seus sites, informações claras e atualizadas sobre:
-
-- previsão legal;
-- finalidade;
-- procedimentos e práticas do tratamento;
-- encarregado indicado, nos termos legais.
-
-Publicidade sobre o tratamento não significa publicar indiscriminadamente os próprios dados pessoais.
-
-### 10.5 Dados públicos, transparência e compartilhamento
-
-Dados pessoais disponíveis publicamente não se tornam livres para qualquer uso. O tratamento deve considerar finalidade, boa-fé, interesse público, direitos do titular e compatibilidade do novo propósito.
-
-O uso compartilhado pelo Poder Público deve atender a finalidades específicas de execução de políticas públicas e atribuição legal, respeitando os princípios de proteção de dados. Boas práticas incluem:
-
-- formalizar e registrar a operação;
-- indicar dados, finalidade e base legal;
-- limitar o conjunto ao necessário;
-- definir responsabilidades, duração e segurança;
-- informar os titulares e permitir o exercício de direitos;
-- reavaliar compatibilidade e riscos.
-
-A proteção de dados não elimina a transparência pública, e a transparência não elimina a proteção de dados. A solução depende da finalidade legal, do interesse público, da necessidade e da possibilidade de divulgar de forma menos invasiva, por exemplo por agregação ou ocultação de campos desnecessários.
-
+As questões jurídicas já existentes permanecem úteis como revisão interdisciplinar, mas novas questões desta página priorizam os itens 1.1 e 1.2: competências digitais, pensamento computacional, análise crítica, ética de dados e desinformação.
 ---
 
 ## 11. Casos integrados
@@ -418,7 +427,7 @@ Circula mensagem de que todo benefício será cancelado no dia seguinte. O servi
 
 ### 11.4 Reconhecimento facial
 
-Um sistema pode apresentar taxas de erro diferentes entre grupos em razão de dados de treinamento, desenho e condições de uso. A avaliação deve considerar necessidade, proporcionalidade, dados sensíveis biométricos, segurança, não discriminação, transparência, precisão, impactos e mecanismos de contestação. Alta sofisticação técnica não elimina esses riscos.
+Um sistema pode apresentar taxas de erro diferentes entre grupos em razão de dados de treinamento, desenho e condições de uso. Mesmo uma precisão global de 95% pode esconder falsos positivos muito superiores para determinado grupo. A avaliação deve considerar necessidade, proporcionalidade, dados sensíveis biométricos, segurança, não discriminação, transparência, distribuição dos erros, impactos e mecanismos de contestação. Alta sofisticação técnica não elimina esses riscos.
 
 ---
 
@@ -432,13 +441,15 @@ Um sistema pode apresentar taxas de erro diferentes entre grupos em razão de da
 - Algoritmo **não** precisa ser código de computador.
 - Automação **não** elimina responsabilidade humana e institucional.
 - Viralidade e posição em buscador **não** comprovam veracidade.
+- Fonte primária **não** é automaticamente imparcial ou suficiente.
+- Detector de conteúdo gerado por IA **não** é prova conclusiva.
 - A PNED possui **quatro eixos estruturantes**.
 - A Educação Digital Escolar da PNED engloba **cinco campos**.
 - A BNCC Computação organiza-se em **três eixos**.
 - A PNED articula e **não substitui** outras políticas.
-- O poder público **não** depende sempre de consentimento, mas precisa de base legal.
-- Dado publicamente acessível **não** pode ser reutilizado sem finalidade e limites.
-- Transparência e proteção de dados devem ser **compatibilizadas**, não tratadas como absolutos incompatíveis.
+- Informação incorreta e desinformação podem ser distinguidas pela **ausência ou presença de intenção**, conforme a taxonomia usada.
+- Precisão global **não** prova equidade entre grupos.
+- LGPD é tópico próprio do edital; aqui ela aparece como ponte para a ética de dados.
 
 ---
 
@@ -465,6 +476,10 @@ Alternativas absolutas como “sempre exige consentimento”, “todo dado públ
 - BRASIL. Presidência da República. [Lei nº 14.533, de 11 de janeiro de 2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14533.htm). Institui a Política Nacional de Educação Digital; texto oficial com promulgação da parte vetada publicada em 22 dez. 2023. Acesso em 18 jul. 2026.
 - BRASIL. Ministério da Educação. [Educação Digital e Midiática: como elaborar e implementar o currículo nas escolas](https://www.gov.br/mec/pt-br/escolas-conectadas/documentos/guia_eddigital_versofinaloficial.pdf). Guia oficial, 2025. Acesso em 18 jul. 2026.
 - BRASIL. Ministério da Educação. [Base Nacional Comum Curricular](https://basenacionalcomum.mec.gov.br/a-base). Referência normativa da educação básica e acesso aos documentos complementares. Acesso em 18 jul. 2026.
+- BRASIL. Conselho Nacional de Educação. [Parecer CNE/CEB nº 2/2022 e Resolução CNE/CEB nº 1/2022](https://portal.mec.gov.br/pet/323-secretarias-112877938/orgaos-vinculados-82187207/62391-bncc-ensino-medio). Normas sobre Computação na Educação Básica — Complemento à BNCC. Acesso em 19 jul. 2026.
+- BRASIL. Conselho Nacional de Educação. [Resolução CNE/CEB nº 2/2025](https://www.gov.br/secom/pt-br/assuntos/educacao-midiatica/colecao/colecao-de-educacao-digital-e-midiatica). Diretrizes para dispositivos digitais e integração curricular da educação digital e midiática. Acesso em 19 jul. 2026.
+- UNESCO. [Misinformation](https://www.unesco.org/en/query-list/m/misinformation) e [Disinformation](https://www.unesco.org/en/query-list/d/disinformation). Distinção terminológica baseada na intenção, com ressalva sobre variação de uso. Acesso em 19 jul. 2026.
+
 - BRASIL. Presidência da República. [Lei nº 13.709, de 14 de agosto de 2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm). Lei Geral de Proteção de Dados Pessoais, texto compilado vigente no corte de 18 jul. 2026, especialmente arts. 5º a 7º, 11, 12, 18, 20 e 23 a 30. Acesso em 18 jul. 2026.
 - AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS. [Tratamento de dados pessoais pelo Poder Público](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-poder-publico-anpd-versao-final.pdf). Guia orientativo, versão 2.0, jun. 2023. Acesso em 18 jul. 2026.
 - UNESCO. [Media and Information Literacy: a critical approach to literacy in a digital world](https://www.unesco.org/en/articles/media-and-information-literacy-critical-approach-literacy-digital-world). Referência sobre alfabetização midiática e informacional. Acesso em 18 jul. 2026.

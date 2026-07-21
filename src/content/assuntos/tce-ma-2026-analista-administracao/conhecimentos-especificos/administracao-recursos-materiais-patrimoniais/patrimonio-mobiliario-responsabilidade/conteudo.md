@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Patrimônio mobiliário e responsabilidade civil e administrativa
-description: Bens móveis públicos, material permanente, carga e guarda patrimonial, responsabilidade civil e administrativa, ressarcimento, apuração e prevenção de danos.
+description: Patrimônio mobiliário, carga e guarda, responsabilidade civil e administrativa, apuração, prevenção, inventário e controle.
 order: 117
 storageId: patrimonio-mobiliario-resp
 ---
@@ -64,6 +64,34 @@ No sentido administrativo mais comum do edital, patrimônio mobiliário enfatiza
 
 Um equipamento pode conter software embarcado: se o programa for inseparável para o funcionamento, tende a acompanhar o equipamento; se for identificável e controlável separadamente, pode exigir análise como intangível.
 
+<!-- REVISAO-PATRIMONIO-MOBILIARIO-2026 -->
+
+### 1.4 Governança e materialidade do controle
+
+O desenho do controle deve ser proporcional ao risco, sem abandonar a rastreabilidade. Valor unitário é apenas um dos fatores. Também importam:
+
+- mobilidade e facilidade de subtração;
+- criticidade para a continuidade do serviço;
+- presença de dados pessoais ou informação sigilosa;
+- risco de uso particular;
+- existência de número de série;
+- custo de indisponibilidade;
+- valor cultural, histórico ou probatório;
+- obrigação de devolução a terceiro.
+
+Um item de baixo valor pode exigir controle individual quando contém dados ou é facilmente desviável. Em sentido inverso, bens homogêneos e de baixo risco podem admitir relação-carga, controle por lote ou outro mecanismo previsto na política do ente. **Controle simplificado não significa ausência de controle.**
+
+| Papel | Responsabilidade predominante |
+| --- | --- |
+| alta administração | política, apetite a risco, recursos e supervisão |
+| patrimônio | cadastro, identificação, movimentação, inventário e saneamento |
+| contabilidade | reconhecimento, mensuração, depreciação, perdas e conciliação |
+| unidade detentora | uso, guarda local, comunicação e aceite de transferências |
+| usuário | cuidado compatível com o uso e comunicação de ocorrências |
+| segurança/TI/manutenção | controles especializados conforme o bem |
+| comissão de inventário | verificação independente e registro de divergências |
+| autoridade apuradora | procedimento, defesa, decisão e encaminhamentos |
+
 ## 2. Dimensões do controle do bem móvel
 
 Um cadastro útil deve relacionar dimensões complementares:
@@ -95,6 +123,37 @@ Sem antecipar os procedimentos detalhados de movimentação e sistema do Assunto
 11. transferir, alienar, doar, inutilizar ou baixar com competência e evidências.
 
 Falhas em uma etapa contaminam as seguintes. Recebimento deficiente gera cadastro incorreto; movimentação sem registro produz falso desaparecimento; manutenção omitida acelera dano; baixa sem retirada física deixa o bem vulnerável; descarte físico sem baixa mantém ativo inexistente na contabilidade.
+
+### 3.1 Qualidade dos dados e conciliação
+
+O cadastro deve permitir reconstruir o ciclo do bem. São critérios de qualidade:
+
+| Critério | Pergunta |
+| --- | --- |
+| completude | origem, valor, série, localização, responsável e situação estão preenchidos? |
+| exatidão | o cadastro corresponde ao objeto e aos documentos? |
+| consistência | físico, sistema patrimonial e contabilidade concordam? |
+| tempestividade | a transferência foi registrada no momento adequado? |
+| unicidade | o mesmo bem aparece mais de uma vez? |
+| rastreabilidade | é possível saber quem alterou, quando e com qual evidência? |
+
+A conciliação não deve “forçar” números iguais. Ela identifica e explica diferenças, define responsável e prazo para saneamento e atualiza todas as bases afetadas.
+
+### 3.2 Bens em trabalho remoto, empréstimo ou manutenção
+
+A saída temporária deve registrar, conforme o risco:
+
+- autorização;
+- usuário e unidade;
+- data de retirada e devolução prevista;
+- condição do bem;
+- acessórios;
+- endereço ou finalidade, quando legitimamente necessário;
+- responsabilidade por transporte;
+- seguro, garantia ou ordem de serviço;
+- confirmação de retorno.
+
+Equipamento encaminhado à assistência técnica continua exigindo rastreabilidade. A ordem de serviço não substitui a baixa nem transfere automaticamente ao fornecedor toda responsabilidade pelo bem.
 
 ## 4. Identificação, carga, guarda, uso e propriedade
 
@@ -144,6 +203,25 @@ Bens recebidos em cessão, comodato, locação ou para manutenção não se torn
 
 Misturar bens próprios e de terceiros gera reconhecimento contábil indevido, baixa equivocada e disputa sobre responsabilidade.
 
+### 4.5 Passagem de responsabilidade
+
+A mudança de lotação, afastamento, substituição de chefia ou desligamento exige conferência e passagem formal dos bens. A providência deve confrontar:
+
+1. relação de carga;
+2. existência e condição física;
+3. movimentações pendentes;
+4. bens em manutenção, empréstimo ou poder de terceiros;
+5. divergências e ressalvas;
+6. aceite do novo responsável.
+
+Se o detentor não puder realizar a passagem, a autoridade deve adotar procedimento substitutivo, como comissão de conferência, de acordo com a norma aplicável. A ausência do agente não autoriza simplesmente transferir a carga no sistema sem verificação.
+
+### 4.6 Tombamento e meios alternativos
+
+O tombamento administrativo é o registro individual do bem no sistema patrimonial, normalmente acompanhado de identificador. Não se confunde com o tombamento cultural.
+
+Plaqueta, etiqueta, QR code, RFID, gravação e número de série são meios. Quando a afixação for impossível, danosa ou antieconômica, a identificação pode ocorrer por relação-carga, fotografia, número de série, agrupamento ou outro controle documentado. O meio escolhido deve permitir localizar o objeto e distinguir itens semelhantes.
+
 ## 5. Deveres de cuidado e comunicação
 
 No Estado do Maranhão, o art. 209 da Lei Estadual nº 6.107/1994 inclui entre os deveres funcionais:
@@ -175,6 +253,26 @@ O regime disciplinar prossegue nos arts. 221 a 233. A aplicação da pena consid
 
 Conhecida uma irregularidade, o art. 234 exige apuração imediata, com ampla defesa. Os arts. 235 a 265 disciplinam sindicância e processo administrativo disciplinar, incluindo comissão competente, instrução, defesa, relatório e julgamento. O dano a bem móvel não autoriza criar rito improvisado nem antecipar a sanção.
 
+### 5.2 Matriz de deveres em ambientes compartilhados
+
+A responsabilidade não precisa estar concentrada em uma pessoa. Em sala coletiva, laboratório, frota ou depósito, podem coexistir:
+
+- responsável formal pela carga;
+- usuários autorizados;
+- chefia que controla acesso;
+- setor de patrimônio que atualiza movimentações;
+- manutenção que recebe o bem;
+- segurança que administra chaves e imagens;
+- fornecedor que transporta ou repara.
+
+A apuração deve individualizar condutas. O responsável formal não responde por toda ocorrência apenas porque assinou o termo; tampouco o usuário fica isento quando descumpre dever de cuidado.
+
+### 5.3 Comunicação tempestiva
+
+Ao perceber perda, dano, falha de segurança, transferência não registrada ou risco de agravamento, o agente deve comunicar prontamente e preservar evidências. A comunicação tardia pode ser relevante, mas deve-se avaliar se contribuiu para o dano e se havia canal, orientação e meios efetivos.
+
+Comunicar não equivale a confessar culpa. O registro tempestivo protege o patrimônio e permite acionar garantia, seguro, rastreamento, segurança e correção cadastral.
+
 ## 6. O que significa responsabilidade
 
 Responsabilizar não é apenas apontar quem assinou um documento. É atribuir uma consequência jurídica a uma conduta comprovada segundo os pressupostos da esfera aplicável.
@@ -203,6 +301,34 @@ Desaparecimento não prova, sozinho, apropriação. Dano não prova, sozinho, ne
 - **falha organizacional:** ausência de segurança, manutenção, treinamento ou segregação pode contribuir para o resultado e impede conclusão simplista centrada no detentor.
 
 O padrão de cuidado considera atribuições, treinamento, acesso, recursos disponíveis, previsibilidade, criticidade do bem e providências adotadas após perceber o risco.
+
+### 6.3 Ônus argumentativo e presunções indevidas
+
+A Administração não pode substituir prova por atalhos como:
+
+- “assinou a carga, logo é culpado”;
+- “era o condutor, logo causou a colisão”;
+- “o bem sumiu, logo houve apropriação”;
+- “há boletim de ocorrência, logo não houve negligência”;
+- “o valor é baixo, logo não é necessário apurar”;
+- “o bem está depreciado, logo não existe dano”.
+
+A carga demonstra custódia formal; os demais elementos demonstram — ou não — a responsabilidade. A decisão deve explicar fato, conduta, dever, dano, nexo, elemento subjetivo e causas concorrentes.
+
+### 6.4 Falha individual e falha organizacional
+
+O evento pode decorrer simultaneamente de:
+
+- conduta individual;
+- cadastro desatualizado;
+- ausência de controle de acesso;
+- manutenção omitida;
+- instrução insuficiente;
+- armazenamento inadequado;
+- processo excessivamente burocrático que estimula movimentação informal;
+- contratação ou fiscalização deficiente.
+
+Reconhecer causa organizacional não exclui automaticamente eventual culpa individual. Serve para distribuir corretamente responsabilidades e corrigir o sistema, evitando repetição.
 
 ## 7. Responsabilidade civil e ressarcimento
 
@@ -240,6 +366,27 @@ Não se deve transportar a objetividade da responsabilidade estatal para o agent
 ### 7.3 Reparação espontânea e apuração
 
 A entrega de bem equivalente ou o pagamento voluntário pode recompor o patrimônio, se aceito segundo regras competentes. Isso não torna automaticamente inexistente eventual infração funcional, fraude ou crime. De outro lado, ressarcir não autoriza presumir culpa disciplinar: cada esfera conserva seus pressupostos.
+
+### 7.4 Mensuração do dano
+
+O dano deve ser quantificado por critério compatível com o caso:
+
+| Situação | Elementos relevantes |
+| --- | --- |
+| reparo tecnicamente viável | custo do reparo, garantia, vida útil restante e perda de disponibilidade |
+| perda total | reposição equivalente, estado anterior, depreciação, valor residual e recuperações |
+| bem histórico ou raro | avaliação especializada e impossibilidade de simples equivalência |
+| dano coberto | franquia, indenização do seguro e prejuízo remanescente |
+| vício do produto | garantia, fornecedor e responsabilidade contratual |
+| bem de terceiro | instrumento de guarda, valor comprovado e obrigações assumidas |
+
+O valor histórico de aquisição não é automaticamente o prejuízo atual. Também não se deve enriquecer a Administração com reposição superior ao bem perdido sem justificativa técnica.
+
+### 7.5 Desconto, reposição e reparação
+
+Ressarcimento voluntário, reposição por bem equivalente ou desconto remuneratório exigem competência, base normativa, aceitação técnica e processo adequado. O termo de responsabilidade, isoladamente, não funciona como autorização genérica e irrevogável de desconto.
+
+A reparação pode encerrar o dano material, mas não apaga necessariamente infração funcional, fraude ou crime. De modo inverso, a inexistência de dano final não elimina automaticamente conduta disciplinar autônoma.
 
 ## 8. Responsabilidade administrativa
 
@@ -283,6 +430,24 @@ A Lei nº 8.112/1990 declara, de modo semelhante, que o servidor federal respond
 
 Esses dispositivos ajudam a compreender a teoria, mas não definem automaticamente o regime disciplinar estadual. Para o TCE-MA, é indispensável identificar estatuto, regulamentos internos, competências e procedimentos efetivamente aplicáveis.
 
+### 8.4 Verificação preliminar e processo sancionador
+
+A verificação preliminar pode localizar o bem, corrigir cadastro, preservar evidências e definir se há justa causa para procedimento formal. Ela não deve:
+
+- aplicar penalidade;
+- constituir débito definitivo sem defesa;
+- constranger o servidor a admitir culpa;
+- substituir sindicância ou processo exigido pela lei;
+- impedir acesso aos elementos usados na decisão.
+
+A autoridade deve separar três decisões:
+
+1. **saneamento patrimonial:** onde está o bem e como corrigir registros;
+2. **reparação:** existe dano, quem o causou e qual o valor;
+3. **disciplina:** houve violação funcional e qual consequência é proporcional.
+
+Misturar essas decisões favorece presunções e dificulta a defesa.
+
 ## 9. Esferas que podem coexistir
 
 Um mesmo fato pode produzir consequências em esferas distintas:
@@ -309,6 +474,21 @@ Débito perante o controle externo não é sinônimo de penalidade disciplinar. 
 Após a Lei nº 14.230/2021, a Lei nº 8.429/1992 exige conduta dolosa tipificada nos arts. 9º, 10 ou 11. Mera ilegalidade, erro, culpa ou perda patrimonial não bastam, por si sós, para caracterizar improbidade.
 
 Isso não elimina possível responsabilidade civil, disciplinar, financeira ou contratual. Significa apenas que a categoria mais grave de improbidade tem requisitos próprios e não deve ser usada como rótulo genérico.
+
+### 9.3 Repercussão entre as instâncias
+
+A independência das esferas não é isolamento absoluto.
+
+- absolvição penal por inexistência do fato ou negativa de autoria repercute sobre apurações baseadas nos mesmos pontos;
+- absolvição por insuficiência de provas não elimina automaticamente a responsabilidade administrativa;
+- ressarcimento não impede multa ou sanção quando os pressupostos forem distintos;
+- multa não substitui recomposição do dano;
+- débito de controle externo não é pena disciplinar;
+- responsabilização contratual do fornecedor não exclui falha de fiscalização comprovada.
+
+### 9.4 Sucessores e limites patrimoniais
+
+Obrigações de natureza patrimonial podem alcançar sucessores nos limites da herança, conforme a base jurídica aplicável. Penalidades personalíssimas não se transmitem. A análise deve distinguir ressarcimento, multa, sanção disciplinar e consequência penal.
 
 ## 10. Apuração de desaparecimento, dano ou uso indevido
 
@@ -357,6 +537,32 @@ Prova digital exige autenticidade, integridade e contexto. Captura isolada ou pl
 
 Registrar ocorrência policial é medida relevante quando há indício de crime, mas não prova automaticamente ausência de culpa administrativa nem responsabilidade do signatário da carga.
 
+### 10.3 Bens de pequeno valor e apuração simplificada
+
+A IN SEDAP nº 205/1988, como referência federal, admite solução simplificada em certas ocorrências de pequeno valor, sem eliminar registro, análise e decisão. Para servidor estadual ou para o TCE-MA, deve-se verificar a norma própria antes de importar rito, limite ou competência federal.
+
+“Pequeno valor” não significa:
+
+- autorização para ocultar a ocorrência;
+- dispensa de atualização cadastral;
+- impossibilidade de responsabilização;
+- inexistência de risco de repetição;
+- irrelevância de bem com dados sensíveis.
+
+### 10.4 Cadeia de custódia da evidência
+
+Documentos e evidências devem conservar contexto:
+
+- origem;
+- data e hora;
+- responsável pela coleta;
+- integridade;
+- vínculo com o bem;
+- histórico de acesso;
+- método de avaliação.
+
+Fotografia sem identificação, captura sem metadados ou planilha editável pode apoiar a análise, mas não deve ser tratada isoladamente como prova conclusiva.
+
 ## 11. Casos aplicados
 
 ### 11.1 Notebook furtado em viagem de serviço
@@ -378,6 +584,18 @@ Apuram-se dinâmica, regras de trânsito, autorização, condições do veículo
 ### 11.5 Uso de impressora pública em atividade privada
 
 Mesmo com pequeno valor consumido, a conduta pode violar a proibição funcional de utilizar recursos materiais da repartição em atividade particular. A materialidade, habitualidade, contexto, dano e proporcionalidade devem ser apurados; pequena monta não transforma automaticamente o ato em improbidade.
+
+### 11.6 Servidor em teletrabalho com equipamento institucional
+
+Devem ser examinados termo de retirada, acessórios, endereço ou local de uso quando exigido, segurança física e lógica, atualizações, comunicação de defeito, transporte e devolução. Furto residencial não gera culpa automática; tampouco o ambiente doméstico elimina o dever de cuidado definido.
+
+### 11.7 Bem danificado durante manutenção terceirizada
+
+A ordem de serviço, o protocolo de entrega, a condição de entrada, a embalagem, o transporte, a cláusula contratual, o seguro e a fiscalização ajudam a definir a responsabilidade. A Administração deve cobrar o terceiro quando cabível e investigar eventual falha interna de entrega ou fiscalização.
+
+### 11.8 Acervo de alto valor cultural
+
+Obra rara ou peça de coleção exige identificação compatível, controle de acesso, condições ambientais, registro fotográfico e inventário especializado. O preço de aquisição pode ser incapaz de expressar o dano. A avaliação e a prevenção devem considerar singularidade e valor cultural.
 
 ## 12. Prevenção e governança
 
@@ -413,6 +631,32 @@ Controles excessivamente genéricos fracassam. Um acervo de obras raras, uma fro
 
 O indicador sinaliza risco; não substitui investigação individual nem prova culpa.
 
+### 12.2 Controles por classe de risco
+
+| Classe | Controle predominante |
+| --- | --- |
+| portátil com dados | identificação individual, criptografia, termo e rastreabilidade |
+| mobiliário comum | cadastro e inventário proporcionais ao risco |
+| frota | condutor, autorização, manutenção, telemetria e sinistro |
+| acervo raro | inventário especializado, ambiente e acesso |
+| bem de terceiro | titular, instrumento, prazo e condição |
+| bem em manutenção | protocolo, ordem de serviço e aceite de retorno |
+
+### 12.3 Indicadores não provam culpa
+
+Taxa de não localização, custo de manutenção, tempo de apuração e movimentações pendentes são sinais de risco. Devem orientar auditoria e melhoria, mas não substituem a apuração individual do fato.
+
+### 12.4 Auditoria patrimonial
+
+Um achado pode ser estruturado em:
+
+- **critério:** norma, política, termo, contrato ou procedimento;
+- **condição:** situação encontrada;
+- **causa:** razão da diferença;
+- **efeito:** dano, risco, indisponibilidade ou perda de informação;
+- **evidência:** documento, inspeção, sistema, laudo ou confirmação;
+- **encaminhamento:** saneamento, reparação, apuração ou melhoria de controle.
+
 ## 13. Pegadinhas de prova
 
 1. **Bem móvel não é necessariamente material permanente.**
@@ -440,8 +684,30 @@ O indicador sinaliza risco; não substitui investigação individual nem prova c
 - Assunto 123: avaliação, valor, baixa, alienação e desfazimento;
 - Assuntos de licitações e contratos: aquisição e responsabilidade contratual de fornecedores.
 
+## 13.1 Pegadinhas adicionais
+
+16. **Tombamento administrativo não é tombamento cultural.**
+17. **Número de série não substitui necessariamente o identificador institucional.**
+18. **Controle simplificado não significa inexistência de rastreabilidade.**
+19. **Inventário divergente pode revelar erro cadastral, e não desaparecimento.**
+20. **Boletim de ocorrência não prova, sozinho, ausência de culpa.**
+21. **Depreciação contábil não elimina a existência física nem todo dano.**
+22. **Bem em manutenção continua sujeito a controle e conciliação.**
+23. **Falha organizacional pode concorrer com conduta individual.**
+24. **Pequeno valor não autoriza omissão da ocorrência.**
+25. **Reposição aceita deve observar equivalência e competência.**
+
 ## Referências
 
+- BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Arts. 5º, LIV e LV; 37, § 6º; 70, parágrafo único; 71 e 75.
+- BRASIL. [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm). Arts. 15, § 2º, 94, 95 e 96.
+- BRASIL. [Lei nº 8.112, de 11 de dezembro de 1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm). Referência comparativa federal, especialmente arts. 116, 117 e 121 a 126.
+- BRASIL. [Lei nº 8.429, de 2 de junho de 1992](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm). Lei de Improbidade Administrativa após a Lei nº 14.230/2021.
+- BRASIL. [Lei nº 10.406, de 10 de janeiro de 2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm). Código Civil, especialmente arts. 82 a 84, 186, 927 e 43.
+- BRASIL. Secretaria de Administração Pública. [Instrução Normativa SEDAP nº 205, de 8 de abril de 1988](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-205-de-08-de-abril-de-1988). Referência operacional do SISG federal.
+- BRASIL. Secretaria do Tesouro Nacional. [Manual de Contabilidade Aplicada ao Setor Público](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/mcasp). Classificação, reconhecimento e mensuração patrimonial.
+- MARANHÃO. [Lei Estadual nº 6.107, de 27 de julho de 1994](https://www.tjma.jus.br/legislacao/tj/geral/434126/171/lib). Estatuto dos Servidores Públicos Civis do Estado, especialmente arts. 209 a 220-A e 234 a 265.
+- SUPREMO TRIBUNAL FEDERAL. [Tema 940 da repercussão geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4163644&numeroProcesso=1027633&classeProcesso=RE&numeroTema=940). Responsabilidade por dano causado por agente público nessa qualidade e direito de regresso.
 - BRASIL. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Arts. 5º, LIV e LV; 37, § 6º; 70, parágrafo único; 71 e 75. Texto compilado. Acesso em: 16 jul. 2026.
 - BRASIL. [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm). Estatui normas gerais de direito financeiro; arts. 15, § 2º, 94, 95 e 96. Texto vigente. Acesso em: 16 jul. 2026.
 - BRASIL. [Lei nº 8.112, de 11 de dezembro de 1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm). Regime jurídico dos servidores públicos civis federais; referência comparativa, especialmente arts. 116, 117 e 121 a 126. Texto compilado. Acesso em: 16 jul. 2026.

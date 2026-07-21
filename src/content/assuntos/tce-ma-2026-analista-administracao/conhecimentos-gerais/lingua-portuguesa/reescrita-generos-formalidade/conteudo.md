@@ -161,7 +161,25 @@ As versões preservam fechamento, data, horário, motivo e consequência, mas aj
 
 `A medida pode reduzir custos` não equivale a `A medida reduzirá custos`. `A equipe avalia a proposta` não equivale a `A equipe aprovou a proposta`.
 
-### 5.3 O que pode mudar de forma controlada
+### 5.3 Matriz de invariantes
+
+Antes de aceitar uma reescrita, compare estas dimensões:
+
+| Dimensão | Pergunta de controle | Alteração indevida típica |
+|---|---|---|
+| fonte | quem afirmou continua sendo o mesmo? | criar `segundo o órgão` sem fonte na base |
+| modalidade | certeza, possibilidade, obrigação e recomendação foram preservadas? | `pode ocorrer` → `ocorrerá` |
+| agente | quem pratica ou sofre a ação continua igual? | trocar a comissão pelo servidor |
+| tempo e quantidade | datas, prazos, frequência e alcance permaneceram? | `até 30 de agosto` → `em agosto` |
+| relação lógica | causa, condição, concessão e conclusão continuam sustentadas? | inserir `portanto` sem conclusão |
+| polaridade | afirmação, negação e restrição foram mantidas? | `nem sempre` → `quase nunca` |
+| atribuição avaliativa | opinião e previsão continuam atribuídas? | transformar avaliação alheia em fato do redator |
+| dêixis | o novo leitor localiza tempo, espaço e participantes? | manter `amanhã` em documento permanente sem data |
+
+A preservação não exige repetir as mesmas palavras. Exige conservar o conteúdo e as relações que tornam a informação verdadeira no novo contexto.
+
+
+### 5.4 O que pode mudar de forma controlada
 
 - ordem de apresentação;
 - grau de explicitação;
@@ -180,9 +198,13 @@ Base oral:
 
 `Oi, gente. Então, amanhã vai ficar sem sistema um tempinho, tá? Acho que de duas até umas quatro. Depois a gente avisa.`
 
-Uma reescrita segura não deve conservar a incerteza como horário oficial sem confirmação. Se os dados forem confirmados:
+Uma reescrita segura não deve converter a estimativa em horário oficial sem confirmação. Se os dados forem confirmados e a mensagem circular no mesmo contexto temporal:
 
 `O sistema ficará indisponível amanhã, das 14h às 16h. A normalização será comunicada neste canal.`
+
+Em aviso persistente, processo ou página que poderá ser lida depois, ancore a dêixis:
+
+`O sistema ficará indisponível em 21 de julho de 2026, das 14h às 16h. A normalização será comunicada neste canal.`
 
 Mudanças realizadas:
 
@@ -190,7 +212,8 @@ Mudanças realizadas:
 - explicitação do sujeito;
 - substituição de expressão vaga por intervalo;
 - ajuste de pessoa e tom;
-- indicação do canal de atualização.
+- indicação do canal de atualização;
+- troca de `amanhã` por data absoluta quando o suporte não preserva o contexto.
 
 Se o horário continuar estimado, preserve a modalidade: `A previsão é de indisponibilidade entre 14h e 16h.`
 
@@ -231,19 +254,46 @@ O injuntivo transforma informação em ação explícita. Devem permanecer prazo
 
 Imperativo não é automaticamente descortês. Em instruções, ele pode ser a forma mais clara: `Clique em Enviar`. A cortesia decorre do conjunto, não de evitar todo comando direto.
 
+### 8.1 Exemplo integrado: mensagem informal para registro
+
+Base:
+
+`Pessoal, parece que a bomba parou de novo depois do almoço. O João viu e chamou a manutenção.`
+
+Registro seguro, após confirmar os dados:
+
+`Após as 13h, João identificou nova paralisação da bomba e acionou a equipe de manutenção.`
+
+A versão elimina a saudação, explicita o agente, substitui `depois do almoço` por referência temporal controlada e mantém a ideia de recorrência em `nova paralisação`. Se a paralisação ainda não estiver confirmada, preserve `há indício de` ou `foi relatada possível paralisação`.
+
+### 8.2 Exemplo integrado: nota técnica para aviso ao usuário
+
+Base técnica:
+
+`A autenticação ficará temporariamente indisponível em razão da atualização do módulo de gestão de identidades, sem impacto sobre sessões já iniciadas.`
+
+Aviso:
+
+`Das 18h às 19h, não será possível iniciar nova sessão no sistema devido a uma atualização. Sessões já abertas continuarão funcionando.`
+
+A mudança reorganiza a informação pela necessidade do usuário, explica o efeito operacional e conserva a ressalva sobre sessões em andamento.
+
+
 ---
 
 ## 9. Da opinião para a notícia ou o relatório
 
-Base opinativa:
+Base opinativa atribuída:
 
-`A excelente medida finalmente resolverá o grave problema.`
+`Segundo o órgão, a excelente medida finalmente resolverá o grave problema.`
 
 Versão informativa:
 
-`Segundo o órgão, a medida busca reduzir o problema.`
+`O órgão afirmou que a medida resolverá o problema.`
 
-Foram removidos avaliação positiva e certeza prospectiva; a finalidade foi atribuída à fonte. Se houver evidência independente, ela deve ser descrita, não substituída por adjetivo laudatório.
+Foram removidos os adjetivos avaliativos, mas a fonte e o grau de certeza da declaração permaneceram. A reescrita não apresenta a previsão como fato independente: registra o que o órgão afirmou.
+
+Se a base não trouxer fonte externa, não a invente. Para `A excelente medida finalmente resolverá o grave problema`, uma versão segura é `O autor avalia que a medida resolverá o problema` — desde que o contexto permita identificar esse enunciador.
 
 Em relatório, separe:
 
@@ -251,37 +301,17 @@ Em relatório, separe:
 - interpretação;
 - recomendação;
 - fonte e limite da evidência.
-
 ---
 
-## 10. Comunicação oficial
+## 10. Comunicação institucional como aplicação
 
-### 10.1 Atributos
+Avisos, e-mails, registros e relatórios institucionais permitem aplicar este assunto, mas o foco aqui é a adequação global do texto, não a memorização de formatos de correspondência oficial.
 
-O Manual de Redação da Presidência da República associa a redação oficial a clareza, precisão, objetividade, concisão, coesão, coerência, impessoalidade, formalidade e padronização, além do uso da norma-padrão.
+Clareza, precisão, objetividade, concisão, coesão, coerência, impessoalidade, formalidade, padronização e norma-padrão são controles úteis. Concisão não é mutilação, e impessoalidade não exige voz passiva nem apagamento do agente: `A comissão aprovou o relatório` pode ser mais claro que `O relatório foi aprovado`.
 
-- **clareza:** compreensão imediata;
-- **precisão:** palavra com alcance controlado;
-- **objetividade:** foco na finalidade;
-- **concisão:** máximo de informação necessária, sem redundância;
-- **impessoalidade:** comunicação em nome do serviço público, sem promoção pessoal;
-- **formalidade:** tratamento respeitoso e observância das convenções aplicáveis;
-- **padronização:** consistência de forma e identificação.
+Regras específicas de tratamento, endereçamento ou formato só devem ser aplicadas quando o comando, o órgão ou a norma pertinente as tornar relevantes. Uma regra federal de tratamento não pode ser universalizada para outros Poderes, tribunais de contas, entes federativos ou relações privadas.
 
-Concisão não é mutilação. Excluir condição necessária, fundamento ou prazo prejudica a comunicação.
-
-### 10.2 Impessoalidade
-
-Impessoalidade não obriga apagar todo agente nem usar passiva. Muitas vezes, `A comissão aprovou o relatório` é mais claro que `O relatório foi aprovado`. O que se evita é personalismo, intimidade indevida e juízo sem função administrativa.
-
-### 10.3 Pronomes de tratamento: regra com âmbito
-
-O Decreto nº 9.758/2019 estabelece `senhor`, flexionado em gênero e número, como pronome de tratamento na comunicação com agentes públicos da administração pública federal abrangidos pelo decreto. Veda, nesse âmbito, formas como `Vossa Excelência`, `Vossa Senhoria` e `doutor` como tratamento.
-
-A regra não deve ser universalizada. O próprio decreto exclui comunicações com autoridades estrangeiras ou organismos internacionais e prevê exceção para agentes dos demais Poderes, tribunais de contas, defensorias, ministérios públicos e outros entes federativos quando norma aplicável exigir tratamento especial.
-
-O endereçamento, em regra, identifica cargo ou função e setor, sem pronome ou nome; o nome pode aparecer quando necessário para identificar o destinatário ou quando a correspondência se dirige a pessoa específica.
-
+Em prova de reescrita, a pergunta principal continua sendo: a versão preserva fatos, atribuições e força do ato comunicativo e, ao mesmo tempo, funciona no gênero e no nível de formalidade solicitados?
 ---
 
 ## 11. Coesão, coerência e progressão
@@ -421,7 +451,7 @@ O destinatário sabe o que ocorreu, o que precisa fazer, até quando, onde obter
 | intervenção no subsistema de alimentação ininterrupta | manutenção do sistema que mantém a alimentação elétrica durante interrupções (nobreak) | simplifica e preserva o referente técnico |
 | a equipe recomenda revisar | a revisão é obrigatória | muda recomendação para obrigação |
 | o diretor disse: “enviarei hoje” | o diretor disse que enviaria naquele dia | ajusta pessoa, tempo e dêixis |
-| excelente medida resolverá | segundo o órgão, a medida busca reduzir | separa avaliação e atribui finalidade |
+| segundo o órgão, a excelente medida resolverá | o órgão afirmou que a medida resolverá | remove avaliação e preserva fonte e certeza atribuída |
 | mensagem a colega | relatório técnico | exige reconstrução de gênero, não mera troca lexical |
 | texto formal com períodos longos | texto claro e direto | formalidade pode aumentar com concisão |
 
@@ -437,12 +467,13 @@ O destinatário sabe o que ocorreu, o que precisa fazer, até quando, onde obter
 6. Converter possibilidade em certeza.
 7. Manter jargão para público não especializado sem explicação.
 8. Inserir intimidade, gíria ou emoji em canal incompatível.
-9. Transformar opinião em fato.
+9. Transformar opinião em fato ou inventar fonte para legitimá-la.
 10. Usar passiva apenas para parecer formal.
 11. Universalizar regra de tratamento com âmbito específico.
 12. Tornar o texto tão conciso que a ação esperada desapareça.
 13. Alterar referente, conector ou escopo durante a adaptação.
 14. Ignorar modelo institucional obrigatório.
+15. Manter `amanhã`, `aqui` ou `isso` quando o novo suporte não conserva o contexto.
 
 ---
 
@@ -458,5 +489,5 @@ O destinatário sabe o que ocorreu, o que precisa fazer, até quando, onde obter
 - CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. [Edital nº 1 - TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Programa de Língua Portuguesa do Cargo 1, item 6.4. Acesso em 18 jul. 2026.
 - CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. [CAESB 2024 - caderno CG3 com justificativas](https://cdn.cebraspe.org.br/concursos/caesb_24/arquivos/MATRIZ_039_CAESB_CG3_00_Com%20Justificativas_OK.pdf). Questões sobre gênero informativo, referência, modalidade e preservação de sentido. Acesso em 18 jul. 2026.
 - CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. [PCDF 2024 - caderno CB1 com justificativas](https://cdn.cebraspe.org.br/concursos/pc_df_24_adm/arquivos/022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF). Itens sobre reescrita, registro, referência, conectores e coerência. Acesso em 18 jul. 2026.
-- PRESIDÊNCIA DA REPÚBLICA. [Manual de Redação da Presidência da República](https://www.gov.br/cidades/pt-br/midia/documentos/pdf/manualderedacao.pdf). 3. ed.; atributos da redação oficial, linguagem, tratamento e comunicações. Acesso em 18 jul. 2026.
+- PRESIDÊNCIA DA REPÚBLICA. [Manual de Redação da Presidência da República](https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica). 3. ed.; atributos da redação oficial, linguagem, tratamento e comunicações. Acesso em 18 jul. 2026.
 - BRASIL. [Decreto nº 9.758, de 11 de abril de 2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9758.htm). Forma de tratamento e endereçamento nas comunicações com agentes públicos da administração pública federal. Texto publicado no DOU de 11 abr. 2019; vigência desde 1º maio 2019. Acesso em 18 jul. 2026.

@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Sustentabilidade pública
-description: Fundamentos, dimensões, governança, planejamento, logística, contratações, consumo, resíduos, clima e controle da sustentabilidade na Administração Pública.
+description: Sustentabilidade pública com governança, indicadores, contratações, resíduos, clima, equidade, auditoria e controle externo.
 order: 113
 storageId: sustentabilidade-publica
 ---
@@ -46,6 +46,24 @@ Decisões sustentáveis examinam conexões e efeitos indiretos:
 - teletrabalho pode reduzir deslocamentos e área ocupada, mas requer avaliar serviço, inclusão digital, saúde e consumo transferido aos trabalhadores.
 
 Não existe prática sustentável por natureza e em qualquer contexto. O diagnóstico deve comparar alternativas, riscos e impactos relevantes.
+
+
+<!-- REVISAO-SUSTENTABILIDADE-2026 -->
+
+### 2.2 Efeito rebote e deslocamento de impacto
+
+A melhoria de eficiência não prova, por si só, redução absoluta do impacto. O **efeito rebote** ocorre quando a economia por unidade é parcial ou totalmente compensada pelo aumento do uso. Também pode haver simples transferência do impacto:
+
+- para outro período;
+- para outro território;
+- para fornecedores ou trabalhadores;
+- da operação própria para serviço terceirizado;
+- do papel para energia, equipamentos e armazenamento;
+- da sede para residências no teletrabalho.
+
+Exemplo: um equipamento consome 20% menos energia por hora, mas passa a operar 40% mais tempo. A intensidade melhorou; o consumo total pode ter aumentado.
+
+> **Regra de prova:** compare simultaneamente valores absolutos, indicadores de intensidade, volume de atividade e fronteiras do sistema. Terceirizar uma emissão não equivale a eliminá-la.
 
 ## 3. Dimensões da sustentabilidade
 
@@ -128,6 +146,26 @@ Riscos comuns incluem:
 - iniciativa que diminui impacto ambiental e amplia exclusão social.
 
 A resposta deve ser proporcional: prevenção, especificação objetiva, verificação, fiscalização, plano de contingência, transparência e revisão.
+
+
+### 5.3 Sustentabilidade em Tribunais de Contas
+
+Para um Tribunal de Contas, sustentabilidade possui pelo menos três planos:
+
+1. **gestão interna:** edifícios, energia, água, mobilidade, pessoas, compras, resíduos e continuidade;
+2. **governança institucional:** política, responsabilidades, indicadores, riscos, integridade e prestação de contas;
+3. **controle externo:** fiscalização da legalidade, da economicidade, da efetividade e da confiabilidade de políticas, contratos, metas e alegações sustentáveis.
+
+O Tribunal de Contas da União possui política e programa próprios de sustentabilidade. Eles são referências técnicas relevantes, mas não vinculam automaticamente o TCE/MA. O mesmo cuidado vale para a Resolução CNJ nº 400/2021: ela rege o Poder Judiciário, e Tribunal de Contas não integra esse Poder.
+
+| Referência | Alcance principal |
+| --- | --- |
+| política e programa do TCU | Tribunal de Contas da União |
+| Resolução CNJ nº 400/2021 | órgãos do Poder Judiciário |
+| normas federais de logística | sujeitos expressamente indicados em cada ato |
+| atos do TCE/MA | âmbito institucional definido na norma própria |
+
+A primeira pergunta em prova deve ser: **quem é o destinatário jurídico do ato?**
 
 ## 6. Indicadores de sustentabilidade
 
@@ -227,6 +265,20 @@ O Judiciário possui unidade de sustentabilidade permanente e comissão gestora 
 
 > **Pegadinha institucional:** Tribunal de Contas exerce controle externo e não integra o Poder Judiciário. A Resolução CNJ nº 400/2021 não vincula automaticamente um TCE; pode servir como referência técnica, salvo ato próprio, adesão ou norma aplicável.
 
+
+### 8.3 Referências institucionais e limites de aplicação
+
+A existência de modelo nacional ou federal não autoriza transportar automaticamente obrigações entre Poderes e entes. Ao analisar PLS, metas climáticas ou relatórios, identifique:
+
+1. órgão emissor;
+2. destinatários expressos;
+3. natureza obrigatória, orientativa ou voluntária;
+4. vigência e texto consolidado;
+5. eventual adesão ou ato interno;
+6. relação com normas gerais de contratação, orçamento e ambiente.
+
+O programa de sustentabilidade do TCU pode orientar boas práticas em Tribunais de Contas estaduais, mas a obrigatoriedade para o TCE/MA depende de fundamento aplicável ao próprio órgão.
+
 ## 9. Contratações públicas sustentáveis
 
 A contratação sustentável usa o poder de compra para atender a necessidade pública e considerar impactos econômicos, sociais e ambientais pertinentes ao objeto. Não se limita a adquirir um produto rotulado como ecológico.
@@ -264,6 +316,23 @@ Exemplos possíveis, conforme o objeto: eficiência energética, consumo de águ
 
 Certificação pode ser meio de prova quando juridicamente e tecnicamente adequada. Não se deve exigir marca ou selo específico sem aceitar prova equivalente quando cabível, nem usar declaração vaga sem mecanismo de verificação.
 
+
+### 9.3 Preço, custo total e avaliação do ciclo de vida
+
+Conceitos próximos não são equivalentes:
+
+| Conceito | Núcleo da análise |
+| --- | --- |
+| **preço de aquisição** | desembolso inicial |
+| **custo total de propriedade** | aquisição, operação, manutenção, indisponibilidade e descarte, conforme a fronteira adotada |
+| **custeio do ciclo de vida** | fluxos monetários relevantes durante o período definido |
+| **avaliação do ciclo de vida** | inventário e avaliação de impactos ambientais segundo objetivo, escopo, dados e método |
+| **impacto social da cadeia** | trabalho, direitos, equidade e distribuição de efeitos |
+
+A avaliação ambiental do ciclo de vida não se reduz ao preço nem à conta financeira. De modo inverso, o menor impacto ambiental isolado não torna uma proposta automaticamente vantajosa: a decisão ainda deve observar necessidade, desempenho, legalidade, competição, custo, riscos e capacidade de fiscalização.
+
+> **Teste:** o edital definiu fronteira, período, premissas, fontes e forma de comprovação? Sem método comparável, a expressão “menor ciclo de vida” pode ser apenas retórica.
+
 ## 10. Estratégia Nacional de Contratações Públicas para o Desenvolvimento Sustentável
 
 O Decreto nº 12.771/2025 instituiu a **ENCP**, destinada a articular e orientar o poder de compra estatal para ampliar capacidades produtivas e tecnológicas nacionais e promover desenvolvimento sustentável, justo e soberano.
@@ -280,6 +349,22 @@ Seus quatro eixos são:
 São instrumentos de execução o plano de ação, os planos de contratações anuais, os PLS federais e, quando aplicável, a Taxonomia Sustentável Brasileira.
 
 Os deveres de adequação dos planos previstos nos arts. 6º a 8º dirigem-se diretamente à Administração federal direta, autárquica e fundacional. Estados, Distrito Federal, municípios e empresas estatais **podem aderir** nos termos de ato do MGI. “Nacional” não significa aplicação obrigatória idêntica e automática a todos os entes.
+
+
+### 10.1 Taxonomia Sustentável Brasileira
+
+A Taxonomia Sustentável Brasileira é um **sistema de classificação** de atividades, ativos e projetos que contribuem para objetivos climáticos, ambientais e sociais conforme critérios técnicos. Ela pode apoiar planejamento, financiamento, transparência e, quando aplicável, instrumentos da Estratégia Nacional de Contratações Públicas para o Desenvolvimento Sustentável.
+
+Não se deve confundi-la com:
+
+- selo automático de produto ou fornecedor;
+- certificação universal;
+- autorização para restringir competição sem motivação;
+- substituição da Lei nº 14.133/2021;
+- requisito obrigatório em toda contratação;
+- prova suficiente de execução contratual.
+
+O enquadramento taxonômico depende dos critérios vigentes e das salvaguardas aplicáveis. A classificação pode ser atualizada e não elimina a análise concreta do objeto, da proporcionalidade, da vantajosidade e da evidência.
 
 ## 11. Consumo racional e instalações
 
@@ -353,6 +438,21 @@ A economia linear segue “extrair, produzir, usar e descartar”. A economia ci
 
 Circularidade não elimina todo resíduo e não torna qualquer reciclagem automaticamente viável. Deve-se avaliar segurança, qualidade, escala, rastreabilidade e impactos do processo.
 
+
+### 12.5 Programa Coleta Seletiva Cidadã
+
+No âmbito federal definido pelo Decreto nº 10.936/2022, o Programa Coleta Seletiva Cidadã organiza a separação de resíduos reutilizáveis e recicláveis e sua destinação prioritária a associações e cooperativas de catadores habilitadas, mediante procedimento de seleção e termo de compromisso.
+
+| Instrumento | Função predominante |
+| --- | --- |
+| **coleta seletiva** | separar e coletar resíduos conforme constituição ou composição |
+| **Coleta Seletiva Cidadã** | programa federal com destinação prioritária a organizações de catadores habilitadas |
+| **logística reversa** | restituir produtos e resíduos ao setor empresarial |
+| **contrato de serviço** | relação onerosa disciplinada pelo instrumento aplicável |
+| **termo de compromisso** | organizar a coleta pela associação ou cooperativa selecionada |
+
+O programa federal não vincula automaticamente o TCE/MA, mas oferece referência de governança. A destinação precisa de pesagem, recibos, rastreabilidade, segurança e comprovação; a simples existência de lixeiras coloridas não demonstra resultado.
+
 ## 13. Clima, emissões e resiliência
 
 A gestão climática pública combina:
@@ -369,6 +469,37 @@ Medidas possíveis incluem eficiência energética, energia de menor emissão, g
 
 A Resolução CNJ nº 400/2021 determina ao **Poder Judiciário** inventário, redução e compensação para alcançar neutralidade de carbono até 2030, conforme o Programa Justiça Carbono Zero. Essa meta específica não pode ser generalizada como obrigação idêntica de toda a Administração.
 
+
+### 13.1 Limites de inventários de emissões
+
+Um inventário confiável define:
+
+- organização, unidades e operações incluídas;
+- período de referência;
+- emissões diretas;
+- emissões associadas à energia adquirida;
+- emissões relevantes da cadeia de valor;
+- fatores de emissão e qualidade dos dados;
+- hipóteses, incertezas e mudanças metodológicas;
+- regras para evitar dupla contagem.
+
+A terceirização pode reduzir emissões diretas registradas e aumentar as emissões da cadeia. Por isso, comparar inventários exige a mesma fronteira ou reconciliação transparente.
+
+### 13.2 Adaptação climática como processo de gestão
+
+A adaptação não é lista genérica de obras. Ela integra risco climático ao planejamento, à continuidade e aos investimentos:
+
+| Elemento | Pergunta |
+| --- | --- |
+| **perigo** | qual evento climático pode ocorrer? |
+| **exposição** | quais pessoas, ativos e serviços estão sujeitos? |
+| **vulnerabilidade** | por que podem sofrer dano? |
+| **risco** | qual a combinação entre probabilidade e consequência? |
+| **medida de adaptação** | o que reduz exposição ou vulnerabilidade? |
+| **risco residual** | o que permanece depois da resposta? |
+
+Em um tribunal sujeito a alagamentos, a análise pode abranger acesso do público, arquivos, datacenter, energia, sessões, trabalho remoto, fornecedores, recuperação e comunicação de crise. Instalar um equipamento isolado não substitui o plano de continuidade.
+
 ## 14. Dimensão social
 
 Sustentabilidade social abrange:
@@ -383,6 +514,21 @@ Sustentabilidade social abrange:
 Uma medida ambiental pode ser socialmente regressiva. Encerrar canal presencial, por exemplo, pode reduzir deslocamentos da organização e excluir usuários. O desenho deve combinar canais, avaliar grupos afetados e mitigar barreiras.
 
 A acessibilidade integra a dimensão social, mas suas normas, desenho universal, barreiras e recursos serão aprofundados no Assunto 114.
+
+
+### 14.1 Transição justa e justiça climática
+
+A sustentabilidade social pergunta **quem recebe os benefícios e quem suporta custos, riscos e restrições**. Uma transição é mais justa quando antecipa impactos distributivos e protege grupos vulneráveis, trabalhadores e territórios afetados.
+
+Exemplos de risco:
+
+- encerrar atendimento presencial sem alternativa acessível;
+- impor custo ambiental regressivo a usuários de baixa renda;
+- substituir tecnologia sem capacitar trabalhadores;
+- fechar atividade poluente sem estratégia para emprego e território;
+- concentrar adaptação climática apenas em áreas mais favorecidas.
+
+Equidade não significa resultado idêntico para todos. Significa identificar barreiras e efeitos diferenciados, justificar prioridades e acompanhar resultados por grupos relevantes.
 
 ## 15. Transparência, controle e greenwashing
 
@@ -409,6 +555,28 @@ Controles úteis:
 7. correção de desvios e responsabilização quando cabível.
 
 Transparência não é apenas publicar quantidade de páginas. A informação deve permitir entender o que foi medido, como, quando, por quem e com quais limitações.
+
+
+### 15.1 Auditoria e controle externo da sustentabilidade
+
+Uma alegação sustentável deve ser auditável. A estrutura clássica do achado ajuda a organizar a análise:
+
+| Elemento | Aplicação |
+| --- | --- |
+| **critério** | lei, regulamento, edital, contrato, meta ou padrão técnico |
+| **condição** | situação efetivamente encontrada |
+| **causa** | razão do desvio ou da deficiência |
+| **efeito** | consequência ambiental, social, econômica ou institucional |
+| **evidência** | documento, medição, inspeção, base de dados ou confirmação externa |
+
+Exemplo:
+
+- critério: o contrato exige logística reversa comprovada;
+- condição: a contratada entregou somente declaração genérica;
+- causa: fiscalização sem procedimento e sem documento-padrão;
+- efeito: risco de descarte irregular e pagamento por obrigação não demonstrada.
+
+A recomendação deve atacar a causa, ser proporcional ao risco e preservar a competência do gestor. O controle não escolhe livremente a política no lugar da Administração; verifica legalidade, motivação, governança, evidência e desempenho.
 
 ## 16. Caso integrado
 
@@ -473,6 +641,16 @@ Para evitar repetição:
 - saúde, qualidade de vida, diversidade e gestão de pessoas serão retomadas nos Assuntos 142 a 153.
 
 Aqui, esses temas aparecem somente na interface necessária para compreender sustentabilidade como princípio e sistema integrado de gestão pública.
+
+
+- BRASIL. Presidência da República. [Decreto nº 10.936, de 12 de janeiro de 2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d10936.htm). Regulamenta a Política Nacional de Resíduos Sólidos e disciplina o Programa Coleta Seletiva Cidadã; texto consolidado. Acesso em: 19 jul. 2026.
+- BRASIL. Presidência da República. [Lei nº 14.904, de 27 de junho de 2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14904.htm). Diretrizes para planos de adaptação à mudança do clima. Acesso em: 19 jul. 2026.
+- BRASIL. Presidência da República. [Decreto nº 12.705, de 8 de outubro de 2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12705.htm). Institui a Taxonomia Sustentável Brasileira. Acesso em: 19 jul. 2026.
+- GHG PROTOCOL. [Corporate Standard](https://ghgprotocol.org/corporate-standard). Princípios e limites para inventários organizacionais de gases de efeito estufa. Acesso em: 19 jul. 2026.
+- INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. [ISO 14040: Environmental management — Life cycle assessment — Principles and framework](https://www.iso.org/standard/37456.html). Acesso em: 19 jul. 2026.
+- SISTEMA NACIONAL DE INFORMAÇÕES SOBRE A GESTÃO DOS RESÍDUOS SÓLIDOS. [Coleta Seletiva Cidadã](https://sinir.gov.br/informacoes/coleta_seletiva_cidada/). Requisitos, habilitação e destinação a associações e cooperativas. Acesso em: 19 jul. 2026.
+- TRIBUNAL DE CONTAS DA UNIÃO. [Sustentabilidade no TCU](https://portal.tcu.gov.br/sustentabilidade). Política, governança e Programa de Sustentabilidade 2026–2030. Acesso em: 19 jul. 2026.
+- TRIBUNAL DE CONTAS DA UNIÃO. [Manual de Auditoria Operacional](https://portal.tcu.gov.br/controle-externo/normas-e-orientacoes/normas-de-fiscalizacao/auditoria-operacional.htm). Estrutura de achados e evidências. Acesso em: 19 jul. 2026.
 
 ## Referências
 

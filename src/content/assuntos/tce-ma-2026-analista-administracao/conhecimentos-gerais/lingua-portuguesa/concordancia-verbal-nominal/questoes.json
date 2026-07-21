@@ -1,66 +1,4066 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
-    {"id":"q3399","revision":1,"prompt":"Em 'A relação dos processos pendentes foi atualizada', o verbo fica no singular porque","options":[{"id":"A","text":"todo termo preposicionado exige verbo no singular."},{"id":"B","text":"o núcleo do sujeito é o substantivo singular 'relação'."},{"id":"C","text":"o sujeito está depois do verbo."},{"id":"D","text":"o verbo 'ser' é sempre impessoal."}],"correctOptionId":"B","explanation":"O sintagma 'dos processos pendentes' especifica 'relação', que é o núcleo singular com o qual o verbo concorda. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3400","revision":1,"prompt":"Qual frase apresenta a concordância regular com sujeito composto anteposto?","options":[{"id":"A","text":"O relatório e a planilha chegou ontem."},{"id":"B","text":"O relatório e a planilha chegaria juntos."},{"id":"C","text":"O relatório e a planilha chegaram ontem."},{"id":"D","text":"O relatório e a planilha foi entregue."}],"correctOptionId":"C","explanation":"Com dois núcleos antepostos que designam entidades distintas, a regra geral põe o verbo no plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3401","revision":1,"prompt":"Sobre a frase 'Chegou o relatório e a planilha', é correto afirmar que","options":[{"id":"A","text":"a concordância com o núcleo mais próximo é admitida porque o sujeito composto está posposto."},{"id":"B","text":"o singular seria admitido somente se 'planilha' fosse retirado."},{"id":"C","text":"o verbo deveria obrigatoriamente ir à primeira pessoa do plural."},{"id":"D","text":"a frase não possui sujeito."}],"correctOptionId":"A","explanation":"Com sujeito composto posposto, são admitidos o plural e a atração pelo núcleo mais próximo. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3402","revision":1,"prompt":"A concordância adequada em 'Eu e os demais auditores ___ o processo' é","options":[{"id":"A","text":"revisou, porque o núcleo mais próximo está no plural."},{"id":"B","text":"revisastes, porque a segunda pessoa prevalece."},{"id":"C","text":"revisaram, porque todo sujeito composto exige terceira pessoa."},{"id":"D","text":"revisamos, porque a primeira pessoa prevalece no sujeito composto."}],"correctOptionId":"D","explanation":"A presença do pronome 'eu' leva o verbo à primeira pessoa do plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3403","revision":1,"prompt":"Em 'O autor e relator da proposta apresentou o voto', o singular é justificável porque","options":[{"id":"A","text":"todo sujeito iniciado por artigo é simples."},{"id":"B","text":"as duas funções podem designar a mesma pessoa, formando um único referente."},{"id":"C","text":"'proposta' é o sujeito do verbo."},{"id":"D","text":"o verbo está no pretérito."}],"correctOptionId":"B","explanation":"Um só determinante e o contexto permitem interpretar 'autor e relator' como funções acumuladas pela mesma pessoa. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3404","revision":1,"prompt":"Na frase 'Prazos, custos e riscos, tudo foi examinado', o verbo concorda com","options":[{"id":"A","text":"o primeiro item da enumeração."},{"id":"B","text":"o termo mais próximo 'riscos'."},{"id":"C","text":"o pronome singular 'tudo', que resume a enumeração."},{"id":"D","text":"um sujeito indeterminado."}],"correctOptionId":"C","explanation":"O pronome indefinido resume os núcleos anteriores e comanda a concordância no singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3405","revision":1,"prompt":"Núcleos sinônimos ou dispostos em gradação podem levar o verbo ao singular quando","options":[{"id":"A","text":"são apresentados como uma unidade de sentido."},{"id":"B","text":"estão sempre depois do verbo."},{"id":"C","text":"possuem gêneros gramaticais diferentes."},{"id":"D","text":"há necessariamente uma conjunção alternativa."}],"correctOptionId":"A","explanation":"A unidade semântica pode justificar o singular; se os fatos forem destacados como distintos, o plural é adequado. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3406","revision":1,"prompt":"Em qual alternativa o singular decorre do valor excludente de 'ou'?","options":[{"id":"A","text":"O descuido ou a fraude podem causar dano."},{"id":"B","text":"Ou ela ou eu revisaremos o processo."},{"id":"C","text":"O frio ou o calor prejudicam o equipamento."},{"id":"D","text":"O presidente ou o vice assinará o ato, mas não ambos."}],"correctOptionId":"D","explanation":"A indicação de que apenas um dos dois assinará torna a alternância exclusiva e favorece o singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3407","revision":1,"prompt":"A forma plural em 'O descuido ou a fraude podem causar dano' indica que","options":[{"id":"A","text":"a conjunção perdeu qualquer valor sintático."},{"id":"B","text":"ambos os núcleos podem realizar o fato expresso pelo verbo."},{"id":"C","text":"o sujeito está indeterminado."},{"id":"D","text":"'ou' sempre equivale a 'mas'."}],"correctOptionId":"B","explanation":"Quando a ação pode ser atribuída a todos os núcleos, 'ou' tem leitura inclusiva e o plural é adequado. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3408","revision":1,"prompt":"A forma preferida na norma-padrão para 'Nem o relatório nem as planilhas ___' é","options":[{"id":"A","text":"chegou, porque 'nem' exclui o plural."},{"id":"B","text":"chegaria, porque a coordenação elimina o sujeito."},{"id":"C","text":"chegaram, porque os dois núcleos são coordenados."},{"id":"D","text":"chegaste, porque prevalece a segunda pessoa."}],"correctOptionId":"C","explanation":"Com núcleos reais ligados por 'nem', prefere-se o verbo no plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3409","revision":1,"prompt":"A expressão 'um ou outro' leva normalmente o verbo","options":[{"id":"A","text":"ao singular, como em 'Um ou outro candidato faltou'."},{"id":"B","text":"à primeira pessoa do plural."},{"id":"C","text":"obrigatoriamente ao plural."},{"id":"D","text":"ao infinitivo impessoal."}],"correctOptionId":"A","explanation":"A expressão distributiva 'um ou outro' é normalmente tratada como singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3410","revision":1,"prompt":"Em 'O presidente, com os conselheiros, aprovou a minuta', o singular mostra que","options":[{"id":"A","text":"'conselheiros' é objeto direto."},{"id":"B","text":"a preposição transforma o verbo em impessoal."},{"id":"C","text":"todo termo entre vírgulas deixa de ter sentido."},{"id":"D","text":"o presidente é realçado como sujeito, e o segmento intercalado indica companhia."}],"correctOptionId":"D","explanation":"As vírgulas e o sentido parentético fazem o verbo concordar com 'o presidente'; sem esse destaque, 'com' pode ter valor aditivo e admitir plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3411","revision":1,"prompt":"A concordância adequada com coletivo simples ocorre em","options":[{"id":"A","text":"A equipe decidiram pelo adiamento."},{"id":"B","text":"A equipe decidiu pelo adiamento."},{"id":"C","text":"A equipe decidistes pelo adiamento."},{"id":"D","text":"A equipe decidirmos pelo adiamento."}],"correctOptionId":"B","explanation":"O núcleo coletivo 'equipe' está no singular e, sem construção especial, exige verbo no singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3412","revision":1,"prompt":"Quanto às frases 'A maioria dos candidatos foi aprovada' e 'A maioria dos candidatos foram aprovados',","options":[{"id":"A","text":"somente a segunda respeita a norma-padrão."},{"id":"B","text":"somente a primeira respeita a norma-padrão."},{"id":"C","text":"ambas são admitidas: uma concorda com o partitivo, e a outra, por atração, com o especificador plural."},{"id":"D","text":"ambas são inadequadas porque 'maioria' exige verbo impessoal."}],"correctOptionId":"C","explanation":"Expressões partitivas seguidas de nome plural admitem concordância com o núcleo partitivo ou com o especificador. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3413","revision":1,"prompt":"Qual frase concorda o verbo com o numeral de uma quantidade aproximada?","options":[{"id":"A","text":"Cerca de cinquenta servidores compareceram."},{"id":"B","text":"Cerca de cinquenta servidores compareceu."},{"id":"C","text":"Menos de dois candidatos faltou."},{"id":"D","text":"Perto de cem processos foi revisto."}],"correctOptionId":"A","explanation":"Com 'cerca de' e numeral plural, o verbo acompanha normalmente o numeral. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3414","revision":1,"prompt":"A construção regular com 'mais de um' é","options":[{"id":"A","text":"Mais de um servidor faltaram."},{"id":"B","text":"Mais de um servidor faltastes."},{"id":"C","text":"Mais de um servidor faltarão."},{"id":"D","text":"Mais de um servidor faltou."}],"correctOptionId":"D","explanation":"Apesar da ideia quantitativa, a expressão 'mais de um' normalmente leva o verbo ao singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3415","revision":1,"prompt":"O plural em 'Mais de um gestor se acusaram mutuamente' decorre","options":[{"id":"A","text":"da impessoalidade do verbo."},{"id":"B","text":"da ideia de reciprocidade entre os gestores."},{"id":"C","text":"da presença obrigatória de sujeito oculto."},{"id":"D","text":"do valor temporal de 'mais'."}],"correctOptionId":"B","explanation":"Reciprocidade é uma das situações que afastam o singular normalmente exigido por 'mais de um'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3416","revision":1,"prompt":"Segundo a orientação tradicional mais segura para frações, a forma adequada é","options":[{"id":"A","text":"Um terço dos processos foram arquivados, obrigatoriamente."},{"id":"B","text":"Dois terços dos processos foi arquivado."},{"id":"C","text":"Dois terços dos processos foram arquivados."},{"id":"D","text":"Um terço dos processos arquivaram."}],"correctOptionId":"C","explanation":"A concordância transparente acompanha o numerador: 'um terço foi'; 'dois terços foram'. Algumas construções admitem atração, por isso se evita absolutizar sem contexto. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3417","revision":1,"prompt":"Sem nome especificador, a concordância adequada é","options":[{"id":"A","text":"1% faltou e 30% faltaram."},{"id":"B","text":"1% faltaram e 30% faltou."},{"id":"C","text":"1% e 30% faltou em qualquer contexto."},{"id":"D","text":"percentuais nunca controlam a concordância."}],"correctOptionId":"A","explanation":"Quando isolado, o percentual leva o verbo a acompanhar o número: singular com 1% e plural com 30%. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3418","revision":1,"prompt":"Na concordância de percentual acompanhado de especificador, deve-se considerar que","options":[{"id":"A","text":"o verbo fica sempre no singular."},{"id":"B","text":"o especificador jamais interfere."},{"id":"C","text":"todo percentual exige verbo impessoal."},{"id":"D","text":"o número e o nome especificador podem orientar a concordância, havendo variantes em certas estruturas."}],"correctOptionId":"D","explanation":"Construções como '1% dos eleitores faltou/faltaram' mostram que a forma não pode ser julgada por regra única sem observar a estrutura. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3419","revision":1,"prompt":"Em 'Fomos nós que redigimos o parecer', o verbo da oração relativa concorda com","options":[{"id":"A","text":"o substantivo singular 'parecer'."},{"id":"B","text":"o antecedente 'nós' do pronome relativo 'que'."},{"id":"C","text":"um sujeito indeterminado."},{"id":"D","text":"o verbo da oração principal por atração impessoal."}],"correctOptionId":"B","explanation":"Quando 'que' exerce a função de sujeito, o verbo concorda com o antecedente do pronome relativo. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3420","revision":1,"prompt":"Sobre 'Fui eu quem redigiu o parecer' e 'Fui eu quem redigi o parecer', é correto afirmar que","options":[{"id":"A","text":"as duas são incorretas."},{"id":"B","text":"somente a concordância com 'eu' é admitida."},{"id":"C","text":"a terceira pessoa do singular e a concordância com o antecedente são admitidas."},{"id":"D","text":"somente a terceira pessoa é possível em qualquer variedade formal."}],"correctOptionId":"C","explanation":"Com o relativo 'quem', a construção regular usa a terceira pessoa, mas a concordância com o antecedente também é documentada. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3421","revision":1,"prompt":"A forma preferida em redação formal é 'Ela foi uma das servidoras que ___ da auditoria' com","options":[{"id":"A","text":"participaram, pois o relativo retoma o conjunto das servidoras."},{"id":"B","text":"participou, única forma reconhecida pelas gramáticas."},{"id":"C","text":"participastes, pela proximidade com 'servidoras'."},{"id":"D","text":"participar, porque o relativo elimina a flexão."}],"correctOptionId":"A","explanation":"Depois de 'um/uma dos/das que', o plural é a orientação preferencial; o singular é raro, embora registrado. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3422","revision":1,"prompt":"Qual alternativa apresenta as duas concordâncias admitidas com pronome plural seguido de 'de nós'?","options":[{"id":"A","text":"Quais de nós será convocado / sereis convocado."},{"id":"B","text":"Qual de nós serão convocados / seremos convocados."},{"id":"C","text":"Quais de nós será convocados / somos convocar."},{"id":"D","text":"Quais de nós serão convocados / seremos convocados."}],"correctOptionId":"D","explanation":"Com 'quais de nós', o verbo pode ir à terceira pessoa do plural ou concordar com o pronome pessoal 'nós'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3423","revision":1,"prompt":"Em comunicação dirigida a uma governadora, a forma adequada é","options":[{"id":"A","text":"Vossa Excelência estás informada."},{"id":"B","text":"Vossa Excelência está informada."},{"id":"C","text":"Vossa Excelência estais informado."},{"id":"D","text":"Vossa Excelência estou informada."}],"correctOptionId":"B","explanation":"O pronome de tratamento exige verbo na terceira pessoa; o adjetivo concorda com o gênero da pessoa referida. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3424","revision":1,"prompt":"Qual frase respeita a impessoalidade de 'haver' com sentido de existir?","options":[{"id":"A","text":"Haviam recursos pendentes."},{"id":"B","text":"Houveram muitas falhas."},{"id":"C","text":"Havia recursos pendentes."},{"id":"D","text":"Havemos recursos pendentes."}],"correctOptionId":"C","explanation":"No sentido existencial, 'haver' não possui sujeito e permanece na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3425","revision":1,"prompt":"A locução corretamente flexionada é","options":[{"id":"A","text":"Deve haver soluções."},{"id":"B","text":"Devem haver soluções."},{"id":"C","text":"Hão de haverem soluções."},{"id":"D","text":"Podem haverem soluções."}],"correctOptionId":"A","explanation":"A impessoalidade de 'haver' existencial transmite-se ao auxiliar, que fica no singular; o infinitivo não se flexiona. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3426","revision":1,"prompt":"Em qual frase 'haver' é auxiliar pessoal e concorda com o sujeito?","options":[{"id":"A","text":"Havia muitos recursos na unidade."},{"id":"B","text":"Houve duas sessões ontem."},{"id":"C","text":"Há três anos o processo começou."},{"id":"D","text":"Os candidatos haviam estudado o conteúdo."}],"correctOptionId":"D","explanation":"Em 'haviam estudado', 'haver' integra um tempo composto e concorda com o sujeito 'os candidatos'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3427","revision":1,"prompt":"A concordância adequada com 'fazer' temporal ocorre em","options":[{"id":"A","text":"Fazem dois anos que o processo começou."},{"id":"B","text":"Faz dois anos que o processo começou."},{"id":"C","text":"Fizeram dois anos que o processo começou."},{"id":"D","text":"Devem fazerem dois anos que o processo começou."}],"correctOptionId":"B","explanation":"Indicando tempo decorrido, 'fazer' é impessoal e permanece na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3428","revision":1,"prompt":"A substituição correta de 'Há alternativas' por uma construção com 'existir' é","options":[{"id":"A","text":"Existe alternativas."},{"id":"B","text":"Existiu alternativas."},{"id":"C","text":"Existem alternativas."},{"id":"D","text":"Existirá alternativas, em qualquer tempo."}],"correctOptionId":"C","explanation":"Diferentemente de 'haver' existencial, 'existir' possui sujeito e concorda com 'alternativas'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3429","revision":1,"prompt":"Qual indicação de hora está de acordo com a norma-padrão?","options":[{"id":"A","text":"São dez horas."},{"id":"B","text":"É dez horas."},{"id":"C","text":"Foi dez horas."},{"id":"D","text":"Houveram dez horas."}],"correctOptionId":"A","explanation":"Na indicação de horas, o verbo 'ser' acompanha a expressão numérica: 'é uma hora'; 'são dez horas'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3430","revision":1,"prompt":"O singular em 'Dez anos é muito tempo' é admitido porque","options":[{"id":"A","text":"'ser' nunca admite plural."},{"id":"B","text":"'anos' é objeto direto."},{"id":"C","text":"toda expressão numérica é impessoal."},{"id":"D","text":"a quantidade é tomada como uma totalidade."}],"correctOptionId":"D","explanation":"Expressões quantitativas vistas como um bloco podem levar 'ser' ao singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3431","revision":1,"prompt":"Em 'Os responsáveis somos nós', a primeira pessoa do plural decorre","options":[{"id":"A","text":"da proximidade com 'responsáveis'."},{"id":"B","text":"da prevalência do pronome pessoal 'nós' na concordância com 'ser'."},{"id":"C","text":"da impessoalidade obrigatória de 'ser'."},{"id":"D","text":"de uma oração sem sujeito."}],"correctOptionId":"B","explanation":"Nas construções com 'ser', a presença de pronome pessoal orienta a concordância: 'Os responsáveis somos nós'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3432","revision":1,"prompt":"Em 'Publicaram-se os editais', o plural é obrigatório na análise normativa porque","options":[{"id":"A","text":"'se' sempre indica sujeito indeterminado."},{"id":"B","text":"'editais' é objeto direto do verbo."},{"id":"C","text":"há passiva sintética, e 'os editais' é sujeito paciente plural."},{"id":"D","text":"o verbo é impessoal."}],"correctOptionId":"C","explanation":"A conversão 'Os editais foram publicados' confirma a partícula apassivadora e o sujeito paciente plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3433","revision":1,"prompt":"Qual frase apresenta índice de indeterminação do sujeito e verbo no singular?","options":[{"id":"A","text":"Precisa-se de analistas."},{"id":"B","text":"Precisam-se de analistas."},{"id":"C","text":"Publicou-se os editais."},{"id":"D","text":"Concedeu-se bolsas aos estudantes."}],"correctOptionId":"A","explanation":"'Precisar de' é transitivo indireto; 'de analistas' é complemento preposicionado e o verbo fica na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3434","revision":1,"prompt":"Para distinguir partícula apassivadora de índice de indeterminação do sujeito, deve-se","options":[{"id":"A","text":"contar quantas letras há depois de 'se'."},{"id":"B","text":"considerar todo termo plural como sujeito."},{"id":"C","text":"supor que qualquer preposição cria voz passiva."},{"id":"D","text":"analisar a transitividade e testar se há sujeito paciente convertível em passiva analítica."}],"correctOptionId":"D","explanation":"A possibilidade de construir 'ser + particípio' com o termo paciente distingue a passiva sintética de estruturas como 'precisa-se de'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3435","revision":1,"prompt":"Qual construção explicita corretamente o sujeito próprio do infinitivo?","options":[{"id":"A","text":"Antes de os conselheiros votar, houve debate."},{"id":"B","text":"Antes de os conselheiros votarem, houve debate."},{"id":"C","text":"Antes dos conselheiros votou, houve debate."},{"id":"D","text":"Antes de os conselheiros votarmos, houve debate."}],"correctOptionId":"B","explanation":"O infinitivo tem como sujeito expresso 'os conselheiros' e recebe a flexão de terceira pessoa do plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3436","revision":1,"prompt":"A frase correta quanto ao infinitivo em locução verbal é","options":[{"id":"A","text":"Os técnicos devem revisarem o relatório."},{"id":"B","text":"Os técnicos devem revisarem-se o relatório."},{"id":"C","text":"Os técnicos devem revisar o relatório."},{"id":"D","text":"Os técnicos deve revisarem o relatório."}],"correctOptionId":"C","explanation":"O infinitivo integrante de locução verbal não se flexiona; a marca de número fica no auxiliar 'devem'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3437","revision":1,"prompt":"Com o mesmo sujeito na oração principal e no infinitivo final, as formas 'saíram para revisar' e 'saíram para revisarem' são","options":[{"id":"A","text":"admitidas, com escolha frequentemente estilística."},{"id":"B","text":"ambas proibidas."},{"id":"C","text":"corretas somente se o sujeito for singular."},{"id":"D","text":"locuções verbais obrigatoriamente impessoais."}],"correctOptionId":"A","explanation":"Quando os dois verbos têm o mesmo sujeito, as referências registram flexão facultativa em construções desse tipo. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3438","revision":1,"prompt":"Segundo o Manual de Comunicação do Senado, após verbos como 'ver' e 'ouvir', em 'Vi os candidatos sair/saírem',","options":[{"id":"A","text":"somente a forma flexionada é possível."},{"id":"B","text":"somente a forma não flexionada é possível."},{"id":"C","text":"as duas formas são erradas porque 'ver' não admite infinitivo."},{"id":"D","text":"a flexão é facultativa."}],"correctOptionId":"D","explanation":"Verbos de percepção e causativos formam uma exceção em que as duas formas são documentadas. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3439","revision":1,"prompt":"A concordância nominal básica está correta em","options":[{"id":"A","text":"as dois nova auditoras."},{"id":"B","text":"as duas novas auditoras."},{"id":"C","text":"a duas novos auditoras."},{"id":"D","text":"os duas nova auditoras."}],"correctOptionId":"B","explanation":"Artigo, numeral e adjetivo ajustam gênero e número ao substantivo feminino plural 'auditoras'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3440","revision":1,"prompt":"Como adjunto adnominal anteposto a substantivos de gêneros diferentes, o adjetivo concorda em regra com","options":[{"id":"A","text":"o substantivo mais distante."},{"id":"B","text":"um sujeito oculto."},{"id":"C","text":"o substantivo mais próximo, como em 'nova norma e procedimento'."},{"id":"D","text":"o verbo da oração."}],"correctOptionId":"C","explanation":"O adjetivo anteposto concorda normalmente com o primeiro substantivo da sequência. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3441","revision":1,"prompt":"Sobre 'norma e procedimento adequados' e 'norma e procedimento adequado', é correto afirmar que","options":[{"id":"A","text":"o plural abrangente e a concordância com o mais próximo podem ser admitidos."},{"id":"B","text":"somente o masculino plural é reconhecido."},{"id":"C","text":"somente o singular é reconhecido."},{"id":"D","text":"o adjetivo deveria ficar no feminino singular em ambas."}],"correctOptionId":"A","explanation":"Adjetivo posposto a mais de um substantivo pode abranger o conjunto no plural ou concordar por atração com o mais próximo, se o sentido permitir. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3442","revision":1,"prompt":"No plural abrangente de substantivos de gêneros diferentes, a forma esperada é","options":[{"id":"A","text":"ata e relatório aprovada."},{"id":"B","text":"ata e relatório aprovadas."},{"id":"C","text":"ata e relatório aprovado, obrigatoriamente."},{"id":"D","text":"ata e relatório aprovados."}],"correctOptionId":"D","explanation":"Quando o adjetivo abrange substantivos masculinos e femininos, vai ao masculino plural. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3443","revision":1,"prompt":"Qual frase apresenta predicativo corretamente concordado com sujeito composto feminino?","options":[{"id":"A","text":"A ata e a minuta estava pronta."},{"id":"B","text":"A ata e a minuta estavam prontas."},{"id":"C","text":"A ata e a minuta estavam prontos."},{"id":"D","text":"A ata e a minuta estava prontos."}],"correctOptionId":"B","explanation":"O predicativo posposto concorda no feminino plural com os dois núcleos femininos do sujeito composto. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3444","revision":1,"prompt":"Qual par está integralmente correto?","options":[{"id":"A","text":"Seguem anexo as planilhas / seguem em anexas as planilhas."},{"id":"B","text":"Segue anexas as planilhas / seguem em anexos as planilhas."},{"id":"C","text":"Seguem anexas as planilhas / seguem em anexo as planilhas."},{"id":"D","text":"Seguem anexa as planilhas / segue em anexo as planilhas."}],"correctOptionId":"C","explanation":"'Anexo' adjetivo varia com 'planilhas'; a locução 'em anexo' permanece invariável. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3445","revision":1,"prompt":"A concordância reflexiva adequada ocorre em","options":[{"id":"A","text":"Elas mesmas revisaram o relatório."},{"id":"B","text":"Elas mesmo revisou o relatório."},{"id":"C","text":"Elas mesma revisaram o relatório."},{"id":"D","text":"Elas próprios revisaram o relatório."}],"correctOptionId":"A","explanation":"No sentido de 'as próprias', 'mesmo' varia em gênero e número com o referente. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3446","revision":1,"prompt":"Qual alternativa emprega corretamente 'quite' e 'obrigado'?","options":[{"id":"A","text":"As servidoras estão quite e disseram obrigado."},{"id":"B","text":"A servidora está quites e disse obrigado."},{"id":"C","text":"Os servidores estão quite e disseram obrigadas."},{"id":"D","text":"As servidoras estão quites e disseram obrigadas."}],"correctOptionId":"D","explanation":"'Quite' varia com o referente; a fórmula de agradecimento concorda com quem agradece, no caso um grupo feminino. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3447","revision":1,"prompt":"A distinção correta entre os usos de 'só' aparece em","options":[{"id":"A","text":"Os fiscais ficaram só; sós os fiscais ficaram."},{"id":"B","text":"Os fiscais ficaram sós; só os fiscais ficaram."},{"id":"C","text":"Os fiscais ficaram sós; sós os fiscais ficaram no sentido de somente."},{"id":"D","text":"Os fiscais ficaram sóis; sóis os fiscais ficaram."}],"correctOptionId":"B","explanation":"Com sentido de 'sozinhos', 'sós' é adjetivo variável; com sentido de 'somente', 'só' é advérbio invariável. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3448","revision":1,"prompt":"Qual frase emprega 'meio' de acordo com sua classe e seu sentido?","options":[{"id":"A","text":"As servidoras estavam meias cansadas."},{"id":"B","text":"A reunião durou meio hora."},{"id":"C","text":"As servidoras estavam meio cansadas."},{"id":"D","text":"Foram servidas duas meio porções."}],"correctOptionId":"C","explanation":"Com sentido de 'um pouco', 'meio' é advérbio invariável; como metade, varia: 'meia hora', 'duas meias porções'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3449","revision":1,"prompt":"A distinção correta entre os usos de 'bastante' é","options":[{"id":"A","text":"Havia bastantes razões, e elas eram bastante claras."},{"id":"B","text":"Havia bastante razões, e elas eram bastantes claras."},{"id":"C","text":"Havia bastantes razões, e elas eram bastantes claras obrigatoriamente."},{"id":"D","text":"Havia bastante razões, e elas eram bastante clara."}],"correctOptionId":"A","explanation":"Como pronome/adjetivo equivalente a 'muitas', 'bastantes' varia; como advérbio equivalente a 'muito', 'bastante' é invariável. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3450","revision":1,"prompt":"Qual frase está adequada quanto a 'menos' e 'alerta'?","options":[{"id":"A","text":"Houve menas falhas, e as equipes ficaram alertas obrigatoriamente."},{"id":"B","text":"Houve menos falhas, e as equipes ficaram alerto."},{"id":"C","text":"Houve menas falhas, e as equipes ficaram alerta."},{"id":"D","text":"Houve menos falhas, e as equipes permaneceram alerta."}],"correctOptionId":"D","explanation":"'Menos' é invariável; na expressão consagrada de estado, 'alerta' também permanece invariável. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3451","revision":1,"prompt":"Em qual alternativa 'caro' é adjetivo na primeira oração e advérbio na segunda?","options":[{"id":"A","text":"As passagens custam caras / as passagens são caro."},{"id":"B","text":"As passagens são caras / as passagens custam caro."},{"id":"C","text":"As passagens são caro / as passagens custam caras."},{"id":"D","text":"As passagens são caramente / as passagens custam caramente."}],"correctOptionId":"B","explanation":"Como predicativo, 'caras' concorda com 'passagens'; com verbo de preço, 'caro' funciona como advérbio e não varia. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3452","revision":1,"prompt":"Qual par apresenta corretamente as duas construções com 'possível'?","options":[{"id":"A","text":"as medidas mais rápidas possível / medidas o mais rápida possíveis."},{"id":"B","text":"as medidas mais rápidas possível / medidas as mais rápidas possível."},{"id":"C","text":"as medidas mais rápidas possíveis / medidas o mais rápidas possível."},{"id":"D","text":"as medidas mais rápida possíveis / medidas o mais rápidas possíveis."}],"correctOptionId":"C","explanation":"Com artigo plural, 'possíveis' concorda; na locução intensificadora 'o mais ... possível', permanece no singular. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3453","revision":1,"prompt":"Qual par mostra o contraste entre sujeito genérico e sujeito determinado?","options":[{"id":"A","text":"É proibido entrada / É proibida a entrada."},{"id":"B","text":"É proibida entrada / É proibido a entrada."},{"id":"C","text":"São proibido entrada / É proibidas as entradas."},{"id":"D","text":"É proibidos entrada / São proibida as entradas."}],"correctOptionId":"A","explanation":"Sem determinante e com sentido genérico, usa-se o masculino singular; com artigo, o predicativo concorda com 'a entrada'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3454","revision":1,"prompt":"Qual frase segue a concordância tradicional das cores?","options":[{"id":"A","text":"Foram compradas pastas cinzas no sentido de cor formada pelo substantivo 'cinza', única forma possível."},{"id":"B","text":"Foram compradas pastas vermelha e blusas laranjas."},{"id":"C","text":"Foram compradas paredes verdes-clara e ternos azuis-escuro."},{"id":"D","text":"Foram compradas pastas vermelhas e blusas laranja."}],"correctOptionId":"D","explanation":"Cor adjetiva simples varia; substantivo empregado como nome de cor, como 'laranja', tende a permanecer invariável. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3455","revision":1,"prompt":"Em 'blusas de seda' e 'relatórios de auditoria', as expressões preposicionadas","options":[{"id":"A","text":"devem copiar o plural dos substantivos externos."},{"id":"B","text":"funcionam como locuções adjetivas e não se flexionam apenas para concordar com o termo externo."},{"id":"C","text":"são verbos impessoais."},{"id":"D","text":"exigem sempre hífen."}],"correctOptionId":"B","explanation":"A locução adjetiva mantém sua forma; eventual plural interno dependeria do sentido próprio, não de concordância mecânica. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3456","revision":1,"prompt":"Ao substituir 'Havia falhas e existiam soluções' por uma estrutura equivalente, a concordância correta é","options":[{"id":"A","text":"Haviam falhas e existia soluções."},{"id":"B","text":"Haviam falhas e existiam soluções."},{"id":"C","text":"Havia falhas e existiam soluções."},{"id":"D","text":"Havia falhas e existia soluções."}],"correctOptionId":"C","explanation":"'Haver' existencial é impessoal e fica no singular; 'existir' é pessoal e concorda com o sujeito plural 'soluções'. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3457","revision":1,"prompt":"Diante de possível erro de concordância verbal, o primeiro procedimento seguro é","options":[{"id":"A","text":"identificar o sujeito e seu núcleo, em vez de concordar automaticamente com o termo mais próximo."},{"id":"B","text":"colocar todo verbo no plural."},{"id":"C","text":"eliminar os termos preposicionados."},{"id":"D","text":"transformar qualquer construção em oração sem sujeito."}],"correctOptionId":"A","explanation":"A concordância regular depende do núcleo do sujeito; proximidade, isoladamente, não define a flexão. Fonte: questão autoral baseada nas referências do conteúdo."},
-    {"id":"q3458","revision":1,"prompt":"A delimitação correta deste assunto é","options":[{"id":"A","text":"ensinar toda a regência verbal e nominal como parte da concordância."},{"id":"B","text":"substituir o estudo de classes de palavras e de flexão verbal."},{"id":"C","text":"tratar crase como simples marca de plural."},{"id":"D","text":"usar classe, transitividade e preposição apenas quando determinam a concordância, deixando regência e crase para assuntos próprios."}],"correctOptionId":"D","explanation":"O recorte evita duplicação: classes e transitividade apoiam a análise, enquanto regência e crase pertencem aos Assuntos 013 e 014. Fonte: questão autoral baseada nas referências do conteúdo."}
+    {
+      "id": "q3399",
+      "revision": 2,
+      "prompt": "Em 'A relação dos processos pendentes foi atualizada', o verbo fica no singular porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o núcleo do sujeito é o substantivo singular 'relação'."
+        },
+        {
+          "id": "B",
+          "text": "todo termo preposicionado exige verbo no singular."
+        },
+        {
+          "id": "C",
+          "text": "o sujeito está depois do verbo."
+        },
+        {
+          "id": "D",
+          "text": "o verbo 'ser' é sempre impessoal."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O sintagma 'dos processos pendentes' especifica 'relação', que é o núcleo singular com o qual o verbo concorda. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3400",
+      "revision": 2,
+      "prompt": "Qual frase apresenta a concordância regular com sujeito composto anteposto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O relatório e a planilha chegou ontem."
+        },
+        {
+          "id": "B",
+          "text": "O relatório e a planilha chegaram ontem."
+        },
+        {
+          "id": "C",
+          "text": "O relatório e a planilha chegaria juntos."
+        },
+        {
+          "id": "D",
+          "text": "O relatório e a planilha foi entregue."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Com dois núcleos antepostos que designam entidades distintas, a regra geral põe o verbo no plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3401",
+      "revision": 2,
+      "prompt": "Sobre a frase 'Chegou o relatório e a planilha', é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o singular seria admitido somente se 'planilha' fosse retirado."
+        },
+        {
+          "id": "B",
+          "text": "o verbo deveria obrigatoriamente ir à primeira pessoa do plural."
+        },
+        {
+          "id": "C",
+          "text": "a concordância com o núcleo mais próximo é admitida porque o sujeito composto está posposto."
+        },
+        {
+          "id": "D",
+          "text": "a frase não possui sujeito."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Com sujeito composto posposto, são admitidos o plural e a atração pelo núcleo mais próximo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3402",
+      "revision": 2,
+      "prompt": "A concordância adequada em 'Eu e os demais auditores ___ o processo' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "revisou, porque o núcleo mais próximo está no plural."
+        },
+        {
+          "id": "B",
+          "text": "revisastes, porque a segunda pessoa prevalece."
+        },
+        {
+          "id": "C",
+          "text": "revisaram, porque todo sujeito composto exige terceira pessoa."
+        },
+        {
+          "id": "D",
+          "text": "revisamos, porque a primeira pessoa prevalece no sujeito composto."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A presença do pronome 'eu' leva o verbo à primeira pessoa do plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3403",
+      "revision": 2,
+      "prompt": "Em 'O autor e relator da proposta apresentou o voto', o singular é justificável porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo sujeito iniciado por artigo é simples."
+        },
+        {
+          "id": "B",
+          "text": "'proposta' é o sujeito do verbo."
+        },
+        {
+          "id": "C",
+          "text": "o verbo está no pretérito."
+        },
+        {
+          "id": "D",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        },
+        {
+          "id": "E",
+          "text": "as duas funções podem designar a mesma pessoa, formando um único referente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Um só determinante e o contexto permitem interpretar 'autor e relator' como funções acumuladas pela mesma pessoa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3404",
+      "revision": 2,
+      "prompt": "Na frase 'Prazos, custos e riscos, tudo foi examinado', o verbo concorda com",
+      "options": [
+        {
+          "id": "A",
+          "text": "o pronome singular 'tudo', que resume a enumeração."
+        },
+        {
+          "id": "B",
+          "text": "o primeiro item da enumeração."
+        },
+        {
+          "id": "C",
+          "text": "o termo mais próximo 'riscos'."
+        },
+        {
+          "id": "D",
+          "text": "um sujeito indeterminado."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O pronome indefinido resume os núcleos anteriores e comanda a concordância no singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3405",
+      "revision": 2,
+      "prompt": "Núcleos sinônimos ou dispostos em gradação podem levar o verbo ao singular quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "estão sempre depois do verbo."
+        },
+        {
+          "id": "B",
+          "text": "são apresentados como uma unidade de sentido."
+        },
+        {
+          "id": "C",
+          "text": "possuem gêneros gramaticais diferentes."
+        },
+        {
+          "id": "D",
+          "text": "há necessariamente uma conjunção alternativa."
+        },
+        {
+          "id": "E",
+          "text": "O termo plural mais próximo do verbo controla a concordância por atração obrigatória."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A unidade semântica pode justificar o singular; se os fatos forem destacados como distintos, o plural é adequado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3406",
+      "revision": 2,
+      "prompt": "Em qual alternativa o singular decorre do valor excludente de 'ou'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O descuido ou a fraude podem causar dano."
+        },
+        {
+          "id": "B",
+          "text": "Ou ela ou eu revisaremos o processo."
+        },
+        {
+          "id": "C",
+          "text": "O presidente ou o vice assinará o ato, mas não ambos."
+        },
+        {
+          "id": "D",
+          "text": "O frio ou o calor prejudicam o equipamento."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A indicação de que apenas um dos dois assinará torna a alternância exclusiva e favorece o singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3407",
+      "revision": 2,
+      "prompt": "A forma plural em 'O descuido ou a fraude podem causar dano' indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conjunção perdeu qualquer valor sintático."
+        },
+        {
+          "id": "B",
+          "text": "o sujeito está indeterminado."
+        },
+        {
+          "id": "C",
+          "text": "'ou' sempre equivale a 'mas'."
+        },
+        {
+          "id": "D",
+          "text": "ambos os núcleos podem realizar o fato expresso pelo verbo."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quando a ação pode ser atribuída a todos os núcleos, 'ou' tem leitura inclusiva e o plural é adequado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3408",
+      "revision": 2,
+      "prompt": "A forma preferida na norma-padrão para 'Nem o relatório nem as planilhas ___' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "chegou, porque 'nem' exclui o plural."
+        },
+        {
+          "id": "B",
+          "text": "chegaria, porque a coordenação elimina o sujeito."
+        },
+        {
+          "id": "C",
+          "text": "chegaste, porque prevalece a segunda pessoa."
+        },
+        {
+          "id": "D",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        },
+        {
+          "id": "E",
+          "text": "chegaram, porque os dois núcleos são coordenados."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Com núcleos reais ligados por 'nem', prefere-se o verbo no plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3409",
+      "revision": 2,
+      "prompt": "A expressão 'um ou outro' leva normalmente o verbo",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao singular, como em 'Um ou outro candidato faltou'."
+        },
+        {
+          "id": "B",
+          "text": "à primeira pessoa do plural."
+        },
+        {
+          "id": "C",
+          "text": "obrigatoriamente ao plural."
+        },
+        {
+          "id": "D",
+          "text": "ao infinitivo impessoal."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão distributiva 'um ou outro' é normalmente tratada como singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3410",
+      "revision": 2,
+      "prompt": "Em 'O presidente, com os conselheiros, aprovou a minuta', o singular mostra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "'conselheiros' é objeto direto."
+        },
+        {
+          "id": "B",
+          "text": "o presidente é realçado como sujeito, e o segmento intercalado indica companhia."
+        },
+        {
+          "id": "C",
+          "text": "a preposição transforma o verbo em impessoal."
+        },
+        {
+          "id": "D",
+          "text": "todo termo entre vírgulas deixa de ter sentido."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As vírgulas e o sentido parentético fazem o verbo concordar com 'o presidente'; sem esse destaque, 'com' pode ter valor aditivo e admitir plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3411",
+      "revision": 2,
+      "prompt": "A concordância adequada com coletivo simples ocorre em",
+      "options": [
+        {
+          "id": "A",
+          "text": "A equipe decidiram pelo adiamento."
+        },
+        {
+          "id": "B",
+          "text": "A equipe decidistes pelo adiamento."
+        },
+        {
+          "id": "C",
+          "text": "A equipe decidiu pelo adiamento."
+        },
+        {
+          "id": "D",
+          "text": "A equipe decidirmos pelo adiamento."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O núcleo coletivo 'equipe' está no singular e, sem construção especial, exige verbo no singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3412",
+      "revision": 2,
+      "prompt": "Quanto às frases 'A maioria dos candidatos foi aprovada' e 'A maioria dos candidatos foram aprovados',",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a segunda respeita a norma-padrão."
+        },
+        {
+          "id": "B",
+          "text": "somente a primeira respeita a norma-padrão."
+        },
+        {
+          "id": "C",
+          "text": "ambas são inadequadas porque 'maioria' exige verbo impessoal."
+        },
+        {
+          "id": "D",
+          "text": "ambas são admitidas: uma concorda com o partitivo, e a outra, por atração, com o especificador plural."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Expressões partitivas seguidas de nome plural admitem concordância com o núcleo partitivo ou com o especificador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3413",
+      "revision": 2,
+      "prompt": "Qual frase concorda o verbo com o numeral de uma quantidade aproximada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cerca de cinquenta servidores compareceu."
+        },
+        {
+          "id": "B",
+          "text": "Menos de dois candidatos faltou."
+        },
+        {
+          "id": "C",
+          "text": "Perto de cem processos foi revisto."
+        },
+        {
+          "id": "D",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        },
+        {
+          "id": "E",
+          "text": "Cerca de cinquenta servidores compareceram."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Com 'cerca de' e numeral plural, o verbo acompanha normalmente o numeral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3414",
+      "revision": 2,
+      "prompt": "A construção regular com 'mais de um' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mais de um servidor faltou."
+        },
+        {
+          "id": "B",
+          "text": "Mais de um servidor faltaram."
+        },
+        {
+          "id": "C",
+          "text": "Mais de um servidor faltastes."
+        },
+        {
+          "id": "D",
+          "text": "Mais de um servidor faltarão."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Apesar da ideia quantitativa, a expressão 'mais de um' normalmente leva o verbo ao singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3415",
+      "revision": 2,
+      "prompt": "O plural em 'Mais de um gestor se acusaram mutuamente' decorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "da impessoalidade do verbo."
+        },
+        {
+          "id": "B",
+          "text": "da ideia de reciprocidade entre os gestores."
+        },
+        {
+          "id": "C",
+          "text": "da presença obrigatória de sujeito oculto."
+        },
+        {
+          "id": "D",
+          "text": "do valor temporal de 'mais'."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Reciprocidade é uma das situações que afastam o singular normalmente exigido por 'mais de um'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3416",
+      "revision": 2,
+      "prompt": "Segundo a orientação tradicional mais segura para frações, a forma adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Um terço dos processos foram arquivados, obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "Dois terços dos processos foi arquivado."
+        },
+        {
+          "id": "C",
+          "text": "Dois terços dos processos foram arquivados."
+        },
+        {
+          "id": "D",
+          "text": "Um terço dos processos arquivaram."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A concordância transparente acompanha o numerador: 'um terço foi'; 'dois terços foram'. Algumas construções admitem atração, por isso se evita absolutizar sem contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3417",
+      "revision": 2,
+      "prompt": "Sem nome especificador, a concordância adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1% faltaram e 30% faltou."
+        },
+        {
+          "id": "B",
+          "text": "1% e 30% faltou em qualquer contexto."
+        },
+        {
+          "id": "C",
+          "text": "percentuais nunca controlam a concordância."
+        },
+        {
+          "id": "D",
+          "text": "1% faltou e 30% faltaram."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quando isolado, o percentual leva o verbo a acompanhar o número: singular com 1% e plural com 30%. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3418",
+      "revision": 2,
+      "prompt": "Na concordância de percentual acompanhado de especificador, deve-se considerar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o verbo fica sempre no singular."
+        },
+        {
+          "id": "B",
+          "text": "o especificador jamais interfere."
+        },
+        {
+          "id": "C",
+          "text": "todo percentual exige verbo impessoal."
+        },
+        {
+          "id": "D",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        },
+        {
+          "id": "E",
+          "text": "o número e o nome especificador podem orientar a concordância, havendo variantes em certas estruturas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Construções como '1% dos eleitores faltou/faltaram' mostram que a forma não pode ser julgada por regra única sem observar a estrutura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3419",
+      "revision": 2,
+      "prompt": "Em 'Fomos nós que redigimos o parecer', o verbo da oração relativa concorda com",
+      "options": [
+        {
+          "id": "A",
+          "text": "o antecedente 'nós' do pronome relativo 'que'."
+        },
+        {
+          "id": "B",
+          "text": "o substantivo singular 'parecer'."
+        },
+        {
+          "id": "C",
+          "text": "um sujeito indeterminado."
+        },
+        {
+          "id": "D",
+          "text": "o verbo da oração principal por atração impessoal."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quando 'que' exerce a função de sujeito, o verbo concorda com o antecedente do pronome relativo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3420",
+      "revision": 2,
+      "prompt": "Sobre 'Fui eu quem redigiu o parecer' e 'Fui eu quem redigi o parecer', é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "as duas são incorretas."
+        },
+        {
+          "id": "B",
+          "text": "a terceira pessoa do singular e a concordância com o antecedente são admitidas."
+        },
+        {
+          "id": "C",
+          "text": "somente a concordância com 'eu' é admitida."
+        },
+        {
+          "id": "D",
+          "text": "somente a terceira pessoa é possível em qualquer variedade formal."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Com o relativo 'quem', a construção regular usa a terceira pessoa, mas a concordância com o antecedente também é documentada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3421",
+      "revision": 2,
+      "prompt": "A forma preferida em redação formal é 'Ela foi uma das servidoras que ___ da auditoria' com",
+      "options": [
+        {
+          "id": "A",
+          "text": "participou, única forma reconhecida pelas gramáticas."
+        },
+        {
+          "id": "B",
+          "text": "participastes, pela proximidade com 'servidoras'."
+        },
+        {
+          "id": "C",
+          "text": "participaram, pois o relativo retoma o conjunto das servidoras."
+        },
+        {
+          "id": "D",
+          "text": "participar, porque o relativo elimina a flexão."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Depois de 'um/uma dos/das que', o plural é a orientação preferencial; o singular é raro, embora registrado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3422",
+      "revision": 2,
+      "prompt": "Qual alternativa apresenta as duas concordâncias admitidas com pronome plural seguido de 'de nós'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quais de nós será convocado / sereis convocado."
+        },
+        {
+          "id": "B",
+          "text": "Qual de nós serão convocados / seremos convocados."
+        },
+        {
+          "id": "C",
+          "text": "Quais de nós será convocados / somos convocar."
+        },
+        {
+          "id": "D",
+          "text": "Quais de nós serão convocados / seremos convocados."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Com 'quais de nós', o verbo pode ir à terceira pessoa do plural ou concordar com o pronome pessoal 'nós'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3423",
+      "revision": 2,
+      "prompt": "Em comunicação dirigida a uma governadora, a forma adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vossa Excelência estás informada."
+        },
+        {
+          "id": "B",
+          "text": "Vossa Excelência estais informado."
+        },
+        {
+          "id": "C",
+          "text": "Vossa Excelência estou informada."
+        },
+        {
+          "id": "D",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        },
+        {
+          "id": "E",
+          "text": "Vossa Excelência está informada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O pronome de tratamento exige verbo na terceira pessoa; o adjetivo concorda com o gênero da pessoa referida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3424",
+      "revision": 2,
+      "prompt": "Qual frase respeita a impessoalidade de 'haver' com sentido de existir?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Havia recursos pendentes."
+        },
+        {
+          "id": "B",
+          "text": "Haviam recursos pendentes."
+        },
+        {
+          "id": "C",
+          "text": "Houveram muitas falhas."
+        },
+        {
+          "id": "D",
+          "text": "Havemos recursos pendentes."
+        },
+        {
+          "id": "E",
+          "text": "O verbo haver concorda sempre com o substantivo plural que o acompanha."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "No sentido existencial, 'haver' não possui sujeito e permanece na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3425",
+      "revision": 2,
+      "prompt": "A locução corretamente flexionada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Devem haver soluções."
+        },
+        {
+          "id": "B",
+          "text": "Deve haver soluções."
+        },
+        {
+          "id": "C",
+          "text": "Hão de haverem soluções."
+        },
+        {
+          "id": "D",
+          "text": "Podem haverem soluções."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A impessoalidade de 'haver' existencial transmite-se ao auxiliar, que fica no singular; o infinitivo não se flexiona. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3426",
+      "revision": 2,
+      "prompt": "Em qual frase 'haver' é auxiliar pessoal e concorda com o sujeito?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Havia muitos recursos na unidade."
+        },
+        {
+          "id": "B",
+          "text": "Houve duas sessões ontem."
+        },
+        {
+          "id": "C",
+          "text": "Os candidatos haviam estudado o conteúdo."
+        },
+        {
+          "id": "D",
+          "text": "Há três anos o processo começou."
+        },
+        {
+          "id": "E",
+          "text": "O verbo haver concorda sempre com o substantivo plural que o acompanha."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em 'haviam estudado', 'haver' integra um tempo composto e concorda com o sujeito 'os candidatos'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3427",
+      "revision": 2,
+      "prompt": "A concordância adequada com 'fazer' temporal ocorre em",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fazem dois anos que o processo começou."
+        },
+        {
+          "id": "B",
+          "text": "Fizeram dois anos que o processo começou."
+        },
+        {
+          "id": "C",
+          "text": "Devem fazerem dois anos que o processo começou."
+        },
+        {
+          "id": "D",
+          "text": "Faz dois anos que o processo começou."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Indicando tempo decorrido, 'fazer' é impessoal e permanece na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3428",
+      "revision": 2,
+      "prompt": "A substituição correta de 'Há alternativas' por uma construção com 'existir' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Existe alternativas."
+        },
+        {
+          "id": "B",
+          "text": "Existiu alternativas."
+        },
+        {
+          "id": "C",
+          "text": "Existirá alternativas, em qualquer tempo."
+        },
+        {
+          "id": "D",
+          "text": "O verbo haver concorda sempre com o substantivo plural que o acompanha."
+        },
+        {
+          "id": "E",
+          "text": "Existem alternativas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Diferentemente de 'haver' existencial, 'existir' possui sujeito e concorda com 'alternativas'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3429",
+      "revision": 2,
+      "prompt": "Qual indicação de hora está de acordo com a norma-padrão?",
+      "options": [
+        {
+          "id": "A",
+          "text": "São dez horas."
+        },
+        {
+          "id": "B",
+          "text": "É dez horas."
+        },
+        {
+          "id": "C",
+          "text": "Foi dez horas."
+        },
+        {
+          "id": "D",
+          "text": "Houveram dez horas."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na indicação de horas, o verbo 'ser' acompanha a expressão numérica: 'é uma hora'; 'são dez horas'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3430",
+      "revision": 2,
+      "prompt": "O singular em 'Dez anos é muito tempo' é admitido porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "'ser' nunca admite plural."
+        },
+        {
+          "id": "B",
+          "text": "a quantidade é tomada como uma totalidade."
+        },
+        {
+          "id": "C",
+          "text": "'anos' é objeto direto."
+        },
+        {
+          "id": "D",
+          "text": "toda expressão numérica é impessoal."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Expressões quantitativas vistas como um bloco podem levar 'ser' ao singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3431",
+      "revision": 2,
+      "prompt": "Em 'Os responsáveis somos nós', a primeira pessoa do plural decorre",
+      "options": [
+        {
+          "id": "A",
+          "text": "da proximidade com 'responsáveis'."
+        },
+        {
+          "id": "B",
+          "text": "da impessoalidade obrigatória de 'ser'."
+        },
+        {
+          "id": "C",
+          "text": "da prevalência do pronome pessoal 'nós' na concordância com 'ser'."
+        },
+        {
+          "id": "D",
+          "text": "de uma oração sem sujeito."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nas construções com 'ser', a presença de pronome pessoal orienta a concordância: 'Os responsáveis somos nós'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3432",
+      "revision": 2,
+      "prompt": "Em 'Publicaram-se os editais', o plural é obrigatório na análise normativa porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "'se' sempre indica sujeito indeterminado."
+        },
+        {
+          "id": "B",
+          "text": "'editais' é objeto direto do verbo."
+        },
+        {
+          "id": "C",
+          "text": "o verbo é impessoal."
+        },
+        {
+          "id": "D",
+          "text": "há passiva sintética, e 'os editais' é sujeito paciente plural."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A conversão 'Os editais foram publicados' confirma a partícula apassivadora e o sujeito paciente plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3433",
+      "revision": 2,
+      "prompt": "Qual frase apresenta índice de indeterminação do sujeito e verbo no singular?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Precisam-se de analistas."
+        },
+        {
+          "id": "B",
+          "text": "Publicou-se os editais."
+        },
+        {
+          "id": "C",
+          "text": "Concedeu-se bolsas aos estudantes."
+        },
+        {
+          "id": "D",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        },
+        {
+          "id": "E",
+          "text": "Precisa-se de analistas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "'Precisar de' é transitivo indireto; 'de analistas' é complemento preposicionado e o verbo fica na terceira pessoa do singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3434",
+      "revision": 2,
+      "prompt": "Para distinguir partícula apassivadora de índice de indeterminação do sujeito, deve-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "analisar a transitividade e testar se há sujeito paciente convertível em passiva analítica."
+        },
+        {
+          "id": "B",
+          "text": "contar quantas letras há depois de 'se'."
+        },
+        {
+          "id": "C",
+          "text": "considerar todo termo plural como sujeito."
+        },
+        {
+          "id": "D",
+          "text": "supor que qualquer preposição cria voz passiva."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A possibilidade de construir 'ser + particípio' com o termo paciente distingue a passiva sintética de estruturas como 'precisa-se de'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3435",
+      "revision": 2,
+      "prompt": "Qual construção explicita corretamente o sujeito próprio do infinitivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antes de os conselheiros votar, houve debate."
+        },
+        {
+          "id": "B",
+          "text": "Antes de os conselheiros votarem, houve debate."
+        },
+        {
+          "id": "C",
+          "text": "Antes dos conselheiros votou, houve debate."
+        },
+        {
+          "id": "D",
+          "text": "Antes de os conselheiros votarmos, houve debate."
+        },
+        {
+          "id": "E",
+          "text": "Todo infinitivo ligado a sujeito plural deve receber desinência de plural."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O infinitivo tem como sujeito expresso 'os conselheiros' e recebe a flexão de terceira pessoa do plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3436",
+      "revision": 2,
+      "prompt": "A frase correta quanto ao infinitivo em locução verbal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os técnicos devem revisarem o relatório."
+        },
+        {
+          "id": "B",
+          "text": "Os técnicos devem revisarem-se o relatório."
+        },
+        {
+          "id": "C",
+          "text": "Os técnicos devem revisar o relatório."
+        },
+        {
+          "id": "D",
+          "text": "Os técnicos deve revisarem o relatório."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O infinitivo integrante de locução verbal não se flexiona; a marca de número fica no auxiliar 'devem'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3437",
+      "revision": 2,
+      "prompt": "Com o mesmo sujeito na oração principal e no infinitivo final, as formas 'saíram para revisar' e 'saíram para revisarem' são",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas proibidas."
+        },
+        {
+          "id": "B",
+          "text": "corretas somente se o sujeito for singular."
+        },
+        {
+          "id": "C",
+          "text": "locuções verbais obrigatoriamente impessoais."
+        },
+        {
+          "id": "D",
+          "text": "admitidas, com escolha frequentemente estilística."
+        },
+        {
+          "id": "E",
+          "text": "Todo infinitivo ligado a sujeito plural deve receber desinência de plural."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quando os dois verbos têm o mesmo sujeito, as referências registram flexão facultativa em construções desse tipo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3438",
+      "revision": 2,
+      "prompt": "Segundo o Manual de Comunicação do Senado, após verbos como 'ver' e 'ouvir', em 'Vi os candidatos sair/saírem',",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a forma flexionada é possível."
+        },
+        {
+          "id": "B",
+          "text": "somente a forma não flexionada é possível."
+        },
+        {
+          "id": "C",
+          "text": "as duas formas são erradas porque 'ver' não admite infinitivo."
+        },
+        {
+          "id": "D",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        },
+        {
+          "id": "E",
+          "text": "a flexão é facultativa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Verbos de percepção e causativos formam uma exceção em que as duas formas são documentadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3439",
+      "revision": 2,
+      "prompt": "A concordância nominal básica está correta em",
+      "options": [
+        {
+          "id": "A",
+          "text": "as duas novas auditoras."
+        },
+        {
+          "id": "B",
+          "text": "as dois nova auditoras."
+        },
+        {
+          "id": "C",
+          "text": "a duas novos auditoras."
+        },
+        {
+          "id": "D",
+          "text": "os duas nova auditoras."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Artigo, numeral e adjetivo ajustam gênero e número ao substantivo feminino plural 'auditoras'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3440",
+      "revision": 2,
+      "prompt": "Como adjunto adnominal anteposto a substantivos de gêneros diferentes, o adjetivo concorda em regra com",
+      "options": [
+        {
+          "id": "A",
+          "text": "o substantivo mais distante."
+        },
+        {
+          "id": "B",
+          "text": "o substantivo mais próximo, como em 'nova norma e procedimento'."
+        },
+        {
+          "id": "C",
+          "text": "um sujeito oculto."
+        },
+        {
+          "id": "D",
+          "text": "o verbo da oração."
+        },
+        {
+          "id": "E",
+          "text": "Adjetivos e particípios concordam obrigatoriamente com o substantivo mais próximo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O adjetivo anteposto concorda normalmente com o primeiro substantivo da sequência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3441",
+      "revision": 2,
+      "prompt": "Sobre 'norma e procedimento adequados' e 'norma e procedimento adequado', é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente o masculino plural é reconhecido."
+        },
+        {
+          "id": "B",
+          "text": "somente o singular é reconhecido."
+        },
+        {
+          "id": "C",
+          "text": "o plural abrangente e a concordância com o mais próximo podem ser admitidos."
+        },
+        {
+          "id": "D",
+          "text": "o adjetivo deveria ficar no feminino singular em ambas."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adjetivo posposto a mais de um substantivo pode abranger o conjunto no plural ou concordar por atração com o mais próximo, se o sentido permitir. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3442",
+      "revision": 2,
+      "prompt": "No plural abrangente de substantivos de gêneros diferentes, a forma esperada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ata e relatório aprovada."
+        },
+        {
+          "id": "B",
+          "text": "ata e relatório aprovadas."
+        },
+        {
+          "id": "C",
+          "text": "ata e relatório aprovado, obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "ata e relatório aprovados."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Quando o adjetivo abrange substantivos masculinos e femininos, vai ao masculino plural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3443",
+      "revision": 2,
+      "prompt": "Qual frase apresenta predicativo corretamente concordado com sujeito composto feminino?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A ata e a minuta estava pronta."
+        },
+        {
+          "id": "B",
+          "text": "A ata e a minuta estavam prontos."
+        },
+        {
+          "id": "C",
+          "text": "A ata e a minuta estava prontos."
+        },
+        {
+          "id": "D",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        },
+        {
+          "id": "E",
+          "text": "A ata e a minuta estavam prontas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O predicativo posposto concorda no feminino plural com os dois núcleos femininos do sujeito composto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3444",
+      "revision": 2,
+      "prompt": "Qual par está integralmente correto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seguem anexas as planilhas / seguem em anexo as planilhas."
+        },
+        {
+          "id": "B",
+          "text": "Seguem anexo as planilhas / seguem em anexas as planilhas."
+        },
+        {
+          "id": "C",
+          "text": "Segue anexas as planilhas / seguem em anexos as planilhas."
+        },
+        {
+          "id": "D",
+          "text": "Seguem anexa as planilhas / segue em anexo as planilhas."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Anexo' adjetivo varia com 'planilhas'; a locução 'em anexo' permanece invariável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3445",
+      "revision": 2,
+      "prompt": "A concordância reflexiva adequada ocorre em",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elas mesmo revisou o relatório."
+        },
+        {
+          "id": "B",
+          "text": "Elas mesmas revisaram o relatório."
+        },
+        {
+          "id": "C",
+          "text": "Elas mesma revisaram o relatório."
+        },
+        {
+          "id": "D",
+          "text": "Elas próprios revisaram o relatório."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "No sentido de 'as próprias', 'mesmo' varia em gênero e número com o referente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3446",
+      "revision": 2,
+      "prompt": "Qual alternativa emprega corretamente 'quite' e 'obrigado'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As servidoras estão quite e disseram obrigado."
+        },
+        {
+          "id": "B",
+          "text": "A servidora está quites e disse obrigado."
+        },
+        {
+          "id": "C",
+          "text": "As servidoras estão quites e disseram obrigadas."
+        },
+        {
+          "id": "D",
+          "text": "Os servidores estão quite e disseram obrigadas."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'Quite' varia com o referente; a fórmula de agradecimento concorda com quem agradece, no caso um grupo feminino. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3447",
+      "revision": 2,
+      "prompt": "A distinção correta entre os usos de 'só' aparece em",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os fiscais ficaram só; sós os fiscais ficaram."
+        },
+        {
+          "id": "B",
+          "text": "Os fiscais ficaram sós; sós os fiscais ficaram no sentido de somente."
+        },
+        {
+          "id": "C",
+          "text": "Os fiscais ficaram sóis; sóis os fiscais ficaram."
+        },
+        {
+          "id": "D",
+          "text": "Os fiscais ficaram sós; só os fiscais ficaram."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Com sentido de 'sozinhos', 'sós' é adjetivo variável; com sentido de 'somente', 'só' é advérbio invariável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3448",
+      "revision": 2,
+      "prompt": "Qual frase emprega 'meio' de acordo com sua classe e seu sentido?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As servidoras estavam meias cansadas."
+        },
+        {
+          "id": "B",
+          "text": "A reunião durou meio hora."
+        },
+        {
+          "id": "C",
+          "text": "Foram servidas duas meio porções."
+        },
+        {
+          "id": "D",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        },
+        {
+          "id": "E",
+          "text": "As servidoras estavam meio cansadas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Com sentido de 'um pouco', 'meio' é advérbio invariável; como metade, varia: 'meia hora', 'duas meias porções'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3449",
+      "revision": 2,
+      "prompt": "A distinção correta entre os usos de 'bastante' é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Havia bastantes razões, e elas eram bastante claras."
+        },
+        {
+          "id": "B",
+          "text": "Havia bastante razões, e elas eram bastantes claras."
+        },
+        {
+          "id": "C",
+          "text": "Havia bastantes razões, e elas eram bastantes claras obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "Havia bastante razões, e elas eram bastante clara."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Como pronome/adjetivo equivalente a 'muitas', 'bastantes' varia; como advérbio equivalente a 'muito', 'bastante' é invariável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3450",
+      "revision": 2,
+      "prompt": "Qual frase está adequada quanto a 'menos' e 'alerta'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Houve menas falhas, e as equipes ficaram alertas obrigatoriamente."
+        },
+        {
+          "id": "B",
+          "text": "Houve menos falhas, e as equipes permaneceram alerta."
+        },
+        {
+          "id": "C",
+          "text": "Houve menos falhas, e as equipes ficaram alerto."
+        },
+        {
+          "id": "D",
+          "text": "Houve menas falhas, e as equipes ficaram alerta."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "'Menos' é invariável; na expressão consagrada de estado, 'alerta' também permanece invariável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3451",
+      "revision": 2,
+      "prompt": "Em qual alternativa 'caro' é adjetivo na primeira oração e advérbio na segunda?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As passagens custam caras / as passagens são caro."
+        },
+        {
+          "id": "B",
+          "text": "As passagens são caro / as passagens custam caras."
+        },
+        {
+          "id": "C",
+          "text": "As passagens são caras / as passagens custam caro."
+        },
+        {
+          "id": "D",
+          "text": "As passagens são caramente / as passagens custam caramente."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Como predicativo, 'caras' concorda com 'passagens'; com verbo de preço, 'caro' funciona como advérbio e não varia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3452",
+      "revision": 2,
+      "prompt": "Qual par apresenta corretamente as duas construções com 'possível'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "as medidas mais rápidas possível / medidas o mais rápida possíveis."
+        },
+        {
+          "id": "B",
+          "text": "as medidas mais rápidas possível / medidas as mais rápidas possível."
+        },
+        {
+          "id": "C",
+          "text": "as medidas mais rápida possíveis / medidas o mais rápidas possíveis."
+        },
+        {
+          "id": "D",
+          "text": "as medidas mais rápidas possíveis / medidas o mais rápidas possível."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Com artigo plural, 'possíveis' concorda; na locução intensificadora 'o mais ... possível', permanece no singular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3453",
+      "revision": 2,
+      "prompt": "Qual par mostra o contraste entre sujeito genérico e sujeito determinado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "É proibida entrada / É proibido a entrada."
+        },
+        {
+          "id": "B",
+          "text": "São proibido entrada / É proibidas as entradas."
+        },
+        {
+          "id": "C",
+          "text": "É proibidos entrada / São proibida as entradas."
+        },
+        {
+          "id": "D",
+          "text": "O termo plural mais próximo do verbo controla a concordância por atração obrigatória."
+        },
+        {
+          "id": "E",
+          "text": "É proibido entrada / É proibida a entrada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Sem determinante e com sentido genérico, usa-se o masculino singular; com artigo, o predicativo concorda com 'a entrada'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3454",
+      "revision": 2,
+      "prompt": "Qual frase segue a concordância tradicional das cores?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Foram compradas pastas vermelhas e blusas laranja."
+        },
+        {
+          "id": "B",
+          "text": "Foram compradas pastas cinzas no sentido de cor formada pelo substantivo 'cinza', única forma possível."
+        },
+        {
+          "id": "C",
+          "text": "Foram compradas pastas vermelha e blusas laranjas."
+        },
+        {
+          "id": "D",
+          "text": "Foram compradas paredes verdes-clara e ternos azuis-escuro."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cor adjetiva simples varia; substantivo empregado como nome de cor, como 'laranja', tende a permanecer invariável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3455",
+      "revision": 2,
+      "prompt": "Em 'blusas de seda' e 'relatórios de auditoria', as expressões preposicionadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem copiar o plural dos substantivos externos."
+        },
+        {
+          "id": "B",
+          "text": "funcionam como locuções adjetivas e não se flexionam apenas para concordar com o termo externo."
+        },
+        {
+          "id": "C",
+          "text": "são verbos impessoais."
+        },
+        {
+          "id": "D",
+          "text": "exigem sempre hífen."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A locução adjetiva mantém sua forma; eventual plural interno dependeria do sentido próprio, não de concordância mecânica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3456",
+      "revision": 2,
+      "prompt": "Ao substituir 'Havia falhas e existiam soluções' por uma estrutura equivalente, a concordância correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Haviam falhas e existia soluções."
+        },
+        {
+          "id": "B",
+          "text": "Haviam falhas e existiam soluções."
+        },
+        {
+          "id": "C",
+          "text": "Havia falhas e existiam soluções."
+        },
+        {
+          "id": "D",
+          "text": "Havia falhas e existia soluções."
+        },
+        {
+          "id": "E",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'Haver' existencial é impessoal e fica no singular; 'existir' é pessoal e concorda com o sujeito plural 'soluções'. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3457",
+      "revision": 2,
+      "prompt": "Diante de possível erro de concordância verbal, o primeiro procedimento seguro é",
+      "options": [
+        {
+          "id": "A",
+          "text": "colocar todo verbo no plural."
+        },
+        {
+          "id": "B",
+          "text": "eliminar os termos preposicionados."
+        },
+        {
+          "id": "C",
+          "text": "transformar qualquer construção em oração sem sujeito."
+        },
+        {
+          "id": "D",
+          "text": "identificar o sujeito e seu núcleo, em vez de concordar automaticamente com o termo mais próximo."
+        },
+        {
+          "id": "E",
+          "text": "A simples presença de “se” torna o verbo invariavelmente singular."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A concordância regular depende do núcleo do sujeito; proximidade, isoladamente, não define a flexão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3458",
+      "revision": 2,
+      "prompt": "A delimitação correta deste assunto é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ensinar toda a regência verbal e nominal como parte da concordância."
+        },
+        {
+          "id": "B",
+          "text": "substituir o estudo de classes de palavras e de flexão verbal."
+        },
+        {
+          "id": "C",
+          "text": "tratar crase como simples marca de plural."
+        },
+        {
+          "id": "D",
+          "text": "A correção decorre apenas da proximidade linear entre as palavras."
+        },
+        {
+          "id": "E",
+          "text": "usar classe, transitividade e preposição apenas quando determinam a concordância, deixando regência e crase para assuntos próprios."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O recorte evita duplicação: classes e transitividade apoiam a análise, enquanto regência e crase pertencem aos Assuntos 013 e 014. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q3459",
+      "revision": 1,
+      "prompt": "No período “A adoção de ferramentas digitais exige planejamento contínuo”, qual termo controla a flexão de “exige”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O núcleo “adoção”, que constitui o sujeito simples."
+        },
+        {
+          "id": "B",
+          "text": "O substantivo “ferramentas”, por estar no plural."
+        },
+        {
+          "id": "C",
+          "text": "O adjetivo “digitais”, por ser o termo mais próximo."
+        },
+        {
+          "id": "D",
+          "text": "O substantivo “planejamento”, por ser objeto direto."
+        },
+        {
+          "id": "E",
+          "text": "A expressão “ferramentas digitais”, por atração obrigatória."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O sujeito é “A adoção de ferramentas digitais”; seu núcleo é “adoção”. O segmento preposicionado não controla o verbo. Fonte: adaptação conceitual de cobrança Cebraspe — SEFAZ/PR, Agente Fazendário, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3460",
+      "revision": 1,
+      "prompt": "Em “A relação dos processos pendentes foi atualizada”, a substituição de “foi” por “foram” seria",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque “processos” é o termo mais próximo."
+        },
+        {
+          "id": "B",
+          "text": "incorreta, porque o núcleo do sujeito é “relação”."
+        },
+        {
+          "id": "C",
+          "text": "correta, por se tratar de sujeito composto."
+        },
+        {
+          "id": "D",
+          "text": "obrigatória, porque há mais de um processo."
+        },
+        {
+          "id": "E",
+          "text": "facultativa em qualquer contexto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A expressão “dos processos pendentes” especifica o núcleo singular “relação”; não constitui sujeito. Fonte: adaptação conceitual de cobrança Cebraspe — IPAAM, Assistente Ambiental, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3461",
+      "revision": 1,
+      "prompt": "No trecho “Isso implica compreender que a adoção de IA exige formação adequada”, “exige” concorda com",
+      "options": [
+        {
+          "id": "A",
+          "text": "“IA”."
+        },
+        {
+          "id": "B",
+          "text": "“formação”."
+        },
+        {
+          "id": "C",
+          "text": "“adoção”."
+        },
+        {
+          "id": "D",
+          "text": "“Isso”."
+        },
+        {
+          "id": "E",
+          "text": "a oração “compreender”."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A forma “exige” integra a oração cujo sujeito é “a adoção de IA”. A oração principal tem o verbo “implica”. Fonte: adaptação conceitual de cobrança Cebraspe — TCE/RN, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3462",
+      "revision": 1,
+      "prompt": "Considere: “A carga de informações que circulam nos sistemas aumentou”. A forma “aumentou” está no singular porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "concorda com “informações”."
+        },
+        {
+          "id": "B",
+          "text": "a oração tem sujeito indeterminado."
+        },
+        {
+          "id": "C",
+          "text": "todo verbo posposto a oração relativa fica no singular."
+        },
+        {
+          "id": "D",
+          "text": "concorda com o núcleo “carga”."
+        },
+        {
+          "id": "E",
+          "text": "“sistemas” é complemento verbal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O sujeito de “aumentou” é “A carga de informações que circulam nos sistemas”; o núcleo é “carga”. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Advogado, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3463",
+      "revision": 1,
+      "prompt": "Em “Os dados da auditoria indicam inconsistências”, qual reescrita preserva a concordância?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“O conjunto de dados da auditoria indicam inconsistências.”"
+        },
+        {
+          "id": "B",
+          "text": "“Os dados da auditoria indica inconsistências.”"
+        },
+        {
+          "id": "C",
+          "text": "“A auditoria dos dados indicam inconsistências.”"
+        },
+        {
+          "id": "D",
+          "text": "“Existem o conjunto de dados inconsistentes.”"
+        },
+        {
+          "id": "E",
+          "text": "“O conjunto de dados da auditoria indica inconsistências.”"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Ao trocar o núcleo plural “dados” pelo singular “conjunto”, o verbo deve passar ao singular. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Assistente Administrativo e Financeiro, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3464",
+      "revision": 1,
+      "prompt": "Na frase “A maioria dos documentos foi conferida”, a forma “foi”",
+      "options": [
+        {
+          "id": "A",
+          "text": "concorda com o núcleo partitivo singular “maioria”."
+        },
+        {
+          "id": "B",
+          "text": "concorda obrigatoriamente com “documentos”."
+        },
+        {
+          "id": "C",
+          "text": "é impessoal."
+        },
+        {
+          "id": "D",
+          "text": "integra uma oração sem sujeito."
+        },
+        {
+          "id": "E",
+          "text": "só seria correta se “documentos” estivesse no singular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Expressões partitivas admitem concordância com o núcleo singular e, em muitos contextos, atração pelo especificador plural. Fonte: adaptação conceitual de cobrança Cebraspe — UNIVESP, Supervisor Pedagógico, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3465",
+      "revision": 1,
+      "prompt": "Em “As medidas consideradas urgentes foram adotadas”, o termo “urgentes” concorda com",
+      "options": [
+        {
+          "id": "A",
+          "text": "“adotadas”."
+        },
+        {
+          "id": "B",
+          "text": "“medidas”."
+        },
+        {
+          "id": "C",
+          "text": "o sujeito oculto."
+        },
+        {
+          "id": "D",
+          "text": "“foram”."
+        },
+        {
+          "id": "E",
+          "text": "um termo masculino subentendido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“Urgentes” funciona como predicativo ou modificador de “medidas”, conforme a análise do período, e flexiona no feminino plural. Fonte: adaptação conceitual de cobrança Cebraspe — CAESB, Operador de Estação de Tratamento, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3466",
+      "revision": 1,
+      "prompt": "No período “A análise dos riscos e das oportunidades revelou falhas”, o sujeito do verbo “revelou” é",
+      "options": [
+        {
+          "id": "A",
+          "text": "“os riscos e as oportunidades”."
+        },
+        {
+          "id": "B",
+          "text": "“falhas”."
+        },
+        {
+          "id": "C",
+          "text": "“A análise dos riscos e das oportunidades”."
+        },
+        {
+          "id": "D",
+          "text": "“oportunidades”."
+        },
+        {
+          "id": "E",
+          "text": "indeterminado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O núcleo do sujeito é “análise”; os termos coordenados estão dentro de complementos preposicionados. Fonte: adaptação conceitual de cobrança Cebraspe — TRT da 10ª Região, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3467",
+      "revision": 1,
+      "prompt": "Em “A equipe que revisou os atos apresentou o relatório”, “apresentou” concorda com",
+      "options": [
+        {
+          "id": "A",
+          "text": "“atos”."
+        },
+        {
+          "id": "B",
+          "text": "“relatório”."
+        },
+        {
+          "id": "C",
+          "text": "o pronome relativo “que” isoladamente."
+        },
+        {
+          "id": "D",
+          "text": "“equipe”."
+        },
+        {
+          "id": "E",
+          "text": "um sujeito composto oculto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A oração relativa modifica “equipe”, mas o sujeito da oração principal continua sendo o sintagma de núcleo singular “equipe”. Fonte: adaptação conceitual de cobrança Cebraspe — TST, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3468",
+      "revision": 1,
+      "prompt": "Considere: “Foram consideradas válidas a ata e a certidão”. A flexão de “válidas” decorre da concordância com",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas “certidão”, por proximidade."
+        },
+        {
+          "id": "B",
+          "text": "o verbo “foram”."
+        },
+        {
+          "id": "C",
+          "text": "um objeto direto plural masculino."
+        },
+        {
+          "id": "D",
+          "text": "a oração inteira, tomada como neutra."
+        },
+        {
+          "id": "E",
+          "text": "o sujeito composto feminino “a ata e a certidão”."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O predicativo alcança os dois núcleos femininos; por isso fica no feminino plural. Fonte: adaptação conceitual de cobrança Cebraspe — SEMED, Professor, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3469",
+      "revision": 1,
+      "prompt": "Em “O aparecimento de novas falhas indica deficiência de controle”, o verbo deve permanecer no singular porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o núcleo do sujeito é “aparecimento”."
+        },
+        {
+          "id": "B",
+          "text": "“falhas” está no plural."
+        },
+        {
+          "id": "C",
+          "text": "“controle” é singular."
+        },
+        {
+          "id": "D",
+          "text": "o sujeito vem antes do verbo."
+        },
+        {
+          "id": "E",
+          "text": "“de novas falhas” é predicativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O termo preposicionado “de novas falhas” não controla a concordância. Fonte: adaptação conceitual de cobrança Cebraspe — Prefeitura de Mossoró, Auditor Fiscal, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3470",
+      "revision": 1,
+      "prompt": "Na reescrita “A provisão de recursos e equipamentos era insuficiente”, a forma “era”",
+      "options": [
+        {
+          "id": "A",
+          "text": "deveria ser “eram” por causa de “recursos e equipamentos”."
+        },
+        {
+          "id": "B",
+          "text": "concorda com o núcleo singular “provisão”."
+        },
+        {
+          "id": "C",
+          "text": "é impessoal."
+        },
+        {
+          "id": "D",
+          "text": "concorda com “insuficiente”."
+        },
+        {
+          "id": "E",
+          "text": "só é correta por atração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os substantivos plurais estão subordinados ao núcleo “provisão”. Fonte: questão autoral inspirada em cobranças recorrentes do Cebraspe sobre concordância; sem reprodução de enunciado oficial."
+    },
+    {
+      "id": "q3471",
+      "revision": 1,
+      "prompt": "Qual frase apresenta a forma segura com sujeito composto anteposto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“O relatório e a planilha chegou.”"
+        },
+        {
+          "id": "B",
+          "text": "“Chegou o relatório e a planilha” é a única forma possível."
+        },
+        {
+          "id": "C",
+          "text": "“O relatório e a planilha chegaram.”"
+        },
+        {
+          "id": "D",
+          "text": "“O relatório com a planilha chegou” sempre indica duas entidades coordenadas."
+        },
+        {
+          "id": "E",
+          "text": "“Nem o relatório nem a planilha chegou” é obrigatoriamente singular."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Com sujeito composto anteposto, o plural é a regra geral. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3472",
+      "revision": 1,
+      "prompt": "Em “Chegou o relatório e a planilha”, o singular pode ser explicado como",
+      "options": [
+        {
+          "id": "A",
+          "text": "impessoalidade do verbo “chegar”."
+        },
+        {
+          "id": "B",
+          "text": "concordância com objeto direto."
+        },
+        {
+          "id": "C",
+          "text": "silepse obrigatória."
+        },
+        {
+          "id": "D",
+          "text": "concordância atrativa com o núcleo mais próximo em sujeito posposto."
+        },
+        {
+          "id": "E",
+          "text": "erro sem exceção na norma-padrão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Com sujeito composto posposto, a tradição admite o plural ou a atração pelo núcleo próximo. Fonte: adaptação conceitual de cobrança Cebraspe — SEFAZ/PR, Agente Fazendário, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3473",
+      "revision": 1,
+      "prompt": "Na frase “O presidente, com os conselheiros, aprovou a minuta”, o singular indica que",
+      "options": [
+        {
+          "id": "A",
+          "text": "“presidente” e “conselheiros” formam sujeito composto obrigatório."
+        },
+        {
+          "id": "B",
+          "text": "o verbo “aprovar” é impessoal."
+        },
+        {
+          "id": "C",
+          "text": "a vírgula transforma o verbo em singular."
+        },
+        {
+          "id": "D",
+          "text": "o núcleo mais próximo é “minuta”."
+        },
+        {
+          "id": "E",
+          "text": "“com os conselheiros” foi tratado como termo parentético de companhia."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A pontuação favorece a leitura de companhia; o sujeito sintático principal é “O presidente”. Fonte: adaptação conceitual de cobrança Cebraspe — IPAAM, Assistente Ambiental, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3474",
+      "revision": 1,
+      "prompt": "Em “O presidente com os conselheiros aprovaram a minuta”, o plural é possível quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a expressão com “com” equivale semanticamente a uma soma coordenada."
+        },
+        {
+          "id": "B",
+          "text": "“com os conselheiros” é sempre adjunto adverbial."
+        },
+        {
+          "id": "C",
+          "text": "o objeto “minuta” está no singular."
+        },
+        {
+          "id": "D",
+          "text": "o verbo vem antes do objeto."
+        },
+        {
+          "id": "E",
+          "text": "há sujeito indeterminado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sem valor parentético, “com” pode aproximar-se de “e” e pôr os núcleos no mesmo plano. Fonte: adaptação conceitual de cobrança Cebraspe — TCE/RN, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3475",
+      "revision": 1,
+      "prompt": "Assinale a construção adequada para exclusão real com “ou”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“O presidente ou o vice assinarão o ato” é a única forma."
+        },
+        {
+          "id": "B",
+          "text": "“O presidente ou o vice assinará o ato.”"
+        },
+        {
+          "id": "C",
+          "text": "“O descuido ou a fraude causa dano” é sempre obrigatório."
+        },
+        {
+          "id": "D",
+          "text": "“Ou ela ou eu revisará o texto.”"
+        },
+        {
+          "id": "E",
+          "text": "“Um ou outro candidatos faltaram.”"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Se apenas um dos núcleos realizará a ação, o singular é a leitura prototípica. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Advogado, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3476",
+      "revision": 1,
+      "prompt": "Em “O descuido ou a fraude podem causar dano”, o plural sinaliza que",
+      "options": [
+        {
+          "id": "A",
+          "text": "“ou” tem necessariamente valor exclusivo."
+        },
+        {
+          "id": "B",
+          "text": "o verbo concorda com “dano”."
+        },
+        {
+          "id": "C",
+          "text": "as duas possibilidades podem concorrer para o resultado."
+        },
+        {
+          "id": "D",
+          "text": "a oração é impessoal."
+        },
+        {
+          "id": "E",
+          "text": "a proximidade de “fraude” exige plural."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O “ou” inclusivo admite a participação de ambos os núcleos. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Assistente Administrativo e Financeiro, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3477",
+      "revision": 1,
+      "prompt": "Qual frase respeita o padrão editorial mais seguro para “nem um nem outro”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Nem um nem outro apresentaram recurso” é a única forma possível."
+        },
+        {
+          "id": "B",
+          "text": "“Nem um nem outro apresentastes recurso.”"
+        },
+        {
+          "id": "C",
+          "text": "“Nem um nem outro apresentarão recurso” é sempre incorreta."
+        },
+        {
+          "id": "D",
+          "text": "“Nem um nem outro apresentou recurso.”"
+        },
+        {
+          "id": "E",
+          "text": "“Nem um nem outro se apresentaram mutuamente” exige singular em qualquer leitura."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O singular é a recomendação editorial mais segura, embora o plural seja documentado em certos contextos. Fonte: adaptação conceitual de cobrança Cebraspe — UNIVESP, Supervisor Pedagógico, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3478",
+      "revision": 1,
+      "prompt": "Em “A falha, o erro, a omissão reiterada comprometia o controle”, o singular é justificável porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o verbo concorda com “controle”."
+        },
+        {
+          "id": "B",
+          "text": "o último núcleo sempre determina o verbo."
+        },
+        {
+          "id": "C",
+          "text": "a enumeração é objeto direto."
+        },
+        {
+          "id": "D",
+          "text": "sujeitos sinônimos exigem obrigatoriamente singular."
+        },
+        {
+          "id": "E",
+          "text": "os núcleos foram apresentados como gradação ou unidade de ideia."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Núcleos próximos semanticamente podem ser concebidos como um todo; o plural também é possível se se destacarem fatos distintos. Fonte: adaptação conceitual de cobrança Cebraspe — CAESB, Operador de Estação de Tratamento, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3479",
+      "revision": 1,
+      "prompt": "Na frase “Ler e escrever exige concentração”, o singular apresenta",
+      "options": [
+        {
+          "id": "A",
+          "text": "as duas ações como atividade integrada."
+        },
+        {
+          "id": "B",
+          "text": "“concentração” como sujeito."
+        },
+        {
+          "id": "C",
+          "text": "um verbo impessoal."
+        },
+        {
+          "id": "D",
+          "text": "erro obrigatório por haver dois infinitivos."
+        },
+        {
+          "id": "E",
+          "text": "concordância atrativa com “escrever”."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Infinitivos coordenados podem levar o verbo ao singular quando exprimem uma unidade. Fonte: adaptação conceitual de cobrança Cebraspe — TRT da 10ª Região, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3480",
+      "revision": 1,
+      "prompt": "Qual opção realça ações autônomas e, por isso, favorece o plural?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Ler e escrever é uma prática integrada.”"
+        },
+        {
+          "id": "B",
+          "text": "“Aprovar e executar o plano são etapas distintas.”"
+        },
+        {
+          "id": "C",
+          "text": "“Entrar e sair era proibido.”"
+        },
+        {
+          "id": "D",
+          "text": "“Cabe revisar e publicar os atos.”"
+        },
+        {
+          "id": "E",
+          "text": "“É necessário estudar e revisar.”"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O predicativo “etapas distintas” individualiza os dois processos. Fonte: adaptação conceitual de cobrança Cebraspe — TST, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3481",
+      "revision": 1,
+      "prompt": "Em “Cada um dos processos foi revisado”, o singular decorre do núcleo",
+      "options": [
+        {
+          "id": "A",
+          "text": "“processos”."
+        },
+        {
+          "id": "B",
+          "text": "“revisado”."
+        },
+        {
+          "id": "C",
+          "text": "“cada um”."
+        },
+        {
+          "id": "D",
+          "text": "oculto “eles”."
+        },
+        {
+          "id": "E",
+          "text": "impessoal “foi”."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Dos processos” é especificador; o núcleo singular controla o verbo. Fonte: adaptação conceitual de cobrança Cebraspe — SEMED, Professor, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3482",
+      "revision": 1,
+      "prompt": "Assinale a forma adequada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Nenhum dos candidatos apresentaram recurso.”"
+        },
+        {
+          "id": "B",
+          "text": "“Nenhum dos candidatos houveram apresentado recurso.”"
+        },
+        {
+          "id": "C",
+          "text": "“Nenhum dos candidatos foram apresentar recurso.”"
+        },
+        {
+          "id": "D",
+          "text": "“Nenhum dos candidatos apresentou recurso.”"
+        },
+        {
+          "id": "E",
+          "text": "“Nenhum dos candidatos apresentastes recurso.”"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O núcleo é o pronome singular “nenhum”. Fonte: adaptação conceitual de cobrança Cebraspe — Prefeitura de Mossoró, Auditor Fiscal, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3483",
+      "revision": 1,
+      "prompt": "Em “A maioria dos servidores faltou/faltaram”, as duas formas podem ser aceitas porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o verbo é impessoal."
+        },
+        {
+          "id": "B",
+          "text": "todo sujeito posposto admite singular e plural."
+        },
+        {
+          "id": "C",
+          "text": "“servidores” é objeto direto."
+        },
+        {
+          "id": "D",
+          "text": "a norma não estabelece qualquer relação de concordância."
+        },
+        {
+          "id": "E",
+          "text": "há concordância com o núcleo partitivo ou atração pelo especificador plural."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A variação é documentada em expressões partitivas. Fonte: questão autoral inspirada em cobranças recorrentes do Cebraspe sobre concordância; sem reprodução de enunciado oficial."
+    },
+    {
+      "id": "q3484",
+      "revision": 1,
+      "prompt": "Qual frase segue a concordância prototípica de “mais de um”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Mais de um servidor faltou.”"
+        },
+        {
+          "id": "B",
+          "text": "“Mais de um servidor faltaram.”"
+        },
+        {
+          "id": "C",
+          "text": "“Mais de um servidores faltou.”"
+        },
+        {
+          "id": "D",
+          "text": "“Mais de um servidor houveram faltado.”"
+        },
+        {
+          "id": "E",
+          "text": "“Mais de um servidor fazem falta.”"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão “mais de um” leva normalmente ao singular. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3485",
+      "revision": 1,
+      "prompt": "Em “Mais de um gestor se acusaram mutuamente”, o plural é explicado pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "impessoalidade."
+        },
+        {
+          "id": "B",
+          "text": "reciprocidade."
+        },
+        {
+          "id": "C",
+          "text": "concordância com o pronome “se”."
+        },
+        {
+          "id": "D",
+          "text": "presença da preposição “de”."
+        },
+        {
+          "id": "E",
+          "text": "regra de que “mais de um” sempre é plural."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ação recíproca exige mais de um participante e favorece o plural. Fonte: adaptação conceitual de cobrança Cebraspe — SEFAZ/PR, Agente Fazendário, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3486",
+      "revision": 1,
+      "prompt": "Assinale a concordância adequada com fração.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Dois terços dos processos foi arquivado.”"
+        },
+        {
+          "id": "B",
+          "text": "“Um terço dos processos foram arquivados” é a única forma."
+        },
+        {
+          "id": "C",
+          "text": "“Dois terços dos processos foram arquivados.”"
+        },
+        {
+          "id": "D",
+          "text": "“Dois terço dos processos foram arquivados.”"
+        },
+        {
+          "id": "E",
+          "text": "“Dois terços do processo foi arquivados.”"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A orientação tradicional acompanha o numerador plural. Fonte: adaptação conceitual de cobrança Cebraspe — IPAAM, Assistente Ambiental, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3487",
+      "revision": 1,
+      "prompt": "Sem especificador, em “30% faltaram”, o plural acompanha",
+      "options": [
+        {
+          "id": "A",
+          "text": "um sujeito oculto singular."
+        },
+        {
+          "id": "B",
+          "text": "um verbo impessoal."
+        },
+        {
+          "id": "C",
+          "text": "o símbolo de porcentagem, que é substantivo singular."
+        },
+        {
+          "id": "D",
+          "text": "o valor numérico plural."
+        },
+        {
+          "id": "E",
+          "text": "um objeto direto subentendido."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Sem nome expresso, a concordância tende a acompanhar o número. Fonte: adaptação conceitual de cobrança Cebraspe — TCE/RN, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3488",
+      "revision": 1,
+      "prompt": "Em “30% da verba foi contingenciada”, o singular é motivado pela concordância com",
+      "options": [
+        {
+          "id": "A",
+          "text": "o número 30."
+        },
+        {
+          "id": "B",
+          "text": "o símbolo %."
+        },
+        {
+          "id": "C",
+          "text": "um sujeito indeterminado."
+        },
+        {
+          "id": "D",
+          "text": "o particípio “contingenciada” apenas."
+        },
+        {
+          "id": "E",
+          "text": "o especificador singular “verba”."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Com percentual e especificador, a concordância pode ser orientada pelo nome que explicita a base. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Advogado, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3489",
+      "revision": 1,
+      "prompt": "Qual construção é adequada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Um milhão de reais foi destinado ao projeto.”"
+        },
+        {
+          "id": "B",
+          "text": "“Um milhão de reais foram destinado ao projeto.”"
+        },
+        {
+          "id": "C",
+          "text": "“Um milhão de reais foram destinadas ao projeto.”"
+        },
+        {
+          "id": "D",
+          "text": "“Um milhão de real foi destinados ao projeto.”"
+        },
+        {
+          "id": "E",
+          "text": "“Um milhão de reais houveram sido destinados.”"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O núcleo numérico “milhão” é singular; o particípio também concorda com o sujeito masculino singular. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Assistente Administrativo e Financeiro, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3490",
+      "revision": 1,
+      "prompt": "Em “Dois milhões de pessoas participaram”, o plural decorre de",
+      "options": [
+        {
+          "id": "A",
+          "text": "“pessoas” ser objeto direto."
+        },
+        {
+          "id": "B",
+          "text": "o núcleo quantitativo “milhões” estar no plural."
+        },
+        {
+          "id": "C",
+          "text": "“participar” ser impessoal."
+        },
+        {
+          "id": "D",
+          "text": "a preposição “de”."
+        },
+        {
+          "id": "E",
+          "text": "uma atração proibida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sintagma quantitativo tem núcleo plural. Fonte: adaptação conceitual de cobrança Cebraspe — UNIVESP, Supervisor Pedagógico, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3491",
+      "revision": 1,
+      "prompt": "Assinale a opção adequada com “um total de”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Um total de cem processos foram analisado.”"
+        },
+        {
+          "id": "B",
+          "text": "“Um total de cem processos foi analisados.”"
+        },
+        {
+          "id": "C",
+          "text": "“Um total de cem processos foi analisado.”"
+        },
+        {
+          "id": "D",
+          "text": "“Um total de cem processo foram analisados.”"
+        },
+        {
+          "id": "E",
+          "text": "“Um total de cem processos houveram sido analisados.”"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O núcleo “total” é singular e masculino; verbo e particípio acompanham-no. Fonte: adaptação conceitual de cobrança Cebraspe — CAESB, Operador de Estação de Tratamento, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3492",
+      "revision": 1,
+      "prompt": "Em “Zero ocorrências foram registradas”, a concordância é adequada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "zero exige sempre singular."
+        },
+        {
+          "id": "B",
+          "text": "o verbo é impessoal."
+        },
+        {
+          "id": "C",
+          "text": "“ocorrências” é objeto direto."
+        },
+        {
+          "id": "D",
+          "text": "o substantivo expresso está no plural."
+        },
+        {
+          "id": "E",
+          "text": "o particípio não precisa concordar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A formulação “zero ocorrências” apresenta sujeito plural. Fonte: adaptação conceitual de cobrança Cebraspe — TRT da 10ª Região, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3493",
+      "revision": 1,
+      "prompt": "Em “Fomos nós que redigimos o parecer”, a forma “redigimos” concorda com",
+      "options": [
+        {
+          "id": "A",
+          "text": "o pronome “que” na terceira pessoa."
+        },
+        {
+          "id": "B",
+          "text": "“parecer”."
+        },
+        {
+          "id": "C",
+          "text": "um sujeito indeterminado."
+        },
+        {
+          "id": "D",
+          "text": "a forma “fomos”."
+        },
+        {
+          "id": "E",
+          "text": "o antecedente “nós” do pronome relativo “que”."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Quando “que” exerce a função de sujeito, o verbo concorda com o antecedente. Fonte: adaptação conceitual de cobrança Cebraspe — TST, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3494",
+      "revision": 1,
+      "prompt": "Qual frase está de acordo com as possibilidades registradas para “quem”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Fui eu quem redigiu o parecer” e “Fui eu quem redigi o parecer” são construções registradas."
+        },
+        {
+          "id": "B",
+          "text": "Somente “Fui eu quem redigi” é possível."
+        },
+        {
+          "id": "C",
+          "text": "Somente “Fui eu quem redigiu” é possível em qualquer registro."
+        },
+        {
+          "id": "D",
+          "text": "“Quem” exige sempre plural."
+        },
+        {
+          "id": "E",
+          "text": "O verbo deve concordar com “parecer”."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Com “quem”, a terceira pessoa do singular é regular; a concordância com o antecedente também é admitida. Fonte: adaptação conceitual de cobrança Cebraspe — SEMED, Professor, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3495",
+      "revision": 1,
+      "prompt": "Na redação formal, a forma preferida é",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Ela foi uma das servidoras que participou” é a única forma."
+        },
+        {
+          "id": "B",
+          "text": "“Ela foi uma das servidoras que participaram da auditoria.”"
+        },
+        {
+          "id": "C",
+          "text": "“Ela foram uma das servidoras que participaram.”"
+        },
+        {
+          "id": "D",
+          "text": "“Ela foi um das servidoras que participaram.”"
+        },
+        {
+          "id": "E",
+          "text": "“Ela foi uma das servidora que participaram.”"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O relativo retoma preferencialmente o conjunto plural “servidoras”. Fonte: adaptação conceitual de cobrança Cebraspe — Prefeitura de Mossoró, Auditor Fiscal, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3496",
+      "revision": 1,
+      "prompt": "Assinale a concordância adequada com pronome de tratamento dirigido a uma mulher.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Vossa Excelência estás informada.”"
+        },
+        {
+          "id": "B",
+          "text": "“Vossa Excelência está informado”, sem considerar a pessoa referida."
+        },
+        {
+          "id": "C",
+          "text": "“Vossa Excelência está informada.”"
+        },
+        {
+          "id": "D",
+          "text": "“Vossa Excelência estais informada.”"
+        },
+        {
+          "id": "E",
+          "text": "“Vossa Excelência estão informadas.”"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O verbo fica na terceira pessoa; o predicativo acompanha o gênero da pessoa referida. Fonte: questão autoral inspirada em cobranças recorrentes do Cebraspe sobre concordância; sem reprodução de enunciado oficial."
+    },
+    {
+      "id": "q3497",
+      "revision": 1,
+      "prompt": "Qual construção é prototípica com nome próprio precedido de artigo plural?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Os Estados Unidos anunciou a medida” é sempre a única forma."
+        },
+        {
+          "id": "B",
+          "text": "“Estados Unidos anunciaram” é obrigatória em qualquer uso."
+        },
+        {
+          "id": "C",
+          "text": "“Os Estados Unidos anunciou” porque “país” está subentendido."
+        },
+        {
+          "id": "D",
+          "text": "“Os Estados Unidos anunciaram a medida.”"
+        },
+        {
+          "id": "E",
+          "text": "“Os Estados Unidos anunciou-se a medida.”"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo plural e o uso consagrado favorecem a concordância no plural. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3498",
+      "revision": 1,
+      "prompt": "Em “Memórias Póstumas de Brás Cubas é uma obra de Machado de Assis”, o singular se justifica por",
+      "options": [
+        {
+          "id": "A",
+          "text": "o verbo “ser” ser sempre singular."
+        },
+        {
+          "id": "B",
+          "text": "“Machado de Assis” ser singular."
+        },
+        {
+          "id": "C",
+          "text": "o título não possuir núcleo."
+        },
+        {
+          "id": "D",
+          "text": "a preposição “de” impedir o plural."
+        },
+        {
+          "id": "E",
+          "text": "o título ser tomado como unidade designativa da obra."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Títulos plurais podem ser concebidos como nome unitário de uma obra. Fonte: adaptação conceitual de cobrança Cebraspe — SEFAZ/PR, Agente Fazendário, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3499",
+      "revision": 1,
+      "prompt": "Em “Quais de nós seremos convocados?”, a primeira pessoa do plural é",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma concordância admitida com o pronome “nós”."
+        },
+        {
+          "id": "B",
+          "text": "obrigatoriamente incorreta."
+        },
+        {
+          "id": "C",
+          "text": "exigida em toda ocorrência de “quais”."
+        },
+        {
+          "id": "D",
+          "text": "concordância com objeto direto."
+        },
+        {
+          "id": "E",
+          "text": "silepse sem respaldo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Também é possível “Quais de nós serão convocados?”. Fonte: adaptação conceitual de cobrança Cebraspe — IPAAM, Assistente Ambiental, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3500",
+      "revision": 1,
+      "prompt": "No trecho “captura de gases, que ajuda a reduzir emissões”, a forma singular “ajuda” deve concordar com",
+      "options": [
+        {
+          "id": "A",
+          "text": "o termo plural mais próximo em qualquer caso."
+        },
+        {
+          "id": "B",
+          "text": "o antecedente singular efetivamente retomado pelo relativo, se este for “captura”."
+        },
+        {
+          "id": "C",
+          "text": "“emissões”."
+        },
+        {
+          "id": "D",
+          "text": "o pronome “que” sem antecedente."
+        },
+        {
+          "id": "E",
+          "text": "um sujeito indeterminado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A interpretação do antecedente do relativo determina a concordância; a proximidade não basta. Fonte: adaptação conceitual de cobrança Cebraspe — TCE/RN, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3501",
+      "revision": 1,
+      "prompt": "Assinale a forma adequada com “haver” existencial.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Devem haver alternativas.”"
+        },
+        {
+          "id": "B",
+          "text": "“Houveram alternativas.”"
+        },
+        {
+          "id": "C",
+          "text": "“Deve haver alternativas.”"
+        },
+        {
+          "id": "D",
+          "text": "“Haviam alternativas disponíveis.”"
+        },
+        {
+          "id": "E",
+          "text": "“Podem haverem alternativas.”"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Haver” com sentido de existir é impessoal, e a impessoalidade alcança o auxiliar. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Advogado, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3502",
+      "revision": 1,
+      "prompt": "Ao substituir “Há alternativas” por uma forma de “existir”, a redação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Existe alternativas.”"
+        },
+        {
+          "id": "B",
+          "text": "“Existem alternativa.”"
+        },
+        {
+          "id": "C",
+          "text": "“Hão alternativas.”"
+        },
+        {
+          "id": "D",
+          "text": "“Existem alternativas.”"
+        },
+        {
+          "id": "E",
+          "text": "“Existir alternativas.”"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "“Existir” é pessoal e concorda com o sujeito plural. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Assistente Administrativo e Financeiro, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3503",
+      "revision": 1,
+      "prompt": "Qual frase emprega corretamente “fazer” temporal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Fazem dois anos que o projeto começou.”"
+        },
+        {
+          "id": "B",
+          "text": "“Devem fazer dois anos que o projeto começou.”"
+        },
+        {
+          "id": "C",
+          "text": "“Fizeram dois anos que o projeto começou.”"
+        },
+        {
+          "id": "D",
+          "text": "“Fazem-se dois anos que o projeto começou.”"
+        },
+        {
+          "id": "E",
+          "text": "“Faz dois anos que o projeto começou.”"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "“Fazer” indicando tempo decorrido é impessoal. Fonte: adaptação conceitual de cobrança Cebraspe — UNIVESP, Supervisor Pedagógico, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3504",
+      "revision": 1,
+      "prompt": "Em “Publicaram-se os editais”, o plural é exigido porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "“os editais” é sujeito paciente da passiva sintética."
+        },
+        {
+          "id": "B",
+          "text": "“se” é índice de indeterminação."
+        },
+        {
+          "id": "C",
+          "text": "“editais” é objeto direto."
+        },
+        {
+          "id": "D",
+          "text": "todo verbo com “se” fica no plural."
+        },
+        {
+          "id": "E",
+          "text": "o verbo é impessoal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A conversão “Os editais foram publicados” confirma a passiva. Fonte: adaptação conceitual de cobrança Cebraspe — CAESB, Operador de Estação de Tratamento, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3505",
+      "revision": 1,
+      "prompt": "Assinale a forma adequada com índice de indeterminação do sujeito.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Precisam-se de analistas.”"
+        },
+        {
+          "id": "B",
+          "text": "“Precisa-se de analistas.”"
+        },
+        {
+          "id": "C",
+          "text": "“Precisam-se analistas.”"
+        },
+        {
+          "id": "D",
+          "text": "“Precisa-se analistas”, sem preposição."
+        },
+        {
+          "id": "E",
+          "text": "“Precisaram-se de analistas.”"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O verbo transitivo indireto permanece na terceira pessoa do singular. Fonte: adaptação conceitual de cobrança Cebraspe — TRT da 10ª Região, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3506",
+      "revision": 1,
+      "prompt": "Em “Vendem-se imóveis”, a transformação adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Alguém vende imóveis”, única leitura normativa."
+        },
+        {
+          "id": "B",
+          "text": "“Precisa-se de imóveis.”"
+        },
+        {
+          "id": "C",
+          "text": "“Imóveis são vendidos.”"
+        },
+        {
+          "id": "D",
+          "text": "“Imóveis vendem a si mesmos.”"
+        },
+        {
+          "id": "E",
+          "text": "“Há imóveis vendidos” com equivalência integral."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A possibilidade de passiva analítica identifica a partícula apassivadora. Fonte: adaptação conceitual de cobrança Cebraspe — TST, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3507",
+      "revision": 1,
+      "prompt": "Qual construção normativa expressa necessidade de revisão dos procedimentos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Deve-se revisar os procedimentos” é a única forma possível na análise passiva."
+        },
+        {
+          "id": "B",
+          "text": "“Devem-se revisarem os procedimentos.”"
+        },
+        {
+          "id": "C",
+          "text": "“Deve-se revisarem os procedimentos.”"
+        },
+        {
+          "id": "D",
+          "text": "“Devem-se revisar os procedimentos.”"
+        },
+        {
+          "id": "E",
+          "text": "“Devem revisar-se de procedimentos.”"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na leitura passiva, “os procedimentos” é sujeito paciente plural: “os procedimentos devem ser revisados”. Fonte: adaptação conceitual de cobrança Cebraspe — SEMED, Professor, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3508",
+      "revision": 1,
+      "prompt": "Em “Pode-se recorrer da decisão”, o singular se deve a",
+      "options": [
+        {
+          "id": "A",
+          "text": "“decisão” ser sujeito paciente."
+        },
+        {
+          "id": "B",
+          "text": "todo auxiliar modal ser impessoal."
+        },
+        {
+          "id": "C",
+          "text": "“se” ser partícula apassivadora."
+        },
+        {
+          "id": "D",
+          "text": "a oração possuir sujeito plural oculto."
+        },
+        {
+          "id": "E",
+          "text": "“recorrer” ser transitivo indireto, sem sujeito paciente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A construção tem sujeito indeterminado; o verbo fica na terceira pessoa do singular. Fonte: adaptação conceitual de cobrança Cebraspe — Prefeitura de Mossoró, Auditor Fiscal, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3509",
+      "revision": 1,
+      "prompt": "Na cadeia “A ata e o parecer tinham sido aprovados”, quais relações estão corretas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“tinham” concorda com o sujeito composto e “aprovados” vai ao masculino plural abrangente."
+        },
+        {
+          "id": "B",
+          "text": "“tinham” concorda apenas com “parecer”."
+        },
+        {
+          "id": "C",
+          "text": "“aprovados” deve ficar no singular."
+        },
+        {
+          "id": "D",
+          "text": "o auxiliar é impessoal."
+        },
+        {
+          "id": "E",
+          "text": "o particípio concorda com um objeto direto oculto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Auxiliar e particípio devem ser analisados separadamente. Fonte: questão autoral inspirada em cobranças recorrentes do Cebraspe sobre concordância; sem reprodução de enunciado oficial."
+    },
+    {
+      "id": "q3510",
+      "revision": 1,
+      "prompt": "Em “Tenham sido desenvolvidos o aparelhamento e as atividades”, o plural de “tenham” e “desenvolvidos”",
+      "options": [
+        {
+          "id": "A",
+          "text": "é provocado pelo objeto “atividades” apenas."
+        },
+        {
+          "id": "B",
+          "text": "pode concordar com o sujeito composto posposto considerado em conjunto."
+        },
+        {
+          "id": "C",
+          "text": "é sempre incorreto com sujeito posposto."
+        },
+        {
+          "id": "D",
+          "text": "decorre de impessoalidade."
+        },
+        {
+          "id": "E",
+          "text": "é exigido por “sido”."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A cadeia passiva concorda com os dois núcleos do sujeito. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3511",
+      "revision": 1,
+      "prompt": "Assinale a forma correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“As certidões foi consideradas válidas.”"
+        },
+        {
+          "id": "B",
+          "text": "“As certidões foram considerado válidas.”"
+        },
+        {
+          "id": "C",
+          "text": "“As certidões foram consideradas válidas.”"
+        },
+        {
+          "id": "D",
+          "text": "“As certidões foram consideradas válido.”"
+        },
+        {
+          "id": "E",
+          "text": "“As certidões foi considerado válido.”"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Verbo, particípio e predicativo concordam com o sujeito feminino plural. Fonte: adaptação conceitual de cobrança Cebraspe — SEFAZ/PR, Agente Fazendário, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3512",
+      "revision": 1,
+      "prompt": "Em “Isso são dificuldades previsíveis”, o plural de “são” é explicado pela",
+      "options": [
+        {
+          "id": "A",
+          "text": "obrigação de concordar com o demonstrativo neutro."
+        },
+        {
+          "id": "B",
+          "text": "impessoalidade do verbo “ser”."
+        },
+        {
+          "id": "C",
+          "text": "presença de um sujeito composto."
+        },
+        {
+          "id": "D",
+          "text": "concordância possível com o predicativo plural."
+        },
+        {
+          "id": "E",
+          "text": "concordância com um objeto direto."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Com demonstrativo neutro e predicativo plural, a concordância com o predicativo é frequente. Fonte: adaptação conceitual de cobrança Cebraspe — IPAAM, Assistente Ambiental, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3513",
+      "revision": 1,
+      "prompt": "Qual expressão segue o padrão editorial recomendado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Hajam vista os resultados obtidos.”"
+        },
+        {
+          "id": "B",
+          "text": "“Haja vistos os resultados obtidos.”"
+        },
+        {
+          "id": "C",
+          "text": "“Hajam vistos os resultados obtidos.”"
+        },
+        {
+          "id": "D",
+          "text": "“Haja visto aos resultados obtidos.”"
+        },
+        {
+          "id": "E",
+          "text": "“Haja vista os resultados obtidos.”"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Na expressão causal ou exemplificativa, “haja vista” é invariável. Fonte: adaptação conceitual de cobrança Cebraspe — TCE/RN, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3514",
+      "revision": 1,
+      "prompt": "Em “Havia estudado os relatórios”, a forma “havia”",
+      "options": [
+        {
+          "id": "A",
+          "text": "é auxiliar pessoal de tempo composto, não “haver” existencial."
+        },
+        {
+          "id": "B",
+          "text": "é sempre impessoal."
+        },
+        {
+          "id": "C",
+          "text": "deve ir ao plural por causa de “relatórios”."
+        },
+        {
+          "id": "D",
+          "text": "tem “relatórios” como sujeito."
+        },
+        {
+          "id": "E",
+          "text": "equivale necessariamente a “existia”."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O valor auxiliar distingue essa ocorrência do “haver” impessoal. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Advogado, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3515",
+      "revision": 1,
+      "prompt": "Em “É necessário que os dados sejam conferidos”, o predicativo fica no singular porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "“dados” é objeto direto."
+        },
+        {
+          "id": "B",
+          "text": "o sujeito da oração principal é a oração inteira."
+        },
+        {
+          "id": "C",
+          "text": "“necessário” é advérbio invariável."
+        },
+        {
+          "id": "D",
+          "text": "o verbo “ser” é impessoal em todo contexto."
+        },
+        {
+          "id": "E",
+          "text": "há sujeito oculto masculino."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sujeito oracional é tomado como bloco de valor singular. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Assistente Administrativo e Financeiro, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3516",
+      "revision": 1,
+      "prompt": "Compare “É necessária a conferência” e “É necessário conferir”. A diferença de concordância decorre de",
+      "options": [
+        {
+          "id": "A",
+          "text": "“conferir” ser verbo impessoal."
+        },
+        {
+          "id": "B",
+          "text": "a presença do artigo sempre proibir o singular."
+        },
+        {
+          "id": "C",
+          "text": "o primeiro sujeito ser nominal feminino e o segundo ser oracional."
+        },
+        {
+          "id": "D",
+          "text": "“necessária” concordar com objeto direto."
+        },
+        {
+          "id": "E",
+          "text": "as duas construções exigirem masculino."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A natureza do sujeito controla o predicativo. Fonte: adaptação conceitual de cobrança Cebraspe — UNIVESP, Supervisor Pedagógico, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3517",
+      "revision": 1,
+      "prompt": "Na frase “Aos gestores cabe revisar os controles”, “cabe” permanece no singular porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "“gestores” é sujeito plural."
+        },
+        {
+          "id": "B",
+          "text": "o verbo é impessoal."
+        },
+        {
+          "id": "C",
+          "text": "“controles” é sujeito."
+        },
+        {
+          "id": "D",
+          "text": "o sujeito é a oração reduzida “revisar os controles”."
+        },
+        {
+          "id": "E",
+          "text": "a preposição exige singular por atração."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "“Aos gestores” é complemento indireto; a oração infinitiva exerce a função de sujeito. Fonte: adaptação conceitual de cobrança Cebraspe — CAESB, Operador de Estação de Tratamento, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3518",
+      "revision": 1,
+      "prompt": "Assinale a forma adequada com sujeito expresso do infinitivo.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Antes dos gestores revisar os controles, houve reunião.”"
+        },
+        {
+          "id": "B",
+          "text": "“Antes de os gestores revisar os controles, houveram reunião.”"
+        },
+        {
+          "id": "C",
+          "text": "“Antes de os gestores revisarem os controles, houveram reuniões.”"
+        },
+        {
+          "id": "D",
+          "text": "“Antes dos gestores revisarem” é a única forma formal possível."
+        },
+        {
+          "id": "E",
+          "text": "“Antes de os gestores revisarem os controles, houve reunião.”"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O sujeito do infinitivo é “os gestores”; a flexão explicita a relação. A redação formal evita contrair a preposição com o artigo do sujeito. Fonte: adaptação conceitual de cobrança Cebraspe — TRT da 10ª Região, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3519",
+      "revision": 1,
+      "prompt": "Em “Os gestores devem revisar os controles”, a forma “revisar”",
+      "options": [
+        {
+          "id": "A",
+          "text": "não se flexiona porque integra locução verbal com o auxiliar “devem”."
+        },
+        {
+          "id": "B",
+          "text": "deve ser “revisarem”."
+        },
+        {
+          "id": "C",
+          "text": "é sujeito da oração principal."
+        },
+        {
+          "id": "D",
+          "text": "concorda com “controles”."
+        },
+        {
+          "id": "E",
+          "text": "é particípio invariável."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Na locução, apenas o auxiliar recebe as marcas de número e pessoa. Fonte: adaptação conceitual de cobrança Cebraspe — TST, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3520",
+      "revision": 1,
+      "prompt": "Qual frase apresenta concordância adequada com sujeito oracional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Bastam que uma inconsistência seja encontrada.”"
+        },
+        {
+          "id": "B",
+          "text": "“Basta que uma inconsistência seja encontrada.”"
+        },
+        {
+          "id": "C",
+          "text": "“Bastam que inconsistências seja encontrada.”"
+        },
+        {
+          "id": "D",
+          "text": "“Basta que inconsistências seja encontradas.”"
+        },
+        {
+          "id": "E",
+          "text": "“Bastam-se que uma inconsistência seja encontrada.”"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O sujeito de “basta” é a oração desenvolvida, tomada como unidade. Fonte: adaptação conceitual de cobrança Cebraspe — SEMED, Professor, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3521",
+      "revision": 1,
+      "prompt": "Em “Convém revisar as planilhas”, a proximidade de “planilhas”",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige “convêm”."
+        },
+        {
+          "id": "B",
+          "text": "transforma “planilhas” em sujeito de “convém”."
+        },
+        {
+          "id": "C",
+          "text": "não autoriza o plural “convêm”, pois a oração infinitiva é o sujeito."
+        },
+        {
+          "id": "D",
+          "text": "torna “convém” impessoal."
+        },
+        {
+          "id": "E",
+          "text": "obriga a flexão “revisarem”."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O sujeito oracional controla o verbo no singular. Fonte: adaptação conceitual de cobrança Cebraspe — Prefeitura de Mossoró, Auditor Fiscal, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3522",
+      "revision": 1,
+      "prompt": "Qual construção destaca duas ações autônomas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Planejar e executar é uma atividade integrada.”"
+        },
+        {
+          "id": "B",
+          "text": "“É preciso planejar e executar.”"
+        },
+        {
+          "id": "C",
+          "text": "“Convém planejar e executar.”"
+        },
+        {
+          "id": "D",
+          "text": "“Planejar e executar são etapas distintas.”"
+        },
+        {
+          "id": "E",
+          "text": "“Cabe aos gestores planejar e executar.”"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O predicativo plural “etapas distintas” favorece a individualização dos infinitivos. Fonte: questão autoral inspirada em cobranças recorrentes do Cebraspe sobre concordância; sem reprodução de enunciado oficial."
+    },
+    {
+      "id": "q3523",
+      "revision": 1,
+      "prompt": "Assinale a concordância nominal adequada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Segue anexo as planilhas.”"
+        },
+        {
+          "id": "B",
+          "text": "“Seguem anexo as planilhas.”"
+        },
+        {
+          "id": "C",
+          "text": "“Segue anexas as planilhas.”"
+        },
+        {
+          "id": "D",
+          "text": "“Seguem anexa as planilhas.”"
+        },
+        {
+          "id": "E",
+          "text": "“Seguem anexas as planilhas.”"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "“Anexas” é adjetivo e concorda com “planilhas”; “seguem” também concorda com o sujeito plural. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3524",
+      "revision": 1,
+      "prompt": "Qual frase usa corretamente a locução invariável?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Seguem em anexo as planilhas.”"
+        },
+        {
+          "id": "B",
+          "text": "“Seguem em anexas as planilhas.”"
+        },
+        {
+          "id": "C",
+          "text": "“Segue em anexos as planilhas.”"
+        },
+        {
+          "id": "D",
+          "text": "“Seguem em anexa as planilhas.”"
+        },
+        {
+          "id": "E",
+          "text": "“Segue em anexo as planilhas.”"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "“Em anexo” é locução invariável; o verbo concorda com “planilhas”. Fonte: adaptação conceitual de cobrança Cebraspe — SEFAZ/PR, Agente Fazendário, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3525",
+      "revision": 1,
+      "prompt": "Em “A ata e o relatório estavam prontos”, o masculino plural de “prontos”",
+      "options": [
+        {
+          "id": "A",
+          "text": "concorda apenas com “relatório”."
+        },
+        {
+          "id": "B",
+          "text": "abrange substantivos de gêneros diferentes."
+        },
+        {
+          "id": "C",
+          "text": "é invariável."
+        },
+        {
+          "id": "D",
+          "text": "deveria ser feminino plural."
+        },
+        {
+          "id": "E",
+          "text": "decorre da impessoalidade de “estar”."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O plural abrangente de gêneros diferentes vai normalmente ao masculino. Fonte: adaptação conceitual de cobrança Cebraspe — IPAAM, Assistente Ambiental, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3526",
+      "revision": 1,
+      "prompt": "Assinale a opção em que o adjetivo anteposto concorda por proximidade.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Novas norma e procedimento foram divulgados.”"
+        },
+        {
+          "id": "B",
+          "text": "“Novo norma e procedimento foram divulgados.”"
+        },
+        {
+          "id": "C",
+          "text": "“Nova norma e procedimento foram divulgados.”"
+        },
+        {
+          "id": "D",
+          "text": "“Novos norma e procedimento foi divulgado.”"
+        },
+        {
+          "id": "E",
+          "text": "“Nova norma e procedimento foi divulgadas.”"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Como adjunto anteposto, “nova” concorda com o substantivo mais próximo, “norma”. Fonte: adaptação conceitual de cobrança Cebraspe — TCE/RN, 2026; enunciado reescrito."
+    },
+    {
+      "id": "q3527",
+      "revision": 1,
+      "prompt": "Qual construção apresenta cadeia predicativa correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“A ata e a certidão foi consideradas válidas.”"
+        },
+        {
+          "id": "B",
+          "text": "“A ata e a certidão foram considerado válidas.”"
+        },
+        {
+          "id": "C",
+          "text": "“A ata e a certidão foram consideradas válido.”"
+        },
+        {
+          "id": "D",
+          "text": "“A ata e a certidão foram consideradas válidas.”"
+        },
+        {
+          "id": "E",
+          "text": "“A ata e a certidão foi considerado válido.”"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Auxiliar, particípio e predicativo concordam com o sujeito composto feminino. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Advogado, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3528",
+      "revision": 1,
+      "prompt": "Em “Os fiscais ficaram sós”, “sós” significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente e permanece invariável."
+        },
+        {
+          "id": "B",
+          "text": "metade e varia como numeral."
+        },
+        {
+          "id": "C",
+          "text": "alerta e permanece invariável."
+        },
+        {
+          "id": "D",
+          "text": "muito e funciona como advérbio."
+        },
+        {
+          "id": "E",
+          "text": "sozinhos e, por isso, varia como adjetivo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "“Só” adjetivo varia; “só” com valor de “somente” é advérbio. Fonte: adaptação conceitual de cobrança Cebraspe — CAU/MG, Assistente Administrativo e Financeiro, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3529",
+      "revision": 1,
+      "prompt": "Assinale a frase adequada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“As servidoras estavam meio cansadas.”"
+        },
+        {
+          "id": "B",
+          "text": "“As servidoras estavam meias cansadas.”"
+        },
+        {
+          "id": "C",
+          "text": "“As servidoras estavam meios cansadas.”"
+        },
+        {
+          "id": "D",
+          "text": "“A servidora estava meia cansado.”"
+        },
+        {
+          "id": "E",
+          "text": "“As servidoras estavam meio cansado.”"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "“Meio” equivale a “um pouco” e funciona como advérbio invariável; “cansadas” concorda com o sujeito. Fonte: adaptação conceitual de cobrança Cebraspe — UNIVESP, Supervisor Pedagógico, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3530",
+      "revision": 1,
+      "prompt": "Em “Havia bastantes razões”, “bastantes”",
+      "options": [
+        {
+          "id": "A",
+          "text": "é advérbio invariável."
+        },
+        {
+          "id": "B",
+          "text": "é variável porque equivale a “muitas/suficientes”."
+        },
+        {
+          "id": "C",
+          "text": "deveria ser “bastante” em qualquer uso."
+        },
+        {
+          "id": "D",
+          "text": "concorda com o verbo impessoal."
+        },
+        {
+          "id": "E",
+          "text": "é preposição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Quando determina substantivo, “bastante” pode variar. Fonte: adaptação conceitual de cobrança Cebraspe — CAESB, Operador de Estação de Tratamento, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3531",
+      "revision": 1,
+      "prompt": "Assinale a forma correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“As razões eram bastantes claras.”"
+        },
+        {
+          "id": "B",
+          "text": "“As razão eram bastante claras.”"
+        },
+        {
+          "id": "C",
+          "text": "“As razões eram bastante claras.”"
+        },
+        {
+          "id": "D",
+          "text": "“As razões era bastante claras.”"
+        },
+        {
+          "id": "E",
+          "text": "“As razões eram bastante claro.”"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Bastante” intensifica o adjetivo e é advérbio invariável; “claras” concorda com “razões”. Fonte: adaptação conceitual de cobrança Cebraspe — TRT da 10ª Região, 2025; enunciado reescrito."
+    },
+    {
+      "id": "q3532",
+      "revision": 1,
+      "prompt": "Qual frase está correta quanto a “possível”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Foram adotadas as medidas mais rápidas possível.”"
+        },
+        {
+          "id": "B",
+          "text": "“Foi adotadas as medidas mais rápidas possíveis.”"
+        },
+        {
+          "id": "C",
+          "text": "“Foram adotada as medidas mais rápidas possíveis.”"
+        },
+        {
+          "id": "D",
+          "text": "“Foram adotadas as medidas mais rápidas possíveis.”"
+        },
+        {
+          "id": "E",
+          "text": "“Foram adotadas as medida mais rápidas possíveis.”"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Na estrutura com artigo plural “as mais...”, “possíveis” concorda com “medidas”. Fonte: adaptação conceitual de cobrança Cebraspe — TST, 2024; enunciado reescrito."
+    },
+    {
+      "id": "q3533",
+      "revision": 1,
+      "prompt": "Assinale a construção adequada com particípio anteposto.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Dado as circunstâncias, o relatório foi revisto.”"
+        },
+        {
+          "id": "B",
+          "text": "“Dadas as circunstâncias, o relatório foram revisto.”"
+        },
+        {
+          "id": "C",
+          "text": "“Dado as circunstâncias, os relatório foi revisto.”"
+        },
+        {
+          "id": "D",
+          "text": "“Dadas as circunstância, o relatório foram revistos.”"
+        },
+        {
+          "id": "E",
+          "text": "“Dadas as circunstâncias, o relatório foi revisto.”"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "“Dadas” tem valor participial e concorda com “circunstâncias”. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3534",
+      "revision": 1,
+      "prompt": "Em “Todos compareceram, salvo as servidoras dispensadas”, “salvo”",
+      "options": [
+        {
+          "id": "A",
+          "text": "é invariável no emprego preposicional."
+        },
+        {
+          "id": "B",
+          "text": "deve ser “salvas”."
+        },
+        {
+          "id": "C",
+          "text": "concorda com o sujeito “todos”."
+        },
+        {
+          "id": "D",
+          "text": "é particípio passivo de “salvar”."
+        },
+        {
+          "id": "E",
+          "text": "exige verbo no singular."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Nesse valor equivalente a “exceto”, a forma é invariável. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3535",
+      "revision": 1,
+      "prompt": "Assinale a forma adequada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Visto os autos, o relator decidiu.”"
+        },
+        {
+          "id": "B",
+          "text": "“Vistos os autos, o relator decidiu.”"
+        },
+        {
+          "id": "C",
+          "text": "“Vistos os autos, os relator decidiu.”"
+        },
+        {
+          "id": "D",
+          "text": "“Visto os autos, o relator decidiram.”"
+        },
+        {
+          "id": "E",
+          "text": "“Vistas os autos, o relator decidiu.”"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“Vistos” é particípio e concorda com “autos”. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3536",
+      "revision": 1,
+      "prompt": "Qual construção emprega “alerta” como adjetivo pleno variável?",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Os servidores permaneciam alertas” é sempre erro."
+        },
+        {
+          "id": "B",
+          "text": "“Os servidores estavam alerta aos riscos” é a única forma possível."
+        },
+        {
+          "id": "C",
+          "text": "“Os servidores estavam alertas aos riscos.”"
+        },
+        {
+          "id": "D",
+          "text": "“Alerta” nunca pode variar."
+        },
+        {
+          "id": "E",
+          "text": "“Os servidores estavam alerto aos riscos.”"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Quando funciona como adjetivo pleno, “alerta” pode ir ao plural. Em expressões cristalizadas, a forma invariável também ocorre. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3537",
+      "revision": 1,
+      "prompt": "Assinale a forma correta com “menos”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Havia menas falhas no relatório.”"
+        },
+        {
+          "id": "B",
+          "text": "“Haviam menos falhas no relatório.”"
+        },
+        {
+          "id": "C",
+          "text": "“Havia menos falha nos relatórios” é obrigatoriamente plural."
+        },
+        {
+          "id": "D",
+          "text": "“Havia menos falhas no relatório.”"
+        },
+        {
+          "id": "E",
+          "text": "“Menos” deve concordar com “falhas”."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "“Menos” é invariável; “haver” existencial permanece no singular. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    },
+    {
+      "id": "q3538",
+      "revision": 1,
+      "prompt": "Em “crime de lesa-administração”, a forma “lesa”",
+      "options": [
+        {
+          "id": "A",
+          "text": "é invariável em qualquer composto."
+        },
+        {
+          "id": "B",
+          "text": "deveria ser “leso-administração”."
+        },
+        {
+          "id": "C",
+          "text": "é verbo no presente."
+        },
+        {
+          "id": "D",
+          "text": "concorda com “crime”."
+        },
+        {
+          "id": "E",
+          "text": "concorda com o substantivo feminino “administração”."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "“Leso” varia em gênero no composto conforme o segundo elemento. Fonte: adaptação conceitual de questão de banca similar sobre concordância verbal e nominal; enunciado integralmente reescrito."
+    }
   ]
 }

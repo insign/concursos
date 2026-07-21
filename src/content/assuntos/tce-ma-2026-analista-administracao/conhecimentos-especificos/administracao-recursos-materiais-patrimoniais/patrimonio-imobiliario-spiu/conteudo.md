@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Patrimônio imobiliário, SPIU, gestão e conservação
-description: Patrimônio imobiliário público, cadastro jurídico, administrativo e contábil, SPIU, SPIUnet, SPUnet, gestão, manutenção e conservação de imóveis.
+description: Patrimônio imobiliário público, cadastro e RIP, SPIUnet e SPUnet, contabilidade atualizada, carteira, manutenção, fiscalização e auditoria.
 order: 116
 storageId: patrimonio-imobiliario-spiu
 ---
@@ -42,6 +42,25 @@ O bem dominical continua público e não pode ser adquirido por usucapião. Um i
 
 **Afetação** vincula o bem a uso comum ou especial. **Desafetação** retira essa destinação pública específica quando o ordenamento e a autoridade competente o permitem. A mudança de uso fático, o abandono ou a desocupação não substituem o ato jurídico necessário.
 
+<!-- REVISAO-PATRIMONIO-IMOBILIARIO-2026 -->
+
+### 1.3 Governança do imóvel e matriz de responsabilidades
+
+A gestão imobiliária exige governança explícita. Titularidade, posse, utilização, manutenção, cadastro e registro contábil podem estar distribuídos entre unidades diferentes, mas a fragmentação não elimina responsabilidade.
+
+| Papel | Responsabilidade predominante |
+| --- | --- |
+| alta administração | definir política, apetite a risco, prioridades e recursos |
+| unidade patrimonial | manter cadastro, destinação, ocupação e histórico |
+| unidade técnica | inspecionar, caracterizar, projetar e acompanhar intervenções |
+| unidade jurídica | examinar títulos, ônus, instrumentos, regularização e competência |
+| contabilidade | reconhecer, mensurar, depreciar, reavaliar e conciliar |
+| unidade usuária | comunicar alterações, zelar pelo uso e validar necessidades |
+| fiscalização contratual | medir, testar, aceitar e documentar a execução |
+| controle interno e externo | avaliar governança, confiabilidade, economicidade e conformidade |
+
+A matriz deve indicar quem decide, executa, valida e é informado. Um problema sem responsável definido tende a permanecer entre as áreas sem saneamento.
+
 ## 2. As dimensões do controle imobiliário
 
 Um mesmo imóvel deve ser observado por dimensões diferentes:
@@ -55,6 +74,22 @@ Um mesmo imóvel deve ser observado por dimensões diferentes:
 | funcional | o imóvel atende à finalidade pública? | ocupação, capacidade, acessibilidade, desempenho, custo e nível de serviço |
 
 Uma divergência em qualquer camada exige saneamento. Exemplos: prédio utilizado sem cadastro; cadastro sem matrícula conhecida; área física diferente da certidão; imóvel baixado na contabilidade, mas ainda sob controle; valor incompatível com avaliação; unidade desocupada sem proteção ou nova destinação.
+
+### 2.1 Qualidade dos dados e controles de migração
+
+Um cadastro confiável deve apresentar:
+
+| Critério | Pergunta de controle |
+| --- | --- |
+| completude | todos os campos e documentos necessários existem? |
+| exatidão | o dado coincide com a realidade e com a fonte competente? |
+| consistência | cadastro, matrícula, contabilidade, contrato e ocupação convergem? |
+| tempestividade | alterações foram registradas sem atraso material? |
+| unicidade | existem duplicidades ou identificadores concorrentes? |
+| validade | o valor respeita formato, domínio e regra de negócio? |
+| rastreabilidade | é possível saber quem alterou, quando e com qual evidência? |
+
+Migrações entre sistemas exigem mapeamento de identificadores, controle das alterações durante a transição, totais de controle, relatório de exceções, amostragem documental, aceite das unidades e conciliação posterior. Copiar dados inconsistentes apenas transfere o problema para a plataforma nova.
 
 ## 3. Ciclo de vida do imóvel público
 
@@ -115,6 +150,22 @@ Conciliar significa comparar as bases e explicar diferenças. Para cada imóvel,
 - identificadores cadastrais;
 - valor e conta contábil;
 - responsabilidades, contratos e documentos.
+
+### 4.5 Cadastro Nacional de Bens Imóveis da União e estrutura do RIP
+
+No contexto federal, o Decreto nº 99.672/1990 estruturou o Cadastro Nacional de Bens Imóveis da União. O **RIP** é identificador cadastral numérico: não é matrícula, título aquisitivo nem prova autônoma de domínio.
+
+Na operação histórica do SPIUnet, é útil distinguir:
+
+| Elemento | Função |
+| --- | --- |
+| cadastro ou RIP do imóvel | identifica o imóvel na base patrimonial |
+| RIP utilização | identifica uma utilização, ocupação ou parcela vinculada ao cadastro |
+| unidade gestora | mantém os dados da utilização sob sua responsabilidade |
+| imóvel compartilhado | pode exigir utilizações individualizadas por unidade |
+| imóvel locado de terceiro | pode ser cadastrado para gerir uso e contrato, sem se tornar bem próprio |
+
+O RIP utilização não existe sem o cadastro do imóvel. Alterar apenas a utilização também não sana divergência de matrícula, área, titularidade ou valor do imóvel-base.
 
 ## 5. Lei nº 4.320/1964 e inventário de imóveis
 
@@ -183,6 +234,21 @@ Um órgão pode precisar cadastrar um imóvel locado para gerir a ocupação e o
 
 SPIUnet e SIAFI tinham funções distintas. O primeiro apoiava o cadastro imobiliário federal; o segundo registra a execução e os fatos contábeis federais. Integração de dados não elimina a necessidade de conciliação nem torna os sistemas equivalentes.
 
+### 7.5 Como responder sobre sistema legado e sistema atual
+
+O edital pode usar a sigla histórica **SPIU** e a banca pode cobrar funcionalidades documentadas do SPIUnet mesmo depois da migração.
+
+| Comando | Critério de resposta |
+| --- | --- |
+| funcionalidade histórica do SPIUnet | examinar o funcionamento legado descrito na fonte |
+| sistema operacional vigente em julho de 2026 | SPUnet |
+| novos fluxos no SPIUnet após 2 abr. 2026 | afirmação incorreta |
+| SPIUnet disponível apenas para consulta | afirmação correta no corte temporal |
+| SPUnet já incorporou definitivamente todos os sistemas e módulos | afirmação excessiva |
+| SPUnet como sistema próprio do TCE-MA | incorreto sem ato específico de adoção |
+
+A data e o verbo do enunciado importam: “permitia”, “registrava” e “permanece operacional” não formulam a mesma pergunta.
+
 ## 8. Situação dos sistemas no corte de 15 de julho de 2026
 
 A SPU informou oficialmente que:
@@ -193,6 +259,21 @@ A SPU informou oficialmente que:
 Logo, é incorreto dizer, no corte deste material, que o SPIUnet permanece o sistema operacional vigente. Ele continua relevante como sistema legado, fonte histórica e expressão presente em editais.
 
 Também é incorreto concluir que o SPUnet seja o sistema do TCE-MA. SPIUnet e SPUnet pertencem ao contexto federal da SPU. A pesquisa não encontrou ato oficial que demonstre sua adoção para o patrimônio próprio do Tribunal ou do Estado do Maranhão.
+
+### 8.1 SPUnet em implantação progressiva
+
+O SPUnet é plataforma integrada estruturada em módulos e implantada progressivamente. Fontes oficiais de 2026 apresentam fotografias temporais diferentes do estágio dos módulos, porque a implantação continuava em evolução.
+
+Pontos estáveis para prova:
+
+- o SPIUnet e o SISREI ficaram somente para consulta em 9 de março de 2026;
+- os fluxos do SPIUnet passaram ao SPUnet em 2 de abril de 2026;
+- o SPUnet ainda incorporava funcionalidades e bases do SIAPA;
+- cadastro, avaliação, destinação, contratos, fiscalização e contabilidade pertencem a macroprocessos distintos;
+- o número de módulos implantados deve ser lido conforme a data da fonte;
+- integração não elimina controles de acesso, validação, rastreabilidade ou conciliação com o SIAFI.
+
+Não memorize um número de módulos sem observar a data de referência da questão.
 
 ## 9. Contabilidade patrimonial do imóvel
 
@@ -243,6 +324,23 @@ Sinistro, dano, obsolescência, desocupação prolongada ou perda de utilidade p
 A Portaria Conjunta STN/SPU nº 10/2023 disciplina mensuração, atualização, reavaliação e depreciação de imóveis da União, autarquias e fundações públicas federais em sistemas da SPU. Entre outras regras, exige atualização cadastral, separa valores e atribui competências aos órgãos gestores.
 
 Seus percentuais, prazos e método de depreciação são regras federais específicas. Não devem ser convertidos em regra geral para qualquer ente. Para a teoria contábil ampla, prevalecem MCASP e normas contábeis aplicáveis.
+
+### 9.7 Normas contábeis vigentes e classificação pela finalidade
+
+Em 2026, a referência principal para ativo imobilizado no setor público passou a ser a **NBC TSP 37 — Ativo Imobilizado**, complementada pela **NBC TSP 38 — Mensuração**. A **NBC TSP 35 — Arrendamentos** disciplina os efeitos contábeis de arrendamentos, e a **NBC TSP 06 (R1)** trata de propriedade para investimento.
+
+A classificação não decorre apenas da aparência física:
+
+| Situação predominante | Análise contábil |
+| --- | --- |
+| imóvel usado na prestação de serviços | ativo imobilizado, se atendidos os critérios |
+| imóvel mantido para aluguel ou valorização | examinar propriedade para investimento |
+| imóvel controlado mediante arrendamento | examinar ativo de direito de uso e a NBC TSP 35 |
+| imóvel de terceiro apenas cadastrado para gestão | cadastro não produz reconhecimento automático de propriedade |
+| imóvel destinado à venda | examinar a norma e os critérios aplicáveis à destinação |
+| benfeitoria em imóvel de terceiro | analisar controle, potencial de serviços, prazo e substância |
+
+A propriedade jurídica, o controle do recurso, a finalidade de uso e a classificação contábil são perguntas relacionadas, mas não idênticas.
 
 ## 10. Gestão da carteira imobiliária
 
@@ -297,6 +395,23 @@ As fronteiras dependem do caso. Uma mesma obra pode ter parcelas de reparo e de 
 
 Preventiva não significa intervir em todos os componentes com a mesma frequência. A periodicidade deve considerar fabricante, norma, ambiente, idade, condição, criticidade e histórico.
 
+### 11.2 Diligência dominial e técnica antes da intervenção
+
+Divergências devem ser tratadas conforme sua natureza:
+
+| Divergência | Providência inicial |
+| --- | --- |
+| área medida diferente da matrícula | levantamento, cadeia documental e eventual retificação |
+| edificação não averbada | verificar documentação e averbação cabível |
+| demolição não refletida | vistoria, prova da demolição e atualização das bases |
+| duas matrículas para uso integrado | avaliar unificação física, cadastral ou registral |
+| uma matrícula com usos distintos | individualizar utilizações, responsáveis e custos |
+| ônus ou restrição não cadastrados | atualizar cadastro e avaliar efeito sobre a destinação |
+| ocupação sem instrumento | regularizar o fundamento de uso |
+| planta incompatível com a realidade | atualizar projeto, inventário técnico e cadastro |
+
+Nenhuma dessas situações autoriza simplesmente “corrigir o sistema” sem produzir a evidência técnica e jurídica correspondente.
+
 ## 12. Plano de manutenção predial
 
 Um plano consistente reúne:
@@ -332,6 +447,23 @@ Uma falha pequena em sistema de combate a incêndio pode ser mais crítica que d
 ### 12.2 Ordem de serviço
 
 A ordem de serviço deve permitir rastrear solicitação, local, ativo ou componente, diagnóstico, prioridade, responsável, materiais, horas, custo, execução, teste, aceite e evidências. Encerrar a ordem sem verificar a solução mascara reincidência e prejudica indicadores.
+
+### 12.3 Matriz de conformidade predial
+
+O plano deve controlar, conforme o imóvel e a legislação aplicável:
+
+- projetos, manuais e documentação como construída;
+- inspeções e laudos prediais;
+- prevenção e combate a incêndio;
+- instalações elétricas e hidrossanitárias;
+- elevadores e equipamentos de transporte;
+- climatização e PMOC quando exigível;
+- acessibilidade e rotas de circulação;
+- segurança do trabalho;
+- licenças, certificados e responsabilidades técnicas;
+- garantias, testes e registros de aceite.
+
+O documento vencido, a inspeção não realizada e o equipamento inoperante são fatos diferentes, embora possam coexistir. A matriz deve identificar critério, validade, responsável, evidência, risco e providência.
 
 ## 13. Inspeção, riscos e fiscalização
 
@@ -387,6 +519,21 @@ Consumo de água e energia, resíduos, conforto ambiental, durabilidade e custo 
 
 Hospitais, centros de dados, atendimento ao público e outras instalações críticas precisam de contingência, redundância e janelas de intervenção compatíveis com o serviço.
 
+### 15.5 Ferramentas digitais e seus limites
+
+BIM, GIS, sensores, mapas e gêmeos digitais podem apoiar inventário, localização, inspeção, manutenção baseada em condição, ocupação e consumo.
+
+Eles não substituem:
+
+- matrícula e averbações;
+- título ou instrumento de uso;
+- cadastro patrimonial oficial;
+- lançamento contábil;
+- vistoria e aceite;
+- decisão da autoridade competente.
+
+Uma representação tridimensional atualizada pode ser excelente evidência técnica, mas não transforma o modelo digital em título jurídico ou registro contábil.
+
 ## 16. Indicadores
 
 | Indicador | Leitura possível |
@@ -406,6 +553,21 @@ Hospitais, centros de dados, atendimento ao público e outras instalações crí
 
 Indicador sinaliza; não determina a causa. Prédio hospitalar antigo pode ter custo por metro quadrado maior que depósito novo sem que isso prove desperdício. Comparações exigem criticidade, idade, padrão, localização e nível de serviço equivalentes.
 
+### 16.1 Perspectiva de auditoria e controle externo
+
+Um achado de auditoria pode ser estruturado assim:
+
+| Elemento | Pergunta |
+| --- | --- |
+| critério | o que deveria ocorrer segundo lei, norma, contrato, plano ou meta? |
+| condição | o que foi efetivamente encontrado? |
+| causa | por que a diferença ocorreu? |
+| efeito ou risco | qual consequência real ou potencial? |
+| evidência | quais documentos, medições, inspeções e confirmações sustentam o achado? |
+| encaminhamento | qual ação é proporcional à causa e ao risco? |
+
+Exemplo: o plano exige inspeção semestral, mas sistemas críticos não foram inspecionados porque o inventário técnico está incompleto; o efeito é risco à segurança e à continuidade. A recomendação deve atacar a causa e permitir monitoramento.
+
 ## 17. Casos integradores
 
 ### 17.1 Área física maior que a matrícula
@@ -423,6 +585,14 @@ A contratação precisa separar reparo, eventual melhoria e componentes substitu
 ### 17.4 Imóvel locado cadastrado
 
 O cadastro ajuda a gerir ocupação, custo e contrato, mas não torna o imóvel propriedade do órgão. O título de uso e o tratamento contábil precisam permanecer explícitos.
+
+### 17.5 Imóvel próprio ocioso e locação simultânea
+
+A coincidência é sinal de alerta, não prova automática de desperdício. A análise deve comparar localização, capacidade, acessibilidade, custo de adaptação, prazo, continuidade do serviço e possibilidade real de ocupação.
+
+### 17.6 Componente substituído sem baixa
+
+Quando um componente relevante é substituído, a equipe deve examinar baixa do componente antigo, reconhecimento do novo, atualização do inventário técnico, garantias, histórico e valor contábil. Registrar apenas a despesa ou apenas a ordem de serviço pode manter ativo inexistente na base.
 
 ## 18. Pegadinhas de prova
 
@@ -455,6 +625,13 @@ Aquisição, responsabilidade, movimentação e alienação aparecem somente qua
 
 ## Referências
 
+- [NBC TSP 06 (R1) — Propriedade para Investimento](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, norma atual sobre imóveis mantidos para aluguel ou valorização; acesso em 19 jul. 2026.
+- [NBC TSP 35 — Arrendamentos](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 abr. 2026; acesso em 19 jul. 2026.
+- [NBC TSP 37 — Ativo Imobilizado](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 mar. 2026; acesso em 19 jul. 2026.
+- [NBC TSP 38 — Mensuração](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 abr. 2026; acesso em 19 jul. 2026.
+- [Decreto nº 99.672/1990 — Cadastro Nacional de Bens Imóveis da União](https://memoria-spu.gestao.gov.br/normas-e-documentos/decreto-no-99-672-de-6-de-novembro-de-1990/) — referência histórica para o RIP e o cadastro federal; acesso em 19 jul. 2026.
+- [O que é o SPUnet](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/transformacao-digital/o-que-e-o-spunet-1) — SPU, implantação progressiva e estado dos módulos; acesso em 19 jul. 2026.
+- [Perguntas frequentes do SPUnet](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/transformacao-digital/perguntas-frequentes-spunet) — SPU, acesso, cadastro, avaliação e perfis; acesso em 19 jul. 2026.
 - [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República, texto compilado, especialmente art. 20; acesso em 15 jul. 2026.
 - [Código Civil — Lei nº 10.406/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) — Presidência da República, texto compilado, especialmente arts. 79 a 81 e 98 a 103; acesso em 15 jul. 2026.
 - [Lei de Registros Públicos — Lei nº 6.015/1973](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm) — Presidência da República, texto compilado, disciplina registros e averbações imobiliárias; acesso em 15 jul. 2026.
@@ -466,7 +643,6 @@ Aquisição, responsabilidade, movimentação e alienação aparecem somente qua
 - [SPIUnet — cadastro de imóveis de uso especial](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/transformacao-digital/spiunet) — SPU, página histórica atualizada em 6 fev. 2026, escopo, RIP, utilizações e relação com o SIAFI; acesso em 15 jul. 2026.
 - [Desligamento do SPIUnet e do SISREI](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/transformacao-digital/desligamento-spiunet) — SPU, atualização de 11 jun. 2026, desativação para operação e migração de fluxos ao SPUnet; acesso em 15 jul. 2026.
 - [Manual de Contabilidade Aplicada ao Setor Público, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1) — Secretaria do Tesouro Nacional, edição vigente divulgada em 2025; acesso em 15 jul. 2026.
-- [NBC TSP 07 — Ativo Imobilizado](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2017%2FNBCTSP07&arquivo=NBCTSP07.doc) — Conselho Federal de Contabilidade, reconhecimento, mensuração, depreciação e reavaliação; acesso em 15 jul. 2026.
 - [Portaria Conjunta STN/SPU nº 10/2023](https://www.in.gov.br/en/web/dou/-/portaria-conjunta-stn/spu-n-10-de-4-de-julho-de-2023-494555978) — STN e SPU, regras federais de mensuração, atualização, reavaliação e depreciação de imóveis; acesso em 15 jul. 2026.
 - [Gestão do patrimônio imobiliário da União na Lista de Alto Risco](https://sites.tcu.gov.br/listadealtorisco/gestao_do_patrimonio_imobiliario_da_uniao.html) — Tribunal de Contas da União, edição de 2024, riscos de governança, dados, ocupação, sistemas e manutenção; acesso em 15 jul. 2026.
 - [Manual de Obras Públicas — Práticas da SEAP: Manutenção](https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-obras-publicas-edificacoes-praticas-da-seap-manuais/manual_obraspublicas_manutencao.pdf) — Governo Federal, referência técnica para planejamento, inspeção, execução e fiscalização da manutenção predial; acesso em 15 jul. 2026.

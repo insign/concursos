@@ -1,7 +1,7 @@
 ---
 schemaVersion: 1
 title: Empreendedorismo governamental e novas lideranças no setor público
-description: Empreendedorismo e inovação pública, governo empreendedor, valor público, experimentação, instrumentos de contratação e modelos contemporâneos de liderança.
+description: Empreendedorismo público, valor público, inovação, experimentação, governança, instrumentos jurídicos e lideranças contemporâneas.
 order: 111
 storageId: empreendedorismo-liderancas
 ---
@@ -56,6 +56,23 @@ Liderança informal, conhecimento técnico e capacidade de articulação podem i
 
 Uma ideia sem implementação ainda não entregou inovação. Digitalizar um procedimento ruim sem redesenhá-lo pode apenas automatizar desperdício. Por outro lado, inovação não precisa ser inédita no mundo: uma solução já conhecida pode ser nova no contexto em que é adotada e produzir valor relevante.
 
+
+<!-- REVISAO-EMPREENDEDORISMO-2026 -->
+### 1.4 Níveis de atuação do empreendedorismo público
+
+O empreendedorismo público pode ser observado em diferentes níveis. Eles são **escalas analíticas**, não categorias jurídicas rígidas:
+
+| Nível | Manifestação típica | Risco de erro |
+| --- | --- | --- |
+| **individual** | servidor identifica barreira, articula atores e propõe melhoria | confundir iniciativa com competência formal para decidir |
+| **equipe ou organização** | unidade redesenha processo, serviço ou capacidade | otimizar um silo e piorar o sistema |
+| **política ou institucional** | atores modificam regras, incentivos e arranjos | inovar sem ambiente autorizador ou sustentação |
+| **sistêmico ou ecossistêmico** | múltiplos órgãos e setores enfrentam problema complexo | diluir responsabilidades em nome da colaboração |
+
+A atuação pode começar em um nível e exigir os demais para produzir resultado sustentável. Uma ideia individual, por exemplo, pode depender de patrocínio organizacional, mudança normativa e cooperação interinstitucional.
+
+> **Atenção:** liderança informal e iniciativa ampliam a capacidade de mobilização, mas não criam competência jurídica, orçamento ou autorização que a pessoa não possua.
+
 ## 2. Valor público e diferenças em relação ao setor privado
 
 No empreendedorismo privado, oportunidade, sustentabilidade econômica, vantagem competitiva e retorno aos proprietários costumam ocupar posição central. No setor público, o critério final é o **valor público**, condicionado por mandato, direitos, interesse coletivo e legitimidade democrática.
@@ -75,6 +92,26 @@ As diferenças não impedem aprendizagem entre setores. Métodos de experimenta�
 ### 2.1 Empreendedorismo não é privatização
 
 **Privatização** transfere propriedade, controle, ativos ou execução ao setor privado, conforme o arranjo adotado. **Empreendedorismo governamental** descreve postura e capacidade de inovar para gerar valor público. Um órgão pode inovar mantendo a prestação estatal; e uma privatização, por si só, não prova inovação nem valor público.
+
+
+### 2.2 Triângulo estratégico do valor público
+
+Uma iniciativa pública é estrategicamente consistente quando articula três condições:
+
+| Dimensão | Pergunta central |
+| --- | --- |
+| **proposta de valor público** | a solução produz benefício público relevante, equitativo e compatível com direitos? |
+| **ambiente autorizador** | existe mandato, legitimidade, apoio, autorização, orçamento e sustentação institucional? |
+| **capacidade operacional** | há pessoas, processos, tecnologia, dados, parceiros e governança para executar? |
+
+As três dimensões são interdependentes:
+
+- boa ideia sem legitimidade tende a não se sustentar;
+- apoio político ou institucional sem valor público não justifica a iniciativa;
+- valor e autorização sem capacidade produzem promessa sem entrega;
+- capacidade sem direção pública pode apenas acelerar atividade de pouco valor.
+
+**Exemplo:** um atendimento integralmente digital pode reduzir custos, mas não gera pleno valor se exclui pessoas sem conectividade. Também não se sustenta sem base legal, suporte, integração de dados, equipe capacitada e governança.
 
 ## 3. Nova Gestão Pública e abordagens posteriores
 
@@ -106,6 +143,23 @@ Abordagens chamadas **pós-NPM** ou **Nova Governança Pública** responderam, e
 - resultados sistêmicos, não apenas desempenho de cada unidade.
 
 Essas abordagens não aboliram eficiência, mensuração ou responsabilidade por resultados. A mudança está em combiná-las com coordenação, equidade, participação e análise dos efeitos sobre o sistema.
+
+
+### 3.3 Referenciais que podem coexistir
+
+Burocracia profissional, Nova Gestão Pública, pós-NPM, Nova Governança Pública e valor público não formam uma sequência universal em que um modelo elimina integralmente o anterior.
+
+| Referencial | Ênfase predominante |
+| --- | --- |
+| **burocracia profissional** | legalidade, imparcialidade, continuidade, especialização e capacidade |
+| **NPM** | desempenho, autonomia gerencial, contratos, competição seletiva e eficiência |
+| **pós-NPM** | reintegração, coordenação de governo como um todo e redução da fragmentação |
+| **Nova Governança Pública** | redes, coprodução, confiança, pluralidade e resultados sistêmicos |
+| **valor público** | benefício público, legitimidade e capacidade operacional |
+
+Uma mesma organização pode usar procedimentos burocráticos para garantir direitos, metas para acompanhar desempenho, redes para enfrentar problemas interdependentes e critérios de valor público para decidir prioridades.
+
+> **Pegadinha:** pós-NPM e Nova Governança Pública não tornam desnecessários eficiência, mensuração, autoridade ou accountability.
 
 ## 4. Osborne e Gaebler: governo empreendedor
 
@@ -152,6 +206,40 @@ A OCDE distingue orientações que podem coexistir:
 
 Uma organização precisa de portfólio equilibrado. Somente melhorar rotinas pode ser insuficiente para problemas emergentes; somente perseguir transformações radicais pode negligenciar serviços essenciais.
 
+
+### 5.1.1 Tipos ou objetos de inovação
+
+A **orientação** da inovação indica a lógica predominante do portfólio. O **tipo ou objeto** indica o que está sendo modificado.
+
+| Objeto da inovação | Exemplo |
+| --- | --- |
+| **serviço** | atendimento assistido para municípios de baixa capacidade digital |
+| **processo** | conferência automatizada com revisão humana por risco |
+| **organizacional** | equipe multidisciplinar permanente |
+| **governança** | rede interinstitucional com regras compartilhadas |
+| **política pública** | novo desenho de benefício ou instrumento |
+| **regulatória** | sandbox ou regulação proporcional ao risco |
+| **comunicação** | linguagem simples e comunicação segmentada |
+
+Uma inovação de processo pode ser orientada ao aperfeiçoamento; uma inovação regulatória pode ser adaptativa; uma política pode ser orientada por missão. As classificações não são excludentes.
+
+### 5.1.2 Barreiras e habilitadores
+
+| Barreira frequente | Habilitador correspondente |
+| --- | --- |
+| aversão indiscriminada ao risco | risco governado, salvaguardas e alçadas claras |
+| silos organizacionais | redes, interoperabilidade e objetivos comuns |
+| incentivos voltados apenas à rotina | reconhecimento de melhoria, aprendizagem e colaboração |
+| medo de responsabilização por qualquer falha | distinção entre experimento legítimo, negligência e ilícito |
+| baixa capacidade de dados | infraestrutura, qualidade de dados e competência analítica |
+| ausência de patrocínio | liderança e ambiente autorizador |
+| descontinuidade | institucionalização, orçamento e governança |
+| dependência de fornecedor | arquitetura, padrões abertos e gestão de riscos |
+| pouca escuta dos usuários | pesquisa de serviço, participação e coprodução |
+| solução escolhida cedo demais | investigação do problema e geração de alternativas |
+
+A existência de uma barreira não autoriza ignorar controle. O objetivo é desenhar controles proporcionais, capazes de proteger o interesse público sem impedir aprendizagem legítima.
+
 ### 5.2 Ciclo de inovação
 
 Não há sequência única obrigatória, mas um ciclo coerente inclui:
@@ -168,6 +256,20 @@ Não há sequência única obrigatória, mas um ciclo coerente inclui:
 
 O piloto não é o objetivo final. Uma solução promissora que não consegue integrar-se a orçamento, pessoas, tecnologia, regulação e operação permanece limitada. Escalar exige preservar o mecanismo que gerou resultado, adaptar-se a contextos diferentes e monitorar efeitos não previstos.
 
+
+### 5.2.1 Protótipo, prova de conceito, experimento, piloto, sandbox e escala
+
+| Instrumento | Objetivo predominante | O que não prova sozinho |
+| --- | --- | --- |
+| **protótipo** | representar e testar rapidamente aspectos da solução | impacto, viabilidade operacional ampla ou conformidade integral |
+| **prova de conceito** | verificar viabilidade técnica de princípio ou tecnologia | adoção pelos usuários ou resultado público |
+| **experimento** | testar hipótese com método e critérios definidos | escalabilidade automática |
+| **piloto** | operar em escala limitada e contexto real | replicação em qualquer contexto |
+| **sandbox** | autorizar teste temporário sob condições regulatórias controladas | dispensa geral de normas |
+| **escala** | ampliar alcance com capacidade, qualidade e governança | simples repetição da forma original |
+
+A escolha depende da incerteza que se deseja reduzir. Um protótipo pode revelar problema de usabilidade; uma prova de conceito, limitação técnica; um piloto, barreira operacional; um experimento, fragilidade da hipótese de valor.
+
 ### 5.3 Experimentação responsável
 
 Experimentar reduz incerteza ao produzir evidências antes de uma adoção ampla. Um experimento público responsável define:
@@ -182,6 +284,44 @@ Experimentar reduz incerteza ao produzir evidências antes de uma adoção ampla
 - forma de registrar e compartilhar aprendizados.
 
 Aprender com falhas controladas não significa tolerar fraude, imprudência ou repetição negligente de erros. O aprendizado exige documentação, análise de causa e mudança de conduta.
+
+
+### 5.4 Escala e institucionalização
+
+Escalar não significa apenas “fazer mais”. A expansão pode assumir diferentes direções:
+
+- **para cima:** incorporar a solução a normas, políticas, orçamento e estruturas permanentes;
+- **para fora:** replicar em outras unidades, territórios ou organizações;
+- **em profundidade:** alterar valores, comportamentos e cultura;
+- **adaptar:** preservar o mecanismo de valor, ajustando a forma ao contexto;
+- **desescalar:** reduzir ou interromper solução ineficaz, injusta ou insustentável.
+
+Antes de escalar, verifique:
+
+1. efeito demonstrado e qualidade da evidência;
+2. custo total e sustentabilidade financeira;
+3. capacidade operacional e suporte;
+4. equidade e acessibilidade;
+5. riscos e salvaguardas;
+6. interoperabilidade e dependências;
+7. ambiente autorizador e legitimidade;
+8. manutenção, propriedade e governança;
+9. indicadores e possibilidade de monitoramento;
+10. condições que fizeram o piloto funcionar.
+
+### 5.5 Taxonomia de falhas
+
+| Situação | Resposta adequada |
+| --- | --- |
+| hipótese falsificada em teste responsável | registrar aprendizagem e decidir se corrige, repete ou encerra |
+| problema de implementação | ajustar capacidade, processo, treinamento ou execução |
+| falha de desenho | rever compreensão do problema e teoria de mudança |
+| falha de governança | rever alçadas, transparência, controles e riscos |
+| negligência | apurar responsabilidade conforme o caso |
+| fraude ou conflito de interesses | tratar como ilícito, não como “falha inovadora” |
+| repetição de erro conhecido | corrigir ausência de aprendizagem e de controle |
+
+Um experimento pode não confirmar a hipótese e ainda assim produzir conhecimento útil. O que legitima a aprendizagem é o desenho responsável, não o simples rótulo de inovação.
 
 ## 6. Evidências, participação, equidade e integridade
 
@@ -226,6 +366,19 @@ O Decreto nº 9.203/2017 dispõe sobre a política de governança da Administra�
 - controles internos devem ser proporcionais aos riscos e considerar custo-benefício.
 
 Inovar, portanto, não exige escolher entre autonomia e controle. Exige governança capaz de diferenciar risco legítimo de inovação, erro de boa-fé, negligência e ilícito, aplicando respostas proporcionais.
+
+
+### 7.1 Os três mecanismos de governança
+
+| Mecanismo | Núcleo | Exemplos de práticas |
+| --- | --- | --- |
+| **liderança** | pessoas e comportamentos que orientam a organização | integridade, competência, responsabilidade, motivação e exemplo |
+| **estratégia** | direção, prioridades e alinhamento | escuta, avaliação do ambiente, objetivos, indicadores e coordenação |
+| **controle** | segurança razoável, riscos e accountability | gestão de riscos, controles internos, auditoria, transparência e prestação de contas |
+
+Os mecanismos se complementam. Liderança sem estratégia pode mobilizar sem direção; estratégia sem capacidade e controle pode permanecer no papel; controle sem proporcionalidade pode sufocar aprendizagem ou proteger rotinas de pouco valor.
+
+> **Pegadinha:** gestão de riscos integra o mecanismo de controle, mas deve estar incorporada ao planejamento, às atividades, aos processos e aos projetos.
 
 ## 8. Instrumentos jurídicos de inovação
 
@@ -324,6 +477,24 @@ Problemas públicos atravessam órgãos, entes e setores. Liderança colaborativ
 
 Distribuir não é abandonar. A autoridade competente continua responsável por decisões que a lei lhe atribui, enquanto diferentes atores podem liderar partes do processo conforme conhecimento e papel.
 
+
+### 10.3.1 Liderança de fronteiras
+
+Em redes, o líder frequentemente não controla todos os recursos nem possui autoridade hierárquica sobre os participantes. Sua atuação envolve:
+
+- convocar atores relevantes;
+- formular propósito compartilhado;
+- traduzir linguagens profissionais e institucionais;
+- negociar recursos, papéis e responsabilidades;
+- facilitar deliberação;
+- construir confiança sem eliminar divergências;
+- administrar conflito;
+- compartilhar informação;
+- proteger accountability;
+- evitar captura por participante dominante.
+
+Liderança de fronteiras não substitui governança. A rede precisa de regras de decisão, critérios de entrada, responsabilidades, transparência e mecanismos para resolver impasses.
+
 ### 10.4 Servidora e stewardship
 
 Liderança servidora prioriza o desenvolvimento das pessoas e o serviço à comunidade. **Stewardship** acrescenta a ideia de custódia responsável: o líder administra recursos, capacidades e confiança que não lhe pertencem, pensando na continuidade institucional e no interesse público.
@@ -370,6 +541,18 @@ Uma liderança inclusiva distribui voz, combate barreiras de participação e co
 
 Ética não entra apenas no final para validar solução pronta. Deve orientar definição do problema, coleta de dados, seleção de participantes, desenho, contratação, implementação e avaliação. Uma inovação tecnicamente eficiente pode ser rejeitada se violar direitos, ampliar discriminação ou ocultar responsabilidade.
 
+
+### 12.1 Segurança psicológica e accountability
+
+| Segurança psicológica | Accountability | Resultado provável |
+| --- | --- | --- |
+| baixa | baixa | apatia e silêncio |
+| baixa | alta | ansiedade, ocultação de problemas e obediência defensiva |
+| alta | baixa | zona de conforto e baixa exigência |
+| alta | alta | aprendizagem, alerta precoce e desempenho responsável |
+
+Segurança psicológica permite discordar, perguntar e admitir erro. Accountability mantém padrões, responsabilidades e consequências. A combinação desejável é alta segurança com alta exigência.
+
 ## 13. Matriz de competências de liderança da Enap
 
 A Matriz de Competências Essenciais de Liderança para o Setor Público Brasileiro da Enap organiza **nove competências em três eixos**:
@@ -398,6 +581,22 @@ A *Recommendation of the Council on Public Service Leadership and Capability*, i
 
 Trata-se de recomendação internacional de *soft law*, não de lei brasileira autoaplicável. A matriz de nove competências e três eixos é da Enap; não deve ser atribuída à OCDE.
 
+
+### 14.1 Da competência individual ao ambiente de inovação
+
+Competência de liderança não produz inovação isoladamente. Ela precisa encontrar ou construir:
+
+- propósito claro;
+- tempo e recursos;
+- dados e conhecimento;
+- alçadas e patrocínio;
+- proteção a perspectivas divergentes;
+- critérios de experimento e interrupção;
+- canais de aprendizagem;
+- mecanismos de escala e institucionalização.
+
+Assim, uma organização inovadora não depende apenas de “líderes heroicos”. Ela combina pessoas capazes com estruturas, incentivos, regras e redes que sustentam a ação.
+
 ## 15. Exemplo integrado
 
 Um órgão observa baixa adesão de pequenos municípios a serviço digital:
@@ -414,6 +613,22 @@ Um órgão observa baixa adesão de pequenos municípios a serviço digital:
 10. mantém responsabilidade decisória, transparência e aprendizagem após a implantação.
 
 O caso combina empreendedorismo, liderança colaborativa e ambidestra, evidências, participação e risco governado. O sucesso não é apenas lançar uma plataforma: é ampliar acesso útil, equitativo e sustentável.
+
+
+## 15.1 Quadro integrado de decisão
+
+Ao analisar uma iniciativa pública, responda:
+
+1. **valor:** qual benefício público se pretende produzir e para quem?
+2. **legitimidade:** existe mandato, autorização, participação adequada e sustentação?
+3. **capacidade:** há recursos, pessoas, processos, tecnologia e parceiros?
+4. **incerteza:** o que ainda não se sabe e qual instrumento reduz essa incerteza?
+5. **risco:** quais eventos podem comprometer direitos, integridade, dados, equidade ou continuidade?
+6. **evidência:** quais resultados e efeitos distributivos serão medidos?
+7. **liderança:** que combinação de mobilização, coordenação, execução e aprendizagem é necessária?
+8. **escala:** quais condições devem ser preservadas ou adaptadas?
+9. **accountability:** quem decide, executa, monitora e responde?
+10. **aprendizagem:** como o conhecimento será registrado e incorporado?
 
 ## 16. Pegadinhas de prova
 
@@ -470,6 +685,12 @@ Para preservar os recortes do edital:
 - sustentabilidade e acessibilidade serão tratadas nos Assuntos 113 e 114;
 - contratações públicas aparecem somente como instrumentos de inovação; licitações terão tratamento próprio em assuntos posteriores;
 - teorias gerais de motivação, liderança e gestão de pessoas serão aprofundadas nos Assuntos 142 a 153.
+
+
+- MOORE, Mark H. *Creating Public Value: Strategic Management in Government*. Harvard University Press, 1995. Referência para proposta de valor público, ambiente autorizador e capacidade operacional.
+- BOURGON, Jocelyne. *A New Synthesis of Public Administration: Serving in the 21st Century*. McGill-Queen's University Press, 2011. Integra resultados, autoridade pública, cidadania e capacidade coletiva.
+- SØRENSEN, Eva; TORFING, Jacob. *Collaborative Innovation in the Public Sector*. Georgetown University Press, 2017. Inovação colaborativa, redes e liderança de fronteiras.
+- ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT. [Innovation Portfolios](https://oecd-opsi.org/work-areas/innovation-portfolios/). Portfólios e orientações coexistentes de inovação pública.
 
 ## Referências
 

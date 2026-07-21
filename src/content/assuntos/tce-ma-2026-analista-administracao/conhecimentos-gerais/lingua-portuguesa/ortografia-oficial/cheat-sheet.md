@@ -72,7 +72,7 @@ Comportamentos próprios:
 - `pré-escolar`, `pós-graduação`, `pró-reitor`;
 - `pan-americano`, `circum-navegação`;
 - `inter-racial`, `super-resistente`;
-- `bem-estar`, `mal-estar`, `bem-vindo`; mas `benfeito`, `malfeito`.
+- `bem-estar`, `mal-estar`, `bem-vindo`; atenção a `benfeito` (substantivo), `bem-feito` (adjetivo) e `bem feito` (advérbio + particípio).
 
 ## Compostos e locuções
 
@@ -93,6 +93,23 @@ Comportamentos próprios:
 - Demais consoantes: normalmente `n` — `canto`, `enfim`.
 - Entre vogais: `rr` para som forte; `ss` para som surdo.
 - `x/ch`, `g/j`, `s/z/ç/ss`, `e/i`: use família quando ajudar e VOLP quando a regra não decidir.
+- Padrões úteis: `rigidez`, `escassez`, `clareza`; `fiscalizar`, `padronizar`; `analisar`, `pesquisar`.
+
+### Pares que a banca troca
+
+| Grafias | Distinção-relâmpago |
+| --- | --- |
+| `sessão` / `seção` / `cessão` | reunião / divisão / ato de ceder |
+| `deferir` / `diferir` | conceder / adiar ou distinguir |
+| `ratificar` / `retificar` | confirmar / corrigir |
+| `mandado` / `mandato` | ordem / período ou poder |
+| `eminente` / `iminente` | destacado / prestes |
+| `infringir` / `infligir` | violar / aplicar pena |
+| `tráfego` / `tráfico` | circulação / comércio ilícito |
+| `cumprimento` / `comprimento` | saudação ou execução / extensão |
+
+Todas as formas existem; escolha pelo sentido da frase.
+
 
 ## Maiúsculas, apóstrofo e reduções
 

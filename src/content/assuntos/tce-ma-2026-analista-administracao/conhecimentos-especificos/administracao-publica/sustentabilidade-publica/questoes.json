@@ -1,706 +1,4356 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q884",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Segundo a Constituição Federal, a defesa do meio ambiente integra",
       "options": [
-        {"id": "a", "text": "exclusivamente as competências municipais"},
-        {"id": "b", "text": "os princípios da ordem econômica, inclusive com tratamento diferenciado conforme o impacto ambiental"},
-        {"id": "c", "text": "apenas os objetivos da seguridade social"},
-        {"id": "d", "text": "somente as regras de intervenção federal"},
-        {"id": "e", "text": "um programa voluntário sem fundamento constitucional"}
+        {
+          "id": "a",
+          "text": "os princípios da ordem econômica, inclusive com tratamento diferenciado conforme o impacto ambiental"
+        },
+        {
+          "id": "b",
+          "text": "exclusivamente as competências municipais"
+        },
+        {
+          "id": "c",
+          "text": "apenas os objetivos da seguridade social"
+        },
+        {
+          "id": "d",
+          "text": "somente as regras de intervenção federal"
+        },
+        {
+          "id": "e",
+          "text": "um programa voluntário sem fundamento constitucional"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "O art. 170, VI, da Constituição inclui a defesa do meio ambiente entre os princípios da ordem econômica e admite tratamento diferenciado conforme o impacto de produtos, serviços e processos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q885",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A dimensão intergeracional da sustentabilidade está expressa no art. 225 da Constituição ao impor a preservação do meio ambiente para",
       "options": [
-        {"id": "a", "text": "somente os atuais usuários de serviços públicos"},
-        {"id": "b", "text": "apenas os contribuintes da União"},
-        {"id": "c", "text": "as presentes e futuras gerações"},
-        {"id": "d", "text": "exclusivamente as empresas estatais"},
-        {"id": "e", "text": "os órgãos ambientais federais, sem participação coletiva"}
+        {
+          "id": "a",
+          "text": "somente os atuais usuários de serviços públicos"
+        },
+        {
+          "id": "b",
+          "text": "as presentes e futuras gerações"
+        },
+        {
+          "id": "c",
+          "text": "apenas os contribuintes da União"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente as empresas estatais"
+        },
+        {
+          "id": "e",
+          "text": "os órgãos ambientais federais, sem participação coletiva"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "O art. 225 atribui ao Poder Público e à coletividade o dever de defender e preservar o meio ambiente ecologicamente equilibrado para as presentes e futuras gerações. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q886",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma abordagem integrada de sustentabilidade pública considera, de forma articulada, as dimensões",
       "options": [
-        {"id": "a", "text": "ambiental, econômica, social e institucional ou de governança"},
-        {"id": "b", "text": "ambiental e publicitária apenas"},
-        {"id": "c", "text": "financeira e eleitoral apenas"},
-        {"id": "d", "text": "tecnológica, sem efeitos sociais"},
-        {"id": "e", "text": "ecológica, com exclusão da eficiência"}
+        {
+          "id": "a",
+          "text": "ambiental e publicitária apenas"
+        },
+        {
+          "id": "b",
+          "text": "financeira e eleitoral apenas"
+        },
+        {
+          "id": "c",
+          "text": "ambiental, econômica, social e institucional ou de governança"
+        },
+        {
+          "id": "d",
+          "text": "tecnológica, sem efeitos sociais"
+        },
+        {
+          "id": "e",
+          "text": "ecológica, com exclusão da eficiência"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Sustentabilidade pública integra proteção ambiental, viabilidade econômica, justiça social e capacidade institucional de governar, executar, controlar e prestar contas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q887",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um equipamento tem preço inicial baixo, mas elevado consumo, manutenção frequente e descarte precoce. Sob a dimensão econômica da sustentabilidade, a decisão deve",
       "options": [
-        {"id": "a", "text": "considerar apenas o preço pago no primeiro dia"},
-        {"id": "b", "text": "ignorar manutenção porque ela ocorre após a licitação"},
-        {"id": "c", "text": "avaliar custo, durabilidade e continuidade ao longo do tempo"},
-        {"id": "d", "text": "presumir vantajosidade por ser o item mais barato"},
-        {"id": "e", "text": "afastar qualquer análise de eficiência"}
+        {
+          "id": "a",
+          "text": "considerar apenas o preço pago no primeiro dia"
+        },
+        {
+          "id": "b",
+          "text": "ignorar manutenção porque ela ocorre após a licitação"
+        },
+        {
+          "id": "c",
+          "text": "presumir vantajosidade por ser o item mais barato"
+        },
+        {
+          "id": "d",
+          "text": "avaliar custo, durabilidade e continuidade ao longo do tempo"
+        },
+        {
+          "id": "e",
+          "text": "afastar qualquer análise de eficiência"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "d",
       "explanation": "Sustentabilidade econômica não se reduz à economia imediata. Custo total, manutenção, vida útil, falhas e continuidade integram a análise temporal da solução. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q888",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A digitalização de processos demonstra a necessidade de pensamento sistêmico porque",
       "options": [
-        {"id": "a", "text": "sempre elimina todo impacto ambiental"},
-        {"id": "b", "text": "pode reduzir papel e deslocamentos, mas também demanda energia, equipamentos e descarte eletrônico"},
-        {"id": "c", "text": "dispensa segurança, inclusão e governança documental"},
-        {"id": "d", "text": "é sustentável por definição, independentemente do contexto"},
-        {"id": "e", "text": "transfere todo risco ao usuário"}
+        {
+          "id": "a",
+          "text": "sempre elimina todo impacto ambiental"
+        },
+        {
+          "id": "b",
+          "text": "dispensa segurança, inclusão e governança documental"
+        },
+        {
+          "id": "c",
+          "text": "é sustentável por definição, independentemente do contexto"
+        },
+        {
+          "id": "d",
+          "text": "transfere todo risco ao usuário"
+        },
+        {
+          "id": "e",
+          "text": "pode reduzir papel e deslocamentos, mas também demanda energia, equipamentos e descarte eletrônico"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "Decisões sustentáveis comparam efeitos diretos e indiretos. A digitalização pode gerar benefícios e novos impactos, que devem ser avaliados em conjunto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q889",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A Agenda 2030 das Nações Unidas reúne",
       "options": [
-        {"id": "a", "text": "8 objetivos e 40 metas"},
-        {"id": "b", "text": "10 objetivos e 100 metas"},
-        {"id": "c", "text": "12 objetivos e 120 metas"},
-        {"id": "d", "text": "17 objetivos e 169 metas"},
-        {"id": "e", "text": "20 objetivos sem metas"}
+        {
+          "id": "a",
+          "text": "17 objetivos e 169 metas"
+        },
+        {
+          "id": "b",
+          "text": "8 objetivos e 40 metas"
+        },
+        {
+          "id": "c",
+          "text": "10 objetivos e 100 metas"
+        },
+        {
+          "id": "d",
+          "text": "12 objetivos e 120 metas"
+        },
+        {
+          "id": "e",
+          "text": "20 objetivos sem metas"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "a",
       "explanation": "A Agenda 2030 estrutura-se em 17 Objetivos de Desenvolvimento Sustentável e 169 metas integradas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q890",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A meta 12.7 dos Objetivos de Desenvolvimento Sustentável relaciona-se diretamente à promoção de",
       "options": [
-        {"id": "a", "text": "compras públicas sustentáveis"},
-        {"id": "b", "text": "sigilo de contratos públicos"},
-        {"id": "c", "text": "extinção dos controles de legalidade"},
-        {"id": "d", "text": "privatização obrigatória de serviços"},
-        {"id": "e", "text": "substituição das leis nacionais pela Agenda 2030"}
+        {
+          "id": "a",
+          "text": "sigilo de contratos públicos"
+        },
+        {
+          "id": "b",
+          "text": "compras públicas sustentáveis"
+        },
+        {
+          "id": "c",
+          "text": "extinção dos controles de legalidade"
+        },
+        {
+          "id": "d",
+          "text": "privatização obrigatória de serviços"
+        },
+        {
+          "id": "e",
+          "text": "substituição das leis nacionais pela Agenda 2030"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "O ODS 12 trata de consumo e produção responsáveis, e sua meta 12.7 aborda práticas sustentáveis de compras públicas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q891",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Quanto ao uso da Agenda 2030 na Administração Pública, é correto afirmar que",
       "options": [
-        {"id": "a", "text": "a simples menção a um ODS comprova efetividade"},
-        {"id": "b", "text": "os ODS revogam normas nacionais incompatíveis"},
-        {"id": "c", "text": "a Agenda serve como referência de alinhamento, mas não substitui a legislação aplicável nem a evidência de resultado"},
-        {"id": "d", "text": "somente o setor privado pode usar os ODS"},
-        {"id": "e", "text": "cada objetivo deve ser executado isoladamente"}
+        {
+          "id": "a",
+          "text": "a simples menção a um ODS comprova efetividade"
+        },
+        {
+          "id": "b",
+          "text": "os ODS revogam normas nacionais incompatíveis"
+        },
+        {
+          "id": "c",
+          "text": "a Agenda serve como referência de alinhamento, mas não substitui a legislação aplicável nem a evidência de resultado"
+        },
+        {
+          "id": "d",
+          "text": "somente o setor privado pode usar os ODS"
+        },
+        {
+          "id": "e",
+          "text": "cada objetivo deve ser executado isoladamente"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "A Agenda 2030 orienta planejamento e comunicação integrada. Leis e regulamentos continuam aplicáveis, e resultados exigem indicadores e evidências. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q892",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na sustentabilidade pública, a relação correta entre governança e gestão é",
       "options": [
-        {"id": "a", "text": "governança executa rotinas e gestão substitui os controles"},
-        {"id": "b", "text": "governança direciona, supervisiona e avalia; gestão planeja, executa e controla"},
-        {"id": "c", "text": "ambas se limitam à comunicação institucional"},
-        {"id": "d", "text": "gestão formula princípios constitucionais e governança compra materiais"},
-        {"id": "e", "text": "não existe distinção funcional entre elas"}
+        {
+          "id": "a",
+          "text": "governança executa rotinas e gestão substitui os controles"
+        },
+        {
+          "id": "b",
+          "text": "ambas se limitam à comunicação institucional"
+        },
+        {
+          "id": "c",
+          "text": "gestão formula princípios constitucionais e governança compra materiais"
+        },
+        {
+          "id": "d",
+          "text": "governança direciona, supervisiona e avalia; gestão planeja, executa e controla"
+        },
+        {
+          "id": "e",
+          "text": "não existe distinção funcional entre elas"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "A governança estabelece direção e supervisão, enquanto a gestão transforma a direção em planejamento, execução, monitoramento e controle. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q893",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na gestão da sustentabilidade, materialidade significa",
       "options": [
-        {"id": "a", "text": "tratar somente da compra de materiais de consumo"},
-        {"id": "b", "text": "priorizar impactos relevantes para missão, recursos e partes interessadas"},
-        {"id": "c", "text": "divulgar todas as ações com a mesma ênfase"},
-        {"id": "d", "text": "ignorar riscos sociais de pequena visibilidade"},
-        {"id": "e", "text": "substituir diagnóstico por opinião da autoridade"}
+        {
+          "id": "a",
+          "text": "tratar somente da compra de materiais de consumo"
+        },
+        {
+          "id": "b",
+          "text": "divulgar todas as ações com a mesma ênfase"
+        },
+        {
+          "id": "c",
+          "text": "ignorar riscos sociais de pequena visibilidade"
+        },
+        {
+          "id": "d",
+          "text": "substituir diagnóstico por opinião da autoridade"
+        },
+        {
+          "id": "e",
+          "text": "priorizar impactos relevantes para missão, recursos e partes interessadas"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "A análise de materialidade concentra recursos de gestão e transparência nos impactos efetivamente relevantes para o contexto da organização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q894",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um prédio consumiu 120.000 kWh em 4.000 m² de área útil. O consumo de energia por área foi de",
       "options": [
-        {"id": "a", "text": "3 kWh/m²"},
-        {"id": "b", "text": "30 kWh/m²"},
-        {"id": "c", "text": "300 kWh/m²"},
-        {"id": "d", "text": "3.000 kWh/m²"},
-        {"id": "e", "text": "480.000 kWh/m²"}
+        {
+          "id": "a",
+          "text": "30 kWh/m²"
+        },
+        {
+          "id": "b",
+          "text": "3 kWh/m²"
+        },
+        {
+          "id": "c",
+          "text": "300 kWh/m²"
+        },
+        {
+          "id": "d",
+          "text": "3.000 kWh/m²"
+        },
+        {
+          "id": "e",
+          "text": "480.000 kWh/m²"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "O indicador de intensidade é 120.000/4.000 = 30 kWh por metro quadrado. Ele deve ser interpretado com ocupação, clima, serviço e série histórica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q895",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O consumo caiu de 500 para 400 unidades no período. Em relação à linha de base, a redução percentual foi de",
       "options": [
-        {"id": "a", "text": "10%"},
-        {"id": "b", "text": "20%"},
-        {"id": "c", "text": "25%"},
-        {"id": "d", "text": "40%"},
-        {"id": "e", "text": "80%"}
+        {
+          "id": "a",
+          "text": "10%"
+        },
+        {
+          "id": "b",
+          "text": "20%"
+        },
+        {
+          "id": "c",
+          "text": "25%"
+        },
+        {
+          "id": "d",
+          "text": "40%"
+        },
+        {
+          "id": "e",
+          "text": "80%"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Redução = (500 - 400)/500 × 100 = 20%. A comparação pressupõe escopo e método consistentes entre os períodos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q896",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A quantidade de oficinas de sensibilização realizadas é, isoladamente, evidência de",
       "options": [
-        {"id": "a", "text": "atividade ou produto, não necessariamente mudança de comportamento"},
-        {"id": "b", "text": "impacto ambiental definitivo"},
-        {"id": "c", "text": "neutralidade climática comprovada"},
-        {"id": "d", "text": "redução obrigatória do consumo"},
-        {"id": "e", "text": "vantajosidade de todas as contratações"}
+        {
+          "id": "a",
+          "text": "impacto ambiental definitivo"
+        },
+        {
+          "id": "b",
+          "text": "neutralidade climática comprovada"
+        },
+        {
+          "id": "c",
+          "text": "atividade ou produto, não necessariamente mudança de comportamento"
+        },
+        {
+          "id": "d",
+          "text": "redução obrigatória do consumo"
+        },
+        {
+          "id": "e",
+          "text": "vantajosidade de todas as contratações"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "Realizar oficinas demonstra execução. Mudança de conhecimento, comportamento ou consumo exige indicadores de resultado próprios. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q897",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A adesão institucional à Agenda Ambiental na Administração Pública, A3P, é",
       "options": [
-        {"id": "a", "text": "compulsória para todo órgão público"},
-        {"id": "b", "text": "obrigatória somente para municípios"},
-        {"id": "c", "text": "voluntária"},
-        {"id": "d", "text": "restrita ao Poder Judiciário"},
-        {"id": "e", "text": "proibida para o Poder Legislativo"}
+        {
+          "id": "a",
+          "text": "compulsória para todo órgão público"
+        },
+        {
+          "id": "b",
+          "text": "obrigatória somente para municípios"
+        },
+        {
+          "id": "c",
+          "text": "restrita ao Poder Judiciário"
+        },
+        {
+          "id": "d",
+          "text": "voluntária"
+        },
+        {
+          "id": "e",
+          "text": "proibida para o Poder Legislativo"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "d",
       "explanation": "A A3P é programa do Ministério do Meio Ambiente e Mudança do Clima de adesão voluntária. Isso não torna voluntárias outras obrigações legais aplicáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q898",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Podem aderir à A3P instituições públicas",
       "options": [
-        {"id": "a", "text": "apenas federais do Executivo"},
-        {"id": "b", "text": "dos três Poderes e das três esferas de governo"},
-        {"id": "c", "text": "somente estaduais"},
-        {"id": "d", "text": "exclusivamente ambientais"},
-        {"id": "e", "text": "apenas integrantes do Sistema de Justiça"}
+        {
+          "id": "a",
+          "text": "apenas federais do Executivo"
+        },
+        {
+          "id": "b",
+          "text": "somente estaduais"
+        },
+        {
+          "id": "c",
+          "text": "exclusivamente ambientais"
+        },
+        {
+          "id": "d",
+          "text": "apenas integrantes do Sistema de Justiça"
+        },
+        {
+          "id": "e",
+          "text": "dos três Poderes e das três esferas de governo"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "O programa é voltado a instituições públicas federais, estaduais e municipais dos Poderes Executivo, Legislativo e Judiciário. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q899",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Assinale a alternativa que NÃO corresponde a um dos seis eixos da A3P.",
       "options": [
-        {"id": "a", "text": "Uso racional dos recursos naturais e bens públicos."},
-        {"id": "b", "text": "Gestão de resíduos gerados."},
-        {"id": "c", "text": "Qualidade de vida no ambiente de trabalho."},
-        {"id": "d", "text": "Compras públicas sustentáveis."},
-        {"id": "e", "text": "Maximização obrigatória do consumo institucional."}
+        {
+          "id": "a",
+          "text": "Maximização obrigatória do consumo institucional."
+        },
+        {
+          "id": "b",
+          "text": "Uso racional dos recursos naturais e bens públicos."
+        },
+        {
+          "id": "c",
+          "text": "Gestão de resíduos gerados."
+        },
+        {
+          "id": "d",
+          "text": "Qualidade de vida no ambiente de trabalho."
+        },
+        {
+          "id": "e",
+          "text": "Compras públicas sustentáveis."
+        }
       ],
-      "correctOptionId": "e",
+      "correctOptionId": "a",
       "explanation": "A A3P promove uso racional, resíduos, qualidade de vida, sensibilização e capacitação, compras e construções sustentáveis. Maximizar consumo contraria seus objetivos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q900",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Sobre A3P e Plano de Logística Sustentável, assinale a afirmativa correta.",
       "options": [
-        {"id": "a", "text": "São expressões necessariamente sinônimas."},
-        {"id": "b", "text": "A adesão à A3P extingue a necessidade de PLS aplicável."},
-        {"id": "c", "text": "O PLS substitui toda obrigação ambiental."},
-        {"id": "d", "text": "São instrumentos distintos que podem operar de forma complementar."},
-        {"id": "e", "text": "A3P é lei nacional de contratação."}
+        {
+          "id": "a",
+          "text": "São expressões necessariamente sinônimas."
+        },
+        {
+          "id": "b",
+          "text": "São instrumentos distintos que podem operar de forma complementar."
+        },
+        {
+          "id": "c",
+          "text": "A adesão à A3P extingue a necessidade de PLS aplicável."
+        },
+        {
+          "id": "d",
+          "text": "O PLS substitui toda obrigação ambiental."
+        },
+        {
+          "id": "e",
+          "text": "A3P é lei nacional de contratação."
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "b",
       "explanation": "A3P é programa voluntário; PLS é instrumento de planejamento disciplinado por atos conforme o âmbito institucional. Eles podem se complementar sem se confundir. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q901",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O Decreto nº 7.746/2012 permanece relevante para a sustentabilidade federal porque",
       "options": [
-        {"id": "a", "text": "restaurou integralmente a Lei nº 8.666/1993"},
-        {"id": "b", "text": "seu art. 16 trata de PLS e é referido pelo Decreto nº 12.771/2025"},
-        {"id": "c", "text": "aplica a Resolução CNJ a todos os entes"},
-        {"id": "d", "text": "tornou a A3P compulsória"},
-        {"id": "e", "text": "aboliu a motivação de critérios sustentáveis"}
+        {
+          "id": "a",
+          "text": "restaurou integralmente a Lei nº 8.666/1993"
+        },
+        {
+          "id": "b",
+          "text": "aplica a Resolução CNJ a todos os entes"
+        },
+        {
+          "id": "c",
+          "text": "seu art. 16 trata de PLS e é referido pelo Decreto nº 12.771/2025"
+        },
+        {
+          "id": "d",
+          "text": "tornou a A3P compulsória"
+        },
+        {
+          "id": "e",
+          "text": "aboliu a motivação de critérios sustentáveis"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "O art. 16 do Decreto nº 7.746/2012 continua referenciado como base dos PLS federais. A referência histórica à Lei nº 8.666/1993 não restaura essa lei, e dispositivos da CISAP foram revogados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q902",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O modelo de referência do Plano Diretor de Logística Sustentável instituído pela Portaria SEGES/MGI nº 5.376/2023 aplica-se diretamente à Administração Pública federal",
       "options": [
-        {"id": "a", "text": "direta, autárquica e fundacional"},
-        {"id": "b", "text": "incluindo obrigatoriamente todos os estados e municípios"},
-        {"id": "c", "text": "apenas ao Poder Judiciário"},
-        {"id": "d", "text": "somente às empresas privadas contratadas"},
-        {"id": "e", "text": "apenas às casas legislativas municipais"}
+        {
+          "id": "a",
+          "text": "incluindo obrigatoriamente todos os estados e municípios"
+        },
+        {
+          "id": "b",
+          "text": "apenas ao Poder Judiciário"
+        },
+        {
+          "id": "c",
+          "text": "somente às empresas privadas contratadas"
+        },
+        {
+          "id": "d",
+          "text": "direta, autárquica e fundacional"
+        },
+        {
+          "id": "e",
+          "text": "apenas às casas legislativas municipais"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "A Portaria nº 5.376/2023 dirige o Caderno de Logística como modelo de referência aos órgãos e entidades federais diretos, autárquicos e fundacionais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q903",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Após elaboração ou revisão, a Portaria SEGES/MGI nº 5.376/2023 determina que o PLS seja aprovado pela autoridade competente e publicado no prazo de",
       "options": [
-        {"id": "a", "text": "5 dias"},
-        {"id": "b", "text": "10 dias"},
-        {"id": "c", "text": "15 dias"},
-        {"id": "d", "text": "30 dias"},
-        {"id": "e", "text": "90 dias"}
+        {
+          "id": "a",
+          "text": "5 dias"
+        },
+        {
+          "id": "b",
+          "text": "10 dias"
+        },
+        {
+          "id": "c",
+          "text": "30 dias"
+        },
+        {
+          "id": "d",
+          "text": "90 dias"
+        },
+        {
+          "id": "e",
+          "text": "15 dias"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "e",
       "explanation": "O art. 3º da Portaria prevê encaminhamento à autoridade competente e publicação no sítio do órgão ou entidade em até quinze dias. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q904",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Segundo a Portaria SEGES/MGI nº 5.376/2023, os resultados das ações do PLS devem ser consolidados e publicados",
       "options": [
-        {"id": "a", "text": "somente ao final de cada década"},
-        {"id": "b", "text": "anualmente, em Relatório de Avaliação de Desempenho"},
-        {"id": "c", "text": "apenas quando houver economia financeira"},
-        {"id": "d", "text": "sem avaliação de efetividade"},
-        {"id": "e", "text": "exclusivamente em documento sigiloso"}
+        {
+          "id": "a",
+          "text": "anualmente, em Relatório de Avaliação de Desempenho"
+        },
+        {
+          "id": "b",
+          "text": "somente ao final de cada década"
+        },
+        {
+          "id": "c",
+          "text": "apenas quando houver economia financeira"
+        },
+        {
+          "id": "d",
+          "text": "sem avaliação de efetividade"
+        },
+        {
+          "id": "e",
+          "text": "exclusivamente em documento sigiloso"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "As ações devem ser monitoradas e seus resultados avaliados, consolidados e publicados anualmente para aferir a efetividade da implementação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q905",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A Resolução CNJ nº 400/2021 disciplina a política de sustentabilidade no âmbito",
       "options": [
-        {"id": "a", "text": "de todos os Poderes de todos os entes"},
-        {"id": "b", "text": "do Poder Judiciário"},
-        {"id": "c", "text": "exclusivo dos Tribunais de Contas"},
-        {"id": "d", "text": "das empresas estatais federais"},
-        {"id": "e", "text": "do setor privado"}
+        {
+          "id": "a",
+          "text": "de todos os Poderes de todos os entes"
+        },
+        {
+          "id": "b",
+          "text": "do Poder Judiciário"
+        },
+        {
+          "id": "c",
+          "text": "exclusivo dos Tribunais de Contas"
+        },
+        {
+          "id": "d",
+          "text": "das empresas estatais federais"
+        },
+        {
+          "id": "e",
+          "text": "do setor privado"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "A Resolução nº 400/2021 é ato do CNJ dirigido aos conselhos e tribunais que integram o Poder Judiciário. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q906",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Em relação a um Tribunal de Contas estadual, a Resolução CNJ nº 400/2021",
       "options": [
-        {"id": "a", "text": "é automaticamente vinculante porque todo tribunal integra o Judiciário"},
-        {"id": "b", "text": "não pode sequer ser consultada como referência"},
-        {"id": "c", "text": "não é automaticamente vinculante, pois Tribunal de Contas não integra o Poder Judiciário"},
-        {"id": "d", "text": "substitui a legislação estadual"},
-        {"id": "e", "text": "transforma o TCE em órgão do CNJ"}
+        {
+          "id": "a",
+          "text": "é automaticamente vinculante porque todo tribunal integra o Judiciário"
+        },
+        {
+          "id": "b",
+          "text": "não pode sequer ser consultada como referência"
+        },
+        {
+          "id": "c",
+          "text": "não é automaticamente vinculante, pois Tribunal de Contas não integra o Poder Judiciário"
+        },
+        {
+          "id": "d",
+          "text": "substitui a legislação estadual"
+        },
+        {
+          "id": "e",
+          "text": "transforma o TCE em órgão do CNJ"
+        }
       ],
       "correctOptionId": "c",
       "explanation": "Tribunais de Contas exercem controle externo, mas não pertencem ao Poder Judiciário. A resolução pode ser referência técnica, salvo ato próprio ou norma aplicável, e não vínculo automático. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q907",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Para estudar atualmente a Resolução CNJ nº 400/2021, deve-se priorizar",
       "options": [
-        {"id": "a", "text": "apenas a redação original de 2021"},
-        {"id": "b", "text": "o texto compilado com as alterações de 2024 e 2025"},
-        {"id": "c", "text": "somente notícias não oficiais"},
-        {"id": "d", "text": "a redação revogada da Resolução nº 201/2015"},
-        {"id": "e", "text": "um resumo anterior à Lei nº 14.133/2021"}
+        {
+          "id": "a",
+          "text": "apenas a redação original de 2021"
+        },
+        {
+          "id": "b",
+          "text": "somente notícias não oficiais"
+        },
+        {
+          "id": "c",
+          "text": "a redação revogada da Resolução nº 201/2015"
+        },
+        {
+          "id": "d",
+          "text": "o texto compilado com as alterações de 2024 e 2025"
+        },
+        {
+          "id": "e",
+          "text": "um resumo anterior à Lei nº 14.133/2021"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "As Resoluções CNJ nº 550/2024, nº 594/2024 e nº 641/2025 alteraram o ato; o texto compilado mostra a disciplina vigente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q908",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Entre os temas mínimos atuais do PLS do Poder Judiciário está",
       "options": [
-        {"id": "a", "text": "descarbonização"},
-        {"id": "b", "text": "propaganda eleitoral"},
-        {"id": "c", "text": "segredo permanente dos indicadores"},
-        {"id": "d", "text": "aumento obrigatório de viagens"},
-        {"id": "e", "text": "eliminação da gestão de resíduos"}
+        {
+          "id": "a",
+          "text": "propaganda eleitoral"
+        },
+        {
+          "id": "b",
+          "text": "segredo permanente dos indicadores"
+        },
+        {
+          "id": "c",
+          "text": "aumento obrigatório de viagens"
+        },
+        {
+          "id": "d",
+          "text": "eliminação da gestão de resíduos"
+        },
+        {
+          "id": "e",
+          "text": "descarbonização"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "e",
       "explanation": "O texto compilado inclui descarbonização, além de insumos, energia, água, resíduos, qualidade de vida, capacitação, deslocamentos, obras, equidade e contratações sustentáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q909",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na Lei nº 14.133/2021, o desenvolvimento nacional sustentável aparece como",
       "options": [
-        {"id": "a", "text": "princípio e objetivo do processo licitatório"},
-        {"id": "b", "text": "faculdade sem relação com contratação"},
-        {"id": "c", "text": "causa automática de inexigibilidade"},
-        {"id": "d", "text": "critério que elimina a competitividade"},
-        {"id": "e", "text": "regra restrita à alienação de imóveis"}
+        {
+          "id": "a",
+          "text": "princípio e objetivo do processo licitatório"
+        },
+        {
+          "id": "b",
+          "text": "faculdade sem relação com contratação"
+        },
+        {
+          "id": "c",
+          "text": "causa automática de inexigibilidade"
+        },
+        {
+          "id": "d",
+          "text": "critério que elimina a competitividade"
+        },
+        {
+          "id": "e",
+          "text": "regra restrita à alienação de imóveis"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "A Lei nº 14.133/2021 inclui o desenvolvimento nacional sustentável no art. 5º e entre os objetivos do processo licitatório no art. 11. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q910",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Considerar o ciclo de vida do objeto em uma contratação significa avaliar",
       "options": [
-        {"id": "a", "text": "somente o preço de aquisição"},
-        {"id": "b", "text": "apenas a publicidade do fornecedor"},
-        {"id": "c", "text": "etapas e efeitos relevantes da necessidade, produção, uso, manutenção e destinação"},
-        {"id": "d", "text": "exclusivamente o descarte"},
-        {"id": "e", "text": "somente a origem geográfica da empresa"}
+        {
+          "id": "a",
+          "text": "somente o preço de aquisição"
+        },
+        {
+          "id": "b",
+          "text": "etapas e efeitos relevantes da necessidade, produção, uso, manutenção e destinação"
+        },
+        {
+          "id": "c",
+          "text": "apenas a publicidade do fornecedor"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente o descarte"
+        },
+        {
+          "id": "e",
+          "text": "somente a origem geográfica da empresa"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "b",
       "explanation": "A perspectiva de ciclo de vida amplia a análise para custos e impactos relevantes antes, durante e depois da aquisição, sem se limitar ao valor inicial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q911",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Quando aplicável, o estudo técnico preliminar previsto na Lei nº 14.133/2021 deve tratar de",
       "options": [
-        {"id": "a", "text": "impactos ambientais, medidas mitigadoras, baixo consumo de recursos e logística reversa"},
-        {"id": "b", "text": "preferência pessoal do agente pela marca"},
-        {"id": "c", "text": "dispensa de motivação ambiental"},
-        {"id": "d", "text": "eliminação da análise de necessidade"},
-        {"id": "e", "text": "sigilo obrigatório do ciclo de vida"}
+        {
+          "id": "a",
+          "text": "preferência pessoal do agente pela marca"
+        },
+        {
+          "id": "b",
+          "text": "dispensa de motivação ambiental"
+        },
+        {
+          "id": "c",
+          "text": "impactos ambientais, medidas mitigadoras, baixo consumo de recursos e logística reversa"
+        },
+        {
+          "id": "d",
+          "text": "eliminação da análise de necessidade"
+        },
+        {
+          "id": "e",
+          "text": "sigilo obrigatório do ciclo de vida"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "O art. 18, § 1º, XII, prevê descrição de possíveis impactos ambientais e medidas mitigadoras, incluídos baixo consumo de energia e recursos e logística reversa, quando aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q912",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um critério de sustentabilidade adequado em licitação deve ser",
       "options": [
-        {"id": "a", "text": "vago e impossível de fiscalizar"},
-        {"id": "b", "text": "desvinculado da necessidade pública"},
-        {"id": "c", "text": "pertinente, motivado, objetivo, proporcional e verificável"},
-        {"id": "d", "text": "restritivo independentemente de benefício"},
-        {"id": "e", "text": "baseado apenas em promessa publicitária"}
+        {
+          "id": "a",
+          "text": "vago e impossível de fiscalizar"
+        },
+        {
+          "id": "b",
+          "text": "desvinculado da necessidade pública"
+        },
+        {
+          "id": "c",
+          "text": "restritivo independentemente de benefício"
+        },
+        {
+          "id": "d",
+          "text": "pertinente, motivado, objetivo, proporcional e verificável"
+        },
+        {
+          "id": "e",
+          "text": "baseado apenas em promessa publicitária"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "d",
       "explanation": "Critérios sustentáveis devem ter relação com o objeto, fundamento técnico, proporcionalidade e meios de comprovação e fiscalização, preservando isonomia e competição. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q913",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Sobre certificações ambientais em contratações públicas, é correto afirmar que",
       "options": [
-        {"id": "a", "text": "sempre autorizam exigir uma única marca"},
-        {"id": "b", "text": "podem servir como meio de prova, observada a adequação e a possibilidade de equivalência quando cabível"},
-        {"id": "c", "text": "dispensam fiscalização durante a execução"},
-        {"id": "d", "text": "substituem a motivação do critério"},
-        {"id": "e", "text": "provam todos os atributos sociais e econômicos do produto"}
+        {
+          "id": "a",
+          "text": "sempre autorizam exigir uma única marca"
+        },
+        {
+          "id": "b",
+          "text": "dispensam fiscalização durante a execução"
+        },
+        {
+          "id": "c",
+          "text": "substituem a motivação do critério"
+        },
+        {
+          "id": "d",
+          "text": "provam todos os atributos sociais e econômicos do produto"
+        },
+        {
+          "id": "e",
+          "text": "podem servir como meio de prova, observada a adequação e a possibilidade de equivalência quando cabível"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "Certificação pode comprovar requisito, mas não justifica automaticamente exclusividade nem afasta prova equivalente, motivação e fiscalização quando juridicamente cabíveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q914",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A Estratégia Nacional de Contratações Públicas para o Desenvolvimento Sustentável foi instituída pelo",
       "options": [
-        {"id": "a", "text": "Decreto nº 7.746/2012"},
-        {"id": "b", "text": "Decreto nº 12.771/2025"},
-        {"id": "c", "text": "Decreto nº 9.094/2017"},
-        {"id": "d", "text": "Decreto nº 10.024/2019"},
-        {"id": "e", "text": "Decreto nº 11.246/2022"}
+        {
+          "id": "a",
+          "text": "Decreto nº 12.771/2025"
+        },
+        {
+          "id": "b",
+          "text": "Decreto nº 7.746/2012"
+        },
+        {
+          "id": "c",
+          "text": "Decreto nº 9.094/2017"
+        },
+        {
+          "id": "d",
+          "text": "Decreto nº 10.024/2019"
+        },
+        {
+          "id": "e",
+          "text": "Decreto nº 11.246/2022"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "a",
       "explanation": "O Decreto nº 12.771, de 5 de dezembro de 2025, instituiu a ENCP para orientar o uso estratégico do poder de compra público. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q915",
-      "revision": 1,
+      "revision": 2,
       "prompt": "São eixos temáticos da ENCP",
       "options": [
-        {"id": "a", "text": "econômico, social, ambiental e gestão"},
-        {"id": "b", "text": "somente econômico e ambiental"},
-        {"id": "c", "text": "policial, judicial, eleitoral e tributário"},
-        {"id": "d", "text": "federal, estadual e municipal apenas"},
-        {"id": "e", "text": "planejamento, direção e controle apenas"}
+        {
+          "id": "a",
+          "text": "somente econômico e ambiental"
+        },
+        {
+          "id": "b",
+          "text": "econômico, social, ambiental e gestão"
+        },
+        {
+          "id": "c",
+          "text": "policial, judicial, eleitoral e tributário"
+        },
+        {
+          "id": "d",
+          "text": "federal, estadual e municipal apenas"
+        },
+        {
+          "id": "e",
+          "text": "planejamento, direção e controle apenas"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "O art. 3º do Decreto nº 12.771/2025 define quatro eixos: econômico, social, ambiental e de gestão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q916",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No eixo econômico da ENCP, encontra-se o objetivo de",
       "options": [
-        {"id": "a", "text": "ampliar o acesso de pequenos negócios às contratações públicas"},
-        {"id": "b", "text": "eliminar a inovação nacional"},
-        {"id": "c", "text": "concentrar renda regional"},
-        {"id": "d", "text": "impedir geração de emprego"},
-        {"id": "e", "text": "proibir negócios de impacto"}
+        {
+          "id": "a",
+          "text": "eliminar a inovação nacional"
+        },
+        {
+          "id": "b",
+          "text": "concentrar renda regional"
+        },
+        {
+          "id": "c",
+          "text": "ampliar o acesso de pequenos negócios às contratações públicas"
+        },
+        {
+          "id": "d",
+          "text": "impedir geração de emprego"
+        },
+        {
+          "id": "e",
+          "text": "proibir negócios de impacto"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanation": "O eixo econômico inclui produção e inovação nacionais, redução de desigualdades regionais e acesso de MEI, micro e pequenas empresas, negócios locais e de impacto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q917",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Constitui objetivo do eixo social da ENCP",
       "options": [
-        {"id": "a", "text": "reduzir a diversidade de fornecedores"},
-        {"id": "b", "text": "promover equidade, inclusão e trabalho decente nas contratações"},
-        {"id": "c", "text": "ignorar a responsabilidade social"},
-        {"id": "d", "text": "substituir competição por escolha pessoal"},
-        {"id": "e", "text": "excluir inovação social"}
+        {
+          "id": "a",
+          "text": "reduzir a diversidade de fornecedores"
+        },
+        {
+          "id": "b",
+          "text": "ignorar a responsabilidade social"
+        },
+        {
+          "id": "c",
+          "text": "substituir competição por escolha pessoal"
+        },
+        {
+          "id": "d",
+          "text": "promover equidade, inclusão e trabalho decente nas contratações"
+        },
+        {
+          "id": "e",
+          "text": "excluir inovação social"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "O eixo social busca contratações inclusivas e equitativas, inovação social, representatividade de fornecedores, responsabilidade social e trabalho decente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q918",
-      "revision": 1,
+      "revision": 2,
       "prompt": "No eixo ambiental da ENCP, incluem-se",
       "options": [
-        {"id": "a", "text": "economia circular, tecnologias limpas, resiliência climática, bioeconomia e rastreabilidade"},
-        {"id": "b", "text": "aumento obrigatório de impactos negativos"},
-        {"id": "c", "text": "eliminação de critérios ambientais"},
-        {"id": "d", "text": "somente digitalização de sistemas"},
-        {"id": "e", "text": "apenas capacitação de fornecedores"}
+        {
+          "id": "a",
+          "text": "aumento obrigatório de impactos negativos"
+        },
+        {
+          "id": "b",
+          "text": "eliminação de critérios ambientais"
+        },
+        {
+          "id": "c",
+          "text": "somente digitalização de sistemas"
+        },
+        {
+          "id": "d",
+          "text": "apenas capacitação de fornecedores"
+        },
+        {
+          "id": "e",
+          "text": "economia circular, tecnologias limpas, resiliência climática, bioeconomia e rastreabilidade"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "e",
       "explanation": "O eixo ambiental incorpora regeneração, circularidade, tecnologias limpas, mitigação, adaptação, resiliência, bioeconomia e rastreabilidade ambiental. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q919",
-      "revision": 1,
+      "revision": 2,
       "prompt": "O eixo de gestão da ENCP contempla",
       "options": [
-        {"id": "a", "text": "coordenação, dados, eficiência, digitalização, capacitação e diálogo com o mercado"},
-        {"id": "b", "text": "somente compensação de emissões"},
-        {"id": "c", "text": "exclusão de fornecedores dos canais de diálogo"},
-        {"id": "d", "text": "abandono da inovação"},
-        {"id": "e", "text": "proibição de articulação federativa"}
+        {
+          "id": "a",
+          "text": "coordenação, dados, eficiência, digitalização, capacitação e diálogo com o mercado"
+        },
+        {
+          "id": "b",
+          "text": "somente compensação de emissões"
+        },
+        {
+          "id": "c",
+          "text": "exclusão de fornecedores dos canais de diálogo"
+        },
+        {
+          "id": "d",
+          "text": "abandono da inovação"
+        },
+        {
+          "id": "e",
+          "text": "proibição de articulação federativa"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "O eixo de gestão fortalece capacidade estatal, articulação, uso de dados, eficiência, sistemas digitais, inovação, formação e diálogo com o mercado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q920",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Quanto ao alcance da ENCP, o Decreto nº 12.771/2025 estabelece que",
       "options": [
-        {"id": "a", "text": "todos os entes estão submetidos automaticamente aos mesmos deveres federais"},
-        {"id": "b", "text": "estados, DF, municípios e estatais podem aderir nos termos de ato do MGI"},
-        {"id": "c", "text": "somente municípios podem aderir"},
-        {"id": "d", "text": "a Administração federal está excluída"},
-        {"id": "e", "text": "a palavra nacional elimina a autonomia federativa"}
+        {
+          "id": "a",
+          "text": "todos os entes estão submetidos automaticamente aos mesmos deveres federais"
+        },
+        {
+          "id": "b",
+          "text": "estados, DF, municípios e estatais podem aderir nos termos de ato do MGI"
+        },
+        {
+          "id": "c",
+          "text": "somente municípios podem aderir"
+        },
+        {
+          "id": "d",
+          "text": "a Administração federal está excluída"
+        },
+        {
+          "id": "e",
+          "text": "a palavra nacional elimina a autonomia federativa"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Os deveres diretos de adequação alcançam a Administração federal direta, autárquica e fundacional; outros entes e estatais podem aderir conforme ato do MGI. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q921",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A ordem de prioridade da Política Nacional de Resíduos Sólidos começa por",
       "options": [
-        {"id": "a", "text": "disposição em aterro"},
-        {"id": "b", "text": "tratamento"},
-        {"id": "c", "text": "reciclagem"},
-        {"id": "d", "text": "não geração"},
-        {"id": "e", "text": "incineração"}
+        {
+          "id": "a",
+          "text": "disposição em aterro"
+        },
+        {
+          "id": "b",
+          "text": "tratamento"
+        },
+        {
+          "id": "c",
+          "text": "não geração"
+        },
+        {
+          "id": "d",
+          "text": "reciclagem"
+        },
+        {
+          "id": "e",
+          "text": "incineração"
+        }
       ],
-      "correctOptionId": "d",
+      "correctOptionId": "c",
       "explanation": "O art. 9º da Lei nº 12.305/2010 ordena: não geração, redução, reutilização, reciclagem, tratamento e disposição final adequada dos rejeitos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q922",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Rejeito é o resíduo que",
       "options": [
-        {"id": "a", "text": "sempre possui alto valor de reciclagem"},
-        {"id": "b", "text": "após esgotadas alternativas viáveis de tratamento e recuperação, só admite disposição final adequada"},
-        {"id": "c", "text": "deve obrigatoriamente ser reutilizado sem transformação"},
-        {"id": "d", "text": "não pode ser disposto em aterro"},
-        {"id": "e", "text": "é sinônimo de qualquer material reciclável"}
+        {
+          "id": "a",
+          "text": "sempre possui alto valor de reciclagem"
+        },
+        {
+          "id": "b",
+          "text": "deve obrigatoriamente ser reutilizado sem transformação"
+        },
+        {
+          "id": "c",
+          "text": "não pode ser disposto em aterro"
+        },
+        {
+          "id": "d",
+          "text": "após esgotadas alternativas viáveis de tratamento e recuperação, só admite disposição final adequada"
+        },
+        {
+          "id": "e",
+          "text": "é sinônimo de qualquer material reciclável"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "A PNRS reserva a noção de rejeito ao que não apresenta alternativa técnica e economicamente viável de tratamento ou recuperação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q923",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A diferença correta entre destinação e disposição final ambientalmente adequada é",
       "options": [
-        {"id": "a", "text": "destinação inclui alternativas como reúso e reciclagem; disposição refere-se à colocação ordenada de rejeitos em aterro"},
-        {"id": "b", "text": "as duas expressões significam exclusivamente reciclagem"},
-        {"id": "c", "text": "disposição ocorre antes da não geração"},
-        {"id": "d", "text": "destinação aplica-se apenas a rejeitos radioativos"},
-        {"id": "e", "text": "não existe diferença legal entre elas"}
+        {
+          "id": "a",
+          "text": "as duas expressões significam exclusivamente reciclagem"
+        },
+        {
+          "id": "b",
+          "text": "disposição ocorre antes da não geração"
+        },
+        {
+          "id": "c",
+          "text": "destinação aplica-se apenas a rejeitos radioativos"
+        },
+        {
+          "id": "d",
+          "text": "não existe diferença legal entre elas"
+        },
+        {
+          "id": "e",
+          "text": "destinação inclui alternativas como reúso e reciclagem; disposição refere-se à colocação ordenada de rejeitos em aterro"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "e",
       "explanation": "Destinação é conceito amplo, com reúso, reciclagem, compostagem, recuperação e soluções admitidas; disposição é a distribuição ordenada de rejeitos em aterros. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q924",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A reutilização distingue-se da reciclagem porque a reutilização",
       "options": [
-        {"id": "a", "text": "aproveita o resíduo sem transformação física, química ou biológica"},
-        {"id": "b", "text": "sempre transforma o resíduo em matéria-prima"},
-        {"id": "c", "text": "é posterior à disposição final"},
-        {"id": "d", "text": "aplica-se somente a rejeitos"},
-        {"id": "e", "text": "é proibida pela PNRS"}
+        {
+          "id": "a",
+          "text": "aproveita o resíduo sem transformação física, química ou biológica"
+        },
+        {
+          "id": "b",
+          "text": "sempre transforma o resíduo em matéria-prima"
+        },
+        {
+          "id": "c",
+          "text": "é posterior à disposição final"
+        },
+        {
+          "id": "d",
+          "text": "aplica-se somente a rejeitos"
+        },
+        {
+          "id": "e",
+          "text": "é proibida pela PNRS"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Reutilizar é aproveitar sem transformação; reciclar envolve transformação das propriedades para gerar insumo ou novo produto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q925",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Logística reversa é o instrumento que viabiliza",
       "options": [
-        {"id": "a", "text": "a coleta e restituição de resíduos ao setor empresarial para reaproveitamento ou destinação adequada"},
-        {"id": "b", "text": "a transferência de todo resíduo ao serviço municipal"},
-        {"id": "c", "text": "somente a separação interna de papéis"},
-        {"id": "d", "text": "a dispensa de responsabilidade do consumidor"},
-        {"id": "e", "text": "a disposição imediata de recicláveis em aterro"}
+        {
+          "id": "a",
+          "text": "a transferência de todo resíduo ao serviço municipal"
+        },
+        {
+          "id": "b",
+          "text": "a coleta e restituição de resíduos ao setor empresarial para reaproveitamento ou destinação adequada"
+        },
+        {
+          "id": "c",
+          "text": "somente a separação interna de papéis"
+        },
+        {
+          "id": "d",
+          "text": "a dispensa de responsabilidade do consumidor"
+        },
+        {
+          "id": "e",
+          "text": "a disposição imediata de recicláveis em aterro"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanation": "A logística reversa organiza o retorno ao setor empresarial. Ela não se confunde com coleta seletiva nem transfere integralmente atribuições ao município. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q926",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na PNRS, responsabilidade compartilhada pelo ciclo de vida dos produtos significa",
       "options": [
-        {"id": "a", "text": "responsabilidade idêntica e solidária em qualquer situação"},
-        {"id": "b", "text": "atribuições individualizadas e encadeadas dos participantes do ciclo"},
-        {"id": "c", "text": "responsabilidade exclusiva do consumidor"},
-        {"id": "d", "text": "responsabilidade exclusiva do fabricante"},
-        {"id": "e", "text": "ausência de deveres para o titular do serviço público"}
+        {
+          "id": "a",
+          "text": "responsabilidade idêntica e solidária em qualquer situação"
+        },
+        {
+          "id": "b",
+          "text": "responsabilidade exclusiva do consumidor"
+        },
+        {
+          "id": "c",
+          "text": "atribuições individualizadas e encadeadas dos participantes do ciclo"
+        },
+        {
+          "id": "d",
+          "text": "responsabilidade exclusiva do fabricante"
+        },
+        {
+          "id": "e",
+          "text": "ausência de deveres para o titular do serviço público"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "Fabricantes, importadores, distribuidores, comerciantes, consumidores e titulares dos serviços públicos de limpeza urbana e manejo de resíduos sólidos possuem atribuições próprias e conectadas, não necessariamente iguais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q927",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A economia circular busca",
       "options": [
-        {"id": "a", "text": "acelerar a sequência extrair, usar e descartar"},
-        {"id": "b", "text": "manter produtos e materiais em uso por desenho, manutenção, reparo, reúso e reciclagem"},
-        {"id": "c", "text": "eliminar qualquer avaliação de segurança"},
-        {"id": "d", "text": "substituir não geração por aterro"},
-        {"id": "e", "text": "reduzir a vida útil dos bens"}
+        {
+          "id": "a",
+          "text": "acelerar a sequência extrair, usar e descartar"
+        },
+        {
+          "id": "b",
+          "text": "eliminar qualquer avaliação de segurança"
+        },
+        {
+          "id": "c",
+          "text": "substituir não geração por aterro"
+        },
+        {
+          "id": "d",
+          "text": "manter produtos e materiais em uso por desenho, manutenção, reparo, reúso e reciclagem"
+        },
+        {
+          "id": "e",
+          "text": "reduzir a vida útil dos bens"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "Circularidade procura preservar valor e reduzir extração e resíduos. Ela é mais ampla que reciclagem isolada e depende de viabilidade, qualidade e rastreabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q928",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Na gestão climática, mitigação e adaptação correspondem, respectivamente, a",
       "options": [
-        {"id": "a", "text": "reduzir emissões e ajustar sistemas aos efeitos climáticos"},
-        {"id": "b", "text": "compensar emissões e medir consumo de papel"},
-        {"id": "c", "text": "ajustar sistemas e aumentar emissões"},
-        {"id": "d", "text": "inventariar bens e reciclar documentos"},
-        {"id": "e", "text": "ações idênticas sem distinção conceitual"}
+        {
+          "id": "a",
+          "text": "compensar emissões e medir consumo de papel"
+        },
+        {
+          "id": "b",
+          "text": "ajustar sistemas e aumentar emissões"
+        },
+        {
+          "id": "c",
+          "text": "inventariar bens e reciclar documentos"
+        },
+        {
+          "id": "d",
+          "text": "ações idênticas sem distinção conceitual"
+        },
+        {
+          "id": "e",
+          "text": "reduzir emissões e ajustar sistemas aos efeitos climáticos"
+        }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "e",
       "explanation": "Mitigação atua nas causas ao evitar ou reduzir emissões; adaptação ajusta organizações e sistemas aos efeitos presentes ou esperados da mudança do clima. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q929",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Resiliência climática é a capacidade de",
       "options": [
-        {"id": "a", "text": "manter ou recuperar funções diante de choques e mudanças"},
-        {"id": "b", "text": "ignorar riscos de enchentes, seca e calor"},
-        {"id": "c", "text": "substituir toda mitigação por publicidade"},
-        {"id": "d", "text": "eliminar a continuidade de serviços"},
-        {"id": "e", "text": "medir apenas o preço dos combustíveis"}
+        {
+          "id": "a",
+          "text": "manter ou recuperar funções diante de choques e mudanças"
+        },
+        {
+          "id": "b",
+          "text": "ignorar riscos de enchentes, seca e calor"
+        },
+        {
+          "id": "c",
+          "text": "substituir toda mitigação por publicidade"
+        },
+        {
+          "id": "d",
+          "text": "eliminar a continuidade de serviços"
+        },
+        {
+          "id": "e",
+          "text": "medir apenas o preço dos combustíveis"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Resiliência envolve absorver impactos, manter funções essenciais e recuperar-se ou adaptar-se diante de eventos e transformações climáticas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q930",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Uma sequência prudente para gerir emissões institucionais é",
       "options": [
-        {"id": "a", "text": "compensar primeiro e dispensar medição"},
-        {"id": "b", "text": "medir, prevenir, reduzir, substituir e compensar emissões residuais"},
-        {"id": "c", "text": "divulgar neutralidade, medir depois e manter emissões"},
-        {"id": "d", "text": "aumentar emissões e ocultar metodologia"},
-        {"id": "e", "text": "eliminar inventário e rastreabilidade"}
+        {
+          "id": "a",
+          "text": "compensar primeiro e dispensar medição"
+        },
+        {
+          "id": "b",
+          "text": "medir, prevenir, reduzir, substituir e compensar emissões residuais"
+        },
+        {
+          "id": "c",
+          "text": "divulgar neutralidade, medir depois e manter emissões"
+        },
+        {
+          "id": "d",
+          "text": "aumentar emissões e ocultar metodologia"
+        },
+        {
+          "id": "e",
+          "text": "eliminar inventário e rastreabilidade"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Compensação deve concentrar-se no residual após inventário e esforços de prevenção, redução e substituição; não é licença para inação operacional. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q931",
-      "revision": 1,
+      "revision": 2,
       "prompt": "A meta de neutralidade de carbono até 2030 prevista na Resolução CNJ nº 400/2021",
       "options": [
-        {"id": "a", "text": "é obrigação idêntica de toda organização pública brasileira"},
-        {"id": "b", "text": "aplica-se especificamente aos órgãos do Poder Judiciário no âmbito da resolução"},
-        {"id": "c", "text": "vincula exclusivamente empresas privadas"},
-        {"id": "d", "text": "dispensa inventário de emissões"},
-        {"id": "e", "text": "foi criada pela A3P para municípios"}
+        {
+          "id": "a",
+          "text": "é obrigação idêntica de toda organização pública brasileira"
+        },
+        {
+          "id": "b",
+          "text": "vincula exclusivamente empresas privadas"
+        },
+        {
+          "id": "c",
+          "text": "aplica-se especificamente aos órgãos do Poder Judiciário no âmbito da resolução"
+        },
+        {
+          "id": "d",
+          "text": "dispensa inventário de emissões"
+        },
+        {
+          "id": "e",
+          "text": "foi criada pela A3P para municípios"
+        }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "c",
       "explanation": "O texto compilado determina inventário, redução e compensação aos órgãos do Judiciário, conforme o Programa Justiça Carbono Zero. Não se deve generalizar seu âmbito. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q932",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Caracteriza risco de greenwashing no setor público",
       "options": [
-        {"id": "a", "text": "publicar método, linha de base, limitações e resultados negativos"},
-        {"id": "b", "text": "verificar critérios sustentáveis durante o contrato"},
-        {"id": "c", "text": "alegar neutralidade ou sustentabilidade sem definição, dados e rastreabilidade"},
-        {"id": "d", "text": "explicar mudança metodológica da série"},
-        {"id": "e", "text": "corrigir desvios identificados"}
+        {
+          "id": "a",
+          "text": "publicar método, linha de base, limitações e resultados negativos"
+        },
+        {
+          "id": "b",
+          "text": "verificar critérios sustentáveis durante o contrato"
+        },
+        {
+          "id": "c",
+          "text": "explicar mudança metodológica da série"
+        },
+        {
+          "id": "d",
+          "text": "alegar neutralidade ou sustentabilidade sem definição, dados e rastreabilidade"
+        },
+        {
+          "id": "e",
+          "text": "corrigir desvios identificados"
+        }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "d",
       "explanation": "Greenwashing ocorre quando a comunicação cria percepção superior à evidência. Conceitos claros, método, séries, verificação e transparência reduzem esse risco. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q933",
-      "revision": 1,
+      "revision": 2,
       "prompt": "Um órgão pretende trocar de uma só vez equipamentos ainda úteis por modelos chamados ecológicos, sem inventário ou linha de base, exigindo selo único e aceitando promessa futura de descarte. A medida mais adequada é",
       "options": [
-        {"id": "a", "text": "manter o plano, pois o rótulo ecológico dispensa estudo"},
-        {"id": "b", "text": "descartar imediatamente todos os bens para aumentar a reciclagem"},
-        {"id": "c", "text": "realizar diagnóstico, comparar ciclo de vida, substituir por criticidade, admitir prova adequada e controlar a logística reversa"},
-        {"id": "d", "text": "eliminar fiscalização para acelerar a contratação"},
-        {"id": "e", "text": "divulgar neutralidade antes de medir resultados"}
+        {
+          "id": "a",
+          "text": "manter o plano, pois o rótulo ecológico dispensa estudo"
+        },
+        {
+          "id": "b",
+          "text": "descartar imediatamente todos os bens para aumentar a reciclagem"
+        },
+        {
+          "id": "c",
+          "text": "eliminar fiscalização para acelerar a contratação"
+        },
+        {
+          "id": "d",
+          "text": "divulgar neutralidade antes de medir resultados"
+        },
+        {
+          "id": "e",
+          "text": "realizar diagnóstico, comparar ciclo de vida, substituir por criticidade, admitir prova adequada e controlar a logística reversa"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A solução sustentável parte da necessidade e da linha de base, preserva bens viáveis, evita restrição indevida, compara ciclo de vida e transforma descarte e retorno em obrigações verificáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q934",
+      "revision": 1,
+      "prompt": "Um órgão reduziu em 20% o consumo de energia por atendimento, mas duplicou o número de atendimentos e elevou o consumo total. A conclusão tecnicamente correta é que",
+      "options": [
+        {
+          "id": "a",
+          "text": "houve melhora de intensidade, mas não se pode afirmar redução absoluta sem comparar o consumo total e a expansão do serviço"
+        },
+        {
+          "id": "b",
+          "text": "a sustentabilidade está comprovada porque todo indicador relativo é suficiente"
+        },
+        {
+          "id": "c",
+          "text": "o aumento do consumo total prova necessariamente piora de eficiência"
+        },
+        {
+          "id": "d",
+          "text": "a expansão do serviço deve ser ignorada na interpretação"
+        },
+        {
+          "id": "e",
+          "text": "o indicador relativo deve ser substituído por uma declaração qualitativa"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Indicadores absolutos e de intensidade respondem a perguntas diferentes. A expansão pode melhorar a eficiência por unidade e ainda elevar o total. Fonte: Questão autoral inspirada no padrão Cebraspe para indicadores de sustentabilidade."
+    },
+    {
+      "id": "q935",
+      "revision": 1,
+      "prompt": "A terceirização de toda a frota reduziu as emissões diretas registradas pelo órgão, mas o serviço de transporte continuou com a mesma quilometragem. Nesse caso,",
+      "options": [
+        {
+          "id": "a",
+          "text": "a emissão deixou de existir porque não pertence mais à frota própria"
+        },
+        {
+          "id": "b",
+          "text": "pode ter ocorrido transferência da emissão para a cadeia de valor, sem redução real do impacto total"
+        },
+        {
+          "id": "c",
+          "text": "a contratação terceirizada é neutra por definição"
+        },
+        {
+          "id": "d",
+          "text": "o inventário deve registrar somente despesas, não emissões"
+        },
+        {
+          "id": "e",
+          "text": "a redução direta comprova automaticamente neutralidade de carbono"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mudar a fronteira operacional pode deslocar emissões. Inventários comparáveis precisam explicitar limites e cadeia relevante. Fonte: Questão autoral atual baseada no GHG Protocol e no pensamento sistêmico."
+    },
+    {
+      "id": "q936",
+      "revision": 1,
+      "prompt": "Uma iniciativa é apresentada como vinculada ao ODS 12.7. Para demonstrar resultado, o órgão deve, além da referência ao ODS,",
+      "options": [
+        {
+          "id": "a",
+          "text": "substituir todas as normas nacionais pela Agenda 2030"
+        },
+        {
+          "id": "b",
+          "text": "usar apenas a logomarca do ODS no relatório"
+        },
+        {
+          "id": "c",
+          "text": "definir relação com a meta, linha de base, indicador, objetivo mensurável e evidência de execução"
+        },
+        {
+          "id": "d",
+          "text": "dispensar análise de competitividade nas compras"
+        },
+        {
+          "id": "e",
+          "text": "considerar qualquer produto reciclável como resultado final"
+        }
       ],
       "correctOptionId": "c",
-      "explanation": "A solução sustentável parte da necessidade e da linha de base, preserva bens viáveis, evita restrição indevida, compara ciclo de vida e transforma descarte e retorno em obrigações verificáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O alinhamento aos ODS comunica contribuição pretendida, mas não prova causalidade nem efetividade. Fonte: Questão autoral inspirada em cobranças sobre Agenda 2030 e sustentabilidade pública."
+    },
+    {
+      "id": "q937",
+      "revision": 1,
+      "prompt": "Ao avaliar uma solução digital, o gestor constatou redução de papel e aumento de energia, equipamentos e descarte eletrônico. Esse raciocínio expressa",
+      "options": [
+        {
+          "id": "a",
+          "text": "análise exclusiva do preço de aquisição"
+        },
+        {
+          "id": "b",
+          "text": "suposição de que toda digitalização é sustentável"
+        },
+        {
+          "id": "c",
+          "text": "aplicação automática da logística reversa"
+        },
+        {
+          "id": "d",
+          "text": "pensamento sistêmico, por considerar impactos diretos, indiretos e transferidos"
+        },
+        {
+          "id": "e",
+          "text": "negação da dimensão social da sustentabilidade"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Sustentabilidade exige comparar o conjunto dos efeitos, e não classificar tecnologias como sustentáveis por natureza. Fonte: Questão autoral inspirada no padrão situacional do Cebraspe."
+    },
+    {
+      "id": "q938",
+      "revision": 1,
+      "prompt": "Uma política reduz custos médios, mas encerra o único canal acessível a pessoas sem conectividade. Sob a sustentabilidade multidimensional,",
+      "options": [
+        {
+          "id": "a",
+          "text": "a economia financeira torna irrelevante qualquer exclusão"
+        },
+        {
+          "id": "b",
+          "text": "a sustentabilidade social só se aplica a empresas privadas"
+        },
+        {
+          "id": "c",
+          "text": "o fechamento é obrigatório por reduzir deslocamentos"
+        },
+        {
+          "id": "d",
+          "text": "a análise deve limitar-se ao consumo de papel"
+        },
+        {
+          "id": "e",
+          "text": "a eficiência média deve ser confrontada com inclusão, continuidade do serviço e efeitos distributivos"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Economia e ambiente não eliminam a dimensão social. Uma medida pode ser eficiente para a média e regressiva para determinados grupos. Fonte: Questão autoral inspirada no item de sustentabilidade e acessibilidade cobrado pelo Cebraspe no TCE/AC 2024."
+    },
+    {
+      "id": "q939",
+      "revision": 1,
+      "prompt": "O chamado efeito rebote ocorre quando",
+      "options": [
+        {
+          "id": "a",
+          "text": "o ganho de eficiência por unidade é compensado, total ou parcialmente, pelo aumento do uso"
+        },
+        {
+          "id": "b",
+          "text": "a Administração reduz simultaneamente consumo absoluto e intensidade"
+        },
+        {
+          "id": "c",
+          "text": "um produto recebe certificação ambiental independente"
+        },
+        {
+          "id": "d",
+          "text": "o órgão corrige a linha de base de forma transparente"
+        },
+        {
+          "id": "e",
+          "text": "a logística reversa devolve resíduos ao setor empresarial"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Eficiência unitária não garante queda total. O volume de uso pode neutralizar o benefício esperado. Fonte: Questão autoral atual sobre gestão sistêmica de sustentabilidade."
+    },
+    {
+      "id": "q940",
+      "revision": 1,
+      "prompt": "Quanto às dimensões da sustentabilidade pública, a afirmação correta é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "a dimensão econômica se limita ao menor preço"
+        },
+        {
+          "id": "b",
+          "text": "as dimensões ambiental, econômica, social e institucional devem ser analisadas de forma integrada e podem apresentar tensões reais"
+        },
+        {
+          "id": "c",
+          "text": "a dimensão social afasta critérios objetivos"
+        },
+        {
+          "id": "d",
+          "text": "a dimensão institucional é dispensável quando há boa intenção"
+        },
+        {
+          "id": "e",
+          "text": "a dimensão ambiental autoriza qualquer restrição competitiva"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "As dimensões são interdependentes e a decisão deve motivar escolhas, riscos e compensações entre alternativas. Fonte: Questão autoral inspirada em itens Cebraspe sobre sustentabilidade pública."
+    },
+    {
+      "id": "q941",
+      "revision": 1,
+      "prompt": "Uma meta institucional informa apenas 'tornar o órgão mais sustentável'. O principal problema gerencial é a ausência de",
+      "options": [
+        {
+          "id": "a",
+          "text": "referência a uma marca de certificação"
+        },
+        {
+          "id": "b",
+          "text": "menção obrigatória a todos os 17 ODS"
+        },
+        {
+          "id": "c",
+          "text": "definição operacional, linha de base, indicador, prazo, responsável e valor-alvo"
+        },
+        {
+          "id": "d",
+          "text": "previsão de descarte em aterro"
+        },
+        {
+          "id": "e",
+          "text": "autorização do Conselho Nacional de Justiça"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Meta precisa ser mensurável e governável. Formulação genérica não permite acompanhar desempenho nem responsabilizar. Fonte: Questão autoral inspirada no padrão Cebraspe de planejamento e indicadores."
+    },
+    {
+      "id": "q942",
+      "revision": 1,
+      "prompt": "Em sustentabilidade pública, materialidade serve principalmente para",
+      "options": [
+        {
+          "id": "a",
+          "text": "eliminar impactos de menor valor monetário"
+        },
+        {
+          "id": "b",
+          "text": "substituir a análise de legalidade"
+        },
+        {
+          "id": "c",
+          "text": "provar que todo risco ambiental é alto"
+        },
+        {
+          "id": "d",
+          "text": "priorizar impactos relevantes para a missão, os recursos, os riscos e as partes interessadas"
+        },
+        {
+          "id": "e",
+          "text": "permitir que o órgão publique apenas resultados positivos"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Materialidade organiza prioridades, mas não autoriza omissão enganosa nem afastamento de obrigações legais. Fonte: Questão autoral baseada em governança e relatórios de sustentabilidade."
+    },
+    {
+      "id": "q943",
+      "revision": 1,
+      "prompt": "A afirmação 'o programa recebeu o selo ODS, logo produziu impacto' é inadequada porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo ODS é juridicamente inaplicável ao setor público"
+        },
+        {
+          "id": "b",
+          "text": "impactos só podem ser medidos por valores financeiros"
+        },
+        {
+          "id": "c",
+          "text": "selos são proibidos em qualquer comunicação pública"
+        },
+        {
+          "id": "d",
+          "text": "a Agenda 2030 contém apenas recomendações ambientais"
+        },
+        {
+          "id": "e",
+          "text": "a associação simbólica a um ODS não substitui evidência de resultado e método de avaliação"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O uso de símbolos e referências pode comunicar intenção, mas não demonstra mudança atribuível à iniciativa. Fonte: Questão autoral inspirada em cobranças de Agenda 2030."
+    },
+    {
+      "id": "q944",
+      "revision": 1,
+      "prompt": "No ciclo de gestão da sustentabilidade, a sequência mais coerente é",
+      "options": [
+        {
+          "id": "a",
+          "text": "diagnosticar, priorizar, planejar, definir linha de base e metas, executar, monitorar, avaliar e revisar"
+        },
+        {
+          "id": "b",
+          "text": "executar, divulgar, criar a linha de base e só então definir o problema"
+        },
+        {
+          "id": "c",
+          "text": "comprar, certificar, encerrar a medição e compensar"
+        },
+        {
+          "id": "d",
+          "text": "publicar a meta, dispensar responsáveis e presumir o resultado"
+        },
+        {
+          "id": "e",
+          "text": "selecionar um indicador e adaptar o objetivo ao número disponível"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O ciclo começa pela necessidade e pelo diagnóstico; metas e indicadores orientam execução, avaliação e correção. Fonte: Questão autoral inspirada no padrão Cebraspe de governança e planejamento."
+    },
+    {
+      "id": "q945",
+      "revision": 1,
+      "prompt": "Um indicador de processo é, por exemplo,",
+      "options": [
+        {
+          "id": "a",
+          "text": "a redução comprovada de emissões em toneladas"
+        },
+        {
+          "id": "b",
+          "text": "o percentual de contratos em que o critério sustentável foi efetivamente fiscalizado"
+        },
+        {
+          "id": "c",
+          "text": "a melhoria de saúde da população atribuível à política"
+        },
+        {
+          "id": "d",
+          "text": "o custo evitado ao longo do ciclo de vida"
+        },
+        {
+          "id": "e",
+          "text": "a redução absoluta do consumo de água"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Indicador de processo mede execução ou cobertura de procedimentos; resultado e impacto medem mudanças produzidas. Fonte: Questão autoral inspirada em itens sobre indicadores."
+    },
+    {
+      "id": "q946",
+      "revision": 1,
+      "prompt": "O órgão realizou 30 capacitações ambientais e declarou ter reduzido emissões. A inferência é inválida porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "capacitação não pode integrar política ambiental"
+        },
+        {
+          "id": "b",
+          "text": "emissões só podem ser medidas por pesquisa de opinião"
+        },
+        {
+          "id": "c",
+          "text": "atividade realizada não demonstra, sem cadeia de resultados e medição, mudança de comportamento ou emissões"
+        },
+        {
+          "id": "d",
+          "text": "todo indicador de atividade é proibido"
+        },
+        {
+          "id": "e",
+          "text": "a quantidade de cursos é necessariamente um indicador de impacto"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Treinamentos são entregas ou atividades. O efeito depende de aplicação, comportamento e resultado mensurado. Fonte: Questão autoral baseada em monitoramento e avaliação."
+    },
+    {
+      "id": "q947",
+      "revision": 1,
+      "prompt": "Para manter comparabilidade de uma série histórica, a alteração da fórmula de um indicador deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "ser omitida para evitar confusão"
+        },
+        {
+          "id": "b",
+          "text": "ser aplicada somente aos anos favoráveis"
+        },
+        {
+          "id": "c",
+          "text": "eliminar a linha de base anterior"
+        },
+        {
+          "id": "d",
+          "text": "ser explicada e, quando possível, acompanhada de reconstrução ou reconciliação da série"
+        },
+        {
+          "id": "e",
+          "text": "transformar automaticamente o indicador em qualitativo"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Mudanças metodológicas podem ser legítimas, mas exigem transparência para evitar conclusões enganosas. Fonte: Questão autoral inspirada em controle de greenwashing."
+    },
+    {
+      "id": "q948",
+      "revision": 1,
+      "prompt": "Uma meta de redução de 15% sem indicar o valor inicial apresenta deficiência porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "toda meta percentual é ilegal"
+        },
+        {
+          "id": "b",
+          "text": "somente valores absolutos podem ser auditados"
+        },
+        {
+          "id": "c",
+          "text": "a meta deveria mencionar necessariamente um ODS"
+        },
+        {
+          "id": "d",
+          "text": "o prazo é irrelevante quando há percentual"
+        },
+        {
+          "id": "e",
+          "text": "não há linha de base que permita calcular e verificar a redução"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Percentuais dependem de base, período, fronteira e regra de cálculo. Fonte: Questão autoral de indicadores, inspirada no padrão Cebraspe."
+    },
+    {
+      "id": "q949",
+      "revision": 1,
+      "prompt": "Um painel informa consumo de água por pessoa, mas não divulga o número de usuários nem mudanças de ocupação. A principal limitação é",
+      "options": [
+        {
+          "id": "a",
+          "text": "a impossibilidade de interpretar adequadamente o denominador e comparar períodos"
+        },
+        {
+          "id": "b",
+          "text": "o uso de indicador de intensidade é sempre proibido"
+        },
+        {
+          "id": "c",
+          "text": "a água não integra sustentabilidade pública"
+        },
+        {
+          "id": "d",
+          "text": "o painel deveria trazer apenas o custo da conta"
+        },
+        {
+          "id": "e",
+          "text": "a ocupação não afeta nenhum indicador"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Indicadores de intensidade exigem denominadores confiáveis e comparáveis. Fonte: Questão autoral sobre qualidade de dados."
+    },
+    {
+      "id": "q950",
+      "revision": 1,
+      "prompt": "Na sustentabilidade, governança e gestão se relacionam de modo que",
+      "options": [
+        {
+          "id": "a",
+          "text": "a governança executa todas as compras e a gestão apenas publica relatórios"
+        },
+        {
+          "id": "b",
+          "text": "a governança direciona, monitora e avalia, enquanto a gestão planeja, executa e controla"
+        },
+        {
+          "id": "c",
+          "text": "a gestão substitui a autoridade competente"
+        },
+        {
+          "id": "d",
+          "text": "a governança elimina controles internos"
+        },
+        {
+          "id": "e",
+          "text": "as duas expressões são sinônimos perfeitos"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A distinção organiza papéis sem separar artificialmente estratégia e execução. Fonte: Questão autoral inspirada em referenciais de governança pública."
+    },
+    {
+      "id": "q951",
+      "revision": 1,
+      "prompt": "Um risco de sustentabilidade bem formulado deve relacionar",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas o nome de um ODS"
+        },
+        {
+          "id": "b",
+          "text": "uma declaração genérica de boas intenções"
+        },
+        {
+          "id": "c",
+          "text": "evento, causa, consequência, probabilidade e impacto sobre objetivos"
+        },
+        {
+          "id": "d",
+          "text": "somente o valor do contrato"
+        },
+        {
+          "id": "e",
+          "text": "uma lista de produtos certificados"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Risco precisa ser ligado a objetivos e apoiar respostas proporcionais. Fonte: Questão autoral baseada em gestão de riscos."
+    },
+    {
+      "id": "q952",
+      "revision": 1,
+      "prompt": "O órgão publicou somente indicadores que melhoraram e suprimiu os que pioraram. A prática representa",
+      "options": [
+        {
+          "id": "a",
+          "text": "materialidade corretamente aplicada"
+        },
+        {
+          "id": "b",
+          "text": "adaptação climática"
+        },
+        {
+          "id": "c",
+          "text": "logística reversa"
+        },
+        {
+          "id": "d",
+          "text": "seleção enviesada de resultados e risco de greenwashing"
+        },
+        {
+          "id": "e",
+          "text": "custeio do ciclo de vida"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Materialidade não autoriza ocultar informação relevante nem selecionar apenas resultados favoráveis. Fonte: Questão autoral inspirada em transparência e greenwashing."
+    },
+    {
+      "id": "q953",
+      "revision": 1,
+      "prompt": "A evidência mais adequada para comprovar destinação de resíduos inclui",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas fotografia de lixeiras coloridas"
+        },
+        {
+          "id": "b",
+          "text": "declaração genérica sem período ou quantidade"
+        },
+        {
+          "id": "c",
+          "text": "menção a campanha de conscientização"
+        },
+        {
+          "id": "d",
+          "text": "estimativa sem fonte produzida depois do relatório"
+        },
+        {
+          "id": "e",
+          "text": "registros de massa, recibos, identificação do destinatário e rastreabilidade compatível com o fluxo"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A comprovação deve permitir verificar quantidade, destino e responsável. Fonte: Questão autoral sobre evidência auditável."
+    },
+    {
+      "id": "q954",
+      "revision": 1,
+      "prompt": "Em uma avaliação, o consumo absoluto cresceu 5% e o número de atendimentos cresceu 20%. O indicador por atendimento pode",
+      "options": [
+        {
+          "id": "a",
+          "text": "melhorar, devendo ser analisado junto do total e da expansão do serviço"
+        },
+        {
+          "id": "b",
+          "text": "necessariamente piorar"
+        },
+        {
+          "id": "c",
+          "text": "ser ignorado porque todo denominador é manipulável"
+        },
+        {
+          "id": "d",
+          "text": "provar neutralidade de carbono"
+        },
+        {
+          "id": "e",
+          "text": "substituir qualquer análise de custo"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Absoluto e intensidade são complementares. Fonte: Questão autoral com cálculo interpretativo simples."
+    },
+    {
+      "id": "q955",
+      "revision": 1,
+      "prompt": "Uma ficha de indicador completa deve conter, entre outros elementos,",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas nome e cor do gráfico"
+        },
+        {
+          "id": "b",
+          "text": "definição, fórmula, unidade, fonte, periodicidade, responsável, linha de base, meta e limitações"
+        },
+        {
+          "id": "c",
+          "text": "somente valor atual e logomarca do programa"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente a meta política"
+        },
+        {
+          "id": "e",
+          "text": "apenas a fonte orçamentária"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Metadados tornam o indicador reproduzível e auditável. Fonte: Questão autoral baseada em gestão de desempenho."
+    },
+    {
+      "id": "q956",
+      "revision": 1,
+      "prompt": "Um controle proporcional ao risco significa que",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo item sustentável exige auditoria integral permanente"
+        },
+        {
+          "id": "b",
+          "text": "riscos baixos dispensam qualquer responsabilidade"
+        },
+        {
+          "id": "c",
+          "text": "a intensidade da verificação deve considerar probabilidade, impacto, materialidade e custo do controle"
+        },
+        {
+          "id": "d",
+          "text": "controles podem ser eliminados quando há certificação"
+        },
+        {
+          "id": "e",
+          "text": "o custo do controle nunca deve ser considerado"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Proporcionalidade evita tanto controle insuficiente quanto burocracia sem valor. Fonte: Questão autoral inspirada em governança e riscos."
+    },
+    {
+      "id": "q957",
+      "revision": 1,
+      "prompt": "Ao identificar que a linha de base estava incorreta, o órgão deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "manter o erro para proteger a comparabilidade"
+        },
+        {
+          "id": "b",
+          "text": "apagar os dados anteriores sem explicação"
+        },
+        {
+          "id": "c",
+          "text": "substituir a medição por narrativa"
+        },
+        {
+          "id": "d",
+          "text": "corrigi-la com justificativa, preservar rastreabilidade e reavaliar metas e séries afetadas"
+        },
+        {
+          "id": "e",
+          "text": "publicar apenas o novo valor favorável"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Correção transparente melhora a confiabilidade; ocultação degrada a série. Fonte: Questão autoral de qualidade da informação."
+    },
+    {
+      "id": "q958",
+      "revision": 1,
+      "prompt": "A materialidade de um impacto pode variar entre um tribunal, um hospital e uma secretaria de infraestrutura porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "a Constituição só se aplica a um dos órgãos"
+        },
+        {
+          "id": "b",
+          "text": "sustentabilidade depende apenas do número de servidores"
+        },
+        {
+          "id": "c",
+          "text": "impactos ambientais são sempre idênticos"
+        },
+        {
+          "id": "d",
+          "text": "cada órgão pode ignorar obrigações legais não materiais"
+        },
+        {
+          "id": "e",
+          "text": "missão, operações, usuários, ativos e riscos são diferentes"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Materialidade é contextual, mas não elimina deveres jurídicos. Fonte: Questão autoral baseada em gestão pública sustentável."
+    },
+    {
+      "id": "q959",
+      "revision": 1,
+      "prompt": "A adesão à Agenda Ambiental na Administração Pública (A3P) é",
+      "options": [
+        {
+          "id": "a",
+          "text": "voluntária, sem afastar obrigações constitucionais e legais aplicáveis ao órgão"
+        },
+        {
+          "id": "b",
+          "text": "obrigatória para todos os municípios"
+        },
+        {
+          "id": "c",
+          "text": "restrita ao Poder Executivo federal"
+        },
+        {
+          "id": "d",
+          "text": "substitutiva do PLS"
+        },
+        {
+          "id": "e",
+          "text": "dispensada de plano de trabalho"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A3P é programa voluntário; deveres legais continuam vinculantes. Fonte: Questão autoral inspirada em temas cobrados pelo Cebraspe no IPAAM 2026."
+    },
+    {
+      "id": "q960",
+      "revision": 1,
+      "prompt": "Entre os seis eixos da A3P encontra-se",
+      "options": [
+        {
+          "id": "a",
+          "text": "privatização de serviços"
+        },
+        {
+          "id": "b",
+          "text": "qualidade de vida no ambiente de trabalho"
+        },
+        {
+          "id": "c",
+          "text": "eliminação de licitações"
+        },
+        {
+          "id": "d",
+          "text": "sigilo de relatórios"
+        },
+        {
+          "id": "e",
+          "text": "centralização obrigatória de compras"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os seis eixos abrangem recursos, resíduos, qualidade de vida, sensibilização, compras e construções. Fonte: Questão autoral inspirada em questões Cebraspe sobre A3P."
+    },
+    {
+      "id": "q961",
+      "revision": 1,
+      "prompt": "A relação correta entre A3P e PLS é:",
+      "options": [
+        {
+          "id": "a",
+          "text": "são o mesmo instrumento com nomes equivalentes"
+        },
+        {
+          "id": "b",
+          "text": "a adesão à A3P substitui qualquer plano"
+        },
+        {
+          "id": "c",
+          "text": "podem ser complementares, mas possuem naturezas e estruturas distintas"
+        },
+        {
+          "id": "d",
+          "text": "o PLS é sempre voluntário porque a A3P é voluntária"
+        },
+        {
+          "id": "e",
+          "text": "nenhum deles pode conter indicadores"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A3P é programa de adesão; PLS é instrumento de planejamento definido por atos específicos. Fonte: Questão autoral inspirada em provas sobre A3P."
+    },
+    {
+      "id": "q962",
+      "revision": 1,
+      "prompt": "A Resolução CNJ nº 400/2021 aplica-se diretamente",
+      "options": [
+        {
+          "id": "a",
+          "text": "a todo Tribunal de Contas estadual"
+        },
+        {
+          "id": "b",
+          "text": "a qualquer entidade privada contratada"
+        },
+        {
+          "id": "c",
+          "text": "somente ao Poder Executivo federal"
+        },
+        {
+          "id": "d",
+          "text": "a conselhos e tribunais do Poder Judiciário, conforme seu texto"
+        },
+        {
+          "id": "e",
+          "text": "a todos os municípios por ser resolução nacional"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Tribunal de Contas não integra o Poder Judiciário. Fonte: Questão autoral inspirada no padrão Cebraspe sobre âmbito institucional."
+    },
+    {
+      "id": "q963",
+      "revision": 1,
+      "prompt": "O programa de sustentabilidade do TCU deve ser estudado, para o TCE/MA, como",
+      "options": [
+        {
+          "id": "a",
+          "text": "norma estadual diretamente obrigatória"
+        },
+        {
+          "id": "b",
+          "text": "ato do CNJ"
+        },
+        {
+          "id": "c",
+          "text": "substituto da legislação maranhense"
+        },
+        {
+          "id": "d",
+          "text": "regulamento universal de licitações"
+        },
+        {
+          "id": "e",
+          "text": "referência técnica relevante, sem presunção de vinculação automática"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A obrigatoriedade depende do destinatário e do fundamento jurídico aplicável. Fonte: Questão autoral atual sobre sustentabilidade em Tribunais de Contas."
+    },
+    {
+      "id": "q964",
+      "revision": 1,
+      "prompt": "A Portaria SEGES/MGI nº 5.376/2023 disciplina modelo de PLS para",
+      "options": [
+        {
+          "id": "a",
+          "text": "a Administração Pública federal direta, autárquica e fundacional, conforme seu âmbito"
+        },
+        {
+          "id": "b",
+          "text": "todos os entes federativos automaticamente"
+        },
+        {
+          "id": "c",
+          "text": "somente o Poder Judiciário"
+        },
+        {
+          "id": "d",
+          "text": "apenas empresas privadas"
+        },
+        {
+          "id": "e",
+          "text": "exclusivamente Tribunais de Contas estaduais"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O alcance deve ser lido no próprio ato; referência federal não significa imposição geral. Fonte: Questão autoral baseada na Portaria SEGES/MGI nº 5.376/2023."
+    },
+    {
+      "id": "q965",
+      "revision": 1,
+      "prompt": "Ao receber uma questão sobre meta climática de neutralidade até 2030 prevista na Resolução CNJ nº 400/2021, o candidato deve concluir que",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo órgão público possui a mesma meta por força do CNJ"
+        },
+        {
+          "id": "b",
+          "text": "a meta é específica do Poder Judiciário e não pode ser generalizada sem base para toda a Administração"
+        },
+        {
+          "id": "c",
+          "text": "Tribunais de Contas são órgãos judiciais"
+        },
+        {
+          "id": "d",
+          "text": "a meta substitui inventários de emissões"
+        },
+        {
+          "id": "e",
+          "text": "a compensação dispensa redução"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O sujeito normativo do ato é decisivo. Fonte: Questão autoral inspirada em cobranças institucionais."
+    },
+    {
+      "id": "q966",
+      "revision": 1,
+      "prompt": "Um PLS consistente deve conter",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente lista de produtos verdes"
+        },
+        {
+          "id": "b",
+          "text": "apenas campanha anual"
+        },
+        {
+          "id": "c",
+          "text": "objetivos, responsáveis, ações, indicadores, metas, prazos, monitoramento e avaliação"
+        },
+        {
+          "id": "d",
+          "text": "selo estrangeiro obrigatório"
+        },
+        {
+          "id": "e",
+          "text": "metas sem linha de base ou responsáveis"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O PLS é instrumento de gestão, não catálogo de intenções. Fonte: Questão autoral inspirada em questões de PLS."
+    },
+    {
+      "id": "q967",
+      "revision": 1,
+      "prompt": "No TCE, a sustentabilidade pode ser objeto de",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente atividade de manutenção predial"
+        },
+        {
+          "id": "b",
+          "text": "exclusivamente julgamento de contas ambientais"
+        },
+        {
+          "id": "c",
+          "text": "apenas campanha de reciclagem"
+        },
+        {
+          "id": "d",
+          "text": "gestão interna, governança institucional e controle externo"
+        },
+        {
+          "id": "e",
+          "text": "competência do CNJ"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A atuação combina organização interna e fiscalização de políticas, contratos e resultados. Fonte: Questão autoral específica para o contexto do TCE/MA."
+    },
+    {
+      "id": "q968",
+      "revision": 1,
+      "prompt": "Ao comparar atos de sustentabilidade, o primeiro passo deve ser",
+      "options": [
+        {
+          "id": "a",
+          "text": "considerar que todo ato nacional alcança todos os entes"
+        },
+        {
+          "id": "b",
+          "text": "presumir que toda boa prática é obrigatória"
+        },
+        {
+          "id": "c",
+          "text": "ignorar alterações posteriores"
+        },
+        {
+          "id": "d",
+          "text": "usar apenas o título do documento"
+        },
+        {
+          "id": "e",
+          "text": "identificar órgão emissor, destinatários, vigência e natureza da obrigação"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Âmbito e texto consolidado evitam generalizações indevidas. Fonte: Questão autoral inspirada no padrão Cebraspe."
+    },
+    {
+      "id": "q969",
+      "revision": 1,
+      "prompt": "A unidade permanente de sustentabilidade e a comissão gestora do PLS mencionadas na Resolução CNJ nº 400/2021 pertencem ao modelo do",
+      "options": [
+        {
+          "id": "a",
+          "text": "Poder Judiciário"
+        },
+        {
+          "id": "b",
+          "text": "Sistema Nacional do Meio Ambiente para todos os órgãos"
+        },
+        {
+          "id": "c",
+          "text": "TCU e TCEs por identidade institucional"
+        },
+        {
+          "id": "d",
+          "text": "setor empresarial"
+        },
+        {
+          "id": "e",
+          "text": "Ministério Público apenas"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O modelo do CNJ possui destinatários específicos. Fonte: Questão autoral baseada no texto compilado da Resolução CNJ nº 400/2021."
+    },
+    {
+      "id": "q970",
+      "revision": 1,
+      "prompt": "A afirmação 'o TCE/MA deve cumprir automaticamente o PLS do TCU' é",
+      "options": [
+        {
+          "id": "a",
+          "text": "correta, porque todos os Tribunais de Contas são subordinados ao TCU"
+        },
+        {
+          "id": "b",
+          "text": "incorreta, pois referência técnica e vinculação normativa não são equivalentes"
+        },
+        {
+          "id": "c",
+          "text": "correta, porque política interna federal é lei nacional"
+        },
+        {
+          "id": "d",
+          "text": "incorreta apenas porque sustentabilidade não integra o edital"
+        },
+        {
+          "id": "e",
+          "text": "correta se o programa mencionar ODS"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "TCUs e TCEs possuem autonomia e âmbitos normativos próprios. Fonte: Questão autoral específica para o concurso."
+    },
+    {
+      "id": "q971",
+      "revision": 1,
+      "prompt": "A nomenclatura 'Plano de Gestão de Logística Sustentável' e 'Plano Diretor de Logística Sustentável'",
+      "options": [
+        {
+          "id": "a",
+          "text": "prova que os instrumentos são juridicamente universais"
+        },
+        {
+          "id": "b",
+          "text": "torna irrelevante o destinatário da norma"
+        },
+        {
+          "id": "c",
+          "text": "pode variar conforme o ato, sem autorizar tratar todos os regimes como idênticos"
+        },
+        {
+          "id": "d",
+          "text": "elimina a necessidade de indicadores"
+        },
+        {
+          "id": "e",
+          "text": "significa que o PLS é sempre voluntário"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A sigla pode ser semelhante enquanto conteúdo e alcance normativo variam. Fonte: Questão autoral de âmbito institucional."
+    },
+    {
+      "id": "q972",
+      "revision": 1,
+      "prompt": "A adesão voluntária à A3P significa que",
+      "options": [
+        {
+          "id": "a",
+          "text": "toda gestão de resíduos é voluntária"
+        },
+        {
+          "id": "b",
+          "text": "o órgão aderente pode afastar a PNRS"
+        },
+        {
+          "id": "c",
+          "text": "a Administração não aderente está dispensada de sustentabilidade"
+        },
+        {
+          "id": "d",
+          "text": "o termo de adesão ao programa é voluntário, mas obrigações ambientais e de contratação permanecem aplicáveis"
+        },
+        {
+          "id": "e",
+          "text": "o programa substitui normas de saúde e segurança"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Voluntariedade do programa não altera leis. Fonte: Questão autoral inspirada em questões de A3P."
+    },
+    {
+      "id": "q973",
+      "revision": 1,
+      "prompt": "Um relatório anual de PLS deve, idealmente,",
+      "options": [
+        {
+          "id": "a",
+          "text": "publicar apenas atividades favoráveis"
+        },
+        {
+          "id": "b",
+          "text": "omitir mudanças de fórmula"
+        },
+        {
+          "id": "c",
+          "text": "apresentar selos sem evidência"
+        },
+        {
+          "id": "d",
+          "text": "substituir números por slogans"
+        },
+        {
+          "id": "e",
+          "text": "mostrar metas, resultados, desvios, método, limitações e ações corretivas"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Prestação de contas útil permite compreender desempenho e correções. Fonte: Questão autoral sobre monitoramento de PLS."
+    },
+    {
+      "id": "q974",
+      "revision": 1,
+      "prompt": "A proposta de menor preço inicial",
+      "options": [
+        {
+          "id": "a",
+          "text": "pode ou não ser a mais vantajosa, conforme desempenho, custos, riscos e ciclo de vida"
+        },
+        {
+          "id": "b",
+          "text": "é sempre a mais sustentável"
+        },
+        {
+          "id": "c",
+          "text": "deve ser recusada em compras sustentáveis"
+        },
+        {
+          "id": "d",
+          "text": "dispensa estudo técnico preliminar"
+        },
+        {
+          "id": "e",
+          "text": "torna irrelevante a manutenção"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Vantajosidade é resultado global e motivado. Fonte: Questão autoral inspirada em cobranças sobre Lei nº 14.133/2021."
+    },
+    {
+      "id": "q975",
+      "revision": 1,
+      "prompt": "Uma exigência sustentável em edital deve ser",
+      "options": [
+        {
+          "id": "a",
+          "text": "baseada apenas em preferência institucional"
+        },
+        {
+          "id": "b",
+          "text": "relacionada ao objeto, proporcional, objetiva, verificável e compatível com competição"
+        },
+        {
+          "id": "c",
+          "text": "definida depois da proposta vencedora"
+        },
+        {
+          "id": "d",
+          "text": "comprovada exclusivamente por marca específica"
+        },
+        {
+          "id": "e",
+          "text": "impossível de fiscalizar"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Critérios vagos ou desproporcionais ameaçam isonomia e execução. Fonte: Questão autoral baseada em contratação sustentável."
+    },
+    {
+      "id": "q976",
+      "revision": 1,
+      "prompt": "Exigir um selo estrangeiro específico sem aceitar prova equivalente pode",
+      "options": [
+        {
+          "id": "a",
+          "text": "ser obrigatório em toda contratação sustentável"
+        },
+        {
+          "id": "b",
+          "text": "substituir a especificação do objeto"
+        },
+        {
+          "id": "c",
+          "text": "restringir indevidamente a competição, salvo justificativa jurídica e técnica suficiente"
+        },
+        {
+          "id": "d",
+          "text": "dispensar fiscalização contratual"
+        },
+        {
+          "id": "e",
+          "text": "provar automaticamente vantajosidade"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Certificação é meio de prova, não fim autossuficiente. Fonte: Questão autoral inspirada em itens de licitações sustentáveis."
+    },
+    {
+      "id": "q977",
+      "revision": 1,
+      "prompt": "Custo total de propriedade inclui, conforme a fronteira definida,",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente o preço da proposta"
+        },
+        {
+          "id": "b",
+          "text": "apenas emissões de carbono"
+        },
+        {
+          "id": "c",
+          "text": "exclusivamente custos do fornecedor"
+        },
+        {
+          "id": "d",
+          "text": "aquisição, operação, manutenção, indisponibilidade e descarte"
+        },
+        {
+          "id": "e",
+          "text": "somente despesas do primeiro exercício"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "O conceito amplia a análise financeira ao período de uso. Fonte: Questão autoral de ciclo de vida."
+    },
+    {
+      "id": "q978",
+      "revision": 1,
+      "prompt": "Avaliação ambiental do ciclo de vida diferencia-se do custeio porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "usa somente o preço de compra"
+        },
+        {
+          "id": "b",
+          "text": "dispensa objetivo e escopo"
+        },
+        {
+          "id": "c",
+          "text": "é sinônimo de vantajosidade jurídica"
+        },
+        {
+          "id": "d",
+          "text": "mede apenas satisfação do usuário"
+        },
+        {
+          "id": "e",
+          "text": "analisa inventário e impactos ambientais, enquanto o custeio concentra fluxos monetários"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "ISO 14040 organiza avaliação de ciclo de vida por objetivo, inventário, impactos e interpretação. Fonte: Questão autoral atual baseada na ISO 14040."
+    },
+    {
+      "id": "q979",
+      "revision": 1,
+      "prompt": "Uma cláusula de logística reversa será efetiva quando",
+      "options": [
+        {
+          "id": "a",
+          "text": "definir obrigação, fluxo, prazo, documentos, fiscalização e consequências"
+        },
+        {
+          "id": "b",
+          "text": "apenas usar a expressão 'destinação verde'"
+        },
+        {
+          "id": "c",
+          "text": "depender de promessa futura sem prova"
+        },
+        {
+          "id": "d",
+          "text": "não se relacionar ao objeto"
+        },
+        {
+          "id": "e",
+          "text": "for retirada da gestão contratual após a assinatura"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Critério sustentável precisa sobreviver à fase de seleção e ser fiscalizado. Fonte: Questão autoral inspirada em gestão contratual sustentável."
+    },
+    {
+      "id": "q980",
+      "revision": 1,
+      "prompt": "A Taxonomia Sustentável Brasileira é",
+      "options": [
+        {
+          "id": "a",
+          "text": "selo automático de fornecedor"
+        },
+        {
+          "id": "b",
+          "text": "sistema de classificação por critérios técnicos de atividades, ativos e projetos"
+        },
+        {
+          "id": "c",
+          "text": "certificação universal de produto"
+        },
+        {
+          "id": "d",
+          "text": "substituta da Lei nº 14.133/2021"
+        },
+        {
+          "id": "e",
+          "text": "requisito obrigatório em toda licitação"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A taxonomia organiza classificação e transparência, sem decidir sozinha a contratação. Fonte: Questão autoral atual baseada no Decreto nº 12.705/2025."
+    },
+    {
+      "id": "q981",
+      "revision": 1,
+      "prompt": "O enquadramento de uma atividade na Taxonomia Sustentável Brasileira",
+      "options": [
+        {
+          "id": "a",
+          "text": "torna dispensável o estudo técnico preliminar"
+        },
+        {
+          "id": "b",
+          "text": "autoriza marca específica"
+        },
+        {
+          "id": "c",
+          "text": "não elimina a análise concreta de proporcionalidade, vantajosidade, competição e evidência"
+        },
+        {
+          "id": "d",
+          "text": "substitui a fiscalização"
+        },
+        {
+          "id": "e",
+          "text": "garante resultado social em qualquer contexto"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Classificação taxonômica não é decisão jurídica automática. Fonte: Questão autoral atual sobre TSB."
+    },
+    {
+      "id": "q982",
+      "revision": 1,
+      "prompt": "A ENCP organiza quatro eixos:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ambiental, judicial, eleitoral e fiscal"
+        },
+        {
+          "id": "b",
+          "text": "tecnológico, partidário, municipal e internacional"
+        },
+        {
+          "id": "c",
+          "text": "compras, vendas, alienações e sanções"
+        },
+        {
+          "id": "d",
+          "text": "econômico, social, ambiental e gestão"
+        },
+        {
+          "id": "e",
+          "text": "federal, estadual, municipal e privado"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Os quatro eixos articulam desenvolvimento e gestão das contratações. Fonte: Questão autoral baseada no Decreto nº 12.771/2025."
+    },
+    {
+      "id": "q983",
+      "revision": 1,
+      "prompt": "O fato de a estratégia de contratações ser denominada 'nacional' significa que",
+      "options": [
+        {
+          "id": "a",
+          "text": "todos os entes ficam automaticamente sujeitos a cada dever"
+        },
+        {
+          "id": "b",
+          "text": "apenas empresas privadas podem aderir"
+        },
+        {
+          "id": "c",
+          "text": "a estratégia não se aplica à União"
+        },
+        {
+          "id": "d",
+          "text": "as leis estaduais são revogadas"
+        },
+        {
+          "id": "e",
+          "text": "seu alcance obrigatório deve ser lido nos dispositivos, não presumido para todos os entes"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Título do ato não substitui análise do destinatário. Fonte: Questão autoral inspirada no padrão Cebraspe."
+    },
+    {
+      "id": "q984",
+      "revision": 1,
+      "prompt": "Em uma compra de impressoras, a análise de ciclo de vida pode considerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "energia, consumíveis, manutenção, durabilidade, reparo e destinação"
+        },
+        {
+          "id": "b",
+          "text": "somente cor e marca"
+        },
+        {
+          "id": "c",
+          "text": "apenas o desconto inicial"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente o número de páginas do edital"
+        },
+        {
+          "id": "e",
+          "text": "apenas a localização do fornecedor"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O objeto deve ser comparado por desempenho e custos relevantes. Fonte: Questão autoral situacional."
+    },
+    {
+      "id": "q985",
+      "revision": 1,
+      "prompt": "Um produto com menor impacto ambiental, mas desempenho insuficiente para o serviço,",
+      "options": [
+        {
+          "id": "a",
+          "text": "deve ser contratado por força do art. 225"
+        },
+        {
+          "id": "b",
+          "text": "não é automaticamente a solução mais vantajosa"
+        },
+        {
+          "id": "c",
+          "text": "dispensa avaliação técnica"
+        },
+        {
+          "id": "d",
+          "text": "sempre supera a necessidade pública"
+        },
+        {
+          "id": "e",
+          "text": "torna a competição irrelevante"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sustentabilidade deve ser integrada à aptidão para atender a necessidade. Fonte: Questão autoral sobre vantajosidade."
+    },
+    {
+      "id": "q986",
+      "revision": 1,
+      "prompt": "O estudo técnico preliminar pode abordar, quando aplicável,",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente preço máximo"
+        },
+        {
+          "id": "b",
+          "text": "apenas sanções ao contratado"
+        },
+        {
+          "id": "c",
+          "text": "impactos ambientais e medidas mitigadoras, inclusive eficiência e logística reversa"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente publicidade do certame"
+        },
+        {
+          "id": "e",
+          "text": "a eliminação de critérios de desempenho"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Lei nº 14.133/2021 integra sustentabilidade ao planejamento. Fonte: Questão autoral inspirada em questões sobre licitações."
+    },
+    {
+      "id": "q987",
+      "revision": 1,
+      "prompt": "A prova equivalente em certificações busca",
+      "options": [
+        {
+          "id": "a",
+          "text": "dispensar qualquer padrão técnico"
+        },
+        {
+          "id": "b",
+          "text": "aceitar autodeclaração sempre"
+        },
+        {
+          "id": "c",
+          "text": "eliminar a fiscalização"
+        },
+        {
+          "id": "d",
+          "text": "preservar verificação do atributo sem restringir indevidamente meios de comprovação"
+        },
+        {
+          "id": "e",
+          "text": "substituir a especificação por marketing"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Equivalência deve ser tecnicamente suficiente e juridicamente cabível. Fonte: Questão autoral de contratação sustentável."
+    },
+    {
+      "id": "q988",
+      "revision": 1,
+      "prompt": "Uma compra que substitui equipamentos ainda funcionais apenas para adquirir modelos 'verdes'",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sempre sustentável por renovar o parque"
+        },
+        {
+          "id": "b",
+          "text": "dispensa inventário"
+        },
+        {
+          "id": "c",
+          "text": "prova economia futura"
+        },
+        {
+          "id": "d",
+          "text": "torna irrelevante o descarte"
+        },
+        {
+          "id": "e",
+          "text": "pode contrariar não geração, durabilidade e análise de necessidade"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A melhor decisão pode ser manutenção ou substituição gradual. Fonte: Questão autoral integrada."
+    },
+    {
+      "id": "q989",
+      "revision": 1,
+      "prompt": "A expressão 'impacto do ciclo de vida' refere-se principalmente",
+      "options": [
+        {
+          "id": "a",
+          "text": "aos efeitos ambientais e sociais nas etapas da solução"
+        },
+        {
+          "id": "b",
+          "text": "ao preço inicial apenas"
+        },
+        {
+          "id": "c",
+          "text": "ao prazo do edital"
+        },
+        {
+          "id": "d",
+          "text": "à remuneração da comissão"
+        },
+        {
+          "id": "e",
+          "text": "ao número de propostas"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Impacto e custo são dimensões distintas. Fonte: Questão autoral conceitual."
+    },
+    {
+      "id": "q990",
+      "revision": 1,
+      "prompt": "Para comparar alternativas por custeio do ciclo de vida, o edital precisa definir",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente a marca de referência"
+        },
+        {
+          "id": "b",
+          "text": "período, premissas, fontes, fórmula e itens de custo"
+        },
+        {
+          "id": "c",
+          "text": "a meta de neutralidade do CNJ"
+        },
+        {
+          "id": "d",
+          "text": "o número de ODS associados"
+        },
+        {
+          "id": "e",
+          "text": "apenas a cor do produto"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sem método comparável, a classificação pode ser arbitrária. Fonte: Questão autoral de metodologia de contratação."
+    },
+    {
+      "id": "q991",
+      "revision": 1,
+      "prompt": "Uma declaração ambiental do fabricante",
+      "options": [
+        {
+          "id": "a",
+          "text": "é suficiente em qualquer hipótese"
+        },
+        {
+          "id": "b",
+          "text": "substitui obrigação contratual"
+        },
+        {
+          "id": "c",
+          "text": "deve ser verificada conforme risco, objeto e meio de prova previsto"
+        },
+        {
+          "id": "d",
+          "text": "impede auditoria"
+        },
+        {
+          "id": "e",
+          "text": "torna dispensável a motivação"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Autodeclaração pode ser evidência, mas não é automaticamente conclusiva. Fonte: Questão autoral sobre green claims."
+    },
+    {
+      "id": "q992",
+      "revision": 1,
+      "prompt": "A fiscalização de um critério sustentável deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "encerrar-se com a homologação"
+        },
+        {
+          "id": "b",
+          "text": "ser transferida integralmente ao fornecedor"
+        },
+        {
+          "id": "c",
+          "text": "limitar-se a material publicitário"
+        },
+        {
+          "id": "d",
+          "text": "acompanhar a execução e registrar conformidade, desvios e consequências"
+        },
+        {
+          "id": "e",
+          "text": "ignorar obrigações de destinação"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Critério não fiscalizado tende a virar exigência formal sem resultado. Fonte: Questão autoral inspirada em gestão de contratos."
+    },
+    {
+      "id": "q993",
+      "revision": 1,
+      "prompt": "Uma contratação sustentável bem motivada combina",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas menor preço e selo"
+        },
+        {
+          "id": "b",
+          "text": "somente ODS e publicidade"
+        },
+        {
+          "id": "c",
+          "text": "marca preferida e promessa de compensação"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente origem local sem base jurídica"
+        },
+        {
+          "id": "e",
+          "text": "necessidade, alternativas, ciclo de vida, custo, impacto, competição, risco e verificação"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Sustentabilidade integra a decisão, mas não elimina os demais requisitos. Fonte: Questão autoral integrada."
+    },
+    {
+      "id": "q994",
+      "revision": 1,
+      "prompt": "Segundo a ordem de prioridade da PNRS, a primeira medida é",
+      "options": [
+        {
+          "id": "a",
+          "text": "não gerar o resíduo"
+        },
+        {
+          "id": "b",
+          "text": "reciclar"
+        },
+        {
+          "id": "c",
+          "text": "tratar"
+        },
+        {
+          "id": "d",
+          "text": "dispor em aterro"
+        },
+        {
+          "id": "e",
+          "text": "compensar financeiramente"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A hierarquia começa pela não geração, seguida de redução e reutilização. Fonte: Questão autoral inspirada em cobranças da PNRS."
+    },
+    {
+      "id": "q995",
+      "revision": 1,
+      "prompt": "Rejeito é",
+      "options": [
+        {
+          "id": "a",
+          "text": "todo material reciclável"
+        },
+        {
+          "id": "b",
+          "text": "resíduo sem alternativa de tratamento ou recuperação técnica e economicamente viável"
+        },
+        {
+          "id": "c",
+          "text": "qualquer bem usado"
+        },
+        {
+          "id": "d",
+          "text": "sinônimo de resíduo"
+        },
+        {
+          "id": "e",
+          "text": "produto sujeito à logística reversa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rejeitos recebem disposição final adequada. Fonte: Questão autoral conceitual."
+    },
+    {
+      "id": "q996",
+      "revision": 1,
+      "prompt": "A disposição final adequada refere-se",
+      "options": [
+        {
+          "id": "a",
+          "text": "a qualquer reciclagem"
+        },
+        {
+          "id": "b",
+          "text": "à reutilização sem transformação"
+        },
+        {
+          "id": "c",
+          "text": "à distribuição ordenada de rejeitos em aterros com controle de riscos"
+        },
+        {
+          "id": "d",
+          "text": "ao retorno ao fabricante"
+        },
+        {
+          "id": "e",
+          "text": "à coleta em lixeiras coloridas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Destinação é categoria mais ampla; disposição é para rejeitos. Fonte: Questão autoral de PNRS."
+    },
+    {
+      "id": "q997",
+      "revision": 1,
+      "prompt": "Logística reversa consiste em",
+      "options": [
+        {
+          "id": "a",
+          "text": "separar resíduos no órgão apenas"
+        },
+        {
+          "id": "b",
+          "text": "entregar todo resíduo ao serviço municipal"
+        },
+        {
+          "id": "c",
+          "text": "depositar rejeitos em aterro"
+        },
+        {
+          "id": "d",
+          "text": "restituir produtos e resíduos ao setor empresarial para reaproveitamento ou destinação"
+        },
+        {
+          "id": "e",
+          "text": "contratar coleta sem retorno à cadeia"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Logística reversa não é sinônimo de coleta seletiva. Fonte: Questão autoral inspirada em itens de resíduos."
+    },
+    {
+      "id": "q998",
+      "revision": 1,
+      "prompt": "Responsabilidade compartilhada pelo ciclo de vida significa",
+      "options": [
+        {
+          "id": "a",
+          "text": "responsabilidade idêntica para todos"
+        },
+        {
+          "id": "b",
+          "text": "transferência integral ao município"
+        },
+        {
+          "id": "c",
+          "text": "isenção do consumidor"
+        },
+        {
+          "id": "d",
+          "text": "responsabilidade exclusiva do fabricante"
+        },
+        {
+          "id": "e",
+          "text": "atribuições individualizadas e encadeadas entre os atores"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Os papéis variam por ator e cadeia. Fonte: Questão autoral de PNRS."
+    },
+    {
+      "id": "q999",
+      "revision": 1,
+      "prompt": "A reutilização diferencia-se da reciclagem porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "reaproveita sem transformação física, química ou biológica"
+        },
+        {
+          "id": "b",
+          "text": "sempre produz novo insumo"
+        },
+        {
+          "id": "c",
+          "text": "exige aterro"
+        },
+        {
+          "id": "d",
+          "text": "é forma de compensação"
+        },
+        {
+          "id": "e",
+          "text": "só ocorre com resíduos perigosos"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Reciclagem envolve transformação. Fonte: Questão autoral conceitual."
+    },
+    {
+      "id": "q1000",
+      "revision": 1,
+      "prompt": "Economia circular",
+      "options": [
+        {
+          "id": "a",
+          "text": "é sinônimo de reciclagem isolada"
+        },
+        {
+          "id": "b",
+          "text": "busca preservar valor por desenho, manutenção, reparo, reúso, remanufatura e reciclagem"
+        },
+        {
+          "id": "c",
+          "text": "elimina todo resíduo automaticamente"
+        },
+        {
+          "id": "d",
+          "text": "dispensa segurança e rastreabilidade"
+        },
+        {
+          "id": "e",
+          "text": "começa pelo aterro"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Circularidade atua antes e além da reciclagem. Fonte: Questão autoral inspirada em sustentabilidade pública."
+    },
+    {
+      "id": "q1001",
+      "revision": 1,
+      "prompt": "O Programa Coleta Seletiva Cidadã, no âmbito federal definido, prioriza",
+      "options": [
+        {
+          "id": "a",
+          "text": "fabricantes estrangeiros"
+        },
+        {
+          "id": "b",
+          "text": "qualquer empresa sem seleção"
+        },
+        {
+          "id": "c",
+          "text": "associações e cooperativas de catadores habilitadas"
+        },
+        {
+          "id": "d",
+          "text": "somente serviços municipais"
+        },
+        {
+          "id": "e",
+          "text": "órgãos do Poder Judiciário"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O programa prevê seleção e termo de compromisso. Fonte: Questão autoral atual baseada no Decreto nº 10.936/2022."
+    },
+    {
+      "id": "q1002",
+      "revision": 1,
+      "prompt": "Para demonstrar resultado da Coleta Seletiva Cidadã, é adequado usar",
+      "options": [
+        {
+          "id": "a",
+          "text": "número de lixeiras apenas"
+        },
+        {
+          "id": "b",
+          "text": "fotografia sem data"
+        },
+        {
+          "id": "c",
+          "text": "quantidade de cartazes"
+        },
+        {
+          "id": "d",
+          "text": "massa destinada, recibos, identificação da organização e rastreabilidade"
+        },
+        {
+          "id": "e",
+          "text": "declaração genérica do órgão"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Atividade e infraestrutura não comprovam destinação. Fonte: Questão autoral atual sobre evidência."
+    },
+    {
+      "id": "q1003",
+      "revision": 1,
+      "prompt": "Coleta Seletiva Cidadã e logística reversa",
+      "options": [
+        {
+          "id": "a",
+          "text": "são sinônimos legais"
+        },
+        {
+          "id": "b",
+          "text": "eliminam a responsabilidade compartilhada"
+        },
+        {
+          "id": "c",
+          "text": "destinam sempre ao mesmo ator"
+        },
+        {
+          "id": "d",
+          "text": "dispensam comprovação"
+        },
+        {
+          "id": "e",
+          "text": "possuem finalidades e arranjos diferentes, embora possam coexistir"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O programa envolve catadores; a logística reversa restitui ao setor empresarial. Fonte: Questão autoral comparativa."
+    },
+    {
+      "id": "q1004",
+      "revision": 1,
+      "prompt": "A instalação de coletores coloridos, sem registro de destino,",
+      "options": [
+        {
+          "id": "a",
+          "text": "demonstra atividade, mas não comprova destinação adequada"
+        },
+        {
+          "id": "b",
+          "text": "prova reciclagem integral"
+        },
+        {
+          "id": "c",
+          "text": "substitui contrato e fiscalização"
+        },
+        {
+          "id": "d",
+          "text": "é indicador de impacto suficiente"
+        },
+        {
+          "id": "e",
+          "text": "elimina necessidade de pesagem"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Infraestrutura é meio, não resultado. Fonte: Questão autoral situacional."
+    },
+    {
+      "id": "q1005",
+      "revision": 1,
+      "prompt": "Na economia circular, reparar um equipamento antes de substituí-lo",
+      "options": [
+        {
+          "id": "a",
+          "text": "contraria a sustentabilidade por prolongar uso"
+        },
+        {
+          "id": "b",
+          "text": "pode preservar valor e reduzir extração e resíduos"
+        },
+        {
+          "id": "c",
+          "text": "é sempre economicamente inviável"
+        },
+        {
+          "id": "d",
+          "text": "equivale a reciclagem"
+        },
+        {
+          "id": "e",
+          "text": "dispensa avaliação de segurança"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Reparo é estratégia circular, condicionada a desempenho e segurança. Fonte: Questão autoral de decisão."
+    },
+    {
+      "id": "q1006",
+      "revision": 1,
+      "prompt": "Um resíduo reciclável enviado a aterro foi tratado como rejeito sem análise. A falha é",
+      "options": [
+        {
+          "id": "a",
+          "text": "aplicar corretamente a disposição final"
+        },
+        {
+          "id": "b",
+          "text": "priorizar a não geração"
+        },
+        {
+          "id": "c",
+          "text": "confundir resíduo recuperável com rejeito e ignorar a hierarquia"
+        },
+        {
+          "id": "d",
+          "text": "executar logística reversa"
+        },
+        {
+          "id": "e",
+          "text": "realizar reutilização"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Rejeito exige inexistência de alternativa viável. Fonte: Questão autoral integrada."
+    },
+    {
+      "id": "q1007",
+      "revision": 1,
+      "prompt": "O termo de compromisso da Coleta Seletiva Cidadã",
+      "options": [
+        {
+          "id": "a",
+          "text": "é contrato de compra obrigatório"
+        },
+        {
+          "id": "b",
+          "text": "substitui toda licença ambiental"
+        },
+        {
+          "id": "c",
+          "text": "transforma o TCE/MA em órgão federal"
+        },
+        {
+          "id": "d",
+          "text": "disciplina a coleta pela organização selecionada no programa"
+        },
+        {
+          "id": "e",
+          "text": "é sinônimo de acordo setorial de logística reversa"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Instrumentos possuem naturezas e sujeitos distintos. Fonte: Questão autoral atual."
+    },
+    {
+      "id": "q1008",
+      "revision": 1,
+      "prompt": "A prioridade de prevenir a geração de resíduos pode levar o órgão a",
+      "options": [
+        {
+          "id": "a",
+          "text": "comprar e reciclar imediatamente"
+        },
+        {
+          "id": "b",
+          "text": "descartar estoque útil"
+        },
+        {
+          "id": "c",
+          "text": "preferir sempre item descartável"
+        },
+        {
+          "id": "d",
+          "text": "ignorar manutenção"
+        },
+        {
+          "id": "e",
+          "text": "reavaliar a necessidade antes de comprar novos itens"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Prevenção começa na decisão de consumo e projeto. Fonte: Questão autoral de PNRS e compras."
+    },
+    {
+      "id": "q1009",
+      "revision": 1,
+      "prompt": "Mitigação climática consiste principalmente em",
+      "options": [
+        {
+          "id": "a",
+          "text": "reduzir ou evitar emissões de gases de efeito estufa"
+        },
+        {
+          "id": "b",
+          "text": "reduzir vulnerabilidade sem atuar em emissões"
+        },
+        {
+          "id": "c",
+          "text": "medir apenas consumo de água"
+        },
+        {
+          "id": "d",
+          "text": "compensar toda emissão sem redução"
+        },
+        {
+          "id": "e",
+          "text": "restaurar arquivos após enchente"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mitigação atua nas causas; adaptação atua nos efeitos e riscos. Fonte: Questão autoral de clima."
+    },
+    {
+      "id": "q1010",
+      "revision": 1,
+      "prompt": "Adaptação climática busca",
+      "options": [
+        {
+          "id": "a",
+          "text": "substituir inventários por compensação"
+        },
+        {
+          "id": "b",
+          "text": "reduzir exposição e vulnerabilidade aos efeitos climáticos"
+        },
+        {
+          "id": "c",
+          "text": "eliminar todo risco futuro"
+        },
+        {
+          "id": "d",
+          "text": "medir somente emissões diretas"
+        },
+        {
+          "id": "e",
+          "text": "cumprir meta do CNJ em qualquer órgão"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Adaptação integra risco, planejamento e continuidade. Fonte: Questão autoral baseada na Lei nº 14.904/2024."
+    },
+    {
+      "id": "q1011",
+      "revision": 1,
+      "prompt": "Em risco climático, exposição representa",
+      "options": [
+        {
+          "id": "a",
+          "text": "a causa física do evento"
+        },
+        {
+          "id": "b",
+          "text": "a capacidade de recuperar emissões"
+        },
+        {
+          "id": "c",
+          "text": "pessoas, ativos ou serviços localizados onde o perigo pode causar dano"
+        },
+        {
+          "id": "d",
+          "text": "o custo de aquisição"
+        },
+        {
+          "id": "e",
+          "text": "a probabilidade isolada sem objeto afetado"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Risco combina perigo, exposição, vulnerabilidade e consequências. Fonte: Questão autoral atual."
+    },
+    {
+      "id": "q1012",
+      "revision": 1,
+      "prompt": "Vulnerabilidade climática refere-se",
+      "options": [
+        {
+          "id": "a",
+          "text": "ao volume de emissões compensadas"
+        },
+        {
+          "id": "b",
+          "text": "à existência de um ODS"
+        },
+        {
+          "id": "c",
+          "text": "ao preço do seguro apenas"
+        },
+        {
+          "id": "d",
+          "text": "às características que tornam pessoas, ativos ou serviços suscetíveis ao dano"
+        },
+        {
+          "id": "e",
+          "text": "ao número de relatórios publicados"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Vulnerabilidade pode ser física, social, institucional ou operacional. Fonte: Questão autoral atual."
+    },
+    {
+      "id": "q1013",
+      "revision": 1,
+      "prompt": "Um inventário de emissões deve definir",
+      "options": [
+        {
+          "id": "a",
+          "text": "apenas o total final"
+        },
+        {
+          "id": "b",
+          "text": "somente emissões favoráveis"
+        },
+        {
+          "id": "c",
+          "text": "a marca dos equipamentos"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente compensações"
+        },
+        {
+          "id": "e",
+          "text": "fronteiras, período, fontes, fatores, dados e incertezas"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Sem metodologia, o número não é comparável nem auditável. Fonte: Questão autoral baseada no GHG Protocol."
+    },
+    {
+      "id": "q1014",
+      "revision": 1,
+      "prompt": "Emissões associadas à energia elétrica adquirida são diferentes das emissões diretas porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "decorrem da geração da energia consumida, embora ocorram fora das instalações do órgão"
+        },
+        {
+          "id": "b",
+          "text": "não integram nenhum inventário"
+        },
+        {
+          "id": "c",
+          "text": "são sempre zero no Brasil"
+        },
+        {
+          "id": "d",
+          "text": "equivalem a resíduos sólidos"
+        },
+        {
+          "id": "e",
+          "text": "dependem apenas do preço da tarifa"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Inventários distinguem fontes diretas e energia adquirida. Fonte: Questão autoral atual sobre escopos de emissões."
+    },
+    {
+      "id": "q1015",
+      "revision": 1,
+      "prompt": "A compensação de carbono deve ser tratada como",
+      "options": [
+        {
+          "id": "a",
+          "text": "primeira ação antes de medir"
+        },
+        {
+          "id": "b",
+          "text": "medida para emissões residuais, com integridade e sem substituir prevenção e redução"
+        },
+        {
+          "id": "c",
+          "text": "licença para ampliar emissões"
+        },
+        {
+          "id": "d",
+          "text": "substituta da eficiência energética"
+        },
+        {
+          "id": "e",
+          "text": "prova automática de neutralidade"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A hierarquia prudente prioriza medir e reduzir. Fonte: Questão autoral inspirada em gestão climática."
+    },
+    {
+      "id": "q1016",
+      "revision": 1,
+      "prompt": "Um plano de continuidade para enchentes deve considerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente instalação de uma bomba"
+        },
+        {
+          "id": "b",
+          "text": "apenas compra de créditos de carbono"
+        },
+        {
+          "id": "c",
+          "text": "acesso, pessoas, arquivos, tecnologia, energia, fornecedores, comunicação e recuperação"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente redução de papel"
+        },
+        {
+          "id": "e",
+          "text": "só o edifício-sede, sem serviços"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adaptação é sistêmica e orientada à continuidade. Fonte: Questão autoral específica para tribunal."
+    },
+    {
+      "id": "q1017",
+      "revision": 1,
+      "prompt": "Risco residual é",
+      "options": [
+        {
+          "id": "a",
+          "text": "o risco eliminado por completo"
+        },
+        {
+          "id": "b",
+          "text": "a emissão direta do órgão"
+        },
+        {
+          "id": "c",
+          "text": "o custo do ciclo de vida"
+        },
+        {
+          "id": "d",
+          "text": "o risco que permanece após a adoção das medidas de resposta"
+        },
+        {
+          "id": "e",
+          "text": "a meta não publicada"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Respostas reduzem, transferem, aceitam ou evitam riscos; raramente eliminam todos. Fonte: Questão autoral de gestão de riscos."
+    },
+    {
+      "id": "q1018",
+      "revision": 1,
+      "prompt": "Ao terceirizar transporte, o órgão deve avaliar emissões da cadeia porque",
+      "options": [
+        {
+          "id": "a",
+          "text": "serviços terceirizados não geram emissões"
+        },
+        {
+          "id": "b",
+          "text": "fornecedores são excluídos de qualquer análise"
+        },
+        {
+          "id": "c",
+          "text": "somente combustível próprio conta"
+        },
+        {
+          "id": "d",
+          "text": "terceirização garante sustentabilidade"
+        },
+        {
+          "id": "e",
+          "text": "a redução das emissões diretas pode representar simples deslocamento"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "A fronteira do inventário não deve esconder impacto material. Fonte: Questão autoral sobre deslocamento de emissões."
+    },
+    {
+      "id": "q1019",
+      "revision": 1,
+      "prompt": "Resiliência institucional é a capacidade de",
+      "options": [
+        {
+          "id": "a",
+          "text": "manter ou recuperar funções diante de choques e mudanças"
+        },
+        {
+          "id": "b",
+          "text": "eliminar qualquer incerteza"
+        },
+        {
+          "id": "c",
+          "text": "substituir adaptação por mitigação"
+        },
+        {
+          "id": "d",
+          "text": "compensar emissões sem inventário"
+        },
+        {
+          "id": "e",
+          "text": "publicar apenas resultados positivos"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Resiliência envolve preparação, resposta, recuperação e aprendizagem. Fonte: Questão autoral conceitual."
+    },
+    {
+      "id": "q1020",
+      "revision": 1,
+      "prompt": "A neutralidade de carbono prevista para o Poder Judiciário pela Resolução CNJ nº 400/2021",
+      "options": [
+        {
+          "id": "a",
+          "text": "vincula todos os Tribunais de Contas"
+        },
+        {
+          "id": "b",
+          "text": "não constitui automaticamente meta idêntica para o TCE/MA"
+        },
+        {
+          "id": "c",
+          "text": "elimina a necessidade de inventário"
+        },
+        {
+          "id": "d",
+          "text": "é regra da PNRS"
+        },
+        {
+          "id": "e",
+          "text": "dispensa atos institucionais"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "O destinatário do ato deve ser respeitado. Fonte: Questão autoral de âmbito normativo."
+    },
+    {
+      "id": "q1021",
+      "revision": 1,
+      "prompt": "Transição justa exige considerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "somente a eficiência média"
+        },
+        {
+          "id": "b",
+          "text": "apenas emissões diretas"
+        },
+        {
+          "id": "c",
+          "text": "distribuição de custos e benefícios, trabalho, território, capacitação e grupos vulneráveis"
+        },
+        {
+          "id": "d",
+          "text": "exclusivamente o preço inicial"
+        },
+        {
+          "id": "e",
+          "text": "a eliminação de canais presenciais"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A mudança sustentável deve antecipar efeitos sociais e distributivos. Fonte: Questão autoral atual baseada no princípio de transição justa."
+    },
+    {
+      "id": "q1022",
+      "revision": 1,
+      "prompt": "Encerrar um serviço presencial sem alternativa para pessoas excluídas digitalmente pode",
+      "options": [
+        {
+          "id": "a",
+          "text": "comprovar sustentabilidade integral"
+        },
+        {
+          "id": "b",
+          "text": "eliminar a necessidade de acessibilidade"
+        },
+        {
+          "id": "c",
+          "text": "ser neutro para todos os usuários"
+        },
+        {
+          "id": "d",
+          "text": "reduzir impactos operacionais e ampliar exclusão social"
+        },
+        {
+          "id": "e",
+          "text": "transformar a medida em mitigação climática suficiente"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Dimensões podem entrar em tensão e exigem desenho inclusivo. Fonte: Questão autoral inspirada no TCE/AC 2024."
+    },
+    {
+      "id": "q1023",
+      "revision": 1,
+      "prompt": "Equidade em sustentabilidade significa",
+      "options": [
+        {
+          "id": "a",
+          "text": "dar sempre o mesmo recurso a todos"
+        },
+        {
+          "id": "b",
+          "text": "dispensar critérios objetivos"
+        },
+        {
+          "id": "c",
+          "text": "ignorar grupos menores"
+        },
+        {
+          "id": "d",
+          "text": "substituir legalidade por preferência"
+        },
+        {
+          "id": "e",
+          "text": "identificar diferenças relevantes e remover barreiras, sem exigir tratamento idêntico"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Tratamento proporcional pode ser necessário para resultados justos. Fonte: Questão autoral sobre dimensão social."
+    },
+    {
+      "id": "q1024",
+      "revision": 1,
+      "prompt": "Uma política climática que transfere custos desproporcionais a famílias de baixa renda deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "ser reavaliada quanto aos efeitos distributivos e às medidas de mitigação social"
+        },
+        {
+          "id": "b",
+          "text": "ser mantida porque todo custo ambiental é regressivo"
+        },
+        {
+          "id": "c",
+          "text": "dispensar participação"
+        },
+        {
+          "id": "d",
+          "text": "ser classificada automaticamente como sustentável"
+        },
+        {
+          "id": "e",
+          "text": "considerar apenas a redução de emissões"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Justiça climática combina resultado ambiental e distribuição dos efeitos. Fonte: Questão autoral atual."
+    },
+    {
+      "id": "q1025",
+      "revision": 1,
+      "prompt": "A substituição tecnológica sem capacitação dos trabalhadores pode gerar",
+      "options": [
+        {
+          "id": "a",
+          "text": "sustentabilidade automática"
+        },
+        {
+          "id": "b",
+          "text": "risco social e operacional, ainda que o equipamento seja mais eficiente"
+        },
+        {
+          "id": "c",
+          "text": "neutralidade de carbono"
+        },
+        {
+          "id": "d",
+          "text": "eliminação de resistência"
+        },
+        {
+          "id": "e",
+          "text": "dispensa de gestão da mudança"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Capacidade humana integra sustentabilidade institucional e social. Fonte: Questão autoral integrada."
+    },
+    {
+      "id": "q1026",
+      "revision": 1,
+      "prompt": "Uma alegação de 'contratação carbono neutro' sem inventário, fronteira, redução e prova da compensação caracteriza risco de",
+      "options": [
+        {
+          "id": "a",
+          "text": "economia circular"
+        },
+        {
+          "id": "b",
+          "text": "adaptação climática"
+        },
+        {
+          "id": "c",
+          "text": "greenwashing"
+        },
+        {
+          "id": "d",
+          "text": "coleta seletiva"
+        },
+        {
+          "id": "e",
+          "text": "custeio do ciclo de vida"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A percepção comunicada supera a evidência disponível. Fonte: Questão autoral sobre greenwashing."
+    },
+    {
+      "id": "q1027",
+      "revision": 1,
+      "prompt": "Em um achado de auditoria, o critério corresponde",
+      "options": [
+        {
+          "id": "a",
+          "text": "à situação efetivamente encontrada"
+        },
+        {
+          "id": "b",
+          "text": "à causa do desvio"
+        },
+        {
+          "id": "c",
+          "text": "ao efeito produzido"
+        },
+        {
+          "id": "d",
+          "text": "à norma, meta, contrato ou padrão usado para comparar a condição"
+        },
+        {
+          "id": "e",
+          "text": "à opinião sem fundamento"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Critério é o referencial esperado. Fonte: Questão autoral inspirada no Manual de Auditoria Operacional do TCU."
+    },
+    {
+      "id": "q1028",
+      "revision": 1,
+      "prompt": "A condição de um achado é",
+      "options": [
+        {
+          "id": "a",
+          "text": "a norma aplicável"
+        },
+        {
+          "id": "b",
+          "text": "a causa provável"
+        },
+        {
+          "id": "c",
+          "text": "a recomendação final"
+        },
+        {
+          "id": "d",
+          "text": "a meta futura"
+        },
+        {
+          "id": "e",
+          "text": "a situação efetivamente encontrada e comprovada"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "Condição descreve o que existe. Fonte: Questão autoral de auditoria."
+    },
+    {
+      "id": "q1029",
+      "revision": 1,
+      "prompt": "Uma recomendação eficaz deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "atuar sobre a causa relevante e ser proporcional ao risco"
+        },
+        {
+          "id": "b",
+          "text": "substituir integralmente a decisão do gestor"
+        },
+        {
+          "id": "c",
+          "text": "repetir o critério sem ação"
+        },
+        {
+          "id": "d",
+          "text": "ignorar custo e competência"
+        },
+        {
+          "id": "e",
+          "text": "impor solução única sem motivação"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "O controle orienta correção preservando responsabilidades. Fonte: Questão autoral de controle externo."
+    },
+    {
+      "id": "q1030",
+      "revision": 1,
+      "prompt": "O contrato exige logística reversa, mas a fiscalização aceita declaração genérica. A causa provável do achado pode ser",
+      "options": [
+        {
+          "id": "a",
+          "text": "existência da obrigação contratual"
+        },
+        {
+          "id": "b",
+          "text": "ausência de procedimento e documentos-padrão de verificação"
+        },
+        {
+          "id": "c",
+          "text": "redução do consumo de papel"
+        },
+        {
+          "id": "d",
+          "text": "uso de indicador absoluto"
+        },
+        {
+          "id": "e",
+          "text": "adesão à A3P"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A causa explica por que condição e critério divergem. Fonte: Questão autoral integrada de auditoria."
+    },
+    {
+      "id": "q1031",
+      "revision": 1,
+      "prompt": "Publicar limitações, resultados negativos e mudanças metodológicas",
+      "options": [
+        {
+          "id": "a",
+          "text": "deve ser evitado por prejudicar a imagem"
+        },
+        {
+          "id": "b",
+          "text": "é proibido na Administração"
+        },
+        {
+          "id": "c",
+          "text": "reduz o risco de greenwashing e melhora a confiabilidade"
+        },
+        {
+          "id": "d",
+          "text": "elimina a necessidade de indicadores"
+        },
+        {
+          "id": "e",
+          "text": "transforma atividade em impacto"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Transparência substantiva inclui incerteza e desempenho desfavorável. Fonte: Questão autoral sobre prestação de contas."
+    },
+    {
+      "id": "q1032",
+      "revision": 1,
+      "prompt": "Em auditoria de sustentabilidade, evidência suficiente e apropriada deve",
+      "options": [
+        {
+          "id": "a",
+          "text": "consistir apenas em material publicitário"
+        },
+        {
+          "id": "b",
+          "text": "ser substituída por boa intenção"
+        },
+        {
+          "id": "c",
+          "text": "excluir dados de fornecedores"
+        },
+        {
+          "id": "d",
+          "text": "sustentar o achado em quantidade e qualidade compatíveis com o risco"
+        },
+        {
+          "id": "e",
+          "text": "ser produzida somente após a conclusão"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A robustez da evidência depende da relevância, confiabilidade e suficiência. Fonte: Questão autoral inspirada em auditoria operacional."
+    },
+    {
+      "id": "q1033",
+      "revision": 1,
+      "prompt": "Um relatório chama 100% das compras de sustentáveis porque todas possuem uma cláusula genérica, sem verificar execução. O problema principal é",
+      "options": [
+        {
+          "id": "a",
+          "text": "usar percentual"
+        },
+        {
+          "id": "b",
+          "text": "medir processo"
+        },
+        {
+          "id": "c",
+          "text": "publicar relatório"
+        },
+        {
+          "id": "d",
+          "text": "realizar contratação"
+        },
+        {
+          "id": "e",
+          "text": "confundir presença formal de cláusula com resultado e fiscalização efetiva"
+        }
+      ],
+      "correctOptionId": "e",
+      "explanation": "O indicador mede classificação documental e não comprova desempenho. Fonte: Questão autoral integrada sobre indicador e greenwashing."
     }
   ]
 }

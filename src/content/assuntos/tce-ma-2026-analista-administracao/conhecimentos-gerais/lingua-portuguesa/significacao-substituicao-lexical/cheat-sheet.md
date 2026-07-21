@@ -1,201 +1,283 @@
-# Significação, substituição e equivalência lexical
+# Cheat sheet — Significação, substituição e equivalência lexical
 
-## Regra central
+## Regra de ouro
 
 > Proximidade lexical não garante equivalência contextual.
 
-Uma substituição só passa se preservar o que o comando exige:
+Uma substituição só é segura quando preserva, conforme o comando:
 
-- correção gramatical;
-- sentido e condições de verdade;
-- participantes e referência;
-- relação lógica;
-- modalidade, tempo e aspecto;
-- intensidade, escopo e pressuposições;
-- registro e efeito avaliativo.
+1. correção gramatical;
+2. acepção contextual;
+3. participantes e referentes;
+4. modalidade, tempo e aspecto;
+5. quantificação e escopo;
+6. relação lógica;
+7. registro, avaliação e precisão;
+8. coesão e coerência global.
 
-## Significado x sentido
+## Sentido lexical × contextual
 
-- **Significado lexical:** possibilidades convencionalmente associadas à palavra.
-- **Sentido contextual:** acepção ativada na construção e no texto.
-- O dicionário oferece possibilidades; o contexto seleciona.
+- O dicionário registra possibilidades.
+- A frase, o parágrafo, o gênero e a situação selecionam a acepção.
+- Leia além da linha indicada quando houver antecedente, contraste, tese ou operador.
 
-`grave`:
+Exemplo:
 
 - `irregularidade grave` = séria;
-- `nota grave` = baixa frequência;
-- `acento grave` = tipo de sinal.
+- `nota grave` = de baixa frequência;
+- `acento grave` = sinal gráfico.
 
-## Denotação e conotação
+## Denotação, conotação e avaliação
 
-- Denotação: uso predominantemente literal/referencial.
-- Conotação: valor figurado, expressivo ou avaliativo.
-- `ponte interditada` = literal.
-- `ponte entre setores` = figurado.
-- Mesmo referente não implica mesma avaliação: `veículo` ≠ `lata enferrujada`.
+- **denotação**: uso predominantemente literal;
+- **conotação**: uso figurado ou expressivo;
+- mesmo referente não significa mesma avaliação.
+
+`o veículo` e `a lata enferrujada` podem retomar o mesmo carro, mas a segunda expressão é depreciativa.
 
 ## Relações lexicais
 
-| Relação | Ponto de prova |
+| Relação | Exemplo | Cuidado |
+|---|---|---|
+| sinonímia parcial | `falecer` / `morrer` | registro e contexto |
+| antonímia gradual | `quente` / `frio` | há termos intermediários |
+| antonímia complementar | `vivo` / `morto` | oposição prototípica |
+| antonímia conversiva | `comprar` / `vender` | mesmo evento, participantes opostos |
+| hiperônimo | `ato administrativo` | mais geral |
+| hipônimo | `portaria` | mais específico |
+| co-hipônimos | `portaria` / `resolução` | não são sinônimos |
+| merônimo | `página` | parte |
+| holônimo | `relatório` | todo |
+| polissemia | `cabeça` do corpo/equipe | sentidos relacionados |
+| homonímia | `manga` fruta/roupa | sentidos não relacionados |
+| paronímia | `ratificar` / `retificar` | forma parecida, sentido diferente |
+| campo semântico | auditoria, controle, relatório | associação não é sinonímia |
+
+## Ambiguidade, vagueza e subespecificação
+
+- **lexical**: `banco`;
+- **sintática**: `vi o servidor com o binóculo`;
+- **referencial**: `a decisão de sua equipe`;
+- **vagueza**: `alto`, `recente`, `grande`;
+- **subespecificação**: falta dado para escolher leitura mais precisa.
+
+Resolver ambiguidade pode acrescentar informação não autorizada.
+
+## Posição do adjetivo
+
+| Forma | Leitura |
 |---|---|
-| Sinonímia | geralmente parcial e contextual |
-| Antonímia gradual | admite intermediários: quente/frio |
-| Antonímia complementar | um termo exclui o outro no uso prototípico |
-| Antonímia conversiva | mesmo evento por perspectivas opostas: comprar/vender |
-| Hiperonímia | termo mais geral: ato |
-| Hiponímia | termo mais específico: portaria |
-| Polissemia | sentidos relacionados de uma forma |
-| Homonímia | formas iguais com sentidos distintos |
-| Paronímia | formas parecidas, sentidos diferentes |
-| Campo semântico | associação temática, não sinonímia |
-| Parte/todo | página/relatório, motor/veículo |
+| `certo problema` | algum problema |
+| `problema certo` | correto, seguro ou inevitável |
+| `grande homem` | homem notável |
+| `homem grande` | de grande dimensão |
+| `simples servidor` | mero servidor |
+| `servidor simples` | sem sofisticação |
+| `pobre homem` | digno de pena |
+| `homem pobre` | sem recursos |
 
-### Parônimos frequentes
+## Três níveis de equivalência
 
-- `ratificar` = confirmar.
-- `retificar` = corrigir.
-- `descrição` = ato de descrever.
-- `discrição` = reserva/prudência.
-- `iminente` = prestes a ocorrer.
-- `eminente` = elevado/ilustre.
+1. **estrita** — mesmas condições centrais de verdade e nuances exigidas;
+2. **suficiente** — muda forma ou foco, mas preserva o conteúdo pedido;
+3. **proximidade** — há associação, mas diferença relevante impede a troca.
 
-## Sinonímia
+## Relações de inferência
 
-Sinonímia absoluta exigiria identidade:
-
-- em todas as acepções;
-- em todos os contextos;
-- no conteúdo descritivo;
-- no registro e na expressividade.
-
-É rara. Teste a construção completa.
-
-| Par | Diferença possível |
+| Relação | Teste |
 |---|---|
-| morrer/falecer | registro |
-| insistente/teimoso | avaliação |
-| contrariado/indignado | intensidade |
-| curto/conciso | extensão x economia expressiva |
+| acarretamento | verdade da primeira obriga verdade da segunda |
+| pressuposição | tende a permanecer sob negação ou pergunta |
+| implicatura | inferência contextual cancelável |
+| contradição | não podem ser verdadeiras no mesmo cenário |
 
-## Três níveis
-
-1. **Equivalência estrita:** preserva conteúdo e nuances exigidas.
-2. **Preservação suficiente:** muda foco/forma, mas conserva o conteúdo exigido pelo comando.
-3. **Mera proximidade:** há associação, mas diferença relevante impede a troca.
+- `tentou concluir` não implica conclusão.
+- `conseguiu concluir` implica conclusão.
+- `parou de recorrer` pressupõe recursos anteriores.
+- `alguns` não significa logicamente `alguns e não todos`.
+- `nenhum` contradiz `algum`.
 
 ## Gate gramatical
 
-Confira após substituir:
+Verifique:
 
-- classe e flexão;
+- classe gramatical;
+- flexão;
 - concordância;
-- regência e transitividade;
+- regência;
+- transitividade;
 - papéis semânticos;
-- colocação lexical;
+- seleção lexical;
 - pontuação;
-- coesão.
+- colocação;
+- naturalidade da combinação.
 
 Exemplos:
 
-- `assistir ao evento` → `ver o evento` exige retirar `a`.
-- `medidas foram adotadas` → `providência foi adotada` exige ajustes.
+- `assistir ao evento` → `ver o evento`;
+- `visar ao cargo` → `pretender o cargo`;
+- `medidas urgentes` → `providência urgente`, com todos os ajustes.
+
+## Colocações e expressões fixas
+
+Examine a unidade inteira:
+
+- `tomar uma decisão`;
+- `cometer um erro`;
+- `prestar contas`;
+- `levar em conta`;
+- `dar conta de`;
+- `à luz de`;
+- `em face de`;
+- `ao passo que`;
+- `só que`;
+- `o que significa que`.
+
+Troca palavra por palavra pode romper sentido idiomático, regência ou naturalidade.
 
 ## Informação e foco
 
-- `portaria` → `ato`: generaliza e pode perder especificidade.
-- `ato` → `portaria`: especifica e pode acrescentar dado.
-- Ativa → passiva mantém o conteúdo básico se preservar agente e paciente.
-- Passiva sem agente pode apagar informação.
-- Nominalização pode mudar foco e ocultar participantes.
+- hipônimo → hiperônimo: generaliza e pode perder informação;
+- hiperônimo → hipônimo: especifica e pode inventar dado;
+- ativa → passiva: pode manter participantes e mudar foco;
+- passiva sem agente: pode perder informação;
+- nominalização: pode ocultar agente, tempo ou responsabilidade;
+- explicitação: pode acrescentar relação antes apenas inferida.
 
-## Modalidade
+## Verbos de fala e evidência
 
-- `pode` = possibilidade/permissão conforme contexto.
-- `deve` = obrigação/probabilidade conforme contexto.
-- `fará` = projeção assertiva.
-- `talvez faça` = possibilidade.
+| Verbo | Compromisso frequente |
+|---|---|
+| afirmar | assertivo |
+| alegar | conteúdo atribuído ou controvertido |
+| sustentar | defesa de tese |
+| admitir | reconhecimento |
+| confessar | reconhecimento desfavorável |
+| constatar | resultado de verificação |
+| indicar | indício ou direção |
+| sugerir | compromisso mais fraco |
+| demonstrar | sustentação evidencial |
+| provar | reivindicação conclusiva |
 
-`pode reduzir` ≠ `reduzirá`.
+`alegou` ≠ `demonstrou`; `sugerem` ≠ `provam`.
 
-## Tempo e aspecto
+## Modalidade, tempo e aspecto
 
-- `adotou` = evento apresentado como concluído.
-- `vem adotando` = processo continuado.
-- `começou a adotar` = início.
-- `voltou a adotar` = adoção anterior + interrupção.
-- `deixou de adotar` = cessação/expectativa contextual.
+- `pode fazer` — possibilidade/permissão;
+- `deve fazer` — obrigação/probabilidade;
+- `fará` — projeção assertiva;
+- `talvez faça` — possibilidade;
+- `vem fazendo` — continuidade;
+- `fez` — evento concluído;
+- `começou a fazer` — início;
+- `voltou a fazer` — pressupõe prática anterior;
+- `deixou de fazer` — cessação, expectativa ou não ocorrência.
 
-## Operadores e escopo
+## Escalas e quantificadores
 
-- `Só os auditores assinaram.` → ninguém além deles.
-- `Os auditores só assinaram.` → não fizeram outra ação.
-- `até` pode marcar inclusão surpreendente ou limite.
-- `já` destaca anterioridade.
-- `ainda` marca continuidade até referência.
-- `pelo menos 3` = 3 ou mais.
-- `no máximo 3` = até 3.
-- `exatamente 3` = quantidade fixa.
-- `nem todos` ≠ `nenhum`.
+| Forma | Informação |
+|---|---|
+| `quase todos` | menos que todos, próximo da totalidade |
+| `cerca de 30` | aproximação |
+| `mais de 30` | limite inferior exclusivo |
+| `ao menos 30` | limite inferior inclusivo |
+| `no máximo 30` | limite superior |
+| `exatamente 30` | quantidade fixa |
+| `apenas 30` | restrição e possível avaliação |
+| `até 30` | limite ou inclusão |
+
+- `nem todos` ≠ `nenhum`;
+- `alguns` ≠ `todos`;
+- `só` muda de escopo conforme a posição;
+- `até` pode marcar inclusão surpreendente ou limite;
+- `já` e `ainda` acrescentam relação com expectativa temporal.
 
 ## Conectores
 
 | Relação | Exemplos |
 |---|---|
-| causa | porque, uma vez que |
+| causa | porque, uma vez que, em razão de |
 | conclusão | portanto, logo |
-| adversidade | mas, porém |
+| contraste | mas, porém |
 | concessão | embora, ainda que |
 | condição | se, caso |
+| explicação/reformulação | isto é, ou seja, o que significa que |
 
-- `portanto` ≠ `porém`.
-- `se` hipotético ≠ `como` causal factual.
-- `mas` → `embora` pode manter concessão básica, mas muda hierarquia e foco.
+Trocar conector pode mudar:
 
-## Pressuposições
+- relação lógica;
+- factualidade;
+- hierarquia sintática;
+- foco;
+- pontuação.
 
-- `voltou a assinar` → assinava antes.
-- `continua` → já ocorria/existia.
-- `até o diretor` → inclusão possivelmente inesperada.
-- Retirar o marcador pode conservar a ação e perder o implícito.
+## Pressuposições frequentes
 
-## Referência e coesão
+- `voltou a` → ação anterior;
+- `parou de` → prática anterior;
+- `continua` → situação anterior;
+- `até` → inclusão com expectativa;
+- `lamentou que` → tende a apresentar o conteúdo como fato;
+- `conseguiu` → resultado atingido.
 
-- `portaria` → `ato` pode manter o referente na cadeia textual sem criar sinonímia absoluta.
-- Pronome novo pode criar antecedente ambíguo.
-- Em texto técnico, repetir o termo pode aumentar precisão.
-- Mesma referência ≠ mesmo efeito expressivo.
+## Referência e encapsulamento
 
-## Método rápido
+- pronome ou hiperônimo pode retomar o mesmo referente;
+- correferência não garante equivalência avaliativa;
+- repetição pode ser preferível em texto técnico;
+- `essa hipótese`, `esse fato`, `essa decisão` retomam e classificam o conteúdo.
 
-1. Leia o comando e seus critérios.
-2. Reconstrua: quem fez o quê, a quem, quando e sob qual relação.
-3. Marque negativas, modais, quantificadores, conectores e pronomes.
+Trocar `hipótese` por `fato` muda o estatuto epistêmico.
+
+## Precisão terminológica pública
+
+Não trate automaticamente como sinônimos:
+
+- anular / revogar;
+- publicidade / transparência;
+- eficiência / eficácia / efetividade;
+- cidadão / usuário / interessado;
+- documento / processo / expediente;
+- dever / competência / atribuição;
+- servidor público / agente público.
+
+## Método de prova
+
+1. Leia o comando.
+2. Reconstrua quem fez o quê, a quem, quando e com qual certeza.
+3. Marque operadores, quantificadores, modais, conectores e pronomes.
 4. Selecione a acepção contextual.
 5. Rode o gate gramatical.
 6. Faça o teste de retorno.
-7. Busque contraexemplo: uma frase pode ser verdadeira e a outra, falsa?
-8. Confira escopo e referente.
-9. Releia no parágrafo.
+7. Crie um contraexemplo.
+8. Verifique escopo e referência.
+9. Releia o período no parágrafo.
+10. Julgue somente o que o comando exige.
 
-## Julgamentos rápidos
+## Matriz de substituição
 
-| Original | Troca | Problema |
-|---|---|---|
-| pode reduzir | reduzirá | modalidade |
-| máximo de 30 dias | 30 dias | limite |
-| já enviou | enviou | anterioridade |
-| portaria | ato | especificidade |
-| ratificou | retificou | sentido |
-| vem adotando | adotou | aspecto |
-| nem todos | nenhum | quantidade |
-| previu | autorizou | permissão não garantida |
+| Mudança | Verifique |
+|---|---|
+| quase-sinônimo | acepção, intensidade, avaliação, registro |
+| verbo | regência, participantes, aspecto, compromisso |
+| expressão → advérbio | classe, pontuação, escopo |
+| específico → geral | perda informativa |
+| geral → específico | informação inventada |
+| ativa → passiva | agente, foco, concordância |
+| oração → nome | participantes, tempo, determinação |
+| pronome → nome | antecedente, avaliação, ambiguidade |
+| conector → conector | lógica, posição, hierarquia |
+| retirada de operador | escala, pressuposição, implicatura |
 
 ## Pegadinhas
 
-- Não decidir por lista de sinônimos.
-- Não preservar preposição antiga após mudar o verbo.
-- Não apagar `já`, `ainda`, `só`, `até`, `quase` ou quantificador.
-- Não trocar causa, conclusão, condição e concessão.
-- Não confundir correferência com sinonímia.
-- Não substituir termo técnico só para evitar repetição.
-- Frase mais curta não é automaticamente equivalente.
+- dicionário não substitui contexto;
+- mesma referência não significa mesmo sentido;
+- frase gramatical pode não ser equivalente;
+- frase mais curta pode perder agente, condição ou intensidade;
+- termo técnico próximo pode ter alcance diferente;
+- trocar voz pode mudar foco;
+- `tentou` não implica êxito;
+- `alguns` não codifica obrigatoriamente “não todos”;
+- posição do adjetivo pode mudar a acepção;
+- termos do mesmo campo semântico não são necessariamente sinônimos.
