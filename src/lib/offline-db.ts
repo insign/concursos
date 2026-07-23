@@ -453,6 +453,13 @@ export function storeRemoteAnswerDocument(input: StoreRemoteAnswerInput): Promis
     const transaction = database.transaction('responses', 'readwrite');
     const existing = await transaction.store.get(input.documentId);
     if (existing) {
+      await transaction.store.put({
+        ...existing,
+        base: input.document,
+        remoteVersion: input.remoteVersion,
+        remoteCreatedAt: input.remoteCreatedAt,
+        conflictWarning: input.conflictWarning ?? existing.conflictWarning,
+      });
       await transaction.done;
       return false;
     }

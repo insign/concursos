@@ -182,26 +182,28 @@ npm run preview
 - IDs de respostas usam `concursos--<alias>--<contestStorageId>--<subjectStorageId>`; preferências usam `concursos--<alias>--preferencias`; progresso usa `concursos--<alias>--progresso`.
 - Alias, concurso e assunto têm limites respectivos de 32, 20 e 32 caracteres; o ID remoto completo deve ter no máximo 100 caracteres.
 - O alias ativo é o único dado de identidade em `localStorage`, na chave `concursos:active-alias`; ele é público e não é conta ou segredo.
+- Ativar o primeiro alias ou trocar de alias exige conexão e um preflight completo do alvo: leia e valide preferências, todas as respostas enumeradas por `/sync-catalog.json` e progresso antes de qualquer PUT ou alteração do `localStorage`; alias remoto existente exige confirmação explícita.
+- O alias ativo deve permanecer inalterado em falha de rede, catálogo, validação, lease, confirmação ou aplicação. Revalide-o após operações assíncronas e imediatamente antes do commit; sincronize pendências do alias atual quando possível e só execute descarte explicitamente autorizado depois de preparar o alvo.
 - `src/lib/offline-db.ts` possui stores para respostas, preferências, progresso, downloads, leases e quarentena.
 - Cada resposta local mantém documento atual, snapshot-base, metadados remotos, IDs sujos, outbox, tentativas, erro e aviso de conflito.
 - Escritas locais concorrentes mesclam somente os IDs de questões marcados como sujos com o registro IndexedDB mais recente, preservando respostas gravadas por outras abas.
 - Toda seleção e finalização deve concluir a transação IndexedDB antes de anunciar salvamento local; a finalização reconcilia e assina o registro durável mais recente dentro da mesma transação, nunca o snapshot potencialmente obsoleto da aba.
-- Trocar de alias nunca reutiliza respostas do perfil anterior; pendências exigem sincronização online ou descarte explícito offline.
+- Trocar de alias nunca reutiliza respostas do perfil anterior; vinculação offline é recusada, e pendências exigem sincronização online ou descarte explícito posterior ao preflight do alvo.
 - O backup de perfil usa schema v1 com `schemaVersion`, `exportedAt`, `sourceAlias`, documentos de respostas identificados pelos `contestStorageId` e `subjectStorageId` estáveis, e preferências; não exporta metadados internos de sincronização, progresso, leases, quarentena ou downloads.
 - A exportação aguarda escritas locais, inclui apenas assuntos do catálogo atual e reconcilia respostas às revisões e opções atuais das questões.
 - A importação exige confirmação explícita, sempre grava no alias ativo e valida estritamente o schema e o catálogo atual; ela sobrepõe atomicamente os assuntos importados, preserva assuntos locais não relacionados, substitui preferências, reconstrói progresso e tenta novamente snapshots de perfil obsoletos até três vezes. Dados importados permanecem pendentes para sincronização.
 - `src/lib/kv-client.ts` é o único cliente do KV: usa `fetch`, timeout, limite operacional de corpo e retry limitado para 429, sem `Authorization`.
 - `src/lib/sync.ts` coordena uma fila serial limitada a duas requisições por segundo, protegida por lease IndexedDB e acordada entre abas por `BroadcastChannel`; renovar exige um lease existente, não expirado e do mesmo owner, nunca readquire um lease perdido, e qualquer falha interrompe a operação antes de novas leituras, retries ou escritas remotas.
 - O catálogo estático `/sync-catalog.json` fornece schemas editoriais ao coordenador; ele não contém identidade nem estado do usuário.
-- Todo JSON remoto é validado antes do merge; documento malformado vai para quarentena e nunca substitui estado local válido.
-- O merge é por questão: mudança local exclusiva usa local, remota exclusiva usa remoto e conflito na mesma questão usa o último remoto observado.
+- Todo JSON remoto é validado antes da arbitragem; documento malformado vai para quarentena e nunca substitui estado local válido.
+- A arbitragem remota é por documento completo e usa `remoteVersion ?? 0`: a maior versão vence, empate com outbox pendente publica o local e empate limpo é no-op. Não faça merge remoto por questão, campo ou assunto.
 - O PUT sempre envia o documento completo mais recente. Uma edição local concluída durante o PUT permanece pendente e não é apagada pela confirmação remota.
 - Saltos de versão, regressão e mudança de `created_at` geram aviso; um cliente com catálogo editorial mais antigo recusa reconciliar ou sobrescrever documento local ou remoto com `questionSetRevision` mais nova; não alegue recuperação ou sincronização perfeita.
 - Gatilhos atuais: seleção/finalização, inicialização, `online`, foco, visibilidade, Background Sync, retry manual e troca de perfil.
 - Background Sync apenas acorda o coordenador em uma janela; nunca deve repetir diretamente um PUT antigo nem contornar IndexedDB, lease, validação e reconciliação.
-- Preferências são cacheadas no IndexedDB, sincronizadas no documento global e mescladas por campo; no mesmo campo alterado dos dois lados, o remoto observado prevalece.
+- Preferências são cacheadas no IndexedDB e sincronizadas como documento global completo pela mesma arbitragem de versão. Somente escritas locais concorrentes mesclam os campos sujos com o registro IndexedDB mais recente.
 - Progresso é uma visão materializada das respostas, não sua fonte; no modo `on-submit`, `correct` só existe depois de submissão válida.
-- Progresso mescla por assunto e maior `answerVersion`; revisão divergente aparece como desatualizada, e Configurações oferece recálculo sequencial local.
+- Progresso sincroniza como documento completo pela mesma arbitragem, mas permanece uma visão materializada: após resolver preferências e respostas, rematerialize-o com `answerVersion` e o catálogo vigentes. Revisão divergente aparece como desatualizada, e Configurações oferece recálculo sequencial local.
 - Escritas locais concorrentes de preferências mesclam somente os campos sujos, e atualizações de progresso mesclam somente os assuntos alterados com o registro IndexedDB mais recente.
 - Cada atualização local de um assunto do progresso lê a preferência vigente e grava o assunto na mesma transação `preferences` + `progress`, impedindo abas com modo de correção obsoleto de reintroduzir `correct`.
 - Não publique progresso antes de sincronizar respostas pendentes do catálogo atual e preferências. Mudanças de `correctionMode` persistem a preferência, sanitizam imediatamente o progresso local não submetido e gravam o marcador de rematerialização na mesma transação IndexedDB.

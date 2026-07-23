@@ -59,19 +59,6 @@ export function materializeSubjectProgress(
   };
 }
 
-export function mergeProgress(local: ProgressDocument, remote: ProgressDocument | null): ProgressDocument {
-  if (!remote) return local;
-  const subjects = { ...local.subjects };
-
-  for (const [id, remoteSubject] of Object.entries(remote.subjects)) {
-    const localSubject = subjects[id];
-    if (!localSubject || remoteSubject.answerVersion > localSubject.answerVersion) {
-      subjects[id] = remoteSubject;
-    }
-  }
-  return { schemaVersion: 1, subjects };
-}
-
 export function sanitizeProgressForCorrectionMode(
   progress: ProgressDocument,
   correctionMode: CorrectionMode | undefined,

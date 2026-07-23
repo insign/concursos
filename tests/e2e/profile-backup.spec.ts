@@ -1,4 +1,5 @@
 import { readFile } from 'node:fs/promises';
+import type { Page } from '@playwright/test';
 import { expect, test } from './fixtures';
 
 const sourceAlias = 'backup-7f3k';
@@ -32,6 +33,78 @@ function backupPayload() {
       shuffleQuestions: false,
     },
   };
+}
+
+function seedObservedRemoteAnswer(page: Page, profileId: string, documentId: string) {
+  return page.evaluate(
+    ({ alias, id }) =>
+      new Promise<void>((resolve, reject) => {
+        const request = indexedDB.open('concursos-offline', 1);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const transaction = request.result.transaction('responses', 'readwrite');
+          const document = {
+            schemaVersion: 1,
+            questionSetRevision: 1,
+            answers: { q001: { optionId: 'a', questionRevision: 1 } },
+            submission: null,
+          };
+          transaction.objectStore('responses').put({
+            documentId: id,
+            profileId: alias,
+            current: document,
+            base: document,
+            remoteVersion: 8,
+            remoteCreatedAt: '2026-07-13T12:00:00.000Z',
+            dirtyQuestionIds: [],
+            outboxState: 'clean',
+            attempts: 0,
+            nextAttemptAt: null,
+            lastError: null,
+            conflictWarning: null,
+            localRevision: 0,
+            updatedAt: Date.now(),
+          });
+          transaction.oncomplete = () => resolve();
+          transaction.onerror = () => reject(transaction.error);
+        };
+      }),
+    { alias: profileId, id: documentId },
+  );
+}
+
+function seedObservedRemoteProgress(
+  page: Page,
+  profileId: string,
+  document: unknown,
+) {
+  return page.evaluate(
+    ({ alias, progress }) =>
+      new Promise<void>((resolve, reject) => {
+        const request = indexedDB.open('concursos-offline', 1);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const transaction = request.result.transaction('progress', 'readwrite');
+          transaction.objectStore('progress').put({
+            profileId: alias,
+            current: progress,
+            base: progress,
+            remoteVersion: 4,
+            remoteCreatedAt: '2026-07-13T12:00:00.000Z',
+            dirtyFields: [],
+            outboxState: 'clean',
+            attempts: 0,
+            lastError: null,
+            conflictWarning: null,
+            localRevision: 0,
+            updatedAt: Date.now(),
+          });
+          transaction.oncomplete = () => resolve();
+          transaction.onerror = () => reject(transaction.error);
+        };
+      }),
+    { alias: profileId, progress: document },
+  );
 }
 
 test.beforeEach(async ({ page }) => {
@@ -127,33 +200,36 @@ test('rematerializes progress with the synchronized answer version', async ({ pa
       submission: null,
     },
   });
+  const remoteProgress = {
+    schemaVersion: 1,
+    subjects: {
+      'exemplo--fundamentos': {
+        answered: 1,
+        total: 12,
+        correct: 0,
+        submitted: false,
+        questionSetRevision: 1,
+        answerVersion: 8,
+      },
+      'legado--removido': {
+        answered: 4,
+        total: 4,
+        correct: 4,
+        submitted: true,
+        questionSetRevision: 1,
+        answerVersion: 2,
+      },
+    },
+  };
   kvStore.set(progressId, {
     version: 4,
     createdAt: '2026-07-13T12:00:00.000Z',
-    json: {
-      schemaVersion: 1,
-      subjects: {
-        'exemplo--fundamentos': {
-          answered: 1,
-          total: 12,
-          correct: 0,
-          submitted: false,
-          questionSetRevision: 1,
-          answerVersion: 8,
-        },
-        'legado--removido': {
-          answered: 4,
-          total: 4,
-          correct: 4,
-          submitted: true,
-          questionSetRevision: 1,
-          answerVersion: 2,
-        },
-      },
-    },
+    json: remoteProgress,
   });
 
   await page.goto('/configuracoes/');
+  await seedObservedRemoteAnswer(page, targetAlias, answerId);
+  await seedObservedRemoteProgress(page, targetAlias, remoteProgress);
   await page.evaluate(
     ({ alias }) =>
       new Promise<void>((resolve, reject) => {
@@ -203,8 +279,8 @@ test('rematerializes progress with the synchronized answer version', async ({ pa
         | { subjects?: Record<string, { answerVersion?: number; correct?: number }> }
         | undefined;
       return progress?.subjects?.['exemplo--fundamentos'];
-    })
-    .toMatchObject({ answerVersion: 9, correct: 0 });
+    }, { timeout: 15_000 })
+    .toMatchObject({ answerVersion: 9, correct: 1 });
   expect(
     (kvStore.get(progressId)?.json as { subjects: Record<string, unknown> }).subjects['legado--removido'],
   ).toBeUndefined();
@@ -224,11 +300,16 @@ test('does not publish predicted progress when answer synchronization fails', as
       submission: null,
     },
   });
+  const remoteProgress = { schemaVersion: 1, subjects: {} };
   kvStore.set(progressId, {
     version: 4,
     createdAt: '2026-07-13T12:00:00.000Z',
-    json: { schemaVersion: 1, subjects: {} },
+    json: remoteProgress,
   });
+  await page.goto('/configuracoes/');
+  await seedObservedRemoteAnswer(page, targetAlias, answerId);
+  await seedObservedRemoteProgress(page, targetAlias, remoteProgress);
+
   let answerPutAttempted = false;
   let progressPutAttempts = 0;
   await page.route('https://kv.helio.me/**', async (route) => {
@@ -242,7 +323,6 @@ test('does not publish predicted progress when answer synchronization fails', as
     await route.fallback();
   });
 
-  await page.goto('/configuracoes/');
   await page.getByLabel('Arquivo de backup').setInputFiles({
     name: 'perfil.json',
     mimeType: 'application/json',

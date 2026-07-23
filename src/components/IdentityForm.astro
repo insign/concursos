@@ -25,9 +25,9 @@
       Prefira algo menos previsível que seu nome. Qualquer pessoa que descubra o ID poderá ler, alterar ou apagar os dados remotos.
     </p>
 
-    <label class="danger-option" data-discard-option hidden>
+    <label class="danger-option" data-discard-option>
       <input type="checkbox" name="discardPending" />
-      Descartar alterações locais pendentes do alias atual ao trocar enquanto estiver offline
+      Descartar alterações locais pendentes do alias atual se a sincronização não puder concluí-las
     </label>
 
     <div class="form-actions">
@@ -44,51 +44,80 @@
     isAliasEasyToGuess,
     PendingProfileChangeError,
   } from '../lib/identity';
-  import { syncPendingProfile } from '../lib/sync';
+  import { prepareProfileAlias, syncPendingProfile } from '../lib/sync';
 
   document.querySelectorAll<HTMLFormElement>('[data-identity-form]').forEach((form) => {
     const aliasInput = form.elements.namedItem('alias') as HTMLInputElement;
     const discardInput = form.elements.namedItem('discardPending') as HTMLInputElement;
-    const submitButton = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
     const status = form.querySelector<HTMLElement>('[data-identity-status]')!;
     const current = form.querySelector<HTMLElement>('[data-current-alias]')!;
     const discardOption = form.querySelector<HTMLElement>('[data-discard-option]')!;
+    let linking = false;
 
-    const refreshConnectionControls = () => {
-      discardOption.hidden = navigator.onLine;
-      if (navigator.onLine) discardInput.checked = false;
-    };
-
-    current.textContent = getActiveAlias() ?? 'Nenhum';
-    refreshConnectionControls();
-    window.addEventListener('online', refreshConnectionControls);
-    window.addEventListener('offline', refreshConnectionControls);
+    const activeAlias = getActiveAlias();
+    current.textContent = activeAlias ?? 'Nenhum';
+    discardOption.hidden = activeAlias === null;
 
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
-      submitButton.disabled = true;
-      status.textContent = 'Validando perfil...';
+      if (linking) return;
+      linking = true;
+      form.querySelectorAll<HTMLInputElement | HTMLButtonElement>('input, button').forEach((control) => {
+        control.disabled = true;
+      });
+      status.textContent = 'Buscando e validando os dados deste alias...';
+      let reloadScheduled = false;
 
       try {
-        await changeActiveAlias(aliasInput.value, {
+        const alias = aliasInput.value;
+        const changed = await changeActiveAlias(alias, {
           discardPending: discardInput.checked,
           synchronize: syncPendingProfile,
+          prepare: (profileId) =>
+            prepareProfileAlias(profileId, {
+              onPreflightComplete: ({ remoteDocumentCount }) => {
+                if (remoteDocumentCount > 0) {
+                  status.textContent = `Alias encontrado com ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} remoto${remoteDocumentCount === 1 ? '' : 's'}.`;
+                  const confirmed = window.confirm(
+                    `Este alias já possui ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} remoto${remoteDocumentCount === 1 ? '' : 's'}. Deseja vincular e usar esses dados neste dispositivo?`,
+                  );
+                  if (!confirmed) {
+                    throw new Error(
+                      getActiveAlias()
+                        ? 'Vinculação cancelada; o alias atual foi preservado.'
+                        : 'Vinculação cancelada; nenhum alias foi ativado.',
+                    );
+                  }
+                }
+                status.textContent =
+                  remoteDocumentCount > 0
+                    ? 'Sincronizando o perfil encontrado...'
+                    : 'Preparando um novo perfil...';
+              },
+            }),
         });
-        status.textContent = isAliasEasyToGuess(aliasInput.value)
+        if (!changed) {
+          status.textContent = 'Este alias já está ativo.';
+          return;
+        }
+        status.textContent = isAliasEasyToGuess(alias)
           ? 'Alias salvo. Considere usar um valor menos previsível.'
           : 'Alias salvo neste dispositivo.';
+        reloadScheduled = true;
         window.setTimeout(() => window.location.reload(), 250);
       } catch (error) {
         if (error instanceof PendingProfileChangeError) {
-          status.textContent =
-            error.reason === 'sync-required'
-              ? 'Há alterações pendentes. Sincronize antes de trocar de alias.'
-              : 'Confirme o descarte das pendências ou cancele a troca.';
+          status.textContent = 'Há alterações pendentes. Sincronize ou confirme o descarte antes de trocar.';
         } else {
           status.textContent = error instanceof Error ? error.message : 'Não foi possível alterar o alias.';
         }
       } finally {
-        submitButton.disabled = false;
+        if (!reloadScheduled) {
+          linking = false;
+          form.querySelectorAll<HTMLInputElement | HTMLButtonElement>('input, button').forEach((control) => {
+            control.disabled = false;
+          });
+        }
       }
     });
   });
