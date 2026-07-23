@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { QuestionSet } from '../../src/lib/content-schema';
-import { DEFAULT_PREFERENCES, mergePreferences } from '../../src/lib/preferences';
-import { materializeSubjectProgress, mergeProgress, type ProgressDocument } from '../../src/lib/progress';
+import { materializeSubjectProgress } from '../../src/lib/progress';
 import { createEmptyAnswerDocument, submitAnswers } from '../../src/lib/questionnaire';
 
 const questionSet: QuestionSet = {
@@ -23,19 +22,6 @@ const questionSet: QuestionSet = {
 };
 
 describe('preferences and progress', () => {
-  it('merges preferences by field and uses remote for a same-field conflict', () => {
-    const base = DEFAULT_PREFERENCES;
-    const local = { ...base, questionLayout: 'ten' as const, shuffleQuestions: true };
-    const remote = { ...base, questionLayout: 'all' as const, correctionMode: 'immediate' as const };
-
-    expect(mergePreferences(local, base, remote)).toEqual({
-      schemaVersion: 1,
-      questionLayout: 'all',
-      correctionMode: 'immediate',
-      shuffleQuestions: true,
-    });
-  });
-
   it('hides correct counts on-submit until a valid complete submission', () => {
     const document = createEmptyAnswerDocument(2);
     document.answers.q1 = { optionId: 'b', questionRevision: 1 };
@@ -66,73 +52,4 @@ describe('preferences and progress', () => {
     ).toThrow('documento local usa a revisão editorial 2');
   });
 
-  it('merges materialized progress by greatest answer version', () => {
-    const local: ProgressDocument = {
-      schemaVersion: 1,
-      subjects: {
-        'c--a': {
-          answered: 2,
-          total: 3,
-          submitted: false,
-          questionSetRevision: 1,
-          answerVersion: 5,
-        },
-      },
-    };
-    const remote: ProgressDocument = {
-      schemaVersion: 1,
-      subjects: {
-        'c--a': {
-          answered: 1,
-          total: 3,
-          submitted: false,
-          questionSetRevision: 1,
-          answerVersion: 4,
-        },
-        'c--b': {
-          answered: 3,
-          total: 3,
-          correct: 3,
-          submitted: true,
-          questionSetRevision: 1,
-          answerVersion: 2,
-        },
-      },
-    };
-
-    expect(mergeProgress(local, remote)).toEqual({
-      schemaVersion: 1,
-      subjects: { 'c--a': local.subjects['c--a'], 'c--b': remote.subjects['c--b'] },
-    });
-  });
-
-  it('keeps pending local progress when the remote answer version is equal', () => {
-    const local: ProgressDocument = {
-      schemaVersion: 1,
-      subjects: {
-        'c--a': {
-          answered: 1,
-          total: 1,
-          submitted: false,
-          questionSetRevision: 1,
-          answerVersion: 3,
-        },
-      },
-    };
-    const remote: ProgressDocument = {
-      schemaVersion: 1,
-      subjects: {
-        'c--a': {
-          answered: 1,
-          total: 1,
-          correct: 1,
-          submitted: false,
-          questionSetRevision: 1,
-          answerVersion: 3,
-        },
-      },
-    };
-
-    expect(mergeProgress(local, remote)).toEqual(local);
-  });
 });

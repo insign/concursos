@@ -21,24 +21,6 @@ export const DEFAULT_PREFERENCES: Preferences = {
   shuffleQuestions: false,
 };
 
-export function mergePreferences(
-  local: Preferences,
-  base: Preferences | null,
-  remote: Preferences | null,
-): Preferences {
-  if (!remote) return local;
-  if (!base) return remote;
-
-  const merged = { ...local };
-  for (const field of ['questionLayout', 'correctionMode', 'shuffleQuestions'] as const) {
-    const localChanged = local[field] !== base[field];
-    const remoteChanged = remote[field] !== base[field];
-    if (!localChanged && remoteChanged) merged[field] = remote[field] as never;
-    else if (localChanged && remoteChanged && local[field] !== remote[field]) merged[field] = remote[field] as never;
-  }
-  return merged;
-}
-
 export async function loadPreferences(profileId: string): Promise<Preferences> {
   const record = await getSharedDocumentRecord('preferences', profileId);
   const parsed = preferencesSchema.safeParse(record?.current);

@@ -24,18 +24,17 @@ import {
   storeRemoteAnswerDocument,
   SyncLeaseLostError,
   type LocalAnswerRecord,
+  type LocalSharedDocumentRecord,
   type SharedStoreName,
 } from './offline-db';
 import {
   DEFAULT_PREFERENCES,
-  mergePreferences,
   preferencesSchema,
   type Preferences,
 } from './preferences';
 import {
   EMPTY_PROGRESS,
   materializeSubjectProgress,
-  mergeProgress,
   PREFERENCES_PROGRESS_DIRTY_FIELD,
   progressSchema,
   progressSubjectId,
@@ -43,13 +42,10 @@ import {
   type ProgressDocument,
 } from './progress';
 import {
-  isSubmissionValid,
   createEmptyAnswerDocument,
   reconcileAnswerDocument,
   type AnswerDocument,
-  type AnswerMap,
   type CorrectionMode,
-  type StoredAnswer,
 } from './questionnaire';
 
 const syncCatalogSchema = z
@@ -95,61 +91,21 @@ function progressUpdateForPreferences(preferences: Preferences) {
   };
 }
 
-export interface MergeAnswerResult {
-  document: AnswerDocument;
-  conflictingQuestionIds: string[];
-}
+export type VersionResolution = 'adopt-remote' | 'publish-local' | 'noop';
 
-function sameAnswer(left: StoredAnswer | undefined, right: StoredAnswer | undefined): boolean {
-  return left?.optionId === right?.optionId && left?.questionRevision === right?.questionRevision;
-}
+type VersionedLocalRecord = Pick<LocalAnswerRecord, 'remoteVersion' | 'outboxState'>;
 
-export function mergeAnswerDocuments(
-  localDocument: AnswerDocument,
-  baseDocument: AnswerDocument | null,
-  remoteDocument: AnswerDocument | null,
-  questionSet: QuestionSet,
-): MergeAnswerResult {
-  const local = reconcileAnswerDocument(localDocument, questionSet);
-  const base = baseDocument ? reconcileAnswerDocument(baseDocument, questionSet) : null;
-  const remote = remoteDocument ? reconcileAnswerDocument(remoteDocument, questionSet) : null;
-  const answers: AnswerMap = {};
-  const conflictingQuestionIds: string[] = [];
+export function resolveVersionAction(
+  local: VersionedLocalRecord | null,
+  remoteVersion: number | null,
+): VersionResolution {
+  if (!local) return remoteVersion === null ? 'noop' : 'adopt-remote';
 
-  for (const question of questionSet.questions) {
-    const localAnswer = local.answers[question.id];
-    const baseAnswer = base?.answers[question.id];
-    const remoteAnswer = remote?.answers[question.id];
-    const localChanged = !sameAnswer(localAnswer, baseAnswer);
-    const remoteChanged = !sameAnswer(remoteAnswer, baseAnswer);
-    let selected: StoredAnswer | undefined;
-
-    if (!localChanged && remoteChanged) selected = remoteAnswer;
-    else if (localChanged && !remoteChanged) selected = localAnswer;
-    else if (sameAnswer(localAnswer, remoteAnswer)) selected = localAnswer;
-    else if (localChanged && remoteChanged) {
-      selected = remoteAnswer;
-      conflictingQuestionIds.push(question.id);
-    } else selected = localAnswer ?? remoteAnswer;
-
-    if (selected) answers[question.id] = selected;
-  }
-
-  const merged: AnswerDocument = {
-    schemaVersion: 1,
-    questionSetRevision: questionSet.questionSetRevision,
-    answers,
-    submission: null,
-  };
-
-  for (const candidate of [remote?.submission, local.submission]) {
-    if (!candidate) continue;
-    merged.submission = candidate;
-    if (isSubmissionValid(merged, questionSet)) break;
-    merged.submission = null;
-  }
-
-  return { document: merged, conflictingQuestionIds };
+  const observedVersion = local.remoteVersion ?? 0;
+  const currentRemoteVersion = remoteVersion ?? 0;
+  if (currentRemoteVersion > observedVersion) return 'adopt-remote';
+  if (currentRemoteVersion < observedVersion) return 'publish-local';
+  return local.outboxState === 'pending' ? 'publish-local' : 'noop';
 }
 
 class RequestGate {
@@ -253,8 +209,12 @@ async function refreshProfileProgress(
   if (!saved) throw new Error('As preferências mudaram durante o recálculo do progresso');
 }
 
-function recreationWarning(record: LocalAnswerRecord, remoteVersion: number, remoteCreatedAt: string | null): string | null {
-  if (record.remoteVersion !== null && remoteVersion < record.remoteVersion) {
+export function recreationWarning(
+  record: Pick<LocalAnswerRecord | LocalSharedDocumentRecord, 'remoteVersion' | 'remoteCreatedAt'>,
+  remoteVersion: number | null,
+  remoteCreatedAt: string | null,
+): string | null {
+  if (record.remoteVersion !== null && (remoteVersion === null || remoteVersion < record.remoteVersion)) {
     return 'A versão remota regrediu; o registro pode ter sido excluído e recriado.';
   }
   if (record.remoteCreatedAt && remoteCreatedAt && record.remoteCreatedAt !== remoteCreatedAt) {
@@ -303,10 +263,29 @@ async function synchronizeRecord(
 ): Promise<void> {
   const remote = await validatedRemote(profileId, documentId, questionSet, ensureLease);
   const record = await getLocalAnswerRecord(documentId);
+  const action = resolveVersionAction(record ?? null, remote?.version ?? null);
 
-  if (!record) {
-    if (remote) {
-      const document = reconcileAnswerDocument(remote.document, questionSet);
+  if (action === 'noop') {
+    const warning = record
+      ? recreationWarning(record, remote?.version ?? null, remote?.createdAt ?? null)
+      : null;
+    if (record && remote && warning) {
+      await markAnswerSynced({
+        documentId,
+        expectedLocalRevision: record.localRevision,
+        synchronizedDocument: record.current,
+        remoteVersion: remote.version,
+        remoteCreatedAt: remote.createdAt,
+        conflictWarning: warning,
+      });
+      announceAnswer(documentId);
+    }
+    return;
+  }
+
+  if (action === 'adopt-remote' && remote) {
+    const document = reconcileAnswerDocument(remote.document, questionSet);
+    if (!record) {
       const stored = await storeRemoteAnswerDocument({
         profileId,
         documentId,
@@ -315,17 +294,13 @@ async function synchronizeRecord(
         remoteCreatedAt: remote.createdAt,
       });
       if (stored) announceAnswer(documentId);
+      return;
     }
-    return;
-  }
 
-  if (record.outboxState === 'clean') {
-    if (!remote) return;
-    const merged = mergeAnswerDocuments(record.current, record.base, remote.document, questionSet);
     await markAnswerSynced({
       documentId,
       expectedLocalRevision: record.localRevision,
-      synchronizedDocument: merged.document,
+      synchronizedDocument: document,
       remoteVersion: remote.version,
       remoteCreatedAt: remote.createdAt,
       conflictWarning: recreationWarning(record, remote.version, remote.createdAt),
@@ -334,12 +309,11 @@ async function synchronizeRecord(
     return;
   }
 
-  const merged = remote
-    ? mergeAnswerDocuments(record.current, record.base, remote.document, questionSet)
-    : { document: reconcileAnswerDocument(record.current, questionSet), conflictingQuestionIds: [] };
+  if (!record) return;
+  const localDocument = reconcileAnswerDocument(record.current, questionSet);
   await requestGate.wait();
   await ensureLease();
-  const written = await writeKv(documentId, merged.document, {
+  const written = await writeKv(documentId, localDocument, {
     beforeRetry: async () => {
       await ensureLease();
       return true;
@@ -348,10 +322,7 @@ async function synchronizeRecord(
   await ensureLease();
   const expectedVersion = remote?.version ?? 0;
   const warnings = [
-    recreationWarning(record, remote?.version ?? expectedVersion, remote?.createdAt ?? null),
-    merged.conflictingQuestionIds.length > 0
-      ? `O remoto prevaleceu nas questões: ${merged.conflictingQuestionIds.join(', ')}.`
-      : null,
+    recreationWarning(record, remote?.version ?? null, remote?.createdAt ?? null),
     written.version > expectedVersion + 1
       ? 'Outra escrita ocorreu entre a leitura e a gravação; a API não oferece recuperação histórica.'
       : null,
@@ -360,7 +331,7 @@ async function synchronizeRecord(
   await markAnswerSynced({
     documentId,
     expectedLocalRevision: record.localRevision,
-    synchronizedDocument: merged.document,
+    synchronizedDocument: localDocument,
     remoteVersion: written.version,
     remoteCreatedAt: written.created_at,
     conflictWarning: warnings.length > 0 ? warnings.join(' ') : null,
@@ -375,23 +346,30 @@ async function synchronizeSharedDocument(
   ensureLease: EnsureSyncLease,
   options: SharedSyncOptions = {},
 ): Promise<boolean> {
-  const record = await getSharedDocumentRecord(storeName, profileId);
-  if (
-    options.expectedLocalRevision !== undefined &&
-    (options.expectedLocalRevision === null
-      ? record !== undefined
-      : record?.localRevision !== options.expectedLocalRevision)
-  ) {
-    return false;
-  }
-  if (options.requiredCleanPreferencesRevision !== undefined) {
-    const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
-    const matchesExpectedRevision =
-      options.requiredCleanPreferencesRevision === null
-        ? preferencesRecord === undefined
-        : preferencesRecord?.localRevision === options.requiredCleanPreferencesRevision;
-    if (!matchesExpectedRevision || preferencesRecord?.outboxState === 'pending') return false;
-  }
+  const preconditionsMet = async (
+    currentRecord: LocalSharedDocumentRecord | undefined,
+  ): Promise<boolean> => {
+    if (
+      options.expectedLocalRevision !== undefined &&
+      (options.expectedLocalRevision === null
+        ? currentRecord !== undefined
+        : currentRecord?.localRevision !== options.expectedLocalRevision)
+    ) {
+      return false;
+    }
+    if (options.requiredCleanPreferencesRevision !== undefined) {
+      const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
+      const matchesExpectedRevision =
+        options.requiredCleanPreferencesRevision === null
+          ? preferencesRecord === undefined
+          : preferencesRecord?.localRevision === options.requiredCleanPreferencesRevision;
+      if (!matchesExpectedRevision || preferencesRecord?.outboxState === 'pending') return false;
+    }
+    return true;
+  };
+
+  let record = await getSharedDocumentRecord(storeName, profileId);
+  if (!(await preconditionsMet(record))) return false;
   await ensureLease();
   await requestGate.wait();
   await ensureLease();
@@ -402,6 +380,8 @@ async function synchronizeSharedDocument(
     },
   });
   await ensureLease();
+  record = await getSharedDocumentRecord(storeName, profileId);
+  if (!(await preconditionsMet(record))) return false;
   let remote: Preferences | ProgressDocument | null = null;
   let remoteProgressSanitized = false;
 
@@ -436,45 +416,47 @@ async function synchronizeSharedDocument(
     }
   }
 
-  if (!record) {
-    if (!remote || !envelope) return true;
-    const remotePreferences = storeName === 'preferences' ? (remote as Preferences) : null;
-    await markSharedDocumentSynced({
-      storeName,
-      profileId,
-      expectedLocalRevision: 0,
-      synchronizedDocument: remote,
-      remoteVersion: envelope.version,
-      remoteCreatedAt: envelope.created_at,
-      pendingDocument: remoteProgressSanitized ? remote : undefined,
-      pendingDirtyFields:
-        storeName === 'progress' && remoteProgressSanitized
-          ? Object.keys((remote as ProgressDocument).subjects)
-          : undefined,
-      progressUpdate:
-        remotePreferences && remotePreferences.correctionMode !== DEFAULT_PREFERENCES.correctionMode
-          ? progressUpdateForPreferences(remotePreferences)
-          : undefined,
-    });
+  const action = resolveVersionAction(record ?? null, envelope?.version ?? null);
+  if (action === 'noop') {
+    const warning = record
+      ? recreationWarning(record, envelope?.version ?? null, envelope?.created_at ?? null)
+      : null;
+    if (record && envelope && warning) {
+      await markSharedDocumentSynced({
+        storeName,
+        profileId,
+        expectedLocalRevision: record.localRevision,
+        synchronizedDocument: record.current,
+        remoteVersion: envelope.version,
+        remoteCreatedAt: envelope.created_at,
+        conflictWarning: warning,
+      });
+    }
     return true;
   }
 
-  if (record.outboxState === 'clean') {
-    if (!remote || !envelope) return true;
-    const localPreferences =
-      storeName === 'preferences' ? preferencesSchema.safeParse(record.current) : null;
+  if (action === 'adopt-remote' && remote && envelope) {
     const remotePreferences = storeName === 'preferences' ? (remote as Preferences) : null;
-    const preferenceCorrectionChanged =
-      remotePreferences !== null &&
-      (!localPreferences?.success ||
-        localPreferences.data.correctionMode !== remotePreferences.correctionMode);
+    const localPreferences =
+      storeName === 'preferences' && record
+        ? preferencesSchema.safeParse(record.current)
+        : null;
+    const preferenceCorrectionChanged = remotePreferences !== null && (
+      record
+        ? !localPreferences?.success ||
+          localPreferences.data.correctionMode !== remotePreferences.correctionMode
+        : remotePreferences.correctionMode !== DEFAULT_PREFERENCES.correctionMode
+    );
     await markSharedDocumentSynced({
       storeName,
       profileId,
-      expectedLocalRevision: record.localRevision,
+      expectedLocalRevision: record?.localRevision ?? 0,
       synchronizedDocument: remote,
       remoteVersion: envelope.version,
       remoteCreatedAt: envelope.created_at,
+      conflictWarning: record
+        ? recreationWarning(record, envelope.version, envelope.created_at)
+        : null,
       pendingDocument: remoteProgressSanitized ? remote : undefined,
       pendingDirtyFields:
         storeName === 'progress' && remoteProgressSanitized
@@ -487,26 +469,22 @@ async function synchronizeSharedDocument(
     return true;
   }
 
-  let merged: Preferences | ProgressDocument;
+  if (!record) return true;
+  let localDocument: Preferences | ProgressDocument;
   let preferenceCorrectionChanged = false;
   if (storeName === 'preferences') {
     const local = preferencesSchema.safeParse(record.current);
     const base = preferencesSchema.safeParse(record.base);
-    merged = mergePreferences(
-      local.success ? local.data : DEFAULT_PREFERENCES,
-      base.success ? base.data : null,
-      remote as Preferences | null,
-    );
+    if (!local.success) throw new Error('Documento local de preferences inválido');
+    localDocument = local.data;
     preferenceCorrectionChanged =
-      (local.success ? local.data.correctionMode : DEFAULT_PREFERENCES.correctionMode) !==
-        merged.correctionMode ||
       (base.success ? base.data.correctionMode : DEFAULT_PREFERENCES.correctionMode) !==
-        merged.correctionMode;
+        localDocument.correctionMode;
   } else {
     const local = progressSchema.safeParse(record.current);
-    merged = mergeProgress(local.success ? local.data : EMPTY_PROGRESS, remote as ProgressDocument | null);
-    merged = sanitizeProgressForCorrectionMode(
-      merged,
+    if (!local.success) throw new Error('Documento local de progress inválido');
+    localDocument = sanitizeProgressForCorrectionMode(
+      local.data,
       options.progressCorrectionMode,
     ).document;
   }
@@ -539,7 +517,7 @@ async function synchronizeSharedDocument(
   await ensureLease();
   const written = await writeKv(
     documentId,
-    merged,
+    localDocument,
     {
       beforeRetry: async () => {
         await ensureLease();
@@ -552,16 +530,18 @@ async function synchronizeSharedDocument(
     storeName,
     profileId,
     expectedLocalRevision: record.localRevision,
-    synchronizedDocument: merged,
+    synchronizedDocument: localDocument,
     remoteVersion: written.version,
     remoteCreatedAt: written.created_at,
-    conflictWarning:
-      envelope && written.version > envelope.version + 1
+    conflictWarning: [
+      recreationWarning(record, envelope?.version ?? null, envelope?.created_at ?? null),
+      written.version > (envelope?.version ?? 0) + 1
         ? 'Outra escrita ocorreu durante a sincronização deste documento global.'
         : null,
+    ].filter(Boolean).join(' ') || null,
     progressUpdate:
       storeName === 'preferences' && preferenceCorrectionChanged
-        ? progressUpdateForPreferences(merged as Preferences)
+        ? progressUpdateForPreferences(localDocument as Preferences)
         : undefined,
   });
   return true;

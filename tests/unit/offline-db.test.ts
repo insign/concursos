@@ -378,6 +378,8 @@ describe('offline database', () => {
     ).resolves.toBe(false);
     expect(await getLocalAnswerRecord(documentId)).toMatchObject({
       current: local,
+      base: remote,
+      remoteVersion: 4,
       outboxState: 'pending',
       dirtyQuestionIds: ['q001'],
     });

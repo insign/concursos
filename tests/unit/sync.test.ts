@@ -1,8 +1,8 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import type { QuestionSet } from '../../src/lib/content-schema';
 import { parseRemoteAnswerDocument } from '../../src/lib/document-schema';
-import { mergeAnswerDocuments, requestProfileSync } from '../../src/lib/sync';
-import { submitAnswers, type AnswerDocument } from '../../src/lib/questionnaire';
+import { recreationWarning, requestProfileSync, resolveVersionAction } from '../../src/lib/sync';
+import type { AnswerDocument } from '../../src/lib/questionnaire';
 
 const questionSet: QuestionSet = {
   schemaVersion: 1,
@@ -42,49 +42,33 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 
-describe('answer synchronization merge', () => {
-  it('uses local-only and remote-only changes by question', () => {
-    const base = document({ q1: { optionId: 'a', questionRevision: 1 } });
-    const local = document({
-      q1: { optionId: 'a', questionRevision: 1 },
-      q2: { optionId: 'b', questionRevision: 1 },
-    });
-    const remote = document({ q1: { optionId: 'b', questionRevision: 1 } });
-
-    expect(mergeAnswerDocuments(local, base, remote, questionSet)).toEqual({
-      document: document({
-        q1: { optionId: 'b', questionRevision: 1 },
-        q2: { optionId: 'b', questionRevision: 1 },
-      }),
-      conflictingQuestionIds: [],
-    });
+describe('document version resolution', () => {
+  it.each([
+    { local: null, remote: null, expected: 'noop' },
+    { local: null, remote: 1, expected: 'adopt-remote' },
+    { local: { remoteVersion: 1, outboxState: 'clean' as const }, remote: 2, expected: 'adopt-remote' },
+    { local: { remoteVersion: 2, outboxState: 'clean' as const }, remote: 1, expected: 'publish-local' },
+    { local: { remoteVersion: 2, outboxState: 'clean' as const }, remote: null, expected: 'publish-local' },
+    { local: { remoteVersion: 2, outboxState: 'pending' as const }, remote: 2, expected: 'publish-local' },
+    { local: { remoteVersion: 2, outboxState: 'clean' as const }, remote: 2, expected: 'noop' },
+    { local: { remoteVersion: null, outboxState: 'pending' as const }, remote: null, expected: 'publish-local' },
+    { local: { remoteVersion: null, outboxState: 'clean' as const }, remote: null, expected: 'noop' },
+  ])('returns $expected for local $local and remote version $remote', ({ local, remote, expected }) => {
+    expect(resolveVersionAction(local, remote)).toBe(expected);
   });
 
-  it('uses the last observed remote value for a same-question conflict', () => {
-    const base = document({ q1: { optionId: 'a', questionRevision: 1 } });
-    const local = document({ q1: { optionId: 'b', questionRevision: 1 } });
-    const remote = document({ q1: { optionId: 'c', questionRevision: 1 } });
-    const merged = mergeAnswerDocuments(local, base, remote, questionSet);
-
-    expect(merged.document.answers.q1?.optionId).toBe('c');
-    expect(merged.conflictingQuestionIds).toEqual(['q1']);
+  it('warns when an equal-version remote document has a new creation date', () => {
+    expect(
+      recreationWarning(
+        { remoteVersion: 2, remoteCreatedAt: '2026-07-01T00:00:00.000Z' },
+        2,
+        '2026-07-02T00:00:00.000Z',
+      ),
+    ).toContain('data de criação remota mudou');
   });
+});
 
-  it('keeps a submission only when its signature still matches merged answers', () => {
-    const completed = document({
-      q1: { optionId: 'a', questionRevision: 1 },
-      q2: { optionId: 'b', questionRevision: 1 },
-    });
-    const submitted = submitAnswers(completed, questionSet);
-    expect(mergeAnswerDocuments(submitted, completed, submitted, questionSet).document.submission).not.toBeNull();
-
-    const remote = document({
-      q1: { optionId: 'c', questionRevision: 1 },
-      q2: { optionId: 'b', questionRevision: 1 },
-    });
-    expect(mergeAnswerDocuments(submitted, completed, remote, questionSet).document.submission).toBeNull();
-  });
-
+describe('remote answer validation', () => {
   it('rejects remote options that do not exist in the current catalog', () => {
     expect(() =>
       parseRemoteAnswerDocument(
@@ -103,16 +87,6 @@ describe('answer synchronization merge', () => {
     ).toThrow('documento remoto usa a revisão editorial 2');
   });
 
-  it('refuses to merge a local revision newer than the current catalog', () => {
-    expect(() =>
-      mergeAnswerDocuments(
-        { ...document({ q1: { optionId: 'a', questionRevision: 1 } }), questionSetRevision: 2 },
-        null,
-        null,
-        questionSet,
-      ),
-    ).toThrow('documento local usa a revisão editorial 2');
-  });
 });
 
 describe('background synchronization fallback', () => {
