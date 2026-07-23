@@ -105,7 +105,7 @@ test('does not expose editorial groups through sync or offline contracts', async
   expect(typesSubject).toMatchObject({
     contestStorageId: 'tcema-2026-adm',
     subjectStorageId: 'tipos-generos-textuais',
-    questionSet: { questionSetRevision: 1 },
+    questionSet: { questionSetRevision: 2 },
   });
   expect(Object.keys(readingSubject ?? {}).sort()).toEqual([
     'contestStorageId',
