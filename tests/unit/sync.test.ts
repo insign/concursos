@@ -66,6 +66,13 @@ describe('document version resolution', () => {
       ),
     ).toContain('data de criação remota mudou');
   });
+
+  it('warns when the observed remote version regresses or disappears', () => {
+    const record = { remoteVersion: 3, remoteCreatedAt: '2026-07-01T00:00:00.000Z' };
+
+    expect(recreationWarning(record, 2, record.remoteCreatedAt)).toContain('versão remota regrediu');
+    expect(recreationWarning(record, null, null)).toContain('versão remota regrediu');
+  });
 });
 
 describe('remote answer validation', () => {

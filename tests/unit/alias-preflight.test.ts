@@ -143,11 +143,12 @@ beforeEach(async () => {
 });
 
 afterEach(() => {
+  vi.restoreAllMocks();
   vi.unstubAllGlobals();
 });
 
 describe('alias profile preflight', () => {
-  it('adopts a complete existing remote profile without rewriting equal progress', async () => {
+  it('adopts a complete remote profile and resolves clean or pending version ties', async () => {
     const remoteAnswer = createEmptyAnswerDocument(1);
     remoteAnswer.answers.q1 = { optionId: 'a', questionRevision: 1 };
     const remotes = new Map<string, MockRemoteDocument>([
@@ -204,12 +205,90 @@ describe('alias profile preflight', () => {
       remoteVersion: 2,
       outboxState: 'clean',
     });
-  }, 10_000);
+
+    requests.length = 0;
+    await expect(prepareProfileAlias(profileId)).resolves.toEqual({ remoteDocumentCount: 3 });
+    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
+
+    await saveSharedDocument(
+      'preferences',
+      profileId,
+      { ...DEFAULT_PREFERENCES, questionLayout: 'ten' },
+      ['questionLayout'],
+    );
+    const pendingAnswer = structuredClone(remoteAnswer);
+    pendingAnswer.answers.q1 = { optionId: 'b', questionRevision: 1 };
+    await saveAnswerDocumentSnapshot({
+      profileId,
+      documentId: answerId,
+      document: pendingAnswer,
+      dirtyQuestionIds: ['q1'],
+    });
+    await saveSharedDocument('progress', profileId, { schemaVersion: 1, subjects: {} }, [
+      'tse--portugues',
+    ]);
+
+    requests.length = 0;
+    await expect(prepareProfileAlias(profileId)).resolves.toEqual({ remoteDocumentCount: 3 });
+    expect(requests.map(({ method, id }) => `${method} ${id}`)).toEqual([
+      `GET ${preferencesId}`,
+      `GET ${answerId}`,
+      `GET ${progressId}`,
+      `PUT ${preferencesId}`,
+      `PUT ${answerId}`,
+      `PUT ${progressId}`,
+    ]);
+    expect(await getSharedDocumentRecord('preferences', profileId)).toMatchObject({
+      remoteVersion: 5,
+      outboxState: 'clean',
+    });
+    expect(await getLocalAnswerRecord(answerId)).toMatchObject({
+      current: pendingAnswer,
+      remoteVersion: 4,
+      outboxState: 'clean',
+    });
+    expect(await getSharedDocumentRecord('progress', profileId)).toMatchObject({
+      remoteVersion: 3,
+      outboxState: 'clean',
+      current: {
+        subjects: {
+          'tse--portugues': { answerVersion: 4 },
+        },
+      },
+    });
+  }, 15_000);
 
   it('leaves a completely new alias empty after the read-only preflight', async () => {
     const { requests } = installFetchMock();
 
     await expect(prepareProfileAlias(profileId)).resolves.toEqual({ remoteDocumentCount: 0 });
+    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
+    expect(await getSharedDocumentRecord('preferences', profileId)).toBeUndefined();
+    expect(await getLocalAnswerRecord(answerId)).toBeUndefined();
+    expect(await getSharedDocumentRecord('progress', profileId)).toBeUndefined();
+  }, 10_000);
+
+  it('applies nothing when the lease expires during remote-profile confirmation', async () => {
+    const now = Date.now();
+    const remotes = new Map<string, MockRemoteDocument>([
+      [
+        preferencesId,
+        {
+          version: 2,
+          createdAt: '2026-07-23T12:00:00.000Z',
+          json: { ...DEFAULT_PREFERENCES, questionLayout: 'all' },
+        },
+      ],
+    ]);
+    const { requests } = installFetchMock({ remotes });
+
+    await expect(
+      prepareProfileAlias(profileId, {
+        onPreflightComplete: () => {
+          vi.spyOn(Date, 'now').mockReturnValue(now + 60_000);
+        },
+      }),
+    ).rejects.toThrow('Outra aba assumiu a coordenação da sincronização');
     expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
     expect(await getSharedDocumentRecord('preferences', profileId)).toBeUndefined();
     expect(await getLocalAnswerRecord(answerId)).toBeUndefined();
@@ -284,6 +363,44 @@ describe('alias profile preflight', () => {
     const quarantined = await (await openOfflineDb()).getAll('quarantine');
     expect(quarantined).toHaveLength(1);
     expect(quarantined[0]).toMatchObject({ documentId: progressId });
+  }, 10_000);
+
+  it.each([
+    {
+      label: 'preferences',
+      documentId: preferencesId,
+      json: { schemaVersion: 1 },
+    },
+    {
+      label: 'answer',
+      documentId: answerId,
+      json: {
+        schemaVersion: 1,
+        questionSetRevision: 1,
+        answers: { q1: { optionId: 'missing', questionRevision: 1 } },
+        submission: null,
+      },
+    },
+  ])('quarantines malformed $label data without replacing local state', async ({ documentId, json }) => {
+    await seedPendingProfile();
+    const remotes = new Map<string, MockRemoteDocument>([
+      [documentId, { version: 2, createdAt: '2026-07-23T12:00:00.000Z', json }],
+    ]);
+    const { requests } = installFetchMock({ remotes });
+
+    await expect(prepareProfileAlias(profileId)).rejects.toThrow();
+    expect(requests.some(({ method }) => method === 'PUT')).toBe(false);
+    const quarantined = await (await openOfflineDb()).getAll('quarantine');
+    expect(quarantined).toHaveLength(1);
+    expect(quarantined[0]).toMatchObject({ documentId });
+    expect(await getSharedDocumentRecord('preferences', profileId)).toMatchObject({
+      current: { questionLayout: 'ten' },
+      outboxState: 'pending',
+    });
+    expect(await getLocalAnswerRecord(answerId)).toMatchObject({
+      current: { answers: { q1: { optionId: 'a' } } },
+      outboxState: 'pending',
+    });
   }, 10_000);
 
   it('keeps successful versions after a partial failure and converges on retry', async () => {

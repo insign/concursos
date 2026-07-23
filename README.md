@@ -50,6 +50,10 @@ Os identificadores `storageId` são persistidos em documentos locais e remotos. 
 
 O alias escolhido no navegador identifica um perfil público; ele não representa autenticação nem privacidade. Respostas, preferências, progresso e a fila de sincronização permanecem no IndexedDB e são sincronizados com a API pública `https://kv.helio.me` quando há conexão. A página de configurações permite exportar e importar um backup de perfil.
 
+Ativar o primeiro alias ou trocar de alias exige conexão. Antes de alterar o perfil ativo, o navegador lê e valida preferências, todas as respostas do catálogo e progresso; um alias remoto existente exige confirmação explícita. Falhas de rede, validação ou aplicação preservam o alias atual e as pendências locais.
+
+A sincronização arbitra cada documento completo pela maior versão remota observada: a versão maior vence, empate pendente publica o estado local e empate limpo não grava. Escritas locais concorrentes continuam sendo reconciliadas no IndexedDB, mas o KV é last-write-wins e não oferece compare-and-set; portanto, não há garantia de sincronização perfeita entre clientes independentes.
+
 Conteúdo já visitado pode ser lido offline. A interface também permite baixar ou remover atomicamente o pacote completo de um concurso. O tráfego do KV nunca é armazenado no Cache Storage.
 
 ## Deploy

@@ -7,18 +7,24 @@ export interface MockKvDocument {
 }
 
 interface Fixtures {
+  kvFailures: Map<string, number>;
   kvStore: Map<string, MockKvDocument>;
 }
 
 export async function installMockKvRoute(
   context: BrowserContext,
   kvStore: Map<string, MockKvDocument>,
+  kvFailures = new Map<string, number>(),
 ): Promise<void> {
   await context.route('https://kv.helio.me/**', async (route) => {
     const request = route.request();
     const url = new URL(request.url());
     const id = decodeURIComponent(url.pathname.slice(1).replace(/\/version$/, ''));
     const existing = kvStore.get(id);
+    const failureStatus = kvFailures.get(`${request.method()} ${id}`);
+    if (failureStatus) {
+      return route.fulfill({ status: failureStatus, json: { error: 'controlled failure' } });
+    }
 
     if (request.method() === 'GET' && url.pathname.endsWith('/version')) {
       if (!existing) return route.fulfill({ status: 404, json: { error: 'not found' } });
@@ -65,11 +71,14 @@ export async function installMockKvRoute(
 }
 
 export const test = base.extend<Fixtures>({
+  kvFailures: async ({}, use) => {
+    await use(new Map());
+  },
   kvStore: async ({}, use) => {
     await use(new Map());
   },
-  page: async ({ page, context, kvStore }, use) => {
-    await installMockKvRoute(context, kvStore);
+  page: async ({ page, context, kvFailures, kvStore }, use) => {
+    await installMockKvRoute(context, kvStore, kvFailures);
 
     await use(page);
   },

@@ -890,6 +890,7 @@ export async function prepareProfileAlias(
           Number(preflight.progress !== null),
       };
       options.onPreflightComplete?.(result);
+      await ensureLease();
       await applyProfilePreflight(profileId, preflight, ensureLease);
     }),
   );
