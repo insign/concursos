@@ -8,14 +8,22 @@ const REMOTE_ID_MAX_LENGTH = 100;
 
 export class IdentityValidationError extends Error {}
 
-export type PendingProfileReason = 'sync-required' | 'discard-required';
+export type PendingProfileReason = 'sync-required';
 
 export class PendingProfileChangeError extends Error {
   constructor(public readonly reason: PendingProfileReason) {
+    super('Há alterações pendentes que precisam ser sincronizadas antes da troca');
+  }
+}
+
+export type AliasConnectionReason = 'offline' | 'active-alias-changed';
+
+export class AliasConnectionError extends Error {
+  constructor(public readonly reason: AliasConnectionReason) {
     super(
-      reason === 'sync-required'
-        ? 'Há alterações pendentes que precisam ser sincronizadas antes da troca'
-        : 'Há alterações pendentes; cancele ou confirme o descarte antes da troca',
+      reason === 'offline'
+        ? 'Conecte-se à internet para buscar e vincular este alias'
+        : 'O alias ativo mudou em outra aba; revise o perfil atual e tente novamente',
     );
   }
 }
@@ -74,33 +82,60 @@ export function getActiveAlias(): string | null {
 export interface ChangeAliasOptions {
   discardPending?: boolean;
   online?: boolean;
+  prepare?: (profileId: string) => Promise<unknown>;
   synchronize?: (profileId: string) => Promise<unknown>;
 }
 
-export async function changeActiveAlias(nextAlias: string, options: ChangeAliasOptions = {}): Promise<void> {
+export async function changeActiveAlias(
+  nextAlias: string,
+  options: ChangeAliasOptions = {},
+): Promise<boolean> {
   const validatedAlias = validateUserAlias(nextAlias);
   const currentAlias = getActiveAlias();
-  if (!currentAlias || currentAlias === validatedAlias) {
-    localStorage.setItem(ACTIVE_ALIAS_STORAGE_KEY, validatedAlias);
-    return;
-  }
+  if (currentAlias === validatedAlias) return false;
+
+  const online = options.online ?? navigator.onLine;
+  if (!online) throw new AliasConnectionError('offline');
+
+  const assertActiveAliasUnchanged = () => {
+    if (getActiveAlias() !== currentAlias) throw new AliasConnectionError('active-alias-changed');
+  };
 
   const { discardPendingProfile, hasPendingOutbox } = await import('./offline-db');
-  let hasPending = await hasPendingOutbox(currentAlias);
-  const online = options.online ?? navigator.onLine;
+  let hasPending = currentAlias ? await hasPendingOutbox(currentAlias) : false;
+  assertActiveAliasUnchanged();
 
-  if (hasPending && online && options.synchronize) {
+  if (currentAlias && hasPending && options.synchronize) {
     await options.synchronize(currentAlias);
+    assertActiveAliasUnchanged();
     hasPending = await hasPendingOutbox(currentAlias);
+    assertActiveAliasUnchanged();
   }
 
   if (hasPending && !options.discardPending) {
-    throw new PendingProfileChangeError(online ? 'sync-required' : 'discard-required');
+    throw new PendingProfileChangeError('sync-required');
   }
 
-  if (hasPending) await discardPendingProfile(currentAlias);
+  if (!options.prepare) throw new Error('A preparação segura do alias não foi configurada');
+  await options.prepare(validatedAlias);
+  assertActiveAliasUnchanged();
+
+  if (currentAlias) {
+    hasPending = await hasPendingOutbox(currentAlias);
+    assertActiveAliasUnchanged();
+    if (hasPending && !options.discardPending) {
+      throw new PendingProfileChangeError('sync-required');
+    }
+    if (hasPending) {
+      await discardPendingProfile(currentAlias);
+      assertActiveAliasUnchanged();
+    }
+  }
+
+  assertActiveAliasUnchanged();
   localStorage.setItem(ACTIVE_ALIAS_STORAGE_KEY, validatedAlias);
   window.dispatchEvent(
     new CustomEvent('concursos:profile-changed', { detail: { previous: currentAlias, current: validatedAlias } }),
   );
+  return true;
 }
