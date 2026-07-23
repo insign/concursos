@@ -23,6 +23,7 @@ import {
   saveProgressIfPreferencesUnchanged,
   storeRemoteAnswerDocument,
   SyncLeaseLostError,
+  whenLocalWritesSettled,
   type LocalAnswerRecord,
   type LocalSharedDocumentRecord,
   type SharedStoreName,
@@ -64,6 +65,31 @@ const syncCatalogSchema = z
   .strict();
 
 type SyncCatalogEntry = z.infer<typeof syncCatalogSchema>['subjects'][number];
+
+interface RemoteDocument<T> {
+  document: T;
+  version: number;
+  createdAt: string | null;
+}
+
+interface ProfilePreflight {
+  catalog: SyncCatalogEntry[];
+  preferences: RemoteDocument<Preferences> | null;
+  answers: Array<{
+    documentId: string;
+    entry: SyncCatalogEntry;
+    remote: RemoteDocument<AnswerDocument> | null;
+  }>;
+  progress: RemoteDocument<ProgressDocument> | null;
+}
+
+export interface ProfilePreparationResult {
+  remoteDocumentCount: number;
+}
+
+export interface ProfilePreparationOptions {
+  onPreflightComplete?: (result: ProfilePreparationResult) => void;
+}
 
 interface SharedSyncOptions {
   expectedLocalRevision?: number | null;
@@ -174,12 +200,11 @@ async function loadSyncCatalog(): Promise<SyncCatalogEntry[]> {
   return syncCatalogSchema.parse(await response.json()).subjects;
 }
 
-async function refreshProfileProgress(
+async function materializeProfileProgress(
   profileId: string,
   catalog: SyncCatalogEntry[],
   preferences: Preferences,
-  expectedPreferencesRevision: number | null,
-): Promise<void> {
+): Promise<ProgressDocument> {
   const subjects: ProgressDocument['subjects'] = {};
   for (const entry of catalog) {
     const documentId = buildAnswerDocumentId(
@@ -200,13 +225,29 @@ async function refreshProfileProgress(
         record?.remoteVersion ?? 0,
       );
   }
+  return { schemaVersion: 1, subjects };
+}
+
+async function refreshProfileProgress(
+  profileId: string,
+  catalog: SyncCatalogEntry[],
+  preferences: Preferences,
+  expectedPreferencesRevision: number | null,
+): Promise<boolean> {
+  const document = await materializeProfileProgress(profileId, catalog, preferences);
+  const current = await getSharedDocumentRecord('progress', profileId);
+  const parsedCurrent = progressSchema.safeParse(current?.current);
+  if (parsedCurrent.success && JSON.stringify(parsedCurrent.data) === JSON.stringify(document)) {
+    return false;
+  }
   const saved = await saveProgressIfPreferencesUnchanged(
     profileId,
     expectedPreferencesRevision,
-    { schemaVersion: 1, subjects },
-    Object.keys(subjects),
+    document,
+    Object.keys(document.subjects),
   );
   if (!saved) throw new Error('As preferências mudaram durante o recálculo do progresso');
+  return true;
 }
 
 export function recreationWarning(
@@ -228,7 +269,7 @@ async function validatedRemote(
   documentId: string,
   questionSet: QuestionSet,
   ensureLease: EnsureSyncLease,
-): Promise<{ document: AnswerDocument; version: number; createdAt: string | null } | null> {
+): Promise<RemoteDocument<AnswerDocument> | null> {
   await ensureLease();
   await requestGate.wait();
   await ensureLease();
@@ -262,6 +303,16 @@ async function synchronizeRecord(
   ensureLease: EnsureSyncLease,
 ): Promise<void> {
   const remote = await validatedRemote(profileId, documentId, questionSet, ensureLease);
+  await applyAnswerRemote(profileId, documentId, questionSet, remote, ensureLease);
+}
+
+async function applyAnswerRemote(
+  profileId: string,
+  documentId: string,
+  questionSet: QuestionSet,
+  remote: RemoteDocument<AnswerDocument> | null,
+  ensureLease: EnsureSyncLease,
+): Promise<void> {
   const record = await getLocalAnswerRecord(documentId);
   const action = resolveVersionAction(record ?? null, remote?.version ?? null);
 
@@ -339,37 +390,36 @@ async function synchronizeRecord(
   announceAnswer(documentId);
 }
 
-async function synchronizeSharedDocument(
+async function sharedSyncPreconditionsMet(
+  profileId: string,
+  record: LocalSharedDocumentRecord | undefined,
+  options: SharedSyncOptions,
+): Promise<boolean> {
+  if (
+    options.expectedLocalRevision !== undefined &&
+    (options.expectedLocalRevision === null
+      ? record !== undefined
+      : record?.localRevision !== options.expectedLocalRevision)
+  ) {
+    return false;
+  }
+  if (options.requiredCleanPreferencesRevision !== undefined) {
+    const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
+    const matchesExpectedRevision =
+      options.requiredCleanPreferencesRevision === null
+        ? preferencesRecord === undefined
+        : preferencesRecord?.localRevision === options.requiredCleanPreferencesRevision;
+    if (!matchesExpectedRevision || preferencesRecord?.outboxState === 'pending') return false;
+  }
+  return true;
+}
+
+async function validatedSharedRemote<T extends Preferences | ProgressDocument>(
   profileId: string,
   storeName: SharedStoreName,
   documentId: string,
   ensureLease: EnsureSyncLease,
-  options: SharedSyncOptions = {},
-): Promise<boolean> {
-  const preconditionsMet = async (
-    currentRecord: LocalSharedDocumentRecord | undefined,
-  ): Promise<boolean> => {
-    if (
-      options.expectedLocalRevision !== undefined &&
-      (options.expectedLocalRevision === null
-        ? currentRecord !== undefined
-        : currentRecord?.localRevision !== options.expectedLocalRevision)
-    ) {
-      return false;
-    }
-    if (options.requiredCleanPreferencesRevision !== undefined) {
-      const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
-      const matchesExpectedRevision =
-        options.requiredCleanPreferencesRevision === null
-          ? preferencesRecord === undefined
-          : preferencesRecord?.localRevision === options.requiredCleanPreferencesRevision;
-      if (!matchesExpectedRevision || preferencesRecord?.outboxState === 'pending') return false;
-    }
-    return true;
-  };
-
-  let record = await getSharedDocumentRecord(storeName, profileId);
-  if (!(await preconditionsMet(record))) return false;
+): Promise<RemoteDocument<T> | null> {
   await ensureLease();
   await requestGate.wait();
   await ensureLease();
@@ -380,62 +430,104 @@ async function synchronizeSharedDocument(
     },
   });
   await ensureLease();
-  record = await getSharedDocumentRecord(storeName, profileId);
-  if (!(await preconditionsMet(record))) return false;
-  let remote: Preferences | ProgressDocument | null = null;
-  let remoteProgressSanitized = false;
+  if (!envelope) return null;
 
-  if (envelope) {
-    const schema = storeName === 'preferences' ? preferencesSchema : progressSchema;
-    const parsed = schema.safeParse(envelope.json);
-    if (!parsed.success) {
-      const reason = `Documento remoto de ${storeName} inválido`;
-      await quarantineRemoteDocument({ profileId, documentId, reason, value: envelope.json });
-      await markSharedDocumentError(storeName, profileId, reason);
-      throw new Error(reason);
-    }
-    remote = parsed.data;
-    if (storeName === 'progress' && options.allowedProgressSubjectIds) {
+  const schema = storeName === 'preferences' ? preferencesSchema : progressSchema;
+  const parsed = schema.safeParse(envelope.json);
+  if (!parsed.success) {
+    const reason = `Documento remoto de ${storeName} inválido`;
+    await quarantineRemoteDocument({ profileId, documentId, reason, value: envelope.json });
+    await markSharedDocumentError(storeName, profileId, reason);
+    throw new Error(reason);
+  }
+  return {
+    document: parsed.data as T,
+    version: envelope.version,
+    createdAt: envelope.created_at,
+  };
+}
+
+async function synchronizeSharedDocument(
+  profileId: string,
+  storeName: SharedStoreName,
+  documentId: string,
+  ensureLease: EnsureSyncLease,
+  options: SharedSyncOptions = {},
+): Promise<boolean> {
+  let record = await getSharedDocumentRecord(storeName, profileId);
+  if (!(await sharedSyncPreconditionsMet(profileId, record, options))) return false;
+  const remote = await validatedSharedRemote<Preferences | ProgressDocument>(
+    profileId,
+    storeName,
+    documentId,
+    ensureLease,
+  );
+  record = await getSharedDocumentRecord(storeName, profileId);
+  if (!(await sharedSyncPreconditionsMet(profileId, record, options))) return false;
+  return applySharedRemote(profileId, storeName, documentId, remote, ensureLease, options);
+}
+
+async function applySharedRemote(
+  profileId: string,
+  storeName: SharedStoreName,
+  documentId: string,
+  remoteSnapshot: RemoteDocument<Preferences | ProgressDocument> | null,
+  ensureLease: EnsureSyncLease,
+  options: SharedSyncOptions = {},
+  allowPublish = true,
+): Promise<boolean> {
+  const record = await getSharedDocumentRecord(storeName, profileId);
+  if (!(await sharedSyncPreconditionsMet(profileId, record, options))) return false;
+  let remote = remoteSnapshot?.document ?? null;
+  let remoteProgressChanged = false;
+
+  if (remote && storeName === 'progress') {
+    if (options.allowedProgressSubjectIds) {
       const progress = remote as ProgressDocument;
+      const subjects = Object.fromEntries(
+        Object.entries(progress.subjects).filter(([subjectId]) =>
+          options.allowedProgressSubjectIds?.has(subjectId),
+        ),
+      );
+      remoteProgressChanged = Object.keys(subjects).length !== Object.keys(progress.subjects).length;
       remote = {
         schemaVersion: 1,
-        subjects: Object.fromEntries(
-          Object.entries(progress.subjects).filter(([subjectId]) =>
-            options.allowedProgressSubjectIds?.has(subjectId),
-          ),
-        ),
+        subjects,
       };
     }
-    if (storeName === 'progress') {
-      const sanitized = sanitizeProgressForCorrectionMode(
-        remote as ProgressDocument,
-        options.progressCorrectionMode,
-      );
-      remote = sanitized.document;
-      remoteProgressSanitized = sanitized.changed;
-    }
+    const sanitized = sanitizeProgressForCorrectionMode(
+      remote as ProgressDocument,
+      options.progressCorrectionMode,
+    );
+    remote = sanitized.document;
+    remoteProgressChanged ||= sanitized.changed;
   }
 
-  const action = resolveVersionAction(record ?? null, envelope?.version ?? null);
+  const action = resolveVersionAction(record ?? null, remoteSnapshot?.version ?? null);
   if (action === 'noop') {
     const warning = record
-      ? recreationWarning(record, envelope?.version ?? null, envelope?.created_at ?? null)
+      ? recreationWarning(record, remoteSnapshot?.version ?? null, remoteSnapshot?.createdAt ?? null)
       : null;
-    if (record && envelope && warning) {
+    if (record && remoteSnapshot && (warning || remoteProgressChanged)) {
       await markSharedDocumentSynced({
         storeName,
         profileId,
         expectedLocalRevision: record.localRevision,
-        synchronizedDocument: record.current,
-        remoteVersion: envelope.version,
-        remoteCreatedAt: envelope.created_at,
+        synchronizedDocument: remoteProgressChanged ? remote : record.current,
+        remoteVersion: remoteSnapshot.version,
+        remoteCreatedAt: remoteSnapshot.createdAt,
         conflictWarning: warning,
+        pendingDocument: remoteProgressChanged ? remote : undefined,
+        pendingDirtyFields:
+          storeName === 'progress' && remoteProgressChanged
+            ? Object.keys((remote as ProgressDocument).subjects)
+            : undefined,
       });
     }
     return true;
   }
 
-  if (action === 'adopt-remote' && remote && envelope) {
+  if (action === 'adopt-remote' && remote && remoteSnapshot) {
     const remotePreferences = storeName === 'preferences' ? (remote as Preferences) : null;
     const localPreferences =
       storeName === 'preferences' && record
@@ -452,14 +544,14 @@ async function synchronizeSharedDocument(
       profileId,
       expectedLocalRevision: record?.localRevision ?? 0,
       synchronizedDocument: remote,
-      remoteVersion: envelope.version,
-      remoteCreatedAt: envelope.created_at,
+      remoteVersion: remoteSnapshot.version,
+      remoteCreatedAt: remoteSnapshot.createdAt,
       conflictWarning: record
-        ? recreationWarning(record, envelope.version, envelope.created_at)
+        ? recreationWarning(record, remoteSnapshot.version, remoteSnapshot.createdAt)
         : null,
-      pendingDocument: remoteProgressSanitized ? remote : undefined,
+      pendingDocument: remoteProgressChanged ? remote : undefined,
       pendingDirtyFields:
-        storeName === 'progress' && remoteProgressSanitized
+        storeName === 'progress' && remoteProgressChanged
           ? Object.keys((remote as ProgressDocument).subjects)
           : undefined,
       progressUpdate: preferenceCorrectionChanged
@@ -470,6 +562,7 @@ async function synchronizeSharedDocument(
   }
 
   if (!record) return true;
+  if (!allowPublish) return true;
   let localDocument: Preferences | ProgressDocument;
   let preferenceCorrectionChanged = false;
   if (storeName === 'preferences') {
@@ -534,8 +627,8 @@ async function synchronizeSharedDocument(
     remoteVersion: written.version,
     remoteCreatedAt: written.created_at,
     conflictWarning: [
-      recreationWarning(record, envelope?.version ?? null, envelope?.created_at ?? null),
-      written.version > (envelope?.version ?? 0) + 1
+      recreationWarning(record, remoteSnapshot?.version ?? null, remoteSnapshot?.createdAt ?? null),
+      written.version > (remoteSnapshot?.version ?? 0) + 1
         ? 'Outra escrita ocorreu durante a sincronização deste documento global.'
         : null,
     ].filter(Boolean).join(' ') || null,
@@ -545,6 +638,205 @@ async function synchronizeSharedDocument(
         : undefined,
   });
   return true;
+}
+
+function assertProgressCompatibleWithCatalog(
+  progress: ProgressDocument,
+  catalog: SyncCatalogEntry[],
+  source: string,
+): void {
+  const entries = new Map(
+    catalog.map((entry) => [
+      progressSubjectId(entry.contestStorageId, entry.subjectStorageId),
+      entry,
+    ]),
+  );
+  for (const [subjectId, subject] of Object.entries(progress.subjects)) {
+    const entry = entries.get(subjectId);
+    if (entry && subject.questionSetRevision > entry.questionSet.questionSetRevision) {
+      throw new NewerQuestionSetRevisionError(
+        subject.questionSetRevision,
+        entry.questionSet.questionSetRevision,
+        source,
+      );
+    }
+  }
+}
+
+async function validateLocalPreflightState(
+  profileId: string,
+  preflight: ProfilePreflight,
+): Promise<void> {
+  const preferences = await getSharedDocumentRecord('preferences', profileId);
+  if (
+    preferences &&
+    resolveVersionAction(preferences, preflight.preferences?.version ?? null) !== 'adopt-remote' &&
+    !preferencesSchema.safeParse(preferences.current).success
+  ) {
+    throw new Error('Documento local de preferences inválido');
+  }
+
+  for (const answer of preflight.answers) {
+    const record = await getLocalAnswerRecord(answer.documentId);
+    if (
+      record &&
+      resolveVersionAction(record, answer.remote?.version ?? null) !== 'adopt-remote'
+    ) {
+      reconcileAnswerDocument(record.current, answer.entry.questionSet);
+    }
+  }
+}
+
+async function readProfilePreflight(
+  profileId: string,
+  ensureLease: EnsureSyncLease,
+): Promise<ProfilePreflight> {
+  await ensureLease();
+  const catalog = await loadSyncCatalog();
+  await ensureLease();
+  const preferences = await validatedSharedRemote<Preferences>(
+    profileId,
+    'preferences',
+    buildPreferencesDocumentId(profileId),
+    ensureLease,
+  );
+  const answers: ProfilePreflight['answers'] = [];
+  // Keep reads serial so the shared request gate and lease cover every catalog entry.
+  for (const entry of catalog) {
+    const documentId = buildAnswerDocumentId(
+      profileId,
+      entry.contestStorageId,
+      entry.subjectStorageId,
+    );
+    const remote = await validatedRemote(profileId, documentId, entry.questionSet, ensureLease);
+    answers.push({ documentId, entry, remote });
+  }
+  const progressDocumentId = buildProgressDocumentId(profileId);
+  const progress = await validatedSharedRemote<ProgressDocument>(
+    profileId,
+    'progress',
+    progressDocumentId,
+    ensureLease,
+  );
+  if (progress) {
+    try {
+      assertProgressCompatibleWithCatalog(progress.document, catalog, 'de progresso remoto');
+    } catch (error) {
+      const reason = error instanceof Error ? error.message : 'Progresso remoto incompatível';
+      await quarantineRemoteDocument({
+        profileId,
+        documentId: progressDocumentId,
+        reason,
+        value: progress.document,
+      });
+      await markSharedDocumentError('progress', profileId, reason);
+      throw error;
+    }
+  }
+
+  const preflight = { catalog, preferences, answers, progress };
+  await validateLocalPreflightState(profileId, preflight);
+  return preflight;
+}
+
+async function applyProfilePreflight(
+  profileId: string,
+  preflight: ProfilePreflight,
+  ensureLease: EnsureSyncLease,
+): Promise<void> {
+  const preferencesApplied = await applySharedRemote(
+    profileId,
+    'preferences',
+    buildPreferencesDocumentId(profileId),
+    preflight.preferences,
+    ensureLease,
+  );
+  if (!preferencesApplied) throw new Error('As preferências mudaram durante a vinculação');
+
+  const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
+  if (preferencesRecord?.outboxState === 'pending') {
+    throw new Error('As preferências mudaram durante a vinculação');
+  }
+  const parsedPreferences = preferencesRecord
+    ? preferencesSchema.safeParse(preferencesRecord.current)
+    : { success: true as const, data: DEFAULT_PREFERENCES };
+  if (!parsedPreferences.success) throw new Error('Documento local de preferences inválido');
+  const preferences = parsedPreferences.data;
+  const expectedPreferencesRevision = preferencesRecord?.localRevision ?? null;
+
+  const answerDocumentIds = new Set<string>();
+  for (const answer of preflight.answers) {
+    answerDocumentIds.add(answer.documentId);
+    await applyAnswerRemote(
+      profileId,
+      answer.documentId,
+      answer.entry.questionSet,
+      answer.remote,
+      ensureLease,
+    );
+  }
+
+  const pendingAnswers = await listPendingAnswerRecords(profileId);
+  if (pendingAnswers.some((record) => answerDocumentIds.has(record.documentId))) {
+    throw new Error('As respostas mudaram durante a vinculação');
+  }
+
+  const allowedProgressSubjectIds = new Set(
+    preflight.catalog.map((entry) =>
+      progressSubjectId(entry.contestStorageId, entry.subjectStorageId),
+    ),
+  );
+  const progressOptions: SharedSyncOptions = {
+    requiredCleanPreferencesRevision: expectedPreferencesRevision,
+    requiredCleanAnswerDocumentIds: answerDocumentIds,
+    allowedProgressSubjectIds,
+    progressCorrectionMode: preferences.correctionMode,
+  };
+  // Observe/adopt progress first, but publish only after rebuilding it from resolved answers.
+  const progressPrepared = await applySharedRemote(
+    profileId,
+    'progress',
+    buildProgressDocumentId(profileId),
+    preflight.progress,
+    ensureLease,
+    progressOptions,
+    false,
+  );
+  if (!progressPrepared) throw new Error('O progresso mudou durante a vinculação');
+
+  const hasAnswerState = (await Promise.all(
+    preflight.answers.map((answer) => getLocalAnswerRecord(answer.documentId)),
+  )).some(Boolean);
+  const progressBeforeRefresh = await getSharedDocumentRecord('progress', profileId);
+  if (!hasAnswerState && !progressBeforeRefresh && !preflight.progress) return;
+
+  await refreshProfileProgress(
+    profileId,
+    preflight.catalog,
+    preferences,
+    expectedPreferencesRevision,
+  );
+  const progressRecord = await getSharedDocumentRecord('progress', profileId);
+  const progressApplied = await applySharedRemote(
+    profileId,
+    'progress',
+    buildProgressDocumentId(profileId),
+    preflight.progress,
+    ensureLease,
+    { ...progressOptions, expectedLocalRevision: progressRecord?.localRevision ?? null },
+  );
+  if (!progressApplied) throw new Error('O progresso mudou durante a vinculação');
+
+  const finalPreferences = await getSharedDocumentRecord('preferences', profileId);
+  const finalPendingAnswers = await listPendingAnswerRecords(profileId);
+  const finalProgress = await getSharedDocumentRecord('progress', profileId);
+  if (
+    finalPreferences?.outboxState === 'pending' ||
+    finalPendingAnswers.some((record) => answerDocumentIds.has(record.documentId)) ||
+    finalProgress?.outboxState === 'pending'
+  ) {
+    throw new Error('O perfil mudou durante a vinculação; tente novamente');
+  }
 }
 
 async function runWithLease(operation: (ensureLease: EnsureSyncLease) => Promise<void>): Promise<boolean> {
@@ -580,6 +872,29 @@ async function runWithLease(operation: (ensureLease: EnsureSyncLease) => Promise
     await heartbeatPromise;
     await releaseSyncLease(leaseName, ownerId);
   }
+}
+
+export async function prepareProfileAlias(
+  profileId: string,
+  options: ProfilePreparationOptions = {},
+): Promise<ProfilePreparationResult> {
+  let result: ProfilePreparationResult | undefined;
+  const acquired = await enqueue(() =>
+    runWithLease(async (ensureLease) => {
+      await whenLocalWritesSettled();
+      const preflight = await readProfilePreflight(profileId, ensureLease);
+      result = {
+        remoteDocumentCount:
+          Number(preflight.preferences !== null) +
+          preflight.answers.filter((answer) => answer.remote !== null).length +
+          Number(preflight.progress !== null),
+      };
+      options.onPreflightComplete?.(result);
+      await applyProfilePreflight(profileId, preflight, ensureLease);
+    }),
+  );
+  if (!acquired || !result) throw new Error('Outra sincronização está preparando este perfil');
+  return result;
 }
 
 export function synchronizeAnswerDocument(
