@@ -5,6 +5,7 @@
     {
       "id": "q984",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na administração de recursos materiais, o termo material",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q985",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um objetivo central da administração de materiais e patrimônio é",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q986",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Patrimônio e patrimônio líquido",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q987",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para a noção contábil de ativo, é relevante",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q988",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Passivo corresponde, em essência, a",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q989",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A equação simplificada do patrimônio líquido é",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q990",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No setor público, um recurso pode ser ativo mesmo sem gerar lucro porque",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q991",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para efeito de classificação da despesa, segundo o art. 15, § 2º, da Lei nº 4.320/1964, material permanente é o de",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q992",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um material de consumo mantido no almoxarifado",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q993",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Bem consumível no Código Civil e material de consumo administrativo",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q994",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O critério de fragilidade considera se o item",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q995",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Pelo critério de incorporabilidade, examina-se se o material",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q996",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Transformabilidade, como critério operacional, ocorre quando o item",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q997",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O critério operacional de durabilidade aponta para consumo quando o item",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q998",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A existência de plaqueta patrimonial em um objeto",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q999",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A Portaria STN nº 448/2002",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q1000",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Crédito a receber que satisfaça os critérios contábeis pode ser",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q1001",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A relação entre material e ativo é corretamente descrita por",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q1002",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Universalidade de fato, segundo o Código Civil, é",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q1003",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Bem móvel fungível é aquele que",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q1004",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma dívida presente com fornecedor, decorrente de entrega passada, tende a representar",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q1005",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Se os passivos superarem os ativos, o patrimônio líquido simplificado será",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q1006",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma diferença relevante entre foco empresarial e público é que",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q1007",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Praças, ruas e estradas são exemplos típicos de bens",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q1008",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um prédio público pertencente a pessoa jurídica de direito público e destinado ao funcionamento de uma repartição é, tipicamente, bem",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q1009",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Terreno pertencente a pessoa jurídica de direito público e sem afetação específica pode ser bem",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q1010",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Bens públicos de uso comum do povo e de uso especial são",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q1011",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Os bens públicos dominicais",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q1012",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto à usucapião, o Código Civil estabelece que os bens públicos",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q1013",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O uso comum dos bens públicos",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q1014",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A afirmação correta sobre bem dominical é",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q1015",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A Lei nº 4.320/1964 determina, no art. 83, que a contabilidade evidencie a situação de quem",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q1016",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo o art. 94 da Lei nº 4.320/1964, os bens permanentes devem possuir",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q1017",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O art. 95 da Lei nº 4.320/1964 prevê registros sintéticos de",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q1018",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O levantamento geral dos bens móveis e imóveis, conforme o art. 96 da Lei nº 4.320/1964, baseia-se",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q1019",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo o art. 85 da Lei nº 4.320/1964, os serviços contábeis devem permitir",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q1020",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Controle físico e controle contábil do patrimônio",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q1021",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No ciclo material, a primeira etapa lógica é",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q1022",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A centralização de aquisições de itens comuns",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q1023",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na IN SEDAP nº 205/1988, o recebimento",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q1024",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Aceitação do material é a operação que",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q1025",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Armazenagem compreende",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q1026",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Distribuição é o processo de",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q1027",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Incorporação patrimonial é",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q1028",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Tombamento patrimonial administrativo corresponde à",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q1029",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Carga patrimonial é",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q1030",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na terminologia da IN SEDAP nº 205/1988, descarga é",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q1031",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Inventário físico exige",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q1032",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A manutenção preventiva busca",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q1033",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma visão integrada do ciclo material e patrimonial reconhece que",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q1034",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na IN SEDAP nº 205/1988, a palavra material é empregada como",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q1035",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em obra acadêmica que separa recursos materiais de recursos patrimoniais, o examinando deve entender que",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q1036",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um computador adquirido por órgão público pode ser simultaneamente",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q1037",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A classificação de uma cadeira como bem móvel no Código Civil",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q1038",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para reconhecer um recurso como ativo no setor público, é decisivo avaliar",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q1039",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Material de consumo ainda não distribuído e mantido no almoxarifado",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q1040",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Software adquirido e controlado pela entidade, identificável e sem substância física, pode ser analisado como",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q1041",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O pagamento recorrente por acesso a plataforma em nuvem",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q1042",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um notebook de empresa contratada deixado temporariamente sob guarda do órgão",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q1043",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os bens de uma empresa pública ou sociedade de economia mista",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q1044",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Patrimônio líquido corresponde",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q1045",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem móvel e consumível no sentido civil",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q1046",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma coleção organizada de peças com destinação unitária pode constituir",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q1047",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A adoção de relação-carga para bem durável de pequeno valor, quando autorizada, demonstra",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q1048",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao encontrar definições diferentes de material em duas fontes, a primeira providência do candidato deve ser",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q1049",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para efeito de classificação da despesa, a Lei nº 4.320/1964 considera material permanente aquele de",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q1050",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O critério operacional de durabilidade indica material de consumo quando o item",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q1051",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pelo critério de fragilidade, tende a ser tratado como consumo o item que",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q1052",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O critério de perecibilidade examina se o item",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q1053",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pelo critério de incorporabilidade, deve-se avaliar se o item",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q1054",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O critério de transformabilidade é relevante quando o material",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q1055",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A colocação de plaqueta patrimonial em determinado objeto",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q1056",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Material durável de pequeno valor, cujo controle individual custe mais que o risco de perda, pode",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q1057",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A decisão de controlar individualmente um bem deve considerar",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q1058",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A aquisição orçamentária de material permanente",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q1059",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Enquanto uma resma de papel estiver no almoxarifado, ela",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q1060",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um lote de medicamentos destinado à distribuição gratuita pode ser reconhecido como",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q1061",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Depois de regularmente distribuído e consumido pela unidade usuária, o material de consumo",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q1062",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Peça de reposição adquirida para manutenção de equipamentos",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q1063",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma licença de software perpétua, identificável e controlada, deve ser analisada prioritariamente sob a ótica de",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q1064",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contrato anual de acesso a sistema hospedado pelo fornecedor, sem controle de ativo identificável pela entidade, tende a representar",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q1065",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na produção interna de mobiliário, a formação do custo pode incluir",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q1066",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Bem recebido por doação",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q1067",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma empresa apresenta ativos de 900 e passivos de 1.050. Seu patrimônio líquido é",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q1068",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No setor público, uma escola pode ser reconhecida como ativo porque",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q1069",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Estrada pública mantida para mobilidade da população ilustra recurso",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q1070",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Veículo pertencente a sociedade de economia mista",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q1071",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Praça municipal é exemplo típico de bem",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q1072",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Prédio utilizado por uma repartição pública é, em regra, bem",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q1073",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Terreno público sem destinação específica pode ser classificado como",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q1074",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Bens de uso comum e de uso especial",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q1075",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A usucapião de bem público",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q1076",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O uso comum dos bens públicos",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q1077",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para analisar o patrimônio de entidade estatal, deve-se examinar",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q1078",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma entidade pode controlar recurso sem possuir propriedade formal quando",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q1079",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A administração de materiais busca disponibilizar",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q1080",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Comprar equipamento barato que falha frequentemente pode contrariar a economicidade porque",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q1081",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Estoque excessivo e ruptura representam, respectivamente, riscos de",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q1082",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A administração de materiais deve interagir com finanças e operações porque",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q1083",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes de iniciar nova compra, a unidade deve",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q1084",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A existência de item equivalente ocioso em outra unidade",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q1085",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segregação de funções recomenda, quando possível, separar",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q1086",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sistema informatizado com saldos desatualizados",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q1087",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Taxa de ruptura elevada",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q1088",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área requisitante participa da gestão de materiais ao",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q1089",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "São formas de ingresso previstas na IN nº 205/1988",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q1090",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A afirmação de que todo material ingressa por compra é",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q1091",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Recebimento de material corresponde",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q1092",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Mesmo quando o material é entregue diretamente em unidade técnica, o registro de entrada, na referência da IN nº 205/1988, deve",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q1093",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Aceitação é a operação pela qual se declara que o material",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q1094",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando a conformidade depende de teste especializado, a aceitação pode exigir",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q1095",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na entrega de cem unidades, foram recebidas noventa e cinco. A medida inicial adequada é",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q1096",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se a entrega parcial estiver prevista e for útil à Administração, a unidade deve",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q1097",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Material rejeitado por defeito deve",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q1098",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O documento típico para ingresso decorrente de produção interna é",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q1099",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Armazenagem compreende",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q1100",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O critério PEPS na armazenagem busca",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q1101",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Materiais de grande movimentação devem ser posicionados",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q1102",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Fornecimento por pressão ocorre quando",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q1103",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Fornecimento por requisição é aquele realizado",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q1104",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Incorporação patrimonial e tombamento",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q1105",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A numeração patrimonial sequencial tem como finalidade principal",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q1106",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Carga patrimonial corresponde à",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q1107",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Descarga, na terminologia da IN nº 205/1988, significa",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q1108",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A movimentação de bem permanente entre unidades deve",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q1109",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Inventário anual tem por finalidade típica",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q1110",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Inventário inicial é realizado, em regra,",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q1111",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na mudança do dirigente ou responsável por unidade gestora, é pertinente o inventário",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q1112",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A extinção ou transformação de unidade gestora demanda inventário",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q1113",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Inventário eventual pode ser realizado",
       "options": [
         {
@@ -3775,6 +3905,7 @@
     {
       "id": "q1114",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Inventário rotativo consiste em",
       "options": [
         {
@@ -3804,6 +3935,7 @@
     {
       "id": "q1115",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Inventário por amostragem",
       "options": [
         {
@@ -3833,6 +3965,7 @@
     {
       "id": "q1116",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No inventário analítico, são relevantes",
       "options": [
         {
@@ -3862,6 +3995,7 @@
     {
       "id": "q1117",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Emitir relatório do sistema sem verificar a existência dos bens",
       "options": [
         {
@@ -3891,6 +4025,7 @@
     {
       "id": "q1118",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O simples desaparecimento físico de um bem",
       "options": [
         {
@@ -3920,6 +4055,7 @@
     {
       "id": "q1119",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Acurácia de estoque mede",
       "options": [
         {
@@ -3949,6 +4085,7 @@
     {
       "id": "q1120",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Taxa de ruptura indica",
       "options": [
         {
@@ -3978,6 +4115,7 @@
     {
       "id": "q1121",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Tempo de atendimento de requisição mede",
       "options": [
         {
@@ -4007,6 +4145,7 @@
     {
       "id": "q1122",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Percentual de bens localizados em inventário informa principalmente",
       "options": [
         {
@@ -4036,6 +4175,7 @@
     {
       "id": "q1123",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Elevado volume de itens ociosos ou obsoletos pode sinalizar",
       "options": [
         {
@@ -4065,6 +4205,7 @@
     {
       "id": "q1124",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trilha de auditoria em sistema patrimonial deve permitir identificar",
       "options": [
         {
@@ -4094,6 +4235,7 @@
     {
       "id": "q1125",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois registros diferentes para o mesmo bem indicam problema de",
       "options": [
         {
@@ -4123,6 +4265,7 @@
     {
       "id": "q1126",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Controle por relação-carga deve ser empregado",
       "options": [
         {
@@ -4152,6 +4295,7 @@
     {
       "id": "q1127",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Bem de alto valor, fácil revenda e pequena dimensão exige, em regra,",
       "options": [
         {
@@ -4181,6 +4325,7 @@
     {
       "id": "q1128",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um lote de notebooks foi entregue, mas o contrato exige teste de bateria e desempenho. A sequência adequada é",
       "options": [
         {
@@ -4210,6 +4355,7 @@
     {
       "id": "q1129",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Resmas de papel permanecem no almoxarifado aguardando requisição. Nessa situação,",
       "options": [
         {
@@ -4239,6 +4385,7 @@
     {
       "id": "q1130",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Impressora recebida por doação, com termo regular e em condições de uso,",
       "options": [
         {
@@ -4268,6 +4415,7 @@
     {
       "id": "q1131",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Órgão contrata acesso mensal a sistema em nuvem sem controlar código, infraestrutura ou licença separável. O tratamento conceitual mais prudente é",
       "options": [
         {
@@ -4297,6 +4445,7 @@
     {
       "id": "q1132",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Veículo de empresa estatal empregado na prestação de serviço público",
       "options": [
         {
@@ -4326,6 +4475,7 @@
     {
       "id": "q1133",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No inventário, o sistema registra 80 cadeiras, mas a comissão localiza 78 e encontra duas sem plaqueta. A providência correta é",
       "options": [
         {

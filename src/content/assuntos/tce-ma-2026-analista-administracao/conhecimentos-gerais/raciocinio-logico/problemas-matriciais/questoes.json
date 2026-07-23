@@ -5,6 +5,7 @@
     {
       "id": "q5379",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz possui 3 linhas e 4 colunas. Qual é a sua ordem?",
       "options": [
         { "id": "A", "text": "4 × 3" },
@@ -18,6 +19,7 @@
     {
       "id": "q5380",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere A = [[4, 7, 1], [9, 2, 6]]. O valor de a₂₃ é:",
       "options": [
         { "id": "A", "text": "6" },
@@ -31,6 +33,7 @@
     {
       "id": "q5381",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz de ordem 2 × 3 possui:",
       "options": [
         { "id": "A", "text": "3 linhas e 2 colunas" },
@@ -44,6 +47,7 @@
     {
       "id": "q5382",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na matriz [[2, 4, 1], [0, 5, 3], [7, 6, 8]], a diagonal principal é formada por:",
       "options": [
         { "id": "A", "text": "1, 5 e 7" },
@@ -57,6 +61,7 @@
     {
       "id": "q5383",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A matriz [3, 5, 2, 8], escrita com uma única linha, tem ordem:",
       "options": [
         { "id": "A", "text": "4 × 4" },
@@ -70,6 +75,7 @@
     {
       "id": "q5384",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz coluna formada por quatro elementos tem ordem:",
       "options": [
         { "id": "A", "text": "1 × 4" },
@@ -83,6 +89,7 @@
     {
       "id": "q5385",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual das ordens abaixo corresponde a uma matriz quadrada?",
       "options": [
         { "id": "A", "text": "3 × 3" },
@@ -96,6 +103,7 @@
     {
       "id": "q5386",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz nula é aquela em que:",
       "options": [
         { "id": "A", "text": "apenas a diagonal principal contém zeros" },
@@ -109,6 +117,7 @@
     {
       "id": "q5387",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual matriz é a identidade de ordem 2?",
       "options": [
         { "id": "A", "text": "[[1, 0], [0, 1]]" },
@@ -122,6 +131,7 @@
     {
       "id": "q5388",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se [[x, 4], [1, y]] = [[3, 4], [1, -2]], então:",
       "options": [
         { "id": "A", "text": "x = 4 e y = 1" },
@@ -135,6 +145,7 @@
     {
       "id": "q5389",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz A tem ordem 2 × 3 e uma matriz B tem ordem 3 × 2. Sobre a igualdade A = B, é correto afirmar que:",
       "options": [
         { "id": "A", "text": "é possível se ambas tiverem seis elementos" },
@@ -148,6 +159,7 @@
     {
       "id": "q5390",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma matriz definida por aᵢⱼ = 2i + j, o elemento a₃₂ vale:",
       "options": [
         { "id": "A", "text": "5" },
@@ -161,6 +173,7 @@
     {
       "id": "q5391",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A = [[2, 1], [3, 4]] e B = [[5, 2], [1, 0]], então A + B é:",
       "options": [
         { "id": "A", "text": "[[10, 2], [3, 0]]" },
@@ -174,6 +187,7 @@
     {
       "id": "q5392",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se N registra valores novos e A registra valores antigos nas mesmas posições, a matriz de variações 'novo menos antigo' é:",
       "options": [
         { "id": "A", "text": "A - N" },
@@ -187,6 +201,7 @@
     {
       "id": "q5393",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A = [[2, -1], [0, 4]], então 3A é:",
       "options": [
         { "id": "A", "text": "[[5, 2], [3, 7]]" },
@@ -200,6 +215,7 @@
     {
       "id": "q5394",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para A = [[5, 3], [2, 4]] e B = [[1, 2], [0, 1]], o resultado de A - 2B é:",
       "options": [
         { "id": "A", "text": "[[3, -1], [2, 2]]" },
@@ -213,6 +229,7 @@
     {
       "id": "q5395",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A soma A + B está definida quando:",
       "options": [
         { "id": "A", "text": "A e B são quadradas" },
@@ -226,6 +243,7 @@
     {
       "id": "q5396",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As matrizes A = [[8, 5], [4, 7]] e N = [[10, 3], [9, 6]] representam dados antigos e novos. A variação N - A é:",
       "options": [
         { "id": "A", "text": "[[2, -2], [5, -1]]" },
@@ -239,6 +257,7 @@
     {
       "id": "q5397",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A tem ordem 2 × 4, então Aᵀ tem ordem:",
       "options": [
         { "id": "A", "text": "2 × 4" },
@@ -252,6 +271,7 @@
     {
       "id": "q5398",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A = [[1, 4, 7], [2, 5, 8]], qual é Aᵀ?",
       "options": [
         { "id": "A", "text": "[[1, 4], [7, 2], [5, 8]]" },
@@ -265,6 +285,7 @@
     {
       "id": "q5399",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A matriz [[2, x], [5, 1]] é simétrica. O valor de x é:",
       "options": [
         { "id": "A", "text": "1" },
@@ -278,6 +299,7 @@
     {
       "id": "q5400",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para qualquer matriz A, (Aᵀ)ᵀ é igual a:",
       "options": [
         { "id": "A", "text": "-A" },
@@ -291,6 +313,7 @@
     {
       "id": "q5401",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A tem ordem 2 × 3 e B tem ordem 3 × 4, a ordem de AB é:",
       "options": [
         { "id": "A", "text": "2 × 4" },
@@ -304,6 +327,7 @@
     {
       "id": "q5402",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A = [[1, 2], [3, 4]] e B = [[5, 0], [2, 1]], o elemento da posição (2,1) de AB é:",
       "options": [
         { "id": "A", "text": "13" },
@@ -317,6 +341,7 @@
     {
       "id": "q5403",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para A = [[1, 2], [0, 3]] e B = [[4, 1], [2, 5]], o produto AB é:",
       "options": [
         { "id": "A", "text": "[[4, 2], [0, 15]]" },
@@ -330,6 +355,7 @@
     {
       "id": "q5404",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere A = [[1, 1], [0, 1]] e B = [[1, 0], [1, 1]]. Qual afirmação é correta?",
       "options": [
         { "id": "A", "text": "AB = BA = I₂" },
@@ -343,6 +369,7 @@
     {
       "id": "q5405",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A tem ordem 2 × 3 e B tem ordem 2 × 2, qual afirmação sobre AB é correta?",
       "options": [
         { "id": "A", "text": "AB existe e tem ordem 2 × 2" },
@@ -356,6 +383,7 @@
     {
       "id": "q5406",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O produto da matriz linha [2, 3, 1] pela matriz coluna [4, 0, 5]ᵀ é:",
       "options": [
         { "id": "A", "text": "13" },
@@ -369,6 +397,7 @@
     {
       "id": "q5407",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A tem ordem 2 × 3, então o produto AI₃ é igual a:",
       "options": [
         { "id": "A", "text": "A" },
@@ -382,6 +411,7 @@
     {
       "id": "q5408",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A tem ordem 2 × 3, qual identidade preserva A quando multiplicada à esquerda?",
       "options": [
         { "id": "A", "text": "I₃A = A" },
@@ -395,6 +425,7 @@
     {
       "id": "q5409",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se D = [[2, 0], [0, 3]], então D² é:",
       "options": [
         { "id": "A", "text": "[[2, 0], [0, 3]]" },
@@ -408,6 +439,7 @@
     {
       "id": "q5410",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para S = [[0, 1], [1, 0]], o valor de S² é:",
       "options": [
         { "id": "A", "text": "S" },
@@ -421,6 +453,7 @@
     {
       "id": "q5411",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando AB está definido, a transposta do produto satisfaz:",
       "options": [
         { "id": "A", "text": "(AB)ᵀ = AᵀBᵀ" },
@@ -434,6 +467,7 @@
     {
       "id": "q5412",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz Q de quantidades tem ordem 2 × 3, e o vetor coluna p de preços tem ordem 3 × 1. A ordem de Qp é:",
       "options": [
         { "id": "A", "text": "2 × 1" },
@@ -447,6 +481,7 @@
     {
       "id": "q5413",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois setores consomem dois materiais segundo Q = [[2, 3], [1, 5]]. Os preços unitários são p = [10, 4]ᵀ. Qual é Qp?",
       "options": [
         { "id": "A", "text": "[20, 20]ᵀ" },
@@ -460,6 +495,7 @@
     {
       "id": "q5414",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz R de ordem 2 × 3 distribui recursos entre programas, e P de ordem 3 × 4 detalha cada recurso em quatro categorias. A matriz composta RP tem ordem:",
       "options": [
         { "id": "A", "text": "3 × 3" },
@@ -473,6 +509,7 @@
     {
       "id": "q5415",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se B representa a primeira etapa de uma transformação de dados e A representa a etapa seguinte, a composição que aplica B primeiro e A depois é:",
       "options": [
         { "id": "A", "text": "A + B" },
@@ -486,6 +523,7 @@
     {
       "id": "q5416",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Duas matrizes de mesma ordem registram quantidades dos períodos 1 e 2 com linhas e colunas idênticas. Para obter o total dos dois períodos, usa-se:",
       "options": [
         { "id": "A", "text": "a transposta da primeira" },
@@ -499,6 +537,7 @@
     {
       "id": "q5417",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Todos os valores de uma matriz A devem ser reajustados em 10%. A matriz com os novos valores é:",
       "options": [
         { "id": "A", "text": "1,10A" },
@@ -512,6 +551,7 @@
     {
       "id": "q5418",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em cada linha da matriz [[2, 3, 5], [4, 7, 11], [6, x, 15]], o terceiro elemento é a soma dos dois primeiros. O valor de x é:",
       "options": [
         { "id": "A", "text": "6" },
@@ -525,6 +565,7 @@
     {
       "id": "q5419",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz é definida por aᵢⱼ = i - j. Qual é o valor de a₃₁?",
       "options": [
         { "id": "A", "text": "2" },
@@ -538,6 +579,7 @@
     {
       "id": "q5420",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na matriz [[1, 2, 4], [3, 5, 6], [7, 8, 9]], a soma dos elementos da diagonal secundária é:",
       "options": [
         { "id": "A", "text": "12" },
@@ -551,6 +593,7 @@
     {
       "id": "q5421",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma matriz binária de relações, r₂₃ = 1 significa que:",
       "options": [
         { "id": "A", "text": "o elemento 3 não se relaciona com o 2" },
@@ -564,6 +607,7 @@
     {
       "id": "q5422",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se uma relação binária é recíproca, de modo que rᵢⱼ = rⱼᵢ para todos os pares, sua matriz é:",
       "options": [
         { "id": "A", "text": "nula" },
@@ -577,6 +621,7 @@
     {
       "id": "q5423",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma matriz binária de relações, a linha de certo elemento é [0, 1, 1, 0]. Quantos elementos estão relacionados a ele segundo essa linha?",
       "options": [
         { "id": "A", "text": "1" },
@@ -590,6 +635,7 @@
     {
       "id": "q5424",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se R representa uma relação direcionada do elemento da linha para o da coluna, Rᵀ representa:",
       "options": [
         { "id": "A", "text": "a exclusão de todas as relações" },
@@ -603,6 +649,7 @@
     {
       "id": "q5425",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma relação direcionada, qual situação é possível?",
       "options": [
         { "id": "A", "text": "A matriz não possui linhas" },
@@ -616,6 +663,7 @@
     {
       "id": "q5426",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se A tem ordem 3 × 2 e B tem ordem 2 × 5, então AB:",
       "options": [
         { "id": "A", "text": "existe e tem ordem 3 × 5" },
@@ -629,6 +677,7 @@
     {
       "id": "q5427",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em Qp, Q registra quantidades por setor nas linhas e p registra preços por material. A segunda entrada do vetor resultante representa:",
       "options": [
         { "id": "A", "text": "o preço do segundo material" },
@@ -642,6 +691,7 @@
     {
       "id": "q5428",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para comparar, posição por posição, um quadro novo N com um quadro antigo A e preservar o sinal da mudança, deve-se calcular:",
       "options": [
         { "id": "A", "text": "N - A" },
@@ -655,6 +705,7 @@
     {
       "id": "q5429",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um quadro está organizado como 'setores nas linhas e produtos nas colunas'. Para reorganizá-lo como 'produtos nas linhas e setores nas colunas', usa-se:",
       "options": [
         { "id": "A", "text": "a matriz identidade" },
@@ -668,6 +719,7 @@
     {
       "id": "q5430",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual operação combina uma matriz de quantidades por item com um vetor coluna de preços para obter totais ponderados por linha?",
       "options": [
         { "id": "A", "text": "adição" },
@@ -681,6 +733,7 @@
     {
       "id": "q5431",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a igualdade AB = BA, é correto afirmar que:",
       "options": [
         { "id": "A", "text": "vale para quaisquer matrizes" },
@@ -694,6 +747,7 @@
     {
       "id": "q5432",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual identidade expressa a distributividade do produto matricial à esquerda?",
       "options": [
         { "id": "A", "text": "A(B + C) = BA + CA" },
@@ -707,6 +761,7 @@
     {
       "id": "q5433",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para matrizes A e B de mesma ordem e um escalar k, qual igualdade é válida?",
       "options": [
         { "id": "A", "text": "k(A + B) = kA + kB" },
@@ -720,6 +775,7 @@
     {
       "id": "q5434",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Duas matrizes A e B têm ordem 2 × 3. Qual afirmação é correta?",
       "options": [
         { "id": "A", "text": "AB existe e tem ordem 2 × 3" },
@@ -733,6 +789,7 @@
     {
       "id": "q5435",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se AB está definido, então:",
       "options": [
         { "id": "A", "text": "BA também está sempre definido" },
@@ -746,6 +803,7 @@
     {
       "id": "q5436",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A potência A² pelo produto matricial usual está definida quando A é:",
       "options": [
         { "id": "A", "text": "uma matriz linha" },
@@ -759,6 +817,7 @@
     {
       "id": "q5437",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para uma matriz A de ordem 2 × 3, quais igualdades usam identidades de ordens compatíveis?",
       "options": [
         { "id": "A", "text": "I₃A = A e AI₂ = A" },
@@ -772,6 +831,7 @@
     {
       "id": "q5438",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A matriz Q = [[3, 2], [1, 4]] registra quantidades de dois itens em dois setores, e p = [5, 2]ᵀ registra preços unitários. O vetor de custos Qp é:",
       "options": [
         { "id": "A", "text": "[19, 13]ᵀ" },

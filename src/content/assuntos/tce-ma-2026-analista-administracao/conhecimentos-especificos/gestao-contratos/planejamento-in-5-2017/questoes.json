@@ -5,6 +5,7 @@
     {
       "id": "q1819",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual é o âmbito direto da IN SEGES/MPDG nº 5/2017?",
       "options": [
         { "id": "a", "text": "A Administração Pública federal direta, autárquica e fundacional, nas contratações de serviços sob execução indireta." },
@@ -19,6 +20,7 @@
     {
       "id": "q1820",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nas contratações federais regidas pela Lei nº 14.133/2021, a IN SEGES/ME nº 98/2022 determinou que a IN nº 5/2017 seja aplicada:",
       "options": [
         { "id": "a", "text": "integralmente, ainda que contrarie norma posterior." },
@@ -33,6 +35,7 @@
     {
       "id": "q1821",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um candidato usa o Anexo III original da IN nº 5/2017 como disciplina vigente dos Estudos Técnicos Preliminares. Essa conduta está:",
       "options": [
         { "id": "a", "text": "correta, porque anexos de instrução normativa não podem ser revogados." },
@@ -47,6 +50,7 @@
     {
       "id": "q1822",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No regime federal atual da Lei nº 14.133/2021, o ato específico que disciplina a elaboração dos ETP é, em regra, a:",
       "options": [
         { "id": "a", "text": "IN nº 5/2014." },
@@ -61,6 +65,7 @@
     {
       "id": "q1823",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao uso da IN nº 5/2017 em uma prova para cargo do TCE-MA, assinale a alternativa correta:",
       "options": [
         { "id": "a", "text": "A presença no edital converte a norma em lei estadual." },
@@ -75,6 +80,7 @@
     {
       "id": "q1824",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao elaborar o objeto de uma contratação terceirizada, o órgão deve descrevê-lo como:",
       "options": [
         { "id": "a", "text": "prestação de serviços orientada a resultados, tarefas, volumes e qualidade, e não como mero fornecimento de trabalhadores." },
@@ -89,6 +95,7 @@
     {
       "id": "q1825",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante a execução, o fiscal deseja alterar a rotina da equipe terceirizada. Como regra, ele deve:",
       "options": [
         { "id": "a", "text": "emitir ordens hierárquicas individuais a cada empregado." },
@@ -103,6 +110,7 @@
     {
       "id": "q1826",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A comunicação direta do órgão com empregado terceirizado é admitida, de forma estreita, quando:",
       "options": [
         { "id": "a", "text": "o fiscal quiser substituir o preposto permanentemente." },
@@ -117,6 +125,7 @@
     {
       "id": "q1827",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A execução indireta regular de um serviço produz, entre a Administração e os empregados da contratada:",
       "options": [
         { "id": "a", "text": "vínculo estatutário temporário." },
@@ -131,6 +140,7 @@
     {
       "id": "q1828",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre cláusulas de convenção coletiva na formação dos custos do contrato, a IN nº 5/2017 estabelece que:",
       "options": [
         { "id": "a", "text": "toda cláusula coletiva vincula a Administração sem qualquer controle." },
@@ -145,6 +155,7 @@
     {
       "id": "q1829",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A regra que veda à Administração definir a remuneração dos empregados terceirizados:",
       "options": [
         { "id": "a", "text": "comporta as hipóteses federais atuais de custos mínimos e a contratação justificada de profissional com expertise superior." },
@@ -159,6 +170,7 @@
     {
       "id": "q1830",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual atividade não deve ser transferida a empresa contratada?",
       "options": [
         { "id": "a", "text": "Limpeza material de instalações." },
@@ -173,6 +185,7 @@
     {
       "id": "q1831",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma atividade técnica é estratégica e sua terceirização exporia conhecimento crítico e tecnologia institucional. No regime federal, ela:",
       "options": [
         { "id": "a", "text": "deve ser terceirizada porque toda atividade técnica é acessória." },
@@ -187,6 +200,7 @@
     {
       "id": "q1832",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Atividades auxiliares, instrumentais ou acessórias:",
       "options": [
         { "id": "a", "text": "são sempre indelegáveis, ainda que materiais." },
@@ -201,6 +215,7 @@
     {
       "id": "q1833",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma atividade corresponde a atribuição de categoria funcional prevista no plano de cargos do órgão. Sua terceirização:",
       "options": [
         { "id": "a", "text": "é sempre obrigatória se houver empresa interessada." },
@@ -215,6 +230,7 @@
     {
       "id": "q1834",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratação de cooperativa é compatível com a IN nº 5/2017 quando o serviço:",
       "options": [
         { "id": "a", "text": "puder ser executado com autonomia pelos cooperados, gestão compartilhada ou rodízio e sem qualquer intermediação ou subcontratação." },
@@ -229,6 +245,7 @@
     {
       "id": "q1835",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na contratação de instituição sem fins lucrativos para prestar serviços, exige-se que:",
       "options": [
         { "id": "a", "text": "ela revenda integralmente o objeto a empresa comercial." },
@@ -243,6 +260,7 @@
     {
       "id": "q1836",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um serviço tecnicamente complexo pode ser classificado como comum?",
       "options": [
         { "id": "a", "text": "Não, porque complexidade e natureza comum são sempre excludentes." },
@@ -257,6 +275,7 @@
     {
       "id": "q1837",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O que caracteriza um serviço contínuo para fins de planejamento?",
       "options": [
         { "id": "a", "text": "A presença diária obrigatória de um empregado específico." },
@@ -271,6 +290,7 @@
     {
       "id": "q1838",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Serviço não contínuo ou contratado por escopo é aquele que:",
       "options": [
         { "id": "a", "text": "supre necessidade permanente sem produto final delimitado." },
@@ -285,6 +305,7 @@
     {
       "id": "q1839",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A relação entre continuidade e dedicação exclusiva é corretamente descrita em:",
       "options": [
         { "id": "a", "text": "Um serviço contínuo pode ser executado com ou sem dedicação exclusiva, conforme o modelo escolhido e justificado." },
@@ -299,6 +320,7 @@
     {
       "id": "q1840",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual conjunto indica dedicação exclusiva de mão de obra segundo a IN nº 5/2017?",
       "options": [
         { "id": "a", "text": "Compartilhamento irrestrito dos recursos entre vários contratos e impossibilidade de fiscalização." },
@@ -313,6 +335,7 @@
     {
       "id": "q1841",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre serviço prestado fora das dependências do órgão e sua classificação como dedicação exclusiva, assinale a alternativa correta no regime atual:",
       "options": [
         { "id": "a", "text": "Nunca, porque a presença física no órgão é requisito absoluto." },
@@ -327,6 +350,7 @@
     {
       "id": "q1842",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em contratação com dedicação exclusiva, o gerenciamento de riscos deve obrigatoriamente contemplar:",
       "options": [
         { "id": "a", "text": "apenas risco cambial de importação." },
@@ -341,6 +365,7 @@
     {
       "id": "q1843",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A escolha entre Conta-Depósito Vinculada e Pagamento pelo Fato Gerador deve ser:",
       "options": [
         { "id": "a", "text": "aleatória, porque os controles são idênticos." },
@@ -355,6 +380,7 @@
     {
       "id": "q1844",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O procedimento de contratação de serviços é dividido pelo art. 19 da IN nº 5/2017 em quais fases?",
       "options": [
         { "id": "a", "text": "Planejamento da Contratação, Seleção do Fornecedor e Gestão do Contrato." },
@@ -369,6 +395,7 @@
     {
       "id": "q1845",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dentro da fase de Planejamento da Contratação, o art. 20 estabelece as etapas de:",
       "options": [
         { "id": "a", "text": "habilitação, julgamento e homologação." },
@@ -383,6 +410,7 @@
     {
       "id": "q1846",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Documento de Formalização da Demanda e a designação da equipe constituem:",
       "options": [
         { "id": "a", "text": "uma quarta e uma quinta etapa do art. 20." },
@@ -397,6 +425,7 @@
     {
       "id": "q1847",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma contratação direta de serviço, por estar dispensada de licitação:",
       "options": [
         { "id": "a", "text": "elimina automaticamente toda atividade de planejamento." },
@@ -411,6 +440,7 @@
     {
       "id": "q1848",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual conjunto pertence ao conteúdo do DFD segundo o art. 21 e o Anexo II?",
       "options": [
         { "id": "a", "text": "Gabarito da prova, recurso e homologação." },
@@ -425,6 +455,7 @@
     {
       "id": "q1849",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No DFD, o alinhamento da contratação aos instrumentos estratégicos deve ser informado:",
       "options": [
         { "id": "a", "text": "quando houver instrumento aplicável, sem inventar plano inexistente." },
@@ -439,6 +470,7 @@
     {
       "id": "q1850",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao formalizar uma necessidade, o setor requisitante já fixa marca e método sem comparar alternativas. O problema central é que o DFD:",
       "options": [
         { "id": "a", "text": "deveria conter o nome de dois empregados terceirizados." },
@@ -453,6 +485,7 @@
     {
       "id": "q1851",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quem designa formalmente a equipe de Planejamento da Contratação na estrutura descrita pela IN nº 5/2017?",
       "options": [
         { "id": "a", "text": "O preposto da futura contratada." },
@@ -467,6 +500,7 @@
     {
       "id": "q1852",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A ciência expressa dos integrantes sobre suas atribuições deve ocorrer:",
       "options": [
         { "id": "a", "text": "somente após a conclusão do contrato." },
@@ -481,6 +515,7 @@
     {
       "id": "q1853",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A equipe de Planejamento da Contratação deve reunir:",
       "options": [
         { "id": "a", "text": "somente conhecimento financeiro." },
@@ -495,6 +530,7 @@
     {
       "id": "q1854",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual é a função central do ETP segundo a disciplina federal atual?",
       "options": [
         { "id": "a", "text": "Caracterizar o problema de interesse público, examinar alternativas e demonstrar a melhor solução e sua viabilidade." },
@@ -509,6 +545,7 @@
     {
       "id": "q1855",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Levantamento de mercado e pesquisa de preços distinguem-se porque:",
       "options": [
         { "id": "a", "text": "ambos apenas coletam três cotações de fornecedores." },
@@ -523,6 +560,7 @@
     {
       "id": "q1856",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quais elementos são obrigatórios, no mínimo, no ETP da IN SEGES nº 58/2022?",
       "options": [
         { "id": "a", "text": "Somente requisitos e levantamento de mercado." },
@@ -537,6 +575,7 @@
     {
       "id": "q1857",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se um ETP não contiver um dos elementos que não integram o núcleo mínimo obrigatório, a equipe deve:",
       "options": [
         { "id": "a", "text": "omiti-lo silenciosamente, pois nunca é relevante." },
@@ -551,6 +590,7 @@
     {
       "id": "q1858",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O levantamento de mercado revela que um requisito reduz fortemente o número de fornecedores. A equipe deve:",
       "options": [
         { "id": "a", "text": "mantê-lo sem análise porque todo requisito é discricionário." },
@@ -565,6 +605,7 @@
     {
       "id": "q1859",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para serviços de mesma natureza, semelhantes ou afins, a Administração pode:",
       "options": [
         { "id": "a", "text": "elaborar ETP e gerenciamento de riscos comuns, desde que a solução compartilhada seja adequada às contratações abrangidas." },
@@ -579,6 +620,7 @@
     {
       "id": "q1860",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a IN SEGES nº 58/2022, a elaboração do ETP é facultativa, entre outras, nas contratações fundadas:",
       "options": [
         { "id": "a", "text": "em qualquer inciso do art. 75, sem distinção." },
@@ -593,6 +635,7 @@
     {
       "id": "q1861",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A IN SEGES nº 58/2022 dispensa o ETP:",
       "options": [
         { "id": "a", "text": "em toda contratação de serviço comum." },
@@ -607,6 +650,7 @@
     {
       "id": "q1862",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As antigas regras da IN nº 5/2017 que remetem a dispensas da Lei nº 8.666/1993 devem, em contratação regida pela Lei nº 14.133/2021:",
       "options": [
         { "id": "a", "text": "ser aplicadas literalmente, mesmo se incompatíveis." },
@@ -621,6 +665,7 @@
     {
       "id": "q1863",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O gerenciamento de riscos da IN nº 5/2017 compreende:",
       "options": [
         { "id": "a", "text": "apenas listar eventos sem avaliar seus efeitos." },
@@ -635,6 +680,7 @@
     {
       "id": "q1864",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em quais momentos mínimos o Mapa de Riscos deve ser atualizado e juntado aos autos?",
       "options": [
         { "id": "a", "text": "Ao final do ETP, ao final do TR/PB, após a seleção e depois de eventos relevantes na gestão." },
@@ -649,6 +695,7 @@
     {
       "id": "q1865",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Mapa de Riscos e matriz de riscos diferem porque:",
       "options": [
         { "id": "a", "text": "o Mapa distribui preços e a matriz apenas lista servidores." },
@@ -663,6 +710,7 @@
     {
       "id": "q1866",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Depois de aplicar uma medida preventiva, o risco residual ainda é inaceitável. A equipe deve:",
       "options": [
         { "id": "a", "text": "ignorar o risco porque já houve uma ação." },
@@ -677,6 +725,7 @@
     {
       "id": "q1867",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao tratamento dos riscos trabalhistas em dedicação exclusiva, é correto afirmar que:",
       "options": [
         { "id": "a", "text": "não podem constar do planejamento porque são privados." },
@@ -691,6 +740,7 @@
     {
       "id": "q1868",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O TR/PB deve ser elaborado:",
       "options": [
         { "id": "a", "text": "antes do DFD e sem relação com riscos." },
@@ -705,6 +755,7 @@
     {
       "id": "q1869",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os conteúdos mínimos do TR/PB previstos no art. 30 está:",
       "options": [
         { "id": "a", "text": "modelo de execução, modelo de gestão, critérios de medição e pagamento e estimativas detalhadas de preços." },
@@ -719,6 +770,7 @@
     {
       "id": "q1870",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na sequência procedimental da IN nº 5/2017, a elaboração do TR/PB compete ao:",
       "options": [
         { "id": "a", "text": "licitante mais bem classificado." },
@@ -733,6 +785,7 @@
     {
       "id": "q1871",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Transcorreu longo período entre ETP, riscos e elaboração do TR. O setor requisitante deve:",
       "options": [
         { "id": "a", "text": "presumir que todos os dados continuam atuais." },
@@ -747,6 +800,7 @@
     {
       "id": "q1872",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao elaborar TR/PB, a Administração decide não usar modelo padronizado aplicável da AGU. Ela deve:",
       "options": [
         { "id": "a", "text": "omitir a decisão dos autos." },
@@ -761,6 +815,7 @@
     {
       "id": "q1873",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na declaração do objeto do TR/PB, a Administração deve:",
       "options": [
         { "id": "a", "text": "exigir especificações irrelevantes para reduzir a competição." },
@@ -775,6 +830,7 @@
     {
       "id": "q1874",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em serviço com categorias profissionais alocadas, o planejamento deve usar a CBO para:",
       "options": [
         { "id": "a", "text": "enquadrar adequadamente as categorias e relacioná-las aos requisitos e custos pertinentes." },
@@ -789,6 +845,7 @@
     {
       "id": "q1875",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando a avaliação prévia do local for imprescindível ao conhecimento das condições de execução, o edital:",
       "options": [
         { "id": "a", "text": "é automática em todo serviço contínuo." },
@@ -803,6 +860,7 @@
     {
       "id": "q1876",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Ordem de Serviço é especialmente adequada quando:",
       "options": [
         { "id": "a", "text": "o objeto não foi definido no TR." },
@@ -817,6 +875,7 @@
     {
       "id": "q1877",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em serviço intelectual cuja continuidade depende do conhecimento produzido, o TR/PB deve:",
       "options": [
         { "id": "a", "text": "permitir retenção integral do conhecimento pela contratada." },
@@ -831,6 +890,7 @@
     {
       "id": "q1878",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A remuneração de serviços exclusivamente por horas ou postos de trabalho:",
       "options": [
         { "id": "a", "text": "é obrigatória em qualquer terceirização." },
@@ -845,6 +905,7 @@
     {
       "id": "q1879",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um IMR bem estruturado deve:",
       "options": [
         { "id": "a", "text": "definir qualidade observável, metas, evidências e adequação do pagamento, sem confundir essa adequação com sanção." },
@@ -859,6 +920,7 @@
     {
       "id": "q1880",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A estimativa de quantidades e produtividade deve considerar:",
       "options": [
         { "id": "a", "text": "somente um número adotado por outro órgão." },
@@ -873,6 +935,7 @@
     {
       "id": "q1881",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No regime federal atual da Lei nº 14.133/2021, a estimativa de preços e a composição de custos em dedicação exclusiva devem observar, respectivamente:",
       "options": [
         { "id": "a", "text": "somente a revogada IN nº 5/2014 e salários escolhidos pelo fiscal." },
@@ -887,6 +950,7 @@
     {
       "id": "q1882",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre sustentabilidade e parcelamento no planejamento, assinale a correta:",
       "options": [
         { "id": "a", "text": "Critério ambiental genérico e sem relação com o objeto pode ser imposto livremente, ainda que restrinja a competição." },
@@ -901,6 +965,7 @@
     {
       "id": "q1883",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para preservar a segregação prevista no art. 31, é vedado contratar o mesmo prestador para:",
       "options": [
         { "id": "a", "text": "executar duas tarefas compatíveis do mesmo serviço." },

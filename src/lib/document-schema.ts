@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import type { QuestionSet } from './content-schema';
+import type { AnswerableQuestionSet } from './content-schema';
 import type { AnswerDocument } from './questionnaire';
 
 const stableId = z.string().regex(/^[A-Za-z0-9_-]{1,64}$/);
@@ -38,7 +38,7 @@ export class NewerQuestionSetRevisionError extends Error {
 
 export function assertSupportedQuestionSetRevision(
   document: AnswerDocument,
-  questionSet: QuestionSet,
+  questionSet: AnswerableQuestionSet,
   source = 'local',
 ): void {
   if (document.questionSetRevision > questionSet.questionSetRevision) {
@@ -50,7 +50,7 @@ export function assertSupportedQuestionSetRevision(
   }
 }
 
-export function parseRemoteAnswerDocument(value: unknown, questionSet: QuestionSet): AnswerDocument {
+export function parseRemoteAnswerDocument(value: unknown, questionSet: AnswerableQuestionSet): AnswerDocument {
   const document = answerDocumentSchema.parse(value);
   assertSupportedQuestionSetRevision(document, questionSet, 'remoto');
   const questions = new Map(questionSet.questions.map((question) => [question.id, question]));

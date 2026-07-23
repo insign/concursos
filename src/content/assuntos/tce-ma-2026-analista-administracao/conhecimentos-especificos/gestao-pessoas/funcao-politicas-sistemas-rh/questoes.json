@@ -5,6 +5,7 @@
     {
       "id": "q2559",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A atuação operacional do órgão de recursos humanos caracteriza-se principalmente por",
       "options": [
         { "id": "A", "text": "substituir a alta administração na definição da estratégia." },
@@ -18,6 +19,7 @@
     {
       "id": "q2560",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O papel consultivo ou de staff da unidade de RH inclui",
       "options": [
         { "id": "A", "text": "atuar sem observar competências normativas." },
@@ -31,6 +33,7 @@
     {
       "id": "q2561",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em gestão estratégica de pessoas no setor público, o objetivo central é",
       "options": [
         { "id": "A", "text": "maximizar lucro como finalidade exclusiva." },
@@ -44,6 +47,7 @@
     {
       "id": "q2562",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A coexistência dos papéis operacional e estratégico do RH significa que",
       "options": [
         { "id": "A", "text": "regularidade e estratégia são objetivos incompatíveis." },
@@ -57,6 +61,7 @@
     {
       "id": "q2563",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na distinção entre linha e staff, cabe tipicamente ao gestor de linha",
       "options": [
         { "id": "A", "text": "formular sozinho todas as políticas de RH." },
@@ -70,6 +75,7 @@
     {
       "id": "q2564",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A classificação da unidade de RH como staff implica que ela",
       "options": [
         { "id": "A", "text": "jamais pode exercer autoridade funcional." },
@@ -83,6 +89,7 @@
     {
       "id": "q2565",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A responsabilidade pela gestão de pessoas é adequadamente descrita como",
       "options": [
         { "id": "A", "text": "exclusiva da unidade de RH." },
@@ -96,6 +103,7 @@
     {
       "id": "q2566",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os objetivos básicos do órgão de RH está",
       "options": [
         { "id": "A", "text": "separar planejamento de pessoas da estratégia." },
@@ -109,6 +117,7 @@
     {
       "id": "q2567",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Alinhar pessoas à missão institucional não autoriza o órgão de RH a",
       "options": [
         { "id": "A", "text": "traduzir objetivos em prioridades de desenvolvimento." },
@@ -122,6 +131,7 @@
     {
       "id": "q2568",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A manutenção de atos, registros e pagamentos corretos contribui diretamente para",
       "options": [
         { "id": "A", "text": "substituição da legislação por políticas internas." },
@@ -135,6 +145,7 @@
     {
       "id": "q2569",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao disponibilizar um indicador para apoiar uma decisão de alocação, o RH deve",
       "options": [
         { "id": "A", "text": "tratar o número como decisão automática." },
@@ -148,6 +159,7 @@
     {
       "id": "q2570",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma política de gestão de pessoas é",
       "options": [
         { "id": "A", "text": "qualquer formulário utilizado pelo setor." },
@@ -161,6 +173,7 @@
     {
       "id": "q2571",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No ciclo de uma política de pessoas, o diagnóstico deve preceder a escolha da solução porque",
       "options": [
         { "id": "A", "text": "impede qualquer revisão futura." },
@@ -174,6 +187,7 @@
     {
       "id": "q2572",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na formulação de uma política, é apropriado definir",
       "options": [
         { "id": "A", "text": "somente um título atraente." },
@@ -187,6 +201,7 @@
     {
       "id": "q2573",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A aprovação formal de uma política",
       "options": [
         { "id": "A", "text": "é sempre dispensável." },
@@ -200,6 +215,7 @@
     {
       "id": "q2574",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante a implementação de uma política de RH, deve-se",
       "options": [
         { "id": "A", "text": "evitar registrar responsabilidades." },
@@ -213,6 +229,7 @@
     {
       "id": "q2575",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Monitoramento e avaliação diferenciam-se porque o monitoramento",
       "options": [
         { "id": "A", "text": "dispensa indicadores." },
@@ -226,6 +243,7 @@
     {
       "id": "q2576",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se um indicador melhorou depois de uma política, a conclusão metodologicamente correta é que",
       "options": [
         { "id": "A", "text": "a política foi necessariamente a única causa." },
@@ -239,6 +257,7 @@
     {
       "id": "q2577",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Coerência vertical em gestão de pessoas ocorre quando",
       "options": [
         { "id": "A", "text": "as políticas de RH são idênticas em todas as unidades." },
@@ -252,6 +271,7 @@
     {
       "id": "q2578",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Coerência horizontal significa",
       "options": [
         { "id": "A", "text": "compatibilidade entre políticas e subsistemas de pessoas." },
@@ -265,6 +285,7 @@
     {
       "id": "q2579",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma organização diagnostica falta de competência digital, mas não relaciona esse achado a desenvolvimento ou alocação. Há problema de",
       "options": [
         { "id": "A", "text": "coerência horizontal entre subsistemas." },
@@ -278,6 +299,7 @@
     {
       "id": "q2580",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na distinção adotada pelo TCU, governança organizacional consiste em",
       "options": [
         { "id": "A", "text": "executar todas as tarefas operacionais." },
@@ -291,6 +313,7 @@
     {
       "id": "q2581",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O planejamento da gestão de pessoas recomendado pelo TCU deve",
       "options": [
         { "id": "A", "text": "eliminar o acompanhamento da alta administração." },
@@ -304,6 +327,7 @@
     {
       "id": "q2582",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre o Decreto nº 9.991/2019, é correto afirmar que",
       "options": [
         { "id": "A", "text": "se aplica automaticamente a qualquer tribunal de contas estadual." },
@@ -317,6 +341,7 @@
     {
       "id": "q2583",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No exemplo federal da PNDP, a unidade de gestão de pessoas",
       "options": [
         { "id": "A", "text": "substitui a aprovação da autoridade competente." },
@@ -330,6 +355,7 @@
     {
       "id": "q2584",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um sistema de informações gerenciais de RH é melhor definido como",
       "options": [
         { "id": "A", "text": "somente o programa instalado nos computadores." },
@@ -343,6 +369,7 @@
     {
       "id": "q2585",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No nível operacional, um SIG de RH apoia principalmente",
       "options": [
         { "id": "A", "text": "auditorias externas exclusivamente." },
@@ -356,6 +383,7 @@
     {
       "id": "q2586",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No nível estratégico, um SIG de RH pode fornecer",
       "options": [
         { "id": "A", "text": "apenas comprovantes individuais." },
@@ -369,6 +397,7 @@
     {
       "id": "q2587",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A sigla SIG de RH",
       "options": [
         { "id": "A", "text": "designa obrigatoriamente o Sigepe." },
@@ -382,6 +411,7 @@
     {
       "id": "q2588",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "São exemplos de dados mestres de RH",
       "options": [
         { "id": "A", "text": "metas sem responsável ou período." },
@@ -395,6 +425,7 @@
     {
       "id": "q2589",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma boa governança de dados mestres exige",
       "options": [
         { "id": "A", "text": "múltiplos identificadores contraditórios." },
@@ -408,6 +439,7 @@
     {
       "id": "q2590",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Integrar sistemas de RH e orçamento de forma confiável requer",
       "options": [
         { "id": "A", "text": "apenas enviar planilhas por correio eletrônico." },
@@ -421,6 +453,7 @@
     {
       "id": "q2591",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois sistemas registram lotações diferentes para a mesma pessoa. A dimensão de qualidade mais diretamente afetada é",
       "options": [
         { "id": "A", "text": "consistência." },
@@ -434,6 +467,7 @@
     {
       "id": "q2592",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um cadastro possui todos os campos, mas conserva situação funcional antiga. O principal problema é de",
       "options": [
         { "id": "A", "text": "completude." },
@@ -447,6 +481,7 @@
     {
       "id": "q2593",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Há falha de completude quando",
       "options": [
         { "id": "A", "text": "a origem não pode ser verificada." },
@@ -460,6 +495,7 @@
     {
       "id": "q2594",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A integridade referencial de um banco de RH é violada quando",
       "options": [
         { "id": "A", "text": "o dado é atualizado tempestivamente." },
@@ -473,6 +509,7 @@
     {
       "id": "q2595",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Rastreabilidade da informação permite",
       "options": [
         { "id": "A", "text": "considerar qualquer correlação causal." },
@@ -486,6 +523,7 @@
     {
       "id": "q2596",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o princípio da qualidade dos dados da LGPD, deve-se garantir",
       "options": [
         { "id": "A", "text": "uso para qualquer finalidade futura." },
@@ -499,6 +537,7 @@
     {
       "id": "q2597",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um indicador gerencial bem especificado deve informar",
       "options": [
         { "id": "A", "text": "dados individuais desnecessários à finalidade." },
@@ -512,6 +551,7 @@
     {
       "id": "q2598",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O número de cursos oferecidos é, isoladamente, um indicador de",
       "options": [
         { "id": "A", "text": "atividade, não prova necessária de desenvolvimento aplicado." },
@@ -525,6 +565,7 @@
     {
       "id": "q2599",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao comparar absenteísmo entre duas unidades, é necessário considerar",
       "options": [
         { "id": "A", "text": "missão, porte, composição, riscos e contexto de trabalho." },
@@ -538,6 +579,7 @@
     {
       "id": "q2600",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A principal função de um dashboard de RH é",
       "options": [
         { "id": "A", "text": "organizar visualmente informações para acompanhamento e análise." },
@@ -551,6 +593,7 @@
     {
       "id": "q2601",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para a LGPD, dado pessoal é informação relacionada a",
       "options": [
         { "id": "A", "text": "somente pessoa identificada pelo nome completo." },
@@ -564,6 +607,7 @@
     {
       "id": "q2602",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É exemplo de dado pessoal sensível no contexto de RH",
       "options": [
         { "id": "A", "text": "dado de saúde ou biométrico vinculado a pessoa natural." },
@@ -577,6 +621,7 @@
     {
       "id": "q2603",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O tratamento de dados pessoais pelo Poder Público deve buscar",
       "options": [
         { "id": "A", "text": "finalidade pública e execução de competências ou atribuições legais." },
@@ -590,6 +635,7 @@
     {
       "id": "q2604",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre consentimento em rotinas funcionais, é correto afirmar que",
       "options": [
         { "id": "A", "text": "é autorização genérica para qualquer uso futuro." },
@@ -603,6 +649,7 @@
     {
       "id": "q2605",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O princípio da necessidade determina",
       "options": [
         { "id": "A", "text": "coletar todo dado que possa ser útil algum dia." },
@@ -616,6 +663,7 @@
     {
       "id": "q2606",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A interoperabilidade prevista na LGPD",
       "options": [
         { "id": "A", "text": "autoriza circulação indiscriminada de dados pessoais." },
@@ -629,6 +677,7 @@
     {
       "id": "q2607",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Transparência em gestão pública de pessoas",
       "options": [
         { "id": "A", "text": "equivale à divulgação irrestrita de qualquer dado pessoal." },
@@ -642,6 +691,7 @@
     {
       "id": "q2608",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A afirmação de que a LGPD se restringe à União está",
       "options": [
         { "id": "A", "text": "correta, porque estados não tratam dados pessoais." },
@@ -655,6 +705,7 @@
     {
       "id": "q2609",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É controle adequado para um SIG de RH",
       "options": [
         { "id": "A", "text": "acesso por perfil e necessidade funcional, com revisão e trilhas." },
@@ -668,6 +719,7 @@
     {
       "id": "q2610",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "People analytics consiste em",
       "options": [
         { "id": "A", "text": "usar dados e métodos analíticos para apoiar decisões de gestão de pessoas." },
@@ -681,6 +733,7 @@
     {
       "id": "q2611",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um órgão projeta aposentadorias, identifica os perfis que faltarão e planeja os meios legais de ingresso e movimentação. Na classificação didática dos processos de RH, predomina o grupo de",
       "options": [
         { "id": "A", "text": "agregar ou prover pessoas e capacidades." },
@@ -694,6 +747,7 @@
     {
       "id": "q2612",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Depois do ingresso, a unidade define responsabilidades, aloca a pessoa e acompanha suas entregas. O conjunto pertence predominantemente ao processo de",
       "options": [
         { "id": "A", "text": "prover, pois se limita à seleção externa." },
@@ -707,6 +761,7 @@
     {
       "id": "q2613",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área de RH analisa estrutura remuneratória legal, benefícios, carreira e formas institucionais de reconhecimento. A finalidade predominante é",
       "options": [
         { "id": "A", "text": "recompensar dentro dos limites jurídicos do setor público." },
@@ -720,6 +775,7 @@
     {
       "id": "q2614",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após mapear lacunas de capacidade, o órgão programa aprendizagem, prepara lideranças e adota medidas de gestão do conhecimento e sucessão. Predomina o grupo de",
       "options": [
         { "id": "A", "text": "manter, pois toda aprendizagem é ação de saúde." },
@@ -733,6 +789,7 @@
     {
       "id": "q2615",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma política reúne saúde e segurança, inclusão, relações de trabalho, qualidade de vida e retenção. Na classificação dos subsistemas, essas ações pertencem principalmente a",
       "options": [
         { "id": "A", "text": "manter pessoas e condições adequadas de trabalho." },
@@ -746,6 +803,7 @@
     {
       "id": "q2616",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A unidade consolida cadastros, verifica a qualidade dos dados, produz indicadores e acompanha riscos e resultados das políticas. Predomina o processo de",
       "options": [
         { "id": "A", "text": "monitorar, com informação, controles, riscos e avaliação." },
@@ -759,6 +817,7 @@
     {
       "id": "q2617",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma vacância crítica é detectada em indicador. O RH planeja reposição, realoca temporariamente pessoas e programa desenvolvimento para reduzir a lacuna. O caso demonstra que",
       "options": [
         { "id": "A", "text": "cada processo deve ser executado por sistema isolado e sem troca de dados." },
@@ -772,6 +831,7 @@
     {
       "id": "q2618",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre os grupos agregar, aplicar, recompensar, desenvolver, manter e monitorar, assinale a afirmação correta.",
       "options": [
         { "id": "A", "text": "São competências legais uniformes em todos os órgãos públicos." },

@@ -5,6 +5,7 @@
     {
       "id": "q1484",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade inicia a contratação pela escolha de uma marca, deixando para depois a descrição do problema. Essa sequência é inadequada porque a fase preparatória deve",
       "options": [
         {"id": "a", "text": "partir do orçamento sigiloso e dispensar estudo de alternativas"},
@@ -19,6 +20,7 @@
     {
       "id": "q1485",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 18, a fase preparatória deve compatibilizar-se",
       "options": [
         {"id": "a", "text": "apenas com o plano de contratações federal, mesmo para ente estadual"},
@@ -33,6 +35,7 @@
     {
       "id": "q1486",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Integra expressamente a instrução da fase preparatória prevista no art. 18",
       "options": [
         {"id": "a", "text": "a análise dos riscos que possam comprometer o sucesso da licitação e a boa execução"},
@@ -47,6 +50,7 @@
     {
       "id": "q1487",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao exigir qualificação técnica restritiva e limitar a participação em consórcio, a Administração deve, na fase preparatória,",
       "options": [
         {"id": "a", "text": "usar texto padronizado sem examinar o objeto"},
@@ -61,6 +65,7 @@
     {
       "id": "q1488",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A proporcionalidade documental na fase preparatória significa",
       "options": [
         {"id": "a", "text": "eliminar todo documento em contratação de baixo valor"},
@@ -75,6 +80,7 @@
     {
       "id": "q1489",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Estudo Técnico Preliminar deve",
       "options": [
         {"id": "a", "text": "evidenciar o problema, identificar a melhor solução e permitir avaliar viabilidade técnica e econômica"},
@@ -89,6 +95,7 @@
     {
       "id": "q1490",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Conforme o art. 18, § 2º, os elementos mínimos do ETP correspondem aos incisos",
       "options": [
         {"id": "a", "text": "I, II, III, IV e V"},
@@ -103,6 +110,7 @@
     {
       "id": "q1491",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se o ETP não contemplar um dos oito elementos que não integram o conteúdo mínimo legal, a Administração",
       "options": [
         {"id": "a", "text": "pode omiti-lo silenciosamente"},
@@ -117,6 +125,7 @@
     {
       "id": "q1492",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A estimativa de quantidades no ETP deve",
       "options": [
         {"id": "a", "text": "repetir necessariamente o quantitativo do último contrato"},
@@ -131,6 +140,7 @@
     {
       "id": "q1493",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No ETP, levantamento de mercado consiste principalmente em",
       "options": [
         {"id": "a", "text": "obter três propostas para uma marca já escolhida"},
@@ -145,6 +155,7 @@
     {
       "id": "q1494",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao parcelamento da contratação, o ETP deve",
       "options": [
         {"id": "a", "text": "parcelar sempre, ainda que destrua integração e escala"},
@@ -159,6 +170,7 @@
     {
       "id": "q1495",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os aspectos ambientais do ETP, quando aplicáveis, incluem-se",
       "options": [
         {"id": "a", "text": "apenas a cor externa do equipamento"},
@@ -173,6 +185,7 @@
     {
       "id": "q1496",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A unidade precisa dar mobilidade segura a 100 servidores. Para preservar a lógica do ETP, a necessidade deve ser inicialmente formulada como",
       "options": [
         {"id": "a", "text": "comprar obrigatoriamente 100 equipamentos da marca indicada"},
@@ -187,6 +200,7 @@
     {
       "id": "q1497",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A distinção correta entre ETP e TR é",
       "options": [
         {"id": "a", "text": "o ETP escolhe e justifica a solução; o TR define o objeto executável e mensurável"},
@@ -201,6 +215,7 @@
     {
       "id": "q1498",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a numeração dos elementos mínimos do ETP na Lei e na IN SEGES nº 58/2022, é correto afirmar que",
       "options": [
         {"id": "a", "text": "a IN revogou os incisos da Lei"},
@@ -215,6 +230,7 @@
     {
       "id": "q1499",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As exceções de elaboração do ETP previstas na IN SEGES nº 58/2022",
       "options": [
         {"id": "a", "text": "são normas gerais nacionais que revogam regulamentos estaduais"},
@@ -229,6 +245,7 @@
     {
       "id": "q1500",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É elemento próprio do Termo de Referência para bens e serviços",
       "options": [
         {"id": "a", "text": "a nomeação do licitante vencedor antes da disputa"},
@@ -243,6 +260,7 @@
     {
       "id": "q1501",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em serviço comum de engenharia, a equipe propõe especificar o objeto apenas por TR. Isso é possível quando",
       "options": [
         {"id": "a", "text": "for demonstrada ausência de prejuízo à aferição dos padrões de desempenho e qualidade"},
@@ -257,6 +275,7 @@
     {
       "id": "q1502",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A relação correta entre as peças de engenharia é",
       "options": [
         {"id": "a", "text": "anteprojeto e projeto executivo são idênticos"},
@@ -271,6 +290,7 @@
     {
       "id": "q1503",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os deveres estruturantes do art. 19 está",
       "options": [
         {"id": "a", "text": "proibir centralização em qualquer contratação"},
@@ -285,6 +305,7 @@
     {
       "id": "q1504",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um órgão estadual decide não usar catálogo eletrônico nem modelo de minuta disponível. À luz do art. 19, deve",
       "options": [
         {"id": "a", "text": "manter a decisão sem registro porque padronização é proibida"},
@@ -299,6 +320,7 @@
     {
       "id": "q1505",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Modelagem da Informação da Construção (BIM), no art. 19,",
       "options": [
         {"id": "a", "text": "é preferencial em obras, engenharia e arquitetura quando adequada ao objeto, em adoção gradual"},
@@ -313,6 +335,7 @@
     {
       "id": "q1506",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma área pede equipamento mais durável que o modelo mais barato e demonstra que a vida útil reduz custo e interrupções. O art. 20",
       "options": [
         {"id": "a", "text": "proíbe qualquer qualidade acima da opção mais barata"},
@@ -327,6 +350,7 @@
     {
       "id": "q1507",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração pretende realizar audiência pública eletrônica sobre licitação complexa. Segundo o art. 21, deve",
       "options": [
         {"id": "a", "text": "convocá-la somente depois da assinatura do contrato"},
@@ -341,6 +365,7 @@
     {
       "id": "q1508",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A equipe identifica risco de atraso na integração dos sistemas e define ações preventivas. Ainda não distribuiu contratualmente o evento entre as partes. Ela realizou",
       "options": [
         {"id": "a", "text": "matriz completa, porque identificar e alocar são sinônimos"},
@@ -355,6 +380,7 @@
     {
       "id": "q1509",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A matriz de alocação de riscos é obrigatória no edital quando a contratação envolver",
       "options": [
         {"id": "a", "text": "qualquer bem de consumo comum"},
@@ -369,6 +395,7 @@
     {
       "id": "q1510",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para fins da Lei nº 14.133/2021, o valor atualizado de grande vulto vigente desde 1º de janeiro de 2026 é superior a",
       "options": [
         {"id": "a", "text": "R$ 65.492,11"},
@@ -383,6 +410,7 @@
     {
       "id": "q1511",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma matriz de riscos adequada deve",
       "options": [
         {"id": "a", "text": "transferir todos os eventos ao contratado sem análise"},
@@ -397,6 +425,7 @@
     {
       "id": "q1512",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O valor previamente estimado da contratação deve",
       "options": [
         {"id": "a", "text": "ser compatível com o mercado, considerando bases públicas, quantidades, escala e peculiaridades locais"},
@@ -411,6 +440,7 @@
     {
       "id": "q1513",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os parâmetros do art. 23, § 1º, para bens e serviços em geral",
       "options": [
         {"id": "a", "text": "devem ser todos usados cumulativamente em qualquer caso"},
@@ -425,6 +455,7 @@
     {
       "id": "q1514",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao usar contratações públicas similares como parâmetro para bens e serviços em geral, a Lei considera as que estejam em execução ou tenham sido concluídas",
       "options": [
         {"id": "a", "text": "em qualquer época, sem atualização"},
@@ -439,6 +470,7 @@
     {
       "id": "q1515",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na pesquisa direta de preços prevista no art. 23, § 1º, IV, exige-se",
       "options": [
         {"id": "a", "text": "uma única proposta escolhida sem justificativa"},
@@ -453,6 +485,7 @@
     {
       "id": "q1516",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dados obtidos em sítio eletrônico especializado ou de domínio amplo, como parâmetro legal de preço, devem",
       "options": [
         {"id": "a", "text": "ser aceitos sem identificar a consulta"},
@@ -467,6 +500,7 @@
     {
       "id": "q1517",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A IN SEGES/ME nº 65/2021",
       "options": [
         {"id": "a", "text": "disciplina preços de bens e serviços em geral no âmbito federal e não se aplica a obras e engenharia"},
@@ -481,6 +515,7 @@
     {
       "id": "q1518",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na estimativa de obras e serviços de engenharia, a ordem legal de parâmetros começa por",
       "options": [
         {"id": "a", "text": "pesquisa direta informal com um fornecedor"},
@@ -495,6 +530,7 @@
     {
       "id": "q1519",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Estado, Distrito Federal ou Município que contrate sem recursos da União",
       "options": [
         {"id": "a", "text": "fica proibido de estimar obras"},
@@ -509,6 +545,7 @@
     {
       "id": "q1520",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em contratação direta, se for inviável estimar pelos parâmetros dos §§ 1º a 3º do art. 23,",
       "options": [
         {"id": "a", "text": "o futuro contratado deve comprovar preços de objetos semelhantes por notas fiscais para outros contratantes emitidas até um ano antes da contratação ou por outro meio idôneo"},
@@ -523,6 +560,7 @@
     {
       "id": "q1521",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na estimativa de engenharia sob contratação integrada ou semi-integrada,",
       "options": [
         {"id": "a", "text": "todo orçamento deve ser substituído por valor arbitrário"},
@@ -537,6 +575,7 @@
     {
       "id": "q1522",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração decide manter sigiloso o orçamento estimado, mas não apresenta justificativa. A decisão é",
       "options": [
         {"id": "a", "text": "válida porque todo orçamento é sigiloso por natureza"},
@@ -551,6 +590,7 @@
     {
       "id": "q1523",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O caráter sigiloso do orçamento estimado",
       "options": [
         {"id": "a", "text": "impede acesso do controle externo"},
@@ -565,6 +605,7 @@
     {
       "id": "q1524",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se o critério de julgamento for maior desconto,",
       "options": [
         {"id": "a", "text": "o preço estimado ou o máximo aceitável deve constar do edital"},
@@ -579,6 +620,7 @@
     {
       "id": "q1525",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O edital deve conter, entre outras matérias,",
       "options": [
         {"id": "a", "text": "somente o nome do objeto e a data da sessão"},
@@ -593,6 +635,7 @@
     {
       "id": "q1526",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos anexos do edital, o art. 25 determina que",
       "options": [
         {"id": "a", "text": "sejam acessíveis somente ao licitante cadastrado"},
@@ -607,6 +650,7 @@
     {
       "id": "q1527",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O edital pretende exigir materiais e mão de obra existentes no local da execução. A exigência é admissível quando",
       "options": [
         {"id": "a", "text": "decorre apenas da preferência econômica do gestor"},
@@ -621,6 +665,7 @@
     {
       "id": "q1528",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em obra de grande vulto, o edital deve prever que o vencedor implante programa de integridade",
       "options": [
         {"id": "a", "text": "antes de apresentar proposta, sem regulamento"},
@@ -635,6 +680,7 @@
     {
       "id": "q1529",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Independentemente do prazo do contrato, o edital deve prever",
       "options": [
         {"id": "a", "text": "reajuste sem data-base e segundo escolha posterior"},
@@ -649,6 +695,7 @@
     {
       "id": "q1530",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A margem de preferência do art. 26 pode alcançar",
       "options": [
         {"id": "a", "text": "qualquer empresa escolhida sem critério técnico"},
@@ -663,6 +710,7 @@
     {
       "id": "q1531",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para bens e serviços nacionais resultantes de desenvolvimento e inovação tecnológica realizados no País, a margem legal pode ser de até",
       "options": [
         {"id": "a", "text": "20%"},
@@ -677,6 +725,7 @@
     {
       "id": "q1532",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A transparência anual do art. 27 exige divulgar",
       "options": [
         {"id": "a", "text": "somente o total global sem identificar beneficiários"},
@@ -691,6 +740,7 @@
     {
       "id": "q1533",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No planejamento de digitalização de documentos, a equipe estima demanda, compara compra, locação e serviço gerenciado, avalia ciclo de vida, justifica lotes, define riscos e depois detalha o TR. Esse procedimento",
       "options": [
         {"id": "a", "text": "é inválido porque o TR deve preceder a identificação da necessidade"},

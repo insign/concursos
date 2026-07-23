@@ -5,6 +5,7 @@
     {
       "id": "q634",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um órgão reduziu o tempo médio de atendimento, mas passou a excluir usuários sem acesso digital e aumentou o retrabalho. Qual conclusão é adequada?",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q635",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma abordagem centrada em inspeção, a principal ação ocorre quando?",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q636",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa caracteriza a Gestão da Qualidade Total?",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q637",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma equipe pretende distinguir variação inerente ao sistema de eventos identificáveis e acompanhar o processo ao longo do tempo. Qual contribuição clássica é mais diretamente aplicável?",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q638",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual prática é compatível com a filosofia de Deming?",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q639",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A Trilogia de Juran compreende:",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q640",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em Crosby, a formulação mais adequada é:",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q641",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O diagrama de Ishikawa é usado principalmente para:",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q642",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A contribuição de Feigenbaum está associada a:",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q643",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo Taguchi, qual afirmação é adequada?",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q644",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual conjunto pertence às dimensões de Garvin para produtos?",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q645",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 18 de julho de 2026, qual descrição normativa está correta?",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q646",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta somente princípios de gestão da qualidade?",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q647",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na abordagem de processo, o que deve ser analisado?",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q648",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O pensamento baseado em riscos é aplicado corretamente quando a organização:",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q649",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Após emitir uma certidão com dado incorreto, o órgão reenviou a versão correta e alterou a validação do sistema que permitira o erro. As duas ações são, respectivamente:",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q650",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No PDCA, a definição do problema, da meta, das causas e do plano ocorre em:",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q651",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma mudança testada alcançou a meta e demonstrou estabilidade. No PDCA, a decisão de incorporá-la ao padrão pertence a:",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q652",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Por que Deming preferiu a denominação PDSA?",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q653",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No MASP, qual distinção é adequada?",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q654",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No MASP, após verificar que a solução atingiu a meta, a etapa que reduz o risco de retorno do problema é:",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q655",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para registrar, por dia e tipo, cada erro encontrado em requerimentos, a ferramenta inicial mais adequada é:",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q656",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Separar reclamações por canal, região e tipo de usuário corresponde a:",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q657",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual ferramenta mostra a distribuição de frequências de uma variável contínua em classes?",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q658",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um gráfico ordena causas de reclamação da mais frequente para a menos frequente e apresenta percentual acumulado. Trata-se de:",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q659",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um diagrama de causa e efeito para atraso, “sistema indisponível”, “regra confusa” e “equipe insuficiente” representam:",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q660",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um diagrama de dispersão mostra associação entre carga de trabalho e tempo de resposta. O que se pode concluir com segurança?",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q661",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual é a finalidade principal de uma carta de controle?",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q662",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma variação causada por regra inadequada comum a todas as unidades deve ser tratada prioritariamente como:",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q663",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um processo apresenta comportamento previsível, porém sua média está fora do requisito. Ele é:",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q664",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No 5S, separar documentos e objetos necessários dos desnecessários corresponde a:",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q665",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No 5S, manter padrões de organização, limpeza, saúde e higiene está associado a:",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q666",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual é o objetivo central do Six Sigma?",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q667",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No DMAIC, confirmar e quantificar causas do desempenho insuficiente ocorre em:",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q668",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No DMAIC, criar monitoramento, plano de reação e responsabilidade para sustentar o ganho pertence a:",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q669",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Treinamento preventivo e auditoria de conformidade são classificados, respectivamente, como custos de:",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q670",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Indenização e retrabalho provocados por erro descoberto após a entrega ao usuário constituem principalmente custo de:",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q671",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um órgão cumpre corretamente o prazo prometido, mas demora a responder dúvidas emergenciais. As dimensões afetadas são, respectivamente:",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q672",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A gestão compreende as expectativas do usuário, mas não as converte em padrão operacional adequado. No modelo de lacunas, isso corresponde à lacuna entre:",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q673",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual elemento pertence a um service blueprint?",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q674",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma unidade atingiu a meta de produtividade, mas aumentou erros e desigualdade entre regiões. Qual decisão é adequada?",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q675",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Automatizar um fluxo com aprovações duplicadas e regra confusa tende a:",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q676",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa expressa valor público?",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q677",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual conjunto corresponde aos critérios historicamente associados ao MEGP?",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q678",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 2026, o Gestaopublicagov.br pode ser corretamente descrito como:",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q679",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre o GesPública, assinale a alternativa correta.",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q680",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a Lei nº 13.460/2017, a Carta de Serviços ao Usuário deve:",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q681",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual atuação é compatível com a ouvidoria pública?",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q682",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A avaliação continuada dos serviços públicos deve:",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q683",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um órgão reduziu o prazo em 40%, mas o retrabalho dobrou. Qual sequência de ação é mais adequada?",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q684",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item anterior sobre autores da qualidade, foram contrapostas contribuições de Shewhart, Deming, Juran, Ishikawa e Feigenbaum. Qual associação está correta?",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q685",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "À luz dos 14 pontos de Deming, assinale a prática adequada.",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q686",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em relação à família ISO 9000, qual afirmação está correta?",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q687",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item anterior sobre 5S, houve troca entre os sensos. Qual associação está correta?",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q688",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Sobre Six Sigma e DMAIC, assinale a alternativa correta.",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q689",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No PDCA, uma organização mediu os efeitos da solução e concluiu que a meta foi alcançada. Para sustentar o resultado, deve:",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q690",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma equipe quer visualizar ações do usuário, atendimento visível, atividades internas e apoio. A ferramenta indicada é:",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q691",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma carta de controle apresenta todos os pontos dentro dos limites, mas há sequência longa crescente. Qual conclusão é adequada?",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q692",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em relação à excelência na gestão pública, qual alternativa é correta?",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q693",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma não conformidade foi corrigida, mas voltou a ocorrer porque sua causa não foi tratada. A providência que faltou foi:",
       "options": [
         {

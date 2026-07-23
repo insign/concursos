@@ -5,6 +5,7 @@
     {
       "id": "q084",
       "revision": 3,
+      "origin": "previous_exam",
       "prompt": "Considere os trechos “é conferida aos cidadãos uma série de direitos”, “bem-estar”, “torná-la”, “fazê-la”, “à” e “período”. Quanto aos aspectos ortográficos e gramaticais, assinale a opção correta.",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q085",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a opção em que a palavra apresentada está grafada corretamente, de acordo com a vigente ortografia oficial da língua portuguesa.",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q086",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um relatório afirma que o alfabeto português tem 26 letras e que o ç é uma letra adicional. Qual correção é necessária?",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q087",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a afirmação correta a respeito da cedilha.",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q088",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na revisão do período “O servidor tanbém informou que o canpo reservado estava emfim disponível”, qual versão corrige apenas a representação da nasalidade?",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q089",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete o período com palavras que expressem, respectivamente, veículo, matéria compacta, urgência e serviço postal: “O ___ levou a ___ com ___ ao ___.”",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q090",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta apenas formas corretas quanto à manutenção ou supressão do h?",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q091",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a opção em que todas as formas estão registradas com x ou ch corretamente.",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q092",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a série integralmente correta quanto ao emprego de g e j.",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q093",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual alternativa todas as palavras estão grafadas corretamente?",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q094",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao revisar uma palavra composta cuja grafia não se deduz com segurança de uma regra produtiva, qual procedimento é adequado?",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q095",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual conjunto contém apenas monossílabos tônicos corretamente acentuados?",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q096",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a série em que todas as oxítonas estão corretamente acentuadas.",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q097",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta apenas paroxítonas corretamente acentuadas?",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q098",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A respeito de palavras como “história”, “série”, “lírio” e “mágoa”, assinale a opção correta.",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q099",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a série que aplica corretamente a regra dos hiatos com i e u tônicos.",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q100",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual opção todas as palavras permanecem sem acento pelas restrições da regra dos hiatos?",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q101",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa contrasta corretamente os ditongos abertos após o Acordo Ortográfico?",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q102",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a série que contém apenas formas vigentes após a retirada dos acentos de oo e eem.",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q103",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “Ontem o relator ___ ___ o documento na pauta, mas hoje não ___ fazê-lo.”",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q104",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “O diretor ___ a competência; os diretores ___ a competência. O técnico ___ cedo; os técnicos ___ cedo.”",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q105",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a correlação correta entre singular e plural dos compostos de ter e vir.",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q106",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre as formas “forma”/“fôrma” e “demos”/“dêmos”, assinale a opção correta.",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q107",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a afirmação correta sobre o trema.",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q108",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual série aplica corretamente a regra geral de prefixo terminado na mesma vogal que inicia o segundo elemento?",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q109",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa em que as formações com prefixo terminado em vogal e segundo elemento iniciado por vogal diferente estão corretas.",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q110",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa aplica corretamente a regra diante de r e s após prefixo terminado em vogal?",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q111",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual opção todas as formações prefixais diante de h estão corretas?",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q112",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a série corretamente hifenizada com elementos de comportamento próprio.",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q113",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa aplica corretamente os comportamentos próprios de co-, re- e pre- átono?",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q114",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em um relatório, foram empregados os trechos “o benfeito alcançou a comunidade”, “um parecer bem-feito” e “o parecer foi bem feito pela equipe”. Assinale a análise correta.",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q115",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual conjunto contém apenas compostos hifenizados corretamente?",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q116",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a opção que distingue corretamente a regra geral das locuções e as exceções consagradas.",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q117",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta corretamente o contraste entre forma aglutinada e compostos ainda hifenizados?",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q118",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A respeito de compostos que designam espécies botânicas ou zoológicas, assinale a opção correta.",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q119",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual série apresenta corretamente o hífen em formas verbais com pronomes?",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q120",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase segue a regra geral de minúsculas para dia, mês, idioma e cargo?",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q121",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta quanto a ponto cardeal, estado e região geográfica.",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q122",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A respeito da grafia de nomes de disciplinas ou áreas do saber, assinale a opção correta.",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q123",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em relação a cargos como “presidente”, “ministro” e “diretor”, assinale a afirmação correta.",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q124",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual frase o apóstrofo está empregado em uso admitido pela norma?",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q125",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta quanto a contrações comuns e ao sujeito do infinitivo.",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q126",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em qual período a abreviatura final está pontuada de acordo com a norma?",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q127",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a forma adequada para o plural da sigla PM em texto corrente.",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q128",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual opção apresenta corretamente símbolos técnicos de massa, distância e potência?",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q129",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao grafar nomes reduzidos de instituições, qual critério é mais seguro?",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q130",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre variantes admitidas pelo Acordo Ortográfico, assinale a opção correta.",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q131",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma prova brasileira, como avaliar uma variante prevista no texto internacional do Acordo?",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q132",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta quanto a acentos diferenciais abolidos pelo Acordo Ortográfico.",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q133",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na revisão do período “A auto-avaliação do setor ocorrerá no dia-a-dia, e os diretores vêem a medida como anti-inflamatória contra falhas”, qual versão corrige apenas a ortografia?",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q134",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em uma prova do TCE/RJ, compararam-se as palavras “elétricos”, “pálidas” e “móveis”. Qual análise está correta?",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q135",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item aplicado pelo Cebraspe ao BNB, discutiu-se a grafia de “consequências”. Assinale a opção correta segundo a ortografia vigente.",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q136",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova da Petrobras, a banca examinou a expressão “dia a dia”. Qual alternativa reproduz a norma vigente?",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q137",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item da Embrapa, propôs-se substituir “alto-mar” por “altomar”. Assinale a análise correta.",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q138",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova da DPU, foram comparados os vocábulos “caráter”, “intransferível” e “órgãos”. Qual alternativa está correta?",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q139",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item da Polícia Federal, a banca comparou “série” e “história”. Assinale a análise adequada.",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q140",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova da PRF, compararam-se “Polícia”, “Rodoviária” e “existência”. Qual justificativa é compatível com a análise brasileira corrente?",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q141",
       "revision": 2,
+      "origin": "previous_exam",
       "prompt": "Em item do BNB, foram reunidos os vocábulos “trás”, “é” e “nós”. Assinale a opção correta.",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q142",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa que apresenta apenas formas admitidas para verbos com u tônico.",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q143",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um parecer contém: “A auto-avaliação ocorrerá no dia-a-dia; os analistas argúem que a decisão foi anunciada à queima roupa e que o equipamento pesa 5 kgs.” Qual revisão está integralmente de acordo com a ortografia vigente?",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q144",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova do TCE-MG, a banca examinou as formas “aquicultura”, “aqüicultura”, “catorze” e “quatorze”. Assinale a análise correta segundo a ortografia vigente.",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q145",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a única forma grafada de acordo com a ortografia oficial vigente.",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q146",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item do TC-DF, a forma verbal “vêm” concordava com o sujeito composto “o planejamento urbano e a gestão das cidades e áreas metropolitanas”. Por que o circunflexo está correto?",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q147",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova da SEED-PR, foram comparados os vocábulos “línguas” e “países”. Assinale a análise correta segundo a classificação brasileira corrente.",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q148",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item do INSS, afirmou-se que o substantivo “bem-estar” poderia ser grafado como “bem estar”. Assinale a avaliação correta.",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q149",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova da Prefeitura de Camaçari, perguntou-se qual formação emprega o hífen pela mesma regra geral aplicada a “bem-estar”. Assinale a opção esperada pela banca.",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q150",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova da PC-PE, compararam-se “possíveis” e “panorâmica”. Assinale a análise correta.",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q151",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em questão da Itaipu Binacional, pediu-se uma palavra acentuada pela mesma regra de “eólica”. Assinale a opção correta.",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q152",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova do CBM-PA, a banca analisou os vocábulos “psicológica” e “únicas”. Assinale a classificação correta.",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q153",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item da DPE-DF, propôs-se a grafia “Co-existem” como variante de “Coexistem”. Assinale a avaliação correta.",
       "options": [
         {

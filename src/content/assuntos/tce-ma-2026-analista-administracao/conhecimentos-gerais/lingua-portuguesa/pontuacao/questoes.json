@@ -5,6 +5,7 @@
     {
       "id": "q3339",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A análise segura da pontuação deve começar pela",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q3340",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase respeita a regra de integração entre sujeito e predicado?",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q3341",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Os relatórios, segundo a comissão, serão examinados', as vírgulas",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q3342",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O simples deslocamento de um objeto para o início da oração",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q3343",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A forma adequada é 'O relatório demonstra que houve melhora' porque",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q3344",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na enumeração 'leitura, comparação, síntese e revisão', a vírgula separa",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q3345",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Candidatos, leiam o comando', o termo 'Candidatos' é",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q3346",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O escritor Machado de Assis nasceu no Rio de Janeiro', a ausência de vírgulas ocorre porque",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q3347",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre o adjunto adverbial curto anteposto, é correto afirmar que",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q3348",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A primeira equipe analisou os dados; a segunda, os recursos', a vírgula após 'segunda'",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q3349",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Chegou, conferiu, assinou, saiu', as vírgulas separam",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q3350",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A equipe revisou os dados e publicou o relatório', não se usa vírgula antes de 'e' porque",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q3351",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A vírgula antes de 'e' é admissível em 'A equipe encerrou a análise, e o relator publicou o voto' porque",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q3352",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Os servidores que concluíram o curso foram promovidos', a oração relativa",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q3353",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Os servidores, que concluíram o curso, foram promovidos', a pontuação favorece a leitura de que",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q3354",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma oração explicativa intercalada",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q3355",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Quando terminou a sessão, os presentes saíram', a vírgula",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q3356",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Terminada a sessão, os presentes saíram', o segmento inicial",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q3357",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A medida, afirmou o relator, será revista', o trecho entre vírgulas é",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q3358",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A frase 'A tese, porém, não convenceu' isola 'porém' porque o conector",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q3359",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A tese parecia sólida; porém não convenceu', a ausência de vírgula logo após 'porém' mostra que",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q3360",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Revise o texto, pois há falhas', 'pois' é",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q3361",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Há falhas; revise, pois, o texto', o isolamento de 'pois' decorre de seu valor",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q3362",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O ponto e vírgula é especialmente útil para",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q3363",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A equipe técnica, após longa análise, aprovou; o setor jurídico, entretanto, pediu documentos', o ponto e vírgula",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q3364",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Há três etapas: coleta, análise e decisão', os dois-pontos introduzem",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q3365",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O problema era claro: faltavam dados', os dois-pontos estabelecem relação de",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q3366",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Se uma abreviatura terminada em ponto fecha o período, deve-se",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q3367",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual enunciado constitui pergunta direta corretamente pontuada?",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q3368",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A frase 'O relator perguntou se o recurso havia sido protocolado.' termina com ponto porque",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q3369",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre o ponto de exclamação em texto técnico-administrativo, é correto afirmar que",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q3370",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "As reticências podem indicar",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q3371",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma citação, a forma que indica inequivocamente supressão editorial é",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q3372",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção gráfica correta é",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q3373",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A proposta — ainda provisória — será debatida', usam-se dois travessões porque",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q3374",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na construção 'Quando falou — sem consultar as notas —, a sessão já terminava', a vírgula depois do segundo travessão",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q3375",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Os parênteses são adequados para",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q3376",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao fechar um parêntese no meio do período, a pontuação seguinte",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q3377",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O uso descuidado de aspas em uma palavra isolada pode",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q3378",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Aspas simples são usadas, entre outras possibilidades, para",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q3379",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma citação, '[do processo]' sinaliza",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q3380",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A marca '[sic]' é empregada para",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q3381",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A posição do ponto final em relação às aspas",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q3382",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao trocar vírgulas por travessões ou parênteses em um inciso, pode-se",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q3383",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma reescrita pontuada pode permanecer gramatical e, ainda assim,",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q3384",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Dedicou a obra à filha, Ana', o isolamento do nome tende a apresentar",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q3385",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase mostra objeto deslocado sem vírgula indevida?",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q3386",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A pontuação de 'E pergunta, e compara, e contesta' decorre",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q3387",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre orações ligadas por 'e' com sujeitos diferentes, a formulação mais precisa é",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q3388",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para pontuar conectores como 'porém', 'portanto' e 'pois', deve-se observar",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q3389",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Substituir ponto e vírgula por ponto entre duas coordenadas pode",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q3390",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Trocar os dois-pontos por ponto em 'O problema era claro: faltavam dados'",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q3391",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto a uma oração adverbial posposta à principal, é correto afirmar que",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q3392",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A afirmação 'toda vírgula corresponde a uma pausa real e toda pausa exige vírgula' é",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q3393",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma enumeração complexa cujos itens já contêm vírgulas, o sinal mais útil para separar os itens de nível superior é",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q3394",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A retirada das vírgulas em uma oração adjetiva explicativa pode",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q3395",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao avaliar a pontuação de um inciso, um procedimento eficiente é",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q3396",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A vírgula antes de 'etc.' deve ser tratada como",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q3397",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual generalização permanece válida mesmo quando o sujeito é muito extenso?",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q3398",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Diante de uma proposta de mudança de pontuação, a sequência mais completa é",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q3399",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «A adoção da tecnologia exige formação contínua dos servidores», a inserção de vírgula logo após «tecnologia»",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q3400",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Considere «É indispensável conciliar crescimento econômico e inclusão social com a proteção ambiental». A vírgula depois de «social»",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q3401",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual reescrita preserva a correção de «Os relatórios enviados no último trimestre serão auditados»?",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q3402",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «O parecer demonstra que houve falha no procedimento», a inserção de vírgula logo depois de «que»",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q3403",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «O parecer demonstra que, segundo a auditoria, houve falha», as vírgulas",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q3404",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a frase em que a vírgula foi usada corretamente.",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q3405",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Esse processo eu ainda não examinei», o simples deslocamento do objeto para o início",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q3406",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «A decisão depende de dados confiáveis», uma vírgula entre «depende» e «de dados confiáveis»",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q3407",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A principal exigência é que os dados sejam verificáveis», a vírgula antes de «que»",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q3408",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual opção contém pontuação inadequada?",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q3409",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Senhores conselheiros, a sessão será retomada», a vírgula",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q3410",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «O relator, presidente da comissão, apresentou o voto», o segmento entre vírgulas é",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q3411",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual frase emprega adequadamente as vírgulas com aposto?",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q3412",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Hoje, o tribunal divulgará o resultado», a vírgula depois de «Hoje»",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q3413",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Ao término da sessão de julgamento, os conselheiros assinaram a ata», a vírgula",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q3414",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «Uns defendiam a revisão; outros, a manutenção da regra», a vírgula depois de «outros» marca",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q3415",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A pontuação mais adequada para uma enumeração cujos itens já contêm vírgulas internas é",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q3416",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Foram avaliados legalidade, economicidade, eficiência e efetividade», as vírgulas",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q3417",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «O diretor afirmou: “O prazo terminou.”», os dois-pontos",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q3418",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «“O prazo terminou”, afirmou o diretor», a vírgula antes da oração de elocução",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q3419",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A equipe analisou os dados e publicou o relatório», a vírgula antes de «e»",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q3420",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «A comissão revisou a minuta, e o plenário aprovou o texto», a vírgula antes de «e»",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q3421",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual frase apresenta uma estrutura correlativa pontuada adequadamente?",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q3422",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Ora os dados chegam incompletos, ora chegam fora do prazo», a vírgula",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q3423",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Os dados, porém, ainda são insuficientes», as vírgulas",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q3424",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «Porém os dados ainda são insuficientes», a vírgula logo depois de «Porém»",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q3425",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Os resultados foram consistentes; portanto, a metodologia foi mantida», o ponto e vírgula",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q3426",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a opção em que «pois» tem valor conclusivo e está adequadamente isolado.",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q3427",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «O relatório será publicado, pois os dados foram confirmados», o segmento iniciado por «pois»",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q3428",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A medida é, de fato, necessária», o isolamento de «de fato»",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q3429",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «Os servidores que concluíram o curso receberão certificado», a oração sem vírgulas",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q3430",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Os servidores, que concluíram o curso, receberão certificado», as vírgulas",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q3431",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A retirada das vírgulas em uma oração adjetiva explicativa",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q3432",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Quando o prazo terminar, a comissão publicará o relatório», a vírgula",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q3433",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A comissão publicará o relatório quando o prazo terminar», a vírgula antes de «quando»",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q3434",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «Se os atos estiverem regulares, o processo seguirá», a oração inicial",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q3435",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Concluída a auditoria, o relatório foi publicado», o segmento inicial",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q3436",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A equipe revisou o texto, eliminando ambiguidades», a vírgula antes do gerúndio",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q3437",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Embora os dados sejam parciais, a tendência é clara», a vírgula",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q3438",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «É certo que os dados melhoraram», a inserção de vírgula depois de «certo»",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q3439",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «O relatório, se confirmado pelos dados, sustentará a decisão», as vírgulas",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q3440",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A regra segundo a qual o prazo é contínuo foi mantida», a inserção de vírgulas em torno de «segundo a qual o prazo é contínuo»",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q3441",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual emprego dos dois-pontos é adequado?",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q3442",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A substituição dos dois-pontos por «, assim,» é possível quando",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q3443",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «O sistema falhou: os dados não foram atualizados», os dois-pontos podem explicitar",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q3444",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «O processo exige três etapas: diagnóstico; execução; avaliação», o ponto e vírgula entre itens",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q3445",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A substituição de um ponto final por ponto e vírgula",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q3446",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na reescrita «Os dados foram validados. Portanto, o relatório será publicado», o ponto",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q3447",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Perguntamo-nos: o procedimento é seguro?», os sinais empregados",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q3448",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A reescrita «A equipe explicou o motivo: faltavam dados» é adequada porque",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q3449",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A decisão — segundo o relator — foi unânime», os travessões",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q3450",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A substituição de um par de travessões por parênteses",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q3451",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A medida (ainda provisória) será revista amanhã», os parênteses",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q3452",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Depois do fechamento de um parêntese intercalado, uma vírgula externa",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q3453",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No trecho «A expressão “custo invisível” foi empregada em sentido figurado», as aspas",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q3454",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em uma citação, o emprego de colchetes costuma indicar",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q3455",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A substituição das vírgulas que isolam um inciso por travessões",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q3456",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «A decisão (segundo o relator) foi unânime», a supressão apenas do parêntese de fechamento",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q3457",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «Os servidores, que concluíram o curso, receberam certificado», retirar as vírgulas",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q3458",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A troca de ponto final por dois-pontos entre duas frases é adequada quando",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q3459",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Os dados eram incompletos; ainda assim, a análise prosseguiu», a substituição do ponto e vírgula por ponto",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q3460",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual reescrita preserva a correção e a relação explicativa?",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q3461",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Não sabemos se o prazo será prorrogado», o ponto de interrogação ao fim",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q3462",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «O prazo será prorrogado?», o ponto de interrogação",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q3463",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "As reticências em «Talvez o relatório...» podem indicar",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q3464",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em uma citação, «[...]» costuma sinalizar",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q3465",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A substituição de vírgula por ponto pode manter a correção e, simultaneamente,",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q3466",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase «O relatório, sem dúvida, é relevante», as vírgulas",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q3467",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em «Os dados foram validados — etapa indispensável — antes da publicação», os travessões",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q3468",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a reescrita em que a pontuação preserva a estrutura de «O relatório, contudo, não foi publicado».",
       "options": [
         {

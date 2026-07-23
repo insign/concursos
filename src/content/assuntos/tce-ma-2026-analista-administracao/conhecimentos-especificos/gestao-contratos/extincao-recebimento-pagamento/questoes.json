@@ -5,6 +5,7 @@
     {
       "id": "q1699",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração identifica possível causa de extinção contratual e decide encerrar imediatamente o vínculo, sem instrução ou manifestação do contratado. À luz do art. 137, a conduta é:",
       "options": [
         { "id": "a", "text": "incorreta, porque a causa deve ser formalmente motivada nos autos, com contraditório e ampla defesa." },
@@ -19,6 +20,7 @@
     {
       "id": "q1700",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contratado ignora determinação regular emitida pelo fiscal para corrigir defeito de execução. Esse fato:",
       "options": [
         { "id": "a", "text": "não pode influenciar o vínculo porque o fiscal apenas observa." },
@@ -33,6 +35,7 @@
     {
       "id": "q1701",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma sociedade contratada muda sua estrutura interna. Para essa alteração configurar o motivo do art. 137, III, é necessário que:",
       "options": [
         { "id": "a", "text": "qualquer alteração do contrato social seja proibida pelo edital." },
@@ -47,6 +50,7 @@
     {
       "id": "q1702",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre caso fortuito ou força maior como motivo de extinção, assinale a alternativa correta:",
       "options": [
         { "id": "a", "text": "qualquer dificuldade econômica alegada basta." },
@@ -61,6 +65,7 @@
     {
       "id": "q1703",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A licença ambiental é obtida dentro do prazo, mas impõe alteração substancial do anteprojeto que impede a execução originalmente contratada. A situação:",
       "options": [
         { "id": "a", "text": "é irrelevante porque a licença foi tempestiva." },
@@ -75,6 +80,7 @@
     {
       "id": "q1704",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A extinção por razões de interesse público exige que as razões sejam:",
       "options": [
         { "id": "a", "text": "justificadas pela autoridade máxima do órgão ou entidade contratante." },
@@ -89,6 +95,7 @@
     {
       "id": "q1705",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante a execução, o contratado deixa de cumprir a reserva legal de cargos para aprendizes e pessoas com deficiência. Esse descumprimento:",
       "options": [
         { "id": "a", "text": "é irrelevante depois da assinatura do contrato." },
@@ -103,6 +110,7 @@
     {
       "id": "q1706",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração suprime unilateralmente parcelas e altera o valor inicial do contrato além do limite permitido pelo art. 125. O contratado:",
       "options": [
         { "id": "a", "text": "deve aceitar toda supressão porque não há limite legal." },
@@ -117,6 +125,7 @@
     {
       "id": "q1707",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma ordem escrita da Administração suspende a execução continuamente. Qual marco configura o direito legal do contratado à extinção nessa hipótese?",
       "options": [
         { "id": "a", "text": "qualquer suspensão superior a cinco dias corridos." },
@@ -131,6 +140,7 @@
     {
       "id": "q1708",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ordens administrativas sucessivas suspendem a execução por períodos descontínuos. O direito à extinção pela repetição surge quando as suspensões:",
       "options": [
         { "id": "a", "text": "somarem 90 dias corridos, sem indenização possível." },
@@ -145,6 +155,7 @@
     {
       "id": "q1709",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração atrasa parcela devida por serviço. Para o direito à extinção previsto no art. 137, § 2º, IV, considera-se:",
       "options": [
         { "id": "a", "text": "atraso superior a dois meses contado da emissão da nota fiscal." },
@@ -159,6 +170,7 @@
     {
       "id": "q1710",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração não libera, no prazo contratual, o local da obra e a fonte de material natural especificada no projeto. Essa situação:",
       "options": [
         { "id": "a", "text": "não afeta os direitos do contratado." },
@@ -173,6 +185,7 @@
     {
       "id": "q1711",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito das hipóteses temporais de suspensão e atraso de pagamento do art. 137, § 2º, II a IV, é correto afirmar que:",
       "options": [
         { "id": "a", "text": "sempre se aplicam durante guerra." },
@@ -187,6 +200,7 @@
     {
       "id": "q1712",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Configurada uma das hipóteses temporais dos incisos II, III ou IV do § 2º do art. 137, sem incidência das exceções, o contratado pode:",
       "options": [
         { "id": "a", "text": "apropriar-se de bem público como compensação." },
@@ -201,6 +215,7 @@
     {
       "id": "q1713",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É aberto processo administrativo para apurar descumprimento de cláusulas contratuais em contrato garantido na forma do art. 96. O emitente da garantia deve ser notificado:",
       "options": [
         { "id": "a", "text": "somente depois do trânsito em julgado." },
@@ -215,6 +230,7 @@
     {
       "id": "q1714",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quais são formas de extinção admitidas pelo art. 138?",
       "options": [
         { "id": "a", "text": "ato unilateral escrito da Administração, solução consensual e decisão arbitral ou judicial." },
@@ -229,6 +245,7 @@
     {
       "id": "q1715",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inadimplemento que motivaria o encerramento decorreu exclusivamente da conduta da própria Administração. Nesse caso:",
       "options": [
         { "id": "a", "text": "a Administração deve aplicar a si mesma sanção de impedimento." },
@@ -243,6 +260,7 @@
     {
       "id": "q1716",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A extinção unilateral e a extinção consensual possuem em comum a exigência de:",
       "options": [
         { "id": "a", "text": "sentença judicial prévia em todos os casos." },
@@ -257,6 +275,7 @@
     {
       "id": "q1717",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se a extinção decorrer de culpa exclusiva da Administração, o contratado tem direito a:",
       "options": [
         { "id": "a", "text": "receber automaticamente todo lucro esperado até o fim da vigência." },
@@ -271,6 +290,7 @@
     {
       "id": "q1718",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre as possíveis consequências da extinção unilateral está:",
       "options": [
         { "id": "a", "text": "a transferência definitiva de todo patrimônio do contratado." },
@@ -285,6 +305,7 @@
     {
       "id": "q1719",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na extinção unilateral, a execução da garantia contratual pode servir para:",
       "options": [
         { "id": "a", "text": "ressarcir prejuízos da não execução, pagar verbas trabalhistas, fundiárias e previdenciárias cabíveis e multas ou exigir a assunção e conclusão pela seguradora quando aplicável." },
@@ -299,6 +320,7 @@
     {
       "id": "q1720",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A retenção de créditos decorrentes do contrato, como efeito da extinção unilateral, pode alcançar:",
       "options": [
         { "id": "a", "text": "qualquer valor escolhido pelo fiscal, sem teto." },
@@ -313,6 +335,7 @@
     {
       "id": "q1721",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A ocupação e utilização de local, instalações, equipamentos, material e pessoal necessários à continuidade, após extinção unilateral:",
       "options": [
         { "id": "a", "text": "é obrigatória e independe de autoridade superior." },
@@ -327,6 +350,7 @@
     {
       "id": "q1722",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O recebimento provisório de uma obra ou serviço é realizado:",
       "options": [
         { "id": "a", "text": "pelo fornecedor, mediante declaração unilateral." },
@@ -341,6 +365,7 @@
     {
       "id": "q1723",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No recebimento de compras, a etapa provisória ocorre:",
       "options": [
         { "id": "a", "text": "por termo judicial que encerra toda responsabilidade." },
@@ -355,6 +380,7 @@
     {
       "id": "q1724",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Tanto em obras e serviços quanto em compras, o recebimento definitivo cabe:",
       "options": [
         { "id": "a", "text": "a servidor ou comissão designada pela autoridade competente, mediante termo detalhado que comprove as exigências contratuais." },
@@ -369,6 +395,7 @@
     {
       "id": "q1725",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Parte dos bens entregues diverge das especificações contratuais. A Lei nº 14.133/2021 permite:",
       "options": [
         { "id": "a", "text": "aceitar obrigatoriamente tudo porque houve entrega física." },
@@ -383,6 +410,7 @@
     {
       "id": "q1726",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após o recebimento definitivo, aparece vício relacionado à execução. O contratado afirma que o termo extinguiu toda responsabilidade. Essa afirmação é:",
       "options": [
         { "id": "a", "text": "correta em qualquer compra, obra ou serviço." },
@@ -397,6 +425,7 @@
     {
       "id": "q1727",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ensaios e testes exigidos por normas técnicas oficiais para demonstrar a boa execução correm:",
       "options": [
         { "id": "a", "text": "sempre por conta pessoal do fiscal." },
@@ -411,6 +440,7 @@
     {
       "id": "q1728",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No recebimento definitivo de projeto de obra, a lei estabelece que:",
       "options": [
         { "id": "a", "text": "o projetista fica isento de danos depois da assinatura do termo." },
@@ -425,6 +455,7 @@
     {
       "id": "q1729",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contado do recebimento definitivo da obra, o contratado responde objetivamente por solidez, segurança e funcionalidade durante:",
       "options": [
         { "id": "a", "text": "prazo mínimo de cinco anos, admitida garantia superior no edital e no contrato." },
@@ -439,6 +470,7 @@
     {
       "id": "q1730",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos prazos e métodos de recebimento provisório e definitivo, o art. 140 determina que sejam definidos:",
       "options": [
         { "id": "a", "text": "por acordo verbal depois da entrega." },
@@ -453,6 +485,7 @@
     {
       "id": "q1731",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um contrato de serviços, a equipe quantifica 70 horas executadas, confirma documentalmente a prestação e posteriormente formaliza a conformidade final. Esses atos correspondem, respectivamente, a:",
       "options": [
         { "id": "a", "text": "sanção, extinção e licitação." },
@@ -467,6 +500,7 @@
     {
       "id": "q1732",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A ordem cronológica de pagamento deve ser organizada:",
       "options": [
         { "id": "a", "text": "em fila nacional única para todos os órgãos e despesas." },
@@ -481,6 +515,7 @@
     {
       "id": "q1733",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração pretende alterar a ordem para pagar uma microempresa. A condição de microempresa:",
       "options": [
         { "id": "a", "text": "nunca pode ser considerada pela lei." },
@@ -495,6 +530,7 @@
     {
       "id": "q1734",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O pagamento de serviço necessário ao funcionamento de sistema estruturante pode alterar a ordem cronológica quando:",
       "options": [
         { "id": "a", "text": "for demonstrado risco de descontinuidade do cumprimento do objeto e observadas as formalidades legais." },
@@ -509,6 +545,7 @@
     {
       "id": "q1735",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contrato imprescindível à integridade do patrimônio público ou ao funcionamento da atividade finalística pode receber prioridade se:",
       "options": [
         { "id": "a", "text": "o contratado prometer desconto futuro, apenas." },
@@ -523,6 +560,7 @@
     {
       "id": "q1736",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A alteração válida da ordem cronológica deve ser acompanhada de:",
       "options": [
         { "id": "a", "text": "justificativa posterior e comunicação prévia somente ao contratado." },
@@ -537,6 +575,7 @@
     {
       "id": "q1737",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito da transparência e responsabilização na ordem de pagamentos, assinale a correta:",
       "options": [
         { "id": "a", "text": "a alteração motivada deve permanecer secreta." },
@@ -551,6 +590,7 @@
     {
       "id": "q1738",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pagamento em conta vinculada ou pela efetiva comprovação do fato gerador pode ser adotado quando:",
       "options": [
         { "id": "a", "text": "o fiscal criar a regra depois da execução, verbalmente." },
@@ -565,6 +605,7 @@
     {
       "id": "q1739",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Há controvérsia sobre 20 das 100 unidades executadas, mas 80 são reconhecidas como conformes e devidas. A Administração deve:",
       "options": [
         { "id": "a", "text": "liberar a parcela incontroversa no prazo previsto, mantendo a apuração das 20 unidades discutidas." },
@@ -579,6 +620,7 @@
     {
       "id": "q1740",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A remuneração variável na contratação de obra, fornecimento ou serviço pode vincular-se:",
       "options": [
         { "id": "a", "text": "ao humor posterior da autoridade, sem critérios prévios." },
@@ -593,6 +635,7 @@
     {
       "id": "q1741",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando o objeto visa implantar processo de racionalização, a lei admite que o pagamento seja ajustado:",
       "options": [
         { "id": "a", "text": "pelo valor de todo o patrimônio do órgão." },
@@ -607,6 +650,7 @@
     {
       "id": "q1742",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A utilização de remuneração variável pela Administração:",
       "options": [
         { "id": "a", "text": "é livre de motivação se houver economia." },
@@ -621,6 +665,7 @@
     {
       "id": "q1743",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Como regra geral, o pagamento antecipado de parcelas contratuais vinculadas a bens, obras ou serviços:",
       "options": [
         { "id": "a", "text": "é obrigatório em toda contratação direta." },
@@ -635,6 +680,7 @@
     {
       "id": "q1744",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para admitir excepcionalmente antecipação de pagamento, é necessário:",
       "options": [
         { "id": "a", "text": "economia sensível ou condição indispensável para obter o bem ou prestar o serviço, justificativa prévia e previsão expressa no edital ou instrumento de contratação direta." },
@@ -649,6 +695,7 @@
     {
       "id": "q1745",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Como condição do pagamento antecipado excepcional, a Administração:",
       "options": [
         { "id": "a", "text": "é proibida de adotar qualquer proteção." },
@@ -663,6 +710,7 @@
     {
       "id": "q1746",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após receber pagamento antecipado válido, o contratado não executa o objeto no prazo contratual. A lei determina:",
       "options": [
         { "id": "a", "text": "conversão automática do valor em prêmio." },
@@ -677,6 +725,7 @@
     {
       "id": "q1747",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma orientação operacional do MGI fixa procedimento de pagamento para a Administração Pública federal. No estudo voltado ao TCE-MA, essa orientação:",
       "options": [
         { "id": "a", "text": "substitui automaticamente a Lei nº 14.133/2021." },
@@ -691,6 +740,7 @@
     {
       "id": "q1748",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No ato de liquidação da despesa, os serviços de contabilidade devem:",
       "options": [
         { "id": "a", "text": "extinguir unilateralmente o contrato." },
@@ -705,6 +755,7 @@
     {
       "id": "q1749",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O mesmo inadimplemento contratual pode levar à extinção do vínculo e à aplicação de sanção. Nessa situação:",
       "options": [
         { "id": "a", "text": "cada instituto conserva pressupostos, competência, motivação, defesa e procedimento próprios." },
@@ -719,6 +770,7 @@
     {
       "id": "q1750",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma compra é entregue e o responsável registra sumariamente a entrada. Em seguida, a Administração afirma que isso já substituiu o recebimento definitivo. A conclusão é:",
       "options": [
         { "id": "a", "text": "correta, porque compras nunca passam por verificação material." },
@@ -733,6 +785,7 @@
     {
       "id": "q1751",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma fatura ocupa sua posição regular na fila, mas há divergência somente sobre pequena parte da quantidade. A solução compatível com os arts. 141 e 143 é:",
       "options": [
         { "id": "a", "text": "ignorar a fila e antecipar todo o valor." },
@@ -747,6 +800,7 @@
     {
       "id": "q1752",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A decretação de falência do contratado aparece entre os motivos do art. 137. Disso decorre que:",
       "options": [
         { "id": "a", "text": "o fiscal pode apagar o processo contratual." },
@@ -761,6 +815,7 @@
     {
       "id": "q1753",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa que relaciona corretamente forma e requisito de extinção:",
       "options": [
         { "id": "a", "text": "mediação dispensa interesse da Administração e formalização." },

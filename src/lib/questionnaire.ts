@@ -1,4 +1,4 @@
-import type { QuestionSet } from './content-schema';
+import type { AnswerableQuestionSet } from './content-schema';
 import { assertSupportedQuestionSetRevision } from './document-schema';
 
 export type QuestionLayout = 'single' | 'ten' | 'all';
@@ -53,7 +53,7 @@ export function hashAnswers(answers: AnswerMap): string {
   return (hash >>> 0).toString(16).padStart(8, '0');
 }
 
-export function scoreAnswers(questionSet: QuestionSet, answers: AnswerMap): Score {
+export function scoreAnswers(questionSet: AnswerableQuestionSet, answers: AnswerMap): Score {
   let answered = 0;
   let correct = 0;
 
@@ -67,14 +67,14 @@ export function scoreAnswers(questionSet: QuestionSet, answers: AnswerMap): Scor
   return { answered, total: questionSet.questions.length, correct };
 }
 
-export function isSubmissionValid(document: AnswerDocument, questionSet: QuestionSet): boolean {
+export function isSubmissionValid(document: AnswerDocument, questionSet: AnswerableQuestionSet): boolean {
   if (!document.submission || document.questionSetRevision !== questionSet.questionSetRevision) return false;
   if (document.submission.questionSetRevision !== questionSet.questionSetRevision) return false;
   if (scoreAnswers(questionSet, document.answers).answered !== questionSet.questions.length) return false;
   return document.submission.answersHash === hashAnswers(document.answers);
 }
 
-export function submitAnswers(document: AnswerDocument, questionSet: QuestionSet): AnswerDocument {
+export function submitAnswers(document: AnswerDocument, questionSet: AnswerableQuestionSet): AnswerDocument {
   if (scoreAnswers(questionSet, document.answers).answered !== questionSet.questions.length) {
     throw new Error('Todas as questões devem ser respondidas antes da finalização');
   }
@@ -91,7 +91,7 @@ export function submitAnswers(document: AnswerDocument, questionSet: QuestionSet
 
 export function reconcileAnswerDocument(
   document: AnswerDocument,
-  questionSet: QuestionSet,
+  questionSet: AnswerableQuestionSet,
 ): AnswerDocument {
   assertSupportedQuestionSetRevision(document, questionSet);
   const answers: AnswerMap = {};

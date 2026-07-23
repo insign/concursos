@@ -5,6 +5,7 @@
     {
       "id": "q284",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Considere: “A comissão analisou o recurso; o candidato permaneceu calmo; a situação piorou; choveu durante a sessão”. A conclusão correta é:",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q285",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “A servidora está atenta”, a análise adequada de “está” é:",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q286",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a opção em que os três verbos pertencem, respectivamente, à primeira, à segunda e à terceira conjugações.",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q287",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "A respeito de “pôr” e de seus derivados, assinale a opção correta.",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q288",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "No período “Após analisar os dados, a equipe continuou revisando o relatório já concluído”, as formas nominais destacadas são, respectivamente:",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q289",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “É necessário eu estudar antes da prova”, a forma “estudar” corresponde:",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q290",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Antes de os candidatos estudarem, a banca divulgou o cronograma”, a flexão de “estudarem” ocorre porque:",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q291",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “O estudar exige constância”, o artigo definido antes de “estudar” indica que:",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q292",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Compare “É preciso estudar” e “É preciso eu estudar”. A análise correta é:",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q293",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale o emprego em que o gerúndio expressa adequadamente processo em desenvolvimento.",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q294",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Vi o relator saindo da sala”, a forma “saindo” apresenta:",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q295",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a opção formada apenas por particípios tradicionalmente irregulares.",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q296",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Compare “A comissão tinha analisado o recurso” e “O recurso está analisado”. A conclusão correta é:",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q297",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "A respeito de particípio irregular e verbo irregular, assinale a opção correta.",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q298",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Os relatórios haviam sido feitos”, o verbo “haver” pode ser classificado, no contexto, como:",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q299",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a afirmação correta sobre as classificações verbais.",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q300",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Na tradição gramatical, verbo defectivo é aquele que:",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q301",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Segundo a preferência escolar tradicional para verbos abundantes, assinale a opção mais esperada, sem transformar a preferência em regra absoluta.",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q302",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Na oração “A equipe estava revisando o texto”, a análise correta é:",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q303",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Compare “A servidora está cansada” e “A servidora está estudando”. Assinale a análise correta.",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q304",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a opção que apresenta locução verbal com verbo principal no infinitivo sem depender da classificação controversa de um semiauxiliar aspectual.",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q305",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “A comissão aprovou o relatório”, a relação entre sujeito e processo caracteriza voz:",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q306",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "A transposição de “A comissão aprovou o relatório” para a passiva analítica, preservando sentido e relações sintáticas, é:",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q307",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Vendem-se livros técnicos”, a análise correta é:",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q308",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Concederam-se bolsas aos servidores”, a passiva sintética é possível porque:",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q309",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a redação correta segundo a concordância da passiva sintética.",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q310",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Precisa-se de apoio técnico”, o “se” funciona como:",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q311",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Vive-se bem nesta cidade”, a análise adequada é:",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q312",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “A candidata se feriu durante a prova”, o teste que confirma o valor reflexivo do “se” é:",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q313",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Os servidores se cumprimentaram ao chegar”, o “se” indica:",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q314",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Considere: I. “Vendem-se imóveis.” II. “Precisa-se de avaliadores.” III. “Os avaliadores se cumprimentaram.” A sequência correta dos valores de “se” é:",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q315",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “A equipe revisou o texto”, a predicação de “revisou” é:",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q316",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “A equipe precisa de tempo”, a expressão “de tempo” exerce a função de:",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q317",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “A equipe entregou o relatório à chefia”, a análise adequada é:",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q318",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a opção em que o verbo destacado é intransitivo no contexto.",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q319",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “A candidata parece preparada”, “preparada” é:",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q320",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Compare “A relatora escreveu o parecer” e “A relatora escreve bem”. A conclusão correta é:",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q321",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "A passiva não pode ser formada a partir de “A equipe precisa de apoio” porque:",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q322",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Havia recursos para revisão”, a forma singular de “havia” se explica porque:",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q323",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Houve incidentes durante a sessão”, a análise correta é:",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q324",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a opção correta quanto ao emprego de “haver”.",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q325",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Faz dois anos que estudo” e “Fez calor durante a prova”, o verbo “fazer” é:",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q326",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Compare “Choveu durante a prova” e “Choveram pedidos de revisão”. A análise correta é:",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q327",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a construção adequada segundo a impessoalidade do verbo principal.",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q328",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “Pode fazer meses que ele não volta”, o singular de “pode” decorre do fato de que:",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q329",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Compare “Existem alternativas” e “Há alternativas”. A análise correta é:",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q330",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Assinale a opção que distingue corretamente “haver” auxiliar de “haver” impessoal.",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q331",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Em “São duas horas”, o plural de “ser” mostra que:",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q332",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Considere a reescrita de “Vendem-se relatórios” para “Relatórios são vendidos”. A transformação:",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q333",
       "revision": 3,
+      "origin": "authorial",
       "prompt": "Considere: I. “É preciso eu estudar.” II. “Concederam-se bolsas aos servidores.” III. “Devem existir alternativas.” IV. “Deve haver alternativas.” Assinale a análise correta.",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q334",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na forma verbal “partiremos”, a segmentação morfológica mais adequada identifica",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q335",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção correta sobre formas rizotônicas e arrizotônicas.",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q336",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “os técnicos haviam concluído o exame”, a forma `haviam` deve ser classificada como",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q337",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito do verbo `pôr`, assinale a alternativa correta.",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q338",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “os cães latiram durante a noite”, o verbo `latir`, no emprego apresentado, é tradicionalmente considerado",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q339",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “ela se arrependeu da decisão”, o pronome `se`",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q340",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um verbo pode ser simultaneamente irregular e auxiliar porque",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q341",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “a multidão vociferou contra a decisão”, a classificação tradicional de `vociferar` como unipessoal",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q342",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A forma `faço`, em relação a `fazer`, exemplifica",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q343",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “é necessário revisar os dados”, a forma `revisar` é",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q344",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase “antes de os analistas emitirem o parecer”, a redação formal preserva `de os` porque",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q345",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “os servidores devem analisar os recursos”, substituir `analisar` por `analisarem`",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q346",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No trecho “a capacidade das pessoas de ter acesso”, a troca de `ter` por `terem`",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q347",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase em que o infinitivo pessoal está adequadamente empregado para distinguir os agentes.",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q348",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “concluído o exame, a equipe publicou o resultado”, `concluído`",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q349",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na sequência “tocar, escutar e despejando”, as formas nominais são, respectivamente,",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q350",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o documento está assinado”, o particípio `assinado`",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q351",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na oração “ao terminar a reunião, a comissão publicou a ata”, o infinitivo `terminar` exprime",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q352",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “para aprimorar o serviço, o órgão revisou o fluxo”, o infinitivo introduz",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q353",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção em que o gerúndio expressa ação simultânea e não vício automático de linguagem.",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q354",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “é importante os candidatos conhecerem o regulamento”, `conhecerem`",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q355",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A forma nominal que pode atuar como adjetivo e participar de passiva ou tempo composto é",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q356",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “os candidatos hão de estudar”, `hão`",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q357",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “há de haver alternativas”, a análise correta é:",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q358",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “os relatórios vinham sendo revisados”, há",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q359",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o servidor deseja estudar”, a sequência verbal",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q360",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o relatório tinha sido aprovado”, as formas `tinha` e `sido`",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q361",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “a equipe pode concluir hoje”, o auxiliar `pode` pode exprimir",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q362",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na oração “deve haver falhas”, a forma `deve`",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q363",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “os técnicos haviam terminado a análise”, afirmar que `haver` é impessoal",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q364",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o órgão vai publicar o resultado”, `ir + infinitivo` exprime, no contexto mais comum,",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q365",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “publicaram-se os resultados”, o termo `os resultados` é",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q366",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “precisa-se de servidores”, o `se`",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q367",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “os colegas se cumprimentaram”, o pronome exprime",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q368",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “ela se feriu durante o trabalho”, `se` é",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q369",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “o servidor se queixou do sistema”, o pronome",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q370",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A conversão de “implementaram-se novas rotinas” para a voz passiva analítica produz",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q371",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “estabelece-se um padrão”, a classificação de `se` depende principalmente de",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q372",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “se irradiaria como política”, classificar o pronome exige",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q373",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o relatório foi analisado” e “o relatório está analisado”, a diferença mais provável é que",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q374",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “vendem-se imóveis”, a concordância no plural ocorre porque",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q375",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “vive-se bem nesta cidade”, o `se`",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q376",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “descreveram-se os procedimentos”, a reescrita que preserva a voz é",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q377",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A afirmação “todo `se` ligado a verbo transitivo direto é apassivador” é",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q378",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Ao substituir “houve falhas e atrasos” por verbo pessoal, a forma adequada é",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q379",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “há dois anos não ocorre falha”, `há`",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q380",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a opção correta.",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q381",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o médico assistiu o paciente” e “o servidor assistiu à sessão”, o verbo `assistir`",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q382",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A oração “o paciente foi assistido pelo médico” deriva adequadamente de",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q383",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “tem muita gente na fila”, a análise adequada para prova normativa é que",
       "options": [
         {

@@ -5,6 +5,7 @@
     {
       "id": "q1534",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "À luz da Lei nº 14.133/2021, assinale a alternativa que contém apenas modalidades de licitação.",
       "options": [
         { "id": "a", "text": "Pregão, concorrência e credenciamento." },
@@ -19,6 +20,7 @@
     {
       "id": "q1535",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um órgão pretende contratar serviço comum cujos padrões de desempenho e qualidade podem ser objetivamente definidos por especificações usuais de mercado. Em regra, a modalidade adequada é:",
       "options": [
         { "id": "a", "text": "pregão." },
@@ -33,6 +35,7 @@
     {
       "id": "q1536",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre pregão e concorrência na Lei nº 14.133/2021, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "O valor estimado é o elemento determinante para escolher entre pregão e concorrência." },
@@ -47,6 +50,7 @@
     {
       "id": "q1537",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No concurso destinado à elaboração de projeto, o vencedor deverá:",
       "options": [
         { "id": "a", "text": "receber necessariamente o objeto em contrato de eficiência." },
@@ -61,6 +65,7 @@
     {
       "id": "q1538",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao optar por leiloeiro oficial para conduzir leilão, a Administração deverá selecioná-lo por:",
       "options": [
         { "id": "a", "text": "concurso ou concorrência por técnica e preço." },
@@ -75,6 +80,7 @@
     {
       "id": "q1539",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração não consegue definir com precisão suficiente as especificações técnicas de uma solução inovadora e precisa discutir alternativas técnicas e financeiras com o mercado. A modalidade compatível é:",
       "options": [
         { "id": "a", "text": "pregão." },
@@ -89,6 +95,7 @@
     {
       "id": "q1540",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No diálogo competitivo, os prazos mínimos para manifestação de interesse e, depois, para apresentação das propostas finais são, respectivamente:",
       "options": [
         { "id": "a", "text": "8 e 15 dias úteis." },
@@ -103,6 +110,7 @@
     {
       "id": "q1541",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante diálogo competitivo, um licitante propôs solução própria e pediu confidencialidade. Segundo a Lei nº 14.133/2021, a Administração:",
       "options": [
         { "id": "a", "text": "deve divulgar a solução a todos, porque toda informação do diálogo é pública de imediato." },
@@ -117,6 +125,7 @@
     {
       "id": "q1542",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta um critério de julgamento previsto no art. 33 da Lei nº 14.133/2021?",
       "options": [
         { "id": "a", "text": "Menor prazo de execução." },
@@ -131,6 +140,7 @@
     {
       "id": "q1543",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No julgamento por maior desconto, o desconto ofertado:",
       "options": [
         { "id": "a", "text": "incide sobre preço global fixado no edital e se estende a eventuais aditivos." },
@@ -145,6 +155,7 @@
     {
       "id": "q1544",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No critério de melhor técnica ou conteúdo artístico:",
       "options": [
         { "id": "a", "text": "a proposta de preço deve valer pelo menos 30% da nota." },
@@ -159,6 +170,7 @@
     {
       "id": "q1545",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No julgamento por técnica e preço, é correto afirmar que:",
       "options": [
         { "id": "a", "text": "a proposta técnica pode valer até 70% e a pontuação por títulos até 10% da pontuação técnica total." },
@@ -173,6 +185,7 @@
     {
       "id": "q1546",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ressalvada a inexigibilidade, uma licitação acima de R$ 392.952,63 em 2026 destina-se a serviço intelectual de elaboração de projeto. O julgamento deverá ser por:",
       "options": [
         { "id": "a", "text": "menor preço, obrigatoriamente." },
@@ -187,6 +200,7 @@
     {
       "id": "q1547",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O critério de maior retorno econômico é utilizado exclusivamente para:",
       "options": [
         { "id": "a", "text": "contrato de eficiência." },
@@ -201,6 +215,7 @@
     {
       "id": "q1548",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos modos de disputa, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "O modo fechado isolado é permitido no menor preço." },
@@ -215,6 +230,7 @@
     {
       "id": "q1549",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em disputa aberta, a melhor proposta foi definida com diferença de 6% para a segunda colocada. O edital prevê a medida. A Administração poderá:",
       "options": [
         { "id": "a", "text": "reiniciar a disputa aberta para definir as demais colocações." },
@@ -229,6 +245,7 @@
     {
       "id": "q1550",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a garantia de proposta, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "É obrigatória em toda licitação e pode chegar a 5%." },
@@ -243,6 +260,7 @@
     {
       "id": "q1551",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma proposta sem vício formal permanece acima do orçamento estimado após as providências cabíveis. Ela deverá ser:",
       "options": [
         { "id": "a", "text": "automaticamente homologada." },
@@ -257,6 +275,7 @@
     {
       "id": "q1552",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em obra orçada em R$ 1.000.000, a proposta vencedora foi de R$ 800.000. Segundo as regras percentuais da Lei nº 14.133/2021, essa proposta:",
       "options": [
         { "id": "a", "text": "é inexequível, pois está abaixo de 85%." },
@@ -271,6 +290,7 @@
     {
       "id": "q1553",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em empate, qual critério deve ser aplicado primeiro?",
       "options": [
         { "id": "a", "text": "Programa de integridade." },
@@ -285,6 +305,7 @@
     {
       "id": "q1554",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Definido o resultado do julgamento, a negociação de condições mais vantajosas:",
       "options": [
         { "id": "a", "text": "é proibida, pois alteraria a proposta." },
@@ -299,6 +320,7 @@
     {
       "id": "q1555",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A indicação de marca em uma compra pública:",
       "options": [
         { "id": "a", "text": "é sempre vedada." },
@@ -313,6 +335,7 @@
     {
       "id": "q1556",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após 16 de março de 2026, a compra de equipamento terapêutico para o SUS acima do limite do art. 75, II, deve considerar:",
       "options": [
         { "id": "a", "text": "somente o preço inicial do equipamento." },
@@ -327,6 +350,7 @@
     {
       "id": "q1557",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual afirmação diferencia contratação integrada de semi-integrada?",
       "options": [
         { "id": "a", "text": "Na integrada, a Administração entrega o projeto executivo pronto." },
@@ -341,6 +365,7 @@
     {
       "id": "q1558",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em contrato de serviço terceirizado, é vedado à Administração:",
       "options": [
         { "id": "a", "text": "definir resultados e níveis de serviço." },
@@ -355,6 +380,7 @@
     {
       "id": "q1559",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A publicidade do edital exige:",
       "options": [
         { "id": "a", "text": "apenas publicação em mural físico." },
@@ -369,6 +395,7 @@
     {
       "id": "q1560",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os prazos mínimos para propostas na aquisição de bens são:",
       "options": [
         { "id": "a", "text": "5 dias úteis no menor preço e 10 nos demais." },
@@ -383,6 +410,7 @@
     {
       "id": "q1561",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Associe corretamente a hipótese ao prazo mínimo: contratação integrada; semi-integrada; julgamento por maior lance.",
       "options": [
         { "id": "a", "text": "60, 35 e 15 dias úteis." },
@@ -397,6 +425,7 @@
     {
       "id": "q1562",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A redução fundamentada dos prazos do art. 55 até a metade é autorizada pela Lei para:",
       "options": [
         { "id": "a", "text": "qualquer órgão em situação de urgência." },
@@ -411,6 +440,7 @@
     {
       "id": "q1563",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na sequência ordinária da licitação, os documentos de habilitação:",
       "options": [
         { "id": "a", "text": "são exigidos de todos, e a regularidade fiscal antecede sempre o julgamento." },
@@ -425,6 +455,7 @@
     {
       "id": "q1564",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Depois da entrega dos documentos de habilitação, diligência pode:",
       "options": [
         { "id": "a", "text": "criar experiência técnica inexistente na data da proposta." },
@@ -439,6 +470,7 @@
     {
       "id": "q1565",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na qualificação técnica, as parcelas de maior relevância têm valor individual igual ou superior a qual percentual do estimado, e o quantitativo mínimo pode chegar a qual percentual dessas parcelas?",
       "options": [
         { "id": "a", "text": "1% e 25%." },
@@ -453,6 +485,7 @@
     {
       "id": "q1566",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na habilitação econômico-financeira, a Lei admite:",
       "options": [
         { "id": "a", "text": "faturamento anterior mínimo sem limite." },
@@ -467,6 +500,7 @@
     {
       "id": "q1567",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Encerrados julgamento, habilitação e recursos, a autoridade superior pode:",
       "options": [
         { "id": "a", "text": "revogar por conveniência sem fato superveniente." },
@@ -481,6 +515,7 @@
     {
       "id": "q1568",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual item integra a instrução do processo de contratação direta?",
       "options": [
         { "id": "a", "text": "Dispensa automática de estimativa de despesa." },
@@ -495,6 +530,7 @@
     {
       "id": "q1569",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A responsabilidade solidária do contratado e do agente pelo dano de contratação direta indevida pressupõe:",
       "options": [
         { "id": "a", "text": "qualquer irregularidade meramente formal." },
@@ -509,6 +545,7 @@
     {
       "id": "q1570",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diferença essencial entre inexigibilidade e dispensa é:",
       "options": [
         { "id": "a", "text": "na inexigibilidade, a competição é inviável; na dispensa, a lei autoriza contratar sem licitação apesar de possível competição." },
@@ -523,6 +560,7 @@
     {
       "id": "q1571",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na inexigibilidade por fornecedor exclusivo, é correto afirmar que:",
       "options": [
         { "id": "a", "text": "a exclusividade é presumida pela simples indicação de marca." },
@@ -537,6 +575,7 @@
     {
       "id": "q1572",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para inexigibilidade na contratação de artista por empresário exclusivo, exige-se que o empresário:",
       "options": [
         { "id": "a", "text": "tenha representação restrita ao dia do evento." },
@@ -551,6 +590,7 @@
     {
       "id": "q1573",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma empresa foi contratada por inexigibilidade graças à notória especialização de determinada equipe. Durante a execução, pretende substituí-la por terceiros. A Lei:",
       "options": [
         { "id": "a", "text": "autoriza livremente, pois a notória especialização só importa na assinatura." },
@@ -565,6 +605,7 @@
     {
       "id": "q1574",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A inexigibilidade para aquisição ou locação de imóvel específico exige, entre outros elementos:",
       "options": [
         { "id": "a", "text": "apenas declaração do proprietário." },
@@ -579,6 +620,7 @@
     {
       "id": "q1575",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 2026, a dispensa por valor alcança contratações inferiores a:",
       "options": [
         { "id": "a", "text": "R$ 130.984,20 para engenharia/manutenção de veículos e R$ 65.492,11 para demais compras e serviços." },
@@ -593,6 +635,7 @@
     {
       "id": "q1576",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para verificar o limite da dispensa por valor, a unidade gestora deve considerar:",
       "options": [
         { "id": "a", "text": "cada nota de empenho isoladamente." },
@@ -607,6 +650,7 @@
     {
       "id": "q1577",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma licitação realizada há dez meses não recebeu propostas válidas. A Administração pode dispensar nova licitação se:",
       "options": [
         { "id": "a", "text": "alterar livremente todas as condições do edital anterior." },
@@ -621,6 +665,7 @@
     {
       "id": "q1578",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual contratação aparece expressamente entre os objetos específicos dispensáveis do art. 75, IV?",
       "options": [
         { "id": "a", "text": "Qualquer obra de arte, sem relação com o órgão." },
@@ -635,6 +680,7 @@
     {
       "id": "q1579",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na dispensa por emergência ou calamidade, a Lei permite contratar parcelas de obras e serviços:",
       "options": [
         { "id": "a", "text": "concluíveis em até um ano contado da ocorrência, sem prorrogação baseada nessa hipótese." },
@@ -649,6 +695,7 @@
     {
       "id": "q1580",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a interpretação conforme do STF na ADI 6.890/DF, a vedação de recontratação emergencial:",
       "options": [
         { "id": "a", "text": "impede para sempre a mesma empresa de contratar com a Administração." },
@@ -663,6 +710,7 @@
     {
       "id": "q1581",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A alienação de imóvel adquirido pela Administração em procedimento judicial:",
       "options": [
         { "id": "a", "text": "exige autorização legislativa, mas dispensa avaliação." },
@@ -677,6 +725,7 @@
     {
       "id": "q1582",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No credenciamento paralelo e não excludente, se o objeto não permitir contratação imediata e simultânea de todos os credenciados, a Administração deve:",
       "options": [
         { "id": "a", "text": "escolher livremente o preferido." },
@@ -691,6 +740,7 @@
     {
       "id": "q1583",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A pré-qualificação permanece aberta para inscrições, mas sua validade:",
       "options": [
         { "id": "a", "text": "é sempre indeterminada." },
@@ -705,6 +755,7 @@
     {
       "id": "q1584",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A participação privada em procedimento de manifestação de interesse:",
       "options": [
         { "id": "a", "text": "gera preferência automática na futura licitação." },
@@ -719,6 +770,7 @@
     {
       "id": "q1585",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A existência de preço registrado em ata:",
       "options": [
         { "id": "a", "text": "obriga a Administração a adquirir todo o quantitativo." },
@@ -733,6 +785,7 @@
     {
       "id": "q1586",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Obras e serviços de engenharia podem ser contratados pelo SRP quando houver:",
       "options": [
         { "id": "a", "text": "qualquer projeto inovador e demanda única." },
@@ -747,6 +800,7 @@
     {
       "id": "q1587",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na adesão comum a ata de registro de preços por órgão não participante, os limites são:",
       "options": [
         { "id": "a", "text": "100% por aderente e dez vezes no total." },
@@ -761,6 +815,7 @@
     {
       "id": "q1588",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre o registro cadastral unificado no PNCP, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "É lícito exigir cadastro complementar para ler o edital." },

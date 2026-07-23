@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { questionSetSchema, type QuestionSet } from './content-schema';
+import { syncQuestionSetSchema, type AnswerableQuestionSet } from './content-schema';
 import { buildAnswerDocumentId } from './identity';
 import { getLocalAnswerRecord, getSharedDocumentRecord, updateSharedDocuments } from './offline-db';
 import { DEFAULT_PREFERENCES, preferencesSchema } from './preferences';
@@ -41,7 +41,7 @@ export function progressSubjectId(contestStorageId: string, subjectStorageId: st
 }
 
 export function materializeSubjectProgress(
-  questionSet: QuestionSet,
+  questionSet: AnswerableQuestionSet,
   document: AnswerDocument,
   correctionMode: CorrectionMode,
   answerVersion: number,
@@ -85,7 +85,7 @@ export async function loadProgress(profileId: string): Promise<ProgressDocument>
 export async function updateSubjectProgress(
   profileId: string,
   subjectId: string,
-  questionSet: QuestionSet,
+  questionSet: AnswerableQuestionSet,
   document: AnswerDocument,
   answerVersion: number,
 ): Promise<void> {
@@ -121,7 +121,7 @@ const repairCatalogSchema = z.object({
     z.object({
       contestStorageId: z.string(),
       subjectStorageId: z.string(),
-      questionSet: questionSetSchema,
+      questionSet: syncQuestionSetSchema,
     }),
   ),
 });

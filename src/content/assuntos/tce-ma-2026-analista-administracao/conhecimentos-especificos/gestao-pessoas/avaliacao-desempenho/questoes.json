@@ -5,6 +5,7 @@
     {
       "id": "q2979",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Gestão de desempenho distingue-se de avaliação de desempenho porque a gestão",
       "options": [
         {
@@ -30,6 +31,7 @@
     {
       "id": "q2980",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação de desempenho consiste principalmente em",
       "options": [
         {
@@ -55,6 +57,7 @@
     {
       "id": "q2981",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O desempenho individual deve ser interpretado como",
       "options": [
         {
@@ -80,6 +83,7 @@
     {
       "id": "q2982",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Constitui objetivo legítimo da avaliação de desempenho",
       "options": [
         {
@@ -105,6 +109,7 @@
     {
       "id": "q2983",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O alinhamento estratégico ocorre quando a organização",
       "options": [
         {
@@ -130,6 +135,7 @@
     {
       "id": "q2984",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um instrumento criado para feedback de desenvolvimento",
       "options": [
         {
@@ -155,6 +161,7 @@
     {
       "id": "q2985",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na etapa de planejamento do desempenho, é essencial definir",
       "options": [
         {
@@ -180,6 +187,7 @@
     {
       "id": "q2986",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A participação do servidor na definição de objetivos",
       "options": [
         {
@@ -205,6 +213,7 @@
     {
       "id": "q2987",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O monitoramento contínuo permite",
       "options": [
         {
@@ -230,6 +239,7 @@
     {
       "id": "q2988",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando mudança externa relevante torna uma meta inviável, a gestão adequada é",
       "options": [
         {
@@ -255,6 +265,7 @@
     {
       "id": "q2989",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A etapa de desenvolvimento pode incluir",
       "options": [
         {
@@ -280,6 +291,7 @@
     {
       "id": "q2990",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na avaliação final do ciclo, o julgador deve",
       "options": [
         {
@@ -305,6 +317,7 @@
     {
       "id": "q2991",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Critério de avaliação responde à pergunta",
       "options": [
         {
@@ -330,6 +343,7 @@
     {
       "id": "q2992",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Indicador é",
       "options": [
         {
@@ -355,6 +369,7 @@
     {
       "id": "q2993",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma meta tecnicamente adequada deve",
       "options": [
         {
@@ -380,6 +395,7 @@
     {
       "id": "q2994",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Usar apenas quantidade como indicador pode",
       "options": [
         {
@@ -405,6 +421,7 @@
     {
       "id": "q2995",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Validade de uma avaliação diz respeito a",
       "options": [
         {
@@ -430,6 +447,7 @@
     {
       "id": "q2996",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Confiabilidade elevada",
       "options": [
         {
@@ -455,6 +473,7 @@
     {
       "id": "q2997",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O método de escalas gráficas apresenta",
       "options": [
         {
@@ -480,6 +499,7 @@
     {
       "id": "q2998",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma vantagem das escalas gráficas é",
       "options": [
         {
@@ -505,6 +525,7 @@
     {
       "id": "q2999",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No método de escolha forçada, o avaliador",
       "options": [
         {
@@ -530,6 +551,7 @@
     {
       "id": "q3000",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma limitação da escolha forçada é",
       "options": [
         {
@@ -555,6 +577,7 @@
     {
       "id": "q3001",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A pesquisa de campo caracteriza-se por",
       "options": [
         {
@@ -580,6 +603,7 @@
     {
       "id": "q3002",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A principal desvantagem da pesquisa de campo é",
       "options": [
         {
@@ -605,6 +629,7 @@
     {
       "id": "q3003",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O método dos incidentes críticos registra",
       "options": [
         {
@@ -630,6 +655,7 @@
     {
       "id": "q3004",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Registrar incidentes ao longo de todo o ciclo ajuda a controlar",
       "options": [
         {
@@ -655,6 +681,7 @@
     {
       "id": "q3005",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O ensaio ou narrativa é especialmente útil para",
       "options": [
         {
@@ -680,6 +707,7 @@
     {
       "id": "q3006",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Lista de verificação tende a",
       "options": [
         {
@@ -705,6 +733,7 @@
     {
       "id": "q3007",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Comparação pareada avalia cada pessoa",
       "options": [
         {
@@ -730,6 +759,7 @@
     {
       "id": "q3008",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma pessoa ocupar a última posição de um ranking significa que",
       "options": [
         {
@@ -755,6 +785,7 @@
     {
       "id": "q3009",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Distribuição forçada consiste em",
       "options": [
         {
@@ -780,6 +811,7 @@
     {
       "id": "q3010",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em equipe homogênea e de alto desempenho, a distribuição forçada pode",
       "options": [
         {
@@ -805,6 +837,7 @@
     {
       "id": "q3011",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As escalas BARS associam",
       "options": [
         {
@@ -830,6 +863,7 @@
     {
       "id": "q3012",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto às BARS, é correto afirmar que",
       "options": [
         {
@@ -855,6 +889,7 @@
     {
       "id": "q3013",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na administração por objetivos, a avaliação concentra-se",
       "options": [
         {
@@ -880,6 +915,7 @@
     {
       "id": "q3014",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma limitação da APO é",
       "options": [
         {
@@ -905,6 +941,7 @@
     {
       "id": "q3015",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação participativa por objetivos",
       "options": [
         {
@@ -930,6 +967,7 @@
     {
       "id": "q3016",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Combinar metas, BARS, incidentes e narrativa pode",
       "options": [
         {
@@ -955,6 +993,7 @@
     {
       "id": "q3017",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A chefia imediata é fonte útil porque costuma observar",
       "options": [
         {
@@ -980,6 +1019,7 @@
     {
       "id": "q3018",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Autoavaliação pode contribuir ao",
       "options": [
         {
@@ -1005,6 +1045,7 @@
     {
       "id": "q3019",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pares tendem a observar melhor",
       "options": [
         {
@@ -1030,6 +1071,7 @@
     {
       "id": "q3020",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Avaliação por subordinados é útil sobretudo para liderança, desde que",
       "options": [
         {
@@ -1055,6 +1097,7 @@
     {
       "id": "q3021",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Clientes devem avaliar",
       "options": [
         {
@@ -1080,6 +1123,7 @@
     {
       "id": "q3022",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre 180 graus, a afirmação mais precisa é",
       "options": [
         {
@@ -1105,6 +1149,7 @@
     {
       "id": "q3023",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Avaliação 360 graus caracteriza-se por",
       "options": [
         {
@@ -1130,6 +1175,7 @@
     {
       "id": "q3024",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A multiplicidade de fontes na avaliação 360 graus",
       "options": [
         {
@@ -1155,6 +1201,7 @@
     {
       "id": "q3025",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O efeito halo ocorre quando",
       "options": [
         {
@@ -1180,6 +1227,7 @@
     {
       "id": "q3026",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O efeito horn consiste em",
       "options": [
         {
@@ -1205,6 +1253,7 @@
     {
       "id": "q3027",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Viés de recência é controlado principalmente por",
       "options": [
         {
@@ -1230,6 +1279,7 @@
     {
       "id": "q3028",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Tendência central ocorre quando o avaliador",
       "options": [
         {
@@ -1255,6 +1305,7 @@
     {
       "id": "q3029",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leniência e severidade correspondem, respectivamente, a",
       "options": [
         {
@@ -1280,6 +1331,7 @@
     {
       "id": "q3030",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Erro de contraste aparece quando o avaliador",
       "options": [
         {
@@ -1305,6 +1357,7 @@
     {
       "id": "q3031",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O viés de semelhança leva o avaliador a",
       "options": [
         {
@@ -1330,6 +1383,7 @@
     {
       "id": "q3032",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Calibragem de avaliações deve",
       "options": [
         {
@@ -1355,6 +1409,7 @@
     {
       "id": "q3033",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Treinamento de avaliadores é mais efetivo quando",
       "options": [
         {
@@ -1380,6 +1435,7 @@
     {
       "id": "q3034",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Feedback eficaz deve",
       "options": [
         {
@@ -1405,6 +1461,7 @@
     {
       "id": "q3035",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Diante de resultado insuficiente, o diagnóstico adequado começa por",
       "options": [
         {
@@ -1430,6 +1487,7 @@
     {
       "id": "q3036",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No setor público, a consequência de uma avaliação",
       "options": [
         {
@@ -1455,6 +1513,7 @@
     {
       "id": "q3037",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Decreto nº 12.374/2025 deve ser usado no estudo do TCE-MA como",
       "options": [
         {
@@ -1480,6 +1539,7 @@
     {
       "id": "q3038",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na avaliação de pessoa com deficiência, a conduta correta é",
       "options": [
         {

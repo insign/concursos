@@ -5,6 +5,7 @@
     {
       "id": "q1754",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao constatar irregularidade insanável na execução contratual, a autoridade pretende declarar imediatamente a nulidade apenas porque o vício foi comprovado. Segundo o art. 147, ela deve:",
       "options": [
         { "id": "a", "text": "avaliar se suspensão ou nulidade é medida de interesse público, considerando as consequências legais, sem afastar responsabilização." },
@@ -19,6 +20,7 @@
     {
       "id": "q1755",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Como regra, a declaração de nulidade do contrato administrativo:",
       "options": [
         { "id": "a", "text": "produz somente efeitos futuros e preserva todos os anteriores." },
@@ -33,6 +35,7 @@
     {
       "id": "q1756",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para evitar a interrupção de atividade administrativa, a autoridade declara a nulidade, mas precisa de tempo para nova contratação. O art. 148 permite eficácia futura por:",
       "options": [
         { "id": "a", "text": "até 30 dias, sem prorrogação." },
@@ -47,6 +50,7 @@
     {
       "id": "q1757",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um contratado executou regularmente parte do objeto, mas provocou dolosamente o vício que levou à nulidade. Sobre o art. 149, assinale a correta:",
       "options": [
         { "id": "a", "text": "a Administração nunca indeniza execução ocorrida em contrato nulo." },
@@ -61,6 +65,7 @@
     {
       "id": "q1758",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes de contratar, o órgão descreve o objeto de modo genérico e não indica créditos para as parcelas que vencerão no exercício. A Lei nº 14.133/2021 determina que:",
       "options": [
         { "id": "a", "text": "a ausência de crédito é irrelevante se houver futuro aditivo." },
@@ -75,6 +80,7 @@
     {
       "id": "q1759",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração e a contratada divergem sobre o cálculo da recomposição econômico-financeira. Esse conflito:",
       "options": [
         { "id": "a", "text": "pode ser submetido a meio alternativo por envolver direito patrimonial disponível expressamente exemplificado na Lei." },
@@ -89,6 +95,7 @@
     {
       "id": "q1760",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em arbitragem que envolva a Administração Pública sob a Lei nº 14.133/2021:",
       "options": [
         { "id": "a", "text": "o árbitro pode decidir apenas por equidade e o processo é necessariamente sigiloso." },
@@ -103,6 +110,7 @@
     {
       "id": "q1761",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um contrato não contém cláusula original sobre mediação ou arbitragem. Durante a execução, surge conflito patrimonial disponível. Segundo o art. 153:",
       "options": [
         { "id": "a", "text": "a omissão original torna impossível qualquer meio alternativo." },
@@ -117,6 +125,7 @@
     {
       "id": "q1762",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A escolha de árbitros, colegiados arbitrais e comitês de resolução de disputas deve observar critérios:",
       "options": [
         { "id": "a", "text": "políticos, secretos e discricionários." },
@@ -131,6 +140,7 @@
     {
       "id": "q1763",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual conduta é infração administrativa expressamente prevista no art. 155?",
       "options": [
         { "id": "a", "text": "formular pedido de esclarecimento tempestivo sobre o edital." },
@@ -145,6 +155,7 @@
     {
       "id": "q1764",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A advertência prevista no art. 156 é aplicável:",
       "options": [
         { "id": "a", "text": "exclusivamente à inexecução parcial simples do art. 155, I, quando não se justificar sanção mais grave." },
@@ -159,6 +170,7 @@
     {
       "id": "q1765",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A multa administrativa do art. 156:",
       "options": [
         { "id": "a", "text": "é limitada a 3% e somente incide na inexecução total." },
@@ -173,6 +185,7 @@
     {
       "id": "q1766",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O impedimento de licitar e contratar aplicado por um Estado, conforme o art. 156, § 4º:",
       "options": [
         { "id": "a", "text": "alcança automaticamente todos os entes federativos por seis anos." },
@@ -187,6 +200,7 @@
     {
       "id": "q1767",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A declaração de inidoneidade para licitar ou contratar:",
       "options": [
         { "id": "a", "text": "tem alcance apenas no órgão que conduziu o processo." },
@@ -201,6 +215,7 @@
     {
       "id": "q1768",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na dosimetria das sanções, a Administração deve considerar:",
       "options": [
         { "id": "a", "text": "somente o valor nominal do contrato." },
@@ -215,6 +230,7 @@
     {
       "id": "q1769",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre cumulação e reparação no regime sancionador, é correto afirmar que:",
       "options": [
         { "id": "a", "text": "advertência, impedimento e inidoneidade podem cumular com multa, e nenhuma sanção afasta a reparação integral." },
@@ -229,6 +245,7 @@
     {
       "id": "q1770",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes de aplicar multa administrativa, a Administração deve facultar defesa ao interessado no prazo de:",
       "options": [
         { "id": "a", "text": "três dias corridos da ocorrência." },
@@ -243,6 +260,7 @@
     {
       "id": "q1771",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em órgão com quadro estatutário, o processo para impedimento ou inidoneidade será conduzido por:",
       "options": [
         { "id": "a", "text": "um fiscal escolhido pela contratada." },
@@ -257,6 +275,7 @@
     {
       "id": "q1772",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No processo de responsabilização, foi deferida produção de nova prova. Depois de intimado, o acusado:",
       "options": [
         { "id": "a", "text": "não pode mais se manifestar sobre o material." },
@@ -271,6 +290,7 @@
     {
       "id": "q1773",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A prescrição prevista no art. 158 ocorre em cinco anos da ciência da infração pela Administração e:",
       "options": [
         { "id": "a", "text": "não admite qualquer alteração na contagem." },
@@ -285,6 +305,7 @@
     {
       "id": "q1774",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma conduta é simultaneamente infração licitatória e ato lesivo da Lei nº 12.846/2013. Ela será:",
       "options": [
         { "id": "a", "text": "apurada e julgada conjuntamente nos mesmos autos, segundo rito e autoridade da Lei Anticorrupção." },
@@ -299,6 +320,7 @@
     {
       "id": "q1775",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A desconsideração da personalidade jurídica para estender efeitos de sanção exige:",
       "options": [
         { "id": "a", "text": "apenas que a pessoa seja sócia minoritária." },
@@ -313,6 +335,7 @@
     {
       "id": "q1776",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após aplicar sanção, órgãos e entidades de todos os entes devem atualizar CEIS e CNEP no prazo máximo de:",
       "options": [
         { "id": "a", "text": "três dias corridos da abertura do processo." },
@@ -327,6 +350,7 @@
     {
       "id": "q1777",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O atraso injustificado na execução contratual:",
       "options": [
         { "id": "a", "text": "nunca pode gerar multa se não houver dano material." },
@@ -341,6 +365,7 @@
     {
       "id": "q1778",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para reabilitação após declaração de inidoneidade, entre outros requisitos, exige-se:",
       "options": [
         { "id": "a", "text": "apenas pedido verbal após seis meses." },
@@ -355,6 +380,7 @@
     {
       "id": "q1779",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Além dos cinco requisitos gerais, a reabilitação por qual infração exige programa de integridade?",
       "options": [
         { "id": "a", "text": "declaração ou documentação falsa do inciso VIII e ato lesivo anticorrupção do inciso XII." },
@@ -369,6 +395,7 @@
     {
       "id": "q1780",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre impugnação de edital e pedido de esclarecimento, assinale a alternativa correta:",
       "options": [
         { "id": "a", "text": "somente licitante previamente cadastrado possui legitimidade." },
@@ -383,6 +410,7 @@
     {
       "id": "q1781",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Cabe recurso administrativo em três dias úteis contra:",
       "options": [
         { "id": "a", "text": "qualquer conversa informal entre fiscais." },
@@ -397,6 +425,7 @@
     {
       "id": "q1782",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No julgamento das propostas e na habilitação, a intenção de recorrer deve ser:",
       "options": [
         { "id": "a", "text": "manifestada somente depois do contrato." },
@@ -411,6 +440,7 @@
     {
       "id": "q1783",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Da aplicação de advertência, multa ou impedimento cabe:",
       "options": [
         { "id": "a", "text": "somente pedido de reconsideração em três dias corridos." },
@@ -425,6 +455,7 @@
     {
       "id": "q1784",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contra declaração de inidoneidade, a Lei admite:",
       "options": [
         { "id": "a", "text": "apenas pedido de reconsideração em 15 dias úteis, decidido em até 20 dias úteis." },
@@ -439,6 +470,7 @@
     {
       "id": "q1785",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O recurso e o pedido de reconsideração contra sanções têm:",
       "options": [
         { "id": "a", "text": "efeito apenas devolutivo, sem exceção." },
@@ -453,6 +485,7 @@
     {
       "id": "q1786",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo do art. 169, integram a terceira linha de defesa:",
       "options": [
         { "id": "a", "text": "licitantes e contratados." },
@@ -467,6 +500,7 @@
     {
       "id": "q1787",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao receber documento classificado para realizar fiscalização, o órgão de controle:",
       "options": [
         { "id": "a", "text": "deve recusá-lo, pois nunca acessa informação sigilosa." },
@@ -481,6 +515,7 @@
     {
       "id": "q1788",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As linhas de defesa constatam irregularidade que causou dano à Administração. Devem:",
       "options": [
         { "id": "a", "text": "tratar o caso apenas como falha formal e arquivá-lo." },
@@ -495,6 +530,7 @@
     {
       "id": "q1789",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na fiscalização de atos da Lei nº 14.133/2021, os órgãos de controle devem adotar critérios de:",
       "options": [
         { "id": "a", "text": "oportunidade, materialidade, relevância e risco, considerando razões do gestor e resultados." },
@@ -509,6 +545,7 @@
     {
       "id": "q1790",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quem pode representar contra irregularidade na aplicação da Lei aos órgãos de controle interno ou ao tribunal de contas?",
       "options": [
         { "id": "a", "text": "somente a autoridade máxima do órgão." },
@@ -523,6 +560,7 @@
     {
       "id": "q1791",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após suspender cautelarmente uma licitação, o tribunal de contas deve decidir o mérito da irregularidade em:",
       "options": [
         { "id": "a", "text": "25 dias corridos desde a publicação do edital, sem prorrogação." },
@@ -537,6 +575,7 @@
     {
       "id": "q1792",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Intimado da suspensão cautelar, o órgão ou entidade possui, admitida prorrogação, o prazo de:",
       "options": [
         { "id": "a", "text": "24 horas para anular obrigatoriamente a licitação." },
@@ -551,6 +590,7 @@
     {
       "id": "q1793",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 173, as escolas dos tribunais de contas devem:",
       "options": [
         { "id": "a", "text": "substituir os agentes de contratação em todas as licitações." },
@@ -565,6 +605,7 @@
     {
       "id": "q1794",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O PNCP destina-se à:",
       "options": [
         { "id": "a", "text": "divulgação centralizada e obrigatória dos atos exigidos e realização facultativa das contratações." },
@@ -579,6 +620,7 @@
     {
       "id": "q1795",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Comitê Gestor da Rede Nacional de Contratações Públicas possui representação:",
       "options": [
         { "id": "a", "text": "somente de empresas privadas de tecnologia." },
@@ -593,6 +635,7 @@
     {
       "id": "q1796",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual informação integra expressamente o conteúdo previsto para o PNCP?",
       "options": [
         { "id": "a", "text": "senhas pessoais dos servidores." },
@@ -607,6 +650,7 @@
     {
       "id": "q1797",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após a Lei nº 15.266/2025, entre as funcionalidades do PNCP está:",
       "options": [
         { "id": "a", "text": "um sistema obrigatório de votação popular de sanções." },
@@ -621,6 +665,7 @@
     {
       "id": "q1798",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao formato e à transparência, o PNCP:",
       "options": [
         { "id": "a", "text": "deve usar formato fechado e proprietário." },
@@ -635,6 +680,7 @@
     {
       "id": "q1799",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um ente pretende usar plataforma eletrônica fornecida por pessoa jurídica privada para suas contratações. A redação vigente do art. 175 permite essa solução:",
       "options": [
         { "id": "a", "text": "desde que mantida integração com o PNCP e observada a regulamentação federal aplicável." },
@@ -649,6 +695,7 @@
     {
       "id": "q1800",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O prazo de seis anos concedido pelo art. 176 a Municípios com até 20 mil habitantes:",
       "options": [
         { "id": "a", "text": "suspende integralmente a Lei nº 14.133/2021 até 2030." },
@@ -663,6 +710,7 @@
     {
       "id": "q1801",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A divulgação no PNCP como condição de eficácia do contrato ou aditivo deve ocorrer, respectivamente, após licitação e contratação direta, em até:",
       "options": [
         { "id": "a", "text": "cinco e cinco dias corridos." },
@@ -677,6 +725,7 @@
     {
       "id": "q1802",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Lei nº 14.133/2021 tratou os crimes em licitações e contratos ao:",
       "options": [
         { "id": "a", "text": "eliminar toda responsabilização penal." },
@@ -691,6 +740,7 @@
     {
       "id": "q1803",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os valores monetários fixados pela Lei nº 14.133/2021 são:",
       "options": [
         { "id": "a", "text": "imutáveis desde 2021." },
@@ -705,6 +755,7 @@
     {
       "id": "q1804",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na contagem dos prazos da Lei nº 14.133/2021:",
       "options": [
         { "id": "a", "text": "exclui-se o dia do começo, inclui-se o do vencimento e, em dias úteis, contam-se dias com expediente administrativo." },
@@ -719,6 +770,7 @@
     {
       "id": "q1805",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 2026, o limite atualizado do art. 184-A para o regime simplificado de instrumentos com participação da União é:",
       "options": [
         { "id": "a", "text": "R$ 150.000,00, valor permanente." },
@@ -733,6 +785,7 @@
     {
       "id": "q1806",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 187, Estados, Distrito Federal e Municípios:",
       "options": [
         { "id": "a", "text": "são obrigados a copiar todo regulamento federal automaticamente." },
@@ -747,6 +800,7 @@
     {
       "id": "q1807",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a transição entre a Lei nº 14.133/2021 e os regimes revogados, é correto afirmar que:",
       "options": [
         { "id": "a", "text": "em 2026 ainda se pode iniciar licitação pela Lei nº 8.666/1993." },
@@ -761,6 +815,7 @@
     {
       "id": "q1808",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à revogação e à vigência, assinale a alternativa correta:",
       "options": [
         { "id": "a", "text": "a Lei nº 14.133 entrou em vigor somente em 30 de dezembro de 2023." },
@@ -775,6 +830,7 @@
     {
       "id": "q1809",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O art. 177 alterou o Código de Processo Civil para atribuir prioridade aos processos judiciais:",
       "options": [
         { "id": "a", "text": "em que se discuta a aplicação das normas gerais de licitação e contratação mencionadas na Constituição." },
@@ -789,6 +845,7 @@
     {
       "id": "q1810",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os arts. 179 e 180 ajustaram as Leis de Concessões e de PPP para prever licitação nas modalidades:",
       "options": [
         { "id": "a", "text": "pregão ou leilão apenas." },
@@ -803,6 +860,7 @@
     {
       "id": "q1811",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para compras em grande escala destinadas a vários órgãos e entidades, os entes federativos devem:",
       "options": [
         { "id": "a", "text": "descentralizar obrigatoriamente cada compra." },
@@ -817,6 +875,7 @@
     {
       "id": "q1812",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a aplicação a outros regimes, assinale a alternativa correta:",
       "options": [
         { "id": "a", "text": "os crimes licitatórios não alcançam a Lei das Estatais." },
@@ -831,6 +890,7 @@
     {
       "id": "q1813",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual afirmação sobre as disposições finais está correta?",
       "options": [
         { "id": "a", "text": "referências legais antigas permanecem sem correspondência com a Lei nº 14.133." },
@@ -845,6 +905,7 @@
     {
       "id": "q1814",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um agente frauda o caráter competitivo de uma licitação com a finalidade específica de obter, para terceiro, vantagem decorrente da adjudicação. Em tese, a conduta corresponde ao crime de:",
       "options": [
         { "id": "a", "text": "frustração do caráter competitivo de licitação, do art. 337-F do Código Penal." },
@@ -859,6 +920,7 @@
     {
       "id": "q1815",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Servidor patrocina interesse privado perante a Administração e causa a celebração de contrato cuja invalidação depois é decretada pelo Poder Judiciário. O núcleo descrito é o de:",
       "options": [
         { "id": "a", "text": "afastamento de licitante." },
@@ -873,6 +935,7 @@
     {
       "id": "q1816",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante a execução, o responsável paga fatura com preterição da ordem cronológica de exigibilidade. Sem prejuízo da análise do caso concreto, essa conduta aparece no tipo de:",
       "options": [
         { "id": "a", "text": "contratação direta ilegal." },
@@ -887,6 +950,7 @@
     {
       "id": "q1817",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um licitante aceita vantagem oferecida por concorrente e, por isso, desiste de licitar. Segundo o art. 337-K do Código Penal, ele:",
       "options": [
         { "id": "a", "text": "não responde, pois o tipo alcança somente quem oferece violência." },
@@ -901,6 +965,7 @@
     {
       "id": "q1818",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Projetista omite deliberadamente levantamento topográfico relevante, em dissonância com a realidade e em detrimento da proposta mais vantajosa, para obter benefício indireto para terceiro. Em tese:",
       "options": [
         { "id": "a", "text": "a conduta é atípica porque levantamento topográfico nunca é condição de contorno." },

@@ -5,6 +5,7 @@
     {
       "id": "q734",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um órgão público, qual situação caracteriza planejamento estratégico, e não apenas a existência de um plano?",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q735",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a IN SEGES/ME nº 24/2020, qual relação entre planejamento estratégico e PEI está correta?",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q736",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma organização possui um plano aprovado, mas não acompanha indicadores, riscos nem iniciativas. O que falta principalmente?",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q737",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma decisão que define visão institucional, prioridades e objetivos para toda a organização pertence predominantemente ao nível",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q738",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual exemplo representa alinhamento vertical?",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q739",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual declaração é uma missão institucional?",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q740",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual declaração é uma visão de futuro?",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q741",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Valores organizacionais são corretamente entendidos como",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q742",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No setor público, valor público corresponde principalmente a",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q743",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na análise de stakeholders, a administração deve",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q744",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual afirmação sobre estratégia pretendida, deliberada, emergente e realizada está correta?",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q745",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Nos cinco Ps de Mintzberg, estratégia como plano significa",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q746",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quando uma organização mantém, ao longo dos anos, a prática consistente de priorizar atendimento digital, mesmo sem documento inicial único, a estratégia é observada como",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q747",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Nos cinco Ps, escolher atender um segmento específico de usuários representa estratégia como",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q748",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual sequência melhor representa um ciclo de gestão estratégica?",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q749",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual fator deve ser classificado como interno na perspectiva de uma autarquia?",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q750",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na SWOT, uma equipe com domínio avançado de análise de dados constitui",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q751",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na SWOT, a abertura de linha internacional de financiamento para digitalização constitui",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q752",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na TOWS, uma estratégia SO busca",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q753",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma estratégia WO procura",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q754",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma mudança na composição etária da população é classificada, em PESTEL, predominantemente como fator",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q755",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual afirmação sobre planejamento por cenários está correta?",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q756",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Fator crítico de sucesso é",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q757",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual relação está correta?",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q758",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um objetivo SMART deve ser",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q759",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Se o indicador de tempo médio apresenta 180 dias antes da intervenção e a organização pretende alcançar 126 dias até 2028, 180 e 126 representam, respectivamente,",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q760",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual opção é uma iniciativa estratégica?",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q761",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na cadeia de resultados, um relatório emitido é normalmente classificado como",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q762",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual exemplo representa efetividade?",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q763",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola do design entende a formulação estratégica predominantemente como",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q764",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola do planejamento enfatiza",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q765",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola do posicionamento caracteriza a formulação como",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q766",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola empreendedora enfatiza",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q767",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola cognitiva trata estratégia como",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q768",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola da aprendizagem associa a estratégia a",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q769",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola do poder destaca",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q770",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola cultural entende a estratégia como",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q771",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola ambiental atribui maior ênfase a",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q772",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escola da configuração procura",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q773",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual elemento NÃO integra as cinco forças de Porter?",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q774",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma organização que atende deliberadamente um segmento restrito adota, segundo Porter, estratégia de",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q775",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na matriz de Ansoff, oferecer um novo serviço a usuários já atendidos corresponde a",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q776",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na matriz BCG, um produto com baixa participação relativa e alto crescimento é",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q777",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No BSC clássico, capacitação, cultura e sistemas de informação pertencem predominantemente à perspectiva",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q778",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Mapa estratégico é",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q779",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par representa, respectivamente, indicador de tendência e indicador de resultado?",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q780",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na adaptação do BSC ao setor público, é correto",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q781",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em OKR, resultado-chave é",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q782",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual conduta integra corretamente estratégia e riscos?",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q783",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual afirmação sobre PEI, PPA, LDO e LOA está correta?",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q784",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma declaração institucional afirma: “Exercer o controle externo, orientando e fiscalizando a gestão dos recursos públicos, em benefício da sociedade”. Essa declaração representa melhor",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q785",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em ambiente altamente volátil, qual postura estratégica é mais adequada?",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q786",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na SWOT de uma organização, ameaças e oportunidades são",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q787",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma organização mede capacitação de equipes e, meses depois, mede a redução do tempo de atendimento. Para validar a estratégia, deve",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q788",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A eficácia da execução estratégica depende do alinhamento vertical porque ele",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q789",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma autarquia usa o BSC. Qual medida financeira é compatível com sua natureza pública?",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q790",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual opção corrige a inversão entre missão e visão?",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q791",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em um mapa BSC, a meta “reduzir o tempo médio de deslocamento em 20%” deve ser classificada como",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q792",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma secretaria classifica crescimento da frota particular como fraqueza e baixa integração entre modais como ameaça. A classificação mais adequada é",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q793",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em planejamento, matriz GUT e 5W2H exercem funções diferentes porque",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q794",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No BSC de uma empresa industrial, automação de linha de produção e melhoria do ciclo produtivo pertencem predominantemente à perspectiva",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q795",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O BSC contribui para o planejamento porque",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q796",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na construção de um mapa estratégico, qual prática é correta?",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q797",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No BSC, o mapa estratégico tem por função",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q798",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma aplicação adequada do BSC deve considerar",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q799",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Planejamento por cenários é mais bem definido como",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q800",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Segundo Porter, a estratégia de enfoque",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q801",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual afirmação sintetiza corretamente o uso do BSC?",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q802",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Os objetivos “desenvolver competências de liderança” e “inovar em tecnologia da informação” pertencem, no BSC, à perspectiva",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q803",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a opção correta sobre níveis de planejamento.",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q804",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A análise SWOT integra o planejamento estratégico porque",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q805",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um órgão que concentra atendimento em contribuintes de maior valor adota, no modelo de Porter, predominantemente",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q806",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma organização que constrói a estratégia a partir de como seus servidores percebem e interpretam o ambiente aproxima-se da escola",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q807",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Os objetivos estratégicos de uma organização devem ser estabelecidos considerando",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q808",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma declaração de missão pode incluir",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q809",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Estratégias emergentes",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q810",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A estratégia deliberada distingue-se da emergente porque a deliberada",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q811",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um fator crítico de sucesso pode apoiar",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q812",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No planejamento público, fatores críticos de sucesso devem ser tratados como",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q813",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "“Pequeno capital disponível para investimento” é, em regra, melhor classificado como",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q814",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Fatores demográficos, sociais, legais e ecológicos devem ser examinados, no planejamento estratégico, principalmente por meio da análise",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q815",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No BSC clássico, as quatro perspectivas são",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q816",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual relação entre planejamento tático e operacional está correta?",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q817",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em uma sequência coerente de planejamento, qual ordenação é mais adequada?",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q818",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na matriz BCG, pontos de interrogação apresentam",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q819",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O método de fatores críticos de sucesso",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q820",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um objetivo que seja específico, mensurável, atingível, relevante e temporal atende ao critério",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q821",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na análise ambiental de uma prefeitura, distribuição de renda e perfil etário da população são",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q822",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O planejamento baseado em cenários",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q823",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Nos cinco Ps de Mintzberg, quando a organização define seu lugar em relação ao ambiente e aos públicos, estratégia é entendida como",
       "options": [
         {

@@ -5,6 +5,7 @@
     {
       "id": "q134",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere o trecho: “O relatório foi entregue no prazo. O documento, contudo, não responde às perguntas centrais. Portanto, a análise terá de ser complementada.” Assinale a opção correta.",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q135",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “A auditora apresentou o parecer à diretora. Em seguida, ela solicitou nova diligência.”, por que o referente de “ela” não pode ser determinado apenas pela proximidade linear?",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q136",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No enunciado “Uma providência é indispensável: que a comissão reexamine os contratos”, a expressão “uma providência” estabelece com a oração posterior uma relação de",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q137",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um memorando autônomo, lê-se apenas “Deixe estes documentos ali”. Sem outra indicação no texto, “estes documentos” e “ali” são interpretados principalmente por referência",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q138",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere: “O TCE publicou um relatório sobre as compras. O diagnóstico apontou falhas de planejamento.” A expressão “O diagnóstico”",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q139",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No período “A comissão examinou a proposta que previa a digitalização do arquivo”, qual é o antecedente mais provável do pronome relativo “que”?",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q140",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “A gerente informou à assessora que seu relatório seria revisto”, qual reescrita elimina a ambiguidade caso o relatório pertença à assessora?",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q141",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere: “A unidade não publicou os dados nem justificou a omissão. Isso comprometeu a transparência.” A forma “Isso” retoma",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q142",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “A comissão entrou no prédio. A recepção estava vazia”, a expressão “A recepção” exemplifica",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q143",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “A licitação foi anulada, o contrato não foi assinado e os fornecedores recorreram. Essa sequência exigiu novo cronograma”, “Essa sequência” funciona como",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q144",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a opção que distingue adequadamente referência e substituição em uma análise textual estrita.",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q145",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No diálogo “Há duas versões do parecer. Preciso de uma para instruir o processo. Você pode enviar a mais recente?”, a expressão “uma”",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q146",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere: “A equipe revisou os indicadores, e a relatora também o fez antes da reunião.” A expressão “o fez”",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q147",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No período “A primeira unidade analisou contratos; a segunda, convênios; a terceira, atas”, as vírgulas após “segunda” e “terceira” sinalizam",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q148",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual reescrita evita uma elipse potencialmente ambígua?",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q149",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere: “O contrato define as metas. O contrato também estabelece os indicadores. Por fim, o contrato atribui responsabilidades.” Nesse contexto, a repetição de “o contrato”",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q150",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “O tribunal publicou o acórdão. A Corte esclareceu os fundamentos da decisão”, a retomada por “A Corte” é adequada se",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q151",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Foram analisados documentos de contratação: editais, contratos, atas e termos aditivos”, qual relação lexical sustenta a enumeração?",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q152",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere: “A comissão decidiu suspender a contratação. A decisão surpreendeu os fornecedores.” A nominalização “A decisão”",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q153",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual sequência forma uma cadeia referencial coesa e semanticamente estável?",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q154",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a frase em que o pronome relativo foi empregado de modo a preservar uma relação coesiva adequada.",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q155",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No período “O sistema em que os dados são registrados será substituído”, a troca de “em que” por “onde”",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q156",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “A equipe revisou os dados e identificou a inconsistência”, o conector “e” exprime adição. Em qual reescrita ele adquire, pelo contexto, valor próximo de consequência?",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q157",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Compare: I. “O prazo era curto, mas a equipe concluiu a análise.” II. “Embora o prazo fosse curto, a equipe concluiu a análise.” Assinale a análise correta.",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q158",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a opção que distingue causa de explicação ou justificativa.",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q159",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a opção que distingue consequência de conclusão.",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q160",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual reescrita preserva a relação de finalidade de “A comissão abriu prazo para que os interessados apresentassem razões”?",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q161",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “À medida que a equipe conferia os registros, diminuía o número de inconsistências”, a locução destaca",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q162",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A palavra “como” é polifuncional. Em qual alternativa ela introduz causa?",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q163",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Compare: I. “Reveja o ato, pois ele apresenta vício.” II. “O ato apresenta vício; deverá, pois, ser revisto.” Assinale a análise correta.",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q164",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A palavra “assim” assume valores diferentes. Em qual opção ela funciona como conector conclusivo?",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q165",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual alternativa “já” estabelece contraste, e não tempo?",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q166",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “A equipe concluiu a conferência; então, encaminhou o relatório”, “então” pode ser lido como",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q167",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um relatório de auditoria, as expressões “inicialmente”, “na etapa seguinte” e “por fim”",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q168",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No início de um parágrafo, “Em síntese” e “Por outro lado” são exemplos de elementos",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q169",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Depois de dois parágrafos que expõem falhas de planejamento e de execução, um terceiro começa com “Diante desse quadro, recomenda-se revisar o processo”. A expressão inicial",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q170",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual trecho exemplifica progressão de tema constante sem mera repetição de informação?",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q171",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual trecho exemplifica progressão linear?",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q172",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “A governança do projeto envolve direção, controle e prestação de contas. A direção define prioridades; o controle acompanha desvios; a prestação de contas informa resultados”, ocorre",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q173",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para que um texto progrida sem perder o fio temático, é necessário",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q174",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “O diretor entregou o relatório ao assessor quando ele chegou”, qual reescrita informa inequivocamente que o assessor chegou?",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q175",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere: “A comissão rejeitou a proposta da empresa porque ela não comprovou capacidade técnica.” Qual fator, além da concordância, favorece a leitura de “ela” como “a empresa”?",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q176",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a opção que preserva o paralelismo na enumeração.",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q177",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao substituir um conector em uma reescrita, qual procedimento é completo?",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q178",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No período “O documento contém todas as assinaturas; portanto, pode ser validado”, qual substituição preserva mais diretamente a relação conclusiva e a pontuação?",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q179",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere: “A unidade omitiu dados e não explicou a ausência. Isso levou o tribunal a determinar nova inspeção.” Qual alteração preserva o alcance de “Isso”?",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q180",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No trecho “O primeiro relatório continha inconsistências. Outro relatório foi solicitado”, “outro”",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q181",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um diálogo repete várias vezes o nome “Brasília”, mas cada resposta ignora a pergunta anterior. Nesse caso, é correto afirmar que",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q182",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Considere: “Os relatórios foram entregues à comissão. Eles serão examinados amanhã, e esse trabalho deverá terminar em uma semana.” Assinale a análise correta.",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q183",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Leia: “O tribunal divulgou o relatório que examinou as compras. O documento apontou inconsistências; por isso, a comissão pediu revisão. Essa medida, contudo, não suspendeu o contrato.” Assinale a análise correta.",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q184",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em um texto, a expressão “esse fenômeno” resume uma situação descrita no período anterior e permite que o autor formule comentário sobre ela. Esse emprego constitui mecanismo de coesão referencial porque",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q185",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Original: “A medida reduziu custos, mas ampliou riscos.” Qual reescrita preserva simultaneamente a coesão e a relação de contraste?",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q186",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Leia: “A inovação alterou o atendimento. Ela reduziu filas porque automatizou etapas. Mas isso não eliminou a necessidade de supervisão.” Assinale a análise correta.",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q187",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No período “O programa atende regiões de clima diverso que exigem soluções específicas”, qual expressão é o antecedente mais adequado de “que”?",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q188",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Leia: “Os recenseadores visitaram os domicílios e entrevistaram os moradores. Eles registraram as respostas em dispositivo eletrônico.” O referente mais plausível de “Eles” é",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q189",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Considere: “Estudiosos analisaram os efeitos da medida durante anos. Eles concluíram que o impacto varia entre os setores.” A coesão referencial de “Eles” decorre de",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q190",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Leia: “Os acordos firmados no início do século redefiniram obrigações comerciais. Eles também influenciaram decisões posteriores.” O pronome “Eles” retoma",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q191",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Considere: “Os cargos foram reorganizados para atender às novas atribuições. Eles permanecerão vagos até a conclusão do concurso.” O referente de “Eles” é",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q192",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No período “A equipe revisou o procedimento e identificou a origem da falha”, a substituição de “e” por “porque” produziria “A equipe revisou o procedimento porque identificou a origem da falha”. Essa troca",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q193",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Leia: “O órgão investiu em análise de dados. Nessa área, a formação contínua é indispensável para acompanhar novas técnicas.” A expressão “Nessa área”",
       "options": [
         {

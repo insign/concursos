@@ -1,7 +1,16 @@
 import type { APIRoute } from 'astro';
 import { getCatalog } from '../lib/catalog';
+import type { QuestionSet } from '../lib/content-schema';
 
 export const prerender = true;
+
+function syncQuestionSet({ schemaVersion, questionSetRevision, questions }: QuestionSet) {
+  return {
+    schemaVersion,
+    questionSetRevision,
+    questions: questions.map(({ origin: _origin, ...question }) => question),
+  };
+}
 
 export const GET: APIRoute = async () => {
   const { contests } = await getCatalog();
@@ -9,7 +18,7 @@ export const GET: APIRoute = async () => {
     contest.subjects.map((subject) => ({
       contestStorageId: contest.storageId,
       subjectStorageId: subject.storageId,
-      questionSet: subject.questionSetEntry.data,
+      questionSet: syncQuestionSet(subject.questionSetEntry.data),
     })),
   );
 

@@ -9,6 +9,7 @@ import {
 const questions = Array.from({ length: 12 }, (_, index): Question => ({
   id: `q${index + 1}`,
   revision: 1,
+  origin: index % 2 === 0 ? 'authorial' : 'previous_exam',
   prompt: `Questão ${index + 1}`,
   options: [
     { id: 'a', text: 'A' },

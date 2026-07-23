@@ -5,6 +5,7 @@
     {
       "id": "q1234",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção correta entre almoxarifado e armazenagem é",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q1235",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O objetivo mais adequado de um almoxarifado é",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q1236",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a definição operacional da IN SEDAP nº 205/1988, a armazenagem compreende",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q1237",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Não constitui função própria da armazenagem no recorte estudado",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q1238",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A armazenagem física distingue-se da avaliação contábil porque",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q1239",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A cadeia mínima de controle interno liga",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q1240",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na localização aleatória ou dinâmica",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q1241",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um sistema de almoxarifado, código do item e endereço físico respondem, respectivamente, às perguntas",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q1242",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A rastreabilidade interna é adequadamente caracterizada por",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q1243",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre a tempestividade do registro, é correto afirmar que",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q1244",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma verificação de 200 itens, 190 não apresentaram divergência de saldo. A acurácia de saldo foi",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q1245",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O saldo total registrado coincide com a quantidade física, mas parte das unidades está em endereço diferente do sistema. Nesse caso",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q1246",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um período, 12 de 2.400 unidades movimentadas sofreram avaria. Usando unidades movimentadas como denominador, o índice foi",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q1247",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto à meta de acurácia aplicável aos almoxarifados, a IN SEDAP nº 205/1988",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q1248",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A adoção de código de barras em um processo sem disciplina de registro",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q1249",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "É medida de conservação de material",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q1250",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Recuperação de material é",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q1251",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um material sem movimentação, mas íntegro e potencialmente utilizável, é mais adequadamente descrito como",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q1252",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao encontrar uma embalagem com vazamento, a sequência operacional mais segura começa por",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q1253",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O critério de recuperação de até 50% do valor estimado de mercado, previsto na IN nº 205/1988",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q1254",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo os cuidados de armazenagem da IN nº 205/1988, os materiais",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q1255",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Materiais pesados e volumosos devem, em regra, ser armazenados",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q1256",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre a posição de itens de alto giro, é correto afirmar que",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q1257",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A orientação para concentrar materiais da mesma classe em locais adjacentes",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q1258",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para facilitar identificação e leitura durante a armazenagem, a IN nº 205/1988 orienta",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q1259",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Unitização é",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q1260",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A paletização",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q1261",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma vantagem e uma limitação da localização fixa são, respectivamente",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q1262",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A principal dependência operacional da localização dinâmica é",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q1263",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No PEPS físico, a prioridade de saída recai sobre",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q1264",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um lote recebido em fevereiro vence em junho, e outro recebido em janeiro vence em dezembro. Pelo FEFO, deve sair primeiro o lote",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q1265",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A diferença entre PEPS físico e PEPS contábil está em que",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q1266",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na decisão de aproximar dois materiais no almoxarifado, deve prevalecer",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q1267",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre afastamentos de materiais empilhados, é correto afirmar que",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q1268",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No indicador de ocupação volumétrica, o denominador adequado é",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q1269",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um almoxarifado possui 200 m³ de volume útil e seguro, dos quais 150 m³ estão ocupados. Sua ocupação volumétrica é",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q1270",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A verticalização do armazenamento",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q1271",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um depósito com 96% de ocupação, cargas nos corredores e necessidade de retirar três paletes para acessar outro apresenta",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q1272",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A NR 11 determina, em relação aos equipamentos de movimentação, que",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q1273",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Conforme a NR 11, o peso do material armazenado",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q1274",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "As regras detalhadas do Anexo I da NR 11 sobre cavaletes e chapas",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q1275",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na ergonomia da movimentação manual não eventual, a avaliação deve considerar",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q1276",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre um limite universal de peso para transporte manual individual, a NR 17",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q1277",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A NR 23 estabelece que as medidas de prevenção contra incêndios devem observar",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q1278",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "De acordo com a NR 26, o uso de cores na sinalização",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q1279",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A rotulagem preventiva de produto químico perigoso segundo a NR 26 deve incluir",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q1280",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma faixa colorida correta foi aplicada em uma área, mas a carga continua instável. A conclusão adequada é",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q1281",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um endereço dinâmico, o operador guarda o material em posição diferente da sugerida e decide registrar só no fim do turno. O principal problema é",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q1282",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um item bloqueado durante avaliação de avaria deve",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q1283",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Caracteriza uma armazenagem madura",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q1284",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No contexto de almoxarifado, unidade organizacional que guarda e controla materiais corresponde a",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q1285",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No contexto de almoxarifado, atividade de guarda, localização, segurança e preservação corresponde a",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q1286",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No contexto de almoxarifado, conjunto de itens e quantidades mantidos para uso futuro corresponde a",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q1287",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No contexto de almoxarifado, representação única do local de guarda corresponde a",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q1288",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No contexto de almoxarifado, decisão sobre onde cada item deve ficar corresponde a",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q1289",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere a situação: um material de alto giro foi colocado perto da expedição, mas bloqueia o acesso ao extintor. A decisão mais adequada é",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q1290",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere a situação: o operador movimentou caixas e decidiu registrar tudo ao fim do turno. A decisão mais adequada é",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q1291",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere a situação: itens da mesma classe cadastral apresentam incompatibilidade química. A decisão mais adequada é",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q1292",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere a situação: o depósito alcançou 98% de ocupação, mas perdeu seletividade. A decisão mais adequada é",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q1293",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere a situação: um item barato é indispensável ao funcionamento de serviço crítico. A decisão mais adequada é",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q1294",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao alcance normativo, uma regra de arrumação da IN SEDAP nº 205/1988",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q1295",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao alcance normativo, um requisito da NR 23",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q1296",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao alcance normativo, a capacidade de um porta-paletes",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q1297",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao alcance normativo, a Lei Estadual nº 11.390/2020 e normas do CBMMA",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q1298",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao alcance normativo, a NR 1",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q1299",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No GRO/PGR de um almoxarifado, diante de colisão entre empilhadeiras e pedestres, deve-se",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q1300",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No GRO/PGR de um almoxarifado, diante de estante instável identificada na inspeção, deve-se",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q1301",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No GRO/PGR de um almoxarifado, diante de mudança de leiaute com aumento de tráfego, deve-se",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q1302",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No GRO/PGR de um almoxarifado, diante de risco químico com produto substituível, deve-se",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q1303",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No GRO/PGR de um almoxarifado, diante de plano de ação sem responsáveis e prazos, deve-se",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q1304",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre endereçamento, considere: item de demanda estável e conferência manual frequente. Assinale a opção correta.",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q1305",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre endereçamento, considere: reserva com volumes muito variáveis e WMS confiável. Assinale a opção correta.",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q1306",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre endereçamento, considere: posição dinâmica foi alterada e o sistema ficou desatualizado. Assinale a opção correta.",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q1307",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre endereçamento, considere: um mesmo código ocupa três endereços. Assinale a opção correta.",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q1308",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre endereçamento, considere: picking fixo e reserva dinâmica. Assinale a opção correta.",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q1309",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na localização de materiais, para alto giro e baixa massa, a decisão mais adequada é",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q1310",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na localização de materiais, para item pesado de giro elevado, a decisão mais adequada é",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q1311",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na localização de materiais, para itens usados em conjunto e compatíveis, a decisão mais adequada é",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q1312",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na localização de materiais, para material frágil e de alto valor, a decisão mais adequada é",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q1313",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na localização de materiais, para produto incompatível com o vizinho, a decisão mais adequada é",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q1314",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em técnicas de armazenagem, ampliar posições usando níveis superiores de porta-paletes corresponde ou implica",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q1315",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em técnicas de armazenagem, espalhar cargas no plano do piso corresponde ou implica",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q1316",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em técnicas de armazenagem, usar empilhadeira retrátil para níveis altos corresponde ou implica",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q1317",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em técnicas de armazenagem, verticalizar um depósito corresponde ou implica",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q1318",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em técnicas de armazenagem, horizontalizar um depósito corresponde ou implica",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q1319",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O princípio de movimentação associado a reduzir zigue-zague entre reserva, picking e expedição é",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q1320",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O princípio de movimentação associado a reduzir reempilhamentos e transferências entre recipientes é",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q1321",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O princípio de movimentação associado a organizar sequência sem retornos desnecessários é",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q1322",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O princípio de movimentação associado a consolidar caixas compatíveis sobre palete é",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q1323",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O princípio de movimentação associado a usar altura de modo seguro é",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q1324",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre cross-docking, considere: remessa chega identificada por destino e sai no mesmo turno após triagem. Assinale a opção correta.",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q1325",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre cross-docking, considere: mercadoria permanece meses em reserva. Assinale a opção correta.",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q1326",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre cross-docking, considere: operação de cross-docking. Assinale a opção correta.",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q1327",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre cross-docking, considere: área temporária usada para consolidar remessas antes da saída. Assinale a opção correta.",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q1328",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre cross-docking, considere: falta de sincronização entre chegada e saída. Assinale a opção correta.",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q1329",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para cargas homogêneas empilháveis, baixa variedade e alta densidade, o sistema mais compatível, em princípio, é",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q1330",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para necessidade de acesso direto a cada palete, o sistema mais compatível, em princípio, é",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q1331",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para muitos paletes do mesmo item e menor seletividade aceitável, o sistema mais compatível, em princípio, é",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q1332",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para itens longos, como tubos ou perfis, o sistema mais compatível, em princípio, é",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q1333",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para rotação por gravidade e prioridade de saída, o sistema mais compatível, em princípio, é",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q1334",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No slotting de item A: alto giro, leve e compatível, a opção mais adequada é",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q1335",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No slotting de item B: pesado e volumoso, a opção mais adequada é",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q1336",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No slotting de item C: pequeno, portátil e de alto valor, a opção mais adequada é",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q1337",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No slotting de item D: sujeito a validade, a opção mais adequada é",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q1338",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No slotting de item E: incompatível com inflamável, a opção mais adequada é",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q1339",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto a reserva, picking e staging: saldo total suficiente, mas picking vazio. A alternativa correta é",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q1340",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto a reserva, picking e staging: material aguardando resultado de inspeção. A alternativa correta é",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q1341",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto a reserva, picking e staging: remessa pronta para expedição no mesmo dia. A alternativa correta é",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q1342",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto a reserva, picking e staging: reserva e picking. A alternativa correta é",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q1343",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto a reserva, picking e staging: reposição da reserva para picking. A alternativa correta é",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q1344",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre rotação física, lote antigo vence depois do lote novo. Assinale a opção correta.",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q1345",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre rotação física, dois lotes sem validade e mesma condição. Assinale a opção correta.",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q1346",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre rotação física, lote vencido aparece como primeiro no FEFO. Assinale a opção correta.",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q1347",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre rotação física, FEFO. Assinale a opção correta.",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q1348",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre rotação física, PEPS físico. Assinale a opção correta.",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q1349",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tratamento de não conformidade, caixa com vazamento. A conduta adequada é",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q1350",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tratamento de não conformidade, embalagem danificada sem avaliação do conteúdo. A conduta adequada é",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q1351",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tratamento de não conformidade, material ocioso em boa condição. A conduta adequada é",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q1352",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tratamento de não conformidade, recuperação abaixo de 50% do valor de mercado. A conduta adequada é",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q1353",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tratamento de não conformidade, item recuperado. A conduta adequada é",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q1354",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre compatibilidade e segregação, dois produtos da mesma classe cadastral reagem entre si. A opção correta é",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q1355",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre compatibilidade e segregação, produto químico perigoso. A opção correta é",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q1356",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre compatibilidade e segregação, material inflamável perto de fonte de ignição. A opção correta é",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q1357",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre compatibilidade e segregação, material com odor que contamina outros itens. A opção correta é",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q1358",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre compatibilidade e segregação, matriz de compatibilidade. A opção correta é",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q1359",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à capacidade e estabilidade, palete íntegro sobre estante sem capacidade identificada. A decisão correta é",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q1360",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à capacidade e estabilidade, empilhadeira com carga distante do mastro. A decisão correta é",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q1361",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à capacidade e estabilidade, piso com capacidade desconhecida. A decisão correta é",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q1362",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à capacidade e estabilidade, porta-paletes danificado. A decisão correta é",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q1363",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à capacidade e estabilidade, carga projetada além da borda do palete. A decisão correta é",
       "options": [
         {
@@ -3775,6 +3905,7 @@
     {
       "id": "q1364",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 11, carga máxima de equipamento",
       "options": [
         {
@@ -3804,6 +3935,7 @@
     {
       "id": "q1365",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 11, equipamento de movimentação com defeito",
       "options": [
         {
@@ -3833,6 +3965,7 @@
     {
       "id": "q1366",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 11, material empilhado",
       "options": [
         {
@@ -3862,6 +3995,7 @@
     {
       "id": "q1367",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 11, Anexo I da NR 11",
       "options": [
         {
@@ -3891,6 +4025,7 @@
     {
       "id": "q1368",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 11, operador de equipamento motorizado",
       "options": [
         {
@@ -3920,6 +4055,7 @@
     {
       "id": "q1369",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em ergonomia de almoxarifado, levantamento manual repetitivo. A alternativa adequada é",
       "options": [
         {
@@ -3949,6 +4085,7 @@
     {
       "id": "q1370",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em ergonomia de almoxarifado, caixa guardada acima do alcance seguro. A alternativa adequada é",
       "options": [
         {
@@ -3978,6 +4115,7 @@
     {
       "id": "q1371",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em ergonomia de almoxarifado, movimentação não eventual. A alternativa adequada é",
       "options": [
         {
@@ -4007,6 +4145,7 @@
     {
       "id": "q1372",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em ergonomia de almoxarifado, tarefa com torção de tronco. A alternativa adequada é",
       "options": [
         {
@@ -4036,6 +4175,7 @@
     {
       "id": "q1373",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em ergonomia de almoxarifado, NR 17. A alternativa adequada é",
       "options": [
         {
@@ -4065,6 +4205,7 @@
     {
       "id": "q1374",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre segurança contra incêndio, extintor atrás de paletes. Assinale a opção correta.",
       "options": [
         {
@@ -4094,6 +4235,7 @@
     {
       "id": "q1375",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre segurança contra incêndio, mudança de materiais que eleva carga de incêndio. Assinale a opção correta.",
       "options": [
         {
@@ -4123,6 +4265,7 @@
     {
       "id": "q1376",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre segurança contra incêndio, NR 23 no Maranhão. Assinale a opção correta.",
       "options": [
         {
@@ -4152,6 +4295,7 @@
     {
       "id": "q1377",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre segurança contra incêndio, rota de fuga usada como staging. Assinale a opção correta.",
       "options": [
         {
@@ -4181,6 +4325,7 @@
     {
       "id": "q1378",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre segurança contra incêndio, medida de incêndio instalada, mas sem manutenção. Assinale a opção correta.",
       "options": [
         {
@@ -4210,6 +4355,7 @@
     {
       "id": "q1379",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 26, produto químico perigoso",
       "options": [
         {
@@ -4239,6 +4385,7 @@
     {
       "id": "q1380",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 26, pictograma correto em embalagem vazando",
       "options": [
         {
@@ -4268,6 +4415,7 @@
     {
       "id": "q1381",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 26, uso de cores",
       "options": [
         {
@@ -4297,6 +4445,7 @@
     {
       "id": "q1382",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 26, trabalhadores que manuseiam produto perigoso",
       "options": [
         {
@@ -4326,6 +4475,7 @@
     {
       "id": "q1383",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a NR 26, GHS",
       "options": [
         {
@@ -4355,6 +4505,7 @@
     {
       "id": "q1384",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tecnologia aplicada ao almoxarifado, leitura RFID identifica a etiqueta, mas a caixa está vazia. A opção correta é",
       "options": [
         {
@@ -4384,6 +4535,7 @@
     {
       "id": "q1385",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tecnologia aplicada ao almoxarifado, WMS mostra endereço A, mas o item está em B. A opção correta é",
       "options": [
         {
@@ -4413,6 +4565,7 @@
     {
       "id": "q1386",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tecnologia aplicada ao almoxarifado, código de barras duplicado em dois cadastros. A opção correta é",
       "options": [
         {
@@ -4442,6 +4595,7 @@
     {
       "id": "q1387",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tecnologia aplicada ao almoxarifado, movimento feito offline e sincronizado depois. A opção correta é",
       "options": [
         {
@@ -4471,6 +4625,7 @@
     {
       "id": "q1388",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em tecnologia aplicada ao almoxarifado, sistema automatizado indisponível. A opção correta é",
       "options": [
         {
@@ -4500,6 +4655,7 @@
     {
       "id": "q1389",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere o indicador: 100 itens testados; 94 com saldo correto. Assinale a alternativa correta.",
       "options": [
         {
@@ -4529,6 +4685,7 @@
     {
       "id": "q1390",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere o indicador: 80 itens; 72 no endereço registrado. Assinale a alternativa correta.",
       "options": [
         {
@@ -4558,6 +4715,7 @@
     {
       "id": "q1391",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere o indicador: valor verificado de R$ 200 mil; R$ 190 mil corretos. Assinale a alternativa correta.",
       "options": [
         {
@@ -4587,6 +4745,7 @@
     {
       "id": "q1392",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere o indicador: saldo correto, mas endereço errado. Assinale a alternativa correta.",
       "options": [
         {
@@ -4616,6 +4775,7 @@
     {
       "id": "q1393",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere o indicador: comparação entre períodos com amostras diferentes. Assinale a alternativa correta.",
       "options": [
         {
@@ -4645,6 +4805,7 @@
     {
       "id": "q1394",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em utilização do espaço, 200 posições utilizáveis; 150 ocupadas. A interpretação correta é",
       "options": [
         {
@@ -4674,6 +4835,7 @@
     {
       "id": "q1395",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em utilização do espaço, volume útil seguro de 400 m³; 300 m³ ocupados. A interpretação correta é",
       "options": [
         {
@@ -4703,6 +4865,7 @@
     {
       "id": "q1396",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em utilização do espaço, 90% de posições ocupadas, mas caixas pequenas em posições de palete. A interpretação correta é",
       "options": [
         {
@@ -4732,6 +4895,7 @@
     {
       "id": "q1397",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em utilização do espaço, ocupação muito alta com três paletes removidos para acessar outro. A interpretação correta é",
       "options": [
         {
@@ -4761,6 +4925,7 @@
     {
       "id": "q1398",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em utilização do espaço, volume bruto do prédio usado como denominador. A interpretação correta é",
       "options": [
         {
@@ -4790,6 +4955,7 @@
     {
       "id": "q1399",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos indicadores, 20 unidades avariadas em 2.000 movimentadas. A alternativa correta é",
       "options": [
         {
@@ -4819,6 +4985,7 @@
     {
       "id": "q1400",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos indicadores, 450 movimentos no prazo em 500 ocorridos. A alternativa correta é",
       "options": [
         {
@@ -4848,6 +5015,7 @@
     {
       "id": "q1401",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos indicadores, 30 unidades próximas do vencimento em 600 sujeitas a validade. A alternativa correta é",
       "options": [
         {
@@ -4877,6 +5045,7 @@
     {
       "id": "q1402",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos indicadores, 2.400 metros percorridos para 800 linhas separadas. A alternativa correta é",
       "options": [
         {
@@ -4906,6 +5075,7 @@
     {
       "id": "q1403",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos indicadores, queda de incidentes sem controle de subnotificação. A alternativa correta é",
       "options": [
         {
@@ -4935,6 +5105,7 @@
     {
       "id": "q1404",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No PGR do almoxarifado, quase acidente com palete caindo. Deve-se",
       "options": [
         {
@@ -4964,6 +5135,7 @@
     {
       "id": "q1405",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No PGR do almoxarifado, nova empilhadeira altera raio de giro. Deve-se",
       "options": [
         {
@@ -4993,6 +5165,7 @@
     {
       "id": "q1406",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No PGR do almoxarifado, aumento de jornada e pressão de separação. Deve-se",
       "options": [
         {
@@ -5022,6 +5195,7 @@
     {
       "id": "q1407",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No PGR do almoxarifado, medida administrativa falha repetidamente. Deve-se",
       "options": [
         {
@@ -5051,6 +5225,7 @@
     {
       "id": "q1408",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No PGR do almoxarifado, risco classificado como alto e plano sem prazo. Deve-se",
       "options": [
         {
@@ -5080,6 +5255,7 @@
     {
       "id": "q1409",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em auditoria de almoxarifado, diante de 18% dos itens em endereço diferente; registro só ao fim do turno, a abordagem adequada é",
       "options": [
         {
@@ -5109,6 +5285,7 @@
     {
       "id": "q1410",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em auditoria de almoxarifado, diante de bloqueados misturados ao saldo liberado, a abordagem adequada é",
       "options": [
         {
@@ -5138,6 +5315,7 @@
     {
       "id": "q1411",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em auditoria de almoxarifado, diante de capacidade da estante não demonstrada, a abordagem adequada é",
       "options": [
         {
@@ -5167,6 +5345,7 @@
     {
       "id": "q1412",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em auditoria de almoxarifado, diante de extintor obstruído em 4 inspeções, a abordagem adequada é",
       "options": [
         {
@@ -5196,6 +5375,7 @@
     {
       "id": "q1413",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em auditoria de almoxarifado, diante de inventário foi conferido usando a lista com saldo esperado, a abordagem adequada é",
       "options": [
         {
@@ -5225,6 +5405,7 @@
     {
       "id": "q1414",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No projeto ou revisão do leiaute, fluxo cruza empilhadeiras e pedestres. A medida adequada é",
       "options": [
         {
@@ -5254,6 +5435,7 @@
     {
       "id": "q1415",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No projeto ou revisão do leiaute, área de picking no centro aumenta cruzamentos. A medida adequada é",
       "options": [
         {
@@ -5283,6 +5465,7 @@
     {
       "id": "q1416",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No projeto ou revisão do leiaute, entrada e saída usam a mesma doca sem janelas. A medida adequada é",
       "options": [
         {
@@ -5312,6 +5495,7 @@
     {
       "id": "q1417",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No projeto ou revisão do leiaute, corredor largo virou depósito temporário permanente. A medida adequada é",
       "options": [
         {
@@ -5341,6 +5525,7 @@
     {
       "id": "q1418",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No projeto ou revisão do leiaute, layout mudou sem atualizar endereços. A medida adequada é",
       "options": [
         {
@@ -5370,6 +5555,7 @@
     {
       "id": "q1419",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à segurança patrimonial e operacional, peças pequenas e de alto valor. Assinale a opção correta.",
       "options": [
         {
@@ -5399,6 +5585,7 @@
     {
       "id": "q1420",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à segurança patrimonial e operacional, chaves do almoxarifado compartilhadas sem registro. Assinale a opção correta.",
       "options": [
         {
@@ -5428,6 +5615,7 @@
     {
       "id": "q1421",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à segurança patrimonial e operacional, visitante entra na área operacional. Assinale a opção correta.",
       "options": [
         {
@@ -5457,6 +5645,7 @@
     {
       "id": "q1422",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à segurança patrimonial e operacional, câmera registra furto, mas saldo não foi atualizado. Assinale a opção correta.",
       "options": [
         {
@@ -5486,6 +5675,7 @@
     {
       "id": "q1423",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à segurança patrimonial e operacional, porta de emergência trancada para evitar furto. Assinale a opção correta.",
       "options": [
         {
@@ -5515,6 +5705,7 @@
     {
       "id": "q1424",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em conservação de materiais, material sensível à umidade em parede com infiltração. A decisão mais adequada é",
       "options": [
         {
@@ -5544,6 +5735,7 @@
     {
       "id": "q1425",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em conservação de materiais, embalagem original protege contra descarga eletrostática. A decisão mais adequada é",
       "options": [
         {
@@ -5573,6 +5765,7 @@
     {
       "id": "q1426",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em conservação de materiais, praga identificada em uma zona. A decisão mais adequada é",
       "options": [
         {
@@ -5602,6 +5795,7 @@
     {
       "id": "q1427",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em conservação de materiais, temperatura fora da faixa por falha do equipamento. A decisão mais adequada é",
       "options": [
         {
@@ -5631,6 +5825,7 @@
     {
       "id": "q1428",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em conservação de materiais, item sem movimentação por longo período. A decisão mais adequada é",
       "options": [
         {
@@ -5660,6 +5855,7 @@
     {
       "id": "q1429",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um caso integrado de almoxarifado: item crítico, barato, de alto giro e incompatível com inflamável. A melhor solução é",
       "options": [
         {
@@ -5689,6 +5885,7 @@
     {
       "id": "q1430",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um caso integrado de almoxarifado: lote B chegou depois, vence antes, está liberado e fica na reserva. A melhor solução é",
       "options": [
         {
@@ -5718,6 +5915,7 @@
     {
       "id": "q1431",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um caso integrado de almoxarifado: depósito tem 95% de posições ocupadas, 60% de utilização cúbica e muitos cruzamentos. A melhor solução é",
       "options": [
         {
@@ -5747,6 +5945,7 @@
     {
       "id": "q1432",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um caso integrado de almoxarifado: WMS mostra saldo, RFID lê etiqueta, mas caixa está vazia. A melhor solução é",
       "options": [
         {
@@ -5776,6 +5975,7 @@
     {
       "id": "q1433",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um caso integrado de almoxarifado: PGR identifica queda de carga, extintor obstruído e estante sem capacidade. A melhor solução é",
       "options": [
         {

@@ -5,6 +5,7 @@
     {
       "id": "q1644",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a Lei nº 14.133/2021, a execução fiel do contrato significa que:",
       "options": [
         { "id": "a", "text": "ambas as partes devem observar as cláusulas e a lei, respondendo cada uma pela inexecução total ou parcial." },
@@ -19,6 +20,7 @@
     {
       "id": "q1645",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A posse de novo chefe do Poder Executivo é invocada para retardar, sem outra justificativa, parcelas de uma obra contratada. Essa conduta:",
       "options": [
         { "id": "a", "text": "é permitida durante os primeiros cem dias da nova gestão." },
@@ -33,6 +35,7 @@
     {
       "id": "q1646",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em obra cuja responsabilidade pelo licenciamento ambiental cabe à Administração, a manifestação prévia ou licença prévia, quando cabível, deve ser obtida:",
       "options": [
         { "id": "a", "text": "depois do recebimento definitivo." },
@@ -47,6 +50,7 @@
     {
       "id": "q1647",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma ordem de paralisação impede a execução por 18 dias. Quanto ao cronograma, a Lei nº 14.133/2021 determina:",
       "options": [
         { "id": "a", "text": "a extinção automática do contrato." },
@@ -61,6 +65,7 @@
     {
       "id": "q1648",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma obra permanece paralisada, na hipótese do art. 115, § 5º, por mais de um mês. A Administração deve:",
       "options": [
         { "id": "a", "text": "manter sigilo até o reinício para proteger a contratada." },
@@ -75,6 +80,7 @@
     {
       "id": "q1649",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a reserva legal de cargos durante a execução contratual, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "O contratado deve mantê-la ao longo de toda a execução e comprová-la, com identificação dos empregados, quando solicitado." },
@@ -89,6 +95,7 @@
     {
       "id": "q1650",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A execução de um contrato regido pela Lei nº 14.133/2021 será acompanhada e fiscalizada:",
       "options": [
         { "id": "a", "text": "necessariamente por comissão externa sem agentes públicos." },
@@ -103,6 +110,7 @@
     {
       "id": "q1651",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal encontra problema que exige decisão além de sua competência. Deve:",
       "options": [
         { "id": "a", "text": "decidir mesmo sem competência para evitar registro formal." },
@@ -117,6 +125,7 @@
     {
       "id": "q1652",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração contrata empresa especializada para assistir o fiscal. Essa empresa:",
       "options": [
         { "id": "a", "text": "assume integralmente a competência e elimina a responsabilidade do fiscal." },
@@ -131,6 +140,7 @@
     {
       "id": "q1653",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O preposto previsto na Lei nº 14.133/2021 é:",
       "options": [
         { "id": "a", "text": "o auditor externo que substitui o controle interno." },
@@ -145,6 +155,7 @@
     {
       "id": "q1654",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Foram encontrados defeitos resultantes da execução e dos materiais empregados. O contratado deve:",
       "options": [
         { "id": "a", "text": "reparar, corrigir, remover, reconstruir ou substituir o objeto, total ou parcialmente, às suas expensas." },
@@ -159,6 +170,7 @@
     {
       "id": "q1655",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um dano direto a terceiro decorre da execução contratual, que era acompanhada diariamente pelo fiscal. A fiscalização:",
       "options": [
         { "id": "a", "text": "transfere automaticamente toda responsabilidade à Administração." },
@@ -173,6 +185,7 @@
     {
       "id": "q1656",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Como regra geral, os encargos trabalhistas, previdenciários, fiscais e comerciais resultantes da execução são de responsabilidade:",
       "options": [
         { "id": "a", "text": "solidária entre Administração e todos os subcontratados." },
@@ -187,6 +200,7 @@
     {
       "id": "q1657",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos serviços contínuos com dedicação exclusiva de mão de obra, comprovada falha de fiscalização das obrigações do contratado, a Lei prevê que a Administração responde:",
       "options": [
         { "id": "a", "text": "subsidiariamente pelos previdenciários e solidariamente pelos comerciais." },
@@ -201,6 +215,7 @@
     {
       "id": "q1658",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para assegurar obrigações trabalhistas em serviço contínuo com dedicação exclusiva, a Administração pode:",
       "options": [
         { "id": "a", "text": "dispensar toda garantia e pagar antecipadamente salários futuros sem previsão." },
@@ -215,6 +230,7 @@
     {
       "id": "q1659",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os valores depositados na conta vinculada para assegurar obrigações trabalhistas são:",
       "options": [
         { "id": "a", "text": "absolutamente impenhoráveis." },
@@ -229,6 +245,7 @@
     {
       "id": "q1660",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a subcontratação na execução, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "A lei autoriza a transferência total e irrestrita do objeto." },
@@ -243,6 +260,7 @@
     {
       "id": "q1661",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pretende-se subcontratar pessoa jurídica cujo dirigente é irmão do agente público que atua na gestão do contrato. Nessa situação:",
       "options": [
         { "id": "a", "text": "a subcontratação é livre porque o parentesco só importa na licitação principal." },
@@ -257,6 +275,7 @@
     {
       "id": "q1662",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Diante de reclamação pertinente e relacionada à boa execução do contrato, a Administração:",
       "options": [
         { "id": "a", "text": "pode manter silêncio indefinidamente." },
@@ -271,6 +290,7 @@
     {
       "id": "q1663",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sem prazo legal ou contratual específico, concluída a instrução de um requerimento sobre a execução, a Administração terá para decidir:",
       "options": [
         { "id": "a", "text": "cinco dias, sem prorrogação." },
@@ -285,6 +305,7 @@
     {
       "id": "q1664",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração modifica as especificações para melhor adequação técnica aos objetivos do contrato. Trata-se de alteração:",
       "options": [
         { "id": "a", "text": "unilateral qualitativa, desde que devidamente justificada." },
@@ -299,6 +320,7 @@
     {
       "id": "q1665",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Constitui hipótese de alteração por acordo entre as partes:",
       "options": [
         { "id": "a", "text": "qualquer aumento quantitativo imposto sem limite." },
@@ -313,6 +335,7 @@
     {
       "id": "q1666",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Alteração de contrato de obra decorre de falha do projeto. A Lei determina:",
       "options": [
         { "id": "a", "text": "sigilo definitivo para preservar o responsável técnico." },
@@ -327,6 +350,7 @@
     {
       "id": "q1667",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em obra, a execução foi obstada por atraso no licenciamento ambiental por circunstâncias alheias ao contratado. Aplica-se:",
       "options": [
         { "id": "a", "text": "perda automática do direito a qualquer prazo." },
@@ -341,6 +365,7 @@
     {
       "id": "q1668",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em reforma de edifício, os limites legais que o contratado deve aceitar unilateralmente são:",
       "options": [
         { "id": "a", "text": "50% para acréscimos e 50% para supressões." },
@@ -355,6 +380,7 @@
     {
       "id": "q1669",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em reforma de equipamento com valor inicial atualizado de R$ 800.000,00, a supressão unilateral ordinariamente exigível do contratado pode chegar a:",
       "options": [
         { "id": "a", "text": "R$ 200.000,00." },
@@ -369,6 +395,7 @@
     {
       "id": "q1670",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma alteração unilateral respeita numericamente 20%, mas substitui o objeto por outro de natureza e finalidade distintas. A alteração é:",
       "options": [
         { "id": "a", "text": "válida porque qualquer percentual abaixo de 25% é suficiente." },
@@ -383,6 +410,7 @@
     {
       "id": "q1671",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao cálculo dos limites de alterações, a orientação do TCU considera que:",
       "options": [
         { "id": "a", "text": "acréscimos e supressões sempre se compensam para formar apenas um saldo líquido." },
@@ -397,6 +425,7 @@
     {
       "id": "q1672",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um aditivo de obra exige item sem preço unitário no contrato. O novo preço será fixado:",
       "options": [
         { "id": "a", "text": "livremente pelo contratado, sem referência objetiva." },
@@ -411,6 +440,7 @@
     {
       "id": "q1673",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em obra, um aditivo modifica a planilha orçamentária. A diferença percentual entre o valor global contratado e o preço global de referência:",
       "options": [
         { "id": "a", "text": "deve ser eliminada para elevar o lucro do contratado." },
@@ -425,6 +455,7 @@
     {
       "id": "q1674",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes de uma supressão, o contratado já adquiriu materiais e os colocou no local da obra. Ele terá direito:",
       "options": [
         { "id": "a", "text": "ao pagamento dos custos de aquisição comprovados e reajustados, além de outros danos da supressão se comprovados." },
@@ -439,6 +470,7 @@
     {
       "id": "q1675",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma alteração unilateral aumenta os encargos do contratado. O equilíbrio econômico-financeiro inicial deve ser restabelecido:",
       "options": [
         { "id": "a", "text": "somente ao final do contrato, se houver saldo." },
@@ -453,6 +485,7 @@
     {
       "id": "q1676",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Como regra, antes de o contratado executar prestação alterada e determinada pela Administração, deve ocorrer:",
       "options": [
         { "id": "a", "text": "apenas autorização verbal do fiscal." },
@@ -467,6 +500,7 @@
     {
       "id": "q1677",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos regimes de contratação integrada e semi-integrada, a regra sobre alteração dos valores contratuais é:",
       "options": [
         { "id": "a", "text": "liberdade ampla para aditar por qualquer erro do contratado." },
@@ -481,6 +515,7 @@
     {
       "id": "q1678",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na contratação integrada, o projeto precisa ser alterado para corrigir erro imputável ao contratado. Segundo o art. 133, essa situação:",
       "options": [
         { "id": "a", "text": "sempre autoriza aumento de 50% do valor." },
@@ -495,6 +530,7 @@
     {
       "id": "q1679",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pode fundamentar revisão extraordinária do equilíbrio econômico-financeiro:",
       "options": [
         { "id": "a", "text": "fato imprevisível, ou previsível de consequências incalculáveis, que inviabilize a execução pactuada e não esteja alocado ao contratado." },
@@ -509,6 +545,7 @@
     {
       "id": "q1680",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A matriz contratual atribui expressamente ao contratado determinado risco ordinário, e exatamente esse evento ocorre. Em regra:",
       "options": [
         { "id": "a", "text": "a matriz deve ser ignorada sempre que houver aumento de custo." },
@@ -523,6 +560,7 @@
     {
       "id": "q1681",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Apenas a elevação ordinária e previsível de insumo, sem prova de álea extraordinária, foi apresentada em pedido de revisão. O pedido:",
       "options": [
         { "id": "a", "text": "deve ser aceito porque todo aumento é imprevisível." },
@@ -537,6 +575,7 @@
     {
       "id": "q1682",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contrato foi extinto depois que o contratado formulou, durante a vigência e antes da prorrogação, pedido tempestivo de reequilíbrio. A extinção:",
       "options": [
         { "id": "a", "text": "apaga automaticamente qualquer desequilíbrio comprovado." },
@@ -551,6 +590,7 @@
     {
       "id": "q1683",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após a proposta, um tributo é extinto e isso reduz comprovadamente o custo contratado. Os preços:",
       "options": [
         { "id": "a", "text": "permanecem imutáveis porque revisão só pode beneficiar o contratado." },
@@ -565,6 +605,7 @@
     {
       "id": "q1684",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a associação correta entre mecanismo e finalidade.",
       "options": [
         { "id": "a", "text": "Reajuste: índice para variação ordinária; repactuação: análise de custos de mão de obra; revisão: evento extraordinário comprovado." },
@@ -579,6 +620,7 @@
     {
       "id": "q1685",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A repactuação do art. 135 aplica-se aos contratos de:",
       "options": [
         { "id": "a", "text": "qualquer compra de bens de entrega imediata." },
@@ -593,6 +635,7 @@
     {
       "id": "q1686",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na primeira repactuação, as datas vinculadas aos custos de mercado e de mão de obra são, respectivamente:",
       "options": [
         { "id": "a", "text": "assinatura do contrato e primeira medição." },
@@ -607,6 +650,7 @@
     {
       "id": "q1687",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao interregno mínimo da repactuação, a Lei nº 14.133/2021 estabelece:",
       "options": [
         { "id": "a", "text": "seis meses contados do primeiro pagamento." },
@@ -621,6 +665,7 @@
     {
       "id": "q1688",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um contrato envolve custos de insumos e duas categorias profissionais com datas-base diferentes. A repactuação:",
       "options": [
         { "id": "a", "text": "deve ignorar as datas distintas e usar sempre uma única parcela." },
@@ -635,6 +680,7 @@
     {
       "id": "q1689",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em pedido de repactuação, instrumento coletivo impõe participação nos lucros e índice obrigatório para insumos do contratado. A Administração:",
       "options": [
         { "id": "a", "text": "não se vincula a essas disposições, nos termos das vedações do art. 135." },
@@ -649,6 +695,7 @@
     {
       "id": "q1690",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para instruir a repactuação, o contratado deve apresentar:",
       "options": [
         { "id": "a", "text": "apenas uma declaração genérica de aumento." },
@@ -663,6 +710,7 @@
     {
       "id": "q1691",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo orientação federal do TCU e da AGU, o contratado prorroga o contrato sem ressalvar repactuação já cabível e só depois a pede. Pode ocorrer:",
       "options": [
         { "id": "a", "text": "concessão automática, pois a prorrogação nunca afeta o pedido." },
@@ -677,6 +725,7 @@
     {
       "id": "q1692",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pode ser registrado por simples apostila, sem termo aditivo:",
       "options": [
         { "id": "a", "text": "acréscimo quantitativo de 20% do objeto." },
@@ -691,6 +740,7 @@
     {
       "id": "q1693",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A distinção correta entre apostila e termo aditivo é:",
       "options": [
         { "id": "a", "text": "apostila serve para qualquer modificação do objeto; aditivo apenas para empenho." },
@@ -705,6 +755,7 @@
     {
       "id": "q1694",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal registra defeito, determina correção dentro de sua competência e comunica risco mais amplo ao superior. O contratado alega que a ordem do fiscal o libera de responsabilidade. Está correto afirmar que:",
       "options": [
         { "id": "a", "text": "o fiscal agiu conforme suas atribuições, e sua atuação não exclui a responsabilidade do contratado pela execução e pelos danos." },
@@ -719,6 +770,7 @@
     {
       "id": "q1695",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contrato comum de serviço tem valor inicial atualizado de R$ 2.000.000,00. Já houve supressão unilateral de R$ 300.000,00 e a Administração pretende acréscimo de R$ 450.000,00. Conforme a orientação de cálculo isolado:",
       "options": [
         { "id": "a", "text": "o acréscimo é vedado porque deve ser compensado com a supressão." },
@@ -733,6 +785,7 @@
     {
       "id": "q1696",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa que distingue corretamente vício do objeto e dano decorrente da execução.",
       "options": [
         { "id": "a", "text": "Vício só pode ser corrigido pela Administração, e dano só pelo fiscal." },
@@ -747,6 +800,7 @@
     {
       "id": "q1697",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Circunstância superveniente torna necessária a mudança da forma de pagamento. A alteração:",
       "options": [
         { "id": "a", "text": "pode ser imposta sem concordância e sem preservar o valor." },
@@ -761,6 +815,7 @@
     {
       "id": "q1698",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na contratação integrada, evento superveniente foi expressamente alocado pela matriz de riscos à Administração e elevou os custos. A Lei:",
       "options": [
         { "id": "a", "text": "proíbe qualquer alteração porque a integrada transfere todos os riscos ao contratado." },

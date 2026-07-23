@@ -5,6 +5,7 @@
     {
       "id": "q001",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Das doze unidades avaliadas, oito reduziram o tempo de espera, três mantiveram o índice anterior e uma registrou aumento.' Qual informação está explícita?",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q002",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual alternativa parafraseia com fidelidade a frase 'Alguns relatórios podem conter estimativas preliminares'?",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q003",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'O atendimento por agendamento começou em abril. Em maio, as filas diminuíram.' Qual conclusão é autorizada apenas por esse trecho?",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q004",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Quatro dos seis setores publicaram o relatório no prazo.' Qual inferência NÃO é autorizada?",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q005",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase 'O órgão voltou a divulgar o boletim mensal', qual conteúdo é pressuposto pelo verbo destacado?",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q006",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase 'Lia não parou de revisar os dados' mantém qual pressuposição da forma afirmativa 'Lia parou de revisar os dados'?",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q007",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A afirmação 'A comissão analisou três recursos' acarreta necessariamente que:",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q008",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante uma reunião, uma participante diz ao colega ao lado: 'Está difícil ouvir com a janela aberta.' Nesse contexto, a fala pode funcionar como pedido para fechar a janela. Esse sentido é exemplo de:",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q009",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Ao reduzir deslocamentos e ampliar a flexibilidade, o teletrabalho trouxe ganhos. Sem metas claras, porém, pode dificultar a integração das equipes.' Qual é o tema do trecho?",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q010",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual alternativa distingue corretamente assunto e tema?",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q011",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um texto sobre transparência, um parágrafo trata exclusivamente das dificuldades de atualizar bases antigas. Esse foco local do parágrafo corresponde ao:",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q012",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'O novo painel reúne dados antes dispersos, permite filtros por município e oferece arquivos em formato aberto. Assim, facilita tanto a consulta quanto o reuso das informações.' Qual é a ideia principal?",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q013",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'A oferta digital é importante, mas os órgãos devem manter canais alternativos, porque nem todos dispõem de conexão ou habilidade para usar aplicativos.' Qual é a tese?",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q014",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um cartaz informa datas de vacinação, apresenta locais de atendimento e encerra com 'Proteja-se: leve seu documento e compareça'. Qual é sua finalidade predominante?",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q015",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um manual intitulado 'Primeiros passos no sistema de protocolo' explica, com capturas de tela, como servidores recém-ingressos devem cadastrar documentos. O público-alvo principal é:",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q016",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'A audiência ocorreu na terça-feira, mas, na avaliação da associação, foi excessivamente curta', qual segmento apresenta opinião?",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q017",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase 'A medida provavelmente reduzirá atrasos', o advérbio 'provavelmente' indica:",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q018",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Segundo a matriz de referência do INEP, a leitura de diferentes gêneros mobiliza competências como localizar informações, inferir sentidos e identificar finalidades.' O trecho utiliza principalmente qual estratégia argumentativa?",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q019",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Embora a plataforma seja rápida, sua linguagem ainda precisa ser simplificada.' A oração iniciada por 'embora' exerce função de:",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q020",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Alega-se que publicar dados brutos basta para garantir transparência. Contudo, sem descrição e contexto, esses dados permanecem pouco compreensíveis.' O segundo período realiza:",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q021",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em qual frase a palavra 'ponte' é usada predominantemente em sentido denotativo?",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q022",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase 'A burocracia ergueu um muro entre o cidadão e o serviço', 'muro' produz o sentido de:",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q023",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase 'O assessor informou ao diretor que seu relatório precisava de revisão' é ambígua porque:",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q024",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual acréscimo elimina a ambiguidade de 'O assessor informou ao diretor que seu relatório precisava de revisão', deixando claro que o relatório era do diretor?",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q025",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Para a direção, o novo fluxo é mais rápido. Representantes dos usuários, entretanto, afirmam que ele criou etapas pouco claras.' É correto afirmar que:",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q026",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A presença, em um texto, de falas da direção, de usuários e de especialistas constitui principalmente:",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q027",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um artigo reproduz entre aspas um trecho de lei, identifica o diploma e comenta seu alcance. Há, nesse caso:",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q028",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma campanha imita o verso 'No meio do caminho tinha uma pedra', substituindo 'pedra' por 'boato' para combater desinformação. O recurso central é:",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q029",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um cartaz, a frase 'O prazo está correndo' aparece sobre a imagem de um calendário com pernas. A interpretação adequada depende principalmente:",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q030",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um gráfico informa que a taxa passou de 20% para 25%. Qual leitura é correta?",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q056",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O título 'Quando o gráfico engana' antecede texto que explica escalas truncadas e comparações inadequadas. Qual função o título exerce?",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q058",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O texto afirma: 'Segundo o levantamento, 62% dos entrevistados usam o serviço ao menos uma vez por mês.' O candidato sabe, por experiência pessoal, que o serviço costuma falhar. Qual resposta respeita o texto?",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q060",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Especialistas reconhecem que o portal ampliou o acesso aos dados. Ainda assim, a mera publicação não garante transparência: sem contexto e linguagem clara, a informação continua distante do cidadão.' Qual análise integra corretamente vozes, relação argumentativa e tese?",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q061",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'O levantamento ouviu 300 usuários: 180 acessaram o serviço pelo portal, 90 buscaram atendimento presencial e 30 utilizaram os dois canais.' Qual informação está explicitamente afirmada?",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q062",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'A unidade ampliou o horário em março. Nos dois meses seguintes, aumentou o número de atendimentos concluídos, enquanto a equipe permaneceu do mesmo tamanho.' Qual conclusão é autorizada?",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q063",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'O acesso a dados públicos não depende apenas de disponibilizá-los. Arquivos sem descrição, formatos fechados e páginas inacessíveis podem manter a informação distante do cidadão.' Qual síntese preserva a ideia central?",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q064",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto afirma que linguagem excessivamente técnica afasta parte do público. Em seguida, menciona um formulário que usa siglas sem explicação e exige termos desconhecidos do cidadão. O segundo trecho exerce a função de:",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q065",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Embora a automação reduza tarefas repetitivas, decisões que afetam direitos devem continuar sujeitas a revisão humana.' A tese do trecho é:",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q066",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Para a empresa fornecedora, a falha foi pontual. O relatório de auditoria, contudo, identifica ocorrências semelhantes em quatro meses consecutivos.' Qual análise é correta?",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q067",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase 'A comissão deixou de omitir os critérios no relatório', qual informação é pressuposta pela construção 'deixou de'?",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q068",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante uma videoconferência, uma participante diz: 'Seu microfone continua ligado.' No contexto, a fala pode funcionar como alerta para que o interlocutor o desligue. Esse sentido é:",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q069",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'O relatório foi publicado em 3 de junho e apresentou uma análise surpreendentemente superficial', qual segmento expressa avaliação?",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q070",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'A etapa de conferência tornou-se o gargalo do processo: todos os pedidos aguardavam ali por vários dias.' No contexto, 'gargalo' significa:",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q071",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase 'Em tese, a nova regra simplifica o procedimento; na prática, ainda há etapas redundantes', a expressão 'em tese' indica:",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q072",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um artigo defende a manutenção de atendimento presencial e informa que 22% dos usuários pesquisados não possuem acesso regular à Internet. No argumento, o dado estatístico funciona como:",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q073",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois gráficos mostram a mesma variação de 98 para 100. O primeiro eixo começa em zero; o segundo, em 97,5. Por que o segundo pode produzir impressão de mudança maior?",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q074",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma charge, diante de uma fila que contorna o prédio, uma placa anuncia 'Atendimento instantâneo'. O efeito de ironia decorre:",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q075",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma campanha contra desperdício retoma a frase conhecida 'Ser ou não ser' como 'Reusar ou não reusar? Eis uma decisão diária'. A retomada produz:",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q076",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto dirigido a novos servidores explica, em linguagem acessível, como identificar mensagens suspeitas e termina com recomendações de segurança. A finalidade predominante é:",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q077",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'A plataforma recebeu novos recursos de busca, mas usuários com leitores de tela ainda relatam barreiras. A atualização, portanto, ampliou funções sem assegurar acesso equivalente.' Qual alternativa resume o trecho sem extrapolar?",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q078",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em texto sobre inteligência artificial, o autor abre a discussão contrapondo dois cenários extremos: um em que as máquinas substituiriam os seres humanos e outro em que pessoas utilizariam a tecnologia para ampliar suas capacidades. Julgue o item: o primeiro período organiza a introdução por meio da apresentação desses dois cenários opostos.",
       "options": [
         {
@@ -1472,6 +1523,7 @@
     {
       "id": "q079",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em texto sobre política moderna, afirma-se que o afastamento das virtudes cria um problema que deve ser controlado pelas instituições. Julgue o item: de acordo com o texto, sempre que a política se afasta das virtudes, ela se torna necessariamente corrupta.",
       "options": [
         {
@@ -1489,6 +1541,7 @@
     {
       "id": "q080",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto reproduz a posição de doutrinadores identificados e, em outro ponto, emprega a expressão genérica 'todas as culturas'. Julgue o item: há intertextualidade tanto na reprodução da doutrina quanto no emprego da expressão 'todas as culturas'.",
       "options": [
         {
@@ -1506,6 +1559,7 @@
     {
       "id": "q081",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em texto jurídico, o autor menciona o aforismo comercial segundo o qual 'o cliente sempre tem razão' e explica que ele atende a uma motivação mercadológica, não descrevendo necessariamente a realidade jurídica. Julgue o item: a análise do autor distingue a utilidade comercial do aforismo de sua validade como descrição do direito.",
       "options": [
         {
@@ -1523,6 +1577,7 @@
     {
       "id": "q082",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto afirma que a hermenêutica negra incorpora experiências históricas e sociais negligenciadas por leituras jurídicas tradicionais. Julgue o item: essa abordagem amplia as perspectivas consideradas na interpretação do direito.",
       "options": [
         {
@@ -1540,6 +1595,7 @@
     {
       "id": "q083",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto sustenta que uma calamidade constitui injustiça quando poderia ter sido evitada, especialmente se quem podia agir deixou de fazê-lo. Julgue o item: calamidades de consequências imensuráveis não podem ser consideradas injustiças, porque seria impossível contê-las.",
       "options": [
         {
@@ -1557,6 +1613,7 @@
     {
       "id": "q084",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto sobre Karl Popper registra seu incômodo com os problemas da indução e do verificacionismo e suas críticas ao positivismo lógico. Julgue o item: infere-se que Popper não era adepto da indução nem do verificacionismo e que os criticava.",
       "options": [
         {
@@ -1574,6 +1631,7 @@
     {
       "id": "q085",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em exposição sobre Foucault, explica-se que o castigo moderno deixa de se concentrar no corpo e passa a atingir a alma, a conduta e a normalização do indivíduo. Julgue o item: o 'deslocamento' mencionado no texto corresponde à mudança do alvo da punição, do corpo para dimensões psíquicas e comportamentais.",
       "options": [
         {
@@ -1591,6 +1649,7 @@
     {
       "id": "q086",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Considere o período: 'O que é isto, o pacto social? Um acordo que organiza a convivência, limita poderes e distribui responsabilidades.' Julgue o item: após a pergunta, o período define o pacto social e enumera características que especificam essa definição.",
       "options": [
         {
@@ -1608,6 +1667,7 @@
     {
       "id": "q087",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em crônica, o autor afirma ironicamente que os holandeses 'inventaram' a fita cassete, o CD e o DVD e depois os 'desinventaram', em referência à substituição desses suportes por novas tecnologias. Julgue o item: o autor culpa os holandeses de terem criado e, posteriormente, destruído fisicamente esses produtos.",
       "options": [
         {
@@ -1625,6 +1685,7 @@
     {
       "id": "q088",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto inspirado em Maquiavel afirma que a qualidade do príncipe pode ser julgada pela escolha de seus ministros e por sua capacidade de reconhecê-los e mantê-los. Julgue o item: o julgamento do príncipe depende de sua capacidade de modificar o caráter dos ministros.",
       "options": [
         {
@@ -1642,6 +1703,7 @@
     {
       "id": "q089",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto relaciona a escassez de água à desigualdade social e afirma que seus efeitos recaem com maior intensidade sobre grupos vulneráveis, aprofundando desigualdades já existentes. Julgue o item: a escassez hídrica é apresentada simultaneamente como resultado e como fator de agravamento da desigualdade.",
       "options": [
         {
@@ -1659,6 +1721,7 @@
     {
       "id": "q090",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto informa que a palavra 'carreta' passou a designar veículo que antes era chamado de 'carroça'. Julgue o item: infere-se que a criação da palavra 'carreta' fez a palavra 'carroça' cair em desuso.",
       "options": [
         {
@@ -1676,6 +1739,7 @@
     {
       "id": "q091",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em narrativa, uma personagem passa a mancar sem que o texto apresente lesão física, ao mesmo tempo que relata forte abalo emocional. Julgue o item: a claudicação pode ser compreendida como manifestação ligada às questões emocionais da personagem.",
       "options": [
         {
@@ -1693,6 +1757,7 @@
     {
       "id": "q092",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto relata que Francis Ford Coppola visitou Curitiba em busca de inspiração para o filme 'Megalópolis'. Julgue o item: infere-se que as filmagens de 'Megalópolis' aconteceram em Curitiba.",
       "options": [
         {
@@ -1710,6 +1775,7 @@
     {
       "id": "q093",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em texto sobre justiça corretiva, afirma-se que o juiz restaura a igualdade ao retirar do ganho injusto e compensar a perda. Julgue o item: a decisão ética do juiz não é necessariamente justa, porque uma parte perde e outra ganha.",
       "options": [
         {
@@ -1727,6 +1793,7 @@
     {
       "id": "q094",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto afirma que Donald Winnicott prolongou e transformou aspectos da obra de Sigmund Freud. Julgue o item: Freud foi contemporâneo e sucessor de Winnicott.",
       "options": [
         {
@@ -1744,6 +1811,7 @@
     {
       "id": "q095",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto informa que Svante Pääbo sequenciou o genoma do neandertal. Julgue o item: ao realizar esse trabalho, o pesquisador estabeleceu a sequência de nucleotídeos do material genético analisado.",
       "options": [
         {
@@ -1761,6 +1829,7 @@
     {
       "id": "q096",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto de George Orwell afirma que, em geral, as pessoas raramente se lembram do trabalho necessário para obter carvão e que a maioria provavelmente prefere não ouvir falar desse universo. Julgue o item: infere-se que as pessoas alheias às minas permanecem alienadas do trabalho dos mineiros de modo presumivelmente deliberado.",
       "options": [
         {
@@ -1778,6 +1847,7 @@
     {
       "id": "q097",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No mesmo texto de Orwell, afirma-se que praticamente todas as atividades humanas dependem direta ou indiretamente do carvão, em tempos de paz ou de guerra. Julgue o item: o carvão é apresentado como imprescindível porque atividades banais ou importantes, pacíficas ou perigosas, dependem dele.",
       "options": [
         {
@@ -1795,6 +1865,7 @@
     {
       "id": "q098",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto sobre eleições provinciais informa que não havia suplentes e que nova eleição seria realizada em caso de morte do deputado. O cargo de João Victor de Carvalho ficou vago em razão de sua morte. Julgue o item: depreende-se que João Victor de Carvalho não tinha suplente.",
       "options": [
         {
@@ -1812,6 +1883,7 @@
     {
       "id": "q099",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto sobre recursos humanos afirma que a intranet é indispensável para uma comunicação clara e eficiente. Em outro parágrafo, defende-se um modelo de trabalho colaborativo. Julgue o item: segundo o texto, a intranet é imprescindível porque garante, por si só, um trabalho menos independente e mais colaborativo entre as áreas.",
       "options": [
         {
@@ -1829,6 +1901,7 @@
     {
       "id": "q100",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto sobre a Amazônia descreve iniciativas de ocupação, agropecuária, mineração e geração de energia associadas à derrubada descontrolada da floresta e a impactos climáticos. Julgue o item: conclui-se que o modelo de desenvolvimento empreendido é prejudicial ao futuro da floresta.",
       "options": [
         {
@@ -1846,6 +1919,7 @@
     {
       "id": "q101",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Texto informa que 10% das universitárias brasileiras e 28% dos universitários homens estão matriculados em cursos das áreas de ciência, tecnologia, engenharia e matemática. Julgue o item: apenas 10% das mulheres brasileiras estão matriculadas nesses cursos.",
       "options": [
         {

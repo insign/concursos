@@ -5,6 +5,7 @@
     {
       "id": "q1884",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No regime da Lei nº 14.133/2021, a aplicação da IN SEGES/MP nº 5/2017 às contratações federais de serviços deve ocorrer",
       "options": [
         { "id": "A", "text": "integralmente, inclusive quanto às remissões às Leis nº 8.666/1993 e nº 10.520/2002." },
@@ -18,6 +19,7 @@
     {
       "id": "q1885",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade do TCE-MA pretende aplicar diretamente uma instrução normativa da SEGES destinada à Administração Pública federal direta, autárquica e fundacional. A premissa correta é:",
       "options": [
         { "id": "A", "text": "A norma federal vincula automaticamente todos os tribunais de contas." },
@@ -31,6 +33,7 @@
     {
       "id": "q1886",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 33 da IN nº 5/2017, a fase de seleção do fornecedor começa e termina, respectivamente, com",
       "options": [
         { "id": "A", "text": "a formalização da demanda e a assinatura do contrato." },
@@ -44,6 +47,7 @@
     {
       "id": "q1887",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A expressão “no que couber”, usada para compatibilizar a IN nº 5/2017 com a Lei nº 14.133/2021, significa que",
       "options": [
         { "id": "A", "text": "cada regra infralegal precisa passar por teste de compatibilidade com a lei e o regulamento vigente." },
@@ -57,6 +61,7 @@
     {
       "id": "q1888",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No rito ordinário da Lei nº 14.133/2021, qual fase sucede o julgamento?",
       "options": [
         { "id": "A", "text": "Planejamento." },
@@ -70,6 +75,7 @@
     {
       "id": "q1889",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A habilitação poderá anteceder a apresentação de propostas e o julgamento quando houver",
       "options": [
         { "id": "A", "text": "pedido informal da comissão, ainda que o edital seja omisso." },
@@ -83,6 +89,7 @@
     {
       "id": "q1890",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O art. 35 da IN nº 5/2017 e o art. 19 da Lei nº 14.133/2021 convergem ao favorecer",
       "options": [
         { "id": "A", "text": "minutas padronizadas, com adaptação ao objeto e justificativa escrita para a não utilização do modelo aplicável." },
@@ -96,6 +103,7 @@
     {
       "id": "q1891",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a lista de verificação mencionada no art. 36 da IN nº 5/2017, assinale a opção correta.",
       "options": [
         { "id": "A", "text": "Ela substitui o parecer jurídico em qualquer contratação." },
@@ -109,6 +117,7 @@
     {
       "id": "q1892",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No regime atual, a existência de antigo parecer jurídico referencial",
       "options": [
         { "id": "A", "text": "dispensa automaticamente a análise jurídica de todos os processos futuros." },
@@ -122,6 +131,7 @@
     {
       "id": "q1893",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Anexo VII-A da IN nº 5/2017 contém principalmente",
       "options": [
         { "id": "A", "text": "diretrizes gerais para elaboração do ato convocatório." },
@@ -135,6 +145,7 @@
     {
       "id": "q1894",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No vocabulário da Lei nº 14.133/2021, a antiga referência do preâmbulo ao “tipo de licitação” deve ser atualizada pela identificação de",
       "options": [
         { "id": "A", "text": "modalidade, critério de julgamento, modo de disputa e forma de realização." },
@@ -148,6 +159,7 @@
     {
       "id": "q1895",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O art. 38 da IN nº 5/2017 remete ao Anexo VII-G. Sob a Lei nº 14.133/2021, formalização e publicação devem ser lidas principalmente com os arts.",
       "options": [
         { "id": "A", "text": "17, 18 e 19." },
@@ -161,6 +173,7 @@
     {
       "id": "q1896",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Lei nº 14.133/2021 determina que os elementos do edital, inclusive a minuta e o TR, sejam divulgados",
       "options": [
         { "id": "A", "text": "somente após a homologação." },
@@ -174,6 +187,7 @@
     {
       "id": "q1897",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração licita, em itens distintos, a execução de um serviço e a assistência à fiscalização do mesmo objeto. Para preservar a segregação, o edital pode",
       "options": [
         { "id": "A", "text": "proibir todas as empresas de participar dos dois itens." },
@@ -187,6 +201,7 @@
     {
       "id": "q1898",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A comprovação de conhecimento das condições locais pode ser exigida sob pena de inabilitação quando",
       "options": [
         { "id": "A", "text": "a Administração desejar reduzir o número de propostas." },
@@ -200,6 +215,7 @@
     {
       "id": "q1899",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se o edital exige visita presencial obrigatória e recusa declaração de conhecimento das condições locais, ele",
       "options": [
         { "id": "A", "text": "cumpre integralmente a Lei nº 14.133/2021." },
@@ -213,6 +229,7 @@
     {
       "id": "q1900",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Conforme o art. 63, § 1º, da Lei nº 14.133/2021, o edital deve exigir, sob pena de desclassificação, declaração de que a proposta",
       "options": [
         { "id": "A", "text": "garante lucro mínimo ao licitante." },
@@ -226,6 +243,7 @@
     {
       "id": "q1901",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em regra, os documentos de habilitação e os de regularidade fiscal são exigidos",
       "options": [
         { "id": "A", "text": "de todos antes da apresentação das propostas." },
@@ -239,6 +257,7 @@
     {
       "id": "q1902",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para um serviço com padrões de desempenho e qualidade objetivamente definidos por especificações usuais de mercado, a modalidade indicada pela Lei nº 14.133/2021 é",
       "options": [
         { "id": "A", "text": "concurso." },
@@ -252,6 +271,7 @@
     {
       "id": "q1903",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No julgamento por menor preço ou maior desconto, a proposta mais vantajosa corresponde necessariamente",
       "options": [
         { "id": "A", "text": "ao menor número nominal, ainda que descumpra a qualidade mínima." },
@@ -265,6 +285,7 @@
     {
       "id": "q1904",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A adoção do critério técnica e preço exige que",
       "options": [
         { "id": "A", "text": "todo serviço seja predominantemente comum." },
@@ -278,6 +299,7 @@
     {
       "id": "q1905",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No julgamento por técnica e preço, a valoração da proposta técnica pode atingir, no máximo,",
       "options": [
         { "id": "A", "text": "40%." },
@@ -291,6 +313,7 @@
     {
       "id": "q1906",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na Administração federal, a opção por sessão presencial em procedimento regido pela IN SEGES/ME nº 73/2022 deve ser",
       "options": [
         { "id": "A", "text": "livre e sem registro audiovisual." },
@@ -304,6 +327,7 @@
     {
       "id": "q1907",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Anexo VII-C da IN nº 5/2017 apresenta",
       "options": [
         { "id": "A", "text": "modelo de proposta." },
@@ -317,6 +341,7 @@
     {
       "id": "q1908",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos serviços com dedicação exclusiva de mão de obra, o Anexo VII-D",
       "options": [
         { "id": "A", "text": "é uma planilha imutável, proibida qualquer adaptação." },
@@ -330,6 +355,7 @@
     {
       "id": "q1909",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma planilha contém erro de soma. O licitante demonstra que o preço global já cobre todos os custos e corrige a soma sem aumentar a oferta. A solução adequada é",
       "options": [
         { "id": "A", "text": "desclassificar automaticamente por qualquer erro formal." },
@@ -343,6 +369,7 @@
     {
       "id": "q1910",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A proposta omite encargo trabalhista obrigatório e a única correção possível exige elevar o preço global. Nesse caso,",
       "options": [
         { "id": "A", "text": "o erro é sanável por simples troca de rubrica." },
@@ -356,6 +383,7 @@
     {
       "id": "q1911",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A declaração de responsabilidade pelo enquadramento sindical incluída no Anexo VII-C reforça que",
       "options": [
         { "id": "A", "text": "a Administração escolhe livremente o sindicato da empresa." },
@@ -369,6 +397,7 @@
     {
       "id": "q1912",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a formação de preços privados, a diretriz geral do Anexo VII-A é que a Administração",
       "options": [
         { "id": "A", "text": "deve fixar margem de lucro idêntica para todos." },
@@ -382,6 +411,7 @@
     {
       "id": "q1913",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A conformidade das propostas com o edital pode, conforme o art. 59, § 1º, ser verificada",
       "options": [
         { "id": "A", "text": "exclusivamente em relação à proposta mais bem classificada." },
@@ -395,6 +425,7 @@
     {
       "id": "q1914",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Constitui causa de desclassificação prevista no art. 59 da Lei nº 14.133/2021",
       "options": [
         { "id": "A", "text": "qualquer erro material sanável." },
@@ -408,6 +439,7 @@
     {
       "id": "q1915",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em serviço administrativo geral no âmbito federal, proposta abaixo de 50% do valor estimado pela Administração representa",
       "options": [
         { "id": "A", "text": "inexequibilidade absoluta e desclassificação sem defesa." },
@@ -421,6 +453,7 @@
     {
       "id": "q1916",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A regra do item 9.6 do Anexo VII-A, baseada em preço inferior a 30% da média das propostas, deve ser compreendida como",
       "options": [
         { "id": "A", "text": "parâmetro histórico que não substitui a disciplina vigente." },
@@ -434,6 +467,7 @@
     {
       "id": "q1917",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os percentuais de 75% para inexequibilidade e de 85% para garantia adicional previstos no art. 59 da Lei nº 14.133/2021 aplicam-se",
       "options": [
         { "id": "A", "text": "a todo serviço contínuo." },
@@ -447,6 +481,7 @@
     {
       "id": "q1918",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A existência de um item isolado com valor aparentemente inexequível na planilha",
       "options": [
         { "id": "A", "text": "sempre impõe desclassificação." },
@@ -460,6 +495,7 @@
     {
       "id": "q1919",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma diligência de exequibilidade pode legitimamente examinar",
       "options": [
         { "id": "A", "text": "instrumentos coletivos, notas fiscais, contratos comparáveis e condições favoráveis comprovadas." },
@@ -473,6 +509,7 @@
     {
       "id": "q1920",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após o julgamento, a Administração pode negociar condição mais vantajosa",
       "options": [
         { "id": "A", "text": "com o primeiro colocado e, se ele for desclassificado por permanecer acima do máximo, com os demais na ordem inicial." },
@@ -486,6 +523,7 @@
     {
       "id": "q1921",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A habilitação prevista na Lei nº 14.133/2021 divide-se em",
       "options": [
         { "id": "A", "text": "jurídica, técnica, fiscal/social/trabalhista e econômico-financeira." },
@@ -499,6 +537,7 @@
     {
       "id": "q1922",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para fins de exigência de atestados, a Lei nº 14.133/2021 considera parcela de maior relevância ou valor significativo aquela com valor individual",
       "options": [
         { "id": "A", "text": "igual ou superior a 1% do estimado." },
@@ -512,6 +551,7 @@
     {
       "id": "q1923",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O quantitativo mínimo exigível em atestado técnico-operacional pode alcançar",
       "options": [
         { "id": "A", "text": "até 50% da parcela relevante ou significativa." },
@@ -525,6 +565,7 @@
     {
       "id": "q1924",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A antiga previsão do Anexo VII-A de atestado equivalente a 100% dos postos quando a contratação tivesse até 40 postos",
       "options": [
         { "id": "A", "text": "permanece obrigatória por ser mais específica." },
@@ -538,6 +579,7 @@
     {
       "id": "q1925",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em serviço contínuo, o edital pode exigir experiência similar por um prazo mínimo",
       "options": [
         { "id": "A", "text": "obrigatoriamente superior a cinco anos." },
@@ -551,6 +593,7 @@
     {
       "id": "q1926",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A vedação de limitações de tempo relativas a atestados impede que o edital",
       "options": [
         { "id": "A", "text": "exija experiência similar até o teto legal em serviço contínuo." },
@@ -564,6 +607,7 @@
     {
       "id": "q1927",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao local dos atestados técnicos, a Lei nº 14.133/2021",
       "options": [
         { "id": "A", "text": "permite exigir que todos tenham sido executados no município contratante." },
@@ -577,6 +621,7 @@
     {
       "id": "q1928",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A habilitação econômico-financeira deve ser comprovada por índices",
       "options": [
         { "id": "A", "text": "secretos e definidos após as propostas." },
@@ -590,6 +635,7 @@
     {
       "id": "q1929",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A documentação contábil ordinária da habilitação econômico-financeira alcança",
       "options": [
         { "id": "A", "text": "os dois últimos exercícios sociais." },
@@ -603,6 +649,7 @@
     {
       "id": "q1930",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É vedado na qualificação econômico-financeira exigir",
       "options": [
         { "id": "A", "text": "certidão negativa de feitos sobre falência." },
@@ -616,6 +663,7 @@
     {
       "id": "q1931",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O capital mínimo ou patrimônio líquido mínimo pode ser exigido, para execução de serviços, em montante de até",
       "options": [
         { "id": "A", "text": "5% do faturamento anual do órgão." },
@@ -629,6 +677,7 @@
     {
       "id": "q1932",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na relação de compromissos assumidos para análise econômico-financeira, devem ser excluídas",
       "options": [
         { "id": "A", "text": "as parcelas já executadas dos contratos firmados." },
@@ -642,6 +691,7 @@
     {
       "id": "q1933",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Anexo VII-E é",
       "options": [
         { "id": "A", "text": "modelo de declaração de contratos firmados com iniciativa privada e Administração." },
@@ -655,6 +705,7 @@
     {
       "id": "q1934",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após a entrega dos documentos de habilitação, uma diligência pode",
       "options": [
         { "id": "A", "text": "criar experiência técnica adquirida somente depois da abertura." },
@@ -668,6 +719,7 @@
     {
       "id": "q1935",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Documento de habilitação cuja validade expirou após a data de recebimento das propostas",
       "options": [
         { "id": "A", "text": "pode ser atualizado em diligência." },
@@ -681,6 +733,7 @@
     {
       "id": "q1936",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma ME/EPP com restrição fiscal deve, durante a habilitação,",
       "options": [
         { "id": "A", "text": "ocultar o documento até a assinatura." },
@@ -694,6 +747,7 @@
     {
       "id": "q1937",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Declarada vencedora, a ME/EPP dispõe, em regra, para regularização fiscal e trabalhista, de",
       "options": [
         { "id": "A", "text": "dois dias corridos, improrrogáveis." },
@@ -707,6 +761,7 @@
     {
       "id": "q1938",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No pregão, considera-se empate ficto para ME/EPP a proposta até",
       "options": [
         { "id": "A", "text": "2% superior à melhor." },
@@ -720,6 +775,7 @@
     {
       "id": "q1939",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Fora do pregão, a faixa geral de empate ficto da ME/EPP alcança proposta até",
       "options": [
         { "id": "A", "text": "5% superior à melhor." },
@@ -733,6 +789,7 @@
     {
       "id": "q1940",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O tratamento favorecido à ME/EPP",
       "options": [
         { "id": "A", "text": "dispensa capacidade técnica indispensável." },
@@ -746,6 +803,7 @@
     {
       "id": "q1941",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na Lei nº 14.133/2021, credenciamento é",
       "options": [
         { "id": "A", "text": "modalidade de licitação." },
@@ -759,6 +817,7 @@
     {
       "id": "q1942",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Há credenciamento paralelo e não excludente quando",
       "options": [
         { "id": "A", "text": "é viável e vantajoso contratar simultaneamente em condições padronizadas." },
@@ -772,6 +831,7 @@
     {
       "id": "q1943",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No credenciamento com seleção a critério de terceiros, quem escolhe o contratado é",
       "options": [
         { "id": "A", "text": "o beneficiário direto da prestação." },
@@ -785,6 +845,7 @@
     {
       "id": "q1944",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Credenciamento em mercado fluido é adequado quando",
       "options": [
         { "id": "A", "text": "o valor e as condições de contratação sofrem flutuação constante que inviabiliza seleção por licitação." },
@@ -798,6 +859,7 @@
     {
       "id": "q1945",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se, no credenciamento paralelo, não for possível contratar imediatamente todos os credenciados, a Administração deve",
       "options": [
         { "id": "A", "text": "escolher livremente seu favorito." },
@@ -811,6 +873,7 @@
     {
       "id": "q1946",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O edital de chamamento para credenciamento deve",
       "options": [
         { "id": "A", "text": "ficar disponível para cadastramento permanente de novos interessados." },
@@ -824,6 +887,7 @@
     {
       "id": "q1947",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A hipótese de credenciamento para comércio eletrônico no Sistema de Compras Expressas (Sicx)",
       "options": [
         { "id": "A", "text": "foi incluída no art. 79 em 2025 e depende de regulamentação própria." },
@@ -837,6 +901,7 @@
     {
       "id": "q1948",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Encerrados julgamento e habilitação e exauridos os recursos, a autoridade superior pode",
       "options": [
         { "id": "A", "text": "apenas homologar, ainda que exista ilegalidade insanável." },
@@ -850,6 +915,7 @@
     {
       "id": "q1949",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A revogação da licitação exige",
       "options": [
         { "id": "A", "text": "ilegalidade insanável." },
@@ -863,6 +929,7 @@
     {
       "id": "q1950",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na anulação da licitação, a autoridade deve",
       "options": [
         { "id": "A", "text": "indicar os atos com vício insanável e os subsequentes que deles dependem." },
@@ -876,6 +943,7 @@
     {
       "id": "q1951",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Adjudicação e homologação significam, respectivamente,",
       "options": [
         { "id": "A", "text": "atribuição do objeto ao vencedor e confirmação final da regularidade do certame." },
@@ -889,6 +957,7 @@
     {
       "id": "q1952",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes de formalizar ou prorrogar um contrato, a Administração deve, entre outras medidas,",
       "options": [
         { "id": "A", "text": "verificar regularidade fiscal, consultar Ceis e Cnep e juntar certidões pertinentes." },
@@ -902,6 +971,7 @@
     {
       "id": "q1953",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O instrumento de contrato pode ser substituído por instrumento hábil, conforme o art. 95, na hipótese de",
       "options": [
         { "id": "A", "text": "qualquer serviço contínuo licitado." },
@@ -915,6 +985,7 @@
     {
       "id": "q1954",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando o termo de contrato é substituído por nota de empenho ou ordem de execução,",
       "options": [
         { "id": "A", "text": "nenhuma cláusula legal se aplica." },
@@ -928,6 +999,7 @@
     {
       "id": "q1955",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A divulgação no PNCP de contrato decorrente de licitação deve ocorrer em até",
       "options": [
         { "id": "A", "text": "5 dias corridos." },
@@ -941,6 +1013,7 @@
     {
       "id": "q1956",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A divulgação no PNCP de contrato decorrente de contratação direta deve ocorrer em até",
       "options": [
         { "id": "A", "text": "10 dias úteis." },
@@ -954,6 +1027,7 @@
     {
       "id": "q1957",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A divulgação do contrato no PNCP é",
       "options": [
         { "id": "A", "text": "mera notícia sem efeito jurídico." },
@@ -967,6 +1041,7 @@
     {
       "id": "q1958",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A antiga exigência do Anexo VII-G de publicar resumo na imprensa oficial",
       "options": [
         { "id": "A", "text": "substitui integralmente a divulgação no PNCP." },

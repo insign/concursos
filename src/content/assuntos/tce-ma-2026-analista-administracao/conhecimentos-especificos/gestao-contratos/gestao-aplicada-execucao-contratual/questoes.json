@@ -5,6 +5,7 @@
     {
       "id": "q2139",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto ao âmbito normativo da gestão aplicada da execução contratual, assinale a alternativa correta.",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q2140",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um contrato acompanha quarenta indicadores de baixa relevância, mas não mede as interrupções que comprometem seu resultado principal. O desenho do controle deve",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q2141",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um serviço deve solucionar incidentes críticos em até duas horas. O único indicador proposto conta quantos empregados estavam presentes. Esse indicador é",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q2142",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A sequência que melhor representa um controle contratual auditável é",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q2143",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma cláusula que exige apenas “atendimento de qualidade”, sem padrão, aferição ou evidência definidos, apresenta principalmente o risco de",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q2144",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na gestão contratual, o SLA deve ser compreendido como",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q2145",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A relação correta entre SLA e IMR é:",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q2146",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual elemento é indispensável para tornar um indicador reproduzível?",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q2147",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um índice de demandas concluídas no prazo, definir a população computável é importante porque",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q2148",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A respeito da fonte de dados de um indicador, é correto afirmar que",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q2149",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma janela computável de 1.000 minutos, houve 8 minutos de indisponibilidade computável. Pela fórmula apresentada no conteúdo, a disponibilidade foi de",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q2150",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um índice de prazo com 90 demandas concluídas no prazo entre 100 demandas concluídas computáveis corresponde a",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q2151",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Por que um percentual geral de conformidade pode ser insuficiente?",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q2152",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No desenho de nível de serviço, tolerância é",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q2153",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O chamado efeito penhasco ocorre quando",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q2154",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um período, cinco de cinquenta entregas previstas não foram realizadas. O contrato prevê ajuste proporcional do valor, e a omissão também pode caracterizar infração. Nesse caso,",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q2155",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma rubrica qualitativa confiável deve",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q2156",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A pesquisa de satisfação dos usuários",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q2157",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Constitui medida de integridade dos dados usados na medição",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q2158",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Relatório de desempenho elaborado pela contratada",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q2159",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Durante a execução, o fiscal percebe que a meta contratual é insuficiente e decide elevá-la por e-mail. Essa conduta é",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q2160",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A expressão “fiscalizador do contrato”, no recorte estudado, designa",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q2161",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Integra o núcleo da atuação do fiscalizador",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q2162",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Antes do início da execução, é especialmente relevante que o fiscalizador receba",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q2163",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A intensidade da fiscalização deve considerar",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q2164",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "É instrumento possível de acompanhamento, conforme o objeto",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q2165",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um relatório fotográfico isolado tende a ser insuficiente para provar",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q2166",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O fiscalizador ultrapassa seu papel quando",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q2167",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A linha que separa uma ordem legítima de correção de uma alteração informal está principalmente",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q2168",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre o ateste do fiscal, é correto afirmar que",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q2169",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um relatório afirma apenas que a disponibilidade mensal foi de 99,2%, sem anexar logs, indicar eventos excluídos ou apresentar memória de cálculo. Para fins de auditoria, o registro é",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q2170",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma interrupção crítica exige decisão superior, mas o contrato já prevê medida imediata de contingência dentro da alçada do fiscal. Ele deve",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q2171",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A empresa designa como preposto uma pessoa que apenas recebe mensagens, mas não consegue mobilizar qualquer providência nem obter resposta interna no prazo contratual. A situação indica",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q2172",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O preposto representa",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q2173",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O fiscal pede a substituição do preposto apenas porque ele apresentou, de forma respeitosa, justificativa técnica contrária à medição. Sem outra razão, o pedido é",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q2174",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O preposto assina a ciência de uma avaliação mensal. Esse ato, por si só,",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q2175",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em serviço remoto, o preposto responde pelo canal formal no prazo, participa das medições e comparece quando convocado. Sem necessidade objetiva adicional, exigir presença física contínua seria",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q2176",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na relação entre fiscal e preposto, a divisão adequada é",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q2177",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Como regra, solicitações relativas ao trabalho dos empregados terceirizados devem ser dirigidas",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q2178",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A autonomia da contratada significa que o preposto",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q2179",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O ciclo aplicado de acompanhamento pode ser resumido em",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q2180",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na reunião inicial, as partes percebem que dois sistemas registram horários em fusos diferentes, o que pode distorcer o indicador de prazo. A providência adequada é",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q2181",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Durante a execução, pretende-se trocar apenas a cor dos alertas do painel e, separadamente, mudar a fórmula do índice. Em princípio,",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q2182",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma matriz de acompanhamento que relaciona obrigação, risco, indicador, fonte, frequência e responsável",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q2183",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Se o relatório consolidado é mensal, o fiscal",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q2184",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma etapa de obra que ficará oculta por atividade posterior deve ser fiscalizada",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q2185",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao identificar um desvio, a primeira providência probatória adequada é",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q2186",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A correção rápida de uma falha pela contratada",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q2187",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Correção da prestação e responsabilização administrativa",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q2188",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma conversa urgente por telefone sobre falha grave",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q2189",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A contratada repete requerimento meramente protelatório, sem fato novo e sem interesse para a boa execução. À luz do art. 123 da Lei nº 14.133/2021,",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q2190",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O contrato fixa prazo específico de dez dias para responder determinada solicitação operacional. Diante do prazo geral de um mês estudado,",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q2191",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O histórico de gerenciamento do contrato serve para",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q2192",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na substituição do fiscal ou do preposto, deve-se",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q2193",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em contrato federal acompanhado no modelo de 2026, mensagens ao preposto ficam dispersas em contas pessoais e não são relacionadas às medições. Para corrigir o acompanhamento, o órgão deve",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q2194",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No modelo federal de 2026, o simples registro de um dado no Contratos.gov.br",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q2195",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em indicador de disponibilidade, uma manutenção programada pode ser retirada da indisponibilidade computável",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q2196",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Após medir disponibilidade de 99,2% diante de meta contratual de 99,5%, o fiscal pode excluir o evento por mera cortesia?",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q2197",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No mesmo caso de disponibilidade, o preposto",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q2198",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a síntese correta da gestão aplicada da execução contratual.",
       "options": [
         {
@@ -1744,6 +1804,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um auditor do TCE-MA pretende aplicar integralmente o fluxo do Contratos.gov.br a contrato estadual apenas porque o decreto federal é recente. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -1773,6 +1834,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um fiscal usa a IN nº 5/2017 como referência para desenhar uma ficha de medição, embora o ente possua norma interna própria. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -1802,6 +1864,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um parecer equipara a Lei nº 14.133/2021 e uma instrução normativa federal como fontes de mesma hierarquia. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -1831,6 +1894,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma equipe precisa decidir qual regra prevalece entre cláusula contratual válida e manual operacional não incorporado. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -1860,6 +1924,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um gestor deseja importar a divisão federal de papéis para o TCE-MA sem ato interno. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -1889,6 +1954,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contrato exige atendimento de qualidade, mas não define como demonstrar o cumprimento. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -1918,6 +1984,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Há indicador mensal, porém nenhuma consequência foi vinculada às faixas. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -1947,6 +2014,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O relatório apresenta consequência financeira sem indicar a obrigação violada. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -1976,6 +2044,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A equipe coleta fotografias, mas não relaciona as imagens a cláusula ou critério. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -2005,6 +2074,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O painel contém dezenas de métricas sem vínculo com o resultado principal. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -2034,6 +2104,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O painel mostra 96,8% de chamados no prazo, a meta interna é 98% e o contrato fixa mínimo de 97%. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -2063,6 +2134,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A equipe chama o resultado observado de SLA e a obrigação contratual de SLI. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -2092,6 +2164,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um gestor afirma que o IMR é uma penalidade administrativa. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -2121,6 +2194,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contrato contém SLA, mas o órgão deseja adotar ficha de IMR para organizar a aferição. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -2150,6 +2224,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um relatório confunde critério de aceitação de uma entrega com meta mensal de disponibilidade. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -2179,6 +2254,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um indicador de tempo não define quando o relógio começa nem termina. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -2208,6 +2284,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um percentual não informa população, exclusões ou tratamento de dados ausentes. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -2237,6 +2314,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contrato usa horários úteis, mas não define calendário nem fuso. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -2266,6 +2344,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Chamados reabertos não possuem regra de contagem. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -2295,6 +2374,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A fórmula foi alterada no meio do contrato sem versão ou data de vigência. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -2324,6 +2404,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um chamado é encerrado em quarenta minutos e reaberto pelo usuário dez minutos depois. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -2353,6 +2434,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada registra o início duas horas após o protocolo real. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -2382,6 +2464,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O sistema da contratada e o sistema do órgão possuem fusos diferentes. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -2411,6 +2494,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um incidente é restaurado temporariamente, mas a causa permanece ativa. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -2440,6 +2524,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um ticket duplicado é fechado e o original continua aberto. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -2469,6 +2554,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Chamados críticos são rebaixados para categoria comum antes do fechamento. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -2498,6 +2584,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Incidentes são encerrados e reabertos para reduzir o tempo médio. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -2527,6 +2614,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Eventos desfavoráveis são classificados como manutenção sem justificativa. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -2556,6 +2644,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada escolhe somente ordens de serviço conformes para a amostra. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -2585,6 +2674,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O início do atendimento é lançado apenas quando a equipe já está pronta. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -2614,6 +2704,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nove chamados foram respondidos em um minuto e um em cinquenta e um minutos. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -2643,6 +2734,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A média mensal ficou dentro da meta, mas o percentil 95 ultrapassou o limite. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -2672,6 +2764,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O serviço possui poucos eventos extremos que afetam usuários críticos. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -2701,6 +2794,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O painel divulga apenas a média e omite máximo e distribuição. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -2730,6 +2824,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Duas unidades têm a mesma média, mas dispersões muito diferentes. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -2759,6 +2854,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um relatório excelente compensa matematicamente indisponibilidade crítica. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -2788,6 +2884,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O escore global fica acima da meta embora um requisito de segurança tenha sido descumprido. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -2817,6 +2914,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um indicador de baixa materialidade recebe peso capaz de neutralizar falha essencial. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -2846,6 +2944,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada alcança média ponderada suficiente, mas fica abaixo do piso de continuidade. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -2875,6 +2974,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O modelo não distingue falhas críticas de desvios leves. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -2904,6 +3004,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada entrega apenas as ordens que considera representativas. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -2933,6 +3034,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal seleciona somente eventos críticos e pretende extrapolar para toda a população. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -2962,6 +3064,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma população pequena de cinco entregas críticas é verificada por amostra de uma. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -2991,6 +3094,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contrato possui unidades e turnos distintos, mas a amostra contempla apenas a sede. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -3020,6 +3124,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A seleção aleatória não registra população, período ou semente. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -3049,6 +3154,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma captura de tela é usada para provar disponibilidade durante todo o mês. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -3078,6 +3184,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma fotografia sem data pretende comprovar execução continuada. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -3107,6 +3214,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um relatório derivado diverge do log primário. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -3136,6 +3244,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma entrevista explica a causa, mas não há documento ou teste. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -3165,6 +3274,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um teste reproduzível contradiz declaração genérica da contratada. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -3194,6 +3304,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O sistema permite editar resultado sem registrar autor ou horário. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -3223,6 +3334,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Relógios de duas plataformas não estão sincronizados. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -3252,6 +3364,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Credencial compartilhada é usada por toda a equipe. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -3281,6 +3394,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O dado primário é sobrescrito após o fechamento mensal. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -3310,6 +3424,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O relatório final não pode ser reexecutado a partir da base. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -3339,6 +3454,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal detecta defeito coberto pelo contrato. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -3368,6 +3484,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada pede alteração do objeto diretamente ao fiscal. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -3397,6 +3514,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma ocorrência excede a alçada do fiscal. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -3426,6 +3544,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal é pressionado a atestar parcela sem suporte. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -3455,6 +3574,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal passa a definir escala e folga dos terceirizados. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -3484,6 +3604,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Consultoria especializada produz laudo sobre desempenho. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -3513,6 +3634,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Laboratório contratado realiza teste técnico. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -3542,6 +3664,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Empresa de apoio calcula indicador complexo. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -3571,6 +3694,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Especialista externo identifica vício em equipamento. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -3600,6 +3724,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Terceiro contratado recomenda aceite de uma entrega. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -3629,6 +3754,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O preposto não possui poderes para receber comunicações. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -3658,6 +3784,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O representante fica indisponível por vários dias. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -3687,6 +3814,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração exige substituição sem motivação. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -3716,6 +3844,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O preposto pretende alterar o contrato em reunião operacional. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -3745,6 +3874,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A empresa troca o preposto sem transferir pendências. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -3774,6 +3904,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal determina diretamente a folga de empregado terceirizado. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -3803,6 +3934,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Usuário solicita tarefa rotineira por canal previsto no contrato. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -3832,6 +3964,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Gestor escolhe nominalmente qual trabalhador executará cada atividade. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -3861,6 +3994,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Fiscal cobra correção do resultado por meio do preposto. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -3890,6 +4024,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Servidor dá ordem pessoal estranha ao objeto a empregado terceirizado. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -3919,6 +4054,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma falha foi corrigida verbalmente e não registrada. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -3948,6 +4084,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O ateste informa apenas 'serviço conforme' sem memória. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -3977,6 +4114,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal registra fato, mas omite cláusula e evidência. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -4006,6 +4144,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A manifestação do preposto não foi juntada. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -4035,6 +4174,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O sistema contém conclusão sem método ou fonte. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -4064,6 +4204,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O defeito exige alteração contratual. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -4093,6 +4234,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O desvio pode gerar sanção fora da alçada do fiscal. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -4122,6 +4264,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um pleito econômico é apresentado ao fiscal técnico. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -4151,6 +4294,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal identifica risco que exige decisão da autoridade. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -4180,6 +4324,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O problema supera a capacidade de correção operacional. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -4209,6 +4354,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O serviço ficou indisponível por vinte minutos. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -4238,6 +4384,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma entrega descumpriu especificação. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -4267,6 +4414,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O usuário pediu atividade prevista. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -4296,6 +4444,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada solicita reequilíbrio. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -4325,6 +4474,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Incidentes iguais ocorrem toda semana. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -4354,6 +4504,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O serviço é restaurado por solução temporária. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -4383,6 +4534,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A causa do incidente não foi investigada. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -4412,6 +4564,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contenção reduziu o impacto, mas a falha persiste. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -4441,6 +4594,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O preposto declara resolução sem validação do usuário. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -4470,6 +4624,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Incidente recorrente é encerrado sem ação preventiva. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -4499,6 +4654,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reunião inicial não define canais ou responsáveis. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -4528,6 +4684,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A revisão mensal termina sem ações ou prazos. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -4557,6 +4714,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um incidente crítico aguarda a reunião ordinária do mês seguinte. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -4586,6 +4744,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Mudança técnica é discutida sem avaliar efeito contratual. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -4615,6 +4774,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O encerramento ocorre sem revogar acessos. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -4644,6 +4804,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um fiscal é substituído sem inventário de pendências. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -4673,6 +4834,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A empresa sucessora recebe treinamento sem conteúdo ou aceite. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -4702,6 +4864,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Credenciais da contratada anterior permanecem ativas. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -4731,6 +4894,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pleitos e incidentes abertos não são transferidos. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -4760,6 +4924,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O novo preposto desconhece medições contestadas. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -4789,6 +4954,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada apresenta pedido relacionado à execução. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -4818,6 +4984,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um pleito é instruído, mas permanece sem decisão explícita. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -4847,6 +5014,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal recebe requerimento fora de sua competência. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -4876,6 +5044,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O pedido é manifestamente protelatório. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -4905,6 +5074,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O processo discute qual termo inicial de prazo aplicar. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -4934,6 +5104,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada corrige rapidamente serviço defeituoso. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -4963,6 +5134,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O IMR reduz o valor devido por parcela não entregue. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -4992,6 +5164,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O órgão cogita sanção por descumprimento reiterado. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -5021,6 +5194,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal mistura glosa e multa em um único cálculo. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -5050,6 +5224,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A correção técnica ocorre antes da apuração de responsabilidade. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -5079,6 +5254,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um órgão federal direto celebra contrato eletrônico. Diante da situação, assinale a providência mais adequada.",
       "options": [
         {
@@ -5108,6 +5284,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O TCE-MA deseja usar voluntariamente ferramenta federal. À luz da gestão contratual orientada por evidências, assinale a alternativa correta.",
       "options": [
         {
@@ -5137,6 +5314,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O sistema registra comunicações e relatórios de gestão. Considerando a Lei nº 14.133/2021 e o modelo aplicável, qual conclusão é correta?",
       "options": [
         {
@@ -5166,6 +5344,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um manual interno considera que o sistema substitui a validação dos dados. Para tornar o acompanhamento auditável, a Administração deve",
       "options": [
         {
@@ -5195,6 +5374,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O órgão federal precisa proteger dados contra uso indevido. A solução tecnicamente mais consistente é",
       "options": [
         {
@@ -5224,6 +5404,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um mês com 10.000 minutos computáveis, houve 100 minutos de indisponibilidade. Qual é a disponibilidade?",
       "options": [
         {
@@ -5253,6 +5434,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contrato exclui quatro horas de manutenção programada de uma janela de 720 horas. Houve três horas de indisponibilidade computável. Antes de calcular, qual base deve ser utilizada?",
       "options": [
         {
@@ -5282,6 +5464,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma janela computável possui 600 minutos e registra 30 minutos de indisponibilidade. O resultado correto é",
       "options": [
         {
@@ -5311,6 +5494,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 1.000 minutos previstos ocorreram duas indisponibilidades computáveis de 10 e 20 minutos. A disponibilidade foi",
       "options": [
         {
@@ -5340,6 +5524,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um relatório excluiu cinco minutos sem previsão contratual e informou 50 minutos de falha em 2.000 minutos. Qual resultado deve prevalecer, sem a exclusão indevida?",
       "options": [
         {
@@ -5369,6 +5554,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "De 100 demandas computáveis concluídas, 95 foram finalizadas no prazo. O índice de prazo é",
       "options": [
         {
@@ -5398,6 +5584,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Das 180 demandas concluídas, dez foram excluídas validamente. Entre as 170 computáveis, 153 ficaram no prazo. O índice é",
       "options": [
         {
@@ -5427,6 +5614,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um sistema registra vinte tickets duplicados dentro de 200 conclusões. O contrato determina que duplicados confirmados sejam excluídos. Para o denominador, a fiscalização deve",
       "options": [
         {
@@ -5456,6 +5644,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um chamado foi encerrado e reaberto, mas o contrato não define o efeito da reabertura. O índice de prazo",
       "options": [
         {
@@ -5485,6 +5674,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 60 entregas avaliadas, 48 foram aceitas sem correção. A conformidade é",
       "options": [
         {
@@ -5514,6 +5704,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Adote o método nearest-rank. Para os tempos ordenados 1, 2, 3, 4, 5, 6, 7, 8, 9 e 50 minutos, o percentil 90 é",
       "options": [
         {
@@ -5543,6 +5734,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em vinte eventos ordenados, dezenove duraram dois minutos e um durou sessenta. Pelo nearest-rank, o P95 é dois minutos. A conclusão correta é",
       "options": [
         {
@@ -5572,6 +5764,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um relatório informa P90 de vinte minutos para o tempo de resposta, segundo convenção válida. Isso significa, em termos gerais, que",
       "options": [
         {
@@ -5601,6 +5794,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Duas unidades têm média de seis minutos. Na primeira, todos os tempos ficam entre cinco e sete; na segunda, há muitos tempos de um minuto e poucos de cinquenta. A análise correta é",
       "options": [
         {
@@ -5630,6 +5824,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um SLA protege chamados críticos, mas o painel mistura todas as severidades em um único percentil. A providência mais adequada é",
       "options": [
         {
@@ -5659,6 +5854,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um escore atribui peso de 80% à disponibilidade, que alcançou 70%, e 20% aos relatórios, que alcançaram 100%. Há piso obrigatório de 95% para disponibilidade. A decisão correta é",
       "options": [
         {
@@ -5688,6 +5884,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qualidade e prazo têm pesos iguais. Os resultados são 90% e 100%, e o piso de qualidade é 85%. O escore e a situação são",
       "options": [
         {
@@ -5717,6 +5914,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um contrato prevê que falha de segurança limita o escore global a 60 pontos. A média dos demais indicadores é 92, mas ocorreu a falha. Deve-se",
       "options": [
         {
@@ -5746,6 +5944,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um indicador recebeu peso zero no cálculo global, embora proteja obrigação essencial. A melhor correção de desenho é",
       "options": [
         {
@@ -5775,6 +5974,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contrato afirma que requisito de continuidade é não compensável. A contratada supera todas as demais metas, mas descumpre continuidade. A conclusão é",
       "options": [
         {

@@ -5,6 +5,7 @@
     {
       "id": "q3579",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A colocação pronominal estuda principalmente",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q3580",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual série contém somente pronomes pessoais oblíquos átonos?",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q3581",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual frase a forma destacada é pronome oblíquo tônico e não se submete à colocação clítica?",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q3582",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção correta entre escolha e posição do pronome é",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q3583",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase exemplifica próclise?",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q3584",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase exemplifica ênclise?",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q3585",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual construção contém mesóclise?",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q3586",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A grafia dos três tipos de colocação está corretamente resumida em",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q3587",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase atende à colocação tradicional diante de palavra negativa?",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q3588",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual frase o pronome relativo justifica a próclise?",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q3589",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual construção apresenta próclise motivada por pronome indefinido?",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q3590",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A colocação correta em oração interrogativa é",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q3591",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase usa corretamente a próclise em oração subordinada?",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q3592",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta advérbio sem pausa e colocação conservadora adequada?",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q3593",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par ilustra corretamente o efeito da pausa depois de locução adverbial?",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q3594",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A construção normativa com preposição 'em' e gerúndio é",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q3595",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual oração optativa apresenta colocação adequada?",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q3596",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Embora se reconheçam os avanços, persistem falhas', a próclise decorre",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q3597",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No início absoluto de oração, qual forma é a resposta conservadora para prova?",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q3598",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre a próclise em início de oração no português brasileiro, é correto afirmar que",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q3599",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase trata corretamente uma conjunção coordenativa sem outro atrator?",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q3600",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a orientação institucional que favorece próclise com pronome pessoal reto anteposto ao futuro, a forma adequada é",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q3601",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual forma usa corretamente a mesóclise no futuro do presente, sem atrator?",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q3602",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase combina corretamente palavra negativa e futuro do presente?",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q3603",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na tradição normativa, qual forma deve ser evitada com futuro simples sem atrator?",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q3604",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase exemplifica mesóclise no futuro do pretérito?",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q3605",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta ênclise correta no imperativo afirmativo?",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q3606",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta colocação correta no imperativo negativo?",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q3607",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual construção apresenta ênclise normativa ao infinitivo?",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q3608",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase combina corretamente negação e infinitivo?",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q3609",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta colocação possível antes de infinitivo pessoal?",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q3610",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta ênclise correta ao gerúndio sem atrator?",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q3611",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quando o particípio aparece desacompanhado de auxiliar, qual construção é a segura?",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q3612",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A frase 'Entregue-me a ata' não prova que o particípio aceite ênclise porque",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q3613",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sem fator de atração, quais formas são registradas para locução com infinitivo?",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q3614",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Com palavra negativa, qual par é normativamente possível em locução com infinitivo?",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q3615",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual forma deve ser evitada porque põe ênclise no auxiliar logo depois de atrator?",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q3616",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par apresenta posições tradicionais possíveis em locução com gerúndio sem atrator?",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q3617",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta colocação correta em locução com particípio, sem atrator?",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q3618",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase combina corretamente atrator e locução com particípio?",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q3619",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A união correta de 'fazer' com o pronome 'o' é",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q3620",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A união correta de 'fizeram' com o pronome 'o' é",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q3621",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual série apresenta todas as transformações gráficas corretas?",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q3622",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A forma enclítica correta resultante de 'fiz + o' é",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q3623",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre a forma 'entregou-lho', é correto afirmar que",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q3624",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual afirmação sobre combinações pronominais está correta?",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q3625",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par substitui corretamente os complementos destacados, considerando também a regência?",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q3626",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao retirar a negativa de 'Não lhe comunicarei a decisão', a forma conservadora sem outro atrator é",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q3627",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O ato que se publicou será revisto', a posição de 'se' é explicada",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q3628",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre vírgula e atração pronominal, assinale a análise correta.",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q3629",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na orientação conservadora, qual par mostra a reanálise causada pela pausa após advérbio?",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q3630",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A análise adequada de 'A comissão deve se manifestar' é",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q3631",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O parecer foi entregue a ela', a expressão 'a ela'",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q3632",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Antes de deslocar o pronome 'se' em uma reescrita, deve-se",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q3633",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase reconhece corretamente um fator atrativo além da coordenação?",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q3634",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual sequência representa um método completo de análise?",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q3635",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase é uma solução segura com infinitivo e negação?",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q3636",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Põem-nos à disposição do público', retomando 'os relatórios', a forma 'nos' representa",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q3637",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual forma apresenta a grafia correta da mesóclise?",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q3638",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao alterar pontuação, atrator, tempo verbal ou estrutura de uma frase, a revisão correta consiste em",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q3639",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “Não creio que o diretor se manifeste hoje”, qual análise explica corretamente a posição do pronome em “se manifeste”?",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q3640",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a reescrita adequada ao padrão formal conservador para “Nunca comunicaram-me a decisão”.",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q3641",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O relatório que me enviaram contém inconsistências”, a mudança para “que enviaram-me” seria inadequada porque",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q3642",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “Em se tratando de recursos públicos, redobre-se a cautela”, a primeira próclise é explicada por",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q3643",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual opção mantém a colocação adequada em uma oração optativa?",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q3644",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “Quem lhe entregou a cópia?”, a posição de “lhe” decorre principalmente",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q3645",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Embora se reconheçam os avanços, persistem falhas”, qual reescrita é inadequada no padrão normativo?",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q3646",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Ou se aprova a proposta, ou se apresenta alternativa”, a próclise é compatível com",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q3647",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare “Hoje se divulgará o resultado” e “Hoje, divulgar-se-á o resultado”. A diferença de colocação é explicada porque",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q3648",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “Para tanto, faz-se necessária a revisão”, é incorreto afirmar que",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q3649",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O parecer, contudo, foi-lhe enviado”, qual afirmação está correta?",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q3650",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase ilustra corretamente que um advérbio não negativo, separado por pausa, não funciona como atrator mecânico?",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q3651",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “O servidor disse que amanhã se manifestará”, o fator de próclise mais diretamente associado a “se manifestará” é",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q3652",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa em que a vírgula não autoriza, por si só, a ênclise proposta.",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q3653",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Segundo a comissão, devem-se revisar os dados”, a expressão inicial",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q3654",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual procedimento é mais seguro diante de um possível atrator separado por incisos?",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q3655",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma questão estritamente prescritiva, qual forma é a mais segura para iniciar o período?",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q3656",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção apresenta imperativo afirmativo e ênclise adequada?",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q3657",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma adequada do imperativo negativo.",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q3658",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A comissão analisou o processo e encaminhou-o ao setor”, a ênclise em “encaminhou-o” é possível porque",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q3659",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual reescrita respeita a negativa presente na coordenação?",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q3660",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito de “A comissão se manifestou” e “A comissão manifestou-se”, assinale a análise mais precisa.",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q3661",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Leu o parecer, mas recusou-se a assiná-lo”, qual afirmação está correta?",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q3662",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um texto formal contemporâneo, a frase “Me disseram que o prazo acabou” deve ser julgada considerando",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q3663",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sem fator de próclise, qual forma corresponde à orientação normativa tradicional no futuro do presente?",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q3664",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual forma substitui adequadamente “Comunicar-lhe-ei” depois da inserção de “nunca”?",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q3665",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Eu lhe comunicarei a decisão”, a colocação é explicada por",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q3666",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa em que a mesóclise é inadequada devido a um fator de atração.",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q3667",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual opção evita uma mesóclise marcada sem produzir erro?",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q3668",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A forma “Comunicaria-lhe a decisão” é rejeitada na orientação conservadora porque",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q3669",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta futuro simples, fator de próclise e posição adequada?",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q3670",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre mesóclise e estilo, qual afirmação é correta?",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q3671",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual forma é adequada em “É importante ___ imediatamente”, retomando “o candidato”?",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q3672",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a construção adequada com negativa e infinitivo.",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q3673",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Trabalhou para o ajudar” e “Trabalhou para ajudá-lo”, a análise mais precisa é",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q3674",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual forma está correta com gerúndio sem a preposição “em” e sem atrator?",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q3675",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa adequada com gerúndio precedido de negativa.",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q3676",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção é inadequada porque põe o pronome depois do particípio?",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q3677",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare “Entregue-me a ata” e “Entregue a ata a mim”. A diferença central é que",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q3678",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual grafia resulta de “fizeram + o”?",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q3679",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sem fator de atração, qual construção é registrada na tradição com auxiliar + infinitivo?",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q3680",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual opção apresenta outra posição normativa possível para o pronome em “Deve-se informar sobre o resultado”?",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q3681",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Com a negativa, qual forma é inadequada?",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q3682",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Ninguém poderia impedi-lo”, a posição do pronome é compatível com",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q3683",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual alternativa reproduz a outra posição reconhecida para “Ninguém poderia impedi-lo”?",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q3684",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A comissão pode se manifestar”, a colocação entre os verbos deve ser analisada como",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q3685",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual forma é inadequada em uma locução com gerúndio e negativa?",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q3686",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “vinha oferecer-me ajuda” e “me vinha oferecer ajuda”, a alternância mostra que",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q3687",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção evita pronome depois do particípio em uma cadeia com três verbos?",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q3688",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma compatível com o uso brasileiro contemporâneo em cadeia “modal + ter + particípio”.",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q3689",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Com a negativa, qual construção é adequada?",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q3690",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual alternativa também pode ser construída com negativa e clítico ligado ao infinitivo auxiliar?",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q3691",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Deveria ter-lhe comunicado a decisão”, o pronome está ligado",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q3692",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual reescrita com negativa preserva a cadeia e a função do pronome?",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q3693",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “Talvez se possa ter equivocado”, a próclise é justificada por",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q3694",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao reescrever “pode ter-se manifestado” como “pode ter manifestado-se”, o erro decorre de",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q3695",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Vendem-se livros usados”, qual análise conjunta de função e concordância está correta?",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q3696",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Precisa-se de servidores”, o singular do verbo decorre de",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q3697",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual reescrita é inadequada por alterar a concordância da passiva sintética?",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q3698",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O servidor se arrependeu”, o pronome",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q3699",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “A comissão se referiu ao processo”, deslocar ou substituir “se” exige reconhecer que ele",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q3700",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Os candidatos se cumprimentaram”, a leitura mais natural de “se” é",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q3701",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual alternativa preserva função e concordância ao inserir negativa em “Vendem-se livros”?",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q3702",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “Trata-se de medidas urgentes” mantém o verbo no singular porque",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q3703",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A comissão informou o candidato. Qual substituição pronominal preserva a função de objeto direto?",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q3704",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A comissão informou o resultado ao candidato. Qual reescrita preserva o objeto indireto?",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q3705",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O que lhe proporciona maior satisfação?”, substituir “lhe” por “o”",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q3706",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual forma substitui corretamente “encontrou a servidora”?",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q3707",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A construção “referiu-se ao processo” não pode ser reescrita como “referiu-o” porque",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q3708",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual grafia está correta para “trazer + a” em ênclise?",
       "options": [
         {
@@ -3775,6 +3905,7 @@
     {
       "id": "q3709",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “põem-nos à disposição”, a forma “nos” pode representar",
       "options": [
         {
@@ -3804,6 +3935,7 @@
     {
       "id": "q3710",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual reescrita é mais clara em texto administrativo do que a combinação “Entregou-lho”?",
       "options": [
         {
@@ -3833,6 +3965,7 @@
     {
       "id": "q3711",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A forma simples “Informou-me o resultado” foi reescrita como locução. Qual alternativa preserva função e colocação possível?",
       "options": [
         {
@@ -3862,6 +3995,7 @@
     {
       "id": "q3712",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao transformar “Publicou-se o edital” em frase negativa, qual resultado é adequado?",
       "options": [
         {
@@ -3891,6 +4025,7 @@
     {
       "id": "q3713",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual reescrita preserva a colocação ao passar de presente para futuro sem atrator, na tradição normativa?",
       "options": [
         {
@@ -3920,6 +4055,7 @@
     {
       "id": "q3714",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A inserção de “talvez” em “Informar-me-á amanhã” exige a reescrita",
       "options": [
         {
@@ -3949,6 +4085,7 @@
     {
       "id": "q3715",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma questão sobre uso contemporâneo, “vão se beneficiar” e “vão beneficiar-se” podem ser comparadas porque",
       "options": [
         {
@@ -3978,6 +4115,7 @@
     {
       "id": "q3716",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “que vinha oferecer-me apoio”, qual reescrita preserva a atração do relativo e a estrutura da locução?",
       "options": [
         {
@@ -4007,6 +4145,7 @@
     {
       "id": "q3717",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual opção exemplifica uma reescrita gramatical que pode mudar o registro, mas não necessariamente a proposição central?",
       "options": [
         {
@@ -4036,6 +4175,7 @@
     {
       "id": "q3718",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao avaliar uma reescrita com pronome átono, qual conjunto de critérios é completo?",
       "options": [
         {

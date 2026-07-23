@@ -5,6 +5,7 @@
     {
       "id": "q434",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um órgão definiu metas, distribuiu recursos, orientou as equipes e comparou os resultados com padrões. A sequência corresponde, respectivamente, a",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q435",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A precedência do planejamento sobre as demais funções administrativas significa que",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q436",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a opção que relaciona corretamente a formulação de Fayol à síntese PODC.",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q437",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Planejamento administrativo é corretamente definido como o processo de",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q438",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção correta entre planejamento e plano é:",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q439",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto à incerteza, o planejamento",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q440",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um plano foi revisto porque a demanda real se afastou da premissa inicialmente adotada. O caso evidencia o caráter",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q441",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a compreensão adequada sobre os limites do planejamento.",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q442",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma unidade melhora seu indicador interno, mas consome recursos indispensáveis a uma prioridade institucional. A situação viola principalmente o princípio da",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q443",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma decisão de planejamento altera tecnologia, capacitação, responsabilidades e processos em várias áreas. Isso exemplifica",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q444",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No planejamento participativo, o principal benefício esperado é",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q445",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Duas áreas formularam planos incompatíveis porque ignoraram dependências de recursos e prazos. O princípio específico que deveria ter sido observado é o planejamento",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q446",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A compatibilidade entre o plano institucional, os planos das gerências e os detalhamentos das equipes decorre do princípio específico do planejamento",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q447",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O princípio específico do planejamento permanente exige",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q448",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a associação correta entre princípios específicos.",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q449",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na filosofia da satisfação, a organização tende a",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q450",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A filosofia da otimização caracteriza-se pela",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q451",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A filosofia de adaptação enfatiza",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q452",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma organização usa modelos quantitativos para escolher a alternativa de maior benefício líquido, mas mantém mecanismos de revisão diante de mudanças. Predominam, respectivamente, as filosofias de",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q453",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a distinção correta.",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q454",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma estimativa de crescimento da demanda passa a ser adotada como base para definir capacidade, recursos e prazo. No plano, ela funciona como",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q455",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O planejamento institucional ou estratégico caracteriza-se tipicamente por",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q456",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma gerência converte diretrizes institucionais em objetivos, recursos e iniciativas para sua área. Trata-se de planejamento",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q457",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A definição de tarefas, sequência, responsáveis e prazos de uma equipe corresponde tipicamente ao planejamento",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q458",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O alinhamento entre níveis de planejamento exige que",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q459",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre os horizontes dos níveis de planejamento, assinale a opção correta.",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q460",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a relação correta entre objetivo e meta.",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q461",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma diretriz geral que orienta decisões recorrentes, preservando margem de julgamento, é uma",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q462",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O instrumento que descreve uma sequência padronizada de etapas é o",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q463",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "São exemplos típicos de planos permanentes e temporários, respectivamente,",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q464",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A associação correta entre instrumentos de planejamento é:",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q465",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um roteiro racional de planejamento, é adequado",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q466",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A comparação de alternativas no planejamento permite",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q467",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A função administrativa direção consiste principalmente em",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q468",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em nível intermediário, a direção enfatiza",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q469",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a afirmação correta sobre autoridade e liderança.",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q470",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre motivação na direção, é correto afirmar que",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q471",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Coordenação administrativa consiste em",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q472",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma delegação gerencial adequada",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q473",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Delegação gerencial e delegação de competência administrativa diferenciam-se porque",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q474",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Descentralização e delegação não são sinônimos porque",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q475",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Nos termos do Decreto-Lei nº 200/1967, são princípios fundamentais da Administração Federal:",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q476",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No Decreto-Lei nº 200/1967, a coordenação",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q477",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre o PPA como instrumento de planejamento público, assinale a opção correta.",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q478",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um supervisor orienta a execução e, depois, compara o resultado com o padrão. As ações correspondem a",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q479",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um órgão pretende digitalizar um serviço. Qual sequência demonstra integração adequada entre planejamento e direção?",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q480",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quando uma premissa relevante muda durante a execução, a conduta adequada é",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q481",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma resposta discursiva a situação-problema de gestão, o encadeamento mais consistente é",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q482",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Após delegar decisão dentro de limites definidos, a chefia deve",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q483",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A afirmação de que direção consiste apenas em emitir ordens é inadequada porque",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q484",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Predição, projeção e previsão devem ser tratadas, no planejamento organizacional, como",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q485",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Entre as funções do processo administrativo, comunicação, liderança e motivação aparecem predominantemente na",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q486",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A função planejamento prevê, entre outras atividades,",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q487",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Considerando planos permanentes e de uso único, a associação correta é",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q488",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na filosofia da satisfação, afirmar que o planejamento busca necessariamente o máximo resultado possível é",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q489",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a correspondência correta entre princípios específicos do planejamento.",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q490",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No planejamento participativo, o principal resultado esperado não se limita ao plano final porque",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q491",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma filosofia conservadora que procura resultado aceitável, uma filosofia baseada em modelos e uma filosofia voltada à inovação correspondem, respectivamente, a",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q492",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na filosofia de adaptação, o principal valor do planejamento está",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q493",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em relação às filosofias do planejamento, é correto afirmar que",
       "options": [
         {

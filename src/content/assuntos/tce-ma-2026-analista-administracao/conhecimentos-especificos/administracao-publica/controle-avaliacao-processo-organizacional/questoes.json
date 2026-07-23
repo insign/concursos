@@ -5,6 +5,7 @@
     {
       "id": "q534",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No processo administrativo, controlar significa principalmente",
       "options": [
         {"id": "a", "text": "comparar desempenho com referências, analisar desvios e desencadear ações pertinentes"},
@@ -19,6 +20,7 @@
     {
       "id": "q535",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A interdependência entre planejamento e controle decorre do fato de que",
       "options": [
         {"id": "a", "text": "o controle formula todos os objetivos antes do planejamento"},
@@ -33,6 +35,7 @@
     {
       "id": "q536",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a sequência que melhor representa o ciclo de controle.",
       "options": [
         {"id": "a", "text": "agir, medir, abolir o padrão e encerrar"},
@@ -47,6 +50,7 @@
     {
       "id": "q537",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito dos padrões de controle, é correto afirmar que",
       "options": [
         {"id": "a", "text": "precisam ser exclusivamente monetários"},
@@ -61,6 +65,7 @@
     {
       "id": "q538",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade registra diariamente o número de solicitações, mas não possui meta, faixa de tolerância nem análise dos dados. Nessa situação, há",
       "options": [
         {"id": "a", "text": "controle completo por exceção"},
@@ -75,6 +80,7 @@
     {
       "id": "q539",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao comparar o realizado com o padrão, a diferença encontrada",
       "options": [
         {"id": "a", "text": "é um desvio cuja relevância depende de tolerância, causa, tendência, risco e consequência"},
@@ -89,6 +95,7 @@
     {
       "id": "q540",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Diante de atraso causado por uma etapa redundante, a ação de controle mais consistente com a causa é",
       "options": [
         {"id": "a", "text": "aumentar a meta sem examinar o processo"},
@@ -103,6 +110,7 @@
     {
       "id": "q541",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A revisão de uma meta durante o ciclo de controle é legítima quando",
       "options": [
         {"id": "a", "text": "serve apenas para transformar qualquer fracasso em sucesso"},
@@ -117,6 +125,7 @@
     {
       "id": "q542",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No ciclo de controle, retroalimentação corresponde",
       "options": [
         {"id": "a", "text": "ao padrão definido sem qualquer informação da execução"},
@@ -131,6 +140,7 @@
     {
       "id": "q543",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Monitoramento distingue-se de controle porque o monitoramento",
       "options": [
         {"id": "a", "text": "sempre ocorre somente depois do encerramento"},
@@ -145,6 +155,7 @@
     {
       "id": "q544",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Avaliação organizacional é corretamente caracterizada como",
       "options": [
         {"id": "a", "text": "exame sistemático que aplica critérios e evidências para julgar mérito, adequação, desempenho ou efeitos"},
@@ -159,6 +170,7 @@
     {
       "id": "q545",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre indicadores, assinale a afirmativa correta.",
       "options": [
         {"id": "a", "text": "São sempre medidas financeiras."},
@@ -173,6 +185,7 @@
     {
       "id": "q546",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A verificação da capacidade do sistema e dos requisitos antes de iniciar uma operação exemplifica controle",
       "options": [
         {"id": "a", "text": "posterior"},
@@ -187,6 +200,7 @@
     {
       "id": "q547",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante o expediente, a chefia acompanha o crescimento da fila e remaneja servidores para evitar atraso. Trata-se de controle",
       "options": [
         {"id": "a", "text": "ex ante de política pública"},
@@ -201,6 +215,7 @@
     {
       "id": "q548",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao fim do mês, a unidade compara o prazo médio realizado com a meta mensal. Quanto ao momento, esse controle é",
       "options": [
         {"id": "a", "text": "prévio"},
@@ -215,6 +230,7 @@
     {
       "id": "q549",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na teoria de sistemas aplicada ao controle, feedforward enfatiza",
       "options": [
         {"id": "a", "text": "informação antecipatória sobre entradas e causas para prevenir desvios"},
@@ -229,6 +245,7 @@
     {
       "id": "q550",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O acompanhamento da missão, dos objetivos globais e dos riscos críticos da organização caracteriza predominantemente controle",
       "options": [
         {"id": "a", "text": "operacional"},
@@ -243,6 +260,7 @@
     {
       "id": "q551",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O controle de planos e desempenho de uma diretoria ou departamento situa-se predominantemente no nível",
       "options": [
         {"id": "a", "text": "externo"},
@@ -257,6 +275,7 @@
     {
       "id": "q552",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Prazos de tarefas, qualidade de uma rotina e produtividade diária são objetos típicos de controle",
       "options": [
         {"id": "a", "text": "institucional de longo prazo apenas"},
@@ -271,6 +290,7 @@
     {
       "id": "q553",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A relação entre os níveis estratégico, tático e operacional de controle é corretamente descrita em",
       "options": [
         {"id": "a", "text": "cada nível produz dados que nunca podem circular"},
@@ -285,6 +305,7 @@
     {
       "id": "q554",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sentido da teoria organizacional, autocontrole ocorre quando",
       "options": [
         {"id": "a", "text": "o executor ou gestor verifica o próprio trabalho segundo referências conhecidas"},
@@ -299,6 +320,7 @@
     {
       "id": "q555",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito do controle como função administrativa e do controle externo constitucional, é correto afirmar que",
       "options": [
         {"id": "a", "text": "são expressões necessariamente idênticas"},
@@ -313,6 +335,7 @@
     {
       "id": "q556",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o Guia Referencial da Enap, integram os componentes básicos de um indicador",
       "options": [
         {"id": "a", "text": "missão, organograma, cargo, sanção e orçamento"},
@@ -327,6 +350,7 @@
     {
       "id": "q557",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a distinção correta entre índice e meta.",
       "options": [
         {"id": "a", "text": "Índice é sempre qualitativo, e meta é sempre financeira."},
@@ -341,6 +365,7 @@
     {
       "id": "q558",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na definição de uma meta de desempenho, é recomendável",
       "options": [
         {"id": "a", "text": "ignorar a situação inicial"},
@@ -355,6 +380,7 @@
     {
       "id": "q559",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um programa de capacitação, instrutores, orçamento e plataforma são classificados como",
       "options": [
         {"id": "a", "text": "insumos ou inputs"},
@@ -369,6 +395,7 @@
     {
       "id": "q560",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na cadeia de desempenho, processo ou atividade corresponde",
       "options": [
         {"id": "a", "text": "ao efeito amplo de longo prazo"},
@@ -383,6 +410,7 @@
     {
       "id": "q561",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O número de turmas concluídas e de certificados emitidos constitui, na cadeia de uma capacitação, indicador de",
       "options": [
         {"id": "a", "text": "insumo"},
@@ -397,6 +425,7 @@
     {
       "id": "q562",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A melhoria sustentada da qualidade do serviço público associada a uma capacitação representa, na cadeia apresentada,",
       "options": [
         {"id": "a", "text": "um insumo"},
@@ -411,6 +440,7 @@
     {
       "id": "q563",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em questões sobre produto, resultado e impacto, o candidato deve considerar que",
       "options": [
         {"id": "a", "text": "resultado possui definição universal e única"},
@@ -425,6 +455,7 @@
     {
       "id": "q564",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Economicidade é mais bem expressa pela",
       "options": [
         {"id": "a", "text": "obtenção e uso prudente de recursos, considerando custo, qualidade e risco"},
@@ -439,6 +470,7 @@
     {
       "id": "q565",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Eficiência examina predominantemente",
       "options": [
         {"id": "a", "text": "somente se a missão foi redigida"},
@@ -453,6 +485,7 @@
     {
       "id": "q566",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O grau em que uma unidade alcança a meta de emitir mil certidões no mês corresponde principalmente à",
       "options": [
         {"id": "a", "text": "economicidade"},
@@ -467,6 +500,7 @@
     {
       "id": "q567",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Efetividade diferencia-se de eficácia porque enfatiza",
       "options": [
         {"id": "a", "text": "somente o preço do insumo"},
@@ -481,6 +515,7 @@
     {
       "id": "q568",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade reduz o custo por atendimento e alcança a quantidade prevista, mas os usuários continuam sem conseguir resolver sua demanda. Nesse caso, há indícios de",
       "options": [
         {"id": "a", "text": "ineficiência e ineficácia necessariamente"},
@@ -495,6 +530,7 @@
     {
       "id": "q569",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para que uma informação de controle permita ação útil, ela deve ser especialmente",
       "options": [
         {"id": "a", "text": "suficientemente exata e tempestiva"},
@@ -509,6 +545,7 @@
     {
       "id": "q570",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um sistema de controle flexível, compreensível e aceitável é aquele que",
       "options": [
         {"id": "a", "text": "muda critérios secretamente a cada medição"},
@@ -523,6 +560,7 @@
     {
       "id": "q571",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O critério de economicidade aplicado ao próprio sistema de controle recomenda",
       "options": [
         {"id": "a", "text": "adotar todos os controles tecnicamente possíveis"},
@@ -537,6 +575,7 @@
     {
       "id": "q572",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O princípio da exceção orienta a gestão a",
       "options": [
         {"id": "a", "text": "abandonar todas as rotinas de acompanhamento"},
@@ -551,6 +590,7 @@
     {
       "id": "q573",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma avaliação ex ante é realizada para",
       "options": [
         {"id": "a", "text": "medir apenas efeitos já consolidados anos depois"},
@@ -565,6 +605,7 @@
     {
       "id": "q574",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação intermediária ou in itinere",
       "options": [
         {"id": "a", "text": "ocorre durante a execução e pode apoiar aperfeiçoamentos em curso"},
@@ -579,6 +620,7 @@
     {
       "id": "q575",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação ex post caracteriza-se por",
       "options": [
         {"id": "a", "text": "ocorrer obrigatoriamente antes da escolha da alternativa"},
@@ -593,6 +635,7 @@
     {
       "id": "q576",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação de processo ou implementação concentra-se em",
       "options": [
         {"id": "a", "text": "apenas estimar impacto causal de longo prazo"},
@@ -607,6 +650,7 @@
     {
       "id": "q577",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um relatório exato chega depois de encerrada a única janela possível de correção. A principal fragilidade do controle foi a falta de",
       "options": [
         {"id": "a", "text": "formalidade"},
@@ -621,6 +665,7 @@
     {
       "id": "q578",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para atingir uma meta de prazo, uma unidade deixa de registrar casos complexos no sistema. Essa conduta exemplifica",
       "options": [
         {"id": "a", "text": "controle preventivo eficaz"},
@@ -635,6 +680,7 @@
     {
       "id": "q579",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A fixação excessiva em métricas ocorre quando",
       "options": [
         {"id": "a", "text": "o número vira fim em si mesmo e aspectos relevantes não mensurados são negligenciados"},
@@ -649,6 +695,7 @@
     {
       "id": "q580",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma cultura em que todo desvio gera punição automática pode prejudicar o controle porque",
       "options": [
         {"id": "a", "text": "elimina qualquer responsabilidade legal"},
@@ -663,6 +710,7 @@
     {
       "id": "q581",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos termos do art. 6º do Decreto-Lei nº 200/1967, o controle",
       "options": [
         {"id": "a", "text": "é atividade facultativa e externa à Administração Federal"},
@@ -677,6 +725,7 @@
     {
       "id": "q582",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "De acordo com o art. 13 do Decreto-Lei nº 200/1967, o controle das atividades da Administração Federal",
       "options": [
         {"id": "a", "text": "cabe somente ao Poder Legislativo"},
@@ -691,6 +740,7 @@
     {
       "id": "q583",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O art. 14 do Decreto-Lei nº 200/1967 determina que o trabalho administrativo seja racionalizado mediante",
       "options": [
         {"id": "a", "text": "criação de controle para cada risco, sem considerar custo"},

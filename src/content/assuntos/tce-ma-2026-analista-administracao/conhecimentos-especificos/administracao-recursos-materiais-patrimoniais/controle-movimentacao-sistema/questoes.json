@@ -5,6 +5,7 @@
     {
       "id": "q1134",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Nos termos do art. 70 da Constituição Federal, a fiscalização patrimonial abrange, entre outros critérios,",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q1135",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo o art. 94 da Lei nº 4.320/1964, os bens de caráter permanente devem possuir",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q1136",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A Lei nº 4.320/1964 determina, em seu art. 95, a manutenção de",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q1137",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O levantamento geral dos bens móveis e imóveis, conforme o art. 96 da Lei nº 4.320/1964, terá por base",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q1138",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A cadeia de evidências de um controle patrimonial efetivo deve relacionar",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q1139",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "É exemplo de controle patrimonial preventivo",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q1140",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Constitui controle detectivo no patrimônio",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q1141",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Após confirmar que a localização cadastrada está errada, uma medida corretiva adequada é",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q1142",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em relação à segregação de funções, o desenho de controle mais adequado é",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q1143",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre o grau de controle dos materiais, a IN SEDAP nº 205/1988 orienta, no âmbito federal, que",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q1144",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma troca de responsável por equipamentos que permanecem na mesma sala constitui",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q1145",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para analisar corretamente uma movimentação patrimonial, é útil separar as dimensões",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q1146",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um computador passa para outra sala, mas permanece sob o mesmo consignatário. Nesse caso,",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q1147",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A dimensão administrativa de uma movimentação compreende principalmente",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q1148",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto ao efeito contábil de uma movimentação física interna, é correto afirmar que",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q1149",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Antes de movimentar um bem permanente, o conjunto mais útil de informações é",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q1150",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No recebimento de uma movimentação, o destinatário encontra dano não registrado na origem. A conduta adequada é",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q1151",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para a IN SEDAP nº 205/1988, carga é",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q1152",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo o item 7.9 da IN SEDAP nº 205/1988, a movimentação entre almoxarifado e depósito ou unidade requisitante deve",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q1153",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na referência federal da IN SEDAP nº 205/1988, um equipamento que muda de local, mas continua com o mesmo consignatário,",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q1154",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma redistribuição de material permanente, a IN SEDAP nº 205/1988 determina atualizar o termo com",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q1155",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No Decreto federal nº 12.785/2025, cessão de bem móvel é",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q1156",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A transferência prevista no Decreto federal nº 12.785/2025 tem caráter",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q1157",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo o Decreto nº 12.785/2025, na circularidade federal de bens móveis",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q1158",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O Decreto nº 12.785/2025 deve ser usado no estudo do TCE-MA como",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q1159",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um equipamento público é enviado temporariamente para manutenção contratada. Esse evento",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q1160",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, cadastro mestre significa",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q1161",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma trilha de auditoria patrimonial adequada registra",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q1162",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O sistema indica que um bem está na sala 10. Para comprovar existência e estado atuais, é necessário",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q1163",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para reduzir divergências causadas por planilhas paralelas, a entidade deve",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q1164",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A Portaria nº 232/2020 instituiu o SIADS para gerenciar, em seu âmbito federal,",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q1165",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A relação entre SIADS e SIAFI, conforme a Portaria nº 232/2020, é corretamente descrita por",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q1166",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A existência do SIADS na administração federal permite concluir que",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q1167",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O inventário físico tem como função central",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q1168",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na IN SEDAP nº 205/1988, o inventário destinado a comprovar quantidade e valor do acervo existente em 31 de dezembro é o",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q1169",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O inventário inicial, na classificação da IN SEDAP nº 205/1988, é realizado",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q1170",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na mudança do dirigente de uma unidade gestora, a IN SEDAP nº 205/1988 prevê inventário",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q1171",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O inventário que pode ser realizado em qualquer época por iniciativa do dirigente ou do órgão fiscalizador é o",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q1172",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a IN SEDAP nº 205/1988, o inventário analítico deve conter",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q1173",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Inventário rotativo é",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q1174",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na conciliação físico-patrimonial-contábil, deve-se",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q1175",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um bem cadastrado não é encontrado no inventário. A primeira resposta adequada é",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q1176",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Aplicar o princípio do menor privilégio ao sistema patrimonial significa",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q1177",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para a continuidade de um sistema patrimonial, é essencial",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q1178",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A respeito de metas para indicadores patrimoniais, é correto afirmar que",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q1179",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O percentual de bens sem responsável ou localização válida mede principalmente",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q1180",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um relatório de movimentações pendentes por idade é útil para",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q1181",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Durante inventário, encontra-se um bem na sala correta, mas com responsável cadastrado que já deixou a unidade. Deve-se",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q1182",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O sistema patrimonial registra 100 equipamentos, e a contabilidade contém valor referente a 102. A conduta adequada é",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q1183",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao corrigir no sistema o responsável por um bem, a prática que melhor preserva a prestação de contas é",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q1184",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em auditoria patrimonial, a equipe concluiu que bastaria comprovar a existência de saldo financeiro para atender ao art. 70 da Constituição. A conclusão é inadequada porque a fiscalização patrimonial também examina",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q1185",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade mantém apenas o total por classe de mobiliário, sem identificar cada bem permanente ou seus responsáveis. À luz da Lei nº 4.320/1964, falta",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q1186",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os registros sintéticos previstos no art. 95 da Lei nº 4.320/1964 têm por função principal",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q1187",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O levantamento geral de bens, conforme o art. 96 da Lei nº 4.320/1964, deve se apoiar",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q1188",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na IN SEDAP nº 205/1988, carga significa",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q1189",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na terminologia da IN SEDAP nº 205/1988, descarga é",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q1190",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem permanente foi levado para outra sala pelo mesmo consignatário sem comunicação à área de patrimônio. Segundo a IN nº 205/1988, a irregularidade consiste em",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q1191",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na redistribuição de equipamento permanente, o termo de responsabilidade deve registrar",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q1192",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A IN nº 205/1988 admite controles diferentes conforme o item porque",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q1193",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário anual da IN nº 205/1988 é destinado a",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q1194",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário realizado por ocasião da mudança do dirigente de uma unidade gestora é o",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q1195",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário rotativo previsto como instrumento gerencial caracteriza-se por",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q1196",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário por amostragem pode ser adequado a acervo de grande porte, mas",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q1197",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Portaria nº 232/2020 instituiu o SIADS para",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q1198",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os acervos gerenciados pelo SIADS estão",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q1199",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A integração SIADS–SIAFI deve ser compreendida como",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q1200",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O prazo excepcional máximo fixado em 2022 para órgãos e entidades ainda não implantados adotarem o SIADS foi",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q1201",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Decreto nº 12.785/2025 aplica-se diretamente",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q1202",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No Decreto nº 12.785/2025, cessão de bem inservível ocioso ou recuperável é",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q1203",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No mesmo decreto, transferência é",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q1204",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um notebook muda da sala 201 para a 305, permanecendo com o mesmo usuário e na mesma unidade. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q1205",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O dirigente é substituído, mas mobiliário e equipamentos permanecem no local. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q1206",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma impressora sai para manutenção externa com cabo e bandeja adicional. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q1207",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O sistema mostra um bem como disponível, embora haja ordem de manutenção externa aberta. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q1208",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem é levado a evento externo por três dias. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q1209",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um equipamento pertencente a outra entidade permanece sob guarda do órgão. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q1210",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um servidor leva equipamento ao teletrabalho. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q1211",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma transferência em lote contém cem monitores. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q1212",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante inventário, um item está em trânsito entre prédios. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q1213",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O destino recebe o bem com dano não indicado na origem. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q1214",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma movimentação foi cadastrada, mas o objeto nunca saiu do local. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q1215",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O bem saiu em 10 de julho, chegou em 11 e foi lançado em 15. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q1216",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O responsável anterior se aposentou e o novo assumiu sem inventário. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q1217",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma oficina devolve equipamento sem o carregador enviado. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q1218",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O transporte entre prédios é executado por empresa contratada. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q1219",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem é transferido definitivamente para outra pessoa jurídica. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q1220",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um empréstimo temporário venceu sem devolução. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q1221",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O usuário mudou de lotação e levou o notebook sem autorização. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q1222",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O bem permanece na sala, mas muda de unidade organizacional responsável. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q1223",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma remessa contém bem frágil sem indicação de acondicionamento. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q1224",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O destino rejeita o bem por divergência de número patrimonial. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q1225",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem em inventário restritivo recebe nova solicitação de movimento. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q1226",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A origem encerrou a movimentação antes do aceite do destino. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q1227",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A carga está em nome de servidor desligado, embora o bem tenha sido localizado. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q1228",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O órgão usa a mesma etiqueta patrimonial em dois equipamentos. A conduta ou interpretação correta é:",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q1229",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Cadastro mestre' é corretamente associado a",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q1230",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Menor privilégio' é corretamente associado a",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q1231",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Trilha de auditoria' é corretamente associado a",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q1232",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Backup' é corretamente associado a",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q1233",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Número patrimonial' é corretamente associado a",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q1234",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Código de barras' é corretamente associado a",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q1235",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Usuário genérico' é corretamente associado a",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q1236",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Mudança de sistema' é corretamente associado a",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q1237",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Interface rejeitada' é corretamente associado a",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q1238",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Total de controle' é corretamente associado a",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q1239",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Número de série duplicado' é corretamente associado a",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q1240",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Responsável desligado' é corretamente associado a",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q1241",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Local inexistente' é corretamente associado a",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q1242",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Correção direta no banco' é corretamente associado a",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q1243",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Planilha auxiliar' é corretamente associado a",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q1244",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Estado incompatível' é corretamente associado a",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q1245",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Aprovação por alçada' é corretamente associado a",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q1246",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Correção na origem' é corretamente associado a",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q1247",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Disponibilidade' é corretamente associado a",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q1248",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema patrimonial, o conceito ou controle 'Autenticidade' é corretamente associado a",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q1249",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O SIADS é descrito oficialmente como sistema usado para gerenciar",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q1250",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A integração do SIADS com o SIAFI",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q1251",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O aplicativo Inventário Eletrônico SIADS",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q1252",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A existência de inventário eletrônico",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q1253",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O SIADS possui como público obrigatório",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q1254",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para órgãos federais não abrangidos pela obrigatoriedade",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q1255",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O SIADS Grande Porte e o SIADSWeb",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q1256",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área de auditoria pode usar o SIADS porque",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q1257",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na migração para o SIADS, divergência de batimento",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q1258",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A afirmação de que o SIADS substitui automaticamente qualquer sistema do TCE-MA é",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q1259",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contagem cega busca",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q1260",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O teste cadastro → físico verifica",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q1261",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O teste físico → cadastro verifica",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q1262",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Cutoff de inventário significa",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q1263",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Recontagem independente é especialmente útil para",
       "options": [
         {
@@ -3775,6 +3905,7 @@
     {
       "id": "q1264",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante o inventário, o mesmo custodiante realiza sozinho a contagem e confirma sua própria carga. O principal risco é",
       "options": [
         {
@@ -3804,6 +3935,7 @@
     {
       "id": "q1265",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem registrado não é encontrado. Antes de qualquer baixa, deve-se",
       "options": [
         {
@@ -3833,6 +3965,7 @@
     {
       "id": "q1266",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem é encontrado sem registro. A conduta inicial adequada é",
       "options": [
         {
@@ -3862,6 +3995,7 @@
     {
       "id": "q1267",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A conciliação físico-patrimonial compara",
       "options": [
         {
@@ -3891,6 +4025,7 @@
     {
       "id": "q1268",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A conciliação patrimonial-contábil compara",
       "options": [
         {
@@ -3920,6 +4055,7 @@
     {
       "id": "q1269",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A conciliação tecnológica verifica",
       "options": [
         {
@@ -3949,6 +4085,7 @@
     {
       "id": "q1270",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um inventário rotativo cobriu 900 de 1.000 itens previstos no ciclo. A cobertura é",
       "options": [
         {
@@ -3978,6 +4115,7 @@
     {
       "id": "q1271",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade verificou 200 itens; 190 estavam corretos em identidade, local e carga. A acurácia quantitativa é",
       "options": [
         {
@@ -4007,6 +4145,7 @@
     {
       "id": "q1272",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois equipamentos de alto valor concentram metade do valor do acervo e estão divergentes, embora 98% dos itens estejam corretos. A leitura adequada é",
       "options": [
         {
@@ -4036,6 +4175,7 @@
     {
       "id": "q1273",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Depois de identificar divergências, a equipe ajusta todas sem classificar causas. A principal deficiência é",
       "options": [
         {
@@ -4065,6 +4205,7 @@
     {
       "id": "q1274",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um universo de 2.000 bens ativos, 60 estão sem responsável válido. O indicador de bens sem carga válida é",
       "options": [
         {
@@ -4094,6 +4235,7 @@
     {
       "id": "q1275",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Há 80 movimentações abertas, das quais 12 estão vencidas. A taxa de pendências vencidas é",
       "options": [
         {
@@ -4123,6 +4265,7 @@
     {
       "id": "q1276",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Foram confirmadas 50 divergências e 40 foram regularizadas no período. A taxa de regularização é",
       "options": [
         {
@@ -4152,6 +4295,7 @@
     {
       "id": "q1277",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um ciclo, 15 de 60 ocorrências repetiram a mesma causa. A taxa de reincidência é",
       "options": [
         {
@@ -4181,6 +4325,7 @@
     {
       "id": "q1278",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A mediana do intervalo entre evento e lançamento é mais adequada que a média quando",
       "options": [
         {
@@ -4210,6 +4355,7 @@
     {
       "id": "q1279",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Acurácia por valor deve usar como numerador",
       "options": [
         {
@@ -4239,6 +4385,7 @@
     {
       "id": "q1280",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um indicador de 'movimentos atualizados no prazo' exige definir",
       "options": [
         {
@@ -4268,6 +4415,7 @@
     {
       "id": "q1281",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A unidade relata zero divergência, mas não realizou contagem física independente. A conclusão correta é",
       "options": [
         {
@@ -4297,6 +4445,7 @@
     {
       "id": "q1282",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O indicador 'tempo de regularização' deve ser medido entre",
       "options": [
         {
@@ -4326,6 +4475,7 @@
     {
       "id": "q1283",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma entidade reduz movimentos pendentes encerrando-os sem aceite do destino. O indicador melhora, mas",
       "options": [
         {
@@ -4355,6 +4505,7 @@
     {
       "id": "q1284",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A norma exige ciência prévia da área patrimonial. Em amostra, 28% dos notebooks mudaram de sala sem registro porque usuários os deslocam diretamente. A causa do achado é",
       "options": [
         {
@@ -4384,6 +4535,7 @@
     {
       "id": "q1285",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No mesmo caso, o efeito mais diretamente associado é",
       "options": [
         {
@@ -4413,6 +4565,7 @@
     {
       "id": "q1286",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma recomendação que ataca a causa do deslocamento sem registro é",
       "options": [
         {
@@ -4442,6 +4595,7 @@
     {
       "id": "q1287",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário localizou todos os bens, mas 40% estavam com responsáveis desatualizados. O achado demonstra",
       "options": [
         {
@@ -4471,6 +4625,7 @@
     {
       "id": "q1288",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A auditoria encontra baixa patrimonial aprovada e rejeição contábil ainda não tratada. A condição indica",
       "options": [
         {
@@ -4500,6 +4655,7 @@
     {
       "id": "q1289",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem furtado foi baixado e seu número reutilizado em novo notebook. O principal risco é",
       "options": [
         {
@@ -4529,6 +4685,7 @@
     {
       "id": "q1290",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A questão é inspirada em cobrança do TCE/RN 2026: após furto e baixa, o número de registro",
       "options": [
         {
@@ -4558,6 +4715,7 @@
     {
       "id": "q1291",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma comissão usa apenas a lista entregue pelo custodiante e não procura bens sem registro. Falta o teste de",
       "options": [
         {
@@ -4587,6 +4745,7 @@
     {
       "id": "q1292",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A comissão procura somente objetos encontrados e não verifica bens registrados ausentes. Falta o teste de",
       "options": [
         {
@@ -4616,6 +4775,7 @@
     {
       "id": "q1293",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um contratado devolve dez equipamentos; nove são aceitos e um está danificado. O fluxo mais adequado é",
       "options": [
         {
@@ -4645,6 +4805,7 @@
     {
       "id": "q1294",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade tem 99% de acurácia por quantidade, mas o 1% divergente concentra 70% do valor. A avaliação é",
       "options": [
         {
@@ -4674,6 +4835,7 @@
     {
       "id": "q1295",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O sistema permite que o mesmo usuário solicite, aprove, execute e concilie transferências. O controle mais adequado é",
       "options": [
         {
@@ -4703,6 +4865,7 @@
     {
       "id": "q1296",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um administrador de banco corrige diretamente a localização de 500 bens sem processo. A auditoria deve considerar",
       "options": [
         {
@@ -4732,6 +4895,7 @@
     {
       "id": "q1297",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O relatório registra 100 transferências, mas o sistema de destino recebeu 98. A primeira verificação deve usar",
       "options": [
         {
@@ -4761,6 +4925,7 @@
     {
       "id": "q1298",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois eventos idênticos foram processados no destino. O risco é",
       "options": [
         {
@@ -4790,6 +4955,7 @@
     {
       "id": "q1299",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A unidade informa que o Decreto nº 12.785/2025 obriga o TCE-MA a usar suas categorias. A auditoria deve",
       "options": [
         {
@@ -4819,6 +4985,7 @@
     {
       "id": "q1300",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um equipamento sai para oficina, permanece no ativo e continua depreciando conforme política. Isso demonstra que",
       "options": [
         {
@@ -4848,6 +5015,7 @@
     {
       "id": "q1301",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A auditoria identifica movimentos cadastrados cinco dias após o fato. O indicador mais adequado é",
       "options": [
         {
@@ -4877,6 +5045,7 @@
     {
       "id": "q1302",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após corrigir divergências, a unidade não analisa causas recorrentes. A recomendação mais útil é",
       "options": [
         {
@@ -4906,6 +5075,7 @@
     {
       "id": "q1303",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem consta como em trânsito há 90 dias, sem prazo ou transportador. A melhor resposta é",
       "options": [
         {

@@ -5,6 +5,7 @@
     {
       "id": "q184",
       "revision": 2,
+      "origin": "previous_exam",
       "prompt": "No período “A leitura tem sido incentivada nas escolas”, assinale a reescrita que, no contexto de continuidade até o presente, melhor preserva o valor aspectual da locução destacada.",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q185",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a afirmação correta sobre o modo indicativo.",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q186",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Espero que a comissão publique o resultado”, o presente do subjuntivo foi empregado principalmente porque",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q187",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na norma-padrão, a forma adequada para uma proibição dirigida a “você” é",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q188",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Em 1988, a Constituição institui uma nova ordem jurídica”, o presente verbal tem valor",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q189",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “A água ferve a 100 °C, em condições normais”, o presente exprime",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q190",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “A comissão se reúne amanhã às nove horas”, o presente do indicativo",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q191",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “O servidor analisou o processo”, a forma verbal focaliza o evento como",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q192",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “O servidor analisava recursos às sextas-feiras”, o imperfeito indica",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q193",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Eu queria solicitar uma informação”, o imperfeito contribui para",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q194",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Quando o auditor chegou, a unidade já encerrara a conferência”, `encerrara` marca",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q195",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Ele terá cerca de quarenta anos”, o futuro do presente exprime principalmente",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q196",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “O diretor afirmou que voltaria na semana seguinte”, `voltaria` indica",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q197",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Poderia encaminhar o arquivo?”, o futuro do pretérito produz",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q198",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Segundo fontes, o contrato teria sido alterado”, a forma destacada pode marcar",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q199",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “A equipe tem revisto os critérios”, a locução tende a indicar",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q200",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “A equipe estava revisando os dados quando o sistema caiu”, a locução apresenta",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q201",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “O técnico acabou de chegar”, a locução expressa",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q202",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “A unidade passou a usar o novo sistema”, a locução focaliza",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q203",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “A unidade deixou de emitir relatórios impressos”, a locução pode indicar",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q204",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “A equipe continua examinando os autos”, a locução exprime",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q205",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “O órgão há de publicar o resultado”, a locução pode expressar",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q206",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Compare: “Procuro o servidor que conhece o sistema” e “Procuro um servidor que conheça o sistema”. A diferença central é que",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q207",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Procuro o relatório que contém os anexos”, o indicativo favorece a leitura de que",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q208",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Desejo que o setor conclua a análise”, o subjuntivo é selecionado por",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q209",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Sei que o setor concluiu a análise”, o indicativo é compatível com",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q210",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Embora o texto pareça simples, exige atenção”, `pareça` está no subjuntivo porque",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q211",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Caso o sistema falhe, registre a ocorrência”, `falhe` está no subjuntivo por integrar",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q212",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Quando o resultado sair, avise-me”, `sair` está no",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q213",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Quando o resultado sairá?”, `sairá` é",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q214",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Não sei se teria condições de participar”, a sequência `se teria` é correta porque",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q215",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Se estuda, melhora”, a correlação expressa",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q216",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Se estudar, melhorará”, a combinação expressa",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q217",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Se estudasse, melhoraria”, a correlação expressa",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q218",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Se tivesse estudado, teria passado”, a correlação expressa",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q219",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em “Se tivesse estudado, estaria tranquilo hoje”, a correlação",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q220",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na norma-padrão, o imperativo afirmativo adequado para `você` é",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q221",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na norma-padrão, o imperativo afirmativo adequado para `tu` é",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q222",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A proibição normativa dirigida a `tu` é",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q223",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “Se ele ___ tempo, concluirá a tarefa.”",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q224",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “Enquanto ela ___ o compromisso, receberá apoio.”",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q225",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “Quando o servidor ___ a solução, a equipe avaliará a proposta.”",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q226",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “Se a autoridade ___ no processo, deverá motivar o ato.”",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q227",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “Quando o órgão ___ os valores, fará o registro.”",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q228",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “Se o técnico ___ o risco, adotará outra medida.”",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q229",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “Quando o interessado ___ a certidão, o setor a emitirá.”",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q230",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao converter “Voltarei amanhã” em relato ancorado no passado, uma redação canônica é",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q231",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao converter “Estou analisando o processo” em relato ancorado no passado, a forma mais regular é",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q232",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a análise correta das construções `foi aprovado` e `está aprovado`.",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q233",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No período “Sabia que os fatos iam ocorrer”, qual substituição é correta e melhor preserva a projeção futura a partir do passado?",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q234",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em um texto pedagógico, a locução “tem sido incentivada” foi substituída por “vem sendo incentivada”. Assinale a avaliação correta.",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q235",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “As árvores evitam que grande parte dos sedimentos chegue aos cursos d’água”, o emprego de `chegue` explica-se porque",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q236",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No trecho “seguiu nadando até alcançar a margem”, o gerúndio `nadando` apresenta o evento como",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q237",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um diálogo, uma personagem diz à outra: “Veja isto”, “Você acha mesmo?” e “Não exagere”. Qual análise é correta?",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q238",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “Quando era criança, caía, doía, curava e pedia ajuda”, as formas no imperfeito contribuem para",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q239",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No anúncio “Os novos servidores assumirão as funções em agosto”, `assumirão` indica",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q240",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “O relatório narrará os fatos segundo os documentos disponíveis”, o futuro do presente pode sinalizar",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q241",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “Se a equipe devesse refazer a análise, precisaria de novo prazo”, `devesse` está no subjuntivo porque",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q242",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “O candidato terá acesso ao espelho após a divulgação”, `terá` marca",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q243",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No relato “Em 1822, o país rompe os vínculos políticos e inicia nova etapa”, as formas no presente",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q244",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No enunciado “Será a aula de revisão amanhã”, a forma `será`, na leitura temporal direta,",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q245",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “Quando abriu o arquivo, percebeu que aprendera a técnica e que o erro acontecera antes”, as formas `aprendera` e `acontecera`",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q246",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No período “Solicito que os setores relatem as ocorrências”, substituir `relatem` por `relatam`",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q247",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em uma descrição de estado continuado no passado, substituir `era` por `foi` tende a",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q248",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a correlação adequada em oração de condição futura.",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q249",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “É possível que a carta termine com uma despedida”, o uso de `termine`",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q250",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “Sabia-se que crimes iam ocorrer naquela área”, qual análise das substituições é correta?",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q251",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “A empresa havia instalado o sistema antes da auditoria”, a substituição por `instalara`",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q252",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em uma narrativa concluída no passado, trocar `mudaram` por `mudam`",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q253",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em notícia ou relato atribuído, o futuro do pretérito em “as instituições descenderiam de uma mesma matriz” pode",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q254",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No verso diretivo “Guerreiros, ouvi”, a forma `ouvi` é",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q255",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “O texto diz que a medida é necessária”, substituir `diz` por `disser` sem outra mudança",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q256",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Os índices acumulam queda”, substituir o presente por `acumularam`",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q257",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No período “É importante que o professor realize a atividade”, `realize` está no",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q258",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No segmento “conteúdo a ser apropriado pelas crianças”, `ser` está no",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q259",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em “uma prática que as aproxime da leitura”, o subjuntivo `aproxime`",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q260",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em contexto existencial passado e hipotético, a troca de `houvesse` por `existisse`",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q261",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Substituir `marcaria` por `tinha marcado` tende a alterar",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q262",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em narrativa, formas como `procurávamos` e `conhecíamos` no pretérito imperfeito associam-se a",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q263",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Quando uma sequência no imperfeito descreve condutas recorrentes de um personagem, o efeito predominante é",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q264",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em texto histórico, a forma presente `cravam` pode referir-se a fato passado para",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q265",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A afirmação de que todo futuro do presente expressa certeza absoluta é",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q266",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A presença de um verbo principal no presente do indicativo, por si só,",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q267",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A substituição de um presente histórico por pretérito perfeito, quando compatível com o contexto,",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q268",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a frase em que a correlação verbal está adequada à norma-padrão.",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q269",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Quando houver vagas, serão convocados novos candidatos”, `houver` é",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q270",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O responsável terá esquecido a senha”, o futuro do presente exprime",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q271",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Com mais tempo, a equipe concluiria a revisão”, `concluiria` exprime",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q272",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao relatar no passado a fala “Terminarei hoje”, a redação `disse que terminaria naquele dia`",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q273",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em prova de reescrita verbal, a estratégia mais segura é",
       "options": [
         {

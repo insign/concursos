@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { contestSchema, groupSchema, questionSetSchema, subjectSchema } from '../../src/lib/content-schema';
+import {
+  contestSchema,
+  groupSchema,
+  questionSetSchema,
+  subjectSchema,
+  syncQuestionSetSchema,
+} from '../../src/lib/content-schema';
 
 const validQuestionSet = {
   schemaVersion: 1 as const,
@@ -8,6 +14,7 @@ const validQuestionSet = {
     {
       id: 'q001',
       revision: 1,
+      origin: 'authorial',
       prompt: 'Pergunta?',
       options: [
         { id: 'a', text: 'A' },
@@ -91,6 +98,16 @@ describe('content schemas', () => {
     const invalidKey = structuredClone(validQuestionSet);
     invalidKey.questions[0]!.correctOptionId = 'missing';
     expect(() => questionSetSchema.parse(invalidKey)).toThrow('opção existente');
+
+    const missingOrigin = structuredClone(validQuestionSet);
+    delete (missingOrigin.questions[0] as { origin?: string }).origin;
+    expect(() => questionSetSchema.parse(missingOrigin)).toThrow();
+    expect(syncQuestionSetSchema.parse(missingOrigin)).toEqual(missingOrigin);
+    expect(() => syncQuestionSetSchema.parse(validQuestionSet)).toThrow();
+
+    const invalidOrigin = structuredClone(validQuestionSet);
+    (invalidOrigin.questions[0] as { origin: string }).origin = 'official';
+    expect(() => questionSetSchema.parse(invalidOrigin)).toThrow();
   });
 
   it('rejects duplicate question and option IDs', () => {

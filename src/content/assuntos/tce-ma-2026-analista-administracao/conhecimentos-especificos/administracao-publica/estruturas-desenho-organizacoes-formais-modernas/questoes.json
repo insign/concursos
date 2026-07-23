@@ -5,6 +5,7 @@
     {
       "id": "q384",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em administração, a estrutura organizacional é corretamente compreendida como o arranjo que",
       "options": [
         {"id": "a", "text": "substitui a estratégia por regras e procedimentos internos"},
@@ -19,6 +20,7 @@
     {
       "id": "q385",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma secretaria, servidores recorrem a uma rede espontânea de confiança para localizar rapidamente especialistas, embora cargos e competências permaneçam definidos em normas. Nessa situação,",
       "options": [
         {"id": "a", "text": "a organização informal coexiste com a formal e pode favorecer ou dificultar a coordenação"},
@@ -33,6 +35,7 @@
     {
       "id": "q386",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale o conjunto que reúne apenas características típicas da organização formal.",
       "options": [
         {"id": "a", "text": "amizade, influência espontânea, confiança pessoal e comunicação não oficial"},
@@ -47,6 +50,7 @@
     {
       "id": "q387",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um novo dirigente concluiu que bastaria redesenhar o organograma para eliminar silos, melhorar a cultura e acelerar todos os processos. A avaliação tecnicamente correta é que",
       "options": [
         {"id": "a", "text": "o organograma determina integralmente o comportamento e, por isso, a conclusão está correta"},
@@ -61,6 +65,7 @@
     {
       "id": "q388",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma organização aprofundou a especialização de suas áreas e passou a enfrentar retrabalho nas interfaces. A medida estrutural mais coerente é",
       "options": [
         {"id": "a", "text": "eliminar toda especialização, independentemente da natureza das tarefas"},
@@ -75,6 +80,7 @@
     {
       "id": "q389",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma unidade executa tarefas padronizadas, possui equipe experiente, sistemas confiáveis e baixa necessidade de supervisão direta. Mantidas as demais condições, esse contexto",
       "options": [
         {"id": "a", "text": "exige amplitude estreita e aumento do número de níveis hierárquicos"},
@@ -89,6 +95,7 @@
     {
       "id": "q390",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma instituição mantém orçamento, política de segurança e padrões de atendimento centralizados, mas permite que unidades regionais decidam a escala diária e ajustem a operação local. Esse desenho demonstra que",
       "options": [
         {"id": "a", "text": "centralização e descentralização são categorias mutuamente excludentes"},
@@ -103,6 +110,7 @@
     {
       "id": "q391",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre formalização e padronização, assinale a opção correta.",
       "options": [
         {"id": "a", "text": "São conceitos relacionados, mas a padronização também pode recair sobre processos, resultados ou qualificações."},
@@ -117,6 +125,7 @@
     {
       "id": "q392",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um diretor delegou a uma gerente autoridade para contratar determinado serviço dentro de limites previamente definidos. Em relação à responsabilidade, é correto afirmar que",
       "options": [
         {"id": "a", "text": "a delegação transferiu definitivamente toda responsabilidade institucional à gerente"},
@@ -131,6 +140,7 @@
     {
       "id": "q393",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em atividades públicas sujeitas a elevado risco, igualdade de tratamento e auditoria, a formalização",
       "options": [
         {"id": "a", "text": "deve ser eliminada porque toda regra reduz necessariamente a eficiência"},
@@ -145,6 +155,7 @@
     {
       "id": "q394",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A assessoria jurídica de um órgão emite pareceres e orientações, enquanto a chefia operacional decide e responde pela entrega do serviço. Esse arranjo caracteriza principalmente",
       "options": [
         {"id": "a", "text": "autoridade de linha apoiada por staff especializado"},
@@ -159,6 +170,7 @@
     {
       "id": "q395",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma norma atribui à unidade de segurança da informação competência para estabelecer padrões técnicos obrigatórios, mas os servidores permanecem subordinados a um único gestor operacional. Nessa situação,",
       "options": [
         {"id": "a", "text": "a autoridade técnica elimina a autoridade de linha do gestor operacional"},
@@ -173,6 +185,7 @@
     {
       "id": "q396",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma pequena unidade possui cadeia simples, autoridade concentrada e cada servidor responde a um único superior. O desenho descrito aproxima-se da estrutura",
       "options": [
         {"id": "a", "text": "matricial"},
@@ -187,6 +200,7 @@
     {
       "id": "q397",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A expressão “estrutura funcional” exige atenção porque",
       "options": [
         {"id": "a", "text": "sempre significa organização sem hierarquia ou autoridade formal"},
@@ -201,6 +215,7 @@
     {
       "id": "q398",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma empresa pública cria divisões de saneamento, resíduos e serviços laboratoriais. Cada divisão possui equipes próprias de finanças, pessoas e operações e responde por seus resultados. Predomina a estrutura",
       "options": [
         {"id": "a", "text": "linear, porque existe autoridade formal"},
@@ -215,6 +230,7 @@
     {
       "id": "q399",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao migrar de uma estrutura funcional centralizada para divisões autônomas por serviço, uma organização tende a obter maior foco na entrega, mas deve administrar",
       "options": [
         {"id": "a", "text": "o desaparecimento de qualquer responsabilização por resultado"},
@@ -229,6 +245,7 @@
     {
       "id": "q400",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um órgão mantém estrutura funcional e cria um escritório que padroniza métodos e apoia vários projetos, sem controlar diretamente a maior parte dos recursos. É correto concluir que",
       "options": [
         {"id": "a", "text": "todo o órgão se tornou projetizado pela simples existência do escritório"},
@@ -243,6 +260,7 @@
     {
       "id": "q401",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção mais precisa entre matriz forte e estrutura projetizada é que, na matriz forte,",
       "options": [
         {"id": "a", "text": "o gerente de projeto possui apenas função administrativa e nenhuma influência sobre recursos"},
@@ -257,6 +275,7 @@
     {
       "id": "q402",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Analistas permanecem vinculados às diretorias de tecnologia, finanças e pessoas, mas, durante um programa, também recebem prioridades e têm desempenho acompanhado pelo gerente do programa. O desenho é",
       "options": [
         {"id": "a", "text": "matricial, pela sobreposição regular dos eixos funcional e de programa"},
@@ -271,6 +290,7 @@
     {
       "id": "q403",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma instituição possui superintendências regionais e, dentro de cada uma, departamentos de finanças, pessoas e operações. Cada servidor responde a uma única chefia. Trata-se de",
       "options": [
         {"id": "a", "text": "matriz equilibrada, porque dois critérios aparecem no organograma"},
@@ -285,6 +305,7 @@
     {
       "id": "q404",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma estrutura baseada em equipes, é correto afirmar que",
       "options": [
         {"id": "a", "text": "toda hierarquia e formalização precisam desaparecer"},
@@ -299,6 +320,7 @@
     {
       "id": "q405",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O órgão A possui setores separados de recebimento, análise, decisão e recurso. O órgão B utiliza equipes multidisciplinares responsáveis por cada demanda desde a entrada até a entrega final. Predominam, respectivamente,",
       "options": [
         {"id": "a", "text": "estrutura horizontal e departamentalização funcional"},
@@ -313,6 +335,7 @@
     {
       "id": "q406",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma organização pretende reduzir transferências entre departamentos e atribuir a uma equipe a responsabilidade completa, da solicitação do cidadão à solução entregue. O desenho mais diretamente compatível é",
       "options": [
         {"id": "a", "text": "linear, com aumento dos níveis de supervisão"},
@@ -327,6 +350,7 @@
     {
       "id": "q407",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma organização mantém um pequeno núcleo de coordenação e articula laboratórios, fornecedores e especialistas externos conforme a necessidade de cada entrega. O arranjo aproxima-se da estrutura",
       "options": [
         {"id": "a", "text": "linear"},
@@ -341,6 +365,7 @@
     {
       "id": "q408",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma autarquia autorizou teletrabalho, mas manteve todas as atividades internalizadas, os mesmos departamentos e a mesma cadeia de comando. A conclusão correta é que",
       "options": [
         {"id": "a", "text": "o trabalho remoto, isoladamente, não comprova a adoção de estrutura virtual"},
@@ -355,6 +380,7 @@
     {
       "id": "q409",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma empresa mantém núcleo estratégico reduzido e coordena, por plataformas digitais, especialistas e parceiros que se combinam conforme cada contrato. À luz das variações doutrinárias, é correto afirmar que",
       "options": [
         {"id": "a", "text": "o uso de tecnologia impede que o arranjo seja classificado como rede"},
@@ -369,6 +395,7 @@
     {
       "id": "q410",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Diante de uma questão que utiliza os termos rede, virtual e modular de modo parcialmente diferente da bibliografia estudada, a estratégia mais segura é",
       "options": [
         {"id": "a", "text": "identificar as características concretas do arranjo e a taxonomia explicitada no enunciado"},
@@ -383,6 +410,7 @@
     {
       "id": "q411",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um órgão combina áreas centrais funcionais, unidades regionais, equipes ponta a ponta para serviços prioritários e matriz temporária em um programa de transformação. O conjunto caracteriza",
       "options": [
         {"id": "a", "text": "estrutura funcional pura"},
@@ -397,6 +425,7 @@
     {
       "id": "q412",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma unidade executa atividade repetitiva, altamente regulada e sensível a falhas de segurança. Em princípio, tende a ser mais adequado um desenho com",
       "options": [
         {"id": "a", "text": "papéis indefinidos e decisões sempre improvisadas"},
@@ -411,6 +440,7 @@
     {
       "id": "q413",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma estrutura orgânica",
       "options": [
         {"id": "a", "text": "dispensa objetivos e prestação de contas"},
@@ -425,6 +455,7 @@
     {
       "id": "q414",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A abordagem contingencial do desenho organizacional sustenta que",
       "options": [
         {"id": "a", "text": "a estrutura funcional é superior em qualquer ambiente"},
@@ -439,6 +470,7 @@
     {
       "id": "q415",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma equipe é nova, executa tarefas complexas e de alto risco, está dispersa geograficamente e dispõe de sistemas ainda instáveis. Quanto à amplitude de controle, o caso",
       "options": [
         {"id": "a", "text": "comprova que a amplitude deve ser a mesma em toda a organização"},
@@ -453,6 +485,7 @@
     {
       "id": "q416",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma unidade de inovação enfrenta ambiente incerto, tarefas não rotineiras e forte interdependência entre especialistas. O conjunto de características mais coerente é",
       "options": [
         {"id": "a", "text": "centralização máxima, comunicação exclusivamente vertical e papéis imutáveis"},
@@ -467,6 +500,7 @@
     {
       "id": "q417",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao redesenhar uma organização pública, a busca por agilidade deve",
       "options": [
         {"id": "a", "text": "preservar competências legais, segregação de funções e controles proporcionais ao risco"},
@@ -481,6 +515,7 @@
     {
       "id": "q418",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A orientação federal sobre estruturas organizacionais recomenda, entre outros pontos,",
       "options": [
         {"id": "a", "text": "desenhar unidades exclusivamente a partir dos cargos disponíveis"},
@@ -495,6 +530,7 @@
     {
       "id": "q419",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Diretorias de orçamento, gestão de pessoas, tecnologia e assuntos jurídicos representam departamentalização",
       "options": [
         {"id": "a", "text": "funcional"},
@@ -509,6 +545,7 @@
     {
       "id": "q420",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Divisões autônomas responsáveis, respectivamente, por emissão de certidões, capacitação e consultoria adotam departamentalização",
       "options": [
         {"id": "a", "text": "por conhecimento"},
@@ -523,6 +560,7 @@
     {
       "id": "q421",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Superintendências Norte, Nordeste, Centro-Oeste, Sudeste e Sul exemplificam departamentalização",
       "options": [
         {"id": "a", "text": "por cliente"},
@@ -537,6 +575,7 @@
     {
       "id": "q422",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Unidades distintas para cidadãos, empresas e outros órgãos públicos adotam departamentalização",
       "options": [
         {"id": "a", "text": "funcional"},
@@ -551,6 +590,7 @@
     {
       "id": "q423",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Setores de recebimento, triagem, análise, decisão e recurso representam departamentalização",
       "options": [
         {"id": "a", "text": "por produto"},
@@ -565,6 +605,7 @@
     {
       "id": "q424",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma equipe temporária é formada para implantar um novo sistema, com resultado definido e encerramento previsto. O critério predominante de agrupamento é",
       "options": [
         {"id": "a", "text": "cliente"},
@@ -579,6 +620,7 @@
     {
       "id": "q425",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma universidade organiza seu primeiro nível em ciências da saúde, ciências humanas, engenharias e ciências exatas. O critério mais específico é",
       "options": [
         {"id": "a", "text": "cliente"},
@@ -593,6 +635,7 @@
     {
       "id": "q426",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre a departamentalização por conhecimento ou disciplina, assinale a opção correta.",
       "options": [
         {"id": "a", "text": "Pode aparecer como categoria autônoma ou como modalidade funcional, conforme o autor."},
@@ -607,6 +650,7 @@
     {
       "id": "q427",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma instituição usa regiões no primeiro nível e funções dentro de cada região. Não há dupla chefia. A classificação mais precisa é",
       "options": [
         {"id": "a", "text": "matriz forte, porque dois critérios foram combinados"},
@@ -621,6 +665,7 @@
     {
       "id": "q428",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A diferença decisiva entre departamentalização por etapas e estrutura horizontal orientada por processos é que",
       "options": [
         {"id": "a", "text": "a primeira sempre elimina funções, enquanto a segunda cria mais departamentos"},
@@ -635,6 +680,7 @@
     {
       "id": "q429",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma banca classifica unidades territoriais como “estrutura geográfica”, enquanto outro autor as apresenta como modalidade divisional. A divergência",
       "options": [
         {"id": "a", "text": "demonstra que território não pode ser critério de departamentalização"},
@@ -649,6 +695,7 @@
     {
       "id": "q430",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A estrutura matricial",
       "options": [
         {"id": "a", "text": "só existe quando combina função e projeto de construção"},
@@ -663,6 +710,7 @@
     {
       "id": "q431",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma mesma instituição mantém controles mecanicistas em operações de alto risco e adota equipes orgânicas em um laboratório de inovação. Essa coexistência",
       "options": [
         {"id": "a", "text": "é incoerente, pois toda organização deve possuir um único grau de organicidade"},
@@ -677,6 +725,7 @@
     {
       "id": "q432",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao comparar estruturas funcional, divisional, matricial e horizontal, a conclusão correta é que",
       "options": [
         {"id": "a", "text": "a matricial supera as demais em qualquer situação"},
@@ -691,6 +740,7 @@
     {
       "id": "q433",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma universidade organiza-se em centros de saúde, humanas e engenharias. Para um programa temporário, docentes continuam subordinados aos chefes dos centros e também recebem prioridades do gerente do programa. O diagnóstico correto é",
       "options": [
         {"id": "a", "text": "departamentalização por conhecimento no primeiro eixo e componente matricial no programa, formando conjunto híbrido"},

@@ -5,6 +5,7 @@
     {
       "id": "q2199",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao âmbito normativo das sanções contratuais estudadas, assinale a alternativa correta.",
       "options": [
         { "id": "A", "text": "A IN SEGES/MP nº 5/2017 é norma geral nacional de sanções." },
@@ -18,6 +19,7 @@
     {
       "id": "q2200",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal comunica ao preposto uma falha e fixa prazo para correção, sem iniciar processo punitivo. Esse ato é",
       "options": [
         { "id": "A", "text": "advertência sancionatória definitiva." },
@@ -31,6 +33,7 @@
     {
       "id": "q2201",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um registro de ocorrência tecnicamente adequado deve",
       "options": [
         { "id": "A", "text": "limitar-se à opinião de que o serviço foi ruim." },
@@ -44,6 +47,7 @@
     {
       "id": "q2202",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 117, § 1º, da Lei nº 14.133/2021, o fiscal",
       "options": [
         { "id": "A", "text": "anotará apenas ocorrências que considere graves." },
@@ -57,6 +61,7 @@
     {
       "id": "q2203",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao identificar situação que exige decisão além de sua competência, o fiscal deve",
       "options": [
         { "id": "A", "text": "decidir provisoriamente e ocultar o fato." },
@@ -70,6 +75,7 @@
     {
       "id": "q2204",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após ser notificada, a contratada corrige a falha. Quanto ao registro original,",
       "options": [
         { "id": "A", "text": "deve ser apagado." },
@@ -83,6 +89,7 @@
     {
       "id": "q2205",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Cem fotografias sem data, local ou vínculo com obrigação contratual são apresentadas como prova. A avaliação correta é que",
       "options": [
         { "id": "A", "text": "a quantidade basta para comprovar qualquer infração." },
@@ -96,6 +103,7 @@
     {
       "id": "q2206",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na execução, a notificação corretiva pode ser dirigida ao preposto porque ele",
       "options": [
         { "id": "A", "text": "substitui a autoridade sancionadora." },
@@ -109,6 +117,7 @@
     {
       "id": "q2207",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Foi iniciado processo administrativo para apurar descumprimento de cláusulas de contrato garantido por seguro-garantia. Além de intimar a contratada conforme o rito, a Administração deve",
       "options": [
         { "id": "A", "text": "notificar o emitente da garantia sobre o início do processo." },
@@ -122,6 +131,7 @@
     {
       "id": "q2208",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O contrato prevê pagamento apenas por unidades aceitas. De 100 unidades, 90 foram aceitas. Pagar apenas as 90 unidades é, em princípio,",
       "options": [
         { "id": "A", "text": "glosa ou dimensionamento do valor devido, não multa automática." },
@@ -135,6 +145,7 @@
     {
       "id": "q2209",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pelo mesmo fato, podem coexistir glosa, reparação e sanção quando",
       "options": [
         { "id": "A", "text": "forem chamadas pelo mesmo nome." },
@@ -148,6 +159,7 @@
     {
       "id": "q2210",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 92, XIV, o contrato deve estabelecer",
       "options": [
         { "id": "A", "text": "somente o nome do fiscal." },
@@ -161,6 +173,7 @@
     {
       "id": "q2211",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando irregularidade configura dano à Administração, o art. 169, § 3º, II, exige, entre outras providências,",
       "options": [
         { "id": "A", "text": "apuração com segregação e individualização, além de remessa ao Ministério Público das cópias cabíveis para ilícitos de sua competência." },
@@ -174,6 +187,7 @@
     {
       "id": "q2212",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dar causa à inexecução parcial do contrato corresponde ao art. 155,",
       "options": [
         { "id": "A", "text": "inciso I." },
@@ -187,6 +201,7 @@
     {
       "id": "q2213",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diferença central entre os incisos I e II do art. 155 é que o inciso II exige",
       "options": [
         { "id": "A", "text": "fraude documental." },
@@ -200,6 +215,7 @@
     {
       "id": "q2214",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A empresa abandona integralmente a execução sem entregar qualquer parcela do objeto. Em tese, a conduta corresponde a",
       "options": [
         { "id": "A", "text": "inexecução total do art. 155, III." },
@@ -213,6 +229,7 @@
     {
       "id": "q2215",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ensejar o retardamento da execução ou da entrega do objeto sem motivo justificado é infração do art. 155,",
       "options": [
         { "id": "A", "text": "VII." },
@@ -226,6 +243,7 @@
     {
       "id": "q2216",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante a execução, o contratado presta declaração falsa para ocultar descumprimento. A conduta pode enquadrar-se no art. 155,",
       "options": [
         { "id": "A", "text": "I apenas." },
@@ -239,6 +257,7 @@
     {
       "id": "q2217",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Manipular intencionalmente registros de medição para aparentar serviço não prestado caracteriza, em tese,",
       "options": [
         { "id": "A", "text": "ato fraudulento na execução, art. 155, IX." },
@@ -252,6 +271,7 @@
     {
       "id": "q2218",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Praticar ato lesivo previsto no art. 5º da Lei nº 12.846/2013 é infração prevista no art. 155,",
       "options": [
         { "id": "A", "text": "II." },
@@ -265,6 +285,7 @@
     {
       "id": "q2219",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A advertência da Lei nº 14.133/2021",
       "options": [
         { "id": "A", "text": "pode punir qualquer fraude considerada leve." },
@@ -278,6 +299,7 @@
     {
       "id": "q2220",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A multa do art. 156, calculada conforme edital ou contrato, deve situar-se entre",
       "options": [
         { "id": "A", "text": "0,1% e 10% do pagamento mensal." },
@@ -291,6 +313,7 @@
     {
       "id": "q2221",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto às infrações que podem receber multa do art. 156, assinale a correta.",
       "options": [
         { "id": "A", "text": "Somente a inexecução total." },
@@ -304,6 +327,7 @@
     {
       "id": "q2222",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A multa pode ser aplicada cumulativamente com",
       "options": [
         { "id": "A", "text": "advertência, impedimento ou inidoneidade, quando cabível e motivado." },
@@ -317,6 +341,7 @@
     {
       "id": "q2223",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A aplicação de sanção administrativa",
       "options": [
         { "id": "A", "text": "exclui a reparação do dano." },
@@ -330,6 +355,7 @@
     {
       "id": "q2224",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O atraso injustificado na execução sujeita o contratado",
       "options": [
         { "id": "A", "text": "à multa de mora na forma do edital ou contrato." },
@@ -343,6 +369,7 @@
     {
       "id": "q2225",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O impedimento de licitar e contratar é aplicável, quando não couber sanção mais grave, às infrações dos incisos",
       "options": [
         { "id": "A", "text": "I a III." },
@@ -356,6 +383,7 @@
     {
       "id": "q2226",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sanção de impedimento aplicada por órgão de um Estado alcança",
       "options": [
         { "id": "A", "text": "automaticamente todos os entes federativos." },
@@ -369,6 +397,7 @@
     {
       "id": "q2227",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O prazo máximo do impedimento de licitar e contratar é de",
       "options": [
         { "id": "A", "text": "1 ano." },
@@ -382,6 +411,7 @@
     {
       "id": "q2228",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A declaração de inidoneidade é diretamente prevista para as infrações dos incisos",
       "options": [
         { "id": "A", "text": "VIII a XII, além de II a VII quando justificarem sanção mais grave." },
@@ -395,6 +425,7 @@
     {
       "id": "q2229",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A declaração de inidoneidade impede licitar ou contratar no âmbito",
       "options": [
         { "id": "A", "text": "somente do órgão sancionador." },
@@ -408,6 +439,7 @@
     {
       "id": "q2230",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A duração da declaração de inidoneidade na Lei nº 14.133/2021 é de",
       "options": [
         { "id": "A", "text": "até 2 anos." },
@@ -421,6 +453,7 @@
     {
       "id": "q2231",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No TCE-MA, o fiscal pretende declarar uma contratada inidônea por decisão própria. Essa pretensão é incorreta porque",
       "options": [
         { "id": "A", "text": "inidoneidade não existe na Lei nº 14.133/2021." },
@@ -434,6 +467,7 @@
     {
       "id": "q2232",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Não integra os critérios de dosimetria do art. 156, § 1º,",
       "options": [
         { "id": "A", "text": "a natureza e a gravidade da infração." },
@@ -447,6 +481,7 @@
     {
       "id": "q2233",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na dosimetria, a implantação ou o aperfeiçoamento de programa de integridade",
       "options": [
         { "id": "A", "text": "é um dos fatores expressamente considerados." },
@@ -460,6 +495,7 @@
     {
       "id": "q2234",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Aplicar duas punições de mesma natureza ao mesmo responsável, pelo mesmo fato e fundamento, sem justificativa distinta, viola especialmente",
       "options": [
         { "id": "A", "text": "a vedação ao bis in idem." },
@@ -473,6 +509,7 @@
     {
       "id": "q2235",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em qualquer processo sancionador, devem ser assegurados",
       "options": [
         { "id": "A", "text": "sigilo absoluto e decisão sem defesa." },
@@ -486,6 +523,7 @@
     {
       "id": "q2236",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na aplicação de multa, o art. 157 faculta defesa no prazo de",
       "options": [
         { "id": "A", "text": "3 dias corridos." },
@@ -499,6 +537,7 @@
     {
       "id": "q2237",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a advertência e o art. 157, assinale a alternativa correta.",
       "options": [
         { "id": "A", "text": "Advertência dispensa defesa." },
@@ -512,6 +551,7 @@
     {
       "id": "q2238",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O processo para impedimento ou inidoneidade será conduzido por comissão composta de",
       "options": [
         { "id": "A", "text": "um fiscal escolhido pela contratada." },
@@ -525,6 +565,7 @@
     {
       "id": "q2239",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em entidade cujo quadro não seja formado por servidores estatutários, a comissão do art. 158 será formada por",
       "options": [
         { "id": "A", "text": "dois ou mais empregados públicos permanentes, preferencialmente com ao menos três anos de serviço." },
@@ -538,6 +579,7 @@
     {
       "id": "q2240",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No processo do art. 158, o interessado dispõe de 15 dias úteis para",
       "options": [
         { "id": "A", "text": "apenas pagar a multa." },
@@ -551,6 +593,7 @@
     {
       "id": "q2241",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Deferida nova prova ou juntada prova indispensável pela comissão, o interessado poderá apresentar",
       "options": [
         { "id": "A", "text": "alegações finais em 15 dias úteis da intimação." },
@@ -564,6 +607,7 @@
     {
       "id": "q2242",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A comissão pode indeferir prova considerada protelatória desde que",
       "options": [
         { "id": "A", "text": "o faça sem registro." },
@@ -577,6 +621,7 @@
     {
       "id": "q2243",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A prescrição prevista no art. 158, § 4º, ocorre em",
       "options": [
         { "id": "A", "text": "dois anos da assinatura do contrato." },
@@ -590,6 +635,7 @@
     {
       "id": "q2244",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Interrompe a prescrição do art. 158",
       "options": [
         { "id": "A", "text": "a instauração do processo de responsabilização." },
@@ -603,6 +649,7 @@
     {
       "id": "q2245",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É causa legal de suspensão da prescrição no processo do art. 158",
       "options": [
         { "id": "A", "text": "a celebração de acordo de leniência." },
@@ -616,6 +663,7 @@
     {
       "id": "q2246",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Conduta tipificada simultaneamente na Lei nº 14.133/2021 e como ato lesivo da Lei nº 12.846/2013 será",
       "options": [
         { "id": "A", "text": "ignorada em um dos regimes." },
@@ -629,6 +677,7 @@
     {
       "id": "q2247",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A desconsideração da personalidade jurídica no art. 160",
       "options": [
         { "id": "A", "text": "decorre automaticamente de qualquer atraso." },
@@ -642,6 +691,7 @@
     {
       "id": "q2248",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contra advertência, multa e impedimento cabe",
       "options": [
         { "id": "A", "text": "recurso em 15 dias úteis da intimação." },
@@ -655,6 +705,7 @@
     {
       "id": "q2249",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contra declaração de inidoneidade cabe",
       "options": [
         { "id": "A", "text": "apenas pedido de reconsideração em 15 dias úteis." },
@@ -668,6 +719,7 @@
     {
       "id": "q2250",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No recurso contra multa, a autoridade recorrida não reconsidera a decisão. Ela deve",
       "options": [
         { "id": "A", "text": "arquivar o recurso." },
@@ -681,6 +733,7 @@
     {
       "id": "q2251",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O recurso e o pedido de reconsideração contra sanções",
       "options": [
         { "id": "A", "text": "não produzem efeito sobre a decisão." },
@@ -694,6 +747,7 @@
     {
       "id": "q2252",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os dados relativos às sanções aplicadas devem ser informados e mantidos atualizados para publicidade no Ceis e no Cnep em até",
       "options": [
         { "id": "A", "text": "3 dias corridos." },
@@ -707,6 +761,7 @@
     {
       "id": "q2253",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao PNCP, Ceis e Cnep, assinale a correta.",
       "options": [
         { "id": "A", "text": "São três nomes do mesmo cadastro." },
@@ -720,6 +775,7 @@
     {
       "id": "q2254",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reabilitação exige cumulativamente, entre outros requisitos,",
       "options": [
         { "id": "A", "text": "apenas declaração de boa vontade." },
@@ -733,6 +789,7 @@
     {
       "id": "q2255",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para reabilitação, o transcurso mínimo desde a aplicação é de",
       "options": [
         { "id": "A", "text": "um ano no impedimento e três anos na inidoneidade." },
@@ -746,6 +803,7 @@
     {
       "id": "q2256",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reabilitação por infrações dos incisos VIII e XII do art. 155 exige adicionalmente",
       "options": [
         { "id": "A", "text": "programa de integridade implantado ou aperfeiçoado." },
@@ -759,6 +817,7 @@
     {
       "id": "q2257",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratada entrega parte do objeto, é notificada e não corrige. O fiscal possui evidências de possível inexecução parcial. A sequência adequada é",
       "options": [
         { "id": "A", "text": "aplicar inidoneidade e depois registrar." },
@@ -772,6 +831,7 @@
     {
       "id": "q2258",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a divisão de papéis no tratamento de irregularidades, assinale a correta.",
       "options": [
         { "id": "A", "text": "O fiscal registra e encaminha; comissão e autoridade atuam conforme a sanção e a competência aplicável." },

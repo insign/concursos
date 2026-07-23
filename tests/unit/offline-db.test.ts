@@ -38,6 +38,7 @@ const questionSet: QuestionSet = {
     {
       id: 'q001',
       revision: 1,
+      origin: 'authorial',
       prompt: 'Q1',
       options: [
         { id: 'a', text: 'A' },
@@ -49,6 +50,7 @@ const questionSet: QuestionSet = {
     {
       id: 'q002',
       revision: 1,
+      origin: 'previous_exam',
       prompt: 'Q2',
       options: [
         { id: 'a', text: 'A' },
