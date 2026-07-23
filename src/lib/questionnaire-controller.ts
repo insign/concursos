@@ -2,7 +2,7 @@ import type { Question, QuestionSet } from './content-schema';
 import { NewerQuestionSetRevisionError } from './document-schema';
 import { buildAnswerDocumentId, getActiveAlias } from './identity';
 import { getLocalAnswerRecord, saveAnswerDocumentSnapshot } from './offline-db';
-import { buildQuestionSeed, deterministicQuestionOrder } from './question-order';
+import { buildQuestionSeed, deterministicQuestionOrder, randomQuestionOrder } from './question-order';
 import { loadPreferences, savePreferences, withPreference, type Preferences } from './preferences';
 import { progressSubjectId, updateSubjectProgress } from './progress';
 import {
@@ -47,6 +47,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     root.querySelectorAll<HTMLInputElement>('input[name="correction-mode"]'),
   );
   const shuffleInput = requiredElement<HTMLInputElement>(root, '[data-shuffle-questions]');
+  const reshuffleButton = requiredElement<HTMLButtonElement>(root, '[data-reshuffle-questions]');
 
   const profileId = getActiveAlias();
   if (!profileId) {
@@ -72,8 +73,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   let pageStart = 0;
   let visibleAll = 10;
 
-  const questionOrder = (): Question[] => {
-    if (!shuffle) return config.questionSet.questions;
+  const deterministicOrder = (): Question[] => {
     const seed = buildQuestionSeed(
       config.userId ?? profileId,
       config.contestStorageId,
@@ -82,6 +82,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     );
     return deterministicQuestionOrder(config.questionSet.questions, seed);
   };
+  let orderedQuestions = shuffle ? deterministicOrder() : [...config.questionSet.questions];
 
   const shouldReveal = () =>
     correctionMode === 'immediate' || isSubmissionValid(documentState, config.questionSet);
@@ -196,7 +197,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     }
   };
 
-  const createQuestion = (question: Question, position: number): HTMLFieldSetElement => {
+  const createQuestion = (question: Question, position: number, total: number): HTMLFieldSetElement => {
     const fieldset = document.createElement('fieldset');
     const legend = document.createElement('legend');
     const prompt = document.createElement('span');
@@ -205,7 +206,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     fieldset.tabIndex = -1;
     legend.className = 'question-legend';
     prompt.className = 'question-prompt';
-    legend.textContent = `Questão ${position + 1} de ${config.questionSet.questions.length}`;
+    legend.textContent = `Questão ${position + 1} de ${total}`;
     prompt.textContent = question.prompt;
     fieldset.append(legend, prompt);
 
@@ -238,11 +239,12 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   };
 
   function render(): void {
-    const ordered = questionOrder();
+    const ordered = orderedQuestions;
     const blockSize = layout === 'single' ? 1 : 10;
+    const visibleStart = layout === 'all' ? 0 : pageStart;
     const visible = layout === 'all' ? ordered.slice(0, visibleAll) : ordered.slice(pageStart, pageStart + blockSize);
     questionList.replaceChildren(
-      ...visible.map((question) => createQuestion(question, ordered.indexOf(question))),
+      ...visible.map((question, index) => createQuestion(question, visibleStart + index, ordered.length)),
     );
 
     const pages = Math.max(1, Math.ceil(ordered.length / blockSize));
@@ -252,6 +254,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     nextButton.disabled = pageStart + blockSize >= ordered.length;
     pageStatus.textContent = `Página ${currentPage} de ${pages}`;
     loadMoreButton.hidden = layout !== 'all' || visibleAll >= ordered.length;
+    reshuffleButton.disabled = !shuffle || ordered.length < 2;
   }
 
   const showNewerRevision = () => {
@@ -287,10 +290,19 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   shuffleInput.checked = shuffle;
   shuffleInput.addEventListener('change', () => {
     shuffle = shuffleInput.checked;
+    orderedQuestions = shuffle ? deterministicOrder() : [...config.questionSet.questions];
     pageStart = 0;
     visibleAll = 10;
     render();
     void persistPreference('shuffleQuestions', shuffle);
+  });
+
+  reshuffleButton.addEventListener('click', () => {
+    if (!shuffle || orderedQuestions.length < 2) return;
+    orderedQuestions = randomQuestionOrder(orderedQuestions, orderedQuestions);
+    pageStart = 0;
+    render();
+    status.textContent = 'Nova ordem das questões aplicada.';
   });
 
   previousButton.addEventListener('click', () => {
@@ -302,13 +314,13 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
 
   nextButton.addEventListener('click', () => {
     const blockSize = layout === 'single' ? 1 : 10;
-    pageStart = Math.min(config.questionSet.questions.length - 1, pageStart + blockSize);
+    pageStart = Math.min(orderedQuestions.length - 1, pageStart + blockSize);
     render();
     questionList.querySelector<HTMLElement>('fieldset')?.focus();
   });
 
   loadMoreButton.addEventListener('click', () => {
-    visibleAll = Math.min(config.questionSet.questions.length, visibleAll + 10);
+    visibleAll = Math.min(orderedQuestions.length, visibleAll + 10);
     render();
   });
 

@@ -720,6 +720,11 @@ h3 {
   font-weight: 700;
 }
 
+.questionnaire-settings .toggle-control {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .question-list {
   display: grid;
   gap: 1.25rem;

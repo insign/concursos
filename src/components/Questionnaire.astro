@@ -37,9 +37,12 @@ const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subject
       <label><input type="radio" name="correction-mode" value="immediate" /> Imediata</label>
     </fieldset>
 
-    <label class="toggle-control">
-      <input type="checkbox" data-shuffle-questions /> Embaralhar questões
-    </label>
+    <div class="toggle-control">
+      <label><input type="checkbox" data-shuffle-questions /> Embaralhar questões</label>
+      <button class="button button-secondary" type="button" data-reshuffle-questions disabled>
+        Gerar nova ordem
+      </button>
+    </div>
   </div>
 
   <form data-question-form novalidate>

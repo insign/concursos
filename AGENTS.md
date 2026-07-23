@@ -86,7 +86,7 @@ npm run preview
 - Os layouts `single`, `ten` e `all` são apenas apresentações; `all` deve continuar carregando blocos de dez progressivamente.
 - `immediate` revela correção por seleção; `on-submit` só revela após todas as questões e uma assinatura válida.
 - Alterar qualquer resposta invalida a assinatura de submissão; hash e pontuação ficam em `src/lib/questionnaire.ts`.
-- Embaralhamento usa `question-order.ts` e deve permanecer determinístico por usuário, concurso, assunto e revisão do conjunto.
+- Embaralhamento usa `question-order.ts`: a ordem inicial permanece determinística por usuário, concurso, assunto e revisão do conjunto; a ação explícita de gerar nova ordem usa aleatoriedade efêmera e nunca altera a identidade ou a persistência das respostas.
 - Consulte `final_plan.md` para schemas, revisões, rotas e regras editoriais completas.
 
 ## Fluxo editorial para novos conteúdos
