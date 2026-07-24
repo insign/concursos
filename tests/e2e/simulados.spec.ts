@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
   }, alias);
 });
 
-test('creates, answers, reloads and finishes a persistent simulation', async ({ page }) => {
+test('creates, answers rapidly, reloads and finishes a persistent simulation', async ({ page }) => {
   await page.goto(`/simulados/?concurso=${contestStorageId}`);
 
   const subject = page.locator('[data-subject-list] input[data-subject]').first();
@@ -22,13 +22,15 @@ test('creates, answers, reloads and finishes a persistent simulation', async ({ 
   await expect(page).toHaveURL(/\/simulados\/\?id=[0-9a-f-]{36}$/);
   await expect(page.locator('[data-question-list] > li')).toHaveCount(1);
 
-  const answer = page.locator('[data-question-list] input[type="radio"]').first();
-  await answer.check();
+  const answers = page.locator('[data-question-list] input[type="radio"]');
+  await answers.nth(0).check();
+  await answers.nth(1).check();
   await expect(page.getByText('Resposta salva localmente.')).toBeVisible();
 
   await page.reload();
   await expect(page.locator('[data-question-list] > li')).toHaveCount(1);
   await expect(page.locator('[data-question-list] input[type="radio"]:checked')).toHaveCount(1);
+  await expect(page.locator('[data-question-list] input[type="radio"]').nth(1)).toBeChecked();
 
   await page.getByRole('button', { name: 'Finalizar e corrigir' }).click();
   await expect(page.locator('[data-result]')).toContainText(/acertos/);
