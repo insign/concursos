@@ -12,6 +12,7 @@ const { contests } = await getCatalog();
       <p class="eyebrow">Biblioteca de estudo</p>
       <h1>{title}</h1>
       <p>Conteúdo versionado, revisão objetiva e questões para acompanhar sua preparação.</p>
+      <p><a href="/simulados/">Gerar simulado personalizado</a></p>
     </header>
 
     {contests.length > 0 ? (
@@ -22,6 +23,7 @@ const { contests } = await getCatalog();
               <a href={`/concursos/${contest.slug}/`}>{contest.title}</a>
               <p>{contest.description}</p>
               <p>{contest.subjects.length} {contest.subjects.length === 1 ? 'assunto' : 'assuntos'}</p>
+              <p><a href={`/simulados/?concurso=${contest.storageId}`}>Gerar simulado deste concurso</a></p>
             </article>
           </li>
         ))}
