@@ -9,6 +9,31 @@
   --accent-strong: #17413b;
   --accent-soft: #dfeae5;
   --signal: #8a3e2f;
+  /* Superfícies e cores semânticas (tematizadas; substituem cores antes fixas). */
+  --header-bg: rgb(255 253 248 / 0.88);
+  --code-bg: #f5f1e9;
+  --field-bg: #fff;
+  --positive: #2f7254;
+  --positive-soft: #e3f1e9;
+  --negative-soft: #f6e8e3;
+  --danger-ink: #632c22;
+  /* Paleta escura (valores centralizados; aplicados pelos seletores de tema abaixo). */
+  --dark-ink: #e7ece9;
+  --dark-muted: #9ca9a4;
+  --dark-paper: #18211f;
+  --dark-ground: #101614;
+  --dark-line: #33413c;
+  --dark-accent: #6fb9ab;
+  --dark-accent-strong: #8fd2c5;
+  --dark-accent-soft: #1e332e;
+  --dark-signal: #e2907c;
+  --dark-header-bg: rgb(20 27 25 / 0.9);
+  --dark-code-bg: #243430;
+  --dark-field-bg: #0e1512;
+  --dark-positive: #5fae8f;
+  --dark-positive-soft: #16281f;
+  --dark-negative-soft: #33201b;
+  --dark-danger-ink: #f0a794;
   --serif: Charter, 'Bitstream Charter', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
   --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
@@ -18,6 +43,50 @@
   --step-2: clamp(1.65rem, 1.4rem + 0.9vw, 2.25rem);
   --step-3: clamp(2.2rem, 1.8rem + 1.6vw, 3.4rem);
   --reading: 72ch;
+}
+
+/* Tema escuro explícito (o script inline aplica data-theme antes do paint). */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: var(--dark-ink);
+  --muted: var(--dark-muted);
+  --paper: var(--dark-paper);
+  --ground: var(--dark-ground);
+  --line: var(--dark-line);
+  --accent: var(--dark-accent);
+  --accent-strong: var(--dark-accent-strong);
+  --accent-soft: var(--dark-accent-soft);
+  --signal: var(--dark-signal);
+  --header-bg: var(--dark-header-bg);
+  --code-bg: var(--dark-code-bg);
+  --field-bg: var(--dark-field-bg);
+  --positive: var(--dark-positive);
+  --positive-soft: var(--dark-positive-soft);
+  --negative-soft: var(--dark-negative-soft);
+  --danger-ink: var(--dark-danger-ink);
+}
+
+/* Sem JavaScript (data-theme ausente), o modo automático segue o sistema. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --ink: var(--dark-ink);
+    --muted: var(--dark-muted);
+    --paper: var(--dark-paper);
+    --ground: var(--dark-ground);
+    --line: var(--dark-line);
+    --accent: var(--dark-accent);
+    --accent-strong: var(--dark-accent-strong);
+    --accent-soft: var(--dark-accent-soft);
+    --signal: var(--dark-signal);
+    --header-bg: var(--dark-header-bg);
+    --code-bg: var(--dark-code-bg);
+    --field-bg: var(--dark-field-bg);
+    --positive: var(--dark-positive);
+    --positive-soft: var(--dark-positive-soft);
+    --negative-soft: var(--dark-negative-soft);
+    --danger-ink: var(--dark-danger-ink);
+  }
 }
 
 *,
@@ -62,6 +131,28 @@ a:hover {
   outline-offset: 3px;
 }
 
+.theme-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.theme-control-label {
+  font-family: var(--sans);
+  font-size: var(--step--1);
+  color: var(--muted);
+}
+
+.theme-control-select {
+  padding: 0.25rem 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: var(--step--1);
+}
+
 .site-header {
   display: flex;
   align-items: center;
@@ -69,7 +160,7 @@ a:hover {
   min-height: 4.5rem;
   padding: 0.75rem clamp(1rem, 4vw, 4rem);
   border-bottom: 1px solid var(--line);
-  background: rgb(255 253 248 / 0.88);
+  background: var(--header-bg);
   font-family: var(--sans);
   backdrop-filter: blur(12px);
 }
@@ -134,7 +225,7 @@ a:hover {
 }
 
 .sync-status[data-state='synced']::before {
-  background: #2f7254;
+  background: var(--positive);
 }
 
 .sync-status[data-state='error']::before,
@@ -531,7 +622,7 @@ h3 {
 .reading-surface :not(pre) > code {
   padding: 0.1em 0.3em;
   border: 1px solid var(--line);
-  background: #f5f1e9;
+  background: var(--code-bg);
   font-family: var(--mono);
   font-size: 0.88em;
 }
@@ -674,7 +765,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 0.15rem;
   color: var(--ink);
-  background: #fff;
+  background: var(--field-bg);
   font: inherit;
 }
 
@@ -695,8 +786,8 @@ h3 {
 .warning-note {
   padding: 0.8rem 1rem;
   border-left: 4px solid var(--signal);
-  color: #632c22;
-  background: #f6e8e3;
+  color: var(--danger-ink);
+  background: var(--negative-soft);
 }
 
 .danger-option {
@@ -706,7 +797,7 @@ h3 {
   margin: 1rem 0;
   padding: 0.8rem;
   border: 1px solid var(--signal);
-  color: #632c22;
+  color: var(--danger-ink);
   font-size: var(--step--1);
 }
 
@@ -763,7 +854,7 @@ h3 {
   margin-bottom: 2rem;
   padding: 1rem;
   border: 1px solid var(--line);
-  background: #f7f3eb;
+  background: var(--paper);
   font-family: var(--sans);
   font-size: var(--step--1);
 }
@@ -825,7 +916,7 @@ h3 {
   margin: 0;
   padding: clamp(1rem, 3vw, 1.6rem);
   border: 1px solid var(--line);
-  background: #fffefa;
+  background: var(--paper);
 }
 
 .question-card:focus {
@@ -887,13 +978,13 @@ h3 {
 }
 
 .question-feedback.is-correct {
-  border-color: #2f7254;
-  background: #e3f1e9;
+  border-color: var(--positive);
+  background: var(--positive-soft);
 }
 
 .question-feedback.is-incorrect {
   border-color: var(--signal);
-  background: #f6e8e3;
+  background: var(--negative-soft);
 }
 
 .question-result {

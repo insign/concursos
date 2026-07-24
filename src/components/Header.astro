@@ -2,6 +2,7 @@
 import SyncStatus from './SyncStatus.astro';
 import OfflineStatus from './OfflineStatus.astro';
 import PwaInstallButton from './PwaInstallButton.astro';
+import ThemeToggle from './ThemeToggle.astro';
 ---
 
 <header class="site-header print-hidden">
@@ -14,6 +15,7 @@ import PwaInstallButton from './PwaInstallButton.astro';
     <a href="/configuracoes/">Configurações</a>
   </nav>
   <div class="pwa-controls">
+    <ThemeToggle />
     <OfflineStatus />
     <PwaInstallButton />
   </div>

@@ -4,10 +4,29 @@
     margin: 14mm 13mm 16mm;
   }
 
-  :root {
+  /* A impressão é sempre clara, independentemente do tema selecionado; precisa
+     vencer a especificidade de :root[data-theme='dark'] (tema explícito por JS) e
+     de :root:not([data-theme]) sob @media (prefers-color-scheme: dark) (sem JS). */
+  :root,
+  :root[data-theme='dark'],
+  :root:not([data-theme]) {
+    color-scheme: light;
     --ink: #000;
+    --muted: #333;
     --paper: #fff;
+    --ground: #fff;
     --line: #777;
+    --accent: #17413b;
+    --accent-strong: #17413b;
+    --accent-soft: #ebebeb;
+    --signal: #7a2e1f;
+    --header-bg: #fff;
+    --code-bg: #f0f0f0;
+    --field-bg: #fff;
+    --positive: #1f5a41;
+    --positive-soft: #eef4f0;
+    --negative-soft: #f6eae6;
+    --danger-ink: #7a2e1f;
   }
 
   body {
