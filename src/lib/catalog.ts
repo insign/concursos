@@ -33,6 +33,19 @@ export interface Catalog extends Omit<CatalogIndex, 'contests'> {
   contests: CatalogContest[];
 }
 
+function createContestOfflineInventory(contest: CatalogContestIndex) {
+  const inventory = createOfflineInventory(contest);
+  return {
+    ...inventory,
+    routes: [
+      ...inventory.routes,
+      '/simulados/',
+      '/simulados/catalog.json',
+      `/simulados/pool/${contest.storageId}.json`,
+    ],
+  };
+}
+
 export async function getCatalog(): Promise<Catalog> {
   const [contestEntries, groupEntries, contentEntries, cheatSheetEntries, questionSetEntries] = await Promise.all([
     getCollection('concursos'),
@@ -75,7 +88,7 @@ export async function getCatalog(): Promise<Catalog> {
         ...contest,
         subjects,
         children: contest.children.map(hydrateGroup),
-        offlineInventory: createOfflineInventory(contest),
+        offlineInventory: createContestOfflineInventory(contest),
       };
     }),
   };
