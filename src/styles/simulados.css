@@ -1,0 +1,264 @@
+.simulados-shell {
+  width: min(76rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 4rem) 0 5rem;
+}
+
+.simulados-intro,
+.simulados-panel {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--paper);
+  box-shadow: 0 1rem 3rem rgb(24 39 36 / 0.06);
+}
+
+.simulados-intro {
+  padding: clamp(1.25rem, 3vw, 2.5rem);
+  margin-bottom: 1.25rem;
+}
+
+.simulados-intro h1,
+.simulados-panel h2,
+.simulados-panel h3 {
+  margin-top: 0;
+}
+
+.simulados-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.simulados-panel {
+  padding: clamp(1rem, 2.4vw, 1.75rem);
+}
+
+.simulados-panel + .simulados-panel,
+.simulado-resolver {
+  margin-top: 1.25rem;
+}
+
+.simulado-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.simulado-field,
+.simulado-subjects {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.simulado-field label,
+.simulado-subjects legend {
+  font-family: var(--sans);
+  font-weight: 700;
+}
+
+.simulado-field select,
+.simulado-field input,
+.simulado-form button,
+.simulado-actions button {
+  min-height: 2.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  color: var(--ink);
+  background: var(--field-bg);
+  font: inherit;
+}
+
+.simulado-field select,
+.simulado-field input {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+}
+
+.simulado-subjects {
+  min-width: 0;
+  margin: 0;
+  padding: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+}
+
+.simulado-subject-list {
+  display: grid;
+  gap: 0.35rem;
+  max-height: 20rem;
+  overflow: auto;
+  padding: 0.2rem;
+}
+
+.simulado-subject-option,
+.simulado-option {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: start;
+}
+
+.simulado-subject-option input,
+.simulado-option input {
+  margin-top: 0.35rem;
+}
+
+.simulado-form button,
+.simulado-actions button,
+.simulado-link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1rem;
+  border-color: var(--accent);
+  color: var(--paper);
+  background: var(--accent);
+  font-family: var(--sans);
+  font-weight: 750;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.simulado-form button:hover,
+.simulado-actions button:hover,
+.simulado-link-button:hover {
+  color: var(--paper);
+  background: var(--accent-strong);
+}
+
+.simulado-form button:disabled,
+.simulado-actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.simulado-availability,
+.simulado-help,
+.simulado-status,
+.simulado-meta {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: var(--step--1);
+}
+
+.simulado-warning {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--signal);
+  border-radius: 0.75rem;
+  background: var(--negative-soft);
+  color: var(--danger-ink);
+}
+
+.simulados-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.simulados-list li {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--ground);
+}
+
+.simulados-list a {
+  font-family: var(--sans);
+  font-weight: 750;
+}
+
+.simulado-resolver-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.simulado-result {
+  padding: 1rem;
+  border: 1px solid var(--positive);
+  border-radius: 0.75rem;
+  background: var(--positive-soft);
+}
+
+.simulado-question-list {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: simulado-question;
+}
+
+.simulado-question {
+  counter-increment: simulado-question;
+  padding: clamp(1rem, 2.4vw, 1.5rem);
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: var(--ground);
+}
+
+.simulado-question legend {
+  width: 100%;
+  margin-bottom: 0.85rem;
+  font-weight: 700;
+}
+
+.simulado-question legend::before {
+  content: counter(simulado-question) '. ';
+  color: var(--accent);
+  font-family: var(--sans);
+}
+
+.simulado-options {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.simulado-option {
+  padding: 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: var(--paper);
+}
+
+.simulado-option[data-correct='true'] {
+  border-color: var(--positive);
+  background: var(--positive-soft);
+}
+
+.simulado-option[data-incorrect='true'] {
+  border-color: var(--signal);
+  background: var(--negative-soft);
+}
+
+.simulado-explanation {
+  margin-bottom: 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.simulado-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.simulado-actions .secondary {
+  color: var(--accent-strong);
+  background: var(--paper);
+}
+
+@media (max-width: 52rem) {
+  .simulados-grid {
+    grid-template-columns: 1fr;
+  }
+}
