@@ -21,6 +21,9 @@ import {
 } from './sync';
 
 const leaseName = 'answer-sync';
+const leaseTtlMs = 30_000;
+const leaseRetryCount = 10;
+const leaseRetryDelayMs = 500;
 const ownerId =
   typeof crypto !== 'undefined' && 'randomUUID' in crypto
     ? `simulados-${crypto.randomUUID()}`
@@ -34,9 +37,13 @@ function enqueue<T>(operation: () => Promise<T>): Promise<T> {
   return queued;
 }
 
+function sleep(milliseconds: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
 async function beforeRequest(): Promise<void> {
   const delay = Math.max(0, lastRequestAt + 500 - Date.now());
-  if (delay > 0) await new Promise((resolve) => setTimeout(resolve, delay));
+  if (delay > 0) await sleep(delay);
   lastRequestAt = Date.now();
 }
 
@@ -61,18 +68,25 @@ function announceError(error: unknown): void {
   );
 }
 
+async function acquireSimuladosLease(): Promise<void> {
+  for (let attempt = 0; attempt < leaseRetryCount; attempt += 1) {
+    if (await acquireSyncLease(leaseName, ownerId, leaseTtlMs)) return;
+    if (attempt < leaseRetryCount - 1) await sleep(leaseRetryDelayMs);
+  }
+  throw new Error('Outra sincronização continua usando o perfil; tente novamente');
+}
+
 async function withSimuladosLease<T>(
   operation: (hooks: SimuladosSyncHooks) => Promise<T>,
 ): Promise<T> {
-  const acquired = await acquireSyncLease(leaseName, ownerId, 30_000);
-  if (!acquired) throw new Error('Outra sincronização está preparando os simulados');
+  await acquireSimuladosLease();
 
   let leaseError: unknown;
   let heartbeatPromise = Promise.resolve();
   const renew = async () => {
     if (leaseError) throw leaseError;
     try {
-      await renewSyncLease(leaseName, ownerId, 30_000);
+      await renewSyncLease(leaseName, ownerId, leaseTtlMs);
     } catch (error) {
       leaseError = error;
       throw error;
