@@ -248,6 +248,7 @@ npm run preview
 - Antes de editar, leia o status, o diff, os commits recentes e o plano ativo.
 - Nunca reverta ou sobrescreva mudanças do usuário ou de outros agentes.
 - Faça commits e push somente quando autorizados pelas regras da sessão ou pelo usuário.
+- Neste repositório, essa autorização também permite criar a branch de entrega e o PR sem nova confirmação, pois `main` é protegida. Envie a branch, abra o PR, aguarde todos os checks/CI obrigatórios concluírem com sucesso e só então faça o merge; depois, confirme o deployment aplicável.
 - Antes de um commit, revise o diff completo, execute os checks aplicáveis e não inclua arquivos não relacionados.
 - Após push, confirme o deployment automático do Pages quando a mudança afetar produção.
 
