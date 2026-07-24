@@ -62,3 +62,68 @@ test('publishes the detailed document before the profile index and sends no Auth
   expect(summaryIndex).toBeGreaterThan(detailIndex);
   expect(authorizationHeaders).toEqual([]);
 });
+
+test('restores a remote simulation on another device with the same alias', async ({ page, kvStore }) => {
+  const simulationId = '123e4567-e89b-42d3-a456-426614174000';
+  const detailDocumentId = `concursos--${alias}--simulado--${simulationId}`;
+  const timestamp = '2026-07-24T12:00:00.000Z';
+  const summary = {
+    id: simulationId,
+    status: 'in_progress',
+    contestStorageId,
+    subjectStorageIds: ['portugues'],
+    origin: 'all',
+    questionCount: 1,
+    answeredCount: 0,
+    correctCount: null,
+    createdAt: timestamp,
+    updatedAt: timestamp,
+    completedAt: null,
+  };
+  kvStore.set(indexDocumentId, {
+    version: 3,
+    createdAt: timestamp,
+    json: { schemaVersion: 1, simulados: [summary] },
+  });
+  kvStore.set(detailDocumentId, {
+    version: 2,
+    createdAt: timestamp,
+    json: {
+      schemaVersion: 1,
+      simulationId,
+      status: 'in_progress',
+      createdAt: timestamp,
+      updatedAt: timestamp,
+      completedAt: null,
+      configuration: {
+        contestStorageId,
+        subjectStorageIds: ['portugues'],
+        origin: 'all',
+        questionCount: 1,
+      },
+      questions: [
+        {
+          contestStorageId,
+          subjectStorageId: 'portugues',
+          questionId: 'questao-remota-1',
+          questionRevision: 1,
+          origin: 'previous_exam',
+          prompt: 'Questão recuperada de outro dispositivo',
+          options: [
+            { id: 'a', text: 'Alternativa A' },
+            { id: 'b', text: 'Alternativa B' },
+          ],
+          correctOptionId: 'a',
+          explanation: 'Explicação preservada no snapshot.',
+        },
+      ],
+      answers: {},
+      result: null,
+    },
+  });
+
+  await page.goto(`/simulados/?id=${simulationId}`);
+  await expect(page.getByText('Questão recuperada de outro dispositivo')).toBeVisible();
+  await expect(page.locator('[data-question-list] > li')).toHaveCount(1);
+  await expect(page.getByRole('link', { name: 'Continuar simulado' })).toBeVisible();
+});
