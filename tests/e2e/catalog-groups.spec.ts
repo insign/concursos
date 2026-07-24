@@ -66,6 +66,26 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
   expect((await request.get('/concursos/concurso-exemplo/assunto-exemplo/')).status()).toBe(200);
 });
 
+test('renders each subject as a compact item with only the title (issue #99)', async ({ page }) => {
+  await page.goto(examplePath);
+  const card = page.locator('.subject-card').first();
+  await expect(card).toBeVisible();
+
+  // O título é um link real para o assunto.
+  await expect(card.getByRole('link', { name: exampleSubject })).toHaveAttribute(
+    'href',
+    '/concursos/concurso-exemplo/assunto-exemplo/',
+  );
+
+  // Sem alias/progresso, o item exibe exclusivamente o título (badge oculto, sem descrição).
+  await expect(card).toHaveText(exampleSubject);
+
+  // Nenhuma descrição de assunto é renderizada em qualquer item da listagem...
+  await expect(page.locator('.subject-card p')).toHaveCount(0);
+  // ...nem existe controle para expandir/revelar descrição dentro do item.
+  await expect(card.locator('details, summary')).toHaveCount(0);
+});
+
 test('keeps catalog hierarchy available without JavaScript', async ({ browser }) => {
   const context = await browser.newContext({
     baseURL: 'http://127.0.0.1:4321',
