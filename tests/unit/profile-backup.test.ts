@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import 'fake-indexeddb/auto';
-import type { QuestionSet } from '../../src/lib/content-schema';
+import type { QuestionSet, SyncQuestionSet } from '../../src/lib/content-schema';
 import {
   deleteOfflineDatabase,
   getLocalAnswerRecord,
@@ -23,6 +23,7 @@ const questionSet: QuestionSet = {
     {
       id: 'q001',
       revision: 1,
+      origin: 'authorial',
       prompt: 'Questão de teste',
       options: [
         { id: 'a', text: 'A' },
@@ -33,6 +34,13 @@ const questionSet: QuestionSet = {
     },
   ],
 };
+
+function toSyncQuestionSet(source: QuestionSet): SyncQuestionSet {
+  return {
+    ...source,
+    questions: source.questions.map(({ origin: _origin, ...question }) => question),
+  };
+}
 
 function mockCatalog(
   subjectStorageIds = ['portugues', 'administrativo'],
@@ -47,7 +55,7 @@ function mockCatalog(
           subjects: subjectStorageIds.map((subjectStorageId) => ({
             contestStorageId: 'tse',
             subjectStorageId,
-            questionSet: catalogQuestionSet,
+            questionSet: toSyncQuestionSet(catalogQuestionSet),
           })),
         }),
         { status: 200, headers: { 'Content-Type': 'application/json' } },

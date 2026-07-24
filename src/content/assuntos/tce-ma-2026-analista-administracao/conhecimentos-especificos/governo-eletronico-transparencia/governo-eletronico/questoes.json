@@ -5,6 +5,7 @@
     {
       "id": "q2259",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Governo eletrônico pode ser corretamente entendido como",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q2260",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em comparação com a acepção histórica de governo eletrônico, governo digital enfatiza",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q2261",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Converter um formulário em papel para PDF, sem rever exigências ou fluxo, caracteriza principalmente",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q2262",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O requerimento digital de um benefício por uma pessoa física é exemplo de relação",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q2263",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um portal pelo qual empresas cumprem obrigação regulatória realiza predominantemente relação",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q2264",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A troca legítima de dados entre dois órgãos públicos é exemplo de",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q2265",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um sistema interno de férias e assentamentos funcionais dos servidores exemplifica",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q2266",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "As categorias G2C, G2B, G2G e G2E",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q2267",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um portal que apenas publica endereço, horário e descrição dos serviços encontra-se principalmente no estágio de",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q2268",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quando o usuário protocola, paga e recebe o resultado do serviço on-line, há característica de",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q2269",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No modelo de Layne e Lee, o estágio inicial de presença e organização de informações é denominado",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q2270",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No modelo de Layne e Lee, integração vertical refere-se à conexão",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q2271",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A integração entre diferentes áreas funcionais para entregar uma jornada unificada é, em Layne e Lee,",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q2272",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre modelos de maturidade em governo eletrônico, é correto afirmar que",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q2273",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Entre as dimensões contemporâneas de governo digital da OCDE encontra-se",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q2274",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O EGDI da ONU combina",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q2275",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma posição elevada de um país no EGDI permite concluir automaticamente que",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q2276",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto à Lei nº 14.129/2021, um TCE estadual",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q2277",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A plataforma única prevista entre as diretrizes de Governo Digital",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q2278",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A diretriz de impor as exigências necessárias de uma única vez admite exigência posterior",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q2279",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a Lei nº 14.129/2021, a Administração deve",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q2280",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Autosserviço é",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q2281",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "São componentes essenciais da prestação digital, nos termos do art. 18,",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q2282",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "As Plataformas de Governo Digital devem possuir pelo menos",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q2283",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma jornada digital completa, é compatível com a Lei nº 14.129/2021",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q2284",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O nível de segurança de um serviço digital deve ser",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q2285",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para subsidiar serviços simples, intuitivos, acessíveis e personalizados, o art. 24 prevê",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q2286",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O painel mínimo de desempenho de cada serviço contém",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q2287",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um serviço tem alta satisfação entre quem o concluiu, mas grande abandono por pessoas com deficiência. A conclusão adequada é",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q2288",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Canal digital único e oficial significa",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q2289",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Há multicanalidade quando o órgão",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q2290",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A principal diferença da omnicanalidade em relação à multicanalidade é",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q2291",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A prestação digital deve usar tecnologias de amplo acesso para baixa renda e áreas rurais ou isoladas",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q2292",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Exclusão digital pode decorrer",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q2293",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O eMAG é",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q2294",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um validador automático não encontrou erros em um portal. Isso",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q2295",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O diagnóstico de acessibilidade digital do TCU reforça que acessibilidade",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q2296",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a distinção correta.",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q2297",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Após autenticar um servidor, o sistema verifica se ele pode aprovar uma despesa. Essa segunda verificação é de",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q2298",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A assinatura eletrônica de ato digital relaciona-se principalmente a",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q2299",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A LGPD, diante da interoperabilidade pública,",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q2300",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A confiança em serviços públicos digitais depende",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q2301",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Compatibilizar o significado de campos como “data de conclusão” entre sistemas pertence à dimensão",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q2302",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Dois órgãos conectaram sistemas por API, mas discordam sobre finalidade, competência e significado dos dados. Logo,",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q2303",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O art. 38 condiciona a interoperabilidade, entre outros fatores, a",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q2304",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Nos termos do art. 40, nova base de dados somente deve ser criada",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q2305",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Formato aberto é aquele que",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q2306",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto ao âmbito da e-PING, assinale a correta.",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q2307",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na e-PING, padrão proprietário pode ser aceito",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q2308",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção adequada entre governança e gestão é",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q2309",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O art. 47 associa mecanismos de governança a",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q2310",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na gestão de riscos da prestação digital, os controles devem ser",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q2311",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A auditoria interna prevista no art. 49 deve",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q2312",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No corte de julho de 2026, ENGD e EFGD distinguem-se porque",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q2313",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A ENGD 2024–2027 busca, em seu objetivo geral, um Estado",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q2314",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "As ferramentas de transparência e controle do tratamento de dados pessoais das Plataformas de Governo Digital devem, ressalvadas as hipóteses legais,",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q2315",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A oferta de grande quantidade de serviços on-line",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q2316",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma política digital que encerra todos os canais assistidos sem avaliar o público apresenta risco de",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q2317",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre dados abertos, é correto afirmar que",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q2318",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Dois órgãos alinham competência, significado dos dados, controles de acesso e processo, além de conectar seus sistemas. O caso demonstra",
       "options": [
         {
@@ -1744,6 +1804,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A simples conversão de um formulário em papel para arquivo PDF, sem revisar exigências ou fluxo, caracteriza principalmente",
       "options": [
         {
@@ -1773,6 +1834,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em governo digital, produzir valor público significa prioritariamente",
       "options": [
         {
@@ -1802,6 +1864,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na evolução histórica do governo eletrônico, a fase de presença institucional distingue-se por",
       "options": [
         {
@@ -1831,6 +1894,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um órgão automatizou tarefas internas, mas o cidadão ainda entrega documentos no balcão. O caso representa",
       "options": [
         {
@@ -1860,6 +1924,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A transformação digital difere da mera informatização porque exige",
       "options": [
         {
@@ -1889,6 +1954,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Governo eletrônico pode ser corretamente definido como",
       "options": [
         {
@@ -1918,6 +1984,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A expressão governo digital enfatiza, em relação à acepção histórica de governo eletrônico,",
       "options": [
         {
@@ -1947,6 +2014,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um serviço pode ser transacional e ainda não ser transformado quando",
       "options": [
         {
@@ -1976,6 +2044,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A presença de portal institucional prova, por si só,",
       "options": [
         {
@@ -2005,6 +2074,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A maturidade digital de uma organização deve ser analisada",
       "options": [
         {
@@ -2034,6 +2104,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O uso de tecnologia pode aumentar desigualdade quando",
       "options": [
         {
@@ -2063,6 +2134,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O protocolo de benefício por pessoa física é exemplo de relação",
       "options": [
         {
@@ -2092,6 +2164,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Portal usado por empresas para cumprir obrigação regulatória exemplifica",
       "options": [
         {
@@ -2121,6 +2194,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Intercâmbio legítimo de dados entre dois órgãos públicos é relação",
       "options": [
         {
@@ -2150,6 +2224,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sistema interno de férias de servidores exemplifica",
       "options": [
         {
@@ -2179,6 +2254,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "G2C, G2B, G2G e G2E classificam",
       "options": [
         {
@@ -2208,6 +2284,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo de Layne e Lee, catalogação corresponde principalmente a",
       "options": [
         {
@@ -2237,6 +2314,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo de Layne e Lee, transação indica",
       "options": [
         {
@@ -2266,6 +2344,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A integração vertical de Layne e Lee conecta",
       "options": [
         {
@@ -2295,6 +2374,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A integração horizontal de Layne e Lee conecta",
       "options": [
         {
@@ -2324,6 +2404,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um serviço G2C pode estar em estágio apenas informativo porque",
       "options": [
         {
@@ -2353,6 +2434,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Maior sofisticação tecnológica em modelo de maturidade",
       "options": [
         {
@@ -2382,6 +2464,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma jornada, permitir consulta por chat sem integração com o protocolo caracteriza",
       "options": [
         {
@@ -2411,6 +2494,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A classificação G2G não permite concluir que existe interoperabilidade porque",
       "options": [
         {
@@ -2440,6 +2524,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre as dimensões da OCDE para governo digital encontra-se",
       "options": [
         {
@@ -2469,6 +2554,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Digital por concepção significa",
       "options": [
         {
@@ -2498,6 +2584,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Aberto por padrão, no referencial da OCDE,",
       "options": [
         {
@@ -2527,6 +2614,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O componente OSI do EGDI mede principalmente",
       "options": [
         {
@@ -2556,6 +2644,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O componente TII do EGDI relaciona-se a",
       "options": [
         {
@@ -2585,6 +2674,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O componente HCI do EGDI relaciona-se a",
       "options": [
         {
@@ -2614,6 +2704,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma posição elevada no EGDI permite concluir que",
       "options": [
         {
@@ -2643,6 +2734,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O EGDI é inadequado para",
       "options": [
         {
@@ -2672,6 +2764,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Governo como plataforma busca",
       "options": [
         {
@@ -2701,6 +2794,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O uso de componente comum de autenticação",
       "options": [
         {
@@ -2730,6 +2824,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma plataforma compartilhada gera risco de concentração quando",
       "options": [
         {
@@ -2759,6 +2854,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Arquitetura de plataforma deve favorecer",
       "options": [
         {
@@ -2788,6 +2884,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A dimensão 'orientado pelo usuário' exige",
       "options": [
         {
@@ -2817,6 +2914,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Proatividade, na OCDE, refere-se a",
       "options": [
         {
@@ -2846,6 +2944,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Quanto ao âmbito da Lei nº 14.129/2021, é correto afirmar que",
       "options": [
         {
@@ -2875,6 +2974,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A disponibilização em plataforma única significa",
       "options": [
         {
@@ -2904,6 +3004,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A preferência por autosserviço deve ser interpretada como",
       "options": [
         {
@@ -2933,6 +3034,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A vedação de exigir prova de fato já comprovado busca",
       "options": [
         {
@@ -2962,6 +3064,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O princípio da boa-fé do usuário",
       "options": [
         {
@@ -2991,6 +3094,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A linguagem clara em serviço digital exige",
       "options": [
         {
@@ -3020,6 +3124,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Padrão preferencialmente aberto caracteriza-se por",
       "options": [
         {
@@ -3049,6 +3154,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A interoperabilidade prevista na Lei nº 14.129/2021",
       "options": [
         {
@@ -3078,6 +3184,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A criação de nova base de dados deve ser precedida de",
       "options": [
         {
@@ -3107,6 +3214,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O direito ao atendimento presencial",
       "options": [
         {
@@ -3136,6 +3244,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A Administração deve solicitar dados uma única vez quando",
       "options": [
         {
@@ -3165,6 +3274,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No princípio *once only*, o usuário",
       "options": [
         {
@@ -3194,6 +3304,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O monitoramento da qualidade do serviço digital",
       "options": [
         {
@@ -3223,6 +3334,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma formalidade pode ser eliminada quando",
       "options": [
         {
@@ -3252,6 +3364,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A proteção adequada a idosos em serviço digital exige",
       "options": [
         {
@@ -3281,6 +3394,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A Lei nº 14.129/2021 associa eficiência pública a",
       "options": [
         {
@@ -3310,6 +3424,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O uso compartilhado de dados pessoais em plataforma digital",
       "options": [
         {
@@ -3339,6 +3454,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "As ferramentas do art. 25 devem permitir, ressalvadas hipóteses legais,",
       "options": [
         {
@@ -3368,6 +3484,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A Base Nacional de Serviços Públicos, as Cartas de Serviços e as Plataformas de Governo Digital",
       "options": [
         {
@@ -3397,6 +3514,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Testes e pesquisas com usuários servem para",
       "options": [
         {
@@ -3426,6 +3544,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O painel de desempenho mínimo deve conter",
       "options": [
         {
@@ -3455,6 +3574,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O uso de padrões abertos",
       "options": [
         {
@@ -3484,6 +3604,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma jornada digital completa deve permitir",
       "options": [
         {
@@ -3513,6 +3634,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Multicanalidade caracteriza-se por",
       "options": [
         {
@@ -3542,6 +3664,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Omnicanalidade exige",
       "options": [
         {
@@ -3571,6 +3694,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Canal oficial não significa",
       "options": [
         {
@@ -3600,6 +3724,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Atendimento digital assistido deve",
       "options": [
         {
@@ -3629,6 +3754,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Serviço proativo pode ser iniciado a partir de",
       "options": [
         {
@@ -3658,6 +3784,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pré-preenchimento responsável exige",
       "options": [
         {
@@ -3687,6 +3814,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma notificação de vencimento é exemplo de",
       "options": [
         {
@@ -3716,6 +3844,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A taxa de abandono ajuda a identificar",
       "options": [
         {
@@ -3745,6 +3874,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A mediana do tempo de conclusão é útil porque",
       "options": [
         {
@@ -3774,6 +3904,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Percentis de duração são úteis para",
       "options": [
         {
@@ -3803,6 +3934,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Maior adoção digital não prova equidade porque",
       "options": [
         {
@@ -3832,6 +3964,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Custo por transação deve ser analisado junto com",
       "options": [
         {
@@ -3861,6 +3994,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Encerrar canais assistidos sem estudar o público pode",
       "options": [
         {
@@ -3890,6 +4024,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Serviço rápido pode continuar inadequado quando",
       "options": [
         {
@@ -3919,6 +4054,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Acessibilidade digital deve ser incorporada",
       "options": [
         {
@@ -3948,6 +4084,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ferramenta automática de validação",
       "options": [
         {
@@ -3977,6 +4114,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma página inicial acessível não garante",
       "options": [
         {
@@ -4006,6 +4144,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Teste com pessoas com deficiência é importante porque",
       "options": [
         {
@@ -4035,6 +4174,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A exclusão digital envolve",
       "options": [
         {
@@ -4064,6 +4204,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Navegação por teclado é relevante para",
       "options": [
         {
@@ -4093,6 +4234,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Linguagem simples contribui para acessibilidade ao",
       "options": [
         {
@@ -4122,6 +4264,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Atendimento assistido deve preservar",
       "options": [
         {
@@ -4151,6 +4294,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Indicador de acessibilidade robusto deve considerar",
       "options": [
         {
@@ -4180,6 +4324,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A manutenção contínua é necessária porque",
       "options": [
         {
@@ -4209,6 +4354,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Identificação consiste em",
       "options": [
         {
@@ -4238,6 +4384,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Autenticação consiste em",
       "options": [
         {
@@ -4267,6 +4414,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Autorização define",
       "options": [
         {
@@ -4296,6 +4444,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinatura eletrônica busca vincular",
       "options": [
         {
@@ -4325,6 +4474,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Autenticação deve ser proporcional ao risco porque",
       "options": [
         {
@@ -4354,6 +4504,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Autenticação forte não impede",
       "options": [
         {
@@ -4383,6 +4534,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Representação digital exige verificar",
       "options": [
         {
@@ -4412,6 +4564,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Recuperação de conta deve ser governada porque",
       "options": [
         {
@@ -4441,6 +4594,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O uso compartilhado de dados pessoais",
       "options": [
         {
@@ -4470,6 +4624,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trilha de auditoria de identidade deve registrar",
       "options": [
         {
@@ -4499,6 +4654,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Interoperabilidade técnica envolve",
       "options": [
         {
@@ -4528,6 +4684,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Interoperabilidade semântica exige",
       "options": [
         {
@@ -4557,6 +4714,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Interoperabilidade organizacional envolve",
       "options": [
         {
@@ -4586,6 +4744,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Interoperabilidade jurídica exige",
       "options": [
         {
@@ -4615,6 +4774,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma API funcionando não prova interoperabilidade completa porque",
       "options": [
         {
@@ -4644,6 +4804,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Centralização física de dados",
       "options": [
         {
@@ -4673,6 +4834,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Catálogo de dados serve para",
       "options": [
         {
@@ -4702,6 +4864,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Metadado informa",
       "options": [
         {
@@ -4731,6 +4894,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Registro de referência é",
       "options": [
         {
@@ -4760,6 +4924,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Vocabulário comum busca",
       "options": [
         {
@@ -4789,6 +4954,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Infraestrutura Nacional de Dados possui como objetivo",
       "options": [
         {
@@ -4818,6 +4984,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A IND é composta por",
       "options": [
         {
@@ -4847,6 +5014,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes de reutilizar dado de outro órgão, deve-se avaliar",
       "options": [
         {
@@ -4876,6 +5044,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O princípio *once only* falha quando",
       "options": [
         {
@@ -4905,6 +5074,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Criar nova base sem avaliar registros existentes pode",
       "options": [
         {
@@ -4934,6 +5104,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A e-PING define",
       "options": [
         {
@@ -4963,6 +5134,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para outros Poderes e entes fora do âmbito obrigatório, a e-PING",
       "options": [
         {
@@ -4992,6 +5164,7 @@
     },
     {
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Formato gratuito pode não ser aberto quando",
       "options": [
         {
@@ -5021,6 +5194,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Interoperabilidade amplifica riscos quando",
       "options": [
         {
@@ -5050,6 +5224,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trilha de auditoria em intercâmbio de dados deve registrar",
       "options": [
         {
@@ -5079,6 +5254,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Governança digital diferencia-se da gestão porque",
       "options": [
         {
@@ -5108,6 +5284,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A ENGD 2024–2027 tem função de",
       "options": [
         {
@@ -5137,6 +5314,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A EFGD 2024–2027 dirige-se à",
       "options": [
         {
@@ -5166,6 +5344,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "ENGD e EFGD",
       "options": [
         {
@@ -5195,6 +5374,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A revisão da ENGD publicada em 2026",
       "options": [
         {
@@ -5224,6 +5404,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Governança de portfólio deve priorizar",
       "options": [
         {
@@ -5253,6 +5434,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Arquitetura de governo digital deve apoiar",
       "options": [
         {
@@ -5282,6 +5464,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Plano de transformação deve relacionar",
       "options": [
         {
@@ -5311,6 +5494,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Auditoria interna baseada em risco deve",
       "options": [
         {
@@ -5340,6 +5524,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma solução sofisticada pode ser rejeitada quando",
       "options": [
         {
@@ -5369,6 +5554,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Chatbot disponível vinte e quatro horas",
       "options": [
         {
@@ -5398,6 +5584,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "IA usada para triagem deve ser monitorada quanto a",
       "options": [
         {
@@ -5427,6 +5614,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Supervisão humana deve ser proporcional",
       "options": [
         {
@@ -5456,6 +5644,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Decisão automatizada desfavorável exige especial atenção a",
       "options": [
         {
@@ -5485,6 +5674,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Modelo de IA deve ter versões registradas para",
       "options": [
         {
@@ -5514,6 +5704,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Continuidade de serviço com IA exige",
       "options": [
         {
@@ -5543,6 +5734,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Serviço digital gera documentos e registros que",
       "options": [
         {
@@ -5572,6 +5764,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Excluir tecnicamente um arquivo",
       "options": [
         {
@@ -5601,6 +5794,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Logs relevantes devem ser preservados conforme",
       "options": [
         {
@@ -5630,6 +5824,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No caso de formulário inacessível por teclado após encerramento do presencial, a prioridade é",
       "options": [
         {
@@ -5659,6 +5854,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se cadastro antigo reutilizado causar indeferimento, o controle deve prever",
       "options": [
         {
@@ -5688,6 +5884,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois sistemas conectados atribuem significados diferentes a 'endereço principal'. Há falha de",
       "options": [
         {
@@ -5717,6 +5914,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma API consulta dados pessoais sem finalidade registrada. O problema é principalmente",
       "options": [
         {
@@ -5746,6 +5944,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contar apenas serviços digitalizados pode induzir erro porque",
       "options": [
         {
@@ -5775,6 +5974,7 @@
     },
     {
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao medir abandono, o órgão deve segmentar resultados por",
       "options": [
         {

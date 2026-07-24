@@ -109,6 +109,10 @@ function seedObservedRemoteProgress(
 
 test.beforeEach(async ({ page }) => {
   const questionSet = JSON.parse(await readFile(exampleQuestionSetPath, 'utf8'));
+  const syncQuestionSet = {
+    ...questionSet,
+    questions: questionSet.questions.map(({ origin: _origin, ...question }: Record<string, unknown>) => question),
+  };
   await page.route('**/sync-catalog.json', (route) =>
     route.fulfill({
       json: {
@@ -117,7 +121,7 @@ test.beforeEach(async ({ page }) => {
           {
             contestStorageId: 'exemplo',
             subjectStorageId: 'fundamentos',
-            questionSet,
+            questionSet: syncQuestionSet,
           },
         ],
       },

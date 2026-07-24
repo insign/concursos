@@ -5,6 +5,7 @@
     {
       "id": "q1589",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao regime jurídico dos contratos regidos pela Lei nº 14.133/2021, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "Eles se regem por suas cláusulas e pelo direito público, com aplicação supletiva da teoria geral dos contratos e do direito privado." },
@@ -19,6 +20,7 @@
     {
       "id": "q1590",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Todo contrato administrativo abrangido pela Lei nº 14.133/2021 deve mencionar, entre outros elementos:",
       "options": [
         { "id": "a", "text": "apenas o objeto e o preço global." },
@@ -33,6 +35,7 @@
     {
       "id": "q1591",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O vencedor solicita prorrogação do prazo para assinar o contrato ainda durante o prazo original e apresenta motivo aceito pela Administração. A Lei permite prorrogar:",
       "options": [
         { "id": "a", "text": "indefinidamente, enquanto persistir o interesse do vencedor." },
@@ -47,6 +50,7 @@
     {
       "id": "q1592",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se o vencedor não assinar nem aceitar o instrumento no prazo, a primeira providência facultada à Administração em relação aos remanescentes é:",
       "options": [
         { "id": "a", "text": "contratar qualquer interessado sem observar a classificação." },
@@ -61,6 +65,7 @@
     {
       "id": "q1593",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nenhum remanescente aceitou contratar nas condições do vencedor. Observado o valor estimado atualizado, a Administração poderá:",
       "options": [
         { "id": "a", "text": "sortear um licitante e impor o preço do vencedor." },
@@ -75,6 +80,7 @@
     {
       "id": "q1594",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Decorrido o prazo de validade da proposta indicado no edital sem convocação para contratar, os licitantes:",
       "options": [
         { "id": "a", "text": "ficam liberados dos compromissos assumidos." },
@@ -89,6 +95,7 @@
     {
       "id": "q1595",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A recusa injustificada do adjudicatário em assinar o contrato no prazo caracteriza:",
       "options": [
         { "id": "a", "text": "mero atraso sem consequência sancionatória." },
@@ -103,6 +110,7 @@
     {
       "id": "q1596",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A perda imediata da garantia por recusa injustificada não se aplica:",
       "options": [
         { "id": "a", "text": "ao adjudicatário regularmente convocado." },
@@ -117,6 +125,7 @@
     {
       "id": "q1597",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para contratar remanescente de obra, serviço ou fornecimento após rescisão contratual, a Administração:",
       "options": [
         { "id": "a", "text": "deve contratar obrigatoriamente o antigo subcontratado." },
@@ -131,6 +140,7 @@
     {
       "id": "q1598",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo as regras incluídas pela Lei nº 14.770/2023 sobre contrato rescindido, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "Todo saldo empenhado deve ser cancelado imediatamente." },
@@ -145,6 +155,7 @@
     {
       "id": "q1599",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a forma dos contratos e aditamentos, a Lei nº 14.133/2021 determina que sejam:",
       "options": [
         { "id": "a", "text": "escritos, juntados ao processo, divulgados e mantidos disponíveis em sítio oficial." },
@@ -159,6 +170,7 @@
     {
       "id": "q1600",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A manutenção em sigilo de contrato ou termo aditivo é admitida quando:",
       "options": [
         { "id": "a", "text": "o contratado preferir não divulgar o preço." },
@@ -173,6 +185,7 @@
     {
       "id": "q1601",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contratos relativos a direitos reais sobre imóveis devem ser formalizados por:",
       "options": [
         { "id": "a", "text": "simples ordem verbal da autoridade." },
@@ -187,6 +200,7 @@
     {
       "id": "q1602",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A celebração eletrônica de contratos e termos aditivos:",
       "options": [
         { "id": "a", "text": "é proibida pela exigência de forma escrita." },
@@ -201,6 +215,7 @@
     {
       "id": "q1603",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes de formalizar ou prorrogar a vigência, a Administração deve, entre outras medidas:",
       "options": [
         { "id": "a", "text": "consultar apenas o cadastro interno do contratado." },
@@ -215,6 +230,7 @@
     {
       "id": "q1604",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Constitui cláusula necessária de todo contrato, segundo o art. 92:",
       "options": [
         { "id": "a", "text": "a obrigação de manter as condições de habilitação ou qualificação durante a execução." },
@@ -229,6 +245,7 @@
     {
       "id": "q1605",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A regra sobre foro nos contratos administrativos é:",
       "options": [
         { "id": "a", "text": "livre escolha do contratado em todos os casos." },
@@ -243,6 +260,7 @@
     {
       "id": "q1606",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Independentemente da duração, o contrato deve conter cláusula de reajustamento com:",
       "options": [
         { "id": "a", "text": "data-base escolhida depois da assinatura." },
@@ -257,6 +275,7 @@
     {
       "id": "q1607",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos serviços contínuos, respeitado o interregno anual, a correlação correta é:",
       "options": [
         { "id": "a", "text": "dedicação exclusiva — reajuste apenas por índice; sem mão de obra — repactuação." },
@@ -271,6 +290,7 @@
     {
       "id": "q1608",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa correta sobre regras complementares do art. 92.",
       "options": [
         { "id": "a", "text": "A medição de engenharia é sempre anual." },
@@ -285,6 +305,7 @@
     {
       "id": "q1609",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em contratação de projeto, serviço técnico especializado ou software com documentação associada, a regra é que o autor:",
       "options": [
         { "id": "a", "text": "ceda os direitos patrimoniais à Administração, que poderá usar e alterar o produto sem nova autorização." },
@@ -299,6 +320,7 @@
     {
       "id": "q1610",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração pode deixar de exigir cessão dos direitos patrimoniais quando o objeto envolver:",
       "options": [
         { "id": "a", "text": "qualquer compra comum de prateleira." },
@@ -313,6 +335,7 @@
     {
       "id": "q1611",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A divulgação do contrato e de seus aditamentos no PNCP é:",
       "options": [
         { "id": "a", "text": "mera recomendação sem efeito jurídico." },
@@ -327,6 +350,7 @@
     {
       "id": "q1612",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os prazos para divulgação no PNCP, contados da assinatura, são:",
       "options": [
         { "id": "a", "text": "10 dias corridos na licitação e 20 na contratação direta." },
@@ -341,6 +365,7 @@
     {
       "id": "q1613",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um contrato foi celebrado em situação urgente. Quanto à eficácia e à publicação:",
       "options": [
         { "id": "a", "text": "não produz efeitos antes do fim da urgência." },
@@ -355,6 +380,7 @@
     {
       "id": "q1614",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No caso de obras, além do PNCP, a Administração divulgará em sítio oficial:",
       "options": [
         { "id": "a", "text": "quantitativos e preços contratados em até 25 dias úteis da assinatura e os executados em até 45 dias úteis da conclusão." },
@@ -369,6 +395,7 @@
     {
       "id": "q1615",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O termo de contrato pode ser substituído por instrumento escrito hábil:",
       "options": [
         { "id": "a", "text": "em qualquer contratação, a critério exclusivo do contratado." },
@@ -383,6 +410,7 @@
     {
       "id": "q1616",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma compra de entrega integral ocorrerá em 20 dias, mas inclui assistência técnica futura. Nesse caso:",
       "options": [
         { "id": "a", "text": "a entrega em 20 dias torna verbal o contrato." },
@@ -397,6 +425,7 @@
     {
       "id": "q1617",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 2026, contrato verbal com a Administração somente escapa à nulidade quando envolver:",
       "options": [
         { "id": "a", "text": "qualquer serviço contínuo de até R$ 65.492,11." },
@@ -411,6 +440,7 @@
     {
       "id": "q1618",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a exigência de garantia contratual, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "É obrigatória em todo contrato, sem previsão no edital." },
@@ -425,6 +455,7 @@
     {
       "id": "q1619",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Contém apenas garantias admitidas pelo art. 96:",
       "options": [
         { "id": "a", "text": "caução em dinheiro ou títulos escriturais, seguro-garantia, fiança de instituição autorizada e título de capitalização de pagamento único e resgatável pelo valor total." },
@@ -439,6 +470,7 @@
     {
       "id": "q1620",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando o contratado optar por seguro-garantia, o edital deve fixar para sua prestação prazo mínimo:",
       "options": [
         { "id": "a", "text": "de um dia após a assinatura." },
@@ -453,6 +485,7 @@
     {
       "id": "q1621",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se o contrato for suspenso por ordem ou inadimplemento da Administração, o contratado:",
       "options": [
         { "id": "a", "text": "deve dobrar a garantia imediatamente." },
@@ -467,6 +500,7 @@
     {
       "id": "q1622",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao seguro-garantia, é correto afirmar que:",
       "options": [
         { "id": "a", "text": "não cobre multas nem indenizações." },
@@ -481,6 +515,7 @@
     {
       "id": "q1623",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em contrato de execução continuada, a substituição da apólice na renovação ou aniversário:",
       "options": [
         { "id": "a", "text": "é sempre proibida." },
@@ -495,6 +530,7 @@
     {
       "id": "q1624",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A garantia contratual ordinária pode alcançar:",
       "options": [
         { "id": "a", "text": "até 5% do valor inicial, ou até 10% com justificativa baseada em complexidade técnica e riscos." },
@@ -509,6 +545,7 @@
     {
       "id": "q1625",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Num fornecimento contínuo com vigência superior a um ano, a base dos percentuais de garantia é:",
       "options": [
         { "id": "a", "text": "o valor de toda a vigência, sempre multiplicado por dez." },
@@ -523,6 +560,7 @@
     {
       "id": "q1626",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 2026, uma obra estimada acima de R$ 261.968.421,04 pode ter, nos termos do art. 99:",
       "options": [
         { "id": "a", "text": "garantia de proposta obrigatória de 30%." },
@@ -537,6 +575,7 @@
     {
       "id": "q1627",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A garantia prestada pelo contratado será liberada ou restituída:",
       "options": [
         { "id": "a", "text": "antes do início da execução, sem análise." },
@@ -551,6 +590,7 @@
     {
       "id": "q1628",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se a Administração entregar bens dos quais o contratado ficará depositário:",
       "options": [
         { "id": "a", "text": "os bens passam gratuitamente ao patrimônio do contratado." },
@@ -565,6 +605,7 @@
     {
       "id": "q1629",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na cláusula de retomada de obra ou serviço de engenharia, a seguradora:",
       "options": [
         { "id": "a", "text": "firma contrato e aditivos como interveniente anuente e pode acompanhar a execução." },
@@ -579,6 +620,7 @@
     {
       "id": "q1630",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em caso de inadimplemento sob cláusula de retomada:",
       "options": [
         { "id": "a", "text": "a seguradora paga e conclui cumulativamente em qualquer caso." },
@@ -593,6 +635,7 @@
     {
       "id": "q1631",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A matriz de alocação de riscos é:",
       "options": [
         { "id": "a", "text": "lista informal de servidores responsáveis." },
@@ -607,6 +650,7 @@
     {
       "id": "q1632",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A matriz de alocação de riscos é obrigatória:",
       "options": [
         { "id": "a", "text": "somente em pequenas compras de pronto pagamento." },
@@ -621,6 +665,7 @@
     {
       "id": "q1633",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na alocação contratual, a Lei orienta que:",
       "options": [
         { "id": "a", "text": "todo risco seja atribuído ao setor público." },
@@ -635,6 +680,7 @@
     {
       "id": "q1634",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Atendidas a matriz e as condições contratuais, as partes renunciam ao reequilíbrio pelos riscos assumidos, exceto quanto:",
       "options": [
         { "id": "a", "text": "a alterações unilaterais administrativas e mudança legal de tributos diretamente pagos pelo contratado." },
@@ -649,6 +695,7 @@
     {
       "id": "q1635",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É prerrogativa administrativa prevista no art. 104:",
       "options": [
         { "id": "a", "text": "renunciar previamente a toda fiscalização." },
@@ -663,6 +710,7 @@
     {
       "id": "q1636",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre cláusulas econômico-financeiras e alteração unilateral, assinale a correta.",
       "options": [
         { "id": "a", "text": "A Administração pode reduzir unilateralmente a remuneração sem limite." },
@@ -677,6 +725,7 @@
     {
       "id": "q1637",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A regra geral de duração da Lei nº 14.133/2021 determina que:",
       "options": [
         { "id": "a", "text": "todo contrato termina em 31 de dezembro." },
@@ -691,6 +740,7 @@
     {
       "id": "q1638",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Serviços e fornecimentos contínuos podem ter vigência inicial de até:",
       "options": [
         { "id": "a", "text": "um ano, sem qualquer exceção." },
@@ -705,6 +755,7 @@
     {
       "id": "q1639",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se faltar crédito ou o contrato contínuo deixar de ser vantajoso, a extinção sem ônus prevista no art. 106:",
       "options": [
         { "id": "a", "text": "ocorre no próximo aniversário contratual, assegurada ciência ao contratado com antecedência mínima de dois meses." },
@@ -719,6 +770,7 @@
     {
       "id": "q1640",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A prorrogação sucessiva de serviço ou fornecimento contínuo:",
       "options": [
         { "id": "a", "text": "é direito subjetivo do contratado." },
@@ -733,6 +785,7 @@
     {
       "id": "q1641",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a combinação correta de duração especial.",
       "options": [
         { "id": "a", "text": "Toda dispensa — 35 anos; todo serviço contínuo — indeterminado." },
@@ -747,6 +800,7 @@
     {
       "id": "q1642",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na contratação que gera receita ou no contrato de eficiência que gera economia, os prazos são:",
       "options": [
         { "id": "a", "text": "5 anos com ou sem investimento." },
@@ -761,6 +815,7 @@
     {
       "id": "q1643",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre contratos por escopo, serviço associado e sistemas estruturantes de TI, assinale a alternativa correta.",
       "options": [
         { "id": "a", "text": "Escopo não concluído extingue sempre o contrato, mesmo sem culpa." },

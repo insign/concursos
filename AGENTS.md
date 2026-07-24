@@ -76,6 +76,7 @@ npm run preview
 - Grupos não têm `storageId` e não participam da identidade de KV, IndexedDB, backup, progresso, sincronização ou offline.
 - `contest.subjects` permanece a projeção plana para rotas, persistência e offline; `contest.children` é a árvore editorial.
 - Todo assunto deve possuir `conteudo.md`, `cheat-sheet.md` e `questoes.json`; arquivos ausentes ou órfãos devem falhar no build.
+- O `/sync-catalog.json` mantém apenas o schema necessário para respostas, sem `origin`, para compatibilidade com clientes PWA já publicados; o filtro de origem usa o `QuestionSet` editorial entregue na página estática.
 - Preserve IDs e `storageId` estáveis; nunca use posição de array como identidade.
 - Não duplique metadados que possam ser derivados de sua fonte canônica.
 - `BaseLayout.astro` concentra metadados, CSS global e cabeçalho; `StudyLayout.astro` concentra breadcrumbs, abas e navegação entre assuntos.
@@ -84,6 +85,7 @@ npm run preview
 - `src/styles/global.css` define a linguagem editorial responsiva, e `src/styles/print.css` preserva o cheat sheet e remove navegação/controles na impressão.
 - `Questionnaire.astro` usa controles nativos e delega o estado da sessão a `questionnaire-controller.ts`.
 - Os layouts `single`, `ten` e `all` são apenas apresentações; `all` deve continuar carregando blocos de dez progressivamente.
+- O filtro de origem do questionário é efêmero: altera apenas o subconjunto exibido, a contagem, paginação e embaralhamento; nunca o persista em preferências, `localStorage`, IndexedDB, KV ou backup. Respostas, finalização, assinatura, pontuação, sincronização e progresso permanecem sobre o `QuestionSet` completo.
 - `immediate` revela correção por seleção; `on-submit` só revela após todas as questões e uma assinatura válida.
 - Alterar qualquer resposta invalida a assinatura de submissão; hash e pontuação ficam em `src/lib/questionnaire.ts`.
 - Embaralhamento usa `question-order.ts`: a ordem inicial permanece determinística por usuário, concurso, assunto e revisão do conjunto; a ação explícita de gerar nova ordem usa aleatoriedade efêmera e nunca altera a identidade ou a persistência das respostas.
@@ -142,6 +144,7 @@ npm run preview
 ### Questões
 
 - Salve pelo menos 50 questões em `questoes.json`; esse é um mínimo editorial obrigatório, não um limite máximo nem uma validação do schema.
+- Toda questão deve declarar `origin` como `authorial` ou `previous_exam`. Use `previous_exam` apenas para questão oficial ou adaptação de prova anterior verificável; use `authorial` para questão explicitamente autoral, inclusive inspirada sem reprodução literal. Revise fontes ausentes ou ambíguas antes de classificar; nunca infira origem no navegador a partir da explicação.
 - Distribua as questões entre todos os subitens relevantes do edital, com variedade de dificuldade, formulação e aplicação, evitando duplicações disfarçadas.
 - Prefira questões reais de concursos anteriores obtidas de provas e gabaritos oficiais. Não use como fonte primária bancos pagos, compilações sem proveniência ou gabaritos não verificáveis.
 - Só identifique uma questão como oficial quando enunciado, alternativas, prova e gabarito puderem ser verificados. Preserve o sentido original e normalize apenas a formatação necessária ao formato do projeto.
@@ -151,6 +154,7 @@ npm run preview
 - `Fonte: questão oficial; <banca>; <concurso/prova>; <ano>; questão <número>; <URL oficial>.`
 - `Fonte: questão adaptada de <banca/prova/ano/número/URL>; adaptação: <motivo>.`
 - `Fonte: questão autoral baseada em <referências do conteúdo>.`
+- `origin` é metadado editorial de seleção: uma alteração exclusiva de origem preserva IDs, ordem, enunciado, opções, gabarito, explicação, `question.revision` e `questionSetRevision`.
 - Preserve IDs permanentes e aplique as regras de `questionSetRevision` e `question.revision` de `final_plan.md` ao alterar conjuntos já publicados.
 
 ### Double-check, validação e publicação

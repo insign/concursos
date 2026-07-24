@@ -5,6 +5,7 @@
     {
       "id": "q934",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os fundamentos constitucionais da acessibilidade, encontra-se",
       "options": [
         {"id": "a", "text": "a adaptação de logradouros, edifícios de uso público e veículos de transporte coletivo"},
@@ -19,6 +20,7 @@
     {
       "id": "q935",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Convenção sobre os Direitos das Pessoas com Deficiência possui, no Brasil,",
       "options": [
         {"id": "a", "text": "valor de recomendação administrativa sem força jurídica"},
@@ -33,6 +35,7 @@
     {
       "id": "q936",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O modelo social da deficiência orienta a Administração a",
       "options": [
         {"id": "a", "text": "localizar toda dificuldade exclusivamente no diagnóstico"},
@@ -47,6 +50,7 @@
     {
       "id": "q937",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a LBI, pessoa com deficiência é aquela que",
       "options": [
         {"id": "a", "text": "possui qualquer doença, ainda que sem impedimento de longo prazo ou barreira"},
@@ -61,6 +65,7 @@
     {
       "id": "q938",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando necessária, a avaliação da deficiência prevista na LBI é",
       "options": [
         {"id": "a", "text": "exclusivamente médica e baseada no diagnóstico"},
@@ -75,6 +80,7 @@
     {
       "id": "q939",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A pessoa com mobilidade reduzida",
       "options": [
         {"id": "a", "text": "é sempre pessoa com deficiência permanente"},
@@ -89,6 +95,7 @@
     {
       "id": "q940",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A definição legal de acessibilidade abrange",
       "options": [
         {"id": "a", "text": "somente entrada física de edifícios"},
@@ -103,6 +110,7 @@
     {
       "id": "q941",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Desenho universal corresponde à",
       "options": [
         {"id": "a", "text": "adaptação posterior exclusiva para uma pessoa"},
@@ -117,6 +125,7 @@
     {
       "id": "q942",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Adaptação razoável é",
       "options": [
         {"id": "a", "text": "favor discricionário que pode ser recusado sem análise"},
@@ -131,6 +140,7 @@
     {
       "id": "q943",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Tecnologia assistiva compreende",
       "options": [
         {"id": "a", "text": "apenas equipamentos eletrônicos importados"},
@@ -145,6 +155,7 @@
     {
       "id": "q944",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma calçada de acesso ao órgão sem rota segura constitui barreira",
       "options": [
         {"id": "a", "text": "urbanística"},
@@ -159,6 +170,7 @@
     {
       "id": "q945",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma repartição cujo único acesso ao interior é uma escada apresenta barreira",
       "options": [
         {"id": "a", "text": "na comunicação"},
@@ -173,6 +185,7 @@
     {
       "id": "q946",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na avaliação da acessibilidade do transporte coletivo, devem ser considerados",
       "options": [
         {"id": "a", "text": "apenas os assentos do veículo"},
@@ -187,6 +200,7 @@
     {
       "id": "q947",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um vídeo institucional que transmite informação essencial apenas por áudio, sem alternativa, apresenta principalmente barreira",
       "options": [
         {"id": "a", "text": "urbanística"},
@@ -201,6 +215,7 @@
     {
       "id": "q948",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O agente que ignora o usuário e fala somente com seu acompanhante cria barreira",
       "options": [
         {"id": "a", "text": "atitudinal"},
@@ -215,6 +230,7 @@
     {
       "id": "q949",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um aplicativo público incompatível com leitor de tela e sem alternativa apresenta barreira",
       "options": [
         {"id": "a", "text": "tecnológica"},
@@ -229,6 +245,7 @@
     {
       "id": "q950",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para a LBI, discriminação em razão da deficiência",
       "options": [
         {"id": "a", "text": "somente existe se houver agressão física"},
@@ -243,6 +260,7 @@
     {
       "id": "q951",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Integra o rol atualizado de atendimento prioritário da Lei nº 10.048/2000",
       "options": [
         {"id": "a", "text": "somente pessoa com deficiência física"},
@@ -257,6 +275,7 @@
     {
       "id": "q952",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à prioridade do doador de sangue, a lei determina atendimento",
       "options": [
         {"id": "a", "text": "antes de todos os outros prioritários, sem comprovante"},
@@ -271,6 +290,7 @@
     {
       "id": "q953",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se não houver guichê ou atendente específico para prioridade, a ordem de atendimento deve",
       "options": [
         {"id": "a", "text": "somente no dia seguinte"},
@@ -285,6 +305,7 @@
     {
       "id": "q954",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos serviços de emergência de saúde, a prioridade administrativa",
       "options": [
         {"id": "a", "text": "sempre supera a avaliação clínica"},
@@ -299,6 +320,7 @@
     {
       "id": "q955",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O acompanhante ou atendente pessoal da pessoa prioritária",
       "options": [
         {"id": "a", "text": "recebe prioridade autônoma mesmo sem o titular"},
@@ -313,6 +335,7 @@
     {
       "id": "q956",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma rota acessível em edifício público deve",
       "options": [
         {"id": "a", "text": "limitar-se a uma rampa na calçada"},
@@ -327,6 +350,7 @@
     {
       "id": "q957",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nas áreas de estacionamento localizadas em vias ou espaços públicos, a Lei nº 10.098/2000 prevê reserva de",
       "options": [
         {"id": "a", "text": "1% das vagas, sem mínimo"},
@@ -341,6 +365,7 @@
     {
       "id": "q958",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em evento com instalação de banheiros químicos, o número mínimo de unidades acessíveis corresponde a",
       "options": [
         {"id": "a", "text": "2%, sem mínimo"},
@@ -355,6 +380,7 @@
     {
       "id": "q959",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Lei nº 10.098/2000 determina que a Administração Pública federal direta e indireta",
       "options": [
         {"id": "a", "text": "destine anualmente dotação para eliminar barreiras arquitetônicas nos edifícios públicos abrangidos"},
@@ -369,6 +395,7 @@
     {
       "id": "q960",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 9º do Decreto nº 5.296/2004, as ações de acessibilidade devem incluir",
       "options": [
         {"id": "a", "text": "improvisação sem cronograma"},
@@ -383,6 +410,7 @@
     {
       "id": "q961",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No atendimento inclusivo, a conduta adequada do agente é",
       "options": [
         {"id": "a", "text": "falar sempre com o acompanhante"},
@@ -397,6 +425,7 @@
     {
       "id": "q962",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos recursos de comunicação, é correto afirmar que",
       "options": [
         {"id": "a", "text": "Libras é uma forma de legenda"},
@@ -411,6 +440,7 @@
     {
       "id": "q963",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A audiodescrição tem por função principal",
       "options": [
         {"id": "a", "text": "traduzir português para Libras"},
@@ -425,6 +455,7 @@
     {
       "id": "q964",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Lei nº 15.249/2025 passou a prever, entre outras medidas,",
       "options": [
         {"id": "a", "text": "proibição de recursos de baixa tecnologia"},
@@ -439,6 +470,7 @@
     {
       "id": "q965",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O art. 63 da LBI estabelece que sítios de órgãos de governo",
       "options": [
         {"id": "a", "text": "podem excluir usuários de tecnologia assistiva"},
@@ -453,6 +485,7 @@
     {
       "id": "q966",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os quatro princípios da WCAG são",
       "options": [
         {"id": "a", "text": "perceptível, operável, compreensível e robusto"},
@@ -467,6 +500,7 @@
     {
       "id": "q967",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Conformidade no nível AA da WCAG pressupõe",
       "options": [
         {"id": "a", "text": "cumprir apenas um critério AAA"},
@@ -481,6 +515,7 @@
     {
       "id": "q968",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre o eMAG 3.1, é correto afirmar que",
       "options": [
         {"id": "a", "text": "foi automaticamente substituído pela WCAG 2.2"},
@@ -495,6 +530,7 @@
     {
       "id": "q969",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A ABNT NBR 17225:2025",
       "options": [
         {"id": "a", "text": "trata de acessibilidade em conteúdo e aplicações web e se baseia na WCAG 2.2"},
@@ -509,6 +545,7 @@
     {
       "id": "q970",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um validador automático não basta para comprovar acessibilidade digital porque",
       "options": [
         {"id": "a", "text": "testes automáticos são sempre proibidos"},
@@ -523,6 +560,7 @@
     {
       "id": "q971",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um PDF composto apenas por imagens digitalizadas",
       "options": [
         {"id": "a", "text": "é acessível por estar publicado na internet"},
@@ -537,6 +575,7 @@
     {
       "id": "q972",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na gestão de um serviço multicanal, acessibilidade exige",
       "options": [
         {"id": "a", "text": "somente aumentar o número de canais"},
@@ -551,6 +590,7 @@
     {
       "id": "q973",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um programa institucional consistente de acessibilidade deve",
       "options": [
         {"id": "a", "text": "combinar responsabilidade, diagnóstico, participação, metas, recursos, monitoramento e correção"},
@@ -565,6 +605,7 @@
     {
       "id": "q974",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A participação das pessoas com deficiência no desenho de políticas deve ocorrer",
       "options": [
         {"id": "a", "text": "desde o diagnóstico, com consulta estreita e envolvimento ativo por organizações representativas"},
@@ -579,6 +620,7 @@
     {
       "id": "q975",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma contratação de sistema público, a melhor forma de tratar acessibilidade é",
       "options": [
         {"id": "a", "text": "adicionar exigência genérica depois da entrega"},
@@ -593,6 +635,7 @@
     {
       "id": "q976",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual indicador oferece evidência mais útil sobre acessibilidade física de um serviço?",
       "options": [
         {"id": "a", "text": "quantidade total de rampas compradas"},
@@ -607,6 +650,7 @@
     {
       "id": "q977",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um portal é criado desde o início para teclado e leitor de tela, mas um usuário necessita de formato adicional específico. A resposta correta combina",
       "options": [
         {"id": "a", "text": "desenho universal no portal e adaptação razoável no caso concreto"},
@@ -621,6 +665,7 @@
     {
       "id": "q978",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre o cordão de girassóis, é correto afirmar que",
       "options": [
         {"id": "a", "text": "seu uso é obrigatório para exercer direitos"},
@@ -635,6 +680,7 @@
     {
       "id": "q979",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Conforme a Lei nº 15.459/2026, o Símbolo Internacional de Acessibilidade",
       "options": [
         {"id": "a", "text": "pode ser usado como decoração institucional"},
@@ -649,6 +695,7 @@
     {
       "id": "q980",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à acessibilidade em um tribunal de contas estadual, é correto afirmar que",
       "options": [
         {"id": "a", "text": "o TCE integra o Poder Judiciário"},
@@ -663,6 +710,7 @@
     {
       "id": "q981",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O descumprimento de deveres de acessibilidade",
       "options": [
         {"id": "a", "text": "gera apenas recomendação sem consequências"},
@@ -677,6 +725,7 @@
     {
       "id": "q982",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os prazos de adaptação originalmente fixados pelo Decreto nº 5.296/2004",
       "options": [
         {"id": "a", "text": "ainda não começaram"},
@@ -691,6 +740,7 @@
     {
       "id": "q983",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após reclamação de que um serviço digital é inacessível, a resposta gerencial mais completa é",
       "options": [
         {"id": "a", "text": "instalar um selo e encerrar o caso"},

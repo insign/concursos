@@ -5,6 +5,7 @@
     {
       "id": "q3219",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A equipe revisou o relatório', o período é",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q3220",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A equipe revisou o relatório e a planilha', há",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q3221",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A equipe revisou o relatório e corrigiu a planilha', identificam-se",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q3222",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A independência atribuída às orações coordenadas deve ser entendida principalmente como",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q3223",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O auditor e a analista chegaram', a coordenação ocorre entre",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q3224",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase coordena dois adjuntos adverbiais?",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q3225",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A presença de 'e' indica nova oração somente quando",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q3226",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Chegou, examinou, decidiu', as orações são",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q3227",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O ponto e vírgula entre coordenadas assindéticas é especialmente útil quando",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q3228",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A oração coordenada sindética distingue-se da assindética pela",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q3229",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Leu o processo e redigiu o parecer', o 'e' exprime predominantemente",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q3230",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Prometeu rapidez e demorou meses', o 'e' mantém forma aditiva, mas produz efeito de",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q3231",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Não leu nem revisou', o conectivo 'nem'",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q3232",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na construção 'não só revisou o ato, mas também justificou a decisão', a relação é",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q3233",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual reescrita preserva melhor o paralelismo da correlação?",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q3234",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Descumpriu o prazo e sofreu a sanção', a segunda oração pode ser interpretada como",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q3235",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A troca de 'nem' por 'e não' deve ser avaliada com cautela porque pode alterar",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q3236",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O texto é breve, mas suficiente', o conectivo coordena",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q3237",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A adversidade expressa por 'mas' costuma introduzir",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q3238",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O relatório, contudo, contém ressalvas', as vírgulas",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q3239",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual característica diferencia 'porém' de 'mas' em muitos contextos?",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q3240",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Chovia, mas a equipe saiu', a segunda oração é",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q3241",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Embora chovesse, a equipe saiu', a relação de contraste é estruturada por",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q3242",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao substituir 'Chovia, mas saí' por 'Embora chovesse, saí', é correto afirmar que",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q3243",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O relatório é curto, mas contém todas as evidências', não há contradição lógica porque 'mas'",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q3244",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na norma de prova, a frase corretamente pontuada é",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q3245",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual frase o conector adversativo está corretamente intercalado?",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q3246",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Ou protocola hoje, ou perde o prazo', a alternativa é",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q3247",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Podem participar servidores ou empregados públicos', o 'ou' pode ter leitura",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q3248",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A impessoalidade, ou ausência de favorecimento, orienta o ato', 'ou' introduz",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q3249",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A construção 'ora concordava, ora discordava' expressa",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q3250",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Quer por falha técnica, quer por atraso, o ato foi revisto', o par correlativo exige",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q3251",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Os requisitos foram cumpridos; portanto, o pedido pode ser deferido', 'portanto' marca",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q3252",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O emprego de um conector conclusivo",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q3253",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O pedido pode, pois, ser deferido', o 'pois' é",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q3254",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta 'pois' conclusivo em posição final?",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q3255",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Não encerre o processo, pois falta uma assinatura', a segunda oração",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q3256",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O processo atrasou porque faltava uma assinatura', a oração introduzida por 'porque' é predominantemente",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q3257",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um critério útil para distinguir explicação de causa é verificar se o segundo segmento",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q3258",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A ocorrência de 'porque' permite concluir, sem contexto, que a oração é",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q3259",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Confira os anexos, porque há divergências', a oração final tende a ser",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q3260",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Está chovendo; não sairei, pois', a relação é",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q3261",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na frase 'A comissão terminou o exame e publicou o resultado', a forma usual de pontuação é",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q3262",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O prazo terminou, e a comissão ainda não recebeu os autos', a vírgula antes de 'e' é justificável pela",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q3263",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre sujeitos diferentes em orações ligadas por 'e', é correto afirmar que",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q3264",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'E explica, e exemplifica, e revisa cada ponto', as vírgulas realçam",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q3265",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase contém vírgula inadequada por separar sujeito e predicado?",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q3266",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O prazo acabou; o pedido, portanto, não será aceito', as vírgulas",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q3267",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A pontuação de 'não só... mas também' deve considerar",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q3268",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase preserva paralelismo sintático?",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q3269",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O projeto exige planejamento, transparência e amanhã', a falha principal é de",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q3270",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na frase 'A analista revisou o relatório; o auditor, a planilha', a vírgula marca",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q3271",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A elipse é adequada quando o elemento omitido",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q3272",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Esses processos, precisamos revisá-los hoje', o termo inicial exemplifica",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q3273",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O gestor decidiu revisar o ato e publicar a retificação', as formas 'revisar' e 'publicar' são",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q3274",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A existência de coordenação interna em uma sequência",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q3275",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na análise de uma reescrita com conectores, deve-se preservar prioritariamente",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q3276",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao analisar uma relação coordenativa, o primeiro procedimento seguro é",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q3277",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual afirmação sobre conectores é adequada?",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q3278",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma questão de manutenção de sentido, trocar 'porém' por 'portanto' tende a",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q3279",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No período 'A equipe revisou o relatório e a planilha', a análise sintática correta é:",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q3280",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'A equipe revisou o relatório e publicou a nota', o conector 'e' liga:",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q3281",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Espero que a equipe revise o ato e que publique a retificação', as duas orações introduzidas por 'que':",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q3282",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase 'O gestor decidiu revisar o ato e publicar a retificação', 'revisar o ato' e 'publicar a retificação' são:",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q3283",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No enunciado 'Participaram os técnicos responsáveis pela coleta e os auditores designados para a validação', a coordenação ocorre entre:",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q3284",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A série 'a integração das bases, revisar os formulários e que os dados sejam auditados' apresenta como principal problema:",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q3285",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'o menino que chora, faz birra ou se comporta mal', os predicados 'chora', 'faz birra' e 'se comporta mal':",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q3286",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A afirmação 'todo período com a conjunção e contém duas orações' é:",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q3287",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para decidir se dois segmentos estão coordenados, o teste mais confiável é verificar:",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q3288",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No período 'O relatório mostra que o prazo terminou e que a inscrição será rejeitada', a análise adequada reconhece:",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q3289",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Recebeu o processo e iniciou a análise', o valor contextual predominante de 'e' é:",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q3290",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'Estude e será aprovado', a relação de sentido pode ser explicitada por:",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q3291",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase 'Prometeu rapidez e demorou meses', o 'e' produz:",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q3292",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Não analisou a minuta nem consultou a área técnica', 'nem':",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q3293",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A correlação 'não só revisou o ato, mas também justificou a decisão' exprime:",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q3294",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em uma frase adversativa com 'mas', a inserção de 'também' logo depois do conector pode:",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q3295",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No período 'O plano prevê revisão dos fluxos, bem como capacitação das equipes', 'bem como' tem valor:",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q3296",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para haver paralelismo em 'tanto a revisão dos atos quanto ___', a continuação mais adequada é:",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q3297",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na estrutura 'não foi atraso, mas sim erro de cadastro', 'mas sim' introduz:",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q3298",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'O pedido era regular e, contudo, foi indeferido', a análise mais precisa é:",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q3299",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A substituição de 'mas' por 'porém' em 'O prazo terminou, mas o recurso foi aceito' pode preservar o contraste se:",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q3300",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Sobre o comportamento de 'mas', assinale a opção correta:",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q3301",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'O relatório, contudo, contém ressalvas', as vírgulas:",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q3302",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A reescrita de 'Chovia, mas a equipe saiu' como 'Embora chovesse, a equipe saiu':",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q3303",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Trocar simplesmente 'mas' por 'conquanto' sem outras alterações costuma ser inadequado porque:",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q3304",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na coordenação adversativa 'O texto estava correto, mas precisava de concisão', a vírgula antes de 'mas' é:",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q3305",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'O texto estava correto, mas, segundo o revisor, precisava de concisão', a vírgula depois de 'mas':",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q3306",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'não apenas corrigiu o texto, mas também reorganizou os dados', aplicar mecanicamente a regra do 'mas' adversativo seria incorreto porque:",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q3307",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O emprego de 'Porém' no início de um novo período pode:",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q3308",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na sequência 'O prazo era suficiente e, no entanto, a equipe não concluiu o trabalho', a expressão 'no entanto':",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q3309",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'Podem participar servidores ou empregados públicos', sem contexto de exclusão, 'ou' tende a admitir leitura:",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q3310",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Ou protocola hoje, ou perde o prazo', a correlação sugere:",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q3311",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na expressão 'a impessoalidade, ou ausência de favorecimento', 'ou' introduz:",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q3312",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Ou muito me engano, ou o dado está incorreto', a correlação apresenta:",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q3313",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para preservar paralelismo em 'ora revisa os dados, ora ___', a melhor continuação é:",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q3314",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na correlação 'quer por meio eletrônico, quer presencialmente', a relação predominante é:",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q3315",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'seja o pedido simples, seja complexo, será analisado', a correlação indica:",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q3316",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase 'Não revisou o relatório ou a planilha' pode ser ambígua porque:",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q3317",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'João e Maria carregaram a mesa', sem outros marcadores, é possível uma leitura:",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q3318",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na expressão 'técnicos e auditores experientes', o adjetivo 'experientes':",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q3319",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'Os requisitos foram cumpridos; o pedido pode, pois, ser deferido', 'pois' tem valor:",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q3320",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Não encerre o processo, pois falta uma assinatura', o segundo membro:",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q3321",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'O processo atrasou porque faltava uma assinatura', a oração introduzida por 'porque':",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q3322",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'Confira os anexos, porque há divergências', a oração final tende a ser classificada como:",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q3323",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No período 'Os requisitos foram preenchidos; portanto, a inscrição é válida', 'portanto':",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q3324",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A substituição de 'pois' por 'porque' preserva mais naturalmente o sentido quando 'pois':",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q3325",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O melhor teste para distinguir explicativa de causal é perguntar se o segundo segmento:",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q3326",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Descumpriu o prazo e sofreu a sanção', o segundo membro expressa:",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q3327",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A presença de 'logo' em um argumento:",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q3328",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'Organizou os dados assim e reduziu o tempo', a palavra 'assim' pode ter valor de modo; já em 'Os dados estavam completos; assim, decidiu-se', tende a ter valor:",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q3329",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na frase 'O texto estava correto, mas precisava de concisão', retirar a vírgula antes de 'mas':",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q3330",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'O prazo terminou, e a comissão ainda não recebeu os documentos', a vírgula antes de 'e':",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q3331",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A afirmação 'sempre se usa vírgula antes de e quando os sujeitos são diferentes' é:",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q3332",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'E explica, e exemplifica, e revisa', a repetição do conector constitui:",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q3333",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Conferiu, corrigiu, publicou', a relação entre as orações é:",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q3334",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar a vírgula entre orações assindéticas por ponto e vírgula pode:",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q3335",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'A medida, contudo, não resolveu o problema', as vírgulas são adequadas porque:",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q3336",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em coordenação adversativa, a sequência 'mas, resolveu o problema' só admite a vírgula depois de 'mas' se:",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q3337",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase 'A equipe pretende revisar o texto e a entrega do relatório', o problema central não é pontuação, mas:",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q3338",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'não só revisou o ato, mas também justificou a decisão', a vírgula antes do segundo correlativo:",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q3339",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase paralela é:",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q3340",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'pretende revisar, publicar e acompanhar', o paralelismo decorre do uso de:",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q3341",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual reescrita preserva melhor o paralelismo de voz?",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q3342",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A série 'planejamento, transparência e amanhã' é inadequada principalmente por:",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q3343",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'A analista revisou o relatório; o auditor, a planilha', a vírgula depois de 'auditor' marca:",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q3344",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em 'Esses processos, precisamos revisá-los hoje', o segmento inicial exemplifica:",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q3345",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A reescrita de 'O relatório é curto, mas completo' como 'Embora curto, o relatório é completo':",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q3346",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A reescrita 'Estude e passará' → 'Se estudar, passará' transforma:",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q3347",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em 'João e Maria preencheram um formulário cada', a palavra 'cada' favorece leitura:",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q3348",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Comparando 'conferiu, corrigiu, publicou' com 'e conferiu, e corrigiu, e publicou', a segunda versão:",
       "options": [
         {

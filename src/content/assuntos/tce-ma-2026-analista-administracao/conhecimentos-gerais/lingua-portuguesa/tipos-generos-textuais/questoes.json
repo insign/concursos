@@ -5,6 +5,7 @@
     {
       "id": "q031",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Às oito horas, a equipe abriu a sala. Minutos depois, percebeu a falta de energia, acionou a manutenção e transferiu o atendimento para outro prédio.' Predomina a sequência:",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q032",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'A sala é retangular, possui duas janelas largas e mantém os arquivos em estantes metálicas junto à parede norte.' Predomina a sequência:",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q033",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Leia: 'Dados abertos são conjuntos disponibilizados em formato que permite acesso, uso e redistribuição. Em geral, empregam padrões que facilitam o processamento por máquinas.' Predomina a sequência:",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q034",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Leia: 'O órgão deve divulgar uma versão simplificada do relatório, pois tabelas sem contexto afastam o cidadão e reduzem a utilidade pública da informação.' Predomina a sequência:",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q035",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'Acesse o portal, selecione o município, escolha o período e clique em exportar.' Predomina a sequência:",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q036",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma reportagem narra a inauguração de um hospital, descreve suas instalações e apresenta dados sobre a capacidade de atendimento. A análise correta é:",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q037",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na expressão 'editorial de sequência predominantemente dissertativo-argumentativa', os termos 'editorial' e 'dissertativo-argumentativa' designam, respectivamente:",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q038",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual conjunto de traços caracteriza mais diretamente uma notícia?",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q039",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em comparação com uma notícia breve, uma reportagem tende a:",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q040",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto sem assinatura individual, publicado na seção 'Opinião do jornal' e dedicado a defender a posição do veículo sobre política pública, é provavelmente:",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q041",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual traço distingue mais diretamente um artigo de opinião de um editorial?",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q042",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto resume um livro, situa sua proposta, avalia seus resultados e justifica a recomendação de leitura. Trata-se de:",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q043",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual é a finalidade predominante de um verbete de dicionário ou enciclopédia?",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q044",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um documento apresenta objetivo, metodologia, atividades realizadas, resultados, dificuldades e recomendações de uma auditoria. Seu gênero mais provável é:",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q045",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um documento público fixa requisitos, prazos, etapas, critérios e formas de recurso de uma seleção. Qual é o gênero?",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q046",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual característica aproxima receita, manual e tutorial?",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q047",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma peça do governo apresenta dados sobre desperdício de água e o apelo 'Feche a torneira enquanto escova os dentes'. Ela é melhor classificada como:",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q048",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual distinção entre charge e tirinha é mais adequada?",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q049",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um leitor escreve ao jornal para contestar dados de uma reportagem publicada na edição anterior e justificar sua discordância. O gênero é:",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q050",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um servidor dirige documento à autoridade competente, identifica-se, expõe fundamento e pede a emissão de certidão. Esse documento é um:",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q051",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual é a finalidade predominante de uma ata?",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q052",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Notícia, reportagem e editorial circulam tipicamente em qual esfera discursiva?",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q053",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta apenas exemplos de suporte ou ambiente de circulação, e não de gênero?",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q054",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma reportagem publicada primeiro em revista impressa e depois no portal da mesma instituição:",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q055",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um anúncio de curso organiza seu texto sob os títulos 'Ingredientes' e 'Modo de preparo', mas sua finalidade é convencer o público a se matricular. Esse caso exemplifica:",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q057",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um artigo de opinião começa descrevendo detalhadamente uma praça e, nos parágrafos seguintes, defende sua preservação. A classificação global mais adequada é:",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q059",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Leia: 'Para solicitar revisão, preencha o formulário até sexta-feira e anexe a justificativa. Pedidos sem identificação não serão analisados.' Se o trecho integra documento que publica todas as regras de um processo seletivo, a análise correta é:",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q061",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na descrição 'relatório administrativo publicado em portal eletrônico e organizado predominantemente por exposição', os termos 'relatório', 'administrativo', 'portal eletrônico' e 'exposição' indicam, respectivamente:",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q062",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual trecho apresenta com mais clareza uma sequência narrativa?",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q063",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Leia: 'O corredor se estreita perto do arquivo, recebe pouca luz natural e permanece silencioso durante a manhã.' Predomina a sequência:",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q064",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual característica distingue mais diretamente a dissertação expositiva da dissertação argumentativa?",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q065",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Leia: 'A consulta deve permanecer aberta por mais uma semana, pois o prazo atual não permitiu participação das comunidades mais distantes.' Predomina a sequência:",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q066",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual enunciado realiza orientação injuntiva sem empregar verbo no imperativo?",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q067",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre a sequência dialogal, assinale a alternativa correta.",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q068",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um parecer expõe o histórico do processo, descreve documentos e fundamenta uma conclusão. A análise mais adequada é:",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q069",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para reconhecer um gênero textual com segurança, deve-se priorizar:",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q070",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um órgão encaminha formalmente a outro uma solicitação institucional, com identificação, assunto, destinatário e assinatura da autoridade. O gênero mais provável é:",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q071",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um documento examina fatos e normas de um processo, compara interpretações e apresenta conclusão técnica fundamentada. Trata-se de:",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q072",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um setor especializado publica documento que avalia impactos de uma política, explicita metodologia e oferece subsídios para decisão administrativa. O gênero é mais provavelmente:",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q073",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um processo, a autoridade registra 'Encaminhe-se à unidade de contratos para análise e manifestação'. Esse enunciado integra tipicamente um:",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q074",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto mantém a alternância explícita entre perguntas de uma jornalista e respostas de uma pesquisadora. Seu gênero mais provável é:",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q075",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto curto apresenta objetivo, método, principais resultados e conclusão de uma pesquisa para permitir rápida identificação de seu conteúdo. Trata-se de:",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q076",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual conjunto de elementos aponta mais diretamente para um artigo científico?",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q077",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto pago imita a diagramação de reportagem, apresenta depoimentos e recomenda discretamente um serviço, com identificação de conteúdo patrocinado. Ele é um:",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q078",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma página intitulada 'Dúvidas frequentes' apresenta pares de perguntas recorrentes e respostas breves sobre um serviço. O gênero é:",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q079",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma instituição publica no mesmo perfil uma série numerada de postagens encadeadas que desenvolvem um único tema e remetem umas às outras. Trata-se de:",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q080",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A mensagem breve 'Seu prazo termina amanhã. Toque aqui para concluir o envio' aparece automaticamente no celular. O gênero mais provável é:",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q081",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma imagem amplamente reconhecida é reutilizada com nova legenda para comentar, de modo humorístico, a demora de um serviço. No ambiente digital, o gênero é provavelmente:",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q082",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto informa ocasião, data, horário, local e destinatários esperados, encerrando com pedido de confirmação de presença. O gênero é:",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q083",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa em que o primeiro termo designa um domínio discursivo e o segundo, um gênero que pode circular nele.",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q084",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um texto apenas define accountability, classifica suas dimensões e apresenta exemplos, sem defender solução ou juízo de valor. A tipologia predominante é:",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q085",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um artigo sustenta que a transparência ativa deve ser ampliada e usa dados de acesso, comparação entre órgãos e argumento de autoridade. A tipologia predominante é:",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q086",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto acadêmico explica a evolução de bibliotecas digitais, define conceitos e organiza dados históricos, sem orientar o leitor a aceitar uma tese. A melhor classificação é:",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q087",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale o par que apresenta, respectivamente, um gênero textual e um tipo textual.",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q088",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto de revista especializada apresenta o problema das desigualdades no acesso digital, reproduz posições de pesquisadores e conclui defendendo investimento público. A classificação mais adequada é:",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q089",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma matéria apresenta título informativo, contextualiza problema de abastecimento, reúne dados técnicos e falas de especialistas, sem assumir voz institucional opinativa. A combinação mais provável é:",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q090",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um texto apresenta conceito, exemplos e consequências de determinado fenômeno, mas não formula tese que o leitor deva aceitar. A alternativa correta é:",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q091",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um ensaio contém parágrafos que defendem uma ideia e, no final, dirige ao leitor uma recomendação direta. Sobre a composição, é correto afirmar que:",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q092",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual enunciado exemplifica melhor a dissertação expositiva?",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q093",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A distinção mais adequada entre texto instrucional e texto prescritivo é:",
       "options": [
         {

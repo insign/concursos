@@ -5,6 +5,7 @@
     {
       "id": "q1434",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um edital de obra prevê obrigações de pagamento, mas autoriza afastar sem base legal as condições efetivas da proposta e exige qualificação econômica sem relação com as obrigações. À luz do art. 37, XXI, da Constituição, essas previsões",
       "options": [
         {"id": "a", "text": "são válidas sempre que a Administração invocar genericamente o interesse público"},
@@ -19,6 +20,7 @@
     {
       "id": "q1435",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Está abrangida diretamente pelas normas gerais da Lei nº 14.133/2021",
       "options": [
         {"id": "a", "text": "toda sociedade de economia mista"},
@@ -33,6 +35,7 @@
     {
       "id": "q1436",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto às empresas públicas e sociedades de economia mista, a Lei nº 14.133/2021 estabelece que",
       "options": [
         {"id": "a", "text": "não são abrangidas por ela como regra, pois se submetem à Lei nº 13.303/2016, ressalvado seu art. 178"},
@@ -47,6 +50,7 @@
     {
       "id": "q1437",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os objetos expressamente alcançados pelo art. 2º da Lei nº 14.133/2021 está",
       "options": [
         {"id": "a", "text": "a gestão da dívida pública"},
@@ -61,6 +65,7 @@
     {
       "id": "q1438",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Não se subordina ao regime da Lei nº 14.133/2021, conforme o art. 3º, o contrato cujo objeto seja",
       "options": [
         {"id": "a", "text": "compra por encomenda"},
@@ -75,6 +80,7 @@
     {
       "id": "q1439",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em contratação financiada por organismo internacional, uma condição peculiar de seleção pode ser admitida quando, entre outros requisitos,",
       "options": [
         {"id": "a", "text": "afastar princípios constitucionais por previsão do financiador"},
@@ -89,6 +95,7 @@
     {
       "id": "q1440",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em licitação de bens dividida em itens, a autoridade pretende usar o valor global do certame para negar os benefícios da LC nº 123/2006, embora cada item permaneça dentro do teto aplicável. A análise correta é que",
       "options": [
         {"id": "a", "text": "para bens e serviços em geral, compara-se cada item ao teto de EPP; para obras e engenharia, a lei usa o valor da licitação e o limite de ME"},
@@ -103,6 +110,7 @@
     {
       "id": "q1441",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para aplicar os limites dos §§ 1º e 2º do art. 4º a contrato com vigência superior a um ano, considera-se",
       "options": [
         {"id": "a", "text": "o valor do primeiro mês"},
@@ -117,6 +125,7 @@
     {
       "id": "q1442",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A exigência de que a decisão exponha seus pressupostos de fato e de direito corresponde principalmente ao princípio da",
       "options": [
         {"id": "a", "text": "celeridade"},
@@ -131,6 +140,7 @@
     {
       "id": "q1443",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A relação correta entre publicidade e transparência é",
       "options": [
         {"id": "a", "text": "são incompatíveis quando o processo é eletrônico"},
@@ -145,6 +155,7 @@
     {
       "id": "q1444",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bem é comum, para a Lei nº 14.133/2021, quando",
       "options": [
         {"id": "a", "text": "tem baixo valor monetário"},
@@ -159,6 +170,7 @@
     {
       "id": "q1445",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O enquadramento de bem ou serviço como especial",
       "options": [
         {"id": "a", "text": "decorre apenas do valor estimado"},
@@ -173,6 +185,7 @@
     {
       "id": "q1446",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A compra é considerada imediata pela Lei nº 14.133/2021 quando a entrega ocorre",
       "options": [
         {"id": "a", "text": "no mesmo dia da assinatura"},
@@ -187,6 +200,7 @@
     {
       "id": "q1447",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para o art. 6º, autoridade é",
       "options": [
         {"id": "a", "text": "agente público dotado de poder de decisão"},
@@ -201,6 +215,7 @@
     {
       "id": "q1448",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O agente de contratação é designado",
       "options": [
         {"id": "a", "text": "pelos próprios licitantes"},
@@ -215,6 +230,7 @@
     {
       "id": "q1449",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao vínculo permanente dos agentes, é correto afirmar que",
       "options": [
         {"id": "a", "text": "é irrelevante em todos os casos"},
@@ -229,6 +245,7 @@
     {
       "id": "q1450",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O requisito técnico-profissional do art. 7º, II, pode ser atendido por agente que",
       "options": [
         {"id": "a", "text": "tenha apenas parentesco com a autoridade"},
@@ -243,6 +260,7 @@
     {
       "id": "q1451",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A segregação de funções busca",
       "options": [
         {"id": "a", "text": "impedir qualquer comunicação entre setores"},
@@ -257,6 +275,7 @@
     {
       "id": "q1452",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante um certame, a equipe de apoio apresenta análise técnica, e o agente de contratação precisa decidir uma controvérsia e dar seguimento ao procedimento. A conduta compatível com sua atribuição é",
       "options": [
         {"id": "a", "text": "transferir a decisão à equipe, pois o apoio técnico desloca sua competência"},
@@ -271,6 +290,7 @@
     {
       "id": "q1453",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em relação aos atos praticados pelo agente de contratação, a Lei nº 14.133/2021 prevê",
       "options": [
         {"id": "a", "text": "responsabilidade individual, salvo quando ele for induzido a erro pela equipe de apoio"},
@@ -285,6 +305,7 @@
     {
       "id": "q1454",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em licitação de bens ou serviços especiais, o agente de contratação",
       "options": [
         {"id": "a", "text": "deve ser sempre substituído por um único consultor"},
@@ -299,6 +320,7 @@
     {
       "id": "q1455",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um membro de comissão afasta a responsabilidade solidária por decisão da qual discordou quando",
       "options": [
         {"id": "a", "text": "comenta informalmente a discordância após o contrato"},
@@ -313,6 +335,7 @@
     {
       "id": "q1456",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na modalidade pregão, o agente responsável pela condução do certame é designado",
       "options": [
         {"id": "a", "text": "fiscal técnico"},
@@ -327,6 +350,7 @@
     {
       "id": "q1457",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em objeto especial não rotineiramente contratado, a Administração pode",
       "options": [
         {"id": "a", "text": "transferir toda decisão a um licitante"},
@@ -341,6 +365,7 @@
     {
       "id": "q1458",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Decreto nº 11.246/2022",
       "options": [
         {"id": "a", "text": "define automaticamente a organização interna de todo tribunal estadual"},
@@ -355,6 +380,7 @@
     {
       "id": "q1459",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sem previsão legal e sem relação com o objeto, um edital concede pontuação adicional a empresas sediadas no Maranhão. Essa cláusula",
       "options": [
         {"id": "a", "text": "é válida porque todo ente pode criar preferência territorial por edital"},
@@ -369,6 +395,7 @@
     {
       "id": "q1460",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As vedações do art. 9º alcançam",
       "options": [
         {"id": "a", "text": "somente a autoridade máxima"},
@@ -383,6 +410,7 @@
     {
       "id": "q1461",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O agente público do órgão licitante ou contratante",
       "options": [
         {"id": "a", "text": "não pode participar direta ou indiretamente da licitação nem da execução do contrato"},
@@ -397,6 +425,7 @@
     {
       "id": "q1462",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A representação prevista no art. 10 depende de o ato questionado ter sido praticado",
       "options": [
         {"id": "a", "text": "sem qualquer orientação jurídica"},
@@ -411,6 +440,7 @@
     {
       "id": "q1463",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A regra de representação do art. 10",
       "options": [
         {"id": "a", "text": "protege ato doloso sempre que houver parecer"},
@@ -425,6 +455,7 @@
     {
       "id": "q1464",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao estruturar uma licitação, a Administração escolhe a solução de menor preço inicial sem examinar custos do ciclo de vida e restringe a disputa para favorecer fornecedor conhecido. Essa conduta contraria, entre outros, o objetivo de",
       "options": [
         {"id": "a", "text": "priorizar o fornecedor com maior tempo de mercado"},
@@ -439,6 +470,7 @@
     {
       "id": "q1465",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A proposta apta a gerar resultado mais vantajoso deve ser avaliada",
       "options": [
         {"id": "a", "text": "somente pelo preço de aquisição"},
@@ -453,6 +485,7 @@
     {
       "id": "q1466",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A distinção correta entre sobrepreço e superfaturamento é",
       "options": [
         {"id": "a", "text": "ambos existem somente após decisão judicial"},
@@ -467,6 +500,7 @@
     {
       "id": "q1467",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A governança das contratações é responsabilidade",
       "options": [
         {"id": "a", "text": "da alta administração, que deve avaliar, direcionar e monitorar por processos, riscos e controles"},
@@ -481,6 +515,7 @@
     {
       "id": "q1468",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma declaração apresentada pelo licitante contém falha de numeração de página, mas seu conteúdo, sua autoria, a qualificação e a proposta permanecem plenamente compreensíveis. A comissão pretende excluí-lo automaticamente. Segundo o art. 12,",
       "options": [
         {"id": "a", "text": "qualquer falha formal exige exclusão, ainda que irrelevante"},
@@ -495,6 +530,7 @@
     {
       "id": "q1469",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A autenticidade de cópia de documento pode ser comprovada",
       "options": [
         {"id": "a", "text": "somente por cartório, sem exceção"},
@@ -509,6 +545,7 @@
     {
       "id": "q1470",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O reconhecimento de firma em documento do processo licitatório",
       "options": [
         {"id": "a", "text": "é obrigatório para todo documento"},
@@ -523,6 +560,7 @@
     {
       "id": "q1471",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre o plano de contratações anual no art. 12, é correto afirmar que",
       "options": [
         {"id": "a", "text": "é proibido aos Estados"},
@@ -537,6 +575,7 @@
     {
       "id": "q1472",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A publicidade do conteúdo das propostas é",
       "options": [
         {"id": "a", "text": "proibida em definitivo"},
@@ -551,6 +590,7 @@
     {
       "id": "q1473",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito do orçamento da Administração, o art. 13 estabelece que sua publicidade",
       "options": [
         {"id": "a", "text": "pode ser diferida nos termos do art. 24, não sendo o sigilo automático em toda licitação"},
@@ -565,6 +605,7 @@
     {
       "id": "q1474",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A empresa Alfa elaborou o projeto básico da contratação. A empresa Beta, integrante do mesmo grupo econômico, pretende disputar a licitação alegando possuir personalidade jurídica própria. Nos termos do art. 14, § 3º,",
       "options": [
         {"id": "a", "text": "Beta pode disputar porque o impedimento nunca alcança pessoa jurídica distinta"},
@@ -579,6 +620,7 @@
     {
       "id": "q1475",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O autor do projeto relacionado ao objeto pode",
       "options": [
         {"id": "a", "text": "apoiar atividades exclusivamente a serviço da Administração e sob supervisão exclusiva de agentes públicos"},
@@ -593,6 +635,7 @@
     {
       "id": "q1476",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O edital silencia sobre consórcios, e uma interessada apresenta compromisso de constituição, sem registrar definitivamente o consórcio antes da proposta. A Administração deve considerar que",
       "options": [
         {"id": "a", "text": "o silêncio equivale a proibição absoluta de consórcios"},
@@ -607,6 +650,7 @@
     {
       "id": "q1477",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na habilitação econômico-financeira de consórcio, o edital",
       "options": [
         {"id": "a", "text": "deve reduzir 50% do valor exigido individualmente"},
@@ -621,6 +665,7 @@
     {
       "id": "q1478",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma cooperativa legalmente constituída demonstra regime cooperado, aceita que qualquer cooperado igualmente qualificado execute o objeto e oferece serviço especializado compatível com seu objeto social. O edital a exclui apenas por sua natureza cooperativa. A solução correta é",
       "options": [
         {"id": "a", "text": "manter a exclusão, pois cooperativas são sempre incompatíveis com licitações"},
@@ -635,6 +680,7 @@
     {
       "id": "q1479",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na sequência ordinária do art. 17, após o julgamento ocorre a fase de",
       "options": [
         {"id": "a", "text": "planejamento estratégico"},
@@ -649,6 +695,7 @@
     {
       "id": "q1480",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um edital coloca a habilitação antes das propostas e do julgamento. Embora a inversão conste do instrumento, o processo não contém ato motivado nem explicita seus benefícios. A inversão",
       "options": [
         {"id": "a", "text": "é válida porque a previsão no edital é requisito suficiente"},
@@ -663,6 +710,7 @@
     {
       "id": "q1481",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Por razões técnicas devidamente motivadas, a Administração decide realizar sessão presencial, mas propõe lavrar apenas a ata, sem gravação. Segundo o art. 17, § 2º, a sessão",
       "options": [
         {"id": "a", "text": "pode ocorrer apenas com ata, pois a motivação substitui a gravação"},
@@ -677,6 +725,7 @@
     {
       "id": "q1482",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na fase de julgamento, a Administração pode avaliar a conformidade da proposta do provisoriamente vencedor por amostra ou prova de conceito",
       "options": [
         {"id": "a", "text": "desde que isso esteja previsto no edital"},
@@ -691,6 +740,7 @@
     {
       "id": "q1483",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos termos do art. 17, § 6º, a Administração pode exigir",
       "options": [
         {"id": "a", "text": "certificação emitida por qualquer licitante concorrente"},

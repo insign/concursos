@@ -5,6 +5,7 @@
     {
       "id": "q3399",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A relação dos processos pendentes foi atualizada', o verbo fica no singular porque",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q3400",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta a concordância regular com sujeito composto anteposto?",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q3401",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre a frase 'Chegou o relatório e a planilha', é correto afirmar que",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q3402",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A concordância adequada em 'Eu e os demais auditores ___ o processo' é",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q3403",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O autor e relator da proposta apresentou o voto', o singular é justificável porque",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q3404",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na frase 'Prazos, custos e riscos, tudo foi examinado', o verbo concorda com",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q3405",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Núcleos sinônimos ou dispostos em gradação podem levar o verbo ao singular quando",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q3406",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual alternativa o singular decorre do valor excludente de 'ou'?",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q3407",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A forma plural em 'O descuido ou a fraude podem causar dano' indica que",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q3408",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A forma preferida na norma-padrão para 'Nem o relatório nem as planilhas ___' é",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q3409",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A expressão 'um ou outro' leva normalmente o verbo",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q3410",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O presidente, com os conselheiros, aprovou a minuta', o singular mostra que",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q3411",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A concordância adequada com coletivo simples ocorre em",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q3412",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quanto às frases 'A maioria dos candidatos foi aprovada' e 'A maioria dos candidatos foram aprovados',",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q3413",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase concorda o verbo com o numeral de uma quantidade aproximada?",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q3414",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A construção regular com 'mais de um' é",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q3415",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O plural em 'Mais de um gestor se acusaram mutuamente' decorre",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q3416",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a orientação tradicional mais segura para frações, a forma adequada é",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q3417",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sem nome especificador, a concordância adequada é",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q3418",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na concordância de percentual acompanhado de especificador, deve-se considerar que",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q3419",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Fomos nós que redigimos o parecer', o verbo da oração relativa concorda com",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q3420",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre 'Fui eu quem redigiu o parecer' e 'Fui eu quem redigi o parecer', é correto afirmar que",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q3421",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A forma preferida em redação formal é 'Ela foi uma das servidoras que ___ da auditoria' com",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q3422",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta as duas concordâncias admitidas com pronome plural seguido de 'de nós'?",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q3423",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em comunicação dirigida a uma governadora, a forma adequada é",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q3424",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase respeita a impessoalidade de 'haver' com sentido de existir?",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q3425",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A locução corretamente flexionada é",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q3426",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual frase 'haver' é auxiliar pessoal e concorda com o sujeito?",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q3427",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A concordância adequada com 'fazer' temporal ocorre em",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q3428",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A substituição correta de 'Há alternativas' por uma construção com 'existir' é",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q3429",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual indicação de hora está de acordo com a norma-padrão?",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q3430",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O singular em 'Dez anos é muito tempo' é admitido porque",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q3431",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Os responsáveis somos nós', a primeira pessoa do plural decorre",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q3432",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Publicaram-se os editais', o plural é obrigatório na análise normativa porque",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q3433",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta índice de indeterminação do sujeito e verbo no singular?",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q3434",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para distinguir partícula apassivadora de índice de indeterminação do sujeito, deve-se",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q3435",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual construção explicita corretamente o sujeito próprio do infinitivo?",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q3436",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A frase correta quanto ao infinitivo em locução verbal é",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q3437",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Com o mesmo sujeito na oração principal e no infinitivo final, as formas 'saíram para revisar' e 'saíram para revisarem' são",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q3438",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo o Manual de Comunicação do Senado, após verbos como 'ver' e 'ouvir', em 'Vi os candidatos sair/saírem',",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q3439",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A concordância nominal básica está correta em",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q3440",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Como adjunto adnominal anteposto a substantivos de gêneros diferentes, o adjetivo concorda em regra com",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q3441",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre 'norma e procedimento adequados' e 'norma e procedimento adequado', é correto afirmar que",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q3442",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No plural abrangente de substantivos de gêneros diferentes, a forma esperada é",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q3443",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta predicativo corretamente concordado com sujeito composto feminino?",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q3444",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par está integralmente correto?",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q3445",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A concordância reflexiva adequada ocorre em",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q3446",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa emprega corretamente 'quite' e 'obrigado'?",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q3447",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção correta entre os usos de 'só' aparece em",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q3448",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase emprega 'meio' de acordo com sua classe e seu sentido?",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q3449",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção correta entre os usos de 'bastante' é",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q3450",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase está adequada quanto a 'menos' e 'alerta'?",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q3451",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual alternativa 'caro' é adjetivo na primeira oração e advérbio na segunda?",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q3452",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par apresenta corretamente as duas construções com 'possível'?",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q3453",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par mostra o contraste entre sujeito genérico e sujeito determinado?",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q3454",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase segue a concordância tradicional das cores?",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q3455",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'blusas de seda' e 'relatórios de auditoria', as expressões preposicionadas",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q3456",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao substituir 'Havia falhas e existiam soluções' por uma estrutura equivalente, a concordância correta é",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q3457",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Diante de possível erro de concordância verbal, o primeiro procedimento seguro é",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q3458",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A delimitação correta deste assunto é",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q3459",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “A adoção de ferramentas digitais exige planejamento contínuo”, qual termo controla a flexão de “exige”?",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q3460",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A relação dos processos pendentes foi atualizada”, a substituição de “foi” por “foram” seria",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q3461",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “Isso implica compreender que a adoção de IA exige formação adequada”, “exige” concorda com",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q3462",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere: “A carga de informações que circulam nos sistemas aumentou”. A forma “aumentou” está no singular porque",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q3463",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Os dados da auditoria indicam inconsistências”, qual reescrita preserva a concordância?",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q3464",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “A maioria dos documentos foi conferida”, a forma “foi”",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q3465",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “As medidas consideradas urgentes foram adotadas”, o termo “urgentes” concorda com",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q3466",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “A análise dos riscos e das oportunidades revelou falhas”, o sujeito do verbo “revelou” é",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q3467",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A equipe que revisou os atos apresentou o relatório”, “apresentou” concorda com",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q3468",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere: “Foram consideradas válidas a ata e a certidão”. A flexão de “válidas” decorre da concordância com",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q3469",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O aparecimento de novas falhas indica deficiência de controle”, o verbo deve permanecer no singular porque",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q3470",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na reescrita “A provisão de recursos e equipamentos era insuficiente”, a forma “era”",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q3471",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta a forma segura com sujeito composto anteposto?",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q3472",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Chegou o relatório e a planilha”, o singular pode ser explicado como",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q3473",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “O presidente, com os conselheiros, aprovou a minuta”, o singular indica que",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q3474",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O presidente com os conselheiros aprovaram a minuta”, o plural é possível quando",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q3475",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a construção adequada para exclusão real com “ou”.",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q3476",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O descuido ou a fraude podem causar dano”, o plural sinaliza que",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q3477",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase respeita o padrão editorial mais seguro para “nem um nem outro”?",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q3478",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A falha, o erro, a omissão reiterada comprometia o controle”, o singular é justificável porque",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q3479",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “Ler e escrever exige concentração”, o singular apresenta",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q3480",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual opção realça ações autônomas e, por isso, favorece o plural?",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q3481",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Cada um dos processos foi revisado”, o singular decorre do núcleo",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q3482",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma adequada.",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q3483",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A maioria dos servidores faltou/faltaram”, as duas formas podem ser aceitas porque",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q3484",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase segue a concordância prototípica de “mais de um”?",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q3485",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Mais de um gestor se acusaram mutuamente”, o plural é explicado pela",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q3486",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a concordância adequada com fração.",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q3487",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sem especificador, em “30% faltaram”, o plural acompanha",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q3488",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “30% da verba foi contingenciada”, o singular é motivado pela concordância com",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q3489",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção é adequada?",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q3490",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Dois milhões de pessoas participaram”, o plural decorre de",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q3491",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção adequada com “um total de”.",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q3492",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Zero ocorrências foram registradas”, a concordância é adequada porque",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q3493",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Fomos nós que redigimos o parecer”, a forma “redigimos” concorda com",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q3494",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase está de acordo com as possibilidades registradas para “quem”?",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q3495",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na redação formal, a forma preferida é",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q3496",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a concordância adequada com pronome de tratamento dirigido a uma mulher.",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q3497",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção é prototípica com nome próprio precedido de artigo plural?",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q3498",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Memórias Póstumas de Brás Cubas é uma obra de Machado de Assis”, o singular se justifica por",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q3499",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Quais de nós seremos convocados?”, a primeira pessoa do plural é",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q3500",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “captura de gases, que ajuda a reduzir emissões”, a forma singular “ajuda” deve concordar com",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q3501",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma adequada com “haver” existencial.",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q3502",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao substituir “Há alternativas” por uma forma de “existir”, a redação correta é",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q3503",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase emprega corretamente “fazer” temporal?",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q3504",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Publicaram-se os editais”, o plural é exigido porque",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q3505",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma adequada com índice de indeterminação do sujeito.",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q3506",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Vendem-se imóveis”, a transformação adequada é",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q3507",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção normativa expressa necessidade de revisão dos procedimentos?",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q3508",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Pode-se recorrer da decisão”, o singular se deve a",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q3509",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na cadeia “A ata e o parecer tinham sido aprovados”, quais relações estão corretas?",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q3510",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Tenham sido desenvolvidos o aparelhamento e as atividades”, o plural de “tenham” e “desenvolvidos”",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q3511",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma correta.",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q3512",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Isso são dificuldades previsíveis”, o plural de “são” é explicado pela",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q3513",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual expressão segue o padrão editorial recomendado?",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q3514",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Havia estudado os relatórios”, a forma “havia”",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q3515",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “É necessário que os dados sejam conferidos”, o predicativo fica no singular porque",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q3516",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare “É necessária a conferência” e “É necessário conferir”. A diferença de concordância decorre de",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q3517",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “Aos gestores cabe revisar os controles”, “cabe” permanece no singular porque",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q3518",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma adequada com sujeito expresso do infinitivo.",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q3519",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Os gestores devem revisar os controles”, a forma “revisar”",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q3520",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase apresenta concordância adequada com sujeito oracional?",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q3521",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Convém revisar as planilhas”, a proximidade de “planilhas”",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q3522",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção destaca duas ações autônomas?",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q3523",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a concordância nominal adequada.",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q3524",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase usa corretamente a locução invariável?",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q3525",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A ata e o relatório estavam prontos”, o masculino plural de “prontos”",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q3526",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção em que o adjetivo anteposto concorda por proximidade.",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q3527",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção apresenta cadeia predicativa correta?",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q3528",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Os fiscais ficaram sós”, “sós” significa",
       "options": [
         {
@@ -3775,6 +3905,7 @@
     {
       "id": "q3529",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase adequada.",
       "options": [
         {
@@ -3804,6 +3935,7 @@
     {
       "id": "q3530",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Havia bastantes razões”, “bastantes”",
       "options": [
         {
@@ -3833,6 +3965,7 @@
     {
       "id": "q3531",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma correta.",
       "options": [
         {
@@ -3862,6 +3995,7 @@
     {
       "id": "q3532",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual frase está correta quanto a “possível”?",
       "options": [
         {
@@ -3891,6 +4025,7 @@
     {
       "id": "q3533",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a construção adequada com particípio anteposto.",
       "options": [
         {
@@ -3920,6 +4055,7 @@
     {
       "id": "q3534",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Todos compareceram, salvo as servidoras dispensadas”, “salvo”",
       "options": [
         {
@@ -3949,6 +4085,7 @@
     {
       "id": "q3535",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma adequada.",
       "options": [
         {
@@ -3978,6 +4115,7 @@
     {
       "id": "q3536",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual construção emprega “alerta” como adjetivo pleno variável?",
       "options": [
         {
@@ -4007,6 +4145,7 @@
     {
       "id": "q3537",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a forma correta com “menos”.",
       "options": [
         {
@@ -4036,6 +4175,7 @@
     {
       "id": "q3538",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “crime de lesa-administração”, a forma “lesa”",
       "options": [
         {

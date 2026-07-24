@@ -5,6 +5,7 @@
     {
       "id": "q3039",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sistema de TD&E, a aprendizagem corresponde principalmente",
       "options": [
         { "id": "A", "text": "ao catálogo de ações oferecido pela organização." },
@@ -18,6 +19,7 @@
     {
       "id": "q3040",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma distinção usual entre treinamento e desenvolvimento, o treinamento tende a",
       "options": [
         { "id": "A", "text": "abranger toda a formação social e cidadã da pessoa." },
@@ -31,6 +33,7 @@
     {
       "id": "q3041",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O desenvolvimento de pessoas caracteriza-se por",
       "options": [
         { "id": "A", "text": "ter alcance amplo e preparar para mudanças, responsabilidades futuras e novas capacidades." },
@@ -44,6 +47,7 @@
     {
       "id": "q3042",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No campo de TD&E, educação é compreendida como",
       "options": [
         { "id": "A", "text": "sinônimo estrito de treinamento para a tarefa atual." },
@@ -57,6 +61,7 @@
     {
       "id": "q3043",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um processo consistente de capacitação deve começar por",
       "options": [
         { "id": "A", "text": "analisar estratégia, trabalho, pessoas e contexto para identificar necessidades." },
@@ -70,6 +75,7 @@
     {
       "id": "q3044",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O levantamento de necessidades de treinamento busca",
       "options": [
         { "id": "A", "text": "converter preferências individuais em inscrições automáticas." },
@@ -83,6 +89,7 @@
     {
       "id": "q3045",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A manifestação de interesse de muitos servidores por determinado curso",
       "options": [
         { "id": "A", "text": "comprova que existe lacuna de competência crítica." },
@@ -96,6 +103,7 @@
     {
       "id": "q3046",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No nível organizacional do LNT, examinam-se principalmente",
       "options": [
         { "id": "A", "text": "missão, estratégia, riscos, indicadores e mudanças do ambiente." },
@@ -109,6 +117,7 @@
     {
       "id": "q3047",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A análise ocupacional ou de tarefas procura identificar",
       "options": [
         { "id": "A", "text": "atividades, padrões, responsabilidades e competências exigidos pelo trabalho." },
@@ -122,6 +131,7 @@
     {
       "id": "q3048",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na análise individual de necessidades, deve-se",
       "options": [
         { "id": "A", "text": "presumir que toda nota baixa decorre de falta de conhecimento." },
@@ -135,6 +145,7 @@
     {
       "id": "q3049",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As classificações macro, meso e micro do LNT correspondem usualmente",
       "options": [
         { "id": "A", "text": "a reação, aprendizagem e comportamento." },
@@ -148,6 +159,7 @@
     {
       "id": "q3050",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A análise e a descrição de cargos contribuem para o LNT porque",
       "options": [
         { "id": "A", "text": "eliminam a necessidade de observar mudanças no trabalho." },
@@ -161,6 +173,7 @@
     {
       "id": "q3051",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação de desempenho, no levantamento de necessidades, deve ser tratada como",
       "options": [
         { "id": "A", "text": "prova conclusiva de que o problema é educacional." },
@@ -174,6 +187,7 @@
     {
       "id": "q3052",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Triangular dados no LNT significa",
       "options": [
         { "id": "A", "text": "combinar e confrontar fontes ou métodos para robustecer o diagnóstico." },
@@ -187,6 +201,7 @@
     {
       "id": "q3053",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A observação direta como método de LNT",
       "options": [
         { "id": "A", "text": "dispensa critérios de registro por ocorrer no trabalho real." },
@@ -200,6 +215,7 @@
     {
       "id": "q3054",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O uso de questionários para levantar necessidades apresenta como combinação típica",
       "options": [
         { "id": "A", "text": "alta profundidade causal e ausência de viés de resposta." },
@@ -213,6 +229,7 @@
     {
       "id": "q3055",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um bom resultado em teste ou simulação anterior à capacitação",
       "options": [
         { "id": "A", "text": "comprova que o desempenho no trabalho será equivalente." },
@@ -226,6 +243,7 @@
     {
       "id": "q3056",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes de prescrever treinamento para uma lacuna, é necessário",
       "options": [
         { "id": "A", "text": "calcular o ROI esperado independentemente da causa." },
@@ -239,6 +257,7 @@
     {
       "id": "q3057",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma equipe conhece o procedimento, mas o sistema não disponibiliza o campo obrigatório. A intervenção principal deve",
       "options": [
         { "id": "A", "text": "aumentar a carga horária do treinamento." },
@@ -252,6 +271,7 @@
     {
       "id": "q3058",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando uma lacuna combina desconhecimento do procedimento e fluxo de trabalho ambíguo, recomenda-se",
       "options": [
         { "id": "A", "text": "adotar apenas a solução de menor custo." },
@@ -265,6 +285,7 @@
     {
       "id": "q3059",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A priorização de necessidades de desenvolvimento pode considerar",
       "options": [
         { "id": "A", "text": "somente o número de pessoas interessadas." },
@@ -278,6 +299,7 @@
     {
       "id": "q3060",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma necessidade de capacitação está descrita de forma mais útil quando registra",
       "options": [
         { "id": "A", "text": "o desempenho necessário, o contexto e a entrega esperada, antes de fixar o nome do curso." },
@@ -291,6 +313,7 @@
     {
       "id": "q3061",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na programação de uma ação de capacitação, devem ser articulados",
       "options": [
         { "id": "A", "text": "somente conteúdo, carga horária e instrutor." },
@@ -304,6 +327,7 @@
     {
       "id": "q3062",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um objetivo instrucional bem formulado tende a explicitar",
       "options": [
         { "id": "A", "text": "a satisfação esperada do participante." },
@@ -317,6 +341,7 @@
     {
       "id": "q3063",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A formulação “compreender o procedimento” é insuficiente como objetivo quando",
       "options": [
         { "id": "A", "text": "não indica qual desempenho evidenciará a compreensão nem o padrão esperado." },
@@ -330,6 +355,7 @@
     {
       "id": "q3064",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para desenvolver julgamento em situações complexas, tende a ser adequado utilizar",
       "options": [
         { "id": "A", "text": "exposição seguida apenas de teste de recordação dos conceitos." },
@@ -343,6 +369,7 @@
     {
       "id": "q3065",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para ensinar a execução de um procedimento técnico, uma combinação coerente é",
       "options": [
         { "id": "A", "text": "palestra motivacional e pesquisa de reação." },
@@ -356,6 +383,7 @@
     {
       "id": "q3066",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Presencial, remoto síncrono, assíncrono e híbrido são principalmente",
       "options": [
         { "id": "A", "text": "níveis de avaliação de resultados." },
@@ -369,6 +397,7 @@
     {
       "id": "q3067",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Mentoria e aprendizagem no trabalho são especialmente úteis quando se pretende",
       "options": [
         { "id": "A", "text": "eliminar a necessidade de prática." },
@@ -382,6 +411,7 @@
     {
       "id": "q3068",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo ADDIE, a fase Analysis abrange",
       "options": [
         { "id": "A", "text": "somente a correção do material já ofertado." },
@@ -395,6 +425,7 @@
     {
       "id": "q3069",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na fase Design do ADDIE, definem-se principalmente",
       "options": [
         { "id": "A", "text": "contratos e inscrições, sem tratar objetivos." },
@@ -408,6 +439,7 @@
     {
       "id": "q3070",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A fase Development do ADDIE concentra-se em",
       "options": [
         { "id": "A", "text": "autorizar progressões funcionais." },
@@ -421,6 +453,7 @@
     {
       "id": "q3071",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No ADDIE, Implementation corresponde",
       "options": [
         { "id": "A", "text": "à preparação e oferta da solução aos participantes." },
@@ -434,6 +467,7 @@
     {
       "id": "q3072",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Evaluation no ADDIE",
       "options": [
         { "id": "A", "text": "ocorre apenas após o encerramento da ação." },
@@ -447,6 +481,7 @@
     {
       "id": "q3073",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A execução de uma ação de capacitação inclui",
       "options": [
         { "id": "A", "text": "preparar ambiente e facilitadores, assegurar acessibilidade, oferecer suporte e acompanhar a realização." },
@@ -460,6 +495,7 @@
     {
       "id": "q3074",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frequência e a emissão de certificado demonstram diretamente",
       "options": [
         { "id": "A", "text": "mudança sustentada no comportamento de trabalho." },
@@ -473,6 +509,7 @@
     {
       "id": "q3075",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Transferência de aprendizagem é",
       "options": [
         { "id": "A", "text": "a satisfação imediata com o curso." },
@@ -486,6 +523,7 @@
     {
       "id": "q3076",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Favorece a transferência da aprendizagem",
       "options": [
         { "id": "A", "text": "a disponibilização de material de apoio sem oportunidade real de uso." },
@@ -499,6 +537,7 @@
     {
       "id": "q3077",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se o participante aprende em simulação, mas a chefia proíbe o novo procedimento, conclui-se que",
       "options": [
         { "id": "A", "text": "a aprendizagem necessariamente foi insuficiente." },
@@ -512,6 +551,7 @@
     {
       "id": "q3078",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação diagnóstica é usada predominantemente para",
       "options": [
         { "id": "A", "text": "identificar repertório prévio, lacunas e condições de entrada antes da ação." },
@@ -525,6 +565,7 @@
     {
       "id": "q3079",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação formativa caracteriza-se por",
       "options": [
         { "id": "A", "text": "ocorrer somente para prestação de contas final." },
@@ -538,6 +579,7 @@
     {
       "id": "q3080",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação somativa tem como função predominante",
       "options": [
         { "id": "A", "text": "identificar apenas preferências antes do curso." },
@@ -551,6 +593,7 @@
     {
       "id": "q3081",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação diagnóstica aplicada a uma turma difere do LNT completo porque",
       "options": [
         { "id": "A", "text": "o LNT não utiliza dados individuais." },
@@ -564,6 +607,7 @@
     {
       "id": "q3082",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um plano de avaliação deve ser elaborado preferencialmente",
       "options": [
         { "id": "A", "text": "antes da execução, com perguntas, linha de base, indicadores, fontes, momentos e uso dos dados." },
@@ -577,6 +621,7 @@
     {
       "id": "q3083",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo clássico de Kirkpatrick, o nível reação avalia",
       "options": [
         { "id": "A", "text": "impactos sociais de longo prazo." },
@@ -590,6 +635,7 @@
     {
       "id": "q3084",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No segundo nível de Kirkpatrick, examina-se",
       "options": [
         { "id": "A", "text": "a satisfação com instalações e instrutor." },
@@ -603,6 +649,7 @@
     {
       "id": "q3085",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O nível comportamento de Kirkpatrick procura verificar",
       "options": [
         { "id": "A", "text": "se os participantes gostaram da modalidade." },
@@ -616,6 +663,7 @@
     {
       "id": "q3086",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No nível resultados de Kirkpatrick, o foco recai sobre",
       "options": [
         { "id": "A", "text": "efeitos organizacionais pretendidos associados ao programa." },
@@ -629,6 +677,7 @@
     {
       "id": "q3087",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma reação muito favorável dos participantes permite concluir que",
       "options": [
         { "id": "A", "text": "a aprendizagem e a transferência foram comprovadas." },
@@ -642,6 +691,7 @@
     {
       "id": "q3088",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após uma capacitação, a qualidade melhora ao mesmo tempo que novo sistema automatiza parte do trabalho. A avaliação deve",
       "options": [
         { "id": "A", "text": "atribuir toda a melhora ao curso por ter ocorrido depois dele." },
@@ -655,6 +705,7 @@
     {
       "id": "q3089",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo CIPP, Context refere-se a",
       "options": [
         { "id": "A", "text": "necessidades, problemas, oportunidades e prioridades que justificam o programa." },
@@ -668,6 +719,7 @@
     {
       "id": "q3090",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No CIPP, a correspondência correta é",
       "options": [
         { "id": "A", "text": "Input = reação; Process = aprendizagem; Product = comportamento." },
@@ -681,6 +733,7 @@
     {
       "id": "q3091",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O modelo CIPP evidencia que a avaliação",
       "options": [
         { "id": "A", "text": "deve ocorrer apenas quando todos os produtos estiverem concluídos." },
@@ -694,6 +747,7 @@
     {
       "id": "q3092",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na abordagem de Phillips, o ROI percentual é calculado pela razão entre",
       "options": [
         { "id": "A", "text": "benefícios totais e número de participantes." },
@@ -707,6 +761,7 @@
     {
       "id": "q3093",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma avaliação responsável de ROI requer",
       "options": [
         { "id": "A", "text": "custos completos, monetização defensável e tentativa de isolar a contribuição do programa." },
@@ -720,6 +775,7 @@
     {
       "id": "q3094",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É correto afirmar que o ROI",
       "options": [
         { "id": "A", "text": "é o quinto nível original do modelo clássico de Kirkpatrick." },
@@ -733,6 +789,7 @@
     {
       "id": "q3095",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em avaliação de capacitação, eficiência refere-se",
       "options": [
         { "id": "A", "text": "à relação entre recursos empregados e produtos gerados." },
@@ -746,6 +803,7 @@
     {
       "id": "q3096",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma ação alcançou a meta de aprendizagem definida, embora tenha custado mais que o previsto. Ela foi",
       "options": [
         { "id": "A", "text": "necessariamente efetiva, pois toda aprendizagem muda a instituição." },
@@ -759,6 +817,7 @@
     {
       "id": "q3097",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A efetividade de uma capacitação pública está relacionada",
       "options": [
         { "id": "A", "text": "somente à redução do custo por vaga." },
@@ -772,6 +831,7 @@
     {
       "id": "q3098",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao usar o Decreto nº 9.991/2019 e a PNDP como referência para estudar capacitação no TCE-MA, é correto",
       "options": [
         { "id": "A", "text": "transpor o PDP e o relatório anual porque o alinhamento estratégico torna a norma nacional." },

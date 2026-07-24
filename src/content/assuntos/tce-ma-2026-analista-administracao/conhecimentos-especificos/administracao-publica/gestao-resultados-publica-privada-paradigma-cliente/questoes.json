@@ -5,6 +5,7 @@
     {
       "id": "q834",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na cadeia de produção de um serviço público, o número de requerimentos validamente decididos constitui, em regra, indicador de",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q835",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale o exemplo que melhor representa resultado, e não mero produto, de um programa de proteção social.",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q836",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto à atribuição de resultados na gestão pública, é correto afirmar que",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q837",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma compra pelo menor preço nominal, mas com material que falha rapidamente e eleva o custo total, demonstra que",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q838",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A dimensão que relaciona produtos válidos entregues aos recursos consumidos é denominada",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q839",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade gastou R$ 240.000,00 para produzir 800 decisões válidas. Seu custo unitário foi de",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q840",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma equipe entregou 900 documentos diante de uma meta de 1.000. O cumprimento da meta foi de",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q841",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A redução comprovada da reincidência após uma política de reinserção social é evidência predominantemente de",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q842",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O tempo médio de atendimento melhorou, mas regiões remotas e pessoas sem acesso digital continuaram com demora muito superior. A dimensão que mais diretamente exige examinar essa distribuição é",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q843",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na expressão “reduzir o prazo mediano de decisão de 45 para 30 dias até dezembro de 2026”, o valor de 45 dias é",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q844",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a relação correta entre objetivo, indicador e meta.",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q845",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre benchmark, assinale a afirmativa correta.",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q846",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um indicador antecedente ou leading caracteriza-se por",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q847",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A quantidade de pessoas capacitadas é produto para uma escola de governo, mas pode ser esforço para o órgão que pretende melhorar atendimento. Isso demonstra que",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q848",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual elemento integra uma ficha técnica adequada de indicador?",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q849",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o referencial estudado, um bom indicador deve apresentar, entre outros atributos,",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q850",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Acompanhar continuamente execução, tendências e alertas para corrigir rumos durante o ciclo corresponde a",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q851",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma avaliação de implementação busca principalmente",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q852",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um ciclo consistente de gestão de resultados, após monitorar e avaliar, a organização deve",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q853",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A ampliação de autonomia gerencial em um modelo orientado a resultados deve ser acompanhada de",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q854",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre acordos ou pactos de resultados, assinale a afirmativa correta.",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q855",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A chamada lei de Goodhart alerta que",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q856",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual prática reduz o risco de gaming em sistemas de desempenho?",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q857",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É uma convergência entre organizações públicas e privadas o uso de",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q858",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diferença central entre gestão pública e privada reside",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q859",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na administração pública, a noção de sucesso deve combinar",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q860",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a afirmativa correta sobre diferenças entre os setores público e privado.",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q861",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A delegação da execução de um serviço público a particular",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q862",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O paradigma burocrático, em sua formulação típica, enfatiza",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q863",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre as ênfases associadas à Nova Gestão Pública — NPM encontra-se",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q864",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao GesPública, é correto afirmar que",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q865",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O principal ganho do paradigma do cliente na gestão pública é",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q866",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Cidadão diferencia-se da metáfora de cliente porque",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q867",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "De acordo com a Lei nº 13.460/2017, usuário é",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q868",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Constitui limite correto à metáfora do cliente na gestão pública:",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q869",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Lei nº 13.460/2017 estabelece normas básicas sobre direitos dos usuários aplicáveis",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q870",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos termos da Lei nº 13.460/2017, não integra expressamente o conjunto de características do serviço adequado do art. 4º a",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q871",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É dever do usuário de serviço público, conforme a Lei nº 13.460/2017,",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q872",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Carta de Serviços ao Usuário deve",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q873",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A decisão administrativa final sobre manifestação do usuário deve ser encaminhada, em regra, no prazo de",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q874",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A ouvidoria pública, no sistema de proteção ao usuário, deve",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q875",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto aos conselhos de usuários de serviços públicos, assinale a afirmativa correta.",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q876",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação continuada dos serviços públicos prevista na Lei nº 13.460/2017 deve ser realizada",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q877",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre satisfação do usuário, assinale a afirmativa correta.",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q878",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Lei nº 13.726/2018 orienta a Administração a",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q879",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Decreto nº 9.094/2017 aplica-se diretamente",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q880",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No desenho de serviços públicos, simplificar significa",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q881",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um órgão reduziu pela metade o prazo médio e elevou o volume, mas aumentou decisões reformadas e piorou a desigualdade territorial. A conclusão mais adequada é",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q882",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para avaliar um serviço de concessão de licenças de forma balanceada, a melhor cesta é",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q883",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A gestão orientada a resultados na produção de serviços públicos",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q884",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em um modelo de gestão pública orientado a resultados, qual combinação melhor representa o núcleo do sistema?",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q885",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A gestão de resultados na produção de serviços públicos deve ser compreendida como um ciclo que",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q886",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em contrato ou pacto de resultados, a busca de eficiência",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q887",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A incorporação da gestão por resultados à reforma gerencial brasileira associou-se, em regra, a",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q888",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual afirmação expressa adequadamente a contribuição da gestão por resultados para a administração pública?",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q889",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na provisão de serviços públicos orientada a resultados, parcerias podem ser relevantes porque",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q890",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A respeito dos controles na gestão por resultados, assinale a opção correta.",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q891",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A gestão de resultados pode favorecer inovação quando",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q892",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O principal objetivo da gestão por resultados na prestação de serviços públicos é",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q893",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A gestão por resultados em políticas públicas caracteriza-se por",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q894",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Gerar valor público em gestão por resultados requer",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q895",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em um sistema de gestão por resultados, o mapeamento de processos",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q896",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A pactuação de desempenho na administração pública deve",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q897",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um órgão reduziu o prazo médio excluindo processos antigos do cálculo e transferindo casos complexos para outra unidade. Essa situação exemplifica",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q898",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual desenho de acordo de resultados reduz o risco de ritualismo?",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q899",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No modelo dos 6Es do desempenho, pertencem à dimensão de esforço",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q900",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A afirmação de que eficiência, eficácia e efetividade são dimensões de esforço é",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q901",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo dos 6Es, excelência refere-se principalmente à",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q902",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma compra pública de menor preço, mas que chega atrasada e falha rapidamente, indica",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q903",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo dos 6Es, execução mede",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q904",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma unidade entregou o dobro de decisões válidas com os mesmos recursos. Mantidas as demais condições, houve melhora de",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q905",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Comparar a situação final de um público com sua linha de base",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q906",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Monitoramento e avaliação diferenciam-se porque",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q907",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A avaliação somativa tende a",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q908",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para estimar o impacto causal de um programa, é especialmente importante",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q909",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual prática melhora a auditabilidade de um indicador?",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q910",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando poucos casos muito antigos distorcem o prazo médio, uma medida complementar útil é",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q911",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual é um exemplo de indicador antecedente?",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q912",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Benchmark deve ser utilizado como",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q913",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um indicador médio melhora, mas piora para pessoas com deficiência e regiões remotas. A conclusão adequada é",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q914",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Organizações públicas e privadas convergem porque ambas",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q915",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A principal diferença entre legalidade pública e autonomia privada consiste em que",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q916",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na gestão pública, eficiência e eficácia relacionam-se primordialmente",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q917",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a distinção estrutural correta entre gestão pública e privada.",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q918",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A afirmação de que a gestão pública não busca eficiência porque deve obedecer à legalidade é",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q919",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Sobre medidas de sucesso nos setores público e privado, é correto afirmar que",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q920",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma diferença relevante do serviço público é que ele pode estar sujeito a",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q921",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual afirmação evita generalização indevida?",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q922",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A accountability pública tende a ser mais plural porque envolve",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q923",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Ferramentas originadas na gestão privada",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q924",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O paradigma do cliente na gestão pública desloca o foco para",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q925",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Compreender cidadãos como usuários dos serviços públicos exige das organizações",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q926",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Ter foco no usuário-cliente",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q927",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A metáfora do usuário-cliente tende a",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q928",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Tratar o cidadão como cliente na administração pública significa",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q929",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "No Estado de bem-estar, a orientação ao cidadão-cliente",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q930",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Segundo a Lei nº 13.460/2017, a Carta de Serviços deve informar, entre outros elementos,",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q931",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A Lei nº 13.460/2017",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q932",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Os conselhos de usuários previstos na Lei nº 13.460/2017 são",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q933",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Sobre ouvidorias e manifestações de usuários, assinale a opção correta.",
       "options": [
         {

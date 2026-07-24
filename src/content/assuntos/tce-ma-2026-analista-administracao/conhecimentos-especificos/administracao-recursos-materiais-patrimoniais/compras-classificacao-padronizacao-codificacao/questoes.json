@@ -5,6 +5,7 @@
     {
       "id": "q1284",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A função compras alcança seu objetivo gerencial quando",
       "options": [
         {"id": "a", "text": "obtém solução adequada em quantidade, qualidade, prazo, local, fonte e custo total compatíveis"},
@@ -19,6 +20,7 @@
     {
       "id": "q1285",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na gestão de compras, a formalização da demanda deve primariamente",
       "options": [
         {"id": "a", "text": "declarar antecipadamente o fornecedor vencedor"},
@@ -33,6 +35,7 @@
     {
       "id": "q1286",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma especificação adequada de material",
       "options": [
         {"id": "a", "text": "usa expressões vagas para ampliar qualquer interpretação possível"},
@@ -47,6 +50,7 @@
     {
       "id": "q1287",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A análise de mercado para uma compra deve",
       "options": [
         {"id": "a", "text": "limitar-se à média de três números sem verificar o objeto"},
@@ -61,6 +65,7 @@
     {
       "id": "q1288",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Follow-up, na função compras, corresponde a",
       "options": [
         {"id": "a", "text": "aceitar qualitativamente o material antes da entrega"},
@@ -75,6 +80,7 @@
     {
       "id": "q1289",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É vantagem potencial da centralização de compras",
       "options": [
         {"id": "a", "text": "consolidar demanda, obter escala e especializar a equipe"},
@@ -89,6 +95,7 @@
     {
       "id": "q1290",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A descentralização de compras pode favorecer",
       "options": [
         {"id": "a", "text": "uniformidade absoluta sem coordenação"},
@@ -103,6 +110,7 @@
     {
       "id": "q1291",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um modelo híbrido de compras tende a",
       "options": [
         {"id": "a", "text": "descentralizar todos os itens comuns e centralizar toda urgência local"},
@@ -117,6 +125,7 @@
     {
       "id": "q1292",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na comparação entre fazer internamente e comprar externamente, é correto",
       "options": [
         {"id": "a", "text": "tratar todo custo afundado como evitável"},
@@ -131,6 +140,7 @@
     {
       "id": "q1293",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao avaliar o custo total de uma aquisição, deve-se",
       "options": [
         {"id": "a", "text": "excluir transporte e manutenção por não integrarem o preço unitário"},
@@ -145,6 +155,7 @@
     {
       "id": "q1294",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos termos do art. 6º, X, da Lei nº 14.133/2021, compra é",
       "options": [
         {"id": "a", "text": "aquisição remunerada de bens para fornecimento de uma só vez ou parceladamente"},
@@ -159,6 +170,7 @@
     {
       "id": "q1295",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Lei nº 14.133/2021 considera imediata a compra cujo prazo de entrega seja",
       "options": [
         {"id": "a", "text": "de até cinco dias da assinatura do edital"},
@@ -173,6 +185,7 @@
     {
       "id": "q1296",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Conforme o art. 18 da Lei nº 14.133/2021, o estudo técnico preliminar deve",
       "options": [
         {"id": "a", "text": "partir da marca desejada, sem descrever o problema"},
@@ -187,6 +200,7 @@
     {
       "id": "q1297",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os princípios que o art. 40 da Lei nº 14.133/2021 manda observar no planejamento de compras estão",
       "options": [
         {"id": "a", "text": "sigilo, exclusividade e maior estoque"},
@@ -201,6 +215,7 @@
     {
       "id": "q1298",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 40, § 1º, I, a especificação do produto deve",
       "options": [
         {"id": "a", "text": "omitir segurança para ampliar a competição"},
@@ -215,6 +230,7 @@
     {
       "id": "q1299",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A indicação de marca ou modelo em licitação de bens pode ocorrer",
       "options": [
         {"id": "a", "text": "excepcionalmente e com justificativa formal nas hipóteses do art. 41"},
@@ -229,6 +245,7 @@
     {
       "id": "q1300",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando uma amostra é exigida na fase de julgamento das propostas, o art. 41 determina que a exigência se restrinja",
       "options": [
         {"id": "a", "text": "a todos os interessados antes da publicação do edital"},
@@ -243,6 +260,7 @@
     {
       "id": "q1301",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na aplicação do parcelamento às compras, deve-se considerar",
       "options": [
         {"id": "a", "text": "apenas a divisão pelo maior número possível de lotes"},
@@ -257,6 +275,7 @@
     {
       "id": "q1302",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O parcelamento pode ser afastado quando",
       "options": [
         {"id": "a", "text": "qualquer unidade preferir um único fornecedor sem análise"},
@@ -271,6 +290,7 @@
     {
       "id": "q1303",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O processo de padronização do art. 43 deve conter",
       "options": [
         {"id": "a", "text": "somente a marca escolhida pelo usuário"},
@@ -285,6 +305,7 @@
     {
       "id": "q1304",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A adoção da padronização realizada por outro órgão",
       "options": [
         {"id": "a", "text": "é admitida nos limites legais, com motivação, análise da necessidade e dos riscos e divulgação"},
@@ -299,6 +320,7 @@
     {
       "id": "q1305",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando compra e locação de um bem forem possibilidades reais, o art. 44 exige",
       "options": [
         {"id": "a", "text": "preferência obrigatória pela compra"},
@@ -313,6 +335,7 @@
     {
       "id": "q1306",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O catálogo eletrônico de padronização definido no art. 6º, LI, é",
       "options": [
         {"id": "a", "text": "o número individual de patrimônio do bem"},
@@ -327,6 +350,7 @@
     {
       "id": "q1307",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos termos do art. 19, § 2º, a não utilização do catálogo eletrônico ou dos modelos padronizados previstos no artigo",
       "options": [
         {"id": "a", "text": "é livre e nunca precisa ser registrada"},
@@ -341,6 +365,7 @@
     {
       "id": "q1308",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um requisito de sustentabilidade em compra pública deve",
       "options": [
         {"id": "a", "text": "ser copiado de qualquer edital, ainda que alheio ao objeto"},
@@ -355,6 +380,7 @@
     {
       "id": "q1309",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Classificar materiais significa",
       "options": [
         {"id": "a", "text": "agrupá-los segundo critérios escolhidos para uma finalidade de gestão"},
@@ -369,6 +395,7 @@
     {
       "id": "q1310",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre os critérios de classificação de um mesmo material, é correto afirmar que",
       "options": [
         {"id": "a", "text": "apenas uma classificação pode existir por item"},
@@ -383,6 +410,7 @@
     {
       "id": "q1311",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um sistema de classificação tecnicamente útil tende a ser",
       "options": [
         {"id": "a", "text": "rígido, secreto e incapaz de incluir item novo"},
@@ -397,6 +425,7 @@
     {
       "id": "q1312",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na sequência didática comum das etapas de classificação, a ordem é",
       "options": [
         {"id": "a", "text": "codificação, alienação, recebimento, simplificação, baixa e inventário"},
@@ -411,6 +440,7 @@
     {
       "id": "q1313",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Catalogação é a atividade de",
       "options": [
         {"id": "a", "text": "calcular o dígito verificador"},
@@ -425,6 +455,7 @@
     {
       "id": "q1314",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Simplificação de materiais procura",
       "options": [
         {"id": "a", "text": "reduzir variedades redundantes sem eliminar requisitos essenciais"},
@@ -439,6 +470,7 @@
     {
       "id": "q1315",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Especificação diferencia-se de codificação porque a primeira",
       "options": [
         {"id": "a", "text": "atribui apenas um símbolo sem descrever o item"},
@@ -453,6 +485,7 @@
     {
       "id": "q1316",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Normalização consiste principalmente em",
       "options": [
         {"id": "a", "text": "atribuir número patrimonial individual"},
@@ -467,6 +500,7 @@
     {
       "id": "q1317",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Padronização de materiais tem por finalidade",
       "options": [
         {"id": "a", "text": "eliminar a motivação técnica"},
@@ -481,6 +515,7 @@
     {
       "id": "q1318",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Codificação é",
       "options": [
         {"id": "a", "text": "a análise do custo do ciclo de vida"},
@@ -495,6 +530,7 @@
     {
       "id": "q1319",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para efeito de classificação da despesa, a Lei nº 4.320/1964 considera material permanente aquele que",
       "options": [
         {"id": "a", "text": "tem duração superior a dois anos"},
@@ -509,6 +545,7 @@
     {
       "id": "q1320",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a orientação do MCASP para distinguir material de consumo e permanente, é correto",
       "options": [
         {"id": "a", "text": "usar exclusivamente o preço de aquisição"},
@@ -523,6 +560,7 @@
     {
       "id": "q1321",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Decreto nº 10.818/2021",
       "options": [
         {"id": "a", "text": "cria regra automática de tombamento para todos os entes"},
@@ -537,6 +575,7 @@
     {
       "id": "q1322",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A classificação de um material como estocável",
       "options": [
         {"id": "a", "text": "prova que ele é permanente"},
@@ -551,6 +590,7 @@
     {
       "id": "q1323",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A criticidade de um material mede principalmente",
       "options": [
         {"id": "a", "text": "seu preço unitário"},
@@ -565,6 +605,7 @@
     {
       "id": "q1324",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Perecibilidade e periculosidade distinguem-se porque",
       "options": [
         {"id": "a", "text": "a primeira trata da perda de condição pelo tempo, e a segunda, de riscos como toxicidade ou inflamabilidade"},
@@ -579,6 +620,7 @@
     {
       "id": "q1325",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "De acordo com a IN SLTI/MP nº 2/2011, o CATMAT abrange",
       "options": [
         {"id": "a", "text": "somente o tombamento de bens permanentes"},
@@ -593,6 +635,7 @@
     {
       "id": "q1326",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O CATSER destina-se à catalogação de",
       "options": [
         {"id": "a", "text": "bens patrimoniais individualizados"},
@@ -607,6 +650,7 @@
     {
       "id": "q1327",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No CADMAT/SIADS, o Padrão Descritivo de Material reúne",
       "options": [
         {"id": "a", "text": "o número de tombo e o responsável individual"},
@@ -621,6 +665,7 @@
     {
       "id": "q1328",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na estrutura de dois níveis do CADMAT, um item de material é formado",
       "options": [
         {"id": "a", "text": "somente pelo nome básico sem atributos"},
@@ -635,6 +680,7 @@
     {
       "id": "q1329",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na recomendação federal sobre CATMAT/CATSER atualizada em 3 de julho de 2026, o código genérico",
       "options": [
         {"id": "a", "text": "é excepcional, quando inexiste código adequado e não se consegue atender momentaneamente ao pedido de novo item"},
@@ -649,6 +695,7 @@
     {
       "id": "q1330",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "CATMAT e catálogo eletrônico de padronização",
       "options": [
         {"id": "a", "text": "são nomes legais do mesmo cadastro"},
@@ -663,6 +710,7 @@
     {
       "id": "q1331",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um código sequencial caracteriza-se por",
       "options": [
         {"id": "a", "text": "explicar todos os atributos do item em cada dígito"},
@@ -677,6 +725,7 @@
     {
       "id": "q1332",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O dígito verificador de um código",
       "options": [
         {"id": "a", "text": "define a classe de consumo ou permanente"},
@@ -691,6 +740,7 @@
     {
       "id": "q1333",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um período, 90 de 100 entregas avaliadas ocorreram no prazo definido. O indicador de entrega no prazo foi",
       "options": [
         {"id": "a", "text": "10%"},

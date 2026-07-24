@@ -5,6 +5,7 @@
     {
       "id": "q684",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um projeto caracteriza-se por ser",
       "options": [
         {"id": "a", "text": "uma operação contínua destinada a repetir indefinidamente a mesma entrega"},
@@ -19,6 +20,7 @@
     {
       "id": "q685",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No conceito de projeto, o atributo temporário significa que",
       "options": [
         {"id": "a", "text": "o trabalho deve durar menos de um ano"},
@@ -33,6 +35,7 @@
     {
       "id": "q686",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A gestão coordenada de projetos e atividades relacionados para obter benefícios indisponíveis pela gestão isolada define",
       "options": [
         {"id": "a", "text": "programa"},
@@ -47,6 +50,7 @@
     {
       "id": "q687",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre portfólios, é correto afirmar que",
       "options": [
         {"id": "a", "text": "todos os componentes precisam compartilhar a mesma entrega técnica"},
@@ -61,6 +65,7 @@
     {
       "id": "q688",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após um projeto implantar um novo portal, a manutenção diária e recorrente desse portal é classificada predominantemente como",
       "options": [
         {"id": "a", "text": "programa"},
@@ -75,6 +80,7 @@
     {
       "id": "q689",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um sistema de protocolo foi implantado e, após seu uso, o tempo mediano de atendimento caiu 30%. Nesse exemplo, o sistema implantado e a redução de prazo representam, respectivamente,",
       "options": [
         {"id": "a", "text": "benefício e pacote de trabalho"},
@@ -89,6 +95,7 @@
     {
       "id": "q690",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a associação correta entre instrumento e função.",
       "options": [
         {"id": "a", "text": "Business case — autorizar formalmente o gerente sem justificar o investimento"},
@@ -103,6 +110,7 @@
     {
       "id": "q691",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É responsabilidade predominante do patrocinador do projeto",
       "options": [
         {"id": "a", "text": "executar pessoalmente todas as atividades técnicas"},
@@ -117,6 +125,7 @@
     {
       "id": "q692",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "De acordo com o Decreto nº 9.203/2017, os mecanismos de governança pública são",
       "options": [
         {"id": "a", "text": "liderança, estratégia e controle"},
@@ -131,6 +140,7 @@
     {
       "id": "q693",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Constitui um dos seis princípios resumidos publicamente para o PMBOK Guide — 8ª edição",
       "options": [
         {"id": "a", "text": "eliminar toda adaptação ao contexto"},
@@ -145,6 +155,7 @@
     {
       "id": "q694",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O conjunto formado apenas pelos sete domínios de desempenho do PMBOK Guide — 8ª edição é",
       "options": [
         {"id": "a", "text": "governança, escopo, cronograma, finanças, partes interessadas, recursos e riscos"},
@@ -159,6 +170,7 @@
     {
       "id": "q695",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma questão que menciona expressamente o PMBOK Guide — 6ª edição pode associá-lo corretamente a",
       "options": [
         {"id": "a", "text": "seis princípios e sete domínios, sem áreas de conhecimento"},
@@ -173,6 +185,7 @@
     {
       "id": "q696",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A relação entre grupos de processos e fases do ciclo de vida é corretamente descrita em",
       "options": [
         {"id": "a", "text": "cada grupo corresponde necessariamente a uma única fase linear"},
@@ -187,6 +200,7 @@
     {
       "id": "q697",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma abordagem em que versões sucessivas refinam a solução e entregas utilizáveis são adicionadas gradualmente é",
       "options": [
         {"id": "a", "text": "somente preditiva"},
@@ -201,6 +215,7 @@
     {
       "id": "q698",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Tailoring em gestão de projetos consiste em",
       "options": [
         {"id": "a", "text": "adaptar conscientemente métodos, controles e artefatos ao contexto e aos riscos"},
@@ -215,6 +230,7 @@
     {
       "id": "q699",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na referência histórica do PMBOK Guide — 6ª edição, a linha de base do escopo reúne",
       "options": [
         {"id": "a", "text": "cronograma, orçamento e registro de riscos"},
@@ -229,6 +245,7 @@
     {
       "id": "q700",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Estrutura Analítica do Projeto — EAP é",
       "options": [
         {"id": "a", "text": "um gráfico de barras com datas de início e fim"},
@@ -243,6 +260,7 @@
     {
       "id": "q701",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A regra dos 100% aplicada à EAP recomenda que",
       "options": [
         {"id": "a", "text": "cada pacote dure exatamente cem horas"},
@@ -257,6 +275,7 @@
     {
       "id": "q702",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um cronograma, marco é",
       "options": [
         {"id": "a", "text": "evento significativo de duração zero"},
@@ -271,6 +290,7 @@
     {
       "id": "q703",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na relação término para início — TI, a atividade sucessora",
       "options": [
         {"id": "a", "text": "termina antes de a predecessora iniciar"},
@@ -285,6 +305,7 @@
     {
       "id": "q704",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma atividade possui estimativas PERT otimista de 4 dias, mais provável de 7 dias e pessimista de 16 dias. A duração esperada é",
       "options": [
         {"id": "a", "text": "7 dias"},
@@ -299,6 +320,7 @@
     {
       "id": "q705",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O caminho crítico de um projeto é",
       "options": [
         {"id": "a", "text": "o conjunto das atividades mais caras"},
@@ -313,6 +335,7 @@
     {
       "id": "q706",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Folga livre é o atraso que uma atividade pode sofrer sem",
       "options": [
         {"id": "a", "text": "aumentar seu custo real"},
@@ -327,6 +350,7 @@
     {
       "id": "q707",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A técnica de compressão que adiciona recursos a atividades críticas para reduzir sua duração é denominada",
       "options": [
         {"id": "a", "text": "crashing"},
@@ -341,6 +365,7 @@
     {
       "id": "q708",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fast tracking reduz o cronograma principalmente por",
       "options": [
         {"id": "a", "text": "excluir entregas sem aprovação"},
@@ -355,6 +380,7 @@
     {
       "id": "q709",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto às reservas de custos, é correto afirmar que",
       "options": [
         {"id": "a", "text": "contingência e reserva gerencial integram igualmente a linha de base"},
@@ -369,6 +395,7 @@
     {
       "id": "q710",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No gerenciamento do valor agregado, EV representa",
       "options": [
         {"id": "a", "text": "o custo efetivamente pago"},
@@ -383,6 +410,7 @@
     {
       "id": "q711",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma data de controle, EV = 100, AC = 125 e PV = 120. O projeto apresenta",
       "options": [
         {"id": "a", "text": "CV = 25 e CPI = 1,25, com custo favorável"},
@@ -397,6 +425,7 @@
     {
       "id": "q712",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se BAC = 1.000 e CPI = 0,80, e o desempenho atual de custos deve continuar, a estimativa na conclusão EAC é",
       "options": [
         {"id": "a", "text": "800"},
@@ -411,6 +440,7 @@
     {
       "id": "q713",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um equipamento com poucas funcionalidades atende integralmente aos requisitos definidos, sem defeitos. Isso demonstra que",
       "options": [
         {"id": "a", "text": "grau inferior implica necessariamente baixa qualidade"},
@@ -425,6 +455,7 @@
     {
       "id": "q714",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na matriz RACI, a letra A identifica quem",
       "options": [
         {"id": "a", "text": "apenas recebe informação"},
@@ -439,6 +470,7 @@
     {
       "id": "q715",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diferença entre gerenciar comunicações e engajar partes interessadas é que",
       "options": [
         {"id": "a", "text": "comunicações tratam do fluxo adequado de informação, enquanto engajamento busca participação, entendimento e apoio"},
@@ -453,6 +485,7 @@
     {
       "id": "q716",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma indisponibilidade prevista como possibilidade ocorre e interrompe o serviço. A partir da ocorrência, ela deve ser tratada principalmente como",
       "options": [
         {"id": "a", "text": "oportunidade"},
@@ -467,6 +500,7 @@
     {
       "id": "q717",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O conjunto que contém apenas respostas usuais a ameaças é",
       "options": [
         {"id": "a", "text": "explorar, melhorar, compartilhar e aceitar"},
@@ -481,6 +515,7 @@
     {
       "id": "q718",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando a equipe age para garantir que uma oportunidade ocorra e capturar seu benefício, a resposta é",
       "options": [
         {"id": "a", "text": "mitigar"},
@@ -495,6 +530,7 @@
     {
       "id": "q719",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um risco que permanece depois da implementação da resposta planejada é denominado",
       "options": [
         {"id": "a", "text": "risco residual"},
@@ -509,6 +545,7 @@
     {
       "id": "q720",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No controle integrado de mudanças, uma solicitação deve",
       "options": [
         {"id": "a", "text": "ser executada imediatamente antes da análise"},
@@ -523,6 +560,7 @@
     {
       "id": "q721",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em termos gerenciais gerais, contratos de preço fixo tendem a",
       "options": [
         {"id": "a", "text": "transferir maior risco de custo ao fornecedor quando o escopo está claro"},
@@ -537,6 +575,7 @@
     {
       "id": "q722",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos termos da Lei nº 14.133/2021, o Estudo Técnico Preliminar",
       "options": [
         {"id": "a", "text": "é sinônimo legal de termo de abertura do projeto"},
@@ -551,6 +590,7 @@
     {
       "id": "q723",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A matriz de riscos prevista na Lei nº 14.133/2021",
       "options": [
         {"id": "a", "text": "é cláusula contratual de alocação de riscos e não substitui a gestão completa dos riscos do projeto"},
@@ -565,6 +605,7 @@
     {
       "id": "q724",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Scrum Guide 2020 define Scrum como",
       "options": [
         {"id": "a", "text": "metodologia completa e prescritiva para qualquer trabalho"},
@@ -579,6 +620,7 @@
     {
       "id": "q725",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No Scrum, a responsabilidade de maximizar o valor e gerenciar eficazmente o Product Backlog pertence ao",
       "options": [
         {"id": "a", "text": "Scrum Master"},
@@ -593,6 +635,7 @@
     {
       "id": "q726",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Daily Scrum é",
       "options": [
         {"id": "a", "text": "evento de 15 minutos para Developers inspecionarem progresso à Meta da Sprint e adaptarem o plano"},
@@ -607,6 +650,7 @@
     {
       "id": "q727",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma Sprint de um mês, os timeboxes máximos de Sprint Planning, Sprint Review e Sprint Retrospective são, respectivamente,",
       "options": [
         {"id": "a", "text": "4 horas, 8 horas e 15 minutos"},
@@ -621,6 +665,7 @@
     {
       "id": "q728",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A associação correta entre artefato Scrum e compromisso é",
       "options": [
         {"id": "a", "text": "Product Backlog — Meta da Sprint"},
@@ -635,6 +680,7 @@
     {
       "id": "q729",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o Scrum Guide 2020, uma Sprint pode ser cancelada",
       "options": [
         {"id": "a", "text": "por qualquer Developer, a qualquer momento"},
@@ -649,6 +695,7 @@
     {
       "id": "q730",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No Scrum, refinamento do Product Backlog",
       "options": [
         {"id": "a", "text": "é um sexto evento formal obrigatório"},
@@ -663,6 +710,7 @@
     {
       "id": "q731",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O encerramento adequado de um projeto inclui",
       "options": [
         {"id": "a", "text": "somente interromper pagamentos"},
@@ -677,6 +725,7 @@
     {
       "id": "q732",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As lições aprendidas e o acompanhamento de benefícios devem ser tratados de modo que",
       "options": [
         {"id": "a", "text": "lições sejam registradas apenas no último dia e benefícios parem no encerramento"},
@@ -691,6 +740,7 @@
     {
       "id": "q733",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um projeto público de serviço digital, a solução foi entregue no prazo e no orçamento, mas permanece inacessível ao público-alvo e não reduz o tempo de atendimento. A avaliação correta é",
       "options": [
         {"id": "a", "text": "o projeto é necessariamente bem-sucedido porque cumpriu prazo e custo"},

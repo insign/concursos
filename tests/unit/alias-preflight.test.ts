@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import 'fake-indexeddb/auto';
-import type { QuestionSet } from '../../src/lib/content-schema';
+import type { QuestionSet, SyncQuestionSet } from '../../src/lib/content-schema';
 import {
   buildAnswerDocumentId,
   buildPreferencesDocumentId,
@@ -26,6 +26,7 @@ const questionSet: QuestionSet = {
     {
       id: 'q1',
       revision: 1,
+      origin: 'authorial',
       prompt: 'Q1',
       options: [
         { id: 'a', text: 'A' },
@@ -36,9 +37,13 @@ const questionSet: QuestionSet = {
     },
   ],
 };
+const syncQuestionSet: SyncQuestionSet = {
+  ...questionSet,
+  questions: questionSet.questions.map(({ origin: _origin, ...question }) => question),
+};
 const catalog = {
   schemaVersion: 1,
-  subjects: [{ contestStorageId: 'tse', subjectStorageId: 'portugues', questionSet }],
+  subjects: [{ contestStorageId: 'tse', subjectStorageId: 'portugues', questionSet: syncQuestionSet }],
 };
 const preferencesId = buildPreferencesDocumentId(profileId);
 const answerId = buildAnswerDocumentId(profileId, 'tse', 'portugues');

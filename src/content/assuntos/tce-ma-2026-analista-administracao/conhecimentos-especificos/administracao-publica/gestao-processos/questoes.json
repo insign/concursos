@@ -5,6 +5,7 @@
     {
       "id": "q584",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao analisar o atendimento de uma solicitação pública desde o protocolo até a entrega, qual definição melhor caracteriza o processo?",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q585",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um processo de concessão de licença, o requerimento é analisado com apoio de servidores, sistema e norma jurídica. A classificação correta é",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q586",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma unidade reduziu seu tempo interno, mas passou a enviar lotes maiores à unidade seguinte, aumentando a espera total do usuário. A análise adequada é",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q587",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a distinção correta entre processo e projeto.",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q588",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na arquitetura de processos, qual sequência representa uma decomposição do nível mais agregado ao mais detalhado?",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q589",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um processo de fiscalização entrega diretamente resultado relacionado à missão; a gestão de pessoas fornece capacidade; e a gestão estratégica coordena objetivos. Eles são, respectivamente,",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q590",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre gestão por processos e estrutura funcional, assinale a opção correta.",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q591",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual associação está correta?",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q592",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em relação a processo, modelo e instância, assinale a opção correta.",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q593",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No ciclo de BPM, qual sequência é coerente com o BPM CBOK?",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q594",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A relação correta entre AS IS, TO BE e transformação é",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q595",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a distinção didática mais adequada entre diagrama, mapa e modelo de processo.",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q596",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O SIPOC é mais útil para",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q597",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em BPMN, qual afirmação é correta?",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q598",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No BPMN, um gateway é usado principalmente para",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q599",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre pool e lane em BPMN, assinale a opção correta.",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q600",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O patrocinador e o proprietário do processo distinguem-se porque",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q601",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na matriz RACI, a associação correta é",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q602",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma etapa com capacidade menor que a demanda restringe a vazão do processo. Trata-se de",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q603",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quando demandas chegam de modo sustentado em ritmo superior à capacidade, tende a ocorrer",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q604",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Handoff é",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q605",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a opção correta sobre retrabalho.",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q606",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre lead time, touch time e cycle time, assinale a opção correta.",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q607",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um indicador local que recompensa apenas quantidade produzida pode",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q608",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual conjunto apresenta dimensões complementares de desempenho?",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q609",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na análise de valor, uma verificação legal obrigatória que não é percebida pelo usuário deve ser classificada como",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q610",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma aprovação duplicada sem fundamento de risco, legal ou gerencial é, em princípio,",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q611",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Padronização contribui para",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q612",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A simplificação de processos busca",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q613",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A automação de um processo mal desenhado pode",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q614",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Redesenho e reengenharia distinguem-se porque",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q615",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A análise de causa raiz deve",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q616",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual técnica é apropriada para priorizar propostas de melhoria considerando benefício e dificuldade?",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q617",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Benchmarking em gestão de processos deve ser entendido como",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q618",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A simulação de processos pode apoiar",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q619",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre mineração de processos, assinale a opção correta.",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q620",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na mineração de processos, conformance checking consiste em",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q621",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Task mining distingue-se de process mining porque",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q622",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao selecionar processos para melhoria, um portfólio maduro considera",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q623",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um plano de implementação de TO BE deve incluir",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q624",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A resistência dos executores ao redesenho pode",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q625",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No setor público, digitalização madura de serviço significa",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q626",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A aplicação da Lei nº 14.129/2021 aos demais entes federativos",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q627",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em processo público, pedir novamente documento já disponível em base acessível deve ser",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q628",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A relação correta entre PDCA e BPM é",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q629",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Lean contribui para gestão de processos principalmente ao enfatizar",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q630",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Six Sigma relaciona-se à gestão de processos por enfatizar",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q631",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um escritório de processos deve",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q632",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma situação na qual cada unidade cumpre sua meta, mas o usuário espera entre transferências, a primeira providência analítica deve ser",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q633",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a análise integrada correta.",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q634",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma organização identifica três grupos: os que entregam diretamente serviços ao beneficiário, os que fornecem recursos internos e os que monitoram resultados. A classificação adequada é",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q635",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "À luz dos papéis do BPM, qual afirmação descreve melhor o dono do processo?",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q636",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "O gerenciamento de processos de negócio abrange",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q637",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Assinale a opção correta sobre processo e cadeia de valor.",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q638",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma equipe afirma que o BPM possui como principal desvantagem ser necessariamente operacional e micro. Essa afirmação está",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q639",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual alternativa corresponde ao ciclo de vida de BPM apresentado pelo BPM CBOK?",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q640",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Na transformação de processos, a relação AS IS → TO BE significa que",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q641",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A afirmação de que, na gestão por processos, as tarefas devem ocorrer sob rígida supervisão hierárquica está",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q642",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "A elaboração de fluxograma pode apoiar a melhoria porque",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q643",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em um tribunal, modelagem e análise dos fluxos de trabalho podem",
       "options": [
         {

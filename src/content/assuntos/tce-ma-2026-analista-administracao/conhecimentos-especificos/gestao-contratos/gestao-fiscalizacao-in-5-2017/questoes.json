@@ -5,6 +5,7 @@
     {
       "id": "q1959",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sob a Lei nº 14.133/2021, a IN SEGES/MP nº 5/2017 é aplicada às contratações federais de serviços",
       "options": [
         { "id": "A", "text": "no que couber, com substituição dos fundamentos incompatíveis ou revogados." },
@@ -18,6 +19,7 @@
     {
       "id": "q1960",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao uso da IN nº 5/2017 e dos Decretos federais nº 11.246/2022 e nº 13.031/2026 pelo TCE-MA, é correto afirmar que",
       "options": [
         { "id": "A", "text": "todos vinculam automaticamente o Tribunal por tratarem de contratos." },
@@ -31,6 +33,7 @@
     {
       "id": "q1961",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo o art. 39 da IN nº 5/2017, gestão e fiscalização da execução contratual têm por objetivo principal",
       "options": [
         { "id": "A", "text": "substituir o planejamento pela conferência da nota fiscal." },
@@ -44,6 +47,7 @@
     {
       "id": "q1962",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na arquitetura da IN nº 5/2017, cabe ao gestor do contrato",
       "options": [
         { "id": "A", "text": "executar pessoalmente todas as atividades técnicas e administrativas." },
@@ -57,6 +61,7 @@
     {
       "id": "q1963",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A fiscalização técnica concentra-se em",
       "options": [
         { "id": "A", "text": "quantidade, qualidade, tempo, modo e resultados da execução do objeto." },
@@ -70,6 +75,7 @@
     {
       "id": "q1964",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No desenho atual do Decreto nº 11.246/2022, a fiscalização administrativa acompanha",
       "options": [
         { "id": "A", "text": "apenas a satisfação subjetiva dos usuários." },
@@ -83,6 +89,7 @@
     {
       "id": "q1965",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A fiscalização setorial é indicada quando",
       "options": [
         { "id": "A", "text": "o gestor deseja transferir toda sua responsabilidade." },
@@ -96,6 +103,7 @@
     {
       "id": "q1966",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A fiscalização pelo público usuário",
       "options": [
         { "id": "A", "text": "dispensa indicadores objetivos quando a maioria estiver satisfeita." },
@@ -109,6 +117,7 @@
     {
       "id": "q1967",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo federal vigente após o Decreto nº 13.031/2026, os recebimentos provisório e definitivo cabem, respectivamente,",
       "options": [
         { "id": "A", "text": "ao fiscal técnico, administrativo ou setorial; e ao gestor, gestor setorial ou comissão." },
@@ -122,6 +131,7 @@
     {
       "id": "q1968",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As atividades de gestão e fiscalização devem ser realizadas",
       "options": [
         { "id": "A", "text": "somente após reclamação do usuário." },
@@ -135,6 +145,7 @@
     {
       "id": "q1969",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre o exercício de atividades de gestão e fiscalização por um único agente, assinale a alternativa correta.",
       "options": [
         { "id": "A", "text": "É sempre obrigatório em contratos de baixo valor." },
@@ -148,6 +159,7 @@
     {
       "id": "q1970",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na IN nº 5/2017, a indicação de gestor, fiscais e substitutos cabe, em regra,",
       "options": [
         { "id": "A", "text": "ao fornecedor vencedor." },
@@ -161,6 +173,7 @@
     {
       "id": "q1971",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Antes da formalização do ato de designação, gestores e fiscais devem",
       "options": [
         { "id": "A", "text": "ser formalmente cientificados da indicação e de suas atribuições." },
@@ -174,6 +187,7 @@
     {
       "id": "q1972",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na escolha de gestor ou fiscal, deve-se considerar",
       "options": [
         { "id": "A", "text": "apenas a antiguidade no serviço público." },
@@ -187,6 +201,7 @@
     {
       "id": "q1973",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A indicação de um servidor para fiscalizar o contrato",
       "options": [
         { "id": "A", "text": "dispensa substituto se o contrato durar menos de um ano." },
@@ -200,6 +215,7 @@
     {
       "id": "q1974",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No Decreto nº 11.246/2022 consolidado, na hipótese de atraso ou falta de indicação, desligamento ou afastamento definitivo, até que a indicação seja providenciada, as atribuições cabem",
       "options": [
         { "id": "A", "text": "automaticamente ao preposto." },
@@ -213,6 +229,7 @@
     {
       "id": "q1975",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fiscal substituto deve atuar",
       "options": [
         { "id": "A", "text": "nas ausências e nos impedimentos eventuais e regulamentares do titular." },
@@ -226,6 +243,7 @@
     {
       "id": "q1976",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contratação de terceiro especializado para apoiar a fiscalização",
       "options": [
         { "id": "A", "text": "transfere toda a competência decisória ao contratado." },
@@ -239,6 +257,7 @@
     {
       "id": "q1977",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os documentos que devem ser disponibilizados aos fiscais, incluem-se",
       "options": [
         { "id": "A", "text": "apenas a nota de empenho e a fatura final." },
@@ -252,6 +271,7 @@
     {
       "id": "q1978",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O encargo de gestor ou fiscal",
       "options": [
         { "id": "A", "text": "pode ser recusado livremente por preferência pessoal." },
@@ -265,6 +285,7 @@
     {
       "id": "q1979",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao ser designado para objeto complexo sem qualificação suficiente, o agente deve",
       "options": [
         { "id": "A", "text": "comunicar formalmente a limitação para que a Administração capacite, apoie ou designe agente adequado." },
@@ -278,6 +299,7 @@
     {
       "id": "q1980",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a IN nº 5/2017, o preposto da contratada deve ser formalmente designado",
       "options": [
         { "id": "A", "text": "após o primeiro pagamento." },
@@ -291,6 +313,7 @@
     {
       "id": "q1981",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A Administração pode recusar a indicação ou a manutenção do preposto",
       "options": [
         { "id": "A", "text": "sem motivação e sem permitir substituição." },
@@ -304,6 +327,7 @@
     {
       "id": "q1982",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto às comunicações entre Administração e contratada, a IN nº 5/2017 estabelece que",
       "options": [
         { "id": "A", "text": "toda comunicação deve ser oral." },
@@ -317,6 +341,7 @@
     {
       "id": "q1983",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A manutenção do preposto no local da execução",
       "options": [
         { "id": "A", "text": "pode ser exigida quando a natureza dos serviços justificar, inclusive por escala." },
@@ -330,6 +355,7 @@
     {
       "id": "q1984",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reunião inicial prevista na IN nº 5/2017 tem por finalidade",
       "options": [
         { "id": "A", "text": "renegociar livremente o objeto licitado." },
@@ -343,6 +369,7 @@
     {
       "id": "q1985",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os assuntos tratados na reunião inicial devem",
       "options": [
         { "id": "A", "text": "permanecer sem registro para favorecer flexibilidade." },
@@ -356,6 +383,7 @@
     {
       "id": "q1986",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As reuniões periódicas com o preposto",
       "options": [
         { "id": "A", "text": "dispensam o registro das ocorrências específicas." },
@@ -369,6 +397,7 @@
     {
       "id": "q1987",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A alteração excepcional do prazo inicial da prestação exige",
       "options": [
         { "id": "A", "text": "pedido prévio da contratada, justificativa e autorização competente." },
@@ -382,6 +411,7 @@
     {
       "id": "q1988",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao analisar pedido de alteração do início dos serviços, a Administração deve verificar",
       "options": [
         { "id": "A", "text": "somente se a contratada aumentará seu lucro." },
@@ -395,6 +425,7 @@
     {
       "id": "q1989",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um registro adequado de ocorrência deve conter",
       "options": [
         { "id": "A", "text": "apenas a conclusão subjetiva do fiscal." },
@@ -408,6 +439,7 @@
     {
       "id": "q1990",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando a situação exige decisão que ultrapassa sua competência, o fiscal deve",
       "options": [
         { "id": "A", "text": "decidir mesmo assim para ganhar tempo." },
@@ -421,6 +453,7 @@
     {
       "id": "q1991",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os instrumentos de controle do art. 47 da IN nº 5/2017 podem mensurar",
       "options": [
         { "id": "A", "text": "resultados, pessoas, materiais, rotina, obrigações e satisfação do usuário." },
@@ -434,6 +467,7 @@
     {
       "id": "q1992",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O mecanismo de controle dos materiais empregados deve ser estabelecido",
       "options": [
         { "id": "A", "text": "somente após a primeira falha." },
@@ -447,6 +481,7 @@
     {
       "id": "q1993",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A conformidade dos materiais é verificada mediante comparação com",
       "options": [
         { "id": "A", "text": "a preferência informal dos usuários." },
@@ -460,6 +495,7 @@
     {
       "id": "q1994",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Anexo VIII-A prevê que a fiscalização técnica",
       "options": [
         { "id": "A", "text": "deve usar exclusivamente o IMR, sem alternativa." },
@@ -473,6 +509,7 @@
     {
       "id": "q1995",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A utilização do IMR",
       "options": [
         { "id": "A", "text": "não impede o uso concomitante de outros mecanismos de avaliação." },
@@ -486,6 +523,7 @@
     {
       "id": "q1996",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Durante a execução, o fiscal técnico deve monitorar o nível de qualidade para",
       "options": [
         { "id": "A", "text": "evitar qualquer contato com o preposto." },
@@ -499,6 +537,7 @@
     {
       "id": "q1997",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação da execução produzida pelo fiscal técnico deve ser",
       "options": [
         { "id": "A", "text": "mantida secreta da contratada até o pagamento." },
@@ -512,6 +551,7 @@
     {
       "id": "q1998",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A justificativa da contratada para prestação com menor nível de conformidade pode ser aceita quando",
       "options": [
         { "id": "A", "text": "houver apenas aumento de custo interno previsível." },
@@ -525,6 +565,7 @@
     {
       "id": "q1999",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando a desconformidade é contínua ou supera os níveis mínimos toleráveis, os fatores redutores",
       "options": [
         { "id": "A", "text": "não impedem a aplicação concomitante de sanções conforme o ato convocatório." },
@@ -538,6 +579,7 @@
     {
       "id": "q2000",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A avaliação de desempenho e qualidade da prestação",
       "options": [
         { "id": "A", "text": "deve ser atribuída exclusivamente ao preposto." },
@@ -551,6 +593,7 @@
     {
       "id": "q2001",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A periodicidade da avaliação técnica pode ser",
       "options": [
         { "id": "A", "text": "apenas anual." },
@@ -564,6 +607,7 @@
     {
       "id": "q2002",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para efeito de recebimento provisório, ao final de cada período mensal, o fiscal técnico deve",
       "options": [
         { "id": "A", "text": "pagar diretamente a contratada." },
@@ -577,6 +621,7 @@
     {
       "id": "q2003",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Pelo art. 117 da Lei nº 14.133/2021, o fiscal deve",
       "options": [
         { "id": "A", "text": "registrar ocorrências, determinar regularização dentro de sua competência e informar o que a exceder." },
@@ -590,6 +635,7 @@
     {
       "id": "q2004",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O terceiro contratado para subsidiar a fiscalização assume",
       "options": [
         { "id": "A", "text": "poder de aplicar sanções em nome próprio." },
@@ -603,6 +649,7 @@
     {
       "id": "q2005",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A assistência de terceiro especializado",
       "options": [
         { "id": "A", "text": "exonera integralmente o fiscal de responsabilidade." },
@@ -616,6 +663,7 @@
     {
       "id": "q2006",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O assessoramento jurídico e o controle interno auxiliam gestores e fiscais para",
       "options": [
         { "id": "A", "text": "executar o serviço no lugar da contratada." },
@@ -629,6 +677,7 @@
     {
       "id": "q2007",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O Decreto nº 11.246/2022 disciplina gestores e fiscais diretamente no âmbito da",
       "options": [
         { "id": "A", "text": "Administração Pública federal direta, autárquica e fundacional." },
@@ -642,6 +691,7 @@
     {
       "id": "q2008",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após a alteração de 2026, a definição federal de fiscalização administrativa inclui",
       "options": [
         { "id": "A", "text": "somente pesquisas com usuários." },
@@ -655,6 +705,7 @@
     {
       "id": "q2009",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre as atribuições do gestor no Decreto nº 11.246/2022 está",
       "options": [
         { "id": "A", "text": "dirigir diretamente os empregados terceirizados." },
@@ -668,6 +719,7 @@
     {
       "id": "q2010",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao constatar irregularidade técnica corrigível, o fiscal técnico pode",
       "options": [
         { "id": "A", "text": "alterar definitivamente o objeto sem processo." },
@@ -681,6 +733,7 @@
     {
       "id": "q2011",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No recorte estrutural da fiscalização administrativa, a atuação correta é",
       "options": [
         { "id": "A", "text": "controlar documentos, prazos e riscos, registrar indícios e reportar o que exceder a competência." },
@@ -694,6 +747,7 @@
     {
       "id": "q2012",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No Decreto nº 11.246/2022, o fiscal setorial exerce, em seu âmbito,",
       "options": [
         { "id": "A", "text": "apenas pesquisa de satisfação." },
@@ -707,6 +761,7 @@
     {
       "id": "q2013",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A gestão setorial incluída pelo Decreto nº 13.031/2026 corresponde à",
       "options": [
         { "id": "A", "text": "mera pesquisa de satisfação em cada setor." },
@@ -720,6 +775,7 @@
     {
       "id": "q2014",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diferença correta entre gestor setorial e fiscal setorial é que",
       "options": [
         { "id": "A", "text": "o fiscal coordena toda a gestão, e o gestor apenas observa materiais." },
@@ -733,6 +789,7 @@
     {
       "id": "q2015",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A utilização obrigatória do Sistema Contratos.gov.br prevista no Decreto nº 13.031/2026 alcança diretamente",
       "options": [
         { "id": "A", "text": "a Administração Pública federal direta, autárquica e fundacional abrangida pelo decreto." },
@@ -746,6 +803,7 @@
     {
       "id": "q2016",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O modelo interno de gestão exigido pelo Decreto nº 13.031/2026 deve conter, entre outros elementos,",
       "options": [
         { "id": "A", "text": "somente o nome comercial da contratada." },
@@ -759,6 +817,7 @@
     {
       "id": "q2017",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O recebimento provisório realizado pelo fiscal",
       "options": [
         { "id": "A", "text": "equivale necessariamente ao pagamento imediato." },
@@ -772,6 +831,7 @@
     {
       "id": "q2018",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao comparar o art. 123 da Lei nº 14.133/2021 com o art. 28 do Decreto federal nº 11.246/2022, assinale a alternativa correta.",
       "options": [
         { "id": "A", "text": "Ambos contam o prazo exclusivamente da assinatura do contrato." },

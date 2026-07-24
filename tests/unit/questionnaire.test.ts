@@ -17,6 +17,7 @@ const questionSet: QuestionSet = {
     {
       id: 'q1',
       revision: 2,
+      origin: 'authorial',
       prompt: 'Primeira?',
       options: [
         { id: 'a', text: 'A' },
@@ -28,6 +29,7 @@ const questionSet: QuestionSet = {
     {
       id: 'q2',
       revision: 1,
+      origin: 'previous_exam',
       prompt: 'Segunda?',
       options: [
         { id: 'a', text: 'A' },

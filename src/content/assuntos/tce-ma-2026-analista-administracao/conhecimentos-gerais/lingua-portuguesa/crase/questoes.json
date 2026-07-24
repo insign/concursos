@@ -5,6 +5,7 @@
     {
       "id": "q3519",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distinção correta entre crase e acento grave é",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q3520",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No caso básico, o emprego de 'à' exige cumulativamente",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q3521",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par mostra corretamente que a regência do verbo altera o uso do acento grave?",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q3522",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O teste de substituição por masculino confirma a crase em 'dirigiu-se à diretora' porque a forma correspondente é",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q3523",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre os testes práticos de crase, é correto afirmar que",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q3524",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual frase as duas condições básicas para a crase estão presentes?",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q3525",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Não se usa acento grave em 'dirigiu-se a uma servidora' porque",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q3526",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A oposição correta entre plural sem artigo e plural determinado ocorre em",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q3527",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O acento em 'referiu-se àquele processo' decorre",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q3528",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual frase o demonstrativo não recebe acento porque não há preposição anterior?",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q3529",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A forma relativa adequada é",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q3530",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Por que se escreve 'a proposta a que me referi', sem acento grave?",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q3531",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'situação semelhante à que enfrentamos', o segmento 'à que' é justificável porque",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q3532",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa apresenta somente locuções femininas tradicionalmente acentuadas?",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q3533",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A diferença entre 'Começou a tarde' e 'Trabalhou à tarde' está corretamente explicada em",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q3534",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa contém locuções conjuntivas com acento grave?",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q3535",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O emprego do acento em indicação de horário está correto em",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q3536",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Daqui a duas horas, o resultado será publicado', não há acento porque",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q3537",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase respeita a preposição que já introduz o horário?",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q3538",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual indicação de intervalo preserva o paralelismo dos determinantes?",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q3539",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O acento em 'gol à Pelé' é explicado pela",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q3540",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase mostra a exceção aparente ao bloqueio antes de palavra masculina por haver elipse feminina?",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q3541",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta quanto ao termo anterior a infinitivo.",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q3542",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual expressão repetida está grafada de acordo com a norma-padrão?",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q3543",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual série está integralmente correta quanto aos pronomes?",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q3544",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A forma adequada diante do pronome de tratamento é",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q3545",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre o acento antes de 'Senhora' e 'Dona', a orientação mais precisa é",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q3546",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Antes de possessivo feminino, a crase pode ser facultativa, como em",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q3547",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A facultatividade antes de nome próprio feminino aparece em",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q3548",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Depois de 'até', a norma admite",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q3549",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par emprega corretamente 'casa'?",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q3550",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A oposição correta com 'terra' é",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q3551",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O teste do artigo com topônimos está corretamente aplicado em",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q3552",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um modificador pode alterar o artigo de um topônimo, como em",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q3553",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A respeito de 'a distância/à distância', é correto afirmar que",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q3554",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual orientação evita generalização indevida sobre instrumento e meio?",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q3555",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual contraste está corretamente grafado?",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q3556",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A presença de numeral está corretamente analisada em",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q3557",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual série coordenada analisa cada artigo sem forçar paralelismo gráfico?",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q3558",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A reescrita de 'visitou a escola' para 'dirigiu-se à escola' exige acento porque",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q3559",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual sequência mostra corretamente a mudança de determinação?",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q3560",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A substituição de um pronome relativo por 'à qual' mantém a correção em",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q3561",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao reescrever 'A sessão começa às 8h' como 'A sessão ocorre entre as 8h e as 10h', a retirada do acento é necessária porque",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q3562",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase combina corretamente regência nominal e artigo?",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q3563",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par distingue corretamente demonstrativos que não se contraem e os iniciados por 'a'?",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q3564",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A norma a qual foi publicada ontem será aplicada', a ausência de acento é explicável porque",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q3565",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O mnemônico 'vou a, volto de; vou à, volto da' deve ser usado",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q3566",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A comissão analisou a medida', não há crase porque",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q3567",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A frase 'Começou a revisão' não leva acento no primeiro 'a' porque",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q3568",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual contraste entre hora marcada e intervalo está correto?",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q3569",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A diferença entre 'referiu-se a duas servidoras' e 'referiu-se às duas servidoras' é que",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q3570",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual série evita acumular preposições?",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q3571",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em qual expressão a recuperação de 'à moda de' é semanticamente adequada?",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q3572",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual alternativa contém somente locuções prepositivas femininas acentuadas?",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q3573",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par contrasta locução feminina consagrada e instrumento masculino?",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q3574",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Por que alguns manuais registram acento em certas locuções mesmo discutindo a existência de fusão estrita?",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q3575",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Diante de uma questão sobre 'ensino a distância/à distância' sem fonte normativa declarada, a postura tecnicamente adequada é",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q3576",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual é o primeiro procedimento seguro para decidir o acento antes de um nome feminino?",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q3577",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A delimitação correta do estudo da crase é",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q3578",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao revisar o emprego do acento grave depois de uma reescrita, deve-se",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q3579",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase em que o acento grave resulta corretamente da regência do termo anterior e da presença de artigo definido.",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q3580",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “A norma se aplica a uma situação excepcional”, a substituição de `a uma` por `à uma` seria",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q3581",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A política à qual o relatório se refere foi atualizada”, a retirada do acento grave",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q3582",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “o regulamento limitou-se à implementação das medidas urgentes”, o acento grave é",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q3583",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a redação correta para referência genérica, sem artigo definido.",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q3584",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Os técnicos chegaram a adquirir experiência”, inserir acento grave no `a` seria",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q3585",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “À época, o sistema enviava os avisos a mim e funcionava à tarde”, os três segmentos destacados são, respectivamente,",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q3586",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “O portal dá acesso a elas”, a forma `a elas`",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q3587",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “as condições são semelhantes à da Terra”, `à` equivale a",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q3588",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase em que o emprego do acento grave está incorreto.",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q3589",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a sequência em que todos os empregos estão corretos: I. situação igual à que ocorreu; II. norma à qual me referi; III. atenção àquilo que importa; IV. proteção à quem utiliza o serviço.",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q3590",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na expressão “em relação a qual área”, inserir o acento grave em `a qual` seria",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q3591",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A decisão é idêntica à prevista no edital”, a forma acentuada representa",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q3592",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a reescrita correta de “a proposta a que o parecer aludiu”.",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q3593",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A construção “a autora à cujo texto fiz referência” deve ser corrigida para",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q3594",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “normas superiores às anteriores”, `às anteriores` pode ser expandido como",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q3595",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “A servidora a quem entreguei o ofício respondeu”, o acento grave antes de `quem` seria",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q3596",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta.",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q3597",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “a diretriz à qual a portaria se opõe”, o segmento `à qual` exerce função de",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q3598",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “A norma à que me referi” é inadequada porque",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q3599",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção correta quanto à crase diante de pronomes.",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q3600",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “referiu-se à mesma norma”, a crase ocorre porque",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q3601",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A forma correta é",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q3602",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase em que a presença do acento grave pode ser facultativa por causa do artigo diante de possessivo.",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q3603",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “entregou o relatório a Ana / à Ana”, a variação decorre",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q3604",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “Dirigiu-se à Vossa Excelência” deve ser corrigida para",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q3605",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “entregou o convite à senhora responsável”, o acento é",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q3606",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta.",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q3607",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diferença entre “acesso a outras formas” e “acesso às outras formas previstas” está",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q3608",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A comissão deu a mim a palavra”, substituir `a mim` por `à mim`",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q3609",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Complete corretamente: “O aviso foi publicado ___ duas horas; a sessão começará ___ duas horas e terminará daqui ___ três horas.”",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q3610",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “Chegou à uma hora” significa, no contexto mais direto, que",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q3611",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale o intervalo construído com paralelismo adequado.",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q3612",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “desde as oito horas”, o acento grave não é usado porque",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q3613",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta.",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q3614",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “referiu-se às duas servidoras responsáveis”, o acento ocorre porque",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q3615",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase em que `a` indica intervalo futuro.",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q3616",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A escrita correta é",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q3617",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o sistema fecha à zero hora”, o acento grave",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q3618",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção em que a mudança de grafia altera o valor temporal.",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q3619",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase em que a locução está corretamente grafada.",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q3620",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A revisão é necessária na medida em que surgiram falhas”, a locução exprime",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q3621",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase que contém elipse de `à maneira de`.",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q3622",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No contraste “bateu a máquina” / “escreveu à máquina”, o acento grave",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q3623",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre `a distância` e `à distância`, é correto afirmar que",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q3624",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção correta quanto aos topônimos.",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q3625",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A construção “referiu-se à Brasília de sua juventude” é possível porque",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q3626",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “os marinheiros chegaram a terra”, a ausência de acento segue a tradição porque",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q3627",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta.",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q3628",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A expressão corretamente grafada é",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q3629",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase incorreta.",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q3630",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “foi até a sala / foi até à sala”, as duas formas podem ser admitidas porque",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q3631",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A construção inadequada é",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q3632",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “referiu-se a sua proposta / à sua proposta”, a alternância",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q3633",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase correta com expressão repetida.",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q3634",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “A equipe analisou a proposta”, inserir acento em `a proposta` seria",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q3635",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “Prefiro a estabilidade à mudança constante” apresenta crase porque",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q3636",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “submeteu o texto a revisão”, a correção para `à revisão` depende de",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q3637",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção correta.",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q3638",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o relatório está a disposição”, a grafia padrão é",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q3639",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reescrita que preserva a correção é",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q3640",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao substituir “a proposta a que aludiu” por uma construção com `a qual`, deve-se escrever",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q3641",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “teve acesso às outras formas previstas”, retirar o acento pode",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q3642",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A substituição de “limitou-se à implementação” por “limitou-se a implementar”",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q3643",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a reescrita correta.",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q3644",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A troca de “à Bahia” por “a Brasília” pode ser correta porque",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q3645",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reescrita “chegou à uma hora” → “chegou há uma hora”",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q3646",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “a situação é semelhante à que ocorreu”, substituir `à que` por `a que`",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q3647",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a transformação correta de determinação.",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q3648",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A substituição de “à medida que” por “na medida em que”",
       "options": [
         {
@@ -3775,6 +3905,7 @@
     {
       "id": "q3649",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere: I. O atendimento começou às oito horas. II. O atendimento começou a funcionar. III. O atendimento começou a manhã com atraso. Em quais ocorrências há acento grave corretamente empregado?",
       "options": [
         {
@@ -3804,6 +3935,7 @@
     {
       "id": "q3650",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere: I. referiu-se àquela norma; II. referiu-se a esta norma; III. referiu-se à mesma norma; IV. referiu-se à qualquer norma. Estão corretas",
       "options": [
         {
@@ -3833,6 +3965,7 @@
     {
       "id": "q3651",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em qual alternativa a retirada do acento grave mantém a correção, mas pode alterar o sentido referencial?",
       "options": [
         {
@@ -3862,6 +3995,7 @@
     {
       "id": "q3652",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a alternativa em que o acento grave decorre de fenômeno diferente da fusão com artigo definido feminino.",
       "options": [
         {
@@ -3891,6 +4025,7 @@
     {
       "id": "q3653",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “O plano se destina à mulheres em situação de risco” deve ser corrigida para",
       "options": [
         {
@@ -3920,6 +4055,7 @@
     {
       "id": "q3654",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A decisão foi comunicada à própria interessada”, o acento é",
       "options": [
         {
@@ -3949,6 +4085,7 @@
     {
       "id": "q3655",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual análise está correta para “Foi até à sala e permaneceu lá desde as oito horas”?",
       "options": [
         {
@@ -3978,6 +4115,7 @@
     {
       "id": "q3656",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a frase em que o acento grave marca locução, não complemento selecionado por regência nominal ou verbal.",
       "options": [
         {
@@ -4007,6 +4145,7 @@
     {
       "id": "q3657",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A equipe trabalhou à noite e apresentou o relatório a uma hora qualquer do dia”, a análise correta é",
       "options": [
         {
@@ -4036,6 +4175,7 @@
     {
       "id": "q3658",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere a reescrita: “A comissão se referiu à regra idêntica à prevista no edital.” O primeiro e o segundo `à` resultam, respectivamente, de",
       "options": [
         {

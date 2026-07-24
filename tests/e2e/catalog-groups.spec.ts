@@ -83,7 +83,7 @@ test('does not expose editorial groups through sync or offline contracts', async
     subjects: Array<Record<string, unknown> & {
       contestStorageId: string;
       subjectStorageId: string;
-      questionSet: { questionSetRevision: number };
+      questionSet: { questionSetRevision: number; questions: Array<Record<string, unknown>> };
     }>;
   };
   const readingSubject = syncCatalog.subjects.find(
@@ -117,6 +117,9 @@ test('does not expose editorial groups through sync or offline contracts', async
     'questionSet',
     'subjectStorageId',
   ]);
+  if (!readingSubject || !typesSubject) throw new Error('Assuntos esperados ausentes do catálogo de sincronização.');
+  expect(readingSubject.questionSet.questions[0]).not.toHaveProperty('origin');
+  expect(typesSubject.questionSet.questions[0]).not.toHaveProperty('origin');
 
   const inventoryResponse = await request.get('/offline-inventories/tcema-2026-adm.json');
   expect(inventoryResponse.status()).toBe(200);

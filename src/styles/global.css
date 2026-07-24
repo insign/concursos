@@ -697,6 +697,12 @@ h3 {
   font-weight: 800;
 }
 
+.question-origin-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--muted);
+}
+
 .questionnaire-settings label,
 .toggle-control {
   display: flex;

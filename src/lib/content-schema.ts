@@ -42,7 +42,9 @@ export const questionOptionSchema = z
   })
   .strict();
 
-export const questionSchema = z
+export const questionOriginSchema = z.enum(['authorial', 'previous_exam']);
+
+const questionCoreSchema = z
   .object({
     id: stableId,
     revision: z.number().int().positive(),
@@ -51,6 +53,34 @@ export const questionSchema = z
     correctOptionId: stableId,
     explanation: nonEmptyText,
   })
+  .strict();
+
+export const syncQuestionSchema = questionCoreSchema
+  .superRefine((question, context) => {
+    const optionIds = new Set<string>();
+
+    for (const [index, option] of question.options.entries()) {
+      if (optionIds.has(option.id)) {
+        context.addIssue({
+          code: 'custom',
+          message: `ID de opção duplicado: ${option.id}`,
+          path: ['options', index, 'id'],
+        });
+      }
+      optionIds.add(option.id);
+    }
+
+    if (!optionIds.has(question.correctOptionId)) {
+      context.addIssue({
+        code: 'custom',
+        message: 'correctOptionId deve referenciar uma opção existente',
+        path: ['correctOptionId'],
+      });
+    }
+  });
+
+export const questionSchema = questionCoreSchema
+  .extend({ origin: questionOriginSchema })
   .strict()
   .superRefine((question, context) => {
     const optionIds = new Set<string>();
@@ -72,6 +102,28 @@ export const questionSchema = z
         message: 'correctOptionId deve referenciar uma opção existente',
         path: ['correctOptionId'],
       });
+    }
+  });
+
+export const syncQuestionSetSchema = z
+  .object({
+    schemaVersion: z.literal(1),
+    questionSetRevision: z.number().int().positive(),
+    questions: z.array(syncQuestionSchema).min(1),
+  })
+  .strict()
+  .superRefine((questionSet, context) => {
+    const questionIds = new Set<string>();
+
+    for (const [index, question] of questionSet.questions.entries()) {
+      if (questionIds.has(question.id)) {
+        context.addIssue({
+          code: 'custom',
+          message: `ID de questão duplicado: ${question.id}`,
+          path: ['questions', index, 'id'],
+        });
+      }
+      questionIds.add(question.id);
     }
   });
 
@@ -101,5 +153,13 @@ export type ContestData = z.infer<typeof contestSchema>;
 export type GroupData = z.infer<typeof groupSchema>;
 export type SubjectData = z.infer<typeof subjectSchema>;
 export type QuestionOption = z.infer<typeof questionOptionSchema>;
+export type QuestionOrigin = z.infer<typeof questionOriginSchema>;
+export type SyncQuestion = z.infer<typeof syncQuestionSchema>;
 export type Question = z.infer<typeof questionSchema>;
+export type SyncQuestionSet = z.infer<typeof syncQuestionSetSchema>;
 export type QuestionSet = z.infer<typeof questionSetSchema>;
+export type AnswerableQuestionSet = {
+  schemaVersion: 1;
+  questionSetRevision: number;
+  questions: Array<Pick<Question, 'id' | 'revision' | 'options' | 'correctOptionId'>>;
+};

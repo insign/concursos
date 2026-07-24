@@ -5,6 +5,7 @@
     {
       "id": "q3639",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No estudo da significação textual, o sentido contextual de uma palavra corresponde",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q3640",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'irregularidade grave', 'nota grave' e 'acento grave', a palavra 'grave' demonstra que",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q3641",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual frase emprega a palavra destacada em sentido predominantemente denotativo?",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q3642",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao substituir 'o veículo' por 'a lata enferrujada' para retomar o mesmo carro, o enunciador",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q3643",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A respeito da sinonímia, assinale a afirmação correta.",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q3644",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A sinonímia absoluta exigiria",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q3645",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par exemplifica antonímia conversiva, isto é, o mesmo evento visto da perspectiva de participantes opostos?",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q3646",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A afirmação 'Se o café não está quente, então está frio' é semanticamente inadequada porque",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q3647",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na relação entre 'ato administrativo' e 'portaria', é correto afirmar que",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q3648",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na frase 'A portaria foi publicada', trocar 'portaria' por 'ato administrativo' pode",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q3649",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Os usos de 'cabeça' em 'cabeça do corpo' e 'cabeça da equipe' ilustram, tradicionalmente,",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q3650",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'manga da camisa' e 'manga madura', a coincidência formal associada a sentidos distintos exemplifica",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q3651",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A comissão confirmou a decisão anterior. Qual verbo substitui 'confirmou' sem confundi-lo com o parônimo que significa corrigir?",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q3652",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "'Auditoria', 'controle', 'evidência' e 'relatório' podem formar um campo semântico porque",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q3653",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Substituir 'o relatório foi enviado' por 'a página foi enviada' é inadequado, sem contexto adicional, porque",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q3654",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par apresenta equivalência forte em um contexto causal neutro, desde que a regência esteja adequada?",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q3655",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A medida pode reduzir despesas', a troca de 'pode reduzir' por 'reduzirá'",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q3656",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A substituição de 'o órgão vem adotando controles' por 'o órgão adotou controles' altera principalmente",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q3657",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Trocar 'a equipe enviará o parecer' por 'a equipe enviou o parecer' modifica",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q3658",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Substituir 'o servidor ficou contrariado' por 'o servidor ficou indignado' pode ser impróprio porque",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q3659",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma substituição semanticamente plausível passa pelo gate gramatical quando",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q3660",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao trocar 'Foram adotadas medidas urgentes' por uma construção com 'providência', a forma correta é",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q3661",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na troca de 'assistiu ao evento' por 'viu o evento', deve-se",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q3662",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Por que 'A proposta aprovou a comissão' não equivale a 'A comissão aprovou a proposta'?",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q3663",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual construção apresenta uma colocação lexical consagrada no português formal?",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q3664",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em uma enumeração introduzida por dois-pontos, substituir o sinal por vírgula pode ser inadequado porque",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q3665",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual reescrita preserva agente, ação e paciente de 'A equipe analisou os dados'?",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q3666",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A diferença informativa entre 'A equipe revisou o relatório' e 'O relatório foi revisado' é que a segunda",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q3667",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A nominalização de 'a comissão analisou os dados' para 'a análise dos dados' exige cuidado porque",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q3668",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A expressão 'prazo de no máximo trinta dias' significa",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q3669",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual inferência é autorizada por 'Nem todos os relatórios foram entregues'?",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q3670",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual descrição interpreta corretamente o escopo de 'só'?",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q3671",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O relatório já foi enviado', retirar 'já' pode apagar",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q3672",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Até os conselheiros concordaram', o operador 'até' pode acrescentar",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q3673",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No período 'O prazo venceu; portanto, o recurso é intempestivo', substituir 'portanto' por 'porém'",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q3674",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par NÃO preserva a relação lógica?",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q3675",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A reescrita de 'Chovia, mas a sessão ocorreu' como 'Embora chovesse, a sessão ocorreu'",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q3676",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A frase 'O servidor voltou a assinar os documentos' pressupõe, no uso comum, que ele",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q3677",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Trocar 'O servidor voltou a assinar' por 'O servidor assinou'",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q3678",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O problema continua', a forma verbal sugere que o problema",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q3679",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'A portaria foi publicada. O ato entra em vigor amanhã', 'o ato'",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q3680",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'O auditor informou ao gestor a decisão de sua equipe', o possessivo 'sua'",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q3681",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em textos normativos e técnicos, repetir o mesmo termo para a mesma ideia pode ser adequado porque",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q3682",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Substituir 'falecer' por 'bater as botas' em uma comunicação administrativa",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q3683",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No vocabulário jurídico-administrativo, a troca de 'servidor público' por 'agente público' requer cautela porque",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q3684",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao consultar um dicionário para avaliar uma substituição, o procedimento mais seguro é",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q3685",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O Vocabulário Ortográfico da Língua Portuguesa é especialmente útil para",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q3686",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual é o primeiro cuidado ao resolver um item de substituição?",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q3687",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No teste de retorno, o candidato deve",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q3688",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O teste de contraexemplo demonstra que 'pode funcionar' não equivale a 'funcionará' quando se observa que",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q3689",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Há equivalência estrita quando duas formulações",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q3690",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A passagem de 'A equipe analisou os dados' para 'Os dados foram analisados pela equipe' exemplifica",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q3691",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual par apresenta mera proximidade lexical, mas não equivalência garantida?",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q3692",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A troca de 'por motivo não justificável' por 'injustificadamente' só preserva adequadamente o período quando a nova forma",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q3693",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A forma de cobrança observada em itens oficiais do Cebraspe mostra que uma substituição deve ser examinada",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q3694",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O contexto global deve ser consultado quando",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q3695",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Ao substituir um trecho inteiro, é necessário",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q3696",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma paráfrase adequada se caracteriza por",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q3697",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Compare: I. 'Pelo menos três setores responderam.' II. 'Três setores responderam.' A análise correta é",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q3698",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em 'Apenas os auditores já haviam examinado o ato, portanto o relatório pôde ser concluído', uma substituição segura exige conferir",
       "options": [
         {
@@ -1745,6 +1805,7 @@
     {
       "id": "q3699",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere: I. “A medida representa avanço institucional.” II. “A procuradora representa o órgão em juízo.” Em qual avaliação a troca de “representa” por “significa” é adequada?",
       "options": [
         {
@@ -1774,6 +1835,7 @@
     {
       "id": "q3700",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “A expedição alcançou rincões ainda pouco conhecidos”, a substituição de “rincões” por “territórios” preserva necessariamente todos os sentidos?",
       "options": [
         {
@@ -1803,6 +1865,7 @@
     {
       "id": "q3701",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “certa providência poderá ser necessária”, o deslocamento do adjetivo para “providência certa” produziria",
       "options": [
         {
@@ -1832,6 +1895,7 @@
     {
       "id": "q3702",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No contexto “o valor do bem foi depreciado”, “depreciado” significa principalmente",
       "options": [
         {
@@ -1861,6 +1925,7 @@
     {
       "id": "q3703",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A expressão “distribuição equitativa dos recursos” pode ser parafraseada, no contexto, por",
       "options": [
         {
@@ -1890,6 +1955,7 @@
     {
       "id": "q3704",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “a inovação engendrou novas formas de controle”, a substituição mais próxima de “engendrou” é",
       "options": [
         {
@@ -1919,6 +1985,7 @@
     {
       "id": "q3705",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “os pesquisadores sustentam que a mudança reduzirá custos”, trocar “sustentam” por “provam”",
       "options": [
         {
@@ -1948,6 +2015,7 @@
     {
       "id": "q3706",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No contexto histórico-linguístico, “línguas neolatinas” e “línguas românicas” podem ser consideradas",
       "options": [
         {
@@ -1977,6 +2045,7 @@
     {
       "id": "q3707",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em qual opção a substituição de “grave” por “sério” preserva a acepção contextual?",
       "options": [
         {
@@ -2006,6 +2075,7 @@
     {
       "id": "q3708",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “a decisão foi emblemática para a política pública”, substituir “emblemática” por “típica”",
       "options": [
         {
@@ -2035,6 +2105,7 @@
     {
       "id": "q3709",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao trocar “portaria” por “ato administrativo” em “A portaria foi publicada ontem”, o redator",
       "options": [
         {
@@ -2064,6 +2135,7 @@
     {
       "id": "q3710",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Substituir “ato normativo” por “resolução” sem que o texto tenha identificado a espécie do ato pode",
       "options": [
         {
@@ -2093,6 +2165,7 @@
     {
       "id": "q3711",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “a página foi corrigida, mas o relatório permaneceu incompleto”, página e relatório mantêm relação de",
       "options": [
         {
@@ -2122,6 +2195,7 @@
     {
       "id": "q3712",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Portaria, resolução e instrução normativa, quando apresentadas como espécies de ato normativo, são",
       "options": [
         {
@@ -2151,6 +2225,7 @@
     {
       "id": "q3713",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Os sentidos de “cabeça” em “cabeça da equipe” e “cabeça do corpo” ilustram",
       "options": [
         {
@@ -2180,6 +2255,7 @@
     {
       "id": "q3714",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “O banco fechou às quatro” é ambígua fora de contexto porque “banco” pode designar",
       "options": [
         {
@@ -2209,6 +2285,7 @@
     {
       "id": "q3715",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “A comissão retificou o dado”, trocar “retificou” por “ratificou”",
       "options": [
         {
@@ -2238,6 +2315,7 @@
     {
       "id": "q3716",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Auditoria, evidência, achado e relatório podem integrar o mesmo campo semântico, o que significa que",
       "options": [
         {
@@ -2267,6 +2345,7 @@
     {
       "id": "q3717",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o auditor informou ao gestor a decisão de sua equipe”, substituir “sua equipe” por “a equipe do gestor”",
       "options": [
         {
@@ -2296,6 +2375,7 @@
     {
       "id": "q3718",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No enunciado “o relatório foi publicado recentemente”, trocar “recentemente” por “há exatamente dois dias”",
       "options": [
         {
@@ -2325,6 +2405,7 @@
     {
       "id": "q3719",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “A equipe tentou concluir o relatório” permite inferir necessariamente que o relatório foi concluído?",
       "options": [
         {
@@ -2354,6 +2435,7 @@
     {
       "id": "q3720",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A equipe conseguiu concluir o relatório”, é correto afirmar que",
       "options": [
         {
@@ -2383,6 +2465,7 @@
     {
       "id": "q3721",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “O servidor não voltou a recorrer” tende a manter qual informação?",
       "options": [
         {
@@ -2412,6 +2495,7 @@
     {
       "id": "q3722",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O problema continua”, a substituição por “O problema existe”",
       "options": [
         {
@@ -2441,6 +2525,7 @@
     {
       "id": "q3723",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “Alguns relatórios foram publicados” significa logicamente que",
       "options": [
         {
@@ -2470,6 +2555,7 @@
     {
       "id": "q3724",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual relação existe entre “Nem todos os relatórios foram entregues” e “Nenhum relatório foi entregue”?",
       "options": [
         {
@@ -2499,6 +2585,7 @@
     {
       "id": "q3725",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A diretora lamentou que o prazo tivesse terminado”, o término do prazo é normalmente apresentado como",
       "options": [
         {
@@ -2528,6 +2615,7 @@
     {
       "id": "q3726",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A expressão “O órgão não conseguiu publicar o ato” acarreta, na leitura comum, que",
       "options": [
         {
@@ -2557,6 +2645,7 @@
     {
       "id": "q3727",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A frase “A equipe quase concluiu o levantamento” informa que",
       "options": [
         {
@@ -2586,6 +2675,7 @@
     {
       "id": "q3728",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O parecer ainda não foi enviado”, retirar “ainda”",
       "options": [
         {
@@ -2615,6 +2705,7 @@
     {
       "id": "q3729",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A substituição de “A medida pode reduzir custos” por “A medida reduzirá custos”",
       "options": [
         {
@@ -2644,6 +2735,7 @@
     {
       "id": "q3730",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O órgão deve publicar o resultado”, a troca de “deve” por “pode”",
       "options": [
         {
@@ -2673,6 +2765,7 @@
     {
       "id": "q3731",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar “a tecnologia tem impulsionado mudanças” por “a tecnologia impulsionou mudanças”",
       "options": [
         {
@@ -2702,6 +2795,7 @@
     {
       "id": "q3732",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “A comissão começou a revisar o ato”, substituir a locução por “revisou o ato”",
       "options": [
         {
@@ -2731,6 +2825,7 @@
     {
       "id": "q3733",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O órgão voltou a publicar os dados”, retirar “voltou a”",
       "options": [
         {
@@ -2760,6 +2855,7 @@
     {
       "id": "q3734",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "“Quase todos os setores responderam” não equivale a “Todos os setores responderam” porque",
       "options": [
         {
@@ -2789,6 +2885,7 @@
     {
       "id": "q3735",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual substituição preserva o limite inferior inclusivo de “ao menos trinta processos”?",
       "options": [
         {
@@ -2818,6 +2915,7 @@
     {
       "id": "q3736",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar “até trinta dias” por “exatamente trinta dias”",
       "options": [
         {
@@ -2847,6 +2945,7 @@
     {
       "id": "q3737",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare: I. “Só os auditores assinaram.” II. “Os auditores só assinaram.” O deslocamento de “só”",
       "options": [
         {
@@ -2876,6 +2975,7 @@
     {
       "id": "q3738",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Até a diretora reconheceu o erro”, retirar “até”",
       "options": [
         {
@@ -2905,6 +3005,7 @@
     {
       "id": "q3739",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar “a empresa alegou ter cumprido o contrato” por “a empresa demonstrou ter cumprido o contrato”",
       "options": [
         {
@@ -2934,6 +3035,7 @@
     {
       "id": "q3740",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “os dados sugerem melhora”, substituir “sugerem” por “provam”",
       "options": [
         {
@@ -2963,6 +3065,7 @@
     {
       "id": "q3741",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A troca de “o relatório indica falhas” por “o relatório estabelece falhas”",
       "options": [
         {
@@ -2992,6 +3095,7 @@
     {
       "id": "q3742",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “o gestor admitiu o erro”, substituir “admitiu” por “afirmou”",
       "options": [
         {
@@ -3021,6 +3125,7 @@
     {
       "id": "q3743",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “a auditoria constatou a irregularidade”, trocar “constatou” por “suspeitou de”",
       "options": [
         {
@@ -3050,6 +3155,7 @@
     {
       "id": "q3744",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em terminologia administrativa, “anular” e “revogar”",
       "options": [
         {
@@ -3079,6 +3185,7 @@
     {
       "id": "q3745",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Substituir “transparência” por “publicidade” em texto sobre acesso compreensível a dados públicos",
       "options": [
         {
@@ -3108,6 +3215,7 @@
     {
       "id": "q3746",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual sequência distingue adequadamente três critérios de desempenho?",
       "options": [
         {
@@ -3137,6 +3245,7 @@
     {
       "id": "q3747",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar “usuário do serviço” por “cidadão” em qualquer ocorrência",
       "options": [
         {
@@ -3166,6 +3275,7 @@
     {
       "id": "q3748",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “compete à unidade fiscalizar o contrato”, substituir “competência” por “dever”",
       "options": [
         {
@@ -3195,6 +3305,7 @@
     {
       "id": "q3749",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “A solução é simples, só que exige investimento”, substituir “só que” por “mas”",
       "options": [
         {
@@ -3224,6 +3335,7 @@
     {
       "id": "q3750",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A expressão “o que significa que” pode ser substituída por “ou seja” quando",
       "options": [
         {
@@ -3253,6 +3365,7 @@
     {
       "id": "q3751",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O prazo venceu; portanto, o recurso é intempestivo”, trocar “portanto” por “porque”",
       "options": [
         {
@@ -3282,6 +3395,7 @@
     {
       "id": "q3752",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reescrita de “Embora houvesse falhas, o sistema funcionou” por “Se houvesse falhas, o sistema funcionaria”",
       "options": [
         {
@@ -3311,6 +3425,7 @@
     {
       "id": "q3753",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “Como os dados estavam incompletos, a análise foi suspensa”, “como” exprime causa. Trocá-lo por “enquanto”",
       "options": [
         {
@@ -3340,6 +3455,7 @@
     {
       "id": "q3754",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Desde então, o órgão publica relatórios mensais”, substituir “Desde então” por “Por isso”",
       "options": [
         {
@@ -3369,6 +3485,7 @@
     {
       "id": "q3755",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na frase “A eficiência aumenta à medida que os processos são simplificados”, a locução estabelece",
       "options": [
         {
@@ -3398,6 +3515,7 @@
     {
       "id": "q3756",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare: I. “É preciso entender como o problema surgiu.” II. “É preciso entender por que o problema surgiu.” A troca de “como” por “por que”",
       "options": [
         {
@@ -3427,6 +3545,7 @@
     {
       "id": "q3757",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A medida é onerosa; porém, é necessária”, substituir “porém” por “portanto”",
       "options": [
         {
@@ -3456,6 +3575,7 @@
     {
       "id": "q3758",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No enunciado “Não interrompa o procedimento, pois a validação ainda não terminou”, “pois” tende a",
       "options": [
         {
@@ -3485,6 +3605,7 @@
     {
       "id": "q3759",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reescrita de “A servidora assistiu ao julgamento” por “A servidora viu o julgamento”",
       "options": [
         {
@@ -3514,6 +3635,7 @@
     {
       "id": "q3760",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O candidato visa ao cargo”, a troca por “pretende” deve produzir",
       "options": [
         {
@@ -3543,6 +3665,7 @@
     {
       "id": "q3761",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “As normas estabelecem critérios”, substituir “estabelecem” por “impõe”",
       "options": [
         {
@@ -3572,6 +3695,7 @@
     {
       "id": "q3762",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Há soluções possíveis”, a troca por “Existem soluções possíveis”",
       "options": [
         {
@@ -3601,6 +3725,7 @@
     {
       "id": "q3763",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A substituição de “ausentou-se por motivo não justificável” por “ausentou-se injustificadamente”",
       "options": [
         {
@@ -3630,6 +3755,7 @@
     {
       "id": "q3764",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O gestor levou em conta os riscos”, a substituição mais adequada de toda a expressão é",
       "options": [
         {
@@ -3659,6 +3785,7 @@
     {
       "id": "q3765",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A expressão “dar conta de” em “a equipe deu conta da demanda” pode significar",
       "options": [
         {
@@ -3688,6 +3815,7 @@
     {
       "id": "q3766",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A passagem de “a comissão tomou uma decisão” para “a comissão decidiu”",
       "options": [
         {
@@ -3717,6 +3845,7 @@
     {
       "id": "q3767",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare: “A equipe analisou os dados” e “Os dados foram analisados pela equipe”. A reescrita",
       "options": [
         {
@@ -3746,6 +3875,7 @@
     {
       "id": "q3768",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A análise dos dados foi realizada”, a nominalização em relação a “A equipe analisou os dados”",
       "options": [
         {
@@ -3775,6 +3905,7 @@
     {
       "id": "q3769",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um texto que nomeou “perícia médico-legal”, as expressões “a prática”, “a atividade” e “a instituição”",
       "options": [
         {
@@ -3804,6 +3935,7 @@
     {
       "id": "q3770",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A portaria foi publicada. O ato entra em vigor amanhã”, “o ato”",
       "options": [
         {
@@ -3833,6 +3965,7 @@
     {
       "id": "q3771",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A substituição de “a equipe da diretora” por “sua equipe” em um período que também menciona outra mulher",
       "options": [
         {
@@ -3862,6 +3995,7 @@
     {
       "id": "q3772",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “Pode haver fraude. Essa hipótese será investigada”, trocar “essa hipótese” por “esse fato”",
       "options": [
         {
@@ -3891,6 +4025,7 @@
     {
       "id": "q3773",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Depois de descrever uma nova rotina, o texto a retoma como “o problema”. Essa substituição",
       "options": [
         {
@@ -3920,6 +4055,7 @@
     {
       "id": "q3774",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em texto normativo, repetir “servidor público” em vez de alternar com “agente”, “funcionário” e “colaborador” pode",
       "options": [
         {
@@ -3949,6 +4085,7 @@
     {
       "id": "q3775",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reescrita “O relatório foi aprovado” em lugar de “A comissão aprovou o relatório”",
       "options": [
         {
@@ -3978,6 +4115,7 @@
     {
       "id": "q3776",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar “energia” por “energias” em um texto pode",
       "options": [
         {
@@ -4007,6 +4145,7 @@
     {
       "id": "q3777",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A resolução substituiu a portaria. Ela entra em vigor amanhã”, o pronome “ela”",
       "options": [
         {
@@ -4036,6 +4175,7 @@
     {
       "id": "q3778",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar “essa conclusão” por “essa alegação” ao retomar uma proposição anterior",
       "options": [
         {
@@ -4065,6 +4205,7 @@
     {
       "id": "q3779",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A transformação de “quando focamos o problema” em “ao focarmos o problema”",
       "options": [
         {
@@ -4094,6 +4235,7 @@
     {
       "id": "q3780",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Substituir “Ao analisar os dados, o auditor detectou a falha” por “Quando analisou os dados, o auditor detectou a falha”",
       "options": [
         {
@@ -4123,6 +4265,7 @@
     {
       "id": "q3781",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reescrita de “o procedimento passou a ser obrigatório” por “o procedimento tornou-se obrigatório”",
       "options": [
         {
@@ -4152,6 +4295,7 @@
     {
       "id": "q3782",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar “a inovação tem impulsionado mudanças” por “a inovação impulsionou mudanças” em reescrita",
       "options": [
         {
@@ -4181,6 +4325,7 @@
     {
       "id": "q3783",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A transformação de uma oração com gerúndio em oração final introduzida por “para”",
       "options": [
         {
@@ -4210,6 +4355,7 @@
     {
       "id": "q3784",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare “toda sociedade precisa de confiança” e “toda a sociedade precisa de confiança”. A presença do artigo",
       "options": [
         {
@@ -4239,6 +4385,7 @@
     {
       "id": "q3785",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A medida representa uma mudança de paradigma”, a troca por “significa”",
       "options": [
         {
@@ -4268,6 +4415,7 @@
     {
       "id": "q3786",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se o verbo substituto exige outra preposição, a reescrita correta deve",
       "options": [
         {
@@ -4297,6 +4445,7 @@
     {
       "id": "q3787",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A passagem de “vendem-se relatórios” para “relatórios são vendidos”",
       "options": [
         {
@@ -4326,6 +4475,7 @@
     {
       "id": "q3788",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Trocar “a norma submete o procedimento a controles” por “o procedimento deve respeitar controles”",
       "options": [
         {
@@ -4355,6 +4505,7 @@
     {
       "id": "q3789",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “cerca de trinta unidades responderam”, substituir “cerca de trinta” por “exatamente trinta”",
       "options": [
         {
@@ -4384,6 +4535,7 @@
     {
       "id": "q3790",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “quase simplesmente reproduziu o modelo”, deslocar “quase” para antes de “o modelo”",
       "options": [
         {
@@ -4413,6 +4565,7 @@
     {
       "id": "q3791",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual par mostra mudança de sentido causada apenas pela posição do adjetivo?",
       "options": [
         {
@@ -4442,6 +4595,7 @@
     {
       "id": "q3792",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A medida beneficia principalmente pequenas empresas”, trocar “principalmente” por “inclusive”",
       "options": [
         {
@@ -4471,6 +4625,7 @@
     {
       "id": "q3793",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diferença entre “Só os auditores revisaram o ato” e “Os auditores revisaram só o ato” está em que",
       "options": [
         {
@@ -4500,6 +4655,7 @@
     {
       "id": "q3794",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “O relatório já foi publicado”, substituir a frase por “O relatório foi publicado”",
       "options": [
         {
@@ -4529,6 +4685,7 @@
     {
       "id": "q3795",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reescrita de “O parecer ainda não chegou” por “O parecer não chegou”",
       "options": [
         {
@@ -4558,6 +4715,7 @@
     {
       "id": "q3796",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No trecho “A falha continua”, a substituição por “A falha surgiu”",
       "options": [
         {
@@ -4587,6 +4745,7 @@
     {
       "id": "q3797",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "“Pelo menos cinco servidores recorreram” e “Mais de cinco servidores recorreram”",
       "options": [
         {
@@ -4616,6 +4775,7 @@
     {
       "id": "q3798",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual reescrita preserva melhor correção e conteúdo básico de “A comissão assistiu ao evento e depois analisou o relatório”?",
       "options": [
         {

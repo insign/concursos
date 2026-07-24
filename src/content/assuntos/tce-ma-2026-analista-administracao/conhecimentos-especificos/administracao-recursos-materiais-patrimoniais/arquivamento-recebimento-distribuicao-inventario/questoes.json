@@ -5,6 +5,7 @@
     {
       "id": "q1334",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Segundo a Lei nº 8.159/1991, podem integrar os arquivos da administração de materiais",
       "options": [
         {"id": "a", "text": "apenas documentos em papel assinados manualmente"},
@@ -19,6 +20,7 @@
     {
       "id": "q1335",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Gestão documental compreende",
       "options": [
         {"id": "a", "text": "somente o armazenamento de documentos permanentes"},
@@ -33,6 +35,7 @@
     {
       "id": "q1336",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A classificação arquivística de uma requisição de material",
       "options": [
         {"id": "a", "text": "torna o documento automaticamente secreto"},
@@ -47,6 +50,7 @@
     {
       "id": "q1337",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quanto ao prazo de guarda dos documentos de almoxarifado, é correto afirmar que",
       "options": [
         {"id": "a", "text": "todo documento deve ser eliminado após cinco anos"},
@@ -61,6 +65,7 @@
     {
       "id": "q1338",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Após digitalizar corretamente um dossiê de recebimento, o órgão",
       "options": [
         {"id": "a", "text": "deve destruir de imediato todos os originais"},
@@ -75,6 +80,7 @@
     {
       "id": "q1339",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma cópia de segurança isolada",
       "options": [
         {"id": "a", "text": "comprova por si só a autoria de todos os documentos"},
@@ -89,6 +95,7 @@
     {
       "id": "q1340",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na terminologia operacional da IN SEDAP nº 205/1988, o recebimento de material",
       "options": [
         {"id": "a", "text": "declara necessariamente a conformidade técnica definitiva"},
@@ -103,6 +110,7 @@
     {
       "id": "q1341",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando um equipamento volumoso é entregue diretamente na unidade técnica, fora do almoxarifado, essa entrega",
       "options": [
         {"id": "a", "text": "dispensa registro de entrada"},
@@ -117,6 +125,7 @@
     {
       "id": "q1342",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "É documento hábil de recebimento rotineiro expressamente relacionado na IN SEDAP nº 205/1988",
       "options": [
         {"id": "a", "text": "guia de produção para material produzido internamente"},
@@ -131,6 +140,7 @@
     {
       "id": "q1343",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um pedido prevê 30 caixas com 12 unidades cada, e são entregues 29 caixas completas. A conferência quantitativa registra",
       "options": [
         {"id": "a", "text": "30 unidades"},
@@ -145,6 +155,7 @@
     {
       "id": "q1344",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na triagem inicial de uma remessa, é adequado verificar",
       "options": [
         {"id": "a", "text": "apenas o preço de mercado atual"},
@@ -159,6 +170,7 @@
     {
       "id": "q1345",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A conferência qualitativa busca verificar",
       "options": [
         {"id": "a", "text": "apenas o número de volumes"},
@@ -173,6 +185,7 @@
     {
       "id": "q1346",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um equipamento especializado depende de teste técnico para aceite. Segundo a lógica da IN nº 205/1988, o exame qualitativo pode ser realizado",
       "options": [
         {"id": "a", "text": "por técnico especializado ou comissão especial"},
@@ -187,6 +200,7 @@
     {
       "id": "q1347",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A assinatura de comprovante que registra apenas dez volumes sem avaria aparente",
       "options": [
         {"id": "a", "text": "atesta necessariamente a quantidade interna e a qualidade de todos os itens"},
@@ -201,6 +215,7 @@
     {
       "id": "q1348",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para compras, o recebimento provisório previsto no art. 140 da Lei nº 14.133/2021 ocorre",
       "options": [
         {"id": "a", "text": "por comissão de inventário, após o pagamento"},
@@ -215,6 +230,7 @@
     {
       "id": "q1349",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O recebimento definitivo de compras na Lei nº 14.133/2021 deve ser realizado",
       "options": [
         {"id": "a", "text": "pelo entregador, em recibo simples"},
@@ -229,6 +245,7 @@
     {
       "id": "q1350",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se o objeto estiver em desacordo com o contrato, a Lei nº 14.133/2021 admite que ele seja",
       "options": [
         {"id": "a", "text": "rejeitado no todo ou em parte"},
@@ -243,6 +260,7 @@
     {
       "id": "q1351",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Ao identificar falta e avaria durante a conferência, a providência mais adequada é",
       "options": [
         {"id": "a", "text": "misturar os itens ao estoque disponível e corrigir depois"},
@@ -257,6 +275,7 @@
     {
       "id": "q1352",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A aceitação parcial de uma entrega",
       "options": [
         {"id": "a", "text": "é sempre proibida"},
@@ -271,6 +290,7 @@
     {
       "id": "q1353",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a sequência que distingue corretamente eventos do ciclo de materiais e da despesa",
       "options": [
         {"id": "a", "text": "pagamento é chegada; carga é nota fiscal; aceite é inventário"},
@@ -285,6 +305,7 @@
     {
       "id": "q1354",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Nos termos do art. 63 da Lei nº 4.320/1964, a liquidação da despesa por fornecimento de material considera",
       "options": [
         {"id": "a", "text": "somente a existência de saldo no almoxarifado"},
@@ -299,6 +320,7 @@
     {
       "id": "q1355",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No ciclo de materiais, proteção e conservação correspondem, respectivamente, a",
       "options": [
         {"id": "a", "text": "pagamento e liquidação"},
@@ -313,6 +335,7 @@
     {
       "id": "q1356",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um lote recebido está aguardando teste técnico. Até a decisão, ele deve",
       "options": [
         {"id": "a", "text": "permanecer identificado e segregado, sem compor o saldo livre"},
@@ -327,6 +350,7 @@
     {
       "id": "q1357",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A aplicação física do PEPS prioriza",
       "options": [
         {"id": "a", "text": "o item de maior preço"},
@@ -341,6 +365,7 @@
     {
       "id": "q1358",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando dois lotes têm datas de entrada diferentes, mas o lote mais novo vence antes, o critério FEFO/PVPS prioriza",
       "options": [
         {"id": "a", "text": "sempre o lote mais antigo, mesmo vencido"},
@@ -355,6 +380,7 @@
     {
       "id": "q1359",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Entre os cuidados de proteção previstos como referência na IN nº 205/1988 está",
       "options": [
         {"id": "a", "text": "bloquear corredores e extintores para ampliar capacidade"},
@@ -369,6 +395,7 @@
     {
       "id": "q1360",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um almoxarifado possui 900 unidades físicas: 700 disponíveis, 100 reservadas e 60 bloqueadas. Quantas unidades estão avariadas, se essas quatro condições esgotam o saldo físico?",
       "options": [
         {"id": "a", "text": "40"},
@@ -383,6 +410,7 @@
     {
       "id": "q1361",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Para material sensível a temperatura, evidência adequada de conservação pode incluir",
       "options": [
         {"id": "a", "text": "apenas a quantidade comprada"},
@@ -397,6 +425,7 @@
     {
       "id": "q1362",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No fornecimento por pressão descrito na IN nº 205/1988, o material é entregue",
       "options": [
         {"id": "a", "text": "apenas após requisição individual a cada entrega"},
@@ -411,6 +440,7 @@
     {
       "id": "q1363",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O fornecimento por requisição caracteriza-se por",
       "options": [
         {"id": "a", "text": "entrega automática em datas fixas"},
@@ -425,6 +455,7 @@
     {
       "id": "q1364",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma unidade requisita quantidade muito superior ao histórico. O almoxarifado deve",
       "options": [
         {"id": "a", "text": "negar sempre, sem conhecer a causa"},
@@ -439,6 +470,7 @@
     {
       "id": "q1365",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um fluxo controlado de distribuição, a sequência adequada é",
       "options": [
         {"id": "a", "text": "validar requisição, separar, conferir, registrar saída, entregar e obter confirmação"},
@@ -453,6 +485,7 @@
     {
       "id": "q1366",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na remessa de material para outra localidade, deve-se considerar",
       "options": [
         {"id": "a", "text": "somente a distância em quilômetros"},
@@ -467,6 +500,7 @@
     {
       "id": "q1367",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A confirmação de recebimento pelo destinatário de uma remessa",
       "options": [
         {"id": "a", "text": "apaga automaticamente qualquer ressalva registrada"},
@@ -481,6 +515,7 @@
     {
       "id": "q1368",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na referência da IN SEDAP nº 205/1988, um equipamento permanente deve, em regra, ser distribuído à unidade requisitante",
       "options": [
         {"id": "a", "text": "sem identificação individual"},
@@ -495,6 +530,7 @@
     {
       "id": "q1369",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário físico tem como finalidade principal",
       "options": [
         {"id": "a", "text": "imprimir a listagem do sistema sem observar os bens"},
@@ -509,6 +545,7 @@
     {
       "id": "q1370",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na IN SEDAP nº 205/1988, o inventário anual destina-se a comprovar quantidade e valor dos bens existentes",
       "options": [
         {"id": "a", "text": "na data de cada requisição"},
@@ -523,6 +560,7 @@
     {
       "id": "q1371",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário realizado quando da criação de uma unidade gestora é denominado",
       "options": [
         {"id": "a", "text": "inicial"},
@@ -537,6 +575,7 @@
     {
       "id": "q1372",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A mudança do dirigente de uma unidade gestora motiva, na classificação da IN nº 205/1988, inventário",
       "options": [
         {"id": "a", "text": "por amostragem obrigatório"},
@@ -551,6 +590,7 @@
     {
       "id": "q1373",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário realizado em qualquer época por iniciativa do dirigente ou do órgão fiscalizador é o",
       "options": [
         {"id": "a", "text": "inicial"},
@@ -565,6 +605,7 @@
     {
       "id": "q1374",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Inventário rotativo consiste em",
       "options": [
         {"id": "a", "text": "contar somente quando há desaparecimento"},
@@ -579,6 +620,7 @@
     {
       "id": "q1375",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Sobre inventário por amostragem, é correto afirmar que",
       "options": [
         {"id": "a", "text": "sempre substitui qualquer inventário integral exigido"},
@@ -593,6 +635,7 @@
     {
       "id": "q1376",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Quando não é possível paralisar entradas e saídas durante o inventário, o corte controlado serve para",
       "options": [
         {"id": "a", "text": "atribuir cada movimento ao momento correto e evitar dupla contagem ou omissão"},
@@ -607,6 +650,7 @@
     {
       "id": "q1377",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A contagem cega é um controle que",
       "options": [
         {"id": "a", "text": "impede identificar o item contado"},
@@ -621,6 +665,7 @@
     {
       "id": "q1378",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O saldo inicial era 500 unidades. Houve 180 entradas, 210 saídas e ajuste autorizado positivo de 5. O saldo esperado é",
       "options": [
         {"id": "a", "text": "465"},
@@ -635,6 +680,7 @@
     {
       "id": "q1379",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um inventário, 194 dos 200 itens contados não apresentaram divergência. A acurácia por itens foi",
       "options": [
         {"id": "a", "text": "3%"},
@@ -649,6 +695,7 @@
     {
       "id": "q1380",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma sobra física encontrada no inventário",
       "options": [
         {"id": "a", "text": "comprova automaticamente excelente gestão"},
@@ -663,6 +710,7 @@
     {
       "id": "q1381",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Confirmada uma diferença entre saldo físico e sistema, a sequência mais adequada é",
       "options": [
         {"id": "a", "text": "registrar, recontar, investigar documentos e movimentos, decidir, ajustar com autorização e monitorar"},
@@ -677,6 +725,7 @@
     {
       "id": "q1382",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O inventário analítico deve permitir a caracterização do material mediante",
       "options": [
         {"id": "a", "text": "somente o valor total da classe"},
@@ -691,6 +740,7 @@
     {
       "id": "q1383",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O sistema registra 500 unidades disponíveis. A contagem encontra 490, mas há uma saída documentada de 10 unidades durante o corte que ainda não foi processada. A conclusão correta é",
       "options": [
         {"id": "a", "text": "há necessariamente extravio de 10 unidades"},

@@ -10,6 +10,7 @@ const questionSet: QuestionSet = {
     {
       id: 'q1',
       revision: 1,
+      origin: 'authorial',
       prompt: 'Q1',
       options: [
         { id: 'a', text: 'A' },

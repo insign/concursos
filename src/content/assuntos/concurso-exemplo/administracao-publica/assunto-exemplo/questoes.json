@@ -5,6 +5,7 @@
     {
       "id": "q001",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual conceito compara os recursos utilizados com as entregas produzidas?",
       "options": [
         { "id": "a", "text": "Efetividade" },
@@ -17,6 +18,7 @@
     {
       "id": "q002",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O alcance de um objetivo previamente definido caracteriza principalmente qual conceito?",
       "options": [
         { "id": "a", "text": "Eficácia" },
@@ -29,6 +31,7 @@
     {
       "id": "q003",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um ciclo de gestão, qual etapa deve definir objetivos e indicadores?",
       "options": [
         { "id": "a", "text": "Avaliação" },
@@ -41,6 +44,7 @@
     {
       "id": "q004",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual evidência permite comparar o resultado observado com a meta?",
       "options": [
         { "id": "a", "text": "Um indicador mensurável" },
@@ -53,6 +57,7 @@
     {
       "id": "q005",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Efetividade está mais diretamente associada a qual resultado?",
       "options": [
         { "id": "a", "text": "Menor custo isoladamente" },
@@ -65,6 +70,7 @@
     {
       "id": "q006",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Depois de avaliar um desvio relevante, qual ação fecha o ciclo de melhoria?",
       "options": [
         { "id": "a", "text": "Ignorar a evidência" },
@@ -77,6 +83,7 @@
     {
       "id": "q007",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual prática melhora a auditabilidade de uma execução?",
       "options": [
         { "id": "a", "text": "Registrar evidências das ações" },
@@ -89,6 +96,7 @@
     {
       "id": "q008",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma entrega feita no prazo, mas que não alcança o objetivo, é necessariamente eficaz?",
       "options": [
         { "id": "a", "text": "Sim, porque respeitou o prazo" },
@@ -101,6 +109,7 @@
     {
       "id": "q009",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O que torna uma meta adequada para acompanhamento?",
       "options": [
         { "id": "a", "text": "Ser deliberadamente ambígua" },
@@ -113,6 +122,7 @@
     {
       "id": "q010",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual etapa produz os dados que serão usados na avaliação?",
       "options": [
         { "id": "a", "text": "Execução acompanhada" },
@@ -125,6 +135,7 @@
     {
       "id": "q011",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Se acertos e total forem iguais, qual é a taxa de acerto?",
       "options": [
         { "id": "a", "text": "0%" },
@@ -137,6 +148,7 @@
     {
       "id": "q012",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual sequência representa corretamente o ciclo apresentado no material?",
       "options": [
         { "id": "a", "text": "Avaliar, executar, planejar, esquecer" },

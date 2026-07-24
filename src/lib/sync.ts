@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { questionSetSchema, type QuestionSet } from './content-schema';
+import { syncQuestionSetSchema, type AnswerableQuestionSet } from './content-schema';
 import { NewerQuestionSetRevisionError, parseRemoteAnswerDocument } from './document-schema';
 import {
   buildAnswerDocumentId,
@@ -57,7 +57,7 @@ const syncCatalogSchema = z
         .object({
           contestStorageId: z.string(),
           subjectStorageId: z.string(),
-          questionSet: questionSetSchema,
+          questionSet: syncQuestionSetSchema,
         })
         .strict(),
     ),
@@ -267,7 +267,7 @@ export function recreationWarning(
 async function validatedRemote(
   profileId: string,
   documentId: string,
-  questionSet: QuestionSet,
+  questionSet: AnswerableQuestionSet,
   ensureLease: EnsureSyncLease,
 ): Promise<RemoteDocument<AnswerDocument> | null> {
   await ensureLease();
@@ -299,7 +299,7 @@ async function validatedRemote(
 async function synchronizeRecord(
   profileId: string,
   documentId: string,
-  questionSet: QuestionSet,
+  questionSet: AnswerableQuestionSet,
   ensureLease: EnsureSyncLease,
 ): Promise<void> {
   const remote = await validatedRemote(profileId, documentId, questionSet, ensureLease);
@@ -309,7 +309,7 @@ async function synchronizeRecord(
 async function applyAnswerRemote(
   profileId: string,
   documentId: string,
-  questionSet: QuestionSet,
+  questionSet: AnswerableQuestionSet,
   remote: RemoteDocument<AnswerDocument> | null,
   ensureLease: EnsureSyncLease,
 ): Promise<void> {
@@ -901,7 +901,7 @@ export async function prepareProfileAlias(
 export function synchronizeAnswerDocument(
   profileId: string,
   documentId: string,
-  questionSet: QuestionSet,
+  questionSet: AnswerableQuestionSet,
 ): Promise<boolean> {
   return enqueue(() =>
     runWithLease(async (ensureLease) => {

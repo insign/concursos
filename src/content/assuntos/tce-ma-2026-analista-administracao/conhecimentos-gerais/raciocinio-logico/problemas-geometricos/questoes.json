@@ -5,6 +5,7 @@
     {
       "id": "q5319",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O complemento de um ângulo de 38° mede:",
       "options": [
         { "id": "A", "text": "42°" },
@@ -18,6 +19,7 @@
     {
       "id": "q5320",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O suplemento de um ângulo de 127° mede:",
       "options": [
         { "id": "A", "text": "53°" },
@@ -31,6 +33,7 @@
     {
       "id": "q5321",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Duas retas se cruzam. Se um dos ângulos formados mede 68°, o ângulo oposto pelo vértice a ele mede:",
       "options": [
         { "id": "A", "text": "22°" },
@@ -44,6 +47,7 @@
     {
       "id": "q5322",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Duas retas paralelas são cortadas por uma transversal. Se um ângulo mede 115°, seu ângulo correspondente mede:",
       "options": [
         { "id": "A", "text": "65°" },
@@ -57,6 +61,7 @@
     {
       "id": "q5323",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois ângulos internos de um triângulo medem 48° e 67°. O terceiro mede:",
       "options": [
         { "id": "A", "text": "55°" },
@@ -70,6 +75,7 @@
     {
       "id": "q5324",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um triângulo, dois ângulos internos não adjacentes a certo ângulo externo medem 35° e 72°. Esse ângulo externo mede:",
       "options": [
         { "id": "A", "text": "37°" },
@@ -83,6 +89,7 @@
     {
       "id": "q5325",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Qual conjunto de comprimentos pode formar um triângulo não degenerado?",
       "options": [
         { "id": "A", "text": "5, 6 e 10" },
@@ -96,6 +103,7 @@
     {
       "id": "q5326",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um triângulo isósceles tem ângulo do vértice igual a 40°. Cada ângulo da base mede:",
       "options": [
         { "id": "A", "text": "40°" },
@@ -109,6 +117,7 @@
     {
       "id": "q5327",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O perímetro de um triângulo equilátero de lado 9 cm é:",
       "options": [
         { "id": "A", "text": "18 cm" },
@@ -122,6 +131,7 @@
     {
       "id": "q5328",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Três ângulos internos de um quadrilátero medem 80°, 95° e 105°. O quarto mede:",
       "options": [
         { "id": "A", "text": "70°" },
@@ -135,6 +145,7 @@
     {
       "id": "q5329",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A soma dos ângulos internos de um octógono simples é:",
       "options": [
         { "id": "A", "text": "720°" },
@@ -148,6 +159,7 @@
     {
       "id": "q5330",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Cada ângulo interno de um decágono regular mede:",
       "options": [
         { "id": "A", "text": "144°" },
@@ -161,6 +173,7 @@
     {
       "id": "q5331",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O número de diagonais de um hexágono convexo é:",
       "options": [
         { "id": "A", "text": "9" },
@@ -174,6 +187,7 @@
     {
       "id": "q5332",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um quadrado tem perímetro de 52 cm. A medida de seu lado é:",
       "options": [
         { "id": "A", "text": "12 cm" },
@@ -187,6 +201,7 @@
     {
       "id": "q5333",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área de um retângulo de 12 cm de comprimento e 8 cm de largura é:",
       "options": [
         { "id": "A", "text": "40 cm²" },
@@ -200,6 +215,7 @@
     {
       "id": "q5334",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um triângulo tem base de 14 cm e altura perpendicular de 9 cm. Sua área é:",
       "options": [
         { "id": "A", "text": "46 cm²" },
@@ -213,6 +229,7 @@
     {
       "id": "q5335",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área de um paralelogramo com base 12 cm e altura perpendicular 7 cm é:",
       "options": [
         { "id": "A", "text": "38 cm²" },
@@ -226,6 +243,7 @@
     {
       "id": "q5336",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um trapézio tem bases de 10 cm e 18 cm e altura perpendicular de 6 cm. Sua área é:",
       "options": [
         { "id": "A", "text": "54 cm²" },
@@ -239,6 +257,7 @@
     {
       "id": "q5337",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "As diagonais de um losango medem 12 cm e 16 cm. A área do losango é:",
       "options": [
         { "id": "A", "text": "48 cm²" },
@@ -252,6 +271,7 @@
     {
       "id": "q5338",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "De um retângulo de 10 cm por 8 cm foi retirado integralmente um quadrado de lado 3 cm, sem sobreposição restante. A área remanescente é:",
       "options": [
         { "id": "A", "text": "71 cm²" },
@@ -265,6 +285,7 @@
     {
       "id": "q5339",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um triângulo retângulo tem catetos de 6 cm e 8 cm. A hipotenusa mede:",
       "options": [
         { "id": "A", "text": "9 cm" },
@@ -278,6 +299,7 @@
     {
       "id": "q5340",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A hipotenusa de um triângulo retângulo mede 13 cm, e um cateto mede 5 cm. O outro cateto mede:",
       "options": [
         { "id": "A", "text": "12 cm" },
@@ -291,6 +313,7 @@
     {
       "id": "q5341",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diagonal de um quadrado de lado 6 cm mede:",
       "options": [
         { "id": "A", "text": "6 cm" },
@@ -304,6 +327,7 @@
     {
       "id": "q5342",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No plano cartesiano, a distância entre A(1, 2) e B(7, 10) é:",
       "options": [
         { "id": "A", "text": "8" },
@@ -317,6 +341,7 @@
     {
       "id": "q5343",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O ponto médio do segmento com extremos A(-2, 4) e B(6, 8) é:",
       "options": [
         { "id": "A", "text": "(2, 6)" },
@@ -330,6 +355,7 @@
     {
       "id": "q5344",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois triângulos são semelhantes. Um lado de 6 cm no menor corresponde a 9 cm no maior. Se outro lado do menor mede 8 cm, seu correspondente no maior mede:",
       "options": [
         { "id": "A", "text": "10 cm" },
@@ -343,6 +369,7 @@
     {
       "id": "q5345",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Duas figuras planas semelhantes têm razão entre comprimentos correspondentes igual a 3. A razão entre suas áreas, maior para menor, é:",
       "options": [
         { "id": "A", "text": "3" },
@@ -356,6 +383,7 @@
     {
       "id": "q5346",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Dois sólidos semelhantes têm razão linear igual a 2. A razão entre seus volumes, maior para menor, é:",
       "options": [
         { "id": "A", "text": "2" },
@@ -369,6 +397,7 @@
     {
       "id": "q5347",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Três retas paralelas determinam, em duas transversais, segmentos correspondentes de medidas 4 e 6 na primeira e x e 9 na segunda. O valor de x é:",
       "options": [
         { "id": "A", "text": "4" },
@@ -382,6 +411,7 @@
     {
       "id": "q5348",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em uma planta na escala 1:50, um segmento mede 8 cm. O comprimento real representado é:",
       "options": [
         { "id": "A", "text": "0,4 m" },
@@ -395,6 +425,7 @@
     {
       "id": "q5349",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em um mapa na escala 1:200.000, uma distância mede 3,5 cm. A distância real é:",
       "options": [
         { "id": "A", "text": "7 km" },
@@ -408,6 +439,7 @@
     {
       "id": "q5350",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma maquete usa razão linear 1:10 em relação ao objeto real. A razão entre a área de uma face da maquete e a área da face real correspondente é:",
       "options": [
         { "id": "A", "text": "1:10" },
@@ -421,6 +453,7 @@
     {
       "id": "q5351",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O comprimento de uma circunferência de raio 5 cm é:",
       "options": [
         { "id": "A", "text": "5π cm" },
@@ -434,6 +467,7 @@
     {
       "id": "q5352",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área de um círculo de raio 6 cm é:",
       "options": [
         { "id": "A", "text": "36π cm²" },
@@ -447,6 +481,7 @@
     {
       "id": "q5353",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área de um semicírculo de raio 4 cm é:",
       "options": [
         { "id": "A", "text": "4π cm²" },
@@ -460,6 +495,7 @@
     {
       "id": "q5354",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um arco de 90° pertence a uma circunferência de raio 8 cm. O comprimento desse arco é:",
       "options": [
         { "id": "A", "text": "2π cm" },
@@ -473,6 +509,7 @@
     {
       "id": "q5355",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área de um setor circular de 60° em um círculo de raio 6 cm é:",
       "options": [
         { "id": "A", "text": "3π cm²" },
@@ -486,6 +523,7 @@
     {
       "id": "q5356",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma coroa circular é limitada por círculos concêntricos de raios 5 cm e 3 cm. Sua área é:",
       "options": [
         { "id": "A", "text": "8π cm²" },
@@ -499,6 +537,7 @@
     {
       "id": "q5357",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma roda tem comprimento de circunferência igual a 2 m. Sem deslizamento, após 150 voltas ela percorre:",
       "options": [
         { "id": "A", "text": "75 m" },
@@ -512,6 +551,7 @@
     {
       "id": "q5358",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A diferença entre as áreas de dois círculos concêntricos de raios 10 cm e 6 cm é:",
       "options": [
         { "id": "A", "text": "64π cm²" },
@@ -525,6 +565,7 @@
     {
       "id": "q5359",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O volume de um cubo de aresta 4 cm é:",
       "options": [
         { "id": "A", "text": "64 cm³" },
@@ -538,6 +579,7 @@
     {
       "id": "q5360",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um paralelepípedo retângulo tem dimensões 3 cm, 4 cm e 10 cm. Seu volume é:",
       "options": [
         { "id": "A", "text": "17 cm³" },
@@ -551,6 +593,7 @@
     {
       "id": "q5361",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área total de um cubo de aresta 5 cm é:",
       "options": [
         { "id": "A", "text": "25 cm²" },
@@ -564,6 +607,7 @@
     {
       "id": "q5362",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um prisma reto tem área da base 20 cm², perímetro da base 18 cm e altura 7 cm. Sua área total é:",
       "options": [
         { "id": "A", "text": "126 cm²" },
@@ -577,6 +621,7 @@
     {
       "id": "q5363",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O volume de um cilindro circular reto de raio 3 cm e altura 10 cm é:",
       "options": [
         { "id": "A", "text": "30π cm³" },
@@ -590,6 +635,7 @@
     {
       "id": "q5364",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área lateral de um cilindro circular reto de raio 4 cm e altura 6 cm é:",
       "options": [
         { "id": "A", "text": "24π cm²" },
@@ -603,6 +649,7 @@
     {
       "id": "q5365",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O volume de um cone circular reto de raio 3 cm e altura 12 cm é:",
       "options": [
         { "id": "A", "text": "36π cm³" },
@@ -616,6 +663,7 @@
     {
       "id": "q5366",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma pirâmide tem área da base de 48 cm² e altura perpendicular de 9 cm. Seu volume é:",
       "options": [
         { "id": "A", "text": "96 cm³" },
@@ -629,6 +677,7 @@
     {
       "id": "q5367",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O volume de uma esfera de raio 3 cm é:",
       "options": [
         { "id": "A", "text": "27π cm³" },
@@ -642,6 +691,7 @@
     {
       "id": "q5368",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A área da superfície de uma esfera de raio 4 cm é:",
       "options": [
         { "id": "A", "text": "16π cm²" },
@@ -655,6 +705,7 @@
     {
       "id": "q5369",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um poliedro convexo tem 8 vértices e 12 arestas. Pela relação de Euler, ele possui:",
       "options": [
         { "id": "A", "text": "6 faces" },
@@ -668,6 +719,7 @@
     {
       "id": "q5370",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um prisma triangular possui quantos vértices, arestas e faces, respectivamente?",
       "options": [
         { "id": "A", "text": "5, 8 e 5" },
@@ -681,6 +733,7 @@
     {
       "id": "q5371",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Toda planificação válida da superfície de um cubo é composta por quantos quadrados congruentes?",
       "options": [
         { "id": "A", "text": "4" },
@@ -694,6 +747,7 @@
     {
       "id": "q5372",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um volume de 2 m³ corresponde a:",
       "options": [
         { "id": "A", "text": "2.000 L" },
@@ -707,6 +761,7 @@
     {
       "id": "q5373",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma área de 2.500 cm², expressa em metros quadrados, é:",
       "options": [
         { "id": "A", "text": "2,5 m²" },
@@ -720,6 +775,7 @@
     {
       "id": "q5374",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma capacidade de 0,8 litro corresponde a:",
       "options": [
         { "id": "A", "text": "80 cm³" },
@@ -733,6 +789,7 @@
     {
       "id": "q5375",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um reservatório em forma de paralelepípedo retângulo tem dimensões internas de 2 m, 1,5 m e 0,8 m. Sua capacidade total é:",
       "options": [
         { "id": "A", "text": "2.400 L" },
@@ -746,6 +803,7 @@
     {
       "id": "q5376",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Uma caixa retangular sem tampa tem base de 10 cm por 6 cm e altura de 4 cm. A área de material necessária, desconsiderando abas e espessura, é:",
       "options": [
         { "id": "A", "text": "128 cm²" },
@@ -759,6 +817,7 @@
     {
       "id": "q5377",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um cone e um cilindro têm bases de mesma área e alturas iguais. O volume do cone corresponde a:",
       "options": [
         { "id": "A", "text": "metade do volume do cilindro" },
@@ -772,6 +831,7 @@
     {
       "id": "q5378",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Um reservatório cilíndrico de raio 2 m e altura 5 m está preenchido até 3/4 de sua capacidade. O volume ocupado é:",
       "options": [
         { "id": "A", "text": "10π m³" },

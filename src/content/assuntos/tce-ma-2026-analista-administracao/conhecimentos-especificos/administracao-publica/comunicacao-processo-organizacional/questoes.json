@@ -5,6 +5,7 @@
     {
       "id": "q484",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em um aviso, a diretoria transforma sua intenção em texto antes de enviá-lo pelo sistema corporativo. Essa transformação corresponde à",
       "options": [
         {
@@ -34,6 +35,7 @@
     {
       "id": "q485",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "No processo de comunicação, qual elemento corresponde ao suporte pelo qual o conteúdo circula?",
       "options": [
         {
@@ -63,6 +65,7 @@
     {
       "id": "q486",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma unidade recebe uma instrução, interpreta-a e atribui-lhe significado. O ato descrito é a",
       "options": [
         {
@@ -92,6 +95,7 @@
     {
       "id": "q487",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A chefia envia uma orientação e a equipe devolve uma pergunta específica sobre sua aplicação. A pergunta funciona como",
       "options": [
         {
@@ -121,6 +125,7 @@
     {
       "id": "q488",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual situação exemplifica ruído semântico?",
       "options": [
         {
@@ -150,6 +155,7 @@
     {
       "id": "q489",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A comunicação organizacional exerce função de controle quando",
       "options": [
         {
@@ -179,6 +185,7 @@
     {
       "id": "q490",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual exemplo representa predominantemente a função motivacional da comunicação?",
       "options": [
         {
@@ -208,6 +215,7 @@
     {
       "id": "q491",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A expressão emocional, como função da comunicação, manifesta-se quando",
       "options": [
         {
@@ -237,6 +245,7 @@
     {
       "id": "q492",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A função informacional da comunicação oferece principalmente",
       "options": [
         {
@@ -266,6 +275,7 @@
     {
       "id": "q493",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um feedback de desempenho pode, simultaneamente, informar resultados, orientar comportamento e influenciar esforço. Isso demonstra que",
       "options": [
         {
@@ -295,6 +305,7 @@
     {
       "id": "q494",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A comunicação bidirecional distingue-se da unidirecional porque",
       "options": [
         {
@@ -324,6 +335,7 @@
     {
       "id": "q495",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Após receber um comunicado, a unidade responde apenas “ciente”. A conclusão tecnicamente mais segura é que",
       "options": [
         {
@@ -353,6 +365,7 @@
     {
       "id": "q496",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A comunicação formal caracteriza-se principalmente por",
       "options": [
         {
@@ -382,6 +395,7 @@
     {
       "id": "q497",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Sobre a comunicação informal, assinale a afirmação correta.",
       "options": [
         {
@@ -411,6 +425,7 @@
     {
       "id": "q498",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A rede de rumores tende a ganhar força quando",
       "options": [
         {
@@ -440,6 +455,7 @@
     {
       "id": "q499",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual resposta gerencial é mais adequada diante de um rumor relevante sobre mudança organizacional?",
       "options": [
         {
@@ -469,6 +485,7 @@
     {
       "id": "q500",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A transmissão de metas e instruções da direção para as unidades operacionais constitui fluxo",
       "options": [
         {
@@ -498,6 +515,7 @@
     {
       "id": "q501",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Relatórios de problemas e sugestões enviados por servidores à alta administração constituem fluxo",
       "options": [
         {
@@ -527,6 +545,7 @@
     {
       "id": "q502",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Duas diretorias de mesmo nível coordenam um cronograma comum. Predomina o fluxo",
       "options": [
         {
@@ -556,6 +575,7 @@
     {
       "id": "q503",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um analista de tecnologia conversa diretamente com a chefe de uma unidade finalística, situada em outro nível e área, para resolver incidente de projeto. Trata-se de fluxo",
       "options": [
         {
@@ -585,6 +605,7 @@
     {
       "id": "q504",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A expressão comunicação vertical abrange",
       "options": [
         {
@@ -614,6 +635,7 @@
     {
       "id": "q505",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual barreira é especialmente associada ao fluxo ascendente?",
       "options": [
         {
@@ -643,6 +665,7 @@
     {
       "id": "q506",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma videoconferência pode ser classificada simultaneamente como comunicação",
       "options": [
         {
@@ -672,6 +695,7 @@
     {
       "id": "q507",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quando o órgão precisa de registro consultável e os participantes estão em horários distintos, tende a ser adequada uma comunicação",
       "options": [
         {
@@ -701,6 +725,7 @@
     {
       "id": "q508",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A escolha de um canal deve considerar",
       "options": [
         {
@@ -730,6 +755,7 @@
     {
       "id": "q509",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a teoria da riqueza dos meios, um canal tende a ser mais rico quando",
       "options": [
         {
@@ -759,6 +785,7 @@
     {
       "id": "q510",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para divulgar a data objetiva de fechamento de um sistema a milhares de usuários, com necessidade de registro, é razoável priorizar",
       "options": [
         {
@@ -788,6 +815,7 @@
     {
       "id": "q511",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para negociar responsabilidades ambíguas em uma crise entre várias áreas, tende a ser útil",
       "options": [
         {
@@ -817,6 +845,7 @@
     {
       "id": "q512",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Incerteza e equivocidade diferenciam-se porque",
       "options": [
         {
@@ -846,6 +875,7 @@
     {
       "id": "q513",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "O aumento do volume de mensagens sem priorização pode",
       "options": [
         {
@@ -875,6 +905,7 @@
     {
       "id": "q514",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na rede em roda, a comunicação ocorre predominantemente",
       "options": [
         {
@@ -904,6 +935,7 @@
     {
       "id": "q515",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Em tarefas simples e rotineiras, redes centralizadas como a roda tendem a favorecer",
       "options": [
         {
@@ -933,6 +965,7 @@
     {
       "id": "q516",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A rede todos os canais caracteriza-se por",
       "options": [
         {
@@ -962,6 +995,7 @@
     {
       "id": "q517",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual rede liga, em regra, cada participante aos dois membros adjacentes?",
       "options": [
         {
@@ -991,6 +1025,7 @@
     {
       "id": "q518",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A rede em Y pode ser descrita como",
       "options": [
         {
@@ -1020,6 +1055,7 @@
     {
       "id": "q519",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na rede em cadeia, um risco frequente é",
       "options": [
         {
@@ -1049,6 +1085,7 @@
     {
       "id": "q520",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Para uma equipe enfrentar problema novo e complexo que exige combinar conhecimentos diversos, tende a ser mais adequada",
       "options": [
         {
@@ -1078,6 +1115,7 @@
     {
       "id": "q521",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A principal vulnerabilidade da rede em roda é",
       "options": [
         {
@@ -1107,6 +1145,7 @@
     {
       "id": "q522",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Comparando redes, é correto afirmar que",
       "options": [
         {
@@ -1136,6 +1175,7 @@
     {
       "id": "q523",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Uma equipe usa conexão total para deliberar, mas formaliza a decisão em processo eletrônico. Essa combinação demonstra que",
       "options": [
         {
@@ -1165,6 +1205,7 @@
     {
       "id": "q524",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Quando um servidor omite problemas para apresentar desempenho mais favorável à chefia, ocorre",
       "options": [
         {
@@ -1194,6 +1235,7 @@
     {
       "id": "q525",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Percepção seletiva ocorre quando o receptor",
       "options": [
         {
@@ -1223,6 +1265,7 @@
     {
       "id": "q526",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Qual prática caracteriza escuta ativa?",
       "options": [
         {
@@ -1252,6 +1295,7 @@
     {
       "id": "q527",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A distância de status pode prejudicar a comunicação porque",
       "options": [
         {
@@ -1281,6 +1325,7 @@
     {
       "id": "q528",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na perspectiva interpretativa, a comunicação é entendida principalmente como",
       "options": [
         {
@@ -1310,6 +1355,7 @@
     {
       "id": "q529",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A perspectiva crítica da comunicação organizacional enfatiza",
       "options": [
         {
@@ -1339,6 +1385,7 @@
     {
       "id": "q530",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "A perspectiva tradicional ou funcionalista tende a tratar a comunicação como",
       "options": [
         {
@@ -1368,6 +1415,7 @@
     {
       "id": "q531",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Segundo a Política Nacional de Linguagem Simples, é prática adequada",
       "options": [
         {
@@ -1397,6 +1445,7 @@
     {
       "id": "q532",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Um órgão altera o agendamento e usuários continuam seguindo a rotina antiga. A primeira resposta gerencial mais adequada é",
       "options": [
         {
@@ -1426,6 +1475,7 @@
     {
       "id": "q533",
       "revision": 2,
+      "origin": "authorial",
       "prompt": "Na comunicação pública, clareza e acessibilidade devem coexistir com",
       "options": [
         {
@@ -1455,6 +1505,7 @@
     {
       "id": "q534",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item de prova, afirmou-se que a comunicação atua na motivação, informação e expressão emocional, mas não no controle. A correção é:",
       "options": [
         {
@@ -1484,6 +1535,7 @@
     {
       "id": "q535",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Qual conjunto apresenta as quatro funções clássicas da comunicação dentro de grupos e organizações?",
       "options": [
         {
@@ -1513,6 +1565,7 @@
     {
       "id": "q536",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma questão sustenta que redes formais prevalecem e, por isso, redes informais devem ser desconsideradas. Essa conclusão é",
       "options": [
         {
@@ -1542,6 +1595,7 @@
     {
       "id": "q537",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Sobre a rede de rumores, qual afirmação é mais adequada?",
       "options": [
         {
@@ -1571,6 +1625,7 @@
     {
       "id": "q538",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Em item anterior, afirmou-se que controle e informação são funções da comunicação interpessoal. O julgamento conceitualmente correto é",
       "options": [
         {
@@ -1600,6 +1655,7 @@
     {
       "id": "q539",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Um plano de comunicação prevê mensagens da direção às equipes, relatórios das equipes à direção e coordenação entre áreas equivalentes. Os fluxos são, respectivamente,",
       "options": [
         {
@@ -1629,6 +1685,7 @@
     {
       "id": "q540",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma organização precisa comunicar decisão delicada e ambígua, permitir perguntas imediatas e depois preservar registro. A combinação mais adequada é",
       "options": [
         {
@@ -1658,6 +1715,7 @@
     {
       "id": "q541",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Associe a perspectiva interpretativa à afirmação que melhor a representa.",
       "options": [
         {
@@ -1687,6 +1745,7 @@
     {
       "id": "q542",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Ao perceber que um rumor sobre reestruturação se espalhou, a gestão deve",
       "options": [
         {
@@ -1716,6 +1775,7 @@
     {
       "id": "q543",
       "revision": 1,
+      "origin": "previous_exam",
       "prompt": "Uma devolutiva de desempenho informa o resultado, esclarece padrão esperado e incentiva melhoria. Nessa interação coexistem principalmente as funções de",
       "options": [
         {

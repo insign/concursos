@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { questionSetSchema } from './content-schema';
+import { syncQuestionSetSchema } from './content-schema';
 import { answerDocumentSchema } from './document-schema';
 import { buildAnswerDocumentId, ID_SEGMENT_PATTERN, validateUserAlias } from './identity';
 import {
@@ -61,7 +61,7 @@ const backupCatalogSchema = z
         .object({
           contestStorageId: contestStorageIdSchema,
           subjectStorageId: subjectStorageIdSchema,
-          questionSet: questionSetSchema,
+          questionSet: syncQuestionSetSchema,
         })
         .strict(),
     ),

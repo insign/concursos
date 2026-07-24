@@ -5,6 +5,7 @@
     {
       "id": "q234",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No enunciado “O belo pode ser difícil de definir”, a palavra “belo” é empregada como",
       "options": [
         { "id": "a", "text": "adjetivo que caracteriza um substantivo expresso." },
@@ -19,6 +20,7 @@
     {
       "id": "q235",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na classificação tradicional, a palavra “saudade” é substantivo abstrato porque designa",
       "options": [
         { "id": "a", "text": "uma entidade material que se pode tocar." },
@@ -33,6 +35,7 @@
     {
       "id": "q236",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito da classificação tradicional de substantivos, assinale a opção correta.",
       "options": [
         { "id": "a", "text": "Todo substantivo concreto designa objeto material e palpável." },
@@ -47,6 +50,7 @@
     {
       "id": "q237",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “O elenco chegou cedo para a reunião”, a forma verbal no singular se explica porque",
       "options": [
         { "id": "a", "text": "“elenco” é substantivo coletivo com forma singular e funciona como núcleo do sujeito." },
@@ -61,6 +65,7 @@
     {
       "id": "q238",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção que apresenta um substantivo comum de dois gêneros.",
       "options": [
         { "id": "a", "text": "a criança" },
@@ -75,6 +80,7 @@
     {
       "id": "q239",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A vítima prestou depoimento”, a classificação de “vítima” como substantivo sobrecomum decorre de",
       "options": [
         { "id": "a", "text": "apresentar uma forma para machos e outra para fêmeas." },
@@ -89,6 +95,7 @@
     {
       "id": "q240",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na expressão “a onça fêmea”, a indicação “fêmea” é usada porque “onça” é tradicionalmente classificada como substantivo",
       "options": [
         { "id": "a", "text": "epiceno." },
@@ -103,6 +110,7 @@
     {
       "id": "q241",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "O diminutivo em “O relator apresentou um parecerzinho insuficiente” pode transmitir, além de redução de tamanho, ideia de",
       "options": [
         { "id": "a", "text": "ordem dirigida ao leitor." },
@@ -117,6 +125,7 @@
     {
       "id": "q242",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Seu não foi definitivo”, a palavra “não” é classificada como substantivo porque",
       "options": [
         { "id": "a", "text": "nega obrigatoriamente um verbo." },
@@ -131,6 +140,7 @@
     {
       "id": "q243",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Um candidato apresentou recurso”, a palavra “um” é, predominantemente,",
       "options": [
         { "id": "a", "text": "artigo indefinido, pois introduz o substantivo sem destacar contagem." },
@@ -145,6 +155,7 @@
     {
       "id": "q244",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Foi aprovado um candidato, não dois”, a palavra “um” é numeral porque",
       "options": [
         { "id": "a", "text": "vem antes do substantivo." },
@@ -159,6 +170,7 @@
     {
       "id": "q245",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare “A ata foi aprovada” e “A comissão a aprovou”. A análise correta é:",
       "options": [
         { "id": "a", "text": "“a” é artigo nas duas ocorrências." },
@@ -173,6 +185,7 @@
     {
       "id": "q246",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A forma “do” em “a análise do processo” resulta da contração de",
       "options": [
         { "id": "a", "text": "de + o." },
@@ -187,6 +200,7 @@
     {
       "id": "q247",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A substituição de “Um servidor apresentou a proposta” por “O servidor apresentou a proposta” pode alterar o sentido porque",
       "options": [
         { "id": "a", "text": "o artigo definido tende a apresentar o referente como identificável no contexto." },
@@ -201,6 +215,7 @@
     {
       "id": "q248",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Um porquê precisa de explicação”, o artigo indefinido contribui para que “porquê” funcione como",
       "options": [
         { "id": "a", "text": "conjunção causal." },
@@ -215,6 +230,7 @@
     {
       "id": "q249",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No sintagma “controle financeiro”, a palavra “financeiro” exerce a função de",
       "options": [
         { "id": "a", "text": "quantificar o substantivo “controle”." },
@@ -229,6 +245,7 @@
     {
       "id": "q250",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção em que o adjetivo é uniforme em gênero.",
       "options": [
         { "id": "a", "text": "servidor atento / servidora atenta" },
@@ -243,6 +260,7 @@
     {
       "id": "q251",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “cultura maranhense”, o adjetivo “maranhense” é classificado como",
       "options": [
         { "id": "a", "text": "pátrio ou gentílico." },
@@ -257,6 +275,7 @@
     {
       "id": "q252",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A expressão “amor de mãe” é exemplo de locução adjetiva porque",
       "options": [
         { "id": "a", "text": "contém necessariamente dois verbos." },
@@ -271,6 +290,7 @@
     {
       "id": "q253",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Compare “o brasileiro participou da audiência” e “o cidadão brasileiro participou da audiência”. A análise correta é:",
       "options": [
         { "id": "a", "text": "“brasileiro” é artigo nos dois casos." },
@@ -285,6 +305,7 @@
     {
       "id": "q254",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A troca de “grande homem” por “homem grande” pode alterar o sentido porque",
       "options": [
         { "id": "a", "text": "o adjetivo deixa de concordar com o substantivo." },
@@ -299,6 +320,7 @@
     {
       "id": "q255",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção que apresenta comparativo de igualdade.",
       "options": [
         { "id": "a", "text": "A medida é muito útil." },
@@ -313,6 +335,7 @@
     {
       "id": "q256",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A forma “melhor”, em “Este parecer é melhor que o anterior”, é tradicionalmente classificada como",
       "options": [
         { "id": "a", "text": "comparativo sintético de superioridade." },
@@ -327,6 +350,7 @@
     {
       "id": "q257",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A solução é a mais econômica entre as propostas”, há superlativo",
       "options": [
         { "id": "a", "text": "absoluto sintético." },
@@ -341,6 +365,7 @@
     {
       "id": "q258",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No enunciado “A primeira etapa foi concluída”, a palavra “primeira” é numeral",
       "options": [
         { "id": "a", "text": "cardinal, pois informa quantidade." },
@@ -355,6 +380,7 @@
     {
       "id": "q259",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A respeito da flexão dos numerais, assinale a opção correta.",
       "options": [
         { "id": "a", "text": "“Mil” deve ir ao plural em “dois mil candidatos”." },
@@ -369,6 +395,7 @@
     {
       "id": "q260",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A reunião durou meia hora”, “meia” é numeral fracionário porque",
       "options": [
         { "id": "a", "text": "indica metade de uma unidade e concorda com “hora”." },
@@ -383,6 +410,7 @@
     {
       "id": "q261",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A quantidade de recursos foi o triplo da estimada”, a expressão “triplo” tem valor",
       "options": [
         { "id": "a", "text": "cardinal, pois informa uma quantidade simples." },
@@ -397,6 +425,7 @@
     {
       "id": "q262",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na expressão “ambas as propostas”, a palavra “ambas” equivale a",
       "options": [
         { "id": "a", "text": "nenhuma das propostas." },
@@ -411,6 +440,7 @@
     {
       "id": "q263",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Eles apresentaram o recurso”, a palavra “eles” é pronome pessoal",
       "options": [
         { "id": "a", "text": "reto, empregado como sujeito da oração." },
@@ -425,6 +455,7 @@
     {
       "id": "q264",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A comissão os convocou”, “os” é pronome pessoal oblíquo átono porque",
       "options": [
         { "id": "a", "text": "acompanha o substantivo “comissão”." },
@@ -439,6 +470,7 @@
     {
       "id": "q265",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção adequada à norma-padrão.",
       "options": [
         { "id": "a", "text": "O relatório é para mim redigir." },
@@ -453,6 +485,7 @@
     {
       "id": "q266",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na norma-padrão, a concordância adequada em “Vossa Excelência _____ por sua proposta” é",
       "options": [
         { "id": "a", "text": "decidistes" },
@@ -467,6 +500,7 @@
     {
       "id": "q267",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Minhas decisões foram revistas”, o possessivo “minhas” concorda em gênero e número com",
       "options": [
         { "id": "a", "text": "a pessoa que possui, obrigatoriamente feminina e plural." },
@@ -481,6 +515,7 @@
     {
       "id": "q268",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A reescrita que elimina a ambiguidade de “João informou a Pedro que seu recurso fora aceito”, preservando a indicação do possuidor, é",
       "options": [
         { "id": "a", "text": "“João informou a Pedro que o recurso fora aceito.”" },
@@ -495,6 +530,7 @@
     {
       "id": "q269",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No modelo tradicional de coesão textual, em “O edital contém uma regra importante: essa deve ser lida com atenção”, o demonstrativo “essa” tende a",
       "options": [
         { "id": "a", "text": "retomar a regra já mencionada." },
@@ -509,6 +545,7 @@
     {
       "id": "q270",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção correta acerca de “isto”, “isso” e “aquilo”.",
       "options": [
         { "id": "a", "text": "São formas neutras e não acompanham diretamente substantivo expresso." },
@@ -523,6 +560,7 @@
     {
       "id": "q271",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Esta candidata apresentou recurso”, “esta” é pronome demonstrativo empregado como",
       "options": [
         { "id": "a", "text": "pronome adjetivo, pois acompanha “candidata”." },
@@ -537,6 +575,7 @@
     {
       "id": "q272",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "No período “O assunto de que tratei será retomado”, a preposição “de” antes de “que” é exigida por",
       "options": [
         { "id": "a", "text": "concordância entre “assunto” e “que”." },
@@ -551,6 +590,7 @@
     {
       "id": "q273",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A opção adequada à norma-padrão é",
       "options": [
         { "id": "a", "text": "A autora cujas as obras foram estudadas compareceu." },
@@ -565,6 +605,7 @@
     {
       "id": "q274",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A autora cujas obras foram estudadas”, a forma “cujas” concorda com",
       "options": [
         { "id": "a", "text": "“autora”, que é feminino singular." },
@@ -579,6 +620,7 @@
     {
       "id": "q275",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Na norma-padrão, o emprego de “onde” é adequado em",
       "options": [
         { "id": "a", "text": "“A decisão onde discordamos foi publicada.”" },
@@ -593,6 +635,7 @@
     {
       "id": "q276",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A forma plural adequada do pronome indefinido “qualquer” é",
       "options": [
         { "id": "a", "text": "qualqueres" },
@@ -607,6 +650,7 @@
     {
       "id": "q277",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Não sei quem apresentou o recurso”, a palavra “quem” é pronome interrogativo empregado em",
       "options": [
         { "id": "a", "text": "pergunta indireta." },
@@ -621,6 +665,7 @@
     {
       "id": "q278",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a opção que contém pronome indefinido.",
       "options": [
         { "id": "a", "text": "Esta norma foi alterada." },
@@ -635,6 +680,7 @@
     {
       "id": "q279",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “A pessoa a quem me referi compareceu”, a preposição “a” é mantida antes de “quem” porque",
       "options": [
         { "id": "a", "text": "o pronome “quem” exige sempre a preposição “a”." },
@@ -649,6 +695,7 @@
     {
       "id": "q280",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Assinale a análise correta de “que” em “A norma que foi publicada entrou em vigor”.",
       "options": [
         { "id": "a", "text": "É pronome relativo e retoma “norma”." },
@@ -663,6 +710,7 @@
     {
       "id": "q281",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Em “Nenhum candidato apresentou recurso”, a palavra “nenhum” é pronome",
       "options": [
         { "id": "a", "text": "pessoal oblíquo." },
@@ -677,6 +725,7 @@
     {
       "id": "q282",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "A opção que preserva o emprego adequado de pronome relativo é",
       "options": [
         { "id": "a", "text": "“O processo cujo o prazo expirou foi arquivado.”" },
@@ -691,6 +740,7 @@
     {
       "id": "q283",
       "revision": 1,
+      "origin": "authorial",
       "prompt": "Considere: “Estas duas servidoras apresentaram seus recursos, mas ninguém soube informar qual deles seria analisado primeiro”. Assinale a opção correta.",
       "options": [
         { "id": "a", "text": "“Estas” é artigo definido, e “duas” é adjetivo." },
