@@ -1,0 +1,58 @@
+---
+interface Props {
+  contestSlug: string;
+  subjectSlug: string;
+  active: 'content' | 'cheat-sheet' | 'questions';
+}
+
+const { contestSlug, subjectSlug, active } = Astro.props;
+const base = `/concursos/${contestSlug}/${subjectSlug}`;
+
+const destinations = [
+  { id: 'cheat-sheet', label: 'Cheat sheet', href: `${base}/cheat-sheet/`, aria: 'Abrir cheat sheet' },
+  { id: 'questions', label: 'Questões', href: `${base}/questoes/`, aria: 'Abrir questões' },
+] as const;
+---
+
+<nav class="floating-shortcuts print-hidden" aria-label="Atalhos do assunto">
+  {/* Topo: visível por padrão para permanecer usável sem JavaScript; o script abaixo
+      o esconde enquanto o início da página estiver à vista. */}
+  <a class="floating-shortcut floating-shortcut-top" href="#study-top" data-shortcut-top aria-label="Voltar ao topo">
+    <span class="floating-shortcut-icon" aria-hidden="true">↑</span>
+    <span class="floating-shortcut-label">Topo</span>
+  </a>
+
+  {
+    destinations.map((destination) =>
+      active === destination.id ? (
+        <span class="floating-shortcut is-current" aria-current="page">
+          <span class="floating-shortcut-label">{destination.label}</span>
+        </span>
+      ) : (
+        <a class="floating-shortcut" href={destination.href} aria-label={destination.aria}>
+          <span class="floating-shortcut-label">{destination.label}</span>
+        </a>
+      ),
+    )
+  }
+</nav>
+
+<script>
+  const top = document.querySelector<HTMLElement>('[data-shortcut-top]');
+  const anchor = document.getElementById('study-top');
+
+  if (top && anchor && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        // Antes de esconder o atalho de topo, se ele detém o foco (usuário chegou por
+        // teclado e rolou ao topo), transfere o foco ao alvo de topo para não cair no <body>.
+        if (entry.isIntersecting && top.contains(document.activeElement)) {
+          anchor.focus();
+        }
+        // Início da página à vista -> esconde o atalho de topo; afastou -> mostra.
+        top.hidden = entry.isIntersecting;
+      }
+    });
+    observer.observe(anchor);
+  }
+</script>

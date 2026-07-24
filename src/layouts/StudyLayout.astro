@@ -1,5 +1,6 @@
 ---
 import SubjectNavigation from '../components/SubjectNavigation.astro';
+import FloatingShortcuts from '../components/FloatingShortcuts.astro';
 import BaseLayout from './BaseLayout.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
 
@@ -17,6 +18,7 @@ const subjectPath = (slug: string) => `/concursos/${contest.slug}/${slug}/`;
 
 <BaseLayout title={subject.title} description={subject.description} pageClass={`study-page ${active}`}>
   <main class="study-shell">
+    <span id="study-top" class="study-top-anchor" tabindex="-1"></span>
     <nav class="breadcrumbs print-hidden" aria-label="Caminho da página">
       <a href="/">Concursos</a>
       <span aria-hidden="true">/</span>
@@ -50,5 +52,7 @@ const subjectPath = (slug: string) => `/concursos/${contest.slug}/${slug}/`;
         {next ? <a rel="next" href={subjectPath(next.slug)}>{next.title} →</a> : <span />}
       </nav>
     )}
+
+    <FloatingShortcuts contestSlug={contest.slug} subjectSlug={subject.slug} active={active} />
   </main>
 </BaseLayout>
