@@ -17,6 +17,9 @@ const hasMermaid = subject.contentEntry.body?.includes('```mermaid') ?? false;
 ---
 
 <StudyLayout contest={contest} subject={subject} active="content">
+  <p class="reading-entry print-hidden">
+    <a href={`/concursos/${contest.slug}/${subject.slug}/leitura/`}>Ler sem distrações</a>
+  </p>
   <article>
     <Content />
   </article>
