@@ -602,6 +602,13 @@ a.subject-reading-link:hover {
   justify-content: space-between;
 }
 
+.reading-bar-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
 .reading-exit {
   display: inline-flex;
   align-items: center;
@@ -622,6 +629,181 @@ a.reading-exit:hover {
 
 .reading-title {
   margin-top: 0;
+}
+
+/* Esquemas de cor de leitura (#103): presets isolados que redefinem os tokens
+   semânticos apenas dentro do modo de leitura, garantindo contraste adequado
+   independentemente do tema global. 'auto' não define nada e segue o tema. */
+.reading-shell[data-reading-scheme='claro'] {
+  color-scheme: light;
+  --ink: #1b2a26;
+  --muted: #5a6b64;
+  --paper: #fffdf8;
+  --ground: #fffdf8;
+  --line: #ddd4c4;
+  --accent-strong: #17413b;
+  --signal: #8a3e2f;
+  --code-bg: #f2ece0;
+  --field-bg: #fff;
+}
+
+.reading-shell[data-reading-scheme='sepia'] {
+  color-scheme: light;
+  --ink: #43341f;
+  --muted: #786349;
+  --paper: #f2e8d2;
+  --ground: #f2e8d2;
+  --line: #d9c7a3;
+  --accent-strong: #6a4a1f;
+  --signal: #8f3b26;
+  --code-bg: #e8dabb;
+  --field-bg: #fbf4e4;
+}
+
+.reading-shell[data-reading-scheme='cinza'] {
+  color-scheme: dark;
+  --ink: #e8edef;
+  --muted: #aab4b7;
+  --paper: #33383b;
+  --ground: #33383b;
+  --line: #4c5457;
+  --accent-strong: #9cd7cb;
+  --signal: #e8a08d;
+  --code-bg: #3d4447;
+  --field-bg: #2b3033;
+}
+
+.reading-shell[data-reading-scheme='escuro'] {
+  color-scheme: dark;
+  --ink: #e7ece8;
+  --muted: #9ca9a4;
+  --paper: #14181a;
+  --ground: #14181a;
+  --line: #2f3a37;
+  --accent-strong: #8fd2c5;
+  --signal: #e2907c;
+  --code-bg: #1f2a27;
+  --field-bg: #0e1512;
+}
+
+/* Painel de ajustes de leitura (#103). */
+.reading-customizer {
+  position: relative;
+}
+
+.reading-customizer-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reading-customizer-toggle:hover {
+  color: var(--signal);
+}
+
+.reading-customizer-panel {
+  position: absolute;
+  z-index: 20;
+  inset-inline-start: 0;
+  margin-top: 0.5rem;
+  width: min(22rem, calc(100vw - 2rem));
+  padding: 1rem 1.1rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: var(--paper);
+  box-shadow: 0 1rem 3rem rgb(31 46 42 / 0.18);
+  font-family: var(--sans);
+}
+
+.reading-field {
+  margin-top: 1rem;
+}
+
+.reading-field:first-child {
+  margin-top: 0;
+}
+
+.reading-field > .reading-field-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+  font-size: var(--step--1);
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.reading-field-value {
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.reading-field input[type='range'] {
+  width: 100%;
+  accent-color: var(--accent-strong);
+}
+
+.reading-option-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.reading-option {
+  flex: 1 1 auto;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: var(--field-bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: var(--step--1);
+  cursor: pointer;
+}
+
+.reading-option[aria-pressed='true'] {
+  border-color: var(--accent-strong);
+  color: var(--accent-strong);
+  font-weight: 750;
+  box-shadow: inset 0 0 0 1px var(--accent-strong);
+}
+
+.reading-swatch {
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-inline-end: 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  vertical-align: -0.2rem;
+}
+
+.reading-customizer-reset {
+  margin-top: 1.1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: transparent;
+  color: var(--signal);
+  font-family: var(--sans);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reading-customizer-hint {
+  margin: 0.75rem 0 0;
+  font-size: var(--step--1);
+  color: var(--muted);
 }
 
 .study-shell {
@@ -728,7 +910,9 @@ a.floating-shortcut:hover {
 .reading-surface {
   width: min(100%, calc(var(--reading) + 6rem));
   margin-inline: auto;
-  padding: clamp(1.5rem, 5vw, 3rem);
+  padding-block: clamp(1.5rem, 5vw, 3rem);
+  /* Espaçamento lateral ajustável (#103): soma um recuo opcional ao padding base. */
+  padding-inline: calc(clamp(1.5rem, 5vw, 3rem) + var(--reading-pad, 0px));
   border: 1px solid var(--line);
   background: var(--paper);
   box-shadow: 0 1rem 3rem rgb(31 46 42 / 0.06);
@@ -737,6 +921,11 @@ a.floating-shortcut:hover {
 .reading-surface > article {
   max-width: var(--reading);
   margin-inline: auto;
+  /* Personalização de leitura (#103): os fallbacks reproduzem o padrão editorial,
+     de modo que a renderização estática (sem JS) já use a tipografia pretendida. */
+  font-family: var(--reading-font, 'Lora', Georgia, 'Times New Roman', serif);
+  font-size: var(--reading-size, 1.1875rem);
+  line-height: var(--reading-line, 1.7);
 }
 
 .reading-surface p,

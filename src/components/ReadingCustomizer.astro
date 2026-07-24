@@ -1,0 +1,326 @@
+---
+import {
+  READING_COLOR_SCHEMES,
+  READING_FONTS,
+  DEFAULT_READING_PREFERENCES,
+} from '../lib/reading-preferences';
+
+// Renderiza os controles no servidor a partir das listas canônicas; o script cliente
+// apenas aplica e persiste os valores. Os padrões marcados aqui refletem o SSR estático.
+const fonts = READING_FONTS;
+const schemes = READING_COLOR_SCHEMES;
+const d = DEFAULT_READING_PREFERENCES;
+---
+
+<div class="reading-customizer print-hidden" data-reading-customizer>
+  <button
+    type="button"
+    class="reading-customizer-toggle"
+    data-reading-toggle
+    aria-expanded="false"
+    aria-controls="reading-customizer-panel"
+  >
+    <span aria-hidden="true">Aa</span>
+    <span>Ajustes de leitura</span>
+  </button>
+
+  <div class="reading-customizer-panel" id="reading-customizer-panel" role="group" aria-label="Ajustes de leitura" hidden>
+    <div class="reading-field">
+      <div class="reading-field-label"><span>Fonte</span></div>
+      <div class="reading-option-group" data-reading-fonts>
+        {
+          fonts.map((font) => (
+            <button
+              type="button"
+              class="reading-option"
+              data-font={font.id}
+              aria-pressed={font.id === d.fontFamily ? 'true' : 'false'}
+            >
+              {font.label}
+            </button>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="reading-field">
+      <label class="reading-field-label" for="reading-font-size">
+        <span>Tamanho</span>
+        <span class="reading-field-value" data-value="fontSize">{d.fontSize}px</span>
+      </label>
+      <input
+        type="range"
+        id="reading-font-size"
+        data-range="fontSize"
+        min="15"
+        max="26"
+        step="1"
+        value={d.fontSize}
+      />
+    </div>
+
+    <div class="reading-field">
+      <label class="reading-field-label" for="reading-line-height">
+        <span>Altura da linha</span>
+        <span class="reading-field-value" data-value="lineHeight">{d.lineHeight.toFixed(2)}</span>
+      </label>
+      <input
+        type="range"
+        id="reading-line-height"
+        data-range="lineHeight"
+        min="1.3"
+        max="2.1"
+        step="0.05"
+        value={d.lineHeight}
+      />
+    </div>
+
+    <div class="reading-field">
+      <label class="reading-field-label" for="reading-content-width">
+        <span>Largura do texto</span>
+        <span class="reading-field-value" data-value="contentWidth">{d.contentWidth}ch</span>
+      </label>
+      <input
+        type="range"
+        id="reading-content-width"
+        data-range="contentWidth"
+        min="52"
+        max="92"
+        step="2"
+        value={d.contentWidth}
+      />
+    </div>
+
+    <div class="reading-field">
+      <label class="reading-field-label" for="reading-horizontal-spacing">
+        <span>Espaçamento lateral</span>
+        <span class="reading-field-value" data-value="horizontalSpacing">{d.horizontalSpacing}px</span>
+      </label>
+      <input
+        type="range"
+        id="reading-horizontal-spacing"
+        data-range="horizontalSpacing"
+        min="0"
+        max="48"
+        step="4"
+        value={d.horizontalSpacing}
+      />
+    </div>
+
+    <div class="reading-field">
+      <div class="reading-field-label"><span>Cores</span></div>
+      <div class="reading-option-group" data-reading-schemes>
+        {
+          schemes.map((scheme) => (
+            <button
+              type="button"
+              class="reading-option"
+              data-scheme={scheme.id}
+              aria-pressed={scheme.id === d.colorScheme ? 'true' : 'false'}
+            >
+              {scheme.background && (
+                <span
+                  class="reading-swatch"
+                  style={`background:${scheme.background};border-color:${scheme.text}`}
+                  aria-hidden="true"
+                />
+              )}
+              {scheme.label}
+            </button>
+          ))
+        }
+      </div>
+    </div>
+
+    <button type="button" class="reading-customizer-reset" data-reading-reset>
+      Restaurar padrão
+    </button>
+    <p class="reading-customizer-hint" data-reading-hint hidden>
+      Defina um alias em Configurações para salvar e sincronizar seus ajustes.
+    </p>
+  </div>
+</div>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import {
+    clampReadingPreferences,
+    DEFAULT_READING_PREFERENCES,
+    fontStackFor,
+    loadReadingPreferences,
+    saveReadingPreferences,
+    type ReadingFontId,
+    type ReadingPreferenceField,
+    type ReadingPreferences,
+  } from '../lib/reading-preferences';
+  import { requestProfileSync } from '../lib/sync';
+
+  const root = document.querySelector<HTMLElement>('[data-reading-customizer]');
+  const shell = document.querySelector<HTMLElement>('.reading-shell');
+  const toggle = root?.querySelector<HTMLButtonElement>('[data-reading-toggle]') ?? null;
+  const panel = root?.querySelector<HTMLElement>('#reading-customizer-panel') ?? null;
+
+  if (root && shell && toggle && panel) {
+    const alias = getActiveAlias();
+    let current: ReadingPreferences = { ...DEFAULT_READING_PREFERENCES };
+
+    // Aplica as preferências como custom properties/atributo no shell de leitura.
+    // Os fallbacks do CSS já reproduzem o padrão, então só definimos o que muda.
+    const apply = (prefs: ReadingPreferences) => {
+      shell.style.setProperty('--reading-font', fontStackFor(prefs.fontFamily));
+      shell.style.setProperty('--reading-size', `${prefs.fontSize}px`);
+      shell.style.setProperty('--reading-line', String(prefs.lineHeight));
+      shell.style.setProperty('--reading', `${prefs.contentWidth}ch`);
+      shell.style.setProperty('--reading-pad', `${prefs.horizontalSpacing}px`);
+      if (prefs.colorScheme === 'auto') shell.removeAttribute('data-reading-scheme');
+      else shell.dataset.readingScheme = prefs.colorScheme;
+    };
+
+    // Sincroniza os controles do painel com o estado atual.
+    const syncControls = (prefs: ReadingPreferences) => {
+      root.querySelectorAll<HTMLButtonElement>('[data-font]').forEach((button) => {
+        button.setAttribute('aria-pressed', button.dataset.font === prefs.fontFamily ? 'true' : 'false');
+      });
+      root.querySelectorAll<HTMLButtonElement>('[data-scheme]').forEach((button) => {
+        button.setAttribute('aria-pressed', button.dataset.scheme === prefs.colorScheme ? 'true' : 'false');
+      });
+      const ranges: Record<string, string> = {
+        fontSize: `${prefs.fontSize}px`,
+        lineHeight: prefs.lineHeight.toFixed(2),
+        contentWidth: `${prefs.contentWidth}ch`,
+        horizontalSpacing: `${prefs.horizontalSpacing}px`,
+      };
+      root.querySelectorAll<HTMLInputElement>('[data-range]').forEach((input) => {
+        const field = input.dataset.range as keyof typeof ranges;
+        input.value = String(prefs[field as ReadingPreferenceField]);
+        const label = root.querySelector<HTMLElement>(`[data-value="${field}"]`);
+        if (label) label.textContent = ranges[field];
+      });
+    };
+
+    const render = (prefs: ReadingPreferences) => {
+      current = prefs;
+      apply(prefs);
+      syncControls(prefs);
+    };
+
+    // Persistência com debounce por campo: aplica na hora, grava/sincroniza depois.
+    let persistTimer: ReturnType<typeof setTimeout> | undefined;
+    let inFlightWrites = 0;
+    const pendingFields = new Set<ReadingPreferenceField>();
+    // Verdadeiro enquanto houver edição local ainda não durável (debounce agendado ou gravação
+    // em voo). Um reload dirigido por sync NÃO pode sobrescrever `current` nessa janela, senão
+    // o valor antigo do IndexedDB reverteria o ajuste e o debounce pendente o persistiria de volta.
+    const hasLocalPending = () =>
+      pendingFields.size > 0 || persistTimer !== undefined || inFlightWrites > 0;
+    const persist = (field: ReadingPreferenceField) => {
+      if (!alias) return;
+      pendingFields.add(field);
+      if (persistTimer) clearTimeout(persistTimer);
+      persistTimer = setTimeout(() => {
+        persistTimer = undefined;
+        const fields = [...pendingFields];
+        pendingFields.clear();
+        const snapshot = current;
+        inFlightWrites += 1;
+        // .then(onOk, onErr): exatamente um dos ramos roda, então inFlightWrites decrementa uma vez
+        // só (um .catch encadeado também capturaria uma exceção do onOk e decrementaria em dobro).
+        void saveReadingPreferences(alias, snapshot, fields).then(
+          () => {
+            inFlightWrites -= 1;
+            void requestProfileSync(alias);
+          },
+          () => {
+            inFlightWrites -= 1;
+            // Falha ao gravar localmente: reverte ao estado durável, exceto se já houver nova edição.
+            if (!hasLocalPending()) void reloadFromStore();
+          },
+        );
+      }, 400);
+    };
+
+    const PERSISTABLE_FIELDS: ReadingPreferenceField[] = [
+      'fontFamily',
+      'fontSize',
+      'lineHeight',
+      'contentWidth',
+      'horizontalSpacing',
+      'colorScheme',
+    ];
+
+    const update = (field: ReadingPreferenceField, patch: Partial<ReadingPreferences>) => {
+      render(clampReadingPreferences({ ...current, ...patch }));
+      persist(field);
+    };
+
+    const reloadFromStore = async () => {
+      if (!alias) {
+        render({ ...DEFAULT_READING_PREFERENCES });
+        return;
+      }
+      const stored = await loadReadingPreferences(alias);
+      // Uma edição pode ter chegado durante a leitura assíncrona do IndexedDB; nesse caso não
+      // sobrescreve o ajuste ainda pendente (rechecagem após o await fecha a janela TOCTOU).
+      if (hasLocalPending()) return;
+      render(stored);
+    };
+
+    // Controles de fonte e cor (botões de opção).
+    root.querySelectorAll<HTMLButtonElement>('[data-font]').forEach((button) => {
+      button.addEventListener('click', () =>
+        update('fontFamily', { fontFamily: button.dataset.font as ReadingFontId }),
+      );
+    });
+    root.querySelectorAll<HTMLButtonElement>('[data-scheme]').forEach((button) => {
+      button.addEventListener('click', () =>
+        update('colorScheme', { colorScheme: button.dataset.scheme as ReadingPreferences['colorScheme'] }),
+      );
+    });
+    // Sliders numéricos.
+    root.querySelectorAll<HTMLInputElement>('[data-range]').forEach((input) => {
+      input.addEventListener('input', () => {
+        const field = input.dataset.range as ReadingPreferenceField;
+        update(field, { [field]: Number(input.value) } as Partial<ReadingPreferences>);
+      });
+    });
+
+    root.querySelector<HTMLButtonElement>('[data-reading-reset]')?.addEventListener('click', () => {
+      render({ ...DEFAULT_READING_PREFERENCES });
+      if (alias) PERSISTABLE_FIELDS.forEach((field) => persist(field));
+    });
+
+    // Abre/fecha o painel.
+    const setOpen = (open: boolean) => {
+      panel.hidden = !open;
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    toggle.addEventListener('click', () => setOpen(panel.hasAttribute('hidden')));
+    document.addEventListener('click', (event) => {
+      if (!panel.hidden && !root.contains(event.target as Node)) setOpen(false);
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !panel.hidden) {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+
+    if (!alias) root.querySelector<HTMLElement>('[data-reading-hint]')?.removeAttribute('hidden');
+
+    void reloadFromStore();
+    // Adota preferências salvas em outro dispositivo. No modo de leitura o Header não é montado,
+    // então esta aba NÃO tem o coordenador com BroadcastChannel/foco/visibilidade: ela sincroniza
+    // no load (este requestProfileSync, que anuncia `concursos:sync-status` ao concluir e dispara o
+    // reload abaixo) e após os próprios saves. Edições feitas em outra aba são adotadas ao reabrir a página.
+    if (alias) void requestProfileSync(alias);
+
+    window.addEventListener('concursos:sync-status', (event) => {
+      const state = (event as CustomEvent<{ state?: string }>).detail?.state;
+      // Só recarrega quando não há edição local pendente, para não descartar um ajuste ainda
+      // dentro da janela de debounce (o reload leria o valor durável antigo e o reverteria).
+      if (alias && (state === 'synced' || state === 'error') && !hasLocalPending()) {
+        void reloadFromStore();
+      }
+    });
+  }
+</script>
