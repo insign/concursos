@@ -1,10 +1,10 @@
 import type { APIRoute } from 'astro';
 import { getCatalog } from '../lib/catalog';
-import type { QuestionSet } from '../lib/content-schema';
+import type { QuestionSet, SyncQuestionSet } from '../lib/content-schema';
 
 export const prerender = true;
 
-function syncQuestionSet({ schemaVersion, questionSetRevision, questions }: QuestionSet) {
+function syncQuestionSet({ schemaVersion, questionSetRevision, questions }: QuestionSet): SyncQuestionSet {
   return {
     schemaVersion,
     questionSetRevision,
