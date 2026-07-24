@@ -28,6 +28,7 @@ const { contest } = Astro.props;
       <p class="eyebrow">Concurso</p>
       <h1>{contest.title}</h1>
       <p>{contest.description}</p>
+      <p><a href={`/simulados/?concurso=${contest.storageId}`}>Gerar simulado deste concurso</a></p>
     </header>
 
     <OfflineContestButton contestStorageId={contest.storageId} contestTitle={contest.title} />
