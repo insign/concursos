@@ -29,13 +29,60 @@ const Heading = `h${Math.min(depth + 2, 6)}` as 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
         </li>
       ) : (
         <li class="subject-group">
-          <section class="subject-group-section">
-            <Heading class="subject-group-title">{node.title}</Heading>
+          <details class="subject-group-section" open data-group-id={node.id}>
+            <summary class="subject-group-summary">
+              <Heading class="subject-group-title">{node.title}</Heading>
+            </summary>
             {node.description && <p class="subject-group-description">{node.description}</p>}
             <Astro.self contest={contest} nodes={node.children} depth={depth + 1} />
-          </section>
+          </details>
         </li>
       ),
     )
   }
 </ol>
+
+<script>
+  import {
+    CATALOG_GROUPS_STORAGE_KEY,
+    parseCollapsedGroups,
+    serializeCollapsedGroups,
+  } from '../lib/catalog-groups';
+
+  const groups = Array.from(
+    document.querySelectorAll<HTMLDetailsElement>('details.subject-group-section[data-group-id]'),
+  );
+
+  if (groups.length > 0) {
+    let collapsed = new Set<string>();
+    try {
+      collapsed = parseCollapsedGroups(localStorage.getItem(CATALOG_GROUPS_STORAGE_KEY));
+    } catch {
+      collapsed = new Set();
+    }
+
+    // Restaura o estado salvo antes de registrar os ouvintes de alternância.
+    for (const details of groups) {
+      const id = details.dataset.groupId;
+      if (id) details.open = !collapsed.has(id);
+    }
+
+    const persist = () => {
+      try {
+        localStorage.setItem(CATALOG_GROUPS_STORAGE_KEY, serializeCollapsedGroups(collapsed));
+      } catch {
+        // Sem localStorage gravável (modo privado, quota): apenas não persiste.
+      }
+    };
+
+    for (const details of groups) {
+      details.addEventListener('toggle', () => {
+        const id = details.dataset.groupId;
+        if (!id) return;
+        if (details.open) collapsed.delete(id);
+        else collapsed.add(id);
+        persist();
+      });
+    }
+  }
+</script>

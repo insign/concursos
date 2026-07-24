@@ -308,6 +308,44 @@ h3 {
   border-top: 2px solid var(--accent);
 }
 
+.subject-group-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.subject-group-summary::-webkit-details-marker {
+  display: none;
+}
+
+.subject-group-summary::before {
+  content: '';
+  flex: none;
+  width: 0.5em;
+  height: 0.5em;
+  border-top: 0.16em solid var(--accent-strong);
+  border-right: 0.16em solid var(--accent-strong);
+  transform: rotate(45deg);
+  transition: transform 150ms ease;
+}
+
+.subject-group-section[open] > .subject-group-summary::before {
+  transform: rotate(135deg);
+}
+
+.subject-group-summary:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .subject-group-summary::before {
+    transition: none;
+  }
+}
+
 .subject-group-title {
   margin: 0;
   color: var(--accent-strong);
