@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import SubjectPagination from '../components/SubjectPagination.astro';
 import StudiedToggle from '../components/StudiedToggle.astro';
+import ReadingCustomizer from '../components/ReadingCustomizer.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
 
 interface Props {
@@ -19,7 +20,10 @@ const exitHref = `/concursos/${contest.slug}/${subject.slug}/`;
 <BaseLayout title={subject.title} description={subject.description} pageClass="reading-page" hideHeader>
   <main class="reading-shell">
     <div class="reading-bar print-hidden">
-      <StudiedToggle contestStorageId={contest.storageId} subjectStorageId={subject.storageId} />
+      <div class="reading-bar-controls">
+        <StudiedToggle contestStorageId={contest.storageId} subjectStorageId={subject.storageId} />
+        <ReadingCustomizer />
+      </div>
       <a class="reading-exit" href={exitHref} data-reading-exit>
         <span class="reading-exit-icon" aria-hidden="true">✕</span>
         <span>Sair da leitura</span>
