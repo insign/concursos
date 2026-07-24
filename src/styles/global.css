@@ -794,6 +794,27 @@ a.floating-shortcut:hover {
   text-align: right;
 }
 
+.subject-pagination-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--accent-strong);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a.subject-pagination-link:hover {
+  color: var(--signal);
+}
+
+.subject-pagination-next {
+  justify-content: flex-end;
+}
+
+.subject-pagination-label {
+  overflow-wrap: anywhere;
+}
+
 .empty-state {
   padding: 2rem;
   border: 1px dashed var(--line);
@@ -1190,6 +1211,12 @@ a.floating-shortcut:hover {
 
   .subject-pagination > :last-child {
     text-align: left;
+  }
+
+  /* Empilhado em coluna única, o "próximo" alinha à esquerda como o "anterior"
+     (justify-content vence text-align em itens flex). */
+  .subject-pagination-next {
+    justify-content: flex-start;
   }
 
   .questionnaire-settings {
