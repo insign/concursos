@@ -1,0 +1,63 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CatalogContest, CatalogSubject } from '../lib/catalog';
+
+interface Props {
+  contest: CatalogContest;
+  subject: CatalogSubject;
+  // Só adiciona um h1 com o título quando o próprio conteúdo não começa com um h1,
+  // evitando duplicar o cabeçalho principal e garantindo exatamente um h1.
+  showTitle?: boolean;
+}
+
+const { contest, subject, showTitle = true } = Astro.props;
+const exitHref = `/concursos/${contest.slug}/${subject.slug}/`;
+---
+
+<BaseLayout title={subject.title} description={subject.description} pageClass="reading-page" hideHeader>
+  <main class="reading-shell">
+    <div class="reading-bar print-hidden">
+      <a class="reading-exit" href={exitHref} data-reading-exit>
+        <span class="reading-exit-icon" aria-hidden="true">✕</span>
+        <span>Sair da leitura</span>
+      </a>
+    </div>
+    <div class="reading-surface">
+      <article>
+        {showTitle && <h1 class="reading-title">{subject.title}</h1>}
+        <slot />
+      </article>
+    </div>
+  </main>
+</BaseLayout>
+
+<script>
+  const exit = document.querySelector<HTMLAnchorElement>('[data-reading-exit]');
+
+  // Retorna à tela anterior preservando a rolagem quando o usuário veio de dentro do
+  // site; caso contrário, a navegação segue para a página do assunto (link nativo).
+  const cameFromApp = () => {
+    if (history.length <= 1 || !document.referrer) return false;
+    try {
+      return new URL(document.referrer).origin === location.origin;
+    } catch {
+      return false;
+    }
+  };
+
+  exit?.addEventListener('click', (event) => {
+    if (cameFromApp()) {
+      event.preventDefault();
+      history.back();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || event.defaultPrevented) return;
+    if (cameFromApp()) {
+      history.back();
+    } else if (exit) {
+      location.assign(exit.href);
+    }
+  });
+</script>
