@@ -6,8 +6,19 @@ import {
   SyncLeaseLostError,
   whenLocalWritesSettled,
 } from './offline-db';
-import { synchronizePendingSimulados } from './simulados-sync';
-import { requestProfileSync } from './sync';
+import {
+  applySimuladosPreflight,
+  readSimuladosPreflight,
+  synchronizePendingSimulados,
+  type SimuladosPreflight,
+  type SimuladosSyncHooks,
+} from './simulados-sync';
+import {
+  prepareProfileAlias,
+  requestProfileSync,
+  type ProfilePreparationOptions,
+  type ProfilePreparationResult,
+} from './sync';
 
 const leaseName = 'answer-sync';
 const ownerId =
@@ -29,9 +40,33 @@ async function beforeRequest(): Promise<void> {
   lastRequestAt = Date.now();
 }
 
-async function runSimuladosSync(profileId: string): Promise<boolean> {
+function announceSimulados(profileId: string, failures: number): void {
+  if (typeof window === 'undefined') return;
+  window.dispatchEvent(
+    new CustomEvent('concursos:simulados-synced', {
+      detail: { profileId, failures },
+    }),
+  );
+}
+
+function announceError(error: unknown): void {
+  if (typeof window === 'undefined') return;
+  window.dispatchEvent(
+    new CustomEvent('concursos:sync-status', {
+      detail: {
+        state: 'error',
+        message: error instanceof Error ? error.message : 'Falha ao sincronizar simulados',
+      },
+    }),
+  );
+}
+
+async function withSimuladosLease<T>(
+  operation: (hooks: SimuladosSyncHooks) => Promise<T>,
+): Promise<T> {
   const acquired = await acquireSyncLease(leaseName, ownerId, 30_000);
-  if (!acquired) return false;
+  if (!acquired) throw new Error('Outra sincronização está preparando os simulados');
+
   let leaseError: unknown;
   let heartbeatPromise = Promise.resolve();
   const renew = async () => {
@@ -51,32 +86,66 @@ async function runSimuladosSync(profileId: string): Promise<boolean> {
   const heartbeat = setInterval(() => {
     heartbeatPromise = heartbeatPromise.then(renew).catch(() => undefined);
   }, 10_000);
+
   try {
     await whenLocalWritesSettled();
-    const result = await synchronizePendingSimulados(profileId, { ensureLease, beforeRequest });
-    window.dispatchEvent(
-      new CustomEvent('concursos:simulados-synced', {
-        detail: { profileId, failures: result.failures },
-      }),
-    );
-    return result.failures === 0;
-  } catch (error) {
-    if (!(error instanceof SyncLeaseLostError)) {
-      window.dispatchEvent(
-        new CustomEvent('concursos:sync-status', {
-          detail: {
-            state: 'error',
-            message: error instanceof Error ? error.message : 'Falha ao sincronizar simulados',
-          },
-        }),
-      );
-    }
-    return false;
+    return await operation({ ensureLease, beforeRequest });
   } finally {
     clearInterval(heartbeat);
     await heartbeatPromise;
     await releaseSyncLease(leaseName, ownerId);
   }
+}
+
+function remoteSimuladoCount(preflight: SimuladosPreflight): number {
+  return Number(preflight.index !== null) + preflight.details.filter((detail) => detail.remote !== null).length;
+}
+
+async function runSimuladosSync(profileId: string): Promise<boolean> {
+  try {
+    const result = await withSimuladosLease((hooks) =>
+      synchronizePendingSimulados(profileId, hooks),
+    );
+    announceSimulados(profileId, result.failures);
+    return result.failures === 0;
+  } catch (error) {
+    if (!(error instanceof SyncLeaseLostError)) announceError(error);
+    return false;
+  }
+}
+
+export async function prepareCompleteProfileAlias(
+  profileId: string,
+  options: ProfilePreparationOptions = {},
+): Promise<ProfilePreparationResult> {
+  return enqueue(async () => {
+    // Inspeciona e valida todos os documentos de simulados antes de permitir que o
+    // preflight base publique qualquer estado local para o alias de destino.
+    const inspected = await withSimuladosLease((hooks) =>
+      readSimuladosPreflight(profileId, hooks),
+    );
+    const inspectedCount = remoteSimuladoCount(inspected);
+
+    const base = await prepareProfileAlias(profileId, {
+      onPreflightComplete: (result) => {
+        options.onPreflightComplete?.({
+          remoteDocumentCount: result.remoteDocumentCount + inspectedCount,
+        });
+      },
+    });
+
+    // Releia sob lease depois da confirmação: o remoto pode ter avançado enquanto
+    // o usuário decidia, e a arbitragem deve usar a versão atual, não o snapshot da UI.
+    const currentSimuladoCount = await withSimuladosLease(async (hooks) => {
+      const preflight = await readSimuladosPreflight(profileId, hooks);
+      await applySimuladosPreflight(profileId, preflight, hooks);
+      return remoteSimuladoCount(preflight);
+    });
+
+    return {
+      remoteDocumentCount: base.remoteDocumentCount + currentSimuladoCount,
+    };
+  });
 }
 
 export async function requestCompleteProfileSync(
