@@ -5,6 +5,7 @@ import {
   buildAnswerDocumentId,
   buildPreferencesDocumentId,
   buildProgressDocumentId,
+  buildStudiedDocumentId,
 } from '../../src/lib/identity';
 import {
   deleteOfflineDatabase,
@@ -46,6 +47,7 @@ const catalog = {
   subjects: [{ contestStorageId: 'tse', subjectStorageId: 'portugues', questionSet: syncQuestionSet }],
 };
 const preferencesId = buildPreferencesDocumentId(profileId);
+const estudadosId = buildStudiedDocumentId(profileId);
 const answerId = buildAnswerDocumentId(profileId, 'tse', 'portugues');
 const progressId = buildProgressDocumentId(profileId);
 
@@ -196,7 +198,7 @@ describe('alias profile preflight', () => {
     const { requests } = installFetchMock({ remotes });
 
     await expect(prepareProfileAlias(profileId)).resolves.toEqual({ remoteDocumentCount: 3 });
-    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
+    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET', 'GET']);
     expect(await getSharedDocumentRecord('preferences', profileId)).toMatchObject({
       remoteVersion: 4,
       outboxState: 'clean',
@@ -213,7 +215,7 @@ describe('alias profile preflight', () => {
 
     requests.length = 0;
     await expect(prepareProfileAlias(profileId)).resolves.toEqual({ remoteDocumentCount: 3 });
-    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
+    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET', 'GET']);
 
     await saveSharedDocument(
       'preferences',
@@ -237,6 +239,7 @@ describe('alias profile preflight', () => {
     await expect(prepareProfileAlias(profileId)).resolves.toEqual({ remoteDocumentCount: 3 });
     expect(requests.map(({ method, id }) => `${method} ${id}`)).toEqual([
       `GET ${preferencesId}`,
+      `GET ${estudadosId}`,
       `GET ${answerId}`,
       `GET ${progressId}`,
       `PUT ${preferencesId}`,
@@ -263,11 +266,38 @@ describe('alias profile preflight', () => {
     });
   }, 15_000);
 
+  it('adopts a remote studied document during the preflight without writing', async () => {
+    const remotes = new Map<string, MockRemoteDocument>([
+      [
+        estudadosId,
+        {
+          version: 5,
+          createdAt: '2026-07-23T12:00:00.000Z',
+          json: {
+            schemaVersion: 1,
+            studiedSubjectIds: ['tse--portugues'],
+            updatedAt: '2026-07-23T12:00:00.000Z',
+          },
+        },
+      ],
+    ]);
+    const { requests } = installFetchMock({ remotes });
+
+    await expect(prepareProfileAlias(profileId)).resolves.toEqual({ remoteDocumentCount: 1 });
+    expect(requests.some(({ method }) => method === 'PUT')).toBe(false);
+    expect(requests.every(({ hasAuthorization }) => !hasAuthorization)).toBe(true);
+    expect(await getSharedDocumentRecord('estudados', profileId)).toMatchObject({
+      remoteVersion: 5,
+      outboxState: 'clean',
+      current: { studiedSubjectIds: ['tse--portugues'] },
+    });
+  }, 10_000);
+
   it('leaves a completely new alias empty after the read-only preflight', async () => {
     const { requests } = installFetchMock();
 
     await expect(prepareProfileAlias(profileId)).resolves.toEqual({ remoteDocumentCount: 0 });
-    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
+    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET', 'GET']);
     expect(await getSharedDocumentRecord('preferences', profileId)).toBeUndefined();
     expect(await getLocalAnswerRecord(answerId)).toBeUndefined();
     expect(await getSharedDocumentRecord('progress', profileId)).toBeUndefined();
@@ -294,7 +324,7 @@ describe('alias profile preflight', () => {
         },
       }),
     ).rejects.toThrow('Outra aba assumiu a coordenação da sincronização');
-    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
+    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET', 'GET']);
     expect(await getSharedDocumentRecord('preferences', profileId)).toBeUndefined();
     expect(await getLocalAnswerRecord(answerId)).toBeUndefined();
     expect(await getSharedDocumentRecord('progress', profileId)).toBeUndefined();
@@ -308,13 +338,14 @@ describe('alias profile preflight', () => {
       prepareProfileAlias(profileId, {
         onPreflightComplete: (result) => {
           expect(result.remoteDocumentCount).toBe(0);
-          expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
+          expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET', 'GET']);
         },
       }),
     ).resolves.toEqual({ remoteDocumentCount: 0 });
 
     expect(requests.map(({ method, id }) => `${method} ${id}`)).toEqual([
       `GET ${preferencesId}`,
+      `GET ${estudadosId}`,
       `GET ${answerId}`,
       `GET ${progressId}`,
       `PUT ${preferencesId}`,
@@ -363,7 +394,7 @@ describe('alias profile preflight', () => {
     await expect(prepareProfileAlias(profileId)).rejects.toThrow(
       'documento de progresso remoto usa a revisão editorial 2',
     );
-    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET']);
+    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET', 'GET']);
     expect(requests.some(({ method }) => method === 'PUT')).toBe(false);
     const quarantined = await (await openOfflineDb()).getAll('quarantine');
     expect(quarantined).toHaveLength(1);

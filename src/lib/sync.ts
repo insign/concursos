@@ -5,6 +5,7 @@ import {
   buildAnswerDocumentId,
   buildPreferencesDocumentId,
   buildProgressDocumentId,
+  buildStudiedDocumentId,
   getActiveAlias,
 } from './identity';
 import { KvClientError, readKv, writeKv } from './kv-client';
@@ -48,6 +49,7 @@ import {
   type AnswerDocument,
   type CorrectionMode,
 } from './questionnaire';
+import { studiedSchema, type StudiedDocument } from './studied';
 
 const syncCatalogSchema = z
   .object({
@@ -75,6 +77,7 @@ interface RemoteDocument<T> {
 interface ProfilePreflight {
   catalog: SyncCatalogEntry[];
   preferences: RemoteDocument<Preferences> | null;
+  estudados: RemoteDocument<StudiedDocument> | null;
   answers: Array<{
     documentId: string;
     entry: SyncCatalogEntry;
@@ -414,7 +417,7 @@ async function sharedSyncPreconditionsMet(
   return true;
 }
 
-async function validatedSharedRemote<T extends Preferences | ProgressDocument>(
+async function validatedSharedRemote<T extends Preferences | ProgressDocument | StudiedDocument>(
   profileId: string,
   storeName: SharedStoreName,
   documentId: string,
@@ -432,7 +435,12 @@ async function validatedSharedRemote<T extends Preferences | ProgressDocument>(
   await ensureLease();
   if (!envelope) return null;
 
-  const schema = storeName === 'preferences' ? preferencesSchema : progressSchema;
+  const schema =
+    storeName === 'preferences'
+      ? preferencesSchema
+      : storeName === 'estudados'
+        ? studiedSchema
+        : progressSchema;
   const parsed = schema.safeParse(envelope.json);
   if (!parsed.success) {
     const reason = `Documento remoto de ${storeName} inválido`;
@@ -456,7 +464,7 @@ async function synchronizeSharedDocument(
 ): Promise<boolean> {
   let record = await getSharedDocumentRecord(storeName, profileId);
   if (!(await sharedSyncPreconditionsMet(profileId, record, options))) return false;
-  const remote = await validatedSharedRemote<Preferences | ProgressDocument>(
+  const remote = await validatedSharedRemote<Preferences | ProgressDocument | StudiedDocument>(
     profileId,
     storeName,
     documentId,
@@ -471,7 +479,7 @@ async function applySharedRemote(
   profileId: string,
   storeName: SharedStoreName,
   documentId: string,
-  remoteSnapshot: RemoteDocument<Preferences | ProgressDocument> | null,
+  remoteSnapshot: RemoteDocument<Preferences | ProgressDocument | StudiedDocument> | null,
   ensureLease: EnsureSyncLease,
   options: SharedSyncOptions = {},
   allowPublish = true,
@@ -563,7 +571,7 @@ async function applySharedRemote(
 
   if (!record) return true;
   if (!allowPublish) return true;
-  let localDocument: Preferences | ProgressDocument;
+  let localDocument: Preferences | ProgressDocument | StudiedDocument;
   let preferenceCorrectionChanged = false;
   if (storeName === 'preferences') {
     const local = preferencesSchema.safeParse(record.current);
@@ -573,6 +581,10 @@ async function applySharedRemote(
     preferenceCorrectionChanged =
       (base.success ? base.data.correctionMode : DEFAULT_PREFERENCES.correctionMode) !==
         localDocument.correctionMode;
+  } else if (storeName === 'estudados') {
+    const local = studiedSchema.safeParse(record.current);
+    if (!local.success) throw new Error('Documento local de estudados inválido');
+    localDocument = local.data;
   } else {
     const local = progressSchema.safeParse(record.current);
     if (!local.success) throw new Error('Documento local de progress inválido');
@@ -700,6 +712,12 @@ async function readProfilePreflight(
     buildPreferencesDocumentId(profileId),
     ensureLease,
   );
+  const estudados = await validatedSharedRemote<StudiedDocument>(
+    profileId,
+    'estudados',
+    buildStudiedDocumentId(profileId),
+    ensureLease,
+  );
   const answers: ProfilePreflight['answers'] = [];
   // Keep reads serial so the shared request gate and lease cover every catalog entry.
   for (const entry of catalog) {
@@ -734,7 +752,7 @@ async function readProfilePreflight(
     }
   }
 
-  const preflight = { catalog, preferences, answers, progress };
+  const preflight = { catalog, preferences, estudados, answers, progress };
   await validateLocalPreflightState(profileId, preflight);
   return preflight;
 }
@@ -752,6 +770,16 @@ async function applyProfilePreflight(
     ensureLease,
   );
   if (!preferencesApplied) throw new Error('As preferências mudaram durante a vinculação');
+
+  // Estudados é um documento global independente (sem acoplamento a preferences/progress).
+  const estudadosApplied = await applySharedRemote(
+    profileId,
+    'estudados',
+    buildStudiedDocumentId(profileId),
+    preflight.estudados,
+    ensureLease,
+  );
+  if (!estudadosApplied) throw new Error('Os assuntos estudados mudaram durante a vinculação');
 
   const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
   if (preferencesRecord?.outboxState === 'pending') {
@@ -828,10 +856,12 @@ async function applyProfilePreflight(
   if (!progressApplied) throw new Error('O progresso mudou durante a vinculação');
 
   const finalPreferences = await getSharedDocumentRecord('preferences', profileId);
+  const finalEstudados = await getSharedDocumentRecord('estudados', profileId);
   const finalPendingAnswers = await listPendingAnswerRecords(profileId);
   const finalProgress = await getSharedDocumentRecord('progress', profileId);
   if (
     finalPreferences?.outboxState === 'pending' ||
+    finalEstudados?.outboxState === 'pending' ||
     finalPendingAnswers.some((record) => answerDocumentIds.has(record.documentId)) ||
     finalProgress?.outboxState === 'pending'
   ) {
@@ -886,6 +916,7 @@ export async function prepareProfileAlias(
       result = {
         remoteDocumentCount:
           Number(preflight.preferences !== null) +
+          Number(preflight.estudados !== null) +
           preflight.answers.filter((answer) => answer.remote !== null).length +
           Number(preflight.progress !== null),
       };
@@ -961,6 +992,33 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
       const preferencesStillPending =
         (await getSharedDocumentRecord('preferences', profileId))?.outboxState === 'pending';
       if (preferencesStillPending && !preferenceSyncFailed) failures += 1;
+
+      // Estudados: documento global independente, mesma máquina de sincronização.
+      const estudadosRecord = await getSharedDocumentRecord('estudados', profileId);
+      const estudadosKey = `${profileId}:estudados`;
+      let estudadosSyncFailed = false;
+      if (
+        estudadosRecord?.outboxState === 'pending' ||
+        Date.now() - (lastSharedSyncAt.get(estudadosKey) ?? 0) >= 30_000
+      ) {
+        try {
+          await synchronizeSharedDocument(
+            profileId,
+            'estudados',
+            buildStudiedDocumentId(profileId),
+            ensureLease,
+          );
+          lastSharedSyncAt.set(estudadosKey, Date.now());
+        } catch (error) {
+          if (error instanceof SyncLeaseLostError) throw error;
+          failures += 1;
+          estudadosSyncFailed = true;
+        }
+      }
+      const estudadosStillPending =
+        (await getSharedDocumentRecord('estudados', profileId))?.outboxState === 'pending';
+      if (estudadosStillPending && !estudadosSyncFailed) failures += 1;
+
       await ensureLease();
       const catalog = await loadSyncCatalog();
       await ensureLease();
