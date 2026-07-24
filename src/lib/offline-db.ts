@@ -3,7 +3,7 @@ import { NewerQuestionSetRevisionError } from './document-schema';
 import type { AnswerDocument } from './questionnaire';
 
 export const OFFLINE_DB_NAME = 'concursos-offline';
-const OFFLINE_DB_VERSION = 1;
+const OFFLINE_DB_VERSION = 2;
 
 export type OutboxState = 'clean' | 'pending';
 
@@ -105,6 +105,10 @@ interface ConcursosDbSchema extends DBSchema {
     key: string;
     value: LocalSharedDocumentRecord;
   };
+  estudados: {
+    key: string;
+    value: LocalSharedDocumentRecord;
+  };
   downloads: {
     key: string;
     value: OfflineContestRecord;
@@ -131,14 +135,31 @@ function trackWrite<T>(write: Promise<T>): Promise<T> {
 export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
   databasePromise ??= openDB<ConcursosDbSchema>(OFFLINE_DB_NAME, OFFLINE_DB_VERSION, {
     upgrade(database) {
-      const responses = database.createObjectStore('responses', { keyPath: 'documentId' });
-      responses.createIndex('by-profile', 'profileId');
-      responses.createIndex('by-profile-outbox', ['profileId', 'outboxState']);
-      database.createObjectStore('preferences', { keyPath: 'profileId' });
-      database.createObjectStore('progress', { keyPath: 'profileId' });
-      database.createObjectStore('downloads', { keyPath: 'contestStorageId' });
-      database.createObjectStore('leases', { keyPath: 'name' });
-      database.createObjectStore('quarantine', { keyPath: 'id', autoIncrement: true });
+      // Migração aditiva e idempotente: cria apenas os stores ausentes, para que o bump
+      // de versão (v1 -> v2, que adicionou 'estudados') não recrie stores já existentes.
+      if (!database.objectStoreNames.contains('responses')) {
+        const responses = database.createObjectStore('responses', { keyPath: 'documentId' });
+        responses.createIndex('by-profile', 'profileId');
+        responses.createIndex('by-profile-outbox', ['profileId', 'outboxState']);
+      }
+      if (!database.objectStoreNames.contains('preferences')) {
+        database.createObjectStore('preferences', { keyPath: 'profileId' });
+      }
+      if (!database.objectStoreNames.contains('progress')) {
+        database.createObjectStore('progress', { keyPath: 'profileId' });
+      }
+      if (!database.objectStoreNames.contains('estudados')) {
+        database.createObjectStore('estudados', { keyPath: 'profileId' });
+      }
+      if (!database.objectStoreNames.contains('downloads')) {
+        database.createObjectStore('downloads', { keyPath: 'contestStorageId' });
+      }
+      if (!database.objectStoreNames.contains('leases')) {
+        database.createObjectStore('leases', { keyPath: 'name' });
+      }
+      if (!database.objectStoreNames.contains('quarantine')) {
+        database.createObjectStore('quarantine', { keyPath: 'id', autoIncrement: true });
+      }
     },
   });
   return databasePromise;
@@ -148,7 +169,7 @@ export async function getLocalAnswerRecord(documentId: string): Promise<LocalAns
   return (await openOfflineDb()).get('responses', documentId);
 }
 
-export type SharedStoreName = 'preferences' | 'progress';
+export type SharedStoreName = 'preferences' | 'progress' | 'estudados';
 
 export interface SharedDocumentUpdate {
   storeName: SharedStoreName;
@@ -183,15 +204,17 @@ export function updateSharedDocuments(
 ): Promise<void> {
   const write = (async () => {
     const database = await openOfflineDb();
-    const transaction = database.transaction(['preferences', 'progress'], 'readwrite');
+    const transaction = database.transaction(['preferences', 'progress', 'estudados'], 'readwrite');
     const updatedAt = Date.now();
     const records = {
       preferences: await transaction.objectStore('preferences').get(profileId),
       progress: await transaction.objectStore('progress').get(profileId),
+      estudados: await transaction.objectStore('estudados').get(profileId),
     };
     const documents: Record<SharedStoreName, unknown | undefined> = {
       preferences: records.preferences?.current,
       progress: records.progress?.current,
+      estudados: records.estudados?.current,
     };
 
     for (const update of updates) {
@@ -285,9 +308,12 @@ export function markSharedDocumentSynced(input: MarkSharedSyncedInput): Promise<
     }
     const database = await openOfflineDb();
     const progressUpdate = input.progressUpdate;
-    const transaction = progressUpdate
-      ? database.transaction(['preferences', 'progress'], 'readwrite')
-      : database.transaction(input.storeName, 'readwrite');
+    // Lista tipada como SharedStoreName[] para manter um único tipo de transação
+    // (evita a união de tipos que torna transaction.objectStore não-chamável).
+    const storeNames: SharedStoreName[] = progressUpdate
+      ? ['preferences', 'progress']
+      : [input.storeName];
+    const transaction = database.transaction(storeNames, 'readwrite');
     const store = transaction.objectStore(input.storeName);
     const existing = await store.get(input.profileId);
     const progressStore = progressUpdate ? transaction.objectStore('progress') : null;
@@ -762,12 +788,18 @@ export function quarantineRemoteDocument(record: Omit<QuarantineRecord, 'id' | '
 
 export async function hasPendingOutbox(profileId: string): Promise<boolean> {
   const database = await openOfflineDb();
-  const [answerCount, preferences, progress] = await Promise.all([
+  const [answerCount, preferences, progress, studied] = await Promise.all([
     database.countFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']),
     database.get('preferences', profileId),
     database.get('progress', profileId),
+    database.get('estudados', profileId),
   ]);
-  return answerCount > 0 || preferences?.outboxState === 'pending' || progress?.outboxState === 'pending';
+  return (
+    answerCount > 0 ||
+    preferences?.outboxState === 'pending' ||
+    progress?.outboxState === 'pending' ||
+    studied?.outboxState === 'pending'
+  );
 }
 
 export function discardPendingProfile(profileId: string): Promise<void> {
@@ -798,7 +830,7 @@ export function discardPendingProfile(profileId: string): Promise<void> {
 
     await transaction.done;
 
-    for (const storeName of ['preferences', 'progress'] as const) {
+    for (const storeName of ['preferences', 'progress', 'estudados'] as const) {
       const sharedTransaction = database.transaction(storeName, 'readwrite');
       const shared = await sharedTransaction.store.get(profileId);
       if (shared?.outboxState === 'pending') {
