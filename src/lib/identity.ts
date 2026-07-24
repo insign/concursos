@@ -67,6 +67,10 @@ export function buildStudiedDocumentId(alias: string): string {
   return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--estudados`);
 }
 
+export function buildReadingPreferencesDocumentId(alias: string): string {
+  return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--leitura`);
+}
+
 export function isAliasEasyToGuess(alias: string): boolean {
   return alias.length < 10 || !/\d/.test(alias) || !alias.includes('-');
 }
