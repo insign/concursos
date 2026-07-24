@@ -91,6 +91,16 @@ async function fetchWithTimeout(request: Request): Promise<Response> {
   }
 }
 
+async function downloadedResourceFirstFallback(request: Request): Promise<Response> {
+  const downloaded = await matchActiveContestCaches([request]);
+  if (!downloaded) return fetch(request);
+  try {
+    return await fetchWithTimeout(request);
+  } catch {
+    return downloaded;
+  }
+}
+
 registerRoute(({ url }) => url.origin === 'https://kv.helio.me', new NetworkOnly());
 
 registerRoute(
@@ -111,6 +121,14 @@ registerRoute(
       return (await matchPrecache('/offline/index.html')) ?? Response.error();
     }
   },
+);
+
+registerRoute(
+  ({ request, url }) =>
+    url.origin === worker.location.origin &&
+    request.method === 'GET' &&
+    (url.pathname === '/simulados/catalog.json' || url.pathname.startsWith('/simulados/pool/')),
+  ({ request }) => downloadedResourceFirstFallback(request),
 );
 
 registerRoute(

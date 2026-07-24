@@ -71,6 +71,28 @@ export function buildReadingPreferencesDocumentId(alias: string): string {
   return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--leitura`);
 }
 
+// Identificador de simulado gerado no cliente (crypto.randomUUID -> UUID v4, 36 chars).
+// Aceita hex minúsculo no formato 8-4-4-4-12; casa ID_SEGMENT_PATTERN, mas o comprimento
+// (36) exige validação própria, distinta dos segmentos de alias/concurso/assunto.
+const SIMULADO_ID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
+
+export function validateSimuladoId(simuladoId: string): string {
+  if (!SIMULADO_ID_PATTERN.test(simuladoId)) {
+    throw new IdentityValidationError('ID de simulado deve ser um UUID válido');
+  }
+  return simuladoId;
+}
+
+export function buildSimuladoDocumentId(alias: string, simuladoId: string): string {
+  return assertRemoteIdLength(
+    `concursos--${validateUserAlias(alias)}--simulado--${validateSimuladoId(simuladoId)}`,
+  );
+}
+
+export function buildSimuladosIndexDocumentId(alias: string): string {
+  return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--simulados`);
+}
+
 export function isAliasEasyToGuess(alias: string): boolean {
   return alias.length < 10 || !/\d/.test(alias) || !alias.includes('-');
 }

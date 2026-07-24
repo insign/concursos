@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/simulados.css';
+---
+
+<BaseLayout
+  title="Simulados personalizados"
+  description="Gere, retome e revise simulados personalizados por concurso, assunto e origem das questões."
+>
+  <main class="simulados-shell">
+    <header class="simulados-intro">
+      <p class="eyebrow">Treino personalizado</p>
+      <h1>Simulados personalizados</h1>
+      <p>
+        Escolha o concurso, os assuntos, a origem e a quantidade. A seleção fica congelada para você
+        sair, retomar e revisar o mesmo simulado depois.
+      </p>
+    </header>
+
+    <p class="simulado-warning" data-alias-warning hidden>
+      Defina um alias público em <a href="/configuracoes/">Configurações</a> para criar e sincronizar
+      simulados entre dispositivos.
+    </p>
+
+    <div class="simulados-grid">
+      <section class="simulados-panel" aria-labelledby="simulado-config-title">
+        <h2 id="simulado-config-title">Gerar simulado</h2>
+        <form class="simulado-form" data-simulado-form>
+          <div class="simulado-field">
+            <label for="simulado-contest">Concurso ou cargo</label>
+            <select id="simulado-contest" data-contest required disabled>
+              <option value="">Carregando catálogo…</option>
+            </select>
+          </div>
+
+          <fieldset class="simulado-subjects" data-subjects disabled>
+            <legend>Assuntos</legend>
+            <label class="simulado-subject-option">
+              <input type="checkbox" data-select-all-subjects />
+              <span>Selecionar todos os assuntos disponíveis</span>
+            </label>
+            <div class="simulado-subject-list" data-subject-list></div>
+          </fieldset>
+
+          <div class="simulado-field">
+            <label for="simulado-origin">Origem das questões</label>
+            <select id="simulado-origin" data-origin>
+              <option value="all">Todas</option>
+              <option value="previous_exam">Concursos anteriores</option>
+              <option value="authorial">Autorais</option>
+            </select>
+          </div>
+
+          <div class="simulado-field">
+            <label for="simulado-count">Quantidade de questões</label>
+            <input id="simulado-count" data-count type="number" min="1" value="10" inputmode="numeric" />
+            <div class="simulado-actions" aria-label="Quantidades rápidas">
+              <button class="secondary" type="button" data-quick-count="10">10</button>
+              <button class="secondary" type="button" data-quick-count="20">20</button>
+              <button class="secondary" type="button" data-quick-count="40">40</button>
+              <button class="secondary" type="button" data-quick-count="60">60</button>
+            </div>
+          </div>
+
+          <p class="simulado-availability" data-availability aria-live="polite">
+            Selecione pelo menos um assunto.
+          </p>
+          <p class="simulado-help" data-config-summary></p>
+          <button type="submit" data-generate disabled>Gerar simulado</button>
+        </form>
+      </section>
+
+      <section class="simulados-panel" aria-labelledby="recent-title">
+        <h2 id="recent-title">Simulados recentes</h2>
+        <p class="simulado-help">Os 20 mais recentes ficam associados ao alias ativo.</p>
+        <ul class="simulados-list" data-recent-list>
+          <li>Nenhum simulado carregado.</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="simulados-panel simulado-resolver" data-resolver hidden aria-labelledby="resolver-title">
+      <div class="simulado-resolver-header">
+        <div>
+          <p class="eyebrow" data-resolver-eyebrow>Simulado em andamento</p>
+          <h2 id="resolver-title" data-resolver-title>Resolver simulado</h2>
+          <p class="simulado-meta" data-resolver-meta></p>
+        </div>
+        <a class="simulado-link-button" href="/simulados/">Nova configuração</a>
+      </div>
+      <div class="simulado-result" data-result hidden></div>
+      <ol class="simulado-question-list" data-question-list></ol>
+      <div class="simulado-actions" data-resolver-actions></div>
+    </section>
+
+    <p class="simulado-status" data-status role="status" aria-live="polite"></p>
+  </main>
+</BaseLayout>
+
+<script>
+  import '../../lib/simulados-controller';
+</script>

@@ -1,11 +1,31 @@
 import { deleteDB, openDB, type DBSchema, type IDBPDatabase } from 'idb';
 import { NewerQuestionSetRevisionError } from './document-schema';
 import type { AnswerDocument } from './questionnaire';
+import type { SimuladoDocument } from './simulados';
 
 export const OFFLINE_DB_NAME = 'concursos-offline';
-const OFFLINE_DB_VERSION = 3;
+const OFFLINE_DB_VERSION = 4;
 
 export type OutboxState = 'clean' | 'pending';
+
+// Registro local de um simulado detalhado (MÚLTIPLOS por perfil, keyed por documentId), espelhando
+// o store `responses`. É um documento autossuficiente (carrega os snapshots), então usa
+// last-write-wins por documento inteiro — sem rastreio de campos sujos.
+export interface LocalSimuladoRecord {
+  documentId: string;
+  profileId: string;
+  current: SimuladoDocument;
+  base: SimuladoDocument | null;
+  remoteVersion: number | null;
+  remoteCreatedAt: string | null;
+  outboxState: OutboxState;
+  attempts: number;
+  nextAttemptAt: number | null;
+  lastError: string | null;
+  conflictWarning: string | null;
+  localRevision: number;
+  updatedAt: number;
+}
 
 export interface LocalAnswerRecord {
   documentId: string;
@@ -113,6 +133,18 @@ interface ConcursosDbSchema extends DBSchema {
     key: string;
     value: LocalSharedDocumentRecord;
   };
+  simulados: {
+    key: string;
+    value: LocalSimuladoRecord;
+    indexes: {
+      'by-profile': string;
+      'by-profile-outbox': [string, OutboxState];
+    };
+  };
+  simuladosIndex: {
+    key: string;
+    value: LocalSharedDocumentRecord;
+  };
   downloads: {
     key: string;
     value: OfflineContestRecord;
@@ -139,8 +171,9 @@ function trackWrite<T>(write: Promise<T>): Promise<T> {
 export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
   databasePromise ??= openDB<ConcursosDbSchema>(OFFLINE_DB_NAME, OFFLINE_DB_VERSION, {
     upgrade(database) {
-      // Migração aditiva e idempotente: cria apenas os stores ausentes, para que o bump
-      // de versão (v1 -> v2, que adicionou 'estudados') não recrie stores já existentes.
+      // Migração aditiva e idempotente: cria apenas os stores ausentes, para que os bumps
+      // de versão (v1->v2 'estudados', v2->v3 'leitura', v3->v4 'simulados'/'simuladosIndex')
+      // não recriem stores já existentes.
       if (!database.objectStoreNames.contains('responses')) {
         const responses = database.createObjectStore('responses', { keyPath: 'documentId' });
         responses.createIndex('by-profile', 'profileId');
@@ -157,6 +190,15 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
       }
       if (!database.objectStoreNames.contains('leitura')) {
         database.createObjectStore('leitura', { keyPath: 'profileId' });
+      }
+      // v3 -> v4: simulados detalhados (keyed por documentId, como responses) e o índice singleton.
+      if (!database.objectStoreNames.contains('simulados')) {
+        const simulados = database.createObjectStore('simulados', { keyPath: 'documentId' });
+        simulados.createIndex('by-profile', 'profileId');
+        simulados.createIndex('by-profile-outbox', ['profileId', 'outboxState']);
+      }
+      if (!database.objectStoreNames.contains('simuladosIndex')) {
+        database.createObjectStore('simuladosIndex', { keyPath: 'profileId' });
       }
       if (!database.objectStoreNames.contains('downloads')) {
         database.createObjectStore('downloads', { keyPath: 'contestStorageId' });
@@ -176,7 +218,7 @@ export async function getLocalAnswerRecord(documentId: string): Promise<LocalAns
   return (await openOfflineDb()).get('responses', documentId);
 }
 
-export type SharedStoreName = 'preferences' | 'progress' | 'estudados' | 'leitura';
+export type SharedStoreName = 'preferences' | 'progress' | 'estudados' | 'leitura' | 'simuladosIndex';
 
 export interface SharedDocumentUpdate {
   storeName: SharedStoreName;
@@ -212,7 +254,7 @@ export function updateSharedDocuments(
   const write = (async () => {
     const database = await openOfflineDb();
     const transaction = database.transaction(
-      ['preferences', 'progress', 'estudados', 'leitura'],
+      ['preferences', 'progress', 'estudados', 'leitura', 'simuladosIndex'],
       'readwrite',
     );
     const updatedAt = Date.now();
@@ -221,12 +263,14 @@ export function updateSharedDocuments(
       progress: await transaction.objectStore('progress').get(profileId),
       estudados: await transaction.objectStore('estudados').get(profileId),
       leitura: await transaction.objectStore('leitura').get(profileId),
+      simuladosIndex: await transaction.objectStore('simuladosIndex').get(profileId),
     };
     const documents: Record<SharedStoreName, unknown | undefined> = {
       preferences: records.preferences?.current,
       progress: records.progress?.current,
       estudados: records.estudados?.current,
       leitura: records.leitura?.current,
+      simuladosIndex: records.simuladosIndex?.current,
     };
 
     for (const update of updates) {
@@ -532,6 +576,163 @@ export async function listProfileAnswerRecords(profileId: string): Promise<Local
   return (await openOfflineDb()).getAllFromIndex('responses', 'by-profile', profileId);
 }
 
+// ---- Simulados detalhados (store `simulados`, keyed por documentId) ----
+
+export async function getLocalSimuladoRecord(documentId: string): Promise<LocalSimuladoRecord | undefined> {
+  return (await openOfflineDb()).get('simulados', documentId);
+}
+
+export async function listProfileSimuladoRecords(profileId: string): Promise<LocalSimuladoRecord[]> {
+  return (await openOfflineDb()).getAllFromIndex('simulados', 'by-profile', profileId);
+}
+
+export async function listPendingSimuladoRecords(profileId: string): Promise<LocalSimuladoRecord[]> {
+  return (await openOfflineDb()).getAllFromIndex('simulados', 'by-profile-outbox', [profileId, 'pending']);
+}
+
+export interface SaveSimuladoInput {
+  profileId: string;
+  documentId: string;
+  // Transforma o documento durável mais recente; recebe undefined quando o registro ainda não existe.
+  // Retornar o documento inteiro (last-write-wins), sobre o registro concorrente mais novo.
+  updateCurrent: (current: SimuladoDocument | undefined) => SimuladoDocument;
+}
+
+// Grava um simulado detalhado como pendente. Idempotente e seguro entre abas: opera sobre o
+// registro durável mais recente dentro da transação, nunca sobre um snapshot possivelmente obsoleto.
+export function saveSimuladoDocument(input: SaveSimuladoInput): Promise<LocalSimuladoRecord> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('simulados', 'readwrite');
+    const existing = await transaction.store.get(input.documentId);
+    const current = input.updateCurrent(existing?.current);
+    const record: LocalSimuladoRecord = {
+      documentId: input.documentId,
+      profileId: input.profileId,
+      current,
+      base: existing?.base ?? null,
+      remoteVersion: existing?.remoteVersion ?? null,
+      remoteCreatedAt: existing?.remoteCreatedAt ?? null,
+      outboxState: 'pending',
+      attempts: existing?.attempts ?? 0,
+      nextAttemptAt: null,
+      lastError: null,
+      conflictWarning: existing?.conflictWarning ?? null,
+      localRevision: (existing?.localRevision ?? 0) + 1,
+      updatedAt: Date.now(),
+    };
+    await transaction.store.put(record);
+    await transaction.done;
+    return record;
+  })();
+
+  return trackWrite(write);
+}
+
+export interface StoreRemoteSimuladoInput {
+  profileId: string;
+  documentId: string;
+  document: SimuladoDocument;
+  remoteVersion: number;
+  remoteCreatedAt: string | null;
+  conflictWarning?: string | null;
+}
+
+export function storeRemoteSimuladoDocument(input: StoreRemoteSimuladoInput): Promise<boolean> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('simulados', 'readwrite');
+    const existing = await transaction.store.get(input.documentId);
+    if (existing) {
+      await transaction.store.put({
+        ...existing,
+        base: input.document,
+        remoteVersion: input.remoteVersion,
+        remoteCreatedAt: input.remoteCreatedAt,
+        conflictWarning: input.conflictWarning ?? existing.conflictWarning,
+      });
+      await transaction.done;
+      return false;
+    }
+    await transaction.store.put({
+      documentId: input.documentId,
+      profileId: input.profileId,
+      current: input.document,
+      base: input.document,
+      remoteVersion: input.remoteVersion,
+      remoteCreatedAt: input.remoteCreatedAt,
+      outboxState: 'clean',
+      attempts: 0,
+      nextAttemptAt: null,
+      lastError: null,
+      conflictWarning: input.conflictWarning ?? null,
+      localRevision: 0,
+      updatedAt: Date.now(),
+    });
+    await transaction.done;
+    return true;
+  })();
+
+  return trackWrite(write);
+}
+
+export interface MarkSimuladoSyncedInput {
+  documentId: string;
+  expectedLocalRevision: number;
+  synchronizedDocument: SimuladoDocument;
+  remoteVersion: number;
+  remoteCreatedAt: string | null;
+  conflictWarning: string | null;
+}
+
+export function markSimuladoSynced(input: MarkSimuladoSyncedInput): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('simulados', 'readwrite');
+    const existing = await transaction.store.get(input.documentId);
+    if (!existing) {
+      await transaction.done;
+      return;
+    }
+    // Edição concorrente durante o PUT permanece pendente e não é apagada pela confirmação.
+    const changedDuringRequest = existing.localRevision !== input.expectedLocalRevision;
+    await transaction.store.put({
+      ...existing,
+      current: changedDuringRequest ? existing.current : input.synchronizedDocument,
+      base: input.synchronizedDocument,
+      remoteVersion: input.remoteVersion,
+      remoteCreatedAt: input.remoteCreatedAt,
+      outboxState: changedDuringRequest ? 'pending' : 'clean',
+      attempts: 0,
+      nextAttemptAt: null,
+      lastError: null,
+      conflictWarning: input.conflictWarning,
+      updatedAt: changedDuringRequest ? existing.updatedAt : Date.now(),
+    });
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
+export function markSimuladoSyncError(
+  documentId: string,
+  message: string,
+  nextAttemptAt: number | null,
+): Promise<void> {
+  const write = (async () => {
+    const database = await openOfflineDb();
+    const transaction = database.transaction('simulados', 'readwrite');
+    const existing = await transaction.store.get(documentId);
+    if (existing) {
+      await transaction.store.put({ ...existing, attempts: existing.attempts + 1, nextAttemptAt, lastError: message });
+    }
+    await transaction.done;
+  })();
+
+  return trackWrite(write);
+}
+
 export interface ProfileImportAnswer {
   documentId: string;
   document: AnswerDocument;
@@ -800,19 +1001,24 @@ export function quarantineRemoteDocument(record: Omit<QuarantineRecord, 'id' | '
 
 export async function hasPendingOutbox(profileId: string): Promise<boolean> {
   const database = await openOfflineDb();
-  const [answerCount, preferences, progress, studied, reading] = await Promise.all([
-    database.countFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']),
-    database.get('preferences', profileId),
-    database.get('progress', profileId),
-    database.get('estudados', profileId),
-    database.get('leitura', profileId),
-  ]);
+  const [answerCount, simuladoCount, preferences, progress, studied, reading, simuladosIndex] =
+    await Promise.all([
+      database.countFromIndex('responses', 'by-profile-outbox', [profileId, 'pending']),
+      database.countFromIndex('simulados', 'by-profile-outbox', [profileId, 'pending']),
+      database.get('preferences', profileId),
+      database.get('progress', profileId),
+      database.get('estudados', profileId),
+      database.get('leitura', profileId),
+      database.get('simuladosIndex', profileId),
+    ]);
   return (
     answerCount > 0 ||
+    simuladoCount > 0 ||
     preferences?.outboxState === 'pending' ||
     progress?.outboxState === 'pending' ||
     studied?.outboxState === 'pending' ||
-    reading?.outboxState === 'pending'
+    reading?.outboxState === 'pending' ||
+    simuladosIndex?.outboxState === 'pending'
   );
 }
 
@@ -844,7 +1050,29 @@ export function discardPendingProfile(profileId: string): Promise<void> {
 
     await transaction.done;
 
-    for (const storeName of ['preferences', 'progress', 'estudados', 'leitura'] as const) {
+    // Simulados detalhados pendentes: descartar os novos (sem base) e reverter os demais à base.
+    const pendingSimulados = await listPendingSimuladoRecords(profileId);
+    const simuladoTransaction = database.transaction('simulados', 'readwrite');
+    for (const record of pendingSimulados) {
+      if (!record.base) {
+        await simuladoTransaction.store.delete(record.documentId);
+        continue;
+      }
+      await simuladoTransaction.store.put({
+        ...record,
+        current: record.base,
+        outboxState: 'clean',
+        attempts: 0,
+        nextAttemptAt: null,
+        lastError: null,
+        conflictWarning: null,
+        localRevision: record.localRevision + 1,
+        updatedAt: Date.now(),
+      });
+    }
+    await simuladoTransaction.done;
+
+    for (const storeName of ['preferences', 'progress', 'estudados', 'leitura', 'simuladosIndex'] as const) {
       const sharedTransaction = database.transaction(storeName, 'readwrite');
       const shared = await sharedTransaction.store.get(profileId);
       if (shared?.outboxState === 'pending') {

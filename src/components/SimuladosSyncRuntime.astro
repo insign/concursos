@@ -1,0 +1,39 @@
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { requestCompleteProfileSync } from '../lib/simulados-profile-sync';
+
+  if (location.pathname.startsWith('/simulados/')) {
+    let running = false;
+    let rerun = false;
+
+    const synchronize = async () => {
+      const alias = getActiveAlias();
+      if (!alias || !navigator.onLine) return;
+      if (running) {
+        rerun = true;
+        return;
+      }
+      running = true;
+      try {
+        await requestCompleteProfileSync(alias);
+        window.dispatchEvent(
+          new CustomEvent('concursos:simulados-synced', { detail: { profileId: alias } }),
+        );
+      } finally {
+        running = false;
+        if (rerun) {
+          rerun = false;
+          void synchronize();
+        }
+      }
+    };
+
+    window.addEventListener('concursos:simulados-updated', () => void synchronize());
+    window.addEventListener('online', () => void synchronize());
+    window.addEventListener('focus', () => void synchronize());
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') void synchronize();
+    });
+    void synchronize();
+  }
+</script>
