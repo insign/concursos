@@ -19,10 +19,6 @@
         window.dispatchEvent(
           new CustomEvent('concursos:simulados-synced', { detail: { profileId: alias } }),
         );
-        // A página usa popstate para recarregar um ?id que só passou a existir após o sync remoto.
-        if (new URLSearchParams(location.search).has('id')) {
-          window.dispatchEvent(new PopStateEvent('popstate'));
-        }
       } finally {
         running = false;
         if (rerun) {
