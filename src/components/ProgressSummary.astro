@@ -8,35 +8,39 @@ interface Props {
 const { contestStorageId, subjectStorageId, questionSetRevision } = Astro.props;
 ---
 
-<p
+<span
   class="progress-summary"
+  role="img"
   data-progress-summary
   data-progress-id={`${contestStorageId}--${subjectStorageId}`}
   data-question-set-revision={questionSetRevision}
->
-  Progresso disponível após definir um alias.
-</p>
+  hidden
+></span>
 
 <script>
   import { getActiveAlias } from '../lib/identity';
   import { loadProgress } from '../lib/progress';
+  import { formatProgressBadge } from '../lib/progress-badge';
 
   const profileId = getActiveAlias();
   if (profileId) {
     const renderProgress = async () => {
       const progress = await loadProgress(profileId);
       document.querySelectorAll<HTMLElement>('[data-progress-summary]').forEach((element) => {
-        const subject = progress.subjects[element.dataset.progressId!];
-        delete element.dataset.state;
-        if (!subject) {
-          element.textContent = 'Ainda não iniciado.';
-        } else if (subject.questionSetRevision !== Number(element.dataset.questionSetRevision)) {
-          element.textContent = 'Conteúdo atualizado; recalcule o progresso.';
-          element.dataset.state = 'stale';
-        } else {
-          const score = subject.correct === undefined ? '' : `, ${subject.correct} corretas`;
-          element.textContent = `${subject.answered}/${subject.total} respondidas${score}${subject.submitted ? ', finalizado' : ''}.`;
-        }
+        // O texto visível é compacto; a frase completa vai no rótulo acessível.
+        // role="img" no span garante que leitores de tela anunciem esse rótulo
+        // (um <span> genérico não expõe name-from-author de forma confiável).
+        const badge = formatProgressBadge(
+          progress.subjects[element.dataset.progressId!],
+          Number(element.dataset.questionSetRevision),
+        );
+
+        element.textContent = badge.text;
+        if (badge.state) element.dataset.state = badge.state;
+        else delete element.dataset.state;
+        if (badge.label) element.setAttribute('aria-label', badge.label);
+        else element.removeAttribute('aria-label');
+        element.hidden = badge.hidden;
       });
     };
 

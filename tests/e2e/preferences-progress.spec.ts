@@ -43,7 +43,11 @@ test('shows and repairs materialized progress without exposing on-submit score',
   await expect(page.getByText('Resposta salva localmente')).toBeVisible();
 
   await page.goto('/concursos/concurso-exemplo/');
-  await expect(page.locator('[data-progress-summary]')).toHaveText('1/12 respondidas.');
+  const progressBadge = page.locator('[data-progress-summary]');
+  await expect(progressBadge).toHaveText('1/12');
+  // O rótulo completo é exposto como nome acessível computado (role="img" + aria-label),
+  // não apenas presente como atributo no DOM.
+  await expect(page.getByRole('img', { name: '1/12 respondidas.' })).toBeVisible();
 
   const catalogResponse = await request.get('/sync-catalog.json');
   expect(catalogResponse.ok()).toBe(true);
