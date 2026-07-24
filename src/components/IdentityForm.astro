@@ -44,7 +44,10 @@
     isAliasEasyToGuess,
     PendingProfileChangeError,
   } from '../lib/identity';
-  import { prepareProfileAlias, syncPendingProfile } from '../lib/sync';
+  import {
+    prepareCompleteProfileAlias,
+    requestCompleteProfileSync,
+  } from '../lib/simulados-profile-sync';
 
   document.querySelectorAll<HTMLFormElement>('[data-identity-form]').forEach((form) => {
     const aliasInput = form.elements.namedItem('alias') as HTMLInputElement;
@@ -72,9 +75,9 @@
         const alias = aliasInput.value;
         const changed = await changeActiveAlias(alias, {
           discardPending: discardInput.checked,
-          synchronize: syncPendingProfile,
+          synchronize: requestCompleteProfileSync,
           prepare: (profileId) =>
-            prepareProfileAlias(profileId, {
+            prepareCompleteProfileAlias(profileId, {
               onPreflightComplete: ({ remoteDocumentCount }) => {
                 if (remoteDocumentCount > 0) {
                   status.textContent = `Alias encontrado com ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} remoto${remoteDocumentCount === 1 ? '' : 's'}.`;
