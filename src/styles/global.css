@@ -505,7 +505,62 @@ h3 {
   flex: none;
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+}
+
+.subject-reading-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem;
+  color: var(--accent-strong);
+  font-size: var(--step-1);
+  line-height: 1;
+}
+
+a.subject-reading-link:hover {
+  color: var(--signal);
+}
+
+/* Modo de leitura sem distrações (#101): rota dedicada, layout mínimo. */
+.reading-shell {
+  padding-block: 1rem 5rem;
+}
+
+.reading-bar {
+  width: min(100%, calc(var(--reading) + 6rem));
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  padding-inline: clamp(1.5rem, 5vw, 3rem);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reading-exit {
+  display: inline-flex;
+  align-items: center;
   gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a.reading-exit:hover {
+  color: var(--signal);
+}
+
+.reading-title {
+  margin-top: 0;
+}
+
+.reading-entry {
+  margin: 0 0 1.5rem;
+  font-family: var(--sans);
+  font-weight: 700;
 }
 
 .study-shell {

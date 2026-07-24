@@ -20,6 +20,27 @@ const Heading = `h${Math.min(depth + 2, 6)}` as 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
           <article class="subject-card">
             <a class="subject-card-title" href={`/concursos/${contest.slug}/${node.slug}/`}>{node.title}</a>
             <div class="subject-card-meta">
+              <a
+                class="subject-reading-link"
+                href={`/concursos/${contest.slug}/${node.slug}/leitura/`}
+                aria-label={`Ler ${node.title} sem distrações`}
+              >
+                <svg
+                  class="subject-reading-icon"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  height="1em"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="4" y="3" width="16" height="18" rx="2" />
+                  <path d="M8 8h8M8 12h8M8 16h5" />
+                </svg>
+              </a>
               <ProgressSummary
                 contestStorageId={contest.storageId}
                 subjectStorageId={node.storageId}

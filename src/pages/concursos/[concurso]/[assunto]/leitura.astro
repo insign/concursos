@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import MermaidRuntime from '../../../../components/MermaidRuntime.astro';
-import StudyLayout from '../../../../layouts/StudyLayout.astro';
+import ReadingLayout from '../../../../layouts/ReadingLayout.astro';
 import { getSubjectStaticPaths, type CatalogContest, type CatalogSubject } from '../../../../lib/catalog';
 
 interface Props {
@@ -13,15 +13,14 @@ export const getStaticPaths = getSubjectStaticPaths;
 
 const { contest, subject } = Astro.props;
 const { Content } = await render(subject.contentEntry);
-const hasMermaid = subject.contentEntry.body?.includes('```mermaid') ?? false;
+const body = subject.contentEntry.body ?? '';
+const hasMermaid = body.includes('```mermaid');
+// Se o conteúdo já começa com um h1, ele é o cabeçalho principal; senão, o layout
+// adiciona o título do assunto como h1.
+const contentHasH1 = /^\s*#\s/.test(body);
 ---
 
-<StudyLayout contest={contest} subject={subject} active="content">
-  <p class="reading-entry print-hidden">
-    <a href={`/concursos/${contest.slug}/${subject.slug}/leitura/`}>Ler sem distrações</a>
-  </p>
-  <article>
-    <Content />
-  </article>
+<ReadingLayout contest={contest} subject={subject} showTitle={!contentHasH1}>
+  <Content />
   {hasMermaid && <MermaidRuntime />}
-</StudyLayout>
+</ReadingLayout>
