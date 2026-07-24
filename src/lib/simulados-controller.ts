@@ -87,7 +87,7 @@ function initializeSimulados(): void {
 
   let catalog: SimuladosCatalog | null = null;
   let activeDocument: SimuladoDocument | null = null;
-  let activeDocumentId: string | null = null;
+  let answerWrites: Promise<void> = Promise.resolve();
   let busy = false;
 
   const setStatus = (message: string): void => {
@@ -245,7 +245,6 @@ function initializeSimulados(): void {
 
   const renderDocument = (simulation: SimuladoDocument, documentId: string): void => {
     activeDocument = simulation;
-    activeDocumentId = documentId;
     resolver.hidden = false;
     resolver.scrollIntoView({ behavior: 'smooth', block: 'start' });
     resolverEyebrow.textContent =
@@ -288,34 +287,37 @@ function initializeSimulados(): void {
         input.name = `simulado-${key}`;
         input.value = option.id;
         input.checked = stored?.optionId === option.id;
-        input.addEventListener('change', async () => {
-          if (!alias || busy) return;
-          busy = true;
-          try {
-            const now = new Date().toISOString();
-            const saved = await persistSimuladoDocument(alias, documentId, (current) =>
-              setSimuladoAnswer(
-                current ?? simulation,
-                key,
-                {
-                  optionId: option.id,
-                  questionRevision: question.questionRevision,
-                },
-                now,
-              ),
-            );
-            activeDocument = saved;
-            resolverMeta.textContent = `${saved.questions.length} questões · ${Object.keys(saved.answers).length} respondidas · atualizado em ${formatDate(saved.updatedAt)}`;
-            await saveSummaryAndScheduleSync(saved);
-            setStatus('Resposta salva localmente.');
-          } catch (error) {
-            setStatus(
-              error instanceof Error ? error.message : 'Não foi possível salvar a resposta.',
-            );
-            renderDocument(activeDocument ?? simulation, documentId);
-          } finally {
-            busy = false;
-          }
+        input.addEventListener('change', () => {
+          if (!alias) return;
+          const selectedOptionId = option.id;
+          setStatus('Salvando resposta localmente…');
+          answerWrites = answerWrites
+            .catch(() => undefined)
+            .then(async () => {
+              try {
+                const now = new Date().toISOString();
+                const saved = await persistSimuladoDocument(alias, documentId, (current) =>
+                  setSimuladoAnswer(
+                    current ?? activeDocument ?? simulation,
+                    key,
+                    {
+                      optionId: selectedOptionId,
+                      questionRevision: question.questionRevision,
+                    },
+                    now,
+                  ),
+                );
+                activeDocument = saved;
+                resolverMeta.textContent = `${saved.questions.length} questões · ${Object.keys(saved.answers).length} respondidas · atualizado em ${formatDate(saved.updatedAt)}`;
+                await saveSummaryAndScheduleSync(saved);
+                setStatus('Resposta salva localmente.');
+              } catch (error) {
+                setStatus(
+                  error instanceof Error ? error.message : 'Não foi possível salvar a resposta.',
+                );
+                renderDocument(activeDocument ?? simulation, documentId);
+              }
+            });
         });
         const text = document.createElement('span');
         text.textContent = option.text;
@@ -344,12 +346,14 @@ function initializeSimulados(): void {
         busy = true;
         finalize.disabled = true;
         try {
+          await answerWrites;
           const saved = await persistSimuladoDocument(alias, documentId, (current) =>
             finalizeSimuladoDocument(
-              current ?? simulation,
+              current ?? activeDocument ?? simulation,
               new Date().toISOString(),
             ),
           );
+          activeDocument = saved;
           await saveSummaryAndScheduleSync(saved);
           await renderRecent();
           renderDocument(saved, documentId);
@@ -396,6 +400,7 @@ function initializeSimulados(): void {
     updateConfigurationState();
     setStatus('Carregando questões e montando o simulado…');
     try {
+      await answerWrites;
       const response = await fetch(
         `/simulados/pool/${encodeURIComponent(contest.storageId)}.json`,
         { cache: 'no-store' },
@@ -425,6 +430,7 @@ function initializeSimulados(): void {
         documentId,
         (current) => current ?? created,
       );
+      activeDocument = saved;
       await saveSummaryAndScheduleSync(saved);
       history.pushState(null, '', `/simulados/?id=${encodeURIComponent(simulationId)}`);
       await renderRecent();
