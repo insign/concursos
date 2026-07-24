@@ -1,5 +1,11 @@
 import { z } from 'zod';
 import { questionOptionSchema, questionOriginSchema } from './content-schema';
+import {
+  getLocalSimuladoRecord,
+  getSharedDocumentRecord,
+  saveSimuladoDocument,
+  updateSharedDocuments,
+} from './offline-db';
 import type { RandomSource } from './question-order';
 
 // Identificadores estáveis (mesmo alfabeto do conteúdo editorial).
@@ -338,4 +344,74 @@ export function upsertSimuladoSummary(index: SimuladosIndex, summary: SimuladoSu
   const others = index.simulados.filter((item) => item.id !== summary.id);
   const merged = [summary, ...others].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
   return { schemaVersion: 1, simulados: merged.slice(0, SIMULADOS_INDEX_LIMIT) };
+}
+
+/** Registra uma resposta no documento; não altera um simulado já finalizado. */
+export function setSimuladoAnswer(
+  document: SimuladoDocument,
+  key: string,
+  answer: SimuladoStoredAnswer,
+  now: string,
+): SimuladoDocument {
+  if (document.status === 'completed') return document;
+  return { ...document, answers: { ...document.answers, [key]: answer }, updatedAt: now };
+}
+
+/** Finaliza de forma idempotente: recalcula o resultado só na primeira vez; congela status/result. */
+export function finalizeSimuladoDocument(document: SimuladoDocument, now: string): SimuladoDocument {
+  if (document.status === 'completed' && document.result) return document;
+  return {
+    ...document,
+    status: 'completed',
+    completedAt: document.completedAt ?? now,
+    result: computeSimuladoResult(document),
+    updatedAt: now,
+  };
+}
+
+// ---- Persistência (índice singleton + documento detalhado) ----
+
+/** Índice de simulados do perfil, validado; vazio quando ausente ou inválido. */
+export async function loadSimuladosIndex(profileId: string): Promise<SimuladosIndex> {
+  const record = await getSharedDocumentRecord('simuladosIndex', profileId);
+  const parsed = simuladosIndexSchema.safeParse(record?.current);
+  return parsed.success ? parsed.data : EMPTY_SIMULADOS_INDEX;
+}
+
+/** Insere/atualiza o resumo no índice durável (merge sobre o registro mais recente). */
+export async function saveSimuladoSummary(profileId: string, summary: SimuladoSummary): Promise<void> {
+  await updateSharedDocuments(profileId, [
+    {
+      storeName: 'simuladosIndex',
+      dirtyFields: [summary.id],
+      updateCurrent: (current) => {
+        const parsed = simuladosIndexSchema.safeParse(current);
+        return upsertSimuladoSummary(parsed.success ? parsed.data : EMPTY_SIMULADOS_INDEX, summary);
+      },
+    },
+  ]);
+}
+
+/** Documento detalhado durável, validado; null quando ausente ou inválido. */
+export async function loadSimuladoDocument(documentId: string): Promise<SimuladoDocument | null> {
+  const record = await getLocalSimuladoRecord(documentId);
+  const parsed = record ? simuladoDocumentSchema.safeParse(record.current) : undefined;
+  return parsed?.success ? parsed.data : null;
+}
+
+/**
+ * Persiste o documento detalhado transformando o registro durável mais recente (seguro entre abas)
+ * e valida o resultado. Retorna o documento efetivamente gravado.
+ */
+export async function persistSimuladoDocument(
+  profileId: string,
+  documentId: string,
+  transform: (current: SimuladoDocument | undefined) => SimuladoDocument,
+): Promise<SimuladoDocument> {
+  const record = await saveSimuladoDocument({
+    profileId,
+    documentId,
+    updateCurrent: (current) => simuladoDocumentSchema.parse(transform(current)),
+  });
+  return record.current;
 }
