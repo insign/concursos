@@ -6,16 +6,24 @@ const readingTitle = 'Leitura, compreensão e interpretação de textos';
 const typesPath = `${contestPath}tipos-generos-textuais/`;
 const typesTitle = 'Tipos e gêneros textuais';
 
+const CATALOG_GROUPS_STORAGE_KEY = 'concursos:catalog-groups';
+const examplePath = '/concursos/concurso-exemplo/';
+const exampleGroupHeading = 'Administração pública';
+const exampleSubject = 'Fundamentos de administração pública';
+
+const groupByHeading = (page: import('@playwright/test').Page, name: string, level: number) =>
+  page.locator('details.subject-group-section', {
+    has: page.getByRole('heading', { name, level }),
+  });
+
 test('renders grouped catalogs while preserving short public routes', async ({ page, request }) => {
   const response = await page.goto(contestPath);
   expect(response?.status()).toBe(200);
 
-  const generalSection = page
-    .getByRole('heading', { name: 'Conhecimentos gerais', level: 2 })
-    .locator('..');
-  const portugueseSection = generalSection
-    .getByRole('heading', { name: 'Língua Portuguesa', level: 3 })
-    .locator('..');
+  const generalSection = groupByHeading(page, 'Conhecimentos gerais', 2);
+  const portugueseSection = generalSection.locator('details.subject-group-section', {
+    has: page.getByRole('heading', { name: 'Língua Portuguesa', level: 3 }),
+  });
   await expect(portugueseSection.getByRole('link', { name: readingTitle })).toHaveAttribute(
     'href',
     readingPath,
@@ -49,11 +57,9 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
   await expect(breadcrumbs.getByRole('link', { name: 'Conhecimentos gerais' })).toHaveCount(0);
   await expect(breadcrumbs.getByRole('link', { name: 'Língua Portuguesa' })).toHaveCount(0);
 
-  await page.goto('/concursos/concurso-exemplo/');
-  const exampleSection = page
-    .getByRole('heading', { name: 'Administração pública', level: 2 })
-    .locator('..');
-  await expect(exampleSection.getByRole('link', { name: 'Fundamentos de administração pública' })).toHaveAttribute(
+  await page.goto(examplePath);
+  const exampleSection = groupByHeading(page, exampleGroupHeading, 2);
+  await expect(exampleSection.getByRole('link', { name: exampleSubject })).toHaveAttribute(
     'href',
     '/concursos/concurso-exemplo/assunto-exemplo/',
   );
@@ -70,9 +76,121 @@ test('keeps catalog hierarchy available without JavaScript', async ({ browser })
 
   await expect(page.getByRole('heading', { name: 'Conhecimentos gerais', level: 2 })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Língua Portuguesa', level: 3 })).toBeVisible();
+  // Sem JavaScript os grupos permanecem abertos (atributo estático `open`) e navegáveis.
+  await expect(groupByHeading(page, 'Conhecimentos gerais', 2)).toHaveJSProperty('open', true);
   await expect(page.getByRole('link', { name: readingTitle })).toHaveAttribute('href', readingPath);
   await expect(page.getByRole('link', { name: typesTitle })).toHaveAttribute('href', typesPath);
   await context.close();
+});
+
+test('collapses a group and persists the choice across reloads', async ({ page }) => {
+  await page.goto(examplePath);
+  const group = groupByHeading(page, exampleGroupHeading, 2);
+  const subjectLink = group.getByRole('link', { name: exampleSubject });
+
+  await expect(group).toHaveJSProperty('open', true);
+  await expect(subjectLink).toBeVisible();
+
+  const groupId = await group.getAttribute('data-group-id');
+  expect(groupId).toBeTruthy();
+
+  await group.locator('> summary').click();
+  await expect(group).toHaveJSProperty('open', false);
+  await expect(subjectLink).toBeHidden();
+
+  const stored = await page.evaluate((key) => localStorage.getItem(key), CATALOG_GROUPS_STORAGE_KEY);
+  expect(stored).toContain(groupId!);
+
+  await page.reload();
+  const groupAfterReload = groupByHeading(page, exampleGroupHeading, 2);
+  await expect(groupAfterReload).toHaveJSProperty('open', false);
+  await expect(groupAfterReload.getByRole('link', { name: exampleSubject })).toBeHidden();
+});
+
+test('recovers from invalid localStorage and rewrites a valid document', async ({ page }) => {
+  await page.addInitScript((key) => {
+    try {
+      localStorage.setItem(key, '{ not valid json');
+    } catch {
+      // Ignora ambientes sem localStorage gravável.
+    }
+  }, CATALOG_GROUPS_STORAGE_KEY);
+
+  await page.goto(examplePath);
+  const group = groupByHeading(page, exampleGroupHeading, 2);
+
+  // Não quebrou: default expandido apesar do payload corrompido.
+  await expect(group).toHaveJSProperty('open', true);
+  await expect(group.getByRole('link', { name: exampleSubject })).toBeVisible();
+
+  // Prova de recuperação: o script rodou e ligou os ouvintes; recolher funciona e
+  // sobrescreve o valor corrompido por um documento JSON válido (não apenas o
+  // `open` estático do <details>, que passaria mesmo se o script tivesse abortado).
+  const groupId = await group.getAttribute('data-group-id');
+  expect(groupId).toBeTruthy();
+  await group.locator('> summary').click();
+  await expect(group).toHaveJSProperty('open', false);
+
+  const stored = await page.evaluate((key) => localStorage.getItem(key), CATALOG_GROUPS_STORAGE_KEY);
+  expect(stored).not.toBe('{ not valid json');
+  const parsed = JSON.parse(stored!) as { version: number; collapsed: string[] };
+  expect(parsed.version).toBe(1);
+  expect(parsed.collapsed).toContain(groupId!);
+});
+
+test('collapses one nested group without affecting its ancestor group', async ({ page }) => {
+  await page.goto(contestPath);
+  const general = groupByHeading(page, 'Conhecimentos gerais', 2);
+  const portuguese = general.locator('details.subject-group-section', {
+    has: page.getByRole('heading', { name: 'Língua Portuguesa', level: 3 }),
+  });
+  const portugueseLink = portuguese.getByRole('link', { name: readingTitle });
+
+  await expect(general).toHaveJSProperty('open', true);
+  await expect(portuguese).toHaveJSProperty('open', true);
+  await expect(portugueseLink).toBeVisible();
+
+  const generalId = await general.getAttribute('data-group-id');
+  const portugueseId = await portuguese.getAttribute('data-group-id');
+  expect(portugueseId).toBeTruthy();
+  expect(portugueseId).not.toBe(generalId);
+
+  // Recolhe somente o grupo interno.
+  await portuguese.locator('> summary').click();
+  await expect(portuguese).toHaveJSProperty('open', false);
+  await expect(portugueseLink).toBeHidden();
+  // O grupo ancestral permanece aberto (sem cascata).
+  await expect(general).toHaveJSProperty('open', true);
+
+  // Apenas o id do grupo interno é persistido, por id estável e não por posição.
+  const stored = await page.evaluate(
+    (key) => JSON.parse(localStorage.getItem(key) ?? '{}') as { collapsed?: string[] },
+    CATALOG_GROUPS_STORAGE_KEY,
+  );
+  expect(stored.collapsed).toContain(portugueseId!);
+  expect(stored.collapsed).not.toContain(generalId!);
+
+  // Após reload, o interno segue recolhido e o ancestral aberto.
+  await page.reload();
+  const generalAfter = groupByHeading(page, 'Conhecimentos gerais', 2);
+  const portugueseAfter = generalAfter.locator('details.subject-group-section', {
+    has: page.getByRole('heading', { name: 'Língua Portuguesa', level: 3 }),
+  });
+  await expect(generalAfter).toHaveJSProperty('open', true);
+  await expect(portugueseAfter).toHaveJSProperty('open', false);
+});
+
+test('toggles a group with the keyboard', async ({ page }) => {
+  await page.goto(examplePath);
+  const group = groupByHeading(page, exampleGroupHeading, 2);
+  const summary = group.locator('> summary');
+
+  await summary.focus();
+  await expect(group).toHaveJSProperty('open', true);
+  await page.keyboard.press('Enter');
+  await expect(group).toHaveJSProperty('open', false);
+  await page.keyboard.press('Enter');
+  await expect(group).toHaveJSProperty('open', true);
 });
 
 test('does not expose editorial groups through sync or offline contracts', async ({ request }) => {
