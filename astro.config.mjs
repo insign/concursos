@@ -13,7 +13,13 @@ export default defineConfig({
   security: {
     csp: {
       scriptDirective: {
-        resources: ["'self'"],
+        resources: [
+          "'self'",
+          // Hash do script inline anti-flash de tema (BaseLayout.astro). Astro não
+          // hasheia <script is:inline> clássico automaticamente; renderiza verbatim.
+          // Se o conteúdo do script mudar, recomputar: extrair do dist e sha256 base64.
+          "'sha256-qa3TD4AFh7EcKG3WZ9Lk74qsmjRyiQVM3662eOB1ifQ='",
+        ],
       },
       styleDirective: {
         resources: ["'self'", "'unsafe-inline'"],

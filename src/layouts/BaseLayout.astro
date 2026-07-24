@@ -28,6 +28,12 @@ const pageTitle = title === 'Concursos' ? title : `${title} | Concursos`;
     <meta name="robots" content="noindex, nofollow" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#275d55" />
+    {/* Anti-flash: resolve e aplica o tema (data-theme + theme-color) antes do paint,
+        depois da meta theme-color para poder atualizá-la. Espelha a lógica de
+        src/lib/theme.ts (DEFAULT_THEME_PREFERENCE/resolveTheme/THEME_COLORS); mantenha
+        as duas em sincronia. Astro não hasheia is:inline, então o hash é fixado em
+        astro.config.mjs e verificado no build por scripts/finalize-security.mjs. */}
+    <script is:inline>(function(){try{var d=document.documentElement,k=localStorage.getItem('concursos:theme');if(k!=='light'&&k!=='dark'&&k!=='auto')k='auto';var t=(k==='dark'||(k!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches))?'dark':'light';d.dataset.theme=t;var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',t==='dark'?'#101614':'#275d55');}catch(e){}})();</script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />

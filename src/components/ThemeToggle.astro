@@ -1,0 +1,61 @@
+---
+---
+
+<div class="theme-control">
+  <label class="theme-control-label" for="theme-select">Tema</label>
+  <select id="theme-select" class="theme-control-select" data-theme-select autocomplete="off">
+    <option value="auto">Automático</option>
+    <option value="light">Claro</option>
+    <option value="dark">Escuro</option>
+  </select>
+</div>
+
+<script>
+  import {
+    THEME_STORAGE_KEY,
+    THEME_COLORS,
+    readThemePreference,
+    resolveTheme,
+    type ThemePreference,
+  } from '../lib/theme';
+
+  const select = document.querySelector<HTMLSelectElement>('[data-theme-select]');
+  const media = window.matchMedia('(prefers-color-scheme: dark)');
+
+  const currentPreference = (): ThemePreference => {
+    try {
+      return readThemePreference(localStorage.getItem(THEME_STORAGE_KEY));
+    } catch {
+      return readThemePreference(null);
+    }
+  };
+
+  const applyPreference = (preference: ThemePreference) => {
+    const resolved = resolveTheme(preference, media.matches);
+    document.documentElement.dataset.theme = resolved;
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', THEME_COLORS[resolved]);
+  };
+
+  if (select) {
+    const preference = currentPreference();
+    select.value = preference;
+    // Reafirma o tema (o script inline já aplicou data-theme) e ajusta o theme-color.
+    applyPreference(preference);
+
+    select.addEventListener('change', () => {
+      const next = readThemePreference(select.value);
+      try {
+        localStorage.setItem(THEME_STORAGE_KEY, next);
+      } catch {
+        // Sem localStorage gravável: aplica na sessão atual sem persistir.
+      }
+      applyPreference(next);
+    });
+  }
+
+  // No modo automático, acompanha a mudança da preferência do sistema em tempo real.
+  media.addEventListener('change', () => {
+    if (currentPreference() === 'auto') applyPreference('auto');
+  });
+</script>
