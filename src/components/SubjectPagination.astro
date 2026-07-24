@@ -1,0 +1,50 @@
+---
+import type { CatalogContest, CatalogSubject } from '../lib/catalog';
+
+interface Props {
+  contest: CatalogContest;
+  subject: CatalogSubject;
+  mode?: 'study' | 'reading';
+}
+
+const { contest, subject, mode = 'study' } = Astro.props;
+const previous = contest.subjects.find(({ id }) => id === subject.previousSubjectId);
+const next = contest.subjects.find(({ id }) => id === subject.nextSubjectId);
+// No modo de leitura, os vizinhos apontam para as rotas /leitura/ adjacentes,
+// preservando o modo; no estudo, para a página de conteúdo do assunto.
+const suffix = mode === 'reading' ? 'leitura/' : '';
+const pathFor = (slug: string) => `/concursos/${contest.slug}/${slug}/${suffix}`;
+---
+
+{
+  (previous || next) && (
+    <nav class="subject-pagination print-hidden" aria-label="Assuntos adjacentes">
+      {previous ? (
+        <a
+          rel="prev"
+          class="subject-pagination-link subject-pagination-prev"
+          href={pathFor(previous.slug)}
+          aria-label={`Assunto anterior: ${previous.title}`}
+        >
+          <span class="subject-pagination-arrow" aria-hidden="true">←</span>
+          <span class="subject-pagination-label">{previous.title}</span>
+        </a>
+      ) : (
+        <span />
+      )}
+      {next ? (
+        <a
+          rel="next"
+          class="subject-pagination-link subject-pagination-next"
+          href={pathFor(next.slug)}
+          aria-label={`Próximo assunto: ${next.title}`}
+        >
+          <span class="subject-pagination-label">{next.title}</span>
+          <span class="subject-pagination-arrow" aria-hidden="true">→</span>
+        </a>
+      ) : (
+        <span />
+      )}
+    </nav>
+  )
+}

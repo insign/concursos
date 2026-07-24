@@ -1,5 +1,6 @@
 ---
 import SubjectNavigation from '../components/SubjectNavigation.astro';
+import SubjectPagination from '../components/SubjectPagination.astro';
 import FloatingShortcuts from '../components/FloatingShortcuts.astro';
 import BaseLayout from './BaseLayout.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
@@ -11,9 +12,6 @@ interface Props {
 }
 
 const { contest, subject, active } = Astro.props;
-const previous = contest.subjects.find(({ id }) => id === subject.previousSubjectId);
-const next = contest.subjects.find(({ id }) => id === subject.nextSubjectId);
-const subjectPath = (slug: string) => `/concursos/${contest.slug}/${slug}/`;
 ---
 
 <BaseLayout title={subject.title} description={subject.description} pageClass={`study-page ${active}`}>
@@ -46,12 +44,7 @@ const subjectPath = (slug: string) => `/concursos/${contest.slug}/${slug}/`;
       <slot />
     </div>
 
-    {(previous || next) && (
-      <nav class="subject-pagination print-hidden" aria-label="Assuntos adjacentes">
-        {previous ? <a rel="prev" href={subjectPath(previous.slug)}>← {previous.title}</a> : <span />}
-        {next ? <a rel="next" href={subjectPath(next.slug)}>{next.title} →</a> : <span />}
-      </nav>
-    )}
+    <SubjectPagination contest={contest} subject={subject} />
 
     <FloatingShortcuts contestSlug={contest.slug} subjectSlug={subject.slug} active={active} />
   </main>
