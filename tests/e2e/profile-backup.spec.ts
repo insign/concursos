@@ -39,7 +39,7 @@ function seedObservedRemoteAnswer(page: Page, profileId: string, documentId: str
   return page.evaluate(
     ({ alias, id }) =>
       new Promise<void>((resolve, reject) => {
-        const request = indexedDB.open('concursos-offline', 1);
+        const request = indexedDB.open('concursos-offline');
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
           const transaction = request.result.transaction('responses', 'readwrite');
@@ -81,7 +81,7 @@ function seedObservedRemoteProgress(
   return page.evaluate(
     ({ alias, progress }) =>
       new Promise<void>((resolve, reject) => {
-        const request = indexedDB.open('concursos-offline', 1);
+        const request = indexedDB.open('concursos-offline');
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
           const transaction = request.result.transaction('progress', 'readwrite');
@@ -237,7 +237,7 @@ test('rematerializes progress with the synchronized answer version', async ({ pa
   await page.evaluate(
     ({ alias }) =>
       new Promise<void>((resolve, reject) => {
-        const request = indexedDB.open('concursos-offline', 1);
+        const request = indexedDB.open('concursos-offline');
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
           const transaction = request.result.transaction('responses', 'readwrite');
@@ -480,7 +480,7 @@ test('rechecks pending answers immediately before publishing progress', async ({
   await page.evaluate(
     ({ documentId }) =>
       new Promise<void>((resolve, reject) => {
-        const request = indexedDB.open('concursos-offline', 1);
+        const request = indexedDB.open('concursos-offline');
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
           const transaction = request.result.transaction('responses', 'readwrite');

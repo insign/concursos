@@ -23,7 +23,7 @@ async function storedAnswerDocument(page: Page): Promise<ReturnType<typeof remot
   return page.evaluate(
     (id) =>
       new Promise((resolve, reject) => {
-        const request = indexedDB.open('concursos-offline', 1);
+        const request = indexedDB.open('concursos-offline');
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
           const transaction = request.result.transaction('responses', 'readonly');

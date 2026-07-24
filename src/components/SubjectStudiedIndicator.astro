@@ -1,0 +1,40 @@
+---
+interface Props {
+  contestStorageId: string;
+  subjectStorageId: string;
+}
+
+const { contestStorageId, subjectStorageId } = Astro.props;
+---
+
+<span
+  class="subject-studied-indicator"
+  data-subject-studied
+  data-subject-id={`${contestStorageId}--${subjectStorageId}`}
+  role="img"
+  aria-label="Estudado"
+  hidden>✓</span>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { loadStudied } from '../lib/studied';
+
+  const alias = getActiveAlias();
+  if (alias) {
+    const render = async () => {
+      const studiedIds = new Set((await loadStudied(alias)).studiedSubjectIds);
+      document.querySelectorAll<HTMLElement>('[data-subject-studied]').forEach((element) => {
+        element.hidden = !studiedIds.has(element.dataset.subjectId!);
+      });
+    };
+
+    void render();
+    window.addEventListener('concursos:studied-updated', (event) => {
+      if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) void render();
+    });
+    window.addEventListener('concursos:sync-status', (event) => {
+      const state = (event as CustomEvent<{ state?: string }>).detail?.state;
+      if (state === 'synced' || state === 'error') void render();
+    });
+  }
+</script>

@@ -1,5 +1,6 @@
 ---
 import ProgressSummary from './ProgressSummary.astro';
+import SubjectStudiedIndicator from './SubjectStudiedIndicator.astro';
 import type { CatalogContest, CatalogTreeNode } from '../lib/catalog';
 
 interface Props {
@@ -20,6 +21,10 @@ const Heading = `h${Math.min(depth + 2, 6)}` as 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
           <article class="subject-card">
             <a class="subject-card-title" href={`/concursos/${contest.slug}/${node.slug}/`}>{node.title}</a>
             <div class="subject-card-meta">
+              <SubjectStudiedIndicator
+                contestStorageId={contest.storageId}
+                subjectStorageId={node.storageId}
+              />
               <a
                 class="subject-reading-link"
                 href={`/concursos/${contest.slug}/${node.slug}/leitura/`}

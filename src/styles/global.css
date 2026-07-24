@@ -521,6 +521,70 @@ a.subject-reading-link:hover {
   color: var(--signal);
 }
 
+/* Indicador de assunto estudado na listagem compacta (#107). */
+.subject-studied-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  color: var(--paper);
+  background: var(--positive);
+  font-family: var(--sans);
+  font-size: var(--step--1);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.subject-studied-indicator[hidden] {
+  display: none;
+}
+
+/* Marcar como estudado (#107): botão no conteúdo e no modo de leitura. */
+.subject-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.reading-entry-link {
+  font-family: var(--sans);
+  font-weight: 700;
+}
+
+.studied-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: var(--step--1);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.studied-toggle:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.studied-toggle[data-state='studied'] {
+  color: var(--paper);
+  border-color: var(--positive);
+  background: var(--positive);
+}
+
+.studied-toggle-icon {
+  font-weight: 800;
+}
+
 /* Modo de leitura sem distrações (#101): rota dedicada, layout mínimo. */
 .reading-shell {
   padding-block: 1rem 5rem;
@@ -532,7 +596,10 @@ a.subject-reading-link:hover {
   margin-bottom: 1rem;
   padding-inline: clamp(1.5rem, 5vw, 3rem);
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .reading-exit {
@@ -555,12 +622,6 @@ a.reading-exit:hover {
 
 .reading-title {
   margin-top: 0;
-}
-
-.reading-entry {
-  margin: 0 0 1.5rem;
-  font-family: var(--sans);
-  font-weight: 700;
 }
 
 .study-shell {

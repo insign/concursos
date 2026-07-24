@@ -1,0 +1,83 @@
+---
+interface Props {
+  contestStorageId: string;
+  subjectStorageId: string;
+}
+
+const { contestStorageId, subjectStorageId } = Astro.props;
+---
+
+<button
+  type="button"
+  class="studied-toggle print-hidden"
+  data-studied-toggle
+  data-subject-id={`${contestStorageId}--${subjectStorageId}`}
+  disabled
+>
+  <span class="studied-toggle-icon" aria-hidden="true">✓</span>
+  <span class="studied-toggle-label">Marcar como estudado</span>
+</button>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { isStudied, loadStudied, setSubjectStudied } from '../lib/studied';
+  import { requestProfileSync } from '../lib/sync';
+
+  const button = document.querySelector<HTMLButtonElement>('[data-studied-toggle]');
+  const alias = getActiveAlias();
+  const label = button?.querySelector<HTMLElement>('.studied-toggle-label') ?? null;
+
+  if (button && label && alias) {
+    const subjectId = button.dataset.subjectId!;
+    // Botão de AÇÃO: o rótulo descreve o que o clique fará (sem aria-pressed, que seria
+    // contraditório com um rótulo que já anuncia a ação inversa).
+    const render = (studied: boolean) => {
+      button.dataset.state = studied ? 'studied' : 'unstudied';
+      label.textContent = studied ? 'Marcar como não estudado' : 'Marcar como estudado';
+    };
+
+    const applyFromStore = async () => render(isStudied(await loadStudied(alias), subjectId));
+
+    void applyFromStore().then(() => {
+      button.disabled = false;
+    });
+    // Garante que o estado remoto (ex.: marcado em outro dispositivo) seja adotado mesmo
+    // sem o coordenador do Header (o modo de leitura o oculta). Deduplicado no conteúdo.
+    void requestProfileSync(alias);
+
+    // Guarda de reentrância em vez de disabled, para não perder o foco de teclado.
+    let busy = false;
+    button.addEventListener('click', async () => {
+      if (busy) return;
+      busy = true;
+      const next = button.dataset.state !== 'studied';
+      render(next); // resposta imediata
+      try {
+        await setSubjectStudied(alias, subjectId, next);
+        window.dispatchEvent(
+          new CustomEvent('concursos:studied-updated', { detail: { profileId: alias } }),
+        );
+        void requestProfileSync(alias);
+      } catch {
+        // Falha ao gravar localmente: reverte a UI ao estado real persistido.
+        void applyFromStore();
+      } finally {
+        busy = false;
+      }
+    });
+
+    window.addEventListener('concursos:studied-updated', (event) => {
+      if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) {
+        void applyFromStore();
+      }
+    });
+    window.addEventListener('concursos:sync-status', (event) => {
+      const state = (event as CustomEvent<{ state?: string }>).detail?.state;
+      if (state === 'synced' || state === 'error') void applyFromStore();
+    });
+  } else if (label) {
+    // Sem alias: o controle fica indisponível; o motivo vai no rótulo VISÍVEL (acessível
+    // em modo de leitura de leitores de tela), não em `title` (que um botão disabled não expõe).
+    label.textContent = 'Marcar como estudado (defina um alias em Configurações)';
+  }
+</script>
