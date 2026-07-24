@@ -368,8 +368,7 @@ h3 {
   min-width: 0;
 }
 
-.catalog-card,
-.subject-card {
+.catalog-card {
   height: 100%;
   padding: clamp(1.25rem, 3vw, 2rem);
   border: 1px solid var(--line);
@@ -377,17 +376,45 @@ h3 {
   box-shadow: 0 0.5rem 1.5rem rgb(31 46 42 / 0.05);
 }
 
-.catalog-card a,
-.subject-card a {
+.catalog-card a {
   font-family: var(--sans);
   font-size: var(--step-1);
   font-weight: 750;
 }
 
-.catalog-card p,
-.subject-card p {
+.catalog-card p {
   margin-bottom: 0;
   color: var(--muted);
+}
+
+/* Listagem compacta (#99): o título é o único texto; a descrição é omitida e o
+   progresso vira um indicador compacto. O slot .subject-card-meta reserva espaço
+   para ações futuras (#101 leitura, #107 estudado). */
+.subject-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  height: 100%;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.subject-card-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-family: var(--sans);
+  font-size: var(--step-0);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.subject-card-meta {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .study-shell {
@@ -697,17 +724,36 @@ h3 {
 }
 
 .progress-summary {
-  margin-top: 1rem !important;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--line);
-  color: var(--accent-strong) !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0;
+  color: var(--accent-strong);
   font-family: var(--sans);
   font-size: var(--step--1);
   font-weight: 700;
+  white-space: nowrap;
+}
+
+.progress-summary::before {
+  content: '';
+  flex: none;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.progress-summary[hidden] {
+  display: none;
+}
+
+.progress-summary[data-state='submitted'] {
+  color: var(--accent);
 }
 
 .progress-summary[data-state='stale'] {
-  color: var(--signal) !important;
+  color: var(--signal);
 }
 
 .questionnaire-settings {
