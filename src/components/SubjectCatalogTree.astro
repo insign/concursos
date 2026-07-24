@@ -18,13 +18,14 @@ const Heading = `h${Math.min(depth + 2, 6)}` as 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
       node.kind === 'subject' ? (
         <li class="subject-item">
           <article class="subject-card">
-            <a href={`/concursos/${contest.slug}/${node.slug}/`}>{node.title}</a>
-            <p>{node.description}</p>
-            <ProgressSummary
-              contestStorageId={contest.storageId}
-              subjectStorageId={node.storageId}
-              questionSetRevision={node.questionSetEntry.data.questionSetRevision}
-            />
+            <a class="subject-card-title" href={`/concursos/${contest.slug}/${node.slug}/`}>{node.title}</a>
+            <div class="subject-card-meta">
+              <ProgressSummary
+                contestStorageId={contest.storageId}
+                subjectStorageId={node.storageId}
+                questionSetRevision={node.questionSetEntry.data.questionSetRevision}
+              />
+            </div>
           </article>
         </li>
       ) : (
