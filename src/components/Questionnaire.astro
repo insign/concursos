@@ -19,7 +19,7 @@ const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subject
   <header class="questionnaire-heading">
     <p class="eyebrow">Prática</p>
     <h1>Questões</h1>
-    <p>{questionSet.questions.length} questões no conjunto editorial atual.</p>
+    <p data-question-count aria-live="polite">{questionSet.questions.length} questões no conjunto editorial atual.</p>
     <p class="identity-hint print-hidden">As respostas ficam separadas pelo alias público definido em <a href="/configuracoes/">Configurações</a>.</p>
   </header>
 
@@ -36,6 +36,17 @@ const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subject
       <label><input type="radio" name="correction-mode" value="on-submit" checked /> Ao finalizar</label>
       <label><input type="radio" name="correction-mode" value="immediate" /> Imediata</label>
     </fieldset>
+
+    <fieldset aria-describedby={`${componentId}-origin-note`}>
+      <legend>Origem</legend>
+      <label><input type="radio" name="question-origin" value="all" checked /> Todas as origens</label>
+      <label><input type="radio" name="question-origin" value="authorial" /> Autorais</label>
+      <label><input type="radio" name="question-origin" value="previous_exam" /> Concursos anteriores</label>
+    </fieldset>
+
+    <p class="question-origin-note" id={`${componentId}-origin-note`}>
+      O filtro muda somente a exibição. A finalização e o progresso consideram todas as questões do assunto.
+    </p>
 
     <div class="toggle-control">
       <label><input type="checkbox" data-shuffle-questions /> Embaralhar questões</label>

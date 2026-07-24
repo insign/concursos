@@ -1,4 +1,4 @@
-import type { Question, QuestionSet } from './content-schema';
+import type { Question, QuestionOrigin, QuestionSet } from './content-schema';
 import { NewerQuestionSetRevisionError } from './document-schema';
 import { buildAnswerDocumentId, getActiveAlias } from './identity';
 import { getLocalAnswerRecord, saveAnswerDocumentSnapshot } from './offline-db';
@@ -37,6 +37,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   const form = requiredElement<HTMLFormElement>(root, '[data-question-form]');
   const questionList = requiredElement<HTMLElement>(root, '[data-question-list]');
   const status = requiredElement<HTMLElement>(root, '[data-question-status]');
+  const questionCount = requiredElement<HTMLElement>(root, '[data-question-count]');
   const previousButton = requiredElement<HTMLButtonElement>(root, '[data-previous-questions]');
   const nextButton = requiredElement<HTMLButtonElement>(root, '[data-next-questions]');
   const loadMoreButton = requiredElement<HTMLButtonElement>(root, '[data-load-more]');
@@ -46,6 +47,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   const correctionInputs = Array.from(
     root.querySelectorAll<HTMLInputElement>('input[name="correction-mode"]'),
   );
+  const originInputs = Array.from(root.querySelectorAll<HTMLInputElement>('input[name="question-origin"]'));
   const shuffleInput = requiredElement<HTMLInputElement>(root, '[data-shuffle-questions]');
   const reshuffleButton = requiredElement<HTMLButtonElement>(root, '[data-reshuffle-questions]');
 
@@ -70,8 +72,15 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   let layout: QuestionLayout = preferences.questionLayout;
   let correctionMode: CorrectionMode = preferences.correctionMode;
   let shuffle = preferences.shuffleQuestions;
+  // Display-only state: never persist this filter with profile preferences.
+  let originFilter: QuestionOrigin | 'all' = 'all';
   let pageStart = 0;
   let visibleAll = 10;
+
+  const questionsForOrigin = (): Question[] =>
+    originFilter === 'all'
+      ? [...config.questionSet.questions]
+      : config.questionSet.questions.filter((question) => question.origin === originFilter);
 
   const deterministicOrder = (): Question[] => {
     const seed = buildQuestionSeed(
@@ -80,9 +89,15 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
       config.subjectStorageId,
       config.questionSet.questionSetRevision,
     );
-    return deterministicQuestionOrder(config.questionSet.questions, seed);
+    return deterministicQuestionOrder(questionsForOrigin(), seed);
   };
-  let orderedQuestions = shuffle ? deterministicOrder() : [...config.questionSet.questions];
+  let orderedQuestions = shuffle ? deterministicOrder() : questionsForOrigin();
+
+  const resetQuestionView = () => {
+    orderedQuestions = shuffle ? deterministicOrder() : questionsForOrigin();
+    pageStart = 0;
+    visibleAll = 10;
+  };
 
   const shouldReveal = () =>
     correctionMode === 'immediate' || isSubmissionValid(documentState, config.questionSet);
@@ -203,6 +218,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     const prompt = document.createElement('span');
     fieldset.className = 'question-card';
     fieldset.dataset.questionId = question.id;
+    fieldset.dataset.questionOrigin = question.origin;
     fieldset.tabIndex = -1;
     legend.className = 'question-legend';
     prompt.className = 'question-prompt';
@@ -240,6 +256,33 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
 
   function render(): void {
     const ordered = orderedQuestions;
+    const questionNoun = (count: number) => (count === 1 ? 'questão' : 'questões');
+    questionCount.textContent =
+      originFilter === 'all'
+        ? `${ordered.length} ${questionNoun(ordered.length)} no conjunto editorial atual.`
+        : `Exibindo ${ordered.length} ${questionNoun(ordered.length)} de ${config.questionSet.questions.length} ${questionNoun(config.questionSet.questions.length)} do conjunto editorial atual.`;
+
+    if (ordered.length === 0) {
+      const emptyState = document.createElement('p');
+      emptyState.className = 'empty-state';
+      emptyState.dataset.questionEmptyState = 'true';
+      emptyState.setAttribute('role', 'status');
+      emptyState.textContent =
+        originFilter === 'authorial'
+          ? 'Não há questões autorais neste assunto.'
+          : originFilter === 'previous_exam'
+            ? 'Não há questões de concursos anteriores neste assunto.'
+            : 'Não há questões neste assunto.';
+      questionList.replaceChildren(emptyState);
+      pagination.hidden = true;
+      previousButton.disabled = true;
+      nextButton.disabled = true;
+      pageStatus.textContent = 'Nenhuma questão nesta origem.';
+      loadMoreButton.hidden = true;
+      reshuffleButton.disabled = true;
+      return;
+    }
+
     const blockSize = layout === 'single' ? 1 : 10;
     const visibleStart = layout === 'all' ? 0 : pageStart;
     const visible = layout === 'all' ? ordered.slice(0, visibleAll) : ordered.slice(pageStart, pageStart + blockSize);
@@ -287,12 +330,20 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
     });
   }
 
+  for (const input of originInputs) {
+    input.checked = input.value === originFilter;
+    input.addEventListener('change', () => {
+      if (!input.checked) return;
+      originFilter = input.value as QuestionOrigin | 'all';
+      resetQuestionView();
+      render();
+    });
+  }
+
   shuffleInput.checked = shuffle;
   shuffleInput.addEventListener('change', () => {
     shuffle = shuffleInput.checked;
-    orderedQuestions = shuffle ? deterministicOrder() : [...config.questionSet.questions];
-    pageStart = 0;
-    visibleAll = 10;
+    resetQuestionView();
     render();
     void persistPreference('shuffleQuestions', shuffle);
   });
@@ -306,6 +357,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   });
 
   previousButton.addEventListener('click', () => {
+    if (orderedQuestions.length === 0) return;
     const blockSize = layout === 'single' ? 1 : 10;
     pageStart = Math.max(0, pageStart - blockSize);
     render();
@@ -313,6 +365,7 @@ export async function mountQuestionnaire(root: HTMLElement, config: Questionnair
   });
 
   nextButton.addEventListener('click', () => {
+    if (orderedQuestions.length === 0) return;
     const blockSize = layout === 'single' ? 1 : 10;
     pageStart = Math.min(orderedQuestions.length - 1, pageStart + blockSize);
     render();
