@@ -28,6 +28,10 @@ import {
   type SimuladoDocument,
   type SimuladosIndex,
 } from './simulados';
+import {
+  parseValidatedSimuladoDocument,
+  parseValidatedSimuladosIndex,
+} from './simulados-validation';
 
 interface RemoteDocument<T> {
   document: T;
@@ -120,7 +124,7 @@ async function readRemoteIndex(
     return await readValidated(
       profileId,
       documentId,
-      (value) => simuladosIndexSchema.parse(value),
+      parseValidatedSimuladosIndex,
       'Índice de simulados',
       hooks,
     );
@@ -144,7 +148,7 @@ async function readRemoteDetail(
     profileId,
     documentId,
     (value) => {
-      const document = simuladoDocumentSchema.parse(value);
+      const document = parseValidatedSimuladoDocument(value);
       if (document.simulationId !== simulationId) {
         throw new Error('O ID interno do simulado não corresponde ao documento remoto');
       }
@@ -230,6 +234,19 @@ async function applyDetailRemote(
   });
 }
 
+async function assertIndexDetailsReady(profileId: string, index: SimuladosIndex): Promise<void> {
+  const records = await listProfileSimuladoRecords(profileId);
+  const bySimulationId = new Map(records.map((record) => [record.current.simulationId, record]));
+  for (const summary of index.simulados) {
+    const record = bySimulationId.get(summary.id);
+    if (!record || record.outboxState !== 'clean') {
+      throw new Error(
+        `O índice aguarda a sincronização do documento detalhado do simulado ${summary.id}`,
+      );
+    }
+  }
+}
+
 async function applyIndexRemote(
   profileId: string,
   remote: RemoteDocument<SimuladosIndex> | null,
@@ -273,6 +290,7 @@ async function applyIndexRemote(
 
   if (!record) return;
   const local = simuladosIndexSchema.parse(record.current);
+  await assertIndexDetailsReady(profileId, local);
   await hooks.beforeRequest();
   await hooks.ensureLease();
   const written = await writeKv(documentId, local, {
@@ -348,16 +366,23 @@ export async function applySimuladosPreflight(
   for (const detail of preflight.details) {
     await applyDetailRemote(profileId, detail.simulationId, detail.remote, hooks);
   }
+  if ((await listPendingSimuladoRecords(profileId)).length > 0) {
+    throw new Error('Os documentos detalhados mudaram durante a vinculação; tente novamente');
+  }
+
   await applyIndexRemote(profileId, preflight.index, hooks);
   await reconcileLocalIndex(profileId);
+  if ((await listPendingSimuladoRecords(profileId)).length > 0) {
+    throw new Error('Os documentos detalhados mudaram durante a vinculação; tente novamente');
+  }
+
   const indexRecord = await getSharedDocumentRecord('simuladosIndex', profileId);
   if (indexRecord?.outboxState === 'pending') {
     await applyIndexRemote(profileId, preflight.index, hooks);
   }
-  const pendingDetails = await listPendingSimuladoRecords(profileId);
   const finalIndex = await getSharedDocumentRecord('simuladosIndex', profileId);
-  if (pendingDetails.length > 0 || finalIndex?.outboxState === 'pending') {
-    throw new Error('Os simulados mudaram durante a vinculação; tente novamente');
+  if (finalIndex?.outboxState === 'pending') {
+    throw new Error('O índice de simulados mudou durante a vinculação; tente novamente');
   }
 }
 
@@ -366,6 +391,7 @@ export async function synchronizePendingSimulados(
   hooks: SimuladosSyncHooks,
 ): Promise<SimuladosSyncResult> {
   let failures = 0;
+  let detailFailures = 0;
   let remoteDocumentCount = 0;
   const remoteIndex = await readRemoteIndex(profileId, hooks);
   if (remoteIndex) remoteDocumentCount += 1;
@@ -380,6 +406,7 @@ export async function synchronizePendingSimulados(
       await applyDetailRemote(profileId, record.current.simulationId, remote, hooks);
     } catch (error) {
       failures += 1;
+      detailFailures += 1;
       await markSimuladoSyncError(
         record.documentId,
         error instanceof Error ? error.message : 'Falha ao sincronizar simulado',
@@ -396,6 +423,7 @@ export async function synchronizePendingSimulados(
       await applyDetailRemote(profileId, summary.id, remote, hooks);
     } catch (error) {
       failures += 1;
+      detailFailures += 1;
       const documentId = buildSimuladoDocumentId(profileId, summary.id);
       await markSimuladoSyncError(
         documentId,
@@ -405,19 +433,40 @@ export async function synchronizePendingSimulados(
     }
   }
 
-  try {
-    await reconcileLocalIndex(profileId);
-    await applyIndexRemote(profileId, remoteIndex, hooks);
-  } catch (error) {
-    failures += 1;
+  const pendingAfterDetails = await listPendingSimuladoRecords(profileId);
+  if (detailFailures === 0 && pendingAfterDetails.length === 0) {
+    try {
+      // Primeiro adota ou publica o índice observado. Em seguida, reconcilia o índice local com
+      // os detalhes efetivamente duráveis e publica apenas o reparo que continuar pendente.
+      await applyIndexRemote(profileId, remoteIndex, hooks);
+      await reconcileLocalIndex(profileId);
+      if ((await listPendingSimuladoRecords(profileId)).length > 0) {
+        throw new Error('O índice aguarda documentos detalhados que ainda estão pendentes');
+      }
+      const indexRecord = await getSharedDocumentRecord('simuladosIndex', profileId);
+      if (indexRecord?.outboxState === 'pending') {
+        await applyIndexRemote(profileId, remoteIndex, hooks);
+      }
+    } catch (error) {
+      failures += 1;
+      await markSharedDocumentError(
+        'simuladosIndex',
+        profileId,
+        error instanceof Error ? error.message : 'Falha ao sincronizar índice de simulados',
+      );
+    }
+  } else {
     await markSharedDocumentError(
       'simuladosIndex',
       profileId,
-      error instanceof Error ? error.message : 'Falha ao sincronizar índice de simulados',
+      detailFailures > 0
+        ? 'Índice mantido pendente porque um ou mais documentos detalhados falharam'
+        : 'Índice mantido pendente porque há documentos detalhados ainda não sincronizados',
     );
+    if (failures === 0) failures = 1;
   }
 
-  if ((await listPendingSimuladoRecords(profileId)).length > 0) failures += 1;
+  if ((await listPendingSimuladoRecords(profileId)).length > 0 && failures === 0) failures = 1;
   if ((await getSharedDocumentRecord('simuladosIndex', profileId))?.outboxState === 'pending') failures += 1;
   return { failures, remoteDocumentCount };
 }
