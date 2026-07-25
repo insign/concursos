@@ -1,39 +1,45 @@
 <script>
   import { getActiveAlias } from '../lib/identity';
-  import { requestCompleteProfileSync } from '../lib/simulados-profile-sync';
+  import { requestSimuladosProfileSync } from '../lib/simulados-profile-sync';
+  import { hasPendingSimulados } from '../lib/simulados-runtime';
 
-  if (location.pathname.startsWith('/simulados/')) {
-    let running = false;
-    let rerun = false;
+  let running = false;
+  let rerun = false;
+  let rerunForced = false;
 
-    const synchronize = async () => {
-      const alias = getActiveAlias();
-      if (!alias || !navigator.onLine) return;
-      if (running) {
-        rerun = true;
-        return;
+  const synchronize = async (force = false) => {
+    const alias = getActiveAlias();
+    if (!alias || !navigator.onLine) return;
+    if (running) {
+      rerun = true;
+      rerunForced ||= force;
+      return;
+    }
+
+    running = true;
+    try {
+      const isSimuladosRoute = location.pathname.startsWith('/simulados/');
+      if (!force && !isSimuladosRoute && !(await hasPendingSimulados(alias))) return;
+      await requestSimuladosProfileSync(alias);
+    } catch (error) {
+      console.error('Não foi possível sincronizar os simulados pendentes.', error);
+    } finally {
+      running = false;
+      if (rerun) {
+        const forceNextRun = rerunForced;
+        rerun = false;
+        rerunForced = false;
+        void synchronize(forceNextRun);
       }
-      running = true;
-      try {
-        await requestCompleteProfileSync(alias);
-        window.dispatchEvent(
-          new CustomEvent('concursos:simulados-synced', { detail: { profileId: alias } }),
-        );
-      } finally {
-        running = false;
-        if (rerun) {
-          rerun = false;
-          void synchronize();
-        }
-      }
-    };
+    }
+  };
 
-    window.addEventListener('concursos:simulados-updated', () => void synchronize());
-    window.addEventListener('online', () => void synchronize());
-    window.addEventListener('focus', () => void synchronize());
-    document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'visible') void synchronize();
-    });
-    void synchronize();
-  }
+  window.addEventListener('concursos:simulados-updated', () => void synchronize(true));
+  window.addEventListener('online', () => void synchronize());
+  window.addEventListener('focus', () => void synchronize());
+  window.addEventListener('concursos:sync-request', () => void synchronize());
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') void synchronize();
+  });
+  void synchronize();
 </script>
