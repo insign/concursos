@@ -15,10 +15,20 @@ interface Props {
 
 const { contest, subject, showTitle = true } = Astro.props;
 const exitHref = `/concursos/${contest.slug}/${subject.slug}/`;
+const groupId = subject.groupPath.at(-1)?.slug ?? null;
 ---
 
 <BaseLayout title={subject.title} description={subject.description} pageClass="reading-page" hideHeader>
-  <main class="reading-shell">
+  <main
+    class="reading-shell"
+    data-navigation-root
+    data-navigation-contest={contest.storageId}
+    data-navigation-group={groupId ?? undefined}
+    data-navigation-subject={subject.storageId}
+    data-navigation-tab="reading"
+    data-navigation-mode="reading"
+    data-navigation-content-version={subject.contentEntry.id}
+  >
     <div class="reading-bar print-hidden">
       <div class="reading-bar-controls">
         <StudiedToggle contestStorageId={contest.storageId} subjectStorageId={subject.storageId} />
@@ -29,7 +39,7 @@ const exitHref = `/concursos/${contest.slug}/${subject.slug}/`;
         <span>Sair da leitura</span>
       </a>
     </div>
-    <div class="reading-surface">
+    <div class="reading-surface" data-navigation-content>
       <article>
         {showTitle && <h1 class="reading-title">{subject.title}</h1>}
         <slot />

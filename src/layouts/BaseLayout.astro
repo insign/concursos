@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.astro';
+import NavigationRuntime from '../components/NavigationRuntime.astro';
 import PwaRuntime from '../components/PwaRuntime.astro';
 import SimuladosSyncRuntime from '../components/SimuladosSyncRuntime.astro';
 import '../styles/fonts.css';
@@ -46,7 +47,10 @@ const pageTitle = title === 'Concursos' ? title : `${title} | Concursos`;
   <body class={pageClass || undefined}>
     {!hideHeader && <Header />}
     <slot />
-    <PwaRuntime />
+    {/* Na rota de simulados, a recuperação detalhada precisa entrar na fila compartilhada
+        antes da sincronização periódica e mais leve da navegação. */}
     <SimuladosSyncRuntime />
+    <NavigationRuntime />
+    <PwaRuntime />
   </body>
 </html>

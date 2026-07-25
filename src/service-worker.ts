@@ -127,7 +127,9 @@ registerRoute(
   ({ request, url }) =>
     url.origin === worker.location.origin &&
     request.method === 'GET' &&
-    (url.pathname === '/simulados/catalog.json' || url.pathname.startsWith('/simulados/pool/')),
+    (url.pathname === '/navigation-catalog.json' ||
+      url.pathname === '/simulados/catalog.json' ||
+      url.pathname.startsWith('/simulados/pool/')),
   ({ request }) => downloadedResourceFirstFallback(request),
 );
 

@@ -7,6 +7,12 @@ import {
   whenLocalWritesSettled,
 } from './offline-db';
 import {
+  applyNavigationPreflight,
+  readNavigationPreflight,
+  synchronizeNavigation,
+  type NavigationPreflight,
+} from './navigation-sync';
+import {
   applySimuladosPreflight,
   readSimuladosPreflight,
   synchronizePendingSimulados,
@@ -30,6 +36,8 @@ const ownerId =
     : `simulados-${Date.now()}-${Math.random()}`;
 let serial: Promise<unknown> = Promise.resolve();
 let lastRequestAt = 0;
+const activeSimuladosSyncs = new Map<string, Promise<boolean>>();
+const activeCompleteSyncs = new Map<string, Promise<boolean>>();
 
 function enqueue<T>(operation: () => Promise<T>): Promise<T> {
   const queued = serial.then(operation, operation);
@@ -56,13 +64,22 @@ function announceSimulados(profileId: string, failures: number): void {
   );
 }
 
+function announceNavigation(profileId: string, failures: number, remoteVersion: number | null): void {
+  if (typeof window === 'undefined') return;
+  window.dispatchEvent(
+    new CustomEvent('concursos:navigation-synced', {
+      detail: { profileId, failures, remoteVersion },
+    }),
+  );
+}
+
 function announceError(error: unknown): void {
   if (typeof window === 'undefined') return;
   window.dispatchEvent(
     new CustomEvent('concursos:sync-status', {
       detail: {
         state: 'error',
-        message: error instanceof Error ? error.message : 'Falha ao sincronizar simulados',
+        message: error instanceof Error ? error.message : 'Falha ao sincronizar o perfil',
       },
     }),
   );
@@ -115,11 +132,13 @@ function remoteSimuladoCount(preflight: SimuladosPreflight): number {
   return Number(preflight.index !== null) + preflight.details.filter((detail) => detail.remote !== null).length;
 }
 
+function remoteNavigationCount(preflight: NavigationPreflight): number {
+  return Number(preflight.remote !== null);
+}
+
 async function runSimuladosSync(profileId: string): Promise<boolean> {
   try {
-    const result = await withSimuladosLease((hooks) =>
-      synchronizePendingSimulados(profileId, hooks),
-    );
+    const result = await withSimuladosLease((hooks) => synchronizePendingSimulados(profileId, hooks));
     announceSimulados(profileId, result.failures);
     return result.failures === 0;
   } catch (error) {
@@ -128,17 +147,70 @@ async function runSimuladosSync(profileId: string): Promise<boolean> {
   }
 }
 
+async function runExtendedSync(profileId: string): Promise<boolean> {
+  try {
+    const result = await withSimuladosLease(async (hooks) => {
+      const simulados = await synchronizePendingSimulados(profileId, hooks);
+      announceSimulados(profileId, simulados.failures);
+      const navigation = await synchronizeNavigation(profileId, hooks);
+      return { simulados, navigation };
+    });
+    announceNavigation(profileId, result.navigation.failures, result.navigation.remoteVersion);
+    return result.simulados.failures === 0 && result.navigation.failures === 0;
+  } catch (error) {
+    if (!(error instanceof SyncLeaseLostError)) announceError(error);
+    return false;
+  }
+}
+
+export function requestSimuladosProfileSync(
+  profileId = getActiveAlias(),
+): Promise<boolean> {
+  if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) {
+    return requestProfileSync(profileId);
+  }
+  const active = activeSimuladosSyncs.get(profileId);
+  if (active) return active;
+
+  let operation!: Promise<boolean>;
+  operation = enqueue(async () => {
+    const base = await requestProfileSync(profileId);
+    const simulados = await runSimuladosSync(profileId);
+    return base && simulados;
+  }).finally(() => {
+    if (activeSimuladosSyncs.get(profileId) === operation) activeSimuladosSyncs.delete(profileId);
+  });
+  activeSimuladosSyncs.set(profileId, operation);
+  return operation;
+}
+
+export async function requestNavigationProfileSync(
+  profileId = getActiveAlias(),
+): Promise<boolean> {
+  if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) return false;
+  return enqueue(async () => {
+    try {
+      const result = await withSimuladosLease((hooks) => synchronizeNavigation(profileId, hooks));
+      announceNavigation(profileId, result.failures, result.remoteVersion);
+      return result.failures === 0;
+    } catch (error) {
+      if (!(error instanceof SyncLeaseLostError)) announceError(error);
+      return false;
+    }
+  });
+}
+
 export async function prepareCompleteProfileAlias(
   profileId: string,
   options: ProfilePreparationOptions = {},
 ): Promise<ProfilePreparationResult> {
   return enqueue(async () => {
-    // Inspeciona e valida todos os documentos de simulados antes de permitir que o
-    // preflight base publique qualquer estado local para o alias de destino.
-    const inspected = await withSimuladosLease((hooks) =>
-      readSimuladosPreflight(profileId, hooks),
-    );
-    const inspectedCount = remoteSimuladoCount(inspected);
+    const inspected = await withSimuladosLease(async (hooks) => ({
+      simulados: await readSimuladosPreflight(profileId, hooks),
+      navigation: await readNavigationPreflight(profileId, hooks),
+    }));
+    const inspectedCount =
+      remoteSimuladoCount(inspected.simulados) + remoteNavigationCount(inspected.navigation);
 
     const base = await prepareProfileAlias(profileId, {
       onPreflightComplete: (result) => {
@@ -148,29 +220,37 @@ export async function prepareCompleteProfileAlias(
       },
     });
 
-    // Releia sob lease depois da confirmação: o remoto pode ter avançado enquanto
-    // o usuário decidia, e a arbitragem deve usar a versão atual, não o snapshot da UI.
-    const currentSimuladoCount = await withSimuladosLease(async (hooks) => {
-      const preflight = await readSimuladosPreflight(profileId, hooks);
-      await applySimuladosPreflight(profileId, preflight, hooks);
-      return remoteSimuladoCount(preflight);
+    const currentAdditionalCount = await withSimuladosLease(async (hooks) => {
+      const simulados = await readSimuladosPreflight(profileId, hooks);
+      const navigation = await readNavigationPreflight(profileId, hooks);
+      await applySimuladosPreflight(profileId, simulados, hooks);
+      await applyNavigationPreflight(profileId, navigation, hooks);
+      return remoteSimuladoCount(simulados) + remoteNavigationCount(navigation);
     });
 
     return {
-      remoteDocumentCount: base.remoteDocumentCount + currentSimuladoCount,
+      remoteDocumentCount: base.remoteDocumentCount + currentAdditionalCount,
     };
   });
 }
 
-export async function requestCompleteProfileSync(
+export function requestCompleteProfileSync(
   profileId = getActiveAlias(),
 ): Promise<boolean> {
   if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) {
     return requestProfileSync(profileId);
   }
-  return enqueue(async () => {
+  const active = activeCompleteSyncs.get(profileId);
+  if (active) return active;
+
+  let operation!: Promise<boolean>;
+  operation = enqueue(async () => {
     const base = await requestProfileSync(profileId);
-    const simulados = await runSimuladosSync(profileId);
-    return base && simulados;
+    const additional = await runExtendedSync(profileId);
+    return base && additional;
+  }).finally(() => {
+    if (activeCompleteSyncs.get(profileId) === operation) activeCompleteSyncs.delete(profileId);
   });
+  activeCompleteSyncs.set(profileId, operation);
+  return operation;
 }
