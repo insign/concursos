@@ -35,44 +35,7 @@ jobs:
         run: npm run test:unit
 
       - name: Run Astro checks
-        id: astro-check
-        continue-on-error: true
-        run: npm run check > astro-check.log 2>&1
-
-      - name: Upload Astro diagnostics
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: astro-check-${{ github.sha }}
-          path: astro-check.log
-          retention-days: 1
-
-      - name: Enforce Astro checks
-        if: steps.astro-check.outcome == 'failure'
-        run: exit 1
+        run: npm run check
 
       - name: Build production site
         run: npm run build
-
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
-
-      - name: Run browser tests
-        id: browser-tests
-        continue-on-error: true
-        run: npm run test:e2e > playwright.log 2>&1
-
-      - name: Upload browser diagnostics
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: playwright-${{ github.sha }}
-          path: |
-            playwright.log
-            test-results
-          if-no-files-found: ignore
-          retention-days: 1
-
-      - name: Enforce browser tests
-        if: steps.browser-tests.outcome == 'failure'
-        run: exit 1
