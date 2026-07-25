@@ -36,6 +36,7 @@ const ownerId =
     : `simulados-${Date.now()}-${Math.random()}`;
 let serial: Promise<unknown> = Promise.resolve();
 let lastRequestAt = 0;
+const activeSimuladosSyncs = new Map<string, Promise<boolean>>();
 
 function enqueue<T>(operation: () => Promise<T>): Promise<T> {
   const queued = serial.then(operation, operation);
@@ -134,13 +135,21 @@ function remoteNavigationCount(preflight: NavigationPreflight): number {
   return Number(preflight.remote !== null);
 }
 
+async function runSimuladosSync(profileId: string): Promise<boolean> {
+  try {
+    const result = await withSimuladosLease((hooks) => synchronizePendingSimulados(profileId, hooks));
+    announceSimulados(profileId, result.failures);
+    return result.failures === 0;
+  } catch (error) {
+    if (!(error instanceof SyncLeaseLostError)) announceError(error);
+    return false;
+  }
+}
+
 async function runExtendedSync(profileId: string): Promise<boolean> {
   try {
     const result = await withSimuladosLease(async (hooks) => {
       const simulados = await synchronizePendingSimulados(profileId, hooks);
-      // A interface de simulados pode reler o IndexedDB assim que os documentos detalhados
-      // e o índice terminarem. A navegação continua sincronizando sob o mesmo lease, mas não
-      // deve atrasar a retomada de uma tentativa remota já durável.
       announceSimulados(profileId, simulados.failures);
       const navigation = await synchronizeNavigation(profileId, hooks);
       return { simulados, navigation };
@@ -151,6 +160,29 @@ async function runExtendedSync(profileId: string): Promise<boolean> {
     if (!(error instanceof SyncLeaseLostError)) announceError(error);
     return false;
   }
+}
+
+// A página e o runtime podem pedir a mesma recuperação quase simultaneamente. Todos os
+// chamadores do mesmo alias compartilham uma única promessa, em vez de enfileirar uma
+// segunda varredura completa do índice e dos documentos detalhados.
+export function requestSimuladosProfileSync(
+  profileId = getActiveAlias(),
+): Promise<boolean> {
+  if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) {
+    return requestProfileSync(profileId);
+  }
+  const active = activeSimuladosSyncs.get(profileId);
+  if (active) return active;
+
+  const operation = enqueue(async () => {
+    const base = await requestProfileSync(profileId);
+    const simulados = await runSimuladosSync(profileId);
+    return base && simulados;
+  }).finally(() => {
+    if (activeSimuladosSyncs.get(profileId) === operation) activeSimuladosSyncs.delete(profileId);
+  });
+  activeSimuladosSyncs.set(profileId, operation);
+  return operation;
 }
 
 export async function requestNavigationProfileSync(
@@ -174,8 +206,6 @@ export async function prepareCompleteProfileAlias(
   options: ProfilePreparationOptions = {},
 ): Promise<ProfilePreparationResult> {
   return enqueue(async () => {
-    // Inspeciona todos os documentos adicionais antes que o preflight base possa publicar
-    // qualquer estado local para o alias de destino.
     const inspected = await withSimuladosLease(async (hooks) => ({
       simulados: await readSimuladosPreflight(profileId, hooks),
       navigation: await readNavigationPreflight(profileId, hooks),
@@ -191,8 +221,6 @@ export async function prepareCompleteProfileAlias(
       },
     });
 
-    // Releia sob lease depois da confirmação: o remoto pode ter avançado enquanto
-    // o usuário decidia, e a arbitragem deve usar a versão atual.
     const currentAdditionalCount = await withSimuladosLease(async (hooks) => {
       const simulados = await readSimuladosPreflight(profileId, hooks);
       const navigation = await readNavigationPreflight(profileId, hooks);
