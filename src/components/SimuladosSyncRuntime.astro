@@ -1,6 +1,6 @@
 <script>
   import { getActiveAlias } from '../lib/identity';
-  import { requestSimuladosProfileSync } from '../lib/simulados-profile-sync';
+  import { requestCompleteProfileSync } from '../lib/simulados-profile-sync';
 
   if (location.pathname.startsWith('/simulados/')) {
     let running = false;
@@ -15,7 +15,7 @@
       }
       running = true;
       try {
-        await requestSimuladosProfileSync(alias);
+        await requestCompleteProfileSync(alias);
         window.dispatchEvent(
           new CustomEvent('concursos:simulados-synced', { detail: { profileId: alias } }),
         );
