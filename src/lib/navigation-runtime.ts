@@ -18,6 +18,7 @@ const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
 const SESSION_PREFIX = 'concursos:navigation-restored:';
 const CAPTURE_DEBOUNCE_MS = 800;
 const PERIODIC_SYNC_MS = 30_000;
+const INITIAL_AUTOMATIC_SYNC_DELAY_MS = 12_000;
 let started = false;
 
 interface ReadingTarget {
@@ -300,6 +301,7 @@ export function startNavigationRuntime(): void {
   let lastFingerprint: string | null = null;
   let lastRemoteVersion: number | null = null;
   let suppressCaptureUntil = 0;
+  const automaticSyncAfter = Date.now() + INITIAL_AUTOMATIC_SYNC_DELAY_MS;
 
   const hideOffer = () => {
     if (offerUi) offerUi.root.hidden = true;
@@ -343,8 +345,10 @@ export function startNavigationRuntime(): void {
     }, delay);
   };
 
-  const synchronize = (): Promise<boolean> => {
-    if (!ready || !navigator.onLine) return Promise.resolve(false);
+  const synchronize = (force = false): Promise<boolean> => {
+    if (!ready || !navigator.onLine || (!force && Date.now() < automaticSyncAfter)) {
+      return Promise.resolve(false);
+    }
     if (runningSync) return runningSync;
     runningSync = requestNavigationProfileSync(profileId).finally(() => {
       runningSync = null;
@@ -379,7 +383,7 @@ export function startNavigationRuntime(): void {
 
   offerUi?.stay.addEventListener('click', () => {
     hideOffer();
-    void saveCurrent().then(() => synchronize());
+    void saveCurrent().then(() => synchronize(true));
   });
 
   window.addEventListener('scroll', () => scheduleCapture(), { passive: true });
@@ -414,7 +418,7 @@ export function startNavigationRuntime(): void {
     else void synchronize().then(inspectRemoteChange);
   });
   window.addEventListener('concursos:navigation-synced', () => void inspectRemoteChange());
-  window.addEventListener('concursos:navigation-updated', () => void synchronize());
+  window.addEventListener('concursos:navigation-updated', () => void synchronize(true));
 
   window.setInterval(() => {
     if (document.visibilityState !== 'visible') return;
@@ -451,7 +455,7 @@ export function startNavigationRuntime(): void {
     ready = true;
     if (!record || !target) {
       await saveCurrent(false);
-      window.setTimeout(() => void synchronize(), 12_000);
+      window.setTimeout(() => void synchronize(), INITIAL_AUTOMATIC_SYNC_DELAY_MS + 100);
     }
   })().catch(() => {
     ready = true;
