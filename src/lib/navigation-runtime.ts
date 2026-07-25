@@ -19,6 +19,16 @@ const SESSION_PREFIX = 'concursos:navigation-restored:';
 const CAPTURE_DEBOUNCE_MS = 800;
 const PERIODIC_SYNC_MS = 30_000;
 const INITIAL_AUTOMATIC_SYNC_DELAY_MS = 12_000;
+const NAVIGATION_TABS = new Set<NavigationContext['activeTab']>([
+  'catalog',
+  'content',
+  'cheat-sheet',
+  'questions',
+  'reading',
+  'simulados',
+  'settings',
+  'other',
+]);
 let started = false;
 
 interface ReadingTarget {
@@ -44,13 +54,31 @@ async function loadNavigationCatalog(): Promise<NavigationCatalog> {
   return navigationCatalogSchema.parse(await response.json());
 }
 
-function catalogEntryForRoute(catalog: NavigationCatalog, route: string): NavigationCatalogEntry | null {
+function catalogEntryForRoute(
+  catalog: NavigationCatalog | null,
+  route: string,
+): NavigationCatalogEntry | null {
+  if (!catalog) return null;
   try {
     const pathname = new URL(route, location.origin).pathname;
     return catalog.routes.find((entry) => entry.route === pathname) ?? null;
   } catch {
     return null;
   }
+}
+
+function documentEntryForCurrentRoute(): NavigationCatalogEntry | null {
+  const root = document.querySelector<HTMLElement>('[data-navigation-root]');
+  const tab = root?.dataset.navigationTab as NavigationContext['activeTab'] | undefined;
+  if (!root || !tab || !NAVIGATION_TABS.has(tab)) return null;
+
+  return {
+    route: location.pathname,
+    contestStorageId: root.dataset.navigationContest ?? null,
+    subjectStorageId: root.dataset.navigationSubject ?? null,
+    activeTab: tab,
+    readingMode: root.dataset.navigationMode === 'reading',
+  };
 }
 
 function stableSlug(value: string): string {
@@ -195,16 +223,20 @@ function checkedValue(name: string): string | null {
   return document.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`)?.value ?? null;
 }
 
+function distanceFromLine(element: HTMLElement, anchorLine: number): number {
+  const rect = element.getBoundingClientRect();
+  if (rect.top <= anchorLine && rect.bottom >= anchorLine) return 0;
+  return Math.min(Math.abs(rect.top - anchorLine), Math.abs(rect.bottom - anchorLine));
+}
+
 function visibleQuestionId(): string | null {
   const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-question-id]'));
   if (cards.length === 0) return null;
   const anchorLine = window.innerHeight * 0.35;
-  return (
-    cards.find((card) => {
-      const rect = card.getBoundingClientRect();
-      return rect.top <= anchorLine && rect.bottom >= anchorLine;
-    }) ?? cards[0]
-  ).dataset.questionId ?? null;
+  const nearest = cards.reduce((best, card) =>
+    distanceFromLine(card, anchorLine) < distanceFromLine(best, anchorLine) ? card : best,
+  );
+  return nearest.dataset.questionId ?? null;
 }
 
 function captureContext(entry: NavigationCatalogEntry): NavigationContext {
@@ -229,11 +261,11 @@ function captureContext(entry: NavigationCatalogEntry): NavigationContext {
 async function waitForQuestionnaire(): Promise<HTMLElement | null> {
   const root = document.querySelector<HTMLElement>('[data-questionnaire]');
   if (!root) return null;
-  for (let attempt = 0; attempt < 40; attempt += 1) {
-    if (root.dataset.mounted === 'true') return root;
+  for (let attempt = 0; attempt < 60; attempt += 1) {
+    if (root.dataset.navigationReady === 'true') return root;
     await wait(50);
   }
-  return root;
+  return null;
 }
 
 function applyRadio(name: string, value: string | null): void {
@@ -259,6 +291,9 @@ async function restoreQuestionContext(context: NavigationContext): Promise<void>
 
   if (!context.questionId) return;
   const next = questionnaire.querySelector<HTMLButtonElement>('[data-next-questions]');
+  const loadMore = questionnaire.querySelector<HTMLButtonElement>('[data-load-more]');
+  const advance = context.questionLayout === 'all' ? loadMore : next;
+
   for (let attempt = 0; attempt < 500; attempt += 1) {
     const target = Array.from(questionnaire.querySelectorAll<HTMLElement>('[data-question-id]')).find(
       (card) => card.dataset.questionId === context.questionId,
@@ -267,15 +302,17 @@ async function restoreQuestionContext(context: NavigationContext): Promise<void>
       target.scrollIntoView({ block: 'center', behavior: 'auto' });
       return;
     }
-    if (!next || next.disabled) return;
-    next.click();
+    if (!advance || advance.disabled || advance.hidden) return;
+    advance.click();
     await wait(0);
   }
 }
 
 async function restoreDocument(document: NavigationDocument): Promise<void> {
   await restoreQuestionContext(document.context);
-  await restoreReadingPosition(document.readingPosition);
+  if (document.context.activeTab !== 'questions') {
+    await restoreReadingPosition(document.readingPosition);
+  }
 }
 
 function offerElements(): NavigationOfferElements | null {
@@ -293,13 +330,14 @@ export function startNavigationRuntime(): void {
   if (!profileId) return;
 
   const offerUi = offerElements();
-  const catalogPromise = loadNavigationCatalog();
+  const catalogPromise = loadNavigationCatalog().catch(() => null);
   let ready = false;
   let captureTimer: ReturnType<typeof setTimeout> | undefined;
   let runningSync: Promise<boolean> | null = null;
   let offered: NavigationDocument | null = null;
   let lastFingerprint: string | null = null;
   let lastRemoteVersion: number | null = null;
+  let lastRemoteCreatedAt: string | null = null;
   let suppressCaptureUntil = 0;
   const automaticSyncAfter = Date.now() + INITIAL_AUTOMATIC_SYNC_DELAY_MS;
 
@@ -318,17 +356,30 @@ export function startNavigationRuntime(): void {
     offerUi.root.hidden = false;
   };
 
-  const saveCurrent = async (requestSync = true): Promise<void> => {
+  const saveCurrent = async (requestSync = true, forcePersist = false): Promise<void> => {
     if (!ready || offered || Date.now() < suppressCaptureUntil) return;
     const catalog = await catalogPromise;
-    const entry = catalogEntryForRoute(catalog, currentRoute());
+    const entry =
+      catalogEntryForRoute(catalog, currentRoute()) ??
+      documentEntryForCurrentRoute();
     if (!entry) return;
+
+    const context = captureContext(entry);
     const contentRoot = document.querySelector<HTMLElement>('[data-navigation-content]');
-    const readingPosition = contentRoot ? captureReadingPosition(contentRoot) : null;
-    const snapshot = createNavigationDocument(currentRoute(), captureContext(entry), readingPosition);
+    const readingPosition =
+      context.activeTab === 'questions' || !contentRoot
+        ? null
+        : captureReadingPosition(contentRoot);
+    const snapshot = createNavigationDocument(currentRoute(), context, readingPosition);
     const fingerprint = navigationFingerprint(snapshot);
     const record = await getNavigationRecord(profileId);
-    if (fingerprint === lastFingerprint || (record && fingerprint === navigationFingerprint(record.current))) return;
+
+    if (!forcePersist && fingerprint === lastFingerprint) return;
+    if (record && fingerprint === navigationFingerprint(record.current)) {
+      lastFingerprint = fingerprint;
+      return;
+    }
+
     await saveNavigationDocument(profileId, snapshot);
     lastFingerprint = fingerprint;
     if (requestSync) {
@@ -360,9 +411,23 @@ export function startNavigationRuntime(): void {
     if (!ready) return;
     const record = await getNavigationRecord(profileId);
     if (!record || record.remoteVersion === null) return;
-    const newer = lastRemoteVersion === null || record.remoteVersion > lastRemoteVersion;
-    lastRemoteVersion = Math.max(lastRemoteVersion ?? 0, record.remoteVersion);
+
+    const incarnationChanged =
+      (lastRemoteCreatedAt !== null &&
+        record.remoteCreatedAt !== null &&
+        record.remoteCreatedAt !== lastRemoteCreatedAt) ||
+      (lastRemoteVersion !== null && record.remoteVersion < lastRemoteVersion);
+    const newer =
+      incarnationChanged ||
+      lastRemoteVersion === null ||
+      record.remoteVersion > lastRemoteVersion;
+
+    lastRemoteVersion = incarnationChanged
+      ? record.remoteVersion
+      : Math.max(lastRemoteVersion ?? 0, record.remoteVersion);
+    lastRemoteCreatedAt = record.remoteCreatedAt;
     if (!newer) return;
+
     const fingerprint = navigationFingerprint(record.current);
     if (fingerprint !== lastFingerprint && record.outboxState === 'clean') showOffer(record.current);
   };
@@ -383,7 +448,7 @@ export function startNavigationRuntime(): void {
 
   offerUi?.stay.addEventListener('click', () => {
     hideOffer();
-    void saveCurrent().then(() => synchronize(true));
+    void saveCurrent(true, true).then(() => synchronize(true));
   });
 
   window.addEventListener('scroll', () => scheduleCapture(), { passive: true });
@@ -447,6 +512,7 @@ export function startNavigationRuntime(): void {
     if (record) {
       lastFingerprint = navigationFingerprint(record.current);
       lastRemoteVersion = record.remoteVersion;
+      lastRemoteCreatedAt = record.remoteCreatedAt;
       if (target && record.current.route === currentRoute()) {
         suppressCaptureUntil = Date.now() + 1_500;
         await restoreDocument(record.current);
