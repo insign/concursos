@@ -85,10 +85,15 @@ const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subject
   document.querySelectorAll<HTMLElement>('[data-questionnaire]').forEach((root) => {
     const data = root.querySelector<HTMLScriptElement>('[data-questionnaire-config]')?.textContent;
     if (data) {
-      void mountQuestionnaire(root, JSON.parse(data) as QuestionnaireConfig).catch(() => {
-        const status = root.querySelector<HTMLElement>('[data-question-status]');
-        if (status) status.textContent = 'Não foi possível abrir o armazenamento local.';
-      });
+      void mountQuestionnaire(root, JSON.parse(data) as QuestionnaireConfig)
+        .then(() => {
+          root.dataset.navigationReady = 'true';
+          root.dispatchEvent(new CustomEvent('concursos:questionnaire-ready', { bubbles: true }));
+        })
+        .catch(() => {
+          const status = root.querySelector<HTMLElement>('[data-question-status]');
+          if (status) status.textContent = 'Não foi possível abrir o armazenamento local.';
+        });
     }
   });
 </script>
