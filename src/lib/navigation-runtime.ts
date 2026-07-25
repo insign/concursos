@@ -11,6 +11,7 @@ import {
   type NavigationDocument,
   type ReadingPosition,
 } from './navigation';
+import { bootstrapNavigation } from './navigation-sync';
 import { requestNavigationProfileSync } from './simulados-profile-sync';
 
 const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
@@ -315,7 +316,7 @@ export function startNavigationRuntime(): void {
     offerUi.root.hidden = false;
   };
 
-  const saveCurrent = async (): Promise<void> => {
+  const saveCurrent = async (requestSync = true): Promise<void> => {
     if (!ready || offered || Date.now() < suppressCaptureUntil) return;
     const catalog = await catalogPromise;
     const entry = catalogEntryForRoute(catalog, currentRoute());
@@ -328,7 +329,9 @@ export function startNavigationRuntime(): void {
     if (fingerprint === lastFingerprint || (record && fingerprint === navigationFingerprint(record.current))) return;
     await saveNavigationDocument(profileId, snapshot);
     lastFingerprint = fingerprint;
-    window.dispatchEvent(new CustomEvent('concursos:navigation-updated', { detail: { profileId } }));
+    if (requestSync) {
+      window.dispatchEvent(new CustomEvent('concursos:navigation-updated', { detail: { profileId } }));
+    }
   };
 
   const scheduleCapture = (delay = CAPTURE_DEBOUNCE_MS) => {
@@ -341,7 +344,7 @@ export function startNavigationRuntime(): void {
   };
 
   const synchronize = (): Promise<boolean> => {
-    if (!navigator.onLine) return Promise.resolve(false);
+    if (!ready || !navigator.onLine) return Promise.resolve(false);
     if (runningSync) return runningSync;
     runningSync = requestNavigationProfileSync(profileId).finally(() => {
       runningSync = null;
@@ -381,13 +384,33 @@ export function startNavigationRuntime(): void {
 
   window.addEventListener('scroll', () => scheduleCapture(), { passive: true });
   window.addEventListener('resize', () => scheduleCapture(1_200), { passive: true });
-  document.addEventListener('change', () => scheduleCapture(250));
-  document.addEventListener('click', () => scheduleCapture(400));
-  window.addEventListener('pagehide', () => void saveCurrent());
+  document.addEventListener('change', (event) => {
+    const input = event.target;
+    if (!(input instanceof HTMLInputElement)) return;
+    if (
+      input.name === 'question-origin' ||
+      input.name === 'question-layout' ||
+      input.matches('[data-shuffle-questions]')
+    ) {
+      scheduleCapture(250);
+    }
+  });
+  document.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    if (
+      target.closest(
+        '[data-previous-questions],[data-next-questions],[data-load-more],[data-reshuffle-questions]',
+      )
+    ) {
+      scheduleCapture(400);
+    }
+  });
+  window.addEventListener('pagehide', () => void saveCurrent(false));
   window.addEventListener('online', () => void synchronize().then(inspectRemoteChange));
   window.addEventListener('focus', () => void synchronize().then(inspectRemoteChange));
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') void saveCurrent();
+    if (document.visibilityState === 'hidden') void saveCurrent(false);
     else void synchronize().then(inspectRemoteChange);
   });
   window.addEventListener('concursos:navigation-synced', () => void inspectRemoteChange());
@@ -400,7 +423,13 @@ export function startNavigationRuntime(): void {
 
   void (async () => {
     const catalog = await catalogPromise;
-    if (navigator.onLine) await synchronize();
+    if (navigator.onLine) {
+      try {
+        await bootstrapNavigation(profileId);
+      } catch {
+        // A cópia local continua utilizável quando o bootstrap remoto falha.
+      }
+    }
     const record = await getNavigationRecord(profileId);
     const sessionKey = `${SESSION_PREFIX}${profileId}`;
     const target = record ? catalogEntryForRoute(catalog, record.current.route) : null;
@@ -420,7 +449,10 @@ export function startNavigationRuntime(): void {
       }
     }
     ready = true;
-    if (!record || !target) await saveCurrent();
+    if (!record || !target) {
+      await saveCurrent(false);
+      window.setTimeout(() => void synchronize(), 12_000);
+    }
   })().catch(() => {
     ready = true;
   });
