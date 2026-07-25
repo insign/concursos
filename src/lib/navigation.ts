@@ -90,6 +90,8 @@ export const navigationCatalogEntrySchema = z
   })
   .strict();
 
+export type NavigationCatalogEntry = z.infer<typeof navigationCatalogEntrySchema>;
+
 export const navigationCatalogSchema = z
   .object({
     schemaVersion: z.literal(1),
