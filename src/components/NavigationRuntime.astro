@@ -1,0 +1,37 @@
+<aside class="navigation-offer print-hidden" data-navigation-offer role="status" aria-live="polite" hidden>
+  <p data-navigation-offer-message>Há um ponto de estudo mais recente salvo em outro dispositivo.</p>
+  <div>
+    <button class="button" type="button" data-navigation-resume>Retomar ponto mais recente</button>
+    <button class="button button-secondary" type="button" data-navigation-stay>Continuar aqui</button>
+  </div>
+</aside>
+
+<script>
+  import { startNavigationRuntime } from '../lib/navigation-runtime';
+  startNavigationRuntime();
+</script>
+
+<style>
+  .navigation-offer {
+    position: fixed;
+    z-index: 60;
+    right: max(1rem, env(safe-area-inset-right));
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    width: min(32rem, calc(100vw - 2rem));
+    padding: 1rem;
+    border: 1px solid var(--border, #c6d4cf);
+    border-radius: 0.8rem;
+    background: var(--surface, #fff);
+    box-shadow: 0 0.7rem 2rem rgb(0 0 0 / 18%);
+  }
+
+  .navigation-offer p {
+    margin: 0 0 0.75rem;
+  }
+
+  .navigation-offer div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+</style>
