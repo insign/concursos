@@ -5,8 +5,11 @@ import {
   discardPendingNavigation,
   getNavigationRecord,
   hasPendingNavigation,
+  markNavigationRemoteRejected,
   markNavigationSynced,
+  markNavigationSyncError,
   saveNavigationDocument,
+  shouldDeferNavigationSync,
 } from '../../src/lib/navigation-db';
 import { createNavigationDocument, type NavigationContext } from '../../src/lib/navigation';
 
@@ -48,6 +51,8 @@ describe('navigation local outbox', () => {
     await markNavigationSynced({
       profileId,
       expectedLocalRevision: saved.localRevision,
+      expectedRemoteVersion: null,
+      expectedRemoteCreatedAt: null,
       synchronizedDocument: saved.current,
       remoteVersion: 4,
       remoteCreatedAt: '2026-07-25T00:00:00.000Z',
@@ -67,6 +72,8 @@ describe('navigation local outbox', () => {
     await markNavigationSynced({
       profileId,
       expectedLocalRevision: first.localRevision,
+      expectedRemoteVersion: null,
+      expectedRemoteCreatedAt: null,
       synchronizedDocument: first.current,
       remoteVersion: 1,
       remoteCreatedAt: '2026-07-25T00:00:00.000Z',
@@ -76,6 +83,51 @@ describe('navigation local outbox', () => {
     expect(record?.current.route).toBe('/simulados/');
     expect(record?.outboxState).toBe('pending');
     expect(record?.base?.route).toBe('/');
+  });
+
+  it('does not let an obsolete request regress a newer remote snapshot', async () => {
+    const saved = await saveNavigationDocument(profileId, makeDocument('/'));
+
+    await markNavigationSynced({
+      profileId,
+      expectedLocalRevision: saved.localRevision,
+      expectedRemoteVersion: null,
+      expectedRemoteCreatedAt: null,
+      synchronizedDocument: makeDocument('/simulados/'),
+      remoteVersion: 2,
+      remoteCreatedAt: '2026-07-25T00:00:00.000Z',
+    });
+    await markNavigationSynced({
+      profileId,
+      expectedLocalRevision: saved.localRevision,
+      expectedRemoteVersion: null,
+      expectedRemoteCreatedAt: null,
+      synchronizedDocument: makeDocument('/'),
+      remoteVersion: 1,
+      remoteCreatedAt: '2026-07-25T00:00:00.000Z',
+    });
+
+    const record = await getNavigationRecord(profileId);
+    expect(record?.remoteVersion).toBe(2);
+    expect(record?.current.route).toBe('/simulados/');
+  });
+
+  it('deduplicates rejected remote versions and applies retry backoff', async () => {
+    await saveNavigationDocument(profileId, makeDocument());
+
+    expect(
+      await markNavigationRemoteRejected(profileId, 7, '2026-07-25T00:00:00.000Z'),
+    ).toBe(true);
+    expect(
+      await markNavigationRemoteRejected(profileId, 7, '2026-07-25T00:00:00.000Z'),
+    ).toBe(false);
+
+    await markNavigationSyncError(profileId, 'Documento inválido', 1_000);
+    const record = await getNavigationRecord(profileId);
+    expect(record?.attempts).toBe(1);
+    expect(record?.nextAttemptAt).toBe(6_000);
+    expect(await shouldDeferNavigationSync(profileId, 5_999)).toBe(true);
+    expect(await shouldDeferNavigationSync(profileId, 6_000)).toBe(false);
   });
 
   it('discards a new pending record without a remote base', async () => {
