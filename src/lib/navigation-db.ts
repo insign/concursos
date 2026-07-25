@@ -3,6 +3,8 @@ import type { NavigationDocument } from './navigation';
 
 export const NAVIGATION_DB_NAME = 'concursos-navigation';
 const NAVIGATION_DB_VERSION = 1;
+const RETRY_BASE_MS = 5_000;
+const RETRY_MAX_MS = 60_000;
 
 export interface LocalNavigationRecord {
   profileId: string;
@@ -12,8 +14,11 @@ export interface LocalNavigationRecord {
   remoteCreatedAt: string | null;
   outboxState: 'clean' | 'pending';
   attempts: number;
+  nextAttemptAt: number | null;
   lastError: string | null;
   conflictWarning: string | null;
+  rejectedRemoteVersion: number | null;
+  rejectedRemoteCreatedAt: string | null;
   localRevision: number;
   updatedAt: number;
 }
@@ -64,9 +69,12 @@ export function saveNavigationDocument(
       remoteVersion: existing?.remoteVersion ?? null,
       remoteCreatedAt: existing?.remoteCreatedAt ?? null,
       outboxState: 'pending',
-      attempts: existing?.attempts ?? 0,
+      attempts: 0,
+      nextAttemptAt: null,
       lastError: null,
       conflictWarning: existing?.conflictWarning ?? null,
+      rejectedRemoteVersion: existing?.rejectedRemoteVersion ?? null,
+      rejectedRemoteCreatedAt: existing?.rejectedRemoteCreatedAt ?? null,
       localRevision: (existing?.localRevision ?? 0) + 1,
       updatedAt: Date.now(),
     };
@@ -80,6 +88,8 @@ export function saveNavigationDocument(
 export interface MarkNavigationSyncedInput {
   profileId: string;
   expectedLocalRevision: number;
+  expectedRemoteVersion: number | null;
+  expectedRemoteCreatedAt: string | null;
   synchronizedDocument: NavigationDocument;
   remoteVersion: number;
   remoteCreatedAt: string | null;
@@ -92,10 +102,15 @@ export function markNavigationSynced(input: MarkNavigationSyncedInput): Promise<
     const transaction = database.transaction('navigation', 'readwrite');
     const existing = await transaction.store.get(input.profileId);
     const changedDuringRequest = existing !== undefined && existing.localRevision !== input.expectedLocalRevision;
-    if (!existing && input.expectedLocalRevision !== 0) {
+    const remoteStateChanged =
+      (existing?.remoteVersion ?? null) !== input.expectedRemoteVersion ||
+      (existing?.remoteCreatedAt ?? null) !== input.expectedRemoteCreatedAt;
+
+    if ((!existing && input.expectedLocalRevision !== 0) || remoteStateChanged) {
       await transaction.done;
       return;
     }
+
     await transaction.store.put({
       profileId: input.profileId,
       current: changedDuringRequest ? existing.current : input.synchronizedDocument,
@@ -104,8 +119,11 @@ export function markNavigationSynced(input: MarkNavigationSyncedInput): Promise<
       remoteCreatedAt: input.remoteCreatedAt,
       outboxState: changedDuringRequest ? 'pending' : 'clean',
       attempts: 0,
+      nextAttemptAt: null,
       lastError: null,
       conflictWarning: input.conflictWarning ?? null,
+      rejectedRemoteVersion: null,
+      rejectedRemoteCreatedAt: null,
       localRevision: existing?.localRevision ?? 0,
       updatedAt: changedDuringRequest ? existing.updatedAt : Date.now(),
     });
@@ -114,21 +132,67 @@ export function markNavigationSynced(input: MarkNavigationSyncedInput): Promise<
   return trackWrite(write);
 }
 
-export function markNavigationSyncError(profileId: string, message: string): Promise<void> {
+export function markNavigationRemoteRejected(
+  profileId: string,
+  remoteVersion: number,
+  remoteCreatedAt: string | null,
+): Promise<boolean> {
+  const write = (async () => {
+    const database = await openNavigationDb();
+    const transaction = database.transaction('navigation', 'readwrite');
+    const existing = await transaction.store.get(profileId);
+    if (!existing) {
+      await transaction.done;
+      return true;
+    }
+
+    const repeated =
+      existing.rejectedRemoteVersion === remoteVersion &&
+      (existing.rejectedRemoteCreatedAt ?? null) === remoteCreatedAt;
+
+    if (!repeated) {
+      await transaction.store.put({
+        ...existing,
+        rejectedRemoteVersion: remoteVersion,
+        rejectedRemoteCreatedAt: remoteCreatedAt,
+      });
+    }
+    await transaction.done;
+    return !repeated;
+  })();
+  return trackWrite(write);
+}
+
+export function markNavigationSyncError(
+  profileId: string,
+  message: string,
+  now = Date.now(),
+): Promise<void> {
   const write = (async () => {
     const database = await openNavigationDb();
     const transaction = database.transaction('navigation', 'readwrite');
     const existing = await transaction.store.get(profileId);
     if (existing) {
+      const attempts = (existing.attempts ?? 0) + 1;
+      const delay = Math.min(RETRY_MAX_MS, RETRY_BASE_MS * 2 ** Math.max(0, attempts - 1));
       await transaction.store.put({
         ...existing,
-        attempts: existing.attempts + 1,
+        attempts,
+        nextAttemptAt: now + delay,
         lastError: message,
       });
     }
     await transaction.done;
   })();
   return trackWrite(write);
+}
+
+export async function shouldDeferNavigationSync(
+  profileId: string,
+  now = Date.now(),
+): Promise<boolean> {
+  const record = await getNavigationRecord(profileId);
+  return (record?.nextAttemptAt ?? 0) > now;
 }
 
 export async function hasPendingNavigation(profileId: string): Promise<boolean> {
@@ -149,8 +213,11 @@ export function discardPendingNavigation(profileId: string): Promise<void> {
           current: existing.base,
           outboxState: 'clean',
           attempts: 0,
+          nextAttemptAt: null,
           lastError: null,
           conflictWarning: null,
+          rejectedRemoteVersion: null,
+          rejectedRemoteCreatedAt: null,
           localRevision: existing.localRevision + 1,
           updatedAt: Date.now(),
         });
