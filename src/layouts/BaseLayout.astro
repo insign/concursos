@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.astro';
+import NavigationRuntime from '../components/NavigationRuntime.astro';
 import PwaRuntime from '../components/PwaRuntime.astro';
 import SimuladosSyncRuntime from '../components/SimuladosSyncRuntime.astro';
 import '../styles/fonts.css';
@@ -46,6 +47,7 @@ const pageTitle = title === 'Concursos' ? title : `${title} | Concursos`;
   <body class={pageClass || undefined}>
     {!hideHeader && <Header />}
     <slot />
+    <NavigationRuntime />
     <PwaRuntime />
     <SimuladosSyncRuntime />
   </body>
