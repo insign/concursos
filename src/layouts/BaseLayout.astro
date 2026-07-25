@@ -47,8 +47,10 @@ const pageTitle = title === 'Concursos' ? title : `${title} | Concursos`;
   <body class={pageClass || undefined}>
     {!hideHeader && <Header />}
     <slot />
+    {/* Na rota de simulados, a recuperação detalhada precisa entrar na fila compartilhada
+        antes da sincronização periódica e mais leve da navegação. */}
+    <SimuladosSyncRuntime />
     <NavigationRuntime />
     <PwaRuntime />
-    <SimuladosSyncRuntime />
   </body>
 </html>
