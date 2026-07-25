@@ -1,4 +1,5 @@
 import { expect, test } from './fixtures';
+import type { Page } from '@playwright/test';
 
 const alias = 'navegacao-2026-teste';
 const navigationDocumentId = `concursos--${alias}--navegacao`;
@@ -6,7 +7,11 @@ const readingRoute = '/concursos/concurso-exemplo/assunto-exemplo/leitura/';
 const questionsRoute = '/concursos/concurso-exemplo/assunto-exemplo/questoes/';
 const timestamp = '2026-07-25T00:00:00.000Z';
 
-function remoteNavigation(route: string, overrides: Record<string, unknown> = {}) {
+function remoteNavigation(
+  route: string,
+  contextOverrides: Record<string, unknown> = {},
+  documentOverrides: Record<string, unknown> = {},
+) {
   return {
     schemaVersion: 1,
     updatedAt: timestamp,
@@ -21,7 +26,7 @@ function remoteNavigation(route: string, overrides: Record<string, unknown> = {}
       questionOrigin: route.includes('/questoes/') ? 'previous_exam' : null,
       questionLayout: route.includes('/questoes/') ? 'ten' : null,
       shuffleQuestions: route.includes('/questoes/') ? false : null,
-      ...overrides,
+      ...contextOverrides,
     },
     readingPosition: route.includes('/leitura/')
       ? {
@@ -34,7 +39,21 @@ function remoteNavigation(route: string, overrides: Record<string, unknown> = {}
           progress: 0.45,
         }
       : null,
+    ...documentOverrides,
   };
+}
+
+async function lastQuestionId(page: Page): Promise<string> {
+  const response = await page.request.get(questionsRoute);
+  const html = await response.text();
+  const match = html.match(/<script[^>]*data-questionnaire-config[^>]*>([\s\S]*?)<\/script>/);
+  if (!match) throw new Error('Configuração do questionário não encontrada.');
+  const config = JSON.parse(match[1]) as {
+    questionSet: { questions: Array<{ id: string }> };
+  };
+  const id = config.questionSet.questions.at(-1)?.id;
+  if (!id) throw new Error('O questionário não possui uma última questão.');
+  return id;
 }
 
 test.beforeEach(async ({ page }) => {
@@ -82,6 +101,41 @@ test('restores route and questionnaire context on another viewport', async ({ pa
   await expect(page.getByLabel('Concursos anteriores')).toBeChecked();
 });
 
+test('loads all questions until the saved question and keeps it in view', async ({ page, kvStore }) => {
+  const questionId = await lastQuestionId(page);
+  kvStore.set(navigationDocumentId, {
+    version: 9,
+    createdAt: timestamp,
+    json: remoteNavigation(
+      questionsRoute,
+      {
+        questionId,
+        questionOrigin: 'all',
+        questionLayout: 'all',
+      },
+      {
+        readingPosition: {
+          contentVersion: 'conteudos/concurso-exemplo/assunto-exemplo',
+          sectionId: 'inicio',
+          blockId: null,
+          blockIndex: 0,
+          relativeOffset: 0,
+          textQuote: '',
+          progress: 0,
+        },
+      },
+    ),
+  });
+
+  await page.goto('/');
+  await expect(page).toHaveURL(new RegExp(`${questionsRoute.replaceAll('/', '\\/')}$`), { timeout: 30_000 });
+  await expect(page.getByLabel('Todas', { exact: true })).toBeChecked();
+  const target = page.locator(`[data-question-id="${questionId}"]`);
+  await expect(target).toBeVisible();
+  await expect(target).toBeInViewport();
+  await expect(page.getByRole('button', { name: 'Carregar mais questões' })).toBeHidden();
+});
+
 test('offers a newer remote point without forcing navigation during an active session', async ({ page, kvStore }) => {
   await page.goto(readingRoute);
   await expect.poll(() => kvStore.get(navigationDocumentId)?.version, { timeout: 30_000 }).toBeTruthy();
@@ -109,4 +163,47 @@ test('offers a newer remote point without forcing navigation during an active se
 
   await resume.click();
   await expect(page).toHaveURL(/\/simulados\/$/);
+});
+
+test('publishes the local point when the user chooses to continue here', async ({ page, kvStore }) => {
+  await page.goto(readingRoute);
+  await page.evaluate(() =>
+    window.scrollTo(0, Math.max(500, window.document.documentElement.scrollHeight * 0.7)),
+  );
+  await expect.poll(
+    () => {
+      const document = kvStore.get(navigationDocumentId)?.json as {
+        readingPosition?: { progress?: number } | null;
+      } | undefined;
+      return document?.readingPosition?.progress ?? 0;
+    },
+    { timeout: 30_000 },
+  ).toBeGreaterThan(0.25);
+
+  const remoteVersion = (kvStore.get(navigationDocumentId)?.version ?? 0) + 1;
+  kvStore.set(navigationDocumentId, {
+    version: remoteVersion,
+    createdAt: timestamp,
+    json: remoteNavigation('/simulados/', {
+      contestStorageId: null,
+      groupId: null,
+      subjectStorageId: null,
+      activeTab: 'simulados',
+      readingMode: false,
+      questionOrigin: null,
+      questionLayout: null,
+      shuffleQuestions: null,
+    }),
+  });
+
+  await page.evaluate(() => window.dispatchEvent(new Event('focus')));
+  const stay = page.getByRole('button', { name: 'Continuar aqui' });
+  await expect(stay).toBeVisible({ timeout: 30_000 });
+  await stay.click();
+
+  await expect.poll(
+    () => (kvStore.get(navigationDocumentId)?.json as { route?: string } | undefined)?.route,
+    { timeout: 30_000 },
+  ).toBe(readingRoute);
+  expect(kvStore.get(navigationDocumentId)?.version ?? 0).toBeGreaterThan(remoteVersion);
 });
