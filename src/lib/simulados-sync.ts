@@ -396,9 +396,11 @@ export async function synchronizePendingSimulados(
   const remoteIndex = await readRemoteIndex(profileId, hooks);
   if (remoteIndex) remoteDocumentCount += 1;
 
-  const pending = await listPendingSimuladoRecords(profileId);
+  // Verifica todos os detalhes locais, não somente a outbox: se o remoto tiver sido apagado,
+  // o detalhe é recriado antes que o índice possa voltar a referenciá-lo.
+  const localRecords = await listProfileSimuladoRecords(profileId);
   const attempted = new Set<string>();
-  for (const record of pending) {
+  for (const record of localRecords) {
     attempted.add(record.current.simulationId);
     try {
       const remote = await readRemoteDetail(profileId, record.current.simulationId, hooks);
