@@ -39,6 +39,7 @@ function createContestOfflineInventory(contest: CatalogContestIndex) {
     ...inventory,
     routes: [
       ...inventory.routes,
+      '/navigation-catalog.json',
       '/simulados/',
       '/simulados/catalog.json',
       `/simulados/pool/${contest.storageId}.json`,
