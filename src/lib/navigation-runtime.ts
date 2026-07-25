@@ -1,9 +1,5 @@
 import { getActiveAlias } from './identity';
-import {
-  getNavigationRecord,
-  saveNavigationDocument,
-  type LocalNavigationRecord,
-} from './navigation-db';
+import { getNavigationRecord, saveNavigationDocument } from './navigation-db';
 import {
   createNavigationDocument,
   navigationCatalogSchema,
@@ -15,7 +11,7 @@ import {
   type NavigationDocument,
   type ReadingPosition,
 } from './navigation';
-import { requestCompleteProfileSync } from './simulados-profile-sync';
+import { requestNavigationProfileSync } from './simulados-profile-sync';
 
 const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
 const SESSION_PREFIX = 'concursos:navigation-restored:';
@@ -140,7 +136,10 @@ export function resolveReadingTarget(root: HTMLElement, position: ReadingPositio
 
   if (!element && position.sectionId) {
     const sectionBlocks = blocks.filter((block) => block.dataset.navigationSectionId === position.sectionId);
-    element = sectionBlocks.find((block) => Number(block.dataset.navigationBlockIndex) >= position.blockIndex) ?? sectionBlocks.at(-1) ?? null;
+    element =
+      sectionBlocks.find((block) => Number(block.dataset.navigationBlockIndex) >= position.blockIndex) ??
+      sectionBlocks.at(-1) ??
+      null;
   }
 
   if (!element) element = blocks[position.blockIndex] ?? null;
@@ -155,10 +154,15 @@ async function waitForLayout(): Promise<void> {
   await Promise.race([document.fonts?.ready ?? Promise.resolve(), wait(1_500)]);
   const images = Array.from(document.images).filter((image) => !image.complete);
   await Promise.race([
-    Promise.all(images.map((image) => new Promise<void>((resolve) => {
-      image.addEventListener('load', () => resolve(), { once: true });
-      image.addEventListener('error', () => resolve(), { once: true });
-    }))),
+    Promise.all(
+      images.map(
+        (image) =>
+          new Promise<void>((resolve) => {
+            image.addEventListener('load', () => resolve(), { once: true });
+            image.addEventListener('error', () => resolve(), { once: true });
+          }),
+      ),
+    ),
     wait(1_500),
   ]);
   await new Promise<void>((resolve) => requestAnimationFrame(() => requestAnimationFrame(() => resolve())));
@@ -339,7 +343,7 @@ export function startNavigationRuntime(): void {
   const synchronize = (): Promise<boolean> => {
     if (!navigator.onLine) return Promise.resolve(false);
     if (runningSync) return runningSync;
-    runningSync = requestCompleteProfileSync(profileId).finally(() => {
+    runningSync = requestNavigationProfileSync(profileId).finally(() => {
       runningSync = null;
     });
     return runningSync;
@@ -416,7 +420,7 @@ export function startNavigationRuntime(): void {
       }
     }
     ready = true;
-    if (!record) await saveCurrent();
+    if (!record || !target) await saveCurrent();
   })().catch(() => {
     ready = true;
   });
