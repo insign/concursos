@@ -150,6 +150,22 @@ async function runExtendedSync(profileId: string): Promise<boolean> {
   }
 }
 
+export async function requestNavigationProfileSync(
+  profileId = getActiveAlias(),
+): Promise<boolean> {
+  if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) return false;
+  return enqueue(async () => {
+    try {
+      const result = await withSimuladosLease((hooks) => synchronizeNavigation(profileId, hooks));
+      announceNavigation(profileId, result.failures, result.remoteVersion);
+      return result.failures === 0;
+    } catch (error) {
+      if (!(error instanceof SyncLeaseLostError)) announceError(error);
+      return false;
+    }
+  });
+}
+
 export async function prepareCompleteProfileAlias(
   profileId: string,
   options: ProfilePreparationOptions = {},
