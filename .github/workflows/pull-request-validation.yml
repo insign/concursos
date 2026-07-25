@@ -35,7 +35,21 @@ jobs:
         run: npm run test:unit
 
       - name: Run Astro checks
-        run: npm run check
+        id: astro-check
+        continue-on-error: true
+        run: npm run check > astro-check.log 2>&1
+
+      - name: Upload Astro diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: astro-check-${{ github.sha }}
+          path: astro-check.log
+          retention-days: 1
+
+      - name: Enforce Astro checks
+        if: steps.astro-check.outcome == 'failure'
+        run: exit 1
 
       - name: Build production site
         run: npm run build
