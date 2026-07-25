@@ -16,16 +16,47 @@ export const navigationTabSchema = z.enum([
 
 export type NavigationTab = z.infer<typeof navigationTabSchema>;
 
+function hasUnsafePathSegment(route: string): boolean {
+  const queryIndex = route.search(/[?#]/);
+  const rawPath = queryIndex === -1 ? route : route.slice(0, queryIndex);
+
+  return rawPath.split('/').some((rawSegment) => {
+    let segment = rawSegment;
+    for (let pass = 0; pass < 2; pass += 1) {
+      try {
+        segment = decodeURIComponent(segment);
+      } catch {
+        return true;
+      }
+      if (segment === '.' || segment === '..' || segment.includes('/') || segment.includes('\\')) {
+        return true;
+      }
+    }
+    return false;
+  });
+}
+
 export function isSafeNavigationRoute(route: string): boolean {
-  if (!route.startsWith('/') || route.startsWith('//') || route.includes('\\') || route.length > 512) return false;
+  if (
+    !route.startsWith('/') ||
+    route.startsWith('//') ||
+    route.includes('\\') ||
+    route.includes('#') ||
+    route.length > 512 ||
+    hasUnsafePathSegment(route)
+  ) {
+    return false;
+  }
+
   try {
     const parsed = new URL(route, 'https://concursos.invalid');
+    const canonical = `${parsed.pathname}${parsed.search}`;
     return (
       parsed.origin === 'https://concursos.invalid' &&
       parsed.username === '' &&
       parsed.password === '' &&
-      !parsed.pathname.includes('/../') &&
-      !parsed.pathname.endsWith('/..')
+      parsed.hash === '' &&
+      canonical === route
     );
   } catch {
     return false;
@@ -115,15 +146,35 @@ export function navigationFingerprint(document: NavigationDocument): string {
 
 export type NavigationVersionAction = 'adopt-remote' | 'publish-local' | 'noop';
 
+export interface NavigationVersionState {
+  remoteVersion: number | null;
+  remoteCreatedAt: string | null;
+  outboxState: 'clean' | 'pending';
+}
+
 export function resolveNavigationVersionAction(
-  local: { remoteVersion: number | null; outboxState: 'clean' | 'pending' } | null,
+  local: NavigationVersionState | null,
   remoteVersion: number | null,
+  remoteCreatedAt: string | null = null,
 ): NavigationVersionAction {
   if (!local) return remoteVersion === null ? 'noop' : 'adopt-remote';
+  if (remoteVersion === null) return local.outboxState === 'pending' ? 'publish-local' : 'noop';
+
+  const recreated =
+    (local.remoteCreatedAt !== null &&
+      remoteCreatedAt !== null &&
+      local.remoteCreatedAt !== remoteCreatedAt) ||
+    (local.remoteVersion !== null && remoteVersion < local.remoteVersion);
+
+  if (recreated) {
+    return local.outboxState === 'pending' ? 'publish-local' : 'adopt-remote';
+  }
+
   const observed = local.remoteVersion ?? 0;
-  const current = remoteVersion ?? 0;
-  if (current > observed) return 'adopt-remote';
-  if (current < observed) return 'publish-local';
+  if (remoteVersion > observed) return 'adopt-remote';
+  if (remoteVersion < observed) {
+    return local.outboxState === 'pending' ? 'publish-local' : 'adopt-remote';
+  }
   return local.outboxState === 'pending' ? 'publish-local' : 'noop';
 }
 
