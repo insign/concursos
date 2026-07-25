@@ -12,10 +12,20 @@ interface Props {
 }
 
 const { contest, subject, active } = Astro.props;
+const groupId = subject.groupPath.at(-1)?.slug ?? null;
 ---
 
 <BaseLayout title={subject.title} description={subject.description} pageClass={`study-page ${active}`}>
-  <main class="study-shell">
+  <main
+    class="study-shell"
+    data-navigation-root
+    data-navigation-contest={contest.storageId}
+    data-navigation-group={groupId ?? undefined}
+    data-navigation-subject={subject.storageId}
+    data-navigation-tab={active}
+    data-navigation-mode="normal"
+    data-navigation-content-version={subject.contentEntry.id}
+  >
     <span id="study-top" class="study-top-anchor" tabindex="-1"></span>
     <nav class="breadcrumbs print-hidden" aria-label="Caminho da página">
       <a href="/">Concursos</a>
@@ -40,7 +50,7 @@ const { contest, subject, active } = Astro.props;
 
     <SubjectNavigation contestSlug={contest.slug} subjectSlug={subject.slug} active={active} />
 
-    <div class="reading-surface">
+    <div class="reading-surface" data-navigation-content>
       <slot />
     </div>
 
