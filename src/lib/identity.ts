@@ -75,9 +75,6 @@ export function buildNavigationDocumentId(alias: string): string {
   return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--navegacao`);
 }
 
-// Identificador de simulado gerado no cliente (crypto.randomUUID -> UUID v4, 36 chars).
-// Aceita hex minúsculo no formato 8-4-4-4-12; casa ID_SEGMENT_PATTERN, mas o comprimento
-// (36) exige validação própria, distinta dos segmentos de alias/concurso/assunto.
 const SIMULADO_ID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 
 export function validateSimuladoId(simuladoId: string): string {
@@ -136,17 +133,22 @@ export async function changeActiveAlias(
   };
 
   const { discardPendingProfile, hasPendingOutbox } = await import('./offline-db');
+  const { discardPendingNavigation, hasPendingNavigation } = await import('./navigation-db');
   let hasPending = currentAlias ? await hasPendingOutbox(currentAlias) : false;
+  let hasNavigationPending = currentAlias ? await hasPendingNavigation(currentAlias) : false;
   assertActiveAliasUnchanged();
 
-  if (currentAlias && hasPending && options.synchronize) {
+  if (currentAlias && (hasPending || hasNavigationPending) && options.synchronize) {
     await options.synchronize(currentAlias);
     assertActiveAliasUnchanged();
-    hasPending = await hasPendingOutbox(currentAlias);
+    [hasPending, hasNavigationPending] = await Promise.all([
+      hasPendingOutbox(currentAlias),
+      hasPendingNavigation(currentAlias),
+    ]);
     assertActiveAliasUnchanged();
   }
 
-  if (hasPending && !options.discardPending) {
+  if ((hasPending || hasNavigationPending) && !options.discardPending) {
     throw new PendingProfileChangeError('sync-required');
   }
 
@@ -155,13 +157,20 @@ export async function changeActiveAlias(
   assertActiveAliasUnchanged();
 
   if (currentAlias) {
-    hasPending = await hasPendingOutbox(currentAlias);
+    [hasPending, hasNavigationPending] = await Promise.all([
+      hasPendingOutbox(currentAlias),
+      hasPendingNavigation(currentAlias),
+    ]);
     assertActiveAliasUnchanged();
-    if (hasPending && !options.discardPending) {
+    if ((hasPending || hasNavigationPending) && !options.discardPending) {
       throw new PendingProfileChangeError('sync-required');
     }
     if (hasPending) {
       await discardPendingProfile(currentAlias);
+      assertActiveAliasUnchanged();
+    }
+    if (hasNavigationPending) {
+      await discardPendingNavigation(currentAlias);
       assertActiveAliasUnchanged();
     }
   }
