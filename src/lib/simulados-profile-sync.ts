@@ -37,6 +37,7 @@ const ownerId =
 let serial: Promise<unknown> = Promise.resolve();
 let lastRequestAt = 0;
 const activeSimuladosSyncs = new Map<string, Promise<boolean>>();
+const activeCompleteSyncs = new Map<string, Promise<boolean>>();
 
 function enqueue<T>(operation: () => Promise<T>): Promise<T> {
   const queued = serial.then(operation, operation);
@@ -162,9 +163,6 @@ async function runExtendedSync(profileId: string): Promise<boolean> {
   }
 }
 
-// A página e o runtime podem pedir a mesma recuperação quase simultaneamente. Todos os
-// chamadores do mesmo alias compartilham uma única promessa, em vez de enfileirar uma
-// segunda varredura completa do índice e dos documentos detalhados.
 export function requestSimuladosProfileSync(
   profileId = getActiveAlias(),
 ): Promise<boolean> {
@@ -174,7 +172,8 @@ export function requestSimuladosProfileSync(
   const active = activeSimuladosSyncs.get(profileId);
   if (active) return active;
 
-  const operation = enqueue(async () => {
+  let operation!: Promise<boolean>;
+  operation = enqueue(async () => {
     const base = await requestProfileSync(profileId);
     const simulados = await runSimuladosSync(profileId);
     return base && simulados;
@@ -235,15 +234,23 @@ export async function prepareCompleteProfileAlias(
   });
 }
 
-export async function requestCompleteProfileSync(
+export function requestCompleteProfileSync(
   profileId = getActiveAlias(),
 ): Promise<boolean> {
   if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) {
     return requestProfileSync(profileId);
   }
-  return enqueue(async () => {
+  const active = activeCompleteSyncs.get(profileId);
+  if (active) return active;
+
+  let operation!: Promise<boolean>;
+  operation = enqueue(async () => {
     const base = await requestProfileSync(profileId);
     const additional = await runExtendedSync(profileId);
     return base && additional;
+  }).finally(() => {
+    if (activeCompleteSyncs.get(profileId) === operation) activeCompleteSyncs.delete(profileId);
   });
+  activeCompleteSyncs.set(profileId, operation);
+  return operation;
 }
