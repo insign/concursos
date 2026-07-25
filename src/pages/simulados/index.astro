@@ -89,6 +89,15 @@ import '../../styles/simulados.css';
         <a class="simulado-link-button" href="/simulados/">Nova configuração</a>
       </div>
       <div class="simulado-result" data-result hidden></div>
+      <section
+        class="simulado-result"
+        data-result-by-subject
+        hidden
+        aria-labelledby="simulado-result-by-subject-title"
+      >
+        <h3 id="simulado-result-by-subject-title">Resultado por assunto</h3>
+        <ul data-result-by-subject-list></ul>
+      </section>
       <ol class="simulado-question-list" data-question-list></ol>
       <div class="simulado-actions" data-resolver-actions></div>
     </section>
@@ -99,4 +108,7 @@ import '../../styles/simulados.css';
 
 <script>
   import '../../lib/simulados-controller';
+  import { startSimuladoResultBreakdown } from '../../lib/simulados-result-breakdown';
+
+  startSimuladoResultBreakdown();
 </script>
