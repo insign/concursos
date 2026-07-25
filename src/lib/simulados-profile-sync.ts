@@ -138,10 +138,13 @@ async function runExtendedSync(profileId: string): Promise<boolean> {
   try {
     const result = await withSimuladosLease(async (hooks) => {
       const simulados = await synchronizePendingSimulados(profileId, hooks);
+      // A interface de simulados pode reler o IndexedDB assim que os documentos detalhados
+      // e o índice terminarem. A navegação continua sincronizando sob o mesmo lease, mas não
+      // deve atrasar a retomada de uma tentativa remota já durável.
+      announceSimulados(profileId, simulados.failures);
       const navigation = await synchronizeNavigation(profileId, hooks);
       return { simulados, navigation };
     });
-    announceSimulados(profileId, result.simulados.failures);
     announceNavigation(profileId, result.navigation.failures, result.navigation.remoteVersion);
     return result.simulados.failures === 0 && result.navigation.failures === 0;
   } catch (error) {
