@@ -53,18 +53,18 @@ test('publishes a semantic reading position without Authorization', async ({ pag
 
   await page.setViewportSize({ width: 390, height: 720 });
   await page.goto(readingRoute);
-  await page.evaluate(() => window.scrollTo(0, Math.max(300, document.documentElement.scrollHeight * 0.45)));
+  await page.evaluate(() => window.scrollTo(0, Math.max(300, window.document.documentElement.scrollHeight * 0.45)));
 
   await expect.poll(() => kvStore.get(navigationDocumentId)?.json, { timeout: 30_000 }).toBeTruthy();
-  const document = kvStore.get(navigationDocumentId)?.json as {
+  const savedDocument = kvStore.get(navigationDocumentId)?.json as {
     route: string;
     readingPosition: { blockIndex: number; relativeOffset: number; textQuote: string; progress: number } | null;
   };
-  expect(document.route).toBe(readingRoute);
-  expect(document.readingPosition).not.toBeNull();
-  expect(document.readingPosition?.blockIndex).toBeGreaterThanOrEqual(0);
-  expect(document.readingPosition?.relativeOffset).toBeGreaterThanOrEqual(0);
-  expect(document.readingPosition?.progress).toBeGreaterThanOrEqual(0);
+  expect(savedDocument.route).toBe(readingRoute);
+  expect(savedDocument.readingPosition).not.toBeNull();
+  expect(savedDocument.readingPosition?.blockIndex).toBeGreaterThanOrEqual(0);
+  expect(savedDocument.readingPosition?.relativeOffset).toBeGreaterThanOrEqual(0);
+  expect(savedDocument.readingPosition?.progress).toBeGreaterThanOrEqual(0);
   expect(authorizationHeaders).toEqual([]);
 });
 
