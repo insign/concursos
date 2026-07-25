@@ -49,6 +49,66 @@ function recreationWarning(
   return null;
 }
 
+async function parseRemoteNavigation(
+  profileId: string,
+  documentId: string,
+  envelope: Awaited<ReturnType<typeof readKv>>,
+): Promise<RemoteNavigationDocument | null> {
+  if (!envelope) return null;
+  const parsed = navigationDocumentSchema.safeParse(envelope.json);
+  if (!parsed.success) {
+    const reason = 'Documento remoto de navegação inválido';
+    await quarantineRemoteDocument({ profileId, documentId, reason, value: envelope.json });
+    await markNavigationSyncError(profileId, reason);
+    throw new Error(reason);
+  }
+  return {
+    document: parsed.data,
+    version: envelope.version,
+    createdAt: envelope.created_at,
+  };
+}
+
+// A retomada inicial só lê o documento remoto e, quando necessário, o adota no
+// IndexedDB. Não publica a outbox e não ocupa o lease compartilhado dos documentos
+// editoriais, evitando atrasar progresso, importação e simulados no primeiro paint.
+export async function bootstrapNavigation(profileId: string): Promise<NavigationSyncResult> {
+  await whenNavigationWritesSettled();
+  const documentId = buildNavigationDocumentId(profileId);
+  const record = await getNavigationRecord(profileId);
+  try {
+    const remote = await parseRemoteNavigation(
+      profileId,
+      documentId,
+      await readKv(documentId, { timeoutMs: 3_000, retries: 0 }),
+    );
+    if (!remote) {
+      return { failures: 0, remoteVersion: record?.remoteVersion ?? null, adoptedRemote: false };
+    }
+
+    const observedVersion = record?.remoteVersion ?? 0;
+    if (record && remote.version <= observedVersion) {
+      return { failures: 0, remoteVersion: observedVersion, adoptedRemote: false };
+    }
+
+    await markNavigationSynced({
+      profileId,
+      expectedLocalRevision: record?.localRevision ?? 0,
+      synchronizedDocument: remote.document,
+      remoteVersion: remote.version,
+      remoteCreatedAt: remote.createdAt,
+      conflictWarning: record ? recreationWarning(record, remote.version, remote.createdAt) : null,
+    });
+    return { failures: 0, remoteVersion: remote.version, adoptedRemote: true };
+  } catch (error) {
+    await markNavigationSyncError(
+      profileId,
+      error instanceof Error ? error.message : 'Falha ao carregar a navegação remota',
+    );
+    throw error;
+  }
+}
+
 export async function readNavigationPreflight(
   profileId: string,
   hooks: NavigationSyncHooks,
@@ -64,23 +124,7 @@ export async function readNavigationPreflight(
     },
   });
   await hooks.ensureLease();
-  if (!envelope) return { remote: null };
-
-  const parsed = navigationDocumentSchema.safeParse(envelope.json);
-  if (!parsed.success) {
-    const reason = 'Documento remoto de navegação inválido';
-    await quarantineRemoteDocument({ profileId, documentId, reason, value: envelope.json });
-    await markNavigationSyncError(profileId, reason);
-    throw new Error(reason);
-  }
-
-  return {
-    remote: {
-      document: parsed.data,
-      version: envelope.version,
-      createdAt: envelope.created_at,
-    },
-  };
+  return { remote: await parseRemoteNavigation(profileId, documentId, envelope) };
 }
 
 export async function applyNavigationPreflight(
