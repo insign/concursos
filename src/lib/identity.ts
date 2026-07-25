@@ -71,6 +71,10 @@ export function buildReadingPreferencesDocumentId(alias: string): string {
   return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--leitura`);
 }
 
+export function buildNavigationDocumentId(alias: string): string {
+  return assertRemoteIdLength(`concursos--${validateUserAlias(alias)}--navegacao`);
+}
+
 // Identificador de simulado gerado no cliente (crypto.randomUUID -> UUID v4, 36 chars).
 // Aceita hex minúsculo no formato 8-4-4-4-12; casa ID_SEGMENT_PATTERN, mas o comprimento
 // (36) exige validação própria, distinta dos segmentos de alias/concurso/assunto.
