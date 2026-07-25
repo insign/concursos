@@ -1,5 +1,5 @@
 import { buildNavigationDocumentId } from './identity';
-import { KvClientError, readKv, writeKv } from './kv-client';
+import { readKv, writeKv } from './kv-client';
 import {
   getNavigationRecord,
   markNavigationSynced,
@@ -167,12 +167,10 @@ export async function synchronizeNavigation(
     const preflight = await readNavigationPreflight(profileId, hooks);
     return await applyNavigationPreflight(profileId, preflight, hooks);
   } catch (error) {
-    if (!(error instanceof KvClientError)) {
-      await markNavigationSyncError(
-        profileId,
-        error instanceof Error ? error.message : 'Falha ao sincronizar navegação',
-      );
-    }
+    await markNavigationSyncError(
+      profileId,
+      error instanceof Error ? error.message : 'Falha ao sincronizar navegação',
+    );
     throw error;
   }
 }
