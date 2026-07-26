@@ -1,11 +1,13 @@
 name: Reconstruct control questions
 
 on:
-  push:
+  pull_request:
     branches:
-      - agent/melhora-controle-avaliacao
-    paths:
-      - .github/workflows/reconstruct-control-questions.yml
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
 
 permissions:
   contents: write
@@ -14,7 +16,7 @@ jobs:
   reconstruct:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out branch
+      - name: Check out source branch
         uses: actions/checkout@v4
         with:
           ref: agent/melhora-controle-avaliacao
