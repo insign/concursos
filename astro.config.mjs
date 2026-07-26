@@ -91,6 +91,7 @@ export default defineConfig({
           globPatterns: [
             'index.html',
             'offline/index.html',
+            'navigation-catalog.json',
             'favicon.svg',
             'icons/*.png',
             'manifest.webmanifest',

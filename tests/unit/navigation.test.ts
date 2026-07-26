@@ -42,9 +42,12 @@ describe('navigation document', () => {
     expect(document.updatedAt).toBe('2026-07-25T00:00:00.000Z');
   });
 
-  it('rejects external and protocol-relative routes', () => {
+  it('rejects external, protocol-relative and non-canonical routes', () => {
     expect(isSafeNavigationRoute('https://example.com/')).toBe(false);
     expect(isSafeNavigationRoute('//example.com/')).toBe(false);
+    expect(isSafeNavigationRoute('/concursos/../configuracoes/')).toBe(false);
+    expect(isSafeNavigationRoute('/concursos/%2e%2e/configuracoes/')).toBe(false);
+    expect(isSafeNavigationRoute('/concursos/seguro/#trecho')).toBe(false);
     expect(isSafeNavigationRoute('/concursos/seguro/')).toBe(true);
   });
 
@@ -60,15 +63,42 @@ describe('navigation document', () => {
 });
 
 describe('navigation version resolution', () => {
+  const clean = {
+    remoteVersion: 2,
+    remoteCreatedAt: '2026-07-25T00:00:00.000Z',
+    outboxState: 'clean' as const,
+  };
+  const pending = { ...clean, outboxState: 'pending' as const };
+
   it('adopts a newer remote envelope version', () => {
-    expect(resolveNavigationVersionAction({ remoteVersion: 2, outboxState: 'pending' }, 3)).toBe('adopt-remote');
+    expect(resolveNavigationVersionAction(pending, 3, clean.remoteCreatedAt)).toBe('adopt-remote');
   });
 
   it('publishes a pending local document when versions are equal', () => {
-    expect(resolveNavigationVersionAction({ remoteVersion: 3, outboxState: 'pending' }, 3)).toBe('publish-local');
+    expect(resolveNavigationVersionAction(pending, 2, clean.remoteCreatedAt)).toBe('publish-local');
   });
 
   it('does nothing for equal clean versions', () => {
-    expect(resolveNavigationVersionAction({ remoteVersion: 3, outboxState: 'clean' }, 3)).toBe('noop');
+    expect(resolveNavigationVersionAction(clean, 2, clean.remoteCreatedAt)).toBe('noop');
+  });
+
+  it('adopts a recreated remote document when the local record is clean', () => {
+    expect(
+      resolveNavigationVersionAction(clean, 2, '2026-07-26T00:00:00.000Z'),
+    ).toBe('adopt-remote');
+    expect(
+      resolveNavigationVersionAction(clean, 1, '2026-07-26T00:00:00.000Z'),
+    ).toBe('adopt-remote');
+  });
+
+  it('preserves an explicit pending local change across remote recreation', () => {
+    expect(
+      resolveNavigationVersionAction(pending, 1, '2026-07-26T00:00:00.000Z'),
+    ).toBe('publish-local');
+  });
+
+  it('does not resurrect a deleted remote document from a clean local copy', () => {
+    expect(resolveNavigationVersionAction(clean, null, null)).toBe('noop');
+    expect(resolveNavigationVersionAction(pending, null, null)).toBe('publish-local');
   });
 });
