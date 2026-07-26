@@ -51,10 +51,9 @@ jobs:
           PY
 
           rm -rf .tmp-control-questions
-          rm .github/workflows/reconstruct-control-questions.yml
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add "$target" .tmp-control-questions
           git commit -m "test(administracao): amplia banco de controle e avaliação"
           git push origin HEAD:agent/melhora-controle-avaliacao
