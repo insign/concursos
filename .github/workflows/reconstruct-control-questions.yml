@@ -13,7 +13,52 @@ permissions:
   contents: write
 
 jobs:
+  verify-fragments:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - file: gz01.b64
+            sha: 5f24a37994051d664d111f473db8a8646feea753
+          - file: gz02.b64
+            sha: dc553486bc26d539bbbdeded16ebbb7d75c3b9f8
+          - file: gz03.b64
+            sha: fd1a496e0b7df132bec4ba2a1cf6172acda1cf21
+          - file: gz04.b64
+            sha: 20082ab8518954c7f995979b088d2b5b6ba39e4f
+          - file: gz05.b64
+            sha: a667f610cee409a7832f97e896e32197bc658a9d
+          - file: gz06.b64
+            sha: ccc4206f1d5655f510856d2ad24ca1d796fa3a2a
+          - file: gz07.b64
+            sha: 4d747a5f1ce1848fc71e5d271759006f2c3a3347
+          - file: gz08.b64
+            sha: fa34ba7060d4e81c7c42406483c5dfd88c65c724
+          - file: gz09.b64
+            sha: bb9f2ffd2f27104dc68545b41765496baa8d35a5
+          - file: gz10.b64
+            sha: f453375e6d90cd078fddf8a6b4ec4a42133f2abb
+          - file: gz11.b64
+            sha: 06d97efef3a2ebb4a54262e08ff1a00221ee3995
+          - file: gz12.b64
+            sha: 09c893a64a5d4f11b9d825d18ec38690487322ac
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/melhora-controle-avaliacao
+
+      - name: Verify Git blob hash
+        shell: bash
+        run: |
+          set -euo pipefail
+          file=".tmp-control-questions/${{ matrix.file }}"
+          actual="$(printf 'blob %s\0' "$(wc -c < "$file")" | cat - "$file" | sha1sum | cut -d' ' -f1)"
+          test "$actual" = "${{ matrix.sha }}"
+
   reconstruct:
+    needs: verify-fragments
     runs-on: ubuntu-latest
     steps:
       - name: Check out source branch
@@ -25,8 +70,14 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat .tmp-control-questions/gz*.b64 > /tmp/questions.b64
-          base64 --decode /tmp/questions.b64 > /tmp/questions.json.gz
+          python3 - <<'PY'
+          import base64
+          from pathlib import Path
+
+          directory = Path('.tmp-control-questions')
+          encoded = ''.join(path.read_text(encoding='ascii').strip() for path in sorted(directory.glob('gz*.b64')))
+          Path('/tmp/questions.json.gz').write_bytes(base64.b64decode(encoded, validate=True))
+          PY
           gzip -t /tmp/questions.json.gz
 
       - name: Decompress and verify checksum
