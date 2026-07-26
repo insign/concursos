@@ -1,0 +1,58 @@
+name: Reconstruct control questions
+
+on:
+  push:
+    branches:
+      - agent/melhora-controle-avaliacao
+    paths:
+      - .github/workflows/reconstruct-control-questions.yml
+
+permissions:
+  contents: write
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/melhora-controle-avaliacao
+
+      - name: Reconstruct and validate question bank
+        shell: bash
+        run: |
+          set -euo pipefail
+          target="src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-especificos/administracao-publica/controle-avaliacao-processo-organizacional/questoes.json"
+
+          cat .tmp-control-questions/gz*.b64 | base64 --decode | gzip -dc > "$target"
+          echo "8bb1a30f94f18737f3bee6eed7040580df101fb1f6319767d186483621f03a2a  $target" | sha256sum --check --strict
+          jq empty "$target"
+
+          python3 - "$target" <<'PY'
+          import collections
+          import json
+          import sys
+
+          path = sys.argv[1]
+          with open(path, encoding="utf-8") as source:
+              data = json.load(source)
+
+          questions = data["questions"]
+          assert data["schemaVersion"] == 1
+          assert data["questionSetRevision"] == 2
+          assert len(questions) == 80
+          assert len({question["id"] for question in questions}) == 80
+          assert all([option["id"] for option in question["options"]] == list("abcde") for question in questions)
+          assert collections.Counter(question["origin"] for question in questions) == {"authorial": 50, "previous_exam": 30}
+          assert collections.Counter(question["correctOptionId"] for question in questions) == {letter: 16 for letter in "abcde"}
+          PY
+
+          rm -rf .tmp-control-questions
+          rm .github/workflows/reconstruct-control-questions.yml
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "test(administracao): amplia banco de controle e avaliação"
+          git push origin HEAD:agent/melhora-controle-avaliacao
