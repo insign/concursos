@@ -1,165 +1,181 @@
-# Controle e avaliação no processo organizacional
+# Controle e avaliação — revisão rápida
 
-## Núcleo
+## Núcleo do controle
 
-- Controle = referência + medida + comparação + análise + ação + aprendizagem.
-- Planejamento define referências; controle informa cumprimento e adequação.
-- Controle não se reduz a fiscalização, erro ou punição.
-- Sem padrão ou critério, há observação, mas não comparação controladora.
+> **PADRÃO → MEDIÇÃO → COMPARAÇÃO → AÇÃO**
 
-## Conceitos próximos
+Modelo detalhado:
 
-| Conceito | Núcleo |
+> referência → dados → desvio → causa → decisão → acompanhamento → aprendizagem
+
+- **Ação corretiva** não significa punição automática.
+- **Desvio** é diferença perante a referência; não é diagnóstico nem prova de culpa.
+- **Controle** é cíclico: a resposta deve ser acompanhada e realimentar o planejamento.
+
+## Conceitos que a banca confunde
+
+| Conceito | Essência |
 | --- | --- |
-| Planejamento | define objetivos, padrões, metas e meios |
-| Monitoramento | acompanha e organiza dados regularmente |
-| Controle | compara, interpreta desvios e aciona ajuste |
-| Avaliação | julga mérito, adequação, resultados ou efeitos |
-| Feedback | informação retorna para correção e aprendizagem |
+| Planejamento | define objetivos, padrões, metas e caminhos |
+| Monitoramento | acompanha e organiza dados da execução |
+| Controle | compara, interpreta desvios e desencadeia decisões |
+| Avaliação | julga mérito, adequação, desempenho ou efeitos com critérios e evidências |
+| Feedback | informação de atividade, etapa ou resultado já observado que retorna à decisão |
 
-- Monitorar não basta para controlar.
-- Indicador apoia avaliação; não é a própria avaliação.
-- Feedback comunicacional verifica compreensão; controle verifica desempenho.
+**Monitoramento ≠ controle completo.** Medir sem referência, comparação e resposta é apenas acompanhamento.
 
-## Ciclo do controle
-
-1. estabelecer objetivo, padrão, meta ou critério;
-2. medir ou observar desempenho;
-3. comparar realizado e esperado;
-4. analisar relevância e causa do desvio;
-5. decidir e executar ação;
-6. acompanhar efeitos e realimentar o planejamento.
-
-- Desvio = diferença perante referência; não é automaticamente falha grave.
-- Ação pode corrigir execução, causa, recurso, método, prazo ou plano.
-- Padrão inadequado pode ser revisto com evidência; não para esconder fracasso.
-- Padrões podem ser quantitativos, qualitativos, normativos ou comparativos.
+**Feedback ≠ encerramento de todo o processo.** Uma etapa concluída pode realimentar as etapas seguintes.
 
 ## Momento do controle
 
-| Momento | Termos | Finalidade |
+| Momento | Sinônimos usuais | Ideia-chave |
 | --- | --- | --- |
-| Antes | prévio, preventivo, preliminar, *feedforward* | antecipar e impedir desvio |
-| Durante | concomitante, simultâneo, concorrente | corrigir em curso |
-| Depois | posterior, subsequente, *feedback* | verificar, corrigir efeitos e aprender |
+| Antes | prévio, preliminar, preventivo, *feedforward* | prevenir ou reduzir a probabilidade de desvios |
+| Durante | concomitante, simultâneo, concorrente | ajustar enquanto a execução ocorre |
+| Depois | posterior, de resultados, por feedback | corrigir efeitos possíveis e aprender para o ciclo seguinte |
 
-- Controle posterior não impede o fato já ocorrido.
-- *Feedforward* enfatiza informação antecipatória; não é sinônimo universal de controle jurídico prévio.
+- Preventivo reduz risco; não garante ausência de desvio.
+- Posterior não desfaz automaticamente o fato ocorrido.
+- Concomitante sem proporcionalidade pode virar microgerenciamento.
 
 ## Níveis
 
-| Nível | Foco típico |
+| Nível | Foco |
 | --- | --- |
-| Estratégico | missão, objetivos globais, riscos críticos e desempenho institucional |
-| Tático | áreas, unidades, programas e planos intermediários |
-| Operacional | tarefas, rotinas, prazos, qualidade e produtividade |
+| Estratégico | organização inteira, missão, ambiente, objetivos globais e longo prazo |
+| Tático | área, programa, departamento ou unidade |
+| Operacional | tarefa, rotina, processo, prazo, qualidade e produtividade diária |
 
-- Níveis são conectados; dado operacional pode revelar tendência estratégica.
-- Interno = no âmbito da organização.
-- Autocontrole = executor ou gestor verifica o próprio trabalho.
-- Auditoria e controle externo constitucional têm regimes próprios.
+Melhorar indicador local pode prejudicar objetivo institucional: os níveis precisam estar alinhados.
 
-## Indicadores
+## Referências do controle
 
-Indicador = medida quantitativa ou qualitativa com significado.
-
-| Componente | Lembrete |
+| Termo | Definição |
 | --- | --- |
-| Medida | grandeza observada |
-| Fórmula | modo de cálculo |
-| Índice | valor em determinado momento |
-| Padrão | referência de comparação |
-| Meta | índice desejado em certo período |
+| Objetivo | estado ou resultado pretendido |
+| Padrão | referência para julgar desempenho aceitável |
+| Indicador | medida com significado |
+| Fórmula | regra de cálculo |
+| Índice | valor observado em certo momento |
+| Meta | resultado desejado + valor-alvo + prazo, vinculado ao objetivo |
+| Tolerância | faixa de variação aceitável |
 
-- Meta: finalidade + valor + prazo.
-- Considerar linha de base, histórico, tendência e capacidade.
-- Indicadores são representações imperfeitas e precisam de revisão crítica.
-- Precisão do aspecto errado não gera indicador útil.
+**Índice atual não é meta.**
 
-## Cadeia de desempenho
+Padrões podem ser quantitativos, qualitativos, normativos ou comparativos.
 
-| Posição | Exemplo |
-| --- | --- |
-| Insumo/input | pessoas, orçamento, equipamento |
-| Processo/atividade | trabalho de transformação |
-| Produto/output | entrega direta |
-| Resultado/outcome | mudança próxima associada à entrega |
-| Impacto | efeito amplo e duradouro |
+## Duas cadeias indispensáveis
 
-- Terminologia de resultado e impacto varia; siga a cadeia definida.
-- Produto de um processo pode ser insumo de outro.
+### Cadeia de desempenho
 
-## Critérios
+> **insumo → processo → produto → resultado → impacto**
+
+- **Produto/*output***: entrega direta.
+- **Resultado/*outcome***: mudança imediata ou intermediária.
+- **Impacto**: transformação ampla e atribuível à intervenção.
+
+### Critérios de desempenho
 
 | Critério | Pergunta |
 | --- | --- |
-| Economicidade | recursos foram obtidos/usados prudentemente? |
-| Eficiência | relação entregas/recursos é adequada? |
-| Eficácia | metas e objetivos foram alcançados? |
-| Efetividade | houve mudança relevante na realidade? |
+| Economicidade | os insumos foram obtidos com custo, qualidade e oportunidade adequados? |
+| Eficiência | qual a relação entre recursos e entregas ou resultados? |
+| Eficácia | objetivos e metas foram alcançados? |
+| Efetividade | houve benefício relevante e duradouro para o público ou a sociedade? |
 
-- Menor preço não garante economicidade.
-- Eficiência não garante eficácia.
-- Eficácia não garante efetividade.
+Pegadinhas:
+
+- menor preço isolado ≠ economicidade;
+- eficiência não garante eficácia;
+- eficácia não garante efetividade;
+- depois da intervenção ≠ causado pela intervenção.
+
+## Exemplo-relâmpago
+
+Meta: 1.000 certidões. Entregues: 900. Custo: R$ 90.000. Solicitações resolvidas: 720.
+
+- **cumprimento da meta:** 900 ÷ 1.000 = 90%;
+- **custo por produto:** R$ 90.000 ÷ 900 = R$ 100;
+- **resolução entre entregas:** 720 ÷ 900 = 80%.
+
+Cada cálculo mede dimensão diferente. Nenhum, sozinho, prova impacto.
+
+## Controle por exceção
+
+Concentra atenção em:
+
+- desvios relevantes;
+- riscos elevados;
+- pontos críticos;
+- tendências fora da tolerância.
+
+Exige padrão, tolerância, informação confiável e critério de materialidade.
+
+**Controle por exceção ≠ ausência de acompanhamento.**
 
 ## Controle eficaz
 
-- exato;
-- tempestivo;
-- focado em pontos estratégicos e riscos;
-- flexível;
+Deve ser:
+
+- alinhado aos objetivos;
+- seletivo e orientado a riscos;
+- preciso e tempestivo;
 - compreensível;
-- aceitável e legítimo;
-- econômico.
+- flexível;
+- economicamente viável;
+- capaz de orientar ação;
+- proporcional à relevância da atividade.
 
-Controle por exceção:
+## Avaliação pelo momento
 
-- prioriza desvios relevantes, fora de tolerância ou de alto risco;
-- evita sobrecarga gerencial;
-- não elimina rotinas;
-- não autoriza ignorar tendência acumulada.
-
-## Avaliação
-
-| Momento | Foco |
+| Tipo | Momento e finalidade |
 | --- | --- |
-| Ex ante | problema, alternativas, viabilidade, desenho e efeitos esperados |
-| Durante/in itinere | implementação e aperfeiçoamento em curso |
-| Ex post | desempenho, resultados e efeitos observados |
+| Ex ante | antes da nova decisão: problema, alternativas, custos, riscos e resultados esperados |
+| In itinere/formativa | durante a implementação: aderência, cobertura, barreiras e ajustes |
+| Ex post/somativa | depois de período suficiente ou ao final: resultados, efeitos, eficiência e continuidade |
 
-- Processo/implementação: como atividades foram executadas.
-- Produto/resultado: entregas e mudanças observadas.
-- Impacto: efeitos amplos e possível contribuição causal.
-- Momento da avaliação não é sinônimo perfeito do momento do controle.
+Ex ante também pode preceder expansão ou reformulação de intervenção existente.
+
+## Avaliação pelo foco
+
+| Foco | Objeto |
+| --- | --- |
+| Desenho | coerência entre problema, objetivos, ações e indicadores |
+| Processo/implementação | execução, cobertura, aderência e barreiras |
+| Produto | entregas diretas |
+| Resultado | mudanças imediatas ou intermediárias |
+| Impacto | efeito causal e transformação mais ampla |
+| Eficiência | relação entre custos, recursos e entregas ou resultados |
+
+**Produto ≠ resultado ≠ impacto.**
+
+Avaliação de impacto precisa de estratégia causal; comparação simples entre antes e depois pode confundir o efeito da intervenção com outros fatores.
 
 ## Disfunções
 
-- formalismo e controles redundantes;
-- custo superior ao risco;
-- rigidez que impede adaptação;
-- informação inexata ou tardia;
-- manipulação da métrica (*gaming*);
-- foco exclusivo no mensurável;
-- quantidade às custas de qualidade;
-- cultura punitiva que incentiva ocultação.
+- formalismo sem utilidade;
+- informação tardia ou imprecisa;
+- manipulação de métricas;
+- deslocamento do objetivo;
+- cultura exclusivamente punitiva;
+- microgerenciamento;
+- custo de controle maior que o risco tratado.
 
 ## Decreto-Lei nº 200/1967
 
-- Art. 6º: controle é princípio fundamental da Administração Federal.
-- Art. 13: controle em todos os níveis e órgãos.
-- Chefia: programas + normas da atividade específica.
-- Órgãos de sistema: normas gerais das atividades auxiliares.
-- Contabilidade/auditoria: dinheiro público + bens da União.
-- Art. 14: simplificar processos e suprimir controle puramente formal ou de custo evidentemente superior ao risco.
+- **Art. 6º:** planejamento, coordenação, descentralização, delegação de competência e controle.
+- **Art. 13:** controle em todos os níveis e órgãos; programas e normas; sistemas; recursos e bens da União.
+- **Art. 14:** racionalização, simplificação e supressão de controles puramente formais ou de custo evidentemente superior ao risco.
 
-## Pegadinhas
+Art. 14 não elimina o controle; exige controle útil e proporcional.
 
-- Medição isolada ≠ controle completo.
-- Desvio ≠ culpa automática.
-- Meta ≠ índice observado.
-- Produto ≠ impacto.
-- Controle posterior ≠ prevenção do fato ocorrido.
-- Exceção ≠ ausência de controle.
-- Controle intenso ≠ controle necessariamente eficaz.
-- Cumprir número ≠ gerar valor público.
-- Art. 13 exige capilaridade; art. 14 rejeita formalismo antieconômico.
+## Roteiro de prova
+
+1. Qual é a referência?
+2. O controle ocorre antes, durante ou depois?
+3. O foco é estratégico, tático ou operacional?
+4. Há apenas medição ou também comparação e decisão?
+5. A banca fala de produto, resultado ou impacto?
+6. O critério é economicidade, eficiência, eficácia ou efetividade?
+7. A alternativa usa termo absoluto?
+8. A resposta trata a causa ou apenas mascara o indicador?
