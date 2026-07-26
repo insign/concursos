@@ -8,288 +8,342 @@ storageId: controle-avaliacao
 
 # Controle e avaliação no processo organizacional
 
-**Controle** é a função administrativa que verifica se a execução e os resultados permanecem coerentes com objetivos, planos, padrões e critérios. Sua finalidade não é apenas encontrar erros: o controle produz informação para manter o desempenho adequado, corrigir desvios relevantes, prevenir sua repetição e aperfeiçoar decisões futuras.
+Controle e avaliação integram o processo administrativo e fecham o ciclo iniciado pelo planejamento. O planejamento define objetivos, padrões e metas; a execução produz dados e resultados; o controle compara o observado com as referências; e a avaliação examina, com critérios e evidências, o mérito, a adequação e os efeitos do que foi realizado.
 
-O controle completa o processo administrativo ao conectar o que foi planejado ao que efetivamente ocorreu. Ao mesmo tempo, realimenta um novo ciclo de planejamento.
+No setor público, essas funções não se limitam à fiscalização formal. Elas ajudam a verificar se os recursos foram usados adequadamente, se as entregas foram produzidas, se os objetivos foram alcançados e se houve benefício para a sociedade.
 
-> **Ideia central:** controlar é comparar uma realidade observada com uma referência e agir sobre desvios relevantes.
+## 1. Conceitos próximos, mas não idênticos
 
-## 1. Relação entre planejamento, monitoramento, controle e avaliação
-
-Os quatro conceitos são relacionados, mas não equivalentes.
-
-| Conceito | Núcleo |
-| --- | --- |
-| **Planejamento** | define objetivos, prioridades, padrões, metas e meios antes da execução |
-| **Monitoramento** | acompanha contínua ou regularmente a execução e organiza dados sobre seu andamento |
-| **Controle** | compara desempenho e referências, interpreta desvios e desencadeia ajuste ou decisão |
-| **Avaliação** | examina sistematicamente mérito, adequação, desempenho, resultados ou efeitos para formar um julgamento |
-
-Sem objetivo, padrão ou critério, é possível observar dados, mas falta a referência necessária para o controle. Por isso, planejamento e controle são interdependentes: o planejamento oferece parâmetros; o controle informa se eles foram cumpridos e se ainda são adequados.
-
-Monitorar não basta para controlar. Um painel pode registrar prazos e quantidades sem que ninguém compare os valores com metas ou decida sobre desvios. A avaliação, por sua vez, pode usar dados do monitoramento e do controle, porém realiza análise mais estruturada do objeto.
-
-### 1.1 Retroalimentação
-
-**Retroalimentação** ou *feedback* é a informação que retorna ao sistema e subsidia correções, prevenção e aprendizagem. No controle, ela pode levar a mudanças na execução, no processo, nos recursos ou no próprio planejamento.
-
-O retorno informacional não deve ser confundido com todo o processo de controle. Também não se confunde com o feedback comunicacional estudado no Assunto 105: confirmar a compreensão de uma mensagem é comunicação; comparar desempenho com padrão e decidir uma correção é controle.
-
-## 2. Ciclo do controle
-
-Modelos didáticos podem agrupar etapas, mas preservam a mesma lógica fundamental.
-
-### 2.1 Estabelecer objetivos, padrões e critérios
-
-O controle começa com uma referência conhecida. Ela pode ser:
-
-- quantitativa, como prazo, custo, quantidade, taxa ou limite de tolerância;
-- qualitativa, como conformidade a requisito técnico ou nível esperado de qualidade;
-- normativa, como procedimento ou regra aplicável;
-- comparativa, como desempenho histórico ou referência externa pertinente.
-
-**Objetivo** indica o estado ou direção pretendida. **Meta** delimita um resultado esperado, normalmente com valor e prazo. **Padrão** oferece uma referência de desempenho aceitável. As expressões podem assumir nuances diferentes em cada modelo, mas todas orientam a comparação.
-
-### 2.2 Medir ou observar o desempenho
-
-A organização coleta evidências sobre a execução. A medida precisa corresponder ao objeto controlado. Dados abundantes, porém irrelevantes, inexatos ou tardios não produzem controle útil.
-
-### 2.3 Comparar realizado e esperado
-
-O valor observado é confrontado com o padrão, a meta ou o critério. A diferença encontrada é um **desvio**. Desvio não significa automaticamente falha grave: é preciso considerar magnitude, tolerância, tendência, causa, risco e consequência.
-
-### 2.4 Analisar o desvio e suas causas
-
-Uma mesma diferença pode resultar de execução inadequada, recurso insuficiente, premissa superada, indicador mal construído ou padrão irreal. Agir antes de compreender a causa pode ocultar o sintoma e preservar o problema.
-
-### 2.5 Decidir e executar ações
-
-Conforme o caso, a organização pode:
-
-- corrigir imediatamente a execução;
-- eliminar ou reduzir a causa do desvio;
-- redistribuir recursos ou ajustar método e prazo;
-- prevenir recorrência;
-- manter o desempenho, quando o desvio estiver dentro da tolerância;
-- revisar plano, meta ou padrão, quando a referência se mostrar inadequada.
-
-Revisar um padrão não é manipular a meta para aparentar sucesso. A revisão é legítima quando apoiada por evidência e decisão transparente; alterar retrospectivamente o critério apenas para esconder desempenho ruim é disfunção.
-
-### 2.6 Aprender e realimentar
-
-O ciclo termina com registro, comunicação e incorporação do aprendizado. A ação precisa ser acompanhada para verificar se funcionou e se produziu efeitos indesejados. Assim, controle também informa planejamento e execução futuros.
-
-## 3. Controle segundo o momento
-
-| Momento | Finalidade | Termos frequentes |
+| Conceito | Pergunta central | Característica |
 | --- | --- | --- |
-| **Antes da execução** | antecipar causas, verificar condições e prevenir desvios | prévio, preventivo, preliminar, antecipatório, *feedforward* |
-| **Durante a execução** | acompanhar o processo e corrigir tempestivamente | concomitante, simultâneo, concorrente, em processo |
-| **Após a execução** | verificar o resultado, corrigir consequências e aprender | posterior, subsequente, retroativo, por *feedback* |
+| Planejamento | O que se pretende alcançar e como? | Define objetivos, alternativas, padrões, metas e cursos de ação. |
+| Monitoramento | O que está acontecendo? | Acompanha regularmente a execução e organiza dados. |
+| Controle | O realizado está de acordo com a referência e o que deve ser feito diante dos desvios? | Mede, compara, interpreta e desencadeia decisões. |
+| Avaliação | A intervenção é adequada, relevante, eficiente e capaz de produzir resultados? | Formula um julgamento sistemático com critérios e evidências. |
+| Auditoria | Os atos, registros, controles e resultados atendem aos critérios aplicáveis? | Exame independente ou funcionalmente estruturado, com escopo e método próprios. |
 
-Exemplos:
+Monitorar não equivale a controlar por completo. Uma unidade pode registrar diariamente o número de atendimentos e ainda não possuir controle efetivo se não houver referência, comparação, análise e decisão.
 
-- validar capacidade e requisitos antes de iniciar um atendimento é controle preventivo;
-- acompanhar filas e remanejar equipe durante o expediente é controle concomitante;
-- comparar ao fim do mês o prazo médio com a meta é controle posterior.
+Avaliar também não se reduz a medir. A medição produz informação; a avaliação interpreta evidências à luz de uma pergunta e de critérios explícitos.
 
-As terminologias variam. Em teoria de sistemas, *feedforward* enfatiza informação antecipatória sobre entradas e causas, enquanto *feedback* é o retorno produzido após uma etapa. No Direito Administrativo, controle prévio, concomitante e posterior classifica o momento de fiscalização de atos. As classificações são próximas, mas seus contextos não são perfeitamente intercambiáveis.
+### Feedback e retroalimentação
 
-Controle posterior continua útil para responsabilização, correção de efeitos e aprendizagem, embora possa chegar tarde demais para impedir o desvio já ocorrido.
+**Feedback** é o retorno de informação sobre uma atividade, etapa ou resultado já observado. Ele pode alimentar uma decisão posterior mesmo quando o processo organizacional mais amplo ainda está em andamento.
 
-## 4. Níveis organizacionais
+Por isso, não se deve concluir que todo feedback somente aparece depois do encerramento integral do processo. Uma equipe pode concluir uma etapa, analisar seus resultados e usar essa informação para ajustar as etapas seguintes.
 
-### 4.1 Estratégico ou institucional
+## 2. O modelo clássico do processo de controle
 
-Acompanha missão, objetivos globais, prioridades, riscos críticos, sustentabilidade e desempenho da organização como um todo. Usa horizonte mais amplo e informação agregada, sem se limitar a dados financeiros.
+A formulação mais cobrada em provas apresenta quatro fases:
 
-### 4.2 Tático ou intermediário
+> **estabelecimento de padrões → medição do desempenho → comparação com o padrão → ação corretiva**
 
-Acompanha planos, programas e desempenho de áreas ou unidades. Traduz referências estratégicas para responsabilidades departamentais e coordena correções entre processos relacionados.
-
-### 4.3 Operacional
-
-Acompanha tarefas, rotinas, prazos, qualidade, produtividade e uso imediato de recursos. Costuma operar com informação mais detalhada e frequente.
-
-Os níveis não são isolados. Um dado operacional pode revelar tendência estratégica; uma mudança estratégica redefine padrões táticos e operacionais.
-
-### 4.4 Origem e responsabilidade
-
-No sentido organizacional, controle **interno** é realizado no âmbito da própria organização. **Autocontrole** ocorre quando quem executa ou gerencia verifica o próprio trabalho segundo referências conhecidas. Delegar execução não elimina a responsabilidade gerencial de acompanhar.
-
-Controle externo constitucional, auditoria, fiscalização contábil e prestação de contas possuem regimes próprios. Eles se relacionam com o tema, mas não substituem o controle como função administrativa estudado neste assunto.
-
-## 5. Indicadores, padrões e metas
-
-Indicador é uma medida quantitativa ou qualitativa dotada de significado, usada para representar aspecto relevante de um objeto. Ele reduz uma realidade complexa a uma informação manejável; por isso, é instrumento de monitoramento, controle e avaliação, não a própria realidade nem a própria avaliação.
-
-Segundo o Guia Referencial da Enap, componentes básicos de um indicador incluem:
-
-| Componente | Papel |
+| Fase clássica | Conteúdo |
 | --- | --- |
-| **Medida** | grandeza qualitativa ou quantitativa observada |
-| **Fórmula** | modo de cálculo |
-| **Índice** | valor do indicador em determinado momento |
-| **Padrão de comparação** | referência aceitável para comparação |
-| **Meta** | índice desejado em relação ao padrão e dentro de período definido |
+| Estabelecer padrões | Definir o desempenho esperado, os critérios, os indicadores, as metas e as faixas de tolerância. |
+| Medir o desempenho | Coletar dados confiáveis sobre execução, entregas e resultados. |
+| Comparar | Confrontar o realizado com o esperado e dimensionar os desvios. |
+| Agir corretivamente | Corrigir causas, ajustar recursos, rever procedimentos ou, quando fundamentado, revisar o próprio padrão. |
 
-A meta contém finalidade, valor e prazo. Sua definição deve considerar linha de base, histórico, tendência, referências comparáveis e capacidade de execução. Meta desafiadora não é meta arbitrária.
+A expressão **ação corretiva** não significa punição automática. A resposta adequada depende da causa do desvio e pode envolver capacitação, redistribuição de recursos, mudança de processo, correção de sistema, revisão de prioridade ou alteração fundamentada do plano.
 
-### 5.1 Cadeia de desempenho
+## 3. Modelo detalhado e aprendizagem organizacional
 
-| Posição | Pergunta | Exemplo em um serviço de capacitação |
+O modelo clássico pode ser desdobrado sem mudar sua lógica:
+
+1. estabelecer objetivos, padrões, metas e tolerâncias;
+2. observar e medir o desempenho;
+3. comparar o realizado com a referência;
+4. analisar causas, riscos, tendências e consequências;
+5. decidir e executar a resposta;
+6. acompanhar o efeito da resposta e realimentar o planejamento.
+
+| Modelo clássico | Desdobramento detalhado |
+| --- | --- |
+| Estabelecimento de padrões | objetivos, critérios, padrões, indicadores, metas e tolerâncias |
+| Medição | observação, coleta, validação e consolidação dos dados |
+| Comparação | cálculo do desvio e análise de sua relevância |
+| Ação corretiva | análise causal, decisão, execução, acompanhamento e aprendizagem |
+
+O ciclo é contínuo. Após a ação, o gestor verifica se a causa foi tratada e se o desempenho melhorou. Caso contrário, o controle se limitaria a registrar o problema.
+
+### Desvio não é diagnóstico
+
+**Desvio** é a diferença entre o desempenho observado e a referência. Ele não prova, por si só, falha humana, fraude ou incompetência.
+
+A análise deve considerar:
+
+- magnitude e materialidade;
+- faixa de tolerância;
+- repetição e tendência;
+- causa controlável ou externa;
+- risco e consequência;
+- qualidade do dado e adequação do padrão.
+
+Um desvio pequeno e isolado pode ser irrelevante; o mesmo desvio, repetido continuamente, pode revelar deterioração do processo.
+
+### A meta pode ser revisada?
+
+Pode, desde que a revisão seja fundamentada e transparente. Premissas podem mudar, o padrão pode mostrar-se tecnicamente inadequado e uma prioridade pública pode ser legitimamente redefinida.
+
+Não é legítimo alterar retroativamente a meta apenas para transformar desempenho insuficiente em sucesso aparente.
+
+## 4. Controle segundo o momento
+
+| Momento | Denominações frequentes | Finalidade | Exemplo |
+| --- | --- | --- | --- |
+| Antes da execução | prévio, preliminar, preventivo, *feedforward* | antecipar causas e prevenir ou reduzir a probabilidade de desvios | validar requisitos, conferir capacidade e testar acesso antes de abrir um serviço |
+| Durante a execução | concomitante, simultâneo, concorrente | acompanhar o trabalho e ajustar a operação enquanto ocorre | remanejar equipe ao perceber crescimento anormal da fila |
+| Depois de uma atividade ou resultado | posterior, de resultados, por feedback | examinar o que ocorreu, corrigir efeitos possíveis e aprender para ciclos seguintes | analisar atrasos do mês e redesenhar o fluxo |
+
+O controle prévio reduz risco, mas não garante que nenhum desvio ocorrerá. O controle concomitante permite intervenção rápida, mas pode ser caro ou intrusivo se aplicado sem proporcionalidade. O controle posterior não desfaz automaticamente o fato ocorrido, embora possa produzir responsabilização, reparação, aprendizagem e prevenção futura.
+
+## 5. Controle segundo o nível organizacional
+
+| Nível | Alcance | Horizonte e exemplos |
 | --- | --- | --- |
-| **Insumo ou input** | quais recursos são empregados? | instrutores, orçamento e plataforma |
-| **Processo ou atividade** | como o trabalho é executado? | preparar e ministrar aulas |
-| **Produto ou output** | o que foi entregue diretamente? | turmas e certificados emitidos |
-| **Resultado ou outcome** | que mudança próxima decorreu da entrega? | competências aplicadas no trabalho |
-| **Impacto** | que efeito amplo e duradouro se relaciona à intervenção? | melhoria sustentada do serviço público |
+| Estratégico | organização como um todo e relação com o ambiente | missão, objetivos globais, resultados institucionais, riscos relevantes e adequação da estratégia |
+| Tático | unidades, áreas, programas ou departamentos | metas setoriais, alocação de recursos e desempenho integrado da área |
+| Operacional | tarefas, rotinas e processos específicos | produtividade diária, prazo, qualidade, conformidade e consumo de recursos |
 
-As fontes nem sempre usam **resultado**, **efeito**, *outcome* e **impacto** da mesma forma. A classificação correta depende da cadeia e das definições apresentadas. Além disso, o produto de um processo pode funcionar como insumo de outro.
+Os níveis precisam estar conectados. Melhorar um indicador operacional não é suficiente quando a melhoria prejudica um objetivo institucional mais importante.
 
-### 5.2 Qualidades da informação de controle
+O controle pode ser exercido pela chefia, por unidades especializadas, por sistemas internos e pelo próprio executor mediante **autocontrole**. Autocontrole não elimina supervisão; ele aproxima a identificação do desvio de quem executa o trabalho.
 
-Um indicador útil deve ser pertinente ao objetivo e possuir, conforme o contexto:
+## 6. Referências do controle: objetivo, padrão, indicador, índice e meta
 
-- representatividade e utilidade para decisão;
-- método e fonte confiáveis;
-- disponibilidade e tempestividade;
-- comunicação simples e significado compreensível;
-- estabilidade suficiente para comparação;
-- custo de obtenção compatível com seu benefício.
-
-Indicadores são representações imperfeitas e precisam ser revistos criticamente. Uma medida precisa do aspecto errado continua sendo inadequada.
-
-## 6. Critérios de desempenho
-
-| Critério | Pergunta central |
+| Elemento | Significado |
 | --- | --- |
-| **Economicidade** | os recursos foram obtidos e usados de modo prudente, considerando custo, qualidade e risco? |
-| **Eficiência** | qual é a relação entre produtos ou serviços gerados e recursos empregados? |
-| **Eficácia** | metas e objetivos previstos foram alcançados? |
-| **Efetividade** | a atuação produziu mudança relevante na realidade ou no problema enfrentado? |
+| Objetivo | estado ou resultado que se pretende alcançar |
+| Padrão | referência usada para julgar o desempenho aceitável |
+| Indicador | medida dotada de significado que representa aspecto relevante da realidade |
+| Fórmula | regra de cálculo do indicador |
+| Índice | valor observado do indicador em certo momento |
+| Meta | resultado desejado, com valor-alvo e prazo, vinculado a um objetivo |
+| Tolerância | intervalo de variação considerado aceitável |
 
-Economicidade não significa comprar sempre pelo menor preço: custo baixo com qualidade insuficiente ou risco excessivo pode ser antieconômico. Eficiência não prova eficácia; uma unidade pode usar poucos recursos e entregar quantidade inferior à meta. Eficácia não prova efetividade; a entrega prevista pode ocorrer sem transformar a situação que a justificou.
+Exemplo:
 
-As definições variam entre fontes. Em prova, deve-se observar o modelo adotado no enunciado, sobretudo quando “resultado” é usado em sentido amplo.
+- objetivo: reduzir o tempo de emissão de certidões;
+- indicador: prazo médio de emissão;
+- fórmula: soma dos tempos de emissão ÷ quantidade emitida;
+- índice atual: 8 dias;
+- meta: alcançar prazo médio de 5 dias até dezembro;
+- tolerância: entre 4,5 e 5,5 dias.
 
-## 7. Controle eficaz e princípio da exceção
+Uma meta não é o mesmo que o índice atual. O índice informa a situação observada; a meta define o valor a alcançar.
+
+### Tipos de padrões
+
+Padrões podem ser:
+
+- **quantitativos**: quantidade, prazo, custo, produtividade;
+- **qualitativos**: nível de precisão, satisfação, clareza ou qualidade;
+- **normativos**: requisito legal, técnico ou procedimental;
+- **comparativos**: desempenho histórico, referência externa ou unidade semelhante.
+
+Padrões devem ser relevantes, compreensíveis, mensuráveis quando possível, compatíveis com o objetivo e revisáveis diante de evidências.
+
+## 7. Indicadores e cadeia de desempenho
+
+Uma cadeia simplificada ajuda a localizar o que está sendo medido:
+
+> **insumos → processos → produtos → resultados → impactos**
+
+| Elemento | Pergunta | Exemplo |
+| --- | --- | --- |
+| Insumo (*input*) | Quais recursos foram empregados? | pessoal, orçamento, equipamentos |
+| Processo | Como a atividade foi executada? | etapas, prazo interno, conformidade |
+| Produto (*output*) | O que foi entregue diretamente? | certidões emitidas, inspeções realizadas |
+| Resultado (*outcome*) | Que mudança imediata ou intermediária ocorreu? | solicitações efetivamente resolvidas |
+| Impacto | Que transformação mais ampla e duradoura ocorreu? | aumento de acesso, confiança ou bem-estar |
+
+Produto e resultado não são sinônimos. Emitir uma certidão é uma entrega; resolver a necessidade administrativa do usuário é um resultado.
+
+### Qualidade de um indicador
+
+Um indicador útil tende a ser:
+
+- relevante para a decisão;
+- válido para representar o fenômeno;
+- confiável e replicável;
+- tempestivo;
+- compreensível;
+- comparável ao longo do tempo;
+- obtido a custo proporcional;
+- resistente, tanto quanto possível, à manipulação.
+
+Nenhum indicador representa perfeitamente a realidade. Por isso, decisões importantes devem considerar conjunto coerente de medidas e evidências qualitativas.
+
+## 8. Economicidade, eficiência, eficácia e efetividade
+
+| Critério | Foco | Pergunta típica |
+| --- | --- | --- |
+| Economicidade | aquisição e uso dos recursos em condições adequadas | Os insumos foram obtidos com custo, qualidade e oportunidade compatíveis? |
+| Eficiência | relação entre recursos empregados e produtos ou resultados | Produziu-se bem, com boa utilização dos meios? |
+| Eficácia | alcance dos objetivos e metas | O que foi programado foi entregue ou atingido? |
+| Efetividade | efeitos relevantes e duradouros sobre a realidade | A intervenção produziu benefício para o público ou para a sociedade? |
+
+Pegadinhas frequentes:
+
+- menor preço isolado não demonstra economicidade;
+- produzir mais com os mesmos recursos pode indicar eficiência, mas não comprova eficácia;
+- atingir a meta demonstra eficácia, mas não prova efetividade;
+- impacto observado depois da intervenção não é automaticamente causado por ela.
+
+## 9. Exemplo numérico integrado
+
+Uma unidade estabeleceu a meta mensal de emitir **1.000 certidões**. No período:
+
+- emitiu 900 certidões;
+- gastou R$ 90.000;
+- 720 solicitações foram efetivamente resolvidas após a emissão.
+
+### 9.1 Cumprimento da meta
+
+**Eficácia em relação à meta de produto = (900 ÷ 1.000) × 100 = 90%**
+
+A unidade alcançou 90% da meta de emissão. Isso informa eficácia relativa ao produto, não a eficiência nem a efetividade.
+
+### 9.2 Custo por produto
+
+**Custo por certidão = R$ 90.000 ÷ 900 = R$ 100**
+
+O custo unitário é um dado para análise de eficiência. Para concluir que houve melhora, é necessário compará-lo com uma referência válida e verificar a qualidade das entregas.
+
+### 9.3 Resolução entre as entregas
+
+**Proporção de solicitações resolvidas = (720 ÷ 900) × 100 = 80%**
+
+Esse índice aproxima um resultado do serviço. Ainda assim, não demonstra sozinho impacto causal mais amplo.
+
+O exemplo mostra por que uma única medida é insuficiente: quantidade entregue, custo unitário, cumprimento de meta e solução do problema observam dimensões diferentes.
+
+## 10. Controle por exceção e seletividade
+
+O **princípio da exceção** orienta a atenção gerencial para desvios relevantes, riscos elevados e pontos críticos, em vez de exigir a mesma intensidade de controle sobre tudo.
+
+Isso pressupõe:
+
+1. padrões e tolerâncias claros;
+2. informação confiável;
+3. critérios de materialidade e risco;
+4. escalonamento dos desvios;
+5. capacidade de investigar causas.
+
+Controle por exceção não significa ausência de acompanhamento. Sem monitoramento suficiente, a organização sequer identifica quais situações escaparam do padrão.
+
+## 11. Características de um controle eficaz
 
 Um sistema de controle deve ser:
 
-- **exato**, com informação suficientemente correta;
-- **tempestivo**, para permitir decisão útil;
-- **focado**, destacando pontos estratégicos e riscos relevantes;
-- **flexível**, adaptando-se a mudanças sem perder consistência;
-- **compreensível**, para que responsáveis saibam interpretar e agir;
-- **aceitável**, com critérios legítimos e conhecidos;
-- **econômico**, com benefício compatível com seu custo.
+- alinhado aos objetivos;
+- seletivo e orientado a riscos;
+- tempestivo;
+- preciso;
+- compreensível;
+- economicamente viável;
+- flexível;
+- capaz de indicar causas e ações;
+- aceito e utilizável pelas pessoas responsáveis;
+- proporcional à relevância da atividade.
 
-Não há uma lista normativa universal dessas características. Elas expressam critérios doutrinários recorrentes para julgar a utilidade do sistema.
+O custo do controle não deve superar, sem justificativa, o risco ou o benefício que ele pretende tratar.
 
-O **princípio da exceção** concentra a atenção gerencial nos desvios relevantes, fora de tolerância ou de maior risco. Não significa abandonar rotinas nem ignorar pequenas ocorrências que, acumuladas, indiquem tendência. Seu objetivo é evitar que o gestor se perca em volume de dados sem prioridade.
+## 12. Avaliação segundo o momento
 
-Pontos críticos merecem controle mais intenso porque uma falha neles compromete objetivos importantes. A frequência e a profundidade do controle devem ser proporcionais ao risco, à velocidade do processo e à possibilidade de correção.
-
-## 8. Avaliação no processo organizacional
-
-A avaliação aplica critérios e evidências para formar julgamento útil à decisão. Ela pode examinar pertinência do desenho, qualidade da execução, alcance de metas, resultados ou efeitos.
-
-### 8.1 Segundo o momento
-
-- **ex ante**: antes da implementação, examina problema, alternativas, viabilidade, desenho e efeitos esperados;
-- **durante a execução**, intermediária ou *in itinere*: verifica implementação e permite aperfeiçoamento em curso;
-- **ex post**: depois da implementação ou de um ciclo relevante, examina desempenho, resultados e efeitos observados.
-
-Essas categorias descrevem o momento da avaliação e não são sinônimos perfeitos dos controles preventivo, concomitante e posterior. Uma avaliação ex ante, por exemplo, pode estudar alternativas em profundidade, e não apenas autorizar ou impedir uma operação.
-
-### 8.2 Segundo o foco
-
-- **avaliação de processo ou implementação**: examina como as atividades foram executadas, alcance do público, conformidade e obstáculos;
-- **avaliação de produto ou resultado**: examina entregas e mudanças observadas;
-- **avaliação de impacto**: procura identificar efeitos mais amplos e, em abordagens rigorosas, a contribuição causal da intervenção.
-
-Neste assunto, basta reconhecer os focos. Métodos de inferência causal, desenhos contrafactuais e sistemas completos de gestão por resultados pertencem a recortes mais específicos.
-
-## 9. Disfunções e riscos do controle
-
-Controle mal desenhado pode afastar a organização de seus objetivos.
-
-### 9.1 Excesso, formalismo e rigidez
-
-Controles redundantes consomem tempo e recursos. Regras rígidas podem impedir adaptação legítima. A existência de muitos formulários não prova que riscos relevantes estejam controlados.
-
-### 9.2 Informação tardia ou imprecisa
-
-Informação que chega depois da janela de decisão pode servir para aprendizagem, mas não para prevenir o dano. Informação inexata orienta comparação e ação incorretas.
-
-### 9.3 Fixação na métrica e manipulação
-
-Quando a medida vira fim em si mesma, pessoas podem otimizar o número sem produzir valor. Exemplos incluem selecionar apenas casos fáceis, mudar critérios de contagem, adiar registros ou sacrificar qualidade para cumprir quantidade.
-
-O problema não é medir, mas usar indicador isolado, mal alinhado ou sem análise qualitativa. Aspectos difíceis de mensurar não se tornam irrelevantes.
-
-### 9.4 Cultura exclusivamente punitiva
-
-Se todo desvio gera punição automática, equipes podem ocultar problemas e degradar a informação disponível. Responsabilização continua necessária quando cabível, mas controle também deve permitir correção e aprendizagem.
-
-## 10. Controle na Administração Pública e Decreto-Lei nº 200/1967
-
-O Decreto-Lei nº 200/1967 inclui o **controle** entre os princípios fundamentais das atividades da Administração Federal, ao lado de planejamento, coordenação, descentralização e delegação de competência.
-
-O art. 13 determina que o controle seja exercido **em todos os níveis e em todos os órgãos**, compreendendo particularmente:
-
-1. pela chefia competente, a execução dos programas e a observância das normas da atividade específica;
-2. pelos órgãos próprios de cada sistema, a observância das normas gerais das atividades auxiliares;
-3. pelos órgãos próprios do sistema de contabilidade e auditoria, a aplicação dos dinheiros públicos e a guarda dos bens da União.
-
-O art. 14 determina a racionalização do trabalho administrativo por simplificação de processos e supressão de controles puramente formais ou cujo custo seja evidentemente superior ao risco.
-
-Logo, a norma não defende controle máximo e indiscriminado. Ela combina presença do controle em toda a Administração com racionalidade, proporcionalidade prática e eliminação de formalismo inútil.
-
-## 11. Exemplo integrado
-
-Uma unidade pretende reduzir o prazo de emissão de certidões para até cinco dias:
-
-1. o planejamento define objetivo, meta, prazo, responsáveis e critérios de qualidade;
-2. o monitoramento registra demanda, estoque, tempo por etapa e retrabalho;
-3. o controle compara o prazo observado com a meta e a faixa de tolerância;
-4. a análise identifica se o desvio decorre de pico de demanda, falha do sistema, etapa redundante ou erro de cadastro;
-5. a ação pode remanejar capacidade, corrigir sistema, simplificar etapa ou rever uma premissa comprovadamente superada;
-6. a avaliação verifica não apenas prazo e quantidade, mas qualidade da certidão, acesso do usuário e efeitos da mudança;
-7. o aprendizado realimenta o processo sem alterar a métrica apenas para aparentar cumprimento.
-
-Reduzir prazo com aumento de erros pode elevar uma medida de velocidade e piorar o desempenho global. Por isso, controles precisam equilibrar critérios relevantes.
-
-## 12. Quadro de distinções
-
-| Conceito | Núcleo | Pegadinha |
+| Tipo | Quando ocorre | Finalidade típica |
 | --- | --- | --- |
-| Monitoramento | acompanhamento regular | coletar dados não garante ação |
-| Controle | comparação, análise e ajuste | não se reduz a punição |
-| Avaliação | julgamento sistemático | não é sinônimo de indicador |
-| Padrão | referência de comparação | pode ser quantitativo ou qualitativo |
-| Índice | valor observado do indicador | não é a meta futura |
-| Meta | valor desejado com prazo | não deve ser arbitrária |
-| Produto | entrega direta | não prova mudança na realidade |
-| Eficiência | entregas em relação a recursos | não prova alcance da meta |
-| Eficácia | alcance do previsto | não prova impacto |
-| Efetividade | mudança relevante | não se reduz a quantidade entregue |
-| Exceção | atenção ao desvio relevante | não é ausência de controle |
+| Ex ante | antes da decisão ou da implementação | diagnosticar problema, comparar alternativas, estimar custos, riscos e resultados esperados |
+| In itinere, intermediária ou formativa | durante a implementação | verificar aderência, cobertura, barreiras e necessidade de ajustes |
+| Ex post ou somativa | após período suficiente ou ao final | examinar resultados, efeitos, eficiência, continuidade e aprendizagem |
 
-## 13. Limites deste assunto
+Uma análise ex ante também pode ser necessária ao expandir ou reformular intervenção já existente. A expressão indica a posição da análise diante da nova decisão, não apenas diante da criação original.
 
-Para preservar os recortes do edital:
+## 13. Avaliação segundo o foco
 
-- planejamento e direção foram tratados no Assunto 104;
-- feedback comunicacional e fluxos de informação foram tratados no Assunto 105;
-- gestão por resultados, modelos completos de indicadores e contratos de gestão pertencem ao Assunto 112;
-- controle externo constitucional, auditoria, contabilidade pública e prestação de contas não são aprofundados aqui;
-- avaliação de políticas públicas e métodos de impacto aparecem apenas para delimitar conceitos básicos.
+| Foco | Objeto principal | Exemplo |
+| --- | --- | --- |
+| Desenho | coerência entre problema, público, objetivos, ações e indicadores | verificar se as ações propostas podem produzir os resultados esperados |
+| Processo ou implementação | execução real, cobertura, aderência e barreiras | examinar se o serviço alcançou o público previsto |
+| Produto (*output*) | entregas diretas | medir quantidade e qualidade de certidões emitidas |
+| Resultado (*outcome*) | mudanças imediatas ou intermediárias | verificar se as solicitações foram resolvidas |
+| Impacto | efeito atribuível e transformação mais ampla | estimar quanto da mudança ocorreu por causa da intervenção |
+| Eficiência | relação entre custos, recursos e entregas ou resultados | comparar custo por atendimento entre alternativas |
+
+Terminologias variam entre autores e instituições. A resposta de prova deve observar a definição apresentada no enunciado, sem confundir produto, resultado e impacto.
+
+### Causalidade na avaliação de impacto
+
+A simples comparação entre “antes” e “depois” não isola outros fatores. Sazonalidade, mudanças econômicas, novas regras ou seleção dos beneficiários podem explicar parte da variação.
+
+Avaliação de impacto exige estratégia capaz de sustentar inferência causal, como grupo de comparação adequado ou desenho quase experimental, quando aplicável. Nem toda avaliação precisa estimar impacto; a pergunta avaliativa define o método necessário.
+
+## 14. Disfunções e riscos do controle
+
+### 14.1 Excesso de formalismo
+
+Muitos formulários e aprovações podem aumentar custo e tempo sem melhorar a decisão.
+
+### 14.2 Informação tardia ou imprecisa
+
+Um relatório correto, entregue tarde demais, pode não permitir ação. Um painel rápido, mas alimentado por dados ruins, pode induzir decisão equivocada.
+
+### 14.3 Deslocamento de objetivos
+
+Quando a métrica vira fim em si mesma, pessoas podem otimizar o número e prejudicar o objetivo real.
+
+Exemplo: reduzir o prazo médio encerrando solicitações sem solução melhora o indicador, mas piora o serviço.
+
+### 14.4 Cultura exclusivamente punitiva
+
+Se todo desvio for tratado como culpa individual, equipes podem ocultar problemas. Controle eficaz combina responsabilização, quando cabível, com aprendizagem e correção sistêmica.
+
+### 14.5 Controle excessivo
+
+Microgerenciamento reduz autonomia, cria lentidão e pode transferir a atenção da entrega para a comprovação burocrática de cada ato.
+
+## 15. Controle na Administração Federal: Decreto-Lei nº 200/1967
+
+O art. 6º do Decreto-Lei nº 200/1967 inclui **controle** entre os princípios fundamentais da Administração Federal, ao lado de planejamento, coordenação, descentralização e delegação de competência.
+
+O art. 13 determina que o controle seja exercido em todos os níveis e órgãos, compreendendo especialmente:
+
+- controle da execução dos programas e da observância das normas;
+- controle pelos órgãos próprios de cada sistema sobre a observância das normas gerais;
+- controle da aplicação dos recursos públicos e da guarda dos bens da União.
+
+O art. 14 estabelece que o trabalho administrativo deve ser racionalizado mediante simplificação de processos e supressão de controles puramente formais ou cujo custo seja evidentemente superior ao risco.
+
+A norma não autoriza ausência de controle. Ela exige controle útil, proporcional e orientado ao risco.
+
+## 16. Como resolver questões de prova
+
+1. Identifique a referência: objetivo, padrão, indicador ou meta.
+2. Verifique o momento: antes, durante ou depois.
+3. Observe o nível: estratégico, tático ou operacional.
+4. Separe medição de comparação e decisão.
+5. Diferencie produto, resultado e impacto.
+6. Classifique o critério: economicidade, eficiência, eficácia ou efetividade.
+7. Desconfie de termos absolutos como “sempre”, “somente”, “automaticamente” e “dispensa”.
+8. Em caso de desvio, procure a alternativa que analisa causa e consequência antes de punir ou apenas alterar a meta.
+
+## 17. Delimitação do assunto
+
+Este tópico trata de **controle e avaliação como funções do processo organizacional**.
+
+Não aprofunda:
+
+- controle interno, externo, parlamentar, jurisdicional ou pelos tribunais de contas, estudados em Controle Externo;
+- métodos completos de gestão por resultados, tratados em assunto próprio;
+- auditoria governamental como disciplina autônoma;
+- avaliação de desempenho de pessoas, pertencente a Gestão de Pessoas;
+- técnicas econométricas avançadas de avaliação de impacto.
 
 ## Referências
 
-- BRASIL. Presidência da República. [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm). Texto compilado, especialmente arts. 6º, 13 e 14. Acesso em: 15 jul. 2026.
-- BAHIA, Leandro Oliveira. Escola Nacional de Administração Pública. [Guia referencial para construção e análise de indicadores](https://www.gov.br/gestao/pt-br/acesso-a-informacao/estrategia-e-governanca/planejamento_estrategico_arquivos/livros_guias_publicacoes/guia-referencial-para-construcao-e-analise-de-indicadores-enap-2021.pdf). Brasília: Enap, 2021. ISBN 978-65-87791-19-7. Acesso em: 15 jul. 2026.
-- BRASIL. Casa Civil da Presidência da República; INSTITUTO DE PESQUISA ECONÔMICA APLICADA. [Avaliação de políticas públicas: guia prático de análise ex ante, volume 1](https://www.gov.br/gestao/pt-br/acesso-a-informacao/estrategia-e-governanca/planejamento_estrategico_arquivos/livros_guias_publicacoes/avaliacao-de-politicas-publicas-guia-pratico-de-analise-ex-ante-volume-1-ipea-2018.pdf/%40%40download/file). Brasília: Ipea, 2018. Acesso em: 15 jul. 2026.
-- INSTITUTO DE PESQUISA ECONÔMICA APLICADA. [Pensamento estratégico, planejamento governamental e gestão pública: volume 2](https://portalantigo.ipea.gov.br/portal/images/stories/PDFs/livros/livros/livro_ppa_vol_2_web.pdf). Brasília: Ipea. Acesso em: 15 jul. 2026.
+- [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) — Presidência da República. Texto consolidado consultado em 26 de julho de 2026.
+- [Guia referencial para medição de desempenho e manual para construção de indicadores](https://repositorio.enap.gov.br/handle/1/6154) — Ministério do Planejamento e Escola Nacional de Administração Pública.
+- [Avaliação de políticas públicas: guia prático de análise ex ante](https://repositorio.ipea.gov.br/handle/11058/8285) — Casa Civil da Presidência da República e Instituto de Pesquisa Econômica Aplicada.
+- [Avaliação de políticas públicas: guia prático de análise ex post](https://repositorio.ipea.gov.br/handle/11058/8853) — Casa Civil da Presidência da República e Instituto de Pesquisa Econômica Aplicada.
+- [Introdução às teorias administrativas](https://repositorio.enap.gov.br/handle/1/2668) — Escola Nacional de Administração Pública.
