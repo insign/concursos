@@ -2,7 +2,76 @@
   "schemaVersion": 1,
   "questionSetRevision": 2,
   "questions": [
-    "__BLOCK_1__",
+    {
+      "id": "q4179",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Webmail é corretamente definido como",
+      "options": [
+        {"id":"A","text":"protocolo que substitui IMAP e SMTP."},
+        {"id":"B","text":"interface Web, acessada por navegador, para usar uma caixa postal."},
+        {"id":"C","text":"cliente que exige armazenamento exclusivamente local."},
+        {"id":"D","text":"sinônimo da conta e da caixa postal."},
+        {"id":"E","text":"formato de arquivo de mensagem."}
+      ],
+      "correctOptionId": "B",
+      "explanation": "Webmail é uma interface de acesso; não é protocolo nem a própria caixa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4180","revision":2,"origin":"authorial","prompt":"Sobre webmail e cliente de e-mail instalado, assinale a alternativa correta.",
+      "options":[{"id":"A","text":"Uma mesma caixa postal pode ser acessada por ambos, conforme suporte e configuração."},{"id":"B","text":"Webmail elimina a existência de servidor."},{"id":"C","text":"Cliente instalado não sincroniza mensagens."},{"id":"D","text":"Webmail exige que tudo exista apenas no disco local."},{"id":"E","text":"Cliente instalado usa necessariamente POP3 e nunca IMAP."}],
+      "correctOptionId":"A","explanation":"São interfaces diferentes que podem acessar a mesma conta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4181","revision":2,"origin":"authorial","prompt":"Na composição de uma mensagem, Para e Cc distinguem-se porque",
+      "options":[{"id":"A","text":"Cc oculta os destinatários."},{"id":"B","text":"Para recebe anexos e Cc não."},{"id":"C","text":"Para indica envolvidos principais; Cc dá ciência de forma visível."},{"id":"D","text":"Cc impede resposta."},{"id":"E","text":"Para e Cc possuem visibilidade oposta."}],
+      "correctOptionId":"C","explanation":"Ambos são visíveis; a diferença é comunicacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4182","revision":2,"origin":"authorial","prompt":"Para enviar mensagem a várias pessoas que não devem ver os endereços umas das outras, o campo adequado é",
+      "options":[{"id":"A","text":"Para."},{"id":"B","text":"Cc."},{"id":"C","text":"Reply-To."},{"id":"D","text":"Cco/Bcc."},{"id":"E","text":"Assunto."}],
+      "correctOptionId":"D","explanation":"Cco oculta sua lista dos demais destinatários. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4183","revision":2,"origin":"authorial","prompt":"No comportamento usual, Responder a todos inclui inicialmente",
+      "options":[{"id":"A","text":"todos os contatos da organização."},{"id":"B","text":"somente o próprio usuário."},{"id":"C","text":"destinatários ocultos de Cco."},{"id":"D","text":"qualquer pessoa que recebeu encaminhamento posterior."},{"id":"E","text":"remetente e destinatários visíveis de Para e Cc, conforme o cliente."}],
+      "correctOptionId":"E","explanation":"Destinatários ocultos não compõem a lista visível da resposta em grupo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4184","revision":2,"origin":"authorial","prompt":"Encaminhar uma mensagem significa",
+      "options":[{"id":"A","text":"responder somente ao servidor SMTP."},{"id":"B","text":"criar novo envio para destinatários escolhidos, podendo incluir o conteúdo original."},{"id":"C","text":"arquivar sem possibilidade de busca."},{"id":"D","text":"marcar obrigatoriamente como spam."},{"id":"E","text":"confirmar leitura do destinatário original."}],
+      "correctOptionId":"B","explanation":"Encaminhar leva a mensagem a um novo público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4185","revision":2,"origin":"authorial","prompt":"Arquivar uma mensagem normalmente",
+      "options":[{"id":"A","text":"destrói a mensagem e anexos."},{"id":"B","text":"transforma em rascunho."},{"id":"C","text":"retira da Entrada sem excluir, mantendo-a localizável."},{"id":"D","text":"reenvia aos destinatários."},{"id":"E","text":"move obrigatoriamente para Spam."}],
+      "correctOptionId":"C","explanation":"Arquivar organiza sem excluir. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4186","revision":2,"origin":"authorial","prompt":"A distinção correta entre rascunho e caixa de saída é",
+      "options":[{"id":"A","text":"Rascunho ainda não foi enviado; saída pode conter envio pendente."},{"id":"B","text":"Ambos comprovam entrega ao servidor."},{"id":"C","text":"Rascunho contém somente recebidas."},{"id":"D","text":"Saída é sinônimo universal de arquivo."},{"id":"E","text":"Rascunho é confirmação de leitura."}],
+      "correctOptionId":"A","explanation":"São estados diferentes do fluxo de envio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4187","revision":2,"origin":"authorial","prompt":"Sobre pastas e rótulos em e-mail, é correto afirmar que",
+      "options":[{"id":"A","text":"rótulo é protocolo de transporte."},{"id":"B","text":"são idênticos em todo provedor."},{"id":"C","text":"uma mensagem nunca recebe mais de uma classificação."},{"id":"D","text":"o modelo varia; rótulos podem classificar uma mensagem em vários contextos."},{"id":"E","text":"pasta e rótulo garantem criptografia."}],
+      "correctOptionId":"D","explanation":"Provedores implementam organização de formas diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4188","revision":2,"origin":"authorial","prompt":"A visualização por conversa ou thread",
+      "options":[{"id":"A","text":"substitui o endereço por IP."},{"id":"B","text":"é protocolo alternativo ao SMTP."},{"id":"C","text":"apaga respostas antigas."},{"id":"D","text":"garante que todas as mensagens têm o mesmo público."},{"id":"E","text":"agrupa mensagens relacionadas para acompanhar o histórico."}],
+      "correctOptionId":"E","explanation":"Thread é recurso de agrupamento e apresentação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4189","revision":2,"origin":"authorial","prompt":"A diferença central entre busca e filtro/regra é",
+      "options":[{"id":"A","text":"busca envia e regra recebe anexos."},{"id":"B","text":"busca localiza; regra automatiza ações quando critérios são atendidos."},{"id":"C","text":"regra funciona sem critérios."},{"id":"D","text":"busca altera sempre os resultados."},{"id":"E","text":"ambas são protocolos de servidor."}],
+      "correctOptionId":"B","explanation":"Consulta e automação são funções distintas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id":"q4190","revision":2,"origin":"authorial","prompt":"A assinatura configurada no corpo do e-mail é",
+      "options":[{"id":"A","text":"assinatura digital criptográfica obrigatória."},{"id":"B","text":"lista de distribuição."},{"id":"C","text":"bloco padronizado, como nome, cargo e unidade."},{"id":"D","text":"endereço Reply-To."},{"id":"E","text":"confirmação de entrega."}],
+      "correctOptionId":"C","explanation":"Assinatura textual não é automaticamente assinatura digital. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
     "__BLOCK_2__",
     "__BLOCK_3__",
     "__BLOCK_4__",
