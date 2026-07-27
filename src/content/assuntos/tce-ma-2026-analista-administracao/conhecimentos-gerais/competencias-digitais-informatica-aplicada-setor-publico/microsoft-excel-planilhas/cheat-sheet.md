@@ -1,348 +1,393 @@
 # Microsoft Excel: planilhas, fórmulas, funções e gráficos
 
-## Recorte
+## Roteiro de prova
 
-- Referência: Excel desktop atual para Windows, especialmente Microsoft 365 e Excel 2024.
-- Conceitos estáveis também se aplicam ao Excel 2021.
-- Excel para a Web não possui paridade integral com o desktop.
-- Nomes de função, separadores e datas dependem do idioma e da região.
-- Aqui: planilhas, fórmulas, funções e gráficos; Word e PowerPoint ficam fora do recorte.
+**Ambiente → valor armazenado → fórmula → referências → função → critérios → resultado → apresentação.**
+
+- Desktop, Web, versão, idioma e localidade podem mudar recursos e sintaxe.
+- Valor, fórmula e formato exibido são camadas diferentes.
+- Primeiro descubra o que a fórmula faz; depois calcule.
 
 ## Estrutura
 
-| Elemento | Regra curta |
+| Elemento | Regra |
 |---|---|
-| Excel | aplicativo |
-| pasta de trabalho | arquivo com uma ou mais planilhas |
-| planilha | folha em grade |
-| linha | horizontal, identificada por número |
-| coluna | vertical, identificada por letra |
+| pasta de trabalho | arquivo do Excel |
+| planilha | aba dentro da pasta |
 | célula | interseção de linha e coluna |
 | intervalo | conjunto de células |
+| Caixa de Nome | endereço/nome da seleção |
+| Barra de Fórmulas | conteúdo ou fórmula da célula |
 
-- `B4`: coluna B, linha 4.
-- `B4:D10`: intervalo contíguo, inclusive.
-- Célula ativa: recebe entrada ou edição.
-- Caixa de nome: referência/navegação.
-- Barra de fórmulas: conteúdo e edição.
-- Guia de planilha: alterna e organiza folhas.
-- Alça de preenchimento: copia ou estende valores, fórmulas e séries.
+- Limpar conteúdo ≠ excluir célula.
+- Ocultar ≠ remover.
+- Excluir linha/coluna desloca a estrutura.
 
-## Operações
+## Tipos e formatos
 
-| Operação | Efeito |
-|---|---|
-| editar | altera conteúdo existente |
-| limpar conteúdo | remove valor/fórmula; célula permanece |
-| limpar formatação | preserva conteúdo; remove aparência |
-| excluir célula/linha/coluna | altera a estrutura e pode deslocar dados |
-| copiar fórmula | referências relativas se ajustam |
-| mover fórmula | procura preservar as referências apontadas |
+- números, texto, datas, horas, lógicos, vazios e erros;
+- data/hora costuma ser número serial;
+- `0,25` formatado como porcentagem aparece como `25%`;
+- formato não altera necessariamente o valor;
+- `00123` pode precisar ser texto;
+- reduzir casas decimais pode arredondar só a exibição.
 
-- Uma célula inicial com `1` pode ser copiada pela alça.
-- A seleção inicial `1, 2` informa um padrão que pode continuar como `3, 4...`.
+## Operadores e precedência
 
-## Arquivos
-
-| Formato | Uso/cuidado |
-|---|---|
-| XLSX | padrão moderno; não armazena VBA |
-| XLSM | habilitado para macros/VBA |
-| XLS | legado 97–2003; Modo de Compatibilidade |
-| CSV | texto/valores da planilha ativa; perde estrutura e recursos |
-| ODS | interoperável; sem paridade integral com XLSX |
-
-- **Salvar:** atualiza o arquivo atual.
-- **Salvar como:** muda nome, local ou formato e pode criar outra cópia.
-- Abrir com sucesso não garante preservação integral.
-- Excel para a Web não executa macros VBA de XLSM.
-- XLS e CSV podem ser convertidos para XLSX ao abrir na Web.
-- CSV não preserva várias planilhas, fórmulas editáveis, gráficos e formatação como XLSX.
-
-## Valores e formatos
-
-- Formato muda a exibição, não necessariamente o valor armazenado.
-- `0,25` em porcentagem → `25%`.
-- `25` em porcentagem → tende a `2500%`.
-- Duas casas exibidas não significam valor armazenado arredondado.
-- Datas/horas válidas são números; texto com aparência de data não é equivalente.
-- Configuração regional afeta decimal, data e separador de argumentos.
-
-| Recurso | Efeito |
-|---|---|
-| moeda/contábil | apresenta valor monetário |
-| porcentagem | multiplica a exibição por 100 e acrescenta `%` |
-| quebra automática | distribui texto em linhas na célula |
-| mesclar células | combina área visual; evitar em bases tabulares |
-| formatação condicional | muda aparência conforme regra; não muda valor |
-
-## Fórmulas
-
-- Começam com `=`.
-- A célula mostra normalmente o resultado; a barra de fórmulas mostra a expressão.
-- Componentes: constantes, referências, operadores, funções e parênteses.
+1. referência;
+2. negação;
+3. `%`;
+4. `^`;
+5. `*` e `/`;
+6. `+` e `-`;
+7. `&`;
+8. comparações.
 
 ```text
-=SOMA(C2:C10)*(1-D1)
+=2+3*4       → 14
+=(2+3)*4     → 20
 ```
 
-### Operadores
-
-| Tipo | Operadores |
-|---|---|
-| aritmético | `+ - * / ^ %` |
-| comparação | `= > < >= <= <>` |
-| concatenação | `&` |
-| intervalo | `:` |
-
-- `=2+3*4` → `14`.
-- `=(2+3)*4` → `20`.
-- Parênteses tornam a intenção explícita.
+- pt-BR típico: decimal `,` e argumentos `;`.
+- A configuração regional prevalece.
 
 ## Referências
 
-| Tipo | Exemplo | Ao copiar |
+| Referência | Coluna | Linha |
 |---|---|---|
-| relativa | `A1` | linha e coluna mudam |
-| absoluta | `$A$1` | nada muda |
-| coluna absoluta | `$A1` | coluna fixa; linha muda |
-| linha absoluta | `A$1` | linha fixa; coluna muda |
+| `A1` | varia | varia |
+| `$A$1` | fixa | fixa |
+| `$A1` | fixa | varia |
+| `A$1` | varia | fixa |
 
 ```text
-=C2*D2*(1+$H$1)
+=$A2*B$1
 ```
 
-- Copiar para baixo: `C2/D2` viram `C3/D3`; `$H$1` permanece.
-- `F4` durante a edição alterna os tipos no desktop Windows, conforme teclado/contexto.
-- Outra planilha: `='Parâmetros 2026'!B2`.
-- Nome de planilha com espaço usa apóstrofos.
-
-## Cálculo e erros
-
-| Modo | Regra |
-|---|---|
-| Automático | recalcula quando precedentes mudam |
-| Automático exceto Tabelas de Dados | exclui esse recurso do recálculo automático |
-| Manual | resultados podem ficar antigos até recalcular |
-
-| Comando desktop Windows | Efeito |
-|---|---|
-| `F9` | recalcula alteradas e dependentes |
-| `Shift + F9` | recalcula planilha ativa |
-| `Ctrl + Alt + F9` | força recálculo nas pastas abertas |
-
-- Precedente alimenta uma fórmula; dependente usa outro resultado.
-- Referência circular: fórmula depende de si, direta ou indiretamente.
-
-| Resultado | Causa típica |
-|---|---|
-| `#DIV/0!` | divisão por zero |
-| `#N/D` | valor não encontrado/disponível |
-| `#NOME?` | função, nome ou texto não reconhecido |
-| `#REF!` | referência inválida |
-| `#VALOR!` | tipo incompatível |
-| `#NÚM!` | operação numérica inválida |
-| `#####` | largura insuficiente ou data/hora negativa; não é erro de fórmula em regra |
-
-- Tratar erro sem investigar pode esconder dados ausentes ou referências quebradas.
-
-## Funções
-
-- Em pt-BR, o separador comum de argumentos é `;`.
-- Idioma inglês: `SUM`, `IF`; pt-BR: `SOMA`, `SE`.
-
-### Agregação
-
-| Função | Resultado |
-|---|---|
-| `SOMA(intervalo)` | soma |
-| `MÉDIA(intervalo)` | média aritmética |
-| `MÍNIMO(intervalo)` | menor número |
-| `MÁXIMO(intervalo)` | maior número |
-
-- `MÉDIA` em referências ignora vazias e texto, mas inclui zero.
-
-### Contagem
-
-| Função | Conta |
-|---|---|
-| `CONT.NÚM` | números, inclusive datas/horas válidas |
-| `CONT.VALORES` | não vazias, inclusive texto, erros e `""` de fórmula |
-| `CONT.SE` | células que atendem a um critério |
+Copiada uma coluna à direita e uma linha abaixo:
 
 ```text
-=CONT.NÚM(C2:C100)
-=CONT.VALORES(A2:A100)
-=CONT.SE(F2:F100;"Pendente")
-=CONT.SE(E2:E100;">="&H1)
+=$A3*C$1
 ```
 
-- Em critérios textuais: `*` = sequência; `?` = um caractere; `~` escapa curinga.
-- `CONT.SE` usa um critério; vários critérios exigem outra função da família.
+## Funções básicas
 
-### Lógica
+| Necessidade | Função |
+|---|---|
+| total | `SOMA` |
+| média | `MÉDIA` |
+| maior/menor | `MÁXIMO` / `MÍNIMO` |
+| k-ésimo maior/menor | `MAIOR` / `MENOR` |
+| contar números | `CONT.NÚM` |
+| contar não vazias | `CONT.VALORES` |
+| contar vazias | `CONTAR.VAZIO` |
 
 ```text
-=SE(E2<=50000;"Dentro do limite";"Revisar")
-=SE(E(C2>=10;D2="Ativo");"Aprovar";"Revisar")
-=SE(OU(F2="Urgente";E2>100000);"Priorizar";"Fluxo normal")
+=MAIOR(E2:E100;3)
+=MENOR(E2:E100;2)
 ```
 
-- `SE`: escolhe entre resultado verdadeiro e falso.
-- `E`: todas as condições devem ser verdadeiras.
-- `OU`: pelo menos uma condição deve ser verdadeira.
+- `MÁXIMO` = `MAIOR(...;1)`.
+- `CONT.VALORES` ≠ contar números.
 
-### Soma condicional
+## Critérios
+
+| Objetivo | Função |
+|---|---|
+| somar com um critério | `SOMASE` |
+| somar com vários critérios | `SOMASES` |
+| contar com um critério | `CONT.SE` |
+| contar com vários critérios | `CONT.SES` |
+
+### SOMASE
 
 ```text
+=SOMASE(intervalo;critério;[intervalo_soma])
+=SOMASE(E2:E100;">70000")
 =SOMASE(B2:B100;"Saúde";E2:E100)
 ```
 
-- Testa `B2:B100`.
-- Soma os valores correspondentes de `E2:E100`.
-- `SOMASE` usa um critério.
+- terceiro argumento é opcional;
+- sem ele, soma o próprio intervalo testado.
+
+### SOMASES
+
+```text
+=SOMASES(intervalo_soma;intervalo_critérios1;critério1;...)
+=SOMASES(E2:E500;B2:B500;"Saúde";F2:F500;"Pago")
+```
+
+- intervalo somado vem primeiro;
+- todos os critérios devem ser satisfeitos.
+
+### CONT.SES
+
+```text
+=CONT.SES(F2:F500;"Pendente";E2:E500;">100000")
+```
+
+- conta registros; não soma.
+
+### Operador + célula
+
+```text
+=SOMASE(E2:E100;">"&H1)
+```
+
+### Curingas
+
+- `*`: qualquer sequência;
+- `?`: um caractere;
+- `~`: escapa curinga literal.
+
+## Lógica
+
+```text
+=SE(teste;verdadeiro;falso)
+=SE(E(B2="Saúde";E2>100000);"Prioritário";"Normal")
+=SE(OU(F2="Pendente";F2="Bloqueado");"Acompanhar";"Sem alerta")
+```
+
+- `E`: todas verdadeiras.
+- `OU`: ao menos uma verdadeira.
+
+### SE aninhado
+
+```text
+=SE(A2="valor padrão";0;SE(B2>0,5;B2;-1))
+```
+
+### SEERRO
+
+```text
+=SEERRO(PROCV(A2;Cadastro!A:D;4;FALSO);"Cadastro não localizado")
+```
+
+- melhora a saída;
+- não corrige cadastro ou referência;
+- devolver `0` para todo erro pode mascarar problema.
+
+## Pesquisa e referência
 
 ### PROCV
 
 ```text
-=PROCV(A2;Cadastro!$A$2:$D$500;4;FALSO)
+=PROCV(valor;tabela;índice_coluna;FALSO)
 ```
 
-- Procura na primeira coluna da matriz.
-- Retorna da primeira coluna ou de coluna à direita; nunca de coluna à esquerda da busca.
-- `FALSO`/`0`: exata.
-- `VERDADEIRO`/`1`/omitido: aproximada.
-- Aproximada exige primeira coluna ordenada para resultado confiável.
-- Índice numérico pode ficar incorreto se a estrutura da matriz mudar.
+- procura na primeira coluna;
+- retorna à direita;
+- `FALSO`/`0`: exata;
+- aproximação exige base apropriada.
+
+### CORRESP
+
+```text
+=CORRESP(valor;intervalo;0)
+```
+
+Retorna **posição**.
+
+### ÍNDICE
+
+```text
+=ÍNDICE(intervalo;posição)
+```
+
+Retorna o item.
+
+### ÍNDICE + CORRESP
+
+```text
+=ÍNDICE(A2:A100;CORRESP(MÁXIMO(D2:D100);D2:D100;0))
+```
+
+- flexível;
+- funciona em versões antigas;
+- busca para qualquer direção.
 
 ### PROCX
 
 ```text
-=PROCX(A2;Cadastro!A2:A500;Cadastro!D2:D500;"Não encontrado")
+=PROCX(A2;Cadastro!A:A;Cadastro!D:D;"Não encontrado")
 ```
 
-- Correspondência exata é padrão.
-- Matriz de pesquisa e retorno são separadas.
-- Retorna à esquerda ou à direita.
-- Permite valor explícito para “não encontrado”.
-- Não existe em todas as versões perpétuas antigas.
+- exata por padrão;
+- busca e retorno independentes;
+- pode não existir em versão antiga.
 
-## Base de dados
+## Datas e texto
 
-- Uma linha de cabeçalho.
-- Uma linha por registro.
-- Uma coluna por atributo.
-- Tipo consistente em cada coluna.
-- Sem linhas/colunas vazias no meio.
-- Sem mesclas na área de dados.
+```text
+=HOJE()
+=AGORA()
+=TEXTO(HOJE();"dd/mm/aaaa")
+=A2&" - "&B2
+```
+
+- `TEXTO` devolve texto;
+- data visual ≠ necessariamente data numérica;
+- `&` concatena, não soma.
+
+## Erros
+
+| Erro | Causa comum |
+|---|---|
+| `#DIV/0!` | divisão por zero |
+| `#N/D` | não encontrado |
+| `#NOME?` | nome inválido |
+| `#REF!` | referência quebrada |
+| `#VALOR!` | tipo incompatível |
+| `#NÚM!` | argumento numérico inválido |
+| `#DESPEJAR!` | área de matriz bloqueada |
+
+Diagnóstico:
+
+1. Barra de Fórmulas;
+2. referências;
+3. tipos;
+4. Avaliar Fórmula;
+5. precedentes/dependentes;
+6. só então `SEERRO`.
 
 ## Tabela do Excel
 
-Tabela ≠ qualquer intervalo.
-
-| Recurso | Regra |
-|---|---|
-| cabeçalhos/filtros | integrados |
-| expansão | acompanha novas linhas/colunas conforme entrada |
-| coluna calculada | propaga a fórmula |
-| linha de totais | costuma usar `SUBTOTAL` |
-| referência estruturada | usa nome da tabela/coluna |
+- estrutura a base;
+- filtros integrados;
+- expansão automática;
+- referências estruturadas;
+- boa fonte para gráfico e Tabela Dinâmica.
 
 ```text
-=SOMA(Despesas[Valor])
+=SOMA(TabelaDespesas[Valor])
 ```
 
-- `SUBTOTAL` pode ignorar linhas filtradas.
-- Tabela facilita análise; não corrige dados ruins.
+**Tabela do Excel ≠ Tabela Dinâmica.**
 
-## Classificação, filtro e validação
+## Classificação e filtro
 
-### Classificação
+- classificar muda ordem;
+- expandir seleção preserva registros;
+- filtrar oculta temporariamente;
+- filtro não exclui;
+- ordenar só uma coluna pode corromper a relação entre campos.
 
-- Reordena registros.
-- Pode usar texto, número, data, lista, cor ou ícone.
-- Pode ter vários níveis.
-- Classifique toda a base; uma coluna isolada pode romper os registros.
+## Duplicatas
 
-### Filtro
+| Recurso | Efeito |
+|---|---|
+| filtro de exclusivos | oculta/copia exclusivos |
+| Remover Duplicatas | exclui linhas |
+| realçar duplicatas | só formata |
+| `ÚNICO` | gera matriz dinâmica, quando disponível |
 
-- Exibe linhas que atendem aos critérios.
-- Oculta temporariamente as demais.
-- Não exclui registros.
-- Limpar filtro volta a exibir.
-- Fórmula comum pode continuar calculando linhas ocultas.
+- colunas selecionadas formam a chave;
+- primeira ocorrência fica;
+- linha inteira duplicada é removida;
+- fórmulas diferentes com resultado igual podem ser duplicatas.
 
-### Validação
+## Validação e formatação condicional
 
-- Restringe inteiro, decimal, data, hora, texto, lista ou fórmula.
-- Pode exibir mensagem de entrada e alerta de erro.
-- Melhora a qualidade do cadastro.
-- Não é mecanismo de segurança.
-- Importações, colagens ou alterações podem deixar dados inválidos; audite.
+- validação limita entrada e pode mostrar alerta;
+- colagem pode contornar certas validações;
+- formatação condicional muda aparência, não valor;
+- cor vermelha ≠ valor negativo.
+
+## Tabela Dinâmica
+
+### Fonte
+
+- uma linha de cabeçalho;
+- uma linha por registro;
+- tipos coerentes;
+- sem subtotais manuais;
+- prefira Tabela do Excel.
+
+### Áreas
+
+| Área | Papel |
+|---|---|
+| Linhas | categorias verticais |
+| Colunas | categorias horizontais |
+| Valores | soma, contagem, média etc. |
+| Filtros | restringe relatório inteiro |
+
+- campos podem ser movidos;
+- verifique Soma versus Contagem;
+- pode filtrar, classificar, agrupar, expandir e recolher;
+- datas podem ser agrupadas;
+- segmentação filtra visualmente;
+- alteração na fonte pode exigir **Atualizar**;
+- intervalo fixo pode não incluir novas linhas.
 
 ## Gráficos
 
-| Tipo | Uso principal |
+| Objetivo | Gráfico |
 |---|---|
-| colunas | comparar categorias |
-| barras | comparar categorias com rótulos longos |
-| linhas | tendência em sequência ordenada/tempo |
-| pizza/rosca | partes de um total; uma série e poucos itens |
-| dispersão XY | relação entre pares numéricos |
-| área | tendência e magnitude acumulada |
-| combinação | séries de natureza/escala distinta |
+| comparar categorias | colunas/barras |
+| tendência temporal | linhas |
+| parte do todo | pizza/rosca, poucas categorias |
+| relação de variáveis | dispersão |
+| distribuição | histograma |
+| quartis e atípicos | caixa e bigodes |
 
-- XY usa dois eixos numéricos; linhas usa eixo de categorias.
-- Gráfico permanece vinculado à fonte e tende a atualizar quando ela muda.
-- Tabela como fonte facilita incorporar novas linhas.
-- Verifique séries, categorias, cabeçalhos, unidades e intervalos.
-- Evite 3D, excesso de cores, eixo enganoso e elementos decorativos.
-- Excel para a Web pode limitar fontes externas, agrupamentos e efeitos avançados.
+- evite 3D decorativo;
+- título e unidade;
+- eixo truncado exige cautela;
+- correlação ≠ causalidade;
+- Gráfico Dinâmico acompanha Tabela Dinâmica.
 
 ## Impressão
 
-Pode imprimir:
-
-- planilha ativa;
-- pasta inteira;
-- seleção;
-- tabela selecionada.
-
-Configurações:
-
+- área de impressão;
 - orientação e papel;
 - margens;
 - escala;
-- cabeçalho/rodapé;
+- largura/altura em páginas;
 - títulos repetidos;
-- linhas de grade e cabeçalhos;
-- centralização.
+- quebras;
+- cabeçalho/rodapé;
+- linhas de grade.
 
-### Área e quebras
+“Ajustar tudo em uma página” pode tornar ilegível.
 
-- Área de impressão: intervalos persistentes salvos na pasta no desktop.
-- Áreas não adjacentes: áreas distintas, geralmente em páginas separadas.
-- Definir área não exclui dados externos.
-- Quebra automática: calculada por papel, margem, escala e conteúdo.
-- Quebra manual: inserida/movida pelo usuário no desktop.
-- Redefinir todas: remove quebras manuais.
-- Web imprime planilha ou seleção, mas não equivale a definir área persistente.
+## Formatos
 
-## Pegadinhas
+| Formato | Regra |
+|---|---|
+| XLSX | padrão sem macros |
+| XLSM | habilitado para macros |
+| XLSB | binário |
+| XLS | legado |
+| CSV | uma planilha textual, sem estilos/fórmulas/gráficos |
+| ODS | compatibilidade parcial |
+| PDF | saída fixa |
 
-- Pasta contém planilhas; não são sinônimos.
-- Formato visual ≠ valor armazenado.
-- Copiar fórmula ≠ mover fórmula.
-- `$A$1` fixa linha e coluna.
-- `CONT.NÚM` ≠ `CONT.VALORES`.
-- `E` exige todas; `OU` exige pelo menos uma.
-- PROCV omitido usa aproximada, não exata.
-- Filtro oculta; não exclui.
-- Formatação condicional muda aparência; não valor.
-- CSV não é pasta de trabalho completa.
-- Gráfico de linhas ≠ dispersão XY.
-- Área de impressão não apaga dados.
-- `#####` não é, em regra, erro de fórmula.
-- XLSM na Web não executa VBA.
+- CSV ≠ pasta completa;
+- XLSX não preserva VBA;
+- macros podem executar código;
+- Excel Web ≠ desktop.
 
-Antes de responder, identifique: **versão, plataforma, idioma, formato, tipo de referência, modo de cálculo e operação exata**.
+## Pegadinhas finais
+
+- pasta ≠ planilha;
+- formato ≠ valor;
+- limpar ≠ excluir;
+- ocultar ≠ remover;
+- `A1` ≠ `$A$1`;
+- `CONT.NÚM` ≠ `CONT.VALORES`;
+- `MÁXIMO` ≠ segundo maior;
+- `SOMASE` ≠ `SOMASES`;
+- `CONT.SES` conta;
+- `CORRESP` retorna posição;
+- `ÍNDICE` retorna item;
+- `PROCV` procura na primeira coluna;
+- `PROCX` depende da versão;
+- `SEERRO` não corrige a causa;
+- filtro ≠ Remover Duplicatas;
+- Tabela ≠ Tabela Dinâmica;
+- Contagem em Tabela Dinâmica pode indicar tipo misto;
+- atualizar fonte ≠ atualizar relatório;
+- gráfico não corrige base;
+- CSV ≠ XLSX;
+- Web ≠ desktop.
