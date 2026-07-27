@@ -258,7 +258,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 #### Legislação Específica
 
-##### [ ] Assunto 055 - Item 1, recorte: instituição e competência do TCE/MA.
+##### [>] Em progresso Assunto 055 - Item 1, recorte: instituição e competência do TCE/MA.
 
 - Item 1. Regimento Interno do Tribunal de Contas do Estado do Maranhão (TCE/MA).
 - O Regimento Interno é desdobrado nos Assuntos 055 a 063 por função normativa, sem inventar faixas de artigos nem repetir dispositivos.
