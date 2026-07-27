@@ -271,7 +271,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 059 - Item 1, recorte: denúncias, representações e consultas.
 
-##### [R] Em revisão Assunto 060 - Item 1, recorte: garantias processuais, provas e prazos.
+##### [x] Concluído Assunto 060 - Item 1, recorte: garantias processuais, provas e prazos.
 
 ##### [ ] Assunto 061 - Item 1, recorte: decisões, sanções e execução.
 
