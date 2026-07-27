@@ -265,7 +265,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 056 - Item 1, recorte: órgãos, autoridades e organização interna.
 
-##### [ ] Assunto 057 - Item 1, recorte: sessões, distribuição e deliberação.
+##### [>] Em progresso Assunto 057 - Item 1, recorte: sessões, distribuição e deliberação.
 
 ##### [ ] Assunto 058 - Item 1, recorte: processos de controle externo.
 
