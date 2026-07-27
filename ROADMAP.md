@@ -267,7 +267,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 057 - Item 1, recorte: sessões, distribuição e deliberação.
 
-##### [ ] Assunto 058 - Item 1, recorte: processos de controle externo.
+##### [>] Em progresso Assunto 058 - Item 1, recorte: processos de controle externo.
 
 ##### [ ] Assunto 059 - Item 1, recorte: denúncias, representações e consultas.
 
