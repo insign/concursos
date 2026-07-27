@@ -275,7 +275,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 061 - Item 1, recorte: decisões, sanções e execução.
 
-##### [R] Em revisão Assunto 062 - Item 1, recorte: recursos e revisão.
+##### [x] Concluído Assunto 062 - Item 1, recorte: recursos e revisão.
 
 ##### [ ] Assunto 063 - Item 1, recorte: atos normativos, ética e regras finais.
 
