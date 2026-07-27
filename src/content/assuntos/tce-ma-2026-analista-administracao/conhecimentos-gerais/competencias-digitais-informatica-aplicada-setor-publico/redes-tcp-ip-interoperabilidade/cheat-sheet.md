@@ -1,287 +1,239 @@
 # Redes, TCP/IP e interoperabilidade
 
-## Recorte
+## Roteiro
 
-- Aqui: LAN, WAN, Internet, TCP/IP, HTTP, SMTP, FTP e interoperabilidade pública.
-- Próximo assunto: clientes de e-mail, webmail, Teams, Meet e trabalho remoto.
-- Segurança, backup, nuvem e malware pertencem a assuntos próprios.
+**Alcance → equipamento → camada → identificador → protocolo → serviço → diagnóstico → interoperabilidade.**
 
-## Tipos de rede
+## Alcance
 
-| Termo | Regra curta |
+| Tipo | Área típica |
 |---|---|
-| LAN | área local, administração normalmente concentrada |
-| MAN | abrangência metropolitana |
-| WAN | grande área e interligação de redes distantes |
-| Internet | rede mundial de redes TCP/IP |
-| Web | recursos e aplicações via HTTP/HTTPS |
-| intranet | ambiente organizacional restrito com tecnologias da Internet |
-| extranet | acesso controlado a recursos por público externo autorizado |
+| PAN | pessoal |
+| LAN | sala, prédio, campus |
+| MAN | cidade/região metropolitana |
+| WAN | regiões, países, mundo |
 
-- Internet ≠ Web.
-- WAN pode ser privada.
-- Intranet não precisa estar fisicamente isolada da Internet.
+- Internet = redes interconectadas.
+- Web = serviço sobre HTTP/HTTPS.
+- Intranet = tecnologias de Internet em ambiente restrito.
+- Extranet = acesso externo autorizado a parte da intranet.
 
-## Topologias
+## Equipamentos e camadas
 
-| Topologia | Ideia |
+| Equipamento | Função | OSI |
+|---|---|---:|
+| hub | repete sinais | 1 |
+| switch | encaminha por MAC | 2 |
+| roteador | encaminha por IP | 3 |
+| ponto de acesso | liga Wi‑Fi à LAN | 2, tipicamente |
+| firewall | aplica política | depende da implementação |
+
+## OSI × TCP/IP
+
+| OSI | TCP/IP |
 |---|---|
-| estrela | nós ligados a ponto central |
-| barramento | meio principal compartilhado |
-| anel | circuito lógico/físico |
-| malha | múltiplos caminhos e redundância |
-| árvore/híbrida | combinação hierárquica ou mista |
+| Aplicação + Apresentação + Sessão | Aplicação |
+| Transporte | Transporte |
+| Rede | Internet |
+| Enlace + Física | Acesso à Rede |
 
-- Topologia física ≠ topologia lógica.
-
-## Equipamentos
-
-| Equipamento | Função |
-|---|---|
-| NIC | conecta host ao meio |
-| hub | repete para as demais portas |
-| switch | encaminha quadros por MAC na LAN |
-| roteador | encaminha pacotes entre redes IP |
-| ponto de acesso | liga clientes Wi-Fi à LAN |
-| modem | adapta sinal ao meio de acesso |
-
-- Switch: enlace; roteador: rede.
-- Gateway é papel lógico; costuma ser exercido pelo roteador.
-
-## OSI e TCP/IP
-
-| OSI | TCP/IP usual | Exemplos |
-|---|---|---|
-| Aplicação + Apresentação + Sessão | Aplicação | HTTP, DNS, SMTP, FTP, DHCP |
-| Transporte | Transporte | TCP, UDP, portas |
-| Rede | Internet | IPv4, IPv6, roteamento |
-| Enlace + Física | Acesso à rede | Ethernet, Wi-Fi, MAC, bits |
-
-- OSI tem 7 camadas: Aplicação, Apresentação, Sessão, Transporte, Rede, Enlace e Física.
-- TCP/IP pode aparecer com 4 ou 5 camadas.
-- OSI é modelo conceitual; TCP/IP é a suíte usada pela Internet.
-
-## Encapsulamento
-
-`dados → segmento TCP/datagrama UDP → pacote IP → quadro → bits`
-
-- Destino faz desencapsulamento em ordem inversa.
-- Quadro: enlace; pacote: IP; segmento: TCP; datagrama: UDP.
+**Dados → segmento/datagrama → pacote → quadro → bits.**
 
 ## Identificadores
 
-| Identificador | Função |
+| Item | Identifica |
 |---|---|
-| MAC | interface no enlace local |
-| IP | endereço lógico entre redes |
-| porta | serviço/processo no host |
-| nome de domínio | nome resolvido pelo DNS |
+| MAC | interface no enlace |
+| IP | interface/host na rede |
+| porta | serviço/processo |
+| domínio | nome resolvido por DNS |
+| socket | IP + transporte + porta |
 
-- Socket: IP + protocolo de transporte + porta, em visão introdutória.
-- Fluxo TCP: IP/porta de origem + IP/porta de destino + protocolo.
+## IPv4 especial
 
-## IPv4 e IPv6
-
-| IPv4 | IPv6 |
+| Faixa | Uso |
 |---|---|
-| 32 bits | 128 bits |
-| decimal pontuado | hexadecimal com dois-pontos |
-| usa broadcast | não usa broadcast da mesma forma; usa multicast |
+| `10.0.0.0/8` | privado |
+| `172.16.0.0/12` | privado |
+| `192.168.0.0/16` | privado |
+| `127.0.0.0/8` | loopback |
+| `169.254.0.0/16` | link-local/APIPA |
+| `0.0.0.0` | não especificado |
 
-- `/24` no IPv4 = máscara `255.255.255.0`.
-- Prefixo separa rede/host; não é gateway.
-- Privados: `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`.
-- IPv6 loopback: `::1`.
-- IPv6 link-local: `fe80::/10`.
-- IPv6 ≠ segurança automática.
+## Sub-redes
 
-## DNS, DHCP, ARP e gateway
+| Prefixo | Bloco | Hosts usuais |
+|---:|---:|---:|
+| `/24` | 256 | 254 |
+| `/25` | 128 | 126 |
+| `/26` | 64 | 62 |
+| `/27` | 32 | 30 |
+| `/28` | 16 | 14 |
+| `/29` | 8 | 6 |
 
-| Serviço | Função |
+`220.42.17.0/29`:
+
+- rede `.0`;
+- hosts `.1` a `.6`;
+- broadcast `.7`.
+
+Broadcast não pode ser gateway.
+
+## NAT
+
+| Técnica | Tradução |
 |---|---|
-| DNS | resolve nomes e outros registros |
-| DHCP | entrega IP, prefixo/máscara, gateway e DNS |
-| ARP | associa IPv4 local a MAC |
-| gateway padrão | próximo salto para destinos externos à sub-rede |
+| NAT | endereço |
+| NAPT/PAT | endereço + porta |
 
-- DHCPv4 DORA: Discover, Offer, Request, Acknowledgment.
-- DNS usa convencionalmente UDP e TCP 53.
-- DHCPv4 usa UDP 67 servidor / 68 cliente.
-- DNS resolve; DHCP configura; ARP atua no enlace IPv4 local.
+NAT ≠ DHCP ≠ firewall ≠ criptografia.
 
-## TCP × UDP
+## IPv6
 
-| TCP | UDP |
-|---|---|
-| orientado à conexão | não orientado à conexão |
-| fluxo de bytes | datagramas |
-| entrega confiável e ordenada | sem garantia intrínseca de entrega/ordem |
-| retransmissão, fluxo e congestionamento | estrutura mais simples |
+- 128 bits;
+- `::1` loopback;
+- `::` não especificado;
+- `fe80::/10` link-local;
+- sem broadcast;
+- NDP substitui/amplia funções do ARP;
+- SLAAC e DHCPv6 podem coexistir.
 
-- Handshake TCP: SYN → SYN-ACK → ACK.
-- TCP confiável ≠ infalível.
-- UDP pode receber confiabilidade na aplicação.
-- TCP não é sempre lento; UDP não é sempre rápido.
-
-## Portas convencionais
-
-| Serviço | Porta |
-|---|---:|
-| HTTP | 80 |
-| HTTPS | 443 |
-| DNS | 53 |
-| DHCPv4 | 67/68 |
-| SMTP | 25; submissão costuma usar 587 |
-| FTP | controle 21; dados 20 no ativo clássico |
-| SSH/SFTP moderno | 22 |
-
-- Porta é convenção; pode ser reconfigurada.
-- Porta identifica serviço/processo, não o host inteiro.
-
-## HTTP
-
-- Protocolo de aplicação, requisição-resposta e sem estado.
-- Serve à Web e a APIs.
-- Stateless não impede cookies, tokens e sessões da aplicação.
-
-### Métodos
-
-| Método | Função | Seguro | Idempotente |
-|---|---|:---:|:---:|
-| GET | obter representação | sim | sim |
-| HEAD | cabeçalhos/metadados sem conteúdo | sim | sim |
-| POST | submeter para processamento | não | não necessariamente |
-| PUT | criar/substituir recurso-alvo | não | sim |
-| DELETE | remover associação | não | sim |
-| OPTIONS | consultar opções | sim | sim |
-
-- Seguro = semântica essencialmente de leitura; não significa criptografado.
-- Idempotente = repetir mantém o mesmo efeito pretendido.
-
-### Status
-
-| Código | Significado |
-|---:|---|
-| 200 | sucesso |
-| 201 | criado |
-| 202 | aceito, não necessariamente concluído |
-| 204 | sucesso sem conteúdo |
-| 304 | não modificado; validação de cache |
-| 400 | requisição inválida |
-| 401 | credenciais válidas ausentes para autenticação exigida |
-| 403 | entendido, mas recusado |
-| 404 | não encontrado ou não revelado |
-| 405 | método não permitido |
-| 409 | conflito |
-| 415 | tipo de mídia não suportado |
-| 500 | erro interno |
-| 502 | resposta inválida do servidor a montante |
-| 503 | serviço indisponível |
-| 504 | timeout do intermediário/gateway |
-
-## HTTPS e HTTP/3
-
-- HTTPS = HTTP sobre TLS.
-- TLS protege transporte; não muda métodos/status.
-- HTTP/1.1 e HTTP/2 usam normalmente TCP.
-- HTTP/3 usa QUIC sobre UDP.
-- “HTTP sempre usa TCP” é falso.
-
-## SMTP
-
-- SMTP submete e transfere mensagens.
-- Não é protocolo de leitura da caixa postal.
-- TCP 25: transferência entre servidores.
-- TCP 587: submissão autenticada usual.
-
-## FTP, FTPS e SFTP
+## Transporte e controle
 
 | Protocolo | Regra |
 |---|---|
-| FTP | controle e dados em conexões TCP separadas |
-| FTPS | FTP protegido por TLS |
-| SFTP moderno | SSH File Transfer Protocol, subsistema do SSH |
+| TCP | conexão, ordem, confirmação, retransmissão |
+| UDP | datagramas, sem garantias intrínsecas |
+| ICMP | controle, erro e diagnóstico |
 
-- FTP controle: TCP 21.
-- FTP ativo: servidor inicia conexão de dados, classicamente da porta 20.
-- FTP passivo: cliente inicia também a conexão de dados.
-- FTP comum não criptografa credenciais/dados.
-- FTPS ≠ SFTP.
-- SFTP não é “FTP com SSH”.
-- SFTP moderno costuma usar a porta do SSH, normalmente 22.
-- RFC 913/TCP 115 define Simple File Transfer Protocol histórico, não SFTP moderno.
-- Não há RFC final do protocolo SFTP moderno; há Internet-Draft arquivado e RFCs do canal SSH.
+- TCP: `SYN → SYN-ACK → ACK`.
+- `ping` usa ICMP, não porta TCP/UDP.
+- Sem resposta a ping ≠ serviço certamente inativo.
+
+## Serviços básicos
+
+| Protocolo | Finalidade |
+|---|---|
+| DNS | nomes e registros |
+| DHCP | configuração automática |
+| ARP | IPv4 local → MAC |
+| NDP | vizinhos/roteadores no IPv6 |
+| HTTP | Web/APIs |
+| HTTPS | HTTP sobre TLS |
+| SMTP | envio/transferência de e-mail |
+| IMAP | acesso e sincronização no servidor |
+| POP3 | obtenção de mensagens |
+| FTP | transferência clássica |
+| FTPS | FTP + TLS |
+| SFTP | transferência sobre SSH |
+
+## DNS
+
+| Registro | Uso |
+|---|---|
+| A | IPv4 |
+| AAAA | IPv6 |
+| CNAME | alias |
+| MX | correio |
+| NS | servidor autoritativo |
+| PTR | reverso |
+
+## DHCPv4
+
+**DORA:** Discover → Offer → Request → Acknowledgment.
+
+Pode fornecer IP, máscara, gateway, DNS e concessão. Reserva mantém administração DHCP com configuração estável.
+
+## HTTP
+
+| Método | Função |
+|---|---|
+| GET | obter |
+| HEAD | metadados sem corpo |
+| POST | submeter/processar |
+| PUT | criar/substituir alvo |
+| DELETE | remover |
+
+| Código | Ideia |
+|---:|---|
+| 200 | sucesso |
+| 201 | criado |
+| 204 | sem conteúdo |
+| 301/302 | redirecionamento |
+| 304 | cache validado |
+| 400 | requisição inválida |
+| 401 | autenticação exigida |
+| 403 | acesso recusado |
+| 404 | não encontrado |
+| 405 | método não permitido |
+| 500 | erro interno |
+| 502 | resposta inválida a montante |
+| 503 | indisponível |
+| 504 | tempo excedido no gateway |
+
+- HTTP “seguro” ≠ criptografado.
+- HTTP/3 usa QUIC sobre UDP.
+
+## Comandos
+
+| Comando | Diagnóstico |
+|---|---|
+| `ipconfig /all` | IP, máscara, gateway, DHCP, DNS, MAC |
+| `ipconfig /release` | libera DHCPv4 |
+| `ipconfig /renew` | renova DHCPv4 |
+| `ipconfig /flushdns` | limpa cache DNS |
+| `ping` | resposta ICMP |
+| `tracert` | saltos |
+| `nslookup` | DNS |
+| `arp -a` | cache IPv4–MAC |
+| `netstat -ano` | conexões, portas e PID |
+| `netstat -r` | rotas |
+
+## Sintoma → hipótese
+
+| Sintoma | Investigar |
+|---|---|
+| `169.254.x.x` | DHCP/APIPA |
+| IP funciona, nome não | DNS |
+| LAN funciona, remoto não | gateway, máscara, rota |
+| ping funciona, aplicação não | porta, processo, firewall |
+| `tracert` com `*` | salto não respondeu; não prova queda total |
 
 ## Interoperabilidade
 
-| Dimensão | Foco |
+| Dimensão | Pergunta |
 |---|---|
-| técnica | protocolos, APIs, formatos, conectividade |
-| semântica | significado comum dos dados |
-| organizacional | processos, papéis, governança e acordos |
-| jurídica | competência, finalidade, sigilo e proteção de dados |
+| técnica | conecta e transporta? |
+| semântica | significa a mesma coisa? |
+| organizacional | processos e responsáveis estão alinhados? |
+| jurídica, complementar | finalidade, competência, sigilo e proteção estão atendidos? |
 
-- e-PING enumera oficialmente técnica, semântica e organizacional.
-- Jurídica é lente complementar; não atribuir como quarta dimensão oficial da e-PING.
-- Conexão técnica ≠ interoperabilidade completa.
-- Interoperar não exige fornecedor único, base central única nem abertura irrestrita.
-
-## API e padrões
-
-- API = interface/contrato entre softwares.
-- API ≠ REST ≠ HTTP ≠ JSON/XML.
-- REST: estilo arquitetural.
-- HTTP: protocolo.
-- JSON/XML: formatos.
-- Formato aberto: não proprietário, especificação pública, livre implementação e sem restrição legal de uso.
-- Gratuito ≠ necessariamente aberto.
-- Dados abertos ≠ todo dado estatal.
-
-## e-PING
-
-- Define premissas, políticas e especificações mínimas de interoperabilidade.
-- Integrantes do SISP devem observá-la no planejamento de contratação, aquisição e atualização de sistemas/equipamentos.
-- Demais Poderes da União e entes federativos: adoção facultativa.
-- Não vincula automaticamente um TCE estadual.
-- Prefere padrões abertos.
-- Proprietários: possíveis transitoriamente no legado ou sem padrão aberto disponível.
-
-| Nível | Sentido |
+| Termo | Papel |
 |---|---|
-| A | Adotado e obrigatório no escopo indicado |
-| R | Recomendado, ainda não obrigatório |
-| T | Em Transição; evitar em novos serviços |
-| E | Em Estudo |
+| API | contrato/interface |
+| REST | estilo arquitetural |
+| HTTP | protocolo |
+| JSON/XML | representação |
+| OpenAPI | descrição de API HTTP |
 
-## Lei nº 14.129/2021
+- API ≠ REST ≠ HTTP ≠ JSON.
+- e-PING: padrões mínimos no contexto federal definido.
+- e-PING não obriga automaticamente todo órgão brasileiro.
+- interoperabilidade não autoriza compartilhamento irrestrito.
 
-- Aplicação direta: âmbito federal do art. 2º.
-- Estados, DF e municípios: adoção por atos próprios.
-- Art. 3º, XIV: interoperabilidade e dados abertos.
-- Art. 3º, XXV: preferência por tecnologias, padrões e formatos abertos/livres.
-- Art. 20, § 2º: plataformas observam interoperabilidade e integração.
-- Art. 24, IV: eliminar exigências desnecessárias inclusive por interoperabilidade.
-- Art. 24, V: evitar replicação, salvo desempenho ou segurança.
-- Art. 24, VI: dados interoperáveis para indicadores.
-- Art. 29: formato aberto, legível por máquina e semântica descrita.
-- Art. 38: limites legais, segurança, tecnologia, custo-benefício e proteção de dados.
-- Arts. 39–41: mecanismo, registros de referência, reaproveitamento e custos de adaptação.
-- Interoperabilidade ≠ compartilhamento indiscriminado.
+## Pegadinhas
 
-## Pegadinhas finais
-
-- LAN ≠ sinônimo de rede sem fio.
 - Internet ≠ Web.
-- Switch ≠ roteador.
+- switch ≠ roteador.
 - MAC ≠ IP ≠ porta.
 - DNS ≠ DHCP ≠ ARP.
-- IPv6 = 128 bits.
-- UDP não garante entrega nem ordem.
-- HTTP/3 usa UDP.
-- 401 ≠ 403.
-- 304 ≠ redirecionamento comum.
-- FTP usa controle e dados separados.
+- NAT ≠ firewall.
+- IPv6 não usa ARP nem broadcast.
+- TCP confiável ≠ infalível.
+- UDP pode sustentar aplicações confiáveis.
+- ICMP não usa porta.
+- HTTPS não corrige autorização ruim.
+- SMTP envia; IMAP/POP3 acessam.
 - FTPS ≠ SFTP.
-- API não resolve semântica, organização e direito.
-- e-PING não obriga automaticamente todo órgão brasileiro.
-- Padrão aberto ≠ apenas gratuito.
+- endereço de rede/broadcast ≠ host/gateway.
+- conexão técnica ≠ interoperabilidade completa.
