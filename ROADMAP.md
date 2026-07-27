@@ -283,7 +283,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 - Item 2. Lei nº 8.258/2005 (Lei Orgânica): jurisdição e competência.
 
-##### [ ] Assunto 065 - Item 2, recorte: organização, membros, Ministério Público de Contas, governança e regras finais da Lei nº 8.258/2005.
+##### [>] Em progresso Assunto 065 - Item 2, recorte: organização, membros, Ministério Público de Contas, governança e regras finais da Lei nº 8.258/2005.
 
 - Item 2. Lei nº 8.258/2005 (Lei Orgânica): organização, membros e Ministério Público de Contas; governança e regras finais.
 - A Lei nº 8.258/2005 é desdobrada nos Assuntos 064 a 068 por função, sem inventar faixas de artigos nem repetir dispositivos.
