@@ -269,7 +269,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 058 - Item 1, recorte: processos de controle externo.
 
-##### [ ] Assunto 059 - Item 1, recorte: denúncias, representações e consultas.
+##### [>] Em progresso Assunto 059 - Item 1, recorte: denúncias, representações e consultas.
 
 ##### [ ] Assunto 060 - Item 1, recorte: garantias processuais, provas e prazos.
 
