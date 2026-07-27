@@ -263,7 +263,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - Item 1. Regimento Interno do Tribunal de Contas do Estado do Maranhão (TCE/MA).
 - O Regimento Interno é desdobrado nos Assuntos 055 a 063 por função normativa, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [ ] Assunto 056 - Item 1, recorte: órgãos, autoridades e organização interna.
+##### [>] Em progresso Assunto 056 - Item 1, recorte: órgãos, autoridades e organização interna.
 
 ##### [ ] Assunto 057 - Item 1, recorte: sessões, distribuição e deliberação.
 
