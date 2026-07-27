@@ -279,7 +279,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 063 - Item 1, recorte: atos normativos, ética e regras finais.
 
-##### [ ] Assunto 064 - Item 2, recorte: jurisdição e competência da Lei nº 8.258/2005.
+##### [>] Em progresso Assunto 064 - Item 2, recorte: jurisdição e competência da Lei nº 8.258/2005.
 
 - Item 2. Lei nº 8.258/2005 (Lei Orgânica): jurisdição e competência.
 
