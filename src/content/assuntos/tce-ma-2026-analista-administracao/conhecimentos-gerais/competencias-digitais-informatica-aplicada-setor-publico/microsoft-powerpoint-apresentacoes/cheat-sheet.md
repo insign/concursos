@@ -1,226 +1,252 @@
-# Microsoft PowerPoint: apresentações
+# Microsoft PowerPoint: criação e apresentação de slides
 
-## Recorte
+## Sequência de decisão
 
-- Referência: PowerPoint desktop atual para Windows, especialmente Microsoft 365 e PowerPoint 2024.
-- O PowerPoint para a Web tem recursos e formatos mais limitados.
-- Aqui: apresentações; Word e Excel pertencem aos assuntos anteriores.
-- Identifique versão, plataforma, formato, objeto selecionado, modo e destino da saída.
+**Ambiente → objeto → guia → alcance → estrutura → temporização → dependências → saída.**
 
-## Conceitos básicos
+## Estrutura
 
-| Elemento | Regra curta |
+| Elemento | Regra |
 |---|---|
-| PowerPoint | aplicativo de apresentações |
-| apresentação | arquivo que reúne slides |
-| slide | unidade visual dentro do arquivo |
-| objeto | elemento selecionável e formatável |
-| espaço reservado | área prevista pelo layout |
-| seção | agrupamento organizacional de slides |
+| apresentação | arquivo completo |
+| slide | página visual |
+| seção | grupo organizacional de slides |
+| objeto | texto, imagem, forma, tabela, gráfico, áudio ou vídeo |
+| espaço reservado | área estrutural do layout |
+| layout | arranjo de espaços reservados |
+| Slide Mestre | padrões herdados |
+| tema | cores, fontes, efeitos e fundos |
+| modelo | base reutilizável |
 
-- Ocultar slide ≠ excluir slide.
-- Slide oculto sai do fluxo normal, mas permanece no arquivo.
-- `Ctrl + M`: novo slide.
-- `Ctrl + D`: duplicar seleção.
-- Redefinir restaura espaços reservados conforme o layout.
+## Guia → tarefa
 
-## Interface e modos
-
-| Modo | Finalidade |
+| Guia | Tarefas |
 |---|---|
-| Normal | editar com miniaturas, slide e notas |
-| Classificação | reorganizar slides e seções |
-| Estrutura de Tópicos | trabalhar com títulos e texto |
-| Página de Anotações | editar saída de notas por slide |
-| Slide Mestre | padrões de slides e layouts |
-| Mestre de Folheto | padrões dos folhetos |
-| Mestre de Anotações | padrões das páginas de notas |
-| Apresentação de Slides | exibição à audiência |
-| Leitura | reprodução com controles simples |
-| Modo do Apresentador | slide, próximo, notas e tempo para o apresentador |
+| Página Inicial | novo slide, layout, redefinir, seção e organização |
+| Inserir | objetos, links, ações, Zoom, áudio e vídeo |
+| Design | tema, tamanho e plano de fundo |
+| Transições | efeito entre slides |
+| Animações | efeitos em objetos |
+| Apresentação de Slides | iniciar, configurar, ensaiar e gravar |
+| Revisão | comentários, idioma e acessibilidade |
+| Exibir | modos, mestres, grade, guias e zoom |
 
-- Arquivo abre o Backstage: criar, abrir, salvar, imprimir, compartilhar e exportar.
-- Zoom muda visualização, não o conteúdo.
-- Notas não aparecem à audiência no Modo do Apresentador corretamente configurado.
+## Slides
+
+- Novo Slide usa um layout.
+- Redefinir reaplica padrões dos espaços reservados.
+- Ocultar mantém o slide no arquivo.
+- Excluir remove.
+- Seção organiza; não cria arquivo separado.
+- Reutilizar Slides importa uma cópia.
+- Usar Tema de Destino adapta a aparência.
+- Manter Formatação de Origem preserva a aparência importada.
+- Alterar o arquivo original não atualiza a cópia reutilizada.
+
+## Tema, fundo e mestre
+
+| Recurso | Alcance |
+|---|---|
+| tema | sistema visual geral |
+| variante | alternativa do tema |
+| layout | estrutura do slide |
+| plano de fundo | slide atual ou todos |
+| Slide Mestre | padrões de layouts e slides |
+| Mestre de Folhetos | impressão de folhetos |
+| Mestre de Anotações | páginas de anotações |
+
+- Design → Formatar Plano de Fundo.
+- Fechar o painel sem Aplicar a Todos: slide atual.
+- Aplicar a Todos: replica o fundo.
+- Objeto inserido diretamente no slide não some ao editar o mestre.
+- Caixa de texto ≠ espaço reservado.
+
+## Organização de objetos
+
+- alinhar: usa bordas ou centros;
+- distribuir: iguala espaços;
+- agrupar: trata objetos como unidade;
+- ordem de camadas: Trazer para Frente / Enviar para Trás;
+- Painel de Seleção: nomes, visibilidade e ordem;
+- distribuir ≠ igualar tamanho;
+- agrupar ≠ mesclar.
+
+## Imagens e acessibilidade
+
+- Recortar muda área visível.
+- Redimensionar muda dimensões.
+- Preservar proporção evita deformação.
+- Comprimir pode reduzir resolução e arquivo.
+- Imagem informativa: texto alternativo.
+- Decorativa: marcar como decorativa.
+- Cada slide deve ter título estrutural e exclusivo.
+- Conferir ordem de leitura.
+- Não depender somente de cor.
+- Verificador de Acessibilidade ≠ revisão humana.
+
+## Transições
+
+- atua no slide;
+- uma transição principal por slide;
+- duração e avanço são propriedades separadas;
+- Ao Clicar e Após podem coexistir;
+- Aplicar a Todos replica;
+- Transformação/Morph depende da versão e de objetos correspondentes.
+
+## Animações
+
+| Categoria | Papel |
+|---|---|
+| Entrada | faz aparecer |
+| Ênfase | destaca |
+| Saída | faz desaparecer |
+| Trajetória | move por caminho |
+
+| Início | Regra |
+|---|---|
+| Ao Clicar | aguarda comando |
+| Com o Anterior | inicia junto |
+| Após o Anterior | inicia depois |
+
+- Adicionar Animação acumula efeitos.
+- Escolher outro efeito na galeria pode substituir o anterior.
+- Painel de Animação controla ordem e temporização.
+- Pincel de Animação copia efeitos, não conteúdo/aparência geral.
+- Gatilho inicia efeito por objeto ou marcador.
+
+## Ordem real
+
+**Transição → estado inicial do slide → animações.**
+
+- Sem entrada: objeto já aparece.
+- Apenas saída: objeto começa visível.
+- Entrada Ao Clicar: aguarda comando.
+- Ordem de camadas ≠ ordem de animação.
+
+## Apresentação
+
+- `F5`: do começo.
+- `Shift + F5`: do slide atual.
+- `Esc`: encerrar.
+- `B`: tela preta.
+- `W`: tela branca.
+- Modo do Apresentador mostra notas e próximo slide no monitor do apresentador.
+- Anotações não aparecem automaticamente ao público.
+
+## Configurar Apresentação
+
+| Tipo | Comportamento |
+|---|---|
+| por orador | tela inteira |
+| por pessoa | janela |
+| quiosque | tela inteira, navegação restrita e repetição |
+
+- Pode usar todos, intervalo ou apresentação personalizada.
+- Pode repetir até `Esc`.
+- Pode usar ou ignorar intervalos e narrações.
+- PPSX abre em apresentação, mas não configura sozinho o quiosque.
+
+## Ensaiar e gravar
+
+- Ensaiar Intervalos registra tempo por slide.
+- Gravar pode registrar narração, tempo, tinta e câmera.
+- Gravar ≠ exportar vídeo.
+- Intervalo gravado pode ser ignorado na configuração.
+
+## Links e navegação
+
+- hiperlink: página, arquivo, e-mail ou slide;
+- ação: navegação, som ou programa, conforme segurança;
+- apresentação personalizada: subconjunto/ordem sem duplicar arquivo;
+- Zoom de Resumo: página de entrada;
+- Zoom de Slide: slide específico;
+- Zoom de Seção: seção;
+- Zoom ≠ Classificação de Slides.
+
+## Excel no PowerPoint
+
+| Método | Regra |
+|---|---|
+| tabela do PowerPoint | independente |
+| incorporado | cópia dentro do PPTX |
+| vinculado | depende do XLSX e caminho |
+| imagem | estático |
+| usar estilo do destino | adapta aparência |
+| manter formatação de origem | preserva aparência |
+
+- incorporado ≠ vinculado;
+- vinculado ≠ autossuficiente;
+- mover o XLSX pode quebrar atualização.
+
+## Mídia
+
+- início automático ou Ao Clicar;
+- aparar, volume, repetir e pôster;
+- pode tocar em vários slides;
+- codec, versão, permissão e equipamento importam;
+- teste no computador real;
+- legendas ajudam acessibilidade.
+
+## Colaboração
+
+- link compartilhado: um arquivo comum;
+- anexo: cópias independentes;
+- coautoria exige nuvem, formato, versão e permissão;
+- comentário ≠ anotação;
+- histórico de versões depende do armazenamento.
 
 ## Formatos
 
-| Formato | Uso |
+| Formato | Regra |
 |---|---|
 | PPTX | apresentação moderna sem VBA |
-| PPTM | apresentação habilitada para macros |
-| POTX/POTM | modelo sem/com macros |
-| PPSX/PPSM | abre em Apresentação de Slides sem/com macros |
-| PPT | legado 97–2003; pode limitar recursos |
-| ODP | interoperável; pode sofrer perdas |
-| PDF/XPS | layout final/fixo |
-| MP4/WMV | vídeo exportado |
-| PNG/JPG | slide como imagem |
-| RTF | estrutura textual; não leva notas |
+| PPTM | apresentação com macros |
+| PPSX | abre em modo de apresentação |
+| PPSM | apresentação de slides com macros |
+| POTX | modelo |
+| PPT/PPS | legados |
+| ODP | compatibilidade parcial |
+| PDF | saída fixa |
+| MP4 | vídeo |
+| imagens | slides estáticos |
 
-- PPSX não significa necessariamente somente leitura.
-- PPTX não armazena VBA.
-- Trocar apenas a extensão não converte o arquivo.
-- Compatibilidade ≠ equivalência.
-- Verificador de Compatibilidade antecipa possíveis perdas.
+- PDF perde interatividade.
+- Exportado não se atualiza com o PPTX.
+- Fontes ausentes podem alterar layout.
+- Incorporação de fontes depende de licença/suporte.
+- Macros podem executar código.
+- PowerPoint Web ≠ desktop.
 
-## Tema, layout e mestre
+## Impressão
 
-| Recurso | Função |
-|---|---|
-| tema | cores, fontes e efeitos coordenados |
-| variante | alternativa visual do tema |
-| layout | arranjo de espaços reservados |
-| modelo | arquivo-base reutilizável |
-| Slide Mestre | padrões globais e layouts associados |
+- slides;
+- anotações;
+- estrutura;
+- folhetos;
+- intervalo e slides ocultos;
+- cor, escala de cinza ou preto e branco;
+- ajuste ao papel;
+- cabeçalho/rodapé de folhetos e anotações.
 
-- Layout ≠ tema ≠ mestre ≠ modelo.
-- Formatação local pode prevalecer sobre padrão herdado.
-- Uma apresentação pode ter mais de um Slide Mestre.
-- Alterar tamanho `16:9`/`4:3` pode reposicionar conteúdo.
-- Tamanho/orientação é configuração geral da apresentação.
+## Pegadinhas finais
 
-## Objetos
-
-| Objeto | Uso |
-|---|---|
-| tabela | dados em linhas e colunas |
-| gráfico | representação de dados numéricos |
-| SmartArt | processo, relação, ciclo ou hierarquia |
-| forma | elemento geométrico ou chamada |
-| WordArt | texto decorativo |
-
-- SmartArt ≠ gráfico de dados.
-- Recortar muda área visível; redimensionar muda dimensões.
-- Preenchimento atua no interior; contorno, na borda.
-- Caixa de texto independente ≠ espaço reservado do layout.
-
-## Organizar objetos
-
-### Alinhamento
-
-- Alinhar: mesma borda ou centro.
-- Distribuir: espaçamento igual entre três ou mais objetos.
-- Alinhar ao Slide usa o slide como referência.
-- Alinhar Objetos Selecionados usa o conjunto.
-- Alinhar ≠ distribuir.
-
-### Guias e camadas
-
-- Grade: malha de apoio.
-- Guia estática: linha posicionada pelo usuário.
-- Guia inteligente: aparece dinamicamente ao mover.
-- Trazer para Frente/Enviar para Trás: extremos da pilha.
-- Avançar/Recuar: uma camada.
-- Painel de Seleção: selecionar, nomear, ocultar e ordenar objetos.
-- `Ctrl + G`: agrupar; `Ctrl + Shift + G`: desagrupar.
-- Agrupar objetos ≠ empacotar apresentação.
-
-## Áudio e vídeo
-
-- Recomendação atual no Windows: MP4 com H.264/AAC; áudio M4A com AAC.
-- Extensão ≠ codec.
-- Mídia vinculada depende do arquivo externo.
-- Teste no equipamento de destino.
-- Otimizar Compatibilidade pode remover legendas e faixas alternativas; revalide acessibilidade.
-
-## Links e ações
-
-- `Ctrl + K`: inserir hiperlink.
-- Destinos: Web, e-mail, arquivo, slide ou outra apresentação.
-- Texto do link deve descrever o destino.
-- Botão de ação pode responder a clique ou passagem do ponteiro.
-- Ações podem navegar, tocar som ou executar recurso compatível.
-- Macro/programa envolve segurança; não é link comum.
-
-## Transição × animação
-
-| Transição | Animação |
-|---|---|
-| passagem entre slides | efeito em objeto |
-| uma por slide | várias por slide |
-| avanço por clique/tempo | início ao clicar/com anterior/após anterior |
-| duração e som | duração, atraso, ordem e gatilho |
-
-- Transformar/Morph é transição.
-- Tipos de animação: entrada, ênfase, saída e trajetória.
-- Painel de Animação organiza a sequência.
-- Aplicar a Todos copia a transição, não animações de objetos.
-
-## Apresentar
-
-| Ação | Atalho Windows |
-|---|---|
-| do início | `F5` |
-| do slide atual | `Shift + F5` |
-| Modo do Apresentador | `Alt + F5` |
-| encerrar | `Esc` |
-| avançar | `N`, `Enter`, `Espaço`, `→`, `↓` |
-| voltar | `P`, `Backspace`, `←`, `↑` |
-| slide específico | número + `Enter` |
-| tela preta | `B` ou `.` |
-| tela branca | `W` ou `,` |
-
-- Atalhos com letras/sinais podem variar por idioma e teclado.
-- Ensaiar Intervalos mede e salva tempos; não implica gravar narração.
-- Gravar pode capturar voz, câmera, tinta, animações e tempos.
-- Gravação incorporada ≠ vídeo exportado.
-- Apresentação personalizada usa subconjunto/ordem sem excluir slides.
-
-## Notas, folhetos e impressão
-
-- Notas: apoio do apresentador, vinculadas ao slide.
-- Página de Anotações: slide + notas.
-- Folheto: várias miniaturas para a audiência.
-- Slide Mestre ≠ Mestre de Folheto ≠ Mestre de Anotações.
-- Slides usam data/hora, número e rodapé; cabeçalho é típico de notas/folhetos.
-- Impressão: slides, intervalo, seleção, notas, estrutura ou folhetos.
-
-## Colaboração e Web
-
-- OneDrive/SharePoint compatível permite link com visualização ou edição.
-- Coautoria: várias pessoas no mesmo arquivo.
-- Comentário registra observação; não altera sozinho o conteúdo.
-- Web salva automaticamente.
-- Web visualiza macros, mas não as executa.
-- Web não substitui integralmente o desktop para mestres, Estrutura, Presenter View, gráficos/equações, mídia local e configurações avançadas.
-- Recursos desktop podem ser preservados sem serem editáveis no navegador.
-
-## Exportação e portabilidade
-
-- PDF preserva aparência, não toda interatividade.
-- Vídeo permite reprodução sem PowerPoint.
-- Exportar imagem gera um ou todos os slides como arquivos gráficos.
-- Empacotar para CD/USB pode incluir vínculos e fontes permitidas.
-- Incorporar caracteres usados: menor, com edição limitada.
-- Incorporar todos: maior, melhor para edição por terceiros.
-- Nem toda fonte permite incorporação.
-
-## Acessibilidade
-
-- Execute Revisão > Verificar Acessibilidade.
-- Dê título único a cada slide.
-- Use layouts internos e confira ordem de leitura.
-- Adicione texto alternativo útil; revise o automático.
-- Não dependa apenas de cor.
-- Garanta contraste, fonte legível e espaço.
-- Use links descritivos.
-- Prefira tabelas simples com cabeçalhos.
-- Inclua legendas, subtítulos e descrição quando necessários.
-- Revalide depois de compactar mídia ou exportar.
-
-## Pegadinhas
-
-- Apresentação contém slides; não são sinônimos.
-- Ocultar ≠ excluir.
-- Tema ≠ layout ≠ mestre ≠ modelo.
-- Transição ≠ animação.
-- Morph é transição.
-- PPSX ≠ necessariamente somente leitura.
-- PPTX ≠ arquivo com VBA.
-- SmartArt ≠ gráfico.
-- Alinhar ≠ distribuir.
-- Notas ≠ folhetos.
-- PDF ≠ apresentação interativa completa.
-- Web ≠ desktop completo.
-- Texto alternativo automático ≠ revisão concluída.
+- apresentação ≠ slide;
+- slide ≠ seção;
+- layout ≠ tema;
+- tema ≠ modelo;
+- fundo ≠ mestre;
+- caixa de texto ≠ espaço reservado;
+- reutilizar ≠ vincular;
+- ocultar ≠ excluir;
+- distribuir ≠ igualar tamanho;
+- camada ≠ animação;
+- transição ≠ animação;
+- Adicionar Animação ≠ substituir efeito;
+- Pincel de Animação ≠ Pincel de Formatação;
+- saída sem entrada começa visível;
+- PPSX ≠ quiosque;
+- ensaiar ≠ gravar;
+- gravar ≠ exportar;
+- incorporado ≠ vinculado;
+- comentário ≠ anotação;
+- PDF ≠ apresentação interativa.
