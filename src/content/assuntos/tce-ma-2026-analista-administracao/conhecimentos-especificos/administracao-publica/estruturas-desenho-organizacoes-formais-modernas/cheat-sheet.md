@@ -77,7 +77,7 @@
 | Burocracia mecanizada | padronização dos processos | tecnoestrutura | rotina, regras e grande escala |
 | Burocracia profissional | padronização das habilidades | núcleo operacional | especialistas com autonomia técnica |
 | Forma divisionalizada | padronização dos resultados | linha intermediária | divisões semiautônomas cobradas por desempenho |
-| Adhocracia | ajustamento mútuo | assessoria de apoio/equipes especializadas | inovação, projetos e ambiente complexo e dinâmico |
+| Adhocracia | ajustamento mútuo | assessoria de apoio | inovação, projetos e ambiente complexo e dinâmico |
 
 - O mecanismo e a parte-chave são predominantes, não exclusivos.
 - Burocracia profissional não é burocracia mecanizada: habilidades × processos.
