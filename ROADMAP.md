@@ -290,7 +290,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 066 - Item 2, recorte: contas e instrumentos de controle.
 
-##### [ ] Assunto 067 - Item 2, recorte: processos.
+##### [>] Em progresso Assunto 067 - Item 2, recorte: processos.
 
 ##### [ ] Assunto 068 - Item 2, recorte: decisões, débitos, sanções, execução, recursos e revisão.
 
