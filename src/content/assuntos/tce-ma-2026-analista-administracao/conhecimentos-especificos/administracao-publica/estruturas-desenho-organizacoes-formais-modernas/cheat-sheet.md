@@ -69,6 +69,21 @@
 - Teletrabalho, sozinho, não transforma uma estrutura tradicional em virtual.
 - Virtualidade não determina centralização ou formalização.
 
+## Configurações de Mintzberg
+
+| Configuração | Coordenação predominante | Parte-chave | Marca típica |
+| --- | --- | --- | --- |
+| Estrutura simples | supervisão direta | ápice estratégico | pequena, jovem e centralizada no dirigente |
+| Burocracia mecanizada | padronização dos processos | tecnoestrutura | rotina, regras e grande escala |
+| Burocracia profissional | padronização das habilidades | núcleo operacional | especialistas com autonomia técnica |
+| Forma divisionalizada | padronização dos resultados | linha intermediária | divisões semiautônomas cobradas por desempenho |
+| Adhocracia | ajustamento mútuo | assessoria de apoio/equipes especializadas | inovação, projetos e ambiente complexo e dinâmico |
+
+- O mecanismo e a parte-chave são predominantes, não exclusivos.
+- Burocracia profissional não é burocracia mecanizada: habilidades × processos.
+- Adhocracia pode usar equipes, projetos e matriz, mas não é sinônimo necessário desses desenhos.
+- Estrutura simples aproxima-se da forma linear em alguns casos, sem equivalência universal.
+
 ## Departamentalização
 
 | Critério | Pergunta |
@@ -104,6 +119,7 @@
 | Produto × cliente | o que é entregue × para quem é entregue |
 | Conhecimento × função | campo científico/técnico × função administrativa ou empresarial |
 | Descentralização organizacional × jurídica | distribuição interna de decisão × atribuições a outra pessoa jurídica |
+| Burocracia mecanizada × profissional | processos padronizados × habilidades padronizadas |
 
 ## Variações entre autores
 
@@ -112,6 +128,7 @@
 - Rede, virtual, modular e sem fronteiras possuem sobreposição terminológica.
 - “Estrutura por processos” pode indicar etapas departamentalizadas ou fluxo horizontal ponta a ponta.
 - Matriz pode combinar função com projeto, produto, programa, território ou outro eixo.
+- Configuração de Mintzberg descreve um conjunto coerente de coordenação, poder e partes organizacionais; não se reduz a um organograma.
 - Em prova, características concretas valem mais que o rótulo isolado.
 
 ## Mecanicista x orgânica
@@ -146,6 +163,14 @@
 - Reduzir níveis somente com justificativa e controles preservados.
 - Centralização normativa pode coexistir com descentralização operacional.
 - Híbrida só será matricial onde houver sobreposição regular de autoridades.
+- Organizações públicas podem apresentar configurações diferentes entre unidades; “pública” não determina automaticamente burocracia mecanizada.
+
+## Roteiro-relâmpago
+
+1. Qual é o eixo de agrupamento?
+2. Há um ou dois eixos regulares de autoridade?
+3. Qual mecanismo coordena o trabalho: supervisão, processos, habilidades, resultados ou ajustamento mútuo?
+4. Qual contexto predomina: rotina, profissionalização, diversificação ou inovação?
 
 ## Pegadinhas
 
@@ -156,3 +181,4 @@
 - Organograma não mostra poder informal nem garante desempenho.
 - Mais descentralização não significa ausência de normas ou controle.
 - Menos níveis hierárquicos não é sempre melhor.
+- “Burocracia” em Mintzberg não significa necessariamente órgão público nem ineficiência.
