@@ -306,7 +306,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - Item 4. IN nº 50/2017 e suas alterações: medidas preliminares; instauração, investigação e quantificação do débito; conclusão, encaminhamento, decadência e anexos.
 - A IN nº 50/2017 é tratada em um único fluxo de procedimento, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [>] Em progresso Assunto 072 - Item 5: IN nº 82/2025.
+##### [R] Em revisão Assunto 072 - Item 5: IN nº 82/2025.
 
 - Item 5. IN nº 82/2025.
 - Norma curta, mantida em um único assunto.
