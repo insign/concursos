@@ -315,7 +315,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 I - História do Estado do Maranhão
 
-##### [>] Em progresso Assunto 073 - Itens 1, 2 e 3: França Equinocial, fundação de São Luís e Batalha de Guaxenduba.
+##### [R] Em revisão Assunto 073 - Itens 1, 2 e 3: França Equinocial, fundação de São Luís e Batalha de Guaxenduba.
 
 - Item 1. História do Maranhão: França equinocial: expedição de Daniel de La Touche.
 - Item 2. Fundação de São Luís.
