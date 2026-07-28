@@ -292,7 +292,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 067 - Item 2, recorte: processos.
 
-##### [R] Em revisão Assunto 068 - Item 2, recorte: decisões, débitos, sanções, execução, recursos e revisão.
+##### [x] Concluído Assunto 068 - Item 2, recorte: decisões, débitos, sanções, execução, recursos e revisão.
 
 ##### [ ] Assunto 069 - Item 3, recorte: modelo organizacional, direção e unidades técnicas de controle externo da Lei nº 9.936/2013.
 
