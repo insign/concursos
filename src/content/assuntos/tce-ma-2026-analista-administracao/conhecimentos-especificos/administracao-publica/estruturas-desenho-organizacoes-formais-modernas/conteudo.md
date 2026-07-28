@@ -202,6 +202,39 @@ Estruturas híbridas combinam formas e critérios para atender realidades difere
 
 A combinação aumenta aderência ao contexto, mas exige fronteiras, responsabilidades e direitos decisórios explícitos. “Híbrida” é categoria mais ampla que “matricial”.
 
+### 5.8 Configurações de Mintzberg
+
+Mintzberg descreve a organização a partir de cinco partes básicas:
+
+- **ápice estratégico:** direção superior e responsabilidade global;
+- **linha intermediária:** gestores que ligam direção e operação;
+- **núcleo operacional:** pessoas que executam o trabalho essencial;
+- **tecnoestrutura:** analistas que desenham padrões, métodos e controles;
+- **assessoria de apoio:** unidades especializadas que dão suporte fora do fluxo operacional principal.
+
+O autor relaciona essas partes a mecanismos predominantes de coordenação. A combinação gera cinco configurações clássicas, entendidas como modelos analíticos: organizações reais podem misturar características.
+
+| Configuração | Coordenação predominante | Parte-chave | Poder e contexto típicos |
+| --- | --- | --- | --- |
+| Estrutura simples | Supervisão direta | Ápice estratégico | Centralização no dirigente; organização pequena ou jovem e ambiente relativamente dinâmico. |
+| Burocracia mecanizada | Padronização dos processos de trabalho | Tecnoestrutura | Tarefas rotineiras, regras detalhadas, grande escala e ambiente mais estável. |
+| Burocracia profissional | Padronização das habilidades e qualificações | Núcleo operacional | Profissionais especializados, autonomia técnica e ambiente complexo, porém relativamente estável. |
+| Forma divisionalizada | Padronização dos resultados | Linha intermediária | Divisões semiautônomas, metas e controle de desempenho em organização diversificada. |
+| Adhocracia | Ajustamento mútuo | Assessoria de apoio | Descentralização seletiva, projetos inovadores e ambiente complexo e dinâmico. |
+
+Os mecanismos são **predominantes**, não exclusivos. Uma burocracia profissional também possui regras; a diferença é que sua coordenação central depende principalmente da formação e da qualificação dos profissionais. A burocracia mecanizada, ao contrário, coordena principalmente pela especificação de rotinas e processos.
+
+As configurações não são sinônimos perfeitos dos tipos vistos anteriormente:
+
+- a estrutura simples frequentemente se aproxima da estrutura linear, mas os conceitos não são universalmente equivalentes;
+- a forma divisionalizada se aproxima do desenho divisional;
+- a adhocracia pode usar equipes, projetos ou matriz, sem se confundir obrigatoriamente com qualquer um deles;
+- uma organização funcional pode apresentar traços mecanizados ou profissionais, conforme o trabalho e o mecanismo de coordenação.
+
+> **Pegadinha:** “burocracia” na tipologia de Mintzberg não significa necessariamente órgão público, ineficiência ou excesso patológico de formalidade.
+
+**Caso fictício:** dentro de um tribunal, uma unidade de protocolo pode coordenar atividades rotineiras por processos padronizados; uma equipe de auditoria pode depender principalmente da qualificação profissional; e um laboratório temporário de inovação pode trabalhar por ajustamento mútuo. Isso demonstra que uma instituição pode reunir configurações diferentes em suas unidades.
+
 ## 6. Critérios de departamentalização
 
 **Departamentalização** é o agrupamento de atividades, pessoas e recursos em unidades. Ela é uma dimensão da estrutura, não a estrutura inteira.
@@ -255,6 +288,7 @@ As classificações não são universais. A banca pode adotar taxonomias diferen
 | Estrutura por processos | Pode designar departamentos por etapas ou desenho horizontal ponta a ponta; identifique o alcance da responsabilidade. |
 | Linha-staff | Pode ser tratada como forma tradicional ou como combinação de linha e assessoria; não implica dupla chefia. |
 | Matriz | Pode combinar função com projeto, produto, programa, território ou outro eixo; a dupla autoridade é a marca decisiva. |
+| Configuração de Mintzberg | Descreve combinação de coordenação, parte-chave, poder e contexto; não se reduz ao nome do departamento ou ao desenho do organograma. |
 
 > **Regra de prova:** características concretas valem mais que o rótulo isolado.
 
@@ -305,6 +339,8 @@ Essas diretrizes não autorizam apagar competências legais nem presumem que men
 
 Uma administração pública pode combinar centralização normativa com descentralização operacional, estrutura funcional para áreas de apoio, unidades territoriais para presença regional e equipes temporárias para programas. O desenho é híbrido quando essas formas coexistem; só será matricial onde houver sobreposição regular de autoridades.
 
+A natureza pública da instituição não determina uma única configuração de Mintzberg. O mecanismo predominante depende da tarefa: rotinas massivas podem exigir padronização de processos; atividades técnicas complexas podem depender da qualificação profissional; projetos inovadores podem exigir ajustamento mútuo.
+
 ## 11. Roteiro de resolução de questões
 
 1. Identifique o **eixo de agrupamento**: função, produto, território, cliente, processo, projeto ou conhecimento.
@@ -313,9 +349,10 @@ Uma administração pública pode combinar centralização normativa com descent
 4. Diferencie trabalho remoto de estrutura virtual e departamento por etapa de orientação ponta a ponta.
 5. Relacione vantagem e custo: foco divisional cobra duplicação; escala funcional cobra coordenação horizontal.
 6. Trate centralização, formalização e amplitude como contínuos, não como escolhas absolutas.
-7. Verifique o contexto: estratégia, ambiente, tecnologia, tamanho, diversidade, regulação e risco.
-8. Considere variações de taxonomia e resolva pelas características concretas.
-9. Desconfie de expressões como `sempre`, `necessariamente`, `elimina` e `única estrutura correta`.
+7. Em Mintzberg, identifique o mecanismo predominante: supervisão, processos, habilidades, resultados ou ajustamento mútuo.
+8. Verifique o contexto: estratégia, ambiente, tecnologia, tamanho, diversidade, regulação e risco.
+9. Considere variações de taxonomia e resolva pelas características concretas.
+10. Desconfie de expressões como `sempre`, `necessariamente`, `elimina` e `única estrutura correta`.
 
 ## 12. Limites do assunto
 
@@ -333,6 +370,8 @@ Uma administração pública pode combinar centralização normativa com descent
 - CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 - TCE/MA, de 6 de julho de 2026**. Disponível no [edital do TCE/MA no Cebraspe (PDF)](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Acesso em: 15 jul. 2026.
 - BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. **Estruturas Organizacionais**. Disponível na [página institucional sobre estruturas](https://www.gov.br/gestao/pt-br/assuntos/gestaoeinovacao/modelos-organizacionais/estruturas-organizacionais). Acesso em: 15 jul. 2026.
 - BRASIL. Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão. **Instrução Normativa nº 4, de 13 de junho de 2018, e Manual de Estruturas Organizacionais do Poder Executivo Federal, 2ª edição, 2019**. Disponível na [página da IN nº 4/2018 e do manual](https://www.gov.br/gestao/pt-br/assuntos/gestaoeinovacao/modelos-organizacionais/estruturas-organizacionais/consulta/legislacao/in4-2018). A página informa que o manual está em atualização. Acesso em: 15 jul. 2026.
+- MINTZBERG, Henry. **Structure in 5's: A Synthesis of the Research on Organization Design**. Management Science, v. 26, n. 3, p. 322–341, 1980. Disponível no [artigo da Management Science](https://doi.org/10.1287/mnsc.26.3.322). Acesso em: 28 jul. 2026.
+- MINTZBERG, Henry. **Criando organizações eficazes: estruturas em cinco configurações**. 2. ed. São Paulo: Atlas, 2008. Registro disponível no [catálogo da Biblioteca Agamenon Magalhães do Cade](https://biblioteca.cade.gov.br/cgi-bin/koha/opac-detail.pl?biblionumber=1778). Acesso em: 28 jul. 2026.
 - SOUZA, Antônio Artur de. **Organização, Processos e Tomada de Decisão**. Programa Nacional de Formação em Administração Pública, Universidade Aberta do Brasil/CAPES. Disponível no [livro do PNAP no eduCAPES (PDF)](https://educapes.capes.gov.br/bitstream/capes/401398/1/PNAP-Bacharelado-OrganizacaoProcessosTomadaDecis%C3%A3o-WEB.pdf). Acesso em: 15 jul. 2026.
 - OPENSTAX. **Princípios de Gestão: Projetos e estruturas organizacionais**. Tradução disponibilizada pelo LibreTexts, licença CC BY 4.0. Disponível no [capítulo sobre projetos e estruturas organizacionais](https://query.libretexts.org/Idioma_Portugues/Livro%3A_Principios_de_Gestao_%28OpenStax%29/04%3A_Ambientes_organizacionais_externos_e_internos_e_cultura_corporativa/4.04%3A_Projetos_e_estruturas_organizacionais). Atualizado em: 1 nov. 2022. Acesso em: 15 jul. 2026.
 - UNIVERSIDADE FEDERAL DO CARIRI. PET-Administração. **Elementos básicos de estrutura organizacional**. Disponível na [página do PET-Administração da UFCA](https://petadm.ufca.edu.br/elementos-basicos-de-estrutura-organizacional/). Publicado em: 6 maio 2019. Acesso em: 15 jul. 2026.
