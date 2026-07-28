@@ -299,7 +299,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 - Item 3. Lei nº 9.936/2013 (Organização administrativa): modelo organizacional e direção; unidades técnicas de controle externo.
 - A Lei nº 9.936/2013 é desdobrada nos Assuntos 069 e 070 por unidade funcional, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [ ] Assunto 070 - Item 3, recorte: unidades administrativas e de apoio, cargos, funções, anexos e reestruturação vigente.
+##### [>] Em progresso Assunto 070 - Item 3, recorte: unidades administrativas e de apoio, cargos, funções, anexos e reestruturação vigente.
 
 ##### [ ] Assunto 071 - Item 4: IN nº 50/2017 e suas alterações — fluxo completo do procedimento.
 
