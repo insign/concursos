@@ -301,7 +301,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 070 - Item 3, recorte: unidades administrativas e de apoio, cargos, funções, anexos e reestruturação vigente.
 
-##### [>] Em progresso Assunto 071 - Item 4: IN nº 50/2017 e suas alterações — fluxo completo do procedimento.
+##### [R] Em revisão Assunto 071 - Item 4: IN nº 50/2017 e suas alterações — fluxo completo do procedimento.
 
 - Item 4. IN nº 50/2017 e suas alterações: medidas preliminares; instauração, investigação e quantificação do débito; conclusão, encaminhamento, decadência e anexos.
 - A IN nº 50/2017 é tratada em um único fluxo de procedimento, sem inventar faixas de artigos nem repetir dispositivos.
