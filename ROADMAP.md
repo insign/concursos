@@ -294,7 +294,7 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 068 - Item 2, recorte: decisões, débitos, sanções, execução, recursos e revisão.
 
-##### [ ] Assunto 069 - Item 3, recorte: modelo organizacional, direção e unidades técnicas de controle externo da Lei nº 9.936/2013.
+##### [>] Em progresso Assunto 069 - Item 3, recorte: modelo organizacional, direção e unidades técnicas de controle externo da Lei nº 9.936/2013.
 
 - Item 3. Lei nº 9.936/2013 (Organização administrativa): modelo organizacional e direção; unidades técnicas de controle externo.
 - A Lei nº 9.936/2013 é desdobrada nos Assuntos 069 e 070 por unidade funcional, sem inventar faixas de artigos nem repetir dispositivos.
