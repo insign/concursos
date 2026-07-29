@@ -8,9 +8,15 @@ storageId: estruturas-organizacionais
 
 # Estruturas e desenho das organizações formais modernas
 
+## Recorte, objetivo e corte temporal
+
+Este capítulo cobre o item 1 de Administração Pública do edital do TCE/MA 2026: características básicas das organizações formais modernas, natureza, finalidades, tipos de estrutura organizacional e critérios de departamentalização. O objetivo é reconhecer o eixo de agrupamento, a distribuição de autoridade e os mecanismos de coordenação, inclusive em situações-problema.
+
+> **Corte temporal:** o edital foi publicado em 6 de julho de 2026. Os conceitos de teoria organizacional empregados aqui são estáveis, e esta atualização editorial foi fechada em 29 de julho de 2026. As orientações do MGI e o Manual de Estruturas Organizacionais referem-se ao Poder Executivo federal e são usados como referência técnica, não como normas automaticamente aplicáveis ao TCE/MA.
+
 A **estrutura organizacional** é o arranjo deliberado pelo qual uma organização divide o trabalho, agrupa atividades e pessoas, distribui autoridade e coordena esforços para alcançar objetivos. Ela não é um fim em si mesma: deve permitir que estratégia, processos, recursos e responsabilidades se convertam em entregas.
 
-No Poder Executivo federal, o Ministério da Gestão e da Inovação em Serviços Públicos (MGI) descreve a estrutura organizacional como uma hierarquia de subunidades interligadas, cada qual com competências próprias. O desenho dessas estruturas deve considerar macroprocessos, produtos e serviços e buscar melhor atendimento ao cidadão.
+Como referência técnica do Poder Executivo federal, o Ministério da Gestão e da Inovação em Serviços Públicos (MGI) descreve a estrutura organizacional como uma hierarquia de subunidades interligadas, cada qual com competências próprias. O desenho dessas estruturas deve considerar macroprocessos, produtos e serviços e buscar melhor atendimento ao cidadão.
 
 ## 1. Natureza e finalidade da organização formal
 
@@ -337,6 +343,8 @@ Na Administração Pública, o desenho deve compatibilizar eficiência com legal
 
 Essas diretrizes não autorizam apagar competências legais nem presumem que menos níveis sempre sejam melhores. O desenho deve preservar autoridade, segregação de funções e controles proporcionais ao risco.
 
+O manual e as orientações citados são referências técnicas do Poder Executivo federal. Eles não substituem a Lei Orgânica, o Regimento Interno nem as demais normas próprias do TCE/MA, e suas soluções não devem ser transplantadas automaticamente para o Tribunal.
+
 Uma administração pública pode combinar centralização normativa com descentralização operacional, estrutura funcional para áreas de apoio, unidades territoriais para presença regional e equipes temporárias para programas. O desenho é híbrido quando essas formas coexistem; só será matricial onde houver sobreposição regular de autoridades.
 
 A natureza pública da instituição não determina uma única configuração de Mintzberg. O mecanismo predominante depende da tarefa: rotinas massivas podem exigir padronização de processos; atividades técnicas complexas podem depender da qualificação profissional; projetos inovadores podem exigir ajustamento mútuo.
@@ -375,4 +383,4 @@ A natureza pública da instituição não determina uma única configuração de
 - SOUZA, Antônio Artur de. **Organização, Processos e Tomada de Decisão**. Programa Nacional de Formação em Administração Pública, Universidade Aberta do Brasil/CAPES. Disponível no [livro do PNAP no eduCAPES (PDF)](https://educapes.capes.gov.br/bitstream/capes/401398/1/PNAP-Bacharelado-OrganizacaoProcessosTomadaDecis%C3%A3o-WEB.pdf). Acesso em: 15 jul. 2026.
 - OPENSTAX. **Princípios de Gestão: Projetos e estruturas organizacionais**. Tradução disponibilizada pelo LibreTexts, licença CC BY 4.0. Disponível no [capítulo sobre projetos e estruturas organizacionais](https://query.libretexts.org/Idioma_Portugues/Livro%3A_Principios_de_Gestao_%28OpenStax%29/04%3A_Ambientes_organizacionais_externos_e_internos_e_cultura_corporativa/4.04%3A_Projetos_e_estruturas_organizacionais). Atualizado em: 1 nov. 2022. Acesso em: 15 jul. 2026.
 - UNIVERSIDADE FEDERAL DO CARIRI. PET-Administração. **Elementos básicos de estrutura organizacional**. Disponível na [página do PET-Administração da UFCA](https://petadm.ufca.edu.br/elementos-basicos-de-estrutura-organizacional/). Publicado em: 6 maio 2019. Acesso em: 15 jul. 2026.
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **CAESB 2024: prova com justificativas, questão 41**. Disponível no [caderno oficial sobre departamentalização (PDF)](https://cdn.cebraspe.org.br/concursos/CAESB_24/arquivos/MATRIZ_039_CAESB_013_00_Com%20Justificativas_OK.pdf). Acesso em: 15 jul. 2026.
+- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **CAESB — Edital de 2024, prova aplicada em 2025: caderno com justificativas, questão 41**. Disponível no [caderno oficial sobre departamentalização (PDF)](https://cdn.cebraspe.org.br/concursos/CAESB_24/arquivos/MATRIZ_039_CAESB_013_00_Com%20Justificativas_OK.pdf). Acesso em: 29 jul. 2026.
