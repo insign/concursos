@@ -1,65 +1,65 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q234",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No enunciado “O belo pode ser difícil de definir”, a palavra “belo” é empregada como",
       "options": [
         { "id": "a", "text": "adjetivo que caracteriza um substantivo expresso." },
-        { "id": "b", "text": "substantivo, por substantivação favorecida pelo artigo “o”." },
-        { "id": "c", "text": "advérbio que modifica o verbo “definir”." },
-        { "id": "d", "text": "numeral que expressa quantidade exata." },
+        { "id": "b", "text": "advérbio que modifica o verbo “definir”." },
+        { "id": "c", "text": "numeral que expressa quantidade exata." },
+        { "id": "d", "text": "substantivo, por substantivação favorecida pelo artigo “o”." },
         { "id": "e", "text": "pronome demonstrativo que retoma “o”." }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "Em “o belo”, o artigo substantiva “belo”, que passa a nomear uma ideia. A palavra não caracteriza um nome expresso, não modifica verbo e não expressa quantidade ou demonstração. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
       "id": "q235",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na classificação tradicional, a palavra “saudade” é substantivo abstrato porque designa",
       "options": [
         { "id": "a", "text": "uma entidade material que se pode tocar." },
         { "id": "b", "text": "um conjunto de seres da mesma espécie." },
-        { "id": "c", "text": "um sentimento ou estado, e não um ser independente." },
-        { "id": "d", "text": "um lugar determinado." },
-        { "id": "e", "text": "uma quantidade exata." }
+        { "id": "c", "text": "um lugar determinado." },
+        { "id": "d", "text": "uma quantidade exata." },
+        { "id": "e", "text": "um sentimento ou estado, e não um ser independente." }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "e",
       "explanation": "A classificação tradicional inclui sentimentos, estados, ações e qualidades entre os substantivos abstratos. “Saudade” não é coletivo, topônimo nem expressão numérica. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Silva e Souza, https://periodicos2.uesb.br/lnostra/article/view/15694."
     },
     {
       "id": "q236",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A respeito da classificação tradicional de substantivos, assinale a opção correta.",
       "options": [
         { "id": "a", "text": "Todo substantivo concreto designa objeto material e palpável." },
-        { "id": "b", "text": "“Anjo” pode ser classificado como concreto, embora não designe objeto palpável." },
-        { "id": "c", "text": "Substantivos abstratos não podem estar no plural." },
-        { "id": "d", "text": "Substantivo próprio sempre é composto." },
+        { "id": "b", "text": "Substantivos abstratos não podem estar no plural." },
+        { "id": "c", "text": "Substantivo próprio sempre é composto." },
+        { "id": "d", "text": "“Anjo” pode ser classificado como concreto, embora não designe objeto palpável." },
         { "id": "e", "text": "Coletivo é obrigatoriamente plural." }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "Na tradição escolar, substantivo concreto designa ser com existência independente, não apenas objeto físico; por isso “anjo” é exemplo recorrente. As demais afirmações impõem restrições inexistentes. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Silva e Souza, https://periodicos2.uesb.br/lnostra/article/view/15694."
     },
     {
       "id": "q237",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No período “O elenco chegou cedo para a reunião”, a forma verbal no singular se explica porque",
       "options": [
-        { "id": "a", "text": "“elenco” é substantivo coletivo com forma singular e funciona como núcleo do sujeito." },
-        { "id": "b", "text": "substantivos coletivos são invariáveis em número." },
-        { "id": "c", "text": "o verbo “chegar” não admite plural." },
-        { "id": "d", "text": "“cedo” determina o número do verbo." },
+        { "id": "a", "text": "substantivos coletivos são invariáveis em número." },
+        { "id": "b", "text": "o verbo “chegar” não admite plural." },
+        { "id": "c", "text": "“cedo” determina o número do verbo." },
+        { "id": "d", "text": "“elenco” é substantivo coletivo com forma singular e funciona como núcleo do sujeito." },
         { "id": "e", "text": "todo coletivo é pronome." }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "“Elenco” designa conjunto, mas está no singular e é o núcleo do sujeito, o que explica “chegou”. Coletivo não é pronome nem impede, em qualquer contexto, outras construções de concordância. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
@@ -79,47 +79,47 @@
     },
     {
       "id": "q239",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “A vítima prestou depoimento”, a classificação de “vítima” como substantivo sobrecomum decorre de",
       "options": [
         { "id": "a", "text": "apresentar uma forma para machos e outra para fêmeas." },
         { "id": "b", "text": "ser usado exclusivamente para animais." },
-        { "id": "c", "text": "ter um único gênero gramatical, apesar de poder designar pessoa de qualquer sexo." },
-        { "id": "d", "text": "indicar sempre pluralidade." },
-        { "id": "e", "text": "ser um adjetivo substantivado." }
+        { "id": "c", "text": "indicar sempre pluralidade." },
+        { "id": "d", "text": "ser um adjetivo substantivado." },
+        { "id": "e", "text": "ter um único gênero gramatical, apesar de poder designar pessoa de qualquer sexo." }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "e",
       "explanation": "Sobrecomuns têm uma forma e um único gênero gramatical para pessoas de qualquer sexo. “Vítima” é feminino gramatical, sem que isso determine o sexo da pessoa. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
       "id": "q240",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na expressão “a onça fêmea”, a indicação “fêmea” é usada porque “onça” é tradicionalmente classificada como substantivo",
       "options": [
-        { "id": "a", "text": "epiceno." },
-        { "id": "b", "text": "comum de dois gêneros." },
-        { "id": "c", "text": "sobrecomum." },
-        { "id": "d", "text": "abstrato." },
+        { "id": "a", "text": "comum de dois gêneros." },
+        { "id": "b", "text": "sobrecomum." },
+        { "id": "c", "text": "abstrato." },
+        { "id": "d", "text": "epiceno." },
         { "id": "e", "text": "coletivo." }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "Epicenos designam animais com uma única forma gramatical; “macho” ou “fêmea” pode especificar o sexo. Não se confundem com comuns de dois gêneros nem com sobrecomuns. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
       "id": "q241",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O diminutivo em “O relator apresentou um parecerzinho insuficiente” pode transmitir, além de redução de tamanho, ideia de",
       "options": [
         { "id": "a", "text": "ordem dirigida ao leitor." },
-        { "id": "b", "text": "depreciação ou ironia, conforme o contexto." },
-        { "id": "c", "text": "quantidade fracionária." },
-        { "id": "d", "text": "referência espacial." },
-        { "id": "e", "text": "posse de terceira pessoa." }
+        { "id": "b", "text": "quantidade fracionária." },
+        { "id": "c", "text": "referência espacial." },
+        { "id": "d", "text": "posse de terceira pessoa." },
+        { "id": "e", "text": "depreciação ou ironia, conforme o contexto." }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "Aumentativos e diminutivos podem produzir efeitos expressivos, como afeto, ironia ou depreciação. O contexto “insuficiente” favorece leitura depreciativa. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
@@ -139,9 +139,9 @@
     },
     {
       "id": "q243",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em “Um candidato apresentou recurso”, a palavra “um” é, predominantemente,",
+      "prompt": "Em “Um candidato ainda não identificado apresentou recurso”, a palavra “um” é, predominantemente,",
       "options": [
         { "id": "a", "text": "artigo indefinido, pois introduz o substantivo sem destacar contagem." },
         { "id": "b", "text": "pronome relativo, pois retoma “candidato”." },
@@ -150,7 +150,7 @@
         { "id": "e", "text": "advérbio de intensidade." }
       ],
       "correctOptionId": "a",
-      "explanation": "No enunciado, “um” apenas introduz “candidato”, sem oposição quantitativa expressa; tende a funcionar como artigo indefinido. A forma pode ser numeral em outro contexto. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+      "explanation": "O contexto apresenta um referente não identificado, sem oposição quantitativa; “um” funciona como artigo indefinido. A mesma forma pode ser numeral quando a contagem é destacada. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
       "id": "q244",
@@ -184,17 +184,17 @@
     },
     {
       "id": "q246",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A forma “do” em “a análise do processo” resulta da contração de",
       "options": [
-        { "id": "a", "text": "de + o." },
-        { "id": "b", "text": "em + o." },
-        { "id": "c", "text": "a + o." },
-        { "id": "d", "text": "de + um." },
+        { "id": "a", "text": "em + o." },
+        { "id": "b", "text": "a + o." },
+        { "id": "c", "text": "de + um." },
+        { "id": "d", "text": "de + o." },
         { "id": "e", "text": "por + o." }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanation": "“Do” reúne a preposição “de” e o artigo definido “o”. A contração não elimina a possibilidade de reconhecer os dois elementos na análise. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
@@ -214,47 +214,47 @@
     },
     {
       "id": "q248",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Um porquê precisa de explicação”, o artigo indefinido contribui para que “porquê” funcione como",
       "options": [
         { "id": "a", "text": "conjunção causal." },
-        { "id": "b", "text": "substantivo." },
-        { "id": "c", "text": "pronome pessoal." },
-        { "id": "d", "text": "numeral fracionário." },
-        { "id": "e", "text": "verbo impessoal." }
+        { "id": "b", "text": "pronome pessoal." },
+        { "id": "c", "text": "numeral fracionário." },
+        { "id": "d", "text": "verbo impessoal." },
+        { "id": "e", "text": "substantivo." }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "Com determinante e sentido de “motivo”, “porquê” é substantivo. A classe de uma forma depende de seu emprego no enunciado. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
       "id": "q249",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No sintagma “controle financeiro”, a palavra “financeiro” exerce a função de",
+      "prompt": "No sintagma “controle financeiro”, a palavra “financeiro” pertence à classe dos adjetivos porque",
       "options": [
-        { "id": "a", "text": "quantificar o substantivo “controle”." },
-        { "id": "b", "text": "retomar o substantivo “controle”." },
-        { "id": "c", "text": "caracterizar ou relacionar o substantivo “controle”." },
-        { "id": "d", "text": "introduzir uma pergunta." },
-        { "id": "e", "text": "indicar negação." }
+        { "id": "a", "text": "quantifica o substantivo “controle”." },
+        { "id": "b", "text": "retoma o substantivo “controle”." },
+        { "id": "c", "text": "introduz uma pergunta." },
+        { "id": "d", "text": "indica negação." },
+        { "id": "e", "text": "caracteriza ou estabelece relação com o substantivo “controle”." }
       ],
-      "correctOptionId": "c",
-      "explanation": "“Financeiro” é adjetivo e caracteriza ou estabelece relação com “controle”. Não expressa quantidade nem retoma o nome como pronome. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+      "correctOptionId": "e",
+      "explanation": "“Financeiro” é adjetivo relacional: vincula “controle” ao campo das finanças. Não expressa quantidade, retomada, pergunta ou negação. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
       "id": "q250",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a opção em que o adjetivo é uniforme em gênero.",
       "options": [
         { "id": "a", "text": "servidor atento / servidora atenta" },
-        { "id": "b", "text": "servidor competente / servidora competente" },
-        { "id": "c", "text": "aluno estudioso / aluna estudiosa" },
-        { "id": "d", "text": "cidadão brasileiro / cidadã brasileira" },
+        { "id": "b", "text": "aluno estudioso / aluna estudiosa" },
+        { "id": "c", "text": "cidadão brasileiro / cidadã brasileira" },
+        { "id": "d", "text": "servidor competente / servidora competente" },
         { "id": "e", "text": "homem público / mulher pública" }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "“Competente” mantém a mesma forma com substantivos masculinos e femininos, por isso é uniforme. Nas demais opções, o adjetivo apresenta flexão de gênero. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
@@ -274,17 +274,17 @@
     },
     {
       "id": "q252",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A expressão “amor de mãe” é exemplo de locução adjetiva porque",
       "options": [
         { "id": "a", "text": "contém necessariamente dois verbos." },
-        { "id": "b", "text": "é um grupo preposicionado que caracteriza o substantivo “amor”." },
-        { "id": "c", "text": "substitui um artigo definido." },
-        { "id": "d", "text": "indica sempre uma fração." },
-        { "id": "e", "text": "retoma um antecedente por meio de pronome relativo." }
+        { "id": "b", "text": "substitui um artigo definido." },
+        { "id": "c", "text": "indica sempre uma fração." },
+        { "id": "d", "text": "retoma um antecedente por meio de pronome relativo." },
+        { "id": "e", "text": "é um grupo preposicionado que caracteriza o substantivo “amor”." }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "“De mãe” caracteriza “amor” e forma locução adjetiva. Pode aproximar-se de “materno” em certos contextos, mas a equivalência de sentido não deve ser automática. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
@@ -304,17 +304,17 @@
     },
     {
       "id": "q254",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A troca de “grande homem” por “homem grande” pode alterar o sentido porque",
       "options": [
         { "id": "a", "text": "o adjetivo deixa de concordar com o substantivo." },
-        { "id": "b", "text": "a posição do adjetivo pode favorecer “notável” no primeiro caso e “de grande porte” no segundo." },
-        { "id": "c", "text": "“grande” passa a ser obrigatoriamente numeral." },
-        { "id": "d", "text": "a segunda expressão é sempre incorreta." },
+        { "id": "b", "text": "“grande” passa a ser obrigatoriamente numeral." },
+        { "id": "c", "text": "a segunda expressão é sempre incorreta." },
+        { "id": "d", "text": "a posição do adjetivo pode favorecer “notável” no primeiro caso e “de grande porte” no segundo." },
         { "id": "e", "text": "adjetivos não podem ser pospostos." }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "d",
       "explanation": "A anteposição ou posposição de certos adjetivos pode modificar a leitura. “Grande homem” frequentemente valoriza a pessoa; “homem grande” costuma indicar dimensão física. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
@@ -469,17 +469,17 @@
     },
     {
       "id": "q265",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Assinale a opção adequada à norma-padrão.",
       "options": [
         { "id": "a", "text": "O relatório é para mim redigir." },
-        { "id": "b", "text": "O relatório é para eu redigir." },
-        { "id": "c", "text": "Entre eu e você, o prazo é curto." },
-        { "id": "d", "text": "A decisão foi entregue para eu." },
-        { "id": "e", "text": "Mim redigirei o relatório." }
+        { "id": "b", "text": "Entre eu e você, o prazo é curto." },
+        { "id": "c", "text": "A decisão foi entregue para eu." },
+        { "id": "d", "text": "Mim redigirei o relatório." },
+        { "id": "e", "text": "O relatório é para eu redigir." }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "Em “para eu redigir”, “eu” é sujeito do infinitivo “redigir”. Em termos preposicionados sem função de sujeito, usam-se formas como “mim”: “entre mim e você” e “para mim”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf; e em Wink, Finkenauer e Othero (2012), https://seer.ufu.br/index.php/dominiosdelinguagem/article/view/14795."
     },
     {
@@ -499,17 +499,17 @@
     },
     {
       "id": "q267",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em “Minhas decisões foram revistas”, o possessivo “minhas” concorda em gênero e número com",
       "options": [
         { "id": "a", "text": "a pessoa que possui, obrigatoriamente feminina e plural." },
         { "id": "b", "text": "o verbo “foram”." },
-        { "id": "c", "text": "o substantivo possuído “decisões”." },
-        { "id": "d", "text": "o artigo inexistente antes do possessivo." },
-        { "id": "e", "text": "a preposição subentendida." }
+        { "id": "c", "text": "o artigo inexistente antes do possessivo." },
+        { "id": "d", "text": "a preposição subentendida." },
+        { "id": "e", "text": "o substantivo possuído “decisões”." }
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "e",
       "explanation": "Possessivos concordam com a coisa possuída: “decisões” é feminino plural, por isso “minhas”. A forma não revela, por si só, o gênero ou número do possuidor. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
@@ -600,22 +600,22 @@
         { "id": "e", "text": "A autora que cujas obras foram estudadas compareceu." }
       ],
       "correctOptionId": "b",
-      "explanation": "“Cujo” exprime posse, concorda com o substantivo posterior (“obras” -> “cujas”) e, na norma-padrão, não admite artigo depois dele. As demais construções infringem um desses pontos. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+      "explanation": "“Cujo” exprime posse, concorda com o substantivo posterior (“obras” → “cujas”) e, na norma-padrão, não admite artigo depois dele. As demais construções infringem um desses pontos. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
       "id": "q274",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em “A autora cujas obras foram estudadas”, a forma “cujas” concorda com",
+      "prompt": "Compare “Todo país possui regras” e “Todo o país acompanhou a sessão”. A análise correta é",
       "options": [
-        { "id": "a", "text": "“autora”, que é feminino singular." },
-        { "id": "b", "text": "“obras”, que é feminino plural." },
-        { "id": "c", "text": "o verbo “foram”." },
-        { "id": "d", "text": "o artigo ausente depois de “cujas”." },
-        { "id": "e", "text": "o pronome pessoal subentendido." }
+        { "id": "a", "text": "as duas expressões significam necessariamente a totalidade do mesmo país." },
+        { "id": "b", "text": "sem artigo, “todo país” tende a equivaler a qualquer país; com artigo, “todo o país” tende a indicar o país inteiro." },
+        { "id": "c", "text": "o artigo transforma “todo” em numeral ordinal." },
+        { "id": "d", "text": "“todo” é advérbio invariável nas duas ocorrências." },
+        { "id": "e", "text": "o artigo não pode acompanhar o pronome “todo”." }
       ],
       "correctOptionId": "b",
-      "explanation": "O relativo possessivo “cujo” concorda com o substantivo que o segue, isto é, a coisa possuída: “obras”. A autora é o antecedente possuidor, mas não determina a flexão de “cujas”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+      "explanation": "A presença do artigo altera a delimitação: “todo país” tende a generalizar, enquanto “todo o país” apresenta a totalidade de um país determinado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q275",
@@ -634,17 +634,17 @@
     },
     {
       "id": "q276",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A forma plural adequada do pronome indefinido “qualquer” é",
       "options": [
         { "id": "a", "text": "qualqueres" },
-        { "id": "b", "text": "quaisquer" },
-        { "id": "c", "text": "qualquer" },
-        { "id": "d", "text": "quais quer" },
-        { "id": "e", "text": "quaisqueres" }
+        { "id": "b", "text": "qualquer" },
+        { "id": "c", "text": "quais quer" },
+        { "id": "d", "text": "quaisqueres" },
+        { "id": "e", "text": "quaisquer" }
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "O plural de “qualquer” é “quaisquer”: “quaisquer candidatos”. As formas “qualqueres”, “quaisqueres” e “quais quer” não correspondem à flexão normativa do pronome. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
     },
     {
@@ -679,33 +679,33 @@
     },
     {
       "id": "q279",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em “A pessoa a quem me referi compareceu”, a preposição “a” é mantida antes de “quem” porque",
+      "prompt": "Em “Havia bastantes recursos, mas os servidores estavam bastante atentos”, a análise correta é",
       "options": [
-        { "id": "a", "text": "o pronome “quem” exige sempre a preposição “a”." },
-        { "id": "b", "text": "o verbo “referir-se” rege a preposição “a”." },
-        { "id": "c", "text": "“a” é artigo feminino antes de pronome relativo." },
-        { "id": "d", "text": "“quem” é numeral e precisa ser quantificado." },
-        { "id": "e", "text": "o antecedente “pessoa” está no singular." }
+        { "id": "a", "text": "“bastante” é advérbio invariável nas duas ocorrências." },
+        { "id": "b", "text": "“bastantes” acompanha o substantivo e varia; “bastante” intensifica o adjetivo e permanece invariável." },
+        { "id": "c", "text": "a primeira forma é numeral ordinal, e a segunda é artigo." },
+        { "id": "d", "text": "as duas formas são substantivos coletivos." },
+        { "id": "e", "text": "a concordância correta seria “bastante recursos” e “bastantes atentos”." }
       ],
       "correctOptionId": "b",
-      "explanation": "A construção é “referir-se a alguém”. Ao substituir o termo por relativo, a preposição exigida pela regência é preservada: “a quem me referi”. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+      "explanation": "Diante de substantivo, “bastantes” tem valor indefinido e concorda com “recursos”; como intensificador de “atentos”, “bastante” é advérbio e fica invariável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q280",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Assinale a análise correta de “que” em “A norma que foi publicada entrou em vigor”.",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "No segmento “o que deu lugar à figura”, assinale a análise correta.",
       "options": [
-        { "id": "a", "text": "É pronome relativo e retoma “norma”." },
-        { "id": "b", "text": "É artigo definido e determina “norma”." },
-        { "id": "c", "text": "É numeral cardinal e quantifica “norma”." },
-        { "id": "d", "text": "É pronome possessivo e indica propriedade." },
-        { "id": "e", "text": "É advérbio de intensidade." }
+        { "id": "a", "text": "“o” é artigo definido, e “que” é conjunção integrante." },
+        { "id": "b", "text": "“o” é pronome pessoal oblíquo e funciona como objeto direto de “deu”." },
+        { "id": "c", "text": "“o” é pronome demonstrativo e exerce, ele próprio, a função de sujeito da oração relativa." },
+        { "id": "d", "text": "“que” é artigo e determina o substantivo elíptico “processo”." },
+        { "id": "e", "text": "“o” é pronome demonstrativo equivalente a “aquilo”, e “que” é pronome relativo que exerce a função de sujeito da oração que introduz." }
       ],
-      "correctOptionId": "a",
-      "explanation": "“Que” retoma o antecedente “norma” e introduz a oração relativa “que foi publicada”. Não acompanha o nome como artigo nem expressa quantidade ou posse. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+      "correctOptionId": "e",
+      "explanation": "O antecedente demonstrativo “o” equivale a “aquilo”; o relativo “que” retoma esse antecedente e é sujeito de “deu”. Fonte oficial: CESPE/UnB, STF, Cargo 8 — Analista Judiciário, Apoio Especializado, Revisão de Texto, aplicação em 15/12/2013, caderno STF13_008_17, item 55, gabarito definitivo ERRADO. O item original atribuía indevidamente a função de sujeito a “o”; adaptação para cinco alternativas, preservados núcleo e solução."
     },
     {
       "id": "q281",
@@ -724,18 +724,18 @@
     },
     {
       "id": "q282",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A opção que preserva o emprego adequado de pronome relativo é",
+      "prompt": "Assinale a opção que apresenta plural adequado de substantivo composto na norma-padrão.",
       "options": [
-        { "id": "a", "text": "“O processo cujo o prazo expirou foi arquivado.”" },
-        { "id": "b", "text": "“O processo onde foi arquivado é complexo.”" },
-        { "id": "c", "text": "“O processo de que tratei foi arquivado.”" },
-        { "id": "d", "text": "“O processo a quem me referi foi arquivado.”" },
-        { "id": "e", "text": "“O processo quais foi arquivado.”" }
+        { "id": "a", "text": "guardas-chuva" },
+        { "id": "b", "text": "pés de moleques" },
+        { "id": "c", "text": "palavras-chave" },
+        { "id": "d", "text": "vices-presidentes" },
+        { "id": "e", "text": "recos-recos" }
       ],
       "correctOptionId": "c",
-      "explanation": "“Tratar de algo” exige “de que”. Em A, “cujo” não admite artigo; em B, “onde” não retoma lugar; em D, “quem” é usado para pessoas; em E, há erro de flexão e estrutura. Fonte: questão autoral baseada na Nomenclatura Gramatical Brasileira (1959), https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf."
+      "explanation": "Em “palavra-chave”, o segundo substantivo limita o primeiro por finalidade ou semelhança, e a forma consagrada flexiona o primeiro: “palavras-chave”. As demais formas adequadas seriam “guarda-chuvas”, “pés de moleque”, “vice-presidentes” e “reco-recos”. Fonte: questão autoral baseada nas referências do conteúdo e no VOLP."
     },
     {
       "id": "q283",
