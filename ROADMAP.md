@@ -333,7 +333,7 @@ I - História do Estado do Maranhão
 - 6.2. Companhias de Comércio do Maranhão e Grão-Pará.
 - 6.3. Os objetivos da Revolta.
 
-##### [ ] Assunto 076 - Itens 7, 8 e 9: Adesão do Maranhão ao Império, Independência do Brasil e Batalha do Jenipapo.
+##### [>] Em progresso Assunto 076 - Itens 7, 8 e 9: Adesão do Maranhão ao Império, Independência do Brasil e Batalha do Jenipapo.
 
 - Item 7. Período do Império: adesão do Maranhão.
 - Item 8. A Independência do Brasil.
