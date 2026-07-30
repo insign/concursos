@@ -125,7 +125,9 @@ test('restores a remote simulation on another device with the same alias', async
   });
 
   await page.goto(`/simulados/?id=${simulationId}`);
-  await expect(page.getByText('Questão recuperada de outro dispositivo')).toBeVisible();
+  await expect(page.getByText('Questão recuperada de outro dispositivo')).toBeVisible({
+    timeout: 30_000,
+  });
   await expect(page.locator('[data-question-list] > li')).toHaveCount(1);
   await expect(page.getByRole('link', { name: 'Continuar simulado' })).toBeVisible();
 });

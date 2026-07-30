@@ -36,6 +36,7 @@ const result = await injectManifest({
   globPatterns: [
     'index.html',
     'offline/index.html',
+    'navigation-catalog.json',
     'favicon.svg',
     'icons/*.png',
     'manifest.webmanifest',
