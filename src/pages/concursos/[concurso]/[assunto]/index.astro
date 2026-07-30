@@ -1,7 +1,6 @@
 ---
 import { render } from 'astro:content';
 import MermaidRuntime from '../../../../components/MermaidRuntime.astro';
-import StudiedToggle from '../../../../components/StudiedToggle.astro';
 import StudyLayout from '../../../../layouts/StudyLayout.astro';
 import { getSubjectStaticPaths, type CatalogContest, type CatalogSubject } from '../../../../lib/catalog';
 
@@ -18,8 +17,7 @@ const hasMermaid = subject.contentEntry.body?.includes('```mermaid') ?? false;
 ---
 
 <StudyLayout contest={contest} subject={subject} active="content">
-  <div class="subject-actions print-hidden">
-    <StudiedToggle contestStorageId={contest.storageId} subjectStorageId={subject.storageId} />
+  <div class="reading-entry print-hidden">
     <a class="reading-entry-link" href={`/concursos/${contest.slug}/${subject.slug}/leitura/`}>
       Ler sem distrações
     </a>

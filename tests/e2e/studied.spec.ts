@@ -15,20 +15,20 @@ test.beforeEach(async ({ page }) => {
 
 test('marks a subject as studied and persists it across reloads', async ({ page }) => {
   await page.goto(contentUrl);
-  const mark = page.getByRole('button', { name: 'Marcar como estudado' });
+  const mark = page.getByRole('button', { name: 'Marcar como concluído' });
   await expect(mark).toBeEnabled();
 
   await mark.click();
-  await expect(page.getByRole('button', { name: 'Marcar como não estudado' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 
   await page.reload();
-  await expect(page.getByRole('button', { name: 'Marcar como não estudado' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 });
 
 test('shows and removes the studied indicator in the catalog listing', async ({ page }) => {
   await page.goto(contentUrl);
-  await page.getByRole('button', { name: 'Marcar como estudado' }).click();
-  await expect(page.getByRole('button', { name: 'Marcar como não estudado' })).toBeVisible();
+  await page.getByRole('button', { name: 'Marcar como concluído' }).click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 
   await page.goto(contestUrl);
   const indicator = page.locator(`[data-subject-studied][data-subject-id="${subjectId}"]`);
@@ -36,8 +36,8 @@ test('shows and removes the studied indicator in the catalog listing', async ({ 
 
   // Desmarca e o indicador some.
   await page.goto(contentUrl);
-  await page.getByRole('button', { name: 'Marcar como não estudado' }).click();
-  await expect(page.getByRole('button', { name: 'Marcar como estudado' })).toBeVisible();
+  await page.getByRole('button', { name: 'Desfazer conclusão' }).click();
+  await expect(page.getByRole('button', { name: 'Marcar como concluído' })).toBeVisible();
   await page.goto(contestUrl);
   await expect(page.locator(`[data-subject-studied][data-subject-id="${subjectId}"]`)).toBeHidden();
 });
@@ -56,7 +56,7 @@ test('adopts the studied document from the KV (cross-device restore)', async ({ 
 
   await page.goto(contentUrl);
   // O coordenador adota o remoto no load e a UI reflete o estado estudado.
-  await expect(page.getByRole('button', { name: 'Marcar como não estudado' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
   await page.goto(contestUrl);
   await expect(page.locator(`[data-subject-studied][data-subject-id="${subjectId}"]`)).toBeVisible();
 });
@@ -73,7 +73,7 @@ test('restores the studied state in reading mode without the header coordinator'
   });
 
   await page.goto(readingUrl);
-  await expect(page.getByRole('button', { name: 'Marcar como não estudado' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 });
 
 test('publishes the studied document to the KV without Authorization', async ({ page, kvStore }) => {
@@ -85,8 +85,8 @@ test('publishes the studied document to the KV without Authorization', async ({ 
   });
 
   await page.goto(contentUrl);
-  await page.getByRole('button', { name: 'Marcar como estudado' }).click();
-  await expect(page.getByRole('button', { name: 'Marcar como não estudado' })).toBeVisible();
+  await page.getByRole('button', { name: 'Marcar como concluído' }).click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 
   await expect
     .poll(() => (kvStore.get(estudadosDocId)?.json as { studiedSubjectIds?: string[] })?.studiedSubjectIds, {
@@ -98,8 +98,8 @@ test('publishes the studied document to the KV without Authorization', async ({ 
 
 test('keeps the mark control available in reading mode', async ({ page }) => {
   await page.goto(readingUrl);
-  const mark = page.getByRole('button', { name: 'Marcar como estudado' });
+  const mark = page.getByRole('button', { name: 'Marcar como concluído' });
   await expect(mark).toBeEnabled();
   await mark.click();
-  await expect(page.getByRole('button', { name: 'Marcar como não estudado' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 });

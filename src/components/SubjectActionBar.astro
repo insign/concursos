@@ -1,0 +1,18 @@
+---
+import StudiedToggle from './StudiedToggle.astro';
+
+interface Props {
+  contestSlug: string;
+  contestStorageId: string;
+  subjectStorageId: string;
+}
+
+const { contestSlug, contestStorageId, subjectStorageId } = Astro.props;
+---
+
+<div class="subject-action-bar print-hidden" data-subject-action-bar role="group" aria-label="Ações do assunto">
+  <StudiedToggle contestStorageId={contestStorageId} subjectStorageId={subjectStorageId} />
+  <a class="subject-action-back" href={`/concursos/${contestSlug}/`}>
+    Voltar para o concurso
+  </a>
+</div>
