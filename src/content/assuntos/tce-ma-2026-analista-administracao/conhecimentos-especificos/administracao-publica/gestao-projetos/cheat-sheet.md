@@ -1,49 +1,45 @@
 # Gestão de projetos
 
-## Conceitos
+## Mapa central
 
-- Projeto = esforço temporário para criar entrega singular.
-- Temporário = início e fim; não significa curto.
-- Singular = combinação específica; não exige que tudo seja inédito.
-- Gestão de projetos = conhecimentos + habilidades + métodos + ferramentas para atingir objetivos e gerar valor.
+**Projeto = esforço temporário + entrega singular + mudança governada + geração de valor.**
 
 | Objeto | Núcleo |
 | --- | --- |
-| Projeto | mudança temporária e entrega singular |
-| Operação | trabalho contínuo e recorrente |
-| Programa | componentes relacionados geridos para benefícios conjuntos |
+| Projeto | temporário; cria entrega singular |
+| Operação | contínua ou recorrente; sustenta capacidade |
+| Programa | componentes relacionados coordenados para benefícios conjuntos |
 | Portfólio | componentes priorizados para objetivos estratégicos |
 | Produto | veículo de valor com ciclo potencialmente maior que o projeto |
 
+- Temporário = tem início e fim; não significa curto.
+- Singular = combinação específica; não exige ineditismo absoluto.
 - Programa ≠ projeto grande.
-- Portfólio não exige relação técnica entre componentes.
-- Projeto pode criar capacidade; operação a sustenta.
+- Portfólio não exige relação técnica entre todos os componentes.
+- Projeto cria ou transforma capacidade; operação a sustenta.
 
 ## Valor
 
-| Nível | Exemplo |
-| --- | --- |
-| Entrega/output | sistema implantado |
-| Resultado/outcome | processo passou a ser digital |
-| Benefício | redução mensurável de prazo/custo |
-| Valor público | necessidade social atendida com legitimidade e eficiência |
+| Nível | Pergunta | Exemplo |
+| --- | --- | --- |
+| Entrega/output | o que foi produzido? | sistema implantado |
+| Resultado/outcome | que mudança ocorreu pelo uso? | processo passou a ser digital |
+| Benefício | qual ganho mensurável? | redução de prazo/custo |
+| Valor público | qual necessidade legítima foi atendida? | acesso amplo e eficiente |
 
-- Entrega ≠ resultado ≠ benefício.
+- Entrega ≠ resultado ≠ benefício ≠ valor.
 - Sucesso ≠ somente prazo + custo + escopo.
-- Benefícios podem ocorrer após o encerramento.
+- Benefícios podem surgir após o encerramento.
 
-## Governança
+## Governança e papéis
 
 - Governança = direção + alçadas + supervisão + prestação de contas.
 - Gestão = condução do trabalho dentro do direcionamento.
-- Decreto nº 9.203/2017: liderança + estratégia + controle.
-- Governança pública: avaliar + direcionar + monitorar a gestão.
-- Valor público: produtos e resultados que respondem a interesse público.
+- Decreto nº 9.203/2017: **liderança + estratégia + controle**.
+- Governança pública: **avaliar + direcionar + monitorar**.
 - Riscos devem integrar atividades, processos e projetos.
 
-## Papéis
-
-| Papel | Responsabilidade |
+| Papel | Responsabilidade predominante |
 | --- | --- |
 | Patrocinador | justificativa, apoio, recursos e decisão estratégica |
 | Gerente | integração e condução do projeto |
@@ -56,7 +52,7 @@
 - PMO pode apoiar, controlar, padronizar ou direcionar.
 - PMO não torna a organização automaticamente projetizada.
 
-## Documentos
+## Instrumentos
 
 | Instrumento | Função |
 | --- | --- |
@@ -69,27 +65,34 @@
 - Business case ≠ termo de abertura.
 - Termo de abertura ≠ plano detalhado.
 - Plano de benefícios acompanha valor além da entrega.
+- Versão de trabalho ≠ linha de base aprovada.
 
-## Ciclos e abordagens
+## Ciclo e abordagens
 
-| Abordagem | Característica |
+| Abordagem | Chave |
 | --- | --- |
 | Preditiva | requisitos conhecidos, plano detalhado e baseline |
 | Iterativa | refinamento por ciclos |
 | Incremental | entrega em partes utilizáveis |
 | Adaptativa | feedback frequente e alta incerteza |
-| Híbrida | combinação deliberada conforme contexto |
+| Híbrida | combinação deliberada conforme o contexto |
 
 - Iterativo refina; incremental adiciona.
 - Fases podem ser sequenciais, sobrepostas ou repetidas.
 - Híbrido ≠ improvisação.
 - Tailoring = adaptação consciente e proporcional.
-- Tailoring ≠ eliminar governança ou método.
+- Tailoring ≠ eliminar governança, método ou exigência legal.
 
-## PMBOK 8
+## PMBOK — não misture as edições
 
-- Vigente: 8ª edição, novembro de 2025.
-- Princípios + domínios + processos não prescritivos.
+| Referência | Fórmula de memória | Estrutura |
+| --- | --- | --- |
+| PMBOK 6 | **49–5–10** | 49 processos; 5 grupos; 10 áreas |
+| PMBOK 7 | **12–8** | 12 princípios; 8 domínios |
+| PMBOK 8 | **6–7–5** | 6 princípios; 7 domínios; 5 áreas de foco |
+| Process Groups Guide | **49–5 preditivo** | 49 processos em 5 grupos; guia separado de 2022 |
+
+### PMBOK 8 — vigente no edital
 
 Seis princípios:
 
@@ -119,22 +122,74 @@ Cinco áreas de foco:
 5. encerramento.
 
 - Área de foco ≠ fase obrigatória.
-- Não atribuir contagem rígida de processos sem fonte da edição.
+- Processos reaparecem de modo não prescritivo.
+- Não atribuir contagem rígida universal sem identificar a fonte.
 
-## PMBOK 6: referência histórica
+### PMBOK 7 — referência histórica importante
 
-- 49 processos.
-- 5 grupos: iniciação; planejamento; execução; monitoramento e controle; encerramento.
-- 10 áreas: integração, escopo, cronograma, custos, qualidade, recursos, comunicações, riscos, aquisições e partes interessadas.
+Doze princípios, em palavras-chave:
+
+1. diligência/stewardship;
+2. equipe colaborativa;
+3. engajamento;
+4. valor;
+5. pensamento sistêmico;
+6. liderança;
+7. tailoring;
+8. qualidade;
+9. complexidade;
+10. respostas a riscos;
+11. adaptabilidade e resiliência;
+12. mudança para o estado futuro.
+
+Oito domínios:
+
+1. partes interessadas;
+2. equipe;
+3. abordagem de desenvolvimento e ciclo de vida;
+4. planejamento;
+5. trabalho do projeto;
+6. entrega;
+7. medição;
+8. incerteza.
+
+- Princípio = orientação de comportamento/decisão.
+- Domínio = atividades interdependentes relevantes ao desempenho.
+- Domínio ≠ fase ≠ grupo de processos ≠ área de conhecimento.
+- A 7ª não aboliu processos: reorganizou a exposição em princípios, domínios, tailoring e modelos/métodos/artefatos.
+
+### PMBOK 6 e modelo processual
+
+Cinco grupos:
+
+1. iniciação;
+2. planejamento;
+3. execução;
+4. monitoramento e controle;
+5. encerramento.
+
+Dez áreas:
+
+1. integração;
+2. escopo;
+3. cronograma;
+4. custos;
+5. qualidade;
+6. recursos;
+7. comunicações;
+8. riscos;
+9. aquisições;
+10. partes interessadas.
+
 - Grupo de processos ≠ fase.
-- Não transportar automaticamente essa estrutura para a 8ª edição.
+- Não transportar automaticamente 49–5–10 para a 8ª edição.
 
 ## ISO 21502:2020
 
 - Orientação de alto nível para gestão de projetos.
 - Aplicável a organizações públicas, privadas e beneficentes.
 - Qualquer porte, duração, complexidade e abordagem.
-- Preditiva, incremental, iterativa, adaptativa, híbrida e ágil.
+- Abrange preditiva, incremental, iterativa, adaptativa, híbrida e ágil.
 - Não orienta especificamente gestão de programas ou portfólios.
 
 ## Integração e mudanças
@@ -167,7 +222,7 @@ Fluxo:
 - Decomposição hierárquica orientada a entregas.
 - Menor nível = pacote de trabalho.
 - Regra dos 100% = todo o escopo, sem omissão/duplicação.
-- Linha de base histórica: declaração + EAP + dicionário.
+- Linha de base histórica = declaração + EAP + dicionário.
 - EAP ≠ cronograma.
 - EAP ≠ organograma.
 - EAP ≠ lista de atividades.
@@ -267,13 +322,13 @@ $$
 EAC=\frac{BAC}{CPI}
 $$
 
-- Uso: desempenho de custo continuará.
+Uso: desempenho de custo continuará.
 
 $$
 EAC=AC+(BAC-EV)
 $$
 
-- Uso: variação passada atípica.
+Uso: variação passada atípica.
 
 $$
 ETC=EAC-AC
@@ -438,10 +493,13 @@ Fluxo:
 - Cancelamento também exige encerramento formal.
 - Encerrar projeto ≠ encerrar acompanhamento de benefícios.
 
-## Pegadinhas
+## Pegadinhas finais
 
 - Temporário não é curto.
-- Fase não é grupo de processos.
+- Entrega não é benefício.
+- Fase não é grupo, domínio nem área de foco.
+- **6ª = 49–5–10; 7ª = 12–8; 8ª = 6–7–5.**
+- Guia de 49 processos de 2022 é preditivo e separado.
 - EAP não é cronograma.
 - Marco tem duração zero.
 - Caminho crítico não é o mais caro.
