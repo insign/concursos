@@ -321,7 +321,7 @@ I - História do Estado do Maranhão
 - Item 2. Fundação de São Luís.
 - Item 3. Batalha de Guaxenduba.
 
-##### [R] Em revisão Assunto 074 - Itens 4 e 5: Invasão e expulsão dos holandeses.
+##### [x] Concluído Assunto 074 - Itens 4 e 5: Invasão e expulsão dos holandeses.
 
 - Item 4. A invasão holandesa.
 - Item 5. A expulsão dos holandeses.
