@@ -251,62 +251,62 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 ##### [x] Concluído Assunto 053 - Item 9: Controle da atividade financeira do Estado: espécies e sistemas. ([conteúdo](src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/controle-externo/controle-atividade-financeira/conteudo.md), commit `5dcd916`)
 
-##### [>] Em progresso Assunto 054 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual.
+##### [x] Concluído Assunto 054 - Itens 10 e 11: TCU, tribunais de contas estaduais e do Distrito Federal e TCE/MA na Constituição estadual. ([conteúdo](src/content/assuntos/tce-ma-2026-analista-administracao/conhecimentos-gerais/controle-externo/tcu-tces-tcema-constituicao/conteudo.md), commit `0203b54`)
 
 - Item 10. Tribunal de Contas da União (TCU), tribunais de contas dos estados e do Distrito Federal.
 - Item 11. Tribunal de Contas do Estado do Maranhão na Constituição do Estado do Maranhão.
 
 #### Legislação Específica
 
-##### [ ] Assunto 055 - Item 1, recorte: instituição e competência do TCE/MA.
+##### [x] Concluído Assunto 055 - Item 1, recorte: instituição e competência do TCE/MA.
 
 - Item 1. Regimento Interno do Tribunal de Contas do Estado do Maranhão (TCE/MA).
 - O Regimento Interno é desdobrado nos Assuntos 055 a 063 por função normativa, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [ ] Assunto 056 - Item 1, recorte: órgãos, autoridades e organização interna.
+##### [x] Concluído Assunto 056 - Item 1, recorte: órgãos, autoridades e organização interna.
 
-##### [ ] Assunto 057 - Item 1, recorte: sessões, distribuição e deliberação.
+##### [x] Concluído Assunto 057 - Item 1, recorte: sessões, distribuição e deliberação.
 
-##### [ ] Assunto 058 - Item 1, recorte: processos de controle externo.
+##### [x] Concluído Assunto 058 - Item 1, recorte: processos de controle externo.
 
-##### [ ] Assunto 059 - Item 1, recorte: denúncias, representações e consultas.
+##### [x] Concluído Assunto 059 - Item 1, recorte: denúncias, representações e consultas.
 
-##### [ ] Assunto 060 - Item 1, recorte: garantias processuais, provas e prazos.
+##### [x] Concluído Assunto 060 - Item 1, recorte: garantias processuais, provas e prazos.
 
-##### [ ] Assunto 061 - Item 1, recorte: decisões, sanções e execução.
+##### [x] Concluído Assunto 061 - Item 1, recorte: decisões, sanções e execução.
 
-##### [ ] Assunto 062 - Item 1, recorte: recursos e revisão.
+##### [x] Concluído Assunto 062 - Item 1, recorte: recursos e revisão.
 
-##### [ ] Assunto 063 - Item 1, recorte: atos normativos, ética e regras finais.
+##### [x] Concluído Assunto 063 - Item 1, recorte: atos normativos, ética e regras finais.
 
-##### [ ] Assunto 064 - Item 2, recorte: jurisdição e competência da Lei nº 8.258/2005.
+##### [x] Concluído Assunto 064 - Item 2, recorte: jurisdição e competência da Lei nº 8.258/2005.
 
 - Item 2. Lei nº 8.258/2005 (Lei Orgânica): jurisdição e competência.
 
-##### [ ] Assunto 065 - Item 2, recorte: organização, membros, Ministério Público de Contas, governança e regras finais da Lei nº 8.258/2005.
+##### [x] Concluído Assunto 065 - Item 2, recorte: organização, membros, Ministério Público de Contas, governança e regras finais da Lei nº 8.258/2005.
 
 - Item 2. Lei nº 8.258/2005 (Lei Orgânica): organização, membros e Ministério Público de Contas; governança e regras finais.
 - A Lei nº 8.258/2005 é desdobrada nos Assuntos 064 a 068 por função, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [ ] Assunto 066 - Item 2, recorte: contas e instrumentos de controle.
+##### [x] Concluído Assunto 066 - Item 2, recorte: contas e instrumentos de controle.
 
-##### [ ] Assunto 067 - Item 2, recorte: processos.
+##### [x] Concluído Assunto 067 - Item 2, recorte: processos.
 
-##### [ ] Assunto 068 - Item 2, recorte: decisões, débitos, sanções, execução, recursos e revisão.
+##### [x] Concluído Assunto 068 - Item 2, recorte: decisões, débitos, sanções, execução, recursos e revisão.
 
-##### [ ] Assunto 069 - Item 3, recorte: modelo organizacional, direção e unidades técnicas de controle externo da Lei nº 9.936/2013.
+##### [x] Concluído Assunto 069 - Item 3, recorte: modelo organizacional, direção e unidades técnicas de controle externo da Lei nº 9.936/2013.
 
 - Item 3. Lei nº 9.936/2013 (Organização administrativa): modelo organizacional e direção; unidades técnicas de controle externo.
 - A Lei nº 9.936/2013 é desdobrada nos Assuntos 069 e 070 por unidade funcional, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [ ] Assunto 070 - Item 3, recorte: unidades administrativas e de apoio, cargos, funções, anexos e reestruturação vigente.
+##### [x] Concluído Assunto 070 - Item 3, recorte: unidades administrativas e de apoio, cargos, funções, anexos e reestruturação vigente.
 
-##### [ ] Assunto 071 - Item 4: IN nº 50/2017 e suas alterações — fluxo completo do procedimento.
+##### [x] Concluído Assunto 071 - Item 4: IN nº 50/2017 e suas alterações — fluxo completo do procedimento.
 
 - Item 4. IN nº 50/2017 e suas alterações: medidas preliminares; instauração, investigação e quantificação do débito; conclusão, encaminhamento, decadência e anexos.
 - A IN nº 50/2017 é tratada em um único fluxo de procedimento, sem inventar faixas de artigos nem repetir dispositivos.
 
-##### [ ] Assunto 072 - Item 5: IN nº 82/2025.
+##### [x] Concluído Assunto 072 - Item 5: IN nº 82/2025.
 
 - Item 5. IN nº 82/2025.
 - Norma curta, mantida em um único assunto.
@@ -315,25 +315,25 @@ Referência: item 14.2.3, páginas físicas 29 a 32 do PDF (páginas 235 a 238 d
 
 I - História do Estado do Maranhão
 
-##### [ ] Assunto 073 - Itens 1, 2 e 3: França Equinocial, fundação de São Luís e Batalha de Guaxenduba.
+##### [x] Concluído Assunto 073 - Itens 1, 2 e 3: França Equinocial, fundação de São Luís e Batalha de Guaxenduba.
 
 - Item 1. História do Maranhão: França equinocial: expedição de Daniel de La Touche.
 - Item 2. Fundação de São Luís.
 - Item 3. Batalha de Guaxenduba.
 
-##### [ ] Assunto 074 - Itens 4 e 5: Invasão e expulsão dos holandeses.
+##### [x] Concluído Assunto 074 - Itens 4 e 5: Invasão e expulsão dos holandeses.
 
 - Item 4. A invasão holandesa.
 - Item 5. A expulsão dos holandeses.
 
-##### [ ] Assunto 075 - Item 6, subitens 6.1, 6.2 e 6.3: Revolta de Bequimão e Companhias de Comércio.
+##### [x] Concluído Assunto 075 - Item 6, subitens 6.1, 6.2 e 6.3: Revolta de Bequimão e Companhias de Comércio.
 
 - 6.1. A Revolta de Bequimão.
   - 6.1.1. Causas.
 - 6.2. Companhias de Comércio do Maranhão e Grão-Pará.
 - 6.3. Os objetivos da Revolta.
 
-##### [ ] Assunto 076 - Itens 7, 8 e 9: Adesão do Maranhão ao Império, Independência do Brasil e Batalha do Jenipapo.
+##### [x] Concluído Assunto 076 - Itens 7, 8 e 9: Adesão do Maranhão ao Império, Independência do Brasil e Batalha do Jenipapo.
 
 - Item 7. Período do Império: adesão do Maranhão.
 - Item 8. A Independência do Brasil.

@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q6339",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No recorte de decisões, sanções e execução, o ponto central é compreender",
+      "options": [
+        { "id": "A", "text": "parecer, julgamento, débito, multa, cumprimento e cobrança das decisões." },
+        { "id": "B", "text": "somente prazos recursais e embargos." },
+        { "id": "C", "text": "ética disciplinar interna em profundidade." },
+        { "id": "D", "text": "apenas a fase de citação para defesa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Assunto 061 cobre decisões, sanções e execução, deixando recursos e revisão para o Assunto 062. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6340",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra constitucional sobre título executivo alcança decisões do Tribunal de Contas das quais resulte",
+      "options": [
+        { "id": "A", "text": "qualquer parecer sem obrigação." },
+        { "id": "B", "text": "imputação de débito ou multa." },
+        { "id": "C", "text": "apenas mudança de relator." },
+        { "id": "D", "text": "somente consulta abstrata sem valor." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A eficácia de título executivo é associada constitucionalmente às decisões de que resulte imputação de débito ou multa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6341",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A eficácia executiva de uma decisão do TCE/MA significa que",
+      "options": [
+        { "id": "A", "text": "o Tribunal passa a ser juízo judicial de execução." },
+        { "id": "B", "text": "não há possibilidade de controle judicial." },
+        { "id": "C", "text": "a decisão pode aparelhar cobrança, conforme a natureza do crédito." },
+        { "id": "D", "text": "todo parecer prévio vira sentença penal." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Título executivo facilita a cobrança, mas não converte o TCE em órgão judicial nem elimina análise da legitimidade executiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6342",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O parecer prévio emitido sobre contas anuais de Governador ou Prefeito deve ser entendido como",
+      "options": [
+        { "id": "A", "text": "multa automática." },
+        { "id": "B", "text": "execução judicial imediata pelo TCE." },
+        { "id": "C", "text": "recurso de revisão." },
+        { "id": "D", "text": "manifestação qualificada de apreciação, sem confusão automática com julgamento definitivo pelo TCE." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Parecer prévio aprecia contas anuais em hipóteses próprias e não deve ser confundido com todo julgamento de contas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6343",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No julgamento de contas, o TCE/MA pode alcançar responsáveis que",
+      "options": [
+        { "id": "A", "text": "utilizem, arrecadem, guardem, gerenciem ou administrem recursos públicos." },
+        { "id": "B", "text": "apenas assistam sessões públicas sem vínculo com recursos." },
+        { "id": "C", "text": "somente apresentem consulta abstrata." },
+        { "id": "D", "text": "nunca tenham relação com bens ou valores públicos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A competência oficial inclui julgar contas de responsáveis por dinheiros, bens e valores públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6344",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em tomada de contas especial, uma hipótese segura citada por fontes oficiais é",
+      "options": [
+        { "id": "A", "text": "aprovação automática de todas as despesas." },
+        { "id": "B", "text": "omissão no dever de prestar contas." },
+        { "id": "C", "text": "sorteio de conselheiro sem processo." },
+        { "id": "D", "text": "consulta normativa sem fato." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Notícias oficiais associam tomada de contas especial à omissão de prestar contas, dano, desvio ou ato ilegal com dano ao erário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6345",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A determinação expedida pelo TCE/MA é melhor compreendida como",
+      "options": [
+        { "id": "A", "text": "recurso contra acórdão." },
+        { "id": "B", "text": "multa sempre pecuniária." },
+        { "id": "C", "text": "comando para adoção de providência, correção ou cumprimento da lei." },
+        { "id": "D", "text": "certidão judicial de execução." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Determinação é ordem de providência ou correção e não se confunde com multa, débito ou recurso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6346",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A medida cautelar do TCE/MA tem natureza",
+      "options": [
+        { "id": "A", "text": "de condenação definitiva em débito." },
+        { "id": "B", "text": "de recurso obrigatório." },
+        { "id": "C", "text": "de inscrição automática em dívida ativa." },
+        { "id": "D", "text": "preventiva ou instrumental, voltada a evitar lesão ou assegurar efetividade." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Cautelar preserva a utilidade do processo ou evita lesão, mas não é julgamento definitivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6347",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando o TCE/MA representa ao Poder competente, ele",
+      "options": [
+        { "id": "A", "text": "comunica irregularidade ou abuso para providências da autoridade competente." },
+        { "id": "B", "text": "substitui integralmente o Poder Judiciário." },
+        { "id": "C", "text": "anula todos os recursos futuros." },
+        { "id": "D", "text": "transforma denúncia em consulta." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Representação a outro Poder é encaminhamento institucional, não execução universal pelo próprio Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6348",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A diferença central entre débito e multa é que",
+      "options": [
+        { "id": "A", "text": "ambos são sempre recursos." },
+        { "id": "B", "text": "débito recompõe patrimônio público lesado, enquanto multa sanciona ou inibe infração." },
+        { "id": "C", "text": "multa é sempre parecer prévio." },
+        { "id": "D", "text": "débito nunca envolve valor." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A página oficial do TCE/MA diferencia débito e multa por suas finalidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6349",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A imputação de débito busca principalmente",
+      "options": [
+        { "id": "A", "text": "punir processualmente recurso protelatório." },
+        { "id": "B", "text": "responder consulta abstrata." },
+        { "id": "C", "text": "ressarcir ou recompor dano ao erário." },
+        { "id": "D", "text": "eleger presidente do Tribunal." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Débito tem finalidade ressarcitória, ligada à recomposição do patrimônio público lesado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6350",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A multa aplicada pelo TCE/MA tem finalidade mais diretamente ligada a",
+      "options": [
+        { "id": "A", "text": "recompor exclusivamente o valor do dano." },
+        { "id": "B", "text": "emitir parecer prévio sem sanção." },
+        { "id": "C", "text": "substituir todos os meios de defesa." },
+        { "id": "D", "text": "sancionar ou inibir infração a norma legal ou regulamentar." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Multa possui finalidade sancionatória ou preventiva, diferente do débito ressarcitório. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6351",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre débito e multa na mesma decisão, é correto afirmar que",
+      "options": [
+        { "id": "A", "text": "podem coexistir, pois têm finalidades diferentes." },
+        { "id": "B", "text": "são sempre mutuamente excludentes." },
+        { "id": "C", "text": "somente aparecem em consulta." },
+        { "id": "D", "text": "não podem constar de tomada de contas especial." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Fontes oficiais mostram decisões com débito e multa cumulados; uma recomposição e a outra sanciona. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6352",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A menção a valores de multas na Lei Orgânica deve ser estudada com cautela porque",
+      "options": [
+        { "id": "A", "text": "não existe competência sancionatória." },
+        { "id": "B", "text": "não foi localizada versão oficial consolidada integral e houve alterações legais posteriores." },
+        { "id": "C", "text": "multas são sempre criminais." },
+        { "id": "D", "text": "o TCE/MA não possui Lei Orgânica." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O conteúdo evita cravar valores e incisos sem texto consolidado vigente, sobretudo diante de alterações posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6353",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei Estadual nº 9.519/2011 é relevante no estudo das sanções porque",
+      "options": [
+        { "id": "A", "text": "revogou todos os julgamentos do TCE/MA." },
+        { "id": "B", "text": "criou o cargo de prefeito." },
+        { "id": "C", "text": "alterou a Lei Orgânica, incluindo hipótese relacionada a ato processual manifestamente protelatório." },
+        { "id": "D", "text": "eliminou a possibilidade de multa." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A alteração demonstra que o texto original de 2005 não esgota o regime vigente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6354",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo de 15 dias encontrado em notícias oficiais sobre pagamento de débito e multa deve ser tratado como",
+      "options": [
+        { "id": "A", "text": "prazo universal de todo processo do TCE/MA." },
+        { "id": "B", "text": "prazo recursal geral." },
+        { "id": "C", "text": "prova de ausência de Lei Orgânica." },
+        { "id": "D", "text": "prazo de casos concretos, que não deve ser generalizado sem base normativa." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O conteúdo usa o prazo de 15 dias como exemplo de prática em acórdãos, sem transformá-lo em regra universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6355",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O prazo de 10 dias mencionado em edital do MPC para pagamento de multas corresponde, no material, a",
+      "options": [
+        { "id": "A", "text": "etapa de notificação/cobrança, sem substituir automaticamente o prazo original do acórdão." },
+        { "id": "B", "text": "regra universal de defesa." },
+        { "id": "C", "text": "prazo obrigatório de revisão." },
+        { "id": "D", "text": "anulação da multa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O edital de cobrança não deve ser confundido com prazo geral de defesa, recurso ou prazo original de todos os acórdãos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6356",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pagamento tardio de débito ou multa pode gerar",
+      "options": [
+        { "id": "A", "text": "perdão automático." },
+        { "id": "B", "text": "acréscimos legais previstos na decisão e na legislação aplicável." },
+        { "id": "C", "text": "transformação em parecer prévio." },
+        { "id": "D", "text": "sorteio de novo concurso." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Notícias oficiais mencionam acréscimos legais em caso de mora, conforme decisão e legislação aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6357",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A certidão de trânsito em julgado do TCE/MA é relevante porque",
+      "options": [
+        { "id": "A", "text": "substitui toda decisão." },
+        { "id": "B", "text": "elimina controle judicial." },
+        { "id": "C", "text": "informa a situação de processos e ajuda a identificar definitividade administrativa." },
+        { "id": "D", "text": "aplica multa sem processo." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O serviço oficial informa a situação processual e se relaciona à etapa de cumprimento ou cobrança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6358",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A SUPEX deve ser compreendida como",
+      "options": [
+        { "id": "A", "text": "juízo estadual de execução." },
+        { "id": "B", "text": "órgão que substitui o STF." },
+        { "id": "C", "text": "recurso de reconsideração." },
+        { "id": "D", "text": "estrutura de acompanhamento e providências administrativas relativas à execução de acórdãos." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A notícia oficial associa a SUPEX à execução/acompanhamento administrativo de acórdãos, não à jurisdição judicial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6359",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre consequências administrativas de não pagamento de multas, a fonte oficial menciona",
+      "options": [
+        { "id": "A", "text": "CEI, DDNT e inscrição em dívida ativa, conforme ato e legislação aplicável." },
+        { "id": "B", "text": "aprovação automática das contas." },
+        { "id": "C", "text": "extinção de todo processo sem cobrança." },
+        { "id": "D", "text": "transformação de multa em parecer prévio." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A notícia do TCE/MA sobre notificações de pagamento menciona CEI, DDNT e dívida ativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6360",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Tema 642 do STF, em crédito ligado a dano ao erário municipal, o legitimado indicado para execução é",
+      "options": [
+        { "id": "A", "text": "sempre a União." },
+        { "id": "B", "text": "o Município prejudicado." },
+        { "id": "C", "text": "qualquer cidadão sem título." },
+        { "id": "D", "text": "o relator individualmente." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O STF fixou que o Município prejudicado executa crédito decorrente de multa ligada a dano ao erário municipal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6361",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na ADPF 1.011, o STF admitiu que multas simples aplicadas por TCE estadual sejam executadas",
+      "options": [
+        { "id": "A", "text": "pela banca examinadora." },
+        { "id": "B", "text": "por particular sem interesse." },
+        { "id": "C", "text": "pelo Estado-membro, em hipóteses de inobservância normativa ou dever de colaboração." },
+        { "id": "D", "text": "por comissão de ética interna." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O STF distinguiu multa simples de multa ligada a dano municipal, admitindo execução pelo Estado-membro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6362",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A regra correta sobre legitimidade executiva é",
+      "options": [
+        { "id": "A", "text": "sempre Estado, em todos os casos." },
+        { "id": "B", "text": "sempre Município, em todos os casos." },
+        { "id": "C", "text": "sempre TCE como juízo de execução." },
+        { "id": "D", "text": "depende da natureza do crédito e do ente prejudicado, conforme o entendimento aplicável." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A legitimidade varia conforme crédito ligado a dano municipal ou multa simples, entre outros elementos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6363",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A sequência lógica mais adequada é",
+      "options": [
+        { "id": "A", "text": "instrução e defesa, decisão, eventual impugnação própria, definitividade e cumprimento ou cobrança." },
+        { "id": "B", "text": "execução antes de qualquer decisão." },
+        { "id": "C", "text": "revisão antes da existência de processo." },
+        { "id": "D", "text": "cautelar como sanção definitiva automática." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O conteúdo apresenta camadas: instrução, defesa, decisão, impugnação própria, definitividade e execução/cumprimento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6364",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Execução e recurso diferem porque",
+      "options": [
+        { "id": "A", "text": "ambos significam sempre arquivamento." },
+        { "id": "B", "text": "execução busca cumprir ou cobrar, enquanto recurso busca impugnar ou reexaminar decisão." },
+        { "id": "C", "text": "recurso é cobrança de dívida ativa." },
+        { "id": "D", "text": "execução cria contraditório anterior à decisão." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Execução não é meio de reexame; recurso e revisão pertencem a outro recorte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6365",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em denúncia ou representação sobre irregularidade, o resultado decisório deve ser compreendido como",
+      "options": [
+        { "id": "A", "text": "sempre consulta abstrata, sem apuração." },
+        { "id": "B", "text": "sempre parecer prévio de contas anuais." },
+        { "id": "C", "text": "análise da irregularidade e adoção de providências cabíveis dentro da competência do TCE/MA." },
+        { "id": "D", "text": "eleição automática de dirigente do Tribunal." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Denúncias e representações comunicam irregularidades e podem gerar providências dentro da competência do Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6366",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma decisão em consulta, conforme o recorte estudado, deve ser vista como",
+      "options": [
+        { "id": "A", "text": "condenação automática em débito." },
+        { "id": "B", "text": "execução judicial." },
+        { "id": "C", "text": "multa por dano municipal." },
+        { "id": "D", "text": "resposta normativa a autoridade competente, sem julgamento de fato concreto." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Consulta decide dúvida normativa e não substitui julgamento de contas ou processo sancionador concreto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6367",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao assinar prazo para cumprimento da lei, o TCE/MA exerce competência voltada a",
+      "options": [
+        { "id": "A", "text": "correção de ilegalidade ou adoção de providência necessária." },
+        { "id": "B", "text": "apagar todo dano automaticamente." },
+        { "id": "C", "text": "substituir recurso cabível." },
+        { "id": "D", "text": "impedir qualquer controle externo." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A competência oficial inclui assinar prazo para providências necessárias ao exato cumprimento da lei. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6368",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a determinação não é atendida, a competência oficial menciona possibilidade de",
+      "options": [
+        { "id": "A", "text": "extinguir a Constituição Estadual." },
+        { "id": "B", "text": "sustar o ato impugnado e comunicar ao Poder Legislativo competente, conforme o caso." },
+        { "id": "C", "text": "transformar gestor em conselheiro." },
+        { "id": "D", "text": "dispensar qualquer publicação." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A página de competências registra sustação do ato impugnado quando não atendida a determinação, com comunicação cabível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6369",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A decisão que apenas encaminha comunicação a outro órgão deve ser diferenciada de",
+      "options": [
+        { "id": "A", "text": "controle externo." },
+        { "id": "B", "text": "publicação oficial." },
+        { "id": "C", "text": "execução judicial direta de débito ou multa." },
+        { "id": "D", "text": "consulta processual." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Encaminhamento institucional não significa que o próprio TCE executará judicialmente todas as consequências. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6370",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação 'todo parecer prévio tem eficácia automática de título executivo' está",
+      "options": [
+        { "id": "A", "text": "correta sempre." },
+        { "id": "B", "text": "correta apenas em consulta." },
+        { "id": "C", "text": "correta se houver pauta de sessão." },
+        { "id": "D", "text": "incorreta, pois a eficácia executiva é associada a débito ou multa." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Parecer prévio não deve ser tratado automaticamente como título executivo se não resulta em débito ou multa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6371",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Diante de pagamento fora do prazo de débito ou multa fixados em acórdão, a orientação segura é",
+      "options": [
+        { "id": "A", "text": "verificar a decisão e a legislação aplicável para atualização e encargos, sem inventar fórmula universal." },
+        { "id": "B", "text": "presumir perdão automático da obrigação." },
+        { "id": "C", "text": "transformar a cobrança em consulta normativa." },
+        { "id": "D", "text": "ignorar a mora em qualquer caso." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O conteúdo menciona acréscimos legais em mora, mas evita reconstruir fórmulas sem texto consolidado vigente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6372",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando a banca cobra limite, percentual ou inciso específico de multa sem fornecer texto vigente, o cuidado correto é",
+      "options": [
+        { "id": "A", "text": "inventar o valor nominal a partir de notícia jornalística." },
+        { "id": "B", "text": "não cravar literalidade sem conferir a redação atual da Lei Orgânica ou ato aplicável." },
+        { "id": "C", "text": "tratar qualquer multa como parecer prévio." },
+        { "id": "D", "text": "aplicar sempre o menor valor possível." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ausência de consolidação oficial integral recomenda cautela com valores, percentuais e incisos específicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6373",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação 'SUPEX é o juiz de execução judicial da decisão' está",
+      "options": [
+        { "id": "A", "text": "correta em qualquer processo." },
+        { "id": "B", "text": "correta se houver multa." },
+        { "id": "C", "text": "incorreta, pois a SUPEX acompanha providências administrativas de execução de acórdãos." },
+        { "id": "D", "text": "correta apenas em parecer prévio." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O conteúdo distingue SUPEX de juízo ou legitimado judicial universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6374",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação '15 dias é prazo universal para qualquer ato do TCE/MA' está",
+      "options": [
+        { "id": "A", "text": "correta sempre." },
+        { "id": "B", "text": "correta apenas em recursos." },
+        { "id": "C", "text": "correta apenas em ética." },
+        { "id": "D", "text": "incorreta, pois o prazo apareceu em casos concretos e exige base normativa." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O conteúdo evita generalizar prazo de acórdão concreto para todos os atos do Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6375",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em notícias oficiais sobre tomadas de contas especiais por omissão de prestar contas, os exemplos mostram que a decisão pode",
+      "options": [
+        { "id": "A", "text": "imputar débito, aplicar multa e encaminhar a órgãos competentes, conforme o caso." },
+        { "id": "B", "text": "aprovar automaticamente as contas por falta de defesa." },
+        { "id": "C", "text": "impedir qualquer cobrança futura." },
+        { "id": "D", "text": "transformar omissão em consulta normativa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As notícias oficiais usadas como exemplos registram tomadas de contas especiais com débito, multa e encaminhamentos institucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6376",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se agente municipal recebe multa simples por sonegar informações à fiscalização, sem discussão de dano municipal a ressarcir, a distinção do STF aponta para",
+      "options": [
+        { "id": "A", "text": "execução obrigatória pelo Município em qualquer hipótese." },
+        { "id": "B", "text": "possibilidade de execução pelo Estado-membro, por se tratar de multa simples." },
+        { "id": "C", "text": "inexistência de cobrança administrativa." },
+        { "id": "D", "text": "conversão automática em débito ressarcitório." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ADPF 1.011 distinguiu multa simples de crédito ligado a dano municipal e admitiu execução pelo Estado-membro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6377",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao estudar acórdão com débito e multa, o cuidado correto é",
+      "options": [
+        { "id": "A", "text": "ignorar a natureza do crédito." },
+        { "id": "B", "text": "presumir que toda multa é igual." },
+        { "id": "C", "text": "identificar obrigação, responsável, valor, prazo e base normativa." },
+        { "id": "D", "text": "tratar tudo como consulta." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A execução depende do conteúdo da decisão, da natureza da obrigação e do regime aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6378",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação correta entre trânsito em julgado administrativo e controle judicial é:",
+      "options": [
+        { "id": "A", "text": "trânsito administrativo elimina o Judiciário em qualquer hipótese." },
+        { "id": "B", "text": "controle judicial substitui toda decisão administrativa antes de existir processo." },
+        { "id": "C", "text": "trânsito administrativo não existe no TCE/MA." },
+        { "id": "D", "text": "trânsito administrativo indica definitividade interna, sem eliminar controle judicial possível." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A certidão de trânsito ajuda a identificar situação processual, mas não afasta o acesso ao Judiciário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6379",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação correta entre determinação e multa é:",
+      "options": [
+        { "id": "A", "text": "determinação ordena providência; multa sanciona ou inibe infração." },
+        { "id": "B", "text": "determinação é sempre dívida ativa." },
+        { "id": "C", "text": "multa é sempre ordem de fazer." },
+        { "id": "D", "text": "ambas são recursos." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Determinação, multa e débito são categorias diferentes no resultado decisório. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6380",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação correta entre cautelar e mérito definitivo é:",
+      "options": [
+        { "id": "A", "text": "cautelar é sempre condenação definitiva." },
+        { "id": "B", "text": "cautelar é preventiva ou instrumental e não substitui necessariamente o julgamento de mérito." },
+        { "id": "C", "text": "mérito definitivo é apenas notificação." },
+        { "id": "D", "text": "cautelar elimina defesa em qualquer caso." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cautelar preserva a efetividade ou evita lesão, sem se confundir com decisão final. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6381",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação correta entre parecer prévio e julgamento de contas é:",
+      "options": [
+        { "id": "A", "text": "parecer prévio sempre substitui todo julgamento." },
+        { "id": "B", "text": "julgamento de contas nunca existe." },
+        { "id": "C", "text": "parecer prévio aprecia contas anuais em hipóteses próprias; julgamento decide contas de responsáveis em outras hipóteses." },
+        { "id": "D", "text": "ambos são dívida ativa." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O conteúdo separa parecer prévio e julgamento de contas para evitar confusão de competências. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6382",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação correta entre decisão em consulta e decisão sancionadora é:",
+      "options": [
+        { "id": "A", "text": "consulta sempre condena em multa." },
+        { "id": "B", "text": "sanção sempre responde dúvida abstrata." },
+        { "id": "C", "text": "consulta sempre é execução judicial." },
+        { "id": "D", "text": "consulta responde dúvida normativa; sanção decorre de infração ou responsabilidade apurada." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Consulta e sanção têm funções distintas dentro das competências decisórias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6383",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Caso um acórdão impute débito por dano ao erário e aplique multa, a análise correta é",
+      "options": [
+        { "id": "A", "text": "separar finalidade ressarcitória do débito e finalidade sancionatória da multa." },
+        { "id": "B", "text": "chamar tudo de parecer prévio." },
+        { "id": "C", "text": "ignorar a publicação do acórdão." },
+        { "id": "D", "text": "dispensar base normativa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A distinção entre débito e multa é central para cumprimento e execução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6384",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a questão afirmar que toda decisão do TCE/MA tem título executivo, a resposta correta é",
+      "options": [
+        { "id": "A", "text": "concordar, porque qualquer ato é executável." },
+        { "id": "B", "text": "discordar, porque a regra constitucional destaca decisões com débito ou multa." },
+        { "id": "C", "text": "concordar apenas se for consulta." },
+        { "id": "D", "text": "discordar porque nenhuma decisão é executável." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Nem todo ato decisório contém imputação de débito ou multa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6385",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a decisão apenas determina correção de irregularidade, sem débito ou multa, o cuidado correto é",
+      "options": [
+        { "id": "A", "text": "chamá-la automaticamente de título executivo pecuniário." },
+        { "id": "B", "text": "dizer que não há decisão." },
+        { "id": "C", "text": "não presumir eficácia executiva pecuniária sem obrigação de débito ou multa." },
+        { "id": "D", "text": "tratar como recurso de revisão." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Determinação pode ser obrigatória, mas título executivo pecuniário depende do conteúdo da decisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6386",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se uma decisão menciona remessa à Procuradoria ou ao Ministério Público, isso indica",
+      "options": [
+        { "id": "A", "text": "que não houve processo." },
+        { "id": "B", "text": "que todos os recursos foram automaticamente extintos." },
+        { "id": "C", "text": "que o TCE virou órgão penal." },
+        { "id": "D", "text": "encaminhamento para providências que o órgão competente entender cabíveis." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Encaminhamentos institucionais preservam a competência do órgão destinatário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6387",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o responsável não paga multa após notificação, uma consequência administrativa possível citada no material é",
+      "options": [
+        { "id": "A", "text": "inscrição em dívida ativa, conforme ato e legislação aplicável." },
+        { "id": "B", "text": "eleição automática para o Tribunal." },
+        { "id": "C", "text": "anulação automática de toda decisão." },
+        { "id": "D", "text": "conversão em consulta normativa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fonte oficial menciona inadimplência, CEI, DDNT e dívida ativa como consequências administrativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6388",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a questão disser que a natureza do crédito é irrelevante para legitimidade executiva, a resposta deve ser",
+      "options": [
+        { "id": "A", "text": "correta, porque Estado e Município são sempre iguais." },
+        { "id": "B", "text": "incorreta, pois o STF diferencia dano municipal e multa simples." },
+        { "id": "C", "text": "correta apenas em parecer prévio." },
+        { "id": "D", "text": "correta apenas em consulta." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Tema 642 e ADPF 1.011 mostram que a natureza do crédito influencia a legitimidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6389",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se houver dúvida sobre prazo, rito ou efeito recursal não confirmado no Regimento, a orientação segura é",
+      "options": [
+        { "id": "A", "text": "inventar prazo por analogia." },
+        { "id": "B", "text": "usar banco pago sem fonte oficial." },
+        { "id": "C", "text": "conferir a redação vigente e evitar generalizações." },
+        { "id": "D", "text": "tratar todo prazo como 15 dias." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A limitação documental exige cautela com artigos, prazos e efeitos não confirmados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6390",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o acórdão fixa pagamento e a parte pretende reexaminar a decisão, o tema detalhado pertence ao recorte de",
+      "options": [
+        { "id": "A", "text": "execução como se fosse cobrança apenas." },
+        { "id": "B", "text": "ética e regras finais." },
+        { "id": "C", "text": "parecer prévio." },
+        { "id": "D", "text": "recursos e revisão, no Assunto 062." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O Assunto 061 delimita execução e decisão; recursos e revisão ficam para o próximo recorte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6391",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A melhor síntese da cobrança de decisão com débito ou multa é",
+      "options": [
+        { "id": "A", "text": "publicação ou ciência, pagamento/cumprimento, eventual atualização, definitividade e providências de cobrança conforme o caso." },
+        { "id": "B", "text": "multa antes de qualquer processo." },
+        { "id": "C", "text": "sorteio sem acórdão." },
+        { "id": "D", "text": "recurso como dívida ativa." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O conteúdo descreve o fluxo geral de cumprimento e cobrança sem transformar exemplos em rito universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6392",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A página de recursos ressarcidos ao erário é útil porque",
+      "options": [
+        { "id": "A", "text": "nega existência de multa." },
+        { "id": "B", "text": "explica a diferença de finalidade entre multa e débito." },
+        { "id": "C", "text": "fixa todos os prazos recursais." },
+        { "id": "D", "text": "substitui a Constituição." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Essa fonte oficial sustenta a distinção central entre débito e multa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6393",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A competência de decidir denúncias e representações significa que o TCE/MA pode",
+      "options": [
+        { "id": "A", "text": "julgar crimes eleitorais diretamente." },
+        { "id": "B", "text": "dispensar contraditório em toda hipótese." },
+        { "id": "C", "text": "analisar irregularidades e adotar providências cabíveis dentro de sua competência." },
+        { "id": "D", "text": "executar qualquer crédito sem título." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Denúncia e representação podem resultar em decisões e providências, mas dentro das competências do Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6394",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na distinção entre débito, multa e determinação, a alternativa correta é",
+      "options": [
+        { "id": "A", "text": "débito sanciona, multa recompõe e determinação recorre." },
+        { "id": "B", "text": "todos são sinônimos." },
+        { "id": "C", "text": "determinação é sempre título executivo pecuniário." },
+        { "id": "D", "text": "débito recompõe, multa sanciona e determinação ordena providência." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As três categorias cumprem funções distintas na decisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6395",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando o conteúdo evita cravar todos os artigos regimentais de execução, a razão é",
+      "options": [
+        { "id": "A", "text": "ausência de versão oficial única, consolidada e integralmente extraível do Regimento na pesquisa." },
+        { "id": "B", "text": "inexistência de decisões do TCE/MA." },
+        { "id": "C", "text": "vedação constitucional à Lei Orgânica." },
+        { "id": "D", "text": "irrelevância de fontes oficiais." }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A limitação documental recomenda cautela com literalidade regimental não confirmada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6396",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A definitividade administrativa de uma decisão do TCE/MA deve ser entendida, no contexto estudado, como",
+      "options": [
+        { "id": "A", "text": "qualquer relatório preliminar." },
+        { "id": "B", "text": "marco interno relevante para cumprimento ou cobrança, sem eliminar o controle judicial possível." },
+        { "id": "C", "text": "multa simples sempre municipal." },
+        { "id": "D", "text": "consulta pública sem processo." }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O conteúdo trata o trânsito em julgado administrativo como marco interno para cumprimento e cobrança, sem afastar o Judiciário. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6397",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A existência de serviço para validar certidão de débito - título executivo reforça que",
+      "options": [
+        { "id": "A", "text": "não há decisões com valor." },
+        { "id": "B", "text": "toda cautelar é definitiva." },
+        { "id": "C", "text": "há documentação própria relacionada à cobrança de débitos ou multas definitivos." },
+        { "id": "D", "text": "consulta normativa aplica prisão." }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A certidão de débito - título executivo se relaciona à etapa documental de cobrança, conforme serviços oficiais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q6398",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Deve ficar para recorte posterior o estudo detalhado de",
+      "options": [
+        { "id": "A", "text": "diferença entre débito e multa." },
+        { "id": "B", "text": "eficácia de título executivo." },
+        { "id": "C", "text": "SUPEX e cobrança administrativa." },
+        { "id": "D", "text": "recursos, revisão, embargos, prazos e efeitos recursais." }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Recursos e revisão pertencem ao Assunto 062; este recorte trata de decisão, sanção e execução. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
