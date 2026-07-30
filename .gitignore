@@ -25,3 +25,6 @@ pnpm-debug.log*
 # OS and IDE files
 .DS_Store
 .idea/
+
+# agent task checkpoint
+/TASK_MEMORY.md
