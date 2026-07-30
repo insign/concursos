@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q934",
@@ -109,18 +109,18 @@
     },
     {
       "id": "q941",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Desenho universal corresponde à",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Segundo a LBI, a concepção de ambiente utilizável por todas as pessoas, sem adaptação ou projeto específico e com inclusão de recursos de tecnologia assistiva, caracteriza",
       "options": [
-        {"id": "a", "text": "adaptação posterior exclusiva para uma pessoa"},
-        {"id": "b", "text": "separação obrigatória dos usuários por deficiência"},
-        {"id": "c", "text": "dispensa de requisitos técnicos"},
-        {"id": "d", "text": "concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou de projeto específico, incluindo os recursos de tecnologia assistiva"},
-        {"id": "e", "text": "solução limitada à arquitetura"}
+        {"id": "a", "text": "adaptação razoável"},
+        {"id": "b", "text": "elemento urbanizado"},
+        {"id": "c", "text": "mobiliário assistivo"},
+        {"id": "d", "text": "acessibilidade"},
+        {"id": "e", "text": "desenho universal"}
       ],
-      "correctOptionId": "d",
-      "explanation": "A LBI define desenho universal como a concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou projeto específico, incluindo recursos de tecnologia assistiva. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "Desenho universal é a concepção geral para uso por todas as pessoas, sem necessidade de adaptação ou projeto específico, incluindo tecnologia assistiva. Fonte oficial: CESPE/Cebraspe, TRE/TO, Analista Judiciário — Área Administrativa, concurso 2017, aplicação em 03/12/2017, caderno 349_TRETO_CG1_01, questão 17, gabarito definitivo E. Adaptação: redação condensada, preservados o núcleo e o gabarito."
     },
     {
       "id": "q942",
@@ -274,18 +274,18 @@
     },
     {
       "id": "q952",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Quanto à prioridade do doador de sangue, a lei determina atendimento",
+      "prompt": "Um órgão redesenha a fila de atendimento prioritário. A solução gerencial correta é",
       "options": [
-        {"id": "a", "text": "antes de todos os outros prioritários, sem comprovante"},
-        {"id": "b", "text": "somente em hospitais"},
-        {"id": "c", "text": "apenas no dia da doação"},
-        {"id": "d", "text": "depois dos demais prioritários, mediante comprovante válido por 120 dias"},
-        {"id": "e", "text": "em igualdade com emergências médicas graves"}
+        {"id": "a", "text": "chamar doadores de sangue antes de todos os demais, sem qualquer comprovação"},
+        {"id": "b", "text": "considerar a prioridade suficiente, ainda que o balcão e a comunicação sejam inacessíveis"},
+        {"id": "c", "text": "aplicar prioridade apenas em serviços de saúde"},
+        {"id": "d", "text": "organizar o atendimento segundo a ordem legal, prever comprovação quando exigida e manter canais efetivamente acessíveis"},
+        {"id": "e", "text": "suspender o direito até a criação de guichê exclusivo"}
       ],
       "correctOptionId": "d",
-      "explanation": "A Lei nº 14.626/2023 colocou o doador após todos os demais beneficiários e exigiu comprovante de doação com validade de 120 dias. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A prioridade deve ser operacionalizada conforme a lei e integrada à acessibilidade da jornada. A ausência de guichê exclusivo não extingue o direito, e rapidez não corrige barreiras físicas, comunicacionais ou tecnológicas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q953",
@@ -349,33 +349,33 @@
     },
     {
       "id": "q957",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Nas áreas de estacionamento localizadas em vias ou espaços públicos, a Lei nº 10.098/2000 prevê reserva de",
+      "prompt": "Em auditoria da acessibilidade física de um órgão, a evidência mais útil é",
       "options": [
-        {"id": "a", "text": "1% das vagas, sem mínimo"},
-        {"id": "b", "text": "2% das vagas, garantida no mínimo uma"},
-        {"id": "c", "text": "5% das vagas, garantidas dez"},
-        {"id": "d", "text": "10% das vagas em todos os casos"},
-        {"id": "e", "text": "uma vaga apenas quando houver mais de cem"}
+        {"id": "a", "text": "a quantidade total de rampas compradas"},
+        {"id": "b", "text": "o percentual de jornadas presenciais com rota acessível completa, disponível e utilizável"},
+        {"id": "c", "text": "o valor histórico do imóvel"},
+        {"id": "d", "text": "a existência de um símbolo de acessibilidade na entrada"},
+        {"id": "e", "text": "uma fotografia isolada do estacionamento"}
       ],
       "correctOptionId": "b",
-      "explanation": "A lei estabelece 2% do total, assegurada pelo menos uma vaga, próxima aos acessos, sinalizada e conforme especificações técnicas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A rota completa aproxima a evidência do resultado para o usuário. Componentes, gastos ou símbolos isolados podem ocultar descontinuidades entre chegada, circulação, atendimento, sanitários e saída. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q958",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em evento com instalação de banheiros químicos, o número mínimo de unidades acessíveis corresponde a",
+      "prompt": "Na organização de um evento público, a abordagem gerencial adequada à acessibilidade é",
       "options": [
-        {"id": "a", "text": "2%, sem mínimo"},
-        {"id": "b", "text": "5%, somente em eventos públicos"},
-        {"id": "c", "text": "10% do total, garantida ao menos uma quando o cálculo resultar em fração inferior a um"},
-        {"id": "d", "text": "20% do total, sem exceção"},
-        {"id": "e", "text": "uma unidade apenas para eventos com mil pessoas"}
+        {"id": "a", "text": "tratar adaptações somente após reclamações no dia do evento"},
+        {"id": "b", "text": "limitar o planejamento à reserva de assentos"},
+        {"id": "c", "text": "planejar inscrição, comunicação, chegada, circulação, palco, conteúdo, sanitários e emergência com critérios e testes"},
+        {"id": "d", "text": "considerar suficiente a colocação de símbolo de acessibilidade"},
+        {"id": "e", "text": "transferir ao participante o custo de providenciar recursos"}
       ],
       "correctOptionId": "c",
-      "explanation": "A Lei nº 10.098/2000 exige unidades acessíveis em eventos públicos e privados com banheiros químicos: 10% do total e ao menos uma na hipótese indicada. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Acessibilidade de evento é uma jornada integrada. Requisitos, recursos, comunicação, espaço, conteúdo e emergência devem ser previstos antes, com responsáveis, evidências e correção de falhas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q959",
@@ -394,17 +394,17 @@
     },
     {
       "id": "q960",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo o art. 9º do Decreto nº 5.296/2004, as ações de acessibilidade devem incluir",
       "options": [
         {"id": "a", "text": "improvisação sem cronograma"},
         {"id": "b", "text": "suspensão de metas até disponibilidade total de recursos"},
-        {"id": "c", "text": "apenas comunicação institucional"},
-        {"id": "d", "text": "execução isolada pela recepção"},
-        {"id": "e", "text": "prioridades, cronograma, reserva de recursos e planejamento continuado e articulado"}
+        {"id": "c", "text": "prioridades, cronograma, reserva de recursos e planejamento continuado e articulado"},
+        {"id": "d", "text": "apenas comunicação institucional"},
+        {"id": "e", "text": "execução isolada pela recepção"}
       ],
-      "correctOptionId": "e",
+      "correctOptionId": "c",
       "explanation": "O decreto vincula acessibilidade a priorização, programação, recursos e articulação contínua entre setores, afastando soluções pontuais sem gestão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -664,33 +664,33 @@
     },
     {
       "id": "q978",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Sobre o cordão de girassóis, é correto afirmar que",
+      "prompt": "No atendimento a uma pessoa que pode ter deficiência oculta, a conduta adequada é",
       "options": [
-        {"id": "a", "text": "seu uso é obrigatório para exercer direitos"},
-        {"id": "b", "text": "sua ausência elimina prioridade"},
-        {"id": "c", "text": "é opcional, não revela diagnóstico e não dispensa documento em solicitação juridicamente pertinente, necessária e proporcional"},
-        {"id": "d", "text": "comprova qualquer condição de saúde como deficiência"},
-        {"id": "e", "text": "substitui adaptação razoável"}
+        {"id": "a", "text": "exigir cordão de girassóis para reconhecer qualquer direito"},
+        {"id": "b", "text": "acolher a necessidade concreta sem presumir diagnóstico ou incapacidade, lembrando que o uso do cordão é opcional"},
+        {"id": "c", "text": "negar apoio quando a pessoa não utiliza símbolo de identificação"},
+        {"id": "d", "text": "expor publicamente a condição para justificar o atendimento"},
+        {"id": "e", "text": "tratar o cordão como prova absoluta de diagnóstico"}
       ],
-      "correctOptionId": "c",
-      "explanation": "A Lei nº 14.624/2023 tornou o cordão símbolo nacional de deficiências ocultas, preservou seu uso opcional e ressalvou que ele não dispensa documento se solicitado por atendente ou autoridade competente; a solicitação deve ter pertinência jurídica, necessidade e proporcionalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "O cordão de girassóis é opcional, e sua ausência não elimina direitos. O agente deve ouvir a necessidade, preservar privacidade e autonomia e solicitar comprovação apenas quando houver fundamento, necessidade e proporcionalidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q979",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Conforme a Lei nº 15.459/2026, o Símbolo Internacional de Acessibilidade",
+      "prompt": "Para o edital publicado em 6 de julho de 2026, a Lei nº 15.459/2026, publicada no DOU em 8 de julho e não mencionada expressamente no programa, deve ser",
       "options": [
-        {"id": "a", "text": "pode ser usado como decoração institucional"},
-        {"id": "b", "text": "deve identificar local ou serviço cuja adequação ao uso esteja comprovada"},
-        {"id": "c", "text": "torna qualquer local acessível por sua colocação"},
-        {"id": "d", "text": "é facultativo em todo serviço acessível"},
-        {"id": "e", "text": "dispensa avaliação técnica"}
+        {"id": "a", "text": "incluída no núcleo do edital porque a lei é datada de 7 de julho"},
+        {"id": "b", "text": "ignorada inclusive quando se apresentar o direito vigente hoje"},
+        {"id": "c", "text": "tratada como norma futura expressamente indicada pelo edital"},
+        {"id": "d", "text": "marcada como atualização pós-edital, fora do corte ordinário, salvo retificação ou regra expressa em sentido diverso"},
+        {"id": "e", "text": "aplicada retroativamente à data de assinatura do edital"}
       ],
-      "correctOptionId": "b",
-      "explanation": "A lei exige colocação visível e restringe o símbolo à identificação de local ou serviço habilitado e comprovadamente adequado. O sinal não cria a condição que anuncia. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "A Lei nº 15.459/2026 foi publicada e entrou em vigor em 8 de julho de 2026, depois do edital de 6 de julho, e não foi indicada no programa. Ela pode ser apresentada como direito vigente hoje, mas separada do núcleo legislativo do corte. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q980",
@@ -709,33 +709,33 @@
     },
     {
       "id": "q981",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O descumprimento de deveres de acessibilidade",
+      "prompt": "Após constatar barreira recorrente em um serviço público, a resposta administrativa mais completa é",
       "options": [
-        {"id": "a", "text": "gera apenas recomendação sem consequências"},
-        {"id": "b", "text": "é sempre resolvido com capacitação"},
-        {"id": "c", "text": "pode produzir responsabilidades administrativas, civis e penais conforme a norma e o caso"},
-        {"id": "d", "text": "não alcança omissões"},
-        {"id": "e", "text": "é afastado quando há limitação orçamentária genérica"}
+        {"id": "a", "text": "oferecer apenas capacitação genérica à equipe de atendimento"},
+        {"id": "b", "text": "arquivar a reclamação após restabelecer o serviço uma única vez"},
+        {"id": "c", "text": "cessar a barreira, assegurar atendimento, registrar o incidente, apurar causa e responsabilidade, corrigir o processo e monitorar recorrência"},
+        {"id": "d", "text": "transferir ao usuário o custo de encontrar canal alternativo"},
+        {"id": "e", "text": "aguardar disponibilidade orçamentária integral sem medida provisória"}
       ],
       "correctOptionId": "c",
-      "explanation": "LBI, Lei nº 10.048/2000 e Decreto nº 5.296/2004 preveem consequências conforme o fato. A gestão deve cessar a barreira, corrigir causa e prevenir recorrência. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A resposta deve combinar proteção imediata do direito com correção estrutural. Registro, análise de causa, responsabilidades, teste e monitoramento evitam que a falha permaneça invisível ou volte a ocorrer. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q982",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Os prazos de adaptação originalmente fixados pelo Decreto nº 5.296/2004",
+      "prompt": "Um órgão alega que os antigos prazos de adaptação já passaram e que o orçamento é limitado. Sob a perspectiva de gestão, a conduta correta é",
       "options": [
-        {"id": "a", "text": "ainda não começaram"},
-        {"id": "b", "text": "são históricos e já se esgotaram, não autorizando novo adiamento"},
-        {"id": "c", "text": "recomeçam a cada gestão"},
-        {"id": "d", "text": "dispensam edifícios existentes"},
-        {"id": "e", "text": "valem apenas após reclamação"}
+        {"id": "a", "text": "reabrir automaticamente os prazos históricos a cada mandato"},
+        {"id": "b", "text": "reconhecer que os prazos se esgotaram e estabelecer diagnóstico, prioridades por risco, responsáveis, recursos e cronograma, sem adiamento indefinido"},
+        {"id": "c", "text": "considerar edifícios existentes permanentemente dispensados"},
+        {"id": "d", "text": "agir somente quando houver decisão judicial individual"},
+        {"id": "e", "text": "substituir adequações por campanha de conscientização"}
       ],
       "correctOptionId": "b",
-      "explanation": "Os prazos contados da publicação do decreto se encerraram há muito. Eles não constituem prazo atual para começar o planejamento ou a adequação. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Prazos históricos esgotados não criam nova espera. Limitações reais influenciam a priorização, mas exigem decisão motivada, tratamento dos riscos graves, responsáveis, recursos e acompanhamento. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q983",
