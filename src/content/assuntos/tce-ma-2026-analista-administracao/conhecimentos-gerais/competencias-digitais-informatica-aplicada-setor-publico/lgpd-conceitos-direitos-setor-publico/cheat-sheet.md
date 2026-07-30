@@ -1,307 +1,234 @@
 # LGPD: conceitos, direitos e setor público
 
-## Escopo e fundamentos
+## Roteiro
 
-- LGPD protege liberdade, privacidade e livre desenvolvimento da personalidade da pessoa natural.
-- Normas gerais vinculam União, estados, Distrito Federal e municípios.
-- Fundamentos: privacidade; autodeterminação informativa; liberdades comunicativas; intimidade, honra e imagem; desenvolvimento e inovação; livre iniciativa, concorrência e consumidor; direitos humanos, dignidade e cidadania.
-- Autodeterminação informativa não é poder absoluto de impedir todo tratamento.
-- Lei nº 15.352/2026: ANPD é Agência Nacional de Proteção de Dados, autarquia de natureza especial; sigla preservada.
+**Dado → finalidade → agente → base legal → princípio → direito → compartilhamento → segurança → evidência.**
 
-## Aplicação e exclusões
+## Atualização de 2026
 
-A LGPD aplica-se quando:
-
-- tratamento ocorre no Brasil;
-- atividade oferece bens/serviços ou trata dados de pessoa localizada no Brasil;
-- dado foi coletado no Brasil.
-
-Não se aplica, nas condições legais, a:
-
-- finalidade particular e não econômica de pessoa natural;
-- finalidade exclusivamente jornalística/artística;
-- finalidade acadêmica, preservados arts. 7º e 11;
-- segurança pública, defesa, segurança do Estado e investigação/repressão penal, sujeitas a lei específica e salvaguardas;
-- certos dados provenientes do exterior.
+| Antes | Vigente |
+|---|---|
+| Autoridade Nacional de Proteção de Dados | Agência Nacional de Proteção de Dados |
+| estrutura anterior | autarquia especial/agência reguladora |
+| ANPD | sigla preservada |
 
 ## Conceitos
 
-| Termo | Regra curta |
+| Termo | Regra |
 |---|---|
-| dado pessoal | informação sobre pessoa natural identificada ou identificável |
-| dado sensível | origem racial/étnica, religião, opinião política, filiação sindical/religiosa/filosófica/política, saúde, vida sexual, genética ou biometria vinculada |
-| titular | pessoa natural a quem o dado se refere |
-| banco de dados | conjunto estruturado, físico ou eletrônico, em um ou vários locais |
-| tratamento | qualquer operação: coleta, uso, acesso, guarda, compartilhamento, bloqueio, eliminação etc. |
-| bloqueio | suspensão temporária, preservada a guarda |
-| eliminação | exclusão do dado armazenado |
-| RIPD | documento do controlador sobre tratamento de risco e medidas de mitigação |
+| dado pessoal | pessoa natural identificada ou identificável |
+| sensível | rol específico do art. 5º |
+| anonimizado | associação não razoável |
+| pseudonimizado | reassociação por informação separada |
+| tratamento | qualquer operação |
+| titular | pessoa natural |
+| bloqueio | suspensão temporária, com guarda |
+| eliminação | exclusão do dado |
 
-- Pessoa jurídica não é titular na LGPD.
-- Nome não é requisito: identificação indireta também basta.
-- Renda e endereço são pessoais, mas não integram por si o rol legal de sensíveis.
-- Guardar, consultar e apagar são tratamentos.
-
-## Anonimização x pseudonimização
-
-| Técnica | Resultado |
-|---|---|
-| anonimização efetiva | associação não é razoavelmente possível; dado fica fora da LGPD enquanto assim permanecer |
-| pseudonimização | reassociação é possível com informação adicional separada; dado continua pessoal |
-| ocultar apenas o nome | pode continuar identificável; não garante anonimização |
-
-- Dado anonimizado volta ao regime se a reversão for possível por meios próprios ou esforço razoável.
-- Custo, tempo e tecnologia disponível entram na avaliação da reversibilidade.
+- renda e endereço: pessoais, não sensíveis por si;
+- biometria vinculada: sensível;
+- pseudonimização: continua na LGPD;
+- guardar, consultar e apagar: tratamento.
 
 ## Papéis
 
 | Papel | Função |
 |---|---|
-| controlador | decide finalidade e elementos essenciais |
-| operador | trata em nome do controlador e conforme instruções |
-| agentes de tratamento | controlador + operador |
-| encarregado | canal entre controlador, titulares e ANPD; orienta a organização |
-| ANPD | zela, implementa, regula e fiscaliza a LGPD |
+| controlador | decide |
+| operador | executa em nome |
+| encarregado | comunica e orienta |
+| ANPD | regula e fiscaliza |
 
-- Encarregado não é agente de tratamento.
-- Terceirizar infraestrutura não transfere automaticamente a função de controlador.
-- Operador que decide finalidade própria pode deixar de atuar apenas como operador.
-- Controlador continua responsável pela conformidade.
-
-## Encarregado
-
-- Controlador deve indicar encarregado.
-- Indicação do operador é facultativa e boa prática segundo a Resolução nº 18/2024.
-- Ato formal: escrito, datado, assinado e claro.
-- Pode ser pessoa natural interna/externa ou pessoa jurídica.
-- Não exige certificação, formação específica ou inscrição profissional.
-- Identidade e contato: públicos, atualizados e acessíveis.
-- Ausência/impedimento/vacância: substituto formal.
-- Deve receber recursos, acesso e autonomia técnica.
-- Pode acumular funções sem conflito de interesse e com capacidade de atendimento.
-- Órgão público abrangido pela LAI deve indicá-lo e publicar o ato no diário oficial pertinente.
-- Encarregado orienta; não responde no lugar do controlador pela conformidade.
+Contrato não decide sozinho o papel. Encarregado não é agente de tratamento.
 
 ## Princípios
 
-| Princípio | Palavra-chave |
-|---|---|
-| finalidade | propósito legítimo, específico e informado |
-| adequação | compatibilidade com propósito e contexto |
-| necessidade | mínimo pertinente e não excessivo |
-| livre acesso | consulta facilitada e gratuita |
-| qualidade | exatidão, clareza, relevância e atualização |
-| transparência | informação clara e acessível |
-| segurança | proteção técnica e administrativa |
-| prevenção | evitar danos |
-| não discriminação | vedar discriminação ilícita/abusiva |
-| responsabilização/prestação de contas | adotar e demonstrar eficácia |
+```text
+Finalidade = para quê?
+Adequação = combina?
+Necessidade = é o mínimo?
+Qualidade = está correto?
+Transparência = foi explicado?
+Segurança = está protegido?
+Prevenção = evitou o dano?
+Prestação de contas = consegue provar?
+```
 
-- Finalidade = para quê.
-- Adequação = combina com finalidade/contexto?
-- Necessidade = é o mínimo?
-- Dados públicos continuam sujeitos a finalidade, boa-fé e interesse público.
-
-## Bases legais de dados comuns
+## Bases comuns
 
 1. consentimento;
 2. obrigação legal/regulatória;
 3. política pública;
-4. estudo por órgão de pesquisa;
-5. contrato/procedimento preliminar solicitado;
-6. exercício regular de direitos;
-7. proteção da vida;
-8. tutela da saúde;
+4. pesquisa;
+5. contrato;
+6. exercício de direitos;
+7. vida;
+8. saúde;
 9. legítimo interesse;
-10. proteção do crédito.
+10. crédito.
 
-- Poder público não precisa sempre de consentimento.
-- Competência legal/política pública costuma afastar consentimento artificial.
-- Toda base continua sujeita a princípios, direitos, segurança e transparência.
+Consentimento ≠ única base.
 
 ## Consentimento
 
-- livre + informado + inequívoco + finalidade determinada;
-- escrito ou demonstrado por outro meio;
-- cláusula destacada se escrito;
-- controlador prova a obtenção regular;
-- autorização genérica é nula;
-- revogação gratuita e facilitada;
-- revogação não invalida retroativamente tratamento anterior regular;
-- compartilhamento com outro controlador exige consentimento específico, salvo dispensa legal.
+- livre;
+- informado;
+- inequívoco;
+- finalidade determinada;
+- demonstrável;
+- revogável de modo gratuito e facilitado.
+
+Consentimento artificial em serviço obrigatório não é livre.
+
+## Legítimo interesse
+
+```text
+Finalidade → necessidade →
+balanceamento → salvaguardas
+```
+
+- não vale como base autônoma para dado sensível;
+- pode ser usado pelo poder público com justificativa;
+- exige expectativa legítima, minimização e transparência.
 
 ## Dados sensíveis
 
-- Com consentimento: específico, destacado e para finalidades específicas.
-- Sem consentimento: somente hipóteses taxativas do art. 11, II, e quando indispensável.
-- Bases relevantes: obrigação legal, política pública, pesquisa, exercício de direitos, vida, saúde, prevenção à fraude/segurança do titular.
-- Legítimo interesse e proteção do crédito não são bases autônomas do art. 11.
+- consentimento específico e destacado; ou
+- hipótese taxativa do art. 11, quando indispensável.
 
-## Direitos do titular
+Legítimo interesse e crédito não estão no art. 11.
 
-1. confirmação;
-2. acesso;
-3. correção;
-4. anonimização, bloqueio ou eliminação de dado desnecessário, excessivo ou irregular;
-5. portabilidade regulamentada;
-6. eliminação de dado tratado por consentimento, salvo conservação legal;
-7. informação sobre compartilhamentos;
-8. informação sobre recusa do consentimento e consequências;
-9. revogação do consentimento.
+## Crianças e adolescentes
 
-Também pode:
+```text
+Base dos arts. 7º ou 11
+        +
+Melhor interesse prevalecente
+        +
+Necessidade, transparência e salvaguardas
+```
 
-- peticionar à ANPD e a órgãos de defesa do consumidor;
-- opor-se a tratamento sem consentimento se houver descumprimento;
-- buscar tutela judicial individual/coletiva.
+Quando consentimento for usado para criança: requisitos específicos do art. 14.
 
-- Atendimento sem custo.
-- Requerimento pelo titular ou representante.
-- Correção/bloqueio/eliminação deve ser comunicada aos agentes que receberam o dado, salvo impossibilidade ou esforço desproporcional comprovado.
+## Direitos
 
-## Acesso, eliminação e automação
+```text
+Confirmar → acessar → corrigir →
+tratar excesso/irregularidade →
+informar compartilhamentos →
+portar → eliminar quando cabível →
+revogar → opor-se
+```
 
-- Acesso geral: simplificado imediatamente ou completo em até 15 dias.
-- Poder público: prazos/procedimentos também seguem habeas data, processo administrativo e LAI.
-- Eliminação não é absoluta: pode haver obrigação legal, pesquisa, transferência regular ou uso exclusivo anonimizado.
-- Decisão unicamente automatizada que afeta interesses: titular pode pedir revisão.
-- Controlador informa critérios/procedimentos, preservados segredos protegidos.
-- A literalidade vigente não exige revisão necessariamente humana.
+Fluxo:
+
+```text
+Receber → registrar → autenticar →
+localizar → decidir → responder →
+executar → propagar → evidenciar
+```
+
+- autenticação deve ser proporcional;
+- eliminação não é absoluta;
+- revogação ≠ oposição;
+- acesso geral: imediato simplificado ou completo em até 15 dias;
+- poder público também observa LAI, processo administrativo e habeas data.
+
+## Decisão automatizada
+
+- direito de pedir revisão;
+- direito a informações sobre critérios/procedimentos;
+- literalidade atual não exige revisão humana obrigatória.
+
+## RIPD
+
+| Documento | Função |
+|---|---|
+| RIPD | riscos e mitigação |
+| aviso | informar titular |
+| inventário | mapear operações |
+| política | definir regras |
+| auditoria | avaliar conformidade |
 
 ## Poder público
 
-Tratamento deve:
+```text
+Finalidade pública → competência →
+base → mínimo → transparência →
+compartilhamento controlado →
+segurança → retenção → direitos
+```
 
-- atender finalidade pública;
-- perseguir interesse público;
-- executar competência ou atribuição legal;
-- informar previsão legal, finalidade, procedimentos e práticas;
-- indicar encarregado;
-- preservar autoridades e procedimentos da LAI.
+- estatal concorrencial: regime privado;
+- estatal em política pública: regime público nessa atividade;
+- interoperabilidade ≠ uso irrestrito.
 
-| Entidade/situação | Regime |
+## Compartilhamento
+
+```text
+Finalidade → competência → campos mínimos →
+destinatário/papel → instrumento →
+transparência → segurança → retenção → auditoria
+```
+
+Transferência a particular: regra de vedação, salvo hipóteses legais.
+
+## LGPD × LAI
+
+- leis complementares;
+- dado pessoal ≠ sigilo automático;
+- informação pública ≠ reutilização ilimitada;
+- forneça a parte pública e proteja o excesso;
+- 100 anos da LAI ≠ qualquer dado pessoal.
+
+## Incidente
+
+```text
+Evento → dado pessoal → confirmado →
+propriedade afetada → risco relevante →
+critério regulamentar → comunicar/registrar
+```
+
+| Regra | Valor |
 |---|---|
-| pessoa jurídica de direito público da LAI | capítulo IV da LGPD |
-| cartório por delegação | mesmo tratamento público para esse fim |
-| estatal em concorrência | regime de particular |
-| estatal executando política pública | regime público nessa atividade |
+| responsável por comunicar | controlador |
+| operador | informa sem demora |
+| prazo | 3 dias úteis |
+| registro | pelo menos 5 anos |
+| destinatários | ANPD + titulares, quando comunicável |
 
-## Interoperabilidade e compartilhamento
-
-- Dados públicos: formato interoperável e estruturado para fins legais do art. 25.
-- Interoperabilidade não autoriza uso irrestrito.
-- Compartilhamento exige finalidade específica de política pública/atribuição legal e respeito aos princípios.
-
-Transferência a particular é vedada como regra, salvo:
-
-- execução descentralizada para fim específico;
-- dado publicamente acessível, observada LGPD;
-- previsão legal, contrato, convênio ou instrumento congênere;
-- prevenção a fraude/irregularidade ou proteção do titular, sem desvio de finalidade.
-
-- Contratos/convênios do art. 26 devem ser comunicados à ANPD.
-- Comunicação público → privado é informada à ANPD e depende de consentimento, salvo dispensa, publicidade do art. 23 ou exceção do art. 26.
-
-## LGPD x LAI
-
-- Leis complementares; nenhuma revoga a outra.
-- LAI: publicidade geral, sigilo excepcional, proteção da informação pessoal.
-- LGPD: base, finalidade, necessidade, segurança e direitos.
-- Dado pessoal não é automaticamente sigiloso.
-- Informação pública não permite reutilização ilimitada.
-- Parte pública deve ser fornecida com ocultação da parte protegida quando possível.
-- Transparência pode exigir tarja, agregação, anonimização ou pseudonimização.
-- LGPD não é justificativa genérica para ocultar gasto, contrato ou ato público.
-- LAI não autoriza divulgar identificadores sem necessidade.
-- LAI art. 31: acesso restrito por até 100 anos para informação pessoal ligada a intimidade, vida privada, honra e imagem, ressalvadas hipóteses legais.
-
-## Segurança
-
-- Medidas técnicas + administrativas.
-- Proteção contra acesso não autorizado, destruição, perda, alteração, comunicação ou difusão acidental/ilícita.
-- Segurança desde a concepção e durante todo o ciclo.
-- Controles: inventário, menor privilégio, autenticação, registros, monitoramento, atualização, backup, fornecedores, retenção, descarte e capacitação.
-- RIPD descreve tratamento de risco e mitigação; é documento do controlador.
-
-## Incidente de segurança
-
-Incidente = evento adverso **confirmado** que compromete:
-
-- confidencialidade;
-- integridade;
-- disponibilidade;
-- autenticidade.
-
-Comunicação é exigida quando puder afetar significativamente direitos/interesses e envolver ao menos:
-
-- dado sensível;
-- criança, adolescente ou idoso;
-- dado financeiro;
-- dado de autenticação;
-- sigilo legal/judicial/profissional;
-- larga escala.
-
-- Controlador comunica ANPD + titulares.
-- Operador informa controlador sem demora injustificada.
-- Prazo: 3 dias úteis do conhecimento pelo controlador.
-- Complementação: até 20 dias úteis, fundamentadamente.
-- Registro: mínimo de 5 anos, ressalvadas regras arquivísticas públicas.
-- Nem toda vulnerabilidade é incidente confirmado.
-- Nem todo incidente confirmado é comunicável.
-- Incidente não comunicado ainda deve ser avaliado e registrado.
+Vulnerabilidade ≠ incidente confirmado. Incidente confirmado ≠ sempre comunicável.
 
 ## Responsabilidade e sanções públicas
 
-- Dano patrimonial/moral, individual/coletivo em violação: dever de reparar.
-- Operador pode responder solidariamente se violar LGPD ou instruções lícitas.
-- Excludentes: não tratou; tratou sem violação; culpa exclusiva do titular/terceiro.
+- controlador/operador podem reparar dano;
+- operador pode ser solidário se violar lei/instrução;
+- órgão público: advertência, publicização, bloqueio, eliminação, suspensão e proibição;
+- multa simples/diária não integra o rol administrativo aplicável ao órgão público.
 
-Sanções administrativas aplicáveis a órgão/entidade pública:
+## Casos rápidos
 
-- advertência;
-- publicização;
-- bloqueio;
-- eliminação;
-- suspensão parcial do banco;
-- suspensão da atividade de tratamento;
-- proibição parcial/total de tratamento.
-
-- Multa simples e diária não integram o rol do art. 52, § 3º, para órgãos públicos.
-- Isso não elimina responsabilidades civil, disciplinar ou funcional.
-
-## Casos-relâmpago
-
-| Caso | Solução central |
+| Situação | Aplicação |
 |---|---|
-| benefício previsto em lei | obrigação legal/política pública; não consentimento artificial |
-| contrato com CPF desnecessário | publicar parte pública e ocultar excesso |
-| empresa hospeda conforme instruções | tende a operadora; órgão segue controlador |
-| endereço cadastral errado | correção + qualidade + aviso aos compartilhados |
-| credenciais vazadas em larga escala | avaliar risco relevante e comunicar em 3 dias úteis se critérios atendidos |
-| órgão coleta dado “para eventual uso” | viola finalidade/necessidade |
-| dado acessível na Internet | não autoriza qualquer nova finalidade |
-| nome trocado por código reversível | pseudonimização, não anonimização |
+| nome trocado por código reversível | pseudonimização |
+| cadastro obrigatório pede consentimento | base inadequada/artificial |
+| plataforma infantil coleta excesso | melhor interesse + necessidade |
+| fornecedor usa dados para produto próprio | possível controlador próprio |
+| órgãos compartilham base completa | finalidade pode existir; necessidade falha |
+| contrato público contém CPF desnecessário | publicar interesse público, ocultar excesso |
+| credenciais vazam em escala | avaliar comunicação em 3 dias úteis |
 
-## Pegadinhas-relâmpago
+## Pegadinhas
 
 - pessoa jurídica ≠ titular;
-- dado pessoal ≠ somente nome/CPF;
-- dado pessoal ≠ sempre sensível;
-- ocultar nome ≠ anonimizar;
-- pseudonimização ≠ fora da LGPD;
-- tratamento ≠ apenas coleta;
-- encarregado ≠ agente de tratamento;
-- operador ≠ decisor da finalidade;
-- consentimento ≠ sempre obrigatório;
-- dispensa de consentimento ≠ dispensa de princípios;
-- legítimo interesse ≠ base autônoma para sensível;
-- dado público ≠ uso livre;
+- consentimento ≠ toda operação;
+- dado público ≠ livre;
+- encarregado ≠ controlador;
+- legítimo interesse ≠ dado sensível;
+- anonimização ≠ pseudonimização;
 - eliminação ≠ direito absoluto;
-- 15 dias ≠ prazo único para todo poder público;
-- interoperabilidade ≠ compartilhamento irrestrito;
+- revisão automatizada ≠ necessariamente humana;
 - LGPD ≠ revogação da LAI;
-- dado pessoal ≠ sigilo automático;
-- vulnerabilidade ≠ incidente confirmado;
-- incidente confirmado ≠ sempre comunicável;
-- operador ≠ comunicador principal à ANPD;
-- órgão público ≠ multa simples do art. 52.
+- interoperabilidade ≠ acesso irrestrito;
+- vulnerabilidade ≠ incidente;
+- ANPD = Agência Nacional em 2026.

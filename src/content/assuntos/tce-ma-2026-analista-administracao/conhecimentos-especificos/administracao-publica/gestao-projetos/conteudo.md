@@ -8,96 +8,112 @@ storageId: gestao-projetos
 
 # Gestão de projetos
 
-Projeto é um esforço **temporário** realizado para criar produto, serviço, resultado ou capacidade **singular**. Temporário significa possuir início e término: um projeto pode durar anos. Singular também não significa que tudo seja inédito; componentes repetidos podem ser combinados para produzir uma entrega específica.
+## 1. Recorte e objetivo de estudo
 
-**Gerenciar projetos** é aplicar conhecimentos, habilidades, métodos, ferramentas e técnicas para orientar o trabalho e atender requisitos, objetivos e resultados esperados. Isso exige mais que controlar prazo e custo: envolve valor, governança, escopo, qualidade, pessoas, partes interessadas, riscos, aquisições, mudanças e transição das entregas.
+O edital cobra **gestão de projetos** como item autônomo de Administração Pública. O núcleo estudável é compreender como uma organização transforma uma necessidade temporária em entregas, resultados, benefícios e valor, com governança, planejamento, execução, monitoramento, adaptação e encerramento.
 
-> **Ideia central:** o projeto não existe para produzir documentos ou cumprir tarefas. Ele mobiliza recursos por tempo limitado para entregar mudança útil, justificável e governada.
+Este assunto percorre os conceitos gerais mais cobrados, a linguagem do Project Management Institute — PMI, a ISO 21502, métodos preditivos e adaptativos, ferramentas quantitativas e a aplicação ao setor público. As interfaces com planejamento estratégico, qualidade, processos, pessoas e contratações aparecem apenas quando necessárias para gerir o projeto; esses temas possuem aprofundamento próprio em outros assuntos do edital.
 
-## 1. Projeto, operação, programa, portfólio e produto
+> **Ideia central:** projeto não existe para produzir documentos ou cumprir tarefas. Ele mobiliza recursos por tempo limitado para entregar uma mudança útil, justificável, governada e capaz de gerar valor.
 
-### 1.1 Projeto e operação
+## 2. Corte temporal e leitura das edições do PMBOK
+
+Na publicação do edital, em **6 de julho de 2026**, a edição vigente do *PMBOK Guide* era a **8ª edição**, publicada em novembro de 2025. A 7ª e a 6ª edições permanecem relevantes como referências históricas e porque questões podem indicar expressamente uma edição ou reproduzir sua terminologia.
+
+| Referência | Estrutura mais reconhecível | Como usar em prova |
+| --- | --- | --- |
+| **PMBOK 6** | 49 processos, 5 grupos e 10 áreas de conhecimento | aplicar quando a edição for indicada ou quando a questão usar a taxonomia processual histórica |
+| **PMBOK 7** | 12 princípios e 8 domínios de desempenho | aplicar quando a questão cobrar princípios, sistema de entrega de valor, domínios, tailoring e modelos/métodos/artefatos da 7ª |
+| **PMBOK 8** | 6 princípios, 7 domínios e 5 áreas de foco | referência vigente no corte do edital; processos reaparecem de modo não prescritivo |
+| **Process Groups: A Practice Guide** | 49 processos em 5 grupos para abordagem predominantemente preditiva | guia prático separado, publicado em 2022; não transforma 49 em contagem universal de todo projeto atual |
+
+**Regra de resolução:** identifique primeiro a edição ou a fonte nomeada. Não misture listas de edições diferentes apenas porque todas pertencem ao PMI.
+
+## 3. Projeto, operação, programa, portfólio e produto
+
+Projeto é um esforço **temporário** realizado para criar produto, serviço, resultado ou capacidade **singular**. Temporário significa possuir início e término: um projeto pode durar anos. Singular não significa que tudo seja inédito; elementos conhecidos podem ser combinados para produzir uma entrega específica.
+
+Gerenciar projetos é aplicar conhecimentos, habilidades, métodos, ferramentas e técnicas para orientar o trabalho e atender requisitos, objetivos e resultados esperados. Isso vai além de controlar prazo e custo: envolve valor, governança, escopo, qualidade, pessoas, partes interessadas, riscos, aquisições, mudanças e transição das entregas.
+
+### 3.1 Projeto e operação
 
 | Critério | Projeto | Operação |
 | --- | --- | --- |
 | Duração | temporária | contínua ou recorrente |
 | Entrega | singular | repetitiva ou padronizada |
-| Mudança | cria ou transforma capacidade | sustenta a atividade institucional |
+| Finalidade imediata | criar ou transformar capacidade | sustentar atividade institucional |
 | Equipe | pode ser temporária e multidisciplinar | tende a integrar estrutura permanente |
-| Gestão | orientada a objetivos e encerramento | orientada a estabilidade e continuidade |
+| Gestão | orientada a objetivo e encerramento | orientada a estabilidade e continuidade |
 
-Um projeto pode criar um portal de serviços e transferi-lo para a operação. A manutenção diária do portal é operacional, embora melhorias substanciais possam originar novos projetos. Projeto e operação, portanto, interagem; não são categorias sem contato.
+Um projeto pode implantar um portal e transferi-lo para a operação. A manutenção diária do portal é operacional; uma modernização substancial pode originar novo projeto. Projeto e operação interagem, mas não são sinônimos.
 
-### 1.2 Programa e portfólio
+### 3.2 Programa e portfólio
 
 - **programa:** projetos, subprogramas e atividades relacionados, coordenados para obter benefícios que não surgiriam de sua gestão isolada;
 - **portfólio:** projetos, programas, subportfólios e operações selecionados e geridos em conjunto para alcançar objetivos estratégicos;
-- **projeto:** componente temporário voltado a uma entrega e a objetivos definidos.
+- **projeto:** componente temporário voltado a entregas e objetivos definidos.
 
-Programa não é simplesmente projeto grande. A relação entre seus componentes e a obtenção coordenada de benefícios são essenciais. No portfólio, os componentes não precisam ter dependência técnica entre si: competem por recursos e são priorizados por alinhamento, risco, capacidade, benefícios e valor.
+Programa não é simplesmente projeto grande. A relação entre componentes e a obtenção coordenada de benefícios são essenciais. No portfólio, os componentes não precisam ter dependência técnica entre si: competem por recursos e são priorizados por alinhamento, risco, capacidade, benefícios e valor.
 
-### 1.3 Produto e projeto
+### 3.3 Produto e projeto
 
-Produto é um veículo de valor, físico, digital, um serviço ou outra solução, e pode ter ciclo de vida mais longo que o projeto. Um projeto pode criar ou aprimorar um produto; vários projetos podem atuar sobre o mesmo produto ao longo do tempo. Gestão de produto e gestão de projeto se relacionam, mas não são sinônimos.
+Produto é um veículo de valor — físico, digital, serviço ou outra solução — e pode ter ciclo de vida mais longo que o projeto. Um projeto pode criar ou aprimorar um produto; vários projetos podem atuar sobre o mesmo produto ao longo do tempo. Gestão de produto e gestão de projeto se relacionam, mas não se confundem.
 
-## 2. Entregas, resultados, benefícios e valor público
-
-É preciso distinguir níveis de realização:
+## 4. Entregas, resultados, benefícios e valor público
 
 | Conceito | Pergunta | Exemplo |
 | --- | --- | --- |
 | **entrega ou output** | o que foi produzido? | sistema de protocolo implantado |
 | **resultado ou outcome** | que mudança decorreu do uso? | solicitações passaram a tramitar digitalmente |
-| **benefício** | que ganho mensurável foi percebido? | redução de tempo e de deslocamentos |
+| **benefício** | que ganho mensurável foi percebido? | redução do tempo de atendimento |
 | **valor público** | que utilidade legítima foi gerada para sociedade e usuários? | acesso mais amplo, confiável e econômico ao serviço |
 
-Entregar no prazo e no orçamento não prova, por si só, sucesso. Esses critérios continuam importantes, mas devem ser lidos com qualidade, satisfação das necessidades, realização de benefícios, sustentabilidade, conformidade e valor.
+Entregar no prazo e no orçamento não prova, por si só, sucesso. Esses critérios permanecem relevantes, mas devem ser lidos com qualidade, satisfação da necessidade, realização de benefícios, sustentabilidade, conformidade e valor.
 
-Benefícios podem aparecer depois do encerramento do projeto, quando a entrega já está na operação. Por isso o projeto deve preparar indicadores, responsáveis, transição e acompanhamento, mesmo quando outra unidade medirá os efeitos futuros.
+Benefícios podem aparecer depois do encerramento, quando a entrega já está na operação. O projeto deve preparar indicadores, responsáveis, transição e acompanhamento, mesmo quando outra unidade medirá os efeitos futuros.
 
-## 3. Governança e gestão do projeto
+## 5. Governança e gestão do projeto
 
 **Governança** estabelece direção, direitos de decisão, limites de autoridade, supervisão, critérios de priorização, prestação de contas e escalonamento. **Gestão** planeja e conduz o trabalho dentro desse direcionamento.
 
-No Executivo federal, o Decreto nº 9.203/2017 define governança pública como mecanismos de **liderança, estratégia e controle** postos em prática para **avaliar, direcionar e monitorar** a gestão. O ato associa valor público a produtos e resultados que atendam efetivamente a necessidades de interesse público e determina que riscos sejam integrados a atividades, processos e projetos.
+No Executivo federal, o Decreto nº 9.203/2017 define governança pública por mecanismos de **liderança, estratégia e controle** postos em prática para **avaliar, direcionar e monitorar** a gestão. O decreto associa valor público a produtos e resultados que atendam efetivamente a necessidades de interesse público e determina que riscos integrem atividades, processos e projetos.
 
-### 3.1 Papéis usuais
+### 5.1 Papéis usuais
 
 | Papel | Responsabilidade predominante |
 | --- | --- |
-| **patrocinador** | sustentar a justificativa, prover apoio e recursos, tomar ou escalar decisões estratégicas |
+| **patrocinador** | sustentar a justificativa, prover apoio e recursos e tomar ou escalar decisões estratégicas |
 | **gerente do projeto** | integrar planejamento, execução, monitoramento, decisões e equipe para atingir objetivos |
 | **equipe do projeto** | produzir entregas e contribuir com conhecimento técnico e gerencial |
 | **cliente ou demandante** | expressar necessidades e validar requisitos e aceitação conforme sua competência |
 | **usuário** | utilizar ou ser afetado pela entrega e fornecer evidência sobre adequação |
 | **instância de governança** | avaliar continuidade, prioridades, exceções e desempenho dentro das alçadas |
 
-O patrocinador não substitui o gerente, e o gerente não concentra toda autoridade institucional. Papéis, alçadas e responsabilidades devem estar claros.
+O patrocinador não substitui o gerente, e o gerente não concentra toda autoridade institucional. Papéis, alçadas e responsabilidades precisam estar claros.
 
-### 3.2 Escritório de projetos
+### 5.2 Escritório de projetos
 
-Um **Project Management Office — PMO** pode padronizar métodos, apoiar equipes, consolidar informações, gerir portfólio, desenvolver competências ou exercer controles. Sua forma depende da organização: suporte, controle e direção aparecem em diferentes intensidades. Existir PMO não transforma automaticamente a estrutura em projetizada nem retira do patrocinador e do gerente suas responsabilidades.
+Um **Project Management Office — PMO** pode padronizar métodos, apoiar equipes, consolidar informações, gerir portfólio, desenvolver competências ou exercer controles. A intensidade varia entre suporte, controle e direção. A existência de PMO não torna automaticamente a estrutura projetizada nem retira responsabilidades do patrocinador e do gerente.
 
-## 4. Justificativa, autorização e planos
-
-Documentos próximos em tempo possuem funções distintas:
+## 6. Justificativa, autorização e planos
 
 | Instrumento | Função central |
 | --- | --- |
-| **business case** | justificar o investimento, comparando necessidade, alternativas, viabilidade, custos, riscos e benefícios |
+| **business case** | justificar investimento, comparando necessidade, alternativas, viabilidade, custos, riscos e benefícios |
 | **termo de abertura** | autorizar formalmente o projeto e conferir autoridade ao gerente dentro dos limites definidos |
-| **plano de benefícios** | definir benefícios, indicadores, responsáveis, prazos e sustentação de sua realização |
+| **plano de benefícios** | definir benefícios, indicadores, responsáveis, prazos e sustentação da realização |
 | **plano de gerenciamento** | integrar como o projeto será executado, monitorado, controlado e encerrado |
+| **linha de base** | referência autorizada contra a qual desempenho e mudanças serão avaliados |
 
-O termo de abertura costuma registrar propósito, objetivos mensuráveis, requisitos de alto nível, riscos iniciais, marcos, orçamento resumido, partes interessadas-chave, gerente e patrocinador. Ele não contém necessariamente todo o detalhamento que será desenvolvido no planejamento.
+O termo de abertura costuma registrar propósito, objetivos mensuráveis, requisitos de alto nível, riscos iniciais, marcos, orçamento resumido, partes interessadas-chave, gerente e patrocinador. Ele não contém necessariamente todo o detalhamento desenvolvido no planejamento.
 
-O plano de gerenciamento pode reunir planos subsidiários e **linhas de base** aprovadas. Linha de base é a referência autorizada contra a qual o desempenho e as mudanças serão avaliados; não é qualquer versão de trabalho do plano.
+O plano de gerenciamento pode reunir planos subsidiários e linhas de base aprovadas. Linha de base não é qualquer versão de trabalho: é a referência autorizada sujeita ao controle de mudanças.
 
-## 5. Ciclo de vida, fases e abordagens
+## 7. Ciclo de vida, fases e abordagens
 
-O **ciclo de vida** organiza o projeto da concepção ao encerramento e à transição. As fases podem ser sequenciais, sobrepostas ou repetidas. Cada fase pode terminar com análise de continuidade, aceite ou decisão de governança, mas não existe divisão universal obrigatória.
+O **ciclo de vida** organiza o projeto da concepção ao encerramento e à transição. Fases podem ser sequenciais, sobrepostas ou repetidas. Cada fase pode terminar com análise de continuidade, aceite ou decisão de governança, mas não existe divisão universal obrigatória.
 
-### 5.1 Abordagens de desenvolvimento
+### 7.1 Abordagens de desenvolvimento
 
 | Abordagem | Situação típica | Características |
 | --- | --- | --- |
@@ -105,34 +121,32 @@ O **ciclo de vida** organiza o projeto da concepção ao encerramento e à trans
 | **iterativa** | solução melhora por aprendizagem | versões sucessivas refinam o resultado |
 | **incremental** | valor pode ser entregue em partes utilizáveis | funcionalidades ou componentes são adicionados gradualmente |
 | **adaptativa ou ágil** | alta incerteza e necessidade de feedback frequente | ciclos curtos, priorização contínua, inspeção e adaptação |
-| **híbrida** | componentes possuem incertezas e restrições diferentes | combina práticas preditivas e adaptativas de modo deliberado |
+| **híbrida** | componentes possuem incertezas e restrições diferentes | combina práticas preditivas e adaptativas deliberadamente |
 
 Iterativo e incremental não são idênticos: a iteração refina; o incremento adiciona parte utilizável. Muitas abordagens fazem ambos.
 
-Uma contratação e seus marcos legais podem ser conduzidos de forma preditiva, enquanto o desenvolvimento da solução contratada usa ciclos iterativos. Híbrido não é mistura acidental: exige interfaces, decisões, entregas e controles coerentes.
+Uma contratação e seus marcos legais podem seguir planejamento preditivo, enquanto o desenvolvimento da solução contratada utiliza ciclos iterativos. Híbrido não é mistura acidental: exige interfaces, decisões, entregas e controles coerentes.
 
-### 5.2 Tailoring
+### 7.2 Tailoring
 
 **Tailoring** é a adaptação consciente da abordagem, do ciclo, dos processos, artefatos, controles e ferramentas ao contexto. Considera complexidade, incerteza, criticidade, risco, equipe, tecnologia, governança, contratos e exigências legais.
 
-Adaptar não significa omitir disciplina. Um projeto pequeno pode usar documentação enxuta; um projeto crítico exige rastreabilidade e controles proporcionais. Nem o PMBOK nem a ISO 21502 prescrevem que todos os projetos usem exatamente o mesmo conjunto de práticas.
+Adaptar não significa abandonar disciplina. Um projeto pequeno pode usar documentação enxuta; um projeto crítico exige rastreabilidade e controles proporcionais. Nem PMBOK nem ISO 21502 prescrevem o mesmo conjunto de práticas para todo projeto.
 
-## 6. PMBOK atual e referências históricas
+## 8. PMBOK: 8ª, 7ª e 6ª edições
 
-### 6.1 PMBOK Guide — 8ª edição
+### 8.1 PMBOK Guide — 8ª edição
 
-A edição vigente do guia do Project Management Institute — PMI foi publicada em **novembro de 2025**. Ela mantém a fundação em princípios e domínios, esclarece sua aplicação e reapresenta orientação de processos de maneira não prescritiva.
+A edição vigente no corte do edital foi publicada em **novembro de 2025**. Ela preserva a fundação em princípios e domínios da 7ª edição, simplifica sua estrutura e reapresenta orientação de processos de maneira não prescritiva.
 
 Os seis princípios resumidos publicamente pelo PMI são:
 
-1. adotar visão holística (*adopt a holistic view*);
-2. focar em valor (*focus on value*);
-3. incorporar qualidade (*embed quality*);
-4. liderar com responsabilidade (*lead accountably*);
-5. integrar sustentabilidade (*integrate sustainability*);
-6. construir equipes empoderadas (*build empowered teams*).
-
-No sumário do padrão, o capítulo correspondente recebe o título *Build an Empowered Culture*. As duas formulações oficiais convergem para autonomia responsável, capacidade de decisão e colaboração, não para ausência de prestação de contas.
+1. adotar visão holística;
+2. focar em valor;
+3. incorporar qualidade;
+4. liderar com responsabilidade;
+5. integrar sustentabilidade;
+6. construir equipes empoderadas.
 
 Os sete domínios de desempenho são:
 
@@ -144,13 +158,7 @@ Os sete domínios de desempenho são:
 6. recursos;
 7. riscos.
 
-A 8ª edição também apresenta cinco **áreas de foco**: iniciação, planejamento, execução, monitoramento e controle e encerramento. Elas apoiam a organização do trabalho, mas não constituem fases obrigatórias e lineares. A página e o sumário públicos oficiais não sustentam atribuir ao guia atual uma contagem rígida universal de processos.
-
-### 6.2 PMBOK Guide — 6ª edição como referência histórica
-
-Questões que indiquem expressamente a 6ª edição podem cobrar **49 processos**, cinco grupos de processos e dez áreas de conhecimento.
-
-Grupos:
+A 8ª edição apresenta cinco **áreas de foco**:
 
 1. iniciação;
 2. planejamento;
@@ -158,7 +166,55 @@ Grupos:
 4. monitoramento e controle;
 5. encerramento.
 
-Áreas:
+Áreas de foco ajudam a organizar o trabalho, mas não são fases obrigatórias e lineares. A página e o sumário públicos oficiais não sustentam atribuir à 8ª edição uma contagem rígida universal de processos.
+
+### 8.2 PMBOK Guide — 7ª edição como referência histórica
+
+A 7ª edição foi publicada em **agosto de 2021**. Ela deslocou o centro da exposição de áreas e processos para **princípios**, **domínios de desempenho**, sistema de entrega de valor, tailoring e seleção contextual de modelos, métodos e artefatos. Isso não aboliu planejamento, processos ou ferramentas; mudou a forma de organizar a orientação.
+
+Os doze princípios podem ser sintetizados assim:
+
+1. exercer administração diligente, respeitosa e cuidadosa;
+2. criar ambiente colaborativo de equipe;
+3. engajar eficazmente as partes interessadas;
+4. focar em valor;
+5. reconhecer, avaliar e responder às interações do sistema;
+6. demonstrar comportamentos de liderança;
+7. adaptar a abordagem ao contexto;
+8. incorporar qualidade aos processos e entregas;
+9. navegar a complexidade;
+10. otimizar respostas aos riscos;
+11. adotar adaptabilidade e resiliência;
+12. promover a mudança para alcançar o estado futuro pretendido.
+
+Os oito domínios de desempenho são:
+
+1. partes interessadas;
+2. equipe;
+3. abordagem de desenvolvimento e ciclo de vida;
+4. planejamento;
+5. trabalho do projeto;
+6. entrega;
+7. medição;
+8. incerteza.
+
+Domínio é um conjunto de atividades relacionadas e interdependentes relevante para a entrega eficaz de resultados. Não é sinônimo de fase, grupo de processos ou área de conhecimento da 6ª edição.
+
+A 7ª edição reúne também uma seção de **modelos, métodos e artefatos**. O guia não manda usar todos: o gerente e a equipe selecionam e adaptam o que é apropriado ao contexto, mantendo governança, ética, conformidade e foco em valor.
+
+### 8.3 PMBOK Guide — 6ª edição e modelo processual
+
+Questões que indiquem expressamente a 6ª edição podem cobrar **49 processos**, cinco grupos e dez áreas de conhecimento.
+
+Grupos de processos:
+
+1. iniciação;
+2. planejamento;
+3. execução;
+4. monitoramento e controle;
+5. encerramento.
+
+Áreas de conhecimento:
 
 1. integração;
 2. escopo;
@@ -171,31 +227,33 @@ Grupos:
 9. aquisições;
 10. partes interessadas.
 
-**Grupo de processos não é fase.** Processos de planejamento e controle podem ocorrer em várias fases e de forma recorrente. Também não se deve transportar automaticamente a taxonomia da 6ª edição para uma questão que pergunte pela estrutura vigente da 8ª.
+O *Process Groups: A Practice Guide*, de 2022, mantém 49 processos nos mesmos cinco grupos para uma abordagem predominantemente preditiva. Isso reforça a utilidade do modelo, mas não autoriza transportá-lo como estrutura universal da 8ª edição.
 
-### 6.3 ISO 21502:2020
+**Grupo de processos não é fase.** Processos de planejamento e controle podem ocorrer em várias fases e repetidamente.
 
-A ISO 21502:2020 fornece orientação de alto nível para gestão de projetos em organizações públicas, privadas e beneficentes, qualquer que seja propósito, porte, duração, complexidade, ciclo ou abordagem. Abrange práticas preditivas, incrementais, iterativas, adaptativas, híbridas e ágeis. Seu escopo é gestão de **projetos**, não orientação específica para gestão de programas ou portfólios.
+### 8.4 ISO 21502:2020
 
-## 7. Integração e controle de mudanças
+A ISO 21502:2020 fornece orientação de alto nível para gestão de projetos em organizações públicas, privadas e beneficentes, qualquer que seja propósito, porte, duração, complexidade, ciclo ou abordagem. Abrange práticas preditivas, incrementais, iterativas, adaptativas, híbridas e ágeis. Seu escopo é gestão de **projetos**, não orientação específica para programas ou portfólios.
 
-Integração coordena decisões entre escopo, prazo, custo, qualidade, recursos, riscos, partes interessadas, aquisições e benefícios. Otimizar uma dimensão isolada pode prejudicar o conjunto.
+## 9. Integração e controle de mudanças
 
-Uma solicitação de mudança deve ser:
+Integração coordena decisões entre escopo, prazo, custo, qualidade, recursos, riscos, partes interessadas, aquisições e benefícios. Otimizar uma dimensão isoladamente pode prejudicar o conjunto.
 
-1. registrada e esclarecida;
-2. analisada quanto a impactos e alternativas;
-3. submetida à autoridade competente;
-4. aprovada, rejeitada ou adiada;
-5. incorporada aos planos e linhas de base, se aprovada;
-6. comunicada e rastreada;
-7. verificada após implementação.
+Fluxo usual de uma solicitação de mudança:
 
-Solicitar não é aprovar. Executar mudança sem decisão pode gerar expansão informal do escopo, custo não autorizado e perda de rastreabilidade. Em abordagens adaptativas, o detalhe do backlog pode mudar continuamente, mas continuam existindo objetivos, restrições, autoridade, transparência e decisões sobre valor.
+1. registrar e esclarecer;
+2. analisar impactos e alternativas;
+3. submeter à autoridade competente;
+4. aprovar, rejeitar ou adiar;
+5. incorporar aos planos e linhas de base, se aprovada;
+6. comunicar e rastrear;
+7. verificar a implementação.
 
-**Controle de configuração** identifica versões e características dos produtos e documentos. Ele se relaciona ao controle de mudanças, mas não se confunde com a decisão de aprovar ou rejeitar uma alteração.
+Solicitar não é aprovar. Executar mudança sem decisão pode gerar expansão informal do escopo, custo não autorizado e perda de rastreabilidade. Em abordagens adaptativas, o detalhe do backlog pode mudar continuamente, mas objetivos, restrições, autoridade, transparência e decisões sobre valor continuam existindo.
 
-## 8. Gestão do escopo
+**Controle de configuração** identifica versões e características de produtos e documentos. Relaciona-se ao controle de mudanças, mas não se confunde com a decisão de aprovar ou rejeitar alteração.
+
+## 10. Gestão do escopo
 
 Escopo do **produto** descreve características e funções da entrega. Escopo do **projeto** compreende o trabalho necessário para produzi-la.
 
@@ -208,11 +266,11 @@ Uma sequência preditiva frequente inclui:
 5. validar formalmente as entregas;
 6. controlar escopo e mudanças.
 
-### 8.1 EAP/WBS
+### 10.1 EAP/WBS
 
-A **EAP** ou **Work Breakdown Structure — WBS** é a decomposição hierárquica, orientada a entregas, do escopo total do projeto. Seu nível inferior é o **pacote de trabalho**, no qual o trabalho pode ser estimado, atribuído, monitorado e controlado.
+A **EAP** ou **Work Breakdown Structure — WBS** é a decomposição hierárquica, orientada a entregas, do escopo total. Seu nível inferior é o **pacote de trabalho**, no qual o trabalho pode ser estimado, atribuído, monitorado e controlado.
 
-Na referência histórica da 6ª edição, a linha de base do escopo reúne:
+Na referência processual histórica, a linha de base do escopo reúne:
 
 - declaração do escopo;
 - EAP;
@@ -220,28 +278,28 @@ Na referência histórica da 6ª edição, a linha de base do escopo reúne:
 
 A **regra dos 100%** recomenda que a EAP contenha todo o escopo do projeto e o trabalho de gerenciamento, sem omissão nem duplicação. A EAP não é cronograma, organograma, diagrama de rede ou simples lista de atividades. Atividades são derivadas dos pacotes de trabalho para programar a execução.
 
-### 8.2 Validação e controle
+### 10.2 Validação e controle
 
 **Validar o escopo** busca aceite formal das entregas. **Controlar a qualidade** verifica correção e conformidade. Uma entrega costuma ser verificada antes de ser submetida ao aceite, mas conformidade técnica e aceitação são atos distintos.
 
-## 9. Gestão do cronograma
+## 11. Gestão do cronograma
 
-O cronograma relaciona atividades, dependências, durações, recursos, marcos e datas. **Marco** é evento significativo de duração zero; não consome trabalho como uma atividade comum.
+O cronograma relaciona atividades, dependências, durações, recursos, marcos e datas. **Marco** é evento significativo de duração zero; não consome trabalho como atividade comum.
 
-### 9.1 Sequenciamento
+### 11.1 Sequenciamento
 
-No Método do Diagrama de Precedência, são usuais:
+No Método do Diagrama de Precedência:
 
 - **término para início — TI:** a sucessora inicia após o término da predecessora;
 - **término para término — TT:** a sucessora termina após a predecessora terminar;
 - **início para início — II:** a sucessora inicia após a predecessora iniciar;
 - **início para término — IT:** a sucessora termina após a predecessora iniciar.
 
-**Antecipação ou lead** permite adiantar a sucessora em relação à dependência. **Espera ou lag** impõe atraso. Esses ajustes devem representar a lógica real, e não esconder trabalho mal decomposto.
+**Antecipação ou lead** permite adiantar a sucessora em relação à dependência. **Espera ou lag** impõe atraso. Esses ajustes devem representar a lógica real, não esconder trabalho mal decomposto.
 
-### 9.2 Estimativas
+### 11.2 Estimativas
 
-- **análoga:** usa projeto ou atividade semelhante; é rápida e geralmente menos precisa;
+- **análoga:** usa projeto ou atividade semelhante; rápida e geralmente menos precisa;
 - **paramétrica:** aplica relação estatística, como quantidade dividida por produtividade;
 - **bottom-up:** estima componentes detalhados e os agrega;
 - **três pontos:** considera cenários otimista, mais provável e pessimista.
@@ -262,34 +320,32 @@ $$
 
 A distribuição triangular usa $TE=(O+M+P)/3$; não se deve confundi-la com a ponderação PERT.
 
-### 9.3 Caminho crítico e folgas
+### 11.3 Caminho crítico e folgas
 
-O **caminho crítico** é o caminho de maior duração na rede e determina a menor duração calculada para o projeto. Atividades críticas possuem, em situação usual, folga total zero. Pode haver mais de um caminho crítico, e ele pode mudar.
+O **caminho crítico** é o caminho de maior duração na rede e determina a menor duração calculada do projeto. Atividades críticas possuem, em situação usual, folga total zero. Pode haver mais de um caminho crítico, e ele pode mudar.
 
 - **folga total:** atraso possível sem atrasar a data final do projeto;
 - **folga livre:** atraso possível sem afetar o início mais cedo da sucessora.
 
-Crítico não significa necessariamente mais caro, mais complexo ou mais arriscado. Uma atividade curta pode ser crítica se estiver no caminho sem folga.
+Crítico não significa necessariamente mais caro, mais complexo ou mais arriscado.
 
-### 9.4 Recursos e compressão
+### 11.4 Recursos e compressão
 
-- **nivelamento de recursos:** ajusta datas à disponibilidade; pode alterar caminho crítico e aumentar a duração;
+- **nivelamento de recursos:** ajusta datas à disponibilidade; pode alterar o caminho crítico e aumentar a duração;
 - **crashing:** adiciona recursos para reduzir duração, prioritariamente em atividades críticas, geralmente aumentando custo ou risco;
 - **fast tracking ou paralelismo:** sobrepõe atividades antes sequenciais, podendo aumentar risco e retrabalho.
 
 Comprimir atividades não críticas sem alterar o caminho controlador pode não reduzir a data final.
 
-## 10. Gestão de custos e valor agregado
+## 12. Gestão de custos e valor agregado
 
 Custos são estimados, agregados no orçamento e controlados. A **linha de base de custos** é a referência autorizada e escalonada no tempo para medir desempenho.
 
 - **reserva de contingência:** cobre riscos identificados e integra a linha de base de custos;
-- **reserva gerencial:** cobre trabalho imprevisto dentro do escopo e fica fora da linha de base de custos, embora componha o orçamento total do projeto;
-- **BAC — Budget at Completion:** orçamento na conclusão, correspondente à linha de base total do trabalho.
+- **reserva gerencial:** cobre trabalho imprevisto dentro do escopo e fica fora da linha de base, embora componha o orçamento total;
+- **BAC — Budget at Completion:** orçamento na conclusão correspondente à linha de base total do trabalho.
 
-### 10.1 Gerenciamento do Valor Agregado — GVA/EVM
-
-O GVA integra escopo, cronograma e custo:
+### 12.1 Gerenciamento do Valor Agregado — GVA/EVM
 
 | Medida | Significado |
 | --- | --- |
@@ -342,9 +398,9 @@ ETC = EAC - AC
 VAC = BAC - EAC
 $$
 
-Um índice não explica sozinho a causa do desvio. Tendência, qualidade dos dados, riscos e estimativas futuras devem ser analisados.
+Um índice não explica sozinho a causa do desvio. Tendência, qualidade dos dados, riscos e estimativas futuras precisam ser analisados.
 
-## 11. Qualidade no projeto
+## 13. Qualidade no projeto
 
 Qualidade é o grau em que requisitos são atendidos. Deve ser planejada e incorporada ao processo e à entrega, não apenas inspecionada ao final.
 
@@ -352,11 +408,11 @@ Qualidade é o grau em que requisitos são atendidos. Deve ser planejada e incor
 - **gerenciar a qualidade:** transformar o plano em práticas, prevenção e melhoria;
 - **controlar a qualidade:** medir resultados e verificar conformidade.
 
-**Grau** e qualidade não são sinônimos. Um equipamento com menos funcionalidades pode ser de grau inferior e, ainda assim, ter alta qualidade se cumprir integralmente seus requisitos. Já defeito é não conformidade.
+**Grau** e qualidade não são sinônimos. Um equipamento com menos funcionalidades pode ser de grau inferior e, ainda assim, ter alta qualidade se cumprir seus requisitos. Defeito é não conformidade.
 
-Prevenção costuma ser preferível à correção. Custos de qualidade incluem prevenção e avaliação; custos da não qualidade incluem falhas internas e externas. Mudança para elevar qualidade também deve ser analisada quanto a valor, custo e risco.
+Prevenção costuma ser preferível à correção. Custos de qualidade incluem prevenção e avaliação; custos da não qualidade incluem falhas internas e externas.
 
-## 12. Recursos, equipe e responsabilidades
+## 14. Recursos, equipe e responsabilidades
 
 Recursos incluem pessoas, instalações, equipamentos, materiais, informações e orçamento. Gerenciar equipe envolve competências, disponibilidade, desenvolvimento, motivação, coordenação, conflitos e desempenho.
 
@@ -367,13 +423,13 @@ A matriz **RACI** pode esclarecer papéis:
 - **C — Consulted:** contribui antes da decisão ou execução;
 - **I — Informed:** recebe informação pertinente.
 
-Conflito não é sempre disfuncional. Divergências técnicas tratadas com respeito podem melhorar decisões. O gerente deve escolher abordagem compatível com urgência, relação, poder e conteúdo do conflito, favorecendo solução colaborativa quando viável.
+Conflito não é sempre disfuncional. Divergências técnicas tratadas com respeito podem melhorar decisões. O gerente escolhe abordagem compatível com urgência, relação, poder e conteúdo do conflito, favorecendo solução colaborativa quando viável.
 
-Confiança e **segurança psicológica** permitem que integrantes exponham dúvidas, riscos, erros e discordâncias sem receio de humilhação ou retaliação. Elas não eliminam responsabilização: tornam problemas visíveis cedo o suficiente para aprender e agir.
+Confiança e **segurança psicológica** permitem expor dúvidas, riscos, erros e discordâncias sem medo de humilhação ou retaliação. Não eliminam responsabilização; tornam problemas visíveis mais cedo.
 
-## 13. Comunicações e partes interessadas
+## 15. Comunicações e partes interessadas
 
-Parte interessada é pessoa, grupo ou organização que pode afetar, ser afetada ou perceber-se afetada pelo projeto. Identificação é contínua, pois poder, interesse, impacto e atitude mudam.
+Parte interessada é pessoa, grupo ou organização que pode afetar, ser afetada ou perceber-se afetada pelo projeto. A identificação é contínua, pois poder, interesse, impacto e atitude mudam.
 
 Uma análise pode considerar:
 
@@ -383,15 +439,15 @@ Uma análise pode considerar:
 - apoio, neutralidade ou resistência;
 - necessidades de informação e participação.
 
-O **plano de comunicações** define que informação será fornecida, a quem, por quem, quando, em qual formato e canal, com retorno esperado. Comunicação não equivale a enviar mais mensagens.
+O **plano de comunicações** define qual informação será fornecida, a quem, por quem, quando, em qual formato e canal, com retorno esperado. Comunicação não equivale a enviar mais mensagens.
 
-**Gerenciar comunicações** assegura fluxo adequado de informação. **Engajar partes interessadas** busca participação, entendimento, apoio e tratamento de expectativas. Uma comunicação tecnicamente entregue pode não produzir engajamento.
+**Gerenciar comunicações** assegura fluxo adequado de informação. **Engajar partes interessadas** busca participação, entendimento, apoio e tratamento de expectativas. Informação tecnicamente entregue pode não produzir engajamento.
 
-## 14. Gestão de riscos
+## 16. Gestão de riscos
 
 Risco é evento ou condição **incerta** que, se ocorrer, afeta objetivos positiva ou negativamente. **Problema ou issue** é condição já ocorrida e exige tratamento presente, embora possa gerar novos riscos.
 
-Uma gestão estruturada inclui:
+Fluxo estruturado:
 
 1. planejar a abordagem;
 2. identificar riscos, causas, eventos e consequências;
@@ -401,7 +457,7 @@ Uma gestão estruturada inclui:
 6. implementar respostas;
 7. monitorar riscos, gatilhos, riscos residuais, secundários e emergentes.
 
-### 14.1 Respostas
+### 16.1 Respostas
 
 | Ameaças | Oportunidades |
 | --- | --- |
@@ -418,34 +474,34 @@ Uma gestão estruturada inclui:
 
 No setor público federal, o Decreto nº 9.203/2017 exige controles proporcionais aos riscos, considerando custo-benefício. Controle máximo para todo risco pode desperdiçar recursos e comprometer resultados.
 
-## 15. Aquisições e contratações públicas
+## 17. Aquisições e contratações públicas
 
-Aquisição envolve decidir fazer ou comprar, definir estratégia, especificar necessidade, selecionar fornecedor, contratar, administrar desempenho, tratar mudanças e encerrar obrigações.
+Aquisição envolve decidir fazer ou comprar, definir estratégia, especificar a necessidade, selecionar fornecedor, contratar, administrar desempenho, tratar mudanças e encerrar obrigações.
 
-Em termos gerais:
+Em termos gerenciais gerais:
 
 - preço fixo transfere maior risco de custo ao fornecedor quando o escopo está claro;
 - custos reembolsáveis deixam maior risco de custo com o comprador;
 - tempo e material combina características e exige limites e controle.
 
-Essa classificação gerencial não substitui regimes e regras legais aplicáveis.
+Essa classificação não substitui regimes e regras legais aplicáveis.
 
-### 15.1 Lei nº 14.133/2021
+### 17.1 Lei nº 14.133/2021
 
-Quando o projeto envolve contratação pública, a Lei de Licitações e Contratos Administrativos impõe planejamento, transparência, eficiência, eficácia, economicidade, segregação de funções, sustentabilidade e outros princípios. Ela não é um framework completo de gestão de projetos.
+Quando o projeto envolve contratação pública, a Lei de Licitações e Contratos Administrativos impõe planejamento, transparência, eficiência, eficácia, economicidade, segregação de funções, sustentabilidade e outros princípios. Ela não é framework completo de gestão de projetos.
 
-Instrumentos legais não devem ser tratados como sinônimos de artefatos gerenciais:
+Instrumentos próximos não são sinônimos:
 
 - **Estudo Técnico Preliminar — ETP:** primeira etapa do planejamento da contratação; caracteriza o interesse público, a necessidade e a melhor solução e fundamenta anteprojeto, termo de referência ou projeto básico;
 - **termo de referência:** define objeto de bens e serviços, solução, requisitos, execução, gestão, medição, pagamento, seleção, estimativa e adequação orçamentária;
-- **projeto básico:** elementos necessários e suficientes para definir e dimensionar obra ou serviço, avaliar custo e definir método e prazo;
+- **projeto básico:** reúne elementos necessários e suficientes para definir e dimensionar obra ou serviço, avaliar custo e definir método e prazo;
 - **matriz de riscos:** cláusula que aloca riscos e responsabilidades entre contratante e contratado e caracteriza o equilíbrio econômico-financeiro inicial.
 
-ETP não é automaticamente o business case do projeto; termo de referência não é termo de abertura; matriz contratual não substitui o registro e a gestão ampla dos riscos do projeto.
+ETP não é automaticamente *business case*; termo de referência não é termo de abertura; matriz contratual não substitui o registro e a gestão ampla dos riscos do projeto.
 
-A alta administração responde pela governança das contratações, que deve alinhar planejamento, orçamento, gestão de riscos e controles. O gerente do projeto deve integrar cronograma de contratação, fiscalização, entregas e mudanças ao plano geral, respeitando competências legais.
+A alta administração responde pela governança das contratações, alinhando planejamento, orçamento, riscos e controles. O gerente integra cronograma de contratação, fiscalização, entregas e mudanças ao plano geral, respeitando competências legais.
 
-## 16. Abordagem adaptativa e Scrum
+## 18. Abordagem adaptativa e Scrum
 
 O **Scrum Guide**, versão oficial de novembro de 2020, define Scrum como framework leve para gerar valor por soluções adaptativas a problemas complexos. Baseia-se em empirismo e pensamento Lean.
 
@@ -455,15 +511,9 @@ Pilares:
 2. inspeção;
 3. adaptação.
 
-Valores:
+Valores: compromisso, foco, abertura, respeito e coragem.
 
-- compromisso;
-- foco;
-- abertura;
-- respeito;
-- coragem.
-
-### 16.1 Scrum Team
+### 18.1 Scrum Team
 
 O Scrum Team é unidade coesa, multifuncional e autogerenciável, sem subequipes ou hierarquia interna. Em geral, possui dez pessoas ou menos.
 
@@ -473,11 +523,11 @@ O Scrum Team é unidade coesa, multifuncional e autogerenciável, sem subequipes
 | **Scrum Master** | estabelecer Scrum e promover efetividade do time e da organização |
 | **Developers** | criar Incremento utilizável e aderente à Definição de Pronto |
 
-Product Owner é **uma pessoa**, não comitê. Scrum Master é líder servidor e não gerente que distribui tarefas. Developers decidem como transformar itens em incremento.
+Product Owner é **uma pessoa**, não comitê. Scrum Master é líder servidor, não gerente que distribui tarefas. Developers decidem como transformar itens em incremento.
 
-### 16.2 Eventos
+### 18.2 Eventos
 
-A **Sprint** é o evento-contêiner e dura um mês ou menos. Uma nova Sprint começa imediatamente após a anterior.
+A **Sprint** é o evento-contêiner e dura um mês ou menos. Nova Sprint começa imediatamente após a anterior.
 
 | Evento | Propósito | Timebox em Sprint de um mês |
 | --- | --- | --- |
@@ -486,9 +536,9 @@ A **Sprint** é o evento-contêiner e dura um mês ou menos. Uma nova Sprint com
 | Sprint Review | inspecionar resultado com stakeholders e adaptar próximos passos | até 4 horas |
 | Sprint Retrospective | planejar melhorias de qualidade e efetividade | até 3 horas |
 
-A Daily Scrum é dos Developers e não reunião obrigatória de reporte ao gerente. A Sprint Review é sessão de trabalho, não simples demonstração. Somente o Product Owner pode cancelar a Sprint se a Meta da Sprint se tornar obsoleta.
+A Daily Scrum é dos Developers e não reunião obrigatória de reporte ao gerente. A Sprint Review é sessão de trabalho, não simples demonstração. Somente o Product Owner pode cancelar Sprint se a Meta da Sprint se tornar obsoleta.
 
-### 16.3 Artefatos e compromissos
+### 18.3 Artefatos e compromissos
 
 | Artefato | Compromisso |
 | --- | --- |
@@ -496,25 +546,25 @@ A Daily Scrum é dos Developers e não reunião obrigatória de reporte ao geren
 | Sprint Backlog | Meta da Sprint |
 | Incremento | Definição de Pronto |
 
-O Product Backlog é lista ordenada e emergente e a única fonte de trabalho do Scrum Team. O Sprint Backlog reúne Meta da Sprint, itens selecionados e plano de entrega. Um Incremento deve ser utilizável e atender à Definição de Pronto.
+O Product Backlog é lista ordenada e emergente e a única fonte de trabalho do Scrum Team. O Sprint Backlog reúne Meta da Sprint, itens selecionados e plano de entrega. Incremento deve ser utilizável e atender à Definição de Pronto.
 
-Refinamento do backlog é atividade contínua, não evento formal. User stories, pontos, velocidade, burndown e Kanban podem ser úteis, mas não são elementos obrigatórios do Scrum Guide.
+Refinamento do backlog é atividade contínua, não evento formal. *User stories*, pontos, velocidade, *burndown* e Kanban podem ser úteis, mas não são elementos obrigatórios do Scrum Guide.
 
 Aplicar Scrum no setor público não afasta governança, legalidade, orçamento, transparência, acessibilidade, segurança, proteção de dados nem regras de contratação.
 
-## 17. Monitoramento, controle e informações de desempenho
+## 19. Monitoramento, controle e desempenho
 
 Monitorar e controlar é comparar realizado e planejado, analisar tendências, validar entregas, tratar riscos e problemas, avaliar mudanças e recomendar ações.
 
 - **dados de desempenho:** observações brutas, como horas e custos registrados;
 - **informações de desempenho:** dados analisados e contextualizados, como índice, variação e tendência;
-- **relatórios de desempenho:** apresentação organizada para decisão, conforme necessidade do destinatário.
+- **relatórios de desempenho:** apresentação organizada para decisão conforme o destinatário.
 
-Ação **corretiva** realinha desempenho futuro ao plano; ação **preventiva** reduz probabilidade de desvio futuro; **reparo de defeito** corrige não conformidade de uma entrega. Todas podem exigir solicitação de mudança conforme a governança.
+Ação **corretiva** realinha desempenho futuro ao plano; ação **preventiva** reduz probabilidade de desvio futuro; **reparo de defeito** corrige não conformidade. Todas podem exigir solicitação de mudança conforme a governança.
 
 Relatório útil não oculta incerteza nem confunde percentual de tarefas concluídas com percentual de valor entregue.
 
-## 18. Encerramento e transição
+## 20. Encerramento e transição
 
 Encerrar não significa apenas parar de gastar. Inclui, conforme aplicável:
 
@@ -531,13 +581,13 @@ Lições aprendidas devem ser registradas ao longo do projeto, quando a memória
 
 Projeto cancelado também deve ser encerrado formalmente: justificativa, estado das entregas, obrigações, dados, recursos e aprendizados precisam ser tratados.
 
-## 19. Exemplo integrado no setor público
+## 21. Exemplo integrado no setor público
 
 Um órgão decide implantar serviço digital de requerimentos:
 
-1. o business case compara alternativas e justifica o investimento por acesso, prazo e custo;
+1. o *business case* compara alternativas e justifica o investimento por acesso, prazo e custo;
 2. a governança autoriza o projeto em termo de abertura, define patrocinador, gerente, alçadas e decisões de continuidade;
-3. usuários, unidades de atendimento, controle, tecnologia e fornecedor são analisados como partes interessadas;
+3. usuários, atendimento, controle, tecnologia e fornecedor são analisados como partes interessadas;
 4. requisitos de acessibilidade, segurança, transparência e atendimento integram o escopo;
 5. a EAP decompõe entregas como desenho do serviço, contratação, solução, migração, capacitação e transição;
 6. a rede mostra que contratação e migração condicionam o caminho crítico;
@@ -550,21 +600,24 @@ Um órgão decide implantar serviço digital de requerimentos:
 
 Entregar o sistema não basta se o serviço continuar inacessível ou lento. Valor depende de uso, resultado e sustentabilidade.
 
-## 20. Pegadinhas frequentes
+## 22. Pegadinhas frequentes
 
 - temporário ≠ curto;
 - singular ≠ inteiramente inédito;
 - programa ≠ projeto grande;
 - portfólio não exige componentes tecnicamente relacionados;
-- entrega ≠ benefício;
+- entrega ≠ resultado ≠ benefício;
 - sucesso ≠ apenas prazo, escopo e custo;
 - governança direciona e supervisiona; gestão conduz o trabalho;
-- business case ≠ termo de abertura ≠ plano do projeto;
-- fase ≠ grupo de processos ou área de foco;
+- *business case* ≠ termo de abertura ≠ plano do projeto;
+- fase ≠ grupo de processos ≠ domínio ≠ área de foco;
 - híbrido ≠ improvisação;
 - tailoring ≠ ausência de método;
-- PMBOK 8 ≠ estrutura histórica de 49 processos da 6ª edição;
-- ISO 21502 orienta projetos, não programas e portfólios;
+- PMBOK 6 = 49 processos, 5 grupos e 10 áreas;
+- PMBOK 7 = 12 princípios e 8 domínios;
+- PMBOK 8 = 6 princípios, 7 domínios e 5 áreas de foco;
+- o guia de grupos de processos é uma referência preditiva separada, não a estrutura universal da 8ª edição;
+- ISO 21502 orienta projetos, não especificamente programas e portfólios;
 - EAP ≠ cronograma ou lista de atividades;
 - pacote de trabalho ≠ marco;
 - caminho crítico ≠ caminho mais caro ou arriscado;
@@ -578,17 +631,27 @@ Entregar o sistema não basta se o serviço continuar inacessível ou lento. Val
 - risco ≠ problema já ocorrido;
 - transferir ameaça ≠ eliminá-la;
 - solicitação de mudança ≠ mudança aprovada;
-- ETP ≠ business case; termo de referência ≠ termo de abertura;
+- ETP ≠ *business case*; termo de referência ≠ termo de abertura;
 - matriz contratual de riscos ≠ gestão completa dos riscos do projeto;
 - Scrum = framework, não metodologia prescritiva completa;
 - Scrum Master ≠ chefe da equipe;
 - Product Owner = uma pessoa;
 - Daily Scrum ≠ reporte ao gerente;
 - refinamento ≠ evento formal do Scrum;
-- burndown, pontos e user stories não são obrigatórios no Scrum Guide;
+- *burndown*, pontos e *user stories* não são obrigatórios no Scrum Guide;
 - lições aprendidas ≠ atividade exclusiva do encerramento.
 
-## 21. Limites deste assunto
+## 23. Método rápido para questões e situações-problema
+
+1. **Identifique a fonte:** edição do PMBOK, ISO, Scrum ou norma pública.
+2. **Classifique o objeto:** projeto, operação, programa, portfólio ou produto.
+3. **Localize o nível:** entrega, resultado, benefício ou valor.
+4. **Separe direção de execução:** governança decide alçadas; gestão conduz o trabalho.
+5. **Teste a integração:** toda mudança relevante pode afetar escopo, prazo, custo, qualidade, risco, contrato e benefício.
+6. **Procure o efeito real:** ferramenta aplicada a atividade não crítica pode não alterar a data final; entrega sem uso pode não gerar valor.
+7. **Em discursiva:** apresente diagnóstico, critérios, decisão, responsáveis, controles, indicadores e transição.
+
+## 24. Limites deste assunto
 
 Para preservar os recortes do edital:
 
@@ -596,19 +659,21 @@ Para preservar os recortes do edital:
 - gestão de processos pertence ao Assunto 107;
 - gestão da qualidade foi aprofundada no Assunto 108 e aparece aqui aplicada ao projeto;
 - planejamento estratégico pertence ao Assunto 110; aqui se trata apenas do alinhamento entre projeto e estratégia;
-- gestão de resultados será aprofundada no Assunto 112;
-- licitações, contratos e fiscalização serão aprofundados nos Assuntos 124 a 137; aqui a Lei nº 14.133/2021 aparece somente na interface com o projeto;
-- gestão de pessoas será aprofundada nos Assuntos 142 a 153; aqui se estudam apenas equipe e recursos do projeto.
+- gestão de resultados foi aprofundada no Assunto 112;
+- licitações, contratos e fiscalização foram aprofundados nos Assuntos 124 a 137; aqui a Lei nº 14.133/2021 aparece somente na interface com o projeto;
+- gestão de pessoas foi aprofundada nos Assuntos 142 a 153; aqui se estudam apenas equipe e recursos do projeto.
 
 ## Referências
 
-- PROJECT MANAGEMENT INSTITUTE. [PMBOK® Guide — Eighth Edition](https://www.pmi.org/standards/pmbok). Edição vigente publicada em nov. 2025; página oficial com seis princípios, sete domínios e orientação de processos não prescritiva. Errata da segunda impressão atualizada em abr. 2026. Acesso em: 15 jul. 2026.
-- PROJECT MANAGEMENT INSTITUTE. [Sumário oficial do PMBOK® Guide — Eighth Edition](https://www.pmi.org/-/media/pmi/documents/public/pdf/publications/pmbok-guide-eighth-edition_table-of-contents.pdf). ANSI/PMI 99-001-2025; estrutura do padrão, áreas de foco, domínios e tailoring. Acesso em: 15 jul. 2026.
-- PROJECT MANAGEMENT INSTITUTE. [PMBOK® Guide — Sixth Edition and Agile Practice Guide](https://www.pmi.org/shop/p-/book/a-guide-to-the-project-management-body-of-knowledge-%28pmbok-guide%29-%E2%80%94-sixth-edition-and-agile-practice-guide-%28english%29/00101602400). Referência histórica para 49 processos, cinco grupos e dez áreas. Acesso em: 15 jul. 2026.
-- PROJECT MANAGEMENT INSTITUTE. [The Standard for Earned Value Management](https://www.pmi.org/standards/earned-value-management). Padrão publicado em fev. 2020 para integração de escopo, cronograma, recursos, medição e previsão. Acesso em: 15 jul. 2026.
-- INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. [ISO 21502:2020 — Guidance on project management](https://www.iso.org/standard/74947.html). 1. ed., publicada em dez. 2020 e vigente na data de acesso. Acesso em: 15 jul. 2026.
-- SCHWABER, Ken; SUTHERLAND, Jeff. [Guia do Scrum](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf). Versão oficial em português, nov. 2020. Acesso em: 15 jul. 2026.
-- OLIVEIRA, Tiago Chaves. Escola Nacional de Administração Pública. [Guia Referencial para Gerenciamento de Projetos e Portfólios de Projetos](https://www.gov.br/gestao/pt-br/acesso-a-informacao/estrategia-e-governanca/planejamento_estrategico_arquivos/livros_guias_publicacoes/guia-referencial-para-gerenciamento-de-projetos-e-portfolios-de-projetos-enap-2021.pdf). Brasília: Enap, 2021. Guia técnico, não norma legal. Acesso em: 15 jul. 2026.
-- ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA. [Gerenciamento do cronograma e dos custos do projeto](https://repositorio.enap.gov.br/bitstream/1/5320/3/Modulo%20III%20-%20Gerenciamento%20do%20Cronograma%20e%20dos%20Custos%20do%20Projeto.pdf). Material didático institucional, 2017. Acesso em: 15 jul. 2026.
-- BRASIL. Presidência da República. [Decreto nº 9.203, de 22 de novembro de 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm). Política de governança da administração pública federal direta, autárquica e fundacional; texto oficial consolidado. Acesso em: 15 jul. 2026.
-- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Lei de Licitações e Contratos Administrativos; texto oficial consolidado. Acesso em: 15 jul. 2026.
+- PROJECT MANAGEMENT INSTITUTE. [PMBOK® Guide — Eighth Edition](https://www.pmi.org/standards/pmbok). Edição vigente publicada em nov. 2025; seis princípios, sete domínios e orientação de processos não prescritiva. Acesso em: 29 jul. 2026.
+- PROJECT MANAGEMENT INSTITUTE. [Sumário oficial do PMBOK® Guide — Eighth Edition](https://www.pmi.org/-/media/pmi/documents/public/pdf/publications/pmbok-guide-eighth-edition_table-of-contents.pdf). ANSI/PMI 99-001-2025; estrutura do padrão, áreas de foco, domínios e tailoring. Acesso em: 29 jul. 2026.
+- PROJECT MANAGEMENT INSTITUTE. [PMBOK® Guide — Seventh Edition](https://www.pmi.org/es-es/brasil/sitecore/content/home/standards/pmbok). Publicada em ago. 2021; doze princípios, oito domínios, tailoring e modelos, métodos e artefatos. Acesso em: 29 jul. 2026.
+- PROJECT MANAGEMENT INSTITUTE. [Process Groups: A Practice Guide](https://www.pmi.org/standards/process-groups). Guia preditivo publicado em nov. 2022; 49 processos em cinco grupos. Acesso em: 29 jul. 2026.
+- PROJECT MANAGEMENT INSTITUTE. [PMBOK® Guide — Sixth Edition and Agile Practice Guide](https://www.pmi.org/shop/p-/book/a-guide-to-the-project-management-body-of-knowledge-%28pmbok-guide%29-%E2%80%94-sixth-edition-and-agile-practice-guide-%28english%29/00101602400). Referência histórica para 49 processos, cinco grupos e dez áreas. Acesso em: 29 jul. 2026.
+- PROJECT MANAGEMENT INSTITUTE. [The Standard for Earned Value Management](https://www.pmi.org/standards/earned-value-management). Padrão publicado em fev. 2020 para integração de escopo, cronograma, recursos, medição e previsão. Acesso em: 29 jul. 2026.
+- INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. [ISO 21502:2020 — Guidance on project management](https://www.iso.org/standard/74947.html). 1. ed., publicada em dez. 2020 e vigente na data de acesso. Acesso em: 29 jul. 2026.
+- SCHWABER, Ken; SUTHERLAND, Jeff. [Guia do Scrum](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf). Versão oficial em português, nov. 2020. Acesso em: 29 jul. 2026.
+- OLIVEIRA, Tiago Chaves. Escola Nacional de Administração Pública. [Guia Referencial para Gerenciamento de Projetos e Portfólios de Projetos](https://www.gov.br/gestao/pt-br/acesso-a-informacao/estrategia-e-governanca/planejamento_estrategico_arquivos/livros_guias_publicacoes/guia-referencial-para-gerenciamento-de-projetos-e-portfolios-de-projetos-enap-2021.pdf). Brasília: Enap, 2021. Guia técnico, não norma legal. Acesso em: 29 jul. 2026.
+- ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA. [Gerenciamento do cronograma e dos custos do projeto](https://repositorio.enap.gov.br/bitstream/1/5320/3/Modulo%20III%20-%20Gerenciamento%20do%20Cronograma%20e%20dos%20Custos%20do%20Projeto.pdf). Material didático institucional, 2017. Acesso em: 29 jul. 2026.
+- BRASIL. Presidência da República. [Decreto nº 9.203, de 22 de novembro de 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm). Política de governança da administração pública federal direta, autárquica e fundacional; texto oficial consolidado. Acesso em: 29 jul. 2026.
+- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Lei de Licitações e Contratos Administrativos; texto oficial consolidado. Acesso em: 29 jul. 2026.

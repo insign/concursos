@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 2,
+  "questionSetRevision": 3,
   "questions": [
     {
       "id": "q384",
@@ -289,18 +289,18 @@
     },
     {
       "id": "q403",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Uma instituição possui superintendências regionais e, dentro de cada uma, departamentos de finanças, pessoas e operações. Cada servidor responde a uma única chefia. Trata-se de",
+      "prompt": "Uma organização pequena e jovem concentra as decisões no dirigente máximo, possui poucos níveis e coordena o trabalho principalmente por ordens e acompanhamento pessoal. Na tipologia de Mintzberg, predomina a",
       "options": [
-        {"id": "a", "text": "matriz equilibrada, porque dois critérios aparecem no organograma"},
-        {"id": "b", "text": "estrutura projetizada, porque as regiões possuem autonomia"},
-        {"id": "c", "text": "estrutura virtual, porque há dispersão geográfica"},
-        {"id": "d", "text": "forma híbrida geográfico-funcional sem matriz"},
-        {"id": "e", "text": "estrutura informal, porque há mais de um nível de agrupamento"}
+        {"id": "a", "text": "adhocracia"},
+        {"id": "b", "text": "burocracia profissional"},
+        {"id": "c", "text": "forma divisionalizada"},
+        {"id": "d", "text": "estrutura simples"},
+        {"id": "e", "text": "burocracia mecanizada"}
       ],
       "correctOptionId": "d",
-      "explanation": "Critérios diferentes podem ser usados em níveis sucessivos sem dupla subordinação. O desenho combina geografia e função, portanto é híbrido, mas não matricial enquanto cada pessoa responder regularmente a uma única autoridade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A estrutura simples coordena predominantemente por supervisão direta, tem o ápice estratégico como parte-chave e costuma concentrar autoridade no dirigente. É comum em organizações pequenas ou jovens, sem que toda organização pequena deva necessariamente permanecer assim. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q404",
@@ -319,18 +319,18 @@
     },
     {
       "id": "q405",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O órgão A possui setores separados de recebimento, análise, decisão e recurso. O órgão B utiliza equipes multidisciplinares responsáveis por cada demanda desde a entrada até a entrega final. Predominam, respectivamente,",
+      "prompt": "Em um hospital universitário, o trabalho essencial é executado por profissionais com formação especializada, ampla autonomia técnica e padrões definidos principalmente por sua qualificação. Na tipologia de Mintzberg, predomina a",
       "options": [
-        {"id": "a", "text": "estrutura horizontal e departamentalização funcional"},
-        {"id": "b", "text": "departamentalização por etapas do processo e estrutura horizontal orientada ao fluxo ponta a ponta"},
-        {"id": "c", "text": "estrutura divisional por cliente e estrutura linear"},
-        {"id": "d", "text": "estrutura projetizada e departamentalização geográfica"},
-        {"id": "e", "text": "matriz forte e organização informal"}
+        {"id": "a", "text": "estrutura simples, coordenada por supervisão direta"},
+        {"id": "b", "text": "burocracia profissional, coordenada pela padronização das habilidades"},
+        {"id": "c", "text": "forma divisionalizada, coordenada exclusivamente por metas financeiras"},
+        {"id": "d", "text": "burocracia mecanizada, coordenada pela padronização detalhada de cada processo"},
+        {"id": "e", "text": "adhocracia, coordenada necessariamente pela ausência de normas"}
       ],
       "correctOptionId": "b",
-      "explanation": "No órgão A, cada unidade responde por uma fase do fluxo. No órgão B, uma equipe integra especialidades e responde pela entrega ponta a ponta, característica da estrutura horizontal orientada por processos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A burocracia profissional tem o núcleo operacional como parte-chave e coordena sobretudo pela padronização das habilidades adquiridas na formação e na socialização profissional. Ela pode possuir regras, mas não depende principalmente da programação detalhada dos processos pela tecnoestrutura. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q406",
@@ -379,33 +379,33 @@
     },
     {
       "id": "q409",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Uma empresa mantém núcleo estratégico reduzido e coordena, por plataformas digitais, especialistas e parceiros que se combinam conforme cada contrato. À luz das variações doutrinárias, é correto afirmar que",
+      "prompt": "Uma organização de grande porte executa tarefas rotineiras em escala, possui procedimentos detalhados e depende de analistas que definem métodos e controles. Na tipologia de Mintzberg, predomina a",
       "options": [
-        {"id": "a", "text": "o uso de tecnologia impede que o arranjo seja classificado como rede"},
-        {"id": "b", "text": "a presença de parceiros elimina qualquer possibilidade de estrutura virtual"},
-        {"id": "c", "text": "as características podem sustentar classificações como virtual, modular ou em rede, conforme a taxonomia adotada"},
-        {"id": "d", "text": "o desenho é necessariamente linear porque existe um núcleo estratégico"},
-        {"id": "e", "text": "a classificação depende exclusivamente da localização física da sede"}
+        {"id": "a", "text": "estrutura simples, com supervisão direta como principal coordenação"},
+        {"id": "b", "text": "burocracia profissional, com autonomia baseada na qualificação"},
+        {"id": "c", "text": "burocracia mecanizada, com padronização dos processos de trabalho"},
+        {"id": "d", "text": "adhocracia, com ajustamento mútuo em projetos inovadores"},
+        {"id": "e", "text": "forma divisionalizada, identificada apenas pela existência de departamentos"}
       ],
       "correctOptionId": "c",
-      "explanation": "Virtual, modular, em rede e sem fronteiras possuem áreas de sobreposição. O candidato deve observar núcleo coordenador, parceiros, tecnologia e permeabilidade das fronteiras, em vez de tratar os rótulos como universais e excludentes. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A burocracia mecanizada coordena principalmente pela padronização dos processos de trabalho e tem a tecnoestrutura como parte-chave. Rotina, escala, formalização e ambiente relativamente estável favorecem essa configuração. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q410",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Diante de uma questão que utiliza os termos rede, virtual e modular de modo parcialmente diferente da bibliografia estudada, a estratégia mais segura é",
+      "prompt": "Um grupo diversificado é dividido em unidades semiautônomas, cada uma responsável por uma linha de serviços. A administração central acompanha metas e resultados, sem programar detalhadamente todo o trabalho interno. Na tipologia de Mintzberg, predomina a",
       "options": [
-        {"id": "a", "text": "identificar as características concretas do arranjo e a taxonomia explicitada no enunciado"},
-        {"id": "b", "text": "presumir que os três termos possuem definição única e idêntica em todos os autores"},
-        {"id": "c", "text": "resolver apenas pelo nome da estrutura, ignorando parceiros, autoridade e tecnologia"},
-        {"id": "d", "text": "considerar qualquer parceria externa prova de ausência de hierarquia"},
-        {"id": "e", "text": "descartar a questão porque variação terminológica sempre gera nulidade"}
+        {"id": "a", "text": "forma divisionalizada, coordenada pela padronização dos resultados"},
+        {"id": "b", "text": "estrutura simples, coordenada por supervisão direta de todos os trabalhadores"},
+        {"id": "c", "text": "burocracia profissional, coordenada exclusivamente por credenciais individuais"},
+        {"id": "d", "text": "adhocracia, caracterizada pela ausência de unidades permanentes"},
+        {"id": "e", "text": "burocracia mecanizada, porque toda meta implica padronização dos processos"}
       ],
       "correctOptionId": "a",
-      "explanation": "As taxonomias variam. A resposta deve se apoiar nas características descritas e no referencial adotado pela questão, especialmente núcleo coordenador, fronteiras, parceiros, tecnologia e direitos decisórios. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Na forma divisionalizada, a linha intermediária ganha relevância e a sede coordena as divisões principalmente por resultados e indicadores. As divisões conservam autonomia operacional relativa e podem possuir estruturas internas próprias. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q411",
@@ -649,18 +649,18 @@
     },
     {
       "id": "q427",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Uma instituição usa regiões no primeiro nível e funções dentro de cada região. Não há dupla chefia. A classificação mais precisa é",
+      "prompt": "Uma equipe temporária reúne especialistas de diferentes áreas para desenvolver solução inédita em ambiente complexo e mutável. A coordenação ocorre sobretudo por comunicação direta, negociação e ajustamento entre os participantes. Na tipologia de Mintzberg, predomina a",
       "options": [
-        {"id": "a", "text": "matriz forte, porque dois critérios foram combinados"},
-        {"id": "b", "text": "estrutura projetizada, porque as unidades têm objetivos próprios"},
-        {"id": "c", "text": "combinação geográfico-funcional não matricial"},
-        {"id": "d", "text": "estrutura virtual, porque as unidades estão dispersas"},
-        {"id": "e", "text": "departamentalização exclusivamente por cliente"}
+        {"id": "a", "text": "burocracia mecanizada"},
+        {"id": "b", "text": "forma divisionalizada"},
+        {"id": "c", "text": "adhocracia"},
+        {"id": "d", "text": "estrutura simples"},
+        {"id": "e", "text": "burocracia profissional"}
       ],
       "correctOptionId": "c",
-      "explanation": "Critérios podem ser combinados em níveis diferentes sem sobreposição de autoridade. A matriz exige dupla subordinação regular; a mera sequência geografia-função caracteriza forma híbrida não matricial. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A adhocracia favorece inovação em ambiente complexo e dinâmico, reúne especialistas em equipes e coordena principalmente por ajustamento mútuo. Pode utilizar projetos ou componentes matriciais, mas não é sinônimo necessário desses desenhos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q428",
