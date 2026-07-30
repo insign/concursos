@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q684",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um projeto caracteriza-se por ser",
       "options": [
         {"id": "a", "text": "uma operação contínua destinada a repetir indefinidamente a mesma entrega"},
-        {"id": "b", "text": "um esforço temporário para criar produto, serviço, resultado ou capacidade singular"},
+        {"id": "b", "text": "um plano estratégico sem execução definida"},
         {"id": "c", "text": "um conjunto obrigatório de atividades sem data de término"},
         {"id": "d", "text": "uma unidade permanente da estrutura funcional"},
-        {"id": "e", "text": "um plano estratégico sem execução definida"}
+        {"id": "e", "text": "um esforço temporário para criar produto, serviço, resultado ou capacidade singular"}
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "Projeto possui início e término e produz entrega singular. Operações são contínuas ou recorrentes, embora possam receber as entregas criadas por um projeto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -64,32 +64,32 @@
     },
     {
       "id": "q688",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após um projeto implantar um novo portal, a manutenção diária e recorrente desse portal é classificada predominantemente como",
       "options": [
         {"id": "a", "text": "programa"},
-        {"id": "b", "text": "operação"},
+        {"id": "b", "text": "EAP"},
         {"id": "c", "text": "portfólio"},
         {"id": "d", "text": "termo de abertura"},
-        {"id": "e", "text": "EAP"}
+        {"id": "e", "text": "operação"}
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "O projeto cria ou transforma uma capacidade; o trabalho contínuo que sustenta essa capacidade é operação. Melhorias singulares futuras podem originar outros projetos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q689",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um sistema de protocolo foi implantado e, após seu uso, o tempo mediano de atendimento caiu 30%. Nesse exemplo, o sistema implantado e a redução de prazo representam, respectivamente,",
       "options": [
         {"id": "a", "text": "benefício e pacote de trabalho"},
         {"id": "b", "text": "operação e risco"},
-        {"id": "c", "text": "entrega e benefício mensurável"},
-        {"id": "d", "text": "portfólio e linha de base"},
+        {"id": "c", "text": "portfólio e linha de base"},
+        {"id": "d", "text": "entrega e benefício mensurável"},
         {"id": "e", "text": "custo real e valor planejado"}
       ],
-      "correctOptionId": "c",
+      "correctOptionId": "d",
       "explanation": "O sistema é a entrega produzida. A melhoria mensurável percebida após seu uso é benefício; ela contribui para valor, mas não se confunde com o artefato entregue. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -109,17 +109,17 @@
     },
     {
       "id": "q691",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "É responsabilidade predominante do patrocinador do projeto",
       "options": [
         {"id": "a", "text": "executar pessoalmente todas as atividades técnicas"},
-        {"id": "b", "text": "sustentar a justificativa, prover apoio e recursos e tomar ou escalar decisões estratégicas"},
+        {"id": "b", "text": "manter o Product Backlog em todo projeto"},
         {"id": "c", "text": "substituir todas as partes interessadas"},
         {"id": "d", "text": "aprovar sozinho qualquer despesa, independentemente da alçada"},
-        {"id": "e", "text": "manter o Product Backlog em todo projeto"}
+        {"id": "e", "text": "sustentar a justificativa, prover apoio e recursos e tomar ou escalar decisões estratégicas"}
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "O patrocinador conecta o projeto à organização, apoia a justificativa, mobiliza recursos e atua em decisões estratégicas. Ele não substitui gerente, equipe, governança nem regras de competência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -139,18 +139,18 @@
     },
     {
       "id": "q693",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Constitui um dos seis princípios resumidos publicamente para o PMBOK Guide — 8ª edição",
       "options": [
         {"id": "a", "text": "eliminar toda adaptação ao contexto"},
         {"id": "b", "text": "priorizar documentação em vez de valor"},
-        {"id": "c", "text": "integrar sustentabilidade"},
-        {"id": "d", "text": "concentrar decisões em uma única pessoa"},
+        {"id": "c", "text": "concentrar decisões em uma única pessoa"},
+        {"id": "d", "text": "integrar sustentabilidade"},
         {"id": "e", "text": "evitar equipes empoderadas"}
       ],
-      "correctOptionId": "c",
-      "explanation": "A edição vigente resume seis princípios: visão holística, foco em valor, qualidade incorporada, liderança responsável, sustentabilidade integrada e equipes empoderadas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "A 8ª edição resume seis princípios: visão holística, foco em valor, qualidade incorporada, liderança responsável, sustentabilidade integrada e equipes empoderadas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q694",
@@ -165,22 +165,22 @@
         {"id": "e", "text": "escopo, preço, licitação, equipe, operação, processo e estrutura"}
       ],
       "correctOptionId": "a",
-      "explanation": "A 8ª edição organiza os domínios em governança, escopo, cronograma, finanças, stakeholders, recursos e riscos. Não se deve confundi-los com grupos históricos ou áreas de conhecimento da 6ª edição. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A 8ª edição organiza os domínios em governança, escopo, cronograma, finanças, partes interessadas, recursos e riscos. Não se deve confundi-los com grupos históricos ou áreas de conhecimento da 6ª edição. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q695",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma questão que menciona expressamente o PMBOK Guide — 6ª edição pode associá-lo corretamente a",
       "options": [
         {"id": "a", "text": "seis princípios e sete domínios, sem áreas de conhecimento"},
-        {"id": "b", "text": "49 processos, cinco grupos de processos e dez áreas de conhecimento"},
+        {"id": "b", "text": "quatro grupos e nove áreas"},
         {"id": "c", "text": "três responsabilidades, cinco eventos e três artefatos"},
         {"id": "d", "text": "somente métodos adaptativos"},
-        {"id": "e", "text": "quatro grupos e nove áreas"}
+        {"id": "e", "text": "49 processos, cinco grupos de processos e dez áreas de conhecimento"}
       ],
-      "correctOptionId": "b",
-      "explanation": "A estrutura de 49 processos, cinco grupos e dez áreas pertence à 6ª edição e deve ser tratada como referência histórica quando a edição for indicada. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "A estrutura de 49 processos, cinco grupos e dez áreas pertence à 6ª edição e também fundamenta o guia preditivo de grupos de processos. Deve ser tratada conforme a fonte indicada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q696",
@@ -199,17 +199,17 @@
     },
     {
       "id": "q697",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma abordagem em que versões sucessivas refinam a solução e entregas utilizáveis são adicionadas gradualmente é",
       "options": [
         {"id": "a", "text": "somente preditiva"},
-        {"id": "b", "text": "iterativa e incremental"},
+        {"id": "b", "text": "restrita a obras públicas"},
         {"id": "c", "text": "necessariamente operacional"},
         {"id": "d", "text": "incompatível com feedback"},
-        {"id": "e", "text": "restrita a obras públicas"}
+        {"id": "e", "text": "iterativa e incremental"}
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "Iterações refinam a solução por aprendizagem; incrementos adicionam partes utilizáveis. Uma abordagem pode combinar ambas as características. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -304,17 +304,17 @@
     },
     {
       "id": "q704",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma atividade possui estimativas PERT otimista de 4 dias, mais provável de 7 dias e pessimista de 16 dias. A duração esperada é",
       "options": [
         {"id": "a", "text": "7 dias"},
-        {"id": "b", "text": "8 dias"},
+        {"id": "b", "text": "12 dias"},
         {"id": "c", "text": "9 dias"},
         {"id": "d", "text": "10 dias"},
-        {"id": "e", "text": "12 dias"}
+        {"id": "e", "text": "8 dias"}
       ],
-      "correctOptionId": "b",
+      "correctOptionId": "e",
       "explanation": "PERT usa (O + 4M + P)/6. Assim, (4 + 4×7 + 16)/6 = 48/6 = 8 dias. A média triangular produziria resultado diferente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
@@ -379,18 +379,18 @@
     },
     {
       "id": "q709",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto às reservas de custos, é correto afirmar que",
       "options": [
         {"id": "a", "text": "contingência e reserva gerencial integram igualmente a linha de base"},
-        {"id": "b", "text": "a contingência cobre riscos identificados e integra a linha de base; a reserva gerencial fica fora dela"},
+        {"id": "b", "text": "nenhuma reserva exige governança"},
         {"id": "c", "text": "reserva gerencial cobre somente trabalho fora do escopo"},
         {"id": "d", "text": "contingência não faz parte do orçamento"},
-        {"id": "e", "text": "nenhuma reserva exige governança"}
+        {"id": "e", "text": "a contingência cobre riscos identificados e integra a linha de base; a reserva gerencial fica fora dela"}
       ],
-      "correctOptionId": "b",
-      "explanation": "Contingência trata incógnitas conhecidas e compõe a baseline. Reserva gerencial trata trabalho imprevisto dentro do escopo, integra o orçamento total, mas não a linha de base de custos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "e",
+      "explanation": "Contingência trata riscos identificados e compõe a baseline. Reserva gerencial trata trabalho imprevisto dentro do escopo, integra o orçamento total, mas não a linha de base de custos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q710",
@@ -585,7 +585,7 @@
         {"id": "e", "text": "dispensa análise de alternativas"}
       ],
       "correctOptionId": "b",
-      "explanation": "O ETP fundamenta anteprojeto, termo de referência ou projeto básico conforme o objeto. Ele é instrumento do planejamento da contratação e não se confunde automaticamente com business case ou charter. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O ETP fundamenta anteprojeto, termo de referência ou projeto básico conforme o objeto. Ele é instrumento do planejamento da contratação e não se confunde automaticamente com business case ou termo de abertura. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q723",
@@ -751,6 +751,81 @@
       ],
       "correctOptionId": "c",
       "explanation": "Prazo e orçamento são dimensões relevantes, mas uma entrega inadequada e sem benefício não satisfaz a finalidade. A gestão deve conectar requisitos, uso, resultado e valor público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q734",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma questão que menciona expressamente o PMBOK Guide — 7ª edição deve associá-lo a",
+      "options": [
+        {"id": "a", "text": "doze princípios de gerenciamento e oito domínios de desempenho"},
+        {"id": "b", "text": "quarenta e nove processos, cinco grupos e dez áreas como sua única estrutura"},
+        {"id": "c", "text": "seis princípios, sete domínios e cinco áreas de foco"},
+        {"id": "d", "text": "três responsabilidades, cinco eventos e três artefatos"},
+        {"id": "e", "text": "um ciclo de vida preditivo único e obrigatório"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A 7ª edição organiza sua orientação em doze princípios e oito domínios, além de sistema de entrega de valor, tailoring e modelos, métodos e artefatos. A fórmula 49–5–10 identifica a referência processual da 6ª; 6–7–5, a 8ª. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q735",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O conjunto formado apenas por domínios de desempenho do PMBOK Guide — 7ª edição é",
+      "options": [
+        {"id": "a", "text": "governança, escopo, cronograma, finanças, recursos, riscos, aquisições e qualidade"},
+        {"id": "b", "text": "integração, escopo, cronograma, custos, qualidade, recursos, comunicações e aquisições"},
+        {"id": "c", "text": "partes interessadas, equipe, abordagem de desenvolvimento e ciclo de vida, planejamento, trabalho do projeto, entrega, medição e incerteza"},
+        {"id": "d", "text": "iniciação, planejamento, execução, monitoramento e controle, encerramento, valor, mudança e qualidade"},
+        {"id": "e", "text": "liderança, estratégia, controle, fiscalização, auditoria, responsabilização, transparência e eficiência"}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Os oito domínios da 7ª edição são partes interessadas, equipe, abordagem de desenvolvimento e ciclo de vida, planejamento, trabalho do projeto, entrega, medição e incerteza. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q736",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A transição da organização expositiva da 6ª para a 7ª edição do PMBOK é corretamente compreendida quando se afirma que a 7ª edição",
+      "options": [
+        {"id": "a", "text": "aboliu planejamento, processos e ferramentas em qualquer projeto"},
+        {"id": "b", "text": "tornou a abordagem ágil obrigatória para todo setor"},
+        {"id": "c", "text": "substituiu governança por autonomia sem prestação de contas"},
+        {"id": "d", "text": "passou a enfatizar princípios e domínios, preservando a seleção e adaptação contextual de modelos, métodos, artefatos e processos"},
+        {"id": "e", "text": "determinou que todos os projetos usem os mesmos documentos"}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A 7ª edição reorganizou a orientação em torno de princípios, domínios, valor e tailoring. Isso não elimina processos nem impõe uma abordagem única; as práticas são selecionadas conforme o contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q737",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Constitui princípio associado ao PMBOK Guide — 7ª edição",
+      "options": [
+        {"id": "a", "text": "substituir engajamento por comunicação unilateral"},
+        {"id": "b", "text": "evitar qualquer mudança após o termo de abertura"},
+        {"id": "c", "text": "tratar complexidade como sinônimo de falta de planejamento"},
+        {"id": "d", "text": "maximizar documentação independentemente de valor"},
+        {"id": "e", "text": "adotar adaptabilidade e resiliência diante do contexto e da mudança"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Adaptabilidade e resiliência integram os doze princípios da 7ª edição. Elas não significam improvisação: exigem aprendizagem, resposta consciente e continuidade de valor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q738",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a comparação correta entre referências do PMI.",
+      "options": [
+        {"id": "a", "text": "PMBOK 6 e PMBOK 8 possuem necessariamente a mesma lista de dez áreas de conhecimento"},
+        {"id": "b", "text": "PMBOK 7 organiza-se em seis princípios e sete domínios"},
+        {"id": "c", "text": "PMBOK 8 elimina toda orientação de processos"},
+        {"id": "d", "text": "Process Groups: A Practice Guide transforma 49 processos em obrigação universal para qualquer abordagem"},
+        {"id": "e", "text": "PMBOK 6 é reconhecido por 49–5–10; PMBOK 7 por 12–8; PMBOK 8 por 6–7–5"}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A fórmula distingue as taxonomias: 6ª edição, 49 processos, cinco grupos e dez áreas; 7ª, doze princípios e oito domínios; 8ª, seis princípios, sete domínios e cinco áreas de foco. Fonte: questão autoral baseada nas referências do conteúdo."
     }
   ]
 }
