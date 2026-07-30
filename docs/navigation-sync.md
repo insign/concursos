@@ -49,7 +49,9 @@ Na aba de questões, o contexto visível é a âncora principal. O runtime aguar
 
 ## Retomada entre aparelhos
 
-Na primeira abertura da aba, o estado sincronizado pode redirecionar uma única vez para a rota válida salva. Depois que a sessão está ativa, uma versão remota mais nova nunca sequestra a navegação: aparece um aviso com **Retomar ponto mais recente** e **Continuar aqui**. A segunda opção força a persistência do ponto local antes da sincronização.
+Na primeira entrada da sessão, a retomada automática ocorre uma única vez e somente quando a aba entra pela rota raiz `/`. Deep links e toda navegação explícita prevalecem e não são substituídos. Quando o destino exige redirecionamento, uma autorização de rota pendente é consumida uma única vez no destino para restaurar o contexto e a rolagem.
+
+Reload, voltar/avançar, Service Worker, reconexão, foco e visibilidade não reaplicam a restauração automática. Depois que a sessão está ativa, uma versão remota mais nova nunca sequestra a navegação: aparece um aviso com **Retomar ponto mais recente** e **Continuar aqui**. O botão **Retomar ponto mais recente** continua sendo a ação explícita para adotar um ponto remoto; **Continuar aqui** força a persistência do ponto local antes da sincronização.
 
 ## Eventos e frequência
 

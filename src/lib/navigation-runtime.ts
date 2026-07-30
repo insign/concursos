@@ -16,6 +16,7 @@ import { requestNavigationProfileSync } from './simulados-profile-sync';
 
 const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
 const SESSION_PREFIX = 'concursos:navigation-restored:';
+const PENDING_ROUTE_SUFFIX = ':pending-route';
 const CAPTURE_DEBOUNCE_MS = 800;
 const PERIODIC_SYNC_MS = 30_000;
 const INITIAL_AUTOMATIC_SYNC_DELAY_MS = 12_000;
@@ -329,6 +330,15 @@ export function startNavigationRuntime(): void {
   const profileId = getActiveAlias();
   if (!profileId) return;
 
+  const routeAtStart = currentRoute();
+  const sessionKey = `${SESSION_PREFIX}${profileId}`;
+  const pendingRouteKey = `${sessionKey}${PENDING_ROUTE_SUFFIX}`;
+  const pendingRoute = sessionStorage.getItem(pendingRouteKey);
+  const shouldRestorePendingRoute = pendingRoute === routeAtStart;
+  const shouldResumeAutomatically = !sessionStorage.getItem(sessionKey) && routeAtStart === '/';
+  sessionStorage.removeItem(pendingRouteKey);
+  sessionStorage.setItem(sessionKey, String(Date.now()));
+
   const offerUi = offerElements();
   const catalogPromise = loadNavigationCatalog().catch(() => null);
   let ready = false;
@@ -339,6 +349,7 @@ export function startNavigationRuntime(): void {
   let lastRemoteVersion: number | null = null;
   let lastRemoteCreatedAt: string | null = null;
   let suppressCaptureUntil = 0;
+  let explicitNavigation = false;
   const automaticSyncAfter = Date.now() + INITIAL_AUTOMATIC_SYNC_DELAY_MS;
 
   const hideOffer = () => {
@@ -438,6 +449,7 @@ export function startNavigationRuntime(): void {
     hideOffer();
     sessionStorage.setItem(`${SESSION_PREFIX}${profileId}`, String(Date.now()));
     if (document.route !== currentRoute()) {
+      sessionStorage.setItem(pendingRouteKey, document.route);
       location.assign(document.route);
       return;
     }
@@ -467,6 +479,18 @@ export function startNavigationRuntime(): void {
   document.addEventListener('click', (event) => {
     const target = event.target;
     if (!(target instanceof Element)) return;
+    const link = target.closest<HTMLAnchorElement>('a[href]');
+    if (
+      link &&
+      link.target !== '_blank' &&
+      event.button === 0 &&
+      !event.metaKey &&
+      !event.ctrlKey &&
+      !event.shiftKey &&
+      !event.altKey
+    ) {
+      explicitNavigation = true;
+    }
     if (
       target.closest(
         '[data-previous-questions],[data-next-questions],[data-load-more],[data-reshuffle-questions]',
@@ -475,7 +499,13 @@ export function startNavigationRuntime(): void {
       scheduleCapture(400);
     }
   });
-  window.addEventListener('pagehide', () => void saveCurrent(false));
+  document.addEventListener('submit', () => {
+    explicitNavigation = true;
+  });
+  window.addEventListener('pagehide', () => {
+    explicitNavigation = true;
+    void saveCurrent(false);
+  });
   window.addEventListener('online', () => void synchronize().then(inspectRemoteChange));
   window.addEventListener('focus', () => void synchronize().then(inspectRemoteChange));
   document.addEventListener('visibilitychange', () => {
@@ -500,20 +530,29 @@ export function startNavigationRuntime(): void {
       }
     }
     const record = await getNavigationRecord(profileId);
-    const sessionKey = `${SESSION_PREFIX}${profileId}`;
     const target = record ? catalogEntryForRoute(catalog, record.current.route) : null;
-    if (record && target && !sessionStorage.getItem(sessionKey) && record.current.route !== currentRoute()) {
-      sessionStorage.setItem(sessionKey, String(record.remoteVersion ?? record.updatedAt));
+    if (
+      shouldResumeAutomatically &&
+      !explicitNavigation &&
+      record &&
+      target &&
+      record.current.route !== currentRoute()
+    ) {
+      sessionStorage.setItem(pendingRouteKey, record.current.route);
       location.replace(record.current.route);
       return;
     }
 
-    sessionStorage.setItem(sessionKey, String(record?.remoteVersion ?? record?.updatedAt ?? Date.now()));
     if (record) {
       lastFingerprint = navigationFingerprint(record.current);
       lastRemoteVersion = record.remoteVersion;
       lastRemoteCreatedAt = record.remoteCreatedAt;
-      if (target && record.current.route === currentRoute()) {
+      if (
+        !explicitNavigation &&
+        (shouldResumeAutomatically || shouldRestorePendingRoute) &&
+        target &&
+        record.current.route === currentRoute()
+      ) {
         suppressCaptureUntil = Date.now() + 1_500;
         await restoreDocument(record.current);
       }
