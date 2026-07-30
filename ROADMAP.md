@@ -326,7 +326,7 @@ I - História do Estado do Maranhão
 - Item 4. A invasão holandesa.
 - Item 5. A expulsão dos holandeses.
 
-##### [ ] Assunto 075 - Item 6, subitens 6.1, 6.2 e 6.3: Revolta de Bequimão e Companhias de Comércio.
+##### [>] Em progresso Assunto 075 - Item 6, subitens 6.1, 6.2 e 6.3: Revolta de Bequimão e Companhias de Comércio.
 
 - 6.1. A Revolta de Bequimão.
   - 6.1.1. Causas.
