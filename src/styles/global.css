@@ -1065,6 +1065,40 @@ a.subject-pagination-link:hover {
   overflow-wrap: anywhere;
 }
 
+.subject-suggestion {
+  width: min(100%, var(--reading));
+  margin: 2rem auto 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-left: 0.3rem solid var(--accent);
+  background: var(--paper);
+  font-family: var(--sans);
+}
+
+.subject-suggestion [data-subject-suggestion-content] {
+  display: grid;
+  gap: 0.65rem;
+  justify-items: start;
+}
+
+.subject-suggestion .eyebrow,
+.subject-suggestion-title,
+.subject-suggestion-complete {
+  margin: 0;
+}
+
+.subject-suggestion-link {
+  text-decoration: none;
+}
+
+.subject-suggestion-title {
+  color: var(--muted);
+}
+
+.subject-suggestion-complete:empty {
+  display: none;
+}
+
 .empty-state {
   padding: 2rem;
   border: 1px dashed var(--line);

@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import SubjectPagination from '../components/SubjectPagination.astro';
 import StudiedToggle from '../components/StudiedToggle.astro';
 import ReadingCustomizer from '../components/ReadingCustomizer.astro';
+import NextSubjectSuggestion from '../components/NextSubjectSuggestion.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
 
 interface Props {
@@ -45,6 +46,8 @@ const groupId = subject.groupPath.at(-1)?.slug ?? null;
         <slot />
       </article>
     </div>
+
+    <NextSubjectSuggestion contest={contest} />
 
     <SubjectPagination contest={contest} subject={subject} mode="reading" />
   </main>
