@@ -1,0 +1,86 @@
+---
+import type { CatalogContest } from '../lib/catalog';
+import {
+  buildSubjectSuggestionModel,
+  suggestNextSubject,
+} from '../lib/subject-suggestion';
+
+interface Props {
+  contest: CatalogContest;
+}
+
+const { contest } = Astro.props;
+const model = buildSubjectSuggestionModel(contest);
+const initialSuggestion = suggestNextSubject(model, []);
+const componentId = `subject-suggestion-${contest.storageId}`;
+const serializedModel = JSON.stringify(model).replaceAll('<', '\\u003c');
+---
+
+<aside
+  class="subject-suggestion print-hidden"
+  data-subject-suggestion
+  aria-label="Sugestão de próximo assunto"
+>
+  <div data-subject-suggestion-content hidden={!initialSuggestion}>
+    <p class="eyebrow">Próxima etapa</p>
+    <a
+      class="button subject-suggestion-link"
+      data-subject-suggestion-link
+      href={initialSuggestion?.href ?? `/concursos/${contest.slug}/`}
+      aria-describedby={`${componentId}-title`}
+    >
+      Próximo assunto sugerido
+    </a>
+    <p class="subject-suggestion-title" id={`${componentId}-title`} data-subject-suggestion-title>
+      {initialSuggestion?.title}
+    </p>
+  </div>
+  <p class="subject-suggestion-complete" data-subject-suggestion-status role="status" aria-live="polite"></p>
+  <script type="application/json" data-subject-suggestion-config set:html={serializedModel}></script>
+</aside>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { loadStudied } from '../lib/studied';
+  import {
+    suggestNextSubject,
+    type SubjectSuggestionModel,
+  } from '../lib/subject-suggestion';
+
+  const completionMessage = 'Todos os assuntos deste concurso foram concluídos.';
+
+  document.querySelectorAll<HTMLElement>('[data-subject-suggestion]').forEach((root) => {
+    const serialized = root.querySelector<HTMLScriptElement>('[data-subject-suggestion-config]')?.textContent;
+    const content = root.querySelector<HTMLElement>('[data-subject-suggestion-content]');
+    const link = root.querySelector<HTMLAnchorElement>('[data-subject-suggestion-link]');
+    const title = root.querySelector<HTMLElement>('[data-subject-suggestion-title]');
+    const status = root.querySelector<HTMLElement>('[data-subject-suggestion-status]');
+    if (!serialized || !content || !link || !title || !status) return;
+
+    const model = JSON.parse(serialized) as SubjectSuggestionModel;
+    const render = (studiedSubjectIds: Iterable<string>) => {
+      const suggestion = suggestNextSubject(model, studiedSubjectIds);
+      content.hidden = suggestion === null;
+      status.textContent = suggestion === null ? completionMessage : '';
+      if (suggestion) {
+        link.setAttribute('href', suggestion.href);
+        title.textContent = suggestion.title;
+      }
+    };
+
+    const alias = getActiveAlias();
+    if (!alias) return;
+
+    const applyFromStore = async () => render((await loadStudied(alias)).studiedSubjectIds);
+    const refresh = () => void applyFromStore().catch(() => undefined);
+    refresh();
+
+    window.addEventListener('concursos:studied-updated', (event) => {
+      if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) refresh();
+    });
+    window.addEventListener('concursos:sync-status', (event) => {
+      const state = (event as CustomEvent<{ state?: string }>).detail?.state;
+      if (state === 'synced' || state === 'error') refresh();
+    });
+  });
+</script>

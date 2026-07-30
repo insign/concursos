@@ -2,6 +2,7 @@
 import SubjectNavigation from '../components/SubjectNavigation.astro';
 import SubjectPagination from '../components/SubjectPagination.astro';
 import SubjectActionBar from '../components/SubjectActionBar.astro';
+import NextSubjectSuggestion from '../components/NextSubjectSuggestion.astro';
 import BaseLayout from './BaseLayout.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
 
@@ -52,6 +53,8 @@ const groupId = subject.groupPath.at(-1)?.slug ?? null;
     <div class="reading-surface" data-navigation-content>
       <slot />
     </div>
+
+    <NextSubjectSuggestion contest={contest} />
 
     <SubjectPagination contest={contest} subject={subject} />
 
