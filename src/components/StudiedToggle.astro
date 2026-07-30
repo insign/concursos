@@ -15,7 +15,7 @@ const { contestStorageId, subjectStorageId } = Astro.props;
   disabled
 >
   <span class="studied-toggle-icon" aria-hidden="true">✓</span>
-  <span class="studied-toggle-label">Marcar como estudado</span>
+  <span class="studied-toggle-label">Marcar como concluído</span>
 </button>
 
 <script>
@@ -33,7 +33,7 @@ const { contestStorageId, subjectStorageId } = Astro.props;
     // contraditório com um rótulo que já anuncia a ação inversa).
     const render = (studied: boolean) => {
       button.dataset.state = studied ? 'studied' : 'unstudied';
-      label.textContent = studied ? 'Marcar como não estudado' : 'Marcar como estudado';
+      label.textContent = studied ? 'Desfazer conclusão' : 'Marcar como concluído';
     };
 
     const applyFromStore = async () => render(isStudied(await loadStudied(alias), subjectId));
@@ -78,6 +78,6 @@ const { contestStorageId, subjectStorageId } = Astro.props;
   } else if (label) {
     // Sem alias: o controle fica indisponível; o motivo vai no rótulo VISÍVEL (acessível
     // em modo de leitura de leitores de tela), não em `title` (que um botão disabled não expõe).
-    label.textContent = 'Marcar como estudado (defina um alias em Configurações)';
+    label.textContent = 'Marcar como concluído (defina um alias em Configurações)';
   }
 </script>

@@ -131,6 +131,10 @@ a:hover {
   outline-offset: 3px;
 }
 
+.study-page :focus {
+  scroll-margin-block: 4rem calc(10rem + env(safe-area-inset-bottom));
+}
+
 .theme-control {
   display: inline-flex;
   align-items: center;
@@ -541,12 +545,9 @@ a.subject-reading-link:hover {
   display: none;
 }
 
-/* Marcar como estudado (#107): botão no conteúdo e no modo de leitura. */
-.subject-actions {
+/* Entrada do modo de leitura, mantida no fluxo normal fora da barra fixa. */
+.reading-entry {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.75rem;
   margin-bottom: 1.5rem;
 }
 
@@ -807,39 +808,45 @@ a.reading-exit:hover {
 }
 
 .study-shell {
-  padding-block: 1.25rem 5rem;
+  padding-block: 1.25rem calc(7rem + env(safe-area-inset-bottom));
 }
 
-.study-top-anchor {
-  display: block;
-  /* 1px (não zero) para que a IntersectionObserver o considere visível mesmo
-     encostado na borda superior do viewport após navegar para #study-top. */
-  height: 1px;
-}
-
-/* Atalhos flutuantes (#112): grupo compacto no canto inferior direito, respeitando
-   as safe areas e o tema. Usa tokens para adaptar a claro/escuro. */
-.floating-shortcuts {
+/* Ações persistentes do assunto (#215), separadas da navegação entre conteúdo,
+   cheat sheet e questões. */
+.subject-action-bar {
   position: fixed;
-  right: calc(1rem + env(safe-area-inset-right));
-  bottom: calc(1rem + env(safe-area-inset-bottom));
+  right: calc(0.75rem + env(safe-area-inset-right));
+  bottom: calc(0.75rem + env(safe-area-inset-bottom));
+  left: calc(0.75rem + env(safe-area-inset-left));
   z-index: 30;
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--reading);
+  margin-inline: auto;
+  padding: 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--paper);
+  box-shadow: 0 0.4rem 1rem rgb(31 46 42 / 0.18);
 }
 
-.floating-shortcut {
+.subject-action-bar .studied-toggle,
+.subject-action-back {
+  min-height: 2.75rem;
+}
+
+.subject-action-back {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  justify-content: center;
   padding: 0.5rem 0.85rem;
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--accent-strong);
   background: var(--paper);
-  box-shadow: 0 0.4rem 1rem rgb(31 46 42 / 0.18);
   font-family: var(--sans);
   font-size: var(--step--1);
   font-weight: 700;
@@ -847,19 +854,8 @@ a.reading-exit:hover {
   white-space: nowrap;
 }
 
-.floating-shortcut.is-current {
-  color: var(--muted);
-  border-style: dashed;
-  cursor: default;
-}
-
-a.floating-shortcut:hover {
+a.subject-action-back:hover {
   color: var(--signal);
-}
-
-.floating-shortcut-icon {
-  font-size: 1.1em;
-  line-height: 1;
 }
 
 .breadcrumbs {
@@ -884,11 +880,15 @@ a.floating-shortcut:hover {
 }
 
 .subject-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   display: flex;
   width: min(100%, var(--reading));
   margin: 0 auto -1px;
   overflow-x: auto;
   border-bottom: 1px solid var(--line);
+  background: var(--paper);
   font-family: var(--sans);
   font-size: var(--step--1);
   scrollbar-width: thin;
@@ -1445,6 +1445,21 @@ a.subject-pagination-link:hover {
 
   .reading-surface {
     padding: 1.25rem 1rem 2rem;
+  }
+
+  .study-shell {
+    padding-bottom: calc(10rem + env(safe-area-inset-bottom));
+  }
+
+  .subject-action-bar {
+    align-items: stretch;
+  }
+
+  .subject-action-bar .studied-toggle,
+  .subject-action-back {
+    flex: 1 1 11rem;
+    justify-content: center;
+    text-align: center;
   }
 
   .subject-tabs a {

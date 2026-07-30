@@ -1,7 +1,7 @@
 ---
 import SubjectNavigation from '../components/SubjectNavigation.astro';
 import SubjectPagination from '../components/SubjectPagination.astro';
-import FloatingShortcuts from '../components/FloatingShortcuts.astro';
+import SubjectActionBar from '../components/SubjectActionBar.astro';
 import BaseLayout from './BaseLayout.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
 
@@ -26,7 +26,6 @@ const groupId = subject.groupPath.at(-1)?.slug ?? null;
     data-navigation-mode="normal"
     data-navigation-content-version={subject.contentEntry.id}
   >
-    <span id="study-top" class="study-top-anchor" tabindex="-1"></span>
     <nav class="breadcrumbs print-hidden" aria-label="Caminho da página">
       <a href="/">Concursos</a>
       <span aria-hidden="true">/</span>
@@ -56,6 +55,10 @@ const groupId = subject.groupPath.at(-1)?.slug ?? null;
 
     <SubjectPagination contest={contest} subject={subject} />
 
-    <FloatingShortcuts contestSlug={contest.slug} subjectSlug={subject.slug} active={active} />
+    <SubjectActionBar
+      contestSlug={contest.slug}
+      contestStorageId={contest.storageId}
+      subjectStorageId={subject.storageId}
+    />
   </main>
 </BaseLayout>

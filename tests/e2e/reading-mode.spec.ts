@@ -8,11 +8,11 @@ const readingTitle = 'Leitura, compreensão e interpretação de textos';
 test('renders the reading route with minimal, distraction-free chrome', async ({ page }) => {
   await page.goto(`${base}/leitura/`);
 
-  // Sem cabeçalho, abas, breadcrumbs ou atalhos flutuantes.
+  // Sem cabeçalho, abas, breadcrumbs ou barra fixa de ações.
   await expect(page.locator('.site-header')).toHaveCount(0);
   await expect(page.locator('nav[aria-label="Modos de estudo do assunto"]')).toHaveCount(0);
   await expect(page.locator('.breadcrumbs')).toHaveCount(0);
-  await expect(page.locator('nav[aria-label="Atalhos do assunto"]')).toHaveCount(0);
+  await expect(page.locator('[data-subject-action-bar]')).toHaveCount(0);
 
   // Título e conteúdo presentes, mais o controle de saída.
   await expect(page.getByRole('heading', { level: 1, name: readingTitle })).toBeVisible();
