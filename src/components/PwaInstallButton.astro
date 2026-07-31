@@ -1,4 +1,15 @@
-<button class="install-button" type="button" data-pwa-install hidden>Instalar aplicativo</button>
+<button
+  class="header-icon-control install-button"
+  type="button"
+  aria-label="Instalar aplicativo"
+  data-pwa-install
+  data-tooltip="Instalar aplicativo"
+  hidden
+>
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 3v11M8 10l4 4 4-4M5 16v3h14v-3"></path>
+  </svg>
+</button>
 
 <script>
   interface InstallPromptEvent extends Event {

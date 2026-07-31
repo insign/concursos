@@ -14,6 +14,8 @@
   --code-bg: #f5f1e9;
   --field-bg: #fff;
   --positive: #2f7254;
+  --status-busy: #8a5a00;
+  --status-offline: #a04413;
   --positive-soft: #e3f1e9;
   --negative-soft: #f6e8e3;
   --danger-ink: #632c22;
@@ -61,6 +63,8 @@
   --code-bg: var(--dark-code-bg);
   --field-bg: var(--dark-field-bg);
   --positive: var(--dark-positive);
+  --status-busy: #f1c164;
+  --status-offline: #f0a46c;
   --positive-soft: var(--dark-positive-soft);
   --negative-soft: var(--dark-negative-soft);
   --danger-ink: var(--dark-danger-ink);
@@ -83,6 +87,8 @@
     --code-bg: var(--dark-code-bg);
     --field-bg: var(--dark-field-bg);
     --positive: var(--dark-positive);
+    --status-busy: #f1c164;
+    --status-offline: #f0a46c;
     --positive-soft: var(--dark-positive-soft);
     --negative-soft: var(--dark-negative-soft);
     --danger-ink: var(--dark-danger-ink);
@@ -135,28 +141,6 @@ a:hover {
   scroll-margin-block: 4rem calc(10rem + env(safe-area-inset-bottom));
 }
 
-.theme-control {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.theme-control-label {
-  font-family: var(--sans);
-  font-size: var(--step--1);
-  color: var(--muted);
-}
-
-.theme-control-select {
-  padding: 0.25rem 0.4rem;
-  border: 1px solid var(--line);
-  border-radius: 0.4rem;
-  color: var(--ink);
-  background: var(--paper);
-  font-family: var(--sans);
-  font-size: var(--step--1);
-}
-
 .site-header {
   display: flex;
   align-items: center;
@@ -179,73 +163,166 @@ a:hover {
 .pwa-controls {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
+  gap: 0.25rem;
+  min-width: 0;
+  max-width: 100%;
   margin-left: auto;
   font-family: var(--sans);
   font-size: 0.75rem;
 }
 
-.connection-status {
-  color: var(--accent-strong);
-  font-weight: 750;
-}
-
-.connection-status[data-state='offline'] {
-  color: var(--signal);
-}
-
-.install-button {
-  padding: 0.4rem 0.6rem;
-  border: 1px solid var(--accent);
-  border-radius: 0.15rem;
-  color: var(--accent-strong);
-  background: transparent;
-  font: inherit;
-  font-weight: 750;
-  cursor: pointer;
-}
-
-.sync-status {
-  display: flex;
+.header-icon-control {
+  position: relative;
+  display: inline-flex;
+  width: 2.75rem;
+  height: 2.75rem;
   align-items: center;
-  gap: 0.5rem;
-  margin-left: auto;
-  color: var(--muted);
-  font-family: var(--sans);
-  font-size: 0.75rem;
-}
-
-.sync-status::before {
-  width: 0.55rem;
-  height: 0.55rem;
+  justify-content: center;
   flex: 0 0 auto;
-  border-radius: 50%;
-  background: #718078;
-  content: '';
-}
-
-.sync-status[data-state='syncing']::before {
-  background: #c27832;
-}
-
-.sync-status[data-state='synced']::before {
-  background: var(--positive);
-}
-
-.sync-status[data-state='error']::before,
-.sync-status[data-state='offline']::before {
-  background: var(--signal);
-}
-
-.sync-status button {
   padding: 0;
-  border: 0;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  color: var(--accent-strong);
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header-icon-control:hover {
+  border-color: var(--line);
+  background: var(--accent-soft);
+}
+
+.header-icon-control svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  fill: none;
+  stroke: currentcolor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.control-icon-hidden {
+  display: none !important;
+}
+
+.theme-auto-fill {
+  fill: currentcolor;
+  stroke: none;
+}
+
+.header-icon-control[data-tooltip]::after {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.4rem);
+  right: 0;
+  width: max-content;
+  max-width: 12rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.3rem;
+  color: var(--paper);
+  background: var(--ink);
+  box-shadow: 0 0.25rem 0.7rem rgb(0 0 0 / 0.18);
+  content: attr(data-tooltip);
+  font-size: 0.72rem;
+  font-weight: 650;
+  line-height: 1.2;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-0.2rem);
+  transition: opacity 120ms ease, transform 120ms ease;
+  white-space: nowrap;
+}
+
+.header-icon-control[data-tooltip]:hover::after,
+.header-icon-control[data-tooltip]:focus-visible::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.application-status {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  gap: 0.45rem;
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  padding-inline: 0.65rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  color: var(--positive);
+  font-weight: 700;
+}
+
+.application-status[data-tone='yellow'] {
+  color: var(--status-busy);
+}
+
+.application-status[data-tone='orange'] {
+  color: var(--status-offline);
+}
+
+.application-status[data-tone='red'] {
   color: var(--signal);
+}
+
+.application-status-icon {
+  display: inline-flex;
+  width: 1.35rem;
+  height: 1.35rem;
+  flex: 0 0 auto;
+}
+
+.application-status-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentcolor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.application-status[data-state='busy'] .application-status-icon {
+  animation: status-spin 1.2s linear infinite;
+}
+
+.application-status-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.application-status-message {
+  min-width: 0;
+  max-width: 22rem;
+  color: currentcolor;
+  font-weight: 650;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.application-status button {
+  min-height: 2.75rem;
+  padding: 0.25rem 0.45rem;
+  border: 1px solid currentcolor;
+  border-radius: 0.35rem;
+  color: currentcolor;
   background: transparent;
   font: inherit;
-  font-weight: 800;
-  text-decoration: underline;
   cursor: pointer;
+}
+
+@keyframes status-spin {
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 .site-mark {
@@ -1601,13 +1678,17 @@ a.subject-pagination-link:hover {
     font-size: 0.95rem;
   }
 
-  .sync-status {
+  .pwa-controls {
+    margin-left: auto;
+  }
+
+  .site-header nav {
     width: 100%;
     order: 3;
   }
 
-  .pwa-controls {
-    margin-left: 0;
+  .application-status-message {
+    max-width: min(16rem, 55vw);
   }
 
   .catalog-shell,
@@ -1676,6 +1757,54 @@ a.subject-pagination-link:hover {
   .form-actions {
     align-items: stretch;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 24rem) {
+  .site-header {
+    padding-inline: 0.5rem;
+  }
+
+  .site-mark strong {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .site-header nav {
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
+
+  .pwa-controls {
+    width: calc(100% - 3rem);
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .application-status[data-state='busy'],
+  .application-status[data-state='error'] {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1.35rem minmax(0, 1fr);
+  }
+
+  .application-status[data-state='busy'] .application-status-message,
+  .application-status[data-state='error'] .application-status-message,
+  .application-status[data-state='error'] button {
+    grid-column: 2;
+  }
+
+  .application-status[data-state='error'] button {
+    justify-self: start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .application-status[data-state='busy'] .application-status-icon {
+    animation: none;
   }
 }
 

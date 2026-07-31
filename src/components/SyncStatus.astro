@@ -1,24 +1,108 @@
-<div class="sync-status" data-sync-status role="status" aria-live="polite">
-  <span data-sync-message>Sincronização local pronta.</span>
-  <button type="button" data-sync-retry hidden>Tentar novamente</button>
+<div
+  class="application-status"
+  data-application-status
+  data-state="idle"
+  data-tone="green"
+  data-source="none"
+  role="status"
+  aria-live="polite"
+>
+  <span class="application-status-icon" aria-hidden="true">
+    <svg data-status-icon="idle" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8"></circle>
+      <path d="m8.5 12 2.3 2.3 4.8-5"></path>
+    </svg>
+    <svg data-status-icon="busy" class="control-icon-hidden" viewBox="0 0 24 24">
+      <path d="M19 8a8 8 0 1 0 .6 7M19 3v5h-5"></path>
+    </svg>
+    <svg data-status-icon="offline" class="control-icon-hidden" viewBox="0 0 24 24">
+      <path d="M5.5 15.5h-1A3.5 3.5 0 0 1 4 8.6 6.5 6.5 0 0 1 15.7 6 5 5 0 0 1 20 13.5v.5M4 4l16 16"></path>
+    </svg>
+    <svg data-status-icon="error" class="control-icon-hidden" viewBox="0 0 24 24">
+      <path d="M12 3 2.8 20h18.4ZM12 9v5M12 17.2v.1"></path>
+    </svg>
+  </span>
+  <span class="application-status-label" data-status-label>Online</span>
+  <span class="application-status-message" data-status-message hidden></span>
+  <button type="button" data-status-retry hidden>Tentar novamente</button>
 </div>
 
 <script>
+  import {
+    createApplicationStatusState,
+    deriveApplicationStatus,
+    reduceApplicationStatus,
+    type ApplicationStatusEvent,
+    type SyncStatusDetail,
+  } from '../lib/application-status';
+  import { getActiveAlias } from '../lib/identity';
+  import type { PwaStatusDetail } from '../lib/pwa-update';
+  import {
+    requestNavigationProfileSync,
+    requestSimuladosProfileSync,
+  } from '../lib/simulados-profile-sync';
   import { requestProfileSync, startSyncCoordinator } from '../lib/sync';
 
-  document.querySelectorAll<HTMLElement>('[data-sync-status]').forEach((root) => {
-    const message = root.querySelector<HTMLElement>('[data-sync-message]')!;
-    const retry = root.querySelector<HTMLButtonElement>('[data-sync-retry]')!;
+  const root = document.querySelector<HTMLElement>('[data-application-status]');
 
+  if (root) {
+    const label = root.querySelector<HTMLElement>('[data-status-label]');
+    const message = root.querySelector<HTMLElement>('[data-status-message]');
+    const retry = root.querySelector<HTMLButtonElement>('[data-status-retry]');
+    let state = createApplicationStatusState(navigator.onLine, getActiveAlias());
+    let retryIntent = deriveApplicationStatus(state).retry;
+
+    const render = () => {
+      const view = deriveApplicationStatus(state);
+      retryIntent = view.retry;
+      root.dataset.state = view.state;
+      root.dataset.tone = view.tone;
+      root.dataset.source = view.source;
+      if (label) label.textContent = view.label;
+      if (message) {
+        message.textContent = view.message ?? '';
+        message.hidden = view.state !== 'busy' && view.state !== 'error';
+      }
+      if (retry) retry.hidden = view.retry === null;
+      for (const icon of root.querySelectorAll<SVGElement>('[data-status-icon]')) {
+        icon.classList.toggle('control-icon-hidden', icon.dataset.statusIcon !== view.state);
+      }
+    };
+
+    const update = (event: ApplicationStatusEvent) => {
+      state = reduceApplicationStatus(state, event);
+      render();
+    };
+
+    window.addEventListener('online', () => update({ type: 'connectivity', online: true }));
+    window.addEventListener('offline', () => update({ type: 'connectivity', online: false }));
+    window.addEventListener('concursos:profile-changed', (event) => {
+      const detail = (event as CustomEvent<{ current: string }>).detail;
+      update({ type: 'profile', profileId: detail.current });
+    });
     window.addEventListener('concursos:sync-status', (event) => {
-      const detail = (event as CustomEvent<{ state: string; message: string }>).detail;
-      root.dataset.state = detail.state;
-      message.textContent = detail.message;
-      retry.hidden = detail.state !== 'error';
+      update({ type: 'sync', detail: (event as CustomEvent<SyncStatusDetail>).detail });
+    });
+    window.addEventListener('concursos:simulados-synced', (event) => {
+      const detail = (event as CustomEvent<{ profileId: string; failures: number }>).detail;
+      update({ type: 'profile-sync-result', source: 'simulados', ...detail });
+    });
+    window.addEventListener('concursos:navigation-synced', (event) => {
+      const detail = (event as CustomEvent<{ profileId: string; failures: number }>).detail;
+      update({ type: 'profile-sync-result', source: 'navigation', ...detail });
+    });
+    window.addEventListener('concursos:pwa-status', (event) => {
+      update({ type: 'pwa', detail: (event as CustomEvent<PwaStatusDetail>).detail });
     });
 
-    retry.addEventListener('click', () => void requestProfileSync());
-  });
+    retry?.addEventListener('click', () => {
+      if (retryIntent === 'sync') void requestProfileSync();
+      if (retryIntent === 'profile') void requestSimuladosProfileSync();
+      if (retryIntent === 'navigation') void requestNavigationProfileSync();
+      if (retryIntent === 'pwa') window.dispatchEvent(new CustomEvent('concursos:pwa-retry'));
+    });
 
-  startSyncCoordinator();
+    render();
+    void startSyncCoordinator();
+  }
 </script>

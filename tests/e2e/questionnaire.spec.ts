@@ -169,7 +169,7 @@ test('filters origins with native controls while preserving the filtered subset 
   );
 
   if (authorialQuestions.length > 10) {
-    await page.getByRole('button', { name: 'Próxima' }).click();
+    await page.getByRole('button', { name: 'Próxima', exact: true }).click();
     await expect(page.locator('[data-page-status]')).toHaveText(
       `Página 2 de ${Math.ceil(authorialQuestions.length / 10)}`,
     );
