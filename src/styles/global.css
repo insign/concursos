@@ -873,6 +873,22 @@ a.reading-exit:hover {
   flex-direction: column;
   gap: 0.5rem;
   align-items: flex-end;
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 160ms ease, opacity 120ms ease;
+}
+
+.subject-action-bar[data-subject-action-visibility='hidden']:not(:focus-within) {
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(calc(100% + 1rem));
+}
+
+.reading-focus[data-reading-focus-active] .subject-action-bar,
+.reading-focus:target:not([data-reading-focus-ready]) .subject-action-bar {
+  pointer-events: auto;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .subject-action-normal {
@@ -1686,7 +1702,8 @@ a.subject-pagination-link:hover {
   }
 
   .subject-action-label,
-  .studied-toggle-label {
+  .studied-toggle-label,
+  .subject-action-bar {
     transition: none;
   }
 }

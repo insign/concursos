@@ -47,3 +47,56 @@ const { contestSlug, contestStorageId, subjectStorageId, active } = Astro.props;
     }
   </div>
 </div>
+
+<script>
+  import {
+    createSubjectActionVisibilityState,
+    resetSubjectActionVisibility,
+    updateSubjectActionVisibility,
+  } from '../lib/subject-action-visibility';
+
+  const bar = document.querySelector<HTMLElement>(
+    '[data-subject-action-bar]:not([data-subject-action-ready])',
+  );
+
+  if (bar) {
+    const maxScrollY = () => Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+    let state = createSubjectActionVisibilityState(window.scrollY, maxScrollY());
+    let frame = 0;
+
+    const render = () => {
+      bar.dataset.subjectActionVisibility = state.visibility;
+    };
+    const isProtected = () =>
+      bar.matches(':focus-within') ||
+      document.body.classList.contains('reading-focus-active') ||
+      location.hash === '#focus';
+    const reset = () => {
+      state = resetSubjectActionVisibility(window.scrollY, maxScrollY());
+      render();
+    };
+    const update = () => {
+      frame = 0;
+      state = updateSubjectActionVisibility(
+        state,
+        window.scrollY,
+        maxScrollY(),
+        isProtected(),
+      );
+      render();
+    };
+    const scheduleUpdate = () => {
+      if (!frame) frame = requestAnimationFrame(update);
+    };
+
+    bar.dataset.subjectActionReady = '';
+    render();
+    window.addEventListener('scroll', scheduleUpdate, { passive: true });
+    bar.addEventListener('focusin', reset);
+    window.addEventListener('concursos:reading-focus-change', reset);
+    window.addEventListener('pagehide', () => {
+      if (frame) cancelAnimationFrame(frame);
+      frame = 0;
+    });
+  }
+</script>

@@ -86,6 +86,7 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
     await expect(tabs(page)).toHaveCSS('position', 'sticky');
     await expect(actions(page)).toHaveCSS('position', 'fixed');
     await expect(actions(page)).toBeVisible();
+    await expect(actions(page)).toHaveAttribute('data-subject-action-visibility', 'visible');
     await page.evaluate(() => {
       document.documentElement.style.scrollBehavior = 'auto';
       window.scrollTo(0, document.documentElement.scrollHeight);
@@ -98,6 +99,10 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
       )
       .toBe(true);
     await expect.poll(() => tabs(page).evaluate((element) => Math.round(element.getBoundingClientRect().top))).toBe(0);
+    await expect(actions(page)).toHaveAttribute('data-subject-action-visibility', 'hidden');
+    await actions(page).getByRole('link', { name: 'Voltar para o concurso' }).focus();
+    await expect(actions(page)).toHaveAttribute('data-subject-action-visibility', 'visible');
+    await expect(actions(page)).toHaveCSS('transform', 'matrix(1, 0, 0, 1, 0, 0)');
 
     const geometry = await page.evaluate(() => {
       const actionBar = document.querySelector<HTMLElement>('[data-subject-action-bar]')!;
@@ -134,6 +139,67 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
     expect(geometry.controlsHaveTouchSize).toBe(true);
     expect(geometry.hasHorizontalOverflow).toBe(false);
   }
+});
+
+test('hides on stable descent, ignores jitter and returns on ascent or focus', async ({ page }) => {
+  await page.goto(`${base}/`);
+  await page.evaluate(() => {
+    document.documentElement.style.scrollBehavior = 'auto';
+  });
+  const actionBar = actions(page);
+  const setScroll = (top: number) => page.evaluate((value) => new Promise<void>((resolve) => {
+    window.scrollTo(0, value);
+    requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+  }), top);
+
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+  await setScroll(160);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+
+  for (const position of [152, 160, 153, 161]) await setScroll(position);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+  await setScroll(140);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+
+  await setScroll(200);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+  await actionBar.getByRole('link', { name: 'Voltar ao topo' }).focus();
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+  await setScroll(260);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+
+  await tabs(page).getByRole('link', { name: 'Conteúdo' }).focus();
+  await setScroll(300);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+  await setScroll(0);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+});
+
+test('uses the same direction behavior on a touch viewport', async ({ browser }) => {
+  const context = await browser.newContext({
+    baseURL: 'http://127.0.0.1:4321',
+    hasTouch: true,
+    isMobile: true,
+    viewport: { width: 390, height: 720 },
+  });
+  const page = await context.newPage();
+  await page.goto(`${base}/`);
+  const actionBar = actions(page);
+
+  await page.evaluate(() => {
+    document.documentElement.style.scrollBehavior = 'auto';
+    window.scrollTo(0, 160);
+  });
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+  await page.evaluate(() => window.scrollTo(0, 130));
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+  await context.close();
+});
+
+test('removes action-bar transitions when reduced motion is requested', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.goto(`${base}/`);
+  await expect(actions(page)).toHaveCSS('transition-duration', '0s');
 });
 
 test('supports keyboard tooltips and native return links', async ({ page }) => {
@@ -195,6 +261,7 @@ test('keeps tabs and return navigation usable without JavaScript', async ({ brow
   await expect(tabs(page).getByRole('link', { name: 'Cheat sheet' })).toHaveAttribute('aria-current', 'page');
   const actionBar = actions(page);
   await expect(actionBar).toBeVisible();
+  await expect(actionBar).not.toHaveAttribute('data-subject-action-visibility');
   await expect(actionBar.getByRole('button', { name: 'Marcar como concluído' })).toBeDisabled();
   const back = actionBar.getByRole('link', { name: 'Voltar para o concurso' });
   await expect(actionBar.getByRole('link')).toHaveCount(2);
@@ -202,6 +269,8 @@ test('keeps tabs and return navigation usable without JavaScript', async ({ brow
     'href',
     '#study-top',
   );
+  await page.mouse.wheel(0, 2_000);
+  await expect(actionBar).toBeVisible();
   await expect(back).toHaveAttribute('href', contestUrl);
   await back.click();
   await expect(page).toHaveURL(new RegExp(`${contestUrl}$`));

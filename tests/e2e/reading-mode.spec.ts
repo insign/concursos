@@ -38,6 +38,14 @@ test('opens the integrated reading mode with one content tree and closes through
   await expect(page.getByRole('link', { name: 'Voltar ao topo' })).toBeHidden();
   await expect(page.getByRole('link', { name: 'Abrir modo de leitura' })).toBeHidden();
   await expect(page.locator('[data-studied-toggle]')).toBeVisible();
+  await page.evaluate(() => {
+    document.documentElement.style.scrollBehavior = 'auto';
+    window.scrollTo(0, 240);
+  });
+  await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
+    'data-subject-action-visibility',
+    'visible',
+  );
   await expect(page.getByRole('link', { name: 'Fechar leitura' })).toBeFocused();
   await page.locator('[data-navigation-offer]').evaluate((element: HTMLElement) => {
     element.hidden = false;
@@ -47,6 +55,15 @@ test('opens the integrated reading mode with one content tree and closes through
   await page.getByRole('link', { name: 'Fechar leitura' }).click();
   await expect(page).toHaveURL(new RegExp(`${subjectSlug}/$`));
   await expect(open).toBeFocused();
+  await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
+    'data-subject-action-visibility',
+    'visible',
+  );
+  await page.evaluate(() => window.scrollBy(0, 120));
+  await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
+    'data-subject-action-visibility',
+    'hidden',
+  );
 });
 
 test('supports Back, Forward and Escape in the integrated reading mode', async ({ page }) => {
@@ -115,6 +132,11 @@ test('keeps integrated reading mode usable without JavaScript', async ({ browser
   await expect(page.locator('.site-header')).toBeHidden();
   await expect(page.locator('[data-studied-toggle]')).toBeVisible();
   await expect(page.locator('[data-subject-action-normal]')).toBeHidden();
+  await expect(page.locator('[data-subject-action-bar]')).not.toHaveAttribute(
+    'data-subject-action-visibility',
+  );
+  await page.mouse.wheel(0, 2_000);
+  await expect(page.locator('[data-subject-action-bar]')).toBeVisible();
   await expect(page.getByRole('link', { name: 'Fechar leitura' })).toHaveAttribute('href', `${base}/`);
   await context.close();
 });
