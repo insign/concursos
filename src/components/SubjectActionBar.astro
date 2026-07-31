@@ -5,14 +5,45 @@ interface Props {
   contestSlug: string;
   contestStorageId: string;
   subjectStorageId: string;
+  active: 'content' | 'cheat-sheet' | 'questions';
 }
 
-const { contestSlug, contestStorageId, subjectStorageId } = Astro.props;
+const { contestSlug, contestStorageId, subjectStorageId, active } = Astro.props;
 ---
 
 <div class="subject-action-bar print-hidden" data-subject-action-bar role="group" aria-label="Ações do assunto">
   <StudiedToggle contestStorageId={contestStorageId} subjectStorageId={subjectStorageId} />
-  <a class="subject-action-back" href={`/concursos/${contestSlug}/`}>
-    Voltar para o concurso
-  </a>
+  <div class="subject-action-normal" data-subject-action-normal>
+    <a class="subject-action-control subject-action-back" href={`/concursos/${contestSlug}/`}>
+      <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="m15 18-6-6 6-6" />
+        <path d="M9 12h10" />
+      </svg>
+      <span class="subject-action-label">Voltar para o concurso</span>
+    </a>
+    <a class="subject-action-control subject-action-top" href="#study-top">
+      <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="m18 15-6-6-6 6" />
+        <path d="M12 9v10" />
+      </svg>
+      <span class="subject-action-label">Voltar ao topo</span>
+    </a>
+    {
+      active === 'content' && (
+        <a
+          class="subject-action-control subject-action-focus"
+          href="#focus"
+          data-reading-focus-open
+        >
+          <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3" />
+            <path d="M16 3h3a2 2 0 0 1 2 2v3" />
+            <path d="M8 21H5a2 2 0 0 1-2-2v-3" />
+            <path d="M16 21h3a2 2 0 0 0 2-2v-3" />
+          </svg>
+          <span class="subject-action-label">Abrir modo de leitura</span>
+        </a>
+      )
+    }
+  </div>
 </div>

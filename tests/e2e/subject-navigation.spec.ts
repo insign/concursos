@@ -39,11 +39,23 @@ test('keeps the three content destinations exclusively in the horizontal tabs', 
 
     const actionBar = actions(page);
     await expect(actionBar.getByRole('button')).toHaveCount(1);
-    await expect(actionBar.getByRole('link')).toHaveCount(1);
+    const actionLinkCount = route.active === 'Conteúdo' ? 3 : 2;
+    await expect(actionBar.getByRole('link')).toHaveCount(actionLinkCount);
     await expect(actionBar.getByRole('link', { name: 'Voltar para o concurso' })).toHaveAttribute(
       'href',
       contestUrl,
     );
+    await expect(actionBar.getByRole('link', { name: 'Voltar ao topo' })).toHaveAttribute(
+      'href',
+      '#study-top',
+    );
+    const focusAction = actionBar.getByRole('link', { name: 'Abrir modo de leitura' });
+    if (route.active === 'Conteúdo') await expect(focusAction).toHaveAttribute('href', '#focus');
+    else await expect(focusAction).toHaveCount(0);
+    await expect(actionBar.locator('svg')).toHaveCount(actionLinkCount + 1);
+    for (const icon of await actionBar.locator('svg').all()) {
+      await expect(icon).toHaveAttribute('aria-hidden', 'true');
+    }
     await expect(page.getByRole('navigation', { name: 'Atalhos do assunto' })).toHaveCount(0);
   }
 });
@@ -51,10 +63,16 @@ test('keeps the three content destinations exclusively in the horizontal tabs', 
 test('keeps the tabs sticky and the action bar clear of content on desktop and mobile', async ({ page }) => {
   for (const viewport of [
     { width: 1280, height: 900 },
+    { width: 844, height: 600 },
     { width: 390, height: 720 },
   ]) {
     await page.setViewportSize(viewport);
     await page.goto(`${base}/`);
+    if (viewport.width === 844) {
+      await page.locator('[data-reading-focus]').evaluate((element: HTMLElement) => {
+        element.style.setProperty('--reading', '92ch');
+      });
+    }
 
     const breadcrumbGeometry = await page.locator('.breadcrumbs').evaluate((element) => {
       const style = getComputedStyle(element);
@@ -67,6 +85,7 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
 
     await expect(tabs(page)).toHaveCSS('position', 'sticky');
     await expect(actions(page)).toHaveCSS('position', 'fixed');
+    await expect(actions(page)).toBeVisible();
     await page.evaluate(() => {
       document.documentElement.style.scrollBehavior = 'auto';
       window.scrollTo(0, document.documentElement.scrollHeight);
@@ -82,38 +101,87 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
 
     const geometry = await page.evaluate(() => {
       const actionBar = document.querySelector<HTMLElement>('[data-subject-action-bar]')!;
+      const article = document.querySelector<HTMLElement>('.reading-surface > article')!;
       const pagination = document.querySelector<HTMLElement>('.subject-pagination')!;
       const actionRect = actionBar.getBoundingClientRect();
+      const articleRect = article.getBoundingClientRect();
       const paginationRect = pagination.getBoundingClientRect();
+      const controls = Array.from(actionBar.querySelectorAll<HTMLElement>('button, a'))
+        .map((control) => control.getBoundingClientRect());
       return {
         actionBottom: actionRect.bottom,
+        actionRight: actionRect.right,
         actionTop: actionRect.top,
+        articleClearsActions: articleRect.right <= actionRect.left,
+        controlsAreVertical: controls.every(
+          (control, index) => index === 0 || control.top >= controls[index - 1].bottom,
+        ),
+        controlsHaveTouchSize: controls.every(
+          (control) => control.width >= 44 && control.height >= 44,
+        ),
         paginationBottom: paginationRect.bottom,
         viewportHeight: window.innerHeight,
+        viewportWidth: window.innerWidth,
         hasHorizontalOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
       };
     });
 
     expect(geometry.actionBottom).toBeLessThanOrEqual(geometry.viewportHeight);
+    expect(geometry.actionRight).toBeLessThanOrEqual(geometry.viewportWidth);
+    expect(geometry.articleClearsActions).toBe(true);
     expect(geometry.paginationBottom).toBeLessThanOrEqual(geometry.actionTop);
+    expect(geometry.controlsAreVertical).toBe(true);
+    expect(geometry.controlsHaveTouchSize).toBe(true);
     expect(geometry.hasHorizontalOverflow).toBe(false);
   }
 });
 
-test('supports keyboard focus and native return to the current contest', async ({ page }) => {
+test('supports keyboard tooltips and native return links', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('concursos:active-alias', 'acoes-assunto-teste'));
   await page.goto(`${base}/questoes/`);
 
   const actionBar = actions(page);
   const toggle = actionBar.getByRole('button', { name: 'Marcar como concluído' });
   const back = actionBar.getByRole('link', { name: 'Voltar para o concurso' });
+  const top = actionBar.getByRole('link', { name: 'Voltar ao topo' });
   await expect(toggle).toBeEnabled();
   await toggle.focus();
   await expect(toggle).toBeFocused();
+  await expect(toggle.locator('.studied-toggle-label')).toHaveCSS('opacity', '1');
   await page.keyboard.press('Tab');
   await expect(back).toBeFocused();
+  await expect(back.locator('.subject-action-label')).toHaveCSS('opacity', '1');
+  await top.hover();
+  await expect(top.locator('.subject-action-label')).toHaveCSS('opacity', '1');
+  await top.focus();
+  await page.keyboard.press('Enter');
+  await expect(page).toHaveURL(/#study-top$/);
+  await expect(page.locator('#study-top')).toBeFocused();
+  await back.focus();
   await page.keyboard.press('Enter');
   await expect(page).toHaveURL(new RegExp(`${contestUrl}$`));
+});
+
+test('opens focus from the icon stack and restores focus to that opener', async ({ page }) => {
+  await page.goto(`${base}/`);
+  const focusAction = actions(page).getByRole('link', { name: 'Abrir modo de leitura' });
+
+  await focusAction.click();
+  await expect(page).toHaveURL(new RegExp(`${subject}/#focus$`));
+  await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
+  await expect(page).toHaveURL(new RegExp(`${subject}/$`));
+  await expect(focusAction).toBeFocused();
+
+  await focusAction.click();
+  await page.goBack();
+  await expect(page).toHaveURL(new RegExp(`${subject}/$`));
+  await expect(focusAction).toBeFocused();
+  await page.goForward();
+  await expect(page).toHaveURL(new RegExp(`${subject}/#focus$`));
+  await page.goBack();
+  await expect(page).toHaveURL(new RegExp(`${subject}/$`));
+  await expect(focusAction).toBeFocused();
 });
 
 test('keeps tabs and return navigation usable without JavaScript', async ({ browser }) => {
@@ -126,8 +194,14 @@ test('keeps tabs and return navigation usable without JavaScript', async ({ brow
 
   await expect(tabs(page).getByRole('link', { name: 'Cheat sheet' })).toHaveAttribute('aria-current', 'page');
   const actionBar = actions(page);
+  await expect(actionBar).toBeVisible();
   await expect(actionBar.getByRole('button', { name: 'Marcar como concluído' })).toBeDisabled();
   const back = actionBar.getByRole('link', { name: 'Voltar para o concurso' });
+  await expect(actionBar.getByRole('link')).toHaveCount(2);
+  await expect(actionBar.getByRole('link', { name: 'Voltar ao topo' })).toHaveAttribute(
+    'href',
+    '#study-top',
+  );
   await expect(back).toHaveAttribute('href', contestUrl);
   await back.click();
   await expect(page).toHaveURL(new RegExp(`${contestUrl}$`));

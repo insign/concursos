@@ -33,7 +33,11 @@ test('opens the integrated reading mode with one content tree and closes through
   await expect(suggestions.nth(0)).toBeHidden();
   await expect(suggestions.nth(1)).toBeHidden();
   await expect(page.locator('.subject-pagination')).toBeHidden();
+  await expect(page.locator('[data-subject-action-normal]')).toBeHidden();
   await expect(page.getByRole('link', { name: 'Voltar para o concurso' })).toBeHidden();
+  await expect(page.getByRole('link', { name: 'Voltar ao topo' })).toBeHidden();
+  await expect(page.getByRole('link', { name: 'Abrir modo de leitura' })).toBeHidden();
+  await expect(page.locator('[data-studied-toggle]')).toBeVisible();
   await expect(page.getByRole('link', { name: 'Fechar leitura' })).toBeFocused();
   await page.locator('[data-navigation-offer]').evaluate((element: HTMLElement) => {
     element.hidden = false;
@@ -90,7 +94,7 @@ test('preserves the visible reading position and supports repeated open-close cy
     .poll(() => heading.evaluate((element) => element.getBoundingClientRect().top))
     .toBeCloseTo(before, 0);
 
-  await page.locator('[data-reading-focus-open]').evaluate((element: HTMLAnchorElement) => element.click());
+  await page.locator('.reading-entry-link').evaluate((element: HTMLAnchorElement) => element.click());
   await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
   await page.locator('[data-reading-focus-close]').evaluate((element: HTMLAnchorElement) => element.click());
   await expect(page).toHaveURL(new RegExp(`${subjectSlug}/$`));
@@ -109,6 +113,8 @@ test('keeps integrated reading mode usable without JavaScript', async ({ browser
 
   await expect(page.locator('.reading-surface article')).toBeVisible();
   await expect(page.locator('.site-header')).toBeHidden();
+  await expect(page.locator('[data-studied-toggle]')).toBeVisible();
+  await expect(page.locator('[data-subject-action-normal]')).toBeHidden();
   await expect(page.getByRole('link', { name: 'Fechar leitura' })).toHaveAttribute('href', `${base}/`);
   await context.close();
 });

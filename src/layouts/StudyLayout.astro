@@ -38,7 +38,7 @@ const contestTitleStart = contestMiddleTruncated
     data-navigation-mode="normal"
     data-navigation-content-version={subject.contentEntry.id}
   >
-    <nav class="breadcrumbs print-hidden" aria-label="Caminho da página">
+    <nav id="study-top" class="breadcrumbs print-hidden" aria-label="Caminho da página" tabindex="-1">
       <a class="breadcrumb-home" href="/" aria-label="Concursos" title="Concursos">
         <span aria-hidden="true">C</span>
       </a>
@@ -103,6 +103,7 @@ const contestTitleStart = contestMiddleTruncated
             contestSlug={contest.slug}
             contestStorageId={contest.storageId}
             subjectStorageId={subject.storageId}
+            active={active}
           />
         </div>
       ) : (
@@ -126,6 +127,7 @@ const contestTitleStart = contestMiddleTruncated
           contestSlug={contest.slug}
           contestStorageId={contest.storageId}
           subjectStorageId={subject.storageId}
+          active={active}
         />
       )
     }

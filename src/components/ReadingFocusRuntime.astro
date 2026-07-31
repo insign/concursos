@@ -1,9 +1,12 @@
 <script>
   const root = document.querySelector<HTMLElement>('[data-reading-focus]');
-  const open = root?.querySelector<HTMLAnchorElement>('[data-reading-focus-open]') ?? null;
+  const openers = root
+    ? Array.from(root.querySelectorAll<HTMLAnchorElement>('[data-reading-focus-open]'))
+    : [];
+  const defaultOpener = openers[0] ?? null;
   const close = root?.querySelector<HTMLAnchorElement>('[data-reading-focus-close]') ?? null;
 
-  if (root && open && close) {
+  if (root && defaultOpener && close) {
     const HISTORY_KEY = 'concursosReadingFocus';
     const FOCUSABLE = [
       'a[href]',
@@ -115,7 +118,7 @@
 
       requestAnimationFrame(() => {
         if (next) close.focus({ preventScroll: true });
-        else (opener?.isConnected ? opener : open).focus({ preventScroll: true });
+        else (opener?.isConnected ? opener : defaultOpener).focus({ preventScroll: true });
       });
       if (!next && previousScrollRestoration !== null) {
         const restoration = previousScrollRestoration;
@@ -156,19 +159,21 @@
       setActive(false, layout);
     };
 
-    open.addEventListener('click', (event) => {
-      if (isFocusHash()) return;
-      event.preventDefault();
-      opener = open;
-      const layout = captureLayout();
-      const state =
-        typeof history.state === 'object' && history.state !== null ? { ...history.state } : {};
-      state[HISTORY_KEY] = true;
-      const url = new URL(location.href);
-      url.hash = 'focus';
-      history.pushState(state, '', `${url.pathname}${url.search}${url.hash}`);
-      setActive(true, layout);
-    });
+    for (const open of openers) {
+      open.addEventListener('click', (event) => {
+        if (isFocusHash()) return;
+        event.preventDefault();
+        opener = open;
+        const layout = captureLayout();
+        const state =
+          typeof history.state === 'object' && history.state !== null ? { ...history.state } : {};
+        state[HISTORY_KEY] = true;
+        const url = new URL(location.href);
+        url.hash = 'focus';
+        history.pushState(state, '', `${url.pathname}${url.search}${url.hash}`);
+        setActive(true, layout);
+      });
+    }
 
     close.addEventListener('click', (event) => {
       event.preventDefault();

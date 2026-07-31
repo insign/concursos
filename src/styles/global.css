@@ -562,11 +562,17 @@ a.subject-reading-link:hover {
   font-weight: 700;
 }
 
-.studied-toggle {
+.studied-toggle,
+.subject-action-control {
+  position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.45rem 0.85rem;
+  justify-content: center;
+  width: 2.75rem;
+  min-width: 2.75rem;
+  height: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0;
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--accent-strong);
@@ -588,8 +594,14 @@ a.subject-reading-link:hover {
   background: var(--positive);
 }
 
-.studied-toggle-icon {
-  font-weight: 800;
+.subject-action-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* Modo de leitura sem distrações (#101): estado #focus integrado. */
@@ -601,7 +613,7 @@ a.subject-reading-link:hover {
 .reading-focus[data-reading-focus-active],
 .reading-focus:target:not([data-reading-focus-ready]) {
   min-height: 100vh;
-  padding-block: 1rem 5rem;
+  padding-block: 1rem calc(5rem + env(safe-area-inset-bottom));
   color: var(--ink);
   background: var(--paper);
 }
@@ -619,8 +631,8 @@ a.subject-reading-link:hover {
 .study-page:has(#focus:target:not([data-reading-focus-ready])) .study-shell > :not(.reading-focus),
 .reading-focus[data-reading-focus-active] .reading-entry,
 .reading-focus:target:not([data-reading-focus-ready]) .reading-entry,
-.reading-focus[data-reading-focus-active] .subject-action-back,
-.reading-focus:target:not([data-reading-focus-ready]) .subject-action-back {
+.reading-focus[data-reading-focus-active] [data-subject-action-normal],
+.reading-focus:target:not([data-reading-focus-ready]) [data-subject-action-normal] {
   display: none;
 }
 
@@ -848,54 +860,70 @@ a.reading-exit:hover {
 }
 
 .study-shell {
-  padding-block: 1.25rem calc(7rem + env(safe-area-inset-bottom));
+  padding-block: 1.25rem calc(15rem + env(safe-area-inset-bottom));
 }
 
-/* Ações persistentes do assunto (#215), separadas da navegação entre conteúdo,
-   cheat sheet e questões. */
+/* Ações persistentes do assunto (#215), separadas da navegação entre rotas. */
 .subject-action-bar {
   position: fixed;
   right: calc(0.75rem + env(safe-area-inset-right));
   bottom: calc(0.75rem + env(safe-area-inset-bottom));
-  left: calc(0.75rem + env(safe-area-inset-left));
   z-index: 30;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  align-items: center;
-  justify-content: center;
-  max-width: var(--reading);
-  margin-inline: auto;
-  padding: 0.65rem;
-  border: 1px solid var(--line);
-  border-radius: 1rem;
-  background: var(--paper);
-  box-shadow: 0 0.4rem 1rem rgb(31 46 42 / 0.18);
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+.subject-action-normal {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-end;
 }
 
 .subject-action-bar .studied-toggle,
-.subject-action-back {
-  min-height: 2.75rem;
+.subject-action-control {
+  box-shadow: 0 0.3rem 0.8rem rgb(31 46 42 / 0.18);
 }
 
-.subject-action-back {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem 0.85rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--accent-strong);
-  background: var(--paper);
+.subject-action-control {
+  text-decoration: none;
+}
+
+.subject-action-control:hover {
+  color: var(--signal);
+  border-color: var(--signal);
+}
+
+.subject-action-label,
+.studied-toggle-label {
+  position: absolute;
+  right: calc(100% + 0.55rem);
+  top: 50%;
+  width: max-content;
+  max-width: min(18rem, calc(100vw - 5rem));
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.45rem;
+  color: var(--paper);
+  background: var(--ink);
+  box-shadow: 0 0.25rem 0.65rem rgb(31 46 42 / 0.2);
   font-family: var(--sans);
   font-size: var(--step--1);
   font-weight: 700;
-  text-decoration: none;
-  white-space: nowrap;
+  line-height: 1.25;
+  text-align: left;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: opacity 120ms ease;
 }
 
-a.subject-action-back:hover {
-  color: var(--signal);
+.subject-action-control:hover .subject-action-label,
+.subject-action-control:focus-visible .subject-action-label,
+.studied-toggle:hover .studied-toggle-label,
+.studied-toggle:focus-visible .studied-toggle-label {
+  opacity: 1;
 }
 
 .breadcrumbs {
@@ -1577,21 +1605,6 @@ a.subject-pagination-link:hover {
     padding: 1.25rem 1rem 2rem;
   }
 
-  .study-shell {
-    padding-bottom: calc(10rem + env(safe-area-inset-bottom));
-  }
-
-  .subject-action-bar {
-    align-items: stretch;
-  }
-
-  .subject-action-bar .studied-toggle,
-  .subject-action-back {
-    flex: 1 1 11rem;
-    justify-content: center;
-    text-align: center;
-  }
-
   .subject-tabs a {
     padding-inline: 0.8rem;
   }
@@ -1650,6 +1663,15 @@ a.subject-pagination-link:hover {
   }
 }
 
+@media screen and (max-width: 76rem) {
+  .study-shell .reading-surface {
+    padding-inline-end: calc(
+      clamp(1.5rem, 5vw, 3rem) + var(--reading-pad, 0px) + 3.5rem +
+        env(safe-area-inset-right)
+    );
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -1661,5 +1683,10 @@ a.subject-pagination-link:hover {
     scroll-behavior: auto !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+  }
+
+  .subject-action-label,
+  .studied-toggle-label {
+    transition: none;
   }
 }
