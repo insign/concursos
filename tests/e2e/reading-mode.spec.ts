@@ -27,7 +27,10 @@ test('opens the integrated reading mode with one content tree and closes through
   await expect(page.locator('.site-header')).toBeHidden();
   await expect(page.locator('.breadcrumbs')).toBeHidden();
   await expect(page.getByRole('navigation', { name: 'Modos de estudo do assunto' })).toBeHidden();
-  await expect(page.locator('.subject-suggestion')).toBeHidden();
+  const suggestions = page.locator('.subject-suggestion');
+  await expect(suggestions).toHaveCount(2);
+  await expect(suggestions.nth(0)).toBeHidden();
+  await expect(suggestions.nth(1)).toBeHidden();
   await expect(page.locator('.subject-pagination')).toBeHidden();
   await expect(page.getByRole('link', { name: 'Voltar para o concurso' })).toBeHidden();
   await expect(page.getByRole('link', { name: 'Fechar leitura' })).toBeFocused();

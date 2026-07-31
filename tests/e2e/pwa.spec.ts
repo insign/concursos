@@ -81,7 +81,10 @@ test('downloads and removes an atomic contest package without caching KV', async
   const offlineImage = page.getByRole('img', { name: 'Ciclo de planejamento, execução, avaliação e correção.' });
   await expect(offlineImage).toBeVisible();
   await expect.poll(() => offlineImage.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
-  const suggested = page.getByRole('link', { name: 'Próximo assunto sugerido' });
+  await page.goto('/concursos/concurso-exemplo/');
+  const suggested = page
+    .locator('[data-subject-suggestion-instance="contest-top"]')
+    .getByRole('link', { name: 'Próximo assunto sugerido' });
   await expect(suggested).toHaveAttribute('href', '/concursos/concurso-exemplo/assunto-exemplo/');
   await suggested.click();
   await expect(page.getByRole('heading', { name: 'Fundamentos de administração pública', level: 1 })).toBeVisible();

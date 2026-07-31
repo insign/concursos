@@ -52,10 +52,11 @@ describe('subject suggestion', () => {
   it('keeps the first editorial group when completion rates tie', () => {
     const suggestion = suggestNextSubject(
       model([
-        ['a1', 'a2'],
-        ['b1', 'b2', 'b3', 'b4'],
+        ['a1', 'a2', 'a3', 'a4', 'a5'],
+        ['b1', 'b2', 'b3', 'b4', 'b5'],
+        ['c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10'],
       ]),
-      ['contest--a1', 'contest--b1', 'contest--b2'],
+      ['contest--a1', 'contest--b1', 'contest--c1', 'contest--c2'],
     );
 
     expect(suggestion?.studiedSubjectId).toBe('contest--a2');
@@ -68,6 +69,39 @@ describe('subject suggestion', () => {
       'contest--a1',
     );
     expect(suggestNextSubject(fixture, ['contest--a1', 'contest--b1', 'contest--unknown'])).toBeNull();
+  });
+
+  it('excludes the current subject without changing the group ratio', () => {
+    const fixture = model([
+      ['a1', 'a2'],
+      ['b1', 'b2', 'b3', 'b4'],
+    ]);
+
+    expect(
+      suggestNextSubject(fixture, ['contest--a1', 'contest--b1', 'contest--b2'], 'contest--a2')
+        ?.studiedSubjectId,
+    ).toBe('contest--b3');
+  });
+
+  it('keeps the best group when it has another pending subject', () => {
+    expect(
+      suggestNextSubject(model([['a1', 'a2'], ['b1', 'b2']]), [], 'contest--a1')
+        ?.studiedSubjectId,
+    ).toBe('contest--a2');
+  });
+
+  it('advances when the best group only has the current subject pending', () => {
+    expect(
+      suggestNextSubject(model([['a1'], ['b1', 'b2']]), [], 'contest--a1')
+        ?.studiedSubjectId,
+    ).toBe('contest--b1');
+  });
+
+  it('still excludes the current subject when it is already studied', () => {
+    expect(
+      suggestNextSubject(model([['a1', 'a2']]), ['contest--a1'], 'contest--a1')
+        ?.studiedSubjectId,
+    ).toBe('contest--a2');
   });
 
   it('builds immediate-group buckets in deterministic tree preorder', () => {
