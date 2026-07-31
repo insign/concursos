@@ -243,6 +243,16 @@ function initializeSimulados(): void {
     );
   };
 
+  const closeResolver = (): void => {
+    activeDocument = null;
+    resolver.hidden = true;
+    resultBox.hidden = true;
+    resultBox.textContent = '';
+    resolverMeta.textContent = '';
+    questionList.replaceChildren();
+    resolverActions.replaceChildren();
+  };
+
   const renderDocument = (simulation: SimuladoDocument, documentId: string): void => {
     activeDocument = simulation;
     resolver.hidden = false;
@@ -447,7 +457,13 @@ function initializeSimulados(): void {
   const loadRequestedDocument = async (): Promise<void> => {
     if (!alias) return;
     const rawId = new URLSearchParams(location.search).get('id');
-    if (!rawId) return;
+    if (!rawId) {
+      // Voltar de `/simulados/?id=...` para `/simulados/` é uma navegação real dentro do
+      // mesmo documento: sem fechar o resolvedor, a tela continuaria presa na tentativa.
+      closeResolver();
+      setStatus('');
+      return;
+    }
     try {
       const simulationId = validateSimuladoId(rawId);
       const documentId = buildSimuladoDocumentId(alias, simulationId);

@@ -37,6 +37,26 @@ test('creates, answers rapidly, reloads and finishes a persistent simulation', a
   await expect(page.getByRole('link', { name: 'Revisar simulado' })).toBeVisible();
 });
 
+test('returns to the configuration when the user goes back from a generated simulation', async ({ page }) => {
+  await page.goto(`/simulados/?concurso=${contestStorageId}`);
+  await page.locator('[data-subject-list] input[data-subject]').first().check();
+  await page.locator('[data-count]').fill('1');
+  await page.getByRole('button', { name: 'Gerar simulado', exact: true }).click();
+
+  await expect(page).toHaveURL(/\/simulados\/\?id=[0-9a-f-]{36}$/);
+  await expect(page.locator('[data-resolver]')).toBeVisible();
+
+  await page.goBack();
+  await expect(page).toHaveURL(new RegExp(`/simulados/\\?concurso=${contestStorageId}$`));
+  await expect(page.locator('[data-resolver]')).toBeHidden();
+  await expect(page.locator('[data-question-list] > li')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Gerar simulado', exact: true })).toBeVisible();
+
+  await page.goForward();
+  await expect(page).toHaveURL(/\/simulados\/\?id=[0-9a-f-]{36}$/);
+  await expect(page.locator('[data-question-list] > li')).toHaveCount(1);
+});
+
 test('publishes the detailed document before the profile index and sends no Authorization', async ({ page, kvStore }) => {
   const authorizationHeaders: string[] = [];
   const writes: string[] = [];

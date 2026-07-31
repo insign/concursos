@@ -182,6 +182,32 @@ test('normalizes a legacy remote reading route and resumes through #focus', asyn
   await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
 });
 
+test('keeps the entry route reachable after an automatic resume', async ({ page, kvStore }) => {
+  kvStore.set(navigationDocumentId, {
+    version: 4,
+    createdAt: timestamp,
+    json: remoteNavigation('/simulados/', {
+      contestStorageId: null,
+      groupId: null,
+      subjectStorageId: null,
+      activeTab: 'simulados',
+      readingMode: false,
+      questionOrigin: null,
+      questionLayout: null,
+      shuffleQuestions: null,
+    }),
+  });
+
+  await page.goto('/');
+  await expect(page).toHaveURL(/\/simulados\/$/, { timeout: 30_000 });
+
+  await page.goBack();
+  await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
+  await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+  await page.waitForTimeout(3_000);
+  await expect(page).toHaveURL(/127\.0\.0\.1:4321\/$/);
+});
+
 test('publishes a direct #focus deep link over an existing normal record', async ({ page, kvStore }) => {
   kvStore.set(navigationDocumentId, {
     version: 2,

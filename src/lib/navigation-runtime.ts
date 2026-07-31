@@ -698,7 +698,11 @@ export function startNavigationRuntime(): void {
       sessionStorage.setItem(pendingRouteKey, record.current.route);
       navigationRedirectPending = true;
       markNavigationPending();
-      location.replace(navigationDestination(record.current));
+      // A retomada empilha o destino em vez de substituir a entrada da raiz: sem isso,
+      // voltar sairia do site (ou não faria nada na PWA) e o catálogo ficaria inacessível
+      // pelo histórico. A retomada automática já é consumida uma vez por sessão, então a
+      // volta para `/` não reaplica o redirecionamento.
+      location.assign(navigationDestination(record.current));
       return;
     }
 
