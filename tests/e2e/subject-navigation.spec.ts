@@ -3,6 +3,7 @@ import { expect, test } from './fixtures';
 
 const contest = 'tce-ma-2026-analista-administracao';
 const subject = 'leitura-interpretacao-tipos-generos';
+const subjectTitle = 'Leitura, compreensão e interpretação de textos';
 const contestUrl = `/concursos/${contest}/`;
 const base = `${contestUrl}${subject}`;
 const routes = [
@@ -23,6 +24,9 @@ test('keeps the three content destinations exclusively in the horizontal tabs', 
   for (const route of routes) {
     await page.goto(route.path);
     const navigation = tabs(page);
+    await expect(page.locator('.subject-heading .subject-title')).toHaveText(subjectTitle);
+    await expect(page.locator('.subject-heading > p:last-child')).not.toBeEmpty();
+    await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
 
     await expect(navigation.getByRole('link')).toHaveCount(3);
     for (const link of tabLinks) {
@@ -51,6 +55,15 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
   ]) {
     await page.setViewportSize(viewport);
     await page.goto(`${base}/`);
+
+    const breadcrumbGeometry = await page.locator('.breadcrumbs').evaluate((element) => {
+      const style = getComputedStyle(element);
+      return {
+        flexWrap: style.flexWrap,
+        hasHorizontalOverflow: element.scrollWidth > element.clientWidth,
+      };
+    });
+    expect(breadcrumbGeometry).toEqual({ flexWrap: 'nowrap', hasHorizontalOverflow: false });
 
     await expect(tabs(page)).toHaveCSS('position', 'sticky');
     await expect(actions(page)).toHaveCSS('position', 'fixed');
@@ -126,4 +139,6 @@ test('hides the tabs and subject action bar when printing', async ({ page }) => 
   await page.emulateMedia({ media: 'print' });
   await expect(tabs(page)).toBeHidden();
   await expect(actions(page)).toBeHidden();
+  await expect(page.locator('.breadcrumbs')).toBeHidden();
+  await expect(page.locator('.subject-heading')).toBeHidden();
 });

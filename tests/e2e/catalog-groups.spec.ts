@@ -46,14 +46,18 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
 
   await page.goto(readingPath);
   const breadcrumbs = page.locator('.breadcrumbs');
-  const labels = await breadcrumbs.locator('a, span:not([aria-hidden])').allTextContents();
-  expect(labels.map((label) => label.trim())).toEqual([
-    'Concursos',
-    'TCE/MA 2026 - Analista de Administração',
-    'Conhecimentos gerais',
-    'Língua Portuguesa',
-    readingTitle,
-  ]);
+  await expect(breadcrumbs.getByRole('link', { name: 'Concursos' })).toHaveText('C');
+  const contestLink = breadcrumbs.getByRole('link', {
+    name: 'TCE/MA 2026 - Analista de Administração',
+  });
+  await expect(contestLink).toHaveAttribute('title', 'TCE/MA 2026 - Analista de Administração');
+  await expect(contestLink.locator('.breadcrumb-contest-start')).toHaveText('TCE/MA 2026 - Anal');
+  await expect(contestLink.locator('.breadcrumb-contest-end')).toHaveText('Administração');
+  const groups = breadcrumbs.locator('.breadcrumb-group');
+  await expect(groups).toHaveText(['Conhecimentos gerais', 'Língua Portuguesa']);
+  await expect(groups.nth(0)).toHaveAttribute('title', 'Conhecimentos gerais');
+  await expect(groups.nth(1)).toHaveAttribute('title', 'Língua Portuguesa');
+  await expect(breadcrumbs).not.toContainText(readingTitle);
   await expect(breadcrumbs.getByRole('link', { name: 'Conhecimentos gerais' })).toHaveCount(0);
   await expect(breadcrumbs.getByRole('link', { name: 'Língua Portuguesa' })).toHaveCount(0);
 
@@ -89,6 +93,18 @@ test('renders each subject as a compact item with only the title (issue #99)', a
   await expect(page.locator('.subject-card p')).toHaveCount(0);
   // ...nem existe controle para expandir/revelar descrição dentro do item.
   await expect(card.locator('details, summary')).toHaveCount(0);
+});
+
+test('keeps the contest breadcrumb readable on narrow screens', async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 720 });
+  await page.goto(contestPath);
+
+  const breadcrumbs = page.locator('.breadcrumbs');
+  await expect(breadcrumbs).toHaveCSS('flex-wrap', 'wrap');
+  await expect(breadcrumbs).toContainText('TCE/MA 2026 - Analista de Administração');
+  await expect
+    .poll(() => breadcrumbs.evaluate((element) => element.scrollWidth <= element.clientWidth))
+    .toBe(true);
 });
 
 test('keeps catalog hierarchy available without JavaScript', async ({ browser }) => {

@@ -17,6 +17,12 @@ interface Props {
 const { contest, subject, active } = Astro.props;
 const groupId = subject.groupPath.at(-1)?.slug ?? null;
 const subjectHref = `/concursos/${contest.slug}/${subject.slug}/`;
+const contestMiddleTruncated = contest.title.length > 32;
+const contestLastWord = contest.title.split(/\s+/).at(-1) ?? '';
+const contestTitleEnd = contestMiddleTruncated ? contestLastWord.slice(-16) : '';
+const contestTitleStart = contestMiddleTruncated
+  ? contest.title.slice(0, Math.max(8, 31 - contestTitleEnd.length))
+  : contest.title;
 ---
 
 <BaseLayout title={subject.title} description={subject.description} pageClass={`study-page ${active}`}>
@@ -31,23 +37,32 @@ const subjectHref = `/concursos/${contest.slug}/${subject.slug}/`;
     data-navigation-content-version={subject.contentEntry.id}
   >
     <nav class="breadcrumbs print-hidden" aria-label="Caminho da página">
-      <a href="/">Concursos</a>
+      <a class="breadcrumb-home" href="/" aria-label="Concursos" title="Concursos">
+        <span aria-hidden="true">C</span>
+      </a>
       <span aria-hidden="true">/</span>
-      <a href={`/concursos/${contest.slug}/`}>{contest.title}</a>
+      <a
+        class:list={['breadcrumb-contest', { 'breadcrumb-contest-middle': contestMiddleTruncated }]}
+        href={`/concursos/${contest.slug}/`}
+        aria-label={contest.title}
+        title={contest.title}
+      >
+        <span class="breadcrumb-contest-start" aria-hidden="true">{contestTitleStart}</span>
+        {contestMiddleTruncated && <span class="breadcrumb-contest-ellipsis" aria-hidden="true">…</span>}
+        {contestMiddleTruncated && <span class="breadcrumb-contest-end" aria-hidden="true">{contestTitleEnd}</span>}
+      </a>
       {
         subject.groupPath.map((group) => (
           <>
             <span aria-hidden="true">/</span>
-            <span>{group.title}</span>
+            <span class="breadcrumb-group" title={group.title}>{group.title}</span>
           </>
         ))
       }
-      <span aria-hidden="true">/</span>
-      <span>{subject.title}</span>
     </nav>
 
     <header class="subject-heading">
-      <p class="eyebrow">{contest.title}</p>
+      <p class="subject-title">{subject.title}</p>
       <p>{subject.description}</p>
     </header>
 

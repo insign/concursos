@@ -902,9 +902,65 @@ a.subject-action-back:hover {
   font-size: var(--step--1);
 }
 
+.study-shell > .breadcrumbs {
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: 0;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+}
+
+.breadcrumbs > [aria-hidden='true'],
+.breadcrumb-home {
+  flex: 0 0 auto;
+}
+
+.breadcrumb-contest {
+  display: inline-flex;
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: min(24rem, 42vw);
+  white-space: nowrap;
+}
+
+.breadcrumb-contest-start {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.breadcrumb-contest:not(.breadcrumb-contest-middle) .breadcrumb-contest-start {
+  text-overflow: ellipsis;
+}
+
+.breadcrumb-contest-ellipsis,
+.breadcrumb-contest-end {
+  flex: 0 0 auto;
+}
+
+.breadcrumb-group {
+  flex: 1 1 6rem;
+  min-width: 0;
+  max-width: 16rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .subject-heading {
   max-width: var(--reading);
   margin-inline: auto;
+}
+
+.subject-title {
+  margin: 0 0 0.45rem;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: var(--step-2);
+  font-weight: 800;
+  line-height: 1.15;
+  text-wrap: balance;
 }
 
 .subject-heading > p:last-child {
