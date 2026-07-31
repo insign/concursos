@@ -10,7 +10,10 @@ const subjectId = 'tcema-2026-adm--leitura-tipos-generos';
 const estudadosDocId = `concursos--${alias}--estudados`;
 
 test.beforeEach(async ({ page }) => {
-  await page.addInitScript((value) => localStorage.setItem('concursos:active-alias', value), alias);
+  await page.addInitScript((value) => {
+    localStorage.setItem('concursos:active-alias', value);
+    localStorage.setItem('concursos:catalog-groups', '{"version":1,"collapsed":[]}');
+  }, alias);
 });
 
 test('marks a subject as studied and persists it across reloads', async ({ page }) => {

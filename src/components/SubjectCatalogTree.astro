@@ -11,9 +11,25 @@ interface Props {
 
 const { contest, nodes, depth = 0 } = Astro.props;
 const Heading = `h${Math.min(depth + 2, 6)}` as 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined;
 ---
 
-<ol class="subject-tree" data-depth={depth}>
+{
+  depth === 0 && (
+    <div class="subject-tree-controls print-hidden" data-subject-tree-controls hidden>
+      <button
+        class="button button-secondary"
+        type="button"
+        data-subject-tree-toggle
+        aria-controls={rootTreeId}
+      >
+        Expandir tudo
+      </button>
+    </div>
+  )
+}
+
+<ol class="subject-tree" data-depth={depth} id={rootTreeId}>
   {
     nodes.map((node) =>
       node.kind === 'subject' ? (
@@ -76,40 +92,78 @@ const Heading = `h${Math.min(depth + 2, 6)}` as 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
     serializeCollapsedGroups,
   } from '../lib/catalog-groups';
 
-  const groups = Array.from(
-    document.querySelectorAll<HTMLDetailsElement>('details.subject-group-section[data-group-id]'),
-  );
+  document
+    .querySelectorAll<HTMLElement>('[data-subject-tree-controls]:not([data-subject-tree-ready])')
+    .forEach((controls) => {
+      const button = controls.querySelector<HTMLButtonElement>('[data-subject-tree-toggle]');
+      const treeId = button?.getAttribute('aria-controls');
+      const tree = treeId ? document.getElementById(treeId) : null;
+      const groups = tree
+        ? Array.from(
+            tree.querySelectorAll<HTMLDetailsElement>('details.subject-group-section[data-group-id]'),
+          )
+        : [];
+      if (!button || groups.length === 0) return;
 
-  if (groups.length > 0) {
-    let collapsed = new Set<string>();
-    try {
-      collapsed = parseCollapsedGroups(localStorage.getItem(CATALOG_GROUPS_STORAGE_KEY));
-    } catch {
-      collapsed = new Set();
-    }
-
-    // Restaura o estado salvo antes de registrar os ouvintes de alternância.
-    for (const details of groups) {
-      const id = details.dataset.groupId;
-      if (id) details.open = !collapsed.has(id);
-    }
-
-    const persist = () => {
+      const groupIds = groups.flatMap((details) =>
+        details.dataset.groupId ? [details.dataset.groupId] : [],
+      );
+      let restored: Set<string> | null = null;
       try {
-        localStorage.setItem(CATALOG_GROUPS_STORAGE_KEY, serializeCollapsedGroups(collapsed));
+        restored = parseCollapsedGroups(localStorage.getItem(CATALOG_GROUPS_STORAGE_KEY));
       } catch {
-        // Sem localStorage gravável (modo privado, quota): apenas não persiste.
+        restored = null;
       }
-    };
+      const collapsed = restored ?? new Set(groupIds);
 
-    for (const details of groups) {
-      details.addEventListener('toggle', () => {
+      for (const details of groups) {
         const id = details.dataset.groupId;
-        if (!id) return;
-        if (details.open) collapsed.delete(id);
-        else collapsed.add(id);
+        if (id) details.open = !collapsed.has(id);
+      }
+
+      const persist = () => {
+        try {
+          localStorage.setItem(CATALOG_GROUPS_STORAGE_KEY, serializeCollapsedGroups(collapsed));
+        } catch {
+          // Sem localStorage gravável (modo privado, quota): apenas não persiste.
+        }
+      };
+
+      const renderControl = () => {
+        button.textContent = groups.every((details) => details.open)
+          ? 'Recolher tudo'
+          : 'Expandir tudo';
+      };
+
+      for (const details of groups) {
+        details.addEventListener('toggle', () => {
+          const id = details.dataset.groupId;
+          if (!id) return;
+          const shouldCollapse = !details.open;
+          if (collapsed.has(id) === shouldCollapse) {
+            renderControl();
+            return;
+          }
+          if (shouldCollapse) collapsed.add(id);
+          else collapsed.delete(id);
+          persist();
+          renderControl();
+        });
+      }
+
+      button.addEventListener('click', () => {
+        const expand = !groups.every((details) => details.open);
+        for (const id of groupIds) {
+          if (expand) collapsed.delete(id);
+          else collapsed.add(id);
+        }
+        for (const details of groups) details.open = expand;
         persist();
+        renderControl();
       });
-    }
-  }
+
+      renderControl();
+      controls.hidden = false;
+      controls.dataset.subjectTreeReady = '';
+    });
 </script>

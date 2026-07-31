@@ -43,6 +43,7 @@ test('shows and repairs materialized progress without exposing on-submit score',
   await expect(page.getByText('Resposta salva localmente')).toBeVisible();
 
   await page.goto('/concursos/concurso-exemplo/');
+  await page.getByRole('button', { name: 'Expandir tudo' }).click();
   const progressBadge = page.locator('[data-progress-summary]');
   await expect(progressBadge).toHaveText('1/12');
   // O rótulo completo é exposto como nome acessível computado (role="img" + aria-label),
