@@ -3,7 +3,6 @@ import {
   acquireSyncLease,
   releaseSyncLease,
   renewSyncLease,
-  SyncLeaseLostError,
   whenLocalWritesSettled,
 } from './offline-db';
 import {
@@ -73,15 +72,30 @@ function announceNavigation(profileId: string, failures: number, remoteVersion: 
   );
 }
 
-function announceError(error: unknown): void {
+function announceStatus(
+  state: 'syncing' | 'synced' | 'error',
+  message: string,
+  profileId: string,
+  source: 'simulados' | 'navigation',
+): void {
   if (typeof window === 'undefined') return;
   window.dispatchEvent(
     new CustomEvent('concursos:sync-status', {
-      detail: {
-        state: 'error',
-        message: error instanceof Error ? error.message : 'Falha ao sincronizar o perfil',
-      },
+      detail: { state, message, profileId, source },
     }),
+  );
+}
+
+function announceError(
+  error: unknown,
+  profileId: string,
+  source: 'simulados' | 'navigation',
+): void {
+  announceStatus(
+    'error',
+    error instanceof Error ? error.message : 'Falha ao sincronizar o perfil',
+    profileId,
+    source,
   );
 }
 
@@ -137,28 +151,57 @@ function remoteNavigationCount(preflight: NavigationPreflight): number {
 }
 
 async function runSimuladosSync(profileId: string): Promise<boolean> {
+  announceStatus('syncing', 'Sincronizando simulados...', profileId, 'simulados');
   try {
     const result = await withSimuladosLease((hooks) => synchronizePendingSimulados(profileId, hooks));
     announceSimulados(profileId, result.failures);
+    announceStatus(
+      result.failures === 0 ? 'synced' : 'error',
+      result.failures === 0
+        ? 'Simulados sincronizados.'
+        : `${result.failures} operação(ões) de simulados continuam pendentes.`,
+      profileId,
+      'simulados',
+    );
     return result.failures === 0;
   } catch (error) {
-    if (!(error instanceof SyncLeaseLostError)) announceError(error);
+    announceError(error, profileId, 'simulados');
     return false;
   }
 }
 
 async function runExtendedSync(profileId: string): Promise<boolean> {
+  announceStatus('syncing', 'Sincronizando simulados e navegação...', profileId, 'simulados');
+  let activeSource: 'simulados' | 'navigation' = 'simulados';
   try {
     const result = await withSimuladosLease(async (hooks) => {
       const simulados = await synchronizePendingSimulados(profileId, hooks);
       announceSimulados(profileId, simulados.failures);
+      announceStatus(
+        simulados.failures === 0 ? 'synced' : 'error',
+        simulados.failures === 0
+          ? 'Simulados sincronizados.'
+          : `${simulados.failures} operação(ões) de simulados continuam pendentes.`,
+        profileId,
+        'simulados',
+      );
+      activeSource = 'navigation';
+      announceStatus('syncing', 'Sincronizando posição de leitura...', profileId, 'navigation');
       const navigation = await synchronizeNavigation(profileId, hooks);
       return { simulados, navigation };
     });
     announceNavigation(profileId, result.navigation.failures, result.navigation.remoteVersion);
+    announceStatus(
+      result.navigation.failures === 0 ? 'synced' : 'error',
+      result.navigation.failures === 0
+        ? 'Posição de leitura sincronizada.'
+        : `${result.navigation.failures} operação(ões) de navegação continuam pendentes.`,
+      profileId,
+      'navigation',
+    );
     return result.simulados.failures === 0 && result.navigation.failures === 0;
   } catch (error) {
-    if (!(error instanceof SyncLeaseLostError)) announceError(error);
+    announceError(error, profileId, activeSource);
     return false;
   }
 }
@@ -189,12 +232,21 @@ export async function requestNavigationProfileSync(
 ): Promise<boolean> {
   if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) return false;
   return enqueue(async () => {
+    announceStatus('syncing', 'Sincronizando posição de leitura...', profileId, 'navigation');
     try {
       const result = await withSimuladosLease((hooks) => synchronizeNavigation(profileId, hooks));
       announceNavigation(profileId, result.failures, result.remoteVersion);
+      announceStatus(
+        result.failures === 0 ? 'synced' : 'error',
+        result.failures === 0
+          ? 'Posição de leitura sincronizada.'
+          : `${result.failures} operação(ões) de navegação continuam pendentes.`,
+        profileId,
+        'navigation',
+      );
       return result.failures === 0;
     } catch (error) {
-      if (!(error instanceof SyncLeaseLostError)) announceError(error);
+      announceError(error, profileId, 'navigation');
       return false;
     }
   });

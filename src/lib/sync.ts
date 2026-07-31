@@ -166,9 +166,16 @@ function enqueue<T>(operation: () => Promise<T>): Promise<T> {
   return queued;
 }
 
-function announce(state: 'offline' | 'syncing' | 'synced' | 'error', message: string): void {
+function announce(
+  state: 'offline' | 'syncing' | 'synced' | 'error',
+  message: string,
+  profileId?: string | null,
+  source = 'sync',
+): void {
   if (typeof window === 'undefined') return;
-  window.dispatchEvent(new CustomEvent('concursos:sync-status', { detail: { state, message } }));
+  window.dispatchEvent(
+    new CustomEvent('concursos:sync-status', { detail: { state, message, profileId, source } }),
+  );
 }
 
 function announceAnswer(documentId: string): void {
@@ -969,7 +976,7 @@ export function synchronizeAnswerDocument(
         if (error instanceof NewerQuestionSetRevisionError) {
           announceUnsupportedAnswerRevision(documentId);
         }
-        announce('error', error instanceof Error ? error.message : 'Falha de sincronização');
+        announce('error', error instanceof Error ? error.message : 'Falha de sincronização', profileId, 'answers');
         await markAnswerSyncError(
           documentId,
           error instanceof Error ? error.message : 'Falha de sincronização',
@@ -993,7 +1000,7 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
 
   const operation = enqueue(() =>
     runWithLease(async (ensureLease) => {
-      announce('syncing', 'Sincronizando alterações pendentes...');
+      announce('syncing', 'Sincronizando alterações pendentes...', profileId);
       let failures = 0;
       let preferenceSyncFailed = false;
       const preferencesRecord = await getSharedDocumentRecord('preferences', profileId);
@@ -1220,6 +1227,7 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
       announce(
         failures === 0 ? 'synced' : 'error',
         failures === 0 ? 'Alterações sincronizadas.' : `${failures} documento(s) continuam pendentes.`,
+        profileId,
       );
     }),
   );
@@ -1231,14 +1239,15 @@ export function syncPendingProfile(profileId: string): Promise<boolean> {
 }
 
 export function requestProfileSync(profileId = getActiveAlias()): Promise<boolean> {
-  if (!profileId || typeof navigator === 'undefined' || !navigator.onLine) {
-    announce('offline', 'Sem conexão. As alterações permanecem salvas localmente.');
+  if (!profileId) return Promise.resolve(false);
+  if (typeof navigator === 'undefined' || !navigator.onLine) {
+    announce('offline', 'Sem conexão. As alterações permanecem salvas localmente.', profileId);
     scheduleBackgroundSync();
     return Promise.resolve(false);
   }
   broadcast?.postMessage({ type: 'sync-request', profileId });
   return syncPendingProfile(profileId).catch((error) => {
-    announce('error', error instanceof Error ? error.message : 'Falha de sincronização');
+    announce('error', error instanceof Error ? error.message : 'Falha de sincronização', profileId);
     scheduleBackgroundSync();
     return false;
   });
@@ -1253,7 +1262,11 @@ export function startSyncCoordinator(): void {
     broadcast.addEventListener('message', (event) => {
       if (event.data?.type === 'sync-request' && typeof event.data.profileId === 'string') {
         void syncPendingProfile(event.data.profileId).catch((error) => {
-          announce('error', error instanceof Error ? error.message : 'Falha de sincronização');
+          announce(
+            'error',
+            error instanceof Error ? error.message : 'Falha de sincronização',
+            event.data.profileId,
+          );
         });
       } else if (
         event.data?.type === 'answer-revision-unsupported' &&
