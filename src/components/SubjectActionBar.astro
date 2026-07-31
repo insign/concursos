@@ -1,18 +1,38 @@
 ---
 import StudiedToggle from './StudiedToggle.astro';
+import ReadingCustomizer from './ReadingCustomizer.astro';
 
 interface Props {
   contestSlug: string;
   contestStorageId: string;
   subjectStorageId: string;
+  subjectHref: string;
   active: 'content' | 'cheat-sheet' | 'questions';
 }
 
-const { contestSlug, contestStorageId, subjectStorageId, active } = Astro.props;
+const { contestSlug, contestStorageId, subjectStorageId, subjectHref, active } = Astro.props;
 ---
 
 <div class="subject-action-bar print-hidden" data-subject-action-bar role="group" aria-label="Ações do assunto">
   <StudiedToggle contestStorageId={contestStorageId} subjectStorageId={subjectStorageId} />
+  {
+    active === 'content' && (
+      <div class="subject-action-reading" data-subject-action-reading>
+        <ReadingCustomizer />
+        <a
+          class="subject-action-control subject-action-focus-close"
+          href={subjectHref}
+          data-reading-focus-close
+        >
+          <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12" />
+            <path d="M18 6 6 18" />
+          </svg>
+          <span class="subject-action-label">Fechar leitura</span>
+        </a>
+      </div>
+    )
+  }
   <div class="subject-action-normal" data-subject-action-normal>
     <a class="subject-action-control subject-action-back" href={`/concursos/${contestSlug}/`}>
       <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -68,9 +88,7 @@ const { contestSlug, contestStorageId, subjectStorageId, active } = Astro.props;
       bar.dataset.subjectActionVisibility = state.visibility;
     };
     const isProtected = () =>
-      bar.matches(':focus-within') ||
-      document.body.classList.contains('reading-focus-active') ||
-      location.hash === '#focus';
+      bar.matches(':focus-within');
     const reset = () => {
       state = resetSubjectActionVisibility(window.scrollY, maxScrollY());
       render();

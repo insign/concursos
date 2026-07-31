@@ -15,7 +15,21 @@ test('offers compact accessible header controls without horizontal overflow', as
   await expect(settings).toHaveAttribute('href', '/configuracoes/');
   await expect(theme).toHaveAccessibleName(/Tema automático/);
   await expect(status).toHaveAttribute('data-state', 'idle');
-  await expect(page.getByRole('navigation', { name: 'Navegação principal' })).toBeVisible();
+  const navigation = page.getByRole('navigation', { name: 'Navegação principal' });
+  await expect(navigation).toBeVisible();
+
+  const headerGeometry = async () => page.evaluate(() => {
+    const mark = document.querySelector<HTMLElement>('.site-mark')!.getBoundingClientRect();
+    const nav = document.querySelector<HTMLElement>('.site-header nav')!.getBoundingClientRect();
+    const controls = document.querySelector<HTMLElement>('.pwa-controls')!.getBoundingClientRect();
+    const centers = [mark, nav, controls].map((rect) => rect.top + rect.height / 2);
+    return {
+      sameLine: Math.max(...centers) - Math.min(...centers) < 1,
+      ordered: mark.right <= nav.left && nav.right <= controls.left,
+      navFits: document.querySelector<HTMLElement>('.site-header nav')!.scrollWidth <= nav.width,
+    };
+  });
+  expect(await headerGeometry()).toEqual({ sameLine: true, ordered: true, navFits: true });
 
   for (const control of [settings, theme, status]) {
     const box = await control.boundingBox();
@@ -27,9 +41,14 @@ test('offers compact accessible header controls without horizontal overflow', as
   await page.evaluate(() => {
     const installEvent = new Event('beforeinstallprompt', { cancelable: true });
     Object.defineProperties(installEvent, {
-      prompt: { value: async () => undefined },
+      prompt: {
+        value: async () => {
+          (window as typeof window & { headerInstallPrompts: number }).headerInstallPrompts += 1;
+        },
+      },
       userChoice: { value: Promise.resolve({ outcome: 'dismissed' }) },
     });
+    (window as typeof window & { headerInstallPrompts: number }).headerInstallPrompts = 0;
     window.dispatchEvent(installEvent);
     window.dispatchEvent(new CustomEvent('concursos:sync-status', {
       detail: {
@@ -39,8 +58,19 @@ test('offers compact accessible header controls without horizontal overflow', as
       },
     }));
   });
-  await expect(page.getByRole('button', { name: 'Instalar aplicativo' })).toBeVisible();
+  const install = page.getByRole('button', { name: 'Instalar aplicativo' });
+  await expect(install).toBeVisible();
   await expect(status.getByRole('button', { name: 'Tentar novamente' })).toBeVisible();
+  const mobileFlyouts = await page.evaluate(() => {
+    const installRect = document.querySelector<HTMLElement>('[data-pwa-install]')!.getBoundingClientRect();
+    const detailsRect = document.querySelector<HTMLElement>('.application-status-details')!.getBoundingClientRect();
+    return { separate: installRect.bottom <= detailsRect.top || detailsRect.bottom <= installRect.top };
+  });
+  expect(mobileFlyouts.separate).toBe(true);
+  await install.click();
+  await expect.poll(() => page.evaluate(() =>
+    (window as typeof window & { headerInstallPrompts: number }).headerInstallPrompts)).toBe(1);
+  expect((await headerGeometry()).sameLine).toBe(true);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 

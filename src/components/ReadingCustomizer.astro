@@ -15,13 +15,20 @@ const d = DEFAULT_READING_PREFERENCES;
 <div class="reading-customizer print-hidden" data-reading-customizer>
   <button
     type="button"
-    class="reading-customizer-toggle"
+    class="reading-customizer-toggle subject-action-control"
     data-reading-toggle
     aria-expanded="false"
     aria-controls="reading-customizer-panel"
   >
-    <span aria-hidden="true">Aa</span>
-    <span>Ajustes de leitura</span>
+    <svg class="subject-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 7h10" />
+      <path d="M18 7h2" />
+      <circle cx="16" cy="7" r="2" />
+      <path d="M4 17h2" />
+      <path d="M10 17h10" />
+      <circle cx="8" cy="17" r="2" />
+    </svg>
+    <span class="subject-action-label">Ajustes de leitura</span>
   </button>
 
   <div class="reading-customizer-panel" id="reading-customizer-panel" role="group" aria-label="Ajustes de leitura" hidden>

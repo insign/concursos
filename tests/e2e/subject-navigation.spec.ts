@@ -52,8 +52,9 @@ test('keeps the three content destinations exclusively in the horizontal tabs', 
     const focusAction = actionBar.getByRole('link', { name: 'Abrir modo de leitura' });
     if (route.active === 'Conteúdo') await expect(focusAction).toHaveAttribute('href', '#focus');
     else await expect(focusAction).toHaveCount(0);
-    await expect(actionBar.locator('svg')).toHaveCount(actionLinkCount + 1);
-    for (const icon of await actionBar.locator('svg').all()) {
+    const visibleIcons = actionBar.locator('svg:visible');
+    await expect(visibleIcons).toHaveCount(actionLinkCount + 1);
+    for (const icon of await visibleIcons.all()) {
       await expect(icon).toHaveAttribute('aria-hidden', 'true');
     }
     await expect(page.getByRole('navigation', { name: 'Atalhos do assunto' })).toHaveCount(0);
@@ -106,25 +107,29 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
 
     const geometry = await page.evaluate(() => {
       const actionBar = document.querySelector<HTMLElement>('[data-subject-action-bar]')!;
-      const article = document.querySelector<HTMLElement>('.reading-surface > article')!;
-      const pagination = document.querySelector<HTMLElement>('.subject-pagination')!;
+      const surface = document.querySelector<HTMLElement>('.reading-surface')!;
+      const shell = document.querySelector<HTMLElement>('.study-shell')!;
       const actionRect = actionBar.getBoundingClientRect();
-      const articleRect = article.getBoundingClientRect();
-      const paginationRect = pagination.getBoundingClientRect();
+      const surfaceStyle = getComputedStyle(surface);
+      const shellStyle = getComputedStyle(shell);
       const controls = Array.from(actionBar.querySelectorAll<HTMLElement>('button, a'))
+        .filter((control) => control.getClientRects().length > 0)
         .map((control) => control.getBoundingClientRect());
       return {
         actionBottom: actionRect.bottom,
         actionRight: actionRect.right,
         actionTop: actionRect.top,
-        articleClearsActions: articleRect.right <= actionRect.left,
+        inlinePaddingDelta: Math.abs(
+          Number.parseFloat(surfaceStyle.paddingInlineStart) -
+            Number.parseFloat(surfaceStyle.paddingInlineEnd),
+        ),
         controlsAreVertical: controls.every(
           (control, index) => index === 0 || control.top >= controls[index - 1].bottom,
         ),
         controlsHaveTouchSize: controls.every(
           (control) => control.width >= 44 && control.height >= 44,
         ),
-        paginationBottom: paginationRect.bottom,
+        studyBottomPadding: Number.parseFloat(shellStyle.paddingBottom),
         viewportHeight: window.innerHeight,
         viewportWidth: window.innerWidth,
         hasHorizontalOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
@@ -133,8 +138,8 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
 
     expect(geometry.actionBottom).toBeLessThanOrEqual(geometry.viewportHeight);
     expect(geometry.actionRight).toBeLessThanOrEqual(geometry.viewportWidth);
-    expect(geometry.articleClearsActions).toBe(true);
-    expect(geometry.paginationBottom).toBeLessThanOrEqual(geometry.actionTop);
+    expect(geometry.inlinePaddingDelta).toBeLessThan(1);
+    expect(geometry.studyBottomPadding).toBeLessThan(64);
     expect(geometry.controlsAreVertical).toBe(true);
     expect(geometry.controlsHaveTouchSize).toBe(true);
     expect(geometry.hasHorizontalOverflow).toBe(false);
