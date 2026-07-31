@@ -11,12 +11,30 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('customizes the integrated reading mode without changing the normal page', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 360 });
   await page.goto(`/concursos/${contest}/${subjectSlug}/`);
   const focus = page.locator('[data-reading-focus]');
   await expect(focus).not.toHaveAttribute('style', /--reading-/);
 
   await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect(page.getByRole('button', { name: 'Ajustes de leitura' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Ajustes de leitura' }).locator('svg')).toBeVisible();
   await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  const panelGeometry = await page.locator('.reading-customizer-panel').evaluate((element) => {
+    const rect = element.getBoundingClientRect();
+    return {
+      bottom: rect.bottom,
+      left: rect.left,
+      right: rect.right,
+      top: rect.top,
+      viewportHeight: window.innerHeight,
+      viewportWidth: window.innerWidth,
+    };
+  });
+  expect(panelGeometry.left).toBeGreaterThanOrEqual(0);
+  expect(panelGeometry.right).toBeLessThanOrEqual(panelGeometry.viewportWidth);
+  expect(panelGeometry.top).toBeGreaterThanOrEqual(0);
+  expect(panelGeometry.bottom).toBeLessThanOrEqual(panelGeometry.viewportHeight);
   await page.getByRole('button', { name: 'Inter (sem serifa)', exact: true }).click();
   await expect(focus).toHaveAttribute('style', /--reading-font:.*Inter/);
 

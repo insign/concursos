@@ -16,7 +16,7 @@ test('opens reading mode from the catalog listing', async ({ page }) => {
 test('opens the integrated reading mode with one content tree and closes through history', async ({ page }) => {
   await page.goto(`${base}/`);
   const open = page.getByRole('link', { name: 'Ler sem distrações' });
-  await expect(page.locator('.reading-focus-bar')).toBeHidden();
+  await expect(page.locator('[data-subject-action-reading]')).toBeHidden();
   await open.click();
   await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
 
@@ -37,16 +37,46 @@ test('opens the integrated reading mode with one content tree and closes through
   await expect(page.getByRole('link', { name: 'Voltar para o concurso' })).toBeHidden();
   await expect(page.getByRole('link', { name: 'Voltar ao topo' })).toBeHidden();
   await expect(page.getByRole('link', { name: 'Abrir modo de leitura' })).toBeHidden();
+  await expect(page.locator('[data-subject-action-reading]')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Ajustes de leitura' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Fechar leitura' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Ajustes de leitura' }).locator('svg')).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Fechar leitura' }).locator('svg')).toBeVisible();
   await expect(page.locator('[data-studied-toggle]')).toBeVisible();
+  await expect(focus).toBeFocused();
+  await page.keyboard.press('Shift+Tab');
+  await expect(page.getByRole('link', { name: 'Fechar leitura' })).toBeFocused();
+  await focus.focus();
+
+  const focusGeometry = await page.evaluate(() => {
+    const focusRoot = document.querySelector<HTMLElement>('[data-reading-focus]')!;
+    const surface = document.querySelector<HTMLElement>('.reading-surface')!;
+    const actionBar = document.querySelector<HTMLElement>('[data-subject-action-bar]')!;
+    const surfaceStyle = getComputedStyle(surface);
+    return {
+      actionPosition: getComputedStyle(actionBar).position,
+      focusBottomPadding: Number.parseFloat(getComputedStyle(focusRoot).paddingBottom),
+      inlinePaddingDelta: Math.abs(
+        Number.parseFloat(surfaceStyle.paddingInlineStart) -
+          Number.parseFloat(surfaceStyle.paddingInlineEnd),
+      ),
+    };
+  });
+  expect(focusGeometry).toEqual({ actionPosition: 'fixed', focusBottomPadding: 16, inlinePaddingDelta: 0 });
+
   await page.evaluate(() => {
     document.documentElement.style.scrollBehavior = 'auto';
     window.scrollTo(0, 240);
   });
   await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
     'data-subject-action-visibility',
+    'hidden',
+  );
+  await page.evaluate(() => window.scrollTo(0, 200));
+  await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
+    'data-subject-action-visibility',
     'visible',
   );
-  await expect(page.getByRole('link', { name: 'Fechar leitura' })).toBeFocused();
   await page.locator('[data-navigation-offer]').evaluate((element: HTMLElement) => {
     element.hidden = false;
   });
@@ -137,6 +167,7 @@ test('keeps integrated reading mode usable without JavaScript', async ({ browser
   );
   await page.mouse.wheel(0, 2_000);
   await expect(page.locator('[data-subject-action-bar]')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Ajustes de leitura' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Fechar leitura' })).toHaveAttribute('href', `${base}/`);
   await context.close();
 });

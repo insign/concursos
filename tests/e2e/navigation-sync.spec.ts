@@ -9,6 +9,17 @@ const legacyReadingRoute = `${readingRoute}leitura/`;
 const questionsRoute = '/concursos/concurso-exemplo/assunto-exemplo/questoes/';
 const timestamp = '2026-07-25T00:00:00.000Z';
 
+async function revealReadingActions(page: Page): Promise<void> {
+  await page.evaluate(() => new Promise<void>((resolve) => {
+    window.scrollBy(0, -40);
+    requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+  }));
+  await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
+    'data-subject-action-visibility',
+    'visible',
+  );
+}
+
 function remoteNavigation(
   route: string,
   contextOverrides: Record<string, unknown> = {},
@@ -268,6 +279,7 @@ test('offers a newer remote point without forcing navigation during an active se
     })
     .toBe(true);
   await expect(resume).toBeHidden();
+  await revealReadingActions(page);
   await page.getByRole('link', { name: 'Fechar leitura' }).click();
   await expect(resume).toBeVisible({ timeout: 30_000 });
   await expect(page).toHaveURL(new RegExp(`${readingRoute.replaceAll('/', '\\/')}$`));
@@ -316,6 +328,7 @@ test('publishes the local point when the user chooses to continue here', async (
     })
     .toBe(true);
   await expect(stay).toBeHidden();
+  await revealReadingActions(page);
   await page.getByRole('link', { name: 'Fechar leitura' }).click();
   await expect(stay).toBeVisible({ timeout: 30_000 });
   await stay.click();

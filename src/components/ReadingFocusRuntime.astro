@@ -117,7 +117,7 @@
       window.dispatchEvent(new CustomEvent('concursos:reading-focus-change', { detail: { active: next } }));
 
       requestAnimationFrame(() => {
-        if (next) close.focus({ preventScroll: true });
+        if (next) root.focus({ preventScroll: true });
         else (opener?.isConnected ? opener : defaultOpener).focus({ preventScroll: true });
       });
       if (!next && previousScrollRestoration !== null) {
@@ -199,7 +199,12 @@
 
       const first = focusable[0];
       const last = focusable.at(-1) ?? first;
-      if (event.shiftKey && (document.activeElement === first || !root.contains(document.activeElement))) {
+      if (
+        event.shiftKey &&
+        (document.activeElement === root ||
+          document.activeElement === first ||
+          !root.contains(document.activeElement))
+      ) {
         event.preventDefault();
         last.focus();
       } else if (!event.shiftKey && document.activeElement === last) {
