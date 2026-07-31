@@ -51,6 +51,8 @@ Na aba de questões, o contexto visível é a âncora principal. O runtime aguar
 
 Na primeira entrada da sessão, a retomada automática ocorre uma única vez e somente quando a aba entra pela rota raiz `/`. Deep links e toda navegação explícita prevalecem e não são substituídos. Quando o destino exige redirecionamento, uma autorização de rota pendente é consumida uma única vez no destino para restaurar o contexto e a rolagem.
 
+O redirecionamento automático empilha o destino no histórico em vez de substituir a entrada da raiz. Voltar depois da retomada devolve o usuário ao catálogo, e não para fora do site nem para uma pilha vazia na PWA; como a retomada já foi consumida na sessão, `/` permanece carregado.
+
 Reload, voltar/avançar, Service Worker, reconexão, foco e visibilidade não reaplicam a restauração automática. Depois que a sessão está ativa, uma versão remota mais nova nunca sequestra a navegação: aparece um aviso com **Retomar ponto mais recente** e **Continuar aqui**. O botão **Retomar ponto mais recente** continua sendo a ação explícita para adotar um ponto remoto; **Continuar aqui** força a persistência do ponto local antes da sincronização.
 
 ## Eventos e frequência
