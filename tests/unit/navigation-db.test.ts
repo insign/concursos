@@ -19,14 +19,14 @@ const context: NavigationContext = {
   groupId: 'portugues',
   subjectStorageId: 'interpretacao-textos',
   questionId: null,
-  activeTab: 'reading',
+  activeTab: 'content',
   readingMode: true,
   questionOrigin: null,
   questionLayout: null,
   shuffleQuestions: null,
 };
 
-function makeDocument(route = '/concursos/tce-ma-2026/interpretacao-textos/leitura/') {
+function makeDocument(route = '/concursos/tce-ma-2026/interpretacao-textos/') {
   return createNavigationDocument(route, context, null, new Date('2026-07-25T00:00:00.000Z'));
 }
 
@@ -44,6 +44,21 @@ describe('navigation local outbox', () => {
     expect(record.localRevision).toBe(1);
     expect(record.outboxState).toBe('pending');
     expect(await hasPendingNavigation(profileId)).toBe(true);
+  });
+
+  it('normalizes a legacy local reading record when loading it', async () => {
+    await saveNavigationDocument(
+      profileId,
+      createNavigationDocument(
+        '/concursos/tce-ma-2026/interpretacao-textos/leitura/',
+        { ...context, activeTab: 'reading' },
+        null,
+      ),
+    );
+
+    const record = await getNavigationRecord(profileId);
+    expect(record?.current.route).toBe('/concursos/tce-ma-2026/interpretacao-textos/');
+    expect(record?.current.context).toMatchObject({ activeTab: 'content', readingMode: true });
   });
 
   it('marks the synchronized snapshot as clean', async () => {

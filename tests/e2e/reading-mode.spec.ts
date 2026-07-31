@@ -5,28 +5,10 @@ const subjectSlug = 'leitura-interpretacao-tipos-generos';
 const base = `${contestPath}${subjectSlug}`;
 const readingTitle = 'Leitura, compreensão e interpretação de textos';
 
-test('renders the reading route with minimal, distraction-free chrome', async ({ page }) => {
-  await page.goto(`${base}/leitura/`);
-
-  // Sem cabeçalho, abas, breadcrumbs ou barra fixa de ações.
-  await expect(page.locator('.site-header')).toHaveCount(0);
-  await expect(page.locator('nav[aria-label="Modos de estudo do assunto"]')).toHaveCount(0);
-  await expect(page.locator('.breadcrumbs')).toHaveCount(0);
-  await expect(page.locator('[data-subject-action-bar]')).toHaveCount(0);
-
-  // Título e conteúdo presentes, mais o controle de saída.
-  await expect(page.getByRole('heading', { level: 1, name: readingTitle })).toBeVisible();
-  await expect(page.locator('.reading-surface article')).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Sair da leitura' })).toHaveAttribute(
-    'href',
-    `${base}/`,
-  );
-});
-
 test('opens reading mode from the catalog listing', async ({ page }) => {
   await page.goto(contestPath);
   await page.getByRole('link', { name: `Ler ${readingTitle} sem distrações` }).click();
-  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/leitura/$`));
+  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
   await expect(page.getByRole('heading', { level: 1, name: readingTitle })).toBeVisible();
 });
 
@@ -127,24 +109,6 @@ test('keeps integrated reading mode usable without JavaScript', async ({ browser
   await context.close();
 });
 
-test('keeps the reading route readable without JavaScript', async ({ browser }) => {
-  const context = await browser.newContext({
-    baseURL: 'http://127.0.0.1:4321',
-    javaScriptEnabled: false,
-  });
-  const page = await context.newPage();
-  await page.goto(`${base}/leitura/`);
-
-  await expect(page.getByRole('heading', { level: 1, name: readingTitle })).toBeVisible();
-  await expect(page.locator('.reading-surface article')).toBeVisible();
-  // Sem JS, sair continua sendo um link real para a página do assunto.
-  await expect(page.getByRole('link', { name: 'Sair da leitura' })).toHaveAttribute(
-    'href',
-    `${base}/`,
-  );
-  await context.close();
-});
-
 test('applies the selected theme in reading mode', async ({ page }) => {
   await page.addInitScript(([key, value]) => {
     try {
@@ -154,27 +118,27 @@ test('applies the selected theme in reading mode', async ({ page }) => {
     }
   }, ['concursos:theme', 'dark']);
 
-  await page.goto(`${base}/leitura/`);
+  await page.goto(`${base}/#focus`);
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
 });
 
 test('injects the subject title as the sole h1 when the content has no leading h1', async ({ page }) => {
-  // Assunto cujo conteúdo começa com h2 (showTitle=true): o layout injeta o título.
+  // Assunto cujo conteúdo começa com h2: a página canônica injeta o título.
   const h2FirstSlug = 'assinaturas-certificacao-digital';
   const h2FirstTitle = 'Assinaturas eletrônicas, assinatura digital e certificação digital';
-  await page.goto(`${contestPath}${h2FirstSlug}/leitura/`);
+  await page.goto(`${contestPath}${h2FirstSlug}/#focus`);
 
   const headings = page.getByRole('heading', { level: 1 });
   await expect(headings).toHaveCount(1);
   await expect(headings).toHaveText(h2FirstTitle);
 });
 
-test('exits with Escape via the direct-navigation fallback (no in-app history)', async ({ page }) => {
-  // Aberto diretamente (referrer vazio, sem histórico do site) -> Esc usa
-  // location.assign para a página do assunto, e não history.back().
-  await page.goto(`${base}/leitura/`);
-  await page.waitForLoadState('load');
+test('redirects the legacy reading URL permanently to the canonical #focus destination', async ({ page, request }) => {
+  const response = await request.get(`${base}/leitura/`, { maxRedirects: 0 });
+  expect(response.status()).toBe(301);
+  expect(response.headers()['location']).toMatch(new RegExp(`${subjectSlug}/#focus$`));
 
-  await page.keyboard.press('Escape');
-  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/$`));
+  await page.goto(`${base}/leitura/`);
+  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
+  await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
 });

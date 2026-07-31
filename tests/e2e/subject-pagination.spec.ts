@@ -53,21 +53,16 @@ test('navigation crosses group boundaries following the global order', async ({ 
   await expect(page).toHaveURL(new RegExp(`/${crossTo}/$`));
 });
 
-test('keeps previous/next inside reading mode, pointing to adjacent reading routes', async ({ page }) => {
-  await page.goto(`${base}/${secondSlug}/leitura/`);
+test('keeps canonical pagination outside focus without legacy reading links', async ({ page }) => {
+  await page.goto(`${base}/${secondSlug}/#focus`);
   const nav = pagination(page);
 
-  // O anterior aponta para a rota /leitura/ do vizinho (preserva o modo de leitura).
+  await expect(nav).toBeHidden();
   await expect(nav.locator('a[rel="prev"]')).toHaveAttribute(
     'href',
-    `${base}/${firstSlug}/leitura/`,
+    `${base}/${firstSlug}/`,
   );
-  // Distinto do controle de sair, que também está presente.
-  await expect(page.getByRole('link', { name: 'Sair da leitura' })).toBeVisible();
-
-  // Seguir "próximo" permanece no modo de leitura.
-  await nav.locator('a[rel="next"]').click();
-  await expect(page).toHaveURL(/\/leitura\/$/);
+  await expect(nav.locator('a[href*="/leitura/"]')).toHaveCount(0);
 });
 
 test('exposes clear accessible names for the pagination controls', async ({ page }) => {

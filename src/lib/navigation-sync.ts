@@ -11,6 +11,7 @@ import {
 } from './navigation-db';
 import {
   navigationDocumentSchema,
+  normalizeNavigationDocument,
   resolveNavigationVersionAction,
   type NavigationDocument,
 } from './navigation';
@@ -87,7 +88,7 @@ async function parseRemoteNavigation(
 
   rejectedRemoteByProfile.delete(profileId);
   return {
-    document: parsed.data,
+    document: normalizeNavigationDocument(parsed.data),
     version: envelope.version,
     createdAt: envelope.created_at,
   };

@@ -3,7 +3,9 @@ import type { Page } from '@playwright/test';
 
 const alias = 'navegacao-2026-teste';
 const navigationDocumentId = `concursos--${alias}--navegacao`;
-const readingRoute = '/concursos/concurso-exemplo/assunto-exemplo/leitura/';
+const readingRoute = '/concursos/concurso-exemplo/assunto-exemplo/';
+const readingDestination = `${readingRoute}#focus`;
+const legacyReadingRoute = `${readingRoute}leitura/`;
 const questionsRoute = '/concursos/concurso-exemplo/assunto-exemplo/questoes/';
 const timestamp = '2026-07-25T00:00:00.000Z';
 
@@ -12,6 +14,7 @@ function remoteNavigation(
   contextOverrides: Record<string, unknown> = {},
   documentOverrides: Record<string, unknown> = {},
 ) {
+  const readingMode = contextOverrides.readingMode ?? route.includes('/leitura/');
   return {
     schemaVersion: 1,
     updatedAt: timestamp,
@@ -21,14 +24,14 @@ function remoteNavigation(
       groupId: 'grupo-exemplo',
       subjectStorageId: 'assunto-exemplo',
       questionId: null,
-      activeTab: route.includes('/questoes/') ? 'questions' : 'reading',
-      readingMode: route.includes('/leitura/'),
+      activeTab: route.includes('/questoes/') ? 'questions' : 'content',
+      readingMode,
       questionOrigin: route.includes('/questoes/') ? 'previous_exam' : null,
       questionLayout: route.includes('/questoes/') ? 'ten' : null,
       shuffleQuestions: route.includes('/questoes/') ? false : null,
       ...contextOverrides,
     },
-    readingPosition: route.includes('/leitura/')
+    readingPosition: readingMode
       ? {
           contentVersion: 'conteudos/concurso-exemplo/assunto-exemplo',
           sectionId: 'inicio',
@@ -71,20 +74,55 @@ test('publishes a semantic reading position without Authorization', async ({ pag
   });
 
   await page.setViewportSize({ width: 390, height: 720 });
-  await page.goto(readingRoute);
+  await page.goto(readingDestination);
   await page.evaluate(() => window.scrollTo(0, Math.max(300, window.document.documentElement.scrollHeight * 0.45)));
 
   await expect.poll(() => kvStore.get(navigationDocumentId)?.json, { timeout: 30_000 }).toBeTruthy();
   const savedDocument = kvStore.get(navigationDocumentId)?.json as {
     route: string;
+    context: { activeTab: string; readingMode: boolean };
     readingPosition: { blockIndex: number; relativeOffset: number; textQuote: string; progress: number } | null;
   };
   expect(savedDocument.route).toBe(readingRoute);
+  expect(savedDocument.context).toMatchObject({ activeTab: 'content', readingMode: true });
   expect(savedDocument.readingPosition).not.toBeNull();
   expect(savedDocument.readingPosition?.blockIndex).toBeGreaterThanOrEqual(0);
   expect(savedDocument.readingPosition?.relativeOffset).toBeGreaterThanOrEqual(0);
   expect(savedDocument.readingPosition?.progress).toBeGreaterThanOrEqual(0);
   expect(authorizationHeaders).toEqual([]);
+});
+
+test('normalizes a legacy remote reading route and resumes through #focus', async ({ page, kvStore }) => {
+  kvStore.set(navigationDocumentId, {
+    version: 6,
+    createdAt: timestamp,
+    json: remoteNavigation(legacyReadingRoute, { activeTab: 'reading', readingMode: true }),
+  });
+
+  await page.goto('/');
+  await expect(page).toHaveURL(new RegExp('/concursos/concurso-exemplo/assunto-exemplo/#focus$'), {
+    timeout: 30_000,
+  });
+  await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
+});
+
+test('publishes a direct #focus deep link over an existing normal record', async ({ page, kvStore }) => {
+  kvStore.set(navigationDocumentId, {
+    version: 2,
+    createdAt: timestamp,
+    json: remoteNavigation(readingRoute, { activeTab: 'content', readingMode: false }),
+  });
+
+  await page.goto(readingDestination);
+  await expect
+    .poll(
+      () =>
+        (kvStore.get(navigationDocumentId)?.json as { context?: { readingMode?: boolean } } | undefined)
+          ?.context?.readingMode,
+      { timeout: 30_000 },
+    )
+    .toBe(true);
+  expect(kvStore.get(navigationDocumentId)?.version ?? 0).toBeGreaterThan(2);
 });
 
 test('restores route and questionnaire context on another viewport', async ({ page, kvStore }) => {
@@ -137,7 +175,7 @@ test('loads all questions until the saved question and keeps it in view', async 
 });
 
 test('offers a newer remote point without forcing navigation during an active session', async ({ page, kvStore }) => {
-  await page.goto(readingRoute);
+  await page.goto(readingDestination);
   await expect.poll(() => kvStore.get(navigationDocumentId)?.version, { timeout: 30_000 }).toBeTruthy();
   const currentVersion = kvStore.get(navigationDocumentId)?.version ?? 0;
 
@@ -156,8 +194,16 @@ test('offers a newer remote point without forcing navigation during an active se
     }),
   });
 
+  await page.waitForTimeout(13_000);
   await page.evaluate(() => window.dispatchEvent(new Event('focus')));
   const resume = page.getByRole('button', { name: 'Retomar ponto mais recente' });
+  await expect
+    .poll(() => page.locator('[data-navigation-offer]').evaluate((element: HTMLElement) => !element.hidden), {
+      timeout: 30_000,
+    })
+    .toBe(true);
+  await expect(resume).toBeHidden();
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
   await expect(resume).toBeVisible({ timeout: 30_000 });
   await expect(page).toHaveURL(new RegExp(`${readingRoute.replaceAll('/', '\\/')}$`));
 
@@ -166,7 +212,7 @@ test('offers a newer remote point without forcing navigation during an active se
 });
 
 test('publishes the local point when the user chooses to continue here', async ({ page, kvStore }) => {
-  await page.goto(readingRoute);
+  await page.goto(readingDestination);
   await page.evaluate(() =>
     window.scrollTo(0, Math.max(500, window.document.documentElement.scrollHeight * 0.7)),
   );
@@ -196,8 +242,16 @@ test('publishes the local point when the user chooses to continue here', async (
     }),
   });
 
+  await page.waitForTimeout(13_000);
   await page.evaluate(() => window.dispatchEvent(new Event('focus')));
   const stay = page.getByRole('button', { name: 'Continuar aqui' });
+  await expect
+    .poll(() => page.locator('[data-navigation-offer]').evaluate((element: HTMLElement) => !element.hidden), {
+      timeout: 30_000,
+    })
+    .toBe(true);
+  await expect(stay).toBeHidden();
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
   await expect(stay).toBeVisible({ timeout: 30_000 });
   await stay.click();
 

@@ -13,7 +13,9 @@ export const getStaticPaths = getSubjectStaticPaths;
 
 const { contest, subject } = Astro.props;
 const { Content } = await render(subject.contentEntry);
-const hasMermaid = subject.contentEntry.body?.includes('```mermaid') ?? false;
+const body = subject.contentEntry.body ?? '';
+const hasMermaid = body.includes('```mermaid');
+const contentHasH1 = /^\s*#\s/.test(body);
 ---
 
 <StudyLayout contest={contest} subject={subject} active="content">
@@ -23,6 +25,7 @@ const hasMermaid = subject.contentEntry.body?.includes('```mermaid') ?? false;
     </a>
   </div>
   <article>
+    {!contentHasH1 && <h1 class="reading-title">{subject.title}</h1>}
     <Content />
   </article>
   {hasMermaid && <MermaidRuntime />}

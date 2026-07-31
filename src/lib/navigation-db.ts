@@ -1,5 +1,5 @@
 import { deleteDB, openDB, type DBSchema, type IDBPDatabase } from 'idb';
-import type { NavigationDocument } from './navigation';
+import { normalizeNavigationDocument, type NavigationDocument } from './navigation';
 
 export const NAVIGATION_DB_NAME = 'concursos-navigation';
 const NAVIGATION_DB_VERSION = 1;
@@ -51,13 +51,29 @@ export function openNavigationDb(): Promise<IDBPDatabase<NavigationDbSchema>> {
 }
 
 export async function getNavigationRecord(profileId: string): Promise<LocalNavigationRecord | undefined> {
-  return (await openNavigationDb()).get('navigation', profileId);
+  const record = await (await openNavigationDb()).get('navigation', profileId);
+  if (!record) return undefined;
+  return {
+    ...record,
+    current: normalizeNavigationDocument(record.current),
+    base: record.base ? normalizeNavigationDocument(record.base) : null,
+  };
 }
 
 export function saveNavigationDocument(
   profileId: string,
   document: NavigationDocument,
-): Promise<LocalNavigationRecord> {
+): Promise<LocalNavigationRecord>;
+export function saveNavigationDocument(
+  profileId: string,
+  document: NavigationDocument,
+  canCommit: () => boolean,
+): Promise<LocalNavigationRecord | undefined>;
+export function saveNavigationDocument(
+  profileId: string,
+  document: NavigationDocument,
+  canCommit?: () => boolean,
+): Promise<LocalNavigationRecord | undefined> {
   const write = (async () => {
     const database = await openNavigationDb();
     const transaction = database.transaction('navigation', 'readwrite');
@@ -65,7 +81,7 @@ export function saveNavigationDocument(
     const record: LocalNavigationRecord = {
       profileId,
       current: document,
-      base: existing?.base ?? null,
+      base: existing?.base ? normalizeNavigationDocument(existing.base) : null,
       remoteVersion: existing?.remoteVersion ?? null,
       remoteCreatedAt: existing?.remoteCreatedAt ?? null,
       outboxState: 'pending',
@@ -78,6 +94,10 @@ export function saveNavigationDocument(
       localRevision: (existing?.localRevision ?? 0) + 1,
       updatedAt: Date.now(),
     };
+    if (canCommit && !canCommit()) {
+      await transaction.done;
+      return undefined;
+    }
     await transaction.store.put(record);
     await transaction.done;
     return record;
@@ -111,10 +131,11 @@ export function markNavigationSynced(input: MarkNavigationSyncedInput): Promise<
       return;
     }
 
+    const synchronizedDocument = normalizeNavigationDocument(input.synchronizedDocument);
     await transaction.store.put({
       profileId: input.profileId,
-      current: changedDuringRequest ? existing.current : input.synchronizedDocument,
-      base: input.synchronizedDocument,
+      current: changedDuringRequest ? normalizeNavigationDocument(existing.current) : synchronizedDocument,
+      base: synchronizedDocument,
       remoteVersion: input.remoteVersion,
       remoteCreatedAt: input.remoteCreatedAt,
       outboxState: changedDuringRequest ? 'pending' : 'clean',
@@ -210,7 +231,7 @@ export function discardPendingNavigation(profileId: string): Promise<void> {
       } else {
         await transaction.store.put({
           ...existing,
-          current: existing.base,
+          current: normalizeNavigationDocument(existing.base),
           outboxState: 'clean',
           attempts: 0,
           nextAttemptAt: null,

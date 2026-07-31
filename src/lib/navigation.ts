@@ -111,6 +111,37 @@ export const navigationDocumentSchema = z
 
 export type NavigationDocument = z.infer<typeof navigationDocumentSchema>;
 
+const LEGACY_READING_ROUTE = /^(\/concursos\/[^/]+\/[^/]+)\/leitura\/$/;
+const CANONICAL_SUBJECT_ROUTE = /^\/concursos\/[^/]+\/[^/]+\/$/;
+
+export function normalizeNavigationDocument(document: NavigationDocument): NavigationDocument {
+  const parsed = new URL(document.route, 'https://concursos.invalid');
+  const legacyMatch = parsed.pathname.match(LEGACY_READING_ROUTE);
+  const hasLegacyContext =
+    document.context.activeTab === 'reading' &&
+    document.context.readingMode &&
+    CANONICAL_SUBJECT_ROUTE.test(parsed.pathname);
+  const isLegacyReading = Boolean(legacyMatch) || hasLegacyContext;
+  const incompatibleReadingMode =
+    document.context.readingMode && document.context.activeTab !== 'content' && !isLegacyReading;
+  if (!isLegacyReading && !incompatibleReadingMode) return document;
+
+  const route = legacyMatch ? `${legacyMatch[1]}/${parsed.search}` : document.route;
+  return navigationDocumentSchema.parse({
+    ...document,
+    route,
+    context: {
+      ...document.context,
+      activeTab: isLegacyReading ? 'content' : document.context.activeTab,
+      readingMode: isLegacyReading,
+    },
+  });
+}
+
+export function navigationDestination(document: NavigationDocument): string {
+  return `${document.route}${document.context.readingMode && document.context.activeTab === 'content' ? '#focus' : ''}`;
+}
+
 export const navigationCatalogEntrySchema = z
   .object({
     route: navigationRouteSchema,

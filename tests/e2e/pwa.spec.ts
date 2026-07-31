@@ -75,6 +75,9 @@ test('downloads and removes an atomic contest package without caching KV', async
   }, cacheState.mermaidAsset!);
   expect(offlineMermaidResponse).toMatchObject({ ok: true, status: 200 });
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/');
+  await page.goto('/concursos/concurso-exemplo/assunto-exemplo/#focus');
+  await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
   const offlineImage = page.getByRole('img', { name: 'Ciclo de planejamento, execução, avaliação e correção.' });
   await expect(offlineImage).toBeVisible();
   await expect.poll(() => offlineImage.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);

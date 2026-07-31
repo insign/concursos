@@ -586,10 +586,7 @@ a.subject-reading-link:hover {
   font-weight: 800;
 }
 
-/* Modo de leitura sem distrações (#101): rota dedicada e estado #focus integrado. */
-.reading-shell {
-  padding-block: 1rem 5rem;
-}
+/* Modo de leitura sem distrações (#101): estado #focus integrado. */
 
 .reading-focus .reading-focus-bar {
   display: none;
@@ -672,7 +669,6 @@ a.reading-exit:hover {
 /* Esquemas de cor de leitura (#103): presets isolados que redefinem os tokens
    semânticos apenas dentro do modo de leitura, garantindo contraste adequado
    independentemente do tema global. 'auto' não define nada e segue o tema. */
-.reading-shell[data-reading-scheme='claro'],
 .reading-focus:is(:target, [data-reading-focus-active])[data-reading-scheme='claro'] {
   color-scheme: light;
   --ink: #1b2a26;
@@ -686,7 +682,6 @@ a.reading-exit:hover {
   --field-bg: #fff;
 }
 
-.reading-shell[data-reading-scheme='sepia'],
 .reading-focus:is(:target, [data-reading-focus-active])[data-reading-scheme='sepia'] {
   color-scheme: light;
   --ink: #43341f;
@@ -700,7 +695,6 @@ a.reading-exit:hover {
   --field-bg: #fbf4e4;
 }
 
-.reading-shell[data-reading-scheme='cinza'],
 .reading-focus:is(:target, [data-reading-focus-active])[data-reading-scheme='cinza'] {
   color-scheme: dark;
   --ink: #e8edef;
@@ -714,7 +708,6 @@ a.reading-exit:hover {
   --field-bg: #2b3033;
 }
 
-.reading-shell[data-reading-scheme='escuro'],
 .reading-focus:is(:target, [data-reading-focus-active])[data-reading-scheme='escuro'] {
   color-scheme: dark;
   --ink: #e7ece8;

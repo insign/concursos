@@ -5,7 +5,7 @@ const contest = 'tce-ma-2026-analista-administracao';
 const subject = 'leitura-interpretacao-tipos-generos';
 const base = `/concursos/${contest}/${subject}`;
 const studiedDocumentId = `concursos--${alias}--estudados`;
-const routes = [`${base}/`, `${base}/cheat-sheet/`, `${base}/questoes/`, `${base}/leitura/`];
+const routes = [`${base}/`, `${base}/cheat-sheet/`, `${base}/questoes/`];
 
 const suggestion = (page: import('@playwright/test').Page) =>
   page.getByRole('link', { name: 'Próximo assunto sugerido' });
@@ -73,7 +73,7 @@ test('keeps a deterministic static link without JavaScript', async ({ browser })
   });
   const page = await context.newPage();
 
-  for (const route of [`${base}/cheat-sheet/`, `${base}/leitura/`]) {
+  for (const route of [`${base}/`, `${base}/cheat-sheet/`]) {
     await page.goto(route);
     await expect(suggestion(page)).toBeVisible();
     await expect(suggestion(page)).toHaveAttribute(

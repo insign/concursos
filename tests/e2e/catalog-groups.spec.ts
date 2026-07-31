@@ -76,6 +76,10 @@ test('renders each subject as a compact item with only the title (issue #99)', a
     'href',
     '/concursos/concurso-exemplo/assunto-exemplo/',
   );
+  await expect(card.getByRole('link', { name: `Ler ${exampleSubject} sem distrações` })).toHaveAttribute(
+    'href',
+    '/concursos/concurso-exemplo/assunto-exemplo/#focus',
+  );
 
   // Sem alias/progresso, o item exibe exclusivamente o título como texto VISÍVEL
   // (badge de progresso e indicador de estudado ocultos; sem descrição).

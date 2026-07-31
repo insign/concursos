@@ -156,7 +156,7 @@ const d = DEFAULT_READING_PREFERENCES;
   import { requestProfileSync } from '../lib/sync';
 
   const root = document.querySelector<HTMLElement>('[data-reading-customizer]');
-  const shell = root?.closest<HTMLElement>('[data-reading-focus], .reading-shell') ?? null;
+  const shell = root?.closest<HTMLElement>('[data-reading-focus]') ?? null;
   const focusShell = shell?.matches('[data-reading-focus]') ? shell : null;
   const toggle = root?.querySelector<HTMLButtonElement>('[data-reading-toggle]') ?? null;
   const panel = root?.querySelector<HTMLElement>('#reading-customizer-panel') ?? null;
@@ -322,10 +322,6 @@ const d = DEFAULT_READING_PREFERENCES;
     if (!alias) root.querySelector<HTMLElement>('[data-reading-hint]')?.removeAttribute('hidden');
 
     void reloadFromStore();
-    // A rota dedicada não monta o Header e precisa iniciar a sincronização. Na página principal,
-    // o coordenador global já faz isso; este componente apenas adota os eventos publicados por ele.
-    if (alias && !focusShell) void requestProfileSync(alias);
-
     window.addEventListener('concursos:sync-status', (event) => {
       const state = (event as CustomEvent<{ state?: string }>).detail?.state;
       // Só recarrega quando não há edição local pendente, para não descartar um ajuste ainda
