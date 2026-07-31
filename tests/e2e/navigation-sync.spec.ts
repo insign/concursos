@@ -92,6 +92,71 @@ test('publishes a semantic reading position without Authorization', async ({ pag
   expect(authorizationHeaders).toEqual([]);
 });
 
+test('flushes pre-ready navigation before a PWA-controlled reload', async ({ page }) => {
+  await page.addInitScript(() => {
+    const loads = Number(sessionStorage.getItem('test:navigation-loads') ?? '0');
+    sessionStorage.setItem('test:navigation-loads', String(loads + 1));
+  });
+  let releaseBootstrap: () => void = () => undefined;
+  const bootstrapReleased = new Promise<void>((resolve) => {
+    releaseBootstrap = resolve;
+  });
+  let markBootstrapStarted: () => void = () => undefined;
+  const bootstrapStarted = new Promise<void>((resolve) => {
+    markBootstrapStarted = resolve;
+  });
+  await page.route('https://kv.helio.me/**', async (route) => {
+    if (
+      route.request().method() === 'GET' &&
+      route.request().url().replace(/\/version$/, '').endsWith(navigationDocumentId)
+    ) {
+      markBootstrapStarted();
+      await bootstrapReleased;
+    }
+    await route.fallback();
+  });
+
+  await page.setViewportSize({ width: 390, height: 720 });
+  await page.goto(readingDestination);
+  await bootstrapStarted;
+  await expect(page.locator('[data-application-status]')).toHaveAttribute('data-source', 'pwa');
+  await page.evaluate(() => {
+    window.scrollTo(0, Math.max(300, document.documentElement.scrollHeight * 0.55));
+    window.dispatchEvent(new Event('scroll'));
+    window.dispatchEvent(new CustomEvent('concursos:pwa-retry'));
+  });
+
+  await page.waitForTimeout(150);
+  expect(await page.evaluate(() => sessionStorage.getItem('test:navigation-loads'))).toBe('1');
+  releaseBootstrap();
+  await expect
+    .poll(() => page.evaluate(() => Number(sessionStorage.getItem('test:navigation-loads'))), {
+      timeout: 15_000,
+    })
+    .toBe(2);
+
+  const progress = await page.evaluate(
+    (profileId) =>
+      new Promise<number | null>((resolve, reject) => {
+        const request = indexedDB.open('concursos-navigation', 1);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const database = request.result;
+          const transaction = database.transaction('navigation', 'readonly');
+          const get = transaction.objectStore('navigation').get(profileId);
+          get.onerror = () => reject(get.error);
+          get.onsuccess = () => {
+            resolve(get.result?.current?.readingPosition?.progress ?? null);
+            database.close();
+          };
+        };
+      }),
+    alias,
+  );
+  expect(progress).not.toBeNull();
+  expect(progress ?? 0).toBeGreaterThan(0.1);
+});
+
 test('normalizes a legacy remote reading route and resumes through #focus', async ({ page, kvStore }) => {
   kvStore.set(navigationDocumentId, {
     version: 6,

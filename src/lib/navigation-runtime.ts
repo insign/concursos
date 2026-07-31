@@ -1,4 +1,8 @@
 import { getActiveAlias } from './identity';
+import {
+  markLocalStatePending,
+  registerLocalStateFlusher,
+} from './local-durability';
 import { getNavigationRecord, saveNavigationDocument } from './navigation-db';
 import {
   createNavigationDocument,
@@ -22,6 +26,7 @@ const CAPTURE_DEBOUNCE_MS = 800;
 const RESTORE_CAPTURE_SUPPRESSION_MS = 3_000;
 const PERIODIC_SYNC_MS = 30_000;
 const INITIAL_AUTOMATIC_SYNC_DELAY_MS = 12_000;
+const NAVIGATION_CATALOG_TIMEOUT_MS = 8_000;
 const NAVIGATION_TABS = new Set<NavigationContext['activeTab']>([
   'catalog',
   'content',
@@ -56,9 +61,18 @@ function currentDestination(): string {
 }
 
 async function loadNavigationCatalog(): Promise<NavigationCatalog> {
-  const response = await fetch('/navigation-catalog.json', { cache: 'no-store' });
-  if (!response.ok) throw new Error(`Não foi possível carregar o catálogo de navegação: ${response.status}`);
-  return navigationCatalogSchema.parse(await response.json());
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), NAVIGATION_CATALOG_TIMEOUT_MS);
+  try {
+    const response = await fetch('/navigation-catalog.json', {
+      cache: 'no-store',
+      signal: controller.signal,
+    });
+    if (!response.ok) throw new Error(`Não foi possível carregar o catálogo de navegação: ${response.status}`);
+    return navigationCatalogSchema.parse(await response.json());
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 function catalogEntryForRoute(
@@ -349,7 +363,17 @@ export function startNavigationRuntime(): void {
   const catalogPromise = loadNavigationCatalog().catch(() => null);
   let ready = false;
   let captureTimer: ReturnType<typeof setTimeout> | undefined;
+  const pendingCaptures = new Set<Promise<void>>();
   let runningSync: Promise<boolean> | null = null;
+  let runningRestore: Promise<void> | null = null;
+  let initialization: Promise<void> | null = null;
+  let navigationRedirectPending = false;
+  let navigationRevision = 0;
+
+  const markNavigationPending = () => {
+    navigationRevision += 1;
+    markLocalStatePending();
+  };
   let offered: NavigationDocument | null = null;
   let lastFingerprint: string | null = null;
   let lastRemoteVersion: number | null = null;
@@ -420,7 +444,21 @@ export function startNavigationRuntime(): void {
     }
   };
 
+  const runSaveCurrent = (
+    requestSync = true,
+    forcePersist = false,
+    ignoreSuppression = false,
+    trackActivity = true,
+  ): Promise<void> => {
+    if (trackActivity) markNavigationPending();
+    const capture = saveCurrent(requestSync, forcePersist, ignoreSuppression);
+    pendingCaptures.add(capture);
+    void capture.finally(() => pendingCaptures.delete(capture)).catch(() => undefined);
+    return capture;
+  };
+
   const scheduleCapture = (delay = CAPTURE_DEBOUNCE_MS) => {
+    markNavigationPending();
     if (!ready || offered) return;
     if (captureTimer) clearTimeout(captureTimer);
     const run = () => {
@@ -438,7 +476,7 @@ export function startNavigationRuntime(): void {
       captureTimer = undefined;
       suppressedCaptureRequested = false;
       semanticCaptureRequested = false;
-      void saveCurrent();
+      void runSaveCurrent();
     };
     const remainingSuppression = Math.max(0, suppressCaptureUntil - Date.now());
     suppressedCaptureRequested ||= remainingSuppression > 0;
@@ -456,6 +494,49 @@ export function startNavigationRuntime(): void {
       if (suppressedCaptureRequested) scheduleCapture(0);
     }
   };
+
+  const runRestoreCurrentDocument = (document: NavigationDocument): Promise<void> => {
+    markNavigationPending();
+    const restore = restoreCurrentDocument(document);
+    runningRestore = restore;
+    void restore.finally(() => {
+      if (runningRestore === restore) runningRestore = null;
+    }).catch(() => undefined);
+    return restore;
+  };
+
+  registerLocalStateFlusher(async () => {
+    if (initialization) await initialization;
+    while (true) {
+      if (navigationRedirectPending) {
+        throw new Error('Atualização adiada durante a navegação para o ponto de leitura salvo.');
+      }
+      const revision = navigationRevision;
+      if (runningRestore) await runningRestore;
+      if (navigationRedirectPending) {
+        throw new Error('Atualização adiada durante a navegação para o ponto de leitura salvo.');
+      }
+      const captures = [...pendingCaptures];
+      if (captures.length > 0) await Promise.all(captures);
+      if (navigationRedirectPending) {
+        throw new Error('Atualização adiada durante a navegação para o ponto de leitura salvo.');
+      }
+      if (captureTimer) clearTimeout(captureTimer);
+      captureTimer = undefined;
+      suppressedCaptureRequested = false;
+      semanticCaptureRequested = false;
+      await runSaveCurrent(false, false, true, false);
+      if (navigationRedirectPending) {
+        throw new Error('Atualização adiada durante a navegação para o ponto de leitura salvo.');
+      }
+      if (
+        navigationRevision === revision &&
+        runningRestore === null &&
+        captureTimer === undefined &&
+        pendingCaptures.size === 0
+      ) return;
+    }
+  });
 
   const synchronize = (force = false): Promise<boolean> => {
     if (!ready || !navigator.onLine || (!force && Date.now() < automaticSyncAfter)) {
@@ -509,20 +590,22 @@ export function startNavigationRuntime(): void {
       lastFingerprint = navigationFingerprint(document);
       if (document.route !== currentRoute()) {
         sessionStorage.setItem(pendingRouteKey, document.route);
+        navigationRedirectPending = true;
+        markNavigationPending();
         location.assign(destination);
         return;
       }
       location.assign(destination);
-      void restoreCurrentDocument(document);
+      void runRestoreCurrentDocument(document);
       return;
     }
     lastFingerprint = navigationFingerprint(document);
-    void restoreCurrentDocument(document);
+    void runRestoreCurrentDocument(document);
   });
 
   offerUi?.stay.addEventListener('click', () => {
     hideOffer();
-    void saveCurrent(true, true).then(() => synchronize(true));
+    void runSaveCurrent(true, true).then(() => synchronize(true));
   });
 
   window.addEventListener('scroll', () => scheduleCapture(), { passive: true });
@@ -570,16 +653,16 @@ export function startNavigationRuntime(): void {
       captureTimer = undefined;
       suppressedCaptureRequested = false;
       semanticCaptureRequested = false;
-      void saveCurrent(false, true, true);
+      void runSaveCurrent(false, true, true);
       return;
     }
     explicitNavigation = true;
-    void saveCurrent(false);
+    void runSaveCurrent(false);
   });
   window.addEventListener('online', () => void synchronize().then(inspectRemoteChange));
   window.addEventListener('focus', () => void synchronize().then(inspectRemoteChange));
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') void saveCurrent(false);
+    if (document.visibilityState === 'hidden') void runSaveCurrent(false);
     else void synchronize().then(inspectRemoteChange);
   });
   window.addEventListener('concursos:navigation-synced', () => void inspectRemoteChange());
@@ -591,10 +674,10 @@ export function startNavigationRuntime(): void {
 
   window.setInterval(() => {
     if (document.visibilityState !== 'visible') return;
-    void saveCurrent().then(() => synchronize()).then(inspectRemoteChange);
+    void runSaveCurrent().then(() => synchronize()).then(inspectRemoteChange);
   }, PERIODIC_SYNC_MS);
 
-  void (async () => {
+  initialization = (async () => {
     const catalog = await catalogPromise;
     if (navigator.onLine) {
       try {
@@ -613,6 +696,8 @@ export function startNavigationRuntime(): void {
       record.current.route !== currentRoute()
     ) {
       sessionStorage.setItem(pendingRouteKey, record.current.route);
+      navigationRedirectPending = true;
+      markNavigationPending();
       location.replace(navigationDestination(record.current));
       return;
     }
@@ -627,17 +712,18 @@ export function startNavigationRuntime(): void {
         target &&
         record.current.route === currentRoute()
       ) {
-        await restoreCurrentDocument(record.current);
+        await runRestoreCurrentDocument(record.current);
       }
     }
     ready = true;
     if (!record || !target) {
-      await saveCurrent(false);
+      await runSaveCurrent(false);
       window.setTimeout(() => void synchronize(), INITIAL_AUTOMATIC_SYNC_DELAY_MS + 100);
     } else {
-      await saveCurrent();
+      await runSaveCurrent();
     }
   })().catch(() => {
     ready = true;
   });
+  void initialization;
 }

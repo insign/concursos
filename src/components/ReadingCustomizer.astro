@@ -144,6 +144,10 @@ const d = DEFAULT_READING_PREFERENCES;
 <script>
   import { getActiveAlias } from '../lib/identity';
   import {
+    markLocalStatePending,
+    registerLocalStateFlusher,
+  } from '../lib/local-durability';
+  import {
     clampReadingPreferences,
     DEFAULT_READING_PREFERENCES,
     fontStackFor,
@@ -214,38 +218,55 @@ const d = DEFAULT_READING_PREFERENCES;
 
     // Persistência com debounce por campo: aplica na hora, grava/sincroniza depois.
     let persistTimer: ReturnType<typeof setTimeout> | undefined;
-    let inFlightWrites = 0;
     const pendingFields = new Set<ReadingPreferenceField>();
+    const pendingWrites = new Set<Promise<void>>();
     // Verdadeiro enquanto houver edição local ainda não durável (debounce agendado ou gravação
     // em voo). Um reload dirigido por sync NÃO pode sobrescrever `current` nessa janela, senão
     // o valor antigo do IndexedDB reverteria o ajuste e o debounce pendente o persistiria de volta.
     const hasLocalPending = () =>
-      pendingFields.size > 0 || persistTimer !== undefined || inFlightWrites > 0;
+      pendingFields.size > 0 || persistTimer !== undefined || pendingWrites.size > 0;
+
+    const persistPending = (): Promise<void> | null => {
+      if (!alias || pendingFields.size === 0) return null;
+      const fields = [...pendingFields];
+      pendingFields.clear();
+      const snapshot = current;
+      const write = saveReadingPreferences(alias, snapshot, fields);
+      pendingWrites.add(write);
+      void write.then(
+        () => {
+          pendingWrites.delete(write);
+          void requestProfileSync(alias);
+        },
+        () => {
+          pendingWrites.delete(write);
+          // Falha ao gravar localmente: reverte ao estado durável, exceto se já houver nova edição.
+          if (!hasLocalPending()) void reloadFromStore();
+        },
+      );
+      return write;
+    };
+
     const persist = (field: ReadingPreferenceField) => {
       if (!alias) return;
+      markLocalStatePending();
       pendingFields.add(field);
       if (persistTimer) clearTimeout(persistTimer);
       persistTimer = setTimeout(() => {
         persistTimer = undefined;
-        const fields = [...pendingFields];
-        pendingFields.clear();
-        const snapshot = current;
-        inFlightWrites += 1;
-        // .then(onOk, onErr): exatamente um dos ramos roda, então inFlightWrites decrementa uma vez
-        // só (um .catch encadeado também capturaria uma exceção do onOk e decrementaria em dobro).
-        void saveReadingPreferences(alias, snapshot, fields).then(
-          () => {
-            inFlightWrites -= 1;
-            void requestProfileSync(alias);
-          },
-          () => {
-            inFlightWrites -= 1;
-            // Falha ao gravar localmente: reverte ao estado durável, exceto se já houver nova edição.
-            if (!hasLocalPending()) void reloadFromStore();
-          },
-        );
+        void persistPending();
       }, 400);
     };
+
+    registerLocalStateFlusher(async () => {
+      while (persistTimer !== undefined || pendingFields.size > 0 || pendingWrites.size > 0) {
+        if (persistTimer) clearTimeout(persistTimer);
+        persistTimer = undefined;
+        void persistPending();
+        const writes = [...pendingWrites];
+        if (writes.length > 0) await Promise.all(writes);
+      }
+    });
 
     const PERSISTABLE_FIELDS: ReadingPreferenceField[] = [
       'fontFamily',

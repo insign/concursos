@@ -81,6 +81,27 @@ test('personalizes typography and persists it across reloads', async ({ page, kv
     .toBe('24px');
 });
 
+test('flushes a pending customization before a PWA-controlled reload', async ({ page }) => {
+  await page.goto(readingUrl);
+  const status = page.locator('[data-application-status]');
+  await expect(status).toHaveAttribute('data-source', 'pwa');
+
+  await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  await page.locator('#reading-font-size').evaluate((element: HTMLInputElement) => {
+    element.value = '25';
+    element.dispatchEvent(new Event('input', { bubbles: true }));
+  });
+
+  await Promise.all([
+    page.waitForEvent('load'),
+    page.evaluate(() => window.dispatchEvent(new CustomEvent('concursos:pwa-retry'))),
+  ]);
+  await expect
+    .poll(() => page.locator('[data-reading-focus]').evaluate((element) =>
+      getComputedStyle(element).getPropertyValue('--reading-size')))
+    .toBe('25px');
+});
+
 test('applies a color-scheme preset and keeps it after reload', async ({ page, kvStore }) => {
   await page.goto(readingUrl);
   await page.waitForLoadState('load');

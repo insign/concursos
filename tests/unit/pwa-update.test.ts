@@ -1,11 +1,58 @@
 import { describe, expect, it, vi } from 'vitest';
 import {
+  markLocalStatePending,
+  registerLocalStateFlusher,
+} from '../../src/lib/local-durability';
+import {
   createPwaUpdateController,
   runAfterLocalWritesSettled,
   type PwaStatusDetail,
 } from '../../src/lib/pwa-update';
 
 describe('PWA updates', () => {
+  it('flushes debounced local state before activating a waiting worker', async () => {
+    let releaseFlush: () => void = () => undefined;
+    const pendingFlush = new Promise<void>((resolve) => {
+      releaseFlush = resolve;
+    });
+    const flush = vi.fn(() => pendingFlush);
+    const unregister = registerLocalStateFlusher(flush);
+    const activate = vi.fn();
+    const controller = createPwaUpdateController({ activate, reload: vi.fn(), emit: vi.fn() });
+
+    try {
+      const update = controller.requestActivation();
+      await Promise.resolve();
+      expect(flush).toHaveBeenCalledOnce();
+      expect(activate).not.toHaveBeenCalled();
+
+      releaseFlush();
+      await update;
+      expect(flush).toHaveBeenCalledTimes(2);
+      expect(activate).toHaveBeenCalledOnce();
+    } finally {
+      unregister();
+    }
+  });
+
+  it('repeats the two-phase barrier until local activity is quiescent', async () => {
+    let calls = 0;
+    const unregister = registerLocalStateFlusher(() => {
+      calls += 1;
+      if (calls === 1) markLocalStatePending();
+    });
+    const activate = vi.fn();
+    const controller = createPwaUpdateController({ activate, reload: vi.fn(), emit: vi.fn() });
+
+    try {
+      await controller.requestActivation();
+      expect(calls).toBe(4);
+      expect(activate).toHaveBeenCalledOnce();
+    } finally {
+      unregister();
+    }
+  });
+
   it('waits for local writes before activating a waiting worker', async () => {
     let releaseWrites: () => void = () => undefined;
     const writesSettled = new Promise<void>((resolve) => {

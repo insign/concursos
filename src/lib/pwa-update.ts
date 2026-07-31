@@ -1,8 +1,19 @@
+import {
+  flushPendingLocalState,
+  getLocalStateRevision,
+} from './local-durability';
 import { whenNavigationWritesSettled } from './navigation-db';
 import { whenLocalWritesSettled } from './offline-db';
 
 async function whenAllLocalWritesSettled(): Promise<void> {
-  await Promise.all([whenLocalWritesSettled(), whenNavigationWritesSettled()]);
+  while (true) {
+    const revision = getLocalStateRevision();
+    await flushPendingLocalState();
+    await Promise.all([whenLocalWritesSettled(), whenNavigationWritesSettled()]);
+    await flushPendingLocalState();
+    await Promise.all([whenLocalWritesSettled(), whenNavigationWritesSettled()]);
+    if (getLocalStateRevision() === revision) return;
+  }
 }
 
 export async function runAfterLocalWritesSettled(
