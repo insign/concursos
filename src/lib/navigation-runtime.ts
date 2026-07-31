@@ -1,8 +1,13 @@
 import { getActiveAlias } from './identity';
+import {
+  markLocalStatePending,
+  registerLocalStateFlusher,
+} from './local-durability';
 import { getNavigationRecord, saveNavigationDocument } from './navigation-db';
 import {
   createNavigationDocument,
   navigationCatalogSchema,
+  navigationDestination,
   navigationFingerprint,
   normalizeTextQuote,
   type NavigationCatalog,
@@ -18,8 +23,10 @@ const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
 const SESSION_PREFIX = 'concursos:navigation-restored:';
 const PENDING_ROUTE_SUFFIX = ':pending-route';
 const CAPTURE_DEBOUNCE_MS = 800;
+const RESTORE_CAPTURE_SUPPRESSION_MS = 3_000;
 const PERIODIC_SYNC_MS = 30_000;
 const INITIAL_AUTOMATIC_SYNC_DELAY_MS = 12_000;
+const NAVIGATION_CATALOG_TIMEOUT_MS = 8_000;
 const NAVIGATION_TABS = new Set<NavigationContext['activeTab']>([
   'catalog',
   'content',
@@ -49,10 +56,23 @@ function currentRoute(): string {
   return `${location.pathname}${location.search}`;
 }
 
+function currentDestination(): string {
+  return `${currentRoute()}${location.hash === '#focus' ? '#focus' : ''}`;
+}
+
 async function loadNavigationCatalog(): Promise<NavigationCatalog> {
-  const response = await fetch('/navigation-catalog.json', { cache: 'no-store' });
-  if (!response.ok) throw new Error(`Não foi possível carregar o catálogo de navegação: ${response.status}`);
-  return navigationCatalogSchema.parse(await response.json());
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), NAVIGATION_CATALOG_TIMEOUT_MS);
+  try {
+    const response = await fetch('/navigation-catalog.json', {
+      cache: 'no-store',
+      signal: controller.signal,
+    });
+    if (!response.ok) throw new Error(`Não foi possível carregar o catálogo de navegação: ${response.status}`);
+    return navigationCatalogSchema.parse(await response.json());
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 function catalogEntryForRoute(
@@ -78,7 +98,7 @@ function documentEntryForCurrentRoute(): NavigationCatalogEntry | null {
     contestStorageId: root.dataset.navigationContest ?? null,
     subjectStorageId: root.dataset.navigationSubject ?? null,
     activeTab: tab,
-    readingMode: root.dataset.navigationMode === 'reading',
+    readingMode: tab === 'content' && location.hash === '#focus',
   };
 }
 
@@ -252,7 +272,7 @@ function captureContext(entry: NavigationCatalogEntry): NavigationContext {
     subjectStorageId: root?.dataset.navigationSubject ?? entry.subjectStorageId,
     questionId: tab === 'questions' ? visibleQuestionId() : null,
     activeTab: tab as NavigationContext['activeTab'],
-    readingMode: root?.dataset.navigationMode === 'reading' || entry.readingMode,
+    readingMode: tab === 'content' && location.hash === '#focus',
     questionOrigin: origin === 'all' || origin === 'authorial' || origin === 'previous_exam' ? origin : null,
     questionLayout: layout === 'single' || layout === 'ten' || layout === 'all' ? layout : null,
     shuffleQuestions: shuffle ? shuffle.checked : null,
@@ -343,12 +363,26 @@ export function startNavigationRuntime(): void {
   const catalogPromise = loadNavigationCatalog().catch(() => null);
   let ready = false;
   let captureTimer: ReturnType<typeof setTimeout> | undefined;
+  const pendingCaptures = new Set<Promise<void>>();
   let runningSync: Promise<boolean> | null = null;
+  let runningRestore: Promise<void> | null = null;
+  let initialization: Promise<void> | null = null;
+  let navigationRedirectPending = false;
+  let navigationRevision = 0;
+
+  const markNavigationPending = () => {
+    navigationRevision += 1;
+    markLocalStatePending();
+  };
   let offered: NavigationDocument | null = null;
   let lastFingerprint: string | null = null;
   let lastRemoteVersion: number | null = null;
   let lastRemoteCreatedAt: string | null = null;
   let suppressCaptureUntil = 0;
+  let suppressedCaptureRequested = false;
+  let semanticCaptureRequested = false;
+  let restoreInProgress = false;
+  let captureGeneration = 0;
   let explicitNavigation = false;
   const automaticSyncAfter = Date.now() + INITIAL_AUTOMATIC_SYNC_DELAY_MS;
 
@@ -367,9 +401,15 @@ export function startNavigationRuntime(): void {
     offerUi.root.hidden = false;
   };
 
-  const saveCurrent = async (requestSync = true, forcePersist = false): Promise<void> => {
-    if (!ready || offered || Date.now() < suppressCaptureUntil) return;
+  const saveCurrent = async (
+    requestSync = true,
+    forcePersist = false,
+    ignoreSuppression = false,
+  ): Promise<void> => {
+    if (!ready || offered || (!ignoreSuppression && Date.now() < suppressCaptureUntil)) return;
+    const generation = captureGeneration;
     const catalog = await catalogPromise;
+    if (generation !== captureGeneration || offered) return;
     const entry =
       catalogEntryForRoute(catalog, currentRoute()) ??
       documentEntryForCurrentRoute();
@@ -384,6 +424,7 @@ export function startNavigationRuntime(): void {
     const snapshot = createNavigationDocument(currentRoute(), context, readingPosition);
     const fingerprint = navigationFingerprint(snapshot);
     const record = await getNavigationRecord(profileId);
+    if (generation !== captureGeneration || offered) return;
 
     if (!forcePersist && fingerprint === lastFingerprint) return;
     if (record && fingerprint === navigationFingerprint(record.current)) {
@@ -391,21 +432,111 @@ export function startNavigationRuntime(): void {
       return;
     }
 
-    await saveNavigationDocument(profileId, snapshot);
+    const saved = await saveNavigationDocument(
+      profileId,
+      snapshot,
+      () => generation === captureGeneration && !offered,
+    );
+    if (!saved || generation !== captureGeneration || offered) return;
     lastFingerprint = fingerprint;
     if (requestSync) {
       window.dispatchEvent(new CustomEvent('concursos:navigation-updated', { detail: { profileId } }));
     }
   };
 
-  const scheduleCapture = (delay = CAPTURE_DEBOUNCE_MS) => {
-    if (!ready || offered || Date.now() < suppressCaptureUntil) return;
-    if (captureTimer) clearTimeout(captureTimer);
-    captureTimer = setTimeout(() => {
-      captureTimer = undefined;
-      void saveCurrent();
-    }, delay);
+  const runSaveCurrent = (
+    requestSync = true,
+    forcePersist = false,
+    ignoreSuppression = false,
+    trackActivity = true,
+  ): Promise<void> => {
+    if (trackActivity) markNavigationPending();
+    const capture = saveCurrent(requestSync, forcePersist, ignoreSuppression);
+    pendingCaptures.add(capture);
+    void capture.finally(() => pendingCaptures.delete(capture)).catch(() => undefined);
+    return capture;
   };
+
+  const scheduleCapture = (delay = CAPTURE_DEBOUNCE_MS) => {
+    markNavigationPending();
+    if (!ready || offered) return;
+    if (captureTimer) clearTimeout(captureTimer);
+    const run = () => {
+      if (restoreInProgress) {
+        suppressedCaptureRequested = true;
+        captureTimer = setTimeout(run, 100);
+        return;
+      }
+      const remainingSuppression = suppressCaptureUntil - Date.now();
+      if (remainingSuppression > 0) {
+        suppressedCaptureRequested = true;
+        captureTimer = setTimeout(run, remainingSuppression);
+        return;
+      }
+      captureTimer = undefined;
+      suppressedCaptureRequested = false;
+      semanticCaptureRequested = false;
+      void runSaveCurrent();
+    };
+    const remainingSuppression = Math.max(0, suppressCaptureUntil - Date.now());
+    suppressedCaptureRequested ||= remainingSuppression > 0;
+    captureTimer = setTimeout(run, Math.max(delay, remainingSuppression));
+  };
+
+  const restoreCurrentDocument = async (document: NavigationDocument): Promise<void> => {
+    restoreInProgress = true;
+    suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
+    try {
+      await restoreDocument(document);
+    } finally {
+      restoreInProgress = false;
+      suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
+      if (suppressedCaptureRequested) scheduleCapture(0);
+    }
+  };
+
+  const runRestoreCurrentDocument = (document: NavigationDocument): Promise<void> => {
+    markNavigationPending();
+    const restore = restoreCurrentDocument(document);
+    runningRestore = restore;
+    void restore.finally(() => {
+      if (runningRestore === restore) runningRestore = null;
+    }).catch(() => undefined);
+    return restore;
+  };
+
+  registerLocalStateFlusher(async () => {
+    if (initialization) await initialization;
+    while (true) {
+      if (navigationRedirectPending) {
+        throw new Error('Atualização adiada durante a navegação para o ponto de leitura salvo.');
+      }
+      const revision = navigationRevision;
+      if (runningRestore) await runningRestore;
+      if (navigationRedirectPending) {
+        throw new Error('Atualização adiada durante a navegação para o ponto de leitura salvo.');
+      }
+      const captures = [...pendingCaptures];
+      if (captures.length > 0) await Promise.all(captures);
+      if (navigationRedirectPending) {
+        throw new Error('Atualização adiada durante a navegação para o ponto de leitura salvo.');
+      }
+      if (captureTimer) clearTimeout(captureTimer);
+      captureTimer = undefined;
+      suppressedCaptureRequested = false;
+      semanticCaptureRequested = false;
+      await runSaveCurrent(false, false, true, false);
+      if (navigationRedirectPending) {
+        throw new Error('Atualização adiada durante a navegação para o ponto de leitura salvo.');
+      }
+      if (
+        navigationRevision === revision &&
+        runningRestore === null &&
+        captureTimer === undefined &&
+        pendingCaptures.size === 0
+      ) return;
+    }
+  });
 
   const synchronize = (force = false): Promise<boolean> => {
     if (!ready || !navigator.onLine || (!force && Date.now() < automaticSyncAfter)) {
@@ -446,21 +577,35 @@ export function startNavigationRuntime(): void {
   offerUi?.resume.addEventListener('click', () => {
     const document = offered;
     if (!document) return;
+    captureGeneration += 1;
+    if (captureTimer) clearTimeout(captureTimer);
+    captureTimer = undefined;
+    suppressedCaptureRequested = false;
+    semanticCaptureRequested = false;
     hideOffer();
     sessionStorage.setItem(`${SESSION_PREFIX}${profileId}`, String(Date.now()));
-    if (document.route !== currentRoute()) {
-      sessionStorage.setItem(pendingRouteKey, document.route);
-      location.assign(document.route);
+    const destination = navigationDestination(document);
+    if (destination !== currentDestination()) {
+      suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
+      lastFingerprint = navigationFingerprint(document);
+      if (document.route !== currentRoute()) {
+        sessionStorage.setItem(pendingRouteKey, document.route);
+        navigationRedirectPending = true;
+        markNavigationPending();
+        location.assign(destination);
+        return;
+      }
+      location.assign(destination);
+      void runRestoreCurrentDocument(document);
       return;
     }
-    suppressCaptureUntil = Date.now() + 1_500;
     lastFingerprint = navigationFingerprint(document);
-    void restoreDocument(document);
+    void runRestoreCurrentDocument(document);
   });
 
   offerUi?.stay.addEventListener('click', () => {
     hideOffer();
-    void saveCurrent(true, true).then(() => synchronize(true));
+    void runSaveCurrent(true, true).then(() => synchronize(true));
   });
 
   window.addEventListener('scroll', () => scheduleCapture(), { passive: true });
@@ -503,24 +648,36 @@ export function startNavigationRuntime(): void {
     explicitNavigation = true;
   });
   window.addEventListener('pagehide', () => {
+    if ((explicitNavigation || semanticCaptureRequested) && suppressedCaptureRequested) {
+      if (captureTimer) clearTimeout(captureTimer);
+      captureTimer = undefined;
+      suppressedCaptureRequested = false;
+      semanticCaptureRequested = false;
+      void runSaveCurrent(false, true, true);
+      return;
+    }
     explicitNavigation = true;
-    void saveCurrent(false);
+    void runSaveCurrent(false);
   });
   window.addEventListener('online', () => void synchronize().then(inspectRemoteChange));
   window.addEventListener('focus', () => void synchronize().then(inspectRemoteChange));
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') void saveCurrent(false);
+    if (document.visibilityState === 'hidden') void runSaveCurrent(false);
     else void synchronize().then(inspectRemoteChange);
   });
   window.addEventListener('concursos:navigation-synced', () => void inspectRemoteChange());
   window.addEventListener('concursos:navigation-updated', () => void synchronize(true));
+  window.addEventListener('concursos:reading-focus-change', () => {
+    semanticCaptureRequested = true;
+    scheduleCapture(0);
+  });
 
   window.setInterval(() => {
     if (document.visibilityState !== 'visible') return;
-    void saveCurrent().then(() => synchronize()).then(inspectRemoteChange);
+    void runSaveCurrent().then(() => synchronize()).then(inspectRemoteChange);
   }, PERIODIC_SYNC_MS);
 
-  void (async () => {
+  initialization = (async () => {
     const catalog = await catalogPromise;
     if (navigator.onLine) {
       try {
@@ -539,7 +696,9 @@ export function startNavigationRuntime(): void {
       record.current.route !== currentRoute()
     ) {
       sessionStorage.setItem(pendingRouteKey, record.current.route);
-      location.replace(record.current.route);
+      navigationRedirectPending = true;
+      markNavigationPending();
+      location.replace(navigationDestination(record.current));
       return;
     }
 
@@ -553,16 +712,18 @@ export function startNavigationRuntime(): void {
         target &&
         record.current.route === currentRoute()
       ) {
-        suppressCaptureUntil = Date.now() + 1_500;
-        await restoreDocument(record.current);
+        await runRestoreCurrentDocument(record.current);
       }
     }
     ready = true;
     if (!record || !target) {
-      await saveCurrent(false);
+      await runSaveCurrent(false);
       window.setTimeout(() => void synchronize(), INITIAL_AUTOMATIC_SYNC_DELAY_MS + 100);
+    } else {
+      await runSaveCurrent();
     }
   })().catch(() => {
     ready = true;
   });
+  void initialization;
 }

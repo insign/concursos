@@ -2,8 +2,8 @@ import { expect, test } from './fixtures';
 import type { Page } from '@playwright/test';
 
 const alias = 'navegacao-offline-teste';
-const readingRoute = '/concursos/concurso-exemplo/assunto-exemplo/leitura/';
 const contentRoute = '/concursos/concurso-exemplo/assunto-exemplo/';
+const readingDestination = `${contentRoute}#focus`;
 const cheatSheetRoute = '/concursos/concurso-exemplo/assunto-exemplo/cheat-sheet/';
 const timestamp = '2026-07-25T00:00:00.000Z';
 
@@ -38,7 +38,7 @@ async function seedNavigationRecord(page: Page): Promise<void> {
               groupId: 'grupo-exemplo',
               subjectStorageId: 'fundamentos',
               questionId: null,
-              activeTab: 'reading',
+              activeTab: 'content',
               readingMode: true,
               questionOrigin: null,
               questionLayout: null,
@@ -78,7 +78,7 @@ async function seedNavigationRecord(page: Page): Promise<void> {
           transaction.onabort = () => reject(transaction.error);
         };
       }),
-    { profileId: alias, route: readingRoute, updatedAt: timestamp },
+    { profileId: alias, route: contentRoute, updatedAt: timestamp },
   );
 }
 
@@ -87,7 +87,7 @@ test('restores once and preserves explicit navigation after an offline restart',
   await waitForServiceWorker(page);
   await page.goto(contentRoute);
   await page.goto(cheatSheetRoute);
-  await page.goto(readingRoute);
+  await page.goto(readingDestination);
   await seedNavigationRecord(page);
   await page.evaluate((profileId) => localStorage.setItem('concursos:active-alias', profileId), alias);
 
@@ -105,7 +105,8 @@ test('restores once and preserves explicit navigation after an offline restart',
 
   const resumedPage = await context.newPage();
   const resumedResponse = await resumedPage.goto('/');
-  await expect(resumedPage).toHaveURL(new RegExp(`${readingRoute.replaceAll('/', '\\/')}$`));
+  await expect(resumedPage).toHaveURL(new RegExp(`${contentRoute.replaceAll('/', '\\/')}#focus$`));
+  await expect(resumedPage.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
   await expect.poll(() => resumedPage.evaluate(() => window.scrollY)).toBeGreaterThan(100);
   await expect.poll(() =>
     resumedPage.evaluate(

@@ -14,7 +14,9 @@ const { contestStorageId, subjectStorageId } = Astro.props;
   data-subject-id={`${contestStorageId}--${subjectStorageId}`}
   disabled
 >
-  <span class="studied-toggle-icon" aria-hidden="true">✓</span>
+  <svg class="subject-action-icon studied-toggle-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="m5 12 4 4L19 6" />
+  </svg>
   <span class="studied-toggle-label">Marcar como concluído</span>
 </button>
 

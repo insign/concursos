@@ -111,7 +111,7 @@ test('preserves independent answers written from two tabs', async ({ page, conte
 
   await page.getByLabel('Eficiência').check();
   await expect(page.getByText(/Resposta salva localmente/)).toBeVisible();
-  await secondPage.getByRole('button', { name: 'Próxima' }).click();
+  await secondPage.getByRole('button', { name: 'Próxima', exact: true }).click();
   await secondPage.getByLabel('Eficácia').check();
   await expect(secondPage.getByText(/Resposta salva localmente/)).toBeVisible();
 

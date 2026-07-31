@@ -64,9 +64,14 @@ export function buildSubjectSuggestionModel(
 export function suggestNextSubject(
   model: SubjectSuggestionModel,
   studiedSubjectIds: Iterable<string>,
+  currentSubjectId: string | null = null,
 ): SubjectSuggestionCandidate | null {
   const studied = new Set(studiedSubjectIds);
-  let selected: { group: SubjectSuggestionGroup; studiedCount: number } | null = null;
+  let selected: {
+    candidate: SubjectSuggestionCandidate;
+    group: SubjectSuggestionGroup;
+    studiedCount: number;
+  } | null = null;
 
   for (const group of model.groups) {
     const studiedCount = group.subjects.reduce(
@@ -74,17 +79,31 @@ export function suggestNextSubject(
       0,
     );
     if (studiedCount === group.subjects.length) continue;
+    const candidate = group.subjects.find(
+      (subject) =>
+        subject.studiedSubjectId !== currentSubjectId &&
+        !studied.has(subject.studiedSubjectId),
+    );
+    if (!candidate) continue;
 
     if (
       selected === null ||
       studiedCount * selected.group.subjects.length <
         selected.studiedCount * group.subjects.length
     ) {
-      selected = { group, studiedCount };
+      selected = { candidate, group, studiedCount };
     }
   }
 
-  return selected?.group.subjects.find(
-    (subject) => !studied.has(subject.studiedSubjectId),
-  ) ?? null;
+  return selected?.candidate ?? null;
+}
+
+export function areAllSubjectsStudied(
+  model: SubjectSuggestionModel,
+  studiedSubjectIds: Iterable<string>,
+): boolean {
+  const studied = new Set(studiedSubjectIds);
+  return model.groups.every((group) =>
+    group.subjects.every((subject) => studied.has(subject.studiedSubjectId)),
+  );
 }

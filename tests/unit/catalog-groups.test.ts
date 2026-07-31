@@ -10,29 +10,30 @@ describe('catalog groups persistence', () => {
     expect(CATALOG_GROUPS_STORAGE_KEY).toBe('concursos:catalog-groups');
   });
 
-  it('treats missing or empty input as no collapsed groups (default expanded)', () => {
-    expect(parseCollapsedGroups(null)).toEqual(new Set());
-    expect(parseCollapsedGroups(undefined)).toEqual(new Set());
-    expect(parseCollapsedGroups('')).toEqual(new Set());
+  it('distinguishes missing input from a valid empty document', () => {
+    expect(parseCollapsedGroups(null)).toBeNull();
+    expect(parseCollapsedGroups(undefined)).toBeNull();
+    expect(parseCollapsedGroups('')).toBeNull();
+    expect(parseCollapsedGroups('{"version":1,"collapsed":[]}')).toEqual(new Set());
   });
 
   it('tolerates malformed or unexpected payloads without throwing', () => {
-    expect(parseCollapsedGroups('{ not json')).toEqual(new Set());
-    expect(parseCollapsedGroups('123')).toEqual(new Set());
-    expect(parseCollapsedGroups('"a-string"')).toEqual(new Set());
-    expect(parseCollapsedGroups('null')).toEqual(new Set());
-    expect(parseCollapsedGroups('[]')).toEqual(new Set());
-    expect(parseCollapsedGroups('{"version":1}')).toEqual(new Set());
-    expect(parseCollapsedGroups('{"version":1,"collapsed":"nope"}')).toEqual(new Set());
-    expect(parseCollapsedGroups('{"version":1,"collapsed":{"a":true}}')).toEqual(new Set());
+    expect(parseCollapsedGroups('{ not json')).toBeNull();
+    expect(parseCollapsedGroups('123')).toBeNull();
+    expect(parseCollapsedGroups('"a-string"')).toBeNull();
+    expect(parseCollapsedGroups('null')).toBeNull();
+    expect(parseCollapsedGroups('[]')).toBeNull();
+    expect(parseCollapsedGroups('{"version":1}')).toBeNull();
+    expect(parseCollapsedGroups('{"version":1,"collapsed":"nope"}')).toBeNull();
+    expect(parseCollapsedGroups('{"version":1,"collapsed":{"a":true}}')).toBeNull();
   });
 
   it('ignores documents with a missing or unknown version instead of misreading them', () => {
     // Sem checar a versão, esta carga seria restaurada erroneamente.
-    expect(parseCollapsedGroups('{"collapsed":["concurso/grupo"]}')).toEqual(new Set());
-    expect(parseCollapsedGroups('{"version":0,"collapsed":["concurso/grupo"]}')).toEqual(new Set());
-    expect(parseCollapsedGroups('{"version":2,"collapsed":["concurso/grupo"]}')).toEqual(new Set());
-    expect(parseCollapsedGroups('{"version":"1","collapsed":["concurso/grupo"]}')).toEqual(new Set());
+    expect(parseCollapsedGroups('{"collapsed":["concurso/grupo"]}')).toBeNull();
+    expect(parseCollapsedGroups('{"version":0,"collapsed":["concurso/grupo"]}')).toBeNull();
+    expect(parseCollapsedGroups('{"version":2,"collapsed":["concurso/grupo"]}')).toBeNull();
+    expect(parseCollapsedGroups('{"version":"1","collapsed":["concurso/grupo"]}')).toBeNull();
   });
 
   it('keeps only non-empty string ids from the collapsed list', () => {

@@ -1,28 +1,39 @@
 ---
 import type { CatalogContest } from '../lib/catalog';
 import {
+  areAllSubjectsStudied,
   buildSubjectSuggestionModel,
   suggestNextSubject,
 } from '../lib/subject-suggestion';
 
 interface Props {
   contest: CatalogContest;
+  instanceId: string;
+  currentSubjectId?: string | null;
 }
 
-const { contest } = Astro.props;
+const { contest, instanceId, currentSubjectId = null } = Astro.props;
 const model = buildSubjectSuggestionModel(contest);
-const initialSuggestion = suggestNextSubject(model, []);
-const componentId = `subject-suggestion-${contest.storageId}`;
-const serializedModel = JSON.stringify(model).replaceAll('<', '\\u003c');
+const initialSuggestion = suggestNextSubject(model, [], currentSubjectId);
+const initialComplete = areAllSubjectsStudied(model, []);
+const initialStatus = initialSuggestion
+  ? ''
+  : initialComplete
+    ? 'Todos os assuntos deste concurso foram concluídos.'
+    : 'Não há outro assunto pendente para sugerir.';
+const componentId = `subject-suggestion-${contest.storageId}-${instanceId}`;
+const serializedConfig = JSON.stringify({ model, currentSubjectId }).replaceAll('<', '\\u003c');
 ---
 
 <aside
+  id={componentId}
   class="subject-suggestion print-hidden"
   data-subject-suggestion
+  data-subject-suggestion-instance={instanceId}
   aria-label="Sugestão de próximo assunto"
 >
   <div data-subject-suggestion-content hidden={!initialSuggestion}>
-    <p class="eyebrow">Próxima etapa</p>
+    <p class="eyebrow" id={`${componentId}-label`}>Próxima etapa</p>
     <a
       class="button subject-suggestion-link"
       data-subject-suggestion-link
@@ -35,52 +46,76 @@ const serializedModel = JSON.stringify(model).replaceAll('<', '\\u003c');
       {initialSuggestion?.title}
     </p>
   </div>
-  <p class="subject-suggestion-complete" data-subject-suggestion-status role="status" aria-live="polite"></p>
-  <script type="application/json" data-subject-suggestion-config set:html={serializedModel}></script>
+  <p class="subject-suggestion-complete" data-subject-suggestion-status role="status" aria-live="polite">
+    {initialStatus}
+  </p>
+  <script type="application/json" data-subject-suggestion-config set:html={serializedConfig}></script>
 </aside>
 
 <script>
   import { getActiveAlias } from '../lib/identity';
   import { loadStudied } from '../lib/studied';
   import {
+    areAllSubjectsStudied,
     suggestNextSubject,
     type SubjectSuggestionModel,
   } from '../lib/subject-suggestion';
 
   const completionMessage = 'Todos os assuntos deste concurso foram concluídos.';
+  const noAlternativeMessage = 'Não há outro assunto pendente para sugerir.';
+  interface SuggestionConfig {
+    model: SubjectSuggestionModel;
+    currentSubjectId: string | null;
+  }
 
-  document.querySelectorAll<HTMLElement>('[data-subject-suggestion]').forEach((root) => {
+  const instances = Array.from(
+    document.querySelectorAll<HTMLElement>('[data-subject-suggestion]:not([data-suggestion-ready])'),
+  ).flatMap((root) => {
     const serialized = root.querySelector<HTMLScriptElement>('[data-subject-suggestion-config]')?.textContent;
     const content = root.querySelector<HTMLElement>('[data-subject-suggestion-content]');
     const link = root.querySelector<HTMLAnchorElement>('[data-subject-suggestion-link]');
     const title = root.querySelector<HTMLElement>('[data-subject-suggestion-title]');
     const status = root.querySelector<HTMLElement>('[data-subject-suggestion-status]');
-    if (!serialized || !content || !link || !title || !status) return;
+    if (!serialized || !content || !link || !title || !status) return [];
+    root.setAttribute('data-suggestion-ready', '');
+    return [{ content, link, title, status, config: JSON.parse(serialized) as SuggestionConfig }];
+  });
 
-    const model = JSON.parse(serialized) as SubjectSuggestionModel;
-    const render = (studiedSubjectIds: Iterable<string>) => {
-      const suggestion = suggestNextSubject(model, studiedSubjectIds);
-      content.hidden = suggestion === null;
-      status.textContent = suggestion === null ? completionMessage : '';
-      if (suggestion) {
-        link.setAttribute('href', suggestion.href);
-        title.textContent = suggestion.title;
-      }
+  if (instances.length > 0) {
+    const renderAll = (studiedSubjectIds: Iterable<string>) => {
+      const studied = [...studiedSubjectIds];
+      instances.forEach(({ config, content, link, title, status }) => {
+        const suggestion = suggestNextSubject(config.model, studied, config.currentSubjectId);
+        const complete = areAllSubjectsStudied(config.model, studied);
+        content.hidden = suggestion === null;
+        status.textContent = suggestion === null ? (complete ? completionMessage : noAlternativeMessage) : '';
+        if (suggestion) {
+          link.setAttribute('href', suggestion.href);
+          title.textContent = suggestion.title;
+        }
+      });
     };
 
     const alias = getActiveAlias();
-    if (!alias) return;
+    if (alias) {
+      let refreshVersion = 0;
+      const refresh = () => {
+        const version = ++refreshVersion;
+        void loadStudied(alias)
+          .then((document) => {
+            if (version === refreshVersion) renderAll(document.studiedSubjectIds);
+          })
+          .catch(() => undefined);
+      };
+      refresh();
 
-    const applyFromStore = async () => render((await loadStudied(alias)).studiedSubjectIds);
-    const refresh = () => void applyFromStore().catch(() => undefined);
-    refresh();
-
-    window.addEventListener('concursos:studied-updated', (event) => {
-      if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) refresh();
-    });
-    window.addEventListener('concursos:sync-status', (event) => {
-      const state = (event as CustomEvent<{ state?: string }>).detail?.state;
-      if (state === 'synced' || state === 'error') refresh();
-    });
-  });
+      window.addEventListener('concursos:studied-updated', (event) => {
+        if ((event as CustomEvent<{ profileId?: string }>).detail?.profileId === alias) refresh();
+      });
+      window.addEventListener('concursos:sync-status', (event) => {
+        const state = (event as CustomEvent<{ state?: string }>).detail?.state;
+        if (state === 'synced' || state === 'error') refresh();
+      });
+    }
+  }
 </script>

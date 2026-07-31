@@ -4,6 +4,7 @@ import {
   THEME_COLORS,
   THEME_STORAGE_KEY,
   isThemePreference,
+  nextThemePreference,
   readThemePreference,
   resolveTheme,
 } from '../../src/lib/theme';
@@ -40,6 +41,12 @@ describe('theme preferences', () => {
     expect(resolveTheme('dark', true)).toBe('dark');
     expect(resolveTheme('light', true)).toBe('light');
     expect(resolveTheme('light', false)).toBe('light');
+  });
+
+  it('cycles auto to light to dark and back to auto', () => {
+    expect(nextThemePreference('auto')).toBe('light');
+    expect(nextThemePreference('light')).toBe('dark');
+    expect(nextThemePreference('dark')).toBe('auto');
   });
 
   it('exposes a browser theme-color for each resolved theme', () => {

@@ -4,16 +4,12 @@ import type { CatalogContest, CatalogSubject } from '../lib/catalog';
 interface Props {
   contest: CatalogContest;
   subject: CatalogSubject;
-  mode?: 'study' | 'reading';
 }
 
-const { contest, subject, mode = 'study' } = Astro.props;
+const { contest, subject } = Astro.props;
 const previous = contest.subjects.find(({ id }) => id === subject.previousSubjectId);
 const next = contest.subjects.find(({ id }) => id === subject.nextSubjectId);
-// No modo de leitura, os vizinhos apontam para as rotas /leitura/ adjacentes,
-// preservando o modo; no estudo, para a página de conteúdo do assunto.
-const suffix = mode === 'reading' ? 'leitura/' : '';
-const pathFor = (slug: string) => `/concursos/${contest.slug}/${slug}/${suffix}`;
+const pathFor = (slug: string) => `/concursos/${contest.slug}/${slug}/`;
 ---
 
 {

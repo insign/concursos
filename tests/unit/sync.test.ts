@@ -99,6 +99,17 @@ describe('remote answer validation', () => {
 });
 
 describe('background synchronization fallback', () => {
+  it('does not announce or schedule offline work when no alias is active', async () => {
+    const register = vi.fn(async () => undefined);
+    vi.stubGlobal('navigator', {
+      onLine: true,
+      serviceWorker: { ready: Promise.resolve({ sync: { register } }) },
+    });
+
+    await expect(requestProfileSync(null)).resolves.toBe(false);
+    expect(register).not.toHaveBeenCalled();
+  });
+
   it('registers a background wake-up when synchronization is requested offline', async () => {
     const register = vi.fn(async () => undefined);
     vi.stubGlobal('navigator', {

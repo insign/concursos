@@ -23,6 +23,12 @@ export function readThemePreference(raw: string | null | undefined): ThemePrefer
   return isThemePreference(raw) ? raw : DEFAULT_THEME_PREFERENCE;
 }
 
+export function nextThemePreference(preference: ThemePreference): ThemePreference {
+  if (preference === 'auto') return 'light';
+  if (preference === 'light') return 'dark';
+  return 'auto';
+}
+
 /**
  * Resolve a preferência para um tema concreto. No modo automático usa a
  * preferência do sistema; caso contrário, a escolha explícita do usuário.

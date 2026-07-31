@@ -3,18 +3,50 @@ import { expect, test } from './fixtures';
 const alias = 'leitura-2026-teste';
 const contest = 'tce-ma-2026-analista-administracao';
 const subjectSlug = 'leitura-interpretacao-tipos-generos';
-const readingUrl = `/concursos/${contest}/${subjectSlug}/leitura/`;
+const readingUrl = `/concursos/${contest}/${subjectSlug}/#focus`;
 const leituraDocId = `concursos--${alias}--leitura`;
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript((value) => localStorage.setItem('concursos:active-alias', value), alias);
 });
 
+test('customizes the integrated reading mode without changing the normal page', async ({ page }) => {
+  await page.goto(`/concursos/${contest}/${subjectSlug}/`);
+  const focus = page.locator('[data-reading-focus]');
+  await expect(focus).not.toHaveAttribute('style', /--reading-/);
+
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  await page.getByRole('button', { name: 'Inter (sem serifa)', exact: true }).click();
+  await expect(focus).toHaveAttribute('style', /--reading-font:.*Inter/);
+
+  await page.keyboard.press('Escape');
+  await expect(page).toHaveURL(readingUrl);
+  await expect(page.getByRole('button', { name: 'Ajustes de leitura' })).toBeFocused();
+  await page.keyboard.press('Escape');
+  await expect(page).toHaveURL(`/concursos/${contest}/${subjectSlug}/`);
+  await expect(focus).not.toHaveAttribute('style', /--reading-/);
+});
+
+test('prints the integrated mode with a light palette after selecting a dark preset', async ({ page }) => {
+  await page.goto(readingUrl);
+  await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  await page.getByRole('button', { name: 'Escuro', exact: true }).click();
+  await expect(page.locator('[data-reading-focus]')).toHaveAttribute('data-reading-scheme', 'escuro');
+  await expect(page.locator('.reading-surface')).toHaveCSS('background-color', 'rgb(20, 24, 26)');
+  await expect(page.locator('.reading-surface article')).toHaveCSS('color', 'rgb(231, 236, 232)');
+
+  await page.emulateMedia({ media: 'print' });
+  await expect(page.locator('[data-reading-focus]')).toHaveCSS('color-scheme', 'light');
+  await expect(page.locator('.reading-surface')).toHaveCSS('background-color', 'rgb(255, 255, 255)');
+  await expect(page.locator('.reading-surface article')).toHaveCSS('color', 'rgb(0, 0, 0)');
+});
+
 test('personalizes typography and persists it across reloads', async ({ page, kvStore }) => {
   await page.goto(readingUrl);
   await page.waitForLoadState('load');
 
-  const shell = page.locator('.reading-shell');
+  const shell = page.locator('[data-reading-focus]');
   await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
   await page.getByRole('button', { name: 'Inter (sem serifa)', exact: true }).click();
 
@@ -49,11 +81,32 @@ test('personalizes typography and persists it across reloads', async ({ page, kv
     .toBe('24px');
 });
 
+test('flushes a pending customization before a PWA-controlled reload', async ({ page }) => {
+  await page.goto(readingUrl);
+  const status = page.locator('[data-application-status]');
+  await expect(status).toHaveAttribute('data-source', 'pwa');
+
+  await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  await page.locator('#reading-font-size').evaluate((element: HTMLInputElement) => {
+    element.value = '25';
+    element.dispatchEvent(new Event('input', { bubbles: true }));
+  });
+
+  await Promise.all([
+    page.waitForEvent('load'),
+    page.evaluate(() => window.dispatchEvent(new CustomEvent('concursos:pwa-retry'))),
+  ]);
+  await expect
+    .poll(() => page.locator('[data-reading-focus]').evaluate((element) =>
+      getComputedStyle(element).getPropertyValue('--reading-size')))
+    .toBe('25px');
+});
+
 test('applies a color-scheme preset and keeps it after reload', async ({ page, kvStore }) => {
   await page.goto(readingUrl);
   await page.waitForLoadState('load');
 
-  const shell = page.locator('.reading-shell');
+  const shell = page.locator('[data-reading-focus]');
   await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
   await page.getByRole('button', { name: 'Sépia', exact: true }).click();
   await expect(shell).toHaveAttribute('data-reading-scheme', 'sepia');
@@ -70,7 +123,7 @@ test('applies a color-scheme preset and keeps it after reload', async ({ page, k
   await expect(shell).toHaveAttribute('data-reading-scheme', 'sepia');
 });
 
-test('adopts remote reading preferences without the header coordinator', async ({ page, kvStore }) => {
+test('adopts remote reading preferences through the page coordinator', async ({ page, kvStore }) => {
   // Documento remoto (como se personalizado em outro dispositivo).
   kvStore.set(leituraDocId, {
     version: 6,
@@ -87,8 +140,8 @@ test('adopts remote reading preferences without the header coordinator', async (
   });
 
   await page.goto(readingUrl);
-  const shell = page.locator('.reading-shell');
-  // O modo de leitura oculta o Header; o customizador chama requestProfileSync no load.
+  const shell = page.locator('[data-reading-focus]');
+  // O Header fica visualmente oculto no foco, mas seu coordenador continua montado.
   await expect(shell).toHaveAttribute('data-reading-scheme', 'escuro');
   await expect
     .poll(() => shell.evaluate((el) => getComputedStyle(el).getPropertyValue('--reading-font')))
@@ -102,7 +155,7 @@ test('restores defaults with the reset control', async ({ page }) => {
   await page.goto(readingUrl);
   await page.waitForLoadState('load');
 
-  const shell = page.locator('.reading-shell');
+  const shell = page.locator('[data-reading-focus]');
   await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
   await page.getByRole('button', { name: 'Cinza', exact: true }).click();
   await expect(shell).toHaveAttribute('data-reading-scheme', 'cinza');
@@ -132,7 +185,7 @@ test('does not revert an in-flight edit when a sync-status event fires', async (
   });
 
   await page.goto(readingUrl);
-  const shell = page.locator('.reading-shell');
+  const shell = page.locator('[data-reading-focus]');
   // Adota o remoto no load.
   await expect
     .poll(() => shell.evaluate((el) => getComputedStyle(el).getPropertyValue('--reading-size')))

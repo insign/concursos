@@ -55,10 +55,18 @@ Reload, voltar/avançar, Service Worker, reconexão, foco e visibilidade não re
 
 ## Eventos e frequência
 
-A captura é debounced após rolagem, resize e controles relevantes. Também ocorre em `pagehide` e ao ocultar a página. A sincronização é solicitada ao reconectar, focar, tornar a página visível, receber mudança local e a cada 30 segundos enquanto visível.
+A captura é debounced após rolagem, resize, controles relevantes e mudanças semânticas do modo de leitura. Também ocorre em `pagehide` e ao ocultar a página. A sincronização é solicitada ao reconectar, focar, tornar a página visível, receber mudança local e a cada 30 segundos enquanto visível.
+
+## Durabilidade local
+
+`src/lib/local-durability.ts` é o registro compartilhado de flushers e da revisão monotônica de atividade local. O debounce das preferências de leitura e as capturas semânticas de navegação registram seus flushers nesse registro.
+
+Antes da ativação ou do reload automático da PWA, `src/lib/pwa-update.ts` executa duas rodadas de todos os flushers, cada uma seguida pelas duas barreiras de transações IndexedDB (`concursos-offline` e `concursos-navigation`), e repete o ciclo até a revisão global permanecer estável. Qualquer falha de persistência aborta a operação como erro de durabilidade recuperável.
+
+A navegação aguarda a inicialização limitada, a restauração em andamento e capturas anteriores. A busca de `/navigation-catalog.json` tem timeout de 8 segundos; se falhar, a página continua com o contexto semântico local, mas não faz redirecionamentos remotos. Depois dessa espera, uma captura final local é gravada sem exigir sincronização com o KV. Um redirecionamento entre rotas em andamento também aborta um reload PWA concorrente.
 
 ## Rotas válidas
 
 `/navigation-catalog.json` é pré-renderizado no build e lista rotas canônicas para catálogo, concurso, conteúdo, cheat sheet, questões, leitura, configurações e simulados. Rotas externas, protocol-relative, com segmentos `.`/`..`, hashes ou formas não canônicas são rejeitadas.
 
-O catálogo de navegação entra no precache versionado do PWA e também nos pacotes offline dos concursos. Quando o catálogo não está disponível, páginas de assunto ainda conseguem capturar o contexto indicado pelos atributos semânticos do layout, mas redirecionamentos remotos permanecem desabilitados.
+O catálogo de navegação entra no precache versionado do PWA e também nos pacotes offline dos concursos.

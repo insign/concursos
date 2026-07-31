@@ -3,8 +3,11 @@ import SubjectNavigation from '../components/SubjectNavigation.astro';
 import SubjectPagination from '../components/SubjectPagination.astro';
 import SubjectActionBar from '../components/SubjectActionBar.astro';
 import NextSubjectSuggestion from '../components/NextSubjectSuggestion.astro';
+import ReadingCustomizer from '../components/ReadingCustomizer.astro';
+import ReadingFocusRuntime from '../components/ReadingFocusRuntime.astro';
 import BaseLayout from './BaseLayout.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
+import { studiedSubjectId } from '../lib/studied';
 
 interface Props {
   contest: CatalogContest;
@@ -14,6 +17,14 @@ interface Props {
 
 const { contest, subject, active } = Astro.props;
 const groupId = subject.groupPath.at(-1)?.slug ?? null;
+const subjectHref = `/concursos/${contest.slug}/${subject.slug}/`;
+const currentSubjectId = studiedSubjectId(contest.storageId, subject.storageId);
+const contestMiddleTruncated = contest.title.length > 32;
+const contestLastWord = contest.title.split(/\s+/).at(-1) ?? '';
+const contestTitleEnd = contestMiddleTruncated ? contestLastWord.slice(-16) : '';
+const contestTitleStart = contestMiddleTruncated
+  ? contest.title.slice(0, Math.max(8, 31 - contestTitleEnd.length))
+  : contest.title;
 ---
 
 <BaseLayout title={subject.title} description={subject.description} pageClass={`study-page ${active}`}>
@@ -27,41 +38,99 @@ const groupId = subject.groupPath.at(-1)?.slug ?? null;
     data-navigation-mode="normal"
     data-navigation-content-version={subject.contentEntry.id}
   >
-    <nav class="breadcrumbs print-hidden" aria-label="Caminho da página">
-      <a href="/">Concursos</a>
+    <nav id="study-top" class="breadcrumbs print-hidden" aria-label="Caminho da página" tabindex="-1">
+      <a class="breadcrumb-home" href="/" aria-label="Concursos" title="Concursos">
+        <span aria-hidden="true">C</span>
+      </a>
       <span aria-hidden="true">/</span>
-      <a href={`/concursos/${contest.slug}/`}>{contest.title}</a>
+      <a
+        class:list={['breadcrumb-contest', { 'breadcrumb-contest-middle': contestMiddleTruncated }]}
+        href={`/concursos/${contest.slug}/`}
+        aria-label={contest.title}
+        title={contest.title}
+      >
+        <span class="breadcrumb-contest-start" aria-hidden="true">{contestTitleStart}</span>
+        {contestMiddleTruncated && <span class="breadcrumb-contest-ellipsis" aria-hidden="true">…</span>}
+        {contestMiddleTruncated && <span class="breadcrumb-contest-end" aria-hidden="true">{contestTitleEnd}</span>}
+      </a>
       {
         subject.groupPath.map((group) => (
           <>
             <span aria-hidden="true">/</span>
-            <span>{group.title}</span>
+            <span class="breadcrumb-group" title={group.title}>{group.title}</span>
           </>
         ))
       }
-      <span aria-hidden="true">/</span>
-      <span>{subject.title}</span>
     </nav>
 
     <header class="subject-heading">
-      <p class="eyebrow">{contest.title}</p>
+      <p class="subject-title">{subject.title}</p>
       <p>{subject.description}</p>
     </header>
 
+    <NextSubjectSuggestion
+      contest={contest}
+      instanceId="study-top"
+      currentSubjectId={currentSubjectId}
+    />
+
     <SubjectNavigation contestSlug={contest.slug} subjectSlug={subject.slug} active={active} />
 
-    <div class="reading-surface" data-navigation-content>
-      <slot />
-    </div>
+    {
+      active === 'content' ? (
+        <div
+          id="focus"
+          class="reading-focus"
+          data-reading-focus
+          tabindex="-1"
+          aria-label="Modo de leitura sem distrações"
+        >
+          <div class="reading-bar reading-focus-bar print-hidden">
+            <div class="reading-bar-controls">
+              <ReadingCustomizer />
+            </div>
+            <a class="reading-exit" href={subjectHref} data-reading-focus-close>
+              <span class="reading-exit-icon" aria-hidden="true">✕</span>
+              <span>Fechar leitura</span>
+            </a>
+          </div>
 
-    <NextSubjectSuggestion contest={contest} />
+          <div class="reading-surface" data-navigation-content>
+            <slot />
+          </div>
+
+          <SubjectActionBar
+            contestSlug={contest.slug}
+            contestStorageId={contest.storageId}
+            subjectStorageId={subject.storageId}
+            active={active}
+          />
+        </div>
+      ) : (
+        <div class="reading-surface" data-navigation-content>
+          <slot />
+        </div>
+      )
+    }
+
+    <NextSubjectSuggestion
+      contest={contest}
+      instanceId="study-bottom"
+      currentSubjectId={currentSubjectId}
+    />
 
     <SubjectPagination contest={contest} subject={subject} />
 
-    <SubjectActionBar
-      contestSlug={contest.slug}
-      contestStorageId={contest.storageId}
-      subjectStorageId={subject.storageId}
-    />
+    {
+      active !== 'content' && (
+        <SubjectActionBar
+          contestSlug={contest.slug}
+          contestStorageId={contest.storageId}
+          subjectStorageId={subject.storageId}
+          active={active}
+        />
+      )
+    }
   </main>
+  {active === 'content' && <ReadingFocusRuntime />}
 </BaseLayout>

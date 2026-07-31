@@ -10,13 +10,29 @@ const CATALOG_GROUPS_STORAGE_KEY = 'concursos:catalog-groups';
 const examplePath = '/concursos/concurso-exemplo/';
 const exampleGroupHeading = 'Administração pública';
 const exampleSubject = 'Fundamentos de administração pública';
+const portugueseGroupId =
+  'tce-ma-2026-analista-administracao/conhecimentos-gerais/lingua-portuguesa';
+const foreignGroupId = 'concurso-exemplo/administracao-publica';
 
 const groupByHeading = (page: import('@playwright/test').Page, name: string, level: number) =>
   page.locator('details.subject-group-section', {
     has: page.getByRole('heading', { name, level }),
   });
 
+async function seedCollapsedGroups(
+  page: import('@playwright/test').Page,
+  collapsed: string[],
+): Promise<void> {
+  await page.addInitScript(({ key, ids }) => {
+    const seededKey = `${key}:test-seeded`;
+    if (sessionStorage.getItem(seededKey)) return;
+    localStorage.setItem(key, JSON.stringify({ version: 1, collapsed: ids }));
+    sessionStorage.setItem(seededKey, 'true');
+  }, { key: CATALOG_GROUPS_STORAGE_KEY, ids: collapsed });
+}
+
 test('renders grouped catalogs while preserving short public routes', async ({ page, request }) => {
+  await seedCollapsedGroups(page, []);
   const response = await page.goto(contestPath);
   expect(response?.status()).toBe(200);
 
@@ -46,14 +62,18 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
 
   await page.goto(readingPath);
   const breadcrumbs = page.locator('.breadcrumbs');
-  const labels = await breadcrumbs.locator('a, span:not([aria-hidden])').allTextContents();
-  expect(labels.map((label) => label.trim())).toEqual([
-    'Concursos',
-    'TCE/MA 2026 - Analista de Administração',
-    'Conhecimentos gerais',
-    'Língua Portuguesa',
-    readingTitle,
-  ]);
+  await expect(breadcrumbs.getByRole('link', { name: 'Concursos' })).toHaveText('C');
+  const contestLink = breadcrumbs.getByRole('link', {
+    name: 'TCE/MA 2026 - Analista de Administração',
+  });
+  await expect(contestLink).toHaveAttribute('title', 'TCE/MA 2026 - Analista de Administração');
+  await expect(contestLink.locator('.breadcrumb-contest-start')).toHaveText('TCE/MA 2026 - Anal');
+  await expect(contestLink.locator('.breadcrumb-contest-end')).toHaveText('Administração');
+  const groups = breadcrumbs.locator('.breadcrumb-group');
+  await expect(groups).toHaveText(['Conhecimentos gerais', 'Língua Portuguesa']);
+  await expect(groups.nth(0)).toHaveAttribute('title', 'Conhecimentos gerais');
+  await expect(groups.nth(1)).toHaveAttribute('title', 'Língua Portuguesa');
+  await expect(breadcrumbs).not.toContainText(readingTitle);
   await expect(breadcrumbs.getByRole('link', { name: 'Conhecimentos gerais' })).toHaveCount(0);
   await expect(breadcrumbs.getByRole('link', { name: 'Língua Portuguesa' })).toHaveCount(0);
 
@@ -67,6 +87,7 @@ test('renders grouped catalogs while preserving short public routes', async ({ p
 });
 
 test('renders each subject as a compact item with only the title (issue #99)', async ({ page }) => {
+  await seedCollapsedGroups(page, []);
   await page.goto(examplePath);
   const card = page.locator('.subject-card').first();
   await expect(card).toBeVisible();
@@ -75,6 +96,10 @@ test('renders each subject as a compact item with only the title (issue #99)', a
   await expect(card.getByRole('link', { name: exampleSubject, exact: true })).toHaveAttribute(
     'href',
     '/concursos/concurso-exemplo/assunto-exemplo/',
+  );
+  await expect(card.getByRole('link', { name: `Ler ${exampleSubject} sem distrações` })).toHaveAttribute(
+    'href',
+    '/concursos/concurso-exemplo/assunto-exemplo/#focus',
   );
 
   // Sem alias/progresso, o item exibe exclusivamente o título como texto VISÍVEL
@@ -85,6 +110,18 @@ test('renders each subject as a compact item with only the title (issue #99)', a
   await expect(page.locator('.subject-card p')).toHaveCount(0);
   // ...nem existe controle para expandir/revelar descrição dentro do item.
   await expect(card.locator('details, summary')).toHaveCount(0);
+});
+
+test('keeps the contest breadcrumb readable on narrow screens', async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 720 });
+  await page.goto(contestPath);
+
+  const breadcrumbs = page.locator('.breadcrumbs');
+  await expect(breadcrumbs).toHaveCSS('flex-wrap', 'wrap');
+  await expect(breadcrumbs).toContainText('TCE/MA 2026 - Analista de Administração');
+  await expect
+    .poll(() => breadcrumbs.evaluate((element) => element.scrollWidth <= element.clientWidth))
+    .toBe(true);
 });
 
 test('keeps catalog hierarchy available without JavaScript', async ({ browser }) => {
@@ -101,10 +138,82 @@ test('keeps catalog hierarchy available without JavaScript', async ({ browser })
   await expect(groupByHeading(page, 'Conhecimentos gerais', 2)).toHaveJSProperty('open', true);
   await expect(page.getByRole('link', { name: readingTitle, exact: true })).toHaveAttribute('href', readingPath);
   await expect(page.getByRole('link', { name: typesTitle, exact: true })).toHaveAttribute('href', typesPath);
+  await expect(page.locator('[data-subject-tree-toggle]')).toBeHidden();
   await context.close();
 });
 
+test('starts every group collapsed on the first JavaScript visit', async ({ page }) => {
+  await page.addInitScript((key) => localStorage.removeItem(key), CATALOG_GROUPS_STORAGE_KEY);
+  await page.goto(contestPath);
+
+  const groups = page.locator('details.subject-group-section[data-group-id]');
+  await expect(groups).not.toHaveCount(0);
+  expect(await groups.evaluateAll((elements) => elements.every((element) => !(element as HTMLDetailsElement).open)))
+    .toBe(true);
+  await expect(page.getByRole('button', { name: 'Expandir tudo' })).toBeVisible();
+});
+
+test('respects an explicitly expanded valid document', async ({ page }) => {
+  await seedCollapsedGroups(page, []);
+  await page.goto(contestPath);
+
+  const groups = page.locator('details.subject-group-section[data-group-id]');
+  expect(await groups.evaluateAll((elements) => elements.every((element) => (element as HTMLDetailsElement).open)))
+    .toBe(true);
+  await expect(page.getByRole('button', { name: 'Recolher tudo' })).toBeVisible();
+});
+
+test('toggles all levels once per action and preserves another contest state', async ({ page }) => {
+  await seedCollapsedGroups(page, [foreignGroupId, portugueseGroupId]);
+  await page.addInitScript((key) => {
+    const original = Storage.prototype.setItem;
+    (window as typeof window & { catalogGroupWrites: number }).catalogGroupWrites = 0;
+    Storage.prototype.setItem = function (storedKey, value) {
+      if (storedKey === key) {
+        (window as typeof window & { catalogGroupWrites: number }).catalogGroupWrites += 1;
+      }
+      return original.call(this, storedKey, value);
+    };
+  }, CATALOG_GROUPS_STORAGE_KEY);
+  await page.goto(contestPath);
+
+  const groups = page.locator('details.subject-group-section[data-group-id]');
+  await page.getByRole('button', { name: 'Expandir tudo' }).click();
+  expect(await groups.evaluateAll((elements) => elements.every((element) => (element as HTMLDetailsElement).open)))
+    .toBe(true);
+  await expect(page.getByRole('button', { name: 'Recolher tudo' })).toBeVisible();
+  await page.evaluate(() => new Promise<void>((resolve) => requestAnimationFrame(() => requestAnimationFrame(() => resolve()))));
+  expect(await page.evaluate(() => (window as typeof window & { catalogGroupWrites: number }).catalogGroupWrites))
+    .toBe(1);
+  let stored = await page.evaluate(
+    (key) => JSON.parse(localStorage.getItem(key) ?? '{}') as { collapsed?: string[] },
+    CATALOG_GROUPS_STORAGE_KEY,
+  );
+  expect(stored.collapsed).toContain(foreignGroupId);
+  expect(stored.collapsed).not.toContain(portugueseGroupId);
+
+  await page.getByRole('button', { name: 'Recolher tudo' }).click();
+  expect(await groups.evaluateAll((elements) => elements.every((element) => !(element as HTMLDetailsElement).open)))
+    .toBe(true);
+  await expect(page.getByRole('button', { name: 'Expandir tudo' })).toBeVisible();
+  await page.evaluate(() => new Promise<void>((resolve) => requestAnimationFrame(() => requestAnimationFrame(() => resolve()))));
+  expect(await page.evaluate(() => (window as typeof window & { catalogGroupWrites: number }).catalogGroupWrites))
+    .toBe(2);
+  stored = await page.evaluate(
+    (key) => JSON.parse(localStorage.getItem(key) ?? '{}') as { collapsed?: string[] },
+    CATALOG_GROUPS_STORAGE_KEY,
+  );
+  const currentIds = await groups.evaluateAll((elements) =>
+    elements.flatMap((element) => {
+      const id = (element as HTMLElement).dataset.groupId;
+      return id ? [id] : [];
+    }),
+  );
+  expect(stored.collapsed).toEqual(expect.arrayContaining([foreignGroupId, ...currentIds]));
+});
+
 test('collapses a group and persists the choice across reloads', async ({ page }) => {
+  await seedCollapsedGroups(page, []);
   await page.goto(examplePath);
   const group = groupByHeading(page, exampleGroupHeading, 2);
   const subjectLink = group.getByRole('link', { name: exampleSubject, exact: true });
@@ -140,26 +249,27 @@ test('recovers from invalid localStorage and rewrites a valid document', async (
   await page.goto(examplePath);
   const group = groupByHeading(page, exampleGroupHeading, 2);
 
-  // Não quebrou: default expandido apesar do payload corrompido.
-  await expect(group).toHaveJSProperty('open', true);
-  await expect(group.getByRole('link', { name: exampleSubject, exact: true })).toBeVisible();
+  // Não quebrou: payload corrompido usa o default seguro de primeira visita.
+  await expect(group).toHaveJSProperty('open', false);
+  await expect(group.getByRole('link', { name: exampleSubject, exact: true })).toBeHidden();
 
-  // Prova de recuperação: o script rodou e ligou os ouvintes; recolher funciona e
+  // Prova de recuperação: o script rodou e ligou os ouvintes; expandir funciona e
   // sobrescreve o valor corrompido por um documento JSON válido (não apenas o
   // `open` estático do <details>, que passaria mesmo se o script tivesse abortado).
   const groupId = await group.getAttribute('data-group-id');
   expect(groupId).toBeTruthy();
   await group.locator('> summary').click();
-  await expect(group).toHaveJSProperty('open', false);
+  await expect(group).toHaveJSProperty('open', true);
 
   const stored = await page.evaluate((key) => localStorage.getItem(key), CATALOG_GROUPS_STORAGE_KEY);
   expect(stored).not.toBe('{ not valid json');
   const parsed = JSON.parse(stored!) as { version: number; collapsed: string[] };
   expect(parsed.version).toBe(1);
-  expect(parsed.collapsed).toContain(groupId!);
+  expect(parsed.collapsed).not.toContain(groupId!);
 });
 
 test('collapses one nested group without affecting its ancestor group', async ({ page }) => {
+  await seedCollapsedGroups(page, []);
   await page.goto(contestPath);
   const general = groupByHeading(page, 'Conhecimentos gerais', 2);
   const portuguese = general.locator('details.subject-group-section', {
@@ -202,6 +312,7 @@ test('collapses one nested group without affecting its ancestor group', async ({
 });
 
 test('toggles a group with the keyboard', async ({ page }) => {
+  await seedCollapsedGroups(page, []);
   await page.goto(examplePath);
   const group = groupByHeading(page, exampleGroupHeading, 2);
   const summary = group.locator('> summary');

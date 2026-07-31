@@ -144,6 +144,10 @@ const d = DEFAULT_READING_PREFERENCES;
 <script>
   import { getActiveAlias } from '../lib/identity';
   import {
+    markLocalStatePending,
+    registerLocalStateFlusher,
+  } from '../lib/local-durability';
+  import {
     clampReadingPreferences,
     DEFAULT_READING_PREFERENCES,
     fontStackFor,
@@ -156,7 +160,8 @@ const d = DEFAULT_READING_PREFERENCES;
   import { requestProfileSync } from '../lib/sync';
 
   const root = document.querySelector<HTMLElement>('[data-reading-customizer]');
-  const shell = document.querySelector<HTMLElement>('.reading-shell');
+  const shell = root?.closest<HTMLElement>('[data-reading-focus]') ?? null;
+  const focusShell = shell?.matches('[data-reading-focus]') ? shell : null;
   const toggle = root?.querySelector<HTMLButtonElement>('[data-reading-toggle]') ?? null;
   const panel = root?.querySelector<HTMLElement>('#reading-customizer-panel') ?? null;
 
@@ -167,6 +172,13 @@ const d = DEFAULT_READING_PREFERENCES;
     // Aplica as preferências como custom properties/atributo no shell de leitura.
     // Os fallbacks do CSS já reproduzem o padrão, então só definimos o que muda.
     const apply = (prefs: ReadingPreferences) => {
+      if (focusShell && !focusShell.matches(':target, [data-reading-focus-active]')) {
+        ['--reading-font', '--reading-size', '--reading-line', '--reading', '--reading-pad'].forEach(
+          (property) => focusShell.style.removeProperty(property),
+        );
+        focusShell.removeAttribute('data-reading-scheme');
+        return;
+      }
       shell.style.setProperty('--reading-font', fontStackFor(prefs.fontFamily));
       shell.style.setProperty('--reading-size', `${prefs.fontSize}px`);
       shell.style.setProperty('--reading-line', String(prefs.lineHeight));
@@ -206,38 +218,55 @@ const d = DEFAULT_READING_PREFERENCES;
 
     // Persistência com debounce por campo: aplica na hora, grava/sincroniza depois.
     let persistTimer: ReturnType<typeof setTimeout> | undefined;
-    let inFlightWrites = 0;
     const pendingFields = new Set<ReadingPreferenceField>();
+    const pendingWrites = new Set<Promise<void>>();
     // Verdadeiro enquanto houver edição local ainda não durável (debounce agendado ou gravação
     // em voo). Um reload dirigido por sync NÃO pode sobrescrever `current` nessa janela, senão
     // o valor antigo do IndexedDB reverteria o ajuste e o debounce pendente o persistiria de volta.
     const hasLocalPending = () =>
-      pendingFields.size > 0 || persistTimer !== undefined || inFlightWrites > 0;
+      pendingFields.size > 0 || persistTimer !== undefined || pendingWrites.size > 0;
+
+    const persistPending = (): Promise<void> | null => {
+      if (!alias || pendingFields.size === 0) return null;
+      const fields = [...pendingFields];
+      pendingFields.clear();
+      const snapshot = current;
+      const write = saveReadingPreferences(alias, snapshot, fields);
+      pendingWrites.add(write);
+      void write.then(
+        () => {
+          pendingWrites.delete(write);
+          void requestProfileSync(alias);
+        },
+        () => {
+          pendingWrites.delete(write);
+          // Falha ao gravar localmente: reverte ao estado durável, exceto se já houver nova edição.
+          if (!hasLocalPending()) void reloadFromStore();
+        },
+      );
+      return write;
+    };
+
     const persist = (field: ReadingPreferenceField) => {
       if (!alias) return;
+      markLocalStatePending();
       pendingFields.add(field);
       if (persistTimer) clearTimeout(persistTimer);
       persistTimer = setTimeout(() => {
         persistTimer = undefined;
-        const fields = [...pendingFields];
-        pendingFields.clear();
-        const snapshot = current;
-        inFlightWrites += 1;
-        // .then(onOk, onErr): exatamente um dos ramos roda, então inFlightWrites decrementa uma vez
-        // só (um .catch encadeado também capturaria uma exceção do onOk e decrementaria em dobro).
-        void saveReadingPreferences(alias, snapshot, fields).then(
-          () => {
-            inFlightWrites -= 1;
-            void requestProfileSync(alias);
-          },
-          () => {
-            inFlightWrites -= 1;
-            // Falha ao gravar localmente: reverte ao estado durável, exceto se já houver nova edição.
-            if (!hasLocalPending()) void reloadFromStore();
-          },
-        );
+        void persistPending();
       }, 400);
     };
+
+    registerLocalStateFlusher(async () => {
+      while (persistTimer !== undefined || pendingFields.size > 0 || pendingWrites.size > 0) {
+        if (persistTimer) clearTimeout(persistTimer);
+        persistTimer = undefined;
+        void persistPending();
+        const writes = [...pendingWrites];
+        if (writes.length > 0) await Promise.all(writes);
+      }
+    });
 
     const PERSISTABLE_FIELDS: ReadingPreferenceField[] = [
       'fontFamily',
@@ -300,20 +329,20 @@ const d = DEFAULT_READING_PREFERENCES;
     });
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && !panel.hidden) {
+        event.preventDefault();
         setOpen(false);
         toggle.focus();
       }
     });
 
+    window.addEventListener('concursos:reading-focus-change', () => {
+      setOpen(false);
+      apply(current);
+    });
+
     if (!alias) root.querySelector<HTMLElement>('[data-reading-hint]')?.removeAttribute('hidden');
 
     void reloadFromStore();
-    // Adota preferências salvas em outro dispositivo. No modo de leitura o Header não é montado,
-    // então esta aba NÃO tem o coordenador com BroadcastChannel/foco/visibilidade: ela sincroniza
-    // no load (este requestProfileSync, que anuncia `concursos:sync-status` ao concluir e dispara o
-    // reload abaixo) e após os próprios saves. Edições feitas em outra aba são adotadas ao reabrir a página.
-    if (alias) void requestProfileSync(alias);
-
     window.addEventListener('concursos:sync-status', (event) => {
       const state = (event as CustomEvent<{ state?: string }>).detail?.state;
       // Só recarrega quando não há edição local pendente, para não descartar um ajuste ainda

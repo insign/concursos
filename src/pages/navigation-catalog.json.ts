@@ -26,7 +26,6 @@ export const GET: APIRoute = async () => {
         { route: `${base}/`, contestStorageId: contest.storageId, subjectStorageId: subject.storageId, activeTab: 'content', readingMode: false },
         { route: `${base}/cheat-sheet/`, contestStorageId: contest.storageId, subjectStorageId: subject.storageId, activeTab: 'cheat-sheet', readingMode: false },
         { route: `${base}/questoes/`, contestStorageId: contest.storageId, subjectStorageId: subject.storageId, activeTab: 'questions', readingMode: false },
-        { route: `${base}/leitura/`, contestStorageId: contest.storageId, subjectStorageId: subject.storageId, activeTab: 'reading', readingMode: true },
       );
     }
   }

@@ -1,6 +1,5 @@
 ---
 import SyncStatus from './SyncStatus.astro';
-import OfflineStatus from './OfflineStatus.astro';
 import PwaInstallButton from './PwaInstallButton.astro';
 import ThemeToggle from './ThemeToggle.astro';
 ---
@@ -13,12 +12,21 @@ import ThemeToggle from './ThemeToggle.astro';
   <nav aria-label="Navegação principal">
     <a href="/">Catálogo</a>
     <a href="/simulados/">Simulados</a>
-    <a href="/configuracoes/">Configurações</a>
   </nav>
   <div class="pwa-controls">
+    <a
+      class="header-icon-control"
+      href="/configuracoes/"
+      aria-label="Configurações"
+      data-tooltip="Configurações"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z"></path>
+        <path d="m19 13.2 1.4 1.1-1.8 3.1-1.7-.7a7.8 7.8 0 0 1-2.2 1.3l-.3 1.8h-3.6l-.3-1.8a7.8 7.8 0 0 1-2.2-1.3l-1.7.7-1.8-3.1 1.4-1.1a7 7 0 0 1 0-2.4L4.8 9.7l1.8-3.1 1.7.7A7.8 7.8 0 0 1 10.5 6l.3-1.8h3.6l.3 1.8a7.8 7.8 0 0 1 2.2 1.3l1.7-.7 1.8 3.1-1.4 1.1a7 7 0 0 1 0 2.4Z"></path>
+      </svg>
+    </a>
     <ThemeToggle />
-    <OfflineStatus />
     <PwaInstallButton />
+    <SyncStatus />
   </div>
-  <SyncStatus />
 </header>

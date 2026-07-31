@@ -220,5 +220,7 @@ describe('catalog', () => {
       estimatedBytes: null,
     });
     expect(inventory.routes.join('\n')).not.toMatch(/area-a|area-b|fundamentos/);
+    expect(inventory.routes.join('\n')).not.toContain('/leitura/');
+    expect(inventory.routes.join('\n')).not.toContain('#focus');
   });
 });

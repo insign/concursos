@@ -61,3 +61,29 @@ Related: GitHub issue #108.
 - ⚠️ Some PUTs may succeed before a later failure; their metadata is retained, but activation offers no transactional rollback.
 - ⚠️ Last-write-wins storage without conditional writes can still lose races, so synchronization is best-effort rather than perfect.
 - ❌ Users cannot link an alias offline or rely on automatic alias migration.
+
+## ADR-003: Local durability barrier for automatic PWA activation (2026-07-31)
+
+**Status**: Accepted
+
+**Context**: Automatic PWA activation and reload can discard transient local state that is not yet durable because it remains behind a UI debounce or semantic navigation capture. The integrated review of commit `22b5325` required a shared barrier that covers these independent producers without changing the fully static architecture or the existing IndexedDB and KV contracts.
+
+**Decision**:
+- `src/lib/local-durability.ts` registers local flushers and maintains a monotonic global activity revision for durability-relevant work.
+- Reading preferences mark persistent edits as activity and flush pending debounce timers, dirty fields, and in-flight writes.
+- Navigation uses a local epoch, awaits bounded initialization, restoration, and older captures, creates a final local-only snapshot, and rejects the flush while a cross-route redirect is pending. Navigation catalog fetching remains bounded.
+- `pwa-update.ts` performs two flush-plus-IndexedDB-settled phases and repeats the barrier until the global activity revision is stable. Any flusher, capture, or persistence failure propagates and aborts activation and reload.
+- The barrier requires local durability only; remote synchronization is not required before activation. The application remains fully static, and existing IndexedDB and KV schemas, identity, arbitration, and synchronization contracts remain unchanged.
+
+**Rationale**:
+- A shared revisioned barrier detects durability work created while an earlier flush is settling, rather than assuming that one pass observes every producer.
+- Producer-owned flushers preserve the semantics of debounced preferences and navigation capture while giving PWA activation one failure-aware contract.
+- Requiring local IndexedDB durability protects reload safety without coupling activation to network availability or best-effort remote KV synchronization.
+- Bounded navigation waits and catalog fetching prevent the activation barrier from hanging indefinitely.
+
+**Consequences**:
+- ✅ Successful automatic activation and reload occur only after relevant transient local state is durably represented in IndexedDB and no newer local activity is observed.
+- ✅ Preference debounce and semantic navigation capture participate in one extensible durability protocol without introducing a backend or changing persistent schemas.
+- ⚠️ New transient-state producers that must survive reload need to register a flusher and mark durability-relevant activity correctly.
+- ⚠️ Activation may wait through multiple bounded phases when local activity continues during flushing.
+- ❌ Any local flush, navigation capture, or IndexedDB settlement failure prevents automatic activation and reload until a later successful attempt.

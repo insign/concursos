@@ -4,13 +4,16 @@ const alias = 'estudo-2026-teste';
 const contest = 'tce-ma-2026-analista-administracao';
 const subjectSlug = 'leitura-interpretacao-tipos-generos';
 const contentUrl = `/concursos/${contest}/${subjectSlug}/`;
-const readingUrl = `/concursos/${contest}/${subjectSlug}/leitura/`;
+const readingUrl = `/concursos/${contest}/${subjectSlug}/#focus`;
 const contestUrl = `/concursos/${contest}/`;
 const subjectId = 'tcema-2026-adm--leitura-tipos-generos';
 const estudadosDocId = `concursos--${alias}--estudados`;
 
 test.beforeEach(async ({ page }) => {
-  await page.addInitScript((value) => localStorage.setItem('concursos:active-alias', value), alias);
+  await page.addInitScript((value) => {
+    localStorage.setItem('concursos:active-alias', value);
+    localStorage.setItem('concursos:catalog-groups', '{"version":1,"collapsed":[]}');
+  }, alias);
 });
 
 test('marks a subject as studied and persists it across reloads', async ({ page }) => {
@@ -101,5 +104,17 @@ test('keeps the mark control available in reading mode', async ({ page }) => {
   const mark = page.getByRole('button', { name: 'Marcar como concluído' });
   await expect(mark).toBeEnabled();
   await mark.click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+});
+
+test('reuses the sole studied control in integrated reading mode', async ({ page }) => {
+  await page.goto(`${contentUrl}#focus`);
+  const mark = page.getByRole('button', { name: 'Marcar como concluído' });
+  await expect(page.locator('[data-studied-toggle]')).toHaveCount(1);
+  await expect(mark).toBeEnabled();
+
+  await mark.click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
   await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 });

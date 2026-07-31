@@ -45,26 +45,31 @@ test('the inline script also sets the browser theme-color before paint (no chrom
   await expect(page.locator('meta[name="theme-color"]')).toHaveAttribute('content', '#101614');
 });
 
-test('offers the three theme options and persists a choice across reloads', async ({ page }) => {
+test('cycles through the three theme options and persists a choice across reloads', async ({ page }) => {
   await page.goto('/');
-  const select = page.getByLabel('Tema');
-  await expect(select).toHaveValue('auto');
-  await expect(select.locator('option')).toHaveCount(3);
+  const toggle = page.locator('[data-theme-toggle]');
+  await expect(toggle).toHaveAttribute('data-theme-preference', 'auto');
+  await expect(toggle).toHaveAccessibleName(/Tema automático/);
   await expect(page.locator('html')).toHaveAttribute('data-theme', /^(light|dark)$/);
 
-  await select.selectOption('dark');
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('data-theme-preference', 'light');
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('data-theme-preference', 'dark');
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
   expect(await page.evaluate((k) => localStorage.getItem(k), THEME_KEY)).toBe('dark');
 
   await page.reload();
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
-  await expect(page.getByLabel('Tema')).toHaveValue('dark');
+  await expect(page.locator('[data-theme-toggle]')).toHaveAttribute('data-theme-preference', 'dark');
 });
 
 test('automatic mode follows the system preference and reacts to changes in real time', async ({ page }) => {
   await page.emulateMedia({ colorScheme: 'light' });
   await page.goto('/');
-  await expect(page.getByLabel('Tema')).toHaveValue('auto');
+  await expect(page.locator('[data-theme-toggle]')).toHaveAttribute('data-theme-preference', 'auto');
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
 
   await page.emulateMedia({ colorScheme: 'dark' });
@@ -78,17 +83,18 @@ test('an explicit light choice overrides a dark system preference', async ({ pag
   await page.emulateMedia({ colorScheme: 'dark' });
   await seedTheme(page, 'light');
   await page.goto('/');
-  await expect(page.getByLabel('Tema')).toHaveValue('light');
+  await expect(page.locator('[data-theme-toggle]')).toHaveAttribute('data-theme-preference', 'light');
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
 });
 
 test('updates the browser theme-color to match the selected theme', async ({ page }) => {
   await page.goto('/');
   const themeColor = page.locator('meta[name="theme-color"]');
-  await page.getByLabel('Tema').selectOption('dark');
-  await expect(themeColor).toHaveAttribute('content', '#101614');
-  await page.getByLabel('Tema').selectOption('light');
+  const toggle = page.locator('[data-theme-toggle]');
+  await toggle.click();
   await expect(themeColor).toHaveAttribute('content', '#275d55');
+  await toggle.click();
+  await expect(themeColor).toHaveAttribute('content', '#101614');
 });
 
 const rootToken = (page: import('@playwright/test').Page, name: string) =>
@@ -99,7 +105,9 @@ const rootToken = (page: import('@playwright/test').Page, name: string) =>
 
 test('printing forces a light palette even with the dark theme explicitly selected', async ({ page }) => {
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/cheat-sheet/');
-  await page.getByLabel('Tema').selectOption('dark');
+  const toggle = page.locator('[data-theme-toggle]');
+  await toggle.click();
+  await toggle.click();
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
 
   await page.emulateMedia({ media: 'print' });

@@ -2,26 +2,31 @@
   import { registerSW } from 'virtual:pwa-register';
   import { getActiveAlias } from '../lib/identity';
   import { cleanupInactiveContestCaches } from '../lib/offline-packages';
-  import { runAfterLocalWritesSettled } from '../lib/pwa-update';
+  import { createPwaUpdateController, type PwaStatusDetail } from '../lib/pwa-update';
   import { requestCompleteProfileSync } from '../lib/simulados-profile-sync';
 
-  let activating = false;
-  const updateServiceWorker = registerSW({
+  const emit = (detail: PwaStatusDetail) => {
+    window.dispatchEvent(new CustomEvent('concursos:pwa-status', { detail }));
+  };
+  let updateServiceWorker: (reloadPage?: boolean) => Promise<void> = async () => undefined;
+  const controller = createPwaUpdateController({
+    activate: () => updateServiceWorker(true),
+    reload: () => window.location.reload(),
+    emit,
+  });
+  updateServiceWorker = registerSW({
     immediate: true,
     onNeedRefresh() {
-      if (activating) return;
-      activating = true;
-      void runAfterLocalWritesSettled(() => updateServiceWorker(true))
-        .catch((error) => console.error('A atualização aguardará até que os dados locais sejam duráveis.', error))
-        .finally(() => {
-          activating = false;
-        });
+      void controller.requestActivation();
     },
     onNeedReload() {
-      void runAfterLocalWritesSettled(() => window.location.reload())
-        .catch((error) => console.error('A atualização aguardará até que os dados locais sejam duráveis.', error));
+      void controller.requestReload();
+    },
+    onRegisterError(error) {
+      controller.reportRegistrationError(error);
     },
   });
+  window.addEventListener('concursos:pwa-retry', () => void controller.retry());
 
   if ('caches' in window) void cleanupInactiveContestCaches().catch(() => undefined);
 

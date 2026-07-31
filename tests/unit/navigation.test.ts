@@ -2,8 +2,10 @@ import { describe, expect, it } from 'vitest';
 import {
   createNavigationDocument,
   isSafeNavigationRoute,
+  navigationDestination,
   navigationDocumentSchema,
   navigationFingerprint,
+  normalizeNavigationDocument,
   normalizeTextQuote,
   resolveNavigationVersionAction,
   type NavigationContext,
@@ -14,7 +16,7 @@ const context: NavigationContext = {
   groupId: 'portugues',
   subjectStorageId: 'interpretacao-textos',
   questionId: null,
-  activeTab: 'reading',
+  activeTab: 'content',
   readingMode: true,
   questionOrigin: null,
   questionLayout: null,
@@ -24,7 +26,7 @@ const context: NavigationContext = {
 describe('navigation document', () => {
   it('accepts an internal semantic reading position', () => {
     const document = createNavigationDocument(
-      '/concursos/tce-ma-2026/interpretacao-textos/leitura/',
+      '/concursos/tce-ma-2026/interpretacao-textos/',
       context,
       {
         contentVersion: 'conteudos/tce-ma-2026/interpretacao-textos',
@@ -59,6 +61,35 @@ describe('navigation document', () => {
     const first = createNavigationDocument('/', { ...context, activeTab: 'catalog', readingMode: false }, null, new Date(0));
     const second = { ...first, updatedAt: new Date(1_000).toISOString() };
     expect(navigationFingerprint(first)).toBe(navigationFingerprint(second));
+  });
+
+  it('normalizes legacy reading routes while keeping fragments out of storage', () => {
+    const legacy = createNavigationDocument(
+      '/concursos/tce-ma-2026/interpretacao-textos/leitura/?origem=remota',
+      { ...context, activeTab: 'reading' },
+      null,
+    );
+    const normalized = normalizeNavigationDocument(legacy);
+
+    expect(normalized.route).toBe('/concursos/tce-ma-2026/interpretacao-textos/?origem=remota');
+    expect(normalized.context.activeTab).toBe('content');
+    expect(normalized.context.readingMode).toBe(true);
+    expect(navigationDestination(normalized)).toBe(
+      '/concursos/tce-ma-2026/interpretacao-textos/?origem=remota#focus',
+    );
+    expect(isSafeNavigationRoute(normalized.route)).toBe(true);
+  });
+
+  it('does not emit a reading destination for a non-content tab', () => {
+    const invalid = createNavigationDocument(
+      '/concursos/tce-ma-2026/interpretacao-textos/questoes/',
+      { ...context, activeTab: 'questions', readingMode: true },
+      null,
+    );
+    const normalized = normalizeNavigationDocument(invalid);
+
+    expect(normalized.context.readingMode).toBe(false);
+    expect(navigationDestination(normalized)).toBe(invalid.route);
   });
 });
 

@@ -4,28 +4,27 @@ const STATE_VERSION = 1;
 
 /**
  * Lê o estado persistido dos grupos do catálogo e retorna o conjunto de IDs de
- * grupo recolhidos. Grupos ausentes do conjunto permanecem expandidos por padrão.
+ * grupo recolhidos. Um documento válido pode conter um conjunto vazio.
  *
- * Tolera ausência de dado, JSON inválido e documentos de versão ausente ou
- * desconhecida: em qualquer um desses casos o conjunto retorna vazio, sem lançar,
- * para que a interface nunca quebre nem interprete mal um formato futuro. Apenas
- * documentos da versão conhecida (`STATE_VERSION`) têm seus IDs restaurados.
+ * Ausência de dado, JSON inválido e versões desconhecidas retornam `null`, sem
+ * lançar, para que a interface aplique com segurança o padrão de primeira visita.
+ * Apenas documentos da versão conhecida têm seus IDs restaurados.
  */
-export function parseCollapsedGroups(raw: string | null | undefined): Set<string> {
-  if (!raw) return new Set();
+export function parseCollapsedGroups(raw: string | null | undefined): Set<string> | null {
+  if (!raw) return null;
 
   let data: unknown;
   try {
     data = JSON.parse(raw);
   } catch {
-    return new Set();
+    return null;
   }
 
-  if (typeof data !== 'object' || data === null) return new Set();
+  if (typeof data !== 'object' || data === null) return null;
 
   const record = data as { version?: unknown; collapsed?: unknown };
-  if (record.version !== STATE_VERSION) return new Set();
-  if (!Array.isArray(record.collapsed)) return new Set();
+  if (record.version !== STATE_VERSION) return null;
+  if (!Array.isArray(record.collapsed)) return null;
 
   return new Set(record.collapsed.filter((id): id is string => typeof id === 'string' && id.length > 0));
 }
