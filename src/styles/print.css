@@ -10,7 +10,7 @@
   :root,
   :root[data-theme='dark'],
   :root:not([data-theme]) {
-    color-scheme: light;
+    color-scheme: light !important;
     --ink: #000;
     --muted: #333;
     --paper: #fff;
@@ -46,6 +46,7 @@
   }
 
   .study-shell,
+  .reading-focus,
   .reading-surface,
   .reading-surface > article {
     width: 100%;
@@ -54,6 +55,32 @@
     padding: 0;
     border: 0;
     box-shadow: none;
+  }
+
+  .reading-focus {
+    min-height: 0;
+    color-scheme: light !important;
+    --ink: #000 !important;
+    --muted: #333 !important;
+    --paper: #fff !important;
+    --ground: #fff !important;
+    --line: #777 !important;
+    --accent: #17413b !important;
+    --accent-strong: #17413b !important;
+    --accent-soft: #ebebeb !important;
+    --signal: #7a2e1f !important;
+    --code-bg: #f0f0f0 !important;
+    --field-bg: #fff !important;
+    --positive: #1f5a41 !important;
+    --positive-soft: #eef4f0 !important;
+    --negative-soft: #f6eae6 !important;
+    --danger-ink: #7a2e1f !important;
+    background: #fff;
+  }
+
+  .reading-focus:is(:target, [data-reading-focus-active]) {
+    min-height: 0 !important;
+    padding: 0 !important;
   }
 
   h1 {

@@ -103,3 +103,15 @@ test('keeps the mark control available in reading mode', async ({ page }) => {
   await mark.click();
   await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
 });
+
+test('reuses the sole studied control in integrated reading mode', async ({ page }) => {
+  await page.goto(`${contentUrl}#focus`);
+  const mark = page.getByRole('button', { name: 'Marcar como concluído' });
+  await expect(page.locator('[data-studied-toggle]')).toHaveCount(1);
+  await expect(mark).toBeEnabled();
+
+  await mark.click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+});

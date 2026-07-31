@@ -1,0 +1,212 @@
+<script>
+  const root = document.querySelector<HTMLElement>('[data-reading-focus]');
+  const open = root?.querySelector<HTMLAnchorElement>('[data-reading-focus-open]') ?? null;
+  const close = root?.querySelector<HTMLAnchorElement>('[data-reading-focus-close]') ?? null;
+
+  if (root && open && close) {
+    const HISTORY_KEY = 'concursosReadingFocus';
+    const FOCUSABLE = [
+      'a[href]',
+      'button:not([disabled])',
+      'input:not([disabled])',
+      'select:not([disabled])',
+      'textarea:not([disabled])',
+      '[tabindex]:not([tabindex="-1"])',
+    ].join(',');
+
+    interface ExternalState {
+      element: HTMLElement;
+      inert: boolean;
+      ariaHidden: string | null;
+    }
+
+    interface LayoutState {
+      anchorTop: number;
+    }
+
+    interface PendingTraversal {
+      layout: LayoutState;
+    }
+
+    let active: boolean | null = null;
+    let opener: HTMLElement | null = null;
+    let externalStates: ExternalState[] = [];
+    let pendingTraversal: PendingTraversal | null = null;
+    let previousScrollRestoration: ScrollRestoration | null = null;
+
+    const layoutAnchor = root.querySelector<HTMLElement>('.reading-surface > article') ?? root;
+
+    const isFocusHash = () => location.hash === '#focus';
+    const hasFocusHistoryState = () =>
+      typeof history.state === 'object' && history.state !== null && history.state[HISTORY_KEY] === true;
+
+    const captureLayout = (): LayoutState => ({
+      anchorTop: layoutAnchor.getBoundingClientRect().top,
+    });
+
+    const preserveLayout = (previous?: LayoutState) => {
+      if (!previous) return;
+      const delta = layoutAnchor.getBoundingClientRect().top - previous.anchorTop;
+      if (delta !== 0) window.scrollTo({ top: window.scrollY + delta });
+    };
+
+    const outsideElements = (): HTMLElement[] => {
+      const main = root.parentElement;
+      if (!main) return [];
+      const bodySiblings = Array.from(document.body.children).filter(
+        (element): element is HTMLElement =>
+          element instanceof HTMLElement && element !== main && element.tagName !== 'SCRIPT',
+      );
+      const mainSiblings = Array.from(main.children).filter(
+        (element): element is HTMLElement =>
+          element instanceof HTMLElement && element !== root && element.tagName !== 'SCRIPT',
+      );
+      return [...bodySiblings, ...mainSiblings];
+    };
+
+    const hideOutside = () => {
+      externalStates = outsideElements().map((element) => ({
+        element,
+        inert: element.hasAttribute('inert'),
+        ariaHidden: element.getAttribute('aria-hidden'),
+      }));
+      externalStates.forEach(({ element }) => {
+        element.inert = true;
+        element.setAttribute('aria-hidden', 'true');
+      });
+    };
+
+    const restoreOutside = () => {
+      externalStates.forEach(({ element, inert, ariaHidden }) => {
+        element.toggleAttribute('inert', inert);
+        if (ariaHidden === null) element.removeAttribute('aria-hidden');
+        else element.setAttribute('aria-hidden', ariaHidden);
+      });
+      externalStates = [];
+    };
+
+    const focusableElements = () =>
+      Array.from(root.querySelectorAll<HTMLElement>(FOCUSABLE)).filter(
+        (element) => !element.hidden && element.getClientRects().length > 0,
+      );
+
+    const setActive = (next: boolean, layout?: LayoutState): boolean => {
+      if (active === next) return false;
+      active = next;
+      root.toggleAttribute('data-reading-focus-active', next);
+      document.body.classList.toggle('reading-focus-active', next);
+
+      if (next) {
+        if (previousScrollRestoration === null) {
+          previousScrollRestoration = history.scrollRestoration;
+          history.scrollRestoration = 'manual';
+        }
+        root.setAttribute('role', 'dialog');
+        root.setAttribute('aria-modal', 'true');
+        hideOutside();
+      } else {
+        root.removeAttribute('role');
+        root.removeAttribute('aria-modal');
+        restoreOutside();
+      }
+
+      preserveLayout(layout);
+      window.dispatchEvent(new CustomEvent('concursos:reading-focus-change', { detail: { active: next } }));
+
+      requestAnimationFrame(() => {
+        if (next) close.focus({ preventScroll: true });
+        else (opener?.isConnected ? opener : open).focus({ preventScroll: true });
+      });
+      if (!next && previousScrollRestoration !== null) {
+        const restoration = previousScrollRestoration;
+        requestAnimationFrame(() => {
+          if (active || previousScrollRestoration !== restoration) return;
+          history.scrollRestoration = restoration;
+          previousScrollRestoration = null;
+        });
+      }
+      return true;
+    };
+
+    const syncFromLocation = () => {
+      const pending = pendingTraversal;
+      pendingTraversal = null;
+      const layout = pending?.layout ?? captureLayout();
+      const changed = setActive(isFocusHash(), layout);
+      // A restauração nativa de histórico pode acontecer depois de popstate; reaplica
+      // a âncora no próximo frame para preservar o mesmo ponto visual de leitura.
+      if (changed) requestAnimationFrame(() => preserveLayout(layout));
+    };
+
+    const closeFocus = () => {
+      if (!isFocusHash()) return;
+      if (hasFocusHistoryState()) {
+        if (pendingTraversal) return;
+        pendingTraversal = {
+          layout: captureLayout(),
+        };
+        history.back();
+        return;
+      }
+
+      const layout = captureLayout();
+      const url = new URL(location.href);
+      url.hash = '';
+      history.replaceState(history.state, '', `${url.pathname}${url.search}`);
+      setActive(false, layout);
+    };
+
+    open.addEventListener('click', (event) => {
+      if (isFocusHash()) return;
+      event.preventDefault();
+      opener = open;
+      const layout = captureLayout();
+      const state =
+        typeof history.state === 'object' && history.state !== null ? { ...history.state } : {};
+      state[HISTORY_KEY] = true;
+      const url = new URL(location.href);
+      url.hash = 'focus';
+      history.pushState(state, '', `${url.pathname}${url.search}${url.hash}`);
+      setActive(true, layout);
+    });
+
+    close.addEventListener('click', (event) => {
+      event.preventDefault();
+      closeFocus();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (!active) return;
+      if (event.key === 'Escape') {
+        if (event.defaultPrevented || root.querySelector('.reading-customizer-panel:not([hidden])')) return;
+        event.preventDefault();
+        closeFocus();
+        return;
+      }
+      if (event.key !== 'Tab') return;
+
+      const focusable = focusableElements();
+      if (focusable.length === 0) {
+        event.preventDefault();
+        root.focus({ preventScroll: true });
+        return;
+      }
+
+      const first = focusable[0];
+      const last = focusable.at(-1) ?? first;
+      if (event.shiftKey && (document.activeElement === first || !root.contains(document.activeElement))) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
+
+    window.addEventListener('popstate', syncFromLocation);
+    window.addEventListener('hashchange', syncFromLocation);
+
+    setActive(isFocusHash());
+    root.setAttribute('data-reading-focus-ready', '');
+  }
+</script>

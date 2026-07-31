@@ -3,6 +3,8 @@ import SubjectNavigation from '../components/SubjectNavigation.astro';
 import SubjectPagination from '../components/SubjectPagination.astro';
 import SubjectActionBar from '../components/SubjectActionBar.astro';
 import NextSubjectSuggestion from '../components/NextSubjectSuggestion.astro';
+import ReadingCustomizer from '../components/ReadingCustomizer.astro';
+import ReadingFocusRuntime from '../components/ReadingFocusRuntime.astro';
 import BaseLayout from './BaseLayout.astro';
 import type { CatalogContest, CatalogSubject } from '../lib/catalog';
 
@@ -14,6 +16,7 @@ interface Props {
 
 const { contest, subject, active } = Astro.props;
 const groupId = subject.groupPath.at(-1)?.slug ?? null;
+const subjectHref = `/concursos/${contest.slug}/${subject.slug}/`;
 ---
 
 <BaseLayout title={subject.title} description={subject.description} pageClass={`study-page ${active}`}>
@@ -50,18 +53,55 @@ const groupId = subject.groupPath.at(-1)?.slug ?? null;
 
     <SubjectNavigation contestSlug={contest.slug} subjectSlug={subject.slug} active={active} />
 
-    <div class="reading-surface" data-navigation-content>
-      <slot />
-    </div>
+    {
+      active === 'content' ? (
+        <div
+          id="focus"
+          class="reading-focus"
+          data-reading-focus
+          tabindex="-1"
+          aria-label="Modo de leitura sem distrações"
+        >
+          <div class="reading-bar reading-focus-bar print-hidden">
+            <div class="reading-bar-controls">
+              <ReadingCustomizer />
+            </div>
+            <a class="reading-exit" href={subjectHref} data-reading-focus-close>
+              <span class="reading-exit-icon" aria-hidden="true">✕</span>
+              <span>Fechar leitura</span>
+            </a>
+          </div>
+
+          <div class="reading-surface" data-navigation-content>
+            <slot />
+          </div>
+
+          <SubjectActionBar
+            contestSlug={contest.slug}
+            contestStorageId={contest.storageId}
+            subjectStorageId={subject.storageId}
+          />
+        </div>
+      ) : (
+        <div class="reading-surface" data-navigation-content>
+          <slot />
+        </div>
+      )
+    }
 
     <NextSubjectSuggestion contest={contest} />
 
     <SubjectPagination contest={contest} subject={subject} />
 
-    <SubjectActionBar
-      contestSlug={contest.slug}
-      contestStorageId={contest.storageId}
-      subjectStorageId={subject.storageId}
-    />
+    {
+      active !== 'content' && (
+        <SubjectActionBar
+          contestSlug={contest.slug}
+          contestStorageId={contest.storageId}
+          subjectStorageId={subject.storageId}
+        />
+      )
+    }
   </main>
+  {active === 'content' && <ReadingFocusRuntime />}
 </BaseLayout>

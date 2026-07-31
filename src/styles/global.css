@@ -586,9 +586,46 @@ a.subject-reading-link:hover {
   font-weight: 800;
 }
 
-/* Modo de leitura sem distrações (#101): rota dedicada, layout mínimo. */
+/* Modo de leitura sem distrações (#101): rota dedicada e estado #focus integrado. */
 .reading-shell {
   padding-block: 1rem 5rem;
+}
+
+.reading-focus .reading-focus-bar {
+  display: none;
+}
+
+.reading-focus[data-reading-focus-active],
+.reading-focus:target:not([data-reading-focus-ready]) {
+  min-height: 100vh;
+  padding-block: 1rem 5rem;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.reading-focus[data-reading-focus-active] .reading-focus-bar,
+.reading-focus:target:not([data-reading-focus-ready]) .reading-focus-bar {
+  display: flex;
+}
+
+.study-page.reading-focus-active .site-header,
+.study-page:has(#focus:target:not([data-reading-focus-ready])) .site-header,
+.study-page.reading-focus-active .navigation-offer,
+.study-page:has(#focus:target:not([data-reading-focus-ready])) .navigation-offer,
+.study-page.reading-focus-active .study-shell > :not(.reading-focus),
+.study-page:has(#focus:target:not([data-reading-focus-ready])) .study-shell > :not(.reading-focus),
+.reading-focus[data-reading-focus-active] .reading-entry,
+.reading-focus:target:not([data-reading-focus-ready]) .reading-entry,
+.reading-focus[data-reading-focus-active] .subject-action-back,
+.reading-focus:target:not([data-reading-focus-ready]) .subject-action-back {
+  display: none;
+}
+
+.study-page.reading-focus-active .study-shell,
+.study-page:has(#focus:target:not([data-reading-focus-ready])) .study-shell {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .reading-bar {
@@ -635,7 +672,8 @@ a.reading-exit:hover {
 /* Esquemas de cor de leitura (#103): presets isolados que redefinem os tokens
    semânticos apenas dentro do modo de leitura, garantindo contraste adequado
    independentemente do tema global. 'auto' não define nada e segue o tema. */
-.reading-shell[data-reading-scheme='claro'] {
+.reading-shell[data-reading-scheme='claro'],
+.reading-focus:is(:target, [data-reading-focus-active])[data-reading-scheme='claro'] {
   color-scheme: light;
   --ink: #1b2a26;
   --muted: #5a6b64;
@@ -648,7 +686,8 @@ a.reading-exit:hover {
   --field-bg: #fff;
 }
 
-.reading-shell[data-reading-scheme='sepia'] {
+.reading-shell[data-reading-scheme='sepia'],
+.reading-focus:is(:target, [data-reading-focus-active])[data-reading-scheme='sepia'] {
   color-scheme: light;
   --ink: #43341f;
   --muted: #786349;
@@ -661,7 +700,8 @@ a.reading-exit:hover {
   --field-bg: #fbf4e4;
 }
 
-.reading-shell[data-reading-scheme='cinza'] {
+.reading-shell[data-reading-scheme='cinza'],
+.reading-focus:is(:target, [data-reading-focus-active])[data-reading-scheme='cinza'] {
   color-scheme: dark;
   --ink: #e8edef;
   --muted: #aab4b7;
@@ -674,7 +714,8 @@ a.reading-exit:hover {
   --field-bg: #2b3033;
 }
 
-.reading-shell[data-reading-scheme='escuro'] {
+.reading-shell[data-reading-scheme='escuro'],
+.reading-focus:is(:target, [data-reading-focus-active])[data-reading-scheme='escuro'] {
   color-scheme: dark;
   --ink: #e7ece8;
   --muted: #9ca9a4;
