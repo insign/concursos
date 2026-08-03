@@ -339,7 +339,7 @@ I - História do Estado do Maranhão
 - Item 8. A Independência do Brasil.
 - Item 9. Causas da não adesão: a Batalha do Jenipapo.
 
-##### [R] Em revisão Assunto 077 - Item 10: Balaiada: caracterização e causas.
+##### [x] Concluído Assunto 077 - Item 10: Balaiada: caracterização e causas.
 
 - Item 10. A Balaiada: caracterização e causas do movimento.
 
