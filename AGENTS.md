@@ -4,14 +4,13 @@ Status: guia operacional autoritativo e documento vivo.
 
 ## Autoridade e leitura obrigatória
 
-- `final_plan.md` FOI a fonte autoritativa dos requisitos, contratos, riscos aceitos e definição de pronto.
 - `ROADMAP.md` é a fonte autoritativa do backlog editorial, do conteúdo programático e do estado de produção de cada assunto.
 
 ## Estado atual
 
 - Repositório: `https://github.com/insign/concursos`.
 - Branch padrão: `main`.
-- Plano âncora: `803a1a4`.
+- Plano âncora: `2fc0ce077e0b198827b0f4713f94d98d9b1df45b`.
 - Projeto: Astro 7 estático, Node.js 22.12.0 ou superior, npm e TypeScript strict.
 - Pipeline editorial: Unified via `@astrojs/markdown-remark`, GFM, KaTeX local, Shiki e `astro-mermaid`/Mermaid client-side.
 - Domínio: `https://concursos.helio.me`.
@@ -20,7 +19,7 @@ Status: guia operacional autoritativo e documento vivo.
 - Build do Pages: `npm run build`.
 - Diretório publicado: `dist`.
 - O scaffold, o projeto Pages, a Git integration e o custom domain já existem. Não os recrie.
-- A implementação, os testes integrados, a revisão independente, a documentação e a validação de produção foram concluídos em 14 de julho de 2026 conforme `final_plan.md`.
+- A implementação, os testes integrados, a revisão independente, a documentação e a validação de produção foram concluídos em 14 de julho de 2026.
 
 ## Comandos atuais
 
@@ -93,7 +92,6 @@ npm run preview
 - Embaralhamento usa `question-order.ts`: a ordem inicial permanece determinística por usuário, concurso, assunto e revisão do conjunto; a ação explícita de gerar nova ordem usa aleatoriedade efêmera e nunca altera a identidade ou a persistência das respostas.
 - Simulados personalizados usam a rota estática `/simulados/`, com o comportamento no navegador isolado em `src/lib/simulados-controller.ts`; cada criação congela ordem, snapshot editorial e configuração, e uma nova tentativa sempre recebe outro UUID.
 - `/simulados/catalog.json` expõe apenas metadados e contagens por origem; `/simulados/pool/<contestStorageId>.json` entrega o pool completo daquele concurso somente quando o usuário gera uma tentativa. Ambos são pré-renderizados, sem SSR ou backend Astro.
-- Consulte `final_plan.md` para schemas, revisões, rotas e regras editoriais completas.
 
 ## Fluxo editorial para novos conteúdos
 
@@ -119,10 +117,11 @@ npm run preview
 - Use o subagente `researcher` para pesquisar o assunto antes de redigir. O briefing deve informar concurso, cargo, matéria e todos os itens, subitens e recortes do edital atribuídos ao assunto selecionado.
 - Toda pesquisa que envolva o Brasil, legislação brasileira ou conteúdo editorial brasileiro deve usar português brasileiro no briefing ao `researcher`, nas consultas aos provedores e no relatório solicitado. Preserve citações exatas, nomes oficiais, títulos de fontes e termos técnicos necessários no idioma original; o prompt ao `urlreader` deve ser escrito em português, mas o conteúdo extraído deve permanecer no idioma original e sem tradução ou síntese.
 - Solicite material completo e relevante para aprendizagem e cobrança em concursos, incluindo provas similares, sem limitar a pesquisa a resumos superficiais.
-- Priorize edital e retificações, legislação e páginas oficiais, provas e gabaritos oficiais, documentação técnica primária e referências acadêmicas reconhecidas.
+- Priorize, nesta ordem conforme a natureza do assunto: edital e retificações; normas e documentação oficial; jurisprudência aplicável; provas e gabaritos oficiais; fontes técnicas primárias; e referências acadêmicas reconhecidas.
+- Use sites de concursos apenas como fontes secundárias para comparar cobertura e abordagem didática. Eles não substituem fontes primárias nem sustentam, isoladamente, afirmações factuais, normativas, jurisprudenciais ou gabaritos.
 - Use o subagente `urlreader` para ler integralmente as páginas mais relevantes e resolver lacunas, divergências ou detalhes que snippets de busca não sustentem.
 - O `urlreader` deve retornar o conteúdo extraído do URL, sem síntese, interpretação, contextualização ou agregação de valor; a análise e a decisão sobre esse conteúdo são responsabilidade do agente que o chamou.
-- Em matérias jurídicas ou normativas, confira vigência, alterações, entendimento aplicável e corte temporal definido pelo edital.
+- Em matérias jurídicas ou normativas, fixe o corte temporal antes da redação e separe explicitamente: legislação vigente na data de publicação do edital; norma futura citada pelo próprio edital; jurisprudência formada ou aplicável dentro do corte; e atualização posterior, sempre marcada como `pós-edital` ou `direito vigente hoje`, sem projetá-la retroativamente sobre o recorte da prova.
 - Nunca apresente como fato uma afirmação sem apoio nas fontes consultadas. Se fontes confiáveis divergirem, explique o recorte adotado no conteúdo.
 - Termine `conteudo.md` com uma seção de referências que identifique título, entidade responsável e URL de cada fonte efetivamente usada; para normas e jurisprudência, registre também versão, publicação ou vigência relevante e data de acesso.
 - Em Markdown editorial, nunca exponha uma URL crua como texto visível. Todo link deve usar um título curto, descritivo e contextual na forma `[título](URL)`, inclusive nas referências, preservando o endereço completo apenas no destino do link.
@@ -131,9 +130,13 @@ npm run preview
 
 - Antes de escrever, inspecione os schemas e um assunto existente para preservar caminhos, frontmatter, IDs, estilo Markdown e contratos do catálogo.
 - Salve o material em `src/content/assuntos/<concurso>/<grupo>/.../<assunto>/conteudo.md`, sob um ou mais grupos com `grupo.json`, e cubra integralmente todos os itens, subitens e recortes atribuídos ao assunto no roadmap.
+- Abra o conteúdo com o recorte e o objetivo do assunto e, quando aplicável, seu corte temporal. Cubra tudo que possa ser cobrado dentro desse recorte, mas só acrescente matéria expressa no edital, pré-requisito indispensável, distinção necessária para evitar ambiguidade ou pegadinha, ou conhecimento que ajude a resolver questão ou situação-problema pertinente.
+- Não fuja do tema, não repita em profundidade tópicos que possuem assunto próprio e não transforme comandos introdutórios como `noções` em especialização. Ajuste a profundidade à redação do edital, ao histórico de cobrança e à utilidade concreta para a prova.
 - Defina `order` conforme a numeração fixa do assunto no roadmap; não renumere assuntos já publicados por mudança de status, omissão ou renomeação.
 - Escreva para aprendizagem: apresente fundamentos, desenvolvimento gradual, exemplos, comparações, classificações, exceções, fórmulas, aplicações e erros recorrentes de prova.
 - Organize o texto em uma ordem pedagógica própria quando a ordem bruta do edital não for a melhor sequência de aprendizagem, sem omitir nenhum tópico.
+- Prefira, quando fizer sentido para o assunto, esta sequência: recorte e objetivo; corte temporal; conceitos e distinções; regras e aplicações; fluxos ou matrizes; exemplos ou casos; pegadinhas; método de resolução ou aplicação; referências. Adapte a estrutura quando outra ordem ensinar melhor, sem omitir os elementos relevantes.
+- O resultado deve ser correto, didático, completo em relação ao edital, focado e não ambíguo. Distinções, exemplos e exceções devem esclarecer a cobrança, não inflar o texto ou reproduzir conteúdo de outros assuntos.
 - Use tabelas, fórmulas, código, imagens ou Mermaid apenas quando melhorarem a compreensão e respeite todas as regras locais do pipeline Markdown.
 - O conteúdo deve ensinar corretamente os conceitos necessários para responder ao banco de questões; não insira respostas artificiais apenas para espelhar perguntas específicas.
 
@@ -141,7 +144,8 @@ npm run preview
 
 - Produza `cheat-sheet.md` depois de concluir o conteúdo completo e de revisar as fontes principais.
 - Não adicione frontmatter ao cheat sheet nem repita metadados pertencentes ao assunto.
-- Use formulações afirmativas, curtas e precisas para relembrar conceitos, classificações, fórmulas, exceções e pegadinhas relevantes.
+- Não replique nem apenas comprima linearmente o conteúdo integral. Selecione o que favorece recuperação rápida e use matrizes, contrastes, fórmulas, fluxos, regras de uma linha, prazos, exceções e pegadinhas.
+- Use formulações afirmativas, curtas e precisas para relembrar conceitos, classificações, distinções, fórmulas, exceções e pegadinhas relevantes.
 - Otimize a estrutura para leitura rápida e impressão, com títulos claros, listas e tabelas compactas quando apropriado.
 - Não introduza no cheat sheet afirmações ausentes, mais amplas ou contraditórias em relação ao conteúdo completo.
 
@@ -151,19 +155,23 @@ npm run preview
 - Toda questão deve declarar `origin` como `authorial` ou `previous_exam`. Use `previous_exam` apenas para questão oficial ou adaptação de prova anterior verificável; use `authorial` para questão explicitamente autoral, inclusive inspirada sem reprodução literal. Revise fontes ausentes ou ambíguas antes de classificar; nunca infira origem no navegador a partir da explicação.
 - Distribua as questões entre todos os subitens relevantes do edital, com variedade de dificuldade, formulação e aplicação, evitando duplicações disfarçadas.
 - Prefira questões reais de concursos anteriores obtidas de provas e gabaritos oficiais. Não use como fonte primária bancos pagos, compilações sem proveniência ou gabaritos não verificáveis.
+- Priorize, entre as questões verificáveis, a mesma banca; depois órgãos semelhantes, áreas próximas e provas mais recentes. Use questões autorais para cobrir lacunas do edital, sem tratá-las como substitutas de questões reais pertinentes.
+- Adicione questões oficiais úteis enquanto a busca trouxer cobrança substantivamente pertinente; interrompa quando os resultados se tornarem repetitivos ou distantes do recorte. Não cite nem liste prova que não tenha sido efetivamente usada na questão, na adaptação ou na análise editorial.
 - Só identifique uma questão como oficial quando enunciado, alternativas, prova e gabarito puderem ser verificados. Preserve o sentido original e normalize apenas a formatação necessária ao formato do projeto.
-- Quando adaptar uma questão por mudança legislativa, formato incompatível ou necessidade didática, identifique-a explicitamente como adaptada. Nunca atribua questão autoral a uma banca.
+- Quando adaptar uma questão por mudança legislativa, formato incompatível ou necessidade didática, preserve o núcleo cobrado e o gabarito, mantenha cinco alternativas de `A` a `E` e registre a prova de origem, o gabarito oficial e a adaptação realizada. Identifique-a explicitamente como adaptada e nunca atribua questão autoral a uma banca.
 - Questões reais desatualizadas devem ser excluídas ou adaptadas de forma explícita para refletir o conteúdo vigente e o recorte do edital.
+- Ao revisar um conjunto já publicado, preserve questões úteis e seus IDs permanentes. Remova uma questão somente quando estiver errada, duplicada, fora do escopo, irremediavelmente ambígua ou incompatível com a regra vigente e não puder ser corrigida por adaptação válida.
 - Cada explicação deve justificar a alternativa correta, esclarecer os distratores relevantes e terminar com uma destas convenções textuais de proveniência:
 - `Fonte: questão oficial; <banca>; <concurso/prova>; <ano>; questão <número>; <URL oficial>.`
 - `Fonte: questão adaptada de <banca/prova/ano/número/URL>; adaptação: <motivo>.`
 - `Fonte: questão autoral baseada em <referências do conteúdo>.`
 - `origin` é metadado editorial de seleção: uma alteração exclusiva de origem preserva IDs, ordem, enunciado, opções, gabarito, explicação, `question.revision` e `questionSetRevision`.
-- Preserve IDs permanentes e aplique as regras de `questionSetRevision` e `question.revision` de `final_plan.md` ao alterar conjuntos já publicados.
+- Preserve IDs permanentes. Reordenar questões ou corrigir apenas a ortografia da explicação não altera revisões; alterar enunciado, opções ou gabarito incrementa `question.revision`; adicionar ou remover questões incrementa `questionSetRevision`.
 
 ### Double-check, validação e publicação
 
 - Faça uma segunda conferência separada da redação para comparar edital, fontes, conteúdo completo, cheat sheet e questões.
+- Avalie explicitamente aderência ao recorte, atualização e corte temporal, distinções necessárias, qualidade dos exemplos e pegadinhas, lacunas, redundâncias e profundidade proporcional ao edital.
 - Confirme que todo subitem do edital foi ensinado, que cada gabarito é correto, que os distratores não criam ambiguidade e que as respostas estão sustentadas pelo conteúdo.
 - Confira quantidade, IDs, revisões, duplicações, ortografia, links, atribuições de questões reais, consistência entre os três arquivos e correspondência única do `order` com a numeração fixa do roadmap.
 - Reabra fontes primárias para afirmações de maior risco e use nova pesquisa quando houver dúvida ou divergência; não aprove conteúdo com incerteza factual conhecida.
