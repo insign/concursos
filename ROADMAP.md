@@ -348,7 +348,7 @@ I - História do Estado do Maranhão
 - Item 11. Período Republicano: adesão do Maranhão à República.
 - Item 12. A Revolução de 1930 no Maranhão.
 
-##### [>] Em progresso Assunto 079 - Item 13: Vitorinismo e Greve de 1951.
+##### [R] Em revisão Assunto 079 - Item 13: Vitorinismo e Greve de 1951.
 
 - Item 13. O Vitorinismo e a Greve de 1951.
 - O item 13 é tratado conjuntamente, por recorte histórico, sem repetição.
