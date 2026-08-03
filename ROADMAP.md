@@ -353,7 +353,7 @@ I - História do Estado do Maranhão
 - Item 13. O Vitorinismo e a Greve de 1951.
 - O item 13 é tratado conjuntamente, por recorte histórico, sem repetição.
 
-##### [ ] Assunto 080 - Item 14, recorte político: fatos políticos do Maranhão na segunda metade do século XX.
+##### [>] Em progresso Assunto 080 - Item 14, recorte político: fatos políticos do Maranhão na segunda metade do século XX.
 
 - Item 14. Fatos políticos do Maranhão na segunda metade do século XX.
 
