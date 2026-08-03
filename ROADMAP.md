@@ -343,7 +343,7 @@ I - História do Estado do Maranhão
 
 - Item 10. A Balaiada: caracterização e causas do movimento.
 
-##### [>] Em progresso Assunto 078 - Itens 11 e 12: Adesão do Maranhão à República e Revolução de 1930.
+##### [R] Em revisão Assunto 078 - Itens 11 e 12: Adesão do Maranhão à República e Revolução de 1930.
 
 - Item 11. Período Republicano: adesão do Maranhão à República.
 - Item 12. A Revolução de 1930 no Maranhão.
