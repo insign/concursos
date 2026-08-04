@@ -357,7 +357,7 @@ I - História do Estado do Maranhão
 
 - Item 14. Fatos políticos do Maranhão na segunda metade do século XX.
 
-##### [>] Em progresso Assunto 081 - Item 14, recorte econômico: fatos econômicos do Maranhão na segunda metade do século XX.
+##### [R] Em revisão Assunto 081 - Item 14, recorte econômico: fatos econômicos do Maranhão na segunda metade do século XX.
 
 - Item 14. Fatos econômicos do Maranhão na segunda metade do século XX.
 
