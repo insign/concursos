@@ -422,7 +422,7 @@ II - Geografia do Estado do Maranhão
 
 #### Noções de Direitos Humanos
 
-##### [>] Em progresso Assunto 095 - Itens 1 e 2: Teoria geral dos direitos fundamentais e relação entre direitos humanos e fundamentais.
+##### [R] Em revisão Assunto 095 - Itens 1 e 2: Teoria geral dos direitos fundamentais e relação entre direitos humanos e fundamentais.
 
 - Item 1. Teoria geral dos direitos fundamentais.
 - Item 2. Direitos humanos e direitos fundamentais.
