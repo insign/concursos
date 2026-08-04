@@ -416,7 +416,7 @@ II - Geografia do Estado do Maranhão
 - Item 13. Malha viária.
 - Item 14. Portos e aeroportos.
 
-##### [>] Em progresso Assunto 094 - Item 15: Cultura maranhense.
+##### [R] Em revisão Assunto 094 - Item 15: Cultura maranhense.
 
 - Item 15. A cultura maranhense.
 
