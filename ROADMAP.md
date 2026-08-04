@@ -395,7 +395,7 @@ II - Geografia do Estado do Maranhão
 
 - Item 8. Geografia da população: população absoluta, povoamento, urbanização, densidade e movimentos populacionais.
 
-##### [ ] Assunto 089 - Item 9: Agricultura e pecuária maranhenses.
+##### [>] Em progresso Assunto 089 - Item 9: Agricultura e pecuária maranhenses.
 
 - Item 9. A agricultura maranhense: caracterização e principais produtos agrícolas; caracterização da pecuária.
 
