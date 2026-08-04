@@ -386,7 +386,7 @@ II - Geografia do Estado do Maranhão
 - Item 3. Climas do Maranhão: pluviosidade e temperatura.
 - Item 7. Principais formações vegetais: floresta, cerrado e cocais.
 
-##### [>] Em progresso Assunto 087 - Itens 5 e 6: Rios limítrofes, suas bacias e bacias genuinamente maranhenses.
+##### [R] Em revisão Assunto 087 - Itens 5 e 6: Rios limítrofes, suas bacias e bacias genuinamente maranhenses.
 
 - Item 5. Características dos rios maranhenses: bacias dos rios limítrofes: bacia do Parnaíba, do Gurupi e do Tocantins-Araguaia.
 - Item 6. Bacias dos rios genuinamente maranhenses.
