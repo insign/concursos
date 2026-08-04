@@ -403,7 +403,7 @@ II - Geografia do Estado do Maranhão
 
 - Item 10. Extrativismo: vegetal, animal e mineral.
 
-##### [>] Em progresso Assunto 091 - Item 11: Indústrias de base e de transformação.
+##### [R] Em revisão Assunto 091 - Item 11: Indústrias de base e de transformação.
 
 - Item 11. Parque industrial: indústrias de base e indústrias de transformação.
 
