@@ -391,7 +391,7 @@ II - Geografia do Estado do Maranhão
 - Item 5. Características dos rios maranhenses: bacias dos rios limítrofes: bacia do Parnaíba, do Gurupi e do Tocantins-Araguaia.
 - Item 6. Bacias dos rios genuinamente maranhenses.
 
-##### [ ] Assunto 088 - Item 8: População, povoamento, densidade, urbanização e movimentos populacionais.
+##### [>] Em progresso Assunto 088 - Item 8: População, povoamento, densidade, urbanização e movimentos populacionais.
 
 - Item 8. Geografia da população: população absoluta, povoamento, urbanização, densidade e movimentos populacionais.
 
