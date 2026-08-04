@@ -371,7 +371,7 @@ II - Geografia do Estado do Maranhão
 
 - Item 1. Localização do Estado do Maranhão: superfície; limites; linhas de fronteira; pontos extremos.
 
-##### [R] Em revisão Assunto 084 - Itens 3 e 4: Geomorfologia, geologia, recursos minerais e relevo maranhense.
+##### [x] Concluído Assunto 084 - Itens 3 e 4: Geomorfologia, geologia, recursos minerais e relevo maranhense.
 
 - Item 3. Geomorfologia. Geologia e recursos minerais no Maranhão.
 - Item 4. Classificação do relevo maranhense: planaltos, planícies e baixadas.
