@@ -427,7 +427,7 @@ II - Geografia do Estado do Maranhão
 - Item 1. Teoria geral dos direitos fundamentais.
 - Item 2. Direitos humanos e direitos fundamentais.
 
-##### [ ] Assunto 096 - Item 3: Declaração Universal dos Direitos Humanos.
+##### [>] Em progresso Assunto 096 - Item 3: Declaração Universal dos Direitos Humanos.
 
 ##### [ ] Assunto 097 - Item 4: Agenda 2030 da ONU.
 
