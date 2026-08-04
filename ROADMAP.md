@@ -411,7 +411,7 @@ II - Geografia do Estado do Maranhão
 
 - Item 12. Setor terciário: comércio, telecomunicações, transportes.
 
-##### [ ] Assunto 093 - Itens 13 e 14: Malha viária, portos e aeroportos.
+##### [>] Em progresso Assunto 093 - Itens 13 e 14: Malha viária, portos e aeroportos.
 
 - Item 13. Malha viária.
 - Item 14. Portos e aeroportos.
