@@ -407,7 +407,7 @@ II - Geografia do Estado do Maranhão
 
 - Item 11. Parque industrial: indústrias de base e indústrias de transformação.
 
-##### [ ] Assunto 092 - Item 12: Comércio, telecomunicações e transportes.
+##### [>] Em progresso Assunto 092 - Item 12: Comércio, telecomunicações e transportes.
 
 - Item 12. Setor terciário: comércio, telecomunicações, transportes.
 
