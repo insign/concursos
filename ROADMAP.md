@@ -429,7 +429,7 @@ II - Geografia do Estado do Maranhão
 
 ##### [x] Concluído Assunto 096 - Item 3: Declaração Universal dos Direitos Humanos.
 
-##### [R] Em revisão Assunto 097 - Item 4: Agenda 2030 da ONU.
+##### [x] Concluído Assunto 097 - Item 4: Agenda 2030 da ONU.
 
 ##### [ ] Assunto 098 - Item 5, recorte: fundamentos, direitos e garantias do Estatuto da Pessoa com Deficiência.
 
