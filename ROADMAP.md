@@ -381,7 +381,7 @@ II - Geografia do Estado do Maranhão
 - Item 2. Áreas de Proteção Ambiental (APA).
 - Item 3. Parques nacionais.
 
-##### [>] Em progresso Assunto 086 - Itens 3 e 7: Climas e formações vegetais do Maranhão.
+##### [R] Em revisão Assunto 086 - Itens 3 e 7: Climas e formações vegetais do Maranhão.
 
 - Item 3. Climas do Maranhão: pluviosidade e temperatura.
 - Item 7. Principais formações vegetais: floresta, cerrado e cocais.
