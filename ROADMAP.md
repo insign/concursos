@@ -431,7 +431,7 @@ II - Geografia do Estado do Maranhão
 
 ##### [x] Concluído Assunto 097 - Item 4: Agenda 2030 da ONU.
 
-##### [>] Em progresso Assunto 098 - Item 5, recorte: fundamentos, direitos e garantias do Estatuto da Pessoa com Deficiência.
+##### [R] Em revisão Assunto 098 - Item 5, recorte: fundamentos, direitos e garantias do Estatuto da Pessoa com Deficiência.
 
 - Item 5. Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015 e suas alterações).
 - O item 5 é desdobrado nos Assuntos 098 e 099 por função normativa, sem inventar faixas de artigos nem repetir dispositivos: este assunto trata de fundamentos, direitos e garantias.
