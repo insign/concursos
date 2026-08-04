@@ -376,7 +376,7 @@ II - Geografia do Estado do Maranhão
 - Item 3. Geomorfologia. Geologia e recursos minerais no Maranhão.
 - Item 4. Classificação do relevo maranhense: planaltos, planícies e baixadas.
 
-##### [R] Em revisão Assunto 085 - Itens 2 e 3: Áreas de Proteção Ambiental e parques nacionais.
+##### [x] Concluído Assunto 085 - Itens 2 e 3: Áreas de Proteção Ambiental e parques nacionais.
 
 - Item 2. Áreas de Proteção Ambiental (APA).
 - Item 3. Parques nacionais.
