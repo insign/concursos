@@ -367,7 +367,7 @@ I - História do Estado do Maranhão
 
 II - Geografia do Estado do Maranhão
 
-##### [R] Em revisão Assunto 083 - Item 1: Localização, superfície, limites, fronteiras e pontos extremos.
+##### [x] Concluído Assunto 083 - Item 1: Localização, superfície, limites, fronteiras e pontos extremos.
 
 - Item 1. Localização do Estado do Maranhão: superfície; limites; linhas de fronteira; pontos extremos.
 
