@@ -399,7 +399,7 @@ II - Geografia do Estado do Maranhão
 
 - Item 9. A agricultura maranhense: caracterização e principais produtos agrícolas; caracterização da pecuária.
 
-##### [>] Em progresso Assunto 090 - Item 10: Extrativismo vegetal, animal e mineral.
+##### [R] Em revisão Assunto 090 - Item 10: Extrativismo vegetal, animal e mineral.
 
 - Item 10. Extrativismo: vegetal, animal e mineral.
 
