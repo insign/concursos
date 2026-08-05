@@ -438,7 +438,7 @@ II - Geografia do Estado do Maranhão
 
 ##### [x] Concluído Assunto 099 - Item 5, recorte: inclusão, acessibilidade e responsabilização no Estatuto da Pessoa com Deficiência.
 
-##### [ ] Assunto 100 - Itens 6 e 7: Normas gerais de acessibilidade e prioridade de atendimento.
+##### [>] Em progresso Assunto 100 - Itens 6 e 7: Normas gerais de acessibilidade e prioridade de atendimento.
 
 - Item 6. Normas gerais e critérios básicos para promoção da acessibilidade às pessoas com deficiência ou com mobilidade reduzida (Lei nº 10.098/2000).
 - Item 7. Prioridade de atendimento às pessoas com deficiência (Lei nº 10.048/2000).
