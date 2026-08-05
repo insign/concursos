@@ -436,7 +436,7 @@ II - Geografia do Estado do Maranhão
 - Item 5. Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015 e suas alterações).
 - O item 5 é desdobrado nos Assuntos 098 e 099 por função normativa, sem inventar faixas de artigos nem repetir dispositivos: este assunto trata de fundamentos, direitos e garantias.
 
-##### [>] Em progresso Assunto 099 - Item 5, recorte: inclusão, acessibilidade e responsabilização no Estatuto da Pessoa com Deficiência.
+##### [R] Em revisão Assunto 099 - Item 5, recorte: inclusão, acessibilidade e responsabilização no Estatuto da Pessoa com Deficiência.
 
 ##### [ ] Assunto 100 - Itens 6 e 7: Normas gerais de acessibilidade e prioridade de atendimento.
 
