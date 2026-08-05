@@ -4,840 +4,900 @@
   "questions": [
     {
       "id": "q6279",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No recorte de garantias processuais, provas e prazos, o foco principal é compreender",
       "options": [
         { "id": "A", "text": "recursos e revisão de decisões." },
         { "id": "B", "text": "execução de multas e inscrição em dívida ativa." },
         { "id": "C", "text": "devido processo, contraditório, defesa, provas, revelia, diligências e prazos confirmados." },
-        { "id": "D", "text": "ética e atos normativos finais." }
+        { "id": "D", "text": "ética e atos normativos finais." },
+        { "id": "E", "text": "devido processo, contraditório, defesa, provas, revelia, diligências e prazos confirmados e, simultaneamente, recursos e revisão de decisões." }
       ],
       "correctOptionId": "C",
       "explanation": "O Assunto 060 cobre garantias processuais, provas e prazos, deixando execução, recursos e ética para assuntos posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6280",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O devido processo legal, no contexto dos processos do TCE/MA, significa que",
       "options": [
         { "id": "A", "text": "o Tribunal pode decidir sem procedimento sempre que houver relatório técnico." },
         { "id": "B", "text": "todo processo deve ser anônimo." },
         { "id": "C", "text": "a parte nunca precisa ser comunicada." },
-        { "id": "D", "text": "a atuação deve observar procedimento regular, ciência adequada e possibilidade de defesa quando cabível." }
+        { "id": "D", "text": "a atuação deve observar procedimento regular, ciência adequada e possibilidade de defesa quando cabível." },
+        { "id": "E", "text": "a atuação deve observar procedimento regular, ciência adequada e possibilidade de defesa quando cabível e, simultaneamente, o Tribunal pode decidir sem procedimento sempre que houver relatório técnico." }
       ],
       "correctOptionId": "D",
       "explanation": "Devido processo legal exige procedimento regular e oportunidade de defesa nos casos cabíveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6281",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A ideia de contraditório está mais diretamente ligada a",
+      "prompt": "A ideia de contraditório relaciona-se mais diretamente com",
       "options": [
         { "id": "A", "text": "aplicação automática de multa." },
         { "id": "B", "text": "ciência da imputação ou ocorrência e possibilidade de reação." },
         { "id": "C", "text": "arquivamento sem comunicação." },
-        { "id": "D", "text": "sorteio de relator sem autos." }
+        { "id": "D", "text": "sorteio de relator sem autos." },
+        { "id": "E", "text": "ciência da imputação ou ocorrência e possibilidade de reação e, simultaneamente, aplicação automática de multa." }
       ],
       "correctOptionId": "B",
       "explanation": "Contraditório envolve conhecimento da imputação e possibilidade efetiva de manifestação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6282",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ampla defesa, no processo administrativo de contas, pressupõe",
       "options": [
         { "id": "A", "text": "proibição de juntar documentos." },
         { "id": "B", "text": "dispensa de ciência da parte." },
         { "id": "C", "text": "impossibilidade de impugnar relatório técnico." },
-        { "id": "D", "text": "uso dos meios admitidos para explicar, impugnar e provar." }
+        { "id": "D", "text": "uso dos meios admitidos para explicar, impugnar e provar." },
+        { "id": "E", "text": "uso dos meios admitidos para explicar, impugnar e provar e, simultaneamente, proibição de juntar documentos." }
       ],
       "correctOptionId": "D",
       "explanation": "Ampla defesa significa oportunidade de explicar, impugnar e provar dentro do regime processual aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6283",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Constituição Federal também estabelece que provas obtidas por meios ilícitos são",
       "options": [
         { "id": "A", "text": "sempre superiores a documentos oficiais." },
         { "id": "B", "text": "obrigatórias em todo processo." },
         { "id": "C", "text": "inadmissíveis." },
-        { "id": "D", "text": "suficientes para dispensar defesa." }
+        { "id": "D", "text": "suficientes para dispensar defesa." },
+        { "id": "E", "text": "inadmissíveis e, simultaneamente, sempre superiores a documentos oficiais." }
       ],
       "correctOptionId": "C",
       "explanation": "Provas ilícitas são inadmissíveis, inclusive como garantia processual fundamental. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6284",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A duração razoável do processo significa que a celeridade",
       "options": [
         { "id": "A", "text": "elimina contraditório e ampla defesa." },
         { "id": "B", "text": "impede qualquer diligência." },
         { "id": "C", "text": "transforma relatório técnico em acórdão automático." },
-        { "id": "D", "text": "deve conviver com procedimento regular e garantias processuais." }
+        { "id": "D", "text": "deve conviver com procedimento regular e garantias processuais." },
+        { "id": "E", "text": "deve conviver com procedimento regular e garantias processuais e, simultaneamente, elimina contraditório e ampla defesa." }
       ],
       "correctOptionId": "D",
       "explanation": "Duração razoável busca celeridade, mas não elimina defesa, contraditório e instrução suficiente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6285",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No estudo das comunicações processuais, a citação é melhor definida como ato que",
       "options": [
         { "id": "A", "text": "aplica sanção final." },
         { "id": "B", "text": "publica o resultado do recurso." },
         { "id": "C", "text": "chama a parte para defesa ou participação essencial no processo." },
-        { "id": "D", "text": "substitui julgamento colegiado." }
+        { "id": "D", "text": "substitui julgamento colegiado." },
+        { "id": "E", "text": "chama a parte para defesa ou participação essencial no processo e, simultaneamente, aplica sanção final." }
       ],
       "correctOptionId": "C",
       "explanation": "Citação é comunicação essencial para chamar a parte ao processo, especialmente para defesa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6286",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A notificação, em nível conceitual, é ato que",
       "options": [
         { "id": "A", "text": "sempre substitui integralmente a citação formal." },
         { "id": "B", "text": "comunica ato, ocorrência ou providência, podendo ter função preliminar ou instrutória." },
         { "id": "C", "text": "sempre executa multa." },
-        { "id": "D", "text": "sempre julga o mérito." }
+        { "id": "D", "text": "sempre julga o mérito." },
+        { "id": "E", "text": "comunica ato, ocorrência ou providência, podendo ter função preliminar ou instrutória e, simultaneamente, sempre substitui integralmente a citação formal." }
       ],
       "correctOptionId": "B",
       "explanation": "Notificação comunica atos ou providências e nem sempre equivale à citação formal de defesa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6287",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A intimação é corretamente associada à ciência de",
       "options": [
         { "id": "A", "text": "decisão, ato processual ou dever de cumprir providência." },
         { "id": "B", "text": "nomeação de conselheiro." },
         { "id": "C", "text": "criação de cargo público." },
-        { "id": "D", "text": "prova ilícita obrigatória." }
+        { "id": "D", "text": "prova ilícita obrigatória." },
+        { "id": "E", "text": "decisão, ato processual ou dever de cumprir providência e, simultaneamente, nomeação de conselheiro." }
       ],
       "correctOptionId": "A",
       "explanation": "Intimação cientifica decisão, ato processual ou providência a cumprir. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6288",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Editais oficiais recentes demonstram que, quando o responsável não é localizado, pode haver",
       "options": [
         { "id": "A", "text": "condenação sem publicação." },
         { "id": "B", "text": "recurso obrigatório do relator." },
         { "id": "C", "text": "extinção automática do processo." },
-        { "id": "D", "text": "citação por edital." }
+        { "id": "D", "text": "citação por edital." },
+        { "id": "E", "text": "citação por edital e, simultaneamente, condenação sem publicação." }
       ],
       "correctOptionId": "D",
       "explanation": "A pesquisa encontrou editais oficiais de citação quando a comunicação direta não se aperfeiçoa ou o responsável não é localizado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6289",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O comparecimento espontâneo da parte pode, em tese,",
       "options": [
         { "id": "A", "text": "suprir falta ou irregularidade de citação quando a finalidade de ciência é alcançada." },
         { "id": "B", "text": "dispensar todo procedimento futuro." },
         { "id": "C", "text": "gerar multa automática." },
-        { "id": "D", "text": "substituir recurso de revisão." }
+        { "id": "D", "text": "substituir recurso de revisão." },
+        { "id": "E", "text": "suprir falta ou irregularidade de citação quando a finalidade de ciência é alcançada e, simultaneamente, dispensar todo procedimento futuro." }
       ],
       "correctOptionId": "A",
       "explanation": "O comparecimento espontâneo pode suprir vício de citação quando alcança a finalidade da comunicação, conforme o caso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6290",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A frase 'notificação preliminar sempre substitui citação formal para defesa' está",
       "options": [
         { "id": "A", "text": "correta, porque toda comunicação tem o mesmo efeito." },
         { "id": "B", "text": "correta apenas em decisão final." },
         { "id": "C", "text": "correta apenas em recursos." },
-        { "id": "D", "text": "incorreta, pois comunicações preliminares nem sempre substituem citação para defesa de mérito." }
+        { "id": "D", "text": "incorreta, pois comunicações preliminares nem sempre substituem citação para defesa de mérito." },
+        { "id": "E", "text": "incorreta, pois comunicações preliminares nem sempre substituem citação para defesa de mérito e, simultaneamente, correta, porque toda comunicação tem o mesmo efeito." }
       ],
       "correctOptionId": "D",
       "explanation": "A pesquisa distinguiu comunicações preliminares da citação formal destinada à defesa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6291",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O prazo ordinário de defesa localizado com suporte mais forte no art. 127 da Lei Orgânica é de",
       "options": [
         { "id": "A", "text": "5 dias." },
         { "id": "B", "text": "10 dias." },
         { "id": "C", "text": "30 dias." },
-        { "id": "D", "text": "90 dias." }
+        { "id": "D", "text": "90 dias." },
+        { "id": "E", "text": "30 dias e, simultaneamente, 5 dias." }
       ],
       "correctOptionId": "C",
       "explanation": "O prazo ordinário de defesa localizado com maior segurança é de 30 dias. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6292",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A prorrogação do prazo de defesa, quando admitida e requerida tempestivamente, pode chegar a",
       "options": [
         { "id": "A", "text": "2 dias." },
         { "id": "B", "text": "7 dias." },
         { "id": "C", "text": "15 dias sempre improrrogáveis." },
-        { "id": "D", "text": "até 30 dias." }
+        { "id": "D", "text": "até 30 dias." },
+        { "id": "E", "text": "até 30 dias e, simultaneamente, 2 dias." }
       ],
       "correctOptionId": "D",
       "explanation": "A pesquisa encontrou suporte para prorrogação de defesa por até 30 dias quando cabível e tempestivamente requerida. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6293",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O prazo de 15 dias encontrado em edital específico deve ser tratado como",
       "options": [
         { "id": "A", "text": "prazo especial que exige base normativa e não se generaliza automaticamente." },
         { "id": "B", "text": "regra universal para todos os processos." },
         { "id": "C", "text": "prova de que não existe prazo de 30 dias." },
-        { "id": "D", "text": "prazo exclusivo para recursos." }
+        { "id": "D", "text": "prazo exclusivo para recursos." },
+        { "id": "E", "text": "prazo especial que exige base normativa e não se generaliza automaticamente e, simultaneamente, regra universal para todos os processos." }
       ],
       "correctOptionId": "A",
       "explanation": "O prazo específico de edital não deve ser convertido em regra geral de defesa sem confirmação normativa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6294",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A defesa, conforme a redação localizada do art. 127, § 5º, deve ser",
       "options": [
         { "id": "A", "text": "genérica, sem impugnar fatos." },
         { "id": "B", "text": "apenas oral, sem documentos." },
         { "id": "C", "text": "substituída sempre por consulta." },
-        { "id": "D", "text": "articulada, com razões de fato e de direito e provas correspondentes." }
+        { "id": "D", "text": "articulada, com razões de fato e de direito e provas correspondentes." },
+        { "id": "E", "text": "articulada, com razões de fato e de direito e provas correspondentes e, simultaneamente, genérica, sem impugnar fatos." }
       ],
       "correctOptionId": "D",
       "explanation": "A defesa deve impugnar precisamente as ocorrências, com razões de fato e direito e provas em que se funda. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6295",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A defesa genérica é problemática porque",
       "options": [
         { "id": "A", "text": "é sempre superior à prova documental." },
         { "id": "B", "text": "dispensa qualquer relatório técnico." },
         { "id": "C", "text": "não enfrenta precisamente as ocorrências apontadas no relatório." },
-        { "id": "D", "text": "é recurso obrigatório." }
+        { "id": "D", "text": "é recurso obrigatório." },
+        { "id": "E", "text": "não enfrenta precisamente as ocorrências apontadas no relatório e, simultaneamente, é sempre superior à prova documental." }
       ],
       "correctOptionId": "C",
       "explanation": "Defesa genérica pode não impugnar as ocorrências e gerar revelia quanto ao ponto não contestado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6296",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto às provas, a regra segura é que a parte deve",
       "options": [
         { "id": "A", "text": "guardar todas para depois da decisão final." },
         { "id": "B", "text": "apresentar prova ilícita quando conveniente." },
         { "id": "C", "text": "usar apenas testemunhas, sem documentos." },
-        { "id": "D", "text": "juntar as provas em que se funda sua defesa." }
+        { "id": "D", "text": "juntar as provas em que se funda sua defesa." },
+        { "id": "E", "text": "juntar as provas em que se funda sua defesa e, simultaneamente, guardar todas para depois da decisão final." }
       ],
       "correctOptionId": "D",
       "explanation": "O núcleo seguro é a juntada das provas que fundamentam a defesa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6297",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Prova pertinente é aquela que",
       "options": [
         { "id": "A", "text": "não tem relação com a ocorrência." },
         { "id": "B", "text": "substitui automaticamente o julgamento." },
         { "id": "C", "text": "conversa com a ocorrência impugnada e pode esclarecê-la." },
-        { "id": "D", "text": "é sempre oral e informal." }
+        { "id": "D", "text": "é sempre oral e informal." },
+        { "id": "E", "text": "conversa com a ocorrência impugnada e pode esclarecê-la e, simultaneamente, não tem relação com a ocorrência." }
       ],
       "correctOptionId": "C",
       "explanation": "A prova precisa guardar pertinência com a ocorrência que pretende elidir ou esclarecer. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6298",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei nº 9.784/1999, neste assunto, deve ser usada",
       "options": [
         { "id": "A", "text": "como fonte direta que revoga o regime do TCE/MA." },
         { "id": "B", "text": "como substituto automático do Regimento." },
         { "id": "C", "text": "como prova de que não há processo no TCE/MA." },
-        { "id": "D", "text": "apenas como referência conceitual comparativa, sem substituir o regime específico." }
+        { "id": "D", "text": "apenas como referência conceitual comparativa, sem substituir o regime específico." },
+        { "id": "E", "text": "apenas como referência conceitual comparativa, sem substituir o regime específico e, simultaneamente, como fonte direta que revoga o regime do TCE/MA." }
       ],
       "correctOptionId": "D",
       "explanation": "A Lei nº 9.784/1999 rege processo administrativo federal e serve apenas como referência conceitual, preservados regimes específicos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6299",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A revelia parcial ocorre quando",
       "options": [
         { "id": "A", "text": "determinada ocorrência do relatório não é contestada de forma específica." },
         { "id": "B", "text": "a parte vence todos os pontos." },
         { "id": "C", "text": "o relator sorteia processo." },
-        { "id": "D", "text": "há emissão de prejulgado." }
+        { "id": "D", "text": "há emissão de prejulgado." },
+        { "id": "E", "text": "determinada ocorrência do relatório não é contestada de forma específica e, simultaneamente, a parte vence todos os pontos." }
       ],
       "correctOptionId": "A",
       "explanation": "A parte pode ser considerada revel quanto à ocorrência não contestada, gerando revelia parcial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6300",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ausência total de defesa no prazo estabelecido gera, em nível seguro,",
       "options": [
         { "id": "A", "text": "arquivamento obrigatório sem análise." },
         { "id": "B", "text": "recurso automático da parte." },
         { "id": "C", "text": "revelia para todos os efeitos e prosseguimento normal do processo." },
-        { "id": "D", "text": "consulta normativa." }
+        { "id": "D", "text": "consulta normativa." },
+        { "id": "E", "text": "revelia para todos os efeitos e prosseguimento normal do processo e, simultaneamente, arquivamento obrigatório sem análise." }
       ],
       "correctOptionId": "C",
       "explanation": "A Lei Orgânica prevê revelia e prosseguimento normal do processo quando a parte não apresenta defesa no prazo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6301",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A revelia não deve ser entendida como",
       "options": [
         { "id": "A", "text": "situação processual por falta de contestação." },
         { "id": "B", "text": "motivo para prosseguimento do processo." },
         { "id": "C", "text": "sanção automática ou julgamento de mérito por si só." },
-        { "id": "D", "text": "efeito ligado à ausência de defesa no prazo." }
+        { "id": "D", "text": "efeito ligado à ausência de defesa no prazo." },
+        { "id": "E", "text": "situação processual ligada à ausência de defesa no prazo, com prosseguimento do processo." }
       ],
       "correctOptionId": "C",
       "explanation": "Revelia não é sanção automática nem substitui análise do conjunto dos autos e decisão competente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6302",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'revelia implica procedência automática de todas as imputações' está",
       "options": [
         { "id": "A", "text": "correta em todos os casos." },
         { "id": "B", "text": "correta apenas em consulta." },
         { "id": "C", "text": "correta apenas em processos sigilosos." },
-        { "id": "D", "text": "incorreta, pois a decisão ainda depende da análise dos autos e do regime aplicável." }
+        { "id": "D", "text": "incorreta, pois a decisão ainda depende da análise dos autos e do regime aplicável." },
+        { "id": "E", "text": "incorreta, pois a decisão ainda depende da análise dos autos e do regime aplicável e, simultaneamente, correta em todos os casos." }
       ],
       "correctOptionId": "D",
       "explanation": "A revelia permite prosseguimento e efeitos processuais, mas não elimina a necessidade de decisão conforme os autos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6303",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A consulta pública de processos do TCE/MA permite acompanhar processos públicos, mas",
       "options": [
         { "id": "A", "text": "não garante acesso irrestrito a processos restritos ou sigilosos." },
         { "id": "B", "text": "transforma todos os autos em anônimos." },
         { "id": "C", "text": "dispensa habilitação em qualquer hipótese." },
-        { "id": "D", "text": "substitui defesa escrita." }
+        { "id": "D", "text": "substitui defesa escrita." },
+        { "id": "E", "text": "não garante acesso irrestrito a processos restritos ou sigilosos e, simultaneamente, transforma todos os autos em anônimos." }
       ],
       "correctOptionId": "A",
       "explanation": "A página oficial ressalva processos de caráter restrito ou sigiloso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6304",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O procurador constituído da parte deve ser diferenciado do",
+      "prompt": "O Procurador de Contas, diferentemente do procurador constituído pela parte,",
       "options": [
-        { "id": "A", "text": "responsável processual que o constituiu." },
-        { "id": "B", "text": "Procurador de Contas, que integra o Ministério Público de Contas." },
-        { "id": "C", "text": "documento juntado como prova." },
-        { "id": "D", "text": "prazo do ato citatório." }
+        { "id": "A", "text": "representa privadamente a parte que o constituiu." },
+        { "id": "B", "text": "integra o Ministério Público de Contas e exerce atribuições institucionais." },
+        { "id": "C", "text": "é documento juntado como prova nos autos." },
+        { "id": "D", "text": "corresponde ao prazo fixado no ato citatório." },
+        { "id": "E", "text": "integra o Ministério Público de Contas, mas representa privadamente a parte interessada." }
       ],
       "correctOptionId": "B",
       "explanation": "Procurador da parte atua na representação do interessado; Procurador de Contas é membro do Ministério Público de Contas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6305",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A sustentação oral, mencionada em referência à Lei Orgânica, deve ser tratada neste assunto como",
       "options": [
         { "id": "A", "text": "sanção processual." },
         { "id": "B", "text": "execução de débito." },
         { "id": "C", "text": "faculdade de participação distinta de defesa escrita e recurso." },
-        { "id": "D", "text": "prejulgado normativo." }
+        { "id": "D", "text": "prejulgado normativo." },
+        { "id": "E", "text": "faculdade de participação distinta de defesa escrita e recurso e, simultaneamente, sanção processual." }
       ],
       "correctOptionId": "C",
       "explanation": "Sustentação oral é forma de participação, distinta de defesa escrita, decisão e recurso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6306",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Diligência é melhor compreendida como",
       "options": [
         { "id": "A", "text": "recurso contra decisão." },
         { "id": "B", "text": "sanção ao responsável." },
         { "id": "C", "text": "consulta normativa abstrata." },
-        { "id": "D", "text": "providência para obter informação, documento, esclarecimento ou ato necessário ao processo." }
+        { "id": "D", "text": "providência para obter informação, documento, esclarecimento ou ato necessário ao processo." },
+        { "id": "E", "text": "providência para obter informação, documento, esclarecimento ou ato necessário ao processo e, simultaneamente, recurso contra decisão." }
       ],
       "correctOptionId": "D",
       "explanation": "Diligência busca completar ou esclarecer a instrução processual. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6307",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Saneamento processual significa",
       "options": [
         { "id": "A", "text": "correção de falhas, omissões ou lacunas de formação ou instrução dos autos." },
         { "id": "B", "text": "condenação automática." },
         { "id": "C", "text": "recurso obrigatório." },
-        { "id": "D", "text": "sigilo de toda decisão." }
+        { "id": "D", "text": "sigilo de toda decisão." },
+        { "id": "E", "text": "correção de falhas, omissões ou lacunas de formação ou instrução dos autos e, simultaneamente, condenação automática." }
       ],
       "correctOptionId": "A",
       "explanation": "Saneamento corrige falhas ou lacunas para tornar os autos aptos à análise. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6308",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Diligência e saneamento não devem ser confundidos com",
       "options": [
         { "id": "A", "text": "providências instrutórias." },
         { "id": "B", "text": "decisão final, recurso ou perdão automático da irregularidade." },
         { "id": "C", "text": "busca de documentos." },
-        { "id": "D", "text": "correção de lacunas." }
+        { "id": "D", "text": "correção de lacunas." },
+        { "id": "E", "text": "providências instrutórias destinadas à busca de documentos e à correção de lacunas." }
       ],
       "correctOptionId": "B",
       "explanation": "Diligência e saneamento são instrutórios; não decidem o mérito nem substituem recurso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6309",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quanto ao prazo de diligência, a orientação segura é",
       "options": [
         { "id": "A", "text": "conferir o prazo fixado no ato com o regime vigente, sem cravar regra universal não confirmada." },
         { "id": "B", "text": "ignorar qualquer prazo indicado." },
         { "id": "C", "text": "aplicar sempre prazo de 15 dias a todos os atos." },
-        { "id": "D", "text": "tratar diligência como recurso." }
+        { "id": "D", "text": "tratar diligência como recurso." },
+        { "id": "E", "text": "conferir o prazo fixado no ato com o regime vigente, sem cravar regra universal não confirmada e, simultaneamente, ignorar qualquer prazo indicado." }
       ],
       "correctOptionId": "A",
       "explanation": "Sem versão regimental consolidada extraída, o seguro é conferir o ato específico com a regra vigente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6310",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A regra mais segura sobre contagem completa de prazos regimentais é",
       "options": [
         { "id": "A", "text": "inventar a contagem a partir do processo civil." },
         { "id": "B", "text": "não cravar detalhes sem confirmação da redação oficial vigente." },
         { "id": "C", "text": "dispensar o ato citatório." },
-        { "id": "D", "text": "usar sempre o prazo de recurso." }
+        { "id": "D", "text": "usar sempre o prazo de recurso." },
+        { "id": "E", "text": "não cravar detalhes sem confirmação da redação oficial vigente e, simultaneamente, inventar a contagem a partir do processo civil." }
       ],
       "correctOptionId": "B",
       "explanation": "A pesquisa não confirmou integralmente regras de contagem dos arts. regimentais, exigindo cautela. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6311",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se o ato citatório indica prazo diferente da referência geral de defesa, a conduta correta é",
       "options": [
         { "id": "A", "text": "ignorar o ato e escolher qualquer prazo." },
         { "id": "B", "text": "aplicar automaticamente prazo de execução." },
         { "id": "C", "text": "verificar a base normativa do prazo indicado e não presumir afastamento do prazo legal geral." },
-        { "id": "D", "text": "converter a citação em consulta." }
+        { "id": "D", "text": "converter a citação em consulta." },
+        { "id": "E", "text": "verificar a base normativa do prazo indicado e não presumir afastamento do prazo legal geral e, simultaneamente, ignorar o ato e escolher qualquer prazo." }
       ],
       "correctOptionId": "C",
       "explanation": "Prazo especial em ato concreto deve ser conferido com a base normativa vigente, sem generalização automática. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6312",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A expressão 'prazo legal geral' deve ser diferenciada de",
       "options": [
         { "id": "A", "text": "qualquer forma de prazo." },
         { "id": "B", "text": "prazo regimental confirmado, prazo especial com base normativa e prazo de recurso ou execução." },
         { "id": "C", "text": "toda defesa articulada." },
-        { "id": "D", "text": "prova documental pertinente." }
+        { "id": "D", "text": "prova documental pertinente." },
+        { "id": "E", "text": "prazo regimental confirmado, prazo especial com base normativa e prazo de recurso ou execução e, simultaneamente, qualquer forma de prazo." }
       ],
       "correctOptionId": "B",
       "explanation": "O conteúdo diferencia prazo legal geral, prazo regimental confirmado, prazo especial com base normativa e prazos de outros recortes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6313",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um documento que comprova publicação oficial é prova em tese pertinente para ocorrência de",
       "options": [
         { "id": "A", "text": "ausência de publicação." },
         { "id": "B", "text": "falta de sorteio de relator." },
         { "id": "C", "text": "recurso intempestivo sempre." },
-        { "id": "D", "text": "ética disciplinar." }
+        { "id": "D", "text": "ética disciplinar." },
+        { "id": "E", "text": "ausência de publicação e, simultaneamente, falta de sorteio de relator." }
       ],
       "correctOptionId": "A",
       "explanation": "Prova documental deve guardar pertinência com a ocorrência, como publicação oficial para elidir ausência de publicação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6314",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Para ocorrência de despesa sem comprovação, seriam provas pertinentes em tese",
       "options": [
         { "id": "A", "text": "apenas opinião genérica do responsável." },
         { "id": "B", "text": "nota fiscal, liquidação, pagamento e documentos do objeto." },
         { "id": "C", "text": "certidão de trânsito em julgado sem relação." },
-        { "id": "D", "text": "prejulgado de consulta abstrata." }
+        { "id": "D", "text": "prejulgado de consulta abstrata." },
+        { "id": "E", "text": "nota fiscal, liquidação, pagamento e documentos do objeto e, simultaneamente, apenas opinião genérica do responsável." }
       ],
       "correctOptionId": "B",
       "explanation": "Documentos de execução da despesa podem ser pertinentes para comprovar regularidade do gasto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6315",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A ampla defesa não se satisfaz adequadamente quando a parte",
       "options": [
         { "id": "A", "text": "junta documentos pertinentes." },
         { "id": "B", "text": "impugna cada ocorrência." },
         { "id": "C", "text": "apresenta resposta vazia e desconectada do relatório técnico." },
-        { "id": "D", "text": "organiza razões de fato e de direito." }
+        { "id": "D", "text": "organiza razões de fato e de direito." },
+        { "id": "E", "text": "junta documentos pertinentes e organiza razões de fato e de direito para enfrentar as ocorrências." }
       ],
       "correctOptionId": "C",
       "explanation": "Defesa ampla exige oportunidade, mas a manifestação deve enfrentar as ocorrências de modo articulado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6316",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A relação correta entre defesa e provas é:",
       "options": [
         { "id": "A", "text": "provas nunca acompanham defesa." },
         { "id": "B", "text": "a defesa deve juntar as provas em que se funda." },
         { "id": "C", "text": "provas só existem em recursos." },
-        { "id": "D", "text": "prova ilícita é sempre admissível." }
+        { "id": "D", "text": "prova ilícita é sempre admissível." },
+        { "id": "E", "text": "a defesa deve juntar as provas em que se funda e, simultaneamente, provas nunca acompanham defesa." }
       ],
       "correctOptionId": "B",
       "explanation": "A defesa deve trazer as provas que sustentam sua impugnação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6317",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A relação correta entre vista e sigilo é:",
       "options": [
         { "id": "A", "text": "consulta pública garante acesso irrestrito a qualquer processo." },
         { "id": "B", "text": "processos restritos ou sigilosos podem ter limitações de acesso." },
         { "id": "C", "text": "sigilo elimina todo direito de defesa." },
-        { "id": "D", "text": "vista é sempre sanção." }
+        { "id": "D", "text": "vista é sempre sanção." },
+        { "id": "E", "text": "processos restritos ou sigilosos podem ter limitações de acesso e, simultaneamente, consulta pública garante acesso irrestrito a qualquer processo." }
       ],
       "correctOptionId": "B",
       "explanation": "A consulta pública convive com restrições de sigilo ou caráter restrito, sem eliminar garantias cabíveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6318",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A relação correta entre procurador da parte e Ministério Público de Contas é:",
       "options": [
         { "id": "A", "text": "são sempre a mesma pessoa." },
         { "id": "B", "text": "procurador da parte julga o processo." },
         { "id": "C", "text": "Procurador de Contas é contratado pelo responsável." },
-        { "id": "D", "text": "o procurador da parte representa interesse do responsável; o Procurador de Contas atua institucionalmente." }
+        { "id": "D", "text": "o procurador da parte representa interesse do responsável; o Procurador de Contas atua institucionalmente." },
+        { "id": "E", "text": "o procurador da parte representa interesse do responsável; o Procurador de Contas atua institucionalmente e, simultaneamente, são sempre a mesma pessoa." }
       ],
       "correctOptionId": "D",
       "explanation": "Procurador constituído pela parte não se confunde com membro do Ministério Público de Contas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6319",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A relação correta entre diligência e instrução é:",
       "options": [
         { "id": "A", "text": "diligência pode completar ou esclarecer a instrução." },
         { "id": "B", "text": "diligência substitui decisão final." },
         { "id": "C", "text": "diligência é sempre recurso." },
-        { "id": "D", "text": "diligência dispensa documentos." }
+        { "id": "D", "text": "diligência dispensa documentos." },
+        { "id": "E", "text": "diligência pode completar ou esclarecer a instrução e, simultaneamente, diligência substitui decisão final." }
       ],
       "correctOptionId": "A",
       "explanation": "A diligência é uma providência instrutória para completar ou esclarecer os autos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6320",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A relação correta entre saneamento e decisão final é:",
       "options": [
         { "id": "A", "text": "saneamento é condenação." },
         { "id": "B", "text": "saneamento é recurso obrigatório." },
         { "id": "C", "text": "saneamento corrige a instrução, mas não é decisão final de mérito." },
-        { "id": "D", "text": "saneamento é prejulgado." }
+        { "id": "D", "text": "saneamento é prejulgado." },
+        { "id": "E", "text": "saneamento corrige a instrução, mas não é decisão final de mérito e, simultaneamente, saneamento é condenação." }
       ],
       "correctOptionId": "C",
       "explanation": "Saneamento aperfeiçoa a formação ou instrução dos autos e não julga o mérito. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6321",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na análise do contraditório, a associação mais precisa é:",
       "options": [
         { "id": "A", "text": "contraditório - ciência e reação." },
         { "id": "B", "text": "contraditório - execução de multa." },
         { "id": "C", "text": "contraditório - recurso exclusivo." },
-        { "id": "D", "text": "contraditório - consulta pública irrestrita." }
+        { "id": "D", "text": "contraditório - consulta pública irrestrita." },
+        { "id": "E", "text": "contraditório - ciência e reação e, simultaneamente, contraditório - execução de multa." }
       ],
       "correctOptionId": "A",
       "explanation": "Contraditório envolve ciência e possibilidade de reação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6322",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na análise da ampla defesa, a associação mais precisa é:",
       "options": [
         { "id": "A", "text": "ampla defesa - sanção automática." },
         { "id": "B", "text": "ampla defesa - meios admitidos para impugnar e provar." },
         { "id": "C", "text": "ampla defesa - ausência de comunicação." },
-        { "id": "D", "text": "ampla defesa - sigilo absoluto contra a parte." }
+        { "id": "D", "text": "ampla defesa - sigilo absoluto contra a parte." },
+        { "id": "E", "text": "ampla defesa - meios admitidos para impugnar e provar e, simultaneamente, ampla defesa - sanção automática." }
       ],
       "correctOptionId": "B",
       "explanation": "Ampla defesa envolve uso dos meios admitidos para explicar, impugnar e provar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6323",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na revelia parcial, a associação mais precisa é:",
       "options": [
         { "id": "A", "text": "revelia parcial - ocorrência não contestada." },
         { "id": "B", "text": "revelia parcial - prova ilícita." },
         { "id": "C", "text": "revelia parcial - recurso de revisão." },
-        { "id": "D", "text": "revelia parcial - prejulgado." }
+        { "id": "D", "text": "revelia parcial - prejulgado." },
+        { "id": "E", "text": "revelia parcial - ocorrência não contestada e, simultaneamente, revelia parcial - prova ilícita." }
       ],
       "correctOptionId": "A",
       "explanation": "Revelia parcial pode ocorrer quanto à ocorrência específica que não foi contestada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6324",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em diligência processual, a associação mais precisa é:",
       "options": [
         { "id": "A", "text": "diligência - execução fiscal." },
         { "id": "B", "text": "diligência - obtenção de informação ou documento necessário." },
         { "id": "C", "text": "diligência - decisão final." },
-        { "id": "D", "text": "diligência - ética disciplinar." }
+        { "id": "D", "text": "diligência - ética disciplinar." },
+        { "id": "E", "text": "diligência - obtenção de informação ou documento necessário e, simultaneamente, diligência - execução fiscal." }
       ],
       "correctOptionId": "B",
       "explanation": "Diligência busca informação, documento, esclarecimento ou providência instrutória. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6325",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'o prazo de 30 dias é a referência geral localizada para defesa' está",
       "options": [
         { "id": "A", "text": "correta." },
         { "id": "B", "text": "incorreta, pois nunca há prazo de defesa." },
         { "id": "C", "text": "incorreta, pois todo prazo é de 5 dias." },
-        { "id": "D", "text": "incorreta, pois defesa só ocorre após recurso." }
+        { "id": "D", "text": "incorreta, pois defesa só ocorre após recurso." },
+        { "id": "E", "text": "correta e, simultaneamente, incorreta, pois nunca há prazo de defesa." }
       ],
       "correctOptionId": "A",
       "explanation": "O prazo de 30 dias aparece como referência geral segura para defesa no art. 127 e em atos oficiais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6326",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'um edital específico com 15 dias altera todos os prazos ordinários de defesa' está",
       "options": [
         { "id": "A", "text": "correta." },
         { "id": "B", "text": "incorreta, pois prazo específico não deve ser generalizado sem base normativa." },
         { "id": "C", "text": "correta apenas em consulta." },
-        { "id": "D", "text": "correta apenas em recurso." }
+        { "id": "D", "text": "correta apenas em recurso." },
+        { "id": "E", "text": "incorreta, pois prazo específico não deve ser generalizado sem base normativa e, simultaneamente, correta." }
       ],
       "correctOptionId": "B",
       "explanation": "Prazo específico de edital não altera automaticamente o prazo ordinário de defesa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6327",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'defesa genérica basta para afastar todas as ocorrências' está",
       "options": [
         { "id": "A", "text": "correta." },
         { "id": "B", "text": "correta se houver prazo." },
         { "id": "C", "text": "incorreta, pois a defesa deve impugnar articuladamente as ocorrências." },
-        { "id": "D", "text": "correta apenas com procurador." }
+        { "id": "D", "text": "correta apenas com procurador." },
+        { "id": "E", "text": "incorreta, pois a defesa deve impugnar articuladamente as ocorrências e, simultaneamente, correta." }
       ],
       "correctOptionId": "C",
       "explanation": "A defesa precisa enfrentar as ocorrências de forma precisa e articulada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6328",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'o saneamento absolve automaticamente o responsável' está",
       "options": [
         { "id": "A", "text": "correta sempre." },
         { "id": "B", "text": "correta quando há diligência." },
         { "id": "C", "text": "correta quando há revelia." },
-        { "id": "D", "text": "incorreta, pois saneamento corrige falhas instrutórias e não decide o mérito." }
+        { "id": "D", "text": "incorreta, pois saneamento corrige falhas instrutórias e não decide o mérito." },
+        { "id": "E", "text": "incorreta, pois saneamento corrige falhas instrutórias e não decide o mérito e, simultaneamente, correta sempre." }
       ],
       "correctOptionId": "D",
       "explanation": "Saneamento não é absolvição automática; ele corrige ou completa a instrução. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6329",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'prova ilícita pode ser usada se ajudar a defesa' está",
       "options": [
         { "id": "A", "text": "incorreta, pois provas ilícitas são inadmissíveis." },
         { "id": "B", "text": "correta sempre." },
         { "id": "C", "text": "correta apenas em contas de governo." },
-        { "id": "D", "text": "correta apenas em diligência." }
+        { "id": "D", "text": "correta apenas em diligência." },
+        { "id": "E", "text": "incorreta, pois provas ilícitas são inadmissíveis e, simultaneamente, correta sempre." }
       ],
       "correctOptionId": "A",
       "explanation": "A Constituição veda provas obtidas por meios ilícitos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6330",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'consulta pública substitui a defesa formal' está",
       "options": [
         { "id": "A", "text": "correta sempre." },
         { "id": "B", "text": "incorreta, pois consulta pública acompanha processos e não substitui ato de defesa." },
         { "id": "C", "text": "correta em processos sigilosos." },
-        { "id": "D", "text": "correta apenas com procurador." }
+        { "id": "D", "text": "correta apenas com procurador." },
+        { "id": "E", "text": "incorreta, pois consulta pública acompanha processos e não substitui ato de defesa e, simultaneamente, correta sempre." }
       ],
       "correctOptionId": "B",
       "explanation": "Consulta processual é mecanismo de acompanhamento, não substituto da defesa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6331",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'procurador constituído pela parte é o mesmo que Procurador de Contas' está",
       "options": [
         { "id": "A", "text": "correta sempre." },
         { "id": "B", "text": "correta apenas em defesa." },
         { "id": "C", "text": "incorreta, pois são figuras distintas." },
-        { "id": "D", "text": "correta apenas em consulta." }
+        { "id": "D", "text": "correta apenas em consulta." },
+        { "id": "E", "text": "incorreta, pois são figuras distintas e, simultaneamente, correta sempre." }
       ],
       "correctOptionId": "C",
       "explanation": "Procurador da parte representa interesse privado ou institucional da parte; Procurador de Contas integra o MPC. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6332",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'diligência é recurso' está",
       "options": [
         { "id": "A", "text": "correta sempre." },
         { "id": "B", "text": "correta se houver documento." },
         { "id": "C", "text": "correta se houver prazo." },
-        { "id": "D", "text": "incorreta, pois diligência é providência instrutória." }
+        { "id": "D", "text": "incorreta, pois diligência é providência instrutória." },
+        { "id": "E", "text": "incorreta, pois diligência é providência instrutória e, simultaneamente, correta sempre." }
       ],
       "correctOptionId": "D",
       "explanation": "Diligência serve à instrução e não é meio recursal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6333",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No caso de defesa contra relatório técnico com várias ocorrências, a conduta mais adequada é",
       "options": [
         { "id": "A", "text": "impugnar articuladamente cada ocorrência relevante, com razões e provas." },
         { "id": "B", "text": "responder apenas que discorda de tudo." },
         { "id": "C", "text": "aguardar a execução da multa." },
-        { "id": "D", "text": "substituir defesa por consulta pública." }
+        { "id": "D", "text": "substituir defesa por consulta pública." },
+        { "id": "E", "text": "impugnar articuladamente cada ocorrência relevante, com razões e provas e, simultaneamente, responder apenas que discorda de tudo." }
       ],
       "correctOptionId": "A",
       "explanation": "A defesa deve ser específica e articulada, enfrentando as ocorrências do relatório técnico. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6334",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a parte contesta algumas ocorrências e deixa outras sem resposta específica, o risco processual é",
       "options": [
         { "id": "A", "text": "arquivamento automático de tudo." },
         { "id": "B", "text": "revelia quanto às ocorrências não contestadas." },
         { "id": "C", "text": "transformação em consulta." },
-        { "id": "D", "text": "extinção da competência do Tribunal." }
+        { "id": "D", "text": "extinção da competência do Tribunal." },
+        { "id": "E", "text": "revelia quanto às ocorrências não contestadas e, simultaneamente, arquivamento automático de tudo." }
       ],
       "correctOptionId": "B",
       "explanation": "A Lei Orgânica prevê revelia quanto à ocorrência não contestada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6335",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a parte não apresenta defesa no prazo, a consequência segura é",
       "options": [
         { "id": "A", "text": "recurso automático em seu favor." },
         { "id": "B", "text": "anulação obrigatória do relatório." },
         { "id": "C", "text": "revelia e prosseguimento normal do processo." },
-        { "id": "D", "text": "desaparecimento das ocorrências." }
+        { "id": "D", "text": "desaparecimento das ocorrências." },
+        { "id": "E", "text": "revelia e prosseguimento normal do processo e, simultaneamente, recurso automático em seu favor." }
       ],
       "correctOptionId": "C",
       "explanation": "Ausência de defesa no prazo gera revelia para todos os efeitos e prosseguimento normal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6336",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a banca perguntar sobre regras completas de contagem dos arts. regimentais não confirmados, o cuidado correto é",
       "options": [
         { "id": "A", "text": "inventar a contagem com base no CPC." },
         { "id": "B", "text": "usar somente memória de fontes secundárias." },
         { "id": "C", "text": "cravar que todo prazo é de 15 dias." },
-        { "id": "D", "text": "conferir a redação oficial vigente e evitar generalizações." }
+        { "id": "D", "text": "conferir a redação oficial vigente e evitar generalizações." },
+        { "id": "E", "text": "conferir a redação oficial vigente e evitar generalizações e, simultaneamente, inventar a contagem com base no CPC." }
       ],
       "correctOptionId": "D",
       "explanation": "Sem consolidação oficial extraída, detalhes de contagem devem ser qualificados e conferidos no texto vigente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6337",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A regra de ouro sobre prazos neste assunto é",
       "options": [
         { "id": "A", "text": "distinguir prazo geral, prazo regimental confirmado, prazo especial com base normativa e prazos de outros recortes." },
         { "id": "B", "text": "usar sempre o menor prazo encontrado em qualquer edital." },
         { "id": "C", "text": "desconsiderar o ato citatório." },
-        { "id": "D", "text": "aplicar prazos recursais antes da defesa." }
+        { "id": "D", "text": "aplicar prazos recursais antes da defesa." },
+        { "id": "E", "text": "distinguir prazo geral, prazo regimental confirmado, prazo especial com base normativa e prazos de outros recortes e, simultaneamente, usar sempre o menor prazo encontrado em qualquer edital." }
       ],
       "correctOptionId": "A",
       "explanation": "O conteúdo recomenda distinguir as fontes e funções dos prazos para evitar generalizações erradas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6338",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Deve ficar para recorte posterior o estudo detalhado de",
       "options": [
         { "id": "A", "text": "defesa articulada." },
         { "id": "B", "text": "recursos, revisão, sanções e execução." },
         { "id": "C", "text": "provas com a defesa." },
-        { "id": "D", "text": "revelia em nível conceitual." }
+        { "id": "D", "text": "revelia em nível conceitual." },
+        { "id": "E", "text": "recursos, revisão, sanções e execução e, simultaneamente, defesa articulada." }
       ],
       "correctOptionId": "B",
       "explanation": "O Assunto 060 trata de garantias e instrução; recursos, revisão, sanções e execução pertencem aos próximos recortes. Fonte: questão autoral baseada nas referências do conteúdo."

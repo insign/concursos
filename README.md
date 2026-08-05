@@ -2,8 +2,6 @@
 
 Portal de estudos para concursos, construído com Astro e publicado como site estático. O projeto oferece conteúdo técnico, cheat sheets para impressão, questionários, preferências e progresso sincronizados, PWA e pacotes de concurso para uso offline.
 
-O plano autoritativo da implementação está em [`final_plan.md`](./final_plan.md).
-
 ## Requisitos
 
 - Node.js 22.12.0 ou superior.

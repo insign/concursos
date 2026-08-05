@@ -1,6 +1,6 @@
 # Roadmap editorial
 
-Este arquivo é o backlog editorial autoritativo e define o escopo programático dos conteúdos, resumos e questões do projeto. O `final_plan.md` permanece como autoridade arquitetural. Os cabeçalhos de matéria deixam de ser apenas agrupadores: quando o conteúdo do assunto correspondente for publicado, cada agrupamento deverá ser representado por um descritor explícito `grupo.json`, e todo assunto publicado deverá estar abaixo de um ou mais desses grupos editoriais. Cada assunto forma uma unidade de estudo coesa e pode abranger um item principal, itens intrinsecamente relacionados ou uma parte delimitada de um item excessivamente amplo. Cada assunto deve ter seu próprio `conteudo.md`, `cheat-sheet.md` e conjunto de 50 ou mais questões. O trabalho deve ser realizado em um assunto por vez, salvo solicitação explícita para processar um lote. Os números e recortes do edital indicados em cada assunto são escopo obrigatório de aceitação, sem omissão ou duplicação.
+Este arquivo é o backlog editorial autoritativo e define o escopo programático dos conteúdos, resumos e questões do projeto. Os cabeçalhos de matéria deixam de ser apenas agrupadores: quando o conteúdo do assunto correspondente for publicado, cada agrupamento deverá ser representado por um descritor explícito `grupo.json`, e todo assunto publicado deverá estar abaixo de um ou mais desses grupos editoriais. Cada assunto forma uma unidade de estudo coesa e pode abranger um item principal, itens intrinsecamente relacionados ou uma parte delimitada de um item excessivamente amplo. Cada assunto deve ter seu próprio `conteudo.md`, `cheat-sheet.md` e conjunto de 50 ou mais questões. O trabalho deve ser realizado em um assunto por vez, salvo solicitação explícita para processar um lote. Os números e recortes do edital indicados em cada assunto são escopo obrigatório de aceitação, sem omissão ou duplicação.
 
 Regra editorial de dimensionamento: cada assunto deve caber em uma sessão de estudo focada, responder a uma pergunta ou mapa de estudo claro e conter material coerente suficiente para sustentar as 50 questões obrigatórias, sem enchimento. Não há limite rígido de palavras. Divisões devem seguir fronteiras funcionais, normativas, cronológicas ou de processo, e não uma contagem arbitrária de artigos ou parágrafos. Itens só devem ser agrupados quando forem pequenos demais para estudo autônomo e intrinsecamente relacionados.
 
@@ -339,116 +339,116 @@ I - História do Estado do Maranhão
 - Item 8. A Independência do Brasil.
 - Item 9. Causas da não adesão: a Batalha do Jenipapo.
 
-##### [ ] Assunto 077 - Item 10: Balaiada: caracterização e causas.
+##### [x] Concluído Assunto 077 - Item 10: Balaiada: caracterização e causas.
 
 - Item 10. A Balaiada: caracterização e causas do movimento.
 
-##### [ ] Assunto 078 - Itens 11 e 12: Adesão do Maranhão à República e Revolução de 1930.
+##### [x] Concluído Assunto 078 - Itens 11 e 12: Adesão do Maranhão à República e Revolução de 1930.
 
 - Item 11. Período Republicano: adesão do Maranhão à República.
 - Item 12. A Revolução de 1930 no Maranhão.
 
-##### [ ] Assunto 079 - Item 13: Vitorinismo e Greve de 1951.
+##### [x] Concluído Assunto 079 - Item 13: Vitorinismo e Greve de 1951.
 
 - Item 13. O Vitorinismo e a Greve de 1951.
 - O item 13 é tratado conjuntamente, por recorte histórico, sem repetição.
 
-##### [ ] Assunto 080 - Item 14, recorte político: fatos políticos do Maranhão na segunda metade do século XX.
+##### [x] Concluído Assunto 080 - Item 14, recorte político: fatos políticos do Maranhão na segunda metade do século XX.
 
 - Item 14. Fatos políticos do Maranhão na segunda metade do século XX.
 
-##### [ ] Assunto 081 - Item 14, recorte econômico: fatos econômicos do Maranhão na segunda metade do século XX.
+##### [x] Concluído Assunto 081 - Item 14, recorte econômico: fatos econômicos do Maranhão na segunda metade do século XX.
 
 - Item 14. Fatos econômicos do Maranhão na segunda metade do século XX.
 
-##### [ ] Assunto 082 - Item 14, recorte social: fatos sociais do Maranhão na segunda metade do século XX.
+##### [x] Concluído Assunto 082 - Item 14, recorte social: fatos sociais do Maranhão na segunda metade do século XX.
 
 - Item 14. Fatos sociais do Maranhão na segunda metade do século XX.
 
 II - Geografia do Estado do Maranhão
 
-##### [ ] Assunto 083 - Item 1: Localização, superfície, limites, fronteiras e pontos extremos.
+##### [x] Concluído Assunto 083 - Item 1: Localização, superfície, limites, fronteiras e pontos extremos.
 
 - Item 1. Localização do Estado do Maranhão: superfície; limites; linhas de fronteira; pontos extremos.
 
-##### [ ] Assunto 084 - Itens 3 e 4: Geomorfologia, geologia, recursos minerais e relevo maranhense.
+##### [x] Concluído Assunto 084 - Itens 3 e 4: Geomorfologia, geologia, recursos minerais e relevo maranhense.
 
 - Item 3. Geomorfologia. Geologia e recursos minerais no Maranhão.
 - Item 4. Classificação do relevo maranhense: planaltos, planícies e baixadas.
 
-##### [ ] Assunto 085 - Itens 2 e 3: Áreas de Proteção Ambiental e parques nacionais.
+##### [x] Concluído Assunto 085 - Itens 2 e 3: Áreas de Proteção Ambiental e parques nacionais.
 
 - Item 2. Áreas de Proteção Ambiental (APA).
 - Item 3. Parques nacionais.
 
-##### [ ] Assunto 086 - Itens 3 e 7: Climas e formações vegetais do Maranhão.
+##### [x] Concluído Assunto 086 - Itens 3 e 7: Climas e formações vegetais do Maranhão.
 
 - Item 3. Climas do Maranhão: pluviosidade e temperatura.
 - Item 7. Principais formações vegetais: floresta, cerrado e cocais.
 
-##### [ ] Assunto 087 - Itens 5 e 6: Rios limítrofes, suas bacias e bacias genuinamente maranhenses.
+##### [x] Concluído Assunto 087 - Itens 5 e 6: Rios limítrofes, suas bacias e bacias genuinamente maranhenses.
 
 - Item 5. Características dos rios maranhenses: bacias dos rios limítrofes: bacia do Parnaíba, do Gurupi e do Tocantins-Araguaia.
 - Item 6. Bacias dos rios genuinamente maranhenses.
 
-##### [ ] Assunto 088 - Item 8: População, povoamento, densidade, urbanização e movimentos populacionais.
+##### [x] Concluído Assunto 088 - Item 8: População, povoamento, densidade, urbanização e movimentos populacionais.
 
 - Item 8. Geografia da população: população absoluta, povoamento, urbanização, densidade e movimentos populacionais.
 
-##### [ ] Assunto 089 - Item 9: Agricultura e pecuária maranhenses.
+##### [x] Concluído Assunto 089 - Item 9: Agricultura e pecuária maranhenses.
 
 - Item 9. A agricultura maranhense: caracterização e principais produtos agrícolas; caracterização da pecuária.
 
-##### [ ] Assunto 090 - Item 10: Extrativismo vegetal, animal e mineral.
+##### [x] Concluído Assunto 090 - Item 10: Extrativismo vegetal, animal e mineral.
 
 - Item 10. Extrativismo: vegetal, animal e mineral.
 
-##### [ ] Assunto 091 - Item 11: Indústrias de base e de transformação.
+##### [x] Concluído Assunto 091 - Item 11: Indústrias de base e de transformação.
 
 - Item 11. Parque industrial: indústrias de base e indústrias de transformação.
 
-##### [ ] Assunto 092 - Item 12: Comércio, telecomunicações e transportes.
+##### [x] Concluído Assunto 092 - Item 12: Comércio, telecomunicações e transportes.
 
 - Item 12. Setor terciário: comércio, telecomunicações, transportes.
 
-##### [ ] Assunto 093 - Itens 13 e 14: Malha viária, portos e aeroportos.
+##### [x] Concluído Assunto 093 - Itens 13 e 14: Malha viária, portos e aeroportos.
 
 - Item 13. Malha viária.
 - Item 14. Portos e aeroportos.
 
-##### [ ] Assunto 094 - Item 15: Cultura maranhense.
+##### [x] Concluído Assunto 094 - Item 15: Cultura maranhense.
 
 - Item 15. A cultura maranhense.
 
 #### Noções de Direitos Humanos
 
-##### [ ] Assunto 095 - Itens 1 e 2: Teoria geral dos direitos fundamentais e relação entre direitos humanos e fundamentais.
+##### [x] Concluído Assunto 095 - Itens 1 e 2: Teoria geral dos direitos fundamentais e relação entre direitos humanos e fundamentais.
 
 - Item 1. Teoria geral dos direitos fundamentais.
 - Item 2. Direitos humanos e direitos fundamentais.
 
-##### [ ] Assunto 096 - Item 3: Declaração Universal dos Direitos Humanos.
+##### [x] Concluído Assunto 096 - Item 3: Declaração Universal dos Direitos Humanos.
 
-##### [ ] Assunto 097 - Item 4: Agenda 2030 da ONU.
+##### [x] Concluído Assunto 097 - Item 4: Agenda 2030 da ONU.
 
-##### [ ] Assunto 098 - Item 5, recorte: fundamentos, direitos e garantias do Estatuto da Pessoa com Deficiência.
+##### [x] Concluído Assunto 098 - Item 5, recorte: fundamentos, direitos e garantias do Estatuto da Pessoa com Deficiência.
 
 - Item 5. Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015 e suas alterações).
 - O item 5 é desdobrado nos Assuntos 098 e 099 por função normativa, sem inventar faixas de artigos nem repetir dispositivos: este assunto trata de fundamentos, direitos e garantias.
 
-##### [ ] Assunto 099 - Item 5, recorte: inclusão, acessibilidade e responsabilização no Estatuto da Pessoa com Deficiência.
+##### [x] Concluído Assunto 099 - Item 5, recorte: inclusão, acessibilidade e responsabilização no Estatuto da Pessoa com Deficiência.
 
-##### [ ] Assunto 100 - Itens 6 e 7: Normas gerais de acessibilidade e prioridade de atendimento.
+##### [x] Concluído Assunto 100 - Itens 6 e 7: Normas gerais de acessibilidade e prioridade de atendimento.
 
 - Item 6. Normas gerais e critérios básicos para promoção da acessibilidade às pessoas com deficiência ou com mobilidade reduzida (Lei nº 10.098/2000).
 - Item 7. Prioridade de atendimento às pessoas com deficiência (Lei nº 10.048/2000).
 
-##### [ ] Assunto 101 - Item 8, recorte: fundamentos, direitos e igualdade material.
+##### [x] Concluído Assunto 101 - Item 8, recorte: fundamentos, direitos e igualdade material.
 
 - Item 8. Lei nº 12.288/2010 (Estatuto da Igualdade Racial).
 - O item 8 é desdobrado nos Assuntos 101 e 102 por função normativa, sem inventar faixas de artigos nem repetir dispositivos: este assunto trata de fundamentos, direitos e igualdade material.
 
-##### [ ] Assunto 102 - Item 8, recorte: políticas públicas e mecanismos de promoção da igualdade racial.
+##### [x] Concluído Assunto 102 - Item 8, recorte: políticas públicas e mecanismos de promoção da igualdade racial.
 
 ### Conhecimentos específicos
 
@@ -693,4 +693,4 @@ Referência: item 14.2.4, Cargo 1, páginas físicas 32 e 33 do PDF (páginas 23
 - Programa de conhecimentos gerais: PDF físico, páginas 29-32 / Diário Oficial, páginas 235-238.
 - Programa de conhecimentos específicos: PDF físico, páginas 32-33 / Diário Oficial, páginas 238-239.
 
-Correções e retificações posteriores deverão ser incorporadas antes de este roadmap ser tratado como escopo definitivo de estudo. Todo item `[x]` afetado deverá ser reaberto, com fonte, data e impacto registrados; as revisões aplicáveis das questões deverão ser atualizadas conforme `final_plan.md`; e todos os gates deverão ser repetidos antes de o item retornar a `[x]`.
+Correções e retificações posteriores deverão ser incorporadas antes de este roadmap ser tratado como escopo definitivo de estudo. Todo item `[x]` afetado deverá ser reaberto, com fonte, data e impacto registrados; as revisões das questões deverão preservar IDs; alteração de enunciado, opções ou gabarito incrementa `question.revision`; adição ou remoção de questões incrementa `questionSetRevision`; e todos os gates deverão ser repetidos antes de o item retornar a `[x]`.
