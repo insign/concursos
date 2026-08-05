@@ -4,840 +4,900 @@
   "questions": [
     {
       "id": "q6159",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No recorte de processos de controle externo do TCE/MA, o foco principal é compreender",
       "options": [
         { "id": "A", "text": "a ética disciplinar completa dos membros do Tribunal." },
         { "id": "B", "text": "o rito integral dos recursos e da revisão." },
         { "id": "C", "text": "a execução de multas e débitos já constituídos." },
-        { "id": "D", "text": "a arquitetura de contas, fiscalizações, atos sujeitos a registro, sistemas e consulta processual." }
+        { "id": "D", "text": "a arquitetura de contas, fiscalizações, atos sujeitos a registro, sistemas e consulta processual." },
+        { "id": "E", "text": "a arquitetura de contas, fiscalizações, atos sujeitos a registro, sistemas e consulta processual e, simultaneamente, a ética disciplinar completa dos membros do Tribunal." }
       ],
       "correctOptionId": "D",
       "explanation": "O Assunto 058 cobre a estrutura dos processos de controle externo, deixando recursos, execução, sanções e ética para recortes posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6160",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A autuação de um processo de controle externo deve ser entendida como",
       "options": [
         { "id": "A", "text": "a aplicação imediata de sanção ao responsável." },
         { "id": "B", "text": "a revisão automática da decisão colegiada." },
         { "id": "C", "text": "a formação ou registro formal do processo no sistema competente." },
-        { "id": "D", "text": "a substituição do relator pelo sistema eletrônico." }
+        { "id": "D", "text": "a substituição do relator pelo sistema eletrônico." },
+        { "id": "E", "text": "a formação ou registro formal do processo no sistema competente e, simultaneamente, a aplicação imediata de sanção ao responsável." }
       ],
       "correctOptionId": "C",
       "explanation": "Autuar é formar ou registrar formalmente o processo; não significa julgamento, sanção ou revisão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6161",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A instrução de processo de controle externo é corretamente associada à atividade de",
       "options": [
         { "id": "A", "text": "encerrar o processo sem análise técnica." },
         { "id": "B", "text": "publicar certidão de trânsito em julgado." },
         { "id": "C", "text": "reunir, examinar e qualificar elementos para subsidiar a atuação do Tribunal." },
-        { "id": "D", "text": "transformar consulta pública em recurso." }
+        { "id": "D", "text": "transformar consulta pública em recurso." },
+        { "id": "E", "text": "reunir, examinar e qualificar elementos para subsidiar a atuação do Tribunal e, simultaneamente, encerrar o processo sem análise técnica." }
       ],
       "correctOptionId": "C",
       "explanation": "A instrução reúne e examina dados, documentos e manifestações para subsidiar apreciação ou julgamento. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6162",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A prestação de contas anual eletrônica, no TCE/MA, relaciona-se ao sistema denominado",
       "options": [
         { "id": "A", "text": "SAAP." },
         { "id": "B", "text": "e-TCEspecial." },
         { "id": "C", "text": "SINC-Contrata." },
-        { "id": "D", "text": "e-PCA." }
+        { "id": "D", "text": "e-PCA." },
+        { "id": "E", "text": "e-PCA e, simultaneamente, SAAP." }
       ],
       "correctOptionId": "D",
       "explanation": "O e-PCA é o Sistema de Prestação de Contas Anual eletrônica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6163",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O e-PCA, conforme a página oficial do TCE/MA, destina-se a receber",
       "options": [
         { "id": "A", "text": "somente certidões eleitorais." },
         { "id": "B", "text": "apenas recursos contra acórdãos do Pleno." },
         { "id": "C", "text": "exclusivamente denúncias anônimas." },
-        { "id": "D", "text": "informações e documentos eletrônicos que compõem processos de prestação de contas anual." }
+        { "id": "D", "text": "informações e documentos eletrônicos que compõem processos de prestação de contas anual." },
+        { "id": "E", "text": "informações e documentos eletrônicos que compõem processos de prestação de contas anual e, simultaneamente, somente certidões eleitorais." }
       ],
       "correctOptionId": "D",
       "explanation": "O hotsite oficial descreve o e-PCA como sistema de recebimento de informações e documentos da prestação de contas anual. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6164",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em relação ao e-PCA, é correto afirmar que a apresentação da prestação de contas anual deve ocorrer",
       "options": [
         { "id": "A", "text": "sempre no último dia útil de dezembro." },
         { "id": "B", "text": "apenas após decisão do Pleno em recurso." },
         { "id": "C", "text": "em até sessenta dias contados de 2 de fevereiro, segundo o hotsite oficial." },
-        { "id": "D", "text": "sem qualquer prazo informado por fonte oficial." }
+        { "id": "D", "text": "sem qualquer prazo informado por fonte oficial." },
+        { "id": "E", "text": "em até sessenta dias contados de 2 de fevereiro, segundo o hotsite oficial e, simultaneamente, sempre no último dia útil de dezembro." }
       ],
       "correctOptionId": "C",
       "explanation": "A página oficial do e-PCA informa o prazo de até sessenta dias contados de 2 de fevereiro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6165",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A diferença didática entre contas de governo e contas de gestão indica que contas de governo se associam principalmente",
       "options": [
         { "id": "A", "text": "à folha de pagamento como ato sujeito a registro." },
         { "id": "B", "text": "ao cadastro de operadores de sistema." },
         { "id": "C", "text": "à avaliação global da gestão, usualmente ligada a parecer prévio." },
-        { "id": "D", "text": "à emissão de certidão de trânsito em julgado." }
+        { "id": "D", "text": "à emissão de certidão de trânsito em julgado." },
+        { "id": "E", "text": "à avaliação global da gestão, usualmente ligada a parecer prévio e, simultaneamente, à folha de pagamento como ato sujeito a registro." }
       ],
       "correctOptionId": "C",
       "explanation": "Contas de governo envolvem avaliação global e parecer prévio; contas de gestão dizem respeito à atuação de administradores e responsáveis. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6166",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As contas de gestão, no estudo dos processos de controle externo, devem ser associadas ao",
       "options": [
         { "id": "A", "text": "recurso automático contra todo relatório técnico." },
         { "id": "B", "text": "parecer prévio obrigatório sobre qualquer pergunta abstrata." },
         { "id": "C", "text": "ato exclusivo de nomeação de conselheiros." },
-        { "id": "D", "text": "julgamento da atuação de administradores e responsáveis por recursos, bens e valores públicos." }
+        { "id": "D", "text": "julgamento da atuação de administradores e responsáveis por recursos, bens e valores públicos." },
+        { "id": "E", "text": "julgamento da atuação de administradores e responsáveis por recursos, bens e valores públicos e, simultaneamente, recurso automático contra todo relatório técnico." }
       ],
       "correctOptionId": "D",
       "explanation": "Contas de gestão focam a atuação dos administradores e responsáveis que gerem recursos públicos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6167",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A tomada de contas, em relação à prestação ordinária de contas, deve ser compreendida como",
       "options": [
         { "id": "A", "text": "sinônimo de consulta pública processual." },
         { "id": "B", "text": "a pauta de sessão do Pleno." },
         { "id": "C", "text": "apuração formal quando contas não são apresentadas ou quando a lei exige formação específica." },
-        { "id": "D", "text": "a eleição do Presidente do Tribunal." }
+        { "id": "D", "text": "a eleição do Presidente do Tribunal." },
+        { "id": "E", "text": "apuração formal quando contas não são apresentadas ou quando a lei exige formação específica e, simultaneamente, sinônimo de consulta pública processual." }
       ],
       "correctOptionId": "C",
       "explanation": "Tomada de contas envolve apuração formal, especialmente em hipóteses de omissão ou necessidade legal de formação específica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6168",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a IN TCE/MA nº 50/2017, a tomada de contas especial destina-se a",
       "options": [
         { "id": "A", "text": "organizar exclusivamente pautas de sessão." },
         { "id": "B", "text": "cadastrar usuários do Portal do Gestor." },
         { "id": "C", "text": "apurar fatos, identificar responsáveis e quantificar dano causado ao erário." },
-        { "id": "D", "text": "substituir todos os recursos processuais." }
+        { "id": "D", "text": "substituir todos os recursos processuais." },
+        { "id": "E", "text": "apurar fatos, identificar responsáveis e quantificar dano causado ao erário e, simultaneamente, organizar exclusivamente pautas de sessão." }
       ],
       "correctOptionId": "C",
       "explanation": "A IN nº 50/2017 define a tomada de contas especial por esses três núcleos: fatos, responsáveis e dano. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6169",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Antes da instauração da tomada de contas especial, a autoridade competente deve, em regra, adotar",
       "options": [
         { "id": "A", "text": "sorteio público de conselheiro sem processo." },
         { "id": "B", "text": "recurso de revisão obrigatório." },
         { "id": "C", "text": "consulta abstrata ao Pleno em todos os casos." },
-        { "id": "D", "text": "medidas administrativas para elisão do dano." }
+        { "id": "D", "text": "medidas administrativas para elisão do dano." },
+        { "id": "E", "text": "medidas administrativas para elisão do dano e, simultaneamente, sorteio público de conselheiro sem processo." }
       ],
       "correctOptionId": "D",
       "explanation": "A IN nº 50/2017 coloca as medidas administrativas para elisão do dano como providência preliminar à tomada de contas especial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6170",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O sistema oficial relacionado ao recebimento de comunicações e processos de tomada de contas especial é o",
       "options": [
         { "id": "A", "text": "SINC-Folha." },
         { "id": "B", "text": "e-TCEspecial." },
         { "id": "C", "text": "IEG-M." },
-        { "id": "D", "text": "Siger." }
+        { "id": "D", "text": "Siger." },
+        { "id": "E", "text": "e-TCEspecial e, simultaneamente, SINC-Folha." }
       ],
       "correctOptionId": "B",
       "explanation": "O e-TCEspecial é descrito oficialmente como sistema de tomada de contas especial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6171",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Decisão Normativa TCE/MA nº 38/2020 fixou, para o envio de tomada de contas especial ao Tribunal, o valor histórico do dano em",
       "options": [
         { "id": "A", "text": "R$ 10.000,00." },
         { "id": "B", "text": "R$ 50.000,00." },
         { "id": "C", "text": "R$ 100.000,00." },
-        { "id": "D", "text": "R$ 1.000.000,00." }
+        { "id": "D", "text": "R$ 1.000.000,00." },
+        { "id": "E", "text": "R$ 100.000,00 e, simultaneamente, R$ 10.000,00." }
       ],
       "correctOptionId": "C",
       "explanation": "A DN nº 38/2020 estabeleceu R$ 100.000,00 como valor histórico do dano para obrigação de envio da tomada de contas especial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6172",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na classificação de fiscalizações do controle externo, auditoria é melhor descrita como",
       "options": [
         { "id": "A", "text": "a decisão final irrecorrível." },
         { "id": "B", "text": "a certidão negativa emitida ao responsável." },
         { "id": "C", "text": "o recurso contra acórdão." },
-        { "id": "D", "text": "exame planejado e técnico de matéria, programa, ato, contrato, sistema ou gestão." }
+        { "id": "D", "text": "exame planejado e técnico de matéria, programa, ato, contrato, sistema ou gestão." },
+        { "id": "E", "text": "exame planejado e técnico de matéria, programa, ato, contrato, sistema ou gestão e, simultaneamente, a decisão final irrecorrível." }
       ],
       "correctOptionId": "D",
       "explanation": "Auditoria é fiscalização técnica e planejada; não se confunde com decisão, certidão ou recurso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6173",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A inspeção, no contexto dos processos de fiscalização, é corretamente associada a",
       "options": [
         { "id": "A", "text": "um cadastro de usuários sem relação com fiscalização." },
         { "id": "B", "text": "um julgamento automático de contas de governo." },
         { "id": "C", "text": "um pedido de reconsideração obrigatório." },
-        { "id": "D", "text": "uma verificação pontual ou dirigida para apurar fatos, situações ou documentos." }
+        { "id": "D", "text": "uma verificação pontual ou dirigida para apurar fatos, situações ou documentos." },
+        { "id": "E", "text": "uma verificação pontual ou dirigida para apurar fatos, situações ou documentos e, simultaneamente, um cadastro de usuários sem relação com fiscalização." }
       ],
       "correctOptionId": "D",
       "explanation": "Inspeção é fiscalização dirigida ou pontual, não julgamento automático nem recurso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6174",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O acompanhamento, como instrumento de fiscalização, tem como ideia central",
       "options": [
         { "id": "A", "text": "a exclusão de processos da consulta pública." },
         { "id": "B", "text": "o monitoramento da execução, evolução ou conformidade de determinada matéria." },
         { "id": "C", "text": "a lavratura de certidão eleitoral." },
-        { "id": "D", "text": "a substituição das competências constitucionais do Tribunal." }
+        { "id": "D", "text": "a substituição das competências constitucionais do Tribunal." },
+        { "id": "E", "text": "o monitoramento da execução, evolução ou conformidade de determinada matéria e, simultaneamente, a exclusão de processos da consulta pública." }
       ],
       "correctOptionId": "B",
       "explanation": "Acompanhamento é fiscalização de monitoramento, diferente de decisão final ou certidão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6175",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O SINC-Fiscal, segundo a página de sistemas externos do TCE/MA, destina-se ao recebimento de informações sobre",
       "options": [
         { "id": "A", "text": "julgamento de recursos ordinários." },
         { "id": "B", "text": "atos de aposentadoria exclusivamente." },
         { "id": "C", "text": "gestão orçamentária, financeira e patrimonial." },
-        { "id": "D", "text": "pautas de sessões colegiadas." }
+        { "id": "D", "text": "pautas de sessões colegiadas." },
+        { "id": "E", "text": "gestão orçamentária, financeira e patrimonial e, simultaneamente, julgamento de recursos ordinários." }
       ],
       "correctOptionId": "C",
       "explanation": "O SINC-Fiscal recebe informações sobre gestão orçamentária, financeira e patrimonial dos fiscalizados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6176",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O SINC-Contrata, no conjunto de sistemas externos do TCE/MA, está ligado ao recebimento de dados sobre",
       "options": [
         { "id": "A", "text": "folha de pagamento de pensionistas apenas." },
         { "id": "B", "text": "tomada de contas especial concluída." },
         { "id": "C", "text": "consultas abstratas de autoridades." },
-        { "id": "D", "text": "procedimentos licitatórios e contratos administrativos." }
+        { "id": "D", "text": "procedimentos licitatórios e contratos administrativos." },
+        { "id": "E", "text": "procedimentos licitatórios e contratos administrativos e, simultaneamente, folha de pagamento de pensionistas apenas." }
       ],
       "correctOptionId": "D",
       "explanation": "O SINC-Contrata é apresentado como módulo para contratações públicas, licitações e contratos administrativos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6177",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O SIGER, nos sistemas externos do TCE/MA, tem como finalidade segura",
       "options": [
         { "id": "A", "text": "processar exclusivamente denúncias sigilosas." },
         { "id": "B", "text": "julgar automaticamente contas anuais." },
         { "id": "C", "text": "emitir acórdãos em substituição ao Pleno." },
-        { "id": "D", "text": "cadastrar administradores e demais responsáveis pela gestão pública fiscalizada." }
+        { "id": "D", "text": "cadastrar administradores e demais responsáveis pela gestão pública fiscalizada." },
+        { "id": "E", "text": "cadastrar administradores e demais responsáveis pela gestão pública fiscalizada e, simultaneamente, processar exclusivamente denúncias sigilosas." }
       ],
       "correctOptionId": "D",
       "explanation": "O SIGER é destinado ao cadastro de administradores e responsáveis sujeitos à fiscalização do TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6178",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O INFORME, conforme a página oficial de sistemas externos, é voltado a",
       "options": [
         { "id": "A", "text": "substituir todas as auditorias presenciais." },
         { "id": "B", "text": "coletar dados para levantamentos de informações pertinentes a fiscalizações." },
         { "id": "C", "text": "registrar concessões de aposentadoria." },
-        { "id": "D", "text": "emitir certidão de trânsito em julgado." }
+        { "id": "D", "text": "emitir certidão de trânsito em julgado." },
+        { "id": "E", "text": "coletar dados para levantamentos de informações pertinentes a fiscalizações e, simultaneamente, substituir todas as auditorias presenciais." }
       ],
       "correctOptionId": "B",
       "explanation": "O INFORME coleta dados para levantamentos relacionados a fiscalizações do TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6179",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Atos sujeitos a registro, segundo a lógica apresentada na IN TCE/MA nº 47/2017, são atos",
       "options": [
         { "id": "A", "text": "sem relação com apreciação do TCE/MA." },
         { "id": "B", "text": "que sempre dispensam documentos de fiscalização." },
         { "id": "C", "text": "administrativos complexos cuja natureza impõe apreciação do TCE/MA para que se completem." },
-        { "id": "D", "text": "equivalentes a pautas de sessão." }
+        { "id": "D", "text": "equivalentes a pautas de sessão." },
+        { "id": "E", "text": "administrativos complexos cuja natureza impõe apreciação do TCE/MA para que se completem e, simultaneamente, sem relação com apreciação do TCE/MA." }
       ],
       "correctOptionId": "C",
       "explanation": "A IN nº 47/2017 define atos sujeitos a registro como atos administrativos complexos submetidos à apreciação do Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6180",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre os atos de pessoal submetidos à lógica de registro pelo TCE/MA, encontram-se",
       "options": [
         { "id": "A", "text": "apenas pautas e atas de sessões." },
         { "id": "B", "text": "apenas licenças internas de servidores do Tribunal." },
         { "id": "C", "text": "somente contratos administrativos de obras." },
-        { "id": "D", "text": "admissões, aposentadorias, reformas e pensões, conforme o recorte normativo." }
+        { "id": "D", "text": "admissões, aposentadorias, reformas e pensões, conforme o recorte normativo." },
+        { "id": "E", "text": "admissões, aposentadorias, reformas e pensões, conforme o recorte normativo e, simultaneamente, apenas pautas e atas de sessões." }
       ],
       "correctOptionId": "D",
       "explanation": "O conteúdo destaca admissões e concessões de aposentadoria, reforma e pensão como atos ligados à apreciação para registro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6181",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O SAAP, no TCE/MA, é o sistema relacionado a",
       "options": [
         { "id": "A", "text": "publicação de súmulas legislativas estaduais." },
         { "id": "B", "text": "recursos judiciais externos." },
         { "id": "C", "text": "atos de pessoal e respectivos elementos de fiscalização." },
-        { "id": "D", "text": "controle exclusivo de obras paralisadas." }
+        { "id": "D", "text": "controle exclusivo de obras paralisadas." },
+        { "id": "E", "text": "atos de pessoal e respectivos elementos de fiscalização e, simultaneamente, publicação de súmulas legislativas estaduais." }
       ],
       "correctOptionId": "C",
       "explanation": "O SAAP recebe elementos de fiscalização referentes a atos de pessoal sujeitos a registro e dados correlatos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6182",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A folha de pagamento, conforme a lógica da IN TCE/MA nº 47/2017, deve ser compreendida como",
       "options": [
         { "id": "A", "text": "ato sujeito a registro em todas as hipóteses." },
         { "id": "B", "text": "dado que pode ser enviado para controle de legalidade e elementos de fiscalização, embora não seja por si ato sujeito a registro." },
         { "id": "C", "text": "documento sem qualquer utilidade para controle externo." },
-        { "id": "D", "text": "recurso administrativo com efeito suspensivo." }
+        { "id": "D", "text": "recurso administrativo com efeito suspensivo." },
+        { "id": "E", "text": "dado que pode ser enviado para controle de legalidade e elementos de fiscalização, embora não seja por si ato sujeito a registro, mas que, simultaneamente, é ato sujeito a registro em todas as hipóteses." }
       ],
       "correctOptionId": "B",
       "explanation": "A folha de pagamento alimenta fiscalização e controle de legalidade, mas não se confunde automaticamente com ato sujeito a registro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6183",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A IN TCE/MA nº 47/2017 identifica módulos do SAAP, entre os quais se inclui",
       "options": [
         { "id": "A", "text": "módulo de recursos eleitorais." },
         { "id": "B", "text": "módulo de pautas das Câmaras." },
         { "id": "C", "text": "módulo de admissão." },
-        { "id": "D", "text": "módulo de certidão de trânsito em julgado." }
+        { "id": "D", "text": "módulo de certidão de trânsito em julgado." },
+        { "id": "E", "text": "módulo de admissão e, simultaneamente, módulo de recursos eleitorais." }
       ],
       "correctOptionId": "C",
       "explanation": "A IN nº 47/2017 menciona módulos como admissão, inatividade, folha de pagamento e concursos públicos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6184",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quando a crítica preliminar no SAAP identifica inconsistências ou omissões, a consequência estrutural pode ser",
       "options": [
         { "id": "A", "text": "declaração automática de trânsito em julgado." },
         { "id": "B", "text": "imediata decisão de mérito pelo sistema." },
         { "id": "C", "text": "transformação em consulta abstrata." },
-        { "id": "D", "text": "devolução para saneamento das falhas identificadas." }
+        { "id": "D", "text": "devolução para saneamento das falhas identificadas." },
+        { "id": "E", "text": "devolução para saneamento das falhas identificadas e, simultaneamente, declaração automática de trânsito em julgado." }
       ],
       "correctOptionId": "D",
       "explanation": "A IN nº 47/2017 prevê saneamento de inconsistências ou omissões em atos analisados preliminarmente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6185",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Saneamento processual, no contexto estudado, significa",
       "options": [
         { "id": "A", "text": "correção de falhas, omissões ou inconsistências na formação ou instrução do processo." },
         { "id": "B", "text": "condenação definitiva do responsável." },
         { "id": "C", "text": "recurso obrigatório ao Pleno." },
-        { "id": "D", "text": "exclusão de toda publicidade processual." }
+        { "id": "D", "text": "exclusão de toda publicidade processual." },
+        { "id": "E", "text": "correção de falhas, omissões ou inconsistências na formação ou instrução do processo e, simultaneamente, condenação definitiva do responsável." }
       ],
       "correctOptionId": "A",
       "explanation": "Saneamento corrige problemas de formação ou instrução e não equivale a sanção, recurso ou decisão de mérito. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6186",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A IN TCE/MA nº 83/2026 reforça, na prestação de contas, cuidados digitais como",
       "options": [
         { "id": "A", "text": "proibição absoluta de PDFs." },
         { "id": "B", "text": "documentos em PDF, OCR quando necessário, legibilidade e ausência de malware." },
         { "id": "C", "text": "envio exclusivo por papel físico." },
-        { "id": "D", "text": "dispensa de identificação de unidade orçamentária." }
+        { "id": "D", "text": "dispensa de identificação de unidade orçamentária." },
+        { "id": "E", "text": "documentos em PDF, OCR quando necessário, legibilidade e ausência de malware e, simultaneamente, proibição absoluta de PDFs." }
       ],
       "correctOptionId": "B",
       "explanation": "A IN nº 83/2026 altera regras de arquivos digitais, com PDF, OCR quando necessário, legibilidade e arquivos livres de malware. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6187",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A utilização de sistemas eletrônicos pelo TCE/MA demonstra que",
       "options": [
         { "id": "A", "text": "a competência material do Tribunal deixou de existir." },
         { "id": "B", "text": "todos os processos são públicos sem exceção." },
         { "id": "C", "text": "tecnologia pode servir à padronização, rastreabilidade, transparência e eficiência do controle." },
-        { "id": "D", "text": "o processo eletrônico dispensa qualquer documento." }
+        { "id": "D", "text": "o processo eletrônico dispensa qualquer documento." },
+        { "id": "E", "text": "tecnologia pode servir à padronização, rastreabilidade, transparência e eficiência do controle e, simultaneamente, a competência material do Tribunal deixou de existir." }
       ],
       "correctOptionId": "C",
       "explanation": "Os sistemas eletrônicos operacionalizam e qualificam o controle externo, mas não eliminam competência, documentos ou limites de sigilo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6188",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A consulta pública de processos do TCE/MA permite acompanhar, entre outros, processos de",
       "options": [
         { "id": "A", "text": "prestação de contas, tomada de contas, tomada de contas especial e fiscalização." },
         { "id": "B", "text": "somente nomeação de servidores comissionados." },
         { "id": "C", "text": "apenas processos judiciais do Tribunal de Justiça." },
-        { "id": "D", "text": "exclusivamente atos internos de férias." }
+        { "id": "D", "text": "exclusivamente atos internos de férias." },
+        { "id": "E", "text": "prestação de contas, tomada de contas, tomada de contas especial e fiscalização e, simultaneamente, somente nomeação de servidores comissionados." }
       ],
       "correctOptionId": "A",
       "explanation": "A página oficial informa que a consulta acompanha processos como prestação de contas, tomada de contas, tomada de contas especial, fiscalização e outros. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6189",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a página oficial de consulta de processos, ficam fora do acompanhamento público ordinário",
       "options": [
         { "id": "A", "text": "todos os processos de prestação de contas." },
         { "id": "B", "text": "processos de caráter restrito ou sigiloso." },
         { "id": "C", "text": "todos os processos de fiscalização." },
-        { "id": "D", "text": "todos os processos administrativos." }
+        { "id": "D", "text": "todos os processos administrativos." },
+        { "id": "E", "text": "processos de caráter restrito ou sigiloso e, simultaneamente, todos os processos de prestação de contas." }
       ],
       "correctOptionId": "B",
       "explanation": "A própria página ressalva os processos de caráter restrito ou sigiloso. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6190",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A existência de filtros por natureza, espécie, ente, unidade e responsável na consulta pública indica que",
       "options": [
         { "id": "A", "text": "a consulta substitui a decisão do relator." },
         { "id": "B", "text": "todo processo sigiloso é automaticamente público." },
         { "id": "C", "text": "os processos são classificados formalmente para fins de organização e busca." },
-        { "id": "D", "text": "não existem categorias processuais no TCE/MA." }
+        { "id": "D", "text": "não existem categorias processuais no TCE/MA." },
+        { "id": "E", "text": "os processos são classificados formalmente para fins de organização e busca e, simultaneamente, a consulta substitui a decisão do relator." }
       ],
       "correctOptionId": "C",
       "explanation": "Os filtros mostram classificação formal e organização de busca, sem alterar mérito ou competência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6191",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A consulta processual pública não deve ser confundida com",
       "options": [
         { "id": "A", "text": "serviço de acompanhamento de movimentação processual." },
         { "id": "B", "text": "mecanismo de publicidade dos processos públicos." },
         { "id": "C", "text": "ferramenta de busca por filtros." },
-        { "id": "D", "text": "ato que cria competência, altera mérito ou substitui defesa processual." }
+        { "id": "D", "text": "ato que cria competência, altera mérito ou substitui defesa processual." },
+        { "id": "E", "text": "serviço de acompanhamento de movimentação processual e mecanismo de publicidade dos processos públicos." }
       ],
       "correctOptionId": "D",
       "explanation": "Consulta processual permite acompanhar processos públicos, mas não cria competência, muda mérito ou substitui atos processuais próprios. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6192",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A competência para apreciar atos e contratos administrativos consta, em nível institucional, da página oficial de",
       "options": [
         { "id": "A", "text": "competências do TCE/MA." },
         { "id": "B", "text": "agenda cultural do Estado." },
         { "id": "C", "text": "manual de identidade visual." },
-        { "id": "D", "text": "calendário escolar municipal." }
+        { "id": "D", "text": "calendário escolar municipal." },
+        { "id": "E", "text": "competências do TCE/MA e, simultaneamente, agenda cultural do Estado." }
       ],
       "correctOptionId": "A",
       "explanation": "A página de competências enumera, entre outras atribuições, a apreciação de atos e contratos administrativos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6193",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Fiscalizar a aplicação de recursos transferidos por convênio, acordo, ajuste ou instrumento congênere é exemplo de",
       "options": [
         { "id": "A", "text": "matéria de controle externo prevista entre as competências do TCE/MA." },
         { "id": "B", "text": "ato interno sem controle externo." },
         { "id": "C", "text": "função exclusiva da Câmara Municipal sem participação de Tribunal de Contas." },
-        { "id": "D", "text": "consulta processual sem processo." }
+        { "id": "D", "text": "consulta processual sem processo." },
+        { "id": "E", "text": "matéria de controle externo prevista entre as competências do TCE/MA e, simultaneamente, ato interno sem controle externo." }
       ],
       "correctOptionId": "A",
       "explanation": "A fiscalização de recursos transferidos integra as competências institucionais do TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6194",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quando se diz que o sistema eletrônico não cria competência, afirma-se que",
       "options": [
         { "id": "A", "text": "nenhum sistema pode receber documento." },
         { "id": "B", "text": "a competência decorre das normas aplicáveis, enquanto o sistema operacionaliza dados e documentos." },
         { "id": "C", "text": "todo arquivo eletrônico é inválido." },
-        { "id": "D", "text": "o Tribunal só atua sem processo." }
+        { "id": "D", "text": "o Tribunal só atua sem processo." },
+        { "id": "E", "text": "a competência decorre das normas aplicáveis, enquanto o sistema operacionaliza dados e documentos e, simultaneamente, nenhum sistema pode receber documento." }
       ],
       "correctOptionId": "B",
       "explanation": "Constituição, Lei Orgânica, Regimento e atos normativos fundam a competência; sistemas são meios operacionais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6195",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A frase 'e-PCA não é julgamento automático' está correta porque o e-PCA",
       "options": [
         { "id": "A", "text": "é meio eletrônico de recepção e organização da prestação de contas anual." },
         { "id": "B", "text": "é o órgão colegiado julgador." },
         { "id": "C", "text": "substitui o relator em todas as matérias." },
-        { "id": "D", "text": "aplica multa automaticamente sem processo." }
+        { "id": "D", "text": "aplica multa automaticamente sem processo." },
+        { "id": "E", "text": "é meio eletrônico de recepção e organização da prestação de contas anual e, simultaneamente, é o órgão colegiado julgador." }
       ],
       "correctOptionId": "A",
       "explanation": "O e-PCA recebe e organiza informações; julgamento ou parecer dependem do processo e da competência aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6196",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A frase 'fiscalização não é julgamento' significa que",
       "options": [
         { "id": "A", "text": "auditorias não podem produzir achados." },
         { "id": "B", "text": "fiscalizar é examinar, e julgar é decidir no processo próprio." },
         { "id": "C", "text": "o Tribunal não realiza auditorias." },
-        { "id": "D", "text": "todo relatório técnico é recurso." }
+        { "id": "D", "text": "todo relatório técnico é recurso." },
+        { "id": "E", "text": "fiscalizar é examinar, e julgar é decidir no processo próprio e, simultaneamente, auditorias não podem produzir achados." }
       ],
       "correctOptionId": "B",
       "explanation": "A fiscalização subsidia a atuação do Tribunal, mas decisão final pertence ao processo e órgão competente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6197",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A relação correta entre sistema e processo é:",
       "options": [
         { "id": "A", "text": "um sistema sempre elimina a necessidade de processo." },
         { "id": "B", "text": "um processo nunca pode receber dados de sistemas." },
         { "id": "C", "text": "sistemas recebem, organizam ou disponibilizam dados que podem alimentar processos." },
-        { "id": "D", "text": "consulta processual é sinônimo de acórdão." }
+        { "id": "D", "text": "consulta processual é sinônimo de acórdão." },
+        { "id": "E", "text": "sistemas recebem, organizam ou disponibilizam dados que podem alimentar processos e, simultaneamente, um sistema sempre elimina a necessidade de processo." }
       ],
       "correctOptionId": "C",
       "explanation": "Sistemas eletrônicos são meios de entrada, organização e publicidade; processos são instrumentos formais de controle. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6198",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na tomada de contas especial, a quantificação do dano ao erário é relevante porque",
       "options": [
         { "id": "A", "text": "é uma das finalidades estruturais definidas pela IN nº 50/2017." },
         { "id": "B", "text": "serve apenas para escolher pauta de sessão." },
         { "id": "C", "text": "dispensa a identificação de responsáveis." },
-        { "id": "D", "text": "substitui toda medida administrativa prévia." }
+        { "id": "D", "text": "substitui toda medida administrativa prévia." },
+        { "id": "E", "text": "é uma das finalidades estruturais definidas pela IN nº 50/2017 e, simultaneamente, serve apenas para escolher pauta de sessão." }
       ],
       "correctOptionId": "A",
       "explanation": "A tomada de contas especial visa apurar fatos, identificar responsáveis e quantificar o dano ao erário. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6199",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A omissão no dever de prestar contas é uma das hipóteses que pode justificar, no regime da IN nº 50/2017, medidas voltadas a",
+      "prompt": "A omissão no dever de prestar contas é uma das hipóteses que pode justificar, no regime da IN nº 50/2017, medidas voltadas à",
       "options": [
         { "id": "A", "text": "certidão automática de regularidade." },
         { "id": "B", "text": "elisão do dano e eventual tomada de contas especial." },
         { "id": "C", "text": "extinção da competência do Tribunal." },
-        { "id": "D", "text": "dispensa de apuração formal." }
+        { "id": "D", "text": "dispensa de apuração formal." },
+        { "id": "E", "text": "elisão do dano e eventual tomada de contas especial e, simultaneamente, certidão automática de regularidade." }
       ],
       "correctOptionId": "B",
       "explanation": "A omissão no dever de prestar contas integra as hipóteses consideradas pela IN nº 50/2017 para medidas administrativas e TCE especial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6200",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A tomada de contas especial não deve ser confundida com prestação de contas anual porque",
       "options": [
         { "id": "A", "text": "a prestação anual é envio ordinário de informações, enquanto a TCE especial tem núcleo de dano ao erário." },
         { "id": "B", "text": "ambas são sempre idênticas." },
         { "id": "C", "text": "a TCE especial nunca identifica responsáveis." },
-        { "id": "D", "text": "a prestação anual é recurso." }
+        { "id": "D", "text": "a prestação anual é recurso." },
+        { "id": "E", "text": "a prestação anual é envio ordinário de informações, enquanto a TCE especial tem núcleo de dano ao erário e, simultaneamente, ambas são sempre idênticas." }
       ],
       "correctOptionId": "A",
       "explanation": "Prestação anual é dever ordinário; tomada de contas especial existe para apurar fatos, responsáveis e dano. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6201",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O SINC-Folha, conforme a página de sistemas externos do TCE/MA, relaciona-se à apresentação de dados sobre",
       "options": [
         { "id": "A", "text": "procedimentos licitatórios." },
         { "id": "B", "text": "processamento da folha de pagamento." },
         { "id": "C", "text": "somente atas de sessões." },
-        { "id": "D", "text": "recursos judiciais." }
+        { "id": "D", "text": "recursos judiciais." },
+        { "id": "E", "text": "processamento da folha de pagamento e, simultaneamente, procedimentos licitatórios." }
       ],
       "correctOptionId": "B",
       "explanation": "O SINC-Folha recebe dados relacionados ao processamento da folha de pagamento dos órgãos e entidades fiscalizados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6202",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A atuação do controle interno, na lógica da tomada de contas especial, é relevante porque",
       "options": [
         { "id": "A", "text": "o controle interno pode ter papel na ciência de irregularidades e no parecer conclusivo." },
         { "id": "B", "text": "substitui definitivamente o TCE/MA." },
         { "id": "C", "text": "dispensa a identificação do dano." },
-        { "id": "D", "text": "elimina a necessidade de documentos." }
+        { "id": "D", "text": "elimina a necessidade de documentos." },
+        { "id": "E", "text": "o controle interno pode ter papel na ciência de irregularidades e no parecer conclusivo e, simultaneamente, substitui definitivamente o TCE/MA." }
       ],
       "correctOptionId": "A",
       "explanation": "A IN nº 50/2017 menciona ciência de irregularidades pelo controle interno e parecer conclusivo em TCE especial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6203",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A apreciação, para fins de registro, de aposentadorias, reformas e pensões indica que o TCE/MA atua",
       "options": [
         { "id": "A", "text": "como órgão de origem que concede todos os benefícios." },
         { "id": "B", "text": "como órgão que aprecia a legalidade do ato para fins de registro." },
         { "id": "C", "text": "como cartório eleitoral." },
-        { "id": "D", "text": "sem qualquer relação com atos de pessoal." }
+        { "id": "D", "text": "sem qualquer relação com atos de pessoal." },
+        { "id": "E", "text": "como órgão que aprecia a legalidade do ato para fins de registro e, simultaneamente, como órgão de origem que concede todos os benefícios." }
       ],
       "correctOptionId": "B",
       "explanation": "O Tribunal aprecia a legalidade para fins de registro; não é o órgão de origem do benefício. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6204",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os elementos de fiscalização, na IN nº 47/2017, são dados, informações e documentos que",
       "options": [
         { "id": "A", "text": "atestam e comprovam a prática de ato sujeito a registro." },
         { "id": "B", "text": "servem apenas para publicação de notícias." },
         { "id": "C", "text": "eliminam o dever de saneamento." },
-        { "id": "D", "text": "substituem o Regimento Interno." }
+        { "id": "D", "text": "substituem o Regimento Interno." },
+        { "id": "E", "text": "atestam e comprovam a prática de ato sujeito a registro e, simultaneamente, servem apenas para publicação de notícias." }
       ],
       "correctOptionId": "A",
       "explanation": "A IN nº 47/2017 conceitua elementos de fiscalização como dados, informações e documentos comprobatórios dos atos sujeitos a registro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6205",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quando o TCE/MA acompanha arrecadação, recursos transferidos ou renúncia de receitas, está exercendo",
       "options": [
         { "id": "A", "text": "atividade sem relação com controle externo." },
         { "id": "B", "text": "competências de fiscalização previstas institucionalmente." },
         { "id": "C", "text": "função de cartório civil." },
-        { "id": "D", "text": "poder legislativo municipal direto." }
+        { "id": "D", "text": "poder legislativo municipal direto." },
+        { "id": "E", "text": "competências de fiscalização previstas institucionalmente e, simultaneamente, atividade sem relação com controle externo." }
       ],
       "correctOptionId": "B",
       "explanation": "Essas matérias aparecem nas competências oficiais do TCE/MA como frentes de fiscalização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6206",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma questão que afirme que todo dado recebido por sistema eletrônico já é decisão definitiva do TCE/MA deve ser considerada",
       "options": [
         { "id": "A", "text": "correta, porque sistemas julgam sem processo." },
         { "id": "B", "text": "correta apenas para e-PCA." },
         { "id": "C", "text": "incorreta, pois recepção de dados não se confunde com decisão definitiva." },
-        { "id": "D", "text": "correta apenas para consulta processual." }
+        { "id": "D", "text": "correta apenas para consulta processual." },
+        { "id": "E", "text": "incorreta, pois recepção de dados não se confunde com decisão definitiva e, simultaneamente, correta, porque sistemas julgam sem processo." }
       ],
       "correctOptionId": "C",
       "explanation": "Entrada de dados ou documentos é etapa operacional; decisão definitiva depende do processo e competência aplicável. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6207",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O processo de controle externo pode reunir peças oriundas de vários sistemas porque",
       "options": [
         { "id": "A", "text": "sistemas podem alimentar a instrução processual com dados e documentos." },
         { "id": "B", "text": "cada sistema é órgão julgador autônomo." },
         { "id": "C", "text": "não há processo formal no TCE/MA." },
-        { "id": "D", "text": "a consulta pública elimina todos os anexos." }
+        { "id": "D", "text": "a consulta pública elimina todos os anexos." },
+        { "id": "E", "text": "sistemas podem alimentar a instrução processual com dados e documentos e, simultaneamente, cada sistema é órgão julgador autônomo." }
       ],
       "correctOptionId": "A",
       "explanation": "Sistemas eletrônicos funcionam como fontes de dados e documentos que podem alimentar processos formais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6208",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se uma alternativa afirmar que saneamento é recurso contra acórdão, ela está",
       "options": [
         { "id": "A", "text": "correta, pois saneamento sempre substitui recurso." },
         { "id": "B", "text": "correta apenas na prestação de contas anual." },
         { "id": "C", "text": "correta apenas na tomada de contas especial." },
-        { "id": "D", "text": "incorreta, pois saneamento corrige falhas de formação ou instrução." }
+        { "id": "D", "text": "incorreta, pois saneamento corrige falhas de formação ou instrução." },
+        { "id": "E", "text": "incorreta, pois saneamento corrige falhas de formação ou instrução e, simultaneamente, correta, pois saneamento sempre substitui recurso." }
       ],
       "correctOptionId": "D",
       "explanation": "Saneamento não é recurso; é correção de inconsistências, omissões ou documentos faltantes. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6209",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O fato de a página de consulta mencionar processos de Consulta não autoriza, neste assunto, estudar todo o rito de consultas porque",
       "options": [
         { "id": "A", "text": "consultas foram reservadas para o recorte posterior de denúncias, representações e consultas." },
         { "id": "B", "text": "consultas não existem no TCE/MA." },
         { "id": "C", "text": "consulta processual sempre é sigilosa." },
-        { "id": "D", "text": "consulta é o mesmo que prestação de contas." }
+        { "id": "D", "text": "consulta é o mesmo que prestação de contas." },
+        { "id": "E", "text": "consultas foram reservadas para o recorte posterior de denúncias, representações e consultas e, simultaneamente, consultas não existem no TCE/MA." }
       ],
       "correctOptionId": "A",
       "explanation": "O Assunto 058 só registra a presença da categoria em consulta processual; o rito de consultas fica para o Assunto 059. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6210",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A fronteira correta do Assunto 058 em relação ao Assunto 061 é que o Assunto 058 trata",
       "options": [
         { "id": "A", "text": "da execução detalhada de sanções." },
         { "id": "B", "text": "da arquitetura dos processos, deixando decisões, sanções e execução para depois." },
         { "id": "C", "text": "de recursos e revisão." },
-        { "id": "D", "text": "de ética e regras finais." }
+        { "id": "D", "text": "de ética e regras finais." },
+        { "id": "E", "text": "da arquitetura dos processos, deixando decisões, sanções e execução para depois e, simultaneamente, da execução detalhada de sanções." }
       ],
       "correctOptionId": "B",
       "explanation": "Este assunto estuda a arquitetura processual; decisões, sanções e execução pertencem ao recorte do Assunto 061. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6211",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A consulta processual pública, no âmbito do TCE/MA, distingue-se de um ato de admissão de pessoal porque",
       "options": [
         { "id": "A", "text": "a consulta acompanha movimentação de processos públicos, enquanto a admissão é ato de pessoal sujeito à apreciação para registro." },
         { "id": "B", "text": "a consulta processual nomeia servidores, enquanto a admissão apenas divulga filtros." },
         { "id": "C", "text": "a admissão é ferramenta de busca, enquanto a consulta é ato sujeito a registro." },
-        { "id": "D", "text": "ambas são a mesma espécie de processo eletrônico e produzem os mesmos efeitos." }
+        { "id": "D", "text": "ambas são a mesma espécie de processo eletrônico e produzem os mesmos efeitos." },
+        { "id": "E", "text": "a consulta acompanha movimentação de processos públicos, enquanto a admissão é ato de pessoal sujeito à apreciação para registro e, simultaneamente, a consulta processual nomeia servidores, enquanto a admissão apenas divulga filtros." }
       ],
       "correctOptionId": "A",
       "explanation": "Consulta processual é ferramenta de acompanhamento; admissão de pessoal é ato submetido à apreciação de legalidade para fins de registro. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6212",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma auditoria pode produzir achados e relatórios que subsidiam deliberação, mas ela não se confunde com",
       "options": [
         { "id": "A", "text": "atividade de fiscalização." },
         { "id": "B", "text": "exame técnico planejado." },
         { "id": "C", "text": "instrumento de controle externo." },
-        { "id": "D", "text": "a decisão final do processo." }
+        { "id": "D", "text": "a decisão final do processo." },
+        { "id": "E", "text": "atividade de fiscalização realizada por exame técnico planejado." }
       ],
       "correctOptionId": "D",
       "explanation": "Auditoria é instrumento de fiscalização; a decisão final é ato processual distinto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6213",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A expressão 'processos de caráter restrito ou sigiloso' na página de consulta demonstra que",
       "options": [
         { "id": "A", "text": "a publicidade processual convive com exceções de restrição ou sigilo." },
         { "id": "B", "text": "nenhum processo do TCE/MA pode ser consultado." },
         { "id": "C", "text": "todos os processos são recursos." },
-        { "id": "D", "text": "a consulta pública é julgamento." }
+        { "id": "D", "text": "a consulta pública é julgamento." },
+        { "id": "E", "text": "a publicidade processual convive com exceções de restrição ou sigilo e, simultaneamente, nenhum processo do TCE/MA pode ser consultado." }
       ],
       "correctOptionId": "A",
       "explanation": "A consulta pública amplia transparência, mas a própria página ressalva processos restritos ou sigilosos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6214",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na lógica de processos de controle externo, a palavra 'espécie' em filtros processuais aponta para",
       "options": [
         { "id": "A", "text": "ausência total de classificação." },
         { "id": "B", "text": "classificação formal do processo para organização e pesquisa." },
         { "id": "C", "text": "impossibilidade de autuação." },
-        { "id": "D", "text": "decisão automática de mérito." }
+        { "id": "D", "text": "decisão automática de mérito." },
+        { "id": "E", "text": "classificação formal do processo para organização e pesquisa e, simultaneamente, ausência total de classificação." }
       ],
       "correctOptionId": "B",
       "explanation": "Filtros de natureza e espécie indicam organização formal de processos para busca e acompanhamento. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6215",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A melhor associação entre sistema e matéria é",
       "options": [
         { "id": "A", "text": "SAAP - atos de pessoal." },
         { "id": "B", "text": "e-PCA - recursos de revisão." },
         { "id": "C", "text": "SINC-Contrata - aposentadorias." },
-        { "id": "D", "text": "e-TCEspecial - pautas de sessões." }
+        { "id": "D", "text": "e-TCEspecial - pautas de sessões." },
+        { "id": "E", "text": "SAAP - atos de pessoal e, simultaneamente, e-PCA - recursos de revisão." }
       ],
       "correctOptionId": "A",
       "explanation": "SAAP se relaciona a atos de pessoal; e-PCA a contas anuais, SINC-Contrata a contratações e e-TCEspecial a tomada de contas especial. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6216",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A melhor associação entre sistema e matéria é",
       "options": [
         { "id": "A", "text": "SIGER - acórdãos colegiados." },
         { "id": "B", "text": "SINC-Contrata - procedimentos licitatórios e contratos administrativos." },
         { "id": "C", "text": "SAAP - exclusivamente convênios." },
-        { "id": "D", "text": "INFORME - recursos judiciais." }
+        { "id": "D", "text": "INFORME - recursos judiciais." },
+        { "id": "E", "text": "SINC-Contrata - procedimentos licitatórios e contratos administrativos e, simultaneamente, SIGER - acórdãos colegiados." }
       ],
       "correctOptionId": "B",
       "explanation": "SINC-Contrata recebe dados sobre licitações e contratos administrativos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6217",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A melhor associação entre sistema e matéria é",
       "options": [
         { "id": "A", "text": "e-PCA - prestação de contas anual." },
         { "id": "B", "text": "SAAP - pauta de sessões." },
         { "id": "C", "text": "SINC-Folha - tomada de contas especial." },
-        { "id": "D", "text": "Consulta processual - criação de competência." }
+        { "id": "D", "text": "Consulta processual - criação de competência." },
+        { "id": "E", "text": "e-PCA - prestação de contas anual e, simultaneamente, SAAP - pauta de sessões." }
       ],
       "correctOptionId": "A",
       "explanation": "e-PCA é o sistema de prestação de contas anual eletrônica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6218",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A melhor associação entre sistema e matéria é",
       "options": [
         { "id": "A", "text": "e-TCEspecial - certidões eleitorais." },
         { "id": "B", "text": "e-PCA - folha de pagamento mensal." },
         { "id": "C", "text": "SINC-Fiscal - recursos de revisão." },
-        { "id": "D", "text": "e-TCEspecial - tomada de contas especial." }
+        { "id": "D", "text": "e-TCEspecial - tomada de contas especial." },
+        { "id": "E", "text": "e-TCEspecial - tomada de contas especial e, simultaneamente, e-TCEspecial - certidões eleitorais." }
       ],
       "correctOptionId": "D",
       "explanation": "e-TCEspecial é o sistema ligado à tomada de contas especial. Fonte: questão autoral baseada nas referências do conteúdo."

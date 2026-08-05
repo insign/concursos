@@ -4,840 +4,900 @@
   "questions": [
     {
       "id": "q6219",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No recorte de denúncias, representações e consultas no TCE/MA, o objetivo principal é distinguir",
       "options": [
         { "id": "A", "text": "recursos, embargos e revisão de decisões." },
         { "id": "B", "text": "execução de multas, inscrição em dívida ativa e cobrança judicial." },
         { "id": "C", "text": "instrumentos de provocação, legitimidade, requisitos mínimos, triagem, seletividade e consulta normativa." },
-        { "id": "D", "text": "ética disciplinar e regras finais do Regimento." }
+        { "id": "D", "text": "ética disciplinar e regras finais do Regimento." },
+        { "id": "E", "text": "instrumentos de provocação, legitimidade, requisitos mínimos, triagem, seletividade e consulta normativa e, simultaneamente, recursos, embargos e revisão de decisões." }
       ],
       "correctOptionId": "C",
       "explanation": "O Assunto 059 distingue denúncia, representação e consulta, deixando execução, recursos e ética para recortes posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6220",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a Constituição do Estado do Maranhão, são legitimados para denunciar irregularidades ou ilegalidades ao TCE/MA",
       "options": [
         { "id": "A", "text": "apenas Conselheiros do Tribunal." },
         { "id": "B", "text": "exclusivamente empresas contratadas pelo poder público." },
         { "id": "C", "text": "somente Secretários de Estado." },
-        { "id": "D", "text": "qualquer cidadão, partido político, associação ou sindicato." }
+        { "id": "D", "text": "qualquer cidadão, partido político, associação ou sindicato." },
+        { "id": "E", "text": "qualquer cidadão, partido político, associação ou sindicato e, simultaneamente, apenas Conselheiros do Tribunal." }
       ],
       "correctOptionId": "D",
       "explanation": "A legitimidade constitucional da denúncia abrange cidadão, partido político, associação e sindicato. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6221",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A denúncia, no âmbito do TCE/MA, tem por objeto adequado",
       "options": [
         { "id": "A", "text": "qualquer pedido de informação sem relação com controle externo." },
         { "id": "B", "text": "a revisão automática de acórdão transitado." },
         { "id": "C", "text": "irregularidade ou ilegalidade relacionada a matéria de competência do Tribunal." },
-        { "id": "D", "text": "dúvida abstrata formulada para gerar prejulgado." }
+        { "id": "D", "text": "dúvida abstrata formulada para gerar prejulgado." },
+        { "id": "E", "text": "irregularidade ou ilegalidade relacionada a matéria de competência do Tribunal e, simultaneamente, qualquer pedido de informação sem relação com controle externo." }
       ],
       "correctOptionId": "C",
       "explanation": "Denúncia comunica irregularidade ou ilegalidade submetida à competência do TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6222",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A proteção da autoria do denunciante significa que",
       "options": [
         { "id": "A", "text": "denúncia formal dispensa qualquer identificação." },
         { "id": "B", "text": "toda denúncia anônima deve ser autuada como denúncia." },
         { "id": "C", "text": "a Ouvidoria fica proibida de fazer triagem." },
-        { "id": "D", "text": "a identidade pode ser protegida, sem eliminar a exigência de identificação formal." }
+        { "id": "D", "text": "a identidade pode ser protegida, sem eliminar a exigência de identificação formal." },
+        { "id": "E", "text": "a identidade pode ser protegida, sem eliminar a exigência de identificação formal e, simultaneamente, denúncia formal dispensa qualquer identificação." }
       ],
       "correctOptionId": "D",
       "explanation": "Sigilo da autoria protege o denunciante, mas não torna a denúncia formal anônima nem dispensa identificação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6223",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A principal diferença de legitimidade entre denúncia e representação é que",
       "options": [
         { "id": "A", "text": "a denúncia possui legitimidade ampla, enquanto a representação depende de legitimidade específica." },
         { "id": "B", "text": "a representação pode ser feita por qualquer cidadão, e a denúncia só por autoridade." },
         { "id": "C", "text": "ambas são apresentadas somente pelo relator." },
-        { "id": "D", "text": "consulta e representação têm exatamente a mesma legitimidade." }
+        { "id": "D", "text": "consulta e representação têm exatamente a mesma legitimidade." },
+        { "id": "E", "text": "a denúncia possui legitimidade ampla, enquanto a representação depende de legitimidade específica e, simultaneamente, a representação pode ser feita por qualquer cidadão, e a denúncia só por autoridade." }
       ],
       "correctOptionId": "A",
       "explanation": "Denúncia tem legitimidade constitucional ampla; representação exige legitimado específico ou prerrogativa legal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6224",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A representação é corretamente definida como instrumento que",
       "options": [
         { "id": "A", "text": "formula dúvida normativa abstrata por autoridade consulente." },
         { "id": "B", "text": "dispensa indícios ou elementos mínimos." },
         { "id": "C", "text": "substitui todos os recursos processuais." },
-        { "id": "D", "text": "comunica irregularidade ou ilegalidade ao TCE/MA por legitimado específico." }
+        { "id": "D", "text": "comunica irregularidade ou ilegalidade ao TCE/MA por legitimado específico." },
+        { "id": "E", "text": "comunica irregularidade ou ilegalidade ao TCE/MA por legitimado específico e, simultaneamente, formula dúvida normativa abstrata por autoridade consulente." }
       ],
       "correctOptionId": "D",
       "explanation": "Representação comunica irregularidade ou ilegalidade por sujeito legitimado especificamente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6225",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre legitimados que podem aparecer em representações, em nível seguro, estão",
       "options": [
         { "id": "A", "text": "apenas denunciantes anônimos." },
         { "id": "B", "text": "somente usuários sem identificação." },
         { "id": "C", "text": "órgãos de controle interno, equipes de auditoria, unidades técnicas e autoridades legalmente legitimadas." },
-        { "id": "D", "text": "exclusivamente candidatos de concurso público." }
+        { "id": "D", "text": "exclusivamente candidatos de concurso público." },
+        { "id": "E", "text": "órgãos de controle interno, equipes de auditoria, unidades técnicas e autoridades legalmente legitimadas e, simultaneamente, apenas denunciantes anônimos." }
       ],
       "correctOptionId": "C",
       "explanation": "Representações podem decorrer de legitimados específicos como controle interno, equipes de fiscalização, unidades técnicas e autoridades. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6226",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A regra especial sobre representações em licitações e contratos, citada na página de competências, não deve ser usada para concluir que",
       "options": [
         { "id": "A", "text": "existem representações relativas a licitações e contratos." },
         { "id": "B", "text": "o TCE/MA possui competência sobre controle externo de contratações." },
         { "id": "C", "text": "a Lei nº 14.133/2021 pode ser relevante em contratações." },
-        { "id": "D", "text": "qualquer pessoa tem legitimidade universal para toda e qualquer representação." }
+        { "id": "D", "text": "qualquer pessoa tem legitimidade universal para toda e qualquer representação." },
+        { "id": "E", "text": "existem representações relativas a licitações e contratos, e o TCE/MA controla contratações no âmbito de sua competência." }
       ],
       "correctOptionId": "D",
       "explanation": "A legitimidade especial em licitações e contratos não se generaliza para todos os tipos de representação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6227",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Resolução TCE/MA nº 437/2026 sistematizou, em especial, o processamento de",
       "options": [
         { "id": "A", "text": "denúncias e representações, com triagem e análise de seletividade." },
         { "id": "B", "text": "apenas recursos de revisão." },
         { "id": "C", "text": "somente atos de aposentadoria." },
-        { "id": "D", "text": "exclusivamente execução de multas." }
+        { "id": "D", "text": "exclusivamente execução de multas." },
+        { "id": "E", "text": "denúncias e representações, com triagem e análise de seletividade e, simultaneamente, apenas recursos de revisão." }
       ],
       "correctOptionId": "A",
       "explanation": "A Resolução nº 437/2026 trata da sistematização de denúncias e representações, incluindo triagem e seletividade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6228",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Conforme notícia oficial do TCE/MA, a triagem de denúncias e representações é realizada pela",
       "options": [
         { "id": "A", "text": "Secretaria de Estado da Fazenda." },
         { "id": "B", "text": "Câmara Municipal representada." },
         { "id": "C", "text": "Justiça Eleitoral." },
-        { "id": "D", "text": "Ouvidoria do TCE/MA." }
+        { "id": "D", "text": "Ouvidoria do TCE/MA." },
+        { "id": "E", "text": "Ouvidoria do TCE/MA e, simultaneamente, Secretaria de Estado da Fazenda." }
       ],
       "correctOptionId": "D",
       "explanation": "A notícia oficial atribui à Ouvidoria a triagem inicial das denúncias e representações. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6229",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na triagem de denúncias e representações, um dos elementos verificados é",
       "options": [
         { "id": "A", "text": "a existência de recurso já interposto." },
         { "id": "B", "text": "o trânsito em julgado de multa." },
         { "id": "C", "text": "a competência do TCE/MA sobre a matéria veiculada." },
-        { "id": "D", "text": "a formação de lista tríplice para conselheiro." }
+        { "id": "D", "text": "a formação de lista tríplice para conselheiro." },
+        { "id": "E", "text": "a competência do TCE/MA sobre a matéria veiculada e, simultaneamente, a existência de recurso já interposto." }
       ],
       "correctOptionId": "C",
       "explanation": "A triagem verifica se a matéria está inserida na competência do TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6230",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Também integra a triagem de denúncias e representações, conforme divulgação oficial, a verificação de",
       "options": [
         { "id": "A", "text": "mérito definitivo da irregularidade." },
         { "id": "B", "text": "pedido obrigatório de revisão." },
         { "id": "C", "text": "execução fiscal já ajuizada." },
-        { "id": "D", "text": "redação clara e objetiva, identificação, endereço e lastro probatório mínimo." }
+        { "id": "D", "text": "redação clara e objetiva, identificação, endereço e lastro probatório mínimo." },
+        { "id": "E", "text": "redação clara e objetiva, identificação, endereço e lastro probatório mínimo e, simultaneamente, mérito definitivo da irregularidade." }
       ],
       "correctOptionId": "D",
       "explanation": "A triagem verifica requisitos formais mínimos como clareza, qualificação, endereço e lastro probatório mínimo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6231",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a manifestação não preenche os requisitos formais mínimos, a notícia oficial indica que ela",
       "options": [
         { "id": "A", "text": "não é autuada como denúncia ou representação no SPE e pode ser tratada como comunicação de irregularidade." },
         { "id": "B", "text": "gera automaticamente multa ao gestor." },
         { "id": "C", "text": "vira recurso de reconsideração." },
-        { "id": "D", "text": "é julgada procedente sem instrução." }
+        { "id": "D", "text": "é julgada procedente sem instrução." },
+        { "id": "E", "text": "não é autuada como denúncia ou representação no SPE e pode ser tratada como comunicação de irregularidade e, simultaneamente, gera automaticamente multa ao gestor." }
       ],
       "correctOptionId": "A",
       "explanation": "Manifestação sem requisitos mínimos não é autuada como denúncia/representação e pode ir ao banco de dados da fiscalização como comunicação de irregularidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6232",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A comunicação de irregularidade, quando comparada à denúncia autuada, deve ser entendida como",
       "options": [
         { "id": "A", "text": "decisão de mérito do Pleno." },
         { "id": "B", "text": "registro que pode subsidiar a fiscalização, sem equivaler à autuação formal como denúncia." },
         { "id": "C", "text": "recurso processual do interessado." },
-        { "id": "D", "text": "prejulgado normativo da tese." }
+        { "id": "D", "text": "prejulgado normativo da tese." },
+        { "id": "E", "text": "registro que pode subsidiar a fiscalização, sem equivaler à autuação formal como denúncia e, simultaneamente, decisão de mérito do Pleno." }
       ],
       "correctOptionId": "B",
       "explanation": "Comunicação de irregularidade pode subsidiar atuação da fiscalização, mas não se confunde com denúncia autuada no SPE. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6233",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Após cumprir requisitos mínimos de triagem, a manifestação será",
       "options": [
         { "id": "A", "text": "aplicada como sanção imediata." },
         { "id": "B", "text": "destruída sem registro." },
         { "id": "C", "text": "autuada no SPE como denúncia ou representação, conforme o caso." },
-        { "id": "D", "text": "convertida obrigatoriamente em consulta." }
+        { "id": "D", "text": "convertida obrigatoriamente em consulta." },
+        { "id": "E", "text": "autuada no SPE como denúncia ou representação, conforme o caso e, simultaneamente, aplicada como sanção imediata." }
       ],
       "correctOptionId": "C",
       "explanation": "Cumpridos os requisitos formais mínimos, a manifestação é autuada no SPE como denúncia ou representação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6234",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Os critérios de seletividade de denúncias e representações incluem",
       "options": [
         { "id": "A", "text": "recurso, revisão, execução, quitação e trânsito." },
         { "id": "B", "text": "folha, empenho, liquidação e pagamento." },
         { "id": "C", "text": "pauta, ata, voto e publicação." },
-        { "id": "D", "text": "risco, relevância, oportunidade, materialidade, gravidade, urgência e tendência." }
+        { "id": "D", "text": "risco, relevância, oportunidade, materialidade, gravidade, urgência e tendência." },
+        { "id": "E", "text": "risco, relevância, oportunidade, materialidade, gravidade, urgência e tendência e, simultaneamente, recurso, revisão, execução, quitação e trânsito." }
       ],
       "correctOptionId": "D",
       "explanation": "A seletividade considera risco, relevância, oportunidade, materialidade, gravidade, urgência e tendência. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6235",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na seletividade, o critério de materialidade se refere, em nível seguro, à",
       "options": [
         { "id": "A", "text": "expressão econômico-financeira da suposta irregularidade." },
         { "id": "B", "text": "assinatura de ata de sessão." },
         { "id": "C", "text": "ordem alfabética do denunciante." },
-        { "id": "D", "text": "existência de recurso interposto." }
+        { "id": "D", "text": "existência de recurso interposto." },
+        { "id": "E", "text": "expressão econômico-financeira da suposta irregularidade e, simultaneamente, assinatura de ata de sessão." }
       ],
       "correctOptionId": "A",
       "explanation": "Materialidade avalia a expressão econômico-financeira da suposta irregularidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6236",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na seletividade, o critério de risco considera",
       "options": [
         { "id": "A", "text": "a data de posse do denunciante." },
         { "id": "B", "text": "a probabilidade de evento danoso, inclusive dano ao erário ou comprometimento da legalidade." },
         { "id": "C", "text": "o número de páginas do recurso." },
-        { "id": "D", "text": "a distribuição de processos por sorteio." }
+        { "id": "D", "text": "a distribuição de processos por sorteio." },
+        { "id": "E", "text": "a probabilidade de evento danoso, inclusive dano ao erário ou comprometimento da legalidade e, simultaneamente, a data de posse do denunciante." }
       ],
       "correctOptionId": "B",
       "explanation": "Risco avalia a probabilidade de evento danoso, dano ao erário, comprometimento da legalidade ou lesão a direitos. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6237",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na seletividade, o critério de gravidade considera, em linhas gerais,",
       "options": [
         { "id": "A", "text": "a preferência pessoal do relator." },
         { "id": "B", "text": "o cargo do denunciante, sem relação com o fato." },
         { "id": "C", "text": "a magnitude dos efeitos, extensão do dano e dificuldade de recuperação." },
-        { "id": "D", "text": "o número de acessos ao portal." }
+        { "id": "D", "text": "o número de acessos ao portal." },
+        { "id": "E", "text": "a magnitude dos efeitos, extensão do dano e dificuldade de recuperação e, simultaneamente, a preferência pessoal do relator." }
       ],
       "correctOptionId": "C",
       "explanation": "Gravidade avalia magnitude dos efeitos, extensão do dano e dificuldade de recuperação da situação anterior. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6238",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na seletividade, tendência é o critério que avalia",
       "options": [
         { "id": "A", "text": "a assinatura eletrônica do interessado." },
         { "id": "B", "text": "o tipo de cargo do procurador." },
         { "id": "C", "text": "a revisão da decisão já tomada." },
-        { "id": "D", "text": "a provável evolução da situação sem intervenção, inclusive agravamento ou disseminação." }
+        { "id": "D", "text": "a provável evolução da situação sem intervenção, inclusive agravamento ou disseminação." },
+        { "id": "E", "text": "a provável evolução da situação sem intervenção, inclusive agravamento ou disseminação e, simultaneamente, a assinatura eletrônica do interessado." }
       ],
       "correctOptionId": "D",
       "explanation": "Tendência avalia como a irregularidade tende a evoluir sem atuação do Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6239",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A análise de seletividade não deve ser confundida com",
       "options": [
         { "id": "A", "text": "julgamento de mérito ou aplicação de sanção." },
         { "id": "B", "text": "racionalização da atuação do controle externo." },
         { "id": "C", "text": "critério de priorização." },
-        { "id": "D", "text": "etapa posterior à triagem." }
+        { "id": "D", "text": "etapa posterior à triagem." },
+        { "id": "E", "text": "racionalização da atuação do controle externo por critérios de priorização." }
       ],
       "correctOptionId": "A",
       "explanation": "Seletividade prioriza e racionaliza a atuação; não julga o mérito nem aplica sanção. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6240",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Havendo pedido de medida cautelar em denúncia ou representação, a notícia oficial indica que os autos podem ser",
       "options": [
         { "id": "A", "text": "arquivados sem qualquer análise." },
         { "id": "B", "text": "encaminhados diretamente ao Relator para decisão." },
         { "id": "C", "text": "convertidos em prejulgado." },
-        { "id": "D", "text": "transformados em recurso ordinário." }
+        { "id": "D", "text": "transformados em recurso ordinário." },
+        { "id": "E", "text": "encaminhados diretamente ao Relator para decisão e, simultaneamente, arquivados sem qualquer análise." }
       ],
       "correctOptionId": "B",
       "explanation": "A notícia informa exceção de encaminhamento direto ao Relator quando houver pedido cautelar, sem que este assunto aprofunde o mérito cautelar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6241",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A consulta no TCE/MA tem por finalidade principal",
       "options": [
         { "id": "A", "text": "denunciar irregularidade em licitação." },
         { "id": "B", "text": "representar contra gestor por dano ao erário." },
         { "id": "C", "text": "formular dúvida sobre aplicação de norma em matéria da competência do Tribunal." },
-        { "id": "D", "text": "executar multa aplicada em acórdão." }
+        { "id": "D", "text": "executar multa aplicada em acórdão." },
+        { "id": "E", "text": "formular dúvida sobre aplicação de norma em matéria da competência do Tribunal e, simultaneamente, denunciar irregularidade em licitação." }
       ],
       "correctOptionId": "C",
       "explanation": "Consulta serve para formular dúvida normativa sobre matéria de competência do TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6242",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O sistema eletrônico relacionado à formulação de consultas ao TCE/MA é o",
       "options": [
         { "id": "A", "text": "SAAP." },
         { "id": "B", "text": "SINC-Fiscal." },
         { "id": "C", "text": "e-PCA." },
-        { "id": "D", "text": "e-Consulta." }
+        { "id": "D", "text": "e-Consulta." },
+        { "id": "E", "text": "e-Consulta e, simultaneamente, SAAP." }
       ],
       "correctOptionId": "D",
       "explanation": "O e-Consulta permite a autoridades legitimadas formular dúvidas normativas ao TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6243",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Entre autoridades legitimadas no e-Consulta, a página oficial menciona",
       "options": [
         { "id": "A", "text": "Governador do Estado, Prefeito Municipal e Presidente de Câmara Municipal." },
         { "id": "B", "text": "qualquer eleitor sem cargo público." },
         { "id": "C", "text": "qualquer fornecedor contratado." },
-        { "id": "D", "text": "somente servidores do TCE/MA." }
+        { "id": "D", "text": "somente servidores do TCE/MA." },
+        { "id": "E", "text": "Governador do Estado, Prefeito Municipal e Presidente de Câmara Municipal e, simultaneamente, qualquer eleitor sem cargo público." }
       ],
       "correctOptionId": "A",
       "explanation": "A página oficial lista autoridades como Governador, Prefeito e Presidente de Câmara Municipal entre os legitimados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6244",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Também aparece na lista oficial de legitimados do e-Consulta o",
       "options": [
         { "id": "A", "text": "cidadão sem representação institucional, em qualquer hipótese." },
         { "id": "B", "text": "Procurador-Geral de Justiça e o Procurador-Geral do Estado." },
         { "id": "C", "text": "fornecedor privado sem pertinência com órgão público." },
-        { "id": "D", "text": "denunciante anônimo." }
+        { "id": "D", "text": "denunciante anônimo." },
+        { "id": "E", "text": "Procurador-Geral de Justiça e o Procurador-Geral do Estado e, simultaneamente, cidadão sem representação institucional, em qualquer hipótese." }
       ],
       "correctOptionId": "B",
       "explanation": "A página de sistemas externos lista Procurador-Geral de Justiça e Procurador-Geral do Estado como legitimados para consulta. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6245",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "No e-Consulta, a indicação precisa do objeto e a pertinência da dúvida são importantes porque",
       "options": [
         { "id": "A", "text": "permitem transformar consulta em denúncia sigilosa." },
         { "id": "B", "text": "substituem o parecer técnico ou jurídico." },
         { "id": "C", "text": "são elementos preponderantes para conhecimento e regular processamento da consulta." },
-        { "id": "D", "text": "dispensam legitimidade da autoridade consulente." }
+        { "id": "D", "text": "dispensam legitimidade da autoridade consulente." },
+        { "id": "E", "text": "são elementos preponderantes para conhecimento e regular processamento da consulta e, simultaneamente, permitem transformar consulta em denúncia sigilosa." }
       ],
       "correctOptionId": "C",
       "explanation": "A página oficial destaca objeto preciso e pertinência da dúvida como elementos preponderantes da consulta. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6246",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Segundo a página do e-Consulta, deve acompanhar a consulta",
       "options": [
         { "id": "A", "text": "prova de pagamento de multa." },
         { "id": "B", "text": "ata de eleição partidária." },
         { "id": "C", "text": "recurso de reconsideração." },
-        { "id": "D", "text": "parecer do órgão de assistência técnica ou jurídica." }
+        { "id": "D", "text": "parecer do órgão de assistência técnica ou jurídica." },
+        { "id": "E", "text": "parecer do órgão de assistência técnica ou jurídica e, simultaneamente, prova de pagamento de multa." }
       ],
       "correctOptionId": "D",
       "explanation": "A orientação oficial do e-Consulta exige juntar parecer do órgão de assistência técnica ou jurídica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6247",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "As respostas às consultas, segundo a página oficial do TCE/MA, são disponibilizadas como",
       "options": [
         { "id": "A", "text": "prejulgados." },
         { "id": "B", "text": "denúncias anônimas." },
         { "id": "C", "text": "recursos de revisão." },
-        { "id": "D", "text": "certidões eleitorais." }
+        { "id": "D", "text": "certidões eleitorais." },
+        { "id": "E", "text": "prejulgados e, simultaneamente, denúncias anônimas." }
       ],
       "correctOptionId": "A",
       "explanation": "As respostas às consultas são catalogadas e disponibilizadas em formato de prejulgados. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6248",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "O prejulgado resultante de consulta tem caráter",
       "options": [
         { "id": "A", "text": "sancionatório imediato sobre qualquer gestor." },
         { "id": "B", "text": "normativo, constituindo prejulgamento da tese, mas não do fato concreto." },
         { "id": "C", "text": "meramente recreativo, sem relação com o TCE/MA." },
-        { "id": "D", "text": "recursal, para modificar acórdão." }
+        { "id": "D", "text": "recursal, para modificar acórdão." },
+        { "id": "E", "text": "normativo, constituindo prejulgamento da tese, mas não do fato concreto e, simultaneamente, sancionatório imediato sobre qualquer gestor." }
       ],
       "correctOptionId": "B",
       "explanation": "A página oficial afirma que a resposta à consulta tem caráter normativo e prejulga a tese, não o fato ou caso concreto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6249",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se uma autoridade usa consulta para relatar irregularidade concreta de gestor, há erro porque consulta",
       "options": [
         { "id": "A", "text": "é o mesmo que denúncia." },
         { "id": "B", "text": "serve para aplicar multa automática." },
         { "id": "C", "text": "responde dúvida normativa, não apura irregularidade concreta." },
-        { "id": "D", "text": "só existe para folha de pagamento." }
+        { "id": "D", "text": "só existe para folha de pagamento." },
+        { "id": "E", "text": "responde dúvida normativa, não apura irregularidade concreta e, simultaneamente, é o mesmo que denúncia." }
       ],
       "correctOptionId": "C",
       "explanation": "Consulta é instrumento de dúvida normativa; comunicação de irregularidade exige denúncia, representação ou canal próprio. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6250",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Orientações técnicas sobre sistemas, processos ou ações de controle, segundo a página do e-Consulta, devem ser buscadas",
       "options": [
         { "id": "A", "text": "sempre por prejulgado obrigatório." },
         { "id": "B", "text": "por canais próprios, como a Ouvidoria, e não pelo processo de consulta." },
         { "id": "C", "text": "por recurso de reconsideração." },
-        { "id": "D", "text": "por denúncia anônima sem identificação." }
+        { "id": "D", "text": "por denúncia anônima sem identificação." },
+        { "id": "E", "text": "por canais próprios, como a Ouvidoria, e não pelo processo de consulta e, simultaneamente, sempre por prejulgado obrigatório." }
       ],
       "correctOptionId": "B",
       "explanation": "A página oficial exclui orientações técnicas e informações sobre sistemas do objeto da consulta, remetendo a outros canais. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6251",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Quando a dúvida já foi respondida pelo Tribunal, a página do e-Consulta indica que a SEFIS pode",
       "options": [
         { "id": "A", "text": "encaminhar cópia do ato decisório com a tese vigente e encaminhar os autos ao arquivo." },
         { "id": "B", "text": "aplicar multa ao consulente." },
         { "id": "C", "text": "converter a consulta em tomada de contas especial." },
-        { "id": "D", "text": "abolir o prejulgado anterior sem instrução." }
+        { "id": "D", "text": "abolir o prejulgado anterior sem instrução." },
+        { "id": "E", "text": "encaminhar cópia do ato decisório com a tese vigente e encaminhar os autos ao arquivo e, simultaneamente, aplicar multa ao consulente." }
       ],
       "correctOptionId": "A",
       "explanation": "Quando a tese já existe, a SEFIS pode encaminhar cópia do ato decisório que contém a tese vigente e arquivar. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6252",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a SEFIS entender que tese vigente em consulta deve ser reformada ou revogada, o caminho indicado é",
       "options": [
         { "id": "A", "text": "ignorar a consulta definitivamente." },
         { "id": "B", "text": "aplicar sanção ao consulente." },
         { "id": "C", "text": "encaminhar denúncia anônima." },
-        { "id": "D", "text": "iniciar instrução processual para apreciação e deliberação pelo Pleno." }
+        { "id": "D", "text": "iniciar instrução processual para apreciação e deliberação pelo Pleno." },
+        { "id": "E", "text": "iniciar instrução processual para apreciação e deliberação pelo Pleno e, simultaneamente, ignorar a consulta definitivamente." }
       ],
       "correctOptionId": "D",
       "explanation": "A página oficial informa que, se a tese deve ser reformada ou revogada, inicia-se instrução para apreciação e deliberação pelo Pleno. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6253",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A melhor associação é:",
       "options": [
         { "id": "A", "text": "denúncia - comunicação de irregularidade por legitimado amplo." },
         { "id": "B", "text": "denúncia - tese normativa abstrata." },
         { "id": "C", "text": "denúncia - recurso contra acórdão." },
-        { "id": "D", "text": "denúncia - execução de débito." }
+        { "id": "D", "text": "denúncia - execução de débito." },
+        { "id": "E", "text": "denúncia - comunicação de irregularidade por legitimado amplo e, simultaneamente, denúncia - tese normativa abstrata." }
       ],
       "correctOptionId": "A",
       "explanation": "Denúncia comunica irregularidade ou ilegalidade por legitimados amplos previstos constitucionalmente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6254",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A melhor associação é:",
       "options": [
         { "id": "A", "text": "representação - dúvida normativa." },
         { "id": "B", "text": "representação - comunicação de irregularidade por legitimado específico." },
         { "id": "C", "text": "representação - resposta em prejulgado." },
-        { "id": "D", "text": "representação - recurso de revisão." }
+        { "id": "D", "text": "representação - recurso de revisão." },
+        { "id": "E", "text": "representação - comunicação de irregularidade por legitimado específico e, simultaneamente, representação - dúvida normativa." }
       ],
       "correctOptionId": "B",
       "explanation": "Representação comunica irregularidade ou ilegalidade por sujeito com legitimidade específica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6255",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A melhor associação é:",
       "options": [
         { "id": "A", "text": "consulta - comunicação de dano ao erário por qualquer cidadão." },
         { "id": "B", "text": "consulta - representação de unidade técnica." },
         { "id": "C", "text": "consulta - dúvida normativa formulada por autoridade legitimada." },
-        { "id": "D", "text": "consulta - execução de multa." }
+        { "id": "D", "text": "consulta - execução de multa." },
+        { "id": "E", "text": "consulta - dúvida normativa formulada por autoridade legitimada e, simultaneamente, consulta - comunicação de dano ao erário por qualquer cidadão." }
       ],
       "correctOptionId": "C",
       "explanation": "Consulta é dúvida normativa formulada por autoridade legitimada sobre matéria da competência do TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6256",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A melhor associação é:",
       "options": [
         { "id": "A", "text": "prejulgado - denúncia sigilosa." },
         { "id": "B", "text": "prejulgado - representação cautelar." },
         { "id": "C", "text": "prejulgado - recurso de reconsideração." },
-        { "id": "D", "text": "prejulgado - tese normativa decorrente de consulta." }
+        { "id": "D", "text": "prejulgado - tese normativa decorrente de consulta." },
+        { "id": "E", "text": "prejulgado - tese normativa decorrente de consulta e, simultaneamente, prejulgado - denúncia sigilosa." }
       ],
       "correctOptionId": "D",
       "explanation": "Prejulgado é resposta normativa de consulta, voltada à tese e não ao caso concreto. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6257",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'denúncia sigilosa é sempre denúncia anônima' está",
       "options": [
         { "id": "A", "text": "incorreta, pois sigilo da autoria não dispensa identificação formal." },
         { "id": "B", "text": "correta, pois nenhuma identificação é exigida." },
         { "id": "C", "text": "correta apenas nas representações." },
-        { "id": "D", "text": "correta apenas no e-Consulta." }
+        { "id": "D", "text": "correta apenas no e-Consulta." },
+        { "id": "E", "text": "incorreta, pois sigilo da autoria não dispensa identificação formal e, simultaneamente, correta, pois nenhuma identificação é exigida." }
       ],
       "correctOptionId": "A",
       "explanation": "Sigilo protege a autoria, mas denúncia formal exige identificação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6258",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'qualquer pessoa pode formular consulta normativa pelo e-Consulta' está",
       "options": [
         { "id": "A", "text": "correta, porque consulta equivale a denúncia." },
         { "id": "B", "text": "incorreta, pois a consulta exige autoridade legitimada." },
         { "id": "C", "text": "correta apenas para fornecedores." },
-        { "id": "D", "text": "correta apenas para denúncia anônima." }
+        { "id": "D", "text": "correta apenas para denúncia anônima." },
+        { "id": "E", "text": "incorreta, pois a consulta exige autoridade legitimada e, simultaneamente, correta, porque consulta equivale a denúncia." }
       ],
       "correctOptionId": "B",
       "explanation": "O e-Consulta é reservado a autoridades legitimadas, diferentemente da denúncia de legitimidade ampla. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6259",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'representação e denúncia são sempre idênticas' está",
       "options": [
         { "id": "A", "text": "correta, porque ambas têm a mesma legitimidade universal." },
         { "id": "B", "text": "correta, porque ambas geram prejulgado." },
         { "id": "C", "text": "incorreta, pois a representação depende de legitimidade específica." },
-        { "id": "D", "text": "correta apenas no Regimento." }
+        { "id": "D", "text": "correta apenas no Regimento." },
+        { "id": "E", "text": "incorreta, pois a representação depende de legitimidade específica e, simultaneamente, correta, porque ambas têm a mesma legitimidade universal." }
       ],
       "correctOptionId": "C",
       "explanation": "Denúncia e representação podem comunicar irregularidades, mas diferem especialmente quanto à legitimidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6260",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'triagem decide o mérito da irregularidade' está",
       "options": [
         { "id": "A", "text": "correta, pois substitui o processo." },
         { "id": "B", "text": "correta apenas quando há Ouvidoria." },
         { "id": "C", "text": "correta quando há CPF do autor." },
-        { "id": "D", "text": "incorreta, pois triagem verifica requisitos mínimos e natureza da manifestação." }
+        { "id": "D", "text": "incorreta, pois triagem verifica requisitos mínimos e natureza da manifestação." },
+        { "id": "E", "text": "incorreta, pois triagem verifica requisitos mínimos e natureza da manifestação e, simultaneamente, correta, pois substitui o processo." }
       ],
       "correctOptionId": "D",
       "explanation": "Triagem não é julgamento de mérito; verifica requisitos mínimos e classifica a manifestação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6261",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'prejulgado decide previamente o caso concreto' está",
       "options": [
         { "id": "A", "text": "incorreta, pois o prejulgado alcança a tese normativa, não o fato concreto." },
         { "id": "B", "text": "correta, pois consulta julga gestores." },
         { "id": "C", "text": "correta apenas em denúncias." },
-        { "id": "D", "text": "correta apenas em representações." }
+        { "id": "D", "text": "correta apenas em representações." },
+        { "id": "E", "text": "incorreta, pois o prejulgado alcança a tese normativa, não o fato concreto e, simultaneamente, correta, pois consulta julga gestores." }
       ],
       "correctOptionId": "A",
       "explanation": "O prejulgado tem caráter normativo e não julga previamente fatos ou responsabilidades concretas. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6262",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'Ouvidoria autua automaticamente toda manifestação como denúncia' está",
       "options": [
         { "id": "A", "text": "correta, pois não existe triagem." },
         { "id": "B", "text": "incorreta, pois manifestações sem requisitos mínimos podem virar comunicação de irregularidade." },
         { "id": "C", "text": "correta apenas para consulta." },
-        { "id": "D", "text": "correta apenas se houver prejulgado." }
+        { "id": "D", "text": "correta apenas se houver prejulgado." },
+        { "id": "E", "text": "incorreta, pois manifestações sem requisitos mínimos podem virar comunicação de irregularidade e, simultaneamente, correta, pois não existe triagem." }
       ],
       "correctOptionId": "B",
       "explanation": "A Ouvidoria faz triagem; manifestações sem requisitos mínimos não são autuadas como denúncia ou representação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6263",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'consulta pode substituir recurso contra decisão' está",
       "options": [
         { "id": "A", "text": "correta, pois consulta sempre tem efeito recursal." },
         { "id": "B", "text": "correta apenas se formulada por Prefeito." },
         { "id": "C", "text": "incorreta, pois consulta não é recurso nem impugna decisão." },
-        { "id": "D", "text": "correta apenas em licitações." }
+        { "id": "D", "text": "correta apenas em licitações." },
+        { "id": "E", "text": "incorreta, pois consulta não é recurso nem impugna decisão e, simultaneamente, correta, pois consulta sempre tem efeito recursal." }
       ],
       "correctOptionId": "C",
       "explanation": "Consulta é instrumento de dúvida normativa e não substitui recurso ou revisão de decisão. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6264",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A afirmação 'seletividade é etapa de racionalização da atuação' está",
       "options": [
         { "id": "A", "text": "errada, pois seletividade é sanção." },
         { "id": "B", "text": "errada, pois seletividade é recurso." },
         { "id": "C", "text": "errada, pois seletividade é certidão." },
-        { "id": "D", "text": "correta, pois prioriza a atuação sem julgar automaticamente o mérito." }
+        { "id": "D", "text": "correta, pois prioriza a atuação sem julgar automaticamente o mérito." },
+        { "id": "E", "text": "correta, pois prioriza a atuação sem julgar automaticamente o mérito e, simultaneamente, errada, pois seletividade é sanção." }
       ],
       "correctOptionId": "D",
       "explanation": "Seletividade racionaliza e prioriza a atuação de controle externo, mas não é decisão de mérito. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6265",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A exigência de lastro probatório mínimo na triagem serve para",
       "options": [
         { "id": "A", "text": "evitar autuação formal de narrativas vagas sem indícios mínimos." },
         { "id": "B", "text": "julgar definitivamente o responsável." },
         { "id": "C", "text": "dispensar competência do TCE/MA." },
-        { "id": "D", "text": "transformar denúncia em consulta." }
+        { "id": "D", "text": "transformar denúncia em consulta." },
+        { "id": "E", "text": "evitar autuação formal de narrativas vagas sem indícios mínimos e, simultaneamente, julgar definitivamente o responsável." }
       ],
       "correctOptionId": "A",
       "explanation": "O lastro probatório mínimo dá suporte inicial à manifestação e evita autuação formal de narrativa vaga. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6266",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Se a matéria comunicada não pertence à competência do TCE/MA, a triagem deve reconhecer problema de",
       "options": [
         { "id": "A", "text": "prejulgado." },
         { "id": "B", "text": "competência." },
         { "id": "C", "text": "materialidade exclusivamente financeira." },
-        { "id": "D", "text": "trânsito em julgado." }
+        { "id": "D", "text": "trânsito em julgado." },
+        { "id": "E", "text": "competência e, simultaneamente, prejulgado." }
       ],
       "correctOptionId": "B",
       "explanation": "A competência do TCE/MA sobre a matéria é requisito inicial de triagem. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6267",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A consulta prévia aos prejulgados, antes de formular consulta, é relevante porque",
       "options": [
         { "id": "A", "text": "impede qualquer atuação do Tribunal." },
         { "id": "B", "text": "substitui a legitimidade da autoridade." },
         { "id": "C", "text": "a dúvida pode já estar respondida em tese vigente." },
-        { "id": "D", "text": "transforma consulta em denúncia." }
+        { "id": "D", "text": "transforma consulta em denúncia." },
+        { "id": "E", "text": "a dúvida pode já estar respondida em tese vigente e, simultaneamente, impede qualquer atuação do Tribunal." }
       ],
       "correctOptionId": "C",
       "explanation": "O e-Consulta orienta consultar a base de prejulgados, pois a dúvida pode já ter tese vigente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6268",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A pertinência da dúvida em relação ao órgão representado significa que a consulta deve",
       "options": [
         { "id": "A", "text": "tratar de qualquer curiosidade pessoal da autoridade." },
         { "id": "B", "text": "estar conectada à atuação institucional da autoridade consulente." },
         { "id": "C", "text": "ignorar a competência do TCE/MA." },
-        { "id": "D", "text": "relatar necessariamente uma ilegalidade concreta." }
+        { "id": "D", "text": "relatar necessariamente uma ilegalidade concreta." },
+        { "id": "E", "text": "estar conectada à atuação institucional da autoridade consulente e, simultaneamente, tratar de qualquer curiosidade pessoal da autoridade." }
       ],
       "correctOptionId": "B",
       "explanation": "A dúvida deve ser pertinente ao órgão representado pela autoridade consulente e à competência do TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6269",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na comparação entre denúncia e consulta, a alternativa correta é:",
       "options": [
         { "id": "A", "text": "denúncia comunica irregularidade; consulta formula dúvida normativa." },
         { "id": "B", "text": "denúncia gera prejulgado; consulta apura dano." },
         { "id": "C", "text": "ambas sempre exigem a mesma autoridade legitimada." },
-        { "id": "D", "text": "consulta substitui denúncia quando houver ilegalidade." }
+        { "id": "D", "text": "consulta substitui denúncia quando houver ilegalidade." },
+        { "id": "E", "text": "denúncia comunica irregularidade; consulta formula dúvida normativa e, simultaneamente, denúncia gera prejulgado; consulta apura dano." }
       ],
       "correctOptionId": "A",
       "explanation": "Denúncia e consulta têm finalidades distintas: comunicação de irregularidade e dúvida normativa. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6270",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na comparação entre representação e consulta, a alternativa correta é:",
       "options": [
         { "id": "A", "text": "ambas denunciam fato por qualquer cidadão." },
         { "id": "B", "text": "representação comunica irregularidade; consulta formula dúvida normativa." },
         { "id": "C", "text": "consulta exige lastro probatório de irregularidade." },
-        { "id": "D", "text": "representação gera necessariamente prejulgado." }
+        { "id": "D", "text": "representação gera necessariamente prejulgado." },
+        { "id": "E", "text": "representação comunica irregularidade; consulta formula dúvida normativa e, simultaneamente, ambas denunciam fato por qualquer cidadão." }
       ],
       "correctOptionId": "B",
       "explanation": "Representação comunica irregularidade por legitimado específico; consulta formula dúvida normativa por autoridade legitimada. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6271",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na comparação entre denúncia e representação, a alternativa correta é:",
       "options": [
         { "id": "A", "text": "denúncia e representação nunca tratam de irregularidades." },
         { "id": "B", "text": "a representação dispensa legitimidade." },
         { "id": "C", "text": "ambas podem comunicar irregularidades, mas diferem quanto à legitimidade." },
-        { "id": "D", "text": "denúncia sempre é consulta normativa." }
+        { "id": "D", "text": "denúncia sempre é consulta normativa." },
+        { "id": "E", "text": "ambas podem comunicar irregularidades, mas diferem quanto à legitimidade e, simultaneamente, denúncia e representação nunca tratam de irregularidades." }
       ],
       "correctOptionId": "C",
       "explanation": "Denúncia e representação comunicam irregularidades, mas a denúncia tem legitimidade ampla e a representação legitimidade específica. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6272",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na comparação entre triagem e seletividade, a alternativa correta é:",
       "options": [
         { "id": "A", "text": "triagem aplica sanção; seletividade julga recurso." },
         { "id": "B", "text": "triagem verifica requisitos mínimos; seletividade prioriza a atuação por critérios." },
         { "id": "C", "text": "as duas são prejulgados." },
-        { "id": "D", "text": "as duas dispensam competência do Tribunal." }
+        { "id": "D", "text": "as duas dispensam competência do Tribunal." },
+        { "id": "E", "text": "triagem verifica requisitos mínimos; seletividade prioriza a atuação por critérios e, simultaneamente, triagem aplica sanção; seletividade julga recurso." }
       ],
       "correctOptionId": "B",
       "explanation": "Triagem verifica formalidades mínimas e seletividade aplica critérios de priorização e racionalização. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6273",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um cidadão que identifica irregularidade em licitação municipal, com indícios mínimos e matéria do TCE/MA, em regra usa",
       "options": [
         { "id": "A", "text": "denúncia." },
         { "id": "B", "text": "consulta normativa como autoridade." },
         { "id": "C", "text": "recurso de reconsideração." },
-        { "id": "D", "text": "prejulgado automático." }
+        { "id": "D", "text": "prejulgado automático." },
+        { "id": "E", "text": "denúncia e, simultaneamente, consulta normativa como autoridade." }
       ],
       "correctOptionId": "A",
       "explanation": "O cidadão é legitimado amplo para denúncia de irregularidade ou ilegalidade perante o TCE/MA. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6274",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma unidade técnica do TCE/MA que comunica irregularidade identificada em fiscalização tende a atuar por",
       "options": [
         { "id": "A", "text": "consulta de cidadão." },
         { "id": "B", "text": "representação." },
         { "id": "C", "text": "prejulgado da tese." },
-        { "id": "D", "text": "denúncia anônima." }
+        { "id": "D", "text": "denúncia anônima." },
+        { "id": "E", "text": "representação e, simultaneamente, consulta de cidadão." }
       ],
       "correctOptionId": "B",
       "explanation": "Unidades técnicas e equipes de fiscalização aparecem como legitimados específicos para representação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6275",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Um Prefeito Municipal que possui dúvida abstrata sobre aplicação de dispositivo legal em matéria do TCE/MA deve usar, se legitimado e preenchidos os requisitos,",
       "options": [
         { "id": "A", "text": "denúncia de cidadão." },
         { "id": "B", "text": "representação de unidade técnica." },
         { "id": "C", "text": "consulta pelo e-Consulta." },
-        { "id": "D", "text": "comunicação de irregularidade sem autuação." }
+        { "id": "D", "text": "comunicação de irregularidade sem autuação." },
+        { "id": "E", "text": "consulta pelo e-Consulta e, simultaneamente, denúncia de cidadão." }
       ],
       "correctOptionId": "C",
       "explanation": "Prefeito Municipal aparece entre legitimados do e-Consulta para dúvida normativa pertinente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6276",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma manifestação vaga, sem identificação suficiente e sem lastro probatório mínimo, deve ser tratada com cautela porque",
       "options": [
         { "id": "A", "text": "sempre gera prejulgado." },
         { "id": "B", "text": "sempre aplica multa." },
         { "id": "C", "text": "sempre dispensa triagem." },
-        { "id": "D", "text": "pode não ser autuada como denúncia ou representação." }
+        { "id": "D", "text": "pode não ser autuada como denúncia ou representação." },
+        { "id": "E", "text": "pode não ser autuada como denúncia ou representação e, simultaneamente, sempre gera prejulgado." }
       ],
       "correctOptionId": "D",
       "explanation": "A triagem exige requisitos mínimos; sem eles, a manifestação pode ser tratada apenas como comunicação de irregularidade. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6277",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Uma consulta que pretende resolver diretamente uma situação concreta individualizada deve ser rejeitada conceitualmente porque",
       "options": [
         { "id": "A", "text": "consulta trata de tese normativa, não de julgamento de fato concreto." },
         { "id": "B", "text": "consulta nunca exige autoridade legitimada." },
         { "id": "C", "text": "consulta é denúncia por qualquer cidadão." },
-        { "id": "D", "text": "consulta substitui fiscalização." }
+        { "id": "D", "text": "consulta substitui fiscalização." },
+        { "id": "E", "text": "consulta trata de tese normativa, não de julgamento de fato concreto e, simultaneamente, consulta nunca exige autoridade legitimada." }
       ],
       "correctOptionId": "A",
       "explanation": "Consulta visa tese normativa e não decide fato concreto individualizado. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6278",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Ao estudar este assunto, deve ficar para recorte posterior a análise detalhada de",
       "options": [
         { "id": "A", "text": "diferenças entre denúncia, representação e consulta." },
         { "id": "B", "text": "garantias processuais, provas, prazos, decisões, sanções, recursos e revisão." },
         { "id": "C", "text": "legitimidade ampla da denúncia." },
-        { "id": "D", "text": "prejulgado como tese normativa." }
+        { "id": "D", "text": "prejulgado como tese normativa." },
+        { "id": "E", "text": "garantias processuais, provas, prazos, decisões, sanções, recursos e revisão e, simultaneamente, diferenças entre denúncia, representação e consulta." }
       ],
       "correctOptionId": "B",
       "explanation": "O Assunto 059 delimita os instrumentos; garantias, prova, decisão, sanção, recurso e revisão ficam para assuntos seguintes. Fonte: questão autoral baseada nas referências do conteúdo."
