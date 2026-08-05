@@ -448,7 +448,7 @@ II - Geografia do Estado do Maranhão
 - Item 8. Lei nº 12.288/2010 (Estatuto da Igualdade Racial).
 - O item 8 é desdobrado nos Assuntos 101 e 102 por função normativa, sem inventar faixas de artigos nem repetir dispositivos: este assunto trata de fundamentos, direitos e igualdade material.
 
-##### [>] Em progresso Assunto 102 - Item 8, recorte: políticas públicas e mecanismos de promoção da igualdade racial.
+##### [R] Em revisão Assunto 102 - Item 8, recorte: políticas públicas e mecanismos de promoção da igualdade racial.
 
 ### Conhecimentos específicos
 
