@@ -443,7 +443,7 @@ II - Geografia do Estado do Maranhão
 - Item 6. Normas gerais e critérios básicos para promoção da acessibilidade às pessoas com deficiência ou com mobilidade reduzida (Lei nº 10.098/2000).
 - Item 7. Prioridade de atendimento às pessoas com deficiência (Lei nº 10.048/2000).
 
-##### [>] Em progresso Assunto 101 - Item 8, recorte: fundamentos, direitos e igualdade material.
+##### [R] Em revisão Assunto 101 - Item 8, recorte: fundamentos, direitos e igualdade material.
 
 - Item 8. Lei nº 12.288/2010 (Estatuto da Igualdade Racial).
 - O item 8 é desdobrado nos Assuntos 101 e 102 por função normativa, sem inventar faixas de artigos nem repetir dispositivos: este assunto trata de fundamentos, direitos e igualdade material.
