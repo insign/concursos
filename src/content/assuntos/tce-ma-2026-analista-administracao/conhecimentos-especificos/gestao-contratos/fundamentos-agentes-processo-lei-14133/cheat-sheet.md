@@ -4,7 +4,7 @@
 
 **Constituição → âmbito → princípios → conceitos → agentes → objetivos → regras gerais → participantes → fases.**
 
-- Corte normativo: **15 jul. 2026**.
+- Corte normativo: **6 jul. 2026**.
 - Núcleo: arts. **1º a 17** da Lei nº 14.133/2021.
 - Decreto nº 11.246/2022: referência da Administração Pública **federal direta, autárquica e fundacional**; sem aplicação automática ao TCE-MA.
 
@@ -44,10 +44,11 @@
 ### ME e EPP
 
 - Art. 4º aplica arts. 42 a 49 da LC nº 123/2006.
-- Bens/serviços: limite de EPP examinado por **item**.
-- Obras/engenharia: limite de ME examinado pela **licitação**.
+- Bens/serviços: teto de EPP examinado por **item**.
+- Obras/engenharia: teto de EPP examinado pela **licitação**.
 - Benefícios dependem também da soma dos contratos celebrados no ano-calendário.
 - Contrato com vigência superior a um ano: considerar valor anual.
+- **Pegadinha:** muda a unidade de comparação, não o teto de enquadramento.
 - **Pegadinha:** art. 4º não trata de agentes públicos.
 
 ## Princípios: art. 5º
@@ -217,6 +218,7 @@ Alta administração implementa processos, riscos e controles para:
 - Controladora, controlada ou coligada concorrendo entre si.
 - Condenação transitada em julgado nos 5 anos anteriores por trabalho infantil, escravo ou adolescente ilícito.
 - Empresa do mesmo grupo econômico equipara-se ao autor do projeto.
+- Projeto/programa parcialmente financiado por entidade internacional: impedido quem constar da lista de sancionados da financiadora ou for declarado inidôneo nos termos da lei.
 
 ### Ressalvas
 
@@ -282,6 +284,7 @@ Habilitação antes de propostas/julgamento exige:
 
 - Licitação ≠ contrato ≠ toda contratação pública.
 - Art. 4º = LC nº 123/2006; agentes estão nos arts. 7º a 10.
+- Bens/serviços usam o item; obras/engenharia usam a licitação; o teto é o de EPP nos dois casos.
 - Estatais ≠ autarquias.
 - Comum ≠ simples.
 - Art. 7º prefere vínculo; art. 8º exige para agente.
