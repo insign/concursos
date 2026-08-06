@@ -12,7 +12,7 @@ A contratação pública não começa na disputa nem termina na escolha do menor
 
 > **Ideia central:** a Lei nº 14.133/2021 distribui competências e controles para que a Administração transforme uma necessidade pública em resultado vantajoso, por procedimento motivado, competitivo e rastreável.
 
-Este material considera o texto consolidado vigente até **15 de julho de 2026**. O recorte principal são os arts. 1º a 17 da Lei nº 14.133/2021. O Decreto nº 11.246/2022 é usado apenas como referência regulamentar da Administração Pública federal direta, autárquica e fundacional; ele não se aplica automaticamente ao Estado do Maranhão nem ao TCE-MA.
+Este material adota como corte normativo **6 de julho de 2026**, data de publicação do edital. O recorte principal são os arts. 1º a 17 da Lei nº 14.133/2021. Datas posteriores indicadas nas referências são datas de acesso e não alteram o recorte jurídico da prova. O Decreto nº 11.246/2022 é usado apenas como referência regulamentar da Administração Pública federal direta, autárquica e fundacional; ele não se aplica automaticamente ao Estado do Maranhão nem ao TCE-MA.
 
 O estudo foi dividido para evitar repetição. Planejamento e fase preparatória pertencem ao Assunto 125; modalidades, julgamento, seleção e contratação direta, ao 126; formalização, garantias, riscos e duração, ao 127; execução, fiscalização, alterações e equilíbrio econômico-financeiro, ao 128; extinção, recebimento e pagamento, ao 129; infrações, sanções, controle, PNCP e regras finais, ao 130. Aqui, esses temas aparecem somente quando indispensáveis para compreender a arquitetura geral.
 
@@ -83,7 +83,9 @@ O art. 4º manda aplicar às licitações e aos contratos da Lei nº 14.133/2021
 Os benefícios não se aplicam:
 
 - em bens e serviços em geral, ao **item** cujo valor estimado supere a receita bruta máxima admitida para enquadramento como empresa de pequeno porte;
-- em obras e serviços de engenharia, às **licitações** cujo valor estimado supere o limite específico do art. 3º, I, da Lei Complementar nº 123/2006, relativo ao enquadramento como microempresa.
+- em obras e serviços de engenharia, às **licitações** cujo valor estimado supere a receita bruta máxima admitida para enquadramento como empresa de pequeno porte.
+
+A diferença entre os incisos está na unidade de comparação: examina-se cada **item** em bens e serviços em geral e o valor da **licitação** em obras e serviços de engenharia.
 
 Além disso, a obtenção dos benefícios fica limitada à ME ou EPP que, no ano-calendário da licitação, ainda não tenha celebrado contratos com a Administração Pública cuja soma extrapole a receita bruta máxima de enquadramento. A Administração exige declaração de observância desse limite. Se o contrato tiver vigência superior a um ano, considera-se seu valor anual para os limites dos §§ 1º e 2º.
 
@@ -376,6 +378,8 @@ Não podem disputar licitação ou participar direta ou indiretamente da execuç
 
 A proibição relacionada a vínculo com dirigente ou agente deve constar expressamente do edital.
 
+Em licitações e contratações realizadas no âmbito de projetos e programas parcialmente financiados por agência oficial de cooperação estrangeira ou organismo financeiro internacional, também não pode participar pessoa física ou jurídica integrante de lista de sancionados dessas entidades ou declarada inidônea nos termos da Lei nº 14.133/2021.
+
 ### 13.1 Regras de fechamento contra fraude e exceções
 
 O impedimento por sanção também alcança licitante usado para substituição fraudulenta, inclusive controladora, controlada ou coligada, desde que o ilícito ou o uso fraudulento da personalidade jurídica seja devidamente comprovado.
@@ -516,18 +520,18 @@ Neste assunto, memorize a arquitetura: **âmbito → princípios → conceitos �
 14. Alta administração responde pela governança das contratações.
 15. Falha meramente formal sem impacto relevante não afasta automaticamente o licitante.
 16. Publicidade é regra; propostas e orçamento admitem diferimento legal.
-17. Vedação a consórcio exige justificativa; cooperativas dependem dos requisitos cumulativos.
-18. A sequência comum coloca julgamento antes de habilitação.
-19. Inversão exige motivação, benefícios explicitados e previsão no edital.
+17. Impedimentos incluem, no financiamento internacional previsto no art. 14, § 5º, listas de sancionados da entidade financiadora e declaração de inidoneidade.
+18. Vedação a consórcio exige justificativa; cooperativas dependem dos requisitos cumulativos.
+19. A sequência comum coloca julgamento antes de habilitação; a inversão exige motivação, benefícios explicitados e previsão no edital.
 20. Forma eletrônica é preferencial; sessão presencial exige motivação, ata e gravação audiovisual.
 
 ## Referências
 
 - [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, art. 37, caput e XXI, texto consolidado, acesso em 16 jul. 2026.
-- [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), Presidência da República, texto consolidado vigente no corte de 15 jul. 2026, especialmente arts. 1º a 17, acesso em 16 jul. 2026.
-- [Lei Complementar nº 123, de 14 de dezembro de 2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), Presidência da República, tratamento de microempresas e empresas de pequeno porte, texto consolidado, acesso em 16 jul. 2026.
-- [Lei nº 13.303, de 30 de junho de 2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm), Presidência da República, estatuto jurídico das empresas estatais, texto consolidado, acesso em 16 jul. 2026.
-- [Decreto nº 11.246, de 27 de outubro de 2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11246.htm), Presidência da República, regulamento federal do art. 8º, § 3º, consolidado com alterações até o Decreto nº 13.031/2026, acesso em 16 jul. 2026.
+- [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), Presidência da República, texto consolidado vigente no corte de 6 jul. 2026, especialmente arts. 1º a 17, acesso em 16 jul. 2026.
+- [Lei Complementar nº 123, de 14 de dezembro de 2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), Presidência da República, tratamento de microempresas e empresas de pequeno porte, texto consolidado no corte de 6 jul. 2026, acesso em 16 jul. 2026.
+- [Lei nº 13.303, de 30 de junho de 2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm), Presidência da República, estatuto jurídico das empresas estatais, texto consolidado no corte de 6 jul. 2026, acesso em 16 jul. 2026.
+- [Decreto nº 11.246, de 27 de outubro de 2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11246.htm), Presidência da República, regulamento federal do art. 8º, § 3º, consolidado com alterações até o Decreto nº 13.031/2026, vigente no corte de 6 jul. 2026, acesso em 16 jul. 2026.
 - [Princípios das licitações e dos contratos administrativos](https://licitacoesecontratos.tcu.gov.br/3-2-principios-das-licitacoes-e-dos-contratos-administrativos/), Tribunal de Contas da União, *Licitações e Contratos: Orientações e Jurisprudência*, acesso em 16 jul. 2026.
 - [Agentes públicos](https://licitacoesecontratos.tcu.gov.br/3-3-agentes-publicos/), Tribunal de Contas da União, *Licitações e Contratos: Orientações e Jurisprudência*, acesso em 16 jul. 2026.
 - [Participação de consórcios](https://licitacoesecontratos.tcu.gov.br/4-5-2-2-participacao-de-consorcios/), Tribunal de Contas da União, *Licitações e Contratos: Orientações e Jurisprudência*, acesso em 16 jul. 2026.
