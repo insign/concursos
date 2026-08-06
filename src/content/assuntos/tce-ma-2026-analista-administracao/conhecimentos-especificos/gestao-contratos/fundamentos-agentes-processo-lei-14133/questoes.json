@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1434",
@@ -94,18 +94,18 @@
     },
     {
       "id": "q1440",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Em licitação de bens dividida em itens, a autoridade pretende usar o valor global do certame para negar os benefícios da LC nº 123/2006, embora cada item permaneça dentro do teto aplicável. A análise correta é que",
       "options": [
-        {"id": "a", "text": "para bens e serviços em geral, compara-se cada item ao teto de EPP; para obras e engenharia, a lei usa o valor da licitação e o limite de ME"},
+        {"id": "a", "text": "para bens e serviços em geral, compara-se cada item ao teto de EPP; para obras e engenharia, a lei usa o valor da licitação e o mesmo teto de EPP"},
         {"id": "b", "text": "o valor global sempre prevalece, qualquer que seja o objeto"},
         {"id": "c", "text": "os limites dependem apenas do patrimônio líquido de cada licitante"},
         {"id": "d", "text": "a autoridade pode criar no edital um teto diferente do previsto em lei"},
         {"id": "e", "text": "os benefícios não se aplicam a licitações divididas em itens"}
       ],
       "correctOptionId": "a",
-      "explanation": "O art. 4º, § 1º, distingue as bases: bens e serviços em geral usam o item e o teto de EPP; obras e serviços de engenharia usam a licitação e o limite do art. 3º, I, da LC nº 123/2006, relativo à ME. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O art. 4º, § 1º, usa a receita bruta máxima admitida para enquadramento como empresa de pequeno porte nos dois incisos. A diferença está na unidade de comparação: bens e serviços em geral usam o item; obras e serviços de engenharia usam o valor da licitação. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1441",
