@@ -4,7 +4,7 @@
 
 **Necessidade → ETP → solução → objeto → riscos e preço → estratégia → edital/minuta.**
 
-- Corte normativo: **15 jul. 2026**.
+- Corte normativo: **6 jul. 2026**.
 - Núcleo: arts. **18 a 27** da Lei nº 14.133/2021.
 - Decretos e INs federais: referência para a Administração federal; sem aplicação automática ao TCE-MA.
 
@@ -130,6 +130,7 @@ Ausência dos demais: **justificar**.
 - Item de consumo: qualidade comum, não superior à necessária.
 - Artigo de luxo: vedado.
 - Cada Poder regulamenta limites.
+- Após 180 dias da promulgação da Lei, nova compra de bem de consumo depende desse regulamento.
 - Qualidade superior funcionalmente necessária ≠ luxo.
 - Proibição de luxo ≠ obrigação de comprar pior item.
 - Decreto nº 10.818/2021: referência federal, não regra automática do TCE-MA.
@@ -176,6 +177,8 @@ Grande vulto em 2026: valor estimado **superior a R$ 261.968.421,04**.
 - mitiga efeitos;
 - é refletida no contrato.
 
+**Integrada/semi-integrada:** risco superveniente associado à solução de projeto básico escolhida pelo contratado → responsabilidade do contratado na matriz.
+
 ## Art. 23: preço estimado
 
 - Compatível com mercado.
@@ -202,6 +205,7 @@ Parâmetros combinados ou não:
 - Incluir BDI de referência e encargos sociais.
 - Estado/DF/Município sem recurso da União: pode usar sistema próprio.
 - IN nº 65/2021: bens/serviços federais; não rege engenharia.
+- Integrada/semi-integrada: orçamento da proposta deve ter **no mínimo o mesmo detalhamento** do orçamento sintético de referência.
 
 ### Direta
 
@@ -237,7 +241,7 @@ Parâmetros combinados ou não:
 - Margem comum: até **10%**.
 - Desenvolvimento/inovação nacional: até **20%**.
 - Mercosul: reciprocidade em acordo aprovado e ratificado.
-- Capacidade nacional insuficiente: não aplicar.
+- Bens/serviços nacionais: capacidade nacional insuficiente → essa margem não se aplica.
 - Decreto nº 11.890/2024: federal; outros entes **podem** adotar.
 - Divulgação anual: empresas favorecidas + recursos por empresa.
 
@@ -254,7 +258,10 @@ Parâmetros combinados ou não:
 - Audiência/consulta são facultativas.
 - Análise de risco ≠ matriz.
 - Matriz é obrigatória nas hipóteses legais.
+- Integrada/semi-integrada: risco superveniente da solução de projeto básico escolhida pelo contratado → contratado.
 - Três fornecedores são um parâmetro, não dogma universal.
+- Proposta integrada/semi-integrada não pode ter orçamento menos detalhado que a referência sintética.
 - Sigilo ≠ falta de orçamento nem bloqueio ao controle.
 - Maior desconto ≠ orçamento oculto.
+- Insuficiência da capacidade nacional não afasta indistintamente todas as margens do art. 26.
 - Preferência federal ≠ aplicação automática ao TCE-MA.
