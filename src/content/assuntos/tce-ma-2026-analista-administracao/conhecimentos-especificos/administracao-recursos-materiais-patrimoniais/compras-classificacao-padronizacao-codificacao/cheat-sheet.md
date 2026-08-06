@@ -1,70 +1,57 @@
 # Compras, classificação, padronização e codificação
 
-## Essência
+## Corte e foco
 
-- Comprar bem = solução adequada + quantidade + qualidade + prazo + local + fonte + custo total.
-- Menor preço unitário não garante resultado mais vantajoso.
-- Demanda formaliza a necessidade; especificação define requisitos verificáveis.
-- Pesquisa de mercado estuda soluções, fontes, preços, prazos, condições e riscos.
-- Follow-up acompanha pedido e prazo; não é recebimento, aceite nem ateste.
-- Lei nº 14.133/2021: norma geral; CATMAT, CATSER, SIADS e catálogo da Portaria nº 938/2022 têm âmbitos federais próprios.
+- **Corte do edital:** 6 jul. 2026.
+- Recomendação federal de código específico CATMAT/CATSER: 3 jul. 2026, dentro do corte.
+- Lei nº 14.133/2021: norma geral aplicável ao TCE-MA em função administrativa.
+- CATMAT, CATSER, SIADS e catálogo da Portaria nº 938/2022: referências de âmbito federal próprio; não presumir uso operacional pelo TCE-MA sem base aplicável.
 
 ## Fluxo de compras
 
-1. identificar a necessidade;
-2. formalizar objeto, finalidade, quantidade, unidade, prazo e destino;
-3. consultar catálogo e disponibilidade;
-4. especificar requisitos;
-5. analisar mercado e fornecedores;
-6. definir estratégia;
-7. processar contratação;
-8. formalizar pedido/fornecimento;
-9. fazer follow-up;
-10. registrar desempenho e corrigir cadastro/estratégia.
+> necessidade → demanda → catálogo/disponibilidade → especificação → mercado → estratégia → contratação → fornecimento → follow-up → aprendizado
 
-O fluxo pode iterar: mercado e riscos podem exigir revisão motivada da especificação.
+| Etapa | Produto | Pegadinha |
+| --- | --- | --- |
+| demanda | problema, finalidade, quantidade, unidade, prazo e destino | não escolhe fornecedor |
+| especificação | requisitos objetivos e verificáveis | não é simples marca nem requisição |
+| análise de mercado | soluções, fontes, preços, prazos, riscos e condições comparáveis | não se reduz a “três preços” |
+| estratégia | centralização, agrupamento, parcelamento, compra/locação | não há modelo universal |
+| follow-up | acompanhamento de marcos e ocorrências | não é recebimento, aceite ou ateste |
 
-## Especificação
+**Comprar bem:** solução adequada + quantidade + qualidade + prazo + local + fonte + custo total.
 
-- Precisa e suficiente, não vaga.
-- Objetiva e mensurável, quando possível.
-- Coerente com unidade, embalagem, validade, garantia e segurança.
-- Vinculada à necessidade.
-- Sem requisito irrelevante ou preferência disfarçada.
-- Genérica demais: impede comparação e aceite.
-- Restritiva demais: reduz competição sem justificativa.
+**Menor preço unitário ≠ resultado mais vantajoso.**
 
-**Não confundir:**
+## Demanda × especificação × requisição
 
-- solicitação de compra: demanda aquisição;
-- requisição de material: pede saída de item já disponível;
-- especificação: descreve tecnicamente o objeto.
+| Conceito | Pergunta |
+| --- | --- |
+| demanda | qual problema precisa ser resolvido? |
+| especificação | quais requisitos permitem verificar a solução? |
+| solicitação de compra | qual aquisição externa será iniciada? |
+| requisição de material | qual item já disponível será fornecido internamente? |
 
-## Mercado e custo
+Especificação:
 
-Comparar somente objetos equivalentes em:
-
-- especificação;
-- unidade e embalagem;
-- quantidade;
-- data-base;
-- frete, tributos e pagamento;
-- prazo e local;
-- garantia e assistência.
-
-Preço baixo com incompatibilidade, atraso, manutenção excessiva ou vida útil inadequada pode elevar o custo total.
+- nem vaga, nem restritiva sem justificativa;
+- mensurável, quando possível;
+- coerente com unidade, embalagem, validade, garantia e segurança;
+- ligada ao resultado esperado e à competição.
 
 ## Organização de compras
 
-| Modelo | Ganho | Risco |
+| Modelo | Força | Risco |
 | --- | --- | --- |
-| centralizado | escala, especialização, padrão, controle | fila, distância local, lentidão |
-| descentralizado | agilidade e proximidade | fragmentação, duplicidade, perda de escala |
+| centralizado | escala, padrão, especialização, controle | fila e distância da demanda |
+| descentralizado | agilidade e proximidade | fragmentação e perda de escala |
 | híbrido | comum no centro; específico no nível adequado | exige governança e dados integrados |
 
-- Art. 19, I: instrumentos devem permitir **preferencialmente** centralização; não é centralização absoluta.
-- Fazer/comprar: comparar capacidade, prazo, qualidade, custo evitável, dependência e risco.
-- Art. 44: se compra e locação forem possíveis, o ETP compara custos e benefícios e indica a mais vantajosa.
+Art. 19, I: órgãos com competências regulamentares pertinentes criam instrumentos que permitam **preferencialmente** centralizar procedimentos.
+
+> Preferencialmente ≠ obrigatoriamente tudo centralizado.
+
+## Fazer, comprar ou locar
 
 $$
 C_{fazer}=F_{relevante}+v_{interno}\times Q
@@ -74,143 +61,147 @@ $$
 C_{comprar}=p_{externo}\times Q+C_{transacao}+C_{logistica}
 $$
 
-Unidade: reais no mesmo período. A fórmula só vale com escopo, capacidade, qualidade e prazo comparáveis.
+Comparar em mesma base: escopo, capacidade, qualidade, prazo, risco, quantidade e período.
 
-## Lei nº 14.133/2021: recorte de compras
+Art. 44: se compra e locação forem alternativas reais, o ETP compara custos e benefícios e indica a mais vantajosa.
 
-| Dispositivo | Regra-chave |
+## Lei nº 14.133/2021 — mapa de uma linha
+
+| Regra | Essência |
 | --- | --- |
-| art. 6º, X | compra = aquisição remunerada, única ou parcelada; imediata: entrega até 30 dias da ordem |
-| art. 6º, LI | catálogo eletrônico = sistema centralizado, informatizado e com preços para padronizar itens |
-| art. 9º | veda requisito competitivo indevido ou impertinente |
-| art. 11, I | resultado mais vantajoso considera ciclo de vida |
-| art. 18 | fase preparatória = planejamento técnico, mercadológico e gerencial |
-| art. 19 | centralização preferencial, catálogo e modelos padronizados |
+| art. 6º, X | compra = aquisição remunerada de bens; imediata = entrega em até 30 dias da ordem |
+| art. 18 | ETP evidencia problema e melhor solução |
+| art. 19 | centralização preferencial + catálogo/modelos padronizados |
 | art. 40 | consumo anual, quantidades, guarda, padrão, parcelamento e responsabilidade fiscal |
-| art. 41 | marca/modelo apenas nas hipóteses excepcionais justificadas |
-| art. 42 | meios de provar qualidade de produto similar |
-| art. 43 | processo formal de padronização |
-| art. 44 | ETP compara compra e locação quando ambas forem possíveis |
+| art. 41 | marca/modelo apenas em hipótese excepcional e justificada |
+| art. 42 | prova de qualidade por meios técnicos admitidos |
+| art. 43 | parecer técnico + despacho motivado + publicidade do padrão |
+| art. 44 | comparar compra e locação |
 
 ### Art. 40
 
-- Quantidade: consumo e utilização prováveis, com técnica adequada quando possível.
-- Guarda: não permitir deterioração.
-- Princípios: padronização; parcelamento viável e vantajoso; responsabilidade fiscal.
-- Especificação: catálogo preferencial + qualidade, rendimento, compatibilidade, durabilidade e segurança.
+- especificação **preferencialmente conforme** catálogo eletrônico;
+- observar qualidade, rendimento, compatibilidade, durabilidade e segurança;
+- quantidade com base em consumo/utilização provável;
+- guarda sem deterioração;
+- parcelar quando viável e vantajoso.
 
-### Marca e qualidade
+**Catálogo preferencial ≠ item catalogado automaticamente adequado.**
 
-Art. 41 admite marca/modelo, excepcional e justificadamente, por:
+### Marca, amostra e qualidade
+
+Marca/modelo pode ser indicado com justificativa por:
 
 1. padronização;
 2. compatibilidade;
-3. únicos capazes, embora comercializados por mais de um fornecedor;
-4. mera referência para tornar a descrição compreensível.
+3. única solução capaz, ainda que comercializada por mais de um fornecedor;
+4. referência para tornar a descrição compreensível.
 
-- Marca nunca é preferência livre.
-- Amostra no julgamento: licitante provisoriamente vencedor.
-- Art. 42: norma técnica, declaração de atendimento, certificação ou laudo podem provar qualidade nos termos legais/editais.
+Amostra no julgamento: apenas do licitante provisoriamente vencedor.
 
 ### Parcelamento
 
-Adotar quando técnica e economicamente viável, considerando lotes, mercado local, competição e concentração.
+Parcelar quando técnica e economicamente viável.
 
-Não adotar quando:
+Não parcelar quando:
 
 - economia de escala, custo de gestão ou vantagem recomendar mesmo fornecedor;
-- sistema único/integrado puder ser prejudicado;
-- padronização ou marca levar a fornecedor exclusivo.
+- sistema único e integrado sofrer risco;
+- padronização ou marca conduzir a fornecedor exclusivo.
 
-Parcelar objeto ≠ fracionar despesa para fugir da regra.
+> Parcelamento do objeto ≠ fracionamento indevido da despesa.
 
-### Padronização legal: art. 43
-
-1. parecer técnico: especificação, estética, desempenho, contratações anteriores, custo, manutenção e garantia;
-2. despacho motivado da autoridade superior;
-3. síntese da justificativa e padrão em sítio oficial.
-
-Adesão a padrão de outro órgão: nível federativo igual/superior + motivação + necessidade + riscos + divulgação.
-
-## Classificação
-
-Classificar = agrupar por critério útil. O mesmo item pode ter várias classes simultâneas.
-
-**Atributos do sistema:** abrangente, flexível, expansível, prático, consistente, compreensível e sem duplicidade.
-
-**Sequência didática, não legal e rígida:**
+## Classificação: conceitos que não se confundem
 
 > catalogação → simplificação → especificação → normalização → padronização → codificação
 
+Sequência **didática**, não rito legal rígido.
+
 | Operação | Resultado |
 | --- | --- |
-| identificação | individualiza o item por atributos/código |
+| identificação | item individualizado por atributos |
 | catalogação | relação estruturada e pesquisável |
 | classificação | grupo conforme finalidade |
-| simplificação | elimina variedade redundante |
+| simplificação | variedade redundante eliminada |
 | especificação | descrição técnica verificável |
 | normalização | regras e requisitos uniformes |
-| padronização | padrão aprovado de item/desempenho/uso |
+| padronização | padrão aprovado e reutilizável |
 | codificação | símbolo único para item ou classe |
 
-## Eixos que coexistem
+### Eixos simultâneos
 
-| Eixo | Exemplos | Pegadinha |
+| Eixo | Classes | Pegadinha |
 | --- | --- | --- |
 | despesa | consumo/permanente | preço não decide |
-| estocagem | estocável/não estocável | não equivale a consumo/permanente |
-| aplicação | administrativo/manutenção/saúde | depende da organização |
-| demanda | regular/irregular/dependente/independente | não é política de estoque |
+| estocagem | estocável/não estocável | não coincide com despesa |
 | perecibilidade | perecível/não perecível | perda pelo tempo |
-| periculosidade | inflamável/corrosivo/tóxico | risco de segurança |
+| periculosidade | inflamável, corrosivo, tóxico etc. | risco de segurança |
 | criticidade | vital/importante/comum | consequência da falta, não valor |
 | aquisição | fácil/difícil/exclusiva/importada | mercado, fontes e prazo |
 
 ## Consumo × permanente
 
-- Lei nº 4.320/1964, art. 15, § 2º: para classificar a despesa, material permanente tem duração superior a dois anos.
-- MCASP: analisar também durabilidade, fragilidade, perecibilidade, incorporabilidade e transformabilidade.
-- Portaria STN nº 448/2002: referência histórica **revogada** pela Portaria STN nº 841/2021 desde 1º jun. 2021.
+Lei nº 4.320/1964, art. 15, § 2º: para classificação da despesa, material permanente tem duração superior a dois anos.
 
-Decreto nº 10.818/2021, no âmbito federal que define: bem de consumo atende a no mínimo um dos cinco critérios. O decreto trata da qualidade comum/luxo e não cria regra automática de tombamento do TCE-MA.
+MCASP: material é de consumo quando atende **a pelo menos um** critério:
 
-**Nunca decidir só por:** preço, duração isolada, possibilidade de estocar ou criticidade.
+| Critério | Teste |
+| --- | --- |
+| durabilidade | perde/reduz funcionamento em até 2 anos |
+| fragilidade | quebra/deforma irrecuperavelmente e perde identidade ou função |
+| perecibilidade | deteriora ou perde uso pelo tempo |
+| incorporabilidade | incorpora-se a outro bem sem retirada sem prejuízo |
+| transformabilidade | é adquirido para transformação |
+
+> Não são cinco critérios cumulativos.
+
+Portaria STN nº 448/2002: **revogada** pela Portaria STN nº 841/2021 desde 1º jun. 2021.
+
+Decreto nº 10.818/2021: regra federal sobre qualidade comum/luxo; não é regra autônoma de tombamento do TCE-MA.
+
+### Cinco decisões distintas
+
+| Decisão | Não decorre automaticamente de |
+| --- | --- |
+| classificação orçamentária | preço |
+| reconhecimento contábil do ativo | elemento de despesa |
+| controle patrimonial | tombamento |
+| tombamento individual | duração isolada |
+| estocagem | ser consumo ou permanente |
 
 ## Codificação
 
 | Tipo | Força | Limite |
 | --- | --- | --- |
 | sequencial | simples e estável | sem significado interno |
-| alfabético/mnemônico | memorizável | colisão e baixa capacidade |
-| alfanumérico | muitas combinações | exige convenção rígida |
-| numérico decimal | classes/subclasses | taxonomia pode ficar rígida |
-| hierárquico | agrega por níveis | mudança de classe ameaça estabilidade |
+| mnemônico | memorizável | colisão e baixa capacidade |
+| alfanumérico | muitas combinações | convenção rigorosa |
+| decimal/hierárquico | agrega classes e níveis | mudança de classe pode afetar estabilidade |
 
-Bom código: único, estável, expansível, documentado, não reutilizado e vinculado à descrição.
+Bom código: único, estável, expansível, documentado, não reutilizado e ligado à descrição.
 
-- `12.04.031-7` só tem significado conforme a tabela do sistema.
-- Dígito verificador detecta alguns erros de entrada.
-- Dígito verificador não classifica, não especifica e não possui algoritmo universal.
+**Dígito verificador:**
 
-## CATMAT, CATSER, PDM e catálogo eletrônico
+- detecta alguns erros de entrada;
+- não classifica;
+- não especifica;
+- não tem fórmula universal.
 
-- CATMAT: materiais; identificação, descrição e classificação conforme *Federal Supply Classification*.
-- CATSER: serviços; padrões de desempenho e critérios adotados pela ONU.
-- IN nº 2/2011: SISG e demais usuários do SIASG.
-- Recomendação federal de 3 jul. 2026: PDM pertinente + código específico; genérico só excepcionalmente.
-- CATMAT não é tombo, endereço, natureza de despesa nem CATSER.
+## CATMAT × CATSER × PDM × catálogo eletrônico
 
-CADMAT/SIADS:
+| Instrumento | Função |
+| --- | --- |
+| CATMAT | identifica, descreve e classifica materiais no âmbito federal pertinente |
+| CATSER | identifica, descreve e classifica serviços |
+| PDM | estrutura os atributos de um tipo de material |
+| item de material | preenche os atributos previstos no PDM |
+| catálogo eletrônico | padroniza itens disponíveis à licitação, com regime do art. 19 |
 
-- material = nome básico/modificador + sinônimos + grupo/classe + unidades + campos de características = PDM;
-- item de material = características preenchidas conforme o PDM.
+Recomendação federal: PDM pertinente + **código específico**; código genérico apenas excepcionalmente.
 
-Catálogo eletrônico da Lei nº 14.133/2021:
+CATMAT não é tombo, endereço, natureza de despesa nem catálogo eletrônico.
 
-- sistema para padronizar itens disponíveis à licitação;
-- não uso do catálogo/modelos do art. 19 exige justificativa escrita;
-- implementação da Portaria nº 938/2022: federal direta, autárquica e fundacional;
-- não é sinônimo de CATMAT, PDM ou cadastro patrimonial.
+PDM não é exemplar físico nem item completo.
 
 ## Indicadores
 
@@ -226,11 +217,12 @@ $$
 Variacao\ de\ preco\ (\%)=\frac{P_{contratado}-P_{referencia}}{P_{referencia}}\times100
 $$
 
-- Lead time = data final − data inicial, em dias úteis ou corridos declarados.
-- Comparar a mesma unidade, objeto, condição e período.
+- Lead time = data final − data inicial.
+- Defina marcos, dias úteis/corridos, tolerância e critérios de conformidade.
+- Mesma unidade, objeto, condição e período.
 - Não há meta universal.
 
-## Pegadinhas finais
+## Pegadinhas-relâmpago
 
 - menor preço ≠ menor custo total;
 - demanda ≠ especificação;
@@ -238,13 +230,14 @@ $$
 - centralização preferencial ≠ absoluta;
 - marca excepcional ≠ marca sempre proibida;
 - padronização ≠ preferência pessoal;
-- parcelamento ≠ obrigação cega;
-- simplificação ≠ eliminar requisito essencial;
+- parcelar ≠ fracionar indevidamente;
+- simplificar ≠ retirar requisito essencial;
 - normalização ≠ padronização;
-- duração superior a dois anos ≠ decisão administrativa e patrimonial automática;
-- criticidade ≠ maior valor;
+- duração > 2 anos ≠ resposta automática para tudo;
+- MCASP: **ao menos um**, não todos;
+- criticidade ≠ valor;
 - perecibilidade ≠ periculosidade;
-- PDM ≠ item completo ou tombo;
-- CATMAT ≠ catálogo eletrônico de padronização;
-- código genérico ≠ escolha preferencial;
+- PDM ≠ item/tombo;
+- CATMAT ≠ catálogo eletrônico;
+- código genérico ≠ preferência;
 - dígito verificador ≠ prova da especificação.
