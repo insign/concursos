@@ -12,7 +12,7 @@ Uma contratação pública de qualidade começa antes da publicação do edital.
 
 > **Ideia central:** planejar não é preencher formulários depois que a solução já foi escolhida. É investigar a necessidade, comparar alternativas e documentar uma decisão capaz de produzir resultado vantajoso, competitivo e sustentável.
 
-Este material considera o texto consolidado vigente até **15 de julho de 2026**. O núcleo são os arts. 18 a 27 da Lei nº 14.133/2021. Decreto e instruções normativas federais aparecem como referências operacionais da Administração Pública federal direta, autárquica e fundacional; não se aplicam automaticamente ao Estado do Maranhão nem ao TCE-MA, ressalvadas hipóteses previstas no próprio ato, como a execução de recursos federais oriundos de transferências voluntárias.
+Este material adota como corte normativo **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. O núcleo são os arts. 18 a 27 da Lei nº 14.133/2021. Decreto e instruções normativas federais aparecem como referências operacionais da Administração Pública federal direta, autárquica e fundacional; não se aplicam automaticamente ao Estado do Maranhão nem ao TCE-MA, ressalvadas hipóteses previstas no próprio ato, como a execução de recursos federais oriundos de transferências voluntárias.
 
 Modalidades, critérios de julgamento, seleção e contratação direta pertencem ao Assunto 126. Formalização, garantias, alocação contratual de riscos e duração ficam no 127; execução e equilíbrio econômico-financeiro, no 128; extinção, recebimento e pagamento, no 129; sanções, controle e PNCP, no 130. Aqui, esses temas são mencionados somente como decisões que precisam ser preparadas.
 
@@ -180,7 +180,7 @@ Em obras e serviços de engenharia e arquitetura, BIM ou tecnologia equivalente 
 
 ## 7. Qualidade comum e proibição de luxo
 
-O art. 20 determina que itens de consumo tenham qualidade comum, não superior à necessária à finalidade pública, e veda artigos de luxo. Cada Poder deve definir em regulamento os limites entre comum e luxo.
+O art. 20 determina que itens de consumo tenham qualidade comum, não superior à necessária à finalidade pública, e veda artigos de luxo. Cada Poder deve definir em regulamento os limites entre comum e luxo. Após 180 dias da promulgação da Lei, novas compras de bens de consumo dependem da edição desse regulamento pela autoridade competente.
 
 Qualidade superior e luxo não são sinônimos. Desempenho, durabilidade, segurança ou compatibilidade acima do padrão mais barato podem ser necessários, desde que demonstrados. Luxo é o excesso sem vínculo funcional suficiente.
 
@@ -217,6 +217,8 @@ A matriz deve promover alocação eficiente, definir responsabilidades e prever 
 - contratação integrada;
 - contratação semi-integrada.
 
+Nas contratações integrada e semi-integrada, os riscos decorrentes de fatos supervenientes à contratação associados à escolha da solução de projeto básico pelo contratado devem ser alocados como responsabilidade dele na matriz de riscos.
+
 Desde 1º de janeiro de 2026, o valor atualizado de grande vulto é superior a **R$ 261.968.421,04**, conforme o Decreto nº 12.807/2025. O conceito e o valor são relevantes aqui apenas para identificar a obrigatoriedade da matriz e do programa de integridade; os efeitos contratuais serão aprofundados nos Assuntos 127 e 128.
 
 ## 10. Estimativa do valor
@@ -252,7 +254,7 @@ Estados, Distrito Federal e Municípios, quando não utilizarem recursos da Uni�
 
 Se não for possível usar os parâmetros legais em contratação direta, o futuro contratado deve demonstrar previamente preços conformes a contratações semelhantes da mesma natureza, mediante notas fiscais emitidas para outros contratantes no período de até um ano anterior à data da contratação pela Administração ou por outro meio idôneo.
 
-Em contratação integrada ou semi-integrada de engenharia, o orçamento segue as regras legais específicas, pode considerar remuneração de risco e combina orçamento sintético com métodos aproximados apenas nas frações insuficientemente detalhadas pelo anteprojeto.
+Em contratação integrada ou semi-integrada de engenharia, o orçamento segue as regras legais específicas, pode considerar remuneração de risco e combina orçamento sintético com métodos aproximados apenas nas frações insuficientemente detalhadas pelo anteprojeto. O orçamento que compuser a proposta do licitante ou contratado deve apresentar, no mínimo, o mesmo nível de detalhamento do orçamento sintético de referência.
 
 ## 11. Orçamento sigiloso
 
@@ -291,7 +293,7 @@ O art. 26 permite margem para:
 
 A margem comum pode alcançar **10%**. Para bens e serviços nacionais resultantes de desenvolvimento e inovação tecnológica no País, pode alcançar **20%**. A margem pode ser estendida a origens do Mercosul se houver reciprocidade em acordo aprovado e ratificado.
 
-Não há margem quando a capacidade nacional for insuficiente para a quantidade necessária ou para os quantitativos resultantes do parcelamento. A lei também admite, com justificativa, medidas de compensação e restrição de TIC estratégica nas hipóteses legais.
+A margem aplicável a bens manufaturados nacionais e serviços nacionais não incide se a capacidade de produção desses bens ou de prestação desses serviços no País for inferior à quantidade necessária ou aos quantitativos resultantes do parcelamento. A lei também admite, com justificativa, medidas de compensação e restrição de TIC estratégica nas hipóteses legais.
 
 O Decreto nº 11.890/2024 regulamenta margens no âmbito federal, com margem normal e adicional cumuláveis até 20%. Estados, Distrito Federal, Municípios e outros Poderes da União **podem** adotar as margens federais; o verbo não cria aplicação automática ao TCE-MA.
 
@@ -325,13 +327,16 @@ Se o processo começa com “comprar a marca X”, faltam investigação do prob
 8. Audiência é obrigatória em grande vulto — **errado** no art. 21; ela é facultativa.
 9. Análise de riscos é a própria matriz — **errado**.
 10. Matriz nunca é obrigatória — **errado**; há hipóteses legais obrigatórias.
-11. Três cotações são sempre o único método — **errado**; o art. 23 oferece vários parâmetros.
-12. IN nº 65/2021 rege automaticamente engenharia estadual — **errado**.
-13. Orçamento sigiloso dispensa orçamento prévio — **errado**.
-14. Controle externo não acessa orçamento sigiloso — **errado**.
-15. Maior desconto admite preço estimado oculto — **errado**.
-16. Exigência de insumo local é livre — **errado**; depende de ETP, competição e eficiência.
-17. Margem federal aplica-se automaticamente a todos os entes — **errado**.
+11. Na integrada ou semi-integrada, risco superveniente ligado à solução de projeto básico escolhida pelo contratado pode ser alocado livremente à Administração — **errado**; esse risco deve ser atribuído ao contratado.
+12. Três cotações são sempre o único método — **errado**; o art. 23 oferece vários parâmetros.
+13. IN nº 65/2021 rege automaticamente engenharia estadual — **errado**.
+14. Na integrada ou semi-integrada, a proposta pode ter orçamento menos detalhado que o orçamento sintético de referência — **errado**; deve ter, no mínimo, o mesmo nível de detalhamento.
+15. Orçamento sigiloso dispensa orçamento prévio — **errado**.
+16. Controle externo não acessa orçamento sigiloso — **errado**.
+17. Maior desconto admite preço estimado oculto — **errado**.
+18. Exigência de insumo local é livre — **errado**; depende de ETP, competição e eficiência.
+19. Insuficiência da capacidade nacional afasta qualquer margem de preferência do art. 26 — **errado**; o § 5º refere-se aos bens manufaturados nacionais e serviços nacionais.
+20. Margem federal aplica-se automaticamente a todos os entes — **errado**.
 
 ## Referências
 
