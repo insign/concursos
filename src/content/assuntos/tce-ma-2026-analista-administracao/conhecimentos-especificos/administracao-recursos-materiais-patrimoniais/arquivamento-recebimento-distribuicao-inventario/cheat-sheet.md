@@ -1,196 +1,153 @@
 # Arquivamento, recebimento, proteção, conservação, distribuição e inventário
 
-## Fluxo essencial
+## Ciclo em uma linha
 
-1. preparar critérios e responsáveis;
-2. receber a remessa;
-3. conferir identidade e quantidade;
-4. examinar qualidade quando necessário;
-5. aceitar, rejeitar ou deixar pendente;
-6. registrar entrada e condição;
-7. proteger e conservar;
-8. distribuir mediante controle;
-9. inventariar e conciliar;
-10. investigar e regularizar diferenças.
+**Preparar → receber → conferir → examinar → aceitar/rejeitar → registrar → proteger → distribuir → inventariar → conciliar.**
 
-> Fluxo físico, registro e documento devem representar o mesmo fato.
+> Físico, sistema e documento devem representar o mesmo fato.
 
-## Arquivamento
+## Corte temporal
 
-- Documento de arquivo é produzido ou recebido no exercício da atividade, independentemente do suporte.
-- Gestão documental: produção, tramitação, uso, avaliação e arquivamento.
-- Fase corrente: uso frequente e processo ativo.
-- Fase intermediária: uso menor, com guarda administrativa, legal ou probatória.
-- Fase permanente: preservação definitiva por valor histórico, probatório ou informativo.
-- Dossiê deve ligar origem, entrega, aceite, entrada, saída, inventário e regularização.
-- Metadados úteis: processo, pedido, contrato, item, lote, patrimônio, autor, data, versão e destino.
-- Classificação arquivística orienta temporalidade; classificação de sigilo regula acesso.
-- Prazo de guarda depende da tabela de temporalidade aplicável; não há prazo universal para “documento de almoxarifado”.
-- Digitalização não autoriza eliminação automática do original.
-- Backup ajuda na recuperação, mas não substitui preservação arquivística.
-- Eliminação exige avaliação, destinação prevista e procedimento competente.
+- Edital publicado em **6 de julho de 2026**.
+- IN SEDAP nº 205/1988: referência do SISG federal; não presumir aplicação automática ao TCE/MA.
+- Atualização posterior: marcar como **pós-edital** ou **direito vigente hoje**.
 
-## Recebimento e aceitação
+## Arquivamento operacional
 
-| Etapa | Essência |
+| Controle | Regra curta |
 | --- | --- |
-| recebimento | entrega e assunção inicial da guarda |
-| conferência | comparação entre físico, documento e pedido |
-| exame qualitativo | verificação técnica da especificação |
-| aceitação | declaração de conformidade |
-| rejeição | tratamento formal da desconformidade |
+| dossiê | liga pedido, entrega, aceite, entrada, saída, inventário e ajuste |
+| classificação | relaciona documento à função e orienta temporalidade |
+| sigilo | regula acesso; não se confunde com classificação arquivística |
+| digitalização | não autoriza eliminação automática |
+| backup | recupera cópia; não substitui preservação arquivística |
+| eliminação | exige avaliação, tabela de temporalidade e rito competente |
 
-- Receber **não** é aceitar.
-- Assinar número de volumes não comprova automaticamente o conteúdo.
-- Entrega direta fora do almoxarifado não elimina registro e controle.
-- Documento hábil comprova origem, mas precisa ser confrontado com o material.
-- Quantidade deve usar a unidade correta: caixa, pacote, metro, litro ou unidade.
-- Exame qualitativo pode exigir técnico, comissão, teste, amostra ou certificado.
-- Material pendente deve ficar identificado e segregado do disponível.
-- Aceitação parcial exige admissibilidade e individualização da parte aceita.
+## Recebimento: contrastes
 
-### Lei nº 14.133/2021, art. 140, compras
+| Referência | Ato | Essência |
+| --- | --- | --- |
+| IN nº 205/1988 | recebimento | entrega e guarda inicial, sem aceitação |
+| IN nº 205/1988 | aceitação | declaração de conformidade |
+| Lei nº 14.133/2021 | provisório | sumário, com verificação posterior |
+| Lei nº 14.133/2021 | definitivo | servidor/comissão + termo detalhado |
 
-- Provisório: sumário, pelo responsável pelo acompanhamento e fiscalização, com verificação posterior.
-- Definitivo: servidor ou comissão designada, mediante termo detalhado.
-- Desconformidade permite rejeição total ou parcial.
-- Prazos e métodos vêm de regulamento ou contrato.
+**Entrega ≠ recebimento definitivo ≠ aceitação ≠ liquidação ≠ pagamento.**
 
-### Eventos distintos
+### Conferência
 
-- entrada física: chegada;
-- entrada de estoque/patrimônio: registro do aceito;
-- carga: responsabilidade pela guarda e uso;
-- liquidação: verificação do direito do credor;
-- pagamento: etapa posterior da despesa.
+- **Quantitativa:** identidade, unidade e quantidade.
+- **Qualitativa:** especificação, integridade, validade, desempenho, certificados e testes.
+- Assinatura de volumes não prova automaticamente o conteúdo.
+- Entrega direta fora do almoxarifado não elimina conferência e registro.
 
-## Divergência na entrega
+### Divergência
 
-1. segregar;
-2. identificar item, lote/série, quantidade e estado;
-3. registrar evidência e alcance do recebimento;
-4. comunicar fornecedor e responsáveis;
-5. definir devolução, substituição, complementação ou correção;
-6. reexaminar;
-7. atualizar registros sem apagar o histórico.
+**Segregar → identificar → documentar → comunicar → decidir solução → reexaminar → atualizar sem apagar histórico.**
 
-- Falta, excesso, item trocado, avaria, validade, defeito e documento inconsistente são ocorrências diferentes.
-- Não se altera documento para esconder diferença.
+Aceitação parcial: somente quando admissível e com individualização do que foi aceito e rejeitado.
+
+## Eventos distintos
+
+| Evento | Núcleo |
+| --- | --- |
+| entrada física | chegada e custódia |
+| entrada no estoque/patrimônio | registro do material aceito |
+| carga | guarda e uso |
+| liquidação | verificação do direito do credor |
+| pagamento | etapa posterior da despesa |
 
 ## Proteção e conservação
 
-- Proteção: barreiras contra perda, acesso indevido, furto, clima, pragas, impacto e contaminação.
-- Conservação: manutenção das características e da aptidão de uso.
-- Segregar disponível, reservado, bloqueado, avariado, vencido e rejeitado.
-- Manter vínculo entre item, lote, etiqueta e registro.
-- Proteger do piso e dos riscos ambientais conforme a natureza do material.
-- Preservar circulação e equipamentos de emergência.
-- Posicionar itens pesados em níveis inferiores.
-- Manter embalagem original até o fornecimento quando adequado.
-- Registrar inspeção, validade, condição, manutenção e anomalias conforme risco.
-- PEPS: primeiro que entra, primeiro que sai.
-- FEFO/PVPS: primeiro que vence, primeiro que sai.
-- Nenhuma regra de rotação autoriza fornecer item impróprio.
+- **Proteção:** barreiras contra perda, acesso, furto, clima, pragas, impacto e contaminação.
+- **Conservação:** manter características e aptidão de uso.
+- Segregar liberado, em inspeção, bloqueado, rejeitado, vencido e devolução.
+- PEPS: sai primeiro o que entrou primeiro.
+- FEFO/PVPS: sai primeiro o que vence primeiro.
+- Item impróprio nunca deve ser distribuído.
 
-$$
-\text{saldo físico} = \text{disponível} + \text{reservado} + \text{bloqueado} + \text{avariado}
-$$
+### Duas dimensões — não some categorias sobrepostas
+
+| Situação de disponibilidade | Condição |
+| --- | --- |
+| disponível | íntegro |
+| reservado | avariado |
+| em inspeção | vencido |
+| bloqueado | contaminado/suspeito |
+
+Um lote pode estar **bloqueado por avaria**. Somente categorias mutuamente exclusivas podem ser somadas.
 
 ## Distribuição
 
-- Distribuição faz o material chegar em perfeitas condições ao usuário.
-- Por pressão: tabela de provisão e épocas fixadas, sem pedido posterior.
-- Por requisição: pedido interno; é o processo mais comum na IN nº 205/1988.
-- Pressão não elimina planejamento; requisição não gera atendimento automático.
+| Processo | Regra |
+| --- | --- |
+| pressão | tabela de provisão + épocas fixadas |
+| requisição | pedido interno; processo mais comum |
 
-### Fluxo
+**Pressão ≠ ausência de planejamento. Requisição ≠ atendimento automático.**
 
-1. validar requisição e autorização;
-2. conferir código, unidade, quantidade e destino;
-3. verificar disponibilidade;
-4. reservar e separar;
-5. reconferir;
-6. embalar e proteger;
-7. registrar saída;
-8. entregar e obter confirmação;
-9. tratar devolução ou diferença;
-10. arquivar evidência.
-
-- Histórico de doze meses é referência da IN nº 205/1988, não regra mecânica universal.
-- Remessa considera fragilidade, perecibilidade, transporte, valor, destinatário, volumes e embalagem.
-- Confirmação de entrega não apaga ressalva de falta ou avaria.
-- Material permanente exige carga/termo conforme o regime aplicável.
+Fluxo: validar → separar → conferir → proteger → registrar saída → entregar → confirmar → tratar ressalvas.
 
 ## Inventário
 
-- Inventário físico confronta realidade e registro.
-- Não é simples impressão do sistema nem confirmação da listagem.
+### Cinco ocasiões normativas da IN nº 205/1988
 
-| Tipo na IN nº 205/1988 | Gatilho |
+| Tipo | Gatilho |
 | --- | --- |
 | anual | posição de 31 de dezembro |
 | inicial | criação de unidade gestora |
 | transferência | mudança do dirigente |
 | extinção/transformação | mudança estrutural |
 | eventual | iniciativa do dirigente ou fiscalizador |
-| rotativo | programação contínua e seletiva |
+
+### Métodos operacionais
+
+| Método | Uso |
+| --- | --- |
+| rotativo/cíclico | grupos contados continuamente ao longo do período |
 | amostragem | amostras de grupo/classe em grande acervo |
 
-- Amostragem não substitui automaticamente inventário integral exigido.
-- Corte controlado atribui entradas e saídas ao instante correto.
-- Contagem cega reduz viés de confirmar saldo esperado.
-- Recontagem deve preceder ajuste.
-- Inventário analítico: descrição, registro, valor, estado e demais identificadores.
+Rotativo e amostragem **não são duas novas ocasiões normativas**. Nenhum deles substitui automaticamente inventário integral obrigatório.
+
+### Corte e contagem
+
+- Corte controlado atribui cada entrada/saída ao momento correto.
+- Contagem cega reduz viés de confirmação.
+- Diferença deve ser recontada antes do ajuste.
+- Custodiante pode auxiliar, mas a verificação deve manter independência possível.
 
 $$
-\text{saldo esperado} = \text{saldo inicial} + \text{entradas} - \text{saídas} \pm \text{ajustes autorizados}
+\text{saldo esperado}
+=
+\text{saldo inicial} + \text{entradas} - \text{saídas} \pm \text{ajustes autorizados}
 $$
 
 $$
-\text{acurácia (\%)} =
+\text{acurácia por itens (\%)}
+=
 \frac{\text{itens sem divergência}}{\text{itens contados}} \times 100
 $$
 
-- 194 itens corretos em 200: acurácia de 97%.
-- Acurácia por item não revela sozinha valor, criticidade ou quantidade divergente.
-
 ## Conciliação
 
-Comparar:
-
-- físico × ficha/endereço;
-- físico × sistema de estoque;
-- estoque × documentos;
-- remessa × confirmação;
-- patrimônio × responsabilidade;
-- patrimônio × contabilidade.
-
-### Tratamento
-
-1. registrar diferença original;
-2. recontar e validar unidade/identidade;
-3. consultar documentos e movimentos pendentes;
-4. identificar causa e impacto;
-5. obter decisão competente;
-6. regularizar físico, documentos e sistemas;
-7. apurar responsabilidade quando houver indício;
-8. monitorar providência e recorrência.
+**Registrar diferença → recontar → investigar documentos/movimentos → identificar causa → decidir → ajustar com autorização → monitorar.**
 
 - Falta não prova automaticamente responsabilidade.
 - Sobra também é divergência.
-- Ajuste sem histórico enfraquece a evidência.
-- Inventário físico sustenta, mas não substitui, os critérios contábeis.
+- Ajuste não pode apagar a diferença original.
+- Inventário físico sustenta, mas não substitui, os registros contábeis.
 
-## Pegadinhas finais
+## Pegadinhas
 
-- IN SEDAP nº 205/1988: âmbito do SISG federal; não presumir aplicação automática ao TCE-MA.
-- Recebimento ≠ aceitação.
-- Provisório ≠ definitivo.
-- Volume recebido ≠ conteúdo aceito.
-- Saldo físico ≠ saldo disponível.
-- Distribuição por pressão ≠ fornecimento sem controle.
-- Inventário ≠ listagem.
-- Divergência ≠ ajuste imediato.
-- Digitalização ≠ eliminação.
-- Backup ≠ preservação arquivística.
-- Classificação documental ≠ classificação de sigilo.
+1. Recebimento ≠ aceitação.
+2. Provisório ≠ definitivo.
+3. Volume entregue ≠ conteúdo aceito.
+4. Saldo físico ≠ saldo disponível.
+5. Bloqueado (situação) ≠ avariado (condição).
+6. Pressão ≠ requisição.
+7. Inventário ≠ listagem.
+8. Rotativo/amostragem ≠ ocasiões normativas.
+9. Divergência ≠ ajuste imediato.
+10. Digitalização ≠ eliminação.
+11. Backup ≠ preservação arquivística.
+12. IN nº 205/1988 ≠ aplicação automática ao TCE/MA.
