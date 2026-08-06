@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1334",
@@ -394,18 +394,18 @@
     },
     {
       "id": "q1360",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Um almoxarifado possui 900 unidades físicas: 700 disponíveis, 100 reservadas e 60 bloqueadas. Quantas unidades estão avariadas, se essas quatro condições esgotam o saldo físico?",
+      "prompt": "Em um sistema de almoxarifado, um lote está bloqueado porque apresenta avaria. Para evitar dupla contagem do saldo físico, a modelagem mais adequada é",
       "options": [
-        {"id": "a", "text": "40"},
-        {"id": "b", "text": "60"},
-        {"id": "c", "text": "100"},
-        {"id": "d", "text": "140"},
-        {"id": "e", "text": "200"}
+        {"id": "a", "text": "somar sempre as quantidades bloqueada e avariada, pois representam parcelas independentes"},
+        {"id": "b", "text": "registrar separadamente a situação de disponibilidade e a condição do material, somando apenas categorias mutuamente exclusivas"},
+        {"id": "c", "text": "classificar o lote como disponível, porque ele continua fisicamente no depósito"},
+        {"id": "d", "text": "retirar o lote do saldo físico até que a avaria seja reparada"},
+        {"id": "e", "text": "converter automaticamente a quantidade avariada em quantidade reservada"}
       ],
-      "correctOptionId": "a",
-      "explanation": "Avariadas = 900 − 700 − 100 − 60 = 40. O exemplo mostra por que saldo físico não equivale a saldo disponível. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "\"Bloqueado\" descreve uma situação de disponibilidade, enquanto \"avariado\" descreve a condição do material. As mesmas unidades podem possuir os dois atributos; por isso, apenas classes mutuamente exclusivas podem ser somadas sem dupla contagem. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1361",
@@ -604,18 +604,18 @@
     },
     {
       "id": "q1374",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Inventário rotativo consiste em",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Em relação ao sistema rotativo de inventário, assinale a alternativa correta.",
       "options": [
-        {"id": "a", "text": "contar somente quando há desaparecimento"},
-        {"id": "b", "text": "substituir todos os registros por estimativas"},
-        {"id": "c", "text": "conferir uma amostra uma única vez e extrapolar sempre"},
-        {"id": "d", "text": "levantar continuamente grupos programados para recensear os itens ao longo do exercício"},
-        {"id": "e", "text": "girar fisicamente as embalagens durante a contagem"}
+        {"id": "a", "text": "É realizado apenas no encerramento do exercício e exige contagem simultânea de todo o acervo."},
+        {"id": "b", "text": "Relaciona o controle de estoque ao estoque físico e pode ser executado de modo automático, programado ou a pedido."},
+        {"id": "c", "text": "Dispensa a definição de itens, periodicidade e critérios de recontagem."},
+        {"id": "d", "text": "Substitui obrigatoriamente qualquer inventário integral exigido por norma."},
+        {"id": "e", "text": "Consiste em estimativa contábil sem contagem física dos materiais."}
       ],
-      "correctOptionId": "d",
-      "explanation": "Rotativo é contínuo, seletivo e programado; ele distribui as contagens ao longo do período, não é mera estimativa ou reação a extravio. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "O inventário rotativo mantém relação contínua entre controle e estoque físico e pode ser automático, programado ou a pedido. Questão adaptada do CESPE/UnB, Departamento de Polícia Federal, Cargo 1 — Administrador, prova aplicada em 16/2/2014, item 116, caderno DPF14_001_01; gabarito definitivo: C. O item original de julgamento foi convertido para cinco alternativas, preservando seu núcleo técnico."
     },
     {
       "id": "q1375",
@@ -746,7 +746,7 @@
         {"id": "a", "text": "há necessariamente extravio de 10 unidades"},
         {"id": "b", "text": "a saída deve ser ignorada porque ocorreu durante o inventário"},
         {"id": "c", "text": "a diferença pode ser explicada pelo movimento pendente, que deve ser validado e processado com rastreabilidade"},
-        {"id": "d", "text": "o físico deve ser alterado para 500"},
+       {"id": "d", "text": "o físico deve ser alterado para 500"},
         {"id": "e", "text": "o documento deve ser destruído após ajustar o saldo"}
       ],
       "correctOptionId": "c",
