@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1484",
@@ -751,6 +751,21 @@
       ],
       "correctOptionId": "b",
       "explanation": "O caso percorre necessidade, alternativas, viabilidade, parcelamento, riscos e definição do objeto na ordem adequada. As etapas posteriores continuam necessárias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q1534",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em contratação integrada, ocorre fato superveniente à contratação associado à escolha da solução de projeto básico pelo contratado. Segundo o art. 22, § 4º, esse risco deve",
+      "options": [
+        {"id": "a", "text": "ser alocado como responsabilidade do contratado na matriz de riscos"},
+        {"id": "b", "text": "ser sempre compartilhado em partes iguais entre Administração e contratado"},
+        {"id": "c", "text": "ser atribuído necessariamente à Administração por decorrer de projeto básico"},
+        {"id": "d", "text": "ficar fora da matriz e ser definido somente depois do sinistro"},
+        {"id": "e", "text": "ser transferido ao controle externo antes da assinatura do contrato"}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nas contratações integrada e semi-integrada, o art. 22, § 4º, determina que riscos supervenientes associados à escolha da solução de projeto básico pelo contratado sejam alocados como responsabilidade dele na matriz. Fonte: questão autoral baseada nas referências do conteúdo."
     }
   ]
 }
