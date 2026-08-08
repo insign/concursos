@@ -24,7 +24,7 @@ Uma forma segura de organizar a matéria é separar perguntas que as provas freq
 
 > **Regra de leitura:** modalidade, critério de julgamento e modo de disputa são categorias diferentes. A concorrência, por exemplo, admite vários critérios; o maior desconto é critério, não modalidade.
 
-Os valores monetários indicados nesta lição são os vigentes desde **1º de janeiro de 2026**, atualizados pelo Decreto nº 12.807/2025. Eles são reajustados anualmente, por isso a regra legal e a referência temporal devem ser estudadas juntas.
+O corte normativo adotado é **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Os valores monetários indicados nesta lição são os vigentes desde **1º de janeiro de 2026**, atualizados pelo Decreto nº 12.807/2025. Alterações legislativas posteriores ao edital são identificadas expressamente como **pós-edital** e não substituem silenciosamente a regra aplicável no corte.
 
 ## 2. Modalidades de licitação
 
@@ -167,9 +167,11 @@ Serão desclassificadas propostas que:
 - não demonstrem exequibilidade quando exigido;
 - apresentem desconformidade insanável com outras exigências do edital.
 
-A Administração pode realizar diligências para aferir exequibilidade ou exigir sua demonstração. Para obras e serviços de engenharia, a Lei considera inexequíveis as propostas inferiores a **75%** do valor orçado. Se a proposta vencedora for inferior a **85%** do valor orçado, será exigida garantia adicional equivalente à diferença entre o valor orçado integral e o valor da proposta, sem prejuízo das demais garantias exigíveis.
+A Administração pode realizar diligências para aferir exequibilidade ou exigir sua demonstração. Para obras e serviços de engenharia, o art. 59, § 4º, diz literalmente que são inexequíveis as propostas inferiores a **75%** do valor orçado. Dentro do corte do edital, porém, o **Acórdão 803/2024-TCU-Plenário** interpreta esse percentual como presunção relativa, compatibilizando-o com o § 2º e admitindo a demonstração da exequibilidade mediante diligência antes da desclassificação.
 
-> **Atenção:** os percentuais de 75% e 85% são regras legais específicas para obras e serviços de engenharia. Não devem ser transpostos automaticamente para compras e serviços em geral.
+Se a proposta vencedora for inferior a **85%** do valor orçado, há garantia adicional. Para o cálculo, a orientação do TCU considera a diferença entre **85% do valor orçado** e o valor da proposta. Exemplo: orçamento de R$ 1.000.000 e proposta de R$ 800.000 → 85% do orçamento = R$ 850.000 → garantia adicional = **R$ 50.000**, sem prejuízo das demais garantias exigíveis.
+
+> **Atenção:** os percentuais de 75% e 85% são regras específicas para obras e serviços de engenharia. Não devem ser transpostos automaticamente para compras e serviços em geral. Na prova, se a questão cobrar apenas a literalidade do § 4º, reconheça o marco de 75%; se trouxer a jurisprudência do TCU, trate a inexequibilidade como presunção relativa.
 
 ### 4.4 Ordem de desempate e preferências
 
@@ -203,7 +205,7 @@ O parcelamento será adotado quando técnica e economicamente viável, considera
 
 A indicação de marca ou modelo exige justificativa formal e é excepcional, por necessidade de padronização, compatibilidade, marca como única apta ou referência descritiva. A Administração pode exigir amostra, prova de conceito, certificação, carta de solidariedade do fabricante e processo de padronização, nos limites legais. Produtos manufaturados nacionais devem observar normas técnicas brasileiras.
 
-Desde **16 de março de 2026**, o art. 44-A determina que licitação para equipamento diagnóstico ou terapêutico do SUS acima do limite do art. 75, II, considere o aproveitamento durante toda a vida útil. O planejamento deve abordar uso potencial, profissionais e insumos, manutenção, reposição, assistência técnica, obsolescência, compatibilidade de infraestrutura e descarte seguro.
+Desde **16 de março de 2026**, o art. 44-A determina que a licitação para compra de equipamento destinado a procedimento diagnóstico ou terapêutico no SUS, quando o valor superar o limite do art. 75, II, considere o **adequado aproveitamento do equipamento ao longo de sua vida útil**. O § 1º exige que o edital contenha a demonstração da capacidade instalada para operação do equipamento **ou** plano de atendimento aos requisitos necessários à operação. Os §§ 2º a 5º foram vetados; não se deve atribuir à lei listas de pessoal, manutenção, insumos, infraestrutura ou descarte que estavam nos dispositivos vetados.
 
 ### 5.2 Obras e serviços de engenharia
 
@@ -293,7 +295,7 @@ Erros ou falhas que não alterem a substância ou a validade jurídica podem ser
 
 **Jurídica:** limita-se à existência jurídica e, quando cabível, à autorização para exercer a atividade.
 
-**Técnica:** pode envolver profissional registrado, atestados/certidões de capacidade operacional, pessoal e instalações, registro em conselho, declaração de conhecimento das condições locais e outros requisitos de lei especial. Atestados concentram-se nas parcelas de maior relevância ou valor significativo, assim consideradas as de valor individual igual ou superior a 4% do valor estimado. Quantitativos mínimos podem chegar a 50% dessas parcelas; são vedadas limitações de tempo e locais específicos. A visita técnica, quando imprescindível, deve admitir substituição por declaração formal e oferecer datas e horários diversos.
+**Técnica:** pode envolver profissional registrado, atestados/certidões de capacidade operacional, pessoal e instalações, registro em conselho, declaração de conhecimento das condições locais e outros requisitos de lei especial. Atestados concentram-se nas parcelas de maior relevância ou valor significativo, assim consideradas as de valor individual igual ou superior a 4% do valor estimado. Quantitativos mínimos podem chegar a 50% dessas parcelas; o art. 67, § 2º, veda limitações de tempo e de locais específicos relativas aos atestados. **Ressalva:** em serviços contínuos, o § 5º permite exigir atestado de execução de serviços similares por período mínimo de até **três anos**, sucessivos ou não. A visita técnica, quando imprescindível, deve admitir substituição por declaração formal e oferecer datas e horários diversos.
 
 **Fiscal, social e trabalhista:** abrange CPF/CNPJ, inscrição estadual/municipal pertinente, regularidade com Fazendas, Seguridade Social e FGTS, Justiça do Trabalho e cumprimento da proibição constitucional de trabalho infantil irregular.
 
@@ -361,7 +363,7 @@ Para imóvel específico, exige-se avaliação prévia, certificação de inexis
 | obras e serviços de engenharia; manutenção de veículos automotores | inferior a R$ 130.984,20 |
 | outras compras e serviços | inferior a R$ 65.492,11 |
 
-Para aferir esses limites, somam-se, no exercício financeiro, os gastos da unidade gestora e as despesas com objetos de mesma natureza, entendidos como os do mesmo ramo de atividade. Isso combate o fracionamento indevido. Os limites dobram para consórcios públicos e autarquias/fundações qualificadas como agências executivas.
+Para aferir esses limites, o art. 75, § 1º, manda observar **simultaneamente**: (i) o somatório do que a respectiva unidade gestora despendeu no exercício financeiro; e (ii) o somatório da despesa com objetos de mesma natureza, entendidos como os relativos a contratações no mesmo ramo de atividade. A verificação não pode ser feita contrato a contrato de forma isolada para contornar os limites. Os valores dobram para consórcios públicos e autarquias/fundações qualificadas como agências executivas.
 
 As dispensas por valor serão **preferencialmente** precedidas de aviso em sítio eletrônico oficial por pelo menos três dias úteis para propostas adicionais e preferencialmente pagas por cartão, com extrato no PNCP. O somatório não se aplica a manutenção de veículos, com peças, até **R$ 10.478,74** em 2026.
 
@@ -389,7 +391,9 @@ O art. 75 contém um catálogo extenso. Estude-o por grupos:
 
 **Ciência, defesa e crise:** cumprimento de dispositivos da Lei de Inovação; comprometimento da segurança nacional; guerra, estado de defesa, estado de sítio, intervenção federal ou grave perturbação da ordem; e emergência ou calamidade.
 
-**Relações públicas, saúde e finalidade social:** contratação intradministrativa de órgão/entidade criado para o fim específico a preço de mercado; intervenção da União no domínio econômico; contrato de programa para serviço público associado; transferência de tecnologia de produto estratégico ao SUS; profissional técnico notório para comissão de avaliação; associação de pessoas com deficiência sem fins lucrativos; instituição brasileira sem fins lucrativos de ensino, pesquisa, desenvolvimento/inovação ou recuperação social da pessoa presa; insumos estratégicos de saúde por fundação anterior à Lei; entidades sem fins lucrativos para cisternas; e entidades sem fins lucrativos para o Programa Cozinha Solidária.
+**Relações públicas, saúde e finalidade social:** contratação intradministrativa de órgão/entidade criado para o fim específico a preço de mercado; intervenção da União no domínio econômico; contrato de programa para serviço público associado; transferência de tecnologia de produto estratégico ao SUS; profissional técnico notório para comissão de avaliação; associação de pessoas com deficiência sem fins lucrativos; instituição brasileira sem fins lucrativos de ensino, pesquisa, desenvolvimento/inovação ou recuperação social da pessoa presa; **no corte de 6/7/2026**, aquisição de insumos estratégicos para a saúde produzidos por fundação nas condições do art. 75, XVI; entidades sem fins lucrativos para cisternas; e entidades sem fins lucrativos para o Programa Cozinha Solidária.
+
+> **Pós-edital:** a Lei nº 15.471, de 20 de julho de 2026, alterou posteriormente o art. 75, XVI, passando a tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação nas condições legais. Essa redação é direito vigente posterior ao corte e não substitui a redação aplicável na publicação do edital.
 
 ### 8.6 Emergência e calamidade
 
@@ -500,20 +504,27 @@ Erros recorrentes:
 - tratar contratação direta como ausência de processo;
 - confundir inexigibilidade exemplificativa com dispensa taxativa;
 - esquecer que o pregão não julga por técnica e preço;
+- tratar automaticamente como inexequível, sem diligência, toda proposta de engenharia abaixo de 75%, ignorando a jurisprudência do TCU;
+- calcular a garantia adicional como orçamento integral menos proposta, em vez de 85% do orçamento menos proposta;
+- atribuir ao art. 44-A requisitos previstos em parágrafos vetados;
+- esquecer a ressalva de até três anos de experiência em serviços contínuos;
 - dizer que ata de registro obriga a Administração a comprar;
 - confundir abertura permanente da pré-qualificação com validade permanente;
 - aplicar regulamento federal automaticamente ao TCE-MA;
-- somar os limites de dispensa sem considerar unidade gestora e ramo de atividade;
+- aferir dispensa por valor contrato a contrato, sem os somatórios do art. 75, § 1º;
 - esquecer o marco de um ano contado da ocorrência da emergência.
 
 ## Referências
 
-- [Lei nº 14.133/2021, texto compilado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), Presidência da República, arts. 28 a 88, versão compilada vigente em 16 jul. 2026, acesso em 16 jul. 2026.
-- [Lei nº 15.210/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15210.htm), Presidência da República, inclusão do art. 44-A com vigência após 180 dias da publicação de 17 set. 2025, acesso em 16 jul. 2026.
-- [Lei nº 15.266/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15266.htm), Presidência da República, Sistema de Compras Expressas e alteração do registro cadastral, publicada em 21 nov. 2025, acesso em 16 jul. 2026.
-- [Decreto nº 12.807/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12807.htm), Presidência da República, atualização dos valores da Lei nº 14.133/2021 com vigência em 1º jan. 2026, acesso em 16 jul. 2026.
-- [ADI 6.890/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6201037), Supremo Tribunal Federal, interpretação conforme do art. 75, VIII, julgamento publicado em 3 maio 2023, acesso em 16 jul. 2026.
-- [Decreto nº 11.462/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11462.htm), Presidência da República, sistema de registro de preços no âmbito federal, versão vigente em 16 jul. 2026, acesso em 16 jul. 2026.
-- [Decreto nº 11.878/2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d11878.htm), Presidência da República, credenciamento no âmbito federal, versão vigente em 16 jul. 2026, acesso em 16 jul. 2026.
-- [IN SEGES/ME nº 73/2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-73-de-30-de-setembro-de-2022), Ministério da Gestão e da Inovação em Serviços Públicos, menor preço e maior desconto por forma eletrônica no âmbito federal, acesso em 16 jul. 2026.
-- [IN SEGES/ME nº 67/2021](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-67-de-8-de-julho-de-2021), Ministério da Gestão e da Inovação em Serviços Públicos, dispensa eletrônica no âmbito federal, acesso em 16 jul. 2026.
+- [Lei nº 14.133/2021, texto compilado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), Presidência da República, arts. 28 a 88; leitura ajustada ao corte normativo de 6 jul. 2026.
+- [Lei nº 15.210/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15210.htm), Presidência da República, inclusão do art. 44-A e indicação expressa dos §§ 2º a 5º vetados.
+- [Lei nº 15.266/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15266.htm), Presidência da República, Sistema de Compras Expressas e alteração do registro cadastral.
+- [Decreto nº 12.807/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12807.htm), Presidência da República, atualização dos valores da Lei nº 14.133/2021 com vigência em 1º jan. 2026.
+- [ADI 6.890/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6201037), Supremo Tribunal Federal, interpretação conforme do art. 75, VIII, julgamento publicado em 3 maio 2023.
+- [Acórdão 803/2024-TCU-Plenário](https://pesquisa.apps.tcu.gov.br/resultado/acordao-completo/%2A/NUMACORDAO%253A803%2520ANOACORDAO%253A2024%2520COLEGIADO%253A%2522Plen%25C3%25A1rio%2522), Tribunal de Contas da União, presunção relativa de inexequibilidade no art. 59, § 4º.
+- [Garantia adicional](https://licitacoesecontratos.tcu.gov.br/5-4-4-garantia-adicional-2/), Tribunal de Contas da União, exemplo de cálculo da garantia do art. 59, § 5º.
+- [Decreto nº 11.462/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11462.htm), Presidência da República, sistema de registro de preços no âmbito federal.
+- [Decreto nº 11.878/2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d11878.htm), Presidência da República, credenciamento no âmbito federal.
+- [IN SEGES/ME nº 73/2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-73-de-30-de-setembro-de-2022), Ministério da Gestão e da Inovação em Serviços Públicos, menor preço e maior desconto por forma eletrônica no âmbito federal.
+- [IN SEGES/ME nº 67/2021](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-67-de-8-de-julho-de-2021), Ministério da Gestão e da Inovação em Serviços Públicos, dispensa eletrônica no âmbito federal.
+- **Pós-edital:** [Lei nº 15.471/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15471.htm), Presidência da República, alteração posterior do art. 75, XVI.

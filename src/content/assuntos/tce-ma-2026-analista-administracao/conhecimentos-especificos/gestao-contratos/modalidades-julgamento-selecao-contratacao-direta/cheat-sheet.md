@@ -10,6 +10,8 @@
 | A competição é inviável ou dispensável? | contratação direta |
 | Qual mecanismo apoia futuras contratações? | procedimento auxiliar |
 
+- Corte normativo: **6 jul. 2026**.
+
 ## Modalidades
 
 - **Pregão:** bens e serviços comuns; menor preço ou maior desconto.
@@ -59,8 +61,19 @@
 - Garantia de proposta: facultativa no edital; até **1%** do estimado.
 - Devolução: até dez dias úteis da assinatura ou declaração de fracasso.
 - Recusa em contratar/não entrega de documentos: execução integral da garantia.
-- Engenharia abaixo de 75% do orçamento: inexequível pela Lei.
-- Vencedora abaixo de 85% do orçamento: garantia adicional da diferença entre o orçamento integral e a proposta.
+- Engenharia abaixo de **75%** do orçamento: literalidade do art. 59, § 4º.
+- **TCU, Acórdão 803/2024:** 75% gera presunção relativa → oportunizar demonstração da exequibilidade por diligência.
+- Vencedora abaixo de **85%** do orçamento: garantia adicional.
+- Cálculo adotado pelo TCU: **85% do orçamento − proposta**.
+- Ex.: orçamento R$ 1.000.000; proposta R$ 800.000 → garantia adicional **R$ 50.000**.
+
+## Compras — art. 44-A do SUS
+
+- Vigente desde **16 mar. 2026**.
+- Equipamento diagnóstico/terapêutico do SUS acima do art. 75, II: considerar adequado aproveitamento durante toda a vida útil.
+- Edital: demonstrar capacidade instalada para operação **ou** plano de atendimento aos requisitos necessários.
+- §§ 2º a 5º: **vetados**.
+- Não atribua à lei listas de pessoal, manutenção, insumos, infraestrutura ou descarte dos dispositivos vetados.
 
 ## Desempate
 
@@ -94,7 +107,8 @@ Preferência sucessiva: empresa local nos termos do art. 60; brasileira; investi
 - Diligência não cria condição nova: complementa fato já existente ou atualiza documento vencido depois da proposta.
 - Parcela técnica relevante: valor individual igual ou superior a 4% do estimado.
 - Quantitativo técnico mínimo: até 50% da parcela relevante.
-- Vedadas limitações temporais e locais em atestados.
+- Art. 67, § 2º: vedadas limitações temporais e locais relativas aos atestados.
+- **Serviço contínuo (§ 5º):** pode exigir experiência similar por período mínimo de até **3 anos**, sucessivos ou não.
 - Capital/patrimônio líquido mínimo: até 10% do estimado.
 - Vedados índice de rentabilidade/lucratividade e faturamento anterior mínimo.
 
@@ -140,7 +154,8 @@ Exclusividade deve ser provada; é vedada preferência por marca. Profissional q
 | engenharia e manutenção de veículos | R$ 130.984,20 |
 | demais compras e serviços | R$ 65.492,11 |
 
-- Somar gastos da unidade gestora no exercício + objetos do mesmo ramo.
+- Observar simultaneamente: gasto da unidade gestora no exercício + despesa com objetos de mesma natureza (mesmo ramo).
+- Não aferir cada contratação isoladamente para contornar os limites.
 - Limites dobrados: consórcio público e agência executiva.
 - Aviso por três dias úteis e cartão: **preferenciais**, não obrigatórios pela Lei.
 - Manutenção de veículo até R$ 10.478,74: exceção ao somatório do § 1º.
@@ -151,6 +166,11 @@ Exclusividade deve ser provada; é vedada preferência por marca. Profissional q
 - Vedada prorrogação do contrato emergencial.
 - Mesma emergência não sustenta recontratações além do ano.
 - A empresa pode disputar licitação substitutiva ou ser contratada por outro fundamento.
+
+### Art. 75, XVI — corte temporal
+
+- **No edital (6/7/2026):** insumos estratégicos para a saúde produzidos por fundação nas condições legais.
+- **Pós-edital — Lei nº 15.471/2026:** redação posterior passou a tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação.
 
 ## Alienações
 
@@ -200,6 +220,7 @@ Exclusividade deve ser provada; é vedada preferência por marca. Profissional q
 ## Atualizações e aplicação federativa
 
 - Decreto nº 12.807/2025: valores vigentes desde 1º jan. 2026.
-- Art. 44-A: vida útil de equipamento diagnóstico/terapêutico do SUS, vigente desde 16 mar. 2026.
+- Art. 44-A: vigente desde 16 mar. 2026, com §§ 2º a 5º vetados.
 - Lei nº 15.266/2025: Sicx e cadastro de licitantes e contratados.
+- Lei nº 15.471/2026: **pós-edital**, não substitui o art. 75, XVI aplicável no corte.
 - Decretos e IN federais não se aplicam automaticamente ao TCE-MA, salvo adoção/incidência válida.
