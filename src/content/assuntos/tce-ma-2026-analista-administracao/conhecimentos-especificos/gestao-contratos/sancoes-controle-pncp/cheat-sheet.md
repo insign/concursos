@@ -1,5 +1,11 @@
 # Infrações, sanções, controle, PNCP e regras finais
 
+## Corte temporal
+
+- **Regra de prova:** legislação vigente em **6/7/2026**, data de publicação do edital.
+- Datas posteriores de consulta de fontes servem apenas à conferência editorial.
+- Sicx e o limite de **R$ 1.646.430,90** do art. 184-A já integravam o direito vigente no corte; o valor é anual, não permanente.
+
 ## Nulidade: sequência correta
 
 1. identificar a irregularidade;
@@ -157,12 +163,9 @@ Recurso e reconsideração têm efeito suspensivo até decisão final.
 
 ## Crimes e alterações
 
-- Tipos penais: Código Penal, arts. 337-E a 337-O; regra da multa: art. 337-P.
-- 337-F: competição + finalidade de vantagem da adjudicação; 337-I: interferência em qualquer ato.
-- 337-G: interesse privado + invalidação judicial; 337-K: vantagem para afastar ou se abster.
-- 337-O: dado de projeto em dissonância relevante; fim de benefício dobra a pena.
-- Multa penal: nunca inferior a 2% do valor contratado.
-- Sanção administrativa não gera condenação penal automática.
+- Art. 178: crimes licitatórios nos arts. **337-E a 337-O** do Código Penal; multa no art. **337-P**.
+- Para Gestão de Contratos, retenha a localização normativa e a independência das esferas; não é necessário memorizar aqui a tipologia penal detalhada.
+- Sanção administrativa **não** gera condenação penal automática.
 - CPC: prioridade para processos sobre normas gerais de contratação.
 - Concessões e PPP: concorrência ou diálogo competitivo.
 
