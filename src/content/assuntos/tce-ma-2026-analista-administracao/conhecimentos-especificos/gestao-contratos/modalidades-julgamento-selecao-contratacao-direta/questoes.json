@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1534",
@@ -274,9 +274,9 @@
     },
     {
       "id": "q1552",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Em obra orçada em R$ 1.000.000, a proposta vencedora foi de R$ 800.000. Segundo as regras percentuais da Lei nº 14.133/2021, essa proposta:",
+      "prompt": "Em obra orçada em R$ 1.000.000, a proposta vencedora foi de R$ 800.000. Segundo as regras percentuais da Lei nº 14.133/2021 e a orientação de cálculo do TCU, essa proposta:",
       "options": [
         { "id": "a", "text": "é inexequível, pois está abaixo de 85%." },
         { "id": "b", "text": "pode vencer, mas exige garantia adicional de R$ 50.000." },
@@ -284,8 +284,8 @@
         { "id": "d", "text": "é inexequível, pois está abaixo de 90%." },
         { "id": "e", "text": "exige garantia adicional de R$ 200.000." }
       ],
-      "correctOptionId": "e",
-      "explanation": "R$ 800.000 equivalem a 80%, portanto não ficam abaixo do corte de inexequibilidade de 75%. Como a vencedora está abaixo de 85%, exige garantia adicional equivalente à diferença entre o orçamento integral e a proposta: R$ 1.000.000 menos R$ 800.000, isto é, R$ 200.000. Fonte: questão autoral baseada em referências do conteúdo."
+      "correctOptionId": "b",
+      "explanation": "R$ 800.000 equivalem a 80% do orçamento: não ficam abaixo do marco legal de 75%, mas ficam abaixo de 85%. O TCU exemplifica a garantia adicional como 85% do orçamento menos a proposta: R$ 850.000 - R$ 800.000 = R$ 50.000. Fonte: questão autoral baseada no art. 59, §§ 4º e 5º, e na orientação do TCU sobre garantia adicional."
     },
     {
       "id": "q1553",
@@ -334,18 +334,18 @@
     },
     {
       "id": "q1556",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Após 16 de março de 2026, a compra de equipamento terapêutico para o SUS acima do limite do art. 75, II, deve considerar:",
+      "prompt": "Após 16 de março de 2026, a licitação para compra de equipamento diagnóstico ou terapêutico destinado ao SUS, acima do limite do art. 75, II, deve:",
       "options": [
-        { "id": "a", "text": "somente o preço inicial do equipamento." },
-        { "id": "b", "text": "apenas o número de fabricantes nacionais." },
-        { "id": "c", "text": "exclusivamente a preferência do profissional médico." },
-        { "id": "d", "text": "o aproveitamento ao longo da vida útil, inclusive manutenção, insumos, infraestrutura, obsolescência e descarte." },
-        { "id": "e", "text": "somente o prazo de garantia de fábrica." }
+        { "id": "a", "text": "considerar somente o preço inicial do equipamento." },
+        { "id": "b", "text": "exigir obrigatoriamente contrato de manutenção por cinco anos, conforme § 3º vigente do art. 44-A." },
+        { "id": "c", "text": "dispensar qualquer análise sobre a operação futura do equipamento." },
+        { "id": "d", "text": "considerar o adequado aproveitamento ao longo da vida útil e trazer no edital a capacidade instalada para operação ou plano de atendimento aos requisitos necessários." },
+        { "id": "e", "text": "aplicar os §§ 2º a 5º do art. 44-A como requisitos cumulativos de pessoal, manutenção e infraestrutura." }
       ],
       "correctOptionId": "d",
-      "explanation": "O art. 44-A, incluído pela Lei nº 15.210/2025, exige olhar de ciclo de vida para equipamento diagnóstico ou terapêutico do SUS acima do limite: uso, pessoal, insumos, manutenção, obsolescência, infraestrutura e descarte, entre outros fatores. Fonte: questão autoral baseada em referências do conteúdo."
+      "explanation": "O art. 44-A exige considerar o adequado aproveitamento do equipamento ao longo da vida útil; seu § 1º exige, no edital, demonstração da capacidade instalada para operação ou plano para atender aos requisitos necessários. Os §§ 2º a 5º foram vetados. Fonte: questão autoral baseada na Lei nº 15.210/2025 e no art. 44-A da Lei nº 14.133/2021."
     },
     {
       "id": "q1557",
@@ -469,7 +469,7 @@
     },
     {
       "id": "q1565",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Na qualificação técnica, as parcelas de maior relevância têm valor individual igual ou superior a qual percentual do estimado, e o quantitativo mínimo pode chegar a qual percentual dessas parcelas?",
       "options": [
@@ -480,7 +480,7 @@
         { "id": "e", "text": "25% e 50%." }
       ],
       "correctOptionId": "b",
-      "explanation": "A relevância ou valor significativo alcança parcela individual de pelo menos 4% do estimado; quantitativos mínimos podem ser exigidos até 50% dessas parcelas. Limitações de tempo ou locais específicos nos atestados são vedadas. Fonte: questão autoral baseada em referências do conteúdo."
+      "explanation": "A relevância ou valor significativo alcança parcela individual de pelo menos 4% do estimado; quantitativos mínimos podem ser exigidos até 50% dessas parcelas. O art. 67, § 2º, veda limitações de tempo e de locais específicos relativas aos atestados, mas o § 5º permite, para serviços contínuos, exigir experiência em serviços similares por período mínimo de até três anos, sucessivos ou não. Fonte: questão autoral baseada em referências do conteúdo."
     },
     {
       "id": "q1566",
@@ -645,7 +645,7 @@
         { "id": "e", "text": "todos os gastos do ente, de qualquer natureza, desde sua criação." }
       ],
       "correctOptionId": "c",
-      "explanation": "O art. 75, § 1º, exige somar o gasto da unidade gestora no exercício e objetos de mesma natureza, entendidos pelo mesmo ramo de atividade. O aviso de três dias úteis e o cartão são preferenciais, não requisitos absolutos da dispensa por valor. Fonte: questão autoral baseada em referências do conteúdo."
+      "explanation": "O art. 75, § 1º, manda observar o somatório despendido no exercício pela respectiva unidade gestora e o somatório da despesa com objetos de mesma natureza, isto é, contratações do mesmo ramo de atividade. O aviso de três dias úteis e o cartão são preferenciais, não requisitos absolutos da dispensa por valor. Fonte: questão autoral baseada em referências do conteúdo."
     },
     {
       "id": "q1577",
@@ -826,6 +826,21 @@
       ],
       "correctOptionId": "c",
       "explanation": "O cadastro do PNCP é público e aberto, com chamamento anual. Cadastro complementar não pode condicionar acesso ao edital. O requerente participa enquanto aguarda decisão, mas a contratação depende do certificado; a Lei nº 15.266/2025 passou a mencionar licitantes e contratados. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q9001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Acórdão 803/2024-TCU-Plenário, o critério do art. 59, § 4º, para proposta de obra ou serviço de engenharia inferior a 75% do valor orçado pela Administração:",
+      "options": [
+        { "id": "a", "text": "gera presunção absoluta e impede qualquer diligência." },
+        { "id": "b", "text": "foi revogado pelo TCU e deixou de ter qualquer efeito." },
+        { "id": "c", "text": "gera presunção relativa de inexequibilidade, devendo ser oportunizada a demonstração da exequibilidade nos termos do art. 59, § 2º." },
+        { "id": "d", "text": "aplica-se igualmente, com o mesmo percentual, a toda compra e serviço em geral." },
+        { "id": "e", "text": "só pode ser examinado depois da assinatura do contrato." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "O Acórdão 803/2024-TCU-Plenário interpretou o art. 59, § 4º, em conjunto com o § 2º: o patamar inferior a 75% produz presunção relativa, e o licitante deve ter oportunidade de demonstrar a exequibilidade da proposta. Fonte: questão autoral baseada no Acórdão 803/2024-TCU-Plenário."
     }
   ]
 }
