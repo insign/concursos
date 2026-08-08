@@ -1,6 +1,8 @@
 # Irregularidades, penalidades e sanções
 
-## Sequência mental
+## Corte e sequência mental
+
+- **Corte de prova:** legislação vigente em **6/7/2026**.
 
 **Fato → registro → notificação → verificação → encaminhamento → processo → defesa → decisão → recurso → cadastro → reabilitação.**
 
@@ -97,8 +99,8 @@
 ### Impedimento e inidoneidade
 
 - Processo de responsabilização.
-- Comissão: 2 ou mais servidores estáveis.
-- Sem estatutários: 2 ou mais empregados permanentes, preferencialmente com 3 anos de serviço.
+- Regra do caput: comissão com **2 ou mais servidores estáveis**.
+- Quadro não estatutário (§ 1º): **2 ou mais empregados públicos permanentes**, preferencialmente com 3 anos de serviço no órgão ou entidade.
 - Defesa e especificação de provas: 15 dias úteis.
 - Nova prova ou prova indispensável: alegações finais em 15 dias úteis.
 - Indeferimento motivado: prova ilícita, impertinente, desnecessária, protelatória ou intempestiva.
@@ -129,12 +131,13 @@
 - Multa de mora: atraso injustificado, conforme edital/contrato.
 - Pode haver conversão em compensatória, extinção e outras sanções, sem automatismo.
 
-## Ceis e Cnep
+## Ceis × Cnep × Banco de Sanções × PNCP
 
-- Atualizar dados em até 15 dias úteis da aplicação.
-- Ceis: restrição a licitar/contratar.
-- Cnep: sanções da Lei Anticorrupção.
-- PNCP dá acesso aos cadastros; não é sinônimo deles.
+- Art. 161: dados das sanções da Lei nº 14.133/2021 → publicidade no **Ceis e no Cnep** em até **15 dias úteis** da aplicação.
+- **Ceis/Cnep:** cadastros de publicidade.
+- **Banco de Sanções:** sistema instituído pela Portaria Normativa CGU nº 75/2023 para fornecimento de informações aos cadastros administrados pela CGU.
+- **PNCP:** oferece acesso ao Ceis e ao Cnep; não é sinônimo deles.
+- Sircad: não tratar como sistema operacional atual no corte.
 - Cadastro não substitui processo nem intimação.
 
 ## Reabilitação: requisitos cumulativos
@@ -157,6 +160,9 @@
 - “Impedimento vale nacionalmente” → errado.
 - “Inidoneidade tem duração máxima de 3 anos” → errado.
 - “Toda sanção exige comissão” → errado.
+- “A comissão do art. 158 é sempre estatutária” → errado.
 - “Defesa da multa: 3 dias” → errado.
+- “Cnep é irrelevante para sanções da Lei nº 14.133/2021” → errado.
+- “Banco de Sanções = Ceis” → errado.
 - “Recurso não suspende” → errado.
 - “Reabilitação depende só do tempo” → errado.
