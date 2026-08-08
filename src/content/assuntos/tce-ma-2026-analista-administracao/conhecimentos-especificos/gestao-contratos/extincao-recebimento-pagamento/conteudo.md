@@ -16,7 +16,7 @@ Infrações e sanções, nulidade dos contratos, meios alternativos de prevenç�
 
 O estudo se concentra no regime geral nacional. Orientações do Tribunal de Contas da União (TCU), da Advocacia-Geral da União (AGU) e do Ministério da Gestão e da Inovação em Serviços Públicos (MGI) ajudam a interpretar a lei no âmbito federal, mas não constituem, por si sós, regras automaticamente aplicáveis à organização interna do TCE-MA.
 
-> **Corte de atualização:** legislação e orientações consultadas até 15 de julho de 2026.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem para conferência editorial e não alteram o corte jurídico da prova.
 
 ## 1. Extinção: término natural e encerramento antecipado
 
@@ -166,6 +166,8 @@ No dever de pagar, a Administração deve observar ordem cronológica **para cad
 
 Não existe uma fila única indiferente à fonte e à natureza da despesa. A classificação correta da contratação determina a fila pertinente.
 
+A Lei nº 14.133/2021, nos arts. 141 a 146, **não fixa prazo nacional máximo geral de pagamento**. Normas operacionais podem estabelecer prazos no âmbito de sua competência; a IN SEGES/ME nº 77/2022, por exemplo, disciplina a Administração Pública federal e não deve ser apresentada como prazo automaticamente aplicável ao TCE-MA.
+
 ### 7.1 Alteração excepcional da ordem
 
 A ordem somente pode ser alterada mediante justificativa prévia da autoridade competente e comunicação posterior ao controle interno e ao tribunal de contas competente, exclusivamente nas seguintes situações:
@@ -251,6 +253,7 @@ O fluxo é didático, não rígido. Contratos continuados podem ter medições, 
 | recebimento definitivo elimina toda responsabilidade | permanecem responsabilidades civis e ético-profissionais |
 | compras são recebidas definitivamente de forma sumária | o recebimento **provisório** é sumário; o definitivo exige termo detalhado |
 | existe uma única fila de pagamentos | há ordem por fonte diferenciada e por categoria contratual |
+| a Lei nº 14.133/2021 fixa prazo nacional máximo geral de pagamento | os arts. 141 a 146 não fixam esse prazo; disciplina federal operacional não se aplica automaticamente ao TCE-MA |
 | qualquer justificativa permite furar a fila | somente as hipóteses legais, com justificativa prévia e comunicações posteriores |
 | controvérsia autoriza reter tudo | a parcela incontroversa deve ser liberada no prazo |
 | antecipação é livre quando há desconto | exige hipótese legal, justificativa prévia e previsão expressa |
@@ -258,9 +261,9 @@ O fluxo é didático, não rígido. Contratos continuados podem ter medições, 
 
 ## Referências
 
-- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 137 a 146. Versão vigente consultada em 16 jul. 2026.
-- BRASIL. Presidência da República. [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm). Art. 63. Texto consolidado consultado em 16 jul. 2026.
+- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 137 a 146. Aplicada segundo o corte legislativo de 6 jul. 2026; texto consolidado consultado em 16 jul. 2026 para conferência editorial.
+- BRASIL. Presidência da República. [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm). Art. 63. Aplicada segundo o corte legislativo de 6 jul. 2026; texto consolidado consultado em 16 jul. 2026 para conferência editorial.
 - BRASIL. Tribunal de Contas da União. [Licitações e Contratos: 6.4 Extinção do contrato](https://licitacoesecontratos.tcu.gov.br/6-4-extincao-do-contrato/). Orientação interpretativa consultada em 16 jul. 2026.
 - BRASIL. Tribunal de Contas da União. [Licitações e Contratos: 6.1.6 Gestão do contrato e recebimento definitivo](https://licitacoesecontratos.tcu.gov.br/6-1-6-gestao-do-contrato-e-recebimento-definitivo-2/). Orientação federal consultada em 16 jul. 2026.
 - BRASIL. Tribunal de Contas da União. [Licitações e Contratos: 6.1.7 Pagamento](https://licitacoesecontratos.tcu.gov.br/6-1-7-pagamento/). Orientação federal consultada em 16 jul. 2026.
-- BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 77, de 4 de novembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-77-de-4-de-novembro-de-2022). Disciplina federal de ordem cronológica e pagamento, consultada em 16 jul. 2026.
+- BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 77, de 4 de novembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-77-de-4-de-novembro-de-2022). Disciplina federal de ordem cronológica e pagamento; referência operacional, sem aplicação automática ao TCE-MA. Consultada em 16 jul. 2026.

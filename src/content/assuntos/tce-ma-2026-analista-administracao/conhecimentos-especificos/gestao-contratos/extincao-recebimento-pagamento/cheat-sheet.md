@@ -1,5 +1,11 @@
 # Extinção, recebimento e pagamento
 
+## Corte temporal
+
+- **Regra de prova:** legislação vigente em **6/7/2026**, data de publicação do edital.
+- Datas posteriores de consulta de fontes não alteram o corte jurídico da prova.
+- Rotinas de pagamento da IN SEGES/ME nº 77/2022 são disciplina **federal** e não se tornam automaticamente prazo ou procedimento do TCE-MA.
+
 ## Extinção: ideias centrais
 
 - Extinção rompe o vínculo; sanção pune infração.
@@ -111,6 +117,7 @@ Hipóteses exclusivas:
 
 ## Pagamento e riscos
 
+- A Lei nº 14.133/2021, nos arts. 141 a 146, **não fixa prazo nacional máximo geral de pagamento**; prazo operacional federal não é prazo automático do TCE-MA.
 - Conta vinculada ou fato gerador: somente com previsão no edital ou contrato.
 - Controvérsia de dimensão, qualidade ou quantidade: pagar a parcela incontroversa no prazo.
 
