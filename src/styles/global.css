@@ -344,16 +344,20 @@ a:hover {
 }
 
 .site-mark > span {
-  display: grid;
+  display: block;
   width: 2.25rem;
   aspect-ratio: 1;
-  place-items: center;
-  border: 1px solid var(--accent);
-  border-radius: 50%;
-  color: var(--paper);
-  background: var(--accent);
-  font-family: var(--serif);
-  font-size: 1.3rem;
+  background: url('/icons/c-dark.png') center / contain no-repeat;
+}
+
+:root[data-theme='dark'] .site-mark > span {
+  background-image: url('/icons/c-light.png');
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .site-mark > span {
+    background-image: url('/icons/c-light.png');
+  }
 }
 
 .catalog-shell,

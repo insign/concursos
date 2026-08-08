@@ -89,7 +89,7 @@ async function collectAssets(routes) {
 
 function isSharedAsset(asset) {
   if (asset.startsWith('/_astro/') && CONTENT_IMAGE_EXTENSIONS.has(extname(asset))) return false;
-  return asset.startsWith('/_astro/') || asset.startsWith('/icons/') || asset === '/favicon.svg';
+  return asset.startsWith('/_astro/') || asset.startsWith('/icons/') || asset === '/favicon.png';
 }
 
 async function buildManifest(seed) {
