@@ -1,3 +1,4 @@
+import type { Page } from '@playwright/test';
 import { expect, test } from './fixtures';
 
 const contestPath = '/concursos/tce-ma-2026-analista-administracao/';
@@ -5,12 +6,191 @@ const subjectSlug = 'leitura-interpretacao-tipos-generos';
 const base = `${contestPath}${subjectSlug}`;
 const readingTitle = 'Leitura, compreensão e interpretação de textos';
 
+type FullscreenBehavior = 'resolve' | 'reject' | 'pending' | 'absent' | 'exit-pending';
+
+const installFullscreenMock = (page: Page, behavior: FullscreenBehavior = 'resolve') =>
+  page.addInitScript((mode) => {
+    interface FullscreenTestState {
+      requests: number;
+      exits: number;
+      active: boolean;
+      resolve?: () => void;
+      resolveExit?: () => void;
+      nativeExit?: () => void;
+    }
+    const testWindow = window as typeof window & { __fullscreenTest?: FullscreenTestState };
+    const state: FullscreenTestState = { requests: 0, exits: 0, active: false };
+    let fullscreenElement: Element | null = null;
+    testWindow.__fullscreenTest = state;
+
+    const leave = () => {
+      fullscreenElement = null;
+      state.active = false;
+      document.dispatchEvent(new Event('fullscreenchange'));
+    };
+    state.nativeExit = leave;
+    Object.defineProperty(document, 'fullscreenEnabled', { configurable: true, value: true });
+    Object.defineProperty(document, 'fullscreenElement', {
+      configurable: true,
+      get: () => fullscreenElement,
+    });
+    if (mode === 'absent') {
+      Object.defineProperty(document, 'fullscreenEnabled', { configurable: true, value: false });
+      Object.defineProperty(Element.prototype, 'requestFullscreen', {
+        configurable: true,
+        value: undefined,
+      });
+      return;
+    }
+    Object.defineProperty(Element.prototype, 'requestFullscreen', {
+      configurable: true,
+      value(this: Element) {
+        state.requests += 1;
+        const enter = () => {
+          fullscreenElement = this;
+          state.active = true;
+          document.dispatchEvent(new Event('fullscreenchange'));
+        };
+        if (mode === 'reject') return Promise.reject(new DOMException('Fullscreen denied'));
+        if (mode === 'pending') {
+          return new Promise<void>((resolve) => {
+            state.resolve = () => {
+              enter();
+              state.resolve = undefined;
+              resolve();
+            };
+          });
+        }
+        enter();
+        return Promise.resolve();
+      },
+    });
+    Object.defineProperty(document, 'exitFullscreen', {
+      configurable: true,
+      value: () => {
+        state.exits += 1;
+        if (mode === 'exit-pending') {
+          return new Promise<void>((resolve) => {
+            state.resolveExit = () => {
+              leave();
+              state.resolveExit = undefined;
+              resolve();
+            };
+          });
+        }
+        leave();
+        return Promise.resolve();
+      },
+    });
+  }, behavior);
+
+const fullscreenState = (page: Page) => page.evaluate(() => {
+  const state = (window as typeof window & {
+    __fullscreenTest?: { requests: number; exits: number; active: boolean };
+  }).__fullscreenTest;
+  return state
+    ? { requests: state.requests, exits: state.exits, active: state.active }
+    : { requests: 0, exits: 0, active: false };
+});
+
 test('opens reading mode from the catalog listing', async ({ page }) => {
   await page.goto(contestPath);
   await page.getByRole('button', { name: 'Expandir tudo' }).click();
   await page.getByRole('link', { name: `Ler ${readingTitle} sem distrações` }).click();
   await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
   await expect(page.getByRole('heading', { level: 1, name: readingTitle })).toBeVisible();
+});
+
+test('uses fullscreen only for explicit entry and exits with close or Escape', async ({ page }) => {
+  await installFullscreenMock(page);
+  await page.goto(`${base}/#focus`);
+  expect(await fullscreenState(page)).toEqual({ requests: 0, exits: 0, active: false });
+
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 0, active: true });
+  await expect.poll(() => page.evaluate(() => document.fullscreenElement?.tagName ?? null)).toBe('HTML');
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: false });
+  await expect.poll(() => page.evaluate(() => document.fullscreenElement)).toBeNull();
+
+  await page.goForward();
+  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
+  expect(await fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: false });
+  await page.keyboard.press('Escape');
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 2, exits: 1, active: true });
+  await page.keyboard.press('Escape');
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 2, exits: 2, active: false });
+});
+
+test('keeps focus mode usable when fullscreen is denied', async ({ page }) => {
+  await installFullscreenMock(page, 'reject');
+  await page.goto(`${base}/`);
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 0, active: false });
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
+  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/$`));
+});
+
+test('keeps focus mode usable when the Fullscreen API is absent', async ({ page }) => {
+  await installFullscreenMock(page, 'absent');
+  await page.goto(`${base}/`);
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
+  expect(await fullscreenState(page)).toEqual({ requests: 0, exits: 0, active: false });
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
+  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/$`));
+});
+
+test('exits after a pending fullscreen request resolves during close', async ({ page }) => {
+  await installFullscreenMock(page, 'pending');
+  await page.goto(`${base}/`);
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 0, active: false });
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
+  await page.evaluate(() => {
+    (window as typeof window & { __fullscreenTest?: { resolve?: () => void } })
+      .__fullscreenTest?.resolve?.();
+  });
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: false });
+});
+
+test('blocks re-entry until a pending fullscreen exit completes', async ({ page }) => {
+  await installFullscreenMock(page, 'exit-pending');
+  await page.goto(`${base}/`);
+  const open = page.getByRole('link', { name: 'Ler sem distrações' });
+  await open.click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 0, active: true });
+  await page.getByRole('link', { name: 'Fechar leitura' }).click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: true });
+
+  await open.click();
+  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/$`));
+  expect(await fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: true });
+  await page.evaluate(() => {
+    (window as typeof window & { __fullscreenTest?: { resolveExit?: () => void } })
+      .__fullscreenTest?.resolveExit?.();
+  });
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: false });
+
+  await open.click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 2, exits: 1, active: true });
+});
+
+test('keeps focus mode active after a native fullscreen exit', async ({ page }) => {
+  await installFullscreenMock(page);
+  await page.goto(`${base}/`);
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 0, active: true });
+  await page.evaluate(() => {
+    (window as typeof window & { __fullscreenTest?: { nativeExit?: () => void } })
+      .__fullscreenTest?.nativeExit?.();
+  });
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 0, active: false });
+  await expect(page).toHaveURL(new RegExp(`${subjectSlug}/#focus$`));
+  await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();
 });
 
 test('opens the integrated reading mode with one content tree and closes through history', async ({ page }) => {

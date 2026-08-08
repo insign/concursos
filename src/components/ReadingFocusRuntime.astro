@@ -37,13 +37,73 @@
     let externalStates: ExternalState[] = [];
     let pendingTraversal: PendingTraversal | null = null;
     let previousScrollRestoration: ScrollRestoration | null = null;
+    let fullscreenDesired = false;
+    let fullscreenRequest: Promise<void> | null = null;
+    let fullscreenRequestToken: symbol | null = null;
+    let fullscreenExit: Promise<void> | null = null;
 
+    const fullscreenTarget = document.documentElement;
     const layoutAnchor = root.querySelector<HTMLElement>('.reading-surface > article') ?? root;
     const CONTENT_ANCHORS = 'h1, h2, h3, h4, h5, h6, p, li, blockquote, pre, table, figure';
 
     const isFocusHash = () => location.hash === '#focus';
     const hasFocusHistoryState = () =>
       typeof history.state === 'object' && history.state !== null && history.state[HISTORY_KEY] === true;
+
+    function leaveReadingFullscreen(): Promise<void> {
+      fullscreenDesired = false;
+      if (fullscreenExit) return fullscreenExit;
+      const pendingRequest = fullscreenRequest;
+      const operation = (async () => {
+        if (pendingRequest) await pendingRequest;
+        if (
+          fullscreenDesired ||
+          document.fullscreenElement !== fullscreenTarget ||
+          typeof document.exitFullscreen !== 'function'
+        ) return;
+        try {
+          await document.exitFullscreen();
+        } catch {
+          // Fullscreen is optional; focus mode must still close normally.
+        }
+      })();
+      fullscreenExit = operation;
+      void operation.finally(() => {
+        if (fullscreenExit === operation) fullscreenExit = null;
+      });
+      return operation;
+    }
+
+    const requestReadingFullscreen = () => {
+      if (
+        document.fullscreenEnabled === false ||
+        typeof fullscreenTarget.requestFullscreen !== 'function'
+      ) return;
+      fullscreenDesired = true;
+      if (document.fullscreenElement === fullscreenTarget || fullscreenRequest) return;
+
+      const token = Symbol('reading-fullscreen-request');
+      fullscreenRequestToken = token;
+      let request: Promise<void>;
+      try {
+        request = Promise.resolve(fullscreenTarget.requestFullscreen());
+      } catch {
+        fullscreenDesired = false;
+        fullscreenRequestToken = null;
+        return;
+      }
+      fullscreenRequest = request
+        .catch(() => {
+          if (fullscreenRequestToken === token) fullscreenDesired = false;
+        })
+        .finally(() => {
+          if (fullscreenRequestToken === token) {
+            fullscreenRequest = null;
+            fullscreenRequestToken = null;
+          }
+          if (!fullscreenDesired) void leaveReadingFullscreen();
+        });
+    };
 
     const visibleLayoutAnchor = (): HTMLElement => {
       const anchorLine = window.innerHeight / 2;
@@ -134,6 +194,7 @@
         root.setAttribute('aria-modal', 'true');
         hideOutside();
       } else {
+        void leaveReadingFullscreen();
         root.removeAttribute('role');
         root.removeAttribute('aria-modal');
         restoreOutside();
@@ -169,6 +230,7 @@
 
     const closeFocus = () => {
       if (!isFocusHash()) return;
+      void leaveReadingFullscreen();
       if (hasFocusHistoryState()) {
         if (pendingTraversal) return;
         pendingTraversal = {
@@ -189,6 +251,7 @@
       open.addEventListener('click', (event) => {
         if (isFocusHash()) return;
         event.preventDefault();
+        if (fullscreenExit) return;
         opener = open;
         const layout = captureLayout();
         const state =
@@ -198,6 +261,7 @@
         url.hash = 'focus';
         history.pushState(state, '', `${url.pathname}${url.search}${url.hash}`);
         setActive(true, layout);
+        requestReadingFullscreen();
       });
     }
 
@@ -241,6 +305,11 @@
 
     window.addEventListener('popstate', syncFromLocation);
     window.addEventListener('hashchange', syncFromLocation);
+    document.addEventListener('fullscreenchange', () => {
+      if (document.fullscreenElement !== fullscreenTarget && !fullscreenRequest) {
+        fullscreenDesired = false;
+      }
+    });
 
     setActive(isFocusHash());
     root.setAttribute('data-reading-focus-ready', '');
