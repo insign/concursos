@@ -72,6 +72,16 @@ test('opens the integrated reading mode with one content tree and closes through
     'data-subject-action-visibility',
     'hidden',
   );
+  await page.mouse.click(8, 300);
+  await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
+    'data-subject-action-visibility',
+    'visible',
+  );
+  await page.mouse.click(8, 300);
+  await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
+    'data-subject-action-visibility',
+    'hidden',
+  );
   await page.evaluate(() => window.scrollTo(0, 200));
   await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
     'data-subject-action-visibility',

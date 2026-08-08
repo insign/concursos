@@ -80,16 +80,77 @@ const { contestSlug, contestStorageId, subjectStorageId, subjectHref, active } =
   );
 
   if (bar) {
+    const MANUAL_HIDE_DELAY_MS = 5_000;
+    const POINTER_TAP_TOLERANCE_PX = 10;
+    const occupiedTargetSelector = [
+      '[data-subject-action-bar]',
+      'a',
+      'button',
+      'input',
+      'select',
+      'textarea',
+      'label',
+      'summary',
+      '[contenteditable]:not([contenteditable="false"])',
+      '[role="button"]',
+      '[role="link"]',
+      '[role="checkbox"]',
+      '[role="radio"]',
+      '[role="switch"]',
+      '[role="slider"]',
+      '[role="tab"]',
+      '[role="menuitem"]',
+      '[role="status"]',
+      '[role="img"]',
+      'span',
+      'p',
+      'h1',
+      'h2',
+      'h3',
+      'h4',
+      'h5',
+      'h6',
+      'li',
+      'dt',
+      'dd',
+      'blockquote',
+      'pre',
+      'code',
+      'table',
+      'fieldset',
+      'legend',
+      'figure',
+      'figcaption',
+      'img',
+      'picture',
+      'svg',
+      'canvas',
+      'video',
+      'audio',
+      'iframe',
+    ].join(',');
     const maxScrollY = () => Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
     let state = createSubjectActionVisibilityState(window.scrollY, maxScrollY());
     let frame = 0;
+    let hideTimer = 0;
+    let pointerStart: { id: number; x: number; y: number } | null = null;
 
     const render = () => {
       bar.dataset.subjectActionVisibility = state.visibility;
     };
     const isProtected = () =>
       bar.matches(':focus-within');
+    const clearHideTimer = () => {
+      if (hideTimer) window.clearTimeout(hideTimer);
+      hideTimer = 0;
+    };
+    const setVisibility = (visibility: 'visible' | 'hidden') => {
+      state = { ...state, visibility };
+      render();
+    };
     const reset = () => {
+      clearHideTimer();
+      pointerStart = null;
       state = resetSubjectActionVisibility(window.scrollY, maxScrollY());
       render();
     };
@@ -101,20 +162,78 @@ const { contestSlug, contestStorageId, subjectStorageId, subjectHref, active } =
         maxScrollY(),
         isProtected(),
       );
+      if (state.visibility === 'hidden') clearHideTimer();
       render();
     };
     const scheduleUpdate = () => {
       if (!frame) frame = requestAnimationFrame(update);
+    };
+    const isOccupiedTarget = (target: EventTarget | null) =>
+      !(target instanceof Element) || Boolean(target.closest(occupiedTargetSelector));
+    const hasTextSelection = () => {
+      const selection = window.getSelection();
+      return Boolean(selection && !selection.isCollapsed);
+    };
+    const toggleVisibility = () => {
+      clearHideTimer();
+      if (state.visibility === 'visible') {
+        setVisibility('hidden');
+        return;
+      }
+
+      setVisibility('visible');
+      hideTimer = window.setTimeout(() => {
+        hideTimer = 0;
+        if (!isProtected()) setVisibility('hidden');
+      }, MANUAL_HIDE_DELAY_MS);
+    };
+    const handlePointerDown = (event: PointerEvent) => {
+      pointerStart = event.isPrimary && event.button === 0 && !isOccupiedTarget(event.target)
+        ? { id: event.pointerId, x: event.clientX, y: event.clientY }
+        : null;
+    };
+    const handlePointerUp = (event: PointerEvent) => {
+      const start = pointerStart;
+      pointerStart = null;
+      if (
+        !start ||
+        !event.isPrimary ||
+        event.button !== 0 ||
+        event.buttons !== 0 ||
+        event.pointerId !== start.id ||
+        isOccupiedTarget(event.target) ||
+        hasTextSelection() ||
+        Math.hypot(event.clientX - start.x, event.clientY - start.y) > POINTER_TAP_TOLERANCE_PX
+      ) return;
+      toggleVisibility();
+    };
+    const handlePointerMove = (event: PointerEvent) => {
+      if (
+        pointerStart &&
+        event.pointerId === pointerStart.id &&
+        Math.hypot(event.clientX - pointerStart.x, event.clientY - pointerStart.y) > POINTER_TAP_TOLERANCE_PX
+      ) pointerStart = null;
     };
 
     bar.dataset.subjectActionReady = '';
     render();
     window.addEventListener('scroll', scheduleUpdate, { passive: true });
     bar.addEventListener('focusin', reset);
+    bar.addEventListener('pointerdown', clearHideTimer, { passive: true });
+    document.addEventListener('pointerdown', handlePointerDown, { passive: true });
+    document.addEventListener('pointermove', handlePointerMove, { passive: true });
+    document.addEventListener('pointerup', handlePointerUp, { passive: true });
+    document.addEventListener('pointercancel', () => {
+      pointerStart = null;
+    }, { passive: true });
     window.addEventListener('concursos:reading-focus-change', reset);
     window.addEventListener('pagehide', () => {
+      const wasTemporarilyVisible = Boolean(hideTimer);
       if (frame) cancelAnimationFrame(frame);
       frame = 0;
+      pointerStart = null;
+      clearHideTimer();
+      if (wasTemporarilyVisible) setVisibility('hidden');
     });
   }
 </script>
