@@ -25,7 +25,7 @@ O recorte deve ser mantido claro:
 
 Execução, fiscalização, alterações e recomposição detalhada pertencem ao Assunto 128. Extinção, recebimento e pagamento ficam no 129; infrações e sanções, no 130. Aqui, remissões a esses temas servem apenas para compreender o contrato formado.
 
-O corte jurídico adotado é **15 de julho de 2026**. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025.
+O corte jurídico adotado é **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Alterações legislativas posteriores são identificadas expressamente como **pós-edital** e não substituem a regra aplicável ao corte. Os valores monetários são os vigentes desde **1º de janeiro de 2026**, conforme o Decreto nº 12.807/2025.
 
 ## 2. Regime jurídico e conteúdo básico
 
@@ -353,7 +353,9 @@ Para resolver questões, diferencie:
 
 A vigência inicial pode alcançar **cinco anos**, se a autoridade atestar a maior vantagem econômica da contratação plurianual. No início da contratação e de cada exercício, a Administração deve atestar créditos vinculados e vantagem na manutenção.
 
-Se faltar crédito ou o contrato deixar de ser vantajoso, a Administração pode extingui-lo sem ônus. Essa extinção ocorre no próximo aniversário contratual e pressupõe que o contratado tenha ciência com antecedência mínima de **dois meses**, contados de data a data segundo o art. 183. A Orientação Normativa AGU nº 98/2025 consolidou essa leitura na esfera federal. Se a Administração extinguir o ajuste antes do aniversário, poderá haver ônus na forma do art. 138, § 2º. Nos modelos AGU/MGI referidos pelo TCU, a comunicação com menos de dois meses de antecedência desloca o término para dois meses após a ciência. Essas referências federais orientam a interpretação, mas não substituem eventual regulamentação aplicável ao TCE-MA.
+Se faltar crédito ou o contrato deixar de ser vantajoso, a Administração pode optar pela extinção. Nos termos do art. 106, III e § 1º, a extinção sem ônus nessa hipótese somente ocorrerá na próxima data de aniversário do contrato e deverá observar a regra temporal de **dois meses** estabelecida pelo § 1º. Essa é a regra legal a memorizar no corte do edital.
+
+Na esfera federal, a **Orientação Normativa AGU nº 98/2025** interpreta o dispositivo no sentido de garantir prazo mínimo de dois meses para ciência do contratado, com observância da contagem do art. 183, e admite extinção antes do aniversário com ônus para a Administração na forma do art. 138, § 2º. Essa orientação auxilia a interpretação, mas não deve ser tratada como regulamentação automaticamente vinculante ao TCE-MA.
 
 As regras também alcançam aluguel de equipamentos e utilização de programas de informática.
 
@@ -377,7 +379,9 @@ Admite-se negociar com o contratado ou extinguir sem ônus para qualquer parte. 
 | contrato que gera receita ou eficiência, com investimento reversível | 35 anos |
 | operação continuada de sistema estruturante de TI | 15 anos |
 
-O art. 108 admite até dez anos nas dispensas referentes a alta complexidade tecnológica e defesa nacional; padronização logística de materiais das Forças Armadas; inovação; segurança nacional; transferência de tecnologia de produto estratégico para o SUS; e certos insumos estratégicos para saúde.
+No corte de **6 de julho de 2026**, o art. 108 admite contratos de até dez anos nas hipóteses das alíneas **f** e **g** do art. 75, IV, e dos incisos **V, VI, XII e XVI** do mesmo artigo. Entre elas estão alta complexidade tecnológica e defesa nacional, padronização logística das Forças Armadas, inovação, segurança nacional, transferência de tecnologia de produto estratégico para o SUS e a hipótese então vigente do inciso XVI, relativa a insumos estratégicos para a saúde produzidos por fundação nas condições legais.
+
+> **Pós-edital — direito vigente hoje:** a Lei nº 15.471, de 20 de julho de 2026, publicada em 21 de julho de 2026 e vigente desde a publicação, alterou o art. 75, XVI, para tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação. Como a mudança é posterior ao edital, ela não substitui a redação-base aplicável ao corte de 6 de julho de 2026.
 
 O prazo indeterminado do art. 109 é excepcional: a Administração deve ser usuária de serviço público oferecido em regime de monopólio e comprovar crédito a cada exercício. Não se estende a todo serviço contínuo.
 
@@ -407,14 +411,13 @@ Já a operação continuada de sistemas estruturantes de tecnologia da informaç
 
 ## 13. Aplicação federativa e referências federais
 
-A Lei nº 14.133/2021 contém normas gerais nacionais e alcança o TCE-MA em sua função administrativa. Regulamentos e orientações do Poder Executivo federal disciplinam diretamente a Administração federal; só vinculam o Tribunal se houver adoção válida, norma local ou hipótese legal específica.
+A Lei nº 14.133/2021 contém normas gerais nacionais e alcança o TCE-MA em sua função administrativa. Regulamentos e orientações do Poder Executivo federal disciplinam diretamente a Administração federal; só vinculam o Tribunal quando houver fundamento jurídico para sua aplicação.
 
-Por isso:
+Para este assunto:
 
-- o Decreto nº 13.031/2026 disciplina forma eletrônica, Contratos.gov.br e gestão no âmbito federal, servindo como referência, não como regra interna presumida do TCE-MA;
-- orientações normativas da AGU ajudam a interpretar duração e prorrogação na esfera federal, sem substituir norma local;
-- o Decreto nº 12.807/2025 é a fonte dos valores legais atualizados para 2026;
-- orientações e acórdãos do TCU auxiliam a identificar riscos de controle e interpretações relevantes.
+- a ON AGU nº 98/2025 é referência interpretativa federal para o art. 106, não regra interna presumida do TCE-MA;
+- o Decreto nº 13.031/2026 disciplina forma eletrônica, Contratos.gov.br e gestão no âmbito federal e serve apenas como referência quando não houver adoção local;
+- o Decreto nº 12.807/2025 fornece os valores atualizados da Lei nº 14.133/2021 vigentes em 2026.
 
 ## 14. Estratégia de prova
 
@@ -447,8 +450,9 @@ Erros recorrentes:
 
 ## Referências
 
-- [Lei nº 14.133/2021, texto compilado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), Presidência da República, arts. 89 a 114, 138 e 183, versão compilada vigente em 16 jul. 2026, acesso em 16 jul. 2026.
+- [Lei nº 14.133/2021, texto compilado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), Presidência da República, arts. 89 a 114, 138 e 183; recorte normativo aplicado: redação vigente em 6 jul. 2026, consulta ao texto compilado em 8 ago. 2026.
 - [Lei nº 14.770/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14770.htm), Presidência da República, alterações nos arts. 90, 92, 96 e 105, publicada em 22 dez. 2023, com partes vetadas promulgadas em 21 maio 2024, acesso em 16 jul. 2026.
+- [Lei nº 15.471/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15471.htm), Presidência da República, alteração do art. 75, XVI, publicada em 21 jul. 2026; **pós-edital**, consulta em 8 ago. 2026.
 - [Decreto nº 12.807/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12807.htm), Presidência da República, atualização dos valores da Lei nº 14.133/2021 com vigência em 1º jan. 2026, acesso em 16 jul. 2026.
 - [Formalização do contrato](https://licitacoesecontratos.tcu.gov.br/5-11-formalizacao-do-contrato/), Tribunal de Contas da União, orientações sobre os arts. 89 a 95, acesso em 16 jul. 2026.
 - [Cláusulas contratuais](https://licitacoesecontratos.tcu.gov.br/5-11-1-clausulas/), Tribunal de Contas da União, sistematização do art. 92, acesso em 16 jul. 2026.
@@ -457,6 +461,6 @@ Erros recorrentes:
 - [Prerrogativas da Administração](https://licitacoesecontratos.tcu.gov.br/5-11-4-prerrogativas-da-administracao/), Tribunal de Contas da União, orientação sobre o art. 104, acesso em 16 jul. 2026.
 - [Duração dos contratos](https://licitacoesecontratos.tcu.gov.br/5-11-5-duracao/), Tribunal de Contas da União, orientações sobre os arts. 105 a 114, acesso em 16 jul. 2026.
 - [Manutenção e prorrogação do contrato](https://licitacoesecontratos.tcu.gov.br/6-3-manutencao-e-prorrogacao-do-contrato/), Tribunal de Contas da União, requisitos e riscos de prorrogação, acesso em 16 jul. 2026.
-- [Orientação Normativa AGU nº 98/2025](https://www.in.gov.br/en/web/dou/-/orientacao-normativa-n-98-de-8-de-agosto-de-2025-647412565), Advocacia-Geral da União, interpretação do art. 106, III e § 1º, publicada no DOU em 11 ago. 2025, acesso em 16 jul. 2026.
+- [Orientação Normativa AGU nº 98/2025](https://www.in.gov.br/en/web/dou/-/orientacao-normativa-n-98-de-8-de-agosto-de-2025-647412565), Advocacia-Geral da União, interpretação federal do art. 106, III e § 1º, publicada no DOU em 11 ago. 2025, consulta em 8 ago. 2026.
 - [Circular Susep nº 662/2022](https://www2.susep.gov.br/safe/bnportal/internet/pt-BR/search/50959?exp=477%2Fnumero%20%22%7B2013-2013%7D%22%2Fanodoc%20%22CIRCULAR%20SUSEP%22%2Fdis), Superintendência de Seguros Privados, regras do seguro-garantia, versão vigente consultada em 16 jul. 2026.
 - [Decreto nº 13.031/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13031.htm), Presidência da República, forma eletrônica, Contratos.gov.br e gestão contratual no âmbito federal, publicado em 17 jun. 2026, acesso em 16 jul. 2026.
