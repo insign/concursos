@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1754",
@@ -901,81 +901,6 @@
       ],
       "correctOptionId": "e",
       "explanation": "A alternativa reúne os arts. 189, 190 e 192. O art. 188 foi vetado; contratos anteriores e imóveis da União não sofrem substituição integral automática de regime. Fonte: questão autoral baseada em referências do conteúdo."
-    },
-    {
-      "id": "q1814",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Um agente frauda o caráter competitivo de uma licitação com a finalidade específica de obter, para terceiro, vantagem decorrente da adjudicação. Em tese, a conduta corresponde ao crime de:",
-      "options": [
-        { "id": "a", "text": "frustração do caráter competitivo de licitação, do art. 337-F do Código Penal." },
-        { "id": "b", "text": "mera perturbação culposa, não prevista como crime." },
-        { "id": "c", "text": "violação de sigilo, ainda que nenhuma proposta tenha sido devassada." },
-        { "id": "d", "text": "impedimento indevido em registro cadastral." },
-        { "id": "e", "text": "contratação inidônea, independentemente de declaração de inidoneidade." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "O art. 337-F combina fraude ou frustração da competição com a finalidade de obter vantagem decorrente da adjudicação para si ou para outrem. O art. 337-I é mais amplo quanto ao ato perturbado, mas não reproduz essa finalidade especial. Fonte: questão autoral baseada em referências do conteúdo."
-    },
-    {
-      "id": "q1815",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Servidor patrocina interesse privado perante a Administração e causa a celebração de contrato cuja invalidação depois é decretada pelo Poder Judiciário. O núcleo descrito é o de:",
-      "options": [
-        { "id": "a", "text": "afastamento de licitante." },
-        { "id": "b", "text": "patrocínio de contratação indevida." },
-        { "id": "c", "text": "impedimento indevido em cadastro." },
-        { "id": "d", "text": "violação de sigilo em licitação." },
-        { "id": "e", "text": "omissão grave de dado por projetista." }
-      ],
-      "correctOptionId": "b",
-      "explanation": "O art. 337-G pune o patrocínio direto ou indireto de interesse privado que cause licitação ou contrato cuja invalidação venha a ser decretada pelo Poder Judiciário. A invalidação judicial integra a descrição do tipo. Fonte: questão autoral baseada em referências do conteúdo."
-    },
-    {
-      "id": "q1816",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Durante a execução, o responsável paga fatura com preterição da ordem cronológica de exigibilidade. Sem prejuízo da análise do caso concreto, essa conduta aparece no tipo de:",
-      "options": [
-        { "id": "a", "text": "contratação direta ilegal." },
-        { "id": "b", "text": "fraude em registro cadastral." },
-        { "id": "c", "text": "modificação ou pagamento irregular em contrato administrativo." },
-        { "id": "d", "text": "patrocínio de contratação indevida." },
-        { "id": "e", "text": "violação de proposta sigilosa." }
-      ],
-      "correctOptionId": "c",
-      "explanation": "O art. 337-H inclui expressamente o pagamento de fatura com preterição da ordem cronológica de exigibilidade, além da concessão de modificação ou vantagem contratual sem o amparo indicado no tipo. Fonte: questão autoral baseada em referências do conteúdo."
-    },
-    {
-      "id": "q1817",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Um licitante aceita vantagem oferecida por concorrente e, por isso, desiste de licitar. Segundo o art. 337-K do Código Penal, ele:",
-      "options": [
-        { "id": "a", "text": "não responde, pois o tipo alcança somente quem oferece violência." },
-        { "id": "b", "text": "responde apenas se o contrato já tiver sido executado." },
-        { "id": "c", "text": "comete exclusivamente infração administrativa, nunca crime." },
-        { "id": "d", "text": "incorre na mesma pena prevista para o afastamento de licitante." },
-        { "id": "e", "text": "responde pelo art. 337-O, próprio de projetista." }
-      ],
-      "correctOptionId": "d",
-      "explanation": "O parágrafo único do art. 337-K aplica a mesma pena a quem se abstém ou desiste de licitar em razão de vantagem oferecida. O tipo não se limita ao autor da oferta. Fonte: questão autoral baseada em referências do conteúdo."
-    },
-    {
-      "id": "q1818",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Projetista omite deliberadamente levantamento topográfico relevante, em dissonância com a realidade e em detrimento da proposta mais vantajosa, para obter benefício indireto para terceiro. Em tese:",
-      "options": [
-        { "id": "a", "text": "a conduta é atípica porque levantamento topográfico nunca é condição de contorno." },
-        { "id": "b", "text": "incide somente multa administrativa, sem previsão penal." },
-        { "id": "c", "text": "a finalidade de benefício reduz a pena pela metade." },
-        { "id": "d", "text": "o crime exige necessariamente contratação direta já encerrada." },
-        { "id": "e", "text": "pode configurar o art. 337-O, com aplicação em dobro da pena pelo fim de obter benefício para terceiro." }
-      ],
-      "correctOptionId": "e",
-      "explanation": "O art. 337-O inclui levantamento topográfico entre as condições de contorno e pune sua omissão, modificação ou entrega em dissonância relevante nas circunstâncias do tipo. O fim de obter benefício direto ou indireto, próprio ou alheio, dobra a pena. Fonte: questão autoral baseada em referências do conteúdo."
     }
   ]
 }

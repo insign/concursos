@@ -16,7 +16,7 @@ Os Assuntos 124 a 129 estudaram fundamentos, planejamento, seleção, formaliza�
 
 O texto legal consolidado é a referência normativa central. Orientações do Tribunal de Contas da União (TCU) e regulamentos do Poder Executivo federal são referências qualificadas, mas não constituem automaticamente regras de organização ou procedimento do TCE-MA. O art. 187 permite que Estados, Distrito Federal e Municípios apliquem regulamentos da União; não estabelece incorporação automática.
 
-> **Corte jurídico:** 15 de julho de 2026. **Fontes consultadas em:** 16 de julho de 2026.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
 ## 1. Visão geral do percurso final da Lei
 
@@ -319,24 +319,9 @@ Enquanto não adotarem o PNCP, devem publicar em diário oficial as informaçõe
 
 O art. 177 incluiu no Código de Processo Civil prioridade de tramitação para processos que discutam normas gerais de licitação e contratação. Os arts. 179 e 180 ajustaram, respectivamente, a Lei de Concessões e a Lei das Parcerias Público-Privadas para admitir concorrência ou diálogo competitivo.
 
-O art. 178 inseriu os tipos penais licitatórios nos arts. 337-E a 337-O do Código Penal e a regra de cálculo da multa no art. 337-P. Para distinguir os crimes em casos concretos, observe a conduta, o objeto e eventual finalidade especial:
+O art. 178 inseriu os crimes em licitações e contratos no Código Penal, nos arts. **337-E a 337-O**, e a regra de cálculo da multa no art. **337-P**. Para este assunto, o ponto de prova é a localização normativa e a separação entre esferas: a existência de infração administrativa na Lei nº 14.133/2021 não produz, por si só, condenação penal, que depende dos pressupostos do tipo penal aplicável.
 
-| Artigo | Tipo e núcleo distintivo | Pena principal |
-| --- | --- | --- |
-| 337-E | contratação direta ilegal: admitir, possibilitar ou causar contratação direta fora das hipóteses legais | reclusão de 4 a 8 anos e multa |
-| 337-F | frustração do caráter competitivo: frustrar ou fraudar a competição para obter vantagem decorrente da adjudicação | reclusão de 4 a 8 anos e multa |
-| 337-G | patrocínio de contratação indevida: defender interesse privado e causar licitação ou contrato cuja invalidação seja decretada judicialmente | reclusão de 6 meses a 3 anos e multa |
-| 337-H | modificação ou pagamento irregular: conceder vantagem contratual sem amparo ou preterir a ordem cronológica de pagamento | reclusão de 4 a 8 anos e multa |
-| 337-I | perturbação de processo licitatório: impedir, perturbar ou fraudar qualquer ato do processo | detenção de 6 meses a 3 anos e multa |
-| 337-J | violação de sigilo: devassar proposta sigilosa ou permitir que terceiro a devasse | detenção de 2 a 3 anos e multa |
-| 337-K | afastamento de licitante: afastar ou tentar afastar concorrente por violência, ameaça, fraude ou vantagem; também alcança quem se abstém ou desiste pela vantagem | reclusão de 3 a 5 anos, multa e pena correspondente à violência |
-| 337-L | fraude em licitação ou contrato: prejudicar a Administração por entrega, substituição, adulteração ou outro meio fraudulento que onere injustamente a proposta ou a execução | reclusão de 4 a 8 anos e multa |
-| 337-M | contratação inidônea: admitir inidôneo na licitação ou celebrar contrato com ele; também pune o próprio inidôneo que participa ou contrata | admitir: reclusão de 1 a 3 anos; contratar: 3 a 6 anos; ambas com multa |
-| 337-N | impedimento indevido: obstar injustamente inscrição cadastral ou alterar, suspender ou cancelar registro de modo indevido | reclusão de 6 meses a 2 anos e multa |
-| 337-O | omissão grave por projetista: omitir, modificar ou entregar levantamento ou condição de contorno em dissonância relevante com a realidade, nos procedimentos indicados pelo tipo | reclusão de 6 meses a 3 anos e multa; pena em dobro se houver fim de obter benefício direto ou indireto, próprio ou alheio |
-| 337-P | regra da multa: segue o cálculo do Código Penal e não pode ficar abaixo de 2% do valor do contrato licitado ou celebrado diretamente | aplicável aos crimes do capítulo |
-
-Pegadinhas frequentes: o art. 337-F exige finalidade de obter vantagem decorrente da adjudicação, enquanto o art. 337-I pune interferência em qualquer ato do processo; o art. 337-G exige invalidação decretada pelo Judiciário; e o art. 337-K equipara ao autor quem aceita vantagem para se abster ou desistir. Sanção administrativa e crime são esferas distintas: tipificação administrativa não gera condenação penal automática.
+Não é necessário transformar este item de Gestão de Contratos em estudo especializado de Direito Penal. Basta reter que os antigos crimes licitatórios da Lei nº 8.666/1993 foram deslocados ao Código Penal e que responsabilizações administrativa, civil e penal possuem fundamentos próprios.
 
 ## 12. Disposições transitórias e finais
 
@@ -393,6 +378,8 @@ A Medida Provisória nº 1.167/2023 perdeu eficácia; a data definitiva decorre 
 | regulamento federal sempre vincula o TCE-MA | é preciso verificar competência, adoção e disciplina própria |
 
 ## Referências
+
+> As datas de consulta abaixo são posteriores ao edital e servem apenas à conferência editorial. O corte normativo da prova permanece **6 de julho de 2026**.
 
 - BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 147 a 194 e remissões aos arts. 54 e 94. Versão vigente consultada em 16 jul. 2026.
 - BRASIL. Presidência da República. [Lei Complementar nº 198, de 28 de junho de 2023](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp198.htm). Redação definitiva do art. 193, II, consultada em 16 jul. 2026.
