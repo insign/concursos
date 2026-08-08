@@ -8,7 +8,7 @@ storageId: "medicao-pagamento-equilibrio-in5"
 
 # Medição, pagamento, obrigações trabalhistas e equilíbrio na IN nº 5/2017
 
-## 1. Delimitação e leitura atualizada
+## 1. Delimitação, corte e leitura atualizada
 
 A Instrução Normativa SEGES/MP nº 5/2017 disciplina, no âmbito federal indicado em seu art. 1º, a contratação de serviços. Este assunto integra quatro blocos da fase de execução:
 
@@ -21,9 +21,11 @@ A leitura deve distinguir três planos:
 
 - a **Lei nº 14.133/2021** contém normas gerais aplicáveis aos entes por ela abrangidos, inclusive quando o TCE-MA contrata administrativamente;
 - a **IN nº 5/2017** é norma federal infralegal, mantida para as contratações federais regidas pela Lei nº 14.133/2021 somente **no que couber**, conforme a IN SEGES/ME nº 98/2022;
-- atos federais posteriores, como os Decretos nº 12.174/2024, nº 12.926/2026 e nº 13.031/2026 e as INs SEGES/MGI nº 81/2024, nº 176/2024 e nº 147/2026, também não vinculam automaticamente o TCE-MA, salvo adoção por norma competente.
+- atos federais como os Decretos nº 9.507/2018, nº 12.174/2024, nº 12.926/2026 e nº 13.031/2026 e as INs SEGES/MGI nº 81/2024, nº 176/2024 e nº 147/2026 têm âmbito próprio e não vinculam automaticamente o TCE-MA, salvo adoção por norma competente.
 
 Referências da IN nº 5/2017 à Lei nº 8.666/1993 devem ser compatibilizadas com a Lei nº 14.133/2021. Por exemplo, o recebimento hoje encontra fundamento geral no art. 140 da nova lei, e os critérios de medição, liquidação, pagamento e reajustamento devem constar do contrato conforme o art. 92.
+
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
 > **Fronteira:** o encerramento contratual, a conferência final de verbas rescisórias, as retenções próprias da extinção e as regras operacionais finais da IN nº 5/2017 pertencem ao Assunto 135. Aqui são estudados os controles durante a execução regular.
 
@@ -112,7 +114,7 @@ Na sistemática operacional do art. 50 da IN nº 5/2017:
 - o recebimento definitivo é formalizado;
 - a empresa é comunicada para emitir nota fiscal ou fatura pelo valor exatamente dimensionado, quando houver IMR ou instrumento substituto.
 
-Sob a regulamentação federal atual, o Decreto nº 13.031/2026 atribui o recebimento provisório aos fiscais técnico, administrativo ou setorial e o definitivo ao gestor, ao gestor setorial ou à comissão. Essa distribuição federal não substitui a regra geral do art. 140 nem dispensa verificar o regulamento aplicável ao ente.
+Sob a regulamentação federal vigente no corte, o Decreto nº 13.031/2026 atribui o recebimento provisório aos fiscais técnico, administrativo ou setorial e o definitivo ao gestor, ao gestor setorial ou à comissão. Essa distribuição federal não substitui a regra geral do art. 140 nem dispensa verificar o regulamento aplicável ao ente.
 
 ## 5. Glosa e parcela incontroversa
 
@@ -191,15 +193,23 @@ Também é incorreto repetir, como comando universal, a redação antiga do Anex
 
 ## 8. Garantias trabalhistas durante a execução
 
-O art. 121, § 3º, da Lei nº 14.133/2021 permite que o edital ou o contrato de serviço contínuo com dedicação exclusiva preveja, entre outras medidas:
+A leitura correta exige separar a regra geral da Lei da disciplina federal específica:
+
+| Fonte | Regra |
+|---|---|
+| Lei nº 14.133/2021, art. 121, § 3º, e art. 142 | admite previsão de conta vinculada e de pagamento pela efetiva comprovação do fato gerador, entre outras medidas de proteção trabalhista |
+| Decreto nº 9.507/2018, art. 8º, V | nos serviços continuados com dedicação exclusiva abrangidos pelo Decreto, o contrato deve prever **fato gerador ou conta vinculada** |
+| IN nº 5/2017, art. 18 e Anexo VII-B, item 1.1 | o ato convocatório deve conter **uma das duas regras**; a escolha é justificada pela relação custo-benefício |
+
+Portanto, não há contradição: a Lei nº 14.133/2021 apresenta mecanismos possíveis em caráter geral; no regime federal específico alcançado pelo Decreto nº 9.507/2018 e pela IN nº 5/2017, uma das duas técnicas integra obrigatoriamente a modelagem do risco trabalhista.
+
+Além delas, o art. 121, § 3º, da Lei nº 14.133/2021 permite prever, entre outras medidas:
 
 - garantia com cobertura para verbas rescisórias inadimplidas;
 - condicionamento do pagamento à quitação de obrigações trabalhistas vencidas do contrato;
-- depósito de valores em conta vinculada;
-- pagamento direto de verbas trabalhistas inadimplidas, deduzido do crédito da contratada;
-- pagamento de férias, décimo terceiro, ausências legais e verbas rescisórias somente quando ocorrer o fato gerador.
+- pagamento direto de verbas trabalhistas inadimplidas, deduzido do crédito da contratada.
 
-Os valores da conta vinculada são absolutamente impenhoráveis. O art. 142 ainda admite previsão expressa, no edital ou contrato, de pagamento em conta vinculada ou pela efetiva comprovação do fato gerador.
+Os valores da conta vinculada são absolutamente impenhoráveis.
 
 ### 8.1 Conta-Depósito Vinculada
 
@@ -231,7 +241,7 @@ Compare:
 | Conta vinculada | A Administração deposita provisões mensais em conta bloqueada e autoriza a liberação quando a obrigação ocorre. |
 | Pagamento pelo fato gerador | A parcela não é paga antes; torna-se devida quando o fato ocorre e é comprovado. |
 
-No modelo federal da IN nº 5/2017, ambos são alternativas de tratamento do risco trabalhista a serem escolhidas mediante avaliação de custo-benefício. Não devem ser somados automaticamente sobre a mesma parcela. Nenhum deles substitui medição, recebimento, regularidade ou retenções legais.
+No modelo federal da IN nº 5/2017, são **alternativas**, não mecanismos cumulativos sobre a mesma parcela. O ato convocatório prevê uma das duas e a opção deve ser justificada pela relação custo-benefício. Nenhum mecanismo substitui medição, recebimento, regularidade ou retenções legais.
 
 ## 9. Atualizações federais de 2024 a 2026
 
@@ -242,6 +252,15 @@ Para provas que cobrem a IN atualizada, merecem atenção:
 - **IN SEGES/MGI nº 176/2024:** disciplinou custos mínimos relevantes de mão de obra, enquadramento coletivo e controles da proposta e da execução;
 - **Decreto nº 12.926/2026 e IN SEGES/MGI nº 147/2026:** incluíram e regulamentaram o reembolso-creche, cujo pagamento à contratada depende da comprovação do desembolso e cuja fiscalização passou a integrar o Anexo VIII-B;
 - **Decreto nº 13.031/2026:** instituiu o Contratos.gov.br e atualizou a distribuição federal do recebimento, dos registros de obrigações, documentos de cobrança, glosas e pagamentos.
+
+### 9.1 Contratos.gov.br no corte do edital
+
+No âmbito definido pelo Decreto nº 13.031/2026, o Contratos.gov.br é obrigatório para registro e gestão de contratos administrativos e atas, consideradas as funcionalidades disponíveis. Duas ressalvas evitam generalizações:
+
+- o Decreto dispensa seu cumprimento pelos Comandos da Marinha, do Exército e da Aeronáutica;
+- funcionalidade ainda indisponível é tratada no processo administrativo eletrônico oficial, com inserção posterior dos documentos no sistema quando a funcionalidade estiver disponível.
+
+A SEGES pode permitir o uso por outros Poderes e entes. **Permissão de uso não equivale a obrigação automática para o TCE-MA.**
 
 Essas regras têm âmbito federal próprio. Para o TCE-MA, primeiro se identifica a norma geral da Lei nº 14.133/2021 e, depois, eventual regulamento estadual ou interno que adote solução equivalente.
 
@@ -286,15 +305,23 @@ Como regra da IN, os novos valores vigoram desde o fato gerador; podem começar 
 
 Reajuste e repactuação previstos no contrato podem ser registrados por apostila. Termo aditivo continua necessário quando houver verdadeira alteração contratual não abrangida pelas hipóteses do art. 136.
 
-### 10.4 Preclusão
+### 10.4 Preclusão: repactuação e reajuste não são iguais
 
-O art. 57, § 7º, da IN nº 5/2017 prevê preclusão das repactuações a que a contratada fazia jus e que não foram solicitadas durante a vigência, com a assinatura da prorrogação ou o encerramento do contrato. A jurisprudência do TCU relaciona a regra à necessidade de a Administração avaliar a prorrogação já conhecendo o preço pretendido.
+O art. 57, § 7º, da IN nº 5/2017 prevê preclusão das repactuações a que a contratada fazia jus e que não foram solicitadas durante a vigência, com a assinatura da prorrogação ou o encerramento do contrato. A lógica é permitir que a Administração avalie a prorrogação já conhecendo o preço pretendido.
 
-Há três cautelas:
+Há três cautelas para a **repactuação**:
 
 1. se o fato gerador ainda não existia na data da prorrogação, não havia pretensão constituída a precluir;
-2. ressalva expressa e pedido tempestivo preservam a análise, sem garantir deferimento;
-3. não se transporta automaticamente essa preclusão para o reajuste em sentido estrito, que pode ser aplicado de ofício; eventual renúncia depende do regime contratual e de manifestação inequívoca.
+2. pedido tempestivo ou ressalva expressa preserva a análise, sem garantir deferimento;
+3. a preclusão pressupõe direito já exigível.
+
+Para o **reajuste em sentido estrito**, a orientação oficial reunida pelo TCU é diferente:
+
+- **em regra, não há preclusão lógica** pela simples prorrogação, pois o reajuste por índice previsto pode ser processado de ofício;
+- excepcionalmente, pode haver renúncia ou preclusão quando edital e contrato condicionarem expressamente o reajuste a requerimento, não houver pedido antes do aditivo, a prorrogação for celebrada sem ressalva e o edital estabelecer expressamente esse efeito;
+- o próprio TCU registra que ainda **não há jurisprudência consolidada** sobre a preclusão do reajuste sob a Lei nº 14.133/2021.
+
+Logo, a pegadinha correta é: **preclusão da repactuação não se transporta automaticamente ao reajuste; leia o edital e o contrato.**
 
 ### 10.5 Revisão ou restabelecimento
 
@@ -336,27 +363,30 @@ Use esta sequência:
 - glosar sem indicador, evidência ou memória de cálculo;
 - reter a parcela incontroversa por divergência parcial;
 - equiparar conta vinculada, fato gerador e retenção previdenciária;
+- dizer que conta vinculada e fato gerador podem ser omitidos do ato convocatório federal abrangido pelo regime específico;
 - aplicar 11% a qualquer fatura sem verificar a hipótese tributária;
 - afirmar que a IN nº 5/2017 vincula automaticamente o TCE-MA;
 - usar reajuste, repactuação e revisão como sinônimos;
 - contar a anualidade da mão de obra sempre da proposta, ignorando a norma coletiva;
 - repassar cláusula coletiva proibida pelo art. 135;
 - reconhecer desequilíbrio por simples erro de proposta;
-- aplicar preclusão antes da existência do fato gerador.
+- aplicar preclusão antes da existência do fato gerador;
+- aplicar automaticamente ao reajuste a mesma preclusão da repactuação.
 
 ## Referências
 
-- [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) — Presidência da República; texto consolidado, especialmente arts. 6º, 92, 121, 123, 124, 130, 131, 134 a 136 e 140 a 145; acesso em 16 jul. 2026.
-- [Instrução Normativa SEGES/MP nº 5, de 26 de maio de 2017, atualizada](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada) — Ministério da Gestão e da Inovação em Serviços Públicos; arts. 49 a 63 e Anexos V-B, VIII-A, VIII-B, XI e XII; versão atualizada em 14 abr. 2026; acesso em 16 jul. 2026.
-- [Instrução Normativa SEGES/ME nº 98, de 26 de dezembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-98-de-26-de-dezembro-de-2022) — Ministério da Economia; aplicação da IN nº 5/2017 no que couber sob a Lei nº 14.133/2021; acesso em 16 jul. 2026.
-- [Decreto nº 12.174, de 11 de setembro de 2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12174.htm) — Presidência da República; garantias trabalhistas em contratos federais; texto alterado pelo Decreto nº 12.926/2026; acesso em 16 jul. 2026.
-- [Decreto nº 12.926, de 13 de abril de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12926.htm) — Presidência da República; reembolso-creche e atualização das garantias trabalhistas federais; acesso em 16 jul. 2026.
-- [Decreto nº 13.031, de 17 de junho de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13031.htm) — Presidência da República; Contratos.gov.br e gestão federal de contratos; acesso em 16 jul. 2026.
-- [Instrução Normativa SEGES/MGI nº 81, de 12 de setembro de 2024](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-mgi-no-81-de-12-de-setembro-de-2024) — Ministério da Gestão e da Inovação em Serviços Públicos; compensação de jornada em contratos federais; versão atualizada em 15 maio 2025; acesso em 16 jul. 2026.
-- [Instrução Normativa SEGES/MGI nº 176, de 25 de novembro de 2024](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-mgi-no-176-de-25-de-novembro-de-2024) — Ministério da Gestão e da Inovação em Serviços Públicos; custos mínimos de mão de obra; versão atualizada em 14 abr. 2026; acesso em 16 jul. 2026.
-- [Instrução Normativa SEGES/MGI nº 147, de 13 de abril de 2026](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-mgi-no-147-de-13-de-abril-de-2026) — Ministério da Gestão e da Inovação em Serviços Públicos; reembolso-creche; versão atualizada em 27 maio 2026; acesso em 16 jul. 2026.
-- [Instrução Normativa RFB nº 2.110, de 17 de outubro de 2022](https://normas.receita.fazenda.gov.br/sijut2consulta/consulta.action?termoBusca=IN+2110&tipoConsulta=formulario&tipoData=2) — Receita Federal do Brasil; retenção previdenciária em cessão de mão de obra e empreitada; consultar texto consolidado vigente; acesso em 16 jul. 2026.
-- [Repactuação](https://licitacoesecontratos.tcu.gov.br/6-2-2-1-3-repactuacao/) — Tribunal de Contas da União, Licitações e Contratos: Orientações e Jurisprudência do TCU; atualização de 29 ago. 2025; acesso em 16 jul. 2026.
-- [Reajuste em sentido estrito](https://licitacoesecontratos.tcu.gov.br/6-2-2-1-2-reajuste-em-sentido-estrito/) — Tribunal de Contas da União, Licitações e Contratos: Orientações e Jurisprudência do TCU; atualização de 29 ago. 2025; acesso em 16 jul. 2026.
-- [Acórdão nº 1.601/2014 — Plenário](https://pesquisa.apps.tcu.gov.br/#/documento/jurisprudencia-selecionada/*/NUMACORDAO%253A1601%2520ANOACORDAO%253A2014/DTRELEVANCIA%2520desc%252C%2520COLEGIADO%253Aasc%252C%2520ANOACORDAO%253Adesc/0/sinonimos%253Dtrue) — Tribunal de Contas da União; preclusão lógica da repactuação; acesso em 16 jul. 2026.
-- [Parecer nº 2/2016/CPLC/DEPCONSU/PGF/AGU](https://www.gov.br/agu/pt-br/composicao/procuradoria-geral-federal-1/arquivos/PARECERN022016CPLCDEPCONSUPGFAGU.pdf) — Advocacia-Geral da União; repactuação e preclusão; acesso em 16 jul. 2026.
+> Datas de consulta posteriores a **6/7/2026** são apenas referências editoriais; o corte jurídico permanece o da publicação do edital.
+
+- [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) — Presidência da República; especialmente arts. 6º, 92, 121, 123, 124, 130, 131, 134 a 136 e 140 a 145.
+- [Decreto nº 9.507, de 21 de setembro de 2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9507.htm) — Presidência da República; art. 8º, especialmente inciso V, sobre fato gerador ou conta vinculada nos serviços continuados com dedicação exclusiva.
+- [Instrução Normativa SEGES/MP nº 5, de 26 de maio de 2017, atualizada](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada) — arts. 18, 49 a 63 e Anexos V-B, VII-B, VIII-A, VIII-B, XI e XII; versão atualizada em 14 abr. 2026.
+- [Instrução Normativa SEGES/ME nº 98, de 26 de dezembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-98-de-26-de-dezembro-de-2022) — aplicação da IN nº 5/2017 no que couber sob a Lei nº 14.133/2021.
+- [Decreto nº 12.174, de 11 de setembro de 2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12174.htm) — garantias trabalhistas em contratos federais.
+- [Decreto nº 12.926, de 13 de abril de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12926.htm) — reembolso-creche e atualização das garantias trabalhistas federais.
+- [Decreto nº 13.031, de 17 de junho de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13031.htm) — Contratos.gov.br e gestão federal de contratos.
+- [Instrução Normativa SEGES/MGI nº 81, de 12 de setembro de 2024](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-mgi-no-81-de-12-de-setembro-de-2024) — compensação de jornada em contratos federais.
+- [Instrução Normativa SEGES/MGI nº 176, de 25 de novembro de 2024](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-mgi-no-176-de-25-de-novembro-de-2024) — custos mínimos de mão de obra.
+- [Instrução Normativa SEGES/MGI nº 147, de 13 de abril de 2026](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-mgi-no-147-de-13-de-abril-de-2026) — reembolso-creche.
+- [Instrução Normativa RFB nº 2.110, de 17 de outubro de 2022](https://normas.receita.fazenda.gov.br/sijut2consulta/consulta.action?termoBusca=IN+2110&tipoConsulta=formulario&tipoData=2) — retenção previdenciária em cessão de mão de obra e empreitada.
+- [Repactuação](https://licitacoesecontratos.tcu.gov.br/6-2-2-1-3-repactuacao/) — TCU, Licitações e Contratos: Orientações e Jurisprudência.
+- [Reajuste em sentido estrito](https://licitacoesecontratos.tcu.gov.br/6-2-2-1-2-reajuste-em-sentido-estrito/) — TCU, Licitações e Contratos: Orientações e Jurisprudência; registra a regra geral e as hipóteses excepcionais de preclusão/renúncia.
