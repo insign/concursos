@@ -49,6 +49,17 @@ test('keeps the three study modes centered between category navigation controls'
     await expect(current).toHaveCount(1);
     await expect(current).toHaveText(route.active);
 
+    const routeGeometry = await page.evaluate(() => {
+      const shellRect = document.querySelector<HTMLElement>('.study-shell')!.getBoundingClientRect();
+      const surfaceRect = document.querySelector<HTMLElement>('.reading-surface')!.getBoundingClientRect();
+      return {
+        leftDelta: Math.abs(surfaceRect.left - shellRect.left),
+        rightDelta: Math.abs(surfaceRect.right - shellRect.right),
+      };
+    });
+    expect(routeGeometry.leftDelta).toBeLessThan(1);
+    expect(routeGeometry.rightDelta).toBeLessThan(1);
+
     const actionBar = actions(page);
     await expect(actionBar.getByRole('button')).toHaveCount(1);
     const actionLinkCount = route.active === 'Conteúdo' ? 3 : 2;
@@ -135,13 +146,19 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
 
     const geometry = await page.evaluate(() => {
       const actionBar = document.querySelector<HTMLElement>('[data-subject-action-bar]')!;
+      const heading = document.querySelector<HTMLElement>('.subject-heading')!;
       const tabs = document.querySelector<HTMLElement>('.subject-tabs')!;
       const tabLinks = tabs.querySelector<HTMLElement>('.subject-tabs-links')!;
       const surface = document.querySelector<HTMLElement>('.reading-surface')!;
+      const article = surface.querySelector<HTMLElement>('article')!;
       const shell = document.querySelector<HTMLElement>('.study-shell')!;
       const actionRect = actionBar.getBoundingClientRect();
+      const headingRect = heading.getBoundingClientRect();
       const tabsRect = tabs.getBoundingClientRect();
       const tabLinksRect = tabLinks.getBoundingClientRect();
+      const surfaceRect = surface.getBoundingClientRect();
+      const articleRect = article.getBoundingClientRect();
+      const shellRect = shell.getBoundingClientRect();
       const surfaceStyle = getComputedStyle(surface);
       const shellStyle = getComputedStyle(shell);
       const adjacentControls = Array.from(tabs.querySelectorAll<HTMLElement>('.subject-tabs-adjacent'))
@@ -174,6 +191,22 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
             (tabLinksRect.left + tabLinksRect.right) / 2 -
               (tabsRect.left + tabsRect.right) / 2,
           ) < 1,
+        headingMatchesShell:
+          Math.abs(headingRect.left - shellRect.left) < 1 &&
+          Math.abs(headingRect.right - shellRect.right) < 1,
+        tabsMatchShell:
+          Math.abs(tabsRect.left - shellRect.left) < 1 &&
+          Math.abs(tabsRect.right - shellRect.right) < 1,
+        surfaceMatchesShell:
+          Math.abs(surfaceRect.left - shellRect.left) < 1 &&
+          Math.abs(surfaceRect.right - shellRect.right) < 1,
+        articleUsesSurfaceWidth:
+          Math.abs(
+            articleRect.width -
+              (surface.clientWidth -
+                Number.parseFloat(surfaceStyle.paddingInlineStart) -
+                Number.parseFloat(surfaceStyle.paddingInlineEnd)),
+          ) < 1,
         studyBottomPadding: Number.parseFloat(shellStyle.paddingBottom),
         viewportHeight: window.innerHeight,
         viewportWidth: window.innerWidth,
@@ -190,6 +223,10 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
     expect(geometry.adjacentControlsAreSquare).toBe(true);
     expect(geometry.adjacentControlsTouchEdges).toBe(true);
     expect(geometry.tabsAreCentered).toBe(true);
+    expect(geometry.headingMatchesShell).toBe(true);
+    expect(geometry.tabsMatchShell).toBe(true);
+    expect(geometry.surfaceMatchesShell).toBe(true);
+    expect(geometry.articleUsesSurfaceWidth).toBe(true);
     expect(geometry.hasHorizontalOverflow).toBe(false);
   }
 });

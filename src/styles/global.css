@@ -1039,7 +1039,8 @@ a.subject-reading-link:hover {
 }
 
 .subject-heading {
-  max-width: var(--reading);
+  width: 100%;
+  max-width: none;
   margin-inline: auto;
 }
 
@@ -1066,7 +1067,7 @@ a.subject-reading-link:hover {
   display: grid;
   grid-template-columns: 3rem minmax(0, 1fr) 3rem;
   align-items: start;
-  width: min(100%, var(--reading));
+  width: 100%;
   margin: 0 auto -1px;
   border-bottom: 1px solid var(--line);
   background: var(--paper);
@@ -1151,7 +1152,7 @@ a.subject-tabs-adjacent:hover {
 }
 
 .reading-surface {
-  width: min(100%, calc(var(--reading) + 6rem));
+  width: 100%;
   margin-inline: auto;
   padding-block: clamp(1.5rem, 5vw, 3rem);
   /* Espaçamento lateral ajustável (#103): soma um recuo opcional ao padding base. */
@@ -1162,13 +1163,22 @@ a.subject-tabs-adjacent:hover {
 }
 
 .reading-surface > article {
-  max-width: var(--reading);
+  max-width: none;
   margin-inline: auto;
   /* Personalização de leitura (#103): os fallbacks reproduzem o padrão editorial,
      de modo que a renderização estática (sem JS) já use a tipografia pretendida. */
   font-family: var(--reading-font, 'Lora', Georgia, 'Times New Roman', serif);
   font-size: var(--reading-size, 1.1875rem);
   line-height: var(--reading-line, 1.7);
+}
+
+/* O modo sem distrações mantém a largura editorial controlada pelo customizador. */
+.reading-focus:is(:target, [data-reading-focus-active]) .reading-surface {
+  width: min(100%, calc(var(--reading) + 6rem));
+}
+
+.reading-focus:is(:target, [data-reading-focus-active]) .reading-surface > article {
+  max-width: var(--reading);
 }
 
 .reading-surface p,

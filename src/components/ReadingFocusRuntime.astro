@@ -24,6 +24,7 @@
     }
 
     interface LayoutState {
+      anchor: HTMLElement;
       anchorTop: number;
     }
 
@@ -38,18 +39,43 @@
     let previousScrollRestoration: ScrollRestoration | null = null;
 
     const layoutAnchor = root.querySelector<HTMLElement>('.reading-surface > article') ?? root;
+    const CONTENT_ANCHORS = 'h1, h2, h3, h4, h5, h6, p, li, blockquote, pre, table, figure';
 
     const isFocusHash = () => location.hash === '#focus';
     const hasFocusHistoryState = () =>
       typeof history.state === 'object' && history.state !== null && history.state[HISTORY_KEY] === true;
 
-    const captureLayout = (): LayoutState => ({
-      anchorTop: layoutAnchor.getBoundingClientRect().top,
-    });
+    const visibleLayoutAnchor = (): HTMLElement => {
+      const anchorLine = window.innerHeight / 2;
+      const hit = document.elementFromPoint(window.innerWidth / 2, anchorLine);
+      const hitAnchor = hit instanceof Element ? hit.closest<HTMLElement>(CONTENT_ANCHORS) : null;
+      if (hitAnchor && layoutAnchor.contains(hitAnchor)) return hitAnchor;
+
+      const candidates = Array.from(layoutAnchor.querySelectorAll<HTMLElement>(CONTENT_ANCHORS));
+      const first = candidates.shift();
+      if (!first) return layoutAnchor;
+      const distance = (element: HTMLElement) => {
+        const rect = element.getBoundingClientRect();
+        if (rect.top <= anchorLine && rect.bottom >= anchorLine) return 0;
+        return Math.min(Math.abs(rect.top - anchorLine), Math.abs(rect.bottom - anchorLine));
+      };
+      return candidates.reduce((closest, candidate) => {
+        return distance(candidate) < distance(closest) ? candidate : closest;
+      }, first);
+    };
+
+    const captureLayout = (): LayoutState => {
+      const anchor = visibleLayoutAnchor();
+      return {
+        anchor,
+        anchorTop: anchor.getBoundingClientRect().top,
+      };
+    };
 
     const preserveLayout = (previous?: LayoutState) => {
       if (!previous) return;
-      const delta = layoutAnchor.getBoundingClientRect().top - previous.anchorTop;
+      const anchor = previous.anchor.isConnected ? previous.anchor : layoutAnchor;
+      const delta = anchor.getBoundingClientRect().top - previous.anchorTop;
       if (delta !== 0) window.scrollTo({ top: window.scrollY + delta });
     };
 
