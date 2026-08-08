@@ -1,5 +1,11 @@
 # Formalização, garantias, riscos e duração
 
+## Corte temporal
+
+- **Regra de prova:** legislação vigente em **6/7/2026**, data do edital.
+- **Pós-edital:** Lei nº 15.471/2026 alterou o art. 75, XVI, em 21/7/2026; não substituir a redação-base do corte.
+- Orientação federal não se aplica automaticamente ao TCE-MA.
+
 ## Mapa do recorte
 
 | Arts. | Tema |
@@ -37,26 +43,16 @@
 - Direito real sobre imóvel: escritura pública + divulgação.
 - Antes de formar ou prorrogar: regularidade fiscal, Ceis, Cnep e certidões de inidoneidade, impedimento e débitos trabalhistas.
 
-## Cláusulas necessárias
+## Cláusulas necessárias — matriz de memória
 
-- objeto e características;
-- vínculo ao edital/proposta ou ato direto/proposta;
-- legislação e casos omissos;
-- execução ou fornecimento;
-- preço, pagamento, reajuste e atualização;
-- medição, liquidação e pagamento;
-- etapas, conclusão, entrega, observação e recebimento;
-- crédito orçamentário;
-- matriz de riscos, quando cabível;
-- respostas à repactuação e ao reequilíbrio;
-- garantias, inclusive por antecipação;
-- garantia mínima, manutenção e assistência;
-- direitos, deveres, penalidades e multas;
-- importação e câmbio;
-- manutenção da habilitação/qualificação;
-- reserva de cargos para PCD, reabilitado e aprendiz;
-- modelo de gestão;
-- casos de extinção.
+| Bloco | Lembretes do art. 92 |
+|---|---|
+| objeto e fonte | objeto; edital/proposta ou ato direto/proposta; legislação |
+| execução | regime/fornecimento; prazos; recebimento; gestão; extinção |
+| preço | preço; pagamento; reajuste/data-base; medição; respostas a repactuação/reequilíbrio |
+| orçamento e risco | crédito; matriz quando cabível; garantias |
+| pós-entrega | garantia mínima; manutenção; assistência; importação/câmbio |
+| deveres | direitos/responsabilidades; penalidades; habilitação; reservas legais de cargos |
 
 ## Cláusulas especiais
 
@@ -189,9 +185,8 @@
 - Contínuo: necessidade permanente/prolongada.
 - Até cinco anos iniciais: demonstrar vantagem plurianual.
 - Início e cada exercício: crédito + vantagem.
-- Falta de crédito/desvantagem: extinção sem ônus no próximo aniversário, com ciência mínima de dois meses.
-- Dois meses contam-se de data a data; comunicação federal tardia desloca o término para dois meses após a ciência.
-- Antes do aniversário, a Administração pode extinguir com ônus, mediante motivação.
+- **Lei, art. 106:** falta de crédito/desvantagem permite optar pela extinção; sem ônus, aplica-se a próxima data de aniversário e a regra temporal de dois meses do § 1º.
+- **ON AGU nº 98/2025 — esfera federal:** interpreta os dois meses como prazo mínimo para ciência; antes do aniversário admite extinção com ônus.
 - Prorrogação até dez anos: previsão + vantagem + termo antes do fim.
 - Prorrogação de contínuo não é automática nem direito do contratado.
 - Escopo: entrega específica; objeto incompleto prorroga vigência automaticamente.
@@ -201,6 +196,9 @@
 ## Outros regimes
 
 - Prazo de lei especial é preservado.
+- Art. 108: até 10 anos apenas nas dispensas especificamente enumeradas.
+- **Corte de 6/7/2026:** art. 75, XVI, ainda tratava de insumos estratégicos para a saúde produzidos por fundação nas condições legais.
+- **Pós-edital (21/7/2026):** Lei nº 15.471/2026 passou a tratar de produtos estratégicos para a saúde fornecidos por produtores públicos por intermédio de fundação.
 - Fornecimento + serviço associado: entrega inicial + operação/manutenção de até cinco anos, prorrogável pelo art. 107.
 - Prazo indeterminado não vale para qualquer serviço contínuo: exige monopólio.
 - Contrato de 35 anos exige benfeitoria permanente paga só pelo contratado e revertida ao patrimônio público.
@@ -214,4 +212,5 @@
 - matriz distribui riscos, não elimina todo reequilíbrio;
 - cinco anos é vigência inicial; dez é teto do contínuo;
 - escopo incompleto prorroga, mas atraso culposo continua sancionável;
-- orientação federal não se aplica automaticamente ao TCE-MA.
+- orientação federal não se aplica automaticamente ao TCE-MA;
+- norma pós-edital não substitui silenciosamente a regra vigente em 6/7/2026.
