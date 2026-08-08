@@ -46,10 +46,55 @@ test('customizes the integrated reading mode without changing the normal page', 
   await expect(focus).not.toHaveAttribute('style', /--reading-/);
 });
 
+test('uses the study shell width normally and preserves the focus content width', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto(`/concursos/${contest}/${subjectSlug}/`);
+
+  const normalGeometry = await page.evaluate(() => {
+    const shellRect = document.querySelector<HTMLElement>('.study-shell')!.getBoundingClientRect();
+    const surfaceRect = document.querySelector<HTMLElement>('.reading-surface')!.getBoundingClientRect();
+    const articleRect = document.querySelector<HTMLElement>('.reading-surface > article')!.getBoundingClientRect();
+    return {
+      articleWidth: articleRect.width,
+      surfaceLeftDelta: Math.abs(surfaceRect.left - shellRect.left),
+      surfaceRightDelta: Math.abs(surfaceRect.right - shellRect.right),
+      surfaceWidth: surfaceRect.width,
+    };
+  });
+  expect(normalGeometry.surfaceLeftDelta).toBeLessThan(1);
+  expect(normalGeometry.surfaceRightDelta).toBeLessThan(1);
+
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  const article = page.locator('.reading-surface > article');
+  const focusedArticleWidth = await article.evaluate((element) => element.getBoundingClientRect().width);
+  const focusedSurfaceWidth = await page.locator('.reading-surface').evaluate(
+    (element) => element.getBoundingClientRect().width,
+  );
+  expect(focusedArticleWidth).toBeLessThan(normalGeometry.articleWidth);
+  expect(focusedSurfaceWidth).toBeLessThan(normalGeometry.surfaceWidth);
+
+  await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  await page.locator('#reading-content-width').evaluate((element: HTMLInputElement) => {
+    element.value = '52';
+    element.dispatchEvent(new Event('input', { bubbles: true }));
+  });
+  await expect
+    .poll(() => page.locator('[data-reading-focus]').evaluate((element) =>
+      getComputedStyle(element).getPropertyValue('--reading')))
+    .toBe('52ch');
+  await expect
+    .poll(() => article.evaluate((element) => element.getBoundingClientRect().width))
+    .toBeLessThan(focusedArticleWidth);
+});
+
 test('prints the integrated mode with a light palette after selecting a dark preset', async ({ page }) => {
   await page.goto(readingUrl);
   await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
   await page.getByRole('button', { name: 'Escuro', exact: true }).click();
+  await page.locator('#reading-content-width').evaluate((element: HTMLInputElement) => {
+    element.value = '52';
+    element.dispatchEvent(new Event('input', { bubbles: true }));
+  });
   await expect(page.locator('[data-reading-focus]')).toHaveAttribute('data-reading-scheme', 'escuro');
   await expect(page.locator('.reading-surface')).toHaveCSS('background-color', 'rgb(20, 24, 26)');
   await expect(page.locator('.reading-surface article')).toHaveCSS('color', 'rgb(231, 236, 232)');
@@ -58,6 +103,12 @@ test('prints the integrated mode with a light palette after selecting a dark pre
   await expect(page.locator('[data-reading-focus]')).toHaveCSS('color-scheme', 'light');
   await expect(page.locator('.reading-surface')).toHaveCSS('background-color', 'rgb(255, 255, 255)');
   await expect(page.locator('.reading-surface article')).toHaveCSS('color', 'rgb(0, 0, 0)');
+  await expect(page.locator('.reading-surface article')).toHaveCSS('max-width', 'none');
+  const printWidths = await page.evaluate(() => ({
+    article: document.querySelector<HTMLElement>('.reading-surface > article')!.getBoundingClientRect().width,
+    surface: document.querySelector<HTMLElement>('.reading-surface')!.getBoundingClientRect().width,
+  }));
+  expect(Math.abs(printWidths.article - printWidths.surface)).toBeLessThan(1);
 });
 
 test('personalizes typography and persists it across reloads', async ({ page, kvStore }) => {
