@@ -6,6 +6,8 @@ const subject = 'leitura-interpretacao-tipos-generos';
 const subjectTitle = 'Leitura, compreensão e interpretação de textos';
 const contestUrl = `/concursos/${contest}/`;
 const base = `${contestUrl}${subject}`;
+const secondSubject = 'tipos-generos-textuais';
+const lastSubjectInCategory = 'reescrita-generos-formalidade';
 const routes = [
   { path: `${base}/`, active: 'Conteúdo' },
   { path: `${base}/cheat-sheet/`, active: 'Cheat sheet' },
@@ -17,10 +19,10 @@ const tabLinks = [
   { name: 'Questões', href: `${base}/questoes/` },
 ] as const;
 
-const tabs = (page: Page) => page.getByRole('navigation', { name: 'Modos de estudo do assunto' });
+const tabs = (page: Page) => page.getByRole('navigation', { name: 'Navegação do assunto' });
 const actions = (page: Page) => page.getByRole('group', { name: 'Ações do assunto' });
 
-test('keeps the three content destinations exclusively in the horizontal tabs', async ({ page }) => {
+test('keeps the three study modes centered between category navigation controls', async ({ page }) => {
   for (const route of routes) {
     await page.goto(route.path);
     const navigation = tabs(page);
@@ -28,9 +30,19 @@ test('keeps the three content destinations exclusively in the horizontal tabs', 
     await expect(page.locator('.subject-heading > p:last-child')).not.toBeEmpty();
     await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
 
-    await expect(navigation.getByRole('link')).toHaveCount(3);
+    await expect(navigation.locator('.subject-tab-link')).toHaveCount(3);
     for (const link of tabLinks) {
       await expect(navigation.getByRole('link', { name: link.name })).toHaveAttribute('href', link.href);
+    }
+
+    await expect(navigation.getByRole('button', { name: 'Não há assunto anterior nesta categoria' })).toBeDisabled();
+    await expect(navigation.getByRole('link', { name: /^Próximo assunto na categoria:/ })).toHaveAttribute(
+      'href',
+      `${contestUrl}${secondSubject}/`,
+    );
+    await expect(navigation.locator('.subject-tabs-adjacent svg')).toHaveCount(2);
+    for (const icon of await navigation.locator('.subject-tabs-adjacent svg').all()) {
+      await expect(icon).toHaveAttribute('aria-hidden', 'true');
     }
 
     const current = navigation.locator('[aria-current="page"]');
@@ -59,6 +71,22 @@ test('keeps the three content destinations exclusively in the horizontal tabs', 
     }
     await expect(page.getByRole('navigation', { name: 'Atalhos do assunto' })).toHaveCount(0);
   }
+});
+
+test('restricts previous and next controls to the immediate category', async ({ page }) => {
+  await page.goto(`${contestUrl}${secondSubject}/`);
+  let navigation = tabs(page);
+  await expect(navigation.getByRole('link', { name: /^Assunto anterior na categoria:/ })).toHaveAttribute(
+    'href',
+    `${base}/`,
+  );
+  await expect(navigation.getByRole('link', { name: /^Próximo assunto na categoria:/ })).toBeVisible();
+
+  await page.goto(`${contestUrl}${lastSubjectInCategory}/`);
+  navigation = tabs(page);
+  await expect(navigation.getByRole('link', { name: /^Assunto anterior na categoria:/ })).toBeVisible();
+  await expect(navigation.getByRole('link', { name: /^Próximo assunto na categoria:/ })).toHaveCount(0);
+  await expect(navigation.getByRole('button', { name: 'Não há próximo assunto nesta categoria' })).toBeDisabled();
 });
 
 test('keeps the tabs sticky and the action bar clear of content on desktop and mobile', async ({ page }) => {
@@ -107,11 +135,17 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
 
     const geometry = await page.evaluate(() => {
       const actionBar = document.querySelector<HTMLElement>('[data-subject-action-bar]')!;
+      const tabs = document.querySelector<HTMLElement>('.subject-tabs')!;
+      const tabLinks = tabs.querySelector<HTMLElement>('.subject-tabs-links')!;
       const surface = document.querySelector<HTMLElement>('.reading-surface')!;
       const shell = document.querySelector<HTMLElement>('.study-shell')!;
       const actionRect = actionBar.getBoundingClientRect();
+      const tabsRect = tabs.getBoundingClientRect();
+      const tabLinksRect = tabLinks.getBoundingClientRect();
       const surfaceStyle = getComputedStyle(surface);
       const shellStyle = getComputedStyle(shell);
+      const adjacentControls = Array.from(tabs.querySelectorAll<HTMLElement>('.subject-tabs-adjacent'))
+        .map((control) => control.getBoundingClientRect());
       const controls = Array.from(actionBar.querySelectorAll<HTMLElement>('button, a'))
         .filter((control) => control.getClientRects().length > 0)
         .map((control) => control.getBoundingClientRect());
@@ -129,6 +163,17 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
         controlsHaveTouchSize: controls.every(
           (control) => control.width >= 44 && control.height >= 44,
         ),
+        adjacentControlsAreSquare: adjacentControls.every(
+          (control) => Math.abs(control.width - control.height) < 1,
+        ),
+        adjacentControlsTouchEdges:
+          Math.abs(adjacentControls[0].left - tabsRect.left) < 1 &&
+          Math.abs(adjacentControls[1].right - tabsRect.right) < 1,
+        tabsAreCentered:
+          Math.abs(
+            (tabLinksRect.left + tabLinksRect.right) / 2 -
+              (tabsRect.left + tabsRect.right) / 2,
+          ) < 1,
         studyBottomPadding: Number.parseFloat(shellStyle.paddingBottom),
         viewportHeight: window.innerHeight,
         viewportWidth: window.innerWidth,
@@ -142,6 +187,9 @@ test('keeps the tabs sticky and the action bar clear of content on desktop and m
     expect(geometry.studyBottomPadding).toBeLessThan(64);
     expect(geometry.controlsAreVertical).toBe(true);
     expect(geometry.controlsHaveTouchSize).toBe(true);
+    expect(geometry.adjacentControlsAreSquare).toBe(true);
+    expect(geometry.adjacentControlsTouchEdges).toBe(true);
+    expect(geometry.tabsAreCentered).toBe(true);
     expect(geometry.hasHorizontalOverflow).toBe(false);
   }
 });

@@ -73,7 +73,7 @@ const contestTitleStart = contestMiddleTruncated
       currentSubjectId={currentSubjectId}
     />
 
-    <SubjectNavigation contestSlug={contest.slug} subjectSlug={subject.slug} active={active} />
+    <SubjectNavigation contest={contest} subject={subject} active={active} />
 
     {
       active === 'content' ? (

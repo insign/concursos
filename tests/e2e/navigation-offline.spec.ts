@@ -131,7 +131,7 @@ test('restores once and preserves explicit navigation after an offline restart',
   await expect(explicitPage.getByRole('heading', { name: 'Fundamentos de administração pública', level: 1 })).toBeVisible();
 
   await explicitPage
-    .getByRole('navigation', { name: 'Modos de estudo do assunto' })
+    .getByRole('navigation', { name: 'Navegação do assunto' })
     .getByRole('link', { name: 'Cheat sheet' })
     .click();
   await expect(explicitPage).toHaveURL(new RegExp(`${cheatSheetRoute.replaceAll('/', '\\/')}$`));
