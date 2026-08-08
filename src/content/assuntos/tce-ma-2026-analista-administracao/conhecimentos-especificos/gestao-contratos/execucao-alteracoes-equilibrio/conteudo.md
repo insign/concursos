@@ -14,7 +14,7 @@ Este assunto examina a fase de execução contratual disciplinada pelos arts. 11
 
 O estudo se concentra no regime geral nacional da Lei nº 14.133/2021. Orientações do Tribunal de Contas da União (TCU), da Advocacia-Geral da União (AGU) e do Ministério da Gestão e da Inovação em Serviços Públicos (MGI) ajudam a interpretar e aplicar a lei no âmbito federal, mas não devem ser confundidas com regras automaticamente vinculantes para todos os entes federativos.
 
-> **Corte de atualização:** legislação e orientações consultadas até 15 de julho de 2026.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Atualizações legislativas posteriores devem ser identificadas como **pós-edital**. O Tema 1118 do STF, julgado em fevereiro de 2025 e transitado em julgado em abril de 2025, integra o recorte jurisprudencial anterior ao edital.
 
 ## 1. Execução fiel e continuidade do contrato
 
@@ -36,7 +36,7 @@ Nas contratações de obras, se a situação durar **mais de um mês**, a Admini
 
 ### 1.2 Licenciamento ambiental
 
-Quando a responsabilidade pelo licenciamento ambiental couber à Administração, a manifestação prévia ou a licença prévia, conforme o caso, deverá ser obtida **antes da divulgação do edital**. A exigência evita licitar empreendimento cuja viabilidade ambiental básica ainda não tenha sido examinada.
+Nas **contratações de obras e serviços de engenharia**, quando a responsabilidade pelo licenciamento ambiental couber à Administração, a manifestação prévia ou a licença prévia, conforme o caso, deverá ser obtida **antes da divulgação do edital**. A exigência evita licitar empreendimento cuja viabilidade ambiental básica ainda não tenha sido examinada.
 
 ## 2. Reserva de cargos como obrigação de execução
 
@@ -101,6 +101,19 @@ Não se deve ampliar a exceção:
 - ela não se aplica indistintamente a qualquer contrato administrativo;
 - a responsabilidade trabalhista subsidiária exige comprovação de falha na fiscalização;
 - a lei diferencia responsabilidade solidária previdenciária e subsidiária trabalhista.
+
+#### Tema 1118 do STF — complemento jurisprudencial
+
+O STF fixou, com repercussão geral no **Tema 1118 (RE 1.298.647/SP)**, critérios vinculantes para a responsabilização subsidiária trabalhista da Administração em contratos de terceirização. O julgamento foi concluído em 13 de fevereiro de 2025 e transitou em julgado em 29 de abril de 2025, portanto antes do edital.
+
+| Ponto | Regra do Tema 1118 |
+| --- | --- |
+| ônus da prova | a responsabilidade não pode decorrer apenas da inversão do ônus da prova; cabe à parte autora comprovar comportamento negligente ou nexo causal entre o dano e a conduta administrativa |
+| negligência | há comportamento negligente quando a Administração permanece inerte após receber notificação formal e idônea de descumprimento de obrigações trabalhistas pela contratada |
+| ambiente de trabalho | quando o trabalho ocorre em dependências da Administração ou em local previamente convencionado, cabe ao poder público garantir condições de segurança, higiene e salubridade |
+| prevenção na terceirização | a Administração deve exigir capital social integralizado compatível com o número de empregados e adotar medidas do art. 121, § 3º, para assegurar o cumprimento das obrigações trabalhistas |
+
+A tese não torna a Administração imune à responsabilidade subsidiária: ela afasta a responsabilização fundada **somente** na ausência de prova administrativa de fiscalização e exige demonstração efetiva da negligência ou do nexo causal.
 
 ### 5.2 Medidas preventivas da Administração
 
@@ -224,7 +237,7 @@ A matriz de riscos é decisiva: risco expressamente assumido pelo contratado nã
 
 ### 13.3 Momento do pedido
 
-A extinção do contrato não impede o reconhecimento do desequilíbrio, desde que o pedido tenha sido formulado **durante a vigência** e antes de eventual prorrogação. O requisito protege a análise contemporânea dos fatos e impede que a parte prorrogue o ajuste sem ressalva e somente depois reclame evento já conhecido.
+A extinção do contrato não impede o reconhecimento do desequilíbrio, desde que o pedido tenha sido formulado **durante a vigência** e antes de eventual prorrogação **nos termos do art. 107**. O requisito protege a análise contemporânea dos fatos e impede que, em contratos contínuos sujeitos ao art. 107, a parte prorrogue o ajuste sem ressalva e somente depois reclame evento já conhecido.
 
 ### 13.4 Tributos e encargos legais
 
@@ -253,7 +266,7 @@ O órgão ou entidade contratante tampouco pode vincular-se a disposições de i
 
 O contratado deve vincular o pedido à demonstração analítica da variação dos custos, mediante planilha de custos e formação de preços ou novo acordo, convenção ou sentença normativa que o fundamente.
 
-A Administração deve responder ao pedido no prazo estipulado no contrato. A orientação federal do TCU e da AGU reconhece que o contratado deve pleitear a repactuação de forma tempestiva, antes de prorrogar o contrato sem ressalva ou de encerrar o ajuste, sob pena de preclusão lógica. Trata-se de interpretação administrativa relevante, não de prazo de decadência literalmente fixado pelo art. 135.
+A Administração deve responder ao pedido no prazo estipulado no contrato. **Orientação federal, e não prazo literal do art. 135:** TCU e AGU reconhecem que o contratado deve pleitear a repactuação de forma tempestiva, antes de prorrogar o contrato sem ressalva ou de encerrar o ajuste, sob pena de preclusão lógica.
 
 ## 15. Apostila e termo aditivo
 
@@ -284,6 +297,7 @@ Ao resolver uma questão, siga esta sequência:
 
 - afirmar que a fiscalização exclui a responsabilidade do contratado;
 - transferir automaticamente encargos trabalhistas à Administração;
+- atribuir responsabilidade subsidiária à Administração apenas porque ela não demonstrou a fiscalização, contrariando o Tema 1118/STF;
 - aplicar a responsabilidade especial da dedicação exclusiva a qualquer contrato;
 - admitir subcontratação total ou sem avaliação de capacidade;
 - tratar alteração unilateral e alteração por acordo como equivalentes;
@@ -299,7 +313,8 @@ Ao resolver uma questão, siga esta sequência:
 
 ## Referências
 
-- [Lei nº 14.133, de 1º de abril de 2021 — texto atualizado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Presidência da República. Arts. 6º, 7º, 22, 92, 115 a 136. Versão vigente consultada em 16 jul. 2026.
+- [Lei nº 14.133, de 1º de abril de 2021 — texto atualizado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Presidência da República. Arts. 6º, 7º, 22, 92, 115 a 136. Aplicada segundo o corte legislativo de 6 jul. 2026.
+- [Tema 1118 da repercussão geral — RE 1.298.647/SP](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1118). Supremo Tribunal Federal. Tese sobre ônus da prova, negligência administrativa e medidas preventivas em contratos de terceirização; mérito julgado em 13 fev. 2025 e trânsito em julgado em 29 abr. 2025.
 - [Execução do contrato](https://licitacoesecontratos.tcu.gov.br/6-1-execucao-do-contrato/). Tribunal de Contas da União, Manual de Licitações e Contratos. Consultado em 16 jul. 2026.
 - [Alteração unilateral](https://licitacoesecontratos.tcu.gov.br/6-2-1-unilateral-2/). Tribunal de Contas da União, Manual de Licitações e Contratos. Consultado em 16 jul. 2026.
 - [Reequilíbrio econômico-financeiro: recomposição ou revisão](https://licitacoesecontratos.tcu.gov.br/6-2-2-1-1-reequilibrio-economico-financeiro-recomposicao-ou-revisao-2/). Tribunal de Contas da União, Manual de Licitações e Contratos. Consultado em 16 jul. 2026.

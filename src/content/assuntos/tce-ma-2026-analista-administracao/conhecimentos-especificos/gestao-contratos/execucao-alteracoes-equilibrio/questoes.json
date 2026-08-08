@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1644",
@@ -826,6 +826,21 @@
       ],
       "correctOptionId": "e",
       "explanation": "O art. 133, IV, excepciona a vedação de alterar valores na integrada e semi-integrada quando ocorre evento superveniente alocado na matriz como responsabilidade da Administração. A matriz deve ser respeitada e o impacto demonstrado. Fonte: questão autoral baseada em referências do conteúdo."
+    },
+    {
+      "id": "q1699",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo a tese vinculante do STF no Tema 1118, sobre responsabilidade subsidiária da Administração Pública por encargos trabalhistas de empresa terceirizada, assinale a alternativa correta.",
+      "options": [
+        { "id": "a", "text": "A responsabilidade pode ser imposta exclusivamente porque a Administração não comprovou em juízo que fiscalizou o contrato." },
+        { "id": "b", "text": "Cabe à parte autora comprovar comportamento negligente ou nexo causal; a inércia administrativa após notificação formal idônea do inadimplemento trabalhista caracteriza negligência." },
+        { "id": "c", "text": "O simples inadimplemento da contratada gera responsabilidade objetiva e automática da Administração." },
+        { "id": "d", "text": "A notificação formal é irrelevante, pois a negligência somente existe depois de decisão judicial definitiva contra a contratada." },
+        { "id": "e", "text": "O Tema 1118 afastou as medidas preventivas previstas no art. 121, § 3º, da Lei nº 14.133/2021." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "No Tema 1118 (RE 1.298.647/SP), o STF afastou a responsabilização subsidiária fundada apenas na inversão do ônus da prova e exigiu que a parte autora demonstre comportamento negligente ou nexo causal. A tese considera negligente a inércia da Administração após notificação formal idônea de descumprimento trabalhista e reforça a adoção das medidas preventivas do art. 121, § 3º. Fonte: questão autoral baseada na tese vinculante do STF, julgada em 13/2/2025 e transitada em julgado em 29/4/2025."
     }
   ]
 }
