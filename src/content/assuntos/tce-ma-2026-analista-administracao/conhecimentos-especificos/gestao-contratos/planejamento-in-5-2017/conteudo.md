@@ -16,7 +16,7 @@ Os Assuntos 132 a 135 tratarão da seleção do fornecedor, da gestão e fiscali
 
 A IN nº 5/2017 tem âmbito federal. Ela integra o edital do concurso, mas não se converte automaticamente em regulamento organizacional do TCE-MA. Para contratações federais submetidas à Lei nº 14.133/2021, a IN SEGES/ME nº 98/2022 autorizou sua aplicação **no que couber**. Essa cláusula exige compatibilidade com a nova Lei e com normas federais posteriores.
 
-> **Corte jurídico:** 15 de julho de 2026. **Fontes consultadas em:** 16 de julho de 2026.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
 ## 1. Como ler a IN nº 5/2017 em 2026
 
@@ -31,13 +31,17 @@ A IN nº 5/2017 não foi integralmente revogada pela Lei nº 14.133/2021. També
 
 Exemplo decisivo: a IN nº 49/2020 alterou o art. 24 da IN nº 5/2017 e revogou seus §§ 1º a 6º e o Anexo III. Nas contratações federais regidas pela Lei nº 14.133/2021, o conteúdo atual dos ETP está na IN SEGES nº 58/2022. Estudar o antigo Anexo III como vigente produz respostas erradas.
 
+A mesma cautela vale para outros documentos da fase preparatória. O **DFD** que fundamenta o Plano de Contratações Anual federal segue o Decreto nº 10.947/2022, enquanto o **Termo de Referência** para bens e serviços no regime federal da Lei nº 14.133/2021 é disciplinado pela IN SEGES/ME nº 81/2022. A literalidade da IN nº 5/2017 continua relevante quando a questão a cobra expressamente, mas não substitui a regulamentação federal superveniente.
+
 ### 1.2 Âmbito direto e referências qualificadas
 
 | Fonte | Destinatário direto no recorte | Função no estudo |
 | --- | --- | --- |
 | IN nº 5/2017 | Administração federal direta, autárquica e fundacional | procedimento de serviços sob execução indireta |
 | IN nº 98/2022 | mesma Administração federal | autoriza usar a IN nº 5/2017 sob a Lei nº 14.133/2021, no que couber |
+| Decreto nº 10.947/2022 | Administração federal direta, autárquica e fundacional | PCA, PGC e DFD que fundamenta o planejamento anual |
 | IN nº 58/2022 | Administração federal e entes que executem transferências voluntárias da União nas condições do art. 2º | disciplina atual dos ETP federais |
+| IN nº 81/2022 | Administração federal e entes nas condições de seu art. 2º | disciplina atual do TR para bens e serviços |
 | Decreto nº 9.507/2018 | Administração federal e estatais controladas pela União, conforme regras próprias | execução indireta e vedações federais |
 | Lei nº 14.133/2021 | entes abrangidos pelo art. 1º | normas gerais e fase preparatória atual |
 
@@ -112,7 +116,7 @@ O art. 17 identifica dedicação exclusiva quando o modelo exige, entre outros r
 2. não compartilhamento dos recursos humanos e materiais daquela contratação com outros contratos;
 3. possibilidade de fiscalização da distribuição, controle e supervisão dos recursos alocados.
 
-O parágrafo único do art. 17 da IN nº 5/2017 admite literalmente a prestação fora das dependências do órgão, desde que não ocorra nas dependências da contratada e estejam presentes o não compartilhamento e a fiscalização. Há, porém, tensão com o art. 6º, XVI, da Lei nº 14.133/2021, que inclui a disponibilidade dos empregados nas dependências do contratante entre os requisitos do regime. Como a IN nº 98/2022 autoriza a norma de serviços apenas **no que couber**, o parágrafo infralegal não deve ser usado como exceção genérica à definição legal. Uma leitura conciliadora exige que o local externo possa ser tratado, no caso concreto, como ambiente sob disponibilidade e controle do contratante. Dedicação exclusiva é característica do **modelo de execução**, não qualidade inevitável do objeto.
+O parágrafo único do art. 17 da IN nº 5/2017 admite literalmente a prestação fora das dependências do órgão, desde que não ocorra nas dependências da contratada e estejam presentes o não compartilhamento e a fiscalização. Há, porém, tensão com o art. 6º, XVI, da Lei nº 14.133/2021, que inclui a disponibilidade dos empregados nas dependências do contratante entre os requisitos do regime. Como a IN nº 98/2022 autoriza a norma de serviços apenas **no que couber**, a regra infralegal não deve ser usada para afastar genericamente a definição legal. Em questão de prova, diferencie a literalidade do art. 17 da IN da definição legal vigente. Dedicação exclusiva é característica do **modelo de execução**, não qualidade inevitável do objeto.
 
 Para esse regime, o gerenciamento deve contemplar obrigatoriamente o risco de inadimplemento trabalhista, previdenciário e de FGTS. Conta-Depósito Vinculada ou Pagamento pelo Fato Gerador são controles possíveis, e a escolha exige avaliação de custo-benefício.
 
@@ -141,11 +145,13 @@ O Documento de Formalização da Demanda (DFD) e a designação da equipe são *
 | consolidar | envio de DFD, ETP e riscos; definição de prazo | setor requisitante e autoridade de licitações |
 | especificar | TR/PB | setor requisitante, a partir dos estudos e riscos |
 
+Essa tabela reproduz a sequência da IN nº 5/2017. No regime federal atual da Lei nº 14.133/2021, a documentação também deve ser lida com os atos supervenientes: DFD/PCA pelo Decreto nº 10.947/2022, ETP pela IN nº 58/2022 e TR pela IN nº 81/2022.
+
 O detalhamento deve ser proporcional ao risco do objeto. Contratação direta não elimina automaticamente o planejamento: as etapas são cumpridas no que couber.
 
 ## 6. DFD e equipe de planejamento
 
-### 6.1 Conteúdo do DFD
+### 6.1 Conteúdo do DFD na IN nº 5/2017
 
 Pelo art. 21 e pelo Anexo II, o setor requisitante registra:
 
@@ -156,7 +162,22 @@ Pelo art. 21 e pelo Anexo II, o setor requisitante registra:
 
 O DFD identifica a necessidade; não deve antecipar uma solução escolhida sem comparação. Depois, ele segue ao setor de licitações.
 
-### 6.2 Formação da equipe
+### 6.2 DFD no regime federal atual do PCA
+
+No planejamento anual federal sob a Lei nº 14.133/2021, o Decreto nº 10.947/2022 define o DFD como documento que fundamenta o PCA e detalha a necessidade. Seu art. 8º prevê, no PGC:
+
+1. justificativa da necessidade;
+2. descrição sucinta do objeto;
+3. quantidade, quando couber, considerada a expectativa de consumo anual;
+4. estimativa preliminar do valor;
+5. data pretendida para conclusão da contratação;
+6. grau de prioridade;
+7. vinculação ou dependência com outro DFD, quando houver;
+8. área requisitante ou técnica e identificação do responsável.
+
+Não confunda as duas molduras: uma questão pode cobrar o art. 21/Anexo II da IN nº 5/2017 ou a disciplina atual do DFD que fundamenta o PCA federal.
+
+### 6.3 Formação da equipe
 
 A autoridade competente do setor de licitações designa formalmente a equipe e pode incluir servidores desse setor. A equipe reúne conhecimentos técnicos e de uso do objeto, licitações e contratos, entre outros. Seus integrantes devem ter ciência expressa das atribuições **antes** da designação formal.
 
@@ -227,9 +248,9 @@ O Mapa pode registrar risco, dano, probabilidade, impacto, ação preventiva, co
 
 ## 9. Termo de Referência ou Projeto Básico
 
-O TR/PB encerra o planejamento e transforma a solução estudada em obrigações executáveis. Deve partir do ETP e do gerenciamento de riscos. O setor requisitante avalia se a passagem do tempo exige atualizar esses documentos.
+O TR/PB encerra o planejamento e transforma a solução estudada em obrigações executáveis. Pela sequência literal da IN nº 5/2017, parte do ETP e do gerenciamento de riscos, e o setor requisitante avalia se a passagem do tempo exige atualizar esses documentos.
 
-O art. 30 exige, no mínimo:
+O art. 30 da IN nº 5/2017 exige, no mínimo:
 
 1. declaração do objeto;
 2. fundamentação da contratação;
@@ -243,7 +264,20 @@ O art. 30 exige, no mínimo:
 10. estimativas detalhadas de preços;
 11. adequação orçamentária.
 
-Devem ser usados, no que couber, modelos padronizados da AGU e Cadernos de Logística. A não utilização ou alteração dos modelos exige justificativa nos autos. Todos os documentos do planejamento integram o processo administrativo.
+Para **bens e serviços no regime federal atual da Lei nº 14.133/2021**, a IN SEGES/ME nº 81/2022 disciplina especificamente o TR. O art. 8º determina elaboração conjunta por servidores da área técnica e requisitante ou, quando houver, pela equipe de planejamento da contratação. O art. 9º organiza dez blocos:
+
+1. definição do objeto;
+2. fundamentação da contratação;
+3. descrição da solução como um todo;
+4. requisitos da contratação;
+5. modelo de execução do objeto;
+6. modelo de gestão do contrato;
+7. critérios de medição e pagamento;
+8. forma e critérios de seleção do fornecedor;
+9. estimativas do valor da contratação;
+10. adequação orçamentária, salvo sistema de registro de preços.
+
+A IN nº 81/2022 também exige alinhamento do TR ao PCA, ao Plano Diretor de Logística Sustentável e aos demais instrumentos de planejamento. Se houver modelo aplicável do Sistema TR Digital, sua não utilização deve ser justificada por escrito e juntada ao processo.
 
 ### 9.1 Objeto, requisitos e solução
 
@@ -306,23 +340,25 @@ O art. 31 preserva segregação: o mesmo prestador não pode executar o serviço
 
 Considere limpeza contínua de prédio federal com dedicação exclusiva:
 
-1. **DFD:** demonstra necessidade, área, data de início, quantidade inicial e razão da execução indireta.
-2. **ETP:** compara modelos, estima áreas e frequências, avalia produtividade, equipamentos, água, resíduos, parcelamento e viabilidade.
+1. **DFD:** demonstra a necessidade e registra os dados exigidos pelo regime aplicável; no PCA federal atual, observa o Decreto nº 10.947/2022.
+2. **ETP:** compara modelos, estima áreas e frequências, avalia produtividade, equipamentos, água, resíduos, parcelamento e viabilidade segundo a disciplina atual da IN nº 58/2022.
 3. **Riscos:** registra subdimensionamento, interrupção, inadequação do ambiente e inadimplemento trabalhista, com responsáveis e contingências.
-4. **TR:** contrata limpeza por resultados; define rotinas, níveis de qualidade, IMR, CBO, custos trabalhistas, modelo de gestão e medição.
+4. **TR:** contrata limpeza por resultados; define rotinas, níveis de qualidade, IMR, CBO, custos trabalhistas, modelo de gestão e medição, observada a IN nº 81/2022 no regime federal atual.
 5. **Fronteira:** julgamento das propostas, fiscalização concreta, glosas, pagamento e repactuação pertencem às fases seguintes, embora seus critérios sejam planejados agora.
 
 ## 12. Pegadinhas de prova
 
 - DFD é procedimento inicial, não quarta etapa do art. 20.
+- DFD da IN nº 5/2017 e DFD do PCA federal atual têm bases normativas distintas.
 - Fases do procedimento não se confundem com etapas do planejamento.
 - Contratação direta não dispensa planejamento de forma automática.
 - Anexo III da IN nº 5/2017 está revogado.
 - No ETP atual, cinco elementos mínimos são obrigatórios; os demais, se omitidos, exigem justificativa.
 - Levantamento de mercado compara soluções; pesquisa de preços estima o valor.
 - Serviço contínuo pode não ter dedicação exclusiva.
-- Dedicação exclusiva é definida pelo modelo de execução.
+- Dedicação exclusiva é definida pelo modelo de execução; a literalidade do art. 17 da IN não afasta genericamente o art. 6º, XVI, da Lei nº 14.133/2021.
 - Mapa de Riscos não é matriz contratual de riscos.
+- TR literal da IN nº 5/2017 não se confunde com a disciplina federal atual da IN nº 81/2022.
 - IMR mede resultado e ajusta pagamento; não é sanção automática.
 - Horas e postos são unidades excepcionais, não padrão.
 - A IN nº 5/2017 é federal e se aplica sob a Lei nº 14.133/2021 apenas no que couber.
@@ -333,10 +369,10 @@ Considere limpeza contínua de prédio federal com dedicação exclusiva:
 - objeto descrito como serviço e resultado;
 - terceirização materialmente permitida;
 - classificação do serviço motivada;
-- DFD completo e equipe ciente das atribuições;
+- DFD completo segundo o regime aplicável e equipe ciente das atribuições;
 - ETP atual, com alternativas, memórias e conclusão;
 - riscos tratados, contingências e responsáveis definidos;
-- TR/PB coerente com ETP e riscos;
+- TR/PB coerente com ETP, riscos e disciplina federal aplicável;
 - quantitativos, produtividade, custos e orçamento demonstrados;
 - medição, indicadores e resultado objetivamente verificáveis;
 - sustentabilidade, parcelamento e transição avaliados;
@@ -345,9 +381,13 @@ Considere limpeza contínua de prédio federal com dedicação exclusiva:
 
 ## Referências
 
+> As datas de consulta abaixo são posteriores ao edital e servem apenas à conferência editorial. O corte normativo da prova permanece **6 de julho de 2026**.
+
 - BRASIL. Ministério do Planejamento, Desenvolvimento e Gestão. [Instrução Normativa nº 5, de 26 de maio de 2017, texto atualizado](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada). Atualizada em 14 abr. 2026; consultada em 16 jul. 2026.
 - BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 98, de 26 de dezembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-98-de-26-de-dezembro-de-2022). Aplicação da IN nº 5/2017 sob a Lei nº 14.133/2021, consultada em 16 jul. 2026.
-- BRASIL. Ministério da Economia. [Instrução Normativa SEGES nº 58, de 8 de agosto de 2022](https://www.in.gov.br/en/web/dou/-/instrucao-normativa-seges-n-58-de-8-de-agosto-de-2022-421221597). Estudos Técnicos Preliminares federais, consultada em 16 jul. 2026.
+- BRASIL. Presidência da República. [Decreto nº 10.947, de 25 de janeiro de 2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d10947.htm). PCA, PGC e DFD federal, consultado em 16 jul. 2026.
+- BRASIL. Ministério da Economia. [Instrução Normativa SEGES nº 58, de 8 de agosto de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-no-58-de-8-de-agosto-de-2022). Estudos Técnicos Preliminares federais, consultada em 16 jul. 2026.
+- BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 81, de 25 de novembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-81-de-25-de-novembro-de-2022). Termo de Referência federal, consultada em 16 jul. 2026.
 - BRASIL. Ministério da Economia. [Instrução Normativa nº 49, de 30 de junho de 2020](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-49-de-30-de-junho-de-2020). Alteração do art. 24 e revogação do Anexo III, consultada em 16 jul. 2026.
 - BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Instrução Normativa SEGES/MGI nº 176, de 25 de novembro de 2024, texto atualizado](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-mgi-no-176-de-25-de-novembro-de-2024). Custos mínimos em dedicação exclusiva, consultada em 16 jul. 2026.
 - BRASIL. Presidência da República. [Decreto nº 12.174, de 11 de setembro de 2024, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12174.htm). Garantias trabalhistas em serviços contínuos com dedicação exclusiva, consultado em 16 jul. 2026.

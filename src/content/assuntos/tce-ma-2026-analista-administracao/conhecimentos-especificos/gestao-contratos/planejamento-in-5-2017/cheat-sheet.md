@@ -1,13 +1,22 @@
 # Planejamento da contratação segundo a IN nº 5/2017
 
-## Regime atual
+## Corte e regime atual
 
-- Âmbito direto: Administração federal direta, autárquica e fundacional.
+- **Corte de prova:** legislação vigente em **6/7/2026**.
+- Datas posteriores de consulta: conferência editorial, não ampliação do corte.
+- Âmbito direto da IN nº 5/2017: Administração federal direta, autárquica e fundacional.
 - TCE-MA: conteúdo do edital; não é regulamento interno automático.
 - Lei nº 14.133/2021: IN nº 5/2017 aplicável **no que couber** pela IN nº 98/2022.
-- Art. 24 atual: ETP conforme ato específico.
+
+| Documento | Disciplina federal atual no regime da Lei nº 14.133/2021 |
+| --- | --- |
+| DFD/PCA | Decreto nº 10.947/2022 |
+| ETP | IN nº 58/2022 |
+| TR | IN nº 81/2022 |
+| serviços sob execução indireta | IN nº 5/2017, **no que couber** |
+
+- Art. 24 atual da IN nº 5: ETP conforme ato específico.
 - Anexo III e antigos §§ 1º a 6º do art. 24: **revogados**.
-- ETP federal atual: IN nº 58/2022.
 
 ## Terceirização
 
@@ -40,7 +49,7 @@
 - Complexidade não impede serviço comum.
 - Contínuo pode ser **com ou sem** dedicação exclusiva.
 - Dedicação exclusiva é modelo de execução, não essência do objeto.
-- Fora do órgão: o art. 17 da IN admite literalmente; sob a Lei nº 14.133/2021, só se aplica **no que couber** e não afasta genericamente o requisito legal das dependências do contratante.
+- Art. 17, parágrafo único, da IN nº 5 admite literalmente certas execuções fora do órgão; sob a Lei nº 14.133/2021, a IN vale **no que couber** e não afasta genericamente o requisito legal das dependências do contratante.
 
 ## Fases x etapas
 
@@ -60,21 +69,34 @@
 
 ## DFD
 
+### IN nº 5/2017 — literalidade
+
 - necessidade + opção pela terceirização;
 - alinhamento estratégico, se houver;
 - quantidade;
 - início previsto;
 - indicação da equipe e, se necessário, futuro fiscal.
 
+### PCA federal atual — Decreto nº 10.947/2022
+
+- necessidade;
+- objeto sucinto;
+- quantidade, quando couber;
+- valor preliminar;
+- data pretendida para conclusão;
+- prioridade;
+- dependência/vinculação com outro DFD;
+- área e responsável.
+
 ## Equipe
 
-- Designação: autoridade competente do setor de licitações.
+- Designação na IN nº 5: autoridade competente do setor de licitações.
 - Pode incluir servidor desse setor.
 - Competências: técnica/uso + licitações + contratos.
 - Ciência das atribuições: **antes** da designação formal.
 - Área técnica própria pode justificar organização diversa.
 
-## ETP atual
+## ETP atual — IN nº 58/2022
 
 - Problema público → alternativas → melhor solução → viabilidade.
 - Levantamento de mercado **não** é só pesquisa de preços.
@@ -103,9 +125,6 @@
 - Omissão dos demais: justificar.
 - Modelos/Cadernos: simplificam apenas o já padronizado.
 - Mesma natureza/semelhança/afinidade: ETP e riscos comuns possíveis.
-
-### IN nº 58/2022
-
 - Facultativo: art. 75, I, II, VII e VIII; art. 90, § 7º.
 - Dispensado: art. 75, III; prorrogação de serviço/fornecimento contínuo.
 - Regras antigas da Lei nº 8.666/1993: não transpor mecanicamente.
@@ -136,7 +155,9 @@
 - Controles possíveis: conta vinculada ou fato gerador.
 - Escolha: avaliação de custo-benefício.
 
-## TR/PB: onze itens
+## TR/PB
+
+### IN nº 5/2017 — art. 30, onze itens
 
 1. objeto;
 2. fundamentação;
@@ -150,11 +171,14 @@
 10. preços detalhados;
 11. orçamento.
 
-- Elaboração: setor requisitante.
-- Base: ETP + riscos.
-- Temporalidade: reavaliar estudos e riscos.
-- Modelos AGU/Cadernos: usar no que couber; alteração exige justificativa.
-- Documentos do planejamento integram o processo.
+- Na sequência literal da IN nº 5: elaboração pelo setor requisitante, a partir de estudos e riscos.
+
+### TR federal atual — IN nº 81/2022
+
+- Elaboração: **área técnica + requisitante**, conjuntamente, ou equipe de planejamento quando houver.
+- Dez blocos: objeto; fundamentação; solução; requisitos; execução; gestão; medição/pagamento; forma e critérios de seleção; valor estimado; adequação orçamentária.
+- Alinhar ao PCA, PLS e demais instrumentos de planejamento.
+- Modelo aplicável do Sistema TR Digital: usar; não utilização deve ser justificada.
 
 ## Objeto e execução
 
@@ -186,10 +210,12 @@
 ## Pegadinhas finais
 
 - contratação direta não elimina planejamento automaticamente;
+- DFD da IN nº 5 e DFD do PCA federal atual não são a mesma moldura normativa;
 - continuidade não exige dedicação exclusiva;
 - levantamento de mercado compara soluções; pesquisa de preços estima valor;
 - Mapa não se resume ao formulário do Anexo IV;
 - posto não transforma objeto em fornecimento de trabalhador;
+- TR da IN nº 5 não substitui a disciplina federal atual da IN nº 81/2022;
 - critério de futura fiscalização deve nascer no planejamento;
 - mesmo prestador não executa e auxilia a fiscalizar o mesmo objeto;
 - seleção e gestão são fases posteriores, mesmo quando seus critérios aparecem no TR/PB.

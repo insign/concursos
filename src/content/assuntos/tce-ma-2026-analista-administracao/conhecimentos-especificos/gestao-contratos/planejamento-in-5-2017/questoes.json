@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1819",
@@ -334,7 +334,7 @@
     },
     {
       "id": "q1841",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Sobre serviço prestado fora das dependências do órgão e sua classificação como dedicação exclusiva, assinale a alternativa correta no regime atual:",
       "options": [
@@ -345,7 +345,7 @@
         { "id": "e", "text": "Apenas quando o serviço for não contínuo." }
       ],
       "correctOptionId": "c",
-      "explanation": "O parágrafo único do art. 17 da IN nº 5/2017 admite literalmente local externo, mas o art. 6º, XVI, da Lei nº 14.133/2021 inclui as dependências do contratante na definição. Pela aplicação apenas no que couber, a regra infralegal não cria exceção genérica ao requisito legal; eventual leitura conciliadora depende do controle concreto do ambiente pelo contratante. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O parágrafo único do art. 17 da IN nº 5/2017 admite literalmente a prestação fora das dependências do órgão em certas condições. Já o art. 6º, XVI, da Lei nº 14.133/2021 inclui a disponibilidade dos empregados nas dependências do contratante na definição legal. Como a IN nº 98/2022 autoriza a aplicação da IN nº 5/2017 apenas no que couber, a regra infralegal não cria exceção genérica ao requisito legal. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1842",
@@ -739,18 +739,18 @@
     },
     {
       "id": "q1868",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O TR/PB deve ser elaborado:",
+      "prompt": "Nas contratações federais regidas pela Lei nº 14.133/2021, conforme a IN SEGES/ME nº 81/2022, o Termo de Referência deve ser elaborado:",
       "options": [
-        { "id": "a", "text": "antes do DFD e sem relação com riscos." },
-        { "id": "b", "text": "pela futura contratada, depois da seleção." },
-        { "id": "c", "text": "somente pelo fiscal durante a execução." },
-        { "id": "d", "text": "como cópia de objeto anterior, sem reavaliação." },
-        { "id": "e", "text": "pelo setor requisitante, a partir do ETP e do gerenciamento de riscos, convertendo a solução em obrigações executáveis." }
+        { "id": "a", "text": "exclusivamente pelo setor requisitante, sem participação da área técnica." },
+        { "id": "b", "text": "pela futura contratada, depois da seleção do fornecedor." },
+        { "id": "c", "text": "somente pelo fiscal, durante a execução contratual." },
+        { "id": "d", "text": "conjuntamente por servidores da área técnica e requisitante ou, quando houver, pela equipe de planejamento da contratação." },
+        { "id": "e", "text": "exclusivamente pelo órgão de controle externo." }
       ],
-      "correctOptionId": "e",
-      "explanation": "O TR/PB encerra o planejamento e traduz o que foi estudado e tratado em requisitos, execução, gestão, medição e seleção. Sua elaboração compete ao setor requisitante e não pode ser delegada ao futuro contratado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "d",
+      "explanation": "O art. 8º da IN SEGES/ME nº 81/2022 determina a elaboração conjunta do TR por servidores da área técnica e requisitante ou, quando houver, pela equipe de planejamento. Essa é a disciplina federal específica do TR no regime da Lei nº 14.133/2021; a sequência literal da IN nº 5/2017 deve ser lida no que couber. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q1869",
