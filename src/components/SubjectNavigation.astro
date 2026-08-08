@@ -1,12 +1,22 @@
 ---
+import type { CatalogContest, CatalogSubject } from '../lib/catalog';
+
 interface Props {
-  contestSlug: string;
-  subjectSlug: string;
+  contest: CatalogContest;
+  subject: CatalogSubject;
   active: 'content' | 'cheat-sheet' | 'questions';
 }
 
-const { contestSlug, subjectSlug, active } = Astro.props;
-const base = `/concursos/${contestSlug}/${subjectSlug}`;
+const { contest, subject, active } = Astro.props;
+const immediateGroupId = subject.groupPath.at(-1)?.id;
+const groupSubjects = immediateGroupId
+  ? contest.subjects.filter((candidate) => candidate.groupPath.at(-1)?.id === immediateGroupId)
+  : [];
+const subjectIndex = groupSubjects.findIndex(({ id }) => id === subject.id);
+const previous = subjectIndex > 0 ? groupSubjects[subjectIndex - 1] : undefined;
+const next = subjectIndex >= 0 ? groupSubjects[subjectIndex + 1] : undefined;
+const pathFor = (slug: string) => `/concursos/${contest.slug}/${slug}/`;
+const base = `/concursos/${contest.slug}/${subject.slug}`;
 const links = [
   { id: 'content', label: 'Conteúdo', href: `${base}/` },
   { id: 'cheat-sheet', label: 'Cheat sheet', href: `${base}/cheat-sheet/` },
@@ -14,8 +24,76 @@ const links = [
 ] as const;
 ---
 
-<nav class="subject-tabs print-hidden" aria-label="Modos de estudo do assunto">
-  {links.map((link) => (
-    <a href={link.href} aria-current={active === link.id ? 'page' : undefined}>{link.label}</a>
-  ))}
+<nav class="subject-tabs print-hidden" aria-label="Navegação do assunto">
+  {
+    previous ? (
+      <a
+        class="subject-tabs-adjacent subject-tabs-previous"
+        href={pathFor(previous.slug)}
+        rel="prev"
+        aria-label={`Assunto anterior na categoria: ${previous.title}`}
+        title={previous.title}
+      >
+        <svg class="subject-tabs-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m15 18-6-6 6-6" />
+          <path d="M9 12h10" />
+        </svg>
+      </a>
+    ) : (
+      <button
+        type="button"
+        class="subject-tabs-adjacent subject-tabs-previous"
+        aria-label="Não há assunto anterior nesta categoria"
+        disabled
+      >
+        <svg class="subject-tabs-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m15 18-6-6 6-6" />
+          <path d="M9 12h10" />
+        </svg>
+      </button>
+    )
+  }
+
+  <div class="subject-tabs-modes">
+    <div class="subject-tabs-links">
+      {links.map((link) => (
+        <a
+          class="subject-tab-link"
+          href={link.href}
+          aria-current={active === link.id ? 'page' : undefined}
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  {
+    next ? (
+      <a
+        class="subject-tabs-adjacent subject-tabs-next"
+        href={pathFor(next.slug)}
+        rel="next"
+        aria-label={`Próximo assunto na categoria: ${next.title}`}
+        title={next.title}
+      >
+        <svg class="subject-tabs-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m9 18 6-6-6-6" />
+          <path d="M15 12H5" />
+        </svg>
+      </a>
+    ) : (
+      <button
+        type="button"
+        class="subject-tabs-adjacent subject-tabs-next"
+        aria-label="Não há próximo assunto nesta categoria"
+        disabled
+      >
+        <svg class="subject-tabs-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m9 18 6-6-6-6" />
+          <path d="M15 12H5" />
+        </svg>
+      </button>
+    )
+  }
 </nav>

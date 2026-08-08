@@ -27,7 +27,7 @@ test('opens the integrated reading mode with one content tree and closes through
   await expect(page.locator('[data-studied-toggle]')).toHaveCount(1);
   await expect(page.locator('.site-header')).toBeHidden();
   await expect(page.locator('.breadcrumbs')).toBeHidden();
-  await expect(page.getByRole('navigation', { name: 'Modos de estudo do assunto' })).toBeHidden();
+  await expect(page.getByRole('navigation', { name: 'Navegação do assunto' })).toBeHidden();
   const suggestions = page.locator('.subject-suggestion');
   await expect(suggestions).toHaveCount(2);
   await expect(suggestions.nth(0)).toBeHidden();

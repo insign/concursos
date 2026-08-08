@@ -1063,28 +1063,91 @@ a.subject-reading-link:hover {
   position: sticky;
   top: 0;
   z-index: 20;
-  display: flex;
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) 3rem;
+  align-items: start;
   width: min(100%, var(--reading));
   margin: 0 auto -1px;
-  overflow-x: auto;
   border-bottom: 1px solid var(--line);
   background: var(--paper);
   font-family: var(--sans);
   font-size: var(--step--1);
+}
+
+.subject-tabs-modes {
+  min-width: 0;
+  overflow-x: auto;
   scrollbar-width: thin;
 }
 
-.subject-tabs a {
-  flex: 0 0 auto;
-  padding: 0.9rem 1.1rem;
-  border-bottom: 3px solid transparent;
-  text-decoration: none;
+.subject-tabs-links {
+  display: flex;
+  width: max-content;
+  min-width: 100%;
+  justify-content: center;
 }
 
-.subject-tabs a[aria-current='page'] {
+.subject-tab-link {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  flex: 0 0 auto;
+  padding-inline: 1.1rem;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.subject-tab-link[aria-current='page'] {
   border-color: var(--signal);
   color: var(--signal);
   font-weight: 750;
+}
+
+.subject-tabs-adjacent {
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  color: var(--accent-strong);
+  background: var(--paper);
+  text-decoration: none;
+}
+
+.subject-tabs-previous {
+  border-right: 1px solid var(--line);
+}
+
+.subject-tabs-next {
+  border-left: 1px solid var(--line);
+}
+
+a.subject-tabs-adjacent:hover {
+  color: var(--signal);
+  background: var(--accent-soft);
+}
+
+.subject-tabs-adjacent:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+  opacity: 0.38;
+}
+
+.subject-tabs a:focus-visible,
+.subject-tabs button:focus-visible {
+  outline-offset: -3px;
+}
+
+.subject-tabs-icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
 }
 
 .reading-surface {
@@ -1699,7 +1762,7 @@ a.subject-pagination-link:hover {
     padding: 1.25rem 1rem 2rem;
   }
 
-  .subject-tabs a {
+  .subject-tab-link {
     padding-inline: 0.8rem;
   }
 
