@@ -54,6 +54,10 @@ test('waits for Mermaid before printing and applies the print layout', async ({ 
 });
 
 test('exposes an installable standalone manifest with reachable icons', async ({ request }) => {
+  const favicon = await request.get('/favicon.png');
+  expect(favicon.ok()).toBe(true);
+  expect(favicon.headers()['content-type']).toContain('image/png');
+
   const response = await request.get('/manifest.webmanifest');
   expect(response.ok()).toBe(true);
   const manifest = await response.json() as {

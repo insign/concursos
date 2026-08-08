@@ -92,7 +92,7 @@ export default defineConfig({
             'index.html',
             'offline/index.html',
             'navigation-catalog.json',
-            'favicon.svg',
+            'favicon.png',
             'icons/*.png',
             'manifest.webmanifest',
             '_astro/*.{css,woff,woff2,ttf}',

@@ -87,6 +87,17 @@ test('an explicit light choice overrides a dark system preference', async ({ pag
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
 });
 
+test('uses a contrasting project symbol for each active theme', async ({ page }) => {
+  await seedTheme(page, 'light');
+  await page.goto('/');
+  const mark = page.locator('.site-mark > span');
+  await expect(mark).toHaveCSS('background-image', /\/icons\/c-dark\.png/);
+
+  await page.locator('[data-theme-toggle]').click();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await expect(mark).toHaveCSS('background-image', /\/icons\/c-light\.png/);
+});
+
 test('updates the browser theme-color to match the selected theme', async ({ page }) => {
   await page.goto('/');
   const themeColor = page.locator('meta[name="theme-color"]');
