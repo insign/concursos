@@ -8,7 +8,7 @@ storageId: "encerramento-regras-finais-in5"
 
 # Encerramento e regras operacionais finais na IN nº 5/2017
 
-## 1. Delimitação e atualização normativa
+## 1. Delimitação, corte e atualização normativa
 
 A Instrução Normativa SEGES/MP nº 5/2017 disciplina a contratação de serviços no âmbito federal indicado em seu art. 1º. Este assunto fecha seu ciclo operacional com cinco blocos:
 
@@ -25,6 +25,8 @@ Três planos normativos não podem ser confundidos:
 - para licitações e contratações diretas federais sob a Lei nº 14.133/2021, a IN nº 98/2022 autorizou o uso da IN nº 5/2017 somente **no que couber**.
 
 Isso preserva técnicas operacionais compatíveis, mas não revive limites ou remissões superados da Lei nº 8.666/1993. Contratos celebrados validamente sob o regime antigo permanecem por ele regidos durante sua vigência; contratos novos sob a Lei nº 14.133/2021 seguem a nova matriz legal.
+
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
 > **Fronteira:** o art. 67 e o Anexo XI remetem ao pagamento ordinário, já estudado no Assunto 134. As causas e formas gerais de extinção, as sanções completas, a duração e as alterações da Lei nº 14.133/2021 foram estudadas nos Assuntos 127 a 130. Aqui interessa aplicar essas bases ao fechamento operacional da IN nº 5/2017.
 
@@ -88,18 +90,21 @@ Até a comprovação da quitação ou da realocação, o art. 65 determina que o
 | Garantia contratual | A garantia prestada com cobertura para inadimplemento trabalhista e previdenciário. |
 | Nota fiscal ou fatura | Valor **proporcional ao inadimplemento**, até a regularização. |
 
+Essa é a **literalidade da disciplina federal da IN nº 5/2017**. Para contratos regidos pela Lei nº 14.133/2021, sua aplicação decorre da IN SEGES/ME nº 98/2022 apenas **no que couber** e deve ser compatibilizada com a nova lei, com o edital, com o contrato e com o regulamento competente. Portanto, o art. 65 não cria, por si só, uma regra nacional autônoma de retenção aplicável indistintamente a qualquer ente ou contrato.
+
 A norma não autoriza reter indiscriminadamente toda a última fatura. O valor deve guardar relação com a obrigação não comprovada. Prestação não executada, irregularidade trabalhista, multa, dano, tributo e simples ausência de certidão são fatos diferentes e exigem fundamentos próprios.
 
-Nos contratos atuais, a compatibilidade material decorre do art. 121, § 3º, da Lei nº 14.133/2021. Mediante previsão no edital ou contrato, a Administração pode exigir garantia que cubra verbas rescisórias, condicionar pagamento à quitação de obrigações trabalhistas vencidas, usar conta vinculada, pagar diretamente verbas inadimplidas e adotar pagamento pelo fato gerador.
+Nos contratos atuais, o art. 121, § 3º, da Lei nº 14.133/2021 admite, **mediante disposição em edital ou contrato**, medidas como garantia com cobertura para verbas rescisórias, condicionamento do pagamento à quitação de obrigações trabalhistas vencidas, conta vinculada, pagamento direto de verbas inadimplidas e pagamento pelo fato gerador. A modelagem federal específica deve ser lida em conjunto com essas exigências.
 
 ### 4.1 Pagamento direto após quinze dias
 
-Se, na hipótese de retenção proporcional da nota fiscal ou fatura, a contratada não quitar as obrigações em **15 dias**, o parágrafo único do art. 65 permite que a contratante pague diretamente os empregados que participaram da execução.
+Se, na hipótese literal do art. 65, houver retenção proporcional da nota fiscal ou fatura e a contratada não quitar as obrigações em **15 dias**, o parágrafo único permite que a contratante pague diretamente os empregados que participaram da execução.
 
-Observe os verbos:
+Observe os verbos e as camadas:
 
 - reter nas hipóteses do art. 65 é dever na sistemática literal da IN;
-- pagar diretamente após o prazo é faculdade, não consequência automática.
+- pagar diretamente após o prazo é faculdade, não consequência automática;
+- em contrato novo, a utilização dessas medidas exige compatibilização com a Lei nº 14.133/2021 e com a previsão editalícia/contratual aplicável.
 
 Sob a Lei nº 14.133/2021, o pagamento direto da verba inadimplida é deduzido do que seria devido ao contratado e depende da previsão exigida pelo art. 121, § 3º. A medida é excepcional, documentada e limitada às obrigações identificadas; não deve converter a Administração em pagadora rotineira da folha nem dispensar a apuração contra a empregadora.
 
@@ -139,16 +144,9 @@ O art. 156, § 8º, ainda determina que, se multa e indenizações superarem o p
 
 Pelo art. 68 da IN nº 5/2017, identificada infração contratual, inclusive atraso na apresentação da garantia, o órgão deve autuar procedimento administrativo específico para eventual sanção e extinção. Registro de ocorrência pelo fiscal é evidência inicial, não sanção pronta.
 
-Nos contratos atuais, aplicam-se os arts. 155 a 163 da Lei nº 14.133/2021. A sequência mínima é:
+Nos contratos atuais, o enquadramento e o rito seguem os arts. 155 a 163 da Lei nº 14.133/2021: ocorrência documentada, tipificação, defesa e provas, dosimetria, decisão competente e registro dos efeitos. **Glosa, dano, sanção e extinção permanecem trilhas distintas.**
 
-1. registrar e instruir a ocorrência;
-2. enquadrar a conduta na lei, no edital e no contrato;
-3. separar glosa, dano, multa e possível extinção;
-4. assegurar defesa, provas e contraditório no rito cabível;
-5. avaliar gravidade, danos, agravantes, atenuantes e integridade;
-6. decidir por autoridade competente e registrar os efeitos.
-
-Advertência, multa, impedimento de licitar e contratar e declaração de inidoneidade são as quatro sanções atuais. Não se deve transportar, como regime geral novo, a antiga categoria de suspensão temporária do art. 87 da Lei nº 8.666/1993. Sanção não elimina o dever de reparar integralmente o dano, e extinção não é consequência automática de toda infração.
+As sanções atuais são advertência, multa, impedimento de licitar e contratar e declaração de inidoneidade. A antiga suspensão temporária do art. 87 da Lei nº 8.666/1993 não deve ser transportada como categoria geral do regime novo. Sanção não elimina o dever de reparar integralmente o dano, e extinção não é consequência automática de toda infração.
 
 ## 7. Transição contratual
 
@@ -230,7 +228,7 @@ Vantagem não se resume ao menor preço. Podem entrar na análise:
 - preços e condições praticados;
 - custos não renováveis já amortizados ou pagos.
 
-Em serviços com dedicação exclusiva, a orientação do TCU admite presumir a vantagem econômica e dispensar nova pesquisa quando o contrato vincula a mão de obra ao instrumento coletivo ou à lei e os insumos a índice oficial adequado. Se não houver instrumento coletivo para alguma categoria, ou se o índice não representar o mercado, a pesquisa volta a ser necessária.
+Na **sistemática federal do Anexo IX**, para serviços com dedicação exclusiva, admite-se presumir a vantagem econômica e dispensar nova pesquisa quando o contrato vincula a mão de obra ao instrumento coletivo ou à lei e os insumos a índice oficial adequado. Se não houver instrumento coletivo para alguma categoria, ou se o índice não representar o mercado, a pesquisa volta a ser necessária. Essa técnica da IN não se converte automaticamente em regra nacional para todos os entes.
 
 Quando não se usa pagamento pelo fato gerador, custos não renováveis já amortizados ou pagos devem ser reduzidos ou eliminados na prorrogação. Além disso, repactuação já exigível deve ser pedida ou ressalvada antes da prorrogação, sob risco de preclusão lógica.
 
@@ -238,16 +236,15 @@ Quando não se usa pagamento pelo fato gerador, custos não renováveis já amor
 
 O Anexo X também remete ao art. 65 da Lei nº 8.666/1993. Para contratos atuais, a base jurídica são os arts. 124 a 136 da Lei nº 14.133/2021.
 
-Sem repetir todo o regime, o quadro essencial é:
+Sem repetir todo o regime já estudado, o necessário para atualizar o Anexo X é:
 
-- alteração unilateral qualitativa ou quantitativa: art. 124, I;
-- alteração consensual de garantia, regime ou modo de execução, forma de pagamento ou equilíbrio: art. 124, II;
-- acréscimo ou supressão unilateral: até 25% do valor inicial atualizado;
-- reforma de edifício ou equipamento: até 50%, apenas para acréscimo;
-- proibição de transfigurar o objeto: art. 126;
-- equilíbrio recomposto no mesmo aditivo quando a mudança unilateral altera encargos: art. 130;
-- termo aditivo antes da execução da mudança, salvo antecipação justificada, formalizada em até um mês: art. 132;
-- apostila apenas para registros que não caracterizam alteração, nas hipóteses do art. 136.
+- alterações unilaterais qualitativas ou quantitativas: art. 124, I;
+- alterações consensuais de garantia, regime ou modo de execução, forma de pagamento ou equilíbrio: art. 124, II;
+- limites unilaterais: 25% do valor inicial atualizado; em reforma, 50% somente para acréscimos;
+- vedação à transfiguração do objeto: art. 126;
+- recomposição no mesmo aditivo quando a mudança unilateral altera encargos: art. 130;
+- aditivo antes da execução, salvo antecipação justificada formalizada em até um mês: art. 132;
+- apostila somente para registros que não caracterizam alteração, nas hipóteses do art. 136.
 
 ### 10.1 Instrução mínima
 
@@ -282,8 +279,8 @@ Um contrato federal de apoio administrativo com dedicação exclusiva chegará a
 A solução correta é separar as trilhas:
 
 1. fiscal administrativo confere individualmente realocação e quitação;
-2. retêm-se garantia e valor de fatura proporcional ao inadimplemento comprovado, conforme as cláusulas e o regime aplicável;
-3. após 15 dias sem quitação, avalia-se pagamento direto documentado, deduzido do crédito;
+2. aplica-se, **quando cabível no regime do contrato**, a retenção da garantia e do valor de fatura proporcional ao inadimplemento comprovado;
+3. na hipótese do art. 65 e observada a compatibilização legal, após 15 dias sem quitação avalia-se pagamento direto documentado, deduzido do crédito;
 4. a multa continua em processo próprio, com defesa;
 5. crachás e acessos são devolvidos ou revogados na transição;
 6. o manual integra a transferência de conhecimento e deve ser cobrado segundo o contrato;
@@ -305,8 +302,9 @@ Não seria correto bloquear toda a fatura sem cálculo, aplicar multa instantân
 
 - quitação e realocação são alternativas de comprovação no art. 64;
 - realocação exige continuidade do contrato de trabalho;
-- retenção de fatura deve ser proporcional ao inadimplemento;
-- pagamento direto após 15 dias é possível, não automático;
+- **art. 65 literal da IN ≠ retenção nacional automática em qualquer contrato**;
+- na literalidade do art. 65, a retenção da fatura é proporcional ao inadimplemento;
+- pagamento direto após 15 dias é possível na sistemática da IN, não automático, e exige compatibilização no contrato novo;
 - garantia retida não se torna receita pública;
 - sanção exige procedimento próprio e não se confunde com glosa;
 - transição não autoriza prestação gratuita depois da vigência;
@@ -320,10 +318,10 @@ Não seria correto bloquear toda a fatura sem cálculo, aplicar multa instantân
 
 ## Referências
 
-- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021 — Lei de Licitações e Contratos Administrativos](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Texto consolidado vigente no corte de 15 jul. 2026, especialmente arts. 50, 53, 91, 105 a 111, 121, 124 a 139 e 155 a 163. Acesso em: 16 jul. 2026.
-- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Instrução Normativa SEGES/MP nº 5, de 26 de maio de 2017](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada). Arts. 64 a 75 e Anexos VIII-B, IX e X; texto atualizado em 14 abr. 2026. Acesso em: 16 jul. 2026.
-- BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 98, de 26 de dezembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-98-de-26-de-dezembro-de-2022). Aplicação da IN nº 5/2017 no que couber nas contratações federais sob a Lei nº 14.133/2021. Acesso em: 16 jul. 2026.
-- BRASIL. Ministério do Planejamento, Desenvolvimento e Gestão. [Instrução Normativa nº 7, de 20 de setembro de 2018](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-07-de-20-de-setembro-de-2018). Alteração da transição do art. 75 e de anexos da IN nº 5/2017. Acesso em: 16 jul. 2026.
-- BRASIL. Tribunal de Contas da União. [Pagamento](https://licitacoesecontratos.tcu.gov.br/6-1-7-pagamento/). Licitações e Contratos: Orientações e Jurisprudência do TCU; tutela trabalhista, retenções e pagamento direto. Acesso em: 16 jul. 2026.
-- BRASIL. Tribunal de Contas da União. [Manutenção e prorrogação do contrato](https://licitacoesecontratos.tcu.gov.br/6-3-manutencao-e-prorrogacao-do-contrato/). Licitações e Contratos: Orientações e Jurisprudência do TCU; atualização de 29 ago. 2025. Acesso em: 16 jul. 2026.
-- BRASIL. Procuradoria-Geral da Fazenda Nacional. [Guia Prático para Pagamento Direto](https://www.gov.br/pgfn/pt-br/assuntos/consultoria-administrativa/guias-manuais-e-outras-orientacoes-aos-gestores/guia-pagamento-direto.pdf). Orientação operacional sobre o caráter excepcional do pagamento trabalhista direto. Acesso em: 16 jul. 2026.
+- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021 — Lei de Licitações e Contratos Administrativos](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Texto consolidado vigente em **6 jul. 2026**, especialmente arts. 50, 53, 91, 105 a 111, 121, 124 a 139 e 155 a 163. Acesso em: 8 ago. 2026.
+- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Instrução Normativa SEGES/MP nº 5, de 26 de maio de 2017](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada). Arts. 64 a 75 e Anexos VIII-B, IX e X; texto atualizado em 14 abr. 2026. Acesso em: 8 ago. 2026.
+- BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 98, de 26 de dezembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-98-de-26-de-dezembro-de-2022). Aplicação da IN nº 5/2017 no que couber nas contratações federais sob a Lei nº 14.133/2021. Acesso em: 8 ago. 2026.
+- BRASIL. Ministério do Planejamento, Desenvolvimento e Gestão. [Instrução Normativa nº 7, de 20 de setembro de 2018](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-07-de-20-de-setembro-de-2018). Alteração da transição do art. 75 e de anexos da IN nº 5/2017. Acesso em: 8 ago. 2026.
+- BRASIL. Tribunal de Contas da União. [Pagamento](https://licitacoesecontratos.tcu.gov.br/6-1-7-pagamento/). Licitações e Contratos: Orientações e Jurisprudência do TCU; tutela trabalhista, retenções e pagamento direto. Acesso em: 8 ago. 2026.
+- BRASIL. Tribunal de Contas da União. [Manutenção e prorrogação do contrato](https://licitacoesecontratos.tcu.gov.br/6-3-manutencao-e-prorrogacao-do-contrato/). Licitações e Contratos: Orientações e Jurisprudência do TCU; atualização de 29 ago. 2025. Acesso em: 8 ago. 2026.
+- BRASIL. Procuradoria-Geral da Fazenda Nacional. [Guia Prático para Pagamento Direto](https://www.gov.br/pgfn/pt-br/assuntos/consultoria-administrativa/guias-manuais-e-outras-orientacoes-aos-gestores/guia-pagamento-direto.pdf). Orientação operacional sobre o caráter excepcional do pagamento trabalhista direto. Acesso em: 8 ago. 2026.

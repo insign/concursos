@@ -1,7 +1,8 @@
 # Encerramento e regras finais da IN nº 5/2017
 
-## Âmbito e regime
+## Corte e regime
 
+- **Corte de prova:** legislação vigente em **6/7/2026**.
 - Lei nº 14.133/2021: norma geral aplicável aos entes abrangidos.
 - IN nº 5/2017: disciplina federal de contratação de serviços.
 - IN nº 98/2022: aplica a IN nº 5/2017 no regime novo somente **no que couber**.
@@ -44,20 +45,22 @@ Fiscal administrativo verifica:
 - exames demissionais.
 
 - Prazo de entrega: definido no contrato.
-- Análise: 30 dias, prorrogáveis justificadamente por mais 30.
+- Análise literal da IN: 30 dias, prorrogáveis justificadamente por mais 30.
 
 ## Retenções: art. 65
 
-Até comprovar quitação ou realocação, reter:
+**Literalidade federal da IN**, aplicável sob a Lei nº 14.133/2021 apenas **no que couber**:
 
 | Objeto | Medida |
 |---|---|
 | Garantia | Manter a garantia com cobertura trabalhista/previdenciária. |
 | Fatura | Reter valor **proporcional ao inadimplemento**. |
 
+- **Art. 65 literal ≠ retenção nacional automática em qualquer contrato.**
+- Contrato novo: compatibilizar com Lei nº 14.133/2021, edital, contrato e regulamento competente.
+- Art. 121, § 3º: medidas trabalhistas dependem de disposição em edital ou contrato.
 - Não reter automaticamente toda a última fatura.
-- Previsão atual: art. 121, § 3º, no edital ou contrato.
-- Após 15 dias sem quitação: contratante **pode** pagar empregados diretamente.
+- Após 15 dias sem quitação, na hipótese da IN: contratante **pode** pagar empregados diretamente.
 - Pagamento direto é deduzido do crédito da contratada.
 - É medida excepcional, não gestão ordinária da folha.
 
@@ -84,17 +87,13 @@ Até comprovar quitação ou realocação, reter:
 
 ## Sanções: art. 68
 
-1. Registrar a ocorrência.
-2. Autuar procedimento específico.
-3. Enquadrar a infração.
-4. Assegurar contraditório, defesa e provas.
-5. Dosar e decidir pela autoridade competente.
+Ocorrência → procedimento específico → enquadramento → defesa/provas → dosimetria → decisão competente.
 
 - Glosa ≠ multa.
 - Dano ≠ sanção.
 - Infração ≠ extinção automática.
 - Sanções atuais: advertência, multa, impedimento e inidoneidade.
-- Não usar a antiga suspensão temporária como categoria geral nova.
+- Antiga suspensão temporária ≠ categoria geral do regime novo.
 
 ## Transição: art. 69
 
@@ -123,7 +122,7 @@ Checklist prático:
 - reúne resultados, falhas, correções, riscos, controles, pendências e recomendações;
 - não substitui processos e documentos específicos.
 
-## Anexo IX: atualização obrigatória
+## Anexo IX: tradução para o regime atual
 
 | Tema | Regime histórico | Lei nº 14.133/2021 |
 |---|---|---|
@@ -139,7 +138,7 @@ Checklist prático:
 - Contrato expirado não pode ser prorrogado retroativamente.
 - Art. 91, § 4º: regularidade fiscal, Ceis, Cnep e certidões no processo.
 
-### Vantajosidade
+### Vantajosidade — sistemática federal do Anexo IX
 
 - preço e condições;
 - desempenho;
@@ -147,12 +146,13 @@ Checklist prático:
 - continuidade;
 - custos não renováveis.
 
-- Pesquisa pode ser dispensada se mão de obra segue instrumento coletivo/lei e insumos seguem índice adequado.
+- Pesquisa pode ser dispensada, no modelo federal pertinente, se mão de obra segue instrumento coletivo/lei e insumos seguem índice adequado.
 - Sem instrumento coletivo ou índice representativo: pesquisar.
+- Essa técnica da IN **não vira automaticamente regra nacional para qualquer ente**.
 - Sem fato gerador: eliminar custos não renováveis amortizados.
 - Repactuação exigível: pedir ou ressalvar antes da prorrogação.
 
-## Anexo X: atualização obrigatória
+## Anexo X: tradução para o regime atual
 
 - Base atual: arts. 124 a 136.
 - Unilateral: projeto/especificação ou quantidade.
@@ -187,13 +187,15 @@ Checklist prático:
 
 - quitação **ou** realocação;
 - realocação sem interrupção do vínculo;
-- fatura retida proporcionalmente;
-- pagamento direto facultativo após 15 dias;
+- **art. 65 literal da IN ≠ retenção nacional automática**;
+- na IN, fatura retida proporcionalmente;
+- pagamento direto após 15 dias: facultativo, não automático;
 - sanção em procedimento próprio;
 - transição antes e durante o encerramento;
 - relatório final alimenta planejamento;
 - 60 + 12 é regra histórica;
 - escopo é prorrogado automaticamente no regime atual;
+- pesquisa de preços do Anexo IX é técnica federal, não regra nacional automática;
 - alteração não transfigura objeto;
 - projeto-piloto não afasta lei;
 - IN federal não é regulamento automático do TCE-MA.
