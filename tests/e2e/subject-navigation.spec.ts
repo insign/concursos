@@ -265,6 +265,61 @@ test('hides on stable descent, ignores jitter and returns on ascent or focus', a
   await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
 });
 
+test('toggles from empty space, ignores content and drags, and hides after five seconds', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 720 });
+  await page.goto(`${base}/`);
+  const actionBar = actions(page);
+  await page.evaluate(() => {
+    document.documentElement.style.scrollBehavior = 'auto';
+    window.scrollTo(0, 200);
+  });
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+
+  await page.mouse.move(8, 300);
+  await page.mouse.down();
+  await page.mouse.move(24, 300);
+  await page.mouse.move(8, 300);
+  await page.mouse.up();
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+
+  await page.mouse.click(8, 300);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+  for (const [selector, pointerId] of [
+    ['.reading-surface article p', 42],
+    ['.breadcrumb-group', 43],
+  ] as const) {
+    const target = page.locator(selector).first();
+    for (const type of ['pointerdown', 'pointerup'] as const) {
+      await target.dispatchEvent(type, {
+        button: 0,
+        clientX: 100,
+        clientY: 100,
+        isPrimary: true,
+        pointerId,
+        pointerType: 'mouse',
+      });
+    }
+  }
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+  await actionBar.getByRole('link', { name: 'Voltar ao topo' }).dispatchEvent('pointerdown', {
+    button: 0,
+    isPrimary: true,
+    pointerId: 44,
+    pointerType: 'touch',
+  });
+  await page.waitForTimeout(5_100);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+
+  await page.mouse.click(8, 300);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+  await page.mouse.click(8, 300);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+  await page.evaluate(() => window.scrollBy(0, -1));
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+  await page.waitForTimeout(5_100);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+});
+
 test('uses the same direction behavior on a touch viewport', async ({ browser }) => {
   const context = await browser.newContext({
     baseURL: 'http://127.0.0.1:4321',
@@ -280,6 +335,10 @@ test('uses the same direction behavior on a touch viewport', async ({ browser })
     document.documentElement.style.scrollBehavior = 'auto';
     window.scrollTo(0, 160);
   });
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
+  await page.touchscreen.tap(4, 300);
+  await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
+  await page.touchscreen.tap(4, 300);
   await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'hidden');
   await page.evaluate(() => window.scrollTo(0, 130));
   await expect(actionBar).toHaveAttribute('data-subject-action-visibility', 'visible');
