@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q1589",
@@ -754,18 +754,18 @@
     },
     {
       "id": "q1639",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Se faltar crédito ou o contrato contínuo deixar de ser vantajoso, a extinção sem ônus prevista no art. 106:",
+      "prompt": "Nos contratos de serviços e fornecimentos contínuos, se faltar crédito orçamentário ou o ajuste deixar de oferecer vantagem, assinale a alternativa correta sobre a extinção prevista no art. 106.",
       "options": [
-        { "id": "a", "text": "ocorre no próximo aniversário contratual, assegurada ciência ao contratado com antecedência mínima de dois meses." },
-        { "id": "b", "text": "pode ocorrer retroativamente." },
-        { "id": "c", "text": "é proibida mesmo sem crédito." },
-        { "id": "d", "text": "depende de culpa do contratado." },
-        { "id": "e", "text": "transforma o contrato em prazo indeterminado." }
+        { "id": "a", "text": "A Administração pode optar pela extinção; na hipótese sem ônus do inciso III, ela somente ocorrerá na próxima data de aniversário do contrato e observará a regra temporal de dois meses do § 1º." },
+        { "id": "b", "text": "A falta de crédito é irrelevante e não pode fundamentar a extinção." },
+        { "id": "c", "text": "A extinção sem ônus pode produzir efeitos retroativos." },
+        { "id": "d", "text": "A lei exige culpa do contratado para que essa extinção seja possível." },
+        { "id": "e", "text": "O contrato torna-se automaticamente de prazo indeterminado." }
       ],
       "correctOptionId": "a",
-      "explanation": "O art. 106, III e § 1º, permite a extinção sem ônus por falta de crédito ou vantagem no próximo aniversário. A ON AGU nº 98/2025 interpreta os dois meses como antecedência mínima para ciência do contratado; antes do aniversário, a extinção pode ocorrer com ônus para a Administração. Fonte: questão autoral baseada em referências do conteúdo."
+      "explanation": "O art. 106, III e § 1º, autoriza a opção pela extinção por falta de créditos ou perda de vantagem e condiciona a extinção sem ônus à próxima data de aniversário e à regra temporal de dois meses do § 1º. Na esfera federal, a ON AGU nº 98/2025 interpreta esse período como prazo mínimo para ciência do contratado; essa orientação não deve ser confundida com norma local do TCE-MA. Fonte: questão autoral baseada em referências do conteúdo."
     },
     {
       "id": "q1640",
