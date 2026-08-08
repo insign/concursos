@@ -1,12 +1,18 @@
 # Execução, fiscalização, alterações e equilíbrio
 
+## Corte temporal
+
+- **Regra de prova:** legislação vigente em **6/7/2026**, data do edital.
+- **Tema 1118/STF:** julgamento em 13/2/2025 e trânsito em julgado em 29/4/2025; integra o recorte anterior ao edital.
+- Orientações de TCU, AGU e MGI devem ser identificadas como referências federais, não como normas automaticamente aplicáveis ao TCE-MA.
+
 ## Execução fiel
 
 - As duas partes devem cumprir o contrato e respondem pela inexecução total ou parcial.
 - A Administração não pode retardar imotivadamente obra, serviço ou parcela, inclusive por mudança de autoridade.
 - Impedimento, ordem de paralisação ou suspensão do contrato: prorrogação automática do cronograma pelo período correspondente, registrada por apostila.
 - Obra paralisada por mais de 1 mês: aviso em sítio oficial e placa visível, com motivo, responsável e previsão de reinício.
-- Licenciamento sob responsabilidade da Administração: manifestação ou licença prévia antes do edital.
+- **Obras e serviços de engenharia**, se o licenciamento for responsabilidade da Administração: manifestação ou licença prévia antes do edital.
 
 ## Reserva de cargos
 
@@ -37,6 +43,16 @@
 
 - previdenciários: responsabilidade solidária da Administração;
 - trabalhistas: responsabilidade subsidiária, se comprovada falha de fiscalização.
+
+### Tema 1118/STF
+
+| Ponto | Regra curta |
+| --- | --- |
+| mera inversão do ônus | **não basta** para responsabilizar subsidiariamente a Administração |
+| prova | parte autora deve demonstrar negligência efetiva ou nexo causal |
+| inércia | notificação formal idônea + ausência de providência = comportamento negligente |
+| ambiente | Administração garante segurança, higiene e salubridade quando o trabalho ocorre em suas dependências ou local convencionado |
+| prevenção | em terceirização, exigir capital social compatível e adotar medidas do art. 121, § 3º |
 
 **Medidas possíveis:** garantia para verbas rescisórias, pagamento condicionado à quitação, conta vinculada, pagamento direto com dedução e pagamento pelo fato gerador.
 
@@ -120,7 +136,7 @@
 - Deve respeitar a matriz de riscos.
 - Não tem periodicidade mínima.
 - Inflação normal ou câmbio previsível, isoladamente, não bastam.
-- Pedido durante a vigência e antes da prorrogação pode ser reconhecido mesmo após a extinção.
+- Pedido durante a vigência e antes de eventual prorrogação **nos termos do art. 107** pode ser reconhecido mesmo após a extinção.
 - Tributo ou encargo legal superveniente com impacto comprovado: revisão para mais ou para menos.
 
 ### Repactuação
@@ -133,7 +149,7 @@
 - Pode ser parcelada; anualidade vale separadamente para cada parcela.
 - Instrumento coletivo deve corresponder à categoria profissional envolvida.
 - Não vincula cláusulas sobre obrigações e direitos aplicáveis somente a contratos com a Administração.
-- Orientação federal: pedir antes de prorrogar sem ressalva ou extinguir o contrato, sob pena de preclusão lógica.
+- **Orientação federal, não texto literal do art. 135:** pedir antes de prorrogar sem ressalva ou extinguir o contrato, sob pena de preclusão lógica.
 
 ## Apostila ou aditivo?
 
@@ -157,6 +173,7 @@
 
 - Fiscalizar não é assumir a execução.
 - Encargo trabalhista não se transfere automaticamente.
+- Tema 1118: ausência de prova de fiscalização pela Administração, isoladamente, não basta para responsabilidade subsidiária.
 - Subcontratação parcial não rompe a responsabilidade do contratado principal.
 - 50% em reforma vale apenas para acréscimo.
 - Percentuais incidem sobre o valor inicial atualizado.
