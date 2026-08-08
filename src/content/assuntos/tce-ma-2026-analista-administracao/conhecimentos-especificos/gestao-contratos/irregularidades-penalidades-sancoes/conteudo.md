@@ -8,7 +8,7 @@ storageId: "irregularidades-sancoes"
 
 # Irregularidades, penalidades e sanções administrativas
 
-## 1. Delimitação do assunto
+## 1. Delimitação e corte
 
 Este assunto estuda o caminho que começa com uma ocorrência na execução contratual e pode terminar em correção, ajuste financeiro, extinção ou sanção administrativa. O foco está em duas competências do edital:
 
@@ -17,7 +17,7 @@ Este assunto estuda o caminho que começa com uma ocorrência na execução cont
 
 A base geral é a Lei nº 14.133/2021, especialmente os arts. 92, 117, 137, 155 a 169 e 174. A IN SEGES/MP nº 5/2017 e o Decreto nº 11.246/2022 oferecem referências operacionais federais. Eles não vinculam automaticamente o TCE-MA. A competência decisória e o rito complementar no Tribunal dependem da regulamentação aplicável ao órgão.
 
-> **Corte de atualização:** legislação e orientações consultadas até 15 de julho de 2026.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
 O Assunto 128 contém o regime geral da execução e fiscalização; o Assunto 129, a extinção, o recebimento e o pagamento; e o Assunto 130, o panorama normativo das infrações, sanções, controle e PNCP. Este assunto retoma somente o necessário desse panorama para aprofundar a perspectiva operacional do item 2.5 e 2.6: registro, notificação, formação de evidência e fluxo decisório. O Assunto 133 apresenta a arquitetura federal de gestão e fiscalização, o Assunto 134 trata da operação financeira e o Assunto 136 aprofunda indicadores, fiscalizador, preposto e acompanhamento.
 
@@ -235,7 +235,7 @@ Na aplicação da multa, a Lei faculta defesa em 15 dias úteis, contados da int
 
 ### 8.3 Impedimento e inidoneidade: art. 158
 
-Essas duas sanções exigem processo de responsabilização conduzido por comissão de dois ou mais servidores estáveis. Se o quadro não for estatutário, serão dois ou mais empregados públicos permanentes, preferencialmente com pelo menos três anos no órgão ou entidade.
+As duas sanções exigem processo de responsabilização. Pelo **caput** do art. 158, a comissão é composta de dois ou mais servidores estáveis. O § 1º estabelece a alternativa para órgão ou entidade cujo quadro funcional **não seja formado por servidores estatutários**: dois ou mais empregados públicos pertencentes aos quadros permanentes, preferencialmente com pelo menos três anos de serviço no órgão ou entidade.
 
 O interessado dispõe de 15 dias úteis da intimação para apresentar defesa escrita e especificar as provas pretendidas. Se houver deferimento de nova prova ou juntada de prova indispensável, cabe alegação final em 15 dias úteis da nova intimação.
 
@@ -283,15 +283,19 @@ Recurso e pedido de reconsideração têm efeito suspensivo do ato ou da decisã
 
 Não confunda os prazos sancionadores de 15 dias com o prazo geral de três dias úteis do art. 165 para outros atos licitatórios.
 
-## 10. Publicidade e cadastros
+## 10. Publicidade, Ceis, Cnep e Banco de Sanções
 
-O art. 161 exige que órgãos e entidades dos três Poderes e de todos os entes federativos informem e mantenham atualizados os dados das sanções aplicadas, em até 15 dias úteis da aplicação, para publicidade no Ceis e no Cnep.
+O art. 161 exige que órgãos e entidades dos Poderes Executivo, Legislativo e Judiciário de todos os entes federativos informem e mantenham atualizados, em até **15 dias úteis da aplicação**, os dados das sanções por eles aplicadas, para fins de publicidade no **Cadastro Nacional de Empresas Inidôneas e Suspensas (Ceis)** e no **Cadastro Nacional de Empresas Punidas (Cnep)**. Para a prova da Lei nº 14.133/2021, essa literalidade é decisiva: não se deve tratar o Cnep como cadastro alheio às sanções da própria Lei.
 
-O **Ceis** consolida sanções que restringem licitar ou contratar. O **Cnep** reúne sanções da Lei Anticorrupção. A operação deve respeitar a finalidade e os campos de cada cadastro. No Executivo federal, o CGU-PJ alimenta as bases; os demais entes utilizam os meios disponibilizados pela CGU, como o Sircad.
+No plano operacional da CGU, a **Portaria Normativa CGU nº 75/2023** instituiu o **Sistema Banco de Sanções** e disciplinou o fornecimento de informações para os cadastros administrados pela Controladoria. Assim, não confunda:
 
-O PNCP oferece acesso ao Ceis e ao Cnep, conforme o art. 174, § 3º, V, mas não se confunde com eles. Antes de formalizar ou prorrogar contrato, o art. 91, § 4º, exige consulta aos dois cadastros e emissão das certidões pertinentes.
+- **Ceis e Cnep:** cadastros de publicidade mencionados no art. 161;
+- **Banco de Sanções:** sistema de fornecimento/gestão das informações para os cadastros da CGU;
+- **PNCP:** portal que oferece acesso ao Ceis e ao Cnep, conforme o art. 174, § 3º, V.
 
-Retificação, cancelamento ou registro de reabilitação exige fundamento formal. A publicidade cadastral não substitui a intimação do interessado nem corrige vício do processo sancionador.
+Referências operacionais antigas ao Sircad não devem ser apresentadas como o sistema atual no corte do edital. A forma concreta de alimentação deve observar o canal disponibilizado pela CGU e a regulamentação aplicável ao órgão.
+
+Antes de formalizar ou prorrogar contrato, o art. 91, § 4º, exige consulta aos dois cadastros e emissão das certidões pertinentes. Retificação, cancelamento ou registro de reabilitação exige fundamento formal. A publicidade cadastral não substitui a intimação do interessado nem corrige vício do processo sancionador.
 
 ## 11. Reabilitação
 
@@ -342,17 +346,20 @@ Se persistirem indícios de inexecução parcial, o fiscal encaminha os autos. A
 | Impedimento tem alcance nacional. | Limita-se ao ente federativo sancionador. |
 | Inidoneidade pode durar dois anos. | Seu intervalo legal é de três a seis anos. |
 | Toda sanção exige comissão do art. 158. | A comissão é exigida para impedimento e inidoneidade. |
+| Comissão do art. 158 é sempre formada por servidores estatutários estáveis. | O § 1º prevê empregados públicos permanentes para órgão ou entidade sem quadro estatutário. |
 | O prazo de defesa do art. 157 abrange literalmente advertência. | O dispositivo menciona expressamente a multa. |
+| Cnep só interessa à Lei Anticorrupção. | O art. 161 da Lei nº 14.133/2021 manda publicar dados das sanções no Ceis e no Cnep. |
+| Banco de Sanções é outro nome do Ceis. | É o sistema instituído pela CGU para fornecimento de informações aos cadastros administrados por ela. |
 | Recurso sancionador tem prazo de três dias úteis. | O prazo dos arts. 166 e 167 é de 15 dias úteis. |
 | Recurso não suspende a sanção. | Recurso e reconsideração têm efeito suspensivo até decisão final. |
 | Reabilitação ocorre automaticamente com o tempo. | Os requisitos do art. 163 são cumulativos. |
 
 ## 14. Referências
 
-- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 91, 92, 117, 137, 155 a 169 e 174, em texto consolidado. Acesso em: 16 jul. 2026.
-- BRASIL. Presidência da República. [Decreto nº 11.246, de 27 de outubro de 2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11246.htm). Atuação de gestores e fiscais no âmbito federal, em texto consolidado. Acesso em: 16 jul. 2026.
-- BRASIL. Presidência da República. [Decreto nº 13.031, de 17 de junho de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13031.htm). Alterações no modelo federal de gestão e fiscalização. Acesso em: 16 jul. 2026.
-- BRASIL. Ministério do Planejamento, Desenvolvimento e Gestão. [Instrução Normativa SEGES/MP nº 5, de 26 de maio de 2017](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada). Arts. 39 a 50 e 68 e Anexo VIII-A, em versão atualizada. Acesso em: 16 jul. 2026.
-- BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 98, de 26 de dezembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-98-de-26-de-dezembro-de-2022). Aplicação da IN nº 5/2017, no que couber, às contratações federais de serviços sob a Lei nº 14.133/2021. Acesso em: 16 jul. 2026.
-- BRASIL. Tribunal de Contas da União. [Infrações e sanções administrativas do contratado](https://licitacoesecontratos.tcu.gov.br/6-1-8-infracoes-e-sancoes-administrativas-contratado/). Licitações e Contratos: Orientações e Jurisprudência do TCU. Acesso em: 16 jul. 2026.
-- BRASIL. Controladoria-Geral da União. [Sobre o Sistema CGU-PJ](https://www.gov.br/cgu/pt-br/assuntos/responsabilizacao-de-empresas/sistema-cgu-pj/sobre-o-sistema). Relação entre CGU-PJ, Ceis, Cnep e Sircad. Acesso em: 16 jul. 2026.
+- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 91, 92, 117, 137, 155 a 169 e 174, no texto vigente no corte de 6 jul. 2026. Acesso em: 8 ago. 2026.
+- BRASIL. Presidência da República. [Decreto nº 11.246, de 27 de outubro de 2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11246.htm). Atuação de gestores e fiscais no âmbito federal, em texto consolidado. Acesso em: 8 ago. 2026.
+- BRASIL. Presidência da República. [Decreto nº 13.031, de 17 de junho de 2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13031.htm). Alterações no modelo federal de gestão e fiscalização, vigente no corte. Acesso em: 8 ago. 2026.
+- BRASIL. Ministério do Planejamento, Desenvolvimento e Gestão. [Instrução Normativa SEGES/MP nº 5, de 26 de maio de 2017](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-5-de-26-de-maio-de-2017-atualizada). Arts. 39 a 50 e 68 e Anexo VIII-A, em versão atualizada. Acesso em: 8 ago. 2026.
+- BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 98, de 26 de dezembro de 2022](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-98-de-26-de-dezembro-de-2022). Aplicação da IN nº 5/2017, no que couber, às contratações federais de serviços sob a Lei nº 14.133/2021. Acesso em: 8 ago. 2026.
+- BRASIL. Controladoria-Geral da União. [Portaria Normativa CGU nº 75, de 9 de maio de 2023](https://basedeconhecimento.cgu.gov.br/handle/1/16978). Institui o Sistema Banco de Sanções e disciplina o fornecimento de informações para os cadastros administrados pela CGU. Acesso em: 8 ago. 2026.
+- BRASIL. Tribunal de Contas da União. [Infrações e sanções administrativas do contratado](https://licitacoesecontratos.tcu.gov.br/6-1-8-infracoes-e-sancoes-administrativas-contratado/). Licitações e Contratos: Orientações e Jurisprudência do TCU. Acesso em: 8 ago. 2026.
