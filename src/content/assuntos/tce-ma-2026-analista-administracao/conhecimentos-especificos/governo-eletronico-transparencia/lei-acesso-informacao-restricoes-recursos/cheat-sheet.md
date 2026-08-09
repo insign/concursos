@@ -45,7 +45,8 @@
 - Perguntas frequentes.
 - Site: busca, formato aberto, acesso automatizado, descrição de formatos, autenticidade, integridade, atualização, contato e acessibilidade.
 - Município até 10 mil: dispensado só da obrigação de internet do art. 8º, § 2º; execução fiscal em tempo real permanece.
-- Lei nº 15.141/2025: obrigações específicas para serviços sociais autônomos federais e conselhos profissionais.
+- Art. 8º-A: serviço social autônomo destinatário de contribuições **ou** recursos públicos federais de contrato de gestão → cargos/salários, empregados/faixas, parcelas e funções gratificadas.
+- Art. 8º-B: conselho profissional → parcelas remuneratórias e indenizatórias **nominais e individualizadas**.
 - Art. 30, anualmente: desclassificadas nos últimos 12 meses; classificadas por grau; estatística de pedidos e dados genéricos dos solicitantes.
 - Manter exemplar na sede; extrato das classificadas indica data, grau e fundamento.
 
@@ -60,7 +61,9 @@
 ## Responsabilidades
 
 - Ilícitos: recusar/retardar deliberadamente; fornecer intencionalmente dado incorreto; destruir/ocultar; má-fé; acesso/divulgação indevidos; sigilo para benefício ou ocultação de ilegalidade.
-- Sanção exige contraditório, defesa e devido processo.
+- Art. 32 + Lei nº 8.112/1990: **pena mínima de suspensão**, segundo os critérios do estatuto.
 - Privado vinculado: advertência, multa, rescisão, suspensão de contratar até 2 anos e inidoneidade.
+- Art. 33: advertência/rescisão/suspensão podem acumular com multa; **defesa em 10 dias**.
+- Inidoneidade: autoridade máxima; reabilitação exige ressarcimento + transcurso da suspensão aplicada.
 - Estado responde diretamente por dano; regresso por dolo ou culpa.
-- Proteção federal do servidor denunciante não vira estatuto estadual automático.
+- Art. 44: proteção incorporada pela LAI ao servidor federal que comunica crime ou improbidade à autoridade competente; não vira estatuto estadual automático.
