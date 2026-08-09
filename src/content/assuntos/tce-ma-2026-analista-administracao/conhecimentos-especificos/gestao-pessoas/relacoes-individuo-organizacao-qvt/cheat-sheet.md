@@ -1,5 +1,15 @@
 # Relações indivíduo-organização e QVT
 
+## Comportamento organizacional
+
+| Nível | Exemplos |
+| --- | --- |
+| indivíduo | percepções, atitudes, vínculos, expectativas e papéis |
+| grupo/equipe | interação, normas, comunicação, cooperação e conflitos |
+| organização | estrutura, cultura, políticas e condições de trabalho |
+
+- CO é multinível: comportamento observado em uma pessoa pode ter causas de equipe ou organização.
+
 ## Troca e contrato psicológico
 
 - Indivíduo contribui com trabalho, conhecimento, tempo e cooperação.
@@ -14,9 +24,8 @@
 
 - Aprendizagem de cultura, normas, papéis, procedimentos e redes.
 - Não é só recepção inicial nem transmissão unilateral.
-- Requer acolhimento, recursos, clareza, apoio, acompanhamento e espaço para perguntas.
-- Institucionalizada: coletiva, formal, sequenciada e orientada.
-- Individualizada: pessoal, informal e variável.
+- Requer acolhimento, recursos, clareza, apoio, acompanhamento e espaço para dúvidas.
+- O grau de formalização varia; não há uma forma universalmente superior.
 
 ## Vínculos
 
@@ -39,25 +48,25 @@
 | interpessoal | respeito e dignidade |
 | informacional | explicações suficientes e oportunas |
 
-- Modelo de três dimensões reúne interpessoal + informacional em interacional.
+- Modelo de três dimensões pode reunir interpessoal + informacional em interacional.
 - Legalidade não garante, sozinha, percepção de justiça.
 
 ## Ajuste e papéis
 
 - P-O fit: valores, necessidades-recursos e capacidades-demandas compatíveis.
-- Ajuste não exige homogeneidade; preserve diversidade e inclusão.
-- Conflito: demandas incompatíveis.
-- Ambiguidade: falta de clareza.
-- Sobrecarga: demandas maiores que tempo e recursos.
+- Fit ≠ homogeneidade.
+- Conflito de papel = demandas incompatíveis.
+- Ambiguidade = falta de clareza.
+- Sobrecarga = demandas maiores que tempo e recursos.
 
 ## QVT
 
 - Multidimensional: condições, organização, conteúdo, relações e sentido.
 - Inclui saúde, segurança, ergonomia, justiça, inclusão e equilíbrio trabalho-vida.
-- Não se reduz a benefícios, eventos ou ginástica laboral.
-- Suporte individual não substitui intervenção nas causas organizacionais.
+- QVT ≠ benefício, evento ou ginástica laboral.
+- Ação individual não substitui intervenção nas causas organizacionais.
 
-## Walton
+## Walton — 8 critérios
 
 1. Compensação justa e adequada.
 2. Condições seguras e saudáveis.
@@ -68,35 +77,47 @@
 7. Trabalho e espaço total de vida.
 8. Relevância social.
 
-## Hackman-Oldham
+## Hackman–Oldham
 
-- Variedade de habilidades.
-- Identidade da tarefa.
-- Significância da tarefa.
-- Autonomia.
-- Feedback.
-- Foco: desenho do trabalho; Walton é mais amplo.
+| Dimensões | Estado psicológico crítico |
+| --- | --- |
+| variedade + identidade + significância | significado experimentado do trabalho |
+| autonomia | responsabilidade experimentada pelos resultados |
+| feedback | conhecimento dos resultados |
+
+- Cinco dimensões centrais: variedade, identidade, significância, autonomia e feedback.
+- Walton = QVT ampla; Hackman–Oldham = desenho do trabalho.
+
+## Ergonomia e riscos psicossociais
+
+- Ergonomia ≠ cadeira/postura apenas: inclui organização, ambiente, interfaces e exigências físicas/cognitivas.
+- Riscos psicossociais podem vir de sobrecarga, ambiguidade, assédio, discriminação, isolamento, baixo apoio e autonomia insuficiente.
+- Prevenção deve atuar no trabalho, não apenas cobrar resiliência individual.
 
 ## Programa de QVT
 
-1. Diagnóstico participativo.
-2. Priorização de riscos e causas.
-3. Planejamento de intervenções.
-4. Implementação organizacional e suporte.
-5. Monitoramento.
-6. Avaliação e revisão.
+Roteiro didático, não sequência normativa universal:
+
+1. diagnóstico participativo;
+2. priorização;
+3. planejamento;
+4. implementação;
+5. monitoramento;
+6. avaliação e revisão.
 
 - Responsabilidade compartilhada; não exclusiva do RH.
 - Combine percepções, saúde, processos e contexto.
 - Absenteísmo menor não prova melhora: pode haver subnotificação ou presenteísmo.
-- Proteja dados individuais e use linha de base e escuta qualificada.
 
 ## Pegadinhas
 
+- CO ≠ fenômeno apenas individual.
 - Contrato psicológico ≠ contrato jurídico.
 - Identificação ≠ comprometimento.
 - Apoio da chefia ≠ suporte organizacional percebido.
 - Fit ≠ uniformidade.
-- Ergonomia ≠ mobiliário apenas.
+- Variedade + identidade + significância → significado experimentado.
+- Autonomia → responsabilidade pelos resultados.
+- Feedback → conhecimento dos resultados.
 - QVT ≠ ação paliativa isolada.
 - Indicador ≠ causa comprovada.
