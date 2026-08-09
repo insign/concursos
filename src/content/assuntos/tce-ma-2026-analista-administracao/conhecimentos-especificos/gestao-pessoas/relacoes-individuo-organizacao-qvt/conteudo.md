@@ -10,30 +10,31 @@ storageId: "gp-relacoes-qvt"
 
 ## 1. Delimitação
 
-Pessoas e organizações mantêm uma relação contínua de contribuições, expectativas, incentivos, regras e significados. Essa relação influencia pertencimento, saúde, cooperação e permanência, mas não elimina direitos, deveres nem diferenças de interesse.
+Este assunto cobre os **itens 4, 4.1 e 4.3 de Gestão de Pessoas do edital**: comportamento organizacional, relações indivíduo/organização e qualidade de vida. Liderança, motivação e desempenho ficam para o Assunto 145; competência interpessoal e conflitos, para o 146.
 
-Este assunto cobre relações indivíduo-organização e qualidade de vida no trabalho (QVT). Teorias de liderança, motivação e desempenho são aprofundadas no Assunto 145; competência interpessoal e conflitos, no 146.
+**Comportamento organizacional (CO)** estuda como pessoas, grupos e características da organização se relacionam com comportamentos e resultados no trabalho. É uma abordagem **multinível**:
 
-> **Corte de atualização:** referências consultadas até 17 de julho de 2026.
+| Nível | Exemplos de fenômenos |
+| --- | --- |
+| indivíduo | percepções, atitudes, vínculos, expectativas e papéis |
+| grupo/equipe | interação, normas, comunicação, cooperação e conflitos |
+| organização | estrutura, cultura, políticas, práticas e condições de trabalho |
+
+Os níveis interagem. Um problema observado em uma pessoa pode ter causas de equipe, processo ou organização; por isso, explicações exclusivamente individuais podem ser insuficientes.
 
 ## 2. Troca, contribuições e incentivos
 
-O indivíduo oferece contribuições como trabalho, conhecimento, tempo, cooperação, criatividade e observância de regras. A organização oferece incentivos e condições como remuneração prevista, recursos, segurança, reconhecimento, desenvolvimento, tratamento justo e sentido de pertencimento.
+O indivíduo oferece contribuições como trabalho, conhecimento, tempo, cooperação, criatividade e observância de regras. A organização oferece incentivos e condições como remuneração prevista, recursos, segurança, reconhecimento, desenvolvimento, tratamento justo e pertencimento.
 
-O equilíbrio organizacional ocorre quando os incentivos são percebidos como suficientes para sustentar as contribuições necessárias à finalidade institucional. Não se trata de igualdade aritmética: valor, justiça e reciprocidade são percebidos e dependem do contexto.
+O **equilíbrio organizacional** ocorre quando os incentivos são percebidos como suficientes para sustentar as contribuições necessárias à finalidade institucional. Não se trata de igualdade aritmética: valor, justiça e reciprocidade dependem da percepção e do contexto.
 
-No setor público, a troca é limitada pela legalidade, pela impessoalidade, pelo orçamento e pela finalidade pública. Uma expectativa subjetiva não cria, sozinha, vantagem funcional ou competência administrativa.
+No setor público, expectativas e reciprocidade não afastam legalidade, impessoalidade, orçamento e finalidade pública. Expectativa subjetiva não cria, sozinha, vantagem funcional ou competência administrativa.
 
 ## 3. Reciprocidade e contrato psicológico
 
-**Reciprocidade** é a expectativa de correspondência entre contribuições e retornos. Uma organização que oferece suporte e cumpre compromissos tende a fortalecer a percepção de obrigação recíproca; isso não autoriza exigir lealdade ilimitada.
+**Reciprocidade** é a expectativa de correspondência entre contribuições e retornos. Suporte e cumprimento de compromissos podem fortalecer obrigação recíproca percebida, sem legitimar lealdade ilimitada.
 
-**Contrato psicológico** é o conjunto de crenças individuais sobre promessas, obrigações e expectativas recíprocas. Ele:
-
-- é subjetivo e pode diferir entre pessoas;
-- contém elementos explícitos e implícitos percebidos;
-- não se confunde com lei, estatuto, regulamento ou contrato jurídico;
-- muda com experiências, comunicação e transições organizacionais.
+**Contrato psicológico** é o conjunto de crenças individuais sobre promessas, obrigações e expectativas recíprocas. Ele é subjetivo, pode variar entre pessoas e não se confunde com lei, estatuto, regulamento ou contrato jurídico.
 
 Distinguem-se:
 
@@ -41,22 +42,13 @@ Distinguem-se:
 - **quebra:** avaliação cognitiva de que houve descumprimento;
 - **violação:** reação afetiva intensa à quebra, como indignação ou sensação de traição.
 
-Promessas vagas, silêncio e interpretações diferentes podem gerar assimetria. Comunicação clara reduz incerteza, mas não transforma toda expectativa em direito adquirido.
+Comunicação clara reduz interpretações divergentes, mas não transforma toda expectativa em direito adquirido.
 
 ## 4. Socialização organizacional
 
 Socialização é o processo pelo qual a pessoa aprende cultura, normas, papéis, procedimentos, relações e conhecimentos necessários à participação na organização. Não é apenas evento de boas-vindas nem transmissão unilateral.
 
-Um processo consistente combina:
-
-1. preparação antes ou no início do ingresso;
-2. acolhimento e acesso a recursos;
-3. clareza sobre responsabilidades, autoridade e prioridades;
-4. aprendizagem de normas, cultura e redes de apoio;
-5. acompanhamento e feedback sobre adaptação;
-6. espaço para perguntas, participação e contribuição do novo membro.
-
-**Táticas institucionalizadas** usam experiências coletivas, sequenciadas, formais e orientadas por membros experientes. **Táticas individualizadas** são mais pessoais, informais, variáveis e dependentes da experiência concreta. Nenhuma modalidade é sempre superior; previsibilidade, inovação e natureza do trabalho influenciam a escolha.
+Um processo consistente envolve acolhimento, acesso a recursos, clareza sobre responsabilidades e prioridades, aprendizagem das normas e redes de apoio, acompanhamento, feedback e espaço para dúvidas e participação. O grau de formalização pode variar conforme o trabalho e o contexto; não existe uma única forma universalmente superior.
 
 ## 5. Vínculos com a organização
 
@@ -71,14 +63,14 @@ Comprometimento é vínculo psicológico que influencia a relação com a organi
 | Base | Razão predominante para permanecer |
 | --- | --- |
 | afetiva | quer permanecer por vínculo afetivo e pertencimento |
-| de continuidade ou instrumental | precisa permanecer pelos custos ou alternativas percebidas |
+| continuidade ou instrumental | precisa permanecer pelos custos ou alternativas percebidas |
 | normativa | sente obrigação ou dever de permanecer |
 
 As bases podem coexistir. Comprometimento não é sinônimo de satisfação, motivação, identificação, desempenho ou obediência incondicional.
 
 ### 5.3 Suporte organizacional percebido
 
-É a crença global de que a organização valoriza as contribuições da pessoa e se preocupa com seu bem-estar. Benefício formal não garante suporte percebido: importam consistência, justiça, voluntariedade percebida e experiência concreta. Apoio da chefia e dos colegas pode contribuir, mas não é conceitualmente idêntico ao suporte atribuído à organização.
+É a crença global de que a organização valoriza as contribuições da pessoa e se preocupa com seu bem-estar. Benefício formal não garante suporte percebido: importam consistência, justiça e experiência concreta. Apoio da chefia pode influenciar essa percepção, mas não é conceito idêntico a suporte organizacional.
 
 ## 6. Justiça organizacional
 
@@ -91,18 +83,13 @@ Justiça organizacional trata da percepção de justiça nos resultados, process
 | interpessoal | houve respeito, dignidade e tratamento adequado? |
 | informacional | as explicações foram suficientes, verdadeiras e oportunas? |
 
-Modelos de três dimensões reúnem interpessoal e informacional sob **justiça interacional**. Em prova, identifique a taxonomia adotada. Legalidade formal não assegura, sozinha, percepção de justiça; inversamente, percepção favorável não torna legal um ato inválido.
+Modelos de três dimensões podem reunir interpessoal e informacional sob **justiça interacional**. Em prova, observe a taxonomia adotada. Legalidade formal não assegura, sozinha, percepção de justiça; percepção favorável também não torna válido um ato ilegal.
 
 ## 7. Ajuste pessoa-organização
 
-**Person-organization fit** é a compatibilidade entre pessoa e organização. Pode envolver:
+**Person-organization fit** é a compatibilidade entre pessoa e organização. Pode envolver congruência de valores, necessidades da pessoa e recursos oferecidos, capacidades e demandas e formas de trabalho compatíveis.
 
-- congruência de valores;
-- necessidades da pessoa e recursos oferecidos;
-- capacidades da pessoa e demandas do contexto;
-- objetivos e formas de trabalho compatíveis.
-
-Ajuste não exige homogeneidade. Selecionar ou socializar para eliminar diversidade empobrece perspectivas e pode produzir discriminação. O objetivo é compatibilizar missão, cooperação, direitos e condições de contribuição com inclusão.
+Ajuste não exige homogeneidade. Compatibilidade pode coexistir com diversidade, inclusão e pensamento crítico.
 
 ## 8. Papéis e limites saudáveis
 
@@ -110,13 +97,13 @@ Ajuste não exige homogeneidade. Selecionar ou socializar para eliminar diversid
 - **ambiguidade de papel:** falta de clareza sobre responsabilidade, autoridade, critérios ou prioridades;
 - **sobrecarga de papel:** demandas superiores ao tempo e aos recursos disponíveis.
 
-Esses problemas podem ser organizacionais, não defeitos individuais. Comprometimento e identificação não legitimam assédio, disponibilidade ilimitada, quebra de confidencialidade, desrespeito à jornada ou descumprimento de deveres legais.
+Esses problemas podem decorrer do contexto de trabalho, não de defeitos individuais. Comprometimento e identificação não legitimam assédio, disponibilidade ilimitada ou descumprimento de deveres e limites legais.
 
 ## 9. Qualidade de vida no trabalho
 
 QVT é conceito multidimensional sobre como as pessoas vivenciam condições, organização, conteúdo, relações e sentido do trabalho. Abrange saúde, segurança, ergonomia, justiça, participação, inclusão, desenvolvimento, equilíbrio trabalho-vida e relevância social.
 
-QVT não se reduz a satisfação, benefícios, ginástica laboral, evento de saúde ou atendimento individual. Ações de suporte são úteis, mas tornam-se paliativas quando substituem a intervenção sobre carga, processos, relações, recursos e riscos que produzem mal-estar.
+QVT não se reduz a satisfação, benefícios, ginástica laboral, evento de saúde ou atendimento individual. Ações de suporte podem ajudar, mas são paliativas se substituírem intervenção sobre carga, processos, relações, recursos e riscos que produzem mal-estar.
 
 ## 10. Modelo de Walton
 
@@ -131,58 +118,59 @@ Walton propõe oito critérios amplos:
 7. trabalho e espaço total de vida;
 8. relevância social da vida no trabalho.
 
-O modelo integra fatores econômicos, sociais, jurídicos, ocupacionais e de sentido. Os critérios são analíticos e não constituem, por si, direitos adicionais ao regime jurídico.
+O modelo integra fatores econômicos, sociais, jurídicos, ocupacionais e de sentido. Os critérios são analíticos e não criam, por si, direitos adicionais ao regime jurídico.
 
 ## 11. Modelo de Hackman e Oldham
 
 O modelo das características do trabalho concentra-se no desenho da tarefa:
 
-| Dimensão | Significado |
-| --- | --- |
-| variedade de habilidades | uso de capacidades diferentes |
-| identidade da tarefa | realização de um trabalho inteiro ou identificável |
-| significância da tarefa | impacto percebido sobre outras pessoas ou a organização |
-| autonomia | liberdade e responsabilidade compatíveis para organizar a execução |
-| feedback | informação produzida pelo trabalho sobre seus resultados |
+| Dimensão | Significado | Estado psicológico associado |
+| --- | --- | --- |
+| variedade de habilidades | uso de capacidades diferentes | significado experimentado do trabalho |
+| identidade da tarefa | realização de trabalho inteiro ou identificável | significado experimentado do trabalho |
+| significância da tarefa | impacto percebido sobre outras pessoas ou a organização | significado experimentado do trabalho |
+| autonomia | liberdade e responsabilidade compatíveis para organizar a execução | responsabilidade experimentada pelos resultados |
+| feedback | informação produzida pelo próprio trabalho sobre seus resultados | conhecimento dos resultados |
 
-As dimensões favorecem significância percebida, responsabilidade pelos resultados e conhecimento dos resultados. Walton é mais amplo; Hackman e Oldham focalizam características do trabalho. Adaptações de instrumentos podem acrescentar variáveis, mas não devem ser confundidas com as cinco dimensões originais.
+Os três estados psicológicos críticos favorecem motivação interna, qualidade do desempenho e satisfação. O modelo não afirma que qualquer aumento isolado de uma dimensão produzirá automaticamente esses resultados. **Walton é mais amplo sobre QVT; Hackman e Oldham focalizam o desenho do trabalho.**
 
-## 12. Ergonomia, saúde e riscos psicossociais
+## 12. Ergonomia e riscos psicossociais
 
-Ergonomia adapta as condições de trabalho às características psicofisiológicas das pessoas, visando conforto, segurança, saúde e desempenho eficiente. Ela abrange mobiliário, equipamentos, ambiente, interfaces, exigências físicas e cognitivas e organização do trabalho; não é apenas postura ou cadeira.
+Ergonomia busca adaptar condições, equipamentos, ambiente, interfaces, exigências físicas e cognitivas e organização do trabalho às características das pessoas. Não se limita a mobiliário ou postura.
 
-Riscos psicossociais podem surgir de sobrecarga, baixa clareza, assédio, violência, discriminação, isolamento, apoio insuficiente, baixa autonomia diante de alta responsabilidade e mudanças mal conduzidas. O foco preventivo deve alcançar fatores do trabalho, sem investigar indevidamente personalidade ou vida privada.
-
-A NR-17 nasce do marco de segurança e saúde do trabalho ligado à CLT. Sua incidência concreta sobre vínculos estatutários e órgãos estaduais exige análise do regime aplicável; seus princípios técnicos continuam úteis ao diagnóstico. A saúde do trabalhador, no SUS, adota alcance amplo e considera o trabalho determinante social da saúde independentemente da formalidade do vínculo.
+Riscos psicossociais podem relacionar-se a sobrecarga, baixa clareza, assédio, violência, discriminação, isolamento, apoio insuficiente, baixa autonomia diante de alta responsabilidade e mudanças mal conduzidas. A prevenção deve examinar fatores do trabalho e não apenas atribuir o problema à personalidade ou à resiliência individual.
 
 ## 13. Programa de QVT
 
-Um programa consistente segue ciclo:
+Como **roteiro gerencial didático**, um programa de QVT pode seguir:
 
-1. **diagnóstico participativo:** escuta, dados e análise do contexto;
-2. **priorização:** riscos e fontes de bem-estar e mal-estar;
-3. **planejamento:** objetivos, intervenções, responsáveis, recursos e indicadores;
-4. **implementação:** mudanças organizacionais e suportes necessários;
-5. **monitoramento:** execução, cobertura, riscos e efeitos iniciais;
-6. **avaliação e revisão:** efetividade, equidade, sustentabilidade e efeitos não previstos.
+1. diagnóstico participativo;
+2. priorização de riscos e fontes de bem-estar e mal-estar;
+3. planejamento de intervenções, responsáveis, recursos e indicadores;
+4. implementação;
+5. monitoramento;
+6. avaliação e revisão.
 
-QVT é responsabilidade compartilhada. RH e saúde podem coordenar tecnicamente; alta administração provê direção e recursos; gestores influenciam o contexto cotidiano; trabalhadores participam do diagnóstico e da avaliação; áreas de infraestrutura, tecnologia, acessibilidade e segurança atuam conforme suas competências.
+Não é sequência normativa universal. O ponto central é diagnosticar antes de escolher soluções, combinar intervenções organizacionais e suporte e rever as medidas conforme evidências.
+
+QVT é responsabilidade compartilhada: RH e áreas técnicas podem coordenar, a alta administração fornece direção e recursos, gestores influenciam o contexto cotidiano e trabalhadores participam do diagnóstico e da avaliação.
 
 ## 14. Indicadores e avaliação
 
-Indicadores devem combinar:
+Indicadores podem combinar:
 
-- **percepções:** QVT, suporte, justiça, clareza, inclusão e segurança psicológica;
+- **percepções:** QVT, suporte, justiça, clareza e inclusão;
 - **saúde e segurança:** afastamentos, acidentes, queixas e exposição a riscos;
-- **processos:** participação, cobertura, execução, acessibilidade e tempo de resposta;
+- **processos:** participação, cobertura, execução e tempo de resposta;
 - **contexto:** carga, distribuição do trabalho, recursos, ambiente e conflitos de papel.
 
-Um indicador isolado não prova causalidade. Queda no absenteísmo pode refletir melhora, subnotificação, barreiras ao afastamento ou presenteísmo, situação em que a pessoa permanece trabalhando apesar de uma condição que reduz sua saúde ou capacidade. Proteja dados individuais, estabeleça linha de base, interprete recortes de equidade e complemente números com escuta qualificada.
+Um indicador isolado não prova causalidade. Queda no absenteísmo pode refletir melhora, subnotificação, barreiras ao afastamento ou **presenteísmo**, quando a pessoa permanece trabalhando apesar de condição que reduz sua saúde ou capacidade. Linha de base, contexto e escuta qualificada melhoram a interpretação.
 
 ## 15. Erros recorrentes de prova
 
 | Afirmação | Avaliação |
 | --- | --- |
+| comportamento organizacional explica fenômenos apenas no nível individual | errada |
 | contrato psicológico equivale a direito estatutário | errada |
 | quebra é percepção cognitiva; violação é reação afetiva | correta |
 | comprometimento afetivo significa permanecer porque quer | correta |
@@ -190,26 +178,22 @@ Um indicador isolado não prova causalidade. Queda no absenteísmo pode refletir
 | ajuste pessoa-organização exige homogeneidade | errada |
 | QVT é responsabilidade exclusiva do RH | errada |
 | ação individual substitui correção do contexto | errada |
-| Walton é mais amplo que o desenho do trabalho | correta |
-| Hackman-Oldham tem cinco dimensões centrais | correta |
+| variedade, identidade e significância ligam-se ao significado experimentado | correta |
+| autonomia liga-se à responsabilidade pelos resultados | correta |
+| feedback liga-se ao conhecimento dos resultados | correta |
 | absenteísmo menor prova melhoria de QVT | errada |
 
 ## Referências
 
-- [Toward a Theory of Organizational Socialization](https://dspace.mit.edu/handle/1721.1/1934), John Van Maanen e Edgar H. Schein, MIT Sloan School of Management, working paper de 1977 publicado em *Research in Organizational Behavior* em 1979, acesso em 17 jul. 2026.
-- [Socialization Tactics, Self-Efficacy, and Newcomers' Adjustments to Organizations](https://doi.org/10.5465/256188), Gareth R. Jones, *Academy of Management Journal*, v. 29, n. 2, 1986, acesso em 17 jul. 2026.
-- [A Three-Component Conceptualization of Organizational Commitment](https://doi.org/10.1016/1053-4822(91)90011-Z), John P. Meyer e Natalie J. Allen, *Human Resource Management Review*, v. 1, n. 1, 1991, acesso em 17 jul. 2026.
-- [Social Identity Theory and the Organization](https://doi.org/10.5465/amr.1989.4278999), Blake E. Ashforth e Fred Mael, *Academy of Management Review*, v. 14, n. 1, 1989, acesso em 17 jul. 2026.
-- [Person-Organization Fit: An Integrative Review of Its Conceptualizations, Measurement, and Implications](https://doi.org/10.1111/j.1744-6570.1996.tb01790.x), Amy L. Kristof, *Personnel Psychology*, v. 49, n. 1, 1996, acesso em 17 jul. 2026.
-- [Quality of Working Life: What Is It?](https://www.econbiz.de/10002991447), Richard E. Walton, *Sloan Management Review*, v. 15, n. 1, 1973, acesso em 17 jul. 2026.
-- [Motivation Through the Design of Work: Test of a Theory](https://doi.org/10.1016/0030-5073(76)90016-7), J. Richard Hackman e Greg R. Oldham, *Organizational Behavior and Human Performance*, v. 16, n. 2, 1976, acesso em 17 jul. 2026.
+- [Toward a Theory of Organizational Socialization](https://dspace.mit.edu/handle/1721.1/1934), John Van Maanen e Edgar H. Schein, MIT Sloan School of Management, 1977/1979, acesso em 17 jul. 2026.
+- [A Three-Component Conceptualization of Organizational Commitment](https://doi.org/10.1016/1053-4822(91)90011-Z), John P. Meyer e Natalie J. Allen, *Human Resource Management Review*, 1991, acesso em 17 jul. 2026.
+- [Social Identity Theory and the Organization](https://doi.org/10.5465/amr.1989.4278999), Blake E. Ashforth e Fred Mael, *Academy of Management Review*, 1989, acesso em 17 jul. 2026.
+- [Person-Organization Fit: An Integrative Review](https://doi.org/10.1111/j.1744-6570.1996.tb01790.x), Amy L. Kristof, *Personnel Psychology*, 1996, acesso em 17 jul. 2026.
+- [Quality of Working Life: What Is It?](https://www.econbiz.de/10002991447), Richard E. Walton, *Sloan Management Review*, 1973, acesso em 17 jul. 2026.
+- [Motivation Through the Design of Work: Test of a Theory](https://doi.org/10.1016/0030-5073(76)90016-7), J. Richard Hackman e Greg R. Oldham, *Organizational Behavior and Human Performance*, 1976, acesso em 17 jul. 2026.
 - [Contratos psicológicos: uma revisão da literatura](https://www.scielo.br/j/rausp/a/HCnBg5fY5zFNXpM6wVPKW8y/), Revista de Administração da Universidade de São Paulo, acesso em 17 jul. 2026.
 - [Organização de trabalho, credora ou devedora? Estudo sobre reciprocidade organizacional](https://www.scielo.br/j/pe/a/VrcPD3kmTKFQLPTXcqwBqsF/?lang=pt), Psicologia em Estudo, acesso em 17 jul. 2026.
 - [Percepção de Suporte Organizacional: desenvolvimento e validação de um questionário](https://www.scielo.br/j/rac/a/RH4BQ8SjTm9FXy4rBxdG58R/?format=pdf), Revista de Administração Contemporânea, acesso em 17 jul. 2026.
 - [A percepção de justiça como antecedente do comprometimento organizacional](https://www.scielo.br/j/rac/a/rQPksmJfFnLbv5JPqd7NkYs/), Revista de Administração Contemporânea, acesso em 17 jul. 2026.
 - [Dimensões e indicadores da qualidade de vida e do bem-estar no trabalho](https://www.scielo.br/j/ptp/a/sQvTWxmcm68d88XjWg8yxMH/), Psicologia: Teoria e Pesquisa, acesso em 17 jul. 2026.
 - [Qualidade de vida no trabalho: dicas para práticas organizacionais efetivas](https://www.gov.br/servidor/pt-br/assuntos/laboragov/curadoria-tematica/qualidade-de-vida-no-trabalho-qvt), Portal do Servidor, atualização de 28 mar. 2024, acesso em 17 jul. 2026.
-- [Qualidade de Vida no Trabalho](https://www.gov.br/servidor/pt-br/assuntos/programa-de-gestao/boas-praticas-de-gestao-2/qualidade-de-vida-no-trabalho), Portal do Servidor, acesso em 17 jul. 2026.
-- [Norma Regulamentadora nº 17 - Ergonomia](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17), Ministério do Trabalho e Emprego, página atualizada em 4 nov. 2024 e texto vigente indicado na página, acesso em 17 jul. 2026.
-- [Saúde do Trabalhador](https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/saude-do-trabalhador), Ministério da Saúde, acesso em 17 jul. 2026.
-- [OMS e OIT fazem chamado para novas medidas de saúde mental no trabalho](https://www.paho.org/pt/noticias/28-9-2022-oms-e-oit-fazem-chamado-para-novas-medidas-enfrentamento-das-questoes-saude), OPAS/OMS, 28 set. 2022, acesso em 17 jul. 2026.
