@@ -1,23 +1,18 @@
 # Desenvolvimento e capacitação
 
-## Conceitos
+## Corte e núcleo
 
-- Aprendizagem = aquisição ou mudança de repertório.
-- Treinamento = ação planejada, usualmente ligada ao trabalho atual.
-- Desenvolvimento = preparação ampla e prospectiva.
-- Educação = conceito mais abrangente.
-- As fronteiras não são absolutas; observe propósito e resultado.
-- TD&E = treinamento, desenvolvimento e educação.
+- **Corte de prova:** 6/7/2026.
+- **Treinamento:** foco mais imediato no trabalho atual.
+- **Desenvolvimento:** preparação mais ampla e prospectiva.
+- **Educação:** conceito mais abrangente.
+- **TD&E:** treinamento, desenvolvimento e educação.
 
-## Ciclo
+## Fluxo de prova
 
-1. Analisar estratégia, trabalho, pessoas e contexto.
-2. Identificar e priorizar necessidades.
-3. Programar objetivos, métodos, recursos e avaliação.
-4. Desenvolver materiais e condições.
-5. Executar e acompanhar.
-6. Apoiar transferência.
-7. Avaliar e retroalimentar o sistema.
+**necessidade → causa → programação → execução → transferência → avaliação**
+
+Se a causa não for educacional, treinamento isolado tende a falhar.
 
 ## LNT/ANT
 
@@ -25,153 +20,149 @@ $$
 \text{lacuna} = \text{requerido} - \text{atual}
 $$
 
-- Lacuna não significa automaticamente treinamento.
-- Interesse por curso não prova necessidade institucional.
-- Investigue causas educacionais e não educacionais.
-- Descreva o desempenho necessário, não apenas o nome do curso.
+**Pegadinha:** lacuna ≠ treinamento automático.
 
 | Nível | Foco | Pergunta |
 | --- | --- | --- |
-| organizacional/macro | estratégia, risco, contexto | de que capacidades a organização precisa? |
-| trabalho/meso | tarefas, processos, padrões | o que o trabalho exige? |
-| individual/micro | repertório e desempenho | quem precisa desenvolver o quê? |
+| **macro / organizacional** | estratégia, risco, mudanças | de que capacidades a organização precisa? |
+| **meso / trabalho** | tarefas, processos, padrões | o que o trabalho exige? |
+| **micro / individual** | repertório e desempenho | quem precisa desenvolver o quê? |
 
-## Fontes
+## Fontes do LNT
 
-- Estratégia, riscos, auditorias e indicadores.
-- Análise e descrição do trabalho.
-- Observação e incidentes críticos.
-- Entrevista, grupo focal e questionário.
-- Teste, simulação e amostra de trabalho.
-- Avaliação de desempenho e feedback.
-- Triangulação aumenta robustez, mas não corrige dado ruim.
+- estratégia, riscos e indicadores;
+- análise do trabalho;
+- observação;
+- entrevistas e grupos focais;
+- questionários;
+- testes/simulações;
+- avaliação de desempenho;
+- incidentes críticos.
 
-## Diagnóstico causal
+**Triangulação:** confrontar fontes/métodos. Não transforma dado ruim em dado válido.
 
-- Sabe o padrão?
-- Possui conhecimento e habilidade?
-- Tem recurso, tempo, ferramenta e autoridade?
-- Recebe feedback e incentivo coerentes?
-- Tem oportunidade de aplicar?
+## Causa educacional × não educacional
 
-- Conhecimento/habilidade: pode caber capacitação.
-- Processo, sistema, recurso, regra, carga ou incentivo: exige outra intervenção ou solução combinada.
-- Priorize por estratégia, risco, criticidade, urgência, alcance, custo e viabilidade.
+| Situação | Resposta provável |
+| --- | --- |
+| não sabe / não consegue executar | capacitação pode caber |
+| não sabe qual é o padrão | orientação/comunicação |
+| sistema impede a tarefa | correção tecnológica/processual |
+| falta recurso/autoridade | intervenção gerencial/estrutural |
+| incentivo premia comportamento errado | ajustar consequências |
+| causas misturadas | solução combinada |
+
+## Priorização
+
+Considere **estratégia + risco + criticidade + urgência + alcance + viabilidade + impacto**.
+
+Interesse em curso é dado; **não prova necessidade institucional**.
 
 ## Programação
 
-- Problema e resultado institucional.
-- Público e pré-requisitos.
-- Competências e objetivos observáveis.
-- Conteúdo, sequência e carga horária.
-- Métodos, modalidade e prática.
-- Facilitadores, materiais e acessibilidade.
-- Cronograma, custo, riscos e comunicação.
-- Avaliação e estratégia de transferência.
+Programação não é calendário. Deve alinhar:
+
+**necessidade → público → objetivo → conteúdo → método → prática → recurso → avaliação → transferência**.
 
 ### Objetivo instrucional
 
-- Comportamento observável.
-- Condição de execução.
-- Critério de qualidade.
-- Evite “conhecer” ou “entender” sem evidência prevista.
+- **comportamento observável**;
+- **condição**;
+- **critério**.
 
-## Métodos
+“Entender” ou “conhecer” sem evidência prevista = objetivo vago.
+
+## Método × resultado
 
 | Resultado | Método típico |
 | --- | --- |
 | conceito | leitura, videoaula, exposição dialogada |
-| análise e decisão | caso, problema, debate |
+| análise/decisão | caso, problema, debate |
 | procedimento | demonstração, exercício, simulação |
-| interação | role play e feedback |
-| aplicação | projeto, tutoria, mentoria, tarefa real |
+| interação | *role play* + feedback |
+| aplicação | projeto, tarefa real, tutoria, mentoria |
 
-- Presencial, síncrono, assíncrono e híbrido = modalidades.
-- Escolha decorre do objetivo; tecnologia não vem primeiro.
+**Presencial, síncrono, assíncrono e híbrido = modalidades**, não métodos garantidores de qualidade.
 
 ## ADDIE
 
-1. Analysis: necessidade, público e contexto.
-2. Design: objetivos, método e avaliação.
-3. Development: materiais e instrumentos.
-4. Implementation: preparação e oferta.
-5. Evaluation: melhoria e julgamento.
+1. **Analysis** — necessidade, público, trabalho, contexto.
+2. **Design** — objetivos, sequência, métodos, avaliação.
+3. **Development** — materiais e instrumentos.
+4. **Implementation** — preparação e oferta.
+5. **Evaluation** — melhoria e julgamento.
 
-- É iterativo.
-- Não é modelo exclusivo de impacto.
+- pode ser iterativo;
+- não é modelo exclusivo de impacto.
 
-## Execução e transferência
+## Execução
 
-- Execução: comunicação, inscrição, ambiente, facilitador, material, acessibilidade, suporte e acompanhamento.
-- Frequência e certificado não provam aprendizagem.
-- Transferência = aplicação sustentada no trabalho.
-- Prova ou simulação não prova transferência.
-- Apoio da chefia, oportunidade, recurso, feedback e incentivo favorecem aplicação.
-- Sistema incompatível e falta de oportunidade bloqueiam transferência.
+- ambiente, tecnologia e materiais preparados;
+- facilitadores e participantes orientados;
+- acessibilidade e suporte;
+- prática e acompanhamento;
+- registro de ocorrências;
+- ajustes formativos quando necessários.
 
-## Tipos de avaliação
+**Frequência/certificado ≠ aprendizagem.**
 
-| Tipo | Função |
-| --- | --- |
-| diagnóstica | identificar entrada e lacunas |
-| formativa | corrigir durante o processo |
-| somativa | julgar ao final |
+## Transferência
 
-- Diagnóstico da turma ≠ LNT multinível completo.
-- Planeje antes: perguntas, linha de base, indicadores, fontes, momentos e uso.
+**Transferência = aplicação do aprendido no trabalho.**
+
+Favorecem:
+
+- oportunidade de aplicar;
+- apoio da chefia e pares;
+- recursos e autonomia;
+- feedback pós-ação;
+- sistema e incentivos coerentes.
+
+**Aprendeu na prova/simulação ≠ aplicou no trabalho.**
+
+## Avaliação diagnóstica × formativa × somativa
+
+| Tipo | Momento | Função |
+| --- | --- | --- |
+| **diagnóstica** | antes | ponto de partida e lacunas |
+| **formativa** | durante | corrigir o processo |
+| **somativa** | ao final | sintetizar resultados e julgar |
+
+**Diagnóstico da turma ≠ LNT completo.** LNT também examina organização, trabalho e causas.
 
 ## Kirkpatrick
 
-1. Reação: percepção e engajamento.
-2. Aprendizagem: aquisição de repertório.
-3. Comportamento: aplicação no trabalho.
-4. Resultados: efeitos organizacionais.
+1. **Reação** — percepção da experiência.
+2. **Aprendizagem** — mudança de repertório.
+3. **Comportamento** — aplicação no trabalho.
+4. **Resultados** — efeitos organizacionais.
 
-- Reação não prova aprendizagem.
-- Aprendizagem não prova transferência.
-- Correlação não prova atribuição causal.
+### Cadeia de pegadinhas
 
-## CIPP
+**gostou ≠ aprendeu ≠ aplicou ≠ gerou resultado atribuível ao curso**
 
-- Context: necessidades e prioridades.
-- Input: estratégia, recursos e plano.
-- Process: implementação e ajustes.
-- Product: resultados e mérito.
-- Avaliação ocorre ao longo do programa, não só no fim.
+Mudanças concorrentes devem ser consideradas ao interpretar resultados.
 
-## Phillips/ROI
+## Distinções rápidas
 
-$$
-ROI(\%) = \frac{\text{benefícios} - \text{custos}}{\text{custos}} \times 100
-$$
-
-- Exige custos completos, monetização defensável e isolamento da contribuição.
-- ROI não é o quinto nível original de Kirkpatrick.
-- Não se calcula obrigatoriamente para toda ação.
-
-## Três Es
-
-- Eficiência: recursos em relação aos produtos.
-- Eficácia: alcance dos objetivos.
-- Efetividade: mudança relevante na realidade.
-- Baixo custo não prova aprendizagem nem impacto.
-
-## Setor público
-
-- Capacitação deve servir à finalidade institucional.
-- Critérios transparentes, acessibilidade e igualdade de oportunidades.
-- Decreto nº 9.991/2019: PNDP federal.
-- Abrangência: administração pública federal direta, autárquica e fundacional.
-- PNDP não incide automaticamente no TCE-MA.
-- Regras próprias do Tribunal dependem de legislação estadual e atos internos.
+- lista de cursos desejados ≠ LNT;
+- nota baixa ≠ causa educacional comprovada;
+- objetivo ≠ conteúdo;
+- método ≠ modalidade;
+- execução ≠ aprendizagem;
+- aprendizagem ≠ transferência;
+- reação ≠ aprendizagem;
+- resultado posterior ≠ causalidade comprovada.
 
 ## Pegadinhas
 
-- Lista de cursos = LNT: errado.
-- Toda nota baixa exige treinamento: errado.
-- Modalidade vem antes do objetivo: errado.
-- ADDIE = Kirkpatrick: errado.
-- Satisfação = transferência: errado.
-- CIPP só avalia produto: errado.
-- ROI = quinto nível original: errado.
-- Eficiência = eficácia: errado.
+- Toda lacuna exige treinamento → **errado**.
+- Macro/meso/micro = organização/trabalho/indivíduo → **correto**.
+- Programação é apenas cronograma → **errado**.
+- Modalidade vem antes do objetivo → **errado**.
+- ADDIE = Kirkpatrick → **errado**.
+- Frequência prova aprendizagem → **errado**.
+- Avaliação formativa ocorre durante a ação → **correto**.
+- Reação favorável prova transferência → **errado**.
+- Kirkpatrick comportamento = aplicação no trabalho → **correto**.
+- Curso anterior à melhora prova que causou a melhora → **errado**.
