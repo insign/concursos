@@ -1,134 +1,157 @@
 # Administração de cargos, carreiras e salários
 
-## Distinções
+## Corte e núcleo
 
-| Termo | Núcleo |
+- **Corte de prova:** 6/7/2026.
+- Núcleo: **avaliar cargos → estruturar remuneração → organizar carreiras**.
+- Análise/descrição de cargos = **insumo**; não repetir métodos do assunto 149.
+- No setor público, técnica de RH **não substitui lei, orçamento ou competência**.
+
+## Distinções essenciais
+
+| Conceito | Núcleo |
 | --- | --- |
-| tarefa | ação ou sequência delimitada |
-| posição | instância individual, ocupada ou vaga |
-| cargo | conjunto organizado de atribuições e responsabilidades |
-| emprego | relação de trabalho contratual, conforme o regime |
-| função | atividade, conjunto funcional ou encargo; sentido depende do contexto |
-| ocupação | agrupamento de trabalhos semelhantes no mercado |
+| tarefa | ação delimitada |
+| posição | instância individual do cargo |
+| cargo | conjunto de atribuições/responsabilidades |
+| emprego | relação contratual conforme o regime |
+| função | atividade ou encargo; sentido contextual |
+| ocupação | agrupamento amplo de trabalhos semelhantes |
 
-- Ocupante não é o cargo.
-- CBO classifica; não cria cargo nem regulamenta profissão.
-- Lei nº 8.112/1990: definição e regime federais; não é estatuto automático do TCE-MA.
+**ocupante ≠ cargo**
 
-## Fronteiras
+## Fronteira decisiva
 
-- Desenho: combina tarefas, autoridade, recursos, interfaces e métodos.
-- Análise: investiga e valida evidências do trabalho.
-- Descrição: registra propósito, tarefas, responsabilidades, relações e condições.
-- Especificação: registra requisitos ligados ao trabalho.
-- Avaliação de cargos: estima valor relativo para comparação interna.
-- Avaliação de desempenho: julga entregas e comportamentos do titular em período definido.
-- Análise e avaliação fornecem insumos; não alteram sozinhas lei ou remuneração.
+- **análise de cargos:** investiga o trabalho;
+- **descrição:** registra o trabalho;
+- **avaliação de cargos:** estima **valor relativo do cargo**;
+- **avaliação de desempenho:** julga **a pessoa no período**.
 
 ## Plano CCS
 
 ### Objetivos
 
-- Equidade interna.
-- Competitividade externa.
-- Clareza, previsibilidade e transparência.
-- Atração, retenção e desenvolvimento.
-- Sustentabilidade financeira e conformidade.
-- Redução de decisões casuísticas.
+**equidade interna + competitividade externa + clareza + atração/retenção + desenvolvimento + sustentabilidade**
 
-### Etapas
+### Fluxo
 
-1. Governança, escopo e critérios.
-2. Diagnóstico institucional, jurídico e financeiro.
-3. Análise e descrição dos trabalhos.
-4. Arquitetura de famílias, níveis, trilhas e regras.
-5. Avaliação de cargos e pesquisa de mercado.
-6. Faixas, política, simulações e transição.
-7. Validação jurídica, orçamentária e institucional.
-8. Implantação, comunicação e monitoramento.
+**governança → diagnóstico → descrições válidas → arquitetura → avaliação de cargos → mercado → faixas/política → simulação → validação → implantação/monitoramento**
+
+Plano técnico **não cria** automaticamente promoção, reajuste ou vantagem.
 
 ## Avaliação de cargos
 
-| Método | Vantagem | Limite |
+| Método | Como lembrar | Vantagem | Limite |
+| --- | --- | --- | --- |
+| **ranking** | ordena cargos | simples/rápido | não mostra distância; ruim para estruturas grandes |
+| **graus/classes** | encaixa em classes descritas | fácil administrar | fronteiras podem ser vagas |
+| **comparação por fatores** | compara fatores compensáveis | análise fina | complexo; pode reproduzir valores históricos |
+| **pontos por fator** | fator + grau + peso + pontos | rastreável | custo, subjetividade, falsa precisão |
+
+### Pegadinhas
+
+- fator avalia **trabalho**, não pessoa;
+- ponto do cargo ≠ nota de desempenho;
+- resultado da avaliação ≠ salário automático;
+- pontos por fator parece matemático, mas pesos/graus exigem julgamento.
+
+## Mercado e política salarial
+
+**Pesquisa válida = trabalhos comparáveis, não títulos iguais.**
+
+Considere:
+
+- conteúdo e responsabilidade;
+- complexidade e requisitos;
+- localidade e jornada;
+- setor/porte/regime;
+- componentes remuneratórios;
+- data-base e amostra.
+
+### Equidade
+
+| Tipo | Pergunta |
+| --- | --- |
+| **interna** | a relação entre trabalhos e recompensas é coerente dentro da organização? |
+| **externa** | como a remuneração se posiciona no mercado relevante? |
+| **individual** | diferenças entre pessoas comparáveis são justificáveis? |
+| **processual** | critérios e decisões são consistentes e explicáveis? |
+
+**Competitividade externa ≠ pagar sempre acima do mercado.**
+
+## Curva e faixas
+
+- **curva salarial:** relaciona valor relativo do cargo e remuneração;
+- **faixa:** mínimo + ponto médio + máximo;
+- **sobreposição:** pode facilitar crescimento/mobilidade;
+- sobreposição excessiva → perde clareza entre níveis;
+- **compressão salarial:** diferenças entre níveis/experiências ficam pequenas demais.
+
+Compressão é **diagnóstico**, não fórmula automática de reajuste.
+
+## Remuneração e recompensas
+
+| Tipo | Núcleo | Risco/cuidado |
 | --- | --- | --- |
-| ranking | simples e rápido | não mostra distância; difícil em estruturas grandes |
-| graus/classes | comunica níveis predefinidos | fronteiras e descrições podem ser vagas |
-| comparação por fatores | análise fina e monetária | complexa; pode perpetuar valores históricos |
-| pontos por fator | rastreabilidade por fatores, graus e pesos | custo, escolhas subjetivas e falsa precisão |
+| fixa | parcela recorrente associada à estrutura | rigidez/custo |
+| variável | depende de condição/resultado | curto-prazismo, manipulação, fatores fora do controle |
+| benefícios | componentes indiretos/serviços | dependem do regime |
+| não financeira | reconhecimento, autonomia, desenvolvimento, carreira | não substitui remuneração justa |
 
-- Fatores devem representar o trabalho, não a pessoa.
-- Pontuação não mede desempenho individual.
-- Documente pesos, graus, julgamentos e divergências.
+**Recompensa total = remuneração + benefícios + desenvolvimento + experiência de trabalho.**
 
-## Mercado e faixas
+## Estrutura tradicional × broadbanding
 
-- Pareie conteúdo, responsabilidade, complexidade, localidade, regime e jornada; não apenas títulos.
-- Pesquisa deve informar população, data, amostra, componentes, percentis e limitações.
-- Curva salarial relaciona valor relativo e remuneração; é referência, não lei natural.
-- Faixa: mínimo + midpoint + máximo.
-- Sobreposição facilita progressão, mas excesso gera compressão e confusão.
+| Estrutura | Vantagem | Limite |
+| --- | --- | --- |
+| **tradicional** | clareza, previsibilidade, controle | rigidez, muitos degraus |
+| **broadbanding** | poucas faixas largas, flexibilidade | maior discricionariedade e risco de compressão |
 
-$$
-\text{compa-ratio} = \frac{\text{salário individual}}{\text{midpoint}} \times 100
-$$
-
-- Compa-ratio é sinal para análise, não prova de injustiça.
-- Equidade interna: coerência dentro da organização.
-- Equidade externa: posição diante do mercado relevante.
-- Equidade processual: critérios, explicação, revisão e imparcialidade.
-
-## Recompensas
-
-- Fixa: parcela recorrente associada ao cargo, nível, jornada ou regime.
-- Variável: depende de condição ou resultado; exige métricas, limites e controle de fatores externos.
-- Benefícios: componentes indiretos legais, convencionais ou voluntários, conforme o regime.
-- Não financeiras: reconhecimento, autonomia, desenvolvimento, carreira, flexibilidade, segurança e qualidade de vida.
-- Recompensa total combina remuneração, benefícios, desenvolvimento e experiência.
-- No setor público, não presumir parcela ou benefício do TCE-MA sem fonte normativa.
-
-## Estruturas
-
-- Tradicional: muitas grades/faixas estreitas; previsível, porém rígida.
-- Broadbanding: poucas faixas largas; flexível, mas exige governança contra arbitrariedade e compressão.
-- Por habilidades: remunera repertórios demonstrados ou certificados; pode pagar capacidade não utilizada.
-- Por competências: remunera repertório mobilizado para entregas; exige modelo válido e evidência.
-- Habilidade/competência não é o mesmo que desempenho do período.
+- por habilidades/competências = remunera **capacidade/repertório reconhecido**;
+- por desempenho = recompensa **entrega do período**.
 
 ## Carreiras
 
 | Formato | Ideia central |
 | --- | --- |
-| linha | progressão vertical sucessiva |
-| Y | tronco comum e bifurcação técnica/gerencial |
-| W | múltiplos caminhos, incluindo projetos, técnica e gestão |
+| linha | caminho vertical único ou predominante |
+| Y | bifurcação técnica × gerencial |
 | paralela | trilhas distintas coexistentes |
-| rede | movimentos laterais, diagonais e entre projetos/famílias |
-| sem fronteiras | experiências entre organizações, projetos e redes |
+| rede | movimentos laterais/diagonais e entre projetos |
+| W | múltiplos caminhos, inclusive projetos |
+| sem fronteiras | trajetórias entre organizações/redes |
 
-- Terminologia varia: Y e dupla/paralela podem ser usados como equivalentes.
-- Mobilidade não exige promoção.
-- Progressão ocorre dentro da carreira; promoção leva a nível/posição superior, conforme a norma.
-- Sucessão prepara capacidades e continuidade; não é nomeação antecipada.
-- Nenhum formato promete movimentação automática ou dispensa concurso.
+**Terminologia varia entre autores.**
 
-## Constituição
+### Mobilidade × progressão × promoção
 
-- Art. 37, caput: legalidade, impessoalidade, moralidade, publicidade e eficiência.
-- Art. 37, II: concurso para cargo ou emprego, ressalvas constitucionais.
-- Art. 37, V: função de confiança só para ocupante de cargo efetivo; cargos em comissão observam preenchimento por servidores de carreira nos casos, condições e percentuais legais; ambos se limitam a direção, chefia e assessoramento.
-- Art. 37, X: lei específica para remuneração; revisão geral anual na mesma data e sem distinção de índices.
-- Art. 37, XI: teto remuneratório.
-- Art. 37, XIII: vedada vinculação/equiparação remuneratória.
-- Art. 37, XIV: acréscimo não gera acréscimo ulterior por simples acúmulo.
-- Art. 37, XV: irredutibilidade, ressalvas constitucionais.
-- EC 138/2025: professor + cargo de qualquer natureza, com compatibilidade de horários e teto; não liberou acumulação geral.
-- Art. 39, § 1º: natureza, responsabilidade, complexidade, requisitos e peculiaridades dos cargos.
-- Art. 39, § 4º: subsídio em parcela única para os agentes ali enumerados; não para todo servidor.
-- Art. 39, § 6º: publicação anual dos valores de subsídio e remuneração de cargos e empregos.
-- Art. 39, § 7º: lei pode disciplinar o uso de economias correntes em programas e incentivos ali previstos.
-- Art. 39, § 8º: servidores organizados em carreira podem receber por subsídio; não é automático.
-- SV 37: Judiciário não aumenta vencimentos sob fundamento de isonomia.
+- **mobilidade:** muda unidade/área/projeto/trilha; pode ser lateral;
+- **progressão:** avança dentro da mesma carreira/classe/nível/faixa;
+- **promoção:** vai a nível/posição superior, normalmente com maior complexidade.
 
-## Regra de prudência
+Nenhum desses conceitos cria direito automático: a regra concreta depende do regime aplicável.
 
-Não atribua ao TCE-MA regra federal, privada ou acadêmica sem fonte estadual/institucional aplicável. O edital informa o concurso; não inventa carreira futura, progressão, benefício ou vantagem.
+## Limites públicos que importam aqui
+
+- **CF, art. 37, X:** remuneração depende de lei específica.
+- **art. 37, XI:** teto.
+- **art. 37, XIII:** vedada vinculação/equiparação remuneratória.
+- **art. 37, XV:** irredutibilidade, ressalvas constitucionais.
+- **art. 39, § 1º:** natureza + responsabilidade + complexidade + requisitos + peculiaridades.
+- **SV 37:** Judiciário não aumenta vencimentos por isonomia.
+- **Subsídio:** depende do regime constitucional/legal competente; não presumir para qualquer cargo.
+
+## Pegadinhas finais
+
+- Avaliação de cargos = avaliação de desempenho → **errado**.
+- Ranking mede distância exata → **errado**.
+- Pontos por fator elimina subjetividade → **errado**.
+- Título igual = cargo comparável no mercado → **errado**.
+- Equidade interna = pagar igual a todos → **errado**.
+- Competitividade externa = liderar mercado sempre → **errado**.
+- Faixa larga = liberdade total para pagar → **errado**.
+- Broadbanding = muitas faixas estreitas → **errado**.
+- Mobilidade lateral = promoção → **errado**.
+- Pesquisa salarial autoriza reajuste público → **errado**.
+- Avaliação do cargo autoriza aumento público → **errado**.
+- TCE-MA adota progressão/benefício X sem fonte própria → **não afirmar**.
