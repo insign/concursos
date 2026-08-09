@@ -6,6 +6,7 @@
 - Divulgação de interesse público independe de pedido.
 - Uso de TIC, cultura de transparência e controle social.
 - Procedimentos objetivos, ágeis, claros e em linguagem fácil.
+- Art. 6º: gestão transparente + proteção da informação + proteção de informação sigilosa e pessoal.
 
 ## Abrangência
 
@@ -52,12 +53,16 @@
 | disponível | acesso imediato |
 | imediato impossível | até 20 dias |
 | prorrogação | +10 dias, justificativa expressa e ciência |
+| documento que fundamenta decisão | acesso com a edição do ato decisório |
+| informação extraviada | interessado pode requerer sindicância imediata |
+| responsável pela guarda | 10 dias para justificar o extravio e indicar testemunhas |
 | não possui | informa; indica detentor se souber ou remete e cientifica |
 | parte protegida | certidão, extrato ou cópia com ocultação |
 | já disponível universalmente | informa local e modo; fornece diretamente se requerente declarar falta de meios |
 
 - A LAI não diz “dias úteis”.
 - Contagem contínua da CGU é orientação operacional federal.
+- O órgão pode oferecer meios para o próprio requerente pesquisar, respeitadas segurança e proteção da informação.
 - Informação digital: nesse formato, se houver anuência.
 - Risco ao original: cópia certificada; reprodução supervisionada se necessário.
 
@@ -74,4 +79,4 @@
 - O art. 7º é exemplificativo: “entre outros”.
 - Restrição parcial não autoriza negar tudo.
 - Prorrogação exige justificativa expressa **e** ciência.
-- Fala.BR e detalhes do Decreto nº 7.724/2012 não são comandos automáticos ao TCE-MA.
+- Plataformas e detalhes operacionais federais não são comandos automáticos ao TCE-MA.
