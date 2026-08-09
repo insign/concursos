@@ -12,7 +12,7 @@ storageId: "gp-lideranca-motivacao"
 
 Liderança e motivação influenciam o desempenho, mas não o determinam isoladamente. Este assunto aprofunda o item 4.2 do edital. Fundamentos históricos de gestão de pessoas ficam no Assunto 142; relações indivíduo-organização e desenho do trabalho, no 144; competência interpessoal e conflitos, no 146; métodos formais de avaliação de desempenho, no 150.
 
-> **Corte de atualização:** referências consultadas até 17 de julho de 2026.
+> **Recorte bibliográfico:** referências consultadas até 17 de julho de 2026; não se trata de corte normativo autônomo.
 
 ## 2. Gestão, chefia, liderança, poder e autoridade
 
@@ -89,16 +89,16 @@ Situações muito favoráveis ou muito desfavoráveis tenderiam a favorecer orie
 
 ## 6. Liderança situacional de Hersey e Blanchard
 
-O comportamento do líder combina direção para tarefa e apoio ao relacionamento conforme a prontidão ou maturidade do liderado **para uma tarefa específica**:
+O comportamento do líder combina direção para tarefa e apoio ao relacionamento conforme a prontidão ou maturidade do liderado **para uma tarefa específica**, entendida como combinação entre capacidade para executar a tarefa e disposição/confiança para realizá-la:
 
 | Estilo | Direção | Apoio | Situação típica |
 | --- | --- | --- | --- |
-| determinar/dirigir | alta | baixa | pouca capacidade e pouca segurança para a tarefa |
-| persuadir/treinar | alta | alta | capacidade em desenvolvimento e necessidade de apoio |
-| compartilhar/apoiar | baixa | alta | capacidade maior, mas necessidade de participação ou confiança |
-| delegar | baixa | baixa | capacidade e disposição elevadas para a tarefa |
+| determinar/dirigir | alta | baixa | capacidade baixa e disposição/confiança baixa |
+| persuadir/treinar | alta | alta | capacidade ainda baixa e disposição/confiança crescente |
+| compartilhar/apoiar | baixa | alta | capacidade alta e disposição/confiança variável |
+| delegar | baixa | baixa | capacidade alta e disposição/confiança alta |
 
-Maturidade não é rótulo fixo da pessoa. O mesmo servidor pode demandar estilos diferentes em atividades distintas.
+A nomenclatura de níveis varia entre versões do modelo, mas a lógica cobrada permanece: aumentar ou reduzir direção e apoio conforme a prontidão para a tarefa. Maturidade não é rótulo fixo da pessoa. O mesmo servidor pode demandar estilos diferentes em atividades distintas.
 
 ## 7. Teoria caminho-meta
 
@@ -203,7 +203,7 @@ Como a relação é multiplicativa, um elo percebido como nulo reduz fortemente 
 
 ### 13.2 Equidade
 
-A pessoa compara contribuições e resultados próprios com referenciais. Iniquidade percebida pode provocar ajuste de esforço, busca de mudança nos resultados, nova comparação, reinterpretação ou saída. Não confunda equidade com igualdade absoluta: critérios legítimos podem admitir diferenças justificadas.
+A pessoa compara a relação entre **resultados recebidos e contribuições oferecidas** (resultados/contribuições) com a relação percebida para um referencial. Iniquidade percebida pode provocar ajuste de esforço, busca de mudança nos resultados, nova comparação, reinterpretação ou saída. Não confunda equidade com igualdade absoluta: critérios legítimos podem admitir diferenças justificadas.
 
 ### 13.3 Estabelecimento de metas
 
@@ -250,8 +250,6 @@ Métodos, erros de avaliação, escalas e ciclos formais serão tratados no Assu
 
 Liderança pública deve combinar entrega de valor público, legalidade, impessoalidade, integridade, continuidade e desenvolvimento das pessoas. Recompensas e sanções dependem de competência e base normativa; influência pessoal não autoriza promessa de vantagem ou tratamento privilegiado.
 
-ENAP, TCU e a Política Nacional de Desenvolvimento de Pessoas oferecem referências úteis. O Decreto nº 9.991/2019 dirige-se à administração pública federal direta, autárquica e fundacional e **não incide automaticamente sobre o TCE-MA**. Regras de carreira, avaliação e desenvolvimento do Tribunal dependem de seu regime aplicável.
-
 ## 18. Pegadinhas de prova
 
 | Afirmação | Avaliação |
@@ -284,4 +282,3 @@ ENAP, TCU e a Política Nacional de Desenvolvimento de Pessoas oferecem referên
 - [Self-Determination Theory in Work Organizations](https://doi.org/10.1146/annurev-orgpsych-032516-113108), Marylène Gagné et al., *Annual Review of Organizational Psychology and Organizational Behavior*, 2017, acesso em 17 jul. 2026.
 - [Motivation Through the Design of Work](https://doi.org/10.1016/0030-5073(76)90016-7), J. Richard Hackman e Greg R. Oldham, *Organizational Behavior and Human Performance*, 1976, acesso em 17 jul. 2026.
 - [Gerir o desempenho dos colaboradores e dos gestores](https://tcu.gov.br/govorganizacional/001.005.009.031.htm), Tribunal de Contas da União, acesso em 17 jul. 2026.
-- [Decreto nº 9.991, de 28 de agosto de 2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm), Presidência da República, versão vigente consultada em 17 jul. 2026.
