@@ -14,7 +14,7 @@ Competência interpessoal permite compreender e conduzir interações de trabalh
 
 Comunicação organizacional geral foi tratada no Assunto 105; liderança e desempenho, no 145; gestão da mudança, no 147; avaliação formal de desempenho, no 150.
 
-> **Corte de atualização:** referências consultadas até 17 de julho de 2026.
+> **Recorte bibliográfico:** referências consultadas até 17 de julho de 2026; não se trata de corte normativo autônomo.
 
 ## 2. Competência interpessoal
 
@@ -91,6 +91,8 @@ Fontes frequentes incluem:
 | intragrupal | conflito dentro da equipe |
 | intergrupal | conflito entre setores ou unidades |
 | organizacional | conflito ligado a estruturas, processos, cultura ou níveis hierárquicos |
+
+As taxonomias variam entre autores. Em prova, identifique primeiro o **locus** do conflito — dentro da pessoa, entre pessoas, dentro ou entre grupos — antes de aplicar o rótulo; “organizacional” pode aparecer como categoria ampla ligada à estrutura e aos processos.
 
 ### 7.2 Conteúdo
 
@@ -171,7 +173,7 @@ A Lei nº 13.140/2015 define mediação e disciplina autocomposição, inclusive
 - **confirmação:** buscar e interpretar evidências que sustentem crença inicial;
 - **percepção seletiva:** notar apenas parte dos sinais;
 - **estereótipo:** inferir características pela pertença a grupo;
-- **autovalorização:** atribuir sucesso a si e falha a fatores externos.
+- **autoconveniência (self-serving bias):** atribuir o próprio sucesso a fatores internos e o próprio fracasso a fatores externos.
 
 Vieses são hipóteses de diagnóstico, não prova de má-fé. Assimetrias de poder exigem canais seguros, critérios transparentes, registro e proteção contra retaliação.
 
@@ -183,7 +185,7 @@ Diferenças de repertório e experiência podem ampliar perspectivas, mas não g
 
 Legalidade, impessoalidade, moralidade, publicidade e eficiência limitam o manejo de conflitos. Empatia não autoriza favorecimento; confidencialidade não elimina dever de registrar, dar transparência ou apurar; negociação não permite renunciar a competência ou interesse público sem base jurídica.
 
-O Código de Ética do Decreto nº 1.171/1994 é referência do Poder Executivo federal e **não incide automaticamente sobre o TCE-MA**. A Constituição, o regime estadual e normas próprias do Tribunal devem orientar deveres concretos.
+Deveres concretos dependem do regime estadual e das normas próprias aplicáveis ao TCE-MA.
 
 ## 17. Roteiro prático
 
@@ -226,4 +228,3 @@ O Código de Ética do Decreto nº 1.171/1994 é referência do Poder Executivo 
 - [Gestão de conflitos](https://suap.enap.gov.br/vitrine/curso/2083/), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
 - [Lei nº 13.140, de 26 de junho de 2015](https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm), Presidência da República, versão vigente consultada em 17 jul. 2026.
 - [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), art. 37, versão vigente consultada em 17 jul. 2026.
-- [Decreto nº 1.171, de 22 de junho de 1994](https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm), Presidência da República, acesso em 17 jul. 2026.
