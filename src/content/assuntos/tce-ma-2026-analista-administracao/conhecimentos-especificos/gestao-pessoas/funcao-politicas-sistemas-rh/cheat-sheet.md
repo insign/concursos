@@ -5,23 +5,22 @@
 | Papel | Núcleo |
 | --- | --- |
 | operacional | cadastro, folha, atos, atendimento e controles |
-| consultivo/staff | orientação, métodos, sistemas e análises |
-| estratégico | força de trabalho, competências, riscos e prioridades |
+| consultivo/staff | orientação, métodos e apoio técnico aos gestores |
+| estratégico | força de trabalho, prioridades, capacidades e indicadores |
 
 - Estratégico não elimina operacional.
-- Gestor de linha conduz a equipe; RH apoia e orienta.
-- Alta administração avalia, direciona e monitora.
-- Auditoria avalia controles; não substitui a gestão.
+- Gestor de linha conduz a equipe; RH apoia, orienta e mantém infraestrutura especializada.
+- Staff pode exercer autoridade funcional prevista em norma, mas não substitui automaticamente a hierarquia de linha.
 
 ## Objetivos do RH
 
-- Prover quantidade e capacidades necessárias.
-- Alinhar pessoas à missão e ao valor público.
-- Assegurar regularidade, direitos e rastreabilidade.
+- Prover quantidade e perfis necessários.
+- Alinhar pessoas à missão institucional.
+- Assegurar regularidade de atos, registros e pagamentos.
 - Apoiar gestores e decisões.
 - Desenvolver e preservar capacidades.
 - Produzir informação confiável.
-- Monitorar e aperfeiçoar políticas.
+- Monitorar e aperfeiçoar políticas e processos.
 
 ## Grupos de processos
 
@@ -30,80 +29,101 @@
 | agregar/prover | força de trabalho, ingresso, seleção e movimentação |
 | aplicar | cargos, lotação, alocação e desempenho |
 | recompensar | remuneração, benefícios, carreiras e reconhecimento legítimo |
-| desenvolver | necessidades, aprendizagem, liderança, conhecimento e sucessão |
-| manter | saúde, segurança, inclusão, relações e qualidade de vida |
-| monitorar | cadastro, SIG, indicadores, conformidade, riscos e avaliação |
+| desenvolver | aprendizagem, capacitação, conhecimento e sucessão |
+| manter | saúde, segurança, relações, inclusão e qualidade de vida |
+| monitorar | cadastro, SIG, indicadores, controles e avaliação |
 
-- Classificação didática: nomes variam e não criam competência jurídica.
+- Taxonomia didática: nomes variam e não criam competência jurídica.
 - Os grupos são interdependentes; classifique pela finalidade predominante.
 
-## Ciclo da política
+## Política de RH
 
-1. Diagnóstico: problema, evidências, riscos e restrições.
-2. Formulação: objetivo, público, critérios, instrumentos, indicadores e metas.
-3. Aprovação: autoridade e instrumento competentes.
-4. Implementação: processos, sistemas, capacitação e comunicação.
-5. Monitoramento: execução, cobertura, prazo, custo, qualidade e riscos.
-6. Avaliação: eficácia, eficiência, equidade, resultados e revisão.
+**Política ≠ formulário ≠ sistema ≠ ação isolada.**
 
-- Política não é formulário, sistema ou ação isolada.
-- Publicar ato não garante compreensão nem execução.
-- Monitoramento acompanha; avaliação julga mérito e resultados.
+Política = princípios + objetivos + critérios + responsabilidades + instrumentos para orientar decisões recorrentes.
+
+### Ciclo didático
+
+1. diagnóstico;
+2. formulação;
+3. aprovação/institucionalização;
+4. implementação;
+5. monitoramento;
+6. avaliação/revisão.
+
+- O ciclo não é sequência universal rígida.
+- Monitoramento acompanha execução; avaliação examina mérito e resultados.
+- Publicar ato não garante implementação.
 
 ## Coerência
 
 - **Vertical:** missão → estratégia → objetivos de GP → planos → atividades.
-- **Horizontal:** políticas e subsistemas compatíveis entre si.
+- **Horizontal:** políticas e processos de pessoas compatíveis entre si.
 - Coerência não significa uniformidade absoluta.
 
-## Governança
+## Dado × informação
 
-- Governança: avaliar, direcionar e monitorar.
-- Gestão: planejar, executar e controlar operacionalmente.
-- Decretos nº 9.203/2017 e nº 9.991/2019: referências federais, não automáticos ao TCE-MA.
+| Conceito | Ideia |
+| --- | --- |
+| dado | registro elementar de um fato |
+| informação | dado tratado e contextualizado para uma necessidade |
 
-## SIG de RH
+**Acumular dados ≠ produzir informação útil.**
+
+## Fluxo do SIG
+
+**entrada → processamento → armazenamento/integração → saída → feedback**
 
 - SIG = pessoas + processos + dados + tecnologia + controles.
-- SIG não é apenas software.
-- SIG é genérico; Sigepe e SouGov são soluções federais específicas.
-- Dados mestres: pessoa, vínculo, cargo, função, unidade, lotação, situação e vigência.
-- Integração exige fonte oficial, chaves, validação, reconciliação e responsáveis.
+- SIG não é apenas software nem banco de dados.
 
-## Qualidade de dados
+## Níveis do SIG
+
+| Nível | Uso |
+| --- | --- |
+| operacional | registrar transações rotineiras |
+| gerencial/tático | acompanhar unidades e apoiar decisões recorrentes |
+| estratégico | cenários, tendências, riscos e projeções |
+
+**Regra:** decisão estratégica depende de base operacional confiável.
+
+## Integração e qualidade
+
+- Integração exige identificação comum, periodicidade, validação, tratamento de erros e responsáveis.
+- Integração não é mera troca de planilhas nem acesso indiscriminado.
 
 | Dimensão | Ideia |
 | --- | --- |
-| exatidão | representa o fato |
+| exatidão | representa corretamente o fato |
 | completude | contém o necessário |
 | atualidade | está no tempo adequado |
 | consistência | não se contradiz |
 | unicidade | não duplica indevidamente |
-| validade | obedece formato e domínio |
-| integridade | relações são válidas |
+| validade | obedece às regras definidas |
 | rastreabilidade | origem e transformação verificáveis |
 
-## Indicadores
+## Indicadores e dashboards
 
-- Devem explicitar conceito, fórmula, fonte, período, população e limites.
-- Dashboard não corrige dado ruim.
-- Quantidade de ações é atividade, não necessariamente resultado.
-- Comparações exigem contexto de missão, porte e complexidade.
-- Correlação não prova causalidade.
+- Indicador: conceito + fórmula + fonte + período + população + periodicidade.
+- Atividade/processo ≠ resultado.
+- Dashboard organiza visualização; não corrige dado ruim nem prova causalidade.
+- Comparações exigem contexto de missão, porte e composição.
 
-## LGPD e segurança
+## Controles do SIG
 
-- Dados funcionais identificáveis são dados pessoais.
-- Saúde e biometria são exemplos de dados sensíveis.
-- Consentimento não é autorização genérica para rotinas de RH.
-- Interoperabilidade não autoriza compartilhamento indiscriminado.
-- Use acesso por perfil, segregação, trilhas, revisão de permissões e resposta a incidentes.
-- Transparência não é divulgação irrestrita de dados pessoais.
-- LGPD tem alcance nacional.
+- acesso por perfil;
+- segregação de responsabilidades;
+- validação e atualização de registros;
+- histórico e rastreabilidade;
+- continuidade e cópias de segurança;
+- proteção contra acesso ou alteração indevidos.
 
-## Analytics e IA
+## Pegadinhas
 
-- Finalidade legítima, minimização e qualidade antes da análise.
-- Avaliar vieses, proxies sensíveis e efeitos discriminatórios.
-- Manter documentação, segurança, supervisão e revisão humana.
-- Decisão automatizada relevante não deve ser tratada como incontestável.
+- RH estratégico não abandona rotinas administrativas.
+- Staff não significa ausência absoluta de autoridade funcional.
+- Política não é o instrumento usado para executá-la.
+- Dado não é sinônimo de informação.
+- SIG não é sinônimo de software.
+- Informação gerencial apoia; não substitui automaticamente a decisão.
+- Integração não autoriza acesso indiscriminado.
