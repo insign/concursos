@@ -36,14 +36,15 @@
 
 ### Hersey-Blanchard
 
-| Estilo | Direção | Apoio |
-| --- | --- | --- |
-| dirigir | alta | baixa |
-| treinar | alta | alta |
-| apoiar | baixa | alta |
-| delegar | baixa | baixa |
+| Estilo | Direção | Apoio | Prontidão típica |
+| --- | --- | --- | --- |
+| dirigir | alta | baixa | capacidade baixa + disposição/confiança baixa |
+| treinar | alta | alta | capacidade ainda baixa + disposição/confiança crescente |
+| apoiar | baixa | alta | capacidade alta + disposição/confiança variável |
+| delegar | baixa | baixa | capacidade alta + disposição/confiança alta |
 
 - Prontidão/maturidade varia conforme a tarefa.
+- **Fiedler × Hersey-Blanchard:** Fiedler trata o estilo básico como relativamente estável; Hersey-Blanchard varia direção e apoio conforme a prontidão para a tarefa.
 
 ### Caminho-meta
 
@@ -71,7 +72,7 @@
 
 - Maslow: fisiológicas, segurança, sociais, estima, autorrealização; não é sequência universal rígida.
 - ERG: existência, relacionamento, crescimento; admite simultaneidade e frustração-regressão.
-- Herzberg: higiene reduz insatisfação; motivadores ligam-se ao conteúdo do trabalho.
+- Herzberg: **higiênicos** reduzem insatisfação; **motivadores** ligam-se ao conteúdo do trabalho e à satisfação/motivação.
 - McClelland: realização, afiliação e poder.
 - X/Y: pressupostos gerenciais, não tipos fixos de pessoa.
 
@@ -81,7 +82,7 @@
 - Expectativa: esforço → desempenho.
 - Instrumentalidade: desempenho → resultado.
 - Valência: valor do resultado.
-- Equidade compara contribuições e resultados com referenciais.
+- Equidade: compara a razão resultados/contribuições com a de um referencial; equidade ≠ igualdade absoluta.
 - Metas eficazes: específicas, desafiadoras, aceitas, viáveis e acompanhadas de feedback.
 - Autodeterminação: autonomia, competência e relacionamento.
 
@@ -107,5 +108,6 @@
 - Transacional não é sempre inferior.
 - Carisma não garante ética.
 - Higiene adequada não garante motivação.
+- Equidade não exige resultados idênticos para todos.
 - Meta estreita pode induzir distorção.
-- Decreto nº 9.991/2019 não incide automaticamente sobre o TCE-MA.
+- Gestão de desempenho ≠ avaliação periódica.
