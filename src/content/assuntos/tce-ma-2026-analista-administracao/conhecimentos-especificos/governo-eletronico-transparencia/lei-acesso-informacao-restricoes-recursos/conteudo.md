@@ -12,7 +12,7 @@ storageId: "lai-restricoes-recursos"
 
 Este assunto completa o estudo da Lei nº 12.527/2011 (LAI). O Assunto 140 tratou de princípios, abrangência, conceitos, pedido, tramitação e prazos ordinários. Aqui são estudados restrições, classificação e proteção, informações pessoais, transparência ativa, recursos e responsabilidades.
 
-> **Corte de atualização:** normas e orientações consultadas até 16 de julho de 2026.
+> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
 
 ## 2. Limites do acesso
 
@@ -105,7 +105,9 @@ Municípios com até 10 mil habitantes são dispensados apenas da divulgação o
 
 ### 6.1 Atualização de 2025
 
-A Lei nº 15.141/2025 acrescentou os arts. 8º-A e 8º-B. Serviços sociais autônomos que recebam contribuições ou recursos públicos federais por contrato de gestão devem divulgar dados funcionais e remuneratórios previstos em lei. Conselhos de fiscalização profissional devem divulgar nominal e individualmente parcelas remuneratórias e indenizatórias de empregados. São obrigações específicas e não substituem o regime geral do art. 2º.
+A Lei nº 15.141/2025 acrescentou os arts. 8º-A e 8º-B. O art. 8º-A alcança entidades com personalidade jurídica de direito privado constituídas como serviço social autônomo que sejam destinatárias de **contribuições ou de recursos públicos federais decorrentes de contrato de gestão**. Elas devem divulgar, quanto aos empregados: plano de cargos e salários e critérios de evolução/política salarial; quantitativo por cargo e faixas salariais, acompanhado do nome e cargo de cada empregado; parcelas remuneratórias e indenizatórias discriminadas por faixas salariais; e quantitativo, critérios de ocupação e ocupantes das funções gratificadas.
+
+O art. 8º-B exige que os conselhos de fiscalização profissional divulguem, de forma **nominal e individualizada**, as parcelas remuneratórias e indenizatórias, inclusive eventuais, que os empregados possam receber em condições específicas. São obrigações específicas e não substituem o regime geral da LAI.
 
 Detalhes adicionais do Decreto nº 7.724/2012, como seção padronizada e conteúdos federais, são aplicáveis ao Executivo federal, não automaticamente ao TCE-MA.
 
@@ -153,17 +155,23 @@ Constituem condutas ilícitas do agente público ou militar, entre outras:
 - ocultar informação da revisão superior;
 - destruir ou subtrair documentos sobre possíveis violações de direitos humanos por agentes estatais.
 
-As sanções dependem de contraditório, ampla defesa e devido processo e não afastam responsabilidades civil, penal ou por improbidade quando cabíveis.
+Respeitados contraditório, ampla defesa e devido processo, essas condutas são transgressões militares médias ou graves segundo os regulamentos aplicáveis ou, para fins da Lei nº 8.112/1990, infrações administrativas **apenadas, no mínimo, com suspensão**, conforme os critérios daquele estatuto. Também podem ensejar outras responsabilidades previstas em lei.
 
-Pessoa física ou entidade privada vinculada ao poder público pode sofrer advertência, multa, rescisão, suspensão de licitar e contratar por até dois anos e declaração de inidoneidade.
+Pessoa física ou entidade privada que detenha informação em razão de vínculo de qualquer natureza com o poder público e descumpra a LAI pode sofrer:
+
+- advertência;
+- multa;
+- rescisão do vínculo;
+- suspensão temporária de participar em licitação e impedimento de contratar com a administração por até **2 anos**;
+- declaração de inidoneidade para licitar ou contratar, até reabilitação perante a autoridade que aplicou a penalidade.
+
+Advertência, rescisão e suspensão podem ser aplicadas **junto com a multa**, assegurada defesa no respectivo processo em **10 dias**. A reabilitação da inidoneidade exige ressarcimento dos prejuízos e o transcurso do prazo da sanção de suspensão aplicada. A declaração de inidoneidade é de competência exclusiva da **autoridade máxima** do órgão ou entidade, também com defesa em 10 dias da abertura de vista.
 
 Órgãos e entidades públicas respondem diretamente por danos decorrentes de divulgação não autorizada ou uso indevido de informação sigilosa ou pessoal, com direito de regresso contra o agente responsável nos casos de dolo ou culpa.
 
-## 10. Proteção do denunciante
+## 10. Alteração da Lei nº 8.112/1990 pela LAI
 
-O art. 44 da LAI alterou a Lei nº 8.112/1990 para proteger servidor federal que comunique à autoridade competente crime ou improbidade de que tenha conhecimento. É regra do regime federal, não estatuto automático de servidor estadual.
-
-A Lei nº 13.608/2018 estabelece proteção nacional da identidade do informante, medidas contra retaliação e imunidade civil e penal pelo relato razoável encaminhado à apuração, ressalvada informação conscientemente falsa. O Decreto nº 10.153/2019 detalha pseudonimização e controles no Executivo federal.
+O art. 44 da LAI acrescentou o art. 126-A à Lei nº 8.112/1990: o servidor federal não pode ser responsabilizado civil, penal ou administrativamente por comunicar à autoridade superior — ou, havendo suspeita de envolvimento desta, a outra autoridade competente — informação sobre prática de crime ou improbidade de que tenha conhecimento. É regra incorporada ao regime federal pela própria LAI e não se converte automaticamente em estatuto funcional estadual.
 
 ## 11. Pegadinhas finais
 
@@ -175,13 +183,14 @@ A Lei nº 13.608/2018 estabelece proteção nacional da identidade do informante
 6. Recurso nacional mínimo: 10 dias para recorrer e 5 para decidir.
 7. CGU e CMRI não são instâncias automáticas do TCE-MA.
 8. Sigilo não pode ocultar violação de direitos humanos nem inviabilizar tutela de direitos fundamentais.
+9. No regime da Lei nº 8.112/1990, as condutas do art. 32 são punidas, no mínimo, com suspensão.
+10. No art. 33, advertência, rescisão e suspensão podem acumular com multa; a defesa é de 10 dias.
 
 ## Referências
 
 - [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), Presidência da República, texto compilado, acesso em 16 jul. 2026.
 - [Lei nº 12.527, de 18 de novembro de 2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), Presidência da República, texto consolidado, acesso em 16 jul. 2026.
 - [Decreto nº 7.724, de 16 de maio de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7724.htm), Presidência da República, regulamento do Executivo federal, acesso em 16 jul. 2026.
-- [Lei nº 13.608, de 10 de janeiro de 2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13608.htm), Presidência da República, texto consolidado, acesso em 16 jul. 2026.
 - [Lei nº 15.141, de 2 de junho de 2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15141.htm), Presidência da República, inclusão dos arts. 8º-A e 8º-B, acesso em 16 jul. 2026.
 - [Informações obrigatórias de transparência ativa](https://www.gov.br/acessoainformacao/pt-br/assuntos/transparencia-ativa/informacoes-obrigatorias/informacoes-obrigatorias), Controladoria-Geral da União, acesso em 16 jul. 2026.
 - [Recursos à CGU](https://www.gov.br/acessoainformacao/pt-br/assuntos/recursos/cgu-recursos), Controladoria-Geral da União, acesso em 16 jul. 2026.
