@@ -14,7 +14,7 @@ A Lei nº 12.527/2011, Lei de Acesso à Informação (LAI), regulamenta o direit
 
 Restrições de acesso, classificação e proteção, transparência ativa detalhada, recursos e responsabilidades ficam para o Assunto 141. Menções a negativa e acesso parcial aparecem aqui apenas porque integram a resposta ao pedido.
 
-> **Corte de atualização:** normas e orientações consultadas até 16 de julho de 2026.
+> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
 
 ## 2. Fundamentos constitucionais
 
@@ -38,6 +38,16 @@ O art. 3º determina observância dos princípios básicos da administração p�
 
 O art. 5º exige procedimentos objetivos e ágeis, de forma transparente, clara e em linguagem de fácil compreensão. Máxima divulgação não significa acesso absoluto: restrições legalmente justificadas permanecem excepcionais.
 
+### 3.1 Deveres de gestão e proteção da informação
+
+O art. 6º atribui aos órgãos e entidades do poder público três deveres gerais, observadas as normas e procedimentos específicos aplicáveis:
+
+- **gestão transparente da informação**, propiciando amplo acesso e divulgação;
+- **proteção da informação**, garantindo disponibilidade, autenticidade e integridade;
+- **proteção da informação sigilosa e da informação pessoal**, observadas disponibilidade, autenticidade, integridade e eventual restrição de acesso.
+
+A LAI, portanto, combina abertura e proteção: transparência não autoriza perda de integridade, divulgação indevida de informação pessoal ou afastamento de sigilo legalmente aplicável.
+
 ## 4. Abrangência
 
 ### 4.1 Sujeitos diretamente submetidos
@@ -60,7 +70,7 @@ Entidades privadas sem fins lucrativos que recebam recursos públicos para açõ
 
 O Decreto nº 7.724/2012 regulamenta a LAI no Poder Executivo federal. Seus detalhes são referência útil, mas não vinculam automaticamente o TCE-MA. O art. 45 da LAI permite que Estados, DF e Municípios definam regras específicas em legislação própria, respeitadas as normas gerais da lei.
 
-Fala.BR, prazos operacionais da CGU e requisitos adicionais do decreto não devem ser tratados como comandos nacionais sem verificar a norma aplicável.
+Plataformas federais de atendimento, prazos operacionais da CGU e requisitos adicionais do decreto não devem ser tratados como comandos nacionais sem verificar a norma aplicável.
 
 ## 5. Conceitos do art. 4º
 
@@ -93,7 +103,13 @@ O art. 7º contém enumeração exemplificativa: o direito compreende, **entre o
 
 A LAI garante acesso à informação existente produzida ou custodiada. Não obriga, como regra, o órgão a criar estudo, responder consulta jurídica ou produzir análise inexistente.
 
-### 6.1 Acesso parcial
+### 6.1 Documentos que fundamentam decisões e extravio
+
+O direito de acesso aos documentos ou às informações utilizados como fundamento da tomada de decisão e do ato administrativo é assegurado **com a edição do respectivo ato decisório**.
+
+Se o interessado for informado do extravio da informação solicitada, poderá requerer à autoridade competente a **imediata abertura de sindicância** para apurar o desaparecimento da documentação. Nessa hipótese, o responsável pela guarda da informação extraviada deverá, no prazo de **10 dias**, justificar o fato e indicar testemunhas que comprovem sua alegação.
+
+### 6.2 Acesso parcial
 
 Se apenas parte do documento estiver protegida, deve-se assegurar acesso à parte não restrita por certidão, extrato ou cópia com ocultação. Restrição parcial não justifica negativa integral automática.
 
@@ -126,8 +142,9 @@ Se a informação estiver disponível, o órgão deve autorizar ou conceder aces
 
 O prazo pode ser prorrogado por mais **10 dias**, mediante justificativa expressa e ciência do requerente. A lei não diz “20 dias úteis”: a contagem operacional deve observar a disciplina aplicável. No Executivo federal, a CGU aplica subsidiariamente a Lei nº 9.784/1999, com contagem contínua e prorrogação do vencimento sem expediente; isso não transforma toda regra operacional federal em norma automática do TCE-MA.
 
-### 8.2 Forma de fornecimento
+### 8.2 Pesquisa e forma de fornecimento
 
+- Sem prejuízo da segurança, da proteção das informações e da legislação aplicável, o órgão ou entidade pode oferecer meios para que o próprio requerente pesquise a informação de que necessita.
 - Se a informação estiver em formato digital, será fornecida nesse formato se houver anuência do requerente.
 - Se já estiver disponível ao público em meio de acesso universal, o órgão pode informar por escrito local e modo de consulta, ficando desonerado do fornecimento direto.
 - Essa desoneração não vale se o requerente declarar não possuir meios para realizar por si o procedimento.
@@ -151,6 +168,9 @@ O prazo federal de reprodução após comprovação do pagamento é detalhe do D
 | informação disponível | acesso imediato |
 | acesso imediato impossível | resposta em até 20 dias |
 | prorrogação | mais 10 dias, com justificativa expressa e ciência |
+| documento que fundamenta decisão | acesso assegurado com a edição do ato decisório |
+| informação extraviada | interessado pode requerer sindicância imediata |
+| responsável pela guarda da informação extraviada | 10 dias para justificar o fato e indicar testemunhas |
 | motivação do pedido | não pode ser exigida |
 | identificação | pode ser exigida, sem inviabilizar o pedido |
 | informação parcialmente protegida | acesso à parte não restrita |
