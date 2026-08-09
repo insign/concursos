@@ -31,6 +31,7 @@
 - Intragrupal: dentro da equipe.
 - Intergrupal: entre unidades.
 - Organizacional: estrutura, processos, cultura ou hierarquia.
+- Taxonomias variam: **nível = locus/partes**; **conteúdo = sobre o que se diverge**.
 
 ### Conteúdos
 
@@ -91,15 +92,15 @@
 
 ## Vieses
 
-- Atribuição: supervaloriza pessoa e ignora contexto.
+- Erro fundamental de atribuição: supervaloriza a pessoa e subestima o contexto.
 - Confirmação: procura apoio à crença inicial.
 - Percepção seletiva: nota parte dos sinais.
 - Estereótipo: infere pela pertença a grupo.
-- Autovalorização: sucesso próprio; falha externa.
+- Autoconveniência: sucesso → fatores internos; fracasso → fatores externos.
 
 ## Setor público
 
 - Empatia não autoriza favorecimento.
 - Confidencialidade não elimina transparência, registro ou apuração.
 - Negociação não permite renunciar a competência ou interesse público.
-- Decreto nº 1.171/1994 é referência federal; não vincula automaticamente o TCE-MA.
+- Deveres concretos dependem do regime e das normas aplicáveis ao TCE-MA.
