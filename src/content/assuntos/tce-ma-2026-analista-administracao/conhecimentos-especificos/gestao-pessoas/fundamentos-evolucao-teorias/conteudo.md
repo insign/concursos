@@ -12,9 +12,7 @@ storageId: "gp-fundamentos-teorias"
 
 Gestão de pessoas é o conjunto integrado de decisões, políticas e práticas relativas às pessoas que trabalham na organização. Ela provê capacidades humanas para cumprir a missão, produzir resultados e adaptar a instituição ao ambiente.
 
-Este assunto cobre conceitos, importância, relações com outros sistemas organizacionais e impactos das principais teorias administrativas. Funções específicas do órgão de RH serão aprofundadas no Assunto 143; relações indivíduo-organização e qualidade de vida, no 144; liderança, motivação e desempenho, no 145.
-
-> **Corte de atualização:** referências consultadas até 17 de julho de 2026.
+Este assunto cobre os **itens 1 e 2 de Gestão de Pessoas do edital**: conceitos e importância da gestão de pessoas, relação com outros sistemas da organização e fundamentos, teorias e escolas da administração e seus impactos na gestão de pessoas. Funções específicas do órgão de RH serão aprofundadas no Assunto 143; relações indivíduo-organização e qualidade de vida, no 144; liderança, motivação e desempenho, no 145; desenvolvimento e capacitação, no 151; gestão por competências e tendências no setor público, no 153.
 
 ## 2. Evolução da gestão de pessoas
 
@@ -66,15 +64,7 @@ Gestão de pessoas é subsistema aberto e interdependente:
 
 Uma capacitação isolada pode falhar se o processo, a tecnologia, a alocação ou os incentivos impedirem aplicar o aprendizado. Otimizar um subsistema pode prejudicar o todo; por isso, decisões devem considerar efeitos cruzados e feedback.
 
-## 5. Aplicação pública: PNDP
-
-O Decreto nº 9.991/2019 institui, no Executivo federal, a Política Nacional de Desenvolvimento de Pessoas (PNDP). O Plano de Desenvolvimento de Pessoas deve partir de necessidades relacionadas aos objetivos institucionais e considerar níveis operacional, tático e estratégico, riscos, avaliação e custo-benefício.
-
-O diagnóstico identifica conhecimentos, habilidades e condutas necessários ao cargo ou função. A unidade de gestão de pessoas apoia gestores e autoridade máxima no planejamento, execução e avaliação.
-
-PNDP, SIPEC e atos complementares são referências federais. Não vinculam automaticamente o TCE-MA sem norma aplicável.
-
-## 6. Administração Científica
+## 5. Administração Científica
 
 Frederick W. Taylor focalizou tarefas e eficiência operacional. Seus princípios incluem substituir improvisação por estudo científico, selecionar e treinar cientificamente, cooperar para aplicação dos métodos e dividir responsabilidades entre gerência e trabalhadores.
 
@@ -87,19 +77,19 @@ Impactos em GP:
 
 Limite: visão mecanicista pode reduzir autonomia e subestimar dimensões sociais e cognitivas. Taylor não propôs apenas pagamento por peça; seleção, treinamento e cooperação também pertencem ao modelo.
 
-## 7. Teoria Clássica
+## 6. Teoria Clássica
 
 Henri Fayol focalizou a organização como um todo e as funções administrativas: prever, organizar, comandar, coordenar e controlar (POCCC). Entre seus princípios estão divisão do trabalho, autoridade e responsabilidade, disciplina, unidade de comando, unidade de direção, cadeia escalar, equidade, estabilidade, iniciativa e espírito de equipe.
 
 Impactos em GP: definição de responsabilidades, hierarquia, disciplina, coordenação, estabilidade e unidade de comando. Taylor enfatiza tarefas e chão de fábrica; Fayol, estrutura e administração geral. PODC é síntese posterior, não a formulação original de Fayol.
 
-## 8. Abordagem Neoclássica
+## 7. Abordagem Neoclássica
 
 A abordagem neoclássica retoma princípios clássicos com orientação pragmática para objetivos e resultados. Peter Drucker é referência da Administração por Objetivos (APO): gestores e equipes definem objetivos, acompanham resultados e realimentam o planejamento.
 
 Impactos em GP: desdobramento de objetivos, responsabilização, avaliação por resultados e desenvolvimento gerencial. A APO não se reduz a impor metas unilateralmente; requer objetivos claros, participação compatível, acompanhamento e revisão.
 
-## 9. Burocracia
+## 8. Burocracia
 
 Max Weber descreveu o tipo ideal de dominação racional-legal, baseado em:
 
@@ -111,15 +101,17 @@ Max Weber descreveu o tipo ideal de dominação racional-legal, baseado em:
 - carreira e profissionalização;
 - separação entre cargo e pessoa.
 
-Impactos em GP: mérito, previsibilidade, igualdade formal, continuidade e redução do personalismo. Burocracia weberiana não é sinônimo de corrupção ou ineficiência. Disfunções possíveis incluem rigidez, formalismo excessivo, apego aos meios, resistência à mudança e deslocamento de objetivos.
+Impactos em GP: mérito, previsibilidade, igualdade formal, continuidade e redução do personalismo. Burocracia weberiana não é sinônimo de corrupção ou ineficiência.
 
-## 10. Relações Humanas
+**Robert K. Merton** é referência clássica no estudo das **disfunções burocráticas**: rigidez, formalismo excessivo, apego aos meios e deslocamento de objetivos podem surgir quando regras e procedimentos deixam de servir à finalidade e passam a ser tratados como fins em si mesmos. A disfunção não integra o tipo ideal de Weber; é efeito possível do funcionamento burocrático.
+
+## 9. Relações Humanas
 
 Os estudos de Hawthorne, associados a Elton Mayo e colaboradores, contribuíram para deslocar a atenção da dimensão exclusivamente técnica para grupos informais, comunicação, normas sociais e fatores psicossociais.
 
 Impactos em GP: reconhecimento da organização informal, participação, comunicação, integração e relações de grupo. Não é correto afirmar que Hawthorne provou definitivamente que mera observação sempre aumenta produtividade; os estudos têm críticas metodológicas e interpretações posteriores.
 
-## 11. Abordagem Comportamental
+## 10. Abordagem Comportamental
 
 A abordagem comportamental aprofunda decisão, cooperação, necessidades, pressupostos gerenciais e comportamento organizacional.
 
@@ -131,13 +123,15 @@ A abordagem comportamental aprofunda decisão, cooperação, necessidades, press
 
 Essas teorias influenciam desenho do trabalho e práticas de pessoas, mas não são leis universais. Motivação e liderança serão aprofundadas em assunto próprio.
 
-## 12. Estruturalismo
+## 11. Estruturalismo
 
 A abordagem estruturalista articula organização formal e informal, múltiplos objetivos, conflitos, papéis e relações interorganizacionais. Ela não presume harmonia automática: tensões entre indivíduo, grupos e organização são objetos legítimos de análise.
 
+**Amitai Etzioni** é uma referência do estruturalismo. A expressão **homem organizacional** destaca a pessoa capaz de desempenhar papéis em diferentes organizações, lidando com múltiplas expectativas, recompensas e formas de participação.
+
 Impactos em GP: atenção a papéis, poder, recompensas materiais e sociais, conflitos e múltiplas formas de participação. A pessoa pode exercer papéis em várias organizações.
 
-## 13. Abordagem Sistêmica
+## 12. Abordagem Sistêmica
 
 Inspirada na Teoria Geral dos Sistemas de Ludwig von Bertalanffy, entende a organização como sistema aberto que recebe entradas, transforma recursos, produz saídas e usa feedback, em interação com o ambiente.
 
@@ -152,13 +146,13 @@ Propriedades úteis:
 
 Em GP, exige coerência entre estratégia, estrutura, tecnologia, cultura e práticas. Barnard é precursor importante do pensamento cooperativo, não fundador exclusivo da Teoria dos Sistemas.
 
-## 14. Abordagem Contingencial
+## 13. Abordagem Contingencial
 
 Pesquisas de Woodward, Burns e Stalker e Lawrence e Lorsch sustentam que não existe uma única melhor forma de organizar. Estrutura e práticas adequadas dependem de ambiente, estratégia, tecnologia, porte e natureza do trabalho.
 
 Em GP, seleção, desenvolvimento, coordenação e desenho do trabalho devem ajustar-se ao contexto. Contingência não significa improvisação nem ausência de princípios; significa diagnosticar variáveis e buscar congruência.
 
-## 15. Comparação para prova
+## 14. Comparação para prova
 
 | Abordagem | Foco | Palavra-chave em GP |
 | --- | --- | --- |
@@ -172,11 +166,15 @@ Em GP, seleção, desenvolvimento, coordenação e desenho do trabalho devem aju
 | sistêmica | interdependência e ambiente | integração e feedback |
 | contingencial | ajuste ao contexto | não há solução universal |
 
+### Pegadinhas de associação
+
+- **Weber** → tipo ideal burocrático racional-legal; **Merton** → disfunções burocráticas e deslocamento de objetivos.
+- **Etzioni** → estruturalismo e homem organizacional.
+- **Taylor** → tarefas; **Fayol** → estrutura geral; **Mayo** → grupos informais; **Simon** → racionalidade limitada; **Bertalanffy** → sistemas; **contingência** → ajuste ao contexto.
+
 ## Referências
 
 - [Gestão de Pessoas: apostila](https://repositorio.enap.gov.br/bitstream/1/2521/1/GPFT%20-%20ApostilaCE.pdf), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
 - [Gestão estratégica de pessoas no setor público](https://repositorio.enap.gov.br/handle/1/7645), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
-- [Decreto nº 9.991, de 28 de agosto de 2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm), Presidência da República, texto vigente consultado em 17 jul. 2026.
-- [Normativos da PNDP](https://www.gov.br/servidor/pt-br/acesso-a-informacao/gestao-de-pessoas/desempenho-e-desenvolvimento-de-pessoas/pndp-1/assuntos-pndp/normativos), Ministério da Gestão e da Inovação em Serviços Públicos, acesso em 17 jul. 2026.
 - [Organizational theories](https://www.fao.org/4/w7503e/w7503e03.htm), Organização das Nações Unidas para a Alimentação e a Agricultura, acesso em 17 jul. 2026.
 - [The Human Relations Movement and Hawthorne Experiments](https://www.library.hbs.edu/hc/hawthorne/intro.html), Harvard Business School, acesso em 17 jul. 2026.
