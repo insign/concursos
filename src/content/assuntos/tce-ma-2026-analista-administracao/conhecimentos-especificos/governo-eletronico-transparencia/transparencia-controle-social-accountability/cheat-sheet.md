@@ -60,6 +60,7 @@
 
 - LRF, art. 48: planos, orçamentos, LDO, prestações de contas, pareceres, relatórios e versões simplificadas.
 - A LRF incentiva participação popular e audiências durante elaboração e discussão dos instrumentos orçamentários.
+- **Desde 1º/1/2026:** art. 48, § 1º, IV — Portal de Transparência + formato aberto e padronizado + dados atualizados sobre benefícios tributários, financeiros e creditícios concedidos.
 - Art. 48-A: informações pormenorizadas, em tempo real, sobre execução orçamentária e financeira.
 
 ## Accountability

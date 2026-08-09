@@ -14,7 +14,7 @@ Este assunto examina quatro conceitos relacionados, mas não equivalentes: trans
 
 Os procedimentos, prazos, recursos, restrições e responsabilidades da Lei nº 12.527/2011 serão estudados nos Assuntos 140 e 141. Aqui, a Lei de Acesso à Informação aparece apenas como parte do ambiente institucional da transparência.
 
-> **Corte de atualização:** normas e orientações consultadas até 16 de julho de 2026.
+> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. A alteração da LRF pela Lei Complementar nº 224/2025 tratada neste assunto já produzia efeitos desde 1º de janeiro de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
 
 ## 2. Publicidade, transparência e dados abertos
 
@@ -104,6 +104,8 @@ Os conselhos de usuários previstos na lei são órgãos consultivos. Eles acomp
 
 A Lei de Responsabilidade Fiscal trata a transparência da gestão fiscal como divulgação de instrumentos e incentivo à participação popular. O art. 48 inclui planos, orçamentos, leis de diretrizes orçamentárias, prestações de contas, pareceres prévios, relatórios e versões simplificadas. Também prevê incentivo à participação popular e audiências públicas durante elaboração e discussão dos planos, LDO e orçamentos.
 
+Desde 1º de janeiro de 2026, o art. 48, § 1º, IV, incluído pela Lei Complementar nº 224/2025, também prevê, como mecanismo de transparência, a divulgação no Portal de Transparência, em formato aberto e padronizado, de dados atualizados sobre benefícios de natureza tributária, financeira e creditícia concedidos. A regra já estava produzindo efeitos quando o edital foi publicado.
+
 O art. 48-A exige disponibilização, em tempo real, de informações pormenorizadas sobre execução orçamentária e financeira. A publicidade fiscal permite acompanhar receitas e despesas, mas o controle efetivo exige interpretar finalidade, legalidade, economicidade e resultados.
 
 ## 5. Accountability
@@ -187,11 +189,13 @@ Cobrança pública não autoriza prejulgamento. Accountability institucional dev
 5. Diferencie explicação (`answerability`) de capacidade de consequência (`enforcement`).
 6. Não atribua caráter deliberativo a todo conselho nem vinculação automática a toda audiência ou consulta.
 7. Lembre que transparência deve conviver com proteção de dados, sigilos legítimos e devido processo.
+8. Na transparência fiscal, lembre a regra vigente desde 1º de janeiro de 2026: benefícios tributários, financeiros e creditícios concedidos devem ter dados atualizados divulgados no Portal de Transparência em formato aberto e padronizado, nos termos do art. 48, § 1º, IV, da LRF.
 
 ## Referências
 
 - [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, texto compilado, acesso em 16 jul. 2026.
-- [Lei Complementar nº 101, de 4 de maio de 2000](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm), Presidência da República, texto compilado da Lei de Responsabilidade Fiscal, acesso em 16 jul. 2026.
+- [Lei Complementar nº 101, de 4 de maio de 2000](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm), Presidência da República, texto compilado da Lei de Responsabilidade Fiscal, acesso em 8 ago. 2026.
+- [Lei Complementar nº 224, de 26 de dezembro de 2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm), Presidência da República, alteração da LRF e produção de efeitos, acesso em 8 ago. 2026.
 - [Lei nº 13.460, de 26 de junho de 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), Presidência da República, texto vigente consultado em 16 jul. 2026.
 - [Controle Social](https://portaldatransparencia.gov.br/controle-social), Controladoria-Geral da União, Portal da Transparência, acesso em 16 jul. 2026.
 - [Transparência ativa](https://www.gov.br/acessoainformacao/pt-br/assuntos/transparencia-ativa), Controladoria-Geral da União, acesso em 16 jul. 2026.
