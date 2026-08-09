@@ -1,142 +1,129 @@
 # Análise e descrição de cargos
 
-## Mapa conceitual
+## Corte e núcleo
 
-- Análise: processo sistemático de investigação.
-- Descrição: conteúdo, propósito e contexto do cargo.
-- Especificação: requisitos para desempenhá-lo.
-- Titular atual ≠ cargo.
-- Cargo concreto ≠ ocupação genérica.
-- Descrição é documento versionado, não fotografia eterna.
+- **Corte de prova:** 6/7/2026.
+- **Análise:** processo de investigar e validar informações sobre o trabalho.
+- **Descrição:** o que o cargo faz, para que existe e em que contexto.
+- **Especificação:** requisitos necessários para desempenhá-lo.
+- **Titular atual ≠ cargo.** Qualificação pessoal excedente não vira requisito automaticamente.
 
-## Unidades
+## Objetivos em uma linha
 
-| Termo | Núcleo |
-| --- | --- |
-| tarefa | ação delimitada com resultado |
-| atribuição/dever | conjunto de tarefas cometido ao cargo |
-| responsabilidade | obrigação de responder por resultado ou recurso |
-| posição | instância individual do cargo |
-| ocupação | agrupamento de trabalhos semelhantes |
-| função | termo dependente do contexto |
+Análise de cargos → base para **seleção, desempenho, capacitação, organização do trabalho, avaliação/classificação de cargos e força de trabalho**.
 
-## Aplicações
-
-- Seleção: requisitos e critérios ligados ao trabalho.
-- Desempenho: entregas e comportamentos observáveis.
-- Capacitação: requisitos e lacunas de desenvolvimento.
-- Redesenho: lacunas, sobrecarga e interfaces.
-- Carreira/remuneração: evidência para processos próprios.
-- Força de trabalho: tarefas críticas e capacidade necessária.
-- Saúde, segurança, acessibilidade e controles.
-- Análise fornece insumo; não substitui o subsistema.
+**Pegadinha:** fornece **insumos**; não substitui esses subsistemas.
 
 ## Produtos
 
-**Descrição**
+| Produto | Núcleo |
+| --- | --- |
+| Descrição | propósito + tarefas + responsabilidades + relações + autoridade + condições |
+| Especificação | escolaridade/habilitação + experiência + conhecimentos + habilidades + capacidades |
 
-- identificação, unidade, versão e data;
-- propósito/sumário;
-- tarefas, deveres e responsabilidades;
-- entregas e resultados;
-- relações, supervisão e autoridade;
-- ferramentas, contexto, condições e riscos.
+- Tarefa bem redigida: **verbo + objeto + resultado/finalidade + contexto**.
+- Essencial ≠ desejável.
+- Requisito de entrada ≠ requisito desenvolvível.
+- Requisito sem ligação com tarefa/condição = alerta de inflação.
 
-**Especificação**
+## Fluxo básico
 
-- escolaridade e habilitação legal;
-- experiência pertinente;
-- conhecimentos, habilidades e capacidades;
-- requisito essencial × desejável;
-- requisito de entrada × desenvolvível.
+**Planejar → escolher fontes/métodos → coletar → sintetizar → validar → atualizar.**
 
-## Redação de tarefas
+Fonte única é risco:
 
-- Verbo + objeto + finalidade/resultado + contexto.
-- “Ser proativo” é vago.
-- Prefira comportamento observável e evidência.
-- Evite texto genérico e microtarefas rapidamente obsoletas.
-- Requisito deve apontar para tarefa ou condição real.
+- ocupante pode inflar ou omitir;
+- chefia pode descrever só o trabalho prescrito;
+- documento pode estar desatualizado.
 
-## Etapas
+## Matriz principal: método × uso × vantagem × desvantagem
 
-1. Planejar finalidade, escopo e governança.
-2. Selecionar fontes e amostra representativa.
-3. Coletar por métodos adequados.
-4. Sintetizar tarefas, resultados, contexto e requisitos.
-5. Classificar frequência, importância e criticidade.
-6. Validar com titulares, chefias e especialistas.
-7. Aprovar, comunicar e versionar.
-8. Revisar periodicamente e por gatilhos.
+| Método | Melhor uso | Vantagem | Desvantagem |
+| --- | --- | --- | --- |
+| **Observação** | trabalho visível/sequencial | vê execução, ambiente e ferramentas | reatividade; fraca para cognição e eventos raros |
+| **Entrevista** | decisões, exceções, conhecimento tácito | profundidade e sondagem | memória, desejabilidade social e influência do entrevistador |
+| **Grupo focal** | interfaces e confronto de perspectivas | várias visões com eficiência | hierarquia, dominância e conformidade |
+| **Questionário estruturado** | população grande/dispersa | escala, padronização, comparação | simplificação e menor profundidade |
+| **Questionário aberto** | exploração e descoberta | revela informação não prevista | codificação cara e baixa comparabilidade |
+| **Diário** | sazonalidade e interrupções | capta variação temporal | ônus, baixa adesão e omissões |
+| **Incidentes críticos** | sucesso, falha e alto risco | evidencia comportamentos relevantes | saliência; não representa toda a rotina |
+| **Documentos** | normas, manuais e registros | contexto e baixo custo inicial | pode mostrar trabalho prescrito/antigo |
+| **Painel de especialistas** | integração e validação | síntese de conhecimento | opinião dominante e falso consenso |
 
-## Métodos
+## Escolha rápida
 
-| Método | Força | Limite típico |
-| --- | --- | --- |
-| observação | sequência e trabalho visível | cognição, sigilo, reatividade |
-| entrevista | profundidade e exceções | memória, inflação, entrevistador |
-| grupo focal | interfaces e contraste | hierarquia e conformidade |
-| questionário estruturado | escala e comparação | simplificação e interpretação |
-| questionário aberto | descoberta | codificação e padronização |
-| diário | variação e sazonalidade | ônus, adesão e omissão |
-| incidentes críticos | sucesso, falha e risco | saliência; não cobre toda rotina |
-| documentos | contexto e baixo custo inicial | trabalho prescrito/desatualizado |
-| painel de especialistas | integração e validação | dominância e falso consenso |
+- Trabalho **manual e visível** → observação ganha força.
+- Trabalho **cognitivo** → entrevista ajuda mais.
+- Muitos ocupantes **dispersos** → questionário estruturado.
+- Forte **variação temporal** → diário.
+- Eventos **raros e críticos** → incidentes críticos.
+- Dúvida entre norma e prática → documentos + observação/entrevista.
 
-- Não existe método universalmente melhor.
-- Trabalho cognitivo: entrevista, diário e exemplos de decisão ajudam.
-- Trabalho manual visível: observação ganha força.
-- Variação temporal: diário, registros e amostra por períodos.
-- Combine métodos e fontes.
+**Não existe método universalmente melhor.** Escolha depende de objetivo, observabilidade, escala, variação, custo, tempo e risco.
 
-## Estruturados e classificações
+## Combinações clássicas
 
-- PAQ: padronização e comparação; pode perder contexto.
-- FJA: relações funcionais com dados, pessoas e coisas; exige método.
-- O*NET: referência ocupacional; validar localmente.
-- CBO: classificação administrativa; não regulamenta profissão.
-- Referência externa não cria cargo nem atribuição legal.
+- Observação + entrevista → visível + raciocínio/exceções.
+- Questionário + entrevista → escala + profundidade.
+- Documento + observação/entrevista → prescrito × real.
+- Diário + entrevista → variação temporal + interpretação.
+- Incidentes críticos + método de rotina → alta consequência + rotina completa.
 
 ## Qualidade
 
-- Triangulação compara fontes, métodos, períodos e registros.
-- Divergência pode indicar erro ou variação real.
-- Confiabilidade = consistência; não garante validade.
-- Validade de conteúdo = representação adequada do trabalho relevante.
+- **Triangulação:** comparar fontes, métodos, períodos ou registros.
+- Convergência aumenta confiança; divergência deve ser investigada.
+- **Confiabilidade:** consistência.
+- **Validade:** representação adequada do trabalho relevante.
+- Concordância ≠ validade automática.
 - Frequência ≠ importância ≠ criticidade.
-- Tarefa rara pode ter alta consequência.
-- Matriz tarefa × requisito revela inflação e omissão.
-- Registre fonte, amostra, instrumento, decisão, versão e divergência.
+- Tarefa rara pode ser crítica.
 
-## Vieses e erros
+## Métodos estruturados: só o essencial
 
-- Inflar autonomia, complexidade ou requisito.
-- Omitir tarefa rara, informal ou pouco prestigiada.
-- Confundir ocupante excepcional com cargo.
-- Copiar documento antigo, CBO ou O*NET.
-- Usar apenas uma fonte.
-- Transformar traço pessoal em requisito.
-- Presumir que consenso prova verdade.
-- Confundir análise com desenho ou avaliação de cargos.
+- **PAQ:** padronização/comparação; pode perder contexto.
+- **FJA:** dados, pessoas e coisas.
+- **O*NET:** referência ocupacional; não substitui análise local.
+- **KSAO:** conhecimentos, habilidades, capacidades e outras características.
 
-## Atualização
+## Vantagens da análise
 
-- Revisão periódica + gatilhos.
-- Gatilhos: reorganização, automação, norma, sistema, risco, entrega ou contexto novos.
-- Mudança real exige revalidação, não troca cosmética de palavras.
+- clareza de responsabilidades;
+- critérios menos arbitrários;
+- base comum para subsistemas de pessoas;
+- identificação de lacunas e duplicidades;
+- atualização do trabalho diante de mudanças.
 
-## Setor público
+## Limitações
 
-- Art. 37: legalidade, impessoalidade, moralidade, publicidade e eficiência.
-- Análise administrativa não altera sozinha atribuição legal.
-- Lei nº 8.112/1990: referência federal, não estatuto automático do TCE-MA.
-- Cargo público e requisitos dependem do regime e instrumento competentes.
-- CBO não cria cargo e não regulamenta profissão.
+- fotografia de um momento;
+- depende da qualidade das fontes;
+- pode sofrer inflação e omissão;
+- custa tempo e recursos;
+- envelhece com tecnologia/processos;
+- consenso não elimina viés.
 
-## Inclusão e dados
+## Atualização e vieses
 
-- Identifique resultado essencial, não “perfil físico ideal”.
-- Adaptação pode mudar o meio sem eliminar o resultado.
-- LBI veda discriminação e exigência de aptidão plena.
-- Analise o cargo sem coletar dado pessoal desnecessário.
-- LGPD: finalidade, necessidade, segurança e não discriminação.
+Gatilhos: **reorganização, automação, novo sistema, mudança relevante de entregas ou responsabilidades**.
+
+Erros:
+
+- efeito do titular;
+- inflação do cargo;
+- omissão de tarefas raras;
+- copiar trabalho prescrito sem conferir prática;
+- usar uma única fonte;
+- microdetalhar procedimento transitório.
+
+## Pegadinhas
+
+- “Análise = descrição” → **errado**.
+- “Descrição = requisitos da pessoa” → **errado**; isso é principalmente especificação.
+- “Observação é melhor para todo cargo” → **errado**.
+- “Questionário estruturado = maior profundidade” → **errado**; sua força é escala/comparação.
+- “Incidente crítico cobre toda a rotina” → **errado**.
+- “Documento oficial basta” → **errado**.
+- “Consenso prova validade” → **errado**.
+- “Tarefa rara é irrelevante” → **errado**.
+- “Método único sempre basta” → **errado**.
