@@ -8,240 +8,223 @@ storageId: "gp-analise-descricao-cargos"
 
 # Análise e descrição de cargos
 
-## 1. Conceitos fundamentais
+## 1. Recorte e conceitos fundamentais
 
-**Análise do trabalho ou do cargo** é o processo sistemático de levantar, organizar, interpretar e validar evidências sobre o que é realizado, para que finalidade, em qual contexto e com quais requisitos. **Descrição do cargo** é um de seus produtos: registra conteúdo, propósito, responsabilidades, relações e condições do trabalho. **Especificação do cargo** apresenta os requisitos justificadamente necessários para executá-lo.
+O edital cobra **análise e descrição de cargos**, com ênfase em **objetivos, métodos, vantagens e desvantagens**. O estudo deve dominar as distinções conceituais indispensáveis e, sobretudo, saber escolher e comparar métodos de coleta de informações sobre o trabalho.
 
-Em síntese:
+> **Corte de prova:** referências e regras vigentes em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Consultas editoriais posteriores não alteram esse corte.
 
-- análise = investigação e produção de evidências;
-- descrição = o que o cargo faz, para que e em quais condições;
-- especificação = o que se requer para desempenhá-lo;
-- titular = pessoa que ocupa uma posição; suas preferências e qualificações excedentes não definem automaticamente o cargo.
+**Análise do trabalho ou do cargo** é o processo sistemático de levantar, organizar, interpretar e validar evidências sobre o que é realizado, para que finalidade, em qual contexto e com quais requisitos. **Descrição do cargo** é um de seus principais produtos: registra o conteúdo do trabalho, seu propósito, responsabilidades, relações e condições. **Especificação do cargo** reúne requisitos relacionados ao desempenho do trabalho.
 
-Alguns autores reúnem descrição e especificação sob a expressão ampla “descrição de cargos”. Em prova, quando houver separação conceitual, descrição se volta ao trabalho e especificação aos requisitos do ocupante.
+Em prova:
 
-> **Corte de atualização:** fontes consultadas até 17 de julho de 2026.
-
-## 2. Unidades e termos próximos
-
-| Termo | Sentido útil para análise |
+| Conceito | Pergunta central |
 | --- | --- |
-| tarefa | ação ou sequência delimitada que produz resultado |
-| dever ou atribuição | conjunto de tarefas cometido ao cargo; no setor público, atribuição pode ter conteúdo jurídico |
-| responsabilidade | obrigação de responder por resultado, recurso, decisão ou conformidade |
-| função | termo polissêmico: atividade exercida, conjunto funcional ou função de confiança, conforme o contexto |
-| posição ou posto | instância individual de um cargo, ocupada ou vaga, em classificações que adotam essa distinção |
-| cargo | unidade que agrupa atribuições, responsabilidades, relações e requisitos; no serviço público, também depende do regime jurídico aplicável |
-| ocupação | agrupamento de trabalhos semelhantes no mercado ou em classificação ocupacional |
+| Análise do cargo | Como obter e validar informações sobre o trabalho? |
+| Descrição do cargo | O que o cargo faz, por que existe e em que contexto? |
+| Especificação do cargo | Quais requisitos são necessários para desempenhá-lo? |
+| Titular | Quem ocupa hoje uma posição; suas características pessoais não definem automaticamente o cargo. |
 
-Uma mesma ocupação pode abranger cargos concretos diferentes. Da mesma forma, várias posições podem compartilhar uma descrição de cargo, mas apresentar variações relevantes por unidade, turno, localidade ou tecnologia. A análise deve decidir se essas diferenças cabem em uma descrição comum ou exigem registros próprios.
+Alguns autores usam “descrição de cargos” em sentido amplo, abrangendo também requisitos. Quando a banca separar os termos, a descrição se concentra no **trabalho** e a especificação nos **requisitos do ocupante**.
 
-## 3. Objetivos e aplicações
+Termos próximos também podem aparecer:
 
-A análise reduz decisões baseadas em impressão e cria uma base comum para subsistemas de pessoas e para o desenho organizacional. Entre suas aplicações estão:
+- **tarefa:** ação ou sequência delimitada que produz resultado;
+- **atribuição ou dever:** conjunto de tarefas cometido ao cargo;
+- **responsabilidade:** obrigação de responder por resultado, recurso, decisão ou conformidade;
+- **posição:** instância individual de um cargo, ocupada ou vaga;
+- **função:** termo polissêmico, cujo sentido depende do contexto.
 
-- fundamentar requisitos, critérios e instrumentos de recrutamento e seleção;
-- identificar entregas e comportamentos observáveis que podem subsidiar desempenho;
-- apontar conhecimentos e habilidades requeridos para diagnosticar necessidades de desenvolvimento;
-- revelar duplicidades, lacunas, sobrecarga, interfaces e riscos para redesenho do trabalho;
-- fornecer evidências para classificação, carreira e remuneração;
-- apoiar dimensionamento e planejamento da força de trabalho;
-- registrar contexto, ferramentas, exposição e condições relevantes para saúde e segurança;
-- separar funções essenciais de barreiras removíveis para acessibilidade;
-- documentar autoridade, segregação de funções, controles e responsabilidades.
+## 2. Objetivos da análise de cargos
 
-Ela fornece **insumos**. Não executa, por si, seleção, avaliação de desempenho, capacitação, avaliação de cargos, política salarial ou gestão por competências. Esses subsistemas possuem métodos e decisões próprios.
+A análise de cargos reduz decisões baseadas apenas em impressão e cria uma base comum para diversos subsistemas de gestão de pessoas. Entre seus objetivos e usos mais frequentes estão:
 
-## 4. Produtos da análise
+- esclarecer tarefas, atribuições, responsabilidades, autoridade e interfaces;
+- fundamentar requisitos e critérios de recrutamento e seleção;
+- identificar entregas que podem subsidiar avaliação de desempenho;
+- apontar conhecimentos e habilidades requeridos para desenvolvimento e capacitação;
+- revelar duplicidades, lacunas, sobrecarga e problemas de distribuição do trabalho;
+- fornecer informações para avaliação e classificação de cargos e decisões remuneratórias próprias;
+- apoiar planejamento e dimensionamento da força de trabalho;
+- registrar ferramentas, condições, riscos e contexto de execução;
+- distinguir requisitos realmente ligados ao trabalho de preferências ou características do ocupante atual.
 
-### 4.1 Descrição do cargo
+A análise **fornece insumos**. Ela não executa, por si, recrutamento, seleção, avaliação de desempenho, capacitação, avaliação de cargos ou política salarial.
 
-Campos frequentes incluem:
+## 3. Produtos essenciais
 
-1. título, código, unidade, lotação, versão e data;
-2. propósito ou sumário do cargo;
+### 3.1 Descrição do cargo
+
+Uma descrição costuma registrar:
+
+1. identificação e título do cargo;
+2. propósito ou sumário;
 3. tarefas, deveres e responsabilidades;
-4. entregas e resultados esperados;
+4. entregas ou resultados esperados;
 5. relações internas e externas;
 6. supervisão recebida e exercida;
-7. autoridade, autonomia e limites decisórios;
-8. ferramentas, sistemas, informações e recursos utilizados;
-9. ambiente, jornada, deslocamentos, riscos e demais condições;
-10. responsáveis pela elaboração, validação e aprovação.
+7. autoridade e limites decisórios;
+8. ferramentas, sistemas e recursos utilizados;
+9. condições relevantes de execução.
 
-O propósito explica **por que** o cargo existe. A lista de tarefas detalha **como** ele contribui. A descrição não deve se limitar ao título nem virar inventário de cada movimento transitório.
+O propósito responde **por que o cargo existe**. As tarefas mostram **o que é feito**. Uma boa redação privilegia comportamento observável, por exemplo: **verbo de ação + objeto + resultado/finalidade + contexto relevante**.
 
-### 4.2 Especificação do cargo
+Descrição insuficiente vira texto genérico; descrição excessivamente minuciosa congela microprocedimentos e envelhece rapidamente.
 
-Pode reunir escolaridade, habilitação legal, experiência, conhecimentos, habilidades, capacidades e outras características relacionadas ao trabalho. Em referências internacionais, usa-se **KSAO**: *knowledge, skills, abilities and other characteristics*. No uso brasileiro, **CHA** costuma significar conhecimentos, habilidades e atitudes; as siglas não são equivalentes termo a termo.
+### 3.2 Especificação do cargo
 
-Convém distinguir:
+A especificação pode reunir escolaridade, habilitação, experiência, conhecimentos, habilidades, capacidades e outras características justificadamente relacionadas ao trabalho. Em referências internacionais, a sigla **KSAO** designa *knowledge, skills, abilities and other characteristics*.
 
-- **essencial:** necessário para execução regular, segura ou juridicamente válida;
-- **desejável:** agrega valor, mas não é condição indispensável;
-- **requisito de entrada:** deve existir antes do ingresso;
-- **desenvolvível:** pode ser adquirido em prazo razoável depois do ingresso.
+Duas distinções úteis:
 
-Exigir escolaridade, experiência ou certificado acima do necessário aumenta barreiras sem assegurar melhor desempenho. Característica pessoal do ocupante atual também não deve ser convertida em requisito sem ligação demonstrada com o trabalho.
+- **essencial × desejável:** requisito indispensável não é o mesmo que requisito que apenas agrega valor;
+- **de entrada × desenvolvível:** nem tudo o que o cargo exige precisa existir antes do ingresso; parte pode ser desenvolvida posteriormente.
 
-### 4.3 Como redigir tarefas
+Requisito sem ligação demonstrada com tarefa, responsabilidade ou condição relevante é sinal de possível inflação do perfil.
 
-Uma formulação útil combina **verbo de ação + objeto + finalidade ou resultado + contexto relevante**.
+## 4. Processo básico de análise
 
-- vago: “prestar apoio administrativo”;
-- observável: “consolidar dados mensais de execução e encaminhar relatório validado à chefia no prazo definido”;
-- traço indevido: “ser proativo”;
-- comportamento verificável: “identificar inconsistências e propor correção antes da consolidação do relatório”.
+O fluxo pode ser resumido em cinco movimentos:
 
-O nível de detalhe deve permitir compreender e avaliar o trabalho sem congelar microprocedimentos que mudam rapidamente.
+1. **planejar:** definir finalidade, escopo, produtos e nível de detalhe;
+2. **selecionar fontes e métodos:** escolher pessoas, documentos, períodos e instrumentos adequados;
+3. **coletar:** registrar evidências sobre tarefas, responsabilidades, requisitos e contexto;
+4. **analisar e sintetizar:** agrupar informações, eliminar duplicidades e investigar divergências;
+5. **validar e atualizar:** confrontar o resultado com fontes pertinentes e rever a descrição quando o trabalho mudar de forma relevante.
 
-## 5. Processo de análise
+Fontes comuns incluem ocupantes, chefias, especialistas, pares, documentos, registros e sistemas. A fonte única é arriscada: o ocupante pode supervalorizar ou omitir atividades; a chefia pode descrever apenas o trabalho prescrito; o documento pode estar desatualizado.
 
-### 5.1 Planejar
+## 5. Métodos: vantagens e desvantagens
 
-Definem-se finalidade, escopo, unidades, governança, recursos, cronograma, produtos, usuários, período de referência e restrições jurídicas. O uso pretendido influencia o detalhe: uma análise para revisar um fluxo pode demandar evidências diferentes de outra que fundamentará requisito eliminatório.
+Esta é a matriz central do assunto.
 
-### 5.2 Selecionar fontes e amostra
+| Método | Quando é especialmente útil | Vantagens | Desvantagens / riscos |
+| --- | --- | --- | --- |
+| **Observação direta** | Trabalho visível, manual, repetitivo ou sequencial | Mostra execução real, sequência, ambiente, ferramentas e interrupções | Custo de tempo, reatividade; capta mal raciocínio, sigilo e eventos raros |
+| **Entrevista individual** | Trabalho cognitivo, decisões, exceções e conhecimento tácito | Profundidade, flexibilidade, possibilidade de sondagem e esclarecimento | Memória seletiva, desejabilidade social, inflação do cargo e influência do entrevistador |
+| **Entrevista coletiva / grupo focal** | Interfaces entre áreas e comparação de perspectivas | Coleta várias visões com eficiência e permite confronto de informações | Hierarquia, dominância, conformidade e falso consenso |
+| **Questionário estruturado** | População grande ou dispersa e necessidade de comparação | Escala, padronização, rapidez relativa e tratamento quantitativo | Simplificação do trabalho, ambiguidade dos itens e menor profundidade |
+| **Questionário aberto** | Exploração inicial, descoberta de tarefas e exceções | Flexibilidade e surgimento de informação não prevista | Codificação trabalhosa e baixa comparabilidade |
+| **Diário / registro de atividades** | Trabalho variável, interrupções e sazonalidade | Capta distribuição temporal e atividades difíceis de observar diretamente | Ônus de preenchimento, omissão, baixa adesão e reatividade |
+| **Incidentes críticos** | Eventos de sucesso, falha, risco ou alta consequência | Evidencia comportamentos e situações relevantes | Favorece fatos salientes e não representa sozinho toda a rotina |
+| **Análise documental** | Normas, manuais, fluxos, relatórios e registros disponíveis | Baixo custo inicial e bom contexto formal/histórico | Pode mostrar trabalho prescrito ou antigo, não a prática atual |
+| **Painel de especialistas** | Integração e validação de conhecimento especializado | Síntese rápida de experiências e apoio ao consenso técnico | Assimetria de poder, opinião dominante e risco de consenso artificial |
 
-Fontes possíveis incluem titulares experientes, recém-chegados, chefias, pares, clientes internos, especialistas no assunto, normas, manuais, sistemas e registros. A amostra deve cobrir variações relevantes de localidade, turno, unidade, nível de desempenho, tecnologia e ciclo sazonal.
+### 5.1 Não existe método universalmente superior
 
-Somente o ocupante pode desconhecer implicações organizacionais; somente a chefia pode descrever o trabalho prescrito e omitir a prática; somente o documento pode estar desatualizado. A combinação reduz, mas não elimina, esses riscos.
+A escolha depende de:
 
-### 5.3 Coletar evidências
+- finalidade da análise;
+- grau de observabilidade do trabalho;
+- quantidade e dispersão dos ocupantes;
+- necessidade de profundidade ou comparabilidade;
+- variação entre unidades, turnos ou períodos;
+- frequência de eventos raros ou críticos;
+- custo, tempo e acesso às fontes;
+- risco de erro da decisão que usará os resultados.
 
-Os instrumentos devem ter definições claras, perguntas ligadas ao objetivo, escalas compreensíveis e teste prévio quando necessário. Participantes precisam saber a finalidade da coleta: analisar o trabalho, não fiscalizar ou avaliar secretamente a pessoa.
+A banca pode apresentar um método correto, mas inadequado para o contexto. O ponto não é memorizar “o melhor método”; é relacionar **necessidade → força do método → limitação**.
 
-### 5.4 Analisar e sintetizar
+## 6. Combinação de métodos
 
-O analista agrupa tarefas, elimina duplicidades, distingue variações reais, identifica entregas, relações, condições e requisitos e constrói ligações entre eles. Pode classificar tarefas por frequência, importância, dificuldade, criticidade ou consequência do erro.
+Combinar fontes e métodos costuma reduzir as limitações de cada instrumento isolado.
 
-### 5.5 Validar e aprovar
+Exemplos:
 
-Titulares, chefias e especialistas examinam o rascunho. Validar não significa obter assinatura automática: divergências precisam ser registradas, investigadas e resolvidas por critérios e evidências. A instância competente aprova o produto segundo a governança aplicável.
+- **observação + entrevista:** a primeira mostra o trabalho visível; a segunda explica decisões, exceções e raciocínio não observável;
+- **questionário estruturado + entrevistas:** o questionário dá escala; entrevistas aprofundam ambiguidades e casos relevantes;
+- **documentos + observação/entrevista:** confronta o trabalho prescrito com o trabalho efetivamente realizado;
+- **diário + entrevista:** ajuda a interpretar sazonalidade, interrupções e atividades pouco frequentes;
+- **incidentes críticos + métodos de rotina:** preserva eventos de alta consequência sem tratá-los como retrato completo do cargo.
 
-### 5.6 Comunicar e manter
+**Triangulação** é a comparação entre evidências de fontes, métodos, períodos ou registros distintos. Convergência aumenta confiança; divergência deve ser investigada, porque pode indicar erro ou variação legítima do trabalho.
 
-O documento aprovado deve indicar versão, data, fontes, responsáveis e usos. Revisão periódica ajuda, mas não substitui gatilhos como reorganização, automação, nova norma, alteração substancial de entregas, risco novo, mudança de sistema, teletrabalho ou discrepância persistente entre documento e trabalho real.
+## 7. Vantagens e limitações da própria análise de cargos
 
-## 6. Métodos: vantagens e desvantagens
+### Vantagens
 
-| Método | Vantagens | Limitações e controles |
-| --- | --- | --- |
-| observação direta | mostra sequência, ambiente, ferramentas e tarefas manuais visíveis | custa tempo, pode gerar reatividade e capta mal raciocínio, sigilo e eventos raros; observar períodos distintos |
-| entrevista individual | aprofunda decisões, exceções, propósito e conhecimento tácito | memória seletiva, desejabilidade social, inflação e influência do entrevistador; usar roteiro e exemplos |
-| entrevista coletiva ou grupo focal | confronta perspectivas e mapeia interfaces com eficiência | hierarquia, dominância e conformidade podem silenciar dissenso; facilitar e registrar divergências |
-| questionário estruturado | escala, padronização, comparação e tratamento quantitativo | pode simplificar o trabalho e induzir respostas; definir termos, testar e validar |
-| questionário aberto | revela tarefas e exceções não antecipadas | codificação cara e menor comparabilidade; usar como complemento |
-| diário ou registro de atividades | capta interrupções, sazonalidade e trabalho difícil de observar | ônus, baixa adesão, omissão e reatividade; delimitar período e campos |
-| incidentes críticos | evidencia comportamentos ligados a sucesso, falha, risco ou qualidade | privilegia fatos salientes e não representa toda a rotina; categorizar e triangular |
-| análise documental | aproveita normas, fluxos, relatórios e sistemas a baixo custo inicial | registra o trabalho prescrito ou passado; não usar como fonte única |
-| painel ou workshop de especialistas | integra conhecimento e apoia validação e consenso técnico | assimetria de poder e opinião dominante; usar critérios, facilitação e rastreabilidade |
+- aumenta clareza sobre responsabilidades e resultados;
+- padroniza informações para decisões de gestão de pessoas;
+- reduz critérios arbitrários ou baseados apenas no ocupante atual;
+- melhora coerência entre seleção, desenvolvimento, desempenho e organização do trabalho;
+- ajuda a identificar redundâncias, lacunas e mudanças relevantes.
 
-Não existe método melhor em abstrato. Observação é forte para trabalho visível; entrevistas e diários ajudam no trabalho cognitivo; questionários estruturados ganham escala; documentos oferecem contexto normativo; incidentes críticos captam eventos de alta consequência. A escolha depende de finalidade, custo, tempo, dispersão, observabilidade, variação e risco de erro.
+### Limitações
 
-## 7. Métodos e referências estruturados
+- é uma representação do trabalho em determinado momento, não uma fotografia eterna;
+- depende da qualidade das fontes, da amostra e dos instrumentos;
+- pode sofrer inflação, omissão, viés do ocupante ou da chefia;
+- pode ser custosa em cargos numerosos, dispersos ou muito variáveis;
+- envelhece quando tecnologia, processos, normas ou entregas mudam;
+- consenso entre respondentes não garante, sozinho, validade do conteúdo.
 
-O **Position Analysis Questionnaire (PAQ)** é um instrumento padronizado, orientado a elementos do trabalhador e útil para comparação quantitativa entre cargos. Sua abstração favorece comparabilidade, mas pode perder particularidades e requer aplicação qualificada.
+Uma tarefa rara pode ser crítica. **Frequência, importância e criticidade são dimensões diferentes**: excluir automaticamente uma tarefa apenas porque ocorre pouco é erro clássico.
 
-A **Functional Job Analysis (FJA)** descreve o trabalho de modo estruturado, tradicionalmente considerando relações com dados, pessoas e coisas e exigências funcionais. Favorece linguagem comum e comparação, mas pode ser formal demais para trabalho fluido ou muito contextual.
+## 8. Métodos estruturados e referências externas: noção suficiente
 
-O **O*NET** oferece taxonomias e questionários sobre ocupações, tarefas, atividades, conhecimentos, habilidades e contexto. A **Classificação Brasileira de Ocupações (CBO)** identifica ocupações para fins classificatórios administrativos. Ambos podem iniciar comparação e vocabulário; nenhum substitui a análise do cargo concreto.
+Alguns instrumentos podem aparecer em questões conceituais:
 
-## 8. Qualidade das evidências
+- **PAQ — Position Analysis Questionnaire:** questionário padronizado, voltado à comparação entre cargos; ganha comparabilidade, mas pode perder particularidades do contexto;
+- **FJA — Functional Job Analysis:** abordagem estruturada tradicionalmente associada às relações do trabalho com **dados, pessoas e coisas**;
+- **O*NET:** base ocupacional útil como referência comparativa e de vocabulário, mas não substitui a análise do cargo concreto.
 
-### 8.1 Triangulação
+Esses nomes são complementares ao núcleo. Para este edital, é mais importante dominar a lógica dos métodos básicos e suas vantagens e desvantagens.
 
-Triangular é comparar métodos, fontes, períodos ou registros. Convergência aumenta confiança; divergência pode revelar erro, mas também variação legítima entre unidades ou ciclos. Não se deve forçar consenso apagando diferenças relevantes.
+## 9. Atualização, qualidade e vieses
 
-### 8.2 Confiabilidade e validade
+Uma descrição deve ser revista quando mudanças relevantes alterarem o trabalho, por exemplo reorganização, automação, novo sistema, mudança significativa de entregas ou de responsabilidades. Revisão periódica é útil, mas não substitui esses gatilhos.
 
-**Confiabilidade** indica consistência entre avaliadores, fontes, momentos ou escalas. **Validade de conteúdo**, neste contexto, exige representação adequada das tarefas e requisitos relevantes. Concordância não prova verdade: várias pessoas podem repetir a mesma descrição desatualizada.
+Erros recorrentes:
 
-### 8.3 Frequência, importância e criticidade
+- **efeito do titular:** transformar desempenho, estilo ou qualificação pessoal do ocupante em característica do cargo;
+- **inflação:** exagerar complexidade, autonomia ou requisitos sem evidência;
+- **omissão:** ignorar tarefas raras, informais ou pouco prestigiadas;
+- **trabalho prescrito:** copiar norma ou descrição antiga sem confrontar a prática;
+- **fonte única:** aceitar uma perspectiva como retrato completo;
+- **microdetalhamento:** registrar passos rapidamente obsoletos em vez de atividades e resultados estáveis.
 
-Frequência mede recorrência; importância mede contribuição; criticidade considera impacto ou consequência. Tarefa rara pode ser essencial se um erro causar grande dano. Por isso, frequência não deve ser o único critério de inclusão ou prioridade.
+Confiabilidade significa consistência das informações ou avaliações; não prova automaticamente que o conteúdo seja válido ou atual. Boa análise mantém rastreabilidade suficiente para saber quais fontes e métodos sustentaram suas conclusões.
 
-### 8.4 Ligação tarefa-requisito
+## 10. Exemplo integrado
 
-Uma matriz pode relacionar cada tarefa aos conhecimentos, habilidades, capacidades, ferramentas e condições necessários. Requisito sem tarefa correspondente é alerta de inflação; tarefa crítica sem requisito ou condição documentada é alerta de omissão.
+Um setor pretende revisar um cargo cujo trabalho contém rotinas visíveis, decisões não observáveis e forte variação no fechamento mensal.
 
-### 8.5 Rastreabilidade
+Uma estratégia coerente seria:
 
-Boa documentação preserva fonte, amostra, período, instrumento, escala, decisão, divergência, responsável e versão. Isso permite revisar o raciocínio em vez de depender da memória do analista.
+1. examinar a descrição e os registros existentes;
+2. observar tarefas visíveis em períodos representativos;
+3. entrevistar ocupantes e chefia sobre decisões e exceções;
+4. usar diário no fechamento mensal para captar a variação temporal;
+5. sintetizar tarefas, responsabilidades e requisitos;
+6. validar divergências antes de aprovar a nova descrição.
 
-## 9. Vieses e erros recorrentes
+Escolher apenas observação perderia parte do trabalho cognitivo. Escolher apenas entrevista aumentaria dependência da memória. Copiar a descrição antiga confundiria trabalho prescrito com trabalho atual.
 
-- **inflação:** ocupante ou chefia exagera complexidade, autonomia ou requisitos;
-- **omissão:** tarefas pouco prestigiadas, raras ou informais desaparecem;
-- **efeito do titular:** desempenho excepcional ou limitação individual vira falsa característica do cargo;
-- **trabalho prescrito:** documentos são copiados sem confrontar o trabalho real;
-- **fotografia imutável:** descrição antiga é tratada como verdade permanente;
-- **generalização:** descrição de ocupação, CBO ou O*NET é transplantada sem validação local;
-- **vagueza:** traços pessoais substituem ações e resultados observáveis;
-- **fonte única:** uma perspectiva domina a conclusão;
-- **detalhe inadequado:** texto genérico não orienta decisões ou lista minúcias rapidamente obsoletas;
-- **confusão de processos:** análise é tomada por desenho, avaliação/classificação ou remuneração do cargo.
-
-Controles incluem amostra representativa, métodos combinados, perguntas comportamentais, exemplos verificáveis, critérios prévios, escalas definidas, facilitação, análise de divergências e validação documentada.
-
-## 10. Contexto público brasileiro
-
-O art. 37 da Constituição submete a Administração à legalidade, impessoalidade, moralidade, publicidade e eficiência e exige concurso para investidura originária em cargo ou emprego efetivo, ressalvadas as hipóteses constitucionais. Uma análise tecnicamente correta não afasta essas regras.
-
-A Lei nº 8.112/1990 define, **no regime federal**, cargo público como conjunto de atribuições e responsabilidades previsto na estrutura organizacional e cometido a servidor; também prevê criação por lei, denominação própria e vencimento público. Ela é referência conceitual federal, não estatuto automaticamente aplicável ao TCE-MA.
-
-A análise administrativa pode documentar o trabalho real e recomendar atualização. Não pode, sozinha, criar ou extinguir cargo, mudar requisito de investidura, alterar remuneração ou substituir o instrumento jurídico e a competência exigidos pelo regime estadual aplicável.
-
-A CBO tem finalidade classificatória em registros administrativos e domiciliares. Segundo o Ministério do Trabalho e Emprego, seus efeitos de uniformização são administrativos e não se estendem automaticamente às relações de trabalho; regulamentação profissional depende de lei. Código CBO não cria cargo público nem atribuição legal.
-
-## 11. Acessibilidade e dados pessoais
-
-A Lei Brasileira de Inclusão protege o direito ao trabalho e veda restrições discriminatórias, inclusive exigência de aptidão plena. Analisar corretamente o cargo significa identificar resultado essencial e barreiras do ambiente, sem presumir que determinada deficiência impede o desempenho. Adaptação razoável e tecnologia assistiva podem permitir o mesmo resultado por meio diferente.
-
-Na coleta com titulares, a LGPD recomenda limitar dados à finalidade. Para analisar o cargo, muitas vezes não é necessário registrar saúde, opinião, produtividade individual ou outras características pessoais. Dados pessoais e, sobretudo, sensíveis exigem finalidade, necessidade, segurança, não discriminação e regras próprias para tratamento pelo Poder Público.
-
-## 12. Exemplo integrado
-
-Um órgão pretende atualizar a descrição de cargo afetado por automação:
-
-1. define que a análise apoiará atualização de fluxos e futuros critérios de seleção;
-2. seleciona titulares de unidades e turnos diferentes, chefias e especialistas;
-3. examina normas e registros do sistema, observa etapas visíveis e entrevista sobre decisões não observáveis;
-4. usa diário durante o fechamento mensal para captar sazonalidade;
-5. organiza tarefas, resultados, riscos e requisitos e relaciona cada requisito à evidência;
-6. valida divergências entre unidades sem apagar variações legítimas;
-7. aprova descrição versionada e registra revisão após a implantação completa da automação.
-
-Copiar a descrição anterior mudando o nome do sistema seria mais rápido, porém não demonstraria quais tarefas desapareceram, mudaram ou se tornaram críticas.
-
-## 13. Pegadinhas
+## 11. Pegadinhas de prova
 
 | Afirmação | Avaliação |
 | --- | --- |
 | análise e descrição são sinônimos perfeitos | errada: processo e produto |
-| descrição se concentra nos requisitos da pessoa | errada: isso caracteriza a especificação |
+| descrição concentra-se nos requisitos do ocupante | errada: isso caracteriza principalmente a especificação |
+| análise de cargos substitui seleção ou avaliação de desempenho | errada: fornece insumos |
 | observação é superior para todo trabalho intelectual | errada |
-| questionário estruturado oferece escala e comparação | correta |
-| consenso entre fontes garante validade | errada |
+| entrevista é profunda, mas sujeita a memória e desejabilidade social | correta |
+| questionário estruturado favorece escala e comparação | correta |
+| diário ajuda a captar sazonalidade | correta |
+| incidentes críticos representam sozinhos toda a rotina | errada |
+| documento oficial elimina necessidade de confrontar o trabalho real | errada |
+| existe um método universalmente melhor | errada |
+| triangulação combina evidências complementares | correta |
+| concordância garante validade | errada |
 | tarefa rara nunca é crítica | errada |
-| CBO regulamenta profissões | errada |
-| ocupante atual define o perfil ideal | errada |
-| documento antigo basta para validar o trabalho atual | errada |
-| análise administrativa altera atribuições legais | errada |
-| frequência, importância e criticidade são dimensões distintas | correta |
-| combinação de métodos reduz limitações de fonte única | correta |
+| descrição antiga deve permanecer até mudar o ocupante | errada |
 
 ## Referências
 
-- [Edital do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), Cebraspe, 2026, acesso em 17 jul. 2026.
-- [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), especialmente art. 37, versão vigente consultada em 17 jul. 2026.
-- [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112compilado.htm), regime jurídico federal, especialmente arts. 1º a 3º e 13, versão vigente consultada em 17 jul. 2026.
-- [Lei Brasileira de Inclusão](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm), Lei nº 13.146/2015, especialmente arts. 3º, 34, 37 e 38, versão vigente consultada em 17 jul. 2026.
-- [Lei Geral de Proteção de Dados Pessoais](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm), Lei nº 13.709/2018, especialmente arts. 5º, 6º, 11 e 23, versão vigente consultada em 17 jul. 2026.
-- [Classificação Brasileira de Ocupações](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/cbo), Ministério do Trabalho e Emprego, acesso em 17 jul. 2026.
-- [Job Analysis](https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/), U.S. Office of Personnel Management, acesso em 17 jul. 2026.
-- [What is a job analysis?](https://www.opm.gov/frequently-asked-questions/assessment-policy-faq/job-analysis/what-is-a-job-analysis/), U.S. Office of Personnel Management, acesso em 17 jul. 2026.
-- [O*NET Data Collection Questionnaires](https://www.onetcenter.org/questionnaires.html), National Center for O*NET Development, acesso em 17 jul. 2026.
-- [Job Analysis](https://www.calhr.ca.gov/wp-content/uploads/sites/361/2025/07/10-6-20-Job-Analysis-accessible-version.pdf), California Department of Human Resources, acesso em 17 jul. 2026.
-- [Methodological Issues Related to the Occupational Requirements Survey](https://www.bls.gov/ors/research/collection/pdf/handel-methodological-issues-data-collection-full-report-feb15.pdf), U.S. Bureau of Labor Statistics, acesso em 17 jul. 2026.
+- [Edital nº 1 — TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), Cebraspe, publicado em 6 jul. 2026.
+- [Job Analysis](https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/), U.S. Office of Personnel Management.
+- [What is a job analysis?](https://www.opm.gov/frequently-asked-questions/assessment-policy-faq/job-analysis/what-is-a-job-analysis/), U.S. Office of Personnel Management.
+- [O*NET Data Collection Questionnaires](https://www.onetcenter.org/questionnaires.html), National Center for O*NET Development.
+- [Job Analysis](https://www.calhr.ca.gov/wp-content/uploads/sites/361/2025/07/10-6-20-Job-Analysis-accessible-version.pdf), California Department of Human Resources.
+
+> As fontes técnicas acima apoiam conceitos e métodos. A data jurídica de corte do concurso permanece **6/7/2026**.
