@@ -8,7 +8,7 @@ storageId: regencia-verbal-nominal
 
 # Regência verbal e nominal
 
-> **Corte de atualização:** fontes consultadas até 17 de julho de 2026. O foco é a norma-padrão aplicada a textos formais e a questões de concurso. Quando dicionários, gramáticas ou o uso culto documentam mais de uma construção, a variação é indicada em vez de ser tratada como erro absoluto.
+> **Corte de atualização:** fontes consultadas até 10 de agosto de 2026. O foco é a norma-padrão aplicada a textos formais e a questões de concurso. Quando fontes de referência registram mais de uma construção, o material distingue a forma normativa mais segura para prova da variante documentada.
 
 ## 1. Regência é relação de dependência
 
@@ -54,7 +54,13 @@ Em prova, identifique primeiro a acepção. Só então classifique o complemento
 5. Se houver pronome, verifique se ele substitui objeto direto, indireto ou termo de outra função.
 6. Em oração relativa, reconstrua a frase sem o relativo para descobrir a preposição.
 7. Em reescrita, preserve simultaneamente sentido, preposição, função e paralelismo.
-8. Antes de condenar uma forma, verifique se há variante culta documentada.
+8. Se houver mais de uma construção documentada, identifique qual forma a tradição normativa privilegia e qual é apenas variante de uso.
+
+### 2.1 Hierarquia prática para questões de concurso
+
+Quando o comando pedir **correção segundo a norma-padrão**, adote primeiro a construção de menor controvérsia na tradição gramatical e editorial. Variantes documentadas são relevantes para evitar enunciados absolutos falsos, mas não devem apagar a forma preferencial cobrada em prova.
+
+Exemplo: no sentido de *presenciar*, **assistir ao julgamento** é a resposta segura; o uso direto **assistir o julgamento** é documentado no português brasileiro, mas só deve prevalecer se o comando ou a fonte adotada admitirem essa descrição.
 
 ## 3. Verbos cuja regência muda com o sentido
 
@@ -69,7 +75,7 @@ Em prova, identifique primeiro a acepção. Só então classifique o complemento
 
 No sentido de ver, a tradição normativa prefere o complemento com *a*. Por isso, a forma segura em prova é “assistir **ao** filme”. Na substituição por pronome tônico, usa-se “assistir **a ele**”; a tradição não recomenda *assistir-lhe* para retomar o espetáculo.
 
-O uso direto “assistir o filme” é muito frequente no português brasileiro e aparece registrado em repertórios contemporâneos. Quando o comando exige a tradição escolar, mantenha *assistir a*; quando pergunta sobre variação real, não apague o registro do uso direto.
+O uso direto “assistir o filme” é frequente no português brasileiro e aparece registrado em repertórios contemporâneos. Em questão normativa, mantenha *assistir a* salvo indicação expressa de outro padrão.
 
 ### 3.2 *Aspirar*
 
@@ -84,7 +90,7 @@ No segundo sentido, a construção tradicional não substitui o complemento por 
 - **pôr visto:** “A autoridade visou **o documento**.”;
 - **ter por objetivo:** a tradição normativa ensina “A medida visa **ao resultado**”.
 
-No último sentido, o uso direto — “visa o resultado” — está difundido e documentado no português brasileiro. Em questão normativa conservadora, *visar a* é a resposta segura; uma afirmação de que o uso direto jamais ocorre na norma culta exige cautela e fonte explícita.
+No último sentido, o uso direto — “visa o resultado” — é documentado no português brasileiro. Em questão normativa conservadora, **visar a** é a resposta segura.
 
 ### 3.4 *Agradar*
 
@@ -106,7 +112,7 @@ O segundo uso é menos frequente na fala cotidiana, mas permanece relevante em q
 - **embirrar, antipatizar:** *implicar com* — “O chefe implicava **com o servidor**.”;
 - **envolver alguém em algo:** “Implicaram **o agente no caso**.”
 
-Na acepção de acarretar, a tradição de concurso prefere “implicar consequências”, sem *em*. O uso “implicar em consequências” é corrente, mas não é a escolha conservadora para redação formal.
+Na acepção de acarretar, a forma conservadora de prova é “implicar consequências”, sem *em*. O uso “implicar em consequências” é corrente, mas não é a primeira escolha em redação normativa.
 
 ### 3.7 *Proceder*
 
@@ -185,7 +191,7 @@ Não se transfere automaticamente a mesma preposição a todas as acepções.
 - **acarretar** algo, sem *em* na construção tradicional: “A omissão acarretou **prejuízos**.”;
 - **usufruir de** algo e **usufruir** algo aparecem documentados: “usufruir **dos benefícios**” / “usufruir **os benefícios**”.
 
-Como há variação lexicográfica em *usufruir*, uma questão só deve condenar uma das formas se indicar a referência normativa adotada ou oferecer contexto inequívoco.
+Em prova, não condene uma das formas de *usufruir* por princípio se o comando não indicar uma referência normativa que exclua a variante.
 
 ### 4.7 *Atender*, *presidir* e *deparar(-se)*
 
@@ -194,9 +200,9 @@ Há variação reconhecida:
 - **atender alguém/a alguém:** “atender o usuário” e “atender ao usuário”;
 - **atender um pedido:** pode significar acolhê-lo ou deferi-lo;
 - **presidir a sessão / presidir à sessão:** as duas construções têm registro;
-- **deparar com / deparar-se com:** ambas aparecem no português brasileiro; outras tradições registram ainda construções diferentes.
+- **deparar com / deparar-se com:** ambas aparecem no português brasileiro.
 
-Esses verbos são armadilhas para enunciados categóricos. A melhor análise considera acepção, variedade, fonte e construção integral, em vez de declarar uma única forma universal.
+Esses verbos exigem atenção a acepção, fonte e construção integral. Em item normativo, prefira a forma explicitamente adotada pelo comando quando houver.
 
 ### 4.8 *Prevenir*
 
@@ -216,7 +222,7 @@ Na tradição formal:
 
 *A* costuma marcar destino mais pontual; *para* pode sugerir direção, permanência ou mudança. Essa oposição não é absoluta em todos os contextos.
 
-“Chegar em” e “ir em” são muito comuns no português brasileiro. Em redação formal conservadora e em provas tradicionais, prefira “chegar **a**” e “ir **a/para**”. Para localização estática, emprega-se normalmente *em*: “estar **na sede**”, “morar **em São Luís**”.
+“Chegar em” e “ir em” são comuns no português brasileiro. Em redação formal conservadora e em provas tradicionais, prefira “chegar **a**” e “ir **a/para**”. Para localização estática, emprega-se normalmente *em*: “estar **na sede**”, “morar **em São Luís**”.
 
 ## 6. Construções pronominais e predicativas
 
@@ -233,7 +239,7 @@ Na construção pronominal, usa-se *de*:
 - “Lembrei-me **do compromisso**.”;
 - “Esqueci-me **do prazo**.”
 
-“Esqueci do prazo”, sem o pronome mas com *de*, é muito frequente no português brasileiro. Em prova normativa conservadora, escolha “esqueci o prazo” ou “esqueci-me do prazo”.
+“Esqueci do prazo”, sem o pronome mas com *de*, é frequente no português brasileiro. Em prova normativa conservadora, escolha “esqueci o prazo” ou “esqueci-me do prazo”.
 
 ### 6.2 *Chamar*
 
@@ -309,7 +315,7 @@ A retirada indevida é chamada frequentemente de **queísmo**: “tenho certeza 
 | afirmar algo | “Afirmou **que** viria.” |
 | informar alguém **de** algo | “Informou-o **de que** o prazo mudou.” |
 
-Há supressões documentadas em determinados autores e construções, inclusive “lembro-me que”. Em redação objetiva de concurso, “lembro-me **de que**” elimina a dúvida; uma questão histórica ou descritiva pode reconhecer a variante.
+Há supressões documentadas em determinados autores e construções, inclusive “lembro-me que”. Em redação objetiva de concurso, “lembro-me **de que**” elimina a dúvida.
 
 ## 10. Regência e pronomes relativos
 
@@ -333,7 +339,7 @@ O relativo não elimina a preposição exigida. Na norma-padrão, “o livro que
 - **aonde** contém a preposição *a* e se associa a destino selecionado pelo verbo: “a cidade **aonde** vou”;
 - com antecedente abstrato, a forma precisa costuma ser **em que/no qual/na qual**: “a situação **em que** ocorreu a falha”.
 
-Há tradição histórica de *onde* com antecedentes abstratos. Em texto formal, a substituição por *em que* evita imprecisão; uma questão não deve confundir preferência de clareza com inexistência absoluta do uso.
+Há tradição histórica de *onde* com antecedentes abstratos. Em texto formal de prova, **em que/no qual/na qual** é a escolha de menor controvérsia para antecedente abstrato.
 
 ### 10.2 Relativos e paralelismo
 
@@ -356,7 +362,7 @@ Nomes também selecionam complementos. A preposição depende do nome e, às vez
 | adesão | a | adesão **ao programa** |
 | alusão | a | alusão **ao parecer** |
 | amor | a, por | amor **à profissão** / amor **pela profissão** |
-| aversão | a | aversão **ao risco** |
+| aversão | a, por | aversão **ao risco** / aversão **por fraudes** |
 | capacidade | de, para | capacidade **de análise** / **para analisar** |
 | compatibilidade | com | compatibilidade **com o cargo** |
 | conformidade | com | conformidade **com a norma** |
@@ -370,7 +376,7 @@ Nomes também selecionam complementos. A preposição depende do nome e, às vez
 | --- | --- | --- |
 | acessível | a | acessível **aos usuários** |
 | adequado | a, para | adequado **ao cargo** / **para o cargo** |
-| alheio | a | alheio **ao problema** |
+| alheio | a, de | alheio **ao problema** / alheio **de disputas** |
 | apto | a, para | apto **a exercer** / **para exercer** |
 | avesso | a | avesso **a mudanças** |
 | compatível | com | compatível **com a função** |
@@ -384,7 +390,7 @@ Nomes também selecionam complementos. A preposição depende do nome e, às vez
 | inerente | a | inerente **à função** |
 | passível | de | passível **de revisão** |
 | preferível | a | preferível **à alternativa** |
-| propenso | a | propenso **a erros** |
+| propenso | a, para | propenso **a erros** / propenso **para a conciliação** |
 | responsável | por | responsável **pelo setor** |
 | sensível | a | sensível **às mudanças** |
 
@@ -441,9 +447,9 @@ Regência não garante crase: a fusão depende também do termo regido. As regra
 
 Uma reescrita pode continuar gramatical e, ainda assim, não ser equivalente. A manutenção do sentido faz parte do julgamento.
 
-### 13.4 Absolutismos sobre variação
+### 13.4 Regra preferencial × variante documentada
 
-Desconfie de enunciados com *sempre*, *nunca* ou *única forma* quando tratam de *atender*, *usufruir*, *presidir*, *deparar(-se)*, usos brasileiros de *assistir/visar* ou relativos como *onde*. A banca pode cobrar a forma tradicional, mas o comando deve permitir distinguir regra preferencial de variante registrada.
+Em prova normativa, **assistir a**, **visar a**, **implicar algo**, **chegar a** e as demais construções tradicionais de menor controvérsia devem orientar a primeira resposta. A existência de variantes documentadas serve sobretudo para impedir afirmações universais indevidas quando o próprio comando não fixa uma tradição normativa específica.
 
 ## 14. Método de prova
 
@@ -458,7 +464,7 @@ Desconfie de enunciados com *sempre*, *nunca* ou *única forma* quando tratam de
 9. Em coordenação, confira cada regente separadamente.
 10. Em reescrita, valide gramática, paralelismo e equivalência semântica.
 11. Trate a crase somente depois de descobrir se existe preposição *a*.
-12. Reconheça variantes documentadas sem abandonar a forma conservadora pedida pelo contexto.
+12. Se houver variação documentada, identifique primeiro a forma normativa preferencial pedida pela questão.
 
 ## 15. Limites do assunto
 
@@ -472,12 +478,12 @@ Esses tópicos aparecem aqui apenas quando determinam ou revelam a relação ent
 
 ## Referências
 
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. [Edital nº 1 - TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Programa de Língua Portuguesa do Cargo 1. Acesso em 17 jul. 2026.
-- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [TCE publica edital de concurso público](https://www.tcema.tc.br/index.php/noticias/3447-tce-publica-edital-de-concurso-publico). Publicado em 8 jul. 2026. Acesso em 17 jul. 2026.
-- AULETE DIGITAL. [Regência](https://www.aulete.com.br/gram/cap11-15-regencia). Gramática Básica da Língua Portuguesa; regência verbal, nominal, pronomes e variantes. Lexikon Editora Digital. Acesso em 17 jul. 2026.
-- SENADO FEDERAL. [Regência nominal - Manual de Comunicação](https://www12.senado.leg.br/manualdecomunicacao/estilos/regencia-nominal). Relações preposicionais de substantivos e adjetivos. Acesso em 17 jul. 2026.
-- EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA. [Gramática - Manual de Produção Editorial](https://www.embrapa.br/manual-de-producao-editorial/gramatica). Orientações institucionais sobre regência e redação formal. Acesso em 17 jul. 2026.
-- BECHARA, Evanildo. [Os relativos e as preposições (conclusão)](https://www.academia.org.br/artigos/os-relativos-e-preposicoes-conclusao). Academia Brasileira de Letras, 2012. Acesso em 17 jul. 2026.
-- BECHARA, Evanildo. [Emprego de “onde” ou “em que” (continuação)](https://www.academia.org.br/artigos/emprego-de-onde-ou-em-que-continuacao). Academia Brasileira de Letras, 2012. Acesso em 17 jul. 2026.
-- SILVA, José Pereira da. [Normatividade em dicionários: variação de regência no português brasileiro](https://dlcv.fflch.usp.br/sites/dlcv.fflch.usp.br/files/04_11.pdf). Estudo sobre diferenças de descrição e uso em repertórios lexicográficos. Universidade de São Paulo. Acesso em 17 jul. 2026.
-- CIBERDÚVIDAS DA LÍNGUA PORTUGUESA. [Glossário de erros mais frequentes: Regência](https://ciberduvidas-ql.iscte-iul.pt/glossario/erros/251). Fonte portuguesa usada para comparar variantes, especialmente em regências nominais e *deparar*. Acesso em 17 jul. 2026.
+- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. [Edital nº 1 - TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Programa de Língua Portuguesa do Cargo 1. Acesso em 10 ago. 2026.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [TCE publica edital de concurso público](https://www.tcema.tc.br/index.php/noticias/3447-tce-publica-edital-de-concurso-publico). Publicado em 8 jul. 2026. Acesso em 10 ago. 2026.
+- AULETE DIGITAL. [Regência](https://www.aulete.com.br/gram/cap11-15-regencia). Gramática Básica da Língua Portuguesa; regência verbal, nominal, pronomes e variantes. Lexikon Editora Digital. Acesso em 10 ago. 2026.
+- SENADO FEDERAL. [Regência nominal - Manual de Comunicação](https://www12.senado.leg.br/manualdecomunicacao/estilos/regencia-nominal). Relações preposicionais de substantivos e adjetivos. Acesso em 10 ago. 2026.
+- EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA. [Gramática - Manual de Produção Editorial](https://www.embrapa.br/manual-de-producao-editorial/gramatica). Orientações institucionais sobre regência e redação formal. Acesso em 10 ago. 2026.
+- BECHARA, Evanildo. [Os relativos e as preposições (conclusão)](https://www.academia.org.br/artigos/os-relativos-e-preposicoes-conclusao). Academia Brasileira de Letras, 2012. Acesso em 10 ago. 2026.
+- BECHARA, Evanildo. [Emprego de “onde” ou “em que” (continuação)](https://www.academia.org.br/artigos/emprego-de-onde-ou-em-que-continuacao). Academia Brasileira de Letras, 2012. Acesso em 10 ago. 2026.
+- SILVA, José Pereira da. [Normatividade em dicionários: variação de regência no português brasileiro](https://dlcv.fflch.usp.br/sites/dlcv.fflch.usp.br/files/04_11.pdf). Estudo sobre diferenças de descrição e uso em repertórios lexicográficos. Universidade de São Paulo. Acesso em 10 ago. 2026.
+- CIBERDÚVIDAS DA LÍNGUA PORTUGUESA. [Glossário de erros mais frequentes: Regência](https://ciberduvidas-ql.iscte-iul.pt/glossario/erros/251). Fonte portuguesa usada para comparar variantes, especialmente em regências nominais e *deparar*. Acesso em 10 ago. 2026.
