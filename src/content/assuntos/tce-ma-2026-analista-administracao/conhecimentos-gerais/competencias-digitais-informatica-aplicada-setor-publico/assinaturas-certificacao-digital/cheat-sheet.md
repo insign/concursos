@@ -1,268 +1,155 @@
 # Assinaturas eletrônicas e certificação digital
 
-## Mapa normativo
+## Regra de ouro
 
-| Norma | Núcleo |
-|---|---|
-| MP nº 2.200-2/2001 | ICP-Brasil + validade jurídica |
-| Lei nº 14.063/2020 | simples, avançada e qualificada |
-| Decreto nº 10.543/2020 | níveis mínimos na administração federal |
-| Decreto nº 8.539/2015 | processo administrativo eletrônico federal |
-| Lei nº 14.129/2021 | Governo Digital + atos processuais digitais |
-| Lei nº 12.682/2012 | digitalização e armazenamento |
-| Decreto nº 10.278/2020 | equiparação do digitalizado ao original |
+Primeiro descubra **o conceito**; depois, **o efeito jurídico**; por fim, **o nível exigido para o ato**.
 
-Corte: **18/07/2026**.
+## Matriz de conceitos
 
-## Conceitos
+| Termo | Regra curta | Não confundir com |
+| --- | --- | --- |
+| assinatura eletrônica | gênero legal usado para assinar eletronicamente | apenas ICP-Brasil |
+| assinatura digital | mecanismo criptográfico com chaves assimétricas | imagem de rubrica |
+| assinatura qualificada | usa certificado ICP-Brasil | qualquer assinatura eletrônica |
+| certificado digital | vincula identidade e dados de validação/chave pública | assinatura de cada documento |
+| autenticação | identifica o usuário | assinatura automática do ato |
+| assinatura digitalizada | imagem da assinatura manuscrita | assinatura digital criptográfica |
+| nato-digital | nasceu eletrônico | documento digitalizado |
+| digitalizado | veio de documento físico | original nato-digital |
 
-| Termo | Regra curta |
-|---|---|
-| assinatura eletrônica | gênero legal de dados usados para assinar |
-| assinatura digital | mecanismo criptográfico com chaves assimétricas |
-| assinatura qualificada | usa certificado ICP-Brasil |
-| certificado digital | associa identidade e dados de validação/chave pública |
-| autenticação | identifica eletronicamente o usuário |
-| assinatura digitalizada | imagem de rubrica; não é assinatura digital |
-| nato-digital | criado originalmente em meio eletrônico |
-| digitalizado | conversão de documento físico |
+**Eletrônica = gênero. Digitalizada ≠ digital. Certificado ≠ assinatura.**
 
-- Certificado não é assinatura.
-- Autenticação não assina automaticamente cada documento.
-- Digitalizar não é assinar.
-
-## Fluxo técnico
-
-1. Calcula-se o hash do documento.
-2. A chave privada produz a assinatura.
-3. A chave pública permite verificar.
-4. Conferem-se certificado, cadeia, validade, revogação e política.
+## Fluxo técnico mínimo
 
 | Elemento | Função |
-|---|---|
-| chave privada | assina; controle exclusivo do titular |
-| chave pública | verifica a relação criptográfica |
-| hash | detecta alteração do conteúdo |
-| certificado | vincula identidade e chave pública |
+| --- | --- |
+| chave privada | produz a assinatura |
+| chave pública | verifica a assinatura |
+| hash | ajuda a detectar alteração do conteúdo |
+| certificado | liga identidade à chave/dados de validação |
 
-- Hash não é reversível nem cifra o documento.
-- Alterar o documento depois de assinado invalida a verificação.
-- A chave pública não revela a privada.
+- privada **assina**; pública **verifica**;
+- hash ≠ cifra;
+- assinatura ≠ confidencialidade;
+- alterar o conteúdo após a assinatura deve comprometer a verificação de integridade.
 
-## Propriedades
+## Assinatura × cifragem
 
-- integridade;
-- autenticidade/autoria;
-- manifestação de vontade;
-- elementos de não repúdio.
+| Objetivo | Mecanismo principal |
+| --- | --- |
+| autoria + integridade | assinatura |
+| confidencialidade | cifragem/controle de acesso |
 
-**Não garante sozinha:** confidencialidade.
-
-- Assinatura: autoria + integridade.
-- Cifragem: sigilo/confidencialidade.
-- Não repúdio não impede apuração de fraude, coação ou chave comprometida.
+Assinar não torna o arquivo automaticamente secreto.
 
 ## ICP-Brasil
 
-Finalidade da MP nº 2.200-2/2001:
-
-- autenticidade;
-- integridade;
-- validade jurídica;
-- transações eletrônicas seguras.
-
 | Integrante | Função |
-|---|---|
-| Comitê Gestor | políticas, critérios, normas e credenciamento |
+| --- | --- |
+| Comitê Gestor | políticas, critérios e normas |
 | ITI | autarquia + AC Raiz |
-| AC Raiz | certifica AC subsequente; fiscaliza e audita |
+| AC Raiz | topo da cadeia; não emite ao usuário final |
 | AC | emite, distribui, revoga e gerencia certificados |
 | AR | identifica, cadastra e encaminha solicitações |
-| titular/responsável | guarda e controla a chave privada |
 
-Pegadinhas:
+**AR identifica; AC emite; ITI = raiz.**
 
-- AR **não emite** certificado.
-- AC Raiz **não emite** para usuário final.
-- ITI é AC Raiz; Comitê Gestor formula políticas.
-- AR pode identificar presencialmente ou por meio de segurança equivalente.
+## Validade jurídica — MP nº 2.200-2/2001
 
-## Certificados A1 e A3
+- ICP-Brasil → presunção legal específica em relação aos signatários.
+- Outros meios de autoria/integridade **podem** ser válidos quando admitidos/aceitos.
+- Se norma exigir **qualificada**, simples ou avançada não substituem ICP-Brasil.
 
-| Tipo | Armazenamento usual | Validade informada pelo ITI |
-|---|---|---|
-| A1 | computador/dispositivo móvel | 1 ano |
-| A3 | cartão, token ou nuvem/HSM | 1 a 5 anos |
+**Pegadinha:** “somente ICP-Brasil tem validade jurídica” = falso.
 
-- A3 não é necessariamente físico.
-- e-CPF/e-CNPJ são rótulos usuais; política e sistema definem o uso.
-- Em PJ, a PJ é titular e uma pessoa física responde pelo uso da chave.
+## Lei nº 14.063/2020
 
-## Estado e tempo
-
-| Elemento | Função |
-|---|---|
-| validade | período de uso do certificado para novas assinaturas |
-| revogação | cancelamento antes do término |
-| LCR | lista de certificados revogados |
-| OCSP | consulta de estado do certificado |
-| carimbo do tempo | prova de existência de dado em certo momento |
-
-- LCR/OCSP não assinam.
-- Carimbo do tempo não substitui o signatário.
-- Vencimento atual não torna automaticamente inválida toda assinatura passada.
-
-## Validade jurídica
-
-MP nº 2.200-2/2001, art. 10:
-
-1. documento eletrônico pode ser público ou particular;
-2. declaração com certificação ICP-Brasil presume-se verdadeira perante o signatário;
-3. outro meio de autoria/integridade pode ser aceito pelas partes ou destinatário.
-
-**Não diga:** somente ICP-Brasil tem validade.
-
-**Diga:** ICP-Brasil gera presunção legal específica e é obrigatória quando a norma exige qualificada.
-
-## Níveis da Lei nº 14.063/2020
-
-| Nível | Requisitos |
-|---|---|
+| Nível | Núcleo |
+| --- | --- |
 | simples | identifica + associa dados do signatário |
-| avançada | associação unívoca + controle com elevada confiança + alteração detectável; certificado não ICP ou outro meio admitido |
-| qualificada | certificado ICP-Brasil; maior confiabilidade |
+| avançada | associação unívoca + elevado controle + alteração detectável; não exige ICP-Brasil |
+| qualificada | certificado ICP-Brasil; maior confiança |
 
-- Simples e avançada podem ser válidas conforme ato e norma.
-- Deve existir revogação/cancelamento do meio de assinatura.
-- Nas interações públicas regidas pela lei, conflito normativo sobre o nível é resolvido pela qualificada.
+### Setor público
 
-## Uso com entes públicos
+- titular do Poder/órgão autônomo competente define nível mínimo, dentro da lei;
+- simples → menor impacto + sem sigilo;
+- avançada → maior garantia de autoria/integridade;
+- qualificada → admitida em qualquer interação pública, sem cadastro prévio;
+- conflito normativo no regime da lei → prevalece **qualificada**;
+- atos de chefes de Poder, Ministros de Estado e titulares de Poder/órgão autônomo estão entre as hipóteses de qualificada obrigatória.
 
-- Ato do titular do Poder/órgão autônomo define nível mínimo.
-- Simples: menor impacto + sem informação sigilosa.
-- Avançada: inclui casos da simples + maior garantia de autoria.
-- Qualificada: admitida em qualquer interação, sem cadastro prévio.
+## gov.br
 
-Qualificada obrigatória na Lei nº 14.063/2020:
+**Conta prata ou ouro → assinatura avançada.**
 
-- atos de chefes de Poder, Ministros de Estado e titulares de Poder/órgão autônomo;
-- NF-e, salvo PF e MEI;
-- transferência e registro de imóveis, com ressalva legal;
-- demais hipóteses legais;
-- receituário controlado e atestado médico eletrônico previstos em ato do Ministério da Saúde: qualificada por determinação legal;
-- exceção: o mínimo dos arts. 13 e 14 não se aplica a atos internos do ambiente hospitalar.
-
-Atas deliberativas privadas com assinatura qualificada devem ser aceitas pelo poder público.
-
-## Assinatura gov.br
-
-- Conta prata ou ouro.
-- Assinatura **avançada**.
-- Não é qualificada ICP-Brasil.
-- Não supre exigência de qualificada.
-- Pode ser conferida no VALIDAR.
+Não é qualificada ICP-Brasil e não substitui qualificada quando esta for obrigatória.
 
 ## Decreto nº 10.543/2020
 
-Âmbito: administração pública federal direta, autárquica e fundacional.
+**Âmbito:** administração pública federal direta, autárquica e fundacional.
 
-### Simples
+| Nível | Exemplos federais úteis |
+| --- | --- |
+| simples | agendamento, pesquisa, envio de documento + protocolo em baixo risco |
+| avançada | contrato, fiscalização, defesa e recurso administrativo |
+| qualificada | atos do Presidente/Ministros e hipóteses legais |
 
-- sem sigilo;
-- sem risco direto;
-- agendamento;
-- acesso a site oficial;
-- envio de documento + protocolo;
-- pesquisa pública;
-- requerimento de benefício pelo interessado.
+- autoridade pode **elevar** o nível se o risco justificar;
+- não pode reduzir exigência legal de qualificada;
+- classificação eletrônica não basta para recusar assinatura presencial.
 
-### Avançada
+## Processo administrativo
 
-- informação sigilosa;
-- propriedade/posse empresarial, marca ou patente;
-- contrato, convênio, acordo;
-- autocadastro em sistema de processo eletrônico;
-- decisão de benefício com gasto/renúncia;
-- declaração legal de fatos/obrigações;
-- fiscalização;
-- defesa e recurso administrativo.
+- sistema deve permitir verificar autoria e integridade;
+- **nem todo ato exige ICP-Brasil**;
+- nível depende do ato, risco e norma;
+- autenticação no sistema ≠ assinatura automática do documento;
+- nato-digital assinado conforme a norma pode ser original;
+- digitalizar papel ≠ assinar nem tornar automaticamente original.
 
-### Qualificada
+## Transição ICP-Brasil — regra vigente em 2026
 
-- aceita sempre;
-- imóvel;
-- ato do Presidente e de Ministro;
-- outra hipótese legal.
+A Resolução CG ICP-Brasil nº 211/2024 já está em vigor.
 
-- Autoridade máxima pode elevar o nível.
-- Nível mínimo não autoriza recusar assinatura presencial.
-- Agente público pode usar simples no processo, salvo hipótese de qualificada.
+- em 2026 coexistem certificados legados e novos perfis;
+- novos tipos começaram a ser emitidos em **1º/11/2024**;
+- transição dos legados vai até **2/3/2029**;
+- para PJ, o **Selo Eletrônico — SE** identifica origem/responsabilidade em documentos e processos automatizados;
+- **Selo Eletrônico não manifesta vontade** e não substitui assinatura de pessoa física para firmar contrato/acordo.
 
-## Processo administrativo eletrônico
+### Evite a decoreba antiga
 
-- Sistema deve verificar autoria e integridade.
-- Padrões seguem o Decreto nº 10.543/2020.
-- Nem todo ato exige ICP-Brasil.
-- Nato-digital corretamente assinado é original.
-- Digitalizado enviado pelo interessado: em regra, cópia simples no Decreto nº 8.539/2015.
-- Administração pode pedir original em hipótese legal ou de dúvida fundamentada.
-- Lei nº 14.129/2021 vincula nível à autenticidade, integridade, segurança e risco.
-- Reconhecimento de firma: salvo lei, apenas se houver dúvida de autenticidade.
+Não trate “A1 = software / A3 = token” como quadro eterno e completo. Esses rótulos seguem relevantes durante a transição, mas a ICP-Brasil já está migrando para novos perfis.
 
-## Equiparação do digitalizado ao original
+## Validação
 
-Decreto nº 10.278/2020, perante pessoa jurídica pública:
+Roteiro:
 
-1. assinatura digital ICP-Brasil;
-2. padrões técnicos do Anexo I;
-3. metadados do Anexo II.
+1. arquivo realmente assinado;
+2. identidade do signatário;
+3. integridade;
+4. certificado/cadeia, se houver;
+5. validade e revogação no momento relevante;
+6. nível suficiente para o ato.
 
-Não confunda:
+**VALIDAR/ITI** → confere conformidade técnica de assinaturas reconhecidas, inclusive avançadas gov.br e qualificadas ICP-Brasil.
 
-- simples envio e protocolo de cópia digitalizada;
-- equiparação jurídica da digitalização ao original.
-
-Entre particulares:
-
-- meio acordado/aceito pode comprovar autoria e integridade;
-- sem acordo prévio, aplica-se a regra mais rigorosa do decreto.
-
-Documento histórico não deve ser descartado.
-
-## Formatos
-
-| Formato | Uso típico |
-|---|---|
-| CAdES | CMS/PKCS#7; `.p7s` |
-| XAdES | XML |
-| PAdES | PDF |
-
-- Extensão não prova validade.
-- VALIDAR afere conformidade de assinaturas avançadas e qualificadas.
-- Validação técnica não decide sozinho capacidade, representação e validade do negócio.
-
-## Roteiro de validação
-
-1. Arquivo original assinado.
-2. Verificador confiável.
-3. Identidade e cadeia.
-4. Integridade.
-5. Validade e revogação.
-6. Política/formato/carimbo.
-7. Nível suficiente para o ato.
-8. Poderes de representação.
+Validação técnica ≠ decisão final sobre capacidade, representação ou vício de vontade.
 
 ## Pegadinhas-relâmpago
 
-- Eletrônica = gênero.
-- Qualificada = ICP-Brasil.
-- Digitalizada ≠ digital.
-- Privada assina; pública verifica.
-- Hash ≠ sigilo.
-- Certificado ≠ assinatura.
-- AR identifica; AC emite.
-- ITI = AC Raiz.
-- gov.br prata/ouro = avançada.
-- Processo administrativo ≠ qualificada obrigatória em tudo.
-- Envio de cópia ≠ equiparação ao original.
-- PAdES = PDF; XAdES = XML.
+- eletrônica = gênero;
+- qualificada = ICP-Brasil;
+- digitalizada ≠ digital;
+- privada assina; pública verifica;
+- hash ≠ sigilo;
+- certificado ≠ assinatura;
+- autenticação ≠ assinatura automática;
+- AR identifica; AC emite;
+- ITI = AC Raiz;
+- gov.br prata/ouro = avançada;
+- processo administrativo ≠ qualificada obrigatória em tudo;
+- Decreto nº 10.543/2020 ≠ regra automática para qualquer ente;
+- Selo Eletrônico PJ ≠ manifestação de vontade;
+- 2026 = período de transição da ICP-Brasil.
