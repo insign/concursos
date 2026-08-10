@@ -1,142 +1,134 @@
 # Lógica de argumentação
 
-## Estrutura
+## Recorte
 
-- **Argumento:** premissas oferecem apoio a uma conclusão.
-- **Argumentação:** prática de apresentar, examinar e trocar razões.
-- **Inferência:** passagem das premissas à conclusão.
-- **Raciocínio:** processo de examinar informações e concluir.
+**Aqui:** premissas, conclusões, pressupostos, validade, solidez, dedução, indução, analogia, força da conclusão e padrões condicionais usados para avaliar argumentos.
 
-> Pergunta-chave: qual afirmação o autor quer que eu aceite e quais razões oferece para isso?
+**Depois:** proposições, tabelas-verdade, equivalências, De Morgan, diagramas, primeira ordem, contagem, probabilidade e conjuntos.
 
-## Nem todo texto argumenta
+## Estrutura mínima
 
-- **Relato:** apenas informa eventos.
-- **Explicação:** aceita um fato e mostra por que ocorreu.
-- **Opinião isolada:** apresenta posição sem razão.
-- **Argumento:** oferece razão para aceitar uma tese.
-- A função depende do contexto, não só de palavras como “porque”.
+- **premissa:** razão oferecida;
+- **conclusão:** tese sustentada;
+- **inferência:** passagem da premissa à conclusão;
+- **pressuposto:** ponte não expressa da qual a passagem depende.
 
-## Indicadores
+> Pergunta-chave: **o que o autor quer que eu aceite e por quê?**
 
-| Conclusão | Premissa |
+## Argumento × outros textos
+
+| Texto | Função |
 |---|---|
-| portanto | porque |
-| logo | pois |
-| assim | já que |
-| por isso | visto que |
-| consequentemente | dado que |
-| daí se conclui | considerando que |
+| argumento | razões sustentam uma conclusão |
+| relato | informa fatos |
+| explicação | mostra por que fato aceito ocorreu |
+| opinião isolada | afirma posição sem razão |
 
-- Indicadores são pistas, não regras absolutas.
-- A conclusão pode aparecer no início, meio ou fim.
-- “Então” pode ser temporal; “pois” pode vir depois da conclusão.
+Indicadores são pistas, não comandos automáticos:
 
-## Organização das razões
+- conclusão: `portanto`, `logo`, `assim`, `por isso`;
+- premissa: `porque`, `pois`, `já que`, `visto que`.
 
-- **Premissas independentes:** cada uma oferece apoio próprio.
-- **Premissas ligadas:** só apoiam a conclusão em conjunto.
-- **Conclusão intermediária:** conclusão de um passo e premissa do seguinte.
-- **Pressuposto:** ponte não declarada de que o argumento depende.
+## Premissas
 
-### Pressuposto
+- **ligadas:** só funcionam em conjunto;
+- **independentes:** cada uma oferece algum apoio;
+- **conclusão intermediária:** conclusão de um passo + premissa do seguinte.
 
-Pergunte: “o que precisa ser aceito para a passagem funcionar?”
+## Pressuposto
 
-Teste: negar o candidato destrói ou enfraquece fortemente o apoio?
+Teste rápido:
 
-## Verdade, validade e solidez
+1. identifique premissas e conclusão;
+2. pergunte qual ponte falta;
+3. negue a ponte candidata;
+4. se o apoio desaba, ela pode ser necessária.
 
-| Conceito | Aplica-se a | Critério |
-|---|---|---|
-| verdade/falsidade | afirmações | correspondência factual no contexto |
-| validade/invalidade | argumento dedutivo | impossibilidade de premissas verdadeiras e conclusão falsa |
-| solidez | argumento dedutivo | validade + todas as premissas verdadeiras |
+Não invente premissa só para salvar o argumento.
 
-- Argumento válido pode conter premissas falsas.
-- Conclusão verdadeira pode vir de argumento inválido.
-- Premissa falsa não prova invalidade.
-- Todo argumento sólido tem conclusão verdadeira.
-- “Correto” é ambíguo; prefira o termo técnico exato.
+## Verdade × validade × solidez
+
+| Conceito | Teste |
+|---|---|
+| verdade | conteúdo da afirmação |
+| validade | premissas verdadeiras podem coexistir com conclusão falsa? |
+| solidez | válido + todas as premissas verdadeiras |
+
+### Decore
+
+- premissa falsa **não** prova invalidade;
+- conclusão verdadeira **não** prova validade;
+- válido **não** significa sólido;
+- sólido → conclusão verdadeira.
 
 ## Contraexemplo
 
-- Cenário com premissas verdadeiras e conclusão falsa.
-- Um único contraexemplo possível derruba validade dedutiva.
-- Não precisa ter ocorrido de fato; precisa ser coerente.
-- Um caso sem a conclusão não basta se alguma premissa também falhar.
+Para derrubar validade dedutiva, construa:
+
+```text
+todas as premissas = verdadeiras
+conclusão = falsa
+```
+
+Um cenário coerente basta.
 
 ## Força da conclusão
 
-- **Necessária:** não pode ser falsa se as premissas forem verdadeiras.
-- **Provável:** recebe apoio relevante, mas pode falhar.
-- **Possível:** é compatível, sem ser necessariamente bem apoiada.
+| Grau | Significado |
+|---|---|
+| necessária | não pode falhar dadas as premissas |
+| provável | tem apoio, mas pode falhar |
+| possível | não foi excluída |
 
-> Possível ≠ provável ≠ necessário.
+`possível ≠ provável ≠ necessário`
 
-- “Sempre”, “todos”, “necessariamente”: exigem apoio forte.
-- “Provavelmente”, “sugere”, “é compatível”: conclusão cautelosa.
+Palavras universais (`sempre`, `todos`, `necessariamente`, `sem exceção`) exigem apoio mais forte.
 
-## Tipos de inferência
+## Dedução × indução × analogia
 
-| Tipo | Pretensão | Teste principal |
+| Tipo | Pretensão | Como testar |
 |---|---|---|
-| dedução | garantia | contraexemplo com premissas verdadeiras e conclusão falsa |
-| indução | generalização/previsão provável | amostra, representatividade, exceções e contexto |
-| abdução | melhor explicação disponível | hipóteses rivais, cobertura e evidência independente |
-| analogia | transferência por semelhança | relevância das semelhanças e diferenças decisivas |
+| dedução | garantia | procure contraexemplo |
+| indução | probabilidade | examine base, representatividade e alcance |
+| analogia | transferência por semelhança | procure diferenças relevantes |
 
-## Dedução
+### Dedução
 
-- conclusão inevitável relativamente às premissas;
-- validade não depende da verdade factual das premissas;
-- premissas verdadeiras + forma válida → conclusão verdadeira;
-- exemplo favorável não substitui teste de contraexemplo.
+Premissas verdadeiras + forma válida → conclusão verdadeira.
 
-## Indução
+### Indução
 
-- vai do observado ao não observado;
-- pode generalizar ou prever;
-- premissas verdadeiras não garantem conclusão;
-- força cresce com amostra adequada, representativa e bem medida;
-- viés de seleção, amostra pequena e mudança de contexto enfraquecem.
+Fortalece com:
 
-## Abdução
+- base suficiente;
+- amostra representativa;
+- diversidade;
+- conclusão proporcional.
 
-- inferência para a melhor explicação;
-- conclusão provisória e revisável;
-- compare cobertura dos fatos, suposições, alternativas e testabilidade;
-- explicação mais atraente não é automaticamente verdadeira;
-- observar efeito não prova uma causa única.
+Enfraquece com:
 
-## Analogia
+- poucos casos;
+- seleção enviesada;
+- universalização;
+- exceções ignoradas.
 
-- **Fonte:** caso conhecido.
-- **Alvo:** caso que receberá a característica.
-- **Q:** característica transferida.
+### Analogia
 
-Checklist:
+Pergunte:
 
-1. semelhança relevante para Q?
-2. diferença capaz de romper a transferência?
-3. Q está comprovada na fonte?
-4. outros casos confirmam ou enfraquecem?
-5. conclusão usa grau de certeza proporcional?
+1. semelhança é relevante?
+2. diferença pode romper a transferência?
+3. conclusão é modesta?
 
-> Muitas semelhanças superficiais não compensam uma diferença decisiva.
+Uma diferença decisiva pode vencer várias semelhanças superficiais.
 
-## Inferência imediata e mediata
+## Condicionais
 
-- **Imediata:** uma premissa expressa.
-- **Mediata:** duas ou mais premissas articuladas.
-- Imediata não significa válida.
-- Mediata não significa dedutiva.
-
-## Condicionais em linguagem natural
+Considere `Se A, então B`.
 
 ### Válidos
 
-**Afirmação da condição — modus ponens**
+**Afirma A → conclui B**
 
 ```text
 Se A, então B.
@@ -144,7 +136,7 @@ A.
 Logo, B.
 ```
 
-**Negação da consequência — modus tollens**
+**Nega B → conclui não A**
 
 ```text
 Se A, então B.
@@ -154,101 +146,66 @@ Logo, não A.
 
 ### Inválidos
 
-**Afirmação da consequência**
+**Afirma B → conclui A**
 
 ```text
 Se A, então B.
 B.
-Logo, A.  ← B pode ter outra causa
+Logo, A.  ← B pode ter outra origem
 ```
 
-**Negação da condição**
+**Nega A → conclui não B**
 
 ```text
 Se A, então B.
 Não A.
-Logo, não B.  ← B pode ocorrer por outra causa
+Logo, não B.  ← B pode ocorrer por outro caminho
 ```
 
-## Evidências
+## Relevância × suficiência
 
-- **Relevância:** diz respeito à conclusão?
-- **Suficiência:** sustenta a amplitude e a certeza alegadas?
-- **Confiabilidade:** fonte competente, método, independência, atualidade e confirmação?
-- **Alternativas:** existe causa ou hipótese rival?
-- **Generalização:** casos suficientes e representativos?
+- **relevante:** a razão tem relação com a conclusão;
+- **suficiente:** a base sustenta a força e a extensão da conclusão.
 
-Correlação não demonstra causalidade sozinha:
+Exemplos:
 
-- pode haver coincidência;
-- causalidade inversa;
-- causa comum;
-- variável omitida.
+- “é popular → é legal”: falta relevância;
+- “2 reclamações → todos rejeitam”: falta suficiência.
 
-## Falácias informais
+## Método em 6 passos
 
-| Falácia | Erro central |
-|---|---|
-| equívoco | muda o sentido do termo |
-| petição de princípio | pressupõe ou repete a conclusão |
-| circularidade | afirmações sustentam-se apenas entre si |
-| espantalho | distorce a tese atacada |
-| ad hominem | ataca a pessoa em vez da razão |
-| autoridade indevida | prestígio não pertinente substitui evidência |
-| apelo à popularidade | muitos acreditam, logo é verdadeiro/correto |
-| apelo à ignorância | ausência de prova vira prova |
-| generalização apressada | amostra insuficiente vira regra ampla |
-| falsa causa | sucessão/correlação vira causalidade |
-| falsa analogia | semelhança irrelevante transfere atributo |
-| falso dilema | alternativas não exaustivas são tratadas como únicas |
-| ladeira escorregadia | cadeia não demonstrada vira inevitável |
-| composição | parte → todo indevidamente |
-| divisão | todo → cada parte indevidamente |
-| conclusão irrelevante | prova algo diferente da tese |
-
-## Contexto importa
-
-- Recorrer a especialista pertinente não é automaticamente falácia.
-- Conflito de interesse pode afetar confiabilidade, mas não refuta sozinho a tese.
-- Apelo emocional pode ser pertinente a decisão prática, mas não prova fato.
-- Cadeia de consequências bem sustentada não é ladeira escorregadia.
-- Primeiro explique a falha; depois use o rótulo.
-
-## Método de prova
-
-1. localize a conclusão;
-2. liste premissas;
-3. explicite pressupostos e conclusões intermediárias;
-4. classifique a pretensão: necessária, provável, explicativa ou analógica;
-5. aplique o teste adequado;
-6. avalie relevância, suficiência e fonte;
-7. procure alternativas e contraexemplos;
-8. identifique a falha sem depender apenas do nome da falácia.
+1. ache a conclusão;
+2. liste as premissas;
+3. procure pressuposto ou conclusão intermediária;
+4. classifique a força: necessária, provável ou possível;
+5. escolha o teste: contraexemplo, base indutiva ou diferença analógica;
+6. confira relevância e suficiência.
 
 ## Pegadinhas
 
 - conclusão verdadeira ≠ argumento válido;
-- premissa falsa ≠ forma inválida;
+- premissa falsa ≠ argumento inválido;
 - válido ≠ sólido;
-- possível ≠ provável;
 - exemplo favorável ≠ necessidade;
-- depois disso ≠ por causa disso;
-- correlação ≠ causalidade;
-- maioria ≠ verdade;
-- prestígio ≠ competência pertinente;
-- explicação atual ≠ causa necessária;
-- duas opções mencionadas ≠ dilema exaustivo;
-- rótulo de falácia ≠ análise concluída.
+- possível ≠ provável;
+- provável ≠ necessário;
+- sucessão temporal ≠ causalidade necessária;
+- semelhança superficial ≠ analogia forte;
+- um caso ≠ regra universal;
+- `A → B` + `B` não prova `A`;
+- `A → B` + `não A` não prova `não B`;
+- marcador como “logo” não substitui análise do contexto;
+- pressuposto não pode ser inventado livremente.
 
-## Checklist final
+## Checklist
 
-- [ ] Qual é a conclusão exata?
-- [ ] Quais premissas realmente a sustentam?
-- [ ] Há pressuposto omitido?
-- [ ] O texto argumenta ou apenas relata/explica?
+- [ ] Qual é a conclusão?
+- [ ] Quais são as premissas?
+- [ ] Há pressuposto?
+- [ ] Há conclusão intermediária?
+- [ ] É dedução, indução ou analogia?
 - [ ] A conclusão é necessária, provável ou possível?
 - [ ] Existe contraexemplo?
-- [ ] Amostra e analogia são relevantes?
-- [ ] Há explicação rival?
-- [ ] A evidência é suficiente e confiável?
-- [ ] O erro apontado afeta realmente a conclusão?
+- [ ] A base indutiva é suficiente?
+- [ ] Há diferença relevante na analogia?
+- [ ] A razão é relevante para a tese?
