@@ -1,263 +1,231 @@
 # Princípios de contagem e probabilidade
 
-## Diagnóstico rápido
+## Matriz de decisão
 
-1. O problema oferece alternativas ou etapas?
-2. A ordem altera o resultado?
-3. Todos os objetos são usados?
-4. Há repetição ou objetos indistinguíveis?
-5. Rotações são equivalentes?
-6. Existe restrição de posição, adjacência ou composição?
-
-## Princípios básicos
-
-| Situação | Operação |
+| Pergunta | Se sim |
 |---|---|
-| alternativas mutuamente excludentes | somar |
-| etapas sucessivas | multiplicar |
-| categorias sobrepostas | inclusão-exclusão |
-| “pelo menos um” | tentar complemento |
+| alternativas mutuamente excludentes? | somar |
+| etapas sucessivas? | multiplicar |
+| usa todos os objetos distintos e ordem importa? | permutação |
+| escolhe parte e ordem importa? | arranjo |
+| escolhe parte e ordem não importa? | combinação |
+| há cópias indistinguíveis? | dividir pelos fatoriais das repetições |
+| repetição permitida e ordem não importa? | combinação com repetição |
+| rotações são equivalentes? | permutação circular |
 
-## Fatorial
-
-$$
-n!=n(n-1)\cdots2\cdot1,
-\qquad 0!=1.
-$$
-
-## Modelos de contagem
-
-| Modelo | Fórmula | Critério |
-|---|---|---|
-| permutação simples | $P_n=n!$ | usa todos; ordem importa |
-| arranjo simples | $A_{n,p}=\dfrac{n!}{(n-p)!}$ | escolhe $p$; ordem importa |
-| combinação simples | $\binom np=\dfrac{n!}{p!(n-p)!}$ | escolhe $p$; ordem não importa |
-| permutação com repetição | $\dfrac{n!}{a_1!\cdots a_r!}$ | cópias indistinguíveis |
-| permutação circular | $(n-1)!$ | rotações equivalentes |
-| combinação com repetição | $\binom{n+p-1}{p}$ | ordem não importa; repetição permitida |
-
-Relação:
+## Fórmulas de contagem
 
 $$
-A_{n,p}=\binom np p!.
+n!,\qquad 0!=1
+$$
+
+$$
+P_n=n!
+$$
+
+$$
+A_{n,p}=\frac{n!}{(n-p)!}
+$$
+
+$$
+C_{n,p}=\binom np=\frac{n!}{p!(n-p)!}
+$$
+
+$$
+A_{n,p}=C_{n,p}\,p!
+$$
+
+Permutação com repetição:
+
+$$
+\frac{n!}{a_1!\cdots a_r!}
+$$
+
+Circular:
+
+$$
+(n-1)!
+$$
+
+Combinação com repetição:
+
+$$
+\binom{n+p-1}{p}
 $$
 
 ## Restrições
 
-- **Juntos:** forme um bloco e conte sua ordem interna.
-- **Separados:** ordene os demais e use lacunas distintas.
+- **Juntos:** forme um bloco; conte a ordem interna se ela puder variar.
+- **Separados:** use lacunas ou total menos adjacentes.
 - **Posição fixa:** retire objeto e posição antes de permutar.
-- **Primeiro algarismo:** zero não pode iniciar número.
-- **Letras repetidas:** divida pelos fatoriais das multiplicidades.
-- **Círculo:** fixe uma pessoa; não identifique reflexões salvo indicação.
+- **Número:** zero não inicia numeral.
+- **Repetidos:** trocas de cópias iguais não criam novo resultado.
+- **Círculo:** rotações coincidem; reflexão só coincide se o enunciado disser.
 
-## Complemento
+## Complemento e inclusão-exclusão
 
-$$
-N(\text{desejado})=N(\text{total})-N(\text{indesejado}).
-$$
-
-Exemplo, pelo menos um 6 em quatro dados:
+Contagem:
 
 $$
-6^4-5^4=671.
+N(\text{desejado})
+=N(\text{total})-N(\text{indesejado})
 $$
 
-## Inclusão-exclusão
-
-Dois grupos:
+Dois conjuntos:
 
 $$
-|A\cup B|=|A|+|B|-|A\cap B|.
+|A\cup B|=|A|+|B|-|A\cap B|
 $$
 
-Três grupos:
+Três:
 
 $$
 |A\cup B\cup C|
-=\sum|A|-\sum|A\cap B|+|A\cap B\cap C|.
+=\sum|A|-\sum|A\cap B|+|A\cap B\cap C|
 $$
 
-Interseção inclusiva contém quem está nos três grupos. Para obter “somente dois”, retire a interseção tripla.
+> “Pelo menos um” → pense primeiro em **nenhum**.
 
-## Casas dos pombos
+## Casa dos pombos
 
 $$
 N\text{ objetos em }r\text{ caixas}
 \Rightarrow
 \text{alguma caixa tem ao menos }
-\left\lceil\frac Nr\right\rceil.
+\left\lceil\frac Nr\right\rceil
 $$
 
-## Vocabulário probabilístico
+## Probabilidade básica
 
-| Conceito | Ideia |
-|---|---|
-| experimento aleatório | resultado particular não conhecido previamente |
-| espaço amostral $\Omega$ | resultados elementares possíveis |
-| evento $A$ | subconjunto de $\Omega$ |
-| equiprobabilidade | resultados elementares com a mesma probabilidade |
-
-Em espaço finito equiprovável:
+Em espaço finito **equiprovável**:
 
 $$
-P(A)=\frac{|A|}{|\Omega|}.
+P(A)=\frac{|A|}{|\Omega|}
 $$
 
-## Propriedades
-
 $$
-0\le P(A)\le1,
-\qquad P(\Omega)=1,
-\qquad P(\varnothing)=0.
+0\le P(A)\le1
 $$
 
-Complemento:
-
 $$
-P(A^c)=1-P(A).
+P(A^c)=1-P(A)
 $$
 
-União:
+$$
+P(A\cup B)
+=P(A)+P(B)-P(A\cap B)
+$$
+
+Se mutuamente exclusivos:
 
 $$
-P(A\cup B)=P(A)+P(B)-P(A\cap B).
+P(A\cap B)=0
 $$
 
-Se $A$ e $B$ são mutuamente exclusivos:
+## Condicional × independência
+
+Condicional:
 
 $$
-P(A\cap B)=0.
+P(A\mid B)=\frac{P(A\cap B)}{P(B)},
+\qquad P(B)>0
+$$
+
+Produto:
+
+$$
+P(A\cap B)=P(A\mid B)P(B)
+$$
+
+Independência:
+
+$$
+P(A\cap B)=P(A)P(B)
+$$
+
+Quando definida:
+
+$$
+P(A\mid B)=P(A)
+$$
+
+> **Não confunda exclusão mútua com independência.** Eventos positivos mutuamente exclusivos são dependentes.
+
+## Reposição
+
+Sem reposição: composição e denominador normalmente mudam.
+
+Com reposição: composição é restaurada.
+
+Exemplo, urna com 3 vermelhas e 2 azuis:
+
+$$
+P(VV\text{ sem reposição})
+=\frac35\frac24=\frac3{10}
+$$
+
+$$
+P(VV\text{ com reposição})
+=\frac35\frac35=\frac9{25}
 $$
 
 ## Pelo menos um sucesso
 
-Para $n$ tentativas independentes, com probabilidade $p$ de sucesso em cada uma:
+Se as $n$ tentativas são independentes e cada uma tem sucesso com probabilidade $p$:
 
 $$
-P(\text{ao menos um})=1-(1-p)^n.
+P(\ge1\text{ sucesso})
+=1-(1-p)^n
 $$
 
-## Condicional
+## Probabilidade total e Bayes
+
+Se $B_1,\ldots,B_k$ formam partição:
 
 $$
-P(A\mid B)=\frac{P(A\cap B)}{P(B)},
-\qquad P(B)>0.
+P(A)=\sum_iP(A\mid B_i)P(B_i)
 $$
 
-Condicionar muda o universo de referência para $B$.
-
-## Regra do produto
-
-Com $P(B)>0$:
+Bayes:
 
 $$
-P(A\cap B)=P(A\mid B)P(B).
+P(B_j\mid A)
+=
+\frac{P(A\mid B_j)P(B_j)}
+{\sum_iP(A\mid B_i)P(B_i)}
 $$
 
-Somente com independência:
+> Taxa-base importa. Em geral, $P(A\mid B)\ne P(B\mid A)$.
 
-$$
-P(A\cap B)=P(A)P(B).
-$$
+## Modelos rápidos
 
-## Independência
-
-Equivalências, quando as condicionais estão definidas:
-
-$$
-P(A\cap B)=P(A)P(B),
-$$
-
-$$
-P(A\mid B)=P(A),
-\qquad
-P(B\mid A)=P(B).
-$$
-
-- Eventos positivos e mutuamente exclusivos não são independentes.
-- Se $A$ e $B$ são independentes, seus complementos também preservam independência.
-
-## Reposição
-
-Urna com 3 vermelhas e 2 azuis; duas vermelhas:
-
-Sem reposição:
-
-$$
-\frac35\cdot\frac24=\frac3{10}.
-$$
-
-Com reposição:
-
-$$
-\frac35\cdot\frac35=\frac9{25}.
-$$
-
-## Probabilidade total
-
-Se $B_1,\ldots,B_k$ formam partição e $P(B_i)>0$:
-
-$$
-P(A)=\sum_iP(A\mid B_i)P(B_i).
-$$
-
-## Bayes
-
-Com $P(A)>0$:
-
-$$
-P(B_j\mid A)=
-\frac{P(A\mid B_j)P(B_j)}{\sum_iP(A\mid B_i)P(B_i)}.
-$$
-
-Não descarte as taxas-base $P(B_j)$ e não inverta condicionais diretamente.
-
-## Modelos clássicos
-
-- $n$ moedas honestas: $2^n$ sequências equiprováveis.
-- Dois dados distinguíveis: 36 duplas ordenadas.
-- Exatamente $k$ sucessos em $n$ posições: escolha posições com $\binom nk$.
-- Senhas: conte posição por posição e verifique repetição.
-- Urnas/cartas: identifique ordem e reposição.
-
-## Valores oficiais BNB 2018
-
-Tabuleiro com 144 quadrados: 54 azuis, 30 marrons, 40 amarelos e 20 verdes.
-
-$$
-P(\text{azul})=\frac38,
-\quad
-P(\text{não marrom})=\frac{19}{24},
-\quad
-P(\text{amarelo ou verde})=\frac5{12}.
-$$
-
-Fila com 10 animais distintos:
-
-- dois animais determinados em posições fixas: $8!$;
-- três determinados nas primeiras posições, qualquer ordem: $3!\cdot7!$;
-- três juntos em ordem interna fixa: $8!$.
+- $n$ moedas honestas → $2^n$ sequências equiprováveis.
+- dois dados distinguíveis → 36 duplas ordenadas.
+- exatamente $k$ posições especiais em $n$ → $\binom nk$.
+- senha/código → conte posição por posição.
+- urna/cartas → verifique ordem e reposição.
 
 ## Pegadinhas
 
-- Comissão não é pódio.
-- Repetição permitida não é reposição implícita; leia o enunciado.
-- “Pelo menos um” tem complemento “nenhum”.
-- “Ou” é inclusivo, salvo exclusividade expressa.
-- Somar eventos sobrepostos exige retirar a interseção.
-- Multiplicar marginais exige independência.
-- Sem reposição, o denominador muda.
-- $P(A\mid B)$ não é $P(B\mid A)$.
+- Comissão ≠ pódio.
+- Alternativas somam; etapas multiplicam.
+- Repetição não é automática.
+- “Pelo menos um” → complemento “nenhum”.
 - Somas de dois dados não são equiprováveis.
-- Rotação e reflexão são equivalências diferentes.
+- Zero não pode ocupar o primeiro algarismo.
+- União sobreposta exige subtrair a interseção.
+- Multiplicar $P(A)P(B)$ exige independência.
+- Sem reposição, a segunda probabilidade muda.
+- $P(A\mid B)$ ≠ $P(B\mid A)$.
+- Rotação ≠ reflexão.
 
-## Checklist final
+## Checklist
 
-1. Defini um resultado elementar?
-2. Verifiquei ordem e repetição?
-3. Tratei restrições antes da fórmula?
-4. Os casos contados são equiprováveis?
-5. Traduzi “não”, “ou”, “e” e “sabendo que” corretamente?
-6. Usei condicional quando há dependência?
-7. O valor probabilístico ficou entre 0 e 1?
+1. O que conta como resultado diferente?
+2. A ordem importa?
+3. Há repetição ou objetos iguais?
+4. Existem restrições de posição ou adjacência?
+5. Os resultados elementares são equiprováveis?
+6. Há informação condicionante?
+7. Há reposição?
+8. O resultado probabilístico ficou entre 0 e 1?
