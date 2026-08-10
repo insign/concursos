@@ -1,262 +1,161 @@
 # Estruturas lógicas
 
-## Modelo central
-
-- **Entidades:** pessoas, objetos, lugares, datas ou eventos.
-- **Variáveis:** elementos cujo valor precisa ser determinado.
-- **Domínio:** valores que cada variável ainda pode assumir.
-- **Restrição:** condição que elimina combinações.
-- **Solução:** atribuição completa que satisfaz todas as restrições.
-
-> Não acrescente fatos “naturais” ao cenário. Use somente as condições dadas e suas consequências.
-
 ## Recorte
 
-- Aqui: ordenação, associação, distribuição, agrupamento, sequências, calendários, horários, hierarquias, parentesco e verdade/mentira como restrição.
-- Depois: argumentação, proposições, tabelas-verdade, equivalências, primeira ordem, contagem, probabilidade e conjuntos.
+**Aqui:** relações finitas entre pessoas, lugares, objetos ou eventos; ordenação; associação; distribuição; agrupamento; hierarquia/parentesco; dedução de configurações possíveis, necessárias ou impossíveis.
 
-## Tradução rápida
+**Em outros assuntos:** argumentação formal, proposições e tabelas-verdade, equivalências, primeira ordem, contagem/probabilidade, conjuntos e problemas aritméticos, geométricos e matriciais.
 
-| Linguagem | Restrição |
+> Não crie regra por “bom senso”. Vale o que foi dado e o que decorre logicamente.
+
+## Tradução de prova
+
+| Linguagem | Leitura |
 |---|---|
-| A antes de B | `pos(A) < pos(B)` |
-| A imediatamente antes de B | `pos(B) = pos(A) + 1` |
-| A ao lado de B | posições consecutivas; duas orientações possíveis |
-| A junto de B | mesmo grupo |
-| A separado de B | grupos diferentes |
-| se A, então B | A força B; não vale automaticamente o inverso |
-| A somente se B | B é necessário para A |
-| exatamente um | um e somente um |
-| pelo menos um | um ou mais |
-| no máximo um | zero ou um |
-| A ou B, mas não ambos | exatamente um entre A e B |
+| A antes de B | `A < B`; pode haver intervalo |
+| A imediatamente antes de B | bloco `[A B]` |
+| A ao lado de B | `[A B]` ou `[B A]` |
+| A com B | mesmo grupo |
+| A sem B | grupos diferentes |
+| se A, então B | A força B |
+| A somente se B | A exige B |
+| somente A pode fazer X | se X ocorrer, será A |
+| exatamente um | 1 |
+| pelo menos um | ≥ 1 |
+| no máximo um | 0 ou 1 |
+| A ou B, mas não ambos | exatamente um dos dois |
 
 ### Não confunda
 
 - antes ≠ imediatamente antes;
-- ao lado não define a orientação;
-- pelo menos ≠ exatamente;
-- no máximo dois inclui zero e um;
-- implicação ≠ equivalência;
-- condição necessária ≠ condição suficiente;
-- eliminação de uma opção ≠ determinação imediata do valor.
-
-## Tipos de restrição
-
-- **Unária:** uma variável; “A não está em 1º”.
-- **Binária:** duas variáveis; “A antes de B”.
-- **Global:** várias variáveis; “todas as posições são distintas”.
-- **Igualdade:** mesmo dia, grupo ou valor.
-- **Diferença:** valores distintos.
-- **Precedência:** ordem relativa.
-- **Adjacência:** posições consecutivas.
-- **Implicação:** A ativa B.
-- **Incompatibilidade:** A e B não coexistem.
-- **Cardinalidade:** mínimo, máximo ou quantidade exata.
+- ao lado não fixa orientação;
+- `A → B` não autoriza `B → A`;
+- “A somente se B” = B é necessário para A;
+- “somente A pode” não afirma que o evento ocorrerá;
+- exclusão de uma opção ≠ atribuição imediata.
 
 ## Representação
 
-| Estrutura | Representação preferida |
+| Estrutura | Ferramenta |
 |---|---|
-| fila, ranking, agenda | linha de posições |
-| pessoa × setor × dia | tabela ou grade de associação |
-| equipes, salas, recipientes | caixas com capacidade |
-| chefia, dependência, precedência | grafo com direção definida |
-| poucas alternativas | lista explícita de casos |
+| fila / ranking / ordem | posições numeradas |
+| pessoa × setor × dia | grade |
+| equipes / salas / grupos | caixas |
+| chefia / dependência | setas com direção |
+| poucas alternativas | casos separados |
 
-### Linha de posições
+## Ordem e blocos
 
 ```text
 posição:  1   2   3   4   5
 ocupante: _   _   _   _   _
 ```
 
-- Adjacência orientada: `[A B]`.
-- Adjacência sem direção: `[A B]` ou `[B A]`.
-- Cadeia: `A < B < C`.
-- Verifique se bloco ou cadeia cabe no espaço restante.
+- `A < B < C`: precedência transitiva;
+- `[A B]`: adjacência orientada;
+- A ao lado de B: teste `[A B]` e `[B A]`;
+- fixe extremos primeiro;
+- confira se cadeia/bloco cabe no espaço restante;
+- adjacência **não** é transitiva.
 
-### Grade de associação
+## Associação um a um
 
-- `✓`: associação confirmada.
-- `×`: associação impossível.
-- Relação um a um: cada `✓` elimina as demais células da linha e da coluna.
-- Pista entre categorias deve ser transportada quando uma delas for identificada.
+Ao confirmar `Lia = TI`:
 
-### Caixas
+1. elimine outros setores de Lia;
+2. elimine TI das outras pessoas;
+3. transporte pistas compostas ligadas a TI;
+4. procure linha ou coluna com uma única possibilidade.
 
-- anote capacidade, mínimo e máximo;
-- caixa cheia elimina novos elementos;
-- combine vagas restantes com incompatibilidades;
-- controle quantidades globais depois de cada atribuição.
+**Valor em único lugar:** se todos os valores devem ser usados e Jurídico só cabe em Rui → `Rui = Jurídico`.
 
-## Método em 7 passos
+## Distribuição e agrupamento
 
-1. **Comando:** pode, deve, não pode, configuração ou quantidade?
-2. **Elementos:** liste categorias, domínios, vagas e capacidades.
-3. **Regras fortes:** fixe posições, blocos, quantidades e exclusões amplas.
-4. **Propagação:** risque incompatíveis e atualize vagas e domínios.
-5. **Casos:** abra poucos ramos apenas se a dedução parar.
-6. **Validação:** releia e confira cada condição.
-7. **Prova adequada:** exemplo, universalidade ou contradição.
+Antes de distribuir, anote:
+
+- capacidade;
+- mínimo/máximo;
+- pares obrigatórios;
+- incompatibilidades;
+- condicionais.
+
+Regras rápidas:
+
+- caixa cheia → destino fechado;
+- mínimo ainda não atingido → reserve vagas suficientes;
+- “A com C” em duplas → núcleo `{A,C}`;
+- “se D entra, E entra” não implica o inverso;
+- se grupos forem meros rótulos idênticos, trocar seus nomes pode não gerar solução substantivamente nova.
 
 ## Propagação
 
-- domínio com um valor → atribuição forçada;
-- se todo valor deve ser usado, valor possível em um único lugar → lugar forçado;
-- par confinado a duas posições → outros não usam essas posições;
-- capacidade atingida → destino fechado;
-- mínimo ainda necessário → reserve vagas suficientes;
-- implicação ativada → aplique sua consequência;
-- nova atribuição → percorra novamente todas as relações afetadas.
+Depois de cada descoberta:
 
-## Contradições
+- risque incompatíveis;
+- feche capacidade atingida;
+- aplique exclusividade;
+- reaplique condicionais ativadas;
+- procure única possibilidade restante;
+- confira valores que só cabem em um lugar.
 
-Descarte o caso quando:
+## Contradição
 
-- uma variável fica sem valor;
-- uma vaga exclusiva recebe dois elementos;
-- a capacidade é excedida;
-- um mínimo se torna inalcançável;
-- uma quantidade exata é ultrapassada;
-- surge ciclo de precedência, como `A < B < C < A`;
-- alguma condição original é violada.
+Descarte o ramo se:
 
-## Tipo de pergunta
+- elemento fica sem opção;
+- vaga exclusiva recebe dois elementos;
+- capacidade é excedida;
+- mínimo torna-se impossível;
+- quantidade exata é ultrapassada;
+- surge ciclo como `A < B < C < A`;
+- qualquer regra original é violada.
 
-### Pode ser
+## Pode × deve × não pode
 
-- basta uma configuração completa válida;
-- a alternativa funciona como hipótese de construção;
-- um exemplo é prova de existência.
+| Comando | Prova suficiente |
+|---|---|
+| **pode ser** | uma configuração completa válida |
+| **deve ser** | vale em todas; tente contraexemplo |
+| **não pode ser** | hipótese leva sempre a contradição |
+| **solução única** | demais configurações foram eliminadas |
 
-### Deve ser
+**Pegadinha:** uma solução encontrada prova existência, não unicidade.
 
-- precisa valer em todas as soluções;
-- procure contraexemplo;
-- um caso favorável não prova necessidade.
+## Relações direcionais
 
-### Não pode ser
-
-- assuma a alternativa;
-- propague as regras;
-- elimine-a somente se todos os ramos levarem a contradição.
-
-### Unicidade
-
-- encontrar uma solução não prova que ela é única;
-- prove que todos os valores foram forçados ou descarte os demais casos.
-
-## Estados do sistema
-
-- **Inconsistente:** nenhuma solução.
-- **Subdeterminado:** duas ou mais soluções.
-- **Único:** exatamente uma solução.
-- Problema subdeterminado ainda pode ter consequência obrigatória comum a todas as soluções.
-
-## Ordenação
-
-- una precedências em cadeias;
-- transforme “imediatamente” em bloco;
-- conte o espaço necessário para cadeias e blocos;
-- use extremos fixos primeiro;
-- não imponha adjacência a uma mera precedência.
-
-Exemplo:
-
-```text
-Eva < Dora < [Ana Caio] < Beto
-```
-
-Com cinco pessoas e Beto em 5º: `Eva, Dora, Ana, Caio, Beto`.
-
-## Associação
-
-- confirme se a relação é bijetiva;
-- elimine na linha e na coluna;
-- conecte pistas compostas entre categorias;
-- só converta exclusão em atribuição quando restar uma opção;
-- valide cada categoria separadamente.
-
-## Distribuição
-
-- faça balanço de itens e vagas;
-- uma caixa cheia fecha o destino;
-- incompatibilidade restringe a vaga restante;
-- “ao menos” exige reserva de capacidade;
-- mais de uma distribuição válida significa que valores não determinados não podem ser afirmados.
-
-## Agrupamento
-
-- “A com C” forma núcleo;
-- “A sem B” cria incompatibilidade;
-- “se D entra, E entra” não força D quando E entra;
-- grupos sem características próprias podem ter simetria de nomes;
-- grupos como “manhã” e “tarde” não são intercambiáveis.
-
-## Sequências
-
-1. separe atributos;
-2. examine diferenças e transformações;
-3. teste periodicidade;
-4. separe posições ímpares e pares;
-5. exija que a regra explique todos os termos relevantes.
-
-Exemplo: `2, 5, 4, 7, 6, 9, ...` → ímpares `2,4,6,8`; próximo = `8`.
-
-## Calendários e horários
-
-- dia da semana: use o resto por 7;
-- múltiplo de 7 mantém o dia da semana;
-- “três dias depois de segunda” = quinta;
-- de segunda a quinta, com extremos incluídos = quatro dias;
-- converta horas e minutos para unidade comum;
-- desenhe intervalos para detectar sobreposição.
-
-## Hierarquia e parentesco
-
-- defina a direção da seta;
+- defina o sentido da seta;
 - superioridade hierárquica pode ser transitiva;
-- contato direto e adjacência não são transitivos;
-- disponha gerações em níveis;
-- não presuma gênero, vínculo ou convenção não informada;
-- regra específica do enunciado prevalece sobre uso informal.
+- contato direto não é transitivo;
+- em parentesco, organize gerações;
+- não presuma vínculo ou convenção que o enunciado não informou.
 
-## Verdade e mentira
+## Verdade/mentira como restrição
 
-1. liste cenários possíveis;
-2. avalie cada fala em cada cenário;
-3. conte as falas verdadeiras;
-4. mantenha apenas cenários com a cardinalidade exigida.
+Se o enunciado fixa a quantidade de falas verdadeiras:
 
-Não presuma que cada pessoa mente sempre ou diz sempre a verdade, salvo regra expressa.
+1. liste cenários;
+2. avalie as falas;
+3. conte as verdadeiras;
+4. mantenha só os cenários com a quantidade exigida.
 
-## Teste eficiente de alternativas
+Não transforme isso em tabelas-verdade formais neste assunto.
 
-- **Pode ser:** construa até achar uma solução.
-- **Deve ser:** tente produzir contraexemplo.
-- **Não pode ser:** procure contradição rápida.
-- Priorize posições fixas, blocos, quantidades exatas e incompatibilidades.
-- Não resolva a grade inteira quando a alternativa pode ser decidida antes.
+## Método em 6 passos
 
-## Checklist final
+1. Leia o comando: **pode, deve ou não pode?**
+2. Liste elementos, categorias, vagas e capacidades.
+3. Registre primeiro fixações, blocos e quantidades.
+4. Propague cada atribuição ou exclusão.
+5. Abra poucos casos apenas se necessário.
+6. Releia **todas** as regras antes de responder.
 
-- [ ] Todas as entidades foram usadas corretamente?
-- [ ] Todos os valores pertencem aos domínios?
-- [ ] Exclusividades e capacidades foram respeitadas?
-- [ ] Precedência e adjacência foram distinguidas?
-- [ ] Implicações foram usadas na direção correta?
-- [ ] Mínimos, máximos e quantidades exatas fecham?
-- [ ] Todas as regras negativas foram conferidas?
-- [ ] A resposta prova exatamente “pode”, “deve” ou “não pode”?
+## Checklist
 
-## Pegadinhas
-
-- conhecimento externo não cria regra;
-- plausível não significa logicamente permitido;
-- uma solução parcial não é solução;
-- um exemplo não prova necessidade;
-- uma solução encontrada não prova unicidade;
-- repetição local não prova o padrão da sequência;
-- contagem temporal deve declarar se inclui extremos;
-- cada ramo de caso conserva todas as regras originais.
+- [ ] nenhuma regra inventada?
+- [ ] antes × imediatamente antes?
+- [ ] direção correta das condicionais?
+- [ ] capacidades e mínimos conferidos?
+- [ ] associação propagada em linha e coluna?
+- [ ] regras negativas verificadas?
+- [ ] todos os ramos mantêm as condições originais?
+- [ ] o tipo de prova corresponde ao comando?
