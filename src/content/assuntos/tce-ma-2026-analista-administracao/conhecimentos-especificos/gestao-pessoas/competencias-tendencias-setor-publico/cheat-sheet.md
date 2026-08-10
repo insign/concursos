@@ -1,147 +1,223 @@
 # Gestão por competências e tendências no setor público
 
-## Conceito
+## Corte e núcleo
 
-- Gestão por competências: identificar, captar, desenvolver, mobilizar e avaliar capacidades requeridas pela estratégia.
-- No setor público, o destino é valor público: capacidade, serviços, direitos, integridade, equidade e efetividade.
-- Não é lista de qualidades, catálogo de cursos nem avaliação isolada.
+- **Corte de prova:** 6/7/2026.
+- Núcleo 1: **competência → mapeamento → gap → tratamento → integração**.
+- Núcleo 2: **tendência → oportunidade → risco/guardrail → valor público**.
+- Norma federal específica só entra como referência; não presumir aplicação automática ao TCE-MA.
 
-## CHA, entrega e complexidade
+## CHA × competência
 
 | Elemento | Ideia-chave |
 | --- | --- |
-| conhecimento | saber e compreender |
-| habilidade | saber fazer e aplicar |
+| conhecimento | saber/compreender |
+| habilidade | saber fazer/aplicar |
 | atitude | disposição para agir |
-| mobilização | combinar recursos em situação real |
-| entrega | resultado reconhecível com qualidade e responsabilidade |
-| complexidade | autonomia, incerteza, impacto, risco e articulação |
+| mobilização | combinar recursos na situação real |
+| entrega | contribuição observável |
+| complexidade | autonomia + incerteza + impacto + risco + articulação |
 
-- CHA é recurso; não prova competência sozinho.
-- Diploma, curso e tempo de serviço não equivalem a entrega.
-- Complexidade não é volume de tarefas.
-- Espaço ocupacional ampliado não altera automaticamente o cargo.
-- Competência ≠ desempenho ≠ resultado.
-- Desempenho também depende de processo, recursos, tecnologia, liderança e contexto.
+**CHA é recurso; competência exige mobilização + contexto + entrega.**
+
+- diploma ≠ competência;
+- certificado ≠ proficiência;
+- tempo de serviço ≠ nível de competência;
+- complexidade ≠ volume de tarefas;
+- espaço ocupacional ampliado ≠ progressão automática.
+
+## Competência × desempenho × resultado
+
+- **competência:** capacidade mobilizável/demonstrada;
+- **desempenho:** expressão observada no período;
+- **resultado:** efeito produzido.
+
+Baixo desempenho pode decorrer de **gap ou barreira sistêmica**.
 
 ## Níveis
 
-- Individuais: técnicas, gerenciais, comportamentais, transversais e finalísticas.
-- De equipe: emergem da coordenação de papéis e conhecimentos.
-- Organizacionais: integram pessoas, processos, estrutura, tecnologia, cultura e governança.
-- Essenciais: capacidades estratégicas que sustentam a missão; não são talentos exclusivos de uma pessoa.
-- Horizonte: atuais, emergentes e futuras.
+- **individual:** técnica, gerencial, comportamental, transversal, finalística;
+- **equipe:** coordenação de papéis e conhecimentos;
+- **organizacional:** pessoas + processos + tecnologia + estrutura + cultura + governança;
+- **essencial:** capacidade estratégica que sustenta missão/valor;
+- **horizonte:** atual, emergente, futura.
+
+**Competência organizacional ≠ soma de CHAs.**
 
 ## Mapeamento
 
-1. Ler estratégia, missão, processos, riscos, públicos e cenários.
-2. Definir competências requeridas.
-3. Levantar competências existentes com evidências múltiplas.
-4. Comparar requerido × existente.
-5. Priorizar gaps por impacto, risco, urgência e viabilidade.
-6. Tratar conforme a causa.
-7. Monitorar aplicação, entrega e resultado.
-8. Revisar o mapa.
+### Fluxo
 
-- Gap pode ser individual, de equipe, processual ou organizacional.
-- Método: documentos, entrevistas, oficinas, questionários, observação, incidentes críticos, Delphi e dados.
-- Autoavaliação é fonte útil, não evidência única.
-- Triangulação reduz viés.
-- Descrição boa: verbo observável + objeto + critério/condição.
-- Escala precisa de âncoras de entrega, não apenas “básico/intermediário/avançado”.
+**estratégia/processos/riscos → requerido → existente → gap → prioridade → tratamento → aplicação/resultado → revisão**
 
-## Tratamento e integração
+### Requerido × existente
 
-- Treinamento não é resposta universal.
-- Alternativas: prática, mentoria, mobilidade, seleção, redesenho, sistema, conhecimento, sucessão e contratação autorizada.
-- Trilha: combinação de cursos, prática, projetos, rotação, pares, comunidades e feedback.
-- Certificado mede participação; transferência exige aplicação.
+$$
+\text{gap} = \text{competência requerida} - \text{competência existente}
+$$
 
-| Subsistema | Uso |
+O gap pode ser individual, de equipe, organizacional ou apenas aparente quando a causa real é processo, sistema, recurso ou governança.
+
+### Evidências
+
+- documentos;
+- entrevistas;
+- oficinas/grupos focais;
+- questionários;
+- observação;
+- incidentes críticos;
+- especialistas/Delphi;
+- dados de entregas e sistemas.
+
+**Triangulação:** combinar fontes para reduzir viés.
+
+**Autoavaliação:** útil; não usar como evidência única.
+
+### Descrição e proficiência
+
+Boa competência:
+
+**verbo observável + objeto + condição/critério**
+
+Escala de proficiência precisa de **âncoras de entrega**, não só “básico/intermediário/avançado”.
+
+## Priorizar e tratar gaps
+
+Priorize por:
+
+**impacto + risco + criticidade + urgência + alcance + dificuldade de reposição + viabilidade**.
+
+| Causa | Resposta possível |
 | --- | --- |
-| força de trabalho | perfis, capacidades e lacunas futuras |
-| seleção | critérios e evidências das entregas |
-| desempenho | expectativas, feedback e evidências |
-| desenvolvimento | gaps e trilhas prioritárias |
-| carreira/mobilidade | expectativas transparentes, sem criar direito automático |
-| sucessão | continuidade em posições críticas |
-| conhecimento | retenção e transferência do saber crítico |
+| falta de repertório | desenvolvimento/prática |
+| capacidade precisa ser captada | seleção/captação autorizada |
+| composição inadequada | mobilidade/equipe |
+| risco de perda de saber | sucessão/conhecimento |
+| processo ruim | redesenho |
+| sistema/recurso ruim | intervenção tecnológica/estrutural |
 
-## Governança e indicadores
+**Treinamento não é resposta universal.**
 
-- Alta administração direciona; pessoas coordena; gestores e equipes validam; tecnologia, integridade e proteção de dados participam conforme o risco.
-- Indicadores: cobertura de perfis críticos, gaps tratados, tempo até proficiência, aplicação, qualidade, continuidade e justiça percebida.
-- Horas de curso medem esforço, não competência ou impacto.
-- Falhas: inventário enorme, conceito vago, tecnologia primeiro, avaliação opaca, punição do gap e dados excessivos.
-- Decreto nº 9.991/2019: referência da APF direta, autárquica e fundacional; não regra automática do TCE-MA.
+## Integração dos subsistemas
 
-## Tendências
+| Subsistema | Uso das competências |
+| --- | --- |
+| força de trabalho | perfis e gaps futuros |
+| seleção | critérios/evidências de entrega |
+| desempenho | expectativas + feedback + evidências |
+| desenvolvimento | gaps e trilhas |
+| carreira/mobilidade | caminhos e expectativas, sem direito automático |
+| sucessão | continuidade de capacidades críticas |
+| conhecimento | retenção e transferência de saber |
 
-### IA e automação
+## Governança
 
-- Apoiam tarefas e decisões; não eliminam responsabilidade humana.
-- Salvaguardas: finalidade, dados adequados, vieses, segurança, registro, explicabilidade, revisão e responsabilização.
-- Human-in-the-loop = revisão humana real, não chancela ritual.
-- Riscos: opacidade, vigilância, intensificação, discriminação e perda de autonomia.
+- alta administração: direção e prioridade;
+- pessoas/RH: metodologia e integração;
+- gestores: entregas e aplicação;
+- equipes/especialistas: trabalho real;
+- tecnologia, integridade, controle e proteção de dados: riscos específicos.
 
-### People analytics e LGPD
+**Gestão por competências ≠ sistema exclusivo do RH.**
 
-- Analytics responde perguntas de gestão; dashboard não é finalidade.
-- Correlação não prova causalidade.
-- Princípios: finalidade, adequação, necessidade, transparência, segurança, prevenção, não discriminação e responsabilização.
-- Consentimento não é sempre a base do poder público.
-- Dado público mantém finalidade; pseudonimização não elimina automaticamente deveres.
-- Decisão exclusivamente automatizada que afete interesses admite pedido de revisão.
+### Indicadores úteis
 
-### Trabalho flexível
+- perfis críticos cobertos;
+- gaps prioritários tratados;
+- tempo até proficiência;
+- aplicação no trabalho;
+- qualidade/prazo das entregas;
+- continuidade de capacidades;
+- retenção de conhecimento;
+- justiça e acessibilidade percebidas.
 
-- Exige compatibilidade, atendimento, segurança, entregas, comunicação, documentação e equidade.
-- Evitar viés de proximidade e disponibilidade permanente.
-- Liderança por entregas não autoriza vigilância invasiva.
-- Decreto nº 11.072/2022: PGD federal é instrumento de gestão, não direito do agente; não é regra automática do TCE-MA.
+**Horas de curso = esforço; não competência.**
 
-### Aprendizagem
+## Tendências: matriz de prova
 
-- Upskilling: aprofundar/atualizar capacidades no trabalho atual.
-- Reskilling: preparar para novas atividades ou ocupações.
-- Aprendizagem contínua combina formação e prática.
+| Tendência | Ganho possível | Risco/guardrail |
+| --- | --- | --- |
+| IA/automação | escala, produtividade, apoio à decisão | opacidade, viés, vigilância; revisão humana real |
+| people analytics | decisões por evidências | correlação ≠ causalidade; qualidade/proteção de dados |
+| sistemas integrados | visão consolidada, menos retrabalho | dado ruim em escala, acesso excessivo, baixa interoperabilidade |
+| autosserviço | agilidade e autonomia operacional | acessibilidade, segurança e suporte |
+| trabalho flexível | autonomia e acesso a talentos | isolamento, viés de proximidade, disponibilidade permanente |
+| aprendizagem contínua | adaptação e proficiência | certificado como fim em si |
+| upskilling | atualizar/aprofundar capacidades atuais | desenvolver sem necessidade real |
+| reskilling | preparar para novas atividades | reconversão sem oportunidade de aplicação |
+| bem-estar | sustentabilidade do desempenho | individualizar problema organizacional |
+| DEIA/acessibilidade | participação e equidade | tokenismo, barreiras, dados usados de modo discriminatório |
+| gestão do conhecimento | continuidade institucional | repositório sem uso |
+| agilidade/redes | aprendizagem e cooperação | responsabilidades difusas, segurança insuficiente |
+| força de trabalho | antecipar gaps críticos | tratar planejamento como mera contagem de vagas |
+| atração/retenção | preservar capacidade | explicar tudo por remuneração ou geração |
 
-### Bem-estar
+## IA e analytics
 
-- Experiência, engajamento e satisfação são conceitos relacionados, não idênticos.
-- Examinar carga, autonomia, assédio, apoio, justiça e desenho do trabalho.
-- A redação da NR-1 sobre fatores psicossociais passou a ser exigível em 26 maio 2026; incidência concreta depende do regime aplicável.
+- **human-in-the-loop** = pessoa com informação, competência e autoridade para revisar;
+- automação não transfere responsabilidade à máquina;
+- dashboard ≠ people analytics;
+- comece pela pergunta de gestão;
+- correlação ≠ causalidade;
+- dados pessoais: finalidade, necessidade, transparência, segurança, prevenção, não discriminação e responsabilização.
 
-### DEIA
+## Trabalho flexível
 
-- Diversidade: diferenças.
-- Equidade: enfrentamento de barreiras.
-- Inclusão: participação e voz.
-- Acessibilidade: remoção de barreiras.
-- Representação numérica é importante, mas insuficiente.
+- entregas claras;
+- coordenação e comunicação;
+- acesso equivalente à informação;
+- avaliação pertinente;
+- evitar viés de proximidade;
+- evitar disponibilidade permanente;
+- evitar vigilância invasiva.
 
-### Conhecimento e inovação
+**Flexibilidade ≠ ausência de acompanhamento.**
 
-- Preservar saber crítico: sucessão, documentação útil, mentoria, comunidades e lições aprendidas.
-- Repositório não prova aprendizagem organizacional.
-- Agilidade = aprender e adaptar sem abandonar legalidade, transparência e auditabilidade.
-- Redes ampliam capacidade com responsabilidades e segurança claras.
+## Aprendizagem contínua
 
-### Força de trabalho e valor público
+- **upskilling:** atualizar/aprofundar no campo atual;
+- **reskilling:** preparar para novas atividades;
+- trilha = curso + prática + projeto + mentoria + pares + feedback.
 
-- Planejamento combina quantidade, perfil, distribuição, competências, cenários e sucessão.
-- Atração/retenção: propósito, liderança, desenvolvimento, reconhecimento, condições e inclusão.
-- Evitar estereótipos geracionais.
-- Propósito não compensa injustiça ou precariedade.
-- Tendência só vale quando compatível com evidência, regime, risco e valor público.
+## Bem-estar e riscos psicossociais
+
+Olhe primeiro para:
+
+**carga + autonomia + prioridades + assédio + apoio + justiça + desenho do trabalho**.
+
+Sessão individual de relaxamento não corrige, sozinha, problema estrutural de trabalho.
+
+## DEIA
+
+- diversidade = diferenças;
+- equidade = enfrentar barreiras;
+- inclusão = participação/voz;
+- acessibilidade = remover barreiras.
+
+**Representação numérica ≠ inclusão completa.**
+
+## Conhecimento, inovação e força de trabalho
+
+- sucessão + mentoria + comunidades + documentação útil → reduzem perda de saber;
+- repositório ≠ aprendizagem organizacional;
+- agilidade pública ≠ abandonar legalidade/auditabilidade;
+- força de trabalho = quantidade + perfil + distribuição + competências + cenários + sucessão;
+- retenção = remuneração + liderança + desenvolvimento + reconhecimento + mobilidade + condições + inclusão;
+- evite estereótipos geracionais.
 
 ## Pegadinhas
 
-- Competência organizacional não é soma de CHAs.
-- Competência essencial não é talento individual raro.
-- Gap não é culpa automática da pessoa.
-- Treinamento e autoavaliação não são respostas únicas.
-- Competência não cria progressão nem remuneração sem base legal.
-- Automação não transfere responsabilidade à máquina.
-- Flexibilidade não é direito universal.
-- Norma federal não se aplica automaticamente ao TCE-MA.
+- CHA sozinho prova competência → **errado**.
+- Gap é culpa da pessoa → **errado**.
+- Autoavaliação basta → **errado**.
+- Todo gap pede curso → **errado**.
+- Competência organizacional é soma individual → **errado**.
+- Tecnologia define metodologia → **errado**.
+- Dashboard é analytics → **errado**.
+- Correlação prova causa → **errado**.
+- Human-in-the-loop é chancela formal → **errado**.
+- Trabalho remoto dispensa coordenação → **errado**.
+- Representação numérica basta para inclusão → **errado**.
+- Repositório cheio prova aprendizagem → **errado**.
+- Tendência popular deve ser adotada → **errado**.
+- Competência cria progressão/remuneração → **errado**, depende do regime aplicável.
