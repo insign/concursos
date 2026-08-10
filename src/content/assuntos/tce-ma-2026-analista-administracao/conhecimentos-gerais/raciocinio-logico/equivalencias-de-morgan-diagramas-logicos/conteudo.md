@@ -8,36 +8,25 @@ storageId: equivalencias-de-morgan
 
 ## 1. Escopo
 
-Este assunto ensina duas ferramentas complementares de raciocínio lógico:
+Este assunto reúne três blocos do edital:
 
-- **equivalências proposicionais**, que permitem substituir uma fórmula por outra com a mesma coluna final em todas as atribuições;
-- **diagramas lógicos**, que representam relações de inclusão, exclusão e existência entre classes para testar conclusões categóricas.
+- **equivalências lógicas** entre fórmulas proposicionais;
+- **leis de De Morgan** e negação de fórmulas compostas;
+- **diagramas lógicos** para relações de inclusão, exclusão e existência entre classes.
 
-O recorte inclui:
+As tabelas-verdade e as regras básicas dos conectivos foram estudadas no assunto anterior. Aqui elas aparecem como ferramenta de conferência. A lógica de primeira ordem, a notação formal de quantificadores e as operações gerais com conjuntos ficam para assuntos próprios.
 
-- definição e teste de equivalência lógica;
-- leis algébricas das proposições;
-- equivalências da condicional e da bicondicional;
-- leis de De Morgan e negação correta de fórmulas compostas;
-- diagramas de classes do tipo Venn/Euler;
-- proposições categóricas com “todo”, “nenhum”, “algum” e “algum não”;
-- conclusões necessárias, apenas possíveis ou incompatíveis com as premissas.
+## 2. Equivalência lógica
 
-As regras básicas dos conectivos e a construção completa de tabelas-verdade foram estudadas no assunto anterior e são usadas aqui como pré-requisito. Ficam para assuntos próprios a sintaxe formal de predicados e quantificadores, as relações de primeira ordem em geral e as operações algébricas ou de contagem com conjuntos. Neste assunto, a linguagem de classes aparece somente na medida necessária para construir e interpretar os diagramas cobrados em Raciocínio Lógico.
-
-## 2. O que é equivalência lógica
-
-Duas fórmulas $P$ e $Q$ são **logicamente equivalentes** quando recebem o mesmo valor lógico em **todas** as atribuições possíveis de suas proposições simples.
-
-Escreve-se:
+Duas fórmulas $P$ e $Q$ são **logicamente equivalentes** quando recebem o mesmo valor lógico em todas as atribuições possíveis de suas proposições simples.
 
 $$
-P \equiv Q.
+P \equiv Q
 $$
 
-Isso significa que as colunas finais das tabelas-verdade de $P$ e $Q$ são idênticas, linha por linha.
+Na tabela-verdade, isso significa que as colunas finais são idênticas linha por linha.
 
-Exemplo fundamental:
+Exemplo central:
 
 $$
 p \to q \equiv \neg p \lor q.
@@ -50,80 +39,27 @@ $$
 | F | V | V | V |
 | F | F | V | V |
 
-As duas colunas finais coincidem nas quatro linhas; portanto, as fórmulas são equivalentes.
+Uma coincidência em apenas uma ou algumas linhas não prova equivalência. Para refutá-la, basta uma atribuição em que as fórmulas tenham valores diferentes.
 
-### 2.1. Coincidência em uma linha não basta
-
-Se duas fórmulas valem V em determinada atribuição, isso prova apenas uma coincidência naquela linha. Equivalência exige igualdade em **todas** as linhas.
-
-Por exemplo, $p$ e $q$ coincidem quando ambas são verdadeiras e quando ambas são falsas, mas não são equivalentes, pois divergem nas atribuições V/F e F/V.
-
-### 2.2. Equivalência não é identidade gráfica
-
-Fórmulas equivalentes podem ter símbolos e estruturas diferentes. A equivalência compara o comportamento lógico completo, não a aparência da expressão.
-
-Também é possível escrever a mesma estrutura com letras diferentes, mas isso não estabelece equivalência entre fórmulas que usam as letras em papéis distintos. Sempre compare as atribuições correspondentes.
-
-## 3. Três noções que não devem ser confundidas
-
-### 3.1. Equivalência
-
-$P \equiv Q$ significa que $P$ e $Q$ possuem sempre o mesmo valor. A relação é simétrica: se $P$ é equivalente a $Q$, então $Q$ é equivalente a $P$.
-
-### 3.2. Condicional dentro da linguagem
-
-$P \to Q$ é uma fórmula que pode ser verdadeira ou falsa conforme os valores de $P$ e $Q$. Uma condicional isolada não afirma equivalência.
-
-### 3.3. Consequência lógica
-
-Dizer que $Q$ é consequência lógica de $P$ significa que não existe atribuição em que $P$ seja verdadeira e $Q$ seja falsa. Esse compromisso pode valer em uma direção sem valer na outra.
-
-Exemplo:
+Outra forma de testar:
 
 $$
-p \land q \models p,
+P \equiv Q
+\quad\Longleftrightarrow\quad
+P \leftrightarrow Q\text{ é tautologia}.
 $$
 
-pois uma conjunção verdadeira exige $p$ verdadeiro. Contudo, $p$ não garante $p \land q$; logo, $p \land q$ e $p$ não são equivalentes.
+## 3. Substituição por equivalente
 
-## 4. Como testar uma equivalência
+Se uma subfórmula é substituída por outra equivalente, o valor da fórmula maior é preservado, desde que se mantenham corretamente o agrupamento e o alcance dos conectivos.
 
-Há dois testes clássicos.
-
-### 4.1. Comparar colunas finais
-
-1. Liste todas as proposições simples distintas das duas fórmulas.
-2. Construa uma única tabela com todas as atribuições.
-3. Calcule as subfórmulas necessárias.
-4. Compare as duas colunas finais.
-5. Se houver uma única divergência, não há equivalência.
-
-### 4.2. Testar a bicondicional
-
-As fórmulas $P$ e $Q$ são equivalentes exatamente quando
+Como:
 
 $$
-P \leftrightarrow Q
+p \to q \equiv \neg p \lor q,
 $$
 
-é uma tautologia. A bicondicional é verdadeira quando os lados têm o mesmo valor; ser tautológica significa que essa igualdade ocorre em todas as atribuições.
-
-### 4.3. Contraexemplo à equivalência
-
-Para mostrar que duas fórmulas **não** são equivalentes, basta encontrar uma atribuição em que uma seja V e a outra seja F.
-
-Considere $p \to q$ e $q \to p$. Com $p=V$ e $q=F$:
-
-- $p \to q=F$;
-- $q \to p=V$.
-
-Essa única divergência refuta a equivalência entre a condicional e sua conversa.
-
-## 5. Princípio de substituição
-
-Se $P \equiv Q$, uma ocorrência completa de $P$ pode ser substituída por $Q$ dentro de uma fórmula maior, desde que se preserve o agrupamento.
-
-Como $p \to q \equiv \neg p \lor q$:
+então:
 
 $$
 r \land (p \to q)
@@ -131,262 +67,148 @@ r \land (p \to q)
 r \land (\neg p \lor q).
 $$
 
-Os parênteses são indispensáveis. Substituir uma subfórmula não autoriza mover conectivos, apagar termos ou alterar o alcance de uma negação.
+Equivalência não autoriza apagar termos, trocar conectivos arbitrariamente nem mover parênteses sem justificativa.
 
-## 6. Leis fundamentais de equivalência
+## 4. Leis úteis de equivalência
 
-Nas tabelas a seguir, $\top$ representa uma tautologia e $\bot$ representa uma contradição.
+As leis abaixo são suficientes para a maior parte das simplificações cobradas neste recorte.
 
-### 6.1. Dupla negação
+| Lei | Forma |
+|---|---|
+| dupla negação | $\neg\neg p \equiv p$ |
+| idempotência | $p \land p \equiv p$; $p \lor p \equiv p$ |
+| comutatividade | $p \land q \equiv q \land p$; $p \lor q \equiv q \lor p$ |
+| associatividade | $(p \land q)\land r \equiv p\land(q\land r)$; idem para $\lor$ |
+| distributividade | $p\land(q\lor r)\equiv(p\land q)\lor(p\land r)$ |
+| distributividade dual | $p\lor(q\land r)\equiv(p\lor q)\land(p\lor r)$ |
+| complemento | $p\lor\neg p\equiv\top$; $p\land\neg p\equiv\bot$ |
+| identidade | $p\land\top\equiv p$; $p\lor\bot\equiv p$ |
+| absorção | $p\lor(p\land q)\equiv p$; $p\land(p\lor q)\equiv p$ |
 
-$$
-\neg\neg p \equiv p.
-$$
+Não é necessário decorar o nome de cada lei para resolver a questão, mas é importante reconhecer as transformações válidas. Quando houver dúvida, confira por tabela-verdade.
 
-Negar duas vezes restaura o valor original.
-
-### 6.2. Idempotência
-
-$$
-p \land p \equiv p
-$$
-
-$$
-p \lor p \equiv p.
-$$
-
-Repetir a mesma proposição por “e” ou por “ou” não altera seu valor.
-
-### 6.3. Comutatividade
+### Exemplo de simplificação
 
 $$
-p \land q \equiv q \land p
+(p\land q)\lor(p\land\neg q)
 $$
 
-$$
-p \lor q \equiv q \lor p.
-$$
-
-A ordem das parcelas pode ser trocada na conjunção e na disjunção. Essa propriedade não vale, em geral, para a condicional:
+Pela distributividade:
 
 $$
-p \to q \not\equiv q \to p.
+p\land(q\lor\neg q).
 $$
 
-### 6.4. Associatividade
+Como $q\lor\neg q$ é tautologia:
 
 $$
-(p \land q) \land r \equiv p \land (q \land r)
+p\land\top\equiv p.
 $$
 
-$$
-(p \lor q) \lor r \equiv p \lor (q \lor r).
-$$
+## 5. Equivalências da condicional
 
-Quando há somente conjunções ou somente disjunções, o reagrupamento não altera o valor. Misturar conectivos exige outras leis.
-
-### 6.5. Distributividade
+A condicional material possui três formas de alto rendimento:
 
 $$
-p \land (q \lor r)
+p \to q
 \equiv
-(p \land q) \lor (p \land r)
-$$
-
-$$
-p \lor (q \land r)
+\neg p \lor q
 \equiv
-(p \lor q) \land (p \lor r).
+\neg(p\land\neg q).
 $$
 
-Na lógica proposicional, tanto a conjunção distribui sobre a disjunção quanto a disjunção distribui sobre a conjunção.
+A terceira forma destaca o único caso proibido pela condicional: antecedente verdadeiro e consequente falso.
 
-### 6.6. Identidade
-
-$$
-p \land \top \equiv p
-$$
+### 5.1. Contrapositiva
 
 $$
-p \lor \bot \equiv p.
+p \to q
+\equiv
+\neg q \to \neg p.
 $$
 
-Conjuntar com algo sempre verdadeiro ou disjuntar com algo sempre falso preserva $p$.
-
-### 6.7. Dominação
-
-$$
-p \lor \top \equiv \top
-$$
-
-$$
-p \land \bot \equiv \bot.
-$$
-
-Uma verdade já satisfaz a disjunção; uma falsidade já derruba a conjunção.
-
-### 6.8. Complemento
-
-$$
-p \lor \neg p \equiv \top
-$$
-
-$$
-p \land \neg p \equiv \bot.
-$$
-
-A primeira forma expressa o terceiro excluído; a segunda, a impossibilidade de $p$ e sua negação serem ambas verdadeiras na mesma interpretação clássica.
-
-### 6.9. Absorção
-
-$$
-p \lor (p \land q) \equiv p
-$$
-
-$$
-p \land (p \lor q) \equiv p.
-$$
-
-Se $p$ já basta para a disjunção, acrescentar o caso mais restrito $p \land q$ não amplia o resultado. Se a conjunção já exige $p$, o fator $p \lor q$ não acrescenta nova exigência quando $p$ é verdadeiro.
-
-## 7. Equivalências da condicional
-
-### 7.1. Eliminação da seta
-
-$$
-p \to q \equiv \neg p \lor q.
-$$
-
-Essa é a equivalência central da condicional material. Ela também pode ser escrita como:
-
-$$
-p \to q \equiv \neg(p \land \neg q).
-$$
-
-A condicional proíbe exatamente o caso em que $p$ é verdadeira e $q$ é falsa.
-
-### 7.2. Contrapositiva
-
-$$
-p \to q \equiv \neg q \to \neg p.
-$$
-
-Exemplo:
+Se:
 
 > Se o processo foi arquivado, então houve decisão.
 
-Forma contrapositiva equivalente:
+uma forma equivalente é:
 
 > Se não houve decisão, então o processo não foi arquivado.
 
-### 7.3. Conversa e inversa
+### 5.2. Conversa, inversa e contrapositiva
 
-Partindo de $p \to q$:
+Partindo de $p\to q$:
 
-- **conversa:** $q \to p$;
-- **inversa:** $\neg p \to \neg q$;
-- **contrapositiva:** $\neg q \to \neg p$.
+| Forma | Expressão | Relação com a original |
+|---|---:|---|
+| conversa | $q\to p$ | não equivale em geral |
+| inversa | $\neg p\to\neg q$ | não equivale em geral |
+| contrapositiva | $\neg q\to\neg p$ | equivalente |
 
-A original é equivalente à contrapositiva. A conversa é equivalente à inversa, mas nenhuma delas é, em geral, equivalente à original.
+Uma atribuição divergente basta para mostrar que a conversa não é equivalente à original. Por exemplo, com $p=V$ e $q=F$, $p\to q$ é F e $q\to p$ é V.
 
-### 7.4. Negação da condicional
-
-$$
-\neg(p \to q) \equiv p \land \neg q.
-$$
-
-Negar “se $p$, então $q$” é afirmar o único caso que viola a promessa: $p$ ocorre e $q$ não ocorre.
-
-Não confunda:
+### 5.3. Negação da condicional
 
 $$
-\neg(p \to q)
-\not\equiv
-\neg p \to \neg q.
-$$
-
-A expressão da direita é a inversa da condicional, não sua negação.
-
-### 7.5. Distribuições úteis envolvendo a seta
-
-As seguintes formas podem ser derivadas pela eliminação da condicional e pelas leis distributivas:
-
-$$
-p \to (q \land r)
+\neg(p\to q)
 \equiv
-(p \to q) \land (p \to r)
+p\land\neg q.
 $$
 
+Negar “se $p$, então $q$” é afirmar exatamente a situação que torna a condicional falsa: $p$ ocorre e $q$ não ocorre.
+
+## 6. Equivalências da bicondicional
+
+A bicondicional exige as duas direções condicionais:
+
 $$
-(p \lor q) \to r
+p\leftrightarrow q
 \equiv
-(p \to r) \land (q \to r).
+(p\to q)\land(q\to p).
 $$
 
-Essas relações não autorizam distribuir a seta mecanicamente em qualquer posição. Quando houver dúvida, elimine a seta e simplifique passo a passo.
-
-## 8. Equivalências da bicondicional
-
-A bicondicional exige as duas direções:
+Ela também pode ser escrita como:
 
 $$
-p \leftrightarrow q
+p\leftrightarrow q
 \equiv
-(p \to q) \land (q \to p).
+(p\land q)\lor(\neg p\land\neg q).
 $$
 
-Ao eliminar as setas:
+A fórmula é verdadeira quando $p$ e $q$ possuem o mesmo valor.
+
+Sua negação seleciona os casos de valores diferentes:
 
 $$
-p \leftrightarrow q
+\neg(p\leftrightarrow q)
 \equiv
-(\neg p \lor q) \land (\neg q \lor p).
+(p\land\neg q)\lor(\neg p\land q).
 $$
 
-Também se pode destacar a igualdade dos valores:
+Essa última forma corresponde à disjunção exclusiva.
+
+## 7. Leis de De Morgan
+
+As duas formas fundamentais são:
 
 $$
-p \leftrightarrow q
+\neg(p\land q)
 \equiv
-(p \land q) \lor (\neg p \land \neg q).
+\neg p\lor\neg q
 $$
 
-Ou ambos são verdadeiros, ou ambos são falsos.
-
-### 8.1. Negação da bicondicional
-
 $$
-\neg(p \leftrightarrow q)
+\neg(p\lor q)
 \equiv
-(p \land \neg q) \lor (\neg p \land q).
+\neg p\land\neg q.
 $$
 
-Essa é a disjunção exclusiva: exatamente um dos lados é verdadeiro.
+A regra operacional tem dois movimentos simultâneos:
 
-## 9. Leis de De Morgan
+1. negar cada componente;
+2. trocar $\land$ por $\lor$, ou $\lor$ por $\land$.
 
-As leis de De Morgan transformam a negação de conjunções e disjunções.
-
-$$
-\neg(p \land q)
-\equiv
-\neg p \lor \neg q
-$$
-
-$$
-\neg(p \lor q)
-\equiv
-\neg p \land \neg q.
-$$
-
-A regra operacional possui dois movimentos simultâneos:
-
-1. a negação alcança cada componente;
-2. o conectivo troca de $\land$ para $\lor$, ou de $\lor$ para $\land$.
-
-### 9.1. Negação de uma conjunção
-
-Negar que as duas afirmações sejam verdadeiras em conjunto permite que uma ou ambas falhem:
+### 7.1. Linguagem natural
 
 > Não é verdade que Ana protocolou o pedido **e** Bruno emitiu o recibo.
 
@@ -394,11 +216,9 @@ Equivale a:
 
 > Ana não protocolou o pedido **ou** Bruno não emitiu o recibo.
 
-O “ou” é inclusivo: também é possível que nenhuma das ações tenha ocorrido.
+O “ou” continua inclusivo: uma ou as duas ações podem ter falhado.
 
-### 9.2. Negação de uma disjunção
-
-Negar que ao menos uma afirmação seja verdadeira exige que ambas sejam falsas:
+Já:
 
 > Não é verdade que Ana protocolou o pedido **ou** Bruno emitiu o recibo.
 
@@ -406,63 +226,129 @@ Equivale a:
 
 > Ana não protocolou o pedido **e** Bruno não emitiu o recibo.
 
-### 9.3. Mais de duas componentes
-
-As leis se estendem a cadeias:
+### 7.2. Mais de duas componentes
 
 $$
-\neg(p \land q \land r)
+\neg(p\land q\land r)
 \equiv
-\neg p \lor \neg q \lor \neg r
+\neg p\lor\neg q\lor\neg r
 $$
 
 $$
-\neg(p \lor q \lor r)
+\neg(p\lor q\lor r)
 \equiv
-\neg p \land \neg q \land \neg r.
+\neg p\land\neg q\land\neg r.
 $$
 
-Para negar “todos os requisitos foram atendidos”, basta que pelo menos um não tenha sido. Para negar “algum dos três requisitos foi atendido”, é preciso que nenhum tenha sido.
+### 7.3. Fórmulas aninhadas
 
-### 9.4. De Morgan em fórmulas aninhadas
-
-Considere:
+Em:
 
 $$
-\neg\bigl(p \lor (q \land r)\bigr).
+\neg\bigl(p\lor(q\land r)\bigr),
 $$
 
-Primeiro aplique De Morgan à disjunção externa:
+aplique De Morgan de fora para dentro:
 
 $$
-\neg p \land \neg(q \land r).
+\neg p\land\neg(q\land r)
+\equiv
+\neg p\land(\neg q\lor\neg r).
 $$
 
-Depois aplique a lei à conjunção interna:
-
-$$
-\neg p \land (\neg q \lor \neg r).
-$$
-
-O procedimento respeita a estrutura dos parênteses e avança da negação externa para as subfórmulas.
-
-### 9.5. “Nem... nem...”
+### 7.4. “Nem... nem...”
 
 Na leitura proposicional usual:
 
-> Nem $p$ nem $q$
+$$
+\text{nem }p\text{ nem }q
+\equiv
+\neg p\land\neg q
+\equiv
+\neg(p\lor q).
+$$
 
-significa:
+## 8. Roteiro para transformar fórmulas
+
+1. Preserve os parênteses e identifique o conectivo principal.
+2. Elimine $\to$ ou $\leftrightarrow$ quando isso simplificar a expressão.
+3. Aplique De Morgan respeitando o alcance da negação.
+4. Elimine duplas negações.
+5. Procure complementos, distributividade, identidade e absorção.
+6. Registre apenas transformações justificadas.
+7. Se houver dúvida, compare tabelas-verdade ou encontre uma atribuição divergente.
+
+Exemplo:
 
 $$
-\neg p \land \neg q,
+\neg(p\to q)
+\equiv
+\neg(\neg p\lor q)
+\equiv
+\neg\neg p\land\neg q
+\equiv
+p\land\neg q.
 $$
 
-equivalente a $\neg(p \lor q)$.
+## 9. Diagramas lógicos
 
-## 10. Negação e linguagem categórica
+Nos diagramas deste assunto, círculos ou regiões representam **classes de objetos**. A finalidade é visualizar relações de inclusão, exclusão e existência e verificar se uma conclusão decorre necessariamente das premissas.
 
-As quatro formas verbais dos diagramas também possuem negações úteis:
+Não confunda esse uso com letras proposicionais: em $p\to q$, $p$ e $q$ representam afirmações inteiras; no diagrama, $A$, $B$ e $C$ representam classes.
+
+### 9.1. Convenção operacional
+
+Neste material, use:
+
+- região **hachurada**: vazia;
+- **X**: existe ao menos um objeto naquela região;
+- região em branco: existência não determinada;
+- X sobre uma fronteira: existe um objeto, mas as premissas não determinam em qual das sub-regiões adjacentes ele está.
+
+![Quatro diagramas categóricos: todo A é B, nenhum A é B, algum A é B e algum A não é B.](./images/formas-categoricas.svg)
+
+## 10. Quatro formas categóricas
+
+| Afirmação | Leitura diagramática |
+|---|---|
+| Todo $A$ é $B$ | a região de $A$ fora de $B$ fica vazia |
+| Nenhum $A$ é $B$ | a interseção $A\cap B$ fica vazia |
+| Algum $A$ é $B$ | existe X em $A\cap B$ |
+| Algum $A$ não é $B$ | existe X em $A$ fora de $B$ |
+
+### 10.1. Todo A é B
+
+$$
+A\subseteq B.
+$$
+
+A inclusão não autoriza inverter a relação. De “todo auditor é servidor” não se conclui “todo servidor é auditor”.
+
+### 10.2. Nenhum A é B
+
+$$
+A\cap B=\varnothing.
+$$
+
+A exclusão é simétrica: se nenhum $A$ é $B$, nenhum $B$ é $A$.
+
+### 10.3. Algum A é B
+
+$$
+A\cap B\neq\varnothing.
+$$
+
+Há pelo menos um objeto na interseção.
+
+### 10.4. Algum A não é B
+
+$$
+A\setminus B\neq\varnothing.
+$$
+
+Há pelo menos um objeto em $A$ que está fora de $B$.
+
+## 11. Negação das formas categóricas
 
 | Afirmação | Negação correta |
 |---|---|
@@ -471,258 +357,61 @@ As quatro formas verbais dos diagramas também possuem negações úteis:
 | Algum $A$ é $B$ | Nenhum $A$ é $B$ |
 | Algum $A$ não é $B$ | Todo $A$ é $B$ |
 
-Negar uma universal produz um contraexemplo existencial; negar uma existência elimina todos os casos daquele tipo.
+A ideia central é simples: negar uma universal exige um contraexemplo; negar uma existência elimina todos os casos daquele tipo.
 
-Neste assunto, essas relações são usadas verbal e diagramaticamente. A notação formal dos quantificadores, seu escopo e as demais regras do cálculo de predicados ficam para lógica de primeira ordem.
+## 12. Existência no diagrama
 
-## 11. Estratégia de transformação
+Como convenção operacional de Venn adotada neste material:
 
-Uma transformação segura deve justificar cada passo por uma lei.
+- uma premissa universal **restringe regiões**, mas não autoriza inserir X por si só;
+- uma premissa existencial, como “algum”, autoriza inserir X;
+- informação sobre um indivíduo determinado também pode fornecer existência;
+- se a questão declarar convenção diferente, siga expressamente o enunciado.
 
-Exemplo:
+Assim, de “todo $A$ é $B$” não se deve concluir automaticamente “algum $A$ é $B$”.
 
-$$
-\neg(p \to q).
-$$
+## 13. Diagramas com três classes
 
-Elimine a seta:
+Quando houver três classes:
 
-$$
-\neg(\neg p \lor q).
-$$
+1. desenhe as sobreposições ainda possíveis;
+2. lance primeiro as premissas universais, hachurando as regiões proibidas;
+3. depois posicione os X das premissas existenciais;
+4. se o X puder ocupar duas sub-regiões, mantenha-o sobre a fronteira pertinente;
+5. não acrescente relação que não esteja nas premissas.
 
-Aplique De Morgan:
+A ordem ajuda a evitar que um X seja colocado em região que uma universal já tornou impossível.
 
-$$
-\neg\neg p \land \neg q.
-$$
+## 14. Padrões de inferência diagramática
 
-Aplique dupla negação:
+### 14.1. Inclusões encadeadas
 
-$$
-p \land \neg q.
-$$
-
-Outro exemplo:
+Se:
 
 $$
-(p \land q) \lor (p \land \neg q).
+A\subseteq B
+\quad\text{e}\quad
+B\subseteq C,
 $$
 
-Coloque $p$ em evidência pela distributividade:
+então:
 
 $$
-p \land (q \lor \neg q).
+A\subseteq C.
 $$
 
-Use complemento:
+Logo, de “todo auditor é servidor” e “todo servidor é capacitado” segue “todo auditor é capacitado”.
 
-$$
-p \land \top.
-$$
-
-Use identidade:
-
-$$
-p.
-$$
-
-Logo:
-
-$$
-(p \land q) \lor (p \land \neg q) \equiv p.
-$$
-
-## 12. Como conferir uma simplificação
-
-1. Preserve os parênteses no primeiro registro.
-2. Identifique o conectivo principal.
-3. Elimine $\to$ e $\leftrightarrow$ se isso simplificar a expressão.
-4. Empurre negações para dentro com De Morgan.
-5. Elimine duplas negações.
-6. Procure complementos, identidades, repetições e absorções.
-7. Registre a lei usada em cada passagem.
-8. Se o resultado parecer duvidoso, compare tabelas-verdade ou busque uma atribuição divergente.
-
-Não “cancele” letras como em uma fração. Fórmulas lógicas obedecem às leis de equivalência, não a cancelamentos informais.
-
-## 13. O que são diagramas lógicos
-
-No uso de Raciocínio Lógico adotado pelo CEBRASPE, **diagramas lógicos** representam classes e proposições categóricas. Eles não são diagramas de portas digitais.
-
-Uma classe reúne os objetos que possuem determinada característica:
-
-- $A$: auditores;
-- $B$: servidores;
-- $C$: pessoas capacitadas.
-
-Os círculos ou regiões mostram quais combinações de características são permitidas, proibidas ou expressamente existentes.
-
-Diagramas de **Euler** costumam desenhar diretamente relações como inclusão e separação. Diagramas de **Venn** particionam todas as regiões possíveis e usam hachura e marcas de existência. Em questões de concurso, o essencial é interpretar corretamente as regiões; o enunciado pode usar “diagrama lógico” sem exigir distinção histórica entre as duas técnicas.
-
-## 14. Convenção usada neste material
-
-Para evitar ambiguidades, adotaremos:
-
-- região **hachurada**: região vazia, proibida pelas premissas;
-- marca **X**: existe ao menos um objeto naquela região;
-- região em branco: nenhuma informação suficiente para afirmar que está vazia ou ocupada;
-- X sobre uma fronteira: o objeto existe, mas as premissas não determinam em qual das regiões adjacentes ele está.
-
-![Quatro diagramas categóricos: todo A é B, nenhum A é B, algum A é B e algum A não é B.](./images/formas-categoricas.svg)
-
-## 15. As quatro formas categóricas
-
-### 15.1. Todo $A$ é $B$
-
-$$
-A \subseteq B.
-$$
-
-A região de $A$ fora de $B$ deve estar vazia. Todo objeto que pertença a $A$ também pertence a $B$.
-
-Exemplo:
-
-> Todo auditor do setor é servidor.
-
-Isso não autoriza a conversa “todo servidor é auditor”. Pode haver servidores fora da classe dos auditores.
-
-### 15.2. Nenhum $A$ é $B$
-
-$$
-A \cap B=\varnothing.
-$$
-
-A interseção deve estar vazia. As classes podem existir separadamente, mas não compartilham objeto.
-
-Exemplo:
-
-> Nenhum relatório sigiloso é de acesso irrestrito.
-
-A exclusão é simétrica: se nenhum $A$ é $B$, então nenhum $B$ é $A$.
-
-### 15.3. Algum $A$ é $B$
-
-$$
-A \cap B\neq\varnothing.
-$$
-
-Há pelo menos um objeto na interseção. A marca X registra essa existência.
-
-Exemplo:
-
-> Algum servidor é auditor.
-
-A proposição também garante “algum auditor é servidor”, pois o mesmo objeto pertence às duas classes.
-
-### 15.4. Algum $A$ não é $B$
-
-$$
-A \setminus B\neq\varnothing.
-$$
-
-Há pelo menos um objeto em $A$ e fora de $B$.
-
-Exemplo:
-
-> Algum servidor não é auditor.
-
-Isso não equivale a “algum auditor não é servidor”: a posição das classes importa.
-
-## 16. Universais não garantem existência
-
-Na interpretação moderna adotada para esses problemas, as proposições universais não afirmam, sozinhas, que a classe inicial possua membros.
-
-> Todo unicórnio é mamífero.
-
-Essa universal apenas proíbe unicórnios fora da classe dos mamíferos. Ela não afirma que unicórnios existam.
-
-Consequências importantes:
-
-- de “todo $A$ é $B$” não se conclui “algum $A$ é $B$” sem premissa existencial;
-- “todo $A$ é $B$” e “nenhum $A$ é $B$” podem ser simultaneamente satisfeitas se $A$ estiver vazia;
-- uma marca X só pode ser introduzida por afirmação existencial ou por informação individual equivalente.
-
-Se uma questão declarar outra convenção de importação existencial, siga o enunciado. Sem declaração, não invente existência a partir de universal.
-
-## 17. Conversões seguras e inseguras
-
-| Forma original | Conversão | Situação |
-|---|---|---|
-| Nenhum $A$ é $B$ | Nenhum $B$ é $A$ | válida |
-| Algum $A$ é $B$ | Algum $B$ é $A$ | válida |
-| Todo $A$ é $B$ | Todo $B$ é $A$ | inválida em geral |
-| Algum $A$ não é $B$ | Algum $B$ não é $A$ | inválida em geral |
-
-Interseção e exclusão são simétricas; inclusão e diferença orientada não são.
-
-## 18. Diagramas com três classes
-
-Com três classes $A$, $B$ e $C$, o diagrama distingue oito regiões básicas: dentro ou fora de cada uma das três classes. Nem sempre será necessário nomear todas; o importante é não fundir regiões que as premissas deixam diferentes.
-
-### 18.1. Ordem de lançamento das premissas
-
-1. Desenhe as classes necessárias com todas as sobreposições ainda possíveis.
-2. Lance primeiro as premissas universais, hachurando regiões vazias.
-3. Lance depois as premissas existenciais, colocando X apenas em região permitida.
-4. Se a posição exata do X não for determinada, mantenha-o sobre a fronteira relevante.
-5. Verifique a conclusão sem acrescentar informação.
-
-Começar pelas universais reduz as posições possíveis dos objetos existenciais.
-
-### 18.2. X em região determinada
-
-Premissas:
-
-1. Todo cientista é estudioso.
-2. Algum cientista é inventor.
-
-O objeto da segunda premissa está na interseção “cientista e inventor”. Como todo cientista é estudioso, o mesmo X também deve ficar dentro de “estudioso”. Logo:
-
-> Algum estudioso é inventor.
-
-A conclusão é necessária.
-
-### 18.3. X sobre fronteira
-
-Premissas:
-
-1. Algum $A$ é $B$.
-2. Nenhuma informação relaciona esse objeto a $C$.
-
-O X deve ficar na interseção $A \cap B$, mas pode estar dentro ou fora de $C$. Se o desenho separa essas duas sub-regiões, marque o X sobre a fronteira de $C$. Não escolha uma delas por conveniência.
-
-## 19. Teste de conclusões categóricas
-
-Uma conclusão é **necessária** quando aparece em todos os diagramas compatíveis com as premissas. É apenas **possível** quando aparece em pelo menos um desenho admissível, mas falta em outro. É **incompatível** quando viola alguma região vazia ou exigência existencial.
-
-### 19.1. Encadeamento válido de inclusões
-
-Premissas:
-
-1. Todo auditor é servidor.
-2. Todo servidor é capacitado.
-
-Então todo auditor é capacitado, pois:
-
-$$
-A \subseteq S \quad\text{e}\quad S \subseteq C
-\quad\Longrightarrow\quad
-A \subseteq C.
-$$
-
-Não se conclui que existam auditores.
-
-### 19.2. Existência transferida por inclusão
+### 14.2. Existência no conjunto menor sobe para o maior
 
 Premissas:
 
 1. Todo auditor é servidor.
 2. Algum auditor é gestor.
 
-O objeto que é auditor e gestor também é servidor. Logo, algum servidor é gestor.
+O objeto que é auditor e gestor também é servidor. Portanto, algum servidor é gestor.
 
-### 19.3. Existência no conjunto maior não volta ao menor
+### 14.3. Existência no conjunto maior não desce para o menor
 
 Premissas:
 
@@ -731,147 +420,72 @@ Premissas:
 
 O servidor gestor pode estar fora da classe dos auditores. Portanto, não é necessário que algum auditor seja gestor.
 
-### 19.4. Exclusão combinada com existência
+### 14.4. Inclusão e exclusão
 
-Premissas:
+Se todo $A$ é $B$ e nenhum $B$ é $C$, então nenhum $A$ é $C$.
 
-1. Nenhum auditor é terceirizado.
-2. Algum analista é auditor.
+### 14.5. Existência e exclusão
 
-O analista indicado pela segunda premissa não pode ser terceirizado. Logo, algum analista não é terceirizado.
+Se algum $A$ é $B$ e nenhum $B$ é $C$, o objeto existente em $A\cap B$ está fora de $C$. Logo, algum $A$ não é $C$.
 
-### 19.5. Inclusão seguida de exclusão
+## 15. Necessário, possível e incompatível
 
-Premissas:
+Uma conclusão é:
 
-1. Todo $A$ é $B$.
-2. Nenhum $B$ é $C$.
+- **necessária** quando vale em todos os diagramas compatíveis com as premissas;
+- **possível** quando vale em pelo menos um diagrama admissível, mas não em todos;
+- **incompatível** quando viola alguma restrição das premissas.
 
-Todo membro de $A$, se houver, pertence a $B$ e, por isso, fica fora de $C$. Logo, nenhum $A$ é $C$.
+Para refutar a necessidade de uma conclusão, basta construir um único diagrama compatível em que ela seja falsa.
 
-### 19.6. Conclusão que exige existência indevida
+## 16. Pegadinhas recorrentes
 
-Premissas:
+- Mesma verdade em uma linha não prova equivalência.
+- Conversa não é contrapositiva.
+- $\neg(p\to q)\equiv p\land\neg q$.
+- De Morgan nega cada parcela **e troca o conectivo**.
+- Parênteses definem o alcance da negação.
+- Não existe cancelamento informal de letras proposicionais.
+- “Todo $A$ é $B$” não implica “todo $B$ é $A$”.
+- No método diagramático adotado, universal sozinha não autoriza inserir X.
+- Região em branco não significa região ocupada.
+- X não deve ser colocado na posição mais conveniente quando as premissas deixam alternativas.
+- Conclusão apenas possível não é conclusão necessária.
 
-1. Todo $A$ é $B$.
-2. Algum $B$ existe.
+## 17. Roteiro de resolução
 
-O membro de $B$ pode estar fora de $A$. Não se conclui que algum $A$ exista.
+### Equivalências e De Morgan
 
-## 20. Diagrama e validade de argumentos
+1. Preserve agrupamentos.
+2. Identifique a fórmula que precisa ser transformada.
+3. Use equivalências centrais de $\to$ e $\leftrightarrow$ quando necessário.
+4. Aplique De Morgan e dupla negação.
+5. Simplifique por leis reconhecíveis.
+6. Confira por tabela ou contraexemplo se houver dúvida.
 
-O diagrama não pergunta se as classes correspondem a fatos reais. Ele testa se a conclusão decorre da forma das premissas.
+### Diagramas
 
-Procedimento:
-
-1. aceite provisoriamente todas as premissas;
-2. represente exatamente as restrições e existências que elas fornecem;
-3. mantenha abertas as regiões sobre as quais nada foi dito;
-4. procure um diagrama alternativo compatível em que a conclusão seja falsa;
-5. se esse contraexemplo existir, a conclusão não é necessária;
-6. se todos os diagramas admissíveis contiverem a conclusão, o argumento é válido quanto à forma.
-
-Uma figura conveniente não prova validade. O desenho deve representar todas as possibilidades ainda abertas, ou a análise deve verificar cada arranjo admissível.
-
-## 21. Relação entre equivalências e diagramas
-
-Os dois blocos usam a mesma disciplina de preservação semântica:
-
-- em equivalências, uma transformação é válida se preserva o valor em todas as atribuições;
-- em argumentos diagramáticos, uma conclusão é válida se é preservada em todos os diagramas compatíveis com as premissas.
-
-Em ambos os casos, um único contraexemplo basta para refutar a pretensão universal:
-
-- uma linha divergente refuta uma equivalência;
-- um diagrama admissível sem a conclusão refuta a validade categórica.
-
-Não se deve, porém, misturar os níveis. Letras proposicionais representam afirmações inteiras; círculos representam classes de objetos. A expressão $p \to q$ não é desenhada como se $p$ e $q$ fossem automaticamente conjuntos de pessoas.
-
-## 22. Erros recorrentes de prova
-
-### 22.1. Trocar “equivalente” por “verdadeiro na linha”
-
-Equivalência exige todas as atribuições. Uma coincidência pontual não basta.
-
-### 22.2. Tratar conversa como contrapositiva
-
-$q \to p$ é a conversa. A contrapositiva de $p \to q$ é $\neg q \to \neg p$.
-
-### 22.3. Negar a condicional como outra condicional
-
-A negação de $p \to q$ é $p \land \neg q$, e não $\neg p \to \neg q$.
-
-### 22.4. Aplicar De Morgan sem trocar o conectivo
-
-$$
-\neg(p \lor q) \not\equiv \neg p \lor \neg q.
-$$
-
-A forma correta troca $\lor$ por $\land$.
-
-### 22.5. Negar apenas uma parcela
-
-Ao negar uma conjunção ou disjunção completa, a negação alcança todas as componentes segundo De Morgan.
-
-### 22.6. Cancelar letras informalmente
-
-Não existe cancelamento algébrico geral de ocorrências proposicionais. Use distributividade, absorção, complemento e demais leis identificáveis.
-
-### 22.7. Inverter inclusão
-
-De “todo $A$ é $B$” não segue “todo $B$ é $A$”. O círculo menor pode ocupar apenas parte do maior.
-
-### 22.8. Criar existência a partir de universal
-
-Uma região não hachurada não contém automaticamente um objeto. Somente uma premissa existencial justifica X.
-
-### 22.9. Colocar X em região arbitrária
-
-Se as premissas deixam duas posições possíveis, mantenha a ambiguidade. Escolher a posição que favorece a conclusão acrescenta informação.
-
-### 22.10. Confundir possível com necessário
-
-Uma conclusão desenhável pode ser apenas compatível. Para ser necessária, deve aparecer em todo arranjo admitido.
-
-## 23. Roteiro de resolução
-
-### 23.1. Questão de equivalência
-
-1. Identifique as fórmulas comparadas.
-2. Preserve o agrupamento.
-3. Elimine setas e bicondicionais quando útil.
-4. Aplique De Morgan e dupla negação com alcance correto.
-5. Simplifique por leis nomeáveis.
-6. Confira se a transformação preserva todas as atribuições.
-7. Para refutar, procure uma linha divergente.
-
-### 23.2. Questão de diagrama
-
-1. Defina uma classe para cada termo.
+1. Defina as classes.
 2. Traduza “todo”, “nenhum”, “algum” e “algum não”.
-3. Hachure primeiro as regiões proibidas pelas universais.
-4. Posicione depois os X exigidos pelas existenciais.
-5. Não introduza X sem premissa.
-6. Preserve posições indeterminadas sobre fronteiras.
-7. Verifique se a conclusão vale em todos os desenhos admissíveis.
+3. Hachure regiões proibidas pelas universais.
+4. Posicione X apenas quando houver informação existencial.
+5. Preserve posições indeterminadas.
+6. Teste a conclusão em todos os arranjos compatíveis.
 
-## 24. Síntese
+## 18. Síntese
 
-- Equivalência lógica exige colunas finais idênticas em todas as atribuições.
-- $P \equiv Q$ se e somente se $P \leftrightarrow Q$ é tautologia.
-- Uma atribuição divergente refuta a equivalência.
-- $p \to q \equiv \neg p \lor q \equiv \neg q \to \neg p$.
-- $\neg(p \to q) \equiv p \land \neg q$.
-- $p \leftrightarrow q$ exige as duas condicionais e valores iguais.
-- De Morgan nega cada componente e troca $\land$ por $\lor$, ou $\lor$ por $\land$.
-- “Todo $A$ é $B$” esvazia $A$ fora de $B$, mas não afirma que $A$ exista.
-- “Nenhum” esvazia a interseção; “algum” exige X na região indicada.
-- Conclusão diagramática necessária aparece em todos os diagramas compatíveis.
-- Uma linha ou um diagrama contraexemplo basta para refutar uma pretensão universal.
+- Equivalência exige o mesmo valor em todas as atribuições.
+- Uma linha divergente refuta equivalência.
+- $p\to q\equiv\neg p\lor q\equiv\neg q\to\neg p$.
+- $\neg(p\to q)\equiv p\land\neg q$.
+- $p\leftrightarrow q$ exige valores iguais; sua negação exige valores diferentes.
+- De Morgan troca $\land$ por $\lor$ e vice-versa, negando todas as parcelas.
+- Diagramas representam classes e restrições de inclusão, exclusão e existência.
+- No método adotado, universais hachuram regiões; existenciais inserem X.
+- Uma conclusão categórica necessária deve valer em todo diagrama compatível.
 
 ## Referências
 
-- CEBRASPE. [Edital do concurso público do TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. Conteúdo programático vigente consultado em 18 jul. 2026.
-- CEBRASPE. [Caderno CB1 de nível superior da Prefeitura de São Cristóvão/SE](https://cdn.cebraspe.org.br/concursos/PREF_SAO_CRISTOVAO_SE_23/arquivos/823_PREF_SAO_CRISTOVAO_CB1_01_%28NVEL_SUPERIOR%29.PDF). Questões 19 e 20 sobre representação diagramática de argumento categórico. Consultado em 18 jul. 2026.
-- PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO PAULO. [O cálculo de predicados de primeira ordem](https://www4.pucsp.br/~logica/CalculodePredicados.htm). Material de Celina Abar sobre enunciados categóricos, diagramas de Venn e validade. Consultado em 18 jul. 2026.
-- UNIVERSIDADE FEDERAL DE MINAS GERAIS. [Fundamentos da lógica](https://homepages.dcc.ufmg.br/~loureiro/md/md_1FundamentosDaLogica.pdf). Departamento de Ciência da Computação. Material didático sobre equivalências, condicionais e leis de De Morgan consultado em 18 jul. 2026.
+- CEBRASPE. [Edital do concurso público do TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático vigente consultado em 2026.
+- UNIVERSIDADE FEDERAL DE MINAS GERAIS. [Fundamentos da lógica](https://homepages.dcc.ufmg.br/~loureiro/md/md_1FundamentosDaLogica.pdf). Departamento de Ciência da Computação.
+- UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL. [Lógica proposicional](https://www.facom.ufms.br/~eah/ftc/logica-4p.pdf). Faculdade de Computação.
