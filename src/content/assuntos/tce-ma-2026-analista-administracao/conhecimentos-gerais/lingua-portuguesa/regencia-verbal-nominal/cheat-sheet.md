@@ -17,6 +17,16 @@
 5. Teste pronome, passiva e relativo.
 6. Preserve sentido e paralelismo na reescrita.
 
+## Hierarquia de prova
+
+| Situação | Conduta segura |
+| --- | --- |
+| comando pede norma-padrão | escolha primeiro a construção tradicional de menor controvérsia |
+| há variante documentada | não transforme preferência normativa em proibição universal sem apoio do comando |
+| reescrita | preserve simultaneamente sentido, preposição, função e paralelismo |
+
+**Forma segura primeiro; variante depois.** Ex.: *assistir ao filme* e *visar ao objetivo* são as respostas conservadoras, ainda que usos diretos sejam documentados no português brasileiro.
+
 ## Mudança de sentido
 
 | Verbo | Sem preposição | Com preposição |
@@ -37,7 +47,6 @@
 - **acarretar algo**: a falha acarretou custos; evite *acarretar em* na forma tradicional.
 - **responder a** pergunta/pessoa; responder **que**; responder **por** atos.
 - **ir a/para**, **chegar a**, **voltar de/a/para**.
-- **chegar em** e **ir em** são comuns no Brasil; em prova conservadora, use *a/para*.
 
 ## Dois complementos
 
@@ -50,7 +59,7 @@
 
 - “Informei-**lhe o fato**” / “informei-**o do fato**”.
 - “Paguei-**lhe a dívida**”; “perdoei-**lhe a ofensa**”.
-- Evite misturar esquemas: *informei-lhe do fato*.
+- Não misture esquemas: *informei-lhe do fato*.
 
 ## Construções pronominais
 
@@ -61,15 +70,17 @@
 - **chamar alguém (de) algo** = atribuir nome/qualidade; há variantes.
 - **custar a alguém + infinitivo**: “custou-me aceitar”.
 
-## Variantes documentadas
+## Variantes que exigem atenção
 
-- atender alguém / atender a alguém;
-- usufruir algo / usufruir de algo;
-- presidir a sessão / presidir à sessão;
-- deparar com / deparar-se com;
-- assistir o filme e visar o objetivo ocorrem no uso brasileiro, mas a prova tradicional tende a preferir **assistir a** e **visar a**.
-
-Não condene variante registrada com enunciado absoluto sem referência normativa.
+| Forma segura em prova normativa | Variante documentada |
+| --- | --- |
+| assistir **ao** filme | assistir o filme |
+| visar **ao** objetivo | visar o objetivo |
+| atender o usuário / atender ao usuário | ambas documentadas |
+| usufruir dos benefícios / usufruir os benefícios | ambas documentadas |
+| presidir a sessão / presidir à sessão | ambas documentadas |
+| deparar com / deparar-se com | ambas documentadas |
+| chegar **à** sede | chegar na sede é frequente no uso brasileiro |
 
 ## Pronomes oblíquos
 
@@ -104,7 +115,7 @@ Não condene variante registrada com enunciado absoluto sem referência normativ
 
 - Queísmo: retirar preposição exigida: *certeza que*.
 - Dequeísmo: inserir *de* sem regência: *afirmou de que*.
-- “Lembro-me que” tem registro; “lembro-me **de que**” é a forma conservadora inequívoca.
+- “Lembro-me **de que**” é a forma conservadora inequívoca.
 
 ## Relativos
 
@@ -126,7 +137,8 @@ Não condene variante registrada com enunciado absoluto sem referência normativ
 
 ### Substantivos
 
-- acesso, adesão, alusão, aversão, referência **a**;
+- acesso, adesão, alusão, referência **a**;
+- aversão **a/por**;
 - compatibilidade, conformidade **com**;
 - necessidade **de**;
 - capacidade **de/para**;
@@ -134,8 +146,10 @@ Não condene variante registrada com enunciado absoluto sem referência normativ
 
 ### Adjetivos
 
-- acessível, alheio, avesso, equivalente, favorável, fiel, inerente, preferível, propenso, sensível **a**;
+- acessível, avesso, equivalente, favorável, fiel, inerente, preferível, sensível **a**;
+- **alheio a/de**;
 - adequado, apto **a/para**;
+- **propenso a/para**;
 - compatível **com**;
 - digno, passível **de**;
 - hábil **em**;
@@ -175,4 +189,4 @@ Um único complemento não serve automaticamente a regentes diferentes.
 5. A preposição foi mantida antes de **que** ou do relativo?
 6. Regentes coordenados têm construções compatíveis?
 7. A reescrita preserva o sentido?
-8. A banca trata regra conservadora ou variante documentada?
+8. A questão cobra a forma normativa preferencial ou discute variação documentada?
