@@ -1,49 +1,116 @@
 # Classes invariáveis de palavras
 
+## Regra-mãe
+
+**Não classifique pela forma isolada. Classifique pelo emprego no contexto.**
+
+| Pergunta | Pista |
+| --- | --- |
+| modifica verbo/adjetivo/advérbio ou oração? | advérbio |
+| liga termo a termo subordinando o segundo? | preposição |
+| conecta orações/termos com relação lógico-gramatical? | conjunção |
+| exprime reação/apelo como enunciado? | interjeição |
+
 ## Advérbio
 
-- Modifica verbo, adjetivo, outro advérbio ou oração.
-- Valores: lugar, tempo, modo, intensidade (inclusive aproximação), afirmação, negação e dúvida.
-- `discurso alto`: adjetivo; `falar alto`: valor adverbial.
-- `meia hora`, `muitas candidatas`, `bastantes motivos`: emprego nominal variável.
-- `meio cansada`, `muito cansadas`, `bastante preparadas`: emprego adverbial invariável.
-- Locuções: `à tarde`, `às pressas`, `de repente`, `com certeza`, `em breve`.
+- Valores frequentes: lugar, tempo, modo, intensidade, afirmação, negação e dúvida.
+- Locução adverbial: `à tarde`, `às pressas`, `de repente`, `com certeza`.
+
+### Variável × invariável
+
+| Emprego nominal | Emprego adverbial |
+| --- | --- |
+| `meia hora` | `meio cansadas` |
+| `bastantes motivos` | `bastante preparadas` |
+| `muitas candidatas` | `estudaram muito` |
+| `poucos recursos` | `trabalharam pouco` |
+
+**Adverbial = invariável.**
+
+`parede alta` → adjetivo  
+`falar alto` → advérbio
 
 ## Preposição
 
-- Liga termos e subordina o segundo ao primeiro.
-- Valores contextuais: origem, direção, causa, finalidade, companhia, instrumento, assunto e oposição.
-- Também pode indicar agente, matéria e tempo.
-- Acidentais: palavras de outras classes em uso prepositivo, como `segundo`, `conforme` e `mediante`.
-- Locuções: `a fim de`, `diante de`, `por causa de`, `em vez de`, `acerca de`.
-- Combinação: `ao = a + o`.
-- Contração: `do`, `no`, `pelo`, `daquele`.
-- Crase: confira preposição `a` + artigo feminino ou pronome demonstrativo/relativo cabível.
+- Liga termos e cria relação contextual: causa, finalidade, origem, direção, companhia, meio, matéria, assunto, oposição, tempo etc.
+- Locuções: `a fim de`, `por causa de`, `em vez de`, `acerca de`, `de acordo com`.
+- Combinação/contração ajudam a reconhecer a preposição: `ao`, `do`, `no`, `pelo`.
+
+### Polifuncionais
+
+| Forma | Exemplo | Classe |
+| --- | --- | --- |
+| `segundo` | `segundo candidato` | numeral |
+| `segundo` | `segundo o edital` | preposição acidental |
+| `conforme` | `conforme o edital` | preposição acidental |
+| `conforme` | `conforme prevê o edital` | conjunção conformativa |
 
 ## Conjunção
 
-| Coordenativa | Valor |
-| --- | --- |
-| aditiva | soma |
-| adversativa | contraste |
-| alternativa | escolha |
-| conclusiva | conclusão |
-| explicativa | justificativa |
+### Valores suficientes para este assunto
 
-| Subordinativa | Valor |
+| Relação | Exemplos |
 | --- | --- |
-| integrante | oração substantiva |
-| causal / condicional / concessiva | causa / condição / obstáculo não impeditivo |
-| comparativa / conformativa / consecutiva | comparação / conformidade / consequência |
-| final / proporcional / temporal | finalidade / variação correlata / tempo |
+| adição | `e`, `nem` |
+| contraste | `mas`, `porém` |
+| alternância | `ou`, `ora... ora` |
+| conclusão | `logo`, `portanto`, `pois` em certos usos |
+| explicação | `porque`, `que`, `pois` em certos usos |
+| causa | `porque`, `como` |
+| condição | `se`, `caso` |
+| concessão | `embora`, `ainda que` |
+| conformidade | `conforme`, `segundo` |
+| finalidade | `para que`, `a fim de que` |
+| tempo | `quando` |
 
-- Valor de `porque`, `pois`, `como` e `se` é contextual.
-- Troca de conectivo exige preservar sentido, estrutura e pontuação.
-- Não existe regra de que toda conjunção exige vírgula.
+**Detalhamento sintático completo = assuntos 009/010.**
+
+### Mesma forma, emprego diferente
+
+| Forma | Contexto 1 | Contexto 2 |
+| --- | --- | --- |
+| `pois` | após ordem: explicação | deslocado/após verbo: conclusão |
+| `se` | `não sei se virá` = integrante | `se vier` = condição |
+| `que` | `disse que viria` = conjunção | `texto que chegou` = pronome relativo |
+| `quando` | `quando chegou` = conjunção | `quando chegará?` = advérbio interrogativo |
+| `ora` | `ora lê, ora escreve` = alternância | `ora!` = interjeição |
+
+### Locução prepositiva × conjuntiva
+
+`a fim de` + infinitivo → locução prepositiva  
+`a fim de que` + oração → locução conjuntiva final
+
+## Valor lógico ≠ classe
+
+`por isso`, `assim`, `desse modo` podem marcar conclusão/consequência.
+
+**Pegadinha:** ter valor conclusivo não transforma automaticamente a expressão em conjunção.
 
 ## Interjeição
 
-- Exprime reação, emoção, apelo, saudação, advertência ou chamamento.
-- Exemplos: `ah!`, `ai!`, `ufa!`, `olá!`, `psiu!`, `socorro!`.
-- Locuções: `ai de mim!`, `ora bolas!`, `meu Deus!`.
-- Exclamação frequente não é critério único: analise a função expressiva.
+- reação/apelo/saudação/advertência: `ah!`, `ufa!`, `olá!`, `psiu!`, `epa!`.
+- locução interjetiva: `meu Deus!`, `ora bolas!`, `ai de mim!`.
+- `!` sozinho não define a classe.
+
+## Matriz final
+
+| Forma | Emprego 1 | Emprego 2 |
+| --- | --- | --- |
+| `alto` | adjetivo | advérbio |
+| `meio` | nominal variável | advérbio invariável |
+| `bastante` | nominal variável | advérbio invariável |
+| `segundo` | numeral | preposição |
+| `conforme` | preposição | conjunção |
+| `que` | conjunção | pronome relativo |
+| `quando` | conjunção | advérbio interrogativo |
+| `ora` | alternância | interjeição |
+
+## Pegadinhas
+
+- classe morfológica ≠ função sintática;
+- valor semântico ≠ classe morfológica;
+- `que`, `quando`, `conforme`, `segundo`, `ora` não têm classe única em todos os contextos;
+- advérbio não concorda: `elas estão meio cansadas`;
+- locução é classificada pela função do conjunto;
+- conjunção não implica vírgula automática;
+- não transforme este assunto em coordenação/subordinação completas.
