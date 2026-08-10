@@ -1,112 +1,152 @@
 # Subordinação entre orações e termos
 
-## Base
+## Regra-mãe
 
-- Coordenação: unidades do mesmo nível.
-- Subordinação: unidade integra ou modifica outra.
-- Critério central: função sintática, não “sentido completo”.
-- Termo dependente pode completar ou modificar verbo/nome.
-- Preposição isolada não distingue complemento de adjunto.
-- Unidades podem coordenar-se entre si e subordinar-se em conjunto.
+**Subordinação = dependência sintática.** Pergunte sempre:
+
+1. qual é o núcleo/regente?
+2. qual função a unidade dependente exerce?
+3. ela completa, modifica ou circunstancia?
+
+“Ter sentido completo” **não** decide coordenação × subordinação.
+
+## Entre termos
+
+| Estrutura | Leitura |
+| --- | --- |
+| relatório **sigiloso** | modificação do nome |
+| favorável **ao recurso** | complemento do adjetivo |
+| confiar **na equipe** | complemento do verbo |
+| agir **com cautela** | circunstância verbal |
+
+### Complemento nominal × adjunto adnominal
+
+| Pista | Complemento nominal | Adjunto adnominal |
+| --- | --- | --- |
+| liga-se a | nome, adjetivo ou advérbio | substantivo |
+| papel frequente | alvo/conteúdo/complemento | agente/possuidor/origem/matéria/característica |
+| exemplo | amor **à mãe** | amor **de mãe** |
+
+**Preposição sozinha não decide.**
 
 ## Substantivas
 
-| Tipo | Exemplo | Função |
+| Tipo | Pergunta prática | Exemplo |
 | --- | --- | --- |
-| subjetiva | Convém **que revisem**. | sujeito |
-| objetiva direta | Informou **que terminou**. | objeto direto |
-| objetiva indireta | Duvida **de que baste**. | objeto indireto |
-| completiva nominal | Esperança **de que aceitem**. | complemento nominal |
-| predicativa | A verdade é **que expirou**. | predicativo |
-| apositiva | Um pedido: **que revisem**. | aposto |
+| subjetiva | o que é/convém/ocorre? | Convém **que revisem**. |
+| objetiva direta | verbo + o quê? | Informou **que terminou**. |
+| objetiva indireta | verbo + prep. + quê? | Duvida **de que baste**. |
+| completiva nominal | nome + prep. + quê? | Esperança **de que aceitem**. |
+| predicativa | sujeito = quê? | A verdade é **que expirou**. |
+| apositiva | explica termo anterior | Um pedido: **que revisem**. |
 
-- Teste de **isso** é pista, não prova única.
-- Objetiva indireta: regente é verbo.
-- Completiva nominal: regente é nome/adjetivo/advérbio.
-- Apositiva costuma explicar termo genérico após dois-pontos.
+**Teste de `isso` = pista, não prova única.**
 
-## Que e se
+### Duas distinções-chave
 
-- **que** integrante: não retoma antecedente nem tem função interna.
-- **que** relativo: retoma antecedente e exerce função na subordinada.
-- **se** integrante: pergunta indireta total: “Não sei se virá”.
-- **se** condicional: estabelece condição: “Se vier, avise”.
-- Classifique pela relação com a matriz, não pela palavra isolada.
+- objetiva indireta → regente **verbal**;
+- completiva nominal → regente **nominal**.
+
+- `que` integrante → não retoma antecedente;
+- `que` relativo → retoma antecedente e exerce função interna.
+
+- `se` integrante → “Não sei **se virá**”;
+- `se` condicional → “**Se vier**, avise”.
 
 ## Adjetivas
 
 | Tipo | Efeito | Pontuação |
 | --- | --- | --- |
-| restritiva | seleciona subconjunto | sem vírgulas, em regra |
+| restritiva | seleciona subconjunto | sem isolamento, em regra |
 | explicativa | comentário sobre referente identificado | isolada |
 
-- Relativo conecta, retoma antecedente e exerce função interna.
-- **quem**: antecedente humano; recebe preposição exigida.
-- **o qual**: explicita gênero/número e pode reduzir ambiguidade.
-- **cujo**: posse; concorda com o possuído; sem artigo depois.
-- **onde**: lugar; para situação/tema, use **em que** quando cabível.
-- Preposição exigida vem antes do relativo: “norma **a que** obedeceu”.
+**Relativo = conecta + retoma + exerce função interna.**
+
+### Relativos
+
+- `que`: geral;
+- `quem`: pessoa; aceita preposição exigida;
+- `o qual`: reduz ambiguidade;
+- `cujo`: posse; concorda com o possuído; **sem artigo depois**;
+- `onde`: lugar.
+
+**Teste:** recoloque o antecedente dentro da subordinada.
+
+> a norma **a que** obedeceu → “obedeceu **à norma**”.
 
 ## Adverbiais
 
-| Tipo | Marcas frequentes |
+| Relação | Marcas frequentes |
 | --- | --- |
-| causal | porque, como, já que, visto que |
-| consecutiva | tão/tanto/tal/tamanho... que |
-| condicional | se, caso, contanto que |
-| concessiva | embora, ainda que, mesmo que |
-| comparativa | como, que, do que, quanto |
-| conformativa | conforme, segundo, como |
-| final | para que, a fim de que |
-| proporcional | à medida que, quanto mais... mais |
-| temporal | quando, enquanto, assim que |
+| causa | porque, como, já que |
+| consequência | tão/tanto/tal... que |
+| condição | se, caso |
+| concessão | embora, ainda que |
+| comparação | como, do que, quanto |
+| conformidade | conforme, segundo, como |
+| finalidade | para que, a fim de que |
+| proporção | à medida que, quanto mais... mais |
+| tempo | quando, enquanto, assim que |
 
-- Conectivo é pista; contexto define a relação.
-- **caso/embora** tendem a selecionar subjuntivo.
+**Conectivo é pista; contexto decide.**
 
-## Reduzidas
+## Fronteiras de prova
 
-- Infinitivo: “Para evitar erros, revise”.
-- Gerúndio: “Havendo recurso, reexamine”.
-- Particípio: “Terminada a sessão, saíram”.
-- Redução é forma: pode haver substantiva, adjetiva ou adverbial reduzida.
-- Adjetiva reduzida: “documentos enviados ontem” = “que foram enviados ontem”.
-- Forma nominal não fixa o sentido.
-- Conversão exige preservar sujeito, tempo, modo e relação.
-- Infinitivo pode flexionar: “os servidores revisarem”.
+| Subordinação | Coordenação próxima |
+| --- | --- |
+| causa: “Atrasou porque faltou documento.” | explicação: “Confira, porque falta documento.” |
+| consequência: “Tantos erros que refez.” | conclusão: “Muitos erros; portanto, refez.” |
+| concessão: “Embora chovesse, saiu.” | adversidade: “Chovia, mas saiu.” |
 
-## Estruturas
+## Desenvolvidas × reduzidas
 
-- Encaixamento: analise do nível interno para o externo.
-- **tão... que**: consecutiva correlativa.
-- **quanto mais... mais**: proporcional correlativa.
-- **não apenas... mas também**: coordenação aditiva.
-- Intercalada é posição parentética, não classe subordinativa.
+- desenvolvida: verbo flexionado + conectivo, em geral;
+- reduzida de infinitivo: **Para evitar erros**, revise;
+- reduzida de gerúndio: **Havendo recurso**, reexamine;
+- reduzida de particípio: **Terminada a sessão**, saíram.
 
-## Fronteiras
+**Forma nominal ≠ função.** Pode haver substantiva, adjetiva ou adverbial reduzida.
 
-- Causa: “Atrasou porque faltou documento”.
-- Explicação: “Confira, porque falta documento”.
-- Consequência: “Tantos erros que refez”.
-- Conclusão: “Muitos erros; portanto, refez”.
-- Concessão: “Embora chovesse, saiu”.
-- Adversidade: “Chovia, mas saiu”.
-- Comparativa pode conter verbo elíptico.
+Ao desenvolver, preserve:
 
-## Pontuação
+**sujeito + tempo + modo + relação semântica**.
 
-- Restritiva: normalmente sem vírgulas.
-- Explicativa: isolada.
-- Adverbial anteposta/intercalada: normalmente isolada.
-- Substantiva sujeito/complemento: sem separação do regente.
-- Apositiva: pode vir após dois-pontos.
+## Encaixamento
 
-## Método
+> Afirmou **[que demonstrou [que os dados eram insuficientes]]**.
 
-1. Marque verbos e formas nominais.
-2. Delimite matriz e dependentes.
-3. Determine a função da subordinada.
-4. Ache regente, antecedente ou relação circunstancial.
-5. Resolva encaixamentos de dentro para fora.
-6. Confira preposição, pontuação e escopo.
-7. Na reescrita, preserve função, sentido, sujeito, tempo e modo.
+Analise **de dentro para fora**.
+
+- `tão... que` → consecutiva;
+- `quanto mais... mais` → proporcional;
+- `não apenas... mas também` → coordenação aditiva.
+
+## Pontuação: só como pista
+
+- restritiva → normalmente sem vírgulas;
+- explicativa → isolada;
+- adverbial anteposta/intercalada → normalmente isolada;
+- substantiva integrada ao regente → sem vírgula, em regra;
+- apositiva → pode vir após `:`.
+
+## Método de 20 segundos
+
+1. marque verbos e formas nominais;
+2. delimite matriz e dependentes;
+3. descubra a função da subordinada;
+4. ache regente/antecedente/relação;
+5. se houver relativo, recoloque o antecedente;
+6. resolva encaixamentos de dentro para fora;
+7. confira sentido, pontuação e escopo.
+
+## Pegadinhas
+
+- preposição ≠ complemento nominal automático;
+- `que` ≠ conjunção integrante automática;
+- `se` ≠ condição automática;
+- vírgula em adjetiva pode mudar alcance;
+- verbo elíptico pode formar comparativa;
+- forma reduzida não fixa o valor semântico;
+- causa ≠ explicação;
+- consequência ≠ conclusão;
+- concessão ≠ adversidade.
