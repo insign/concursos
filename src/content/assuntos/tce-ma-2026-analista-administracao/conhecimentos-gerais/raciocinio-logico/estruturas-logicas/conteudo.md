@@ -1,199 +1,126 @@
 ---
 schemaVersion: 1
 title: Estruturas lógicas
-description: Modelagem e resolução de problemas finitos de ordenação, associação, distribuição, agrupamento, sequências e outras relações sujeitas a restrições.
+description: Organização e dedução em cenários finitos de ordenação, associação, distribuição, agrupamento e relações sujeitas a restrições.
 order: 36
 storageId: estruturas-logicas
 ---
 
-## 1. O que são estruturas lógicas
+## 1. Recorte do assunto
 
-Em provas de raciocínio lógico, **estruturas lógicas** são problemas nos quais pessoas, objetos, lugares, datas ou eventos fictícios mantêm relações definidas por um conjunto de condições. O candidato precisa organizar essas informações, deduzir consequências e decidir o que é possível, necessário ou impossível.
+No edital do TCE/MA 2026, **Estruturas lógicas** aparece como item próprio de Raciocínio Lógico. Os itens seguintes tratam separadamente de argumentação, lógica proposicional, equivalências, lógica de primeira ordem, contagem e probabilidade, conjuntos e problemas aritméticos, geométricos e matriciais.
 
-São exemplos recorrentes:
+Neste assunto, o foco é resolver **cenários finitos de relações**: pessoas, objetos, lugares, setores, posições, tarefas ou eventos devem ser organizados conforme condições fornecidas pelo enunciado.
 
-- ordenar pessoas em uma fila ou tarefas em uma sequência;
-- associar servidores a setores, horários e atividades;
-- distribuir objetos entre recipientes ou processos entre equipes;
-- formar grupos sujeitos a inclusões e incompatibilidades;
-- completar uma sequência regida por padrão identificável;
-- interpretar hierarquias, parentescos, calendários e horários;
-- combinar declarações verdadeiras e falsas como restrições de um cenário.
+São situações típicas:
 
-O ponto comum não é o tema superficial, mas a existência de:
+- ordenar elementos em fila, ranking ou agenda;
+- associar pessoas a setores, funções, locais ou datas;
+- distribuir itens entre grupos, salas ou equipes;
+- formar grupos com regras de inclusão, exclusão ou capacidade;
+- interpretar relações direcionais, como chefia, precedência e parentesco;
+- decidir o que **pode**, **deve** ou **não pode** ocorrer em uma configuração.
 
-1. **entidades** que devem ser organizadas;
-2. **domínios** de valores possíveis;
-3. **relações ou restrições** que eliminam combinações;
-4. **uma pergunta** sobre as configurações que permanecem válidas.
+Sequências numéricas, cálculo autônomo de calendários, tabelas-verdade, equivalências formais e técnicas de contagem pertencem aos demais itens do edital e não são aprofundados aqui.
 
-> A habilidade central é converter linguagem em uma representação precisa e trabalhar apenas com conclusões sustentadas pelas condições.
+> A regra de ouro é simples: **não complete o enunciado com suposições próprias**. Trabalhe apenas com as condições dadas e com o que delas decorre necessariamente.
 
-## 2. Limites deste assunto
+## 2. Modelo mental: elementos, possibilidades e restrições
 
-Este assunto trata de **organização relacional de cenários finitos**. Outros tópicos do edital serão estudados separadamente:
+Uma forma útil de organizar o problema é separar três componentes:
 
-| Tema | Onde será aprofundado |
+1. **elementos:** quem ou o que precisa ser organizado;
+2. **possibilidades:** posições, setores, grupos ou valores ainda admissíveis;
+3. **restrições:** condições que eliminam combinações ou forçam escolhas.
+
+Exemplo: Ana, Bruno e Carla serão distribuídos, um por dia, entre segunda, terça e quarta.
+
+- elementos: Ana, Bruno e Carla;
+- possibilidades iniciais: segunda, terça e quarta para cada pessoa;
+- restrições: por exemplo, “Ana não será atendida na segunda” e “Bruno será atendido antes de Carla”.
+
+Uma **solução** é uma configuração completa que satisfaz **simultaneamente** todas as condições. Uma disposição que atende algumas regras e viola outra não é solução.
+
+A linguagem de “variável”, “domínio” e “restrição” pode ser usada como apoio, mas não é necessário transformar a questão em teoria especializada de satisfação de restrições.
+
+## 3. Tradução precisa da linguagem
+
+A maior fonte de erro é traduzir a frase de modo mais forte ou mais fraco do que ela realmente diz.
+
+| Enunciado | Leitura operacional |
 |---|---|
-| validade de argumentos, analogias, inferências e conclusões | Assunto 037 |
-| proposições simples e compostas e tabelas-verdade | Assunto 038 |
-| equivalências, leis de De Morgan e diagramas lógicos | Assunto 039 |
-| quantificadores e lógica de primeira ordem | Assunto 040 |
-| princípios de contagem e probabilidade | Assunto 041 |
-| operações com conjuntos | Assunto 042 |
-| problemas aritméticos, geométricos e matriciais | Assuntos 043 a 045 |
-
-Símbolos lógicos podem aparecer aqui apenas como notação auxiliar. O objetivo não é construir tabelas-verdade nem demonstrar equivalências, e sim resolver a estrutura concreta descrita pelo enunciado.
-
-## 3. Modelo: variáveis, domínios e restrições
-
-Uma forma segura de interpretar o problema é tratá-lo como um sistema de três partes.
-
-### 3.1. Variáveis
-
-Variáveis são os elementos cujos valores ainda precisam ser determinados.
-
-Exemplo: em uma agenda com Ana, Bruno e Carla, pode-se usar uma variável para o dia de cada pessoa:
-
-- dia(Ana);
-- dia(Bruno);
-- dia(Carla).
-
-Em outro modelo, os próprios dias podem ser variáveis cujo valor é o nome da pessoa. A escolha deve facilitar as condições dadas.
-
-### 3.2. Domínios
-
-O domínio reúne os valores que uma variável pode assumir antes da aplicação das restrições.
-
-Se cada pessoa será atendida em um dia diferente entre segunda, terça e quarta:
-
-$$
-dia(pessoa) \in \{segunda, terça, quarta\}
-$$
-
-O domínio inicial pode encolher à medida que condições são aplicadas.
-
-### 3.3. Restrições
-
-Restrições determinam quais combinações são aceitas. Por exemplo:
-
-- Ana não será atendida na segunda;
-- Bruno será atendido antes de Carla;
-- cada dia receberá exatamente uma pessoa.
-
-Uma **solução** é uma atribuição completa que satisfaz simultaneamente todas as restrições. Uma escolha compatível com apenas parte delas não basta.
-
-### 3.4. O enunciado como sistema fechado
-
-Em regra, personagens e objetos fictícios obedecem somente às condições fornecidas. Não se deve acrescentar conhecimento externo, preferência pessoal ou suposição de “normalidade”. Se o enunciado não proíbe duas tarefas no mesmo dia, isso só poderá ser presumido quando outra regra, como “uma tarefa por dia”, produzir essa proibição.
-
-## 4. Tradução cuidadosa da linguagem
-
-A maior parte dos erros nasce antes dos cálculos. Cada frase deve ser traduzida sem enfraquecimento nem ampliação.
-
-| Expressão | Tradução operacional |
-|---|---|
-| A antes de B | posição(A) < posição(B) |
-| A imediatamente antes de B | posição(B) = posição(A) + 1 |
-| A depois de B | posição(A) > posição(B) |
-| A ao lado de B | posições consecutivas, sem direção definida |
-| A não ao lado de B | distância entre posições diferente de 1 |
-| A junto de B | mesmo grupo, salvo definição diversa |
-| A separado de B | grupos diferentes |
-| somente A pode executar X | qualquer executor de X deve ser A; não afirma, por si só, que X ocorre |
+| A antes de B | A ocupa posição anterior à de B; pode haver intervalo |
+| A imediatamente antes de B | A e B são consecutivos, nessa ordem |
+| A depois de B | B vem antes de A |
+| A ao lado de B | posições consecutivas, sem direção fixada |
+| A não ao lado de B | as posições não são consecutivas |
+| A com B | mesmo grupo, salvo definição diversa |
+| A sem B | grupos diferentes |
+| se A, então B | ocorrendo A, B também deve ocorrer |
 | A somente se B | A exige B; B é condição necessária para A |
-| se A, então B | ocorrência de A força B; ausência de A não decide B |
+| somente A pode fazer X | se X ocorrer, o agente deve ser A; não afirma que X ocorrerá |
 | exatamente um | um e somente um |
 | pelo menos um | um ou mais |
 | no máximo um | zero ou um |
-| ou A ou B, mas não ambos | exatamente uma das alternativas |
+| A ou B, mas não ambos | exatamente um entre A e B |
 
-### 4.1. “Antes” não significa “imediatamente antes”
+### 3.1. Precedência não é adjacência
 
-Se A vem antes de B, pode haver elementos entre eles. A relação de adjacência só existe quando o enunciado usa “imediatamente”, “logo”, “sem intervalo” ou expressão equivalente.
+“A antes de B” não significa “A imediatamente antes de B”. Se a fila for `A, C, D, B`, A continua antes de B.
 
-### 4.2. “Ao menos” não significa “exatamente”
+### 3.2. Adjacência não define orientação
 
-“Pelo menos dois” admite dois, três ou mais. “Exatamente dois” fixa a quantidade. “No máximo dois” admite zero, um ou dois.
+“A ao lado de B” admite `[A B]` e `[B A]`, até que outra condição elimine uma das ordens.
 
-### 4.3. Condição necessária não é condição suficiente
+### 3.3. Necessário não é suficiente
 
-Se “Lia participa somente se Nuno participar”, a participação de Lia força a de Nuno. A participação de Nuno, isoladamente, não força a de Lia.
+“Lia participa somente se Nuno participar” significa:
 
-### 4.4. Negação local
+- Lia participa → Nuno participa.
 
-“Paulo não fica no setor X” elimina uma célula. Não informa em qual dos demais setores Paulo fica. Uma eliminação só se torna atribuição quando resta uma única possibilidade.
+Não significa que a presença de Nuno force a presença de Lia.
 
-## 5. Tipos de restrição
+### 3.4. Exclusão não é atribuição
 
-Reconhecer a forma da condição ajuda a escolher a representação.
+Se Paulo não está no setor X e ainda pode estar em Y ou Z, apenas X foi eliminado. A escolha entre Y e Z depende de novas condições.
 
-### 5.1. Unária
+## 4. Estruturas mais cobradas
 
-Afeta uma única variável:
+### 4.1. Ordenação
 
-- Joana não ocupa a primeira posição;
-- o processo P ocorre na terça-feira.
-
-### 5.2. Binária
-
-Relaciona duas variáveis:
-
-- A vem antes de B;
-- C e D estão no mesmo grupo;
-- E não trabalha com F.
-
-### 5.3. Global
-
-Afeta várias variáveis de uma vez:
-
-- todas as pessoas ocupam posições distintas;
-- cada setor recebe exatamente dois servidores;
-- pelo menos uma tarefa de cada tipo aparece na agenda.
-
-### 5.4. Igualdade e diferença
-
-- mesmo valor: Ana e Beto trabalham no mesmo dia;
-- valores distintos: cada pessoa tem uma função diferente.
-
-### 5.5. Precedência e adjacência
-
-- precedência: A ocorre antes de B;
-- adjacência orientada: A imediatamente antes de B;
-- adjacência não orientada: A ao lado de B.
-
-### 5.6. Implicação e exclusividade
-
-- implicação: se A estiver no grupo, B também estará;
-- incompatibilidade: A e B não podem estar juntos;
-- exclusividade: exatamente uma entre A e B ocorre.
-
-### 5.7. Cardinalidade
-
-Controla quantidades:
-
-- exatamente três servidores no grupo;
-- ao menos duas tarefas urgentes;
-- no máximo um evento por horário.
-
-## 6. Representações úteis
-
-Não existe uma representação universalmente melhor. Escolha a que torna as restrições visíveis e reduz a carga de memória.
-
-### 6.1. Linha de posições
-
-Use espaços numerados para filas, colocações e agendas:
+Use posições numeradas quando houver fila, ordem de apresentação, prioridade ou sequência de eventos.
 
 ```text
 posição:  1   2   3   4   5
 ocupante: _   _   _   _   _
 ```
 
-Blocos ajudam com adjacências. “A imediatamente antes de C” vira o bloco `[A C]`, que se desloca sem ser separado.
+Regras úteis:
 
-### 6.2. Tabela de associação
+- una precedências: `A < B` e `B < C` produzem `A < B < C`;
+- transforme “imediatamente antes” em bloco: `[A B]`;
+- em “A ao lado de B”, considere `[A B]` e `[B A]`;
+- fixe extremos logo no início;
+- verifique se bloco ou cadeia cabe no espaço restante.
 
-Use quando categorias diferentes se relacionam uma a uma:
+**Exemplo**
+
+Ana, Beto, Caio, Dora e Eva ocupam cinco posições:
+
+1. Caio está imediatamente depois de Ana;
+2. Dora está antes de Ana;
+3. Beto está na quinta posição;
+4. Eva está antes de Dora.
+
+Temos `Eva < Dora < [Ana Caio]` e Beto em 5º. Logo:
+
+```text
+1 Eva | 2 Dora | 3 Ana | 4 Caio | 5 Beto
+```
+
+### 4.2. Associação
+
+Use tabela ou grade quando categorias diferentes precisam ser relacionadas.
 
 | Pessoa | Setor | Dia |
 |---|---|---|
@@ -201,406 +128,206 @@ Use quando categorias diferentes se relacionam uma a uma:
 | Nuno | ? | ? |
 | Olga | ? | ? |
 
-Uma grade de marcações também pode registrar `✓` para associação confirmada e `×` para associação impossível.
+Em uma associação **um a um**:
 
-### 6.3. Caixas ou colunas
+- confirmar Lia = TI elimina os demais setores para Lia;
+- também elimina TI para as demais pessoas;
+- uma pista como “a pessoa de TI trabalha na quarta” liga duas categorias mesmo antes de identificar a pessoa.
 
-Use para alocação e agrupamento:
+**Exemplo**
+
+Lia, Nuno e Olga trabalham em setores distintos — Compras, Pessoal e TI — e em dias distintos — segunda, terça e quarta.
+
+1. Lia não trabalha em Compras nem na segunda;
+2. Nuno trabalha em TI e na quarta;
+3. Compras corresponde à segunda.
+
+Nuno ocupa TI/quarta. Compras/segunda não pode ser Lia, então fica com Olga. Sobra Pessoal/terça para Lia.
+
+### 4.3. Distribuição e agrupamento
+
+Use caixas quando itens devem ocupar equipes, salas, grupos ou turnos.
 
 ```text
 Equipe 1: [   ] [   ]
 Equipe 2: [   ] [   ]
 ```
 
-Registre capacidade e quantidade mínima ou máxima antes de distribuir elementos.
+Antes de distribuir, registre:
 
-### 6.4. Grafo ou diagrama de relações
+- capacidade de cada destino;
+- quantidade mínima ou máxima;
+- itens obrigatoriamente juntos;
+- itens incompatíveis;
+- condições do tipo “se entra A, entra B”.
 
-Vértices podem representar pessoas e setas podem indicar precedência, chefia ou dependência. Antes de desenhar, defina o significado da seta. Inverter uma seta de “A supervisiona B” para “A é supervisionado por B” altera todo o problema.
+**Capacidade:** se uma sala comporta duas tarefas e já recebeu duas, ela está fechada para as demais.
 
-### 6.5. Lista de casos
+**Mínimo:** se uma comissão de quatro precisa de pelo menos dois auditores e, após três escolhas, há apenas um auditor, a última vaga deve ser preenchida por auditor.
 
-Quando uma regra oferece poucas alternativas, divida explicitamente:
+**Núcleo:** se A deve ficar com C e os grupos são duplas, `{A,C}` já forma uma dupla completa.
+
+### 4.4. Relações direcionais
+
+Em chefia, precedência, dependência e parentesco, defina a direção antes de combinar relações.
+
+- “A chefia B” não é o mesmo que “A é chefiado por B”;
+- “A está acima de B” e “B está acima de C” permitem concluir que A está acima de C;
+- “A trabalha diretamente com B” e “B trabalha diretamente com C” não obrigam contato direto entre A e C.
+
+Em parentesco, organize gerações em níveis e não presuma vínculos, gênero ou convenções não informadas.
+
+### 4.5. Declarações verdadeiras e falsas como restrições
+
+Quando o enunciado informa que exatamente uma, duas ou outra quantidade de falas é verdadeira, trate essa quantidade como condição global do cenário:
+
+1. liste os cenários possíveis;
+2. avalie cada fala em cada cenário;
+3. conte quantas ficam verdadeiras;
+4. conserve apenas os cenários compatíveis com a quantidade exigida.
+
+Este uso é apenas uma aplicação relacional. O cálculo formal de proposições e tabelas-verdade pertence aos itens posteriores do edital.
+
+## 5. Como escolher a representação
+
+| Situação | Representação eficiente |
+|---|---|
+| fila, ranking, ordem de eventos | linha de posições |
+| pessoa × setor × dia | tabela ou grade |
+| equipes, salas, grupos | caixas com capacidade |
+| chefia, dependência, precedência | setas com direção definida |
+| poucas alternativas restantes | casos separados |
+
+A melhor representação é a que deixa as restrições visíveis e reduz a necessidade de guardar informações mentalmente.
+
+## 6. Método de resolução
+
+### Passo 1 — leia primeiro o comando
+
+Identifique se a pergunta pede:
+
+- o que **pode ser**;
+- o que **deve ser**;
+- o que **não pode ser**;
+- uma configuração completa.
+
+Isso determina a prova necessária.
+
+### Passo 2 — liste elementos e possibilidades
+
+Conte pessoas, posições, grupos, vagas e categorias. Verifique se cada valor deve ser usado uma vez, se pode haver repetição e quais capacidades existem.
+
+### Passo 3 — registre as condições fortes
+
+Comece por:
+
+- posição fixa;
+- bloco de adjacência;
+- quantidade exata;
+- capacidade;
+- incompatibilidade;
+- elemento com poucas possibilidades.
+
+Essas regras costumam produzir mais eliminações.
+
+### Passo 4 — propague cada descoberta
+
+Depois de atribuir ou eliminar algo:
+
+- atualize a linha e a coluna de uma associação um a um;
+- feche destinos cuja capacidade foi atingida;
+- reserve vagas quando um mínimo ainda precisa ser cumprido;
+- reaplique condições ativadas;
+- procure elemento ou posição com única possibilidade restante.
+
+### Passo 5 — abra casos apenas quando necessário
+
+Se a dedução direta parar, divida o problema em poucos ramos explícitos.
 
 ```text
 Caso 1: A está no grupo X.
 Caso 2: A está no grupo Y.
 ```
 
-Cada caso herda todas as condições originais. Caso que viole uma delas deve ser descartado por inteiro.
+Cada ramo continua sujeito a **todas** as regras originais. Ao surgir contradição, descarte o ramo inteiro.
 
-## 7. Método geral de resolução
+### Passo 6 — valide a configuração
 
-### Passo 1 — identificar a pergunta
+Antes de responder, releia cada condição. Uma grade completamente preenchida pode estar errada se violar uma única regra negativa ou de capacidade.
 
-Determine se a prova pede o que **pode ser**, **deve ser**, **não pode ser**, uma configuração completa ou o número de configurações. A pergunta define o grau de prova necessário.
+## 7. Deduções que economizam tempo
 
-### Passo 2 — listar entidades e domínios
+### 7.1. Única possibilidade restante
 
-Separe as categorias e conte seus elementos. Verifique se a associação é um para um, muitos para um ou limitada por capacidade.
+Se Paula só pode estar na terça, a atribuição é forçada.
 
-### Passo 3 — registrar as regras fortes
+### 7.2. Único lugar possível para um valor
 
-Comece por posições fixas, blocos, quantidades exatas, exclusões amplas e elementos com poucos valores possíveis. Elas propagam mais informação.
+Se cada setor deve ser usado exatamente uma vez e “Jurídico” só pode pertencer a Rui, Jurídico é de Rui, mesmo que Rui ainda apareça com outras possibilidades.
 
-### Passo 4 — propagar consequências
+### 7.3. Subconjunto confinado
 
-Depois de cada atribuição:
+Se A e B só podem ocupar as posições 2 e 4, nenhum terceiro elemento pode usar 2 ou 4, embora ainda não se saiba qual dos dois ocupa cada posição.
 
-- risque valores incompatíveis;
-- observe domínios que ficaram com um único valor;
-- atualize capacidades e quantidades restantes;
-- aplique novamente as implicações ativadas;
-- procure posições reservadas a um único elemento.
+### 7.4. Contradição por ordem
 
-### Passo 5 — abrir casos apenas quando necessário
+`A < B < C < A` é impossível. Uma ordem estrita não pode retornar ao ponto de partida.
 
-Se a dedução direta parar, escolha uma alternativa com poucas possibilidades e examine cada ramo. Não faça tentativa aleatória sem registrar o caso.
+### 7.5. Contradição por capacidade
 
-### Passo 6 — validar todas as condições
+Se uma distribuição exige mais itens em um destino do que sua capacidade permite, o caso deve ser eliminado.
 
-Uma grade preenchida pode parecer coerente e ainda violar uma regra esquecida. Releia cada condição e marque-a como satisfeita.
+## 8. Pode, deve e não pode
 
-### Passo 7 — responder no nível pedido
+### 8.1. “Pode ser verdadeiro”
 
-Para provar que algo **pode ser**, basta construir um exemplo válido. Para provar que **deve ser**, é preciso mostrar que ocorre em toda solução. Para provar que **não pode ser**, mostre que a hipótese leva a contradição em todos os casos.
+Basta construir **uma configuração completa válida** em que a alternativa ocorra.
 
-## 8. Ordenação e sequenciamento
+### 8.2. “Deve ser verdadeiro”
 
-Problemas de ordem usam posições distintas e relações como antes, depois, entre e adjacente.
+A alternativa precisa ocorrer em **todas** as configurações válidas. Um bom método é tentar construir um contraexemplo.
 
-### 8.1. Cadeias de precedência
+### 8.3. “Não pode ser verdadeiro”
 
-Se A vem antes de B e B antes de C, então:
+Assuma a alternativa e aplique as condições. Ela é impossível se todos os caminhos compatíveis com a hipótese levam a contradição.
 
-$$
-A < B < C
-$$
+### 8.4. Solução única
 
-A cadeia ocupa pelo menos três posições nessa ordem, ainda que existam elementos entre elas.
+Encontrar uma solução não prova unicidade. Para afirmar que a solução é única, é preciso mostrar que os valores foram forçados ou que todas as demais possibilidades foram eliminadas.
 
-### 8.2. Blocos
+## 9. Armadilhas frequentes
 
-Se D vem imediatamente antes de E, trate `[D E]` como unidade. Em cinco posições, esse bloco pode começar nas posições 1, 2, 3 ou 4, salvo outras restrições.
+1. **Acrescentar regra não escrita.** Plausibilidade cotidiana não cria condição lógica.
+2. **Confundir antes com imediatamente antes.**
+3. **Fixar orientação em “ao lado”.**
+4. **Inverter condição.** De `A → B` não se conclui `B → A`.
+5. **Confundir “somente se” com “se”.**
+6. **Ler “pelo menos” como “exatamente”.**
+7. **Ignorar capacidade ou quantidade mínima.**
+8. **Confirmar associação sem eliminar a mesma opção das demais linhas.**
+9. **Transformar uma exclusão em atribuição antes da hora.**
+10. **Aceitar solução parcial.**
+11. **Usar um exemplo para provar “deve”.**
+12. **Encontrar uma solução e presumir que é única.**
+13. **Tratar relação não transitiva como transitiva.**
+14. **Esquecer regras negativas durante a validação.**
+15. **Abrir casos e deixar de aplicar uma condição original em algum ramo.**
 
-Se D apenas está ao lado de E, existem duas orientações: `[D E]` e `[E D]`.
+## 10. Checklist de prova
 
-### 8.3. Extremos e espaço disponível
+Antes de marcar:
 
-Uma cadeia de quatro elementos não cabe depois da segunda posição em uma fila de cinco. Use o espaço necessário para limitar começos e finais.
-
-### 8.4. Exemplo resolvido
-
-Ana, Beto, Caio, Dora e Eva ocupam cinco posições, uma por pessoa:
-
-1. Caio está imediatamente depois de Ana;
-2. Dora está antes de Ana;
-3. Beto está na última posição;
-4. Eva está antes de Dora.
-
-O bloco `[Ana Caio]` deve ficar depois da cadeia `Eva < Dora`. Como Beto ocupa a posição 5, resta apenas:
-
-```text
-1 Eva | 2 Dora | 3 Ana | 4 Caio | 5 Beto
-```
-
-Não foi necessário enumerar todas as permutações: a cadeia, o bloco e o extremo fixo ocuparam toda a estrutura.
-
-## 9. Associação e correspondência
-
-Esses problemas conectam categorias como pessoa, cargo, cidade, cor e dia. Antes de resolver, confirme se cada valor é usado uma única vez.
-
-### 9.1. Exclusão cruzada
-
-Se Lia não está em Compras, marque a impossibilidade. Se Compras já foi atribuído a Olga, elimine Compras das demais pessoas. Em relação bijetiva, toda confirmação em uma linha também produz eliminações na coluna.
-
-### 9.2. Pistas compostas
-
-“A pessoa de TI trabalha na quarta” liga duas categorias sem nomear a pessoa. A associação deve ser transportada quando uma delas for descoberta.
-
-### 9.3. Exemplo resolvido
-
-Lia, Nuno e Olga trabalham, cada qual, em um setor diferente entre Compras, Pessoal e TI, e em um dia diferente entre segunda, terça e quarta:
-
-1. Lia não trabalha em Compras nem na segunda;
-2. Nuno trabalha em TI e na quarta;
-3. Compras funciona na segunda nesse cronograma.
-
-Como Compras corresponde à segunda e Lia não ocupa nenhum dos dois, e Nuno já está em TI na quarta, Olga fica em Compras na segunda. Restam Pessoal e terça para Lia:
-
-| Pessoa | Setor | Dia |
-|---|---|---|
-| Lia | Pessoal | terça |
-| Nuno | TI | quarta |
-| Olga | Compras | segunda |
-
-## 10. Distribuição e alocação
-
-Aqui, elementos são colocados em dias, salas, equipes, caixas ou funções, muitas vezes com capacidades diferentes.
-
-### 10.1. Faça o balanço de vagas
-
-Se seis tarefas ocupam três dias com exatamente duas tarefas por dia, preencher duas vagas de um dia fecha esse destino. As demais tarefas devem ser eliminadas dele.
-
-### 10.2. Combine capacidade e incompatibilidade
-
-Se uma equipe comporta duas pessoas e já contém A, qualquer pessoa incompatível com A não pode ocupar a vaga restante. Se só uma pessoa continua possível, ela é forçada.
-
-### 10.3. Exemplo resolvido
-
-Os processos P, Q e R serão analisados nos dias 1, 2 e 3, um por dia:
-
-1. P ocorre antes de R;
-2. Q não ocorre no dia 2.
-
-Se Q estivesse no dia 3, P e R teriam de ocupar os dias 1 e 2, nessa ordem, o que seria possível: `P, R, Q`. Se Q estiver no dia 1, resta `P, R` nos dias 2 e 3: `Q, P, R`. Portanto, há duas soluções. A condição “Q não está no dia 2” não autoriza escolher uma delas como única.
-
-Esse exemplo alerta para uma conclusão comum: uma estrutura pode estar bem definida sem determinar todos os valores.
-
-## 11. Agrupamento
-
-Problemas de agrupamento perguntam quem fica junto ou separado, às vezes sem distinguir a ordem interna.
-
-### 11.1. Vínculos e incompatibilidades
-
-- “A com C” forma um núcleo que deve permanecer no mesmo grupo;
-- “A sem B” impede que o grupo de A receba B;
-- “se D entra, E entra” é uma implicação, não equivalência;
-- “F ou G, exclusivamente” preenche uma vaga com exatamente um deles.
-
-### 11.2. Simetria dos nomes dos grupos
-
-Se dois grupos não têm características próprias, trocar seus nomes não cria estrutura substantivamente diferente. Porém, se um é “manhã” e outro “tarde”, a troca altera a solução.
-
-### 11.3. Exemplo resolvido
-
-As tarefas A, B, C e D formarão duas duplas. A deve ficar com C, e A não pode ficar com B. A primeira regra fecha a dupla `{A, C}`. Sobram B e D, que formam `{B, D}`. A segunda regra é satisfeita, mas não foi ela, isoladamente, que determinou a solução.
-
-## 12. Sequências por padrão
-
-Uma sequência apresenta termos ordenados e pede continuidade, termo ausente ou regra geradora. O padrão deve explicar **todos** os termos relevantes, não apenas os dois últimos.
-
-### 12.1. Padrões frequentes
-
-- repetição periódica: A, B, C, A, B, C, ...;
-- alternância entre duas regras;
-- crescimento da quantidade de símbolos;
-- deslocamento de posição ou rotação;
-- combinação de atributo, como forma e preenchimento;
-- transformação aplicada ao termo anterior.
-
-### 12.2. Estratégia
-
-1. separe atributos: número, forma, posição, orientação, cor;
-2. verifique diferenças ou transformações entre termos;
-3. teste periodicidade;
-4. procure subsequências intercaladas, como posições ímpares e pares;
-5. prefira a regra simples que explica integralmente os dados.
-
-Em `2, 5, 4, 7, 6, 9, ...`, as posições ímpares formam `2, 4, 6, ...`, e as pares formam `5, 7, 9, ...`. O próximo termo, na posição ímpar, é 8.
-
-> Não use mera coincidência local. Com poucos termos, várias fórmulas artificiais podem ajustar os dados; em prova, busque o padrão regular e compatível com as alternativas.
-
-## 13. Calendários e horários
-
-Problemas temporais combinam ordem, ciclos e intervalos.
-
-### 13.1. Deslocamento semanal
-
-Após múltiplos de sete dias, repete-se o dia da semana. Para deslocamentos, use o resto da divisão por 7.
-
-Exemplo: se o dia 3 é terça-feira, o dia 24 está 21 dias depois e também é terça-feira.
-
-### 13.2. Contagem inclusiva e exclusiva
-
-“Três dias depois de segunda” leva a quinta: terça é um dia depois. Já um evento que ocorre de segunda a quinta, contando ambos os extremos, abrange quatro dias.
-
-### 13.3. Intervalos de horário
-
-Converta horas e minutos para uma unidade comum quando necessário. Um compromisso das 9h40 às 11h10 dura 1h30, não 1h70.
-
-### 13.4. Cronogramas como alocação
-
-Quando várias atividades ocupam faixas de horário, desenhe a linha temporal e trate sobreposições, durações e intervalos como restrições de capacidade.
-
-## 14. Hierarquias e parentesco
-
-### 14.1. Direção da relação
-
-“A chefia B” não é a mesma coisa que “A é chefiado por B”. Defina setas ou frases padronizadas antes de combinar relações.
-
-### 14.2. Relações transitivas e não transitivas
-
-Se A é superior hierárquico de B e B é superior de C, A está acima de C na hierarquia. Já “A trabalha diretamente com B” e “B trabalha diretamente com C” não implicam que A trabalhe diretamente com C.
-
-### 14.3. Parentesco
-
-Represente gerações em níveis. Antes de inferir gênero, consanguinidade ou afinidade, confira as palavras exatas:
-
-- irmão ou irmã compartilha ao menos um genitor no modelo usual do problema;
-- cunhado pode surgir por casamento próprio ou de irmão, conforme o enunciado;
-- avô e neto diferem por duas gerações;
-- “filho único” restringe os filhos dos mesmos pais, não todos os parentes da geração.
-
-Problemas podem definir convenções próprias. Elas prevalecem sobre interpretações informais.
-
-## 15. Verdade e mentira como restrições do cenário
-
-Alguns problemas informam que exatamente uma, duas ou todas menos uma das declarações são verdadeiras. Neste assunto, cada fala é tratada como condição que depende do cenário, sem desenvolver o cálculo formal de proposições.
-
-### 15.1. Procedimento seguro
-
-1. liste os cenários possíveis;
-2. avalie cada declaração em cada cenário;
-3. conte quantas ficam verdadeiras;
-4. preserve somente as linhas que atendem à quantidade exigida.
-
-### 15.2. Exemplo resolvido
-
-Exatamente uma entre Ana, Beto e Caio retirou um documento. Eles dizem:
-
-- Ana: “Beto retirou o documento.”
-- Beto: “Caio retirou o documento.”
-- Caio: “Eu não retirei o documento.”
-
-Sabe-se que exatamente **duas** declarações são verdadeiras.
-
-| Responsável | Fala de Ana | Fala de Beto | Fala de Caio | Verdadeiras |
-|---|---:|---:|---:|---:|
-| Ana | F | F | V | 1 |
-| Beto | V | F | V | 2 |
-| Caio | F | V | F | 1 |
-
-Logo, Beto retirou o documento. A conclusão decorre da combinação entre exclusividade do responsável e cardinalidade das falas verdadeiras.
-
-## 16. Possível, necessário, impossível e solução única
-
-### 16.1. “Pode ser verdadeiro”
-
-Exige um **exemplo testemunha**: uma configuração completa que satisfaça todas as condições e a alternativa.
-
-### 16.2. “Deve ser verdadeiro”
-
-Exige universalidade: a alternativa precisa ocorrer em todas as soluções. Um exemplo favorável não prova necessidade.
-
-### 16.3. “Não pode ser verdadeiro”
-
-Suponha a alternativa e propague as regras. Se todos os ramos levam a violação, a alternativa é impossível.
-
-### 16.4. Solução única
-
-Uma solução encontrada só é única se não houver outra. A unicidade pode ser provada porque todos os valores foram forçados ou porque os demais casos foram eliminados.
-
-### 16.5. Problema inconsistente ou subdeterminado
-
-- **inconsistente:** nenhuma configuração satisfaz todas as regras;
-- **subdeterminado:** mais de uma configuração satisfaz as regras;
-- **único:** exatamente uma configuração satisfaz as regras.
-
-Subdeterminação não é erro quando a pergunta pede apenas uma consequência comum ou uma configuração possível.
-
-## 17. Dedução, propagação e busca por casos
-
-### 17.1. Valor único restante
-
-Se o domínio de uma variável ficou com um único valor, a atribuição é forçada.
-
-### 17.2. Lugar único para um valor
-
-Quando cada valor precisa ser usado, mesmo que várias variáveis ainda tenham opções, um valor pode aparecer no domínio de apenas uma delas. Nesse caso, ele pertence àquela variável. Sem a obrigação de usar todos os valores, essa conclusão não é válida.
-
-### 17.3. Pares ou subconjuntos confinados
-
-Se A e B só podem ocupar as posições 2 e 4, nenhum outro elemento pode usar essas posições, ainda que ainda não se saiba qual deles está em cada uma.
-
-### 17.4. Contradição
-
-Um caso deve ser abandonado quando:
-
-- uma variável fica sem valor possível;
-- duas entidades ocupam vaga exclusiva;
-- uma capacidade é excedida;
-- uma quantidade mínima se torna inalcançável;
-- uma relação de ordem cria ciclo, como A antes de B, B antes de C e C antes de A.
-
-### 17.5. Escolha de caso eficiente
-
-Quando for preciso testar, escolha a variável com menos valores ou a regra que divide o cenário em poucos ramos. Isso reduz trabalho e risco de omissão.
-
-### 17.6. Busca exaustiva controlada
-
-Enumerar casos é válido quando o espaço é pequeno e os casos são organizados. O problema é enumerar sem critério, repetir configurações ou esquecer restrições. Uma tabela de casos transforma tentativa em prova verificável.
-
-## 18. Como testar alternativas com eficiência
-
-Em muitas questões, não é preciso resolver toda a grade.
-
-### 18.1. Alternativa que “pode ser”
-
-Tente completar uma configuração a partir da alternativa. Ao encontrar uma solução válida, pare: a existência foi demonstrada.
-
-### 18.2. Alternativa que “deve ser”
-
-Tente construir um contraexemplo para cada opção. Uma alternativa obrigatória resiste a todas as tentativas compatíveis.
-
-### 18.3. Alternativa que “não pode ser”
-
-Assuma cada opção e procure rapidamente regra violada ou domínio vazio. Não descarte uma alternativa apenas porque ela parece improvável.
-
-### 18.4. Use primeiro as restrições mais discriminantes
-
-Posições fixas, adjacências, quantidades exatas e incompatibilidades costumam eliminar alternativas mais rápido do que relações vagas de precedência.
-
-## 19. Controle de qualidade da solução
-
-Antes de marcar a resposta, verifique:
-
-1. todas as entidades foram usadas na quantidade correta?
-2. cada domínio foi respeitado?
-3. posições ou valores exclusivos não foram repetidos?
-4. “antes” e “imediatamente antes” foram distinguidos?
-5. implicações foram aplicadas apenas na direção correta?
-6. mínimos, máximos e quantidades exatas foram respeitados?
-7. todas as condições, inclusive as negativas, foram conferidas?
-8. a conclusão responde a “pode”, “deve” ou “não pode” no nível adequado?
-
-## 20. Armadilhas frequentes de prova
-
-1. **Acrescentar regra não escrita.** O cenário é definido pelo enunciado.
-2. **Confundir precedência com adjacência.** “Antes” admite intervalo.
-3. **Inverter relação.** “A chefia B” tem direção definida.
-4. **Converter implicação em equivalência.** Se A força B, B não necessariamente força A.
-5. **Confundir necessário com suficiente.** “Somente se” apresenta condição necessária.
-6. **Ler “ao menos” como “exatamente”.** Cardinalidades diferentes geram soluções diferentes.
-7. **Esquecer capacidade.** Uma atribuição pode fechar ou exceder uma caixa.
-8. **Confirmar uma célula sem eliminar a coluna.** Em associação um a um, a confirmação propaga exclusões.
-9. **Aceitar solução parcial.** Todas as regras devem ser satisfeitas simultaneamente.
-10. **Confundir exemplo com prova universal.** Um caso prova possibilidade, não necessidade.
-11. **Encontrar uma solução e presumir unicidade.** Outros ramos podem permanecer válidos.
-12. **Forçar padrão por coincidência.** A regra deve explicar todos os termos relevantes.
-13. **Contar dias de modo inconsistente.** Defina se os extremos entram na contagem.
-14. **Tratar relação não transitiva como transitiva.** Adjacência e contato direto não se propagam.
-15. **Abrir casos sem manter as regras originais.** Cada ramo continua sujeito ao sistema inteiro.
-
-## 21. Síntese operacional
-
-Para resolver estruturas lógicas:
-
-1. leia primeiro o comando e identifique o tipo de conclusão;
-2. liste entidades, categorias, vagas e capacidades;
-3. converta cada frase em restrição exata;
-4. escolha linha, tabela, caixas, grafo ou lista de casos;
-5. aplique primeiro fixações, blocos, cardinalidades e incompatibilidades;
-6. propague cada descoberta até estabilizar;
-7. abra poucos casos quando a dedução direta parar;
-8. descarte ramos por contradição;
-9. valide a configuração contra todas as regras;
-10. prove possibilidade com exemplo, necessidade em todas as soluções e impossibilidade por contradição.
-
-O objetivo não é adivinhar uma disposição plausível, mas demonstrar o que as restrições permitem ou obrigam.
+- [ ] usei somente as informações do enunciado?
+- [ ] distingui precedência de adjacência?
+- [ ] respeitei direção das relações condicionais?
+- [ ] conferi capacidades, mínimos e quantidades exatas?
+- [ ] propaguei associações um a um em linha e coluna?
+- [ ] mantive todas as regras em cada caso?
+- [ ] validei também as condições negativas?
+- [ ] minha demonstração corresponde a “pode”, “deve” ou “não pode”?
 
 ## Referências
 
-- ASSOCIAÇÃO NACIONAL DE PÓS-GRADUAÇÃO E PESQUISA EM ADMINISTRAÇÃO. [Prova de Raciocínio Lógico do Teste ANPAD](https://www.testeanpad.org.br/prova/logico). Descrição das habilidades avaliadas e dos tipos de relações arbitrárias. Consultada em 18 jul. 2026.
-- CARNEGIE MELLON UNIVERSITY. [Constraint Satisfaction Problems](https://www.cs.cmu.edu/~15281-s24/coursenotes/constraints/index.html). Notas da disciplina 15-281 sobre variáveis, domínios, restrições e busca. Consultadas em 18 jul. 2026.
-- UNIVERSITY OF CALIFORNIA, BERKELEY. [Constraint Satisfaction Problems](https://inst.eecs.berkeley.edu/~cs188/textbook/csp/csps.html). Texto da disciplina CS 188 sobre formulação e resolução de problemas de satisfação de restrições. Consultado em 18 jul. 2026.
+- CEBRASPE. **Edital nº 1 – TCE/MA, de 6 de julho de 2026**. Conteúdo programático de Raciocínio Lógico do Cargo 1.
+- CEBRASPE. **Edital nº 1 – Câmara dos Deputados, 2025 (nível superior)**. Descrição de estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios e dedução a partir das relações fornecidas.
+- UNIVERSITY OF CALIFORNIA, BERKELEY. **CS 188 — Constraint Satisfaction Problems**. Apoio conceitual para variáveis, domínios, restrições e propagação, utilizado apenas como método de organização do raciocínio.
