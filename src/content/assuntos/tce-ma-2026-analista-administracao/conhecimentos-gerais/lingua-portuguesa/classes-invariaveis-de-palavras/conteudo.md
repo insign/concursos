@@ -8,135 +8,261 @@ storageId: classes-invariaveis-de-palavras
 
 # Classes invariáveis de palavras
 
-Na classificação tradicional, **advérbio, preposição, conjunção e interjeição** são classes invariáveis. Isso não dispensa a análise contextual: uma mesma forma pode mudar de classe conforme o termo que modifica ou a relação que estabelece.
+## 1. Recorte do assunto
 
-## 1. Advérbio
+O edital cobra **emprego das classes de palavras**. Neste assunto, o foco são as classes tradicionalmente invariáveis: **advérbio, preposição, conjunção e interjeição**.
 
-O advérbio modifica verbo, adjetivo, outro advérbio ou, em certos usos, a oração inteira.
+A regra decisiva para prova é contextual: **a forma gráfica, sozinha, não determina a classe**. É preciso observar o termo modificado, a estrutura ligada e a relação construída no enunciado.
 
-| Valor | Exemplos |
+> **Fronteira:** a classificação detalhada das relações de coordenação e subordinação pertence aos assuntos 009 e 010. Aqui, essas relações aparecem apenas no nível necessário para reconhecer o emprego das conjunções e de outros conectores.
+
+## 2. Advérbio
+
+O **advérbio** modifica tipicamente verbo, adjetivo, outro advérbio ou a oração inteira, acrescentando circunstância, intensidade ou posicionamento do enunciador.
+
+| Valor frequente | Exemplos |
 | --- | --- |
-| Lugar | `aqui`, `ali`, `longe` |
-| Tempo | `hoje`, `sempre`, `nunca` |
-| Modo | `bem`, `mal`, `depressa` |
-| Intensidade | `muito`, `pouco`, `bastante`, `tão` |
-| Afirmação | `sim`, `certamente` |
-| Negação | `não`, `jamais` |
-| Dúvida | `talvez`, `provavelmente` |
+| lugar | `aqui`, `ali`, `longe` |
+| tempo | `hoje`, `cedo`, `sempre`, `nunca` |
+| modo | `bem`, `mal`, `depressa` |
+| intensidade | `muito`, `pouco`, `bastante`, `tão`, `quase` |
+| afirmação | `sim`, `certamente` |
+| negação | `não`, `jamais` |
+| dúvida | `talvez`, `provavelmente` |
+
+Compare:
 
 > A equipe trabalhou **muito**.  
 > A equipe está **muito** preparada.  
 > A equipe trabalhou **muito bem**.
 
-No primeiro caso, `muito` modifica verbo; no segundo, adjetivo; no terceiro, advérbio. Em todos, tem valor adverbial.
+Nos três casos, `muito` tem emprego adverbial: modifica, respectivamente, verbo, adjetivo e advérbio.
 
-### 1.1 Advérbio e adjetivo
+### 2.1 A classe depende do contexto
 
-Compare `discurso alto` e `falar alto`. Em `discurso alto`, `alto` caracteriza substantivo e é adjetivo; em `falar alto`, modifica verbo e exerce valor adverbial. A classe depende da relação efetiva no enunciado.
+Algumas formas alternam entre emprego nominal e adverbial:
 
-Também exigem atenção `meio`, `muito`, `pouco` e `bastante`:
-
-> **Meia** hora; **muitas** candidatas; **bastantes** motivos.  
-> Ela está **meio** cansada; elas estão **muito** cansadas; bastante preparadas.
-
-Junto de substantivo, essas formas podem ser variáveis; modificando adjetivo, verbo ou advérbio, assumem uso adverbial e não concordam com o termo modificado.
-
-### 1.2 Locução adverbial
-
-**Locução adverbial** é grupo de palavras com valor de advérbio: `à tarde`, `às pressas`, `de repente`, `com certeza`, `em breve`. A função, não o número de palavras, define a locução.
-
-## 2. Preposição
-
-Preposição liga dois termos e subordina o segundo ao primeiro. O valor é contextual:
-
-| Relação | Exemplo |
-| --- | --- |
-| Origem | veio **de** Recife |
-| Direção/finalidade | estudou **para** o concurso |
-| Causa | morreu **de** fome |
-| Companhia | saiu **com** colegas |
-| Instrumento | escreveu **com** lápis |
-| Assunto | falou **sobre** licitações |
-| Oposição | votou **contra** a proposta |
-| Agente | foi elaborado **por** especialistas |
-| Matéria | mesa **de** madeira |
-| Tempo | reuniu-se **após** o expediente |
-
-Preposições essenciais incluem `a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás`. Uma lista não resolve sozinha a análise: a relação criada na frase é decisiva.
-
-Preposições acidentais são palavras de outras classes que assumem valor prepositivo no contexto, como `conforme`, `segundo`, `mediante` e `salvo`.
-
-### 2.1 Locução, combinação e contração
-
-Locução prepositiva é expressão com valor de preposição: `a fim de`, `diante de`, `por causa de`, `em vez de`, `acerca de`, `em relação a`.
-
-| Forma | Análise tradicional |
-| --- | --- |
-| `ao` | combinação de `a + o` |
-| `do`, `no`, `pelo` | contrações de `de/em/por + artigo` |
-| `daquele` | contração de `de + aquele` |
-
-A crase exige verificar a preposição `a` e um artigo feminino ou pronome demonstrativo/relativo que admita essa fusão, como em `à candidata` e `àquela norma`; não é apenas um acento gráfico. Regência é tema sintático: aqui, importa reconhecer a preposição e a relação que ela introduz.
-
-## 3. Conjunção
-
-Conjunção conecta termos ou orações. A classe é morfológica; coordenação e subordinação são relações sintáticas. O valor semântico deve ser lido no contexto.
-
-### 3.1 Coordenativas
-
-| Tipo | Relação | Exemplos |
+| Forma | Emprego nominal/variável | Emprego adverbial/invariável |
 | --- | --- | --- |
-| Aditiva | soma | `e`, `nem`, `não só... mas também` |
-| Adversativa | contraste | `mas`, `porém`, `contudo` |
-| Alternativa | escolha | `ou`, `ora... ora`, `quer... quer` |
-| Conclusiva | conclusão | `logo`, `portanto`, `por isso` |
-| Explicativa | justificativa | `porque`, `que`, `pois` |
+| `meio` | `meia hora` | `elas estão meio cansadas` |
+| `bastante` | `bastantes motivos` | `estavam bastante preparadas` |
+| `muito` | `muitas candidatas` | `estudaram muito` |
+| `pouco` | `poucos recursos` | `trabalharam pouco` |
 
-### 3.2 Subordinativas
+Também compare:
 
-| Tipo | Relação | Exemplos |
-| --- | --- | --- |
-| Integrante | introduz oração substantiva | `que`, `se` |
-| Causal | causa | `porque`, `já que`, `visto que` |
-| Condicional | condição | `se`, `caso` |
-| Concessiva | obstáculo não impeditivo | `embora`, `ainda que` |
-| Comparativa | comparação | `como`, `mais... do que` |
-| Conformativa | conformidade | `conforme`, `segundo` |
-| Consecutiva | consequência | `tão... que`, `tanto... que` |
-| Final | finalidade | `para que`, `a fim de que` |
-| Proporcional | variação correlata | `à medida que`, `quanto mais... mais` |
-| Temporal | tempo | `quando`, `assim que` |
+> discurso **alto** → `alto` caracteriza substantivo: adjetivo.  
+> falar **alto** → `alto` modifica verbo: valor adverbial.
 
-`Porque`, `pois`, `como` e `se` têm valores que variam conforme a construção. Uma troca de conectivo só é válida se preservar a relação lógica, a estrutura e a pontuação aplicável. Não existe a regra de que toda conjunção exige vírgula.
+A invariabilidade decorre do **emprego adverbial**, não da aparência da palavra.
 
-## 4. Interjeição
+### 2.2 Locução adverbial
 
-Interjeição exprime reação, emoção, apelo, saudação, advertência ou chamamento: `ah!`, `ai!`, `ufa!`, `oba!`, `olá!`, `psiu!`, `socorro!`.
+**Locução adverbial** é um grupo de palavras com valor equivalente ao de um advérbio: `à tarde`, `às pressas`, `de repente`, `com certeza`, `em breve`, `por acaso`.
 
-Locuções interjetivas têm mais de uma palavra: `ai de mim!`, `ora bolas!`, `meu Deus!`, `valha-me Deus!`. O ponto de exclamação é frequente, mas não basta para classificar uma palavra: importa sua função expressiva.
+O número de palavras não define a classe: é a função do conjunto que importa.
 
-## 5. Roteiro de prova
+### 2.3 Advérbio interrogativo
 
-1. Localize o termo modificado ou a relação conectada.
-2. Diferencie classe de palavra e função sintática: adjunto adverbial não é sinônimo de advérbio.
-3. Em `muito`, `meio`, `pouco` e `bastante`, observe se há substantivo ou termo modificado.
-4. Em preposições e conjunções, determine o valor pelo contexto, não por lista isolada.
-5. Em locuções, analise o conjunto como unidade funcional.
-6. Em reescritas, preserve a relação lógica e reavalie pontuação.
+Formas como `quando`, `onde`, `como` e `por que` podem introduzir interrogações diretas ou indiretas com valor adverbial:
 
-## 6. Limites do assunto
+> **Quando** será a prova?  
+> Não sei **quando** será a prova.
+
+Isso ajuda a evitar a classificação automática de toda ocorrência de `quando` ou `como` como conjunção.
+
+## 3. Preposição
+
+A **preposição** liga termos e estabelece relação de dependência entre eles. O sentido não pertence rigidamente à palavra: resulta do contexto.
+
+| Relação possível | Exemplo |
+| --- | --- |
+| origem | veio **de** Recife |
+| direção | foi **para** a sala |
+| finalidade | estudou **para** a prova |
+| causa | tremia **de** medo |
+| companhia | saiu **com** colegas |
+| instrumento/meio | escreveu **com** lápis |
+| assunto | falou **sobre** licitações |
+| oposição | recurso **contra** a decisão |
+| agente | elaborado **por** especialistas |
+| matéria | mesa **de** madeira |
+| tempo | reunião **após** o expediente |
+
+Preposições essenciais tradicionalmente incluem `a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás`.
+
+### 3.1 Preposições acidentais
+
+Palavras oriundas de outras classes podem assumir emprego prepositivo. Exemplos tradicionais incluem `conforme`, `segundo`, `mediante`, `salvo`, `exceto`, `durante` e `consoante`.
+
+Compare:
+
+> **Segundo o edital**, o prazo termina amanhã. → `segundo` introduz um termo nominal: emprego prepositivo.  
+> O **segundo** candidato entrou. → `segundo` é numeral ordinal.
+
+> **Conforme o regulamento**, a etapa é obrigatória. → emprego prepositivo.  
+> **Conforme prevê o regulamento**, a etapa é obrigatória. → introduz oração: emprego conjuntivo conformativo.
+
+Essa comparação é mais importante para prova do que decorar listas isoladas.
+
+### 3.2 Locução prepositiva
+
+**Locução prepositiva** é expressão com valor de preposição: `a fim de`, `diante de`, `por causa de`, `em vez de`, `acerca de`, `em relação a`, `de acordo com`.
+
+Compare:
+
+> Trabalhou **a fim de** concluir o relatório. → `a fim de` introduz construção de valor final.  
+> Trabalhou **a fim de que** o relatório fosse concluído. → `a fim de que` introduz oração e funciona como locução conjuntiva final.
+
+### 3.3 Combinação e contração
+
+As preposições podem unir-se a artigos e pronomes:
+
+| Forma | Formação tradicional |
+| --- | --- |
+| `ao` | `a + o` |
+| `do` | `de + o` |
+| `no` | `em + o` |
+| `pelo` | `por + o` |
+| `daquele` | `de + aquele` |
+
+Esse reconhecimento é útil, mas o ponto de maior rendimento é identificar **qual preposição está presente e que relação ela estabelece**.
+
+Crase, regência e seus efeitos sintáticos pertencem a assuntos próprios; aqui, basta reconhecer a presença da preposição `a` quando pertinente.
+
+## 4. Conjunção
+
+A **conjunção** conecta termos ou, principalmente, orações. A classe é morfológica; coordenação e subordinação são relações sintáticas.
+
+Para este assunto, é suficiente reconhecer os principais valores e perceber que **uma mesma forma pode mudar de emprego conforme a construção**.
+
+### 4.1 Valores coordenativos mais frequentes
+
+| Relação | Formas típicas |
+| --- | --- |
+| adição | `e`, `nem`, `não só... mas também` |
+| contraste | `mas`, `porém`, `contudo` |
+| alternância | `ou`, `ora... ora`, `quer... quer` |
+| conclusão | `logo`, `portanto`, `pois` em certos usos |
+| explicação | `porque`, `que`, `pois` em certos usos |
+
+### 4.2 Valores subordinativos mais frequentes
+
+| Relação | Formas típicas |
+| --- | --- |
+| integração de oração substantiva | `que`, `se` |
+| causa | `porque`, `como`, `já que` |
+| condição | `se`, `caso` |
+| concessão | `embora`, `ainda que` |
+| comparação | `como`, `mais... do que` |
+| conformidade | `conforme`, `segundo` |
+| consequência | `tão... que`, `tanto... que` |
+| finalidade | `para que`, `a fim de que` |
+| proporção | `à medida que`, `quanto mais... mais` |
+| tempo | `quando`, `assim que` |
+
+Não é necessário transformar esta página em uma revisão completa da sintaxe das orações: os quadros servem para reconhecer o emprego da classe.
+
+### 4.3 Formas polifuncionais
+
+#### `pois`
+
+> Apresente o comprovante, **pois** ele é obrigatório. → valor explicativo.  
+> O comprovante era obrigatório; deveria, **pois**, ser apresentado. → valor conclusivo.
+
+A posição e a relação entre as ideias ajudam a determinar o emprego.
+
+#### `se`
+
+> Não sei **se** haverá recurso. → conjunção integrante.  
+> **Se** houver recurso, o prazo será reaberto. → conjunção condicional.
+
+#### `que`
+
+> Informou **que** compareceria. → conjunção integrante.  
+> O relatório **que** chegou será analisado. → `que` retoma antecedente e é pronome relativo, não conjunção.
+
+#### `quando`
+
+> **Quando** a sessão começou, as portas foram fechadas. → conjunção temporal.  
+> **Quando** começará a sessão? → advérbio interrogativo.
+
+#### `ora`
+
+> **Ora** estuda, **ora** trabalha. → elemento correlativo de alternância.  
+> **Ora!** Isso não faz sentido. → interjeição.
+
+### 4.4 Relação semântica não é classe morfológica
+
+Expressões como `por isso`, `desse modo` e `assim` podem estabelecer conclusão ou consequência no texto. A presença desse valor lógico **não autoriza, por si só, classificá-las como conjunções**. Em questão morfológica, identifique a estrutura efetiva do conector e siga a nomenclatura adotada pelo enunciado quando houver tradição gramatical divergente.
+
+Também não existe regra de que toda conjunção exija vírgula. Pontuação é assunto próprio e depende da estrutura sintática.
+
+## 5. Interjeição
+
+A **interjeição** exprime reação, emoção, apelo, saudação, advertência ou chamamento, muitas vezes formando enunciado autônomo:
+
+`ah!`, `ai!`, `ufa!`, `oba!`, `olá!`, `psiu!`, `socorro!`, `epa!`.
+
+**Locuções interjetivas** têm mais de uma palavra: `ai de mim!`, `ora bolas!`, `meu Deus!`, `valha-me Deus!`.
+
+O ponto de exclamação é frequente, mas não define sozinho a classe. Compare:
+
+> **Ora!** Não exagere. → interjeição.  
+> **Ora** lê, **ora** escreve. → elemento de alternância.
+
+A função expressiva é o critério central.
+
+## 6. Matriz de formas que mudam de classe
+
+| Forma | Contexto 1 | Classe/emprego | Contexto 2 | Classe/emprego |
+| --- | --- | --- | --- | --- |
+| `alto` | `parede alta` | adjetivo | `falar alto` | advérbio |
+| `meio` | `meia hora` | emprego nominal variável | `meio cansadas` | advérbio |
+| `bastante` | `bastantes motivos` | emprego nominal variável | `bastante claros` | advérbio |
+| `segundo` | `segundo candidato` | numeral | `segundo o edital` | preposição acidental |
+| `conforme` | `conforme o edital` | preposição acidental | `conforme prevê o edital` | conjunção |
+| `que` | `disse que viria` | conjunção integrante | `texto que chegou` | pronome relativo |
+| `quando` | `quando chegou, sentou` | conjunção temporal | `quando chegará?` | advérbio interrogativo |
+| `ora` | `ora lê, ora escreve` | conector de alternância | `ora!` | interjeição |
+
+## 7. Roteiro de prova
+
+1. **Identifique o núcleo relacionado:** a palavra modifica algo ou conecta estruturas?
+2. **Observe o contexto**, não apenas a forma gráfica.
+3. Em `meio`, `muito`, `pouco` e `bastante`, veja se há emprego nominal variável ou adverbial invariável.
+4. Em `segundo` e `conforme`, veja se o termo seguinte é nominal ou se há uma oração introduzida.
+5. Em `que`, `se`, `quando`, `como`, `pois` e `ora`, verifique a função concreta antes de classificar.
+6. Diferencie **valor semântico** de **classe morfológica**.
+7. Em locuções, analise o conjunto: adverbial, prepositiva, conjuntiva ou interjetiva.
+8. Não resolva questão de classe usando automaticamente regras de pontuação, regência ou sintaxe de orações.
+
+## 8. Pegadinhas
+
+- Advérbio é invariável; palavra de mesma forma em emprego nominal pode variar.
+- `alto` após verbo não é necessariamente adjetivo.
+- `segundo` não é sempre numeral.
+- `conforme` não é sempre conjunção.
+- `que` não é sempre conjunção.
+- `quando` não é sempre conjunção.
+- Uma expressão pode ter valor conclusivo sem ser, morfologicamente, conjunção.
+- Exclamação não transforma qualquer palavra em interjeição.
+- Locução é classificada pela função do conjunto, não apenas pela última palavra.
+
+## 9. Limites do assunto
 
 - Classes nominais: Assunto 006.
 - Verbo como classe de palavras: Assunto 007.
-- Coordenação e subordinação entre termos e orações: Assuntos 009 e 010, respectivamente.
-- Texto, coesão e conectores como estratégia textual: Assunto 004.
+- Coordenação entre orações e termos: Assunto 009.
+- Subordinação entre orações e termos: Assunto 010.
 - Pontuação: Assunto 011.
+- Crase: Assunto 014.
+- Coesão e conectores como estratégia textual: Assunto 004.
 
 ## Referências
 
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 - TCE/MA, de 6 de julho de 2026**. Disponível no [edital do TCE/MA no Cebraspe (PDF)](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Acesso em: 15 jul. 2026.
-- BRASIL. Ministério da Educação e Cultura. **Nomenclatura Gramatical Brasileira**. Portaria nº 36, de 28 de janeiro de 1959. Disponível na [NGB hospedada pela UFPR (PDF)](https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf). Acesso em: 15 jul. 2026.
-- FUNDAÇÃO GETULIO VARGAS. **Classes gramaticais**. Disponível no [material didático da FGV](https://ead4.fgv.br/producao/enem/portugues/curso_3/aula1/conteudo.htm). Acesso em: 15 jul. 2026.
-- BRASIL ESCOLA. **Advérbio: função, tipos e locuções**. Disponível na [página sobre advérbios](https://brasilescola.uol.com.br/gramatica/adverbio.htm). Acesso em: 15 jul. 2026.
-- CALDAS AULETE. **Conjunções subordinativas**. Disponível na [gramática básica Aulete](https://www.aulete.com.br/gram/cap14-02-conjuncoes_subordinativas). Acesso em: 15 jul. 2026.
-- PORTUGUÊS.COM.BR. **Locuções prepositivas**. Disponível na [página sobre locuções prepositivas](https://www.portugues.com.br/gramatica/locucoes-prepositivas-.html). Acesso em: 15 jul. 2026.
+- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 — TCE/MA, de 6 de julho de 2026**. [PDF oficial](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf).
+- BRASIL. Ministério da Educação e Cultura. **Nomenclatura Gramatical Brasileira**. Portaria nº 36, de 28 de janeiro de 1959. [Cópia hospedada pela UFPR](https://docs.ufpr.br/~borges/publicacoes/notaveis/NGB.pdf).
+- BECHARA, Evanildo. **Moderna Gramática Portuguesa**. Rio de Janeiro: Nova Fronteira.
+- CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. Rio de Janeiro: Lexikon.
+- FUNDAÇÃO GETULIO VARGAS. **Classes gramaticais**. [Material didático](https://ead4.fgv.br/producao/enem/portugues/curso_3/aula1/conteudo.htm).
