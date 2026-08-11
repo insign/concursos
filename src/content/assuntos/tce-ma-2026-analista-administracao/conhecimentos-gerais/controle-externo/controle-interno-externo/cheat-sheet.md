@@ -1,166 +1,115 @@
-# Controle da Administração Pública
+# Controle: conceito, tipos, interno e externo
 
-## Conceito e funções
+## Fluxo de classificação
 
-Controle = verificar + acompanhar + avaliar + corrigir a atuação pública segundo parâmetros aplicáveis.
+1. **Quem controla quem?** → interno × externo.
+2. **Quando?** → prévio × concomitante × posterior.
+3. **Como começou?** → de ofício × provocado.
+4. **O que é examinado?** → legalidade, legitimidade, economicidade, desempenho.
+5. **Qual a função?** → prevenir, detectar, corrigir, orientar, avaliar ou responsabilizar.
 
-- preventivo: evita falha;
-- detectivo: identifica falha ou risco;
-- corretivo: saneia ou reduz efeitos;
-- orientador: esclarece e induz melhoria;
-- avaliativo: examina desempenho e resultado;
-- responsabilizador: apura consequências no processo competente.
+> Eixos diferentes **podem acumular-se**.
 
-**Controle não é sinônimo de sanção.**
+## Interno × externo
 
-## Classificações
-
-| Critério | Tipos |
+| Interno | Externo |
 | --- | --- |
-| posição | interno / externo |
-| momento | prévio / concomitante / posterior |
-| iniciativa | de ofício / provocado |
-| extensão | hierárquico / finalístico |
-| parâmetro | legalidade / legitimidade / economicidade / mérito / desempenho |
-| função | preventiva / detectiva / corretiva / orientadora / sancionadora |
+| dentro da própria estrutura ou do mesmo Poder controlado | controlador situado fora da estrutura institucional controlada |
+| acompanha gestão e riscos de perto | exerce competência externa própria |
+| inclui controles da gestão e auditoria | no sentido constitucional, conecta-se aos arts. 70 e seguintes |
 
-As classificações são cumulativas: um controle pode ser interno, concomitante, de ofício e de legalidade ao mesmo tempo.
+**Autonomia técnica da controladoria ≠ controle externo.**
 
-## Interno x externo
+**Controle interno ≠ auditoria interna.**
 
-| Controle interno | Controle externo |
-| --- | --- |
-| ocorre na própria estrutura ou no mesmo Poder | parte de estrutura institucional externa ao controlado |
-| acompanha gestão e riscos de perto | exerce competências independentes da estrutura controlada |
-| inclui controles da gestão e auditoria | no modelo federal, arts. 70 e 71 da CF |
+## Art. 70 — fórmula de prova
 
-- São complementares.
-- Um não substitui o outro.
-- Auditoria interna é parte do sistema, não o sistema inteiro.
-- Autonomia técnica de controladoria não a converte em controle externo.
+### 5 dimensões
 
-## Constituição, art. 70
+**C F O O P**
 
-Fiscalização da União e da administração direta e indireta:
+- **C**ontábil
+- **F**inanceira
+- **O**rçamentária
+- **O**peracional
+- **P**atrimonial
 
-1. contábil;
-2. financeira;
-3. orçamentária;
-4. operacional;
-5. patrimonial.
-
-Parâmetros e matérias expressas:
+### Parâmetros-chave
 
 - legalidade;
 - legitimidade;
-- economicidade;
-- aplicação das subvenções;
-- renúncia de receitas.
+- economicidade.
 
-Sistemas:
+Além disso: aplicação das subvenções + renúncia de receitas.
 
-- Congresso Nacional: controle externo;
-- sistema de controle interno de cada Poder.
+**Dimensão ≠ parâmetro.**
 
-## Prestação de contas
+## Art. 70 — prestação de contas
 
-Deve prestar contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre recursos, bens ou valores públicos, ou assuma obrigações pecuniárias em nome da União.
+Pode alcançar:
 
-**Pessoa privada pode prestar contas sem se tornar órgão público.**
+- pessoa física **ou** jurídica;
+- pública **ou** privada;
+- desde que se enquadre na relação constitucional com recursos, bens, valores ou obrigações públicos.
 
-## Constituição, art. 71
+**Privado prestando contas ≠ órgão público.**
 
-- titular do controle externo federal: **Congresso Nacional**;
-- órgão de auxílio: **TCU**;
-- auxílio não significa subordinação hierárquica;
-- TCU não integra o Poder Judiciário.
+## Art. 74 — quatro finalidades
 
-## Constituição, art. 74
-
-Poderes Legislativo, Executivo e Judiciário mantêm, de forma integrada, sistema de controle interno para:
-
-1. avaliar metas do PPA, programas e orçamentos;
-2. comprovar legalidade e avaliar eficácia e eficiência da gestão e de recursos públicos aplicados por entidades privadas;
-3. controlar operações de crédito, avais, garantias, direitos e haveres da União;
+1. metas do PPA + programas + orçamentos;
+2. legalidade + eficácia + eficiência da gestão e aplicação de recursos públicos por entidades privadas;
+3. operações de crédito + avais + garantias + direitos + haveres;
 4. apoiar o controle externo.
 
-Responsável pelo controle interno que conhece irregularidade ou ilegalidade deve dar ciência ao TCU, sob pena de responsabilidade solidária.
+### Eficácia × eficiência
 
-Cidadão, partido, associação ou sindicato pode denunciar irregularidade ou ilegalidade ao TCU, na forma da lei.
-
-## Dimensões e parâmetros
-
-| Termo | Ideia-chave |
+| Eficácia | Eficiência |
 | --- | --- |
-| contábil | registros e demonstrações |
-| financeira | receitas, pagamentos e fluxos |
-| orçamentária | previsão, autorização e execução |
-| operacional | processos, desempenho e resultados |
-| patrimonial | bens, direitos e obrigações |
-| legalidade | conformidade com o ordenamento |
-| legitimidade | finalidade pública e princípios |
-| economicidade | relação racional entre custos, meios e benefícios |
+| alcance dos objetivos | resultados × recursos usados |
 
-**Economicidade não é menor preço automático.**
+## Art. 74, § 1º
 
-## Momento do controle
+Responsável pelo controle interno:
 
-- prévio: antes do ato ou de seus efeitos;
-- concomitante: durante a execução;
-- posterior: depois do ato ou resultado.
+**conheceu irregularidade/ilegalidade → dá ciência ao TCU → omissão pode gerar responsabilidade solidária.**
 
-Lei nº 4.320/1964, art. 77: legalidade dos atos de execução orçamentária verificada de forma prévia, concomitante e subsequente.
+Não transforme qualquer erro em solidariedade automática.
 
-Um processo pode receber os três controles.
+## Momento
 
-## Lei nº 4.320/1964, art. 75
-
-Controle da execução orçamentária pelo Executivo abrange:
-
-1. legalidade de atos de receita, despesa, direitos e obrigações;
-2. fidelidade funcional de responsáveis por bens e valores;
-3. cumprimento do programa de trabalho em valores, obras e serviços.
-
-Sem prejuízo das atribuições do tribunal de contas ou equivalente.
-
-## Legalidade x mérito
-
-| Anulação | Revogação |
+| Tipo | Quando |
 | --- | --- |
-| ato ilegal | ato válido |
-| fundamento: ilegalidade | fundamento: conveniência e oportunidade |
-| controle de legalidade | controle de mérito pela Administração competente |
+| prévio | antes |
+| concomitante | durante |
+| posterior | depois |
 
-Autotutela: Administração anula atos ilegais e pode revogar atos válidos por mérito, respeitados direitos adquiridos e controle judicial.
+Um mesmo processo pode ter os três.
 
-Controle externo ou judicial não possui poder geral de revogar por preferência própria.
+**Externo ≠ necessariamente posterior.**
 
-## Hierárquico x finalístico
+## Iniciativa
 
-| Hierárquico | Finalístico |
+- **de ofício:** iniciativa do órgão;
+- **provocado:** denúncia, representação, recurso etc.
+
+**Provocar ≠ decidir.**
+
+## Legalidade × legitimidade × economicidade
+
+| Parâmetro | Pergunta |
 | --- | --- |
-| decorre da subordinação | decorre de vinculação e lei |
-| cadeia interna | Administração direta sobre entidade indireta |
-| poderes nos limites da hierarquia | preserva autonomia da entidade |
+| legalidade | está conforme o ordenamento? |
+| legitimidade | respeita finalidade pública e princípios aplicáveis? |
+| economicidade | custos e meios são racionais para o resultado? |
 
-**Vinculação não é hierarquia.**
-
-## Decreto-Lei nº 200/1967
-
-- controle é princípio fundamental da Administração Federal;
-- deve ocorrer em todos os níveis e órgãos;
-- alcança chefias, órgãos dos sistemas e aplicação de recursos/guarda de bens;
-- controles puramente formais ou com custo evidentemente superior ao risco devem ser suprimidos.
-
-Mais carimbos não significam melhor controle.
+**Economicidade ≠ menor preço automático.**
 
 ## Pegadinhas
 
-- Interno e externo não são excludentes nem hierarquizados em geral.
-- Controle externo não é exclusivamente posterior.
-- Resultado ruim não prova ilegalidade automaticamente.
-- Discricionariedade não afasta exame de competência, finalidade e motivação.
-- Denúncia provoca atuação; não transfere competência decisória.
-- Comunicação ao TCU não elimina providências internas cabíveis.
-- Formalidade pode ser garantia; ritual sem relação com risco pode ser disfuncional.
-- Uma mesma operação pode envolver fiscalização contábil, financeira, orçamentária, operacional e patrimonial.
+- controle ≠ sanção;
+- controle interno e externo são complementares;
+- “controle externo” doutrinário amplo ≠ necessariamente “controle externo” constitucional dos arts. 70 e seguintes;
+- classificações dependem do critério adotado;
+- dimensões do art. 70 podem incidir juntas sobre o mesmo fato;
+- cidadão pode provocar controle, mas não recebe competência estatal automática;
+- controlador também deve respeitar competência, motivação e processo.
