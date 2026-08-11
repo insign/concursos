@@ -1,159 +1,93 @@
 # Problemas matriciais
 
-## Leitura básica
+## Fluxo
+
+1. O que significam linhas e colunas?
+2. É um **padrão no quadro** ou uma **operação matricial**?
+3. Qual posição ou grandeza foi pedida?
+4. As ordens permitem a operação?
+5. O resultado tem a ordem e a unidade esperadas?
+
+## Leitura
 
 $$
 A_{m\times n}
 $$
 
-tem $m$ linhas e $n$ colunas.
+$m$ = linhas; $n$ = colunas.
 
 $$
-a_{ij}=\text{elemento da linha }i\text{ e coluna }j.
+a_{ij}=\text{linha }i,\ \text{coluna }j.
 $$
 
-Primeiro índice: linha. Segundo índice: coluna.
+> $a_{23}$ = **2ª linha, 3ª coluna**.
 
-Antes de calcular, identifique:
+## Padrões em quadros
 
-- significado das linhas;
-- significado das colunas;
-- unidade dos elementos;
-- operação pedida.
+Teste nesta ordem:
 
-## Formas frequentes
+1. regra nas linhas;
+2. regra nas colunas;
+3. diagonais, se fizer sentido;
+4. consistência em mais de uma posição.
 
-| Forma | Característica |
-|---|---|
-| matriz linha | $1\times n$ |
-| matriz coluna | $m\times1$ |
-| quadrada | $n\times n$ |
-| nula | todos os elementos iguais a zero |
-| diagonal | quadrada; zeros fora da diagonal principal |
-| identidade $I_n$ | diagonal principal igual a $1$ |
-| simétrica | $A^T=A$ |
+Regra que explica só uma linha **não está confirmada**.
 
-Diagonal principal:
+## Operações
 
-$$
-a_{11},a_{22},\ldots,a_{nn}.
-$$
+| Operação | Condição | Regra |
+|---|---|---|
+| igualdade | mesma ordem | elementos correspondentes iguais |
+| soma/subtração | mesma ordem | posição a posição |
+| escalar $kA$ | qualquer ordem | multiplica todos os elementos |
+| transposta | sempre | troca linhas por colunas |
+| produto $AB$ | colunas de $A$ = linhas de $B$ | linha × coluna |
 
-## Igualdade
+Variação:
 
 $$
-A=B
+\text{novo}-\text{antigo}.
 $$
 
-somente se:
-
-1. $A$ e $B$ têm a mesma ordem;
-2. $a_{ij}=b_{ij}$ em todas as posições.
-
-## Adição e subtração
-
-Exigem a mesma ordem:
+Aumento uniforme de 10%:
 
 $$
-(A+B)_{ij}=a_{ij}+b_{ij},
-$$
-
-$$
-(A-B)_{ij}=a_{ij}-b_{ij}.
-$$
-
-Aplicações:
-
-- total de períodos: $A+B$;
-- variação: novo menos antigo.
-
-## Multiplicação por escalar
-
-$$
-(kA)_{ij}=ka_{ij}.
-$$
-
-Multiplique todos os elementos.
-
-Novo valor após aumento de $p\%$:
-
-$$
-\left(1+\frac p{100}\right)A.
+1{,}10A.
 $$
 
 ## Transposta
 
-Troca linhas por colunas:
-
 $$
-(A^T)_{ij}=a_{ji}.
-$$
-
-Ordem:
-
-$$
-m\times n\longrightarrow n\times m.
-$$
-
-Propriedades:
-
-$$
-(A^T)^T=A,
+(A^T)_{ij}=a_{ji}
 $$
 
 $$
-(A+B)^T=A^T+B^T,
+m\times n\to n\times m.
 $$
 
-$$
-(kA)^T=kA^T,
-$$
-
-$$
-(AB)^T=B^TA^T.
-$$
-
-No produto transposto, inverta os fatores.
+Interpretação: “setores × produtos” vira “produtos × setores”.
 
 ## Produto matricial
-
-Condição e ordem:
 
 $$
 A_{m\times n}B_{n\times p}=C_{m\times p}.
 $$
 
-Dimensões internas iguais; dimensões externas no resultado.
-
-Elemento do produto:
+Macete:
 
 $$
-c_{ij}=\sum_{k=1}^{n}a_{ik}b_{kj}.
+(m\times\cancel n)(\cancel n\times p)\to m\times p.
 $$
 
-Regra prática:
-
-1. escolha a linha $i$ de $A$;
-2. escolha a coluna $j$ de $B$;
-3. multiplique termos correspondentes;
-4. some os produtos;
-5. grave o resultado na posição $(i,j)$.
-
-Produto matricial não é produto posição a posição.
-
-## Propriedades do produto
+Entrada $c_{ij}$:
 
 $$
-A(BC)=(AB)C,
+\text{linha }i\text{ de }A\cdot\text{coluna }j\text{ de }B.
 $$
 
-$$
-A(B+C)=AB+AC,
-$$
+Produto matricial **não** é produto posição a posição.
 
-$$
-(A+B)C=AC+BC.
-$$
+## Ordem dos fatores
 
 Em geral:
 
@@ -161,121 +95,62 @@ $$
 AB\ne BA.
 $$
 
-A existência de $AB$ não garante a de $BA$.
-
-## Identidade
-
-Para $A_{m\times n}$:
-
-$$
-I_mA=A,
-$$
-
-$$
-AI_n=A.
-$$
-
-Identidade à esquerda: número de linhas de $A$.
-
-Identidade à direita: número de colunas de $A$.
-
-## Potências
-
-Exigem matriz quadrada:
-
-$$
-A^2=AA,
-$$
-
-$$
-A^3=AAA.
-$$
-
-Para expoentes positivos:
-
-$$
-A^rA^s=A^{r+s}.
-$$
-
-Idempotente:
-
-$$
-A^2=A.
-$$
+- $AB$ existir não garante que $BA$ exista.
+- Em composição de etapas, o fator da **direita atua primeiro**.
 
 ## Totais ponderados
 
-Se $Q_{m\times n}$ contém quantidades e $p_{n\times1}$ contém preços unitários:
+Se $Q$ contém quantidades por linha e $p$ é vetor coluna de preços:
 
 $$
 Qp
 $$
 
-é uma matriz $m\times1$ com o total de cada linha.
+fornece um total ponderado para cada linha.
 
-Cheque as unidades:
-
-$$
-\text{quantidade}\times\frac{\text{valor}}{\text{unidade}}
-=\text{valor}.
-$$
-
-## Etapas sucessivas
-
-Se $B$ atua primeiro e $A$ depois, a composição é:
+Cheque a unidade:
 
 $$
-AB.
+\text{quantidade}\times\frac{\text{valor}}{\text{unidade}}=\text{valor}.
 $$
 
-O fator da direita atua primeiro.
+## Fatos secundários
+
+Identidade compatível:
 
 $$
-R_{2\times3}P_{3\times4}=C_{2\times4}.
+I_mA=A,
+\qquad
+AI_n=A
 $$
 
-## Matrizes de relações
+para $A_{m\times n}$.
 
-Matriz binária:
+Potência:
 
 $$
-r_{ij}=1
+A^2=AA
 $$
 
-se a relação existe, e $0$ caso contrário.
-
-- relação recíproca: matriz simétrica;
-- relação direcionada: $r_{ij}$ pode diferir de $r_{ji}$.
-
-## Padrões em quadros
-
-Teste, nesta ordem:
-
-1. regra dentro das linhas;
-2. regra dentro das colunas;
-3. diagonais;
-4. consistência em mais de uma posição.
-
-Uma regra que explica apenas uma linha não está confirmada.
+só está definida quando $A$ é quadrada.
 
 ## Pegadinhas
 
-- $a_{23}$: segunda linha, terceira coluna.
-- Mesmo total de elementos não garante mesma ordem.
+- $2\times3\ne3\times2$.
+- Mesmo número de elementos não significa mesma ordem.
 - Soma: ordens iguais.
-- Produto: colunas da primeira = linhas da segunda.
-- Potência: matriz quadrada.
-- $AB$ não costuma ser igual a $BA$.
-- $(AB)^T=B^TA^T$, não $A^TB^T$.
-- Uma tabela só deve ser combinada com outra quando linhas, colunas e unidades forem compatíveis.
-- Determinante, inversa, escalonamento e sistemas lineares não integram este recorte do edital.
+- Produto: dimensões **internas** iguais.
+- Resultado do produto: dimensões **externas**.
+- $AB$ não costuma ser $BA$.
+- Transposta troca eixos; não muda valores arbitrariamente.
+- Em padrões, confirme a regra em várias posições.
+- Não puxe determinante, inversa, escalonamento ou sistemas lineares para este recorte.
 
 ## Conferência final
 
-1. Rotulei linhas e colunas?
-2. Li corretamente os índices?
-3. Verifiquei as ordens antes da operação?
-4. Antecipei a ordem do resultado?
-5. No produto, usei linha por coluna?
-6. Preservei a ordem das etapas?
-7. Conferi a unidade e o significado da resposta?
+- Rotulei linhas e colunas?
+- Li corretamente os índices?
+- Diferenciei padrão de operação?
+- Conferi a ordem antes do cálculo?
+- No produto, usei linha × coluna?
+- Interpretei a unidade e o significado do resultado?
