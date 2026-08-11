@@ -45,6 +45,45 @@ test('validates and stores a public alias without normalization', async ({ page 
   await expect.poll(() => page.evaluate(() => localStorage.getItem('concursos:active-alias'))).toBe('estudo-7f3k');
 });
 
+test('shows an accessible activity indicator while an alias is being prepared', async ({ page }) => {
+  const alias = 'progresso-7f3k';
+  let releaseRequest: () => void = () => undefined;
+  const requestReleased = new Promise<void>((resolve) => {
+    releaseRequest = resolve;
+  });
+  let markRequestStarted: () => void = () => undefined;
+  const requestStarted = new Promise<void>((resolve) => {
+    markRequestStarted = resolve;
+  });
+  await page.route('https://kv.helio.me/**', async (route) => {
+    if (
+      route.request().method() === 'GET' &&
+      new RegExp(`concursos--${alias}--preferencias(?:/version)?$`).test(
+        new URL(route.request().url()).pathname,
+      )
+    ) {
+      markRequestStarted();
+      await requestReleased;
+    }
+    await route.fallback();
+  });
+
+  await page.goto('/configuracoes/');
+  await page.getByLabel('Novo alias').fill(alias);
+  await page.getByRole('button', { name: 'Usar este alias' }).click();
+  await requestStarted;
+
+  const submit = page.locator('[data-identity-submit]');
+  await Promise.all([
+    expect(submit).toHaveAttribute('aria-busy', 'true', { timeout: 2_000 }),
+    expect(page.locator('[data-identity-progress]')).toBeVisible({ timeout: 2_000 }),
+    expect(page.getByRole('button', { name: 'Usar este alias' })).toBeDisabled({ timeout: 2_000 }),
+  ]);
+
+  releaseRequest();
+  await expect(page.getByText('Alias atual:')).toContainText(alias);
+});
+
 test('requires confirmation before linking an existing remote alias', async ({ page, kvStore }) => {
   const alias = 'existente-7f3k';
   kvStore.set(`concursos--${alias}--preferencias`, {
@@ -66,10 +105,28 @@ test('requires confirmation before linking an existing remote alias', async ({ p
   await expect(page.getByRole('button', { name: 'Usar este alias' })).toBeEnabled();
   await expect(page.evaluate(() => localStorage.getItem('concursos:active-alias'))).resolves.toBeNull();
 
-  page.once('dialog', (dialog) => dialog.accept());
+  await page.evaluate(() => {
+    const status = document.querySelector<HTMLElement>('[data-identity-status]')!;
+    const messages: string[] = [];
+    new MutationObserver(() => {
+      messages.push(status.textContent ?? '');
+      sessionStorage.setItem('test:identity-statuses', JSON.stringify(messages));
+    }).observe(status, { childList: true, characterData: true, subtree: true });
+  });
+  let dialogMessage = '';
+  page.once('dialog', (dialog) => {
+    dialogMessage = dialog.message();
+    return dialog.accept();
+  });
   await page.getByRole('button', { name: 'Usar este alias' }).click();
   await expect(page.getByText('Alias atual:')).toContainText(alias);
   await expect(page.evaluate(() => localStorage.getItem('concursos:active-alias'))).resolves.toBe(alias);
+  expect(dialogMessage).toContain('1 documento remoto');
+  expect(
+    await page.evaluate(() =>
+      JSON.parse(sessionStorage.getItem('test:identity-statuses') ?? '[]') as string[],
+    ),
+  ).toContain('Sincronizando 1 documento do perfil encontrado...');
 });
 
 test('keeps the active alias when linking is attempted offline', async ({ page, context }) => {
@@ -104,6 +161,8 @@ test('keeps the active alias when the target preflight fails', async ({ page, kv
   await page.getByRole('button', { name: 'Usar este alias' }).click();
   await expect(page.getByText('Falha HTTP no KV: 500')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Usar este alias' })).toBeEnabled();
+  await expect(page.locator('[data-identity-submit]')).not.toHaveAttribute('aria-busy');
+  await expect(page.locator('[data-identity-progress]')).toBeHidden();
   await expect(page.evaluate(() => localStorage.getItem('concursos:active-alias'))).resolves.toBe(
     currentAlias,
   );
