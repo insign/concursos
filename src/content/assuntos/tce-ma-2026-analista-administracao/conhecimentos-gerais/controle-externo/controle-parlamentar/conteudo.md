@@ -1,423 +1,338 @@
 ---
 schemaVersion: 1
 title: Controle parlamentar
-description: Controle exercido pelo Poder Legislativo sobre a Administração, com seus fundamentos, instrumentos constitucionais, comissões, CPIs, fiscalização orçamentária e limites.
+description: Controle exercido pelo Poder Legislativo sobre a Administração e o governo, com foco nos instrumentos constitucionais, comissões, CPIs e limites.
 order: 47
 storageId: controle-parlamentar
 ---
 
-## 1. Conceito e fundamento
+## 1. Recorte e corte temporal
 
-**Controle parlamentar** ou **controle legislativo** é a fiscalização que o Poder Legislativo exerce sobre a Administração e o governo nos casos previstos pela Constituição. Ele integra o sistema de freios e contrapesos e permite exigir informações, acompanhar políticas, fiscalizar atos e recursos e promover responsabilização pelos procedimentos competentes.
+Este assunto corresponde ao item **Controle parlamentar** do programa de Controle Externo do Edital nº 1 — TCE/MA, de **6 de julho de 2026**.
 
-O fundamento inicial está no art. 2º da Constituição: Legislativo, Executivo e Judiciário são **independentes e harmônicos entre si**. Portanto, o controle parlamentar:
+O foco é o controle exercido pelo **Poder Legislativo** sobre a Administração e o governo. O detalhamento do controle pelos tribunais de contas, do controle administrativo, do controle jurisdicional e do controle da atividade financeira pertence aos assuntos seguintes.
 
-- não cria hierarquia geral do Legislativo sobre o Executivo;
-- não autoriza o Parlamento a administrar no lugar do gestor;
-- depende de competência constitucional ou legal;
-- deve respeitar direitos fundamentais, devido processo e separação dos Poderes;
-- pode ser político, jurídico, financeiro, orçamentário e operacional, conforme o instrumento.
+**Regra aplicável no corte do edital:** Constituição Federal com a redação então vigente, Lei nº 1.579/1952 e jurisprudência do STF formada até 6 de julho de 2026. A verificação atual não identificou alteração posterior que exija mudar as regras centrais expostas aqui.
 
-> O Executivo não se subordina hierarquicamente ao Legislativo, mas está sujeito aos controles constitucionais exercidos pelo Parlamento.
+## 2. Conceito e limites gerais
 
-### 1.1. Fronteiras deste assunto
+**Controle parlamentar** ou **controle legislativo** é a fiscalização exercida pelo Legislativo nos casos e pelos instrumentos previstos na Constituição e nas leis.
 
-Este assunto estuda os **instrumentos parlamentares** de controle. O Assunto 046 apresentou a teoria geral dos controles interno e externo. Os assuntos seguintes aprofundam:
+Ele decorre do sistema de **freios e contrapesos** e não de superioridade hierárquica do Parlamento sobre o Executivo.
 
-- competências e processos dos tribunais de contas, no Assunto 048;
-- controle administrativo, no Assunto 049;
-- controle jurisdicional, no Assunto 052;
-- sistemas de controle da atividade financeira, no Assunto 053;
-- TCU, tribunais estaduais e TCE/MA, no Assunto 054.
+Consequências práticas:
 
-As atribuições do TCU aparecem aqui somente para distinguir parecer, auxílio e pronunciamento técnico das decisões que pertencem ao Parlamento.
+- o Legislativo pode fiscalizar, exigir informações e instaurar investigações parlamentares quando houver competência;
+- o Parlamento não administra no lugar do gestor;
+- fiscalização não autoriza anular ou revogar qualquer ato por mera discordância;
+- medidas que restrinjam direitos devem respeitar competência, finalidade, fundamentação e garantias constitucionais;
+- a autonomia dos Poderes não impede controles constitucionalmente previstos.
 
-## 2. Duas dimensões complementares
+> Controle parlamentar é competência constitucional delimitada, não poder geral de comando sobre a Administração.
 
-### 2.1. Controle político-parlamentar
+## 3. Quem pode atuar
 
-O controle político observa a condução governamental, a prestação de informações, a responsabilidade política e as relações entre Poderes. Seus instrumentos incluem:
+A Constituição distribui competências entre órgãos diferentes. Em prova, identifique primeiro **quem pratica o ato**.
 
-- convocação de autoridades;
-- pedidos escritos de informação;
-- audiências e trabalhos de comissões;
-- comissões parlamentares de inquérito;
-- autorizações e aprovações constitucionais;
-- processos por crimes de responsabilidade;
-- fiscalização direta dos atos do Executivo.
+| Órgão | Exemplos de atuação |
+| --- | --- |
+| Congresso Nacional | sustação do art. 49, V; julgamento das contas presidenciais; fiscalização do art. 49, X |
+| Câmara dos Deputados | convocação do art. 50; autorização do art. 51, I; tomada de contas omitidas |
+| Senado Federal | convocação do art. 50; processamento e julgamento dos crimes de responsabilidade do art. 52 |
+| Mesas da Câmara e do Senado | pedidos escritos de informação do art. 50, § 2º |
+| comissões permanentes ou temporárias | audiências, convocações, recebimento de reclamações e solicitações de depoimento |
+| CPI/CPMI | investigação parlamentar com poderes constitucionais próprios e limites de reserva de jurisdição |
 
-“Político” não significa arbitrário. A decisão política continua sujeita à Constituição, à competência, à finalidade e às garantias processuais.
+“Congresso”, “Câmara”, “Senado”, “Mesa” e “comissão” não são sinônimos.
 
-### 2.2. Controle financeiro-orçamentário externo
+## 4. Competências de fiscalização do Congresso — art. 49
 
-O art. 70 atribui ao Congresso Nacional, mediante controle externo, a fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União e de sua administração direta e indireta. O art. 71 estabelece que o Congresso exerce esse controle com o auxílio do TCU.
+### 4.1. Sustação de atos normativos — art. 49, V
 
-Assim:
-
-- o **Congresso** é titular do controle externo federal;
-- o **TCU** exerce competências constitucionais próprias de auxílio;
-- auxílio não significa subordinação hierárquica;
-- nem todo controle parlamentar depende de atuação prévia do TCU;
-- nem todo ato de controle externo é praticado pelo Parlamento diretamente.
-
-> É errado afirmar que todo controle parlamentar é puramente político ou que todo controle externo pertence exclusivamente ao tribunal de contas.
-
-## 3. Quem exerce o controle parlamentar
-
-No plano federal, a Constituição distribui instrumentos entre:
-
-- Congresso Nacional;
-- Câmara dos Deputados;
-- Senado Federal;
-- Mesas da Câmara e do Senado;
-- comissões permanentes e temporárias;
-- Comissão Mista Permanente de Orçamento;
-- comissões parlamentares de inquérito.
-
-A identificação do órgão é decisiva. “Congresso”, “qualquer das Casas”, “Mesa”, “comissão” e “Câmara dos Deputados” não são expressões intercambiáveis.
-
-## 4. Competências exclusivas do Congresso Nacional
-
-O art. 49 reúne competências exercidas sem sanção presidencial. Para o controle parlamentar, quatro incisos merecem atenção especial.
-
-### 4.1. Sustação de atos normativos: art. 49, V
-
-Compete ao Congresso Nacional **sustar os atos normativos do Poder Executivo** que exorbitem:
+Compete exclusivamente ao Congresso Nacional **sustar atos normativos do Poder Executivo** que exorbitem:
 
 - do poder regulamentar; ou
-- dos limites de delegação legislativa.
+- dos limites da delegação legislativa.
 
-A competência possui objeto e fundamento delimitados.
-
-| Elemento | Regra |
+| Pergunta | Resposta |
 | --- | --- |
 | objeto | ato normativo do Poder Executivo |
-| vício controlado | exorbitância do poder regulamentar ou da delegação legislativa |
-| órgão competente | Congresso Nacional |
-| providência | sustação |
+| fundamento | exorbitância do poder regulamentar ou da delegação |
+| órgão | Congresso Nacional |
+| efeito | sustação |
 
-O dispositivo não confere poder geral para o Congresso anular qualquer ato administrativo ilegal nem revogar todo ato de que discorde.
+A norma não concede competência geral para o Congresso **anular qualquer ato ilegal** nem **revogar ato válido** por conveniência.
 
-### 4.2. Contas e relatórios: art. 49, IX
+### 4.2. Contas e planos — art. 49, IX
 
 Compete ao Congresso:
 
 - julgar anualmente as contas prestadas pelo Presidente da República;
-- apreciar os relatórios sobre a execução dos planos de governo.
+- apreciar relatórios sobre a execução dos planos de governo.
 
-Nas contas presidenciais, o TCU emite **parecer prévio**; o julgamento cabe ao Congresso. Parecer e julgamento são atos diferentes.
+Para evitar confusão com o assunto de tribunais de contas, retenha apenas a distinção essencial:
 
-### 4.3. Fiscalização direta: art. 49, X
+- **TCU:** aprecia e emite parecer prévio sobre as contas presidenciais;
+- **Congresso:** julga as contas;
+- **Câmara:** procede à tomada de contas se o Presidente não as apresentar no prazo constitucional.
 
-O Congresso pode fiscalizar e controlar, **diretamente ou por qualquer de suas Casas**, os atos do Poder Executivo, incluídos os da administração indireta.
+### 4.3. Fiscalização direta — art. 49, X
 
-O alcance sobre a administração indireta não apaga a personalidade jurídica nem a autonomia legal das entidades. Também não converte fiscalização em hierarquia administrativa.
+O Congresso pode **fiscalizar e controlar, diretamente ou por qualquer de suas Casas**, os atos do Poder Executivo, incluídos os da administração indireta.
 
-### 4.4. Preservação da competência legislativa: art. 49, XI
+Isso não transforma a administração indireta em órgão subordinado ao Parlamento.
 
-Cabe ao Congresso zelar pela preservação de sua competência legislativa diante da atribuição normativa dos outros Poderes. Esse dispositivo protege a esfera reservada à lei e se relaciona com a sustação de atos normativos exorbitantes.
+### 4.4. Preservação da competência legislativa — art. 49, XI
 
-## 5. Convocação e pedidos de informação
+Cabe ao Congresso zelar pela preservação de sua competência legislativa diante da atribuição normativa dos outros Poderes.
 
-### 5.1. Convocação pessoal: art. 50
+Essa competência se conecta ao art. 49, V, mas não se confunde com ele.
 
-A Câmara dos Deputados, o Senado Federal ou qualquer de suas comissões podem convocar para prestar, **pessoalmente**, informações sobre assunto previamente determinado:
+## 5. Convocação e pedidos de informação — art. 50
+
+### 5.1. Convocação pessoal
+
+A Câmara, o Senado ou qualquer de suas comissões podem convocar para prestar **pessoalmente** informações sobre assunto previamente determinado:
 
 - Ministro de Estado;
-- titular de órgão diretamente subordinado à Presidência da República;
+- qualquer titular de órgão diretamente subordinado à Presidência da República;
 - Presidente do Comitê Gestor do Imposto sobre Bens e Serviços.
 
-A inclusão do Presidente do Comitê Gestor do IBS decorre da Emenda Constitucional nº 132/2023 e integra a redação vigente no corte deste material.
+A ausência sem justificação adequada importa **crime de responsabilidade**.
 
-A ausência sem justificação adequada importa crime de responsabilidade. A convocação exige assunto previamente determinado; não é convite informal nem autorização para interrogatório ilimitado sobre qualquer matéria.
+> No corte do edital, o Presidente do Comitê Gestor do IBS já integra expressamente o art. 50, em razão da EC nº 132/2023.
 
-### 5.2. Comparecimento espontâneo
+### 5.2. Comparecimento espontâneo de Ministro
 
-O § 1º do art. 50 permite que Ministros de Estado compareçam ao Senado, à Câmara ou a qualquer comissão, por iniciativa própria e mediante entendimentos com a Mesa, para expor assunto relevante de seu Ministério.
+Ministro de Estado pode comparecer por iniciativa própria ao Senado, à Câmara ou a comissão, mediante entendimentos com a Mesa respectiva, para expor assunto relevante do Ministério.
 
-Convocação obrigatória e comparecimento espontâneo são institutos distintos.
+Comparecimento espontâneo não é convocação.
 
-### 5.3. Pedido escrito de informações
+### 5.3. Pedido escrito de informação
 
-As **Mesas da Câmara dos Deputados e do Senado Federal** podem encaminhar pedidos escritos de informações às autoridades indicadas no art. 50.
+As **Mesas da Câmara e do Senado** podem encaminhar pedidos escritos de informação a Ministro de Estado ou a qualquer das pessoas referidas no caput do art. 50.
 
 Constituem crime de responsabilidade:
 
-- a recusa;
-- o não atendimento no prazo de trinta dias;
-- a prestação de informações falsas.
+- recusa;
+- não atendimento em **30 dias**;
+- prestação de informações falsas.
 
-> Pegadinha: no texto do art. 50, § 2º, o pedido escrito é encaminhado pelas Mesas. A convocação pessoal, por sua vez, pode partir da Câmara, do Senado ou de qualquer comissão.
+### Matriz do art. 50
 
-## 6. Comissões parlamentares
+| Instrumento | Quem pratica | Forma/efeito |
+| --- | --- | --- |
+| convocação pessoal | Câmara, Senado ou comissão | assunto previamente determinado; ausência injustificada → crime de responsabilidade |
+| comparecimento espontâneo | Ministro de Estado | iniciativa própria + entendimento com a Mesa |
+| pedido escrito | Mesa da Câmara ou Mesa do Senado | recusa, omissão por 30 dias ou falsidade → crime de responsabilidade |
 
-O art. 58 autoriza o Congresso e suas Casas a constituírem comissões permanentes e temporárias. No âmbito de suas competências, as comissões podem:
+## 6. Comissões parlamentares — art. 58, § 2º
+
+Dentro de suas competências, as comissões podem, entre outras atribuições:
 
 - realizar audiências públicas com entidades da sociedade civil;
-- convocar Ministros de Estado para prestar informações sobre assuntos inerentes às suas atribuições;
-- receber petições, reclamações, representações ou queixas de qualquer pessoa contra atos ou omissões de autoridades ou entidades públicas;
+- convocar Ministros de Estado;
+- receber petições, reclamações, representações ou queixas contra atos ou omissões de autoridades ou entidades públicas;
 - solicitar depoimento de qualquer autoridade ou cidadão;
 - apreciar programas de obras, planos nacionais, regionais e setoriais de desenvolvimento e emitir parecer.
 
-Receber uma representação não significa acolher automaticamente seu conteúdo. A comissão deve respeitar competência, admissibilidade, apuração e processo aplicáveis.
+Receber uma reclamação ou representação **não significa julgá-la procedente** nem aplicar automaticamente sanção.
 
-## 7. Comissões parlamentares de inquérito
+## 7. CPI e CPMI
 
-### 7.1. Requisitos de criação
+### 7.1. Requisitos constitucionais
 
-Segundo o art. 58, § 3º, uma CPI exige cumulativamente:
+A CPI exige cumulativamente:
 
-1. requerimento de um terço dos membros da Câmara ou do Senado; na comissão mista, requerimento conjunto nos termos constitucionais e legais;
-2. fato determinado;
-3. prazo certo.
+1. requerimento de **1/3 dos membros** da Câmara dos Deputados ou do Senado Federal;
+2. **fato determinado**;
+3. **prazo certo**.
 
-Preenchidos os requisitos, a criação constitui direito da minoria parlamentar. Não depende de aprovação discricionária da maioria do Plenário.
+Atendidos os requisitos, sua criação é direito da minoria parlamentar e não pode depender de juízo discricionário da maioria.
 
-O fato determinado delimita a investigação. Fatos conexos descobertos durante os trabalhos podem ser apurados quando mantêm pertinência com o objeto, mas a CPI não pode converter seu mandato em devassa genérica.
+Para **CPMI**, o Regimento Comum do Congresso Nacional exige requerimento de:
 
-### 7.2. Poderes investigatórios
+- **1/3 dos membros da Câmara dos Deputados; e**
+- **1/3 dos membros do Senado Federal.**
 
-A CPI possui **poderes de investigação próprios das autoridades judiciais**, além dos previstos nos regimentos. A Lei nº 1.579/1952 autoriza, entre outras medidas:
+A instituição é automática quando atendido esse requisito.
 
-- determinar diligências necessárias;
-- requerer convocação de Ministros de Estado;
-- tomar depoimentos de autoridades;
-- ouvir investigados e inquirir testemunhas;
-- requisitar informações e documentos da administração direta, indireta ou fundacional;
-- deslocar-se aos lugares necessários à investigação.
+### 7.2. Fato determinado
 
-A jurisprudência do STF admite que CPI, por deliberação fundamentada e vinculada ao fato investigado, determine acesso a dados protegidos por sigilo bancário, fiscal e a registros telefônicos.
+O fato determinado delimita a investigação e impede devassa genérica.
 
-Medidas invasivas exigem:
+Fatos conexos podem ser examinados quando mantenham pertinência com o objeto investigado. O vínculo deve ser demonstrável.
 
-- decisão colegiada;
-- fundamentação específica e individualizada;
-- pertinência com o fato determinado;
-- delimitação do objeto, período e destinatário;
-- respeito aos direitos fundamentais.
+### 7.3. Poderes investigatórios
 
-### 7.3. Reserva de jurisdição
+A Constituição atribui às CPIs **poderes de investigação próprios das autoridades judiciais**, além dos previstos nos regimentos.
 
-Ter poderes investigatórios próprios de autoridades judiciais não transforma a CPI em órgão jurisdicional. Certas medidas dependem de ordem judicial.
+A Lei nº 1.579/1952 autoriza, entre outros atos:
 
-A CPI não pode, por autoridade própria:
+- diligências;
+- oitiva de investigados e testemunhas;
+- tomada de depoimentos de autoridades;
+- requisição de informações e documentos da Administração;
+- deslocamentos necessários à investigação.
 
-- determinar interceptação de comunicação telefônica em curso;
-- ordenar busca e apreensão domiciliar;
-- decretar prisão preventiva ou temporária;
-- decretar indisponibilidade de bens.
+A CPI investiga. Ela **não exerce jurisdição** e não profere sentença civil ou penal.
 
-Ela pode solicitar ao Judiciário a medida cautelar necessária. A Lei nº 1.579/1952, art. 3º-A, prevê solicitação ao juízo criminal competente quando houver indícios veementes da proveniência ilícita de bens.
+### 7.4. Sigilos e fundamentação
 
-Não confunda:
+A jurisprudência do STF admite que CPI determine, por deliberação colegiada e fundamentada, acesso a dados protegidos por:
 
-| Medida | CPI pode deliberar diretamente? |
+- sigilo bancário;
+- sigilo fiscal;
+- sigilo de registros telefônicos.
+
+A medida deve indicar concretamente:
+
+- a pessoa ou destinatário;
+- o período;
+- o objeto;
+- a pertinência com o fato determinado;
+- a necessidade da providência.
+
+Fundamentação genérica não basta.
+
+### 7.5. Reserva de jurisdição
+
+Ter poderes próprios de autoridade judicial não significa ter **todos** os poderes de um juiz.
+
+| Medida | CPI pode determinar diretamente? |
 | --- | --- |
-| acesso fundamentado a registros telefônicos pretéritos | sim |
-| interceptação de comunicação em curso | não; reserva de jurisdição |
-| quebra fundamentada de sigilo bancário ou fiscal | sim |
-| busca domiciliar | não; reserva de jurisdição |
-| prisão em flagrante | pode decorrer da situação de flagrância |
-| prisão cautelar decretada pela comissão | não |
+| quebra fundamentada de sigilo bancário | sim |
+| quebra fundamentada de sigilo fiscal | sim |
+| acesso a registros telefônicos pretéritos | sim |
+| interceptação de comunicação telefônica em curso | não |
+| busca e apreensão domiciliar | não |
+| prisão preventiva ou temporária | não |
+| indisponibilidade de bens | não |
 
-### 7.4. Direitos do depoente
+Interceptação telefônica e obtenção de **registros** telefônicos são coisas diferentes.
 
-Investigação parlamentar não elimina garantias constitucionais. O depoente possui, conforme sua posição e o caso:
+Prisão em flagrante também não se confunde com prisão cautelar decretada.
 
-- direito à assistência por advogado, inclusive em reunião secreta;
+### 7.6. Medida cautelar sobre bens — art. 3º-A da Lei nº 1.579/1952
+
+Quando houver indícios veementes da proveniência ilícita de bens:
+
+1. a **CPI delibera**;
+2. seu **presidente** solicita ao juízo criminal competente;
+3. o **Judiciário** decide a medida cautelar necessária.
+
+A comissão não decreta diretamente indisponibilidade ou confisco.
+
+### 7.7. Direitos do depoente
+
+A investigação parlamentar respeita direitos fundamentais.
+
+Entre as garantias relevantes:
+
+- assistência por advogado, inclusive em reunião secreta;
 - direito de não produzir prova contra si;
 - direito ao silêncio quanto a respostas autoincriminatórias;
-- proteção contra constrangimento ilegal;
-- tratamento compatível com dignidade, defesa e devido processo.
+- proteção contra constrangimento ilegal.
 
-Testemunha deve dizer a verdade, mas preserva o direito de não se autoincriminar. Investigado não pode ser obrigado a confessar.
+A testemunha tem dever de verdade, mas não é obrigada a se autoincriminar.
 
-### 7.5. Relatório e encaminhamentos
+### 7.8. Relatório e encaminhamentos
 
-A CPI investiga; ela não profere condenação penal ou civil.
+A CPI pode produzir relatório com conclusões e recomendações.
 
-O art. 58, § 3º, prevê que suas conclusões, **se for o caso**, sejam encaminhadas ao Ministério Público para promoção da responsabilidade civil ou criminal. A Lei nº 1.579/1952 também prevê relatório circunstanciado e encaminhamento, entre outros órgãos, ao Ministério Público ou à Advocacia-Geral da União para as providências de suas competências.
+O art. 58, § 3º, prevê encaminhamento das conclusões, se for o caso, ao Ministério Público para promoção da responsabilidade civil ou criminal.
 
-O relatório pode recomendar medidas legislativas, administrativas ou de controle, mas não substitui o processo da autoridade que possua competência para decidir ou sancionar.
+A Lei nº 1.579/1952 também disciplina encaminhamentos às autoridades competentes.
 
-### 7.6. Prazo e prorrogação
+> Relatório de CPI não é condenação. Cada responsabilidade depende do órgão e do processo próprios.
 
-Prazo certo é requisito constitucional. A Lei nº 1.579/1952 admite prorrogação por deliberação da respectiva Casa dentro da legislatura em curso.
+### 7.9. Prazo e prorrogação
 
-Em março de 2026, no MS 40.799, o Plenário do STF decidiu que a minoria parlamentar possui direito constitucional à **criação** da CPI quando atendidos os requisitos, mas não direito automático à **prorrogação**. A continuidade deve observar deliberação e regras internas do Parlamento. Houve votos divergentes, mas essa foi a posição majoritária.
+Prazo certo é requisito constitucional.
 
-Portanto:
+A Lei nº 1.579/1952 admite prorrogação mediante deliberação da respectiva Casa, dentro da legislatura em curso.
 
-- criação e prorrogação não se confundem;
-- não é correto dizer que toda prorrogação é proibida;
-- não é correto afirmar que um terço dos membros impõe automaticamente a prorrogação.
+No **MS 40.799**, julgado em 26 de março de 2026, o STF decidiu que:
 
-## 8. Contas presidenciais: prestar, tomar, apreciar e julgar
+- o direito da minoria à **criação** da CPI não gera direito automático à **prorrogação**;
+- a continuidade da comissão deve observar deliberação e regras internas do Parlamento.
 
-Quatro verbos devem ser separados:
+Portanto, são erradas as afirmações de que toda CPI é improrrogável ou de que 1/3 dos membros impõe automaticamente sua prorrogação.
 
-| Ato | Responsável no modelo federal |
-| --- | --- |
-| prestar contas anuais | Presidente da República, ao Congresso, em até sessenta dias após a abertura da sessão legislativa |
-| proceder à tomada de contas, se não apresentadas no prazo | Câmara dos Deputados |
-| apreciar e emitir parecer prévio | TCU |
-| julgar anualmente as contas presidenciais | Congresso Nacional |
+## 8. Câmara e Senado: distinções úteis
 
-O art. 51, II, não atribui à Câmara o julgamento isolado das contas: ela procede à **tomada** quando o Presidente não as apresenta ao Congresso dentro do prazo.
+### Câmara dos Deputados
 
-O parecer prévio do TCU fornece análise técnica, mas não substitui o julgamento constitucional do Congresso.
+Entre as competências relacionadas ao controle:
 
-## 9. Fiscalização orçamentária pelo Parlamento
-
-### 9.1. Comissão Mista Permanente de Orçamento
-
-O art. 166, § 1º, atribui à comissão mista permanente de senadores e deputados:
-
-- examinar e emitir parecer sobre projetos orçamentários;
-- examinar e emitir parecer sobre as contas apresentadas anualmente pelo Presidente;
-- examinar e emitir parecer sobre planos e programas nacionais, regionais e setoriais previstos na Constituição;
-- exercer o acompanhamento e a fiscalização orçamentária, sem prejuízo das demais comissões.
-
-Essa comissão costuma ser denominada **Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO)**.
-
-### 9.2. Indício de despesa não autorizada: art. 72
-
-Quando houver indícios de despesa não autorizada, ainda que sob a forma de investimentos não programados ou subsídios não aprovados, a CMO segue uma sequência constitucional:
-
-1. solicita esclarecimentos à autoridade governamental responsável, no prazo de cinco dias;
-2. se os esclarecimentos não forem prestados ou forem insuficientes, solicita ao TCU pronunciamento conclusivo sobre a matéria, no prazo de trinta dias;
-3. se o TCU entender irregular a despesa e a comissão julgar que ela pode causar dano irreparável ou grave lesão à economia pública, a CMO **propõe ao Congresso Nacional** sua sustação.
-
-> A CMO não susta diretamente a despesa. Ela propõe a sustação ao Congresso após o procedimento do art. 72.
-
-## 10. Câmara e Senado em funções de controle
-
-### 10.1. Câmara dos Deputados
-
-Entre as competências privativas da Câmara relacionadas ao controle estão:
-
-- autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente, o Vice-Presidente e Ministros de Estado nas hipóteses constitucionais;
+- autorizar, por 2/3 de seus membros, a instauração de processo nas hipóteses do art. 51, I;
 - proceder à tomada de contas do Presidente quando não apresentadas ao Congresso no prazo constitucional.
 
-Autorização para instaurar processo e julgamento do crime de responsabilidade são fases atribuídas a órgãos diferentes.
+### Senado Federal
 
-### 10.2. Senado Federal
+Entre as competências relacionadas ao controle:
 
-O Senado processa e julga as autoridades indicadas no art. 52 por crimes de responsabilidade. No caso do Presidente e do Vice-Presidente, a condenação exige dois terços dos votos do Senado e limita-se, na esfera político-constitucional, à perda do cargo com inabilitação por oito anos para exercício de função pública, sem prejuízo das demais sanções judiciais cabíveis.
+- processar e julgar as autoridades indicadas no art. 52 por crimes de responsabilidade;
+- aprovar previamente determinadas autoridades nas hipóteses constitucionais.
 
-O Senado também exerce controles prévios específicos, por exemplo:
+Autorização pela Câmara e julgamento pelo Senado são etapas distintas.
 
-- aprovação de determinadas autoridades após arguição pública;
-- aprovação de chefes de missão diplomática permanente;
-- autorização de operações externas de natureza financeira;
-- fixação de limites e condições para operações de crédito e dívida pública.
+## 9. Limites do controle parlamentar
 
-Essas competências não criam poder genérico do Senado para aprovar toda nomeação ou operação administrativa.
+O exercício do controle deve respeitar:
 
-## 11. Controle prévio, concomitante e posterior
-
-A classificação temporal é doutrinária e depende do ato controlado.
-
-| Momento | Exemplo parlamentar |
-| --- | --- |
-| prévio | Senado aprova autoridade ou autoriza operação externa de natureza financeira antes do ato definitivo |
-| concomitante | comissão acompanha execução orçamentária ou convoca autoridade durante programa em andamento |
-| posterior | Congresso julga contas anuais ou CPI conclui investigação e encaminha relatório |
-
-A sustação pode interromper efeitos ainda em curso; por isso, não deve ser classificada automaticamente como controle exclusivamente posterior.
-
-## 12. Sustar, anular, revogar e responsabilizar
-
-| Instituto | Fundamento e órgão típico |
-| --- | --- |
-| sustação do art. 49, V | Congresso interrompe ato normativo do Executivo que exorbite do poder regulamentar ou da delegação |
-| anulação | retirada de ato ilegal pela Administração ou pelo Judiciário competente, conforme o caso |
-| revogação | retirada de ato válido por conveniência e oportunidade pela Administração competente |
-| julgamento de contas presidenciais | Congresso exerce competência constitucional específica |
-| responsabilização político-constitucional | Câmara autoriza quando exigido e Senado processa/julga nas hipóteses constitucionais |
-| responsabilização civil ou criminal após CPI | órgãos competentes atuam a partir das conclusões e provas, com processo próprio |
-
-O Parlamento não recebe, pelo simples poder de fiscalizar, competência universal para anular, revogar, condenar ou administrar.
-
-## 13. Limites do controle parlamentar
-
-O controle parlamentar deve observar:
-
-- competência do órgão e instrumento utilizado;
-- pertinência entre medida e objeto fiscalizado;
-- motivação, especialmente para restrições de direitos;
-- fato determinado e prazo certo nas CPIs;
+- competência do órgão;
+- objeto constitucionalmente admitido;
+- motivação quando necessária;
+- fato determinado e prazo certo em CPI;
 - reserva de jurisdição;
-- contraditório, defesa, não autoincriminação e assistência por advogado quando aplicáveis;
-- autonomia administrativa e separação dos Poderes;
-- proporcionalidade e proteção de dados sigilosos.
+- não autoincriminação;
+- assistência por advogado;
+- separação dos Poderes;
+- proporcionalidade.
 
-O Judiciário pode controlar atos parlamentares quando houver violação constitucional ou lesão a direito. Isso não autoriza interferência judicial em toda interpretação regimental interna: a atuação jurisdicional exige fundamento constitucional e respeito à autonomia parlamentar.
+O Judiciário pode examinar violação constitucional ou lesão a direito em ato parlamentar. Isso não significa substituir, sem fundamento constitucional, toda interpretação regimental interna do Legislativo.
 
-## 14. Estados e princípio da simetria
+## 10. Fluxos de prova
 
-As Assembleias Legislativas exercem controle parlamentar segundo a Constituição Federal, a respectiva Constituição estadual e seus regimentos. O art. 75 determina aplicação, no que couber, das normas do modelo federal de controle externo aos tribunais de contas estaduais e locais.
+### Art. 50
 
-A simetria preserva núcleos constitucionais, mas não autoriza copiar competências sem verificar o texto aplicável. O STF já afastou norma estadual que ampliava à Assembleia competência para julgar contas de gestores de todos os Poderes, pois a Constituição distribui o julgamento conforme a natureza das contas e o órgão responsável.
+1. identifique se há **convocação** ou **pedido escrito**;
+2. convocação → Câmara, Senado ou comissão;
+3. pedido escrito → Mesa da Câmara ou Mesa do Senado;
+4. confira autoridade destinatária e consequências constitucionais.
 
-Este assunto não examina a Constituição do Maranhão nem competências do TCE/MA, reservadas ao Assunto 054.
+### CPI
 
-## 15. Método para resolver questões
+1. 1/3 + fato determinado + prazo certo;
+2. em CPMI: 1/3 da Câmara **e** 1/3 do Senado;
+3. verifique a pertinência da diligência;
+4. pergunte se há deliberação colegiada e fundamentação;
+5. aplique a reserva de jurisdição;
+6. lembre que relatório não condena.
 
-### Passo 1: localize o sujeito
+## 11. Pegadinhas
 
-A questão menciona Congresso, Câmara, Senado, Mesa, comissão, CMO, CPI ou TCU? Cada um possui competência própria.
-
-### Passo 2: identifique o verbo constitucional
-
-- sustar ato normativo exorbitante: Congresso;
-- julgar contas presidenciais: Congresso;
-- tomar contas não apresentadas: Câmara;
-- emitir parecer prévio: TCU;
-- convocar pessoalmente: Câmara, Senado ou comissão;
-- encaminhar pedido escrito do art. 50: Mesas;
-- propor sustação no art. 72: CMO;
-- processar e julgar crimes de responsabilidade: Senado, nas hipóteses do art. 52.
-
-### Passo 3: em CPI, aplique quatro filtros
-
-1. há um terço, fato determinado e prazo certo?
-2. a medida se relaciona ao fato investigado?
-3. a decisão invasiva é colegiada e fundamentada?
-4. existe reserva de jurisdição?
-
-### Passo 4: rejeite absolutos
-
-Desconfie de afirmações como:
-
-- CPI tem todos os poderes de juiz;
-- CPI pode condenar criminalmente;
-- Câmara julga sozinha as contas presidenciais;
-- CMO susta diretamente a despesa;
-- Congresso pode anular qualquer ato do Executivo;
-- fiscalização cria hierarquia entre os Poderes;
-- toda prorrogação de CPI é automática ou proibida.
-
-## 16. Síntese final
-
-1. Controle parlamentar decorre dos freios e contrapesos, não de hierarquia.
-2. O Congresso exerce controle político direto e é titular do controle externo financeiro.
-3. O art. 49, V, permite sustar atos normativos exorbitantes, não anular qualquer ato.
-4. O Congresso julga contas presidenciais; o TCU emite parecer prévio; a Câmara toma contas omitidas.
-5. Convocação pessoal e pedido escrito de informações possuem sujeitos e procedimentos distintos.
-6. Comissões recebem manifestações, realizam audiências, solicitam depoimentos e acompanham programas.
-7. CPI exige um terço, fato determinado e prazo certo.
-8. CPI investiga, mas não exerce jurisdição nem condena.
-9. Interceptação telefônica, busca domiciliar, prisão cautelar e indisponibilidade de bens dependem do Judiciário.
-10. A CMO acompanha o orçamento e apenas propõe ao Congresso a sustação prevista no art. 72.
-11. Câmara e Senado exercem competências distintas na responsabilização político-constitucional.
-12. Controle parlamentar pode ser prévio, concomitante ou posterior.
+1. Controle parlamentar não cria hierarquia geral sobre o Executivo.
+2. Art. 49, V: sustação de **ato normativo exorbitante**, não poder geral de anulação.
+3. Art. 49, X alcança a administração indireta.
+4. Convocação do art. 50 não é feita apenas pelas Mesas.
+5. Pedido escrito do art. 50, § 2º, é encaminhado pelas Mesas.
+6. Presidente do Comitê Gestor do IBS integra o art. 50 no corte do edital.
+7. CPI exige 1/3, fato determinado e prazo certo.
+8. CPMI exige 1/3 da Câmara **mais** 1/3 do Senado.
+9. CPI pode quebrar sigilo bancário/fiscal e obter registros telefônicos, com fundamentação.
+10. CPI não pode determinar interceptação telefônica em curso.
+11. CPI não decreta prisão preventiva/temporária nem indisponibilidade de bens.
+12. Art. 3º-A: a CPI delibera; o presidente solicita; o Judiciário decide.
+13. Testemunha tem dever de verdade, mas conserva o direito contra autoincriminação.
+14. Relatório de CPI não é sentença.
+15. Direito à criação da CPI não implica direito automático à prorrogação.
 
 ## Referências
 
-- [Constituição da República Federativa do Brasil de 1988](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) — Câmara dos Deputados; arts. 2º, 49 a 52, 58, 70 a 72, 84, 85 e 166, texto atualizado; acesso em 18 jul. 2026.
-- [Lei nº 1.579, de 18 de março de 1952](https://www.planalto.gov.br/ccivil_03/leis/l1579.htm) — Presidência da República; disciplina as comissões parlamentares de inquérito, texto atualizado; acesso em 18 jul. 2026.
-- [Fiscalização do Executivo](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/fiscalizacao-do-executivo) — Câmara dos Deputados; instrumentos de fiscalização parlamentar; acesso em 18 jul. 2026.
-- [Constituição e o Supremo: art. 58](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF) — Supremo Tribunal Federal; jurisprudência temática sobre comissões parlamentares de inquérito; acesso em 18 jul. 2026.
-- [Plenário do STF rejeita prorrogação da CPMI do INSS](https://noticias.stf.jus.br/postsnoticias/plenario-do-stf-rejeita-prorrogacao-da-cpmi-do-inss/) — Supremo Tribunal Federal; MS 40.799, julgamento em 26 mar. 2026; acesso em 18 jul. 2026.
-- [Norma que permitia à Alesp julgar contas dos três Poderes é inválida](https://noticias.stf.jus.br/postsnoticias/norma-que-permitia-a-alesp-julgar-contas-dos-tres-poderes-do-estado-e-invalida/) — Supremo Tribunal Federal; ADI 6.981, notícia de 16 dez. 2022; acesso em 18 jul. 2026.
+- [Constituição da República Federativa do Brasil de 1988](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) — arts. 2º, 49 a 52 e 58; texto constitucional atualizado; consulta em 11 ago. 2026.
+- [Lei nº 1.579, de 18 de março de 1952](https://www.planalto.gov.br/ccivil_03/leis/l1579.htm) — disciplina as comissões parlamentares de inquérito; consulta em 11 ago. 2026.
+- [Regimento Comum do Congresso Nacional — Resolução nº 1/1970-CN](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html) — art. 21, criação de CPMI; consulta em 11 ago. 2026.
+- [Constituição e o Supremo — art. 58](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF) — jurisprudência temática sobre CPIs; consulta em 11 ago. 2026.
+- [Plenário do STF rejeita prorrogação da CPMI do INSS](https://noticias.stf.jus.br/postsnoticias/plenario-do-stf-rejeita-prorrogacao-da-cpmi-do-inss/) — MS 40.799, julgamento em 26 mar. 2026; consulta em 11 ago. 2026.
