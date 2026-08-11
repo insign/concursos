@@ -37,12 +37,19 @@
   }
 
   .print-hidden,
+  .abbreviation-popover,
   .site-header,
   .breadcrumbs,
   .subject-tabs,
   .subject-heading,
   .subject-pagination {
     display: none !important;
+  }
+
+  .reading-surface article abbr[title],
+  .reading-surface article abbr[data-abbreviation-popover-trigger] {
+    text-decoration: none;
+    cursor: inherit;
   }
 
   .study-shell,

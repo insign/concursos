@@ -6,6 +6,7 @@ import rehypeKatex from 'rehype-katex';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import { VitePWA } from 'vite-plugin-pwa';
+import { remarkMarkdownFeatures } from './src/lib/remark-markdown-features.mjs';
 
 export default defineConfig({
   output: 'static',
@@ -51,7 +52,7 @@ export default defineConfig({
   markdown: {
     processor: unified({
       gfm: false,
-      remarkPlugins: [remarkGfm, remarkMath],
+      remarkPlugins: [remarkGfm, remarkMath, remarkMarkdownFeatures],
       rehypePlugins: [rehypeKatex],
     }),
     syntaxHighlight: 'shiki',

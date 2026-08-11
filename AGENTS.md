@@ -60,6 +60,7 @@ npm run preview
 - Páginas com diagramas devem incluir `MermaidRuntime.astro`, que expõe `window.mermaidReady`, marca `data-render-status` e preserva fallback textual em falha.
 - Controles de impressão devem aguardar `window.mermaidReady` antes de chamar `window.print()`.
 - Mantenha carregamento condicional: páginas sem diagramas não devem importar o runtime Mermaid no navegador.
+- `remarkMarkdownFeatures` inspeciona nós HTML reais do AST Markdown e sinaliza `<abbr title>` via `remarkPluginFrontmatter`; conteúdo e cheat sheet incluem `AbbreviationRuntime.astro` somente quando essa flag existe. O runtime externo same-origin preserva `title` como fallback sem JavaScript, oferece popover acessível por hover, foco e toque, fecha por Escape/toque externo e permanece oculto na impressão; páginas sem abreviações tituladas não devem referenciá-lo.
 
 ## Conteúdo e rotas
 
