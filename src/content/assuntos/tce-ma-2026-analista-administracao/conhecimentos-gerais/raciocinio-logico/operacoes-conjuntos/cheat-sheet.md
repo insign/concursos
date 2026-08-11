@@ -1,19 +1,23 @@
 # Operações com conjuntos
 
-## Notação básica
+## Fluxo
+
+1. Qual é o **universo**?
+2. A frase fala de elemento ($\in$) ou subconjunto ($\subseteq$)?
+3. Traduza a região.
+4. Se houver números, preencha primeiro a região mais interna.
+5. Corrija dupla contagem com inclusão-exclusão.
+6. Confira se as regiões são possíveis e não negativas.
+
+## Notação que não pode confundir
 
 | Símbolo | Leitura |
 |---|---|
-| $x\in A$ | $x$ pertence a $A$ |
+| $x\in A$ | $x$ é elemento de $A$ |
 | $x\notin A$ | $x$ não pertence a $A$ |
-| $A\subseteq B$ | todo elemento de $A$ pertence a $B$ |
-| $A\subsetneq B$ | $A\subseteq B$ e $A\ne B$ |
-| $|A|$ | cardinalidade de $A$ |
-| $\mathcal P(A)$ | conjunto de todos os subconjuntos de $A$ |
-
-Use $\subseteq$ para inclusão que permite igualdade e $\subsetneq$ para inclusão própria.
-
-## Elemento versus subconjunto
+| $A\subseteq B$ | todo elemento de $A$ está em $B$ |
+| $A\subsetneq B$ | inclusão própria |
+| $|A|$ | cardinalidade |
 
 $$
 x\in A
@@ -21,72 +25,94 @@ x\in A
 \{x\}\subseteq A.
 $$
 
-$\{x\}\in A$ é outra afirmação: o conjunto unitário é elemento de $A$.
+Mas $\{x\}\in A$ é outra afirmação.
 
-## Regras fundamentais
-
-- Ordem e repetição não alteram conjuntos.
-- Igualdade exige exatamente os mesmos elementos.
-- Mesma cardinalidade não implica igualdade.
-- $\varnothing\subseteq A$ para todo $A$.
-- $|\varnothing|=0$, mas $|\{\varnothing\}|=1$.
-- Conjuntos disjuntos satisfazem $A\cap B=\varnothing$.
-
-## Conjunto das partes
+## Vazio
 
 $$
-\mathcal P(A)=\{X\mid X\subseteq A\}.
+|\varnothing|=0,
+\qquad
+|\{\varnothing\}|=1.
 $$
 
-Se $|A|=n$:
-
 $$
-|\mathcal P(A)|=2^n.
+\varnothing\subseteq A
 $$
 
-Inclui $\varnothing$ e $A$.
+para todo conjunto $A$.
+
+**Subconjunto de todo conjunto ≠ elemento de todo conjunto.**
+
+## Tradução rápida
+
+| Expressão | Região |
+|---|---|
+| pelo menos um / $A$ ou $B$ | $A\cup B$ |
+| ambos / simultaneamente | $A\cap B$ |
+| $A$, mas não $B$ | $A\setminus B$ |
+| exatamente um | $A\triangle B$ |
+| nenhum | $(A\cup B)^c$ |
+| não ambos | $(A\cap B)^c$ |
+| somente $A$ entre três | $A\setminus(B\cup C)$ |
+
+> “Ou” na união é **inclusivo**.
 
 ## Operações
 
 $$
-A\cup B=\{x\mid x\in A\text{ ou }x\in B\},
+A\cup B=\{x:x\in A\text{ ou }x\in B\}
 $$
 
 $$
-A\cap B=\{x\mid x\in A\text{ e }x\in B\},
+A\cap B=\{x:x\in A\text{ e }x\in B\}
 $$
 
 $$
-A\setminus B=\{x\mid x\in A\text{ e }x\notin B\},
+A\setminus B=A\cap B^c
 $$
 
 $$
-A^c=U\setminus A,
+A^c=U\setminus A
 $$
 
 $$
-A\mathbin{\triangle}B
-=(A\setminus B)\cup(B\setminus A)
-=(A\cup B)\setminus(A\cap B).
+A\triangle B
+=(A\cup B)\setminus(A\cap B)
 $$
 
-- União usa “ou” inclusivo.
-- Diferença não é comutativa.
-- Complemento exige universo declarado.
-- Diferença simétrica significa “exatamente um”.
+- diferença: ordem importa;
+- complemento: universo importa;
+- diferença simétrica: **exatamente um**.
 
-## Leis algébricas
+## Leis de uma linha
 
-| Lei | Identidade |
-|---|---|
-| comutativa | $A\cup B=B\cup A$; $A\cap B=B\cap A$ |
-| associativa | $(A\cup B)\cup C=A\cup(B\cup C)$; análoga para $\cap$ |
-| idempotência | $A\cup A=A$; $A\cap A=A$ |
-| identidade | $A\cup\varnothing=A$; $A\cap U=A$ |
-| dominação | $A\cup U=U$; $A\cap\varnothing=\varnothing$ |
-| absorção | $A\cup(A\cap B)=A$; $A\cap(A\cup B)=A$ |
+$$
+A\cup A=A,
+\qquad
+A\cap A=A
+$$
 
-Distributivas:
+$$
+A\cup\varnothing=A,
+\qquad
+A\cap U=A
+$$
+
+$$
+A\cup U=U,
+\qquad
+A\cap\varnothing=\varnothing
+$$
+
+Absorção:
+
+$$
+A\cup(A\cap B)=A,
+\qquad
+A\cap(A\cup B)=A.
+$$
+
+Distributividade:
 
 $$
 A\cap(B\cup C)=(A\cap B)\cup(A\cap C),
@@ -96,61 +122,49 @@ $$
 A\cup(B\cap C)=(A\cup B)\cap(A\cup C).
 $$
 
-Complementares:
-
-$$
-A\cup A^c=U,
-\qquad
-A\cap A^c=\varnothing,
-\qquad
-(A^c)^c=A.
-$$
-
-Diferença:
-
-$$
-A\setminus B=A\cap B^c.
-$$
-
 ## De Morgan
 
 $$
-(A\cup B)^c=A^c\cap B^c,
+(A\cup B)^c=A^c\cap B^c
 $$
 
 $$
-(A\cap B)^c=A^c\cup B^c.
+(A\cap B)^c=A^c\cup B^c
 $$
 
-Ao complementar, troque união por interseção e vice-versa.
+**Complementou? Troque $\cup$ por $\cap$ e vice-versa.**
 
-## Cardinalidade de dois conjuntos
-
-$$
-|A\cup B|=|A|+|B|-|A\cap B|.
-$$
+## Dois conjuntos: fórmulas
 
 $$
-|A\setminus B|=|A|-|A\cap B|.
+|A\cup B|=|A|+|B|-|A\cap B|
 $$
 
-$$
-|A\mathbin{\triangle}B|
-=|A|+|B|-2|A\cap B|.
-$$
-
-Se $A,B\subseteq U$ e $|U|=N$:
+Somente $A$:
 
 $$
-\max(0,|A|+|B|-N)
-\le |A\cap B|
-\le \min(|A|,|B|).
+|A|-|A\cap B|
+$$
+
+Exatamente um:
+
+$$
+|A\triangle B|
+=|A|+|B|-2|A\cap B|
 $$
 
 Nenhum:
 
 $$
-|(A\cup B)^c|=|U|-|A\cup B|.
+|U|-|A\cup B|
+$$
+
+Limites:
+
+$$
+\max(0,|A|+|B|-|U|)
+\le |A\cap B|
+\le \min(|A|,|B|).
 $$
 
 ## Três conjuntos
@@ -162,117 +176,46 @@ $$
 +|A\cap B\cap C|.
 $$
 
-Preencha o diagrama nesta ordem:
+### Ordem de preenchimento
 
-1. interseção tripla;
-2. regiões de exatamente dois;
-3. regiões exclusivas;
-4. região externa.
+1. tripla;
+2. exatamente dois;
+3. somente um;
+4. fora da união.
 
-As interseções $A\cap B$, $A\cap C$ e $B\cap C$ incluem a região tripla.
+Interseção de pares é **inclusiva**:
 
-Ao menos dois entre três:
+$$
+|A\cap B\text{ somente}|
+=|A\cap B|-|A\cap B\cap C|.
+$$
+
+Pelo menos dois:
 
 $$
 |A\cap B|+|A\cap C|+|B\cap C|
 -2|A\cap B\cap C|.
 $$
 
-## Tradução verbal
-
-| Expressão | Região |
-|---|---|
-| ao menos um | $A\cup B$ |
-| ambos | $A\cap B$ |
-| $A$, mas não $B$ | $A\setminus B$ |
-| exatamente um | $A\mathbin{\triangle}B$ |
-| nenhum | $(A\cup B)^c$ |
-| não ambos | $(A\cap B)^c$ |
-| somente $A$ entre três | $A\setminus(B\cup C)$ |
-
-## Produto cartesiano
-
-$$
-A\times B=\{(a,b)\mid a\in A,\ b\in B\}.
-$$
-
-Para conjuntos finitos:
-
-$$
-|A\times B|=|A|\,|B|.
-$$
-
-$$
-(a,b)=(c,d)
-\iff
-a=c\text{ e }b=d.
-$$
-
-Em geral, $A\times B\ne B\times A$.
-
-$$
-A\times\varnothing=\varnothing.
-$$
-
-## Famílias e partições
-
-$$
-x\in\bigcup_i A_i
-\iff
-\exists i\;(x\in A_i),
-$$
-
-Para $I\ne\varnothing$:
-
-$$
-x\in\bigcap_{i\in I} A_i
-\iff
-\forall i\in I\;(x\in A_i).
-$$
-
-Uma partição de $U$ possui blocos:
-
-- não vazios;
-- dois a dois disjuntos;
-- com união igual a $U$.
-
-## Intervalos
-
-| Intervalo | Extremos |
-|---|---|
-| $[a,b]$ | ambos incluídos |
-| $(a,b)$ | ambos excluídos |
-| $[a,b)$ | inclui $a$, exclui $b$ |
-| $(a,b]$ | exclui $a$, inclui $b$ |
-
-$\infty$ e $-\infty$ sempre usam parênteses.
-
-Em relação a $\mathbb R$:
-
-$$
-[a,b)^c=(-\infty,a)\cup[b,\infty).
-$$
-
 ## Pegadinhas
 
+- $x\in A$ ≠ $x\subseteq A$.
 - $\varnothing\subseteq A$ não implica $\varnothing\in A$.
 - $\varnothing\ne\{\varnothing\}$.
-- $x\in A$ não é $x\subseteq A$.
-- União inclui a interseção.
-- Complemento sem universo é incompleto.
-- $A\setminus B$ não é $B\setminus A$.
-- Interseção de pares inclui quem está nos três conjuntos.
-- Pares ordenados preservam posição.
-- Igual cardinalidade não significa igualdade.
-- No complemento de intervalo, troque a inclusão dos extremos finitos.
+- Repetição não aumenta cardinalidade.
+- Mesma cardinalidade não implica igualdade.
+- União inclui quem está na interseção.
+- $A\setminus B\ne B\setminus A$ em geral.
+- Complemento sem universo está incompleto.
+- “Nenhum” ≠ “não ambos”.
+- $A\cap B$ inclui quem também está em $C$.
+- Na fórmula de três conjuntos, a região tripla volta com sinal **positivo**.
 
-## Checklist
+## Conferência final
 
-1. Identifiquei o universo?
-2. Diferenciei elemento e subconjunto?
-3. Traduzi “ou”, “e”, “não”, “somente” e “exatamente”?
-4. Comecei o diagrama pela região mais interna?
-5. Corrigi a dupla contagem?
-6. A soma das regiões respeita o total do universo?
-7. Preservei a ordem no produto cartesiano?
-8. Testei os extremos dos intervalos?
+- Identifiquei o universo?
+- Traduzi a frase antes de calcular?
+- Diferenciei elemento de subconjunto?
+- Comecei pela região mais interna?
+- Corrigi a dupla contagem?
+- O total das regiões respeita $|U|$?
