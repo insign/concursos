@@ -1,13 +1,18 @@
 import { describe, expect, it } from 'vitest';
 import {
+  canResumeReading,
   createNavigationDocument,
   isSafeNavigationRoute,
   navigationDestination,
   navigationDocumentSchema,
   navigationFingerprint,
+  navigationPendingRouteKey,
   normalizeNavigationDocument,
   normalizeTextQuote,
+  resumeReadingDestination,
   resolveNavigationVersionAction,
+  shouldPreserveReadingForContestCatalog,
+  type NavigationCatalogEntry,
   type NavigationContext,
 } from '../../src/lib/navigation';
 
@@ -90,6 +95,91 @@ describe('navigation document', () => {
 
     expect(normalized.context.readingMode).toBe(false);
     expect(navigationDestination(normalized)).toBe(invalid.route);
+  });
+
+  it('offers content with a saved position for the current contest and forces focus', () => {
+    const document = createNavigationDocument(
+      '/concursos/tce-ma-2026/interpretacao-textos/',
+      { ...context, readingMode: false },
+      {
+        contentVersion: 'conteudos/tce-ma-2026/interpretacao-textos',
+        sectionId: 'conceitos',
+        blockId: 'conceitos-bloco-2',
+        blockIndex: 7,
+        relativeOffset: 0.35,
+        textQuote: 'Trecho próximo ao ponto de leitura.',
+        progress: 0.61,
+      },
+    );
+
+    expect(canResumeReading(document, 'tce-ma-2026')).toBe(true);
+    expect(canResumeReading(document, 'outro-concurso')).toBe(false);
+    expect(navigationDestination(document)).toBe(document.route);
+    expect(resumeReadingDestination(document)).toBe(`${document.route}#focus`);
+    expect(navigationPendingRouteKey('perfil-teste')).toBe(
+      'concursos:navigation-restored:perfil-teste:pending-route',
+    );
+  });
+
+  it('rejects documents without a resumable content position', () => {
+    const noPosition = createNavigationDocument(
+      '/concursos/tce-ma-2026/interpretacao-textos/',
+      { ...context, readingMode: false },
+      null,
+    );
+    const questions = createNavigationDocument(
+      '/concursos/tce-ma-2026/interpretacao-textos/questoes/',
+      { ...context, activeTab: 'questions', readingMode: false },
+      null,
+    );
+
+    expect(canResumeReading(noPosition, 'tce-ma-2026')).toBe(false);
+    expect(canResumeReading(questions, 'tce-ma-2026')).toBe(false);
+  });
+
+  it('preserves a reading position only when capturing a contest catalog', () => {
+    const document = createNavigationDocument(
+      '/concursos/tce-ma-2026/interpretacao-textos/',
+      { ...context, readingMode: false },
+      {
+        contentVersion: null,
+        sectionId: null,
+        blockId: null,
+        blockIndex: 4,
+        relativeOffset: 0,
+        textQuote: '',
+        progress: 0.5,
+      },
+    );
+    const contestCatalog: NavigationCatalogEntry = {
+      route: '/concursos/tce-ma-2026/',
+      contestStorageId: 'tce-ma-2026',
+      subjectStorageId: null,
+      activeTab: 'catalog',
+      readingMode: false,
+    };
+
+    expect(shouldPreserveReadingForContestCatalog(document, contestCatalog)).toBe(true);
+    expect(
+      shouldPreserveReadingForContestCatalog(document, {
+        ...contestCatalog,
+        route: '/',
+        contestStorageId: null,
+      }),
+    ).toBe(false);
+    expect(
+      shouldPreserveReadingForContestCatalog(document, {
+        ...contestCatalog,
+        activeTab: 'questions',
+      }),
+    ).toBe(false);
+    expect(
+      shouldPreserveReadingForContestCatalog(document, {
+        ...contestCatalog,
+        route: '/concursos/outro-concurso/',
+        contestStorageId: 'outro-concurso',
+      }),
+    ).toBe(false);
   });
 });
 

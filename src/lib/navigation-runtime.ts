@@ -6,10 +6,13 @@ import {
 import { getNavigationRecord, saveNavigationDocument } from './navigation-db';
 import {
   createNavigationDocument,
+  navigationPendingRouteKey,
   navigationCatalogSchema,
   navigationDestination,
   navigationFingerprint,
+  navigationSessionKey,
   normalizeTextQuote,
+  shouldPreserveReadingForContestCatalog,
   type NavigationCatalog,
   type NavigationCatalogEntry,
   type NavigationContext,
@@ -20,8 +23,6 @@ import { bootstrapNavigation } from './navigation-sync';
 import { requestNavigationProfileSync } from './simulados-profile-sync';
 
 const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
-const SESSION_PREFIX = 'concursos:navigation-restored:';
-const PENDING_ROUTE_SUFFIX = ':pending-route';
 const CAPTURE_DEBOUNCE_MS = 800;
 const RESTORE_CAPTURE_SUPPRESSION_MS = 3_000;
 const PERIODIC_SYNC_MS = 30_000;
@@ -38,6 +39,38 @@ const NAVIGATION_TABS = new Set<NavigationContext['activeTab']>([
   'other',
 ]);
 let started = false;
+let runtimeProfileId: string | null | undefined;
+const readyProfiles = new Set<string>();
+const readyWaiters = new Map<string, Set<() => void>>();
+
+export function whenNavigationReady(profileId: string): Promise<void> {
+  if (runtimeProfileId !== undefined && runtimeProfileId !== profileId) return Promise.resolve();
+  if (readyProfiles.has(profileId)) return Promise.resolve();
+  return new Promise((resolve) => {
+    const waiters = readyWaiters.get(profileId) ?? new Set<() => void>();
+    waiters.add(resolve);
+    readyWaiters.set(profileId, waiters);
+  });
+}
+
+function resolveReadyWaiters(profileId: string): void {
+  for (const resolve of readyWaiters.get(profileId) ?? []) resolve();
+  readyWaiters.delete(profileId);
+}
+
+function setRuntimeProfile(profileId: string | null): void {
+  runtimeProfileId = profileId;
+  for (const waitingProfileId of readyWaiters.keys()) {
+    if (waitingProfileId !== profileId) resolveReadyWaiters(waitingProfileId);
+  }
+}
+
+function announceNavigationReady(profileId: string): void {
+  if (readyProfiles.has(profileId)) return;
+  readyProfiles.add(profileId);
+  resolveReadyWaiters(profileId);
+  window.dispatchEvent(new CustomEvent('concursos:navigation-ready', { detail: { profileId } }));
+}
 
 interface ReadingTarget {
   element: HTMLElement | null;
@@ -348,11 +381,12 @@ export function startNavigationRuntime(): void {
   if (started || typeof window === 'undefined') return;
   started = true;
   const profileId = getActiveAlias();
+  setRuntimeProfile(profileId);
   if (!profileId) return;
 
   const routeAtStart = currentRoute();
-  const sessionKey = `${SESSION_PREFIX}${profileId}`;
-  const pendingRouteKey = `${sessionKey}${PENDING_ROUTE_SUFFIX}`;
+  const sessionKey = navigationSessionKey(profileId);
+  const pendingRouteKey = navigationPendingRouteKey(profileId);
   const pendingRoute = sessionStorage.getItem(pendingRouteKey);
   const shouldRestorePendingRoute = pendingRoute === routeAtStart;
   const shouldResumeAutomatically = !sessionStorage.getItem(sessionKey) && routeAtStart === '/';
@@ -426,6 +460,10 @@ export function startNavigationRuntime(): void {
     const record = await getNavigationRecord(profileId);
     if (generation !== captureGeneration || offered) return;
 
+    if (!forcePersist && record && shouldPreserveReadingForContestCatalog(record.current, entry)) {
+      lastFingerprint = navigationFingerprint(record.current);
+      return;
+    }
     if (!forcePersist && fingerprint === lastFingerprint) return;
     if (record && fingerprint === navigationFingerprint(record.current)) {
       lastFingerprint = fingerprint;
@@ -583,7 +621,7 @@ export function startNavigationRuntime(): void {
     suppressedCaptureRequested = false;
     semanticCaptureRequested = false;
     hideOffer();
-    sessionStorage.setItem(`${SESSION_PREFIX}${profileId}`, String(Date.now()));
+    sessionStorage.setItem(navigationSessionKey(profileId), String(Date.now()));
     const destination = navigationDestination(document);
     if (destination !== currentDestination()) {
       suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
@@ -702,6 +740,7 @@ export function startNavigationRuntime(): void {
       // voltar sairia do site (ou não faria nada na PWA) e o catálogo ficaria inacessível
       // pelo histórico. A retomada automática já é consumida uma vez por sessão, então a
       // volta para `/` não reaplica o redirecionamento.
+      announceNavigationReady(profileId);
       location.assign(navigationDestination(record.current));
       return;
     }
@@ -726,8 +765,10 @@ export function startNavigationRuntime(): void {
     } else {
       await runSaveCurrent();
     }
+    announceNavigationReady(profileId);
   })().catch(() => {
     ready = true;
+    announceNavigationReady(profileId);
   });
   void initialization;
 }

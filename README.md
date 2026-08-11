@@ -52,6 +52,8 @@ Ativar o primeiro alias ou trocar de alias exige conexão. Antes de alterar o pe
 
 A sincronização arbitra cada documento completo pela maior versão remota observada: a versão maior vence mesmo com outbox pendente, empate pendente publica o estado local e empate limpo não grava. Uma pendência local sem versão remota previamente observada não possui linhagem comparável, é preservada e gera aviso se substituir um remoto existente; regressões ou recriações remotas seguem as salvaguardas específicas de cada documento. Escritas locais concorrentes continuam sendo reconciliadas no IndexedDB, mas o KV é last-write-wins e não oferece compare-and-set; portanto, não há garantia de sincronização perfeita entre clientes independentes.
 
+Para o alias ativo, a página principal de um concurso oferece **Resumir leitura** quando o último conteúdo desse mesmo concurso possui uma posição salva. A ação abre a rota canônica em `#focus` e restaura o ponto sem exigir que a leitura anterior já estivesse no modo sem distrações.
+
 Conteúdo já visitado pode ser lido offline. A interface também permite baixar ou remover atomicamente o pacote completo de um concurso. O tráfego do KV nunca é armazenado no Cache Storage.
 
 ## Deploy
