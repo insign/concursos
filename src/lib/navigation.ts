@@ -189,6 +189,7 @@ export function resolveNavigationVersionAction(
   remoteCreatedAt: string | null = null,
 ): NavigationVersionAction {
   if (!local) return remoteVersion === null ? 'noop' : 'adopt-remote';
+  if (local.outboxState === 'pending' && local.remoteVersion === null) return 'publish-local';
   if (remoteVersion === null) return local.outboxState === 'pending' ? 'publish-local' : 'noop';
 
   const recreated =

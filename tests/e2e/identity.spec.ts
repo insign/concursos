@@ -114,6 +114,8 @@ test('links an existing remote alias directly after preflight', async ({ page, k
   await page.getByRole('button', { name: 'Usar este alias' }).click();
   await expect(page.getByText('Alias atual:')).toContainText(alias);
   await expect(page.evaluate(() => localStorage.getItem('concursos:active-alias'))).resolves.toBe(alias);
+  await expect(page.getByLabel('Todas', { exact: true })).toBeChecked();
+  expect(kvStore.get(`concursos--${alias}--preferencias`)?.version).toBe(2);
   expect(dialogs).toEqual([]);
   expect(
     await page.evaluate(() =>

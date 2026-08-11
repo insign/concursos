@@ -9,10 +9,12 @@ import {
   buildStudiedDocumentId,
 } from '../../src/lib/identity';
 import {
+  acquireSyncLease,
   deleteOfflineDatabase,
   getLocalAnswerRecord,
   getSharedDocumentRecord,
   openOfflineDb,
+  releaseSyncLease,
   saveAnswerDocumentSnapshot,
   saveSharedDocument,
 } from '../../src/lib/offline-db';
@@ -336,6 +338,79 @@ describe('alias profile preflight', () => {
     expect(await getLocalAnswerRecord(answerId)).toBeUndefined();
     expect(await getSharedDocumentRecord('progress', profileId)).toBeUndefined();
   }, 10_000);
+
+  it('waits for transient lease contention during profile preparation', async () => {
+    const owner = 'other-tab';
+    const { requests } = installFetchMock();
+    await expect(acquireSyncLease('answer-sync', owner, 30_000)).resolves.toBe(true);
+
+    const preparation = prepareProfileAlias(profileId);
+    await new Promise((resolve) => setTimeout(resolve, 50));
+    expect(requests).toEqual([]);
+    await releaseSyncLease('answer-sync', owner);
+
+    await expect(preparation).resolves.toEqual({ remoteDocumentCount: 0 });
+    expect(requests.map(({ method }) => method)).toEqual(['GET', 'GET', 'GET', 'GET', 'GET']);
+  }, 10_000);
+
+  it('adopts a newer comparable remote over a pending local document', async () => {
+    const remotes = new Map<string, MockRemoteDocument>([
+      [
+        preferencesId,
+        {
+          version: 1,
+          createdAt: '2026-07-23T12:00:00.000Z',
+          json: { ...DEFAULT_PREFERENCES, questionLayout: 'single' },
+        },
+      ],
+    ]);
+    const { requests } = installFetchMock({ remotes });
+    await prepareProfileAlias(profileId);
+    await saveSharedDocument(
+      'preferences',
+      profileId,
+      { ...DEFAULT_PREFERENCES, questionLayout: 'ten' },
+      ['questionLayout'],
+    );
+    remotes.set(preferencesId, {
+      version: 2,
+      createdAt: '2026-07-23T12:00:00.000Z',
+      json: { ...DEFAULT_PREFERENCES, questionLayout: 'all' },
+    });
+
+    requests.length = 0;
+    await prepareProfileAlias(profileId);
+    expect(requests.some(({ method }) => method === 'PUT')).toBe(false);
+    expect(await getSharedDocumentRecord('preferences', profileId)).toMatchObject({
+      current: { questionLayout: 'all' },
+      remoteVersion: 2,
+      outboxState: 'clean',
+    });
+  }, 15_000);
+
+  it('publishes a valid pending document without known remote lineage', async () => {
+    await seedPendingProfile();
+    const remotes = new Map<string, MockRemoteDocument>([
+      [
+        preferencesId,
+        {
+          version: 5,
+          createdAt: '2026-07-23T12:00:00.000Z',
+          json: { ...DEFAULT_PREFERENCES, questionLayout: 'all' },
+        },
+      ],
+    ]);
+    const { requests } = installFetchMock({ remotes });
+
+    await prepareProfileAlias(profileId);
+    expect(requests).toContainEqual(expect.objectContaining({ method: 'PUT', id: preferencesId }));
+    expect(await getSharedDocumentRecord('preferences', profileId)).toMatchObject({
+      current: { questionLayout: 'ten' },
+      remoteVersion: 6,
+      outboxState: 'clean',
+      conflictWarning: expect.stringContaining('sem linhagem local conhecida'),
+    });
+  }, 15_000);
 
   it('applies nothing when the lease expires during the preflight callback', async () => {
     const now = Date.now();

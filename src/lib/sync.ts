@@ -132,6 +132,7 @@ export function resolveVersionAction(
   remoteVersion: number | null,
 ): VersionResolution {
   if (!local) return remoteVersion === null ? 'noop' : 'adopt-remote';
+  if (local.outboxState === 'pending' && local.remoteVersion === null) return 'publish-local';
 
   const observedVersion = local.remoteVersion ?? 0;
   const currentRemoteVersion = remoteVersion ?? 0;
@@ -264,10 +265,14 @@ async function refreshProfileProgress(
 }
 
 export function recreationWarning(
-  record: Pick<LocalAnswerRecord | LocalSharedDocumentRecord, 'remoteVersion' | 'remoteCreatedAt'>,
+  record: Pick<LocalAnswerRecord | LocalSharedDocumentRecord, 'remoteVersion' | 'remoteCreatedAt'> &
+    Partial<Pick<LocalAnswerRecord | LocalSharedDocumentRecord, 'outboxState'>>,
   remoteVersion: number | null,
   remoteCreatedAt: string | null,
 ): string | null {
+  if (record.remoteVersion === null && record.outboxState === 'pending' && remoteVersion !== null) {
+    return 'Havia um documento remoto sem linhagem local conhecida; a pendência deste dispositivo prevaleceu.';
+  }
   if (record.remoteVersion !== null && (remoteVersion === null || remoteVersion < record.remoteVersion)) {
     return 'A versão remota regrediu; o registro pode ter sido excluído e recriado.';
   }
@@ -902,8 +907,19 @@ async function applyProfilePreflight(
   }
 }
 
-async function runWithLease(operation: (ensureLease: EnsureSyncLease) => Promise<void>): Promise<boolean> {
-  const acquired = await acquireSyncLease(leaseName, ownerId, 30_000);
+async function runWithLease(
+  operation: (ensureLease: EnsureSyncLease) => Promise<void>,
+  acquisitionAttempts = 1,
+  acquisitionRetryDelayMs = 0,
+): Promise<boolean> {
+  let acquired = false;
+  for (let attempt = 0; attempt < acquisitionAttempts; attempt += 1) {
+    acquired = await acquireSyncLease(leaseName, ownerId, 30_000);
+    if (acquired) break;
+    if (attempt < acquisitionAttempts - 1) {
+      await new Promise((resolve) => setTimeout(resolve, acquisitionRetryDelayMs));
+    }
+  }
   if (!acquired) return false;
 
   let leaseError: unknown;
@@ -957,9 +973,11 @@ export async function prepareProfileAlias(
       options.onPreflightComplete?.(result);
       await ensureLease();
       await applyProfilePreflight(profileId, preflight, ensureLease);
-    }),
+    }, 10, 500),
   );
-  if (!acquired || !result) throw new Error('Outra sincronização está preparando este perfil');
+  if (!acquired || !result) {
+    throw new Error('O perfil continua em uso por outra sincronização; tente novamente');
+  }
   return result;
 }
 

@@ -105,6 +105,16 @@ describe('navigation version resolution', () => {
     expect(resolveNavigationVersionAction(pending, 3, clean.remoteCreatedAt)).toBe('adopt-remote');
   });
 
+  it('preserves a pending document without known remote lineage', () => {
+    expect(
+      resolveNavigationVersionAction(
+        { remoteVersion: null, remoteCreatedAt: null, outboxState: 'pending' },
+        1,
+        clean.remoteCreatedAt,
+      ),
+    ).toBe('publish-local');
+  });
+
   it('publishes a pending local document when versions are equal', () => {
     expect(resolveNavigationVersionAction(pending, 2, clean.remoteCreatedAt)).toBe('publish-local');
   });

@@ -61,8 +61,12 @@ export interface SimuladosSyncResult {
 type VersionedLocal = Pick<LocalSimuladoRecord | LocalSharedDocumentRecord, 'remoteVersion' | 'outboxState'>;
 type Resolution = 'adopt-remote' | 'publish-local' | 'noop';
 
-function resolveVersion(local: VersionedLocal | null, remoteVersion: number | null): Resolution {
+export function resolveSimuladosVersionAction(
+  local: VersionedLocal | null,
+  remoteVersion: number | null,
+): Resolution {
   if (!local) return remoteVersion === null ? 'noop' : 'adopt-remote';
+  if (local.outboxState === 'pending' && local.remoteVersion === null) return 'publish-local';
   const observed = local.remoteVersion ?? 0;
   const current = remoteVersion ?? 0;
   if (current > observed) return 'adopt-remote';
@@ -71,10 +75,16 @@ function resolveVersion(local: VersionedLocal | null, remoteVersion: number | nu
 }
 
 function recreationWarning(
-  record: Pick<LocalSimuladoRecord | LocalSharedDocumentRecord, 'remoteVersion' | 'remoteCreatedAt'>,
+  record: Pick<
+    LocalSimuladoRecord | LocalSharedDocumentRecord,
+    'remoteVersion' | 'remoteCreatedAt' | 'outboxState'
+  >,
   remoteVersion: number | null,
   remoteCreatedAt: string | null,
 ): string | null {
+  if (record.remoteVersion === null && record.outboxState === 'pending' && remoteVersion !== null) {
+    return 'Havia um documento remoto sem linhagem local conhecida; a pendência deste dispositivo prevaleceu.';
+  }
   if (record.remoteVersion !== null && (remoteVersion === null || remoteVersion < record.remoteVersion)) {
     return 'A versão remota regrediu; o registro pode ter sido excluído e recriado.';
   }
@@ -167,7 +177,7 @@ async function applyDetailRemote(
 ): Promise<void> {
   const documentId = buildSimuladoDocumentId(profileId, simulationId);
   const record = await getLocalSimuladoRecord(documentId);
-  const action = resolveVersion(record ?? null, remote?.version ?? null);
+  const action = resolveSimuladosVersionAction(record ?? null, remote?.version ?? null);
   if (action === 'noop') {
     if (record && remote) {
       const warning = recreationWarning(record, remote.version, remote.createdAt);
@@ -251,10 +261,11 @@ async function applyIndexRemote(
   profileId: string,
   remote: RemoteDocument<SimuladosIndex> | null,
   hooks: SimuladosSyncHooks,
+  preserveExistingWarning = false,
 ): Promise<void> {
   const documentId = buildSimuladosIndexDocumentId(profileId);
   const record = await getSharedDocumentRecord('simuladosIndex', profileId);
-  const action = resolveVersion(record ?? null, remote?.version ?? null);
+  const action = resolveSimuladosVersionAction(record ?? null, remote?.version ?? null);
   if (action === 'noop') {
     if (record && remote) {
       const warning = recreationWarning(record, remote.version, remote.createdAt);
@@ -308,6 +319,7 @@ async function applyIndexRemote(
     remoteVersion: written.version,
     remoteCreatedAt: written.created_at,
     conflictWarning: [
+      preserveExistingWarning ? record.conflictWarning : null,
       recreationWarning(record, remote?.version ?? null, remote?.createdAt ?? null),
       written.version > (remote?.version ?? 0) + 1
         ? 'Outra escrita ocorreu durante a sincronização do índice de simulados.'
@@ -378,7 +390,8 @@ export async function applySimuladosPreflight(
 
   const indexRecord = await getSharedDocumentRecord('simuladosIndex', profileId);
   if (indexRecord?.outboxState === 'pending') {
-    await applyIndexRemote(profileId, preflight.index, hooks);
+    const refreshedIndex = await readRemoteIndex(profileId, hooks);
+    await applyIndexRemote(profileId, refreshedIndex, hooks, true);
   }
   const finalIndex = await getSharedDocumentRecord('simuladosIndex', profileId);
   if (finalIndex?.outboxState === 'pending') {
@@ -447,7 +460,8 @@ export async function synchronizePendingSimulados(
       }
       const indexRecord = await getSharedDocumentRecord('simuladosIndex', profileId);
       if (indexRecord?.outboxState === 'pending') {
-        await applyIndexRemote(profileId, remoteIndex, hooks);
+        const refreshedIndex = await readRemoteIndex(profileId, hooks);
+        await applyIndexRemote(profileId, refreshedIndex, hooks, true);
       }
     } catch (error) {
       failures += 1;
