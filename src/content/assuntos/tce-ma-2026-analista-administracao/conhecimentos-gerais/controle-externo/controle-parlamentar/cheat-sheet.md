@@ -1,173 +1,155 @@
 # Controle parlamentar
 
-## Essência
+## Núcleo
 
-- Fiscalização do Legislativo sobre Administração e governo.
-- Fundamento: freios e contrapesos.
-- Não existe hierarquia geral do Legislativo sobre o Executivo.
-- Competência deve estar prevista e respeitar separação dos Poderes e direitos fundamentais.
+- Legislativo fiscaliza Administração e governo **nos limites da Constituição**.
+- Freios e contrapesos ≠ hierarquia sobre o Executivo.
+- Primeiro passo em questão: identificar **quem** pratica o ato.
 
-## Duas dimensões
+## Órgão → competência
 
-| Político-parlamentar | Financeiro-orçamentário |
+| Órgão | Regra-chave |
 | --- | --- |
-| informações, convocações, CPIs, autorizações e responsabilidade política | fiscalização do art. 70 |
-| atuação direta de Congresso, Casas e comissões | Congresso com auxílio do TCU |
-
-Congresso = titular do controle externo federal.  
-TCU = órgão de auxílio com competências próprias.
+| Congresso | art. 49, V: sustar ato normativo exorbitante |
+| Congresso | art. 49, IX: julgar contas presidenciais |
+| Congresso ou qualquer Casa | art. 49, X: fiscalizar atos do Executivo, inclusive administração indireta |
+| Câmara/Senado/comissão | convocação pessoal do art. 50 |
+| Mesas | pedido escrito do art. 50, § 2º |
+| comissão | audiências, convocações, reclamações, depoimentos |
+| CPI/CPMI | investigação parlamentar, sem jurisdição |
 
 ## Art. 49
 
-| Inciso | Competência do Congresso |
-| --- | --- |
-| V | sustar ato normativo do Executivo que exorbite poder regulamentar ou delegação legislativa |
-| IX | julgar contas anuais do Presidente e apreciar relatórios de planos de governo |
-| X | fiscalizar, diretamente ou por qualquer Casa, atos do Executivo, inclusive administração indireta |
-| XI | zelar pela preservação de sua competência legislativa |
+**V** → sustar ato normativo do Executivo que exorbite:
+- poder regulamentar; ou
+- delegação legislativa.
 
-Sustar ≠ anular ≠ revogar.
+**IX** → Congresso julga contas do Presidente.  
+TCU → parecer prévio.  
+Câmara → toma contas omitidas.
+
+**X** → Congresso fiscaliza diretamente ou por qualquer Casa, inclusive administração indireta.
+
+**XI** → preservação da competência legislativa.
+
+### Fórmula
+
+`SUSTAR ≠ ANULAR ≠ REVOGAR`
 
 ## Art. 50
 
-Convocação pessoal:
+| Instrumento | Quem |
+| --- | --- |
+| convocação pessoal | Câmara, Senado ou qualquer comissão |
+| comparecimento espontâneo | Ministro, por iniciativa própria + entendimento com a Mesa |
+| pedido escrito | Mesa da Câmara ou Mesa do Senado |
 
-- Câmara, Senado ou qualquer comissão;
+### Podem ser convocados
+
 - Ministro de Estado;
 - titular de órgão diretamente subordinado à Presidência;
-- Presidente do Comitê Gestor do IBS;
-- assunto previamente determinado;
-- ausência sem justificação adequada: crime de responsabilidade.
+- Presidente do Comitê Gestor do IBS.
 
-Pedido escrito:
+Convocação → assunto previamente determinado.  
+Ausência sem justificativa adequada → crime de responsabilidade.
 
-- encaminhado pelas **Mesas** da Câmara ou do Senado;
-- recusa, omissão por 30 dias ou informação falsa: crime de responsabilidade.
+Pedido escrito → recusa, omissão por **30 dias** ou informação falsa → crime de responsabilidade.
 
-Ministro também pode comparecer espontaneamente mediante entendimento com a Mesa.
+## Comissões — art. 58, § 2º
 
-## Comissões: art. 58, § 2º
-
-- audiências públicas;
-- convocação de Ministros;
-- recebimento de petições, reclamações, representações e queixas;
+- audiência pública;
+- convocação de Ministro;
+- recebimento de petição/reclamação/representação/queixa;
 - solicitação de depoimento de autoridade ou cidadão;
 - apreciação de programas, planos e obras.
 
-Receber manifestação não significa julgá-la procedente.
+Receber manifestação ≠ julgá-la procedente.
 
-## CPI: requisitos
+## CPI — criação
 
-1. requerimento de um terço;
-2. fato determinado;
-3. prazo certo.
+**CPI:**  
+`1/3 + fato determinado + prazo certo`
 
-Preenchidos os requisitos, criação é direito da minoria e não depende de aprovação discricionária da maioria.
+Atendidos os requisitos → direito da minoria.
 
-Prorrogação:
+**CPMI:**  
+`1/3 da Câmara + 1/3 do Senado`
 
-- pode existir conforme lei e regras internas;
-- no MS 40.799, STF afastou direito automático da minoria à prorrogação;
-- criação e prorrogação não se confundem.
+## CPI — poderes
 
-## CPI: poderes
+Pode, com pertinência e fundamentação:
 
-- diligências;
-- depoimentos e testemunhas;
-- requisição de informações e documentos;
-- acesso fundamentado a sigilos bancário, fiscal e registros telefônicos;
-- decisão colegiada, específica, individualizada e pertinente ao fato.
+- diligenciar;
+- ouvir investigados/testemunhas;
+- requisitar documentos e informações;
+- quebrar sigilo bancário;
+- quebrar sigilo fiscal;
+- obter registros telefônicos pretéritos.
+
+### Sigilo: checklist
+
+`colegiado + fundamentação específica + destinatário + período + objeto + nexo com o fato`
 
 ## Reserva de jurisdição
 
-| CPI pode deliberar | Só Judiciário pode determinar |
+| CPI pode | Só Judiciário |
 | --- | --- |
-| quebra fundamentada de sigilo bancário/fiscal | interceptação telefônica em curso |
-| acesso a registros telefônicos pretéritos | busca e apreensão domiciliar |
-| requisitar documentos | prisão preventiva ou temporária |
-| ouvir e investigar | indisponibilidade de bens |
+| sigilo bancário/fiscal | interceptação telefônica em curso |
+| registros telefônicos pretéritos | busca domiciliar |
+| requisitar documentos | prisão preventiva/temporária |
+| investigar e ouvir | indisponibilidade de bens |
 
-Prisão em flagrante não é decreto de prisão cautelar.
+**Registros telefônicos ≠ interceptação.**
 
-## Garantias em CPI
+## Art. 3º-A da Lei nº 1.579/1952
 
-- advogado, inclusive em reunião secreta;
+`CPI delibera → presidente solicita → juiz decide`
+
+Indícios veementes de origem ilícita de bens não autorizam a CPI a decretar diretamente a cautelar.
+
+## Depoente
+
+- advogado inclusive em reunião secreta;
 - silêncio contra autoincriminação;
 - não produzir prova contra si;
-- dignidade e proteção contra constrangimento ilegal;
-- testemunha diz a verdade, sem dever de se autoincriminar.
+- testemunha continua com dever de verdade sobre o que não a incrimine.
 
-## Relatório da CPI
+## Relatório
 
-- investiga; não condena civil ou criminalmente;
-- conclusões podem seguir ao MP;
-- Lei nº 1.579/1952 também prevê encaminhamento ao MP ou à AGU;
-- autoridade competente decide e responsabiliza em processo próprio.
+CPI **investiga e relata**.  
+Não condena civil ou criminalmente.
 
-## Contas presidenciais
+Conclusões podem seguir ao MP e demais órgãos competentes.
 
-| Verbo | Responsável |
-| --- | --- |
-| prestar contas | Presidente ao Congresso, em até 60 dias da abertura da sessão legislativa |
-| tomar contas omitidas | Câmara dos Deputados |
-| emitir parecer prévio | TCU |
-| julgar contas anuais | Congresso Nacional |
+## Prorrogação
 
-## CMO e orçamento
+Prazo certo é requisito.
 
-Art. 166, § 1º:
+**MS 40.799/STF (26/3/2026):**
+- minoria tem direito à criação, preenchidos os requisitos;
+- não há direito automático da minoria à prorrogação;
+- continuidade segue deliberação e regras parlamentares.
 
-- parecer sobre projetos orçamentários e contas presidenciais;
-- acompanhamento e fiscalização orçamentária;
-- exame de planos e programas.
+## Câmara × Senado
 
-Art. 72, indício de despesa não autorizada:
-
-1. CMO pede explicações: 5 dias;
-2. insuficientes: pede pronunciamento do TCU: 30 dias;
-3. TCU entende irregular + risco grave: CMO **propõe ao Congresso** sustação.
-
-CMO não susta diretamente.
-
-## Câmara x Senado
-
-**Câmara:**
-
-- autoriza instauração de processo nas hipóteses constitucionais;
+**Câmara**
+- art. 51, I: autoriza instauração nas hipóteses constitucionais;
 - toma contas presidenciais omitidas.
 
-**Senado:**
-
-- processa e julga crimes de responsabilidade nas hipóteses do art. 52;
-- aprova determinadas autoridades;
-- autoriza operações externas de natureza financeira;
-- fixa limites e condições de crédito e dívida.
-
-## Momento do controle
-
-- prévio: aprovação de autoridade ou autorização financeira;
-- concomitante: acompanhamento orçamentário, convocação durante programa;
-- posterior: julgamento de contas e relatório final de CPI.
-
-## Distinções
-
-| Instituto | Ideia-chave |
-| --- | --- |
-| sustar | interromper execução/efeitos na hipótese constitucional |
-| anular | retirar ato ilegal |
-| revogar | retirar ato válido por conveniência e oportunidade |
-| julgar contas | exercer competência constitucional específica |
-| responsabilizar | aplicar consequência no órgão e processo competentes |
+**Senado**
+- processa e julga crimes de responsabilidade do art. 52;
+- aprova previamente autoridades nas hipóteses constitucionais.
 
 ## Pegadinhas
 
-- CPI não possui todos os poderes de juiz.
-- Quebra de registros telefônicos não é interceptação.
-- Relatório de CPI não condena.
-- Câmara toma contas omitidas; Congresso julga contas presidenciais.
-- TCU emite parecer prévio sobre contas presidenciais.
-- Art. 49, V, alcança ato **normativo exorbitante**, não qualquer ato ilegal.
-- Art. 50: comissão convoca; pedido escrito constitucional é encaminhado pela Mesa.
-- Fiscalização da administração indireta não cria hierarquia.
-- CMO propõe; Congresso susta no rito do art. 72.
-- Controle parlamentar pode ser prévio, concomitante ou posterior.
+- fiscalização ≠ hierarquia;
+- sustação do art. 49, V ≠ anulação geral;
+- pedido escrito ≠ convocação;
+- comissão pode convocar no art. 50;
+- CPMI exige 1/3 **de cada Casa**;
+- CPI não tem todos os poderes de juiz;
+- sigilo bancário/fiscal pode ser quebrado pela CPI com fundamentação;
+- interceptação em curso exige juiz;
+- CPI não decreta indisponibilidade de bens;
+- relatório de CPI não condena;
+- criação da CPI ≠ prorrogação automática.
