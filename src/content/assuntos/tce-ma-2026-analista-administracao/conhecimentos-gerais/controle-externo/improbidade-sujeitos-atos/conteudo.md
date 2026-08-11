@@ -6,469 +6,382 @@ order: 50
 storageId: improbidade-sujeitos-atos
 ---
 
-## 1. Ponto de partida
+## 1. Recorte e ponto de partida
 
-A Lei nº 8.429/1992, ou **Lei de Improbidade Administrativa (LIA)**, organiza um sistema de responsabilização voltado à proteção da probidade na organização do Estado e no exercício de suas funções. Seu fundamento constitucional imediato está no art. 37, § 4º, da Constituição.
+A Lei nº 8.429/1992, ou **Lei de Improbidade Administrativa (LIA)**, organiza o sistema de responsabilização por atos de improbidade destinado a proteger a probidade na organização do Estado e no exercício de suas funções. Seu fundamento constitucional imediato está no art. 37, § 4º, da Constituição.
 
-Após a Lei nº 14.230/2021, a caracterização da improbidade exige uma leitura estruturada:
+Após a Lei nº 14.230/2021, a análise deve seguir cinco perguntas:
 
-1. identificar o bem ou a entidade protegida;
-2. identificar quem praticou ou participou da conduta;
-3. demonstrar o dolo exigido pela lei;
-4. enquadrar o fato em tipo vigente;
-5. provar os elementos específicos do art. 9º, 10 ou 11.
+1. qual entidade ou bem jurídico foi atingido?;
+2. quem praticou, induziu ou concorreu para a conduta?;
+3. há dolo nos termos da LIA?;
+4. existe tipo legal vigente?;
+5. estão presentes os requisitos específicos do art. 9º, 10 ou 11?
 
-Não basta concluir que a conduta foi ruim, ilegal ou ineficiente. **Improbidade é uma ilegalidade qualificada pelos requisitos da LIA.**
+**Ilegalidade não é sinônimo de improbidade.** A improbidade exige a qualificação sancionatória prevista na LIA.
 
 ### 1.1. Fronteira deste assunto
 
-Este assunto cuida do regime material: sujeitos, dolo, tipicidade, atos de enriquecimento ilícito, lesão ao erário e ofensa a princípios, além das regras essenciais de sucessão e articulação entre instâncias.
+Este assunto concentra o **regime material**: sujeitos, participação, dolo, tipicidade, enriquecimento ilícito, lesão ao erário, atos contra princípios, sucessão e relações essenciais com outras instâncias.
 
-O Assunto 051 estudará:
+O Assunto 051 fica responsável por sanções, procedimento, legitimidade processual, acordos, indisponibilidade e perda de bens e prescrição.
 
-- sanções e critérios de aplicação;
-- procedimento administrativo e ação de improbidade;
-- legitimidade, defesa e acordos;
-- indisponibilidade e perda de bens;
-- prescrição.
+## 2. Natureza e responsabilidade subjetiva
 
-Esses temas só serão mencionados aqui quando indispensáveis para compreender a responsabilidade material.
+O art. 1º, § 4º, determina a aplicação dos princípios constitucionais do **direito administrativo sancionador**.
 
-## 2. Natureza do sistema
+Consequências centrais:
 
-O art. 1º da LIA afirma que o sistema tutela a probidade e a integridade do patrimônio público e social. O § 4º manda aplicar os princípios constitucionais do **direito administrativo sancionador**.
+- responsabilidade subjetiva;
+- individualização da conduta e da participação;
+- tipicidade e segurança jurídica;
+- impossibilidade de presumir dolo apenas do cargo, da hierarquia ou da ilegalidade;
+- distinção entre improbidade e simples falha de gestão.
 
-Isso produz consequências importantes:
+A ação de improbidade tem natureza **civil e sancionatória**. A incidência de garantias próprias do direito administrativo sancionador não a transforma em ação penal.
 
-- a responsabilidade é subjetiva, não objetiva;
-- conduta e participação devem ser individualizadas;
-- tipicidade e segurança jurídica limitam o poder sancionador;
-- a prova do elemento subjetivo não pode ser presumida apenas do cargo ou da ilegalidade;
-- a gravidade própria da improbidade não se confunde com qualquer falha de gestão.
+## 3. Quem e o que a LIA protege
 
-A ação de improbidade possui natureza **civil**, como reafirmou o STF no julgamento das ADIs 7156 e 7236. A incidência de garantias sancionatórias não transforma improbidade em crime nem torna penal a ação.
+### 3.1. Poderes e Administração Pública
 
-## 3. Quem e o que a lei protege
-
-Os §§ 5º a 7º do art. 1º delimitam o alcance objetivo da proteção.
-
-### 3.1. Estado e Administração Pública
-
-São protegidos a probidade e o patrimônio público e social:
+A LIA protege a probidade e o patrimônio público e social:
 
 - dos Poderes Executivo, Legislativo e Judiciário;
 - da Administração direta e indireta;
 - da União, dos Estados, do Distrito Federal e dos Municípios.
 
-A proteção não se limita ao Poder Executivo nem à Administração federal.
+### 3.2. Entidades privadas alcançadas
 
-### 3.2. Entidade privada subvencionada ou incentivada
+A proteção também alcança, nos termos do art. 1º:
 
-A LIA alcança atos contra o patrimônio de entidade privada que receba de ente público:
+- entidade privada que receba subvenção, benefício ou incentivo fiscal ou creditício de ente público;
+- entidade privada para cuja criação ou custeio o erário tenha concorrido ou concorra em seu patrimônio ou receita atual.
 
-- subvenção;
-- benefício;
-- incentivo fiscal;
-- incentivo creditício.
+Na segunda hipótese, o ressarcimento limita-se à repercussão do ilícito sobre a contribuição dos cofres públicos.
 
-O recebimento de recursos ou vantagens públicas justifica a proteção legal sobre o patrimônio atingido.
-
-### 3.3. Entidade privada criada ou custeada com contribuição pública
-
-Também se sujeitam ao sistema os atos contra entidade privada para cuja criação ou custeio o erário tenha concorrido ou concorra em seu patrimônio ou receita atual.
-
-Nessa hipótese, a lei fixa um limite específico: o ressarcimento restringe-se à repercussão do ilícito sobre a contribuição dos cofres públicos.
-
-| Hipótese | Alcance essencial |
+| Hipótese | Regra essencial |
 | --- | --- |
-| Poderes e Administração direta/indireta | proteção do patrimônio público e social em todas as esferas |
-| entidade privada subvencionada ou incentivada | atos contra seu patrimônio nas condições do art. 1º, § 6º |
-| entidade privada criada ou custeada pelo erário | proteção com limite reparatório ligado à contribuição pública |
+| Poderes e Administração direta/indireta | proteção em todas as esferas federativas |
+| entidade privada subvencionada/incentivada | patrimônio alcançado nas condições do art. 1º, § 6º |
+| entidade privada criada/custeada com contribuição pública | ressarcimento limitado à repercussão sobre a contribuição pública |
 
 ## 4. Agente público em sentido amplo
 
-Para a LIA, **agente público** é conceito amplo. O art. 2º inclui:
+O art. 2º utiliza conceito amplo de **agente público**. Inclui agente político, servidor público e toda pessoa que exerça, ainda que transitoriamente ou sem remuneração, mandato, cargo, emprego ou função nas entidades abrangidas pela LIA.
 
-- agente político;
-- servidor público;
-- pessoa que exerça mandato, cargo, emprego ou função;
-- atuação permanente ou transitória;
-- atuação remunerada ou gratuita;
-- vínculo por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura ou vínculo.
+O vínculo pode decorrer de eleição, nomeação, designação, contratação ou outra forma de investidura ou vínculo.
 
-Portanto, estabilidade, concurso e remuneração não são requisitos para o enquadramento. O que importa é o exercício de função nas entidades abrangidas pelo art. 1º.
+Logo, não são requisitos:
+
+- concurso público;
+- estabilidade;
+- permanência;
+- remuneração.
 
 ### 4.1. Particular que administra recursos públicos
 
-O parágrafo único do art. 2º sujeita à LIA, quanto aos recursos de origem pública, a pessoa física ou jurídica que celebre com a Administração:
+Quanto aos recursos de origem pública, o art. 2º, parágrafo único, alcança pessoa física ou jurídica que celebre com a Administração convênio, contrato de repasse, contrato de gestão, termo de parceria, termo de cooperação ou ajuste administrativo equivalente.
 
-- convênio;
-- contrato de repasse;
-- contrato de gestão;
-- termo de parceria;
-- termo de cooperação;
-- ajuste administrativo equivalente.
-
-A regra é de sujeição material ao regime no manejo dos recursos públicos. Ela não autoriza afirmar que todo contratado privado se converta, para qualquer finalidade, em agente público.
+Isso não converte todo contratado privado em agente público para qualquer finalidade; a sujeição decorre do manejo dos recursos públicos e continua submetida aos demais requisitos da LIA.
 
 ## 5. Terceiro que não é agente público
 
-O art. 3º alcança quem, mesmo sem ser agente público:
+O art. 3º alcança o particular que:
 
 - **induz** a prática do ato; ou
 - **concorre dolosamente** para sua prática.
 
-Induzir é provocar ou determinar a atuação ímproba. Concorrer é contribuir dolosamente para sua realização. A posição de terceiro, a proximidade com o agente ou a obtenção casual de alguma vantagem não substituem a prova da participação exigida pela lei.
-
-A redação atual não repete a antiga fórmula que alcançava expressamente quem apenas se beneficiasse do ato. O benefício pode ser evidência, mas não dispensa a demonstração de induzimento ou concurso doloso.
+Mero benefício, proximidade com o agente ou relação contratual não substituem a prova da participação exigida.
 
 ### 5.1. Sócios, cotistas, diretores e colaboradores
 
-O art. 3º, § 1º, afasta a responsabilização automática das pessoas ligadas a uma pessoa jurídica privada. Cargo societário ou funcional, sozinho, não basta.
+O art. 3º, § 1º, impede responsabilização automática de pessoas ligadas à pessoa jurídica privada. É indispensável individualizar a participação.
 
-O texto compilado da lei ainda registra a exigência de “participação e benefícios diretos”. Contudo, ao concluir o julgamento das ADIs 7156 e 7236 em 1º de julho de 2026, o STF afastou a expressão **“e benefícios diretos”**. A leitura material vigente divulgada oficialmente exige participação dolosa, sem tornar indispensável que o próprio participante tenha recebido benefício direto.
+No julgamento conjunto das ADIs 7156 e 7236, o STF declarou inconstitucional a expressão **“e benefícios diretos”** do § 1º, com **efeitos ex tunc**, ressalvados os casos já transitados em julgado.
 
-> Até a data de acesso das fontes, o inteiro teor do acórdão dessas ADIs ainda não estava disponível. Por isso, não se atribuem aqui modulação ou efeitos temporais não confirmados no pronunciamento oficial acessível.
+Portanto:
+
+- permanece necessária a participação dolosa individualizada;
+- não é indispensável que o próprio sócio, diretor, cotista ou colaborador tenha recebido benefício direto;
+- a condição societária ou funcional, sozinha, não gera responsabilidade.
 
 ## 6. Pessoa jurídica e Lei Anticorrupção
 
-Pessoas jurídicas podem aparecer no regime da LIA, especialmente nas regras dos arts. 2º, parágrafo único, e 3º. A responsabilidade da LIA continua vinculada aos requisitos materiais do ato e ao dolo.
+A Lei nº 12.846/2013 segue lógica distinta da LIA:
 
-A Lei nº 12.846/2013 segue lógica diferente para a pessoa jurídica:
+| LIA | Lei nº 12.846/2013 |
+| --- | --- |
+| exige os requisitos subjetivos e materiais próprios da improbidade | pessoa jurídica responde objetivamente nas esferas administrativa e civil |
+| particular responde segundo as regras dos arts. 2º e 3º | ato deve ser praticado no interesse ou benefício da pessoa jurídica |
+| responsabilidade de pessoas naturais é individualizada | dirigentes e administradores respondem na medida de sua culpabilidade |
 
-- prevê responsabilidade **objetiva** administrativa e civil da pessoa jurídica;
-- exige ato lesivo praticado em seu interesse ou benefício, exclusivo ou não;
-- preserva a responsabilidade individual das pessoas naturais na medida de sua culpabilidade.
+A responsabilidade objetiva da pessoa jurídica na Lei Anticorrupção **não migra para a LIA**.
 
-Não se deve transportar a responsabilidade objetiva da Lei Anticorrupção para a LIA.
-
-O art. 3º, § 2º, da LIA determina que suas sanções não se aplicam à pessoa jurídica se o mesmo ato também for sancionado como ato lesivo da Lei nº 12.846/2013. A Lei Anticorrupção, por sua vez, preserva os processos de improbidade em seu art. 30. A articulação exige distinguir pessoa jurídica, pessoas naturais, fundamento de cada regime e proibição de duplicidade sancionatória pelo mesmo fato.
+O art. 3º, § 2º, da LIA evita duplicidade sancionatória da pessoa jurídica pelo mesmo ato já sancionado como ato lesivo da Lei nº 12.846/2013, sem eliminar automaticamente a responsabilidade individual de pessoas naturais.
 
 ## 7. Regra central: somente conduta dolosa
 
 O art. 1º, § 1º, considera atos de improbidade as **condutas dolosas** tipificadas nos arts. 9º, 10 e 11, ressalvados tipos previstos em leis especiais.
 
-O § 2º define dolo como:
+O § 2º define dolo como a vontade livre e consciente de alcançar o resultado ilícito tipificado. **Mera voluntariedade não basta.**
 
-> vontade livre e consciente de alcançar o resultado ilícito tipificado.
+Assim:
 
-A lei acrescenta que a mera voluntariedade não basta. Assim:
+- assinatura de documento não prova dolo por si só;
+- cargo de chefia não gera presunção de participação;
+- culpa, negligência, imprudência e imperícia não configuram improbidade no regime atual;
+- resultado administrativo ruim não demonstra automaticamente finalidade ilícita.
 
-- praticar conscientemente um ato administrativo não prova, sozinho, a vontade de alcançar o resultado ilícito;
-- ocupar posição de chefia não gera presunção de dolo;
-- assinar documento não substitui a análise da participação e do contexto;
-- culpa, negligência, imprudência e imperícia não configuram improbidade sob o regime atual;
-- erro grosseiro não elimina a necessidade de demonstrar o dolo legalmente exigido.
-
-O § 3º reforça: mero exercício da função ou desempenho de competência pública, sem prova de ato doloso com fim ilícito, afasta a responsabilidade por improbidade.
+O § 3º reforça que mero exercício da função ou desempenho de competência pública, sem comprovação de ato doloso com fim ilícito, afasta a responsabilidade por improbidade.
 
 ### 7.1. Finalidade indevida
 
-O art. 11, § 1º, exige fim de obter proveito ou benefício indevido para o agente ou para outra pessoa ou entidade. O § 2º estende essa regra aos atos tipificados na LIA, em leis especiais e em outros tipos especiais de improbidade.
+O art. 11, § 1º, exige finalidade de obter proveito ou benefício indevido para si ou para outra pessoa ou entidade; o § 2º estende essa regra aos atos tipificados na LIA e em tipos especiais.
 
-O benefício:
+O benefício pode destinar-se a terceiro ou entidade: não precisa ser pessoalmente recebido pelo agente.
 
-- não precisa ser recebido pessoalmente pelo agente;
-- pode destinar-se a terceiro ou entidade;
-- deve ser indevido;
-- não se presume apenas do resultado administrativo desfavorável.
+## 8. Divergência interpretativa — art. 1º, § 8º
 
-## 8. Ilegalidade, irregularidade, erro e improbidade
+Nas ADIs 7156 e 7236, o STF conferiu interpretação conforme ao § 8º.
 
-Esses conceitos não são equivalentes.
+A proteção à divergência interpretativa exige que a interpretação esteja baseada:
 
-| Situação | Consequência no regime da LIA |
+1. em jurisprudência assentada nos **Tribunais Superiores** ou no **STF**; ou
+2. na falta dessa jurisprudência, em **decisão de mérito transitada em julgado**, proferida por órgão colegiado de segundo grau.
+
+Mesmo que essa compreensão deixe de prevalecer posteriormente, a mera superação não transforma retroativamente a decisão em improbidade.
+
+A proteção do § 8º não opera quando evidenciado **dolo ou erro grosseiro**, consideradas as circunstâncias do caso e a gravidade da infração, nos termos fixados pelo STF.
+
+> **Atenção:** afastar a proteção especial do § 8º por erro grosseiro não converte responsabilidade culposa em improbidade. Para a condenação continuam necessários o dolo e os demais requisitos gerais e específicos da LIA.
+
+## 9. Ilegalidade, erro e improbidade
+
+| Situação | Consequência |
 | --- | --- |
-| ilegalidade ou irregularidade | exige correção e pode gerar responsabilidade em outro regime, mas não prova improbidade |
+| ilegalidade ou irregularidade | pode gerar correção ou responsabilidade em outro regime, mas não prova improbidade |
 | erro culposo | não satisfaz a exigência de dolo da LIA atual |
-| gestão malsucedida | resultado ruim não demonstra, sozinho, vontade de alcançar resultado ilícito |
-| ato doloso e tipificado | pode configurar improbidade se presentes todos os elementos específicos |
+| gestão malsucedida | resultado ruim não presume vontade de alcançar resultado ilícito |
+| ato doloso e tipificado | pode configurar improbidade se presentes os demais requisitos |
 
-A mesma conduta pode ser inválida, disciplinarmente censurável ou causadora de responsabilidade civil sem preencher a LIA. O afastamento da improbidade não declara automaticamente a regularidade do ato.
+O afastamento da improbidade não significa que o ato seja automaticamente regular.
 
-### 8.1. Divergência interpretativa
+## 10. Matriz dos arts. 9º, 10 e 11
 
-O art. 1º, § 8º, protege a ação ou omissão decorrente de divergência interpretativa da lei baseada em jurisprudência, mesmo que o entendimento não seja pacificado ou deixe de prevalecer depois.
-
-Nas ADIs 7156 e 7236, o STF preservou a regra com ajuste. Conforme a comunicação oficial disponível, a interpretação deve estar fundamentada:
-
-1. em entendimento do STF;
-2. em entendimento de tribunal superior; ou
-3. na ausência deles, em decisão colegiada de tribunal de segundo grau.
-
-Não se trata de salvo-conduto para fabricar justificativa depois do fato. É preciso demonstrar a base jurisprudencial efetivamente adotada na decisão administrativa.
-
-## 9. Três categorias centrais
-
-| Dispositivo | Núcleo | Elemento material distintivo |
+| Dispositivo | Núcleo | Requisito material distintivo |
 | --- | --- | --- |
 | art. 9º | enriquecimento ilícito | vantagem patrimonial indevida |
 | art. 10 | lesão ao erário | perda patrimonial efetiva e comprovada |
-| art. 11 | ofensa qualificada a princípios | conduta taxativamente prevista e lesividade relevante |
+| art. 11 | ofensa qualificada a princípios | conduta taxativamente prevista + lesividade relevante |
 
-Todos exigem dolo. Os resultados próprios, porém, não são intercambiáveis.
+Todos exigem dolo; seus elementos materiais não são intercambiáveis.
 
-## 10. Art. 9º: enriquecimento ilícito
+## 11. Art. 9º — enriquecimento ilícito
 
-O art. 9º caracteriza o ato de improbidade que importa enriquecimento ilícito como o recebimento, mediante ato doloso, de **vantagem patrimonial indevida** em razão do exercício da função pública.
+O art. 9º exige recebimento de **vantagem patrimonial indevida**, mediante ato doloso, em razão do exercício da função pública.
 
-### 10.1. Elementos
-
-É necessário demonstrar:
+Elementos centrais:
 
 1. vantagem patrimonial;
-2. caráter indevido da vantagem;
-3. nexo com o cargo, mandato, função, emprego ou atividade;
-4. conduta dolosa;
+2. caráter indevido;
+3. nexo funcional;
+4. dolo;
 5. finalidade indevida exigida pelo sistema.
 
-O dano ao erário não é elemento indispensável do art. 9º. Pode existir enriquecimento ilícito sem perda pública quantificável. Também não basta provar evolução patrimonial: é preciso relacioná-la aos elementos do tipo, assegurada a demonstração da origem lícita.
+**Dano ao erário não é requisito indispensável do art. 9º.** Pode existir enriquecimento ilícito sem perda pública quantificável.
 
-### 10.2. Exemplos legais
+### 11.1. Exemplos legais
 
-O art. 9º usa a expressão “notadamente” e apresenta, entre outras, as seguintes hipóteses:
+O rol usa “notadamente” e inclui, entre outras situações:
 
-- receber comissão, percentagem, gratificação, presente ou vantagem de interessado em ato funcional;
-- receber vantagem para facilitar contratação por preço superior ao mercado ou alienação por preço inferior;
-- usar bens ou trabalho de servidores em obra ou serviço particular;
-- receber vantagem para tolerar atividade ilícita;
-- receber vantagem para produzir declaração técnica falsa;
-- adquirir bens desproporcionais à renda, decorrentes dos atos descritos no caput;
-- aceitar emprego ou consultoria de interessado atingível por suas atribuições;
-- receber vantagem para intermediar verba pública ou omitir ato de ofício;
-- incorporar ou usar, em proveito próprio, bens, rendas, verbas ou valores públicos.
+- receber comissão, gratificação, presente ou vantagem de interessado em ato funcional;
+- receber vantagem para facilitar contratação acima do mercado ou alienação abaixo do mercado;
+- usar bem público ou trabalho de servidores em obra ou serviço particular;
+- receber vantagem para tolerar atividade ilícita, produzir declaração falsa ou omitir ato de ofício;
+- aceitar emprego ou consultoria de interessado atingível pelas atribuições do agente;
+- incorporar ou utilizar bens, rendas, verbas ou valores públicos em proveito próprio.
 
-## 11. Art. 10: lesão ao erário
+### 11.2. Art. 9º, VII — acréscimo patrimonial a descoberto
 
-O art. 10 exige ação ou omissão dolosa que cause, **efetiva e comprovadamente**:
+Em maio de 2026, no REsp 2.256.539/MS, a Primeira Turma do STJ reafirmou que o art. 9º, VII, continua permitindo a responsabilização por **acréscimo patrimonial significativo, incompatível com rendimentos legítimos e sem origem razoavelmente justificada**.
 
-- perda patrimonial;
-- desvio;
-- apropriação;
-- malbaratamento; ou
-- dilapidação de bens ou haveres protegidos.
+A orientação exige cuidado com o ônus probatório:
 
-### 11.1. Dano efetivo e comprovado
+- deve haver demonstração do incremento patrimonial de origem não identificada;
+- deve existir ao menos **relação mínima** entre a variação patrimonial e a atividade pública, aferível pelas circunstâncias do caso;
+- não se exige prova absoluta de vínculo direto com um ato funcional específico;
+- demonstrado o descompasso, cabe ao imputado comprovar a origem lícita dos ingressos para afastar a conclusão de irregularidade.
+
+Isso não elimina o dolo nem os demais requisitos da improbidade. O precedente trata da prova do enriquecimento a descoberto, não de responsabilidade objetiva.
+
+## 12. Art. 10 — lesão ao erário
+
+O art. 10 exige ação ou omissão dolosa que cause, **efetiva e comprovadamente**, perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação de bens ou haveres protegidos.
 
 Não bastam:
 
 - risco abstrato de dano;
 - irregularidade formal sem perda;
-- preço supostamente inadequado sem prova;
-- presunção genérica de prejuízo;
+- preço supostamente inadequado sem prova do prejuízo;
+- presunção genérica de dano;
 - simples resultado econômico desfavorável.
 
-O agente não precisa enriquecer para que exista o art. 10. O resultado distintivo é o prejuízo patrimonial efetivo da entidade protegida.
+O agente não precisa enriquecer. O resultado distintivo é o prejuízo patrimonial efetivo.
 
-### 11.2. Hipóteses cobradas
+### 12.1. Exemplos e limites
 
-Entre os exemplos legais estão:
+Entre as hipóteses do art. 10 estão facilitar apropriação privada de patrimônio público, permitir uso irregular de bens ou recursos, realizar operação financeira irregular, conceder benefício administrativo ou fiscal indevido, ordenar despesa não autorizada, liberar ou aplicar irregularmente verba e frustrar licitação ou processo seletivo de parceria.
 
-- facilitar incorporação indevida de patrimônio público a particular;
-- permitir uso irregular de bens ou recursos públicos por pessoa privada;
-- doar, alienar, locar ou adquirir sem observar as exigências legais, com o dano requerido pelo caput;
-- realizar operação financeira irregular ou aceitar garantia insuficiente;
-- conceder benefício administrativo ou fiscal irregular;
-- frustrar licitação ou processo seletivo de parceria, ou dispensá-los indevidamente, **acarretando perda patrimonial efetiva**;
-- ordenar despesa não autorizada;
-- liberar ou aplicar irregularmente verba pública;
-- permitir enriquecimento ilícito de terceiro;
-- cometer ilícitos materiais em parcerias com entidades privadas;
-- manter benefício financeiro ou tributário contrário ao limite nacional do ISS indicado no inciso XXII.
+A frustração ou dispensa indevida de licitação do inciso VIII exige **perda patrimonial efetiva**.
 
-### 11.3. Formalidade e atividade econômica
+O § 1º afasta ressarcimento baseado apenas em formalidade sem perda patrimonial efetiva, vedado enriquecimento sem causa da entidade. O § 2º afasta a mera perda decorrente de atividade econômica, salvo ato doloso praticado com essa finalidade.
 
-O § 1º determina que a mera inobservância de formalidade, sem perda patrimonial efetiva, não gera imposição de ressarcimento, vedado o enriquecimento sem causa da entidade.
+## 13. Art. 11 — ofensa qualificada a princípios
 
-O § 2º afirma que mera perda decorrente da atividade econômica não configura improbidade, salvo ato doloso praticado com essa finalidade.
+O art. 11 alcança ação ou omissão dolosa que viole deveres de honestidade, imparcialidade e legalidade, **caracterizada por uma das condutas previstas no próprio artigo**.
 
-Essas regras não validam a irregularidade. Apenas impedem converter automaticamente falha formal ou risco empresarial em improbidade por dano ao erário.
+O STF validou a opção legislativa pelo rol **taxativo**. O STJ também vem aplicando a nova tipicidade aos processos em curso sem trânsito em julgado: se a conduta antes enquadrada genericamente não possui correspondência em tipo vigente, não pode ser restaurada por analogia sancionadora; se houver correspondência em inciso atual, pode haver continuidade típico-normativa conforme o caso.
 
-## 12. Art. 11: ofensa a princípios
-
-O art. 11 alcança ação ou omissão dolosa que viole os deveres de honestidade, imparcialidade e legalidade, **caracterizada por uma das condutas previstas no próprio artigo**.
-
-O STF validou a opção legislativa pelo rol **taxativo** nas ADIs 7156 e 7236. Logo, não basta alegar genericamente violação à moralidade ou à legalidade. É preciso apontar a conduta legal vigente, sem prejuízo de tipos especiais criados por lei.
-
-### 12.1. Condutas vigentes
+### 13.1. Condutas vigentes
 
 O rol inclui:
 
-- revelar informação que deva permanecer em segredo, gerando benefício por informação privilegiada ou risco à sociedade e ao Estado;
+- revelar informação sigilosa nas condições legais;
 - negar publicidade a ato oficial fora das hipóteses legais de sigilo;
 - frustrar, em ofensa à imparcialidade, concorrência de concurso, chamamento ou licitação visando benefício próprio ou de terceiros;
 - deixar de prestar contas, podendo fazê-lo, para ocultar irregularidades;
 - antecipar informação sobre medida política ou econômica capaz de afetar preços;
 - descumprir normas sobre celebração, fiscalização e aprovação de contas de parcerias;
-- praticar nepotismo nas condições do inciso XI, inclusive por designações recíprocas;
+- praticar nepotismo nas condições do inciso XI, inclusive designações recíprocas;
 - realizar publicidade pública com inequívoco enaltecimento e personalização do agente.
 
-Os antigos incisos I, II, IX e X estão revogados. Uma questão que reproduza suas fórmulas abertas sem indicar tipo vigente deve ser examinada com desconfiança.
+Os antigos incisos I, II, IX e X estão revogados.
 
-### 12.2. Requisitos adicionais
+### 13.2. Requisitos adicionais
 
-Além da conduta tipificada e do dolo, o art. 11 exige:
+Além da tipicidade e do dolo, o art. 11 exige:
 
 - fim de obter proveito ou benefício indevido para si ou para outra pessoa ou entidade;
 - demonstração objetiva da ilegalidade funcional;
 - indicação das normas constitucionais, legais ou infralegais violadas;
 - lesividade relevante ao bem jurídico tutelado.
 
-O art. 11 independe de dano ao erário e de enriquecimento ilícito, mas não independe de lesividade relevante.
+O art. 11 independe de dano ao erário e enriquecimento ilícito, mas não dispensa lesividade relevante.
 
-### 12.3. Nomeação política e nepotismo
+### 13.3. Nomeação política e nepotismo
 
-O inciso XI tipifica o nepotismo dentro dos vínculos e graus de parentesco descritos. Contudo, o § 5º declara que mera nomeação ou indicação política por detentor de mandato eletivo não configura improbidade: é necessária aferição de dolo com finalidade ilícita.
+O inciso XI tipifica nepotismo dentro dos vínculos e graus previstos. O § 5º, porém, determina que a mera nomeação ou indicação política por detentor de mandato eletivo não configura improbidade sem aferição de dolo com finalidade ilícita.
 
-Assim, não se pode usar o § 5º para apagar o inciso XI nem usar o inciso XI para presumir dolo sem examinar os requisitos legais.
+A regra evita automatismo, mas não elimina o tipo de nepotismo.
 
-## 13. Comparações essenciais
+## 14. Comparações de prova
 
-### 13.1. Propina e superfaturamento
+### Propina e superfaturamento
 
-Um agente recebe vantagem para contratar por preço superior ao mercado:
+Agente recebe vantagem para contratar acima do mercado:
 
-- a vantagem indevida do agente aponta para o art. 9º;
-- a perda patrimonial efetivamente comprovada aponta para o art. 10;
-- a responsabilidade de cada participante exige individualização e dolo.
+- vantagem patrimonial indevida → pode apontar para art. 9º;
+- perda patrimonial efetiva → pode apontar para art. 10;
+- cada imputação exige conduta e dolo individualizados.
 
-A classificação depende dos elementos provados, não do rótulo genérico “corrupção”.
+### Licitação frustrada
 
-### 13.2. Licitação frustrada
+- dano efetivo + dolo → pode haver art. 10, VIII;
+- finalidade de benefício indevido + ofensa à imparcialidade → pode haver art. 11, V;
+- falha formal sem requisitos materiais → não vira improbidade automaticamente.
 
-- com perda patrimonial efetiva e dolo: pode haver art. 10, VIII;
-- visando benefício indevido e ofendendo a imparcialidade, nos termos legais: pode haver art. 11, V;
-- mera falha formal, sem os requisitos materiais: não se converte automaticamente em improbidade.
-
-### 13.3. Resultado ruim
-
-Política pública malsucedida, oscilação de mercado ou contratação que não produziu o benefício esperado não provam, por si, dolo nem dano típico. O exame deve separar risco legítimo, erro, ilegalidade, perda comprovada e finalidade ilícita.
-
-## 14. Sucessor e herdeiro
+## 15. Sucessor e herdeiro
 
 O art. 8º limita a responsabilidade do sucessor ou herdeiro de quem causou dano ao erário ou enriqueceu ilicitamente:
 
-- somente obrigação de reparação;
-- até o valor da herança ou do patrimônio transferido.
+- apenas obrigação de reparação;
+- até o limite da herança ou do patrimônio transferido.
 
-Não se transmite automaticamente a responsabilidade pessoal sancionatória.
+Consequências pessoais sancionatórias não se transmitem automaticamente.
 
-### 14.1. Sucessão empresarial
+### 15.1. Sucessão empresarial
 
-O art. 8º-A estende a disciplina à alteração contratual, transformação, incorporação, fusão ou cisão.
+O art. 8º-A disciplina alteração contratual, transformação, incorporação, fusão e cisão. Em fusão e incorporação, a sucessora responde, em regra, pela reparação integral do dano até o limite do patrimônio transferido; outras consequências por fatos anteriores não se aplicam, salvo simulação ou evidente intuito de fraude devidamente comprovados.
 
-Em fusão e incorporação:
+## 16. Controle externo e outras instâncias
 
-- a sucessora responde pela reparação integral do dano;
-- o limite é o patrimônio transferido;
-- as demais consequências por fatos anteriores não se aplicam à sucessora;
-- simulação ou evidente intuito de fraude, comprovados, afastam essa proteção.
-
-## 15. Controle externo e outras instâncias
-
-A decisão de tribunal de contas que reconhece irregularidade não cria automaticamente ato de improbidade. O juízo da LIA ainda exige:
+Decisão de tribunal de contas que reconhece irregularidade não configura automaticamente improbidade. Ainda se exigem:
 
 - individualização da conduta;
 - tipicidade;
-- prova do dolo;
+- dolo;
 - resultado ou requisitos próprios do tipo.
 
-Atos, provas e decisões de órgãos de controle são relevantes e devem ser considerados nos termos do art. 21, mas não substituem a aferição judicial dos requisitos da improbidade.
+Atos, provas e decisões dos órgãos de controle são relevantes, mas não substituem a aferição dos requisitos da LIA.
 
-### 15.1. Esferas civil e penal
+### 16.1. Esfera penal
 
-As instâncias possuem autonomia, mas ela não é absoluta. No julgamento concluído em 2026, o STF afastou a ideia de que qualquer absolvição criminal colegiada encerre automaticamente a ação de improbidade.
-
-Segundo a comunicação oficial, o impedimento ocorre nas situações qualificadas, com decisão penal transitada em julgado, que reconheça:
+O STF fixou, nas ADIs 7156 e 7236, que a decisão criminal transitada em julgado sobre os mesmos fatos só impede a tramitação da ação de improbidade em hipóteses qualificadas, como:
 
 - inexistência do fato;
 - negativa de autoria;
 - legítima defesa;
-- estrito cumprimento do dever legal; ou
+- estado de necessidade;
+- estrito cumprimento do dever legal;
 - exercício regular de direito.
 
-Também foram mencionados arquivamento ou rejeição da denúncia fundados nessas excludentes. Fora dessas hipóteses, é necessário examinar o fundamento concreto da decisão penal.
+A mesma lógica pode alcançar rejeição da denúncia ou arquivamento nos termos delimitados pelo STF. Fora dessas situações, a absolvição criminal não encerra automaticamente a improbidade.
 
-## 16. Direito intertemporal: Tema 1199
+## 17. Direito intertemporal — Tema 1199
 
-No ARE 843.989, Tema 1199 da repercussão geral, o STF estabeleceu pontos decisivos sobre a Lei nº 14.230/2021:
+No ARE 843.989, Tema 1199, o STF estabeleceu, entre outros pontos:
 
-1. a responsabilidade por atos dos arts. 9º, 10 e 11 é subjetiva e exige dolo;
+1. a responsabilidade nos arts. 9º, 10 e 11 é subjetiva e exige dolo;
 2. a revogação da modalidade culposa não desfaz condenação transitada em julgado nem sua execução;
-3. nos atos culposos antigos sem condenação definitiva, aplica-se a exigência de dolo, que deve ser verificado no caso.
+3. atos culposos antigos ainda sem condenação definitiva submetem-se à exigência de dolo, a ser verificado no caso concreto.
 
-O Tema também tratou de prescrição, matéria reservada ao Assunto 051.
+A parte prescricional do Tema 1199 pertence ao Assunto 051.
 
-> Pegadinha: a lei nova não desconstituiu automaticamente coisa julgada, mas a exclusão da modalidade culposa alcança processos sem condenação definitiva nos termos da tese.
+## 18. Atualização jurisprudencial de 2026
 
-## 17. Atualização jurisprudencial de 2026
-
-O STF concluiu as ADIs 7156 e 7236 em 1º de julho de 2026. Para este assunto, os pontos oficialmente divulgados mais importantes são:
+Para este assunto, os pontos materiais mais relevantes das ADIs 7156 e 7236 são:
 
 - constitucionalidade da exigência de dolo;
-- validade do rol taxativo do art. 11;
-- preservação, com ajustes, da proteção à interpretação fundada em jurisprudência;
-- afastamento da exigência de “benefícios diretos” no art. 3º, § 1º;
-- preservação da natureza civil da ação;
+- validade da taxatividade do art. 11;
+- art. 1º, § 8º, protegido apenas nas bases jurisprudenciais qualificadas fixadas pelo STF e fora dos casos de dolo ou erro grosseiro;
+- inconstitucionalidade, **ex tunc**, de “e benefícios diretos” no art. 3º, § 1º, ressalvada coisa julgada;
+- natureza civil e sancionatória da ação;
 - autonomia relativa entre as esferas civil e penal.
 
-Como o inteiro teor do acórdão ainda não estava acessível na data de consulta, deve-se evitar afirmar modulação, trânsito em julgado ou redação dispositiva não constante das fontes oficiais disponíveis.
+O REsp 2.256.539/MS/STJ acrescenta, dentro do corte de 2026, a orientação probatória sobre o art. 9º, VII.
 
-## 18. Método para resolver questões
+## 19. Método para resolver questões
 
-### Passo 1: localize o sujeito e a entidade protegida
+1. **Sujeito:** agente público, particular com recursos públicos ou terceiro que induziu/concorreu?
+2. **Participação:** está individualizada ou presumida pelo cargo/vínculo?
+3. **Elemento subjetivo:** há vontade de alcançar o resultado ilícito?
+4. **Tipo:** art. 9º, 10 ou inciso vigente do art. 11?
+5. **Resultado distintivo:** vantagem patrimonial, dano efetivo ou lesividade relevante?
+6. **Automatismo:** a alternativa presume dolo, dano ou responsabilidade apenas do cargo, irregularidade ou benefício?
 
-- agente político, servidor ou colaborador transitório pode ser agente público;
-- particular pode responder pelo manejo de recursos públicos ou por indução/concurso doloso;
-- sócio não responde apenas por ser sócio;
-- entidade privada pode estar protegida nas hipóteses dos §§ 6º e 7º.
+## 20. Síntese final
 
-### Passo 2: procure o dolo
-
-Pergunte se há vontade livre e consciente de alcançar o resultado ilícito e finalidade indevida. Mera assinatura, voluntariedade, hierarquia, erro ou dano não suprem essa prova.
-
-### Passo 3: escolha a categoria material
-
-- vantagem patrimonial indevida: art. 9º;
-- perda patrimonial efetiva e comprovada: art. 10;
-- conduta taxativa contra princípios e lesividade relevante: art. 11.
-
-### Passo 4: confira o requisito distintivo
-
-- art. 9º não exige necessariamente dano ao erário;
-- art. 10 não exige enriquecimento do agente;
-- art. 11 não exige dano ou enriquecimento, mas exige tipicidade fechada e lesividade relevante.
-
-### Passo 5: elimine automatismos
-
-- ilegalidade não é sinônimo de improbidade;
-- cargo não presume participação;
-- decisão do tribunal de contas não presume dolo;
-- responsabilidade objetiva da Lei Anticorrupção não migra para a LIA;
-- condenação antiga transitada em julgado não é desfeita automaticamente.
-
-## 19. Síntese final
-
-1. A LIA integra o direito administrativo sancionador e a ação possui natureza civil.
-2. O sistema alcança todos os Poderes e esferas, Administração direta e indireta e certas entidades privadas.
-3. Agente público é conceito amplo e independe de remuneração ou permanência.
-4. Particular responde por indução ou concurso doloso, não por mera proximidade.
-5. Sócio ou dirigente não responde automaticamente; exige-se participação dolosa.
-6. A LIA exige dolo: mera voluntariedade, culpa ou ilegalidade são insuficientes.
-7. O art. 9º exige vantagem patrimonial indevida.
-8. O art. 10 exige perda patrimonial efetiva e comprovada.
-9. O art. 11 possui rol taxativo e exige finalidade indevida e lesividade relevante.
+1. A LIA integra o direito administrativo sancionador e exige responsabilidade subjetiva.
+2. Agente público é conceito amplo e não depende de remuneração ou permanência.
+3. Particular responde nas hipóteses legais; terceiro exige induzimento ou concurso doloso.
+4. Sócio ou dirigente não responde automaticamente; “benefícios diretos” foi afastado ex tunc, ressalvada coisa julgada.
+5. A LIA exige dolo; mera voluntariedade, culpa ou ilegalidade são insuficientes.
+6. A divergência interpretativa protegida depende das fontes jurisprudenciais qualificadas fixadas pelo STF.
+7. Art. 9º: vantagem patrimonial indevida; art. 9º, VII admite prova do acréscimo a descoberto nos termos do STJ.
+8. Art. 10: perda patrimonial efetiva e comprovada.
+9. Art. 11: rol taxativo, finalidade indevida e lesividade relevante.
 10. Responsabilidade objetiva da pessoa jurídica pertence à Lei Anticorrupção, não à LIA.
-11. Herdeiro e sucessor respondem nos limites materiais previstos nos arts. 8º e 8º-A.
-12. O Tema 1199 preserva a coisa julgada e aplica a exigência de dolo aos processos antigos sem condenação definitiva.
+11. Sucessor e herdeiro respondem nos limites materiais dos arts. 8º e 8º-A.
+12. Tema 1199 preserva a coisa julgada e exige dolo nos processos antigos ainda sem condenação definitiva.
 
 ## Referências
 
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Presidência da República; art. 37, especialmente § 4º, texto compilado; acesso em 19 jul. 2026.
-- [Lei nº 8.429, de 2 de junho de 1992](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) - Presidência da República; Lei de Improbidade Administrativa, texto compilado após a Lei nº 14.230/2021; acesso em 19 jul. 2026.
-- [Lei nº 14.230, de 25 de outubro de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm) - Presidência da República; reforma da Lei de Improbidade Administrativa; acesso em 19 jul. 2026.
-- [Lei nº 12.846, de 1º de agosto de 2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm) - Presidência da República; responsabilização de pessoas jurídicas por atos contra a Administração, texto vigente; acesso em 19 jul. 2026.
-- [Tema 1199 - ARE 843.989](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1199) - Supremo Tribunal Federal; dolo e direito intertemporal na Lei nº 14.230/2021; trânsito em julgado do paradigma em 16 fev. 2023; acesso em 19 jul. 2026.
-- [STF conclui julgamento das ADIs 7156 e 7236](https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/) - Supremo Tribunal Federal; notícia de 1º jul. 2026 sobre o resultado final do julgamento; acesso em 19 jul. 2026.
-- [STF analisa dolo, art. 11, divergência interpretativa e particulares](https://noticias.stf.jus.br/postsnoticias/stf-avanca-em-discussao-sobre-mudancas-na-lei-de-improbidade-administrativa/) - Supremo Tribunal Federal; notícia de 28 maio 2026; acesso em 19 jul. 2026.
-- [STF define efeitos da absolvição criminal sobre a improbidade](https://noticias.stf.jus.br/postsnoticias/stf-decide-que-absolvicao-criminal-nao-encerra-acao-de-improbidade-de-forma-automatica/) - Supremo Tribunal Federal; notícia de 25 jun. 2026; acesso em 19 jul. 2026.
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República; art. 37, § 4º.
+- [Lei nº 8.429, de 2 de junho de 1992 — texto compilado](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) — Presidência da República.
+- [Lei nº 14.230, de 25 de outubro de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm) — reforma da LIA.
+- [Lei nº 12.846, de 1º de agosto de 2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm) — Lei Anticorrupção.
+- [ADI 7156 — andamento e decisões](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6396615) — STF; julgamento conjunto com a ADI 7236, decisões de maio a julho de 2026.
+- [STF conclui julgamento da reforma da LIA](https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/) — STF, 1º jul. 2026.
+- [Tema 1199 — ARE 843.989](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1199) — STF.
+- [REsp 2.256.539/MS — Informativo 888](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&livre=%40CNOT%3D%27022311%27) — STJ; art. 9º, VII; julgado em 5 maio 2026, DJEN 8 maio 2026.
+- [REsp 2.232.623/AL — Informativo 876](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&livre=%40CNOT%3D%27022111%27) — STJ; rol taxativo do art. 11 e aplicação imediata do regime vigente aos processos sem trânsito.
