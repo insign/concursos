@@ -49,11 +49,13 @@ describe('document version resolution', () => {
     { local: null, remote: null, expected: 'noop' },
     { local: null, remote: 1, expected: 'adopt-remote' },
     { local: { remoteVersion: 1, outboxState: 'clean' as const }, remote: 2, expected: 'adopt-remote' },
+    { local: { remoteVersion: 1, outboxState: 'pending' as const }, remote: 2, expected: 'adopt-remote' },
     { local: { remoteVersion: 2, outboxState: 'clean' as const }, remote: 1, expected: 'publish-local' },
     { local: { remoteVersion: 2, outboxState: 'clean' as const }, remote: null, expected: 'publish-local' },
     { local: { remoteVersion: 2, outboxState: 'pending' as const }, remote: 2, expected: 'publish-local' },
     { local: { remoteVersion: 2, outboxState: 'clean' as const }, remote: 2, expected: 'noop' },
     { local: { remoteVersion: null, outboxState: 'pending' as const }, remote: null, expected: 'publish-local' },
+    { local: { remoteVersion: null, outboxState: 'pending' as const }, remote: 1, expected: 'publish-local' },
     { local: { remoteVersion: null, outboxState: 'clean' as const }, remote: null, expected: 'noop' },
   ])('returns $expected for local $local and remote version $remote', ({ local, remote, expected }) => {
     expect(resolveVersionAction(local, remote)).toBe(expected);
@@ -67,6 +69,16 @@ describe('document version resolution', () => {
         '2026-07-02T00:00:00.000Z',
       ),
     ).toContain('data de criação remota mudou');
+  });
+
+  it('warns when publishing a pending document without known remote lineage', () => {
+    expect(
+      recreationWarning(
+        { remoteVersion: null, remoteCreatedAt: null, outboxState: 'pending' },
+        2,
+        '2026-07-02T00:00:00.000Z',
+      ),
+    ).toContain('sem linhagem local conhecida');
   });
 
   it('warns when the observed remote version regresses or disappears', () => {

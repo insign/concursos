@@ -2,6 +2,7 @@ import { z } from 'zod';
 
 const STORAGE_ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/;
+const NAVIGATION_SESSION_PREFIX = 'concursos:navigation-restored:';
 
 export const navigationTabSchema = z.enum([
   'catalog',
@@ -142,6 +143,18 @@ export function navigationDestination(document: NavigationDocument): string {
   return `${document.route}${document.context.readingMode && document.context.activeTab === 'content' ? '#focus' : ''}`;
 }
 
+export function resumeReadingDestination(document: NavigationDocument): string {
+  return `${document.route}#focus`;
+}
+
+export function navigationSessionKey(profileId: string): string {
+  return `${NAVIGATION_SESSION_PREFIX}${profileId}`;
+}
+
+export function navigationPendingRouteKey(profileId: string): string {
+  return `${navigationSessionKey(profileId)}:pending-route`;
+}
+
 export const navigationCatalogEntrySchema = z
   .object({
     route: navigationRouteSchema,
@@ -153,6 +166,53 @@ export const navigationCatalogEntrySchema = z
   .strict();
 
 export type NavigationCatalogEntry = z.infer<typeof navigationCatalogEntrySchema>;
+
+function hasResumeReadingPosition(document: NavigationDocument): boolean {
+  return (
+    document.context.activeTab === 'content' &&
+    document.context.contestStorageId !== null &&
+    document.context.subjectStorageId !== null &&
+    document.readingPosition !== null
+  );
+}
+
+export function canResumeReading(
+  document: NavigationDocument,
+  contestStorageId: string,
+): boolean {
+  return (
+    hasResumeReadingPosition(document) &&
+    document.context.contestStorageId === contestStorageId
+  );
+}
+
+export function clearReadingPosition(
+  document: NavigationDocument,
+  contestStorageId: string,
+  subjectStorageId: string,
+  now = new Date(),
+): NavigationDocument {
+  if (
+    document.readingPosition === null ||
+    document.context.contestStorageId !== contestStorageId ||
+    document.context.subjectStorageId !== subjectStorageId
+  ) {
+    return document;
+  }
+  return { ...document, updatedAt: now.toISOString(), readingPosition: null };
+}
+
+export function shouldPreserveReadingForContestCatalog(
+  current: NavigationDocument,
+  next: NavigationCatalogEntry,
+): boolean {
+  return (
+    next.activeTab === 'catalog' &&
+    next.contestStorageId !== null &&
+    next.contestStorageId === current.context.contestStorageId &&
+    hasResumeReadingPosition(current)
+  );
+}
 
 export const navigationCatalogSchema = z
   .object({
@@ -189,6 +249,7 @@ export function resolveNavigationVersionAction(
   remoteCreatedAt: string | null = null,
 ): NavigationVersionAction {
   if (!local) return remoteVersion === null ? 'noop' : 'adopt-remote';
+  if (local.outboxState === 'pending' && local.remoteVersion === null) return 'publish-local';
   if (remoteVersion === null) return local.outboxState === 'pending' ? 'publish-local' : 'noop';
 
   const recreated =

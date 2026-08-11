@@ -170,7 +170,7 @@ test('finalizes the latest durable answers when another tab is stale', async ({ 
   });
 });
 
-test('reconciles an offline conflict between two simulated devices', async ({
+test('preserves an offline pending answer without known remote lineage', async ({
   page,
   context,
   browser,
@@ -194,10 +194,10 @@ test('reconciles an offline conflict between two simulated devices', async ({
 
   await context.unroute(kvRoute, blockKv);
   await page.evaluate(() => window.dispatchEvent(new Event('online')));
-  await expect(page.getByLabel('Efetividade')).toBeChecked();
+  await expect(page.getByLabel('Eficiência')).toBeChecked();
   await expect.poll(() => {
     const json = kvStore.get(documentId)?.json as ReturnType<typeof remoteDocument> | undefined;
     return json?.answers.q001?.optionId;
-  }).toBe('a');
+  }).toBe('b');
   await otherContext.close();
 });

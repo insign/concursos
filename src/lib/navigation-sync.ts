@@ -49,6 +49,9 @@ function recreationWarning(
   remoteVersion: number | null,
   remoteCreatedAt: string | null,
 ): string | null {
+  if (record.remoteVersion === null && record.outboxState === 'pending' && remoteVersion !== null) {
+    return 'Havia um documento remoto sem linhagem local conhecida; a pendência deste dispositivo prevaleceu.';
+  }
   if (record.remoteVersion !== null && (remoteVersion === null || remoteVersion < record.remoteVersion)) {
     return 'A versão remota de navegação regrediu; o documento foi tratado como uma nova criação.';
   }

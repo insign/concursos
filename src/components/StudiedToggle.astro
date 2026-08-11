@@ -12,6 +12,8 @@ const { contestStorageId, subjectStorageId } = Astro.props;
   class="studied-toggle print-hidden"
   data-studied-toggle
   data-subject-id={`${contestStorageId}--${subjectStorageId}`}
+  data-contest-storage-id={contestStorageId}
+  data-subject-storage-id={subjectStorageId}
   disabled
 >
   <svg class="subject-action-icon studied-toggle-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -28,9 +30,13 @@ const { contestStorageId, subjectStorageId } = Astro.props;
   const button = document.querySelector<HTMLButtonElement>('[data-studied-toggle]');
   const alias = getActiveAlias();
   const label = button?.querySelector<HTMLElement>('.studied-toggle-label') ?? null;
+  const studiedBroadcast =
+    'BroadcastChannel' in window ? new BroadcastChannel('concursos-studied') : null;
 
   if (button && label && alias) {
     const subjectId = button.dataset.subjectId!;
+    const contestStorageId = button.dataset.contestStorageId!;
+    const subjectStorageId = button.dataset.subjectStorageId!;
     // Botão de AÇÃO: o rótulo descreve o que o clique fará (sem aria-pressed, que seria
     // contraditório com um rótulo que já anuncia a ação inversa).
     const render = (studied: boolean) => {
@@ -56,9 +62,13 @@ const { contestStorageId, subjectStorageId } = Astro.props;
       render(next); // resposta imediata
       try {
         await setSubjectStudied(alias, subjectId, next);
+        const detail = { profileId: alias, contestStorageId, subjectStorageId, studied: next };
         window.dispatchEvent(
-          new CustomEvent('concursos:studied-updated', { detail: { profileId: alias } }),
+          new CustomEvent('concursos:studied-updated', {
+            detail,
+          }),
         );
+        studiedBroadcast?.postMessage(detail);
         void requestProfileSync(alias);
       } catch {
         // Falha ao gravar localmente: reverte a UI ao estado real persistido.

@@ -3,13 +3,21 @@ import {
   markLocalStatePending,
   registerLocalStateFlusher,
 } from './local-durability';
-import { getNavigationRecord, saveNavigationDocument } from './navigation-db';
+import {
+  clearNavigationReadingPosition,
+  getNavigationRecord,
+  hasPendingNavigation,
+  saveNavigationDocument,
+} from './navigation-db';
 import {
   createNavigationDocument,
+  navigationPendingRouteKey,
   navigationCatalogSchema,
   navigationDestination,
   navigationFingerprint,
+  navigationSessionKey,
   normalizeTextQuote,
+  shouldPreserveReadingForContestCatalog,
   type NavigationCatalog,
   type NavigationCatalogEntry,
   type NavigationContext,
@@ -18,11 +26,12 @@ import {
 } from './navigation';
 import { bootstrapNavigation } from './navigation-sync';
 import { requestNavigationProfileSync } from './simulados-profile-sync';
+import { isStudied, loadStudied, studiedSubjectId } from './studied';
 
 const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
-const SESSION_PREFIX = 'concursos:navigation-restored:';
-const PENDING_ROUTE_SUFFIX = ':pending-route';
 const CAPTURE_DEBOUNCE_MS = 800;
+const TOP_NAVIGATION_IDLE_MS = 200;
+const TOP_NAVIGATION_SCROLL_EPSILON_PX = 1;
 const RESTORE_CAPTURE_SUPPRESSION_MS = 3_000;
 const PERIODIC_SYNC_MS = 30_000;
 const INITIAL_AUTOMATIC_SYNC_DELAY_MS = 12_000;
@@ -38,6 +47,39 @@ const NAVIGATION_TABS = new Set<NavigationContext['activeTab']>([
   'other',
 ]);
 let started = false;
+let runtimeProfileId: string | null | undefined;
+const readyProfiles = new Set<string>();
+const readyWaiters = new Map<string, Set<() => void>>();
+type TopNavigationPhase = 'idle' | 'settling' | 'parked';
+
+export function whenNavigationReady(profileId: string): Promise<void> {
+  if (runtimeProfileId !== undefined && runtimeProfileId !== profileId) return Promise.resolve();
+  if (readyProfiles.has(profileId)) return Promise.resolve();
+  return new Promise((resolve) => {
+    const waiters = readyWaiters.get(profileId) ?? new Set<() => void>();
+    waiters.add(resolve);
+    readyWaiters.set(profileId, waiters);
+  });
+}
+
+function resolveReadyWaiters(profileId: string): void {
+  for (const resolve of readyWaiters.get(profileId) ?? []) resolve();
+  readyWaiters.delete(profileId);
+}
+
+function setRuntimeProfile(profileId: string | null): void {
+  runtimeProfileId = profileId;
+  for (const waitingProfileId of readyWaiters.keys()) {
+    if (waitingProfileId !== profileId) resolveReadyWaiters(waitingProfileId);
+  }
+}
+
+function announceNavigationReady(profileId: string): void {
+  if (readyProfiles.has(profileId)) return;
+  readyProfiles.add(profileId);
+  resolveReadyWaiters(profileId);
+  window.dispatchEvent(new CustomEvent('concursos:navigation-ready', { detail: { profileId } }));
+}
 
 interface ReadingTarget {
   element: HTMLElement | null;
@@ -348,11 +390,12 @@ export function startNavigationRuntime(): void {
   if (started || typeof window === 'undefined') return;
   started = true;
   const profileId = getActiveAlias();
+  setRuntimeProfile(profileId);
   if (!profileId) return;
 
   const routeAtStart = currentRoute();
-  const sessionKey = `${SESSION_PREFIX}${profileId}`;
-  const pendingRouteKey = `${sessionKey}${PENDING_ROUTE_SUFFIX}`;
+  const sessionKey = navigationSessionKey(profileId);
+  const pendingRouteKey = navigationPendingRouteKey(profileId);
   const pendingRoute = sessionStorage.getItem(pendingRouteKey);
   const shouldRestorePendingRoute = pendingRoute === routeAtStart;
   const shouldResumeAutomatically = !sessionStorage.getItem(sessionKey) && routeAtStart === '/';
@@ -384,6 +427,12 @@ export function startNavigationRuntime(): void {
   let restoreInProgress = false;
   let captureGeneration = 0;
   let explicitNavigation = false;
+  let studiedClearPendingBeforeReady = false;
+  let topNavigationPhase: TopNavigationPhase = 'idle';
+  let topNavigationTimer: ReturnType<typeof setTimeout> | undefined;
+  let topNavigationObservedScroll = false;
+  let topNavigationInterrupted = false;
+  let topNavigationParkedY = 0;
   const automaticSyncAfter = Date.now() + INITIAL_AUTOMATIC_SYNC_DELAY_MS;
 
   const hideOffer = () => {
@@ -406,7 +455,12 @@ export function startNavigationRuntime(): void {
     forcePersist = false,
     ignoreSuppression = false,
   ): Promise<void> => {
-    if (!ready || offered || (!ignoreSuppression && Date.now() < suppressCaptureUntil)) return;
+    if (
+      topNavigationPhase !== 'idle' ||
+      !ready ||
+      offered ||
+      (!ignoreSuppression && Date.now() < suppressCaptureUntil)
+    ) return;
     const generation = captureGeneration;
     const catalog = await catalogPromise;
     if (generation !== captureGeneration || offered) return;
@@ -417,15 +471,29 @@ export function startNavigationRuntime(): void {
 
     const context = captureContext(entry);
     const contentRoot = document.querySelector<HTMLElement>('[data-navigation-content]');
-    const readingPosition =
-      context.activeTab === 'questions' || !contentRoot
-        ? null
-        : captureReadingPosition(contentRoot);
+    let readingPosition: ReadingPosition | null = null;
+    if (
+      context.activeTab !== 'questions' &&
+      contentRoot &&
+      context.contestStorageId &&
+      context.subjectStorageId
+    ) {
+      const studied = isStudied(
+        await loadStudied(profileId),
+        studiedSubjectId(context.contestStorageId, context.subjectStorageId),
+      );
+      if (generation !== captureGeneration || offered) return;
+      readingPosition = studied ? null : captureReadingPosition(contentRoot);
+    }
     const snapshot = createNavigationDocument(currentRoute(), context, readingPosition);
     const fingerprint = navigationFingerprint(snapshot);
     const record = await getNavigationRecord(profileId);
     if (generation !== captureGeneration || offered) return;
 
+    if (!forcePersist && record && shouldPreserveReadingForContestCatalog(record.current, entry)) {
+      lastFingerprint = navigationFingerprint(record.current);
+      return;
+    }
     if (!forcePersist && fingerprint === lastFingerprint) return;
     if (record && fingerprint === navigationFingerprint(record.current)) {
       lastFingerprint = fingerprint;
@@ -435,7 +503,7 @@ export function startNavigationRuntime(): void {
     const saved = await saveNavigationDocument(
       profileId,
       snapshot,
-      () => generation === captureGeneration && !offered,
+      () => generation === captureGeneration && !offered && topNavigationPhase === 'idle',
     );
     if (!saved || generation !== captureGeneration || offered) return;
     lastFingerprint = fingerprint;
@@ -459,7 +527,7 @@ export function startNavigationRuntime(): void {
 
   const scheduleCapture = (delay = CAPTURE_DEBOUNCE_MS) => {
     markNavigationPending();
-    if (!ready || offered) return;
+    if (!ready || offered || topNavigationPhase !== 'idle') return;
     if (captureTimer) clearTimeout(captureTimer);
     const run = () => {
       if (restoreInProgress) {
@@ -481,6 +549,41 @@ export function startNavigationRuntime(): void {
     const remainingSuppression = Math.max(0, suppressCaptureUntil - Date.now());
     suppressedCaptureRequested ||= remainingSuppression > 0;
     captureTimer = setTimeout(run, Math.max(delay, remainingSuppression));
+  };
+
+  const clearTopNavigationTimer = () => {
+    if (topNavigationTimer) clearTimeout(topNavigationTimer);
+    topNavigationTimer = undefined;
+  };
+
+  const finishTopNavigation = () => {
+    if (topNavigationPhase !== 'settling') return;
+    clearTopNavigationTimer();
+    if (topNavigationInterrupted && window.scrollY > TOP_NAVIGATION_SCROLL_EPSILON_PX) {
+      topNavigationPhase = 'idle';
+      scheduleCapture(0);
+      return;
+    }
+    topNavigationPhase = 'parked';
+    topNavigationParkedY = window.scrollY;
+  };
+
+  const armTopNavigationFallback = () => {
+    clearTopNavigationTimer();
+    topNavigationTimer = setTimeout(finishTopNavigation, TOP_NAVIGATION_IDLE_MS);
+  };
+
+  const beginTopNavigation = () => {
+    if (captureTimer) clearTimeout(captureTimer);
+    captureTimer = undefined;
+    clearTopNavigationTimer();
+    captureGeneration += 1;
+    suppressedCaptureRequested = false;
+    semanticCaptureRequested = false;
+    topNavigationPhase = 'settling';
+    topNavigationObservedScroll = false;
+    topNavigationInterrupted = false;
+    armTopNavigationFallback();
   };
 
   const restoreCurrentDocument = async (document: NavigationDocument): Promise<void> => {
@@ -549,29 +652,68 @@ export function startNavigationRuntime(): void {
     return runningSync;
   };
 
+  const clearSubjectReadingPosition = async (
+    contestStorageId: string,
+    subjectStorageId: string,
+  ): Promise<boolean> => {
+    markNavigationPending();
+    const record = await clearNavigationReadingPosition(
+      profileId,
+      contestStorageId,
+      subjectStorageId,
+    );
+    if (!record) return false;
+    if (!ready) studiedClearPendingBeforeReady = true;
+    hideOffer();
+    lastFingerprint = navigationFingerprint(record.current);
+    window.dispatchEvent(
+      new CustomEvent('concursos:navigation-updated', { detail: { profileId } }),
+    );
+    return true;
+  };
+
   const inspectRemoteChange = async () => {
-    if (!ready) return;
-    const record = await getNavigationRecord(profileId);
-    if (!record || record.remoteVersion === null) return;
+    try {
+      if (!ready) return;
+      const record = await getNavigationRecord(profileId);
+      if (!record) return;
 
-    const incarnationChanged =
-      (lastRemoteCreatedAt !== null &&
-        record.remoteCreatedAt !== null &&
-        record.remoteCreatedAt !== lastRemoteCreatedAt) ||
-      (lastRemoteVersion !== null && record.remoteVersion < lastRemoteVersion);
-    const newer =
-      incarnationChanged ||
-      lastRemoteVersion === null ||
-      record.remoteVersion > lastRemoteVersion;
+      const { contestStorageId, subjectStorageId } = record.current.context;
+      if (
+        record.current.readingPosition &&
+        contestStorageId &&
+        subjectStorageId &&
+        isStudied(
+          await loadStudied(profileId),
+          studiedSubjectId(contestStorageId, subjectStorageId),
+        )
+      ) {
+        await clearSubjectReadingPosition(contestStorageId, subjectStorageId);
+        return;
+      }
+      if (record.remoteVersion === null) return;
 
-    lastRemoteVersion = incarnationChanged
-      ? record.remoteVersion
-      : Math.max(lastRemoteVersion ?? 0, record.remoteVersion);
-    lastRemoteCreatedAt = record.remoteCreatedAt;
-    if (!newer) return;
+      const incarnationChanged =
+        (lastRemoteCreatedAt !== null &&
+          record.remoteCreatedAt !== null &&
+          record.remoteCreatedAt !== lastRemoteCreatedAt) ||
+        (lastRemoteVersion !== null && record.remoteVersion < lastRemoteVersion);
+      const newer =
+        incarnationChanged ||
+        lastRemoteVersion === null ||
+        record.remoteVersion > lastRemoteVersion;
 
-    const fingerprint = navigationFingerprint(record.current);
-    if (fingerprint !== lastFingerprint && record.outboxState === 'clean') showOffer(record.current);
+      lastRemoteVersion = incarnationChanged
+        ? record.remoteVersion
+        : Math.max(lastRemoteVersion ?? 0, record.remoteVersion);
+      lastRemoteCreatedAt = record.remoteCreatedAt;
+      if (!newer) return;
+
+      const fingerprint = navigationFingerprint(record.current);
+      if (fingerprint !== lastFingerprint && record.outboxState === 'clean') showOffer(record.current);
+    } catch {
+      // Uma falha de leitura local mantém a navegação atual e será reavaliada no próximo gatilho.
+    }
   };
 
   offerUi?.resume.addEventListener('click', () => {
@@ -583,7 +725,7 @@ export function startNavigationRuntime(): void {
     suppressedCaptureRequested = false;
     semanticCaptureRequested = false;
     hideOffer();
-    sessionStorage.setItem(`${SESSION_PREFIX}${profileId}`, String(Date.now()));
+    sessionStorage.setItem(navigationSessionKey(profileId), String(Date.now()));
     const destination = navigationDestination(document);
     if (destination !== currentDestination()) {
       suppressCaptureUntil = Date.now() + RESTORE_CAPTURE_SUPPRESSION_MS;
@@ -604,11 +746,40 @@ export function startNavigationRuntime(): void {
   });
 
   offerUi?.stay.addEventListener('click', () => {
+    topNavigationPhase = 'idle';
+    clearTopNavigationTimer();
     hideOffer();
     void runSaveCurrent(true, true).then(() => synchronize(true));
   });
 
-  window.addEventListener('scroll', () => scheduleCapture(), { passive: true });
+  window.addEventListener('scroll', () => {
+    if (topNavigationPhase === 'settling') {
+      topNavigationObservedScroll = true;
+      armTopNavigationFallback();
+      return;
+    }
+    if (topNavigationPhase === 'parked') {
+      if (Math.abs(window.scrollY - topNavigationParkedY) <= TOP_NAVIGATION_SCROLL_EPSILON_PX) return;
+      topNavigationPhase = 'idle';
+    }
+    scheduleCapture();
+  }, { passive: true });
+  window.addEventListener('scrollend', () => {
+    if (topNavigationPhase === 'settling' && topNavigationObservedScroll) finishTopNavigation();
+  });
+  const markTopNavigationInterrupted = () => {
+    if (topNavigationPhase === 'settling') topNavigationInterrupted = true;
+  };
+  window.addEventListener('wheel', markTopNavigationInterrupted, { passive: true });
+  window.addEventListener('touchstart', markTopNavigationInterrupted, { passive: true });
+  window.addEventListener('pointerdown', markTopNavigationInterrupted, { passive: true });
+  document.addEventListener('keydown', (event) => {
+    if (
+      ['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(event.key)
+    ) {
+      markTopNavigationInterrupted();
+    }
+  });
   window.addEventListener('resize', () => scheduleCapture(1_200), { passive: true });
   document.addEventListener('change', (event) => {
     const input = event.target;
@@ -632,9 +803,11 @@ export function startNavigationRuntime(): void {
       !event.metaKey &&
       !event.ctrlKey &&
       !event.shiftKey &&
-      !event.altKey
+      !event.altKey &&
+      !event.defaultPrevented
     ) {
       explicitNavigation = true;
+      if (link.getAttribute('href') === '#study-top') beginTopNavigation();
     }
     if (
       target.closest(
@@ -667,6 +840,62 @@ export function startNavigationRuntime(): void {
   });
   window.addEventListener('concursos:navigation-synced', () => void inspectRemoteChange());
   window.addEventListener('concursos:navigation-updated', () => void synchronize(true));
+  const handleStudiedUpdate = async (detail: {
+    profileId?: unknown;
+    contestStorageId?: unknown;
+    subjectStorageId?: unknown;
+    studied?: unknown;
+  }): Promise<void> => {
+    if (
+      detail.profileId !== profileId ||
+      getActiveAlias() !== profileId ||
+      detail.studied !== true ||
+      typeof detail.contestStorageId !== 'string' ||
+      typeof detail.subjectStorageId !== 'string'
+    ) {
+      return;
+    }
+    const currentStudied = await loadStudied(profileId);
+    if (
+      getActiveAlias() !== profileId ||
+      !isStudied(
+        currentStudied,
+        studiedSubjectId(detail.contestStorageId, detail.subjectStorageId),
+      )
+    ) {
+      return;
+    }
+
+    if (captureTimer) clearTimeout(captureTimer);
+    captureTimer = undefined;
+    captureGeneration += 1;
+    suppressedCaptureRequested = false;
+    semanticCaptureRequested = false;
+    await clearSubjectReadingPosition(detail.contestStorageId, detail.subjectStorageId);
+  };
+
+  window.addEventListener('concursos:studied-updated', (event) => {
+    void handleStudiedUpdate((event as CustomEvent<{
+      profileId?: unknown;
+      contestStorageId?: unknown;
+      subjectStorageId?: unknown;
+      studied?: unknown;
+    }>).detail ?? {}).catch(() => undefined);
+  });
+  if ('BroadcastChannel' in window) {
+    const studiedBroadcast = new BroadcastChannel('concursos-studied');
+    studiedBroadcast.addEventListener('message', (event) => {
+      void handleStudiedUpdate(
+        (event.data as Parameters<typeof handleStudiedUpdate>[0]) ?? {},
+      ).catch(() => undefined);
+    });
+  }
+  window.addEventListener('concursos:sync-status', (event) => {
+    const detail = (event as CustomEvent<{ profileId?: unknown; state?: unknown }>).detail;
+    if (detail?.profileId === profileId && detail.state === 'synced') {
+      void inspectRemoteChange();
+    }
+  });
   window.addEventListener('concursos:reading-focus-change', () => {
     semanticCaptureRequested = true;
     scheduleCapture(0);
@@ -702,6 +931,7 @@ export function startNavigationRuntime(): void {
       // voltar sairia do site (ou não faria nada na PWA) e o catálogo ficaria inacessível
       // pelo histórico. A retomada automática já é consumida uma vez por sessão, então a
       // volta para `/` não reaplica o redirecionamento.
+      announceNavigationReady(profileId);
       location.assign(navigationDestination(record.current));
       return;
     }
@@ -726,8 +956,13 @@ export function startNavigationRuntime(): void {
     } else {
       await runSaveCurrent();
     }
+    announceNavigationReady(profileId);
+    if (studiedClearPendingBeforeReady && await hasPendingNavigation(profileId)) {
+      void synchronize(true).then(inspectRemoteChange);
+    }
   })().catch(() => {
     ready = true;
+    announceNavigationReady(profileId);
   });
   void initialization;
 }

@@ -1,6 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import 'fake-indexeddb/auto';
 import {
+  clearNavigationReadingPosition,
   deleteNavigationDatabase,
   discardPendingNavigation,
   getNavigationRecord,
@@ -28,6 +29,23 @@ const context: NavigationContext = {
 
 function makeDocument(route = '/concursos/tce-ma-2026/interpretacao-textos/') {
   return createNavigationDocument(route, context, null, new Date('2026-07-25T00:00:00.000Z'));
+}
+
+function makeReadingDocument() {
+  return createNavigationDocument(
+    '/concursos/tce-ma-2026/interpretacao-textos/',
+    context,
+    {
+      contentVersion: null,
+      sectionId: null,
+      blockId: null,
+      blockIndex: 4,
+      relativeOffset: 0,
+      textQuote: '',
+      progress: 0.5,
+    },
+    new Date('2026-07-25T00:00:00.000Z'),
+  );
 }
 
 beforeEach(async () => {
@@ -98,6 +116,45 @@ describe('navigation local outbox', () => {
     expect(record?.current.route).toBe('/simulados/');
     expect(record?.outboxState).toBe('pending');
     expect(record?.base?.route).toBe('/');
+  });
+
+  it('clears a matching reading position as a new pending revision', async () => {
+    const saved = await saveNavigationDocument(profileId, makeReadingDocument());
+    await markNavigationSynced({
+      profileId,
+      expectedLocalRevision: saved.localRevision,
+      expectedRemoteVersion: null,
+      expectedRemoteCreatedAt: null,
+      synchronizedDocument: saved.current,
+      remoteVersion: 4,
+      remoteCreatedAt: '2026-07-25T00:00:00.000Z',
+    });
+
+    const cleared = await clearNavigationReadingPosition(
+      profileId,
+      'tcema-2026-adm',
+      'interpretacao-textos',
+    );
+    expect(cleared).toMatchObject({
+      remoteVersion: 4,
+      outboxState: 'pending',
+      attempts: 0,
+      nextAttemptAt: null,
+      localRevision: 2,
+      current: { route: saved.current.route, context: saved.current.context, readingPosition: null },
+      base: { readingPosition: saved.current.readingPosition },
+    });
+    expect(
+      await clearNavigationReadingPosition(
+        profileId,
+        'tcema-2026-adm',
+        'interpretacao-textos',
+      ),
+    ).toBeUndefined();
+    expect(
+      await clearNavigationReadingPosition(profileId, 'outro-concurso', 'interpretacao-textos'),
+    ).toBeUndefined();
+    expect((await getNavigationRecord(profileId))?.localRevision).toBe(2);
   });
 
   it('does not let an obsolete request regress a newer remote snapshot', async () => {

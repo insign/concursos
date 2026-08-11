@@ -45,6 +45,8 @@ O runtime considera headings, parágrafos, itens de lista, blocos de código, ci
 
 A restauração procura bloco, trecho, seção, índice e percentual, nesta ordem. Fontes e imagens recebem uma janela para estabilização, e o ajuste é repetido depois do primeiro scroll.
 
+O controle **Voltar ao topo** mantém o ponto anterior: o runtime descarta os eventos do salto nativo para `#study-top` e permanece estacionado no destino, impedindo que `pagehide`, flushers ou capturas periódicas salvem o início. A primeira rolagem posterior encerra essa proteção e volta ao debounce normal; se o usuário interromper a animação antes do topo, a posição final manual é capturada. Hash, foco e histórico continuam sob o comportamento nativo do navegador.
+
 Na aba de questões, o contexto visível é a âncora principal. O runtime aguarda o questionário concluir a montagem, materializa páginas ou blocos adicionais conforme o layout e não aplica depois um segundo scroll genérico de leitura.
 
 ## Retomada entre aparelhos
@@ -54,6 +56,10 @@ Na primeira entrada da sessão, a retomada automática ocorre uma única vez e s
 O redirecionamento automático empilha o destino no histórico em vez de substituir a entrada da raiz. Voltar depois da retomada devolve o usuário ao catálogo, e não para fora do site nem para uma pilha vazia na PWA; como a retomada já foi consumida na sessão, `/` permanece carregado.
 
 Reload, voltar/avançar, Service Worker, reconexão, foco e visibilidade não reaplicam a restauração automática. Depois que a sessão está ativa, uma versão remota mais nova nunca sequestra a navegação: aparece um aviso com **Retomar ponto mais recente** e **Continuar aqui**. O botão **Retomar ponto mais recente** continua sendo a ação explícita para adotar um ponto remoto; **Continuar aqui** força a persistência do ponto local antes da sincronização.
+
+Na página principal de um concurso, **Resumir leitura** fica disponível quando `record.current` contém um conteúdo desse mesmo concurso com `readingPosition`. A captura automática do catálogo daquele concurso não substitui esse ponto; abrir a raiz, outro concurso ou outra aba continua atualizando a última navegação normalmente. O CTA aguarda o bootstrap remoto do perfil inicializado pelo runtime, grava a mesma autorização de rota pendente e força `#focus`, mesmo que `readingMode` estivesse falso. O destino consome a autorização e aplica a restauração semântica existente. Sem alias, sem posição ou com ponto de outro concurso, o controle permanece oculto.
+
+Marcar um assunto como concluído limpa somente o `readingPosition` desse concurso e assunto, preservando rota e contexto. Enquanto a marca permanecer, capturas automáticas gravam posição nula, inclusive após `pagehide` e em outras abas; desfazer a conclusão não recupera o ponto destruído, mas libera novas capturas. A limpeza é uma pendência própria da navegação, sincronizada separadamente do documento de estudados. Mensagens entre abas e snapshots remotos são revalidados contra o estado atual de estudados antes de limpar ou oferecer retomada.
 
 ## Eventos e frequência
 

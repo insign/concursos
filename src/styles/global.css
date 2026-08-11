@@ -427,6 +427,30 @@ a:hover {
   color: var(--muted);
 }
 
+.contest-resume-reading {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border-left: 0.3rem solid var(--signal);
+  background: var(--paper);
+}
+
+.contest-resume-reading h2,
+.contest-resume-reading p {
+  margin-block: 0.25rem;
+}
+
+.contest-resume-reading h2 {
+  font-size: var(--step-1);
+}
+
+.contest-resume-reading .button {
+  flex: 0 0 auto;
+}
+
 .connection-callout {
   margin-block: 2rem;
   padding: 1rem;
@@ -1176,6 +1200,45 @@ a.subject-tabs-adjacent:hover {
   line-height: var(--reading-line, 1.7);
 }
 
+.reading-surface article abbr[title],
+.reading-surface article abbr[data-abbreviation-popover-trigger] {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+  cursor: help;
+}
+
+.reading-surface article abbr[data-abbreviation-popover-trigger]:focus-visible {
+  border-radius: 0.12em;
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 0.12em;
+}
+
+.abbreviation-popover {
+  position: fixed;
+  z-index: 90;
+  width: max-content;
+  max-width: min(20rem, calc(100vw - 1rem));
+  max-height: calc(100vh - 1rem);
+  max-height: calc(100dvh - 1rem);
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  color: var(--paper);
+  background: var(--ink);
+  box-shadow: 0 0.35rem 1rem rgb(0 0 0 / 0.22);
+  font: 650 var(--step--1) / 1.35 var(--sans);
+  overflow-y: auto;
+  overflow-wrap: anywhere;
+  pointer-events: auto;
+  user-select: text;
+}
+
+.abbreviation-popover[hidden] {
+  display: none;
+}
+
 /* O modo sem distrações mantém a largura editorial controlada pelo customizador. */
 .reading-focus:is(:target, [data-reading-focus-active]) .reading-surface {
   width: min(100%, calc(var(--reading) + 6rem));
@@ -1475,6 +1538,41 @@ a.subject-pagination-link:hover {
   align-items: center;
   gap: 1rem;
   margin-top: 1.25rem;
+}
+
+.identity-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.identity-submit > .button {
+  flex: 1 1 auto;
+}
+
+.identity-progress {
+  display: inline-flex;
+  width: 1.4rem;
+  height: 1.4rem;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-strong);
+}
+
+.identity-progress[hidden] {
+  display: none;
+}
+
+.identity-progress svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentcolor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+  animation: status-spin 1.2s linear infinite;
 }
 
 .form-actions p {
@@ -1826,6 +1924,12 @@ a.subject-pagination-link:hover {
 
   .offline-package {
     grid-template-columns: 1fr;
+  }
+
+  .contest-resume-reading {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 1rem;
   }
 
   .form-actions {

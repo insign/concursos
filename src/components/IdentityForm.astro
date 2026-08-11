@@ -31,7 +31,14 @@
     </label>
 
     <div class="form-actions">
-      <button class="button" type="submit">Usar este alias</button>
+      <div class="identity-submit" data-identity-submit>
+        <button class="button" type="submit">Usar este alias</button>
+        <span class="identity-progress" data-identity-progress hidden aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M19 8a8 8 0 1 0 .6 7M19 3v5h-5"></path>
+          </svg>
+        </span>
+      </div>
       <p data-identity-status aria-live="polite"></p>
     </div>
   </form>
@@ -53,6 +60,8 @@
     const aliasInput = form.elements.namedItem('alias') as HTMLInputElement;
     const discardInput = form.elements.namedItem('discardPending') as HTMLInputElement;
     const status = form.querySelector<HTMLElement>('[data-identity-status]')!;
+    const progress = form.querySelector<HTMLElement>('[data-identity-progress]')!;
+    const submit = form.querySelector<HTMLElement>('[data-identity-submit]')!;
     const current = form.querySelector<HTMLElement>('[data-current-alias]')!;
     const discardOption = form.querySelector<HTMLElement>('[data-discard-option]')!;
     let linking = false;
@@ -61,10 +70,17 @@
     current.textContent = activeAlias ?? 'Nenhum';
     discardOption.hidden = activeAlias === null;
 
+    const renderBusy = (busy: boolean) => {
+      if (busy) submit.setAttribute('aria-busy', 'true');
+      else submit.removeAttribute('aria-busy');
+      progress.hidden = !busy;
+    };
+
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
       if (linking) return;
       linking = true;
+      renderBusy(true);
       form.querySelectorAll<HTMLInputElement | HTMLButtonElement>('input, button').forEach((control) => {
         control.disabled = true;
       });
@@ -79,22 +95,9 @@
           prepare: (profileId) =>
             prepareCompleteProfileAlias(profileId, {
               onPreflightComplete: ({ remoteDocumentCount }) => {
-                if (remoteDocumentCount > 0) {
-                  status.textContent = `Alias encontrado com ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} remoto${remoteDocumentCount === 1 ? '' : 's'}.`;
-                  const confirmed = window.confirm(
-                    `Este alias já possui ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} remoto${remoteDocumentCount === 1 ? '' : 's'}. Deseja vincular e usar esses dados neste dispositivo?`,
-                  );
-                  if (!confirmed) {
-                    throw new Error(
-                      getActiveAlias()
-                        ? 'Vinculação cancelada; o alias atual foi preservado.'
-                        : 'Vinculação cancelada; nenhum alias foi ativado.',
-                    );
-                  }
-                }
                 status.textContent =
                   remoteDocumentCount > 0
-                    ? 'Sincronizando o perfil encontrado...'
+                    ? `Sincronizando ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} do perfil encontrado...`
                     : 'Preparando um novo perfil...';
               },
             }),
@@ -117,6 +120,7 @@
       } finally {
         if (!reloadScheduled) {
           linking = false;
+          renderBusy(false);
           form.querySelectorAll<HTMLInputElement | HTMLButtonElement>('input, button').forEach((control) => {
             control.disabled = false;
           });

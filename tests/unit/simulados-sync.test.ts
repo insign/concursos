@@ -9,6 +9,7 @@ vi.mock('../../src/lib/kv-client', () => ({
 import {
   deleteOfflineDatabase,
   getSharedDocumentRecord,
+  saveSharedDocument,
 } from '../../src/lib/offline-db';
 import {
   buildSimuladoDocumentId,
@@ -24,6 +25,7 @@ import {
   type SimuladosIndex,
 } from '../../src/lib/simulados';
 import {
+  resolveSimuladosVersionAction,
   synchronizePendingSimulados,
   type SimuladosSyncHooks,
 } from '../../src/lib/simulados-sync';
@@ -37,6 +39,17 @@ const hooks: SimuladosSyncHooks = {
   ensureLease: async () => undefined,
   beforeRequest: async () => undefined,
 };
+
+describe('arbitragem de versão dos simulados', () => {
+  it('adota remoto maior com linhagem e preserva pendência sem linhagem', () => {
+    expect(
+      resolveSimuladosVersionAction({ remoteVersion: 1, outboxState: 'pending' }, 2),
+    ).toBe('adopt-remote');
+    expect(
+      resolveSimuladosVersionAction({ remoteVersion: null, outboxState: 'pending' }, 1),
+    ).toBe('publish-local');
+  });
+});
 
 function makeDocument(): SimuladoDocument {
   return {
@@ -134,5 +147,41 @@ describe('sincronização de simulados — ordem detalhe → índice', () => {
       expect.any(Object),
     );
     expect((await loadSimuladosIndex(profileId)).simulados).toEqual([]);
+  });
+
+  it('preserva o aviso sem linhagem ao reconciliar o índice em um segundo passe', async () => {
+    await persistSimuladoDocument(profileId, detailDocumentId, () => makeDocument());
+    await saveSharedDocument(
+      'simuladosIndex',
+      profileId,
+      { schemaVersion: 1, simulados: [] },
+      ['seed'],
+    );
+
+    let remoteIndexVersion = 5;
+    let remoteIndex: SimuladosIndex = { schemaVersion: 1, simulados: [] };
+    vi.mocked(readKv).mockImplementation(async (documentId) =>
+      documentId === indexDocumentId
+        ? envelope(indexDocumentId, remoteIndexVersion, remoteIndex)
+        : null,
+    );
+    vi.mocked(writeKv).mockImplementation(async (documentId, value) => {
+      if (documentId === indexDocumentId) {
+        remoteIndexVersion += 1;
+        remoteIndex = value as SimuladosIndex;
+        return envelope(documentId, remoteIndexVersion, value);
+      }
+      return envelope(documentId, 1, value);
+    });
+
+    await expect(synchronizePendingSimulados(profileId, hooks)).resolves.toMatchObject({
+      failures: 0,
+    });
+    expect(vi.mocked(readKv).mock.calls.filter(([id]) => id === indexDocumentId)).toHaveLength(2);
+    expect(await getSharedDocumentRecord('simuladosIndex', profileId)).toMatchObject({
+      remoteVersion: 7,
+      outboxState: 'clean',
+      conflictWarning: expect.stringContaining('sem linhagem local conhecida'),
+    });
   });
 });

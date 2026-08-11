@@ -1,0 +1,115 @@
+---
+interface Props {
+  contestStorageId: string;
+}
+
+const { contestStorageId } = Astro.props;
+---
+
+<section
+  class="contest-resume-reading print-hidden"
+  data-contest-resume-reading
+  data-contest-storage-id={contestStorageId}
+  aria-labelledby={`resume-reading-title-${contestStorageId}`}
+  hidden
+>
+  <div>
+    <p class="eyebrow">Ponto de leitura</p>
+    <h2 id={`resume-reading-title-${contestStorageId}`}>Continue de onde parou</h2>
+    <p>Retome o último conteúdo deste concurso no modo sem distrações.</p>
+  </div>
+  <button class="button" type="button" data-resume-reading disabled>Resumir leitura</button>
+</section>
+
+<script>
+  import { getActiveAlias } from '../lib/identity';
+  import { getNavigationRecord } from '../lib/navigation-db';
+  import { whenNavigationReady } from '../lib/navigation-runtime';
+  import {
+    canResumeReading,
+    navigationPendingRouteKey,
+    resumeReadingDestination,
+  } from '../lib/navigation';
+
+  document.querySelectorAll<HTMLElement>('[data-contest-resume-reading]').forEach((root) => {
+    const contestStorageId = root.dataset.contestStorageId!;
+    const button = root.querySelector<HTMLButtonElement>('[data-resume-reading]')!;
+    let refreshRevision = 0;
+
+    const hide = () => {
+      root.hidden = true;
+      button.disabled = true;
+    };
+
+    const refresh = async (hideWhileLoading = false) => {
+      const revision = ++refreshRevision;
+      if (hideWhileLoading) hide();
+      const profileId = getActiveAlias();
+      if (!profileId) {
+        hide();
+        return;
+      }
+
+      try {
+        await whenNavigationReady(profileId);
+        if (revision !== refreshRevision || getActiveAlias() !== profileId) return;
+        const record = await getNavigationRecord(profileId);
+        if (revision !== refreshRevision || getActiveAlias() !== profileId) return;
+        if (!record || !canResumeReading(record.current, contestStorageId)) {
+          hide();
+          return;
+        }
+        root.hidden = false;
+        button.disabled = false;
+      } catch {
+        hide();
+      }
+    };
+
+    const refreshFromEvent = (event: Event) => {
+      if (event instanceof CustomEvent) {
+        const eventProfileId = (event.detail as { profileId?: unknown } | null)?.profileId;
+        if (typeof eventProfileId === 'string' && eventProfileId !== getActiveAlias()) return;
+      }
+      void refresh(event.type === 'concursos:profile-changed');
+    };
+
+    button.addEventListener('click', async () => {
+      button.disabled = true;
+      const profileId = getActiveAlias();
+      if (!profileId) {
+        hide();
+        return;
+      }
+
+      try {
+        await whenNavigationReady(profileId);
+        if (getActiveAlias() !== profileId) {
+          await refresh();
+          return;
+        }
+        const record = await getNavigationRecord(profileId);
+        if (
+          getActiveAlias() !== profileId ||
+          !record ||
+          !canResumeReading(record.current, contestStorageId)
+        ) {
+          await refresh();
+          return;
+        }
+        sessionStorage.setItem(navigationPendingRouteKey(profileId), record.current.route);
+        location.assign(resumeReadingDestination(record.current));
+      } catch {
+        await refresh();
+      }
+    });
+
+    window.addEventListener('concursos:navigation-ready', refreshFromEvent);
+    window.addEventListener('concursos:navigation-updated', refreshFromEvent);
+    window.addEventListener('concursos:navigation-synced', refreshFromEvent);
+    window.addEventListener('concursos:profile-changed', refreshFromEvent);
+    window.addEventListener('focus', refreshFromEvent);
+    window.addEventListener('pageshow', refreshFromEvent);
+    void refresh(true);
+  });
+</script>
