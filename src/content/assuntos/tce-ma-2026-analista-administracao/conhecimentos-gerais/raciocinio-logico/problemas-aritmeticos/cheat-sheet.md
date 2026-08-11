@@ -1,306 +1,198 @@
 # Problemas aritméticos
 
-## Roteiro mínimo
+## Fluxo
 
-1. Liste dados, incógnitas e unidades.
-2. Traduza o texto em operações ou equações.
-3. Justifique proporcionalidade ou constância de taxas.
-4. Calcule sem arredondar cedo.
-5. Teste resultado, unidade e ordem de grandeza.
+1. O que foi dado?
+2. O que se pede?
+3. Quais são as unidades?
+4. Qual relação permanece constante?
+5. Qual equação/taxa/fator representa o texto?
+6. O resultado faz sentido?
 
-## Frações
+## Proporcionalidade
 
-$$
-\frac ab+\frac cd=\frac{ad+bc}{bd},
-$$
-
-$$
-\frac ab\cdot\frac cd=\frac{ac}{bd},
-$$
-
-$$
-\frac ab\div\frac cd=\frac ab\cdot\frac dc.
-$$
-
-- “Fração de” indica multiplicação.
-- Fração do restante usa uma nova base.
-- Converta decimais simples em frações quando facilitar.
-
-## Divisibilidade
-
-$$
-n=dq+r,
-\qquad 0\le r<d.
-$$
-
-- MMC: coincidência de ciclos.
-- MDC: maior agrupamento idêntico sem sobra.
-- O resto é sempre menor que o divisor positivo.
-
-## Razão e proporção
-
-$$
-a:b=\frac ab,
-$$
-
-$$
-\frac ab=\frac cd
-\iff
-ad=bc.
-$$
-
-| Relação | Modelo | Efeito |
+| Situação | Modelo | Regra |
 |---|---|---|
 | direta | $y=kx$ | mesmo fator |
 | inversa | $xy=k$ | fator recíproco |
+| produção idêntica | $P=rnt$ | taxa × agentes × tempo |
 
-Uniformize as unidades antes de formar a razão.
+> Regra de três não cria proporcionalidade: ela só organiza uma relação já justificada.
 
-## Regra de três
+### Divisão proporcional
 
-- Direta: quociente constante.
-- Inversa: produto constante.
-- Composta: compare cada grandeza com a incógnita.
-- Não use regra de três sem justificar proporcionalidade.
-
-Produção com agentes idênticos:
+Direta em $a:b:c$:
 
 $$
-P=rnt.
+x=T\frac{a}{a+b+c}.
 $$
 
-## Divisão proporcional
+Inversa a $a$ e $b$: use pesos $1/a$ e $1/b$.
 
-Direta na razão $a:b:c$:
-
-$$
-x=T\frac a{a+b+c},
-\quad
-y=T\frac b{a+b+c},
-\quad
-z=T\frac c{a+b+c}.
-$$
-
-Inversamente a $a$ e $b$: use pesos $1/a$ e $1/b$.
-
-## Porcentagem
-
-$$
-p\%=\frac p{100}.
-$$
+## Percentuais
 
 | Operação | Fator |
-|---|---|
+|---|---:|
 | aumento de $p\%$ | $1+p$ |
 | desconto de $p\%$ | $1-p$ |
 
-Nas fórmulas, escreva $p$ em forma decimal.
+Nas fórmulas, $p$ está em forma decimal.
 
 Variações sucessivas:
 
 $$
-V_f=V_0(1+p_1)(1+p_2)\cdots.
+V_f=V_0f_1f_2\cdots
 $$
 
-- $+20\%$ e $-20\%$ produzem $1{,}2\cdot0{,}8=0{,}96$.
-- Descontos de 10% e 20% produzem desconto total de 28%.
-- De 40% para 50%: +10 pontos percentuais e +25% relativamente.
-- Para recuperar o original, divida pelo fator aplicado.
+- +20% e −20% → $1,2\cdot0,8=0,96$ → **−4%**.
+- Para voltar ao original, **divida pelo fator**.
+- 40% → 50% = **+10 p.p.** e **+25% relativo**.
 
 ## Médias
 
-Simples:
-
 $$
-\bar x=\frac{\sum x_i}{n}.
+\bar x=\frac{\sum x_i}{n}
 $$
 
-Ponderada:
-
 $$
-\bar x_p=\frac{\sum w_ix_i}{\sum w_i}.
+\bar x_p=\frac{\sum w_ix_i}{\sum w_i}
 $$
 
-Média conjunta: use o tamanho de cada grupo como peso.
-
-Velocidade média:
-
-$$
-v_m=\frac{d_{total}}{t_{total}}.
-$$
-
-Para duas distâncias iguais:
+- média conjunta → tamanho dos grupos = pesos;
+- velocidade média → $d_{total}/t_{total}$;
+- distâncias iguais:
 
 $$
 v_m=\frac{2v_1v_2}{v_1+v_2}.
 $$
 
-## Equações e sistemas
+## Equações
 
-- Defina incógnitas com unidade.
-- Traduza cada frase separadamente.
-- Resolva por operações equivalentes.
-- Teste solução e restrições no enunciado.
+- defina a incógnita com unidade;
+- traduza frase por frase;
+- resolva;
+- teste no texto.
 
-Dois números com soma $S$ e diferença $D$:
+Soma $S$ e diferença $D$:
 
 $$
-x=\frac{S+D}{2},
+\text{maior}=\frac{S+D}{2},
 \qquad
-y=\frac{S-D}{2}.
+\text{menor}=\frac{S-D}{2}.
 $$
 
-Idades: todos envelhecem o mesmo intervalo; a diferença permanece constante.
+Número de dois algarismos:
+
+$$
+10x+y;
+\qquad
+\text{invertido}=10y+x.
+$$
+
+Idades: todos avançam o **mesmo intervalo de tempo**.
 
 ## Taxas
 
 $$
-\text{quantidade}=\text{taxa}\cdot\text{tempo}.
+\text{quantidade}=\text{taxa}\cdot\text{tempo}
 $$
 
 ### Trabalho
 
-Quem conclui um serviço em $t$ unidades de tempo tem taxa $1/t$.
+Quem faz em $t$ dias → taxa $1/t$.
 
-Trabalho conjunto:
+Juntos:
 
 $$
-r_{total}=r_1+r_2+\cdots.
+r_T=r_1+r_2+\cdots
 $$
 
 ### Vazão
 
 $$
-Q=\frac Vt.
+Q=\frac Vt
 $$
 
-- Entradas somam.
-- Saídas subtraem.
-- Use a vazão líquida constante.
+- entradas somam;
+- saídas subtraem.
 
 ### Movimento
 
 $$
-d=vt.
+d=vt
 $$
 
-- Aproximação em sentidos opostos: some velocidades.
-- Perseguição no mesmo sentido: subtraia velocidades.
-- Converta tempo e distância antes de calcular.
+- encontro em sentidos opostos → **soma** das velocidades;
+- perseguição no mesmo sentido → **diferença**.
 
 ## Misturas
 
-Quantidade de soluto:
+Quantidade da substância:
 
 $$
-S=cV.
+S=cV
 $$
 
-Mistura de duas soluções:
+Duas soluções:
 
 $$
-c_f=\frac{c_1V_1+c_2V_2}{V_1+V_2}.
+c_f=\frac{c_1V_1+c_2V_2}{V_1+V_2}
 $$
 
-- Água adicionada: soluto constante, total maior.
-- Soluto puro: soluto e total aumentam.
-- Não use média simples se as quantidades diferem.
+- água adicionada → soluto constante;
+- soluto puro → numerador e total aumentam;
+- preços/concentrações com quantidades diferentes → média ponderada.
 
-## Juros
+## Frações, ciclos e restos
 
-Taxa e tempo devem usar o mesmo período.
+- “fração **de**” → multiplique;
+- fração do restante → **nova base**;
+- MMC → primeira coincidência de ciclos;
+- MDC → maior agrupamento igual sem sobra;
+- $n=dq+r$, com $0\le r<d$.
 
-Simples:
+## Unidades
 
-$$
-J=Cit,
-$$
+| Relação | Valor |
+|---|---|
+| hora | 60 min |
+| km | 1000 m |
+| kg | 1000 g |
+| L | 1000 mL |
+| m/s | 3,6 km/h |
 
-$$
-M=C(1+it).
-$$
+- km/h → m/s: divida por 3,6.
+- 2 h 15 min = **2,25 h**, não 2,15 h.
 
-Compostos:
+## Padrões
 
-$$
-M=C(1+i)^n.
-$$
-
-- Capital: valor inicial.
-- Juros: acréscimo.
-- Montante: capital + juros.
-
-## Sequências
-
-Teste:
+Teste nesta ordem:
 
 1. diferenças;
 2. razões;
 3. alternância;
-4. recorrência;
-5. relação com a posição.
+4. posição;
+5. recorrência dada.
 
-PA:
-
-$$
-a_n=a_1+(n-1)r,
-$$
-
-$$
-S_n=\frac{n(a_1+a_n)}2.
-$$
-
-Não presuma PA sem diferença constante.
-
-## Unidades
-
-| Relação | Conversão |
-|---|---|
-| tempo | $1\text{ h}=60\text{ min}=3600\text{ s}$ |
-| comprimento | $1\text{ km}=1000\text{ m}$ |
-| massa | $1\text{ kg}=1000\text{ g}$ |
-| capacidade | $1\text{ L}=1000\text{ mL}$ |
-| velocidade | $1\text{ m/s}=3{,}6\text{ km/h}$ |
-
-Use fatores de conversão e cancele unidades.
-
-## Dígitos
-
-Número de dois algarismos:
-
-$$
-10x+y.
-$$
-
-Número invertido:
-
-$$
-10y+x.
-$$
-
-Diferença:
-
-$$
-(10x+y)-(10y+x)=9(x-y).
-$$
+Não force PA/PG sem evidência.
 
 ## Pegadinhas
 
-- Percentual depende da base.
-- Variações sucessivas multiplicam fatores.
-- Média das médias exige pesos.
-- Mais trabalhadores só reduz tempo sob hipóteses de produtividade constante.
-- Trabalho conjunto soma taxas, não tempos.
-- Misturas conservam a substância relevante.
-- Juros simples e compostos usam modelos diferentes.
-- Unidade incompatível invalida a conta.
-- A solução algébrica deve servir ao contexto.
+- percentual depende da base;
+- percentuais sucessivos não se somam automaticamente;
+- média das médias exige pesos;
+- mais trabalhadores só implica menos tempo sob produtividade comparável;
+- trabalho conjunto soma taxas, não tempos;
+- entrada e saída exigem vazão líquida;
+- misturas conservam a substância relevante;
+- unidades incompatíveis invalidam a conta;
+- solução algébrica fora do contexto deve ser descartada.
 
-## Conferência final
+## Conferência
 
 1. Respondi exatamente o que foi pedido?
-2. Mantive unidades compatíveis?
-3. O sinal e a ordem de grandeza fazem sentido?
-4. Uma média ficou entre os extremos esperados?
-5. Uma concentração ficou no intervalo plausível?
-6. Validei a solução nas relações originais?
+2. As unidades são compatíveis?
+3. Usei a base percentual correta?
+4. A relação direta/inversa foi justificada?
+5. O resultado tem sinal e ordem de grandeza plausíveis?
+6. A solução satisfaz as relações originais?
