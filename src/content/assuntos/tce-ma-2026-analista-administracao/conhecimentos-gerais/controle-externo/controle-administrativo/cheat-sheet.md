@@ -1,217 +1,140 @@
 # Controle administrativo
 
-## Conceito
+## Núcleo
 
-- Exercido pela própria Administração.
-- Alcança órgãos, agentes, atos e, nos limites legais, entidades vinculadas.
-- Pode examinar legalidade e mérito.
-- Pode começar de ofício ou por provocação.
-- Controle não elimina competência, autonomia, processo nem segurança jurídica.
+**Controle administrativo = a própria Administração controla sua atuação.**
 
-## Base constitucional e legal
+Pode envolver:
 
-- Art. 37: legalidade, impessoalidade, moralidade, publicidade e eficiência.
-- Art. 5º, LV: contraditório e ampla defesa em processo administrativo.
-- Art. 5º, XXXIV: petição sem taxa para defender direito ou combater ilegalidade/abuso.
-- Lei nº 9.784/1999: aplicação direta à Administração **federal**.
-- Estados e municípios: verificar lei própria e incidência subsidiária cabível.
+- legalidade;
+- mérito, quando houver espaço discricionário;
+- atuação de ofício;
+- atuação provocada.
+
+## Quem controla quem?
+
+| Situação | Regra |
+| --- | --- |
+| superior sobre subordinado na mesma pessoa jurídica | **hierarquia** |
+| Administração direta sobre entidade da indireta | **supervisão/tutela finalística** |
+| Administração sobre o próprio ato | **autotutela** |
+
+**Vinculação ≠ hierarquia.**
 
 ## De ofício x provocado
 
 | De ofício | Provocado |
 | --- | --- |
-| iniciativa administrativa | pedido do interessado |
-| fiscalização, instauração e revisão | petição, reclamação, representação ou recurso |
-| expressa dever de legalidade | aciona competência, mas não transfere decisão |
+| iniciativa da Administração | iniciativa do interessado |
+| fiscalização, instauração, revisão | petição, requerimento, reclamação, representação, recurso |
+| não depende de pedido | pedido não garante deferimento |
 
-- Administração deve decidir explicitamente matéria de sua competência.
-- Desistência não encerra necessariamente o processo se o interesse público exigir continuidade.
+Direito de petição: **sem taxa** — CF, art. 5º, XXXIV.
 
-## Hierarquia
+## Hierarquia x tutela
 
-- Mesma pessoa jurídica.
-- Relação de subordinação.
-- Permite direção, coordenação, fiscalização e revisão nos limites legais.
-- Não supera competência exclusiva nem procedimento obrigatório.
+### Hierarquia
 
-### Delegação
+- mesma pessoa jurídica;
+- subordinação;
+- direção + fiscalização + revisão.
 
-- Pode alcançar órgão/titular não subordinado.
-- Deve definir objeto, limites, duração, objetivos e recurso.
-- Publicação obrigatória.
-- Revogável a qualquer tempo.
-- Ato é considerado editado pelo delegado.
+### Tutela/supervisão finalística
 
-Não se delega:
+- pessoas jurídicas distintas;
+- entidade vinculada;
+- somente nos limites legais;
+- preserva autonomia da entidade.
 
-1. ato normativo;
-2. decisão de recurso;
-3. competência exclusiva.
-
-### Avocação
-
-- Excepcional.
-- Temporária.
-- Motivo relevante e justificado.
-- Somente competência de órgão hierarquicamente inferior.
-
-## Supervisão finalística
-
-- Administração indireta tem personalidade própria.
-- Entidade é **vinculada**, não subordinada, ao ministério.
-- Nomes: supervisão ministerial, tutela administrativa ou controle finalístico.
-
-Objetivos do art. 26 do Decreto-Lei nº 200/1967:
-
-1. realizar objetivos constitutivos;
-2. harmonizar com política e programação governamental;
-3. assegurar eficiência;
-4. preservar autonomia administrativa, operacional e financeira.
-
-Vinculação ≠ hierarquia.
+**Pegadinha:** ministério não pode substituir decisão de autarquia/estatal só porque discorda do mérito.
 
 ## Autotutela
 
 - Súmula 346: Administração pode declarar nulidade dos próprios atos.
-- Súmula 473: anula ato ilegal; revoga ato válido por mérito.
-- Art. 53: **deve anular** e **pode revogar**.
-- Não depende de autorização judicial prévia.
-- Continua sujeita a processo, decadência, boa-fé e controle judicial.
+- Súmula 473: **anula ilegal** / **revoga válido por mérito**.
+- Lei nº 9.784/1999, art. 53:
+  - **deve anular** vício de legalidade;
+  - **pode revogar** por conveniência/oportunidade.
 
-## Formas de retirada/correção
+Autotutela ≠ autorização para ignorar processo, decadência ou boa-fé.
 
-| Instituto | Causa |
+## Matriz principal
+
+| Situação | Instituto |
 | --- | --- |
-| anulação | ilegalidade |
-| revogação | conveniência/oportunidade de ato válido |
-| convalidação | vício sanável sem lesão pública ou prejuízo a terceiro |
-| cassação | beneficiário descumpre condição de manutenção |
-| caducidade | norma superveniente torna manutenção incompatível |
-| contraposição | novo ato gera efeitos opostos |
+| ilegalidade | **anulação** |
+| ato válido inconveniente/inoportuno | **revogação** |
+| vício sanável sem lesão pública/prejuízo a terceiro | **convalidação** |
 
-### Pegadinhas
+### Limites
 
-- Ilegalidade → anulação, não revogação.
-- Revogação não corrige vício.
-- Convalidação preserva; não retira.
-- Ato vinculado não é revogado por simples discordância de mérito.
-- Ato exaurido e direito adquirido limitam revogação.
+**Anulação:** decadência + defesa + segurança jurídica.  
+**Revogação:** competência + direitos adquiridos + efeitos exauridos.  
+**Convalidação:** defeito sanável + sem lesão ao interesse público + sem prejuízo a terceiro.
 
-## Decadência do art. 54
+## Decadência — art. 54
 
-- Prazo: **5 anos**.
-- Objeto: ato com efeitos favoráveis.
-- Regra: conta da prática do ato.
-- Efeito patrimonial contínuo: primeiro pagamento.
-- Exceção: má-fé comprovada.
-- Direito é exercido por medida que impugne a validade do ato.
-- Decadência limita autotutela; não torna o ato originalmente legal.
+- ato favorável;
+- **5 anos**;
+- regra: prática do ato;
+- efeito patrimonial contínuo: **primeiro pagamento**;
+- má-fé comprovada: afasta a proteção;
+- impugnação tempestiva: medida que conteste a validade do ato.
 
-## Processo e Tema 138
+**Primeiro pagamento não é termo inicial de todo ato.**
 
-- Efeitos concretos já produzidos: desfazimento exige processo regular.
-- Tema 138 usa “revogação” para ato ilegal; tecnicamente, trata-se de anulação.
-- Núcleo: contraditório e ampla defesa antes do desfazimento adverso.
+## Efeitos concretos — Tema 138
 
-Motivação obrigatória para:
+Ato reputado ilegal + efeitos concretos já produzidos → **processo administrativo regular antes do desfazimento**.
 
-- afetar direitos;
-- impor/agravar dever ou sanção;
-- decidir recurso;
-- reexaminar de ofício;
-- anular, revogar, suspender ou convalidar.
+A tese usa “revogar”, mas a distinção técnica permanece:
 
-Motivação = explícita + clara + congruente.
+- ilegal → anular;
+- válido + mérito → revogar.
 
-## Instrumentos de provocação
+## Motivação
 
-| Instrumento | Função |
-| --- | --- |
-| petição/requerimento | formular pretensão |
-| reclamação | pedir resposta/correção |
-| representação | comunicar irregularidade |
-| reconsideração | reexame pela autoridade que decidiu |
-| recurso | impugnação por legalidade ou mérito |
-| revisão | reabertura de processo sancionador |
+Decisão que:
 
-## Recurso administrativo
+- afeta direito;
+- reexamina de ofício;
+- anula;
+- revoga;
+- suspende;
+- convalida
 
-- Legalidade **e** mérito.
-- Dirigido à autoridade que decidiu.
-- Reconsideração: 5 dias.
-- Máximo: 3 instâncias, salvo lei diversa.
-- Interposição: 10 dias, salvo regra específica.
-- Decisão: 30 dias + prorrogação motivada por mais 30.
-- Regra: sem efeito suspensivo.
-- Exceção: justo receio de prejuízo difícil/incerto.
-- Outros interessados: alegações em 5 dias úteis.
+→ deve ter motivação **explícita + clara + congruente**.
 
-Legitimados:
+## Recurso — só o essencial
 
-- partes;
-- indiretamente afetados;
-- organizações/associações em interesses coletivos;
-- cidadãos/associações em interesses difusos.
+- instrumento de controle provocado;
+- pode discutir **legalidade e mérito**;
+- dirigido inicialmente à autoridade que decidiu;
+- ela pode reconsiderar em **5 dias** antes de encaminhar à superior;
+- essa reconsideração não é um recurso autônomo genérico;
+- SV 21: sem depósito/arrolamento prévio de dinheiro ou bens para admitir recurso.
 
-Não conhecimento:
+## Delegação x avocação
 
-- intempestivo;
-- órgão incompetente;
-- ilegitimidade;
-- esfera administrativa exaurida.
-
-Órgão incompetente → indica o competente + devolve o prazo.
-
-## Reformatio in pejus
-
-- Em recurso: gravame é possível, mas exige ciência prévia para alegações.
-- Em revisão sancionatória: agravamento é proibido.
-
-## Revisão sancionatória
-
-- Processo do qual resultou sanção.
-- A qualquer tempo.
-- A pedido ou de ofício.
-- Exige fatos novos ou circunstâncias relevantes.
-- Nunca pode agravar a sanção.
-
-## Súmula Vinculante 21
-
-- Inconstitucional depósito ou arrolamento prévio de dinheiro/bens para admitir recurso.
-- Defesa administrativa não depende de antecipar o valor discutido.
-
-## Prazos essenciais
-
-| Situação | Prazo |
-| --- | --- |
-| ato sem prazo específico | 5 dias |
-| comparecimento | antecedência de 3 dias úteis |
-| manifestação após instrução | até 10 dias |
-| decisão após instrução | 30 + 30 motivados |
-| reconsideração | 5 dias |
-| recurso | 10 dias |
-| alegações de terceiros no recurso | 5 dias úteis |
-
-- Exclui começo, inclui vencimento.
-- Dias contínuos, salvo indicação expressa de dias úteis.
-- Sem expediente: prorroga para o próximo dia útil.
-- Prazos não se suspendem, salvo força maior comprovada.
+- delegação pode ocorrer sem subordinação, nos limites legais;
+- avocação = excepcional + temporária + órgão hierarquicamente inferior.
 
 ## Método rápido
 
-1. Relação: hierarquia ou vinculação?
-2. Causa: ilegalidade, mérito ou vício sanável?
-3. Limite: decadência, defesa, autonomia ou direito adquirido?
-4. Instrumento: recurso ou revisão?
-5. Prazo e efeito: 10 dias? suspensivo excepcional?
+1. **Quem controla?** superior, entidade vinculada ou o próprio ato?
+2. **Qual a causa?** ilegalidade, mérito ou vício sanável?
+3. **Há limite?** decadência, boa-fé, defesa, autonomia, direito adquirido?
+4. **Foi provocado?** petição/recurso podem acionar a Administração.
 
-## Pegadinhas finais
+## Pegadinhas
 
-- Tutela não é hierarquia.
-- Delegação pode ocorrer sem subordinação; avocação, não.
-- Autotutela não dispensa processo.
-- Má-fé deve ser comprovada.
-- Primeiro pagamento só rege efeito patrimonial contínuo.
-- Recurso não suspende automaticamente.
-- Recurso pode piorar com contraditório; revisão não pode.
-- Lei nº 9.784/1999 é federal, não automaticamente nacional.
+- tutela ≠ hierarquia;
+- vinculação ≠ subordinação;
+- autotutela ≠ jurisdição;
+- ilegalidade ≠ revogação;
+- mérito ≠ anulação;
+- convalidação preserva o ato;
+- má-fé deve ser comprovada;
+- decadência não torna o ato originalmente legal;
+- controle externo não elimina autotutela;
+- Lei nº 9.784/1999 = aplicação direta **federal**, não lei nacional automática.
