@@ -1,425 +1,301 @@
 ---
 schemaVersion: 1
 title: Controle administrativo
-description: Controle exercido pela própria Administração, com autotutela, hierarquia, supervisão finalística, processo, recursos e revisão administrativa.
+description: Controle exercido pela própria Administração, com autotutela, hierarquia, supervisão finalística, anulação, revogação, convalidação e garantias essenciais.
 order: 49
 storageId: controle-administrativo
 ---
 
-## 1. Conceito e finalidade
+## 1. Recorte e conceito
 
-**Controle administrativo** é o acompanhamento, a fiscalização, a correção e a revisão que a própria Administração exerce sobre sua atuação, seus órgãos, seus agentes e, nos limites legais, as entidades a ela vinculadas.
+O edital cobra **controle administrativo** como tópico de Controle Externo. Para este cargo, o objetivo não é estudar toda a disciplina de Direito Administrativo nem reproduzir integralmente a Lei nº 9.784/1999, mas compreender **como a própria Administração controla, corrige e revê sua atuação**.
 
-Ele busca:
+Controle administrativo é o acompanhamento, a fiscalização, a correção e a revisão que a própria Administração exerce sobre:
 
-- prevenir e corrigir ilegalidades;
-- adequar a atuação ao interesse público e às finalidades legais;
-- rever escolhas administrativas quando o ordenamento permitir exame de conveniência e oportunidade;
-- coordenar órgãos e supervisionar entidades sem eliminar suas competências;
-- proteger direitos mediante processo, contraditório, prova e decisão motivada;
-- receber e decidir provocações dos administrados.
+- seus atos;
+- seus órgãos e agentes;
+- a atuação de autoridades subordinadas;
+- e, nos limites legais, entidades a ela vinculadas.
 
-O controle administrativo pode alcançar legalidade e mérito. Isso não significa liberdade ilimitada: competência, finalidade, forma, segurança jurídica, boa-fé, direitos adquiridos e garantias processuais continuam vinculando a Administração.
+Pode envolver:
 
-### 1.1. Fronteiras deste assunto
+- **legalidade**, para corrigir atuação contrária ao ordenamento;
+- **mérito**, quando houver espaço legítimo de conveniência e oportunidade;
+- atuação **de ofício**, por iniciativa administrativa;
+- atuação **provocada**, por petição, requerimento, reclamação, representação ou recurso.
 
-Este assunto aprofunda o controle realizado na esfera administrativa. Permanecem fora dele:
+> **Pegadinha:** controle administrativo não significa poder ilimitado. Competência, finalidade, segurança jurídica, boa-fé, motivação, contraditório e direitos protegidos continuam vinculando a Administração.
 
-- controle parlamentar e controle pelos tribunais de contas, estudados nos Assuntos 047 e 048;
-- improbidade administrativa, reservada aos Assuntos 050 e 051;
-- contencioso administrativo, jurisdição una e controle jurisdicional, no Assunto 052;
-- sistemas de controle financeiro, no Assunto 053;
-- organização e processos específicos do TCU, dos tribunais estaduais e do TCE/MA, nos Assuntos 054 e seguintes.
+Permanecem fora deste assunto o controle parlamentar, o controle pelos tribunais de contas, o controle jurisdicional e os processos específicos do TCE/MA.
 
-## 2. Fundamentos e alcance normativo
+## 2. Fundamentos essenciais
 
-O controle administrativo decorre do dever de observar a juridicidade e os princípios do art. 37 da Constituição. Em processos administrativos, também incidem devido processo, contraditório e ampla defesa. O art. 5º, XXXIV, assegura o direito de petição, independentemente do pagamento de taxas, em defesa de direitos ou contra ilegalidade ou abuso de poder.
+O controle administrativo decorre do dever de juridicidade e dos princípios constitucionais da Administração Pública.
 
-A Lei nº 9.784/1999 disciplina o processo administrativo no âmbito da **Administração Pública federal** direta e indireta. Seus preceitos também alcançam órgãos federais dos Poderes Legislativo e Judiciário quando exercem função administrativa.
+São especialmente relevantes:
 
-> A Lei nº 9.784/1999 não se apresenta como lei nacional automaticamente aplicável a toda Administração estadual e municipal. Nesses âmbitos, deve-se verificar a legislação própria e a eventual aplicação subsidiária admitida pelo regime competente.
+- **art. 37 da Constituição**: legalidade, impessoalidade, moralidade, publicidade e eficiência;
+- **art. 5º, XXXIV**: direito de petição independentemente de taxa;
+- **art. 5º, LIV e LV**: devido processo, contraditório e ampla defesa quando aplicáveis.
 
-Entre os princípios expressos em seu art. 2º estão legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência.
+A **Lei nº 9.784/1999** fornece regras importantes para o processo administrativo federal. Sua aplicação direta é à Administração Pública **federal** direta e indireta e, quando desempenham função administrativa, aos órgãos federais dos Poderes Legislativo e Judiciário.
+
+Ela não deve ser tratada, neste assunto, como se o edital tivesse cobrado toda a disciplina do processo administrativo.
 
 ## 3. Controle de ofício e controle provocado
 
-O processo administrativo federal pode iniciar-se:
+No regime federal, o processo administrativo pode iniciar-se:
 
-- **de ofício**, por iniciativa da autoridade competente;
-- **a pedido de interessado**, mediante provocação válida.
+- **de ofício**;
+- **a pedido de interessado**.
 
-### 3.1. Atuação de ofício
+### 3.1. De ofício
 
-A atuação de ofício manifesta o dever de legalidade e a autotutela. A Administração pode fiscalizar, instaurar processo, produzir provas, corrigir falhas e rever atos sem esperar requerimento particular, desde que respeite competência e processo.
+A Administração não precisa esperar provocação para fiscalizar, instaurar procedimento, produzir provas ou rever atos quando possui competência para tanto.
 
-A impulsão oficial não elimina a participação do interessado. Provas, alegações e documentos relevantes devem ser considerados na decisão.
+Isso expressa o dever de legalidade e a autotutela.
 
-### 3.2. Atuação provocada
+### 3.2. Provocado
 
-Petição, requerimento, reclamação, representação e recurso podem acionar a competência administrativa. A provocação:
+O administrado pode acionar a competência administrativa por instrumentos como:
 
-- não transfere ao requerente o poder de decidir;
+- petição;
+- requerimento;
+- reclamação;
+- representação;
+- recurso.
+
+A provocação:
+
+- não transfere ao interessado o poder de decidir;
 - não garante acolhimento do pedido;
-- exige análise de competência, legitimidade e admissibilidade;
-- gera dever de decisão explícita quando a matéria pertencer à competência administrativa.
+- não impede atuação administrativa de ofício;
+- gera dever de decisão quando a matéria estiver na competência do órgão.
 
-A desistência ou renúncia do interessado não impede necessariamente o prosseguimento. Se o interesse público exigir, a Administração pode continuar o processo.
+O direito de petição do art. 5º, XXXIV, da Constituição independe do pagamento de taxa.
 
-## 4. Controle hierárquico
+## 4. Controle hierárquico x supervisão finalística
 
-O controle hierárquico ocorre dentro da estrutura de uma mesma pessoa jurídica, entre órgãos e autoridades ligados por subordinação. Permite, conforme o ordenamento:
+Essa distinção é uma das mais cobradas.
 
-- orientar e coordenar a atuação subordinada;
-- fiscalizar agentes e serviços;
-- rever atos nos limites da competência;
-- distribuir funções;
-- delegar e avocar competências nas hipóteses legais;
-- apurar responsabilidade funcional.
+| Situação | Relação | Ideia central |
+| --- | --- | --- |
+| órgãos e autoridades da mesma pessoa jurídica | **hierarquia** | subordinação, direção, fiscalização e revisão interna |
+| Administração direta e entidade da indireta | **vinculação / supervisão finalística** | controle nos limites legais, sem hierarquia geral |
+| Administração sobre seus próprios atos | **autotutela** | anulação, revogação e demais providências cabíveis |
 
-Hierarquia não autoriza a autoridade superior a ignorar competência exclusiva, procedimento obrigatório ou autonomia técnica legalmente protegida.
+### 4.1. Hierarquia
 
-### 4.1. Delegação
+O controle hierárquico pressupõe subordinação interna. A autoridade superior pode, dentro da competência legal:
 
-Na Lei nº 9.784/1999, a competência é irrenunciável, mas parte dela pode ser delegada quando não houver impedimento legal e existir conveniência técnica, social, econômica, jurídica ou territorial.
+- orientar;
+- coordenar;
+- fiscalizar;
+- rever atos;
+- apurar responsabilidade;
+- distribuir o exercício de funções.
 
-A delegação:
+Hierarquia não autoriza ignorar competência exclusiva, procedimento obrigatório ou autonomia técnica legalmente protegida.
 
-- pode alcançar órgão ou titular que não seja hierarquicamente subordinado;
-- deve ter objeto, limites, duração, objetivos e recurso cabível definidos;
-- deve ser publicada, assim como sua revogação;
-- é revogável a qualquer tempo pela autoridade delegante;
-- faz com que a decisão seja considerada editada pelo delegado, que deve mencionar essa qualidade.
+A Lei nº 9.784/1999 também mostra que **delegação e avocação não são simétricas**:
 
-Não podem ser delegados:
+- delegação pode alcançar órgão ou titular não subordinado, quando a lei permitir;
+- avocação é excepcional, temporária e pressupõe órgão hierarquicamente inferior.
 
-1. edição de atos normativos;
-2. decisão de recursos administrativos;
-3. matérias de competência exclusiva.
+Essas regras servem aqui apenas para esclarecer o alcance do controle hierárquico.
 
-### 4.2. Avocação
+### 4.2. Supervisão, tutela ou controle finalístico
 
-A avocação é excepcional e temporária. Exige motivos relevantes devidamente justificados e só pode alcançar competência atribuída a órgão **hierarquicamente inferior**.
+Entidades da Administração indireta possuem personalidade jurídica própria. No modelo federal do Decreto-Lei nº 200/1967, vinculam-se ao ministério relacionado à sua atividade principal.
 
-Portanto, delegação e avocação não são imagens perfeitamente simétricas: a primeira pode ocorrer sem subordinação; a segunda pressupõe relação hierárquica.
+Essa vinculação:
 
-## 5. Supervisão ministerial, tutela e controle finalístico
+- **não gera subordinação hierárquica geral**;
+- não transforma autarquia, fundação, empresa pública ou sociedade de economia mista em órgão do ministério;
+- autoriza supervisão apenas pelos instrumentos e limites previstos no ordenamento.
 
-As entidades da Administração indireta possuem personalidade jurídica própria. No modelo federal do Decreto-Lei nº 200/1967, elas se **vinculam** ao ministério em cuja área se enquadra sua atividade principal.
+O art. 26 do Decreto-Lei nº 200/1967 associa a supervisão da Administração indireta à realização dos objetivos institucionais, à harmonia com políticas governamentais, à eficiência e à preservação da autonomia administrativa, operacional e financeira.
 
-Não existe, por esse vínculo, hierarquia geral entre ministério e entidade. A relação é chamada de:
+> **Fórmula:** vinculação ≠ hierarquia.
 
-- supervisão ministerial, na linguagem legal;
-- tutela administrativa, em formulação doutrinária;
-- controle finalístico.
+## 5. Autotutela
 
-O art. 26 do Decreto-Lei nº 200/1967 orienta a supervisão da Administração indireta para assegurar:
+**Autotutela** é o poder-dever de a Administração controlar seus próprios atos.
 
-1. objetivos fixados nos atos constitutivos da entidade;
-2. harmonia com a política e a programação governamental;
-3. eficiência administrativa;
-4. autonomia administrativa, operacional e financeira.
+Ela não depende de autorização judicial prévia, mas não afasta:
 
-Esse último objetivo impede interpretar a supervisão como poder ilimitado de comando. A autoridade supervisora depende dos instrumentos previstos em lei ou regulamento e não pode substituir indiscriminadamente a decisão atribuída à entidade.
+- devido processo;
+- contraditório e ampla defesa quando exigíveis;
+- motivação;
+- decadência;
+- segurança jurídica;
+- boa-fé;
+- controle judicial posterior.
 
-| Relação | Estrutura | Fundamento | Alcance típico |
-| --- | --- | --- | --- |
-| hierarquia | dentro da mesma pessoa jurídica | organização e competência | direção, fiscalização e revisão interna |
-| vinculação/supervisão | entre Administração direta e entidade indireta | lei e instrumentos de tutela | finalidade, resultados, políticas e controles legalmente previstos |
+### 5.1. Súmulas 346 e 473 do STF
 
-## 6. Autotutela
+A **Súmula 346** reconhece que a Administração pode declarar a nulidade de seus próprios atos.
 
-**Autotutela** é o poder-dever de a Administração controlar seus próprios atos. Ela não depende de autorização judicial prévia, mas permanece sujeita a processo, segurança jurídica e controle judicial posterior quando houver lesão ou ameaça a direito.
+A **Súmula 473** distingue:
 
-A Súmula 346 do STF afirma que a Administração Pública pode declarar a nulidade de seus próprios atos.
+- **anulação** de ato ilegal;
+- **revogação** de ato válido por conveniência ou oportunidade, respeitados direitos adquiridos.
 
-A Súmula 473 distingue duas atuações:
-
-- anular atos ilegais;
-- revogar atos válidos por conveniência ou oportunidade, respeitados direitos adquiridos.
-
-O art. 53 da Lei nº 9.784/1999 torna os verbos ainda mais importantes:
+A Lei nº 9.784/1999 reforça a diferença no art. 53:
 
 - a Administração **deve anular** ato com vício de legalidade;
 - a Administração **pode revogar** ato por conveniência ou oportunidade, respeitados direitos adquiridos.
 
-Autotutela não significa que toda mudança de entendimento possa apagar situações consolidadas. Decadência, confiança legítima, boa-fé, motivação e contraditório funcionam como limites jurídicos.
+## 6. Anulação, revogação e convalidação
 
-## 7. Anulação, revogação e convalidação
-
-| Instituto | Pressuposto | Efeito central | Limites relevantes |
+| Instituto | Pressuposto | Resultado | Limites centrais |
 | --- | --- | --- | --- |
-| anulação | ilegalidade | retira ato inválido | decadência, boa-fé, processo e segurança jurídica |
-| revogação | ato válido que se tornou inconveniente ou inoportuno | retira o ato por mérito | competência, direitos adquiridos e situações já exauridas |
-| convalidação | defeito sanável | corrige e preserva o ato | sem lesão ao interesse público ou prejuízo a terceiros |
+| **anulação** | ilegalidade | retira ato inválido | decadência, processo, boa-fé e segurança jurídica |
+| **revogação** | ato válido inconveniente ou inoportuno | retira ato por mérito | competência, direitos adquiridos e situações exauridas |
+| **convalidação** | defeito sanável | corrige e preserva o ato | ausência de lesão ao interesse público e de prejuízo a terceiros |
 
-### 7.1. Anulação
+### 6.1. Anulação
 
-Anulação é controle de legalidade. Em vez de perguntar se o ato ainda é conveniente, examina-se se ele nasceu ou permanece compatível com o ordenamento.
+Anulação é controle de **legalidade**.
 
-A ilegalidade não autoriza procedimento arbitrário. Se o desfazimento afetar esfera individual já concretizada, devem ser observados contraditório, defesa e motivação. Também se verifica se ocorreu decadência e se o vício admite convalidação.
+A existência de vício não autoriza procedimento arbitrário. Quando o desfazimento incide sobre situação individual já concretizada, devem ser observadas as garantias processuais aplicáveis.
 
-### 7.2. Revogação
+Também é necessário verificar:
 
-Revogação é controle de mérito sobre ato válido. A Administração competente conclui que sua manutenção deixou de ser conveniente ou oportuna.
+- se o vício é sanável;
+- se houve decadência;
+- se há boa-fé ou má-fé;
+- se o ato produziu efeitos concretos.
 
-Em regra, não se revoga:
+### 6.2. Revogação
 
-- ato vinculado, que não oferece espaço de mérito para essa retirada;
+Revogação é controle de **mérito** sobre ato válido.
+
+Em regra, não se revoga por simples juízo de conveniência:
+
+- ato vinculado sem espaço de mérito;
 - ato cujos efeitos já se exauriram;
-- ato que gerou direito adquirido protegido;
+- situação protegida por direito adquirido;
 - ato fora da competência revisora da autoridade.
 
-Revogação não é punição, correção de ilegalidade nem decisão judicial.
+> Ilegalidade → **anulação**.  
+> Inconveniência de ato válido → **revogação**.
 
-### 7.3. Convalidação
+### 6.3. Convalidação
 
-O art. 55 admite convalidar defeitos sanáveis quando a preservação do ato não acarretar:
+O art. 55 da Lei nº 9.784/1999 permite convalidar defeitos sanáveis quando a preservação do ato não causar:
 
 - lesão ao interesse público;
 - prejuízo a terceiros.
 
-Convalidar evita retirar ato que pode ser juridicamente corrigido. Vício insanável, lesão ao interesse público ou prejuízo a terceiro afastam essa solução.
+Convalidar é corrigir e preservar; não é revogar nem ignorar ilegalidade insanável.
 
-### 7.4. Outras formas de retirada
+## 7. Decadência e segurança jurídica
 
-A doutrina também utiliza categorias como:
+O art. 54 da Lei nº 9.784/1999 estabelece que o direito da Administração federal de anular atos dos quais decorram efeitos favoráveis aos destinatários decai em **cinco anos**, salvo comprovada má-fé.
 
-- **cassação:** beneficiário descumpre condição necessária à manutenção do ato;
-- **caducidade:** norma superveniente torna incompatível a permanência do ato;
-- **contraposição:** novo ato produz efeitos opostos aos de ato anterior.
+### 7.1. Termo inicial
 
-Essas classificações ajudam a identificar a causa da retirada, mas sua nomenclatura pode variar entre autores. Não devem ser confundidas com a disciplina textual de anulação, revogação e convalidação dos arts. 53 a 55.
+- regra geral: prática do ato;
+- efeitos patrimoniais contínuos: percepção do **primeiro pagamento**.
 
-## 8. Decadência para anular ato favorável
+Não se deve generalizar o primeiro pagamento para todo ato administrativo.
 
-O art. 54 da Lei nº 9.784/1999 estabelece que o direito da Administração de anular atos dos quais decorram efeitos favoráveis aos destinatários decai em **cinco anos**, salvo comprovada má-fé.
+### 7.2. Má-fé
 
-### 8.1. Termo inicial
+A má-fé afasta a proteção do art. 54, mas deve ser **comprovada**. Ilegalidade ou vantagem ao destinatário, isoladamente, não bastam para presumir má-fé.
 
-Regra geral: o prazo conta da prática do ato.
+### 7.3. Impugnação tempestiva
 
-Exceção para efeitos patrimoniais contínuos: conta-se da percepção do **primeiro pagamento**.
+Considera-se exercido o direito de anular quando houver medida da autoridade administrativa que importe **impugnação à validade do ato**.
 
-Não se deve aplicar o termo do primeiro pagamento a todo ato administrativo. Ele pertence à hipótese específica de efeitos patrimoniais contínuos.
+A decadência limita temporalmente a autotutela anulatória; ela não transforma retroativamente um ato originalmente ilegal em ato legal.
 
-### 8.2. Má-fé
+## 8. Processo, contraditório e Tema 138 do STF
 
-A má-fé comprovada afasta a proteção decadencial prevista no dispositivo. Ela não deve ser presumida apenas porque o ato é ilegal ou favorável ao destinatário.
+Autotutela não significa desfazimento sumário de qualquer situação.
 
-### 8.3. Exercício tempestivo do direito
+No **Tema 138**, o STF assentou que, se ato reputado ilegal já produziu efeitos concretos, seu desfazimento deve ser precedido de processo administrativo regular.
 
-Considera-se exercido o direito de anular quando alguma medida da autoridade administrativa impugna a validade do ato. A medida deve representar contestação efetiva da validade, e não simples movimentação burocrática sem esse conteúdo.
+A redação da tese usa o verbo “revogar”, mas a distinção conceitual continua importante:
 
-> Decadência não torna o ato originalmente legal. Ela limita temporalmente o exercício da autotutela anulatória para proteger segurança jurídica e confiança legítima nas condições fixadas pela lei.
+- ilegalidade → anulação;
+- mérito de ato válido → revogação.
 
-## 9. Processo, contraditório e motivação
+O núcleo do precedente é processual: quando a revisão administrativa atinge efeitos concretos na esfera do interessado, devem ser observadas as garantias devidas.
 
-O controle administrativo deve produzir decisão juridicamente verificável. Na Lei nº 9.784/1999, o administrado tem direito a:
+### 8.1. Motivação
 
-- conhecer a tramitação e as decisões;
-- ter vista e obter cópias, ressalvados sigilos protegidos;
-- formular alegações e apresentar documentos antes da decisão;
-- requerer provas e diligências;
-- ser assistido facultativamente por advogado, salvo representação obrigatória por lei;
-- interpor recursos nas hipóteses cabíveis.
+A Lei nº 9.784/1999 exige motivação, entre outras hipóteses, para decisões que:
 
-Prova ilícita é inadmissível. Provas propostas pelo interessado só podem ser recusadas por decisão fundamentada quando forem ilícitas, impertinentes, desnecessárias ou protelatórias.
+- afetem direitos ou interesses;
+- imponham ou agravem deveres ou sanções;
+- decorram de reexame de ofício;
+- anulem, revoguem, suspendam ou convalidem atos.
 
-### 9.1. Tema 138 do STF
+A motivação deve relacionar fatos e fundamentos jurídicos de forma explícita, clara e congruente.
 
-O Tema 138 afirma, em sua redação literal, que o Estado pode “revogar” atos que repute ilegalmente praticados, mas, se deles decorreram efeitos concretos, o desfazimento deve ser precedido de processo administrativo regular.
+## 9. Recurso como instrumento de controle
 
-A terminologia da tese merece cuidado: tecnicamente, ilegalidade conduz à **anulação**, enquanto revogação pressupõe ato válido. O núcleo da decisão é processual: autotutela não dispensa contraditório e ampla defesa quando o desfazimento atinge efeitos concretos na esfera do interessado.
+O recurso administrativo é uma forma de provocar o reexame pela própria Administração.
 
-### 9.2. Motivação
+Na Lei nº 9.784/1999:
 
-O art. 50 exige indicação dos fatos e fundamentos jurídicos, entre outras hipóteses, quando o ato:
+- pode ser interposto por razões de **legalidade e mérito**;
+- é inicialmente dirigido à autoridade que proferiu a decisão;
+- essa autoridade pode reconsiderar em cinco dias antes de encaminhá-lo à superior.
 
-- afeta direitos ou interesses;
-- impõe ou agrava deveres, encargos ou sanções;
-- decide recurso;
-- decorre de reexame de ofício;
-- anula, revoga, suspende ou convalida ato administrativo.
+> A reconsideração prevista nesse fluxo não deve ser tratada como se a Lei nº 9.784/1999 tivesse criado, de modo geral, um recurso autônomo chamado “pedido de reconsideração”.
 
-A motivação deve ser explícita, clara e congruente. Citar um dispositivo sem relacioná-lo aos fatos não satisfaz, por si só, esse dever.
+A **Súmula Vinculante 21** considera inconstitucional exigir depósito ou arrolamento prévios de dinheiro ou bens para admitir recurso administrativo.
 
-## 10. Direito de petição e instrumentos de provocação
+Detalhes gerais de todos os prazos, instâncias e hipóteses de revisão sancionatória da Lei nº 9.784/1999 não são o foco deste item do edital.
 
-O direito de petição é garantia constitucional ampla e independe do pagamento de taxa. Ele pode proteger direito próprio ou provocar atuação contra ilegalidade ou abuso de poder.
+## 10. Método para resolver questões
 
-| Instrumento | Finalidade predominante |
-| --- | --- |
-| petição/requerimento | formular pretensão, pedir providência ou defender direito |
-| reclamação administrativa | provocar resposta ou correção diante de ato, omissão ou situação lesiva |
-| representação | comunicar irregularidade ou abuso à autoridade competente |
-| pedido de reconsideração | pedir reexame à própria autoridade que decidiu |
-| recurso | impugnar decisão por legalidade ou mérito |
-| revisão sancionatória | reabrir processo sancionador diante de fatos novos ou circunstâncias relevantes |
+### Passo 1: identifique quem controla
 
-A nomenclatura e o rito podem variar conforme a lei específica. Na Lei nº 9.784/1999, o recurso é inicialmente dirigido à autoridade que decidiu, que dispõe de cinco dias para reconsiderar antes de encaminhá-lo à autoridade superior.
+- mesma pessoa jurídica + subordinação → **hierarquia**;
+- Administração direta sobre entidade vinculada → **supervisão finalística**;
+- Administração sobre o próprio ato → **autotutela**.
 
-## 11. Recurso administrativo
+### Passo 2: identifique a causa da revisão
 
-Das decisões administrativas cabe recurso por razões de **legalidade e mérito**.
-
-### 11.1. Destinatário e instâncias
-
-O recurso é dirigido à autoridade que proferiu a decisão. Se ela não reconsiderar em cinco dias, encaminha-o à autoridade superior.
-
-Salvo lei diversa, o recurso tramita por no máximo **três instâncias administrativas**. Esse número não significa três recursos adicionais depois da decisão inicial; refere-se às instâncias pelas quais o recurso pode tramitar.
-
-### 11.2. Legitimados
-
-Podem recorrer:
-
-- partes titulares de direitos ou interesses;
-- pessoas indiretamente afetadas;
-- organizações e associações representativas, quanto a interesses coletivos;
-- cidadãos ou associações, quanto a direitos ou interesses difusos.
-
-### 11.3. Prazo e decisão
-
-Na ausência de regra específica:
-
-- interposição: **dez dias** da ciência ou divulgação oficial;
-- decisão: até **trinta dias** do recebimento dos autos pelo órgão competente;
-- prorrogação da decisão: por igual período, mediante justificativa explícita.
-
-### 11.4. Efeito suspensivo
-
-Regra: o recurso **não tem efeito suspensivo**.
-
-Exceção: diante de justo receio de prejuízo de difícil ou incerta reparação, a autoridade recorrida ou a imediatamente superior pode conceder efeito suspensivo, de ofício ou a pedido.
-
-Os demais interessados devem ser intimados para apresentar alegações em cinco dias úteis.
-
-### 11.5. Não conhecimento
-
-O recurso não é conhecido quando for:
-
-- intempestivo;
-- apresentado a órgão incompetente;
-- interposto por pessoa sem legitimidade;
-- apresentado após o exaurimento da esfera administrativa.
-
-Se o órgão for incompetente, deve indicar a autoridade competente e devolver o prazo ao recorrente.
-
-O não conhecimento não impede revisão de ofício de ato ilegal, desde que não tenha ocorrido preclusão administrativa.
-
-### 11.6. Resultado e reforma para pior
-
-A autoridade competente pode confirmar, modificar, anular ou revogar, total ou parcialmente, a decisão recorrida, se a matéria estiver em sua competência.
-
-No regime geral da Lei nº 9.784/1999, não existe proibição absoluta de **reformatio in pejus** no recurso. Se puder resultar gravame à situação do recorrente, ele deve ser previamente cientificado para apresentar alegações.
-
-## 12. Revisão do processo sancionador
-
-Processos administrativos dos quais resultem sanções podem ser revistos:
-
-- a qualquer tempo;
-- a pedido ou de ofício;
-- quando surgirem fatos novos ou circunstâncias relevantes capazes de demonstrar inadequação da sanção.
-
-Da revisão **não pode resultar agravamento da sanção**.
-
-| Recurso | Revisão sancionatória |
-| --- | --- |
-| impugna decisão ainda recorrível | reabre processo sancionador nas condições do art. 65 |
-| prazo geral de 10 dias, salvo regra específica | a qualquer tempo |
-| pode discutir legalidade e mérito | exige fatos novos ou circunstâncias relevantes |
-| gravame possível com contraditório prévio | agravamento da sanção proibido |
-
-## 13. Caução e Súmula Vinculante 21
-
-O art. 56, § 2º, declara que o recurso independe de caução, salvo exigência legal. Essa ressalva deve ser lida com a Súmula Vinculante 21: é inconstitucional exigir depósito ou arrolamento prévios de dinheiro ou bens para admitir recurso administrativo.
-
-Assim, a Administração não pode transformar a defesa recursal em privilégio de quem consegue antecipar o valor discutido.
-
-## 14. Prazos e decisões
-
-Alguns prazos gerais da Lei nº 9.784/1999:
-
-| Situação | Prazo |
-| --- | --- |
-| ato processual sem prazo específico | 5 dias, prorrogáveis até o dobro com justificação |
-| antecedência para comparecimento | mínimo de 3 dias úteis |
-| manifestação após instrução | até 10 dias, salvo regra legal diversa |
-| decisão após instrução | até 30 dias, prorrogáveis motivadamente por mais 30 |
-| reconsideração antes de encaminhar recurso | 5 dias |
-| interposição de recurso | 10 dias, salvo regra específica |
-| alegações de outros interessados no recurso | 5 dias úteis |
-
-Na contagem:
-
-- exclui-se o dia do começo e inclui-se o do vencimento;
-- os dias são contados continuamente;
-- vencimento sem expediente prorroga-se para o primeiro dia útil seguinte;
-- prazos não se suspendem, salvo força maior comprovada.
-
-Não confunda dias contínuos com dias úteis. Quando a lei quer cinco dias úteis, como nas alegações dos demais interessados no recurso, ela o diz expressamente.
-
-## 15. Limites do controle administrativo
-
-Controlar não é administrar sem limites no lugar da autoridade competente. O controle deve respeitar:
-
-- competência legal;
-- autonomia conferida a órgãos técnicos e entidades;
-- espaço discricionário legítimo;
-- proporcionalidade entre meio e finalidade;
-- motivação baseada nos fatos do processo;
-- segurança jurídica, boa-fé e confiança legítima;
-- contraditório e defesa quando houver efeitos individuais adversos.
-
-Uma autoridade pode corrigir ilegalidade, mas não inventar competência. Pode revisar mérito quando o ordenamento autorizar, mas não chamar de “ilegal” uma mera preferência administrativa. Pode supervisionar entidade vinculada, mas não tratá-la como órgão subordinado.
-
-## 16. Método para resolver questões
-
-### Passo 1: identifique a relação
-
-- mesma pessoa jurídica e subordinação: controle hierárquico;
-- Administração direta e entidade indireta: vinculação e supervisão finalística;
-- controle do próprio ato: autotutela.
-
-### Passo 2: identifique a causa
-
-- ilegalidade: anulação;
-- mérito de ato válido: revogação;
-- vício sanável sem lesão ou prejuízo: convalidação;
-- descumprimento posterior pelo beneficiário: cassação.
+- ilegalidade → **anulação**;
+- mérito de ato válido → **revogação**;
+- defeito sanável sem lesão ou prejuízo → **convalidação**.
 
 ### Passo 3: procure o limite
 
-- ato favorável: verifique decadência e má-fé;
-- efeitos concretos: verifique processo e defesa;
-- entidade vinculada: preserve autonomia;
-- recurso: verifique prazo, efeito e legitimidade.
+- ato favorável → decadência e má-fé;
+- efeitos concretos → processo e defesa;
+- entidade vinculada → autonomia e limites legais;
+- decisão desfavorável → motivação.
 
-### Passo 4: diferencie recurso e revisão
+### Passo 4: verifique se houve provocação
 
-- recurso: 10 dias como regra, legalidade e mérito, gravame possível com ciência prévia;
-- revisão sancionatória: a qualquer tempo, fatos novos ou circunstâncias relevantes, sem agravamento.
+A Administração pode agir de ofício, mas petição, requerimento, reclamação, representação e recurso também podem acionar sua competência.
 
-## 17. Síntese final
+## 11. Pegadinhas essenciais
 
-1. Controle administrativo é exercido pela própria Administração sobre sua atuação.
-2. Pode começar de ofício ou por provocação.
-3. Hierarquia ocorre dentro da mesma pessoa jurídica; vinculação não é subordinação.
-4. Supervisão finalística deve preservar a autonomia legal da entidade indireta.
-5. Autotutela permite anular ato ilegal e revogar ato válido por mérito.
-6. Convalidação exige vício sanável, ausência de lesão ao interesse público e ausência de prejuízo a terceiros.
-7. O art. 54 prevê decadência de cinco anos para anular ato favorável, salvo má-fé comprovada.
-8. Em efeitos patrimoniais contínuos, o prazo conta do primeiro pagamento.
-9. Efeitos concretos adversamente desfeitos exigem processo regular, segundo o Tema 138.
-10. Recurso cabe por legalidade e mérito e, em regra, não suspende a decisão.
-11. Agravamento em recurso exige contraditório prévio; em revisão sancionatória, é proibido.
-12. Depósito ou arrolamento prévio não pode condicionar a admissibilidade recursal.
+1. **Tutela não é hierarquia.**
+2. **Vinculação não é subordinação.**
+3. Autotutela não depende de autorização judicial prévia.
+4. Autotutela não dispensa processo quando direitos e efeitos concretos exigirem defesa.
+5. Ilegalidade gera anulação, não revogação.
+6. Revogação pressupõe ato válido e juízo de mérito.
+7. Convalidação exige vício sanável e ausência de lesão ao interesse público ou prejuízo a terceiro.
+8. Prazo do art. 54: cinco anos; primeiro pagamento apenas para efeitos patrimoniais contínuos.
+9. Má-fé não se presume.
+10. Reconsideração em cinco dias integra o fluxo do recurso na Lei nº 9.784/1999; não é, por si só, recurso autônomo genérico.
+11. A Lei nº 9.784/1999 tem aplicação direta no âmbito federal, não automaticamente como lei nacional de todos os entes.
 
 ## Referências
 
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) - Presidência da República; arts. 5º, XXXIV, LIV e LV, e 37, texto compilado; acesso em 19 jul. 2026.
-- [Lei nº 9.784, de 29 de janeiro de 1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) - Presidência da República; processo administrativo federal, texto vigente; acesso em 19 jul. 2026.
-- [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Presidência da República; arts. 4º, 13, 14 e 19 a 28, texto compilado; acesso em 19 jul. 2026.
-- [Tema 138 - RE 594.296/MG](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=138) - Supremo Tribunal Federal; processo administrativo prévio ao desfazimento de atos com efeitos concretos; acesso em 19 jul. 2026.
-- [Súmula 346](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1576) - Supremo Tribunal Federal; nulidade dos próprios atos pela Administração; acesso em 19 jul. 2026.
-- [Súmula 473](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602) - Supremo Tribunal Federal; anulação e revogação administrativas; acesso em 19 jul. 2026.
-- [Súmula Vinculante 21](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1184) - Supremo Tribunal Federal; depósito ou arrolamento prévio em recurso administrativo; acesso em 19 jul. 2026.
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 5º, XXXIV, LIV e LV, e 37.
+- [Lei nº 9.784, de 29 de janeiro de 1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) — processo administrativo federal, especialmente arts. 1º, 5º, 48, 50 e 53 a 56.
+- [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) — vinculação e supervisão ministerial da Administração indireta.
+- [Tema 138 — RE 594.296/MG](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=138) — processo administrativo prévio ao desfazimento de ato com efeitos concretos.
+- [Súmula 346](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1576) — nulidade dos próprios atos pela Administração.
+- [Súmula 473](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602) — anulação e revogação administrativas.
+- [Súmula Vinculante 21](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1184) — depósito ou arrolamento prévio para recurso administrativo.
