@@ -186,6 +186,22 @@ export function canResumeReading(
   );
 }
 
+export function clearReadingPosition(
+  document: NavigationDocument,
+  contestStorageId: string,
+  subjectStorageId: string,
+  now = new Date(),
+): NavigationDocument {
+  if (
+    document.readingPosition === null ||
+    document.context.contestStorageId !== contestStorageId ||
+    document.context.subjectStorageId !== subjectStorageId
+  ) {
+    return document;
+  }
+  return { ...document, updatedAt: now.toISOString(), readingPosition: null };
+}
+
 export function shouldPreserveReadingForContestCatalog(
   current: NavigationDocument,
   next: NavigationCatalogEntry,

@@ -57,6 +57,8 @@ Reload, voltar/avançar, Service Worker, reconexão, foco e visibilidade não re
 
 Na página principal de um concurso, **Resumir leitura** fica disponível quando `record.current` contém um conteúdo desse mesmo concurso com `readingPosition`. A captura automática do catálogo daquele concurso não substitui esse ponto; abrir a raiz, outro concurso ou outra aba continua atualizando a última navegação normalmente. O CTA aguarda o bootstrap remoto do perfil inicializado pelo runtime, grava a mesma autorização de rota pendente e força `#focus`, mesmo que `readingMode` estivesse falso. O destino consome a autorização e aplica a restauração semântica existente. Sem alias, sem posição ou com ponto de outro concurso, o controle permanece oculto.
 
+Marcar um assunto como concluído limpa somente o `readingPosition` desse concurso e assunto, preservando rota e contexto. Enquanto a marca permanecer, capturas automáticas gravam posição nula, inclusive após `pagehide` e em outras abas; desfazer a conclusão não recupera o ponto destruído, mas libera novas capturas. A limpeza é uma pendência própria da navegação, sincronizada separadamente do documento de estudados. Mensagens entre abas e snapshots remotos são revalidados contra o estado atual de estudados antes de limpar ou oferecer retomada.
+
 ## Eventos e frequência
 
 A captura é debounced após rolagem, resize, controles relevantes e mudanças semânticas do modo de leitura. Também ocorre em `pagehide` e ao ocultar a página. A sincronização é solicitada ao reconectar, focar, tornar a página visível, receber mudança local e a cada 30 segundos enquanto visível.

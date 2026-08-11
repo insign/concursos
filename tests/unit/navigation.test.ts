@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   canResumeReading,
+  clearReadingPosition,
   createNavigationDocument,
   isSafeNavigationRoute,
   navigationDestination,
@@ -135,6 +136,42 @@ describe('navigation document', () => {
 
     expect(canResumeReading(noPosition, 'tce-ma-2026')).toBe(false);
     expect(canResumeReading(questions, 'tce-ma-2026')).toBe(false);
+  });
+
+  it('clears only the matching subject reading position', () => {
+    const document = createNavigationDocument(
+      '/concursos/tce-ma-2026/interpretacao-textos/',
+      { ...context, readingMode: false },
+      {
+        contentVersion: null,
+        sectionId: null,
+        blockId: null,
+        blockIndex: 4,
+        relativeOffset: 0,
+        textQuote: '',
+        progress: 0.5,
+      },
+      new Date('2026-07-25T00:00:00.000Z'),
+    );
+    const cleared = clearReadingPosition(
+      document,
+      'tce-ma-2026',
+      'interpretacao-textos',
+      new Date('2026-07-26T00:00:00.000Z'),
+    );
+
+    expect(cleared).toEqual({
+      ...document,
+      updatedAt: '2026-07-26T00:00:00.000Z',
+      readingPosition: null,
+    });
+    expect(cleared.route).toBe(document.route);
+    expect(cleared.context).toEqual(document.context);
+    expect(clearReadingPosition(document, 'outro-concurso', 'interpretacao-textos')).toBe(document);
+    expect(clearReadingPosition(document, 'tce-ma-2026', 'outro-assunto')).toBe(document);
+    expect(
+      clearReadingPosition(cleared, 'tce-ma-2026', 'interpretacao-textos'),
+    ).toBe(cleared);
   });
 
   it('preserves a reading position only when capturing a contest catalog', () => {

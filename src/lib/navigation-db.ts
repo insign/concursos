@@ -1,5 +1,9 @@
 import { deleteDB, openDB, type DBSchema, type IDBPDatabase } from 'idb';
-import { normalizeNavigationDocument, type NavigationDocument } from './navigation';
+import {
+  clearReadingPosition,
+  normalizeNavigationDocument,
+  type NavigationDocument,
+} from './navigation';
 
 export const NAVIGATION_DB_NAME = 'concursos-navigation';
 const NAVIGATION_DB_VERSION = 1;
@@ -98,6 +102,44 @@ export function saveNavigationDocument(
       await transaction.done;
       return undefined;
     }
+    await transaction.store.put(record);
+    await transaction.done;
+    return record;
+  })();
+  return trackWrite(write);
+}
+
+export function clearNavigationReadingPosition(
+  profileId: string,
+  contestStorageId: string,
+  subjectStorageId: string,
+): Promise<LocalNavigationRecord | undefined> {
+  const write = (async () => {
+    const database = await openNavigationDb();
+    const transaction = database.transaction('navigation', 'readwrite');
+    const existing = await transaction.store.get(profileId);
+    if (!existing) {
+      await transaction.done;
+      return undefined;
+    }
+
+    const current = normalizeNavigationDocument(existing.current);
+    const cleared = clearReadingPosition(current, contestStorageId, subjectStorageId);
+    if (cleared === current) {
+      await transaction.done;
+      return undefined;
+    }
+
+    const record: LocalNavigationRecord = {
+      ...existing,
+      current: cleared,
+      outboxState: 'pending',
+      attempts: 0,
+      nextAttemptAt: null,
+      lastError: null,
+      localRevision: existing.localRevision + 1,
+      updatedAt: Date.now(),
+    };
     await transaction.store.put(record);
     await transaction.done;
     return record;

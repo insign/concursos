@@ -8,6 +8,41 @@ const readingUrl = `/concursos/${contest}/${subjectSlug}/#focus`;
 const contestUrl = `/concursos/${contest}/`;
 const subjectId = 'tcema-2026-adm--leitura-tipos-generos';
 const estudadosDocId = `concursos--${alias}--estudados`;
+const navigationDocId = `concursos--${alias}--navegacao`;
+
+async function revealSubjectActions(page: import('@playwright/test').Page): Promise<void> {
+  await page.evaluate(
+    () =>
+      new Promise<void>((resolve) => {
+        window.scrollBy(0, -40);
+        requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+      }),
+  );
+  await expect(page.locator('[data-subject-action-bar]')).toHaveAttribute(
+    'data-subject-action-visibility',
+    'visible',
+  );
+}
+
+async function readLocalReadingPosition(page: import('@playwright/test').Page): Promise<unknown> {
+  return page.evaluate(
+    (profileId) =>
+      new Promise<unknown>((resolve, reject) => {
+        const request = indexedDB.open('concursos-navigation', 1);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const database = request.result;
+          const get = database.transaction('navigation').objectStore('navigation').get(profileId);
+          get.onerror = () => reject(get.error);
+          get.onsuccess = () => {
+            resolve(get.result?.current?.readingPosition ?? null);
+            database.close();
+          };
+        };
+      }),
+    alias,
+  );
+}
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript((value) => {
@@ -97,6 +132,110 @@ test('publishes the studied document to the KV without Authorization', async ({ 
     })
     .toContain(subjectId);
   expect(authHeaders).toEqual([]);
+});
+
+test('clears the reading point while studied and allows a new point after undo', async ({
+  page,
+  context,
+  kvStore,
+}) => {
+  await page.goto(contentUrl);
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight * 0.45));
+  await expect
+    .poll(
+      () =>
+        (kvStore.get(navigationDocId)?.json as { readingPosition?: unknown } | undefined)
+          ?.readingPosition ?? null,
+      { timeout: 30_000 },
+    )
+    .not.toBeNull();
+
+  await revealSubjectActions(page);
+  await page.getByRole('button', { name: 'Marcar como concluído' }).click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+  await expect
+    .poll(
+      () =>
+        (kvStore.get(navigationDocId)?.json as { readingPosition?: unknown } | undefined)
+          ?.readingPosition,
+      { timeout: 30_000 },
+    )
+    .toBeNull();
+
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight * 0.7));
+  await page.waitForTimeout(1_200);
+  expect(await readLocalReadingPosition(page)).toBeNull();
+
+  const catalogPage = await context.newPage();
+  await catalogPage.goto(contestUrl);
+  await expect(catalogPage.locator('[data-contest-resume-reading]')).toBeHidden();
+  await catalogPage.close();
+
+  await revealSubjectActions(page);
+  await page.getByRole('button', { name: 'Desfazer conclusão' }).click();
+  await expect(page.getByRole('button', { name: 'Marcar como concluído' })).toBeVisible();
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight * 0.8));
+  await expect
+    .poll(
+      () =>
+        (kvStore.get(navigationDocId)?.json as
+          | { readingPosition?: { progress?: number } | null }
+          | undefined)?.readingPosition?.progress ?? 0,
+      { timeout: 30_000 },
+    )
+    .toBeGreaterThan(0);
+
+  await page.evaluate(
+    (detail) => {
+      // O runtime possui outra instância do canal e deve receber esta entrega atrasada.
+      const channel = new BroadcastChannel('concursos-studied');
+      channel.postMessage(detail);
+      window.setTimeout(() => channel.close(), 0);
+    },
+    {
+      profileId: alias,
+      contestStorageId: 'tcema-2026-adm',
+      subjectStorageId: 'leitura-tipos-generos',
+      studied: true,
+    },
+  );
+  await page.waitForTimeout(1_200);
+  expect(await readLocalReadingPosition(page)).not.toBeNull();
+  expect(
+    (kvStore.get(navigationDocId)?.json as
+      | { readingPosition?: { progress?: number } | null }
+      | undefined)?.readingPosition?.progress ?? 0,
+  ).toBeGreaterThan(0);
+});
+
+test('keeps the reading point cleared across concurrent tabs', async ({ page, context, kvStore }) => {
+  const otherPage = await context.newPage();
+  await page.goto(contentUrl);
+  await otherPage.goto(contentUrl);
+  await otherPage.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight * 0.5));
+  await expect
+    .poll(
+      () =>
+        (kvStore.get(navigationDocId)?.json as { readingPosition?: unknown } | undefined)
+          ?.readingPosition ?? null,
+      { timeout: 30_000 },
+    )
+    .not.toBeNull();
+
+  await page.getByRole('button', { name: 'Marcar como concluído' }).click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+  await otherPage.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight * 0.75));
+  await expect
+    .poll(
+      () =>
+        (kvStore.get(navigationDocId)?.json as { readingPosition?: unknown } | undefined)
+          ?.readingPosition,
+      { timeout: 30_000 },
+    )
+    .toBeNull();
+  await otherPage.waitForTimeout(1_200);
+  expect(await readLocalReadingPosition(otherPage)).toBeNull();
+  await otherPage.close();
 });
 
 test('keeps the mark control available in reading mode', async ({ page }) => {

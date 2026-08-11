@@ -3,7 +3,12 @@ import {
   markLocalStatePending,
   registerLocalStateFlusher,
 } from './local-durability';
-import { getNavigationRecord, saveNavigationDocument } from './navigation-db';
+import {
+  clearNavigationReadingPosition,
+  getNavigationRecord,
+  hasPendingNavigation,
+  saveNavigationDocument,
+} from './navigation-db';
 import {
   createNavigationDocument,
   navigationPendingRouteKey,
@@ -21,6 +26,7 @@ import {
 } from './navigation';
 import { bootstrapNavigation } from './navigation-sync';
 import { requestNavigationProfileSync } from './simulados-profile-sync';
+import { isStudied, loadStudied, studiedSubjectId } from './studied';
 
 const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
 const CAPTURE_DEBOUNCE_MS = 800;
@@ -418,6 +424,7 @@ export function startNavigationRuntime(): void {
   let restoreInProgress = false;
   let captureGeneration = 0;
   let explicitNavigation = false;
+  let studiedClearPendingBeforeReady = false;
   const automaticSyncAfter = Date.now() + INITIAL_AUTOMATIC_SYNC_DELAY_MS;
 
   const hideOffer = () => {
@@ -451,10 +458,20 @@ export function startNavigationRuntime(): void {
 
     const context = captureContext(entry);
     const contentRoot = document.querySelector<HTMLElement>('[data-navigation-content]');
-    const readingPosition =
-      context.activeTab === 'questions' || !contentRoot
-        ? null
-        : captureReadingPosition(contentRoot);
+    let readingPosition: ReadingPosition | null = null;
+    if (
+      context.activeTab !== 'questions' &&
+      contentRoot &&
+      context.contestStorageId &&
+      context.subjectStorageId
+    ) {
+      const studied = isStudied(
+        await loadStudied(profileId),
+        studiedSubjectId(context.contestStorageId, context.subjectStorageId),
+      );
+      if (generation !== captureGeneration || offered) return;
+      readingPosition = studied ? null : captureReadingPosition(contentRoot);
+    }
     const snapshot = createNavigationDocument(currentRoute(), context, readingPosition);
     const fingerprint = navigationFingerprint(snapshot);
     const record = await getNavigationRecord(profileId);
@@ -587,29 +604,68 @@ export function startNavigationRuntime(): void {
     return runningSync;
   };
 
+  const clearSubjectReadingPosition = async (
+    contestStorageId: string,
+    subjectStorageId: string,
+  ): Promise<boolean> => {
+    markNavigationPending();
+    const record = await clearNavigationReadingPosition(
+      profileId,
+      contestStorageId,
+      subjectStorageId,
+    );
+    if (!record) return false;
+    if (!ready) studiedClearPendingBeforeReady = true;
+    hideOffer();
+    lastFingerprint = navigationFingerprint(record.current);
+    window.dispatchEvent(
+      new CustomEvent('concursos:navigation-updated', { detail: { profileId } }),
+    );
+    return true;
+  };
+
   const inspectRemoteChange = async () => {
-    if (!ready) return;
-    const record = await getNavigationRecord(profileId);
-    if (!record || record.remoteVersion === null) return;
+    try {
+      if (!ready) return;
+      const record = await getNavigationRecord(profileId);
+      if (!record) return;
 
-    const incarnationChanged =
-      (lastRemoteCreatedAt !== null &&
-        record.remoteCreatedAt !== null &&
-        record.remoteCreatedAt !== lastRemoteCreatedAt) ||
-      (lastRemoteVersion !== null && record.remoteVersion < lastRemoteVersion);
-    const newer =
-      incarnationChanged ||
-      lastRemoteVersion === null ||
-      record.remoteVersion > lastRemoteVersion;
+      const { contestStorageId, subjectStorageId } = record.current.context;
+      if (
+        record.current.readingPosition &&
+        contestStorageId &&
+        subjectStorageId &&
+        isStudied(
+          await loadStudied(profileId),
+          studiedSubjectId(contestStorageId, subjectStorageId),
+        )
+      ) {
+        await clearSubjectReadingPosition(contestStorageId, subjectStorageId);
+        return;
+      }
+      if (record.remoteVersion === null) return;
 
-    lastRemoteVersion = incarnationChanged
-      ? record.remoteVersion
-      : Math.max(lastRemoteVersion ?? 0, record.remoteVersion);
-    lastRemoteCreatedAt = record.remoteCreatedAt;
-    if (!newer) return;
+      const incarnationChanged =
+        (lastRemoteCreatedAt !== null &&
+          record.remoteCreatedAt !== null &&
+          record.remoteCreatedAt !== lastRemoteCreatedAt) ||
+        (lastRemoteVersion !== null && record.remoteVersion < lastRemoteVersion);
+      const newer =
+        incarnationChanged ||
+        lastRemoteVersion === null ||
+        record.remoteVersion > lastRemoteVersion;
 
-    const fingerprint = navigationFingerprint(record.current);
-    if (fingerprint !== lastFingerprint && record.outboxState === 'clean') showOffer(record.current);
+      lastRemoteVersion = incarnationChanged
+        ? record.remoteVersion
+        : Math.max(lastRemoteVersion ?? 0, record.remoteVersion);
+      lastRemoteCreatedAt = record.remoteCreatedAt;
+      if (!newer) return;
+
+      const fingerprint = navigationFingerprint(record.current);
+      if (fingerprint !== lastFingerprint && record.outboxState === 'clean') showOffer(record.current);
+    } catch {
+      // Uma falha de leitura local mantém a navegação atual e será reavaliada no próximo gatilho.
+    }
   };
 
   offerUi?.resume.addEventListener('click', () => {
@@ -705,6 +761,62 @@ export function startNavigationRuntime(): void {
   });
   window.addEventListener('concursos:navigation-synced', () => void inspectRemoteChange());
   window.addEventListener('concursos:navigation-updated', () => void synchronize(true));
+  const handleStudiedUpdate = async (detail: {
+    profileId?: unknown;
+    contestStorageId?: unknown;
+    subjectStorageId?: unknown;
+    studied?: unknown;
+  }): Promise<void> => {
+    if (
+      detail.profileId !== profileId ||
+      getActiveAlias() !== profileId ||
+      detail.studied !== true ||
+      typeof detail.contestStorageId !== 'string' ||
+      typeof detail.subjectStorageId !== 'string'
+    ) {
+      return;
+    }
+    const currentStudied = await loadStudied(profileId);
+    if (
+      getActiveAlias() !== profileId ||
+      !isStudied(
+        currentStudied,
+        studiedSubjectId(detail.contestStorageId, detail.subjectStorageId),
+      )
+    ) {
+      return;
+    }
+
+    if (captureTimer) clearTimeout(captureTimer);
+    captureTimer = undefined;
+    captureGeneration += 1;
+    suppressedCaptureRequested = false;
+    semanticCaptureRequested = false;
+    await clearSubjectReadingPosition(detail.contestStorageId, detail.subjectStorageId);
+  };
+
+  window.addEventListener('concursos:studied-updated', (event) => {
+    void handleStudiedUpdate((event as CustomEvent<{
+      profileId?: unknown;
+      contestStorageId?: unknown;
+      subjectStorageId?: unknown;
+      studied?: unknown;
+    }>).detail ?? {}).catch(() => undefined);
+  });
+  if ('BroadcastChannel' in window) {
+    const studiedBroadcast = new BroadcastChannel('concursos-studied');
+    studiedBroadcast.addEventListener('message', (event) => {
+      void handleStudiedUpdate(
+        (event.data as Parameters<typeof handleStudiedUpdate>[0]) ?? {},
+      ).catch(() => undefined);
+    });
+  }
+  window.addEventListener('concursos:sync-status', (event) => {
+    const detail = (event as CustomEvent<{ profileId?: unknown; state?: unknown }>).detail;
+    if (detail?.profileId === profileId && detail.state === 'synced') {
+      void inspectRemoteChange();
+    }
+  });
   window.addEventListener('concursos:reading-focus-change', () => {
     semanticCaptureRequested = true;
     scheduleCapture(0);
@@ -766,6 +878,9 @@ export function startNavigationRuntime(): void {
       await runSaveCurrent();
     }
     announceNavigationReady(profileId);
+    if (studiedClearPendingBeforeReady && await hasPendingNavigation(profileId)) {
+      void synchronize(true).then(inspectRemoteChange);
+    }
   })().catch(() => {
     ready = true;
     announceNavigationReady(profileId);
