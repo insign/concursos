@@ -30,6 +30,8 @@ import { isStudied, loadStudied, studiedSubjectId } from './studied';
 
 const BLOCK_SELECTOR = 'h1,h2,h3,h4,h5,h6,p,li,pre,blockquote,table,figure';
 const CAPTURE_DEBOUNCE_MS = 800;
+const TOP_NAVIGATION_IDLE_MS = 200;
+const TOP_NAVIGATION_SCROLL_EPSILON_PX = 1;
 const RESTORE_CAPTURE_SUPPRESSION_MS = 3_000;
 const PERIODIC_SYNC_MS = 30_000;
 const INITIAL_AUTOMATIC_SYNC_DELAY_MS = 12_000;
@@ -48,6 +50,7 @@ let started = false;
 let runtimeProfileId: string | null | undefined;
 const readyProfiles = new Set<string>();
 const readyWaiters = new Map<string, Set<() => void>>();
+type TopNavigationPhase = 'idle' | 'settling' | 'parked';
 
 export function whenNavigationReady(profileId: string): Promise<void> {
   if (runtimeProfileId !== undefined && runtimeProfileId !== profileId) return Promise.resolve();
@@ -425,6 +428,11 @@ export function startNavigationRuntime(): void {
   let captureGeneration = 0;
   let explicitNavigation = false;
   let studiedClearPendingBeforeReady = false;
+  let topNavigationPhase: TopNavigationPhase = 'idle';
+  let topNavigationTimer: ReturnType<typeof setTimeout> | undefined;
+  let topNavigationObservedScroll = false;
+  let topNavigationInterrupted = false;
+  let topNavigationParkedY = 0;
   const automaticSyncAfter = Date.now() + INITIAL_AUTOMATIC_SYNC_DELAY_MS;
 
   const hideOffer = () => {
@@ -447,7 +455,12 @@ export function startNavigationRuntime(): void {
     forcePersist = false,
     ignoreSuppression = false,
   ): Promise<void> => {
-    if (!ready || offered || (!ignoreSuppression && Date.now() < suppressCaptureUntil)) return;
+    if (
+      topNavigationPhase !== 'idle' ||
+      !ready ||
+      offered ||
+      (!ignoreSuppression && Date.now() < suppressCaptureUntil)
+    ) return;
     const generation = captureGeneration;
     const catalog = await catalogPromise;
     if (generation !== captureGeneration || offered) return;
@@ -490,7 +503,7 @@ export function startNavigationRuntime(): void {
     const saved = await saveNavigationDocument(
       profileId,
       snapshot,
-      () => generation === captureGeneration && !offered,
+      () => generation === captureGeneration && !offered && topNavigationPhase === 'idle',
     );
     if (!saved || generation !== captureGeneration || offered) return;
     lastFingerprint = fingerprint;
@@ -514,7 +527,7 @@ export function startNavigationRuntime(): void {
 
   const scheduleCapture = (delay = CAPTURE_DEBOUNCE_MS) => {
     markNavigationPending();
-    if (!ready || offered) return;
+    if (!ready || offered || topNavigationPhase !== 'idle') return;
     if (captureTimer) clearTimeout(captureTimer);
     const run = () => {
       if (restoreInProgress) {
@@ -536,6 +549,41 @@ export function startNavigationRuntime(): void {
     const remainingSuppression = Math.max(0, suppressCaptureUntil - Date.now());
     suppressedCaptureRequested ||= remainingSuppression > 0;
     captureTimer = setTimeout(run, Math.max(delay, remainingSuppression));
+  };
+
+  const clearTopNavigationTimer = () => {
+    if (topNavigationTimer) clearTimeout(topNavigationTimer);
+    topNavigationTimer = undefined;
+  };
+
+  const finishTopNavigation = () => {
+    if (topNavigationPhase !== 'settling') return;
+    clearTopNavigationTimer();
+    if (topNavigationInterrupted && window.scrollY > TOP_NAVIGATION_SCROLL_EPSILON_PX) {
+      topNavigationPhase = 'idle';
+      scheduleCapture(0);
+      return;
+    }
+    topNavigationPhase = 'parked';
+    topNavigationParkedY = window.scrollY;
+  };
+
+  const armTopNavigationFallback = () => {
+    clearTopNavigationTimer();
+    topNavigationTimer = setTimeout(finishTopNavigation, TOP_NAVIGATION_IDLE_MS);
+  };
+
+  const beginTopNavigation = () => {
+    if (captureTimer) clearTimeout(captureTimer);
+    captureTimer = undefined;
+    clearTopNavigationTimer();
+    captureGeneration += 1;
+    suppressedCaptureRequested = false;
+    semanticCaptureRequested = false;
+    topNavigationPhase = 'settling';
+    topNavigationObservedScroll = false;
+    topNavigationInterrupted = false;
+    armTopNavigationFallback();
   };
 
   const restoreCurrentDocument = async (document: NavigationDocument): Promise<void> => {
@@ -698,11 +746,40 @@ export function startNavigationRuntime(): void {
   });
 
   offerUi?.stay.addEventListener('click', () => {
+    topNavigationPhase = 'idle';
+    clearTopNavigationTimer();
     hideOffer();
     void runSaveCurrent(true, true).then(() => synchronize(true));
   });
 
-  window.addEventListener('scroll', () => scheduleCapture(), { passive: true });
+  window.addEventListener('scroll', () => {
+    if (topNavigationPhase === 'settling') {
+      topNavigationObservedScroll = true;
+      armTopNavigationFallback();
+      return;
+    }
+    if (topNavigationPhase === 'parked') {
+      if (Math.abs(window.scrollY - topNavigationParkedY) <= TOP_NAVIGATION_SCROLL_EPSILON_PX) return;
+      topNavigationPhase = 'idle';
+    }
+    scheduleCapture();
+  }, { passive: true });
+  window.addEventListener('scrollend', () => {
+    if (topNavigationPhase === 'settling' && topNavigationObservedScroll) finishTopNavigation();
+  });
+  const markTopNavigationInterrupted = () => {
+    if (topNavigationPhase === 'settling') topNavigationInterrupted = true;
+  };
+  window.addEventListener('wheel', markTopNavigationInterrupted, { passive: true });
+  window.addEventListener('touchstart', markTopNavigationInterrupted, { passive: true });
+  window.addEventListener('pointerdown', markTopNavigationInterrupted, { passive: true });
+  document.addEventListener('keydown', (event) => {
+    if (
+      ['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(event.key)
+    ) {
+      markTopNavigationInterrupted();
+    }
+  });
   window.addEventListener('resize', () => scheduleCapture(1_200), { passive: true });
   document.addEventListener('change', (event) => {
     const input = event.target;
@@ -726,9 +803,11 @@ export function startNavigationRuntime(): void {
       !event.metaKey &&
       !event.ctrlKey &&
       !event.shiftKey &&
-      !event.altKey
+      !event.altKey &&
+      !event.defaultPrevented
     ) {
       explicitNavigation = true;
+      if (link.getAttribute('href') === '#study-top') beginTopNavigation();
     }
     if (
       target.closest(

@@ -20,6 +20,52 @@ async function revealReadingActions(page: Page): Promise<void> {
   );
 }
 
+async function localReadingProgress(page: Page): Promise<number | null> {
+  return page.evaluate(
+    (profileId) =>
+      new Promise<number | null>((resolve, reject) => {
+        const request = indexedDB.open('concursos-navigation', 1);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const database = request.result;
+          const get = database.transaction('navigation').objectStore('navigation').get(profileId);
+          get.onerror = () => reject(get.error);
+          get.onsuccess = () => {
+            resolve(get.result?.current?.readingPosition?.progress ?? null);
+            database.close();
+          };
+        };
+      }),
+    alias,
+  );
+}
+
+async function localNavigationState(page: Page): Promise<{
+  outboxState: string | null;
+  remoteVersion: number | null;
+}> {
+  return page.evaluate(
+    (profileId) =>
+      new Promise((resolve, reject) => {
+        const request = indexedDB.open('concursos-navigation', 1);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const database = request.result;
+          const get = database.transaction('navigation').objectStore('navigation').get(profileId);
+          get.onerror = () => reject(get.error);
+          get.onsuccess = () => {
+            resolve({
+              outboxState: get.result?.outboxState ?? null,
+              remoteVersion: get.result?.remoteVersion ?? null,
+            });
+            database.close();
+          };
+        };
+      }),
+    alias,
+  );
+}
+
 function remoteNavigation(
   route: string,
   contextOverrides: Record<string, unknown> = {},
@@ -101,6 +147,58 @@ test('publishes a semantic reading position without Authorization', async ({ pag
   expect(savedDocument.readingPosition?.relativeOffset).toBeGreaterThanOrEqual(0);
   expect(savedDocument.readingPosition?.progress).toBeGreaterThanOrEqual(0);
   expect(authorizationHeaders).toEqual([]);
+});
+
+test('preserves the reading point after going to the top and captures later scrolling', async ({
+  page,
+  kvStore,
+}) => {
+  await page.setViewportSize({ width: 390, height: 720 });
+  await page.goto(readingRoute);
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight * 0.45));
+  await expect
+    .poll(
+      () =>
+        (kvStore.get(navigationDocumentId)?.json as
+          | { readingPosition?: { progress?: number } | null }
+          | undefined)?.readingPosition?.progress ?? 0,
+      { timeout: 30_000 },
+    )
+    .toBeGreaterThan(0.1);
+
+  await revealReadingActions(page);
+  await expect
+    .poll(() => localNavigationState(page), { timeout: 30_000 })
+    .toMatchObject({ outboxState: 'clean' });
+  const before = kvStore.get(navigationDocumentId)!;
+  expect((await localNavigationState(page)).remoteVersion).toBe(before.version);
+  const beforeProgress = (before.json as { readingPosition: { progress: number } }).readingPosition
+    .progress;
+  expect(beforeProgress).toBeGreaterThan(0.1);
+
+  await page.getByRole('link', { name: 'Voltar ao topo' }).click();
+  await page.evaluate(() => window.dispatchEvent(new Event('pagehide')));
+  await expect(page).toHaveURL(/#study-top$/);
+  await expect(page.locator('#study-top')).toBeFocused();
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBeLessThan(100);
+  await page.waitForTimeout(1_200);
+
+  expect(kvStore.get(navigationDocumentId)?.version).toBe(before.version);
+  expect(await localReadingProgress(page)).toBeCloseTo(beforeProgress, 5);
+
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight * 0.75));
+  await expect
+    .poll(() => kvStore.get(navigationDocumentId)?.version ?? 0, { timeout: 30_000 })
+    .toBeGreaterThan(before.version);
+  await expect
+    .poll(
+      () =>
+        (kvStore.get(navigationDocumentId)?.json as
+          | { readingPosition?: { progress?: number } | null }
+          | undefined)?.readingPosition?.progress ?? 0,
+      { timeout: 30_000 },
+    )
+    .toBeGreaterThan(beforeProgress);
 });
 
 test('flushes pre-ready navigation before a PWA-controlled reload', async ({ page }) => {

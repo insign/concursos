@@ -45,6 +45,8 @@ O runtime considera headings, parágrafos, itens de lista, blocos de código, ci
 
 A restauração procura bloco, trecho, seção, índice e percentual, nesta ordem. Fontes e imagens recebem uma janela para estabilização, e o ajuste é repetido depois do primeiro scroll.
 
+O controle **Voltar ao topo** mantém o ponto anterior: o runtime descarta os eventos do salto nativo para `#study-top` e permanece estacionado no destino, impedindo que `pagehide`, flushers ou capturas periódicas salvem o início. A primeira rolagem posterior encerra essa proteção e volta ao debounce normal; se o usuário interromper a animação antes do topo, a posição final manual é capturada. Hash, foco e histórico continuam sob o comportamento nativo do navegador.
+
 Na aba de questões, o contexto visível é a âncora principal. O runtime aguarda o questionário concluir a montagem, materializa páginas ou blocos adicionais conforme o layout e não aplica depois um segundo scroll genérico de leitura.
 
 ## Retomada entre aparelhos
