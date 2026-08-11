@@ -95,19 +95,6 @@
           prepare: (profileId) =>
             prepareCompleteProfileAlias(profileId, {
               onPreflightComplete: ({ remoteDocumentCount }) => {
-                if (remoteDocumentCount > 0) {
-                  status.textContent = `Alias encontrado com ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} remoto${remoteDocumentCount === 1 ? '' : 's'}.`;
-                  const confirmed = window.confirm(
-                    `Este alias já possui ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} remoto${remoteDocumentCount === 1 ? '' : 's'}. Deseja vincular e usar esses dados neste dispositivo?`,
-                  );
-                  if (!confirmed) {
-                    throw new Error(
-                      getActiveAlias()
-                        ? 'Vinculação cancelada; o alias atual foi preservado.'
-                        : 'Vinculação cancelada; nenhum alias foi ativado.',
-                    );
-                  }
-                }
                 status.textContent =
                   remoteDocumentCount > 0
                     ? `Sincronizando ${remoteDocumentCount} documento${remoteDocumentCount === 1 ? '' : 's'} do perfil encontrado...`

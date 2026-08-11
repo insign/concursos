@@ -337,7 +337,7 @@ describe('alias profile preflight', () => {
     expect(await getSharedDocumentRecord('progress', profileId)).toBeUndefined();
   }, 10_000);
 
-  it('applies nothing when the lease expires during remote-profile confirmation', async () => {
+  it('applies nothing when the lease expires during the preflight callback', async () => {
     const now = Date.now();
     const remotes = new Map<string, MockRemoteDocument>([
       [
