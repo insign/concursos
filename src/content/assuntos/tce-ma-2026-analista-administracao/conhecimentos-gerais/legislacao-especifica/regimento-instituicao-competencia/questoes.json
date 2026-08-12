@@ -1,72 +1,80 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q5979",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No recorte de instituição e competência do Regimento Interno, o TCE/MA deve ser compreendido como",
+      "prompt": "No sistema de controle externo maranhense, o TCE/MA é",
       "options": [
         {
           "id": "A",
-          "text": "órgão de controle externo."
+          "text": "órgão constitucional de controle externo."
         },
         {
           "id": "B",
-          "text": "órgão do Poder Judiciário."
+          "text": "órgão de controle interno do Executivo."
         },
         {
           "id": "C",
-          "text": "controle interno do Executivo estadual."
+          "text": "órgão integrante do Poder Judiciário estadual."
         },
         {
           "id": "D",
           "text": "unidade regional do TCU."
+        },
+        {
+          "id": "E",
+          "text": "comissão permanente da Assembleia Legislativa."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A natureza institucional do TCE/MA é de órgão de controle externo, atuando com competências próprias e auxílio ao Legislativo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O TCE/MA exerce controle externo com competências próprias; não integra o Judiciário, não é controle interno e não é unidade do TCU. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5980",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A relação do TCE/MA com a Assembleia Legislativa, no controle externo estadual, é de",
+      "prompt": "A relação institucional do TCE/MA com a Assembleia Legislativa, no controle externo estadual, caracteriza-se por",
       "options": [
         {
           "id": "A",
-          "text": "subordinação administrativa integral."
+          "text": "subordinação hierárquica plena."
         },
         {
           "id": "B",
-          "text": "auxílio técnico-institucional, sem subordinação hierárquica."
+          "text": "auxílio ao Legislativo com competências próprias do Tribunal."
         },
         {
           "id": "C",
-          "text": "integração ao Poder Judiciário."
+          "text": "delegação integral das competências da Assembleia ao Tribunal."
         },
         {
           "id": "D",
-          "text": "substituição de todas as decisões políticas da Assembleia."
+          "text": "integração orgânica ao Poder Judiciário."
+        },
+        {
+          "id": "E",
+          "text": "controle interno exercido em nome do Executivo."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Auxílio não significa hierarquia. O Tribunal preserva competências próprias e o Legislativo preserva suas competências políticas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O auxílio ao Legislativo não cria subordinação hierárquica: Tribunal e Assembleia exercem competências constitucionais distintas. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5981",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A hierarquia normativa adequada para estudar competência do TCE/MA parte de",
+      "prompt": "Para estudar validamente as competências regimentais do TCE/MA, a sequência normativa mais adequada é",
       "options": [
         {
           "id": "A",
-          "text": "apenas notícias institucionais."
+          "text": "Regimento, portarias internas e notícias institucionais."
         },
         {
           "id": "B",
-          "text": "somente decisões de servidores técnicos."
+          "text": "Lei Orgânica, Regimento e atos privados de consolidação."
         },
         {
           "id": "C",
@@ -74,459 +82,531 @@
         },
         {
           "id": "D",
-          "text": "exclusivamente cópias privadas antigas do Regimento."
+          "text": "apenas o Regimento, por ser norma especial."
+        },
+        {
+          "id": "E",
+          "text": "apenas a Constituição Federal, sem considerar normas estaduais."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Constituição Federal, Constituição estadual, Lei Orgânica e Regimento formam a sequência normativa segura; fontes auxiliares não substituem normas superiores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O Regimento opera dentro da matriz constitucional e da Lei Orgânica; normas internas não prevalecem sobre normas superiores. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5982",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "A Lei Orgânica do TCE/MA e o Regimento Interno distinguem-se porque",
       "options": [
         {
           "id": "A",
-          "text": "o Regimento pode revogar livremente a Constituição estadual."
+          "text": "o Regimento pode afastar a Lei Orgânica em matéria processual."
         },
         {
           "id": "B",
-          "text": "a Lei Orgânica é apenas manual administrativo sem força normativa."
+          "text": "a Lei Orgânica é ato interno sem força legal."
         },
         {
           "id": "C",
-          "text": "ambos são notícias jornalísticas sem valor jurídico."
+          "text": "o Regimento contém somente regras de pessoal."
         },
         {
           "id": "D",
-          "text": "a Lei Orgânica estabelece o regime legal e competências, enquanto o Regimento organiza o funcionamento e exercício interno."
+          "text": "a Lei Orgânica estabelece o regime legal e o Regimento disciplina funcionamento e exercício interno."
+        },
+        {
+          "id": "E",
+          "text": "ambos possuem hierarquia constitucional."
         }
       ],
       "correctOptionId": "D",
-      "explanation": "O Regimento disciplina funcionamento e procedimentos internos, mas deve respeitar Constituição e Lei Orgânica. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A Lei nº 8.258/2005 é lei estadual; o Regimento disciplina a organização e o funcionamento do Tribunal dentro dos limites legais. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5983",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O TCE/MA exerce controle externo em relação",
+      "prompt": "Quanto ao âmbito de atuação, o controle externo do TCE/MA alcança",
       "options": [
         {
           "id": "A",
-          "text": "ao Estado e aos Municípios maranhenses, nos limites constitucionais e legais."
+          "text": "Estado e Municípios maranhenses, nos limites constitucionais e legais."
         },
         {
           "id": "B",
-          "text": "apenas ao Poder Executivo estadual."
+          "text": "somente o Poder Executivo estadual."
         },
         {
           "id": "C",
-          "text": "exclusivamente à União."
+          "text": "apenas os Municípios que não tenham controle interno."
         },
         {
           "id": "D",
-          "text": "somente a entidades privadas sem recursos públicos."
+          "text": "somente entidades da administração direta."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente recursos de origem estadual."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A competência do TCE/MA abrange âmbito estadual e municipal, inclusive responsáveis por recursos públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O TCE/MA atua no controle externo estadual e municipal segundo a Constituição estadual e sua legislação orgânica. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5984",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Pessoa jurídica privada que administra recursos públicos pode ser alcançada pelo controle do TCE/MA porque",
+      "prompt": "Uma pessoa jurídica privada pode sujeitar-se à prestação de contas perante o TCE/MA quando",
       "options": [
         {
           "id": "A",
-          "text": "toda pessoa privada se torna autarquia."
+          "text": "celebrar qualquer contrato privado no Maranhão."
         },
         {
           "id": "B",
-          "text": "o critério é o vínculo material com dinheiro, bens ou valores públicos."
+          "text": "administrar ou utilizar recursos públicos sujeitos ao controle."
         },
         {
           "id": "C",
-          "text": "o Tribunal fiscaliza qualquer empresa por livre escolha."
+          "text": "possuir inscrição estadual ativa."
         },
         {
           "id": "D",
-          "text": "a Constituição dispensa relação com recursos públicos."
+          "text": "receber investimento exclusivamente privado."
+        },
+        {
+          "id": "E",
+          "text": "não mantiver qualquer vínculo com o poder público."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O dever de prestar contas decorre do manejo ou responsabilidade por recursos públicos, não apenas da natureza estatal da pessoa. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O vínculo material com dinheiro, bens ou valores públicos pode atrair o dever de prestar contas, independentemente de a entidade ser privada. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5985",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Quanto às contas anuais do Governador, compete ao TCE/MA",
+      "prompt": "Sobre as contas anuais do Governador do Estado, compete ao TCE/MA",
       "options": [
         {
           "id": "A",
-          "text": "julgá-las politicamente em caráter final."
+          "text": "julgá-las definitivamente."
         },
         {
           "id": "B",
-          "text": "arquivá-las sem manifestação."
+          "text": "apreciá-las e emitir parecer prévio."
         },
         {
           "id": "C",
-          "text": "apreciá-las mediante parecer prévio."
+          "text": "aprová-las por decreto legislativo."
         },
         {
           "id": "D",
-          "text": "remetê-las diretamente ao TCU para julgamento."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "Contas anuais do chefe do Executivo recebem parecer prévio do Tribunal, não julgamento político final. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q5986",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Quanto às contas anuais dos Prefeitos Municipais, a atuação do TCE/MA consiste em",
-      "options": [
-        {
-          "id": "A",
-          "text": "julgar definitivamente sem participação da Câmara."
+          "text": "remetê-las ao TCU para julgamento."
         },
         {
-          "id": "B",
-          "text": "abster-se de atuar por serem contas municipais."
-        },
-        {
-          "id": "C",
-          "text": "encaminhar ao Senado Federal."
-        },
-        {
-          "id": "D",
-          "text": "emitir parecer prévio para julgamento pela Câmara Municipal."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "No controle municipal, a Câmara julga as contas anuais do Prefeito com auxílio do TCE/MA por parecer prévio. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q5987",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Parecer prévio do TCE/MA sobre contas de chefe do Executivo é",
-      "options": [
-        {
-          "id": "A",
-          "text": "manifestação técnica que subsidia julgamento do Legislativo competente."
-        },
-        {
-          "id": "B",
-          "text": "sentença judicial penal."
-        },
-        {
-          "id": "C",
-          "text": "julgamento final sem possibilidade de deliberação legislativa."
-        },
-        {
-          "id": "D",
-          "text": "ato privado sem relevância institucional."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "Parecer prévio instrui o julgamento político, mas não se confunde com sentença judicial nem com julgamento final pelo Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q5988",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "As contas de administradores e responsáveis por dinheiro, bens e valores públicos são, em regra, objeto de",
-      "options": [
-        {
-          "id": "A",
-          "text": "apenas parecer prévio sem julgamento."
-        },
-        {
-          "id": "B",
-          "text": "julgamento pelo TCE/MA."
-        },
-        {
-          "id": "C",
-          "text": "julgamento pelo eleitorado em plebiscito."
-        },
-        {
-          "id": "D",
-          "text": "controle exclusivo do Judiciário."
+          "id": "E",
+          "text": "apenas fiscalizar a execução sem manifestação conclusiva."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A competência de julgamento alcança administradores e responsáveis por recursos públicos, distinta do parecer prévio sobre chefe do Executivo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "As contas anuais do chefe do Executivo estadual recebem parecer prévio do Tribunal e são julgadas pela Assembleia Legislativa. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
-      "id": "q5989",
-      "revision": 1,
+      "id": "q5986",
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A página oficial de competências do TCE/MA atribui ao Tribunal o julgamento das contas anuais",
+      "prompt": "Quanto às contas anuais de Prefeito Municipal, a atuação do TCE/MA consiste em",
       "options": [
         {
           "id": "A",
-          "text": "do Presidente da República."
+          "text": "julgamento definitivo pelo Pleno."
         },
         {
           "id": "B",
-          "text": "dos ministros do STF."
+          "text": "registro para fins de legalidade."
         },
         {
           "id": "C",
-          "text": "dos Presidentes das Câmaras Municipais."
+          "text": "parecer prévio para julgamento pela Câmara Municipal."
         },
         {
           "id": "D",
-          "text": "do Senado Federal."
+          "text": "homologação da decisão do controle interno."
+        },
+        {
+          "id": "E",
+          "text": "remessa obrigatória ao TCU."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A fonte institucional indica essa competência local, que deve ser distinguida das contas anuais de prefeitos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O Tribunal emite parecer prévio; o julgamento das contas anuais do Prefeito cabe à Câmara Municipal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
-      "id": "q5990",
-      "revision": 1,
+      "id": "q5987",
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Auditorias, inspeções e acompanhamentos do TCE/MA podem ter natureza",
+      "prompt": "O parecer prévio emitido pelo TCE/MA sobre contas de chefe do Executivo é",
       "options": [
         {
           "id": "A",
-          "text": "somente criminal."
+          "text": "decisão judicial com coisa julgada."
         },
         {
           "id": "B",
-          "text": "apenas eleitoral."
+          "text": "manifestação técnica que subsidia o julgamento legislativo."
         },
         {
           "id": "C",
-          "text": "exclusivamente disciplinar privada."
+          "text": "ato de registro de pessoal."
         },
         {
           "id": "D",
-          "text": "contábil, financeira, orçamentária, operacional ou patrimonial."
+          "text": "sanção administrativa autônoma."
+        },
+        {
+          "id": "E",
+          "text": "julgamento definitivo das contas."
         }
       ],
-      "correctOptionId": "D",
-      "explanation": "As dimensões de fiscalização seguem a matriz constitucional CFOOP: contábil, financeira, orçamentária, operacional e patrimonial. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "Parecer prévio não se confunde com julgamento final nem com sentença judicial; ele instrui o julgamento pelo Legislativo competente. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q5988",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em regra, as contas de administradores e demais responsáveis por dinheiro, bens e valores públicos são",
+      "options": [
+        {
+          "id": "A",
+          "text": "objeto apenas de parecer prévio."
+        },
+        {
+          "id": "B",
+          "text": "julgadas pelo TCE/MA."
+        },
+        {
+          "id": "C",
+          "text": "julgadas pela Assembleia Legislativa em qualquer caso."
+        },
+        {
+          "id": "D",
+          "text": "submetidas apenas ao controle interno."
+        },
+        {
+          "id": "E",
+          "text": "registradas sem exame de mérito."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A competência de julgamento alcança administradores e responsáveis, distinguindo-se das contas anuais do chefe do Executivo. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q5989",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo a disciplina institucional local, as contas anuais dos Presidentes das Câmaras Municipais são",
+      "options": [
+        {
+          "id": "A",
+          "text": "apreciadas apenas por parecer prévio."
+        },
+        {
+          "id": "B",
+          "text": "julgadas pelo TCE/MA."
+        },
+        {
+          "id": "C",
+          "text": "julgadas pelo Governador."
+        },
+        {
+          "id": "D",
+          "text": "registradas pelo TCU."
+        },
+        {
+          "id": "E",
+          "text": "aprovadas pelo próprio Presidente da Câmara."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A página institucional de competências do TCE/MA registra o julgamento das contas anuais dos Presidentes das Câmaras Municipais. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q5990",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Auditorias, inspeções e acompanhamentos do TCE/MA podem abranger fiscalização",
+      "options": [
+        {
+          "id": "A",
+          "text": "tributária, penal, eleitoral, trabalhista e civil."
+        },
+        {
+          "id": "B",
+          "text": "contábil, financeira, orçamentária, operacional e patrimonial."
+        },
+        {
+          "id": "C",
+          "text": "apenas financeira e orçamentária."
+        },
+        {
+          "id": "D",
+          "text": "apenas operacional e patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "somente contábil, quando provocada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As cinco dimensões clássicas do controle externo são contábil, financeira, orçamentária, operacional e patrimonial. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5991",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
       "prompt": "Auditorias e inspeções do TCE/MA",
       "options": [
         {
           "id": "A",
-          "text": "podem decorrer de iniciativa própria ou de solicitação prevista constitucionalmente."
+          "text": "dependem sempre de autorização judicial."
         },
         {
           "id": "B",
-          "text": "dependem sempre de sentença judicial prévia."
+          "text": "podem ser realizadas por iniciativa própria ou por solicitação institucional prevista."
         },
         {
           "id": "C",
-          "text": "só ocorrem após encerramento do exercício."
+          "text": "só podem ocorrer depois do encerramento do exercício."
         },
         {
           "id": "D",
-          "text": "são proibidas em órgãos municipais."
+          "text": "não alcançam órgãos municipais."
+        },
+        {
+          "id": "E",
+          "text": "só podem analisar aspectos contábeis."
         }
       ],
-      "correctOptionId": "A",
-      "explanation": "A competência fiscalizatória admite iniciativa própria e provocações institucionais previstas, inclusive no âmbito municipal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "A fiscalização pode decorrer da iniciativa do Tribunal ou das solicitações legitimadas pelo ordenamento. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5992",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A apreciação, para fins de registro, pelo TCE/MA alcança, em regra,",
+      "prompt": "A apreciação para fins de registro pelo TCE/MA alcança, em regra,",
       "options": [
         {
           "id": "A",
-          "text": "nomeações para cargo em comissão sem exceção."
-        },
-        {
-          "id": "B",
           "text": "admissões e concessões iniciais de aposentadoria, reforma e pensão."
         },
         {
-          "id": "C",
-          "text": "todas as promoções internas sem relação com fundamento legal."
-        },
-        {
-          "id": "D",
-          "text": "apenas contratos de obras."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A competência de registro alcança admissões e concessões iniciais, com ressalvas constitucionais. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q5993",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "No registro de atos de pessoal, nomeações para cargo em comissão",
-      "options": [
-        {
-          "id": "A",
-          "text": "exigem sempre registro prévio do TCE/MA."
-        },
-        {
           "id": "B",
-          "text": "são julgadas como contas anuais."
+          "text": "contratos administrativos e convênios."
         },
         {
           "id": "C",
-          "text": "são ressalvadas da apreciação de admissão para registro."
+          "text": "todas as nomeações em cargo em comissão."
         },
         {
           "id": "D",
-          "text": "transformam-se em aposentadoria."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "A matriz constitucional exclui nomeações para cargo em comissão do registro de admissão, sem impedir outros controles de legalidade. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q5994",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Melhoria posterior em aposentadoria que não altera o fundamento legal do ato concessório",
-      "options": [
-        {
-          "id": "A",
-          "text": "sempre exige julgamento pelo Legislativo."
+          "text": "somente aposentadorias voluntárias."
         },
         {
-          "id": "B",
-          "text": "é controlada exclusivamente pelo TCU."
-        },
-        {
-          "id": "C",
-          "text": "anula automaticamente o ato original."
-        },
-        {
-          "id": "D",
-          "text": "não exige novo registro."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "A ressalva constitucional afasta novo registro quando a melhoria não altera o fundamento legal da concessão. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q5995",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Convênio, acordo, ajuste ou instrumento congênere com repasse de recursos públicos pode ser fiscalizado pelo TCE/MA porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "envolve aplicação de recursos sujeitos a controle externo."
-        },
-        {
-          "id": "B",
-          "text": "todo ajuste privado é automaticamente contrato federal."
-        },
-        {
-          "id": "C",
-          "text": "o Tribunal substitui o gestor convenente."
-        },
-        {
-          "id": "D",
-          "text": "recursos repassados nunca exigem prestação de contas."
+          "id": "E",
+          "text": "atos de criação de cargos por lei."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Transferências e instrumentos congêneres estão no alcance fiscalizatório quando envolvem recursos públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A matriz constitucional prevê registro de admissões e concessões iniciais de aposentadoria, reforma e pensão, com ressalvas expressas. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
-      "id": "q5996",
-      "revision": 1,
+      "id": "q5993",
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Subvenções, auxílios e contribuições aparecem no estudo do Assunto 055 como",
+      "prompt": "No controle de atos de pessoal, a nomeação para cargo em comissão",
       "options": [
         {
           "id": "A",
-          "text": "órgãos internos do TCE/MA."
+          "text": "depende sempre de registro prévio."
         },
         {
           "id": "B",
-          "text": "categorias de recursos cuja aplicação pode ser fiscalizada."
+          "text": "é ressalvada do registro de admissão."
         },
         {
           "id": "C",
-          "text": "espécies de recurso processual."
+          "text": "equivale a provimento efetivo para fins de registro."
         },
         {
           "id": "D",
-          "text": "cargos de conselheiro-substituto."
+          "text": "é julgada como conta de gestão."
+        },
+        {
+          "id": "E",
+          "text": "somente pode ser apreciada pelo TCU."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Essas modalidades de transferência ou apoio financeiro integram o alcance do controle sobre recursos públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A Constituição ressalva as nomeações para cargo em comissão da apreciação de admissão para fins de registro. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
-      "id": "q5997",
-      "revision": 1,
+      "id": "q5994",
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A competência do TCE/MA sobre quotas-partes municipais envolve, conforme a fonte institucional, aspectos como",
+      "prompt": "Uma melhoria posterior em aposentadoria, sem alteração do fundamento legal da concessão,",
       "options": [
         {
           "id": "A",
-          "text": "nomeação de ministros do TCU."
+          "text": "exige novo registro em qualquer hipótese."
         },
         {
           "id": "B",
-          "text": "eleição de vereadores."
+          "text": "é automaticamente nula."
         },
         {
           "id": "C",
-          "text": "cálculo, distribuição, entrega ou aplicação de valores pertencentes aos Municípios."
+          "text": "dispensa novo registro."
         },
         {
           "id": "D",
-          "text": "julgamento de crimes eleitorais."
+          "text": "depende de julgamento da Assembleia."
+        },
+        {
+          "id": "E",
+          "text": "converte o ato em pensão."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "A página de competências registra atuação sobre quotas-partes e recursos devidos aos Municípios. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A ressalva constitucional dispensa novo registro quando a melhoria não altera o fundamento legal do ato concessório. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
-      "id": "q5998",
-      "revision": 1,
+      "id": "q5995",
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Fiscalizar o cumprimento da Lei de Responsabilidade Fiscal é, no Assunto 055, tratado como",
+      "prompt": "A aplicação de recursos públicos transferidos por convênio, acordo, ajuste ou instrumento congênere",
       "options": [
         {
           "id": "A",
-          "text": "tema estranho ao controle externo."
+          "text": "fica fora do controle por haver transferência."
         },
         {
           "id": "B",
-          "text": "competência exclusiva do Judiciário."
+          "text": "pode ser fiscalizada pelo TCE/MA."
         },
         {
           "id": "C",
-          "text": "ato de criação de cargos."
+          "text": "só pode ser fiscalizada pelo controle interno."
         },
         {
           "id": "D",
-          "text": "competência temática do TCE/MA, sem aprofundar sanções e ritos."
+          "text": "transforma a entidade recebedora em autarquia."
+        },
+        {
+          "id": "E",
+          "text": "depende de decisão judicial para ser examinada."
         }
       ],
-      "correctOptionId": "D",
-      "explanation": "O recorte identifica a competência fiscalizatória, deixando infrações, sanções e procedimentos para assuntos posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "Transferências de recursos públicos permanecem sujeitas ao controle externo quanto à sua aplicação. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q5996",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Subvenções, auxílios e contribuições aparecem no âmbito das competências do TCE/MA como",
+      "options": [
+        {
+          "id": "A",
+          "text": "espécies de recurso processual."
+        },
+        {
+          "id": "B",
+          "text": "formas de repasse cuja aplicação pode ser fiscalizada."
+        },
+        {
+          "id": "C",
+          "text": "órgãos internos do Tribunal."
+        },
+        {
+          "id": "D",
+          "text": "modalidades de parecer prévio."
+        },
+        {
+          "id": "E",
+          "text": "sanções aplicáveis a gestores."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "São modalidades de transferência ou apoio financeiro que podem envolver aplicação de recursos públicos fiscalizáveis. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q5997",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A atuação do TCE/MA sobre quotas-partes municipais pode abranger",
+      "options": [
+        {
+          "id": "A",
+          "text": "eleição dos membros das Câmaras."
+        },
+        {
+          "id": "B",
+          "text": "cálculo, distribuição e entrega de valores pertencentes aos Municípios."
+        },
+        {
+          "id": "C",
+          "text": "fixação de alíquotas de tributos federais."
+        },
+        {
+          "id": "D",
+          "text": "criação de novos Municípios."
+        },
+        {
+          "id": "E",
+          "text": "aprovação da lei orgânica municipal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O controle externo pode alcançar receitas e repartições de recursos devidos aos Municípios, conforme a disciplina institucional. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q5998",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Fiscalizar o cumprimento da Lei de Responsabilidade Fiscal é",
+      "options": [
+        {
+          "id": "A",
+          "text": "competência incompatível com tribunal de contas."
+        },
+        {
+          "id": "B",
+          "text": "atividade exclusiva do Judiciário."
+        },
+        {
+          "id": "C",
+          "text": "uma das matérias de controle atribuídas ao TCE/MA."
+        },
+        {
+          "id": "D",
+          "text": "atribuição apenas do controle interno."
+        },
+        {
+          "id": "E",
+          "text": "competência exclusiva da União."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Responsabilidade fiscal integra o campo material de fiscalização dos tribunais de contas. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q5999",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Prestar informações solicitadas pelo Legislativo sobre fiscalizações e resultados de auditorias é exemplo de competência",
+      "prompt": "Prestar informações ao Legislativo sobre fiscalizações e resultados de auditorias constitui competência",
       "options": [
         {
           "id": "A",
@@ -538,77 +618,629 @@
         },
         {
           "id": "C",
-          "text": "privada e sem controle público."
+          "text": "exclusivamente consultiva sem relação com controle."
         },
         {
           "id": "D",
-          "text": "exclusiva das empresas contratadas."
+          "text": "privativa do controle interno."
+        },
+        {
+          "id": "E",
+          "text": "de registro de atos de pessoal."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O Tribunal presta informações aos órgãos legislativos competentes sobre fiscalizações, auditorias e inspeções. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O Tribunal presta informações aos órgãos legislativos competentes sobre fiscalizações, auditorias e inspeções. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6000",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A divulgação de informações sobre resultados de inspeções, auditorias, prestações e tomadas de contas relaciona-se à",
+      "prompt": "A divulgação de resultados de inspeções, auditorias e processos de contas",
       "options": [
         {
           "id": "A",
-          "text": "eliminação de todo sigilo legal."
+          "text": "elimina todo sigilo previsto em lei."
         },
         {
           "id": "B",
-          "text": "transparência e accountability do controle externo."
+          "text": "relaciona-se à transparência do controle externo, observados os limites legais."
         },
         {
           "id": "C",
-          "text": "substituição do julgamento pelo controle social."
+          "text": "substitui o julgamento formal das contas."
         },
         {
           "id": "D",
-          "text": "atividade comercial do Tribunal."
+          "text": "dispensa fundamentação das decisões."
+        },
+        {
+          "id": "E",
+          "text": "é incompatível com accountability."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "Transparência fortalece controle social, sem substituir decisões institucionais nem afastar sigilos legais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Transparência amplia o controle social, mas deve respeitar sigilos legais e não substitui a atuação decisória do Tribunal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6001",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Elaborar e alterar seu próprio Regimento Interno demonstra que o TCE/MA possui",
+      "prompt": "A competência do TCE/MA para elaborar e alterar seu Regimento Interno evidencia",
       "options": [
         {
           "id": "A",
-          "text": "poder de revogar livremente a Constituição."
+          "text": "poder constituinte derivado."
         },
         {
           "id": "B",
-          "text": "competência penal originária."
+          "text": "autonomia normativa interna dentro dos limites constitucionais e legais."
         },
         {
           "id": "C",
-          "text": "autonomia normativa interna nos limites da Constituição e da lei."
+          "text": "subordinação ao TCU."
         },
         {
           "id": "D",
-          "text": "subordinação ao TCU."
+          "text": "competência legislativa geral sobre os Municípios."
+        },
+        {
+          "id": "E",
+          "text": "poder judicial de editar sentenças normativas."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "O Tribunal organiza seu funcionamento por Regimento, mas não pode contrariar normas superiores nem criar competências sem base legal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "O Tribunal disciplina seu próprio funcionamento, mas o Regimento deve respeitar a Constituição e a lei. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6002",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Organizar a Secretaria e propor alterações legais sobre cargos e funções é competência que evidencia",
+      "prompt": "A organização dos próprios serviços e da Secretaria do TCE/MA evidencia principalmente",
       "options": [
         {
           "id": "A",
-          "text": "poder de julgar ações penais."
+          "text": "autonomia administrativa institucional."
+        },
+        {
+          "id": "B",
+          "text": "controle interno do Poder Executivo."
+        },
+        {
+          "id": "C",
+          "text": "competência penal originária."
+        },
+        {
+          "id": "D",
+          "text": "subordinação às Câmaras Municipais."
+        },
+        {
+          "id": "E",
+          "text": "jurisdição judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A organização dos serviços auxiliares integra a autonomia administrativa do Tribunal, nos limites legais. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6003",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao identificar ilegalidade em matéria sujeita ao seu controle, o TCE/MA pode, nos casos previstos,",
+      "options": [
+        {
+          "id": "A",
+          "text": "fixar prazo para adoção das providências necessárias ao cumprimento da lei."
+        },
+        {
+          "id": "B",
+          "text": "alterar a Constituição estadual por resolução."
+        },
+        {
+          "id": "C",
+          "text": "substituir definitivamente o gestor em suas funções."
+        },
+        {
+          "id": "D",
+          "text": "editar lei estadual sem participação do Legislativo."
+        },
+        {
+          "id": "E",
+          "text": "anular decisão judicial transitada em julgado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Entre os poderes de controle está assinalar prazo para correção ou cumprimento da lei; o rito específico é tratado em assunto posterior. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6004",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A determinação de medidas corretivas pelo TCE/MA deve ser compreendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "exercício de competência de controle dentro da base constitucional e legal."
+        },
+        {
+          "id": "B",
+          "text": "poder de administrar diretamente o órgão fiscalizado."
+        },
+        {
+          "id": "C",
+          "text": "substituição automática do controle interno."
+        },
+        {
+          "id": "D",
+          "text": "atividade jurisdicional penal."
+        },
+        {
+          "id": "E",
+          "text": "competência sem necessidade de fundamento normativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Tribunal pode determinar providências de controle nos limites de sua competência, sem assumir a gestão do órgão fiscalizado. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6005",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A sustação de atos pelo TCE/MA",
+      "options": [
+        {
+          "id": "A",
+          "text": "é impossível em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "pode integrar os poderes de controle nos casos previstos pelo ordenamento."
+        },
+        {
+          "id": "C",
+          "text": "equivale à revogação de lei estadual."
+        },
+        {
+          "id": "D",
+          "text": "depende sempre de sentença penal."
+        },
+        {
+          "id": "E",
+          "text": "transforma o Tribunal em órgão legislativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A sustação é instrumento de controle sujeito aos pressupostos constitucionais e legais; detalhes procedimentais ficam para assuntos posteriores. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6006",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A adoção de medida cautelar pelo TCE/MA deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorrer sem base legal ou motivação."
+        },
+        {
+          "id": "B",
+          "text": "respeitar os pressupostos e limites legais do controle externo."
+        },
+        {
+          "id": "C",
+          "text": "substituir toda decisão final."
+        },
+        {
+          "id": "D",
+          "text": "depender de autorização do TCU."
+        },
+        {
+          "id": "E",
+          "text": "ser confundida com parecer prévio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cautelares são instrumentos de proteção do resultado útil do controle e dependem de fundamento e pressupostos próprios. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6007",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Representar ao poder competente sobre irregularidade ou abuso apurado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "competência institucional de controle."
+        },
+        {
+          "id": "B",
+          "text": "forma de julgamento das contas do Governador."
+        },
+        {
+          "id": "C",
+          "text": "modalidade de registro de aposentadoria."
+        },
+        {
+          "id": "D",
+          "text": "ato de controle interno do Executivo."
+        },
+        {
+          "id": "E",
+          "text": "sanção penal aplicada pelo Tribunal."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A representação comunica irregularidade ou abuso ao poder competente e não se confunde com julgamento de contas ou sanção penal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6008",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A apreciação de denúncia pelo TCE/MA deve ser entendida, neste recorte, como",
+      "options": [
+        {
+          "id": "A",
+          "text": "competência que existe, deixando rito e requisitos para assunto processual próprio."
+        },
+        {
+          "id": "B",
+          "text": "processo inexistente no controle externo."
+        },
+        {
+          "id": "C",
+          "text": "julgamento penal de denunciado."
+        },
+        {
+          "id": "D",
+          "text": "competência exclusiva das Câmaras Municipais."
+        },
+        {
+          "id": "E",
+          "text": "ato sem previsão regimental."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O assunto 055 reconhece a competência; legitimidade, admissibilidade, tramitação e decisão pertencem ao recorte específico de denúncias e representações. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6009",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A consulta dirigida ao TCE/MA diferencia-se da auditoria porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "consulta busca pronunciamento institucional nas hipóteses regimentais; auditoria é instrumento de fiscalização."
+        },
+        {
+          "id": "B",
+          "text": "consulta sempre julga contas anuais."
+        },
+        {
+          "id": "C",
+          "text": "auditoria só responde dúvidas abstratas."
+        },
+        {
+          "id": "D",
+          "text": "consulta é recurso contra decisão judicial."
+        },
+        {
+          "id": "E",
+          "text": "ambas são sinônimos processuais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Consulta e auditoria são instrumentos distintos; o procedimento da consulta é tratado em assunto posterior. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6010",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A apreciação de constitucionalidade pelo TCE/MA, quando cabível,",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma o Tribunal em corte constitucional com controle abstrato geral."
+        },
+        {
+          "id": "B",
+          "text": "ocorre nos limites reconhecidos ao exercício do controle externo."
+        },
+        {
+          "id": "C",
+          "text": "permite revogar emenda constitucional."
+        },
+        {
+          "id": "D",
+          "text": "substitui o Supremo Tribunal Federal."
+        },
+        {
+          "id": "E",
+          "text": "é incompatível com qualquer atividade de contas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Tribunais de contas podem enfrentar constitucionalidade incidentalmente no exercício de suas competências, sem assumir controle abstrato geral. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6011",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre competência e procedimento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "competência indica se o Tribunal pode atuar; procedimento indica como a atuação tramita."
+        },
+        {
+          "id": "B",
+          "text": "competência e procedimento são sinônimos."
+        },
+        {
+          "id": "C",
+          "text": "procedimento cria competência inexistente."
+        },
+        {
+          "id": "D",
+          "text": "competência só surge depois do recurso."
+        },
+        {
+          "id": "E",
+          "text": "procedimento pertence exclusivamente ao Judiciário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O assunto 055 concentra-se no poder de atuar; rito, órgão interno, prazo e recurso pertencem aos assuntos seguintes."
+    },
+    {
+      "id": "q6012",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Parcerias público-privadas e processos de desestatização",
+      "options": [
+        {
+          "id": "A",
+          "text": "estão necessariamente fora do alcance dos tribunais de contas."
+        },
+        {
+          "id": "B",
+          "text": "podem integrar o objeto do controle externo conforme a legislação aplicável."
+        },
+        {
+          "id": "C",
+          "text": "são fiscalizados apenas pelo Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "dispensam prestação de contas por envolverem particulares."
+        },
+        {
+          "id": "E",
+          "text": "são sempre julgados por parecer prévio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A página institucional do TCE/MA inclui essas matérias entre objetos de fiscalização, conforme a legislação aplicável. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6013",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Prestar informações ao Legislativo e julgar contas são competências",
+      "options": [
+        {
+          "id": "A",
+          "text": "idênticas quanto ao objeto e ao efeito."
+        },
+        {
+          "id": "B",
+          "text": "distintas: uma é informativa e a outra produz decisão de contas."
+        },
+        {
+          "id": "C",
+          "text": "ambas formas de parecer prévio."
+        },
+        {
+          "id": "D",
+          "text": "exclusivas do controle interno."
+        },
+        {
+          "id": "E",
+          "text": "que dependem de sentença judicial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Verbos diferentes expressam atuações e efeitos diferentes do Tribunal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6014",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fiscalização da renúncia de receitas demonstra que o controle externo",
+      "options": [
+        {
+          "id": "A",
+          "text": "se limita a despesas já pagas."
+        },
+        {
+          "id": "B",
+          "text": "também alcança decisões que afetam a arrecadação pública."
+        },
+        {
+          "id": "C",
+          "text": "não examina matéria financeira."
+        },
+        {
+          "id": "D",
+          "text": "só pode ocorrer após dano efetivo."
+        },
+        {
+          "id": "E",
+          "text": "é exclusivo do Poder Executivo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O controle financeiro e orçamentário alcança receitas e renúncias, não apenas despesas. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6015",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fiscalização de declarações de bens e rendas, quando prevista em lei,",
+      "options": [
+        {
+          "id": "A",
+          "text": "converte o TCE/MA em órgão tributário federal."
+        },
+        {
+          "id": "B",
+          "text": "integra atribuições de controle e não equivale a julgamento penal."
+        },
+        {
+          "id": "C",
+          "text": "é competência exclusiva das Câmaras."
+        },
+        {
+          "id": "D",
+          "text": "dispensa base legal."
+        },
+        {
+          "id": "E",
+          "text": "substitui a declaração de imposto de renda."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A atribuição é de controle e transparência patrimonial, sem natureza penal ou tributária geral. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6016",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao acompanhar a arrecadação de receitas públicas, o TCE/MA exerce",
+      "options": [
+        {
+          "id": "A",
+          "text": "controle externo de matéria financeira e orçamentária."
+        },
+        {
+          "id": "B",
+          "text": "atividade eleitoral."
+        },
+        {
+          "id": "C",
+          "text": "jurisdição penal."
+        },
+        {
+          "id": "D",
+          "text": "função legislativa municipal."
+        },
+        {
+          "id": "E",
+          "text": "controle exclusivamente patrimonial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Receita pública integra o objeto do controle financeiro e orçamentário. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6017",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A competência de registro de atos de pessoal é essencialmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "controle de legalidade de admissões e concessões iniciais, com ressalvas constitucionais."
+        },
+        {
+          "id": "B",
+          "text": "julgamento político do chefe do Executivo."
+        },
+        {
+          "id": "C",
+          "text": "poder de nomear servidores."
+        },
+        {
+          "id": "D",
+          "text": "aprovação legislativa de aposentadorias."
+        },
+        {
+          "id": "E",
+          "text": "competência para criar benefícios."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O registro examina a legalidade dos atos indicados na Constituição, respeitando as exceções expressas. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6018",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A afirmação de que o TCE/MA não fiscaliza Municípios por ser um tribunal estadual é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "incorreta, pois o Tribunal também participa do controle externo municipal."
+        },
+        {
+          "id": "C",
+          "text": "correta apenas para receitas municipais."
+        },
+        {
+          "id": "D",
+          "text": "incorreta porque Municípios são fiscalizados exclusivamente pelo TCU."
+        },
+        {
+          "id": "E",
+          "text": "correta quando houver controle interno municipal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Constituição estadual atribui ao TCE/MA funções de auxílio às Câmaras e fiscalização no âmbito municipal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6019",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Organizar competências por verbos como apreciar, julgar, fiscalizar e registrar é útil porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "evidencia que atuações diferentes possuem objetos e efeitos distintos."
+        },
+        {
+          "id": "B",
+          "text": "prova que todos os verbos têm o mesmo efeito."
+        },
+        {
+          "id": "C",
+          "text": "dispensa o estudo das normas."
+        },
+        {
+          "id": "D",
+          "text": "transforma competência em procedimento."
+        },
+        {
+          "id": "E",
+          "text": "elimina a diferença entre parecer e julgamento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A técnica evita confundir competências semelhantes em aparência, mas juridicamente distintas."
+    },
+    {
+      "id": "q6020",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A expressão \"órgão de controle externo\", aplicada ao TCE/MA, afasta a ideia de que ele seja",
+      "options": [
+        {
+          "id": "A",
+          "text": "instituição com competências próprias."
         },
         {
           "id": "B",
@@ -616,951 +1248,559 @@
         },
         {
           "id": "C",
-          "text": "competência da Câmara Municipal sobre o TCU."
+          "text": "órgão fiscalizador de recursos públicos."
         },
         {
           "id": "D",
-          "text": "autonomia administrativa institucional."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "Competências de organização administrativa demonstram autonomia institucional, respeitados os limites legais e constitucionais. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6003",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "No Assunto 055, denúncias, representações e consultas devem ser tratadas",
-      "options": [
-        {
-          "id": "A",
-          "text": "apenas como competências identificáveis, pois o rito específico fica para assunto posterior."
+          "text": "auxiliar do Legislativo no controle externo."
         },
         {
-          "id": "B",
-          "text": "com todos os prazos e recursos detalhados."
-        },
-        {
-          "id": "C",
-          "text": "como tema proibido em qualquer parte do edital."
-        },
-        {
-          "id": "D",
-          "text": "como atos exclusivos do Poder Judiciário."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "O recorte é competência institucional; procedimentos de denúncia, representação e consulta pertencem a assunto posterior. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6004",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Se uma pergunta exige saber qual órgão interno do TCE/MA decide determinado processo, ela tende a pertencer ao recorte de",
-      "options": [
-        {
-          "id": "A",
-          "text": "apenas natureza institucional e competência geral."
-        },
-        {
-          "id": "B",
-          "text": "órgãos, sessões, deliberação ou processos, e não ao núcleo do Assunto 055."
-        },
-        {
-          "id": "C",
-          "text": "ortografia oficial."
-        },
-        {
-          "id": "D",
-          "text": "controle jurisdicional do Poder Judiciário."
+          "id": "E",
+          "text": "tribunal de contas estadual."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O Assunto 055 identifica competências; órgão interno, sessão, distribuição e deliberação são recortes posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6005",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A distinção entre competência e procedimento é corretamente expressa por",
-      "options": [
-        {
-          "id": "A",
-          "text": "competência e procedimento são sinônimos perfeitos."
-        },
-        {
-          "id": "B",
-          "text": "procedimento elimina necessidade de competência."
-        },
-        {
-          "id": "C",
-          "text": "competência indica se o Tribunal pode atuar; procedimento indica como a atuação tramita."
-        },
-        {
-          "id": "D",
-          "text": "competência só existe após recurso judicial."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "O recorte do assunto é majoritariamente competencial; tramitação detalhada pertence aos recortes posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6006",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Afirmar que o Regimento Interno pode criar consequência restritiva sem previsão legal é",
-      "options": [
-        {
-          "id": "A",
-          "text": "correto, pois regimento supera a lei."
-        },
-        {
-          "id": "B",
-          "text": "correto apenas para Municípios."
-        },
-        {
-          "id": "C",
-          "text": "irrelevante, porque o TCE/MA não possui competências próprias."
-        },
-        {
-          "id": "D",
-          "text": "incorreto, pois poderes restritivos dependem de base legal e competência."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "Regimento organiza o exercício das competências, mas não substitui a legalidade exigida para poderes restritivos e efeitos gravosos. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6007",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "O controle exercido pelo TCE/MA sobre receitas e renúncia de receitas demonstra que o Tribunal",
-      "options": [
-        {
-          "id": "A",
-          "text": "não se limita a conferir despesas pagas."
-        },
-        {
-          "id": "B",
-          "text": "só fiscaliza folha de pagamento."
-        },
-        {
-          "id": "C",
-          "text": "atua exclusivamente após condenação penal."
-        },
-        {
-          "id": "D",
-          "text": "não possui competência financeira."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A competência fiscalizatória abrange receita, renúncia, transferências, patrimônio e responsabilidade fiscal, além de despesas. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6008",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "No estudo do Regimento, a cópia histórica atribuída à Biblioteca do TCE/MA deve ser usada",
-      "options": [
-        {
-          "id": "A",
-          "text": "como única fonte superior à Constituição."
-        },
-        {
-          "id": "B",
-          "text": "com cautela, como fonte auxiliar, porque não substitui consolidação oficial vigente."
-        },
-        {
-          "id": "C",
-          "text": "para ignorar alterações posteriores."
-        },
-        {
-          "id": "D",
-          "text": "como prova de que a Lei Orgânica não existe."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "A pesquisa não localizou consolidação oficial integral extraível; por isso fontes oficiais atuais e alterações devem prevalecer sobre cópia histórica auxiliar. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6009",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A Resolução Administrativa TCE/MA nº 1/2000 é relevante porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "extinguiu o TCE/MA."
-        },
-        {
-          "id": "B",
-          "text": "criou o TCU."
-        },
-        {
-          "id": "C",
-          "text": "aprovou o texto originário do Regimento Interno do Tribunal."
-        },
-        {
-          "id": "D",
-          "text": "revogou a Constituição estadual."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "O ato de 2000 é identificado como a resolução que aprovou o texto originário do Regimento Interno; o Regimento vigente deve ser conferido com alterações posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6010",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A existência de alterações regimentais posteriores significa que o candidato deve",
-      "options": [
-        {
-          "id": "A",
-          "text": "ignorar o Regimento inteiro."
-        },
-        {
-          "id": "B",
-          "text": "presumir que toda alteração revoga a Constituição."
-        },
-        {
-          "id": "C",
-          "text": "usar apenas bancos privados."
-        },
-        {
-          "id": "D",
-          "text": "conferir vigência e não estudar apenas texto antigo isolado."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "Alterações posteriores podem modificar dispositivos regimentais; fonte antiga isolada é risco de prova. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6011",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A página oficial de competências do TCE/MA é útil porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "relaciona atribuições institucionais com fundamentos constitucionais e legais."
-        },
-        {
-          "id": "B",
-          "text": "substitui integralmente todos os textos normativos."
-        },
-        {
-          "id": "C",
-          "text": "é banco privado de questões."
-        },
-        {
-          "id": "D",
-          "text": "nega a existência de controle municipal."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A página institucional não é consolidação do Regimento, mas ajuda a identificar o rol de competências e seus fundamentos. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6012",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A competência de fiscalizar parcerias público-privadas e desestatizações, no Assunto 055, deve ser estudada como",
-      "options": [
-        {
-          "id": "A",
-          "text": "tema de sessões e deliberação detalhada."
-        },
-        {
-          "id": "B",
-          "text": "exemplo de amplitude temática do controle, sem aprofundar rito específico."
-        },
-        {
-          "id": "C",
-          "text": "matéria estranha ao TCE/MA em qualquer hipótese."
-        },
-        {
-          "id": "D",
-          "text": "exclusivamente função judicial."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "O assunto identifica a competência e sua amplitude; ritos e decisões específicas ficam para outros recortes. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6013",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A competência de prestar informações ao Legislativo sobre fiscalizações difere do julgamento de contas porque",
-      "options": [
-        {
-          "id": "A",
-          "text": "é sentença judicial criminal."
-        },
-        {
-          "id": "B",
-          "text": "elimina todo processo de controle externo."
-        },
-        {
-          "id": "C",
-          "text": "tem natureza informativa e não substitui a decisão própria de contas."
-        },
-        {
-          "id": "D",
-          "text": "é ato exclusivo de pessoa privada conveniada."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "Prestar informações é competência institucional de transparência e comunicação com o Legislativo, distinta do julgamento de contas e de seus efeitos. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6014",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A fiscalização de renúncia de receitas pelo TCE/MA confirma que a competência do Tribunal",
-      "options": [
-        {
-          "id": "A",
-          "text": "se limita a conferir saldo bancário no fim do exercício."
-        },
-        {
-          "id": "B",
-          "text": "exclui a Lei de Responsabilidade Fiscal."
-        },
-        {
-          "id": "C",
-          "text": "depende sempre de condenação penal anterior."
-        },
-        {
-          "id": "D",
-          "text": "também alcança decisões que reduzem arrecadação pública, e não apenas despesa paga."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "O controle externo abrange receitas, renúncias, responsabilidade fiscal e outros objetos financeiros, sem se restringir a despesas liquidadas ou pagas. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6015",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Em matéria de competência, a atuação do TCE/MA sobre declaração de bens e rendas deve ser entendida como",
-      "options": [
-        {
-          "id": "A",
-          "text": "uma atribuição legal de fiscalização, sem confundir com julgamento penal."
-        },
-        {
-          "id": "B",
-          "text": "poder de legislar sobre imposto de renda federal."
-        },
-        {
-          "id": "C",
-          "text": "função exclusiva da Câmara Municipal."
-        },
-        {
-          "id": "D",
-          "text": "atividade privada sem interesse público."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "A atribuição integra o controle de probidade e transparência patrimonial, sem converter o Tribunal em juízo penal. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6016",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Quando o TCE/MA acompanha a arrecadação da receita, ele atua em fiscalização",
-      "options": [
-        {
-          "id": "A",
-          "text": "eleitoral partidária."
-        },
-        {
-          "id": "B",
-          "text": "financeira e de controle externo sobre recursos públicos."
-        },
-        {
-          "id": "C",
-          "text": "penal privativa."
-        },
-        {
-          "id": "D",
-          "text": "sem base constitucional."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "Receitas públicas integram o objeto do controle financeiro e orçamentário. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6017",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "No recorte do Assunto 055, a competência de registrar atos de pessoal deve ser entendida como",
-      "options": [
-        {
-          "id": "A",
-          "text": "julgamento político das contas do Governador."
-        },
-        {
-          "id": "B",
-          "text": "poder de nomear servidores para cargo em comissão."
-        },
-        {
-          "id": "C",
-          "text": "controle de legalidade de admissões e concessões iniciais, com ressalvas constitucionais."
-        },
-        {
-          "id": "D",
-          "text": "competência para criar aposentadorias por regimento."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "O registro examina legalidade de admissões e concessões iniciais de aposentadoria, reforma e pensão, respeitando exceções como cargo em comissão e melhorias sem novo fundamento legal. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6018",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Uma questão afirma que o TCE/MA não atua sobre Municípios porque é Tribunal estadual. A afirmação está",
-      "options": [
-        {
-          "id": "A",
-          "text": "correta, pois somente o TCU fiscaliza Municípios."
-        },
-        {
-          "id": "B",
-          "text": "correta, pois Municípios não prestam contas."
-        },
-        {
-          "id": "C",
-          "text": "errada apenas porque o TCE/MA integra o Judiciário municipal."
-        },
-        {
-          "id": "D",
-          "text": "errada, pois o TCE/MA também auxilia Câmaras Municipais e fiscaliza responsáveis municipais."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "O alcance do TCE/MA inclui âmbito estadual e municipal, com auxílio às Câmaras Municipais no controle externo. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6019",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Quando o conteúdo organiza competências por verbos, essa técnica serve para",
-      "options": [
-        {
-          "id": "A",
-          "text": "distinguir tipos de atuação como apreciar, julgar, fiscalizar, registrar e informar."
-        },
-        {
-          "id": "B",
-          "text": "provar que todos os verbos têm o mesmo efeito jurídico."
-        },
-        {
-          "id": "C",
-          "text": "substituir o estudo das fontes normativas."
-        },
-        {
-          "id": "D",
-          "text": "eliminar diferenças entre parecer prévio e julgamento."
-        }
-      ],
-      "correctOptionId": "A",
-      "explanation": "O método por verbos evita confundir competências com efeitos distintos, especialmente parecer prévio, julgamento, fiscalização e registro. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6020",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "A expressão órgão de controle externo, aplicada ao TCE/MA, afasta a ideia de que o Tribunal seja",
-      "options": [
-        {
-          "id": "A",
-          "text": "órgão com competências constitucionais e legais."
-        },
-        {
-          "id": "B",
-          "text": "controle interno do Executivo ou órgão subordinado hierarquicamente ao Legislativo."
-        },
-        {
-          "id": "C",
-          "text": "instituição de fiscalização de recursos públicos."
-        },
-        {
-          "id": "D",
-          "text": "auxiliar técnico do controle externo legislativo."
-        }
-      ],
-      "correctOptionId": "B",
-      "explanation": "O TCE/MA exerce controle externo autônomo; auxílio ao Legislativo não equivale a subordinação e controle externo não se confunde com controle interno. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Controle externo e controle interno são funções distintas; o TCE/MA exerce a primeira. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6021",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O Regimento Interno é importante para concursos porque",
+      "prompt": "O Regimento Interno é relevante para a prova porque",
       "options": [
         {
           "id": "A",
-          "text": "substitui todo o edital."
+          "text": "concretiza organização, funcionamento e exercício das competências do TCE/MA."
         },
         {
           "id": "B",
-          "text": "dispensa estudo da Constituição."
+          "text": "substitui a Constituição e a Lei Orgânica."
         },
         {
           "id": "C",
-          "text": "concretiza a organização e o exercício das competências do TCE/MA."
+          "text": "é apenas manual sem força normativa."
         },
         {
           "id": "D",
-          "text": "é manual privado de etiqueta."
+          "text": "trata somente de remuneração de servidores."
+        },
+        {
+          "id": "E",
+          "text": "afasta automaticamente alterações posteriores."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "O Regimento estrutura funcionamento e procedimentos do Tribunal, observando as normas superiores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "A",
+      "explanation": "O Regimento disciplina o funcionamento do Tribunal subordinadamente às normas superiores. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6022",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A competência do TCE/MA para propor à Assembleia projeto de lei sobre matéria de sua competência indica",
+      "prompt": "A iniciativa do TCE/MA para propor alterações legislativas sobre matéria de sua competência",
       "options": [
         {
           "id": "A",
-          "text": "capacidade de aprovar leis sozinho."
+          "text": "permite que o Tribunal aprove leis sozinho."
         },
         {
           "id": "B",
-          "text": "substituição da Assembleia Legislativa."
+          "text": "integra sua autonomia institucional, sem poder legislativo geral."
         },
         {
           "id": "C",
-          "text": "competência penal sobre deputados."
+          "text": "subordina a Assembleia ao Tribunal."
         },
         {
           "id": "D",
-          "text": "iniciativa institucional limitada à sua esfera, sem poder legislativo geral."
+          "text": "equivale a emenda constitucional automática."
+        },
+        {
+          "id": "E",
+          "text": "é incompatível com a separação de poderes."
         }
       ],
-      "correctOptionId": "D",
-      "explanation": "A iniciativa em matéria própria integra autonomia institucional, mas não transforma o Tribunal em Poder Legislativo. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "A iniciativa em matéria própria não confere ao Tribunal poder de aprovar leis sem o processo legislativo. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6023",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Quando o Regimento organiza serviços auxiliares e o exercício interno das competências, ele atua",
+      "prompt": "Quando o Regimento organiza serviços auxiliares e o exercício interno das competências, ele atua como",
       "options": [
         {
           "id": "A",
-          "text": "como norma de funcionamento subordinada à Constituição e à Lei Orgânica."
+          "text": "norma interna subordinada à Constituição e à Lei Orgânica."
         },
         {
           "id": "B",
-          "text": "como emenda constitucional estadual."
+          "text": "emenda à Constituição estadual."
         },
         {
           "id": "C",
-          "text": "como decisão judicial penal."
+          "text": "lei federal especial."
         },
         {
           "id": "D",
-          "text": "como contrato privado de prestação de serviços."
+          "text": "decisão judicial com efeito geral."
+        },
+        {
+          "id": "E",
+          "text": "ato privado de gestão."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "O Regimento disciplina funcionamento e organização interna, sempre dentro dos limites constitucionais e legais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O Regimento possui função normativa interna e deve respeitar a hierarquia normativa. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6024",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Uma questão que afirma que o TCE/MA só pode fiscalizar o Poder Executivo estadual está",
+      "prompt": "A afirmação de que o TCE/MA só pode fiscalizar o Poder Executivo estadual é",
       "options": [
         {
           "id": "A",
-          "text": "correta, pois Legislativo e Judiciário são imunes ao controle."
+          "text": "correta, porque os demais Poderes não administram recursos."
         },
         {
           "id": "B",
-          "text": "errada, pois o controle alcança órgãos e entidades estaduais e municipais sujeitos à sua jurisdição."
+          "text": "incorreta, porque o controle alcança unidades e responsáveis sujeitos à sua jurisdição."
         },
         {
           "id": "C",
-          "text": "correta apenas em ano eleitoral."
+          "text": "correta para fiscalização patrimonial."
         },
         {
           "id": "D",
-          "text": "errada porque o TCE/MA fiscaliza apenas a União."
+          "text": "incorreta apenas quanto ao TCU."
+        },
+        {
+          "id": "E",
+          "text": "correta quando há orçamento próprio."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A fiscalização não se limita ao Executivo estadual; alcança unidades dos poderes e entidades submetidas ao controle. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O alcance do controle não se limita ao Executivo; depende da sujeição constitucional e legal ao dever de contas. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6025",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A afirmação 'o TCE/MA é órgão do Poder Judiciário porque julga contas' é",
+      "prompt": "O fato de o TCE/MA julgar determinadas contas significa que",
       "options": [
         {
           "id": "A",
-          "text": "correta, porque toda palavra julgamento pertence ao Judiciário."
+          "text": "ele integra o Poder Judiciário."
         },
         {
           "id": "B",
-          "text": "correta apenas em contas municipais."
+          "text": "todo julgamento de contas produz sentença judicial."
         },
         {
           "id": "C",
-          "text": "incorreta, pois julgamento de contas não é jurisdição judicial."
+          "text": "o julgamento de contas é função própria do controle externo, não jurisdição judicial."
         },
         {
           "id": "D",
-          "text": "irrelevante, pois o TCE/MA não julga nada."
+          "text": "o Tribunal pode julgar crimes conexos."
+        },
+        {
+          "id": "E",
+          "text": "suas decisões substituem qualquer decisão do Legislativo."
         }
       ],
       "correctOptionId": "C",
-      "explanation": "Tribunais de contas podem julgar contas, mas não integram o Poder Judiciário nem proferem sentença judicial. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Tribunais de contas julgam contas, mas não integram o Poder Judiciário nem exercem jurisdição penal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6026",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O controle interno dos órgãos fiscalizados e o controle externo do TCE/MA",
+      "prompt": "Controle interno dos órgãos fiscalizados e controle externo do TCE/MA",
       "options": [
         {
           "id": "A",
-          "text": "são o mesmo órgão."
+          "text": "são funções distintas que podem coexistir e se complementar."
         },
         {
           "id": "B",
-          "text": "não podem coexistir."
+          "text": "não podem coexistir no mesmo ente."
         },
         {
           "id": "C",
-          "text": "só existem no Poder Judiciário."
+          "text": "são exercidos sempre pelo mesmo órgão."
         },
         {
           "id": "D",
-          "text": "são distintos e complementares."
+          "text": "só existem no Executivo."
+        },
+        {
+          "id": "E",
+          "text": "são sinônimos constitucionais."
         }
       ],
-      "correctOptionId": "D",
-      "explanation": "O TCE/MA exerce controle externo; controles internos pertencem à estrutura de cada poder ou órgão fiscalizado. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "A",
+      "explanation": "A Constituição prevê sistemas de controle interno e controle externo com funções distintas e complementares. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6027",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "No Assunto 055, o estudo da Lei Orgânica do TCE/MA serve principalmente para",
+      "prompt": "No estudo do assunto 055, a Lei nº 8.258/2005 é importante principalmente porque",
       "options": [
         {
           "id": "A",
-          "text": "compreender o fundamento legal do rol de competências."
+          "text": "detalha o fundamento legal da jurisdição e das competências do TCE/MA."
         },
         {
           "id": "B",
-          "text": "decorar todos os prazos recursais."
+          "text": "substitui a Constituição Federal."
         },
         {
           "id": "C",
-          "text": "substituir a Constituição Federal."
+          "text": "é o próprio Regimento Interno."
         },
         {
           "id": "D",
-          "text": "identificar classes gramaticais."
+          "text": "trata apenas de licitações."
+        },
+        {
+          "id": "E",
+          "text": "revoga automaticamente atos regimentais posteriores."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "A Lei Orgânica detalha competências e regime legal; prazos e recursos pertencem a assuntos posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "A Lei Orgânica é fonte legal central para compreender as competências que o Regimento organiza. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6028",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "O estudo de prazos, provas, decisões e recursos no Regimento Interno deve ser reservado, conforme o roadmap, para",
+      "prompt": "Para o concurso de 2026, o Regimento deve ser estudado considerando",
       "options": [
         {
           "id": "A",
-          "text": "o mesmo bloco de natureza e competência, sem separação."
+          "text": "somente o texto originário de 2000."
         },
         {
           "id": "B",
-          "text": "assuntos posteriores ao 055."
+          "text": "as alterações vigentes até a publicação do edital em 6/7/2026."
         },
         {
           "id": "C",
-          "text": "matéria de Língua Portuguesa."
+          "text": "apenas alterações posteriores à prova."
         },
         {
           "id": "D",
-          "text": "nenhum estudo, pois não cai em edital."
+          "text": "qualquer cópia histórica, sem conferência."
+        },
+        {
+          "id": "E",
+          "text": "somente notícias institucionais."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O roadmap separa instituição e competência dos temas procedimentais, decisórios e recursais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O edital permite cobrança da legislação vigente até sua publicação; alterações regimentais anteriores ao corte devem ser consideradas."
     },
     {
       "id": "q6029",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Se uma questão pergunta como tramita determinado processo no TCE/MA, com prazos e recursos, ela está cobrando",
+      "prompt": "Uma cópia histórica do Regimento Interno",
       "options": [
         {
           "id": "A",
-          "text": "apenas a natureza institucional do TCE/MA."
+          "text": "deve prevalecer sobre atos oficiais posteriores."
         },
         {
           "id": "B",
-          "text": "somente a hierarquia entre Constituição e Lei Orgânica."
+          "text": "pode servir como apoio, mas precisa ser conferida com alterações oficiais vigentes."
         },
         {
           "id": "C",
-          "text": "procedimento, tema reservado a assuntos posteriores do roadmap."
+          "text": "substitui a Lei Orgânica."
         },
         {
           "id": "D",
-          "text": "o conceito de parecer prévio sem qualquer rito."
+          "text": "é suficiente para afirmar a redação atual de qualquer dispositivo."
+        },
+        {
+          "id": "E",
+          "text": "dispensa consulta ao Diário Oficial do Tribunal."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "O Assunto 055 trata de instituição e competência; tramitação, prazos, decisões e recursos pertencem aos recortes posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "O texto originário sofreu alterações; por isso uma reprodução antiga isolada não garante a redação vigente."
     },
     {
       "id": "q6030",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Ao fiscalizar a aplicação de recursos por entidade privada conveniada, o TCE/MA",
+      "prompt": "Ao fiscalizar uma entidade privada conveniada, o TCE/MA",
       "options": [
         {
           "id": "A",
-          "text": "federaliza a entidade privada."
+          "text": "transforma a entidade em autarquia."
         },
         {
           "id": "B",
-          "text": "renuncia ao controle por ser pessoa privada."
+          "text": "controla a aplicação dos recursos públicos sem alterar, por isso, a natureza privada da entidade."
         },
         {
           "id": "C",
+          "text": "passa a gerir diretamente a entidade."
+        },
+        {
+          "id": "D",
           "text": "julga criminalmente seus dirigentes."
         },
         {
-          "id": "D",
-          "text": "controla a aplicação do recurso público, sem transformar necessariamente a entidade em órgão público."
+          "id": "E",
+          "text": "fica impedido de exigir prestação de contas."
         }
       ],
-      "correctOptionId": "D",
-      "explanation": "O vínculo é com o recurso público e a obrigação de prestar contas, não com alteração automática da natureza jurídica da entidade. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "A sujeição ao controle decorre do recurso público administrado e não de mudança automática da personalidade jurídica. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6031",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Na distinção entre parecer prévio e julgamento, o caso que pertence ao parecer prévio é",
+      "prompt": "Qual situação corresponde a parecer prévio, e não a julgamento de contas pelo TCE/MA?",
       "options": [
         {
           "id": "A",
-          "text": "contas anuais do Prefeito Municipal."
+          "text": "contas anuais do Prefeito."
         },
         {
           "id": "B",
-          "text": "contas de administradores responsáveis por recursos."
+          "text": "contas de administrador de autarquia."
         },
         {
           "id": "C",
-          "text": "contas anuais de Presidente de Câmara Municipal segundo fonte institucional."
+          "text": "contas de responsável por dano ao erário."
         },
         {
           "id": "D",
-          "text": "julgamento de responsável por dano ao erário."
+          "text": "contas anuais de Presidente de Câmara Municipal, conforme disciplina local."
+        },
+        {
+          "id": "E",
+          "text": "tomada de contas de gestor responsável."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Contas anuais do Prefeito recebem parecer prévio para julgamento pela Câmara Municipal; contas de gestores e responsáveis pertencem ao eixo de julgamento pelo Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "As contas anuais do Prefeito recebem parecer prévio para julgamento pela Câmara Municipal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6032",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A ausência de versão oficial única, consolidada e extraível do Regimento Interno exige que o estudo",
+      "prompt": "Se houver conflito entre uma regra regimental e norma constitucional aplicável,",
       "options": [
         {
           "id": "A",
-          "text": "ignore a Constituição e use apenas a cópia histórica."
+          "text": "prevalece o Regimento por especialidade."
         },
         {
           "id": "B",
-          "text": "registre a limitação documental e confira normas superiores e fontes oficiais atuais."
+          "text": "a norma constitucional prevalece."
         },
         {
           "id": "C",
-          "text": "presuma que todo texto antigo está automaticamente vigente."
+          "text": "prevalece a norma mais recente, qualquer que seja sua hierarquia."
         },
         {
           "id": "D",
-          "text": "substitua o edital por bancos privados de questões."
+          "text": "o conflito é resolvido pela Câmara Municipal."
+        },
+        {
+          "id": "E",
+          "text": "ambas deixam de produzir efeitos automaticamente."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "A limitação documental deve ser declarada, e o estudo deve apoiar-se nas fontes oficiais disponíveis, Constituição, Lei Orgânica, página de competências e alterações localizadas. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O Regimento é norma interna e deve conformar-se à Constituição e à lei. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6033",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Ao fiscalizar cumprimento da LRF e renúncia de receitas, o TCE/MA demonstra competência sobre",
+      "prompt": "O controle de responsabilidade fiscal e de renúncia de receitas demonstra que o TCE/MA",
       "options": [
         {
           "id": "A",
-          "text": "matéria eleitoral exclusiva."
+          "text": "atua também sobre receitas e gestão fiscal, não apenas sobre despesas."
         },
         {
           "id": "B",
-          "text": "assuntos privados sem recursos públicos."
+          "text": "somente julga contas anuais."
         },
         {
           "id": "C",
-          "text": "responsabilidade fiscal e receita pública, além de despesas e contas."
+          "text": "não exerce fiscalização financeira."
         },
         {
           "id": "D",
-          "text": "apenas controle interno do Executivo."
-        }
-      ],
-      "correctOptionId": "C",
-      "explanation": "A competência do Tribunal abrange responsabilidade fiscal, receitas, renúncias, transferências, patrimônio e outras matérias públicas previstas em lei. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6034",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "No estudo de competência, 'fiscalizar' e 'julgar' são verbos que",
-      "options": [
-        {
-          "id": "A",
-          "text": "sempre significam a mesma coisa."
+          "text": "depende de provocação judicial."
         },
         {
-          "id": "B",
-          "text": "só existem no Judiciário."
-        },
-        {
-          "id": "C",
-          "text": "não aparecem em controle externo."
-        },
-        {
-          "id": "D",
-          "text": "indicam atuações distintas do Tribunal."
-        }
-      ],
-      "correctOptionId": "D",
-      "explanation": "Verbos diferentes indicam competências e efeitos diferentes; o método por verbos evita confundir fiscalização com julgamento. Fonte: questão autoral baseada nas referências do conteúdo."
-    },
-    {
-      "id": "q6035",
-      "revision": 1,
-      "origin": "authorial",
-      "prompt": "Uma questão que cobra a competência de elaborar e alterar o Regimento Interno deve ser respondida afirmando que essa competência é",
-      "options": [
-        {
-          "id": "A",
-          "text": "do próprio TCE/MA, nos limites constitucionais e legais."
-        },
-        {
-          "id": "B",
-          "text": "exclusiva do TCU."
-        },
-        {
-          "id": "C",
-          "text": "da Câmara Municipal de São Luís."
-        },
-        {
-          "id": "D",
-          "text": "do Ministério Público comum."
+          "id": "E",
+          "text": "atua como órgão arrecadador."
         }
       ],
       "correctOptionId": "A",
-      "explanation": "Elaborar e alterar o Regimento é competência institucional do Tribunal, respeitados os limites superiores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O objeto do controle externo é amplo e inclui receitas, renúncias e responsabilidade fiscal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
-      "id": "q6036",
-      "revision": 1,
+      "id": "q6034",
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A principal pergunta do Assunto 055 é",
+      "prompt": "No vocabulário das competências do TCE/MA, \"fiscalizar\" e \"julgar\"",
       "options": [
         {
           "id": "A",
-          "text": "qual recurso cabe contra cada decisão."
+          "text": "são sinônimos perfeitos."
         },
         {
           "id": "B",
-          "text": "qual é a posição institucional do TCE/MA e quais competências gerais ele possui."
+          "text": "indicam atuações distintas do Tribunal."
         },
         {
           "id": "C",
-          "text": "como são distribuídos todos os processos."
+          "text": "só se aplicam a contas de Prefeito."
         },
         {
           "id": "D",
-          "text": "qual é o rito completo das consultas."
+          "text": "produzem sempre parecer prévio."
+        },
+        {
+          "id": "E",
+          "text": "são verbos exclusivos do Judiciário."
         }
       ],
       "correctOptionId": "B",
-      "explanation": "O recorte é instituição e competência; recursos, distribuição e consultas detalhadas serão estudados depois. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Fiscalização e julgamento possuem objetos e efeitos jurídicos diferentes; distinguir os verbos é central para a prova."
+    },
+    {
+      "id": "q6035",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A elaboração e alteração do Regimento Interno competem",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao próprio TCE/MA, dentro dos limites constitucionais e legais."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente ao TCU."
+        },
+        {
+          "id": "C",
+          "text": "à Assembleia Legislativa por decreto."
+        },
+        {
+          "id": "D",
+          "text": "ao Governador por regulamento."
+        },
+        {
+          "id": "E",
+          "text": "às Câmaras Municipais em conjunto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A autonomia normativa interna permite ao Tribunal disciplinar seu funcionamento, respeitando as normas superiores. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
+    },
+    {
+      "id": "q6036",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O núcleo do assunto \"instituição e competência\" é identificar",
+      "options": [
+        {
+          "id": "A",
+          "text": "a posição institucional do TCE/MA e o que ele pode fazer no controle externo."
+        },
+        {
+          "id": "B",
+          "text": "todos os prazos processuais do Regimento."
+        },
+        {
+          "id": "C",
+          "text": "a composição detalhada de cada Câmara."
+        },
+        {
+          "id": "D",
+          "text": "cada hipótese de recurso."
+        },
+        {
+          "id": "E",
+          "text": "o rito completo das consultas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O recorte é institucional e competencial; detalhes de organização e processo estão nos assuntos seguintes."
     },
     {
       "id": "q6037",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "Assinale a alternativa correta sobre o TCE/MA no recorte de competência.",
+      "prompt": "Assinale a síntese correta sobre o TCE/MA.",
       "options": [
         {
           "id": "A",
-          "text": "É órgão judicial que só julga crimes estaduais."
+          "text": "É órgão do Judiciário com atuação apenas estadual."
         },
         {
           "id": "B",
-          "text": "Fiscaliza apenas entidades privadas sem recursos públicos."
+          "text": "É órgão de controle externo, com atuação estadual e municipal e competências próprias de apreciação, julgamento e fiscalização."
         },
         {
           "id": "C",
-          "text": "Atua como órgão de controle externo, em âmbito estadual e municipal, com competências de apreciar, julgar, fiscalizar, registrar, informar e organizar seu funcionamento."
+          "text": "É unidade do TCU responsável por recursos federais."
         },
         {
           "id": "D",
-          "text": "Existe apenas para emitir notícias institucionais sem função normativa."
+          "text": "Exerce somente controle interno da administração estadual."
+        },
+        {
+          "id": "E",
+          "text": "Limita-se a emitir pareceres, sem competência para julgar contas de responsáveis."
         }
       ],
-      "correctOptionId": "C",
-      "explanation": "A alternativa reúne natureza, alcance e verbos centrais do TCE/MA segundo as fontes normativas e institucionais. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "A alternativa reúne natureza, alcance e competências centrais do Tribunal. Base: CF/88 (arts. 70, 71 e 75), Constituição do Maranhão, Lei nº 8.258/2005 e competências institucionais do TCE/MA."
     },
     {
       "id": "q6038",
-      "revision": 1,
+      "revision": 2,
       "origin": "authorial",
-      "prompt": "A melhor síntese da fronteira editorial deste assunto é",
+      "prompt": "A melhor fronteira editorial para este assunto é",
       "options": [
         {
           "id": "A",
-          "text": "esgotar todos os procedimentos do Regimento Interno."
+          "text": "esgotar ritos, recursos e sanções do Regimento."
         },
         {
           "id": "B",
-          "text": "abandonar o Regimento e estudar apenas Constituição Federal."
+          "text": "explicar instituição e competências gerais, remetendo organização e procedimentos aos assuntos seguintes."
         },
         {
           "id": "C",
-          "text": "tratar somente de informática aplicada."
+          "text": "tratar somente da Constituição Federal."
         },
         {
           "id": "D",
-          "text": "explicar instituição e competências gerais, sem antecipar ritos, órgãos internos, decisões, sanções e recursos."
+          "text": "antecipar toda a estrutura interna do Tribunal."
+        },
+        {
+          "id": "E",
+          "text": "restringir o estudo a parecer prévio."
         }
       ],
-      "correctOptionId": "D",
-      "explanation": "O roadmap segmenta o Regimento; o Assunto 055 cobre instituição e competências, deixando demais blocos para os assuntos 056 a 063. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "O assunto 055 cobre instituição e competências; organização interna, processos, decisões, sanções e recursos são recortes posteriores."
     }
   ]
 }
