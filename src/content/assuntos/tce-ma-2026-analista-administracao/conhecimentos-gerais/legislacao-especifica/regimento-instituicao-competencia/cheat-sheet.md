@@ -1,118 +1,107 @@
 # Regimento Interno do TCE/MA: instituição e competência
 
-## Fontes
+## Corte
 
-Hierarquia:
+- Edital: **6/7/2026**.
+- Regimento originário: Resolução Administrativa TCE/MA nº 1/2000, **com alterações posteriores**.
+- Resolução TCE/MA nº 441/2026: alteração regimental anterior ao edital.
+- Não estudar cópia histórica isolada como se fosse consolidação vigente.
 
-1. Constituição Federal;
-2. Constituição do Maranhão;
-3. Lei Orgânica do TCE/MA;
-4. Regimento Interno.
+## Hierarquia útil
 
-Regimento organiza funcionamento; não cria competência contra a Constituição ou a lei.
+**CF → Constituição do MA → Lei nº 8.258/2005 → Regimento Interno**
+
+Regimento organiza funcionamento e exercício interno; não supera Constituição nem lei.
 
 ## Natureza
 
-- TCE/MA = órgão de controle externo.
-- Não integra o Judiciário.
-- Não é controle interno.
-- Não é subordinado hierárquico da Assembleia ou das Câmaras.
-- Não é unidade do TCU.
+- TCE/MA = **controle externo**.
+- Auxilia Assembleia Legislativa e Câmaras Municipais.
+- **Auxílio ≠ subordinação.**
+- **Julgar contas ≠ Poder Judiciário.**
+- Atua no **Estado + Municípios** maranhenses.
+- Pessoa privada pode prestar contas se administrar recurso público.
 
-## Âmbito
+## Matriz dos verbos
 
-Abrange:
+| Verbo | Objeto | Resultado |
+| --- | --- | --- |
+| **apreciar** | contas anuais do Governador/Prefeito | parecer prévio |
+| **julgar** | administradores e responsáveis | decisão de contas |
+| **julgar** | Presidente de Câmara Municipal | contas, conforme disciplina local |
+| **apreciar para registro** | admissão; aposentadoria, reforma e pensão iniciais | controle de legalidade |
+| **fiscalizar** | gestão, receita, despesa, patrimônio, transferências | controle externo |
+| **realizar** | auditoria, inspeção, acompanhamento | fiscalização |
+| **informar** | Legislativo/resultados de fiscalização | informação institucional |
+| **determinar** | correção/cumprimento da lei | providência corretiva |
+| **representar** | irregularidade ou abuso | comunicação ao poder competente |
+| **normatizar internamente** | funcionamento do Tribunal | Regimento/atos internos |
 
-- Estado;
-- Municípios;
-- órgãos e entidades;
-- gestores;
-- pessoa física ou jurídica, pública ou privada, que administre recursos públicos;
-- causadores de dano ao erário.
+## Parecer prévio × julgamento
 
-## Verbos principais
-
-| Verbo | Competência |
+| Contas | TCE/MA |
 | --- | --- |
-| apreciar | contas anuais do Governador e dos Prefeitos, por parecer prévio |
-| julgar | contas de administradores e responsáveis |
-| julgar | contas anuais de presidentes de Câmaras Municipais, segundo fonte institucional |
-| fiscalizar | órgãos, entidades, recursos, receitas, renúncias, transferências |
-| realizar | auditorias, inspeções e acompanhamentos |
-| registrar | admissões e concessões iniciais de aposentadoria, reforma e pensão |
-| informar | Legislativo sobre fiscalizações e resultados |
-| elaborar | Regimento Interno |
+| Governador | **parecer prévio** |
+| Prefeito | **parecer prévio** |
+| administrador/responsável | **julga** |
+| Presidente de Câmara Municipal | **julga**, conforme regra local |
 
-## Parecer x julgamento
-
-| Objeto | Atuação |
-| --- | --- |
-| contas anuais do Governador | parecer prévio |
-| contas anuais do Prefeito | parecer prévio |
-| contas de gestores | julgamento |
-| contas de Presidente de Câmara Municipal | julgamento, conforme fonte institucional |
-
-Parecer prévio não é sentença nem julgamento final do chefe do Executivo.
-
-## Auditorias
-
-Podem ser:
-
-- contábeis;
-- financeiras;
-- orçamentárias;
-- operacionais;
-- patrimoniais.
-
-Podem ocorrer por iniciativa própria ou por solicitação constitucionalmente prevista.
+**Prefeito:** Câmara Municipal julga; parecer prévio só deixa de prevalecer por **2/3** dos vereadores.
 
 ## Registro de pessoal
 
-Entra:
+**Entra:**
 
-- admissão de pessoal;
+- admissão;
 - aposentadoria inicial;
 - reforma;
 - pensão.
 
-Não entra:
+**Não entra:**
 
 - nomeação para cargo em comissão;
-- melhoria posterior sem alteração do fundamento legal.
+- melhoria posterior sem alteração do fundamento legal da concessão.
 
-## Recursos e transferências
+## Fiscalização: 5 dimensões
 
-Fiscalização alcança:
+**C F O O P**
 
-- convênios;
-- acordos;
-- ajustes;
-- instrumentos congêneres;
-- subvenções;
-- auxílios;
-- contribuições;
+- Contábil
+- Financeira
+- Orçamentária
+- Operacional
+- Patrimonial
+
+## Recursos e receitas
+
+Pode alcançar:
+
+- convênio, acordo, ajuste e congêneres;
+- subvenção, auxílio e contribuição;
 - quotas-partes municipais;
-- renúncia de receitas;
-- LRF.
+- renúncia de receita;
+- responsabilidade fiscal;
+- PPP e desestatização, quando submetidas ao controle legal.
 
-## Fora do recorte 055
+## Outros poderes — reconhecer, não aprofundar aqui
 
-- Órgãos e autoridades internas: 056.
-- Sessões, distribuição e deliberação: 057.
-- Processos: 058.
-- Denúncias, representações e consultas: 059.
-- Provas e prazos: 060.
-- Decisões, sanções e execução: 061.
-- Recursos e revisão: 062.
-- Atos normativos e ética: 063.
+- fixar prazo para providências;
+- determinar correções;
+- sustar atos nos casos previstos;
+- adotar cautelares conforme base legal;
+- representar sobre irregularidade ou abuso;
+- apreciar denúncia, representação e consulta;
+- apreciar constitucionalidade nos limites do controle externo.
 
-## Pegadinhas
+**Rito, órgão interno, prazo, decisão, sanção e recurso → assuntos 056–063.**
 
-- Auxílio não é subordinação.
-- TCE/MA não julga contas anuais do Governador/Prefeito; emite parecer prévio.
-- Câmara Municipal julga contas anuais do Prefeito.
-- TCE/MA pode julgar contas de gestores e, segundo fonte institucional, presidentes de Câmaras Municipais.
-- Pessoa privada com recurso público pode prestar contas.
-- Competência não é procedimento.
-- Lei Orgânica não é Regimento.
-- Regimento antigo deve ser conferido com alterações posteriores.
+## Pegadinhas de uma linha
+
+- Tribunal de Contas **não é Judiciário**.
+- Controle externo **não é controle interno**.
+- Auxiliar o Legislativo **não significa obedecer hierarquicamente** ao Legislativo.
+- Parecer prévio **não é julgamento final** do chefe do Executivo.
+- Pessoa privada com dinheiro público **pode estar sujeita a contas**.
+- Cargo em comissão **não entra** no registro de admissão.
+- Melhoria sem novo fundamento legal **não exige novo registro**.
+- Competência responde **“pode fazer?”**; procedimento responde **“como tramita?”**.
