@@ -101,11 +101,15 @@ A ordem preferencial é:
 5. continuação de votação suspensa;
 6. julgamento ou apreciação dos processos em pauta.
 
+Nas pautas das Câmaras aparecem, na ordem e competência regimentais, categorias como **recursos, tomadas e prestações de contas, fiscalizações e atos de pessoal**, além de outros assuntos submetidos ao respectivo colegiado. O objetivo aqui é reconhecer a organização da pauta, e não antecipar o rito completo dessas espécies processuais.
+
 ## 5. Pauta
 
-### 5.1. Organização
+### 5.1. Organização e preferências
 
-A pauta organiza os processos que serão apreciados em sessão. No Plenário e nas Câmaras, sua organização cabe às unidades responsáveis pelas sessões, sob supervisão dos respectivos Presidentes, observada a ordem de antiguidade dos relatores.
+A pauta organiza os processos que serão apreciados em sessão. No Plenário e nas Câmaras, sua organização cabe às unidades responsáveis pelas sessões, sob supervisão dos respectivos Presidentes.
+
+No Plenário, **recursos** têm precedência entre as categorias regimentais da pauta. Na apreciação dos processos, observa-se, como regra, a **ordem decrescente de antiguidade dos relatores**, sem prejuízo das preferências admitidas pelo Regimento. Pode haver preferência para processo em que deva ocorrer sustentação oral; o rito e os prazos da sustentação oral pertencem ao assunto próprio de garantias processuais.
 
 Pauta **não é decisão**: ela prepara e dá publicidade ao que será submetido ao colegiado.
 
@@ -173,19 +177,29 @@ O **voto médio** é técnica usada quando as posições divergem quantitativame
 
 ## 8. Distribuição e relatoria
 
-### 8.1. Princípios
+### 8.1. Princípios e registro
 
-A distribuição de processos a Conselheiros observa os princípios de:
+A distribuição de processos aos Conselheiros, ressalvadas as regras específicas aplicáveis ao Presidente, observa os princípios de:
 
 - **publicidade**;
 - **alternatividade**;
 - **sorteio**.
 
-Distribuição define **quem relata**; não decide o mérito.
+Durante a distribuição, é vedada a interferência de pessoa estranha ao serviço, sem prejuízo da fiscalização pelo interessado nos termos regimentais.
 
-A distribuição deve ser registrada formalmente. Impedimento ou suspeição do Relator provoca nova distribuição, com a compensação prevista regimentalmente.
+Distribuição define **quem relata**; não decide o mérito. Ela deve ser registrada formalmente, com dados que permitam identificar processo ou lista, Relator, data e demais informações necessárias.
 
-### 8.2. Prevenção e conexão
+Impedimento ou suspeição do Relator sorteado provoca **nova distribuição**, com a compensação prevista regimentalmente.
+
+### 8.2. Mudança de Presidência
+
+Os processos já distribuídos a Conselheiro que assumir a Presidência do Tribunal passam, automaticamente, ao Conselheiro que houver deixado essa função, conforme a regra específica do Regimento.
+
+### 8.3. Distribuição anual por listas
+
+Para tomadas ou prestações de contas anuais submetidas ao sistema do art. 141, o Regimento utiliza **listas equânimes distribuídas por sorteio em sessão plenária**, no mês de dezembro do ano anterior ao exercício a que se referem. Os detalhes de composição das listas pertencem à disciplina específica; para este assunto, memorize o mecanismo de equilíbrio por listas e sorteio.
+
+### 8.4. Prevenção e conexão
 
 Matérias conexas são distribuídas por **prevenção** a um único Relator e, quando cabível, submetidas a julgamento conjunto. Assim:
 
@@ -193,11 +207,11 @@ Matérias conexas são distribuídas por **prevenção** a um único Relator e, 
 - redistribuição altera a relatoria;
 - prevenção preserva uma relatoria por vínculo entre matérias.
 
-### 8.3. Restauração de autos
+### 8.5. Restauração de autos
 
 Na restauração de autos, o processo retorna ao Relator anterior se ele estiver no exercício do cargo, conforme o Regimento.
 
-### 8.4. Alteração vigente no corte: Resolução nº 424/2025
+### 8.6. Alteração vigente no corte: Resolução nº 424/2025
 
 A Resolução TCE/MA nº 424/2025 alterou duas regras importantes:
 
