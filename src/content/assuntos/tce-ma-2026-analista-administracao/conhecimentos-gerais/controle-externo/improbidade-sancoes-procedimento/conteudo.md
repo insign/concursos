@@ -6,363 +6,355 @@ order: 51
 storageId: "improbidade-sancoes-procedimento"
 ---
 
-## 1. Visão geral e delimitação
+## 1. Recorte e corte temporal
 
-Este assunto completa o estudo da Lei nº 8.429/1992, a Lei de Improbidade Administrativa (LIA). O assunto anterior examinou **quem pode responder**, **quais condutas são típicas** e **por que dolo, finalidade ilícita e tipicidade não podem ser presumidos**. Agora, o foco recai sobre as consequências e o caminho institucional da responsabilização:
+Este assunto completa a Lei nº 8.429/1992 — **Lei de Improbidade Administrativa (LIA)**. O assunto anterior tratou de sujeitos, dolo, tipicidade e atos dos arts. 9º, 10 e 11. Aqui, o foco é:
 
 1. sanções e dosimetria;
 2. investigação e ação de improbidade;
-3. legitimidade ativa e acordo de não persecução civil;
-4. indisponibilidade e efeitos patrimoniais definitivos;
-5. prescrição da pretensão sancionadora;
+3. legitimidade ativa e acordo de não persecução civil (ANPC);
+4. indisponibilidade, perda e ressarcimento;
+5. prescrição sancionadora;
 6. imprescritibilidade excepcional do ressarcimento.
 
-O ponto de partida continua sendo o art. 37, § 4º, da Constituição. Ele prevê, na forma e gradação legais, suspensão dos direitos políticos, perda da função pública, indisponibilidade dos bens e ressarcimento ao erário, sem prejuízo da ação penal cabível.
+O art. 37, § 4º, da Constituição prevê, na forma e gradação legais, suspensão dos direitos políticos, perda da função pública, indisponibilidade dos bens e ressarcimento ao erário, sem prejuízo da ação penal cabível.
 
-> **Atenção ao vocabulário:** indisponibilidade, perda de bens, ressarcimento e multa civil não são sinônimos. A primeira é cautelar; a perda retira vantagem ilícita; o ressarcimento recompõe dano; a multa é sanção.
+### 1.1. Regra legal e jurisprudência aplicável
 
-### 1.1 Corte de atualização jurisprudencial
+Na publicação do edital, em **6 de julho de 2026**, vigorava a LIA com a redação dada pela Lei nº 14.230/2021. Poucos dias antes, em **1º de julho de 2026**, o STF havia concluído as ADIs 7156 e 7236, alterando a interpretação de diversos dispositivos relevantes deste assunto.
 
-As ADIs 7156 e 7236 foram concluídas pelo Supremo Tribunal Federal (STF) em **1º de julho de 2026**. Até a data de acesso das fontes deste material, o acórdão integral ainda não estava publicamente acessível. Por isso, o texto:
+Por isso, a leitura correta para a prova combina:
 
-- incorpora os resultados expressamente divulgados pelo STF;
-- distingue esses resultados da redação que ainda aparece no Planalto;
-- não presume modulação, disciplina transitória ou redação de dispositivo não divulgada.
+- o texto vigente da LIA;
+- as decisões do STF nas ADIs 7042 e 7043 sobre legitimidade;
+- o julgamento concluído das ADIs 7156 e 7236;
+- os Temas 1199 e 897 do STF;
+- o Tema 1257 do STJ, lido à luz do controle concentrado posterior do STF.
 
-## 2. Quatro consequências que a prova costuma misturar
+> **Vocabulário-chave:** indisponibilidade é tutela provisória; perda/reversão retira vantagem ilícita; ressarcimento recompõe dano; multa civil é sanção.
 
-| Instituto | Natureza | Finalidade | Momento típico |
-| --- | --- | --- | --- |
-| Multa civil | Sanção pessoal de conteúdo patrimonial | Reprovar e prevenir | Sentença condenatória, execução após trânsito em julgado |
-| Ressarcimento | Efeito reparatório | Recompor dano efetivo | Condenação e posterior liquidação/cumprimento, se necessários |
-| Perda ou reversão de bens e valores | Efeito patrimonial ligado à vantagem ilícita | Retirar acréscimo ilicitamente obtido | Imposição na sentença; execução após trânsito em julgado |
-| Indisponibilidade | Tutela provisória | Assegurar resultado útil patrimonial | Antes ou durante a ação |
+## 2. Sanções do art. 12
 
-Uma mesma situação pode justificar mais de um efeito, mas é proibido cobrar duas vezes a mesma reparação. Também não se pode usar a imprescritibilidade do ressarcimento para manter sanções pessoais já prescritas.
-
-## 3. Sanções do art. 12
-
-O art. 12 permite aplicar as cominações **isolada ou cumulativamente**, conforme a gravidade do fato. Não existe cumulação automática de todas as sanções disponíveis.
-
-### 3.1 Quadro comparativo
+As sanções podem ser aplicadas **isolada ou cumulativamente**, conforme a gravidade do fato e mediante fundamentação. Não existe pacote automático de sanções.
 
 | Classe do ato | Sanções previstas |
 | --- | --- |
-| Art. 9º: enriquecimento ilícito | Perda dos bens ou valores acrescidos ilicitamente; perda da função pública; suspensão dos direitos políticos por até 14 anos; multa equivalente ao acréscimo patrimonial; proibição de contratar ou receber benefícios/incentivos por até 14 anos |
-| Art. 10: lesão ao erário | Perda dos bens ou valores acrescidos ilicitamente, se houver essa circunstância; perda da função pública; suspensão dos direitos políticos por até 12 anos; multa equivalente ao dano; proibição de contratar ou receber benefícios/incentivos por até 12 anos |
-| Art. 11: violação a princípios | Multa de até 24 vezes a remuneração percebida; proibição de contratar ou receber benefícios/incentivos por até 4 anos |
+| **Art. 9º — enriquecimento ilícito** | perda dos bens/valores acrescidos ilicitamente; perda da função pública; suspensão dos direitos políticos por até **14 anos**; multa equivalente ao acréscimo patrimonial; proibição de contratar ou receber benefícios/incentivos por até **14 anos** |
+| **Art. 10 — lesão ao erário** | perda dos bens/valores acrescidos ilicitamente, se houver; perda da função pública; suspensão dos direitos políticos por até **12 anos**; multa equivalente ao dano; proibição de contratar ou receber benefícios/incentivos por até **12 anos** |
+| **Art. 11 — princípios** | multa de até **24 vezes** a remuneração percebida; proibição de contratar ou receber benefícios/incentivos por até **4 anos** |
 
-O art. 11 **não prevê**, como sanções próprias, perda da função pública ou suspensão dos direitos políticos. Já o art. 10 só autoriza perda de bens ou valores acrescidos quando também existir enriquecimento ilícito no caso concreto.
+Pegadinhas:
 
-### 3.2 Multa civil e menor ofensa
+- o art. 11 **não prevê**, como sanções próprias, perda da função pública nem suspensão dos direitos políticos;
+- no art. 10, perda de bens/valores acrescidos só existe se também houver acréscimo ilícito no caso concreto;
+- ressarcimento não é multa e não substitui o quadro sancionatório.
 
-A multa pode ser elevada até o **dobro** quando o valor calculado segundo os incisos do art. 12 for ineficaz para reprovação e prevenção, considerada a situação econômica do réu.
+### 2.1. Multa civil e menor ofensa
 
-Nos atos de menor ofensa aos bens jurídicos tutelados, a sanção limita-se à multa. Essa limitação não elimina, quando cabíveis:
+A multa pode ser elevada até o **dobro** quando seu valor ordinário for ineficaz para reprovação e prevenção, considerada a situação econômica do réu.
+
+Nos atos de menor ofensa aos bens jurídicos tutelados, a sanção limita-se à multa, sem prejuízo, quando cabíveis, de:
 
 - ressarcimento do dano;
 - perda dos valores ilicitamente obtidos.
 
-### 3.3 Pessoa jurídica e continuidade da atividade
+### 2.2. Pessoa jurídica e non bis in idem
 
-Ao sancionar pessoa jurídica, o juiz deve considerar os efeitos econômicos e sociais, de modo a viabilizar a manutenção de suas atividades. A sanção não deve ignorar a função social da empresa, mas essa cautela não equivale a imunidade.
+Ao sancionar pessoa jurídica, o juiz deve considerar os efeitos econômicos e sociais da sanção, de modo a viabilizar a manutenção de suas atividades.
 
-As sanções aplicadas a pessoas jurídicas com base na LIA e na Lei nº 12.846/2013 devem observar o **non bis in idem**. Isso impede duplicação sancionatória pelo mesmo fundamento, sem apagar a necessidade de reparar o dano.
+Quando houver incidência da LIA e da Lei nº 12.846/2013, deve-se observar o **non bis in idem**, evitando duplicação sancionatória pelo mesmo fundamento. Isso não elimina a obrigação de reparar dano efetivamente causado.
 
-## 4. Dosimetria e individualização
+## 3. Dosimetria e individualização
 
-O art. 17-C exige fundamentação concreta. Na aplicação isolada ou cumulativa das sanções, a sentença deve considerar, entre outros fatores:
+O art. 17-C exige fundamentação concreta. Entre os elementos relevantes estão:
 
 - proporcionalidade e razoabilidade;
 - natureza, gravidade e impacto da infração;
 - extensão do dano;
 - proveito patrimonial obtido;
 - agravantes e atenuantes;
-- atuação do agente para minorar prejuízos;
 - antecedentes;
+- atuação para minorar prejuízos;
 - sanções já aplicadas pelo mesmo fato;
 - atuação específica do terceiro.
 
-Para o terceiro, não se admite responsabilização por ações ou omissões para as quais não tenha concorrido ou das quais não tenha obtido vantagem patrimonial indevida.
+### 3.1. Sanção pessoal x responsabilidade patrimonial
 
-### 4.1 Sanção individual e reparação solidária
+As **sanções pessoais** são individualizadas conforme a participação de cada réu.
 
-As sanções pessoais devem ser individualizadas conforme a participação de cada réu. No julgamento de 2026, o STF, porém, afastou parcialmente a vedação absoluta de solidariedade do art. 17-C, § 2º: a recomposição do dano pode ser exigida solidariamente dos responsáveis, conforme as circunstâncias do caso.
+Nas ADIs 7156 e 7236, o STF declarou, com **efeitos ex nunc**, a inconstitucionalidade da expressão “e dos benefícios diretos” do art. 17-C, § 2º, e fixou a leitura de que:
 
-Não há contradição:
+- é vedada solidariedade **para fins de sanção**;
+- admite-se solidariedade **para fins de responsabilidade patrimonial**;
+- o terceiro não responde por conduta para a qual não tenha concorrido;
+- o recebimento pessoal de benefício direto não é requisito autônomo para a responsabilidade patrimonial.
 
-- **sanção:** individual, segundo a conduta e a culpabilidade;
-- **ressarcimento:** pode ser solidário entre os causadores do mesmo dano.
+Assim, não se deve confundir individualização sancionatória com impossibilidade de solidariedade reparatória.
 
-## 5. Sanções específicas e atualização do STF
+## 4. Sanções específicas após o STF em 2026
 
-### 5.1 Perda da função pública
+### 4.1. Perda da função pública
 
-A redação ainda exibida no art. 12, § 1º, limita a perda ao vínculo de mesma qualidade e natureza existente na época do ato, com extensão excepcional em hipótese restrita. O STF divulgou resultado diferente em 24 de junho de 2026:
+O STF afastou a leitura que limitava a perda apenas ao vínculo de mesma qualidade e natureza existente na época do fato.
 
-- a perda deve alcançar **todas as funções públicas** do condenado;
-- excepcionalmente e de forma fundamentada, o juiz pode preservar uma função pública específica;
-- a decisão deve considerar as circunstâncias do caso e a gravidade da infração.
+A regra jurisprudencial é:
 
-A exceção, portanto, é a preservação pontual, não a limitação automática ao vínculo antigo.
+- a perda alcança **todas as funções públicas** do condenado;
+- excepcionalmente, de forma fundamentada, o juiz pode preservar uma função específica;
+- a preservação deve considerar as circunstâncias do caso e a gravidade da infração.
 
-### 5.2 Suspensão dos direitos políticos
+### 4.2. Suspensão dos direitos políticos
 
-Os limites máximos são de 14 anos no art. 9º e 12 anos no art. 10. O art. 11 não prevê essa sanção.
+Os limites máximos são:
 
-O art. 12, § 10, mandava descontar retroativamente o intervalo entre decisão colegiada e trânsito em julgado. O STF declarou essa regra inconstitucional no julgamento de 2026. Não se deve aplicar essa detração legal.
+- art. 9º: **14 anos**;
+- art. 10: **12 anos**;
+- art. 11: não prevê essa sanção.
 
-### 5.3 Proibição de contratar e receber benefícios
+O art. 12, § 10, que determinava detração do período entre decisão colegiada e trânsito em julgado, foi declarado inconstitucional pelo STF.
 
-Os prazos máximos são:
+### 4.3. Proibição de contratar e receber benefícios
 
-- art. 9º: 14 anos;
-- art. 10: 12 anos;
-- art. 11: 4 anos.
+Prazos máximos:
 
-Em maio de 2026, o STF afastou a possibilidade de restringir essa proibição apenas ao órgão ou ente diretamente lesado. O resultado divulgado determina alcance nos **três níveis da Federação**.
+- art. 9º: **14 anos**;
+- art. 10: **12 anos**;
+- art. 11: **4 anos**.
 
-O art. 12, § 8º, ainda prevê registro no Cadastro Nacional de Empresas Inidôneas e Suspensas (CEIS). Como o acórdão integral das ADIs 7156 e 7236 não estava disponível, não se deve inventar nova redação para a parte do dispositivo que ainda menciona limitações territoriais. O dado seguro é que a limitação ao ente lesado foi afastada.
+O STF afastou a limitação automática ao ente diretamente lesado. A proibição pode alcançar os **três níveis da Federação**.
 
-### 5.4 Execução somente após o trânsito em julgado
+### 4.4. Execução após trânsito em julgado
 
-O art. 12, § 9º, determina que as sanções do artigo só podem ser executadas após o trânsito em julgado da sentença condenatória. O STF preservou essa regra.
+As sanções do art. 12 somente podem ser executadas após o **trânsito em julgado** da sentença condenatória.
 
-O art. 20 reforça que perda da função e suspensão dos direitos políticos só se efetivam após o trânsito em julgado.
+Perda da função pública e suspensão dos direitos políticos também só se efetivam definitivamente após o trânsito.
 
-Isso não impede medidas cautelares. O afastamento provisório do agente pode ser determinado, sem prejuízo da remuneração, quando necessário à instrução ou para evitar a prática iminente de novos ilícitos. O prazo é de até 90 dias, prorrogável uma vez por igual período, mediante decisão motivada.
+Isso não impede medidas cautelares, como o afastamento provisório do agente:
 
-## 6. Ressarcimento, perda e cumprimento
+- sem prejuízo da remuneração;
+- quando necessário à instrução ou para evitar prática iminente de novos ilícitos;
+- por até **90 dias**, prorrogável uma vez por igual período, mediante decisão motivada.
 
-### 6.1 Regra do art. 18
+## 5. Ressarcimento, perda e cumprimento
 
-A sentença procedente fundada nos arts. 9º e 10 condenará, conforme o caso, ao ressarcimento dos danos e à perda ou reversão dos bens e valores ilicitamente adquiridos em favor da pessoa jurídica prejudicada.
+### 5.1. Art. 18
 
-Se for necessária liquidação:
+A sentença procedente fundada nos arts. 9º e 10 condenará, conforme o caso, ao ressarcimento e à perda/reversão de bens ou valores ilicitamente adquiridos em favor da pessoa jurídica prejudicada.
+
+Se houver necessidade de liquidação:
 
 1. a pessoa jurídica prejudicada apura o valor e promove o cumprimento;
-2. se ela permanecer inerte por seis meses após o trânsito em julgado, o Ministério Público assume a liquidação e o cumprimento;
+2. após **6 meses** de inércia contados do trânsito em julgado, o Ministério Público assume a liquidação e o cumprimento;
 3. a omissão do ente pode gerar responsabilização própria.
 
-Na apuração do ressarcimento, devem ser descontados os serviços efetivamente prestados. Esse desconto evita enriquecimento sem causa da Administração, mas não apaga a irregularidade nem eventual sanção.
+Na apuração do ressarcimento:
+
+- devem ser descontados os serviços efetivamente prestados, evitando enriquecimento sem causa;
+- isso não torna lícito o ato nem elimina sanções cabíveis.
 
 Demonstrada incapacidade financeira de pagamento imediato, o juiz pode parcelar o débito em até **48 parcelas mensais**, corrigidas monetariamente.
 
-### 6.2 Unificação de sanções
+### 5.2. Unificação de sanções
 
-Na execução, a requerimento do réu, o art. 18-A admite unificação:
+A requerimento do réu, o art. 18-A admite, na execução:
 
-- continuidade de ilícito: maior sanção aumentada de um terço ou soma das sanções, o que for mais benéfico ao réu;
-- novos atos ilícitos: soma das sanções.
+- **continuidade de ilícito:** maior sanção aumentada de 1/3 ou soma das sanções, adotando-se o resultado mais benéfico ao réu;
+- **novos atos ilícitos:** soma das sanções.
 
-Suspensão dos direitos políticos e proibição de contratar ou receber benefícios observam limite máximo total de **20 anos**.
+Suspensão dos direitos políticos e proibição de contratar ou receber benefícios observam máximo total de **20 anos** na unificação.
 
-### 6.3 Compensação sem duplicidade
+### 5.3. Compensação
 
-Se houver dano, o ressarcimento pago nas instâncias penal, civil ou administrativa pelos mesmos fatos deve ser deduzido. Sanções aplicadas em outras esferas também devem ser consideradas e compensadas nos termos legais.
+Ressarcimento pago em outra instância pelos mesmos fatos deve ser deduzido. Sanções impostas em outras esferas também devem ser consideradas nos termos legais, evitando duplicidade material.
 
-## 7. Investigação administrativa
+## 6. Investigação administrativa
 
-### 7.1 Representação
+### 6.1. Representação
 
-Qualquer pessoa pode representar à autoridade administrativa para instaurar investigação. A representação deve ser escrita ou reduzida a termo, assinada e conter:
+Qualquer pessoa pode representar à autoridade administrativa para apuração de possível improbidade.
+
+A representação deve ser escrita ou reduzida a termo, assinada e conter:
 
 - qualificação do representante;
 - informações sobre fato e autoria;
 - indicação das provas conhecidas.
 
-A autoridade rejeitará fundamentadamente a representação sem esses requisitos. A rejeição administrativa não impede representação ao Ministério Público.
+A rejeição administrativa fundamentada por falta desses requisitos não impede representação ao Ministério Público.
 
-### 7.2 Acompanhamento institucional
+### 6.2. Acompanhamento
 
-A comissão processante dá conhecimento da apuração ao Ministério Público e ao Tribunal ou Conselho de Contas. Esses órgãos podem designar representante para acompanhar o procedimento.
+A comissão processante dá conhecimento da apuração ao Ministério Público e ao Tribunal ou Conselho de Contas, que podem designar representantes para acompanhar o procedimento.
 
-Na investigação ministerial, o investigado deve ter oportunidade de manifestação escrita e juntada de documentos.
+Na investigação ministerial, deve ser assegurada ao investigado oportunidade de manifestação escrita e juntada de documentos.
 
-## 8. Ação de improbidade
+## 7. Ação de improbidade
 
-### 8.1 Natureza e finalidade
+### 7.1. Natureza
 
-A ação de improbidade é repressiva, sancionatória e de natureza **civil**. Ela serve para apurar e sancionar atos específicos de improbidade.
+A ação de improbidade é **civil, repressiva e sancionatória**, voltada a atos específicos de improbidade. Ela não substitui ação civil pública genérica de controle de políticas públicas ou de toda ilegalidade administrativa.
 
-Não deve ser transformada em ação civil pública genérica para controlar políticas públicas ou toda ilegalidade administrativa. Se faltarem os elementos da improbidade, outros instrumentos podem ser adequados, mas não se pode impor sanção da LIA por mera irregularidade.
+### 7.2. Legitimidade concorrente e disjuntiva
 
-### 8.2 Legitimidade concorrente e disjuntiva
-
-O art. 17 ainda afirma literalmente que a ação será proposta pelo Ministério Público. Nas ADIs 7042 e 7043, o STF conferiu interpretação conforme e reconheceu legitimidade **concorrente e disjuntiva** entre:
+Embora o texto legal ainda mencione o Ministério Público no art. 17, o STF, nas ADIs 7042 e 7043, reconheceu legitimidade concorrente e disjuntiva de:
 
 - Ministério Público;
 - pessoa jurídica pública interessada ou lesada.
 
-Cada legitimado pode agir por iniciativa própria. Não há monopólio do Ministério Público nem exigência de atuação conjunta.
+Cada legitimado pode agir por iniciativa própria para:
 
-O mesmo entendimento alcança:
+- propor a ação;
+- requerer tutelas provisórias;
+- celebrar ANPC.
 
-- requerimento de tutelas provisórias;
-- celebração de acordo de não persecução civil.
+Quando o Ministério Público propõe a ação, a pessoa jurídica interessada é intimada para, se quiser, intervir.
 
-Quando o Ministério Público propõe a ação, a pessoa jurídica interessada é intimada para, se quiser, intervir. Essa regra não reduz o ente público à condição de mero interveniente, pois ele também pode ser autor.
+### 7.3. Foro e prevenção
 
-O STF também declarou inconstitucional o art. 3º da Lei nº 14.230/2021, que pretendia subordinar o prosseguimento das ações anteriormente ajuizadas pela Fazenda Pública à manifestação do Ministério Público.
-
-### 8.3 Foro e prevenção
-
-A ação deve ser proposta no foro:
+A ação é proposta no foro:
 
 - do local do dano; ou
 - da pessoa jurídica prejudicada.
 
-A primeira ação previne a competência para ações posteriores com a mesma causa de pedir ou o mesmo objeto.
+A primeira ação previne a competência para ações posteriores com a mesma causa de pedir ou objeto.
 
-### 8.4 Petição inicial e rejeição
+### 7.4. Petição inicial
 
-A petição inicial deve:
+A inicial deve:
 
 1. individualizar a conduta de cada réu;
-2. apontar elementos probatórios mínimos da ocorrência e da autoria;
-3. apresentar indícios suficientes do dolo e da veracidade dos fatos;
+2. apresentar elementos mínimos de ocorrência e autoria;
+3. indicar indícios suficientes de dolo e veracidade dos fatos;
 4. ou fundamentar a impossibilidade de apresentar esses elementos.
 
-A inicial será rejeitada nos casos do art. 330 do Código de Processo Civil (CPC), por ausência dos requisitos específicos ou por inexistência manifesta do ato de improbidade.
+Imputação genérica não satisfaz o regime sancionatório.
 
-### 8.5 Contestação e solução consensual
+### 7.5. Contestação e solução consensual
 
-Recebida a inicial, os réus são citados para contestar em prazo comum de **30 dias**.
+- contestação: prazo comum de **30 dias**;
+- havendo perspectiva de solução consensual, as partes podem pedir interrupção do prazo por até **90 dias**.
 
-Se houver possibilidade de solução consensual, as partes podem pedir interrupção do prazo para contestação por até **90 dias**.
-
-### 8.6 Prova e garantias do réu
+### 7.6. Prova e garantias
 
 Na ação de improbidade:
 
-- a revelia não gera presunção de veracidade dos fatos;
-- não se impõe ao réu distribuição dinâmica do ônus da prova nos termos do art. 373, §§ 1º e 2º, do CPC;
-- o réu tem direito de ser interrogado;
-- silêncio ou recusa não importam confissão;
-- ordens judiciais de exibição de documentos e informações continuam obrigatórias.
+- a revelia não gera presunção de veracidade;
+- não se aplica contra o réu a distribuição dinâmica do ônus da prova prevista no art. 373, §§ 1º e 2º, do CPC;
+- ordens judiciais de apresentação de documentos continuam obrigatórias;
+- o réu pode ser interrogado;
+- silêncio ou recusa não importam confissão.
 
-A vedação de inverter o ônus não autoriza ocultar prova nem descumprir determinação judicial.
+### 7.7. Qualificação jurídica pelo juiz
 
-### 8.7 Enquadramento jurídico pelo juiz
+O STF afastou a vinculação rígida do juiz à capitulação jurídica proposta pelo autor.
 
-A reforma tentou vincular o juiz à capitulação jurídica indicada na petição inicial. Em 2026, o STF afastou essa limitação.
+O magistrado pode atribuir qualificação jurídica adequada aos **mesmos fatos narrados**, desde que respeite contraditório e ampla defesa. Isso não autoriza condenação por fatos novos ou surpresa fática.
 
-O autor deve narrar e provar os fatos. O juiz atribui a qualificação jurídica adequada aos **mesmos fatos**, respeitados contraditório e ampla defesa. Isso não autoriza condenar por fato novo ou surpreender o réu com imputação fática não debatida.
+### 7.8. Recursos e defesa institucional
 
-### 8.8 Sentença, recursos e remessa necessária
+- decisões interlocutórias: cabe agravo de instrumento nos termos da LIA;
+- não há remessa necessária;
+- a assessoria jurídica que aprovou previamente o ato não tem dever automático de defender o agente; representação institucional depende de base jurídica própria.
 
-A sentença deve demonstrar, sem presunção, os elementos do tipo e fundamentar a dosimetria. Das decisões interlocutórias cabe agravo de instrumento nos termos da LIA.
+## 8. Decisão penal e ação de improbidade
 
-Não há remessa necessária das sentenças de improbidade.
+O STF conferiu interpretação conforme ao art. 21, § 4º.
 
-### 8.9 Defesa por assessoria jurídica
+Decisão penal transitada em julgado sobre os mesmos fatos impede a tramitação da improbidade quando reconhecer:
 
-O art. 17, § 20, parece obrigar a assessoria jurídica que aprovou previamente o ato a defender o agente. Nas ADIs 7042 e 7043, o STF afastou essa obrigatoriedade.
+- **estado de necessidade**;
+- legítima defesa;
+- estrito cumprimento do dever legal;
+- exercício regular de direito;
+- inexistência do fato;
+- que o réu não concorreu para a infração penal.
 
-A representação judicial pode existir quando autorizada por lei específica, mas não há direito automático do agente nem dever automático da Advocacia Pública.
+A mesma compreensão pode alcançar rejeição da denúncia ou decisão de arquivamento nas hipóteses qualificadas reconhecidas pelo STF.
 
-## 9. Independência das instâncias e decisão penal
+Por outro lado, absolvição criminal por **insuficiência de provas**, por si só, não encerra automaticamente a ação de improbidade.
 
-A aprovação ou rejeição de contas por controle interno ou tribunal de contas não decide automaticamente a ação de improbidade. Provas e decisões de controle devem ser consideradas pelo juiz, sem substituir a análise do dolo e dos elementos do tipo.
+## 9. Acordo de não persecução civil — ANPC
 
-Em 2026, o STF afastou a regra segundo a qual qualquer absolvição criminal colegiada encerraria a ação de improbidade. O encerramento automático fica reservado às hipóteses qualificadas divulgadas oficialmente:
+O ANPC é instrumento consensual da LIA e não se confunde com acordo de não persecução penal.
 
-- decisão penal transitada em julgado reconhece inexistência do fato;
-- decisão penal transitada em julgado reconhece negativa de autoria;
-- decisão penal reconhece legítima defesa, estrito cumprimento do dever legal ou exercício regular de direito;
-- arquivamento ou rejeição da denúncia baseia-se nessas excludentes.
-
-Absolvição por insuficiência de provas não encerra automaticamente a ação civil de improbidade.
-
-## 10. Acordo de não persecução civil
-
-O acordo de não persecução civil (ANPC) é instrumento consensual da LIA. Não se confunde com o acordo de não persecução penal.
-
-### 10.1 Resultados mínimos
+### 9.1. Resultados mínimos
 
 O acordo deve produzir, ao menos:
 
 1. ressarcimento integral do dano;
-2. reversão à pessoa jurídica lesada da vantagem indevida, inclusive quando obtida por agente privado.
+2. reversão à pessoa jurídica lesada da vantagem indevida, inclusive quando obtida por particular.
 
-A expressão “ao menos” permite obrigações adicionais, como mecanismos de integridade, auditoria, canais de denúncia, códigos de ética e outras medidas favoráveis ao interesse público.
+Podem ser acrescentadas obrigações favoráveis ao interesse público, como:
 
-### 10.2 Requisitos e momentos
+- mecanismos de integridade;
+- auditoria;
+- canais de denúncia;
+- códigos de ética.
 
-Devem ser observados:
+### 9.2. Momentos e requisitos
 
-- oitiva do ente federativo lesado;
-- aprovação pelo órgão ministerial competente para arquivamentos em até 60 dias, quando o acordo ministerial for anterior à ação;
-- homologação judicial, antes ou depois do ajuizamento;
-- personalidade do agente, natureza, gravidade, circunstâncias, repercussão social e vantagem da solução célere.
-
-O acordo pode ser celebrado:
+O ANPC pode ser celebrado:
 
 - durante a investigação;
 - no curso da ação;
-- na execução da sentença condenatória.
+- na execução da sentença.
 
-Após as ADIs 7042 e 7043, a pessoa jurídica interessada também possui legitimidade para celebrar ANPC. As referências exclusivas ao Ministério Público no texto legal devem ser lidas conforme essa legitimidade concorrente. Isso não elimina os resultados materiais mínimos nem a homologação judicial.
+Deve haver homologação judicial. Quando o acordo ministerial for anterior à ação, aplica-se também o controle interno previsto na LIA, com aprovação pelo órgão competente para arquivamentos em até **60 dias**.
 
-### 10.3 Tribunal de Contas e descumprimento
+A pessoa jurídica interessada também possui legitimidade para celebrar ANPC, segundo as ADIs 7042 e 7043.
 
-O art. 17-B, § 3º, exigia consulta prévia obrigatória ao Tribunal de Contas, com prazo de 90 dias, para apurar o dano. O STF declarou essa imposição inconstitucional em 2026.
+### 9.3. Tribunal de Contas e descumprimento
 
-O Tribunal de Contas pode fornecer elementos técnicos, mas sua manifestação não é condição obrigatória de procedibilidade do acordo.
+O STF declarou inconstitucional a consulta prévia **obrigatória** ao Tribunal de Contas prevista no art. 17-B, § 3º. O órgão de contas pode fornecer apoio técnico, mas sua manifestação não é condição de procedibilidade.
 
-Se o acordo for descumprido, o investigado ou demandado fica impedido de celebrar novo ANPC por cinco anos, contados do conhecimento do efetivo descumprimento pelo Ministério Público, segundo a redação legal.
+O descumprimento efetivo do ANPC impede novo acordo por **5 anos**, contado do conhecimento do descumprimento pelo Ministério Público, nos termos da redação legal.
 
-## 11. Indisponibilidade de bens
+## 10. Indisponibilidade de bens — art. 16
 
-### 11.1 Finalidade e momento
+A indisponibilidade é tutela provisória, antecedente ou incidental. Não é pena nem perdimento definitivo.
 
-A indisponibilidade pode ser pedida em caráter antecedente ou incidental para garantir:
+### 10.1. Finalidade após as ADIs 7156 e 7236
 
-- recomposição integral do erário;
-- acréscimo patrimonial resultante de enriquecimento ilícito.
+O STF declarou, com **efeitos ex nunc**, a inconstitucionalidade de trechos dos §§ 3º, 4º e 10 do art. 16.
 
-O pedido independe da representação prevista no art. 7º. Pode alcançar bens no exterior, observados lei e tratados.
+A interpretação vigente admite que o montante da indisponibilidade possa abranger:
 
-### 11.2 Requisitos após o STF em 2026
+- **ressarcimento integral do dano ao erário**;
+- **multa civil**;
+- **enriquecimento ilícito**, se houver.
 
-A Lei nº 14.230/2021 passou a exigir demonstração concreta de perigo e declarou que a urgência não poderia ser presumida. Em 24 de junho de 2026, o STF afastou trechos que tornavam essa demonstração requisito inflexível.
+Até o limite necessário à garantia, a constrição pode alcançar a integralidade dos bens dos requeridos **independentemente de sua origem**, observadas as impenhorabilidades previstas na legislação processual e em normas específicas.
 
-A leitura segura do resultado divulgado é:
+Portanto, estão superadas as afirmações de que:
 
-- a probabilidade do ato deve estar apoiada em elementos de instrução;
-- indícios especialmente fortes podem justificar o bloqueio mesmo sem prova de urgência concreta;
-- a urgência não deve ser tratada como fórmula vazia, automática e sem base fática;
-- a medida deve ser fundamentada e proporcional.
+- a indisponibilidade jamais pode garantir futura multa civil;
+- somente bens de origem ilícita podem ser alcançados.
 
-O acórdão integral ainda não estava disponível. Por isso, não se deve reconstruir redação nova para os §§ 3º e 4º além do que foi oficialmente divulgado.
+### 10.2. Probabilidade, tutela de evidência e urgência
 
-### 11.3 Contraditório
+A medida exige fundamentação e base probatória suficiente.
 
-A regra legal é ouvir o réu em cinco dias. A medida pode ser decretada sem oitiva prévia quando:
+O STF admitiu, **excepcionalmente e mediante decisão devidamente fundamentada**:
 
-- o contraditório puder comprovadamente frustrar sua efetividade; ou
-- outras circunstâncias concretas recomendarem proteção liminar.
+- indisponibilidade baseada em **tutela de evidência**;
+- **presunção de urgência**.
 
-O contraditório pode ser diferido, não abolido.
+Logo, não se exige em todos os casos prova concreta autônoma de perigo, mas também não existe bloqueio automático ou sem motivação.
 
-### 11.4 Alcance objetivo
+### 10.3. Contraditório
 
-O STF confirmou que a indisponibilidade pode garantir:
+A regra legal é ouvir o réu em **5 dias**. O contraditório pode ser diferido quando sua prévia realização puder frustrar a efetividade da medida ou quando circunstâncias concretas justifiquem decisão liminar.
 
-- valor necessário ao ressarcimento;
-- patrimônio relacionado ao enriquecimento ilícito.
+### 10.4. Vários réus
 
-Ela não deve incluir valor de futura **multa civil** nem atingir acréscimo patrimonial de origem lícita.
+A garantia não pode ser multiplicada artificialmente pelo número de demandados. A soma das constrições deve respeitar o **montante fixado judicialmente como necessário à tutela patrimonial**, considerando ressarcimento, multa civil e enriquecimento ilícito quando incluídos no pedido e juridicamente cabíveis.
 
-Com vários réus, a soma das constrições não pode ultrapassar o valor indicado como dano ou enriquecimento ilícito. O objetivo é assegurar uma recomposição, não multiplicar o bloqueio integral pelo número de demandados.
+### 10.5. Terceiros e pessoa jurídica
 
-### 11.5 Terceiros e pessoas jurídicas
+Para alcançar bens de terceiro, é necessário demonstrar sua efetiva concorrência para o ilícito.
 
-A indisponibilidade de terceiro exige demonstração de concorrência efetiva para o ilícito. Quando se pretenda alcançar patrimônio de pessoa jurídica por desconsideração, deve ser instaurado o incidente previsto no CPC.
+Quando se pretenda atingir patrimônio de pessoa jurídica mediante desconsideração, deve-se observar o incidente processual próprio do CPC.
 
-O simples vínculo societário ou familiar com o réu não basta.
-
-### 11.6 Substituição, ordem e proteções
+### 10.6. Substituição, ordem e proteções
 
 A constrição pode ser substituída por:
 
@@ -370,196 +362,124 @@ A constrição pode ser substituída por:
 - fiança bancária;
 - seguro-garantia judicial.
 
-Ela pode ser readequada durante a instrução.
+A lei prioriza outras classes de bens antes de contas bancárias, preservando a subsistência e a atividade empresarial.
 
-A lei prioriza veículos, imóveis, móveis, semoventes, navios e aeronaves, participações societárias, pedras e metais preciosos. Contas bancárias aparecem apenas na inexistência dos bens anteriores, para preservar subsistência e atividade empresarial.
+Proteções relevantes:
 
-Proteções expressas:
-
-- até 40 salários mínimos em poupança, aplicações ou conta-corrente;
-- bem de família, salvo quando o próprio imóvel for fruto da vantagem indevida do art. 9º;
+- até **40 salários mínimos** em poupança, aplicação ou conta-corrente, nas condições legais;
+- bem de família, salvo quando comprovado que o próprio imóvel constitui vantagem patrimonial indevida do art. 9º;
 - continuidade de serviços públicos;
-- subsistência do acusado e manutenção da atividade empresária.
+- subsistência do acusado e manutenção da atividade empresarial.
 
-### 11.7 Tema 1257 do STJ
+### 10.7. Tema 1257 do STJ
 
-O Tema 1257 estabelece que as regras processuais da Lei nº 14.230/2021 sobre indisponibilidade alcançam processos em curso e permitem reapreciar medidas anteriores. Reapreciar não significa revogar automaticamente.
+O Tema 1257 assentou a aplicação das normas processuais da Lei nº 14.230/2021 sobre indisponibilidade aos processos em curso e permitiu reapreciação das medidas anteriores.
 
-As partes do art. 16 posteriormente declaradas inconstitucionais pelo STF não podem continuar sendo aplicadas como se válidas fossem. O Tema 701 do STJ, que tratava da presunção de perigo no regime anterior, foi cancelado e não foi automaticamente restaurado pelas ADIs.
+Esse precedente deve ser lido com o julgamento posterior das ADIs 7156 e 7236: os trechos do art. 16 declarados inconstitucionais pelo STF não podem continuar sendo aplicados como se válidos fossem.
 
-## 12. Prescrição da pretensão sancionadora
+## 11. Prescrição da pretensão sancionadora
 
-### 12.1 Prazo geral
+### 11.1. Prazo geral
 
-A ação para aplicação das sanções prescreve em **oito anos**, contados:
+A ação para aplicação das sanções prescreve em **8 anos**, contados:
 
 - da ocorrência do fato; ou
 - nas infrações permanentes, do dia em que cessa a permanência.
 
-### 12.2 Suspensão por investigação
+### 11.2. Suspensão por investigação
 
-A instauração de inquérito civil ou processo administrativo suspende a prescrição por até **180 dias corridos**. O prazo volta a correr:
-
-- após a conclusão da apuração; ou
-- quando se esgotarem os 180 dias, se ela não tiver terminado.
-
-O inquérito civil deve ser concluído em 365 dias corridos, prorrogável uma única vez por igual período mediante fundamentação e revisão interna. Encerrado esse prazo, a ação deve ser proposta em 30 dias, se não houver arquivamento.
+A instauração de inquérito civil ou processo administrativo suspende a prescrição por até **180 dias corridos**.
 
 Não confunda:
 
-- duração possível do inquérito: 365 + 365 dias;
-- suspensão máxima da prescrição: 180 dias.
+- suspensão máxima da prescrição: **180 dias**;
+- duração do inquérito civil: **365 dias**, prorrogável uma vez por igual período, mediante fundamentação e revisão interna.
 
-### 12.3 Marcos interruptivos
+Encerrado o prazo legal do inquérito, a ação deve ser proposta em **30 dias**, se não houver arquivamento.
 
-O prazo interrompe-se com:
+### 11.3. Marcos interruptivos
+
+A prescrição interrompe-se com:
 
 1. ajuizamento da ação;
 2. publicação da sentença condenatória;
-3. decisão ou acórdão de TJ ou TRF que confirme condenação ou reforme improcedência;
-4. decisão ou acórdão do STJ que confirme condenação ou reforme improcedência;
-5. decisão ou acórdão do STF com o mesmo efeito.
+3. decisão/acórdão de TJ ou TRF que confirme condenação ou reforme improcedência;
+4. decisão/acórdão do STJ com o mesmo efeito;
+5. decisão/acórdão do STF com o mesmo efeito.
 
-A suspensão e a interrupção alcançam todos os concorrentes. Em atos conexos no mesmo processo, seus efeitos estendem-se aos demais atos.
+Suspensão e interrupção alcançam os concorrentes e, nos termos legais, atos conexos discutidos no mesmo processo.
 
-### 12.4 Fim do prazo reduzido de quatro anos
+### 11.4. STF em 1º de julho de 2026: fim do prazo de 4 anos
 
-O art. 23, § 5º, mandava reiniciar a prescrição pela metade do prazo geral, isto é, por quatro anos, após cada interrupção. Em 1º de julho de 2026, o STF declarou inconstitucional essa redução.
+O art. 23, § 5º, previa reinício pela metade do prazo geral, isto é, **4 anos**, após cada interrupção. O STF declarou essa redução inconstitucional.
 
-Consequências seguras:
+Consequências:
 
-- após a interrupção, o prazo reinicia por **oito anos**;
-- a prescrição intercorrente não pode mais usar o período de quatro anos;
-- permanecem válidos os marcos interruptivos do § 4º.
+- após a interrupção, o prazo reinicia por **8 anos**;
+- a prescrição intercorrente não usa mais o período de 4 anos;
+- permanecem os marcos interruptivos do § 4º;
+- o STF fixou prazo máximo de **20 anos** para a tramitação das ações de improbidade.
 
-O STF também fixou prazo máximo de **20 anos** para as ações de improbidade. Sem o acórdão integral, este material não inventa fórmula adicional de contagem, modulação ou disciplina para situações pretéritas além do resultado oficialmente divulgado.
+### 11.5. Direito intertemporal — Tema 1199
 
-### 12.5 Reconhecimento da prescrição intercorrente
+O STF fixou que o novo regime prescricional da Lei nº 14.230/2021 é **irretroativo**. Os novos marcos temporais contam a partir da publicação da reforma, em **26 de outubro de 2021**.
 
-O juiz ou tribunal, depois de ouvir o Ministério Público, reconhece de ofício ou a requerimento a prescrição intercorrente quando transcorrer o prazo aplicável entre os marcos interruptivos.
+Isso não se confunde com a aplicação imediata de normas processuais sobre tutela provisória aos processos em curso.
 
-Após o julgamento de 2026, esse prazo intermediário é de oito anos, sujeito ao teto global oficialmente divulgado.
+## 12. Ressarcimento imprescritível — Tema 897
 
-### 12.6 Direito intertemporal: Tema 1199
+O STF fixou no Tema 897 que são imprescritíveis as ações de ressarcimento ao erário fundadas em **ato doloso tipificado na LIA**.
 
-O STF fixou que o novo regime prescricional da Lei nº 14.230/2021 é **irretroativo**. Os novos marcos temporais contam a partir da publicação da reforma, em 26 de outubro de 2021.
+Requisitos cumulativos:
 
-Essa regra não deve ser confundida com a aplicação imediata de normas processuais de tutela provisória aos processos em curso.
-
-## 13. Ressarcimento imprescritível: Tema 897
-
-O Tema 897 do STF fixou:
-
-> “São imprescritíveis as ações de ressarcimento ao erário fundadas na prática de ato doloso tipificado na Lei de Improbidade Administrativa.”
-
-São requisitos cumulativos:
-
-1. pedido de ressarcimento ao erário;
+1. pretensão de ressarcimento ao erário;
 2. ato doloso;
-3. ato tipificado na LIA.
+3. tipificação na Lei de Improbidade.
 
 Logo:
 
 - nem todo ressarcimento é imprescritível;
-- ilícito civil comum não recebe automaticamente esse regime;
-- a pretensão de aplicar sanções pessoais continua sujeita à prescrição;
-- uma ação pode perder a pretensão sancionadora e ainda conservar o pedido ressarcitório que cumpra estritamente o Tema 897.
+- ilícito civil comum não basta;
+- sanções pessoais continuam sujeitas à prescrição;
+- a prescrição das sanções não impede, por si só, o prosseguimento de pedido de ressarcimento que preencha o Tema 897.
 
-## 14. Casos integrados
+## 13. Matriz de resolução
 
-### Caso 1: art. 11 e perda da função
+| Pergunta | Regra de prova |
+| --- | --- |
+| Qual classe do ato? | art. 9º, 10 ou 11 determina o conjunto possível de sanções |
+| Sanções são automáticas? | não; isoladas/cumulativas conforme gravidade e dosimetria |
+| Medida é provisória ou definitiva? | indisponibilidade = cautelar; perda/multa/suspensão/proibição = efeitos da condenação |
+| Quem pode ajuizar? | MP ou pessoa jurídica pública interessada, legitimidade concorrente e disjuntiva |
+| O ANPC depende de Tribunal de Contas? | não como condição obrigatória |
+| Indisponibilidade pode garantir multa civil? | **sim**, após o STF, além de ressarcimento e enriquecimento ilícito |
+| Só bens ilícitos podem ser bloqueados? | **não**; pode atingir bens independentemente da origem, respeitadas impenhorabilidades |
+| Prazo sancionador? | 8 anos; antiga redução para 4 anos foi invalidada |
+| Teto da ação? | 20 anos, segundo o STF em 2026 |
+| Todo ressarcimento é imprescritível? | não; apenas o recorte do Tema 897 |
 
-Um agente pratica conduta tipificada apenas no art. 11. A prova afirma que a condenação necessariamente acarretará perda da função e suspensão dos direitos políticos.
+## 14. Pegadinhas finais
 
-**Solução:** errado. O inciso III do art. 12 prevê multa e proibição de contratar/receber benefícios. Não inclui aquelas duas sanções.
-
-### Caso 2: indisponibilidade para futura multa
-
-O autor pede bloqueio do patrimônio exclusivamente para garantir multa civil estimada.
-
-**Solução:** o art. 16 exclui a futura multa da finalidade da indisponibilidade. O bloqueio deve vincular-se ao ressarcimento ou ao acréscimo patrimonial ilícito.
-
-### Caso 3: quatro anos após interrupção
-
-A ação foi ajuizada após a reforma. A prova aplica automaticamente quatro anos entre ajuizamento e sentença.
-
-**Solução:** errado após o julgamento de 1º de julho de 2026. A redução pela metade foi declarada inconstitucional; o prazo reinicia integralmente por oito anos.
-
-### Caso 4: absolvição por dúvida
-
-O réu é absolvido criminalmente por insuficiência de provas. Sustenta extinção automática da ação de improbidade.
-
-**Solução:** a autonomia das instâncias permanece. Essa absolvição não corresponde às hipóteses qualificadas de inexistência do fato, negativa de autoria ou excludentes oficialmente reconhecidas pelo STF.
-
-### Caso 5: prescrição das sanções e ressarcimento
-
-A pretensão sancionadora prescreveu, mas há dano decorrente de ato doloso tipificado na LIA.
-
-**Solução:** as sanções não podem ser aplicadas. O pedido de ressarcimento pode permanecer imprescritível se os requisitos do Tema 897 forem demonstrados.
-
-## 15. Método de resolução
-
-### Passo 1: identifique a categoria do ato
-
-- art. 9º, 10 ou 11;
-- localize somente as sanções previstas para aquela classe.
-
-### Passo 2: separe consequência provisória e definitiva
-
-- indisponibilidade: cautelar;
-- perda, multa, suspensão e proibição: efeitos da condenação;
-- ressarcimento: reparação.
-
-### Passo 3: confira legitimidade e rito
-
-- MP e pessoa jurídica interessada têm legitimidade concorrente;
-- inicial individualiza fatos e réus;
-- contestação em 30 dias;
-- revelia não presume fatos;
-- juiz pode qualificar juridicamente os mesmos fatos.
-
-### Passo 4: trate a prescrição com a data correta
-
-- oito anos como regra;
-- quatro anos após interrupção não vale mais;
-- teto de 20 anos divulgado pelo STF;
-- ressarcimento imprescritível só no recorte estrito do Tema 897.
-
-### Passo 5: elimine automatismos
-
-- sanções não são todas cumulativas;
-- rejeição de contas não condena por improbidade;
-- absolvição penal não extingue sempre;
-- indisponibilidade não multiplica o dano por réu;
-- prescrição sancionatória não apaga automaticamente o ressarcimento qualificado.
-
-## 16. Síntese final
-
-1. O art. 12 combina sanções diferentes para os arts. 9º, 10 e 11.
-2. Art. 11 não prevê perda da função nem suspensão de direitos políticos.
-3. Sanções são individualizadas; o ressarcimento pode ser solidário.
-4. O STF passou a admitir perda de todas as funções, com preservação excepcional fundamentada.
-5. A proibição de contratar alcança os três níveis federativos.
-6. Sanções só são executadas após o trânsito em julgado.
-7. MP e pessoa jurídica interessada possuem legitimidade concorrente e disjuntiva.
-8. O ANPC exige, no mínimo, ressarcimento integral e reversão da vantagem indevida.
-9. Consulta prévia obrigatória ao Tribunal de Contas para o ANPC foi afastada.
-10. Indisponibilidade é cautelar, não inclui multa e deve ser proporcional.
-11. O prazo sancionador geral é de oito anos.
-12. A redução para quatro anos após interrupção foi invalidada em 2026.
-13. O STF divulgou teto máximo de 20 anos para a ação.
-14. Apenas o ressarcimento por ato doloso tipificado na LIA é imprescritível pelo Tema 897.
+1. Art. 11 não prevê perda da função nem suspensão dos direitos políticos.
+2. Sanção pessoal é individual; responsabilidade patrimonial pode ser solidária.
+3. Benefício direto próprio não é requisito autônomo para responsabilidade patrimonial do terceiro.
+4. A proibição de contratar não se limita automaticamente ao ente lesado.
+5. Sanções do art. 12 são executadas após trânsito em julgado.
+6. Indisponibilidade não é pena, mas pode garantir **ressarcimento + multa civil + enriquecimento ilícito**.
+7. A origem lícita do bem não impede, por si só, a indisponibilidade após o STF.
+8. Tutela de evidência e urgência presumida são hipóteses excepcionais e fundamentadas.
+9. Estado de necessidade também integra as hipóteses penais qualificadas que podem impedir a improbidade.
+10. Quatro anos após interrupção é regra inconstitucional; o reinício é de oito anos.
+11. Prescrição das sanções não elimina automaticamente ressarcimento imprescritível do Tema 897.
 
 ## Referências
 
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) - Presidência da República; arts. 37, §§ 4º e 5º; texto compilado; acesso em 19 jul. 2026.
-- [Lei nº 8.429, de 2 de junho de 1992](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) - Presidência da República; Lei de Improbidade Administrativa, texto compilado após a Lei nº 14.230/2021; acesso em 19 jul. 2026.
-- [Lei nº 14.230, de 25 de outubro de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm) - Presidência da República; reforma da Lei de Improbidade Administrativa; acesso em 19 jul. 2026.
-- [STF restabelece legitimidade concorrente para ações e acordos de improbidade](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=493313) - Supremo Tribunal Federal; ADIs 7042 e 7043, julgamento de 31 ago. 2022; acesso em 19 jul. 2026.
-- [Tema 1199 - ARE 843.989](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1199) - Supremo Tribunal Federal; dolo e direito intertemporal do regime prescricional; trânsito em julgado do paradigma em 16 fev. 2023; acesso em 19 jul. 2026.
-- [Tema 897 - RE 852.475](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=897) - Supremo Tribunal Federal; imprescritibilidade do ressarcimento por ato doloso tipificado na LIA; julgamento em 8 ago. 2018; acesso em 19 jul. 2026.
-- [STF analisa dolo, particulares e proibição de contratar](https://noticias.stf.jus.br/postsnoticias/stf-avanca-em-discussao-sobre-mudancas-na-lei-de-improbidade-administrativa/) - Supremo Tribunal Federal; notícia de 28 maio 2026; acesso em 19 jul. 2026.
-- [STF decide perda da função, indisponibilidade, atividade judicial e reparação solidária](https://noticias.stf.jus.br/postsnoticias/stf-invalida-novos-dispositivos-da-reforma-da-lei-de-improbidade/) - Supremo Tribunal Federal; notícia de 24 jun. 2026; acesso em 19 jul. 2026.
-- [STF define efeitos da absolvição criminal sobre a improbidade](https://noticias.stf.jus.br/postsnoticias/stf-decide-que-absolvicao-criminal-nao-encerra-acao-de-improbidade-de-forma-automatica/) - Supremo Tribunal Federal; notícia de 25 jun. 2026; acesso em 19 jul. 2026.
-- [STF conclui ADIs 7156 e 7236 e invalida redução prescricional](https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/) - Supremo Tribunal Federal; notícia de 1º jul. 2026; acesso em 19 jul. 2026.
-- [Tema 1257: nova LIA e indisponibilidade em processos em curso](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/27022025-Repetitivo-estabelece-que-nova-Lei-de-Improbidade-afeta-indisponibilidade-de-bens-nas-acoes-em-curso.aspx) - Superior Tribunal de Justiça; notícia de 27 fev. 2025 sobre tese publicada em 13 fev. 2025; acesso em 19 jul. 2026.
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — art. 37, §§ 4º e 5º.
+- [Lei nº 8.429, de 2 de junho de 1992](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) — texto compilado da Lei de Improbidade Administrativa.
+- [Lei nº 14.230, de 25 de outubro de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm) — reforma da LIA.
+- [STF — ADIs 7042 e 7043](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=493313) — legitimidade concorrente do Ministério Público e da pessoa jurídica pública interessada.
+- [STF — ADI 7156](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6396615) — julgamento conjunto com a ADI 7236; indisponibilidade, art. 17-C, decisão penal, sanções e prescrição.
+- [STF — conclusão das ADIs 7156 e 7236 em 1º/7/2026](https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/) — redução prescricional e prazo máximo de 20 anos.
+- [Tema 1199 — ARE 843.989](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1199) — direito intertemporal e regime prescricional.
+- [Tema 897 — RE 852.475](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=897) — imprescritibilidade do ressarcimento por ato doloso tipificado na LIA.
+- [Tema 1257 — STJ](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=1257&cod_tema_inicial=1257&novaConsulta=true&tipo_pesquisa=T) — indisponibilidade em processos em curso.
