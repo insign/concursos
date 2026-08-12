@@ -1,134 +1,224 @@
 # Regimento Interno do TCE/MA: processos de controle externo
 
-## Recorte
+## Corte
 
-Estuda arquitetura processual:
+- Edital: **6/7/2026**.
+- Base: Regimento Interno — Resolução Administrativa nº 1/2000, com alterações vigentes até o edital.
+- **Res. 423/2025:** processo eletrônico + ciclo do art. 162-A.
+- **Res. 424/2025:** ajuste da instrução; § 9º do art. 153.
+- Eixo do 058 = **Regimento**. Sistemas externos são acessórios.
 
-- prestação de contas;
-- tomada de contas;
-- tomada de contas especial;
-- auditoria, inspeção e acompanhamento;
-- atos sujeitos a registro;
-- sistemas eletrônicos;
-- consulta pública de processos.
+## Art. 142 — 13 naturezas
 
-Não cobre denúncias/representações/consultas em detalhe, defesa, provas, prazos, decisões, sanções, execução, recursos ou revisão.
+**G-G-T-C-F-V-D-R-P-C-R-N-O**
 
-## Ideia de processo
-
-Processo de controle externo organiza:
-
-- entrada de dados/documentos;
-- autuação;
-- instrução;
-- saneamento quando necessário;
-- apreciação ou julgamento conforme a competência.
-
-Autuação não é julgamento.
-
-Instrução não é sanção.
-
-Sistema eletrônico não cria competência.
-
-## Famílias principais
-
-| Família | Núcleo |
+| # | Natureza |
 | --- | --- |
-| prestação de contas anual | envio ordinário de informações da gestão |
-| tomada de contas | apuração quando contas não são apresentadas ou exigem formação específica |
-| tomada de contas especial | apurar fatos, identificar responsáveis e quantificar dano ao erário |
-| fiscalização | auditoria, inspeção, acompanhamento e outras verificações |
-| atos sujeitos a registro | apreciação de legalidade de atos de pessoal para fins de registro |
+| I | Prestação de contas anual de **Governo** |
+| II | Prestação de contas anual de **Gestores** |
+| III | **Tomada de contas especial** |
+| IV | **Consulta** |
+| V | Acompanhamento da gestão **Fiscal** |
+| VI | Acompanhamento da gestão de recursos **Vinculados** |
+| VII | **Denúncia** |
+| VIII | **Representação** |
+| IX | Legalidade dos atos de **Pessoal** |
+| X | Legalidade dos atos e **Contratos** |
+| XI | **Recurso de revisão** |
+| XII | Elaboração de ato **Normativo** |
+| XIII | **Outros** que exijam decisão colegiada |
 
-## e-PCA
+### Parágrafos que viram questão
 
-- Sistema de Prestação de Contas Anual eletrônica.
-- Recebe informações e documentos de contas de governo e de gestores.
-- Abrange Governador, Prefeitos, administradores e responsáveis.
-- Apresentação anual: até 60 dias contados de 2 de fevereiro, segundo hotsite oficial.
-- A solicitação de autuação é feita pelo titular da entidade prestadora.
-
-e-PCA não é julgamento automático.
-
-## Contas de governo x contas de gestão
-
-| Tipo | Ideia |
+| Situação | Regra |
 | --- | --- |
-| governo | avaliação global, usualmente ligada a parecer prévio |
-| gestão | julgamento da atuação de administradores e responsáveis |
+| Chefe do Executivo também pratica atos de gestão | continua **natureza I**, com análise técnica pertinente à II |
+| contas anuais de Presidentes do Legislativo / dirigentes de órgãos constitucionalmente autônomos | **natureza II** |
+| subnaturezas | podem ser criadas por **resolução** |
+| reconsideração + embargos | mantêm natureza do processo originário + mesma relatoria |
+| revisão | é natureza própria: **XI** |
+| processos administrativos | natureza disciplinada por **portaria do Presidente** |
 
-Não trate as duas como sinônimos.
+## Art. 162-A — ciclo
 
-## Tomada de contas especial
+**I-D-E**
 
-Segundo a IN TCE/MA nº 50/2017, destina-se a:
+> **Instaurar = Autuar → Desenvolver = Instruir + MPC + Relator + Colegiados + recursos → Encerrar = trânsito em julgado e/ou arquivamento**
 
-- apurar fatos;
-- identificar responsáveis;
-- quantificar dano ao erário.
-
-Medidas administrativas para elisão do dano vêm antes da instauração.
-
-O e-TCEspecial recebe comunicações de instauração e processos para julgamento.
-
-DN TCE/MA nº 38/2020: valor histórico de R$ 100.000,00 para obrigação de envio da TCE especial ao Tribunal.
-
-Controle interno na TCE especial:
-
-- dá ciência ao TCE/MA quando toma conhecimento de irregularidade ou ilegalidade nas hipóteses normativas;
-- emite parecer conclusivo sobre medidas adotadas e regularidade da instauração, constituição, quantificação do débito e desenvolvimento do processo;
-- não substitui o julgamento pelo TCE/MA.
-
-## Fiscalizações
-
-| Instrumento | Ideia |
+| Etapa | Núcleo |
 | --- | --- |
-| auditoria | exame planejado e técnico |
-| inspeção | verificação pontual ou dirigida |
-| acompanhamento | monitoramento de execução, evolução ou conformidade |
+| instauração | autuação pelo protocolo da Secretaria |
+| desenvolvimento | atos de instrução, MPC, relator, Pleno/Câmaras e recursos cabíveis |
+| encerramento | trânsito em julgado **e/ou** arquivamento |
 
-Fiscalização examina; decisão final vem no processo próprio.
+**Autuação ≠ julgamento.**  
+**Fim da instrução ≠ fim do processo.**
 
-## Atos sujeitos a registro
+## Art. 150 — quem dirige?
 
-- Admissão de pessoal.
-- Aposentadoria.
-- Reforma.
-- Pensão.
-- Transferência para reserva remunerada.
+**Relator preside a instrução.**
 
-SAAP recebe elementos de fiscalização.
+Pode determinar saneamento e demais providências necessárias.
 
-Folha de pagamento não é, por si, ato sujeito a registro, mas pode alimentar fiscalização.
+Pode delegar ao titular da Unidade Técnica:
+- diligências;
+- saneamento;
+- providências **sem decisão de mérito**.
 
-## Sistemas externos
+> Unidade Técnica instrui; colegiado/relator decide nos limites da competência.
 
-| Sistema | Função segura |
+## Art. 153 — o que a instrução olha?
+
+**P-P-P-A-B-B**
+
+1. **P**lanejamento e leis orçamentárias: conformidade normativa.
+2. **P**rogramas governamentais: resultados.
+3. **P**olíticas públicas: impacto econômico/social.
+4. **A**tos e contratos: legalidade, legitimidade, economicidade e conformidade.
+5. **B**alanços: situação financeira, orçamentária, patrimonial + resultado.
+6. **B**enefícios: quantificação dos benefícios gerados pelas ações de controle, quando aplicável.
+
+### Relatório técnico
+
+- exame conforme a natureza;
+- conclusões;
+- assinatura do **Auditor Estadual de Controle Externo responsável**.
+
+### § 9º — pegadinha 2025
+
+Pontos específicos solicitados **não bloqueiam** outros pontos complementares que **emergirem da instrução**.
+
+## Arts. 155, 156 e 161
+
+| Regra | Lembrete |
 | --- | --- |
-| SIGER | cadastro de responsáveis |
-| SINC-Fiscal | gestão orçamentária, financeira e patrimonial |
-| SINC-Folha | folha de pagamento |
-| SINC-Contrata | licitações e contratos |
-| INFORME | coleta para levantamentos de fiscalização |
-| SAAP | atos de pessoal |
-| e-TCEspecial | tomada de contas especial |
-| e-PCA | prestação de contas anual |
+| dado/providência preliminar indispensável | servidor comunica ao titular da unidade → providência/diligência |
+| fim da instrução | **relatório final da unidade competente** |
+| reabertura | é possível nas hipóteses regimentais |
 
-## Consulta pública
+## Arts. 157 e 157-A
 
-- Acompanha processos públicos.
-- Abrange prestação de contas, tomada de contas, tomada de contas especial, fiscalização, consulta e administrativos.
-- Exclui processos restritos ou sigilosos.
-- Possui filtros por número, ano, exercício, natureza, espécie, ente, unidade e responsável.
+### Instrução completa
 
-Consulta processual não muda mérito, prazo ou competência.
+**T + P + R**
+- **T**écnica: exame da Unidade Técnica.
+- **P**artes: ciência/manifestações quando cabíveis.
+- **R**elatório: instrução ou fiscalização.
 
-## Pegadinhas
+### Processo eletrônico
 
-- Prestação de contas não é tomada de contas especial.
-- Tomada de contas especial exige lógica de dano ao erário.
-- Registro de pessoal não se confunde com folha de pagamento.
-- Saneamento corrige falhas de formação ou instrução; não é recurso.
-- Auditoria pode subsidiar decisão, mas não é acórdão.
-- Sistema eletrônico operacionaliza; competência vem da Constituição, Lei Orgânica, Regimento e atos normativos.
-- Processos sigilosos ou restritos podem não aparecer na consulta pública.
+- etapas do rito em **meio eletrônico**;
+- atos processuais **digitais**;
+- produzir + comunicar + armazenar + validar eletronicamente.
+
+Detalhes de citação, defesa, revelia, provas e prazos → **Assunto 060**.
+
+## Art. 152 — urgência
+
+Pode haver preferência, entre outras hipóteses, para:
+- inspeção/auditoria solicitada pelo Legislativo;
+- informações para demandas judiciais;
+- consulta urgente;
+- denúncia/representação com fato grave;
+- cautelar;
+- risco de grande dano ao erário;
+- recursos;
+- outras matérias assim definidas pelo Pleno/Presidência.
+
+**Urgência ≠ procedência.**
+
+## Art. 229 — atos de pessoal para registro
+
+### Entram
+- admissão de pessoal;
+- aposentadoria;
+- transferência para reserva remunerada;
+- reforma;
+- pensão;
+- transformação de aposentadoria por invalidez em seguro-reabilitação, na hipótese legal.
+
+### Não entra na admissão
+**Nomeação para cargo em comissão.**
+
+### Não confunda
+
+> Órgão de origem pratica/concede o ato.  
+> TCE/MA **aprecia a legalidade para fins de registro**.
+
+## Fiscalização — art. 245 e seguintes
+
+Fiscalização alcança, entre outros:
+- planejamento/execução orçamentária;
+- licitações e contratos;
+- convênios e congêneres;
+- atos de pessoal;
+- inspeções e auditorias;
+- transferências de recursos.
+
+**Fiscalizar ≠ julgar.**
+
+## Receita também entra no radar
+
+| Artigo | Objeto | Instrumentos-chave |
+| --- | --- | --- |
+| 252 | recursos transferidos | inspeção + auditoria + contas |
+| 255 | arrecadação | acompanhamento em suas etapas |
+| 256 | renúncia de receitas | preferencialmente inspeção/auditoria |
+
+## Arts. 257–259 — inspeção × auditoria
+
+### Base comum
+
+Naturezas:
+**C-F-O-O-P**
+- contábil;
+- financeira;
+- orçamentária;
+- operacional;
+- patrimonial.
+
+Parâmetros:
+**legalidade + legitimidade + economicidade**.
+
+### Inspeção — art. 258
+
+**L-D-F**
+- **L**acuna/omissão de informação;
+- **D**úvida;
+- **F**ato específico a apurar.
+
+Tende a atuação **dirigida/pontual**.
+
+### Auditoria — art. 259
+
+**D-O-R**
+- **D**ados e conformidade técnica/jurídica;
+- **O**rganização e funcionamento / desempenho operacional;
+- **R**esultados de programas e projetos.
+
+Tende a exame **estruturado e planejado**.
+
+> Não use só “tamanho” para distinguir: use a **finalidade regimental**.
+
+## 10 pegadinhas finais
+
+1. Art. 142 = **13** naturezas.
+2. Governo ≠ gestores.
+3. Chefe do Executivo gestor: natureza continua **I**.
+4. Reconsideração/embargos mantêm natureza; **revisão** tem natureza própria.
+5. **Autuação = instauração**.
+6. Relator preside a instrução.
+7. Relatório técnico ≠ decisão.
+8. § 9º do art. 153 admite ponto complementar emergente.
+9. Cargo em comissão fica fora do registro da admissão.
+10. Processo eletrônico muda o **meio**, não a competência nem as garantias.
+
+## Fronteiras
+
+| Assunto | Deixar para ele |
+| --- | --- |
+| 059 | denúncia, representação e consulta — rito |
+| 060 | citação, defesa, revelia, provas e prazos |
+| 061 | decisões, sanções e execução |
+| 062 | recursos e revisão |
+| 063 | atos normativos, ética e regras finais |

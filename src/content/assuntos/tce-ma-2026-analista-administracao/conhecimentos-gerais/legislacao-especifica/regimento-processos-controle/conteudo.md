@@ -1,313 +1,413 @@
 ---
 schemaVersion: 1
 title: "Regimento Interno do TCE/MA: processos de controle externo"
-description: Arquitetura dos processos de controle externo no TCE/MA, com foco em contas, fiscalizações, atos sujeitos a registro, sistemas eletrônicos e consulta processual.
+description: Classificação, instauração, instrução, processo eletrônico, atos sujeitos a registro e fiscalizações no Regimento Interno do TCE/MA.
 order: 58
 storageId: regimento-processos-controle
 ---
 
-## 1. Mapa do assunto
+## 1. Recorte e corte temporal
 
-Este assunto trata dos **processos de controle externo** no TCE/MA em sentido estrutural: que tipos de matéria chegam ao Tribunal, como são organizadas em processos ou sistemas eletrônicos, quais informações alimentam a instrução e como a sociedade pode acompanhar processos públicos.
+Este assunto estuda a **arquitetura dos processos de controle externo no Regimento Interno do TCE/MA**. O eixo é o Regimento aprovado pela Resolução Administrativa nº 1/2000, com as alterações vigentes na data de publicação do edital, **6 de julho de 2026**.
 
-O foco é compreender:
+Para este recorte, são especialmente relevantes as alterações de 2025:
 
-- prestação de contas anual;
-- tomada de contas e tomada de contas especial;
-- processos de fiscalização, como auditoria, inspeção e acompanhamento;
-- apreciação de atos sujeitos a registro, especialmente atos de pessoal;
-- sistemas eletrônicos de recepção de dados e documentos;
-- consulta pública de processos;
-- diferença entre autuar, instruir, fiscalizar, apreciar e julgar.
+- a **Resolução TCE/MA nº 423/2025**, que reforçou a tramitação eletrônica e incluiu regras como os arts. 157-A e 162-A;
+- a **Resolução TCE/MA nº 424, de 25 de junho de 2025**, que aperfeiçoou a instrução e a distribuição interna, inclusive acrescentando o § 9º ao art. 153.
 
-Ficam fora deste assunto: denúncias, representações e consultas em detalhe; garantias processuais, provas e prazos de defesa; decisões, sanções, execução, recursos, revisão, atos normativos, ética e regras finais.
+A Resolução nº 424/2025 foi publicada antes do edital e, portanto, integra a regra regimental aplicável ao concurso.
 
-### 1.1. Limitação documental
+### 1.1. O que entra e o que fica para os assuntos seguintes
 
-A pesquisa confirmou que o Regimento Interno do TCE/MA foi aprovado pela **Resolução Administrativa nº 001/2000**, mas não localizou uma versão oficial única, consolidada e integralmente extraível até a data de acesso.
+Aqui entram:
 
-Por isso, este material adota uma regra de segurança:
+- classificação das naturezas processuais;
+- instauração, desenvolvimento e encerramento do processo;
+- direção da instrução pelo relator;
+- finalidade e conteúdo da instrução técnica;
+- processo eletrônico;
+- atos de pessoal sujeitos a registro;
+- fiscalização de atos, contratos, transferências e receitas;
+- inspeção e auditoria.
 
-- ensina com firmeza aquilo que fontes oficiais atuais demonstram, como competências, serviços processuais e sistemas eletrônicos;
-- usa normas oficiais específicas para explicar fluxos de prestação de contas, atos de pessoal e tomada de contas especial;
-- não crava artigos regimentais, enumeração fechada de espécies processuais, prazos gerais ou rito completo sem confirmação oficial vigente.
+Ficam para os assuntos seguintes:
 
-Essa cautela evita confundir o estudo estrutural dos processos com recortes posteriores sobre defesa, decisão, sanção e recurso.
+- **059:** denúncias, representações e consultas em detalhe;
+- **060:** citação, notificação, intimação, defesa, revelia, provas e prazos;
+- **061:** decisões, sanções, débitos, multas e execução;
+- **062:** recursos e revisão;
+- **063:** atos normativos, ética e disposições finais.
 
-## 2. Processo de controle externo
+A existência dessas matérias no fluxo processual pode ser mencionada para situar o processo, mas seu rito detalhado não pertence ao 058.
 
-### 2.1. Ideia central
+---
 
-Processo de controle externo é o instrumento formal usado pelo Tribunal para exercer suas competências constitucionais, legais e regimentais. Ele organiza dados, documentos, manifestações técnicas, atuação de relatoria, publicidade possível e deliberação quando a matéria exige decisão.
+## 2. Naturezas dos processos — art. 142
 
-Nem toda informação enviada ao TCE/MA é imediatamente uma decisão. O fluxo pode envolver:
+O art. 142 é o mapa mais importante deste assunto. Ele classifica os processos, segundo a natureza, em **treze categorias**:
 
-1. envio de dados ou documentos pelo jurisdicionado;
-2. validação preliminar ou recepção em sistema;
-3. autuação ou vinculação a processo;
-4. instrução técnica;
-5. manifestação de unidade competente ou do Ministério Público de Contas, quando aplicável;
-6. apreciação por relator ou colegiado;
-7. decisão, parecer, registro, determinação ou outro resultado próprio.
-
-Neste assunto, o mais importante é distinguir **entrada**, **processamento**, **instrução** e **resultado**. O resultado decisório completo fica para o Assunto 061.
-
-### 2.2. Competências que geram processos
-
-A página oficial de competências do TCE/MA confirma que o Tribunal atua, entre outras frentes, para:
-
-- apreciar contas anuais do Governador e dos Prefeitos, mediante parecer prévio;
-- julgar contas de administradores, responsáveis por bens, dinheiros e valores públicos e pessoas que deem causa a dano ao erário;
-- julgar contas anuais de Presidentes de Câmaras Municipais;
-- proceder à tomada de contas quando contas não forem apresentadas na forma da lei;
-- realizar auditorias, inspeções e acompanhamentos;
-- apreciar atos e contratos administrativos;
-- apreciar, para fins de registro, atos de admissão de pessoal e concessões de aposentadorias, reformas e pensões;
-- acompanhar arrecadação, cálculo, entrega e aplicação de recursos;
-- fiscalizar recursos transferidos, renúncia de receitas, LRF, desestatização, parcerias e outras matérias previstas em lei.
-
-Essas competências ajudam a entender as principais famílias de processos: contas, fiscalizações, atos sujeitos a registro, atos e contratos, acompanhamentos e processos administrativos de suporte.
-
-## 3. Famílias de processos
-
-### 3.1. Prestação de contas anual
-
-A prestação de contas anual é uma das frentes centrais do controle externo. Ela envolve a apresentação de informações e documentos sobre a gestão de determinado exercício.
-
-O hotsite oficial do **e-PCA** informa que o Sistema de Prestação de Contas Anual eletrônica recebe informações e documentos eletrônicos que compõem processos de:
-
-- prestação de contas anual de governo, como Governador do Estado e Prefeitos Municipais;
-- prestação de contas de gestores, administradores e demais responsáveis por órgãos, fundos e entidades públicas estaduais e municipais.
-
-Segundo a página oficial do e-PCA, a apresentação da prestação de contas anual deve ocorrer em até sessenta dias contados de 2 de fevereiro de cada ano, data da abertura da sessão legislativa. A operacionalização pode envolver titular, responsável técnico ou terceiro credenciado, mas a apresentação, isto é, a solicitação de autuação, ocorre com acesso do titular da entidade prestadora de contas.
-
-### 3.2. Contas de governo e contas de gestão
-
-Para prova, a diferença conceitual é indispensável:
-
-| Tipo | Ideia central |
+| Inciso | Natureza |
 | --- | --- |
-| contas de governo | avaliação político-institucional da gestão global, usualmente associada a parecer prévio |
-| contas de gestão | julgamento da atuação de administradores e responsáveis por recursos, bens e valores públicos |
+| I | prestação de contas anual de governo |
+| II | prestação de contas anual de gestores |
+| III | tomada de contas especial |
+| IV | consulta |
+| V | acompanhamento da gestão fiscal |
+| VI | acompanhamento da gestão de recursos vinculados |
+| VII | denúncia |
+| VIII | representação |
+| IX | apreciação da legalidade dos atos de pessoal |
+| X | apreciação da legalidade dos atos e contratos |
+| XI | recurso de revisão |
+| XII | elaboração de ato normativo |
+| XIII | outros processos em que haja necessidade de decisão colegiada pelo TCE/MA |
 
-No TCE/MA, o e-PCA organiza informações e documentos para essas duas grandes dimensões. A Instrução Normativa TCE/MA nº 83/2026, ao alterar regras da prestação de contas, menciona módulos e documentos ligados às contas de governo do Prefeito Municipal, às contas de gestão de fundos ou unidades gestoras e às contas do Presidente da Câmara Municipal.
+### 2.1. Regras complementares do art. 142
 
-Não confunda: conta de governo não é sinônimo automático de conta de gestão; e-PCA não é o julgamento, mas o meio eletrônico de recepção e organização da prestação de contas anual.
+A lista não deve ser decorada isoladamente. Os parágrafos trazem pegadinhas importantes.
 
-### 3.3. Tomada de contas
+**Chefe do Executivo que também pratica atos de gestão.** Se o Chefe do Poder Executivo acumular atos próprios de gestor, o processo continua com a natureza de **prestação de contas anual de governo**, mas recebe também a análise técnica pertinente às contas de gestores.
 
-Tomada de contas aparece quando há necessidade de apurar contas que não foram apresentadas ou que exigem atuação específica do órgão de controle. A página de competências do TCE/MA registra a atuação do Tribunal para proceder à tomada de contas do Prefeito Municipal e do Presidente da Câmara Municipal quando não apresentadas na forma da lei.
+**Poder Legislativo e órgãos constitucionalmente autônomos.** As contas anuais sob responsabilidade dos Presidentes dos órgãos do Poder Legislativo e dos dirigentes de órgãos constitucionalmente autônomos recebem a natureza de **prestação de contas anual de gestores**.
 
-Em termos de estudo, guarde três ideias:
+**Subnaturezas.** As naturezas podem ser divididas em subnaturezas por resolução do Tribunal.
 
-- prestação de contas é apresentação ordinária de informações e documentos;
-- tomada de contas aparece diante de omissão ou situação que exige apuração formal;
-- tomada de contas especial tem disciplina própria quando há dano ao erário.
+**Reconsideração e embargos.** Recursos de reconsideração e embargos de declaração conservam a natureza do processo originário, são juntados a ele e permanecem sob a mesma relatoria. O **recurso de revisão**, porém, aparece expressamente como natureza própria no inciso XI.
 
-### 3.4. Tomada de contas especial
+**Processos administrativos.** A classificação de natureza dos processos administrativos é disciplinada por portaria do Presidente.
 
-A Instrução Normativa TCE/MA nº 50/2017 define a tomada de contas especial como processo administrativo, formalizado e com rito próprio, destinado à:
+> **Pegadinha:** “natureza do processo” não é sinônimo de “resultado”. Prestação de contas, fiscalização ou ato sujeito a registro identificam o tipo de matéria processada; acórdão, decisão ou parecer são formas de deliberação, tratadas em recorte posterior.
 
-- apuração de fatos;
-- identificação de responsáveis;
-- quantificação de dano causado ao erário.
+---
 
-Antes de instaurar a tomada de contas especial, a autoridade administrativa competente deve adotar medidas administrativas para elisão do dano quando houver omissão no dever de prestar contas, não comprovação da boa e regular aplicação de recursos transferidos, desfalque, alcance, desvio ou desaparecimento de bens e valores públicos, ou ato ilegal, ilegítimo ou antieconômico com dano ao erário.
+## 3. Ciclo do processo — art. 162-A
 
-O sistema oficial **e-TCEspecial** recebe comunicações de tomada de contas especial instauradas por órgãos e entidades públicos estaduais e municipais e processos para julgamento pelo TCE/MA. A página oficial informa que a comunicação de instauração deve ocorrer em até cinco dias após o esgotamento das medidas administrativas para elisão do dano ou do prazo para adotá-las, e que o encaminhamento do processo ao TCE/MA segue o critério do valor histórico do dano.
+O art. 162-A fornece uma síntese excelente do ciclo processual:
 
-A Decisão Normativa TCE/MA nº 38/2020 fixou em **R$ 100.000,00** o valor histórico do dano a partir do qual o controlado fica obrigado a enviar ao Tribunal a tomada de contas especial respectiva, nos termos da IN nº 50/2017.
+### 3.1. Instauração
 
-Neste assunto, a tomada de contas especial é estudada como família processual e como fluxo de entrada no TCE/MA. Sanções, execução e efeitos do julgamento ficam para o Assunto 061.
+**Instauração = autuação** do processo pelo serviço de protocolo da Secretaria.
 
-### 3.5. Controle interno na tomada de contas especial
+Autuar é formalizar o processo. Não significa julgar, sancionar ou reconhecer automaticamente a regularidade da matéria.
 
-A IN nº 50/2017 também mostra que o controle interno não é personagem alheio à tomada de contas especial. Os responsáveis pelo controle interno devem dar ciência ao TCE/MA quando tomarem conhecimento de irregularidade ou ilegalidade nas hipóteses previstas, e o processo encaminhado ao Tribunal deve conter parecer conclusivo do responsável pelo controle interno.
+### 3.2. Desenvolvimento
 
-Esse parecer se manifesta sobre a adequação das medidas administrativas adotadas para elisão do dano e sobre o cumprimento das normas pertinentes à instauração, constituição, quantificação do débito e desenvolvimento válido e regular da tomada de contas especial.
+O desenvolvimento compreende os atos processuais relacionados a:
 
-Para prova, guarde a ideia: o controle interno participa da cadeia de detecção, formalização e qualificação da tomada de contas especial, mas não substitui o julgamento pelo TCE/MA.
+- instrução técnica;
+- manifestação do Ministério Público de Contas;
+- despachos e decisões do relator;
+- apreciação ou julgamento pelo Plenário ou pelas Câmaras;
+- recursos eventualmente interpostos.
 
-## 4. Fiscalizações
+O desenvolvimento, portanto, é a fase ampla entre a autuação e o encerramento. Nem todo processo necessariamente percorre de forma idêntica todas as etapas; o rito depende da natureza e das regras específicas.
 
-### 4.1. Auditoria, inspeção e acompanhamento
+### 3.3. Encerramento
 
-A página de competências do TCE/MA registra a realização de auditorias, inspeções e acompanhamentos de natureza contábil, financeira, orçamentária, operacional ou patrimonial nas unidades administrativas e nos órgãos e entidades sujeitos à jurisdição do Tribunal.
+**Encerramento = trânsito em julgado e/ou arquivamento**, nas hipóteses previstas na Lei Orgânica, no Regimento e nos atos normativos do Tribunal.
 
-Esses instrumentos compõem a dimensão fiscalizatória do controle externo:
+Atenção à expressão **“e/ou”**: o Regimento não reduz o encerramento a uma única forma.
 
-| Instrumento | Ideia segura para prova |
-| --- | --- |
-| auditoria | exame planejado e técnico de matéria, programa, ato, contrato, sistema ou gestão |
-| inspeção | verificação pontual ou dirigida para apurar fatos, situações ou documentos |
-| acompanhamento | monitoramento da execução, evolução ou conformidade de determinada matéria |
+### 3.4. Fluxo mental
 
-Não memorize, neste recorte, rito completo de cada fiscalização sem texto oficial vigente. O ponto seguro é reconhecer que fiscalizações podem gerar processos próprios, achados, relatórios, determinações ou deliberações, conforme a competência aplicável.
+> **AUTUAÇÃO → INSTRUÇÃO E DEMAIS ATOS → DELIBERAÇÃO/RECURSOS, QUANDO CABÍVEIS → TRÂNSITO EM JULGADO E/OU ARQUIVAMENTO**
 
-### 4.2. Fiscalização por sistemas de informações
+Essa é uma visão estrutural. Defesa, recursos e execução possuem regras próprias e são estudados nos assuntos 060 a 062.
 
-O controle externo contemporâneo não depende apenas de autos físicos. O TCE/MA utiliza sistemas eletrônicos para receber dados, documentos e informações de fiscalização.
+---
 
-A página oficial de sistemas externos apresenta, entre outros:
+## 4. Direção e saneamento da instrução — art. 150
 
-- **SIGER**, para cadastro de administradores e demais responsáveis;
-- **SINC-Fiscal**, para informações sobre gestão orçamentária, financeira e patrimonial;
-- **SINC-Folha**, para dados de folha de pagamento;
-- **SINC-Contrata**, para procedimentos licitatórios e contratos administrativos;
-- **INFORME**, para coleta de dados em levantamentos de fiscalizações;
-- **SAAP**, para atos de pessoal;
-- **e-TCEspecial**, para tomada de contas especial;
-- **e-PCA**, para prestação de contas anual.
+A instrução é presidida pelo **relator**.
 
-Esses sistemas não substituem a competência do Tribunal. Eles estruturam a entrada, a padronização e o acompanhamento de informações que poderão alimentar processos de controle externo.
+O art. 150 permite ao relator, por despacho singular, de ofício ou provocado pela unidade de instrução ou pelo Ministério Público de Contas, adotar providências necessárias ao saneamento do processo antes de submetê-lo ao órgão competente para apreciação do mérito.
 
-## 5. Atos sujeitos a registro
+Entre as providências regimentais estão medidas de saneamento e, quando cabíveis, atos de comunicação processual. O detalhamento de citação e audiência pertence ao assunto 060.
 
-### 5.1. Competência de apreciação
+### 4.1. Delegação para atos sem mérito
 
-O TCE/MA aprecia, para fins de registro, a legalidade de atos de admissão de pessoal e concessões de aposentadorias, reformas e pensões, ressalvadas hipóteses legalmente excluídas ou melhorias posteriores que não alterem o fundamento legal do ato concessório.
+O relator pode delegar ao titular da Unidade Técnica competente a prática de diligências e outras providências de **saneamento que não envolvam decisão de mérito**.
 
-Essa matéria é típica de controle externo porque o Tribunal não nomeia o servidor nem concede o benefício como órgão de origem. O Tribunal aprecia a legalidade do ato para fins de registro.
+A distinção é central:
 
-### 5.2. SAAP e elementos de fiscalização
+- **saneamento** corrige ou completa a instrução;
+- **mérito** resolve a questão submetida ao Tribunal.
 
-A Instrução Normativa TCE/MA nº 47/2017 disciplina o envio e a tramitação de elementos de fiscalização referentes a atos de admissão de pessoal, concessão de aposentadoria, transferência para a reserva remunerada, reforma e pensão, por meio do **Sistema de Acompanhamento de Atos de Pessoal (SAAP)**.
+A delegação de providências instrutórias não transforma a Unidade Técnica em órgão julgador.
 
-A IN nº 47/2017 adota conceitos úteis:
+---
 
-- atos sujeitos a registro são atos administrativos complexos cuja natureza impõe apreciação do TCE/MA para que se completem;
-- elementos de fiscalização são dados, informações e documentos que atestam e comprovam a prática de ato sujeito a registro;
-- folha de pagamento não é, por si, ato sujeito a registro, mas pode ser enviada para controle de legalidade e para fornecer elementos de fiscalização.
+## 5. Instrução técnica — arts. 153 a 161
 
-A norma identifica módulos do SAAP para admissão, inatividade, folha de pagamento e concursos públicos. Também prevê apreciação preliminar de atos com status pendente de avaliação, identificação de inconsistências ou omissões e possibilidade de devolução para saneamento.
+### 5.1. Finalidade da instrução — art. 153
 
-### 5.3. Pegadinha sobre atos de pessoal
+A instrução técnica e os procedimentos fiscalizatórios servem para assegurar a efetividade do controle externo e fornecer base técnica para as deliberações do Tribunal.
 
-Nem todo dado de pessoal é ato sujeito a registro. A folha de pagamento alimenta fiscalização, mas registro é categoria própria ligada a atos como admissão e concessões de inatividade ou pensão. Por outro lado, a ausência de registro não torna o dado irrelevante: ele pode compor fiscalizações, prestações ou tomadas de contas.
+Conforme a natureza do processo, a análise pode alcançar:
 
-## 6. Autuação, instrução e saneamento
+1. cumprimento de normas constitucionais, legais e regulamentares relativas ao planejamento e às leis orçamentárias;
+2. resultados dos programas governamentais previstos nas leis orçamentárias;
+3. impacto das políticas públicas no desenvolvimento econômico e social;
+4. legalidade, legitimidade, economicidade e demais aspectos de conformidade de atos e contratos administrativos que resultem em receita ou despesa, inclusive atos de admissão e concessões de aposentadoria, reforma e pensão;
+5. situação financeira, orçamentária e patrimonial e resultado das operações, demonstrados nos balanços públicos ao final do exercício;
+6. quando aplicável, quantificação dos benefícios gerados pela atuação do Tribunal em decorrência das ações de controle.
 
-### 6.1. Autuação
+### 5.2. Relatório técnico
 
-Autuar é formar ou registrar formalmente um processo no sistema competente. No e-PCA, a própria página oficial diferencia a operacionalização do sistema da apresentação ou solicitação de autuação pelo titular.
+O relatório da Unidade Técnica deve examinar, conforme couber, os pontos regimentais pertinentes e apresentar **conclusões**.
 
-Autuação não significa julgamento. Ela abre o caminho para organização e análise processual.
+O relatório técnico é assinado pelo **Auditor Estadual de Controle Externo responsável por sua elaboração**.
 
-### 6.2. Instrução
+> **Pegadinha:** relatório técnico subsidia a deliberação; não é, por si só, julgamento.
 
-Instruir é reunir, examinar e qualificar elementos para subsidiar a atuação do Tribunal. A instrução pode envolver documentos de prestação de contas, dados de sistemas, relatórios técnicos, elementos de fiscalização, manifestação de controle interno e outras peças.
+### 5.3. Pontos específicos e pontos complementares
 
-Em tomada de contas especial, a IN nº 50/2017 exige elementos fáticos e jurídicos suficientes para demonstrar a ocorrência do dano, identificar responsáveis e quantificar o débito. Em atos de pessoal, a IN nº 47/2017 trata da crítica preliminar, inconsistências e saneamento das informações.
+Quando a instrução é encaminhada para análise de pontos específicos, isso não impede a Unidade Técnica de examinar **outros pontos complementares que emerjam da própria instrução**.
 
-### 6.3. Saneamento
+Essa regra está no § 9º do art. 153, incluído pela Resolução nº 424/2025.
 
-Saneamento é a correção de falhas, omissões ou inconsistências. Ele não se confunde com absolvição, julgamento ou recurso.
+Portanto, uma questão que afirme que a Unidade Técnica fica absolutamente proibida de tratar de ponto complementar surgido durante a análise está errada.
 
-No SAAP, atos considerados inconsistentes em crítica preliminar podem ser devolvidos para saneamento. Em tomada de contas especial, a IN nº 50/2017 prevê saneamento quando os documentos exigidos não forem contemplados no todo ou em parte.
+### 5.4. Providência preliminar — art. 155
 
-Para prova, guarde: saneamento corrige a formação ou a instrução do processo; decisão de mérito e sanção são outros momentos.
+Se o servidor responsável pela informação técnica verificar que falta dado ou providência preliminar indispensável à instrução, comunica o fato ao titular da unidade competente, que decide sobre as providências e eventual diligência, observada a possibilidade de delegação prevista no art. 150.
 
-## 7. Processo eletrônico e documentos digitais
+### 5.5. Encerramento e reabertura da instrução — arts. 156 e 161
 
-### 7.1. Digitalização e padronização
+A instrução é considerada encerrada com o **relatório final da unidade competente**.
 
-As normas recentes do TCE/MA reforçam o uso de meio eletrônico, arquivos digitais e sistemas de recepção. A IN nº 83/2026 alterou regras de prestação de contas para prever, por exemplo, documentos em PDF exportados dos arquivos originais ou, quando necessário, digitalizados em PDF pesquisável por OCR, além de requisitos de legibilidade e ausência de malware.
+Isso não significa que nunca possa ser retomada. O Regimento admite a **reabertura da instrução**, conforme as hipóteses regimentais, por iniciativa das autoridades e órgãos legitimados.
 
-Essa dimensão é relevante em concursos porque mostra que o controle externo usa tecnologia como mecanismo de padronização, rastreabilidade, transparência e eficiência.
+Logo:
 
-### 7.2. Sistemas não são fins em si mesmos
+- relatório final encerra a instrução naquele momento;
+- encerramento da instrução não é sinônimo de encerramento definitivo do processo;
+- o processo só se encerra nos termos do art. 162-A.
 
-SINC, SAAP, e-PCA, e-TCEspecial e consulta processual são ferramentas. A competência material continua sendo do TCE/MA conforme Constituição, Lei Orgânica, Regimento e atos normativos.
+---
+
+## 6. Formalidades essenciais e processo eletrônico
+
+### 6.1. Formalidades essenciais — art. 157
+
+São essenciais à completa instrução, em síntese:
+
+- exame pela Unidade Técnica competente;
+- ciência das partes para manifestação ou defesa, quando couber, por determinação do relator;
+- relatório da instrução ou do procedimento fiscalizatório.
+
+O estudo detalhado das garantias processuais fica no assunto 060, mas é importante compreender que **instrução técnica e participação processual não se confundem**.
+
+### 6.2. Meio eletrônico — art. 157-A
+
+As etapas do rito processual previstas na Lei Orgânica ocorrem em **meio eletrônico**, nos termos do Regimento.
+
+Os atos processuais são digitais para permitir sua:
+
+- produção;
+- comunicação;
+- armazenamento;
+- validação por meio eletrônico.
+
+As regras detalhadas sobre citação, notificação, intimação, revelia e defesa constam do mesmo artigo, mas pertencem ao assunto 060.
+
+> **Pegadinha:** “processo eletrônico” descreve o meio de prática e conservação dos atos; não elimina contraditório, instrução, relatoria nem competência dos colegiados.
+
+---
+
+## 7. Tramitação urgente — art. 152
+
+O Regimento prevê tramitação urgente e preferência para determinadas matérias. Para este assunto, basta reconhecer as principais classes:
+
+- solicitações legislativas de inspeção ou auditoria e de informações correlatas;
+- informações requisitadas para processos judiciais;
+- consulta que exija solução imediata;
+- denúncia ou representação envolvendo fato grave;
+- medida cautelar;
+- processo cuja demora possa provocar grande dano ao erário;
+- recursos previstos no Regimento;
+- outros processos assim considerados pelo Plenário ou pela Presidência.
+
+O art. 152 trata de **prioridade de tramitação**, não de procedência automática da matéria.
+
+---
+
+## 8. Atos de pessoal sujeitos a registro — art. 229
+
+O TCE/MA aprecia, para fins de registro, a legalidade de atos de pessoal.
+
+O art. 229 abrange:
+
+### 8.1. Admissão de pessoal
+
+Aprecia-se a legalidade dos atos de admissão, a qualquer título, na administração direta e indireta, incluídas as fundações instituídas e mantidas pelo poder público.
+
+**Exceção:** as nomeações para **cargo em comissão** não se submetem a esse registro.
+
+### 8.2. Inatividade e pensão
+
+Também se submetem à apreciação para registro:
+
+- aposentadorias;
+- transferência para a reserva remunerada;
+- reformas;
+- pensões.
+
+O Regimento ressalva melhorias posteriores que não alterem o fundamento legal do ato concessório.
+
+### 8.3. Hipótese específica prevista no Regimento
+
+O art. 229 também contempla a transformação de aposentadoria por invalidez em **seguro-reabilitação**, conforme a legislação aplicável.
+
+### 8.4. Apreciação para registro não é concessão
+
+O órgão de origem pratica o ato; o TCE/MA exerce o controle de legalidade **para fins de registro**.
 
 Não confunda:
 
-| Ferramenta | Não é |
+| Ato do órgão de origem | Atuação do TCE/MA |
 | --- | --- |
-| e-PCA | julgamento automático de contas |
-| SAAP | órgão julgador de pessoal |
-| SINC | decisão sobre contrato ou despesa |
-| e-TCEspecial | sanção em si |
-| consulta processual | criação de competência ou protocolo de defesa |
+| admite, aposenta, reforma ou concede pensão | aprecia a legalidade para fins de registro |
 
-## 8. Consulta pública de processos
+---
 
-A página oficial de consulta de processos informa que o serviço permite acompanhar a movimentação de processos de **Prestação de Contas**, **Tomada de Contas**, **Tomada de Contas Especial**, **Fiscalização**, **Consulta** e outros processos administrativos que tramitam no TCE/MA, com exceção dos restritos ou sigilosos.
+## 9. Fiscalização de atos e contratos — art. 245 e seguintes
 
-O sistema público de consulta possui filtros como número, ano, exercício, processo de origem, sigilo, natureza, espécie, setor, unidade, ente, nome e CPF do responsável.
+O Regimento disciplina fiscalizações destinadas a tornar efetivo o controle externo e a instruir processos.
 
-Para prova, o ponto é simples:
+O Tribunal fiscaliza atos dos responsáveis por unidades administrativas sujeitos à sua jurisdição, especialmente atos que resultem em receita ou despesa.
 
-- consulta processual dá publicidade e acompanhamento;
-- processos restritos ou sigilosos podem ficar fora do acesso público;
-- consultar não altera prazo, competência, mérito ou relatoria;
-- a existência de filtros como natureza e espécie reforça que processos são classificados formalmente.
+Entre as frentes regimentais estão:
 
-## 9. Diferenças essenciais
+- acompanhamento do planejamento e da execução orçamentária;
+- licitações, contratos, convênios e instrumentos congêneres;
+- atos de pessoal sujeitos a registro;
+- inspeções e auditorias;
+- transferências de recursos.
 
-### 9.1. Prestação de contas x tomada de contas x tomada de contas especial
+A fiscalização não é mero sinônimo de julgamento. Ela produz elementos técnicos que podem instruir uma futura deliberação.
 
-| Categoria | Ideia |
+---
+
+## 10. Transferências, arrecadação e renúncia de receitas
+
+### 10.1. Recursos transferidos — art. 252
+
+A aplicação de recursos transferidos mediante convênio, acordo, ajuste ou instrumento congênere pode ser fiscalizada por:
+
+- inspeções;
+- auditorias;
+- exame dos processos de contas.
+
+A fiscalização verifica, entre outros pontos, o alcance dos objetivos acordados, a correta aplicação dos recursos e a observância das normas e cláusulas pertinentes.
+
+### 10.2. Arrecadação — art. 255
+
+O Tribunal acompanha a arrecadação da receita em suas etapas, utilizando instrumentos de fiscalização e demonstrativos próprios.
+
+### 10.3. Renúncia de receitas — art. 256
+
+A fiscalização da renúncia de receitas é realizada preferencialmente por inspeções e auditorias, com atenção à eficiência, eficácia e economicidade e aos benefícios econômicos ou sociais resultantes.
+
+Essas regras mostram que o controle externo não se limita à despesa: **receita, transferência e renúncia fiscal também são objetos de fiscalização**.
+
+---
+
+## 11. Inspeção e auditoria — arts. 257 a 259
+
+### 11.1. Finalidade comum — art. 257
+
+Inspeções e auditorias podem ter natureza:
+
+- contábil;
+- financeira;
+- orçamentária;
+- operacional;
+- patrimonial.
+
+Elas se orientam pela verificação da legalidade, legitimidade e economicidade e podem, entre outros objetivos:
+
+- subsidiar a instrução e o julgamento de processos;
+- suprir omissões ou lacunas de informações;
+- apurar fatos levados ao conhecimento do Tribunal;
+- atender solicitações do Poder Legislativo;
+- contribuir para a efetividade do controle externo.
+
+Os relatórios de inspeção e auditoria possuem tratamento processual próprio no Regimento.
+
+### 11.2. Inspeção — art. 258
+
+A **inspeção** é utilizada principalmente para:
+
+- suprir omissões e lacunas de informações;
+- esclarecer dúvidas;
+- apurar fatos específicos relacionados à legalidade e à legitimidade de atos administrativos.
+
+É uma atuação dirigida a questão determinada e pode ser realizada independentemente da programação ordinária, nos termos regimentais.
+
+### 11.3. Auditoria — art. 259
+
+A **auditoria** possui escopo de exame mais estruturado. Pode servir para:
+
+- obter dados de natureza contábil, financeira, orçamentária e patrimonial;
+- verificar aspectos técnicos, de legalidade e legitimidade;
+- conhecer a organização e o funcionamento dos órgãos e entidades;
+- avaliar desempenho operacional;
+- avaliar resultados de programas e projetos governamentais.
+
+### 11.4. Contraste de prova
+
+| Inspeção | Auditoria |
 | --- | --- |
-| prestação de contas | envio ordinário de informações e documentos sobre a gestão |
-| tomada de contas | apuração formal quando contas não são apresentadas ou quando a lei exige formação específica |
-| tomada de contas especial | processo próprio para apurar fatos, identificar responsáveis e quantificar dano ao erário |
+| dirigida a omissão, lacuna, dúvida ou fato específico | exame estruturado de gestão, controles, dados, desempenho ou resultados |
+| tende a foco pontual | tende a escopo mais amplo e planejado |
+| pode ser realizada fora da programação ordinária nas hipóteses regimentais | observa planejamento específico de auditorias |
 
-### 9.2. Fiscalização x julgamento
+Não transforme a distinção em regra absoluta baseada apenas em “tamanho”: o que importa é a **finalidade regimental**.
 
-Fiscalizar é examinar. Julgar é decidir no processo próprio. Uma auditoria pode produzir achados e subsidiar deliberação, mas a auditoria em si não deve ser confundida com o acórdão, parecer ou decisão final.
+---
 
-### 9.3. Registro x fiscalização comum
+## 12. Matriz de distinções essenciais
 
-Ato sujeito a registro exige apreciação do TCE/MA para completar sua juridicidade externa. Fiscalização comum pode examinar atos, contratos, despesas, receitas ou políticas públicas sem que todos esses elementos sejam atos sujeitos a registro.
-
-### 9.4. Sistema x processo
-
-Sistema eletrônico recebe, organiza ou disponibiliza dados. Processo é o instrumento formal de controle externo. Um sistema pode alimentar muitos processos, e um processo pode reunir peças vindas de vários sistemas.
-
-## 10. Pontos de prova
-
-### 10.1. Competência material vem antes do sistema
-
-Se a questão disser que o TCE/MA só atua quando determinado sistema eletrônico recebe arquivo, desconfie. O sistema operacionaliza, mas a competência decorre da Constituição, da Lei Orgânica, do Regimento e dos atos normativos.
-
-### 10.2. e-PCA é entrada de prestação de contas anual
-
-O e-PCA recebe informações e documentos que compõem processos de prestação de contas anual de governo e de gestores. Não é sinônimo de julgamento automático.
-
-### 10.3. e-TCEspecial gira em torno de dano ao erário
-
-A tomada de contas especial tem núcleo próprio: apurar fatos, identificar responsáveis e quantificar dano. Medidas administrativas para elisão do dano antecedem sua instauração.
-
-### 10.4. SAAP não se limita a admissão
-
-O SAAP cobre admissão, inatividade, folha de pagamento e concursos públicos como módulos. Atos sujeitos a registro incluem admissões e concessões de aposentadoria, reforma e pensão, conforme o recorte normativo.
-
-### 10.5. Consulta pública não cobre tudo
-
-O serviço de consulta processual permite acompanhar processos públicos, mas exclui os de caráter restrito ou sigiloso.
-
-## 11. Fronteiras com os próximos assuntos
-
-Para evitar mistura:
-
-| Próximo assunto | O que fica para depois |
+| Conceito | Núcleo |
 | --- | --- |
-| 059 | denúncias, representações e consultas em detalhe |
-| 060 | defesa, contraditório, provas, citações e prazos processuais |
-| 061 | decisões, sanções, execução, débito, multa e cumprimento |
-| 062 | recursos, revisão e formas de impugnação |
-| 063 | atos normativos, ética e regras finais |
+| natureza processual | classificação do tipo de matéria submetida ao Tribunal |
+| autuação | instauração formal do processo |
+| instrução | produção e análise técnica dos elementos necessários |
+| saneamento | providências para corrigir ou completar a instrução |
+| relatório técnico | conclusão da Unidade Técnica; não é julgamento |
+| desenvolvimento | conjunto de atos entre instauração e encerramento |
+| encerramento | trânsito em julgado e/ou arquivamento |
+| apreciação para registro | controle de legalidade de determinados atos de pessoal |
+| fiscalização | exame e produção de elementos de controle |
+| inspeção | verificação dirigida de lacuna, dúvida ou fato específico |
+| auditoria | exame estruturado de atos, gestão, controles, desempenho ou resultados |
 
-Aqui, o objetivo é dominar a **arquitetura processual**: quais famílias existem, para que servem e como os sistemas eletrônicos alimentam o controle externo.
+---
 
-## 12. Referências
+## 13. Pegadinhas de prova
 
-- [Competências do TCE/MA](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias), Tribunal de Contas do Estado do Maranhão, acesso em 27 jul. 2026.
-- [Consulta de Processos](https://www.tcema.tc.br/index.php/servicos/consulta-de-processos), Tribunal de Contas do Estado do Maranhão, acesso em 27 jul. 2026.
-- [Sistema de Consulta Pública de Processos](https://consultaprocesso-externo.apps.tcema.tc.br/), Tribunal de Contas do Estado do Maranhão, acesso em 27 jul. 2026.
-- [Sistemas externos](https://www.tcema.tc.br/index.php/sistemas-externos), Tribunal de Contas do Estado do Maranhão, acesso em 27 jul. 2026.
-- [e-PCA - Hotsite](https://hotsites.apps.tcema.tc.br/epca), Tribunal de Contas do Estado do Maranhão, acesso em 27 jul. 2026.
-- [Instrução Normativa TCE/MA nº 47, de 15 de fevereiro de 2017](https://diario.apps.tcema.tc.br/publicacao/pdf/7300), Tribunal de Contas do Estado do Maranhão, publicada no Diário Oficial Eletrônico, edição nº 881/2017, em 8 mar. 2017.
-- [Instrução Normativa TCE/MA nº 50, de 30 de agosto de 2017](https://publicacao.apps.tcema.tc.br/#/documentohtml/834), Tribunal de Contas do Estado do Maranhão, texto oficial consultado em 27 jul. 2026.
-- [Decisão Normativa TCE/MA nº 38, de 21 de outubro de 2020](https://publicacao.apps.tcema.tc.br/#/documentohtml/7083), Tribunal de Contas do Estado do Maranhão, vigência a partir de 1º jan. 2021.
-- [Instrução Normativa TCE/MA nº 83, de 4 de fevereiro de 2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9437), Tribunal de Contas do Estado do Maranhão, publicada no Diário Oficial Eletrônico, edição nº 2952/2026, em 10 fev. 2026.
+1. **São treze naturezas no art. 142.**
+2. Prestação de contas anual de governo e de gestores são naturezas distintas.
+3. Se o Chefe do Executivo também pratica atos de gestão, a natureza permanece de contas de governo, com análise técnica adicional pertinente.
+4. Reconsideração e embargos mantêm a natureza do processo originário; **revisão** é natureza expressamente listada.
+5. **Autuação é instauração**, não julgamento.
+6. O **relator preside a instrução**.
+7. A Unidade Técnica pode praticar atos de saneamento delegados que não envolvam mérito.
+8. Relatório técnico **não equivale a decisão**.
+9. O § 9º do art. 153 permite análise de pontos complementares surgidos da instrução.
+10. Encerramento da instrução com relatório final não se confunde com encerramento do processo.
+11. O rito é eletrônico, mas isso não elimina garantias processuais.
+12. Nomeação para cargo em comissão é exceção à apreciação para registro da admissão.
+13. Fiscalização alcança receita, despesa, transferências e renúncia de receitas.
+14. Inspeção e auditoria não são sinônimos.
+15. Sistemas como e-PCA, SAAP ou SINC podem operacionalizar obrigações, mas **não substituem as categorias e regras do Regimento**; por isso não são o eixo deste assunto.
+
+---
+
+## 14. Referências
+
+- [Consulta de Atos Normativos do TCE/MA](https://app.tcema.tc.br/publicacao/#/muraldocumentos?destino=e), canal oficial para consulta das resoluções e do Regimento Interno.
+- [Resolução TCE/MA nº 424, de 25 de junho de 2025](https://app.tcema.tc.br/diario/publicacao/pdf/9289), Diário Oficial Eletrônico do TCE/MA, edição nº 2805/2025, publicada em 26 jun. 2025.
+- Regimento Interno do TCE/MA, aprovado pela Resolução Administrativa nº 1, de 21 de janeiro de 2000, com alterações vigentes até a publicação do edital em 6 jul. 2026.
+- [Competências do TCE/MA](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias), referência institucional complementar.
