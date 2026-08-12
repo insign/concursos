@@ -1,107 +1,173 @@
 # Regimento Interno do TCE/MA: atos normativos, ética e regras finais
 
-## Recorte
+## Corte
 
-Estuda:
+**Edital: 6/7/2026.** Aqui, “ética” = principalmente **Comissão regimental** e reclamação contra Conselheiro.
 
-- poder normativo do TCE/MA;
-- resoluções, instruções normativas, portarias e Regimento;
-- proposta de ato normativo, súmula e projeto de lei;
-- consulta, prejulgado e súmula;
-- ética de membros e servidores;
-- Corregedoria, compliance, integridade e riscos;
-- publicação, vigência, casos omissos e regras finais.
+**Fora do recorte:** Códigos de Ética autônomos (Res. 282/2017 e 283/2017), compliance, política de riscos e recomendação eleitoral.
 
-## Poder Normativo
+## Alteração do Regimento
 
-- O TCE/MA pode expedir atos normativos no âmbito de sua competência.
-- O poder regulamentar não cria competência fora da Constituição ou da lei.
-- Regimento Interno organiza funcionamento, competências internas e procedimentos.
-- Resolução aprova códigos, políticas e regras gerais.
-- Instrução normativa disciplina procedimentos técnicos e obrigações procedimentais.
-- Portaria operacionaliza, designa ou executa comandos administrativos.
-- Decisão/acórdão resolve processo concreto; não é automaticamente norma geral.
+| Regra | Memorize |
+| --- | --- |
+| art. 307 | alteração do RI por **maioria absoluta dos Conselheiros titulares** |
+| art. 308 | proposta aponta o que será **modificado, acrescido ou suprimido** |
+| dispositivo modificado | conserva a numeração |
+| dispositivo retirado | recebe “**suprimido**” |
+| matéria nova | entra em dispositivo conexo até renumeração/republicação integral |
+| art. 305, § 2º | havendo reforma anterior, republicação integral no começo do ano |
 
-## Atos, Súmulas e Projetos
+⚠️ O art. 307 ainda remete ao art. 311, mas o **art. 311 foi revogado** em 2017.
 
-- Ato normativo pode tramitar em processo próprio, com relatoria e deliberação colegiada.
-- Decisão de aprovação do projeto não se confunde com a resolução publicada.
-- Projeto de lei não é lei vigente sem processo legislativo e publicação.
-- Súmula consolida entendimento institucional.
-- Não inventar quórum ou rito de súmula sem texto consolidado.
+## Art. 309 — iniciativa
 
-## Consulta e Prejulgado
+Podem propor **ato normativo / enunciado de Súmula / projeto de lei privativo**:
 
-- Consulta trata dúvida sobre aplicação de dispositivos legais ou regulamentares em matéria de competência do TCE/MA.
-- Resposta à consulta é catalogada como prejulgado.
-- Prejulgado tem caráter normativo.
-- Prejulgado resolve tese, não fato nem caso concreto.
-- Orientação técnica sobre sistema, processo ou ação de controle não é objeto de consulta.
+**Presidente + Conselheiros + Conselheiros-Substitutos + MPC + Comissões regimentais.**
 
-## Ética dos Membros
+### Relatoria
 
-- Resolução nº 282/2017: Código de Ética dos membros.
-- Membros: Conselheiros e Conselheiros-Substitutos.
-- Valores: imparcialidade, objetividade, cortesia, transparência, segredo profissional, prudência, diligência, integridade, dignidade, lisura, probidade e decoro.
-- Vedações centrais: informação privilegiada, uso privado de bens/serviços públicos, discriminação, atividade político-partidária indevida, conflito de interesses e manifestação sobre matéria sob decisão.
-- Comissão de Ética dos membros: Conselheiro Corregedor e dois membros eleitos, no texto publicado.
-- Sanções éticas: recomendação, advertência confidencial e censura ética em publicação oficial.
+| Iniciativa | Relator |
+| --- | --- |
+| Conselheiro | o próprio proponente |
+| Conselheiro-Substituto | o próprio proponente |
+| Presidente | designado pelo Presidente após consulta ao Plenário |
+| MPC | designado pelo Presidente após consulta ao Plenário |
+| Comissão | designado pelo Presidente após consulta ao Plenário |
 
-## Ética dos Servidores
+Mais de um interessado na relatoria → Presidente propõe **votação ou sorteio**.
 
-- Resolução nº 283/2017: Código de Ética dos servidores.
-- Alcança quem presta serviço ao TCE/MA de modo permanente, temporário ou excepcional, remunerado ou não, sob subordinação hierárquica.
-- Deveres: interesse público, legalidade, eficiência, honestidade, imparcialidade, independência, integridade, respeito e reserva de informações.
-- Servidor deve comunicar à chefia imediata irregularidade, omissão ou abuso ainda não apurado.
-- É vedado usar cargo ou informação privilegiada para vantagem indevida.
-- Comissão de Ética dos servidores: cinco titulares e cinco suplentes designados pelo Presidente, no texto publicado.
-- Manifestação da Comissão de Ética dos servidores: motivada e conclusiva.
-- Há recurso único ao Presidente contra sanção definida pela Comissão.
+### Anuência — contraste decisivo
 
-## Corregedoria e Integridade
+| Proposta | Mínimo | Proponente Conselheiro/Substituto entra na conta? |
+| --- | ---: | --- |
+| alteração do RI | 2 Conselheiros | **não** |
+| enunciado de Súmula | 2 Conselheiros | **não** |
+| projeto de lei privativo | 2 Conselheiros | **não** |
+| outro ato normativo | 2 Conselheiros | **sim** |
 
-- Corregedoria orienta e fiscaliza atividades funcionais e conduta disciplinar de membros e servidores.
-- Corregedoria não é Ouvidoria.
-- Programa de Compliance e Integridade: prevenção, detecção e resposta a desvios éticos, fraudes e irregularidades.
-- Princípios informados: ética, transparência, legalidade, responsabilidade, controle, eficiência e boa-fé.
-- Medidas: códigos de ética, gestão de riscos, canais seguros e sigilosos, Comissão de Governança e Compliance, capacitações e revisão periódica.
+**Anuência ≠ voto final:** é concordância **em tese com a essência** da proposta.
 
-## Gestão de Riscos
+## Fluxo da proposição
 
-- Resolução nº 432/2025: Política de Gestão de Riscos.
-- Risco: efeito da incerteza sobre objetivos institucionais, como ameaça ou oportunidade.
-- Processo: contexto, identificação, análise, avaliação, tratamento, monitoramento e comunicação.
-- Respostas ao risco: Reduzir, Compartilhar, Evitar e Assumir.
-- Reduzir diminui probabilidade ou impacto; Compartilhar transfere parcialmente; Evitar elimina pela descontinuidade; Assumir aceita dentro do apetite institucional.
-- Governança: Alta Administração, Comissão de Governança e Compliance, unidades gestoras de riscos e Unidade de Controle Interno.
-- Revisão: a cada dois anos ou por alteração relevante.
-- Casos omissos: Comissão de Compliance e Integridade e Gestão de Riscos, nessa política.
+**proposta → anuência → apresentação ao Plenário → relatoria → emendas/sugestões → relatório e parecer → discussão → votação → redação final → publicação**
 
-## Período Eleitoral
+### Emendas e sugestões
 
-- Recomendação nº 01/2026-COREG/TCE-MA: neutralidade institucional.
-- Base principiológica: legalidade, impessoalidade, moralidade e eficiência.
-- Evitar uso do cargo, estrutura, informação interna ou ações de controle para finalidade político-eleitoral.
-- Redes sociais pessoais não eliminam a condição funcional.
-- Opinião pessoal não deve aparentar posição oficial do Tribunal.
+- Conselheiros: emendam **propostas de atos normativos** em até **7 dias** da apresentação em Plenário.
+- Conselheiro-Substituto e MPC: podem apresentar **sugestões ao Relator**, no mesmo prazo, sobre ato normativo, Súmula e projeto de lei.
+- Emendas e sugestões → **direto ao Relator**.
 
-## Regras Finais
+| Emenda | Efeito |
+| --- | --- |
+| supressiva | exclui |
+| substitutiva | sucede e altera substancialmente |
+| aditiva | acrescenta |
+| modificativa | altera sem mudança substancial |
 
-- Publicação oficial é essencial para ciência e, quando previsto, início de vigência.
-- Muitas normas entram em vigor na data da publicação.
-- Algumas revogam disposições em contrário.
-- Casos omissos dependem do texto de cada norma.
-- Não usar notícia institucional como se fosse texto consolidado do Regimento.
+Fim do prazo → Relator apresenta relatório e parecer **até a 2ª Sessão Plenária seguinte**; pode oferecer substitutivo ou subemendas.
 
-## Pegadinhas
+## Ordem de votação — art. 317
 
-- Consulta não julga caso concreto.
-- Prejulgado tem caráter normativo, mas é tese.
-- Súmula consolida entendimento, não substitui a lei.
-- Resolução não pode contrariar lei superior.
-- Portaria de pessoal não é regra geral do Regimento.
-- Corregedoria fiscaliza conduta funcional; Ouvidoria recebe manifestações.
-- Compliance não é só punição: inclui prevenção e cultura de integridade.
-- Gestão de riscos inclui oportunidade, não só ameaça.
-- Projeto de lei não é lei vigente.
-- Sem Regimento consolidado, não cravar artigos e ritos não localizados.
+1. substitutivo do Relator;
+2. substitutivo de Conselheiro;
+3. projeto originário;
+4. subemendas do Relator;
+5. emendas com parecer favorável;
+6. emendas não acolhidas.
+
+**Substitutivo aprovado** → prejudica as demais proposições, **salvo destaques**.
+
+**Destaque** → votação separada de emenda, subemenda, parte do projeto ou do substitutivo.
+
+## Quórum e redação final
+
+- art. 318: proposição aprovada por **maioria absoluta de votos dos membros do Tribunal**;
+- empate → **Presidente desempata**;
+- redação final: mesma sessão ou sessão seguinte;
+- dispensa de votação da redação final:
+  - projeto originário aprovado **sem emendas**; ou
+  - substitutivo aprovado **integralmente**;
+- emenda à redação final: só **gramática, clareza ou objetividade**.
+
+⚠️ Art. 321 ainda cita arts. 311 e 312. O 311 está revogado; o prazo-base hoje expresso no art. 312 é **até 7 dias**, ajustável pelo Plenário mediante proposta justificada do Presidente ou Relator.
+
+## Súmula — arts. 322 a 327
+
+**Súmula = princípios/enunciados que resumem teses, soluções e precedentes reiterados.**
+
+| Ponto | Regra |
+| --- | --- |
+| organização | Coordenação de Plenário |
+| base | número + dispositivos legais + julgados |
+| incluir/rever/cancelar/restabelecer | maioria absoluta dos Conselheiros + projeto do art. 309 |
+| enunciado cancelado | número fica **vago**, com nota de cancelamento |
+| enunciado modificado | **mantém o número** |
+| citação perante o TCE | número do enunciado dispensa indicação dos julgados no mesmo sentido |
+
+**Citar sem precedentes ≠ nascer sem precedentes.** A Súmula pressupõe reiteração.
+
+## Comissão regimental de ética — Res. 391/2023
+
+**Nome:** Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno.
+
+### Composição
+
+**Corregedor + 2 Conselheiros + 1 Conselheiro-Substituto + 1 Procurador de Contas**
+
+- Substituto = **secretário-executivo**;
+- designação = **Pleno**;
+- presidência = **Corregedor**;
+- ausência do Corregedor → Conselheiros integrantes, por antiguidade.
+
+### Funcionamento
+
+- competências e atribuições → definidas por **ato normativo**;
+- formação da pauta → definida por **ato normativo**;
+- reunião ordinária → **1ª semana do mês, terça, 10h, presencial**;
+- local → **Plenário**;
+- aplica-se, no que couber, o funcionamento das sessões do Pleno;
+- deliberação → ofício do Presidente da Comissão + resumo da ata → Presidente do TCE.
+
+## Reclamação contra Conselheiro — art. 26, § 1º
+
+**petição fundamentada + elementos comprobatórios**
+
+→ Relator pode propor arquivamento se manifesta improcedência
+
+→ se não arquivar: ouvir reclamado em **15 dias úteis**
+
+→ com/sem resposta: Comissão decide arquivar ou instruir melhor
+
+→ decisão final com **presença de todos os integrantes**
+
+→ publica-se a conclusão.
+
+**Antes do Plenário:** projeto de lei privativo e proposta de atualização do RI dependem de **manifestação da Comissão**.
+
+## Comissões temporárias
+
+- **2 ou mais** membros;
+- entre Conselheiros e Conselheiros-Substitutos;
+- indicados no ato de criação pelo **Pleno ou Presidente**;
+- terminam no prazo fixado ou com o objetivo alcançado.
+
+## Regras finais
+
+- art. 337: regulamentação anterior **compatível** continua até novo disciplinamento; incompatível é revogada.
+- regra temporária sobre art. 141-C: vigorou só até **31/12/2024** → **exaurida** no edital de 2026.
+- art. 338: RI entrou em vigor em **21/1/2000**.
+- art. 336: prazo de 60 dias era **transitório da implantação**, não prazo atual de vista.
+
+## Pegadinhas de uma linha
+
+- **RI/Súmula/PL:** 2 Conselheiros **fora** da conta do proponente Conselheiro/Substituto.
+- **Ato normativo comum:** 2 Conselheiros **podendo incluir** o proponente Conselheiro/Substituto.
+- **alterar RI:** maioria absoluta dos **Conselheiros titulares**.
+- **aprovar proposição (art. 318):** maioria absoluta dos **votos dos membros** + desempate do Presidente.
+- **anuência prévia não vincula voto final**.
+- **Substituto propõe e pode relatar a própria proposta**, mas no art. 313 apresenta **sugestão**, não emenda como Conselheiro.
+- **súmula cancelada = número vago; modificada = mesmo número**.
+- **Comissão regimental atual ≠ antiga composição do Código de Ética de 2017**.
+- **15 dias úteis = ouvir Conselheiro reclamado**.
+- **art. 311 revogado**, embora ainda apareça em remissões do texto.
