@@ -1,114 +1,100 @@
 # Regimento Interno do TCE/MA: sessões, distribuição e deliberação
 
-## Recorte
+## Números que caem
 
-Estuda funcionamento colegiado:
+| Regra | Número |
+| --- | ---: |
+| quórum do Plenário | **4** |
+| quórum de Câmara | **3** |
+| convocação de extraordinária | **24h** |
+| tolerância por falta de quórum | **15min** |
+| inclusão em pauta ordinária | **8 dias** |
+| inclusão em extraordinária reservada | **2 dias** |
+| divulgação de pauta ordinária | **48h antes** |
 
-- sessões;
-- pauta;
-- ata;
-- distribuição;
-- relatoria;
-- deliberação.
+**Macete:** `4–3 / 24–15 / 8–2–48`.
 
-Não cobre decisões, sanções, execução, recursos, revisão, denúncias completas ou prazos de defesa.
+## Calendário
 
-## Colegiados
-
-| Estrutura | Ideia |
+| Colegiado | Sessões ordinárias |
 | --- | --- |
-| Pleno | órgão colegiado central |
-| Primeira Câmara | colegiado interno |
-| Segunda Câmara | colegiado interno |
+| Plenário | **quarta, 10h** |
+| 1ª Câmara | **terça e sexta, 10h** |
+| 2ª Câmara | **segunda e quinta, 10h** |
 
-Câmara do TCE/MA não é Câmara Municipal.
+Última ordinária do Plenário: **segunda quarta-feira de dezembro**.
 
-## Sessões
+## Quórum e MPC
 
-- Ordinária: funcionamento regular.
-- Extraordinária: convocada fora da rotina ordinária.
-- Não cravar quórum, dia, hora ou hipótese específica sem texto vigente.
+- Plenário: 4, incluído o Presidente.
+- Sessão plenária exige representante do **MPC**.
+- Sessão solene: dispensa quórum ordinário e presença do MPC.
+- Câmara: quórum 3.
 
-## Documentos
+## Ordem dos trabalhos
 
-| Documento | Momento | Função |
-| --- | --- | --- |
-| pauta | antes | organiza processos e matérias da sessão |
-| ata | registro | documenta o que ocorreu |
-| deliberação | resultado | formaliza o entendimento colegiado |
+### Plenário
 
-## Pauta
+**ata anterior → expediente → sorteio de relatores → decisões preliminares → votação suspensa → pauta**
 
-Pode indicar:
+### Câmara
 
-- órgão colegiado;
-- sessão e data;
-- processo;
-- natureza ou espécie;
-- entidade, interessado ou responsável;
-- relator;
-- retirada, suspensão ou não apreciação.
+**ata anterior → expediente → decisões preliminares → relação → votação suspensa → pauta**
 
-Pauta não é decisão.
+## Pauta x ata x deliberação
 
-## Ata
-
-Pode registrar:
-
-- abertura;
-- ata anterior;
-- expediente;
-- distribuição, redistribuição, sorteio ou designação de relator;
-- comunicações;
-- processos em pauta;
-- votos e resultados.
-
-Ata não é recurso nem revisão.
-
-## Distribuição e relatoria
-
-| Expressão | Ideia |
+| Termo | Função |
 | --- | --- |
-| sorteio | atribuição objetiva de relatoria |
-| distribuição | alocação formal ao relator |
-| redistribuição | nova alocação |
-| prevenção | manutenção por vínculo prévio |
-| relator | conduz, relata e propõe |
+| pauta | agenda prévia |
+| ata | registro do que ocorreu |
+| deliberação | resultado colegiado |
 
-Distribuição não decide mérito.
+Pauta **não** julga. Ata **não** é recurso.
 
-Relator não é órgão colegiado.
+## Empate
 
-## Deliberação
+| Onde? | O que acontece? |
+| --- | --- |
+| Plenário | **Presidente desempata** |
+| Câmara | **processo vai ao Plenário** |
 
-- Ocorre no órgão colegiado competente.
-- Relator apresenta relatório, voto ou proposta.
-- Membros participam conforme regras aplicáveis.
-- Resultado é registrado e formalizado.
-- Conteúdo de decisões, sanções e execução fica para outro assunto.
+**Pegadinha:** Presidente de Câmara **sempre vota**.
 
-## MPC
+## Votação
 
-- Pode aparecer em registros e processos.
-- Atua junto ao TCE/MA.
-- Não é Pleno nem Câmara.
-- Não delibera como colegiado julgador.
+- preliminar/prejudicial antes do mérito;
+- votos em **ordem decrescente de antiguidade**;
+- resultado: unanimidade, maioria, voto médio ou desempate.
 
-## Serviços oficiais
+## Distribuição
 
-- Pesquisa de pautas das sessões colegiadas.
-- Pesquisa de atas das sessões colegiadas.
-- Pesquisa de deliberações colegiadas.
-- Lista de relatoria.
-- Publicações eletrônicas.
+**PAS = Publicidade + Alternatividade + Sorteio**
 
-## Pegadinhas
+- distribuição = atribui relator;
+- redistribuição = muda relator;
+- prevenção = conexão mantém um relator;
+- distribuição ≠ julgamento.
 
-- Pauta vem antes; ata registra depois.
-- Ata pode registrar resultado, mas não é a decisão em si.
-- Distribuição define relatoria, não mérito.
-- Redistribuição muda relatoria.
-- Prevenção mantém vínculo prévio.
-- Deliberação colegiada não é instrução técnica.
-- Serviços de consulta dão publicidade, não criam competência.
-- Quórum, prazo de pauta, desempate, vista e sustentação oral exigem texto oficial vigente.
+### Resolução nº 424/2025
+
+- tomada de contas especial → **sorteio eletrônico randômico**;
+- natureza sem regra especial nos arts. 141-A a 141-H → **sorteio residual** após autuação;
+- agrupamento por **classe e natureza**.
+
+## Prazos: não confunda
+
+- `24h` = convocação extraordinária.
+- `15min` = tolerância para quórum.
+- `8d` = pedido para pauta ordinária.
+- `2d` = pedido para extraordinária reservada.
+- `48h` = divulgação da pauta ordinária.
+
+## Pegadinhas finais
+
+- Plenário `4`; Câmara `3`.
+- 1ª Câmara = **terça/sexta**; 2ª = **segunda/quinta**.
+- Plenário empatou → desempate.
+- Câmara empatou → Plenário.
+- MPC atua junto ao Tribunal; não é Plenário nem Câmara.
+- Pauta vem antes; ata registra; deliberação expressa resultado.
+- Sorteio eletrônico da TCE é regra vigente no corte do edital.
