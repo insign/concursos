@@ -1,124 +1,127 @@
 # Regimento Interno do TCE/MA: órgãos e organização interna
 
-## Recorte
+## Corte
 
-Estuda quem compõe e como se organiza o TCE/MA.
+- Edital: **6/7/2026**.
+- Regimento: Resolução Administrativa nº 1/2000 **com alterações vigentes até o edital**.
+- Resolução nº **391/2023** = peça-chave deste assunto.
+- Resolução nº **441/2026** é pré-edital, mas altera diárias; **não muda o art. 9º**.
 
-Não cobre:
+## Art. 9º — órgãos do Tribunal
 
-- sessões;
-- distribuição;
-- deliberação;
-- processos;
-- denúncias e representações;
-- sanções;
-- recursos.
+**P + 2C + P/V + C/O + 2CP + CT**
 
-## Camadas da estrutura
-
-| Camada | Exemplos |
+| Bloco | Órgãos |
 | --- | --- |
-| membros da Corte | Conselheiros e Conselheiros-Substitutos |
-| colegiados | Pleno, Primeira Câmara, Segunda Câmara |
-| direção | Presidência, Vice-Presidência |
-| controle interno institucional | Corregedoria |
-| escuta social | Ouvidoria |
-| órgão ministerial | Ministério Público de Contas |
-| apoio | Secretaria e unidades administrativas |
-| capacitação | ESCEX |
+| colegiado central | Plenário |
+| colegiados fracionários | Primeira Câmara + Segunda Câmara |
+| direção | Presidência + Vice-Presidência |
+| integridade/relacionamento | Corregedoria + Ouvidoria |
+| comissões permanentes | Ética/Gestão de Pessoas/Processo Produtivo + Transformação Digital/Inovação Tecnológica e Jurídica |
+| comissão eventual | comissões temporárias |
 
-## Conselheiros
+**Não entram no rol do art. 9º:** Secretaria, gabinetes, ESCEX e MPC.
 
-- TCE/MA possui 7 Conselheiros.
-- 4 escolhidos pela Assembleia Legislativa.
-- 3 escolhidos pelo Governador.
-- São membros titulares da Corte.
-- Não confundir com Procuradores de Contas nem com servidores.
+## Órgão × estrutura de apoio
 
-## Conselheiros-Substitutos
-
-- São 3.
-- Nomeação pelo Governador.
-- Ordem de classificação em concurso público de provas e títulos.
-- Quando substituem Conselheiro, têm garantias e impedimentos do titular.
-- Nas demais atribuições, possuem garantias e prerrogativas equivalentes às de Juiz de Direito de última entrância.
-
-## Colegiados
-
-| Órgão | Ideia |
+| Estrutura | Enquadramento |
 | --- | --- |
-| Pleno | órgão colegiado central |
-| Primeira Câmara | colegiado interno fracionário |
-| Segunda Câmara | colegiado interno fracionário |
+| Plenário/Câmaras | órgãos colegiados |
+| Presidência/Vice | órgãos de direção |
+| Corregedoria/Ouvidoria | órgãos regimentais |
+| comissões | órgãos regimentais de colaboração |
+| MPC | órgão ministerial junto ao TCE/MA; fora do rol do art. 9º |
+| Secretaria | apoio administrativo; fora do art. 9º |
+| ESCEX | capacitação; fora do art. 9º |
 
-Pegadinha: Câmara do TCE/MA não é Câmara Municipal.
+## Membros
 
-## Presidência e Vice
+- **7 Conselheiros** = titulares.
+- **3 Conselheiros-Substitutos** = carreira própria; ingresso por concurso de provas e títulos.
+- **4 Procuradores de Contas** = MPC.
 
-- Presidência: direção institucional e administrativa.
-- Vice-Presidência: direção e substituição.
-- Notícia oficial registra eleição de Mesa para biênio específico; use como contexto, não como regra completa do recorte.
-- Ocupar direção não cria nova competência material do Tribunal.
+## Câmaras — art. 16
 
-## Corregedoria
-
-- Orienta e fiscaliza atividades funcionais.
-- Atua sobre conduta disciplinar de membros e servidores.
-- Acompanha resultados institucionais.
-- Composição oficial: Corregedor(a) e GCORE.
-- Cargo de Corregedor(a) é privativo de Conselheiro(a) efetivo(a).
-- Não se confunde com controle externo sobre jurisdicionados.
-
-## Ouvidoria
-
-- Unidade administrativa de escuta.
-- Recebe reclamações, elogios, sugestões, solicitações e denúncias.
-- Garante participação e controle social sobre serviços do TCE/MA.
-- Pode fazer triagem inicial de denúncias e representações conforme Resolução TCE/MA nº 437/2026.
-- Não julga denúncia nem substitui Pleno, Câmara ou relator.
-
-## Ministério Público de Contas
-
-- Atua junto ao TCE/MA.
-- Composto por Procuradores de Contas.
-- Procuradores ingressam por concurso público de provas e títulos.
-- Exige bacharelado em Direito e mais de três anos de atividade jurídica.
-- Não é Secretaria, Ouvidoria, Corregedoria nem colegiado julgador.
-
-## Secretaria e unidades
-
-- Secretaria e unidades administrativas apoiam o funcionamento do Tribunal.
-- O modelo detalhado da Lei nº 9.936/2013 fica para os Assuntos 069 e 070.
-- Apoio técnico, administrativo ou tecnológico não substitui órgão colegiado.
-- Controle interno administrativo não é controle externo sobre jurisdicionados.
-
-## ESCEX
-
-- Escola Superior de Controle Externo.
-- Função de capacitação, formação e desenvolvimento institucional.
-- Não é órgão julgador.
-- Não é Câmara nem Pleno.
-
-## Comparações de prova
-
-| Se a alternativa falar em... | Pense em... |
+| Câmara | Quem preside |
 | --- | --- |
-| deliberação colegiada | Pleno ou Câmaras |
-| condução superior | Presidência |
-| substituição da direção | Vice-Presidência |
-| disciplina e atividades funcionais internas | Corregedoria |
-| manifestações e controle social | Ouvidoria |
-| órgão ministerial junto ao Tribunal | MPC |
-| apoio técnico-administrativo | Secretaria |
-| cursos e formação | ESCEX |
+| Primeira | Conselheiro que deixou a Presidência do TCE no mandato imediatamente anterior |
+| Segunda | Conselheiro mais antigo no cargo entre os integrantes, se não exercer Vice-Presidência, Corregedoria ou Ouvidoria no mandato em curso |
 
-## Pegadinhas
+**Pegadinha:** Câmara do TCE ≠ Câmara Municipal.
 
-- Conselheiro-Substituto não é Conselheiro titular.
-- Procurador de Contas não é Conselheiro.
-- MPC atua junto ao TCE/MA, mas não é o TCE/MA.
-- Ouvidoria recebe manifestações, mas não julga.
-- Corregedoria faz controle interno institucional, não controle externo sobre jurisdicionados.
-- Unidade de apoio à fiscalização apoia tecnicamente, mas não é colegiado julgador.
-- ESCEX capacita; não decide processos.
-- Nomes de ocupantes mudam; estrutura e funções são o foco.
+## Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno — art. 22
+
+**C + 2C + 1CS + 1PC**
+
+- Corregedor;
+- + 2 Conselheiros;
+- + 1 Conselheiro-Substituto = **secretário-executivo**;
+- + 1 Procurador de Contas;
+- todos designados pelo Pleno.
+
+**Preside:** Corregedor.  
+**Substituição:** demais Conselheiros da comissão, por antiguidade.
+
+## Comissão de Transformação Digital e Inovação Tecnológica e Jurídica — art. 22-A
+
+**3C + 2CS + 1PC**
+
+- 3 Conselheiros;
+- 2 Conselheiros-Substitutos;
+- 1 dos Substitutos = **secretário-executivo**;
+- 1 Procurador de Contas;
+- designação pelo Pleno.
+
+**Presidente:** Conselheiro integrante que **não** exerça simultaneamente:
+- Vice-Presidência;
+- Corregedoria;
+- Ouvidoria;
+- Presidência de Câmara.
+
+**Substituição:** demais Conselheiros da comissão, por antiguidade.
+
+## Comissões temporárias — art. 22-B
+
+**2+ membros**, somente entre:
+- Conselheiros;
+- Conselheiros-Substitutos.
+
+**Criação:** Pleno **ou** Presidente.  
+**Fim:** término do prazo **ou** alcance do objetivo.
+
+## Competências das comissões — art. 25
+
+As competências das duas comissões permanentes e as atribuições de seus Presidentes e secretários-executivos são definidas por **ato normativo**.
+
+**Nome da comissão ≠ autorização para inventar competência.**
+
+## Corregedoria × Ouvidoria
+
+| Corregedoria | Ouvidoria |
+| --- | --- |
+| orientação e fiscalização funcional interna | escuta e relacionamento com a sociedade |
+| disciplina e integridade institucional | manifestações e participação social |
+| não é controle externo sobre jurisdicionados | não é órgão julgador |
+
+## MPC
+
+- Essencial à função de controle externo.
+- **4 Procuradores de Contas**.
+- Ingresso: concurso de provas e títulos + OAB + Direito + **3 anos de atividade jurídica**.
+- **Carreira:** página institucional informa nomeação dos Procuradores pelo Procurador-Geral, observada a classificação.
+- **Chefia do MPC:** lista tríplice entre Procuradores → Governador nomeia → 2 anos → 1 recondução.
+
+## Pegadinhas-relâmpago
+
+- Art. 9º **não** é organograma completo.
+- Secretaria **não** é órgão do art. 9º.
+- ESCEX **não** é órgão do art. 9º.
+- MPC atua **junto** ao TCE/MA; não é Secretaria.
+- Conselheiro-Substituto **não** é servidor administrativo comum.
+- Corregedoria interna **não** é controle externo.
+- Ouvidoria recebe manifestações; **não julga**.
+- As duas comissões permanentes têm **Procurador de Contas**.
+- Temporária: **2+**, só Conselheiros/Substitutos.
+- Temporária: criação pelo **Pleno ou Presidente**.
+- Primeira Câmara → **ex-Presidente**.
+- Segunda Câmara → **mais antigo**, com incompatibilidades.
