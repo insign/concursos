@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q6339",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "No recorte de decisões, sanções e execução, o ponto central é compreender",
+      "prompt": "Segundo a jurisprudência do STF sobre tomada de contas especial de convênio interfederativo, o Tribunal de Contas pode",
       "options": [
-        { "id": "A", "text": "parecer, julgamento, débito, multa, cumprimento e cobrança das decisões." },
-        { "id": "B", "text": "somente prazos recursais e embargos." },
-        { "id": "C", "text": "ética disciplinar interna em profundidade." },
-        { "id": "D", "text": "apenas a fase de citação para defesa." },
-        { "id": "E", "text": "parecer, julgamento, débito, multa, cumprimento e cobrança das decisões e, simultaneamente, somente prazos recursais e embargos." }
+        { "id": "A", "text": "apenas emitir parecer prévio, mesmo quando apura responsabilidade pessoal do Prefeito." },
+        { "id": "B", "text": "responsabilizar pessoalmente chefe do Executivo por irregularidades, inclusive com débito, multa ou outras sanções, sem posterior aprovação legislativa." },
+        { "id": "C", "text": "julgar crime comum cometido pelo gestor." },
+        { "id": "D", "text": "substituir obrigatoriamente a Câmara Municipal em todas as contas anuais." },
+        { "id": "E", "text": "aplicar apenas determinação sem efeito patrimonial." }
       ],
-      "correctOptionId": "A",
-      "explanation": "O Assunto 061 cobre decisões, sanções e execução, deixando recursos e revisão para o Assunto 062. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "O STF, no Tema 1287, admite responsabilização pessoal do chefe do Executivo em tomada de contas especial relativa a convênio interfederativo, inclusive com débito, multa ou outras sanções, sem posterior aprovação do Legislativo. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6340",
@@ -199,63 +199,63 @@
     },
     {
       "id": "q6352",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A menção a valores de multas na Lei Orgânica deve ser estudada com cautela porque",
+      "prompt": "Quando o responsável é julgado em débito, o art. 273 do Regimento Interno permite aplicar multa de até",
       "options": [
-        { "id": "A", "text": "não existe competência sancionatória." },
-        { "id": "B", "text": "não foi localizada versão oficial consolidada integral e houve alterações legais posteriores." },
-        { "id": "C", "text": "multas são sempre criminais." },
-        { "id": "D", "text": "o TCE/MA não possui Lei Orgânica." },
-        { "id": "E", "text": "não foi localizada versão oficial consolidada integral e houve alterações legais posteriores e, simultaneamente, não existe competência sancionatória." }
+        { "id": "A", "text": "10% do dano atualizado." },
+        { "id": "B", "text": "20% do dano atualizado." },
+        { "id": "C", "text": "50% do dano atualizado." },
+        { "id": "D", "text": "100% do dano atualizado." },
+        { "id": "E", "text": "200% do dano atualizado." }
       ],
-      "correctOptionId": "B",
-      "explanation": "O conteúdo evita cravar valores e incisos sem texto consolidado vigente, sobretudo diante de alterações posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "D",
+      "explanation": "O art. 273 permite multa de até 100% do valor atualizado do dano quando o responsável é julgado em débito. Fonte: Regimento Interno do TCE/MA, art. 273."
     },
     {
       "id": "q6353",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A Lei Estadual nº 9.519/2011 é relevante no estudo das sanções porque",
+      "prompt": "Segundo o art. 274 do Regimento Interno, a faixa de multa por descumprimento de decisão do Tribunal sem justificativa é de",
       "options": [
-        { "id": "A", "text": "revogou todos os julgamentos do TCE/MA." },
-        { "id": "B", "text": "criou o cargo de prefeito." },
-        { "id": "C", "text": "alterou a Lei Orgânica, incluindo hipótese relacionada a ato processual manifestamente protelatório." },
-        { "id": "D", "text": "eliminou a possibilidade de multa." },
-        { "id": "E", "text": "alterou a Lei Orgânica, incluindo hipótese relacionada a ato processual manifestamente protelatório e, simultaneamente, revogou todos os julgamentos do TCE/MA." }
+        { "id": "A", "text": "2% a 10% do limite do caput." },
+        { "id": "B", "text": "5% a 50% do limite do caput." },
+        { "id": "C", "text": "5% a 80% do limite do caput." },
+        { "id": "D", "text": "10% a 100% do limite do caput." },
+        { "id": "E", "text": "50% a 100% do limite do caput." }
       ],
-      "correctOptionId": "C",
-      "explanation": "A alteração demonstra que o texto original de 2005 não esgota o regime vigente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "O art. 274 prevê faixa de 5% a 50% do limite para descumprimento de decisão do Tribunal sem justificativa. Fonte: Regimento Interno do TCE/MA, art. 274."
     },
     {
       "id": "q6354",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O prazo de 15 dias encontrado em notícias oficiais sobre pagamento de débito e multa deve ser tratado como",
+      "prompt": "De acordo com o art. 199 do Regimento Interno do TCE/MA, publicado o acórdão com débito e/ou multa, o responsável é intimado para efetuar e comprovar o pagamento no prazo de",
       "options": [
-        { "id": "A", "text": "prazo universal de todo processo do TCE/MA." },
-        { "id": "B", "text": "prazo recursal geral." },
-        { "id": "C", "text": "prova de ausência de Lei Orgânica." },
-        { "id": "D", "text": "prazo de casos concretos, que não deve ser generalizado sem base normativa." },
-        { "id": "E", "text": "prazo de casos concretos, que não deve ser generalizado sem base normativa e, simultaneamente, prazo universal de todo processo do TCE/MA." }
+        { "id": "A", "text": "5 dias." },
+        { "id": "B", "text": "10 dias." },
+        { "id": "C", "text": "15 dias." },
+        { "id": "D", "text": "30 dias." },
+        { "id": "E", "text": "60 dias." }
       ],
-      "correctOptionId": "D",
-      "explanation": "O conteúdo usa o prazo de 15 dias como exemplo de prática em acórdãos, sem transformá-lo em regra universal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "C",
+      "explanation": "O art. 199 prevê intimação pela publicação do acórdão no Diário Oficial Eletrônico do TCE/MA para pagamento e comprovação em 15 dias. Fonte: Regimento Interno do TCE/MA, art. 199."
     },
     {
       "id": "q6355",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O prazo de 10 dias mencionado em edital do MPC para pagamento de multas recebe, no material, o seguinte enquadramento:",
+      "prompt": "Segundo o art. 200 do Regimento Interno, a dívida decorrente de decisão do TCE/MA pode ser parcelada em até",
       "options": [
-        { "id": "A", "text": "etapa de notificação/cobrança, sem substituir automaticamente o prazo original do acórdão." },
-        { "id": "B", "text": "regra universal de defesa." },
-        { "id": "C", "text": "prazo obrigatório de revisão." },
-        { "id": "D", "text": "anulação da multa." },
-        { "id": "E", "text": "etapa de notificação/cobrança, sem substituir automaticamente o prazo original do acórdão e, simultaneamente, regra universal de defesa." }
+        { "id": "A", "text": "6 parcelas mensais." },
+        { "id": "B", "text": "12 parcelas mensais." },
+        { "id": "C", "text": "18 parcelas mensais." },
+        { "id": "D", "text": "24 parcelas mensais e sucessivas." },
+        { "id": "E", "text": "60 parcelas sem atualização." }
       ],
-      "correctOptionId": "A",
-      "explanation": "O edital de cobrança não deve ser confundido com prazo geral de defesa, recurso ou prazo original de todos os acórdãos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "D",
+      "explanation": "O art. 200 permite parcelamento em até 24 parcelas mensais e sucessivas; o inadimplemento de parcela acarreta vencimento antecipado do saldo devedor. Fonte: Regimento Interno do TCE/MA, art. 200."
     },
     {
       "id": "q6356",
@@ -319,33 +319,33 @@
     },
     {
       "id": "q6360",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Segundo o Tema 642 do STF, em crédito ligado a dano ao erário municipal, o legitimado indicado para execução é",
+      "prompt": "Segundo o item 1 da tese atual do Tema 642 do STF, em crédito decorrente de multa aplicada por TCE estadual em razão de dano ao erário municipal, o legitimado para execução é",
       "options": [
         { "id": "A", "text": "sempre a União." },
         { "id": "B", "text": "o Município prejudicado." },
         { "id": "C", "text": "qualquer cidadão sem título." },
         { "id": "D", "text": "o relator individualmente." },
-        { "id": "E", "text": "o Município prejudicado e, simultaneamente, sempre a União." }
+        { "id": "E", "text": "o Ministério Público de Contas em nome próprio." }
       ],
       "correctOptionId": "B",
-      "explanation": "O STF fixou que o Município prejudicado executa crédito decorrente de multa ligada a dano ao erário municipal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O item 1 do Tema 642 estabelece que o Município prejudicado é legitimado para executar crédito decorrente de multa aplicada por TCE estadual a agente municipal em razão de dano ao erário municipal. Fonte: STF, Tema 642."
     },
     {
       "id": "q6361",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Na ADPF 1.011, o STF admitiu que multas simples aplicadas por TCE estadual sejam executadas",
+      "prompt": "Segundo o item 2 da tese atual do Tema 642 do STF, multas simples aplicadas por TCE estadual a agentes municipais por violação de normas de Direito Financeiro ou descumprimento de deveres de colaboração são executadas",
       "options": [
         { "id": "A", "text": "pela banca examinadora." },
         { "id": "B", "text": "por particular sem interesse." },
-        { "id": "C", "text": "pelo Estado-membro, em hipóteses de inobservância normativa ou dever de colaboração." },
+        { "id": "C", "text": "pelo Estado-membro." },
         { "id": "D", "text": "por comissão de ética interna." },
-        { "id": "E", "text": "pelo Estado-membro, em hipóteses de inobservância normativa ou dever de colaboração e, simultaneamente, pela banca examinadora." }
+        { "id": "E", "text": "necessariamente pelo Município, qualquer que seja a natureza da multa." }
       ],
       "correctOptionId": "C",
-      "explanation": "O STF distinguiu multa simples de multa ligada a dano municipal, admitindo execução pelo Estado-membro. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O item 2 do Tema 642, harmonizado com a ADPF 1.011, atribui ao Estado-membro a execução das multas simples nas hipóteses indicadas. Fonte: STF, Tema 642."
     },
     {
       "id": "q6362",
@@ -364,18 +364,18 @@
     },
     {
       "id": "q6363",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A sequência lógica mais adequada é",
+      "prompt": "Comprovado o pagamento integral da dívida, o art. 201 do Regimento Interno estabelece que",
       "options": [
-        { "id": "A", "text": "instrução e defesa, decisão, eventual impugnação própria, definitividade e cumprimento ou cobrança." },
-        { "id": "B", "text": "execução antes de qualquer decisão." },
-        { "id": "C", "text": "revisão antes da existência de processo." },
-        { "id": "D", "text": "cautelar como sanção definitiva automática." },
-        { "id": "E", "text": "instrução e defesa, decisão, eventual impugnação própria, definitividade e cumprimento ou cobrança e, simultaneamente, execução antes de qualquer decisão." }
+        { "id": "A", "text": "o responsável recebe quitação; se o pagamento ocorre após decisão definitiva, ele não altera sozinho o julgamento de irregularidade." },
+        { "id": "B", "text": "as contas tornam-se automaticamente regulares em qualquer hipótese." },
+        { "id": "C", "text": "a multa é convertida em parecer prévio." },
+        { "id": "D", "text": "o pagamento impede qualquer controle judicial." },
+        { "id": "E", "text": "a quitação só pode ocorrer após execução judicial." }
       ],
       "correctOptionId": "A",
-      "explanation": "O conteúdo apresenta camadas: instrução, defesa, decisão, impugnação própria, definitividade e execução/cumprimento. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O art. 201 prevê quitação com o pagamento integral; pagamento posterior à decisão definitiva não modifica por si só o julgamento de irregularidade, salvo êxito no meio impugnativo cabível. Fonte: Regimento Interno do TCE/MA, art. 201."
     },
     {
       "id": "q6364",
@@ -484,33 +484,33 @@
     },
     {
       "id": "q6371",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Diante de pagamento fora do prazo de débito ou multa fixados em acórdão, a orientação segura é",
+      "prompt": "Quanto ao limite nominal das multas do art. 274 do Regimento Interno, é correto afirmar que",
       "options": [
-        { "id": "A", "text": "verificar a decisão e a legislação aplicável para atualização e encargos, sem inventar fórmula universal." },
-        { "id": "B", "text": "presumir perdão automático da obrigação." },
-        { "id": "C", "text": "transformar a cobrança em consulta normativa." },
-        { "id": "D", "text": "ignorar a mora em qualquer caso." },
-        { "id": "E", "text": "verificar a decisão e a legislação aplicável para atualização e encargos, sem inventar fórmula universal e, simultaneamente, presumir perdão automático da obrigação." }
+        { "id": "A", "text": "deve ser tratado como cifra histórica imutável." },
+        { "id": "B", "text": "é atualizado periodicamente por portaria da Presidência, conforme o próprio Regimento." },
+        { "id": "C", "text": "só pode ser atualizado por emenda constitucional." },
+        { "id": "D", "text": "não existe limite para nenhuma hipótese." },
+        { "id": "E", "text": "é substituído automaticamente pelo valor do débito." }
       ],
-      "correctOptionId": "A",
-      "explanation": "O conteúdo menciona acréscimos legais em mora, mas evita reconstruir fórmulas sem texto consolidado vigente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "O art. 274, § 1º, prevê atualização periódica do limite das multas por portaria da Presidência. Por isso, a prova deve privilegiar as hipóteses e faixas percentuais, sem congelar valor nominal histórico. Fonte: Regimento Interno do TCE/MA, art. 274, § 1º."
     },
     {
       "id": "q6372",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Quando a banca cobra limite, percentual ou inciso específico de multa sem fornecer texto vigente, o cuidado correto é",
+      "prompt": "Nos termos do art. 277 do Regimento Interno, a inabilitação para cargo em comissão ou função de confiança pode ser aplicada",
       "options": [
-        { "id": "A", "text": "inventar o valor nominal a partir de notícia jornalística." },
-        { "id": "B", "text": "não cravar literalidade sem conferir a redação atual da Lei Orgânica ou ato aplicável." },
-        { "id": "C", "text": "tratar qualquer multa como parecer prévio." },
-        { "id": "D", "text": "aplicar sempre o menor valor possível." },
-        { "id": "E", "text": "não cravar literalidade sem conferir a redação atual da Lei Orgânica ou ato aplicável e, simultaneamente, inventar o valor nominal a partir de notícia jornalística." }
+        { "id": "A", "text": "por até cinco anos, mediante decisão por maioria absoluta, quando a gravidade da infração justificar." },
+        { "id": "B", "text": "automaticamente por dez anos em qualquer ressalva." },
+        { "id": "C", "text": "somente pelo Poder Judiciário e nunca pelo Tribunal de Contas." },
+        { "id": "D", "text": "sem análise da gravidade da infração." },
+        { "id": "E", "text": "apenas em substituição ao débito, nunca cumulativamente." }
       ],
-      "correctOptionId": "B",
-      "explanation": "A ausência de consolidação oficial integral recomenda cautela com valores, percentuais e incisos específicos. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "A",
+      "explanation": "O art. 277 prevê inabilitação por até cinco anos, por maioria absoluta, quando a gravidade da infração justificar, podendo ser cumulada ou não com outras sanções. Fonte: Regimento Interno do TCE/MA, art. 277."
     },
     {
       "id": "q6373",
@@ -529,18 +529,18 @@
     },
     {
       "id": "q6374",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A afirmação '15 dias é prazo universal para qualquer ato do TCE/MA' está",
+      "prompt": "Decorrido o prazo do art. 199 sem manifestação satisfatória do responsável, o art. 202 do Regimento prevê",
       "options": [
-        { "id": "A", "text": "correta sempre." },
-        { "id": "B", "text": "correta apenas em recursos." },
-        { "id": "C", "text": "correta apenas em ética." },
-        { "id": "D", "text": "incorreta, pois o prazo apareceu em casos concretos e exige base normativa." },
-        { "id": "E", "text": "incorreta, pois o prazo apareceu em casos concretos e exige base normativa e, simultaneamente, correta sempre." }
+        { "id": "A", "text": "perdão automático do débito e da multa." },
+        { "id": "B", "text": "providências de cobrança, como desconto dentro dos limites legais, cobrança judicial e inclusão em cadastro de créditos não quitados, conforme a hipótese." },
+        { "id": "C", "text": "conversão obrigatória do processo em consulta." },
+        { "id": "D", "text": "arquivamento definitivo sem cobrança." },
+        { "id": "E", "text": "somente nova citação para defesa de mérito." }
       ],
-      "correctOptionId": "D",
-      "explanation": "O conteúdo evita generalizar prazo de acórdão concreto para todos os atos do Tribunal. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "O art. 202 disciplina providências diante do inadimplemento, inclusive desconto nos limites legais, cobrança judicial e inclusão em cadastro, sem prejuízo da definição do legitimado judicial segundo a jurisprudência do STF. Fonte: Regimento Interno do TCE/MA, art. 202."
     },
     {
       "id": "q6375",
@@ -765,7 +765,7 @@
         { "id": "E", "text": "conferir a redação vigente e evitar generalizações e, simultaneamente, inventar prazo por analogia." }
       ],
       "correctOptionId": "C",
-      "explanation": "A limitação documental exige cautela com artigos, prazos e efeitos não confirmados. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "Prazos, ritos e efeitos que não pertençam ao recorte confirmado devem ser conferidos na redação vigente. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6390",
@@ -844,18 +844,18 @@
     },
     {
       "id": "q6395",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Quando o conteúdo evita cravar todos os artigos regimentais de execução, a razão é",
+      "prompt": "Nos termos do art. 278 do Regimento Interno, em relação ao responsável julgado em débito, o Tribunal pode",
       "options": [
-        { "id": "A", "text": "ausência de versão oficial única, consolidada e integralmente extraível do Regimento na pesquisa." },
-        { "id": "B", "text": "inexistência de decisões do TCE/MA." },
-        { "id": "C", "text": "vedação constitucional à Lei Orgânica." },
-        { "id": "D", "text": "irrelevância de fontes oficiais." },
-        { "id": "E", "text": "ausência de versão oficial única, consolidada e integralmente extraível do Regimento na pesquisa e, simultaneamente, inexistência de decisões do TCE/MA." }
+        { "id": "A", "text": "requerer à autoridade competente medidas necessárias ao arresto de bens, por intermédio do Ministério Público junto ao Tribunal." },
+        { "id": "B", "text": "decretar prisão penal do responsável." },
+        { "id": "C", "text": "converter automaticamente o débito em consulta." },
+        { "id": "D", "text": "dispensar qualquer medida patrimonial." },
+        { "id": "E", "text": "anular o débito sem quitação." }
       ],
       "correctOptionId": "A",
-      "explanation": "A limitação documental recomenda cautela com literalidade regimental não confirmada. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O art. 278 prevê requerimento à autoridade competente das medidas necessárias ao arresto dos bens de responsáveis julgados em débito. Fonte: Regimento Interno do TCE/MA, art. 278."
     },
     {
       "id": "q6396",
@@ -870,7 +870,7 @@
         { "id": "E", "text": "marco interno relevante para cumprimento ou cobrança, sem eliminar o controle judicial possível e, simultaneamente, qualquer relatório preliminar." }
       ],
       "correctOptionId": "B",
-      "explanation": "O conteúdo trata o trânsito em julgado administrativo como marco interno para cumprimento e cobrança, sem afastar o Judiciário. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O conteúdo trata o trânsito em julgado administrativo como marco interno relevante, sem afastar o Judiciário. Fonte: questão autoral baseada nas referências do conteúdo."
     },
     {
       "id": "q6397",
