@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "questionSetRevision": 1,
+  "questionSetRevision": 2,
   "questions": [
     {
       "id": "q6279",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "No recorte de garantias processuais, provas e prazos, o foco principal é compreender",
+      "prompt": "De acordo com o art. 157-A do Regimento Interno do TCE/MA, as etapas do rito processual previstas na Lei Orgânica devem ocorrer",
       "options": [
-        { "id": "A", "text": "recursos e revisão de decisões." },
-        { "id": "B", "text": "execução de multas e inscrição em dívida ativa." },
-        { "id": "C", "text": "devido processo, contraditório, defesa, provas, revelia, diligências e prazos confirmados." },
-        { "id": "D", "text": "ética e atos normativos finais." },
-        { "id": "E", "text": "devido processo, contraditório, defesa, provas, revelia, diligências e prazos confirmados e, simultaneamente, recursos e revisão de decisões." }
+        { "id": "A", "text": "exclusivamente em autos físicos." },
+        { "id": "B", "text": "em meio eletrônico, nos termos fixados pelo Regimento Interno." },
+        { "id": "C", "text": "somente depois do julgamento definitivo." },
+        { "id": "D", "text": "sem citação, notificação ou intimação." },
+        { "id": "E", "text": "em meio eletrônico apenas quando houver recurso de revisão." }
       ],
-      "correctOptionId": "C",
-      "explanation": "O Assunto 060 cobre garantias processuais, provas e prazos, deixando execução, recursos e ética para assuntos posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "O art. 157-A, incluído pela Resolução TCE/MA nº 423/2025, determina que as etapas do rito processual se deem em meio eletrônico. Fonte: Regimento Interno do TCE/MA, art. 157-A."
     },
     {
       "id": "q6280",
@@ -214,18 +214,18 @@
     },
     {
       "id": "q6293",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "O prazo de 15 dias encontrado em edital específico deve ser tratado como",
+      "prompt": "Segundo o art. 157-A, § 2º, do Regimento Interno do TCE/MA, a citação será feita",
       "options": [
-        { "id": "A", "text": "prazo especial que exige base normativa e não se generaliza automaticamente." },
-        { "id": "B", "text": "regra universal para todos os processos." },
-        { "id": "C", "text": "prova de que não existe prazo de 30 dias." },
-        { "id": "D", "text": "prazo exclusivo para recursos." },
-        { "id": "E", "text": "prazo especial que exige base normativa e não se generaliza automaticamente e, simultaneamente, regra universal para todos os processos." }
+        { "id": "A", "text": "exclusivamente por edital." },
+        { "id": "B", "text": "exclusivamente por correspondência física." },
+        { "id": "C", "text": "preferencialmente por meio eletrônico, observadas as regras da Lei Orgânica." },
+        { "id": "D", "text": "somente depois de declarada a revelia." },
+        { "id": "E", "text": "apenas por publicação da decisão definitiva." }
       ],
-      "correctOptionId": "A",
-      "explanation": "O prazo específico de edital não deve ser convertido em regra geral de defesa sem confirmação normativa. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "C",
+      "explanation": "O art. 157-A, § 2º, prevê a citação preferencialmente por meio eletrônico, observados os dispositivos pertinentes da Lei nº 8.258/2005. Fonte: Regimento Interno do TCE/MA, art. 157-A, § 2º."
     },
     {
       "id": "q6294",
@@ -409,78 +409,78 @@
     },
     {
       "id": "q6306",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Diligência é melhor compreendida como",
+      "prompt": "Segundo o art. 158 do Regimento Interno do TCE/MA, a inspeção ou diligência determinada durante o curso da instrução técnica deve ser finalizada",
       "options": [
-        { "id": "A", "text": "recurso contra decisão." },
-        { "id": "B", "text": "sanção ao responsável." },
-        { "id": "C", "text": "consulta normativa abstrata." },
-        { "id": "D", "text": "providência para obter informação, documento, esclarecimento ou ato necessário ao processo." },
-        { "id": "E", "text": "providência para obter informação, documento, esclarecimento ou ato necessário ao processo e, simultaneamente, recurso contra decisão." }
+        { "id": "A", "text": "em cinco dias, sem exceção." },
+        { "id": "B", "text": "em quinze dias, exclusivamente." },
+        { "id": "C", "text": "em trinta dias, porque esse é sempre o único prazo de diligência." },
+        { "id": "D", "text": "em até sessenta dias, após o que o processo retorna ao relator no estado em que estiver." },
+        { "id": "E", "text": "somente após decisão definitiva do colegiado." }
       ],
       "correctOptionId": "D",
-      "explanation": "Diligência busca completar ou esclarecer a instrução processual. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O art. 158, na redação dada pela Resolução TCE/MA nº 423/2025, fixa até 60 dias para finalizar inspeção ou diligência determinada durante a instrução técnica. Fonte: Regimento Interno do TCE/MA, art. 158."
     },
     {
       "id": "q6307",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Saneamento processual significa",
+      "prompt": "Se o ato que ordena diligência for omisso quanto ao prazo para seu cumprimento, o art. 293, § 2º, estabelece, salvo disposição especial, o prazo de",
       "options": [
-        { "id": "A", "text": "correção de falhas, omissões ou lacunas de formação ou instrução dos autos." },
-        { "id": "B", "text": "condenação automática." },
-        { "id": "C", "text": "recurso obrigatório." },
-        { "id": "D", "text": "sigilo de toda decisão." },
-        { "id": "E", "text": "correção de falhas, omissões ou lacunas de formação ou instrução dos autos e, simultaneamente, condenação automática." }
+        { "id": "A", "text": "cinco dias." },
+        { "id": "B", "text": "trinta dias." },
+        { "id": "C", "text": "sessenta dias." },
+        { "id": "D", "text": "noventa dias." },
+        { "id": "E", "text": "um ano." }
       ],
-      "correctOptionId": "A",
-      "explanation": "Saneamento corrige falhas ou lacunas para tornar os autos aptos à análise. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "B",
+      "explanation": "Se o ato for omisso, o prazo para cumprimento da diligência é de 30 dias, salvo disposição especial para o caso. Fonte: Regimento Interno do TCE/MA, art. 293, § 2º."
     },
     {
       "id": "q6308",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Diligência e saneamento não devem ser confundidos com",
+      "prompt": "Uma diligência ordenada singularmente pelo relator precisa durar mais de 30 dias. Segundo o art. 293, § 1º,",
       "options": [
-        { "id": "A", "text": "providências instrutórias." },
-        { "id": "B", "text": "decisão final, recurso ou perdão automático da irregularidade." },
-        { "id": "C", "text": "busca de documentos." },
-        { "id": "D", "text": "correção de lacunas." },
-        { "id": "E", "text": "providências instrutórias destinadas à busca de documentos e à correção de lacunas." }
+        { "id": "A", "text": "o relator pode fixar qualquer período sem participação colegiada." },
+        { "id": "B", "text": "a diligência fica automaticamente cancelada." },
+        { "id": "C", "text": "é necessária apreciação do Plenário ou da Câmara para determinação por período superior." },
+        { "id": "D", "text": "o prazo passa automaticamente a 60 dias por aplicação do art. 158." },
+        { "id": "E", "text": "somente o diligenciado pode definir o novo prazo." }
       ],
-      "correctOptionId": "B",
-      "explanation": "Diligência e saneamento são instrutórios; não decidem o mérito nem substituem recurso. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "C",
+      "explanation": "A diligência ordenada pelo relator não pode ultrapassar 30 dias; período superior depende de apreciação do Plenário ou da Câmara. Fonte: Regimento Interno do TCE/MA, art. 293, § 1º."
     },
     {
       "id": "q6309",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Quanto ao prazo de diligência, a orientação segura é",
+      "prompt": "Para que um pedido de prorrogação do prazo de diligência possa ser conhecido, o art. 294 exige que ele",
       "options": [
-        { "id": "A", "text": "conferir o prazo fixado no ato com o regime vigente, sem cravar regra universal não confirmada." },
-        { "id": "B", "text": "ignorar qualquer prazo indicado." },
-        { "id": "C", "text": "aplicar sempre prazo de 15 dias a todos os atos." },
-        { "id": "D", "text": "tratar diligência como recurso." },
-        { "id": "E", "text": "conferir o prazo fixado no ato com o regime vigente, sem cravar regra universal não confirmada e, simultaneamente, ignorar qualquer prazo indicado." }
+        { "id": "A", "text": "seja devidamente fundamentado e ingresse no Tribunal antes do vencimento do prazo anteriormente fixado." },
+        { "id": "B", "text": "seja apresentado somente depois do vencimento." },
+        { "id": "C", "text": "dispense fundamentação quando houver procurador." },
+        { "id": "D", "text": "seja convertido em recurso de revisão." },
+        { "id": "E", "text": "seja formulado apenas após a imposição de sanção." }
       ],
       "correctOptionId": "A",
-      "explanation": "Sem versão regimental consolidada extraída, o seguro é conferir o ato específico com a regra vigente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O art. 294 exige pedido fundamentado apresentado antes do vencimento do prazo; pedido intempestivo não é conhecido. Fonte: Regimento Interno do TCE/MA, art. 294, caput."
     },
     {
       "id": "q6310",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A regra mais segura sobre contagem completa de prazos regimentais é",
+      "prompt": "Salvo disposição legal em contrário, a regra de contagem do art. 292 do Regimento Interno do TCE/MA determina que",
       "options": [
-        { "id": "A", "text": "inventar a contagem a partir do processo civil." },
-        { "id": "B", "text": "não cravar detalhes sem confirmação da redação oficial vigente." },
-        { "id": "C", "text": "dispensar o ato citatório." },
-        { "id": "D", "text": "usar sempre o prazo de recurso." },
-        { "id": "E", "text": "não cravar detalhes sem confirmação da redação oficial vigente e, simultaneamente, inventar a contagem a partir do processo civil." }
+        { "id": "A", "text": "se incluam o dia do início e o do vencimento." },
+        { "id": "B", "text": "se excluam tanto o dia do início quanto o do vencimento." },
+        { "id": "C", "text": "o vencimento em dia sem expediente encerre o prazo no dia anterior." },
+        { "id": "D", "text": "se exclua o dia do início e se inclua o do vencimento; se não houver expediente no vencimento, prorroga-se para o primeiro dia útil imediato." },
+        { "id": "E", "text": "todo prazo seja contado apenas em dias úteis." }
       ],
-      "correctOptionId": "B",
-      "explanation": "A pesquisa não confirmou integralmente regras de contagem dos arts. regimentais, exigindo cautela. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "D",
+      "explanation": "O art. 292 exclui o dia do início, inclui o do vencimento e prorroga automaticamente o vencimento sem expediente para o primeiro dia útil imediato. Fonte: Regimento Interno do TCE/MA, art. 292."
     },
     {
       "id": "q6311",
@@ -709,18 +709,18 @@
     },
     {
       "id": "q6326",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "A afirmação 'um edital específico com 15 dias altera todos os prazos ordinários de defesa' está",
+      "prompt": "Segundo o art. 291 do Regimento Interno do TCE/MA, acréscimos em publicação e retificações, inclusive relativas a citação, comunicação ou notificação,",
       "options": [
-        { "id": "A", "text": "correta." },
-        { "id": "B", "text": "incorreta, pois prazo específico não deve ser generalizado sem base normativa." },
-        { "id": "C", "text": "correta apenas em consulta." },
-        { "id": "D", "text": "correta apenas em recurso." },
-        { "id": "E", "text": "incorreta, pois prazo específico não deve ser generalizado sem base normativa e, simultaneamente, correta." }
+        { "id": "A", "text": "não produzem qualquer efeito sobre o prazo." },
+        { "id": "B", "text": "importam em devolver o prazo ao responsável ou interessado." },
+        { "id": "C", "text": "transformam automaticamente o processo em recurso." },
+        { "id": "D", "text": "sempre reduzem o prazo pela metade." },
+        { "id": "E", "text": "fazem o prazo vencer imediatamente." }
       ],
       "correctOptionId": "B",
-      "explanation": "Prazo específico de edital não altera automaticamente o prazo ordinário de defesa. Fonte: questão autoral baseada nas referências do conteúdo."
+      "explanation": "O art. 291 determina que acréscimos em publicação e retificações, inclusive de atos de comunicação processual, devolvem o prazo ao responsável ou interessado. Fonte: Regimento Interno do TCE/MA, art. 291."
     },
     {
       "id": "q6327",
@@ -859,18 +859,18 @@
     },
     {
       "id": "q6336",
-      "revision": 2,
+      "revision": 3,
       "origin": "authorial",
-      "prompt": "Se a banca perguntar sobre regras completas de contagem dos arts. regimentais não confirmados, o cuidado correto é",
+      "prompt": "O diligenciado apresentou tempestivamente pedido de prorrogação, mas não houve manifestação do relator, do Plenário ou da Câmara. Segundo o art. 294, § 3º, o prazo",
       "options": [
-        { "id": "A", "text": "inventar a contagem com base no CPC." },
-        { "id": "B", "text": "usar somente memória de fontes secundárias." },
-        { "id": "C", "text": "cravar que todo prazo é de 15 dias." },
-        { "id": "D", "text": "conferir a redação oficial vigente e evitar generalizações." },
-        { "id": "E", "text": "conferir a redação oficial vigente e evitar generalizações e, simultaneamente, inventar a contagem com base no CPC." }
+        { "id": "A", "text": "fica automaticamente encerrado na data original." },
+        { "id": "B", "text": "é sempre prorrogado por 60 dias." },
+        { "id": "C", "text": "é considerado prorrogado por período igual ao anteriormente concedido." },
+        { "id": "D", "text": "passa a ser contado em dobro indefinidamente." },
+        { "id": "E", "text": "é substituído pelo prazo de recurso de reconsideração." }
       ],
-      "correctOptionId": "D",
-      "explanation": "Sem consolidação oficial extraída, detalhes de contagem devem ser qualificados e conferidos no texto vigente. Fonte: questão autoral baseada nas referências do conteúdo."
+      "correctOptionId": "C",
+      "explanation": "Na ausência de manifestação sobre o pedido de prorrogação, o art. 294, § 3º, considera o prazo prorrogado por período igual ao anteriormente concedido. Fonte: Regimento Interno do TCE/MA, art. 294, § 3º."
     },
     {
       "id": "q6337",
