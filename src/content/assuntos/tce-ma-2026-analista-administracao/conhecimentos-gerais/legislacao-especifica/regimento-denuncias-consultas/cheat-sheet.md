@@ -1,148 +1,151 @@
 # Regimento Interno do TCE/MA: denúncias, representações e consultas
 
-## Recorte
+## Mapa de 20 segundos
 
-Estuda:
+| Instrumento | Para quê? | Quem? |
+| --- | --- | --- |
+| denúncia | comunicar irregularidade/ilegalidade | cidadão, partido, associação, sindicato |
+| representação | comunicar irregularidade/ilegalidade | legitimado específico |
+| consulta | dúvida normativa | autoridade legitimada |
 
-- denúncia;
-- representação;
-- consulta;
-- triagem e seletividade;
-- e-Consulta;
-- prejulgados.
+**Denúncia/representação = fato possivelmente irregular.**  
+**Consulta = tese normativa.**
 
-Não cobre defesa, provas, prazos, decisões, sanções, execução, recursos, revisão ou ética.
+## Denúncia: memorize
 
-## Diferença central
+**Legitimados:** cidadão + partido + associação + sindicato.
 
-| Instrumento | Finalidade |
-| --- | --- |
-| denúncia | comunicar irregularidade ou ilegalidade por legitimado amplo |
-| representação | comunicar irregularidade ou ilegalidade por legitimado específico |
-| consulta | formular dúvida normativa por autoridade legitimada |
+**Formalmente:** matéria do TCE/MA + clareza + identificação/qualificação + endereço + indícios.
 
-Denúncia e representação tratam de fato irregular.
+**Sigilo não é anonimato.**
 
-Consulta trata de tese normativa.
+- autor identificado → dados protegidos;
+- manifestação anônima pode chegar à Ouvidoria;
+- sem requisitos formais → pode virar **comunicação de irregularidade**, não denúncia autuada.
 
-## Denúncia
+## Representação: legitimidade específica
 
-Legitimados constitucionais:
-
-- cidadão;
-- partido político;
-- associação;
-- sindicato.
-
-Objeto: irregularidade ou ilegalidade sob competência do TCE/MA.
-
-Exige identificação e indícios mínimos.
-
-Sigilo da autoria não é anonimato.
-
-## Representação
-
-Depende de legitimidade específica.
-
-Exemplos seguros:
+Art. 43 da Lei nº 8.258/2005:
 
 - Ministério Público;
 - controle interno;
-- autoridades e servidores que conheçam irregularidade em razão do cargo;
-- Tribunais de Contas;
-- Câmaras Municipais;
-- equipes de inspeção ou auditoria;
-- unidades técnicas do TCE/MA;
-- legitimados especiais em licitações e contratos.
+- parlamentares, magistrados, servidores e autoridades em razão do cargo;
+- Tribunais de Contas e Câmaras Municipais;
+- equipes de inspeção/auditoria;
+- MPC e unidades técnicas do TCE/MA;
+- outros legitimados por lei específica.
 
-Representação não é simples denúncia com outro nome.
+## Fluxo da Resolução nº 437/2026
 
-## Triagem
+### Regra geral
 
-Resolução TCE/MA nº 437/2026: denúncias e representações passam por triagem.
+**Ouvidoria → triagem → SPE → seletividade → instrução/priorização**
 
-A Ouvidoria verifica:
+Triagem verifica:
 
-- competência do TCE/MA;
-- redação clara e objetiva;
-- nome completo;
-- CPF ou CNPJ;
-- endereço residencial;
-- endereço eletrônico;
-- lastro probatório mínimo.
+1. competência;
+2. clareza;
+3. nome + CPF/CNPJ;
+4. endereço residencial + e-mail;
+5. lastro probatório mínimo.
 
-Se cumprir requisitos: autuação no SPE como denúncia ou representação.
+Faltou requisito essencial?  
+**→ comunicação de irregularidade → banco da fiscalização.**
 
-Se não cumprir: comunicação de irregularidade para banco de dados da SEFIS.
+Pedido cautelar?  
+**→ pode ir direto ao Relator.**
 
 ## Seletividade
 
-Critérios:
+**Prazo:** unidade técnica, até **5 dias úteis** do recebimento.
 
-- risco;
-- relevância;
-- oportunidade;
-- materialidade;
-- gravidade;
-- urgência;
-- tendência.
+### 1º RROM
 
-Seletividade não é mérito.
+- **R**isco
+- **R**elevância
+- **O**portunidade
+- **M**aterialidade
 
-Triagem não é julgamento.
+Atingiu mínimo? → vai para GUT.
 
-Medida cautelar pode gerar encaminhamento direto ao relator, sem estudar aqui o mérito cautelar.
+### 2º GUT
+
+- **G**ravidade
+- **U**rgência
+- **T**endência
+
+**RROM primeiro; GUT depois.**
+
+Oportunidade = utilidade de agir **agora**: fase do ato/contrato, correção tempestiva, prescrição/decadência, objeto vigente ou exaurido.
+
+Seletividade **não é mérito** e **não aplica sanção**.
+
+## Art. 20: exceção que derruba questão
+
+Representações destes legitimados **não passam por triagem nem seletividade**:
+
+- MP Federal/Estadual;
+- controle interno;
+- parlamentares, magistrados, servidores e demais autoridades em razão do cargo;
+- Tribunais de Contas e Câmaras Municipais;
+- equipes de inspeção/auditoria;
+- MPC e unidades técnicas do TCE/MA.
+
+**Pegadinha:** “toda denúncia e representação passa por triagem/seletividade” = **FALSO**.
+
+## Matriz de fluxo
+
+| Caso | Destino |
+| --- | --- |
+| manifestação regular comum | triagem → autuação → seletividade |
+| faltam requisitos | comunicação de irregularidade |
+| pedido cautelar | Relator |
+| representação do art. 20 | sem triagem e sem seletividade |
 
 ## Consulta
 
-Sistema: e-Consulta.
+**Objeto:** dúvida sobre aplicação de norma em matéria do TCE/MA.
 
-Objeto: dúvida sobre aplicação de dispositivo legal ou regulamentar em matéria do TCE/MA.
+**Não serve:** denúncia, representação, recurso, caso concreto, suporte de sistema.
 
-Não é consulta:
+Legitimados centrais:
 
-- denúncia;
-- representação;
-- recurso;
-- pedido genérico de informação;
-- orientação técnica sobre sistemas;
-- solução de caso concreto individualizado.
+- Governador;
+- Presidentes da Assembleia e TJ;
+- Prefeito;
+- Presidente de Câmara;
+- PGJ;
+- PGE;
+- presidente de comissão parlamentar;
+- Secretários de Estado/equivalentes.
 
-## Legitimados do e-Consulta
+Requisitos-chave:
 
-- Governador do Estado.
-- Presidente da Assembleia Legislativa.
-- Presidente do Tribunal de Justiça.
-- Prefeito Municipal.
-- Presidente de Câmara Municipal.
-- Procurador-Geral de Justiça.
-- Procurador-Geral do Estado.
-- Presidente de comissão parlamentar.
-- Secretários de Estado e equivalentes no Executivo estadual.
+- objeto preciso;
+- formulação articulada e clara;
+- pertinência temática quando cabível;
+- consulta prévia aos prejulgados;
+- parecer técnico/jurídico.
 
-## Requisitos da consulta
-
-- Indicação precisa do objeto.
-- Pertinência com o órgão representado.
-- Formulação clara e objetiva.
-- Consulta prévia aos prejulgados.
-- Parecer técnico ou jurídico.
-- Envio pelo e-Consulta.
+**Lei Orgânica:** parecer **sempre que possível**.  
+**e-Consulta:** orientação operacional para **juntar o parecer**.
 
 ## Prejulgado
 
-- Resposta à consulta.
-- Tem caráter normativo.
-- Prejulga a tese.
-- Não prejulga fato ou caso concreto.
-- Orienta, mas não substitui processo de responsabilização.
+**PREJULGA A TESE, NÃO O FATO.**
 
-## Pegadinhas
+- caráter normativo;
+- consulta já respondida → tese vigente pode ser encaminhada e autos arquivados;
+- reforma/revogação da tese → instrução para apreciação do Pleno.
 
-- Denúncia sigilosa exige identificação.
-- Representação exige legitimidade específica.
-- Consulta não denuncia gestor.
-- Prejulgado não julga fato concreto.
-- Ouvidoria não autua toda manifestação automaticamente.
-- Comunicação de irregularidade pode subsidiar fiscalização, mas não é denúncia autuada.
-- Seletividade prioriza atuação; não declara procedência.
+## Pegadinhas finais
+
+- denúncia ampla ≠ representação universal;
+- sigilo ≠ anonimato;
+- comunicação de irregularidade ≠ denúncia/representação autuada;
+- triagem ≠ julgamento;
+- seletividade ≠ mérito;
+- RROM → GUT, nunca o contrário;
+- art. 20 = sem triagem + sem seletividade;
+- consulta ≠ caso concreto;
+- prejulgado = tese, não fato.
