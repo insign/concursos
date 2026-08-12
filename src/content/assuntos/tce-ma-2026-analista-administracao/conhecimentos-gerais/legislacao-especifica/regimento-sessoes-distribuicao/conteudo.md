@@ -6,248 +6,257 @@ order: 57
 storageId: regimento-sessoes-tcema
 ---
 
-## 1. Mapa do assunto
+## 1. Recorte e corte temporal
 
-Este assunto trata do funcionamento colegiado do TCE/MA no recorte do Regimento Interno: **sessões, distribuição e deliberação**.
+Este assunto cobre, no Regimento Interno do TCE/MA, o funcionamento das **sessões do Plenário e das Câmaras**, a formação e publicidade das **pautas**, o registro em **atas**, as regras estruturais de **deliberação e votação** e a **distribuição de processos** a relatores.
 
-O foco é compreender:
+O corte normativo é o da publicação do **Edital nº 1 — TCE/MA, de 6 de julho de 2026**. Para este recorte, considera-se o Regimento Interno aprovado pela Resolução Administrativa nº 001/2000 com as alterações vigentes até essa data. Entre as alterações relevantes, a **Resolução TCE/MA nº 424/2025**, publicada em 26 de junho de 2025, modificou a distribuição das tomadas de contas especiais e criou regra residual de distribuição por sorteio.
 
-- onde os colegiados funcionam;
-- o que é sessão ordinária ou extraordinária em termos estruturais;
-- o papel da pauta;
-- o papel da ata;
-- como distribuição, sorteio, prevenção, redistribuição e relatoria aparecem na prática institucional;
-- como a deliberação colegiada se distingue de mera instrução técnica ou movimentação administrativa.
+Ficam para assuntos próprios: espécies e ritos completos dos processos de controle externo; denúncias, representações e consultas em detalhe; garantias processuais, prova e prazos de defesa; conteúdo das decisões, sanções e execução; recursos e revisão; atos normativos, ética e regras finais.
 
-Ficam fora deste assunto: espécies completas de processos de controle externo, rito de denúncias e representações, garantias processuais, provas, prazos de defesa, conteúdo das decisões, sanções, execução, recursos, revisão, atos normativos, ética e regras finais.
+## 2. Sessões do Plenário
 
-### 1.1. Limitação documental
+### 2.1. Quórum e presença do Ministério Público de Contas
 
-A pesquisa confirmou novamente que o Regimento Interno do TCE/MA foi aprovado pela **Resolução Administrativa nº 001/2000**, mas não localizou uma versão oficial única, consolidada e integralmente extraível até a data de acesso.
+As sessões plenárias podem ser **ordinárias ou extraordinárias**. A abertura exige **quórum de quatro Conselheiros efetivos ou substitutos convocados, incluído o Presidente**.
 
-Por isso, este material adota uma regra de segurança:
+Há uma segunda exigência: não se realiza sessão plenária sem a presença de representante do **Ministério Público de Contas (MPC)**.
 
-- ensina com firmeza aquilo que fontes oficiais atuais demonstram, como a existência de pauta, atas, deliberações colegiadas e lista de relatoria;
-- usa atas e notícias oficiais para explicar a prática observada;
-- não crava como definitivo quórum, prazo de pauta, ordem exata de votação, voto de desempate ou artigo específico sem confirmação em texto oficial vigente.
+A exceção são as **sessões solenes**, destinadas a posse de Conselheiros e Conselheiros-Substitutos e a eventos comemorativos ou cívicos: elas independem do quórum ordinário e da presença do representante do MPC.
 
-Essa cautela é importante porque este recorte é cheio de detalhes procedimentais, e o roadmap separou os temas para evitar misturar sessão com processo, decisão, sanção ou recurso.
+As sessões podem ocorrer de modo físico ou eletrônico, conforme a disciplina regimental e normativa aplicável.
 
-## 2. Onde as sessões acontecem
+### 2.2. Sessão ordinária
 
-### 2.1. Pleno, Primeira Câmara e Segunda Câmara
+A sessão ordinária do Plenário ocorre **às quartas-feiras, às 10 horas**.
 
-No Assunto 056, vimos que o TCE/MA possui **Pleno**, **Primeira Câmara** e **Segunda Câmara** como órgãos colegiados internos. Neste assunto, esses órgãos aparecem em funcionamento.
+A última sessão ordinária do ano realiza-se na **segunda quarta-feira de dezembro**.
 
-As páginas oficiais do Portal da Transparência oferecem pesquisas de **pautas das sessões colegiadas**, **atas das sessões colegiadas**, **deliberações colegiadas** e **lista de relatoria**. Isso confirma a dimensão prática do funcionamento colegiado: antes da sessão há pauta; depois da sessão há ata e deliberações publicadas.
+### 2.3. Sessão extraordinária
 
-### 2.2. Sessão ordinária e sessão extraordinária
+A sessão extraordinária pode ser convocada para matérias específicas previstas no Regimento, entre elas:
 
-A pesquisa encontrou registros oficiais de sessões ordinárias do Pleno e das Câmaras. A distinção entre sessão ordinária e extraordinária é usada aqui apenas em nível conceitual, sem detalhar hipóteses, convocação ou quórum.
+- apreciação das contas anuais do Governador;
+- eleição de Presidente, Vice-Presidente e Corregedor na hipótese regimental;
+- elaboração de lista tríplice para provimento de vaga de Conselheiro destinada a Conselheiro-Substituto ou membro do MPC;
+- assuntos urgentes.
 
-Para este material, use a distinção em nível seguro:
+Há também sessão extraordinária **reservada** para matéria administrativa interna, para preservação de direitos individuais e do interesse público e para processos protegidos por sigilo, observadas as regras próprias.
 
-| Tipo de sessão | Ideia segura |
-| --- | --- |
-| ordinária | sessão regular, prevista no funcionamento normal do colegiado |
-| extraordinária | sessão convocada fora da rotina ordinária, quando necessário |
+Em regra, a sessão extraordinária é convocada com antecedência mínima de **24 horas**, pelo Presidente, de ofício ou mediante proposta de Conselheiro.
 
-Não memorize quóruns, dias, horários ou hipóteses específicas sem consultar o texto oficial vigente. Esses detalhes podem variar por alteração regimental e não foram confirmados por versão consolidada oficial extraível.
+### 2.4. Falta de quórum
 
-## 3. Pauta
+Na hora marcada, o Presidente verifica o quórum.
 
-### 3.1. Função da pauta
+1. Se não houver número legal, há tolerância de **15 minutos**.
+2. Persistindo a insuficiência, procede-se à convocação prevista regimentalmente de Conselheiro-Substituto.
+3. Se ainda assim não houver número legal, o Presidente convoca nova sessão.
 
-A pauta organiza previamente o que será submetido ao órgão colegiado. Ela é instrumento de publicidade e ordenação do trabalho.
+Pegadinha: os **15 minutos** são tolerância para a formação do quórum; não são prazo de divulgação de pauta nem de convocação de sessão extraordinária.
 
-Em termos práticos, uma pauta de sessão pode indicar:
+## 3. Ordem preferencial dos trabalhos do Plenário
 
-- órgão colegiado;
-- número e data da sessão;
-- processos incluídos;
-- natureza ou espécie processual;
-- entidade, interessado ou responsável;
-- relator;
-- situação de processos incluídos, retirados, suspensos ou não apreciados.
+Nas sessões ordinárias do Plenário, o Regimento estabelece uma ordem preferencial:
 
-Pauta não é decisão. Ela é a agenda da sessão.
+1. homologação da ata da sessão anterior;
+2. expediente;
+3. sorteio de relatores;
+4. comunicação de decisões preliminares;
+5. continuação de votação suspensa;
+6. apreciação ou julgamento dos processos constantes da pauta.
 
-### 3.2. Pauta x ata x deliberação
+A sequência ajuda a separar três momentos:
 
-| Documento | Momento | Função |
+- **organização**: ata anterior, expediente e distribuição;
+- **preparação decisória**: comunicações e retomada de votação;
+- **deliberação**: apreciação dos processos em pauta.
+
+O expediente abrange comunicações, indicações, moções e requerimentos, com deliberação quando cabível.
+
+## 4. Câmaras
+
+O TCE/MA possui Primeira e Segunda Câmaras. Para o funcionamento das sessões, a matriz mais importante é:
+
+| Regra | Primeira Câmara | Segunda Câmara |
 | --- | --- | --- |
-| pauta | antes da sessão | organizar os itens a apreciar |
-| ata | depois ou durante o registro da sessão | documentar o que ocorreu |
-| deliberação colegiada | resultado institucional | formalizar o entendimento ou resultado colegiado |
+| quórum | 3 Conselheiros efetivos ou substitutos convocados | 3 Conselheiros efetivos ou substitutos convocados |
+| sessões ordinárias | terças e sextas, às 10h | segundas e quintas, às 10h |
+| alteração excepcional | dia ou horário podem ser modificados na forma regimental | dia ou horário podem ser modificados na forma regimental |
+| Presidente da Câmara | sempre vota e relata os processos que lhe forem distribuídos | sempre vota e relata os processos que lhe forem distribuídos |
+| empate | processo é submetido ao Plenário | processo é submetido ao Plenário |
 
-Essa tabela resolve uma das principais pegadinhas: a pauta diz o que vai à sessão; a ata registra o que aconteceu; a deliberação é o resultado decisório ou institucional quando houver apreciação.
+As sessões das Câmaras também podem ser ordinárias ou extraordinárias e, quando compatível, aplicam-se as regras regimentais das sessões plenárias.
 
-### 3.3. Cautela sobre prazo de divulgação
+Se houver sessão extraordinária do Plenário no mesmo dia e horário, **não se realiza sessão ordinária da Câmara**.
 
-A pesquisa não confirmou, em versão oficial consolidada extraível, a regra literal sobre antecedência de pauta. Portanto, este conteúdo não cobra número de horas nem ordem detalhada de organização de pauta.
+### 4.1. Ordem preferencial nas Câmaras
 
-## 4. Ata
+A ordem preferencial é:
 
-### 4.1. Função da ata
+1. homologação da ata anterior;
+2. expediente;
+3. comunicação de decisões preliminares;
+4. julgamento ou apreciação dos processos da relação própria prevista no Regimento;
+5. continuação de votação suspensa;
+6. julgamento ou apreciação dos processos em pauta.
 
-A ata é o registro oficial da sessão. Atas oficiais recentes do TCE/MA demonstram que ela pode registrar:
+## 5. Pauta
 
-- abertura dos trabalhos;
-- composição ou presenças relevantes;
-- homologação ou aprovação de atas anteriores;
-- leitura de expedientes;
-- distribuição, redistribuição, sorteio ou designação de relatores;
-- comunicações de relatores;
-- processos apreciados em pauta;
-- retiradas, suspensões ou não apreciações;
-- votos, impedimentos e resultados, quando registrados.
+### 5.1. Organização
 
-Ata não substitui o estudo completo da decisão. Para este assunto, a ata importa como documento de memória da sessão.
+A pauta organiza os processos que serão apreciados em sessão. No Plenário e nas Câmaras, sua organização cabe às unidades responsáveis pelas sessões, sob supervisão dos respectivos Presidentes, observada a ordem de antiguidade dos relatores.
 
-### 4.2. Atas como evidência do fluxo observado
+Pauta **não é decisão**: ela prepara e dá publicidade ao que será submetido ao colegiado.
 
-Atas oficiais citadas na pesquisa associam o expediente e a distribuição de processos aos arts. 39 e 40 do Regimento Interno. Como o texto consolidado integral não foi extraído, o material usa essa informação como evidência da prática observada, e não como transcrição literal do Regimento.
+### 5.2. Prazos que merecem memorização
 
-Em termos didáticos, a sequência observada pode ser resumida assim:
-
-1. abertura da sessão;
-2. ata anterior;
-3. expediente;
-4. distribuição, sorteio ou designação de relatoria;
-5. comunicações;
-6. apreciação dos processos em pauta;
-7. registro do resultado.
-
-Essa sequência é pedagógica. A ordem exata e suas exceções devem ser conferidas no texto oficial vigente quando a banca cobrar literalidade.
-
-## 5. Expediente
-
-O expediente é a parte inicial de organização da sessão. Nas atas pesquisadas, ele aparece associado à leitura de documentos, comunicações e distribuição de processos.
-
-Para prova, o expediente não deve ser confundido com a decisão final. Ele é fase de organização dos trabalhos. Pode anteceder a apreciação dos processos em pauta e a deliberação colegiada.
-
-## 6. Distribuição e relatoria
-
-### 6.1. Distribuição não é escolha informal
-
-A distribuição é etapa formal de alocação de processo a relator. Ela pode aparecer nas atas com expressões como distribuição, sorteio, designação de relator, redistribuição ou prevenção.
-
-Isso é importante: relatoria não surge por escolha livre e informal. Ela deve seguir regras institucionais e ficar documentada.
-
-### 6.2. Relator
-
-O relator é a autoridade responsável por conduzir o processo no colegiado, apresentar relatório, voto ou proposta de encaminhamento conforme o caso. A lista oficial de relatoria e as pautas identificam relatores, o que permite ao jurisdicionado e à sociedade acompanhar quem conduz o processo.
-
-Neste assunto, basta compreender o papel estrutural do relator. Detalhes sobre instrução processual, defesa, provas e efeitos das decisões ficam para assuntos posteriores.
-
-### 6.3. Sorteio, distribuição, redistribuição e prevenção
-
-| Expressão | Ideia geral |
+| Situação | Prazo |
 | --- | --- |
-| sorteio | forma objetiva de atribuir relatoria |
-| distribuição | alocação formal do processo a relator |
-| redistribuição | nova alocação quando a relatoria precisa mudar |
-| prevenção | manutenção da relatoria por vínculo prévio com matéria ou processo relacionado |
+| pedido de inclusão para sessão ordinária | chegada com antecedência mínima de **8 dias** |
+| pedido de inclusão para sessão extraordinária reservada | antecedência mínima de **2 dias** |
+| divulgação da pauta de sessão ordinária | até **48 horas antes** da sessão |
 
-Não invente hipóteses específicas de prevenção, redistribuição ou impedimento neste assunto. A prova pode cobrar a diferença conceitual, mas os requisitos detalhados pertencem ao regime processual.
+A pauta ordinária é divulgada por sinopse no Diário Oficial Eletrônico, nos termos regimentais.
 
-## 7. Deliberação
+### 5.3. Exclusão de processo da pauta
 
-### 7.1. Deliberação colegiada
+A retirada de processo da pauta não se confunde com julgamento. O Regimento prevê exclusão por solicitação do Relator ao Presidente, que dá ciência ao colegiado, além de outras hipóteses regimentais específicas.
 
-Deliberar é formar a vontade do órgão colegiado. No TCE/MA, a deliberação pode ocorrer no Pleno ou nas Câmaras, conforme a competência interna.
+## 6. Ata
 
-A dinâmica geral é:
+A ata é o **registro oficial da sessão**. No Plenário, sua lavratura compete à unidade responsável pelo Plenário; nas Câmaras, à respectiva Secretaria.
 
-- há processo ou matéria incluída em pauta;
-- há relator;
-- o relator apresenta relatório, voto ou proposta;
-- os demais membros participam da votação ou manifestação, conforme o caso;
-- o resultado é registrado em ata e formalizado no documento próprio.
+A ata plenária registra, entre outros elementos:
 
-Essa explicação é estrutural. O conteúdo exato de decisões, acórdãos, pareceres, sanções e execução pertence ao Assunto 061.
+- data e horários de abertura e encerramento;
+- Presidente e responsável pela secretaria dos trabalhos;
+- Conselheiros e representantes presentes;
+- ausências e justificativas relevantes;
+- expediente, sorteios e comunicações;
+- decisões e acórdãos, com os registros pertinentes;
+- ocorrências relevantes da sessão.
 
-### 7.2. Participação do Ministério Público de Contas
+A ata **não substitui a deliberação** nem se confunde com pauta ou recurso.
 
-O Ministério Público de Contas pode aparecer nos registros de sessão e nos processos, mas isso não transforma o MPC em órgão colegiado deliberativo. Ele atua junto ao Tribunal.
+## 7. Deliberação e votação
 
-No Assunto 057, a mensagem é: MPC participa do ambiente institucional de controle externo; quem delibera colegiadamente é o órgão colegiado competente.
+### 7.1. Do relatório à votação
 
-### 7.3. Cautela sobre votação e empate
+Nos processos levados à apreciação, o Relator apresenta a matéria segundo o rito aplicável. Questões preliminares ou prejudiciais devem ser resolvidas antes do mérito.
 
-Regras específicas sobre voto do Presidente de Câmara, empate e remessa a outro colegiado não foram confirmadas em texto oficial consolidado extraível. Por isso, elas não são cobradas neste material como afirmação normativa definitiva.
+Na coleta dos votos, o Presidente chama os demais Conselheiros em **ordem decrescente de antiguidade**.
 
-O ponto seguro é saber que deliberação envolve votação ou manifestação colegiada registrada formalmente.
+Em regra, Conselheiro presente não pode abster-se de votar, ressalvadas as situações regimentais como impedimento, suspeição ou outras exceções expressas.
 
-## 8. Serviços oficiais de consulta
+### 7.2. Empate: Plenário x Câmara
 
-O Portal da Transparência do TCE/MA reúne serviços digitais que interessam diretamente a este assunto:
+Esta distinção é típica de prova:
 
-| Serviço | O que consulta |
+| Colegiado | Regra de empate |
 | --- | --- |
-| Pesquisa Pautas das sessões colegiadas | pautas antes da apreciação |
-| Pesquisa Atas das sessões colegiadas | registros das sessões |
-| Pesquisa de Jurisprudência/Deliberações colegiadas | resultados colegiados publicados |
-| Pesquisa Relator/Lista de relatoria | vínculo entre processo e relator |
-| Pesquisa publicações eletrônicas | publicações no Diário Oficial Eletrônico |
+| Plenário | o Presidente ou quem o substitua exerce **voto de desempate** |
+| Câmara | o processo é **submetido ao Plenário** |
 
-Esses serviços reforçam a transparência do funcionamento colegiado. Eles também ajudam a diferenciar documento de organização, documento de registro e documento decisório.
+O Presidente da Câmara **sempre vota**. Não transfira automaticamente essa regra para o Presidente do Plenário: no recorte aqui estudado, a regra característica do Plenário é o voto de desempate.
 
-## 9. Alterações regimentais e limites do uso
+### 7.3. Proclamação do resultado
 
-Notícia oficial de 2017 informou que o TCE/MA aprovou alterações no Regimento Interno e mencionou modificação da sistemática de distribuição de tomadas e prestações de contas anuais e de processos de outras matérias.
+O resultado pode ser proclamado por:
 
-Essa notícia é útil para este recorte porque mostra que a **distribuição** é tema regimental sensível e alterável. Porém, a mesma notícia também trata de denúncias, representações, consultas, atos normativos, súmulas, projetos de lei e Comissão de Ética. Esses temas ficam para outros assuntos.
+- unanimidade;
+- maioria;
+- voto médio;
+- voto de desempate.
 
-Portanto, use a notícia apenas para reforçar a importância regimental da distribuição, e não para antecipar detalhes dos recortes seguintes.
+O **voto médio** é técnica usada quando as posições divergem quantitativamente e é necessário alcançar resultado intermediário segundo a disciplina regimental.
+
+## 8. Distribuição e relatoria
+
+### 8.1. Princípios
+
+A distribuição de processos a Conselheiros observa os princípios de:
+
+- **publicidade**;
+- **alternatividade**;
+- **sorteio**.
+
+Distribuição define **quem relata**; não decide o mérito.
+
+A distribuição deve ser registrada formalmente. Impedimento ou suspeição do Relator provoca nova distribuição, com a compensação prevista regimentalmente.
+
+### 8.2. Prevenção e conexão
+
+Matérias conexas são distribuídas por **prevenção** a um único Relator e, quando cabível, submetidas a julgamento conjunto. Assim:
+
+- sorteio distribui objetivamente;
+- redistribuição altera a relatoria;
+- prevenção preserva uma relatoria por vínculo entre matérias.
+
+### 8.3. Restauração de autos
+
+Na restauração de autos, o processo retorna ao Relator anterior se ele estiver no exercício do cargo, conforme o Regimento.
+
+### 8.4. Alteração vigente no corte: Resolução nº 424/2025
+
+A Resolução TCE/MA nº 424/2025 alterou duas regras importantes:
+
+1. **Tomada de contas especial**: os processos que ingressarem pela unidade de protocolo são distribuídos **randomicamente por sistema de sorteio eletrônico**.
+2. **Regra residual**: processos cuja natureza não esteja contemplada nas regras especiais dos arts. 141-A a 141-H são distribuídos, após autuação, **por sorteio**, pelas unidades responsáveis pelas sessões; devem ser agrupados por classe e natureza para a distribuição.
+
+Essa alteração estava vigente antes do Edital nº 1/2026 e integra o recorte de prova.
+
+## 9. Fluxos de prova
+
+### 9.1. Antes da sessão
+
+**Distribuição/relatoria → pedido de inclusão → pauta → publicidade**
+
+A existência de pauta não implica julgamento: o processo pode ser retirado, ter apreciação suspensa ou não ser apreciado.
+
+### 9.2. Durante a sessão
+
+**Ata anterior → expediente → distribuição/sorteio → comunicações → processos em pauta → votação → proclamação do resultado**
+
+A ordem exata depende do colegiado e das hipóteses regimentais, mas essa sequência identifica os blocos funcionais.
+
+### 9.3. Depois da sessão
+
+**Ata registra o ocorrido → deliberação formaliza o resultado aplicável → publicações dão publicidade**
 
 ## 10. Pegadinhas recorrentes
 
-### 10.1. Pauta não é ata
-
-Pauta organiza previamente. Ata registra o ocorrido.
-
-### 10.2. Ata não é recurso
-
-Ata pode registrar votação e resultado, mas não é recurso nem revisão.
-
-### 10.3. Distribuição não é julgamento
-
-Distribuir processo a relator não decide o mérito. É etapa formal de organização.
-
-### 10.4. Relator não é órgão colegiado
-
-O relator conduz e propõe; o órgão colegiado delibera quando a matéria exige deliberação colegiada.
-
-### 10.5. Câmara do TCE/MA não é Câmara Municipal
-
-Primeira e Segunda Câmaras são órgãos internos do Tribunal. Câmara Municipal é Legislativo municipal.
-
-### 10.6. Deliberação não é instrução técnica
-
-Instrução prepara o processo. Deliberação forma o resultado colegiado.
-
-### 10.7. Serviços de consulta não criam competência
-
-Pauta, ata, deliberações e lista de relatoria são mecanismos de publicidade e acompanhamento; não criam competência material nova.
+1. **Quórum do Plenário ≠ quórum das Câmaras:** 4 x 3.
+2. **Convocação extraordinária ≠ divulgação de pauta:** 24h x 48h.
+3. **Inclusão em pauta ≠ publicação da pauta:** 8 dias para pedido de sessão ordinária; 48h para divulgação.
+4. **Primeira Câmara ≠ Segunda Câmara:** terça/sexta x segunda/quinta, ambas às 10h.
+5. **Empate no Plenário ≠ empate na Câmara:** voto de desempate do Presidente x remessa ao Plenário.
+6. **Pauta ≠ ata ≠ deliberação:** agenda prévia x registro da sessão x resultado colegiado.
+7. **Distribuição ≠ julgamento:** atribuir relatoria não decide mérito.
+8. **Prevenção ≠ redistribuição:** prevenção mantém vínculo por conexão; redistribuição muda a relatoria.
+9. **MPC participa, mas não é colegiado julgador:** sua presença é exigida nas sessões plenárias, ressalvada a exceção das sessões solenes.
+10. **Resolução nº 424/2025 está dentro do corte:** tomada de contas especial por sorteio eletrônico randômico e regra residual de sorteio.
 
 ## 11. Síntese para memorização
 
-- Sessões ocorrem nos órgãos colegiados: Pleno e Câmaras.
-- Sessão ordinária é regular; extraordinária é fora da rotina ordinária.
-- Pauta vem antes e organiza o que será apreciado.
-- Ata registra o que ocorreu na sessão.
-- Distribuição atribui processo a relator; redistribuição altera essa atribuição; prevenção mantém vínculo prévio.
-- Relator conduz e apresenta relatório/voto/proposta, mas não é órgão colegiado.
-- Deliberação é formação da vontade colegiada.
-- MPC atua junto ao Tribunal, mas não delibera como Pleno ou Câmara.
-- Quóruns, prazos exatos, desempate, sustentação oral, vista e ordem minuciosa de votação exigem conferência literal no Regimento vigente e ficam fora da cobrança deste material.
+- Plenário: **quórum 4**, quarta-feira **10h**, MPC presente.
+- Câmaras: **quórum 3**.
+- 1ª Câmara: terça e sexta, **10h**.
+- 2ª Câmara: segunda e quinta, **10h**.
+- Extraordinária: antecedência mínima de **24h**.
+- Falta de quórum: tolerância de **15min**.
+- Inclusão em pauta ordinária: **8 dias**.
+- Inclusão em extraordinária reservada: **2 dias**.
+- Divulgação da pauta ordinária: **48h antes**.
+- Plenário empatou: **Presidente desempata**.
+- Câmara empatou: **vai ao Plenário**.
+- Distribuição: **publicidade + alternatividade + sorteio**.
+- Conexão: **prevenção**.
+- TCE após Resolução nº 424/2025: **sorteio eletrônico randômico**.
 
 ## Referências
 
-- [Portal da Transparência do TCE/MA](https://www.tcema.tc.br/transparencia_novo/), Tribunal de Contas do Estado do Maranhão, acesso em 27 jul. 2026.
-- [TCE promove alterações no Regimento Interno](https://www.tcema.tc.br/index.php/noticias/1286-tce-promove-alteracoes-no-regimento-interno), Tribunal de Contas do Estado do Maranhão, notícia institucional de 19 abr. 2017, acesso em 27 jul. 2026.
-- [Ata da 17ª Sessão Ordinária do Pleno](https://diario.apps.tcema.tc.br/publicacao/pdf/9343), Tribunal de Contas do Estado do Maranhão, Diário Oficial Eletrônico, 18 jun. 2025, acesso em 27 jul. 2026.
-- [Ata da 33ª Sessão Ordinária do Pleno](https://diario.apps.tcema.tc.br/publicacao/pdf/9456), Tribunal de Contas do Estado do Maranhão, Diário Oficial Eletrônico, 15 out. 2025, acesso em 27 jul. 2026.
-- [Ata da 7ª Sessão Ordinária do Pleno](https://diario.apps.tcema.tc.br/publicacao/pdf/9527), Tribunal de Contas do Estado do Maranhão, Diário Oficial Eletrônico, 2026, acesso em 27 jul. 2026.
-- [Pauta da 9ª Sessão Ordinária do Pleno](https://diario.apps.tcema.tc.br/publicacao/pdf/9478), Tribunal de Contas do Estado do Maranhão, Diário Oficial Eletrônico, 22 abr. 2026, acesso em 27 jul. 2026.
+- [Portal da Transparência do TCE/MA](https://www.tcema.tc.br/transparencia_novo/), Tribunal de Contas do Estado do Maranhão.
+- [Pesquisa de atos normativos / legislação do TCE/MA](https://publicacao.apps.tcema.tc.br/), Tribunal de Contas do Estado do Maranhão.
+- [Resolução TCE/MA nº 424/2025 — Diário Oficial Eletrônico](https://app.tcema.tc.br/diario/publicacao/pdf/9289), publicada em 26 jun. 2025.
+- Regimento Interno do TCE/MA, aprovado pela Resolução Administrativa nº 001/2000, com alterações vigentes até 6 jul. 2026, consultado pelo serviço oficial de atos normativos do Tribunal.
