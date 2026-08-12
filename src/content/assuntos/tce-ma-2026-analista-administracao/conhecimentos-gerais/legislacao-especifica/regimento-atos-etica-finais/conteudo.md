@@ -1,430 +1,329 @@
 ---
 schemaVersion: 1
 title: "Regimento Interno do TCE/MA: atos normativos, ética e regras finais"
-description: Poder normativo do TCE/MA, resoluções, instruções normativas, súmulas, prejulgados, ética, integridade, Corregedoria, publicação, vigência e regras finais relacionadas ao Regimento Interno.
+description: Poder normativo do TCE/MA, alteração regimental, iniciativa e tramitação de atos normativos, Súmula, comissão regimental de ética e disposições finais.
 order: 63
 storageId: regimento-atos-etica-finais
 ---
 
-## 1. Mapa do assunto
+## 1. Recorte e corte temporal
 
-Este assunto fecha o estudo do **Regimento Interno do TCE/MA** no edital. O foco não é repetir processos, decisões, sanções ou recursos, mas entender como o Tribunal organiza sua atuação por normas internas, enunciados, ética institucional e regras finais.
+Este assunto encerra o estudo do **Regimento Interno do TCE/MA**, aprovado pela Resolução Administrativa nº 001/2000. O corte normativo adotado é **6 de julho de 2026**, data de publicação do edital.
 
-O recorte cobre:
+O foco é o que permanece propriamente **regimental**:
 
-- poder regulamentar do TCE/MA;
-- resoluções, instruções normativas, portarias e projetos de ato normativo;
-- proposta de enunciado de súmula, consultas e prejulgados;
-- códigos de ética de membros e servidores;
-- Corregedoria, comissão de ética, compliance, integridade e gestão de riscos;
-- publicação, vigência, casos omissos e revogação de normas internas.
+- alteração do Regimento Interno;
+- iniciativa, anuência, relatoria, emendas e votação de proposições normativas;
+- formação e alteração da Súmula da Jurisprudência;
+- Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno, na configuração regimental vigente;
+- publicações e disposições finais do Regimento.
 
-Ficam fora deste assunto:
+Não se repetem aqui competências, sessões, processos de controle, denúncias, consultas, decisões, sanções e recursos já estudados nos Assuntos 055 a 062.
 
-- competência constitucional e legal em profundidade, estudada no Assunto 055;
-- sessões, distribuição e deliberação ordinária, estudadas no Assunto 057;
-- denúncias, representações e consultas como processo de controle externo, estudadas no Assunto 059;
-- decisões, sanções, execução e recursos, estudados nos Assuntos 061 e 062.
+### 1.1. O que não integra este recorte
 
-### 1.1. Limitação documental
+Os **Códigos de Ética dos membros e dos servidores**, o **Programa de Compliance e Integridade**, a **Política de Gestão de Riscos** e recomendações administrativas da Corregedoria são disciplinados por atos autônomos. São temas institucionalmente relacionados à ética, mas **não devem ser estudados como se fossem capítulos do Regimento Interno**.
 
-A pesquisa manteve a limitação dos assuntos anteriores: o Regimento Interno do TCE/MA foi aprovado pela **Resolução Administrativa nº 001/2000**, mas não foi localizada versão oficial única, consolidada e integralmente extraível.
+A expressão “ética” neste assunto interessa principalmente à **comissão regimental** e ao procedimento de reclamação contra Conselheiro previsto no próprio Regimento.
 
-Por isso, este material:
+### 1.2. Cautela documental
 
-- usa fontes oficiais do TCE/MA, Diário Oficial Eletrônico e páginas institucionais localizadas;
-- evita inventar numeração de artigos regimentais para temas sem consolidação disponível;
-- diferencia norma vigente publicada, notícia institucional, portal de serviços e proposta normativa;
-- privilegia a função do instituto para prova, sem cravar ritos internos não confirmados.
+O texto do Regimento sofreu muitas alterações desde 2000. Para prova, é importante observar a redação atual e, ao mesmo tempo, reconhecer remissões antigas que permaneceram no texto compilado. Dois exemplos:
 
-## 2. Poder normativo do TCE/MA
+- o art. 307 ainda menciona projeto de resolução “a que se refere o art. 311”, embora o art. 311 tenha sido revogado pela Resolução TCE/MA nº 268/2017;
+- o art. 321 ainda se refere aos arts. 311 e 312, apesar da revogação do art. 311.
 
-### 2.1. Ideia central
+Não se deve “corrigir” uma remissão regimental por inferência. Em questão literal, preserve o texto vigente e identifique a revogação expressa.
 
-O TCE/MA não atua apenas por julgamentos individuais. Como órgão constitucional de controle externo, ele também expede normas internas e atos regulamentares para organizar:
+## 2. Poder normativo e competência para alterar o Regimento
 
-- sua própria estrutura e funcionamento;
-- prazos, forma e conteúdo de processos submetidos ao Tribunal;
-- procedimentos de fiscalização e controle;
-- deveres de jurisdicionados;
-- políticas internas de governança, ética, riscos, segurança e sustentabilidade.
+A Lei Orgânica atribui ao TCE/MA competência para **elaborar e alterar o seu Regimento Interno**. O próprio Regimento disciplina como essa alteração ocorre.
 
-A página oficial de competências registra, entre as atribuições do Tribunal, **elaborar e alterar seu Regimento Interno**, propor projeto de lei sobre matéria de sua competência, organizar sua Secretaria e expedir medidas no exercício de suas atribuições.
+### 2.1. Alteração regimental — arts. 307 e 308
 
-### 2.2. Base legal localizada
+O art. 307 estabelece regra qualificada: o Regimento somente pode ser alterado mediante aprovação, pela **maioria absoluta dos Conselheiros titulares**, de projeto de resolução.
 
-As normas extraídas do Diário Oficial citam a Lei Estadual nº 8.258/2005 como fundamento do poder regulamentar do TCE/MA para expedir atos e instruções normativas sobre matérias de sua atribuição e sobre prazo, forma e conteúdo dos processos que devam ser submetidos ao Tribunal.
+A proposta de alteração deve apontar expressamente os dispositivos que serão:
 
-Essa base é importante para prova porque mostra que resolução e instrução normativa não são simples textos informativos. Quando expedidas dentro da competência do Tribunal, têm função regulamentar e vinculam destinatários nos limites legais.
+- modificados;
+- acrescidos; ou
+- suprimidos.
 
-### 2.3. Espécies de atos
+O art. 308 ainda fixa três técnicas importantes:
 
-As fontes oficiais mostram diferentes espécies de atos:
+1. dispositivo modificado **conserva sua numeração**;
+2. dispositivo retirado recebe a indicação **“suprimido”**;
+3. matéria nova que não se enquadre nos artigos existentes é inserida em **dispositivo conexo**, até que o Regimento seja renumerado e republicado integralmente.
 
-| Ato | Função didática | Exemplo localizado |
+### 2.2. Republicação após reforma
+
+O art. 305, § 2º, prevê que, no começo de cada ano, se tiver ocorrido reforma regimental anteriormente, o Regimento será republicado na íntegra.
+
+**Pegadinha:** alteração pontual não implica renumerar imediatamente todo o Regimento. A técnica do art. 308 preserva a numeração até eventual republicação integral devidamente renumerada.
+
+## 3. Iniciativa, apresentação, relatoria e anuência — art. 309
+
+### 3.1. Quem pode propor
+
+A iniciativa de projeto de **ato normativo**, de **enunciado de Súmula** e de **projeto de lei de proposição privativa do TCE/MA** cabe a:
+
+- Presidente do Tribunal;
+- demais Conselheiros;
+- Conselheiros-Substitutos;
+- membros do Ministério Público junto ao Tribunal de Contas;
+- Comissões previstas no Capítulo V do Título II do Regimento.
+
+Não confunda **iniciativa** com **relatoria**: há legitimados que propõem, mas não se tornam automaticamente relatores.
+
+### 3.2. Forma de apresentação
+
+Quando o Presidente leva ao Plenário proposta de qualquer legitimado, a Coordenadoria de Sessões providencia cópia do documento, com a necessária justificativa, e a disponibiliza aos Conselheiros, Conselheiros-Substitutos e membros do MPC.
+
+Conselheiro, Conselheiro-Substituto e membro do MPC também podem apresentar em Plenário proposta de sua própria iniciativa, mas devem antes enviar cópia ao Gabinete da Presidência e aos gabinetes dos membros do Tribunal e do MPC.
+
+### 3.3. Quem relata
+
+| Origem da proposta | Relatoria |
+| --- | --- |
+| Conselheiro | o próprio proponente |
+| Conselheiro-Substituto | o próprio proponente |
+| Presidente | Relator designado pelo Presidente após consulta ao Plenário |
+| membro do MPC | Relator designado pelo Presidente após consulta ao Plenário |
+| Comissão | Relator designado pelo Presidente após consulta ao Plenário |
+
+Se houver mais de um interessado em relatar uma proposta sujeita à designação, o Presidente propõe **votação ou sorteio** para escolha do Relator.
+
+### 3.4. Matriz de anuência prévia
+
+A anuência significa concordância **em tese com a essência** da proposta; não equivale a voto definitivo de aprovação.
+
+| Proposta | Anuência mínima | Proponente Conselheiro ou Conselheiro-Substituto conta? |
 | --- | --- | --- |
-| Regimento Interno | disciplina organização e funcionamento interno do Tribunal | aprovado pela Resolução Administrativa nº 001/2000 |
-| resolução | aprova política, altera regra interna ou regulamenta procedimento | códigos de ética, política de riscos, política de sustentabilidade |
-| instrução normativa | disciplina procedimento técnico-operacional dirigido aos jurisdicionados ou ao controle externo | IN nº 50/2017 sobre tomada de contas especial |
-| portaria | designa, operacionaliza ou executa comando administrativo/normativo | comitês, designações, atos de gestão |
-| decisão/acórdão | resolve caso ou processo concreto | deliberações em processos de controle externo |
-| súmula/prejulgado | consolida orientação ou tese | mural de súmulas e base de prejulgados |
+| resolução que altera o Regimento | 2 Conselheiros | **não** |
+| enunciado de Súmula | 2 Conselheiros | **não** |
+| ato normativo que não altera o Regimento | 2 Conselheiros | **sim** |
+| projeto de lei de proposição privativa | mesma regra da alteração regimental | **não** |
 
-Pegadinha: nem todo ato publicado pelo Tribunal é norma geral. Uma portaria de pessoal ou um acórdão de caso concreto não devem ser confundidos com regra abstrata aplicável indistintamente.
+A anuência é firmada por assinatura na proposta.
 
-## 3. Propostas de ato normativo, súmula e projeto de lei
+**Exemplo:** se um Conselheiro propõe ato normativo sem alteração regimental, ele pode integrar o mínimo de dois Conselheiros anuentes. Se propõe alteração do Regimento, são necessários dois Conselheiros além dele.
 
-### 3.1. Alterações regimentais de 2017
+### 3.5. Artigos 310 e 311
 
-Notícia oficial de 2017 informou que o Plenário aprovou projeto de resolução para alterar dispositivos do Regimento Interno. A finalidade apontada foi modernizar o Regimento e tornar a atuação do TCE/MA mais dinâmica, em sintonia com novas perspectivas do controle externo.
+Os arts. 310 e 311 estão **revogados** pela Resolução TCE/MA nº 268/2017. Essa revogação é relevante porque algumas remissões posteriores ainda conservam a numeração antiga.
 
-A notícia registrou que as alterações alcançaram, entre outros pontos:
+## 4. Emendas, sugestões e instrução da proposição — arts. 312 a 316
 
-- distribuição de tomadas e prestações de contas anuais;
-- processos de denúncia, representação e consulta;
-- novo modo de apresentação de proposta de ato normativo;
-- novo modo de apresentação de enunciado de súmula;
-- novo modo de apresentação de projeto de lei;
-- distribuição dos respectivos processos;
-- Comissão de Ética, com redefinição de atribuições e composição.
+### 4.1. Prazo para emendas
 
-Como a notícia não substitui o texto consolidado do Regimento, ela prova a existência e a direção das mudanças, mas não autoriza reconstruir sozinho todos os detalhes procedimentais.
+As propostas de **atos normativos** podem ser emendadas pelos Conselheiros no prazo de **até 7 dias**, contado da apresentação em Sessão Plenária pelo Presidente ou por outro legitimado do art. 309.
 
-### 3.2. Processo de elaboração de ato normativo
+Conselheiros-Substitutos e membros do MPC podem encaminhar ao Relator **sugestões** relativas a projeto de ato normativo, enunciado de Súmula e projeto de lei no mesmo prazo.
 
-O Diário Oficial de 30 de agosto de 2017 traz exemplo de processo com natureza **Elaboração de Ato Normativo** e subnatureza **Projetos de Resolução**, no qual o Plenário aprovou projeto de resolução referente à política de sustentabilidade do TCE/MA.
+Emendas e sugestões são dirigidas **diretamente ao Relator**.
 
-Esse exemplo permite extrair um ciclo seguro:
+### 4.2. Tipos de emenda — art. 315
 
-1. há processo administrativo de elaboração normativa;
-2. existe relator;
-3. o Plenário aprecia o projeto;
-4. a aprovação ocorre por decisão colegiada;
-5. o texto da resolução é publicado;
-6. a norma define vigência, em regra na data da publicação, quando assim previsto.
-
-Não confunda a **decisão que aprova o projeto** com a **resolução publicada**. A decisão resolve o processo de elaboração; a resolução contém a norma aprovada.
-
-### 3.3. Projeto de lei
-
-O TCE/MA também pode propor projeto de lei sobre matéria de sua competência. Essa atribuição é diferente de aprovar resolução interna. Resolução é ato normativo do próprio Tribunal; projeto de lei depende do processo legislativo competente.
-
-Pegadinha: projeto de lei não é lei vigente. Ele só altera o ordenamento quando aprovado, sancionado ou promulgado conforme o caso, e publicado.
-
-## 4. Súmulas, consultas e prejulgados
-
-### 4.1. Súmulas
-
-A página de transparência do TCE/MA possui mural específico de **súmulas**. A notícia de alteração regimental de 2017 menciona proposta de enunciado de súmula como matéria alcançada pela modernização do rito.
-
-Para estudo, a súmula deve ser entendida como técnica de consolidação de entendimento institucional. Ela organiza orientação reiterada e ajuda a dar estabilidade, coerência e previsibilidade ao controle externo.
-
-Sem texto consolidado, não se deve inventar quórum, legitimidade ou rito interno de aprovação de enunciado.
-
-### 4.2. Consulta e prejulgado
-
-O portal de sistemas externos explica o e-Consulta. A consulta permite que determinadas autoridades formulem, de modo remoto e eletrônico, dúvida quanto à aplicação de dispositivos legais e regulamentares sobre matéria da competência do TCE/MA.
-
-O mesmo portal afirma que as respostas às consultas:
-
-- são catalogadas, compiladas e disponibilizadas em formato de **prejulgados**;
-- têm **caráter normativo**;
-- constituem **prejulgamento da tese**, mas não do fato ou do caso concreto.
-
-Essa frase é muito cobrável. Prejulgado não resolve o caso concreto do consulente. Ele fixa tese sobre a dúvida jurídica ou regulamentar, dentro da competência do Tribunal.
-
-### 4.3. O que não é consulta
-
-O portal também alerta que orientações técnicas e informações sobre sistemas, processos e ações de controle não são objeto do processo de consulta. Essas demandas devem ir a outros canais, como a Ouvidoria.
-
-Assim, a consulta não é:
-
-- atendimento técnico operacional;
-- substituto de defesa em processo concreto;
-- canal geral para usuário tirar dúvida sobre sistema;
-- forma de obter decisão sobre fato específico já ocorrido.
-
-## 5. Código de Ética dos membros
-
-### 5.1. Alcance
-
-A Resolução nº 282/2017 instituiu o **Código de Ética dos Membros do Tribunal de Contas do Estado do Maranhão**. Para esse código, membros são **Conselheiros** e **Conselheiros-Substitutos**.
-
-O objetivo central é tornar transparentes as regras éticas de conduta dos membros, permitindo à sociedade aferir a integridade e a lisura da apreciação das contas públicas.
-
-### 5.2. Princípios e deveres
-
-O código dos membros destaca padrões como:
-
-- imparcialidade;
-- objetividade;
-- cortesia;
-- transparência;
-- segredo profissional;
-- prudência;
-- diligência;
-- integridade profissional e pessoal;
-- dignidade;
-- lisura;
-- probidade;
-- decoro.
-
-Entre os deveres aparecem defesa da competência institucional do controle externo, zelo pela coisa pública, declaração de suspeição ou impedimento quando necessário, honestidade, objetividade, diligência, imparcialidade e independência.
-
-Também há dever de representar infração conhecida e interferência que limite a independência do membro.
-
-### 5.3. Vedações
-
-O código veda, entre outras condutas:
-
-- valer-se de informação privilegiada, ainda que após desligamento do cargo;
-- usar servidores, bens ou serviços públicos para fins privados;
-- discriminar subordinado ou jurisdicionado;
-- manifestar convicções político-partidárias em relação a indivíduos, grupos ou organizações;
-- participar de órgãos ou entidades jurisdicionadas;
-- manifestar-se sobre matéria sujeita à sua decisão, salvo hipóteses de orientação prévia para evitar dano ao erário;
-- exercer atividade incompatível com dignidade, honra e decoro das funções.
-
-Para prova, a lógica é preservar independência, imparcialidade, imagem institucional e confiança pública.
-
-### 5.4. Comissão de Ética dos membros
-
-No texto publicado em 2017, a Comissão de Ética dos membros é composta pelo Conselheiro Corregedor e mais dois membros eleitos entre Conselheiros e Conselheiros-Substitutos, com mandato de dois anos. A presidência fica com o Conselheiro-Corregedor.
-
-Compete à Comissão receber denúncias fundamentadas contra membros, instruir processos disciplinares, propor penalidades, propor projetos de lei e resoluções sobre sua matéria e zelar pela aplicação do código e pela imagem do Tribunal.
-
-### 5.5. Processo e sanções éticas de membros
-
-O processo ético pode ser instaurado de ofício, por representação ou por denúncia fundamentada. O texto publicado prevê defesa prévia, produção de provas e julgamento em sessão reservada do Tribunal Pleno.
-
-As sanções éticas listadas são:
-
-- recomendação;
-- advertência confidencial em aviso reservado;
-- censura ética em publicação oficial.
-
-O código entra em vigor na data de sua publicação e revoga disposições em contrário.
-
-## 6. Código de Ética dos servidores
-
-### 6.1. Alcance
-
-A Resolução nº 283/2017 instituiu o **Código de Ética dos Servidores do Tribunal de Contas do Estado do Maranhão**.
-
-O código considera servidor, para fins de aplicação, todo aquele que preste serviço ao TCE/MA de natureza permanente, temporária ou excepcional, remunerado ou não, desde que sujeito à subordinação hierárquica no âmbito da instituição.
-
-Também se aplica, no que couber, a quem pertença a outra instituição, mas preste serviço ou desenvolva atividade junto ao Tribunal de forma permanente, temporária ou excepcional, ainda que sem retribuição financeira pelo TCE/MA.
-
-### 6.2. Objetivos e deveres
-
-O código busca tornar explícitas as regras éticas dos servidores, reduzir subjetividade interpretativa e alinhar valores individuais à missão institucional.
-
-Deveres fundamentais incluem:
-
-- zelar pelo interesse público;
-- atuar de acordo com a lei e normas aplicáveis;
-- cumprir a missão institucional com eficiência e eficácia;
-- agir com honestidade, objetividade, diligência, imparcialidade, independência, integridade, dignidade e dedicação;
-- tratar cidadãos com respeito;
-- rejeitar atos contrários à lei ou lesivos ao interesse público;
-- não disseminar informações falsas ou enganosas;
-- não se valer de informação privilegiada.
-
-### 6.3. Deveres perante o Tribunal e fiscalizados
-
-Perante o TCE/MA, o servidor deve preservar nome e imagem da instituição, comunicar à chefia imediata irregularidade, omissão ou abuso ainda não apurado, colaborar com os serviços do Tribunal, guardar reserva sobre informações obtidas e resistir a pressões indevidas.
-
-Durante trabalhos de fiscalização, deve manter independência em relação ao fiscalizado, evitar preconceitos, guardar cautela com documentos, cumprir compromissos, manter discrição na solicitação de informações, formular indagações de modo urbano e permanecer neutro diante das afirmações do fiscalizado.
-
-O Auditor Estadual de Controle Externo pode formular recomendações e sugestões de maneira pedagógica, pautadas em normas legais e jurisprudência do TCE/MA, ligadas ao objeto e ao escopo da auditoria, sem interferir na administração do gestor.
-
-### 6.4. Vedações e responsabilização
-
-São vedadas condutas como:
-
-- praticar ou compactuar com ato contrário à ética e ao interesse público;
-- discriminar servidores e jurisdicionados;
-- criar ambiente hostil, ofensivo ou assediador;
-- atribuir erro próprio a outrem;
-- apresentar como seu trabalho de outra pessoa;
-- usar cargo, função ou informação privilegiada para favores ou vantagens indevidas;
-- divulgar estudos, relatórios, pareceres ou pesquisas ainda não apreciados pelo Tribunal sem autorização;
-- alterar ou deturpar documento, informação, citação, lei, decisão judicial ou decisão do próprio Tribunal;
-- manifestar-se em nome do Tribunal sem autorização.
-
-A Comissão de Ética dos servidores, no texto publicado, é integrada por cinco titulares e cinco suplentes designados pelo Presidente. Sua manifestação deve ser motivada e conclusiva.
-
-A denúncia ou representação ética deve ser fundamentada, narrar os fatos de forma clara e objetiva, individualizar o servidor envolvido e vir acompanhada de indício da irregularidade ou ilegalidade imputada. Denúncia sem autoria identificada pode ensejar investigação preliminar quando fundamentada e acompanhada desses elementos.
-
-Contra sanção definida pela Comissão, o texto publicado assegura um único recurso ao Presidente do Tribunal, com efeito suspensivo.
-
-## 7. Corregedoria, compliance e integridade
-
-### 7.1. Corregedoria
-
-A página institucional da Corregedoria informa que ela é o órgão encarregado de orientar e fiscalizar as atividades funcionais e a conduta disciplinar de membros e servidores, além de avaliar e acompanhar os resultados institucionais.
-
-Sua missão, visão e valores reforçam governança, gestão, ética, disciplina, integridade, eficiência e transparência.
-
-Para prova, Corregedoria não se confunde com Ouvidoria. A Ouvidoria recebe manifestações externas e atua como canal institucional; a Corregedoria se volta à orientação, fiscalização funcional e disciplina interna.
-
-### 7.2. Programa de Compliance e Integridade
-
-O portal de integridade do TCE/MA registra a Resolução TCE/MA nº 422/2025, que instituiu o Programa de Compliance e Integridade no âmbito do Tribunal e estabeleceu diretrizes para sua implementação.
-
-Notícia oficial de 30 de abril de 2025 explica que compliance corresponde ao cumprimento de leis, regulamentos, políticas internas e padrões éticos, com prevenção de riscos e promoção da conformidade.
-
-A Política e o Programa de Compliance e Integridade estipulam mecanismos e procedimentos internos de:
-
-- prevenção;
-- detecção;
-- resposta a desvios éticos;
-- resposta a fraudes;
-- resposta a irregularidades;
-- promoção da cultura de integridade;
-- conformidade com normas internas e externas.
-
-Entre os princípios informados estão ética, transparência, legalidade, responsabilidade, controle, eficiência e boa-fé.
-
-As medidas de estruturação incluem elaboração e atualização de códigos de ética e conduta, identificação, avaliação e mitigação de riscos, canais de denúncia seguros e sigilosos, atuação permanente da Comissão de Governança e Compliance, capacitações internas e revisão periódica das medidas adotadas.
-
-### 7.3. Responsabilidades e consequência do descumprimento
-
-A notícia oficial informa que todos os membros e servidores devem obedecer às normas do programa, com responsabilidades específicas para Alta Administração, unidades organizacionais e comissão competente.
-
-O descumprimento dos deveres enseja apuração de responsabilidade funcional, com penalidades cabíveis nos termos do Regimento Interno e demais normas vigentes.
-
-## 8. Política de gestão de riscos
-
-### 8.1. Resolução nº 432/2025
-
-A Resolução TCE/MA nº 432/2025 instituiu a Política de Gestão de Riscos do Tribunal. Ela se conecta ao Programa de Compliance e Integridade e fortalece governança, tomada de decisão, integridade e prevenção de riscos.
-
-O texto define risco como efeito da incerteza sobre objetivos institucionais, podendo representar ameaça ou oportunidade. Gestão de riscos é processo contínuo e estruturado para identificar, analisar, avaliar, tratar, monitorar e comunicar riscos.
-
-### 8.2. Objetivos e princípios
-
-A política busca:
-
-- promover cultura de gestão de riscos;
-- estabelecer diretrizes para identificação, avaliação, tratamento, monitoramento e comunicação;
-- contribuir para objetivos institucionais, governança, integridade e accountability;
-- apoiar planejamento estratégico, tático e operacional;
-- garantir eficiência, efetividade e economicidade.
-
-Os princípios incluem abordagem sistemática, integração com governança, base em informações atualizadas, alinhamento aos valores de ética, transparência e efetividade, e melhoria contínua.
-
-### 8.3. Etapas do processo
-
-A metodologia indicada contempla:
-
-| Etapa | Sentido |
+| Tipo | Função |
 | --- | --- |
-| estabelecimento do contexto | compreender processos, áreas e parâmetros internos e externos |
-| identificação | reconhecer fontes, eventos, causas e consequências potenciais |
-| análise | compreender natureza do risco e seu nível |
-| avaliação | comparar riscos com critérios e controles existentes |
-| tratamento | selecionar e implementar controles e respostas |
-| monitoramento | acompanhar efetividade do processo |
-| comunicação | manter fluxo de informações para tomada de decisão |
+| supressiva | excluir parte do projeto |
+| substitutiva | apresentar sucedâneo que altera substancialmente o projeto |
+| aditiva | acrescentar conteúdo |
+| modificativa | alterar sem modificar substancialmente o projeto |
 
-As respostas ao risco podem envolver as estratégias **Reduzir**, **Compartilhar**, **Evitar** ou **Assumir**, conforme a política publicada:
+### 4.3. Atuação do Relator
 
-- **Reduzir**: adotar medidas para diminuir probabilidade ou impacto do risco;
-- **Compartilhar**: transferir parcialmente o risco com terceiros, como seguros ou parcerias;
-- **Evitar**: eliminar totalmente o risco mediante descontinuidade da atividade;
-- **Assumir**: aceitar o risco quando seu nível estiver dentro do apetite institucional.
+Encerrado o prazo para emendas, o Relator deve apresentar, **até a segunda Sessão Plenária seguinte**, relatório e parecer sobre a proposição principal e as acessórias.
 
-### 8.4. Governança de riscos
+O Relator pode concluir pelo oferecimento de:
 
-A estrutura de governança da gestão de riscos compreende:
+- substitutivo; ou
+- subemendas às proposições acessórias.
 
-- Alta Administração, que define diretrizes e aprova política e apetite a risco;
-- Comissão de Governança e Compliance, que coordena, supervisiona e delibera sobre diretrizes e planos;
-- unidades gestoras de riscos, que identificam, analisam e tratam riscos em sua competência;
-- Unidade de Controle Interno, que apoia metodologicamente, valida e avalia efetividade.
+## 5. Discussão, votação e redação final — arts. 317 a 321
 
-A política deve ser revisada a cada dois anos ou sempre que houver alteração relevante no ambiente organizacional ou legal. Casos omissos são resolvidos pela Comissão de Compliance e Integridade e Gestão de Riscos.
+### 5.1. Ordem de votação
 
-## 9. Neutralidade institucional em período eleitoral
+Encerrada a discussão, a votação observa a seguinte ordem:
 
-Em 2026, notícia oficial informou recomendação da Corregedoria com diretrizes institucionais para membros e servidores no período eleitoral, baseada nos princípios de legalidade, impessoalidade, moralidade e eficiência.
+1. substitutivo do Relator;
+2. substitutivo de Conselheiro;
+3. projeto originário;
+4. subemendas do Relator;
+5. emendas com parecer favorável;
+6. emendas não acolhidas.
 
-A finalidade foi prevenir desvios éticos e disciplinares e assegurar neutralidade institucional. O documento alcança servidores efetivos, cedidos, comissionados e, eventualmente, estagiários, terceirizados e profissionais que prestem serviço no órgão.
+A aprovação de substitutivo prejudica as demais proposições, **salvo os destaques requeridos**. O destaque permite votação separada de emenda, subemenda, parte do projeto ou parte do substitutivo.
 
-Entre as condutas vedadas noticiadas estão:
+### 5.2. Quórum de aprovação
 
-- divulgar informações internas ou privilegiadas com potencial de influenciar processo eleitoral;
-- informar dados de auditorias ou fiscalizações com repercussão eleitoral fora dos canais oficiais;
-- direcionar ações de controle com finalidade político-eleitoral;
-- retardar ou acelerar procedimentos com objetivo de influenciar o pleito;
-- usar cargo, função ou estrutura do Tribunal para favorecer candidato, partido ou coligação;
-- manifestar apoio ou oposição político-partidária no exercício das funções;
-- usar imagem institucional na campanha eleitoral;
-- utilizar vínculo funcional para obter vantagem ou simpatia eleitoral.
+O art. 318 considera aprovada a proposição que obtenha **maioria absoluta de votos dos membros do Tribunal**, cabendo ao Presidente o **voto de desempate**.
 
-A recomendação também trata de redes sociais e comunicação digital: mesmo em perfis pessoais, o membro ou servidor não se desvincula da condição funcional e deve deixar claro que opiniões pessoais não representam posição oficial do Tribunal.
+Compare com o art. 307: para **alterar o Regimento**, a norma usa fórmula específica de maioria absoluta dos **Conselheiros titulares**.
 
-## 10. Regras finais, publicação e vigência
+### 5.3. Redação final
 
-### 10.1. Publicação oficial
+A redação final é votada na mesma Sessão ou na Sessão Plenária seguinte à aprovação de projeto concernente a:
 
-As normas localizadas seguem padrão: decisão, resolução, portaria ou instrução normativa é publicada no Diário Oficial Eletrônico do TCE/MA. A publicação dá ciência oficial e, quando a norma assim determina, marca o início de vigência.
+- enunciado da Súmula;
+- instrução normativa;
+- resolução;
+- decisão normativa.
 
-Várias normas trazem fórmula como: "Esta Resolução entra em vigor na data de sua publicação". Outras também revogam disposições em contrário.
+A votação da redação final é dispensada se:
 
-### 10.2. Casos omissos
+- o projeto originário for aprovado **sem emendas**; ou
+- o substitutivo for aprovado **integralmente**.
 
-Casos omissos podem receber tratamento próprio conforme a norma. A política de gestão de riscos atribui casos omissos à Comissão de Compliance e Integridade e Gestão de Riscos. Outras resoluções podem atribuir regulamentação e casos omissos à Presidência.
+Na redação final só se admite emenda para:
 
-Não existe uma regra única segura para todos os atos sem ler o texto específico. Em prova, sempre identifique a norma de referência.
+- evitar incorreções gramaticais; ou
+- conferir maior clareza e objetividade ao texto.
 
-### 10.3. Hierarquia e compatibilidade
+### 5.4. Ajuste de prazo pelo Plenário
 
-Atos internos do TCE/MA devem respeitar Constituição, leis, Lei Orgânica e demais normas superiores. Resolução ou instrução normativa não pode contrariar a lei que lhe serve de fundamento.
+O art. 321 permite ao Plenário reduzir ou ampliar os prazos ali referidos mediante proposta justificada do Presidente ou do Relator. O dispositivo ainda cita os arts. 311 e 312, embora o art. 311 esteja revogado. Para o prazo hoje expresso no art. 312, memorize a regra-base de **até 7 dias** e a possibilidade regimental de ajuste pelo Plenário.
 
-A norma interna pode detalhar procedimento e organização; não pode criar competência que a Constituição ou a lei não deram ao Tribunal.
+## 6. Súmula da Jurisprudência — arts. 322 a 327
 
-## 11. Quadro de revisão
+### 6.1. Conceito
 
-| Tema | Ideia segura |
+A Súmula é formada por princípios ou enunciados que resumem **teses, soluções e precedentes reiteradamente adotados** pelo TCE/MA em matérias de sua jurisdição e competência.
+
+Não é decisão de um caso isolado e não se confunde com a resposta individual de consulta.
+
+### 6.2. Organização
+
+A organização gradual da Súmula cabe à **Coordenação de Plenário**. Cada enunciado recebe número de referência, seguido da indicação dos dispositivos legais e julgados em que se fundamenta.
+
+### 6.3. Inclusão, revisão, cancelamento e restabelecimento
+
+Um enunciado pode ser:
+
+- incluído;
+- revisto;
+- cancelado; ou
+- restabelecido.
+
+A deliberação exige **maioria absoluta dos Conselheiros**, mediante projeto específico referido no art. 309.
+
+Quando um enunciado é cancelado, seu número fica **vago**, com nota de cancelamento. Se o enunciado é apenas modificado, **conserva o mesmo número**, com a ressalva correspondente.
+
+### 6.4. Publicação e citação
+
+A Súmula e suas alterações são objeto de publicação na forma regimental. Perante o TCE/MA, a citação da Súmula é feita pelo número do enunciado e **dispensa a indicação dos julgados no mesmo sentido**.
+
+**Pegadinha:** dispensar a indicação dos julgados na citação não significa que o enunciado tenha surgido sem precedentes; o art. 322 exige justamente reiteração de teses, soluções e precedentes.
+
+## 7. Comissão regimental de ética — arts. 22 a 27
+
+### 7.1. Configuração vigente desde a Resolução nº 391/2023
+
+A comissão permanente relevante para este assunto passou a denominar-se **Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno**.
+
+É composta por:
+
+- Conselheiro Corregedor;
+- mais 2 Conselheiros;
+- 1 Conselheiro-Substituto, como secretário-executivo;
+- 1 Procurador de Contas.
+
+Os integrantes são designados pelo **Pleno**. A Comissão é presidida pelo Conselheiro que exerce a função de **Corregedor**; em suas ausências, a substituição ocorre pelos demais Conselheiros integrantes, em ordem sucessiva de antiguidade no cargo.
+
+Não use a antiga composição do Código de Ética de 2017 como se fosse a atual composição **regimental**.
+
+### 7.2. Competências, pauta e reuniões
+
+O Regimento determina que **ato normativo** definirá:
+
+- competências da Comissão;
+- atribuições de seu Presidente e secretário-executivo;
+- procedimento de formação das pautas.
+
+As reuniões ordinárias dessa Comissão ocorrem:
+
+- na **primeira semana de cada mês**;
+- de forma **presencial**;
+- às **terças-feiras, às 10h**;
+- no Plenário do Tribunal.
+
+Aplicam-se, no que couber, as normas de funcionamento das sessões do Pleno. As deliberações são encaminhadas por ofício do Presidente da Comissão, acompanhadas do resumo da ata, ao Presidente do Tribunal para as providências de sua competência.
+
+### 7.3. Reclamação contra Conselheiro
+
+O art. 26, § 1º, disciplina reclamação contra Conselheiro. A petição deve ser **fundamentada** e acompanhada de elementos comprobatórios.
+
+Fluxo essencial:
+
+1. distribuída a reclamação, o Relator pode propor arquivamento imediato se a considerar manifestamente improcedente;
+2. se não o fizer, manda ouvir o reclamado em **15 dias úteis**, pessoalmente ou por procurador;
+3. com ou sem resposta, a Comissão decide entre arquivamento e melhor instrução, podendo fixar prazo para provas e diligências;
+4. pronto o processo, a Comissão decide com a **presença de todos os seus integrantes** e publica-se a conclusão da decisão.
+
+O § 2º do art. 26 ainda condiciona projetos de lei de iniciativa privativa do Tribunal e propostas de atualização do Regimento à **manifestação prévia da Comissão** antes de sua submissão ao Plenário. A compilação mantém nesse parágrafo uma remissão interna antiga a incisos que já não correspondem à redação atual do caput; memorize a regra material sem inventar uma correção textual.
+
+### 7.4. Comissões temporárias
+
+As Comissões temporárias são compostas por **dois ou mais membros**, entre Conselheiros e Conselheiros-Substitutos, indicados no ato de criação pelo Pleno ou pelo Presidente. Extinguem-se ao fim do prazo fixado ou quando alcançado o objetivo.
+
+## 8. Disposições finais e regras temporais
+
+### 8.1. Normas regulamentares anteriores — art. 337
+
+As disposições regulamentares **compatíveis** com o Regimento continuam em vigor até novo disciplinamento da matéria; as incompatíveis são revogadas.
+
+Essa é uma regra de transição normativa: a entrada em vigor do Regimento não eliminou automaticamente toda regulamentação anterior compatível.
+
+### 8.2. Disposição temporária já exaurida
+
+Parágrafo único acrescentado ao art. 337 pela Resolução nº 386/2023 determinou que o parágrafo único do art. 141-C teria vigência somente até **31 de dezembro de 2024**.
+
+No corte do edital, **6 de julho de 2026**, essa regra temporária já estava **sem vigência**. Ela pode aparecer como pegadinha histórica, mas não deve ser apresentada como regra operacional atual.
+
+### 8.3. Entrada em vigor e transição histórica
+
+O art. 338 estabelece que o Regimento entrou em vigor em **21 de janeiro de 2000**.
+
+O art. 336 determinou, na implantação original, devolução ao Relator, em 60 dias da publicação do Regimento, dos processos pendentes por pedido de vista. É disposição **transitória historicamente exaurida**, não prazo atual para pedidos de vista.
+
+## 9. Quadro de revisão
+
+| Tema | Regra de prova |
 | --- | --- |
-| poder normativo | TCE/MA expede atos normativos dentro de sua competência |
-| Regimento | disciplina organização e funcionamento do Tribunal |
-| resolução | aprova políticas, códigos e regras procedimentais |
-| instrução normativa | disciplina procedimentos técnicos, prazos e documentos |
-| súmula | consolida orientação institucional |
-| prejulgado | resposta a consulta com caráter normativo sobre tese, não fato concreto |
-| código de membros | aplica-se a Conselheiros e Conselheiros-Substitutos |
-| código de servidores | alcança quem presta serviço subordinado ao TCE/MA, inclusive temporário ou excepcional |
-| Corregedoria | orienta e fiscaliza atividades funcionais e conduta disciplinar |
-| compliance | prevenção, detecção e resposta a desvios, fraudes e irregularidades |
-| gestão de riscos | processo contínuo de identificar, analisar, avaliar, tratar, monitorar e comunicar riscos |
-| vigência | depende do texto do ato, frequentemente a partir da publicação |
+| alteração do RI | maioria absoluta dos Conselheiros titulares |
+| proposta de alteração | indica dispositivos modificados, acrescidos ou suprimidos |
+| supressão | indicação “suprimido” |
+| iniciativa do art. 309 | Presidente, Conselheiros, Conselheiros-Substitutos, MPC e Comissões regimentais |
+| anuência — RI/Súmula | 2 Conselheiros, excluído o proponente se Conselheiro ou Substituto |
+| anuência — outro ato normativo | 2 Conselheiros, incluído o proponente se Conselheiro ou Substituto |
+| projeto de lei privativo | segue a anuência exigida para RI/Súmula |
+| emenda por Conselheiro a ato normativo | até 7 dias da apresentação em Plenário |
+| sugestão de Substituto/MPC | ao Relator, no mesmo prazo |
+| parecer do Relator | até a 2ª Sessão Plenária seguinte ao fim do prazo de emendas |
+| aprovação da proposição | maioria absoluta dos votos dos membros; Presidente desempata |
+| Súmula | consolida teses, soluções e precedentes reiterados |
+| mudar enunciado | maioria absoluta dos Conselheiros |
+| comissão de ética atual | Corregedor + 2 Conselheiros + 1 Substituto + 1 Procurador de Contas |
+| reclamação contra Conselheiro | reclamado é ouvido em 15 dias úteis se não houver proposta de arquivamento imediato |
+| art. 337 | preserva regulamentação compatível até novo disciplinamento |
 
-## 12. Pegadinhas recorrentes
+## 10. Pegadinhas recorrentes
 
-| Pegadinha | Correção |
-| --- | --- |
-| tratar notícia como texto consolidado do Regimento | notícia ajuda, mas não substitui norma publicada consolidada |
-| confundir decisão de aprovação com resolução | decisão aprova o projeto; resolução veicula a norma |
-| afirmar que consulta decide caso concreto | prejulgado fixa tese, não fato ou caso concreto |
-| achar que orientação técnica de sistema é consulta | orientação técnica usa outros canais |
-| reduzir ética a punição | ética também orienta conduta, prevenção, confiança e integridade |
-| confundir Corregedoria com Ouvidoria | Corregedoria trata orientação, fiscalização funcional e disciplina; Ouvidoria recebe manifestações |
-| tratar compliance como auditoria externa | compliance é governança interna de conformidade, integridade e riscos |
-| presumir uma regra única de casos omissos | cada norma pode indicar órgão ou autoridade competente |
-| ignorar publicação | publicação oficial é etapa essencial de ciência e, muitas vezes, vigência |
-| cravar artigo regimental sem fonte consolidada | com Regimento não consolidado, use apenas o que foi localizado |
+- **Código de Ética ≠ Regimento:** resoluções éticas autônomas não substituem a disciplina da comissão regimental.
+- **Anuência ≠ aprovação:** assinatura prévia concorda em tese com a essência da proposta; o mérito será deliberado depois.
+- **Dois Conselheiros:** na alteração do RI e na Súmula, o proponente Conselheiro/Substituto é excluído da contagem; no ato normativo comum, ele pode ser incluído.
+- **Conselheiro-Substituto pode propor**, mas sua participação em emendas não é idêntica à dos Conselheiros: o art. 313 lhe assegura sugestão ao Relator no prazo correspondente.
+- **Substitutivo aprovado:** prejudica as demais proposições, salvo destaques.
+- **Redação final:** não é fase para reabrir o mérito; emenda só corrige gramática ou melhora clareza e objetividade.
+- **Súmula cancelada:** número fica vago; **Súmula modificada:** mantém o número.
+- **Comissão atual:** não use a composição antiga da Resolução nº 282/2017 para responder pergunta sobre os arts. 22 a 27 do Regimento.
+- **15 dias úteis:** é o prazo para ouvir o Conselheiro reclamado no fluxo do art. 26, § 1º.
+- **Regra temporária de 2024:** já estava exaurida na publicação do edital de 2026.
+- **Remissão a artigo revogado:** o texto pode conservar referências antigas aos arts. 310/311; não recrie dispositivo revogado por interpretação.
 
 ## Referências
 
-- Tribunal de Contas do Estado do Maranhão. [Competências do TCE/MA](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias). Acesso em 27 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Sistemas externos: e-Consulta e prejulgados](https://www.tcema.tc.br/index.php/sistemas-externos). Acesso em 27 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Portal de Compliance e Integridade: normas e políticas](https://www.tcema.tc.br/index.php/portal-integridade-normas-e-politicas). Acesso em 27 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Corregedoria](https://www.tcema.tc.br/index.php/institucional/corregedoria). Acesso em 27 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [TCE promove alterações no Regimento Interno](https://www.tcema.tc.br/index.php/noticias/1286-tce-promove-alteracoes-no-regimento-interno). Notícia de 19 abr. 2017. Acesso em 27 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [TCE aprova Resolução que institui Programa de Compliance e Integridade](https://www.tcema.tc.br/index.php/noticias/3109-tce-aprova-resolucao-que-institui-programa-de-compliance-e-integridade). Notícia de 30 abr. 2025. Acesso em 27 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Corregedoria publica recomendações para período eleitoral](https://www.tcema.tc.br/index.php/noticias/3380-corregedoria-do-tce-publica-conjunto-de-recomendacoes-para-servidores-e-membros-com-vistas-ao-periodo-eleitoral). Notícia sobre a Recomendação nº 01/2026-COREG/TCE-MA. Acesso em 27 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Diário Oficial Eletrônico, edição nº 998/2017](https://diario.apps.tcema.tc.br/publicacao/pdf/7419), 30 ago. 2017: Resoluções nº 282/2017 e nº 283/2017, Código de Ética dos membros e Código de Ética dos servidores; Processo nº 7691/2017-TCE/MA; Resolução nº 276/2017; Instrução Normativa nº 50/2017. Acesso em 27 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Diário Oficial Eletrônico, edição nº 2918/2025](https://diario.apps.tcema.tc.br/publicacao/pdf/9403), 10 dez. 2025: Resolução TCE/MA nº 432/2025, Política de Gestão de Riscos. Acesso em 27 jul. 2026.
+- Tribunal de Contas do Estado do Maranhão. **Regimento Interno**, aprovado pela Resolução Administrativa nº 001, de 21 de janeiro de 2000, com alterações posteriores. Consulta no serviço oficial de legislação do TCE/MA.
+- Tribunal de Contas do Estado do Maranhão. [Competências do TCE/MA](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias). Art. 1º, XXIV, da Lei Estadual nº 8.258/2005: competência para elaborar e alterar o Regimento Interno. Acesso em 12 ago. 2026.
+- Tribunal de Contas do Estado do Maranhão. [TCE promove alterações no Regimento Interno](https://www.tcema.tc.br/index.php/noticias/1286-tce-promove-alteracoes-no-regimento-interno). Notícia de 19 abr. 2017 sobre a alteração promovida pela Resolução TCE/MA nº 268/2017. Acesso em 12 ago. 2026.
+- Tribunal de Contas do Estado do Maranhão. [Diário Oficial Eletrônico, edição nº 2446/2023](https://app.tcema.tc.br/diario/publicacao/pdf/8916), 7 dez. 2023. Resolução TCE/MA nº 391/2023, que alterou os arts. 9º, 16, 22, 22-A, 22-B, 25, 26 e 27 do Regimento. Acesso em 12 ago. 2026.
