@@ -2,292 +2,208 @@
 
 ## Regra-matriz
 
-Art. 5º, XXXV, da CF: a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.
+**CF, art. 5º, XXXV → Brasil = jurisdição una.**
 
-**Brasil = jurisdição una.**
+Lesão ou ameaça a direito pode chegar ao Judiciário.
 
-Processo administrativo existe e produz efeitos, mas não cria ordem jurisdicional administrativa imune ao Judiciário.
+Processo administrativo existe e produz efeitos; não cria jurisdição administrativa imune ao controle judicial.
 
-## Sistemas
+## Francês × brasileiro
 
-| Modelo | Traço central |
+| Sistema | Palavra-chave |
 | --- | --- |
-| francês/dual | jurisdição administrativa separada da jurisdição comum |
-| inglês/uno | lesões envolvendo a Administração podem chegar ao Judiciário |
-| brasileiro | unidade de jurisdição pelo art. 5º, XXXV |
+| francês clássico | **dualidade**: jurisdição administrativa + jurisdição comum |
+| brasileiro | **unidade**: decisão administrativa pode ser submetida ao Judiciário |
 
-Unidade não significa:
+`contencioso administrativo` no sentido técnico ≠ mero recurso hierárquico.
 
-- um único juízo;
-- ausência de ramos especializados;
-- inexistência de processos administrativos;
-- proibição de órgãos administrativos julgadores.
+## Decisão administrativa
 
-## Função judicante administrativa
-
-- Comissão de PAD, conselho fiscal, agência e tribunal de contas podem decidir.
-- Órgão chamado “tribunal” não integra automaticamente o Judiciário.
-- Decisão administrativa pode ser obrigatória e eficaz.
-- Lesão ou ameaça permanece judicialmente apreciável.
-
-## Coisa julgada administrativa
-
-- Definitividade interna.
-- Não equivale à coisa julgada judicial material.
-- Encerra recursos administrativos ordinários cabíveis.
-- Não impede controle judicial.
-- Não autoriza revisão administrativa eterna: decadência, boa-fé, contraditório e segurança jurídica limitam a autotutela.
+- pode ser obrigatória e definitiva internamente;
+- **não** produz coisa julgada judicial;
+- “coisa julgada administrativa” = definitividade interna;
+- tribunal de contas decide, mas **não integra o Judiciário**.
 
 ## Autotutela × Judiciário
 
-| Atuação | Administração | Judiciário |
+| Situação | Administração | Judiciário |
 | --- | --- | --- |
-| anular ato ilegal | sim | sim, no caso submetido |
-| revogar ato válido por conveniência | sim | não |
-| controlar juridicidade | sim | sim |
+| ato ilegal | **anula** | **anula**, no caso submetido |
+| ato válido inconveniente | **revoga** | não revoga por preferência |
+| juridicidade | controla | controla |
 
-Súmula 346/STF: Administração declara nulidade dos próprios atos.
+**Anular = ilegalidade. Revogar = mérito de ato válido.**
 
-Súmula 473/STF: anula ilegalidade, revoga por conveniência/oportunidade, respeita direitos adquiridos e controle judicial.
+## Requerimento × exaurimento
 
-## Acesso ao Judiciário
+| Conceito | Significado |
+| --- | --- |
+| requerimento prévio | provocação inicial |
+| exaurimento | percorrer todas as instâncias administrativas |
 
-Inafastabilidade não elimina:
+**Não há exaurimento administrativo geral no Brasil.**
 
-- competência;
-- legitimidade;
-- interesse processual;
-- adequação da via;
-- prazo;
-- prova.
+### Tema 350/STF
 
-### Não confunda
+Concessão inicial de benefício previdenciário:
 
-**Requerimento prévio:** provocação inicial da Administração.
+- requerimento ao INSS → regra;
+- recursos até a última instância → **não exigidos**;
+- posição administrativa notória e reiteradamente contrária → pode dispensar requerimento.
 
-**Exaurimento:** uso de todas as instâncias e recursos administrativos.
-
-Não há exigência geral de exaurimento no Brasil.
-
-## Tema 350/STF
-
-Recorte: concessão inicial de benefício previdenciário.
-
-- Regra: requerimento inicial ao INSS.
-- Não exige exaurimento de recursos.
-- Dispensa se houver posição notória e reiteradamente contrária.
-- Revisão/restabelecimento: lesão normalmente já existe.
-- Fato novo não submetido pode exigir provocação.
-
-Tema 350 não cria requisito prévio para toda ação contra o Estado.
+Tema 350 ≠ requisito universal para toda ação contra o Estado.
 
 ## Condicionamentos específicos
 
 ### Justiça Desportiva
 
-- CF, art. 217, §§ 1º e 2º.
-- Exaure instâncias apenas em disciplina e competições desportivas.
-- Decisão final em até 60 dias da instauração.
-- Não integra o Judiciário.
-- Depois do condicionamento, cabe controle judicial.
+- disciplina + competições desportivas;
+- exige esgotamento;
+- decisão final em até **60 dias**;
+- não integra o Judiciário.
 
 ### Habeas data
 
-- Dados pessoais do impetrante.
-- Exige recusa ou decurso do prazo.
-- Acesso: mais de 10 dias sem decisão.
-- Retificação/anotação: mais de 15 dias.
+Resistência administrativa:
+
+- acesso: mais de **10 dias** sem decisão;
+- retificação/anotação: mais de **15 dias**;
 - Súmula 2/STJ: sem recusa, não cabe.
 
 ### Mandado de segurança
 
-Não cabe contra ato com recurso administrativo de efeito suspensivo, independentemente de caução.
-
-É limite específico do MS, não exaurimento geral.
+Recurso administrativo com **efeito suspensivo**, independentemente de caução → MS não cabe enquanto incidir a regra legal específica.
 
 ## Juridicidade
 
-Controle alcança:
+Controlável:
 
-- Constituição;
-- leis e regulamentos válidos;
-- princípios;
-- direitos fundamentais;
-- competência, forma e processo;
-- motivo e finalidade;
-- impessoalidade e moralidade;
-- razoabilidade e proporcionalidade.
+- competência;
+- forma/processo;
+- fatos e motivo;
+- motivação;
+- finalidade;
+- igualdade/impessoalidade;
+- razoabilidade/proporcionalidade;
+- direitos fundamentais.
 
-## Motivo e motivação
+## Motivo × motivação
 
-**Motivo:** pressuposto de fato e de direito.
+**Motivo** = pressuposto de fato + de direito.
 
-**Motivação:** exposição das razões.
+**Motivação** = razões exteriorizadas.
 
-**Motivos determinantes:** motivos declarados devem existir, ser verdadeiros e adequados.
+**Motivos determinantes** = motivo declarado deve existir e ser verdadeiro.
 
 ## Discricionariedade
 
-Não é arbitrariedade.
+**Margem entre alternativas juridicamente válidas.**
 
-Judiciário pode controlar:
+Judiciário pode controlar juridicidade, mas não trocar escolha válida por preferência própria.
 
-- fatos;
-- competência;
-- processo;
-- finalidade;
-- motivos;
-- proporcionalidade;
-- direitos fundamentais.
+### Fórmula
 
-Judiciário não pode:
+`vício jurídico → controle`  
+`mera discordância de conveniência → não substitui`
 
-- revogar ato válido;
-- escolher opção apenas por preferência;
-- refazer avaliação técnica sem vício jurídico;
-- administrar no lugar da autoridade como regra.
+### Solução única
 
-## Mérito administrativo
+Se lei + fatos deixam **uma única consequência válida**, o juiz pode reconhecer diretamente o direito.
 
-Espaço legítimo de conveniência e oportunidade entre alternativas válidas.
+Se restam opções válidas → preserva-se a escolha administrativa.
 
-Não é zona livre do Direito.
+## Técnica
 
-Solução jurídica única ou ato vinculado pode permitir reconhecimento direto do direito.
+Complexidade técnica ≠ imunidade.
 
-## Conceitos indeterminados
+Erro demonstrado, incoerência ou violação normativa → controláveis.
 
-Urgência, risco grave e interesse público exigem concretização.
+Opção técnica razoável + juridicamente válida → não trocar por preferência judicial.
 
-Controle: fatos + coerência + finalidade + igualdade + proporcionalidade.
+## Tema 1420/STF
 
-## Anulação × revogação
+Heteroidentificação em concurso:
 
-| Anulação | Revogação |
-| --- | --- |
-| ilegalidade | conveniência/oportunidade |
-| Administração ou Judiciário | Administração competente |
-| atinge ato inválido | atinge ato válido |
+1. Judiciário pode controlar o ato para garantir **contraditório + ampla defesa**;
+2. adequação dos critérios/fundamentos da exclusão é questão fática ligada ao edital.
+
+**Controle judicial ≠ substituição automática da comissão.**
 
 ## Tema 698/STF
 
-Política pública + direito fundamental + ausência/deficiência grave:
+Direito fundamental + ausência/deficiência grave de serviço:
 
-1. intervenção judicial não viola separação dos Poderes;
-2. regra: fixar finalidade/resultado;
-3. Administração apresenta plano e/ou meios adequados;
-4. em saúde, déficit pode ser suprido por concurso ou alternativas legítimas.
-
-Evite extremos:
-
-- não há imunidade da omissão grave;
-- não há microgestão judicial automática.
-
-Urgência, dever preciso, solução única ou inércia persistente podem elevar a intensidade.
+- intervenção judicial pode ocorrer;
+- como regra, juiz fixa **resultado/finalidade**;
+- Administração apresenta **plano/meios**;
+- sem imunidade da omissão e sem microgestão automática.
 
 ## PAD
 
 ### SV 5/STF
 
-Ausência de advogado não invalida automaticamente o PAD.
+Sem advogado no PAD ≠ nulidade constitucional automática.
 
-Continuam obrigatórios contraditório, ampla defesa, ciência, prova e motivação.
+Ainda exige contraditório, ampla defesa e decisão motivada.
 
 ### Súmula 665/STJ
 
-Regra: regularidade do procedimento + legalidade do ato.
+Controle do PAD:
 
-Sem incursão ordinária no mérito, salvo:
+- regularidade do procedimento;
+- legalidade do ato;
+- sem reexame ordinário do mérito.
+
+Exceções qualificadas:
 
 - flagrante ilegalidade;
 - teratologia;
 - manifesta desproporcionalidade.
 
-Não é súmula vinculante.
+## LINDB — matriz mínima
 
-## LINDB, arts. 20 a 24
-
-| Artigo | Comando-chave |
+| Art. | Palavra-chave |
 | --- | --- |
-| 20 | considerar consequências; justificar necessidade e adequação |
-| 21 | invalidar indicando efeitos e eventual regularização |
-| 22 | considerar dificuldades reais sem apagar direitos |
-| 23 | transição para nova orientação que imponha novo dever |
-| 24 | respeitar orientações gerais da época na revisão |
+| 20 | consequências + necessidade/adequação |
+| 21 | efeitos da invalidação + regularização |
+| 22 | dificuldades reais da gestão |
+| 23 | transição |
+| 24 | orientação da época |
 
-LINDB qualifica a decisão; não blinda ilegalidade, fraude ou má-fé.
+LINDB melhora a decisão; **não blinda ilegalidade**.
 
-## Instrumentos
+## Instrumentos — uma linha
 
-| Instrumento | Núcleo | Pegadinha |
-| --- | --- | --- |
-| MS | direito líquido e certo | prova pré-constituída; 120 dias |
-| ação popular | ato lesivo | autor é cidadão |
-| ACP | tutela coletiva | legitimados legais; cidadão isolado não propõe só por ser cidadão |
-| habeas data | dados pessoais | resistência administrativa |
-| mandado de injunção | omissão normativa | não corrige mero descumprimento de norma suficiente |
-| habeas corpus | locomoção | não protege pretensão só patrimonial |
-| ação comum | declaração, anulação, obrigação, reparação | admite instrução ampla |
+| Instrumento | Núcleo |
+| --- | --- |
+| MS | direito líquido e certo + prova pré-constituída + 120 dias |
+| ação popular | cidadão + ato lesivo |
+| ACP | tutela coletiva + legitimados legais |
+| habeas data | dados pessoais + resistência |
+| MI | omissão normativa constitucional |
+| HC | liberdade de locomoção |
+| ação comum | instrução ampla quando necessária |
 
-## Mandado de segurança
+## Fluxo de prova
 
-- Direito líquido e certo.
-- Ilegalidade ou abuso de poder.
-- Residual a HC e HD.
-- Prova pré-constituída.
-- Prazo decadencial: 120 dias da ciência.
-- Não substitui cobrança de parcelas pretéritas.
+1. `administrativo ou judicial?`
+2. `requerimento ou exaurimento?`
+3. `há exceção específica?`
+4. `juridicidade ou conveniência?`
+5. `anulação ou revogação?`
+6. `solução única ou margem válida?`
+7. `resultado devido ou microgestão?`
+8. `via, legitimidade e prova corretas?`
 
-## Ação popular
+## Pegadinhas
 
-Autor: cidadão em gozo de direitos políticos.
-
-Protege:
-
-- patrimônio público;
-- moralidade administrativa;
-- meio ambiente;
-- patrimônio histórico-cultural.
-
-## ACP
-
-Legitimados incluem MP, Defensoria, entes, entidades públicas e associações qualificadas.
-
-Particular pode provocar legitimado, mas não ajuíza ACP só por ser cidadão.
-
-## Habeas data
-
-Serve para:
-
-1. conhecer dado pessoal;
-2. retificar;
-3. anotar explicação ou contestação.
-
-Não é LAI universal.
-
-## Mandado de injunção
-
-Omissão total ou parcial de norma regulamentadora inviabiliza direito ou liberdade constitucional, ou prerrogativa inerente à nacionalidade, à soberania ou à cidadania.
-
-## Efeitos do controle
-
-- declaração;
-- anulação;
-- obrigação de fazer/não fazer;
-- tutela provisória;
-- repetição do procedimento;
-- reparação, se houver pressupostos;
-- medidas de cumprimento.
-
-Invalidade não gera indenização automática.
-
-## Sequência de prova
-
-1. Decisão administrativa ou judicial?
-2. Requerimento ou exaurimento?
-3. Existe condicionamento específico?
-4. Anulação ou revogação?
-5. Qual parâmetro foi violado?
-6. Ordem fixa resultado ou escolhe conveniência?
-7. Instrumento, legitimidade, prova e prazo corretos?
-8. Consequências e segurança jurídica foram consideradas?
+- Jurisdição una não significa um único juiz.
+- Órgão administrativo chamado “tribunal” não vira Poder Judiciário.
+- Coisa julgada administrativa ≠ coisa julgada judicial.
+- Requerimento prévio ≠ exaurimento.
+- Tema 350 é previdenciário, não universal.
+- Mérito não blinda fato falso, desvio de finalidade ou desproporção.
+- Judiciário não revoga ato válido por conveniência.
+- Tema 1420: heteroidentificação é controlável para garantir contraditório/ampla defesa.
+- Tema 698: resultado + plano é a técnica preferencial.
+- SV 5 não elimina defesa efetiva.
