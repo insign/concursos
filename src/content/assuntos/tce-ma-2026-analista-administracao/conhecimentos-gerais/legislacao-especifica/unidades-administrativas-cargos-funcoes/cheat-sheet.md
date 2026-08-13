@@ -181,11 +181,13 @@ $$
 
 | Hipótese do caput | Valor | Quantidade |
 |---|---:|---:|
-| 1 por GCONS/GCSUB/GPROC | até R$ 4.000 | 14 |
+| 1 por GCONS/GCSUB/GPROC | até R$ 8.000 | 14 |
 | nível superior | até R$ 2.500 | 26 |
 | nível médio | até R$ 1.600 | 86 |
 | nível fundamental | até R$ 1.350 | 26 |
 
+- **Inciso I:** até R$ 8.000 desde a Lei nº 12.499/2025; a Lei nº 12.822/2026 alterou os incisos II–IV, não o I.
+- **Não confunda:** o § 5º continua limitado a até R$ 4.000 para a hipótese específica de nomeado sem vínculo em GCONS.
 - Discricionária: “poderá, a critério do Presidente”.
 - Limite de cedidos: quantitativos dos incisos I a IV.
 - Cedido não pratica atos processuais próprios do controle externo.

@@ -28,7 +28,8 @@ As fontes possuem funções diferentes:
 | Lei nº 9.936/2013 | organiza o TCE/MA e estabelece cargos, requisitos, gratificações e anexos |
 | Lei nº 11.170/2019 | reorganiza a Secretaria e fixa atribuições dos cargos que a integram |
 | Resolução TCE/MA nº 408/2024 | distribui competências e detalha as unidades administrativas |
-| Lei nº 12.822/2026 | atualiza a estrutura, a GACE e substitui integralmente os Anexos II e III |
+| Lei nº 12.499/2025 | altera requisitos de dirigentes, GACE e programa de produtividade |
+| Lei nº 12.822/2026 | atualiza a estrutura, parte da GACE e substitui integralmente os Anexos II e III |
 | Lei nº 11.134/2019 e Resolução nº 438/2026 | disciplinam o quadro efetivo e o dimensionamento atual das carreiras |
 
 > **Regra de prova:** lei cria ou altera a estrutura jurídica, os cargos, os quantitativos e os valores. Resolução regulamenta competências e funcionamento. Um ato regulamentar de 2024 não pode impedir a incidência de uma lei de 2026.
@@ -338,10 +339,12 @@ A GACE do caput do art. 21 destina-se a servidor efetivo de outro ente colocado 
 
 | Hipótese | Teto individual | Limite quantitativo |
 |---|---:|---:|
-| lotado em Gabinete de Conselheiro, Conselheiro-Substituto ou Procurador de Contas | R$ 4.000,00 | 14, um por gabinete |
+| lotado em Gabinete de Conselheiro, Conselheiro-Substituto ou Procurador de Contas | R$ 8.000,00 | 14, um por gabinete |
 | nível superior | R$ 2.500,00 | 26 |
 | nível médio | R$ 1.600,00 | 86 |
 | nível fundamental | R$ 1.350,00 | 26 |
+
+O inciso I está em **R$ 8.000,00** desde a Lei nº 12.499/2025. A Lei nº 12.822/2026 alterou os valores dos incisos II, III e IV, sem reduzir o inciso I. Não confunda esse teto com o § 5º, que continua prevendo **até R$ 4.000,00** para a hipótese específica de nomeado sem vínculo em Gabinete de Conselheiro.
 
 Regras complementares:
 
@@ -600,6 +603,7 @@ O Analista de Apoio exerce atividades de nível superior relacionadas ao apoio t
 - A Tabela A totaliza 271 cargos em comissão.
 - A Tabela B não informa quantidades; relaciona símbolos e valores para o art. 16.
 - A Lei nº 12.822 preservou as atribuições da Lei nº 11.170 mesmo quando mudou denominações e símbolos.
+- Na GACE, o inciso I é **R$ 8.000**, enquanto o § 5º permanece em **até R$ 4.000**; são hipóteses diferentes.
 - A GACE é discricionária nos casos legais; não é automática.
 - O Anexo III contém oito oficiais e 21 praças no total, não por linha.
 - O novo art. 26 menciona Auditor e Técnico, não Auxiliar.
@@ -608,7 +612,7 @@ O Analista de Apoio exerce atividades de nível superior relacionadas ao apoio t
 ## 20. Roteiro de resolução
 
 1. Identifique se a questão trata de estrutura, cargo efetivo, cargo em comissão ou função de confiança.
-2. Verifique a data da fonte e aplique a Lei nº 12.822/2026 ao corte vigente.
+2. Verifique a data da fonte e aplique a Lei nº 12.822/2026 ao corte vigente, sem apagar alterações anteriores que ela não modificou.
 3. Classifique a unidade entre apoio à autoridade, unidade básica ou apoio estratégico.
 4. Localize o vínculo hierárquico e a finalidade da unidade.
 5. Nos cargos, confira se a ocupação é exclusiva, preferencial ou sujeita a formação específica.
@@ -620,7 +624,7 @@ O Analista de Apoio exerce atividades de nível superior relacionadas ao apoio t
 
 ## 21. Referências
 
-- Tribunal de Contas do Estado do Maranhão. [Lei nº 9.936/2013 atualizada](https://app.tcema.tc.br/publicacao/#/documentohtml/617). Organização administrativa, requisitos e gratificações; acesso em 28 jul. 2026.
+- Tribunal de Contas do Estado do Maranhão. [Lei nº 9.936/2013 atualizada](https://app.tcema.tc.br/publicacao/#/documentohtml/617). Organização administrativa, requisitos e gratificações; acesso em 13 ago. 2026.
 - Tribunal de Contas do Estado do Maranhão. [Lei nº 11.170/2019 compilada](https://app.tcema.tc.br/publicacao/#/documentohtml/911?compilado=true). Reorganização e atribuições dos cargos da Secretaria; acesso em 28 jul. 2026.
 - Tribunal de Contas do Estado do Maranhão. [Resolução TCE/MA nº 408/2024 compilada](https://app.tcema.tc.br/publicacao/#/documentohtml/23831). Competências e estrutura administrativa; acesso em 28 jul. 2026.
 - Tribunal de Contas do Estado do Maranhão. [Publicação oficial da Resolução nº 408/2024](https://diario.apps.tcema.tc.br/publicacao/pdf/9130). Diário Oficial Eletrônico, edição nº 2647/2024; acesso em 28 jul. 2026.
