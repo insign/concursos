@@ -1,175 +1,253 @@
 # Lei Orgânica do TCE/MA: organização, membros e MPC
 
+## Corte
+
+**Edital: 6/7/2026.**
+
+Inclui a **EC 139/2026**: Tribunais de Contas são **instituições permanentes e essenciais ao exercício do controle externo**.
+
 ## Estrutura
 
-- Sede: capital do Estado.
-- Composição: sete Conselheiros titulares.
-- Conselheiros-Substitutos: três.
-- Plenário: dirigido pelo Presidente.
-- Câmaras: criação por maioria absoluta dos Conselheiros titulares.
-- Matéria privativa do Plenário não vai para Câmara.
-- Secretaria: apoio técnico e execução administrativa.
-- MPC: instituição ministerial junto ao Tribunal, não unidade da Secretaria.
+| Figura | Memorize |
+| --- | --- |
+| Conselheiros titulares | **7** |
+| Conselheiros-Substitutos | **3** |
+| MPC | **4 Procuradores de Contas** |
+| sede | capital do Estado |
+| Secretaria | apoio técnico/administrativo |
+| MPC | instituição ministerial junto ao TCE, com independência funcional |
 
-## Escolha dos Sete Conselheiros
+**7 + 3 ≠ 10 titulares.**
 
-| Origem | Quantidade | Regra |
+## Câmaras
+
+- divisão em Câmaras → **maioria absoluta dos Conselheiros titulares**;
+- matéria privativa do Plenário → **não vai para Câmara**;
+- desenho operacional → Regimento.
+
+## Escolha dos Conselheiros
+
+| Origem | Vagas | Regra |
 | --- | ---: | --- |
 | Assembleia Legislativa | 4 | escolha legislativa |
-| Governador | 3 | aprovação da Assembleia; uma livre e duas alternadas entre Auditor e MPC por lista tríplice |
+| Governador | 3 | aprovação da Assembleia |
+| dentro das 3 do Governador | 1 | livre escolha |
+| dentro das 3 do Governador | 2 | alternância entre Substituto e MPC + lista tríplice |
 
-- Vacância deve preservar a composição.
-- Lista tríplice de Auditor/MPC é deliberada pelo Plenário.
+Lista tríplice → **antiguidade + merecimento**.
 
-## Requisitos do Conselheiro Titular
+Vacância → mantém a **origem constitucional da vaga**.
 
-- Brasileiro.
-- Mais de 35 e menos de 70 anos.
-- Idoneidade moral e reputação ilibada.
-- Notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública.
-- Mais de dez anos de função ou atividade profissional pertinente.
-- Art. 91 ainda mostra 65; prevalece a Constituição atualizada pela EC estadual nº 96/2024.
+## Requisitos do Conselheiro
 
-## Conselheiros
+- brasileiro;
+- **>35 e <70 anos**;
+- idoneidade moral + reputação ilibada;
+- notórios conhecimentos jurídicos, contábeis, econômicos e financeiros **ou** de administração pública;
+- **mais de 10 anos** de função/atividade profissional pertinente.
 
-- Garantias, prerrogativas, impedimentos, vencimentos e vantagens de Desembargador do TJ.
-- Aposentadoria por ato do Governador.
-- Antiguidade: posse, nomeação, idade.
-- Posse: 30 dias, prorrogáveis por até 60 mediante solicitação escrita.
-- Vedados atividade político-partidária, profissão liberal, comércio, função incompatível e atuação em causa de interesse próprio/familiar.
-- Parentes até terceiro grau não ocupam simultaneamente cargos de Conselheiro.
+⚠️ Limite antigo de 65 anos está superado pela **EC estadual 96/2024**.
+
+## Conselheiro — regras rápidas
+
+- garantias/prerrogativas/impedimentos equivalentes aos de Desembargador;
+- isso **não** transforma TCE em Judiciário;
+- outro cargo/função → vedado, **salvo magistério**;
+- atividade político-partidária → vedada;
+- parentes até **3º grau**, linha reta ou colateral, consanguinidade/afinidade → não ocupam simultaneamente;
+- antiguidade → **posse → nomeação → idade**;
+- posse/exercício → **30 dias**, prorrogáveis por até **60**, mediante pedido escrito.
 
 ## Conselheiros-Substitutos
 
-- A Lei usa `Auditor`; denominação atual: Conselheiro-Substituto.
-- Três cargos.
-- Concurso público de provas e títulos realizado e homologado pelo Tribunal.
-- Nomeação pelo Governador conforme classificação.
-- Convocação: antiguidade; empate, maior idade.
-- Substituem ausentes, completam quórum e ocupam provisoriamente vaga até provimento.
-- Em substituição: direitos e impedimentos do titular.
-- Nas funções próprias: regime de Juiz de Direito de entrância final.
-- Sem convocação: instrui e relata com proposta de decisão.
-- Perda do cargo: sentença judicial transitada em julgado.
-- Idade: página e art. 91 ainda apontam 65; extensão do limite de 70 não foi harmonizada expressamente. Não inferir.
+**3 Auditores = Conselheiros-Substitutos.**
+
+Ingresso:
+**concurso de provas e títulos → homologação pelo TCE → ordem de classificação → nomeação pelo Governador**
+
+### Idade
+
+Art. 102 exige os **requisitos do Conselheiro**.
+
+Logo, no corte vigente: **>35 e <70 anos**.
+
+⚠️ Página/compilação com 65 anos = desatualizada.
+
+### Convocação
+
+1. antiguidade no cargo;
+2. maior idade, se empate.
+
+Também:
+- completam quórum;
+- em vaga de titular → exercem funções até novo provimento.
+
+### Regime
+
+| Situação | Regime |
+| --- | --- |
+| substituindo Conselheiro | direitos e impedimentos do titular |
+| demais atribuições da judicatura | garantias/impedimentos de Juiz de Direito de última entrância |
+| sem convocação | instrui e relata com **proposta de decisão** |
+
+**Proposta de decisão ≠ decisão colegiada definitiva.**
 
 ## Direção
 
-- Presidente, Vice-Presidente e Corregedor: eleitos pelos pares.
-- Mandato: dois anos civis.
-- Reeleição: uma vez.
-- Eleição: escrutínio secreto, última sessão ordinária de dezembro.
-- Vaga eventual: eleição até a segunda sessão ordinária.
-- Quórum: ao menos quatro Conselheiros.
-- Só titulares votam, mesmo afastados legalmente.
-- Vaga nos últimos 60 dias: sem nova eleição.
-- Vacância da Presidência: Vice-Presidente sucede.
-- Ausência do Presidente: Vice; sem Vice, Conselheiro mais antigo em exercício.
-- Ausência do Corregedor: Conselheiro mais antigo em exercício.
+Presidente + Vice + Corregedor:
 
-## Presidência
+- eleição pelos pares;
+- **2 anos civis**;
+- **1 reeleição**;
+- escrutínio **secreto**;
+- última sessão ordinária de dezembro;
+- quórum: **4 Conselheiros**, incluído quem preside;
+- votam apenas titulares, inclusive legalmente afastados.
 
-- Dirige trabalhos, ordem e disciplina.
-- Representa o Tribunal.
-- Zela por prerrogativas e cumprimento da Lei/Regimento.
-- Submete propostas legislativas ao Plenário.
-- Dá posse a membros e dirigentes.
-- Expede atos funcionais.
-- Administra orçamento, finanças e patrimônio.
-- Publica Relatório de Gestão Fiscal.
-- Assina cooperação e expede certidões.
-- Não cria cargos nem fixa remuneração sozinho: o Tribunal propõe à Assembleia.
+Sem maioria:
+**2 mais votados → novo escrutínio → persistindo, antiguidade.**
+
+### Vacância
+
+- nos últimos **60 dias** do mandato → sem nova eleição;
+- Presidente vago → Vice sucede;
+- ausência Presidente → Vice → Conselheiro mais antigo em exercício;
+- ausência Corregedor → Conselheiro mais antigo em exercício.
+
+## Presidente
+
+Pode:
+- dirigir e representar;
+- dar posse;
+- expedir atos funcionais;
+- administrar orçamento, finanças e patrimônio;
+- publicar RGF;
+- firmar cooperação.
+
+Não pode sozinho:
+- criar cargos;
+- transformar/extinguir cargos;
+- fixar remuneração.
+
+Essas matérias → **proposta legislativa à Assembleia**.
 
 ## Corregedoria
 
-- Inspeção e correição.
-- Ordem e disciplina internas.
-- Cargo privativo de Conselheiro efetivo, segundo página institucional.
-- PAD e sindicância de servidor: competência concorrente com Presidente.
-- Processo contra membro: proposta ao Pleno em sessão reservada; maioria absoluta.
-- Relata procedimentos de servidores e sindicâncias de membros.
-- Designa comissões processantes.
-- Relata recursos administrativos contra atos do Presidente.
-- Relatório anual: até a segunda sessão do ano seguinte.
-- Não confundir governança interna com controle externo de jurisdicionados.
+**Núcleo: inspeção + correição + disciplina + governança interna.**
+
+- PAD/sindicância de servidor → Corregedor **concorrentemente com Presidente**;
+- procedimento contra membro → proposta ao Pleno, **sessão extraordinária reservada + maioria absoluta**;
+- relata procedimentos disciplinares;
+- designa comissões processantes;
+- relata recursos administrativos contra atos do Presidente;
+- relatório da Corregedoria → até a **2ª sessão do ano subsequente**.
+
+**Corregedoria ≠ controle externo de jurisdicionados.**
 
 ## Ouvidoria
 
-- Melhoria da gestão e defesa de princípios administrativos.
-- Ouvidor: Conselheiro eleito na sessão da eleição presidencial.
-- Mandato de dois anos; uma reeleição.
-- Não julga processos e não é MPC.
+- melhoria da gestão + princípios administrativos;
+- Ouvidor = Conselheiro eleito pelo Plenário;
+- mesma sessão da eleição presidencial;
+- **2 anos**, **1 reeleição**;
+- não julga processos.
 
-## Ministério Público de Contas
+## MPC
 
-- Essencial à função de controle externo.
-- Princípios: unidade, indivisibilidade e independência funcional.
-- Composição legal: quatro Procuradores de Contas.
-- Página com três nomes não reduz a composição da lei.
-- Ingresso: concurso de provas e títulos com participação da OAB.
-- Requisitos: bacharel em Direito e três anos de atividade jurídica.
+### Natureza
+
+**essencial à função de controle externo**
+
+Princípios:
+**unidade + indivisibilidade + independência funcional**
+
+### Composição
+
+**4 Procuradores de Contas**
+
+Ingresso:
+- concurso de provas e títulos;
+- OAB participa;
+- bacharel em Direito;
+- **3 anos de atividade jurídica**;
+- ordem de classificação.
 
 ## Procurador-Geral
 
-- Chefe do MPC.
-- Lista tríplice formada pelos Procuradores entre integrantes da carreira.
-- Nomeação pelo Governador em 15 dias.
-- Mandato de dois anos; uma recondução.
-- Posse em sessão extraordinária ou perante o Presidente no recesso.
-- Substituição: Procurador-Geral substituto; depois, posse, nomeação e classificação no concurso.
-- Ato interno define substituição, Corregedoria do MPC e coordenação de execução de acórdãos.
+**lista tríplice da carreira → Governador → 15 dias → mandato 2 anos → 1 recondução**
+
+Substituição:
+1. Procurador-Geral substituto;
+2. antiguidade da **posse**;
+3. **nomeação**;
+4. **classificação no concurso**.
 
 ## Funções do MPC
 
-- Guarda da lei e fiscal de sua execução.
-- Defesa da ordem jurídica, Administração e erário.
-- Comparecimento às sessões.
-- Manifestação oral ou escrita.
-- Recursos permitidos em lei.
-- Promoção de cobrança/execução perante órgãos competentes.
-- Acionamento do Ministério Público competente.
-- Parecer com preliminar também enfrenta o mérito.
-- Audiência obrigatória nas hipóteses do art. 110; exceção recursal: embargos de declaração.
-- Aplicação direta aos membros: impedimento do art. 96, VIII, e prazo de posse/exercício do art. 99.
-- Procurador-Geral define atribuições e disciplina os serviços internos por instruções.
-- Lei Orgânica do MP Estadual aplica-se subsidiariamente no que couber.
-- Art. 114 estende aos membros, nas condições legais, verbas e vantagens referidas no art. 148.
-- Secretaria presta apoio administrativo sem eliminar independência funcional.
+- guarda da lei;
+- defesa da ordem jurídica, Administração e erário;
+- comparece às sessões;
+- manifesta-se oralmente/escrito;
+- interpõe recursos;
+- promove cobrança/execução;
+- aciona MP competente.
+
+### Audiência obrigatória
+
+Entre outros:
+- tomada/prestação de contas;
+- admissão;
+- aposentadoria, reforma e pensão;
+- uniformização de jurisprudência;
+- recursos.
+
+**Exceção recursal: embargos de declaração.**
+
+Preliminar no parecer → MPC também enfrenta **mérito**.
+
+Cobrança/execução + acionamento de outro MP:
+**Procurador-Geral**, com possibilidade de **delegação**.
+
+## Concurso do MPC — pegadinha
+
+| Situação | Quem baixa edital e homologa? |
+| --- | --- |
+| Procurador-Geral em exercício | **Procurador-Geral** — art. 106, §5º |
+| vacância do Procurador-Geral | **Presidente do TCE** — art. 150 |
+
+⚠️ O art. 150 ainda remete ao antigo **§3º**; após 2021, concurso está no §1º e regra geral no §5º.
 
 ## Autonomia
 
-- Poder regulamentar limitado à competência e jurisdição.
-- Pode expedir atos sobre matéria, prazo, forma e conteúdo dos processos.
-- Regimento: aprovação/alteração por maioria absoluta dos Conselheiros.
-- Organiza Secretaria e provê cargos existentes.
-- Propõe cargos, funções e remuneração à Assembleia.
-- Administra dotações e patrimônio.
-- Poder regulamentar não é poder legislativo ilimitado.
+- Regimento → aprova/altera por **maioria absoluta dos Conselheiros**;
+- organiza Secretaria e provê cargos existentes;
+- cargos/funções/remuneração → propõe à Assembleia;
+- administra dotações e patrimônio;
+- cooperação não transfere jurisdição.
 
-## Regras Finais
+## Recesso e regras finais
 
-- Recesso: 21 de dezembro a 4 de janeiro.
-- Secretaria continua funcionando.
-- Prazos das partes não se suspendem automaticamente pelo recesso.
-- Relatório trimestral à Assembleia: até 60 dias.
-- Relatório anual: até 90 dias.
-- Diário Oficial Eletrônico do TCE/MA divulga atos.
-- Falha do diário eletrônico: publicação no DOE vale; republicação eletrônica posterior.
-- Cooperação preserva competência e jurisdição de cada participante.
-- Sessão ordinária é pública.
-- Sessão extraordinária reservada exige representante do MPC.
-- Norma subsidiária só integra lacuna compatível.
-- Art. 148 prevê literalmente auxílio de transporte para Conselheiros e substitutos; art. 114 estende suas verbas e vantagens aos membros do MPC nas condições legais.
-- Art. 150, para vacância do Procurador-Geral, conflita com o art. 106, § 5º, sobre concurso do MPC; reconhecer a desatualização.
+- recesso: **21/12 a 4/1**;
+- Secretaria continua;
+- prazos das partes **não suspendem nem interrompem** pelo recesso;
+- relatório trimestral à Assembleia → **60 dias**;
+- relatório anual → **90 dias**;
+- DOE-TCE = veículo oficial;
+- falha temporária → DOE estadual vale + republicação eletrônica posterior;
+- sessão ordinária = pública;
+- extraordinária reservada → exige representante do MPC;
+- subsidiariedade → preenche lacuna compatível, **não supera regra específica**.
 
-## Pegadinhas
+## Pegadinhas de uma linha
 
-- Sete titulares não incluem os três substitutos.
-- Presidente é eleito; Procurador-Geral é nomeado de lista tríplice.
-- Titular: menos de 70; substituto: divergência ainda não harmonizada.
-- Corregedoria não é controle externo.
-- MPC não é Ministério Público Estadual nem Secretaria.
-- Quatro cargos legais não significam necessariamente quatro ocupantes exibidos.
-- Presidente administra, mas não legisla sozinho.
-- Recesso não paralisa tudo.
-- Subsidiariedade não revoga regra específica.
+- **EC 139/2026:** TC = permanente + essencial.
+- **7 titulares, 3 substitutos.**
+- **4 Assembleia + 3 Governador.**
+- **idade atual titular e substituto: >35 e <70.**
+- **Substituto sem convocação: proposta de decisão.**
+- **Presidente é eleito; Procurador-Geral é nomeado pelo Governador.**
+- **Corregedoria é interna.**
+- **MPC não é Secretaria nem MPE.**
+- **4 cargos legais do MPC ≠ número circunstancial de ocupantes.**
+- **concurso MPC: PG; vacância PG: Presidente.**
+- **recesso não para Secretaria nem prazos das partes.**
