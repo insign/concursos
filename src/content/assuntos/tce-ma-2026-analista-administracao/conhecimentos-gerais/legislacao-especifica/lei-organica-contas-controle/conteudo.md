@@ -1,390 +1,350 @@
 ---
 schemaVersion: 1
 title: "Lei Orgânica do TCE/MA: contas e instrumentos de controle"
-description: Contas de governo e de gestão, tomada de contas especial, instrumentos e execução da fiscalização, atos, contratos, transferências e atos de pessoal na Lei nº 8.258/2005.
+description: Contas de governo e de gestão, tomada de contas especial, instrumentos e execução da fiscalização, sustação e atos de pessoal na Lei nº 8.258/2005.
 order: 66
 storageId: lei-organica-contas-controle
 ---
 
-## 1. Mapa do assunto
+## 1. Recorte e corte temporal
 
-Este assunto continua o estudo da **Lei nº 8.258/2005**, Lei Orgânica do Tribunal de Contas do Estado do Maranhão, concentrando-se em duas perguntas:
+Este assunto estuda a **Lei Estadual nº 8.258/2005** no núcleo de **contas e instrumentos de controle**, com corte normativo em **6 de julho de 2026**, data de publicação do edital.
 
-1. **Quem presta contas, qual é o produto do TCE/MA e quem profere a decisão final?**
-2. **Como o Tribunal fiscaliza atos, contratos, recursos, pessoal e outros objetos da gestão pública?**
+O recorte principal está nos **arts. 8º a 13 e 34 a 58**:
 
-O núcleo do recorte está nos arts. 8º a 13 e 34 a 58 da Lei Orgânica. Para compreender os instrumentos de fiscalização, também é útil a Resolução TCE/MA nº 324/2020, que estrutura o modelo de fiscalização baseado em risco.
+- contas de governo e contas de gestão;
+- tomada e prestação anual de contas;
+- tomada de contas especial;
+- iniciativa, instrumentos e execução das fiscalizações;
+- fiscalização de atos, contratos, transferências, receitas e responsabilidade fiscal;
+- sustação de ato e contrato;
+- atos de pessoal sujeitos a registro.
 
-Jurisdição e competência geral foram estudadas no Assunto 064. Organização, membros e Ministério Público de Contas foram estudados no Assunto 065. Os detalhes gerais de processo ficam no Assunto 067; decisões sobre regularidade, débitos, sanções, execução, recursos e revisão ficam no Assunto 068.
+Duas decisões do STF são indispensáveis para aplicar corretamente essas regras:
 
-## 2. Critérios e dimensões do controle
+- **ADPF 982**, julgada em 2025: contas de gestão de Prefeito ordenador de despesas podem ser julgadas pelo Tribunal de Contas para imputação de débito e sanções não eleitorais, sem ratificação da Câmara; para os efeitos do art. 1º, I, `g`, da LC nº 64/1990, permanece a competência da Câmara Municipal;
+- **Tema 445 (RE 636.553)**: o Tribunal de Contas tem cinco anos, contados da chegada do processo à Corte, para julgar a legalidade do ato inicial de aposentadoria, reforma ou pensão.
 
-No julgamento de contas e nas fiscalizações, o TCE/MA examina a **legalidade**, a **legitimidade** e a **economicidade** dos atos de gestão e das despesas correspondentes, além da aplicação de subvenções e da renúncia de receitas.
+Jurisdição e competência geral foram tratadas no Assunto 064; organização e MPC, no 065. Ritos processuais gerais ficam no 067; regularidade das contas, débitos, sanções, execução e recursos, no 068.
 
-Na fiscalização por iniciativa própria, o art. 36 acrescenta a verificação da **eficiência**, da **eficácia** e da **efetividade** de atos, contratos e fatos administrativos.
+## 2. Critérios do controle
 
-| Critério | Pergunta de controle |
+No julgamento de contas e nas fiscalizações, o TCE/MA examina **legalidade, legitimidade e economicidade**, além da aplicação de subvenções e da renúncia de receitas. Na fiscalização por iniciativa própria, o art. 36 também destaca **eficiência, eficácia e efetividade** de atos, contratos e fatos administrativos.
+
+| Critério | Pergunta de prova |
 | --- | --- |
-| Legalidade | O ato respeitou a Constituição, a lei e as normas aplicáveis? |
-| Legitimidade | O ato é compatível com a finalidade pública e com os princípios da Administração? |
-| Economicidade | A solução preservou a relação adequada entre custos e resultados? |
-| Eficiência | Os recursos foram utilizados com produtividade e sem desperdício evitável? |
-| Eficácia | As metas e os produtos previstos foram alcançados? |
-| Efetividade | A ação gerou os efeitos concretos pretendidos para a sociedade? |
+| legalidade | o ato está conforme a ordem jurídica? |
+| legitimidade | o ato atende finalidade e princípios públicos? |
+| economicidade | custos e resultados guardam relação adequada? |
+| eficiência | os recursos foram utilizados produtivamente? |
+| eficácia | metas e produtos foram alcançados? |
+| efetividade | os resultados produziram os efeitos pretendidos? |
 
-Esses critérios não são sinônimos. Uma despesa pode ser formalmente legal e, ainda assim, apresentar baixa economicidade ou desempenho insuficiente.
+Uma atuação pode ser formalmente legal e ainda apresentar problema de economicidade ou desempenho.
 
-## 3. Matriz das contas
+## 3. Contas de governo e contas de gestão
 
-A distinção mais importante para prova é entre **contas de governo**, apreciadas pelo Tribunal mediante parecer prévio, e **contas de gestão**, julgadas diretamente pelo TCE/MA.
+### 3.1. Matriz essencial
 
-| Prestador ou objeto | Atuação do TCE/MA | Produto e destino |
+| Prestador / posição | Atuação do TCE/MA | Resultado |
 | --- | --- | --- |
-| Governador | aprecia as contas anuais | parecer prévio para julgamento pela Assembleia Legislativa |
-| Prefeito, como Chefe do Executivo | aprecia as contas de governo | parecer prévio para julgamento pela Câmara Municipal |
-| Prefeito ou outro agente, como gestor de receita e despesa | julga as contas de gestão | acórdão do TCE/MA, sem deliberação da Câmara |
-| Presidente da Câmara Municipal | julga as contas anuais de gestão da Câmara | acórdão do TCE/MA, sem deliberação do Legislativo municipal |
-| Demais administradores e responsáveis | julga a tomada ou prestação anual de contas | decisão do próprio TCE/MA |
+| Governador | aprecia contas anuais | parecer prévio para a Assembleia Legislativa |
+| Prefeito como chefe de governo | aprecia contas de governo | parecer prévio para a Câmara Municipal |
+| Prefeito como ordenador de despesas | julga contas de gestão | acórdão do TCE; débito e sanções não eleitorais independem de ratificação da Câmara |
+| Presidente da Câmara Municipal | julga contas anuais de gestão | acórdão do TCE |
+| demais administradores e responsáveis | julga tomada ou prestação de contas | decisão do TCE |
 
-### 3.1. Contas do Governador
+**Parecer prévio não é julgamento de contas de gestão.**
 
-O art. 8º determina que o Tribunal aprecie as contas do Governador mediante **parecer prévio emitido em sessenta dias**, contados do recebimento.
+### 3.2. Contas do Governador — art. 8º
+
+O parecer prévio deve ser emitido em **60 dias** contados do recebimento das contas.
 
 As contas compreendem:
 
-- os balanços gerais do Estado;
-- o relatório do órgão central do sistema de controle interno do Poder Executivo;
-- a execução dos orçamentos referidos pela Constituição Estadual.
+- balanços gerais do Estado;
+- relatório do órgão central do sistema de controle interno do Poder Executivo;
+- execução dos orçamentos referidos na Constituição Estadual.
 
-O parecer prévio pode ser:
+O parecer pode ser:
 
-1. pela aprovação;
-2. pela aprovação com ressalva;
-3. pela desaprovação;
-4. com abstenção de opinião.
+1. aprovação;
+2. aprovação com ressalva;
+3. desaprovação;
+4. abstenção de opinião.
 
-A **abstenção de opinião** é reservada à ausência de pressupostos de constituição e de desenvolvimento válido e regular do processo. Ela não equivale automaticamente a aprovação nem a desaprovação.
+A **abstenção de opinião** ocorre quando faltam pressupostos de constituição e de desenvolvimento válido e regular do processo.
 
-A apreciação global das contas do Governador não impede o julgamento direto das contas de gestão do Presidente da Assembleia, do Presidente do Tribunal de Justiça, do Chefe do Ministério Público, do Presidente do próprio TCE/MA e dos demais administradores e responsáveis. Em outras palavras, o parecer sobre o governo estadual não absorve as responsabilidades individualizadas dos gestores.
+A apreciação global das contas de governo não elimina o julgamento próprio das contas de gestão dos demais administradores e responsáveis.
 
-### 3.2. Contas do Prefeito: governo e gestão
+### 3.3. Contas do Prefeito — arts. 9º e 10
 
-O Prefeito deve apresentar ao TCE/MA, dentro de **sessenta dias após a abertura da sessão legislativa municipal**, as contas de governo referentes ao exercício anterior.
+O Prefeito apresenta as contas de governo do exercício anterior em até **60 dias após a abertura da sessão legislativa municipal**. A prestação reflete a execução orçamentária global e contém os balanços e o relatório do controle interno.
 
-Essas contas devem refletir a execução orçamentária global do Município e conter os balanços gerais e o relatório do órgão central de controle interno. Ato normativo do Tribunal define forma e conteúdo, inclusive a entrega eletrônica.
+Se houver omissão, o Tribunal procede à **tomada de contas do Prefeito** para assegurar a eficácia do controle externo.
 
-Se as contas não forem apresentadas no prazo, o Tribunal procederá à **tomada de contas do Prefeito** para assegurar a eficácia do controle externo.
+O art. 10 separa:
 
-Ao examinar a prestação anual, o Tribunal desempenha duas funções diferentes:
+- **contas de governo** → parecer prévio do TCE;
+- **contas de gestão** → julgamento pelo TCE mediante acórdão.
 
-- emite parecer prévio sobre as **contas de governo** do Prefeito;
-- julga, mediante acórdão, as **contas dos gestores** responsáveis por atos que resultem receita e despesa.
+O parecer prévio municipal é emitido em 60 dias do recebimento ou até o último mês do exercício financeiro, conforme a hipótese legal. Depois do trânsito em julgado, as contas de governo e o parecer são encaminhados à Câmara Municipal.
 
-O parecer prévio sobre as contas de governo deve ser emitido em sessenta dias contados do recebimento, ou até o último mês do exercício financeiro, conforme o art. 10, I. Depois do trânsito em julgado, as contas de governo e o parecer seguem para a Câmara Municipal.
+### 3.4. ADPF 982: Prefeito ordenador de despesas
 
-Já as contas de gestão são julgadas pelo próprio TCE/MA como regulares, regulares com ressalva ou irregulares. Sobre esse julgamento **não cabe deliberação da Câmara Municipal**.
+A jurisprudência do STF impede uma fórmula simplista como “toda conta de Prefeito é julgada pela Câmara”.
 
-O mesmo Prefeito pode, portanto, aparecer em posições diferentes:
+| Situação | Competência |
+| --- | --- |
+| contas de governo do Prefeito | TCE emite parecer prévio; Câmara julga |
+| contas de gestão do Prefeito ordenador | TCE julga |
+| débito e sanções não eleitorais decorrentes das contas de gestão | TCE decide, sem ratificação da Câmara |
+| efeito eleitoral do art. 1º, I, `g`, da LC nº 64/1990 | competência da Câmara Municipal preservada |
 
-- como Chefe do Poder Executivo, nas contas de governo;
-- como ordenador de despesa ou gestor, nas contas de gestão.
+A ressalva eleitoral não transforma as contas de gestão em contas de governo nem retira do TCE a competência reconhecida pela ADPF 982 para os efeitos não eleitorais.
 
-### 3.3. Contas do Presidente da Câmara Municipal
+### 3.5. Presidente da Câmara Municipal — arts. 34 e 35
 
-O Presidente da Câmara deve apresentar ao Tribunal, dentro de **sessenta dias após a abertura da sessão legislativa municipal**, a prestação anual de gestão da Câmara, referente ao exercício anterior.
+O Presidente da Câmara apresenta ao Tribunal, em até **60 dias após a abertura da sessão legislativa municipal**, a prestação anual de gestão referente ao exercício anterior.
 
-As contas devem refletir a execução da dotação reservada à Câmara na lei orçamentária anual, sem afastar a individualização de responsabilidades. A forma e o conteúdo são estabelecidos em ato normativo e podem ser eletrônicos.
+As contas refletem a execução da dotação reservada à Câmara na lei orçamentária anual. A omissão gera tomada de contas pelo TCE/MA.
 
-Se não houver apresentação, o TCE/MA procederá à tomada de contas. O julgamento é realizado diretamente pelo Tribunal e formalizado mediante acórdão. **Não cabe deliberação do Poder Legislativo municipal** sobre esse acórdão.
+O julgamento é feito diretamente pelo Tribunal, por acórdão. Não se trata de parecer prévio sobre contas de governo.
 
-Pegadinha: embora o prestador presida um órgão legislativo, suas contas anuais são contas de gestão julgadas pelo Tribunal, e não contas de governo submetidas a parecer prévio.
+### 3.6. Administradores e responsáveis — arts. 11 e 12
 
-### 3.4. Contas anuais dos administradores e responsáveis
+Quem está sujeito ao dever de prestar contas só pode ser liberado dessa responsabilidade por decisão do TCE/MA.
 
-As pessoas alcançadas pelo art. 11 têm dever de prestar contas e somente podem ser liberadas dessa responsabilidade por decisão do TCE/MA.
+As contas são anuais, sob a forma de **tomada ou prestação de contas**, e devem abranger todos os recursos orçamentários e extraorçamentários utilizados, arrecadados, guardados ou geridos pela unidade ou entidade, ou pelos quais ela responda.
 
-As contas são apresentadas anualmente, sob a forma de **tomada ou prestação de contas**, dentro de sessenta dias após a abertura da sessão legislativa, com referência ao exercício anterior. A apresentação pode ocorrer em meio eletrônico, segundo ato normativo do Tribunal.
+Os demonstrativos devem evidenciar a boa e regular aplicação dos recursos e a observância das normas legais e regulamentares.
 
-Devem ser incluídos **todos os recursos orçamentários e extraorçamentários** utilizados, arrecadados, guardados ou geridos pela unidade ou entidade, ou pelos quais ela responda.
+## 4. Tomada de contas especial — art. 13
 
-Os elementos e demonstrativos definidos no Regimento Interno devem evidenciar:
+A **tomada de contas especial** é procedimento específico de apuração. Não é sinônimo de prestação anual atrasada.
 
-- a boa e regular aplicação dos recursos públicos;
-- a observância das normas legais e regulamentares.
+### 4.1. Hipóteses
 
-O prazo e os documentos operacionais podem ser detalhados pelo Tribunal para determinado exercício. Uma data excepcional fixada em instrução normativa não deve ser convertida em regra permanente da Lei Orgânica.
-
-## 4. Tomada de contas especial
-
-A **tomada de contas especial (TCE)** é um procedimento específico de apuração, não uma simples prestação anual atrasada. O art. 13 prevê sua instauração diante de:
+É instaurada diante de:
 
 - omissão no dever de prestar contas;
-- não comprovação da aplicação de recursos repassados pelo Estado ou pelo Município;
-- indícios de desfalque ou desvio de dinheiros, bens ou valores públicos;
+- não comprovação da aplicação de recursos repassados pelo Estado ou Município;
+- indícios de desfalque ou desvio de dinheiro, bens ou valores públicos;
 - ato ilegal, ilegítimo ou antieconômico do qual resulte dano ao erário.
 
-A autoridade administrativa competente deve agir **imediatamente**, sob pena de responsabilidade solidária, para:
+A autoridade administrativa competente deve adotar providências **imediatamente**, sob pena de responsabilidade solidária, para:
 
 1. apurar os fatos;
 2. identificar os responsáveis;
 3. quantificar o dano.
 
-Se a autoridade não adotar as providências, o próprio Tribunal determinará a instauração e fixará prazo para cumprimento.
+Se ela se omitir, o Tribunal determina a instauração e fixa prazo.
 
-### 4.1. Destino conforme o valor do dano
+### 4.2. Valor de referência
 
-O TCE/MA fixa, a cada ano civil e por ato normativo, uma quantia de referência:
+A cada ano civil, o TCE/MA fixa valor de referência para o encaminhamento:
 
-- dano igual ou superior ao valor: a tomada especial é encaminhada desde logo ao Tribunal para julgamento;
-- dano inferior ao valor: a tomada especial é anexada às contas anuais do administrador ou ordenador para julgamento conjunto.
+| Dano apurado | Destino |
+| --- | --- |
+| igual ou superior ao valor | tomada especial encaminhada desde logo ao TCE para julgamento |
+| inferior ao valor | tomada especial anexada às contas anuais para julgamento conjunto |
 
-O limiar não elimina o dano nem dispensa a apuração; ele define o modo de encaminhamento.
+O valor de referência **não perdoa dano pequeno** e não elimina a apuração; apenas define a forma de encaminhamento.
 
-O processo deve conter os elementos especificados no Regimento Interno e outras peças que permitam formar juízo sobre a responsabilidade pelo dano.
+### 4.3. Conversão de fiscalização
 
-### 4.2. Duas portas de entrada
+Processo de fiscalização em que se configure desfalque, desvio ou outra irregularidade causadora de dano pode ser convertido em tomada de contas especial.
 
-A tomada especial pode começar:
-
-- na Administração, por iniciativa da autoridade competente ou por determinação do Tribunal, conforme o art. 13;
-- no próprio controle externo, pela conversão de processo de fiscalização no qual se configure desfalque, desvio ou outra irregularidade causadora de dano, conforme o art. 52.
-
-Quando o prejuízo decorrer da aplicação de recurso repassado por convênio, acordo, ajuste ou instrumento congênere, a lei exige tomada de contas especial específica para a apuração e a imputação de responsabilidade.
+Quando o prejuízo decorre da aplicação de recursos de convênio, acordo, ajuste ou instrumento congênere, a Lei prevê tomada de contas especial específica para apuração e imputação de responsabilidade.
 
 ```text
-fato ou omissão
-→ apuração dos fatos
-→ identificação dos responsáveis
-→ quantificação do dano
+omissão / dano / desvio
+→ apurar fatos
+→ identificar responsáveis
+→ quantificar dano
 → tomada de contas especial
-→ encaminhamento definido pela Lei Orgânica
+→ julgamento conforme a Lei
 ```
 
 ## 5. Iniciativa da fiscalização
 
 ### 5.1. Fiscalização de ofício
 
-O Tribunal pode fiscalizar, por iniciativa própria, órgãos e entidades sob sua jurisdição. O objeto é verificar:
+O Tribunal pode fiscalizar, por iniciativa própria, órgãos e entidades sob sua jurisdição, inclusive por meio eletrônico e com utilização de dados disponíveis em rede.
 
-- legalidade, legitimidade e economicidade;
-- aplicação de subvenções e renúncia de receitas;
-- eficiência, eficácia e efetividade de atos, contratos e fatos administrativos.
+A Lei reconhece documentos e comunicações eletrônicas e admite assinatura eletrônica conforme disciplina do Tribunal.
 
-A fiscalização pode ser eletrônica e baseada em dados disponíveis em rede. A lei reconhece:
+### 5.2. Solicitação legislativa
 
-- meio eletrônico como forma de armazenamento ou tráfego de documentos e arquivos digitais;
-- transmissão eletrônica como comunicação a distância por redes;
-- assinatura eletrônica por certificado digital ou por cadastro de responsáveis e usuários disciplinado pelo Tribunal.
+Pedidos de informação e solicitações de auditoria ou inspeção recebem tratamento de urgência e devem respeitar o princípio federativo.
 
-### 5.2. Solicitações do Legislativo
+Podem provocar essas solicitações nas condições legais:
 
-Pedidos de informação e solicitações da Assembleia Legislativa, da Câmara Municipal ou de suas comissões são apreciados em caráter de urgência, com respeito ao princípio federativo.
+- Presidente da Assembleia Legislativa;
+- Presidente da Câmara Municipal, quando a solicitação tiver sido aprovada pela Câmara;
+- Presidente de comissão da Assembleia ou da Câmara, quando a solicitação tiver sido aprovada pela respectiva comissão.
 
-Podem solicitar informações e auditorias ou inspeções:
+Se a solicitação implicar auditoria, o relator submete ao Plenário sua inclusão no plano de fiscalização.
 
-- o Presidente da Assembleia Legislativa;
-- o Presidente da Câmara de Vereadores, quando a solicitação tiver sido aprovada pela Câmara;
-- Presidentes de comissões da Assembleia ou da Câmara, quando a solicitação tiver sido aprovada pela respectiva comissão.
+## 6. Instrumentos de fiscalização — art. 44
 
-Solicitação de pessoa sem legitimidade não é conhecida. Se o pedido implicar auditoria, o relator submete ao Plenário a inclusão no plano de fiscalização.
+O art. 44 utiliza a expressão **“dentre outros”**, portanto o rol não é exaustivo. Enumera:
 
-Denúncias e representações também podem provocar atividade de controle, mas seus requisitos e ritos foram estudados no Assunto 059.
+1. levantamento;
+2. auditoria;
+3. inspeção;
+4. acompanhamento;
+5. monitoramento;
+6. RREO e RGF.
 
-## 6. Instrumentos de fiscalização
+A Resolução TCE/MA nº 324/2020 ajuda a diferenciar os cinco instrumentos principais:
 
-O art. 44 apresenta rol **não exaustivo**, pois usa a expressão “dentre outros”. São instrumentos:
-
-1. levantamentos;
-2. auditorias;
-3. inspeções;
-4. acompanhamentos;
-5. monitoramentos;
-6. Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF).
-
-O Regimento Interno regulamenta finalidade, utilização e implementação. Os instrumentos podem ser executados eletronicamente e disponibilizados em rede.
-
-### 6.1. Distinção funcional
-
-A Resolução TCE/MA nº 324/2020 organiza o novo modelo de fiscalização. Em síntese operacional:
-
-| Instrumento | Finalidade dominante | Palavra-chave |
-| --- | --- | --- |
-| Levantamento | conhecer organização, funcionamento, sistemas e objetos; identificar riscos e subsidiar futuras ações | conhecer |
-| Auditoria | realizar exame estruturado de conformidade, finanças ou desempenho com escopo, critérios e evidências | examinar |
-| Inspeção | suprir lacunas, esclarecer dúvidas ou apurar ato ou fato específico | esclarecer |
-| Acompanhamento | observar seletiva e concomitantemente a gestão ou a execução de atos e políticas | acompanhar |
-| Monitoramento | verificar cumprimento e resultados de determinações e recomendações anteriores | verificar cumprimento |
-
-Um levantamento pode indicar a necessidade de auditoria. Uma auditoria pode produzir determinações ou recomendações. O monitoramento posterior verifica se essas deliberações foram implementadas. Os instrumentos são complementares, não etapas obrigatórias e invariáveis de todo caso.
-
-### 6.2. Planejamento baseado em risco
-
-A Resolução nº 324/2020 institui o **Plano Bienal de Fiscalização (PBF)**, de cumprimento obrigatório, que fixa a cada dois anos as diretrizes e ações de controle. O **Plano Anual de Atividades (PAT)** detalha, no nível tático de cada unidade, as atividades, o cronograma e as equipes.
-
-A seleção das fiscalizações considera, entre outros fatores:
-
-| Fator | Sentido prático |
+| Instrumento | Finalidade predominante |
 | --- | --- |
-| Materialidade | volume ou representatividade dos recursos e bens envolvidos |
-| Relevância | importância social, institucional ou econômica do objeto |
-| Risco | redução da possibilidade de conclusões incorretas, considerando o risco do auditor e o risco do fiscalizado |
-| Oportunidade | utilidade e adequação temporal da fiscalização |
-| Natureza e importância socioeconômica | características do ente, programa ou política pública |
+| levantamento | conhecer organização, sistemas e objetos e subsidiar seleção de fiscalizações |
+| auditoria | exame estruturado com escopo, critérios e evidências |
+| inspeção | suprir lacunas, esclarecer dúvidas ou apurar fato específico |
+| acompanhamento | observar seletiva e concomitantemente a gestão em curso |
+| monitoramento | verificar cumprimento e resultado de determinações e recomendações anteriores |
 
-O **risco do auditor** consiste em produzir relatório inadequado porque assunto materialmente relevante não foi detectado nem considerado na conclusão ou opinião. O **risco do fiscalizado** decorre de ações ou omissões no cumprimento das responsabilidades de gestão ou da falta de controles eficazes na elaboração das informações do objeto.
+Os instrumentos são **complementares**, não etapas obrigatórias de uma sequência fixa.
 
-Fiscalização baseada em risco não significa ignorar a legalidade. Significa selecionar e dimensionar ações para reduzir conclusões incorretas e concentrar capacidade institucional nos objetos mais significativos.
+A seleção das ações pode considerar **materialidade, relevância, risco e oportunidade**. Para este assunto, o essencial é compreender esses critérios como apoio ao planejamento da fiscalização; detalhes internos de PBF e PAT não substituem o estudo da Lei Orgânica.
 
-## 7. Execução das fiscalizações
+## 7. Execução da fiscalização — arts. 45 a 48
 
-O servidor que exerce função específica de controle externo deve estar credenciado pelo Presidente do Tribunal ou, por delegação deste, por dirigente de unidade técnica da Secretaria.
+O servidor que exerce função específica de controle externo deve estar credenciado pelo Presidente do Tribunal ou, por delegação, por dirigente de unidade técnica.
 
-Quando credenciado, possui as seguintes prerrogativas:
+O servidor credenciado pode:
 
-- livre ingresso nos órgãos e entidades jurisdicionados;
-- acesso a processos, documentos, informações e sistemas eletrônicos necessários;
-- competência para requisitar por escrito documentos e informações, fixando prazo razoável.
+- ingressar livremente nos órgãos e entidades jurisdicionados;
+- acessar processos, documentos, informações e sistemas necessários;
+- requisitar por escrito documentos e informações, fixando prazo razoável.
 
-Nenhum processo, documento ou dado necessário pode ser sonegado sob qualquer pretexto. Em caso de obstrução a auditoria ou inspeção, ou de sonegação, o Tribunal ou o relator fixa prazo improrrogável para apresentação e comunica o fato à autoridade competente. As consequências sancionatórias são estudadas no Assunto 068.
+Processo, documento ou informação necessária não pode ser sonegado. Diante de obstrução ou sonegação, o Tribunal ou relator fixa prazo improrrogável para apresentação e comunica o fato à autoridade competente.
 
-Se a equipe encontrar procedimento que possa causar dano ou irregularidade grave, deve representar imediatamente, com elementos concretos e convincentes, ao gestor da unidade técnica. Este submete a matéria ao relator com parecer conclusivo.
+Se a equipe identificar procedimento capaz de causar dano ou irregularidade grave, deve representar imediatamente, com elementos concretos e convincentes, ao gestor da unidade técnica, que submete a matéria ao relator.
 
-O relator fixa prazo para manifestação do responsável conforme a urgência. Essa manifestação não impede a adoção imediata de medida cautelar quando presentes os pressupostos legais. As modalidades e os procedimentos de fiscalização são definidos no Regimento Interno.
+A manifestação do responsável não impede cautelar imediata quando presentes seus pressupostos. Ao final, os resultados são comunicados às autoridades competentes para saneamento.
 
-Ao final, o Tribunal comunica os resultados às autoridades competentes para adoção de medidas saneadoras.
+## 8. Fiscalização de atos e contratos — arts. 49 a 52
 
-## 8. Fiscalização de atos e contratos
+### 8.1. Achado e resposta
 
-Para assegurar a eficácia do controle e instruir o julgamento das contas, o Tribunal fiscaliza atos dos quais resultem receita ou despesa, inclusive a aplicação de recursos repassados por convênio, acordo, ajuste ou instrumento congênere.
-
-### 8.1. Respostas conforme o achado
-
-Ao apreciar processo relativo a atos e contratos, o relator ou o Tribunal adota as respostas vinculadas ao tipo de achado:
-
-| Situação | Resposta prevista |
+| Achado | Resposta |
 | --- | --- |
-| nenhuma transgressão apurada | arquivar ou, se útil, apensar às contas correspondentes |
-| falha formal ou impropriedade sem multa nem indício de débito | determinar providências corretivas, arquivar ou apensar o processo às contas e monitorar o cumprimento |
-| oportunidade de melhoria de desempenho | recomendar providências e encaminhar para monitoramento |
-| ocorrência verificada de ilegalidade, ilegitimidade, antieconomicidade ou infração normativa | citar o responsável para defesa em trinta dias, prorrogáveis por até trinta dias a critério do relator |
+| nenhuma transgressão | arquivar ou, se útil, apensar às contas |
+| falha formal ou impropriedade sem multa nem indício de débito | determinar correção, arquivar/apensar e monitorar |
+| oportunidade de melhoria | recomendar providências |
+| ilegalidade, ilegitimidade, antieconomicidade ou infração normativa | citar para defesa em 30 dias, prorrogáveis por até 30 a critério do relator |
 
-**Determinação** ordena correção necessária. **Recomendação** orienta melhoria de desempenho. Ambas podem ser objeto de monitoramento posterior, mas não têm a mesma função.
+**Determinação** tem caráter obrigatório; **recomendação** orienta melhoria.
 
-A aplicação de multa no processo de fiscalização, quando cabível, não prejulga as contas ordinárias da unidade. O fato deve ser considerado no contexto dos demais atos de gestão do período.
+A eventual multa aplicada em fiscalização não prejulga as contas ordinárias da unidade.
 
-### 8.2. Ilegalidade em execução: ato versus contrato
+### 8.2. Sustação: ato x contrato
 
-Ao verificar ilegalidade de ato ou contrato em execução, o Tribunal primeiro assina prazo para o exato cumprimento da lei e indica expressamente os dispositivos aplicáveis.
+Primeiro, o Tribunal assina prazo para o exato cumprimento da lei e indica os dispositivos aplicáveis.
 
-Se a ordem não for atendida, a disciplina se divide:
+Se a ilegalidade persistir:
 
-- **ato administrativo:** o próprio Tribunal susta a execução e comunica a decisão à Assembleia Legislativa ou à Câmara Municipal;
-- **contrato:** o Tribunal comunica o fato ao Legislativo competente, a quem cabe sustar e solicitar ao Executivo as medidas cabíveis.
+| Objeto | Regra |
+| --- | --- |
+| ato administrativo | o TCE susta e comunica ao Legislativo competente |
+| contrato | a sustação cabe inicialmente ao Legislativo, que solicita ao Executivo as providências cabíveis |
 
-Se o Legislativo ou o Executivo não efetivar as medidas no prazo de **noventa dias**, o Tribunal decide sobre a sustação do contrato. Se decidir sustá-lo, determina ao responsável o cumprimento em **quinze dias improrrogáveis** e comunica a decisão ao Legislativo e à autoridade do Executivo.
+Se Legislativo ou Executivo não adotar as medidas em **90 dias**, o Tribunal decide sobre a sustação do contrato. Se o TCE decidir sustá-lo, determina ao responsável o cumprimento em **15 dias improrrogáveis** e comunica a decisão ao Legislativo e ao Executivo.
 
-Se o achado configurar desfalque, desvio ou outra irregularidade causadora de dano, o processo será convertido em tomada de contas especial, ressalvada a hipótese legal de racionalização administrativa.
+Se houver dano ao erário, o processo pode ser convertido em tomada de contas especial.
 
-## 9. Outros objetos de fiscalização
+## 9. Outros objetos de fiscalização — art. 53
 
-O art. 53 remete ao Regimento Interno a forma de fiscalizar:
+A forma de fiscalização é remetida ao Regimento Interno e alcança, entre outros:
 
-1. transferências constitucionais e legais;
-2. recursos repassados por convênio, acordo, ajuste ou instrumento congênere;
-3. subvenções, auxílios e contribuições;
-4. arrecadação da receita pública;
-5. renúncia de receitas;
-6. cumprimento da Lei de Responsabilidade Fiscal;
-7. desestatizações, inclusive privatizações, concessões, permissões e autorizações de serviço público;
-8. declarações de bens e rendas de autoridades e servidores;
-9. parcerias público-privadas e outras fiscalizações determinadas em lei.
-
-O RREO e o RGF devem ser elaborados, publicados e encaminhados ao Tribunal até **trinta dias após o encerramento do período correspondente**, com amplo acesso público, inclusive eletrônico.
-
-### 9.1. Transferências e receitas
-
-O controle alcança tanto a origem quanto o destino dos recursos:
-
-- acompanhamento da arrecadação estadual e municipal;
-- legalidade do cálculo e fiscalização da entrega das quotas-partes municipais;
-- cálculo, entrega e aplicação de recursos legalmente repassados pelo Estado a Municípios;
-- aplicação de convênios e instrumentos congêneres;
+- transferências constitucionais e legais;
+- convênios, acordos, ajustes e congêneres;
 - subvenções, auxílios e contribuições;
-- renúncia de receitas.
+- arrecadação da receita;
+- renúncia de receitas;
+- cumprimento da Lei de Responsabilidade Fiscal;
+- desestatizações;
+- declarações de bens e rendas;
+- parcerias público-privadas;
+- outras matérias previstas em lei.
 
-Não comprovar a aplicação de recurso transferido é hipótese expressa de tomada de contas especial.
+RREO e RGF devem ser elaborados, publicados e encaminhados ao Tribunal em até **30 dias após o encerramento do período correspondente**, com amplo acesso público, inclusive eletrônico.
 
-### 9.2. Responsabilidade fiscal, desestatização e PPP
+## 10. Atos de pessoal — arts. 54 a 58
 
-Na Lei de Responsabilidade Fiscal, o TCE/MA verifica o cumprimento das normas aplicáveis a órgãos e entidades estaduais e municipais. RREO e RGF são instrumentos relevantes, mas não esgotam a fiscalização fiscal.
-
-Nos processos de desestatização, o controle alcança privatizações e delegações de serviço público por concessão, permissão ou autorização. Nas PPPs, pode alcançar estruturação, licitação, garantias, contraprestações, riscos e execução, conforme as normas aplicáveis.
-
-### 9.3. Declarações de bens e rendas
-
-O Tribunal fiscaliza as declarações apresentadas por autoridades e servidores segundo a legislação. Essa competência de controle não transforma automaticamente o TCE/MA em órgão de persecução penal ou de administração tributária.
-
-## 10. Atos de pessoal sujeitos a registro
+### 10.1. Atos submetidos a registro
 
 O Tribunal aprecia, para fins de registro, a legalidade de:
 
-- admissões de pessoal, a qualquer título, na Administração Direta e Indireta, incluídas as fundações públicas;
-- concessões de aposentadoria, reforma e pensão a servidores civis e militares estaduais e municipais ou a seus beneficiários.
+- admissões de pessoal na Administração Direta e Indireta, inclusive fundações;
+- aposentadorias;
+- reformas;
+- pensões.
 
-Não se submetem a registro:
+Não entram no registro:
 
-- nomeações para cargo de provimento em comissão;
-- melhorias posteriores que não alterem o fundamento legal do ato concessório inicial.
+- nomeação para cargo de provimento em comissão;
+- melhoria posterior que não altere o fundamento legal do ato concessório.
 
-A autoridade administrativa envia os dados ao respectivo órgão de controle interno. Este emite parecer sobre a legalidade e disponibiliza as informações ao Tribunal conforme ato normativo.
+O controle interno emite parecer sobre a legalidade e disponibiliza os dados ao Tribunal.
 
-O TCE/MA determina ou recusa o registro conforme considere o ato legal ou ilegal. O acórdão que considera legal e registra o ato **não faz coisa julgada administrativa**: se for verificado que o ato viola a ordem jurídica, pode ser revisto de ofício, com oitiva do MPC, em até cinco anos do julgamento; se comprovada má-fé, a revisão pode ocorrer a qualquer tempo.
+### 10.2. Tema 445/STF: prazo para o registro inicial
 
-### 10.1. Consequências da ilegalidade
+Para **aposentadoria, reforma e pensão**, o STF fixou no Tema 445 que o Tribunal de Contas dispõe de **5 anos**, contados da **chegada do processo à Corte**, para julgar a legalidade do ato de concessão inicial.
 
-| Ato considerado ilegal | Providência do órgão de origem |
+Decorrido esse prazo, aplica-se a estabilização definida pela tese de repercussão geral.
+
+### 10.3. Art. 55, §2º: revisão de ato já registrado
+
+A Lei Orgânica disciplina situação diferente: depois que o Tribunal já considerou legal e registrou o ato, o acórdão **não faz coisa julgada administrativa**.
+
+Se posteriormente for verificada violação da ordem jurídica, o ato pode ser revisto de ofício, com oitiva do MPC, em até **5 anos contados do julgamento**. Comprovada má-fé, a revisão pode ocorrer a qualquer tempo.
+
+### 10.4. Não confunda os dois quinquênios
+
+| Situação | Marco inicial |
 | --- | --- |
-| admissão | adotar medidas regularizadoras e cessar pagamentos decorrentes do ato impugnado |
-| aposentadoria, reforma ou pensão | cessar proventos ou benefícios em quinze dias da ciência da decisão |
+| Tema 445 — julgamento do registro inicial de aposentadoria/reforma/pensão | chegada do processo ao Tribunal de Contas |
+| art. 55, §2º — revisão de ofício de ato já registrado | julgamento que considerou o ato legal |
 
-Na admissão de pessoal, havendo indício de procedimento culposo ou doloso, o Tribunal **determinará** a instauração ou conversão em tomada de contas especial para apurar responsabilidades e promover o ressarcimento. Na aposentadoria, reforma ou pensão, a mesma providência é obrigatória se o pagamento não for suspenso ou se houver indício de procedimento culposo ou doloso na concessão sem fundamento legal.
+São regras diferentes, com objetos e termos iniciais diferentes.
 
-Recusado o registro de aposentadoria, reforma ou pensão, a autoridade administrativa pode emitir novo ato sem as irregularidades identificadas.
+### 10.5. Ato considerado ilegal
 
-### 10.2. Requerimento direto do interessado
-
-O relator ou o Tribunal não conhece do requerimento que o interessado em aposentadoria, reforma ou pensão lhe dirija diretamente. A solicitação é arquivada depois da comunicação ao requerente, salvo quando se tratar do recurso de reconsideração previsto na própria Lei Orgânica.
-
-## 11. Comparações essenciais
-
-| Não confunda | Distinção correta |
+| Ato | Providência |
 | --- | --- |
-| parecer prévio e julgamento de gestão | parecer subsidia o Legislativo; contas de gestão são julgadas pelo TCE/MA |
-| contas de governo e contas de gestão do Prefeito | visão global do governo versus atos concretos de administração |
-| tomada anual e tomada especial | forma de apresentação/apuração anual versus procedimento específico ligado às hipóteses de dano ou omissão do art. 13 |
-| levantamento e auditoria | conhecer e selecionar versus examinar com escopo, critérios e evidências |
-| inspeção e acompanhamento | apuração pontual versus observação concomitante |
-| acompanhamento e monitoramento | observar gestão em curso versus verificar deliberação anterior |
-| determinação e recomendação | correção obrigatória versus melhoria de desempenho |
-| sustação de ato e de contrato | ato pode ser sustado pelo TCE; contrato segue participação inicial do Legislativo |
-| apreciação para registro e prestação de contas | controle de legalidade do ato de pessoal versus exame da gestão de recursos |
+| admissão ilegal | regularizar e cessar pagamentos decorrentes do ato impugnado |
+| aposentadoria, reforma ou pensão ilegal | cessar proventos ou benefícios em 15 dias da ciência |
 
-## 12. Roteiro de resolução de questões
+Nas hipóteses legais de culpa, dolo ou manutenção indevida do pagamento, instaura-se ou converte-se o processo em tomada de contas especial para apurar responsabilidade e ressarcimento.
 
-1. Identifique o **prestador**: Governador, Prefeito, Presidente da Câmara ou outro gestor.
-2. Pergunte se o objeto é **governo** ou **gestão**.
-3. Defina o produto: **parecer prévio** ou **acórdão do TCE/MA**.
-4. Se houver dano ou omissão, teste as hipóteses de **tomada de contas especial**.
-5. Se a questão tratar de fiscalização, identifique **iniciativa**, **instrumento**, **objeto** e **resultado esperado**.
-6. Em ato ou contrato ilegal, separe a competência de sustação.
-7. Em pessoal, verifique se o ato entra no registro e qual é a exceção.
+Recusado o registro de aposentadoria, reforma ou pensão, a autoridade pode emitir novo ato sem as irregularidades apontadas.
 
-## 13. Referências
+O interessado em aposentadoria, reforma ou pensão não dirige pedido inicial diretamente ao TCE: em regra, o requerimento não é conhecido e é arquivado após comunicação, ressalvado o recurso de reconsideração previsto na Lei.
 
-- Tribunal de Contas do Estado do Maranhão. [Lei nº 8.258/2005 consolidada](https://app.tcema.tc.br/publicacao/#/documentohtml/8200?compilado=true). Texto oficial vigente, com alterações indicadas no portal; acesso em 28 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Competências institucionais](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias). Síntese oficial das competências constitucionais e legais; acesso em 28 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Resolução TCE/MA nº 324/2020](https://app.tcema.tc.br/diario/publicacao/pdf/8025). Novo modelo e planejamento das fiscalizações; publicação oficial de 30 mar. 2020, consultada em 28 jul. 2026 com instabilidade temporária no arquivo PDF.
-- Tribunal de Contas do Estado do Maranhão. [TCE adotará novo modelo de fiscalização](https://www.tcema.tc.br/index.php/noticias/1775-tce-adotara-novo-modelo-de-fiscalizacao). Apresentação oficial da Resolução nº 324/2020 e de seus critérios; acesso em 28 jul. 2026.
-- Assembleia Legislativa do Estado do Maranhão. [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/resources/arq/constituicaoma.pdf). Competências do controle externo estadual e municipal; acesso em 28 jul. 2026.
-- Presidência da República. [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Arts. 70 a 75; texto oficial vigente, acesso em 28 jul. 2026.
-- Presidência da República. [Lei Complementar nº 101/2000](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm). Lei de Responsabilidade Fiscal; texto oficial vigente, acesso em 28 jul. 2026.
+## 11. Matriz final de prova
+
+| Não confunda | Regra |
+| --- | --- |
+| governo x gestão | governo → parecer prévio; gestão → julgamento do TCE |
+| Prefeito ordenador x efeito eleitoral | TCE julga gestão para débito/sanções não eleitorais; Câmara permanece competente para a alínea `g` da LC 64/1990 |
+| tomada anual x tomada especial | dever periódico x apuração específica de omissão/dano |
+| levantamento x auditoria | conhecer/selecionar x examinar com critérios e evidências |
+| inspeção x acompanhamento | fato específico x gestão em curso |
+| acompanhamento x monitoramento | observar execução x verificar deliberação anterior |
+| determinação x recomendação | obrigatória x orientativa |
+| ato x contrato ilegal | TCE susta ato; contrato começa com atuação do Legislativo |
+| Tema 445 x art. 55, §2º | chegada à Corte x julgamento do ato já registrado |
+
+## Referências
+
+- Tribunal de Contas do Estado do Maranhão. [Lei nº 8.258/2005 consolidada](https://app.tcema.tc.br/publicacao/#/documentohtml/8200?compilado=true).
+- Tribunal de Contas do Estado do Maranhão. [Competências institucionais](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias).
+- Tribunal de Contas do Estado do Maranhão. [Resolução TCE/MA nº 324/2020](https://app.tcema.tc.br/diario/publicacao/pdf/8025).
+- Tribunal de Contas do Estado do Maranhão. [TCE adotará novo modelo de fiscalização](https://www.tcema.tc.br/index.php/noticias/1775-tce-adotara-novo-modelo-de-fiscalizacao).
+- Supremo Tribunal Federal. [Constituição e jurisprudência — art. 71](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=71&abrirBase=CF). Tese da ADPF 982.
+- Supremo Tribunal Federal. [Tema 445 — RE 636.553](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4043019&numeroProcesso=636553&numeroTema=445).
