@@ -1,90 +1,119 @@
 # Lei Orgânica do TCE/MA: jurisdição e competência
 
-## Recorte
+## Corte
 
-Estuda:
+**Edital: 6/7/2026.** Núcleo: **arts. 1º–7º da Lei nº 8.258/2005** + distinção indispensável sobre Prefeito ordenador de despesas conforme a **ADPF 982**.
 
-- Lei nº 8.258/2005 como Lei Orgânica do TCE/MA;
-- jurisdição sobre pessoas e matérias sujeitas ao controle externo;
-- competências centrais do Tribunal;
-- parecer prévio, julgamento e registro;
-- limites constitucionais, inclusive contas de prefeitos.
+## Mapa mental
 
-## Fontes
+**jurisdição = quem/o que está sujeito**  
+**competência = o que o TCE pode fazer**
 
-- Constituição define matriz superior.
-- Lei Orgânica detalha jurisdição e competências.
-- Regimento organiza funcionamento e procedimentos internos.
-- Regimento não pode contrariar Constituição nem Lei Orgânica.
-- Não há versão oficial única, consolidada e integralmente extraível localizada; conferir redação vigente em fontes oficiais.
+**Constituição → Lei Orgânica → Regimento/atos internos**
 
-## Jurisdição
+## Art. 1º — verbos de competência
 
-- Jurisdição é o alcance subjetivo e material do TCE/MA.
-- O critério central é relação com dinheiro, bens, valores, obrigações ou interesses públicos.
-- Pessoa física ou jurídica, pública ou privada, pode ser alcançada.
-- Pessoa privada não escapa se administra recurso público ou causa dano ao erário.
-- Interesse puramente privado, sem recurso ou obrigação pública, não atrai o TCE/MA.
+| Verbo | Objeto típico |
+| --- | --- |
+| **apreciar** | contas de governo; legalidade para registro; cálculo de quotas-partes; constitucionalidade incidental |
+| **julgar** | contas de administradores/responsáveis; contas do Presidente da Câmara; infrações administrativas fiscais |
+| **realizar** | auditorias, inspeções e acompanhamentos |
+| **acompanhar/fiscalizar** | receitas, LRF, desestatização, transferências e aplicação de recursos |
+| **decidir** | denúncias, consultas e representações |
+| **assinar prazo** | correção de ilegalidade |
+| **sustar** | ato impugnado não corrigido |
+| **representar** | irregularidades ou abusos ao Poder competente |
+| **expedir** | cautelares para prevenir lesão e assegurar efetividade |
+| **elaborar/propor/organizar/eleger** | autogoverno e iniciativa normativa do Tribunal |
 
-## Competências Principais
+## Parecer x julgamento x registro
 
-- Apreciar contas anuais do Governador por parecer prévio.
-- Apreciar contas anuais dos Prefeitos por parecer prévio.
-- Julgar contas de administradores e responsáveis por recursos públicos.
-- Julgar contas anuais de Presidentes de Câmaras Municipais conforme fonte institucional.
-- Proceder à tomada de contas por omissão de prestar contas.
-- Apreciar admissão de pessoal para registro, exceto cargo em comissão.
-- Apreciar aposentadoria, reforma e pensão para registro.
-- Realizar auditorias, inspeções e acompanhamentos.
-- Fiscalizar receitas, quotas-partes, transferências, convênios, LRF, renúncia de receitas, PPP e desestatizações.
-- Decidir denúncias, representações e consultas.
-- Assinar prazo para correção de ilegalidade.
-- Sustar ato impugnado não corrigido e comunicar ao Legislativo competente.
-- Expedir cautelares para prevenir lesão e garantir efetividade.
-- Aplicar sanções e representar ao Poder competente nos limites da Lei Orgânica.
-
-## Parecer, Julgamento e Registro
-
-| Instituto | Objeto | Resultado |
+| Instituto | Quem/objeto | Resultado |
 | --- | --- | --- |
-| parecer prévio | contas anuais do Governador e Prefeitos | manifestação técnica ao Legislativo |
-| julgamento de contas | administradores e responsáveis | decisão própria do TCE/MA |
-| registro | admissão, aposentadoria, reforma e pensão | controle de legalidade do ato |
+| parecer prévio | contas de **governo** de Governador/Prefeito | manifestação técnica para julgamento político |
+| julgamento | administradores, responsáveis e contas de gestão | decisão do TCE |
+| registro | admissão + aposentadoria/reforma/pensão | controle de legalidade do ato |
 
-## Prefeitos
+### Registro — exceções
 
-- Contas anuais do Prefeito: parecer prévio do TCE/MA e julgamento pela Câmara Municipal.
-- Pesquisa sobre a ADPF 982 funciona como alerta interpretativo: Câmara julga contas anuais de Prefeito com parecer prévio do Tribunal.
-- Débito, sanção administrativa/financeira e efeitos eleitorais exigem processo próprio e conferência do entendimento aplicável.
-- Não afirmar que o TCE julga politicamente as contas anuais do Prefeito.
+- admissão em **cargo em comissão** → fora do registro;
+- melhoria posterior de benefício **sem alterar fundamento legal** → sem novo registro.
 
-## Registro de Pessoal
+## Art. 1º, §§ 1º–3º
 
-- Atos de admissão: administração direta e indireta estadual/municipal, inclusive fundações mantidas pelo Poder Público.
-- Exceção: nomeação para cargo em comissão.
-- Aposentadorias, reformas e pensões: controle de legalidade para registro.
-- Melhoria posterior sem alteração do fundamento legal não exige novo registro.
+**Controle examina:** legalidade + legitimidade + economicidade + subvenções + renúncia de receitas.
 
-## Fiscalização
+**Consulta:** caráter normativo + prejulgamento **da tese**, não do fato/caso concreto.
 
-- Auditoria, inspeção e acompanhamento podem ser contábeis, financeiros, orçamentários, operacionais ou patrimoniais.
-- Podem ocorrer por iniciativa própria ou solicitação legislativa/comissional.
-- Fiscalização pode gerar processo, determinação, sanção ou cautelar, mas não é punição automática.
+**Deliberação essencial:**
+1. relatório;
+2. fundamentação;
+3. dispositivo.
 
-## Competências Específicas Que Cobram Atenção
+## Arts. 2º–5º
 
-- Representações sobre descumprimento da notificação de liberação de recursos aos Municípios.
-- Declaração sobre adoção das medidas previstas no art. 167-A da Constituição Federal.
-- Manifestação sobre valor do dano a ressarcir em acordo de não persecução civil.
-- Auxílio à Justiça Eleitoral e ao Ministério Público Eleitoral na apuração de delitos eleitorais, quando cabível.
+| Artigo | Memorize |
+| --- | --- |
+| 2º | rol anual de ordenadores e responsáveis + endereços/alterações + informações necessárias |
+| 3º | poder regulamentar dentro da competência/jurisdição |
+| 4º | acesso irrestrito às fontes de informação da Administração estadual/municipal, inclusive sistemas eletrônicos |
+| 5º | recesso: **21/12 a 4/1**, sem prejuízo dos serviços da Secretaria |
 
-## Pegadinhas
+## Art. 6º — regra de ouro da jurisdição
 
-- Parecer prévio não é julgamento final.
-- Registro não é julgamento de contas.
-- Cautelar não é decisão final.
-- Consulta não decide caso concreto.
-- Pessoa privada pode prestar contas por recurso público.
-- Auxílio ao Legislativo não é subordinação.
-- Cargo em comissão fica fora do registro de admissão.
-- Lei Orgânica não é Regimento Interno.
+**jurisdição própria e privativa + todo o território estadual + pessoas e matérias sujeitas à competência do TCE/MA**
+
+⚠️ “Jurisdição” aqui **não é Poder Judiciário**.
+
+## Art. 7º — os 9 grupos
+
+| Inciso | Quem entra na jurisdição |
+| --- | --- |
+| I | quem deve prestar contas ou tem atos sujeitos à fiscalização por lei |
+| II | pessoa física/jurídica, pública/privada, ligada a dinheiro, bens, valores ou obrigações públicas |
+| III | quem causa perda, extravio ou irregularidade com dano ao erário |
+| IV | dirigentes de empresa pública ou sociedade de economia mista criada com recursos estaduais/municipais |
+| V | dirigentes/liquidantes de empresa encampada, intervinda ou incorporada ao patrimônio público |
+| VI | responsáveis por entidade privada com contribuição parafiscal + serviço de interesse público/social |
+| VII | responsáveis por recursos de convênio, acordo, ajuste ou congênere |
+| VIII | representantes públicos em assembleias de estatais/S.A. + conselhos fiscal/administração, nos atos de gestão ruinosa/liberalidade previstos |
+| IX | sucessores, **até o valor do patrimônio transferido** |
+
+### Contrastes do art. 7º
+
+- **privado pode entrar** → incisos II, VI e VII;
+- **dano sem gestão formal também entra** → III;
+- **sucessor responde com limite** → IX;
+- **convênio tem hipótese expressa** → VII.
+
+## Prefeito — matriz decisiva
+
+| Papel do Prefeito | Conta | Competência |
+| --- | --- | --- |
+| chefe de governo | contas de governo | TCE emite parecer prévio → Câmara julga |
+| ordenador de despesas | contas de gestão | **TCE julga** |
+| reflexo eleitoral da LC 64/1990, art. 1º, I, “g” | efeito eleitoral | competência da **Câmara Municipal** preservada |
+
+### ADPF 982
+
+**Prefeito ordenador:**
+
+- deve prestar contas;
+- TCE julga as contas de gestão;
+- irregularidade → TCE pode imputar **débito** e aplicar **sanções não eleitorais**;
+- não precisa ratificação da Câmara para esses efeitos;
+- efeito eleitoral da alínea “g” → Câmara Municipal.
+
+⚠️ Não use “toda conta de Prefeito é julgada pela Câmara”.
+
+## Outras pegadinhas de uma linha
+
+- **auxílio ao Legislativo ≠ subordinação**.
+- **cautelar ≠ decisão final**.
+- **poder regulamentar ≠ criação de competência nova**.
+- **acesso irrestrito à informação ≠ fiscalização sem finalidade legal**.
+- **pessoa privada ≠ imunidade ao controle**.
+- **parecer prévio ≠ acórdão de julgamento de contas de gestão**.
+- **fiscalização de receita ≠ controle apenas de despesa**.
+- **Conselho/representante em estatal pode entrar na jurisdição** nas hipóteses do art. 7º, VIII.
+- **sucessão patrimonial limita responsabilidade** ao valor transferido.
