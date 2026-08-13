@@ -1,78 +1,60 @@
 # Lei Orgânica: Processos
 
-## Sujeitos e Partes
+## Corte
 
-- Sujeitos: parte, relator, MPC e Secretaria.
-- Partes: responsável e interessado.
-- Responsável: qualificado pela Constituição, Lei Orgânica e legislação aplicável.
-- Interessado: razão legítima para intervir reconhecida pelo relator ou Tribunal.
-- Parte atua diretamente ou por procurador constituído, ainda que não advogado.
-- Procurador da parte não é Procurador de Contas.
+- **Arts. 118 a 128 da Lei nº 8.258/2005**.
+- Regra vigente no edital: **6 jul. 2026**.
+- 066 = contas/instrumentos de controle.
+- 068 = decisões, débitos, sanções, execução e recursos em detalhe.
 
-## Funções
+## Quem é quem
 
-| Sujeito | Função central |
+| Ator | Chave de prova |
 | --- | --- |
-| relator | preside a instrução e submete o mérito ao colegiado |
-| MPC | atua como fiscal da lei |
+| responsável | parte qualificada pela ordem jurídica |
+| interessado | parte com razão legítima para intervir reconhecida |
+| relator | preside a instrução |
+| MPC | fiscal da lei |
 | Secretaria | documentação, comunicação e instrução sob direção do relator |
 
-- Relator: Conselheiro ou Conselheiro-Substituto/Auditor.
-- Relator pode agir de ofício ou por provocação da unidade técnica ou MPC.
-- Pode sobrestar, citar e determinar saneamento.
-- Conselheiro-Substituto não é Auditor Estadual de Controle Externo.
+**Parte = responsável + interessado.**
 
-## Distribuição
+Parte atua diretamente ou por procurador constituído, **ainda que não advogado**.
 
-- Princípios cumulativos: **publicidade + alternatividade + sorteio**.
-- Forma concreta: Regimento Interno.
+## Distribuição e fluxo
 
-## Etapas
+**Distribuição = publicidade + alternatividade + sorteio.**
 
-1. Instauração.
-2. Instrução.
-3. Parecer do MPC.
-4. Julgamento.
-5. Recursos.
+**Rito:**
 
-- Na instrução, servidores também observam a vedação do art. 96, VIII.
-- Impedimento: interesse próprio, de familiares até terceiro grau, amigo íntimo/inimigo capital ou atuação anterior nas funções enumeradas.
-- Meio eletrônico é admitido conforme ato normativo.
-- Meio eletrônico: armazenamento ou tráfego de documentos e arquivos digitais.
-- Transmissão eletrônica: comunicação a distância por redes, preferencialmente a internet.
-- Assinatura eletrônica: assinatura digital baseada em certificado digital emitido por Autoridade Certificadora credenciada, na forma de lei específica, ou cadastro disciplinado pelo Tribunal.
-- Eletrônico não elimina garantias nem regularidade processual.
+`instauração → instrução → parecer do MPC → julgamento → recursos`
 
-## Provas
+Na instrução, aplica-se aos servidores a vedação do art. 96, VIII.
 
-- Apresentação sempre documental.
-- Modalidade eletrônica é admitida.
-- Prova obtida por meio ilícito é inadmissível.
-- Não importe automaticamente todo o regime probatório do CPC.
+## Eletrônico e prova
 
-## Art. 122
+| Tema | Regra de uma linha |
+| --- | --- |
+| meio eletrônico | admitido conforme disciplina do Tribunal |
+| prova | **sempre documental**, inclusive eletrônica |
+| prova ilícita | inadmissível |
+| art. 122 | rol **não exaustivo** de matérias regulamentadas por ato normativo |
 
-O rol é **não exaustivo** (“dentre outros”). Atos normativos regulamentam:
+Art. 122: tramitação; vista/cópia; nulidades/comunicações; certidões/informações; arquivamento.
 
-- instauração, instrução e tramitação;
-- vista e cópia;
-- nulidades e comunicações;
-- certidões e informações;
-- arquivamento.
+## Motor dos prazos
 
-## Prazos
+`evento do art. 123 → exclui o dia inicial → contagem contínua → inclui o vencimento → sem expediente? 1º dia útil imediato`
 
-- Contínuos; não se interrompem nos feriados.
-- Exclui-se o dia inicial; inclui-se o vencimento.
-- Vencimento sem expediente: primeiro dia útil imediato.
-- Acréscimo ou retificação de publicação: devolução do prazo.
-- Recesso não suspende nem interrompe prazo da parte.
-- Prazo vencido: preclusão independentemente de declaração.
-- Exceção: justo motivo comprovado.
+- Prazos são **contínuos**; feriado não interrompe.
+- Acréscimo/retificação de publicação: **devolve o prazo**.
+- Recesso: **não suspende nem interrompe** prazo da parte.
+- Prazo perdido: preclusão independentemente de declaração.
+- Exceção: **justo motivo comprovado**.
 
 ### Termos iniciais
 
-| Ato | Referência |
+| Situação | Referência |
 | --- | --- |
 | citação | recebimento pela parte |
 | intimação interlocutória | recebimento pela parte |
@@ -81,47 +63,41 @@ O rol é **não exaustivo** (“dentre outros”). Atos normativos regulamentam:
 | acórdão/parecer prévio | publicação no DOE do TCE/MA |
 | demais decisões | publicação no DOE, salvo regra expressa |
 
-## Citação
+## Citação, defesa e revelia
 
-- Carta registrada + AR no endereço indicado.
-- Não exige assinatura do próprio citado no AR.
-- Nenhuma assinatura/rubrica no AR: edital no DOE.
-- Comparecimento espontâneo para ciência supre falta de citação.
+| Situação | Regra |
+| --- | --- |
+| citação normal | carta registrada + AR no endereço indicado |
+| assinatura no AR | não precisa ser do próprio citado |
+| nenhuma assinatura/rubrica no AR | edital no DOE |
+| comparecimento espontâneo | supre falta de citação |
+| defesa | **30 dias** |
+| prorrogação | até **+30 dias**, a critério do relator |
+| ocorrência não contestada | revelia quanto à ocorrência |
+| nenhuma defesa no prazo | revelia para todos os efeitos; processo prossegue |
+| revel | prazos correm sem intimação; pode intervir no estado atual do processo |
 
-## Defesa
+Defesa = razões articuladas de fato e de direito + impugnação das ocorrências + provas.
 
-- Prazo: **30 dias**.
-- Prorrogação: até **30 dias**, a critério do relator.
-- Postal: conta da assinatura/rubrica do AR.
-- Edital: conta da publicação.
-- Defesa precisa enfrentar toda a matéria.
-- Razões de fato e de direito devem ser articuladas.
-- Provas devem ser juntadas.
+## Sustentação oral
 
-## Revelia
+**Linha temporal:**
 
-- Ocorrência não contestada: revelia quanto a ela.
-- Sem defesa no prazo: revelia para todos os efeitos.
-- Processo prossegue normalmente.
-- Prazos do revel correm sem intimação.
-- Revel pode intervir depois, no estado atual do processo.
-- Intervenção não reabre automaticamente fase preclusa.
+`relatório → sustentação oral → voto/proposta`
 
-## Sustentação Oral
-
-- Momento: **relatório → sustentação → voto/proposta**.
-- Pela parte ou procurador constituído, ainda que não advogado.
-- Requerimento antes do início da sessão.
-- Forma disciplinada pelo Regimento.
+- parte ou procurador constituído, ainda que não advogado;
+- requerimento **antes do início da sessão**;
+- forma de exercício: Regimento Interno.
 
 ## Pegadinhas
 
 - Nem todo sujeito processual é parte.
-- Interessado depende de reconhecimento de razão legítima.
-- Distribuição não é somente sorteio.
-- Prova eletrônica continua documental.
-- Prazo contínuo não significa vencimento em dia sem expediente.
-- Recesso não paralisa prazo da parte.
+- Interessado não entra por simples autodeclaração: exige razão legítima reconhecida.
+- Sorteio não é o único princípio da distribuição.
+- Eletrônico **não** significa prova não documental.
+- Prazo contínuo **não** significa vencimento obrigatório em dia sem expediente.
+- Recesso **não** paralisa os prazos da parte previstos no art. 126.
 - Prorrogação da defesa não é automática.
-- Revelia não paralisa o processo.
-- Sustentação não ocorre antes do relatório nem depois do voto.
+- Revelia pode ser **parcial** (por ocorrência) ou **total** (sem defesa).
+- Intervenção posterior do revel ocorre no estado em que o processo estiver; a Lei não promete repetição de etapas.
+- Sustentação oral vem **depois do relatório e antes do voto/proposta**.
