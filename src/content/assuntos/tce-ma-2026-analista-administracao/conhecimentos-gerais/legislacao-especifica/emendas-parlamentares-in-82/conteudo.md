@@ -8,127 +8,105 @@ storageId: tce-in-82-2025
 
 # Fiscalização de emendas parlamentares: IN TCE/MA nº 82/2025
 
-## 1. Objeto e roteiro de estudo
+## 1. Recorte do edital e corte temporal
 
-A Instrução Normativa TCE/MA nº 82/2025 disciplina a fiscalização, o acompanhamento e o julgamento da execução de emendas parlamentares estaduais e municipais. Seu eixo é permitir que o recurso seja acompanhado **desde a origem até o beneficiário final**, com publicidade prévia, identificação contábil, integração tecnológica e controle da execução.
+O Edital nº 1 — TCE/MA, de **6 de julho de 2026**, cobra expressamente a **IN TCE/MA nº 82/2025** em Legislação Específica. O próprio edital admite a cobrança de alterações legislativas que tenham entrado em vigor até a data de sua publicação.
 
-O fluxo didático é:
+Para este assunto, a regra-base é a IN nº 82, publicada no Diário Oficial Eletrônico do TCE/MA em **15 de dezembro de 2025** e vigente desde essa data. Ela possui **10 artigos, distribuídos em 6 capítulos, sem anexos**.
 
-1. identificar a emenda, o proponente, o objeto, o valor e os beneficiários;
-2. diagnosticar a estrutura existente e apresentar plano de ação quando determinado pelo TCE/MA;
-3. divulgar as informações antes da execução orçamentária e financeira;
-4. adaptar sistemas, integrar bases e disponibilizar dados abertos;
-5. registrar receitas, despesas e atos administrativos de forma rastreável;
-6. fiscalizar a execução e, se necessário, converter o processo em tomada de contas especial.
+Até a publicação do edital, não foi localizado ato normativo que alterasse textualmente os dez artigos da IN nº 82. A **IN nº 84/2026** disciplina tema correlato às transferências especiais, mas não declara alterar a IN nº 82; por isso, seus requisitos próprios não devem ser transportados para a literalidade deste item.
 
-Essa sequência organiza o estudo, mas não substitui a estrutura literal dos dez artigos da norma.
+> **Direito vigente hoje — pós-edital:** a checagem oficial realizada em 14 de agosto de 2026 também não localizou alteração textual formal da IN nº 82. Notícias institucionais que usam a expressão “alterações da IN 82/2025” não substituem a identificação de um ato normativo publicado.
 
-### 1.1. Publicação, vigência e situação normativa
+## 2. Finalidade e lógica da norma
 
-A IN foi aprovada em 10 de dezembro de 2025, publicada no Diário Oficial Eletrônico do TCE/MA de 15 de dezembro de 2025 e entrou em vigor nessa mesma data. Ela não possui anexos.
+A IN nº 82 disciplina a **fiscalização, o acompanhamento e o julgamento da execução** das emendas parlamentares estaduais e municipais, incluindo as **transferências voluntárias delas decorrentes**.
 
-| Marco | Efeito |
-|---|---|
-| 23 out. 2025 | decisão na ADPF 854 estende aos entes subnacionais o modelo federal de transparência e rastreabilidade |
-| 10 dez. 2025 | aprovação da IN TCE/MA nº 82 |
-| 15 dez. 2025 | publicação e início da vigência |
-| 1º jan. 2026 | limite para implementação integral das medidas e marco exigido para a execução das emendas de 2026 |
-| 8 abr. 2026 | IN nº 84 disciplina certidão e conta específica para transferências especiais, sem alterar formalmente a IN nº 82 |
-
-Uma notícia institucional de fevereiro de 2026 empregou a expressão “alterações da IN 82/2025”, sem identificar ato alterador. A pesquisa no Diário encontrou a IN nº 83/2026, mas ela altera as INs nº 52/2017 e nº 73/2022, relativas à prestação de contas. Até o corte deste material, **não foi localizada alteração formal da IN nº 82/2025**. Em prova, notícia de capacitação não substitui ato normativo publicado.
-
-## 2. Fundamentos e conceitos centrais
-
-O preâmbulo relaciona a IN a cinco bases principais:
-
-- publicidade e transparência na Administração Pública;
-- art. 163-A da Constituição Federal, que exige divulgação integrada de dados contábeis, orçamentários e fiscais;
-- Lei nº 12.527/2011, com a transparência ativa como regra;
-- decisões do STF na ADPF 854, especialmente a aplicação do modelo federal a Estados e Municípios;
-- Nota Recomendatória Conjunta nº 01/2025 das entidades do controle externo.
-
-### 2.1. Transparência
-
-Transparência é tornar a informação pública, acessível, completa, gratuita e tempestiva. Na IN, ela não é atendida por uma notícia genérica sobre o repasse: exige dados capazes de revelar quem propôs, o que será executado, quanto foi alocado, onde ocorrerá a execução e quais atos materializaram a despesa.
-
-### 2.2. Rastreabilidade
-
-Rastreabilidade é a possibilidade de reconstruir o caminho do recurso. O controle deve correlacionar:
+A finalidade central é permitir que o recurso seja acompanhado ao longo de todo o percurso:
 
 $$
-\text{origem} \rightarrow \text{emenda} \rightarrow \text{executor ou beneficiário} \rightarrow \text{despesa} \rightarrow \text{beneficiário final}
+\text{origem} \rightarrow \text{emenda} \rightarrow \text{executor/beneficiário} \rightarrow \text{despesa} \rightarrow \text{beneficiário final}
 $$
 
-Por isso a norma valoriza código único, fonte contábil, empenho, liquidação, ordem bancária, documento fiscal, instrumento jurídico e processo administrativo.
+Duas ideias estruturam praticamente toda a norma:
 
-> **Distinção:** transparência permite ver; rastreabilidade permite relacionar cada etapa e conferir o percurso integral do dinheiro. Uma página pública com dados fragmentados pode ser transparente em aparência e ainda falhar em rastreabilidade.
+- **transparência:** tornar públicas as informações relevantes, de modo acessível, gratuito e tempestivo;
+- **rastreabilidade:** permitir relacionar os registros e reconstruir o caminho do recurso até seu destino final.
 
-## 3. Alcance e princípios: art. 1º
+Uma informação pode estar publicamente visível e ainda assim ser insuficiente para rastrear o recurso se os dados não permitirem vincular emenda, receita, despesa, documentos e beneficiários.
 
-O art. 1º alcança:
+## 3. Art. 1º — alcance e princípios
 
-- emendas parlamentares estaduais;
-- emendas parlamentares municipais; e
-- transferências voluntárias delas decorrentes.
+A IN alcança:
 
-A referência às transferências voluntárias é vinculada às emendas. A IN não transforma toda transferência voluntária realizada no Maranhão em emenda parlamentar.
+1. emendas parlamentares **estaduais**;
+2. emendas parlamentares **municipais**; e
+3. transferências voluntárias **decorrentes dessas emendas**.
+
+A referência às transferências voluntárias não transforma toda transferência voluntária em emenda parlamentar.
 
 O controle deve assegurar transparência, rastreabilidade e observância dos princípios da:
 
-1. legalidade;
-2. impessoalidade;
-3. moralidade;
-4. publicidade; e
-5. eficiência.
+- legalidade;
+- impessoalidade;
+- moralidade;
+- publicidade; e
+- eficiência.
 
-A norma alcança atos desde a origem do recurso até o beneficiário final. Também permite fiscalizar entidades privadas sem fins lucrativos que recebam recursos decorrentes de emendas.
+## 4. Art. 2º — competências do TCE/MA
 
-## 4. Competências do TCE/MA: art. 2º
+O art. 2º concentra seis competências.
 
-O art. 2º distribui seis competências:
-
-| Inciso | Competência | Foco de prova |
+| Inciso | Competência | Ponto de atenção |
 |---|---|---|
-| I | fiscalizar gestores quanto à aplicação dos recursos e à conformidade dos atos | da origem ao beneficiário final |
-| II | fiscalizar entidades privadas sem fins lucrativos beneficiárias | o controle não termina no ente público repassador |
-| III | acompanhar mecanismos de transparência dos jurisdicionados | inclui eventual integração de sistemas |
-| IV | verificar práticas que comprometem o controle | contas intermediárias, contas de passagem e saques em espécie |
-| V | verificar registro de receitas e despesas | normas nacionais, PCASP, fontes, classificações e códigos |
+| I | fiscalizar gestores quanto à aplicação dos recursos e à conformidade dos atos | da origem até o beneficiário final |
+| II | fiscalizar entidades privadas sem fins lucrativos beneficiárias | a natureza privada não encerra o controle |
+| III | acompanhar mecanismos de transparência dos jurisdicionados | inclusive eventual integração de sistemas |
+| IV | verificar práticas que comprometam o controle | contas intermediárias, contas de passagem e saques em espécie |
+| V | verificar o registro de receitas e despesas | normas nacionais, PCASP, fontes, classificações e códigos |
 | VI | expedir atos complementares | padronização de controle, prestação de contas e julgamento |
 
-### 4.1. Práticas de risco
+### 4.1. Práticas que comprometem o controle
 
-Contas intermediárias, contas de passagem e saques em espécie dificultam a vinculação entre origem e destino. A norma manda o Tribunal **verificar** essas práticas. Não se deve inventar, com base apenas no art. 2º, uma sanção automática ou afirmar que toda ocorrência já prova desvio.
+Contas intermediárias, contas de passagem e saques em espécie são exemplos expressos de práticas que o Tribunal deve **verificar**. O dispositivo não estabelece que qualquer ocorrência seja, por si só, prova definitiva de desvio ou que produza sanção automática.
 
-### 4.2. Registro contábil
+### 4.2. Rastreabilidade contábil
 
-Receitas e despesas devem seguir as normas nacionais de contabilidade pública, especialmente o Plano de Contas Aplicado ao Setor Público. A identificação de fontes, classificações e códigos da emenda torna possível cruzar o registro contábil com a execução financeira e o objeto divulgado.
+Receitas e despesas decorrentes das emendas devem observar as normas nacionais de contabilidade pública, especialmente o **Plano de Contas Aplicado ao Setor Público (PCASP)**, com identificação contábil de:
 
-## 5. Plano de ação dos jurisdicionados: art. 3º
+- fontes;
+- classificações; e
+- códigos das emendas.
 
-O TCE/MA determinará aos órgãos e entidades sujeitos à sua jurisdição a apresentação de plano de ação detalhado, no prazo que fixar. O documento deve indicar como serão implementados ou aperfeiçoados os mecanismos de transparência e rastreabilidade.
+A individualização contábil permite cruzar o registro da receita e da despesa com a emenda e com os demais dados de execução.
+
+## 5. Art. 3º — plano de ação dos jurisdicionados
+
+O TCE/MA determinará aos órgãos e entidades sujeitos à sua jurisdição a apresentação de **plano de ação detalhado**, no prazo que o próprio Tribunal fixar.
+
+A IN **não fixa um número único de dias** para esse plano.
 
 O conteúdo mínimo é:
 
 1. diagnóstico da situação atual quanto à publicidade e à rastreabilidade;
-2. cronograma de ações corretivas ou de melhoria;
-3. identificação dos responsáveis pela implementação; e
+2. cronograma das ações corretivas ou de melhoria;
+3. identificação dos responsáveis pela implementação das medidas; e
 4. previsão de integração com sistemas de planejamento, orçamento, finanças e controle interno.
 
-> **Pegadinha:** a IN não fixa no art. 3º um prazo numérico único para todos os planos. O prazo será fixado pelo Tribunal.
+### 5.1. Plano de ação × plano de trabalho
 
-### 5.1. Plano de ação não é plano de trabalho
+| Documento | Onde aparece | Finalidade |
+|---|---|---|
+| plano de ação | art. 3º | adequar institucionalmente transparência e rastreabilidade |
+| plano de trabalho | art. 4º, parágrafo único, III | detalhar objeto, metas e finalidade da emenda |
 
-| Documento | Função |
-|---|---|
-| Plano de ação do art. 3º | organizar a adequação institucional dos mecanismos de transparência e rastreabilidade |
-| Plano de trabalho do art. 4º | detalhar objeto, metas e finalidade de uma emenda divulgada |
+O prazo do plano de ação também não se confunde com os **30 dias do art. 9º**, atribuídos à Secretaria de Fiscalização para propor normas complementares.
 
-Trocar esses documentos altera o sujeito e a finalidade examinados.
+## 6. Art. 4º — divulgação pública antes da execução
 
-## 6. Divulgação prévia: art. 4º
+O Tribunal verificará se as informações referentes às emendas foram divulgadas **antes da execução orçamentária e financeira**, em meio eletrônico de acesso público.
 
-O TCE/MA verificará se as informações foram divulgadas **antes da execução orçamentária e financeira**. A divulgação deve ocorrer em meio eletrônico de acesso público e conter:
+O conteúdo mínimo compreende:
 
 1. identificação do parlamentar proponente;
 2. código único da emenda, vinculado ao ato normativo que a aprovou;
@@ -137,174 +115,194 @@ O TCE/MA verificará se as informações foram divulgadas **antes da execução 
 5. órgão ou entidade executora ou beneficiária;
 6. localidade beneficiada;
 7. cronograma físico e financeiro;
-8. dados completos da execução: empenho, liquidação, ordem bancária, notas fiscais, medições, recibos e relatórios;
-9. instrumentos jurídicos celebrados e número do processo administrativo correspondente.
+8. dados completos da execução da despesa, incluindo empenho, liquidação, ordem bancária, notas fiscais, medições, recibos e relatórios; e
+9. identificação dos instrumentos jurídicos celebrados e número do processo administrativo correspondente.
 
-### 6.1. Dois momentos na mesma transparência
+### 6.1. Publicidade prévia e atualização durante a execução
 
-A regra exige divulgação antes da execução, mas também inclui dados que surgem durante a execução. A leitura coerente é:
+O caput exige publicidade anterior à execução, enquanto o inciso VIII inclui informações que só surgem no curso da despesa.
 
-- antes de executar, publicar os elementos já existentes, como autor, código, objeto, valor, executor, localidade, plano e cronograma;
-- durante a execução, manter o meio eletrônico atualizado com empenhos, liquidações, pagamentos e documentos comprobatórios.
+A leitura operacional coerente é:
 
-Não seria possível divulgar uma nota fiscal futura antes de ela existir. Isso não elimina a condição de publicidade prévia dos dados de planejamento.
+- **antes da execução:** publicar os dados de planejamento já existentes — autor, código, objeto, valor, executor/beneficiário, localidade, plano e cronograma;
+- **durante a execução:** manter o meio eletrônico atualizado com empenhos, liquidações, ordens bancárias e documentos comprobatórios à medida que forem produzidos.
 
-## 7. Sistemas e integrações: art. 5º
+Isso não transforma a publicidade prévia em publicidade apenas posterior: divulgar autor, objeto e valor somente depois do primeiro pagamento continua contrariando o art. 4º.
 
-O art. 5º dirige obrigações ao Poder Executivo Estadual e aos Poderes Executivos Municipais. Eles devem:
+## 7. Art. 5º — sistemas, integração e dados abertos
 
-1. adaptar sistemas eletrônicos de fiscalização, orçamento e finanças para cadastro, identificação, registro, acompanhamento e rastreabilidade integral;
-2. viabilizar integração com bases federais, estaduais e municipais, inclusive o Transferegov, com consistência e interoperabilidade;
-3. garantir transparência ativa completa, gratuita e tempestiva, em formato aberto.
+O art. 5º dirige deveres ao **Poder Executivo Estadual** e aos **Poderes Executivos Municipais**.
 
-Os parágrafos acrescentam quatro regras:
+Eles devem:
 
-- manter plataforma digital de dados abertos que permita consulta, download e reutilização;
-- designar unidade responsável pela governança das informações;
-- admitir instrumentos de cooperação técnica para compartilhar soluções tecnológicas;
-- tratar a implementação integral dessas providências como condição prévia para iniciar a execução das emendas no exercício de 2026.
+1. adaptar sistemas eletrônicos de fiscalização, orçamento e finanças para cadastro, identificação, registro, acompanhamento e rastreabilidade integral das emendas;
+2. viabilizar integrações com bases federais, estaduais e municipais, inclusive o **Transferegov**, assegurando consistência e interoperabilidade; e
+3. garantir transparência ativa completa, gratuita e tempestiva, com dados em formato aberto.
 
-### 7.1. Obrigação e faculdade
+Os parágrafos acrescentam:
 
-“Deverão adaptar”, “deverão instituir” e “designará” exprimem deveres. Já a cooperação técnica é faculdade: os entes **poderão** firmar os instrumentos. A faculdade sobre cooperação não torna facultativa a obtenção do resultado exigido.
+- plataforma digital com dados abertos que permita consulta pública, download e reutilização;
+- designação, por cada Poder Executivo, de unidade responsável pela governança das informações;
+- possibilidade de cooperação técnica para compartilhamento de soluções tecnológicas; e
+- implementação integral das providências do art. 5º como **condição prévia para o início da execução das emendas parlamentares no exercício de 2026**.
 
-### 7.2. Dados abertos
+### 7.1. Obrigação × faculdade
 
-Formato aberto deve permitir uso e reutilização. Um arquivo inacessível, sem possibilidade de download ou estruturado apenas para leitura visual pode não atender ao conjunto de consulta, download e reutilização exigido pelo § 1º.
+A cooperação técnica é facultativa, porque o § 3º usa **“poderão”**. Isso não torna facultativos os resultados exigidos nos demais dispositivos: adaptação de sistemas, integração, transparência ativa, plataforma de dados abertos e governança permanecem deveres.
 
-## 8. Fiscalização e tomada de contas especial: art. 6º
+### 7.2. Dado aberto não é apenas arquivo visível
 
-O TCE/MA aprecia processos de fiscalização relativos a emendas estaduais e municipais, independentemente da modalidade, conforme os procedimentos e instrumentos dos arts. 44, 50 e 51 da Lei Orgânica do Tribunal.
+A plataforma deve permitir **consulta pública, download e reutilização**. Assim, mera visualização de um documento sem condições adequadas de consulta, obtenção e reutilização não satisfaz, por si só, o conjunto de funcionalidades do § 1º.
+
+## 8. Art. 6º — fiscalização e tomada de contas especial
+
+O TCE/MA aprecia os processos de fiscalização relativos às emendas estaduais e municipais, independentemente da modalidade, conforme os procedimentos e instrumentos previstos nos **arts. 44, 50 e 51 da Lei Estadual nº 8.258/2005**.
 
 A fiscalização abrange:
 
 - regularidade das receitas transferidas;
 - execução orçamentária;
 - execução financeira; e
-- atos administrativos dos órgãos e entidades beneficiárias.
+- atos administrativos praticados pelos órgãos e entidades beneficiárias.
 
-Aplicam-se à instrução, apreciação e julgamento as normas gerais de fiscalização e auditoria, os requisitos adicionais da IN e as portarias que a Presidência venha a expedir.
+Na instrução, apreciação e julgamento aplicam-se:
+
+- as normas gerais de processos de fiscalização e auditorias;
+- os requisitos adicionais da própria IN nº 82; e
+- portarias que venham a ser expedidas pela Presidência do TCE/MA.
 
 ### 8.1. Conversão em tomada de contas especial
 
-O Tribunal **poderá** converter o processo de fiscalização em tomada de contas especial, com fundamento no art. 52 da Lei Orgânica, quando houver:
+O Tribunal **poderá** determinar a conversão do processo de fiscalização em tomada de contas especial, conforme o art. 52 da Lei Orgânica, quando houver:
 
 1. omissão no dever de prestar contas;
 2. não comprovação da aplicação dos recursos; ou
 3. indícios de irregularidades que exijam apuração individualizada de responsabilidades.
 
-“Poderá” indica que a IN autoriza a conversão diante desses pressupostos; o dispositivo não declara conversão automática por qualquer falha formal.
+A conversão, portanto, não é automática por qualquer falha formal.
 
-A autoridade do órgão ou entidade beneficiária será comunicada e deverá garantir a instrução regular dos autos e a eventual recomposição do erário.
+A autoridade responsável pelo órgão ou entidade beneficiária será comunicada e deverá adotar as medidas necessárias para:
 
-Para resguardar o interesse público, o Tribunal ainda pode determinar:
+- garantir a regular instrução dos autos; e
+- promover eventual recomposição do erário.
+
+Para resguardar o interesse público, o Tribunal pode ainda determinar:
 
 - inclusão de responsáveis solidários;
 - inspeções;
 - auditorias especiais; e
 - medidas cautelares.
 
-## 9. Competência sobre emendas federais: art. 7º
+## 9. Art. 7º — emendas federais individuais
 
-O art. 7º separa duas funções:
+O art. 7º separa julgamento e fiscalização local:
 
 | Órgão | Competência preservada |
 |---|---|
 | TCU | julgar as prestações de contas das emendas federais individuais |
 | TCE/MA | fiscalizar e analisar a execução desses recursos pelos entes sob sua jurisdição |
 
-A atuação estadual ocorre especialmente nas ações da Rede Integrar. A ressalva ao TCU não cria uma zona sem fiscalização local, nem transfere ao TCE/MA o julgamento reservado ao Tribunal da União.
+A IN destaca especialmente as ações de fiscalização da **Rede Integrar**.
 
-## 10. Disposições finais: arts. 8º a 10
+Portanto, a origem federal não elimina a fiscalização do TCE/MA sobre a execução realizada por ente maranhense, mas o Tribunal estadual não assume o julgamento reservado ao TCU.
 
-### 10.1. Implementação integral
+## 10. Arts. 8º a 10 — implementação, complementação e vigência
 
-O art. 8º fixou 1º de janeiro de 2026 para a implementação integral das medidas, sem impedir a edição de normas complementares. Esse marco se harmoniza com a condição prévia do art. 5º, § 4º, para o início da execução das emendas de 2026.
+### 10.1. Art. 8º — implementação integral
 
-### 10.2. Proposta da Secretaria de Fiscalização
+A implementação integral das medidas previstas na IN deveria ocorrer até **1º de janeiro de 2026**, sem prejuízo da edição de normas complementares.
 
-O art. 9º atribui à Secretaria de Fiscalização o dever de propor, em 30 dias, edição ou alteração de instruções normativas complementares destinadas a detalhar:
+Esse marco é compatível com o art. 5º, § 4º, que condiciona o início da execução das emendas no exercício de 2026 à implementação integral das providências tecnológicas daquele artigo.
+
+### 10.2. Art. 9º — prazo da Secretaria de Fiscalização
+
+A Secretaria de Fiscalização deveria propor, em **30 dias**, edição ou alteração de instruções normativas complementares para detalhar:
 
 - fluxos;
 - formulários;
 - roteiros; e
-- listas de verificação.
+- listas de verificação aplicáveis à fiscalização das emendas.
 
-Não confunda o prazo de 30 dias da Secretaria com o prazo do plano de ação dos jurisdicionados, que será fixado pelo Tribunal.
+> **Pegadinha:** esses 30 dias não são o prazo do plano de ação do art. 3º.
 
-### 10.3. Vigência
+### 10.3. Art. 10 — vigência
 
-O art. 10 determina vigência na data da publicação: 15 de dezembro de 2025. A aprovação ocorreu cinco dias antes, mas não é o marco de início da vigência.
+A IN entra em vigor na data de sua publicação: **15 de dezembro de 2025**.
 
-## 11. IN nº 84/2026: desdobramento relacionado, não alteração textual
+Não confunda:
 
-A IN TCE/MA nº 84/2026 criou a Certidão de Cumprimento dos Requisitos de Transparência e Rastreabilidade como condição para executar emendas impositivas estaduais e municipais na modalidade transferência especial, ou emenda PIX. Também detalhou conta bancária específica e critérios de verificação.
+- **10 de dezembro de 2025:** data da IN e de sua aprovação em sessão;
+- **15 de dezembro de 2025:** publicação e início da vigência;
+- **1º de janeiro de 2026:** marco de implementação integral.
 
-Ela compartilha os fundamentos e operacionaliza parte do ambiente de controle, mas possui objeto próprio e não declara alterar a IN nº 82. Para responder questões literais:
+## 11. Ato correlato que não deve ampliar o item
 
-- a IN nº 82 abrange emendas estaduais e municipais e transferências voluntárias delas decorrentes;
-- a IN nº 84 concentra-se na certidão aplicável às transferências especiais;
-- os requisitos específicos da certidão, seu prazo de emissão e sua validade pertencem à IN nº 84, não ao texto dos dez artigos da IN nº 82.
+A IN TCE/MA nº 84/2026 disciplina requisitos específicos relacionados às **transferências especiais**. Ela é relevante para evitar confusão normativa, mas não declara alterar textualmente a IN nº 82.
 
-## 12. Aplicações práticas
+Para este assunto:
 
-### Caso 1: portal criado depois do primeiro pagamento
+- memorize a literalidade e as aplicações dos arts. 1º a 10 da IN nº 82;
+- não restrinja a IN nº 82 às chamadas emendas PIX;
+- não transporte para a IN nº 82 requisitos específicos criados por outro ato apenas porque tratam do mesmo ambiente de transparência e rastreabilidade.
 
-Um município divulga autor, objeto e valor somente após pagar a primeira despesa. Ainda que os dados estejam corretos, há desconformidade temporal com o art. 4º, que exige divulgação pública antes da execução orçamentária e financeira.
+## 12. Situações-problema
 
-### Caso 2: planilha pública sem vínculo contábil
+### Caso 1 — portal criado depois do primeiro pagamento
 
-O portal lista emendas, mas as receitas e despesas não contêm fontes, classificações ou códigos capazes de vinculá-las. Há publicidade parcial, porém a rastreabilidade exigida pelo art. 2º, V, e pelo art. 5º permanece deficiente.
+O município divulga proponente, objeto e valor apenas depois do primeiro pagamento. Há publicidade posterior, mas falta a divulgação prévia exigida pelo art. 4º.
 
-### Caso 3: entidade privada beneficiária
+### Caso 2 — portal público sem vínculo contábil
 
-Uma associação sem fins lucrativos recebe recursos decorrentes de emenda. A natureza privada não afasta o controle: o art. 2º, II, inclui expressamente essas entidades na fiscalização do TCE/MA.
+O portal lista as emendas, mas receitas e despesas não são individualizadas por fontes, classificações e códigos. Há déficit de rastreabilidade contábil, ainda que parte das informações seja pública.
 
-### Caso 4: contas prestadas sem comprovação
+### Caso 3 — entidade privada sem fins lucrativos
 
-O processo apresenta formulário de prestação de contas, mas não comprova a aplicação. O art. 6º, § 2º, admite conversão em tomada de contas especial porque a existência formal da prestação não substitui a comprovação material.
+Uma associação recebe recursos decorrentes de emenda municipal. O art. 2º, II, inclui expressamente essas entidades na competência fiscalizatória do TCE/MA.
 
-### Caso 5: recurso federal executado por município maranhense
+### Caso 4 — prestação apresentada sem comprovação material
 
-O julgamento da prestação de contas da emenda federal individual permanece com o TCU. O TCE/MA, contudo, pode fiscalizar e analisar a execução pelo município sob sua jurisdição, especialmente em ação da Rede Integrar.
+O responsável apresenta formalmente contas, mas não comprova a aplicação dos recursos. O art. 6º, § 2º, permite a conversão em tomada de contas especial.
+
+### Caso 5 — emenda federal executada por município maranhense
+
+O TCU preserva a competência para julgar a prestação de contas da emenda federal individual. O TCE/MA pode fiscalizar e analisar a execução local pelo ente sob sua jurisdição, especialmente em ação da Rede Integrar.
 
 ## 13. Mapa dos artigos
 
 | Artigo | Núcleo |
 |---|---|
-| 1º | objeto, alcance e princípios |
+| 1º | alcance, transparência, rastreabilidade e princípios |
 | 2º | competências do TCE/MA |
 | 3º | plano de ação dos jurisdicionados |
-| 4º | divulgação pública prévia e conteúdo mínimo |
+| 4º | divulgação pública antes da execução e conteúdo mínimo |
 | 5º | sistemas, integração, dados abertos e governança |
-| 6º | fiscalização e possível tomada de contas especial |
-| 7º | coordenação de competências entre TCU e TCE/MA |
+| 6º | fiscalização e possível conversão em TCE |
+| 7º | TCU × TCE/MA nas emendas federais individuais |
 | 8º | implementação integral até 1º jan. 2026 |
 | 9º | proposta de normas complementares em 30 dias |
 | 10 | vigência na publicação |
 
-## 14. Erros recorrentes de prova
+## 14. Pegadinhas de prova
 
-- restringir a IN às emendas PIX;
-- afirmar que entidades privadas sem fins lucrativos escapam da fiscalização;
-- trocar o plano de ação institucional pelo plano de trabalho da emenda;
-- situar a divulgação somente depois da despesa;
-- tratar a cooperação técnica como obrigação, ou os dados abertos como faculdade;
-- confundir possibilidade de conversão em TCE com automatismo;
-- excluir a fiscalização estadual quando a emenda individual é federal;
-- usar 10 de dezembro, data de aprovação, como início da vigência;
-- transportar requisitos específicos da IN nº 84 para a literalidade da IN nº 82;
-- reconhecer alteração normativa apenas porque uma notícia usou a palavra “alterações”.
+- A IN nº 82 não trata apenas de emendas PIX.
+- Transferências voluntárias são alcançadas quando **decorrentes das emendas** abrangidas.
+- Entidade privada sem fins lucrativos beneficiária também pode ser fiscalizada.
+- Plano de ação do art. 3º não é plano de trabalho do art. 4º.
+- O prazo do plano de ação é fixado pelo TCE/MA; os 30 dias pertencem ao art. 9º.
+- Divulgação de planejamento é prévia; documentos de execução são atualizados à medida que surgem.
+- Conta intermediária e saque em espécie são práticas a verificar, não prova automática de ilícito.
+- Cooperação técnica é facultativa; os deveres de transparência e rastreabilidade não são.
+- Dado aberto deve permitir consulta, download e reutilização.
+- Conversão em TCE é possível nos pressupostos do art. 6º, § 2º; não é automática por qualquer falha.
+- Competência do TCU para julgar emenda federal individual não exclui a fiscalização local do TCE/MA.
+- Vigência em 15 dez. 2025 não se confunde com implementação integral até 1º jan. 2026.
+- A IN nº 84/2026 é correlata; seus requisitos próprios não integram automaticamente a literalidade da IN nº 82.
 
 ## Referências
 
-- Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 82/2025](https://diario.apps.tcema.tc.br/publicacao/pdf/9406). Diário Oficial Eletrônico, edição nº 2921/2025, publicada em 15 dez. 2025, p. 2-5; acesso em 28 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [TCE aprova instrução normativa sobre emendas parlamentares](https://www.tcema.tc.br/index.php/noticias/3295-tce-aprova-instrucao-normativa-que-regulamenta-fiscalizacao-da-execucao-de-emendas-parlamentares). Notícia institucional de 16 dez. 2025; acesso em 28 jul. 2026.
-- Supremo Tribunal Federal. [Estados e municípios devem adotar modelo federal de transparência](https://noticias.stf.jus.br/postsnoticias/emendas-parlamentares-estados-e-municipios-devem-adotar-modelo-federal-de-transparencia/). Decisão na ADPF 854 noticiada em 23 out. 2025; acesso em 28 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Capacitação sobre a IN nº 82/2025 e a IN nº 83/2026](https://www.tcema.tc.br/index.php/noticias/3325-tce-promove-capacitacao-sobre-instrucoes-normativas-que-disciplinam-aplicacao-de-emendas-parlamentares-impositivas-e-sistema-de-prestacao-de-contas). Notícia institucional de 20 fev. 2026; acesso em 28 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 83/2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9437). Altera as INs nº 52/2017 e nº 73/2022, sem alteração expressa da IN nº 82/2025; publicada em 10 fev. 2026; acesso em 28 jul. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 84/2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9472). Certidão e conta específica para transferências especiais; publicada em 8 abr. 2026; acesso em 28 jul. 2026.
-- Brasil. [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Arts. 163-A e 166-A, versão vigente no corte de 28 jul. 2026; acesso na mesma data.
-- Brasil. [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Lei de Acesso à Informação, versão vigente no corte de 28 jul. 2026; acesso na mesma data.
-- Associação dos Membros dos Tribunais de Contas do Brasil e entidades signatárias. [Nota Recomendatória Conjunta nº 01/2025](https://atricon.org.br/wp-content/uploads/2025/09/ATRICON-IRB-ABRACOM-CNPTC-AUDICON-AMPCON-E-CNPGC-Fiscalizacao-da-execucao-dos-recursos-advindos-de-emendas-parlamentares.-1.pdf). Diretrizes para fiscalização das emendas parlamentares; acesso em 28 jul. 2026.
-- Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. [Edital nº 1 - TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático do cargo; acesso em 28 jul. 2026.
+- Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 82/2025](https://diario.apps.tcema.tc.br/publicacao/pdf/9406). Diário Oficial Eletrônico, edição nº 2921/2025, publicada em 15 dez. 2025, p. 2-5.
+- Tribunal de Contas do Estado do Maranhão. [TCE aprova instrução normativa sobre emendas parlamentares](https://www.tcema.tc.br/index.php/noticias/3295-tce-aprova-instrucao-normativa-que-regulamenta-fiscalizacao-da-execucao-de-emendas-parlamentares). Notícia institucional de 16 dez. 2025.
+- Supremo Tribunal Federal. [Estados e municípios devem adotar modelo federal de transparência](https://noticias.stf.jus.br/postsnoticias/emendas-parlamentares-estados-e-municipios-devem-adotar-modelo-federal-de-transparencia/). ADPF 854, decisão noticiada em 23 out. 2025.
+- Brasil. [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Art. 163-A.
+- Brasil. [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Lei de Acesso à Informação.
+- Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. [Edital nº 1 — TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático e regra de atualização legislativa do cargo.
