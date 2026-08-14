@@ -46,13 +46,13 @@ Duas pegadinhas importantes:
 - A falta de plano no prazo **não extingue** a unidade nem libera atividades incompatíveis com seus objetivos.
 - A **redução ou desafetação** de unidade de conservação exige **lei específica**.
 - A ampliação por simples acréscimo territorial pode ocorrer por ato do mesmo nível do ato de criação, observada a consulta exigida pela lei.
-- Em Parque Nacional, eventual presença privada ou comunitária preexistente não muda a natureza jurídica da categoria; a regularização segue o regime aplicável.
+- Em Parque Nacional, eventual presença privada ou comunitária preexistente não muda a natureza jurídica da categoria; até a regularização, normas e termos de compromisso podem disciplinar transitoriamente a permanência e os usos compatíveis.
 
 Essas regras são suficientes para resolver as principais questões comparativas sem transformar o assunto em estudo aprofundado de Direito Ambiental.
 
 ## 4. Oito APAs estaduais do Maranhão
 
-O inventário estadual contemporâneo reúne **oito APAs estaduais**. Para prova, priorize **nome + localização/traço distintivo**, e não listas extensas de municípios ou áreas com muitas casas decimais.
+O inventário estadual contemporâneo reúne **oito APAs estaduais**, administradas na esfera estadual pela **SEMA-MA**. Para prova, priorize **nome + localização/traço distintivo**, e não listas extensas de municípios ou áreas com muitas casas decimais.
 
 | APA estadual | Chave geográfica |
 |---|---|
@@ -63,7 +63,7 @@ O inventário estadual contemporâneo reúne **oito APAs estaduais**. Para prova
 | **Upaon-Açu/Miritiba/Alto Preguiças** | grande faixa centro-norte, associada à Ilha do Maranhão, Miritiba e alto Preguiças |
 | **Nascente do Rio das Balsas** | sul do estado; mananciais e Cerrado |
 | **Itapiracó** | São Luís/São José de Ribamar; remanescentes e nascentes em contexto urbano/periurbano |
-| **Morros Garapenses** | leste maranhense; Cerrado, água, paisagens e patrimônio fossilífero/paleobotânico |
+| **Morros Garapenses** | leste maranhense; Afonso Cunha, Buriti, Coelho Neto e Duque Bacelar |
 
 ### Cautelas
 
@@ -82,9 +82,11 @@ Não confunda:
 - **RESEX Marinha do Delta do Parnaíba** → outra unidade, com categoria e regras próprias;
 - **APA estadual da Foz do Preguiças/Pequenos Lençóis** → unidade estadual distinta.
 
+A eventual sobreposição regional entre unidades **não funde categorias**: cada UC mantém seu regime jurídico e seus objetivos.
+
 ## 6. Três Parques Nacionais com território no Maranhão
 
-No corte do edital, **três Parques Nacionais** alcançam o território maranhense:
+No corte do edital, **três Parques Nacionais**, administrados na esfera federal pelo **ICMBio**, alcançam o território maranhense:
 
 | Parque Nacional | Criação | Incidência no Maranhão | Chave |
 |---|---:|---|---|
