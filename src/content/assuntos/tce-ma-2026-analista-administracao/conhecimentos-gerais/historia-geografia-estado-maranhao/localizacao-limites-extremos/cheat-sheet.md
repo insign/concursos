@@ -2,125 +2,92 @@
 
 ## Mapa mental
 
-> Atlântico-N · Piauí-L · Tocantins-S · Pará-O
+> **N–Atlântico · L–Piauí · S–Tocantins · O–Pará**
 
 ## Posição
 
-- Região: **Nordeste**.
-- Porção: ocidental/noroeste do Nordeste.
-- Hemisférios: **Sul + Ocidental**.
-- Zona: tropical.
-- Fronteira internacional: **não possui**.
+| Chave | Maranhão |
+|---|---|
+| Região | **Nordeste** |
+| Porção regional | ocidental/noroeste |
+| Hemisférios | **Sul + Ocidental** |
+| Zona | tropical, ao sul do Equador |
+| Fronteira internacional | **não possui** |
 
-## Área atual
+> Parte do Maranhão integra a Amazônia Legal, mas isso **não** o torna estado da Região Norte.
 
-- **329.651,463 km²**.
-- IBGE, Malha Municipal Digital **2025**.
-- Estrutura vigente em **30/04/2025**.
-- **8º** maior estado do Brasil.
-- **2º** maior do Nordeste, após a Bahia.
+## Superfície
 
-Malha 2024/Anuário Estatístico do Brasil (AEB):
+- Área IBGE 2025: **329.651,463 km²**.
+- Aproximadamente **8º** maior estado do Brasil.
+- **2º** maior do Nordeste, atrás da Bahia.
+- ~331.937 km² = valor antigo.
 
-- 329.651,478 km²;
-- 3,87% do Brasil;
-- 21,24% do Nordeste.
+> Pequena mudança entre edições da malha ≠ perda territorial automática.
 
-> Edição diferente ≠ perda territorial.
-
-## Conceitos
+## Limite × divisa × fronteira
 
 | Termo | Chave |
 |---|---|
-| limite | separação territorial genérica |
+| limite | separação territorial geral |
 | divisa | separação entre estados |
-| fronteira | separação internacional |
-| linha de costa | interface terra-mar representada na escala |
+| fronteira internacional | separação entre países |
 
-Maranhão: divisas interestaduais + costa; sem faixa de fronteira.
+Maranhão = **divisas interestaduais + litoral atlântico**, sem fronteira internacional.
 
 ## Limites
 
-| Direção | Vizinho |
+| Direção | Limite |
 |---|---|
-| N | Atlântico |
-| L/SE | Piauí |
-| S/SO | Tocantins |
-| O/NO | Pará |
+| N | **Atlântico** |
+| L/SE | **Piauí** |
+| S/SO | **Tocantins** |
+| O/NO | **Pará** |
 
-Rios de referência:
+Não fazem divisa: **Ceará, Bahia, Goiás, Amazonas**.
 
-- Parnaíba: MA-PI.
-- Gurupi: MA-PA.
-- Tocantins: trecho MA-TO.
+## Rios como referências parciais
 
-> Rio importante ≠ toda a divisa.
+- **Parnaíba** → MA–PI.
+- **Gurupi** → MA–PA.
+- **Tocantins** → MA–TO.
 
-## Costa
-
-- ~640 km: medida tradicional generalizada.
-- 2.242,69 km: linha detalhada IBGE 2022.
-- 33 municípios defrontantes: produto IBGE 2024.
-- 25 municípios com trechos listados: tabela de extensão 2022.
-
-Escala, edição e critério explicam as diferenças.
+> Rio de referência ≠ descrição de toda a divisa.
 
 ## Pontos extremos
 
-| Extremo | Coordenada |
-|---|---|
-| N | 1°02′58″ S, 45°58′42″ O |
-| S | 10°15′42″ S, 46°00′11″ O |
-| L | 2°57′27″ S, 41°47′46″ O |
-| O | 5°20′57″ S, 48°45′19″ O |
+| Extremo | Setor associado | Coordenada oficial |
+|---|---|---|
+| N | Carutapera | 1°02′58″ S, 45°58′42″ O |
+| S | Alto Parnaíba | 10°15′42″ S, 46°00′11″ O |
+| L | Araioses | 2°57′27″ S, 41°47′46″ O |
+| O | São Pedro da Água Branca | 5°20′57″ S, 48°45′19″ O |
 
-Associações:
+Coordenadas = referência; **não é necessário transformar todos os segundos em decoreba**.
 
-- N: Carutapera, setor costeiro/insular.
-- S: Alto Parnaíba, setor da Chapada das Mangabeiras.
-- L: Araioses, Delta do Parnaíba.
-- O: São Pedro da Água Branca, sistema Tocantins-Araguaia.
+## Leitura de S/O
 
-## Leitura de coordenadas
+- menor latitude **S** → mais ao norte;
+- maior latitude **S** → mais ao sul;
+- menor longitude **O** → mais a leste;
+- maior longitude **O** → mais a oeste.
 
-- menor latitude S → mais ao norte;
-- maior latitude S → mais ao sul;
-- menor longitude O → mais a leste;
-- maior longitude O → mais a oeste.
-
-Ponto extremo ≠ sede ≠ centroide.
-
-## Cartografia
-
-- Fonte: Malha Municipal 2024.
-- Referência: **SIRGAS 2000**.
-- Ilhas representadas podem alterar extremos.
-- Mar territorial não aumenta área nem desloca extremo estadual.
-- A fonte consultada sobre o IMESC em 2026 não trouxe coordenadas finais substitutas.
-
-## Amazônia Legal
-
-- Região geográfica: Nordeste.
-- Recorte legal: parte a oeste de **44° O**.
-- 181 municípios relacionados.
-- 21 parcialmente interceptados.
-- Município seccionado conta inteiro na divulgação estatística.
-
-> Amazônia Legal ≠ Região Norte ≠ bioma Amazônia.
+> **48° O está mais a oeste que 41° O.**
 
 ## Pegadinhas
 
-- 331.937 km²: valor antigo.
-- Ceará/Bahia/Goiás/Amazonas: não fazem divisa.
-- “Toda divisa é rio”: falso.
-- “Litoral tem medida única”: falso.
-- “Todo Maranhão está na Amazônia Legal”: falso.
-- “Extremo norte é automaticamente a foz do Gurupi”: cautela; use a coordenada oficial.
+- Nordeste, não Região Norte.
+- Amazônia Legal ≠ Região Norte.
+- Atlântico ao norte não é fronteira internacional.
+- Ponto extremo ≠ sede municipal.
+- Ilha pode conter um extremo territorial.
+- Área oficial depende da edição da malha.
+- Não misture área territorial com comprimento de litoral.
 
 ## Método rápido
 
-1. Veja o ano da malha.
-2. Classifique o dado: área, percentual, costa ou coordenada.
-3. Aplique N-A, L-PI, S-TO, O-PA.
-4. Compare corretamente S/O.
-5. Exija fonte legal para alegada perda territorial.
+1. **Posição?** Nordeste; Sul/Ocidental.
+2. **Área?** ~329,65 mil km², IBGE 2025.
+3. **Limites?** N-A, L-PI, S-TO, O-PA.
+4. **Extremos?** leia latitude/longitude S/O.
+5. **Rio?** trate como referência parcial, não como toda a divisa.
