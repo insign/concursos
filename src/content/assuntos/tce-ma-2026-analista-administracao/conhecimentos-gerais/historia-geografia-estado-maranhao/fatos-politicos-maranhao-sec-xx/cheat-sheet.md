@@ -9,106 +9,98 @@ $$
 
 ## Recorte
 
-- 1951/1952-2000.
-- 1951: somente transição do assunto anterior.
-- 1965/1966: principal dobradiça.
-- 2000: limite inclusivo; 2002 fica fora.
+- **1951-2000**.
+- 1951 = transição do assunto anterior.
+- 1965/1966 = principal dobradiça.
+- 2000 = limite; 2002 fica fora.
 
 ## Periodização
 
 | Período | Chave |
 |---|---|
-| 1951-1965 | crise e divisão do vitorinismo |
+| 1951-1965 | desgaste do vitorinismo |
 | 1965/1966-1970 | vitória de Sarney e “Maranhão Novo” |
-| 1970-1979 | governos indiretos e facções da ARENA |
-| 1979-1986 | pluripartidarismo e volta do voto direto |
-| 1986-1989 | Cafeteira e Constituição estadual |
-| 1990-2000 | Lobão, Roseana e “Novo Tempo” |
+| 1970-1979 | governos indiretos + facções da ARENA |
+| 1979-1986 | pluripartidarismo + volta do voto direto |
+| 1986-1989 | Cafeteira + Constituição estadual |
+| 1990-2000 | Lobão + Roseana + “Novo Tempo” |
 
-## Fim do vitorinismo
+## Vitorinismo → sarneísmo
 
-> Processo: contestação desde 1951 + Oposições Coligadas + fissuras no PSD + contexto pós-1964 + eleição de 1965.
+> 1951 desgasta → oposição cresce → campo vitorinista se divide → Sarney vence em 1965 → toma posse em 1966.
 
-- 1965: derrota eleitoral.
-- 1966: posse e novo governo.
-- Vitorino continuou politicamente ativo; o antigo sistema não reapareceu intacto.
+- 1965 = ruptura eleitoral da hegemonia.
+- 1966 = início do novo governo.
+- Influência posterior de Vitorino ≠ restauração intacta do vitorinismo.
 
 ## Sarney antes de 1965
 
-- Começou no PSD.
-- Rompeu com o vitorinismo.
-- Ingressou na UDN.
-- Deputado pelas Oposições Coligadas em 1958 e 1962.
-- Oposições Coligadas = frente heterogênea, não partido único.
+- trajetória inicial no **PSD**;
+- rompe com o campo vitorinista;
+- atua nas **Oposições Coligadas**;
+- vinculação posterior à **UDN**;
+- deputado federal eleito em 1958 e reeleito em 1962.
+
+> Evite transformar a legenda formal do mandato iniciado em 1959 em pegadinha: fontes institucionais consultadas não são uniformes nesse registro. O ponto seguro é Oposições Coligadas + liderança udenista posterior.
 
 ## Eleição de 1965
 
-- 3 out. 1965: eleição direta.
-- Sarney: coligação UDN-PSP.
-- Vitória = oposição prévia + divisão governista + apoio Castelo Branco + revisão eleitoral.
+- **3 out. 1965**: eleição direta.
+- Sarney: **UDN-PSP**.
+- Causas combinadas: oposição acumulada + divisão vitorinista + força eleitoral de Sarney + apoio federal + revisão eleitoral.
 - Não explicar por causa única.
-- CPDOC: 121.062 votos.
-- Revisão eleitoral: números devem ser atribuídos ao CPDOC.
 
 ## “Maranhão Novo”
 
 | Dimensão | Núcleo |
 |---|---|
-| slogan | novo contra velho/vitorinismo |
-| administração | planejamento e quadros técnicos |
-| política | legitimação da nova liderança |
+| eleitoral | renovação contra o “velho” vitorinista |
+| administrativa | planejamento + quadros técnicos |
+| política | legitimação de nova liderança |
 
-> Modernização administrativa não prova fim do clientelismo.
+> Modernização administrativa ≠ fim automático de clientelismo, patronagem ou personalismo.
 
 ## Sarneísmo
 
-- Rede política, não apenas mandato ou família.
-- Alianças estaduais e federais.
-- Partidos, municípios, candidaturas e recursos.
-- “Oligarquia” e “patrimonialismo” = categorias analíticas; atribuir aos autores.
+- rede política, não apenas mandato ou família;
+- aliados + partidos + municípios + conexão federal;
+- “oligarquia”, patrimonialismo e clientelismo = categorias analíticas, não nomes jurídicos oficiais.
 
 ## ARENA e MDB
 
-- ARENA: sustentação do regime.
-- MDB: oposição consentida.
-- Sarney e Vitorino entraram na ARENA.
-- Disputa decisiva também ocorreu dentro da ARENA.
-- MDB estadual inicialmente fraco; maior espaço em São Luís.
+| Sigla | Papel formal |
+|---|---|
+| ARENA | sustentação do regime militar |
+| MDB | oposição consentida |
 
-> Bipartidarismo formal ≠ unidade real.
+- Sarney e Vitorino estiveram na **ARENA**.
+- Disputa importante ocorreu **dentro da ARENA**.
 
-## Governos indiretos
+> Bipartidarismo formal ≠ unidade política real.
 
-| Escolha | Governador | Dinâmica |
+## Governadores indiretos
+
+| Escolha | Governador | Chave |
 |---|---|---|
-| 1970 | Pedro Neiva | origem sarneísta; afastamento posterior |
-| 1974 | Nunes Freire | influência de Vitorino; conflito com sarneístas |
-| 1978 | João Castelo | ligado a Sarney; autonomia e ruptura posteriores |
+| 1970 | Pedro Neiva | ligado a Sarney; maior autonomia posterior |
+| 1974 | Nunes Freire | influência de Vitorino |
+| 1978 | João Castelo | ligado a Sarney; dissidência posterior |
 
-- “Biônico” = expressão corrente.
-- Formulação precisa: escolhido indiretamente por colégio eleitoral.
-- Antônio Dino assumiu em 1970 após saída de Sarney e rompeu com ele.
-
-## Municípios em 1976
-
-- Facções da ARENA disputavam por sublegendas.
-- Municípios sustentavam redes estaduais.
-- CPDOC: MDB fez 12 prefeituras.
-- ARENA vencedora não era ARENA unida.
+- fórmula precisa: **escolhidos indiretamente por colégio eleitoral**;
+- “biônico” = expressão corrente, não descrição técnica completa.
 
 ## Reorganização partidária
 
-- 29 nov. 1979: fim do bipartidarismo.
-- ARENA → principalmente PDS.
-- MDB → PMDB.
-- Surgem/reorganizam-se PDT, PT e outros.
-- Frente Liberal → PFL.
+- **1979**: fim do bipartidarismo.
+- ARENA → principalmente **PDS**.
+- MDB → **PMDB**.
+- Frente Liberal → **PFL**.
 
-## Eleições e sucessões
+## Direta × indireta
 
-| Ano | Forma | Resultado principal |
+| Ano | Forma | Resultado |
 |---|---|---|
-| 1965 | direta | Sarney |
+| 1965 | direta | José Sarney |
 | 1970 | indireta | Pedro Neiva |
 | 1974 | indireta | Nunes Freire |
 | 1978 | indireta | João Castelo |
@@ -116,100 +108,65 @@ $$
 | 1986 | direta | Epitácio Cafeteira |
 | 1990 | direta, 2 turnos | Edison Lobão |
 | 1994 | direta, 2 turnos | Roseana Sarney |
-| 1998 | direta, 1º turno | reeleição de Roseana |
+| 1998 | direta, 1º turno | Roseana reeleita |
 
-## Vices e substitutos
+## Volta do voto direto
 
-- Sarney → Antônio Dino, 1970.
-- João Castelo → Ivar Saldanha, 1982.
-- Cafeteira → João Alberto, 1990.
-- Lobão → Ribamar Fiquene, 1994.
+- EC federal **15/1980** restabelece eleição direta para governador.
+- **1982**: primeira eleição direta no Maranhão desde 1965.
+- vencedor: **Luís Rocha (PDS)**.
+- **1985**: capitais voltam a eleger prefeitos diretamente; em São Luís, vence Gardênia Gonçalves.
 
-## Retorno do voto
+## Cafeteira e Constituição
 
-- 1982: primeira eleição direta para governador desde 1965.
-- Vencedor: Luís Rocha, PDS.
-- 1985: capitais voltam a eleger prefeitos diretamente.
-- São Luís: Gardênia Gonçalves.
-
-## Sarney na abertura
-
-- Último presidente nacional da ARENA.
-- Participou da formação do PDS.
-- Rompeu com Maluf em 1984.
-- Frente Liberal + chapa Tancredo-Sarney.
-- Assumiu a Presidência em 1985.
-
-## Cafeteira
-
-- PMDB, vitória em 1986.
-- Contexto: redemocratização + força do PMDB + Plano Cruzado.
-- Relação com Sarney mudou no tempo: não congelar como aliado ou adversário eterno.
-- Saiu em 1990; João Alberto completou o mandato.
-
-## Constituição de 1989
-
-- 5 out. 1989.
-- Promulgada pela Assembleia Constituinte estadual.
-- Não foi outorgada.
-- Não foi “Constituição de Cafeteira”.
+- **1986**: Cafeteira (PMDB) vence o governo.
+- relação Cafeteira–Sarney variou: não congelar em aliado/opositor permanente.
+- **5 out. 1989**: Constituição do Maranhão.
+- **promulgada pela Assembleia Constituinte estadual**; não outorgada pelo governador.
 
 ## Anos 1990
 
-- 1990: Lobão vence Castelo no segundo turno.
-- 1994: Lobão sai; Fiquene assume.
-- 1994: Roseana vence Cafeteira no segundo turno.
-- 1998: Roseana reeleita no primeiro turno.
-- EC federal 16/1997 permitiu uma recondução consecutiva.
+- **1990**: Lobão vence João Castelo no 2º turno.
+- **1994**: Roseana vence Cafeteira no 2º turno.
+- Roseana = primeira mulher eleita para governar o Maranhão.
+- EC federal **16/1997** permite uma recondução consecutiva.
+- **1998**: Roseana reeleita no 1º turno.
 
-## “Maranhão Novo” x “Novo Tempo”
+## “Maranhão Novo” × “Novo Tempo”
 
 | Maranhão Novo | Novo Tempo |
 |---|---|
 | José Sarney | Roseana Sarney |
 | a partir de 1966 | a partir de 1995 |
 | ruptura discursiva com vitorinismo | renovação geracional do grupo |
-| ditadura | democracia dos anos 1990 |
+| contexto autoritário | democracia dos anos 1990 |
 
-> Zulene Barbosa destaca continuidade do discurso do “novo”; não são programas idênticos.
+> Não são programas idênticos; a comparação é historiográfica sobre o uso político do “novo”.
 
-## Hegemonia
+## Rupturas × permanências
 
-- Não significa unanimidade.
-- Não elimina eleições, adversários ou dissidências.
-- Indica capacidade prolongada de coordenar alianças e sucessões.
-- Cafeteira e forças de São Luís mostram contestação real.
-
-## Rupturas
-
-- derrota do vitorinismo;
-- ARENA/MDB;
-- eleições indiretas;
-- pluripartidarismo;
-- voto direto em 1982;
-- Constituição de 1989;
-- reeleição após 1997.
-
-## Permanências
-
-- redes municipais;
-- patronagem e personalismo;
-- conexão estado-União;
-- alianças flexíveis;
-- facções intrapartidárias;
-- vices nas sucessões;
-- discurso de renovação.
+| Rupturas | Permanências |
+|---|---|
+| derrota do vitorinismo | redes municipais |
+| ARENA/MDB | personalismo e patronagem |
+| eleições indiretas | conexão estado-União |
+| pluripartidarismo | alianças e facções flexíveis |
+| voto direto em 1982 | circulação partidária de lideranças |
+| Constituição de 1989 | discurso de renovação |
+| reeleição após 1997 | adaptação dos grupos às regras |
 
 ## Pegadinhas
 
-- 1965 = eleição; 1966 = posse.
-- Sarney veio do PSD antes da UDN.
-- Oposições Coligadas não eram partido.
+- **1965 = eleição; 1966 = posse.**
+- Greve de 1951 ≠ fim imediato do vitorinismo.
+- Oposições Coligadas ≠ partido único.
+- Sarney começou no PSD antes da oposição udenista.
 - Sarney e Vitorino estiveram na ARENA.
-- Eleição indireta não é sinônimo perfeito de nomeação.
-- Luís Rocha, não Cafeteira, venceu em 1982.
+- ARENA forte ≠ ARENA unida.
+- Pedro Neiva, Nunes Freire e João Castelo = escolhas indiretas.
+- Luís Rocha venceu em 1982.
 - Cafeteira venceu em 1986.
 - Lobão venceu em 1990.
-- Roseana: 2º turno em 1994; 1º turno em 1998.
+- Roseana: **2º turno em 1994; 1º turno em 1998**.
+- Constituição de 1989 = promulgada pela Assembleia.
 - 2000 encerra; 2002 não entra.
-- Item 29 PM/MA 2017: anulado, sem gabarito aproveitável.
