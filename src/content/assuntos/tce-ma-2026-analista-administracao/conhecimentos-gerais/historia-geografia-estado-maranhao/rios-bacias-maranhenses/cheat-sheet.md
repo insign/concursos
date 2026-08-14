@@ -1,159 +1,139 @@
 # Rios e bacias do Maranhão
 
-## Fórmula central
+## Visão de prova
 
-> 12 unidades = 3 federais + 7 bacias estaduais + 2 sistemas estaduais
+**Três limítrofes:** Parnaíba–PI, Gurupi–PA, Manuel Alves Grande/Tocantins–TO.
 
-## Conceitos
+**Regionalização NuGeo/UEMA:** 3 federais + 7 bacias estaduais + 2 sistemas estaduais.
+
+## Conceitos mínimos
 
 | Termo | Chave |
 |---|---|
-| bacia | área drenada até um exutório |
-| divisor | separa escoamentos vizinhos |
+| bacia | área drenada por rio principal + afluentes |
+| divisor | separa escoamentos |
+| nascente | início do curso |
 | afluente | deságua em outro rio |
-| confluência | encontro de cursos |
-| sub-bacia | subdivisão relativa à escala |
-| região hidrográfica | bacia ou grupo para planejamento |
-| montante | direção da nascente |
-| jusante | direção da foz |
+| foz | desembocadura |
+| sub-bacia | subdivisão dependente da escala |
 
-Bacia hidrográfica ≠ bacia sedimentar.
+## Características gerais
 
-## Três regiões nacionais
+- Predomínio de drenagem **exorreica**.
+- Direção frequente: **sul → norte**, rumo ao Atlântico.
+- Sudoeste: parte do escoamento segue para oeste, rumo ao Tocantins.
+- Alimentação predominantemente **pluvial**.
+- Baixos cursos costeiros: marés e estuários.
+- Baixo Mearim: pode ocorrer **pororoca**.
 
-- Parnaíba.
-- Tocantins-Araguaia.
-- Atlântico Nordeste Ocidental.
+## Rios limítrofes
 
-## Domínio
+| Rio/bacia | Limite | Nascente/referência | Chave |
+|---|---|---|---|
+| Parnaíba | MA–PI | Chapada das Mangabeiras | delta; rio das Balsas |
+| Tocantins-Araguaia | MA–TO | Manuel Alves Grande + trecho do Tocantins | Araguaia não faz sozinho o limite |
+| Gurupi | MA–PA | Serra do Gurupi | Atlântico; Tiracambu como divisor |
 
-- Rio entre/através de estados: União.
-- Demais águas: estado, ressalvadas hipóteses federais.
-- Bacia pode conter cursos de domínios distintos.
+### Parnaíba
 
-## Três federais
+- Chapada das Mangabeiras.
+- Trecho inicial: rio Água Quente.
+- Foz: **delta atlântico**.
+- Tributário maranhense-chave: **rio das Balsas**.
 
-| Bacia | Área MA NuGeo | Limite/chave |
-|---|---:|---|
-| Parnaíba | 66.449,09 km² | MA-PI; Balsas; delta |
-| Tocantins | 30.665,15 km² | Manuel Alves Grande + Tocantins; MA-TO |
-| Gurupi | 15.953,91 km² | MA-PA; Gurupi/Tiracambu |
+### Tocantins-Araguaia
 
-## Parnaíba
-
-- Nascente: Chapada das Mangabeiras.
-- Início: rio Água Quente.
-- Curso: ~1.400 km na fonte NuGeo.
-- Foz: delta atlântico MA-PI.
-- Afluente maranhense: rio das Balsas (~525 km).
-
-## Tocantins-Araguaia
-
-- Nome da região nacional: Tocantins-Araguaia.
-- Unidade no MA: bacia do Tocantins.
-- Limite MA-TO: grande parte Manuel Alves Grande + trecho do Tocantins.
+- Nome da região nacional: **Tocantins-Araguaia**.
+- Unidade no MA: **bacia do Tocantins**.
+- Limite MA–TO: grande parte **Manuel Alves Grande** + trecho do **Tocantins**.
 - Araguaia: principal tributário do Tocantins; não forma sozinho todo o limite.
 - Referências: Imperatriz e Estreito.
 
-## Gurupi
+### Gurupi
 
-- Nascente: Serra do Gurupi, entre Açailândia e São Francisco do Brejão.
-- Direção: norte.
-- Foz: Atlântico/baía do Gurupi.
-- Afluentes: Surubim, Tucumandiua, Cajuapara, Panemã, Apará, Jararaca.
+- Limite MA–PA.
+- Nascente: Serra do Gurupi.
+- Direção geral: norte.
+- Foz: Atlântico.
 - Tiracambu: divisor com Mearim/Turiaçu.
 
-## Sete estaduais
+## Bacias genuinamente maranhenses
 
-| Bacia | Área NuGeo | Nascente | Foz |
-|---|---:|---|---|
-| Mearim | 99.058,68 km² | Serra da Menina/adjacências | baía de São Marcos |
-| Itapecuru | 53.216,84 km² | serras da Croeira/Itapecuru/Alpercatas | baía do Arraial |
-| Munim | 15.918,04 km² | tabuleiros NE de Caxias | baía de São José |
-| Turiaçu | 14.149,87 km² | Serra do Tiracambu | baía de Turiaçu |
-| Maracaçumé | 7.756,79 km² | Serra do Tiracambu | Atlântico |
-| Preguiças | 6.707,91 km² | Santana do Maranhão | Atlântico/Barreirinhas |
-| Periá | 5.395,37 km² | não fixar ponto único | litoral oriental |
+**Rio genuinamente maranhense:** nasce, percorre e deságua no Maranhão.
+
+A lista dos rios genuínos é maior que a das sete bacias estaduais.
+
+- Pindaré e Grajaú → integram o **Mearim** na escala agregada.
+- Pericumã → integra o **Sistema do Litoral Ocidental**.
+- Anil, Bacanga, Paciência e Tibiri → drenagens locais da Ilha do Maranhão.
+
+## Sete bacias estaduais
+
+| Bacia | Cabeceira/localização | Foz | Chave |
+|---|---|---|---|
+| Mearim | Serra da Menina/adjacências | baía de São Marcos | maior; Pindaré + Grajaú; pororoca |
+| Itapecuru | serras Croeira/Itapecuru/Alpercatas | baía do Arraial | Tucha + Mojó |
+| Munim | tabuleiros NE de Caxias | baía de São José | Axixá/Icatu |
+| Turiaçu | Serra do Tiracambu | baía de Turiaçu | litoral ocidental |
+| Maracaçumé | Serra do Tiracambu | Atlântico | Godofredo Viana/Cândido Mendes |
+| Preguiças | Santana do Maranhão | Atlântico em Barreirinhas | também rio Grande |
+| Periá | litoral oriental | Atlântico | Periá + Mapari + Anajatuba |
 
 ## Mearim
 
 - Maior bacia estadual agregada.
-- NuGeo: 99.058,68 km² / ~930 km.
-- Plano 2019: 98.289,05 km² / 742 km.
-- Diferença = edição/delimitação; atribuir fonte.
-- Afluentes: Pindaré, Grajaú, Corda, Flores.
+- Foz: **baía de São Marcos**.
+- Esquerda: **Pindaré e Grajaú**.
+- Direita: **Corda e Flores**.
 - Baixo curso: marés + pororoca.
-- Pindaré/Grajaú podem ser sub-bacias ou unidades em escala fina.
-- “Genuinamente maranhense” descreve o curso principal; o polígono da bacia pode alcançar pequena área vizinha conforme a fonte.
 
 ## Itapecuru
 
-- ~1.050 km.
-- Foz pelos braços Tucha e Mojó.
-- Direita: Correntes, Pirapemas, Itapecuruzinho.
-- Esquerda: Alpercatas, Peritoró, Codozinho, Igarapé Grande.
+- Cabeceiras: serras da Croeira, Itapecuru e Alpercatas.
+- Foz: **baía do Arraial**.
+- Braços: **Tucha e Mojó**.
+- Tributários-chave: Alpercatas, Peritoró, Codozinho, Correntes e Pirapemas.
 
-## Munim, Turiaçu e Maracaçumé
+## Demais estaduais
 
-- Grafia: **Munim**, embora NuGeo escreva Munin.
-- Munim: ~320 km; Axixá/Icatu.
-- Turiaçu: Paraná + Caxias; estuário/marés.
-- Maracaçumé: ~150 km; Duas Antas, Coqueiro, Macaxeira, Pacovel, Peixe.
+- **Munim:** extremo leste → baía de São José.
+- **Turiaçu:** Tiracambu → baía de Turiaçu.
+- **Maracaçumé:** Tiracambu → Atlântico entre Godofredo Viana e Cândido Mendes.
+- **Preguiças:** Santana do Maranhão → Barreirinhas; também rio Grande.
+- **Periá:** menor das sete; Periá, Mapari e Anajatuba; marés.
 
-## Preguiças e Periá
-
-- Preguiças: rio Grande; Negro + Cangatã; Barreirinhas.
-- Periá: Periá + Mapari + Anajatuba; menor das sete.
-- Resolução CONERH 98/2020: proposta de comitê conjunto aprovada.
-- Comitê conjunto ≠ bacia física única.
-
-## Dois sistemas
+## Sistemas estaduais
 
 ### Litoral Ocidental
 
-- Vários rios com fozes próprias.
-- Pericumã, Aurá, Uru e menores.
-- Pericumã é genuinamente maranhense, mas integra o sistema na escala agregada.
+- Várias drenagens com fozes próprias.
+- Destaque: **Pericumã**.
+- Não possui um único rio principal integrador.
 
 ### Ilhas Maranhenses
 
-- Drenagens próprias das ilhas.
-- Na Ilha do Maranhão: Anil, Bacanga, Paciência, Tibiri.
-- Bacias locais ≠ novas unidades regionais.
-
-## Regime
-
-- Alimentação predominantemente pluvial.
-- Mearim/Itapecuru: altas fev.-mai.; baixas ago.-nov.
-- Baixos cursos: marés e estuários.
-- Lótico = corrente; lêntico = movimento reduzido.
-
-## Erosão × assoreamento
-
-1. Erosão remove partículas.
-2. Corrente transporta.
-3. Sedimento se deposita.
-4. Leito assoreia.
-
-Mata ciliar reduz erosão e estabiliza margens.
+- Drenagens das ilhas costeiras.
+- Ilha do Maranhão: **Anil, Bacanga, Paciência, Tibiri**.
 
 ## Pegadinhas
 
-- 12 unidades = 12 rios: falso.
-- Região = uma bacia: falso.
-- Araguaia faz todo limite MA-TO: falso.
-- Pindaré fora do Mearim em qualquer escala: falso.
-- Pericumã não é genuinamente maranhense: falso.
-- Comitê une fisicamente Preguiças/Periá: falso.
-- Área divergente = erro automático: falso.
-- Parnaíba limita MA-PI: verdadeiro.
-- Gurupi limita MA-PA: verdadeiro.
+- Parnaíba = MA–PI → **certo**.
+- Gurupi = MA–PA → **certo**.
+- Araguaia faz todo limite MA–TO → **errado**.
+- Manuel Alves Grande participa do limite MA–TO → **certo**.
+- Pindaré/Grajaú são externos ao Mearim em qualquer escala → **errado**.
+- Sete bacias estaduais = apenas sete rios genuínos → **errado**.
+- Pericumã deixa de ser genuíno por integrar um sistema → **errado**.
+- Mearim → baía de São Marcos.
+- Itapecuru → baía do Arraial.
+- Preguiças → Barreirinhas.
 
 ## Método rápido
 
-1. Escala e fonte.
-2. Região, bacia, sub-bacia ou sistema?
-3. Curso limítrofe ou apenas área drenada?
-4. Fórmula 3 + 7 + 2.
-5. Nascente → afluentes → foz.
-6. Número sempre com edição.
+1. Limítrofe ou genuinamente maranhense?
+2. Qual fronteira?
+3. Qual nascente/cabeceira?
+4. Quais afluentes-chave?
+5. Qual foz?
+6. A unidade é bacia, sub-bacia ou sistema?
+7. Use **3 + 7 + 2** só como mnemônico da regionalização NuGeo/UEMA.
