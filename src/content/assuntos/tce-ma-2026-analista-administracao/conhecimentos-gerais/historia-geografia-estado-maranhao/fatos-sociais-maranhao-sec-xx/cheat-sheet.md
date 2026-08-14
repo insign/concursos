@@ -2,184 +2,156 @@
 
 ## Fórmula mental
 
-> demografia + migração + mudanças produtivas → urbanização + conflitos + organização coletiva
+> mudanças produtivas/fundiárias + crescimento/deslocamentos → urbanização + conflitos + desigualdades + organização coletiva
 
 ## Recorte
 
-- 1951/1952-2000.
-- 1951: só transição.
-- Política/economia: somente consequências sociais.
-- Demografia/migração: transformação social; fluxos, distribuição, densidade e povoamento como geografia ficam no Assunto 088.
-- Lei 01/2002: fora.
+- **1951-2000**.
+- 1951 = apenas transição do assunto anterior.
+- Demografia detalhada, densidade, povoamento e fluxos = Assunto 088.
+- Lei municipal de 2002 sobre babaçu = fora.
 
-## População estadual
+## Rural → urbano
 
-| Ano | Habitantes |
-|---|---:|
-| 1950 | 1.583.248 |
-| 1960 | 2.469.447 |
-| 1970 | 2.992.686 |
-| 1980 | 3.996.404 |
-| 1991 | 4.930.253 |
-| 2000 | 5.642.960 |
-
-Taxas a.a.: **4,50% → 1,94% → 2,93% → 1,93% → 1,54%**.
-
-Taxas publicadas pelo IBGE para intervalos intercensitários exatos; não recalcular apenas pelos anos rotulados e totais arredondados.
-
-> Desacelerar ≠ diminuir a população.
-
-## Transição demográfica
-
-- Mortalidade cai primeiro.
-- Crescimento acelera.
-- Fecundidade depois cai.
-- Crescimento desacelera.
-- TFT Maranhão: 4,64 (1991) → 3,21 (2000).
-
-## Urbano
-
-- Urbanização = aumenta proporção urbana.
-- Crescimento urbano = aumenta número urbano.
-- Expansão urbana = aumenta área ocupada.
-- 1970-80: urbano 5,26% a.a.; rural 2,04%.
-- 1980-91: urbano 4,19% a.a.; rural 0,69%.
-- 2000: maioria urbana.
-- Urbano censitário não garante infraestrutura.
-
-## Migração
-
-| Tipo | Núcleo |
+| Processo | Efeito social |
 |---|---|
-| interestadual | entre estados |
-| intraestadual | dentro do Maranhão |
-| rural-urbana | campo → cidade |
-| êxodo rural | saída estrutural e intensa |
-| retorno | volta ao estado anterior/natal |
+| crescimento e deslocamentos populacionais | expansão das cidades |
+| integração rodoviária | circulação, migração e novos centros regionais |
+| valorização da terra | disputas rurais e urbanas |
+| grandes projetos | atração de trabalhadores e pressão sobre serviços |
+| urbanização | maioria urbana ao final do século, sem universalização de infraestrutura |
 
-- Retorno/entradas: 33,8% em 1986-91; 42,8% em 1995-2000.
-- Maranhão = origem, destino e espaço de retorno.
+> Urbanização ≠ saneamento, moradia ou serviços universais.
 
-## Imperatriz
+## São Luís × Imperatriz
 
-Belém-Brasília → circulação/migração → comércio/serviços → centro regional → pressão urbana.
+| Cidade | Chave social |
+|---|---|
+| São Luís | expansão já anterior aos grandes projetos; periferização e desigualdade urbana reforçadas nos anos 1980 |
+| Imperatriz | Belém-Brasília + circulação + comércio/serviços + migração + centralidade regional |
 
-Rodovia = condição decisiva, não causa única.
-
-## São Luís
-
-| Ano | População municipal |
-|---|---:|
-| 1950 | 119.785 |
-| 1960 | 159.628 |
-| 1970 | 265.595 |
-| 1980 | 449.877 |
-| 1991 | 696.371 |
-
-- Anil/Bacanga: ocupação e palafitas.
-- 1970: Barragem do Bacanga + ponte São Francisco.
-- Norte/nordeste: valorização imobiliária.
-- Sudoeste: expansão popular/periférica.
-- PGC/Alumar reforçam processo já anterior.
+- Rodovia ≠ causa única de Imperatriz.
+- PGC/Alumar ≠ causa única da periferização de São Luís.
 
 ## Periferização
 
-- Não é só distância do centro.
-- É acesso desigual a terra, transporte e serviços.
-- Banco Nacional da Habitação (BNH)/conjuntos não atendem toda a demanda.
-- Autoconstrução, ocupações e palafitas.
-- Segregação socioespacial = grupos e infraestrutura distribuídos desigualmente.
+- não é apenas distância do centro;
+- combina acesso desigual a terra, moradia, transporte e serviços;
+- autoconstrução, ocupações, palafitas e conjuntos habitacionais coexistem;
+- segregação socioespacial = distribuição desigual de grupos e infraestrutura.
 
 ## Trabalho
 
-- Rural: posseiros, parceiros, arrendatários, agricultura familiar, babaçu, assalariados.
-- Urbano: construção, comércio, serviços, funcionalismo, indústria, doméstico e informal.
-- Grandes projetos não absorvem automaticamente toda a força de trabalho.
-
-## Organização rural
-
-| Ano | Marco |
+| Campo | Cidade |
 |---|---|
-| 1954 | comissão estadual de reforma agrária |
-| 1956 | ATAM/ULTAB |
-| 1962 | MEB e formação sindical |
-| 18 out. 1963 | primeiro STR, Santa Inês |
-| 1964 | repressão sindical |
-| 1968 | Reserva/Delegacias de Terras |
-| 1969 | Lei 2.979 |
-| 1971 | Companhia Maranhense de Colonização (COMARCO) |
+| posseiros e pequenos proprietários | comércio e serviços |
+| parceiros e arrendatários | construção civil |
+| agricultura familiar | funcionalismo |
+| extrativismo do babaçu | trabalho doméstico |
+| assalariamento temporário | indústria e informalidade |
+
+> Grande projeto pode criar empregos sem absorver toda a população atraída.
 
 ## Questão agrária
 
 | Conceito | Chave |
 |---|---|
-| posse | ocupação fática |
+| posse | exercício fático |
 | propriedade | direito formal |
-| grilagem | fraude documental/fundiária |
-| expropriação | perda do meio de vida/produção |
+| grilagem | fraude para legitimar domínio |
+| expropriação | perda dos meios de produção/vida |
 | terra de trabalho | reprodução familiar |
-| terra de negócio | renda e especulação |
+| terra de negócio | renda, valorização ou especulação |
 
-Conflito ≠ massacre.
+- Lei de Terras estadual: **1969**.
+- COMARCO: **1971**.
+- Política estatal + rodovias + incentivos + valorização fundiária → conflitos.
+- Conflito agrário ≠ massacre.
 
-## Igreja e organizações
+## Organização rural
 
-- JAC/JOC/JUC: Juventudes Agrária, Operária e Universitária Católicas.
-- MEB: educação de base.
-- CEBs: comunidades territoriais de leigos.
-- CPT-MA: Comissão Pastoral da Terra; atuação instituída em 1975 e organização estadual em 1976.
-- CIMI-MA: Conselho Indigenista Missionário, 1976.
-- Cáritas: ação social.
-- ASP: Associação de Saúde da Periferia.
+> conflito por terra/trabalho → associação → educação popular → sindicalização → repressão → reorganização
+
+- **1956**: ATAM.
+- início dos anos 1960: MEB e formação rural.
+- **1963**: sindicalização rural ganha forma no Pindaré.
+- **1964**: repressão e maior controle institucional.
+
+## MEB × CEBs × CPT
+
+| Organização | Núcleo |
+|---|---|
+| MEB | educação popular e formação de lideranças |
+| CEBs | comunidades territoriais e participação de leigos |
+| CPT | questão agrária e apoio a trabalhadores rurais |
+
+CEB ≠ sindicato ≠ partido.
 
 ## Grandes projetos: efeitos sociais
 
 - atração de trabalhadores;
-- valorização da terra;
-- moradia e serviços pressionados;
-- remanejamentos;
-- trabalho reorganizado;
-- expansão urbana desigual;
+- valorização fundiária e imobiliária;
+- pressão sobre moradia e serviços;
+- remanejamentos e disputas territoriais;
+- mudança do mercado de trabalho;
 - mobilização comunitária.
 
 > Industrialização não explica sozinha a periferização.
 
-## Quebradeiras
+## Quebradeiras de coco
 
-- Trabalho + renda + território + conhecimento.
-- Problemas: cercamentos, derrubada, cobrança, “meia”.
-- Organização: clubes, associações, sindicatos.
-- Articulação interestadual: 1990/1991.
-- MIQCB consolidado nos anos 1990.
+- trabalho + renda + babaçuais + território + protagonismo feminino;
+- conflitos: cercamentos, derrubada de palmeiras, cobrança de acesso, “quebra de meia”;
+- organização cresce via clubes de mães, associações e sindicatos.
 
-## ASSEMA
+### Marcos
 
-- Fundação: 1989, Médio Mearim.
-- Associação de articulação/assessoria.
-- Agroextrativismo, agricultura familiar, formação e economia solidária.
-- ASSEMA ≠ MIQCB ≠ sindicato ≠ cooperativa.
+| Ano | Marco |
+|---|---|
+| 1989 | fundação da ASSEMA |
+| 1991 | primeiro encontro/articulação interestadual |
+| 1995 | consolidação do nome MIQCB |
+| 1997 | Lei Municipal nº 05/1997 de Lago do Junco — Babaçu Livre |
 
-## Babaçu Livre
+## Não confundir organizações
 
-- Lago do Junco, 22 ago. 1997.
-- Lei Municipal 05/1997.
-- Reconheceu acesso/uso; proteção inicial menos detalhada.
-- Lei 01/2002 acrescentou proibições específicas: não retroagir.
+| Organização | Natureza |
+|---|---|
+| ASSEMA | articulação e assessoria no Médio Mearim |
+| MIQCB | movimento interestadual de quebradeiras |
+| sindicato | representação trabalhista |
+| cooperativa | produção/comercialização |
 
 ## Constituição de 1988
 
-- Direitos sociais e SUS.
-- Direitos originários indígenas.
-- Art. 68 ADCT: propriedade quilombola.
-- Reconhecimento jurídico ≠ efetivação imediata.
+- amplia bases jurídicas dos direitos sociais;
+- SUS integra a nova ordem constitucional;
+- art. 231: direitos originários indígenas;
+- art. 68 do ADCT: propriedade quilombola nas condições previstas;
+- reconhecimento jurídico ≠ efetivação automática.
+
+## Rupturas × permanências
+
+| Rupturas | Permanências |
+|---|---|
+| urbanização acelerada | importância social do campo |
+| novos grandes projetos | conflitos territoriais |
+| diversificação do trabalho urbano | informalidade |
+| novas organizações sociais | desigualdades de acesso |
+| Constituição de 1988 | distância entre direito formal e efetivação |
+| MIQCB/ASSEMA | trabalho extrativista familiar |
 
 ## Pegadinhas
 
-- Crescimento menor ≠ população menor.
-- Urbanização ≠ infraestrutura universal.
-- Migração ≠ êxodo rural.
+- 1951-2000, não “1951/1952”.
+- Maioria urbana em 2000 ≠ infraestrutura universal.
+- População/migração detalhadas = Assunto 088.
 - Posse ≠ propriedade.
-- CEB ≠ sindicato.
+- Grilagem ≠ todo conflito agrário.
+- Organização rural antecede 1964.
+- MEB ≠ CEB ≠ CPT.
 - ASSEMA ≠ MIQCB.
-- 1997 ≠ regras detalhadas de 2002.
-- Item 50 PM-MA 2017 foi anulado.
+- MIQCB: articulação em 1991; nome consolidado em 1995.
+- Babaçu Livre: Lago do Junco, **1997**.
+- Regras municipais de 2002 não retroagem a 1997.
+- Direitos constitucionais ≠ efetivação automática.
