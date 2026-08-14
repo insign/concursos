@@ -21,6 +21,18 @@ O corte documental adotado é **4 de agosto de 2026**. Para números meteorológ
 
 ## 2. Padrão climático do Maranhão
 
+### Conceitos mínimos para ler tabelas e enunciados
+
+- **tempo atmosférico:** condição da atmosfera em curto prazo;
+- **clima:** comportamento estatístico de longo prazo, incluindo médias, sazonalidade, variabilidade e extremos;
+- **normal climatológica:** valor de referência calculado para período longo e padronizado;
+- **anomalia:** diferença entre o valor observado e a referência climatológica;
+- **extremo:** ocorrência rara ou muito intensa avaliada em relação à série.
+
+As Normais INMET 1991-2020 usam observações de **1º de janeiro de 1991 a 31 de dezembro de 2020**. Para uma variável, se faltar normal mensal válida, o INMET não calcula a normal anual correspondente; a lacuna não deve ser preenchida informalmente. Um evento isolado de chuva ou calor é **tempo** e, sozinho, não redefine o clima do lugar.
+
+### Controles e mecanismos
+
 O Maranhão está em baixas latitudes tropicais e apresenta **temperaturas elevadas ao longo do ano**. A chuva varia sazonal e regionalmente mais do que a temperatura: há setores muito úmidos no norte/noroeste e setores com estação seca mais prolongada no interior, especialmente no leste e no sul.
 
 Os controles mais úteis para prova são:
@@ -90,7 +102,7 @@ O **Mapa de Clima do Brasil do IBGE**, atualizado em 2002, mostra o Maranhão pr
 - **Tropical da Zona Equatorial**;
 - **Tropical do Brasil Central**.
 
-A umidade varia conforme a duração da estação seca, com áreas mais úmidas no norte e condições mais sazonais no interior.
+A umidade varia conforme a duração da estação seca, com áreas mais úmidas no norte e condições mais sazonais no interior. No mapa, expressões como **“semiúmido com quatro a cinco meses secos”** são subdivisões de umidade e devem ser lidas junto do clima zonal e da categoria térmica.
 
 Em estudo de 2023 baseado em Köppen, apareceram os tipos **Am, Aw e Aw'** nas estações avaliadas:
 
@@ -98,7 +110,7 @@ Em estudo de 2023 baseado em Köppen, apareceram os tipos **Am, Aw e Aw'** nas e
 - **Aw:** tropical de savana, com chuvas concentradas no verão; exemplos: Imperatriz, Carolina e Balsas;
 - **Aw':** convenção usada no estudo para regime com chuvas de verão e outono; exemplo: São Luís.
 
-A notação **Aw'** deve ser atribuída ao estudo que a emprega; não é uma terceira letra universal de todas as versões de Köppen. IBGE e Köppen usam critérios distintos e não devem ser tratados como classificações intercambiáveis.
+A notação **Aw'** deve ser atribuída ao estudo que a emprega; não é uma terceira letra universal de todas as versões de Köppen. IBGE e Köppen usam critérios distintos e não devem ser tratados como classificações intercambiáveis. Resultados de estudos distintos podem divergir porque rede de estações, período, tratamento de falhas e critérios sazonais também podem ser diferentes.
 
 ## 6. Formação vegetal não é sinônimo de bioma
 
@@ -106,9 +118,15 @@ O edital pede **formações vegetais**. Para evitar confusão:
 
 - **bioma** é um grande conjunto regional de vida e condições ambientais;
 - **formação vegetal** descreve a fisionomia e a composição da vegetação;
-- **cobertura da terra** descreve o que recobre a superfície em determinada data.
+- **cobertura da terra** descreve o que recobre a superfície em determinada data;
+- **uso da terra** indica a finalidade ou o manejo humano, como agricultura, pecuária ou conservação.
 
 No recorte oficial do IBGE, o Maranhão contém áreas dos biomas **Amazônia, Cerrado e Caatinga**, além de ambientes costeiros. Já a expressão **Mata dos Cocais** é usada didaticamente para uma formação ou complexo de formações com palmeiras em área de transição; **não constitui bioma continental oficial do IBGE**.
+
+Duas palavras ajudam na leitura de transições:
+
+- **ecótono:** zona em que espécies e características de formações vizinhas se misturam;
+- **encrave:** formação que conserva identidade própria dentro de uma matriz dominada por outra.
 
 ## 7. Formações florestais
 
@@ -122,7 +140,10 @@ Ocorre em setores do **norte e do vale do Mearim**, com fisionomias que original
 
 ### Florestas estacionais
 
-Em áreas de sazonalidade hídrica mais marcada aparecem formações semideciduais e deciduais. Na semidecidual, parte relevante das árvores perde folhas no período desfavorável; na decidual, a perda foliar é mais intensa.
+Em áreas de sazonalidade hídrica mais marcada aparecem formações semideciduais e deciduais:
+
+- **Semidecidual:** aproximadamente **20% a 50%** dos elementos arbóreos emergentes perdem folhas no período desfavorável.
+- **Decidual:** **mais de 50%** perdem folhas na estação seca.
 
 A queda de folhas é uma adaptação à sazonalidade e não significa morte anual da floresta.
 
