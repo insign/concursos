@@ -1,36 +1,17 @@
 # Climas e vegetação do Maranhão
 
-## Conceitos rápidos
+## Visão de prova
 
-| Termo | Chave |
-|---|---|
-| tempo | estado atmosférico de curto prazo |
-| clima | médias + sazonalidade + variabilidade + extremos |
-| normal | referência de período longo |
-| anomalia | observado menos normal |
-| extremo | evento raro/intenso na série |
+**Maranhão = quente o ano inteiro + chuva fortemente sazonal + grande transição vegetal.**
 
-> Evento isolado ≠ mudança do clima.
+| Setor | Chuva | Temperatura | Vegetação mais associada |
+|---|---|---|---|
+| norte/litoral | estação chuvosa mais longa; forte influência da ZCIT | menor amplitude pela maritimidade | formações florestais, cocais e ambientes costeiros |
+| oeste | mais úmido | quente | floresta ombrófila, influência amazônica |
+| centro | sazonalidade crescente | quente | transições, cocais e Cerrado |
+| leste/sul | seca mais longa | máximas elevadas na seca | Cerrado e formações mais sazonais |
 
-## Controles
-
-- Baixa latitude: calor anual.
-- Atlântico: umidade + moderação térmica costeira.
-- Interior: maior amplitude e máximas na seca.
-- Circulação: organiza chuva/seca.
-- Relevo/altitude: modulação local.
-- Solo/vegetação: evapotranspiração e balanço de energia.
-- Atlântico/Pacífico: anomalias modulam anos.
-
-## Sistemas de chuva
-
-- **ZCIT:** alísios convergem; máximo de influência no norte em março/abril; pode atuar de fevereiro a maio.
-- Linhas de instabilidade: convecção organizada.
-- Brisas + alísios: chuva costeira.
-- Perturbações ondulatórias dos alísios: instabilidade do Atlântico.
-- El Niño/La Niña/TSM: moduladores, não causa única de cada evento.
-
-## Calendário aproximado
+## Chuva: calendário aproximado
 
 | Setor | Chuvoso | Seco |
 |---|---|---|
@@ -38,9 +19,12 @@
 | leste | jan.-mai. | jun.-dez. |
 | centro/sul | jan.-abr. | mai.-dez. |
 
-Datas variam por estação e ano. Seca ≠ chuva zero.
+- **ZCIT:** principal sistema do norte; máxima influência sobretudo em **março/abril**.
+- Brisas, linhas de instabilidade, perturbações dos alísios e convecção também atuam.
+- **Seca ≠ chuva zero.**
+- El Niño/La Niña e anomalias oceânicas **modulam**, não explicam sozinhos cada evento.
 
-## INMET 1991-2020
+## Normais INMET 1991-2020
 
 | Estação | Chuva anual |
 |---|---:|
@@ -49,95 +33,81 @@ Datas variam por estação e ano. Seca ≠ chuva zero.
 | Imperatriz | **1.491,9 mm** |
 | Balsas | **1.194,7 mm** |
 
-- São Luís: março 452,8 mm; setembro 2,9 mm.
-- Balsas: julho 1,0 mm; agosto 1,3 mm.
-- Valor de estação ≠ média estadual.
+Chaves:
+
+- São Luís: março **452,8 mm**; setembro **2,9 mm**.
+- Balsas: julho **1,0 mm** → forte concentração sazonal.
+- Valor de **estação** não é média automática de município, região ou estado.
 
 ## Temperatura
 
-- São Luís: máxima normal anual 31,5 °C; mínima 24,1 °C.
-- Carolina: média 27,2 °C; máxima 33,3 °C; mínima 22,5 °C.
-- Carolina: máxima mensal 36,4 °C em agosto.
-- Balsas: julho ausente; sem normal anual de temperatura.
-- Litoral: menor amplitude; interior: maior aquecimento na seca.
+- Estado: médias anuais aproximadamente **26,3 °C a 28,4 °C** no estudo de 2023.
+- São Luís: máxima normal anual **31,5 °C**; mínima **24,1 °C**.
+- Carolina: média **27,2 °C**; máxima **33,3 °C**; mínima **22,5 °C**.
+- Interior: maior aquecimento na seca; litoral: maior moderação térmica.
+- **Máxima normal ≠ temperatura média.**
 
 ## IBGE × Köppen
 
-| Sistema | Chave no Maranhão |
+| Sistema | Chave |
 |---|---|
-| IBGE 2002 | quente; Tropical da Zona Equatorial + Tropical do Brasil Central; umidade por meses secos |
-| Köppen no estudo 2023 | Am, Aw e Aw' |
+| IBGE | quente; transição entre Tropical da Zona Equatorial e Tropical do Brasil Central |
+| Köppen no estudo de 2023 | Am, Aw e Aw' |
 
-- Am: monção; exemplo: Turiaçu.
-- Aw: savana/chuvas de verão; exemplos: Balsas, Carolina, Imperatriz.
-- Aw': verão + outono na convenção do estudo; exemplo: São Luís.
-- Aw' não é notação universal de toda versão de Köppen.
-- Sistemas e períodos diferentes podem produzir mapas diferentes.
+- Am: Turiaçu.
+- Aw: Imperatriz, Carolina e Balsas.
+- Aw': São Luís, na convenção do estudo.
+- **Aw' não deve ser universalizado.**
 
-## Quatro objetos diferentes
+## Floresta × Cerrado × Cocais
 
-| Objeto | Pergunta |
+| Formação | Onde/como lembrar |
 |---|---|
-| bioma | grande conjunto regional |
-| formação | fisionomia/composição vegetal |
-| cobertura | o que recobre hoje |
-| uso | finalidade humana |
+| Floresta Ombrófila Densa | oeste, junto ao Pará, maior umidade |
+| Floresta Ombrófila Aberta | norte/Mearim; palmeiras; alteração favoreceu babaçuais secundários |
+| Cerrado | centro, sul e leste; várias fitofisionomias |
+| Cocais | transição; babaçu no centro-norte e carnaúba mais para leste |
 
-Maranhão: Amazônia + Cerrado + Caatinga + ambientes costeiros.
+### Cerrado na legenda do IBGE
 
-Mata dos Cocais = formação/transição, **não bioma oficial do IBGE**.
-
-## Florestas
-
-- Ombrófila Densa: oeste, mais úmida, estratificada.
-- Ombrófila Aberta: norte/Mearim; palmeiras e, em alguns setores, cipós.
-- Alteração da Aberta → vegetação secundária rica em babaçu/cocais.
-- Semidecidual: 20%-50% de perda foliar.
-- Decidual: mais de 50% de perda foliar.
-
-## Cerrado/Savana
-
-| IBGE | Nome frequente |
+| IBGE | Nome didático |
 |---|---|
 | Savana Florestada | Cerradão |
 | Savana Arborizada | Cerrado propriamente dito |
-| Savana Parque | Campo sujo |
-| Savana Gramíneo-Lenhosa | Campo limpo |
-
-Cerrado ≠ apenas árvores tortuosas.
-
-## Ecótono e encrave
-
-- Ecótono: espécies/formações se misturam.
-- Encrave: formação mantém identidade dentro de outra matriz.
-- Transição ≠ linha homogênea.
+| Savana Parque | campo sujo |
+| Savana Gramíneo-Lenhosa | campo limpo |
 
 ## Cocais
 
-- Babaçu: centro-norte, transições e vegetação secundária.
-- Carnaúba: setores mais sazonais e ambientes hídricos específicos, sobretudo para leste.
-- Babaçu ≠ carnaúba em exigência ecológica.
-- Usos e cadeias pertencem ao assunto de extrativismo.
+- **Mata dos Cocais não é bioma continental oficial do IBGE.**
+- Babaçu é nativo e pode dominar vegetação secundária após alteração florestal.
+- Babaçu e carnaúba têm distribuições e exigências ecológicas diferentes.
+- Usos econômicos → assunto de **extrativismo**.
+
+## Relação clima–vegetação
+
+**Mais umidade → formações ombrófilas.**  
+**Mais sazonalidade → florestas estacionais/Cerrado.**  
+**Transição + alteração histórica → paisagens de cocais.**
+
+Clima não atua sozinho: solos, drenagem, relevo, fogo e uso da terra também importam.
 
 ## Pegadinhas
 
-- Um clima para todo MA: falso.
-- IBGE = Köppen: falso.
-- Máxima normal = média: falso.
-- Preencher lacuna de planilha: errado.
-- Seca = zero chuva: falso.
-- Bioma = cobertura atual: falso.
-- Cocais = bioma oficial: falso.
-- Cerrado homogêneo: falso.
-- Clima determina sozinho a vegetação: falso.
-- Floresta secundária = floresta primária: falso.
+- “Um único clima para todo o Maranhão” → **falso**.
+- “Estação seca é ausência total de chuva” → **falso**.
+- “IBGE e Köppen são equivalentes” → **falso**.
+- “Máxima normal é temperatura média” → **falso**.
+- “Cerrado tem uma só fisionomia” → **falso**.
+- “Mata dos Cocais é bioma oficial” → **falso**.
+- “Toda área com babaçu é floresta primária” → **falso**.
+- “Clima determina sozinho a vegetação” → **falso**.
 
 ## Método rápido
 
-1. Evento ou padrão?
-2. Qual período e estação?
-3. Qual setor do estado?
-4. IBGE ou Köppen?
-5. Bioma, formação, cobertura ou uso?
-6. Escala e edição do mapa?
-7. Há absoluto indevido?
+1. Qual **setor** do Maranhão?
+2. O item fala de **chuva, temperatura ou vegetação**?
+3. Há influência **marítima** ou maior continentalidade?
+4. É **IBGE** ou **Köppen**?
+5. Floresta, **Cerrado** ou **cocais**?
+6. Há absoluto indevido: “todo”, “sempre”, “apenas”, “zero”?
