@@ -20,7 +20,7 @@ Este assunto estuda os mecanismos operacionais da **Lei nº 13.146/2015**, a Lei
 - Cadastro-Inclusão, auditoria, auxílio-inclusão e atendimento sem deslocamento desproporcional;
 - crimes e responsabilização.
 
-O corte normativo é **4 de agosto de 2026**. O edital foi publicado em 6 de julho de 2026 e exige a LBI **e suas alterações**.
+Para fins de prova, podem ser avaliadas alterações legislativas que entraram em vigor até a data de publicação do edital, **6 de julho de 2026**. Este material foi conferido em **15 de agosto de 2026**; a conferência posterior serve ao controle editorial e não amplia o corte do edital.
 
 O Assunto 098 já estudou fundamentos, conceitos, capacidade, prioridade e direitos materiais. O Assunto 100 estudará sistematicamente as Leis nº 10.048/2000 e nº 10.098/2000. Aqui, essas leis aparecem apenas quando a própria LBI faz remissão indispensável.
 
@@ -96,6 +96,12 @@ Há ainda três comandos importantes:
 - rotas de fuga e saídas de emergência devem ser acessíveis;
 - salas de cinema devem oferecer recursos de acessibilidade em **todas as sessões**;
 - o ingresso da pessoa com deficiência não pode custar mais que o das demais pessoas.
+
+### 4.1 Comunicação aumentativa em espaços culturais
+
+A Lei nº 15.249/2025 acrescentou o § 3º ao artigo 42. O poder público **incentivará** que museus, exposições, monumentos, exibições e galerias empreguem técnicas de comunicação aumentativa e alternativa para a acessibilidade de pessoas com necessidades complexas de comunicação.
+
+Não confunda esse comando com o artigo 62-A: no artigo 42, § 3º, o verbo é **incentivar** determinados espaços culturais a empregar essas técnicas; no artigo 62-A, o poder público **instalará** placas de comunicação aumentativa e alternativa em praças, parques e demais espaços públicos de uso coletivo.
 
 ## 5. Hospedagem
 
@@ -284,7 +290,7 @@ Para atender pessoas com necessidades complexas de comunicação, o poder públi
 - adaptadas ao contexto comunicativo de cada local;
 - confeccionadas em material resistente ao clima e ao uso externo.
 
-A implantação observa a disponibilidade financeira e orçamentária do ente federado. Baixa tecnologia não significa improvisação nem ausência de adequação ao contexto.
+A disponibilidade financeira e orçamentária do ente federado decorre do **artigo 4º da Lei nº 15.249/2025**, que alcança a implantação das medidas previstas nessa lei; essa ressalva não integra o texto do artigo 62-A da LBI. Baixa tecnologia não significa improvisação nem ausência de adequação ao contexto.
 
 ## 9. Informação, comunicação e internet
 
@@ -529,7 +535,7 @@ A pena aumenta em um terço se o agente for tutor ou curador.
 | Lei nº 14.863/2024 | campanhas sociais, preventivas e educativas acessíveis |
 | Lei nº 14.978/2024 | dispensa estrutural condicionada em hospedagem existente |
 | Lei nº 15.163/2025 | novas penas do abandono e resultados grave/morte |
-| Lei nº 15.249/2025 | CAA de baixa tecnologia e placas com pictogramas em espaços públicos |
+| Lei nº 15.249/2025 | CAA em espaços culturais; placas com pranchas de baixa tecnologia e pictogramas em espaços públicos |
 
 As cinco alterações estavam vigentes na publicação do edital.
 
@@ -561,6 +567,7 @@ Este assunto não repete padrões técnicos de WCAG/eMAG nem governança adminis
 | só seleção pública observa acessibilidade | errado: pública ou privada |
 | assento reservado nunca pode ser usado por outra pessoa | errado: excepcionalmente, sem procura comprovada |
 | cinema escolhe sessões acessíveis | errado: todas as sessões |
+| CAA cultural e placas do art. 62-A usam o mesmo comando | errado: art. 42, § 3º = incentivar; art. 62-A = instalar |
 | hospedagem antiga está sempre dispensada | errado: regra de 10%; exceção estrutural condicionada |
 | vaga reservada é 10% | errado: estacionamento 2%; táxi 10% |
 | locadora reserva um em dez | errado: um em vinte |
@@ -591,12 +598,12 @@ Este assunto não repete padrões técnicos de WCAG/eMAG nem governança adminis
 ## 17. Referências
 
 - **Edital nº 1 — TCE/MA, de 6 de julho de 2026** — Cebraspe e Tribunal de Contas do Estado do Maranhão, [edital oficial](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), acesso em 4 ago. 2026.
-- **Lei nº 13.146, de 6 de julho de 2015** — Presidência da República, texto consolidado vigente no corte, [Lei Brasileira de Inclusão](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm), acesso em 4 ago. 2026.
+- **Lei nº 13.146, de 6 de julho de 2015** — Presidência da República, texto consolidado vigente no corte, [Lei Brasileira de Inclusão](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm), acesso em 15 ago. 2026.
 - **Lei nº 14.624, de 17 de julho de 2023** — Presidência da República, cordão de girassóis, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14624.htm), acesso em 4 ago. 2026.
 - **Lei nº 14.863, de 27 de maio de 2024** — Presidência da República, acessibilidade em campanhas, [texto oficial](https://planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14863.htm), acesso em 4 ago. 2026.
 - **Lei nº 14.978, de 18 de setembro de 2024** — Presidência da República, hospedagem e laudo estrutural, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14978.htm), acesso em 4 ago. 2026.
 - **Lei nº 15.163, de 3 de julho de 2025** — Presidência da República, penas do abandono, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15163.htm), acesso em 4 ago. 2026.
-- **Lei nº 15.249, de 3 de novembro de 2025** — Presidência da República, comunicação aumentativa e alternativa, [texto oficial retificado](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15249.htm), acesso em 4 ago. 2026.
+- **Lei nº 15.249, de 3 de novembro de 2025** — Presidência da República, comunicação aumentativa e alternativa, [texto oficial retificado](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15249.htm), acesso em 15 ago. 2026.
 - **Decreto nº 9.451, de 26 de julho de 2018** — Presidência da República, regulamentação da acessibilidade em edificações multifamiliares, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9451.htm), acesso em 4 ago. 2026.
 - **Decreto nº 10.645, de 11 de março de 2021** — Presidência da República, Plano Nacional de Tecnologia Assistiva, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/d10645.htm), acesso em 4 ago. 2026.
 - **Caderno 375_STM_CB4_08_SUPER_40** — Cebraspe, Superior Tribunal Militar, Cargo 9, aplicação em 4 de março de 2018, [prova oficial](https://cdn.cebraspe.org.br/concursos/STM_17_ANALISTA_TECNICO/arquivos/375_STM_CB4_08_SUPER_40.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/STM_17_ANALISTA_TECNICO/arquivos/GAB_DEFINITIVO_375_STM_CB4_08_SUPER_40.PDF), acesso em 5 ago. 2026.

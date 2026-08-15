@@ -3,7 +3,8 @@
 ## Recorte
 
 - mecanismos operacionais da LBI;
-- corte: **04/08/2026**;
+- regra de prova: alterações legislativas em vigor até **06/07/2026**;
+- conferência editorial: **15/08/2026**;
 - fundamentos/direitos/capacidade → Assunto 098;
 - Leis nº 10.048/2000 e nº 10.098/2000 → Assunto 100.
 
@@ -46,6 +47,8 @@ Regras:
 - fuga/emergência acessíveis;
 - cinema: recursos em **todas** as sessões;
 - ingresso sem preço superior.
+
+CAA cultural, art. 42, § 3º: poder público **incentivará** museus, exposições, monumentos, exibições e galerias a empregar comunicação aumentativa e alternativa para a acessibilidade de pessoas com necessidades complexas de comunicação.
 
 ## Hospedagem
 
@@ -140,14 +143,14 @@ Mediante solicitação: contas, boletos, recibos, extratos e tributos acessívei
 
 Lei nº 15.249/2025, art. 62-A:
 
-- obrigado: o poder público instalará;
+- verbo legal: o poder público **instalará**;
 - beneficiária: pessoa com necessidade complexa de comunicação;
 - praças/parques/espaços públicos coletivos;
 - placas com pranchas de **baixa tecnologia**;
 - pictogramas;
 - adaptadas ao contexto;
 - material resistente ao clima/uso;
-- implantação observa disponibilidade financeira/orçamentária.
+- disponibilidade financeira/orçamentária: ressalva do **art. 4º da Lei nº 15.249/2025**, não do texto do art. 62-A.
 
 ## Internet e comunicação
 
@@ -305,6 +308,7 @@ Art. 91: cartão/meio/documento destinado a recebimento ou operação financeira
 - trabalho com apoio continua competitivo;
 - seleção privada também cumpre;
 - cinema = todas as sessões;
+- CAA cultural = **incentivar**; art. 62-A = **instalar** placas;
 - prédio antigo também cumpre;
 - CAA = baixa tecnologia + contexto;
 - site privado abrangido;
