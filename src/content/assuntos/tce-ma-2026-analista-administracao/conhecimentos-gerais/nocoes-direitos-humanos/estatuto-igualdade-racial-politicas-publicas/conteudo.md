@@ -344,7 +344,7 @@ O foco do 102 é desenho legal de implementação, participação, financiamento
 2. No art. 49, separe plano, órgão responsável, fórum, colegiado e IBGE.
 3. Observe os verbos: **poderão participar**, **poderão instituir**, **instituirá**, **é autorizado**.
 4. Em conselhos, memorize: subnacional + permanente + consultivo + paritário.
-5. Em Ouvidorias, memorize: federal + Legislativo/Executivo + receber/encaminhar/acompanhhar.
+5. Em Ouvidorias, memorize: federal + Legislativo/Executivo + receber/encaminhar/acompanhar.
 6. Em mecanismos setoriais, associe: art. 16 educação; art. 36 SNHIS/FNHIS; art. 40 Codefat; art. 46 contratação federal.
 7. Em orçamento, diferencie caput, transparência autorizada, regra transitória encerrada, patamares e acompanhamento colegiado.
 8. Em financiamento, não invente fundo.
@@ -359,6 +359,6 @@ O foco do 102 é desenho legal de implementação, participação, financiamento
 - **Decreto nº 4.886, de 20 de novembro de 2003** — Presidência da República, PNPIR, [texto oficial](https://www.planalto.gov.br/ccivil_03/decreto/2003/d4886.htm), referência contextual, acesso em 15 ago. 2026.
 - **Decreto nº 6.872, de 4 de junho de 2009** — Presidência da República, Planapir, [texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6872.htm), referência contextual, acesso em 15 ago. 2026.
 - **Decreto nº 8.136, de 5 de novembro de 2013** — Presidência da República, regulamentação do Sinapir, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d8136.htm), referência contextual, acesso em 15 ago. 2026.
-- **Portaria GAB/MIR nº 342, de 3 de julho de 2026** — Ministério da Igualdade Racial, publicada em 8 jul. 2026 e republicada em 13 jul. 2026, atualização pós-edital, acesso em 15 ago. 2026.
+- **Portaria GAB/MIR nº 342, de 3 de julho de 2026** — Ministério da Igualdade Racial, publicada em 8 jul. 2026 e republicada em 13 jul. 2026, atualização pós-edital, [republicação oficial no DOU](https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=13%2F07%2F2026&jornal=600&pagina=5), acesso em 15 ago. 2026.
 - **SEFAZ/RS — Auditor do Estado, 2018, questão 23** — Cebraspe, [prova oficial](https://cdn.cebraspe.org.br/concursos/SEFAZ_RS_17/arquivos/368_SEFAZRS_001_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/SEFAZ_RS_17/arquivos/GAB_DEFINITIVO_368_SEFAZRS_001_01.PDF), acesso em 15 ago. 2026.
 - **MP/BA — Promotor de Justiça Substituto, 2023, questão 86** — Cebraspe, [prova oficial](https://cdn.cebraspe.org.br/concursos/MP_BA_23_PROMOTOR/arquivos/853_MPBA_PROMOTOR_OBJ_001_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/mp_ba_23_promotor/arquivos/GAB_DEFINITIVO_853_MPBA_PROMOTOR_OBJ_001_01.PDF), acesso em 15 ago. 2026.
