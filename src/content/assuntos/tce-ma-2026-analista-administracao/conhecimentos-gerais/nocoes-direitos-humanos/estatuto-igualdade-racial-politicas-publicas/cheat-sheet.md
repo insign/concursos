@@ -1,424 +1,193 @@
 # Estatuto da Igualdade Racial: políticas públicas e mecanismos
 
-Corte: **4 de agosto de 2026**.
+Regra de prova: alterações legislativas em vigor até **6 de julho de 2026**.
 
-Núcleo: Lei nº 12.288/2010. Regulamento essencial: Decreto nº 8.136/2013.
+Conferência editorial: **15 de agosto de 2026**.
 
-Portaria MIR nº 342/2026 → **atualização pós-edital**.
+Núcleo: **Lei nº 12.288/2010**. Regulamentos servem apenas como contexto quando a questão pedir além da lei.
 
-## Política × plano × sistema
+## Mapa legal
 
-| Instituto | Base | Função |
-|---|---|---|
-| PNPIR | Dec. 4.886/2003 | política/orientação |
-| Planapir | Dec. 6.872/2009 | plano/objetivos por eixos |
-| Sinapir | Lei 12.288 + Dec. 8.136 | sistema/organização/articulação/execução |
-
-## PNPIR
-
-Objetivo → reduzir desigualdades raciais, com ênfase na população negra.
-
-Princípios:
-
-1. transversalidade;
-2. descentralização;
-3. gestão democrática.
-
-Diretrizes:
-
-- fortalecimento institucional;
-- questão racial em toda ação governamental;
-- gestão democrática;
-- qualidade de vida;
-- agenda internacional.
-
-## Planapir
-
-Plano aprovado em 2009.
-
-12 eixos:
-
-1. trabalho/desenvolvimento;
-2. educação;
-3. saúde;
-4. diversidade cultural;
-5. direitos humanos/segurança;
-6. quilombos;
-7. povos indígenas;
-8. comunidades de terreiro;
-9. política internacional;
-10. desenvolvimento social/segurança alimentar;
-11. infraestrutura;
-12. juventude.
-
-Antigo Comitê de Articulação e Monitoramento:
-
-- arts. 3º-9º do Decreto nº 6.872/2009;
-- **revogado** pelo Decreto nº 10.087/2019;
-- não tratar como vigente.
+| Tema | Artigo | Regra de uma linha |
+|---|---:|---|
+| Sinapir | 47–48 | organização/articulação + adesão voluntária + 5 objetivos |
+| governança | 49 | plano + órgão + fórum + colegiado + IBGE/5 anos |
+| conselhos | 50 | subnacionais + permanentes + consultivos + paritários |
+| Ouvidorias | 51–52 | federal + Legislativo/Executivo + denúncias + acompanhamento |
+| educação | 16 | acompanhamento/avaliação federal conjunta |
+| moradia | 36 | SNHIS + peculiaridades + participação no FNHIS |
+| trabalho | 40 | Codefat formula/orienta recursos |
+| contratação federal | 46 | cláusulas de igualdade + fiscalização |
+| PPA/orçamento | 56 | prioridades + transparência + regra transitória + acompanhamento |
+| financiamento | 57 | recursos ordinários + fontes adicionais; sem fundo próprio |
+| medidas favoráveis | 58 | rol não excludente |
+| monitoramento | 59 | eficácia social + constante + relatórios + Internet |
 
 ## Sinapir
 
-Forma de **organização e articulação** para implementar políticas/serviços e superar desigualdades.
+Natureza → forma de **organização e articulação** para implementar políticas/serviços e superar desigualdades étnicas.
 
 Não é:
 
 - fundo;
 - conselho;
-- órgão;
-- ente federativo;
-- política setorial.
+- órgão único;
+- ente federativo.
 
-Entes subnacionais → participação por **adesão voluntária**.
+Estados + DF + Municípios → **poderão participar mediante adesão**.
 
-União incentiva sociedade + iniciativa privada.
+União → incentiva sociedade + iniciativa privada.
 
-## Cinco objetivos
+### Cinco objetivos — art. 48
 
-1. promover igualdade/combater desigualdades do racismo;
-2. formular políticas contra marginalização;
-3. descentralizar ações afirmativas;
-4. articular planos/ações/mecanismos;
-5. garantir eficácia de meios/instrumentos/metas.
+1. **promover** igualdade e combater desigualdades do racismo;
+2. **formular** políticas contra marginalização e pela integração;
+3. **descentralizar** ações afirmativas;
+4. **articular** planos, ações e mecanismos;
+5. **garantir eficácia** dos meios/instrumentos/metas.
 
-## Princípios do sistema
+## Art. 49 — cinco peças
 
-| Princípio | Essência |
-|---|---|
-| desconcentração | compartilhar execução/monitoramento entre órgãos federais |
-| descentralização | competências/responsabilidades entre entes |
-| gestão democrática | sociedade por conselhos/conferências |
-| estímulo ampliado | Legislativo/Judiciário/MP/Defensorias/privado |
+1. **plano nacional** → metas + princípios + diretrizes;
+2. **órgão responsável** → elabora/implementa/coordena/avalia/acompanha PNPIR + organiza/articula/coordena Sinapir;
+3. **fórum** → Executivo federal é **autorizado** a instituir;
+4. **colegiado** → diretrizes + participação da sociedade civil;
+5. **IBGE** → pesquisa a cada **5 anos** + ocupação étnico-racial no **setor público** + subsídio à PNPIR.
 
-Desconcentração ≠ descentralização.
+Resposta literal sobre órgão nacional → use a **formulação funcional da lei**, não nome histórico.
 
-## Instrumentos gerenciais
+## Conselhos × Ouvidorias
 
-1. Planapir + planos subnacionais;
-2. PPA;
-3. Rede-Sinapir.
+| Ponto | Conselhos — art. 50 | Ouvidorias — art. 51 |
+|---|---|---|
+| esfera | Estados/DF/Municípios | poder público federal |
+| verbo | Executivos **poderão instituir** | poder público **instituirá** |
+| natureza | permanente + consultivo | canal permanente |
+| composição | paritária | não é o foco do artigo |
+| função | promoção/participação | receber + encaminhar denúncias + acompanhar medidas |
+| Poderes | Executivos subnacionais | Legislativo + Executivo |
 
-Rede-Sinapir:
+Conselho criado → prioridade de recursos.
 
-- informação;
-- monitoramento;
-- avaliação;
-- acesso/controle social;
-- cadastro de órgãos + portal.
+Prioridade ≠ exclusividade ≠ transferência automática.
 
-## Estrutura
+Art. 52 → Ouvidoria + Defensoria + MP + Judiciário são canais cumulativos.
 
-- conferências;
-- CNPIR;
-- órgão federal central;
-- Fipir;
-- Ouvidoria Permanente do Executivo.
+## Mecanismos setoriais
 
-## Conferências
+**Educação — art. 16**
 
-- diálogo Estado/sociedade;
-- proposição + implementação + monitoramento;
-- a cada **4 anos** no decreto;
-- cronograma federal + CNPIR ouvido.
+Programas da seção → acompanhamento e avaliação federal pelos órgãos de igualdade + educação.
 
-## CNPIR
+**Moradia — art. 36**
 
-- consultivo;
-- controle social;
-- acompanha implementação;
-- alinha execução à Conferência Nacional.
+- SNHIS considera peculiaridades sociais/econômicas/culturais da população negra;
+- Estados/DF/Municípios estimulam participação de organizações negras nos conselhos do FNHIS;
+- conselho FNHIS ≠ conselho art. 50.
 
-Não confundir com conselhos subnacionais do art. 50.
+**Trabalho — art. 40**
 
-## Órgão nacional
+Codefat → formula políticas/programas/projetos de inclusão + orienta recursos.
 
-Lei usa fórmula funcional:
+**Contratação federal — art. 46**
 
-- elabora/implementa PNPIR;
-- coordena;
-- avalia/acompanha;
-- organiza/articula/coordena Sinapir.
+Igualdade de oportunidades → cláusulas contratuais + fiscalização legal.
 
-Evite nome histórico do órgão como resposta literal universal.
+## Art. 56 — PPA e orçamento
 
-Art. 49:
+Regra geral → PPA + orçamento anual da União observam:
 
-1. caput → plano nacional com metas/princípios/diretrizes;
-2. § 1º → órgão nacional coordena PNPIR + Sinapir;
-3. § 2º → Executivo autorizado a instituir fórum, coordenado pelo órgão nacional;
-4. § 3º → diretrizes por colegiado com participação civil;
-5. § 4º → IBGE quinquenal para subsidiar PNPIR.
+- ação afirmativa;
+- igualdade de oportunidades;
+- inclusão social da população negra.
 
-## Fipir
-
-Fórum intergovernamental → pactos federativos.
-
-Objetivo → incorporar política nacional às ações estaduais/municipais.
-
-- representação municipal por fóruns estaduais;
-- na votação do regimento interno: um voto por esfera;
-- DF na esfera estadual;
-- serviço público relevante;
-- não remunerado.
-
-## Adesão
-
-Requisitos gerais do decreto:
-
-1. conselho instituído/em funcionamento/paritário;
-2. órgão de igualdade racial na estrutura administrativa.
-
-Municípios → consórcios públicos possíveis.
-
-Adesão ≠ cumprimento automático.
-
-Retirada → possível a qualquer momento.
-
-## Participação federativa
-
-Estados/DF:
-
-- apoiam conselho/órgão;
-- Fipir + fóruns municipais;
-- plano + conferência;
-- apoio a Municípios;
-- política pactuada.
-
-Municípios:
-
-- conselho/órgão;
-- fórum estadual/Fipir;
-- plano + conferência;
-- política pactuada.
-
-## Sociedade civil
-
-Participa por:
-
-- conselhos;
-- conferências;
-- GTs/comitês/instâncias;
-- projetos coletivos financiados.
-
-Não substitui coordenação estatal.
-
-## União
-
-- coordena Sinapir;
-- fomenta adesão;
-- articula planos/programas;
-- apoia órgãos/políticas;
-- executa/monitora esfera federal;
-- afere eficácia;
-- implementa Planapir;
-- conferência nacional;
-- apoio à Ouvidoria.
-
-## Conselhos do art. 50
-
-Executivos subnacionais **poderão** instituir.
-
-- permanentes;
-- consultivos;
-- paritários;
-- público + sociedade civil negra.
-
-Não necessariamente deliberativos.
-
-## Duas prioridades
-
-| Regra | Critério |
-|---|---|
-| Lei, art. 50 p.u. | ente criou conselho |
-| Decreto, art. 24 | ente aderiu ao Sinapir |
-
-Prioridade ≠ exclusividade ≠ recurso automático.
-
-## Ouvidorias
-
-Poder público federal **instituirá**.
-
-Poderes:
-
-- Legislativo;
-- Executivo.
-
-Funções:
-
-- receber denúncias;
-- encaminhar;
-- acompanhar medidas.
-
-No decreto:
-
-- opiniões/reclamações;
-- mediação;
-- denúncias.
-
-Não julga nem condena.
-
-Art. 52 → Ouvidoria é canal complementar; não substitui as garantias ensinadas no Assunto 101.
-
-## Disque Igualdade Racial
-
-Previsão do art. 29 do decreto:
-
-- recebe denúncias de racismo/discriminação;
-- atenção especial a juventude negra, matrizes africanas, quilombolas e povos ciganos;
-- admite parceria com entes aderentes para rede nacional;
-- não confundir com Ouvidoria nem presumir estrutura operacional atual.
-
-## Operação setorial
-
-Saúde:
-
-- participação/controle SUS;
-- ciência/tecnologia;
-- informação/educação;
-- dados cor/etnia/gênero;
-- estudos racismo/saúde;
-- formação trabalhadores/lideranças.
-
-Educação:
-
-- quatro níveis federativos;
-- ampliar acesso;
-- apoiar entidades;
-- campanhas;
-- juventude;
-- ações socioeducacionais → afirmativas → acompanhamento/avaliação.
-
-Terra/produção:
-
-- direitos/instrumentos ensinados no 101;
-- no 102, reconhecer a política coordenada, não benefícios isolados.
-
-Moradia:
-
-- SNHIS considera peculiaridades;
-- participação em conselhos FNHIS;
-- conselho habitacional ≠ conselho art. 50.
-
-Trabalho:
-
-- formação/emprego/renda;
-- público + incentivo privado;
-- gênero + crédito + qualificação;
-- dados étnico-raciais;
-- Codefat formula políticas/programas/projetos e orienta recursos.
-
-Comunicação:
-
-- conteúdo substantivo no 101;
-- mecanismo: cláusulas/especificações da contratação pública federal + fiscalização legal.
-
-## Art. 56: PPA/orçamento
-
-Observa ações afirmativas + igualdade de oportunidades + inclusão negra.
-
-Sete eixos:
+Sete grupos:
 
 1. educação/emprego/moradia;
 2. pesquisas educação/saúde/emprego;
 3. comunicação;
 4. microempresas negras;
-5. acesso/permanência educação;
-6. projetos subnacionais/civis;
+5. acesso/permanência na educação;
+6. projetos subnacionais + sociedade civil;
 7. cultura/memória/tradições.
 
-## Transparência e prazo
+### Verbos e prazos
 
-§ 1º → Executivo **autorizado** a transparência anual/proporção dos recursos.
+- § 1º → Executivo **autorizado** a transparência anual;
+- § 2º → obrigação dos primeiros 5 anos: **janela encerrada**;
+- § 3º → Executivo **autorizado** a medidas + patamares crescentes;
+- § 4º → colegiado federal acompanha/avalia programação orçamentária.
 
-§ 2º → obrigação nos 5 primeiros anos/exercício seguinte.
+## Art. 57 — fontes
 
-Em 2026 → janela **encerrada**.
-
-§ 3º → autorizado a medidas/patamares crescentes.
-
-§ 4º → colegiado acompanha/avalia propostas orçamentárias.
-
-## Art. 57: fontes
-
-Além de recursos ordinários:
+Além dos recursos ordinários:
 
 - transferências voluntárias subnacionais;
 - particulares;
 - empresas/ONGs nacionais ou internacionais;
 - fundos nacionais/internacionais;
-- Estados estrangeiros via instrumentos internacionais.
+- Estados estrangeiros por instrumentos internacionais.
 
-Não cria fundo exclusivo.
+**Não cria fundo exclusivo.**
 
-## Decreto: financiamento
+## Art. 58
 
-- aderente prevê orçamento + transparência;
-- cofinanciamento União/aderentes;
-- orçamento central + LOA + doações;
-- sociedade civil por chamamento público.
+Medidas do Estatuto **não excluem outras** medidas favoráveis à população negra adotadas por União, Estados, DF e Municípios.
 
-## Monitoramento
+## Art. 59 — monitoramento
 
-| Mecanismo | Regra |
+Executivo federal:
+
+- cria instrumentos de **eficácia social**;
+- monitora **constantemente**;
+- emite relatórios **periódicos**;
+- divulga resultados, inclusive pela **Internet**.
+
+### Não confundir
+
+| Mecanismo | Objeto |
 |---|---|
-| art. 59 | eficácia social + constante + relatórios + Internet |
-| art. 49 § 4º | IBGE/5 anos/setor público/PNPIR |
-| art. 56 § 4º | colegiado/programação orçamentária |
-| Rede-Sinapir | informação/avaliação/controle social |
+| art. 49 § 4º | IBGE / 5 anos / ocupação no setor público / PNPIR |
+| art. 56 § 4º | colegiado / programação orçamentária |
+| art. 59 | eficácia social / monitoramento constante / relatórios |
 
-Não são sinônimos.
+## Regulamentação: contexto, não núcleo
 
-## Portaria MIR nº 342/2026
+- PNPIR → política nacional;
+- Planapir → plano;
+- Sinapir → sistema da Lei nº 12.288/2010;
+- Decreto nº 8.136/2013 → detalha funcionamento do Sinapir.
 
-**Pós-edital**:
+Pegadinha de banca: **transversalidade** é princípio da PNPIR em seu decreto; não é formulação literal geral do Estatuto.
 
-- edital: 06/07;
-- publicação: 08/07;
-- republicação material: 13/07;
-- corte: 04/08.
+### Portaria MIR nº 342/2026
 
-Revoga:
+- publicada em 08/07/2026;
+- republicada em 13/07/2026;
+- portanto **pós-edital**.
 
-- PR-SEPPIR 8/2014;
-- Portaria 303/2025.
+Para a prova → priorize a Lei nº 12.288/2010 no corte de 06/07/2026.
 
-Não revoga Portaria 265/2026 no texto republicado.
-
-Modalidades:
-
-| Modalidade | Órgão local |
-|---|---|
-| plena | unidade gestora e orçamentária |
-| intermediária | unidade orçamentária |
-| básica | unidade administrativa |
-
-Todas → conselho + órgão/pessoal + plano/ação compatível.
-
-Multiplicadores MIR:
-
-- plena 3;
-- intermediária 2;
-- básica 1,5.
-
-Adesão ≠ transferência automática.
+Para direito vigente hoje → a portaria pode ser consultada como regulamentação atual, sem transformar suas modalidades e detalhes em núcleo do edital.
 
 ## Pegadinhas-relâmpago
 
-- política ≠ plano ≠ sistema;
-- transversalidade é princípio da PNPIR; prioridade transversal dos aderentes vem do regulamento do Sinapir; não atribuir essa formulação literal ao Estatuto;
-- comitê antigo do Planapir foi revogado;
 - Sinapir ≠ fundo;
 - adesão ≠ compulsória;
-- desconcentração ≠ descentralização;
-- CNPIR consultivo;
-- conselho art. 50 permanente/paritário/facultativo;
-- prioridade ≠ exclusividade;
-- conselho na lei ≠ adesão no decreto;
-- Ouvidoria: instituirá, Legislativo + Executivo;
+- art. 48 inclui **descentralizar**;
+- órgão nacional → fórmula funcional;
+- fórum → Executivo **autorizado** a instituir;
+- colegiado → participação civil;
+- IBGE → **5 anos + setor público**;
+- conselho art. 50 → poderá + permanente + consultivo + paritário;
+- prioridade ≠ recurso automático;
+- Ouvidoria → instituirá + Legislativo/Executivo;
+- Ouvidoria ≠ julgador;
+- conselho FNHIS ≠ conselho art. 50;
+- Codefat ≠ executor exclusivo;
+- transparência anual do art. 56 → Executivo **autorizado**;
+- regra orçamentária dos 5 primeiros anos → encerrada;
 - art. 57 ≠ fundo;
-- janela de 5 anos já terminou;
-- IBGE: 5 anos/setor público/PNPIR;
-- Portaria 342 é pós-edital;
-- republicação teve mudanças materiais;
-- Portaria 342 não revogou 265 no texto corrigido;
-- adesão não garante recurso.
+- art. 59 ≠ pesquisa quinquenal;
+- transversalidade ≠ texto literal geral do Estatuto;
+- Portaria 342/2026 → **pós-edital**.
