@@ -1,17 +1,17 @@
-# População e urbanização do Maranhão
+# População, povoamento e movimentos no Maranhão
 
-## Conceitos
+## Matriz de conceitos
 
-| Termo | Chave |
+| Termo | Chave de prova |
 |---|---|
-| população absoluta | total em data/território |
-| densidade | população ÷ área |
-| povoamento | processo/padrão de ocupação |
-| crescimento natural | nascimentos - óbitos |
-| saldo migratório | imigrantes - emigrantes |
-| crescimento total | natural + saldo + ajustes |
+| população absoluta | total de habitantes em data e território definidos |
+| densidade | população ÷ área; média espacial |
+| povoamento | processo e padrão histórico-espacial de ocupação |
+| crescimento natural | nascimentos − óbitos |
+| saldo migratório | imigrantes − emigrantes |
+| crescimento total | natural + saldo migratório + ajustes |
 
-Populoso ≠ povoado.
+**Populoso ≠ denso ≠ povoamento.**
 
 ## Fórmulas
 
@@ -19,7 +19,7 @@ $$D=P/A$$
 
 $$r=(P_t/P_0)^{1/n}-1$$
 
-Taxa geométrica ≠ variação percentual ÷ anos.
+Taxa geométrica ≠ variação percentual ÷ número de anos.
 
 ## Números-chave
 
@@ -29,11 +29,9 @@ Taxa geométrica ≠ variação percentual ÷ anos.
 | Censo 2022 corrente | **6.776.699** |
 | estimativa 1º/7/2025 | **7.018.211** |
 | densidade 2022 | **20,56 hab./km²** |
-| área territorial | 329.651,463 km² |
+| crescimento 2010-2022 | **+201.910 / +3,07% / ~0,25% a.a.** |
 
-- Crescimento 2010-2022: +201.910 / +3,07% / ~0,25% a.a.
-- 6.775.152 = resultado inicial, não valor corrente.
-- Estimativa 2025 ≠ Censo 2022.
+**7.018.211 = estimativa de 2025, não Censo 2022.**
 
 ## Urbano × rural
 
@@ -41,19 +39,25 @@ Taxa geométrica ≠ variação percentual ÷ anos.
 |---|---:|---:|
 | urbana | 4.147.149 | 4.806.990 |
 | rural | 2.427.640 | 1.969.709 |
-| urbanização | 63,08% | **70,93%** |
+| grau de urbanização | 63,08% | **70,93%** |
 
-+7,85 p.p. urbanos.
+Aumento: **7,85 pontos percentuais**.
 
-Redução rural ≠ êxodo rural como causa única.
+- redução rural ≠ êxodo rural como causa única;
+- em 2022, **prevalecem critérios morfológicos e funcionais** na delimitação urbano/rural;
+- zoneamento legal municipal = insumo complementar, não regra exclusiva;
+- comparação municipal 2010 × 2022 exige cautela metodológica.
 
-## Método urbano/rural
+## Distribuição e povoamento
 
-- 2022: critérios políticos + morfológicos + funcionais.
-- Zona urbana legal ≠ área urbana IBGE obrigatoriamente.
-- Comparação municipal 2010/2022: cautela metodológica.
+- litoral/São Luís: maior concentração;
+- vales fluviais: eixos históricos de interiorização;
+- Imperatriz: polo do sudoeste/oeste;
+- Timon/Caxias: articulação com o leste e Teresina;
+- Balsas: polo do sul;
+- grandes áreas do centro, sul e sudoeste: baixas densidades relativas.
 
-## Contrastes municipais
+Contrastes 2022:
 
 | Município | População | Densidade |
 |---|---:|---:|
@@ -61,118 +65,84 @@ Redução rural ≠ êxodo rural como causa única.
 | Imperatriz | 273.110 | 199,49 |
 | Alto Parnaíba | 11.109 | 1,00 |
 
-- São Luís: 1º em população/densidade no MA.
-- Imperatriz: 2º em população.
-- Alto Parnaíba: menor densidade, não menor população.
-- São Luís município: 15,31% do estado.
+São Luís: cerca de **15,31%** da população estadual.
 
-## Cinco escalas
+## Urbanização: não confunda
 
-1. município;
-2. Ilha de Upaon-Açu;
-3. arranjo populacional;
-4. região metropolitana legal;
-5. região de influência.
+| Conceito | Ideia central |
+|---|---|
+| urbanização | aumento da participação urbana/transformação do espaço |
+| crescimento urbano | aumento absoluto da população urbana |
+| metropolização | integração funcional e espacial em torno de grande centro |
+| conurbação | continuidade física das manchas urbanizadas |
+| região metropolitana legal | recorte criado por norma jurídica |
 
-Não são sinônimos.
+**RM legal ≠ prova automática de integração funcional.**
 
-## Povoamento
+Arranjos Populacionais e REGIC servem como apoio para entender integração e influência; sempre observe a **edição** do estudo.
 
-- Litoral/São Luís: núcleo inicial.
-- Vales fluviais: interiorização.
-- Sul/oeste: contatos interiores.
-- Século XX: rodovias, municípios e polos.
-- Hoje: capital + centros interiores + vazios relativos.
+## Movimentos populacionais
 
-## Arranjos 2016 (dados 2010)
+| Medida | O que capta |
+|---|---|
+| imigração | entrada com mudança de residência |
+| emigração | saída com mudança de residência |
+| saldo migratório | entradas − saídas |
+| naturalidade | estoque acumulado ligado ao lugar de nascimento |
+| última etapa | residência imediatamente anterior |
+| data fixa | residência em duas datas definidas |
+| pendularidade | deslocamento recorrente sem mudança necessária de residência |
 
-- São Luís + Paço do Lumiar + Raposa + São José de Ribamar.
-- Imperatriz + Davinópolis.
-- Timon + Teresina.
-- Caxias: isolado naquela edição.
+### Estoque ≠ fluxo
 
-Critérios: índice ≥0,17; fluxo ≥10 mil; manchas até 3 km.
+- não naturais do MA residentes no estado: **514.870**;
+- naturais do MA residentes em outra UF: **1.826.563**.
 
-Arranjo 2016 ≠ Censo 2022.
+Esses valores são **estoques por naturalidade**, não fluxos de 2017-2022.
 
-## REGIC 2018
-
-- Mede hierarquia, gestão, bens/serviços e influência.
-- Não é ranking populacional.
-- São Luís: comando estadual.
-- Imperatriz: sudoeste/oeste.
-- Timon: integração com Teresina.
-- Caxias/Codó: sobreposição São Luís-Teresina.
-- Balsas: centro do sul.
-
-## Migração
-
-- Imigração: entrada.
-- Emigração: saída.
-- Saldo: entradas - saídas.
-- Saldo zero pode ter fluxos altos.
-- Interestadual ≠ intraestadual.
-
-## Estoque por naturalidade 2022
-
-- Não naturais do MA nascidos no Brasil e residentes no estado: **514.870**.
-- Naturais do MA em outra UF: **1.826.563**.
-
-Isso é estoque acumulado, não fluxo 2017-2022.
-
-## Data fixa 2017-2022
+### Data fixa 2017-2022 — interestadual
 
 | Indicador | Valor |
 |---|---:|
 | imigrantes | 130.658 |
 | emigrantes | 259.886 |
-| saldo | **-129.228** |
-| taxa líquida | **-1,91%** |
+| saldo | **−129.228** |
+| taxa líquida | **−1,91%** |
 
-Origens para MA: Pará 20,8%; Piauí 14,4%; SP 13,7%.
+Saldo negativo = saídas > entradas. **Não** significa imigração zero nem queda obrigatória da população total.
 
-Destinos desde MA: Goiás 17,6%; Pará 15,9%; MT 14,1%.
+Origens de destaque para o MA: Pará, Piauí e São Paulo.
 
-Resultados preliminares da amostra.
-
-## Três medidas migratórias
-
-- Naturalidade: nascimento/estoque.
-- Última etapa: residência imediatamente anterior.
-- Data fixa: 31/7/2017 × 2022.
-
-Retorno exige definição do território de origem.
+Destinos de destaque desde o MA: Goiás, Pará e Mato Grosso.
 
 ## Pendularidade
 
-Movimento recorrente sem mudança de residência.
+- trabalho no mesmo município: **89,8%**;
+- trabalho em outro município: **9,5%**;
+- estudo no mesmo município: **93,7%**;
+- estudo em outro município: **6,2%**.
 
-- Trabalho no mesmo município: 89,8%.
-- Trabalho em outro: 9,5%.
-- Estudo no mesmo: 93,7%.
-- Estudo em outro: 6,2%.
+Timon → Teresina para trabalhar/estudar, sem mudança residencial = **deslocamento pendular interestadual**, não migração.
 
-2022: retorno do trabalho para casa ≥3 dias/semana.
+## Pegadinhas de uma linha
 
-Timon-Teresina pode ser pendularidade interestadual, não migração.
-
-## Pegadinhas
-
-- 7.018.211 = Censo: falso.
-- Densidade uniforme: falso.
-- Crescimento total = natural: falso.
-- Urbanização = metropolização: falso.
-- RM legal = arranjo: falso.
-- Naturalidade = migração recente: falso.
-- 1.826.563 = emigrantes 2017-2022: falso.
-- Saldo negativo = zero imigração: falso.
-- Pendularidade = migração: falso.
+- população absoluta = densidade: **falso**;
+- povoamento = densidade: **falso**;
+- densidade média = distribuição uniforme: **falso**;
+- 7.018.211 = Censo 2022: **falso**;
+- crescimento total = crescimento natural: **falso**;
+- urbanização = metropolização: **falso**;
+- RM legal = arranjo funcional: **falso**;
+- estoque por naturalidade = migração recente: **falso**;
+- saldo negativo = zero imigração: **falso**;
+- pendularidade = migração: **falso**.
 
 ## Método rápido
 
-1. Data + território.
-2. Censo, estimativa, projeção ou amostra?
-3. Estoque, fluxo ou taxa?
-4. Denominador do percentual.
-5. Município, ilha, arranjo, RM ou influência?
-6. Migração ou deslocamento recorrente?
+1. Marque **data + território**.
+2. Identifique **censo, estimativa ou amostra**.
+3. Pergunte: **estoque, fluxo ou taxa?**
+4. Separe **população absoluta, densidade e povoamento**.
+5. Separe **urbanização, metropolização e conurbação**.
+6. Em migração, fixe **origem, destino e período**.
+7. Movimento recorrente sem mudança residencial = **pendularidade**.
