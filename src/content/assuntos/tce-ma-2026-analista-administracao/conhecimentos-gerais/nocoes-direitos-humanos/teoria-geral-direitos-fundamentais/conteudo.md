@@ -1,502 +1,323 @@
 ---
 schemaVersion: 1
 title: "Teoria geral dos direitos fundamentais"
-description: "Conceitos, características, dimensões, eficácia, restrições e relação entre direitos humanos e fundamentais."
+description: "Conceitos, características, dimensões, eficácia e relação entre direitos humanos e direitos fundamentais."
 order: 95
 storageId: "teoria-direitos-fundamentais"
 ---
 
 # Teoria geral dos direitos fundamentais
 
-## 1. Recorte, objetivo e corte temporal
+## 1. Recorte do edital e corte temporal
 
-Este assunto apresenta a teoria geral dos direitos fundamentais e sua relação com os direitos humanos. O objetivo é compreender:
+O edital cobra, em **Noções de Direitos Humanos**, dois núcleos diretamente relacionados:
 
-- terminologia e fundamentos;
-- características e dimensões históricas;
-- titulares, funções e deveres estatais;
-- aplicabilidade e eficácia;
-- abertura do catálogo constitucional;
-- incorporação e hierarquia de tratados;
-- restrições, colisões e proteção contra excessos;
-- diálogo entre a Constituição e os sistemas internacionais.
+1. **teoria geral dos direitos fundamentais**;
+2. **direitos humanos e direitos fundamentais**.
 
-O corte normativo e jurisprudencial é **4 de agosto de 2026**. A Declaração Universal dos Direitos Humanos será estudada em assunto próprio; aqui ela aparece apenas como marco da internacionalização.
+O foco deste assunto é conceitual e aplicado: terminologia, características, dimensões, titulares, funções, aplicabilidade, eficácia, abertura do catálogo, incidência nas relações privadas e posição dos tratados de direitos humanos no direito brasileiro.
 
-## 2. Terminologia
+A **Declaração Universal dos Direitos Humanos** é assunto próprio do item seguinte e aqui aparece somente quando necessária para compreender a internacionalização da proteção.
+
+Quanto ao corte do concurso:
+
+- para normas, considera-se a regra do edital sobre alterações legislativas vigentes até a publicação do Edital nº 1, em **6 de julho de 2026**;
+- para jurisprudência, observa-se o corte geral adotado no material do concurso, em **4 de agosto de 2026**.
+
+## 2. Direitos do homem, direitos humanos e direitos fundamentais
 
 | Expressão | Sentido predominante |
 |---|---|
-| direitos do homem | formulação jusnaturalista: direitos inerentes à pessoa, ainda que não positivados |
-| direitos humanos | direitos reconhecidos no plano internacional, em declarações, tratados e sistemas de proteção |
-| direitos fundamentais | direitos reconhecidos pela ordem constitucional de determinado Estado |
-| garantias fundamentais | instrumentos, instituições ou posições destinados a assegurar, defender ou restaurar direitos |
+| **direitos do homem** | formulação jusnaturalista: direitos concebidos como inerentes à pessoa, ainda que não positivados |
+| **direitos humanos** | direitos reconhecidos no plano internacional, em declarações, tratados e sistemas de proteção |
+| **direitos fundamentais** | direitos reconhecidos e protegidos pela ordem constitucional de determinado Estado |
+| **garantias fundamentais** | instrumentos, instituições ou posições destinados a assegurar, defender ou restaurar direitos |
 
-Direitos humanos e direitos fundamentais não formam conjuntos materialmente opostos. Em regra, a distinção aponta o **plano de positivação**:
+A distinção entre **direitos humanos** e **direitos fundamentais** é, sobretudo, uma distinção de **plano de positivação**, não de conteúdo material obrigatório:
 
-- internacional: direitos humanos;
-- constitucional interno: direitos fundamentais.
+- no plano internacional, fala-se predominantemente em direitos humanos;
+- no plano constitucional interno, fala-se predominantemente em direitos fundamentais.
 
-O mesmo conteúdo pode aparecer nos dois planos. Vida, igualdade e liberdade, por exemplo, são protegidas pela Constituição e por instrumentos internacionais.
+O mesmo bem pode existir nos dois planos. Liberdade de expressão, igualdade e proteção da vida, por exemplo, podem ser simultaneamente direitos humanos e direitos fundamentais.
 
-### 2.1 Direito e garantia
+### 2.1 Direito × garantia
 
-Uma fórmula didática útil:
+Uma fórmula útil para prova:
 
 - **direito:** bem, posição ou faculdade protegida;
-- **garantia:** meio de proteção ou realização do direito.
+- **garantia:** instrumento de proteção ou realização do direito.
 
 Exemplos:
 
-- liberdade de locomoção: direito; habeas corpus: garantia;
-- acesso a informações pessoais: direito; habeas data: garantia.
+- liberdade de locomoção → direito;
+- **habeas corpus** → garantia contra violência ou coação ilegal à locomoção;
+- acesso a informações pessoais → direito;
+- **habeas data** → garantia específica nas hipóteses constitucionais.
 
-A separação não é absoluta. Devido processo, contraditório e ampla defesa têm conteúdo próprio e também função garantidora.
+A distinção é funcional, não absoluta: devido processo, contraditório e ampla defesa têm conteúdo próprio e também exercem função garantidora.
 
-## 3. Formação histórica
+## 3. Formação histórica e características
 
-A teoria contemporânea resulta de processos cumulativos:
+A proteção contemporânea resultou de um processo cumulativo de limitação do poder, positivação constitucional e internacionalização. Marcos históricos ajudam a localizar esse desenvolvimento, mas **uma etapa não substitui a anterior**.
 
-1. afirmação filosófica da dignidade e da autonomia;
-2. limitação do poder político;
-3. positivação em constituições;
-4. internacionalização da proteção.
+### 3.1 Características mais cobradas
 
-Marcos frequentemente associados a esse percurso:
+| Característica | Ideia central | Pegadinha |
+|---|---|---|
+| **historicidade** | direitos são reconhecidos e reconstruídos historicamente | não significa disponibilidade ilimitada pela maioria |
+| **universalidade** | a proteção básica decorre da condição humana | não exige titularidade idêntica de todo direito em qualquer situação |
+| **indivisibilidade** | direitos civis, políticos, sociais, econômicos e culturais formam proteção integrada | não há separação rígida entre categorias “mais” e “menos” importantes |
+| **interdependência** | a efetividade de um direito pode depender de outros | direitos não funcionam isoladamente |
+| **inalienabilidade** | o núcleo do direito não é mercadoria transferível | efeitos patrimoniais podem receber disciplina própria |
+| **imprescritibilidade** | a titularidade nuclear não se perde apenas pelo tempo | pretensões patrimoniais decorrentes de violação podem prescrever |
+| **irrenunciabilidade** | não se admite renúncia geral e definitiva incompatível com a dignidade | não exercício temporário e consentimento pontual não são automaticamente renúncia ilícita |
+| **relatividade** | direitos não são, em regra, absolutos | relatividade não autoriza restrição arbitrária |
 
-- Magna Carta, de 1215;
-- Petition of Right, de 1628;
-- Habeas Corpus Act, de 1679;
-- Bill of Rights inglês, de 1689;
-- declarações americana, de 1776, e francesa, de 1789;
-- Constituições mexicana, de 1917, e de Weimar, de 1919;
-- Carta das Nações Unidas, de 1945;
-- Declaração Universal, de 1948;
-- Pactos Internacionais, de 1966;
-- Convenção Americana sobre Direitos Humanos;
-- Constituição brasileira de 1988.
+A Declaração e Programa de Ação de Viena de 1993 sintetiza os direitos humanos como **universais, indivisíveis, interdependentes e inter-relacionados**.
 
-Essa cronologia não é uma linha de substituição. Direitos individuais sempre exigiram alguma organização estatal, e reivindicações sociais precederam sua positivação constitucional no século XX.
+## 4. Dimensões ou gerações dos direitos
 
-## 4. Características
-
-### 4.1 Historicidade
-
-Direitos são reconhecidos e reconstruídos ao longo da história. O catálogo não é imóvel nem definitivamente fechado.
-
-Historicidade não significa que a maioria possa eliminar livremente direitos já protegidos.
-
-### 4.2 Universalidade
-
-A proteção básica decorre da condição humana. Universalidade:
-
-- não significa uniformidade cultural absoluta;
-- não impede requisitos específicos de certos direitos;
-- é compatível com proteção diferenciada de grupos vulnerabilizados;
-- não autoriza discriminação arbitrária.
-
-### 4.3 Indivisibilidade e interdependência
-
-A Declaração de Viena de 1993 afirma que os direitos humanos são universais, indivisíveis, interdependentes e inter-relacionados.
-
-Direitos civis, políticos, sociais, econômicos e culturais integram uma proteção comum. Liberdade política depende de informação e educação; saúde depende de saneamento; tutela judicial protege os demais direitos.
-
-### 4.4 Inalienabilidade
-
-O direito fundamental não é mercadoria transferível. Isso não impede, quando permitido:
-
-- negócios sobre efeitos patrimoniais;
-- autorização específica de uso;
-- consentimento pontual.
-
-### 4.5 Imprescritibilidade
-
-A titularidade nuclear do direito não se perde pelo simples decurso do tempo. Porém, pretensões patrimoniais decorrentes de uma violação podem estar sujeitas à prescrição.
-
-Logo, “direito fundamental imprescritível” não significa “toda indenização é imprescritível”.
-
-### 4.6 Irrenunciabilidade
-
-Não se admite renúncia geral, definitiva e incompatível com a dignidade. São diferentes:
-
-- renúncia definitiva;
-- não exercício temporário;
-- consentimento pontual;
-- autolimitação revogável.
-
-### 4.7 Relatividade
-
-Direitos fundamentais não são, em regra, absolutos. Podem encontrar limites em outros direitos e bens constitucionais.
-
-Relatividade não autoriza:
-
-- restrição arbitrária;
-- interesse público apenas retórico;
-- eliminação do conteúdo essencial;
-- medida desproporcional.
-
-## 5. Dimensões históricas
-
-O termo **dimensões** evita a ideia equivocada de que uma geração elimina a anterior.
+O termo **dimensões** é preferível quando se quer destacar que novos grupos de direitos **se acumulam** aos anteriores.
 
 | Dimensão tradicional | Valor associado | Conteúdo predominante |
 |---|---|---|
-| primeira | liberdade | direitos civis e políticos, defesa e participação |
-| segunda | igualdade material | direitos sociais, econômicos e culturais |
-| terceira | solidariedade ou fraternidade | direitos transindividuais, como ambiente e desenvolvimento |
+| **1ª** | liberdade | direitos civis e políticos; defesa e participação |
+| **2ª** | igualdade material | direitos sociais, econômicos e culturais |
+| **3ª** | solidariedade ou fraternidade | direitos transindividuais, como ambiente e desenvolvimento |
 
-### 5.1 Cumulatividade e unidade
+### 4.1 O que não concluir
 
-As dimensões coexistem. Um direito de liberdade pode exigir polícia, processo e instituições; um direito social também pode impedir intervenções indevidas.
+- 1ª dimensão não significa **somente omissão estatal**: liberdades também exigem instituições, processo e proteção;
+- 2ª dimensão não significa **somente gasto público**: direitos sociais também possuem facetas defensivas;
+- 3ª dimensão não significa titularidade exclusivamente individual;
+- uma dimensão **não revoga** a anterior.
 
-Não se deve concluir:
+### 4.2 Quarta e quinta dimensões
 
-- primeira dimensão = somente omissão;
-- segunda dimensão = somente gasto;
-- terceira dimensão = titular individual exclusivo.
+Não existe classificação doutrinária consensual. Paulo Bonavides, por exemplo, associa:
 
-### 5.2 Quarta e quinta dimensões
+- 4ª dimensão: democracia, informação e pluralismo;
+- 5ª dimensão: paz.
 
-Não há classificação consensual. Uma formulação de Paulo Bonavides associa:
+Outros autores usam classificações diferentes. Em prova, a indicação do autor ou da corrente importa.
 
-- quarta dimensão: democracia, informação e pluralismo;
-- quinta dimensão: paz.
+## 5. Titulares e funções
 
-Outros autores distribuem paz, bioética, biotecnologia e ambiente digital de modo diferente, ou não reconhecem dimensões além da terceira. Em prova, verifique o autor indicado.
+### 5.1 Titularidade
 
-## 6. Titulares
+O art. 5º da Constituição menciona brasileiros e estrangeiros residentes no País, mas isso não autoriza concluir que estrangeiros não residentes submetidos à jurisdição brasileira estejam automaticamente fora de toda proteção fundamental.
 
-O art. 5º menciona brasileiros e estrangeiros residentes no País. A interpretação constitucional não exclui automaticamente a proteção de estrangeiros não residentes submetidos à jurisdição brasileira.
-
-Podem titularizar direitos, conforme compatibilidade:
+Podem ser titulares, conforme a compatibilidade do direito:
 
 - pessoas naturais;
 - estrangeiros e apátridas;
 - pessoas jurídicas;
-- coletividades e grupos;
-- gerações futuras, em direitos transindividuais.
+- grupos e coletividades;
+- titulares de interesses transindividuais.
 
-Universalidade não significa titularidade idêntica em todo caso:
+**Universalidade não significa que todo direito pertença a todos nas mesmas condições.** Direitos políticos, por exemplo, possuem requisitos constitucionais próprios; pessoas jurídicas só titularizam direitos compatíveis com sua natureza.
 
-- direitos políticos dependem de cidadania e requisitos constitucionais;
-- direitos trabalhistas pressupõem relação correspondente;
-- pessoas jurídicas não recebem direitos incompatíveis com sua natureza;
-- direitos coletivos pertencem ao grupo ou à coletividade.
+### 5.2 Funções dos direitos fundamentais
 
-## 7. Funções dos direitos fundamentais
-
-### 7.1 Função defensiva
-
-Protege contra ingerências indevidas:
-
-- proíbe intervenção;
-- exige fundamento e competência;
-- permite resistir a arbitrariedades;
-- impõe cessação da violação.
-
-### 7.2 Função prestacional
-
-Exige conduta positiva:
-
-- prestação material, como serviço;
-- prestação normativa, como lei protetiva;
-- prestação organizacional, como instituição ou procedimento.
-
-### 7.3 Função protetiva
-
-Impõe ao Estado proteger a pessoa contra violações de terceiros e riscos sistêmicos. Relaciona-se à **proibição de proteção insuficiente**.
-
-### 7.4 Função procedimental
-
-Exige procedimentos aptos a proteger direitos:
-
-- informação e participação;
-- contraditório e ampla defesa;
-- motivação;
-- acesso à justiça;
-- desenho institucional adequado.
-
-As funções não se ligam rigidamente a uma única dimensão histórica.
-
-## 8. Dimensões subjetiva e objetiva
-
-### 8.1 Dimensão subjetiva
-
-O titular recebe posição jurídica para exigir:
-
-- abstenção;
-- prestação;
-- proteção;
-- procedimento.
-
-### 8.2 Dimensão objetiva
-
-Os direitos fundamentais também são decisões valorativas que estruturam toda a ordem jurídica. Dela decorrem:
-
-- vinculação dos Poderes;
-- deveres de proteção;
-- interpretação conforme os direitos fundamentais;
-- eficácia irradiante sobre o direito privado;
-- garantias institucionais;
-- proibição de proteção insuficiente.
-
-A dimensão objetiva não elimina o titular individual; amplia os efeitos do direito para o sistema.
-
-## 9. Deveres de respeito, proteção e promoção
-
-| Dever | Conduta central |
+| Função | Conteúdo |
 |---|---|
-| respeitar | o Estado não deve violar diretamente o direito |
-| proteger | o Estado deve prevenir e remediar violações por terceiros |
-| promover ou realizar | o Estado deve adotar medidas para tornar o direito efetivo |
+| **defensiva** | impedir ou fazer cessar ingerências indevidas |
+| **prestacional** | exigir prestações materiais, normativas ou organizacionais |
+| **protetiva** | exigir proteção estatal contra violações por terceiros |
+| **procedimental** | exigir processos, informação, participação, contraditório e motivação adequados |
 
-Promoção pode exigir legislação, orçamento, administração, educação e tutela judicial. A terminologia internacional também usa *fulfil*, com funções de facilitar, promover e prover.
+Essas funções não pertencem rigidamente a uma única dimensão histórica.
 
-## 10. Catálogo constitucional aberto
+### 5.3 Dimensão subjetiva e objetiva
 
-Os direitos fundamentais não se limitam ao art. 5º. O catálogo brasileiro contém:
+- **subjetiva:** atribui ao titular posição jurídica exigível;
+- **objetiva:** faz dos direitos fundamentais valores e princípios estruturantes da ordem jurídica, irradiando efeitos sobre atuação estatal e relações privadas.
 
-- direitos escritos no Título II;
-- direitos previstos em outras partes da Constituição;
-- direitos implícitos;
-- direitos decorrentes do regime e dos princípios;
-- direitos previstos em tratados internacionais.
+A dimensão objetiva não elimina o titular individual.
 
-O art. 5º, § 2º, estabelece abertura material. Isso não autoriza inventar direitos sem fundamento: é preciso demonstrar conexão com o texto, os princípios, o regime constitucional ou os tratados.
+### 5.4 Respeitar, proteger e promover
 
-## 11. Art. 5º, §§ 1º a 4º
+Uma matriz simples:
 
-| Dispositivo | Conteúdo |
+1. **respeitar:** o Estado não deve violar diretamente;
+2. **proteger:** deve prevenir e remediar violações por terceiros;
+3. **promover/realizar:** deve criar condições jurídicas, administrativas e materiais de efetividade.
+
+A insuficiência grave da proteção estatal pode ser analisada como **proteção insuficiente**.
+
+## 6. Catálogo aberto e aplicação imediata
+
+Os direitos fundamentais **não se limitam ao art. 5º**. Podem aparecer:
+
+- no próprio art. 5º;
+- em outros dispositivos da Constituição;
+- como direitos implícitos ou decorrentes do regime e dos princípios;
+- em tratados internacionais, conforme o regime constitucional aplicável.
+
+O art. 5º, § 2º, consagra essa abertura material. Ela não significa criação livre de direitos sem fundamento jurídico identificável.
+
+### 6.1 Art. 5º, §§ 1º a 4º
+
+| Dispositivo | Regra-chave |
 |---|---|
-| § 1º | aplicação imediata das normas definidoras de direitos e garantias fundamentais |
-| § 2º | abertura a direitos decorrentes do regime, dos princípios e dos tratados |
-| § 3º | equivalência a emenda para tratado de direitos humanos aprovado pelo rito qualificado |
-| § 4º | submissão do Brasil à jurisdição do Tribunal Penal Internacional a cuja criação tenha aderido |
+| **§ 1º** | aplicação imediata das normas definidoras de direitos e garantias fundamentais |
+| **§ 2º** | catálogo aberto: regime, princípios e tratados |
+| **§ 3º** | tratado de direitos humanos aprovado pelo rito qualificado equivale a emenda constitucional |
+| **§ 4º** | submissão do Brasil à jurisdição do Tribunal Penal Internacional a cuja criação tenha aderido |
 
-### 11.1 Rito do § 3º
+### 6.2 Aplicação imediata ≠ eficácia plena
 
-Exige aprovação:
+A aplicação imediata do § 1º exige que os direitos produzam a **máxima eficácia possível desde logo**. Isso não torna todas as normas estruturalmente idênticas.
 
-- em cada Casa do Congresso;
-- em dois turnos;
-- por três quintos dos votos dos respectivos membros.
-
-Não exige unanimidade e não transforma automaticamente todo tratado de direitos humanos em norma constitucional.
-
-### 11.2 TPI não é Corte IDH
-
-O § 4º trata do Tribunal Penal Internacional. A Corte Interamericana de Direitos Humanos pertence ao sistema regional da Convenção Americana. São órgãos distintos.
-
-## 12. Aplicabilidade e eficácia
-
-O art. 5º, § 1º, impede tratar direitos fundamentais como promessas sem efeito. As normas:
-
-- vinculam desde a entrada em vigor da Constituição;
-- devem receber máxima eficácia possível;
-- orientam interpretação e controle;
-- permitem reação a omissões.
-
-Aplicabilidade imediata, porém, não significa eficácia plena uniforme.
-
-### 12.1 Classificação didática das normas
-
-| Tipo | Eficácia inicial |
+| Tipo de norma | Eficácia inicial |
 |---|---|
-| plena | direta, imediata e integral |
-| contida | direta e imediata, mas passível de restrição constitucionalmente autorizada |
-| limitada | depende de integração normativa ou institucional para produzir todos os efeitos |
+| **plena** | direta, imediata e integral |
+| **contida** | direta e imediata, mas passível de restrição constitucionalmente autorizada |
+| **limitada** | depende de integração normativa ou institucional para produzir todos os efeitos |
 
-Mesmo norma limitada possui eficácia jurídica: vincula o legislador, impede atuação contrária e orienta interpretação.
+Mesmo uma norma de eficácia limitada possui efeitos jurídicos: vincula os Poderes, impede atuação incompatível e orienta interpretação e controle de omissões.
 
-## 13. Eficácia vertical, horizontal e diagonal
+## 7. Eficácia vertical e horizontal
 
-### 13.1 Vertical
+### 7.1 Vertical
 
-Incidência na relação entre pessoa e Estado. É a forma clássica.
+É a incidência clássica dos direitos fundamentais na relação **pessoa × Estado**.
 
-### 13.2 Horizontal
+### 7.2 Horizontal
 
-Incidência nas relações entre particulares. A autonomia privada não é espaço livre da Constituição.
+Direitos fundamentais também podem incidir nas relações **entre particulares**. A autonomia privada não é um espaço imune à Constituição.
 
-No **RE 201.819/RJ**, a Segunda Turma do STF julgou, em 11 de outubro de 2005, exclusão de associado da União Brasileira de Compositores. A maioria exigiu contraditório, ampla defesa e devido processo porque a entidade:
+No **RE 201.819/RJ**, julgado pela Segunda Turma do STF em 11 de outubro de 2005, discutiu-se a exclusão de associado da União Brasileira de Compositores. Consideradas a relevância da entidade e a repercussão da sanção sobre a esfera profissional do associado, a maioria exigiu contraditório, ampla defesa e devido processo.
 
-- exercia posição relevante na gestão de direitos autorais;
-- colocava o associado em dependência econômica e profissional;
-- integrava um espaço público, ainda que não estatal.
+A lição para prova é simples:
 
-O precedente reconhece aplicação direta dos direitos fundamentais em relação privada. Não significa que toda associação deva copiar integralmente o processo judicial; a intensidade depende do direito, da sanção, da assimetria e do poder privado.
+- direitos fundamentais podem produzir efeitos em relações privadas;
+- autonomia privada não é absoluta;
+- a intensidade da incidência depende do direito, da relação e do poder exercido no caso.
 
-### 13.3 Diagonal
+Alguns autores usam a expressão **eficácia diagonal** para relações privadas assimétricas, como trabalho e consumo. É terminologia doutrinária, não categoria constitucional autônoma necessária para resolver o tema.
 
-Parte da doutrina usa o termo para relações privadas assimétricas, como trabalho e consumo. Não é categoria constitucional autônoma nem classificação consolidada pelo STF. Seu conteúdo pode ser compreendido dentro da eficácia horizontal e dos deveres de proteção.
+## 8. Tratados de direitos humanos no Brasil
 
-## 14. Tratados de direitos humanos no Brasil
+### 8.1 Rito qualificado do art. 5º, § 3º
 
-### 14.1 Aprovados pelo rito do § 3º
+Para equivaler a emenda constitucional, o tratado ou convenção internacional sobre direitos humanos deve ser aprovado:
 
-Equivalem a emendas constitucionais. Exemplos:
+- em **cada Casa** do Congresso Nacional;
+- em **dois turnos**;
+- por **três quintos** dos votos dos respectivos membros.
 
-- Convenção sobre os Direitos das Pessoas com Deficiência e Protocolo Facultativo;
-- Tratado de Marraqueche;
-- Convenção Interamericana contra o Racismo.
+Exemplos aprovados pelo rito qualificado incluem a Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, o Tratado de Marraqueche e a Convenção Interamericana contra o Racismo.
 
-### 14.2 Sem o rito qualificado
+### 8.2 Tratados de direitos humanos sem o rito do § 3º
 
-Conforme a posição majoritária do STF no **RE 466.343/SP**, tratados de direitos humanos incorporados sem o rito do § 3º possuem status **supralegal**:
+Na posição majoritária firmada pelo STF no **RE 466.343/SP**, tratados de direitos humanos incorporados sem o rito qualificado possuem status **supralegal**:
 
-$$
-\text{Constituição} > \text{tratado de direitos humanos supralegal} > \text{lei ordinária}
-$$
+**Constituição > tratado de direitos humanos supralegal > legislação ordinária.**
 
-Eles ficam abaixo da Constituição e acima da legislação ordinária.
+Logo:
 
-### 14.3 Tratados internacionais comuns
+- não equivalem automaticamente a emenda constitucional;
+- ficam acima da legislação ordinária;
+- não se tornam supraconstitucionais.
 
-Em regra, possuem nível infraconstitucional equivalente ao da legislação ordinária, ressalvados regimes constitucionais específicos.
+Tratados internacionais comuns possuem, em regra, nível infraconstitucional equivalente ao da legislação ordinária, ressalvados regimes constitucionais específicos.
 
-### 14.4 Depositário infiel
+### 8.3 Depositário infiel: exemplo clássico
 
-O entendimento sobre a Convenção Americana levou à Súmula Vinculante 25:
+A **Súmula Vinculante 25** estabelece ser ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.
 
-> É ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.
+A consequência teórica importante é esta: a Convenção Americana sobre Direitos Humanos **não revogou o texto do art. 5º, LXVII**. O status supralegal do tratado tornou inaplicável a legislação infraconstitucional incompatível que viabilizava a prisão.
 
-A Convenção não revogou o art. 5º, LXVII. O texto constitucional permanece; a legislação infraconstitucional que viabilizava essa prisão tornou-se inaplicável.
+## 9. Restrições, colisões e proporcionalidade
 
-## 15. Restrições e conformação
+Direitos fundamentais não são, em regra, absolutos. Podem encontrar limites:
 
-Direitos podem sofrer:
+- diretamente na Constituição;
+- em lei constitucionalmente autorizada;
+- na convivência com outros direitos e bens constitucionais.
 
-- restrição diretamente constitucional;
-- restrição por lei autorizada pela Constituição;
-- limitação decorrente da convivência com outros direitos;
-- conformação legislativa de seu modo de exercício.
+Isso não significa liberdade para restringir. A medida deve possuir fundamento constitucional, competência, finalidade legítima e justificativa proporcional. A invocação genérica de “interesse público” não basta.
 
-### 15.1 Reserva legal
+### 9.1 Proporcionalidade em três perguntas
 
-| Modalidade | Característica |
-|---|---|
-| simples | a Constituição autoriza regulação sem detalhar todos os fins |
-| qualificada | a Constituição fixa finalidades, situações ou requisitos da restrição |
+1. **adequação:** a medida contribui para o fim legítimo?
+2. **necessidade:** existe alternativa igualmente eficaz e menos restritiva?
+3. **proporcionalidade em sentido estrito:** o benefício constitucional justifica o sacrifício imposto?
 
-Autorização legal não encerra o controle. A lei ainda deve respeitar finalidade constitucional, igualdade, segurança e proporcionalidade.
+Em colisões, não há hierarquia abstrata automática entre direitos fundamentais. A **concordância prática** busca preservar o máximo possível dos bens em conflito mediante fundamentação concreta.
 
-## 16. Limites dos limites e núcleo essencial
+### 9.2 Cláusula pétrea — somente a regra essencial
 
-A restrição também é limitada por:
+O art. 60, § 4º, IV, impede proposta de emenda **tendente a abolir direitos e garantias individuais**.
 
-- competência e forma;
-- reserva legal;
-- igualdade e segurança jurídica;
-- proporcionalidade;
-- proibição de arbitrariedade;
-- núcleo ou conteúdo essencial;
-- cláusulas pétreas.
+Para este assunto, basta evitar dois extremos:
 
-A Constituição brasileira não formula uma cláusula geral e literal do núcleo essencial. A proteção é construída sistematicamente.
+- cláusula pétrea não significa que nenhuma disciplina de direito fundamental possa ser alterada;
+- também não permite esvaziar ou abolir a proteção constitucional por simples mudança formal.
 
-Duas teorias:
+## 10. Relação entre proteção constitucional e internacional
 
-- **absoluta:** existe núcleo prévio intangível;
-- **relativa:** o conteúdo essencial resulta do controle de proporcionalidade no caso.
+A Constituição de 1988 combina:
 
-Não há licença para esvaziar o direito em nenhuma delas.
+- **dignidade da pessoa humana** como fundamento da República;
+- **prevalência dos direitos humanos** nas relações internacionais;
+- abertura do catálogo pelo art. 5º, § 2º;
+- regime constitucional próprio para tratados de direitos humanos.
 
-## 17. Colisões e proporcionalidade
+A proteção internacional é **complementar ou subsidiária** à proteção interna; não funciona como recurso ordinário para reexaminar qualquer decisão nacional.
 
-Colisão ocorre quando a realização de um direito ou princípio afeta outro no caso concreto. Não existe hierarquia abstrata automática entre direitos fundamentais.
+Para o recorte deste assunto, a pergunta central não é decorar o fluxo completo dos sistemas internacionais, mas compreender que direitos humanos e direitos fundamentais podem proteger o mesmo conteúdo em planos jurídicos distintos e interligados.
 
-### 17.1 Três etapas
+## 11. Questão oficial e estilo de cobrança
 
-1. **adequação:** a medida contribui para fim legítimo?
-2. **necessidade:** há alternativa igualmente eficaz e menos restritiva?
-3. **proporcionalidade em sentido estrito:** o benefício justifica o sacrifício?
-
-A proporcionalidade atua como:
-
-- proibição de excesso;
-- proibição de proteção insuficiente.
-
-### 17.2 Concordância prática
-
-Busca harmonizar bens constitucionais e preservar o máximo possível de cada um. Não significa meio-termo aritmético nem dispensa fundamentação.
-
-### 17.3 Erros de prova
-
-- dignidade não é carta coringa sem argumento;
-- interesse público genérico não basta;
-- ponderação não permite decisão intuitiva;
-- fato, finalidade e alternativas devem ser examinados.
-
-## 18. Cláusulas pétreas
-
-O art. 60, § 4º, IV, veda proposta de emenda **tendente a abolir** direitos e garantias individuais.
-
-Consequências:
-
-- a proteção vai além de supressão textual explícita;
-- não se limita necessariamente à localização topográfica do art. 5º;
-- preserva o conteúdo essencial;
-- não impede toda regulamentação ou ajuste não destrutivo.
-
-É controvertido afirmar que todos os direitos sociais e coletivos estão automaticamente petrificados. A análise deve ser material, verificando fundamentalidade e conexão com direitos e garantias individuais.
-
-## 19. Ordem constitucional e proteção internacional
-
-A Constituição combina:
-
-- dignidade da pessoa humana;
-- prevalência dos direitos humanos nas relações internacionais;
-- abertura material;
-- tratados supralegais ou equivalentes a emenda;
-- submissão ao TPI;
-- possibilidade de deslocamento de competência em grave violação.
-
-### 19.1 Sistema interamericano
-
-O sistema é complementar ou subsidiário. Não funciona como recurso ordinário contra toda decisão nacional.
-
-Em síntese:
-
-1. a Comissão Interamericana recebe e processa petições;
-2. examina admissibilidade e mérito;
-3. busca solução amistosa ou formula recomendações;
-4. a Corte IDH julga casos submetidos por legitimado próprio, quando cabível.
-
-### 19.2 Controle de convencionalidade
-
-Examina compatibilidade da norma interna com tratados aplicáveis. No modelo reconhecido pelo STF:
-
-- tratado supralegal pode paralisar lei incompatível;
-- tratado supralegal não revoga norma constitucional;
-- tratado equivalente a emenda integra o bloco constitucional no nível correspondente.
-
-Constituição e proteção internacional coexistem e podem oferecer parâmetros complementares.
-
-## 20. Método de resolução
-
-1. Identifique o plano: internacional ou constitucional interno.
-2. Separe direito de garantia sem tratar a distinção como absoluta.
-3. Teste características com suas ressalvas.
-4. Nas dimensões, procure cumulatividade, não substituição.
-5. Diferencie aplicação imediata de eficácia plena.
-6. Nos tratados, pergunte qual foi o rito de aprovação.
-7. No art. 5º, não troque TPI por Corte IDH.
-8. Em restrições, aplique adequação, necessidade e ponderação.
-9. Em precedente privado, verifique assimetria e poder social.
-10. Em cláusula pétrea, examine conteúdo, não apenas localização.
-
-## 21. Referências
-
-- [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), Presidência da República, texto compilado vigente no corte, acesso em 4 ago. 2026.
-- [Art. 5º na Constituição e o Supremo](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirBase=CF&abrirArtigo=5), Supremo Tribunal Federal, legislação e jurisprudência correlata, acesso em 4 ago. 2026.
-- [Teoria geral dos direitos fundamentais](https://www.stf.jus.br/repositorio/cms/portaltvjustica/portaltvjusticanoticia/anexo/joao_trindadade__teoria_geral_dos_direitos_fundamentais.pdf), João Trindade Cavalcante Filho, material da TV Justiça/STF, acesso em 4 ago. 2026.
-- [Declaração e Programa de Ação de Viena](https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action), Conferência Mundial de Direitos Humanos/ONU, 25 jun. 1993, acesso em 4 ago. 2026.
-- [RE 201.819/RJ](https://jurisprudencia.stf.jus.br/pages/search/sjur7704/false), Supremo Tribunal Federal, Segunda Turma, julgamento em 11 out. 2005 e publicação em 27 out. 2006, acesso em 4 ago. 2026.
-- [RE 466.343/SP](https://www.stf.jus.br/arquivo/cms/publicacaoBOInternet/anexo/link_download/casos_relevantes/pt/RE_466343.pdf), Supremo Tribunal Federal, julgamento em 3 dez. 2008, acesso em 4 ago. 2026.
-- [Súmula Vinculante 25](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1268), Supremo Tribunal Federal, prisão civil do depositário infiel, acesso em 4 ago. 2026.
-- [Convenção Americana sobre Direitos Humanos](https://www.planalto.gov.br/ccivil_03/decreto/d0678.htm), Presidência da República, Decreto nº 678/1992, acesso em 4 ago. 2026.
-- [Convenção sobre os Direitos das Pessoas com Deficiência](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm), Presidência da República, Decreto nº 6.949/2009, acesso em 4 ago. 2026.
-- [Tratado de Marraqueche](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9522.htm), Presidência da República, Decreto nº 9.522/2018, acesso em 4 ago. 2026.
-- [Convenção Interamericana contra o Racismo](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d10932.htm), Presidência da República, Decreto nº 10.932/2022, acesso em 4 ago. 2026.
-- [Prova TRF da 6ª Região — conhecimentos gerais CG6](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF), Cebraspe, aplicação em 19 jan. 2025, acesso em 4 ago. 2026.
-- [Gabarito definitivo TRF da 6ª Região — CG6](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF), Cebraspe, item 32, acesso em 4 ago. 2026.
+No concurso do **TRF da 6ª Região**, Cebraspe, prova aplicada em **19/01/2025**, caderno **034_TRF6_CG6_01**, conhecimentos gerais dos cargos 27 e 28 de Técnico Judiciário, o **item 32** afirmou que a liberdade de expressão é direito de primeira geração ou dimensão.
+
+O gabarito oficial definitivo marcou o item como **Certo**.
+
+Esse exemplo revela uma cobrança típica: associação entre **direito concreto + dimensão histórica**, sem exigir reconstrução doutrinária excessiva.
+
+## 12. Pegadinhas de prova
+
+1. **Direitos humanos ≠ direitos fundamentais materialmente opostos.** A diferença central é o plano de positivação.
+2. **Geração/dimensão posterior não substitui a anterior.**
+3. **Universalidade ≠ todo direito para todo titular nas mesmas condições.**
+4. **Irrenunciabilidade ≠ proibição de qualquer não exercício ou consentimento pontual.**
+5. **Imprescritibilidade do direito ≠ imprescritibilidade automática de toda pretensão indenizatória.**
+6. **Direito fundamental não é absoluto.** Restrição exige justificativa constitucional.
+7. **Aplicação imediata ≠ eficácia plena de toda norma.**
+8. **Art. 5º não contém catálogo fechado.**
+9. **Pessoa jurídica pode titularizar direitos compatíveis com sua natureza.**
+10. **Eficácia horizontal = incidência entre particulares.**
+11. **Todo tratado de direitos humanos não é automaticamente equivalente a emenda.**
+12. **Rito do § 3º = cada Casa + dois turnos + três quintos.**
+13. **Supralegal ≠ supraconstitucional.**
+14. **CADH não apagou o art. 5º, LXVII.**
+15. **§ 4º do art. 5º = TPI, não Corte Interamericana de Direitos Humanos.**
+16. **Interesse público abstrato não decide sozinho colisão de direitos.**
+
+## 13. Método rápido de resolução
+
+1. Identifique se a questão está no plano **internacional** ou **constitucional interno**.
+2. Separe **direito** de **garantia**, sem absolutizar a distinção.
+3. Nas características, procure a ressalva: universalidade, irrenunciabilidade e imprescritibilidade não eliminam todas as especificidades jurídicas.
+4. Nas dimensões, pense em **cumulatividade**.
+5. Em aplicabilidade, não confunda **imediata** com **plena**.
+6. Em relações privadas, lembre a eficácia **horizontal**.
+7. Em tratados, descubra primeiro **qual foi o rito de aprovação**.
+8. Em restrições, pergunte por fundamento, adequação, necessidade e proporcionalidade.
+
+## 14. Referências
+
+- [Edital nº 1 — TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), Cebraspe e Tribunal de Contas do Estado do Maranhão.
+- [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), Presidência da República, especialmente arts. 1º, III; 4º, II; 5º, §§ 1º a 4º; e 60, § 4º, IV.
+- [Art. 5º na Constituição e o Supremo](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirBase=CF&abrirArtigo=5), Supremo Tribunal Federal.
+- [Declaração e Programa de Ação de Viena](https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action), Conferência Mundial de Direitos Humanos/ONU, 25 jun. 1993.
+- [RE 201.819/RJ](https://jurisprudencia.stf.jus.br/pages/search/sjur7704/false), Supremo Tribunal Federal, Segunda Turma, julgamento em 11 out. 2005.
+- [RE 466.343/SP](https://www.stf.jus.br/arquivo/cms/publicacaoBOInternet/anexo/link_download/casos_relevantes/pt/RE_466343.pdf), Supremo Tribunal Federal, julgamento em 3 dez. 2008.
+- [Súmula Vinculante 25](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1268), Supremo Tribunal Federal.
+- [Convenção sobre os Direitos das Pessoas com Deficiência](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm), Decreto nº 6.949/2009.
+- [Tratado de Marraqueche](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9522.htm), Decreto nº 9.522/2018.
+- [Convenção Interamericana contra o Racismo](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d10932.htm), Decreto nº 10.932/2022.
+- [Prova TRF da 6ª Região — caderno 034_TRF6_CG6_01](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG6_01.PDF), Cebraspe, aplicação em 19 jan. 2025, item 32.
+- [Gabarito oficial definitivo — 034_TRF6_CG6_01](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG6_01.PDF), Cebraspe, item 32 = C.
