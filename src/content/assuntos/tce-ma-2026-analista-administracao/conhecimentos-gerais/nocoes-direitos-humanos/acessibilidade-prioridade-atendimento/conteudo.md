@@ -15,7 +15,7 @@ Este assunto estuda sistematicamente:
 - a **Lei nº 10.048/2000**, sobre prioridade de atendimento;
 - a **Lei nº 10.098/2000**, sobre normas gerais e critérios básicos de acessibilidade.
 
-O corte normativo é **4 de agosto de 2026**. O edital foi publicado em 6 de julho de 2026. Não foi identificada alteração das duas leis entre a publicação e o corte.
+Para fins de prova, podem ser avaliadas alterações legislativas que entraram em vigor até a data de publicação do edital, **6 de julho de 2026**. Este material foi conferido em **15 de agosto de 2026**; a conferência posterior serve ao controle editorial e não amplia o corte do edital.
 
 Os Assuntos 098 e 099 já estudaram a Lei Brasileira de Inclusão (LBI). Regras que a LBI incorporou diretamente às Leis nº 10.048/2000 e nº 10.098/2000 integram este assunto porque hoje fazem parte dos textos consolidados dessas duas normas.
 
@@ -113,15 +113,17 @@ Para os veículos que já estavam em uso, os proprietários receberam prazo de *
 
 A infração sujeita:
 
-| Responsável | Sanção |
+| Responsável | Sanção ou remissão textual |
 |---|---|
 | servidor ou chefia de repartição | penalidades da legislação específica |
 | concessionária de serviço público | multa de R$ 500,00 a R$ 2.500,00 por veículo sem as condições dos arts. 3º e 5º |
-| instituição financeira | penalidades dos incisos I a III do art. 44 da Lei nº 4.595/1964 |
+| instituição financeira | o art. 6º, III, ainda remete aos incisos I a III do art. 44 da Lei nº 4.595/1964 |
 
-Em reincidência, as penalidades são elevadas ao **dobro**.
+Em reincidência, as penalidades de que trata o artigo 6º são elevadas ao **dobro**.
 
 A multa de concessionária não é multa genérica por qualquer falha: o texto a liga ao veículo sem as condições dos artigos 3º e 5º.
+
+**Atenção à remissão das instituições financeiras:** a redação da Lei nº 10.048/2000 continua apontando para os incisos I a III do artigo 44 da Lei nº 4.595/1964. Contudo, o **artigo 71, IV, da Lei nº 13.506/2017 revogou integralmente o artigo 44 da Lei nº 4.595/1964**. Em questão de literalidade, reconheça a remissão ainda existente; em questão sobre direito vigente, não trate os incisos revogados como sanções atualmente vigentes nem invente, sem outra base normativa, um regime substituto.
 
 ### 2.10 Regulamentação e vigência
 
@@ -352,7 +354,7 @@ Após a Lei nº 15.249/2025, as ações devem incluir, em espaços públicos e a
 - pictogramas;
 - conteúdo adequado às necessidades comunicativas do contexto.
 
-A implantação observa a disponibilidade financeira e orçamentária do ente federado.
+A disponibilidade financeira e orçamentária do ente federado decorre do **artigo 4º da Lei nº 15.249/2025**, que alcança a implantação das medidas previstas nessa lei; essa ressalva não integra o texto do artigo 17 da Lei nº 10.098/2000.
 
 ### 9.2 Profissionais de comunicação
 
@@ -425,13 +427,14 @@ A Lei nº 10.098/2000 entrou em vigor na data de sua publicação.
 | Lei nº 11.982/2009 | adaptação de brinquedos e equipamentos de lazer |
 | Lei nº 13.146/2015 | incluiu pessoas obesas na prioridade e atualizou definições e dispositivos de acessibilidade |
 | Lei nº 13.443/2017 | redação atual dos 5% de cada brinquedo, inclusive deficiência visual |
+| Lei nº 13.506/2017 | revogou o art. 44 da Lei nº 4.595/1964, ainda referido pelo art. 6º, III, da Lei nº 10.048/2000 |
 | Lei nº 13.825/2019 | banheiros químicos acessíveis em eventos |
 | Lei nº 13.835/2019 | kit acessível para cartão |
 | Lei nº 14.364/2022 | atendimento conjunto e acessório do acompanhante/atendente |
 | Lei nº 14.626/2023 | TEA, mobilidade reduzida, doador, ordem e assentos |
 | Lei nº 15.249/2025 | necessidades complexas de comunicação e CAA de baixa tecnologia |
 
-Todas estavam vigentes na publicação do edital.
+Todas as alterações e a revogação indicada estavam vigentes na publicação do edital.
 
 ## 13. Jurisprudência essencial
 
@@ -463,6 +466,7 @@ Padrões técnicos digitais como WCAG/eMAG ficam no Assunto 035. Governança, di
 | atendimento em curso deve ser interrompido | errado |
 | obeso e doador têm assento reservado pelo art. 3º | errado |
 | instituição financeira não está abrangida | errado |
+| art. 6º, III, permite aplicar hoje os incisos I a III do art. 44 da Lei nº 4.595/1964 | errado: a remissão permanece no texto, mas o art. 44 foi revogado em 2017 |
 | multa da concessionária é geral | errado: ligada a veículos dos arts. 3º e 5º |
 | passeio público admite circulação geral | errado: pedestres |
 | adaptação é 5% do total de brinquedos | errado: 5% de cada brinquedo/equipamento |
@@ -481,29 +485,30 @@ Padrões técnicos digitais como WCAG/eMAG ficam no Assunto 035. Governança, di
 1. Identifique qual lei está sendo cobrada.
 2. Na Lei nº 10.048, separe rol geral, ordem do doador e rol de assentos.
 3. Verifique se existe posto específico; nunca interrompa atendimento em curso.
-4. Em sanção, identifique o responsável antes de escolher a pena.
+4. Em sanção, identifique o responsável; para instituição financeira, diferencie a remissão literal do art. 6º, III, da revogação do art. 44 referido.
 5. Na Lei nº 10.098, diferencie definição, urbanização, edifício, transporte, comunicação e fomento.
 6. Memorize os números: 120 dias, 5% de cada brinquedo, banheiro químico 10%, vaga 2%.
 7. Em semáforo, separe regra condicional e vias de obrigatoriedade.
 8. Em edifício coletivo, procure o conjunto mínimo de quatro requisitos.
 9. Não transporte automaticamente regra exclusiva da LBI para estas leis.
-10. Confira se a questão usa redação anterior a 2015, 2019, 2022, 2023 ou 2025.
+10. Confira se a questão usa redação anterior a 2015, 2017, 2019, 2022, 2023 ou 2025.
 
 ## 17. Referências
 
 - **Edital nº 1 — TCE/MA, de 6 de julho de 2026** — Cebraspe e Tribunal de Contas do Estado do Maranhão, [edital oficial](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), acesso em 4 ago. 2026.
-- **Lei nº 10.048, de 8 de novembro de 2000** — Presidência da República, prioridade de atendimento, [texto consolidado](https://www.planalto.gov.br/ccivil_03/leis/l10048.htm), acesso em 5 ago. 2026.
-- **Lei nº 10.098, de 19 de dezembro de 2000** — Presidência da República, normas gerais de acessibilidade, [texto consolidado](https://www.planalto.gov.br/ccivil_03/leis/l10098.htm), acesso em 5 ago. 2026.
+- **Lei nº 10.048, de 8 de novembro de 2000** — Presidência da República, prioridade de atendimento, [texto consolidado](https://www.planalto.gov.br/ccivil_03/leis/l10048.htm), acesso em 15 ago. 2026.
+- **Lei nº 10.098, de 19 de dezembro de 2000** — Presidência da República, normas gerais de acessibilidade, [texto consolidado](https://www.planalto.gov.br/ccivil_03/leis/l10098.htm), acesso em 15 ago. 2026.
 - **Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa)** — Presidência da República, alteração da idade da pessoa idosa no atendimento prioritário, [texto oficial](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm), acesso em 5 ago. 2026.
 - **Decreto nº 5.296, de 2 de dezembro de 2004** — Presidência da República, regulamentação das duas leis, [texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5296.htm), acesso em 5 ago. 2026.
 - **Lei nº 11.982, de 16 de julho de 2009** — Câmara dos Deputados, brinquedos e equipamentos acessíveis, [texto oficial](https://www2.camara.leg.br/legin/fed/lei/2009/lei-11982-16-julho-2009-589570-publicacaooriginal-114516-pl.html), acesso em 5 ago. 2026.
 - **Lei nº 13.146, de 6 de julho de 2015** — Presidência da República, alterações promovidas pela LBI, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm), acesso em 5 ago. 2026.
 - **Lei nº 13.443, de 11 de maio de 2017** — Presidência da República, brinquedos acessíveis inclusive para deficiência visual, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13443.htm), acesso em 5 ago. 2026.
+- **Lei nº 13.506, de 13 de novembro de 2017** — Presidência da República, revogação do art. 44 da Lei nº 4.595/1964, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13506.htm), acesso em 15 ago. 2026.
 - **Lei nº 13.825, de 13 de maio de 2019** — Câmara dos Deputados, banheiros químicos acessíveis, [texto oficial](https://www2.camara.leg.br/legin/fed/lei/2019/lei-13825-13-maio-2019-788096-publicacaooriginal-157903-pl.html), acesso em 5 ago. 2026.
 - **Lei nº 13.835, de 4 de junho de 2019** — Presidência da República, kit acessível para cartão, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13835.htm), acesso em 5 ago. 2026.
 - **Lei nº 14.364, de 1º de junho de 2022** — Presidência da República, acompanhante e atendente pessoal, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14364.htm), acesso em 5 ago. 2026.
 - **Lei nº 14.626, de 19 de julho de 2023** — Presidência da República, ampliação da prioridade e dos assentos, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14626.htm), acesso em 5 ago. 2026.
-- **Lei nº 15.249, de 3 de novembro de 2025** — Presidência da República, necessidades complexas de comunicação e CAA, [texto oficial retificado](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15249.htm), acesso em 5 ago. 2026.
+- **Lei nº 15.249, de 3 de novembro de 2025** — Presidência da República, necessidades complexas de comunicação e CAA, [texto oficial retificado](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15249.htm), acesso em 15 ago. 2026.
 - **REsp 1.292.875/PR — Informativo 599** — Superior Tribunal de Justiça, exigibilidade da acessibilidade no transporte, [informativo oficial](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&livre=%40cnot%3D016222), acesso em 5 ago. 2026.
 - **REsp 2.041.463/RJ** — Superior Tribunal de Justiça, acessibilidade em estabelecimento de uso coletivo, [acórdão oficial](https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/ITA?CodOrgaoJgdr=&SeqCgrmaSessao=&dt=20230616&formato=PDF&nreg=202103691617&salvar=false&seq=2315525&tipo=0), acesso em 5 ago. 2026.
 - **Caderno 034_TRF6_CG4_01** — Cebraspe, TRF da 6ª Região, cargos 14 a 18, aplicação em 19 de janeiro de 2025, [prova](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/034_TRF6_CG4_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/GAB_DEFINITIVO_034_TRF6_CG4_01.PDF), acesso em 5 ago. 2026.

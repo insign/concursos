@@ -4,7 +4,8 @@
 
 - Lei nº **10.048/2000** → prioridade;
 - Lei nº **10.098/2000** → acessibilidade;
-- corte: **04/08/2026**.
+- regra de prova: alterações legislativas em vigor até **06/07/2026**;
+- conferência editorial: **15/08/2026**.
 
 ## Prioridade: rol atual
 
@@ -72,11 +73,13 @@ Art. 5º:
 
 ## Sanções da prioridade
 
-| Responsável | Sanção |
+| Responsável | Sanção/remissão |
 |---|---|
 | servidor/chefia | legislação específica |
 | concessionária | R$ 500–2.500 **por veículo** dos arts. 3º/5º |
-| instituição financeira | art. 44, I–III, Lei nº 4.595/1964 |
+| instituição financeira | art. 6º, III, ainda remete ao art. 44, I–III, da Lei nº 4.595/1964 |
+
+**Instituição financeira:** a remissão continua no texto da Lei nº 10.048, mas o **art. 44 da Lei nº 4.595/1964 foi revogado pela Lei nº 13.506/2017**. Literalidade ≠ tratar incisos revogados como sanções vigentes.
 
 Reincidência → **dobro**.
 
@@ -229,7 +232,7 @@ Lei nº 15.249/2025:
 - pranchas de baixa tecnologia;
 - pictogramas;
 - conteúdo conforme contexto;
-- disponibilidade financeira/orçamentária.
+- disponibilidade financeira/orçamentária = **art. 4º da Lei nº 15.249/2025**, não texto do art. 17 da Lei nº 10.098.
 
 Formação: Braille + língua de sinais + guia-intérprete.
 
@@ -281,6 +284,7 @@ Kit para cartão, solicitado e sem custo:
 - doador é último entre prioritários;
 - acompanhante não é prioritário autônomo;
 - fila em curso não é interrompida;
+- instituição financeira: remissão ao art. 44 permanece, mas o dispositivo referido foi **revogado em 2017**;
 - 5% de cada brinquedo, não do total;
 - semáforo não depende sempre de pedido;
 - barreira pode ser atitude/comportamento;
