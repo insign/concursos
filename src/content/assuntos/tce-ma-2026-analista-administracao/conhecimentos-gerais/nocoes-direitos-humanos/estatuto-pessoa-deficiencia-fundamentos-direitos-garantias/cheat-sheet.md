@@ -188,6 +188,8 @@ Art. 29: **VETADO**.
 
 Escola privada: deve incluir e não pode cobrar adicional.
 
+**Literalidade pós-Lei nº 15.249/2025:** art. 28, XIX = CAA de baixa tecnologia; o § 1º não inclui o inciso XIX no rol expresso aplicado às instituições privadas.
+
 Seleção:
 
 - recursos indicados no formulário;
@@ -324,7 +326,7 @@ TDA ≠ curatela e não pode ser imposta de ofício.
 | 15.249/2025 | necessidades complexas de comunicação |
 | 15.280/2025 | apoio psicológico após vitimização sexual |
 
-Deficiência auditiva correlata: impedimento de longo prazo unilateral **total** ou bilateral parcial/total, nos critérios legais.
+**Art. 121:** direitos/prazos/obrigações da LBI não excluem outras normas protetivas; em conflito → prevalece a **norma mais benéfica** à pessoa com deficiência.
 
 ## Fórmulas de prova
 
