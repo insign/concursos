@@ -1,270 +1,189 @@
 # Teoria geral dos direitos fundamentais
 
-## Vocabulário
+## Mapa mental
 
-| Termo | Plano predominante |
+**plano → característica → dimensão → eficácia → tratado → limite**
+
+## Direitos humanos × fundamentais
+
+| Expressão | Chave |
 |---|---|
-| direitos do homem | jusnaturalista/não positivado |
-| direitos humanos | internacional |
-| direitos fundamentais | constitucional interno |
-| garantias fundamentais | proteção/realização do direito |
+| direitos do homem | jusnaturalista / não positivado |
+| direitos humanos | plano internacional |
+| direitos fundamentais | plano constitucional interno |
+| garantia fundamental | meio de proteção/realização |
 
-Conteúdo pode ser o mesmo; muda o plano de positivação.
+**Mesmo conteúdo pode ocupar os dois planos.**
 
-Direito = bem protegido.
+Ex.: liberdade de expressão = direito humano no plano internacional + direito fundamental no plano constitucional.
 
-Garantia = meio de proteção.
+**Direito × garantia:** locomoção → habeas corpus.
 
-- locomoção → habeas corpus;
-- informação pessoal → habeas data.
+## Características: pegadinha corrigida
 
-Distinção é funcional, não absoluta.
-
-## Características
-
-| Característica | Correção da pegadinha |
+| Característica | Não significa |
 |---|---|
-| historicidade | catálogo se reconstrói; maioria não pode abolir livremente |
-| universalidade | não é uniformidade nem titularidade idêntica |
-| indivisibilidade | direitos formam proteção integrada |
-| interdependência | efetividade de um pode depender de outros |
-| inalienabilidade | direito não é mercadoria; efeitos patrimoniais podem circular |
-| imprescritibilidade | direito não se perde; pretensão patrimonial pode prescrever |
-| irrenunciabilidade | não impede não exercício ou consentimento pontual |
-| relatividade | não há direito absoluto; restrição deve ser justificada |
+| historicidade | que a maioria possa abolir livremente |
+| universalidade | titularidade idêntica de todo direito |
+| indivisibilidade | superioridade de direitos civis sobre sociais |
+| interdependência | realização isolada dos direitos |
+| inalienabilidade | impossibilidade de efeitos patrimoniais |
+| imprescritibilidade | toda indenização imprescritível |
+| irrenunciabilidade | proibição de não exercício temporário |
+| relatividade | licença para restrição arbitrária |
 
-Viena/1993: universais + indivisíveis + interdependentes + inter-relacionados.
+**Viena/1993:** universais + indivisíveis + interdependentes + inter-relacionados.
 
 ## Dimensões
 
-| Dimensão | Valor | Exemplos |
+| Dimensão | Valor | Núcleo |
 |---:|---|---|
-| 1ª | liberdade | civis e políticos |
-| 2ª | igualdade material | sociais, econômicos e culturais |
-| 3ª | solidariedade/fraternidade | ambiente, desenvolvimento, direitos transindividuais |
+| **1ª** | liberdade | civis e políticos |
+| **2ª** | igualdade material | sociais, econômicos e culturais |
+| **3ª** | solidariedade/fraternidade | transindividuais, ambiente, desenvolvimento |
 
-As dimensões coexistem e se acumulam; os direitos são indivisíveis e interdependentes.
+**Regra:** dimensões **coexistem e se acumulam**.
 
-1ª ≠ apenas omissão.
+- 1ª ≠ só abstenção;
+- 2ª ≠ só prestação/gasto;
+- 3ª ≠ titular individual exclusivo.
 
-2ª ≠ apenas gasto.
-
-4ª/5ª = controvérsia doutrinária; observe o autor.
-
-Paulo Bonavides:
-
-- 4ª: democracia, informação, pluralismo;
-- 5ª: paz.
+4ª/5ª: **sem consenso doutrinário**. Se houver autor indicado, siga a classificação dele.
 
 ## Titulares
 
 - pessoa natural;
-- estrangeiro não residente sob jurisdição brasileira;
-- apátrida;
-- pessoa jurídica, se compatível;
-- grupo/coletividade;
-- gerações futuras.
+- estrangeiro/apátrida;
+- pessoa jurídica, **se compatível**;
+- grupos e coletividades.
 
-Universalidade ≠ todo direito para todos nas mesmas condições.
+**Universalidade ≠ todo direito para todos nas mesmas condições.**
 
-Direitos políticos possuem requisitos próprios.
+## Funções e deveres
 
-## Funções
-
-| Função | Exige |
+| Função | Gatilho |
 |---|---|
-| defensiva | não ingerência/cessação |
+| defensiva | impedir/cessar ingerência |
 | prestacional | prestação material, normativa ou organizacional |
-| protetiva | impedir/remediar violação por terceiro |
-| procedimental | processo, participação, informação e motivação |
+| protetiva | proteger contra terceiros |
+| procedimental | processo, participação, informação, motivação |
 
-## Subjetiva × objetiva
+**Estado:** respeitar → proteger → promover/realizar.
 
-| Dimensão subjetiva | Dimensão objetiva |
-|---|---|
-| posição exigível do titular | valor estruturante da ordem |
-| abstenção/prestação/proteção | deveres de proteção |
-| procedimento | eficácia irradiante |
+**Subjetiva:** posição exigível do titular.
 
-Objetiva ≠ desaparecimento do titular.
+**Objetiva:** valor estruturante + deveres de proteção + irradiação sobre o sistema.
 
-## Deveres estatais
+## Art. 5º: §§ 1º a 4º
 
-1. respeitar: não violar;
-2. proteger: agir contra terceiros;
-3. promover/realizar: criar condições de efetividade.
-
-## Catálogo aberto
-
-Direitos fundamentais podem estar:
-
-- no art. 5º;
-- em outros pontos da Constituição;
-- implícitos no sistema;
-- no regime e nos princípios;
-- em tratados.
-
-Art. 5º não é taxativo.
-
-Abertura material ≠ invenção sem fundamento.
-
-## Art. 5º, §§ 1º a 4º
-
-| Parágrafo | Chave |
+| § | Chave |
 |---:|---|
-| § 1º | aplicação imediata |
-| § 2º | catálogo aberto |
-| § 3º | tratados de DH equivalentes a emenda, se rito qualificado |
-| § 4º | Tribunal Penal Internacional |
+| **1º** | aplicação imediata |
+| **2º** | catálogo aberto |
+| **3º** | tratado de DH pode equivaler a emenda |
+| **4º** | Tribunal Penal Internacional |
 
-§ 3º:
+### Rito do § 3º
 
-- cada Casa;
-- dois turnos;
-- três quintos.
+**cada Casa + 2 turnos + 3/5**
 
-§ 4º = TPI, não Corte IDH.
+Não é unanimidade. Não vale automaticamente para todo tratado de direitos humanos.
 
-## Aplicação e eficácia
+## Aplicação imediata × eficácia
 
-Aplicação imediata ≠ eficácia plena uniforme.
+**Aplicação imediata ≠ eficácia plena de toda norma.**
 
-| Norma | Eficácia |
+| Norma | Chave |
 |---|---|
-| plena | direta, imediata, integral |
-| contida | direta/imediata, restringível |
-| limitada | integração para efeitos completos |
+| plena | direta + imediata + integral |
+| contida | direta + imediata + restringível |
+| limitada | precisa integração para efeitos completos |
 
-Norma limitada ainda vincula e produz efeitos jurídicos.
+Norma limitada **já produz efeitos jurídicos** e vincula os Poderes.
 
-## Eficácia nas relações
+## Eficácia vertical × horizontal
 
 | Tipo | Relação |
 |---|---|
 | vertical | pessoa × Estado |
 | horizontal | particular × particular |
-| diagonal | relação privada assimétrica; categoria doutrinária |
 
-### RE 201.819/RJ
+**RE 201.819/RJ:** exclusão de associado da UBC → contraditório + ampla defesa + devido processo no caso concreto.
 
-- UBC excluiu associado;
-- 2ª Turma/STF;
-- julgamento: 11/10/2005;
-- contraditório + ampla defesa + devido processo;
-- entidade exercia poder social/econômico;
-- espaço público, ainda que não estatal;
-- autonomia privada não é absoluta.
+Autonomia privada ≠ imunidade constitucional.
 
-Não copie automaticamente o processo judicial para toda associação.
+“Diagonal” = rótulo doutrinário para relação privada assimétrica; não é categoria constitucional autônoma indispensável.
 
-## Hierarquia dos tratados
+## Tratados de direitos humanos
 
-$$
-\text{Constituição} > \text{tratado de DH supralegal} > \text{lei ordinária}
-$$
-
-| Tratado | Status |
+| Situação | Status |
 |---|---|
-| DH + rito § 3º | equivalente a emenda |
-| DH sem rito § 3º | supralegal, conforme STF |
-| comum | em regra, equivalente à lei ordinária |
+| DH + rito § 3º | equivalente a emenda constitucional |
+| DH sem rito § 3º | **supralegal**, conforme STF |
+| tratado comum | em regra, nível de lei ordinária |
 
-Exemplos com rito § 3º:
+**Hierarquia:** Constituição > tratado DH supralegal > lei ordinária.
 
-- Convenção sobre Direitos das Pessoas com Deficiência;
-- Tratado de Marraqueche;
-- Convenção Interamericana contra o Racismo.
+Exemplos § 3º: Convenção sobre Direitos das Pessoas com Deficiência, Tratado de Marraqueche, Convenção Interamericana contra o Racismo.
 
 ## Depositário infiel
 
-SV 25: ilícita prisão civil em qualquer modalidade de depósito.
+**SV 25:** prisão civil de depositário infiel = ilícita, qualquer modalidade.
 
-- CADH não revogou o art. 5º, LXVII;
-- paralisou-se a legislação infraconstitucional incompatível;
-- tratado supralegal não supera a Constituição.
+CADH **não revogou** o art. 5º, LXVII.
 
-## Restrições
+Tratado supralegal paralisa a lei incompatível; não supera a Constituição.
 
-- diretamente constitucionais;
-- autorizadas à lei;
-- decorrentes da convivência entre direitos;
-- conformação do exercício.
+## Restrições e colisões
 
-| Reserva | Chave |
-|---|---|
-| simples | autorização geral à lei |
-| qualificada | fins/requisitos constitucionais específicos |
+Direito fundamental **não é, em regra, absoluto**.
 
-Lei não elimina controle de proporcionalidade.
+Restrição válida exige fundamento constitucional + competência + finalidade legítima + proporcionalidade.
 
-## Limites dos limites
+**“Interesse público” genérico não basta.**
 
-- competência e forma;
-- reserva legal;
-- igualdade;
-- segurança jurídica;
-- proporcionalidade;
-- não arbitrariedade;
-- núcleo essencial;
-- cláusulas pétreas.
+### Proporcionalidade
 
-Núcleo essencial:
+1. **adequação** → contribui para o fim?
+2. **necessidade** → há meio igualmente eficaz e menos restritivo?
+3. **sentido estrito** → benefício justifica sacrifício?
 
-- teoria absoluta: núcleo prévio;
-- teoria relativa: resultado da proporcionalidade.
+Colisão: **não há hierarquia abstrata automática**.
 
-CF não contém cláusula geral literal do núcleo essencial.
-
-## Proporcionalidade
-
-1. adequação: contribui para o fim?
-2. necessidade: há meio igualmente eficaz e menos restritivo?
-3. sentido estrito: benefício justifica sacrifício?
-
-Duas faces:
-
-- proibição de excesso;
-- proibição de proteção insuficiente.
-
-Concordância prática = preservar o máximo dos bens em colisão.
-
-Não existe hierarquia abstrata automática entre direitos.
+Concordância prática = preservar o máximo possível de cada bem.
 
 ## Cláusula pétrea
 
-Art. 60, § 4º, IV:
+Art. 60, § 4º, IV: emenda **tendente a abolir direitos e garantias individuais** é vedada.
 
-- proposta **tendente a abolir**;
-- direitos e garantias individuais;
-- proteção não puramente topográfica;
-- preserva conteúdo essencial;
-- não impede toda regulamentação.
+Cláusula pétrea ≠ proibição de toda disciplina ou ajuste.
 
-Todos os direitos sociais petrificados? Resposta automática é errada; análise é material.
+## Constituição × proteção internacional
 
-## Proteção internacional
+- dignidade da pessoa humana = fundamento;
+- prevalência dos direitos humanos = princípio das relações internacionais;
+- art. 5º, § 2º = abertura;
+- sistema internacional = complementar/subsidiário, não “4ª instância” ordinária.
 
-- dignidade: fundamento interno;
-- prevalência dos DH: relações internacionais;
-- sistema interamericano: complementar/subsidiário;
-- não é recurso ordinário do STF;
-- TPI ≠ Corte IDH.
+## Questão oficial comprovada
 
-Controle de convencionalidade:
+**Cebraspe · TRF6 · Técnico Judiciário, cargos 27 e 28 · 19/01/2025 · caderno 034_TRF6_CG6_01 · item 32**
 
-- tratado supralegal paralisa lei incompatível;
-- não revoga Constituição;
-- tratado § 3º integra nível constitucional equivalente.
+Liberdade de expressão → **1ª dimensão** → gabarito definitivo **Certo**.
 
 ## Pegadinhas finais
 
-- DH ≠ materialmente diferente de DF.
-- Gerações não se substituem.
-- Direito fundamental não é absoluto.
-- Aplicação imediata não é eficácia plena.
-- Art. 5º não é catálogo fechado.
-- Todo tratado de DH não é automaticamente constitucional.
-- Supralegal não significa supraconstitucional.
+- DH ≠ DF materialmente opostos.
+- Dimensões não se substituem.
+- Universalidade ≠ titularidade idêntica.
+- Direito fundamental ≠ absoluto.
+- Aplicação imediata ≠ eficácia plena.
+- Art. 5º ≠ catálogo fechado.
+- Pessoa jurídica pode ter direitos compatíveis.
+- Horizontal = entre particulares.
+- Todo tratado de DH ≠ emenda.
+- § 3º = cada Casa + 2 turnos + 3/5.
+- Supralegal ≠ supraconstitucional.
+- § 4º = TPI, não Corte IDH.
 - CADH não apagou o art. 5º, LXVII.
-- Eficácia diagonal não é consenso do STF.
-- Interesse público abstrato não basta para restringir.
+- Interesse público abstrato não resolve colisão.
