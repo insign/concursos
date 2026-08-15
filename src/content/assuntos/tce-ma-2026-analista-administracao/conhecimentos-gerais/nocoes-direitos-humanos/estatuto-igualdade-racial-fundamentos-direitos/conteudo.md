@@ -16,7 +16,7 @@ Este assunto estuda a **Lei nº 12.288/2010**, o Estatuto da Igualdade Racial, s
 2. por que ações afirmativas são compatíveis com a igualdade material;
 3. quais direitos substantivos o Estatuto assegura.
 
-O corte normativo é **4 de agosto de 2026**. O edital foi publicado em 6 de julho de 2026. Não foi identificada alteração do Estatuto entre a publicação do edital e o corte.
+Para fins de prova, podem ser avaliadas alterações legislativas que entraram em vigor até a data de publicação do edital, **6 de julho de 2026**. Este material foi conferido em **15 de agosto de 2026**; a conferência posterior serve ao controle editorial e não amplia o corte do edital.
 
 A última alteração consolidada relevante foi a **Lei nº 14.553/2023**, que acrescentou regras de coleta de informações étnico-raciais no mercado de trabalho e também alterou o artigo 49, cujo mecanismo será estudado no Assunto 102. Essa alteração já estava vigente na data do edital.
 
@@ -198,7 +198,25 @@ Moradores de comunidades remanescentes de quilombos são beneficiários de incen
 - segurança alimentar e nutricional;
 - atenção integral à saúde.
 
-A Política Nacional de Saúde Integral da População Negra e seus instrumentos operacionais serão desenvolvidos no Assunto 102. Aqui importa reconhecer o núcleo do direito, a universalidade e os beneficiários.
+### 6.5 Política Nacional de Saúde Integral da População Negra
+
+O conjunto de ações de saúde voltadas à população negra constitui a **Política Nacional de Saúde Integral da População Negra**. Para este assunto, importa memorizar o conteúdo jurídico dos artigos 7º e 8º; a execução institucional e os instrumentos operacionais permanecem no Assunto 102.
+
+O **artigo 7º** organiza a política por três diretrizes:
+
+1. ampliação e fortalecimento da participação de lideranças dos movimentos sociais em defesa da saúde da população negra nas instâncias de participação e controle social do SUS;
+2. produção de conhecimento científico e tecnológico em saúde da população negra;
+3. desenvolvimento de processos de informação, comunicação e educação para contribuir com a redução das vulnerabilidades da população negra.
+
+O **artigo 8º** estabelece cinco objetivos:
+
+1. promover a saúde integral da população negra, priorizando a redução das desigualdades étnicas e o combate à discriminação nas instituições e nos serviços do SUS;
+2. melhorar a qualidade dos sistemas de informação do SUS quanto à coleta, ao processamento e à análise de dados desagregados por **cor, etnia e gênero**;
+3. fomentar estudos e pesquisas sobre racismo e saúde da população negra;
+4. incluir o conteúdo da saúde da população negra nos processos de formação e educação permanente dos trabalhadores da saúde;
+5. incluir a temática da saúde da população negra na formação política das lideranças de movimentos sociais para o exercício da participação e do controle social no SUS.
+
+Pegadinha: **diretrizes do artigo 7º não são os objetivos do artigo 8º**.
 
 ## 7. Educação
 
