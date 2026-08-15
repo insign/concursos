@@ -2,244 +2,144 @@
 
 ## Identidade
 
-- Assembleia Geral da ONU;
-- **Resolução 217 A (III)**;
-- Paris, Palais de Chaillot;
-- **10/12/1948**;
-- 183ª reunião plenária;
-- votação: **48–0–8**;
-- duas ausências;
-- 30 artigos.
+**ONU → Assembleia Geral → Resolução 217 A (III) → Paris → 10/12/1948 → 30 artigos**
 
-48 favoráveis + 0 contrários + 8 abstenções ≠ unanimidade.
+- votação: **48–0–8**; dois Estados não votaram;
+- nenhum voto contrário ≠ unanimidade;
+- DUDH = **declaração/padrão comum**, não tratado;
+- Brasil **votou a favor**; não “ratificou” a DUDH;
+- PIDCP/PIDESC = tratados; DUDH = declaração.
 
-10 de dezembro = Dia dos Direitos Humanos.
+## Preâmbulo: gatilhos
 
-## Natureza
+**dignidade → direitos iguais/inalienáveis → liberdade/justiça/paz → Estado de Direito → ensino/educação → reconhecimento universal**
 
-DUDH = declaração/resolução/padrão comum.
+Destinatários da proclamação: **cada indivíduo + cada órgão da sociedade**.
 
-DUDH ≠ tratado/pacto/convenção.
+## Mapa dos 30 artigos
 
-- não foi aberta à assinatura;
-- não se ratifica;
-- Brasil votou a favor, não “ratificou”;
-- influencia constituições e tratados;
-- algumas normas refletem costume internacional;
-- não diga que todos os 30 artigos viraram costume automaticamente.
+### 1–11 — igualdade, pessoa e justiça
 
-## Redação
-
-- Comissão de Direitos Humanos: 18 membros;
-- comitê formal: 8 Estados;
-- Eleanor Roosevelt: presidência/mediação;
-- John Humphrey: material preliminar;
-- René Cassin: sistematização;
-- Peng-chun Chang: pluralismo;
-- Charles Malik: relatoria;
-- Hernán Santa Cruz: direitos econômicos e sociais;
-- Hansa Mehta: “todos os seres humanos”.
-
-Autoria = coletiva e multicultural.
-
-## Carta Internacional
-
-- DUDH;
-- PIDCP;
-- PIDESC;
-- protocolos.
-
-Pactos = tratados. DUDH = declaração.
-
-## Preâmbulo
-
-- dignidade inerente;
-- direitos iguais e inalienáveis;
-- liberdade, justiça e paz;
-- atos bárbaros;
-- palavra e crença;
-- medo e necessidade;
-- Estado de Direito para evitar o recurso supremo à rebelião;
-- igualdade entre homens e mulheres;
-- progresso social;
-- compromisso dos Estados com respeito universal e efetivo;
-- reconhecimento nos Estados-membros e territórios sob sua jurisdição;
-- ensino e educação.
-
-Destinatários: indivíduos + órgãos da sociedade + Estados.
-
-## Artigos 1–2
-
-| Art. | Chave |
+| Art. | Gatilho |
 |---:|---|
-| 1 | livres e iguais em dignidade/direitos; razão, consciência, fraternidade |
-| 2 | não discriminação; lista exemplificativa; estatuto do território |
+| **1** | livres e iguais em dignidade/direitos; razão, consciência, fraternidade |
+| **2** | não discriminação + condição do território |
+| **3** | vida + liberdade + segurança |
+| **4** | escravidão + servidão + tráfico |
+| **5** | tortura + tratamento/pena cruel, desumano ou degradante |
+| **6** | pessoa perante a lei, em todos os lugares |
+| **7** | igualdade legal + discriminação + incitamento |
+| **8** | remédio efetivo em tribunal nacional competente |
+| **9** | prisão/detenção/exílio **arbitrários** |
+| **10** | audiência justa/pública + tribunal independente/imparcial |
+| **11** | presunção + defesa + legalidade + irretroatividade + pena não agravada retroativamente |
 
-Art. 1 não promete capacidades materiais idênticas.
+**Art. 6:** personalidade jurídica ≠ empresa.
 
-## Artigos 3–11
+**Art. 9:** arbitrário ≠ toda prisão legal.
 
-| Art. | Chave |
+**Art. 11:** direito nacional **ou internacional**.
+
+### 12–21 — vida privada, circulação e liberdades
+
+| Art. | Gatilho |
 |---:|---|
-| 3 | vida + liberdade + segurança |
-| 4 | escravidão + servidão + tráfico proibidos |
-| 5 | tortura + tratamento/pena cruel, desumano ou degradante |
-| 6 | pessoa perante a lei em todos os lugares |
-| 7 | igualdade legal + proteção contra discriminação/incitamento |
-| 8 | remédio efetivo em tribunal nacional competente |
-| 9 | prisão, detenção ou exílio **arbitrários** |
-| 10 | audiência justa/pública + tribunal independente/imparcial |
-| 11 | presunção + defesa + legalidade + irretroatividade |
+| **12** | privacidade, família, domicílio, correspondência, honra/reputação |
+| **13** | circular/residir; sair de qualquer país; voltar ao **próprio** |
+| **14** | procurar/gozar asilo; exceções crime não político + atos anti-ONU |
+| **15** | nacionalidade; privação não arbitrária? **não** → privação arbitrária vedada + mudança protegida |
+| **16** | maiores de idade; casamento/família; igualdade; consentimento livre/pleno |
+| **17** | propriedade sozinho ou em associação; não privação arbitrária |
+| **18** | pensamento/consciência/religião; **mudar** e manifestar |
+| **19** | opinião/expressão; buscar, receber e difundir **sem fronteiras** |
+| **20** | reunião/associação **pacíficas**; filiação não compulsória |
+| **21** | governo + serviço público + eleições periódicas/autênticas/universais/iguais/secretas |
 
-Art. 6 “personalidade jurídica” ≠ empresa.
+**Art. 13:** sair de qualquer país ≠ entrar em qualquer país.
 
-Art. 9 não proíbe toda prisão legal.
+**Art. 14:** procurar/gozar asilo ≠ concessão automática.
 
-Art. 11: crime pelo direito nacional **ou internacional**.
+**Art. 15:** “arbitrariamente” qualifica a **privação**; o direito de mudar também é protegido.
 
-## Artigos 12–17
+**Art. 16:** *full age* → em prova pode aparecer como **maiores de idade**; preserve igualdade + não discriminação + consentimento.
 
-| Art. | Chave |
+**Art. 20:** liberdade de associação inclui **não ser compelido**.
+
+### 22–27 — econômicos, sociais e culturais
+
+| Art. | Gatilho |
 |---:|---|
-| 12 | privacidade, família, domicílio, correspondência, honra/reputação |
-| 13 | circular/residir; sair de qualquer país; voltar ao próprio |
-| 14 | procurar/gozar asilo; exceções crime comum e atos anti-ONU |
-| 15 | nacionalidade; não privação arbitrária; mudança |
-| 16 | casamento, igualdade, livre/pleno consentimento, família |
-| 17 | propriedade individual ou em associação; não privação arbitrária |
+| **22** | segurança social + DESC + esforço nacional/coooperação + recursos do Estado |
+| **23** | trabalho + livre escolha + condições justas + desemprego + salário igual + sindicato |
+| **24** | repouso/lazer + jornada razoável + férias **remuneradas** |
+| **25** | padrão de vida + segurança social + maternidade/infância + filhos com igual proteção |
+| **26** | educação + gratuidade mínima + elementar obrigatório + superior por mérito + prioridade dos pais |
+| **27** | cultura + artes + ciência/benefícios + interesses morais/materiais do autor |
 
-Art. 12 proíbe interferência **arbitrária**, não toda interferência.
+**Art. 26:** ensino superior acessível pelo mérito ≠ gratuidade universal.
 
-Art. 13 não garante entrada em qualquer país.
+**Art. 26.3:** prioridade dos pais ≠ poder absoluto.
 
-Art. 14 não obriga país escolhido a conceder asilo.
+**Art. 27:** acesso à cultura/ciência **e** proteção do autor coexistem.
 
-## Artigos 18–21
+### 28–30 — ordem, deveres e limites
 
-| Art. | Chave |
+| Art. | Gatilho |
 |---:|---|
-| 18 | pensamento, consciência, religião, mudança e manifestação |
-| 19 | opinião/expressão; buscar, receber, transmitir além-fronteiras |
-| 20 | reunião/associação pacífica; filiação não compulsória |
-| 21 | governo do próprio país, direto/representantes; serviço público; eleições |
+| **28** | ordem social e internacional de realização dos direitos |
+| **29.1** | deveres para com a comunidade |
+| **29.2** | limite por **lei** + fins legítimos + sociedade democrática |
+| **29.3** | exercício não pode contrariar propósitos/princípios ONU |
+| **30** | Estado/grupo/pessoa não podem usar a DUDH para destruir direitos |
 
-Eleições:
+## Art. 29: fórmula
 
-- periódicas;
-- autênticas;
-- sufrágio universal e igual;
-- voto secreto ou equivalente livre.
+**lei + direitos alheios/moral/ordem pública/bem-estar + sociedade democrática**
 
-## Artigos 22–24
+Art. 29 ≠ autorização ilimitada para restringir.
 
-| Art. | Chave |
+## Traduções: como não cair
+
+Variação lexical pode ser legítima. Compare o **núcleo**, não uma palavra isolada.
+
+| Art. | Variações úteis |
 |---:|---|
-| 22 | segurança social + DESC + recursos/organização do Estado |
-| 23 | trabalho, escolha, condições, desemprego, remuneração, sindicato |
-| 24 | repouso, lazer, jornada razoável, férias remuneradas |
+| 6 | pessoa perante a lei ↔ personalidade jurídica |
+| 8 | recurso efetivo ↔ remédio efetivo |
+| 10 | audiência justa/pública ↔ julgamento justo/público |
+| 14 | crime não político ↔ crime de direito comum |
+| 16 | texto autêntico: *full age*; banca pode usar “maiores de idade” |
+| 21 | serviço público ↔ funções públicas |
+| 26 | educação ↔ instrução |
 
-Art. 23:
+**Sinônimo legítimo ≠ erro.**
 
-- salário igual por trabalho igual;
-- remuneração digna;
-- proteção social complementar;
-- fundar e filiar-se a sindicato para proteger interesses.
+## Qualificadores decisivos
 
-## Artigo 25
+- art. 9 → **arbitrariamente**;
+- art. 12 → interferências **arbitrárias**;
+- art. 16 → consentimento **livre e pleno**;
+- art. 20 → reunião/associação **pacíficas**;
+- art. 21 → eleições **periódicas e autênticas**;
+- art. 24 → férias periódicas **remuneradas**;
+- art. 29 → limitações **determinadas por lei** e compatíveis com sociedade democrática.
 
-Padrão de vida adequado:
+## Pegadinhas finais
 
-- alimentação;
-- vestuário;
-- habitação;
-- cuidados médicos;
-- serviços sociais.
-
-Segurança em:
-
-- desemprego;
-- doença;
-- invalidez;
-- viuvez;
-- velhice;
-- perda involuntária de subsistência.
-
-Maternidade/infância = proteção especial.
-
-Filhos dentro/fora do casamento = proteção social igual.
-
-## Artigo 26
-
-- gratuidade mínima: elementar/fundamental;
-- elementar obrigatório;
-- técnico-profissional generalizado;
-- superior acessível pelo mérito;
-- pleno desenvolvimento da personalidade;
-- respeito aos direitos;
-- tolerância e amizade;
-- paz;
-- pais têm prioridade na escolha.
-
-Não exige gratuidade universal do ensino superior.
-
-Prioridade dos pais ≠ exclusividade absoluta.
-
-## Artigo 27
-
-- vida cultural;
-- artes;
-- progresso científico e benefícios;
-- interesses morais e materiais do autor.
-
-Autoria científica/literária/artística também é protegida.
-
-## Artigos 28–30
-
-| Art. | Chave |
-|---:|---|
-| 28 | ordem social e internacional de realização |
-| 29.1 | deveres para com a comunidade: só nela há desenvolvimento livre e pleno |
-| 29.2 | limitações legais e fins legítimos em democracia |
-| 29.3 | exercício compatível com propósitos ONU |
-| 30 | cláusula antidestruição |
-
-Art. 29.2 exige cumulativamente:
-
-- limitações exclusivamente para os fins enumerados;
-- lei;
-- respeito aos direitos alheios e exigências justas de moral/ordem/bem-estar;
-- sociedade democrática.
-
-Art. 30 alcança Estado + grupo + pessoa.
-
-## Traduções
-
-| Inglês | Traduções válidas |
-|---|---|
-| *property* (art. 2) | propriedade, riqueza, fortuna |
-| *person before the law* | pessoa perante a lei, personalidade jurídica |
-| *effective remedy* | recurso/remédio efetivo |
-| *fair and public hearing* | audiência/julgamento justo e público |
-| *non-political crimes* | crimes não políticos/de direito comum |
-| *public service* | serviço/funções públicas |
-| *education* | educação/instrução |
-
-Sinônimo legítimo ≠ erro.
-
-## Pegadinhas
-
-- adotada/proclamada ≠ ratificada;
-- nenhum contrário ≠ unanimidade;
-- personalidade jurídica ≠ pessoa empresarial;
-- arbitrário ≠ toda medida;
-- retorno ao próprio país ≠ entrada em qualquer país;
-- procurar asilo ≠ concessão automática;
-- crime comum exclui asilo do art. 14;
-- propriedade também coletiva/em associação;
-- religião inclui mudança;
-- expressão ignora fronteiras;
-- associação não pode ser compulsória;
-- férias são remuneradas;
-- ensino superior é acessível pelo mérito, não necessariamente gratuito;
-- art. 29 não autoriza restrição ilimitada;
-- art. 30 impede destruição dos direitos.
+- proclamada/adotada ≠ ratificada;
+- 48–0–8 ≠ unanimidade;
+- art. 6 ≠ pessoa jurídica empresarial;
+- art. 8 → tribunal **nacional** competente;
+- art. 13 → retorno ao próprio país;
+- art. 14 → asilo não automático;
+- art. 15 → nacionalidade pode mudar;
+- art. 16 → igualdade também na dissolução;
+- art. 17 → propriedade também em associação;
+- art. 18 → religião inclui mudança;
+- art. 19 → informações além-fronteiras;
+- art. 20 → ninguém é obrigado a associar-se;
+- art. 23 → sindicato é protegido;
+- art. 24 → férias remuneradas;
+- art. 26 → elementar obrigatório; superior por mérito;
+- art. 29 → limite condicionado;
+- art. 30 → cláusula antidestruição.
