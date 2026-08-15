@@ -425,6 +425,8 @@ Devem cumprir as obrigações legais sem cobrança adicional de qualquer naturez
 
 O STF, na ADI 5.357/DF, confirmou a constitucionalidade do dever de inclusão pelas escolas privadas e da proibição de cobrança adicional.
 
+A Lei nº 15.249/2025 acrescentou o inciso XIX ao artigo 28, com sistemas de comunicação aumentativa e alternativa de baixa tecnologia no atendimento educacional especializado. Na literalidade vigente, porém, o § 1º continua enumerando expressamente os incisos aplicáveis às instituições privadas e **não inclui o inciso XIX**. Em questão de letra da lei, não acrescente esse inciso ao rol do § 1º; isso não afasta os demais deveres legais de inclusão das instituições privadas.
+
 ### 12.2 Processos seletivos
 
 Devem assegurar:
@@ -644,7 +646,7 @@ Em negócio com risco ou prejuízo relevante, divergência entre pessoa e apoiad
 
 A tomada de decisão apoiada não pode ser imposta de ofício. O STJ, no REsp 1.795.395/MT, exige requerimento da própria pessoa e apoiadores por ela escolhidos.
 
-## 22. Alterações relevantes no corte
+## 22. Alterações relevantes e integração normativa
 
 | Norma | Impacto neste recorte |
 |---|---|
@@ -655,7 +657,11 @@ A tomada de decisão apoiada não pode ser imposta de ofício. O STJ, no REsp 1.
 
 As quatro alterações estavam vigentes na publicação do edital.
 
-A Lei correlata nº 14.768/2023 alcança perda auditiva de longo prazo unilateral **total** ou bilateral parcial ou total, conforme seus critérios. Essa lei não reescreveu diretamente a LBI.
+### 22.1 Norma mais benéfica
+
+O artigo 121 estabelece que os direitos, prazos e obrigações da LBI **não excluem** os já previstos em outras legislações ou em instrumentos internacionais aprovados e promulgados pelo Congresso Nacional. A aplicação deve ser compatível com as demais normas internas e acordos internacionais vinculantes sobre a matéria.
+
+Havendo normas protetivas concorrentes, o parágrafo único fixa a regra: **prevalece a norma mais benéfica à pessoa com deficiência**.
 
 ## 23. Fronteira com os próximos assuntos
 
@@ -685,7 +691,7 @@ Ficam no Assunto 100 as normas gerais das Leis nº 10.048/2000 e nº 10.098/2000
 | emergência ignora protocolo médico | errado: prioridade segue protocolo |
 | escola privada pode cobrar adicional | errado |
 | BPC é automático | errado: depende dos requisitos da LOAS |
-| toda perda auditiva unilateral está incluída | errado: a lei correlata fala em unilateral total |
+| a LBI exclui outras normas protetivas | errado: o art. 121 preserva outras normas e manda prevalecer a mais benéfica |
 | tomada apoiada pode ser imposta | errado: pedido parte da pessoa apoiada |
 
 ## 25. Método de resolução
@@ -698,7 +704,8 @@ Ficam no Assunto 100 as normas gerais das Leis nº 10.048/2000 e nº 10.098/2000
 6. Em educação, lembre sistema inclusivo, vida inteira e proibição de adicional.
 7. Em curatela, aplique: extraordinária + proporcional + menor tempo + patrimônio/negócio.
 8. Em tomada apoiada, procure pedido próprio, dois apoiadores, termo, juiz, equipe e Ministério Público.
-9. Não use regra operacional do Assunto 099 para negar um direito do Assunto 098.
+9. Em conflito entre normas protetivas, aplique a regra da norma mais benéfica à pessoa com deficiência.
+10. Não use regra operacional do Assunto 099 para negar um direito do Assunto 098.
 
 ## 26. Referências
 
@@ -708,7 +715,6 @@ Ficam no Assunto 100 as normas gerais das Leis nº 10.048/2000 e nº 10.098/2000
 - **Decreto nº 6.949, de 25 de agosto de 2009** — Presidência da República, promulgação da Convenção e do Protocolo Facultativo, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm), acesso em 4 ago. 2026.
 - **Lei nº 14.510, de 27 de dezembro de 2022** — Presidência da República, alteração de prevenção neonatal na LBI, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14510.htm), acesso em 4 ago. 2026.
 - **Lei nº 14.724, de 14 de novembro de 2023** — Presidência da República, exame médico-pericial por telemedicina ou análise documental, [texto oficial](https://planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14724.htm), acesso em 4 ago. 2026.
-- **Lei nº 14.768, de 22 de dezembro de 2023** — Presidência da República, definição correlata de deficiência auditiva, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14768.htm), acesso em 4 ago. 2026.
 - **Lei nº 15.249, de 3 de novembro de 2025** — Presidência da República, comunicação aumentativa e necessidades complexas de comunicação, [texto oficial e retificação](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15249.htm), acesso em 4 ago. 2026.
 - **Lei nº 15.280, de 5 de dezembro de 2025** — Presidência da República, assistência psicológica após vitimização sexual, [texto oficial](https://planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15280.htm), acesso em 4 ago. 2026.
 - **ADI 5.357/DF** — Supremo Tribunal Federal, julgamento em 9 de junho de 2016, [notícia oficial sobre educação inclusiva](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=318570&ori=1), acesso em 4 ago. 2026.
