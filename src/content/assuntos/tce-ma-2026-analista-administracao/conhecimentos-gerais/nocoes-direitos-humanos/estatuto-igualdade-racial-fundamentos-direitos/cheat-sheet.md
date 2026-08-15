@@ -1,6 +1,8 @@
 # Estatuto da Igualdade Racial: fundamentos, direitos e igualdade material
 
-Corte: **4 de agosto de 2026**.
+Regra de prova: alterações legislativas em vigor até **6 de julho de 2026**.
+
+Conferência editorial: **15 de agosto de 2026**.
 
 Lei nº **12.288/2010**. Última alteração consolidada: Lei nº **14.553/2023**.
 
@@ -73,7 +75,21 @@ Art. 58 → medidas do Estatuto **não excluem outras** favoráveis.
 - seguro privado → tratamento sem discriminação;
 - quilombolas → ambiente + saneamento + segurança alimentar/nutricional + atenção integral.
 
-Detalhamento operacional da política nacional → Assunto 102.
+**PNSIPN — art. 7º: diretrizes**
+
+1. participação de lideranças dos movimentos sociais + controle social do SUS;
+2. conhecimento científico e tecnológico em saúde da população negra;
+3. informação + comunicação + educação para reduzir vulnerabilidades.
+
+**PNSIPN — art. 8º: objetivos**
+
+1. saúde integral + redução das desigualdades étnicas + combate à discriminação no SUS;
+2. melhorar dados do SUS por **cor + etnia + gênero**;
+3. fomentar estudos sobre racismo e saúde da população negra;
+4. incluir saúde da população negra na formação e educação permanente dos trabalhadores da saúde;
+5. incluir o tema na formação política de lideranças para participação e controle social no SUS.
+
+Pegadinha: **diretrizes ≠ objetivos**. Detalhamento operacional da política nacional → Assunto 102.
 
 ## Educação
 
@@ -351,6 +367,7 @@ Assunto 102:
 - ação afirmativa ≠ apenas cota;
 - dever ≠ apenas Estado;
 - saúde negra ≠ sistema separado do SUS;
+- PNSIPN: **3 diretrizes ≠ 5 objetivos**;
 - escola privada também estuda história da África;
 - capoeira pode ser luta/dança/música;
 - ensino da capoeira não é obrigatório;
