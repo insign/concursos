@@ -8,431 +8,229 @@ storageId: "industrias-base-transformacao"
 
 # Parque industrial: indústrias de base e indústrias de transformação
 
-## 1. Recorte, objetivo e corte documental
+## 1. Recorte e corte documental
 
-Este assunto caracteriza o **parque industrial maranhense**, suas principais cadeias e a diferença entre **indústria de base** e **indústria de transformação**. O objetivo é compreender funções econômicas, etapas produtivas, distribuição espacial, fontes estatísticas e fatores locacionais sem confundir indústria com extração, energia, construção ou logística.
+O edital exige a caracterização do **parque industrial maranhense**, com atenção às **indústrias de base** e às **indústrias de transformação**. O foco é reconhecer as principais cadeias, seus polos territoriais, fatores locacionais e relações entre matéria-prima, processamento e logística.
 
-O corte documental é **4 de agosto de 2026**. Os indicadores, capacidades e situações operacionais possuem anos de referência diferentes e devem sempre ser apresentados com fonte, unidade e período.
+O corte documental é **4 de agosto de 2026**. As referências centrais são a classificação oficial de atividades do IBGE/CONCLA, fontes institucionais do Governo do Maranhão e informações operacionais das principais empresas presentes no estado.
 
-O desenvolvimento econômico entre 1951 e 2000 pertence ao Assunto 081. Agricultura e pecuária pertencem ao 089; extração vegetal, animal e mineral, ao 090; comércio, telecomunicações, transportes, malha viária, portos e aeroportos, aos assuntos seguintes. Aqui esses temas aparecem somente para delimitar a etapa industrial.
+Agricultura e pecuária pertencem ao Assunto 089; extrativismo, ao 090; comércio, telecomunicações, transportes, portos e aeroportos, aos assuntos seguintes. Esses elementos aparecem aqui apenas quando ajudam a explicar a **localização ou a cadeia industrial**.
 
-## 2. Parque industrial não é apenas distrito industrial
+## 2. Indústria de base e indústria de transformação
 
-**Parque industrial**, em sentido econômico-geográfico, é o conjunto de:
+As duas expressões respondem a perguntas diferentes.
 
-- plantas de produção e serviços industriais;
-- cadeias de fornecedores e compradores;
-- mão de obra, tecnologia e conhecimento;
-- energia, água e outras utilidades;
-- conexões logísticas;
-- instituições, regras e externalidades territoriais.
+### 2.1 Indústria de base
 
-Já um **distrito industrial** é uma área delimitada e planejada para receber empreendimentos. As expressões não são sinônimas:
-
-- uma aglomeração produtiva pode existir fora de distrito formal;
-- um distrito pode possuir lotes vagos ou projetos ainda não operantes;
-- anunciar um distrito não prova a instalação de fábricas;
-- uma única grande planta não esgota o parque industrial estadual.
-
-## 3. Indústria de base: categoria funcional
-
-“Indústria de base” não é uma seção oficial da CNAE. É uma classificação didática baseada na função do produto na cadeia.
-
-Em geral, indústrias de base fornecem **insumos fundamentais** para outras atividades, por exemplo:
+É uma **categoria funcional**, não uma seção própria da CNAE. Em sentido didático, reúne atividades que fornecem insumos fundamentais ou produtos intermediários para outras cadeias, como:
 
 - alumina e alumínio primário;
-- ferro-gusa, aço e outros produtos metalúrgicos;
-- celulose de mercado;
-- cimento e produtos químicos básicos;
-- máquinas e equipamentos, em classificações que incluem bens de capital.
+- ferro-gusa e aço;
+- celulose;
+- cimento e outros minerais não metálicos processados.
 
-A extensão do conceito varia entre autores. Por isso, a resposta segura deve explicar o critério funcional empregado, em vez de procurar uma “Seção Indústria de Base” na CNAE.
+Uma indústria de base pode pertencer à indústria de transformação. As categorias, portanto, **não são mutuamente excludentes**.
 
-### 3.1 Bens intermediários
+### 2.2 Indústria de transformação
 
-São consumidos, incorporados ou transformados na produção de outros bens. Alumina, celulose, cimento, aço, embalagens e componentes podem exercer essa função.
+Na CNAE, a **Seção C** compreende atividades que transformam materiais, substâncias ou componentes para obter **produtos novos**, por processos físicos, químicos ou biológicos.
 
-O destino importa: um mesmo produto pode ter uso intermediário em uma cadeia e uso final em outra.
+Exemplos maranhenses incluem:
 
-### 3.2 Bens de capital
+- bauxita transformada em alumina e alumínio;
+- madeira transformada em celulose e papel;
+- minério e redutores usados na produção de ferro-gusa e aço;
+- matérias-primas agropecuárias transformadas em alimentos e bebidas;
+- gipsita e calcário transformados em gesso, cimento e outros produtos.
 
-São máquinas, equipamentos e instalações usados repetidamente na produção. Não são matérias-primas consumidas imediatamente no processo.
+## 3. A fronteira entre etapas da cadeia
 
-### 3.3 Bens de consumo
-
-Destinam-se ao consumo final das famílias. Podem ser duráveis, semiduráveis ou não duráveis, como móveis, vestuário, alimentos e bebidas.
-
-Essas categorias por **destino econômico** não substituem a CNAE, que classifica a atividade principal da unidade produtiva.
-
-## 4. CNAE: a fronteira entre setores
-
-| Seção | Atividades | Relação com o tema |
+| Etapa | Exemplo | Natureza |
 |---|---|---|
-| A | agricultura, pecuária, produção florestal, pesca e aquicultura | fornece matérias-primas; não é indústria |
-| B | indústrias extrativas | retira minerais e inclui beneficiamento inseparável da extração |
-| C | indústrias de transformação | gera produtos novos por transformação física, química ou biológica |
-| D | eletricidade e gás | produz e distribui energia; não é manufatura |
-| E | água, esgoto, resíduos e descontaminação | utilidades e recuperação de materiais |
-| F | construção | executa obras e montagens classificadas como construção |
-| H | transporte, armazenagem e correio | movimenta pessoas e cargas; não transforma o produto |
+| produção primária | cultivar eucalipto, soja ou criar gado | agropecuária/produção florestal |
+| extração | retirar minério da jazida | indústria extrativa |
+| transformação | produzir alumina, celulose, aço, gesso ou alimento processado | indústria de transformação |
+| energia | gerar e distribuir eletricidade | atividade energética |
+| construção | executar obra ou edificação | construção |
+| logística | transportar, armazenar ou embarcar carga | transporte/armazenagem |
 
-Uma atividade funcionalmente “de base” pode aparecer nas seções B, C ou D, conforme o processo. Nem toda indústria de transformação é indústria de base.
+A localização de uma fábrica não transfere para ela a origem da matéria-prima. Do mesmo modo, **porto, ferrovia ou terminal não fabricam o produto que movimentam**.
 
-## 5. O que a Seção C compreende
+## 4. Estrutura contemporânea do parque industrial maranhense
 
-A CNAE define indústria de transformação como atividade que transforma materiais, substâncias e componentes para obter **produtos novos**. Os insumos podem vir da agricultura, das florestas, da mineração, da pesca ou de outra indústria.
+O parque industrial do Maranhão combina:
 
-Entre as 24 divisões da Seção C estão:
+1. **grandes plantas intensivas em capital**, ligadas a mercados nacionais e internacionais;
+2. cadeias de **alumina e alumínio**, **celulose e papel** e **metalurgia/siderurgia**;
+3. segmentos de maior capilaridade, como **alimentos e bebidas**;
+4. produção de **minerais não metálicos**, madeira e móveis;
+5. serviços de manutenção, engenharia e fornecedores industriais.
 
-| Divisão | Atividade |
-|---:|---|
-| 10 | produtos alimentícios |
-| 11 | bebidas |
-| 13 | produtos têxteis |
-| 14 | confecções |
-| 16 | produtos de madeira |
-| 17 | celulose, papel e produtos de papel |
-| 19 | coque, derivados do petróleo e biocombustíveis |
-| 20 | produtos químicos |
-| 23 | produtos de minerais não metálicos |
-| 24 | metalurgia |
-| 25 | produtos de metal |
-| 28 | máquinas e equipamentos |
-| 31 | móveis |
-| 33 | manutenção, reparação e instalação de máquinas e equipamentos |
+Três polos ajudam a organizar o estudo:
 
-Produção manual e artesanal também pode ser industrial quando gera produto próprio. O tamanho da unidade ou a venda direta ao consumidor não decide sozinho a classificação.
+| Polo | Cadeia de destaque |
+|---|---|
+| **São Luís** | alumina e alumínio |
+| **Imperatriz** | celulose e papel |
+| **Açailândia** | ferro-gusa, aço e metalmecânica |
 
-## 6. Fronteiras difíceis da transformação
+Esses polos não esgotam o parque estadual.
 
-### 6.1 Produto novo e serviço industrial
+## 5. São Luís: alumina e alumínio
 
-Tratamento de metais, acabamento têxtil e outros serviços industriais sob contrato podem integrar a cadeia de transformação. A divisão 33 inclui manutenção, reparação e instalação especializada de máquinas e equipamentos.
+O complexo **Alumar**, em São Luís, integra uma cadeia de transformação mineral:
 
-### 6.2 Montagem e construção
+**bauxita → alumina → alumínio primário**
 
-- montagem integrada à fabricação pelo mesmo produtor pode ser industrial;
-- montagem independente de componentes no local da obra tende à Seção F;
-- instalar máquina industrial por unidade especializada pode integrar a divisão 33.
+- a **bauxita** é a matéria-prima mineral;
+- o **refino** produz alumina;
+- a **redução eletrolítica** produz alumínio primário;
+- o terminal privativo integra a logística de suprimento e escoamento.
 
-### 6.3 Resíduos
+A operação é um exemplo importante de indústria de base e de transformação. A redução de alumínio é **eletrointensiva**, o que torna energia e infraestrutura fatores locacionais relevantes.
 
-Recuperar resíduos para gerar matéria-prima secundária pertence, em regra, à Seção E. Fabricar um produto final novo a partir de material recuperado pode pertencer à Seção C.
+A bauxita recebida em São Luís não deve ser tratada automaticamente como extração maranhense. **Local da lavra, local da transformação e local do embarque podem ser diferentes.**
 
-### 6.4 Comércio
+Fontes corporativas divulgam capacidades da refinaria e da redução. Esses números são úteis para dimensionar a escala, mas **capacidade instalada não é produção efetiva de determinado ano** e não deve ser o centro da memorização.
 
-Empacotamento, engarrafamento ou corte feitos como serviço comercial não se tornam automaticamente indústria. É preciso identificar atividade principal, processo e existência de produto novo.
+## 6. Imperatriz: celulose e papel
 
-## 7. Como medir a indústria
+A unidade da **Suzano em Imperatriz** é um dos principais elementos da indústria de base florestal no estado.
 
-| Fonte | O que mede | Não confundir com |
-|---|---|---|
-| Contas Regionais | PIB, VAB por atividade e variação em volume | VTI da PIA |
-| PIA-Empresa | empresas, unidades, pessoal, receitas, custos e VTI | VAB das contas |
-| PIA-Produto | quantidade e valor de produção e venda de produtos | capacidade instalada |
-| PIM-PF | índices de volume da produção industrial | valor nominal ou VAB |
-| CEMPRE | organizações, unidades locais, pessoas e salários | vínculos da RAIS |
-| RAIS | vínculos e estabelecimentos formais declarados | fluxo mensal do Caged |
-| Novo Caged | admissões, desligamentos e estoque mensal ajustado | censo de empresas |
-| empresa/licença | capacidade e situação do empreendimento | produção anual efetiva |
-| comércio exterior | exportações e importações | origem ou produção local automática |
+A sequência conceitual é:
 
-A PIA-Empresa investiga empresas das seções B e C. A PIA-Produto detalha produtos industriais, mas regras de confidencialidade podem impedir a divulgação de determinadas combinações de produto e território.
+**eucalipto cultivado → madeira → celulose → papel/tissue**
 
-### 7.1 PIB e VAB
+- plantio e colheita do eucalipto: produção florestal;
+- transporte da madeira: logística;
+- fabricação de celulose e papel: indústria de transformação;
+- terminal de escoamento: logística.
 
-Pela ótica da produção:
+A celulose funciona principalmente como **bem intermediário**, pois abastece etapas posteriores da indústria de papel e outros produtos de base celulósica.
 
-$$
-VAB = VP - CI
-$$
+Páginas corporativas atuais podem apresentar a capacidade da unidade com agregações diferentes — por exemplo, separando celulose de mercado e integrada ou apresentando um total aproximado. A prova deve privilegiar a **cadeia e o papel industrial de Imperatriz**, não a reconciliação de capacidades publicadas sob escopos distintos.
 
-em que $VP$ é o valor da produção e $CI$ é o consumo intermediário.
+A SEINC também distingue, em sua relação corrente de áreas industriais, o **Distrito Industrial de Imperatriz** e o **Parque Empresarial Imperatriz**. Distrito, parque empresarial e parque industrial estadual não são sinônimos.
 
-$$
-PIB = \sum VAB + \text{impostos líquidos sobre produtos}
-$$
+## 7. Açailândia: metalurgia e siderurgia
 
-VAB industrial não é faturamento, valor exportado, VTI nem soma do preço de todos os produtos.
+Açailândia destaca-se pela produção e pelos serviços ligados a **ferro-gusa, aço e metalmecânica**, articulados ao Corredor Carajás.
 
-### 7.2 Valores correntes e volume
+A cadeia deve ser separada por etapas:
 
-- valor corrente mistura quantidade e preços do período;
-- variação em volume procura medir crescimento real da atividade;
-- crescimento da indústria não é sua participação no PIB;
-- comparar participações exige mesmo denominador e edição.
+- minério de ferro extraído principalmente no Pará: atividade extrativa na origem;
+- transporte pela Estrada de Ferro Carajás: logística;
+- produção de ferro-gusa e aço no Maranhão: transformação metalúrgica;
+- fabricação de produtos de aço: etapas posteriores da transformação.
 
-## 8. Contexto estatístico recente
+A **Aço Verde do Brasil (AVB)** é uma referência industrial do polo. A empresa divulga capacidade instalada de aço e descreve Açailândia como importante centro produtor de ferro-gusa, mas páginas institucionais apresentam valores diferentes para a capacidade agregada de gusa. Por isso, o dado de prova mais seguro é a **caracterização da cadeia e do polo**, não uma cifra isolada.
 
-A edição 2023 do Sistema de Contas Regionais fornece a série mais recente usada neste conteúdo para distinguir valores correntes e índices de volume. A consulta quantitativa deve abrir a tabela da edição e identificar atividade, unidade e denominador, em vez de reproduzir um número isolado da página geral.
+Carvão vegetal pode ser usado como redutor siderúrgico. Seu uso como insumo não transforma o ferro-gusa em produto do extrativismo vegetal.
 
-O agregado **Indústria** do SCR é usado aqui em sentido amplo: inclui extrativas, transformação, eletricidade e gás, água e saneamento e construção. Por isso, seu crescimento não é crescimento exclusivo da Seção C nem participação da transformação no PIB.
+## 8. Outras cadeias de transformação
 
-## 9. Estrutura contemporânea do parque industrial
+### 8.1 Alimentos e bebidas
 
-O parque maranhense combina:
-
-1. grandes plantas intensivas em capital e conectadas a mercados externos;
-2. transformação de insumos minerais e florestais;
-3. metalurgia e siderurgia articuladas ao Corredor Carajás;
-4. alimentos e bebidas de maior capilaridade territorial;
-5. minerais não metálicos, madeira, móveis, têxteis e confecções;
-6. manutenção, serviços industriais e fornecedores especializados.
-
-Grandes complexos podem concentrar valor e capacidade, enquanto segmentos menores podem reunir mais estabelecimentos ou empregos. Número de unidades, pessoal, produção física e VTI são dimensões diferentes.
-
-## 10. Alumina e alumínio em São Luís
-
-O Consórcio de Alumínio do Maranhão (Alumar) possui em São Luís:
-
-- refinaria de alumina;
-- redução eletrolítica de alumínio;
-- terminal portuário de uso privado;
-- estruturas ambientais e de apoio.
-
-### 10.1 Cadeia produtiva
-
-$$
-\text{bauxita} \rightarrow \text{alumina} \rightarrow \text{alumínio primário}
-$$
-
-- receber bauxita: suprimento e logística;
-- refinar bauxita em alumina: transformação;
-- reduzir alumina em alumínio: metalurgia;
-- exportar: transporte e comércio exterior.
-
-A bauxita processada em São Luís não deve ser atribuída automaticamente à extração maranhense. Local da transformação e local da lavra podem ser diferentes.
-
-### 10.2 Capacidades declaradas
-
-O fact sheet atualizado em maio de 2025 informa:
-
-| Unidade | Capacidade anual |
-|---|---:|
-| refinaria de alumina | **3,85 milhões de t** |
-| redução de alumínio | **447 mil t** |
-
-A redução opera com **710 cubas** e foi reativada em **2022**. O número de cubas é parâmetro físico da instalação, não capacidade anual. Capacidade é limite ou potencial operacional declarado; não é produção efetiva de determinado ano.
-
-### 10.3 Encadeamentos e exigências
-
-A cadeia demanda energia, insumos químicos, manutenção, engenharia, segurança e transporte. A redução de alumínio é eletrointensiva. Temas ambientais incluem uso de água e energia, emissões e armazenamento de resíduo da bauxita.
-
-Informação corporativa sobre certificação ou energia renovável descreve atributos declarados da operação, mas não significa ausência total de impacto.
-
-## 11. Celulose e papel em Imperatriz
-
-A unidade da Suzano em Imperatriz integra uma cadeia de base florestal. A página corporativa consultada informa as seguintes capacidades:
-
-| Produto | Capacidade anual |
-|---|---:|
-| celulose de mercado | **1,590 milhão de t** |
-| celulose integrada | **60 mil t** |
-| papel tissue | **60 mil t** |
-
-As categorias não devem ser fundidas sem atenção ao escopo:
-
-- **silvicultura de eucalipto:** Seção A;
-- **transporte de madeira:** logística;
-- **produção de celulose e tissue:** Seção C, divisão 17;
-- **terminal de celulose:** transporte e armazenagem;
-- **cogeração:** atividade energética auxiliar ou da Seção D, conforme a organização estatística.
-
-Celulose de mercado é produto intermediário vendido a outras unidades. Tissue é papel destinado a produtos como itens sanitários. Capacidade declarada não é produção anual observada.
-
-## 12. Metalurgia e siderurgia em Açailândia
-
-Açailândia reúne atividades de ferro-gusa, aço e metalmecânica articuladas à Estrada de Ferro Carajás.
-
-A sequência correta é:
-
-- minério de ferro extraído no Pará: indústria extrativa no estado de origem;
-- transporte pela ferrovia: Seção H;
-- produção de ferro-gusa e aço no Maranhão: metalurgia, Seção C;
-- fabricação de produtos metálicos: outras divisões da transformação;
-- exportação por terminal: logística e comércio exterior.
-
-Divulgações institucionais citam aproximadamente **1 milhão de t/ano de capacidade agregada de ferro-gusa** no polo e **858 mil t/ano de capacidade de aço bruto** para a Aço Verde do Brasil (AVB). São capacidades, não prova de produção efetiva anual.
-
-Carvão vegetal pode atuar como redutor. Sua origem e rastreabilidade são relevantes; usar carvão não torna o ferro-gusa produto da extração vegetal.
-
-## 13. Alimentos e bebidas
-
-Alimentos e bebidas pertencem às divisões 10 e 11 quando há transformação industrial, por exemplo:
+Há transformação quando a matéria-prima agropecuária gera produto novo, como em:
 
 - abate e processamento de carnes;
 - laticínios;
-- moagem e fabricação de farinhas;
-- óleos, rações, panificação e bebidas.
+- moagem e farinhas;
+- óleos e rações;
+- panificação e bebidas.
 
-Cultivar soja, criar gado ou pescar não é fabricar alimento. Da mesma forma, armazenar ou exportar grão sem processamento não constitui indústria de transformação.
+Cultivar soja, criar gado ou apenas armazenar grãos não é indústria de transformação.
 
-Esses segmentos podem ter maior capilaridade e participação no emprego que grandes plantas intensivas em capital, sem necessariamente superar seu VTI.
+### 8.2 Minerais não metálicos
 
-## 14. Minerais não metálicos
+A distinção entre matéria-prima e produto industrial é essencial:
 
-| Etapa | Classificação |
-|---|---|
-| extrair gipsita, calcário, areia ou argila | Seção B |
-| fabricar gesso, cimento, cerâmica ou concreto preparado | Seção C, divisão 23 |
-| aplicar o produto em obra | construção, Seção F |
+- **gipsita extraída → gesso fabricado**;
+- **calcário extraído → cimento produzido**;
+- argila → cerâmica.
 
-O gesso agrícola é um insumo usado na agropecuária, mas sua fabricação continua sendo atividade industrial.
+Extrair o mineral e transformá-lo são etapas diferentes.
 
-## 15. Outras cadeias de transformação
+### 8.3 Madeira, móveis e outros segmentos
 
-### 15.1 Madeira e móveis
+Serrarias, produtos de madeira, móveis, têxteis, confecções, produtos químicos e serviços industriais também integram a diversificação do parque, embora não tenham a mesma escala econômica e territorial dos grandes complexos.
 
-- silvicultura e extração vegetal: Seção A;
-- serraria, tratamento e produtos de madeira: divisão 16;
-- móveis: divisão 31.
+## 9. Distribuição espacial e áreas industriais
 
-### 15.2 Têxteis e confecções
+Além dos três grandes polos, políticas estaduais mantêm áreas industriais ou empresariais em municípios como **Timon, Porto Franco, Grajaú e Balsas**, entre outros.
 
-- fabricação de produtos têxteis: divisão 13;
-- confecção de vestuário: divisão 14.
+A vocação ajuda a interpretar o território:
 
-### 15.3 Química e biocombustíveis
+- **Porto Franco e Balsas:** forte relação com cadeias agroindustriais e logística do agronegócio;
+- **Grajaú:** relação com a cadeia gesseira;
+- **Timon:** parque empresarial de atividades diversificadas.
 
-- biocombustíveis: divisão 19;
-- produtos químicos: divisão 20.
+Uma área estar **em projeto, implantada ou operando** são situações distintas. Da mesma forma, empresa interessada, lote concedido, fábrica construída e produção iniciada não são equivalentes.
 
-Anúncio, licença, construção, capacidade projetada, início de operação e produção observada são estados distintos. Uma fábrica de fertilizantes anunciada ou em implantação não deve ser descrita como produção consolidada sem confirmação operacional.
+Em Imperatriz, divulgação estadual de 2024 registrou revitalização e empresas instaladas no parque local. A informação é útil como retrato daquele momento, mas não deve ser transformada em número atemporal.
 
-### 15.4 Manutenção e serviços industriais
+## 10. Fatores locacionais
 
-Manutenção, reparação e instalação especializada de máquinas podem integrar a divisão 33. Esses serviços ampliam encadeamentos e suporte às grandes plantas, embora não produzam necessariamente bem tangível próprio.
+A localização industrial resulta de uma combinação de fatores:
 
-## 16. Distribuição espacial e áreas industriais
-
-### 16.1 São Luís
-
-Concentra o complexo de alumina/alumínio, fornecedores industriais e conexões portuárias. A presença do porto é vantagem locacional, mas a operação portuária pertence ao setor de transportes.
-
-### 16.2 Imperatriz
-
-Reúne celulose/papel e um parque industrial diversificado. Divulgação estadual de 2024 registrou no Parque Industrial de Imperatriz:
-
-- **152 ha**;
-- **16 empresas instaladas**;
-- mais de **700 empregos diretos**;
-- cerca de **500 empregos indiretos**;
-- expectativa de outras 12 empresas.
-
-As empresas esperadas não podem ser somadas às instaladas sem confirmação posterior.
-
-### 16.3 Açailândia
-
-Destaca-se pela metalurgia, siderurgia e serviços associados ao corredor ferroviário. O minério em trânsito não se torna extração local.
-
-### 16.4 Outros polos e distritos
-
-Fontes estaduais registram políticas ou áreas industriais em localidades como Porto Franco, Timon, Caxias, Grajaú, Balsas, Rosário e Bacabeira. A situação de lotes e fábricas deve ser verificada por edição: área planejada, empresa interessada e unidade em operação não são equivalentes.
-
-## 17. Fatores locacionais
-
-Uma indústria escolhe localização considerando combinações de:
-
-- acesso a matérias-primas e fornecedores;
+- matérias-primas e fornecedores;
 - energia e água;
-- transporte e armazenagem;
+- ferrovias, rodovias, portos e armazenagem;
 - mercado consumidor;
 - mão de obra e serviços especializados;
 - terrenos e infraestrutura;
-- incentivos, licenciamento e segurança jurídica;
-- possibilidade de integração com outras plantas.
+- incentivos e ambiente institucional;
+- integração com outras plantas e cadeias.
 
-Porto ou ferrovia podem reduzir custo logístico, mas não bastam para explicar toda localização industrial. Atividades eletrointensivas, por exemplo, valorizam a disponibilidade de energia.
+Nenhum fator explica sozinho todo o parque industrial. No Maranhão, a logística é especialmente importante, mas atividades como alumínio e celulose também dependem fortemente de energia, água, escala produtiva e redes de fornecedores.
 
-## 18. Encadeamentos e adensamento
+## 11. Encadeamentos e efeitos territoriais
 
-### 18.1 Para trás
+**Encadeamentos para trás** ligam a indústria a fornecedores de matérias-primas, máquinas, energia e serviços.
 
-São compras de insumos, máquinas e serviços dos fornecedores: químicos, madeira, energia, manutenção, engenharia e transporte.
+**Encadeamentos para a frente** ligam o produto industrial a etapas posteriores: alumínio em componentes, aço em estruturas, celulose em papéis, cimento em construção.
 
-### 18.2 Para a frente
+Uma grande planta pode importar parte dos insumos e exportar grande parcela da produção. Assim, **movimentar muita carga não significa, por si só, forte adensamento produtivo local**.
 
-São usos do produto por outras atividades: alumínio em peças, celulose em papel, aço em estruturas, cimento em construção.
+Grandes complexos também demandam manutenção, engenharia, automação, segurança, logística e qualificação profissional. Seus efeitos ambientais variam conforme a cadeia; licenciamento, monitoramento e tecnologia reduzem riscos, mas não significam impacto zero.
 
-Uma grande planta pode importar muitos insumos e exportar produto pouco processado localmente. Nesse caso, parte dos efeitos econômicos “vaza” para outros territórios. Adensamento significa ampliar fornecedores, etapas e conhecimento no próprio estado, não simplesmente aumentar a carga movimentada.
+## 12. Pegadinhas frequentes
 
-## 19. Trabalho, inovação e ambiente
+1. **Indústria de base** é categoria funcional, não uma seção própria da CNAE.
+2. Uma indústria de base pode ser também **indústria de transformação**.
+3. Produção primária, extração, transformação e logística são etapas diferentes.
+4. **Capacidade instalada ≠ produção efetiva.**
+5. **Exportação ou movimentação portuária ≠ produção local.**
+6. Bauxita recebida em São Luís ≠ lavra maranhense automática.
+7. **Alumar produz alumina e alumínio; não ferro-gusa nem aço inoxidável.**
+8. Eucalipto cultivado ≠ celulose: a primeira etapa é florestal; a segunda, industrial.
+9. Minério em trânsito pela EFC ≠ extração em Açailândia.
+10. Gipsita ≠ gesso; calcário ≠ cimento.
+11. Distrito industrial ≠ todo o parque industrial estadual.
+12. Projeto, implantação, operação e produção são estágios diferentes.
 
-Grandes plantas exigem profissionais de manutenção, automação, química, engenharia, segurança e logística. Qualificação e integração de fornecedores podem elevar produtividade e encadeamentos.
+## 13. Método rápido para resolver questões
 
-Os impactos e controles variam por cadeia:
+Pergunte:
 
-- alumina/alumínio: energia, água, emissões e resíduo da bauxita;
-- celulose: silvicultura, água, químicos, efluentes e biodiversidade;
-- metalurgia: emissões, poeira, energia e origem do carvão;
-- cimento/gesso: mineração, poeira e consumo térmico;
-- distritos: uso do solo, tráfego, efluentes e vizinhança urbana.
+1. **qual é a etapa?** produção primária, extração, transformação ou logística;
+2. **qual é o produto?** matéria-prima, intermediário ou bem final;
+3. **qual é o polo?** São Luís, Imperatriz, Açailândia ou outra área;
+4. **qual é a variável?** capacidade, produção, emprego, investimento ou movimentação;
+5. **qual é o território?** local da matéria-prima, da fábrica ou do transporte;
+6. **qual é o tempo?** situação atual, ano de referência ou anúncio futuro.
 
-Licenciamento, monitoramento e tecnologia reduzem riscos, mas certificação ou discurso empresarial não equivalem a impacto zero.
-
-## 20. Uma pegadinha oficial: Alumar não é siderúrgica
-
-Em prova da PM-MA de 2017, o Cebraspe apresentou a Alumar como “siderúrgica produtora de ferro-gusa e aços inoxidáveis”. O gabarito definitivo foi **Errado**.
-
-A correção conceitual é:
-
-- Alumar: alumina e alumínio;
-- ferro-gusa e aço: cadeia siderúrgica/metalúrgica;
-- bauxita: minério usado como insumo do refino;
-- transformar bauxita em alumina não é extrair bauxita.
-
-## 21. Pegadinhas frequentes
-
-1. Indústria de base não é seção CNAE.
-2. Nem toda transformação é indústria de base.
-3. CNAE classifica atividade; bens intermediários/capital/consumo classificam destino.
-4. Seção B não é Seção C.
-5. Energia, construção e logística não são manufatura.
-6. VAB não é VTI.
-7. PIM mede volume, não valor nominal.
-8. Capacidade não é produção.
-9. Investimento anunciado não é fábrica operante.
-10. Exportação não prova produção local.
-11. Bauxita recebida em São Luís não é extração maranhense automática.
-12. Alumar não produz ferro-gusa nem aço inoxidável.
-13. Eucalipto plantado é silvicultura; celulose é transformação.
-14. Minério transportado pela EFC não é extraído em Açailândia.
-15. Gipsita extraída não é gesso fabricado.
-16. Terminal de celulose não fabrica celulose.
-17. Empresas esperadas não são empresas instaladas.
-18. Crescimento da indústria não é participação no PIB.
-19. CEMPRE, RAIS e Caged possuem universos diferentes.
-20. Distrito formal não é sinônimo de parque industrial estadual.
-
-## 22. Método rápido para resolver questões
-
-Pergunte, nesta ordem:
-
-1. **etapa:** extração, transformação, energia, construção, logística ou comércio?
-2. **produto:** matéria-prima, intermediário, capital ou consumo?
-3. **classificação:** categoria funcional ou seção CNAE?
-4. **fonte:** SCR, PIA, PIM, CEMPRE, RAIS, Caged ou empresa?
-5. **variável:** VAB, VTI, índice, capacidade, produção, emprego ou exportação?
-6. **tempo:** ano, mês, edição ou situação anunciada?
-7. **território:** local da matéria-prima, da fábrica ou da movimentação?
-
-Se a afirmação troca uma dessas dimensões, provavelmente contém a pegadinha.
+Trocar uma dessas dimensões costuma produzir a pegadinha.
 
 ## Referências
 
 - Cebraspe/TCE-MA. [Edital nº 1, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático do concurso. Acesso em 4 ago. 2026.
-- IBGE/CONCLA. [CNAE 2.0: Seção C — Indústrias de transformação](https://cnae.ibge.gov.br/?chave=-&secao=C&view=secao). Divisões, notas explicativas e fronteiras. Acesso em 4 ago. 2026.
-- IBGE. [Sistema de Contas Regionais 2023](https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9054-contas-regionais-do-brasil.html?lang=pt-BR). Metodologia, valores correntes e índices de volume. Acesso em 4 ago. 2026.
-- IBGE. [Pesquisa Industrial Anual — Empresa](https://www.ibge.gov.br/estatisticas/economicas/industria/9042-pesquisa-industrial-anual.html?t=o-que-e). Universo e VTI. Acesso em 4 ago. 2026.
-- IBGE. [Pesquisa Industrial Anual — Produto](https://www.ibge.gov.br/estatisticas/economicas/industria/9044-pesquisa-industrial-anual-produto.html). Quantidades e valores por produto industrial. Acesso em 4 ago. 2026.
-- IBGE. [Pesquisa Industrial Mensal — Produção Física Regional](https://ftp.ibge.gov.br/Industrias_Extrativas_e_de_Transformacao/Pesquisa_Industrial_Mensal_Producao_Fisica/Fasciculos/Fasciculo_Indicadores_IBGE_Regional/2023/pim-pf-regional_202312caderno.pdf). Índices de volume e metodologia. Edição de dezembro de 2023; acesso em 4 ago. 2026.
-- IBGE. [Cadastro Central de Empresas 2023](https://www.ibge.gov.br/estatisticas/economicas/industria/9016-estatisticas-do-cadastro-central-de-empresas.html?edicao=45103). Unidades locais, pessoal e salários. Acesso em 4 ago. 2026.
-- Ministério do Trabalho e Emprego. [RAIS 2023](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2023). Vínculos e estabelecimentos formais. Acesso em 4 ago. 2026.
-- Ministério do Trabalho e Emprego. [Novo Caged](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged). Admissões, desligamentos e estoques mensais ajustados. Acesso em 4 ago. 2026.
-- Alumar. [Fact Sheet](https://www.alcoa.com/brasil/pt/pdf/brasil-alumar-fact-sheet.pdf). Operações e capacidades, atualizado em maio de 2025. Acesso em 4 ago. 2026.
+- IBGE/CONCLA. [CNAE 2.0: Seção C — Indústrias de transformação](https://cnae.ibge.gov.br/?chave=-&secao=C&view=secao). Conceito e fronteiras da transformação. Acesso em 4 ago. 2026.
+- Alumar/Alcoa. [Fact Sheet da Alumar](https://www.alcoa.com/brasil/pt/pdf/brasil-alumar-fact-sheet.pdf). Operações de alumina e alumínio. Acesso em 4 ago. 2026.
 - Suzano. [Perfil corporativo e capacidade por unidade](https://ri.suzano.com.br/Portuguese/The-Company/Perfil-Corporativo/default.aspx?language=ptb). Unidade de Imperatriz. Acesso em 4 ago. 2026.
+- Suzano. [Atuação no Maranhão](https://www.suzano.com.br/sustentabilidade/pessoas/comunidades-vizinhas/maranhao). Caracterização da operação de Imperatriz. Acesso em 4 ago. 2026.
+- Aço Verde do Brasil. [A AVB](https://avb.com.br/a-avb/). Operação industrial e caracterização do polo de Açailândia. Acesso em 4 ago. 2026.
+- SEINC. [Carta-consulta para aquisição de lotes industriais](https://seinc.ma.gov.br/programas-ou-campanhas/carta-consulta-aquisicao-de-lotes-industriais). Distritos e parques empresariais do Maranhão. Acesso em 4 ago. 2026.
 - Governo do Maranhão. [Revitalização do Parque Industrial de Imperatriz](https://www.ma.gov.br/noticias/governo-do-maranhao-investe-na-revitalizacao-do-parque-industrial-de-imperatriz). Situação divulgada em 2024. Acesso em 4 ago. 2026.
-- SEINC. [Distritos industriais](https://seinc.ma.gov.br/distritos-industriais). Áreas e política industrial estadual. Acesso em 4 ago. 2026.
-- Prefeitura de Açailândia. [Capacidades e atrativos industriais](https://www.acailandia.ma.gov.br/midia/Acailandia-esta-entre-as-cidades-mais-competitivas-do-Estado-do-Maranhao-com-atrativos-importantes-para-investimentos-empresariais-variados-e-de-alto-nivel._2617). Informações institucionais do polo. Acesso em 4 ago. 2026.
-- Cebraspe. [PM-MA 2017: caderno 359, Soldado](https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG2_01.pdf). Item 51. Aplicação em 17 dez. 2017; acesso em 4 ago. 2026.
-- Cebraspe. [PM-MA 2017: gabarito definitivo](https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf). Item 51, gabarito Errado. Acesso em 4 ago. 2026.
+- Cebraspe. [PM-MA 2017: caderno 359, Soldado](https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/359_PMMA_CG2_01.pdf). Item 51, aplicação em 17 dez. 2017. Acesso em 4 ago. 2026.
+- Cebraspe. [PM-MA 2017: gabarito definitivo](https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf). Item 51: Errado. Acesso em 4 ago. 2026.
