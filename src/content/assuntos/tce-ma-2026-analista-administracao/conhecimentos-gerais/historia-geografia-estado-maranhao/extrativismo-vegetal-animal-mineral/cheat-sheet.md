@@ -1,134 +1,105 @@
 # Extrativismo vegetal, animal e mineral
 
-## Fronteiras
+## Mapa do assunto
 
-| Ação | Classe |
+**Retirar do estoque natural → vegetal / animal / mineral.**
+
+Não confunda **extração** com **cultivo, criação, transformação ou transporte**.
+
+## Fronteiras essenciais
+
+| Situação | Classe |
 |---|---|
-| coleta em vegetação espontânea | extração vegetal |
-| cultivo de açaí/caju | agricultura / PAM |
-| corte de eucalipto plantado | silvicultura |
-| captura no mar ou rio | pesca extrativa |
-| criação em viveiro | aquicultura / PPM |
-| retirada da jazida | lavra mineral |
-| alumina, alumínio, aço, celulose | indústria |
-| minério de outro estado em porto | logística |
+| açaí coletado em vegetação espontânea | extração vegetal |
+| açaí cultivado | agricultura / PAM |
+| eucalipto plantado | silvicultura |
+| peixe capturado no mar ou rio | pesca extrativa |
+| peixe criado em viveiro | aquicultura |
+| minério retirado da jazida | lavra mineral |
+| alumina, aço, celulose | indústria |
+| minério paraense passando pelo MA | logística |
 
-## Fontes
+## Fonte × objeto
 
-| Fonte | Mede |
+| Fonte | Use para |
 |---|---|
-| PEVS 289 | extração vegetal |
-| PEVS 291 | silvicultura |
-| PAM | cultivo |
+| PEVS/IBGE | extração vegetal + silvicultura |
+| PAM | cultivo agrícola |
 | PPM | criação/aquicultura |
 | MPA | pesca |
 | ANM | mineração/CFEM |
-| SGB | geologia/recursos |
+| SGB | geologia/potencial |
 | ANP | petróleo e gás |
 
-## Regra de leitura
+## Extrativismo vegetal — 2024
 
-**Fonte + origem + variável + unidade + tempo + território + status.**
+Produtos de maior destaque em **valor**:
 
-- t ≠ m³;
-- quantidade ≠ valor;
-- participação ≠ volume;
-- ano-base ≠ divulgação;
-- média diária mensal ≠ total anual.
+1. **carvão vegetal**;
+2. **babaçu-amêndoa**;
+3. **açaí-fruto**;
+4. **lenha**.
 
-## Extração vegetal 2024
+### Partes e unidades
 
-**Valor total: R$ 425,492 mi.**
+- babaçu → **amêndoa**;
+- açaí → **fruto**;
+- jaborandi → **folha**;
+- carnaúba → pó ≠ fibra ≠ cera beneficiada;
+- carvão/frutos → t;
+- lenha/madeira em tora → m³.
 
-| Produto | Quantidade | Valor |
-|---|---:|---:|
-| carvão | **176.192 t** | **R$ 242,922 mi** |
-| babaçu-amêndoa | **21.542 t** | **R$ 60,276 mi** |
-| açaí-fruto | **17.519 t** | **R$ 54,260 mi** |
-| lenha | **1.259.526 m³** | **R$ 44,364 mi** |
-| madeira em tora | 79.371 m³ | R$ 15,631 mi |
-| carnaúba-pó | 288 t | R$ 3,650 mi |
-| jaborandi-folha | 126 t | R$ 608 mil |
-
-Carvão + babaçu + açaí + lenha = **94,44% do valor**.
-
-Carvão = **57,09% do valor**.
-
-Não há quantidade física total: t e m³ não são somáveis.
-
-## Produtos e partes
-
-- babaçu: **amêndoa**, não coco/óleo;
-- açaí: **fruto**;
-- carnaúba: pó ≠ fibra ≠ cera;
-- jaborandi: folha;
-- buriti/piaçava: fibra;
-- carvão vegetal ≠ mineral.
+**t ≠ m³. Valor ≠ quantidade.**
 
 ## Açaí: origem decide
 
-| Base | Origem | 2024 |
-|---|---|---:|
-| PEVS | espontânea | **17.519 t** |
-| PAM | cultivada | **2.252 t** |
+| Origem | Base |
+|---|---|
+| espontânea | PEVS / extrativismo |
+| cultivada | PAM / agricultura |
 
-Não fundir sem separar os universos.
+O açaí extrativo teve volume muito superior ao cultivado no Maranhão em 2024.
 
-## Silvicultura 2024
+## Babaçu
 
-| Produto plantado | Quantidade |
-|---|---:|
-| carvão de eucalipto | **299.686 t** |
-| lenha de eucalipto | **13.470 m³** |
-| madeira em tora, total | **4.116.479 m³** |
-| — da qual para papel/celulose | 4.115.679 m³ |
+- forte importância econômica **e social**;
+- quebradeiras de coco, trabalho familiar/comunitário e acesso aos babaçuais;
+- volume ≠ valor ≠ importância social;
+- amêndoa ≠ coco inteiro ≠ óleo industrializado.
 
-Madeira para celulose = silvicultura; celulose = indústria.
+## Silvicultura ≠ extração espontânea
 
-A subcategoria para papel/celulose já integra o total de tora: não somar.
+- eucalipto plantado → silvicultura;
+- madeira para celulose → matéria-prima florestal plantada;
+- celulose → indústria;
+- carvão pode ter origem extrativa **ou** plantada.
 
-## Extração × silvicultura
-
-- carvão: ambas em t, origens distintas;
-- lenha 2024: extrativa > plantada;
-- tora 2024: plantada > extrativa;
-- produção declarada ≠ toda retirada ilegal;
-- mesma matéria-prima não apaga a origem.
-
-## Pesca: classes
+## Extrativismo animal
 
 | Modalidade | Chave |
 |---|---|
-| marinha | mar/costa/baías/estuários |
-| continental | rios/lagos/várzeas |
-| aquicultura | criação controlada |
-| mariscagem | coleta costeira regulada |
+| pesca marinha | mar, costa, baías, estuários |
+| pesca continental | rios, lagos, várzeas |
+| mariscagem | coleta costeira de moluscos/crustáceos |
+| aquicultura | criação controlada; não é pesca extrativa |
 
-Pesca extrativa ≠ aquicultura.
+### Estatística pesqueira
 
-## Retomada MPA
+MPA 2023-2024 = **retomada estatística**, com fontes heterogêneas.
 
-- quase duas décadas sem consolidação nacional confiável;
-- fontes fragmentadas e heterogêneas;
-- resultado = estimativa/consolidação, não censo exaustivo.
+- pesca marinha MA 2023: ~**19,01 mil t**;
+- pesca marinha MA 2024: ~**18,42 mil t**;
+- pequena queda ≠ tendência longa/causa provada;
+- pesca continental estadual não consolidada ≠ zero.
 
-| Ano | Pesca marinha MA |
-|---|---:|
-| 2023 | **19,01 mil t** |
-| 2024 | **18,42 mil t** |
+**Dado de aquicultura não pode virar captura extrativa.**
 
-Variação: **-590 t / -3,1%**.
+## Manguezais e estuários
 
-Pesca continental estadual: **não consolidada ≠ zero**.
-
-“Mais de 50 mil t” da notícia MPA: universo não conciliado com 18,42 mil t marinhas; não somar.
-
-## Litoral e manguezais
-
-- reentrâncias, baías, estuários, canais de maré;
 - abrigo, alimentação e reprodução;
-- pesca e mariscagem artesanais;
-- associação ecológica ≠ tonelagem municipal.
+- sustentam pesca e mariscagem artesanais;
+- associação ecológica ≠ tonelagem municipal;
+- defeso = restrição temporária/específica, não proibição eterna.
 
 ## Artesanal × industrial
 
@@ -138,91 +109,68 @@ Pesca continental estadual: **não consolidada ≠ zero**.
 
 Artesanal ≠ sempre sustentável. Industrial ≠ sempre ilegal.
 
-RGP = registros/perfil de pescadores, não toneladas.
+## Mineração: sequência conceitual
 
-## Defeso
+**Ocorrência → recurso → reserva**
 
-- restrição temporária;
-- depende de espécie, área, ambiente e ato;
-- pode haver tamanho mínimo, petrecho, cota e licença;
-- não existe calendário único eterno para toda a pesca.
+Mas não há progressão automática.
 
-Caça de fauna silvestre não é setor extrativo ordinário.
+- ocorrência/potencial ≠ mina;
+- título ≠ produção;
+- produção bruta ≠ metal contido;
+- CFEM ≠ toneladas.
 
-## Mineração: conceitos distintos
+## Destaques minerais do Maranhão
 
-**Ocorrência → recurso → reserva:** exigências geológicas e econômicas crescentes, sem progressão automática.
+- **ouro**;
+- **gipsita**;
+- produção de **minério de ferro** também confirmada pela ANM;
+- minerais de construção têm relevância regional.
 
-**Processo/título:** eixo administrativo. **Produção:** lavra efetivamente declarada. Cada conceito exige evidência própria.
+**Ferro contido está dentro do minério bruto: não somar.**
 
-- processo/requerimento ≠ título;
-- título ≠ lavra;
-- potencial geológico ≠ produção;
-- bruto ≠ beneficiado;
-- transformação industrial ≠ extração.
+## Petróleo e gás
 
-## Produção mineral
+Fonte: **ANP**.
 
-| Indicador | Resultado |
-|---|---:|
-| bens minerais, 2023 | **~R$ 1,6 bi** |
-| destaques ANM | **ouro e gipsita** |
-| ferro bruto, 2024 | **105.413 t** |
-| ferro contido, 2024 | **49.544 t** |
+No corte de 4/8/2026, prefira o **Anuário 2026**, que consolida dados até **2025**, a médias isoladas de dezembro de 2024.
 
-Ferro contido está dentro do minério: não somar.
+Chave maranhense: **gás natural terrestre / Bacia do Parnaíba**; petróleo tem peso muito menor.
 
-Minério de Carajás em trânsito ≠ produção maranhense.
+Não confunda:
 
-## CFEM
-
-- compensação financeira, não tonelagem;
-- produtor ≠ município apenas afetado;
-- São Luís recebeu ~R$ 7,1 mi como afetado;
-- porto/ferrovia podem justificar impacto sem lavra local.
-
-## Petróleo e gás: ANP
-
-Médias de **dezembro de 2024**:
-
-| Indicador | Média |
-|---|---:|
-| gás natural | **5,73 mi m³/dia** |
-| petróleo | **115 bbl/dia** |
-| equivalente | **36.160 boe/dia** |
-| campos produtores | **8** |
-
-Média mensal ≠ total anual.
-
-Gás produzido ≠ energia gerada/processamento/distribuição.
+- anual × média mensal diária;
+- produção × reserva;
+- gás produzido × gás processado/distribuído;
+- produção de gás × geração termelétrica;
+- bacia × campo × poço.
 
 ## Indústria e logística
 
-- ALUMAR: bauxita externa + transformação em alumina/alumínio;
-- EFC/portos: minério paraense em trânsito;
-- ferro-gusa/aço/cimento: indústria;
-- eucalipto: silvicultura;
-- celulose: indústria.
+- ALUMAR em São Luís → transformação de bauxita; não prova lavra local;
+- minério de Carajás em ferrovia/porto maranhense → trânsito, não extração maranhense;
+- madeira plantada → silvicultura; celulose → indústria.
 
 ## Pegadinhas-relâmpago
 
-1. PEVS inclui extração e silvicultura.
-2. Mesmo produto pode ter origem nativa ou plantada.
-3. Babaçu da PEVS = amêndoa.
-4. Açaí PEVS ≠ açaí PAM.
+1. PEVS = extração + silvicultura, mas os universos são distintos.
+2. Carvão vegetal ≠ mineral.
+3. Açaí PEVS ≠ açaí PAM.
+4. Babaçu PEVS = amêndoa.
 5. t ≠ m³.
-6. valor ≠ quantidade.
-7. captura ≠ criação.
-8. lacuna continental ≠ zero.
-9. RGP ≠ produção.
-10. defeso ≠ proibição permanente.
-11. ocorrência ≠ reserva.
-12. título ≠ produção.
-13. CFEM ≠ toneladas.
-14. município afetado ≠ produtor obrigatório.
-15. porto ≠ origem do minério.
-16. média diária mensal ≠ total anual.
+6. captura ≠ criação.
+7. pesca continental sem total consolidado ≠ zero.
+8. dado de aquicultura ≠ pesca extrativa.
+9. defeso ≠ proibição permanente.
+10. ocorrência ≠ reserva.
+11. título ≠ produção.
+12. CFEM ≠ produção física.
+13. município afetado ≠ produtor obrigatório.
+14. porto ≠ origem do minério.
+15. dado mensal ≠ total anual.
 
-## Checklist de resolução
+## Método rápido
 
 Pergunte: **o recurso foi retirado, cultivado, criado, transformado ou apenas transportado?**
+
+Depois marque: **fonte + variável + unidade + período + território**.
