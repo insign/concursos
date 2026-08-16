@@ -1,0 +1,906 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q116001",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na Lei nº 14.133/2021, qual alternativa apresenta somente princípios expressamente mencionados no art. 5º?",
+      "options": [
+        {"id":"a","text":"Planejamento, transparência e segregação de funções."},
+        {"id":"b","text":"Supremacia do interesse privado, autotutela e especialidade."},
+        {"id":"c","text":"Hierarquia, continuidade e indisponibilidade patrimonial."},
+        {"id":"d","text":"Taxatividade, oralidade e duplo grau administrativo."},
+        {"id":"e","text":"Livre iniciativa, subsidiariedade e intervenção mínima."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Planejamento, transparência e segregação de funções integram expressamente o art. 5º, ao lado de legalidade, impessoalidade, moralidade, publicidade, eficiência e outros. Os demais conjuntos incluem categorias não listadas no dispositivo. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 5º."
+    },
+    {
+      "id": "q116002",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A exigência de critérios previamente definidos no edital para escolher a proposta vencedora concretiza mais diretamente o princípio do:",
+      "options": [
+        {"id":"a","text":"planejamento."},
+        {"id":"b","text":"julgamento objetivo."},
+        {"id":"c","text":"desenvolvimento nacional sustentável."},
+        {"id":"d","text":"sigilo."},
+        {"id":"e","text":"formalismo absoluto."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O julgamento objetivo exige decisão conforme critérios previamente definidos e verificáveis, evitando preferências subjetivas não previstas. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 5º."
+    },
+    {
+      "id": "q116003",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa correta sobre competitividade na licitação.",
+      "options": [
+        {"id":"a","text":"Proíbe qualquer requisito de habilitação."},
+        {"id":"b","text":"Autoriza preferências pessoais quando geram celeridade."},
+        {"id":"c","text":"Exige eliminar restrições desnecessárias, sem impedir requisitos proporcionais ao objeto."},
+        {"id":"d","text":"É incompatível com o planejamento."},
+        {"id":"e","text":"Só se aplica ao pregão."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Competitividade combate barreiras indevidas, mas não impede requisitos necessários e proporcionais ao objeto. Habilitação e planejamento continuam possíveis e necessários. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 5º."
+    },
+    {
+      "id": "q116004",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A segregação de funções busca, principalmente:",
+      "options": [
+        {"id":"a","text":"concentrar todas as decisões no agente de contratação."},
+        {"id":"b","text":"dispensar controles quando o valor é baixo."},
+        {"id":"c","text":"substituir a motivação por divisão formal de tarefas."},
+        {"id":"d","text":"reduzir a concentração de funções incompatíveis e riscos de erro ou fraude."},
+        {"id":"e","text":"impedir qualquer colaboração entre agentes."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A segregação distribui funções sensíveis para reduzir riscos e concentração incompatível, sem impedir cooperação nem afastar motivação e controles. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 5º."
+    },
+    {
+      "id": "q116005",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual associação está correta?",
+      "options": [
+        {"id":"a","text":"Pregão — critério de julgamento."},
+        {"id":"b","text":"Menor preço — modalidade."},
+        {"id":"c","text":"Aberto — procedimento auxiliar."},
+        {"id":"d","text":"SRP — modo de disputa."},
+        {"id":"e","text":"Concorrência — modalidade de licitação."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Concorrência é modalidade. Menor preço é critério, aberto é modo de disputa e SRP é procedimento auxiliar. Fonte: questão autoral baseada em Lei nº 14.133/2021, arts. 28, 33 e 78."
+    },
+    {
+      "id": "q116006",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre economicidade e menor preço, assinale a alternativa correta.",
+      "options": [
+        {"id":"a","text":"Economicidade não se reduz à escolha do menor preço, pois a contratação deve considerar qualidade e resultado."},
+        {"id":"b","text":"Economicidade determina sempre a proposta nominalmente mais barata."},
+        {"id":"c","text":"Qualidade só pode ser considerada no critério técnica e preço."},
+        {"id":"d","text":"Economicidade não integra a Lei nº 14.133/2021."},
+        {"id":"e","text":"Menor preço elimina parâmetros mínimos de qualidade."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Economicidade busca relação adequada entre custo e resultado. Mesmo no menor preço, a Lei preserva parâmetros mínimos de qualidade. Fonte: questão autoral baseada em Lei nº 14.133/2021, arts. 5º e 34."
+    },
+    {
+      "id": "q116007",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A vinculação ao edital significa que:",
+      "options": [
+        {"id":"a","text":"o edital pode contrariar a lei se publicado antes da sessão."},
+        {"id":"b","text":"Administração e licitantes devem observar as regras validamente estabelecidas no instrumento convocatório."},
+        {"id":"c","text":"só o licitante fica vinculado ao edital."},
+        {"id":"d","text":"qualquer regra editalícia é imutável mesmo se ilegal."},
+        {"id":"e","text":"o edital substitui a motivação administrativa."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A vinculação alcança Administração e licitantes, dentro da legalidade. Regra ilegal não se torna válida pela simples publicação. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 5º."
+    },
+    {
+      "id": "q116008",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No regime da Lei nº 14.133/2021, o sistema de registro de preços é classificado como:",
+      "options": [
+        {"id":"a","text":"modalidade."},
+        {"id":"b","text":"critério de julgamento."},
+        {"id":"c","text":"procedimento auxiliar."},
+        {"id":"d","text":"modo de disputa."},
+        {"id":"e","text":"fase da habilitação."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O SRP integra o rol de procedimentos auxiliares do art. 78, e não o rol de modalidades do art. 28. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 78, IV."
+    },
+    {
+      "id": "q116009",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual é a sequência ordinária inicial do processo licitatório prevista no art. 17?",
+      "options": [
+        {"id":"a","text":"Habilitação, julgamento, planejamento."},
+        {"id":"b","text":"Publicação, homologação, propostas."},
+        {"id":"c","text":"Julgamento, habilitação, fase preparatória."},
+        {"id":"d","text":"Fase preparatória, divulgação do edital, apresentação de propostas e lances."},
+        {"id":"e","text":"Recurso, habilitação, edital."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A sequência começa por fase preparatória, divulgação do edital e apresentação de propostas/lances, seguindo-se julgamento, habilitação, recurso e homologação. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 17."
+    },
+    {
+      "id": "q116010",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na sequência ordinária do art. 17, qual fase vem imediatamente após o julgamento?",
+      "options": [
+        {"id":"a","text":"Divulgação do edital."},
+        {"id":"b","text":"Fase preparatória."},
+        {"id":"c","text":"Homologação."},
+        {"id":"d","text":"Apresentação de propostas."},
+        {"id":"e","text":"Habilitação."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Na ordem ordinária: preparatória → edital → propostas/lances → julgamento → habilitação → recurso → homologação. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 17."
+    },
+    {
+      "id": "q116011",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A habilitação pode anteceder as propostas e o julgamento quando:",
+      "options": [
+        {"id":"a","text":"houver ato motivado, benefícios explicitados e previsão expressa no edital."},
+        {"id":"b","text":"o pregoeiro decidir verbalmente na sessão."},
+        {"id":"c","text":"sempre que o objeto for comum."},
+        {"id":"d","text":"o valor superar o limite de dispensa."},
+        {"id":"e","text":"a Administração optar por leilão."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A inversão exige ato motivado com explicitação dos benefícios e previsão expressa no edital. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 17, § 1º."
+    },
+    {
+      "id": "q116012",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a forma de realização das licitações, a Lei nº 14.133/2021 estabelece que:",
+      "options": [
+        {"id":"a","text":"a presencial é obrigatória."},
+        {"id":"b","text":"a eletrônica é preferencial; a presencial exige motivação e registro da sessão em ata e áudio e vídeo."},
+        {"id":"c","text":"a eletrônica é vedada em concorrência."},
+        {"id":"d","text":"a presencial independe de motivação."},
+        {"id":"e","text":"a forma é escolhida exclusivamente pelo licitante."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "A forma eletrônica é preferencial. A presencial é admitida mediante motivação, com sessão pública registrada em ata e gravada em áudio e vídeo. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 17, § 2º."
+    },
+    {
+      "id": "q116013",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A fase preparatória caracteriza-se principalmente por:",
+      "options": [
+        {"id":"a","text":"execução do contrato."},
+        {"id":"b","text":"aplicação de sanções."},
+        {"id":"c","text":"planejamento da contratação."},
+        {"id":"d","text":"julgamento dos recursos."},
+        {"id":"e","text":"recebimento definitivo do objeto."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A fase preparatória é a fase de planejamento, em que se estrutura a necessidade, solução, objeto e condições da futura disputa. Fonte: questão autoral baseada em Lei nº 14.133/2021, arts. 17 e 18."
+    },
+    {
+      "id": "q116014",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Encerradas as fases de julgamento e habilitação e exauridos os recursos, a autoridade superior poderá:",
+      "options": [
+        {"id":"a","text":"apenas homologar."},
+        {"id":"b","text":"somente revogar."},
+        {"id":"c","text":"alterar livremente a proposta vencedora."},
+        {"id":"d","text":"sanear, revogar, anular ou adjudicar e homologar, conforme o caso."},
+        {"id":"e","text":"contratar sem adjudicação em qualquer hipótese."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 71 prevê retorno para saneamento, revogação, anulação ou adjudicação e homologação. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 71."
+    },
+    {
+      "id": "q116015",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A revogação da licitação, diferentemente da anulação, pressupõe:",
+      "options": [
+        {"id":"a","text":"ilegalidade insanável."},
+        {"id":"b","text":"nulidade automática do edital."},
+        {"id":"c","text":"fraude comprovada."},
+        {"id":"d","text":"ausência de qualquer motivação."},
+        {"id":"e","text":"motivo de conveniência e oportunidade decorrente de fato superveniente devidamente comprovado."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A revogação decorre de conveniência e oportunidade vinculada a fato superveniente comprovado; a anulação decorre de ilegalidade insanável. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 71, §§ 2º e 3º."
+    },
+    {
+      "id": "q116016",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "São modalidades de licitação previstas na Lei nº 14.133/2021:",
+      "options": [
+        {"id":"a","text":"pregão, concorrência, concurso, leilão e diálogo competitivo."},
+        {"id":"b","text":"pregão, tomada de preços, convite, concurso e leilão."},
+        {"id":"c","text":"concorrência, credenciamento, pregão, SRP e concurso."},
+        {"id":"d","text":"pregão, concurso, técnica e preço, leilão e concorrência."},
+        {"id":"e","text":"concorrência, PMI, pré-qualificação, leilão e pregão."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 28 prevê pregão, concorrência, concurso, leilão e diálogo competitivo. Credenciamento, PMI, pré-qualificação e SRP são procedimentos auxiliares. Fonte: questão autoral baseada em Lei nº 14.133/2021, arts. 28 e 78."
+    },
+    {
+      "id": "q116017",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 14.133/2021:",
+      "options": [
+        {"id":"a","text":"autoriza livre combinação de modalidades."},
+        {"id":"b","text":"veda a criação de outras modalidades e a combinação das modalidades legais."},
+        {"id":"c","text":"permite convite por regulamento local."},
+        {"id":"d","text":"transforma o SRP em modalidade."},
+        {"id":"e","text":"admite tomada de preços para obras pequenas."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 28, § 2º, veda criação de novas modalidades e combinação das modalidades legais. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 28, § 2º."
+    },
+    {
+      "id": "q116018",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O pregão deve ser adotado, em regra, quando:",
+      "options": [
+        {"id":"a","text":"o valor for inferior ao limite de dispensa."},
+        {"id":"b","text":"houver alienação de imóvel."},
+        {"id":"c","text":"o objeto tiver padrões de desempenho e qualidade objetivamente definíveis por especificações usuais de mercado."},
+        {"id":"d","text":"o julgamento for por melhor técnica."},
+        {"id":"e","text":"a Administração não puder definir solução técnica."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O pregão é ligado à natureza comum do objeto, caracterizada por padrões objetivamente definíveis segundo especificações usuais de mercado. Fonte: questão autoral baseada em Lei nº 14.133/2021, arts. 6º, XIII, e 29."
+    },
+    {
+      "id": "q116019",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa correta sobre pregão e engenharia.",
+      "options": [
+        {"id":"a","text":"Toda obra pode ser licitada por pregão."},
+        {"id":"b","text":"Nenhuma atividade de engenharia pode usar pregão."},
+        {"id":"c","text":"Pregão só é permitido para obra de baixo valor."},
+        {"id":"d","text":"O pregão pode alcançar serviço comum de engenharia, mas não obras em geral."},
+        {"id":"e","text":"O pregão só cabe para serviço especial de engenharia."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Lei excepciona o serviço comum de engenharia da vedação relativa à engenharia; obras em geral não são objeto de pregão. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 29, parágrafo único, e art. 6º, XXI, a."
+    },
+    {
+      "id": "q116020",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O concurso tem por finalidade selecionar:",
+      "options": [
+        {"id":"a","text":"fornecedor exclusivo."},
+        {"id":"b","text":"bem comum pelo menor preço."},
+        {"id":"c","text":"empresa para contrato de eficiência."},
+        {"id":"d","text":"imóvel para aquisição."},
+        {"id":"e","text":"trabalho técnico, científico ou artístico, com prêmio ou remuneração."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O concurso seleciona trabalho técnico, científico ou artístico e concede prêmio ou remuneração. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 30."
+    },
+    {
+      "id": "q116021",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No concurso destinado à elaboração de projeto, o vencedor deverá:",
+      "options": [
+        {"id":"a","text":"ceder à Administração os direitos patrimoniais relativos ao projeto e autorizar sua execução nos termos legais."},
+        {"id":"b","text":"manter necessariamente todos os direitos patrimoniais."},
+        {"id":"c","text":"ser contratado por inexigibilidade para executar a obra."},
+        {"id":"d","text":"receber pelo critério de maior lance."},
+        {"id":"e","text":"submeter-se a leilão posterior."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A Lei determina a cessão dos direitos patrimoniais do projeto à Administração e a autorização de execução conforme o regime legal. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 30, parágrafo único."
+    },
+    {
+      "id": "q116022",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O leilão utiliza como critério de julgamento:",
+      "options": [
+        {"id":"a","text":"menor preço."},
+        {"id":"b","text":"maior lance."},
+        {"id":"c","text":"técnica e preço."},
+        {"id":"d","text":"maior desconto."},
+        {"id":"e","text":"maior retorno econômico."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Maior lance é o critério específico do leilão. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 33, V."
+    },
+    {
+      "id": "q116023",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a Administração optar por leiloeiro oficial, poderá selecioná-lo por:",
+      "options": [
+        {"id":"a","text":"inexigibilidade obrigatória."},
+        {"id":"b","text":"concurso."},
+        {"id":"c","text":"credenciamento ou pregão com maior desconto sobre as comissões."},
+        {"id":"d","text":"diálogo competitivo."},
+        {"id":"e","text":"SRP apenas."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Lei admite credenciamento ou pregão, com critério de maior desconto sobre comissões, para seleção de leiloeiro oficial. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 31, § 1º."
+    },
+    {
+      "id": "q116024",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O diálogo competitivo é especialmente compatível com contratação em que:",
+      "options": [
+        {"id":"a","text":"o objeto é comum e inteiramente padronizado."},
+        {"id":"b","text":"há apenas um fornecedor exclusivo."},
+        {"id":"c","text":"o único fator relevante é o maior lance."},
+        {"id":"d","text":"a Administração não consegue definir com precisão suficiente a solução e precisa discutir alternativas com o mercado."},
+        {"id":"e","text":"a licitação é dispensável por valor."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O diálogo competitivo atende contratações complexas, inovadoras ou de difícil definição prévia, nas condições do art. 32. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 32."
+    },
+    {
+      "id": "q116025",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No diálogo competitivo, os prazos mínimos para manifestação de interesse e propostas finais são, respectivamente:",
+      "options": [
+        {"id":"a","text":"8 e 15 dias úteis."},
+        {"id":"b","text":"10 e 25 dias úteis."},
+        {"id":"c","text":"15 e 35 dias úteis."},
+        {"id":"d","text":"20 e 45 dias úteis."},
+        {"id":"e","text":"25 e 60 dias úteis."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A Lei estabelece ao menos 25 dias úteis para manifestação de interesse e 60 dias úteis para propostas finais após o diálogo. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 32."
+    },
+    {
+      "id": "q116026",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre informações confidenciais apresentadas no diálogo competitivo, é correto afirmar que:",
+      "options": [
+        {"id":"a","text":"a Administração só pode revelá-las aos demais participantes com consentimento do licitante que as forneceu."},
+        {"id":"b","text":"devem sempre ser publicadas antes das propostas finais."},
+        {"id":"c","text":"são proibidas em qualquer hipótese."},
+        {"id":"d","text":"podem ser reveladas livremente ao concorrente mais bem classificado."},
+        {"id":"e","text":"eliminam a necessidade de registro das reuniões."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "A solução ou informação confidencial fornecida por participante não pode ser revelada aos demais sem consentimento. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 32."
+    },
+    {
+      "id": "q116027",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa apresenta somente critérios de julgamento do art. 33?",
+      "options": [
+        {"id":"a","text":"Pregão, concorrência e leilão."},
+        {"id":"b","text":"Menor preço, maior desconto e maior retorno econômico."},
+        {"id":"c","text":"Aberto, fechado e combinado."},
+        {"id":"d","text":"Credenciamento, SRP e pré-qualificação."},
+        {"id":"e","text":"Habilitação, julgamento e homologação."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Menor preço, maior desconto e maior retorno econômico são critérios. As demais opções misturam modalidades, modos, procedimentos auxiliares ou fases. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 33."
+    },
+    {
+      "id": "q116028",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No critério de maior desconto:",
+      "options": [
+        {"id":"a","text":"o desconto não alcança aditivos."},
+        {"id":"b","text":"a referência é escolhida livremente pelo licitante."},
+        {"id":"c","text":"o desconto tem como referência o preço global fixado no edital e se estende aos eventuais aditivos."},
+        {"id":"d","text":"o julgamento é exclusivo do leilão."},
+        {"id":"e","text":"não há parâmetros mínimos de qualidade."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 34, § 2º, estabelece referência no preço global do edital e extensão do desconto aos eventuais termos aditivos. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 34, § 2º."
+    },
+    {
+      "id": "q116029",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No julgamento por técnica e preço, a valoração da proposta técnica:",
+      "options": [
+        {"id":"a","text":"deve ser exatamente 50%."},
+        {"id":"b","text":"deve ser inferior a 10%."},
+        {"id":"c","text":"não pode existir."},
+        {"id":"d","text":"não pode superar 70%."},
+        {"id":"e","text":"deve superar 90%."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A valoração técnica não pode superar 70%, segundo a Lei nº 14.133/2021. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 36, § 2º."
+    },
+    {
+      "id": "q116030",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O critério de maior retorno econômico é utilizado exclusivamente em:",
+      "options": [
+        {"id":"a","text":"concurso."},
+        {"id":"b","text":"leilão."},
+        {"id":"c","text":"pregão."},
+        {"id":"d","text":"credenciamento."},
+        {"id":"e","text":"contrato de eficiência."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Maior retorno econômico é critério próprio de contrato de eficiência. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 39."
+    },
+    {
+      "id": "q116031",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No julgamento por melhor técnica ou conteúdo artístico:",
+      "options": [
+        {"id":"a","text":"consideram-se exclusivamente as propostas técnicas ou artísticas e o edital define prêmio ou remuneração."},
+        {"id":"b","text":"a proposta de preço vale ao menos 30%."},
+        {"id":"c","text":"o vencedor é sempre o menor preço."},
+        {"id":"d","text":"há lances sucessivos obrigatórios."},
+        {"id":"e","text":"o critério só pode ser usado no leilão."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "Esse critério considera apenas propostas técnicas ou artísticas, com prêmio ou remuneração definidos no edital. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 35."
+    },
+    {
+      "id": "q116032",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O modo de disputa aberto caracteriza-se por:",
+      "options": [
+        {"id":"a","text":"propostas sigilosas até a data de abertura."},
+        {"id":"b","text":"lances públicos e sucessivos."},
+        {"id":"c","text":"uso exclusivo no critério técnica e preço."},
+        {"id":"d","text":"proibição de lances."},
+        {"id":"e","text":"equivalência ao diálogo competitivo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "No modo aberto, os licitantes apresentam lances públicos e sucessivos. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 56."
+    },
+    {
+      "id": "q116033",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É vedado adotar modo fechado de forma isolada quando o critério for:",
+      "options": [
+        {"id":"a","text":"melhor técnica."},
+        {"id":"b","text":"técnica e preço."},
+        {"id":"c","text":"menor preço ou maior desconto."},
+        {"id":"d","text":"maior lance."},
+        {"id":"e","text":"maior retorno econômico."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A Lei veda modo fechado isolado para menor preço e maior desconto. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 56, § 1º."
+    },
+    {
+      "id": "q116034",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É vedada a utilização do modo aberto quando o critério for:",
+      "options": [
+        {"id":"a","text":"menor preço."},
+        {"id":"b","text":"maior desconto."},
+        {"id":"c","text":"maior lance."},
+        {"id":"d","text":"técnica e preço."},
+        {"id":"e","text":"maior retorno econômico."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O modo aberto é vedado no julgamento por técnica e preço. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 56, § 2º."
+    },
+    {
+      "id": "q116035",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação distingue corretamente modalidade e critério?",
+      "options": [
+        {"id":"a","text":"Menor preço é modalidade e pregão é critério."},
+        {"id":"b","text":"Leilão e maior lance são ambos modalidades."},
+        {"id":"c","text":"Concorrência e técnica e preço são ambos critérios."},
+        {"id":"d","text":"SRP e pregão são modalidades."},
+        {"id":"e","text":"Concorrência é modalidade; técnica e preço é critério."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "Concorrência integra o art. 28, enquanto técnica e preço integra o art. 33. Fonte: questão autoral baseada em Lei nº 14.133/2021, arts. 28 e 33."
+    },
+    {
+      "id": "q116036",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A contratação direta na Lei nº 14.133/2021:",
+      "options": [
+        {"id":"a","text":"abrange dispensa e inexigibilidade e exige processo instruído nos termos do art. 72."},
+        {"id":"b","text":"dispensa motivação e justificativa de preço."},
+        {"id":"c","text":"é sinônimo de compra sem processo."},
+        {"id":"d","text":"só existe por valor."},
+        {"id":"e","text":"não exige autorização da autoridade competente."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 72 disciplina o processo de contratação direta, abrangendo dispensa e inexigibilidade, com documentação e autorização. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 72."
+    },
+    {
+      "id": "q116037",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual documento integra expressamente a instrução do processo de contratação direta?",
+      "options": [
+        {"id":"a","text":"Ata de posse do contratado."},
+        {"id":"b","text":"Justificativa de preço."},
+        {"id":"c","text":"Sentença judicial em qualquer caso."},
+        {"id":"d","text":"Certificado de modalidade."},
+        {"id":"e","text":"Comprovação de recurso administrativo."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "Justificativa de preço é requisito do art. 72, assim como razão da escolha, estimativa, habilitação mínima e autorização. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 72, VII."
+    },
+    {
+      "id": "q116038",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A inexigibilidade ocorre quando:",
+      "options": [
+        {"id":"a","text":"o contrato tem baixo valor."},
+        {"id":"b","text":"a Administração prefere não licitar."},
+        {"id":"c","text":"há inviabilidade de competição."},
+        {"id":"d","text":"a licitação anterior teve recurso."},
+        {"id":"e","text":"o objeto é sempre comum."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "A inviabilidade de competição é o fundamento da inexigibilidade do art. 74. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 74."
+    },
+    {
+      "id": "q116039",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre o rol do art. 74, assinale a alternativa correta.",
+      "options": [
+        {"id":"a","text":"É taxativo e não admite outras situações de inviabilidade."},
+        {"id":"b","text":"Só prevê fornecedor exclusivo."},
+        {"id":"c","text":"É idêntico ao rol do art. 75."},
+        {"id":"d","text":"Apresenta hipóteses típicas sob fórmula aberta de inviabilidade de competição."},
+        {"id":"e","text":"Dispensa prova de inviabilidade em qualquer caso."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 74 afirma ser inexigível quando inviável a competição e usa “em especial”, indicando hipóteses típicas sem fechar a categoria. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 74."
+    },
+    {
+      "id": "q116040",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na contratação de fornecedor exclusivo por inexigibilidade:",
+      "options": [
+        {"id":"a","text":"basta preferência da autoridade por determinada marca."},
+        {"id":"b","text":"é vedada qualquer comprovação documental."},
+        {"id":"c","text":"o valor deve ser inferior ao limite de dispensa."},
+        {"id":"d","text":"só pode haver aquisição de serviço artístico."},
+        {"id":"e","text":"a Administração deve demonstrar a exclusividade por documento idôneo; mera preferência por marca não basta."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A exclusividade precisa ser demonstrada por atestado, contrato, declaração ou outro documento idôneo, e a lei veda preferência por marca específica como justificativa. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 74, § 1º."
+    },
+    {
+      "id": "q116041",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte de 6/7/2026, o limite atualizado de dispensa por valor para obras e serviços de engenharia ou manutenção de veículos é inferior a:",
+      "options": [
+        {"id":"a","text":"R$ 130.984,20."},
+        {"id":"b","text":"R$ 100.000,00."},
+        {"id":"c","text":"R$ 65.492,11."},
+        {"id":"d","text":"R$ 392.952,63."},
+        {"id":"e","text":"R$ 10.478,74."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O Decreto nº 12.807/2025 atualizou o art. 75, I, para R$ 130.984,20 a partir de 1º/1/2026. Fonte: questão autoral baseada em Decreto nº 12.807/2025."
+    },
+    {
+      "id": "q116042",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No corte de 6/7/2026, o limite atualizado de dispensa por valor para outros serviços e compras é inferior a:",
+      "options": [
+        {"id":"a","text":"R$ 130.984,20."},
+        {"id":"b","text":"R$ 65.492,11."},
+        {"id":"c","text":"R$ 50.000,00."},
+        {"id":"d","text":"R$ 10.478,74."},
+        {"id":"e","text":"R$ 392.952,63."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O Decreto nº 12.807/2025 atualizou o art. 75, II, para R$ 65.492,11 a partir de 1º/1/2026. Fonte: questão autoral baseada em Decreto nº 12.807/2025."
+    },
+    {
+      "id": "q116043",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas dispensas por valor dos incisos I e II do art. 75, a divulgação de aviso em sítio eletrônico oficial por no mínimo três dias úteis é:",
+      "options": [
+        {"id":"a","text":"sempre proibida."},
+        {"id":"b","text":"substituída por leilão."},
+        {"id":"c","text":"preferencial, para obtenção de propostas adicionais."},
+        {"id":"d","text":"obrigatória sob pena automática de nulidade segundo o texto do § 3º."},
+        {"id":"e","text":"restrita a obras federais."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 75, § 3º, diz que essas contratações serão preferencialmente precedidas de aviso por três dias úteis. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 75, § 3º."
+    },
+    {
+      "id": "q116044",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na dispensa emergencial do art. 75, VIII, as parcelas de obras e serviços contratadas diretamente devem poder ser concluídas em até:",
+      "options": [
+        {"id":"a","text":"90 dias."},
+        {"id":"b","text":"180 dias."},
+        {"id":"c","text":"6 meses."},
+        {"id":"d","text":"1 ano da ocorrência da emergência ou calamidade."},
+        {"id":"e","text":"2 anos."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A Lei limita a contratação emergencial às parcelas concluíveis em até um ano, contado da ocorrência da emergência ou calamidade. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 75, VIII."
+    },
+    {
+      "id": "q116045",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se a contratação direta indevida ocorrer com dolo, fraude ou erro grosseiro:",
+      "options": [
+        {"id":"a","text":"só o contratado responde."},
+        {"id":"b","text":"só o agente responde."},
+        {"id":"c","text":"não há consequência patrimonial."},
+        {"id":"d","text":"a responsabilidade é sempre apenas disciplinar."},
+        {"id":"e","text":"agente responsável e contratado respondem solidariamente pelo dano ao erário, sem prejuízo de outras sanções."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 73 estabelece responsabilidade solidária do contratado e do agente responsável pelo dano quando houver dolo, fraude ou erro grosseiro. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 73."
+    },
+    {
+      "id": "q116046",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Decreto nº 11.462/2023, o SRP é:",
+      "options": [
+        {"id":"a","text":"conjunto de procedimentos para registro formal de preços destinado a contratações futuras."},
+        {"id":"b","text":"modalidade autônoma de licitação."},
+        {"id":"c","text":"critério de julgamento."},
+        {"id":"d","text":"fase recursal."},
+        {"id":"e","text":"espécie de contrato obrigatório."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O decreto define SRP como conjunto de procedimentos para registro formal de preços para contratações futuras, por licitação ou contratação direta nas condições previstas. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 2º, I."
+    },
+    {
+      "id": "q116047",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Decreto nº 11.462/2023 aplica-se diretamente, por seu art. 1º, à:",
+      "options": [
+        {"id":"a","text":"Administração Pública de todos os Estados e Municípios."},
+        {"id":"b","text":"Administração Pública federal direta, autárquica e fundacional."},
+        {"id":"c","text":"todas as empresas estatais do país."},
+        {"id":"d","text":"somente aos tribunais de contas estaduais."},
+        {"id":"e","text":"exclusivamente ao Poder Judiciário federal."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 1º delimita o âmbito à Administração Pública federal direta, autárquica e fundacional. No TCE/MA, o decreto é estudado porque o edital o exige, sem presunção de aplicação automática local. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 1º."
+    },
+    {
+      "id": "q116048",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No SRP licitado segundo o Decreto nº 11.462/2023, as modalidades utilizadas são:",
+      "options": [
+        {"id":"a","text":"concurso e leilão."},
+        {"id":"b","text":"diálogo competitivo e concurso."},
+        {"id":"c","text":"pregão ou concorrência."},
+        {"id":"d","text":"leilão ou pregão."},
+        {"id":"e","text":"qualquer modalidade do art. 28."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O art. 14 determina concorrência ou pregão para o processo licitatório de registro de preços. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 14."
+    },
+    {
+      "id": "q116049",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os critérios de julgamento previstos pelo Decreto nº 11.462/2023 para licitação de SRP são:",
+      "options": [
+        {"id":"a","text":"melhor técnica ou maior lance."},
+        {"id":"b","text":"técnica e preço ou maior retorno."},
+        {"id":"c","text":"maior lance apenas."},
+        {"id":"d","text":"menor preço ou maior desconto."},
+        {"id":"e","text":"todos os seis critérios do art. 33."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O art. 11 do Decreto nº 11.462/2023 prevê menor preço ou maior desconto sobre preço estimado ou tabela de mercado. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 11."
+    },
+    {
+      "id": "q116050",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A IRP deve ficar aberta, em regra, por prazo mínimo de:",
+      "options": [
+        {"id":"a","text":"3 dias úteis."},
+        {"id":"b","text":"5 dias úteis."},
+        {"id":"c","text":"6 dias úteis."},
+        {"id":"d","text":"7 dias úteis."},
+        {"id":"e","text":"8 dias úteis."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "A intenção de registro de preços deve permitir participação por pelo menos oito dias úteis. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 9º."
+    },
+    {
+      "id": "q116051",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A IRP pode ser dispensada quando:",
+      "options": [
+        {"id":"a","text":"o órgão gerenciador for o único contratante."},
+        {"id":"b","text":"houver mais de dez participantes."},
+        {"id":"c","text":"o critério for menor preço."},
+        {"id":"d","text":"o registro envolver bens comuns."},
+        {"id":"e","text":"a ata tiver vigência anual."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 9º, § 2º, permite dispensar a IRP quando o gerenciador for o único contratante. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 9º, § 2º."
+    },
+    {
+      "id": "q116052",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Decreto nº 11.462/2023, a indicação de disponibilidade de créditos orçamentários é exigida:",
+      "options": [
+        {"id":"a","text":"antes da IRP em todos os casos."},
+        {"id":"b","text":"para a formalização do contrato ou outro instrumento hábil."},
+        {"id":"c","text":"para publicar qualquer pesquisa de preços."},
+        {"id":"d","text":"somente após o término da ata."},
+        {"id":"e","text":"nunca."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O art. 17 estabelece que a disponibilidade orçamentária é exigida apenas para formalização do contrato ou instrumento hábil. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 17."
+    },
+    {
+      "id": "q116053",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A existência de preços registrados em ata:",
+      "options": [
+        {"id":"a","text":"obriga a Administração a contratar todo o quantitativo."},
+        {"id":"b","text":"impede licitação específica."},
+        {"id":"c","text":"gera compromisso de fornecimento, mas não obriga a Administração a contratar."},
+        {"id":"d","text":"transforma a ata em contrato de execução imediata."},
+        {"id":"e","text":"dispensa justificativa para qualquer contratação futura."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "Preço registrado implica compromisso do fornecedor, mas não obriga a Administração a contratar; licitação específica é possível mediante justificativa. Fonte: questão autoral baseada em Lei nº 14.133/2021, art. 83, e Decreto nº 11.462/2023, art. 21."
+    },
+    {
+      "id": "q116054",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A vigência da ata de registro de preços no Decreto nº 11.462/2023 é:",
+      "options": [
+        {"id":"a","text":"6 meses, improrrogável."},
+        {"id":"b","text":"2 anos, improrrogável."},
+        {"id":"c","text":"1 ano, sem possibilidade de prorrogação."},
+        {"id":"d","text":"1 ano, prorrogável por igual período se comprovada a vantagem do preço."},
+        {"id":"e","text":"até a execução total do contrato."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "A ata vigora por um ano, contado do primeiro dia útil subsequente à divulgação no PNCP, e pode ser prorrogada por igual período se o preço for vantajoso. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 22."
+    },
+    {
+      "id": "q116055",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos quantitativos fixados na ata de registro de preços, o Decreto nº 11.462/2023:",
+      "options": [
+        {"id":"a","text":"permite acréscimo de 25% automaticamente."},
+        {"id":"b","text":"permite acréscimo de 50% pelo gerenciador."},
+        {"id":"c","text":"permite qualquer acréscimo com anuência do fornecedor."},
+        {"id":"d","text":"só veda acréscimos em compras."},
+        {"id":"e","text":"veda efetuar acréscimos nos quantitativos estabelecidos na ata."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 23 do decreto veda acréscimos nos quantitativos estabelecidos na ata. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 23."
+    },
+    {
+      "id": "q116056",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para aderir à ata como não participante, um órgão deve, entre outros requisitos:",
+      "options": [
+        {"id":"a","text":"justificar a vantagem, demonstrar compatibilidade com o mercado e obter aceitação prévia do gerenciador e do fornecedor."},
+        {"id":"b","text":"apenas comunicar o fornecedor depois da contratação."},
+        {"id":"c","text":"participar retroativamente da IRP."},
+        {"id":"d","text":"dispensar pesquisa de mercado."},
+        {"id":"e","text":"ser necessariamente federal."}
+      ],
+      "correctOptionId": "a",
+      "explanation": "O art. 31 exige justificativa da vantagem, compatibilidade dos valores com o mercado e consulta/aceitação prévias do gerenciador e do fornecedor. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 31."
+    },
+    {
+      "id": "q116057",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a autorização de adesão à ata, o não participante deve efetivar a contratação, em regra, em até:",
+      "options": [
+        {"id":"a","text":"30 dias."},
+        {"id":"b","text":"90 dias, respeitada a vigência da ata."},
+        {"id":"c","text":"120 dias, ainda que a ata vença."},
+        {"id":"d","text":"1 ano contado da adesão."},
+        {"id":"e","text":"2 anos."}
+      ],
+      "correctOptionId": "b",
+      "explanation": "O Decreto fixa 90 dias após a autorização, sempre respeitando a vigência da ata; admite prorrogação excepcional dentro desse limite temporal. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 31, §§ 2º e 3º."
+    },
+    {
+      "id": "q116058",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em regra, cada órgão ou entidade não participante pode aderir até:",
+      "options": [
+        {"id":"a","text":"10% dos quantitativos."},
+        {"id":"b","text":"25% dos quantitativos."},
+        {"id":"c","text":"50% dos quantitativos dos itens registrados para gerenciador e participantes."},
+        {"id":"d","text":"100% dos quantitativos."},
+        {"id":"e","text":"o dobro dos quantitativos."}
+      ],
+      "correctOptionId": "c",
+      "explanation": "O limite individual das adesões é 50% dos quantitativos de cada item registrados para gerenciador e participantes. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 32, I."
+    },
+    {
+      "id": "q116059",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em regra, o total de adesões de não participantes não pode exceder:",
+      "options": [
+        {"id":"a","text":"50% do quantitativo total."},
+        {"id":"b","text":"o mesmo quantitativo registrado."},
+        {"id":"c","text":"três vezes o quantitativo."},
+        {"id":"d","text":"o dobro do quantitativo de cada item registrado para gerenciador e participantes."},
+        {"id":"e","text":"limite algum."}
+      ],
+      "correctOptionId": "d",
+      "explanation": "O limite global, em regra, é o dobro do quantitativo de cada item registrado para gerenciador e participantes, independentemente do número de aderentes. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 32, II."
+    },
+    {
+      "id": "q116060",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Segundo o Decreto nº 11.462/2023, é vedado:",
+      "options": [
+        {"id":"a","text":"a órgão municipal aderir a ata federal em qualquer hipótese."},
+        {"id":"b","text":"usar concorrência no SRP."},
+        {"id":"c","text":"formar cadastro de reserva."},
+        {"id":"d","text":"formalizar contratação por nota de empenho quando juridicamente cabível."},
+        {"id":"e","text":"a órgão ou entidade federal aderir a ata gerenciada por órgão ou entidade estadual, distrital ou municipal."}
+      ],
+      "correctOptionId": "e",
+      "explanation": "O art. 33 veda aos órgãos e entidades da Administração Pública federal aderir a ata gerenciada por órgão ou entidade estadual, distrital ou municipal. Fonte: questão autoral baseada em Decreto nº 11.462/2023, art. 33."
+    }
+  ]
+}
