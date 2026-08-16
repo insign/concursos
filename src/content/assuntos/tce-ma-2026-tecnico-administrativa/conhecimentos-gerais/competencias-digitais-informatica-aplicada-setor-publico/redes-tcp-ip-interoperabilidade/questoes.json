@@ -1,0 +1,2196 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q4119",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma LAN caracteriza-se principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser obrigatoriamente pública e mantida por várias operadoras."
+        },
+        {
+          "id": "B",
+          "text": "usar apenas satélite entre países."
+        },
+        {
+          "id": "C",
+          "text": "abranger uma área local, como prédio ou campus, normalmente sob administração concentrada."
+        },
+        {
+          "id": "D",
+          "text": "não poder usar TCP/IP."
+        },
+        {
+          "id": "E",
+          "text": "ser sempre maior que uma MAN."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "LAN descreve alcance local; tecnologia e acesso à Internet podem variar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4120",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma WAN pode ser descrita corretamente como rede que",
+      "options": [
+        {
+          "id": "A",
+          "text": "interliga redes ou unidades geograficamente distantes e pode ser privada."
+        },
+        {
+          "id": "B",
+          "text": "existe somente dentro de uma sala."
+        },
+        {
+          "id": "C",
+          "text": "é sempre sinônimo da Internet pública."
+        },
+        {
+          "id": "D",
+          "text": "dispensa roteamento."
+        },
+        {
+          "id": "E",
+          "text": "usa obrigatoriamente Wi-Fi."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "WAN cobre grande área e pode interligar várias LANs. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4121",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A relação correta entre Internet e Web é",
+      "options": [
+        {
+          "id": "A",
+          "text": "Internet e Web são sinônimos absolutos."
+        },
+        {
+          "id": "B",
+          "text": "a Internet existe somente dentro de navegadores."
+        },
+        {
+          "id": "C",
+          "text": "a Web é camada física do TCP/IP."
+        },
+        {
+          "id": "D",
+          "text": "a Internet depende obrigatoriamente de páginas HTML."
+        },
+        {
+          "id": "E",
+          "text": "a Web é um serviço da Internet baseado principalmente em HTTP/HTTPS."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Internet é a infraestrutura global; a Web é um de seus serviços. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4122",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma extranet é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer página pública sem autenticação."
+        },
+        {
+          "id": "B",
+          "text": "uma parte controlada dos recursos internos disponibilizada a usuários externos autorizados."
+        },
+        {
+          "id": "C",
+          "text": "uma LAN sem TCP/IP."
+        },
+        {
+          "id": "D",
+          "text": "um sinônimo de Internet."
+        },
+        {
+          "id": "E",
+          "text": "uma rede que não pode usar VPN."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Extranet estende acesso controlado a parceiros ou públicos autorizados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4123",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No modelo cliente-servidor",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo participante é obrigatoriamente igual e não existem papéis."
+        },
+        {
+          "id": "B",
+          "text": "o cliente sempre possui endereço público."
+        },
+        {
+          "id": "C",
+          "text": "não se usam protocolos de rede."
+        },
+        {
+          "id": "D",
+          "text": "clientes solicitam serviços a servidores; pode haver vários servidores físicos ou lógicos."
+        },
+        {
+          "id": "E",
+          "text": "um servidor só pode atender um cliente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Cliente-servidor define papéis, não quantidade física de máquinas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4124",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A função típica de um hub é",
+      "options": [
+        {
+          "id": "A",
+          "text": "encaminhar pacotes por tabela IP."
+        },
+        {
+          "id": "B",
+          "text": "resolver nomes DNS."
+        },
+        {
+          "id": "C",
+          "text": "atribuir endereços DHCP."
+        },
+        {
+          "id": "D",
+          "text": "repetir sinais para todas as portas, sem aprender endereços MAC."
+        },
+        {
+          "id": "E",
+          "text": "criptografar tráfego HTTPS."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Hub é equipamento de camada física. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4125",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um switch Ethernet típico encaminha quadros usando",
+      "options": [
+        {
+          "id": "A",
+          "text": "nomes de domínio."
+        },
+        {
+          "id": "B",
+          "text": "endereços MAC aprendidos em sua tabela de comutação."
+        },
+        {
+          "id": "C",
+          "text": "códigos HTTP."
+        },
+        {
+          "id": "D",
+          "text": "endereços de e-mail."
+        },
+        {
+          "id": "E",
+          "text": "somente a porta TCP 443."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Switch opera tipicamente na camada de enlace. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4126",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O roteador é usado principalmente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "encaminhar pacotes entre redes IP distintas."
+        },
+        {
+          "id": "B",
+          "text": "repetir bits para todas as portas."
+        },
+        {
+          "id": "C",
+          "text": "traduzir nomes em endereços."
+        },
+        {
+          "id": "D",
+          "text": "editar páginas Web."
+        },
+        {
+          "id": "E",
+          "text": "armazenar mensagens IMAP."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Roteamento decide o próximo salto entre redes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4127",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um ponto de acesso sem fio",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitui necessariamente todo roteador."
+        },
+        {
+          "id": "B",
+          "text": "é servidor DNS por definição."
+        },
+        {
+          "id": "C",
+          "text": "cria uma WAN global."
+        },
+        {
+          "id": "D",
+          "text": "opera exclusivamente na camada de aplicação."
+        },
+        {
+          "id": "E",
+          "text": "conecta clientes Wi-Fi à rede local, normalmente fazendo ponte no enlace."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "AP conecta o meio sem fio à LAN. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4128",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No modelo OSI, TCP e UDP pertencem à camada",
+      "options": [
+        {
+          "id": "A",
+          "text": "física."
+        },
+        {
+          "id": "B",
+          "text": "de enlace."
+        },
+        {
+          "id": "C",
+          "text": "de transporte."
+        },
+        {
+          "id": "D",
+          "text": "de rede."
+        },
+        {
+          "id": "E",
+          "text": "de aplicação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "TCP e UDP fornecem comunicação fim a fim e portas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4129",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No modelo TCP/IP de quatro camadas, HTTP pertence à camada",
+      "options": [
+        {
+          "id": "A",
+          "text": "de acesso à rede."
+        },
+        {
+          "id": "B",
+          "text": "de internet."
+        },
+        {
+          "id": "C",
+          "text": "física."
+        },
+        {
+          "id": "D",
+          "text": "de transporte."
+        },
+        {
+          "id": "E",
+          "text": "de aplicação."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A camada de aplicação do TCP/IP reúne funções superiores do OSI. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4130",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No encapsulamento, os dados de uma aplicação TCP são normalmente envolvidos, em ordem, por",
+      "options": [
+        {
+          "id": "A",
+          "text": "DNS, DHCP e ARP."
+        },
+        {
+          "id": "B",
+          "text": "MAC, URL e JSON apenas."
+        },
+        {
+          "id": "C",
+          "text": "cabeçalho TCP, cabeçalho IP e cabeçalho/trailer de enlace."
+        },
+        {
+          "id": "D",
+          "text": "cabeçalho HTTP depois do quadro físico."
+        },
+        {
+          "id": "E",
+          "text": "roteador, switch e hub."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Cada camada acrescenta suas informações de controle. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4131",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A associação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "MAC identifica domínio e IP identifica arquivo."
+        },
+        {
+          "id": "B",
+          "text": "MAC identifica interface no enlace, IP identifica logicamente na rede e porta identifica serviço/processo."
+        },
+        {
+          "id": "C",
+          "text": "porta substitui endereço IP."
+        },
+        {
+          "id": "D",
+          "text": "DNS identifica fisicamente a placa."
+        },
+        {
+          "id": "E",
+          "text": "IP e MAC são sempre permanentes e iguais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "São identificadores de escopos diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4132",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um socket de transporte é representado conceitualmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente endereço MAC."
+        },
+        {
+          "id": "B",
+          "text": "apenas nome DNS."
+        },
+        {
+          "id": "C",
+          "text": "URL e senha."
+        },
+        {
+          "id": "D",
+          "text": "endereço IP, protocolo de transporte e número de porta."
+        },
+        {
+          "id": "E",
+          "text": "máscara e SSID somente."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Socket identifica um ponto de comunicação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4133",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual faixa é privada no IPv4?",
+      "options": [
+        {
+          "id": "A",
+          "text": "172.16.0.0/12."
+        },
+        {
+          "id": "B",
+          "text": "127.0.0.0/8."
+        },
+        {
+          "id": "C",
+          "text": "169.254.0.0/16."
+        },
+        {
+          "id": "D",
+          "text": "224.0.0.0/4."
+        },
+        {
+          "id": "E",
+          "text": "198.51.100.0/24 como regra geral de rede privada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As faixas privadas são 10/8, 172.16/12 e 192.168/16. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4134",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O endereço 127.0.0.1 é usado normalmente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "gateway público."
+        },
+        {
+          "id": "B",
+          "text": "loopback, testando a pilha local."
+        },
+        {
+          "id": "C",
+          "text": "broadcast global."
+        },
+        {
+          "id": "D",
+          "text": "servidor DHCP."
+        },
+        {
+          "id": "E",
+          "text": "multicast IPv6."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "127.0.0.0/8 é reservado ao loopback. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4135",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um host Windows com 169.254.20.8 e sem gateway provavelmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "recebeu endereço público fixo."
+        },
+        {
+          "id": "B",
+          "text": "está necessariamente conectado à Internet."
+        },
+        {
+          "id": "C",
+          "text": "ativou IPv6 global."
+        },
+        {
+          "id": "D",
+          "text": "resolveu o nome pelo DNS."
+        },
+        {
+          "id": "E",
+          "text": "usou autoconfiguração IPv4 link-local por não obter configuração DHCP válida."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A faixa 169.254/16 é usada por IPv4 link-local/APIPA. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4136",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na rede 192.168.10.0/24, o broadcast é",
+      "options": [
+        {
+          "id": "A",
+          "text": "192.168.10.0."
+        },
+        {
+          "id": "B",
+          "text": "192.168.10.1."
+        },
+        {
+          "id": "C",
+          "text": "192.168.10.254."
+        },
+        {
+          "id": "D",
+          "text": "192.168.10.255."
+        },
+        {
+          "id": "E",
+          "text": "255.255.255.0."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Um /24 contém os endereços .0 a .255; o último é broadcast. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4137",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A rede 192.168.10.64/26 possui, como faixa usual de hosts",
+      "options": [
+        {
+          "id": "A",
+          "text": "192.168.10.65 a 192.168.10.126."
+        },
+        {
+          "id": "B",
+          "text": "192.168.10.64 a 192.168.10.127."
+        },
+        {
+          "id": "C",
+          "text": "192.168.10.1 a 192.168.10.62."
+        },
+        {
+          "id": "D",
+          "text": "192.168.10.129 a 192.168.10.190."
+        },
+        {
+          "id": "E",
+          "text": "192.168.10.65 a 192.168.10.127."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Um /26 tem blocos de 64; .64 é rede e .127 broadcast. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4138",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para alcançar destinos fora da sub-rede, o host normalmente envia o quadro",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao MAC do servidor remoto através de ARP global."
+        },
+        {
+          "id": "B",
+          "text": "ao servidor DNS, mesmo usando IP."
+        },
+        {
+          "id": "C",
+          "text": "ao endereço MAC do gateway padrão."
+        },
+        {
+          "id": "D",
+          "text": "ao endereço de broadcast como gateway."
+        },
+        {
+          "id": "E",
+          "text": "sem cabeçalho de enlace."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O gateway é o próximo salto local para destinos remotos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4139",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A diferença essencial entre NAT básico e NAPT/PAT é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "NAT é DHCP e PAT é DNS."
+        },
+        {
+          "id": "B",
+          "text": "PAT fornece criptografia."
+        },
+        {
+          "id": "C",
+          "text": "NAPT/PAT traduz também portas, permitindo compartilhar um endereço externo."
+        },
+        {
+          "id": "D",
+          "text": "NAT opera somente em IPv6."
+        },
+        {
+          "id": "E",
+          "text": "NAT bloqueia obrigatoriamente todo tráfego de entrada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "NAPT amplia a tradução para identificadores de transporte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4140",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um endereço IPv6 possui",
+      "options": [
+        {
+          "id": "A",
+          "text": "128 bits."
+        },
+        {
+          "id": "B",
+          "text": "32 bits."
+        },
+        {
+          "id": "C",
+          "text": "48 bits."
+        },
+        {
+          "id": "D",
+          "text": "64 bits."
+        },
+        {
+          "id": "E",
+          "text": "256 bits."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O IPv6 usa oito grupos de 16 bits. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4141",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No IPv6, ::1 e fe80::/10 representam, respectivamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "broadcast e multicast global."
+        },
+        {
+          "id": "B",
+          "text": "rede privada IPv4 e NAT."
+        },
+        {
+          "id": "C",
+          "text": "DNS e DHCP."
+        },
+        {
+          "id": "D",
+          "text": "gateway e porta."
+        },
+        {
+          "id": "E",
+          "text": "loopback e endereços link-local."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "::1 é loopback; fe80::/10 é link-local. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4142",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No IPv6, o NDP é usado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "substituir HTTP."
+        },
+        {
+          "id": "B",
+          "text": "descobrir vizinhos e roteadores, resolver endereços de enlace e verificar alcançabilidade."
+        },
+        {
+          "id": "C",
+          "text": "transferir arquivos por SSH."
+        },
+        {
+          "id": "D",
+          "text": "atribuir portas TCP."
+        },
+        {
+          "id": "E",
+          "text": "criar registros MX."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "NDP, baseado em ICMPv6, substitui e amplia funções associadas ao ARP. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4143",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "SLAAC e DHCPv6",
+      "options": [
+        {
+          "id": "A",
+          "text": "são exatamente o mesmo protocolo."
+        },
+        {
+          "id": "B",
+          "text": "exigem sempre NAT."
+        },
+        {
+          "id": "C",
+          "text": "usam ARP para descobrir roteadores."
+        },
+        {
+          "id": "D",
+          "text": "podem ser usados isoladamente ou em conjunto para configuração IPv6."
+        },
+        {
+          "id": "E",
+          "text": "não fornecem parâmetros de rede."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "SLAAC usa anúncios; DHCPv6 pode fornecer parâmetros, endereços e prefixos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4144",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O three-way handshake do TCP é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ACK, FIN e RST."
+        },
+        {
+          "id": "B",
+          "text": "Discover, Offer e Request."
+        },
+        {
+          "id": "C",
+          "text": "Echo, Reply e Time Exceeded."
+        },
+        {
+          "id": "D",
+          "text": "SYN, SYN-ACK e ACK."
+        },
+        {
+          "id": "E",
+          "text": "GET, POST e PUT."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Abertura clássica de conexão TCP usa três etapas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4145",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma propriedade do TCP é",
+      "options": [
+        {
+          "id": "A",
+          "text": "não usar números de sequência."
+        },
+        {
+          "id": "B",
+          "text": "entregar à aplicação um fluxo ordenado com confirmações e retransmissões."
+        },
+        {
+          "id": "C",
+          "text": "não possuir controle de fluxo."
+        },
+        {
+          "id": "D",
+          "text": "ser sempre mais rápido que UDP."
+        },
+        {
+          "id": "E",
+          "text": "usar apenas multicast."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "TCP oferece confiabilidade de transporte, não perfeição absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4146",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "UDP caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "enviar datagramas sem conexão e sem garantias intrínsecas de entrega ou ordenação."
+        },
+        {
+          "id": "B",
+          "text": "confirmar cada byte obrigatoriamente."
+        },
+        {
+          "id": "C",
+          "text": "usar handshake de três etapas."
+        },
+        {
+          "id": "D",
+          "text": "não poder ser usado por aplicações confiáveis."
+        },
+        {
+          "id": "E",
+          "text": "operar somente na camada física."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A aplicação pode acrescentar seus próprios mecanismos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4147",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O protocolo usado pelo ping para Echo Request/Reply é",
+      "options": [
+        {
+          "id": "A",
+          "text": "TCP."
+        },
+        {
+          "id": "B",
+          "text": "UDP."
+        },
+        {
+          "id": "C",
+          "text": "ARP."
+        },
+        {
+          "id": "D",
+          "text": "SMTP."
+        },
+        {
+          "id": "E",
+          "text": "ICMP."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Ping testa respostas ICMP e não utiliza porta TCP/UDP. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4148",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O tracert ajuda a identificar",
+      "options": [
+        {
+          "id": "A",
+          "text": "a senha do Wi-Fi."
+        },
+        {
+          "id": "B",
+          "text": "o conteúdo de páginas HTTPS."
+        },
+        {
+          "id": "C",
+          "text": "os saltos do caminho até o destino usando respostas ICMP e limites de salto."
+        },
+        {
+          "id": "D",
+          "text": "somente a tabela ARP."
+        },
+        {
+          "id": "E",
+          "text": "os registros de e-mail do usuário."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tracert mostra roteadores intermediários que respondem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4149",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "DNS é responsável principalmente por",
+      "options": [
+        {
+          "id": "A",
+          "text": "distribuir concessões IP."
+        },
+        {
+          "id": "B",
+          "text": "resolver IPv4 em MAC local."
+        },
+        {
+          "id": "C",
+          "text": "rotear pacotes."
+        },
+        {
+          "id": "D",
+          "text": "filtrar portas."
+        },
+        {
+          "id": "E",
+          "text": "resolver nomes e publicar registros como A, AAAA e MX."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "DNS trabalha com nomes e registros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4150",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A associação correta de registros DNS é",
+      "options": [
+        {
+          "id": "A",
+          "text": "A para MAC, AAAA para porta e MX para máscara."
+        },
+        {
+          "id": "B",
+          "text": "MX para alias e CNAME para correio."
+        },
+        {
+          "id": "C",
+          "text": "A para IPv4, AAAA para IPv6 e MX para servidores de correio."
+        },
+        {
+          "id": "D",
+          "text": "PTR para DHCP e NS para NAT."
+        },
+        {
+          "id": "E",
+          "text": "AAAA para IPv4 e A para IPv6."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Cada tipo de registro possui finalidade definida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4151",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O processo DORA do DHCPv4 corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "DNS, Offer, Route e ARP."
+        },
+        {
+          "id": "B",
+          "text": "Discover, Offer, Request e Acknowledgment."
+        },
+        {
+          "id": "C",
+          "text": "Discover, Open, Reply e Accept."
+        },
+        {
+          "id": "D",
+          "text": "Data, Object, Request e API."
+        },
+        {
+          "id": "E",
+          "text": "Download, Output, Retry e ACK."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "DORA resume a negociação básica de concessão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4152",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "ARP é usado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "resolver domínio em IPv6."
+        },
+        {
+          "id": "B",
+          "text": "atribuir gateway por concessão."
+        },
+        {
+          "id": "C",
+          "text": "encaminhar pacotes entre WANs."
+        },
+        {
+          "id": "D",
+          "text": "associar endereço IPv4 local a endereço MAC."
+        },
+        {
+          "id": "E",
+          "text": "criptografar quadros."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "ARP opera no enlace local do IPv4. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4153",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando o destino IP está fora da sub-rede local, o host",
+      "options": [
+        {
+          "id": "A",
+          "text": "usa uma rota e envia ao gateway local, se houver rota apropriada."
+        },
+        {
+          "id": "B",
+          "text": "faz ARP para o MAC do destino remoto pela Internet."
+        },
+        {
+          "id": "C",
+          "text": "envia sempre ao DNS."
+        },
+        {
+          "id": "D",
+          "text": "transforma o pacote em broadcast."
+        },
+        {
+          "id": "E",
+          "text": "dispensa o endereço MAC do próximo salto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Roteamento separa destinos locais e remotos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4154",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "As taxas clássicas Ethernet, Fast Ethernet e Gigabit Ethernet são",
+      "options": [
+        {
+          "id": "A",
+          "text": "100 Mb/s, 1 Gb/s e 10 Gb/s."
+        },
+        {
+          "id": "B",
+          "text": "10 Mb/s, 100 Mb/s e 1 Gb/s."
+        },
+        {
+          "id": "C",
+          "text": "1 Mb/s, 10 Mb/s e 100 Mb/s."
+        },
+        {
+          "id": "D",
+          "text": "10 Gb/s, 100 Gb/s e 1 Tb/s."
+        },
+        {
+          "id": "E",
+          "text": "todas 1 Gb/s."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A nomenclatura clássica corresponde a 10, 100 e 1000 Mb/s. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4155",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Roteamento estático e dinâmico diferenciam-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o estático se adapta sozinho e o dinâmico é fixo."
+        },
+        {
+          "id": "B",
+          "text": "o dinâmico não usa tabelas."
+        },
+        {
+          "id": "C",
+          "text": "o estático só existe na Internet."
+        },
+        {
+          "id": "D",
+          "text": "ambos dispensam gateway."
+        },
+        {
+          "id": "E",
+          "text": "rotas estáticas são configuradas manualmente; protocolos dinâmicos aprendem e ajustam rotas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A diferença central é configuração manual versus aprendizagem por protocolo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4156",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ethernet e Wi-Fi estão associados, respectivamente, às famílias",
+      "options": [
+        {
+          "id": "A",
+          "text": "IEEE 802.11 e IEEE 802.3."
+        },
+        {
+          "id": "B",
+          "text": "HTTP e SMTP."
+        },
+        {
+          "id": "C",
+          "text": "TCP e UDP."
+        },
+        {
+          "id": "D",
+          "text": "IEEE 802.3 e IEEE 802.11."
+        },
+        {
+          "id": "E",
+          "text": "OSI e e-PING."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "São famílias de padrões para redes cabeadas e sem fio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4157",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O método HTTP GET é usado principalmente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "obter uma representação de recurso."
+        },
+        {
+          "id": "B",
+          "text": "apagar arquivo local."
+        },
+        {
+          "id": "C",
+          "text": "criar conexão TCP."
+        },
+        {
+          "id": "D",
+          "text": "atribuir IP por DHCP."
+        },
+        {
+          "id": "E",
+          "text": "resolver nome DNS."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "GET possui semântica de obtenção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4158",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual código HTTP indica recurso não encontrado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "200."
+        },
+        {
+          "id": "B",
+          "text": "201."
+        },
+        {
+          "id": "C",
+          "text": "404."
+        },
+        {
+          "id": "D",
+          "text": "301."
+        },
+        {
+          "id": "E",
+          "text": "503."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "404 pertence à classe de erros do cliente e indica não encontrado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4159",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "HTTPS é",
+      "options": [
+        {
+          "id": "A",
+          "text": "um substituto do DNS."
+        },
+        {
+          "id": "B",
+          "text": "HTTP sem autenticação e sem criptografia."
+        },
+        {
+          "id": "C",
+          "text": "HTTP protegido por TLS, oferecendo confidencialidade e integridade em trânsito conforme a configuração."
+        },
+        {
+          "id": "D",
+          "text": "um formato de arquivo."
+        },
+        {
+          "id": "E",
+          "text": "um protocolo que elimina qualquer falha de autorização."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "TLS protege o canal, mas não corrige lógica da aplicação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4160",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A afirmação correta sobre HTTP/3 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usa QUIC sobre UDP."
+        },
+        {
+          "id": "B",
+          "text": "usa obrigatoriamente FTP."
+        },
+        {
+          "id": "C",
+          "text": "é sempre HTTP/1.1 com outro nome."
+        },
+        {
+          "id": "D",
+          "text": "não usa criptografia."
+        },
+        {
+          "id": "E",
+          "text": "opera na camada física."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "HTTP/3 foi definido sobre QUIC, que usa UDP. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4161",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "SMTP é usado principalmente para",
+      "options": [
+        {
+          "id": "A",
+          "text": "ler arquivos por SFTP."
+        },
+        {
+          "id": "B",
+          "text": "atribuir endereços IP."
+        },
+        {
+          "id": "C",
+          "text": "resolver nomes."
+        },
+        {
+          "id": "D",
+          "text": "sincronizar pastas de e-mail no cliente como função principal."
+        },
+        {
+          "id": "E",
+          "text": "enviar mensagens e transferi-las entre servidores de correio."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "SMTP é protocolo de envio/transferência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4162",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "IMAP distingue-se de POP3 porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "é protocolo de roteamento."
+        },
+        {
+          "id": "B",
+          "text": "é orientado ao acesso e sincronização das mensagens mantidas no servidor."
+        },
+        {
+          "id": "C",
+          "text": "usa ARP para ler mensagens."
+        },
+        {
+          "id": "D",
+          "text": "é igual a SMTP."
+        },
+        {
+          "id": "E",
+          "text": "não pode manter mensagens no servidor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "IMAP preserva visão sincronizada da caixa no servidor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4163",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No FTP, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "usa apenas UDP 53."
+        },
+        {
+          "id": "B",
+          "text": "é sinônimo de SFTP."
+        },
+        {
+          "id": "C",
+          "text": "oferece criptografia intrínseca obrigatória."
+        },
+        {
+          "id": "D",
+          "text": "há canal de controle e canal de dados, e os modos ativo/passivo diferem na abertura da conexão de dados."
+        },
+        {
+          "id": "E",
+          "text": "não transfere arquivos binários."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A arquitetura clássica do FTP separa controle e dados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4164",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "FTPS e SFTP diferenciam-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "SFTP é FTP sem criptografia."
+        },
+        {
+          "id": "B",
+          "text": "FTPS usa obrigatoriamente SSH."
+        },
+        {
+          "id": "C",
+          "text": "são sinônimos absolutos."
+        },
+        {
+          "id": "D",
+          "text": "FTPS protege FTP com TLS; SFTP é subsistema sobre SSH."
+        },
+        {
+          "id": "E",
+          "text": "nenhum pode transferir arquivos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "São protocolos/arquiteturas distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4165",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O comando ipconfig /all exibe",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente rotas BGP."
+        },
+        {
+          "id": "B",
+          "text": "configuração detalhada dos adaptadores, incluindo IP, máscara, gateway, DHCP, DNS e MAC."
+        },
+        {
+          "id": "C",
+          "text": "conteúdo de pacotes HTTPS."
+        },
+        {
+          "id": "D",
+          "text": "apenas cache ARP."
+        },
+        {
+          "id": "E",
+          "text": "somente senhas Wi-Fi."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ipconfig /all é ferramenta básica de configuração TCP/IP no Windows. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4166",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A associação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ipconfig /renew solicita renovação DHCP e ipconfig /flushdns limpa o cache DNS local."
+        },
+        {
+          "id": "B",
+          "text": "/renew apaga rotas e /flushdns reinicia o switch."
+        },
+        {
+          "id": "C",
+          "text": "/renew consulta MX e /flushdns libera DHCP."
+        },
+        {
+          "id": "D",
+          "text": "ambos mostram apenas MAC."
+        },
+        {
+          "id": "E",
+          "text": "/flushdns altera o servidor autoritativo da Internet."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os parâmetros atuam em concessão DHCP e cache do resolvedor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4167",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "nslookup é apropriado para",
+      "options": [
+        {
+          "id": "A",
+          "text": "medir cabos."
+        },
+        {
+          "id": "B",
+          "text": "alterar tabela ARP exclusivamente."
+        },
+        {
+          "id": "C",
+          "text": "listar processos em escuta."
+        },
+        {
+          "id": "D",
+          "text": "calcular máscara sem consultar nomes."
+        },
+        {
+          "id": "E",
+          "text": "consultar registros e diagnosticar a infraestrutura DNS."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Nslookup realiza consultas DNS. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4168",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "netstat -ano pode mostrar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente senhas de usuário."
+        },
+        {
+          "id": "B",
+          "text": "apenas a máscara de sub-rede."
+        },
+        {
+          "id": "C",
+          "text": "conexões, portas em escuta, endereços numéricos e PID."
+        },
+        {
+          "id": "D",
+          "text": "conteúdo descriptografado de HTTPS."
+        },
+        {
+          "id": "E",
+          "text": "código-fonte do serviço."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Netstat observa endpoints e estados de transporte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4169",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O comando arp -a exibe",
+      "options": [
+        {
+          "id": "A",
+          "text": "registros MX."
+        },
+        {
+          "id": "B",
+          "text": "concessões DHCP do servidor."
+        },
+        {
+          "id": "C",
+          "text": "rotas BGP globais."
+        },
+        {
+          "id": "D",
+          "text": "certificados TLS."
+        },
+        {
+          "id": "E",
+          "text": "entradas atuais do cache ARP, associando IPv4 a endereços físicos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "arp -a consulta o cache local ARP. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4170",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se ping por IP funciona e ping por nome falha, a hipótese inicial é",
+      "options": [
+        {
+          "id": "A",
+          "text": "falha obrigatória do switch."
+        },
+        {
+          "id": "B",
+          "text": "endereço de broadcast como destino local."
+        },
+        {
+          "id": "C",
+          "text": "problema de resolução DNS."
+        },
+        {
+          "id": "D",
+          "text": "ausência de TCP no servidor."
+        },
+        {
+          "id": "E",
+          "text": "defeito físico comprovado no roteador."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A diferença entre IP e nome isola a resolução de nomes como suspeita. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4171",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A ausência de resposta ao ping",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que todo TCP e UDP estão desligados."
+        },
+        {
+          "id": "B",
+          "text": "pode resultar de filtragem ICMP e não prova sozinha que o serviço está indisponível."
+        },
+        {
+          "id": "C",
+          "text": "confirma que o DNS está correto."
+        },
+        {
+          "id": "D",
+          "text": "demonstra que não existe rota até qualquer endereço."
+        },
+        {
+          "id": "E",
+          "text": "significa que a porta 443 está fechada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ping mede o comportamento ICMP, não todos os serviços. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4172",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "NAT e firewall distinguem-se porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "NAT sempre criptografa e firewall atribui IP."
+        },
+        {
+          "id": "B",
+          "text": "firewall resolve DNS e NAT envia e-mail."
+        },
+        {
+          "id": "C",
+          "text": "são o mesmo protocolo."
+        },
+        {
+          "id": "D",
+          "text": "NAT traduz endereços/portas; firewall aplica política de tráfego, embora um equipamento possa fazer ambos."
+        },
+        {
+          "id": "E",
+          "text": "NAT substitui TCP."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Funções podem coexistir no aparelho, mas não são equivalentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4173",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Interoperabilidade técnica refere-se a",
+      "options": [
+        {
+          "id": "A",
+          "text": "conectividade, protocolos, formatos e capacidade de trocar/processar mensagens."
+        },
+        {
+          "id": "B",
+          "text": "significado comum dos códigos apenas."
+        },
+        {
+          "id": "C",
+          "text": "organograma dos órgãos apenas."
+        },
+        {
+          "id": "D",
+          "text": "autorização irrestrita para compartilhar dados."
+        },
+        {
+          "id": "E",
+          "text": "identidade visual dos portais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A dimensão técnica trata da possibilidade material de integração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4174",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Interoperabilidade semântica exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente uma conexão TCP."
+        },
+        {
+          "id": "B",
+          "text": "que campos, códigos e conceitos tenham significado compartilhado."
+        },
+        {
+          "id": "C",
+          "text": "o mesmo fabricante de hardware."
+        },
+        {
+          "id": "D",
+          "text": "usar qualquer JSON sem dicionário."
+        },
+        {
+          "id": "E",
+          "text": "eliminar regras de negócio."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Trocar bytes não garante interpretação equivalente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4175",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Interoperabilidade organizacional envolve",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a porta 443."
+        },
+        {
+          "id": "B",
+          "text": "somente codificação UTF-8."
+        },
+        {
+          "id": "C",
+          "text": "apenas um switch comum."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente o endereço IP."
+        },
+        {
+          "id": "E",
+          "text": "processos, responsabilidades, governança e acordos entre as instituições."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A organização precisa sustentar a integração técnica e semântica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4176",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A associação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "JSON é protocolo de roteamento."
+        },
+        {
+          "id": "B",
+          "text": "REST é formato de arquivo."
+        },
+        {
+          "id": "C",
+          "text": "HTTP é banco de dados."
+        },
+        {
+          "id": "D",
+          "text": "API é interface/contrato, REST é estilo, HTTP é protocolo e JSON é representação."
+        },
+        {
+          "id": "E",
+          "text": "API é sinônimo obrigatório de REST."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os termos ocupam papéis diferentes na integração. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4177",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre a e-PING, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "define padrões mínimos de interoperabilidade no contexto federal indicado e não obriga automaticamente todo órgão brasileiro."
+        },
+        {
+          "id": "B",
+          "text": "autoriza compartilhamento irrestrito de dados."
+        },
+        {
+          "id": "C",
+          "text": "exige somente padrões proprietários."
+        },
+        {
+          "id": "D",
+          "text": "substitui a LGPD."
+        },
+        {
+          "id": "E",
+          "text": "é protocolo de transporte."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A aplicabilidade e os limites da e-PING devem ser observados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4178",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Lei nº 14.129/2021 e a interoperabilidade pública",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminam qualquer restrição de acesso."
+        },
+        {
+          "id": "B",
+          "text": "dispensam base legal para dados pessoais."
+        },
+        {
+          "id": "C",
+          "text": "devem ser aplicadas com respeito a finalidade, competência, LAI, LGPD e sigilos legais."
+        },
+        {
+          "id": "D",
+          "text": "obrigam todos os entes sem regime de adoção."
+        },
+        {
+          "id": "E",
+          "text": "transformam JSON em padrão jurídico universal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Governo Digital não elimina proteção de dados, sigilo ou competência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4179",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Qual é a representação binária do endereço IPv4 192.168.10.50?",
+      "options": [
+        {
+          "id": "A",
+          "text": "11000010.10101000.00001010.00110010"
+        },
+        {
+          "id": "B",
+          "text": "11000010.10101010.00001010.00110010"
+        },
+        {
+          "id": "C",
+          "text": "11000000.10101000.00001010.00110011"
+        },
+        {
+          "id": "D",
+          "text": "11000000.10101000.00001010.00110010"
+        },
+        {
+          "id": "E",
+          "text": "11000000.10101010.00001010.00110011"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "192 = 11000000, 168 = 10101000, 10 = 00001010 e 50 = 00110010. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 31; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado, valores e alternativas preservados."
+    },
+    {
+      "id": "q4180",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No Prompt de Comando do Windows, qual comando exibe a configuração de rede TCP/IP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ifconfig"
+        },
+        {
+          "id": "B",
+          "text": "netconfig"
+        },
+        {
+          "id": "C",
+          "text": "format"
+        },
+        {
+          "id": "D",
+          "text": "systeminfo"
+        },
+        {
+          "id": "E",
+          "text": "ipconfig"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "No Windows, ipconfig exibe a configuração TCP/IP dos adaptadores. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 32; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado atualizado para explicitar o Windows, alternativas preservadas."
+    },
+    {
+      "id": "q4181",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um endereço IPv6 completo possui quantos bits?",
+      "options": [
+        {
+          "id": "A",
+          "text": "128 bits"
+        },
+        {
+          "id": "B",
+          "text": "256 bits"
+        },
+        {
+          "id": "C",
+          "text": "32 bits"
+        },
+        {
+          "id": "D",
+          "text": "64 bits"
+        },
+        {
+          "id": "E",
+          "text": "16 bits"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O IPv6 possui oito grupos de 16 bits, totalizando 128 bits. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 43; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado, alternativas preservadas."
+    },
+    {
+      "id": "q4182",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em uma sub-rede IPv4 192.168.10.0/24, qual serviço fornece automaticamente endereços e parâmetros aos dispositivos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NAT"
+        },
+        {
+          "id": "B",
+          "text": "DNS"
+        },
+        {
+          "id": "C",
+          "text": "FTP"
+        },
+        {
+          "id": "D",
+          "text": "HTTP"
+        },
+        {
+          "id": "E",
+          "text": "DHCP"
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "DHCP distribui configuração de rede; .0 identifica a rede e .255 é broadcast nesse /24. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 44; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: cenário condensado, alternativas preservadas."
+    },
+    {
+      "id": "q4183",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma rede 192.168.10.0/24 usa 192.168.10.1 como gateway e servidor DHCP. Para dedicar cinco endereços estáveis a três impressoras e dois servidores, mantendo DHCP para os demais clientes, a medida adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reservar no DHCP ao menos cinco endereços utilizáveis dentro da faixa de hosts, excluindo-os da distribuição dinâmica conforme a configuração adotada."
+        },
+        {
+          "id": "B",
+          "text": "reservar seis endereços incluindo 192.168.10.0 e 192.168.10.255."
+        },
+        {
+          "id": "C",
+          "text": "desativar o DHCP e configurar todos os clientes estaticamente."
+        },
+        {
+          "id": "D",
+          "text": "usar somente endereços de broadcast para os equipamentos fixos."
+        },
+        {
+          "id": "E",
+          "text": "instalar NAT para realizar as reservas DHCP."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Reservas ou exclusões no escopo DHCP mantêm administração dinâmica e fornecem configuração estável; rede e broadcast não são hosts. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 45; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: redação técnica atualizada, preservando o problema e o gabarito."
+    },
+    {
+      "id": "q4184",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No modelo OSI, roteador, hub e switch pertencem tipicamente, respectivamente, às camadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "2, 1 e 3."
+        },
+        {
+          "id": "B",
+          "text": "1, 2 e 3."
+        },
+        {
+          "id": "C",
+          "text": "2, 3 e 1."
+        },
+        {
+          "id": "D",
+          "text": "3, 2 e 1."
+        },
+        {
+          "id": "E",
+          "text": "3, 1 e 2."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Roteador opera na camada 3, hub na 1 e switch Ethernet típico na 2. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 46; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado, alternativas preservadas."
+    },
+    {
+      "id": "q4185",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No modelo TCP/IP de quatro camadas, qual camada engloba as funções das camadas de sessão, apresentação e aplicação do OSI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acesso à rede."
+        },
+        {
+          "id": "B",
+          "text": "Transporte."
+        },
+        {
+          "id": "C",
+          "text": "Rede."
+        },
+        {
+          "id": "D",
+          "text": "Aplicação."
+        },
+        {
+          "id": "E",
+          "text": "Internet."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A camada de Aplicação do TCP/IP reúne as três camadas superiores do modelo OSI. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 47; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado, terminologia normalizada."
+    },
+    {
+      "id": "q4186",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Redes que abrangem países ou extensão global são classificadas como",
+      "options": [
+        {
+          "id": "A",
+          "text": "LANs."
+        },
+        {
+          "id": "B",
+          "text": "WANs."
+        },
+        {
+          "id": "C",
+          "text": "PANs."
+        },
+        {
+          "id": "D",
+          "text": "MANs."
+        },
+        {
+          "id": "E",
+          "text": "SANs."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "WANs cobrem áreas geográficas extensas. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 48; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado, alternativas preservadas."
+    },
+    {
+      "id": "q4187",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Qual protocolo permite ao usuário acessar e sincronizar mensagens de correio mantendo-as no servidor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SMTP."
+        },
+        {
+          "id": "B",
+          "text": "TCP."
+        },
+        {
+          "id": "C",
+          "text": "IP."
+        },
+        {
+          "id": "D",
+          "text": "POP3."
+        },
+        {
+          "id": "E",
+          "text": "IMAP."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "IMAP é orientado ao acesso e sincronização da caixa postal no servidor. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 50; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado e explicação atualizada, alternativas preservadas."
+    },
+    {
+      "id": "q4188",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As taxas clássicas de Ethernet, Fast Ethernet e Gigabit Ethernet são, respectivamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "100 Mb/s, 1 Gb/s e 10 Gb/s."
+        },
+        {
+          "id": "B",
+          "text": "100 Gb/s, 1 Gb/s e 100 Gb/s."
+        },
+        {
+          "id": "C",
+          "text": "10 Mb/s, 100 Mb/s e 1 Gb/s."
+        },
+        {
+          "id": "D",
+          "text": "1 Gb/s, 10 Gb/s e 100 Gb/s."
+        },
+        {
+          "id": "E",
+          "text": "10 Mb/s, 10 Gb/s e 10 Gb/s."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A nomenclatura clássica corresponde a 10, 100 e 1000 Mb/s. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 51; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: unidades tipográficas normalizadas, alternativas preservadas."
+    },
+    {
+      "id": "q4189",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A diferença fundamental entre roteamento estático e dinâmico é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "rotas estáticas são atualizadas automaticamente e rotas dinâmicas manualmente."
+        },
+        {
+          "id": "B",
+          "text": "rotas estáticas adaptam-se sozinhas e rotas dinâmicas são fixas."
+        },
+        {
+          "id": "C",
+          "text": "rotas estáticas são configuradas manualmente; rotas dinâmicas são aprendidas e ajustadas por protocolos."
+        },
+        {
+          "id": "D",
+          "text": "roteamento estático usa algoritmos avançados e o dinâmico apenas listas fixas."
+        },
+        {
+          "id": "E",
+          "text": "estático só é usado em redes grandes e dinâmico somente em redes pequenas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A configuração manual caracteriza o estático; aprendizagem e atualização por protocolo caracterizam o dinâmico. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 52; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: redação condensada, conhecimento e gabarito preservados."
+    },
+    {
+      "id": "q4190",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Um roteador foi configurado com 220.42.17.6/29 e gateway 220.42.17.7. Por que não alcança dispositivos remotos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O endereço da interface é inválido."
+        },
+        {
+          "id": "B",
+          "text": "O gateway está em outra sub-rede."
+        },
+        {
+          "id": "C",
+          "text": "O gateway configurado é o endereço de broadcast do bloco /29."
+        },
+        {
+          "id": "D",
+          "text": "O provedor necessariamente bloqueia todo tráfego."
+        },
+        {
+          "id": "E",
+          "text": "O roteador obrigatoriamente está defeituoso."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Em 220.42.17.0/29, .0 é rede, .1–.6 são hosts e .7 é broadcast. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 53; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado, endereços e gabarito preservados."
+    },
+    {
+      "id": "q4191",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Qual é a função principal do ARP em uma LAN IPv4?",
+      "options": [
+        {
+          "id": "A",
+          "text": "estabelecer conexões seguras entre LANs e WANs."
+        },
+        {
+          "id": "B",
+          "text": "otimizar todo o tráfego por controle de congestionamento."
+        },
+        {
+          "id": "C",
+          "text": "fornecer compartilhamento de arquivos e impressoras."
+        },
+        {
+          "id": "D",
+          "text": "associar um endereço IPv4 local ao endereço físico MAC correspondente."
+        },
+        {
+          "id": "E",
+          "text": "controlar acesso à Internet como firewall."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "ARP resolve IPv4 em endereço de enlace para comunicação local. Fonte: questão adaptada de FGV; ALEMA; Técnico de Gestão Administrativa — Analista de Suporte de Rede; 2023; questão 55; prova https://conhecimento.fgv.br/sites/default/files/concursos/cns106-tecnico-de-gestao-administrativa-analista-de-suporte-de-redecns106-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/alema-2023-gabarito-final-para-publicacao-retificado-04.10.2023.pdf; adaptação: enunciado condensado, alternativas semanticamente preservadas."
+    }
+  ]
+}

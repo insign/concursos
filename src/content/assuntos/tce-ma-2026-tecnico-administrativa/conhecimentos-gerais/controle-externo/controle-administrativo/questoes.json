@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q5619",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Controle administrativo é a atividade pela qual",
+      "options": [
+        {
+          "id": "A",
+          "text": "a própria Administração acompanha, fiscaliza, corrige e revê sua atuação nos limites jurídicos."
+        },
+        {
+          "id": "B",
+          "text": "somente o Poder Judiciário invalida atos administrativos."
+        },
+        {
+          "id": "C",
+          "text": "o Poder Legislativo substitui permanentemente o administrador."
+        },
+        {
+          "id": "D",
+          "text": "particulares aplicam sanções administrativas sem processo público."
+        },
+        {
+          "id": "E",
+          "text": "os tribunais de contas exercem hierarquia sobre todos os órgãos administrativos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O elemento distintivo é o controle exercido pela própria Administração sobre sua atuação, seus órgãos e, nos limites legais, entidades vinculadas."
+    },
+    {
+      "id": "q5620",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Lei nº 9.784/1999 estabelece diretamente normas básicas de processo administrativo",
+      "options": [
+        {
+          "id": "A",
+          "text": "para todos os entes federativos como lei nacional uniforme."
+        },
+        {
+          "id": "B",
+          "text": "no âmbito da Administração Pública federal direta e indireta."
+        },
+        {
+          "id": "C",
+          "text": "apenas para processos judiciais federais."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente para empresas privadas contratadas."
+        },
+        {
+          "id": "E",
+          "text": "somente para o Poder Executivo federal, sem alcançar função administrativa de outros Poderes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 1º da Lei nº 9.784/1999 disciplina o processo administrativo federal e também alcança órgãos federais dos Poderes Legislativo e Judiciário quando exercem função administrativa."
+    },
+    {
+      "id": "q5621",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O processo administrativo federal pode iniciar-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente por ordem judicial."
+        },
+        {
+          "id": "B",
+          "text": "apenas mediante recurso do interessado."
+        },
+        {
+          "id": "C",
+          "text": "de ofício ou a pedido de interessado."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente após autorização legislativa."
+        },
+        {
+          "id": "E",
+          "text": "apenas por provocação do Ministério Público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 5º da Lei nº 9.784/1999 admite iniciativa de ofício e a pedido de interessado, evidenciando que o controle administrativo pode ser oficial ou provocado."
+    },
+    {
+      "id": "q5622",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre solicitações e reclamações em matéria de sua competência, a Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode permanecer indefinidamente sem resposta."
+        },
+        {
+          "id": "B",
+          "text": "só decide se houver depósito prévio."
+        },
+        {
+          "id": "C",
+          "text": "transfere a decisão ao requerente."
+        },
+        {
+          "id": "D",
+          "text": "tem o dever de emitir decisão explícita."
+        },
+        {
+          "id": "E",
+          "text": "só precisa decidir se houver determinação judicial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Os arts. 48 e 49 da Lei nº 9.784/1999 impõem dever de decisão explícita e disciplinam o prazo decisório após a instrução."
+    },
+    {
+      "id": "q5623",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O controle hierárquico ocorre tipicamente",
+      "options": [
+        {
+          "id": "A",
+          "text": "entre órgãos e autoridades subordinados dentro da mesma pessoa jurídica."
+        },
+        {
+          "id": "B",
+          "text": "entre qualquer ministério e qualquer empresa estatal, por subordinação plena."
+        },
+        {
+          "id": "C",
+          "text": "somente entre Poderes distintos."
+        },
+        {
+          "id": "D",
+          "text": "entre tribunal de contas e órgão fiscalizado."
+        },
+        {
+          "id": "E",
+          "text": "apenas quando houver ordem judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Hierarquia pressupõe relação interna de subordinação na mesma pessoa jurídica; vinculação entre Administração direta e entidade indireta não gera hierarquia geral."
+    },
+    {
+      "id": "q5624",
+      "revision": 2,
+      "origin": "previous_exam",
+      "prompt": "Acerca do controle administrativo, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "A fiscalização da Administração direta sobre autarquias caracteriza subordinação hierárquica plena."
+        },
+        {
+          "id": "B",
+          "text": "A supervisão ou tutela administrativa exercida pelo Poder Executivo sobre empresas estatais somente pode ocorrer nos limites estabelecidos em lei."
+        },
+        {
+          "id": "C",
+          "text": "A autotutela permite rever ilegalidades, mas nunca autoriza revogar ato válido por conveniência ou oportunidade."
+        },
+        {
+          "id": "D",
+          "text": "Na autotutela há mera vinculação, enquanto na tutela administrativa existe subordinação hierárquica."
+        },
+        {
+          "id": "E",
+          "text": "O controle administrativo somente pode ser iniciado de ofício, não podendo resultar de provocação de pessoa privada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A supervisão finalística ou tutela sobre entidade vinculada depende de fundamento e limites legais e não se confunde com hierarquia. Adaptação da questão 66 da prova Cebraspe/CAGEPA 2024, Cargo 7 — Atuário, aplicação em 1/9/2024, caderno 992_CAGEPA_007_01; gabarito oficial definitivo: B."
+    },
+    {
+      "id": "q5625",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A relação entre um ministério e uma autarquia a ele vinculada é, em regra, de",
+      "options": [
+        {
+          "id": "A",
+          "text": "subordinação hierárquica integral."
+        },
+        {
+          "id": "B",
+          "text": "supervisão finalística, sem hierarquia geral."
+        },
+        {
+          "id": "C",
+          "text": "controle jurisdicional."
+        },
+        {
+          "id": "D",
+          "text": "independência absoluta, sem qualquer fiscalização."
+        },
+        {
+          "id": "E",
+          "text": "delegação automática de todas as competências da entidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A entidade da Administração indireta possui personalidade própria; a vinculação permite supervisão nos termos legais, mas não cria subordinação hierárquica geral."
+    },
+    {
+      "id": "q5626",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto à delegação e à avocação na Lei nº 9.784/1999, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas pressupõem sempre subordinação hierárquica."
+        },
+        {
+          "id": "B",
+          "text": "delegação transfere definitivamente a titularidade da competência."
+        },
+        {
+          "id": "C",
+          "text": "avocação pode ocorrer entre órgãos sem relação hierárquica."
+        },
+        {
+          "id": "D",
+          "text": "delegação pode alcançar órgão não subordinado, enquanto avocação pressupõe órgão hierarquicamente inferior."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma delas precisa ser motivada ou delimitada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A delegação pode alcançar órgão ou titular não subordinado, se atendidos os requisitos legais; a avocação é excepcional, temporária e pressupõe inferioridade hierárquica."
+    },
+    {
+      "id": "q5627",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No modelo do Decreto-Lei nº 200/1967, a supervisão da Administração indireta deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar a autonomia administrativa da entidade."
+        },
+        {
+          "id": "B",
+          "text": "transformar a entidade em órgão interno do ministério."
+        },
+        {
+          "id": "C",
+          "text": "assegurar finalidade, harmonia governamental e eficiência, preservando a autonomia legal da entidade."
+        },
+        {
+          "id": "D",
+          "text": "autorizar o ministro a substituir qualquer decisão da entidade."
+        },
+        {
+          "id": "E",
+          "text": "dispensar a entidade de prestar contas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 26 do Decreto-Lei nº 200/1967 combina realização dos objetivos, harmonia com a política governamental, eficiência e preservação da autonomia administrativa, operacional e financeira."
+    },
+    {
+      "id": "q5628",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um ministério pretende assumir, sem previsão legal, competência atribuída a uma autarquia apenas porque ela lhe é vinculada. Essa atuação",
+      "options": [
+        {
+          "id": "A",
+          "text": "é válida, pois vinculação equivale a hierarquia."
+        },
+        {
+          "id": "B",
+          "text": "é válida se o ministro discordar do mérito."
+        },
+        {
+          "id": "C",
+          "text": "é obrigatória em qualquer supervisão finalística."
+        },
+        {
+          "id": "D",
+          "text": "é incompatível com a autonomia da entidade e com os limites legais da tutela."
+        },
+        {
+          "id": "E",
+          "text": "converte automaticamente a autarquia em órgão do ministério."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Supervisão finalística não autoriza substituição indiscriminada de competência. Vinculação e hierarquia são relações distintas."
+    },
+    {
+      "id": "q5629",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A autotutela administrativa significa que a Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "só pode rever seus atos depois de autorização judicial."
+        },
+        {
+          "id": "B",
+          "text": "pode controlar seus próprios atos, observados legalidade, segurança jurídica e garantias processuais."
+        },
+        {
+          "id": "C",
+          "text": "pode modificar decisões judiciais transitadas em julgado."
+        },
+        {
+          "id": "D",
+          "text": "fica dispensada de motivação quando desfaz ato favorável."
+        },
+        {
+          "id": "E",
+          "text": "pode ignorar prazos decadenciais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autotutela é poder-dever de controle dos próprios atos, mas permanece sujeita aos limites jurídicos, inclusive processo, decadência, boa-fé e controle judicial posterior."
+    },
+    {
+      "id": "q5630",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Súmula 346 do STF reconhece que a Administração Pública",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode declarar a nulidade de seus próprios atos."
+        },
+        {
+          "id": "B",
+          "text": "só pode anular atos mediante sentença judicial."
+        },
+        {
+          "id": "C",
+          "text": "pode declarar leis inconstitucionais com efeito geral."
+        },
+        {
+          "id": "D",
+          "text": "não pode corrigir ilegalidade de ofício."
+        },
+        {
+          "id": "E",
+          "text": "só pode revogar atos, nunca anulá-los."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Súmula 346 expressa a autotutela anulatória da Administração."
+    },
+    {
+      "id": "q5631",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Súmula 473 do STF distingue",
+      "options": [
+        {
+          "id": "A",
+          "text": "controle parlamentar e controle judicial."
+        },
+        {
+          "id": "B",
+          "text": "supervisão ministerial e controle externo."
+        },
+        {
+          "id": "C",
+          "text": "anulação por ilegalidade e revogação por conveniência ou oportunidade."
+        },
+        {
+          "id": "D",
+          "text": "recurso administrativo e ação judicial."
+        },
+        {
+          "id": "E",
+          "text": "delegação e desconcentração."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Súmula 473 é referência clássica da autotutela: ilegalidade conduz à anulação; conveniência ou oportunidade de ato válido pode conduzir à revogação."
+    },
+    {
+      "id": "q5632",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O art. 53 da Lei nº 9.784/1999 estabelece que a Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode anular e deve revogar."
+        },
+        {
+          "id": "B",
+          "text": "deve anular ato com vício de legalidade e pode revogar por conveniência ou oportunidade."
+        },
+        {
+          "id": "C",
+          "text": "deve convalidar todo ato ilegal."
+        },
+        {
+          "id": "D",
+          "text": "só pode rever ato mediante provocação."
+        },
+        {
+          "id": "E",
+          "text": "deve submeter qualquer anulação ao Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os verbos do art. 53 são relevantes: a Administração deve anular o ato ilegal e pode revogar o ato válido por razões de mérito, respeitados os limites jurídicos."
+    },
+    {
+      "id": "q5633",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A retirada de um ato administrativo por vício de legalidade denomina-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogação."
+        },
+        {
+          "id": "B",
+          "text": "delegação."
+        },
+        {
+          "id": "C",
+          "text": "supervisão."
+        },
+        {
+          "id": "D",
+          "text": "anulação."
+        },
+        {
+          "id": "E",
+          "text": "avocação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Anulação é controle de legalidade; revogação pressupõe ato válido e juízo de mérito."
+    },
+    {
+      "id": "q5634",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A revogação administrativa pressupõe",
+      "options": [
+        {
+          "id": "A",
+          "text": "ato válido cuja manutenção se tornou inconveniente ou inoportuna."
+        },
+        {
+          "id": "B",
+          "text": "vício de legalidade desde a origem."
+        },
+        {
+          "id": "C",
+          "text": "condenação judicial do agente."
+        },
+        {
+          "id": "D",
+          "text": "dano obrigatório ao erário."
+        },
+        {
+          "id": "E",
+          "text": "competência exclusiva do Poder Judiciário."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Revogação incide sobre ato válido e decorre de juízo administrativo de conveniência e oportunidade."
+    },
+    {
+      "id": "q5635",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A convalidação prevista no art. 55 da Lei nº 9.784/1999 é possível quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o vício for insanável em qualquer hipótese."
+        },
+        {
+          "id": "B",
+          "text": "o defeito for sanável e não houver lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "id": "C",
+          "text": "a Administração quiser evitar a motivação."
+        },
+        {
+          "id": "D",
+          "text": "houver prejuízo obrigatório a terceiro."
+        },
+        {
+          "id": "E",
+          "text": "o ato depender de sentença penal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Convalidação preserva o ato ao corrigir defeito sanável, desde que não haja lesão ao interesse público nem prejuízo a terceiros."
+    },
+    {
+      "id": "q5636",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Administração federal identifica ilegalidade em ato favorável praticado há seis anos, sem má-fé do destinatário e sem medida anterior de impugnação. Em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve anular imediatamente, pois ilegalidade afasta qualquer prazo."
+        },
+        {
+          "id": "B",
+          "text": "o prazo só começa quando a Administração descobre o vício."
+        },
+        {
+          "id": "C",
+          "text": "a boa-fé é irrelevante."
+        },
+        {
+          "id": "D",
+          "text": "incide a decadência quinquenal do art. 54."
+        },
+        {
+          "id": "E",
+          "text": "a Administração deve revogar o ato por mérito."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 54 limita a anulação de atos favoráveis após cinco anos, salvo comprovada má-fé e observadas as regras sobre o exercício tempestivo do direito de anular."
+    },
+    {
+      "id": "q5637",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em ato com efeitos patrimoniais contínuos, o prazo do art. 54 da Lei nº 9.784/1999 conta",
+      "options": [
+        {
+          "id": "A",
+          "text": "da última auditoria."
+        },
+        {
+          "id": "B",
+          "text": "da percepção do primeiro pagamento."
+        },
+        {
+          "id": "C",
+          "text": "da descoberta do vício."
+        },
+        {
+          "id": "D",
+          "text": "da última parcela recebida."
+        },
+        {
+          "id": "E",
+          "text": "da primeira decisão judicial sobre a matéria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 1º do art. 54 fixa o primeiro pagamento como termo inicial para efeitos patrimoniais contínuos."
+    },
+    {
+      "id": "q5638",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A exceção expressa à decadência quinquenal do art. 54 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer erro formal."
+        },
+        {
+          "id": "B",
+          "text": "mudança de governo."
+        },
+        {
+          "id": "C",
+          "text": "má-fé comprovada."
+        },
+        {
+          "id": "D",
+          "text": "mera dúvida da autoridade."
+        },
+        {
+          "id": "E",
+          "text": "simples alteração de interpretação administrativa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei ressalva a má-fé comprovada. Ela não deve ser presumida apenas porque o ato é ilegal ou favorável ao destinatário."
+    },
+    {
+      "id": "q5639",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para fins do art. 54, § 2º, considera-se exercido o direito de anular quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorre qualquer movimentação burocrática no processo."
+        },
+        {
+          "id": "B",
+          "text": "há mera troca de servidor responsável."
+        },
+        {
+          "id": "C",
+          "text": "a autoridade formula medida que importe impugnação à validade do ato."
+        },
+        {
+          "id": "D",
+          "text": "o interessado deixa de apresentar documento irrelevante."
+        },
+        {
+          "id": "E",
+          "text": "o processo é arquivado sem exame da validade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 2º exige medida administrativa com conteúdo efetivo de impugnação à validade do ato."
+    },
+    {
+      "id": "q5640",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O núcleo do Tema 138 do STF é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a autotutela foi abolida."
+        },
+        {
+          "id": "B",
+          "text": "todo ato ilegal torna-se imediatamente imutável."
+        },
+        {
+          "id": "C",
+          "text": "o desfazimento de ato que já produziu efeitos concretos exige processo administrativo regular."
+        },
+        {
+          "id": "D",
+          "text": "somente o Poder Legislativo pode anular atos administrativos."
+        },
+        {
+          "id": "E",
+          "text": "todo desfazimento administrativo depende de sentença judicial prévia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Tema 138 preserva a autotutela, mas exige processo administrativo regular quando o ato já produziu efeitos concretos na esfera do interessado."
+    },
+    {
+      "id": "q5641",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A decisão administrativa que anula, revoga, suspende ou convalida ato",
+      "options": [
+        {
+          "id": "A",
+          "text": "dispensa motivação."
+        },
+        {
+          "id": "B",
+          "text": "deve ser motivada com indicação dos fatos e fundamentos jurídicos aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "só precisa indicar o nome da autoridade."
+        },
+        {
+          "id": "D",
+          "text": "é necessariamente secreta."
+        },
+        {
+          "id": "E",
+          "text": "depende de aprovação legislativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 50 da Lei nº 9.784/1999 inclui expressamente essas hipóteses entre as decisões que devem ser motivadas."
+    },
+    {
+      "id": "q5642",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O direito constitucional de petição",
+      "options": [
+        {
+          "id": "A",
+          "text": "depende de pagamento de taxa."
+        },
+        {
+          "id": "B",
+          "text": "é reservado a servidores públicos."
+        },
+        {
+          "id": "C",
+          "text": "independe de taxa e pode defender direitos ou combater ilegalidade ou abuso de poder."
+        },
+        {
+          "id": "D",
+          "text": "substitui automaticamente qualquer recurso previsto em lei."
+        },
+        {
+          "id": "E",
+          "text": "só pode ser exercido por advogado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 5º, XXXIV, da Constituição assegura petição aos poderes públicos, independentemente de taxas, em defesa de direitos ou contra ilegalidade ou abuso de poder."
+    },
+    {
+      "id": "q5643",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O controle administrativo provocado ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Administração só age por ordem judicial."
+        },
+        {
+          "id": "B",
+          "text": "um interessado formula petição, requerimento, reclamação, representação ou recurso que aciona a competência administrativa."
+        },
+        {
+          "id": "C",
+          "text": "o particular passa a decidir o processo."
+        },
+        {
+          "id": "D",
+          "text": "o pedido obriga a Administração a acolher o mérito."
+        },
+        {
+          "id": "E",
+          "text": "o tribunal de contas assume a competência do órgão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A provocação põe a competência administrativa em movimento, mas não transfere o poder decisório ao requerente nem garante procedência."
+    },
+    {
+      "id": "q5644",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A apresentação de requerimento pelo administrado",
+      "options": [
+        {
+          "id": "A",
+          "text": "transfere a competência decisória ao requerente."
+        },
+        {
+          "id": "B",
+          "text": "obriga a Administração a deferir o pedido."
+        },
+        {
+          "id": "C",
+          "text": "impede atuação de ofício sobre matéria conexa."
+        },
+        {
+          "id": "D",
+          "text": "provoca a Administração, que deve examinar a matéria segundo competência, processo e direito aplicável."
+        },
+        {
+          "id": "E",
+          "text": "retira da Administração o dever de motivar."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Controle provocado não significa decisão privada nem procedência automática; a autoridade competente deve instruir e decidir conforme o ordenamento."
+    },
+    {
+      "id": "q5645",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A desistência do interessado em processo administrativo federal",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre extingue o processo."
+        },
+        {
+          "id": "B",
+          "text": "obriga a Administração a reconhecer o pedido."
+        },
+        {
+          "id": "C",
+          "text": "não impede o prosseguimento se o interesse público assim exigir."
+        },
+        {
+          "id": "D",
+          "text": "transforma o processo em ação judicial."
+        },
+        {
+          "id": "E",
+          "text": "impede qualquer decisão de ofício."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 51, § 2º, permite prosseguimento quando o interesse público justificar, mostrando que o controle administrativo não depende integralmente da vontade do requerente."
+    },
+    {
+      "id": "q5646",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na Lei nº 9.784/1999, o recurso administrativo pode ser fundamentado em razões de",
+      "options": [
+        {
+          "id": "A",
+          "text": "legalidade e mérito."
+        },
+        {
+          "id": "B",
+          "text": "mérito apenas."
+        },
+        {
+          "id": "C",
+          "text": "legalidade apenas."
+        },
+        {
+          "id": "D",
+          "text": "natureza penal exclusivamente."
+        },
+        {
+          "id": "E",
+          "text": "competência legislativa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 56 admite razões de legalidade e de mérito, o que reforça a amplitude do controle administrativo dentro da competência revisora."
+    },
+    {
+      "id": "q5647",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na sistemática geral da Lei nº 9.784/1999, o recurso é inicialmente dirigido",
+      "options": [
+        {
+          "id": "A",
+          "text": "diretamente ao Poder Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "à autoridade que proferiu a decisão, que pode reconsiderá-la antes do encaminhamento à superior."
+        },
+        {
+          "id": "C",
+          "text": "sempre ao tribunal de contas."
+        },
+        {
+          "id": "D",
+          "text": "ao particular vencedor."
+        },
+        {
+          "id": "E",
+          "text": "ao Ministério Público, obrigatoriamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recurso é dirigido à autoridade que decidiu; se ela não reconsiderar em cinco dias, deve encaminhá-lo à autoridade superior. A reconsideração aqui integra o fluxo do recurso e não deve ser tratada como recurso autônomo genérico."
+    },
+    {
+      "id": "q5648",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Segundo a Súmula Vinculante 21, é inconstitucional",
+      "options": [
+        {
+          "id": "A",
+          "text": "permitir recurso administrativo sem advogado."
+        },
+        {
+          "id": "B",
+          "text": "decidir recurso por razões de mérito."
+        },
+        {
+          "id": "C",
+          "text": "exigir depósito ou arrolamento prévios de dinheiro ou bens para admitir recurso administrativo."
+        },
+        {
+          "id": "D",
+          "text": "conceder efeito suspensivo em caso de risco."
+        },
+        {
+          "id": "E",
+          "text": "reexaminar ilegalidade de ofício."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Súmula Vinculante 21 veda depósito ou arrolamento prévios de dinheiro ou bens como requisito de admissibilidade do recurso administrativo."
+    },
+    {
+      "id": "q5649",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A regra de que o recurso administrativo não tem efeito suspensivo automático significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a suspensão é sempre proibida."
+        },
+        {
+          "id": "B",
+          "text": "a interposição do recurso necessariamente paralisa a decisão."
+        },
+        {
+          "id": "C",
+          "text": "a lei ou a autoridade competente podem admitir suspensão nas hipóteses cabíveis, mas ela não decorre automaticamente do recurso."
+        },
+        {
+          "id": "D",
+          "text": "o recurso depende de depósito para produzir efeitos."
+        },
+        {
+          "id": "E",
+          "text": "o recurso deixa de ser instrumento de controle."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Lei nº 9.784/1999 não atribui efeito suspensivo automático ao recurso, embora admita concessão nas hipóteses legais."
+    },
+    {
+      "id": "q5650",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A possibilidade de controle judicial posterior dos atos administrativos",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina a autotutela."
+        },
+        {
+          "id": "B",
+          "text": "impede a Administração de anular seus próprios atos."
+        },
+        {
+          "id": "C",
+          "text": "convive com a autotutela, pois a Administração pode rever seus atos e o Judiciário pode examinar lesão ou ameaça a direito."
+        },
+        {
+          "id": "D",
+          "text": "transforma toda decisão administrativa em sentença."
+        },
+        {
+          "id": "E",
+          "text": "retira da Administração qualquer competência de mérito."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Autotutela e controle judicial são planos distintos e compatíveis; a Administração não precisa de autorização judicial prévia para exercer suas competências próprias."
+    },
+    {
+      "id": "q5651",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para anular administrativamente ato ilegal, a Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessita sempre de autorização judicial prévia."
+        },
+        {
+          "id": "B",
+          "text": "pode agir em autotutela, observados competência, processo, decadência e segurança jurídica."
+        },
+        {
+          "id": "C",
+          "text": "precisa de autorização do tribunal de contas em todo caso."
+        },
+        {
+          "id": "D",
+          "text": "deve chamar o ato de revogação."
+        },
+        {
+          "id": "E",
+          "text": "pode dispensar contraditório mesmo quando houver efeitos concretos adversamente atingidos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A autotutela autoriza a anulação administrativa sem autorização judicial prévia, mas não elimina os limites materiais e processuais aplicáveis."
+    },
+    {
+      "id": "q5652",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em regra, a revogação por conveniência e oportunidade não é adequada para",
+      "options": [
+        {
+          "id": "A",
+          "text": "ato discricionário válido ainda em curso."
+        },
+        {
+          "id": "B",
+          "text": "ato vinculado sem espaço de mérito para a retirada."
+        },
+        {
+          "id": "C",
+          "text": "ato válido cuja manutenção se tornou inconveniente."
+        },
+        {
+          "id": "D",
+          "text": "ato administrativo discricionário."
+        },
+        {
+          "id": "E",
+          "text": "situação em que a autoridade possui competência revisora."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A revogação pressupõe espaço de mérito administrativo; ato vinculado não pode ser retirado apenas por nova preferência de conveniência."
+    },
+    {
+      "id": "q5653",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A revogação de ato administrativo cujos efeitos já se exauriram",
+      "options": [
+        {
+          "id": "A",
+          "text": "é, em regra, inadequada, pois não há efeitos futuros a retirar por mérito."
+        },
+        {
+          "id": "B",
+          "text": "é sempre obrigatória."
+        },
+        {
+          "id": "C",
+          "text": "equivale à anulação por ilegalidade."
+        },
+        {
+          "id": "D",
+          "text": "depende apenas de mudança política."
+        },
+        {
+          "id": "E",
+          "text": "converte o ato em sentença judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Revogação opera sobre a permanência de ato válido; quando os efeitos já se exauriram, não há utilidade típica para retirada prospectiva por mérito."
+    },
+    {
+      "id": "q5654",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Súmula 473, ao tratar de revogação, determina respeito",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas à vontade da autoridade."
+        },
+        {
+          "id": "B",
+          "text": "aos direitos adquiridos."
+        },
+        {
+          "id": "C",
+          "text": "somente ao interesse fazendário."
+        },
+        {
+          "id": "D",
+          "text": "a qualquer mudança de interpretação, sem limites."
+        },
+        {
+          "id": "E",
+          "text": "à aprovação prévia do Judiciário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Súmula 473 menciona expressamente o respeito aos direitos adquiridos e ressalva a apreciação judicial."
+    },
+    {
+      "id": "q5655",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Diante de vício sanável, sem lesão ao interesse público nem prejuízo a terceiros, a solução que preserva o ato é",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogação."
+        },
+        {
+          "id": "B",
+          "text": "cassação."
+        },
+        {
+          "id": "C",
+          "text": "convalidação."
+        },
+        {
+          "id": "D",
+          "text": "sustação legislativa."
+        },
+        {
+          "id": "E",
+          "text": "controle jurisdicional obrigatório."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 55 da Lei nº 9.784/1999 autoriza a convalidação de defeitos sanáveis nessas condições."
+    },
+    {
+      "id": "q5656",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que melhor diferencia hierarquia de supervisão finalística.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hierarquia e supervisão são sinônimos."
+        },
+        {
+          "id": "B",
+          "text": "Hierarquia ocorre entre pessoas jurídicas distintas; supervisão, apenas dentro do mesmo órgão."
+        },
+        {
+          "id": "C",
+          "text": "Hierarquia envolve subordinação interna; supervisão de entidade vinculada depende de previsão e limites legais, sem subordinação geral."
+        },
+        {
+          "id": "D",
+          "text": "Supervisão permite ao ministro avocar qualquer competência da entidade."
+        },
+        {
+          "id": "E",
+          "text": "Entidade vinculada não pode ser fiscalizada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Hierarquia e vinculação são relações distintas: a primeira é interna e subordinativa; a segunda fundamenta tutela ou supervisão finalística nos limites do ordenamento."
+    },
+    {
+      "id": "q5657",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se a autoridade supervisora substitui decisão legalmente atribuída a empresa estatal apenas porque discorda de seu mérito, sem base normativa,",
+      "options": [
+        {
+          "id": "A",
+          "text": "atua validamente por força da hierarquia."
+        },
+        {
+          "id": "B",
+          "text": "atua dentro da autotutela sobre ato próprio."
+        },
+        {
+          "id": "C",
+          "text": "extrapola os limites da supervisão finalística."
+        },
+        {
+          "id": "D",
+          "text": "exerce função jurisdicional."
+        },
+        {
+          "id": "E",
+          "text": "convalida automaticamente o ato da empresa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A supervisão finalística não cria poder geral de comando sobre entidade com personalidade própria; a intervenção depende dos instrumentos previstos no ordenamento."
+    },
+    {
+      "id": "q5658",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A autonomia das entidades da Administração indireta",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclui qualquer controle finalístico."
+        },
+        {
+          "id": "B",
+          "text": "é incompatível com prestação de contas."
+        },
+        {
+          "id": "C",
+          "text": "convive com supervisão nos limites legais."
+        },
+        {
+          "id": "D",
+          "text": "autoriza descumprir políticas públicas obrigatórias."
+        },
+        {
+          "id": "E",
+          "text": "converte a entidade em Poder independente."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Autonomia e supervisão não são incompatíveis. O Decreto-Lei nº 200/1967 inclui a preservação da autonomia entre os objetivos da supervisão."
+    },
+    {
+      "id": "q5659",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No controle administrativo sobre entidade vinculada, o termo 'tutela administrativa' indica",
+      "options": [
+        {
+          "id": "A",
+          "text": "jurisdição judicial sobre a entidade."
+        },
+        {
+          "id": "B",
+          "text": "hierarquia plena do ministério."
+        },
+        {
+          "id": "C",
+          "text": "supervisão finalística exercida nos limites legais."
+        },
+        {
+          "id": "D",
+          "text": "controle parlamentar exclusivo."
+        },
+        {
+          "id": "E",
+          "text": "substituição automática das competências da entidade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tutela administrativa é expressão doutrinária usada para a supervisão finalística ou controle de vinculação, sem hierarquia geral."
+    },
+    {
+      "id": "q5660",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma autoridade superior revisa ato de órgão subordinado pertencente à mesma pessoa jurídica. Trata-se tipicamente de",
+      "options": [
+        {
+          "id": "A",
+          "text": "controle hierárquico."
+        },
+        {
+          "id": "B",
+          "text": "tutela sobre entidade vinculada."
+        },
+        {
+          "id": "C",
+          "text": "controle parlamentar."
+        },
+        {
+          "id": "D",
+          "text": "controle jurisdicional."
+        },
+        {
+          "id": "E",
+          "text": "controle exercido por tribunal de contas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A revisão interna entre órgãos subordinados da mesma pessoa jurídica é manifestação típica de controle hierárquico."
+    },
+    {
+      "id": "q5661",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre a Lei nº 9.784/1999, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é automaticamente lei nacional de processo administrativo para todos os estados e municípios."
+        },
+        {
+          "id": "B",
+          "text": "tem aplicação direta à Administração Pública federal, devendo-se examinar o regime próprio para outros entes."
+        },
+        {
+          "id": "C",
+          "text": "só se aplica a processos judiciais."
+        },
+        {
+          "id": "D",
+          "text": "não se aplica à Administração indireta federal."
+        },
+        {
+          "id": "E",
+          "text": "revoga toda legislação estadual sobre processo administrativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 1º delimita sua incidência direta ao âmbito federal. Outros entes podem ter legislação própria e eventual aplicação subsidiária depende do regime jurídico competente."
+    },
+    {
+      "id": "q5662",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Os órgãos federais dos Poderes Legislativo e Judiciário",
+      "options": [
+        {
+          "id": "A",
+          "text": "nunca se submetem à Lei nº 9.784/1999."
+        },
+        {
+          "id": "B",
+          "text": "submetem-se à Lei nº 9.784/1999 quando desempenham função administrativa."
+        },
+        {
+          "id": "C",
+          "text": "submetem-se apenas quando julgam processos judiciais."
+        },
+        {
+          "id": "D",
+          "text": "só se submetem por autorização do Executivo."
+        },
+        {
+          "id": "E",
+          "text": "são equiparados a entidades privadas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 1º, § 1º, estende os preceitos da lei aos órgãos dos Poderes Legislativo e Judiciário da União quando desempenham função administrativa."
+    },
+    {
+      "id": "q5663",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando o desfazimento administrativo de ato favorável atinge situação individual já concretizada,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o contraditório é sempre dispensável."
+        },
+        {
+          "id": "B",
+          "text": "o processo administrativo regular pode ser exigido antes do desfazimento."
+        },
+        {
+          "id": "C",
+          "text": "a Administração perde definitivamente a autotutela no mesmo dia."
+        },
+        {
+          "id": "D",
+          "text": "a decisão deve ser tomada pelo Poder Legislativo."
+        },
+        {
+          "id": "E",
+          "text": "a motivação é proibida."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O Tema 138 do STF e as garantias constitucionais de devido processo exigem procedimento regular quando o desfazimento incide sobre efeitos concretos."
+    },
+    {
+      "id": "q5664",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O fato de a Administração iniciar de ofício processo de controle",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina a participação do interessado."
+        },
+        {
+          "id": "B",
+          "text": "dispensa motivação."
+        },
+        {
+          "id": "C",
+          "text": "não afasta contraditório e ampla defesa quando juridicamente devidos."
+        },
+        {
+          "id": "D",
+          "text": "impede produção de provas."
+        },
+        {
+          "id": "E",
+          "text": "torna o processo judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Iniciativa de ofício e garantias processuais coexistem. A Administração pode impulsionar o processo, mas deve respeitar direitos de participação e defesa aplicáveis."
+    },
+    {
+      "id": "q5665",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Motivação administrativa adequada deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas implícita."
+        },
+        {
+          "id": "B",
+          "text": "explícita, clara e congruente, relacionando fatos e fundamentos jurídicos."
+        },
+        {
+          "id": "C",
+          "text": "substituída por referência genérica ao interesse público."
+        },
+        {
+          "id": "D",
+          "text": "dispensada quando houver anulação."
+        },
+        {
+          "id": "E",
+          "text": "reservada apenas a decisões judiciais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 50 exige motivação explícita, clara e congruente nas hipóteses legais, inclusive anulação, revogação e convalidação."
+    },
+    {
+      "id": "q5666",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O direito de petição é relevante para o controle administrativo porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "permite ao administrado provocar a atuação pública contra ilegalidade ou abuso sem pagamento de taxa."
+        },
+        {
+          "id": "B",
+          "text": "autoriza o particular a anular diretamente o ato."
+        },
+        {
+          "id": "C",
+          "text": "substitui o processo administrativo."
+        },
+        {
+          "id": "D",
+          "text": "retira a competência da autoridade."
+        },
+        {
+          "id": "E",
+          "text": "exige caução prévia."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Constituição permite provocar os poderes públicos em defesa de direitos ou contra ilegalidade ou abuso de poder, sem taxa."
+    },
+    {
+      "id": "q5667",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A autotutela de ofício permite que a Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "aguarde obrigatoriamente provocação judicial para corrigir ilegalidade."
+        },
+        {
+          "id": "B",
+          "text": "reveja ilegalidade dentro de sua competência, mesmo sem pedido particular."
+        },
+        {
+          "id": "C",
+          "text": "desconsidere decadência e boa-fé."
+        },
+        {
+          "id": "D",
+          "text": "revise sentença judicial."
+        },
+        {
+          "id": "E",
+          "text": "substitua qualquer entidade vinculada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Administração pode agir de ofício para controlar seus atos, respeitados competência, processo e os demais limites jurídicos."
+    },
+    {
+      "id": "q5668",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma autoridade conclui que ato válido e discricionário não atende mais à conveniência administrativa. O instituto adequado, em tese, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "anulação."
+        },
+        {
+          "id": "B",
+          "text": "convalidação."
+        },
+        {
+          "id": "C",
+          "text": "revogação."
+        },
+        {
+          "id": "D",
+          "text": "controle judicial."
+        },
+        {
+          "id": "E",
+          "text": "decadência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Revogação é a retirada de ato válido por razões de conveniência ou oportunidade."
+    },
+    {
+      "id": "q5669",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma autoridade identifica vício de legalidade insanável em ato ainda passível de desfazimento. O instituto adequado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogação."
+        },
+        {
+          "id": "B",
+          "text": "anulação."
+        },
+        {
+          "id": "C",
+          "text": "supervisão."
+        },
+        {
+          "id": "D",
+          "text": "delegação."
+        },
+        {
+          "id": "E",
+          "text": "avocação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ilegalidade é fundamento de anulação, não de revogação."
+    },
+    {
+      "id": "q5670",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma autoridade identifica defeito sanável e verifica que sua correção não prejudicará terceiros nem o interesse público. A solução adequada pode ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "convalidação."
+        },
+        {
+          "id": "B",
+          "text": "revogação obrigatória."
+        },
+        {
+          "id": "C",
+          "text": "sustação parlamentar."
+        },
+        {
+          "id": "D",
+          "text": "controle jurisdicional exclusivo."
+        },
+        {
+          "id": "E",
+          "text": "cassação por mérito."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 55 permite convalidar defeitos sanáveis quando não houver lesão ao interesse público nem prejuízo a terceiros."
+    },
+    {
+      "id": "q5671",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A má-fé do destinatário, para afastar a proteção do art. 54,",
+      "options": [
+        {
+          "id": "A",
+          "text": "é presumida sempre que o ato for ilegal."
+        },
+        {
+          "id": "B",
+          "text": "é presumida sempre que houver vantagem econômica."
+        },
+        {
+          "id": "C",
+          "text": "deve ser comprovada."
+        },
+        {
+          "id": "D",
+          "text": "é irrelevante."
+        },
+        {
+          "id": "E",
+          "text": "só pode ser reconhecida pelo Poder Legislativo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 54 ressalva a má-fé, mas ela deve ser demonstrada; ilegalidade e benefício, por si sós, não bastam."
+    },
+    {
+      "id": "q5672",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A decadência administrativa prevista no art. 54",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma retroativamente ato ilegal em ato originalmente legal."
+        },
+        {
+          "id": "B",
+          "text": "limita temporalmente a autotutela anulatória nas condições da lei, protegendo segurança jurídica."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se somente a atos desfavoráveis."
+        },
+        {
+          "id": "D",
+          "text": "tem prazo de dez anos."
+        },
+        {
+          "id": "E",
+          "text": "não admite qualquer exceção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A decadência limita o exercício do poder de anular; ela não altera a legalidade originária do ato."
+    },
+    {
+      "id": "q5673",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa correta sobre o termo inicial da decadência do art. 54.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Todo ato conta do primeiro pagamento."
+        },
+        {
+          "id": "B",
+          "text": "Todo ato conta da descoberta do vício."
+        },
+        {
+          "id": "C",
+          "text": "Em regra, conta-se da prática do ato; para efeitos patrimoniais contínuos, conta-se do primeiro pagamento."
+        },
+        {
+          "id": "D",
+          "text": "Sempre se conta da última parcela."
+        },
+        {
+          "id": "E",
+          "text": "Sempre se conta do encerramento do processo judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A regra é a prática do ato; o primeiro pagamento é exceção específica para efeitos patrimoniais contínuos."
+    },
+    {
+      "id": "q5674",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma autarquia é vinculada a um ministério. Essa vinculação significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a autarquia é órgão interno do ministério."
+        },
+        {
+          "id": "B",
+          "text": "há subordinação hierárquica em todas as matérias."
+        },
+        {
+          "id": "C",
+          "text": "existe supervisão finalística nos limites legais, preservada a personalidade e a autonomia da entidade."
+        },
+        {
+          "id": "D",
+          "text": "o ministério pode revogar qualquer ato da autarquia por conveniência própria."
+        },
+        {
+          "id": "E",
+          "text": "a autarquia deixa de possuir competência legal própria."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Vinculação fundamenta supervisão finalística, mas não extingue a personalidade jurídica nem cria hierarquia geral."
+    },
+    {
+      "id": "q5675",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual situação pertence predominantemente ao controle administrativo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O Congresso julga as contas do Presidente da República."
+        },
+        {
+          "id": "B",
+          "text": "O tribunal de contas fiscaliza convênio com recurso público."
+        },
+        {
+          "id": "C",
+          "text": "A própria Administração anula ato ilegal por autotutela."
+        },
+        {
+          "id": "D",
+          "text": "O Judiciário invalida ato por violação a direito."
+        },
+        {
+          "id": "E",
+          "text": "Uma CPI quebra sigilo bancário mediante deliberação fundamentada."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Controle administrativo é exercido pela própria Administração; as demais hipóteses pertencem a controles parlamentar, de contas ou jurisdicional."
+    },
+    {
+      "id": "q5676",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A existência de controle externo sobre a Administração",
+      "options": [
+        {
+          "id": "A",
+          "text": "elimina o controle administrativo."
+        },
+        {
+          "id": "B",
+          "text": "impede autotutela."
+        },
+        {
+          "id": "C",
+          "text": "não exclui o dever de a própria Administração controlar e corrigir sua atuação."
+        },
+        {
+          "id": "D",
+          "text": "transforma toda revisão interna em controle judicial."
+        },
+        {
+          "id": "E",
+          "text": "retira a possibilidade de controle provocado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Controles podem coexistir. O controle administrativo permanece como mecanismo interno de prevenção, correção e revisão."
+    },
+    {
+      "id": "q5677",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma empresa estatal recebe orientação do órgão supervisor dentro dos limites previstos em lei. Essa situação caracteriza",
+      "options": [
+        {
+          "id": "A",
+          "text": "hierarquia interna obrigatória."
+        },
+        {
+          "id": "B",
+          "text": "supervisão ou tutela administrativa legítima."
+        },
+        {
+          "id": "C",
+          "text": "controle jurisdicional."
+        },
+        {
+          "id": "D",
+          "text": "delegação da personalidade jurídica."
+        },
+        {
+          "id": "E",
+          "text": "anulação automática de seus atos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A supervisão de entidade vinculada é controle finalístico legítimo quando exercida com fundamento e dentro dos limites legais."
+    },
+    {
+      "id": "q5678",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na esfera federal, a Administração descobre após seis anos vício em ato favorável, sem má-fé e sem medida anterior que tenha impugnado sua validade. Em regra,",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ignorar o prazo e anular imediatamente sem processo."
+        },
+        {
+          "id": "B",
+          "text": "o prazo começa apenas com a descoberta do vício."
+        },
+        {
+          "id": "C",
+          "text": "deve revogar o ato por conveniência."
+        },
+        {
+          "id": "D",
+          "text": "a autotutela anulatória está limitada pela decadência quinquenal do art. 54."
+        },
+        {
+          "id": "E",
+          "text": "deve submeter o caso obrigatoriamente ao Congresso."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O caso reúne ato favorável, decurso superior a cinco anos, ausência de má-fé e ausência de impugnação tempestiva; aplica-se, em regra, a decadência do art. 54."
+    }
+  ]
+}

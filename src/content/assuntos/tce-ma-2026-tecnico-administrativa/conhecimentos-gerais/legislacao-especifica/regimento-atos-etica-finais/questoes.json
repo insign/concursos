@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q6459",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo o Regimento Interno do TCE/MA, sua alteração depende de aprovação",
+      "options": [
+        {
+          "id": "A",
+          "text": "por maioria simples dos Conselheiros presentes à sessão."
+        },
+        {
+          "id": "B",
+          "text": "por maioria absoluta dos Conselheiros titulares, mediante projeto de resolução."
+        },
+        {
+          "id": "C",
+          "text": "por dois terços dos membros do Tribunal, mediante instrução normativa."
+        },
+        {
+          "id": "D",
+          "text": "por unanimidade dos Conselheiros titulares, mediante decisão normativa."
+        },
+        {
+          "id": "E",
+          "text": "por maioria absoluta dos membros presentes, mediante portaria da Presidência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 307 exige maioria absoluta dos Conselheiros titulares e projeto de resolução."
+    },
+    {
+      "id": "q6460",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma proposta de alteração do Regimento Interno deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "indicar apenas a matéria geral afetada, sem apontar dispositivos."
+        },
+        {
+          "id": "B",
+          "text": "apontar expressamente os dispositivos a serem modificados, acrescidos ou suprimidos."
+        },
+        {
+          "id": "C",
+          "text": "apresentar necessariamente uma renumeração integral do Regimento."
+        },
+        {
+          "id": "D",
+          "text": "limitar-se a dispositivos já revogados."
+        },
+        {
+          "id": "E",
+          "text": "ser formulada exclusivamente como projeto de lei."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 308 exige indicação expressa dos dispositivos modificados, acrescidos ou suprimidos."
+    },
+    {
+      "id": "q6461",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quando um dispositivo do Regimento é apenas modificado, a regra técnica do art. 308 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "atribuir-lhe novo número ao fim do capítulo."
+        },
+        {
+          "id": "B",
+          "text": "substituir seu número por uma letra."
+        },
+        {
+          "id": "C",
+          "text": "conservar sua numeração."
+        },
+        {
+          "id": "D",
+          "text": "renumerar todos os artigos posteriores."
+        },
+        {
+          "id": "E",
+          "text": "marcá-lo como suprimido e recriá-lo em seguida."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 1º do art. 308 determina que dispositivos modificados conservem sua numeração."
+    },
+    {
+      "id": "q6462",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em caso de supressão de dispositivo regimental, o texto prevê que ela seja indicada pela palavra",
+      "options": [
+        {
+          "id": "A",
+          "text": "revogado."
+        },
+        {
+          "id": "B",
+          "text": "cancelado."
+        },
+        {
+          "id": "C",
+          "text": "inaplicável."
+        },
+        {
+          "id": "D",
+          "text": "suprimido."
+        },
+        {
+          "id": "E",
+          "text": "prejudicado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 2º do art. 308 usa expressamente a indicação 'suprimido'."
+    },
+    {
+      "id": "q6463",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma alteração regimental versa matéria nova que não se enquadra em qualquer artigo existente. Até a republicação integral renumerada, a matéria deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser inserida em dispositivo conexo."
+        },
+        {
+          "id": "B",
+          "text": "aguardar necessariamente nova lei estadual."
+        },
+        {
+          "id": "C",
+          "text": "ser incluída apenas em anexo sem numeração."
+        },
+        {
+          "id": "D",
+          "text": "substituir o artigo mais antigo do capítulo."
+        },
+        {
+          "id": "E",
+          "text": "ser tratada exclusivamente por portaria."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 3º do art. 308 manda inserir matéria nova em dispositivo conexo até a renumeração e republicação integral."
+    },
+    {
+      "id": "q6464",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Havendo reforma regimental no período anterior, o art. 305, § 2º, prevê",
+      "options": [
+        {
+          "id": "A",
+          "text": "republicação integral do Regimento no começo do ano."
+        },
+        {
+          "id": "B",
+          "text": "publicação apenas dos artigos alterados no fim do mandato."
+        },
+        {
+          "id": "C",
+          "text": "renumeração automática após cada sessão plenária."
+        },
+        {
+          "id": "D",
+          "text": "consolidação obrigatória somente a cada quatro anos."
+        },
+        {
+          "id": "E",
+          "text": "revogação das versões anteriores sem republicação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 305, § 2º, prevê republicação integral no começo do ano quando tenha havido reforma regimental anteriormente."
+    },
+    {
+      "id": "q6465",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A iniciativa de projeto de ato normativo, enunciado de Súmula e projeto de lei de proposição privativa do TCE/MA cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente ao Presidente e aos Conselheiros titulares."
+        },
+        {
+          "id": "B",
+          "text": "ao Presidente, Conselheiros, Conselheiros-Substitutos, membros do MPC e Comissões regimentais indicadas no art. 309."
+        },
+        {
+          "id": "C",
+          "text": "somente ao Plenário, por deliberação prévia unânime."
+        },
+        {
+          "id": "D",
+          "text": "ao Presidente, ao Secretário-Geral e a qualquer servidor efetivo."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente às Comissões permanentes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 309 enumera Presidente, demais Conselheiros, Conselheiros-Substitutos, membros do MPC e Comissões do Capítulo V do Título II."
+    },
+    {
+      "id": "q6466",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para o Presidente apresentar ao Plenário proposta de legitimado do art. 309, a Coordenadoria de Sessões deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "produzir parecer jurídico vinculante antes de distribuir o texto."
+        },
+        {
+          "id": "B",
+          "text": "providenciar cópia do documento com justificativa e disponibilizá-la a Conselheiros, Conselheiros-Substitutos e membros do MPC."
+        },
+        {
+          "id": "C",
+          "text": "submeter a minuta previamente à Assembleia Legislativa."
+        },
+        {
+          "id": "D",
+          "text": "encaminhar a proposta apenas ao futuro Relator."
+        },
+        {
+          "id": "E",
+          "text": "publicar a proposta antes de qualquer apresentação em Plenário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 1º do art. 309 exige cópia com justificativa e sua disponibilização aos membros indicados."
+    },
+    {
+      "id": "q6467",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Conselheiro, Conselheiro-Substituto ou membro do MPC que queira apresentar em Plenário proposta de sua própria iniciativa deve, antes da apresentação,",
+      "options": [
+        {
+          "id": "A",
+          "text": "obter aprovação final da Comissão competente."
+        },
+        {
+          "id": "B",
+          "text": "enviar cópia ao Gabinete da Presidência e aos gabinetes dos membros do Tribunal e do MPC."
+        },
+        {
+          "id": "C",
+          "text": "publicar a minuta no Diário Oficial por sete dias."
+        },
+        {
+          "id": "D",
+          "text": "pedir autorização à Assembleia Legislativa."
+        },
+        {
+          "id": "E",
+          "text": "aguardar sorteio obrigatório de Relator."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 2º do art. 309 condiciona a apresentação ao envio prévio de cópias aos gabinetes indicados."
+    },
+    {
+      "id": "q6468",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se a proposta for de iniciativa de Conselheiro ou Conselheiro-Substituto, a relatoria do respectivo processo cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao Presidente do Tribunal."
+        },
+        {
+          "id": "B",
+          "text": "ao Corregedor."
+        },
+        {
+          "id": "C",
+          "text": "ao proponente."
+        },
+        {
+          "id": "D",
+          "text": "a Conselheiro sorteado obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "ao membro do MPC mais antigo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 3º do art. 309 atribui ao próprio proponente a relatoria nesses casos."
+    },
+    {
+      "id": "q6469",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Nas propostas de iniciativa do Presidente, de membro do MPC ou de Comissão, o Relator é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre o Corregedor."
+        },
+        {
+          "id": "B",
+          "text": "designado pelo Presidente após consulta ao Plenário."
+        },
+        {
+          "id": "C",
+          "text": "o autor material da minuta, independentemente de cargo."
+        },
+        {
+          "id": "D",
+          "text": "sorteado pela Coordenadoria de Sessões sem consulta."
+        },
+        {
+          "id": "E",
+          "text": "eleito pela maioria simples dos servidores."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 4º do art. 309 prevê designação pelo Presidente após consulta ao Plenário."
+    },
+    {
+      "id": "q6470",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se, na consulta ao Plenário, houver mais de um interessado em relatar proposta sujeita à designação, o Presidente",
+      "options": [
+        {
+          "id": "A",
+          "text": "escolhe livremente um deles, sem submeter a questão ao colegiado."
+        },
+        {
+          "id": "B",
+          "text": "encaminha o processo ao Conselheiro mais novo."
+        },
+        {
+          "id": "C",
+          "text": "propõe votação ou sorteio para a escolha do Relator."
+        },
+        {
+          "id": "D",
+          "text": "divide necessariamente a relatoria entre os interessados."
+        },
+        {
+          "id": "E",
+          "text": "remete o processo ao MPC para decisão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O § 5º do art. 309 prevê votação ou sorteio quando houver mais de um interessado."
+    },
+    {
+      "id": "q6471",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um Conselheiro apresenta proposta de resolução que altera o Regimento. Para a apresentação, exige-se anuência de",
+      "options": [
+        {
+          "id": "A",
+          "text": "um Conselheiro, incluindo obrigatoriamente o proponente."
+        },
+        {
+          "id": "B",
+          "text": "dois Conselheiros, excluído o proponente da contagem."
+        },
+        {
+          "id": "C",
+          "text": "dois membros quaisquer do Tribunal, incluindo Conselheiro-Substituto."
+        },
+        {
+          "id": "D",
+          "text": "três Conselheiros, sempre incluindo o proponente."
+        },
+        {
+          "id": "E",
+          "text": "maioria absoluta dos Conselheiros titulares já na fase de apresentação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 6º do art. 309 exige ao menos dois Conselheiros e exclui o proponente se ele for Conselheiro ou Conselheiro-Substituto."
+    },
+    {
+      "id": "q6472",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para apresentar proposta de enunciado de Súmula, o art. 309 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "anuência de pelo menos dois Conselheiros, excluído o proponente se for Conselheiro ou Conselheiro-Substituto."
+        },
+        {
+          "id": "B",
+          "text": "anuência de um Conselheiro e um membro do MPC."
+        },
+        {
+          "id": "C",
+          "text": "aprovação prévia por maioria absoluta do Plenário."
+        },
+        {
+          "id": "D",
+          "text": "assinatura exclusiva do Presidente."
+        },
+        {
+          "id": "E",
+          "text": "anuência de dois Conselheiros, sempre contando o proponente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A proposta de enunciado de Súmula segue a mesma regra de anuência do § 6º do art. 309."
+    },
+    {
+      "id": "q6473",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um Conselheiro propõe ato normativo que não altera o Regimento. Na contagem da anuência mínima de dois Conselheiros,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o proponente nunca pode ser contado."
+        },
+        {
+          "id": "B",
+          "text": "o proponente pode ser incluído."
+        },
+        {
+          "id": "C",
+          "text": "somente Conselheiros que não integrem Comissão podem ser contados."
+        },
+        {
+          "id": "D",
+          "text": "um Conselheiro pode ser substituído por membro do MPC."
+        },
+        {
+          "id": "E",
+          "text": "a anuência é dispensada se houver justificativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 7º do art. 309 permite incluir o proponente Conselheiro ou Conselheiro-Substituto no mínimo de dois Conselheiros."
+    },
+    {
+      "id": "q6474",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quanto à proposta de projeto de lei de proposição privativa do TCE/MA, a regra de anuência do art. 309 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a mesma da proposta de resolução que altera o Regimento e do enunciado de Súmula."
+        },
+        {
+          "id": "B",
+          "text": "a mesma do ato normativo comum, contando sempre o proponente."
+        },
+        {
+          "id": "C",
+          "text": "dispensada, porque o mérito será decidido pela Assembleia Legislativa."
+        },
+        {
+          "id": "D",
+          "text": "de maioria absoluta dos Conselheiros já na apresentação."
+        },
+        {
+          "id": "E",
+          "text": "de um Conselheiro e um Conselheiro-Substituto."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 8º do art. 309 remete o projeto de lei ao § 6º."
+    },
+    {
+      "id": "q6475",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A assinatura de anuência exigida no art. 309 significa que o Conselheiro",
+      "options": [
+        {
+          "id": "A",
+          "text": "já emitiu voto definitivo e não poderá divergir depois."
+        },
+        {
+          "id": "B",
+          "text": "concorda, em tese, com a essência da proposta, sem substituir a deliberação final."
+        },
+        {
+          "id": "C",
+          "text": "assume automaticamente a relatoria do processo."
+        },
+        {
+          "id": "D",
+          "text": "aprova a redação final da proposição."
+        },
+        {
+          "id": "E",
+          "text": "renuncia ao direito de apresentar emenda."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 6º descreve anuência como concordância, em tese, com a essência da proposta; não é aprovação final."
+    },
+    {
+      "id": "q6476",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Após a Resolução TCE/MA nº 268/2017, os arts. 310 e 311 do Regimento",
+      "options": [
+        {
+          "id": "A",
+          "text": "permanecem vigentes sem alteração."
+        },
+        {
+          "id": "B",
+          "text": "foram convertidos em parágrafos do art. 309."
+        },
+        {
+          "id": "C",
+          "text": "foram revogados."
+        },
+        {
+          "id": "D",
+          "text": "passaram a tratar exclusivamente da Súmula."
+        },
+        {
+          "id": "E",
+          "text": "foram suspensos apenas até 2024."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os arts. 310 e 311 constam como revogados pela Resolução TCE/MA nº 268/2017."
+    },
+    {
+      "id": "q6477",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As propostas de atos normativos podem ser emendadas pelos Conselheiros, conforme o art. 312, no prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "até 5 dias úteis."
+        },
+        {
+          "id": "B",
+          "text": "até 7 dias."
+        },
+        {
+          "id": "C",
+          "text": "10 dias corridos."
+        },
+        {
+          "id": "D",
+          "text": "15 dias úteis."
+        },
+        {
+          "id": "E",
+          "text": "até a segunda sessão do mês seguinte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 312 fixa prazo de até sete dias."
+    },
+    {
+      "id": "q6478",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O prazo do art. 312 para emendas a proposta de ato normativo é contado",
+      "options": [
+        {
+          "id": "A",
+          "text": "da autuação administrativa do processo."
+        },
+        {
+          "id": "B",
+          "text": "da publicação do futuro ato."
+        },
+        {
+          "id": "C",
+          "text": "da apresentação em Sessão Plenária pelo Presidente ou outro legitimado do art. 309."
+        },
+        {
+          "id": "D",
+          "text": "da designação do Relator."
+        },
+        {
+          "id": "E",
+          "text": "do primeiro parecer do MPC."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O termo inicial literal do art. 312 é a apresentação em Sessão Plenária."
+    },
+    {
+      "id": "q6479",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No mesmo prazo do art. 312, Conselheiro-Substituto e membro do MPC podem",
+      "options": [
+        {
+          "id": "A",
+          "text": "apresentar sugestão ao Relator em processo relativo a ato normativo, enunciado de Súmula ou projeto de lei."
+        },
+        {
+          "id": "B",
+          "text": "votar como Conselheiros titulares em qualquer proposta."
+        },
+        {
+          "id": "C",
+          "text": "alterar diretamente a redação do projeto sem manifestação do Relator."
+        },
+        {
+          "id": "D",
+          "text": "vetar a proposta antes da discussão."
+        },
+        {
+          "id": "E",
+          "text": "dispensar a anuência prevista no art. 309."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 313 assegura a esses legitimados a apresentação de sugestões ao Relator no mesmo prazo."
+    },
+    {
+      "id": "q6480",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As emendas dos Conselheiros e as sugestões referidas nos arts. 312 e 313 são encaminhadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "à Assembleia Legislativa."
+        },
+        {
+          "id": "B",
+          "text": "diretamente ao Relator da matéria."
+        },
+        {
+          "id": "C",
+          "text": "à Presidência para decisão monocrática."
+        },
+        {
+          "id": "D",
+          "text": "à Corregedoria para juízo de admissibilidade."
+        },
+        {
+          "id": "E",
+          "text": "ao MPC para parecer vinculante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 314 determina encaminhamento direto ao Relator."
+    },
+    {
+      "id": "q6481",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma emenda que pretende excluir parte do projeto é classificada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "aditiva."
+        },
+        {
+          "id": "B",
+          "text": "modificativa."
+        },
+        {
+          "id": "C",
+          "text": "supressiva."
+        },
+        {
+          "id": "D",
+          "text": "substitutiva."
+        },
+        {
+          "id": "E",
+          "text": "aglutinativa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 315 define como supressiva a emenda que objetiva excluir parte do projeto."
+    },
+    {
+      "id": "q6482",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A emenda apresentada como sucedânea do projeto, alterando-o substancialmente, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitutiva."
+        },
+        {
+          "id": "B",
+          "text": "supressiva."
+        },
+        {
+          "id": "C",
+          "text": "aditiva."
+        },
+        {
+          "id": "D",
+          "text": "modificativa."
+        },
+        {
+          "id": "E",
+          "text": "de redação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 315 classifica essa emenda como substitutiva."
+    },
+    {
+      "id": "q6483",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A emenda que pretende acrescentar conteúdo ao projeto é",
+      "options": [
+        {
+          "id": "A",
+          "text": "supressiva."
+        },
+        {
+          "id": "B",
+          "text": "substitutiva."
+        },
+        {
+          "id": "C",
+          "text": "aditiva."
+        },
+        {
+          "id": "D",
+          "text": "modificativa."
+        },
+        {
+          "id": "E",
+          "text": "prejudicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 315 define a emenda aditiva pela intenção de acrescentar algo ao projeto."
+    },
+    {
+      "id": "q6484",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A emenda que altera o projeto sem modificá-lo substancialmente é",
+      "options": [
+        {
+          "id": "A",
+          "text": "substitutiva."
+        },
+        {
+          "id": "B",
+          "text": "modificativa."
+        },
+        {
+          "id": "C",
+          "text": "supressiva."
+        },
+        {
+          "id": "D",
+          "text": "aditiva."
+        },
+        {
+          "id": "E",
+          "text": "de destaque."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 315 chama de modificativa a emenda que não altera substancialmente o projeto."
+    },
+    {
+      "id": "q6485",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Encerrado o prazo para emendas, o Relator deve apresentar relatório e parecer sobre a proposição principal e as acessórias",
+      "options": [
+        {
+          "id": "A",
+          "text": "na mesma sessão, sem exceção."
+        },
+        {
+          "id": "B",
+          "text": "até a segunda Sessão Plenária seguinte."
+        },
+        {
+          "id": "C",
+          "text": "em 15 dias úteis contados da autuação."
+        },
+        {
+          "id": "D",
+          "text": "somente após publicação no Diário Oficial."
+        },
+        {
+          "id": "E",
+          "text": "na primeira sessão do ano seguinte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 316 fixa o limite da segunda Sessão Plenária seguinte."
+    },
+    {
+      "id": "q6486",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No parecer previsto no art. 316, o Relator pode",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas acolher ou rejeitar integralmente o projeto."
+        },
+        {
+          "id": "B",
+          "text": "oferecer substitutivo ou subemendas às proposições acessórias."
+        },
+        {
+          "id": "C",
+          "text": "alterar o Regimento por decisão monocrática."
+        },
+        {
+          "id": "D",
+          "text": "dispensar a votação do Plenário."
+        },
+        {
+          "id": "E",
+          "text": "transformar automaticamente a proposta em lei."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 316 admite substitutivo e subemendas do Relator."
+    },
+    {
+      "id": "q6487",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Encerrada a discussão, a primeira proposição submetida à votação na ordem do art. 317 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o projeto originário."
+        },
+        {
+          "id": "B",
+          "text": "a emenda com parecer favorável."
+        },
+        {
+          "id": "C",
+          "text": "o substitutivo do Relator."
+        },
+        {
+          "id": "D",
+          "text": "o substitutivo de Conselheiro."
+        },
+        {
+          "id": "E",
+          "text": "a subemenda do Relator."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 317 inicia a ordem pelo substitutivo do Relator."
+    },
+    {
+      "id": "q6488",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na ordem regimental de votação, após o substitutivo do Relator vêm, sucessivamente,",
+      "options": [
+        {
+          "id": "A",
+          "text": "o projeto originário e as emendas acolhidas."
+        },
+        {
+          "id": "B",
+          "text": "o substitutivo de Conselheiro e o projeto originário."
+        },
+        {
+          "id": "C",
+          "text": "as subemendas e o projeto originário."
+        },
+        {
+          "id": "D",
+          "text": "as emendas não acolhidas e o projeto originário."
+        },
+        {
+          "id": "E",
+          "text": "a redação final e o substitutivo de Conselheiro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os incisos I a III do art. 317 ordenam: substitutivo do Relator, substitutivo de Conselheiro e projeto originário."
+    },
+    {
+      "id": "q6489",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A aprovação de substitutivo, segundo o art. 317,",
+      "options": [
+        {
+          "id": "A",
+          "text": "prejudica as demais proposições, salvo os destaques requeridos."
+        },
+        {
+          "id": "B",
+          "text": "obriga votação posterior de todas as emendas."
+        },
+        {
+          "id": "C",
+          "text": "não interfere na votação do projeto originário."
+        },
+        {
+          "id": "D",
+          "text": "dispensa qualquer possibilidade de destaque."
+        },
+        {
+          "id": "E",
+          "text": "prejudica apenas as emendas não acolhidas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 1º do art. 317 ressalva expressamente os destaques requeridos."
+    },
+    {
+      "id": "q6490",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O requerimento de destaque serve para",
+      "options": [
+        {
+          "id": "A",
+          "text": "adiar toda a matéria por prazo indeterminado."
+        },
+        {
+          "id": "B",
+          "text": "permitir votação em separado de emenda, subemenda, parte do projeto ou do substitutivo."
+        },
+        {
+          "id": "C",
+          "text": "substituir a anuência do art. 309."
+        },
+        {
+          "id": "D",
+          "text": "retirar definitivamente a proposição sem votação."
+        },
+        {
+          "id": "E",
+          "text": "converter proposta normativa em consulta."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 2º do art. 317 define o destaque como mecanismo de votação separada."
+    },
+    {
+      "id": "q6491",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O art. 318 considera aprovada a proposição que obtiver",
+      "options": [
+        {
+          "id": "A",
+          "text": "maioria simples dos presentes."
+        },
+        {
+          "id": "B",
+          "text": "maioria absoluta de votos dos membros do Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "dois terços dos Conselheiros titulares."
+        },
+        {
+          "id": "D",
+          "text": "unanimidade dos membros votantes."
+        },
+        {
+          "id": "E",
+          "text": "maioria absoluta apenas dos Conselheiros titulares em qualquer proposição."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 318 usa a fórmula maioria absoluta de votos dos membros do Tribunal."
+    },
+    {
+      "id": "q6492",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Havendo empate na votação de proposição submetida ao art. 318,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a matéria é automaticamente rejeitada."
+        },
+        {
+          "id": "B",
+          "text": "o Relator profere segundo voto."
+        },
+        {
+          "id": "C",
+          "text": "cabe ao Presidente o voto de desempate."
+        },
+        {
+          "id": "D",
+          "text": "o MPC decide o resultado."
+        },
+        {
+          "id": "E",
+          "text": "realiza-se obrigatoriamente sorteio."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 318 atribui ao Presidente o voto de desempate."
+    },
+    {
+      "id": "q6493",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A redação final de projeto abrangido pelo art. 319 é votada",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre sete dias após a aprovação."
+        },
+        {
+          "id": "B",
+          "text": "na mesma Sessão ou na Sessão Plenária seguinte à aprovação."
+        },
+        {
+          "id": "C",
+          "text": "somente depois de nova publicação da proposta."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente em sessão extraordinária."
+        },
+        {
+          "id": "E",
+          "text": "apenas no início do exercício seguinte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 319 prevê a mesma sessão ou a sessão plenária seguinte."
+    },
+    {
+      "id": "q6494",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A votação da redação final é dispensada quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer emenda tenha sido aprovada."
+        },
+        {
+          "id": "B",
+          "text": "o projeto originário for aprovado sem emendas ou o substitutivo for aprovado integralmente."
+        },
+        {
+          "id": "C",
+          "text": "houver empate resolvido pelo Presidente."
+        },
+        {
+          "id": "D",
+          "text": "a proposta tiver origem em Comissão."
+        },
+        {
+          "id": "E",
+          "text": "a matéria for enunciado de Súmula."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do art. 319 prevê essas duas hipóteses de dispensa."
+    },
+    {
+      "id": "q6495",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na fase de redação final, uma emenda é admissível para",
+      "options": [
+        {
+          "id": "A",
+          "text": "reabrir o mérito já aprovado."
+        },
+        {
+          "id": "B",
+          "text": "introduzir matéria estranha ao projeto."
+        },
+        {
+          "id": "C",
+          "text": "corrigir incorreção gramatical ou melhorar clareza e objetividade."
+        },
+        {
+          "id": "D",
+          "text": "substituir integralmente a proposição por nova política."
+        },
+        {
+          "id": "E",
+          "text": "alterar o quórum de aprovação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 320 restringe emenda à redação final a correções gramaticais, clareza e objetividade."
+    },
+    {
+      "id": "q6496",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Sobre o art. 321, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ele proíbe qualquer alteração do prazo do art. 312."
+        },
+        {
+          "id": "B",
+          "text": "Ele permite ao Plenário reduzir ou ampliar os prazos ali referidos mediante proposta justificada do Presidente ou Relator; a remissão ao art. 311 convive com a revogação desse artigo."
+        },
+        {
+          "id": "C",
+          "text": "Ele atribui ao Relator poder unilateral para ampliar qualquer prazo."
+        },
+        {
+          "id": "D",
+          "text": "Ele restabeleceu o art. 311 revogado em 2017."
+        },
+        {
+          "id": "E",
+          "text": "Ele fixa novo prazo único de 15 dias para todas as proposições."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 321 permite ajuste pelo Plenário mediante proposta justificada; o art. 311 permanece revogado apesar da remissão textual."
+    },
+    {
+      "id": "q6497",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A Súmula da Jurisprudência do TCE/MA é constituída por",
+      "options": [
+        {
+          "id": "A",
+          "text": "decisões isoladas escolhidas pelo Presidente."
+        },
+        {
+          "id": "B",
+          "text": "princípios ou enunciados que resumem teses, soluções e precedentes reiteradamente adotados pelo Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "pareceres jurídicos externos sem deliberação do Tribunal."
+        },
+        {
+          "id": "D",
+          "text": "todas as consultas recebidas, ainda que não decididas."
+        },
+        {
+          "id": "E",
+          "text": "atos administrativos individuais de pessoal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 322 vincula a Súmula à síntese de teses, soluções e precedentes reiterados."
+    },
+    {
+      "id": "q6498",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na organização gradativa da Súmula, cabe à Coordenação de Plenário",
+      "options": [
+        {
+          "id": "A",
+          "text": "atribuir numeração de referência aos enunciados, seguida da menção aos dispositivos legais e julgados que os fundamentam."
+        },
+        {
+          "id": "B",
+          "text": "cancelar enunciados por decisão administrativa própria."
+        },
+        {
+          "id": "C",
+          "text": "dispensar precedentes para criar novos enunciados."
+        },
+        {
+          "id": "D",
+          "text": "transformar automaticamente acórdãos em súmulas."
+        },
+        {
+          "id": "E",
+          "text": "substituir a aprovação por maioria absoluta dos Conselheiros."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 323 prevê numeração de referência e menção aos dispositivos legais e julgados de fundamento."
+    },
+    {
+      "id": "q6499",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A inclusão, revisão, cancelamento ou restabelecimento de enunciado da Súmula exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "maioria simples dos presentes, por despacho."
+        },
+        {
+          "id": "B",
+          "text": "maioria absoluta dos Conselheiros, mediante projeto específico referido no art. 309."
+        },
+        {
+          "id": "C",
+          "text": "unanimidade dos Conselheiros titulares."
+        },
+        {
+          "id": "D",
+          "text": "decisão monocrática do Presidente."
+        },
+        {
+          "id": "E",
+          "text": "aprovação da Comissão sem passagem pelo colegiado."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 324 exige maioria absoluta dos Conselheiros e projeto específico do art. 309."
+    },
+    {
+      "id": "q6500",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quando um enunciado da Súmula é cancelado, seu número",
+      "options": [
+        {
+          "id": "A",
+          "text": "é imediatamente reutilizado pelo enunciado seguinte."
+        },
+        {
+          "id": "B",
+          "text": "fica vago, com nota de cancelamento."
+        },
+        {
+          "id": "C",
+          "text": "é transferido para a decisão que motivou o cancelamento."
+        },
+        {
+          "id": "D",
+          "text": "é renumerado juntamente com toda a Súmula."
+        },
+        {
+          "id": "E",
+          "text": "é mantido para um novo enunciado de tema semelhante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 325 mantém vago, com nota de cancelamento, o número do enunciado cancelado."
+    },
+    {
+      "id": "q6501",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se um enunciado da Súmula for apenas modificado,",
+      "options": [
+        {
+          "id": "A",
+          "text": "recebe necessariamente novo número."
+        },
+        {
+          "id": "B",
+          "text": "mantém o mesmo número, com a ressalva correspondente."
+        },
+        {
+          "id": "C",
+          "text": "perde seu número até nova sessão."
+        },
+        {
+          "id": "D",
+          "text": "passa a ter numeração provisória."
+        },
+        {
+          "id": "E",
+          "text": "deve ser cancelado antes da modificação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 325 preserva o número dos enunciados modificados."
+    },
+    {
+      "id": "q6502",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Perante o TCE/MA, a citação de enunciado da Súmula",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve reproduzir todos os acórdãos que o originaram."
+        },
+        {
+          "id": "B",
+          "text": "é feita pelo número correspondente e dispensa a indicação de julgados no mesmo sentido."
+        },
+        {
+          "id": "C",
+          "text": "dispensa a identificação do enunciado."
+        },
+        {
+          "id": "D",
+          "text": "só é válida acompanhada de parecer do MPC."
+        },
+        {
+          "id": "E",
+          "text": "substitui a indicação da norma legal aplicável em qualquer caso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 327 permite citar a Súmula pelo número, dispensando a indicação dos julgados no mesmo sentido."
+    },
+    {
+      "id": "q6503",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Após a Resolução TCE/MA nº 391/2023, a comissão regimental ligada ao tema de ética denomina-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "Comissão Disciplinar de Conselheiros e Servidores."
+        },
+        {
+          "id": "B",
+          "text": "Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno."
+        },
+        {
+          "id": "C",
+          "text": "Comissão de Integridade e Gestão de Riscos."
+        },
+        {
+          "id": "D",
+          "text": "Comissão Permanente de Código de Conduta."
+        },
+        {
+          "id": "E",
+          "text": "Comissão de Ética e Ouvidoria."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Resolução nº 391/2023 deu ao art. 22 a denominação Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno."
+    },
+    {
+      "id": "q6504",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno é composta por",
+      "options": [
+        {
+          "id": "A",
+          "text": "Corregedor, dois Conselheiros, um Conselheiro-Substituto e um Procurador de Contas."
+        },
+        {
+          "id": "B",
+          "text": "Presidente, Vice-Presidente, Corregedor e dois servidores."
+        },
+        {
+          "id": "C",
+          "text": "Corregedor, um Conselheiro e três membros do MPC."
+        },
+        {
+          "id": "D",
+          "text": "três Conselheiros e dois servidores efetivos."
+        },
+        {
+          "id": "E",
+          "text": "dois Conselheiros-Substitutos, dois Procuradores de Contas e o Ouvidor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 22, na redação da Resolução nº 391/2023, traz essa composição."
+    },
+    {
+      "id": "q6505",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno, o Conselheiro-Substituto integrante exerce a função de",
+      "options": [
+        {
+          "id": "A",
+          "text": "Presidente."
+        },
+        {
+          "id": "B",
+          "text": "Vice-Presidente."
+        },
+        {
+          "id": "C",
+          "text": "secretário-executivo."
+        },
+        {
+          "id": "D",
+          "text": "Corregedor auxiliar."
+        },
+        {
+          "id": "E",
+          "text": "Relator permanente de todas as reclamações."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 22 atribui ao Conselheiro-Substituto integrante a função de secretário-executivo."
+    },
+    {
+      "id": "q6506",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Os integrantes da Comissão regimental de Ética, Gestão de Pessoas e Processo Produtivo Interno são designados",
+      "options": [
+        {
+          "id": "A",
+          "text": "pelo Pleno do Tribunal."
+        },
+        {
+          "id": "B",
+          "text": "exclusivamente pelo Corregedor."
+        },
+        {
+          "id": "C",
+          "text": "pelo Presidente sem participação do Pleno."
+        },
+        {
+          "id": "D",
+          "text": "pela Assembleia Legislativa."
+        },
+        {
+          "id": "E",
+          "text": "pelo Procurador-Geral de Contas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 22 determina designação pelo Pleno."
+    },
+    {
+      "id": "q6507",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A presidência da Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao Conselheiro mais antigo, independentemente da função."
+        },
+        {
+          "id": "B",
+          "text": "ao Conselheiro eleito Corregedor; em sua ausência, aos demais Conselheiros integrantes, sucessivamente por antiguidade."
+        },
+        {
+          "id": "C",
+          "text": "ao Conselheiro-Substituto secretário-executivo."
+        },
+        {
+          "id": "D",
+          "text": "ao Presidente do TCE/MA."
+        },
+        {
+          "id": "E",
+          "text": "ao Procurador de Contas integrante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O parágrafo único do art. 22, incluído em 2023, atribui a presidência ao Corregedor e disciplina sua substituição."
+    },
+    {
+      "id": "q6508",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo o art. 25, as competências das duas comissões permanentes regimentais e as atribuições de seus presidentes e secretários-executivos serão definidas por",
+      "options": [
+        {
+          "id": "A",
+          "text": "lei estadual específica."
+        },
+        {
+          "id": "B",
+          "text": "ato normativo."
+        },
+        {
+          "id": "C",
+          "text": "portaria individual de cada integrante."
+        },
+        {
+          "id": "D",
+          "text": "decisão em processo de contas."
+        },
+        {
+          "id": "E",
+          "text": "acordo de cooperação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 25 remete essas definições a ato normativo."
+    },
+    {
+      "id": "q6509",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O procedimento de formação das pautas da Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno é",
+      "options": [
+        {
+          "id": "A",
+          "text": "fixado diretamente e de modo exaustivo no art. 26."
+        },
+        {
+          "id": "B",
+          "text": "delineado em ato normativo."
+        },
+        {
+          "id": "C",
+          "text": "definido a cada reunião por sorteio."
+        },
+        {
+          "id": "D",
+          "text": "estabelecido pelo MPC sem ato do Tribunal."
+        },
+        {
+          "id": "E",
+          "text": "idêntico obrigatoriamente ao das Câmaras, sem adaptação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O caput do art. 26 remete o procedimento de formação das pautas a ato normativo."
+    },
+    {
+      "id": "q6510",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As reuniões ordinárias da Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno ocorrem",
+      "options": [
+        {
+          "id": "A",
+          "text": "na primeira semana de cada mês, às terças-feiras, às 10h, de forma presencial."
+        },
+        {
+          "id": "B",
+          "text": "na última semana de cada mês, às quintas-feiras, às 10h, de forma híbrida."
+        },
+        {
+          "id": "C",
+          "text": "semanalmente às quartas-feiras, às 9h."
+        },
+        {
+          "id": "D",
+          "text": "a cada quinze dias, em horário definido pelo secretário-executivo."
+        },
+        {
+          "id": "E",
+          "text": "mensalmente, sem dia ou horário regimentalmente indicado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 27, I, fixa primeira semana do mês, terça-feira, 10h, e forma presencial."
+    },
+    {
+      "id": "q6511",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quanto ao local e às regras de funcionamento das reuniões ordinárias da Comissão de Ética,",
+      "options": [
+        {
+          "id": "A",
+          "text": "ocorrem no Plenário e observam, no que couber, as normas de funcionamento das sessões do Pleno."
+        },
+        {
+          "id": "B",
+          "text": "ocorrem obrigatoriamente na Corregedoria e seguem apenas regras próprias."
+        },
+        {
+          "id": "C",
+          "text": "ocorrem em qualquer gabinete, sem aplicação subsidiária de regras do Pleno."
+        },
+        {
+          "id": "D",
+          "text": "ocorrem na sede do MPC e seguem o regimento desse órgão."
+        },
+        {
+          "id": "E",
+          "text": "ocorrem exclusivamente em ambiente eletrônico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os §§ 1º e 2º do art. 27 preveem o Plenário como local e aplicação, no que couber, das normas das sessões do Pleno."
+    },
+    {
+      "id": "q6512",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As deliberações da Comissão de Ética, Gestão de Pessoas e Processo Produtivo Interno são encaminhadas",
+      "options": [
+        {
+          "id": "A",
+          "text": "diretamente à Assembleia Legislativa, sem registro interno."
+        },
+        {
+          "id": "B",
+          "text": "por ofício de seu Presidente, com resumo da ata, ao Presidente do Tribunal para as providências a seu cargo."
+        },
+        {
+          "id": "C",
+          "text": "ao MPC, que decide de forma definitiva."
+        },
+        {
+          "id": "D",
+          "text": "à Coordenação de Plenário, sem comunicação à Presidência."
+        },
+        {
+          "id": "E",
+          "text": "ao Conselho Nacional de Justiça para homologação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O § 3º do art. 27 estabelece ofício do Presidente da Comissão, resumo da ata e envio ao Presidente do TCE."
+    },
+    {
+      "id": "q6513",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A reclamação contra Conselheiro prevista no art. 26, § 1º, deve ser formulada",
+      "options": [
+        {
+          "id": "A",
+          "text": "por petição fundamentada acompanhada de elementos comprobatórios das alegações."
+        },
+        {
+          "id": "B",
+          "text": "oralmente, dispensada qualquer prova inicial."
+        },
+        {
+          "id": "C",
+          "text": "por requerimento anônimo necessariamente arquivado."
+        },
+        {
+          "id": "D",
+          "text": "apenas por outro Conselheiro e sem necessidade de fundamentação."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente pelo MPC após investigação concluída."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 26, § 1º, exige petição fundamentada e elementos comprobatórios."
+    },
+    {
+      "id": "q6514",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Distribuída a reclamação contra Conselheiro, o Relator pode, desde logo,",
+      "options": [
+        {
+          "id": "A",
+          "text": "aplicar sanção definitiva."
+        },
+        {
+          "id": "B",
+          "text": "propor à Comissão o arquivamento se considerar manifesta a improcedência."
+        },
+        {
+          "id": "C",
+          "text": "remeter obrigatoriamente o feito ao Plenário antes de qualquer análise."
+        },
+        {
+          "id": "D",
+          "text": "suspender o Conselheiro até o julgamento."
+        },
+        {
+          "id": "E",
+          "text": "converter a reclamação em projeto de resolução."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso I do § 1º do art. 26 admite proposta de arquivamento diante de manifesta improcedência."
+    },
+    {
+      "id": "q6515",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se o Relator não propuser o arquivamento imediato da reclamação, o Conselheiro reclamado deve ser ouvido no prazo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 dias corridos."
+        },
+        {
+          "id": "B",
+          "text": "7 dias."
+        },
+        {
+          "id": "C",
+          "text": "10 dias úteis."
+        },
+        {
+          "id": "D",
+          "text": "15 dias úteis."
+        },
+        {
+          "id": "E",
+          "text": "30 dias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O inciso II do § 1º do art. 26 fixa quinze dias úteis."
+    },
+    {
+      "id": "q6516",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Recebida ou não a resposta do Conselheiro reclamado, a Comissão",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve obrigatoriamente aplicar uma sanção."
+        },
+        {
+          "id": "B",
+          "text": "delibera sobre arquivamento ou melhor instrução, podendo fixar prazo para provas e diligências."
+        },
+        {
+          "id": "C",
+          "text": "perde competência e remete automaticamente o caso ao Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "só pode decidir se houver confissão."
+        },
+        {
+          "id": "E",
+          "text": "deve suspender o processo até manifestação do MPC."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O inciso III do § 1º do art. 26 prevê arquivamento ou melhor instrução, com possibilidade de provas e diligências."
+    },
+    {
+      "id": "q6517",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Antes de serem levados ao Plenário, projetos de lei de iniciativa privativa do TCE/MA e propostas de atualização do Regimento Interno",
+      "options": [
+        {
+          "id": "A",
+          "text": "dependem de manifestação da Comissão regimental de Ética, Gestão de Pessoas e Processo Produtivo Interno."
+        },
+        {
+          "id": "B",
+          "text": "dependem de aprovação definitiva do MPC."
+        },
+        {
+          "id": "C",
+          "text": "dispensam qualquer manifestação interna."
+        },
+        {
+          "id": "D",
+          "text": "devem ser submetidos primeiro à Assembleia Legislativa."
+        },
+        {
+          "id": "E",
+          "text": "são decididos monocraticamente pelo Corregedor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O § 2º do art. 26 mantém a exigência de manifestação prévia da Comissão antes da submissão ao Plenário."
+    },
+    {
+      "id": "q6518",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Considerando o corte do edital em 6/7/2026, qual alternativa reúne corretamente regras finais do Regimento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As disposições regulamentares compatíveis permanecem até novo disciplinamento; a regra temporária ligada ao art. 141-C expirou em 31/12/2024; o Regimento entrou em vigor em 21/1/2000."
+        },
+        {
+          "id": "B",
+          "text": "Toda regulamentação anterior foi revogada em 2000; a regra do art. 141-C permanece vigente em 2026; o Regimento entrou em vigor em 22/2/2000."
+        },
+        {
+          "id": "C",
+          "text": "Somente regulamentos posteriores ao Regimento permanecem válidos; a regra temporária terminou em 31/12/2025; o Regimento entrou em vigor em 1/1/2001."
+        },
+        {
+          "id": "D",
+          "text": "Regulamentos incompatíveis permanecem até revogação expressa; a regra temporária não tinha data final; o Regimento entrou em vigor na publicação do edital."
+        },
+        {
+          "id": "E",
+          "text": "O art. 337 revoga toda regulamentação compatível; a regra temporária foi prorrogada automaticamente; o Regimento entrou em vigor em 2005."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 337 preserva regulamentação compatível até novo disciplinamento; a regra temporária do art. 141-C terminou em 31/12/2024; o art. 338 fixa vigência em 21/1/2000."
+    }
+  ]
+}

@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q8559",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A base convencional da LBI é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, aprovados pelo rito do artigo 5º, § 3º, da Constituição."
+        },
+        {
+          "id": "B",
+          "text": "uma resolução sem força constitucional."
+        },
+        {
+          "id": "C",
+          "text": "somente a Declaração Universal."
+        },
+        {
+          "id": "D",
+          "text": "um tratado aprovado por decreto simples."
+        },
+        {
+          "id": "E",
+          "text": "a Convenção Americana sem protocolo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Congresso aprovou Convenção e Protocolo pelo Decreto Legislativo nº 186/2008, no rito constitucional qualificado, e o Decreto nº 6.949/2009 os promulgou. Por isso, não se trata de resolução nem de tratado incorporado apenas por decreto simples. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8560",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O conceito de pessoa com deficiência exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "diagnóstico médico de qualquer duração."
+        },
+        {
+          "id": "B",
+          "text": "impedimento de longo prazo que, em interação com barreiras, pode obstruir participação em igualdade."
+        },
+        {
+          "id": "C",
+          "text": "incapacidade civil absoluta."
+        },
+        {
+          "id": "D",
+          "text": "obstrução total e permanente."
+        },
+        {
+          "id": "E",
+          "text": "apenas impedimento físico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O conceito é relacional: impedimento físico, mental, intelectual ou sensorial de longo prazo interage com barreiras e pode obstruir participação. Não exige permanência, obstrução absoluta, diagnóstico isolado nem incapacidade civil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8561",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando necessária, a avaliação da deficiência será",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusivamente médica."
+        },
+        {
+          "id": "B",
+          "text": "feita por um único profissional."
+        },
+        {
+          "id": "C",
+          "text": "biopsicossocial, por equipe multiprofissional e interdisciplinar, considerando quatro grupos de fatores."
+        },
+        {
+          "id": "D",
+          "text": "baseada somente na CID."
+        },
+        {
+          "id": "E",
+          "text": "dispensada de avaliar participação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A lei combina impedimentos corporais, fatores socioambientais/psicológicos/pessoais, limitação de atividades e restrição de participação. Isso exclui avaliação uniprofissional, puramente médica ou restrita à CID. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8562",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Telemedicina ou análise documental podem alcançar",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda avaliação, sem equipe."
+        },
+        {
+          "id": "B",
+          "text": "somente a decisão judicial de curatela."
+        },
+        {
+          "id": "C",
+          "text": "qualquer diagnóstico sem regulamento."
+        },
+        {
+          "id": "D",
+          "text": "o exame médico-pericial componente da avaliação biopsicossocial, conforme regulamento."
+        },
+        {
+          "id": "E",
+          "text": "apenas a tomada de decisão apoiada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Lei nº 14.724/2023 autorizou somente o componente médico-pericial, conforme situações e requisitos regulamentares. Equipe e fatores biopsicossociais não foram substituídos por exame remoto ou documental. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8563",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A acessibilidade é definida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "uso de espaços sem autonomia."
+        },
+        {
+          "id": "B",
+          "text": "benefício restrito à zona urbana."
+        },
+        {
+          "id": "C",
+          "text": "adaptação apenas de edifícios públicos."
+        },
+        {
+          "id": "D",
+          "text": "tecnologia destinada somente à comunicação."
+        },
+        {
+          "id": "E",
+          "text": "possibilidade e condição de alcance e uso com segurança e autonomia, em amplo conjunto de ambientes e serviços."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A definição alcança zonas urbana e rural e pessoas com deficiência ou mobilidade reduzida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8564",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Adaptação razoável é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ajuste necessário e adequado ao caso concreto que não impõe ônus desproporcional e indevido."
+        },
+        {
+          "id": "B",
+          "text": "todo projeto universal, sem análise individual."
+        },
+        {
+          "id": "C",
+          "text": "favor facultativo do prestador."
+        },
+        {
+          "id": "D",
+          "text": "medida exclusiva de transporte."
+        },
+        {
+          "id": "E",
+          "text": "mudança sempre onerosa e ilimitada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Diferentemente do desenho universal, a adaptação responde à necessidade do caso concreto e encontra limite no ônus desproporcional e indevido. Não é favor: a recusa pode configurar discriminação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8565",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre as espécies legais de barreiras estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas arquitetônicas e urbanísticas."
+        },
+        {
+          "id": "B",
+          "text": "urbanísticas, arquitetônicas, nos transportes, comunicacionais, atitudinais e tecnológicas."
+        },
+        {
+          "id": "C",
+          "text": "somente físicas e médicas."
+        },
+        {
+          "id": "D",
+          "text": "econômicas e tributárias apenas."
+        },
+        {
+          "id": "E",
+          "text": "unicamente as intencionais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Barreira pode ser entrave, obstáculo, atitude ou comportamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8566",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Pessoa com mobilidade reduzida",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre pessoa com deficiência permanente."
+        },
+        {
+          "id": "B",
+          "text": "exclui gestantes e idosos."
+        },
+        {
+          "id": "C",
+          "text": "pode ter dificuldade permanente ou temporária e inclui, entre outros, idoso, gestante e obeso."
+        },
+        {
+          "id": "D",
+          "text": "é definida apenas por diagnóstico."
+        },
+        {
+          "id": "E",
+          "text": "não possui proteção na zona rural."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A redução pode envolver mobilidade, flexibilidade, coordenação ou percepção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8567",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre figuras de apoio é",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo acompanhante é profissional de saúde."
+        },
+        {
+          "id": "B",
+          "text": "atendente pessoal deve executar técnica regulamentada."
+        },
+        {
+          "id": "C",
+          "text": "apoio escolar atua somente fora da escola."
+        },
+        {
+          "id": "D",
+          "text": "acompanhante pode ou não ser atendente, e atendente/apoio não executam técnicas próprias de profissão regulamentada."
+        },
+        {
+          "id": "E",
+          "text": "as três figuras são sinônimas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O atendente presta cuidados diários, o apoio escolar atua em alimentação, higiene, locomoção e atividades necessárias, e o acompanhante pode ou não acumular função de atendente. Atendente e apoio não executam procedimentos próprios de profissão regulamentada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8568",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A pessoa com necessidades complexas de comunicação",
+      "options": [
+        {
+          "id": "A",
+          "text": "constitui nova categoria autônoma de deficiência."
+        },
+        {
+          "id": "B",
+          "text": "necessariamente não compreende nenhuma mensagem."
+        },
+        {
+          "id": "C",
+          "text": "usa apenas linguagem oral."
+        },
+        {
+          "id": "D",
+          "text": "foi excluída da LBI em 2025."
+        },
+        {
+          "id": "E",
+          "text": "possui dificuldade significativa de compreensão ou expressão e necessita estratégias alternativas ou aumentativas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Lei nº 15.249/2025 acrescentou essa definição funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8569",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A discriminação em razão da deficiência pode ocorrer",
+      "options": [
+        {
+          "id": "A",
+          "text": "por ação ou omissão e pelo propósito ou efeito lesivo aos direitos."
+        },
+        {
+          "id": "B",
+          "text": "somente por ação intencional confessada."
+        },
+        {
+          "id": "C",
+          "text": "apenas em órgão público."
+        },
+        {
+          "id": "D",
+          "text": "sem incluir recusa de tecnologia assistiva."
+        },
+        {
+          "id": "E",
+          "text": "somente após dano patrimonial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A definição alcança ação ou omissão e tanto propósito quanto efeito de prejudicar direitos, sem exigir confissão de intenção ou dano patrimonial. Inclui recusa de adaptação razoável e tecnologia assistiva e não se limita ao poder público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8570",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto aos benefícios de ação afirmativa, a LBI estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "são compulsórios."
+        },
+        {
+          "id": "B",
+          "text": "a pessoa com deficiência não é obrigada a usufruí-los."
+        },
+        {
+          "id": "C",
+          "text": "são proibidos."
+        },
+        {
+          "id": "D",
+          "text": "dependem de curatela."
+        },
+        {
+          "id": "E",
+          "text": "existem apenas no trabalho."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A autonomia permite ao beneficiário decidir se utiliza a ação afirmativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8571",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para fins de proteção especial, são considerados especialmente vulneráveis",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente adultos com deficiência."
+        },
+        {
+          "id": "B",
+          "text": "apenas homens e crianças."
+        },
+        {
+          "id": "C",
+          "text": "criança, adolescente, mulher e idoso com deficiência."
+        },
+        {
+          "id": "D",
+          "text": "todos os acompanhantes."
+        },
+        {
+          "id": "E",
+          "text": "somente pessoas sob curatela."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A enumeração está no parágrafo único do artigo 5º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8572",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O dever de comunicar ameaça ou violação de direitos cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas à vítima."
+        },
+        {
+          "id": "B",
+          "text": "somente ao Ministério Público."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente aos serviços de saúde."
+        },
+        {
+          "id": "D",
+          "text": "a todos, devendo juízes e tribunais remeter peças ao Ministério Público quando conhecerem fatos caracterizadores."
+        },
+        {
+          "id": "E",
+          "text": "apenas ao curador."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regra geral de comunicação consta do artigo 7º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8573",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A prioridade estendida ao acompanhante não alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "proteção e socorro."
+        },
+        {
+          "id": "B",
+          "text": "atendimento ao público."
+        },
+        {
+          "id": "C",
+          "text": "recursos de comunicação."
+        },
+        {
+          "id": "D",
+          "text": "segurança no transporte."
+        },
+        {
+          "id": "E",
+          "text": "restituição de imposto de renda e tramitação processual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Proteção, atendimento, transporte e comunicação podem ser estendidos ao acompanhante ou atendente. O artigo 9º, § 1º, excetua expressamente restituição de imposto de renda e tramitação de processos e procedimentos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8574",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos serviços de emergência, a prioridade da pessoa com deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "é condicionada aos protocolos de atendimento médico."
+        },
+        {
+          "id": "B",
+          "text": "sempre supera qualquer gravidade clínica."
+        },
+        {
+          "id": "C",
+          "text": "não existe."
+        },
+        {
+          "id": "D",
+          "text": "depende de curatela."
+        },
+        {
+          "id": "E",
+          "text": "é transferida apenas ao acompanhante."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A prioridade legal não substitui a triagem clínica de emergência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8575",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.280/2025 reforçou o atendimento psicológico na LBI para",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente vítimas menores de idade."
+        },
+        {
+          "id": "B",
+          "text": "a pessoa com deficiência, seus familiares e atendentes pessoais, especialmente em vitimização por crime contra a dignidade sexual."
+        },
+        {
+          "id": "C",
+          "text": "apenas o curador judicial."
+        },
+        {
+          "id": "D",
+          "text": "somente familiares, excluída a própria pessoa."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente profissionais do SUS."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A alteração alcança a pessoa com deficiência, seus familiares e atendentes pessoais e destaca a vitimização por crime contra a dignidade sexual. Não se limita a menores, curadores, familiares ou profissionais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8576",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Nos termos do artigo 121 da LBI, quando houver normas protetivas concorrentes sobre direitos da pessoa com deficiência,",
+      "options": [
+        {
+          "id": "A",
+          "text": "os direitos, prazos e obrigações da LBI excluem automaticamente os previstos em tratados."
+        },
+        {
+          "id": "B",
+          "text": "prevalecerá a norma mais benéfica à pessoa com deficiência."
+        },
+        {
+          "id": "C",
+          "text": "sempre prevalecerá a LBI por ser lei especial, ainda que menos benéfica."
+        },
+        {
+          "id": "D",
+          "text": "as normas internacionais vinculantes somente podem ser consideradas após novo decreto regulamentar."
+        },
+        {
+          "id": "E",
+          "text": "a existência de outra norma protetiva torna inaplicáveis ambas as regras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 121 determina que direitos, prazos e obrigações da LBI não excluem os já previstos em outras legislações e instrumentos internacionais aplicáveis; seu parágrafo único manda prevalecer a norma mais benéfica à pessoa com deficiência. Fonte: questão autoral baseada na Lei nº 13.146/2015 e nas referências do conteúdo."
+    },
+    {
+      "id": "q8577",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A esterilização compulsória da pessoa com deficiência é",
+      "options": [
+        {
+          "id": "A",
+          "text": "permitida pelo curador."
+        },
+        {
+          "id": "B",
+          "text": "obrigatória em deficiência intelectual."
+        },
+        {
+          "id": "C",
+          "text": "admitida por decisão administrativa."
+        },
+        {
+          "id": "D",
+          "text": "vedada, preservando-se fertilidade e direitos reprodutivos."
+        },
+        {
+          "id": "E",
+          "text": "regra de saúde pública."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A plena capacidade inclui conservar a fertilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8578",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A LBI proíbe obrigar a pessoa a",
+      "options": [
+        {
+          "id": "A",
+          "text": "receber informação de saúde."
+        },
+        {
+          "id": "B",
+          "text": "participar do consentimento."
+        },
+        {
+          "id": "C",
+          "text": "ter acompanhante."
+        },
+        {
+          "id": "D",
+          "text": "buscar reabilitação."
+        },
+        {
+          "id": "E",
+          "text": "submeter-se a intervenção clínica, tratamento ou institucionalização forçada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A regra protege autonomia e dignidade durante toda a vida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8579",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No consentimento de pessoa sob curatela, deve ser assegurada",
+      "options": [
+        {
+          "id": "A",
+          "text": "sua participação no maior grau possível."
+        },
+        {
+          "id": "B",
+          "text": "substituição automática de toda vontade."
+        },
+        {
+          "id": "C",
+          "text": "exclusão do processo informativo."
+        },
+        {
+          "id": "D",
+          "text": "intervenção forçada sem lei."
+        },
+        {
+          "id": "E",
+          "text": "dispensa de salvaguardas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O consentimento pode ser suprido apenas na forma da lei, mas a pessoa deve participar no maior grau possível. Curatela não autoriza exclusão automática da informação, da vontade ou das salvaguardas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8580",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Atendimento sem consentimento prévio é admitido",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre que o médico preferir."
+        },
+        {
+          "id": "B",
+          "text": "em risco de morte ou emergência em saúde, com superior interesse e salvaguardas."
+        },
+        {
+          "id": "C",
+          "text": "por deficiência intelectual, automaticamente."
+        },
+        {
+          "id": "D",
+          "text": "para qualquer pesquisa."
+        },
+        {
+          "id": "E",
+          "text": "apenas com autorização do acompanhante."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Risco de morte ou emergência em saúde são as hipóteses legais, sempre com superior interesse e salvaguardas. Deficiência, curatela, preferência médica ou presença de acompanhante não criam autorização geral, e pesquisa possui requisitos próprios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8581",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Habilitação e reabilitação visam",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas corrigir funções do corpo."
+        },
+        {
+          "id": "B",
+          "text": "substituir a autonomia por tutela."
+        },
+        {
+          "id": "C",
+          "text": "desenvolver potencialidades e aptidões para autonomia e participação social."
+        },
+        {
+          "id": "D",
+          "text": "institucionalizar a pessoa."
+        },
+        {
+          "id": "E",
+          "text": "oferecer somente atendimento urbano."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O processo parte de avaliação multidisciplinar e alcança dimensões físicas, cognitivas, sensoriais, psicossociais, profissionais e artísticas. Busca autonomia, prevê rede articulada e serviços próximos ao domicílio, inclusive rural, e não institucionalização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8582",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O direito à saúde assegura",
+      "options": [
+        {
+          "id": "A",
+          "text": "atenção apenas básica."
+        },
+        {
+          "id": "B",
+          "text": "acesso condicionado à renda."
+        },
+        {
+          "id": "C",
+          "text": "serviços inferiores aos demais usuários."
+        },
+        {
+          "id": "D",
+          "text": "atenção integral em todos os níveis do SUS, com acesso universal e igualitário."
+        },
+        {
+          "id": "E",
+          "text": "somente reabilitação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A pessoa também participa da elaboração das políticas de saúde a ela destinadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8583",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Planos e seguros privados de saúde",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem cobrar adicional pela deficiência."
+        },
+        {
+          "id": "B",
+          "text": "podem excluir produtos comuns."
+        },
+        {
+          "id": "C",
+          "text": "atendem somente com curador."
+        },
+        {
+          "id": "D",
+          "text": "não estão sujeitos à não discriminação."
+        },
+        {
+          "id": "E",
+          "text": "devem ofertar no mínimo os produtos e serviços dos demais clientes, sem preço diferenciado por deficiência."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A condição da pessoa não justifica diferenciação de valor. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8584",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na internação ou observação, a impossibilidade de permanência do acompanhante exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "justificativa escrita do profissional e providências da instituição para suprir a ausência."
+        },
+        {
+          "id": "B",
+          "text": "mera comunicação verbal."
+        },
+        {
+          "id": "C",
+          "text": "alta imediata."
+        },
+        {
+          "id": "D",
+          "text": "autorização do plano de saúde."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma medida substitutiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A regra é permanência em tempo integral do acompanhante ou atendente. A exceção exige cumulativamente justificativa escrita do profissional responsável e providências institucionais para suprir a ausência, não mera comunicação ou alta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8585",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A suspeita ou confirmação de violência deve ser notificada pelo serviço de saúde",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente à família."
+        },
+        {
+          "id": "B",
+          "text": "à polícia, ao Ministério Público e aos Conselhos dos Direitos da Pessoa com Deficiência."
+        },
+        {
+          "id": "C",
+          "text": "apenas se a vítima for menor."
+        },
+        {
+          "id": "D",
+          "text": "somente se houver morte."
+        },
+        {
+          "id": "E",
+          "text": "apenas em estabelecimento público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A obrigação alcança serviços públicos e privados e violência física ou psicológica por ação ou omissão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8586",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O direito à educação compreende",
+      "options": [
+        {
+          "id": "A",
+          "text": "sistema segregado como regra."
+        },
+        {
+          "id": "B",
+          "text": "somente educação básica."
+        },
+        {
+          "id": "C",
+          "text": "sistema inclusivo em todos os níveis e modalidades e aprendizagem ao longo da vida."
+        },
+        {
+          "id": "D",
+          "text": "exclusão do ensino profissional."
+        },
+        {
+          "id": "E",
+          "text": "dispensa de participação familiar."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O objetivo é o máximo desenvolvimento conforme características, interesses e necessidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8587",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Instituição privada de ensino",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode recusar matrícula por deficiência."
+        },
+        {
+          "id": "B",
+          "text": "pode cobrar taxa de inclusão."
+        },
+        {
+          "id": "C",
+          "text": "está dispensada de profissional de apoio."
+        },
+        {
+          "id": "D",
+          "text": "deve cumprir deveres inclusivos sem cobrar valor adicional em matrícula, anuidade ou mensalidade."
+        },
+        {
+          "id": "E",
+          "text": "não se sujeita à LBI."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O STF confirmou a constitucionalidade dessas obrigações na ADI 5.357. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8588",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em processo seletivo educacional, o tempo adicional",
+      "options": [
+        {
+          "id": "A",
+          "text": "é proibido."
+        },
+        {
+          "id": "B",
+          "text": "é automático e igual para todos."
+        },
+        {
+          "id": "C",
+          "text": "depende de curatela."
+        },
+        {
+          "id": "D",
+          "text": "substitui os formatos acessíveis."
+        },
+        {
+          "id": "E",
+          "text": "é concedido conforme demanda previamente solicitada e necessidade comprovada."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O tempo adicional exige solicitação prévia e comprovação da necessidade; não é automático nem depende de curatela. Recursos e formatos acessíveis são garantias cumulativas, e os recursos devem ser previamente solicitados e escolhidos pelo candidato. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8589",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O direito à moradia permite",
+      "options": [
+        {
+          "id": "A",
+          "text": "residir com família ou companheiro, desacompanhada, em moradia independente ou residência inclusiva."
+        },
+        {
+          "id": "B",
+          "text": "somente residência institucional."
+        },
+        {
+          "id": "C",
+          "text": "apenas família natural."
+        },
+        {
+          "id": "D",
+          "text": "moradia desacompanhada só com curatela."
+        },
+        {
+          "id": "E",
+          "text": "exclusão de moradia comunitária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A pluralidade de arranjos protege escolha, autonomia e convivência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8590",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos programas habitacionais públicos ou subsidiados",
+      "options": [
+        {
+          "id": "A",
+          "text": "a reserva é de exatamente 5%."
+        },
+        {
+          "id": "B",
+          "text": "há reserva mínima de 3%, e a prioridade é reconhecida apenas uma vez."
+        },
+        {
+          "id": "C",
+          "text": "unidades não demandadas ficam vazias."
+        },
+        {
+          "id": "D",
+          "text": "não há compatibilidade com renda."
+        },
+        {
+          "id": "E",
+          "text": "somente o curador pode ter prioridade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A reserva é de no mínimo 3%, não 5%, e a prioridade da pessoa ou responsável só é reconhecida uma vez. Sem interessado, unidades podem ser destinadas às demais pessoas, e o financiamento deve ser compatível com a renda. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8591",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No trabalho, a LBI garante",
+      "options": [
+        {
+          "id": "A",
+          "text": "exigência de aptidão plena."
+        },
+        {
+          "id": "B",
+          "text": "remuneração inferior por adaptação."
+        },
+        {
+          "id": "C",
+          "text": "livre escolha, igualdade, remuneração igual por trabalho de igual valor e proteção contra discriminação."
+        },
+        {
+          "id": "D",
+          "text": "restrição de promoção."
+        },
+        {
+          "id": "E",
+          "text": "apenas emprego público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A proteção alcança recrutamento, exames, permanência, ascensão e reabilitação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8592",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A habilitação profissional deve respeitar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente necessidade empresarial."
+        },
+        {
+          "id": "B",
+          "text": "ocupação definida pelo curador."
+        },
+        {
+          "id": "C",
+          "text": "aptidão plena prévia."
+        },
+        {
+          "id": "D",
+          "text": "livre escolha, vocação e interesse da pessoa."
+        },
+        {
+          "id": "E",
+          "text": "apenas formação urbana."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O objetivo é ingresso, permanência ou retorno ao trabalho adequado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8593",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O benefício assistencial de um salário mínimo",
+      "options": [
+        {
+          "id": "A",
+          "text": "é automático para toda deficiência."
+        },
+        {
+          "id": "B",
+          "text": "é aposentadoria contributiva."
+        },
+        {
+          "id": "C",
+          "text": "dispensa análise familiar."
+        },
+        {
+          "id": "D",
+          "text": "é regulado pela LC nº 142/2013."
+        },
+        {
+          "id": "E",
+          "text": "depende dos requisitos de subsistência e da LOAS."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 40 exige ausência de meios próprios e familiares de subsistência e remete à LOAS. Não é concessão automática nem aposentadoria; a LC nº 142/2013 rege benefício previdenciário distinto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8594",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A aposentadoria da pessoa com deficiência segurada do RGPS observa",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Lei Complementar nº 142/2013."
+        },
+        {
+          "id": "B",
+          "text": "somente a LOAS."
+        },
+        {
+          "id": "C",
+          "text": "as regras do HLPF."
+        },
+        {
+          "id": "D",
+          "text": "concessão sem contribuição."
+        },
+        {
+          "id": "E",
+          "text": "o mesmo regime do BPC."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Benefício previdenciário e benefício assistencial possuem pressupostos distintos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8595",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Obra intelectual em formato acessível",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser recusada por qualquer titular."
+        },
+        {
+          "id": "B",
+          "text": "não pode ser recusada sob alegação de propriedade intelectual."
+        },
+        {
+          "id": "C",
+          "text": "é direito apenas de museus públicos."
+        },
+        {
+          "id": "D",
+          "text": "depende de curatela."
+        },
+        {
+          "id": "E",
+          "text": "é proibida em cinema."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cultura, esporte, turismo e lazer são garantidos em igualdade de oportunidades. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8596",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O direito geral a transporte e mobilidade é assegurado",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente em transporte público urbano."
+        },
+        {
+          "id": "B",
+          "text": "por segregação de rotas."
+        },
+        {
+          "id": "C",
+          "text": "em igualdade, mediante identificação e eliminação de obstáculos e barreiras."
+        },
+        {
+          "id": "D",
+          "text": "apenas a quem usa cadeira de rodas."
+        },
+        {
+          "id": "E",
+          "text": "sem alcançar mobilidade reduzida."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Requisitos técnicos específicos são instrumentos de realização desse direito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8597",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No exercício do voto, a pessoa com deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve usar seção exclusiva."
+        },
+        {
+          "id": "B",
+          "text": "não pode pedir auxílio."
+        },
+        {
+          "id": "C",
+          "text": "perde direitos sob curatela."
+        },
+        {
+          "id": "D",
+          "text": "pode, quando necessário e a seu pedido, ser auxiliada por pessoa de sua escolha."
+        },
+        {
+          "id": "E",
+          "text": "não pode candidatar-se."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A lei protege voto, candidatura, sigilo e participação política em igualdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8598",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os recursos de tecnologia assistiva no acesso à justiça alcançam",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a parte autora."
+        },
+        {
+          "id": "B",
+          "text": "somente testemunhas."
+        },
+        {
+          "id": "C",
+          "text": "somente servidores do Judiciário."
+        },
+        {
+          "id": "D",
+          "text": "apenas processos penais."
+        },
+        {
+          "id": "E",
+          "text": "parte, testemunha, advogado, defensor, magistrado, membro do MP e outros participantes previstos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A garantia viabiliza participação processual em múltiplos papéis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8599",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Serviços notariais e de registro",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem reconhecer capacidade legal plena e não podem negar serviço ou criar condição diferente por deficiência."
+        },
+        {
+          "id": "B",
+          "text": "podem exigir curatela para todo ato."
+        },
+        {
+          "id": "C",
+          "text": "não precisam oferecer acessibilidade."
+        },
+        {
+          "id": "D",
+          "text": "podem negar escritura por deficiência."
+        },
+        {
+          "id": "E",
+          "text": "não se submetem à proibição de discriminação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cartórios devem reconhecer capacidade legal plena, garantir acessibilidade e não podem negar, obstaculizar ou diferenciar o serviço por deficiência. Curatela não é requisito universal, e o descumprimento constitui discriminação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8600",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A curatela deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "regra permanente."
+        },
+        {
+          "id": "B",
+          "text": "extraordinária, proporcional e pelo menor tempo possível, com contas anuais."
+        },
+        {
+          "id": "C",
+          "text": "automática por diagnóstico."
+        },
+        {
+          "id": "D",
+          "text": "igual para toda pessoa."
+        },
+        {
+          "id": "E",
+          "text": "dispensada de motivação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A curatela não decorre automaticamente do diagnóstico: é medida extraordinária, proporcional e temporariamente mínima. A sentença deve motivar e individualizar limites, e o curador presta contas anualmente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8601",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A curatela alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "voto e casamento."
+        },
+        {
+          "id": "B",
+          "text": "saúde e educação."
+        },
+        {
+          "id": "C",
+          "text": "somente atos de natureza patrimonial e negocial."
+        },
+        {
+          "id": "D",
+          "text": "corpo e sexualidade."
+        },
+        {
+          "id": "E",
+          "text": "todo ato da vida civil."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Trabalho, privacidade, matrimônio e outros direitos existenciais ficam fora do alcance legal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8602",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O dever geral previsto no artigo 8º da LBI cabe",
+      "options": [
+        {
+          "id": "A",
+          "text": "exclusivamente à União, sem participação familiar."
+        },
+        {
+          "id": "B",
+          "text": "somente ao Estado, depois de decisão judicial."
+        },
+        {
+          "id": "C",
+          "text": "apenas à família, em rol fechado de direitos."
+        },
+        {
+          "id": "D",
+          "text": "ao Estado, à sociedade e à família, que devem assegurar com prioridade um rol não exaustivo de direitos."
+        },
+        {
+          "id": "E",
+          "text": "somente ao curador da pessoa com deficiência."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 8º distribui o dever entre Estado, sociedade e família, exige prioridade e enumera direitos sem fechar o rol. Não condiciona a garantia a curatela ou decisão judicial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8603",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A deficiência, por si só, não afeta a plena capacidade civil da pessoa, inclusive para",
+      "options": [
+        {
+          "id": "A",
+          "text": "excluir a convivência familiar e comunitária."
+        },
+        {
+          "id": "B",
+          "text": "submeter casamento e união estável à autorização do curador."
+        },
+        {
+          "id": "C",
+          "text": "impedir a adoção como adotante."
+        },
+        {
+          "id": "D",
+          "text": "autorizar esterilização compulsória."
+        },
+        {
+          "id": "E",
+          "text": "casar, exercer direitos sexuais e reprodutivos, conservar a fertilidade e exercer guarda, tutela, curatela e adoção em igualdade."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 6º preserva expressamente esses direitos e também a decisão sobre o número de filhos, o planejamento familiar e a convivência familiar e comunitária. Deficiência não gera incapacidade automática, e a esterilização compulsória é vedada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8604",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Desde a Lei nº 15.249/2025, os sistemas de comunicação aumentativa e alternativa previstos para necessidades complexas de comunicação são",
+      "options": [
+        {
+          "id": "A",
+          "text": "de baixa tecnologia nos serviços públicos de saúde e no atendimento educacional especializado, com capacitação permanente das equipes de saúde."
+        },
+        {
+          "id": "B",
+          "text": "restritos a equipamentos de alta tecnologia em escolas privadas."
+        },
+        {
+          "id": "C",
+          "text": "facultativos nos serviços públicos de saúde."
+        },
+        {
+          "id": "D",
+          "text": "destinados somente a pessoas com deficiência auditiva."
+        },
+        {
+          "id": "E",
+          "text": "substitutos de toda forma convencional de comunicação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A alteração exige CAA de baixa tecnologia nos serviços públicos de saúde e no atendimento educacional especializado de estudantes com necessidades complexas de comunicação; na saúde, também determina capacitação permanente das equipes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8605",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Código Civil considera relativamente incapaz, entre outras hipóteses,",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda pessoa com deficiência."
+        },
+        {
+          "id": "B",
+          "text": "quem, por causa transitória ou permanente, não puder exprimir vontade."
+        },
+        {
+          "id": "C",
+          "text": "qualquer pessoa sob apoio."
+        },
+        {
+          "id": "D",
+          "text": "todo maior de dezesseis anos."
+        },
+        {
+          "id": "E",
+          "text": "quem usa tecnologia assistiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A causa é a impossibilidade transitória ou permanente de exprimir vontade, não a deficiência, o uso de apoio ou tecnologia. Outras hipóteses relativas, como ébrios habituais e viciados em tóxico, confirmam que a categoria não equivale a um rótulo de deficiência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8606",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na fixação da curatela, devem ser considerados",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas os bens."
+        },
+        {
+          "id": "B",
+          "text": "somente o diagnóstico."
+        },
+        {
+          "id": "C",
+          "text": "potencialidades, vontade, preferências, conflito de interesses e influência indevida."
+        },
+        {
+          "id": "D",
+          "text": "os interesses do curador acima dos da pessoa."
+        },
+        {
+          "id": "E",
+          "text": "limites padronizados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Os limites são individualizados conforme potencialidades, vontade e preferências, com prevenção de conflito e influência indevida. O juiz entrevista pessoalmente a pessoa com assistência de equipe multidisciplinar; diagnóstico ou conveniência do curador não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8607",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A tomada de decisão apoiada exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "imposição judicial de apoiadores."
+        },
+        {
+          "id": "B",
+          "text": "um único apoiador escolhido pelo juiz."
+        },
+        {
+          "id": "C",
+          "text": "incapacidade relativa prévia."
+        },
+        {
+          "id": "D",
+          "text": "pedido da própria pessoa e pelo menos duas pessoas idôneas por ela escolhidas."
+        },
+        {
+          "id": "E",
+          "text": "curatela anterior."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A iniciativa e a escolha pertencem à pessoa apoiada, que indica pelo menos duas pessoas idôneas. Curatela ou incapacidade relativa não são requisitos; o termo fixa limites, compromissos, prazo e respeito à vontade e aos interesses. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8608",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei nº 14.510/2022 acrescentou entre as ações do SUS para prevenir deficiências evitáveis",
+      "options": [
+        {
+          "id": "A",
+          "text": "a substituição da triagem neonatal por exame exclusivamente remoto."
+        },
+        {
+          "id": "B",
+          "text": "a limitação do atendimento neonatal às capitais."
+        },
+        {
+          "id": "C",
+          "text": "a exclusão da telessaúde nas ações preventivas."
+        },
+        {
+          "id": "D",
+          "text": "somente o controle da gestante de alto risco, já previsto antes da alteração."
+        },
+        {
+          "id": "E",
+          "text": "o aprimoramento do atendimento neonatal para prevenir danos cerebrais e sequelas neurológicas em recém-nascidos, inclusive por telessaúde."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Lei nº 14.510/2022 incluiu no artigo 19 o aprimoramento do atendimento neonatal com ações e serviços preventivos contra danos cerebrais e sequelas neurológicas, inclusive por telessaúde. Não eliminou triagem, não restringiu territorialmente o atendimento e não se confunde com o controle da gestante de alto risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8609",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O término da tomada de decisão apoiada",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ser pedido pela pessoa apoiada a qualquer tempo; o desligamento do apoiador depende de manifestação judicial."
+        },
+        {
+          "id": "B",
+          "text": "nunca pode ser requerido pela pessoa."
+        },
+        {
+          "id": "C",
+          "text": "depende de prazo mínimo de dez anos."
+        },
+        {
+          "id": "D",
+          "text": "transforma-se automaticamente em curatela."
+        },
+        {
+          "id": "E",
+          "text": "dispensa análise de negligência do apoiador."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A autonomia permite à pessoa encerrar o apoio a qualquer tempo, enquanto o apoiador depende de manifestação judicial para sair. Não há prazo decenal nem conversão automática; negligência, pressão ou descumprimento podem gerar destituição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8610",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Quanto ao trabalho e ao concurso público, a pessoa com deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "só pode exercer atividade indicada pelo curador."
+        },
+        {
+          "id": "B",
+          "text": "tem direito a trabalho de livre escolha e igualdade e pode concorrer pela reserva de vagas."
+        },
+        {
+          "id": "C",
+          "text": "deve comprovar aptidão plena."
+        },
+        {
+          "id": "D",
+          "text": "não pode optar pela ampla concorrência."
+        },
+        {
+          "id": "E",
+          "text": "tem remuneração diferenciada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Livre escolha, igualdade e vedação de aptidão plena protegem o trabalho. A reserva é ação afirmativa disponível à pessoa, que não é obrigada a usufruí-la nem fica impedida de ampla concorrência. Fonte: questão adaptada de Cespe/Cebraspe; STJ; conhecimentos básicos para os cargos 7 e 8; 2018; item 36; prova https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/matriz_385_stjcb1__pag_3.pdf; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/GAB_DEFINITIVO_385_STJCB1.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando seus dois núcleos sobre trabalho e reserva de vagas."
+    },
+    {
+      "id": "q8611",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Para cumprir seus deveres de inclusão, escola privada",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode criar mensalidade especial."
+        },
+        {
+          "id": "B",
+          "text": "pode repassar integralmente os custos aos pais."
+        },
+        {
+          "id": "C",
+          "text": "não pode cobrar valores adicionais em mensalidade, anuidade ou matrícula."
+        },
+        {
+          "id": "D",
+          "text": "pode recusar estudante se não houver turma exclusiva."
+        },
+        {
+          "id": "E",
+          "text": "está dispensada das obrigações do artigo 28."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A proibição de cobrança adicional foi declarada constitucional pelo STF. Fonte: questão adaptada de Cespe/Cebraspe; STJ; conhecimentos básicos para os cargos 7 e 8; 2018; item 37; prova https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/matriz_385_stjcb1__pag_3.pdf; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/GAB_DEFINITIVO_385_STJCB1.PDF; adaptação: assertiva negativa convertida em questão de cinco alternativas e atualizada com o fundamento vigente."
+    },
+    {
+      "id": "q8612",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Pessoa com deficiência sob curatela",
+      "options": [
+        {
+          "id": "A",
+          "text": "não pode casar."
+        },
+        {
+          "id": "B",
+          "text": "perde direitos reprodutivos."
+        },
+        {
+          "id": "C",
+          "text": "torna-se absolutamente incapaz."
+        },
+        {
+          "id": "D",
+          "text": "mantém o direito ao matrimônio, que não é alcançado pela curatela."
+        },
+        {
+          "id": "E",
+          "text": "só pode constituir família com autorização administrativa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A curatela limita-se aos atos patrimoniais e negociais. Fonte: questão adaptada de Cespe/Cebraspe; STJ; conhecimentos básicos para os cargos 7 e 8; 2018; item 38; prova https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/matriz_385_stjcb1__pag_3.pdf; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/GAB_DEFINITIVO_385_STJCB1.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas e explicitado o limite legal da curatela."
+    },
+    {
+      "id": "q8613",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No acesso à justiça, o processo eletrônico destinado à pessoa com deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode ignorar diferentes formas de deficiência."
+        },
+        {
+          "id": "B",
+          "text": "dispensa tecnologia assistiva."
+        },
+        {
+          "id": "C",
+          "text": "precisa ser acessível somente à testemunha."
+        },
+        {
+          "id": "D",
+          "text": "não alcança o exercício da advocacia."
+        },
+        {
+          "id": "E",
+          "text": "deve ser adequado e acessível às diferentes formas de deficiência, como recurso de participação processual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os artigos 79 e 80 exigem adaptações e recursos de tecnologia assistiva para participação em igualdade, inclusive na advocacia. Fonte: questão adaptada de Cespe/Cebraspe; STJ; conhecimentos básicos para o cargo 9; 2018; item 36; prova https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/MATRIZ_385_STJCB4__PAG_3.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/GAB_DEFINITIVO_385_STJCB4.PDF; adaptação: preservada a referência original ao processo eletrônico acessível, com retirada da Resolução CNJ nº 230/2016, posteriormente revogada, e atualização do fundamento para a LBI vigente."
+    },
+    {
+      "id": "q8614",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Hospital privado constata agressão física contra pessoa com deficiência de vinte anos. Nesse caso,",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve realizar a notificação compulsória, pois a maioridade não afasta o dever."
+        },
+        {
+          "id": "B",
+          "text": "notifica somente a família."
+        },
+        {
+          "id": "C",
+          "text": "a obrigação existe apenas para hospital público."
+        },
+        {
+          "id": "D",
+          "text": "a polícia não pode ser comunicada."
+        },
+        {
+          "id": "E",
+          "text": "somente morte gera notificação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Suspeita ou confirmação de violência deve ser comunicada aos órgãos previstos no artigo 26. Fonte: questão adaptada de Cespe/Cebraspe; STJ; conhecimentos básicos para o cargo 9; 2018; item 38; prova https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/MATRIZ_385_STJCB4__PAG_3.PDF; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/GAB_DEFINITIVO_385_STJCB4.PDF; adaptação: situação certo ou errado convertida em questão de cinco alternativas."
+    },
+    {
+      "id": "q8615",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Em programa habitacional público ou subsidiado, a reserva mínima de unidades para pessoa com deficiência é de",
+      "options": [
+        {
+          "id": "A",
+          "text": "1%."
+        },
+        {
+          "id": "B",
+          "text": "3%."
+        },
+        {
+          "id": "C",
+          "text": "5%."
+        },
+        {
+          "id": "D",
+          "text": "10%."
+        },
+        {
+          "id": "E",
+          "text": "20%."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 32 fixa reserva de no mínimo 3%; não é percentual exato nem se confunde com 5%. Se não houver pessoa com deficiência interessada, as unidades são disponibilizadas às demais pessoas. Fonte: questão adaptada de Cespe/Cebraspe; STJ; conhecimentos básicos para o cargo 9; 2018; item 39; prova https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/MATRIZ_385_STJCB4__PAG_3.PDF; gabarito definitivo C (certo) em https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/GAB_DEFINITIVO_385_STJCB4.PDF; adaptação: item certo ou errado convertido em questão numérica de cinco alternativas."
+    },
+    {
+      "id": "q8616",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "As prioridades estendidas ao acompanhante",
+      "options": [
+        {
+          "id": "A",
+          "text": "incluem restituição de IR e tramitação."
+        },
+        {
+          "id": "B",
+          "text": "excluem atendimento ao público."
+        },
+        {
+          "id": "C",
+          "text": "não incluem restituição de IR nem tramitação processual."
+        },
+        {
+          "id": "D",
+          "text": "dependem sempre de curatela."
+        },
+        {
+          "id": "E",
+          "text": "não alcançam nenhuma hipótese."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A assertiva que estendia todos os benefícios omitia as duas exceções legais. Fonte: questão adaptada de Cespe/Cebraspe; STJ; conhecimentos básicos para o cargo 9; 2018; item 40; prova https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/MATRIZ_385_STJCB4__PAG_3.PDF; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/stj_18/arquivos/GAB_DEFINITIVO_385_STJCB4.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas."
+    },
+    {
+      "id": "q8617",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Uma alteração da LBI no regime de capacidade civil foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "tornar toda pessoa com deficiência relativamente incapaz."
+        },
+        {
+          "id": "B",
+          "text": "ampliar a incapacidade absoluta aos curatelados."
+        },
+        {
+          "id": "C",
+          "text": "submeter casamento à autorização judicial."
+        },
+        {
+          "id": "D",
+          "text": "restringir a incapacidade absoluta aos menores de dezesseis anos."
+        },
+        {
+          "id": "E",
+          "text": "eliminar a possibilidade de curatela."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A deficiência deixou de figurar como fundamento automático de incapacidade. Fonte: questão adaptada de Cespe/Cebraspe; TRE/PE; Analista Judiciário — Análise de Sistemas; 2017; questão 17; prova https://cdn.cebraspe.org.br/concursos/TRE_PE_16/arquivos/283_TREPE_CG1_01.pdf; gabarito definitivo B em https://www.cespe.unb.br/concursos/TRE_PE_16/arquivos/Gab_Definitivo_283_TREPE_CG1_01.pdf; adaptação: núcleo da alternativa oficial correta convertido em questão de cinco alternativas."
+    },
+    {
+      "id": "q8618",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Na tomada de decisão apoiada, a pessoa beneficiária",
+      "options": [
+        {
+          "id": "A",
+          "text": "perde capacidade civil."
+        },
+        {
+          "id": "B",
+          "text": "recebe apoiadores escolhidos de ofício."
+        },
+        {
+          "id": "C",
+          "text": "só pratica atos patrimoniais."
+        },
+        {
+          "id": "D",
+          "text": "tem decisões inválidas perante terceiros."
+        },
+        {
+          "id": "E",
+          "text": "conserva autodeterminação, e decisões nos limites do apoio são válidas perante terceiros sem restrições."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O apoio fornece elementos para o exercício da capacidade e não substitui a vontade da pessoa. Fonte: questão adaptada de Cespe/Cebraspe; TRE/PE; Analista Judiciário — Análise de Sistemas; 2017; questão 18; prova https://cdn.cebraspe.org.br/concursos/TRE_PE_16/arquivos/283_TREPE_CG1_01.pdf; gabarito definitivo C em https://www.cespe.unb.br/concursos/TRE_PE_16/arquivos/Gab_Definitivo_283_TREPE_CG1_01.pdf; adaptação: núcleo da alternativa oficial correta atualizado e convertido em questão de cinco alternativas."
+    }
+  ]
+}

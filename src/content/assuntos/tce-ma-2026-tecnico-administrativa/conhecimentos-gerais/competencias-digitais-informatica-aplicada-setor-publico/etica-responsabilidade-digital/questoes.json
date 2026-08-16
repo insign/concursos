@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q4779",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao avaliar o uso de uma nova tecnologia no serviço público, a análise ética",
+      "options": [
+        {
+          "id": "A",
+          "text": "limita-se à existência de autorização orçamentária."
+        },
+        {
+          "id": "B",
+          "text": "considera legalidade, finalidade pública, impactos, direitos, inclusão e responsabilização, sem se esgotar na conformidade formal."
+        },
+        {
+          "id": "C",
+          "text": "é dispensada quando a solução aumenta a produtividade interna."
+        },
+        {
+          "id": "D",
+          "text": "deve ser substituída integralmente pela avaliação do fornecedor."
+        },
+        {
+          "id": "E",
+          "text": "é desnecessária quando não há tratamento de dados pessoais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A conformidade jurídica é indispensável, mas ética digital também examina finalidade, necessidade, proporcionalidade, impactos, inclusão e responsabilização."
+    },
+    {
+      "id": "q4780",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No ambiente digital, a atuação da Administração Pública",
+      "options": [
+        {
+          "id": "A",
+          "text": "continua submetida aos direitos fundamentais e aos princípios constitucionais da Administração."
+        },
+        {
+          "id": "B",
+          "text": "pode afastar a publicidade sempre que usar sistema informatizado."
+        },
+        {
+          "id": "C",
+          "text": "deixa de observar a impessoalidade quando o atendimento é automatizado."
+        },
+        {
+          "id": "D",
+          "text": "substitui legalidade por eficiência tecnológica."
+        },
+        {
+          "id": "E",
+          "text": "fica sujeita apenas às regras definidas pelo fornecedor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O meio digital não suspende direitos fundamentais nem princípios administrativos; tecnologia não cria competência autônoma."
+    },
+    {
+      "id": "q4781",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um serviço digital reduz custos do órgão, mas exige do cidadão aparelho moderno e conexão cara. Sob a perspectiva da eficiência pública, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "há eficiência comprovada, porque somente o custo interno importa."
+        },
+        {
+          "id": "B",
+          "text": "a exclusão é irrelevante se a maioria conclui o serviço."
+        },
+        {
+          "id": "C",
+          "text": "a avaliação deve incluir custos, barreiras e resultados para o cidadão, e não apenas economia interna."
+        },
+        {
+          "id": "D",
+          "text": "qualquer digitalização é presumidamente eficiente."
+        },
+        {
+          "id": "E",
+          "text": "o problema desaparece se o aplicativo tiver muitas funcionalidades."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Eficiência pública considera resultado global e custos transferidos ao usuário."
+    },
+    {
+      "id": "q4782",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A contratação de empresa para desenvolver ou operar um serviço digital público",
+      "options": [
+        {
+          "id": "A",
+          "text": "transfere integralmente ao fornecedor a responsabilidade institucional."
+        },
+        {
+          "id": "B",
+          "text": "elimina a necessidade de fiscalização se houver acordo de nível de serviço."
+        },
+        {
+          "id": "C",
+          "text": "não elimina o dever do órgão de definir requisitos, fiscalizar, avaliar riscos e manter responsáveis identificáveis."
+        },
+        {
+          "id": "D",
+          "text": "autoriza o fornecedor a alterar finalidades do serviço sem anuência."
+        },
+        {
+          "id": "E",
+          "text": "torna desnecessários mecanismos de correção e contestação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A execução pode ser terceirizada; a responsabilidade institucional, não."
+    },
+    {
+      "id": "q4783",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando um sistema automatizado produz resultado errado, a resposta institucional adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "atribuir toda a responsabilidade ao software."
+        },
+        {
+          "id": "B",
+          "text": "afirmar que não há responsável humano porque a decisão foi automática."
+        },
+        {
+          "id": "C",
+          "text": "investigar critérios, dados, operação e responsabilidades, corrigindo o resultado quando cabível."
+        },
+        {
+          "id": "D",
+          "text": "desativar permanentemente toda tecnologia do órgão."
+        },
+        {
+          "id": "E",
+          "text": "presumir que o erro é culpa do usuário."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Automação não elimina governança ou responsabilidade."
+    },
+    {
+      "id": "q4784",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Necessidade e proporcionalidade no uso de tecnologia pública significam",
+      "options": [
+        {
+          "id": "A",
+          "text": "adotar sempre a ferramenta de menor preço."
+        },
+        {
+          "id": "B",
+          "text": "verificar se a medida é adequada ao objetivo, necessária diante de alternativas menos gravosas e equilibrada quanto a benefícios e impactos."
+        },
+        {
+          "id": "C",
+          "text": "usar todos os dados disponíveis para aumentar precisão."
+        },
+        {
+          "id": "D",
+          "text": "automatizar toda atividade repetitiva."
+        },
+        {
+          "id": "E",
+          "text": "preferir a solução mais sofisticada disponível."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A avaliação considera adequação, necessidade e impacto, e não apenas conveniência ou sofisticação."
+    },
+    {
+      "id": "q4785",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Transparência útil em um serviço público digital exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "publicar todo código-fonte e todo registro, sem exceção."
+        },
+        {
+          "id": "B",
+          "text": "fornecer informação compreensível sobre finalidade, critérios relevantes, limitações e caminhos de revisão ou correção."
+        },
+        {
+          "id": "C",
+          "text": "apresentar apenas termos técnicos integrais na entrada do serviço."
+        },
+        {
+          "id": "D",
+          "text": "divulgar dados pessoais para demonstrar abertura."
+        },
+        {
+          "id": "E",
+          "text": "informar somente o nome comercial da tecnologia utilizada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Transparência deve permitir compreensão e ação sem exposição indevida."
+    },
+    {
+      "id": "q4786",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A possibilidade de reconstruir eventos, alterações e responsáveis relevantes de uma decisão digital corresponde principalmente à",
+      "options": [
+        {
+          "id": "A",
+          "text": "portabilidade."
+        },
+        {
+          "id": "B",
+          "text": "rastreabilidade."
+        },
+        {
+          "id": "C",
+          "text": "anonimização."
+        },
+        {
+          "id": "D",
+          "text": "interoperabilidade."
+        },
+        {
+          "id": "E",
+          "text": "acessibilidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Rastreabilidade permite reconstituir o percurso relevante da atuação."
+    },
+    {
+      "id": "q4787",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Auditabilidade é a capacidade de",
+      "options": [
+        {
+          "id": "A",
+          "text": "impedir qualquer revisão externa do sistema."
+        },
+        {
+          "id": "B",
+          "text": "permitir avaliação dos controles e resultados por quem tenha competência ou autorização."
+        },
+        {
+          "id": "C",
+          "text": "manter todos os dados indefinidamente."
+        },
+        {
+          "id": "D",
+          "text": "substituir responsáveis humanos por logs."
+        },
+        {
+          "id": "E",
+          "text": "publicar toda informação interna na internet."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Auditabilidade permite examinar controles e resultados de forma verificável."
+    },
+    {
+      "id": "q4788",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Contestabilidade, em responsabilidade digital, corresponde à possibilidade de",
+      "options": [
+        {
+          "id": "A",
+          "text": "questionar de modo efetivo um dado ou decisão e obter análise e correção cabíveis."
+        },
+        {
+          "id": "B",
+          "text": "ocultar critérios para impedir reclamações."
+        },
+        {
+          "id": "C",
+          "text": "reproduzir automaticamente a decisão anterior."
+        },
+        {
+          "id": "D",
+          "text": "eliminar registros após a decisão."
+        },
+        {
+          "id": "E",
+          "text": "dispensar canais de atendimento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Contestabilidade permite reação, revisão e correção efetivas."
+    },
+    {
+      "id": "q4789",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto a registros e responsabilidade digital, a prática mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "guardar toda informação indefinidamente."
+        },
+        {
+          "id": "B",
+          "text": "manter registros pertinentes e protegidos pelo período compatível com finalidade e obrigações aplicáveis."
+        },
+        {
+          "id": "C",
+          "text": "não registrar alterações relevantes."
+        },
+        {
+          "id": "D",
+          "text": "expor logs ao público independentemente de risco."
+        },
+        {
+          "id": "E",
+          "text": "apagar automaticamente todo histórico após o atendimento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Rastreabilidade não justifica acumulação ilimitada."
+    },
+    {
+      "id": "q4790",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um fornecedor alega que 'o algoritmo é proprietário' para negar ao órgão qualquer evidência sobre falhas do serviço contratado. A resposta mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "aceitar opacidade total, pois propriedade intelectual afasta fiscalização."
+        },
+        {
+          "id": "B",
+          "text": "publicar irrestritamente todo o código e todos os dados pessoais."
+        },
+        {
+          "id": "C",
+          "text": "proteger segredos legítimos sem abrir mão de evidências e mecanismos controlados de fiscalização e prestação de contas."
+        },
+        {
+          "id": "D",
+          "text": "dispensar fiscalização se o sistema estiver disponível."
+        },
+        {
+          "id": "E",
+          "text": "transferir ao usuário a obrigação de provar o erro interno."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Segredos legítimos não eliminam o dever institucional de fiscalizar."
+    },
+    {
+      "id": "q4791",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma pessoa compartilha uma data errada acreditando sinceramente que ela é correta. Na terminologia da desordem informacional, isso é",
+      "options": [
+        {
+          "id": "A",
+          "text": "disinformation."
+        },
+        {
+          "id": "B",
+          "text": "misinformation."
+        },
+        {
+          "id": "C",
+          "text": "malinformation."
+        },
+        {
+          "id": "D",
+          "text": "conteúdo impostor."
+        },
+        {
+          "id": "E",
+          "text": "amplificação coordenada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Misinformation é informação falsa ou inexata compartilhada sem intenção de enganar."
+    },
+    {
+      "id": "q4792",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fabricação deliberada de um comunicado falso para enganar usuários caracteriza",
+      "options": [
+        {
+          "id": "A",
+          "text": "misinformation."
+        },
+        {
+          "id": "B",
+          "text": "malinformation."
+        },
+        {
+          "id": "C",
+          "text": "disinformation."
+        },
+        {
+          "id": "D",
+          "text": "sátira necessariamente lícita."
+        },
+        {
+          "id": "E",
+          "text": "correção institucional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Disinformation envolve conteúdo enganoso produzido ou difundido deliberadamente para enganar."
+    },
+    {
+      "id": "q4793",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A divulgação abusiva de informação verdadeira, fora de contexto, para causar dano é exemplo de",
+      "options": [
+        {
+          "id": "A",
+          "text": "misinformation."
+        },
+        {
+          "id": "B",
+          "text": "disinformation necessariamente falsa."
+        },
+        {
+          "id": "C",
+          "text": "malinformation."
+        },
+        {
+          "id": "D",
+          "text": "checagem lateral."
+        },
+        {
+          "id": "E",
+          "text": "transparência ativa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Malinformation pode envolver conteúdo verdadeiro usado abusivamente ou fora de contexto."
+    },
+    {
+      "id": "q4794",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A expressão 'fake news' é considerada imprecisa porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "abrange fenômenos distintos, como erro, sátira, fraude e desinformação deliberada."
+        },
+        {
+          "id": "B",
+          "text": "se aplica somente a jornais impressos."
+        },
+        {
+          "id": "C",
+          "text": "toda notícia falsa é necessariamente crime."
+        },
+        {
+          "id": "D",
+          "text": "não existe informação inexata sem intenção de enganar."
+        },
+        {
+          "id": "E",
+          "text": "qualquer opinião controversa é fake news."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A expressão não esclarece intenção, método nem natureza do conteúdo."
+    },
+    {
+      "id": "q4795",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma fotografia autêntica de enchente ocorrida anos antes é publicada como se mostrasse evento atual em outra cidade. O caso exemplifica",
+      "options": [
+        {
+          "id": "A",
+          "text": "conteúdo fabricado."
+        },
+        {
+          "id": "B",
+          "text": "falso contexto."
+        },
+        {
+          "id": "C",
+          "text": "misinformation obrigatoriamente sem dano."
+        },
+        {
+          "id": "D",
+          "text": "fonte primária atual."
+        },
+        {
+          "id": "E",
+          "text": "conteúdo robusto."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O arquivo pode ser autêntico, mas a associação a data ou local incorretos altera o contexto."
+    },
+    {
+      "id": "q4796",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma página copia nome, brasão e identidade visual de um órgão para publicar aviso falso. A técnica é conhecida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "conteúdo impostor."
+        },
+        {
+          "id": "B",
+          "text": "leitura lateral."
+        },
+        {
+          "id": "C",
+          "text": "rastreabilidade."
+        },
+        {
+          "id": "D",
+          "text": "linguagem simples."
+        },
+        {
+          "id": "E",
+          "text": "pré-refutação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Conteúdo impostor imita fonte legítima para explorar sua aparência de autoridade."
+    },
+    {
+      "id": "q4797",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A multiplicação artificial de mensagens para criar aparência de consenso ou urgência corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "acessibilidade robusta."
+        },
+        {
+          "id": "B",
+          "text": "amplificação coordenada."
+        },
+        {
+          "id": "C",
+          "text": "checagem de fonte primária."
+        },
+        {
+          "id": "D",
+          "text": "linguagem simples."
+        },
+        {
+          "id": "E",
+          "text": "malinformation necessariamente verdadeira."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Amplificação coordenada manipula a percepção de alcance, apoio ou urgência."
+    },
+    {
+      "id": "q4798",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre conteúdo produzido com inteligência artificial, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo conteúdo sintético é falso."
+        },
+        {
+          "id": "B",
+          "text": "a origem sintética não prova falsidade, assim como aparência realista não prova autenticidade."
+        },
+        {
+          "id": "C",
+          "text": "conteúdo autêntico nunca pode enganar."
+        },
+        {
+          "id": "D",
+          "text": "qualquer conteúdo gerado por IA é desinformação deliberada."
+        },
+        {
+          "id": "E",
+          "text": "não é necessário verificar contexto quando há marca d'água."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Origem sintética, contexto, evidências e intenção precisam ser avaliados separadamente."
+    },
+    {
+      "id": "q4799",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma alegação aparece em dezenas de páginas, todas reproduzindo a mesma publicação original. A conclusão correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o número de páginas confirma a verdade."
+        },
+        {
+          "id": "B",
+          "text": "cada reprodução é confirmação independente."
+        },
+        {
+          "id": "C",
+          "text": "a multiplicidade aparente não prova independência nem substitui a verificação da origem e das evidências."
+        },
+        {
+          "id": "D",
+          "text": "a alegação deve ser classificada automaticamente como falsa."
+        },
+        {
+          "id": "E",
+          "text": "qualquer conteúdo repetido deve ser removido."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Viralidade e replicação não substituem evidência nem confirmação independente."
+    },
+    {
+      "id": "q4800",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao verificar informação pública, uma fonte primária",
+      "options": [
+        {
+          "id": "A",
+          "text": "é sempre suficiente e nunca contém erro."
+        },
+        {
+          "id": "B",
+          "text": "deve ser considerada com atenção à autenticidade, atualidade, competência e contexto."
+        },
+        {
+          "id": "C",
+          "text": "dispensa comparar versões ou vigência."
+        },
+        {
+          "id": "D",
+          "text": "é menos relevante que a quantidade de compartilhamentos."
+        },
+        {
+          "id": "E",
+          "text": "não pode ser um ato normativo ou base oficial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fonte primária é valiosa, mas pode estar desatualizada, revogada, substituída ou conter erro."
+    },
+    {
+      "id": "q4801",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Diante de uma alegação suspeita relacionada a serviço público, uma sequência adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "compartilhar primeiro e verificar depois."
+        },
+        {
+          "id": "B",
+          "text": "pausar, delimitar a alegação, rastrear a origem, conferir contexto, buscar fonte primária e registrar o grau de confiança."
+        },
+        {
+          "id": "C",
+          "text": "consultar somente comentários em redes sociais."
+        },
+        {
+          "id": "D",
+          "text": "presumir falsidade se não houver resposta imediata."
+        },
+        {
+          "id": "E",
+          "text": "usar apenas detector automático de IA."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A verificação responsável combina origem, contexto, fonte competente e documentação proporcional ao risco."
+    },
+    {
+      "id": "q4802",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Durante uma emergência, o órgão ainda não conseguiu confirmar um rumor relevante. A comunicação mais responsável é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inventar certeza para reduzir ansiedade."
+        },
+        {
+          "id": "B",
+          "text": "negar categoricamente sem evidência."
+        },
+        {
+          "id": "C",
+          "text": "informar o que está confirmado, o que segue em apuração e a orientação segura disponível."
+        },
+        {
+          "id": "D",
+          "text": "silenciar sempre até haver certeza absoluta."
+        },
+        {
+          "id": "E",
+          "text": "repassar o rumor com a frase 'não sei se é verdade'."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Comunicação responsável distingue fatos confirmados de incertezas."
+    },
+    {
+      "id": "q4803",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um órgão divulgou prazo incorreto em canal oficial. A correção responsável deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "apagar a publicação sem aviso."
+        },
+        {
+          "id": "B",
+          "text": "identificar o erro, destacar a informação correta, indicar fonte e alcançar o público afetado."
+        },
+        {
+          "id": "C",
+          "text": "esperar o prazo terminar."
+        },
+        {
+          "id": "D",
+          "text": "repetir a informação falsa em destaque sem explicar a correção."
+        },
+        {
+          "id": "E",
+          "text": "culpar o usuário pela interpretação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Correção tempestiva e visível reduz dano e deve priorizar a informação correta."
+    },
+    {
+      "id": "q4804",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma informação errada de alcance mínimo e sem dano aparente é detectada. Na resposta institucional,",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre se exige pronunciamento nacional imediato."
+        },
+        {
+          "id": "B",
+          "text": "alcance, gravidade, urgência e risco devem orientar resposta proporcional, pois reação pública pode ampliar o conteúdo."
+        },
+        {
+          "id": "C",
+          "text": "nunca se deve verificar ou registrar o caso."
+        },
+        {
+          "id": "D",
+          "text": "a falsidade autoriza automaticamente remoção de qualquer conta."
+        },
+        {
+          "id": "E",
+          "text": "deve-se responder com o mesmo nível de exposição, mesmo que isso amplifique o boato."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A triagem evita omissão em caso grave e amplificação desnecessária de conteúdo residual."
+    },
+    {
+      "id": "q4805",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Preencher vazios informacionais ajuda a reduzir desinformação porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "informação oficial clara e tempestiva diminui espaço para rumores ocuparem a ausência de explicação."
+        },
+        {
+          "id": "B",
+          "text": "permite censurar preventivamente críticas."
+        },
+        {
+          "id": "C",
+          "text": "torna desnecessária a verificação de fatos."
+        },
+        {
+          "id": "D",
+          "text": "elimina toda possibilidade de erro."
+        },
+        {
+          "id": "E",
+          "text": "substitui a necessidade de canais oficiais."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Informação confiável e tempestiva reduz lacunas, sem eliminar a necessidade de verificação e atualização."
+    },
+    {
+      "id": "q4806",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O enfrentamento estatal à desinformação",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza remover qualquer crítica inconveniente."
+        },
+        {
+          "id": "B",
+          "text": "deve distinguir crítica, opinião, sátira, erro e desinformação deliberada e respeitar competência, fundamento jurídico e proporcionalidade."
+        },
+        {
+          "id": "C",
+          "text": "dispensa devido processo quando a informação é viral."
+        },
+        {
+          "id": "D",
+          "text": "autoriza divulgar dados pessoais de críticos."
+        },
+        {
+          "id": "E",
+          "text": "permite considerar toda divergência como falsidade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Combater desinformação não cria poder genérico de censura."
+    },
+    {
+      "id": "q4807",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um agente usa conta pessoal para comentar tema relacionado ao órgão. A indicação de 'opinião pessoal'",
+      "options": [
+        {
+          "id": "A",
+          "text": "autoriza divulgar informação sigilosa."
+        },
+        {
+          "id": "B",
+          "text": "elimina deveres funcionais."
+        },
+        {
+          "id": "C",
+          "text": "pode reduzir confusão, mas não afasta sigilo, proteção de dados, deveres funcionais ou responsabilidade."
+        },
+        {
+          "id": "D",
+          "text": "transforma toda fala em comunicação oficial."
+        },
+        {
+          "id": "E",
+          "text": "dispensa observância das regras do órgão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Um aviso não elimina deveres decorrentes do vínculo público."
+    },
+    {
+      "id": "q4808",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Inclusão digital é adequadamente compreendida como",
+      "options": [
+        {
+          "id": "A",
+          "text": "mera disponibilidade nominal de sinal de internet."
+        },
+        {
+          "id": "B",
+          "text": "combinação de conectividade, dispositivo, custo, competências, linguagem, acessibilidade, confiança e suporte."
+        },
+        {
+          "id": "C",
+          "text": "substituição integral do atendimento humano."
+        },
+        {
+          "id": "D",
+          "text": "fornecimento obrigatório de computador a toda pessoa."
+        },
+        {
+          "id": "E",
+          "text": "uso exclusivo de aplicativos móveis."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Inclusão digital é multidimensional; conectividade não garante conclusão do serviço."
+    },
+    {
+      "id": "q4809",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um município possui ampla cobertura de internet, mas seu serviço digital exige aparelho recente e linguagem técnica difícil. É correto concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "há inclusão comprovada apenas pela cobertura."
+        },
+        {
+          "id": "B",
+          "text": "persistem barreiras de dispositivo e compreensão que podem impedir inclusão efetiva."
+        },
+        {
+          "id": "C",
+          "text": "linguagem não interfere em inclusão digital."
+        },
+        {
+          "id": "D",
+          "text": "todo usuário conectado tem competência digital suficiente."
+        },
+        {
+          "id": "E",
+          "text": "o serviço é inclusivo se houver publicidade na internet."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conexão não elimina barreiras de equipamento, competência, linguagem ou acessibilidade."
+    },
+    {
+      "id": "q4810",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A ideia 'digital por padrão' deve ser diferenciada de 'digital exclusivo' porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a oferta digital pode ser priorizada sem presumir que todo serviço deva existir apenas em canal digital."
+        },
+        {
+          "id": "B",
+          "text": "todo serviço digital precisa eliminar imediatamente o presencial."
+        },
+        {
+          "id": "C",
+          "text": "autosserviço impede atendimento assistido."
+        },
+        {
+          "id": "D",
+          "text": "tecnologia de amplo acesso significa aplicativo obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "canal presencial é incompatível com governo digital."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Digitalização e autosserviço podem ser preferenciais, mas não equivalem automaticamente a canal único."
+    },
+    {
+      "id": "q4811",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre a Lei nº 14.129/2021, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "se aplica automaticamente a todos os Estados e Municípios sem qualquer condição."
+        },
+        {
+          "id": "B",
+          "text": "prevê tecnologias de amplo acesso e, no seu âmbito, preserva o direito ao atendimento presencial; para outros entes federados, a aplicação depende da adoção prevista no art. 2º."
+        },
+        {
+          "id": "C",
+          "text": "proíbe atendimento presencial."
+        },
+        {
+          "id": "D",
+          "text": "exige consentimento para toda prestação digital."
+        },
+        {
+          "id": "E",
+          "text": "determina que todo serviço público seja oferecido somente por aplicativo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei possui regra própria de aplicação aos demais entes federados e preserva atendimento presencial no seu âmbito."
+    },
+    {
+      "id": "q4812",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No atendimento digital assistido, a prática adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "pedir a senha pessoal do usuário para acelerar o procedimento."
+        },
+        {
+          "id": "B",
+          "text": "registrar credenciais para usos futuros."
+        },
+        {
+          "id": "C",
+          "text": "oferecer apoio preservando autonomia, privacidade e segurança das credenciais."
+        },
+        {
+          "id": "D",
+          "text": "tomar decisões pelo cidadão sem explicação."
+        },
+        {
+          "id": "E",
+          "text": "dispensar confirmação do usuário em atos relevantes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Atendimento assistido reduz barreiras sem retirar o controle da pessoa."
+    },
+    {
+      "id": "q4813",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual medida favorece inclusão em condições reais de uso?",
+      "options": [
+        {
+          "id": "A",
+          "text": "exigir aplicativo pesado mesmo quando uma página web seria suficiente."
+        },
+        {
+          "id": "B",
+          "text": "encerrar a sessão sem aviso e apagar o preenchimento."
+        },
+        {
+          "id": "C",
+          "text": "permitir salvar e retomar, usar páginas leves e explicar requisitos, erros e próximos passos."
+        },
+        {
+          "id": "D",
+          "text": "aceitar somente formato de arquivo raro."
+        },
+        {
+          "id": "E",
+          "text": "oferecer ajuda apenas pelo recurso que está indisponível."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Baixo consumo, retomada e instruções claras reduzem barreiras."
+    },
+    {
+      "id": "q4814",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A existência de canal alternativo ao digital",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre elimina exclusão, qualquer que seja sua qualidade."
+        },
+        {
+          "id": "B",
+          "text": "só contribui para inclusão se for efetivo e adequado, e não apenas formal ou deliberadamente inferior."
+        },
+        {
+          "id": "C",
+          "text": "autoriza tornar o canal principal inacessível."
+        },
+        {
+          "id": "D",
+          "text": "dispensa suporte ao usuário."
+        },
+        {
+          "id": "E",
+          "text": "permite cobrar custo desproporcional de quem não usa o canal digital."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Canal alternativo precisa ser funcional e adequado ao público."
+    },
+    {
+      "id": "q4815",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para avaliar inclusão digital de um serviço, é mais informativo medir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o número bruto de visitas."
+        },
+        {
+          "id": "B",
+          "text": "início, conclusão, erros, abandono, tempo e necessidade de suporte, interpretados conforme canais e públicos."
+        },
+        {
+          "id": "C",
+          "text": "somente a quantidade de funcionalidades."
+        },
+        {
+          "id": "D",
+          "text": "apenas o custo do contrato."
+        },
+        {
+          "id": "E",
+          "text": "somente a quantidade de usuários cadastrados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Métricas de jornada revelam barreiras que o volume de acessos pode ocultar."
+    },
+    {
+      "id": "q4816",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Lei nº 15.263/2025 instituiu",
+      "options": [
+        {
+          "id": "A",
+          "text": "a Política Nacional de Linguagem Simples na administração pública direta e indireta de todos os Poderes da União, Estados, DF e Municípios."
+        },
+        {
+          "id": "B",
+          "text": "um padrão técnico exclusivo de segurança cibernética."
+        },
+        {
+          "id": "C",
+          "text": "uma norma aplicável apenas ao Poder Executivo federal."
+        },
+        {
+          "id": "D",
+          "text": "a WCAG 2.2 no Brasil."
+        },
+        {
+          "id": "E",
+          "text": "um código de ética específico do TCE-MA."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 15.263/2025 instituiu a Política Nacional de Linguagem Simples com o alcance previsto em seu texto."
+    },
+    {
+      "id": "q4817",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Entre as práticas previstas na Política Nacional de Linguagem Simples está",
+      "options": [
+        {
+          "id": "A",
+          "text": "colocar as informações mais importantes primeiro e evitar redundâncias e palavras desnecessárias."
+        },
+        {
+          "id": "B",
+          "text": "usar sempre voz passiva e períodos longos."
+        },
+        {
+          "id": "C",
+          "text": "substituir termos jurídicos por termos imprecisos."
+        },
+        {
+          "id": "D",
+          "text": "evitar testes com o público-alvo."
+        },
+        {
+          "id": "E",
+          "text": "priorizar jargão técnico para demonstrar formalidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A política incentiva organização clara, voz ativa, redução de redundância e teste de compreensão."
+    },
+    {
+      "id": "q4818",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Linguagem simples e acessibilidade se relacionam porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "a compreensão da mensagem também pode constituir barreira ao acesso efetivo ao serviço."
+        },
+        {
+          "id": "B",
+          "text": "acessibilidade diz respeito somente a contraste de cores."
+        },
+        {
+          "id": "C",
+          "text": "linguagem simples elimina a necessidade de tecnologias assistivas."
+        },
+        {
+          "id": "D",
+          "text": "qualquer texto curto é necessariamente acessível."
+        },
+        {
+          "id": "E",
+          "text": "precisão jurídica deve ser abandonada para facilitar leitura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Linguagem simples reduz barreiras de compreensão sem autorizar perda de precisão."
+    },
+    {
+      "id": "q4819",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Lei Brasileira de Inclusão, em seu art. 63, estabelece",
+      "options": [
+        {
+          "id": "A",
+          "text": "acessibilidade facultativa para sítios governamentais."
+        },
+        {
+          "id": "B",
+          "text": "obrigatoriedade de acessibilidade nos sítios abrangidos, inclusive de órgãos de governo, conforme melhores práticas e diretrizes internacionais."
+        },
+        {
+          "id": "C",
+          "text": "acessibilidade somente para aplicativos móveis."
+        },
+        {
+          "id": "D",
+          "text": "obrigação apenas para empresas estrangeiras."
+        },
+        {
+          "id": "E",
+          "text": "dispensa de acessibilidade quando existe atendimento presencial."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 63 da LBI impõe acessibilidade nos sítios abrangidos."
+    },
+    {
+      "id": "q4820",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A relação correta entre LBI, eMAG, WCAG 2.2 e ABNT NBR 17225:2025 é",
+      "options": [
+        {
+          "id": "A",
+          "text": "todas são leis federais de igual natureza."
+        },
+        {
+          "id": "B",
+          "text": "a LBI estabelece obrigação jurídica; eMAG, WCAG e NBR são referências técnicas de naturezas próprias, cuja exigibilidade concreta depende do contexto normativo ou contratual."
+        },
+        {
+          "id": "C",
+          "text": "WCAG 2.2 revogou a LBI."
+        },
+        {
+          "id": "D",
+          "text": "eMAG é um nível de conformidade da WCAG."
+        },
+        {
+          "id": "E",
+          "text": "NBR 17225 é apenas uma campanha educativa."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Normas jurídicas e referências técnicas não têm a mesma natureza."
+    },
+    {
+      "id": "q4821",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Os quatro princípios conhecidos pela sigla POUR são",
+      "options": [
+        {
+          "id": "A",
+          "text": "Privado, Oficial, Universal e Restrito."
+        },
+        {
+          "id": "B",
+          "text": "Perceptível, Operável, Compreensível e Robusto."
+        },
+        {
+          "id": "C",
+          "text": "Preciso, Objetivo, Uniforme e Rápido."
+        },
+        {
+          "id": "D",
+          "text": "Programável, Organizado, Único e Responsivo."
+        },
+        {
+          "id": "E",
+          "text": "Publicado, Observável, Utilizável e Revisável."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "WCAG organiza a acessibilidade em Perceptível, Operável, Compreensível e Robusto."
+    },
+    {
+      "id": "q4822",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No princípio perceptível, busca-se que",
+      "options": [
+        {
+          "id": "A",
+          "text": "informações e componentes possam ser percebidos pelos usuários, com alternativas quando necessárias."
+        },
+        {
+          "id": "B",
+          "text": "todo conteúdo dependa de um único sentido."
+        },
+        {
+          "id": "C",
+          "text": "a interface funcione somente com mouse."
+        },
+        {
+          "id": "D",
+          "text": "o código-fonte seja publicado."
+        },
+        {
+          "id": "E",
+          "text": "todo conteúdo seja exclusivamente textual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Perceptível diz respeito à possibilidade de receber a informação em formas adequadas aos usuários."
+    },
+    {
+      "id": "q4823",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma interface em que todos os controles funcionam por teclado, com foco visível e sem armadilha, atende diretamente ao princípio de ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "operável."
+        },
+        {
+          "id": "B",
+          "text": "apenas perceptível."
+        },
+        {
+          "id": "C",
+          "text": "sigilosa."
+        },
+        {
+          "id": "D",
+          "text": "proprietária."
+        },
+        {
+          "id": "E",
+          "text": "anonimizada."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Operável exige que componentes e navegação possam ser usados."
+    },
+    {
+      "id": "q4824",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No princípio compreensível, busca-se principalmente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "informação e operação da interface possam ser entendidas."
+        },
+        {
+          "id": "B",
+          "text": "todo conteúdo seja apresentado em vídeo."
+        },
+        {
+          "id": "C",
+          "text": "a navegação dependa de conhecimento técnico especializado."
+        },
+        {
+          "id": "D",
+          "text": "a interface use apenas ícones."
+        },
+        {
+          "id": "E",
+          "text": "o usuário memorize códigos internos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Compreensível trata da clareza da informação e do entendimento da operação."
+    },
+    {
+      "id": "q4825",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O princípio robusto busca",
+      "options": [
+        {
+          "id": "A",
+          "text": "favorecer interpretação confiável por diferentes agentes de usuário, inclusive tecnologias assistivas."
+        },
+        {
+          "id": "B",
+          "text": "maximizar a quantidade de imagens."
+        },
+        {
+          "id": "C",
+          "text": "impedir o uso de leitores de tela."
+        },
+        {
+          "id": "D",
+          "text": "substituir semântica por aparência visual."
+        },
+        {
+          "id": "E",
+          "text": "exigir um único navegador."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Robustez está associada à compatibilidade e interpretação por diferentes tecnologias."
+    },
+    {
+      "id": "q4826",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre os níveis A, AA e AAA das WCAG, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "representam percentuais de usuários com deficiência."
+        },
+        {
+          "id": "B",
+          "text": "organizam critérios de sucesso; nível mais alto não significa acessibilidade perfeita para toda pessoa em qualquer contexto."
+        },
+        {
+          "id": "C",
+          "text": "AAA é automaticamente exigido por lei para toda página brasileira."
+        },
+        {
+          "id": "D",
+          "text": "A significa 100% acessível."
+        },
+        {
+          "id": "E",
+          "text": "AA elimina a necessidade de testes de jornada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os níveis classificam critérios de sucesso e não são percentuais de usuários."
+    },
+    {
+      "id": "q4827",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma imagem informativa essencial sem alternativa textual adequada cria barreira porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "o conteúdo visual pode não estar disponível a quem usa leitor de tela ou não consegue percebê-lo visualmente."
+        },
+        {
+          "id": "B",
+          "text": "imagens não podem existir em serviços públicos."
+        },
+        {
+          "id": "C",
+          "text": "texto alternativo serve apenas a mecanismos de busca."
+        },
+        {
+          "id": "D",
+          "text": "qualquer nome de arquivo substitui descrição."
+        },
+        {
+          "id": "E",
+          "text": "o problema é resolvido apenas aumentando a imagem."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Informação relevante transmitida por imagem precisa de alternativa equivalente adequada."
+    },
+    {
+      "id": "q4828",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em relação ao acesso por teclado, um componente acessível deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser alcançável e acionável, apresentar foco perceptível e não prender o usuário sem saída."
+        },
+        {
+          "id": "B",
+          "text": "depender de movimento preciso do mouse."
+        },
+        {
+          "id": "C",
+          "text": "ocultar o foco por estética."
+        },
+        {
+          "id": "D",
+          "text": "alterar aleatoriamente a ordem de navegação."
+        },
+        {
+          "id": "E",
+          "text": "funcionar somente em tela sensível ao toque."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Operação por teclado precisa ser funcional, previsível e perceptível."
+    },
+    {
+      "id": "q4829",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em formulário acessível, a prática adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar apenas placeholder como identificação do campo."
+        },
+        {
+          "id": "B",
+          "text": "fornecer rótulo e instruções compreensíveis e explicar erros sem depender apenas de cor."
+        },
+        {
+          "id": "C",
+          "text": "exibir somente códigos de erro internos."
+        },
+        {
+          "id": "D",
+          "text": "ocultar campos obrigatórios até o envio."
+        },
+        {
+          "id": "E",
+          "text": "mover o usuário para outra página sem indicar o problema."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Usuários precisam identificar campos, entender requisitos e localizar e corrigir erros."
+    },
+    {
+      "id": "q4830",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um PDF composto apenas por imagens digitalizadas, sem texto pesquisável ou estrutura acessível,",
+      "options": [
+        {
+          "id": "A",
+          "text": "pode criar barreira para busca e tecnologias assistivas."
+        },
+        {
+          "id": "B",
+          "text": "é automaticamente acessível por estar em formato PDF."
+        },
+        {
+          "id": "C",
+          "text": "substitui qualquer necessidade de HTML."
+        },
+        {
+          "id": "D",
+          "text": "não afeta leitores de tela."
+        },
+        {
+          "id": "E",
+          "text": "é obrigatório em todo serviço público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Documento digitalizado como imagem pode impedir pesquisa, seleção e leitura assistiva."
+    },
+    {
+      "id": "q4831",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ferramentas automáticas de teste de acessibilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "garantem conformidade e dispensam testes humanos."
+        },
+        {
+          "id": "B",
+          "text": "detectam parte das barreiras, mas não avaliam integralmente a jornada e a qualidade de todas as alternativas e interações."
+        },
+        {
+          "id": "C",
+          "text": "são inúteis e devem ser evitadas."
+        },
+        {
+          "id": "D",
+          "text": "substituem pessoas com deficiência em testes."
+        },
+        {
+          "id": "E",
+          "text": "avaliam automaticamente todo contexto e linguagem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Automação é útil, mas possui cobertura limitada."
+    },
+    {
+      "id": "q4832",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Acessibilidade da jornada completa significa verificar, conforme o serviço,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a página inicial."
+        },
+        {
+          "id": "B",
+          "text": "descoberta, requisitos, autenticação, formulário, anexos, protocolo, acompanhamento, documentos e suporte."
+        },
+        {
+          "id": "C",
+          "text": "somente contraste de cores."
+        },
+        {
+          "id": "D",
+          "text": "apenas o aplicativo móvel."
+        },
+        {
+          "id": "E",
+          "text": "somente o conteúdo de marketing."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Uma barreira em etapa obrigatória pode impedir o resultado mesmo quando a página inicial é acessível."
+    },
+    {
+      "id": "q4833",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um portal possui página inicial acessível, mas exige CAPTCHA inacessível para concluir o pedido. A avaliação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o serviço é acessível porque a primeira página atende aos critérios."
+        },
+        {
+          "id": "B",
+          "text": "o CAPTCHA não integra a jornada."
+        },
+        {
+          "id": "C",
+          "text": "a jornada permanece inacessível porque uma etapa obrigatória contém barreira."
+        },
+        {
+          "id": "D",
+          "text": "a acessibilidade só importa após o protocolo."
+        },
+        {
+          "id": "E",
+          "text": "basta publicar um telefone sem verificar sua efetividade."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Acessibilidade deve abranger todas as etapas necessárias para concluir o serviço."
+    },
+    {
+      "id": "q4834",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um órgão corrige comunicado falso apenas por imagem em uma rede social. Para integrar desinformação, inclusão e acessibilidade, deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "fornecer também texto equivalente, usar canais oficiais e adequados e alcançar os públicos afetados."
+        },
+        {
+          "id": "B",
+          "text": "presumir que todos usam a mesma rede e enxergam a imagem."
+        },
+        {
+          "id": "C",
+          "text": "omitir o canal legítimo para não divulgar detalhes."
+        },
+        {
+          "id": "D",
+          "text": "exigir aplicativo específico para ler a correção."
+        },
+        {
+          "id": "E",
+          "text": "retirar a correção do sítio oficial para evitar duplicidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Correção efetiva precisa ser verificável, acessível e distribuída conforme os públicos."
+    },
+    {
+      "id": "q4835",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um órgão encerra o atendimento presencial e oferece apenas aplicativo pesado, incompatível com aparelhos antigos e leitores de tela. A medida adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "manter o desenho, pois digitalização elimina dever de inclusão."
+        },
+        {
+          "id": "B",
+          "text": "redesenhar a jornada com acessibilidade, opção compatível, apoio e canais adequados ao público."
+        },
+        {
+          "id": "C",
+          "text": "atribuir toda dificuldade à falta de competência do cidadão."
+        },
+        {
+          "id": "D",
+          "text": "oferecer apenas manual técnico extenso no aplicativo."
+        },
+        {
+          "id": "E",
+          "text": "medir somente número de downloads."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O desenho cria barreiras de dispositivo, canal e acessibilidade."
+    },
+    {
+      "id": "q4836",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um áudio sintético imita autoridade pública e anuncia medida inexistente. Antes de rotulá-lo ou responder, o órgão deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "presumir falsidade apenas porque parece gerado por IA."
+        },
+        {
+          "id": "B",
+          "text": "verificar origem, canal oficial, contexto e evidências; depois responder de modo proporcional e acessível."
+        },
+        {
+          "id": "C",
+          "text": "repassar o áudio para aumentar a vigilância social."
+        },
+        {
+          "id": "D",
+          "text": "publicar dados pessoais de quem compartilhou."
+        },
+        {
+          "id": "E",
+          "text": "confiar em um único detector automático como prova definitiva."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conteúdo sintético exige verificação de proveniência e contexto."
+    },
+    {
+      "id": "q4837",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma correção oficial contém informação juridicamente precisa, porém redigida em jargão difícil e sem explicar a ação que o cidadão deve tomar. À luz da linguagem simples,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a precisão formal basta, mesmo que o público não compreenda."
+        },
+        {
+          "id": "B",
+          "text": "a mensagem deve preservar a precisão e organizar a informação em linguagem clara, com próximos passos compreensíveis."
+        },
+        {
+          "id": "C",
+          "text": "todo termo jurídico deve ser removido, mesmo alterando o sentido."
+        },
+        {
+          "id": "D",
+          "text": "linguagem simples só se aplica a empresas privadas."
+        },
+        {
+          "id": "E",
+          "text": "o texto deve ser substituído apenas por ícones."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Linguagem simples busca compreensão sem perda de precisão."
+    },
+    {
+      "id": "q4838",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um serviço digital define finalidade, usa comunicação clara, prevê correção de erros, mantém canais inclusivos e acessíveis e identifica responsáveis por decisões e incidentes. Esse desenho",
+      "options": [
+        {
+          "id": "A",
+          "text": "integra ética, responsabilidade, inclusão e acessibilidade digital."
+        },
+        {
+          "id": "B",
+          "text": "prova que nenhum incidente poderá ocorrer."
+        },
+        {
+          "id": "C",
+          "text": "elimina a necessidade de monitoramento."
+        },
+        {
+          "id": "D",
+          "text": "torna desnecessária a base jurídica."
+        },
+        {
+          "id": "E",
+          "text": "dispensa revisão futura."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O desenho articula os quatro eixos do assunto, sem eliminar monitoramento, correção ou revisão futura."
+    }
+  ]
+}

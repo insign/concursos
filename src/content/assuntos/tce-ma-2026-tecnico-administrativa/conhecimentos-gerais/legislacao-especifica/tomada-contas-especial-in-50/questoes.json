@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q6939",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Segundo a IN TCE/MA nº 50/2017, a tomada de contas especial é processo administrativo com rito próprio destinado a",
+      "options": [
+        {
+          "id": "A",
+          "text": "apurar fatos, identificar responsáveis e quantificar dano ao erário."
+        },
+        {
+          "id": "B",
+          "text": "substituir toda medida administrativa preliminar por cobrança judicial."
+        },
+        {
+          "id": "C",
+          "text": "julgar infrações penais praticadas contra a Administração."
+        },
+        {
+          "id": "D",
+          "text": "examinar exclusivamente irregularidades sem repercussão patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "homologar prestações de contas sem apuração de responsabilidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 4º reúne os três núcleos da TCE: apuração dos fatos, identificação dos responsáveis e quantificação do dano."
+    },
+    {
+      "id": "q6940",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Antes de instaurar a TCE, a autoridade administrativa competente deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "aguardar pronunciamento prévio do Poder Judiciário."
+        },
+        {
+          "id": "B",
+          "text": "adotar imediata e preliminarmente medidas administrativas para elisão do dano."
+        },
+        {
+          "id": "C",
+          "text": "encaminhar os autos diretamente ao TCE/MA para julgamento."
+        },
+        {
+          "id": "D",
+          "text": "aplicar sanção definitiva antes de apurar fatos e responsáveis."
+        },
+        {
+          "id": "E",
+          "text": "limitar-se a registrar a ocorrência, ainda que nenhuma providência material seja tomada."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A IN nº 50 exige medidas administrativas preliminares e materialmente eficazes antes da instauração, nas hipóteses do art. 2º."
+    },
+    {
+      "id": "q6941",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Constitui hipótese expressa do art. 2º para adoção das medidas administrativas preliminares",
+      "options": [
+        {
+          "id": "A",
+          "text": "divergência interpretativa sem possível dano ao erário."
+        },
+        {
+          "id": "B",
+          "text": "atraso funcional sem relação com recursos, bens ou valores públicos."
+        },
+        {
+          "id": "C",
+          "text": "não comprovação da boa e regular aplicação de recursos transferidos por convênio."
+        },
+        {
+          "id": "D",
+          "text": "existência de ação judicial ainda sem qualquer fato danoso apurado."
+        },
+        {
+          "id": "E",
+          "text": "mera deficiência formal sem impacto patrimonial e sem falta de comprovação de recursos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A falta de comprovação da boa e regular aplicação de recursos transferidos é uma das hipóteses expressas do art. 2º."
+    },
+    {
+      "id": "q6942",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Constatada grave irregularidade ou ilegalidade sem dano ao erário, a IN nº 50 determina que",
+      "options": [
+        {
+          "id": "A",
+          "text": "seja instaurada TCE apenas para atribuir um valor estimado ao fato."
+        },
+        {
+          "id": "B",
+          "text": "o fato seja arquivado por inexistir dano patrimonial."
+        },
+        {
+          "id": "C",
+          "text": "a autoridade aplique de imediato a multa prevista para omissão de instauração."
+        },
+        {
+          "id": "D",
+          "text": "a autoridade e o controle interno representem o fato ao TCE/MA."
+        },
+        {
+          "id": "E",
+          "text": "o caso seja convertido automaticamente em cobrança de dívida ativa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 13 prevê representação ao Tribunal para grave irregularidade ou ilegalidade de que não resulte dano."
+    },
+    {
+      "id": "q6943",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "As medidas administrativas para elisão do dano devem, em regra, ser adotadas em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "60 dias."
+        },
+        {
+          "id": "B",
+          "text": "5 dias."
+        },
+        {
+          "id": "C",
+          "text": "15 dias."
+        },
+        {
+          "id": "D",
+          "text": "90 dias."
+        },
+        {
+          "id": "E",
+          "text": "120 dias, independentemente de justificativa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 3º fixa o prazo de até 60 dias, contado do evento ou, se desconhecido, da ciência da autoridade competente."
+    },
+    {
+      "id": "q6944",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se a data do evento danoso for desconhecida, o prazo das medidas administrativas conta-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "da abertura da sessão legislativa."
+        },
+        {
+          "id": "B",
+          "text": "da ciência do fato pela autoridade administrativa competente."
+        },
+        {
+          "id": "C",
+          "text": "da instauração da tomada de contas especial."
+        },
+        {
+          "id": "D",
+          "text": "do primeiro ato de atualização monetária."
+        },
+        {
+          "id": "E",
+          "text": "da conclusão do relatório do tomador."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ciência da autoridade competente funciona como marco subsidiário quando a data do evento não é conhecida."
+    },
+    {
+      "id": "q6945",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em prestação de contas de transferência voluntária, as medidas administrativas observam",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre o prazo máximo de 120 dias."
+        },
+        {
+          "id": "B",
+          "text": "apenas o prazo estabelecido unilateralmente pelo beneficiário."
+        },
+        {
+          "id": "C",
+          "text": "o menor prazo entre a IN, o instrumento de repasse e a legislação aplicável."
+        },
+        {
+          "id": "D",
+          "text": "somente o prazo da IN nº 50, ainda que haja regra especial menor."
+        },
+        {
+          "id": "E",
+          "text": "o maior prazo disponível entre a IN, o instrumento e a legislação específica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O parágrafo único do art. 3º determina a observância do menor prazo aplicável."
+    },
+    {
+      "id": "q6946",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A exigência de que as medidas administrativas sejam revestidas de eficácia material significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer despacho formal satisfaz a norma, ainda que incapaz de produzir resultado."
+        },
+        {
+          "id": "B",
+          "text": "somente o Tribunal pode praticar providências de recuperação do dano."
+        },
+        {
+          "id": "C",
+          "text": "a autoridade pode postergar a atuação até o final do exercício."
+        },
+        {
+          "id": "D",
+          "text": "as providências devem ser aptas a esclarecer ou reparar efetivamente o dano."
+        },
+        {
+          "id": "E",
+          "text": "basta reiterar notificações padronizadas sem avaliar sua utilidade concreta."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A fase preliminar não se satisfaz com atos formais vazios; as medidas precisam ter aptidão concreta para elidir o dano."
+    },
+    {
+      "id": "q6947",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Esgotadas as medidas administrativas ou seu prazo sem elisão do dano, a TCE deve ser instaurada em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 dias."
+        },
+        {
+          "id": "B",
+          "text": "5 dias."
+        },
+        {
+          "id": "C",
+          "text": "30 dias."
+        },
+        {
+          "id": "D",
+          "text": "60 dias."
+        },
+        {
+          "id": "E",
+          "text": "90 dias."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º separa o prazo de 15 dias para instaurar do prazo de 5 dias para comunicar a instauração."
+    },
+    {
+      "id": "q6948",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A comunicação da instauração da TCE ao TCE/MA deve ocorrer em até",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 dias após a conclusão."
+        },
+        {
+          "id": "B",
+          "text": "5 dias."
+        },
+        {
+          "id": "C",
+          "text": "30 dias da ciência do fato."
+        },
+        {
+          "id": "D",
+          "text": "60 dias da ocorrência do dano."
+        },
+        {
+          "id": "E",
+          "text": "60 dias após a instauração."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A parte final do art. 5º fixa cinco dias para comunicar a instauração ao Tribunal."
+    },
+    {
+      "id": "q6949",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Verificado o vencimento do prazo ordinário de instauração, a providência prevista inicialmente ao TCE/MA é",
+      "options": [
+        {
+          "id": "A",
+          "text": "arquivar o caso por perda do objeto."
+        },
+        {
+          "id": "B",
+          "text": "aplicar a multa de R$ 600,00 sem determinar instauração."
+        },
+        {
+          "id": "C",
+          "text": "aplicar multa de R$ 1.100,00 e determinar a instauração em até 15 dias."
+        },
+        {
+          "id": "D",
+          "text": "instaurar sempre a TCE de ofício sem nova determinação."
+        },
+        {
+          "id": "E",
+          "text": "considerar a autoridade automaticamente devedora do valor integral do dano."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 5º, § 1º, combina multa de R$ 1.100,00 com determinação para instaurar a TCE em novo prazo de 15 dias."
+    },
+    {
+      "id": "q6950",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se a autoridade não cumprir a determinação do TCE/MA para instaurar a TCE, o Tribunal deve, entre outras providências,",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas renovar a advertência, sem consequência adicional."
+        },
+        {
+          "id": "B",
+          "text": "dispensar a apuração por economia processual."
+        },
+        {
+          "id": "C",
+          "text": "remeter o fato ao controle interno e encerrar a atuação do Tribunal."
+        },
+        {
+          "id": "D",
+          "text": "instaurar a TCE de ofício, aplicar multa de R$ 11.000,00 e determinar a instrução técnica."
+        },
+        {
+          "id": "E",
+          "text": "converter o dano automaticamente em prestação de contas anual, qualquer que seja o valor."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O § 2º prevê instauração de ofício, multa agravada, instrução pela unidade técnica e identificação da autoridade omissa como solidária."
+    },
+    {
+      "id": "q6951",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A ausência da comunicação de instauração ao TCE/MA enseja multa de",
+      "options": [
+        {
+          "id": "A",
+          "text": "R$ 600,00 por ocorrência omitida."
+        },
+        {
+          "id": "B",
+          "text": "R$ 1.100,00 por dia de atraso."
+        },
+        {
+          "id": "C",
+          "text": "R$ 11.000,00 por processo."
+        },
+        {
+          "id": "D",
+          "text": "10% do valor histórico do dano."
+        },
+        {
+          "id": "E",
+          "text": "R$ 100.000,00 sempre que houver dano."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 5º, § 4º, fixa multa de R$ 600,00 por ocorrência não comunicada."
+    },
+    {
+      "id": "q6952",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O ato que instituiu o e-TCEspecial foi a",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decisão Normativa TCE/MA nº 38/2020."
+        },
+        {
+          "id": "B",
+          "text": "Portaria TCE/MA nº 1.166/2018."
+        },
+        {
+          "id": "C",
+          "text": "Instrução Normativa TCE/MA nº 56/2018."
+        },
+        {
+          "id": "D",
+          "text": "Resolução TCE/MA nº 383/2023."
+        },
+        {
+          "id": "E",
+          "text": "Decisão Normativa TCE/MA nº 28/2017."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Portaria nº 1.166/2018 instituiu o e-TCEspecial; a referência a nº 1666 no portal compilado é erro material."
+    },
+    {
+      "id": "q6953",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A comunicação do art. 5º passou a ocorrer exclusivamente pelo e-TCEspecial a partir de",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 de agosto de 2017."
+        },
+        {
+          "id": "B",
+          "text": "20 de setembro de 2018."
+        },
+        {
+          "id": "C",
+          "text": "1º de janeiro de 2019."
+        },
+        {
+          "id": "D",
+          "text": "1º de janeiro de 2020."
+        },
+        {
+          "id": "E",
+          "text": "1º de janeiro de 2021."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Portaria nº 1.166/2018 fixou 1º de janeiro de 2019 para a exclusividade da comunicação eletrônica."
+    },
+    {
+      "id": "q6954",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "São pressupostos de constituição da TCE",
+      "options": [
+        {
+          "id": "A",
+          "text": "a existência de denúncia e a superação do limite de encaminhamento."
+        },
+        {
+          "id": "B",
+          "text": "somente a posição hierárquica do agente e o valor estimado."
+        },
+        {
+          "id": "C",
+          "text": "condenação penal transitada em julgado."
+        },
+        {
+          "id": "D",
+          "text": "elementos fáticos e jurídicos suficientes sobre o dano e sobre quem o causou ou para ele concorreu."
+        },
+        {
+          "id": "E",
+          "text": "apenas a constatação de falha formal na prestação de contas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 6º exige demonstração do dano e identificação fundamentada das pessoas naturais ou jurídicas que o causaram ou para ele concorreram."
+    },
+    {
+      "id": "q6955",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A evidenciação do nexo causal requer relacionar",
+      "options": [
+        {
+          "id": "A",
+          "text": "a situação danosa à conduta da pessoa a quem se atribui o dever de ressarcir."
+        },
+        {
+          "id": "B",
+          "text": "o valor atualizado exclusivamente ao limite histórico do art. 10."
+        },
+        {
+          "id": "C",
+          "text": "todo agente subordinado ao dano pelo simples vínculo funcional."
+        },
+        {
+          "id": "D",
+          "text": "a abertura da sessão legislativa ao momento do julgamento."
+        },
+        {
+          "id": "E",
+          "text": "a existência do órgão público à responsabilidade de qualquer de seus servidores."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A responsabilidade precisa ser ligada ao fato e à conduta; o cargo ocupado, por si só, não demonstra nexo causal."
+    },
+    {
+      "id": "q6956",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A quantificação por verificação é utilizada quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "não há qualquer dado confiável sobre o valor."
+        },
+        {
+          "id": "B",
+          "text": "é possível apurar com exatidão o valor devido."
+        },
+        {
+          "id": "C",
+          "text": "a autoridade pretende adotar valor deliberadamente superior ao dano."
+        },
+        {
+          "id": "D",
+          "text": "existe apenas irregularidade sem repercussão patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "o valor histórico é inferior ao limite de encaminhamento."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Verificação corresponde à apuração exata; estimativa é utilizada quando a exatidão não é possível, desde que baseada em meios confiáveis."
+    },
+    {
+      "id": "q6957",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Na estimativa prevista pela IN nº 50, a quantia apurada deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser a maior quantia possível em favor do erário."
+        },
+        {
+          "id": "B",
+          "text": "corresponder necessariamente ao total do orçamento do ajuste."
+        },
+        {
+          "id": "C",
+          "text": "seguramente não exceder o valor devido."
+        },
+        {
+          "id": "D",
+          "text": "dispensar meios confiáveis se houver indício de dano."
+        },
+        {
+          "id": "E",
+          "text": "ser fixada pelo valor de reposição mais elevado encontrado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A estimativa deve ser confiável e conservadora: a quantia apurada deve seguramente não exceder o débito real."
+    },
+    {
+      "id": "q6958",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em omissão de prestar contas ou falta de comprovação da aplicação regular, presume-se devido",
+      "options": [
+        {
+          "id": "A",
+          "text": "o dobro do recurso transferido."
+        },
+        {
+          "id": "B",
+          "text": "apenas o valor correspondente aos juros."
+        },
+        {
+          "id": "C",
+          "text": "todo o patrimônio do responsável."
+        },
+        {
+          "id": "D",
+          "text": "o total dos recursos transferidos e não comprovados."
+        },
+        {
+          "id": "E",
+          "text": "sempre o valor integral do convênio, ainda que parte da aplicação esteja comprovada."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A presunção alcança os recursos transferidos cuja aplicação não foi comprovada; parcela comprovada não é automaticamente incluída."
+    },
+    {
+      "id": "q6959",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No desfalque ou desaparecimento de bem, a quantificação considera",
+      "options": [
+        {
+          "id": "A",
+          "text": "preço de mercado e estado de conservação."
+        },
+        {
+          "id": "B",
+          "text": "sempre o preço de um bem novo equivalente."
+        },
+        {
+          "id": "C",
+          "text": "somente o preço histórico de aquisição."
+        },
+        {
+          "id": "D",
+          "text": "valor escolhido livremente pelo tomador."
+        },
+        {
+          "id": "E",
+          "text": "apenas o valor contábil depreciado, sem referência ao mercado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 7º, § 2º, combina preços praticados no mercado com o estado de conservação do bem."
+    },
+    {
+      "id": "q6960",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Atualização monetária e juros moratórios incidem, segundo o art. 8º,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente depois do julgamento definitivo."
+        },
+        {
+          "id": "B",
+          "text": "desde a data conhecida ou estimada da ocorrência do dano."
+        },
+        {
+          "id": "C",
+          "text": "a partir da publicação da DN nº 38/2020."
+        },
+        {
+          "id": "D",
+          "text": "somente quando o dano supera R$ 100.000,00."
+        },
+        {
+          "id": "E",
+          "text": "a partir da comunicação da instauração ao TCE/MA."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O marco financeiro é a data conhecida ou estimada da ocorrência do dano, observada a legislação aplicável."
+    },
+    {
+      "id": "q6961",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre valor histórico e valor atualizado é",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambos são necessariamente idênticos durante toda a TCE."
+        },
+        {
+          "id": "B",
+          "text": "o valor histórico já inclui atualização e juros posteriores."
+        },
+        {
+          "id": "C",
+          "text": "o histórico serve ao limite de encaminhamento; o atualizado inclui correção e juros cabíveis."
+        },
+        {
+          "id": "D",
+          "text": "somente o valor atualizado consta do demonstrativo do débito."
+        },
+        {
+          "id": "E",
+          "text": "o valor atualizado define a faixa do art. 10 e o histórico é meramente informativo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 10 utiliza valor histórico, enquanto o demonstrativo também registra atualização, juros e valor atualizado."
+    },
+    {
+      "id": "q6962",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O prazo de conclusão da TCE é",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 dias, sem possibilidade de prorrogação."
+        },
+        {
+          "id": "B",
+          "text": "30 dias, prorrogáveis automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "120 dias desde o início, sem necessidade de justificativa."
+        },
+        {
+          "id": "D",
+          "text": "60 dias, prorrogáveis por igual período mediante justificativa."
+        },
+        {
+          "id": "E",
+          "text": "60 dias, prorrogáveis indefinidamente por ato do tomador."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 9º admite mais 60 dias somente quando a necessidade do prazo adicional é justificada."
+    },
+    {
+      "id": "q6963",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A DN TCE/MA nº 38/2020 fixou, para aplicação do art. 10, I, o limite histórico de",
+      "options": [
+        {
+          "id": "A",
+          "text": "R$ 100.000,00."
+        },
+        {
+          "id": "B",
+          "text": "R$ 600,00."
+        },
+        {
+          "id": "C",
+          "text": "R$ 1.100,00."
+        },
+        {
+          "id": "D",
+          "text": "R$ 11.000,00."
+        },
+        {
+          "id": "E",
+          "text": "R$ 50.000,00."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A DN nº 38/2020 fixou em R$ 100.000,00 a quantia anual do art. 10, I, com vigência para esse fim desde 1º de janeiro de 2021."
+    },
+    {
+      "id": "q6964",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Pela literalidade do art. 10, uma TCE com dano histórico exatamente de R$ 100.000,00 deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser tratada como inferior ao limite por não o ultrapassar."
+        },
+        {
+          "id": "B",
+          "text": "ser encaminhada diretamente ao TCE/MA em até 15 dias após a conclusão."
+        },
+        {
+          "id": "C",
+          "text": "aguardar necessariamente a prestação anual."
+        },
+        {
+          "id": "D",
+          "text": "ser dispensada de encaminhamento apenas por estar no limite."
+        },
+        {
+          "id": "E",
+          "text": "ser enquadrada conforme o valor atualizado, e não o histórico."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 10 usa 'igual ou superior'; portanto, o valor exato integra a faixa de encaminhamento direto."
+    },
+    {
+      "id": "q6965",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma TCE com dano histórico inferior ao limite, sem hipótese de dispensa, deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "encaminhada em cinco dias, como se fosse a comunicação da instauração."
+        },
+        {
+          "id": "B",
+          "text": "arquivada sem qualquer vinculação às contas anuais."
+        },
+        {
+          "id": "C",
+          "text": "anexada à tomada ou prestação de contas anual em até 60 dias após a abertura da sessão legislativa."
+        },
+        {
+          "id": "D",
+          "text": "remetida apenas ao órgão de representação judicial."
+        },
+        {
+          "id": "E",
+          "text": "encaminhada diretamente ao Tribunal em 15 dias por usar o valor atualizado."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Essa é a regra do art. 10, II, para dano histórico inferior à quantia anual."
+    },
+    {
+      "id": "q6966",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma TCE foi concluída com dano histórico de R$ 100.000,00. Para responder segundo a IN nº 50 e a DN nº 38/2020, a autoridade deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "considerar o caso automaticamente dispensado de encaminhamento."
+        },
+        {
+          "id": "B",
+          "text": "usar o valor atualizado para decidir se o processo vai ao Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "anexar obrigatoriamente a TCE à prestação anual porque o valor não supera R$ 100.000,00."
+        },
+        {
+          "id": "D",
+          "text": "encaminhar diretamente a TCE ao Tribunal, porque a norma inclui valor igual ao limite."
+        },
+        {
+          "id": "E",
+          "text": "seguir a redação da página operacional mesmo quando ela divergir do texto normativo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A questão cobra a norma: o art. 10 usa 'igual ou superior'. A orientação operacional do site não altera tacitamente esse texto."
+    },
+    {
+      "id": "q6967",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Dispensa o encaminhamento da TCE ao Tribunal",
+      "options": [
+        {
+          "id": "A",
+          "text": "a não comprovação da ocorrência do dano imputado."
+        },
+        {
+          "id": "B",
+          "text": "qualquer recolhimento parcial do débito."
+        },
+        {
+          "id": "C",
+          "text": "a mera promessa de reposição futura do bem."
+        },
+        {
+          "id": "D",
+          "text": "todo dano inferior ao limite, independentemente da prestação anual."
+        },
+        {
+          "id": "E",
+          "text": "a conclusão do processo sem parecer do controle interno."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A não comprovação da ocorrência do dano é a primeira hipótese do art. 11."
+    },
+    {
+      "id": "q6968",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Para a dispensa do art. 11, II, exige-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "pagamento de qualquer parcela do débito."
+        },
+        {
+          "id": "B",
+          "text": "recolhimento integral do débito atualizado ou reposição/restituição equivalente do bem."
+        },
+        {
+          "id": "C",
+          "text": "reconhecimento verbal da dívida pelo responsável."
+        },
+        {
+          "id": "D",
+          "text": "pagamento apenas do valor histórico, sem atualização quando cabível."
+        },
+        {
+          "id": "E",
+          "text": "compromisso de quitação futura formalizado antes da conclusão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A recuperação deve ser integral; recolhimento parcial não preenche a hipótese de dispensa."
+    },
+    {
+      "id": "q6969",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O art. 11, III, dispensa o encaminhamento quando decorrerem mais de cinco anos entre",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira notificação e o julgamento."
+        },
+        {
+          "id": "B",
+          "text": "a conclusão e a cobrança judicial."
+        },
+        {
+          "id": "C",
+          "text": "o evento, ou a ciência se desconhecido, e a instauração da TCE."
+        },
+        {
+          "id": "D",
+          "text": "a abertura da sessão legislativa e a prestação anual."
+        },
+        {
+          "id": "E",
+          "text": "a comunicação da instauração e a conclusão da TCE."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Esses são os marcos literais da hipótese de dispensa de encaminhamento prevista na IN nº 50."
+    },
+    {
+      "id": "q6970",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A IN TCE/MA nº 56/2018 revogou",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo o art. 22 e toda a DN nº 28/2017."
+        },
+        {
+          "id": "B",
+          "text": "os arts. 2º, 4º e 10 da IN nº 50."
+        },
+        {
+          "id": "C",
+          "text": "a definição de TCE e os métodos de quantificação."
+        },
+        {
+          "id": "D",
+          "text": "o parágrafo único do art. 11, o art. 15, IV, e os §§ 1º e 2º do art. 22."
+        },
+        {
+          "id": "E",
+          "text": "o art. 11, III, e o caput do art. 22."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A revogação foi pontual; o art. 11, III, e o caput do art. 22 permaneceram."
+    },
+    {
+      "id": "q6971",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quanto a diversos débitos inferiores ao limite, a autoridade deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "consolidar os do mesmo responsável no exercício e constituir nova TCE quando o somatório atingir o limite."
+        },
+        {
+          "id": "B",
+          "text": "somar débitos de pessoas diferentes e de exercícios distintos."
+        },
+        {
+          "id": "C",
+          "text": "ignorar os valores porque cada dano isolado está abaixo do limite."
+        },
+        {
+          "id": "D",
+          "text": "usar apenas valores atualizados para verificar se o somatório atinge o limite."
+        },
+        {
+          "id": "E",
+          "text": "aguardar cinco anos antes de realizar qualquer consolidação."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 15, II, evita fracionamento por meio da consolidação dos débitos do mesmo responsável durante o exercício corrente."
+    },
+    {
+      "id": "q6972",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Depois do julgamento pelo TCE/MA, cabe à autoridade administrativa, entre outras medidas,",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar os registros do débito para evitar duplicidade."
+        },
+        {
+          "id": "B",
+          "text": "registrar débito e responsáveis nos cadastros cabíveis e encaminhar títulos para cobrança judicial."
+        },
+        {
+          "id": "C",
+          "text": "reabrir automaticamente toda a instrução administrativa."
+        },
+        {
+          "id": "D",
+          "text": "substituir a deliberação do Tribunal por parecer interno."
+        },
+        {
+          "id": "E",
+          "text": "manter apenas registro informal, sem dívida ativa ou sistema contábil."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 15, III, prevê registros de crédito, dívida ativa e contabilidade, além do encaminhamento para cobrança pelo órgão competente."
+    },
+    {
+      "id": "q6973",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A autoridade competente para instaurar TCE de responsáveis inadimplentes da administração direta do Executivo municipal perante o TCE/MA é",
+      "options": [
+        {
+          "id": "A",
+          "text": "o Presidente da Câmara Municipal."
+        },
+        {
+          "id": "B",
+          "text": "o tomador de contas, independentemente de designação."
+        },
+        {
+          "id": "C",
+          "text": "o Prefeito Municipal."
+        },
+        {
+          "id": "D",
+          "text": "o órgão de representação judicial."
+        },
+        {
+          "id": "E",
+          "text": "o secretário municipal de finanças em qualquer hipótese."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 14 atribui expressamente essa competência ao Prefeito Municipal."
+    },
+    {
+      "id": "q6974",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao conhecer irregularidade, ilegalidade ou vencimento dos prazos dos arts. 3º e 5º, o controle interno deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "aguardar a conclusão do mandato para comunicar o fato."
+        },
+        {
+          "id": "B",
+          "text": "julgar definitivamente o responsável."
+        },
+        {
+          "id": "C",
+          "text": "comunicar apenas se o dano superar R$ 100.000,00."
+        },
+        {
+          "id": "D",
+          "text": "dar ciência ao TCE/MA, sob pena de responsabilidade solidária."
+        },
+        {
+          "id": "E",
+          "text": "limitar-se a inserir nota no parecer anual, sem ciência ao Tribunal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 16 impõe a comunicação ao Tribunal e associa sua omissão à responsabilidade solidária."
+    },
+    {
+      "id": "q6975",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O parecer conclusivo do controle interno examina",
+      "options": [
+        {
+          "id": "A",
+          "text": "a adequação das medidas de elisão e a regularidade da instauração, constituição, quantificação e desenvolvimento da TCE."
+        },
+        {
+          "id": "B",
+          "text": "somente a formatação do ofício de encaminhamento."
+        },
+        {
+          "id": "C",
+          "text": "apenas o valor das multas aplicáveis à autoridade."
+        },
+        {
+          "id": "D",
+          "text": "a responsabilidade penal definitiva do agente."
+        },
+        {
+          "id": "E",
+          "text": "somente a existência das cinco peças do Anexo I, sem avaliar o procedimento."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Anexo II atribui ao controle interno avaliação procedimental ampla, inclusive devido processo, defesa e contraditório."
+    },
+    {
+      "id": "q6976",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se faltarem documentos do Anexo I, no todo ou em parte, o TCE/MA deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "julgar automaticamente o processo regular."
+        },
+        {
+          "id": "B",
+          "text": "determinar o saneamento e a renovação do encaminhamento."
+        },
+        {
+          "id": "C",
+          "text": "presumir inexistente o dano."
+        },
+        {
+          "id": "D",
+          "text": "converter sempre a TCE em denúncia."
+        },
+        {
+          "id": "E",
+          "text": "arquivar o processo sem oportunidade de complementação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 17 trata a incompletude documental por saneamento dos autos e novo encaminhamento."
+    },
+    {
+      "id": "q6977",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O descumprimento dos prazos da IN nº 50 caracteriza",
+      "options": [
+        {
+          "id": "A",
+          "text": "mera recomendação administrativa, sem consequência."
+        },
+        {
+          "id": "B",
+          "text": "falha exclusivamente de formatação documental."
+        },
+        {
+          "id": "C",
+          "text": "grave infração à norma legal ou regulamentar, sujeita às sanções cabíveis da Lei nº 8.258/2005."
+        },
+        {
+          "id": "D",
+          "text": "crime automaticamente reconhecido pelo TCE/MA."
+        },
+        {
+          "id": "E",
+          "text": "hipótese que extingue o dever de apurar o dano."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O art. 18 qualifica o descumprimento e remete às sanções previstas na Lei Orgânica do TCE/MA."
+    },
+    {
+      "id": "q6978",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O Anexo I exige o conjunto formado por",
+      "options": [
+        {
+          "id": "A",
+          "text": "denúncia, sentença judicial e recurso."
+        },
+        {
+          "id": "B",
+          "text": "somente formulário e planilha de atualização."
+        },
+        {
+          "id": "C",
+          "text": "ofício, parecer judicial e prestação de contas anual."
+        },
+        {
+          "id": "D",
+          "text": "ofício, formulário, relatório do tomador, parecer do controle interno e pronunciamento da autoridade."
+        },
+        {
+          "id": "E",
+          "text": "relatório de auditoria, denúncia, parecer do MPC, acórdão e certidão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Essas são as cinco peças eletrônicas mínimas listadas no Anexo I."
+    },
+    {
+      "id": "q6979",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O formulário de tomada de contas especial é indicado no Anexo I em formato",
+      "options": [
+        {
+          "id": "A",
+          "text": "ODS ou preenchimento no sistema, conforme a forma de encaminhamento."
+        },
+        {
+          "id": "B",
+          "text": "somente imagem JPEG."
+        },
+        {
+          "id": "C",
+          "text": "arquivo executável."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente PDF sem campos estruturados."
+        },
+        {
+          "id": "E",
+          "text": "documento de texto livre sem padrão."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O Anexo I prevê ODS para o formulário no fluxo correspondente ou preenchimento na solução eletrônica."
+    },
+    {
+      "id": "q6980",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O relatório do tomador deve incluir",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas a identificação do órgão de origem."
+        },
+        {
+          "id": "B",
+          "text": "provas do dano, nexo causal, notificações, análise das justificativas e ato de designação do tomador."
+        },
+        {
+          "id": "C",
+          "text": "somente o demonstrativo do valor atualizado."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente manifestação do controle interno."
+        },
+        {
+          "id": "E",
+          "text": "apenas os documentos apresentados espontaneamente pelo responsável."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O item 3 do Anexo II exige demonstração ampla dos fatos, provas, ciência dos responsáveis, justificativas e designação do tomador."
+    },
+    {
+      "id": "q6981",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Depois da IN nº 56/2018, o pronunciamento da autoridade deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "determinar sempre o ajuizamento imediato de ação."
+        },
+        {
+          "id": "B",
+          "text": "dispensar a leitura do relatório e do parecer."
+        },
+        {
+          "id": "C",
+          "text": "atestar conhecimento do relatório e do parecer e determinar os encaminhamentos necessários."
+        },
+        {
+          "id": "D",
+          "text": "substituir o parecer conclusivo do controle interno."
+        },
+        {
+          "id": "E",
+          "text": "declarar obrigatoriamente a responsabilidade de todos os notificados."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A IN nº 56/2018 substituiu o item 5 do Anexo II por formulação que exige conhecimento das peças e determinação dos encaminhamentos necessários."
+    },
+    {
+      "id": "q6982",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Quanto aos arquivos eletrônicos, a IN nº 50 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer formato, ainda que ilegível."
+        },
+        {
+          "id": "B",
+          "text": "limite de 100 MB e dispensa de pesquisa textual."
+        },
+        {
+          "id": "C",
+          "text": "PDF fotografado sem OCR mesmo quando a pesquisa seria possível."
+        },
+        {
+          "id": "D",
+          "text": "PDF exportado ou digitalizado com OCR, legibilidade, ausência de malware e até 25 MB por arquivo."
+        },
+        {
+          "id": "E",
+          "text": "somente documento físico acompanhado de mídia removível."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O art. 12 reúne formato pesquisável, limite unitário, integridade e legibilidade."
+    },
+    {
+      "id": "q6983",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Os documentos devem ser assinados com certificado digital",
+      "options": [
+        {
+          "id": "A",
+          "text": "A1, A3 ou A4, emitido no âmbito da ICP-Brasil."
+        },
+        {
+          "id": "B",
+          "text": "de qualquer tipo, ainda que não verificável."
+        },
+        {
+          "id": "C",
+          "text": "apenas A2, fora da ICP-Brasil."
+        },
+        {
+          "id": "D",
+          "text": "somente depois do julgamento da TCE."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente por certificado estrangeiro sem cadeia ICP-Brasil."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O art. 12 enumera os tipos A1, A3 e A4 da Infraestrutura de Chaves Públicas Brasileira."
+    },
+    {
+      "id": "q6984",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Arquivo superior a 25 MB deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ser descartado e substituído por declaração de conteúdo."
+        },
+        {
+          "id": "B",
+          "text": "ser dividido em partes de até o limite, identificadas pelo atributo (N-T)."
+        },
+        {
+          "id": "C",
+          "text": "ser convertido obrigatoriamente em imagem sem texto pesquisável."
+        },
+        {
+          "id": "D",
+          "text": "ser enviado integralmente sem qualquer identificação especial."
+        },
+        {
+          "id": "E",
+          "text": "ter apenas a primeira parte encaminhada ao Tribunal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A identificação N-T permite recompor o documento dividido, sendo N a parte e T o total."
+    },
+    {
+      "id": "q6985",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A regra autônoma do art. 2º da DN nº 28/2017 dispensa, salvo determinação contrária do TCE, a instauração quando transcorrerem mais de cinco anos entre",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conclusão e o encaminhamento da TCE."
+        },
+        {
+          "id": "B",
+          "text": "o envio ao Tribunal e o julgamento."
+        },
+        {
+          "id": "C",
+          "text": "a data provável do dano e a primeira notificação dos responsáveis."
+        },
+        {
+          "id": "D",
+          "text": "a ciência do Tribunal e a publicação do acórdão."
+        },
+        {
+          "id": "E",
+          "text": "a abertura da sessão legislativa e a prestação anual."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A DN nº 28 utiliza a primeira notificação como marco final, diferentemente dos arts. 11 e 22 da IN nº 50."
+    },
+    {
+      "id": "q6986",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "O caput do art. 22 da IN nº 50 afirma que a atuação administrativa do TCE/MA decai após cinco anos entre",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira notificação e a prestação anual."
+        },
+        {
+          "id": "B",
+          "text": "o relatório do tomador e o parecer do controle interno."
+        },
+        {
+          "id": "C",
+          "text": "o julgamento e a cobrança judicial."
+        },
+        {
+          "id": "D",
+          "text": "o evento, ou a ciência se desconhecido, e a instauração da TCE."
+        },
+        {
+          "id": "E",
+          "text": "a comunicação da instauração e a conclusão do processo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Esses são os marcos literais do caput do art. 22."
+    },
+    {
+      "id": "q6987",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A distinção correta entre as regras quinquenais é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a DN nº 28 trata de dispensa de instauração com marco na primeira notificação; a IN nº 50 usa a instauração em seus arts. 11, III, e 22."
+        },
+        {
+          "id": "B",
+          "text": "todas as regras utilizam exclusivamente a data do julgamento."
+        },
+        {
+          "id": "C",
+          "text": "a primeira notificação e a instauração são juridicamente o mesmo ato."
+        },
+        {
+          "id": "D",
+          "text": "a DN nº 28 trata apenas de encaminhamento, e não de instauração."
+        },
+        {
+          "id": "E",
+          "text": "o art. 22 utiliza como marco final a prestação de contas anual."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Os marcos e efeitos não são intercambiáveis: primeira notificação, instauração, dispensa de instauração e dispensa de encaminhamento são conceitos distintos."
+    },
+    {
+      "id": "q6988",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Um responsável foi notificado pela primeira vez mais de cinco anos após a data provável do dano. Segundo a regra autônoma da DN nº 28/2017,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a TCE deve sempre ser instaurada, sem exceção."
+        },
+        {
+          "id": "B",
+          "text": "a instauração fica dispensada, salvo determinação contrária do TCE/MA."
+        },
+        {
+          "id": "C",
+          "text": "o fato fica automaticamente julgado regular."
+        },
+        {
+          "id": "D",
+          "text": "o débito é considerado quitado."
+        },
+        {
+          "id": "E",
+          "text": "a única consequência é anexar o caso à prestação anual."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 2º da DN nº 28 prevê dispensa de instauração quando o intervalo entre dano provável e primeira notificação supera cinco anos, salvo determinação contrária do Tribunal."
+    },
+    {
+      "id": "q6989",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Em uma TCE, a data do evento é desconhecida. Para aplicar os arts. 11, III, e 22 da IN nº 50, o marco inicial substitutivo é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a primeira notificação do responsável."
+        },
+        {
+          "id": "B",
+          "text": "a abertura da sessão legislativa."
+        },
+        {
+          "id": "C",
+          "text": "a ciência do fato pela autoridade administrativa competente."
+        },
+        {
+          "id": "D",
+          "text": "a conclusão do relatório do tomador."
+        },
+        {
+          "id": "E",
+          "text": "a comunicação da instauração ao TCE/MA."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A IN nº 50 utiliza a ciência da autoridade competente quando a data do evento é desconhecida; não se deve importar o marco de primeira notificação da DN nº 28."
+    },
+    {
+      "id": "q6990",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma questão menciona que os §§ 1º e 2º do art. 22 da IN nº 50 continuam vigentes. À luz da IN nº 56/2018, essa afirmação é",
+      "options": [
+        {
+          "id": "A",
+          "text": "correta, porque a IN nº 56 alterou apenas o Anexo II."
+        },
+        {
+          "id": "B",
+          "text": "correta, desde que o dano seja inferior ao limite."
+        },
+        {
+          "id": "C",
+          "text": "correta apenas para TCEs municipais."
+        },
+        {
+          "id": "D",
+          "text": "incorreta, porque os §§ 1º e 2º foram revogados."
+        },
+        {
+          "id": "E",
+          "text": "incorreta porque todo o art. 22 foi revogado."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A IN nº 56/2018 revogou especificamente os §§ 1º e 2º do art. 22, preservando o caput."
+    },
+    {
+      "id": "q6991",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Após a DN nº 28/2017, a IN nº 50 aplica-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "no que couber às TCEs em trâmite no TCE/MA e integralmente às instauradas após sua vigência."
+        },
+        {
+          "id": "B",
+          "text": "somente a fatos ocorridos depois de 2023."
+        },
+        {
+          "id": "C",
+          "text": "apenas a TCEs municipais."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente a processos já julgados."
+        },
+        {
+          "id": "E",
+          "text": "somente a TCEs instauradas pelo controle externo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Essa é a disciplina temporal do art. 23, I, nas alíneas introduzidas pela DN nº 28."
+    },
+    {
+      "id": "q6992",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Ao fim dos primeiros 60 dias, a TCE ainda necessita de diligências relevantes. Segundo a IN nº 50, a continuidade por mais 60 dias",
+      "options": [
+        {
+          "id": "A",
+          "text": "é automática, bastando o decurso do primeiro prazo."
+        },
+        {
+          "id": "B",
+          "text": "é possível mediante justificativa da autoridade competente ou do tomador quanto à necessidade do prazo adicional."
+        },
+        {
+          "id": "C",
+          "text": "depende sempre de autorização judicial."
+        },
+        {
+          "id": "D",
+          "text": "é proibida, porque o prazo de conclusão é improrrogável."
+        },
+        {
+          "id": "E",
+          "text": "somente é admitida quando o dano histórico supera R$ 100.000,00."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O art. 9º admite prorrogação por igual período, mas exige justificativa; não há segundo período automático."
+    },
+    {
+      "id": "q6993",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "A principal alteração textual feita pela IN nº 56/2018 no item 5 do Anexo II foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminar o pronunciamento da autoridade."
+        },
+        {
+          "id": "B",
+          "text": "transformar todas as peças em ODS."
+        },
+        {
+          "id": "C",
+          "text": "determinar que o pronunciamento ateste conhecimento das peças e indique os encaminhamentos necessários."
+        },
+        {
+          "id": "D",
+          "text": "dispensar o parecer do controle interno."
+        },
+        {
+          "id": "E",
+          "text": "substituir o relatório do tomador por certidão do Tribunal."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A IN nº 56 substituiu o item 5 do Anexo II por essa formulação mais aberta."
+    },
+    {
+      "id": "q6994",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Instaurar a TCE, comunicar sua instauração e encaminhar os autos são",
+      "options": [
+        {
+          "id": "A",
+          "text": "expressões sinônimas para um único ato."
+        },
+        {
+          "id": "B",
+          "text": "atos sem prazos próprios."
+        },
+        {
+          "id": "C",
+          "text": "providências exclusivas do controle interno."
+        },
+        {
+          "id": "D",
+          "text": "providências distintas, com gatilhos e prazos próprios."
+        },
+        {
+          "id": "E",
+          "text": "etapas que necessariamente se concentram na mesma data."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A IN separa formação do processo, comunicação ao Tribunal e remessa para julgamento ou vinculação às contas anuais."
+    },
+    {
+      "id": "q6995",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se o evento é conhecido e o dano não é elidido, a sequência ordinária correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "medidas em até 60 dias, instauração em até 15 dias após seu esgotamento e comunicação em até 5 dias."
+        },
+        {
+          "id": "B",
+          "text": "comunicação em 60 dias e instauração somente após julgamento."
+        },
+        {
+          "id": "C",
+          "text": "conclusão em 5 dias e medidas em 15 dias."
+        },
+        {
+          "id": "D",
+          "text": "envio direto antes de qualquer apuração."
+        },
+        {
+          "id": "E",
+          "text": "instauração em 60 dias, comunicação em 15 e medidas em 5."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência integra os arts. 3º e 5º sem confundir os prazos de medidas, instauração e comunicação."
+    },
+    {
+      "id": "q6996",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Uma TCE possui dano histórico de R$ 98.000,00 e valor atualizado de R$ 105.000,00. Pelo art. 10, ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "vai ao envio direto porque o valor atualizado superou o limite."
+        },
+        {
+          "id": "B",
+          "text": "permanece na faixa inferior, pois o critério é o valor histórico."
+        },
+        {
+          "id": "C",
+          "text": "fica dispensada de qualquer encaminhamento automaticamente."
+        },
+        {
+          "id": "D",
+          "text": "deve ser somada a débitos de pessoas diferentes para definir a faixa."
+        },
+        {
+          "id": "E",
+          "text": "passa a usar o valor atualizado somente porque houve incidência de juros."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Correção e juros não alteram a faixa definida pelo valor histórico do dano."
+    },
+    {
+      "id": "q6997",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "Se o responsável recolhe apenas parte do débito atualizado, a autoridade",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve considerar preenchida a dispensa do art. 11, II."
+        },
+        {
+          "id": "B",
+          "text": "deve apagar o saldo remanescente."
+        },
+        {
+          "id": "C",
+          "text": "não pode aplicar a dispensa que exige recolhimento integral."
+        },
+        {
+          "id": "D",
+          "text": "deve tratar o dano como não comprovado."
+        },
+        {
+          "id": "E",
+          "text": "fica impedida de registrar o pagamento parcial nos autos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A hipótese de dispensa exige integralidade; o pagamento parcial deve ser considerado, mas não satisfaz o inciso II."
+    },
+    {
+      "id": "q6998",
+      "revision": 3,
+      "origin": "authorial",
+      "prompt": "No mesmo exercício, um responsável acumula danos históricos de R$ 35.000,00, R$ 40.000,00 e R$ 30.000,00. Segundo o art. 15, II, a autoridade deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "ignorar os débitos porque cada um é inferior a R$ 100.000,00."
+        },
+        {
+          "id": "B",
+          "text": "usar os valores atualizados para reduzir o somatório."
+        },
+        {
+          "id": "C",
+          "text": "considerar cada débito sem levar em conta a identidade do responsável."
+        },
+        {
+          "id": "D",
+          "text": "consolidar os débitos e constituir nova TCE para envio, pois o somatório atingiu R$ 105.000,00."
+        },
+        {
+          "id": "E",
+          "text": "somar esses débitos apenas a danos de outros responsáveis."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A consolidação anual por responsável evita fracionamento abaixo do limite; o somatório histórico atingiu a quantia de encaminhamento."
+    }
+  ]
+}

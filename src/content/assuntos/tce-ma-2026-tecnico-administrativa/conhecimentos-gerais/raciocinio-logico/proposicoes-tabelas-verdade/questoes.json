@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q4959",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No contexto da lógica proposicional clássica, uma proposição é",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma afirmação declarativa à qual se pode atribuir exatamente um valor lógico, verdadeiro ou falso, em contexto determinado."
+        },
+        {
+          "id": "B",
+          "text": "qualquer sequência de palavras terminada por ponto."
+        },
+        {
+          "id": "C",
+          "text": "somente uma afirmação cujo valor o examinando já conhece."
+        },
+        {
+          "id": "D",
+          "text": "qualquer pergunta que admita resposta afirmativa ou negativa."
+        },
+        {
+          "id": "E",
+          "text": "qualquer frase que contenha um verbo no modo indicativo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Proposição é uma afirmação declarativa avaliável como V ou F no contexto. Conhecer o valor, terminar por ponto ou conter certo modo verbal não basta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4960",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual enunciado não é uma proposição?",
+      "options": [
+        {
+          "id": "A",
+          "text": "São Luís é a capital do Maranhão."
+        },
+        {
+          "id": "B",
+          "text": "Entregue o relatório até amanhã."
+        },
+        {
+          "id": "C",
+          "text": "O número 12 é par."
+        },
+        {
+          "id": "D",
+          "text": "A reunião ocorreu na sexta-feira."
+        },
+        {
+          "id": "E",
+          "text": "O processo possui três volumes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“Entregue o relatório” é uma ordem: pode ser obedecida ou descumprida, mas não é verdadeira nem falsa. As demais alternativas são afirmações declarativas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4962",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sem atribuir valor à variável x, a expressão “x + 2 = 7” é",
+      "options": [
+        {
+          "id": "A",
+          "text": "proposição necessariamente verdadeira."
+        },
+        {
+          "id": "B",
+          "text": "proposição necessariamente falsa."
+        },
+        {
+          "id": "C",
+          "text": "uma pergunta."
+        },
+        {
+          "id": "D",
+          "text": "sentença aberta, porque seu valor depende de x."
+        },
+        {
+          "id": "E",
+          "text": "uma tautologia, porque contém igualdade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Sem valor fixado para x, a expressão pode resultar V ou F conforme a substituição. Logo, é sentença aberta, não proposição determinada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4964",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se p significa “A auditoria começou” e q significa “O relatório está pronto”, a expressão “A auditoria começou e o relatório está pronto” é",
+      "options": [
+        {
+          "id": "A",
+          "text": "sentença aberta."
+        },
+        {
+          "id": "B",
+          "text": "proposição composta representada por p ∧ q."
+        },
+        {
+          "id": "C",
+          "text": "proposição simples representada apenas por p."
+        },
+        {
+          "id": "D",
+          "text": "condicional representada por p → q."
+        },
+        {
+          "id": "E",
+          "text": "bicondicional representada por p ↔ q."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As duas proposições são combinadas pelo conectivo de conjunção; portanto, a forma é p ∧ q. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4965",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O princípio bivalente adotado neste assunto estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "toda frase possui três valores possíveis."
+        },
+        {
+          "id": "B",
+          "text": "uma proposição desconhecida não possui valor."
+        },
+        {
+          "id": "C",
+          "text": "cada proposição recebe exatamente um dos valores V ou F na mesma interpretação."
+        },
+        {
+          "id": "D",
+          "text": "uma proposição pode ser simultaneamente V e F sempre que houver dúvida."
+        },
+        {
+          "id": "E",
+          "text": "toda proposição precisa ser verdadeira."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Na lógica proposicional clássica bivalente, cada proposição recebe um e somente um dos dois valores V ou F em uma interpretação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4968",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre o alcance da negação, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "¬(p ∧ q) e (¬p) ∧ q possuem necessariamente a mesma estrutura."
+        },
+        {
+          "id": "B",
+          "text": "em ¬(p ∧ q), a negação incide sobre a conjunção completa."
+        },
+        {
+          "id": "C",
+          "text": "parênteses não alteram a fórmula negada."
+        },
+        {
+          "id": "D",
+          "text": "em (¬p) ∧ q, a negação incide também sobre q."
+        },
+        {
+          "id": "E",
+          "text": "a negação só pode ser aplicada a proposições simples."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os parênteses delimitam o alcance. Em ¬(p ∧ q), nega-se a composta inteira; em (¬p) ∧ q, apenas p é negada antes da conjunção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4969",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A conjunção p ∧ q é verdadeira quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "p é falsa, independentemente de q."
+        },
+        {
+          "id": "B",
+          "text": "ao menos uma componente é verdadeira."
+        },
+        {
+          "id": "C",
+          "text": "p e q são ambas verdadeiras."
+        },
+        {
+          "id": "D",
+          "text": "p e q têm valores diferentes."
+        },
+        {
+          "id": "E",
+          "text": "ao menos uma componente é falsa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A conjunção exige verdade de todas as componentes. Qualquer componente F torna o resultado F. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4971",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A disjunção inclusiva p ∨ q é falsa somente quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "p e q são ambas falsas."
+        },
+        {
+          "id": "B",
+          "text": "p e q são ambas verdadeiras."
+        },
+        {
+          "id": "C",
+          "text": "exatamente uma componente é verdadeira."
+        },
+        {
+          "id": "D",
+          "text": "p é verdadeira, qualquer que seja q."
+        },
+        {
+          "id": "E",
+          "text": "q é verdadeira, qualquer que seja p."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A disjunção inclusiva exige ao menos uma componente V; sua única linha F é F/F. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4973",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A proposição “ou p ou q, mas não ambos” é verdadeira quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "p e q são ambas verdadeiras."
+        },
+        {
+          "id": "B",
+          "text": "p e q são ambas falsas."
+        },
+        {
+          "id": "C",
+          "text": "exatamente uma entre p e q é verdadeira."
+        },
+        {
+          "id": "D",
+          "text": "ao menos uma é falsa, inclusive quando ambas são falsas."
+        },
+        {
+          "id": "E",
+          "text": "p e q têm sempre o mesmo valor."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A formulação expressa disjunção exclusiva: V em V/F e F/V, e F quando os valores são iguais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4975",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A condicional p → q é falsa na combinação",
+      "options": [
+        {
+          "id": "A",
+          "text": "p=V e q=F."
+        },
+        {
+          "id": "B",
+          "text": "p=V e q=V."
+        },
+        {
+          "id": "C",
+          "text": "p=F e q=V."
+        },
+        {
+          "id": "D",
+          "text": "p=F e q=F."
+        },
+        {
+          "id": "E",
+          "text": "p e q têm o mesmo valor."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A única linha falsa da condicional material é antecedente V e consequente F. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4977",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A respeito da condicional material p → q, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ela sempre declara que p causa q."
+        },
+        {
+          "id": "B",
+          "text": "p e q precisam tratar do mesmo assunto para a fórmula ter valor."
+        },
+        {
+          "id": "C",
+          "text": "sua tabela fixa condições de verdade e não exige, por si, causalidade ou ordem temporal."
+        },
+        {
+          "id": "D",
+          "text": "ela só pode ser avaliada quando p ocorre antes de q."
+        },
+        {
+          "id": "E",
+          "text": "ela é falsa sempre que o antecedente é falso."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A semântica da condicional material depende dos valores de p e q. Causalidade, temporalidade e tema comum não fazem parte da tabela fundamental. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4979",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na condicional p → q, a relação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "p é suficiente para q, e q é necessária para p."
+        },
+        {
+          "id": "B",
+          "text": "q é suficiente para p, e p é necessária para q, obrigatoriamente."
+        },
+        {
+          "id": "C",
+          "text": "p e q são sempre condições independentes."
+        },
+        {
+          "id": "D",
+          "text": "p e q precisam ser ambas falsas."
+        },
+        {
+          "id": "E",
+          "text": "p é necessária e q é suficiente, na mesma direção."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Se p ocorre, q deve ocorrer; por isso p é suficiente para q. Para que p ocorra sem violar a condicional, q é necessária para p. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4980",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A expressão “p somente se q” deve ser formalizada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "q → p."
+        },
+        {
+          "id": "B",
+          "text": "p → q."
+        },
+        {
+          "id": "C",
+          "text": "p ∨ q."
+        },
+        {
+          "id": "D",
+          "text": "p ∧ q."
+        },
+        {
+          "id": "E",
+          "text": "p ↔ q."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“Somente se” introduz a condição necessária: q é necessária para p, logo p → q. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4981",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A expressão “p se q” corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "p → q."
+        },
+        {
+          "id": "B",
+          "text": "p ∧ q."
+        },
+        {
+          "id": "C",
+          "text": "q → p."
+        },
+        {
+          "id": "D",
+          "text": "p ↔ q."
+        },
+        {
+          "id": "E",
+          "text": "p ∨ q."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O termo após “se” apresenta a condição suficiente: se q, então p; portanto, q → p. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4983",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A bicondicional p ↔ q é verdadeira quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "p e q têm o mesmo valor lógico."
+        },
+        {
+          "id": "B",
+          "text": "exatamente uma componente é verdadeira."
+        },
+        {
+          "id": "C",
+          "text": "p é verdadeira e q é falsa."
+        },
+        {
+          "id": "D",
+          "text": "ao menos uma componente é falsa."
+        },
+        {
+          "id": "E",
+          "text": "p é falsa, qualquer que seja q."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A bicondicional é V em V/V e F/F e F quando os valores são diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4986",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A diferença básica entre p ↔ q e a disjunção exclusiva de p e q é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "ambas são verdadeiras exatamente nos mesmos casos."
+        },
+        {
+          "id": "B",
+          "text": "a bicondicional é sempre falsa."
+        },
+        {
+          "id": "C",
+          "text": "a exclusiva é verdadeira quando os valores são iguais."
+        },
+        {
+          "id": "D",
+          "text": "a bicondicional é verdadeira com valores iguais, e a exclusiva, com valores diferentes."
+        },
+        {
+          "id": "E",
+          "text": "a exclusiva é verdadeira apenas em V/V."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A bicondicional testa igualdade de valores; a exclusiva testa diferença. Assim, suas colunas são opostas nas quatro combinações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4987",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma tabela-verdade completa de fórmula com três proposições simples distintas possui",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 linhas."
+        },
+        {
+          "id": "B",
+          "text": "6 linhas."
+        },
+        {
+          "id": "C",
+          "text": "9 linhas."
+        },
+        {
+          "id": "D",
+          "text": "12 linhas."
+        },
+        {
+          "id": "E",
+          "text": "16 linhas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Com n proposições distintas, a tabela tem 2^n linhas. Para n=3, 2³=8. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4988",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A fórmula (p ∧ q) ∨ (p ∧ ¬q) possui tabela completa com",
+      "options": [
+        {
+          "id": "A",
+          "text": "16 linhas, porque há quatro ocorrências de letras."
+        },
+        {
+          "id": "B",
+          "text": "4 linhas, porque existem apenas duas proposições distintas: p e q."
+        },
+        {
+          "id": "C",
+          "text": "8 linhas, porque p aparece duas vezes."
+        },
+        {
+          "id": "D",
+          "text": "2 linhas, porque q aparece negada."
+        },
+        {
+          "id": "E",
+          "text": "32 linhas, porque existem cinco conectivos e ocorrências."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O expoente conta letras proposicionais distintas, não ocorrências. Há apenas p e q, logo 2²=4 linhas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4991",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na fórmula (p ∨ q) ∧ ¬r, o conectivo principal, executado por último, é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a conjunção externa."
+        },
+        {
+          "id": "B",
+          "text": "a disjunção entre p e q."
+        },
+        {
+          "id": "C",
+          "text": "a negação de r."
+        },
+        {
+          "id": "D",
+          "text": "uma bicondicional implícita."
+        },
+        {
+          "id": "E",
+          "text": "uma condicional implícita."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Primeiro calculam-se p ∨ q e ¬r; os dois resultados são combinados pela conjunção externa, que governa a fórmula completa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4992",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre p ∨ (q ∧ r) e (p ∨ q) ∧ r, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "os parênteses são apenas decorativos."
+        },
+        {
+          "id": "B",
+          "text": "o agrupamento é diferente e as fórmulas podem produzir valores distintos."
+        },
+        {
+          "id": "C",
+          "text": "ambas possuem obrigatoriamente uma única linha."
+        },
+        {
+          "id": "D",
+          "text": "a segunda não contém conjunção."
+        },
+        {
+          "id": "E",
+          "text": "a primeira não contém disjunção."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os parênteses alteram a estrutura e o conectivo principal; por isso, as fórmulas podem ter valores diferentes sob a mesma atribuição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4995",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se p=F e q=V, o valor de (p ∨ q) ∧ ¬p é",
+      "options": [
+        {
+          "id": "A",
+          "text": "V."
+        },
+        {
+          "id": "B",
+          "text": "F."
+        },
+        {
+          "id": "C",
+          "text": "indeterminado."
+        },
+        {
+          "id": "D",
+          "text": "simultaneamente V e F."
+        },
+        {
+          "id": "E",
+          "text": "sem valor lógico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "p ∨ q=V porque q é V; ¬p=V porque p é F; então V ∧ V=V. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4998",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere (p → q) ↔ ¬r, com p=V, q=F e r=V. O valor da fórmula completa é",
+      "options": [
+        {
+          "id": "A",
+          "text": "F, porque toda ocorrência de V torna a bicondicional falsa."
+        },
+        {
+          "id": "B",
+          "text": "F, porque ¬r é falsa e a bicondicional exige lados verdadeiros."
+        },
+        {
+          "id": "C",
+          "text": "indeterminado, porque há três letras."
+        },
+        {
+          "id": "D",
+          "text": "V, pois p → q=F e ¬r=F, e a bicondicional é verdadeira com valores iguais."
+        },
+        {
+          "id": "E",
+          "text": "F, porque uma condicional falsa torna qualquer fórmula composta falsa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "p → q=F no caso V/F; ¬r=F; como F ↔ F=V, a fórmula completa é verdadeira. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5003",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma fórmula é tautológica quando sua coluna final contém",
+      "options": [
+        {
+          "id": "A",
+          "text": "V em todas as atribuições possíveis."
+        },
+        {
+          "id": "B",
+          "text": "F em todas as atribuições possíveis."
+        },
+        {
+          "id": "C",
+          "text": "quantidades iguais de V e F obrigatoriamente."
+        },
+        {
+          "id": "D",
+          "text": "ao menos uma linha F."
+        },
+        {
+          "id": "E",
+          "text": "ao menos uma linha V, ainda que haja linhas F."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Tautologia é verdadeira sob toda atribuição. Uma única linha F já exclui essa classificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5004",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma fórmula contraditória apresenta, na coluna final,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente V."
+        },
+        {
+          "id": "B",
+          "text": "somente F."
+        },
+        {
+          "id": "C",
+          "text": "ao menos um V e ao menos um F."
+        },
+        {
+          "id": "D",
+          "text": "nenhuma linha."
+        },
+        {
+          "id": "E",
+          "text": "mais valores V que F."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Contradição é falsa em todas as atribuições possíveis; qualquer V afasta essa classificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5005",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma fórmula contingente é aquela que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não admite valor lógico."
+        },
+        {
+          "id": "B",
+          "text": "é verdadeira em todas as linhas."
+        },
+        {
+          "id": "C",
+          "text": "é verdadeira em ao menos uma atribuição e falsa em ao menos outra."
+        },
+        {
+          "id": "D",
+          "text": "é falsa em todas as linhas."
+        },
+        {
+          "id": "E",
+          "text": "possui exatamente metade das linhas verdadeiras."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Contingência significa variar de valor entre atribuições; não exige proporção específica entre V e F. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5009",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao encontrar uma linha falsa na coluna final de uma fórmula, pode-se concluir imediatamente que ela",
+      "options": [
+        {
+          "id": "A",
+          "text": "é uma contradição."
+        },
+        {
+          "id": "B",
+          "text": "é contingente."
+        },
+        {
+          "id": "C",
+          "text": "não é tautologia, mas as demais linhas ainda distinguem contradição de contingência."
+        },
+        {
+          "id": "D",
+          "text": "não é proposição."
+        },
+        {
+          "id": "E",
+          "text": "é necessariamente bicondicional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Uma linha F elimina a possibilidade de tautologia. Se todas as demais forem F, haverá contradição; se alguma for V, contingência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5012",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Com as mesmas definições, “O comprovante será emitido somente se o cadastro estiver completo” corresponde a",
+      "options": [
+        {
+          "id": "A",
+          "text": "p → q."
+        },
+        {
+          "id": "B",
+          "text": "q → p."
+        },
+        {
+          "id": "C",
+          "text": "p ∨ q."
+        },
+        {
+          "id": "D",
+          "text": "p ↔ q, necessariamente."
+        },
+        {
+          "id": "E",
+          "text": "¬q → p."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“Somente se” introduz condição necessária. Cadastro completo p é necessário para emissão q, então q → p. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5013",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Se p significa “O cadastro está completo” e q “O comprovante foi emitido”, a frase “Não é verdade que o cadastro está completo e o comprovante foi emitido” é",
+      "options": [
+        {
+          "id": "A",
+          "text": "(¬p) ∧ q."
+        },
+        {
+          "id": "B",
+          "text": "p ∧ (¬q)."
+        },
+        {
+          "id": "C",
+          "text": "¬(p ∧ q)."
+        },
+        {
+          "id": "D",
+          "text": "(¬p) ∧ (¬q), obrigatoriamente."
+        },
+        {
+          "id": "E",
+          "text": "p ∨ q."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Não é verdade que” alcança toda a afirmação seguinte; por isso, a negação incide sobre a conjunção completa: ¬(p ∧ q). Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q5018",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual sequência apresenta um método adequado para resolver uma tabela-verdade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Classificar a fórmula antes de enumerar valores e ignorar as subfórmulas."
+        },
+        {
+          "id": "B",
+          "text": "Contar todas as ocorrências de letras, preencher apenas uma linha e generalizar."
+        },
+        {
+          "id": "C",
+          "text": "Alterar os parênteses, resolver o conectivo externo primeiro e escolher as linhas favoráveis."
+        },
+        {
+          "id": "D",
+          "text": "Identificar letras distintas, enumerar 2^n atribuições, calcular subfórmulas internas e então ler a coluna final."
+        },
+        {
+          "id": "E",
+          "text": "Usar apenas a interpretação cotidiana das frases, sem aplicar as regras dos conectivos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O procedimento correto respeita completude e estrutura: letras distintas, 2^n atribuições, subfórmulas internas e leitura da coluna final. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
