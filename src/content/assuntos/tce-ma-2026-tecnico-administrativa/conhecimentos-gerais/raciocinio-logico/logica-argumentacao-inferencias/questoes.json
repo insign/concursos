@@ -1,0 +1,1056 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q4899",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em análise lógica, um argumento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "qualquer sequência de frases sobre o mesmo tema."
+        },
+        {
+          "id": "B",
+          "text": "uma opinião enfática, ainda que desacompanhada de razões."
+        },
+        {
+          "id": "C",
+          "text": "um relato cronológico sem tese defendida."
+        },
+        {
+          "id": "D",
+          "text": "uma estrutura em que premissas são oferecidas para sustentar uma conclusão."
+        },
+        {
+          "id": "E",
+          "text": "qualquer conjunto de afirmações verdadeiras, mesmo sem relação de apoio."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O argumento se caracteriza pela relação de apoio: uma ou mais afirmações funcionam como razões para aceitar outra. Tema comum, ênfase ou verdade isolada não bastam. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4901",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: “A sessão começou às nove, o relatório foi lido às dez e a votação terminou ao meio-dia.” Sem outro contexto, esse trecho é principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "uma dedução válida."
+        },
+        {
+          "id": "B",
+          "text": "uma analogia."
+        },
+        {
+          "id": "C",
+          "text": "um relato de eventos, pois não oferece uma afirmação como razão para outra."
+        },
+        {
+          "id": "D",
+          "text": "um argumento indutivo."
+        },
+        {
+          "id": "E",
+          "text": "uma conclusão intermediária."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As frases organizam acontecimentos, mas não apresentam premissas destinadas a sustentar uma conclusão. Nem todo texto informativo constitui argumento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4902",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A frase “O portal ficou lento porque houve aumento excepcional de acessos” funciona como explicação quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a existência da lentidão é contestada e o aumento de acessos é oferecido como prova de que ela ocorreu."
+        },
+        {
+          "id": "B",
+          "text": "nenhum dos dois fatos é aceito ou defendido."
+        },
+        {
+          "id": "C",
+          "text": "a palavra “porque” torna impossível qualquer função explicativa."
+        },
+        {
+          "id": "D",
+          "text": "a lentidão é tomada como fato aceito e se procura indicar por que ocorreu."
+        },
+        {
+          "id": "E",
+          "text": "o aumento de acessos é apresentado como conclusão final, sem relação com a lentidão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A explicação parte de um fato tomado como aceito e procura indicar por que ele ocorreu. A mesma informação pode exercer função diferente conforme o contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4903",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre indicadores como “portanto”, “pois” e “então”, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "determinam mecanicamente a função de toda oração em que aparecem."
+        },
+        {
+          "id": "B",
+          "text": "“pois” sempre introduz conclusão, nunca premissa."
+        },
+        {
+          "id": "C",
+          "text": "argumentos sem esses termos não possuem conclusão."
+        },
+        {
+          "id": "D",
+          "text": "são pistas úteis, mas sua função depende do contexto e pode nem ser argumentativa."
+        },
+        {
+          "id": "E",
+          "text": "a presença de “logo” torna válido qualquer argumento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Indicadores linguísticos auxiliam a identificação, mas não substituem a análise funcional. A mesma palavra pode ter usos diferentes, e argumentos podem omitir marcadores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4904",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No trecho “O atendimento deve ser ampliado, pois a demanda cresceu e a fila dobrou”, a conclusão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a demanda cresceu."
+        },
+        {
+          "id": "B",
+          "text": "a fila dobrou."
+        },
+        {
+          "id": "C",
+          "text": "a demanda cresceu e a fila dobrou."
+        },
+        {
+          "id": "D",
+          "text": "o atendimento deve ser ampliado."
+        },
+        {
+          "id": "E",
+          "text": "não há conclusão, porque ela aparece antes das razões."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A ampliação do atendimento é a tese defendida; crescimento da demanda e duplicação da fila são razões oferecidas em seu apoio. A conclusão pode aparecer antes das premissas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4905",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: “Todo processo urgente recebe prioridade. O processo P é urgente. Logo, P recebe prioridade.” As duas premissas são ligadas porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "cada uma, isoladamente, já garante toda a conclusão."
+        },
+        {
+          "id": "B",
+          "text": "possuem exatamente as mesmas palavras."
+        },
+        {
+          "id": "C",
+          "text": "uma delas é necessariamente falsa."
+        },
+        {
+          "id": "D",
+          "text": "precisam atuar em conjunto para sustentar a conclusão apresentada."
+        },
+        {
+          "id": "E",
+          "text": "a conclusão é apenas provável, e não necessária."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A regra geral e a classificação de P precisam ser combinadas. Isoladamente, nenhuma permite concluir que P recebe prioridade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4906",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No encadeamento “O prazo expirou; logo, o recurso é intempestivo; recursos intempestivos não são conhecidos; portanto, o recurso não será conhecido”, a afirmação “o recurso é intempestivo” é",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas um exemplo ornamental."
+        },
+        {
+          "id": "B",
+          "text": "a conclusão final e nada mais."
+        },
+        {
+          "id": "C",
+          "text": "conclusão intermediária que também funciona como premissa no passo seguinte."
+        },
+        {
+          "id": "D",
+          "text": "um pressuposto necessariamente oculto."
+        },
+        {
+          "id": "E",
+          "text": "uma premissa independente que não resulta do passo anterior."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Ela é obtida no primeiro passo inferencial e depois se combina com a regra sobre recursos intempestivos para apoiar a conclusão final. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4907",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No argumento “Rui domina a ferramenta; portanto, deve ministrar o treinamento”, qual afirmação representa uma ponte implícita relevante?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toda ferramenta é gratuita."
+        },
+        {
+          "id": "B",
+          "text": "Nenhum treinamento exige disponibilidade."
+        },
+        {
+          "id": "C",
+          "text": "Rui nunca utilizou a ferramenta."
+        },
+        {
+          "id": "D",
+          "text": "Dominar a ferramenta é suficiente, nas circunstâncias consideradas, para estar apto a ensiná-la."
+        },
+        {
+          "id": "E",
+          "text": "Todo servidor deve ministrar todos os treinamentos disponíveis."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A conclusão depende de conectar domínio técnico à aptidão para ensinar. A ponte deve ser compatível com o texto e relevante para a passagem, não uma premissa arbitrária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4909",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um argumento dedutivo é válido quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "sua conclusão é verdadeira no mundo real, quaisquer que sejam as premissas."
+        },
+        {
+          "id": "B",
+          "text": "todas as suas frases são aceitas pela maioria."
+        },
+        {
+          "id": "C",
+          "text": "não há situação possível em que todas as premissas sejam verdadeiras e a conclusão seja falsa."
+        },
+        {
+          "id": "D",
+          "text": "ao menos uma premissa é verdadeira."
+        },
+        {
+          "id": "E",
+          "text": "a conclusão aparece depois da palavra “logo”."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Validade é a impossibilidade de premissas conjuntamente verdadeiras com conclusão falsa. Ela qualifica a relação inferencial, não a popularidade nem a verdade isolada de uma frase. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4910",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: “Todo planeta é feito de vidro. Marte é um planeta. Logo, Marte é feito de vidro.” Esse argumento é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inválido apenas porque a primeira premissa é falsa."
+        },
+        {
+          "id": "B",
+          "text": "sólido porque a conclusão segue das premissas."
+        },
+        {
+          "id": "C",
+          "text": "indutivo porque menciona um caso particular."
+        },
+        {
+          "id": "D",
+          "text": "válido quanto à forma, embora não seja sólido porque contém premissa falsa."
+        },
+        {
+          "id": "E",
+          "text": "inválido porque argumentos válidos só podem conter fatos verdadeiros."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Se as premissas fossem verdadeiras, a conclusão não poderia ser falsa, portanto a forma é válida. Como há premissa factualmente falsa, o argumento não é sólido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4911",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A conclusão verdadeira de um argumento",
+      "options": [
+        {
+          "id": "A",
+          "text": "garante que o argumento seja válido e sólido."
+        },
+        {
+          "id": "B",
+          "text": "garante que todas as premissas sejam verdadeiras."
+        },
+        {
+          "id": "C",
+          "text": "pode ter sido obtida por forma inválida ou por premissas inadequadas."
+        },
+        {
+          "id": "D",
+          "text": "transforma qualquer indução em dedução."
+        },
+        {
+          "id": "E",
+          "text": "dispensa o exame da relação entre premissas e conclusão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Verdade da conclusão e qualidade da inferência são questões distintas. Uma conclusão verdadeira pode surgir por coincidência em um argumento inválido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4912",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para que um argumento dedutivo seja sólido, é necessário que ele",
+      "options": [
+        {
+          "id": "A",
+          "text": "tenha conclusão provável, ainda que seja inválido."
+        },
+        {
+          "id": "B",
+          "text": "seja persuasivo para a maioria."
+        },
+        {
+          "id": "C",
+          "text": "possua pelo menos três premissas."
+        },
+        {
+          "id": "D",
+          "text": "seja válido e tenha todas as premissas verdadeiras."
+        },
+        {
+          "id": "E",
+          "text": "tenha conclusão verdadeira, mesmo que as premissas sejam falsas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Solidez combina validade dedutiva e verdade factual de todas as premissas. Quantidade de premissas e poder persuasivo não integram sua definição. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4913",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para refutar a validade dedutiva de um argumento, um contraexemplo adequado deve mostrar",
+      "options": [
+        {
+          "id": "A",
+          "text": "um caso em que uma premissa e a conclusão sejam falsas."
+        },
+        {
+          "id": "B",
+          "text": "que a conclusão é impopular."
+        },
+        {
+          "id": "C",
+          "text": "um cenário coerente em que todas as premissas sejam verdadeiras e a conclusão seja falsa."
+        },
+        {
+          "id": "D",
+          "text": "que existe caso com premissas falsas e conclusão verdadeira."
+        },
+        {
+          "id": "E",
+          "text": "apenas um cenário em que a conclusão seja verdadeira."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O contraexemplo reproduz exatamente a combinação proibida pela validade. Basta que o cenário seja possível e coerente com todas as premissas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4914",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A afirmação “A conclusão é compatível com as premissas, mas estas ainda não oferecem apoio suficiente para torná-la provável” classifica a conclusão como",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessária."
+        },
+        {
+          "id": "B",
+          "text": "sólida."
+        },
+        {
+          "id": "C",
+          "text": "possível."
+        },
+        {
+          "id": "D",
+          "text": "contraditória."
+        },
+        {
+          "id": "E",
+          "text": "dedutivamente garantida."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Possibilidade indica compatibilidade, não grau elevado de apoio. Uma conclusão provável exige apoio adicional, e uma conclusão necessária não pode falhar quando as premissas são verdadeiras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4915",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na dedução, as premissas pretendem",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas manter a conclusão como uma possibilidade entre várias."
+        },
+        {
+          "id": "B",
+          "text": "generalizar uma amostra para a população sem garantia."
+        },
+        {
+          "id": "C",
+          "text": "transferir uma característica por semelhança entre casos."
+        },
+        {
+          "id": "D",
+          "text": "tornar a conclusão inevitável, relativamente ao que afirmam."
+        },
+        {
+          "id": "E",
+          "text": "explicar por que ocorreu um fato já aceito, sem defender conclusão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A pretensão dedutiva é conclusiva: premissas verdadeiras devem excluir a falsidade da conclusão. Indução e analogia oferecem apoio não conclusivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4916",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uma pesquisa com amostra ampla, diversificada e representativa tende a",
+      "options": [
+        {
+          "id": "A",
+          "text": "transformar toda conclusão em necessidade lógica."
+        },
+        {
+          "id": "B",
+          "text": "dispensar a análise do alcance da conclusão."
+        },
+        {
+          "id": "C",
+          "text": "provar que não existe exceção possível."
+        },
+        {
+          "id": "D",
+          "text": "fortalecer uma generalização indutiva compatível com os dados."
+        },
+        {
+          "id": "E",
+          "text": "tornar irrelevante qualquer diferença entre amostra e população."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Tamanho e representatividade aumentam o apoio indutivo, mas não produzem garantia dedutiva nem eliminam toda possibilidade de exceção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4917",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual situação enfraquece mais diretamente uma generalização indutiva?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A conclusão utiliza a expressão cautelosa “provavelmente”."
+        },
+        {
+          "id": "B",
+          "text": "Os dados foram confirmados em grupos diferentes."
+        },
+        {
+          "id": "C",
+          "text": "A amostra reproduz a diversidade da população."
+        },
+        {
+          "id": "D",
+          "text": "A amostra foi selecionada de modo enviesado e excluiu grupos relevantes da população."
+        },
+        {
+          "id": "E",
+          "text": "A conclusão se limita ao alcance efetivamente sustentado pelos dados."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Viés de seleção reduz a representatividade e pode produzir resultado sistematicamente distorcido. Diversidade e conclusão proporcional tendem a fortalecer o apoio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4921",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Duas unidades usam o mesmo sistema, mas uma atende dez vezes mais usuários e possui equipe muito menor. Ao prever desempenho idêntico com base apenas no sistema comum, o argumento",
+      "options": [
+        {
+          "id": "A",
+          "text": "é fortalecido porque qualquer semelhança basta."
+        },
+        {
+          "id": "B",
+          "text": "ignora diferenças potencialmente decisivas para a característica transferida."
+        },
+        {
+          "id": "C",
+          "text": "torna-se dedutivamente válido."
+        },
+        {
+          "id": "D",
+          "text": "demonstra que volume e equipe são irrelevantes."
+        },
+        {
+          "id": "E",
+          "text": "é necessariamente correto porque há pelo menos uma semelhança entre os casos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A força da analogia depende da relevância das semelhanças e diferenças. Volume e equipe podem afetar diretamente o desempenho e romper a transferência pretendida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4923",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: “Se o pedido foi deferido, o interessado foi notificado. O pedido foi deferido. Logo, o interessado foi notificado.” A forma é",
+      "options": [
+        {
+          "id": "A",
+          "text": "afirmação da consequência, inválida."
+        },
+        {
+          "id": "B",
+          "text": "negação da condição, inválida."
+        },
+        {
+          "id": "C",
+          "text": "afirmação da condição, ou modus ponens, válida."
+        },
+        {
+          "id": "D",
+          "text": "uma indução por analogia."
+        },
+        {
+          "id": "E",
+          "text": "inválida porque toda regra condicional admite exceções."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O argumento apresenta “se A, então B”, afirma A e conclui B. Esse é o padrão válido tradicionalmente chamado modus ponens. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4924",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: “Se o pedido foi deferido, o interessado foi notificado. O interessado não foi notificado. Logo, o pedido não foi deferido.” A forma é",
+      "options": [
+        {
+          "id": "A",
+          "text": "negação da condição, inválida."
+        },
+        {
+          "id": "B",
+          "text": "modus tollens, pois nega a consequência para negar a condição."
+        },
+        {
+          "id": "C",
+          "text": "afirmação da consequência, inválida."
+        },
+        {
+          "id": "D",
+          "text": "generalização indutiva."
+        },
+        {
+          "id": "E",
+          "text": "analogia por semelhança."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "De “se A, então B” e “não B” segue-se validamente “não A”. A verdade factual da regra condicional é questão distinta da validade da forma fornecida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4925",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "“Se choveu, a rua está molhada. A rua está molhada. Logo, choveu.” é inválido porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "ruas nunca ficam molhadas quando chove."
+        },
+        {
+          "id": "B",
+          "text": "afirma a consequência, que pode resultar de outra causa."
+        },
+        {
+          "id": "C",
+          "text": "nega a consequência."
+        },
+        {
+          "id": "D",
+          "text": "toda frase condicional é falsa."
+        },
+        {
+          "id": "E",
+          "text": "a segunda premissa contradiz a primeira."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A rua pode estar molhada por lavagem, por exemplo. Assim, as premissas podem ser verdadeiras e a conclusão falsa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4926",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "“Se o relatório foi enviado por e-mail, chegou hoje. Não foi enviado por e-mail. Logo, não chegou hoje.” incorre em",
+      "options": [
+        {
+          "id": "A",
+          "text": "modus tollens válido."
+        },
+        {
+          "id": "B",
+          "text": "afirmação da condição válida."
+        },
+        {
+          "id": "C",
+          "text": "negação da condição, pois o relatório poderia ter chegado por outro canal."
+        },
+        {
+          "id": "D",
+          "text": "uma dedução válida por definição."
+        },
+        {
+          "id": "E",
+          "text": "afirmação da consequência."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "De não A não se conclui não B em uma condicional simples, porque B pode ocorrer por outro meio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4927",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A afirmação de que uma proposta é popular, usada para concluir que ela é juridicamente válida, falha principalmente porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "popularidade sempre prova ilegalidade."
+        },
+        {
+          "id": "B",
+          "text": "todo argumento jurídico precisa de exatamente três premissas."
+        },
+        {
+          "id": "C",
+          "text": "popularidade, sozinha, não é razão relevante para demonstrar conformidade jurídica."
+        },
+        {
+          "id": "D",
+          "text": "a conclusão aparece depois da premissa."
+        },
+        {
+          "id": "E",
+          "text": "qualquer referência à opinião pública torna o texto não argumentativo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A razão precisa ter relação com a propriedade afirmada. Popularidade e legalidade são questões distintas, salvo a existência de uma ponte adicional pertinente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4928",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um único atendimento bem-sucedido é usado para concluir que “todos os atendimentos do órgão são excelentes”. Ainda que o caso seja verdadeiro e relevante, a evidência é",
+      "options": [
+        {
+          "id": "A",
+          "text": "suficiente para uma conclusão universal."
+        },
+        {
+          "id": "B",
+          "text": "insuficiente para a amplitude da conclusão."
+        },
+        {
+          "id": "C",
+          "text": "dedutivamente conclusiva."
+        },
+        {
+          "id": "D",
+          "text": "irrelevante para qualquer afirmação sobre atendimento."
+        },
+        {
+          "id": "E",
+          "text": "suficiente porque toda generalização pode partir de um único caso."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Um caso pode ter alguma relevância, mas não sustenta sozinho uma tese universal. A extensão da conclusão deve ser proporcional à base disponível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4938",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Após ouvir duas reclamações, alguém conclui que todos os milhares de usuários rejeitam o serviço. O principal problema é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a base de duas reclamações é pequena e não representativa para uma conclusão universal."
+        },
+        {
+          "id": "B",
+          "text": "duas premissas nunca podem sustentar uma conclusão."
+        },
+        {
+          "id": "C",
+          "text": "uma conclusão sobre usuários só pode ser dedutiva."
+        },
+        {
+          "id": "D",
+          "text": "reclamações são irrelevantes para qualquer avaliação de satisfação."
+        },
+        {
+          "id": "E",
+          "text": "toda afirmação sobre muitos casos é necessariamente falsa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A conclusão universal excede muito a evidência de dois casos. O problema é a insuficiência da base para o alcance pretendido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4946",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao reconstruir um argumento em linguagem natural, deve-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "identificar a tese, separar razões efetivas e explicitar apenas pressupostos compatíveis e relevantes."
+        },
+        {
+          "id": "B",
+          "text": "adicionar qualquer premissa capaz de tornar a conclusão verdadeira."
+        },
+        {
+          "id": "C",
+          "text": "eliminar conclusões intermediárias."
+        },
+        {
+          "id": "D",
+          "text": "tratar todo exemplo como conclusão final."
+        },
+        {
+          "id": "E",
+          "text": "ignorar premissas implícitas porque apenas frases expressas importam."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A reconstrução esclarece a estrutura sem inventar conteúdo para salvar o argumento. Pressupostos precisam refletir a passagem realmente apresentada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4947",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Dados de três meses sugerem redução de filas, mas o relatório conclui: “A medida sempre eliminará filas, em qualquer órgão e sem exceção.” O principal problema é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a linguagem universal excede o apoio limitado e contextual dos dados."
+        },
+        {
+          "id": "B",
+          "text": "o uso de dados impede qualquer conclusão."
+        },
+        {
+          "id": "C",
+          "text": "toda previsão deve ser formulada como certeza."
+        },
+        {
+          "id": "D",
+          "text": "uma conclusão forte exige menos evidência que uma conclusão cautelosa."
+        },
+        {
+          "id": "E",
+          "text": "três meses de dados garantem qualquer conclusão sobre todos os órgãos."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Expressões como “sempre”, “qualquer” e “sem exceção” exigem apoio muito mais amplo. A conclusão deve manter grau de certeza e alcance proporcionais à evidência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4948",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao descobrir que uma premissa de um argumento dedutivo é falsa, pode-se concluir imediatamente que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a forma do argumento é inválida."
+        },
+        {
+          "id": "B",
+          "text": "o argumento não é sólido, mas a validade ainda precisa ser avaliada separadamente."
+        },
+        {
+          "id": "C",
+          "text": "a conclusão é necessariamente falsa."
+        },
+        {
+          "id": "D",
+          "text": "o argumento é indutivo."
+        },
+        {
+          "id": "E",
+          "text": "todas as demais premissas também são falsas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Premissa falsa impede solidez, que exige todas as premissas verdadeiras. Porém, validade depende da relação entre premissas e conclusão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4949",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: “Todo documento protocolado tem número. D tem número. Logo, D foi protocolado.” Qual cenário refuta a validade?",
+      "options": [
+        {
+          "id": "A",
+          "text": "D foi protocolado e tem número."
+        },
+        {
+          "id": "B",
+          "text": "D não tem número e não foi protocolado."
+        },
+        {
+          "id": "C",
+          "text": "D recebeu número interno antes do protocolo e ainda não foi protocolado."
+        },
+        {
+          "id": "D",
+          "text": "Nenhum documento protocolado tem número."
+        },
+        {
+          "id": "E",
+          "text": "D foi protocolado depois de receber o número."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Nesse cenário, a regra e a afirmação de que D tem número podem ser verdadeiras, mas a conclusão é falsa. Isso fornece o contraexemplo exigido para mostrar invalidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4950",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Qual formulação é mais adequada a uma analogia bem apoiada, mas não conclusiva?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As unidades são semelhantes em aspectos relevantes; por isso, há razão para esperar efeito semelhante na unidade-alvo, embora o resultado idêntico não seja garantido."
+        },
+        {
+          "id": "B",
+          "text": "As unidades têm a mesma cor de parede; logo, necessariamente terão produtividade idêntica."
+        },
+        {
+          "id": "C",
+          "text": "Uma unidade melhorou; portanto, todas as organizações sempre melhorarão."
+        },
+        {
+          "id": "D",
+          "text": "Qualquer diferença entre fonte e alvo é irrelevante."
+        },
+        {
+          "id": "E",
+          "text": "Uma única semelhança superficial torna a conclusão necessária."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Uma boa analogia usa semelhanças relacionadas ao atributo e mantém conclusão proporcional. Ela oferece apoio, não garantia de identidade entre os casos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4952",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A informação “é possível que a falha tenha origem elétrica” permite concluir, sem dados adicionais, que a origem elétrica é",
+      "options": [
+        {
+          "id": "A",
+          "text": "necessária."
+        },
+        {
+          "id": "B",
+          "text": "a explicação mais provável."
+        },
+        {
+          "id": "C",
+          "text": "compatível com o que se sabe, mas não necessariamente provável."
+        },
+        {
+          "id": "D",
+          "text": "dedutivamente demonstrada."
+        },
+        {
+          "id": "E",
+          "text": "impossível de ser falsa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Possibilidade expressa compatibilidade. Para elevar a hipótese a provável ou necessária, seria preciso apoio adicional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4955",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere: “A auditoria encontrou falhas repetidas em etapas críticas; além disso, os controles previstos não foram executados. Portanto, o processo precisa de revisão.” A conclusão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a auditoria encontrou falhas repetidas."
+        },
+        {
+          "id": "B",
+          "text": "os controles previstos não foram executados."
+        },
+        {
+          "id": "C",
+          "text": "o processo precisa de revisão."
+        },
+        {
+          "id": "D",
+          "text": "as etapas eram críticas."
+        },
+        {
+          "id": "E",
+          "text": "não há conclusão porque existem duas razões diferentes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A necessidade de revisão é a tese apoiada pelas constatações sobre falhas e controles. O indicador “portanto” auxilia, sem substituir a análise funcional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4956",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No argumento “A medida reduziu custos na unidade A; como a unidade B usa o mesmo processo, também reduzirá custos”, qual informação mais diretamente enfraquece a analogia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A unidade B possui restrição que impede justamente a mudança responsável pela redução em A."
+        },
+        {
+          "id": "B",
+          "text": "As duas unidades registram seus custos na mesma moeda."
+        },
+        {
+          "id": "C",
+          "text": "A unidade A mediu os custos antes e depois da mudança."
+        },
+        {
+          "id": "D",
+          "text": "A conclusão foi apresentada como previsão."
+        },
+        {
+          "id": "E",
+          "text": "As duas unidades pertencem à mesma organização."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A restrição impede no alvo o mecanismo que produziu o resultado na fonte, constituindo diferença decisiva. Semelhanças periféricas não compensam essa ruptura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4957",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Considere uma regra fornecida no enunciado: “Se o cadastro estiver completo, o sistema emitirá comprovante.” O cadastro está completo, mas, no mundo real, uma pane impediria a emissão. Isso mostra que",
+      "options": [
+        {
+          "id": "A",
+          "text": "a forma modus ponens é inválida."
+        },
+        {
+          "id": "B",
+          "text": "a possível pane questiona a verdade irrestrita da premissa condicional, não a validade da forma que parte dela."
+        },
+        {
+          "id": "C",
+          "text": "toda regra de prova deve ser rejeitada por exceções imaginadas."
+        },
+        {
+          "id": "D",
+          "text": "cadastro completo equivale a comprovante emitido em ambas as direções."
+        },
+        {
+          "id": "E",
+          "text": "premissas verdadeiras podem gerar conclusão falsa em qualquer argumento válido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Tomada como premissa, a condicional combina-se validamente com a afirmação da condição. Uma exceção operacional indicaria problema na verdade da premissa, não na forma inferencial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4958",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ao resolver uma questão de lógica de argumentação, a sequência metodológica mais adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "procurar primeiro um rótulo e adaptar o texto a ele."
+        },
+        {
+          "id": "B",
+          "text": "identificar conclusão e premissas, reconstruir a ligação, classificar a força pretendida e aplicar o teste correspondente."
+        },
+        {
+          "id": "C",
+          "text": "avaliar apenas se a conclusão parece verdadeira."
+        },
+        {
+          "id": "D",
+          "text": "ignorar diferenças de contexto e possíveis contraexemplos."
+        },
+        {
+          "id": "E",
+          "text": "começar por tabelas-verdade, mesmo quando o problema é apenas verbal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A análise começa pela estrutura e pela força da inferência. Depois se aplicam contraexemplo, avaliação indutiva ou teste de analogia conforme o caso. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}

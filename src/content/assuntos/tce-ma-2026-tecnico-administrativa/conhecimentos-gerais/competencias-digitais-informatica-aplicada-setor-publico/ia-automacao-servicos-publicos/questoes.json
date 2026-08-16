@@ -1,0 +1,1896 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q4659",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A distinção mais adequada entre automação e inteligência artificial é:",
+      "options": [
+        {
+          "id": "A",
+          "text": "automação executa tarefas por tecnologia e pode seguir regras fixas, enquanto a IA infere saídas a partir de entradas."
+        },
+        {
+          "id": "B",
+          "text": "toda automação aprende autonomamente com dados."
+        },
+        {
+          "id": "C",
+          "text": "IA é apenas outro nome para macro."
+        },
+        {
+          "id": "D",
+          "text": "automação só existe com conteúdo generativo."
+        },
+        {
+          "id": "E",
+          "text": "todo algoritmo é necessariamente um modelo de aprendizado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Automação é categoria mais ampla; IA envolve inferência e não está presente em todo fluxo automatizado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4660",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um sistema encaminha requerimentos pela regra fixa “se assunto = tributo, enviar à unidade fiscal”. Trata-se de",
+      "options": [
+        {
+          "id": "A",
+          "text": "IA generativa."
+        },
+        {
+          "id": "B",
+          "text": "automação determinística."
+        },
+        {
+          "id": "C",
+          "text": "RAG."
+        },
+        {
+          "id": "D",
+          "text": "aprendizado por reforço."
+        },
+        {
+          "id": "E",
+          "text": "modelo de linguagem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A ação decorre de condição explícita e não requer aprendizagem ou inferência probabilística. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4661",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre RPA, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "é obrigatoriamente robô físico."
+        },
+        {
+          "id": "B",
+          "text": "sempre treina modelo de linguagem."
+        },
+        {
+          "id": "C",
+          "text": "pode imitar cliques e preenchimentos por passos fixos sem usar IA."
+        },
+        {
+          "id": "D",
+          "text": "elimina exceções do processo."
+        },
+        {
+          "id": "E",
+          "text": "dispensa credenciais e monitoramento."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "RPA automatiza ações em interfaces e pode ser inteiramente baseada em regras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4662",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Aprendizado de máquina caracteriza-se por",
+      "options": [
+        {
+          "id": "A",
+          "text": "armazenar documentos em PDF."
+        },
+        {
+          "id": "B",
+          "text": "executar apenas regras individuais escritas para cada caso."
+        },
+        {
+          "id": "C",
+          "text": "dispensar objetivo e dados."
+        },
+        {
+          "id": "D",
+          "text": "aprender padrões de dados para realizar tarefas sem programar cada situação."
+        },
+        {
+          "id": "E",
+          "text": "gerar exclusivamente linguagem natural."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Machine learning ajusta modelos a partir de dados e objetivos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4663",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "IA generativa é voltada principalmente a",
+      "options": [
+        {
+          "id": "A",
+          "text": "executar apenas soma determinística."
+        },
+        {
+          "id": "B",
+          "text": "guardar processo físico sem processamento."
+        },
+        {
+          "id": "C",
+          "text": "garantir veracidade."
+        },
+        {
+          "id": "D",
+          "text": "substituir qualquer decisão humana."
+        },
+        {
+          "id": "E",
+          "text": "produzir conteúdo novo, como texto, imagem, áudio, vídeo ou código."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A geração cria novas saídas, mas não garante correção ou adequação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4664",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um grande modelo de linguagem",
+      "options": [
+        {
+          "id": "A",
+          "text": "aprende relações estatísticas da linguagem e gera sequências na inferência."
+        },
+        {
+          "id": "B",
+          "text": "é base oficial de normas vigentes."
+        },
+        {
+          "id": "C",
+          "text": "responde apenas com trechos literais cadastrados."
+        },
+        {
+          "id": "D",
+          "text": "possui consciência e competência administrativa."
+        },
+        {
+          "id": "E",
+          "text": "não processa tokens."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "LLMs modelam padrões de linguagem e não são, por si, fonte oficial ou agente competente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4665",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Chatbot e IA generativa não são sinônimos porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "todo chatbot usa LLM."
+        },
+        {
+          "id": "B",
+          "text": "chatbot descreve interface; pode usar regras, recuperação, geração ou arquitetura híbrida."
+        },
+        {
+          "id": "C",
+          "text": "IA generativa só funciona por voz."
+        },
+        {
+          "id": "D",
+          "text": "chatbot nunca usa IA."
+        },
+        {
+          "id": "E",
+          "text": "IA generativa existe apenas em conversas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Interface e tecnologia são dimensões diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4666",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Antes de automatizar um serviço público, a conduta adequada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "reproduzir todas as exigências existentes."
+        },
+        {
+          "id": "B",
+          "text": "escolher primeiro o modelo mais caro."
+        },
+        {
+          "id": "C",
+          "text": "mapear a jornada, remover etapas desnecessárias, definir exceções e verificar base legal."
+        },
+        {
+          "id": "D",
+          "text": "eliminar canais alternativos."
+        },
+        {
+          "id": "E",
+          "text": "implantar sem métrica."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Redesenho do processo precede a escolha tecnológica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4667",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em IA generativa, prompt é",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova de que a resposta é verdadeira."
+        },
+        {
+          "id": "B",
+          "text": "ato que transfere competência ao sistema."
+        },
+        {
+          "id": "C",
+          "text": "mecanismo de anonimização."
+        },
+        {
+          "id": "D",
+          "text": "instrução e contexto fornecidos ao modelo para orientar a saída."
+        },
+        {
+          "id": "E",
+          "text": "treinamento obrigatório dos parâmetros."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O prompt orienta a tarefa, mas não substitui fonte ou revisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4668",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um prompt institucional de melhor qualidade deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "pedir criatividade ilimitada."
+        },
+        {
+          "id": "B",
+          "text": "incluir dados pessoais irrelevantes."
+        },
+        {
+          "id": "C",
+          "text": "mandar inventar requisitos ausentes."
+        },
+        {
+          "id": "D",
+          "text": "ocultar incerteza."
+        },
+        {
+          "id": "E",
+          "text": "definir tarefa, público, fonte, limites e formato esperado."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Especificidade e delimitação reduzem ambiguidade e excesso de dados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4669",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No processamento de LLM, token é",
+      "options": [
+        {
+          "id": "A",
+          "text": "unidade processada que pode representar palavra, parte de palavra, símbolo ou pontuação."
+        },
+        {
+          "id": "B",
+          "text": "garantia jurídica da resposta."
+        },
+        {
+          "id": "C",
+          "text": "usuário cadastrado."
+        },
+        {
+          "id": "D",
+          "text": "banco integral de treinamento."
+        },
+        {
+          "id": "E",
+          "text": "sinônimo de contexto ilimitado."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Tokenização divide entradas e saídas em unidades de processamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4670",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A produção de saída por modelo já treinado a partir de nova entrada denomina-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "anonimização."
+        },
+        {
+          "id": "B",
+          "text": "inferência."
+        },
+        {
+          "id": "C",
+          "text": "RPA."
+        },
+        {
+          "id": "D",
+          "text": "auditoria."
+        },
+        {
+          "id": "E",
+          "text": "ajuste fino obrigatório."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Inferência é a fase de uso do modelo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4671",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Reduzir a temperatura de um modelo",
+      "options": [
+        {
+          "id": "A",
+          "text": "transforma a resposta em norma."
+        },
+        {
+          "id": "B",
+          "text": "elimina alucinação."
+        },
+        {
+          "id": "C",
+          "text": "pode reduzir variabilidade, sem garantir verdade."
+        },
+        {
+          "id": "D",
+          "text": "impede todo erro factual."
+        },
+        {
+          "id": "E",
+          "text": "atualiza automaticamente as fontes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Parâmetros de amostragem afetam diversidade, não validade material. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4672",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Alucinação em IA generativa ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o sistema recusa corretamente pergunta fora do escopo."
+        },
+        {
+          "id": "B",
+          "text": "o chatbot encaminha ao humano."
+        },
+        {
+          "id": "C",
+          "text": "o modelo cita fonte oficial pertinente."
+        },
+        {
+          "id": "D",
+          "text": "a saída parece plausível, mas é falsa, sem suporte ou incoerente com a fonte."
+        },
+        {
+          "id": "E",
+          "text": "a resposta é curta."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Fluência e confiança podem acompanhar informação inventada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4673",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre contexto, retenção e treinamento, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "colar texto sempre retreina o modelo."
+        },
+        {
+          "id": "B",
+          "text": "a entrada nunca pode ser armazenada."
+        },
+        {
+          "id": "C",
+          "text": "ferramenta pública garante sigilo."
+        },
+        {
+          "id": "D",
+          "text": "todo contexto vira dado público."
+        },
+        {
+          "id": "E",
+          "text": "fornecer contexto não é necessariamente treinar; retenção e reúso dependem de contrato e configuração."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Inferência e treinamento são operações distintas, mas o ambiente precisa ser avaliado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4674",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A associação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "IA preditiva estima demanda; IA generativa redige rascunho."
+        },
+        {
+          "id": "B",
+          "text": "preditiva cria obrigatoriamente imagem."
+        },
+        {
+          "id": "C",
+          "text": "generativa apenas soma números."
+        },
+        {
+          "id": "D",
+          "text": "ambas garantem decisão correta."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma pode apoiar serviço público."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Predição e geração produzem saídas diferentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4675",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Janela de contexto corresponde",
+      "options": [
+        {
+          "id": "A",
+          "text": "ao prazo de recurso."
+        },
+        {
+          "id": "B",
+          "text": "à quantidade limitada de informação considerada pelo modelo em uma interação."
+        },
+        {
+          "id": "C",
+          "text": "à autorização de retenção indefinida."
+        },
+        {
+          "id": "D",
+          "text": "ao banco completo de treinamento."
+        },
+        {
+          "id": "E",
+          "text": "à lista de usuários autorizados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O modelo não considera contexto ilimitado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4676",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Pedir ao mesmo modelo “confirme se está tudo certo”",
+      "options": [
+        {
+          "id": "A",
+          "text": "equivale a auditoria independente."
+        },
+        {
+          "id": "B",
+          "text": "dispensa fonte original."
+        },
+        {
+          "id": "C",
+          "text": "pode ajudar na revisão textual, mas não substitui verificação independente."
+        },
+        {
+          "id": "D",
+          "text": "transfere responsabilidade ao fornecedor."
+        },
+        {
+          "id": "E",
+          "text": "elimina viés."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O mesmo sistema pode repetir ou racionalizar o erro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4677",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Na geração aumentada por recuperação, a aplicação",
+      "options": [
+        {
+          "id": "A",
+          "text": "retreina todos os parâmetros a cada pergunta."
+        },
+        {
+          "id": "B",
+          "text": "dispensa atualização do acervo."
+        },
+        {
+          "id": "C",
+          "text": "impede prompt injection."
+        },
+        {
+          "id": "D",
+          "text": "busca trechos externos e os fornece como contexto para gerar a resposta."
+        },
+        {
+          "id": "E",
+          "text": "produz somente cópia literal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "RAG combina recuperação e geração no momento da inferência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4678",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A diferença essencial entre RAG e treinamento é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAG só usa dado secreto."
+        },
+        {
+          "id": "B",
+          "text": "RAG não usa fonte."
+        },
+        {
+          "id": "C",
+          "text": "treinamento não usa dados."
+        },
+        {
+          "id": "D",
+          "text": "RAG sempre altera parâmetros."
+        },
+        {
+          "id": "E",
+          "text": "RAG fornece contexto recuperado sem necessariamente modificar parâmetros do modelo."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Treinamento ajusta parâmetros; RAG injeta contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4679",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em RAG institucional, a medida correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "controlar órgão, versão, vigência, pertinência, índice e correspondência da citação."
+        },
+        {
+          "id": "B",
+          "text": "considerar toda fonte recuperada vigente."
+        },
+        {
+          "id": "C",
+          "text": "permitir que documento execute instruções."
+        },
+        {
+          "id": "D",
+          "text": "dispensar fallback."
+        },
+        {
+          "id": "E",
+          "text": "citar qualquer trecho para validar toda frase."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Governança da fonte é necessária para reduzir respostas incorretas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4680",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A diferença entre modelo e sistema de IA é que",
+      "options": [
+        {
+          "id": "A",
+          "text": "são sinônimos."
+        },
+        {
+          "id": "B",
+          "text": "o sistema inclui modelo, dados, interface, regras, integrações, usuários e controles."
+        },
+        {
+          "id": "C",
+          "text": "o modelo possui competência administrativa."
+        },
+        {
+          "id": "D",
+          "text": "o sistema não depende de processo."
+        },
+        {
+          "id": "E",
+          "text": "somente o modelo pode gerar risco."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O risco deve ser avaliado sobre o conjunto sociotécnico e a jornada. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4681",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Uso de menor risco de IA generativa no setor público tende a ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "indeferir benefício sem revisão."
+        },
+        {
+          "id": "B",
+          "text": "publicar citações automaticamente."
+        },
+        {
+          "id": "C",
+          "text": "elaborar rascunho público sujeito a conferência e aprovação."
+        },
+        {
+          "id": "D",
+          "text": "enviar base sigilosa a ferramenta aberta."
+        },
+        {
+          "id": "E",
+          "text": "alterar cadastro sem confirmação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Rascunho revisável tem efeito mais controlável que decisão sobre direitos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4682",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para FAQ institucional com menor risco, o chatbot deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "responder qualquer assunto."
+        },
+        {
+          "id": "B",
+          "text": "ocultar que é automatizado."
+        },
+        {
+          "id": "C",
+          "text": "inventar requisito quando faltar informação."
+        },
+        {
+          "id": "D",
+          "text": "usar acervo oficial vigente, citar fonte e declarar insuficiência."
+        },
+        {
+          "id": "E",
+          "text": "impedir encaminhamento humano."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Escopo, fonte e fallback reduzem erro. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4683",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Classificador que apenas encaminha processos a filas realiza",
+      "options": [
+        {
+          "id": "A",
+          "text": "decisão final de mérito."
+        },
+        {
+          "id": "B",
+          "text": "RPA necessariamente."
+        },
+        {
+          "id": "C",
+          "text": "RAG."
+        },
+        {
+          "id": "D",
+          "text": "emissão de ato."
+        },
+        {
+          "id": "E",
+          "text": "triagem, sujeita a erro, incerteza e correção."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Triagem organiza fluxo e pode causar atraso, embora não decida o mérito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4684",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto maior o efeito sobre benefício, sanção ou serviço essencial,",
+      "options": [
+        {
+          "id": "A",
+          "text": "maior deve ser o rigor de teste, supervisão, explicação, segurança e revisão."
+        },
+        {
+          "id": "B",
+          "text": "menor deve ser a documentação."
+        },
+        {
+          "id": "C",
+          "text": "mais aceitável é a ausência de recurso."
+        },
+        {
+          "id": "D",
+          "text": "basta chamar a saída de sugestão."
+        },
+        {
+          "id": "E",
+          "text": "dispensa avaliação de grupo."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Controles devem ser proporcionais ao impacto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4685",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Ferramenta generativa redige minuta de decisão. Nesse caso,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a ferramenta adquire competência."
+        },
+        {
+          "id": "B",
+          "text": "o agente e o órgão devem conferir, fundamentar e responder pelo ato."
+        },
+        {
+          "id": "C",
+          "text": "a minuta vira decisão automaticamente."
+        },
+        {
+          "id": "D",
+          "text": "o fornecedor decide."
+        },
+        {
+          "id": "E",
+          "text": "a autoria do modelo substitui a motivação."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Tecnologia não recebe competência jurídica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4686",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Transparência adequada em chatbot público inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "fingir que é pessoa."
+        },
+        {
+          "id": "B",
+          "text": "publicar logs pessoais."
+        },
+        {
+          "id": "C",
+          "text": "informar automação, finalidade, limites, responsável e canal de atendimento ou contestação."
+        },
+        {
+          "id": "D",
+          "text": "ocultar o papel da ferramenta."
+        },
+        {
+          "id": "E",
+          "text": "impedir revisão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O usuário precisa compreender o alcance da interação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4687",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Explicabilidade de uma saída algorítmica significa",
+      "options": [
+        {
+          "id": "A",
+          "text": "divulgar sempre todo código-fonte."
+        },
+        {
+          "id": "B",
+          "text": "afirmar apenas “o algoritmo decidiu”."
+        },
+        {
+          "id": "C",
+          "text": "impedir contestação."
+        },
+        {
+          "id": "D",
+          "text": "fornecer razões compreensíveis sobre fatores, fontes, etapa automática e correção."
+        },
+        {
+          "id": "E",
+          "text": "expor segredo protegido sem necessidade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Explicação útil é proporcional ao contexto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4688",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Rastreabilidade pode registrar",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a decisão final."
+        },
+        {
+          "id": "B",
+          "text": "todas as entradas indefinidamente."
+        },
+        {
+          "id": "C",
+          "text": "apenas dados gerais de treinamento."
+        },
+        {
+          "id": "D",
+          "text": "nada sobre intervenção humana."
+        },
+        {
+          "id": "E",
+          "text": "versão, fonte, contexto, saída e intervenção relevantes."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Os registros permitem reconstruir a execução sem retenção excessiva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4689",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Prestação de contas no uso público de IA implica",
+      "options": [
+        {
+          "id": "A",
+          "text": "demonstrar controles e assumir responsabilidade pela solução e seus efeitos."
+        },
+        {
+          "id": "B",
+          "text": "atribuir erro ao algoritmo."
+        },
+        {
+          "id": "C",
+          "text": "presumir que contrato elimina dever estatal."
+        },
+        {
+          "id": "D",
+          "text": "manter riscos em segredo."
+        },
+        {
+          "id": "E",
+          "text": "dispensar evidência."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Accountability combina governança, prova e responsabilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4690",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Supervisão humana efetiva existe quando a pessoa",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas clica em aprovar."
+        },
+        {
+          "id": "B",
+          "text": "tem informação, tempo, capacitação e autoridade para discordar, interromper e corrigir."
+        },
+        {
+          "id": "C",
+          "text": "não conhece limites."
+        },
+        {
+          "id": "D",
+          "text": "é proibida de alterar."
+        },
+        {
+          "id": "E",
+          "text": "recebe apenas a conclusão sem fonte."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A presença humana formal não basta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4691",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Servidor confirma recomendação automática sem examinar os dados porque confia no sistema. Isso exemplifica",
+      "options": [
+        {
+          "id": "A",
+          "text": "deriva necessariamente."
+        },
+        {
+          "id": "B",
+          "text": "prompt injection."
+        },
+        {
+          "id": "C",
+          "text": "viés de automação."
+        },
+        {
+          "id": "D",
+          "text": "RAG."
+        },
+        {
+          "id": "E",
+          "text": "anonimização."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Viés de automação é confiança excessiva na tecnologia. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4692",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Modelo com boa acurácia geral erra muito mais para grupo sub-representado. Isso indica",
+      "options": [
+        {
+          "id": "A",
+          "text": "que a média elimina o problema."
+        },
+        {
+          "id": "B",
+          "text": "que o grupo deve ser excluído."
+        },
+        {
+          "id": "C",
+          "text": "que fornecedor conhecido resolve o risco."
+        },
+        {
+          "id": "D",
+          "text": "risco de representação e equidade ocultado pela média."
+        },
+        {
+          "id": "E",
+          "text": "que todo uso é ilegal."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Métricas agregadas podem esconder impacto desigual. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4693",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Discriminação indireta pode ocorrer quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente atributo protegido aparece explicitamente."
+        },
+        {
+          "id": "B",
+          "text": "há canal humano."
+        },
+        {
+          "id": "C",
+          "text": "a interface informa o responsável."
+        },
+        {
+          "id": "D",
+          "text": "o sistema usa dado público."
+        },
+        {
+          "id": "E",
+          "text": "variável aparentemente neutra funciona como proxy e produz impacto desproporcional."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A análise deve considerar efeitos e correlações. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4694",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Princípios da LGPD relevantes à IA incluem",
+      "options": [
+        {
+          "id": "A",
+          "text": "finalidade, necessidade, transparência, segurança, não discriminação e prestação de contas."
+        },
+        {
+          "id": "B",
+          "text": "apenas eficiência."
+        },
+        {
+          "id": "C",
+          "text": "somente consentimento."
+        },
+        {
+          "id": "D",
+          "text": "formato aberto e licença."
+        },
+        {
+          "id": "E",
+          "text": "segredo algorítmico."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A IA continua sujeita ao regime de proteção de dados. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4695",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No poder público, tratamento de dados por solução de IA",
+      "options": [
+        {
+          "id": "A",
+          "text": "usa sempre consentimento."
+        },
+        {
+          "id": "B",
+          "text": "deve vincular-se a finalidade pública, interesse público e competência ou atribuição legal."
+        },
+        {
+          "id": "C",
+          "text": "pode servir a qualquer objetivo futuro."
+        },
+        {
+          "id": "D",
+          "text": "fica fora da LGPD."
+        },
+        {
+          "id": "E",
+          "text": "dispensa minimização."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Base legal pública não elimina os princípios. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4696",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "O direito de revisão do art. 20 da LGPD incide sobre decisão",
+      "options": [
+        {
+          "id": "A",
+          "text": "com qualquer calculadora."
+        },
+        {
+          "id": "B",
+          "text": "sem dado pessoal."
+        },
+        {
+          "id": "C",
+          "text": "tomada unicamente com base em tratamento automatizado de dados pessoais e que afete interesses."
+        },
+        {
+          "id": "D",
+          "text": "apenas sugerida por sistema e livremente reavaliada."
+        },
+        {
+          "id": "E",
+          "text": "sem qualquer efeito."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O dispositivo combina automação exclusiva, dado pessoal e efeito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4697",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quanto à revisão do art. 20 da LGPD,",
+      "options": [
+        {
+          "id": "A",
+          "text": "deve ser feita por três pessoas."
+        },
+        {
+          "id": "B",
+          "text": "não há direito a informação."
+        },
+        {
+          "id": "C",
+          "text": "aplica-se apenas a crédito."
+        },
+        {
+          "id": "D",
+          "text": "a lei vigente não exige expressamente revisão por pessoa natural."
+        },
+        {
+          "id": "E",
+          "text": "não permite contestação."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Boas práticas podem recomendar humano, mas a literalidade não o exige expressamente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4698",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Lei nº 13.460/2017 é relevante porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "regula treinamento de LLM."
+        },
+        {
+          "id": "B",
+          "text": "classifica risco de modelos."
+        },
+        {
+          "id": "C",
+          "text": "trata só de dados."
+        },
+        {
+          "id": "D",
+          "text": "regula apenas linguagem."
+        },
+        {
+          "id": "E",
+          "text": "protege direitos do usuário e a adequada prestação e avaliação de serviços públicos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Atendimento automatizado integra a prestação do serviço. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4699",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Linguagem simples em chatbot favorece",
+      "options": [
+        {
+          "id": "A",
+          "text": "frases diretas, termos conhecidos ou explicados e instruções em etapas."
+        },
+        {
+          "id": "B",
+          "text": "jargão sem explicação."
+        },
+        {
+          "id": "C",
+          "text": "alteração do conteúdo jurídico."
+        },
+        {
+          "id": "D",
+          "text": "ocultação do ponto principal."
+        },
+        {
+          "id": "E",
+          "text": "resposta mais longa possível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Simplificar comunicação melhora compreensão sem mudar a regra. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4700",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Quando o chatbot não compreende ou não encontra fundamento, deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "inventar a resposta mais provável."
+        },
+        {
+          "id": "B",
+          "text": "informar a limitação e encaminhar a canal adequado."
+        },
+        {
+          "id": "C",
+          "text": "encerrar sem orientação."
+        },
+        {
+          "id": "D",
+          "text": "publicar dados do usuário."
+        },
+        {
+          "id": "E",
+          "text": "decidir negativamente."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fallback evita alucinação e exclusão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4701",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para usar informação em ferramenta externa, a conduta correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "inserir qualquer processo porque a ferramenta é gratuita."
+        },
+        {
+          "id": "B",
+          "text": "considerar todo dado interno como público."
+        },
+        {
+          "id": "C",
+          "text": "classificar a informação e usar somente ambiente autorizado com base, mínimo e controles adequados."
+        },
+        {
+          "id": "D",
+          "text": "enviar senha para melhorar o contexto."
+        },
+        {
+          "id": "E",
+          "text": "presumir que o fornecedor não retém entradas."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Classificação e política institucional devem anteceder o envio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4702",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Servidor cola CPF, laudo e informação sigilosa em IA pública gratuita. A avaliação correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a gratuidade garante confidencialidade."
+        },
+        {
+          "id": "B",
+          "text": "o ato é seguro se o prompt pedir sigilo."
+        },
+        {
+          "id": "C",
+          "text": "não há tratamento de dados."
+        },
+        {
+          "id": "D",
+          "text": "o ambiente não é automaticamente autorizado; há risco jurídico e de segurança."
+        },
+        {
+          "id": "E",
+          "text": "o modelo apaga os dados por padrão."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ferramenta externa exige avaliação contratual e técnica. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4703",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Prompt injection direta ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "o modelo consulta norma vigente."
+        },
+        {
+          "id": "B",
+          "text": "há autenticação."
+        },
+        {
+          "id": "C",
+          "text": "o chatbot encaminha ao humano."
+        },
+        {
+          "id": "D",
+          "text": "a fonte é atualizada."
+        },
+        {
+          "id": "E",
+          "text": "o usuário insere instrução maliciosa para alterar o comportamento do sistema."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A injeção tenta sobrepor instruções confiáveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4704",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Prompt injection indireta ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "documento ou página recuperada contém instrução maliciosa tratada indevidamente como comando."
+        },
+        {
+          "id": "B",
+          "text": "o usuário esquece a senha."
+        },
+        {
+          "id": "C",
+          "text": "o modelo usa temperatura baixa."
+        },
+        {
+          "id": "D",
+          "text": "há revisão humana."
+        },
+        {
+          "id": "E",
+          "text": "o sistema recusa ferramenta."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Conteúdo externo deve ser tratado como dado, não instrução. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4705",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um agente de IA diferencia-se de chatbot meramente informativo porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "sempre possui personalidade jurídica."
+        },
+        {
+          "id": "B",
+          "text": "pode planejar etapas e acionar ferramentas para cumprir objetivo."
+        },
+        {
+          "id": "C",
+          "text": "não produz texto."
+        },
+        {
+          "id": "D",
+          "text": "dispensa autorização."
+        },
+        {
+          "id": "E",
+          "text": "nunca acessa sistemas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A capacidade de agir amplia o risco. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4706",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Agente que altera cadastro deve operar com",
+      "options": [
+        {
+          "id": "A",
+          "text": "credencial administrativa irrestrita."
+        },
+        {
+          "id": "B",
+          "text": "ação automática sem confirmação."
+        },
+        {
+          "id": "C",
+          "text": "menor privilégio, autorização por operação, validação, limite e registro."
+        },
+        {
+          "id": "D",
+          "text": "ausência de logs."
+        },
+        {
+          "id": "E",
+          "text": "ferramentas abertas sem lista."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Controles devem limitar ação e impacto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4707",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Inventário de sistemas de IA deve registrar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas o nome comercial."
+        },
+        {
+          "id": "B",
+          "text": "somente o fornecedor."
+        },
+        {
+          "id": "C",
+          "text": "somente a data de compra."
+        },
+        {
+          "id": "D",
+          "text": "finalidade, responsável, versão, dados, integrações, efeitos, risco e controles."
+        },
+        {
+          "id": "E",
+          "text": "nenhuma mudança de modelo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Inventário sustenta governança e reavaliação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4708",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Avaliação de impacto algorítmico pode examinar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas custo."
+        },
+        {
+          "id": "B",
+          "text": "somente precisão média."
+        },
+        {
+          "id": "C",
+          "text": "só treinamento."
+        },
+        {
+          "id": "D",
+          "text": "apenas contrato."
+        },
+        {
+          "id": "E",
+          "text": "direitos, grupos, dados, erros, explicação, contestação, segurança e risco residual."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O instrumento complementa outros controles. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4709",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Contrato de solução de IA deve prever, conforme o caso,",
+      "options": [
+        {
+          "id": "A",
+          "text": "dados, finalidade, retenção, segurança, testes, métricas, incidentes, auditoria e reversibilidade."
+        },
+        {
+          "id": "B",
+          "text": "caixa-preta sem obrigação."
+        },
+        {
+          "id": "C",
+          "text": "uso irrestrito dos dados pelo fornecedor."
+        },
+        {
+          "id": "D",
+          "text": "mudança de modelo sem aviso."
+        },
+        {
+          "id": "E",
+          "text": "ausência de portabilidade."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Governança contratual precisa cobrir ciclo de vida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4710",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Antes da produção, a solução deve ser testada com",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas casos médios."
+        },
+        {
+          "id": "B",
+          "text": "casos normais, raros, grupos distintos, entradas hostis, acessibilidade e fallback."
+        },
+        {
+          "id": "C",
+          "text": "somente dados de treinamento."
+        },
+        {
+          "id": "D",
+          "text": "apenas ambiente do fornecedor."
+        },
+        {
+          "id": "E",
+          "text": "sem simulação de erro."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Testes devem reproduzir uso e riscos reais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4711",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Para classificador de triagem, métricas relevantes incluem",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas número de parâmetros."
+        },
+        {
+          "id": "B",
+          "text": "somente custo mensal."
+        },
+        {
+          "id": "C",
+          "text": "falsos positivos, falsos negativos, correção de fila e impacto por grupo."
+        },
+        {
+          "id": "D",
+          "text": "tamanho da tela."
+        },
+        {
+          "id": "E",
+          "text": "quantidade de prompts."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Erros de classificação podem afetar prazo e acesso. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4712",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Deriva ocorre quando",
+      "options": [
+        {
+          "id": "A",
+          "text": "a norma permanece estável e o desempenho não muda."
+        },
+        {
+          "id": "B",
+          "text": "o sistema é desligado."
+        },
+        {
+          "id": "C",
+          "text": "a interface muda de cor."
+        },
+        {
+          "id": "D",
+          "text": "dados, comportamento ou ambiente mudam e o desempenho se degrada."
+        },
+        {
+          "id": "E",
+          "text": "o modelo apresenta a fonte."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Mudanças reais podem exigir atualização ou suspensão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4713",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em incidente com IA, a resposta adequada inclui",
+      "options": [
+        {
+          "id": "A",
+          "text": "apagar evidências."
+        },
+        {
+          "id": "B",
+          "text": "continuar operando sem avaliação."
+        },
+        {
+          "id": "C",
+          "text": "atribuir o fato ao fornecedor."
+        },
+        {
+          "id": "D",
+          "text": "ocultar impacto."
+        },
+        {
+          "id": "E",
+          "text": "detectar, conter, preservar, corrigir, comunicar quando cabível e revisar controles."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Incidente exige coordenação e aprendizagem. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4714",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "No modelo human-in-the-loop,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pessoa intervém antes de a saída produzir efeito."
+        },
+        {
+          "id": "B",
+          "text": "não há participação humana."
+        },
+        {
+          "id": "C",
+          "text": "o sistema atua e só depois pode ser observado."
+        },
+        {
+          "id": "D",
+          "text": "há aprovação automática."
+        },
+        {
+          "id": "E",
+          "text": "a pessoa não recebe fonte."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A intervenção ocorre antes do efeito. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4715",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Sobre a Portaria MGI nº 3.485/2026, é correto afirmar que",
+      "options": [
+        {
+          "id": "A",
+          "text": "é lei geral nacional."
+        },
+        {
+          "id": "B",
+          "text": "institui política de governança de IA em âmbito institucional delimitado e estava vigente no edital."
+        },
+        {
+          "id": "C",
+          "text": "só entra em vigor em setembro."
+        },
+        {
+          "id": "D",
+          "text": "substitui a LGPD."
+        },
+        {
+          "id": "E",
+          "text": "torna todo uso externo permitido."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A portaria vale no âmbito previsto e entrou em vigor em 23/6/2026. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4716",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Em 28/7/2026, o PL nº 2.338/2023",
+      "options": [
+        {
+          "id": "A",
+          "text": "já é lei federal."
+        },
+        {
+          "id": "B",
+          "text": "foi revogado."
+        },
+        {
+          "id": "C",
+          "text": "permanece projeto de lei aguardando parecer na comissão especial da Câmara."
+        },
+        {
+          "id": "D",
+          "text": "é portaria do MGI."
+        },
+        {
+          "id": "E",
+          "text": "entrou em vigor na data do edital."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Projeto não deve ser citado como lei vigente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4717",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "A Portaria SGD/MGI nº 5.921/2026",
+      "options": [
+        {
+          "id": "A",
+          "text": "já vigorava no edital."
+        },
+        {
+          "id": "B",
+          "text": "é lei nacional de IA."
+        },
+        {
+          "id": "C",
+          "text": "entra em vigor em julho."
+        },
+        {
+          "id": "D",
+          "text": "foi publicada depois do edital e entra em vigor em 1º/9/2026."
+        },
+        {
+          "id": "E",
+          "text": "revoga o PL nº 2.338."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A norma futura deve ser separada do núcleo vigente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4718",
+      "revision": 2,
+      "origin": "authorial",
+      "prompt": "Um sistema usa RAG com norma revogada, agente com permissão ampla e aprovação humana em massa. A análise correta é",
+      "options": [
+        {
+          "id": "A",
+          "text": "a presença de RAG elimina o risco."
+        },
+        {
+          "id": "B",
+          "text": "a fonte verdadeira basta."
+        },
+        {
+          "id": "C",
+          "text": "a aprovação humana formal garante controle."
+        },
+        {
+          "id": "D",
+          "text": "permissão ampla melhora governança."
+        },
+        {
+          "id": "E",
+          "text": "há problemas de vigência, privilégio e supervisão substantiva, que exigem correção antes do uso."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O caso reúne falhas de fonte, segurança e controle humano. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q4719",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A Assembleia Legislativa adotou IA generativa para redigir minutas e resumir documentos. Quanto à responsabilidade pelo conteúdo final, assinale a alternativa correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "O token de contexto responde pela factualidade."
+        },
+        {
+          "id": "B",
+          "text": "A responsabilidade passa ao algoritmo após a implantação institucional."
+        },
+        {
+          "id": "C",
+          "text": "O usuário humano continua responsável por verificar, editar e validar o resultado e por suas consequências."
+        },
+        {
+          "id": "D",
+          "text": "A responsabilidade é automaticamente do fornecedor por deter os dados de treinamento."
+        },
+        {
+          "id": "E",
+          "text": "A revisão humana é dispensável quando a taxa média de erro é baixa."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A utilidade da IA não transfere a responsabilidade legal e ética pelo conteúdo final. Fonte: questão adaptada de FGV; ALERJ; Especialista Legislativo — Nível III — Administração Geral; 2026; questão 21; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnm101-especialista-legislativo-nivel-iii-administracao-geral-cnm101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/especialista-alerj-gabarito-definitivo.pdf; adaptação: cenário e alternativas condensados, preservando o núcleo e o gabarito."
+    },
+    {
+      "id": "q4720",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Qual campo da inteligência artificial permite que sistemas aprendam com dados e aprimorem tarefas sem serem explicitamente programados para cada nova situação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Processamento de Linguagem Natural."
+        },
+        {
+          "id": "B",
+          "text": "Virtualização de servidores."
+        },
+        {
+          "id": "C",
+          "text": "Mineração de dados."
+        },
+        {
+          "id": "D",
+          "text": "Aprendizado de máquina."
+        },
+        {
+          "id": "E",
+          "text": "Internet das Coisas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Aprendizado de máquina ajusta modelos a partir de dados para generalizar a novas situações. Fonte: questão adaptada de FGV; ALERJ; Especialista Legislativo — Nível III — Administração Geral; 2026; questão 22; prova https://conhecimento.fgv.br/sites/default/files/concursos/cnm101-especialista-legislativo-nivel-iii-administracao-geral-cnm101-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/especialista-alerj-gabarito-definitivo.pdf; adaptação: enunciado condensado, mantendo opções e gabarito."
+    },
+    {
+      "id": "q4721",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "No processamento de linguagem natural, o objetivo principal da geração aumentada por recuperação — RAG — é",
+      "options": [
+        {
+          "id": "A",
+          "text": "melhorar somente a interface de usuário."
+        },
+        {
+          "id": "B",
+          "text": "reduzir o treinamento exclusivamente a dados de alta qualidade."
+        },
+        {
+          "id": "C",
+          "text": "aumentar apenas a geração de imagens e vídeos."
+        },
+        {
+          "id": "D",
+          "text": "integrar aprendizado por reforço para o modelo aprender com cada resposta."
+        },
+        {
+          "id": "E",
+          "text": "enriquecer a geração com informações recuperadas de bases externas no momento da resposta."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "RAG recupera informações externas e as insere no contexto de geração, sem exigir retreinamento a cada consulta. Fonte: questão adaptada de FGV; Secretaria do Tesouro Nacional; Auditor Federal de Finanças e Controle — Tecnologia da Informação — Transformação Digital; 2024; questão 10; prova https://conhecimento.fgv.br/sites/default/files/concursos/area-de-tecnologia-da-informacao-transformacao-digitalcns105-tipo-1.pdf; gabarito definitivo https://conhecimento.fgv.br/sites/default/files/concursos/stn2024_gabaritos_manha-e-tarde_sdjsldds.pdf; adaptação: enunciado e alternativas condensados, preservando o gabarito."
+    }
+  ]
+}

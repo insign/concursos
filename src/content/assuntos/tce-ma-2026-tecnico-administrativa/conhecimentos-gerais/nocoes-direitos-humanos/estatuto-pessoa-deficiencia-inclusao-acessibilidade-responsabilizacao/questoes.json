@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q8619",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O cordão de fita com desenhos de girassóis",
+      "options": [
+        {
+          "id": "A",
+          "text": "é símbolo nacional de identificação de pessoas com deficiências ocultas e tem uso opcional."
+        },
+        {
+          "id": "B",
+          "text": "é obrigatório para o exercício de qualquer direito."
+        },
+        {
+          "id": "C",
+          "text": "substitui definitivamente o documento comprobatório."
+        },
+        {
+          "id": "D",
+          "text": "identifica somente deficiência visual."
+        },
+        {
+          "id": "E",
+          "text": "só pode ser utilizado com autorização judicial."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Lei nº 14.624/2023 instituiu o símbolo, mas tornou seu uso opcional. A ausência não prejudica direitos, e o cordão não se limita a deficiência visual nem depende de autorização judicial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8620",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à comprovação de deficiência oculta, o uso do cordão de girassóis",
+      "options": [
+        {
+          "id": "A",
+          "text": "impede qualquer solicitação de documento."
+        },
+        {
+          "id": "B",
+          "text": "é a única prova admitida pela LBI."
+        },
+        {
+          "id": "C",
+          "text": "não dispensa documento comprobatório, caso solicitado pelo atendente ou pela autoridade competente."
+        },
+        {
+          "id": "D",
+          "text": "dispensa documento apenas perante autoridade pública."
+        },
+        {
+          "id": "E",
+          "text": "torna obrigatória a divulgação do diagnóstico."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 2º-A, § 2º, preserva a possibilidade de solicitação documental. O cordão é instrumento de identificação, não prova absoluta nem autorização para divulgar diagnóstico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8621",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No crime de discriminação em razão da deficiência, a pena aumenta",
+      "options": [
+        {
+          "id": "A",
+          "text": "pela metade sempre que o agente for servidor público."
+        },
+        {
+          "id": "B",
+          "text": "em dobro quando houver publicação, sem pena própria para essa forma."
+        },
+        {
+          "id": "C",
+          "text": "em dois terços se a vítima for adulta."
+        },
+        {
+          "id": "D",
+          "text": "somente quando houver dano patrimonial."
+        },
+        {
+          "id": "E",
+          "text": "em um terço se a vítima estiver sob cuidado e responsabilidade do agente."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 88, § 1º, prevê aumento de um terço quando a vítima está sob cuidado e responsabilidade do agente. A forma praticada por comunicação ou publicação possui pena própria, e o aumento não depende de dano patrimonial. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8622",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No trabalho com apoio, a LBI prioriza",
+      "options": [
+        {
+          "id": "A",
+          "text": "quem já possui plena facilidade de inserção."
+        },
+        {
+          "id": "B",
+          "text": "a pessoa com maior dificuldade de inserção no campo de trabalho."
+        },
+        {
+          "id": "C",
+          "text": "somente servidores públicos."
+        },
+        {
+          "id": "D",
+          "text": "o interesse do empregador acima do perfil vocacional."
+        },
+        {
+          "id": "E",
+          "text": "a retirada de suportes individualizados."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A primeira diretriz do trabalho com apoio prioriza a maior dificuldade de inserção. O modelo respeita perfil e interesse e fornece suportes, sem se limitar ao serviço público. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8623",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "É diretriz do trabalho com apoio",
+      "options": [
+        {
+          "id": "A",
+          "text": "proibir avaliações periódicas."
+        },
+        {
+          "id": "B",
+          "text": "excluir organizações da sociedade civil."
+        },
+        {
+          "id": "C",
+          "text": "padronizar suporte sem considerar necessidades."
+        },
+        {
+          "id": "D",
+          "text": "oferecer aconselhamento aos empregadores para estratégias de inclusão e superação de barreiras."
+        },
+        {
+          "id": "E",
+          "text": "substituir a vontade da pessoa pela decisão do agente facilitador."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A LBI prevê aconselhamento e apoio ao empregador, avaliações periódicas, suporte individualizado, articulação intersetorial e possível participação da sociedade civil. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8624",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A entidade contratada para realizar processo seletivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "só observa acessibilidade se o processo for federal."
+        },
+        {
+          "id": "B",
+          "text": "público ou privado deve observar a LBI e outras normas de acessibilidade vigentes."
+        },
+        {
+          "id": "C",
+          "text": "privado está dispensado da LBI."
+        },
+        {
+          "id": "D",
+          "text": "pode exigir aptidão plena de todo candidato."
+        },
+        {
+          "id": "E",
+          "text": "responde apenas pela correção das provas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 38 abrange processo público ou privado para cargo, função ou emprego. A obrigação não depende do ente federativo e não permite exigência genérica de aptidão plena. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8625",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em teatros, cinemas, auditórios e locais similares, os espaços e assentos reservados devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "ficar concentrados em setor segregado."
+        },
+        {
+          "id": "B",
+          "text": "obstruir saídas para facilitar identificação."
+        },
+        {
+          "id": "C",
+          "text": "ser sempre os mais distantes dos corredores."
+        },
+        {
+          "id": "D",
+          "text": "ser distribuídos em locais diversos, com boa visibilidade e sem segregação."
+        },
+        {
+          "id": "E",
+          "text": "existir somente em eventos públicos."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A distribuição deve abranger locais diversos e todos os setores, com boa visibilidade, proximidade de corredores e sem áreas segregadas ou obstrução de saídas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8626",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando não houver procura comprovada pelos assentos reservados em eventos, eles",
+      "options": [
+        {
+          "id": "A",
+          "text": "podem ser excepcionalmente ocupados por pessoas sem deficiência ou mobilidade reduzida, conforme o regulamento."
+        },
+        {
+          "id": "B",
+          "text": "devem permanecer vazios em qualquer hipótese."
+        },
+        {
+          "id": "C",
+          "text": "são eliminados definitivamente."
+        },
+        {
+          "id": "D",
+          "text": "podem ser vendidos por preço superior."
+        },
+        {
+          "id": "E",
+          "text": "ficam reservados somente a funcionários."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A LBI admite ocupação excepcional por outras pessoas quando não houver procura comprovada, observadas as regras regulamentares. Isso não extingue a reserva. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8627",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os espaços reservados em eventos devem garantir",
+      "options": [
+        {
+          "id": "A",
+          "text": "separação obrigatória do grupo familiar."
+        },
+        {
+          "id": "B",
+          "text": "acomodação de no mínimo dois acompanhantes."
+        },
+        {
+          "id": "C",
+          "text": "acomodação de ao menos um acompanhante e proximidade com grupo familiar e comunitário."
+        },
+        {
+          "id": "D",
+          "text": "somente acesso individual."
+        },
+        {
+          "id": "E",
+          "text": "a presença exclusiva de atendente profissional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 44 protege ao menos um acompanhante e o direito de acomodação próxima ao grupo familiar e comunitário. Não exige dois acompanhantes nem profissional específico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8628",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas salas de cinema, os recursos de acessibilidade devem ser oferecidos",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente uma vez por semana."
+        },
+        {
+          "id": "B",
+          "text": "apenas em sessões gratuitas."
+        },
+        {
+          "id": "C",
+          "text": "se houver dez solicitações prévias."
+        },
+        {
+          "id": "D",
+          "text": "somente em filmes nacionais."
+        },
+        {
+          "id": "E",
+          "text": "em todas as sessões, sem ingresso mais caro para a pessoa com deficiência."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A regra alcança todas as sessões. Além disso, o valor do ingresso da pessoa com deficiência não pode superar o cobrado das demais pessoas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8629",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em meios de hospedagem já existentes, a regra geral exige dormitórios acessíveis em percentual de",
+      "options": [
+        {
+          "id": "A",
+          "text": "2%, sem mínimo."
+        },
+        {
+          "id": "B",
+          "text": "5%, com mínimo de dois."
+        },
+        {
+          "id": "C",
+          "text": "20%, sem rota acessível."
+        },
+        {
+          "id": "D",
+          "text": "10%, garantida no mínimo uma unidade, em rotas acessíveis."
+        },
+        {
+          "id": "E",
+          "text": "50%, apenas no térreo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Hotéis, pousadas e similares existentes devem disponibilizar pelo menos 10% dos dormitórios acessíveis, com mínimo de uma unidade e localização em rota acessível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8630",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A dispensa do percentual de dormitórios acessíveis introduzida em 2024 exige",
+      "options": [
+        {
+          "id": "A",
+          "text": "meio de hospedagem existente, impossibilidade técnica por risco estrutural e laudo renovado a cada cinco anos."
+        },
+        {
+          "id": "B",
+          "text": "mera declaração do proprietário de qualquer hotel novo."
+        },
+        {
+          "id": "C",
+          "text": "laudo sem renovação."
+        },
+        {
+          "id": "D",
+          "text": "queda temporária na ocupação."
+        },
+        {
+          "id": "E",
+          "text": "autorização verbal do hóspede."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A exceção da Lei nº 14.978/2024 é restrita: estabelecimento existente, risco estrutural que gere impossibilidade técnica, comprovação por laudo e renovação quinquenal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8631",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Para a LBI, integram o serviço de transporte coletivo",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas os veículos."
+        },
+        {
+          "id": "B",
+          "text": "veículos, terminais, estações, pontos de parada, sistema viário e prestação do serviço."
+        },
+        {
+          "id": "C",
+          "text": "somente estações e portos."
+        },
+        {
+          "id": "D",
+          "text": "apenas a venda de bilhetes."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente o sistema viário urbano."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O conceito operacional é amplo e alcança infraestrutura, veículo, sistema viário e a própria prestação, nos modais terrestre, aquaviário e aéreo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8632",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A colocação do símbolo internacional de acesso em veículo de transporte coletivo depende",
+      "options": [
+        {
+          "id": "A",
+          "text": "de autodeclaração da empresa."
+        },
+        {
+          "id": "B",
+          "text": "de pedido de qualquer passageiro."
+        },
+        {
+          "id": "C",
+          "text": "de decisão judicial individual."
+        },
+        {
+          "id": "D",
+          "text": "apenas da idade do veículo."
+        },
+        {
+          "id": "E",
+          "text": "de certificação de acessibilidade emitida pelo gestor público responsável pelo serviço."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A empresa não pode autodeclarar acessibilidade para usar o símbolo. A certificação vem do gestor público responsável pela prestação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8633",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As vagas reservadas em estacionamentos devem equivaler a",
+      "options": [
+        {
+          "id": "A",
+          "text": "10% do total, sem mínimo."
+        },
+        {
+          "id": "B",
+          "text": "5% do total, com duas vagas."
+        },
+        {
+          "id": "C",
+          "text": "2% do total, garantida no mínimo uma vaga."
+        },
+        {
+          "id": "D",
+          "text": "1% do total, sem sinalização."
+        },
+        {
+          "id": "E",
+          "text": "20% do total."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 47 fixa 2% e garante pelo menos uma vaga sinalizada, próxima ao acesso, para veículo que transporte pessoa com deficiência com comprometimento de mobilidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8634",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A credencial para uso de vaga reservada",
+      "options": [
+        {
+          "id": "A",
+          "text": "é vinculada ao veículo e vale apenas no município."
+        },
+        {
+          "id": "B",
+          "text": "é emitida pelo estabelecimento comercial."
+        },
+        {
+          "id": "C",
+          "text": "dispensa comprometimento de mobilidade."
+        },
+        {
+          "id": "D",
+          "text": "é vinculada à pessoa, fornecida pelos órgãos de trânsito e válida em todo o território nacional."
+        },
+        {
+          "id": "E",
+          "text": "pode ficar oculta no veículo."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A credencial vincula-se à pessoa com deficiência com comprometimento de mobilidade, é disciplinada pelos órgãos de trânsito, tem validade nacional e deve ficar visível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8635",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Veículos e estruturas de transporte coletivo devem possuir",
+      "options": [
+        {
+          "id": "A",
+          "text": "sistema de comunicação acessível com informações sobre todos os pontos do itinerário."
+        },
+        {
+          "id": "B",
+          "text": "informação apenas no terminal inicial."
+        },
+        {
+          "id": "C",
+          "text": "comunicação exclusivamente sonora."
+        },
+        {
+          "id": "D",
+          "text": "rotas sem informação para reduzir custos."
+        },
+        {
+          "id": "E",
+          "text": "sinalização somente quando houver acompanhante."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A informação acessível abrange todos os pontos do itinerário. Não pode ficar restrita ao início, a um único canal ou à presença de acompanhante. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8636",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos veículos de transporte coletivo, a pessoa com deficiência tem asseguradas",
+      "options": [
+        {
+          "id": "A",
+          "text": "prioridade somente no desembarque."
+        },
+        {
+          "id": "B",
+          "text": "gratuidade automática em qualquer modal."
+        },
+        {
+          "id": "C",
+          "text": "dispensa das normas técnicas."
+        },
+        {
+          "id": "D",
+          "text": "prioridade e segurança no embarque e no desembarque."
+        },
+        {
+          "id": "E",
+          "text": "exclusão de filas apenas se estiver sozinha."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A LBI assegura cumulativamente prioridade e segurança nos dois momentos, conforme normas técnicas. Não cria, nesse dispositivo, gratuidade universal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8637",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Empresas de transporte de fretamento e turismo devem cumprir as regras de acessibilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente após decisão judicial."
+        },
+        {
+          "id": "B",
+          "text": "apenas em viagens internacionais."
+        },
+        {
+          "id": "C",
+          "text": "quando renovarem suas frotas."
+        },
+        {
+          "id": "D",
+          "text": "somente se receberem subsídio."
+        },
+        {
+          "id": "E",
+          "text": "apenas quanto à venda de passagens."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 49 vincula as empresas de fretamento e turismo ao cumprimento dos artigos 46 e 48 na renovação das frotas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8638",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As frotas de empresas de táxi devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "reservar 2% e cobrar adicional."
+        },
+        {
+          "id": "B",
+          "text": "reservar 10% de veículos acessíveis, sem tarifa diferenciada ou valor adicional."
+        },
+        {
+          "id": "C",
+          "text": "oferecer um veículo a cada vinte."
+        },
+        {
+          "id": "D",
+          "text": "reservar somente um veículo, qualquer que seja a frota."
+        },
+        {
+          "id": "E",
+          "text": "excluir incentivos fiscais."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Táxis usam a regra de 10% e não podem cobrar valor maior pelo serviço acessível. Um veículo a cada vinte é a regra das locadoras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8639",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A obrigação quantitativa das locadoras é oferecer",
+      "options": [
+        {
+          "id": "A",
+          "text": "dez veículos adaptados por frota."
+        },
+        {
+          "id": "B",
+          "text": "um veículo adaptado a cada conjunto de vinte veículos."
+        },
+        {
+          "id": "C",
+          "text": "2% da frota, sem mínimo."
+        },
+        {
+          "id": "D",
+          "text": "10% da frota, como nos táxis."
+        },
+        {
+          "id": "E",
+          "text": "um veículo apenas quando solicitado com um ano de antecedência."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A locadora deve oferecer um veículo adaptado a cada conjunto de vinte. Os percentuais de 2% e 10% pertencem, respectivamente, a estacionamento e táxis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8640",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os equipamentos mínimos do veículo adaptado de locadora estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "câmbio manual e direção mecânica."
+        },
+        {
+          "id": "B",
+          "text": "somente vidros elétricos."
+        },
+        {
+          "id": "C",
+          "text": "câmbio automático, direção hidráulica, vidros elétricos e comandos manuais de freio e acelerador."
+        },
+        {
+          "id": "D",
+          "text": "apenas plataforma elevatória."
+        },
+        {
+          "id": "E",
+          "text": "câmbio automático, direção hidráulica, vidros elétricos e comandos manuais de freio e embreagem."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 52 exige câmbio automático, direção hidráulica, vidros elétricos e comandos manuais de freio e embreagem. Não menciona acelerador na enumeração mínima. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8641",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A acessibilidade é direito que permite à pessoa com deficiência ou mobilidade reduzida",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas entrar em edifícios públicos."
+        },
+        {
+          "id": "B",
+          "text": "somente usar transporte coletivo."
+        },
+        {
+          "id": "C",
+          "text": "viver de forma independente e exercer cidadania e participação social."
+        },
+        {
+          "id": "D",
+          "text": "dispensar todas as normas técnicas."
+        },
+        {
+          "id": "E",
+          "text": "obter curatela automática."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 53 vincula acessibilidade à independência, cidadania e participação social, sem restringi-la a prédio ou transporte. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8642",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A observância da acessibilidade condiciona, quando houver interação com a matéria,",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente a emissão do habite-se."
+        },
+        {
+          "id": "B",
+          "text": "apenas projetos privados sem financiamento."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente obras federais."
+        },
+        {
+          "id": "D",
+          "text": "projetos e obras, outorgas e renovações, financiamento público e aval da União."
+        },
+        {
+          "id": "E",
+          "text": "somente a fabricação de automóveis particulares."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 54 alcança várias etapas e instrumentos, inclusive projetos de comunicação, transporte coletivo, obras, autorizações, financiamento com recursos públicos e aval da União. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8643",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na concepção de projetos, a LBI estabelece que",
+      "options": [
+        {
+          "id": "A",
+          "text": "o desenho universal é regra geral e, se comprovadamente inviável, adota-se adaptação razoável."
+        },
+        {
+          "id": "B",
+          "text": "a adaptação razoável é sempre a primeira opção."
+        },
+        {
+          "id": "C",
+          "text": "o desenho universal vale somente na zona urbana."
+        },
+        {
+          "id": "D",
+          "text": "a impossibilidade de desenho universal elimina acessibilidade."
+        },
+        {
+          "id": "E",
+          "text": "normas de acessibilidade são facultativas."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência legal é desenho universal como regra e adaptação razoável quando a adoção daquele for comprovadamente impossível. O dever alcança zonas urbana e rural. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8644",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O desenho universal deve ser considerado",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas depois de concluída a política pública."
+        },
+        {
+          "id": "B",
+          "text": "somente em cursos de Arquitetura."
+        },
+        {
+          "id": "C",
+          "text": "apenas por empresas privadas."
+        },
+        {
+          "id": "D",
+          "text": "desde a concepção das políticas e em currículos, programas, projetos e linhas de pesquisa apoiados pelo poder público."
+        },
+        {
+          "id": "E",
+          "text": "sem relação com pesquisa."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A LBI integra desenho universal desde a concepção das políticas, em diretrizes curriculares e em pesquisas apoiadas por organismos públicos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8645",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Devem ser executadas de modo acessível a construção, a reforma, a ampliação ou a mudança de uso de edificações",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente residenciais unifamiliares privadas."
+        },
+        {
+          "id": "B",
+          "text": "apenas construídas após 2025."
+        },
+        {
+          "id": "C",
+          "text": "abertas ao público, de uso público ou privadas de uso coletivo."
+        },
+        {
+          "id": "D",
+          "text": "somente financiadas pela União."
+        },
+        {
+          "id": "E",
+          "text": "apenas localizadas em capital."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A regra alcança edificações abertas ao público, de uso público ou privadas de uso coletivo, sem os recortes temporais ou territoriais das demais opções. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8646",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na aprovação e no licenciamento de projeto ou obra, o atendimento às regras de acessibilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "é presumido sem responsabilidade técnica."
+        },
+        {
+          "id": "B",
+          "text": "deve ser atestado, com responsabilidade profissional exigida pelas entidades fiscalizadoras."
+        },
+        {
+          "id": "C",
+          "text": "é dispensado em instalação temporária."
+        },
+        {
+          "id": "D",
+          "text": "só é verificado após acidente."
+        },
+        {
+          "id": "E",
+          "text": "depende apenas de declaração do proprietário."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A lei exige responsabilidade profissional declarada e atestado para aprovação, licença e certificados, inclusive de instalações temporárias ou permanentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8647",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As edificações públicas e privadas de uso coletivo já existentes",
+      "options": [
+        {
+          "id": "A",
+          "text": "são automaticamente dispensadas."
+        },
+        {
+          "id": "B",
+          "text": "só precisam adaptar a entrada."
+        },
+        {
+          "id": "C",
+          "text": "observam apenas normas da época da construção."
+        },
+        {
+          "id": "D",
+          "text": "podem aguardar mudança de uso."
+        },
+        {
+          "id": "E",
+          "text": "devem garantir acessibilidade em todas as dependências e serviços."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 57 exige acessibilidade integral nas edificações coletivas existentes, tendo como referência as normas vigentes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8648",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas edificações privadas multifamiliares, a LBI",
+      "options": [
+        {
+          "id": "A",
+          "text": "exige percentual mínimo conforme regulamento e proíbe cobrança adicional pela unidade internamente acessível."
+        },
+        {
+          "id": "B",
+          "text": "fixa diretamente reserva de 20%."
+        },
+        {
+          "id": "C",
+          "text": "dispensa incorporadoras."
+        },
+        {
+          "id": "D",
+          "text": "permite adicional pela unidade acessível."
+        },
+        {
+          "id": "E",
+          "text": "só alcança áreas comuns."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O percentual é regulamentar, e construtoras e incorporadoras não podem cobrar valor adicional pela unidade internamente acessível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8649",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Durante intervenção em vias e espaços públicos, deve ser garantida",
+      "options": [
+        {
+          "id": "A",
+          "text": "a interrupção total da circulação acessível."
+        },
+        {
+          "id": "B",
+          "text": "acessibilidade apenas após o término."
+        },
+        {
+          "id": "C",
+          "text": "dispensa das concessionárias."
+        },
+        {
+          "id": "D",
+          "text": "passagem exclusiva para veículos."
+        },
+        {
+          "id": "E",
+          "text": "fluidez segura do trânsito e livre circulação e acessibilidade durante e após a obra."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Poder público e concessionárias devem preservar circulação e acessibilidade durante e depois da intervenção. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8650",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A concessão ou renovação de alvará de funcionamento e a emissão de habite-se",
+      "options": [
+        {
+          "id": "A",
+          "text": "independem de acessibilidade."
+        },
+        {
+          "id": "B",
+          "text": "dependem da observação e certificação das regras de acessibilidade."
+        },
+        {
+          "id": "C",
+          "text": "exigem somente pagamento de taxa."
+        },
+        {
+          "id": "D",
+          "text": "alcançam apenas prédios federais."
+        },
+        {
+          "id": "E",
+          "text": "não se relacionam aos códigos de obras."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Planos, códigos e licenças são instrumentos do regime de acessibilidade. Alvará, renovação e habite-se dependem de observação e certificação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8651",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As ações de acessibilidade devem observar",
+      "options": [
+        {
+          "id": "A",
+          "text": "atuação isolada de cada setor."
+        },
+        {
+          "id": "B",
+          "text": "execução sem planejamento."
+        },
+        {
+          "id": "C",
+          "text": "apenas prioridades sem orçamento."
+        },
+        {
+          "id": "D",
+          "text": "prioridades, cronograma, reserva de recursos e planejamento contínuo e articulado."
+        },
+        {
+          "id": "E",
+          "text": "cronograma sem manutenção."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 61 combina prioridade, cronograma, recursos e planejamento contínuo entre os setores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8652",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Mediante solicitação, a pessoa com deficiência pode receber em formato acessível",
+      "options": [
+        {
+          "id": "A",
+          "text": "contas, boletos, recibos, extratos e cobranças de tributos."
+        },
+        {
+          "id": "B",
+          "text": "apenas tributos federais."
+        },
+        {
+          "id": "C",
+          "text": "exclusivamente extratos bancários."
+        },
+        {
+          "id": "D",
+          "text": "apenas documentos judiciais."
+        },
+        {
+          "id": "E",
+          "text": "somente contas de água."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 62 enumera essas cinco categorias e condiciona a providência à solicitação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8653",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As placas de comunicação aumentativa do artigo 62-A devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar apenas telas eletrônicas."
+        },
+        {
+          "id": "B",
+          "text": "ser instaladas somente em hospitais."
+        },
+        {
+          "id": "C",
+          "text": "empregar pranchas de baixa tecnologia com pictogramas em praças, parques e espaços públicos coletivos."
+        },
+        {
+          "id": "D",
+          "text": "ser idênticas em qualquer contexto."
+        },
+        {
+          "id": "E",
+          "text": "excluir pessoas com necessidades complexas de comunicação."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Para atender pessoas com necessidades complexas de comunicação, a Lei nº 15.249/2025 prevê placas em espaços públicos de uso coletivo, com pranchas de baixa tecnologia e pictogramas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8654",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "As placas de comunicação aumentativa em espaços públicos",
+      "options": [
+        {
+          "id": "A",
+          "text": "devem adaptar-se ao contexto e resistir ao clima e ao uso, observada a disponibilidade financeira e orçamentária."
+        },
+        {
+          "id": "B",
+          "text": "podem usar material incompatível com clima externo."
+        },
+        {
+          "id": "C",
+          "text": "independem de orçamento."
+        },
+        {
+          "id": "D",
+          "text": "dispensam adaptação ao local."
+        },
+        {
+          "id": "E",
+          "text": "substituem toda sinalização acessível."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Contexto, material adequado e disponibilidade financeira e orçamentária integram a disciplina da Lei nº 15.249/2025. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8655",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A acessibilidade obrigatória em sites alcança",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente órgãos federais."
+        },
+        {
+          "id": "B",
+          "text": "apenas páginas criadas após a LBI."
+        },
+        {
+          "id": "C",
+          "text": "apenas empresas estatais."
+        },
+        {
+          "id": "D",
+          "text": "somente sites educacionais."
+        },
+        {
+          "id": "E",
+          "text": "órgãos de governo e empresas com sede ou representação comercial no Brasil."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 63 abrange governo e empresas com sede ou representação no País e exige símbolo de acessibilidade em destaque. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8656",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Telecentros comunitários com recursos públicos federais e lan houses devem garantir",
+      "options": [
+        {
+          "id": "A",
+          "text": "um computador acessível apenas se houver cem máquinas."
+        },
+        {
+          "id": "B",
+          "text": "50% dos computadores para qualquer uso."
+        },
+        {
+          "id": "C",
+          "text": "instalações acessíveis e ao menos 10% dos computadores com recursos para deficiência visual, garantido no mínimo um."
+        },
+        {
+          "id": "D",
+          "text": "somente acesso por telefone."
+        },
+        {
+          "id": "E",
+          "text": "acessibilidade apenas mediante ordem judicial."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O percentual é 10%, com garantia mínima de um equipamento quando o cálculo for inferior. A obrigação também alcança instalações e equipamentos acessíveis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8657",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Programas, linhas de pesquisa e projetos apoiados por agências de financiamento ou órgãos públicos de auxílio à pesquisa devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "excluir temas de acessibilidade."
+        },
+        {
+          "id": "B",
+          "text": "contemplar temas voltados à tecnologia assistiva."
+        },
+        {
+          "id": "C",
+          "text": "limitar-se à importação de equipamentos."
+        },
+        {
+          "id": "D",
+          "text": "dispensar pessoas com deficiência dos resultados."
+        },
+        {
+          "id": "E",
+          "text": "tratar somente de tecnologia militar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 72 atribui obrigação específica aos programas, linhas e projetos apoiados por agências de financiamento e órgãos ou entidades públicos de auxílio à pesquisa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8658",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No campo das telecomunicações, a LBI determina",
+      "options": [
+        {
+          "id": "A",
+          "text": "acesso parcial e apenas por voz."
+        },
+        {
+          "id": "B",
+          "text": "proibição de aparelhos adaptados."
+        },
+        {
+          "id": "C",
+          "text": "atendimento somente presencial."
+        },
+        {
+          "id": "D",
+          "text": "pleno acesso conforme regulamentação e incentivo a aparelhos acessíveis."
+        },
+        {
+          "id": "E",
+          "text": "exclusão de indicação e ampliação sonora."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Prestadoras devem garantir pleno acesso, e o poder público incentiva aparelhos com acessibilidade, inclusive indicação e ampliação sonoras. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8659",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Entre os recursos de radiodifusão previstos na LBI estão",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas dublagem."
+        },
+        {
+          "id": "B",
+          "text": "somente legenda aberta."
+        },
+        {
+          "id": "C",
+          "text": "legenda oculta, janela com intérprete de Libras e audiodescrição."
+        },
+        {
+          "id": "D",
+          "text": "somente ampliação sonora."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente Braille."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A LBI enumera esses três recursos, entre outros, para serviços de radiodifusão de sons e imagens. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8660",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em editais públicos de compra de livros, deve haver",
+      "options": [
+        {
+          "id": "A",
+          "text": "preferência por editora sem formato acessível."
+        },
+        {
+          "id": "B",
+          "text": "proibição de arquivo digital."
+        },
+        {
+          "id": "C",
+          "text": "dispensa de acessibilidade em biblioteca."
+        },
+        {
+          "id": "D",
+          "text": "cláusula de impedimento à editora que não ofereça sua produção também em formato acessível."
+        },
+        {
+          "id": "E",
+          "text": "exclusão de publicações administrativas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O poder público deve incentivar e exigir oferta acessível em suas compras, inclusive para bibliotecas e publicações financiadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8661",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Formato acessível de livro inclui arquivo digital que permita",
+      "options": [
+        {
+          "id": "A",
+          "text": "leitura por tecnologia assistiva, voz sintetizada, ampliação, contrastes e impressão em Braille."
+        },
+        {
+          "id": "B",
+          "text": "somente impressão comum."
+        },
+        {
+          "id": "C",
+          "text": "acesso exclusivamente visual."
+        },
+        {
+          "id": "D",
+          "text": "bloqueio de leitor de tela."
+        },
+        {
+          "id": "E",
+          "text": "apenas conversão em imagem."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 68 define formato digital acessível pela compatibilidade com leitores de tela e recursos como voz, ampliação, contraste e Braille. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8662",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nos canais de comércio virtual e anúncios, os recursos de acessibilidade",
+      "options": [
+        {
+          "id": "A",
+          "text": "são custeados pelo consumidor."
+        },
+        {
+          "id": "B",
+          "text": "não se aplicam à internet."
+        },
+        {
+          "id": "C",
+          "text": "dependem sempre de ação judicial."
+        },
+        {
+          "id": "D",
+          "text": "são dispensados em publicidade."
+        },
+        {
+          "id": "E",
+          "text": "devem ser oferecidos conforme a compatibilidade do meio, às expensas do fornecedor."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O fornecedor suporta o custo dos recursos compatíveis com o meio. Materiais como bulas e prospectos também devem ser acessíveis mediante solicitação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8663",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Eventos científico-culturais promovidos ou financiados pelo poder público devem",
+      "options": [
+        {
+          "id": "A",
+          "text": "oferecer apenas assento reservado."
+        },
+        {
+          "id": "B",
+          "text": "garantir condições de acessibilidade e recursos de tecnologia assistiva."
+        },
+        {
+          "id": "C",
+          "text": "excluir intérpretes."
+        },
+        {
+          "id": "D",
+          "text": "cobrar adicional pelos recursos."
+        },
+        {
+          "id": "E",
+          "text": "limitar acessibilidade ao palco."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A obrigação pública é ampla. Instituições promotoras em geral também devem oferecer, no mínimo, recursos de comunicação previstos no artigo 67. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8664",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 14.863/2024, devem ser acessíveis",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente campanhas eleitorais."
+        },
+        {
+          "id": "B",
+          "text": "apenas campanhas de saúde."
+        },
+        {
+          "id": "C",
+          "text": "apenas campanhas impressas."
+        },
+        {
+          "id": "D",
+          "text": "somente campanhas financiadas por empresa privada."
+        },
+        {
+          "id": "E",
+          "text": "campanhas sociais, preventivas e educativas."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O artigo 73-A usa as três categorias sem restringir suporte, financiador ou matéria. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8665",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O acesso à tecnologia assistiva visa maximizar",
+      "options": [
+        {
+          "id": "A",
+          "text": "autonomia, mobilidade pessoal e qualidade de vida."
+        },
+        {
+          "id": "B",
+          "text": "dependência institucional."
+        },
+        {
+          "id": "C",
+          "text": "somente produtividade econômica."
+        },
+        {
+          "id": "D",
+          "text": "apenas comunicação eletrônica."
+        },
+        {
+          "id": "E",
+          "text": "substituição da vontade da pessoa."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 74 alcança produtos, recursos, estratégias, práticas, processos, métodos e serviços orientados à autonomia, mobilidade e qualidade de vida. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8666",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O plano específico de tecnologia assistiva deve ser",
+      "options": [
+        {
+          "id": "A",
+          "text": "renovado a cada dois anos e nunca avaliado."
+        },
+        {
+          "id": "B",
+          "text": "renovado a cada dez anos."
+        },
+        {
+          "id": "C",
+          "text": "limitado à importação."
+        },
+        {
+          "id": "D",
+          "text": "elaborado somente por empresas."
+        },
+        {
+          "id": "E",
+          "text": "renovado a cada quatro anos, com avaliação dos procedimentos pelo menos a cada dois anos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A lei separa renovação quadrienal e avaliação ao menos bienal e inclui crédito, importação, pesquisa, tributação e incorporação em políticas públicas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8667",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O fomento científico e tecnológico da LBI prioriza",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente pesquisa médica sem inclusão."
+        },
+        {
+          "id": "B",
+          "text": "tecnologias que ampliem qualidade de vida, trabalho, participação e superação de barreiras."
+        },
+        {
+          "id": "C",
+          "text": "exclusão de tecnologias sociais."
+        },
+        {
+          "id": "D",
+          "text": "redução do acesso a governo eletrônico."
+        },
+        {
+          "id": "E",
+          "text": "proibição de capacitação institucional."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Os artigos 77 e 78 articulam pesquisa, inovação, tecnologia assistiva e social, formação e acesso a tecnologias da informação e serviços públicos digitais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8668",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Cadastro-Inclusão é",
+      "options": [
+        {
+          "id": "A",
+          "text": "registro privado de vagas de estacionamento."
+        },
+        {
+          "id": "B",
+          "text": "sinônimo de CadÚnico."
+        },
+        {
+          "id": "C",
+          "text": "registro público eletrônico com informações georreferenciadas socioeconômicas e sobre barreiras."
+        },
+        {
+          "id": "D",
+          "text": "cadastro exclusivo do BPC."
+        },
+        {
+          "id": "E",
+          "text": "banco sem finalidade de política pública."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O Cadastro-Inclusão é administrado pelo Executivo federal e integra dados para caracterização e identificação de barreiras. Não se confunde com outros cadastros. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8669",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os dados do Cadastro-Inclusão podem ser usados",
+      "options": [
+        {
+          "id": "A",
+          "text": "para qualquer finalidade comercial."
+        },
+        {
+          "id": "B",
+          "text": "sem salvaguardas de privacidade."
+        },
+        {
+          "id": "C",
+          "text": "para divulgação individual irrestrita."
+        },
+        {
+          "id": "D",
+          "text": "somente para políticas públicas e identificação de barreiras e para estudos e pesquisas."
+        },
+        {
+          "id": "E",
+          "text": "apenas por empresas de crédito."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 92 restringe o uso a duas finalidades e exige confidencialidade, privacidade, liberdades fundamentais e disseminação acessível. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8670",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Nas inspeções e auditorias, os órgãos de controle interno e externo devem observar",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas contratos federais."
+        },
+        {
+          "id": "B",
+          "text": "somente normas contábeis."
+        },
+        {
+          "id": "C",
+          "text": "a legislação relativa à pessoa com deficiência e as normas de acessibilidade vigentes."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente regras de estacionamento."
+        },
+        {
+          "id": "E",
+          "text": "somente a responsabilidade do conselho profissional."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O artigo 93 dirige-se aos órgãos de controle; a responsabilidade técnica profissional aparece no artigo 56, § 1º. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8671",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A LBI reconhece auxílio-inclusão, nos termos da lei, à pessoa com deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "leve, independentemente de BPC ou trabalho."
+        },
+        {
+          "id": "B",
+          "text": "moderada ou grave que receba BPC ou o tenha recebido nos últimos cinco anos e passe a atividade como segurada obrigatória do RGPS."
+        },
+        {
+          "id": "C",
+          "text": "que nunca recebeu BPC e não trabalha."
+        },
+        {
+          "id": "D",
+          "text": "somente aposentada."
+        },
+        {
+          "id": "E",
+          "text": "apenas menor de idade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 94 combina deficiência moderada ou grave, relação atual ou recente com o BPC e atividade remunerada com enquadramento obrigatório no RGPS. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8672",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Se o deslocamento para órgão público impuser ônus desproporcional e indevido,",
+      "options": [
+        {
+          "id": "A",
+          "text": "veda-se exigir comparecimento, com contato residencial, atendimento domiciliar ou representação conforme o interesse envolvido."
+        },
+        {
+          "id": "B",
+          "text": "o direito é extinto."
+        },
+        {
+          "id": "C",
+          "text": "somente o curador pode comparecer."
+        },
+        {
+          "id": "D",
+          "text": "o comparecimento continua sempre obrigatório."
+        },
+        {
+          "id": "E",
+          "text": "o atendimento domiciliar é proibido."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 95 evita deslocamento desproporcional e prevê visita do agente, solicitação domiciliar ou procurador, além de perícia e serviços em domicílio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8673",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Praticar, induzir ou incitar discriminação em razão da deficiência tem pena básica de",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de seis meses a um ano."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de dois a cinco anos em qualquer caso."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de oito a quatorze anos."
+        },
+        {
+          "id": "D",
+          "text": "somente multa administrativa."
+        },
+        {
+          "id": "E",
+          "text": "reclusão de um a três anos e multa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A pena básica é reclusão de um a três anos e multa; dois a cinco anos é a forma por comunicação social ou publicação. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8674",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na discriminação praticada por comunicação social ou publicação,",
+      "options": [
+        {
+          "id": "A",
+          "text": "a pena é apenas multa."
+        },
+        {
+          "id": "B",
+          "text": "não se pode interditar página."
+        },
+        {
+          "id": "C",
+          "text": "a pena é de dois a cinco anos e o juiz pode determinar apreensão ou interdição sob pena de desobediência; a destruição depende do trânsito em julgado."
+        },
+        {
+          "id": "D",
+          "text": "a destruição do material ocorre antes do julgamento."
+        },
+        {
+          "id": "E",
+          "text": "não há atuação do Ministério Público."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A medida pode ocorrer antes do inquérito, ouvido o MP ou a pedido dele, sob pena de desobediência, mas a destruição do material é efeito da condenação após trânsito em julgado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8675",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Apropriar-se de ou desviar bens ou rendimentos da pessoa com deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "é crime punido com reclusão de um a quatro anos e multa, com aumento em hipóteses legais."
+        },
+        {
+          "id": "B",
+          "text": "é mera infração civil sem pena."
+        },
+        {
+          "id": "C",
+          "text": "tem a mesma pena do abandono com morte."
+        },
+        {
+          "id": "D",
+          "text": "só é crime se o agente for curador."
+        },
+        {
+          "id": "E",
+          "text": "não alcança benefícios ou remuneração."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O artigo 89 alcança bens, proventos, pensão, benefícios, remuneração e rendimentos. O aumento de um terço incide em relações qualificadas, mas elas não são condição do tipo básico. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8676",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Após a Lei nº 15.163/2025, o abandono de pessoa com deficiência que resulta em morte é punido com",
+      "options": [
+        {
+          "id": "A",
+          "text": "detenção de seis meses a dois anos."
+        },
+        {
+          "id": "B",
+          "text": "reclusão de um a quatro anos."
+        },
+        {
+          "id": "C",
+          "text": "reclusão de três a sete anos."
+        },
+        {
+          "id": "D",
+          "text": "reclusão de dois a cinco anos."
+        },
+        {
+          "id": "E",
+          "text": "reclusão de oito a quatorze anos e multa."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A pena por morte é de oito a quatorze anos e multa; lesão grave recebe três a sete, e o tipo básico, dois a cinco. A mesma cominação do artigo 90 alcança quem não provê as necessidades básicas quando obrigado por lei ou mandado. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8677",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Reter ou utilizar cartão magnético, qualquer meio eletrônico ou documento da pessoa com deficiência destinados ao recebimento de benefícios, proventos, pensões ou remuneração ou à realização de operações financeiras, com o fim de obter vantagem indevida para si ou para outrem",
+      "options": [
+        {
+          "id": "A",
+          "text": "é o mesmo tipo de apropriação do artigo 89."
+        },
+        {
+          "id": "B",
+          "text": "não alcança meios eletrônicos."
+        },
+        {
+          "id": "C",
+          "text": "tem pena de reclusão de oito a quatorze anos."
+        },
+        {
+          "id": "D",
+          "text": "é punido com detenção de seis meses a dois anos e multa, aumentada em um terço para tutor ou curador."
+        },
+        {
+          "id": "E",
+          "text": "só é crime se houver abandono."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "O artigo 91 é tipo distinto da apropriação ou desvio e exige a destinação legal do instrumento e a finalidade de obter vantagem indevida para si ou para outrem. A pena aumenta para tutor ou curador. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q8678",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Segundo a LBI, a colocação competitiva da pessoa com deficiência",
+      "options": [
+        {
+          "id": "A",
+          "text": "constitui discriminação por inserir a pessoa no mesmo ambiente das demais."
+        },
+        {
+          "id": "B",
+          "text": "é modo de inclusão em igualdade de oportunidades, com acessibilidade, tecnologia assistiva e adaptação razoável."
+        },
+        {
+          "id": "C",
+          "text": "proíbe trabalho com apoio."
+        },
+        {
+          "id": "D",
+          "text": "exige aptidão plena e ausência de suporte."
+        },
+        {
+          "id": "E",
+          "text": "é reservada ao setor público."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O artigo 37 define colocação competitiva como modo de inclusão, e o trabalho com apoio pode realizá-la. Fonte: questão adaptada de Cebraspe; STM; Técnico Judiciário — Área Administrativa, Cargo 9; 2018; item 30; prova https://cdn.cebraspe.org.br/concursos/STM_17_ANALISTA_TECNICO/arquivos/375_STM_CB4_08_SUPER_40.PDF; gabarito definitivo E (errado) em https://cdn.cebraspe.org.br/concursos/STM_17_ANALISTA_TECNICO/arquivos/GAB_DEFINITIVO_375_STM_CB4_08_SUPER_40.PDF; adaptação: item certo ou errado convertido em questão de cinco alternativas, preservando o núcleo sobre colocação competitiva como inclusão, e não discriminação."
+    }
+  ]
+}

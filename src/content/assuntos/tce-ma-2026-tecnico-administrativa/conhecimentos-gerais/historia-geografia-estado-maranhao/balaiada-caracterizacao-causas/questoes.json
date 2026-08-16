@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "questionSetRevision": 1,
+  "questions": [
+    {
+      "id": "q7299",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Sobre a atuação de Luís Alves de Lima e Silva na Balaiada, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ele assumiu a presidência do Maranhão e o comando das armas, enfrentando os balaios com medidas militares e políticas."
+        },
+        {
+          "id": "B",
+          "text": "Ele se recusou a enfrentar os balaios e abandonou definitivamente o Exército."
+        },
+        {
+          "id": "C",
+          "text": "Ele liderou as forças de Negro Cosme contra o governo imperial."
+        },
+        {
+          "id": "D",
+          "text": "Ele iniciou a revolta ao libertar presos na Vila da Manga."
+        },
+        {
+          "id": "E",
+          "text": "Ele governava o Piauí desde 1823 com o título de Barão da Parnaíba."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Nomeado e enviado em dezembro de 1839, Luís Alves chegou a São Luís e tomou posse das funções civis e militares em fevereiro de 1840. Raimundo Gomes iniciou o episódio da Manga; Negro Cosme liderou forças quilombolas; e o Barão da Parnaíba governava o Piauí. Fonte: questão adaptada de Cebraspe/PM-MA Soldado/2017/item 31/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi substituída por formulação correta na alternativa-chave."
+    },
+    {
+      "id": "q7300",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "A respeito da economia maranhense no período da Balaiada, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Algodão e arroz haviam desaparecido por completo, restando apenas a agroindústria açucareira."
+        },
+        {
+          "id": "B",
+          "text": "A economia combinava produção exportadora, pecuária, abastecimento interno e economia camponesa, e as dificuldades do algodão não explicam sozinhas a revolta."
+        },
+        {
+          "id": "C",
+          "text": "A província não participava de mercados externos e desconhecia o trabalho escravizado."
+        },
+        {
+          "id": "D",
+          "text": "Toda a população rural produzia exclusivamente para o mercado europeu."
+        },
+        {
+          "id": "E",
+          "text": "A crise econômica atingiu todos os grupos da mesma maneira e eliminou os conflitos políticos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A crise algodoeira agravou tensões, mas não extinguiu algodão e arroz nem tornou a economia exclusivamente açucareira. O Maranhão reunia plantation, economia camponesa, pecuária e produção para abastecimento. Fonte: questão adaptada de Cebraspe/PM-MA Soldado/2017/item 32/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Errado, e sua proposição foi preservada como distrator diante de uma síntese correta."
+    },
+    {
+      "id": "q7301",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Segundo interpretação historiográfica cobrada pelo Cebraspe, a formação do campesinato maranhense no contexto regencial reuniu quais matrizes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Somente proprietários portugueses, militares e comerciantes urbanos."
+        },
+        {
+          "id": "B",
+          "text": "Exclusivamente escravizados recém-chegados e funcionários da Corte."
+        },
+        {
+          "id": "C",
+          "text": "Indígenas aldeados ou destribalizados, libertos ou aquilombados e migrantes dos sertões vizinhos."
+        },
+        {
+          "id": "D",
+          "text": "Apenas imigrantes europeus, trabalhadores assalariados e industriais."
+        },
+        {
+          "id": "E",
+          "text": "Somente grandes fazendeiros, padres e autoridades provinciais."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A formulação destaca matrizes indígenas, afrodescendentes livres ou aquilombadas e migrantes, especialmente cearenses e piauienses. Ela ajuda a explicar a heterogeneidade do campesinato, não uma origem social única. Fonte: questão adaptada de Cebraspe/PM-MA Soldado/2017/item 33/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Certo, e seu núcleo foi mantido na alternativa-chave."
+    },
+    {
+      "id": "q7302",
+      "revision": 1,
+      "origin": "previous_exam",
+      "prompt": "Qual caracterização geral da Balaiada é compatível com a historiografia e com o gabarito oficial da PM/MA 2017?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Foi uma disputa exclusivamente urbana entre comerciantes de São Luís."
+        },
+        {
+          "id": "B",
+          "text": "Foi uma guerra estrangeira sem participação da população do Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "Foi uma revolta escrava homogênea, sem participação de livres pobres."
+        },
+        {
+          "id": "D",
+          "text": "Foi uma das grandes revoltas rurais da história do Brasil, com composição popular heterogênea."
+        },
+        {
+          "id": "E",
+          "text": "Foi um movimento eleitoral pacífico restrito ao ano de 1842."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Balaiada alcançou ampla dimensão rural, social e militar no Maranhão e no Piauí. Sua base incluiu livres pobres, pequenos produtores, indígenas, libertos, escravizados e quilombolas, sem homogeneidade. Fonte: questão adaptada de Cebraspe/PM-MA Soldado/2017/item 34/https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf; adaptação: conversão para cinco alternativas; o item oficial tinha gabarito Certo, e seu núcleo foi mantido na alternativa-chave."
+    },
+    {
+      "id": "q7303",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A datação mais adequada para o conflito principal da Balaiada é",
+      "options": [
+        {
+          "id": "A",
+          "text": "1821-1823."
+        },
+        {
+          "id": "B",
+          "text": "1888-1889."
+        },
+        {
+          "id": "C",
+          "text": "1930-1932."
+        },
+        {
+          "id": "D",
+          "text": "1817-1820."
+        },
+        {
+          "id": "E",
+          "text": "1838-1841."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O levante começou no fim de 1838 e foi declarado pacificado em 1841. A execução de Negro Cosme, em 1842, é efeito repressivo posterior, não o início de nova datação geral. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7304",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quanto à abrangência territorial, a Balaiada deve ser estudada como",
+      "options": [
+        {
+          "id": "A",
+          "text": "movimento fortemente enraizado no Maranhão e no Piauí, com repercussões no Ceará."
+        },
+        {
+          "id": "B",
+          "text": "revolta restrita à ilha de São Luís."
+        },
+        {
+          "id": "C",
+          "text": "conflito exclusivamente piauiense, sem origem maranhense."
+        },
+        {
+          "id": "D",
+          "text": "guerra ocorrida apenas no Pará."
+        },
+        {
+          "id": "E",
+          "text": "movimento limitado ao Rio de Janeiro."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A Vila da Manga ficava no Maranhão, mas colunas, causas e repressão atravessaram o vale do Parnaíba e mobilizaram amplas áreas piauienses. O Ceará teve repercussões mais limitadas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7305",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A participação do Ceará na Balaiada é descrita de forma mais prudente como",
+      "options": [
+        {
+          "id": "A",
+          "text": "centro exclusivo e indiscutível do movimento."
+        },
+        {
+          "id": "B",
+          "text": "área de repercussão e circulação, com peso documental menor que Maranhão e Piauí."
+        },
+        {
+          "id": "C",
+          "text": "província inteiramente alheia ao conflito."
+        },
+        {
+          "id": "D",
+          "text": "sede do governo de Luís Alves durante toda a campanha."
+        },
+        {
+          "id": "E",
+          "text": "local da Vila da Manga e da tomada de Caxias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Há registros de repercussões cearenses, mas a documentação e a historiografia situam os principais núcleos no Maranhão e no Piauí. Manga e Caxias são maranhenses. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7306",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Balaiada ocorreu no contexto político brasileiro conhecido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estado Novo."
+        },
+        {
+          "id": "B",
+          "text": "Primeira República."
+        },
+        {
+          "id": "C",
+          "text": "Período Regencial."
+        },
+        {
+          "id": "D",
+          "text": "República da Espada."
+        },
+        {
+          "id": "E",
+          "text": "Segundo Reinado após a Guerra do Paraguai."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O movimento começou no fim da Regência, marcada por construção do Estado imperial, conflitos provinciais e cidadania restrita. As demais alternativas pertencem a períodos posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7307",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual distinção evita uma explicação causal simplista da Balaiada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toda causa econômica é também o estopim imediato."
+        },
+        {
+          "id": "B",
+          "text": "Somente fatos ocorridos em 1842 podem ser considerados causas."
+        },
+        {
+          "id": "C",
+          "text": "Estrutura agrária e prisão na Manga são exatamente o mesmo evento."
+        },
+        {
+          "id": "D",
+          "text": "Causas estruturais e conjunturais criaram tensões, enquanto o episódio da Manga funcionou como estopim."
+        },
+        {
+          "id": "E",
+          "text": "Não houve qualquer relação entre contexto e início da revolta."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Concentração da terra, escravidão, crise econômica e conflito político antecederam o episódio da cadeia. O estopim ativou tensões existentes, mas não as substituiu. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7308",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a opção que apresenta, respectivamente, uma causa estrutural e uma causa imediata da Balaiada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tomada de Caxias e execução de Negro Cosme."
+        },
+        {
+          "id": "B",
+          "text": "Anistia de 1840 e chegada de Luís Alves."
+        },
+        {
+          "id": "C",
+          "text": "Manifesto de 14 de dezembro e pacificação de 1841."
+        },
+        {
+          "id": "D",
+          "text": "Adesão de Balaio e rendição de Raimundo Gomes."
+        },
+        {
+          "id": "E",
+          "text": "Concentração fundiária e prisão de integrantes da comitiva de Raimundo Gomes."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A concentração fundiária é tensão duradoura da estrutura social; a prisão e o recrutamento na comitiva desencadearam a invasão da cadeia. Os demais pares reúnem expansão ou desfecho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7309",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O antagonismo entre plantation e economia camponesa ajuda a explicar a Balaiada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "formas diferentes de produzir, ocupar a terra e exercer autoridade coexistiam em conflito no Maranhão Oriental."
+        },
+        {
+          "id": "B",
+          "text": "toda a produção camponesa havia sido proibida desde o período colonial."
+        },
+        {
+          "id": "C",
+          "text": "a plantation utilizava apenas trabalho livre e assalariado."
+        },
+        {
+          "id": "D",
+          "text": "não existiam pequenos ou médios produtores na região."
+        },
+        {
+          "id": "E",
+          "text": "o mercado interno era inexistente."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A historiografia identifica economia camponesa relativamente autônoma ao lado da grande lavoura escravista. A convivência incluía complementaridade, mas também disputa por terra, trabalho e poder. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7310",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a crise do algodão e a Balaiada, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Foi irrelevante e não afetou renda ou emprego."
+        },
+        {
+          "id": "B",
+          "text": "Agravou dificuldades econômicas, mas deve ser articulada a fatores agrários, sociais, políticos e coercitivos."
+        },
+        {
+          "id": "C",
+          "text": "Eliminou instantaneamente toda a produção de algodão e arroz."
+        },
+        {
+          "id": "D",
+          "text": "Transformou o Maranhão em economia exclusivamente industrial."
+        },
+        {
+          "id": "E",
+          "text": "Afetou apenas o Ceará e não o Maranhão."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Dificuldades exportadoras contribuíram para a instabilidade, mas não constituem causa única. A revolta dependeu também de conflito fundiário, facções, recrutamento e violência local. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7311",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A economia camponesa do Maranhão Oriental é relevante para explicar a Balaiada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "era idêntica à plantation escravista e não possuía interesses próprios."
+        },
+        {
+          "id": "B",
+          "text": "existia apenas dentro da cidade de São Luís."
+        },
+        {
+          "id": "C",
+          "text": "mantinha produção relativamente autônoma e voltada também ao mercado interno, em tensão com proprietários e negociantes da plantation."
+        },
+        {
+          "id": "D",
+          "text": "havia abolido toda forma de propriedade privada antes de 1838."
+        },
+        {
+          "id": "E",
+          "text": "dependia exclusivamente da importação de alimentos dos Estados Unidos."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Camponeses, criadores e produtores médios participavam de circuitos internos e usavam a terra de formas que podiam colidir com a grande lavoura e o controle dos proprietários. A relação incluía complementaridade e antagonismo, não identidade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7312",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma causa específica da dimensão piauiense da Balaiada foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "a inexistência de grandes fazendas de gado."
+        },
+        {
+          "id": "B",
+          "text": "a eleição direta de todos os prefeitos."
+        },
+        {
+          "id": "C",
+          "text": "a ausência de recrutamento militar."
+        },
+        {
+          "id": "D",
+          "text": "a combinação de estrutura pecuarista, expropriação de posseiros e governo autoritário do Barão da Parnaíba."
+        },
+        {
+          "id": "E",
+          "text": "o domínio de uma economia cafeeira industrial."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Claudete Dias destaca causas piauienses próprias: grande propriedade pecuarista, dízimos, dependência, recrutamento e longa autoridade do Barão da Parnaíba. Isso impede tratar o Piauí como reflexo passivo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7313",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A cidadania restrita do Império contribuiu para a Balaiada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "garantia igual acesso de escravizados aos cargos provinciais."
+        },
+        {
+          "id": "B",
+          "text": "eliminava hierarquias raciais e fundiárias."
+        },
+        {
+          "id": "C",
+          "text": "impedia autoridades de recrutar homens livres."
+        },
+        {
+          "id": "D",
+          "text": "distribuía terras gratuitamente a todos os sertanejos."
+        },
+        {
+          "id": "E",
+          "text": "mantinha grande parte dos pobres, indígenas, libertos e escravizados fora do poder formal e exposta à coerção."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Exclusão política e desigualdade jurídica não significaram passividade. Resistência ao recrutamento, fugas, libertação de presos e ocupações expressaram conflitos com o Estado e as elites. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7314",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma consequência social plausível das dificuldades da economia exportadora foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "pressão maior sobre trabalhadores, dependentes, crédito e emprego em uma sociedade já desigual."
+        },
+        {
+          "id": "B",
+          "text": "fim automático da escravidão."
+        },
+        {
+          "id": "C",
+          "text": "desaparecimento das disputas por terra."
+        },
+        {
+          "id": "D",
+          "text": "unificação política imediata das facções."
+        },
+        {
+          "id": "E",
+          "text": "enriquecimento uniforme de toda a população rural."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Crises tendem a distribuir custos de modo desigual. No Maranhão, dificuldades econômicas agravaram tensões preexistentes, sem abolir escravidão, conflitos fundiários ou diferenças políticas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7315",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A existência de proprietários médios e de uma classe média rural no Maranhão Oriental",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que não havia população pobre."
+        },
+        {
+          "id": "B",
+          "text": "ajuda a explicar interesses locais diversos e alianças instáveis entre proprietários, camponeses e facções."
+        },
+        {
+          "id": "C",
+          "text": "elimina a importância da plantation escravista."
+        },
+        {
+          "id": "D",
+          "text": "demonstra que a região era inteiramente urbana."
+        },
+        {
+          "id": "E",
+          "text": "impede qualquer vínculo com o mercado interno."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A estrutura regional não se reduzia a senhores e escravizados. Proprietários médios, pequenos fazendeiros e camponeses podiam aderir à oposição por motivos próprios, sem formar bloco homogêneo. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7316",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A presença de migrantes piauienses e cearenses no Maranhão Oriental é relevante porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "prova que todos os balaios nasceram no Ceará."
+        },
+        {
+          "id": "B",
+          "text": "impede reconhecer participação indígena e negra."
+        },
+        {
+          "id": "C",
+          "text": "revela conexões sertanejas e ajuda a explicar a circulação interprovincial do movimento."
+        },
+        {
+          "id": "D",
+          "text": "transforma a Balaiada em guerra internacional."
+        },
+        {
+          "id": "E",
+          "text": "localiza Caxias fora do Maranhão."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Migrações, comércio e redes sociais atravessavam fronteiras provinciais. Essa circulação favoreceu alianças e mobilidade, sem tornar todos os participantes cearenses ou apagar outras matrizes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7317",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No contexto da Balaiada, formas não plenamente privatizadas de uso da terra",
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminavam qualquer conflito entre fazendeiros e camponeses."
+        },
+        {
+          "id": "B",
+          "text": "garantiam propriedade legal igual para todos."
+        },
+        {
+          "id": "C",
+          "text": "existiam apenas em São Luís."
+        },
+        {
+          "id": "D",
+          "text": "podiam entrar em choque com a expansão do controle de proprietários e autoridades sobre o território."
+        },
+        {
+          "id": "E",
+          "text": "eram incompatíveis com pecuária e abastecimento."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Posse, uso comum e ocupação camponesa podiam ser ameaçados por apropriação privada e coerção. Esse conflito não equivale a programa moderno de reforma agrária, mas integra a base social da revolta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7318",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A afirmação de que o conflito agrário foi uma causa da Balaiada permite concluir que",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos os rebeldes defendiam o mesmo projeto de reforma agrária."
+        },
+        {
+          "id": "B",
+          "text": "a escravidão era inexistente no campo."
+        },
+        {
+          "id": "C",
+          "text": "somente grandes proprietários participaram da revolta."
+        },
+        {
+          "id": "D",
+          "text": "não havia causas políticas ou coercitivas."
+        },
+        {
+          "id": "E",
+          "text": "disputas por terra e autonomia camponesa foram importantes, sem implicar programa agrário único e moderno."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A historiografia identifica antagonismos estruturais, mas a composição rebelde era diversa e não possuía programa único. O conflito agrário coexistiu com escravidão, facções e recrutamento. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7319",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Os bem-te-vis eram, em linhas gerais,",
+      "options": [
+        {
+          "id": "A",
+          "text": "liberais de oposição associados a redes e imprensa contrárias ao governo provincial."
+        },
+        {
+          "id": "B",
+          "text": "todos os escravizados fugidos liderados por Negro Cosme."
+        },
+        {
+          "id": "C",
+          "text": "conservadores paraenses da Cabanagem."
+        },
+        {
+          "id": "D",
+          "text": "tropas portuguesas da Independência de 1823."
+        },
+        {
+          "id": "E",
+          "text": "um partido moderno com disciplina nacional uniforme."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Bem-te-vis designava facções liberais oposicionistas no Maranhão e no Piauí. Eles influíram na revolta, mas não eram sinônimo dos balaios nem partido moderno. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7320",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No vocabulário político da Balaiada, os cabanos eram",
+      "options": [
+        {
+          "id": "A",
+          "text": "quilombolas comandados por Cosme."
+        },
+        {
+          "id": "B",
+          "text": "conservadores ligados ao governo provincial e às autoridades locais."
+        },
+        {
+          "id": "C",
+          "text": "artesãos fabricantes de balaios."
+        },
+        {
+          "id": "D",
+          "text": "membros do movimento tenentista."
+        },
+        {
+          "id": "E",
+          "text": "liberais do jornal Bem-te-vi."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cabanos era a designação dos governistas conservadores no conflito provincial. Negro Cosme liderava quilombolas, Balaio era artesão e os bem-te-vis eram oposicionistas liberais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7321",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que não se deve confundir cabanos maranhenses com a Cabanagem?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque a Cabanagem ocorreu no século XX."
+        },
+        {
+          "id": "B",
+          "text": "Porque não houve conflitos no Pará."
+        },
+        {
+          "id": "C",
+          "text": "Porque o termo cabanos, na Balaiada, nomeava uma facção governista local, enquanto Cabanagem foi outro movimento, centrado no Pará."
+        },
+        {
+          "id": "D",
+          "text": "Porque ambos eram nomes de embarcações."
+        },
+        {
+          "id": "E",
+          "text": "Porque a palavra cabano não existia no século XIX."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A semelhança lexical não torna os fenômenos idênticos. A Cabanagem paraense teve contexto, base e trajetória próprios; na Balaiada, cabanos eram adversários conservadores dos bem-te-vis. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7322",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A Lei dos Prefeitos contribuiu para a Balaiada ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "criar sufrágio universal para a população pobre."
+        },
+        {
+          "id": "B",
+          "text": "abolir o poder do presidente provincial."
+        },
+        {
+          "id": "C",
+          "text": "extinguir toda autoridade local nomeada."
+        },
+        {
+          "id": "D",
+          "text": "permitir nomeações de prefeitos e subprefeitos pelo presidente, fortalecendo redes governistas e perseguições."
+        },
+        {
+          "id": "E",
+          "text": "transferir a capital do Maranhão para Caxias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A medida ampliou a intervenção provincial nas localidades e reduziu o espaço de autoridades locais eleitas, favorecendo os cabanos. Não criou eleição direta nem aboliu o presidente. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7323",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Uma consequência política da Lei dos Prefeitos foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "o desaparecimento das facções provinciais."
+        },
+        {
+          "id": "B",
+          "text": "a igualdade de acesso aos cargos para escravizados."
+        },
+        {
+          "id": "C",
+          "text": "o fim da Guarda Nacional."
+        },
+        {
+          "id": "D",
+          "text": "a autonomia completa dos juízes de paz."
+        },
+        {
+          "id": "E",
+          "text": "o agravamento do desequilíbrio entre redes locais ao aproximar nomeações do governo provincial."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O presidente podia colocar aliados em postos com poder coercitivo, deslocando adversários e afetando o equilíbrio local. Isso alimentou oposição liberal e popular. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7324",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O recrutamento militar compulsório atingia principalmente",
+      "options": [
+        {
+          "id": "A",
+          "text": "homens livres pobres, que podiam perder trabalho, autonomia e vínculo com suas famílias."
+        },
+        {
+          "id": "B",
+          "text": "apenas presidentes de província."
+        },
+        {
+          "id": "C",
+          "text": "somente grandes comerciantes estrangeiros."
+        },
+        {
+          "id": "D",
+          "text": "exclusivamente deputados da Corte."
+        },
+        {
+          "id": "E",
+          "text": "apenas oficiais já reformados."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "O recrutamento era mecanismo de obtenção de soldados e também de coerção social. Sua incidência desigual sobre a população pobre produzia deserções, fugas e resistência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7325",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Na explicação da Balaiada, o recrutamento pode ser entendido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "apenas detalhe militar sem impacto social."
+        },
+        {
+          "id": "B",
+          "text": "causa social, instrumento de perseguição política e elemento do estopim na Vila da Manga."
+        },
+        {
+          "id": "C",
+          "text": "medida que beneficiava igualmente todos os grupos."
+        },
+        {
+          "id": "D",
+          "text": "prática criada por Negro Cosme."
+        },
+        {
+          "id": "E",
+          "text": "instituição posterior à República."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O recrutamento expressava desigualdade diante do Estado, podia ser manipulado por autoridades locais e aparece diretamente nas prisões que desencadearam a reação de Raimundo Gomes. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7326",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O estopim mais documentado da Balaiada foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "a execução de Negro Cosme em 1842."
+        },
+        {
+          "id": "B",
+          "text": "a proclamação da República em 1889."
+        },
+        {
+          "id": "C",
+          "text": "a prisão ou o recrutamento de integrantes da comitiva e do irmão de Raimundo Gomes, seguida da invasão da cadeia."
+        },
+        {
+          "id": "D",
+          "text": "a nomeação de Luís Alves em dezembro de 1839."
+        },
+        {
+          "id": "E",
+          "text": "a anistia imperial de 1840."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "O episódio da Vila da Manga transformou uma experiência concreta de coerção em ação coletiva. Nomeação do comandante, execução, repressão e anistia pertencem a fases posteriores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7327",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A divergência entre 13 e 14 de dezembro de 1838 pode ser tratada adequadamente ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "descartar todas as fontes como falsas."
+        },
+        {
+          "id": "B",
+          "text": "afirmar que o movimento começou em 1842."
+        },
+        {
+          "id": "C",
+          "text": "escolher sempre a data mais recente sem verificar o evento."
+        },
+        {
+          "id": "D",
+          "text": "distinguir a invasão e libertação da cadeia do manifesto ou da afirmação pública subsequente."
+        },
+        {
+          "id": "E",
+          "text": "confundir os dois dias com a tomada de Caxias."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Datas próximas podem designar atos sucessivos do início da revolta. Identificar o evento descrito evita transformar diferença de cronologia em contradição absoluta. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7328",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que o episódio da cadeia da Vila da Manga não basta para explicar a Balaiada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque ocorreu depois do fim do movimento."
+        },
+        {
+          "id": "B",
+          "text": "Porque não envolveu Raimundo Gomes."
+        },
+        {
+          "id": "C",
+          "text": "Porque a cadeia ficava no Rio de Janeiro."
+        },
+        {
+          "id": "D",
+          "text": "Porque não houve libertação de presos."
+        },
+        {
+          "id": "E",
+          "text": "Porque o estopim só ganhou escala em meio a tensões agrárias, econômicas, políticas e coercitivas anteriores."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O incidente ativou redes e conflitos já existentes. Sem base social, oposição política e experiências de violência estatal, uma ação local não explicaria a expansão regional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7329",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Raimundo Gomes Vieira Jataí foi",
+      "options": [
+        {
+          "id": "A",
+          "text": "vaqueiro ligado ao episódio da Vila da Manga e chefe de uma coluna rebelde móvel."
+        },
+        {
+          "id": "B",
+          "text": "presidente conservador do Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "artesão cujo apelido deu nome ao movimento."
+        },
+        {
+          "id": "D",
+          "text": "comandante imperial enviado em 1839."
+        },
+        {
+          "id": "E",
+          "text": "líder quilombola executado em 1842."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Raimundo Gomes reagiu à prisão e ao recrutamento em sua comitiva. Balaio era o artesão, Luís Alves o comandante imperial e Negro Cosme a liderança quilombola. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7330",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Manuel Francisco dos Anjos Ferreira ficou conhecido como",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cara Preta, por ser vaqueiro de Raimundo Gomes."
+        },
+        {
+          "id": "B",
+          "text": "Balaio, por exercer o ofício de artesão da palha e fabricar balaios."
+        },
+        {
+          "id": "C",
+          "text": "Barão da Parnaíba, por governar o Piauí."
+        },
+        {
+          "id": "D",
+          "text": "Duque de Caxias, por comandar a repressão."
+        },
+        {
+          "id": "E",
+          "text": "Tutor das Liberdades, por liderar quilombolas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "O apelido Balaio deu nome consagrado ao movimento. Cara Preta se relaciona a Raimundo Gomes; Barão da Parnaíba e Luís Alves eram autoridades repressoras; Negro Cosme usou títulos ligados à liberdade. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7331",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A caracterização mais prudente de Negro Cosme é",
+      "options": [
+        {
+          "id": "A",
+          "text": "grande comerciante português de São Luís."
+        },
+        {
+          "id": "B",
+          "text": "juiz de paz eleito pela Lei dos Prefeitos."
+        },
+        {
+          "id": "C",
+          "text": "líder negro quilombola ligado à fuga da escravidão e à organização de milhares de seguidores."
+        },
+        {
+          "id": "D",
+          "text": "presidente do Maranhão nomeado pelo regente."
+        },
+        {
+          "id": "E",
+          "text": "artesão que iniciou a invasão da cadeia."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As fontes divergem sobre sua condição jurídica exata, por isso a formulação enfatiza sua liderança quilombola e antiescravista. Ele não era autoridade, comerciante ou o artesão Balaio. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7332",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Lívio Lopes Castelo Branco deve ser apresentado como",
+      "options": [
+        {
+          "id": "A",
+          "text": "escravizado fugido que comandava o quilombo de Cosme."
+        },
+        {
+          "id": "B",
+          "text": "fabricante de balaios sem atuação política."
+        },
+        {
+          "id": "C",
+          "text": "comandante imperial que substituiu Luís Alves."
+        },
+        {
+          "id": "D",
+          "text": "fazendeiro, militar e liberal piauiense, articulador controverso entre oposição e movimento armado."
+        },
+        {
+          "id": "E",
+          "text": "presidente cabano do Maranhão durante toda a Regência."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Lívio pertencia a setores alfabetizados e proprietários da oposição piauiense. Sua posição e seus objetivos não devem ser automaticamente igualados aos de vaqueiros, artesãos ou quilombolas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7333",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No período em que reprimiu a Balaiada, Luís Alves de Lima e Silva",
+      "options": [
+        {
+          "id": "A",
+          "text": "já nascera com o título de Duque de Caxias."
+        },
+        {
+          "id": "B",
+          "text": "era líder do jornal Bem-te-vi."
+        },
+        {
+          "id": "C",
+          "text": "governava o Piauí desde 1823."
+        },
+        {
+          "id": "D",
+          "text": "havia iniciado a revolta na Vila da Manga."
+        },
+        {
+          "id": "E",
+          "text": "era oficial e futuro Duque de Caxias, tendo recebido títulos nobiliárquicos posteriores à campanha."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Chamá-lo de futuro Duque de Caxias evita projetar retrospectivamente o título mais conhecido. Nomeado em dezembro de 1839, ele chegou e tomou posse da autoridade civil e militar no Maranhão em fevereiro de 1840. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7334",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O Barão da Parnaíba é relevante para compreender a Balaiada porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "seu governo longo, autoritário e clientelista no Piauí alimentou causas locais e dirigiu a repressão provincial."
+        },
+        {
+          "id": "B",
+          "text": "foi o artesão que deu nome à revolta."
+        },
+        {
+          "id": "C",
+          "text": "liderou milhares de quilombolas."
+        },
+        {
+          "id": "D",
+          "text": "escreveu o jornal Bem-te-vi em São Luís e aboliu o recrutamento."
+        },
+        {
+          "id": "E",
+          "text": "foi preso na Vila da Manga por Raimundo Gomes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Manuel de Sousa Martins concentrou autoridade no Piauí e comandou forças legais. Sua atuação ajuda a demonstrar que a mobilização piauiense tinha causas próprias. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7335",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A heterogeneidade social da Balaiada significa que",
+      "options": [
+        {
+          "id": "A",
+          "text": "não havia qualquer participação popular."
+        },
+        {
+          "id": "B",
+          "text": "grupos diferentes podiam combater adversários comuns por objetivos que nem sempre coincidiam."
+        },
+        {
+          "id": "C",
+          "text": "todos obedeciam a um programa único escrito por Negro Cosme."
+        },
+        {
+          "id": "D",
+          "text": "somente grandes proprietários participaram."
+        },
+        {
+          "id": "E",
+          "text": "não existiram conflitos internos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Vaqueiros, artesãos, pequenos fazendeiros, liberais e quilombolas possuíam posições distintas. A convergência produziu força militar, mas também tensões e rupturas. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7336",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Sobre a dimensão antiescravista da Balaiada, assinale a opção correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ela foi inexistente, pois nenhum escravizado participou."
+        },
+        {
+          "id": "B",
+          "text": "Todos os liberais proprietários defendiam abolição imediata."
+        },
+        {
+          "id": "C",
+          "text": "A liderança de Negro Cosme e a participação quilombola foram decisivas, mas não criaram programa abolicionista único para todo o movimento."
+        },
+        {
+          "id": "D",
+          "text": "A anistia tratou livres e escravizados de modo idêntico."
+        },
+        {
+          "id": "E",
+          "text": "A escravidão terminou no Maranhão em 1840."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Houve luta concreta por liberdade e contra reescravização, mas as colunas eram heterogêneas e muitos aliados livres ou proprietários não partilhavam projeto abolicionista. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7337",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A aliança entre liberais bem-te-vis e grupos populares tornou-se instável sobretudo porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "todos tinham a mesma posição sobre escravidão e terra."
+        },
+        {
+          "id": "B",
+          "text": "não havia disputa por cargos ou governo."
+        },
+        {
+          "id": "C",
+          "text": "os quilombolas apoiavam a reescravização."
+        },
+        {
+          "id": "D",
+          "text": "oposicionistas proprietários, sertanejos pobres e quilombolas possuíam interesses sociais diferentes."
+        },
+        {
+          "id": "E",
+          "text": "o movimento não alcançou nenhuma localidade."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A oposição ao governo podia unir grupos temporariamente, mas liberdade escrava, autonomia sertaneja e disputa de elites não eram projetos equivalentes. Essas diferenças facilitaram divisões. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7338",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual afirmação sobre a liderança da Balaiada é correta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Negro Cosme comandou sozinho todas as colunas desde 1838."
+        },
+        {
+          "id": "B",
+          "text": "Luís Alves era o líder supremo dos rebeldes."
+        },
+        {
+          "id": "C",
+          "text": "Balaio iniciou pessoalmente o episódio da cadeia antes de Raimundo Gomes."
+        },
+        {
+          "id": "D",
+          "text": "O movimento possuía comando nacional permanente e sem dissensões."
+        },
+        {
+          "id": "E",
+          "text": "Raimundo Gomes, Balaio, Negro Cosme e outros chefes dirigiram forças distintas, sem liderança única estável."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A Balaiada teve múltiplas colunas e projetos. Raimundo iniciou o episódio da Manga, Balaio aderiu depois e Cosme organizou forças quilombolas; nenhum concentrou comando absoluto. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7339",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A expressão guerrilha sertaneja destaca, na Balaiada,",
+      "options": [
+        {
+          "id": "A",
+          "text": "mobilidade, uso de matas, emboscadas, surpresa e ataques a rotas e localidades."
+        },
+        {
+          "id": "B",
+          "text": "combates exclusivamente navais."
+        },
+        {
+          "id": "C",
+          "text": "guerra entre países estrangeiros."
+        },
+        {
+          "id": "D",
+          "text": "ausência de participação rural."
+        },
+        {
+          "id": "E",
+          "text": "uma única batalha campal decisiva."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "As colunas aproveitavam conhecimento do território e mobilidade para enfrentar forças mais estruturadas. Isso não elimina ocupações de vilas nem transforma o conflito em guerra internacional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7340",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A tomada de Caxias pelos rebeldes demonstra",
+      "options": [
+        {
+          "id": "A",
+          "text": "que o movimento permaneceu restrito à Vila da Manga."
+        },
+        {
+          "id": "B",
+          "text": "a escala militar e política alcançada pela Balaiada em 1839."
+        },
+        {
+          "id": "C",
+          "text": "que Caxias ficava no Piauí."
+        },
+        {
+          "id": "D",
+          "text": "o fim imediato da guerra sem repressão posterior."
+        },
+        {
+          "id": "E",
+          "text": "a ausência de organização entre as colunas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Caxias era centro importante do leste maranhense. Sua ocupação revelou capacidade de mobilização, embora os rebeldes continuassem divididos e o governo retomasse a iniciativa. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7341",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Ao mencionar números de combatentes ou seguidores de Negro Cosme, o texto histórico deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "usar sempre o maior número como verdade exata."
+        },
+        {
+          "id": "B",
+          "text": "ignorar a autoria dos relatórios repressivos."
+        },
+        {
+          "id": "C",
+          "text": "tratar as quantidades como estimativas e preferir milhares quando a precisão não estiver demonstrada."
+        },
+        {
+          "id": "D",
+          "text": "afirmar que não houve participantes quilombolas."
+        },
+        {
+          "id": "E",
+          "text": "somar automaticamente mortos e prisioneiros de fontes diferentes."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A mobilidade das colunas e a origem interessada de muitos relatórios tornam as quantificações instáveis. Qualificar estimativas evita falsa precisão. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7342",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O ano de 1839 foi importante porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "marcou a execução de Negro Cosme."
+        },
+        {
+          "id": "B",
+          "text": "encerrou definitivamente a guerra em janeiro."
+        },
+        {
+          "id": "C",
+          "text": "antecedeu o episódio da Vila da Manga."
+        },
+        {
+          "id": "D",
+          "text": "assistiu à expansão das colunas, à adesão de lideranças e à demonstração de força em Caxias."
+        },
+        {
+          "id": "E",
+          "text": "correspondeu à proclamação da República brasileira."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Depois do início em dezembro de 1838, o movimento se ampliou durante 1839. A execução de Cosme ocorreu em 1842, e a República somente em 1889. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7343",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A repressão comandada por Luís Alves combinou",
+      "options": [
+        {
+          "id": "A",
+          "text": "somente perdão, sem operações militares."
+        },
+        {
+          "id": "B",
+          "text": "apenas uma batalha naval em São Luís."
+        },
+        {
+          "id": "C",
+          "text": "retirada das tropas e entrega do governo aos balaios."
+        },
+        {
+          "id": "D",
+          "text": "abolição imediata da escravidão e reforma agrária."
+        },
+        {
+          "id": "E",
+          "text": "reorganização militar, bloqueio de abastecimento, exploração de dissensões e anistia seletiva."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "O governo articulou força e negociação para isolar colunas. A estratégia não foi conciliação igualitária: proprietários apoiaram tropas e escravizados ficaram expostos à captura e reescravização. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7344",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A anistia imperial de 1840 contribuiu para o desfecho ao",
+      "options": [
+        {
+          "id": "A",
+          "text": "estimular rendições e divisões, sem garantir tratamento igual a livres e escravizados."
+        },
+        {
+          "id": "B",
+          "text": "abolir a escravidão em todo o Império."
+        },
+        {
+          "id": "C",
+          "text": "entregar Caxias definitivamente a Negro Cosme."
+        },
+        {
+          "id": "D",
+          "text": "retirar Luís Alves do comando antes de qualquer operação."
+        },
+        {
+          "id": "E",
+          "text": "unificar todos os rebeldes sob um programa único."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A oferta de perdão ajudou a separar grupos e reduzir apoios. Seus limites sociais revelam que a ordem escravista condicionava quem podia ser reintegrado e quem seria reprimido. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7345",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O termo pacificação deve ser usado criticamente porque",
+      "options": [
+        {
+          "id": "A",
+          "text": "significa ausência total de violência."
+        },
+        {
+          "id": "B",
+          "text": "é linguagem estatal que pode ocultar captura, morte, coerção e reescravização."
+        },
+        {
+          "id": "C",
+          "text": "foi criado pelos balaios para nomear sua vitória final."
+        },
+        {
+          "id": "D",
+          "text": "se refere apenas a acordo diplomático com Portugal."
+        },
+        {
+          "id": "E",
+          "text": "prova que todos os objetivos populares foram atendidos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Autoridades apresentavam a restauração da ordem como pacificação. A análise histórica precisa recuperar os custos sociais e a violência que essa expressão pode apagar. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7346",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual sequência resume corretamente o encerramento da Balaiada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Execução de Cosme, início na Manga, chegada de Luís Alves."
+        },
+        {
+          "id": "B",
+          "text": "Proclamação da República, anistia, tomada de Caxias."
+        },
+        {
+          "id": "C",
+          "text": "Ofensiva imperial e anistia, rendições e pacificação declarada, execução posterior de Negro Cosme."
+        },
+        {
+          "id": "D",
+          "text": "Vitória definitiva dos balaios, abolição e retirada imperial."
+        },
+        {
+          "id": "E",
+          "text": "Fim em 1838, antes da expansão para o Piauí."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A combinação de repressão e anistia enfraqueceu o movimento em 1840-1841. Cosme foi capturado e executado em 1842, mostrando prolongamento repressivo após o fim convencional. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7347",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A execução de Negro Cosme em 1842",
+      "options": [
+        {
+          "id": "A",
+          "text": "marca o início da Balaiada."
+        },
+        {
+          "id": "B",
+          "text": "prova que o conflito principal ocorreu somente naquele ano."
+        },
+        {
+          "id": "C",
+          "text": "antecede a chegada de Luís Alves ao Maranhão."
+        },
+        {
+          "id": "D",
+          "text": "foi consequência repressiva posterior ao encerramento convencional de 1838-1841."
+        },
+        {
+          "id": "E",
+          "text": "ocorreu antes da tomada de Caxias pelos rebeldes."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Cosme foi capturado depois do enfraquecimento das colunas e executado quando a guerra já era declarada encerrada. Por isso 1842 deve ser qualificado, não usado como início ou período principal. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7348",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "O tratamento diferente dado a livres e escravizados no desfecho confirma",
+      "options": [
+        {
+          "id": "A",
+          "text": "que a sociedade imperial já era juridicamente igualitária."
+        },
+        {
+          "id": "B",
+          "text": "que não havia quilombolas no movimento."
+        },
+        {
+          "id": "C",
+          "text": "que a anistia aboliu hierarquias raciais."
+        },
+        {
+          "id": "D",
+          "text": "que todos os grupos receberam as mesmas garantias."
+        },
+        {
+          "id": "E",
+          "text": "a heterogeneidade dos participantes e os limites escravistas da solução imperial."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Livres podiam ser anistiados e reintegrados de forma distinta, enquanto escravizados continuavam sujeitos a captura e reescravização. O desfecho expõe os projetos incompatíveis dentro da aliança. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7349",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Quando relatórios oficiais chamam os balaios de facínoras ou bandidos, o historiador deve",
+      "options": [
+        {
+          "id": "A",
+          "text": "tratar esses termos como linguagem do aparato repressivo e confrontá-los com ações, contexto e outras evidências."
+        },
+        {
+          "id": "B",
+          "text": "aceitá-los como classificação científica neutra."
+        },
+        {
+          "id": "C",
+          "text": "concluir que não existiam reivindicações políticas."
+        },
+        {
+          "id": "D",
+          "text": "descartar todo documento oficial sem leitura."
+        },
+        {
+          "id": "E",
+          "text": "atribuir os termos aos próprios rebeldes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A fonte oficial é valiosa, mas foi produzida por um lado do conflito. Crítica documental exige identificar autoria e finalidade sem aceitar rótulos repressivos nem abandonar a evidência. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7350",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A ausência de um programa escrito centralizado permite afirmar que os balaios não tinham ação política?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sim, porque somente textos impressos são políticos."
+        },
+        {
+          "id": "B",
+          "text": "Não; libertar presos, resistir ao recrutamento, ocupar localidades e formular reivindicações são ações políticas."
+        },
+        {
+          "id": "C",
+          "text": "Sim, porque toda a população era analfabeta."
+        },
+        {
+          "id": "D",
+          "text": "Não, mas apenas porque Luís Alves escreveu por eles."
+        },
+        {
+          "id": "E",
+          "text": "Sim, porque movimentos rurais não podem ter objetivos."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A historiografia social reconstrói projetos por atos, alianças e reivindicações, não apenas por manifestos. Heterogeneidade e oralidade não equivalem a incapacidade política. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7351",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "A relação entre elites liberais e grupos populares na Balaiada é mais bem descrita como",
+      "options": [
+        {
+          "id": "A",
+          "text": "ausência completa de contato."
+        },
+        {
+          "id": "B",
+          "text": "controle absoluto e permanente dos populares pelos bem-te-vis."
+        },
+        {
+          "id": "C",
+          "text": "convergência instável, com articulação e tentativa de instrumentalização liberal, mas também agência popular própria."
+        },
+        {
+          "id": "D",
+          "text": "identidade total de objetivos sobre escravidão e terra."
+        },
+        {
+          "id": "E",
+          "text": "aliança criada apenas depois de 1842."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Setores oposicionistas forneceram redes e linguagem, mas vaqueiros, camponeses e quilombolas agiram por interesses próprios. A relação combinou cooperação, disputa e ruptura. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7352",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Por que é inadequado atribuir a todos os balaios a defesa de um único projeto constitucional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque os atos populares não podem possuir conteúdo político."
+        },
+        {
+          "id": "B",
+          "text": "Porque nenhuma Constituição existia no Império."
+        },
+        {
+          "id": "C",
+          "text": "Porque todos os participantes eram conservadores cabanos."
+        },
+        {
+          "id": "D",
+          "text": "Porque grupos heterogêneos formularam objetivos diferentes, e referências à Constituição podiam designar a ordem vigente ou um arranjo mais igualitário."
+        },
+        {
+          "id": "E",
+          "text": "Porque somente autoridades imperiais podiam conhecer ideias políticas."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Atribuir marca ideológica única apaga projetos e posições sociais divergentes. O Cebraspe anulou o item 30 da PM/MA 2017 justamente porque sua redação permitia confundir defesa da Constituição vigente com defesa de uma Constituição mais igualitária. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7353",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Em uma questão que afirma que a crise do algodão foi exclusivamente responsável pela Balaiada, a palavra decisiva para rejeitar a tese é",
+      "options": [
+        {
+          "id": "A",
+          "text": "crise, porque não houve dificuldades econômicas."
+        },
+        {
+          "id": "B",
+          "text": "algodão, porque não era produzido no Maranhão."
+        },
+        {
+          "id": "C",
+          "text": "Balaiada, porque o movimento não existiu."
+        },
+        {
+          "id": "D",
+          "text": "responsável, porque causas nunca produzem efeitos."
+        },
+        {
+          "id": "E",
+          "text": "exclusivamente, porque apaga fatores agrários, políticos, sociais e coercitivos."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "A crise integra a explicação, mas a monocausalidade é inadequada. O método de prova deve identificar totalizações que eliminam a interação entre níveis causais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7354",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a linha do tempo correta.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vila da Manga em 1838; expansão em 1839; anistia em 1840; pacificação declarada em 1841; execução de Cosme em 1842."
+        },
+        {
+          "id": "B",
+          "text": "Execução de Cosme em 1838; Manga em 1840; anistia em 1842."
+        },
+        {
+          "id": "C",
+          "text": "Anistia em 1838; tomada de Caxias em 1842; início em 1845."
+        },
+        {
+          "id": "D",
+          "text": "Proclamação da República em 1839; pacificação em 1889."
+        },
+        {
+          "id": "E",
+          "text": "Manga em 1823; Caxias em 1824; Cosme em 1825."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A sequência separa início, expansão, estratégia repressiva, encerramento convencional e consequência posterior. As demais alternativas misturam períodos e eventos. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7355",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual alternativa combina corretamente uma causa política e uma causa coercitiva?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Crise do algodão e tomada de Caxias."
+        },
+        {
+          "id": "B",
+          "text": "Disputa entre bem-te-vis e cabanos e recrutamento compulsório de homens livres pobres."
+        },
+        {
+          "id": "C",
+          "text": "Execução de Cosme e anistia de 1840."
+        },
+        {
+          "id": "D",
+          "text": "Produção de arroz e fabricação de balaios."
+        },
+        {
+          "id": "E",
+          "text": "Migração cearense e título de Duque de Caxias."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A disputa faccional organizava o conflito pelo poder; o recrutamento materializava a violência estatal sobre a população pobre. Tomada, anistia e execução pertencem sobretudo à expansão ou ao desfecho. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7356",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Qual conjunto associa corretamente três lideranças às suas bases de atuação?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Raimundo Gomes - presidente provincial; Balaio - comandante imperial; Negro Cosme - grande comerciante."
+        },
+        {
+          "id": "B",
+          "text": "Raimundo Gomes - artesão; Balaio - líder quilombola; Negro Cosme - vaqueiro."
+        },
+        {
+          "id": "C",
+          "text": "Raimundo Gomes - vaqueiro; Balaio - artesão da palha; Negro Cosme - líder quilombola."
+        },
+        {
+          "id": "D",
+          "text": "Raimundo Gomes - almirante; Balaio - juiz de paz; Negro Cosme - deputado."
+        },
+        {
+          "id": "E",
+          "text": "Raimundo Gomes - barão; Balaio - presidente do Piauí; Negro Cosme - comandante legalista."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As origens sociais ajudam a distinguir projetos dentro da revolta: Raimundo era vaqueiro, Manuel Francisco dos Anjos Ferreira fabricava balaios e Cosme organizou forças quilombolas. Nenhum deles ocupava os cargos oficiais dos distratores. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7357",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "Assinale a alternativa que ordena corretamente causa estrutural, causa conjuntural e estopim da Balaiada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anistia de 1840; execução de Cosme; tomada de Caxias."
+        },
+        {
+          "id": "B",
+          "text": "Chegada de Luís Alves; pacificação; proclamação da República."
+        },
+        {
+          "id": "C",
+          "text": "Prisão na Manga; escravidão; dificuldades do algodão."
+        },
+        {
+          "id": "D",
+          "text": "Concentração fundiária e escravidão; dificuldades econômicas e disputa faccional; prisões na comitiva de Raimundo Gomes."
+        },
+        {
+          "id": "E",
+          "text": "Tomada de Caxias; Lei dos Prefeitos; formação do campesinato."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Estruturas agrária e escravista produziram tensões duradouras; crise e facções compuseram a conjuntura; o recrutamento e as prisões na comitiva desencadearam a ação imediata. Expansão e repressão não devem ser invertidas como causas iniciais. Fonte: questão autoral baseada nas referências do conteúdo."
+    },
+    {
+      "id": "q7358",
+      "revision": 1,
+      "origin": "authorial",
+      "prompt": "No Piauí, a cobrança de dízimos e a dependência de posseiros diante de grandes fazendeiros devem ser entendidas como",
+      "options": [
+        {
+          "id": "A",
+          "text": "provas de que a estrutura agrária era igualitária."
+        },
+        {
+          "id": "B",
+          "text": "efeitos exclusivos da industrialização do século XX."
+        },
+        {
+          "id": "C",
+          "text": "medidas que eliminaram o recrutamento militar."
+        },
+        {
+          "id": "D",
+          "text": "fatores sem relação com a mobilização popular."
+        },
+        {
+          "id": "E",
+          "text": "formas de extração e dependência que sujeitavam posseiros à grande propriedade pecuarista e integravam as causas agrárias da revolta."
+        }
+      ],
+      "correctOptionId": "E",
+      "explanation": "Grande propriedade pecuarista, expropriação, dízimos e dependência estruturavam conflitos entre posseiros e fazendeiros no Piauí. Esse recorte agrário ajuda a explicar a mobilização provincial sem reduzi-la a reflexo passivo do Maranhão. Fonte: questão autoral baseada nas referências do conteúdo."
+    }
+  ]
+}
