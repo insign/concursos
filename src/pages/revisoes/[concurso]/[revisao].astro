@@ -1,0 +1,132 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import AbbreviationRuntime from '../../../components/AbbreviationRuntime.astro';
+import MermaidRuntime from '../../../components/MermaidRuntime.astro';
+import PrintButton from '../../../components/PrintButton.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCatalog, type CatalogContest, type CatalogGroup } from '../../../lib/catalog';
+import { hasMarkdownH1 } from '../../../lib/markdown-headings';
+import { hasMermaidCodeFence } from '../../../lib/resolution-markdown';
+import { collectMegaReviewScope } from '../../../lib/mega-review-scope';
+import { megaReviewRoute } from '../../../lib/mega-review-routes';
+
+interface Props {
+  contest: CatalogContest;
+  group: CatalogGroup;
+  groupPath: CatalogGroup[];
+  review: CollectionEntry<'megaRevisoes'>;
+}
+
+type ReviewStaticPath = {
+  params: { concurso: string; revisao: string };
+  props: Props;
+};
+
+export async function getStaticPaths() {
+  const { contests } = await getCatalog();
+  const getReviewPaths = (
+    contest: CatalogContest,
+    groups: CatalogGroup[],
+    parentPath: CatalogGroup[] = [],
+  ): ReviewStaticPath[] => groups.flatMap((group): ReviewStaticPath[] => {
+    const groupPath = [...parentPath, group];
+    const review = group.megaReviewEntry;
+    const current = review
+      ? [{
+          params: { concurso: contest.slug, revisao: review.data.slug },
+          props: {
+            contest,
+            group,
+            groupPath,
+            review,
+          },
+        }]
+      : [];
+    const children = group.children.filter((node): node is CatalogGroup => node.kind === 'group');
+    return [...current, ...getReviewPaths(contest, children, groupPath)];
+  });
+
+  return contests.flatMap((contest) => getReviewPaths(contest, contest.children));
+}
+
+const { contest, group, groupPath, review } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await render(review);
+const body = review.body ?? '';
+const reviewTitle = review.data.title ?? `Mega revisão: ${group.title}`;
+const hasAbbreviation = remarkPluginFrontmatter.hasTitledAbbreviation === true;
+const hasMermaid = hasMermaidCodeFence(body);
+const contentHasH1 = hasMarkdownH1(body);
+const scope = collectMegaReviewScope(group);
+---
+
+<BaseLayout
+  title={reviewTitle}
+  description={group.description ?? `Mega revisão editorial de ${group.title}.`}
+  pageClass="mega-review-page"
+>
+  <main class="mega-review-shell">
+    <nav class="breadcrumbs print-hidden" aria-label="Caminho da página">
+      <a class="breadcrumb-home" href="/" aria-label="Concursos" title="Concursos">
+        <span aria-hidden="true">C</span>
+      </a>
+      <span aria-hidden="true">/</span>
+      <a class="breadcrumb-contest" href={`/concursos/${contest.slug}/`} title={contest.title}>
+        {contest.title}
+      </a>
+      {
+        groupPath.map((pathGroup) => (
+          <>
+            <span aria-hidden="true">/</span>
+            <span class="breadcrumb-group" title={pathGroup.title}>{pathGroup.title}</span>
+          </>
+        ))
+      }
+      <span aria-hidden="true">/</span>
+      <span>Mega revisão</span>
+    </nav>
+
+    <div class="mega-review-actions print-hidden">
+      <PrintButton label="Imprimir mega revisão" />
+    </div>
+
+    <div class="reading-surface">
+      <article class="mega-review-content">
+        {!contentHasH1 && <h1>{reviewTitle}</h1>}
+        <Content />
+
+        <section class="mega-review-scope" data-mega-review-scope aria-labelledby="mega-review-scope-title">
+          <h2 id="mega-review-scope-title">Abrangência</h2>
+          {scope.length > 0 ? (
+            <ul class="mega-review-scope-list">
+              {scope.map((entry) => (
+                <li>
+                  {entry.kind === 'subject' ? (
+                    <>
+                      <a href={`/concursos/${contest.slug}/${entry.subject.slug}/`}>
+                        {entry.subject.title}
+                      </a>
+                      <span class="mega-review-scope-secondary">
+                        {' · '}
+                        <a href={`/concursos/${contest.slug}/${entry.subject.slug}/cheat-sheet/`}>
+                          cheat sheet
+                        </a>
+                      </span>
+                    </>
+                  ) : (
+                    <a href={megaReviewRoute(contest.slug, entry.group.megaReview!.slug)}>
+                      Mega revisão: {entry.group.megaReview!.title}
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p>Esta revisão ainda não possui assuntos descendentes publicados.</p>
+          )}
+        </section>
+      </article>
+    </div>
+  </main>
+  {hasAbbreviation && <AbbreviationRuntime />}
+  {hasMermaid && <MermaidRuntime />}
+</BaseLayout>

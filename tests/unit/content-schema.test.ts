@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   contestSchema,
   groupSchema,
+  megaReviewSchema,
   questionSetSchema,
   resolutionSchema,
   subjectSchema,
@@ -46,6 +47,10 @@ describe('content schemas', () => {
     expect(
       groupSchema.parse({ schemaVersion: 1, title: 'Grupo', order: 1, description: 'Descrição' }),
     ).toBeTruthy();
+    expect(megaReviewSchema.parse({ schemaVersion: 1, slug: 'revisao-integrada' })).toEqual({
+      schemaVersion: 1,
+      slug: 'revisao-integrada',
+    });
     expect(
       subjectSchema.parse({
         schemaVersion: 1,
@@ -87,6 +92,9 @@ describe('content schemas', () => {
         duplicatedMetadata: true,
       }),
     ).toThrow();
+    expect(() => megaReviewSchema.parse({ schemaVersion: 2, slug: 'revisao' })).toThrow();
+    expect(() => megaReviewSchema.parse({ schemaVersion: 1, slug: 'Revisao' })).toThrow();
+    expect(() => megaReviewSchema.parse({ schemaVersion: 1, slug: 'revisao', extra: true })).toThrow();
   });
 
   it('validates question IDs, revisions and answer keys', () => {

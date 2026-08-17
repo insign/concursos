@@ -27,6 +27,7 @@ Os concursos ficam em `src/content/concursos/`. Grupos editoriais são obrigató
 
 ```
 src/content/assuntos/<concurso>/<grupo>/grupo.json
+src/content/assuntos/<concurso>/<grupo>/mega-revisao/index.md  # opcional
 src/content/assuntos/<concurso>/<grupo>/<assunto>/
   conteudo.md
   cheat-sheet.md
@@ -34,6 +35,7 @@ src/content/assuntos/<concurso>/<grupo>/<assunto>/
 
 src/content/assuntos/<concurso>/<grupo-pai>/grupo.json
 src/content/assuntos/<concurso>/<grupo-pai>/<grupo-filho>/grupo.json
+src/content/assuntos/<concurso>/<grupo-pai>/<grupo-filho>/mega-revisao/index.md  # opcional
 src/content/assuntos/<concurso>/<grupo-pai>/<grupo-filho>/<assunto>/
   conteudo.md
   cheat-sheet.md
@@ -43,6 +45,8 @@ src/content/assuntos/<concurso>/<grupo-pai>/<grupo-filho>/<assunto>/
 Arquivos de assunto diretamente sob o concurso são proibidos. O slug final do assunto deve ser único por concurso; a URL pública permanece `/concursos/<concurso>/<assunto>/`. O build valida schemas, referências cruzadas, revisões e a presença do conjunto completo de arquivos.
 
 Os identificadores `storageId` são persistidos em documentos locais e remotos. Depois de publicados, não devem ser alterados silenciosamente.
+
+Uma mega revisão é um documento autoral opcional do grupo. Sua abrangência deriva dos assuntos descendentes em ordem editorial; quando um subgrupo possui sua própria revisão, ele aparece como uma revisão delegada para evitar duplicação. A página estática usa a rota `/revisoes/<concurso>/<revisao>/`, entra no pacote offline e não participa de respostas, progresso, estudados, simulados ou sincronização.
 
 ## Uso e dados
 

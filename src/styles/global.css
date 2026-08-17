@@ -363,7 +363,8 @@ a:hover {
 .catalog-shell,
 .contest-shell,
 .study-shell,
-.settings-shell {
+.settings-shell,
+.mega-review-shell {
   width: min(100% - 2rem, 76rem);
   margin-inline: auto;
 }
@@ -376,7 +377,8 @@ a:hover {
 
 .catalog-shell,
 .contest-shell,
-.settings-shell {
+.settings-shell,
+.mega-review-shell {
   padding-block: clamp(3rem, 8vw, 7rem);
 }
 
@@ -573,6 +575,42 @@ h3 {
   max-width: var(--reading);
   margin: 0.45rem 0 0;
   color: var(--muted);
+}
+
+.group-mega-review-entry {
+  margin: 1rem 0 0;
+}
+
+.group-mega-review-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  align-items: baseline;
+  width: fit-content;
+  max-width: 100%;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--accent);
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  font-family: var(--sans);
+  text-decoration: none;
+}
+
+.group-mega-review-link:hover {
+  border-color: var(--accent-strong);
+  background: var(--paper);
+}
+
+.group-mega-review-link:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 3px;
+}
+
+.group-mega-review-label {
+  font-size: var(--step--1);
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .subject-group-section > .subject-tree {
@@ -1198,6 +1236,37 @@ a.subject-tabs-adjacent:hover {
   font-family: var(--reading-font, 'Lora', Georgia, 'Times New Roman', serif);
   font-size: var(--reading-size, 1.1875rem);
   line-height: var(--reading-line, 1.7);
+}
+
+.reading-surface > article.mega-review-content {
+  max-width: var(--reading);
+}
+
+.mega-review-scope {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  font-family: var(--sans);
+}
+
+.mega-review-scope h2 {
+  margin-top: 0;
+  font-size: var(--step-1);
+}
+
+.mega-review-scope-list {
+  display: grid;
+  gap: 0.65rem;
+  padding-left: 1.25rem;
+}
+
+.mega-review-scope-list li {
+  padding-left: 0.2rem;
+}
+
+.mega-review-scope-secondary {
+  color: var(--muted);
+  font-size: var(--step--1);
 }
 
 .reading-surface article abbr[title],
@@ -1961,7 +2030,8 @@ a.subject-pagination-link:hover {
   .catalog-shell,
   .contest-shell,
   .study-shell,
-  .settings-shell {
+  .settings-shell,
+  .mega-review-shell {
     width: min(100% - 1rem, 76rem);
   }
 

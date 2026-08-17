@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   contestIdFromEntry,
   groupIdFromEntry,
+  megaReviewIdFromEntry,
   parseResolutionId,
   parseGroupId,
   parseSubjectId,
@@ -16,6 +17,9 @@ describe('content paths', () => {
       'concurso-exemplo/administracao',
     );
     expect(groupIdFromEntry('concurso-exemplo\\administracao\\publica\\grupo.json')).toBe(
+      'concurso-exemplo/administracao/publica',
+    );
+    expect(megaReviewIdFromEntry('concurso-exemplo\\administracao\\publica\\mega-revisao\\index.md')).toBe(
       'concurso-exemplo/administracao/publica',
     );
     expect(parseGroupId('concurso-exemplo/administracao/publica')).toEqual({
@@ -47,6 +51,7 @@ describe('content paths', () => {
   it('rejects nested contests, groups without a segment and direct subjects', () => {
     expect(() => contestIdFromEntry('grupo/concurso.json')).toThrow('raiz da collection');
     expect(() => groupIdFromEntry('concurso/grupo.json')).toThrow('<concurso>/<grupo>');
+    expect(() => megaReviewIdFromEntry('concurso/mega-revisao/index.md')).toThrow('<concurso>/<grupo>');
     expect(() => subjectIdFromEntry('concurso/conteudo.md', 'conteudo.md')).toThrow(
       '<concurso>/<grupo>',
     );

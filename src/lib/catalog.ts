@@ -21,6 +21,7 @@ export interface CatalogSubject extends CatalogSubjectIndex {
 
 export interface CatalogGroup extends Omit<CatalogGroupIndex, 'children'> {
   children: CatalogTreeNode[];
+  megaReviewEntry: CollectionEntry<'megaRevisoes'> | null;
 }
 
 export type CatalogTreeNode = CatalogGroup | CatalogSubject;
@@ -52,9 +53,10 @@ function createContestOfflineInventory(contest: CatalogContestIndex) {
 }
 
 export async function getCatalog(): Promise<Catalog> {
-  const [contestEntries, groupEntries, contentEntries, cheatSheetEntries, questionSetEntries, resolutionEntries] = await Promise.all([
+  const [contestEntries, groupEntries, megaReviewEntries, contentEntries, cheatSheetEntries, questionSetEntries, resolutionEntries] = await Promise.all([
     getCollection('concursos'),
     getCollection('grupos'),
+    getCollection('megaRevisoes'),
     getCollection('conteudos'),
     getCollection('cheatSheets'),
     getCollection('questoes'),
@@ -64,6 +66,7 @@ export async function getCatalog(): Promise<Catalog> {
   const index = buildCatalogIndex({
     contests: contestEntries.map(({ id, data }) => ({ id, data })),
     groups: groupEntries.map(({ id, data }) => ({ id, data })),
+    megaReviews: megaReviewEntries.map(({ id, data }) => ({ id, data })),
     contents: contentEntries.map(({ id, data }) => ({ id, data })),
     cheatSheetIds: cheatSheetEntries.map(({ id }) => id),
     questionSets: questionSetEntries.map(({ id, data }) => ({ id, data })),
@@ -71,6 +74,7 @@ export async function getCatalog(): Promise<Catalog> {
   });
 
   const contentById = new Map(contentEntries.map((entry) => [entry.id, entry]));
+  const megaReviewById = new Map(megaReviewEntries.map((entry) => [entry.id, entry]));
   const cheatSheetById = new Map(cheatSheetEntries.map((entry) => [entry.id, entry]));
   const questionSetById = new Map(questionSetEntries.map((entry) => [entry.id, entry]));
   const resolutionEntriesBySubjectId = new Map<string, CollectionEntry<'resolucoes'>[]>();
@@ -96,6 +100,7 @@ export async function getCatalog(): Promise<Catalog> {
         node.kind === 'subject' ? subjectsById.get(node.id)! : hydrateGroup(node);
       const hydrateGroup = (group: CatalogGroupIndex): CatalogGroup => ({
         ...group,
+        megaReviewEntry: group.megaReview ? megaReviewById.get(group.megaReview.id)! : null,
         children: group.children.map(hydrateNode),
       });
 

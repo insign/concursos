@@ -49,6 +49,19 @@ export function groupIdFromEntry(entry: string, fileName = 'grupo.json'): string
   return id;
 }
 
+export function megaReviewIdFromEntry(entry: string): string {
+  const normalized = normalizeEntry(entry);
+  const suffix = '/mega-revisao/index.md';
+
+  if (!normalized.endsWith(suffix)) {
+    throw new Error(`Arquivo de mega revisão deve terminar em "${suffix}": "${entry}"`);
+  }
+
+  const id = normalized.slice(0, -suffix.length);
+  parseGroupId(id);
+  return id;
+}
+
 export function parseGroupId(id: string): { contestSlug: string; groupSlugs: string[] } {
   const parts = id.split('/');
 

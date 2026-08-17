@@ -13,7 +13,7 @@
 - `contest.subjects` remains the flat projection used by routes, navigation, synchronization, offline packages, and catalog-wide subject lookup.
 - Public URLs remain `/concursos/<concurso>/<assunto>/`.
 - `contestStorageId` and `subjectStorageId` remain the only persisted contest and subject identities.
-- Groups have no `storageId`, public route, or identity in KV, IndexedDB, backups, progress, synchronization, or offline storage.
+- Groups have no `storageId`, public group route, or identity in KV, IndexedDB, backups, progress, synchronization, or offline storage; a route owned by a separate editorial document, such as an optional mega review, is not a group route.
 
 **Rationale**:
 - This separates editorial organization from public addressing and persisted data, allowing the hierarchy to evolve without breaking URLs or user state.
@@ -121,3 +121,36 @@ Related: ADR-001, ADR-003, and GitHub issue #308.
 - ⚠️ A resolution must be updated or removed when its referenced question revision changes, and availability follows the current catalog.
 - ⚠️ Resolution routes and optional Mermaid dependencies increase build and offline-inventory work, with conditional runtime loading required.
 - ❌ A stale resolution is intentionally unavailable, and a simulator cannot preserve a historical copy of resolution content inside its snapshot.
+
+## ADR-005: Optional mega reviews as derived editorial documents (2026-08-17)
+
+**Status**: Accepted
+
+**Context**: The editorial catalog needs an optional authorial Markdown document that consolidates the subjects of a recursive group for review, without turning groups into routable or persisted entities. The implementation must preserve subject-only projections and the existing static Markdown, runtime, security, print, and offline contracts. Its location must distinguish mega-review documents from per-question resolution files without reserving valid editorial slugs.
+
+Related: ADR-001, ADR-003, ADR-004, and GitHub issue #309.
+
+**Decision**:
+- Store an optional authorial mega review at `src/content/assuntos/<concurso>/<grupo>[/<grupo>...]/mega-revisao/index.md`.
+- Add the `megaRevisoes` collection and derive its availability from the catalog. The editorial document ID is the complete group ID; groups receive no `storageId` and no persisted state.
+- Require strict versioned frontmatter `{schemaVersion: 1, slug, title?}`.
+- Pre-render the document through the existing Markdown pipeline and publish it at `/revisoes/<contestSlug>/<reviewSlug>/`. The route belongs to the document, not the group, and never exposes the group path.
+- Permit `contest.children` to expose a mega-review entry, but exclude mega reviews from `contest.subjects`, subject URLs, navigation, synchronization, progress, studied subjects, simulators, backups, IndexedDB, and KV.
+- Preserve the existing conditional runtimes, CSP, printing behavior, and non-JavaScript fallback for the rendered page.
+- Derive coverage in recursive order. When a nested subgroup has its own mega review, the parent delegates that subgroup as one link instead of expanding its descendants and duplicating coverage.
+- Include mega-review routes in the offline inventory and reuse the existing asset hashing, cache promotion, and Service Worker behavior.
+
+**Rationale**:
+- A separate catalog-derived collection keeps optional aggregate content out of stable subject and persistence contracts.
+- A document-owned route provides a public destination without making the editorial group itself routable, preserving ADR-001's distinction between group structure and document routes.
+- Recursive delegation gives authors composable reviews with deterministic, nonduplicated coverage.
+- Reusing the existing Markdown, runtime, security, print, and offline pipelines preserves the static architecture and established delivery guarantees.
+- The `mega-revisao/index.md` layout separates the document structurally from `resolucoes/*.md` while leaving valid editorial slugs available.
+
+**Consequences**:
+- ✅ Authors can publish optional aggregate reviews for recursive groups with deterministic coverage and links to nested reviews.
+- ✅ Subject URLs, subject identities, navigation and synchronization, user state, simulator data, backups, IndexedDB, KV, and offline subject projections remain unchanged.
+- ✅ Review pages are statically rendered, security-constrained, printable, fallback-capable, and available to offline packages.
+- ⚠️ Availability and coverage follow the current editorial catalog and require a new build when documents or nested-group delegation change.
+- ⚠️ Conditional runtime loading and offline inventory integration add review-specific build and validation paths.
+- ❌ A mega review has no independent subject progress, answers, studied state, simulator snapshot, backup record, or synchronization identity, and the group still has no public route of its own.

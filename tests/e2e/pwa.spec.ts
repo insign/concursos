@@ -39,6 +39,7 @@ test('downloads and removes an atomic contest package without caching KV', async
 
   const cacheState = await page.evaluate(async () => {
     const manifest = await fetch('/offline-inventories/exemplo.json').then((response) => response.json()) as {
+      routes: string[];
       sharedAssets: string[];
     };
     const sharedCache = await caches.open('shared-assets-v1');
@@ -54,14 +55,19 @@ test('downloads and removes an atomic contest package without caching KV', async
       }
     }
     const mermaidAsset = manifest.sharedAssets.find((path) => path.includes('/mermaid.core.'));
-    return { cachedKvRequests, mermaidAsset, missingSharedAssets };
+    return { cachedKvRequests, mermaidAsset, missingSharedAssets, routes: manifest.routes };
   });
   expect(cacheState.missingSharedAssets).toEqual([]);
   expect(cacheState.cachedKvRequests).toEqual([]);
   expect(cacheState.mermaidAsset).toBeTruthy();
+  expect(cacheState).toMatchObject({
+    routes: expect.arrayContaining(['/revisoes/concurso-exemplo/administracao-publica/']),
+  });
 
   await page.evaluate(() => localStorage.setItem('concursos:active-alias', 'offline-resolucao-7f3k'));
   await context.setOffline(true);
+  await page.goto('/revisoes/concurso-exemplo/administracao-publica/');
+  await expect(page.getByRole('heading', { name: 'Mega revisão de administração pública', level: 1 })).toBeVisible();
   const offlineMermaidResponse = await page.evaluate(async (path) => {
     try {
       const response = await fetch(path, { cache: 'reload' });
