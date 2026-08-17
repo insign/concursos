@@ -53,9 +53,11 @@
   }
 
   .study-shell,
+  .mega-review-shell,
   .reading-focus,
   .reading-surface,
   .reading-surface > article,
+  .reading-surface > article.mega-review-content,
   .reading-focus:is(:target, [data-reading-focus-active]) .reading-surface,
   .reading-focus:is(:target, [data-reading-focus-active]) .reading-surface > article {
     width: 100%;

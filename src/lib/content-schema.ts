@@ -23,6 +23,14 @@ export const groupSchema = z
   })
   .strict();
 
+export const megaReviewSchema = z
+  .object({
+    schemaVersion: z.literal(1),
+    slug: storageSegment.max(64),
+    title: nonEmptyText.optional(),
+  })
+  .strict();
+
 export const subjectSchema = z
   .object({
     schemaVersion: z.literal(1),
@@ -159,6 +167,7 @@ export const questionSetSchema = z
 
 export type ContestData = z.infer<typeof contestSchema>;
 export type GroupData = z.infer<typeof groupSchema>;
+export type MegaReviewData = z.infer<typeof megaReviewSchema>;
 export type SubjectData = z.infer<typeof subjectSchema>;
 export type ResolutionData = z.infer<typeof resolutionSchema>;
 export type QuestionOption = z.infer<typeof questionOptionSchema>;

@@ -4,6 +4,7 @@ import {
   cheatSheetSchema,
   contestSchema,
   groupSchema,
+  megaReviewSchema,
   questionSetSchema,
   resolutionSchema,
   subjectSchema,
@@ -11,6 +12,7 @@ import {
 import {
   contestIdFromEntry,
   groupIdFromEntry,
+  megaReviewIdFromEntry,
   resolutionIdFromEntry,
   subjectIdFromEntry,
 } from './lib/content-paths';
@@ -31,6 +33,15 @@ const grupos = defineCollection({
     generateId: ({ entry }) => groupIdFromEntry(entry),
   }),
   schema: groupSchema,
+});
+
+const megaRevisoes = defineCollection({
+  loader: glob({
+    base: './src/content/assuntos',
+    pattern: '**/mega-revisao/index.md',
+    generateId: ({ entry }) => megaReviewIdFromEntry(entry),
+  }),
+  schema: megaReviewSchema,
 });
 
 const conteudos = defineCollection({
@@ -69,4 +80,4 @@ const resolucoes = defineCollection({
   schema: resolutionSchema,
 });
 
-export const collections = { concursos, grupos, conteudos, cheatSheets, questoes, resolucoes };
+export const collections = { concursos, grupos, megaRevisoes, conteudos, cheatSheets, questoes, resolucoes };

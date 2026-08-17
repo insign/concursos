@@ -1,5 +1,13 @@
+---
+interface Props {
+  label?: string;
+}
+
+const { label = 'Imprimir cheat sheet' } = Astro.props;
+---
+
 <button class="button print-button print-hidden" type="button" data-print-button>
-  Imprimir cheat sheet
+  {label}
 </button>
 
 <script>

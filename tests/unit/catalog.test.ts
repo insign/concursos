@@ -68,6 +68,14 @@ function addGroup(source: CatalogSources, id: string, title: string, order = 1):
   source.groups.push({ id, data: { schemaVersion: 1, title, order } });
 }
 
+function addMegaReview(source: CatalogSources, id: string, slug: string, title?: string): void {
+  source.megaReviews ??= [];
+  source.megaReviews.push({
+    id,
+    data: { schemaVersion: 1, slug, ...(title ? { title } : {}) },
+  });
+}
+
 function addSubject(
   source: CatalogSources,
   id: string,
@@ -122,6 +130,7 @@ describe('catalog', () => {
     expect(contest.subjects[1]!.previousSubjectId).toBe(
       'concurso-a/area-a/fundamentos/primeiro',
     );
+    expect(contest.children[0]!.megaReview).toBeNull();
   });
 
   it('sorts sibling groups and subjects deterministically', () => {
@@ -235,6 +244,56 @@ describe('catalog', () => {
     const duplicateSubject = sources();
     duplicateSubject.contents.push(structuredClone(duplicateSubject.contents[0]!));
     expect(() => buildCatalogIndex(duplicateSubject)).toThrow('ID de assunto duplicado');
+  });
+
+  it('indexes optional mega reviews without changing the subject projection', () => {
+    const fixture = sources();
+    addMegaReview(fixture, 'concurso-a/area-a', 'area-a-revisao', 'Revisão da Área A');
+    addMegaReview(fixture, 'concurso-a/area-a/fundamentos', 'fundamentos-revisao');
+
+    const catalog = buildCatalogIndex(fixture);
+    const contest = catalog.contests[0]!;
+    const area = contest.children[0]!;
+    const nested = area.children[0]!;
+
+    expect(area.megaReview).toEqual({
+      id: 'concurso-a/area-a',
+      slug: 'area-a-revisao',
+      title: 'Revisão da Área A',
+    });
+    expect(nested.kind === 'group' ? nested.megaReview : null).toEqual({
+      id: 'concurso-a/area-a/fundamentos',
+      slug: 'fundamentos-revisao',
+      title: 'Fundamentos',
+    });
+    expect(contest.subjects.map(({ id }) => id)).toEqual([
+      'concurso-a/area-a/fundamentos/primeiro',
+      'concurso-a/area-b/segundo',
+    ]);
+
+    const inventory = createOfflineInventory(contest);
+    expect(inventory.routes).toContain('/revisoes/concurso-a/area-a-revisao/');
+    expect(inventory.routes).toContain('/revisoes/concurso-a/fundamentos-revisao/');
+  });
+
+  it('rejects orphan, invalid-contest and duplicate mega reviews', () => {
+    const orphan = sources();
+    addMegaReview(orphan, 'concurso-a/ausente', 'revisao-ausente');
+    expect(() => buildCatalogIndex(orphan)).toThrow('Mega revisão órfã');
+
+    const invalidContest = sources();
+    addMegaReview(invalidContest, 'ausente/grupo', 'revisao-ausente');
+    expect(() => buildCatalogIndex(invalidContest)).toThrow('referencia concurso inexistente');
+
+    const duplicateId = sources();
+    addMegaReview(duplicateId, 'concurso-a/area-a', 'revisao-a');
+    addMegaReview(duplicateId, 'concurso-a/area-a', 'revisao-b');
+    expect(() => buildCatalogIndex(duplicateId)).toThrow('ID de mega revisão duplicado');
+
+    const duplicateSlug = sources();
+    addMegaReview(duplicateSlug, 'concurso-a/area-a', 'revisao');
+    addMegaReview(duplicateSlug, 'concurso-a/area-b', 'revisao');
+    expect(() => buildCatalogIndex(duplicateSlug)).toThrow('Slug público de mega revisão duplicado');
   });
 
   it('generates only short public routes in the offline inventory', () => {

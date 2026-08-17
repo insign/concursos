@@ -2,6 +2,7 @@
 import ProgressSummary from './ProgressSummary.astro';
 import SubjectStudiedIndicator from './SubjectStudiedIndicator.astro';
 import type { CatalogContest, CatalogTreeNode } from '../lib/catalog';
+import { megaReviewRoute } from '../lib/mega-review-routes';
 
 interface Props {
   contest: CatalogContest;
@@ -77,6 +78,17 @@ const rootTreeId = depth === 0 ? `subject-tree-${contest.storageId}` : undefined
               <Heading class="subject-group-title">{node.title}</Heading>
             </summary>
             {node.description && <p class="subject-group-description">{node.description}</p>}
+            {node.megaReview && (
+              <p class="group-mega-review-entry" data-group-mega-review>
+                <a
+                  class="group-mega-review-link"
+                  href={megaReviewRoute(contest.slug, node.megaReview.slug)}
+                >
+                  <span class="group-mega-review-label">Mega revisão</span>
+                  <span>{node.megaReview.title}</span>
+                </a>
+              </p>
+            )}
             <Astro.self contest={contest} nodes={node.children} depth={depth + 1} />
           </details>
         </li>

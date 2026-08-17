@@ -1,5 +1,13 @@
-import type { ContestData, GroupData, QuestionSet, ResolutionData, SubjectData } from './content-schema';
+import type {
+  ContestData,
+  GroupData,
+  MegaReviewData,
+  QuestionSet,
+  ResolutionData,
+  SubjectData,
+} from './content-schema';
 import { parseGroupId, parseResolutionId, parseSubjectId } from './content-paths';
+import { megaReviewRoute } from './mega-review-routes';
 import type { ResolutionDescriptor } from './resolution-routes';
 
 export interface CatalogRecord<T> {
@@ -10,6 +18,7 @@ export interface CatalogRecord<T> {
 export interface CatalogSources {
   contests: CatalogRecord<ContestData>[];
   groups: CatalogRecord<GroupData>[];
+  megaReviews?: CatalogRecord<MegaReviewData>[];
   contents: CatalogRecord<SubjectData>[];
   cheatSheetIds: string[];
   questionSets: CatalogRecord<QuestionSet>[];
@@ -19,6 +28,12 @@ export interface CatalogSources {
 export type CatalogResolutionRecord = CatalogRecord<ResolutionData>;
 
 export interface CatalogGroupReference {
+  id: string;
+  slug: string;
+  title: string;
+}
+
+export interface CatalogMegaReviewIndex {
   id: string;
   slug: string;
   title: string;
@@ -41,6 +56,7 @@ export interface CatalogGroupIndex extends GroupData {
   slug: string;
   contestSlug: string;
   parentGroupId: string | null;
+  megaReview: CatalogMegaReviewIndex | null;
   children: CatalogTreeNodeIndex[];
 }
 
@@ -120,10 +136,27 @@ function hasSubjectDescendant(group: CatalogGroupIndex): boolean {
   );
 }
 
+function appendMegaReviewRoutes(
+  groups: CatalogGroupIndex[],
+  contestSlug: string,
+  routes: string[],
+): void {
+  for (const group of groups) {
+    if (group.megaReview) routes.push(megaReviewRoute(contestSlug, group.megaReview.slug));
+    appendMegaReviewRoutes(
+      group.children.filter((child): child is CatalogGroupIndex => child.kind === 'group'),
+      contestSlug,
+      routes,
+    );
+  }
+}
+
 export function buildCatalogIndex(sources: CatalogSources): CatalogIndex {
   assertUnique(sources.contests.map(({ id }) => id), 'ID de concurso');
   assertUnique(sources.groups.map(({ id }) => id), 'ID de grupo');
   assertUnique(sources.contents.map(({ id }) => id), 'ID de assunto');
+  const megaReviews = sources.megaReviews ?? [];
+  assertUnique(megaReviews.map(({ id }) => id), 'ID de mega revisão');
   assertUnique(sources.cheatSheetIds, 'ID de cheat sheet');
   assertUnique(sources.questionSets.map(({ id }) => id), 'ID de questões');
   assertUnique(sources.contests.map(({ data }) => data.storageId), 'storageId de concurso');
@@ -184,6 +217,7 @@ export function buildCatalogIndex(sources: CatalogSources): CatalogIndex {
       parentGroupId:
         groupSlugs.length > 1 ? [contestSlug, ...groupSlugs.slice(0, -1)].join('/') : null,
       ...group.data,
+      megaReview: null,
       children: [],
     });
   }
@@ -192,6 +226,33 @@ export function buildCatalogIndex(sources: CatalogSources): CatalogIndex {
     if (group.parentGroupId !== null && !groupsById.has(group.parentGroupId)) {
       throw new Error(`Grupo "${group.id}" não possui descritor do grupo pai "${group.parentGroupId}"`);
     }
+  }
+
+  const megaReviewSlugsByContest = new Map<string, Set<string>>();
+  for (const megaReview of megaReviews) {
+    const { contestSlug } = parseGroupId(megaReview.id);
+    if (!contestsById.has(contestSlug)) {
+      throw new Error(`Mega revisão "${megaReview.id}" referencia concurso inexistente`);
+    }
+
+    const group = groupsById.get(megaReview.id);
+    if (!group) {
+      throw new Error(`Mega revisão órfã para o grupo "${megaReview.id}"`);
+    }
+
+    const slugs = megaReviewSlugsByContest.get(contestSlug) ?? new Set<string>();
+    if (slugs.has(megaReview.data.slug)) {
+      throw new Error(
+        `Slug público de mega revisão duplicado no concurso "${contestSlug}": "${megaReview.data.slug}"`,
+      );
+    }
+    slugs.add(megaReview.data.slug);
+    megaReviewSlugsByContest.set(contestSlug, slugs);
+    group.megaReview = {
+      id: megaReview.id,
+      slug: megaReview.data.slug,
+      title: megaReview.data.title ?? group.title,
+    };
   }
 
   const rootGroupsByContest = new Map<string, CatalogGroupIndex[]>();
@@ -306,6 +367,7 @@ export function createOfflineInventory(
       routes.push(`/resolucoes/${contest.storageId}/${subject.storageId}/`);
     }
   }
+  appendMegaReviewRoutes(contest.children, contest.slug, routes);
 
   return {
     schemaVersion: 1,
