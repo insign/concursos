@@ -245,6 +245,10 @@
   border-top: 1px solid var(--line);
 }
 
+.simulado-question > .question-resolution-trigger {
+  margin-top: 0.75rem;
+}
+
 .simulado-actions {
   display: flex;
   flex-wrap: wrap;

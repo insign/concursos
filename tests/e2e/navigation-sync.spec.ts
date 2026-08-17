@@ -235,35 +235,65 @@ test('flushes pre-ready navigation before a PWA-controlled reload', async ({ pag
     window.dispatchEvent(new CustomEvent('concursos:pwa-retry'));
   });
 
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(100);
   await page.waitForTimeout(150);
   expect(await page.evaluate(() => sessionStorage.getItem('test:navigation-loads'))).toBe('1');
+  const reload = page.waitForEvent('load');
   releaseBootstrap();
+  await reload;
   await expect
     .poll(() => page.evaluate(() => Number(sessionStorage.getItem('test:navigation-loads'))), {
       timeout: 15_000,
     })
     .toBe(2);
 
-  const progress = await page.evaluate(
-    (profileId) =>
-      new Promise<number | null>((resolve, reject) => {
-        const request = indexedDB.open('concursos-navigation', 1);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => {
-          const database = request.result;
-          const transaction = database.transaction('navigation', 'readonly');
-          const get = transaction.objectStore('navigation').get(profileId);
-          get.onerror = () => reject(get.error);
-          get.onsuccess = () => {
-            resolve(get.result?.current?.readingPosition?.progress ?? null);
-            database.close();
-          };
-        };
-      }),
-    alias,
-  );
+  await expect.poll(() => localReadingProgress(page), { timeout: 15_000 }).toBeGreaterThan(0.1);
+  const progress = await localReadingProgress(page);
   expect(progress).not.toBeNull();
   expect(progress ?? 0).toBeGreaterThan(0.1);
+});
+
+test('captures scrolling after a semantic focus change before navigation is ready', async ({
+  page,
+  kvStore,
+}) => {
+  kvStore.set(navigationDocumentId, {
+    version: 11,
+    createdAt: timestamp,
+    json: remoteNavigation(readingRoute, { readingMode: true }),
+  });
+  let releaseBootstrap: () => void = () => undefined;
+  const bootstrapReleased = new Promise<void>((resolve) => {
+    releaseBootstrap = resolve;
+  });
+  let markBootstrapStarted: () => void = () => undefined;
+  const bootstrapStarted = new Promise<void>((resolve) => {
+    markBootstrapStarted = resolve;
+  });
+  await page.route('https://kv.helio.me/**', async (route) => {
+    if (
+      route.request().method() === 'GET' &&
+      route.request().url().replace(/\/version$/, '').endsWith(navigationDocumentId)
+    ) {
+      markBootstrapStarted();
+      await bootstrapReleased;
+    }
+    await route.fallback();
+  });
+
+  await page.setViewportSize({ width: 390, height: 720 });
+  await page.goto(readingDestination);
+  await bootstrapStarted;
+  await expect(page.locator('[data-application-status]')).toHaveAttribute('data-source', 'pwa');
+  await page.evaluate(() => {
+    window.dispatchEvent(new CustomEvent('concursos:reading-focus-change', { detail: { active: true } }));
+    window.scrollTo(0, Math.max(500, document.documentElement.scrollHeight * 0.75));
+    window.dispatchEvent(new Event('scroll'));
+  });
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(100);
+
+  releaseBootstrap();
+  await expect.poll(() => localReadingProgress(page), { timeout: 15_000 }).toBeGreaterThan(0.55);
 });
 
 test('normalizes a legacy remote reading route and resumes through #focus', async ({ page, kvStore }) => {

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import QuestionResolutionDialog from '../../components/QuestionResolutionDialog.astro';
 import '../../styles/simulados.css';
 ---
 
@@ -103,6 +104,7 @@ import '../../styles/simulados.css';
     </section>
 
     <p class="simulado-status" data-status role="status" aria-live="polite"></p>
+    <QuestionResolutionDialog />
   </main>
 </BaseLayout>
 

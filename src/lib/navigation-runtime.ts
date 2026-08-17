@@ -51,6 +51,7 @@ let runtimeProfileId: string | null | undefined;
 const readyProfiles = new Set<string>();
 const readyWaiters = new Map<string, Set<() => void>>();
 type TopNavigationPhase = 'idle' | 'settling' | 'parked';
+type InitialCaptureIntent = 'none' | 'semantic-preserve' | 'user-capture';
 
 export function whenNavigationReady(profileId: string): Promise<void> {
   if (runtimeProfileId !== undefined && runtimeProfileId !== profileId) return Promise.resolve();
@@ -412,6 +413,7 @@ export function startNavigationRuntime(): void {
   let initialization: Promise<void> | null = null;
   let navigationRedirectPending = false;
   let navigationRevision = 0;
+  const initialCapture = { intent: 'none' as InitialCaptureIntent };
 
   const markNavigationPending = () => {
     navigationRevision += 1;
@@ -454,6 +456,7 @@ export function startNavigationRuntime(): void {
     requestSync = true,
     forcePersist = false,
     ignoreSuppression = false,
+    preservedReadingPosition?: ReadingPosition,
   ): Promise<void> => {
     if (
       topNavigationPhase !== 'idle' ||
@@ -483,7 +486,9 @@ export function startNavigationRuntime(): void {
         studiedSubjectId(context.contestStorageId, context.subjectStorageId),
       );
       if (generation !== captureGeneration || offered) return;
-      readingPosition = studied ? null : captureReadingPosition(contentRoot);
+      readingPosition = studied
+        ? null
+        : preservedReadingPosition ?? captureReadingPosition(contentRoot);
     }
     const snapshot = createNavigationDocument(currentRoute(), context, readingPosition);
     const fingerprint = navigationFingerprint(snapshot);
@@ -517,17 +522,31 @@ export function startNavigationRuntime(): void {
     forcePersist = false,
     ignoreSuppression = false,
     trackActivity = true,
+    preservedReadingPosition?: ReadingPosition,
   ): Promise<void> => {
     if (trackActivity) markNavigationPending();
-    const capture = saveCurrent(requestSync, forcePersist, ignoreSuppression);
+    const capture = saveCurrent(
+      requestSync,
+      forcePersist,
+      ignoreSuppression,
+      preservedReadingPosition,
+    );
     pendingCaptures.add(capture);
     void capture.finally(() => pendingCaptures.delete(capture)).catch(() => undefined);
     return capture;
   };
 
-  const scheduleCapture = (delay = CAPTURE_DEBOUNCE_MS) => {
+  const scheduleCapture = (
+    delay = CAPTURE_DEBOUNCE_MS,
+    intent: 'user' | 'semantic' = 'user',
+  ) => {
     markNavigationPending();
-    if (!ready || offered || topNavigationPhase !== 'idle') return;
+    if (!ready) {
+      if (intent === 'user') initialCapture.intent = 'user-capture';
+      else if (initialCapture.intent === 'none') initialCapture.intent = 'semantic-preserve';
+      return;
+    }
+    if (offered || topNavigationPhase !== 'idle') return;
     if (captureTimer) clearTimeout(captureTimer);
     const run = () => {
       if (restoreInProgress) {
@@ -898,7 +917,7 @@ export function startNavigationRuntime(): void {
   });
   window.addEventListener('concursos:reading-focus-change', () => {
     semanticCaptureRequested = true;
-    scheduleCapture(0);
+    scheduleCapture(0, 'semantic');
   });
 
   window.setInterval(() => {
@@ -917,6 +936,8 @@ export function startNavigationRuntime(): void {
     }
     const record = await getNavigationRecord(profileId);
     const target = record ? catalogEntryForRoute(catalog, record.current.route) : null;
+    const currentEntry =
+      catalogEntryForRoute(catalog, currentRoute()) ?? documentEntryForCurrentRoute();
     if (
       shouldResumeAutomatically &&
       !explicitNavigation &&
@@ -950,11 +971,32 @@ export function startNavigationRuntime(): void {
       }
     }
     ready = true;
-    if (!record || !target) {
-      await runSaveCurrent(false);
-      window.setTimeout(() => void synchronize(), INITIAL_AUTOMATIC_SYNC_DELAY_MS + 100);
+    const preserveInitialReadingPosition = Boolean(
+      record?.current.route === currentRoute() &&
+        record.current.context.activeTab === 'content' &&
+        record.current.readingPosition !== null &&
+        currentEntry?.activeTab === 'content',
+    );
+    const preservePositionDuringInitialCapture =
+      preserveInitialReadingPosition &&
+      initialCapture.intent !== 'user-capture';
+    if (preservePositionDuringInitialCapture) {
+      await runSaveCurrent(
+        false,
+        false,
+        true,
+        false,
+        record!.current.readingPosition ?? undefined,
+      );
+    } else if (preserveInitialReadingPosition) {
+      await runSaveCurrent(false, false, true, false);
     } else {
-      await runSaveCurrent();
+      if (!record || !target) {
+        await runSaveCurrent(false);
+        window.setTimeout(() => void synchronize(), INITIAL_AUTOMATIC_SYNC_DELAY_MS + 100);
+      } else {
+        await runSaveCurrent();
+      }
     }
     announceNavigationReady(profileId);
     if (studiedClearPendingBeforeReady && await hasPendingNavigation(profileId)) {

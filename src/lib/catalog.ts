@@ -8,6 +8,7 @@ import {
   type CatalogSubjectIndex,
   type CatalogTreeNodeIndex,
 } from './catalog-core';
+import { parseResolutionId } from './content-paths';
 
 export * from './catalog-core';
 
@@ -15,6 +16,7 @@ export interface CatalogSubject extends CatalogSubjectIndex {
   contentEntry: CollectionEntry<'conteudos'>;
   cheatSheetEntry: CollectionEntry<'cheatSheets'>;
   questionSetEntry: CollectionEntry<'questoes'>;
+  resolutionEntries: CollectionEntry<'resolucoes'>[];
 }
 
 export interface CatalogGroup extends Omit<CatalogGroupIndex, 'children'> {
@@ -35,6 +37,7 @@ export interface Catalog extends Omit<CatalogIndex, 'contests'> {
 
 function createContestOfflineInventory(contest: CatalogContestIndex) {
   const inventory = createOfflineInventory(contest);
+  const hasResolutions = contest.subjects.some((subject) => subject.resolutions.length > 0);
   return {
     ...inventory,
     routes: [
@@ -43,17 +46,19 @@ function createContestOfflineInventory(contest: CatalogContestIndex) {
       '/simulados/',
       '/simulados/catalog.json',
       `/simulados/pool/${contest.storageId}.json`,
+      ...(hasResolutions ? [`/resolucoes/${contest.storageId}/index.json`] : []),
     ],
   };
 }
 
 export async function getCatalog(): Promise<Catalog> {
-  const [contestEntries, groupEntries, contentEntries, cheatSheetEntries, questionSetEntries] = await Promise.all([
+  const [contestEntries, groupEntries, contentEntries, cheatSheetEntries, questionSetEntries, resolutionEntries] = await Promise.all([
     getCollection('concursos'),
     getCollection('grupos'),
     getCollection('conteudos'),
     getCollection('cheatSheets'),
     getCollection('questoes'),
+    getCollection('resolucoes'),
   ]);
 
   const index = buildCatalogIndex({
@@ -62,11 +67,19 @@ export async function getCatalog(): Promise<Catalog> {
     contents: contentEntries.map(({ id, data }) => ({ id, data })),
     cheatSheetIds: cheatSheetEntries.map(({ id }) => id),
     questionSets: questionSetEntries.map(({ id, data }) => ({ id, data })),
+    resolutions: resolutionEntries.map(({ id, data }) => ({ id, data })),
   });
 
   const contentById = new Map(contentEntries.map((entry) => [entry.id, entry]));
   const cheatSheetById = new Map(cheatSheetEntries.map((entry) => [entry.id, entry]));
   const questionSetById = new Map(questionSetEntries.map((entry) => [entry.id, entry]));
+  const resolutionEntriesBySubjectId = new Map<string, CollectionEntry<'resolucoes'>[]>();
+  for (const entry of resolutionEntries) {
+    const subjectId = parseResolutionId(entry.id).subjectId;
+    const entries = resolutionEntriesBySubjectId.get(subjectId) ?? [];
+    entries.push(entry);
+    resolutionEntriesBySubjectId.set(subjectId, entries);
+  }
 
   return {
     contests: index.contests.map((contest) => {
@@ -75,6 +88,7 @@ export async function getCatalog(): Promise<Catalog> {
         contentEntry: contentById.get(subject.id)!,
         cheatSheetEntry: cheatSheetById.get(subject.id)!,
         questionSetEntry: questionSetById.get(subject.id)!,
+        resolutionEntries: resolutionEntriesBySubjectId.get(subject.id) ?? [],
       }));
       const subjectsById = new Map(subjects.map((subject) => [subject.id, subject]));
 

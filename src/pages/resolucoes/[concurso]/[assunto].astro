@@ -1,0 +1,61 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ResolutionMermaidRuntime from '../../../components/ResolutionMermaidRuntime.astro';
+import { getCatalog, type CatalogContest, type CatalogSubject } from '../../../lib/catalog';
+import { parseResolutionId } from '../../../lib/content-paths';
+import { hasMermaidCodeFence } from '../../../lib/resolution-markdown';
+
+interface Props {
+  contest: CatalogContest;
+  subject: CatalogSubject;
+}
+
+export const getStaticPaths = async () => {
+  const { contests } = await getCatalog();
+  return contests.flatMap((contest) =>
+    contest.subjects
+      .filter((subject) => subject.resolutionEntries.length > 0)
+      .map((subject) => ({
+        params: { concurso: contest.storageId, assunto: subject.storageId },
+        props: { contest, subject },
+      })),
+  );
+};
+
+const { contest, subject } = Astro.props;
+const renderedEntries = await Promise.all(
+  subject.resolutionEntries.map(async (entry) => ({
+    entry,
+    Content: (await render(entry)).Content,
+  })),
+);
+const hasMermaid = subject.resolutionEntries.some((entry) => hasMermaidCodeFence(entry.body));
+---
+
+<BaseLayout
+  title={`Resoluções | ${subject.title}`}
+  description={`Resoluções passo a passo das questões de ${subject.title}.`}
+  pageClass="resolution-document"
+  hideHeader
+>
+  <main
+    data-resolution-document
+    data-resolution-contest={contest.storageId}
+    data-resolution-subject={subject.storageId}
+  >
+    {renderedEntries.map(({ entry, Content }) => {
+      const { questionId } = parseResolutionId(entry.id);
+      return (
+        <article
+          data-resolution-question-id={questionId}
+          data-resolution-question-revision={entry.data.questionRevision}
+        >
+          {entry.data.title && <h2>{entry.data.title}</h2>}
+          <Content />
+        </article>
+      );
+    })}
+  </main>
+  {hasMermaid && <ResolutionMermaidRuntime />}
+</BaseLayout>
