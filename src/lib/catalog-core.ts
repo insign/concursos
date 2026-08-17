@@ -1,5 +1,6 @@
-import type { ContestData, GroupData, QuestionSet, SubjectData } from './content-schema';
-import { parseGroupId, parseSubjectId } from './content-paths';
+import type { ContestData, GroupData, QuestionSet, ResolutionData, SubjectData } from './content-schema';
+import { parseGroupId, parseResolutionId, parseSubjectId } from './content-paths';
+import type { ResolutionDescriptor } from './resolution-routes';
 
 export interface CatalogRecord<T> {
   id: string;
@@ -12,7 +13,10 @@ export interface CatalogSources {
   contents: CatalogRecord<SubjectData>[];
   cheatSheetIds: string[];
   questionSets: CatalogRecord<QuestionSet>[];
+  resolutions?: CatalogRecord<ResolutionData>[];
 }
+
+export type CatalogResolutionRecord = CatalogRecord<ResolutionData>;
 
 export interface CatalogGroupReference {
   id: string;
@@ -28,6 +32,7 @@ export interface CatalogSubjectIndex extends SubjectData {
   groupPath: CatalogGroupReference[];
   previousSubjectId: string | null;
   nextSubjectId: string | null;
+  resolutions: ResolutionDescriptor[];
 }
 
 export interface CatalogGroupIndex extends GroupData {
@@ -128,9 +133,39 @@ export function buildCatalogIndex(sources: CatalogSources): CatalogIndex {
   const contentIds = new Set(sources.contents.map(({ id }) => id));
   const cheatSheetIds = new Set(sources.cheatSheetIds);
   const questionSetIds = new Set(sources.questionSets.map(({ id }) => id));
+  const questionSetsById = new Map(sources.questionSets.map((questionSet) => [questionSet.id, questionSet]));
+  const resolutions = sources.resolutions ?? [];
+  assertUnique(resolutions.map(({ id }) => id), 'ID de resolução');
 
   assertMatchingSubjectFiles(contentIds, cheatSheetIds, 'cheat sheet');
   assertMatchingSubjectFiles(contentIds, questionSetIds, 'arquivo de questões');
+
+  const resolutionsBySubject = new Map<string, ResolutionDescriptor[]>();
+  for (const resolution of resolutions) {
+    const { subjectId, questionId } = parseResolutionId(resolution.id);
+    if (!contentIds.has(subjectId)) {
+      throw new Error(`Resolução órfã para o assunto "${subjectId}"`);
+    }
+
+    const questionSet = questionSetsById.get(subjectId)?.data;
+    const question = questionSet?.questions.find((candidate) => candidate.id === questionId);
+    if (!question) {
+      throw new Error(`Resolução "${resolution.id}" referencia questão inexistente`);
+    }
+    if (resolution.data.questionRevision !== question.revision) {
+      throw new Error(
+        `Resolução "${resolution.id}" usa a revisão ${resolution.data.questionRevision}, ` +
+          `mas a questão usa a revisão ${question.revision}`,
+      );
+    }
+
+    const subjectResolutions = resolutionsBySubject.get(subjectId) ?? [];
+    subjectResolutions.push({
+      questionId,
+      questionRevision: resolution.data.questionRevision,
+    });
+    resolutionsBySubject.set(subjectId, subjectResolutions);
+  }
 
   const groupsById = new Map<string, CatalogGroupIndex>();
 
@@ -214,6 +249,9 @@ export function buildCatalogIndex(sources: CatalogSources): CatalogIndex {
       ...content.data,
       previousSubjectId: null,
       nextSubjectId: null,
+      resolutions: [...(resolutionsBySubject.get(content.id) ?? [])].sort((a, b) =>
+        a.questionId.localeCompare(b.questionId),
+      ),
     };
     const subjects = subjectsByContest.get(contestSlug) ?? [];
     subjects.push(subject);
@@ -264,6 +302,9 @@ export function createOfflineInventory(
   for (const subject of contest.subjects) {
     const base = `/concursos/${contest.slug}/${subject.slug}`;
     routes.push(`${base}/`, `${base}/cheat-sheet/`, `${base}/questoes/`);
+    if (subject.resolutions.length > 0) {
+      routes.push(`/resolucoes/${contest.storageId}/${subject.storageId}/`);
+    }
   }
 
   return {

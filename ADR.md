@@ -87,3 +87,37 @@ Related: GitHub issue #108.
 - ⚠️ New transient-state producers that must survive reload need to register a flusher and mark durability-relevant activity correctly.
 - ⚠️ Activation may wait through multiple bounded phases when local activity continues during flushing.
 - ❌ Any local flush, navigation capture, or IndexedDB settlement failure prevents automatic activation and reload until a later successful attempt.
+
+## ADR-004: Optional complex resolutions as derived editorial content (2026-08-17)
+
+**Status**: Accepted
+
+**Context**: Some questions require an optional, detailed resolution that is too rich for the question payload and should be available without changing the question's persisted or synchronized identity. The static Astro build, existing PWA clients, simulator snapshots, and complete-document synchronization contracts must remain compatible. Issue #308 implemented and reviewed this capability, including accessible delivery and offline support.
+
+Related: ADR-001, ADR-003, and GitHub issue #308.
+
+**Decision**:
+- Add a sixth editorial collection, `resolucoes`, with optional files at `resolucoes/<questionId>.md` inside each subject folder.
+- Validate strict versioned frontmatter `{schemaVersion: 1, questionRevision, title?}`. The build fails for orphan resolution files, unknown `questionId` values, or a `questionRevision` that differs from the referenced question.
+- Derive resolution availability from the editorial catalog. Do not add resolution fields to `questionSchema`, `syncQuestionSchema`, `/sync-catalog.json`, simulator pools, simulator snapshots, or any persisted document.
+- Pre-render resolution Markdown at build time through the existing Unified/KaTeX pipeline. Serve it at `/resolucoes/<contestStorageId>/<subjectStorageId>/`, with the contest index at `/resolucoes/<contestStorageId>/index.json`.
+- Expose resolutions from questionnaires and simulators through accessible `<dialog>` elements. Show the trigger only when correction is revealable; in a simulator, require `status` `completed` and keep the trigger outside the disabled question fieldset. A matching `questionRevision` is required before content can be shown.
+- Include resolution routes in contest offline inventories and the Service Worker. Mermaid in injected resolution content uses a conditional same-origin entrypoint with `securityLevel: "strict"` and textual fallback; it must not require `unsafe-eval` or a CDN.
+- Resolution updates do not change question revisions or simulator snapshots. Simulator snapshots freeze their question data, order, and configuration, but do not freeze resolution content.
+
+**Rationale**:
+- A separate editorial collection keeps optional rich content out of the stable question and synchronization contracts, preserving compatibility with already published PWA clients.
+- Strict cross-validation prevents a resolution from silently explaining a missing question or an obsolete revision.
+- Static pre-rendering and catalog-derived indexes fit the existing backend-free architecture and make the content available to offline packages.
+- Accessible dialogs provide contextual explanations without taking the learner away from the question or simulator session, while revealability and completion rules preserve correction semantics.
+- Independent resolution updates let editorial explanations improve without rewriting question revisions or historical simulator data.
+- Rejected alternatives: embedding resolutions in `questionSchema` or persisted question/simulator documents, because it would expand stable payloads and couple optional content to synchronization; freezing resolutions in simulator snapshots, because editorial corrections would require new attempts or snapshot migrations; a runtime/API-backed resolution service, because it would break the static and offline model; and an unconditional or CDN-based Mermaid runtime, because it would weaken conditional loading and the existing CSP/security invariants.
+
+**Consequences**:
+- ✅ Rich optional explanations can be authored, validated, pre-rendered, indexed, and delivered independently from question payloads.
+- ✅ Existing question identities, revisions, synchronization schemas, simulator pools, snapshots, and persisted documents remain unchanged.
+- ✅ Orphaned, unknown, or stale resolutions fail during the build instead of reaching learners, and valid routes participate in offline packages.
+- ✅ Learners receive contextual, accessible explanations in both questionnaires and completed simulators.
+- ⚠️ A resolution must be updated or removed when its referenced question revision changes, and availability follows the current catalog.
+- ⚠️ Resolution routes and optional Mermaid dependencies increase build and offline-inventory work, with conditional runtime loading required.
+- ❌ A stale resolution is intentionally unavailable, and a simulator cannot preserve a historical copy of resolution content inside its snapshot.

@@ -26,6 +26,8 @@ import {
   type SimuladosCatalog,
 } from './simulados-catalog';
 import { requestCompleteProfileSync } from './simulados-profile-sync';
+import { createResolutionDialog } from './resolutions';
+import { loadResolutionCatalog } from './resolution-catalog';
 
 function query<T extends Element>(selector: string): T | null {
   return document.querySelector<T>(selector);
@@ -89,6 +91,7 @@ function initializeSimulados(): void {
   let activeDocument: SimuladoDocument | null = null;
   let answerWrites: Promise<void> = Promise.resolve();
   let busy = false;
+  const resolutionDialog = createResolutionDialog(document);
 
   const setStatus = (message: string): void => {
     statusOutput.textContent = message;
@@ -253,6 +256,50 @@ function initializeSimulados(): void {
     resolverActions.replaceChildren();
   };
 
+  const attachResolutionButtons = async (simulation: SimuladoDocument): Promise<void> => {
+    if (simulation.status !== 'completed' || !resolutionDialog) return;
+
+    try {
+      const catalog = await loadResolutionCatalog(simulation.configuration.contestStorageId);
+      if (
+        activeDocument?.simulationId !== simulation.simulationId ||
+        activeDocument.status !== 'completed'
+      ) return;
+
+      for (const question of simulation.questions) {
+        const available = catalog.subjects
+          .find((subject) => subject.subjectStorageId === question.subjectStorageId)
+          ?.resolutions.find((resolution) => resolution.questionId === question.questionId);
+        if (!available || available.questionRevision !== question.questionRevision) continue;
+
+        const item = questionList.querySelector<HTMLElement>(
+          `[data-simulado-question-key="${CSS.escape(simuladoQuestionKey(question))}"]`,
+        );
+        if (!item || item.querySelector('[data-question-resolution-trigger]')) continue;
+
+        const trigger = document.createElement('button');
+        trigger.type = 'button';
+        trigger.className = 'button button-secondary question-resolution-trigger';
+        trigger.dataset.questionResolutionTrigger = '';
+        trigger.textContent = 'Ver resolução passo a passo';
+        trigger.addEventListener('click', () => {
+          void resolutionDialog.open(
+            {
+              contestStorageId: simulation.configuration.contestStorageId,
+              subjectStorageId: question.subjectStorageId,
+              questionId: question.questionId,
+              questionRevision: question.questionRevision,
+            },
+            trigger,
+          );
+        });
+        item.append(trigger);
+      }
+    } catch {
+      // A missing package or an unavailable auxiliary catalog must not block simulado review.
+    }
+  };
+
   const renderDocument = (simulation: SimuladoDocument, documentId: string): void => {
     activeDocument = simulation;
     resolver.hidden = false;
@@ -275,6 +322,7 @@ function initializeSimulados(): void {
       const key = simuladoQuestionKey(question);
       const item = document.createElement('li');
       item.className = 'simulado-question';
+      item.dataset.simuladoQuestionKey = key;
       const fieldset = document.createElement('fieldset');
       fieldset.disabled = simulation.status === 'completed';
       const legend = document.createElement('legend');
@@ -345,6 +393,8 @@ function initializeSimulados(): void {
       item.append(fieldset);
       questionList.append(item);
     }
+
+    void attachResolutionButtons(simulation);
 
     resolverActions.replaceChildren();
     if (simulation.status === 'in_progress') {

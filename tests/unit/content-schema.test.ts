@@ -3,6 +3,7 @@ import {
   contestSchema,
   groupSchema,
   questionSetSchema,
+  resolutionSchema,
   subjectSchema,
   syncQuestionSetSchema,
 } from '../../src/lib/content-schema';
@@ -118,5 +119,18 @@ describe('content schemas', () => {
     const duplicateOption = structuredClone(validQuestionSet);
     duplicateOption.questions[0]!.options[1]!.id = 'a';
     expect(() => questionSetSchema.parse(duplicateOption)).toThrow('opção duplicado');
+  });
+
+  it('validates versioned resolution metadata strictly', () => {
+    expect(
+      resolutionSchema.parse({ schemaVersion: 1, questionRevision: 2, title: 'Passo a passo' }),
+    ).toEqual({ schemaVersion: 1, questionRevision: 2, title: 'Passo a passo' });
+    expect(resolutionSchema.parse({ schemaVersion: 1, questionRevision: 1 })).toEqual({
+      schemaVersion: 1,
+      questionRevision: 1,
+    });
+    expect(() => resolutionSchema.parse({ schemaVersion: 2, questionRevision: 1 })).toThrow();
+    expect(() => resolutionSchema.parse({ schemaVersion: 1, questionRevision: 0 })).toThrow();
+    expect(() => resolutionSchema.parse({ schemaVersion: 1, questionRevision: 1, html: '<p>unsafe</p>' })).toThrow();
   });
 });

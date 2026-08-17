@@ -1754,6 +1754,78 @@ a.subject-pagination-link:hover {
   background: var(--negative-soft);
 }
 
+.question-resolution-trigger {
+  margin-top: 0.65rem;
+}
+
+.question-resolution-dialog {
+  width: min(44rem, calc(100vw - 2rem));
+  max-width: none;
+  max-height: min(84dvh, 52rem);
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  color: var(--ink);
+  background: var(--paper);
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 0.28);
+}
+
+.question-resolution-dialog::backdrop {
+  background: rgb(16 22 20 / 0.64);
+}
+
+.question-resolution-panel {
+  display: grid;
+  max-height: min(84dvh, 52rem);
+  grid-template-rows: auto auto minmax(0, 1fr);
+}
+
+.question-resolution-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.question-resolution-header h2 {
+  margin: 0;
+  font-size: var(--step-1);
+}
+
+.question-resolution-status {
+  margin: 0;
+  padding: 0.75rem 1.25rem;
+  color: var(--muted);
+  background: var(--accent-soft);
+  font-family: var(--sans);
+  font-size: var(--step--1);
+}
+
+.question-resolution-content {
+  min-height: 0;
+  padding: 1.25rem;
+  overflow: auto;
+}
+
+.question-resolution-content > article > :first-child {
+  margin-top: 0;
+}
+
+.question-resolution-content table,
+.question-resolution-content pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.question-resolution-content .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 .question-result {
   font-weight: 800;
 }
@@ -1802,9 +1874,32 @@ a.subject-pagination-link:hover {
   font-size: var(--step--1);
 }
 
+@media print {
+  .question-resolution-dialog {
+    display: none !important;
+  }
+}
+
 @media (max-width: 42rem) {
   body {
     background: var(--ground);
+  }
+
+  .question-resolution-dialog {
+    width: 100vw;
+    max-width: none;
+    max-height: 100dvh;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .question-resolution-panel {
+    max-height: 100dvh;
+  }
+
+  .question-resolution-content {
+    padding: 1rem;
   }
 
   .site-header {

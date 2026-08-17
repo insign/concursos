@@ -1,15 +1,23 @@
 ---
 import type { QuestionSet } from '../lib/content-schema';
+import type { ResolutionDescriptor } from '../lib/resolution-routes';
+import QuestionResolutionDialog from './QuestionResolutionDialog.astro';
 
 interface Props {
   questionSet: QuestionSet;
   contestStorageId: string;
   subjectStorageId: string;
+  resolutions: ResolutionDescriptor[];
 }
 
-const { questionSet, contestStorageId, subjectStorageId } = Astro.props;
+const { questionSet, contestStorageId, subjectStorageId, resolutions } = Astro.props;
 const componentId = `questionnaire-${contestStorageId}-${subjectStorageId}`;
-const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subjectStorageId }).replaceAll(
+const serializedConfig = JSON.stringify({
+  questionSet,
+  contestStorageId,
+  subjectStorageId,
+  ...(resolutions.length > 0 ? { resolutions } : {}),
+}).replaceAll(
   '<',
   '\\u003c',
 );
@@ -75,6 +83,8 @@ const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subject
     </div>
   </form>
 
+  <QuestionResolutionDialog />
+
   <script type="application/json" data-questionnaire-config set:html={serializedConfig}></script>
   <noscript>Ative o JavaScript para responder às questões. O conteúdo e o cheat sheet permanecem disponíveis sem ele.</noscript>
 </section>
@@ -97,3 +107,14 @@ const serializedConfig = JSON.stringify({ questionSet, contestStorageId, subject
     }
   });
 </script>
+
+{resolutions.length > 0 && (
+  <script>
+    import { mountQuestionnaireResolutions } from '../lib/questionnaire-resolutions';
+
+    document.querySelectorAll<HTMLElement>('[data-questionnaire]').forEach((root) => {
+      const data = root.querySelector<HTMLScriptElement>('[data-questionnaire-config]')?.textContent;
+      if (data) mountQuestionnaireResolutions(root, JSON.parse(data));
+    });
+  </script>
+)}

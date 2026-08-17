@@ -2,8 +2,10 @@ import { describe, expect, it } from 'vitest';
 import {
   contestIdFromEntry,
   groupIdFromEntry,
+  parseResolutionId,
   parseGroupId,
   parseSubjectId,
+  resolutionIdFromEntry,
   subjectIdFromEntry,
 } from '../../src/lib/content-paths';
 
@@ -33,6 +35,13 @@ describe('content paths', () => {
       groupSlugs: ['administracao', 'publica'],
       subjectSlug: 'assunto-exemplo',
     });
+    expect(resolutionIdFromEntry(`${path}/resolucoes/q001.md`)).toBe(
+      `${path}/resolucoes/q001`,
+    );
+    expect(parseResolutionId(`${path}/resolucoes/q001`)).toEqual({
+      subjectId: path,
+      questionId: 'q001',
+    });
   });
 
   it('rejects nested contests, groups without a segment and direct subjects', () => {
@@ -42,6 +51,10 @@ describe('content paths', () => {
       '<concurso>/<grupo>',
     );
     expect(() => parseSubjectId('concurso/assunto')).toThrow('<concurso>/<grupo>');
+    expect(() => resolutionIdFromEntry('concurso/grupo/assunto/resolucoes/q001.txt')).toThrow(
+      'deve terminar',
+    );
+    expect(() => parseResolutionId('concurso/grupo/assunto/q001')).toThrow('ID de resolução inválido');
   });
 
   it('rejects invalid segments at every depth', () => {
@@ -50,5 +63,8 @@ describe('content paths', () => {
     expect(() => parseSubjectId('concurso/grupo inválido/assunto')).toThrow('Slug de grupo inválido');
     expect(() => parseSubjectId('concurso/grupo//assunto')).toThrow('Slug de grupo inválido');
     expect(() => parseSubjectId('concurso/grupo/Assunto')).toThrow('Slug de assunto inválido');
+    expect(() => resolutionIdFromEntry('concurso/grupo/assunto/resolucoes/Q 1.md')).toThrow(
+      'ID de questão de resolução inválido',
+    );
   });
 });

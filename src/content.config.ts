@@ -5,9 +5,15 @@ import {
   contestSchema,
   groupSchema,
   questionSetSchema,
+  resolutionSchema,
   subjectSchema,
 } from './lib/content-schema';
-import { contestIdFromEntry, groupIdFromEntry, subjectIdFromEntry } from './lib/content-paths';
+import {
+  contestIdFromEntry,
+  groupIdFromEntry,
+  resolutionIdFromEntry,
+  subjectIdFromEntry,
+} from './lib/content-paths';
 
 const concursos = defineCollection({
   loader: glob({
@@ -54,4 +60,13 @@ const questoes = defineCollection({
   schema: questionSetSchema,
 });
 
-export const collections = { concursos, grupos, conteudos, cheatSheets, questoes };
+const resolucoes = defineCollection({
+  loader: glob({
+    base: './src/content/assuntos',
+    pattern: '**/resolucoes/*.md',
+    generateId: ({ entry }) => resolutionIdFromEntry(entry),
+  }),
+  schema: resolutionSchema,
+});
+
+export const collections = { concursos, grupos, conteudos, cheatSheets, questoes, resolucoes };

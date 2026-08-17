@@ -174,6 +174,45 @@ describe('catalog', () => {
     expect(() => buildCatalogIndex(orphan)).toThrow('órfão');
   });
 
+  it('indexes resolutions by subject and validates their question revision', () => {
+    const fixture = sources();
+    const subjectId = fixture.questionSets[0]!.id;
+    fixture.questionSets[0]!.data.questions.push({
+      id: 'q001',
+      revision: 1,
+      origin: 'authorial',
+      prompt: 'Pergunta?',
+      options: [
+        { id: 'a', text: 'A' },
+        { id: 'b', text: 'B' },
+      ],
+      correctOptionId: 'a',
+      explanation: 'Explicação.',
+    });
+    fixture.resolutions = [
+      {
+        id: `${subjectId}/resolucoes/q001`,
+        data: { schemaVersion: 1, questionRevision: 1 },
+      },
+    ];
+
+    expect(buildCatalogIndex(fixture).contests[0]!.subjects[1]!.resolutions).toEqual([
+      { questionId: 'q001', questionRevision: 1 },
+    ]);
+
+    const future = structuredClone(fixture);
+    future.resolutions![0]!.data.questionRevision = 2;
+    expect(() => buildCatalogIndex(future)).toThrow('usa a revisão 2');
+
+    const unknownQuestion = structuredClone(fixture);
+    unknownQuestion.resolutions![0]!.id = `${subjectId}/resolucoes/missing`;
+    expect(() => buildCatalogIndex(unknownQuestion)).toThrow('questão inexistente');
+
+    const orphan = structuredClone(fixture);
+    orphan.resolutions![0]!.id = 'concurso-a/area-a/orfao/resolucoes/q001';
+    expect(() => buildCatalogIndex(orphan)).toThrow('Resolução órfã');
+  });
+
   it('rejects nonexistent contests and duplicate storage IDs', () => {
     const nonexistent = sources();
     renameSubject(nonexistent, 0, 'ausente/grupo/segundo');
@@ -222,5 +261,29 @@ describe('catalog', () => {
     expect(inventory.routes.join('\n')).not.toMatch(/area-a|area-b|fundamentos/);
     expect(inventory.routes.join('\n')).not.toContain('/leitura/');
     expect(inventory.routes.join('\n')).not.toContain('#focus');
+  });
+
+  it('adds resolution routes only to contests with resolution content', () => {
+    const fixture = sources();
+    const subjectId = fixture.questionSets[0]!.id;
+    fixture.questionSets[0]!.data.questions.push({
+      id: 'q001',
+      revision: 1,
+      origin: 'authorial',
+      prompt: 'Pergunta?',
+      options: [
+        { id: 'a', text: 'A' },
+        { id: 'b', text: 'B' },
+      ],
+      correctOptionId: 'a',
+      explanation: 'Explicação.',
+    });
+    fixture.resolutions = [{
+      id: `${subjectId}/resolucoes/q001`,
+      data: { schemaVersion: 1, questionRevision: 1 },
+    }];
+    const contest = buildCatalogIndex(fixture).contests[0]!;
+    const inventory = createOfflineInventory(contest);
+    expect(inventory.routes).toContain('/resolucoes/a/segundo/');
   });
 });

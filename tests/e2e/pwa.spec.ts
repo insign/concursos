@@ -60,6 +60,7 @@ test('downloads and removes an atomic contest package without caching KV', async
   expect(cacheState.cachedKvRequests).toEqual([]);
   expect(cacheState.mermaidAsset).toBeTruthy();
 
+  await page.evaluate(() => localStorage.setItem('concursos:active-alias', 'offline-resolucao-7f3k'));
   await context.setOffline(true);
   const offlineMermaidResponse = await page.evaluate(async (path) => {
     try {
@@ -74,6 +75,18 @@ test('downloads and removes an atomic contest package without caching KV', async
     }
   }, cacheState.mermaidAsset!);
   expect(offlineMermaidResponse).toMatchObject({ ok: true, status: 200 });
+  await page.goto('/concursos/concurso-exemplo/assunto-exemplo/questoes/');
+  await page.getByLabel('Imediata').check();
+  await page.getByLabel('Eficiência').check();
+  const resolutionTrigger = page.getByRole('button', { name: 'Ver resolução passo a passo' });
+  await expect(resolutionTrigger).toBeVisible();
+  await resolutionTrigger.click();
+  const resolutionDialog = page.getByRole('dialog', { name: 'Resolução passo a passo' });
+  await expect(resolutionDialog).toBeVisible();
+  await expect(resolutionDialog.locator('.katex')).toBeVisible();
+  await expect(resolutionDialog.locator('pre.mermaid')).toHaveAttribute('data-render-status', 'success', {
+    timeout: 20_000,
+  });
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/');
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo/#focus');
   await expect(page.getByRole('dialog', { name: 'Modo de leitura sem distrações' })).toBeVisible();

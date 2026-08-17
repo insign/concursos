@@ -21,6 +21,7 @@ export interface QuestionnaireConfig {
   questionSet: QuestionSet;
   contestStorageId: string;
   subjectStorageId: string;
+  resolutions?: Array<{ questionId: string; questionRevision: number }>;
   userId?: string;
 }
 

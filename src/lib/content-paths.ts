@@ -1,4 +1,5 @@
 const ROUTE_SEGMENT = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const STABLE_ID = /^[A-Za-z0-9_-]{1,64}$/;
 
 function normalizeEntry(entry: string): string {
   return entry.replaceAll('\\', '/').replace(/^\.\//, '');
@@ -83,4 +84,34 @@ export function parseSubjectId(id: string): {
   }
   assertRouteSegment(subjectSlug, 'Slug de assunto');
   return { contestSlug, groupSlugs, subjectSlug };
+}
+
+export function resolutionIdFromEntry(entry: string): string {
+  const normalized = normalizeEntry(entry);
+  const match = /^(.*)\/resolucoes\/([^/]+)\.md$/.exec(normalized);
+  if (!match) {
+    throw new Error(`Arquivo de resolução deve terminar em "<assunto>/resolucoes/<questão>.md": "${entry}"`);
+  }
+
+  parseSubjectId(match[1]!);
+  if (!STABLE_ID.test(match[2]!)) {
+    throw new Error(`ID de questão de resolução inválido: "${match[2]}"`);
+  }
+  return `${match[1]}/resolucoes/${match[2]}`;
+}
+
+export function parseResolutionId(id: string): { subjectId: string; questionId: string } {
+  const marker = '/resolucoes/';
+  const markerIndex = id.lastIndexOf(marker);
+  const subjectId = markerIndex > 0 ? id.slice(0, markerIndex) : '';
+  const questionId = markerIndex > 0 ? id.slice(markerIndex + marker.length) : '';
+
+  if (!subjectId || !questionId || questionId.includes('/')) {
+    throw new Error(`ID de resolução inválido: "${id}"`);
+  }
+  parseSubjectId(subjectId);
+  if (!STABLE_ID.test(questionId)) {
+    throw new Error(`ID de questão de resolução inválido: "${questionId}"`);
+  }
+  return { subjectId, questionId };
 }
