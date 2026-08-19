@@ -16,7 +16,7 @@
 | Câmara/Senado/comissão | convocação pessoal do art. 50 |
 | Mesas | pedido escrito do art. 50, § 2º |
 | comissão | audiências, convocações, reclamações, depoimentos |
-| CPI/CPMI | investigação parlamentar, sem jurisdição |
+| <abbr title="Comissão Parlamentar de Inquérito">CPI</abbr>/<abbr title="Comissão Parlamentar Mista de Inquérito">CPMI</abbr> | investigação parlamentar, sem jurisdição |
 
 ## Art. 49
 
@@ -25,7 +25,7 @@
 - delegação legislativa.
 
 **IX** → Congresso julga contas do Presidente.  
-TCU → parecer prévio.  
+<abbr title="Tribunal de Contas da União">TCU</abbr> → parecer prévio.  
 Câmara → toma contas omitidas.
 
 **X** → Congresso fiscaliza diretamente ou por qualquer Casa, inclusive administração indireta.
@@ -48,7 +48,7 @@ Câmara → toma contas omitidas.
 
 - Ministro de Estado;
 - titular de órgão diretamente subordinado à Presidência;
-- Presidente do Comitê Gestor do IBS.
+- Presidente do Comitê Gestor do <abbr title="Imposto sobre Bens e Serviços">IBS</abbr>.
 
 Convocação → assunto previamente determinado.  
 Ausência sem justificativa adequada → crime de responsabilidade.
@@ -119,13 +119,13 @@ Indícios veementes de origem ilícita de bens não autorizam a CPI a decretar d
 CPI **investiga e relata**.  
 Não condena civil ou criminalmente.
 
-Conclusões podem seguir ao MP e demais órgãos competentes.
+Conclusões podem seguir ao <abbr title="Ministério Público">MP</abbr> e demais órgãos competentes.
 
 ## Prorrogação
 
 Prazo certo é requisito.
 
-**MS 40.799/STF (26/3/2026):**
+**<abbr title="Mandado de Segurança">MS</abbr> 40.799/<abbr title="Supremo Tribunal Federal">STF</abbr> (26/3/2026):**
 - minoria tem direito à criação, preenchidos os requisitos;
 - não há direito automático da minoria à prorrogação;
 - continuidade segue deliberação e regras parlamentares.
