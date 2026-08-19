@@ -252,14 +252,14 @@ Recortar não exclui imediatamente. A transferência ocorre quando a colagem é 
 
 A regra vale para arrasto padrão entre volumes. Não deve ser generalizada sem ressalva para resultados de pesquisa, bibliotecas, nuvem, rede, mídia removível ou políticas corporativas.
 
-### 7.4 Aprofundamento: permissões NTFS
+### 7.4 Aprofundamento: permissões <abbr title="New Technology File System">NTFS</abbr>
 
 Em volumes NTFS, por padrão:
 
 - mover dentro do mesmo volume preserva as permissões do item;
 - copiar, ou mover para outro volume, cria o item no destino com permissões herdadas desse destino.
 
-A regra depende de NTFS, permissões e configuração; não se transporta automaticamente para FAT, nuvem, rede ou outros sistemas de arquivos.
+A regra depende de NTFS, permissões e configuração; não se transporta automaticamente para <abbr title="File Allocation Table">FAT</abbr>, nuvem, rede ou outros sistemas de arquivos.
 
 ---
 
@@ -407,7 +407,7 @@ Atalhos podem ser redefinidos por aplicativos específicos. A tabela registra o 
 
 ### 13.1 Arrasto para unidade externa
 
-Ana arrasta `relatorio.docx` de `C:` para unidade USB `E:`, sem pressionar tecla. O padrão é **copiar**, pois são volumes diferentes. Com `Shift`, força movimentação; com `Ctrl`, força cópia.
+Ana arrasta `relatorio.docx` de `C:` para unidade <abbr title="Universal Serial Bus">USB</abbr> `E:`, sem pressionar tecla. O padrão é **copiar**, pois são volumes diferentes. Com `Shift`, força movimentação; com `Ctrl`, força cópia.
 
 ### 13.2 Extensão trocada
 

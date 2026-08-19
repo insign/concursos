@@ -19,11 +19,11 @@ Competência digital = **conhecimentos + habilidades + atitudes** para compreend
 
 | Estrutura | Quantidade |
 |---|---:|
-| eixos estruturantes da PNED | 4 |
+| eixos estruturantes da <abbr title="Política Nacional de Educação Digital">PNED</abbr> | 4 |
 | campos da Educação Digital Escolar no art. 3º | 5 |
-| eixos da BNCC Computação | 3 |
+| eixos da <abbr title="Base Nacional Comum Curricular">BNCC</abbr> Computação | 3 |
 
-**PNED — 4 eixos:** Inclusão Digital; Educação Digital Escolar; Capacitação e Especialização Digital; Pesquisa e Desenvolvimento em TICs.
+**PNED — 4 eixos:** Inclusão Digital; Educação Digital Escolar; Capacitação e Especialização Digital; Pesquisa e Desenvolvimento em <abbr title="Tecnologias da Informação e Comunicação">TICs</abbr>.
 
 **Art. 3º — 5 campos:** pensamento computacional; mundo digital; cultura digital; direitos digitais; tecnologia assistiva.
 
@@ -83,7 +83,7 @@ Em gráficos: fonte, data, definição, amostra, período, valores absolutos/rel
 
 Viralidade mede circulação, não verdade. Aparência profissional, posição em buscador e repetição também não comprovam veracidade.
 
-**Conteúdo sintético:** procure origem, versões anteriores, contexto, continuidade, metadados e confirmação independente. Detector de IA não é prova conclusiva.
+**Conteúdo sintético:** procure origem, versões anteriores, contexto, continuidade, metadados e confirmação independente. Detector de <abbr title="inteligência artificial">IA</abbr> não é prova conclusiva.
 
 Resposta pública: fonte + data + contexto + grau de certeza + linguagem clara + correção visível + proteção de dados.
 
@@ -103,7 +103,7 @@ Precisão média pode esconder falsos positivos ou falsos negativos concentrados
 
 Pseudonimização não equivale automaticamente a anonimização.
 
-**Ponte com LGPD:** controlador decide; operador trata em nome do controlador; consentimento não é a única base; dados públicos não têm uso irrestrito; transparência e proteção devem ser compatibilizadas. O estudo jurídico completo pertence ao tópico 3.2 do edital.
+**Ponte com <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>:** controlador decide; operador trata em nome do controlador; consentimento não é a única base; dados públicos não têm uso irrestrito; transparência e proteção devem ser compatibilizadas. O estudo jurídico completo pertence ao tópico 3.2 do edital.
 
 ## Pegadinhas
 
