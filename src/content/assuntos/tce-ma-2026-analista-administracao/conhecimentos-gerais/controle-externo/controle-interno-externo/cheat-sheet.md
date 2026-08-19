@@ -56,7 +56,7 @@ Pode alcançar:
 
 ## Art. 74 — quatro finalidades
 
-1. metas do PPA + programas + orçamentos;
+1. metas do <abbr title="Plano Plurianual">PPA</abbr> + programas + orçamentos;
 2. legalidade + eficácia + eficiência da gestão e aplicação de recursos públicos por entidades privadas;
 3. operações de crédito + avais + garantias + direitos + haveres;
 4. apoiar o controle externo.
@@ -71,7 +71,7 @@ Pode alcançar:
 
 Responsável pelo controle interno:
 
-**conheceu irregularidade/ilegalidade → dá ciência ao TCU → omissão pode gerar responsabilidade solidária.**
+**conheceu irregularidade/ilegalidade → dá ciência ao <abbr title="Tribunal de Contas da União">TCU</abbr> → omissão pode gerar responsabilidade solidária.**
 
 Não transforme qualquer erro em solidariedade automática.
 
