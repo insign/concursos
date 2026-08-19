@@ -97,7 +97,7 @@ O plural dos compostos depende da relação entre seus elementos. Regras de alta
 | repetição ou onomatopeia | varia normalmente o segundo elemento | `reco-recos`, `tico-ticos` |
 | segundo termo limita o primeiro por finalidade/semelhança | pode variar apenas o primeiro | `palavras-chave`, `salários-família` |
 
-Há formas lexicalizadas e oscilações registradas por gramáticas e dicionários. Em dúvida de grafia ou plural específico, consulte o VOLP; em prova, identifique a regra e a forma consagrada no enunciado.
+Há formas lexicalizadas e oscilações registradas por gramáticas e dicionários. Em dúvida de grafia ou plural específico, consulte o <abbr title="Vocabulário Ortográfico da Língua Portuguesa">VOLP</abbr>; em prova, identifique a regra e a forma consagrada no enunciado.
 
 ### 4.4 Grau e valor expressivo
 
@@ -265,7 +265,7 @@ Compare:
 
 O **pronome** substitui ou acompanha nome e estabelece relações de pessoa, posse, localização, referência, indeterminação, pergunta ou retomada.
 
-A NGB distingue:
+A <abbr title="Nomenclatura Gramatical Brasileira">NGB</abbr> distingue:
 
 | Emprego | Exemplo |
 | --- | --- |

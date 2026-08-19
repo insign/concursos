@@ -54,7 +54,7 @@ Alertas:
 - `Em 1988, promulga-se...`: presente histórico.
 - `Eu queria pedir...`: imperfeito de polidez.
 - `Ele terá quarenta anos`: futuro com inferência.
-- `Segundo a notícia, teria ocorrido`: distanciamento/evidencialidade.
+- `Segundo a notícia, teria ocorrido`: distanciamento/<abbr title="indicação da fonte da informação">evidencialidade</abbr>.
 
 ## Seleção de modo
 
@@ -174,7 +174,7 @@ Exemplo:
 3. determine o aspecto;
 4. observe verbo principal e conjunção;
 5. em relativas, avalie o referente;
-6. em condicionais, separe prótase e apódose;
+6. em condicionais, separe <abbr title="oração que expressa a condição">prótase</abbr> e <abbr title="oração principal que expressa a consequência">apódose</abbr>;
 7. em locuções, interprete o auxiliar;
 8. compare correção e sentido separadamente;
 9. elimine absolutos;
