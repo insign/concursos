@@ -10,7 +10,7 @@ $$
 
 - uma linha igual não prova equivalência;
 - uma linha diferente refuta;
-- $P\equiv Q$ se $P\leftrightarrow Q$ for tautologia.
+- $P\equiv Q$ se $P\leftrightarrow Q$ for <abbr title="fórmula verdadeira em todas as atribuições">tautologia</abbr>.
 
 ## Equivalências indispensáveis
 
