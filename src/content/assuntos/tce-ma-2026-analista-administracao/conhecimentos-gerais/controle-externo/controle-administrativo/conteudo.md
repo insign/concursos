@@ -26,7 +26,7 @@ Pode envolver:
 
 > **Pegadinha:** controle administrativo não significa poder ilimitado. Competência, finalidade, segurança jurídica, boa-fé, motivação, contraditório e direitos protegidos continuam vinculando a Administração.
 
-Permanecem fora deste assunto o controle parlamentar, o controle pelos tribunais de contas, o controle jurisdicional e os processos específicos do TCE/MA.
+Permanecem fora deste assunto o controle parlamentar, o controle pelos tribunais de contas, o controle jurisdicional e os processos específicos do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 
 ## 2. Fundamentos essenciais
 
@@ -132,7 +132,7 @@ Ela não depende de autorização judicial prévia, mas não afasta:
 - boa-fé;
 - controle judicial posterior.
 
-### 5.1. Súmulas 346 e 473 do STF
+### 5.1. Súmulas 346 e 473 do <abbr title="Supremo Tribunal Federal">STF</abbr>
 
 A **Súmula 346** reconhece que a Administração pode declarar a nulidade de seus próprios atos.
 
