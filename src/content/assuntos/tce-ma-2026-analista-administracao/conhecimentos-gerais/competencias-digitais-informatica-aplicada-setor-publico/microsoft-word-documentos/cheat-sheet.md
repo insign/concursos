@@ -40,10 +40,10 @@
 |---|---|
 | DOCX | padrão moderno editável |
 | DOC | legado; pode acionar compatibilidade |
-| ODT | interoperável; pode perder recursos |
-| RTF | formatação intermediária |
+| <abbr title="OpenDocument Text">ODT</abbr> | interoperável; pode perder recursos |
+| <abbr title="Rich Text Format">RTF</abbr> | formatação intermediária |
 | TXT | texto simples; perde objetos e estilos |
-| PDF | layout fixo; outro arquivo |
+| <abbr title="Portable Document Format">PDF</abbr> | layout fixo; outro arquivo |
 
 - Salvar: atualiza arquivo/local atuais.
 - Salvar como: muda nome, local ou formato e pode criar cópia.
