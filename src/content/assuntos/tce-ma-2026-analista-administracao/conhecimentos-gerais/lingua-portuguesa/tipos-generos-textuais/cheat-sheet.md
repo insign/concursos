@@ -143,4 +143,4 @@ A tabela indica tendência, não regra automática.
   ✅ O gênero pode permanecer, ainda que o suporte provoque adaptações.
 
 - ❌ **A forma imitada sempre define o gênero.**  
-  ✅ Na intergenericidade, prevalece a finalidade comunicativa efetiva.
+  ✅ Na <abbr title="forma de um gênero usada com função de outro">intergenericidade</abbr>, prevalece a finalidade comunicativa efetiva.
