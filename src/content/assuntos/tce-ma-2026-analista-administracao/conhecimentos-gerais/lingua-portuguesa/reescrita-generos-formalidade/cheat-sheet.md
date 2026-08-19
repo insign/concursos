@@ -49,7 +49,7 @@ Antes de reescrever, responda:
 - datas, quantidades e alcance;
 - causa, condição, finalidade e ressalva;
 - certeza, possibilidade, obrigação e recomendação;
-- polaridade e escopo;
+- <abbr title="caráter afirmativo ou negativo do enunciado">polaridade</abbr> e <abbr title="alcance interpretativo de um operador na frase">escopo</abbr>;
 - ação esperada.
 
 `Pode ocorrer` ≠ `ocorrerá`.
@@ -185,7 +185,7 @@ Formalizar não é aumentar automaticamente a força do ato.
 - O leitor e o suporte foram considerados?
 - Fato virou opinião ou hipótese virou certeza?
 - Surgiu fonte, atribuição ou agente que não existia na base?
-- `Hoje`, `amanhã`, `aqui` e outros dêiticos continuam identificáveis?
+- `Hoje`, `amanhã`, `aqui` e outros <abbr title="elementos cuja referência depende de pessoa, tempo ou espaço da enunciação">dêiticos</abbr> continuam identificáveis?
 - Prazo, condição ou responsável desapareceram?
 - A formalidade está adequada, sem rebuscamento?
 - Pronomes e conectores têm referência clara?
