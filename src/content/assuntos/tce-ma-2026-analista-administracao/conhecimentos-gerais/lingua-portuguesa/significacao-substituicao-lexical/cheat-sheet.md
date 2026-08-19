@@ -106,7 +106,7 @@ Verifique:
 - concordância;
 - regência;
 - transitividade;
-- papéis semânticos;
+- <abbr title="funções dos participantes no evento descrito">papéis semânticos</abbr>;
 - seleção lexical;
 - pontuação;
 - colocação;
@@ -227,7 +227,7 @@ Trocar conector pode mudar:
 - repetição pode ser preferível em texto técnico;
 - `essa hipótese`, `esse fato`, `essa decisão` retomam e classificam o conteúdo.
 
-Trocar `hipótese` por `fato` muda o estatuto epistêmico.
+Trocar `hipótese` por `fato` muda o <abbr title="grau de certeza ou caráter factual da informação">estatuto epistêmico</abbr>.
 
 ## Precisão terminológica pública
 
