@@ -46,7 +46,7 @@ $$
 
 - +20% e −20% → $1,2\cdot0,8=0,96$ → **−4%**.
 - Para voltar ao original, **divida pelo fator**.
-- 40% → 50% = **+10 p.p.** e **+25% relativo**.
+- 40% → 50% = **+10 <abbr title="pontos percentuais">p.p.</abbr>** e **+25% relativo**.
 
 ## Médias
 
@@ -147,8 +147,8 @@ $$
 
 - “fração **de**” → multiplique;
 - fração do restante → **nova base**;
-- MMC → primeira coincidência de ciclos;
-- MDC → maior agrupamento igual sem sobra;
+- <abbr title="mínimo múltiplo comum">MMC</abbr> → primeira coincidência de ciclos;
+- <abbr title="máximo divisor comum">MDC</abbr> → maior agrupamento igual sem sobra;
 - $n=dq+r$, com $0\le r<d$.
 
 ## Unidades
@@ -174,7 +174,7 @@ Teste nesta ordem:
 4. posição;
 5. recorrência dada.
 
-Não force PA/PG sem evidência.
+Não force <abbr title="progressão aritmética">PA</abbr>/<abbr title="progressão geométrica">PG</abbr> sem evidência.
 
 ## Pegadinhas
 
