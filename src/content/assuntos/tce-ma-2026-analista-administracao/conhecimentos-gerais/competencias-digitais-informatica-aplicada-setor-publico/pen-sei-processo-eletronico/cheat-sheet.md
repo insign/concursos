@@ -1,4 +1,4 @@
-# PEN e SEI
+# <abbr title="Processo Eletrônico Nacional">PEN</abbr> e <abbr title="Sistema Eletrônico de Informações">SEI</abbr>
 
 ## Regra de ouro
 
@@ -14,12 +14,12 @@ Corte: **10/08/2026**. Em 2026, a linha **SEI 5** já integra o ambiente oficial
 | Se a questão disser... | Pense em... |
 | --- | --- |
 | infraestrutura de processo eletrônico | PEN |
-| sistema criado pelo TRF4 | SEI |
-| expansão das soluções | ProPEN |
+| sistema criado pelo <abbr title="Tribunal Regional Federal da 4ª Região">TRF4</abbr> | SEI |
+| expansão das soluções | <abbr title="Programa Nacional de Processo Eletrônico">ProPEN</abbr> |
 | expedição entre sistemas | Tramita GOV.BR |
 | entrada de requerimento do cidadão | Protocolo GOV.BR |
 | consulta de dados de tramitação | Protocolo Integrado |
-| identificação padronizada | NUP |
+| identificação padronizada | <abbr title="Número Único de Protocolo">NUP</abbr> |
 
 **Entrada → Protocolo GOV.BR**  
 **Gestão → SEI**  
@@ -80,7 +80,7 @@ Pegadinhas:
 
 - público no SEI ≠ publicado na internet;
 - sistema controla acesso, mas não cria fundamento legal;
-- sigiloso no SEI ≠ automaticamente reservado/secreto/ultrassecreto da LAI;
+- sigiloso no SEI ≠ automaticamente reservado/secreto/ultrassecreto da <abbr title="Lei de Acesso à Informação">LAI</abbr>;
 - informação formalmente classificada nesses graus não deve tramitar pelo SEI, segundo orientação federal vigente.
 
 ## Recursos auxiliares
@@ -108,7 +108,7 @@ Pegadinhas:
 ## Tramita GOV.BR
 
 - integrante do PEN;
-- expede processos e documentos avulsos entre **SPEs**;
+- expede processos e documentos avulsos entre **<abbr title="sistemas de processo eletrônico">SPEs</abbr>**;
 - conecta sistemas diferentes;
 - não exige que todos usem SEI;
 - “Barramento de Serviços do PEN” = denominação histórica.

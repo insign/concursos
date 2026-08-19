@@ -27,8 +27,8 @@ Tecnologia = meio para valor público.
 
 | Instrumento | Função |
 |---|---|
-| ENGD | articulação nacional |
-| EFGD | estratégia federal |
+| <abbr title="Estratégia Nacional de Governo Digital">ENGD</abbr> | articulação nacional |
+| <abbr title="Estratégia Federal de Governo Digital">EFGD</abbr> | estratégia federal |
 | Rede Gov.br | colaboração voluntária federativa |
 
 ## Ecossistema GOV.BR
@@ -62,9 +62,9 @@ Ouro ≠ benefício garantido.
 
 | Método atual | Nível |
 |---|---|
-| Receita/INSS/Balcão | Bronze |
-| CNH, banco, SIGEPE | Prata |
-| TSE, CIN, ICP-Brasil PF | Ouro |
+| Receita/<abbr title="Instituto Nacional do Seguro Social">INSS</abbr>/Balcão | Bronze |
+| <abbr title="Carteira Nacional de Habilitação">CNH</abbr>, banco, <abbr title="Sistema de Gestão de Pessoas">SIGEPE</abbr> | Prata |
+| <abbr title="Tribunal Superior Eleitoral">TSE</abbr>, <abbr title="Carteira de Identidade Nacional">CIN</abbr>, <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> <abbr title="pessoa física">PF</abbr> | Ouro |
 
 Métodos = informação operacional.
 
@@ -77,7 +77,7 @@ Métodos = informação operacional.
 
 ## Segurança
 
-- 2FA: Prata/Ouro;
+- <abbr title="autenticação de dois fatores">2FA</abbr>: Prata/Ouro;
 - código somente no app GOV.BR;
 - não chega por SMS;
 - autenticador externo não gera;
@@ -110,7 +110,7 @@ Baixável ≠ aberto.
 | Elemento | Função |
 |---|---|
 | conjunto | coleção lógica |
-| recurso | CSV, JSON, API etc. |
+| recurso | <abbr title="Comma-Separated Values">CSV</abbr>, <abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Application Programming Interface">API</abbr> etc. |
 | catálogo | descoberta |
 | metadado | descrição |
 | formato | estrutura técnica |
@@ -133,9 +133,9 @@ Baixável ≠ aberto.
 
 | Item | Função |
 |---|---|
-| INDA | padrões e governança |
+| <abbr title="Infraestrutura Nacional de Dados Abertos">INDA</abbr> | padrões e governança |
 | Portal Brasileiro | catálogo |
-| PDA | inventário, prioridade, cronograma, responsáveis e monitoramento |
+| <abbr title="Plano de Dados Abertos">PDA</abbr> | inventário, prioridade, cronograma, responsáveis e monitoramento |
 
 PDA frequentemente bienal ≠ obrigação universal apenas pelo Decreto nº 8.777.
 
@@ -153,7 +153,7 @@ Motivo do pedido de acesso não pode ser exigido.
 
 | Canal | Função |
 |---|---|
-| SIC | atendimento de acesso |
+| <abbr title="Serviço de Informação ao Cidadão">SIC</abbr> | atendimento de acesso |
 | e-SIC | meio eletrônico |
 | Fala.BR | plataforma integrada de acesso e ouvidoria |
 
@@ -167,7 +167,7 @@ Plataforma única ≠ fluxo jurídico único.
 | conta sem app | possível; recursos podem exigir app |
 | Balcão | orienta, não eleva diretamente |
 | ambiente de protótipos | laboratório |
-| PDF escaneado | não é dado aberto estruturado |
+| <abbr title="Portable Document Format">PDF</abbr> escaneado | não é dado aberto estruturado |
 | catálogo com link quebrado | portal ≠ fonte |
 | pedido e denúncia no Fala.BR | fluxos distintos |
 
