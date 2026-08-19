@@ -36,7 +36,7 @@ Métodos de validação, documentos disponíveis, interfaces e números da plata
 | transformação digital | redesenho de organização, processo e jornada para gerar valor público |
 | governo digital | uso estratégico de tecnologias e dados para serviços, participação, eficiência e confiança |
 
-Colocar um formulário em PDF pode ser informatização sem transformação. A transformação pergunta:
+Colocar um formulário em <abbr title="Portable Document Format">PDF</abbr> pode ser informatização sem transformação. A transformação pergunta:
 
 - o cidadão ainda precisa entregar dado que o governo já possui?
 - as etapas podem ser integradas?
@@ -204,7 +204,7 @@ Uma pessoa autentica com conta Ouro e solicita benefício cuja lei exige determi
 
 ## 7. Níveis da conta GOV.BR
 
-A documentação atual aponta a Portaria SGD/MGI nº 11.229/2025 como referência de criação e gestão das contas; seu início de vigência foi posteriormente prorrogado pela Portaria SGD/MGI nº 4.921/2026. Para prova, observe o corte normativo e o enunciado.
+A documentação atual aponta a Portaria <abbr title="Secretaria de Governo Digital">SGD</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 11.229/2025 como referência de criação e gestão das contas; seu início de vigência foi posteriormente prorrogado pela Portaria SGD/MGI nº 4.921/2026. Para prova, observe o corte normativo e o enunciado.
 
 | Nível | Característica |
 |---|---|
@@ -218,9 +218,9 @@ Nível não representa renda, mérito, cidadania superior ou prioridade administ
 
 | Nível | Exemplos operacionais |
 |---|---|
-| Bronze | validação em bases da Receita Federal ou INSS; criação presencial admitida |
-| Prata | reconhecimento facial com base da CNH; banco credenciado; SIGEPE |
-| Ouro | reconhecimento facial com base da Justiça Eleitoral; leitura do QR Code da CIN; certificado digital de pessoa física ICP-Brasil |
+| Bronze | validação em bases da Receita Federal ou <abbr title="Instituto Nacional do Seguro Social">INSS</abbr>; criação presencial admitida |
+| Prata | reconhecimento facial com base da <abbr title="Carteira Nacional de Habilitação">CNH</abbr>; banco credenciado; <abbr title="Sistema de Gestão de Pessoas">SIGEPE</abbr> |
+| Ouro | reconhecimento facial com base da Justiça Eleitoral; leitura do QR Code da <abbr title="Carteira de Identidade Nacional">CIN</abbr>; certificado digital de pessoa física <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> |
 
 A lista é operacional e pode mudar. O núcleo é o grau de confiança obtido.
 
@@ -383,15 +383,15 @@ Nem todo dado público pode ser aberto. Nem todo arquivo disponível é dado abe
 | metadados | descrevem origem, campos, atualização e limites |
 | formato | estrutura técnica |
 | licença | autorização jurídica de uso e reúso |
-| API | acesso programático |
+| <abbr title="Application Programming Interface">API</abbr> | acesso programático |
 | responsável | mantém qualidade e disponibilidade |
 
 ### Exemplo
 
 Conjunto “Contratos”:
 
-- CSV mensal;
-- JSON;
+- <abbr title="Comma-Separated Values">CSV</abbr> mensal;
+- <abbr title="JavaScript Object Notation">JSON</abbr>;
 - API;
 - dicionário de campos;
 - data da atualização;

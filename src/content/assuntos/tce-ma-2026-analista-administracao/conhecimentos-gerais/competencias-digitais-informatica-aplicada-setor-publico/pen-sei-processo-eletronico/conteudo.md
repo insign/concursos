@@ -29,11 +29,11 @@ O PEN foi formalizado em 2013. O Decreto nº 8.539/2015 é marco normativo poste
 | --- | --- |
 | **PEN** | integra soluções e serviços de processo administrativo eletrônico |
 | **SEI** | produz, instrui, assina, tramita e acompanha processos e documentos |
-| **ProPEN** | amplia a adoção das soluções do PEN por entes e instituições elegíveis |
+| **<abbr title="Programa Nacional de Processo Eletrônico">ProPEN</abbr>** | amplia a adoção das soluções do PEN por entes e instituições elegíveis |
 | **Tramita GOV.BR** | realiza expedição de processos e documentos avulsos entre diferentes sistemas de processo eletrônico |
 | **Protocolo GOV.BR** | recebe documentos, solicitações e requerimentos de pessoas físicas e jurídicas |
 | **Protocolo Integrado** | permite consultar dados e histórico de tramitação informados pelos participantes |
-| **NUP** | identifica processos e documentos avulsos por numeração padronizada |
+| **<abbr title="Número Único de Protocolo">NUP</abbr>** | identifica processos e documentos avulsos por numeração padronizada |
 
 Regra de prova:
 
@@ -182,7 +182,7 @@ Pontos de prova:
 - “público no SEI” **não significa** publicação irrestrita na internet;
 - o SEI controla acesso, mas **não cria fundamento jurídico de sigilo**;
 - restrição deve apoiar-se em hipótese legal;
-- nível sigiloso do SEI não se confunde automaticamente com os graus reservado, secreto e ultrassecreto da LAI;
+- nível sigiloso do SEI não se confunde automaticamente com os graus reservado, secreto e ultrassecreto da <abbr title="Lei de Acesso à Informação">LAI</abbr>;
 - a orientação federal vigente registra que documentos formalmente classificados nesses graus da LAI não devem tramitar pelo SEI.
 
 ### 7.1 Acesso externo
@@ -219,7 +219,7 @@ Não confunda relacionamento com anexação. Sobrestamento não elimina, conclui
 
 ## 10. Tramita GOV.BR e interoperabilidade
 
-O **Tramita GOV.BR** é plataforma integrante do PEN destinada à tramitação externa, por expedição, de processos administrativos eletrônicos e documentos avulsos entre SPEs.
+O **Tramita GOV.BR** é plataforma integrante do PEN destinada à tramitação externa, por expedição, de processos administrativos eletrônicos e documentos avulsos entre <abbr title="sistemas de processo eletrônico">SPEs</abbr>.
 
 “Barramento de Serviços do PEN” é denominação histórica da solução.
 
