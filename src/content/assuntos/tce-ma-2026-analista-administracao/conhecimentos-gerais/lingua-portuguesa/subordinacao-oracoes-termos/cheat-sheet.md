@@ -35,7 +35,7 @@
 | --- | --- | --- |
 | subjetiva | o que é/convém/ocorre? | Convém **que revisem**. |
 | objetiva direta | verbo + o quê? | Informou **que terminou**. |
-| objetiva indireta | verbo + prep. + quê? | Duvida **de que baste**. |
+| objetiva indireta | verbo + <abbr title="preposição">prep.</abbr> + quê? | Duvida **de que baste**. |
 | completiva nominal | nome + prep. + quê? | Esperança **de que aceitem**. |
 | predicativa | sujeito = quê? | A verdade é **que expirou**. |
 | apositiva | explica termo anterior | Um pedido: **que revisem**. |
