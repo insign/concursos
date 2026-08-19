@@ -126,7 +126,7 @@ Lixeira:
 - Finalizar tarefa pode causar perda de dados não salvos;
 - `Win + L` bloqueia sem encerrar a sessão.
 
-**Aprofundamento NTFS:** mover no mesmo volume tende a preservar permissões; copiar ou mover para outro volume tende a herdar as permissões do destino.
+**Aprofundamento <abbr title="New Technology File System">NTFS</abbr>:** mover no mesmo volume tende a preservar permissões; copiar ou mover para outro volume tende a herdar as permissões do destino.
 
 ## 6. Pegadinhas e método
 
