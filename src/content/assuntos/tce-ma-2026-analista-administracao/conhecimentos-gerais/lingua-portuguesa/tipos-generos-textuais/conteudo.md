@@ -177,7 +177,7 @@ O gênero não determina sozinho a tipologia. Uma notícia pode ser predominante
 | **Formulário** | estrutura campos para coleta padronizada de dados |
 | **Manual** | sistematiza orientações para uso, conduta ou procedimento |
 
-No contexto do TCE, são exemplos relevantes: relatório de auditoria, parecer em processo de contas, nota técnica sobre política pública, despacho de encaminhamento e manual de fiscalização.
+No contexto do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE</abbr>, são exemplos relevantes: relatório de auditoria, parecer em processo de contas, nota técnica sobre política pública, despacho de encaminhamento e manual de fiscalização.
 
 ## 7. Gêneros jornalísticos e opinativos
 
