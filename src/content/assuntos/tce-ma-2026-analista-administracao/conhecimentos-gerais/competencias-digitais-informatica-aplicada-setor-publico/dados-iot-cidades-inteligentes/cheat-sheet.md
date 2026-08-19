@@ -1,4 +1,4 @@
-# Big data, análise de dados, IoT e cidades inteligentes
+# Big data, análise de dados, <abbr title="Internet das Coisas">IoT</abbr> e cidades inteligentes
 
 Corte: **10/08/2026**.
 
@@ -12,14 +12,14 @@ Corte: **10/08/2026**.
 | IoT | coisas/dispositivos conectados e interoperáveis |
 | cidade inteligente | tecnologia aplicada a problemas urbanos e valor público |
 
-**Mais dados ≠ melhor decisão. IoT ≠ IA. Mais sensores ≠ cidade mais inteligente.**
+**Mais dados ≠ melhor decisão. IoT ≠ <abbr title="inteligência artificial">IA</abbr>. Mais sensores ≠ cidade mais inteligente.**
 
 ## Organização dos dados
 
 | Tipo | Exemplo |
 | --- | --- |
 | estruturado | tabela, cadastro, transação |
-| semiestruturado | JSON, XML, log |
+| semiestruturado | <abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Extensible Markup Language">XML</abbr>, log |
 | não estruturado | texto livre, imagem, áudio, vídeo |
 
 - Metadado = significado, fonte, unidade, período, método.
@@ -104,7 +104,7 @@ Antes de comparar indicadores, confira:
 - Metadados ajudam a interpretar e descobrir dados.
 - Interoperabilidade = troca útil entre sistemas/organizações.
 - Integração técnica sem significado comum pode gerar interpretação errada.
-- IND = contexto atual de integração e compartilhamento governamental; não substitui qualidade, competência ou regras de acesso.
+- <abbr title="Infraestrutura Nacional de Dados">IND</abbr> = contexto atual de integração e compartilhamento governamental; não substitui qualidade, competência ou regras de acesso.
 
 ## IoT
 
@@ -157,7 +157,7 @@ Carta Brasileira:
 - transformação digital + desenvolvimento urbano sustentável;
 - tecnologia para problemas concretos;
 - valor público, inclusão, colaboração e resiliência;
-- uso responsável de dados e TIC;
+- uso responsável de dados e <abbr title="tecnologias da informação e comunicação">TIC</abbr>;
 - **é orientação estratégica, não lei**.
 
 ## Aplicações urbanas
