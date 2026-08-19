@@ -8,7 +8,7 @@ storageId: logica-argumentacao-inferencias
 
 ## 1. Recorte do assunto
 
-No edital do TCE/MA 2026, **lógica de argumentação** aparece acompanhada de **analogias, inferências, deduções e conclusões**. Os tópicos seguintes tratam separadamente de proposições, tabelas-verdade, equivalências, leis de De Morgan, diagramas lógicos, lógica de primeira ordem, contagem, probabilidade e conjuntos.
+No edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> 2026, **lógica de argumentação** aparece acompanhada de **analogias, inferências, deduções e conclusões**. Os tópicos seguintes tratam separadamente de proposições, tabelas-verdade, equivalências, leis de De Morgan, diagramas lógicos, lógica de primeira ordem, contagem, probabilidade e conjuntos.
 
 O foco deste assunto é, portanto, **entender e avaliar a passagem de razões para conclusões**, sobretudo em linguagem natural.
 
