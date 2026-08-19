@@ -104,7 +104,7 @@ Nem toda sequência de verbos é locução.
 
 - Ativa: sujeito pratica.
 - Passiva analítica: `ser + particípio`.
-- Passiva sintética: VTD/VTDI + `se`.
+- Passiva sintética: <abbr title="verbo transitivo direto">VTD</abbr>/<abbr title="verbo transitivo direto e indireto">VTDI</abbr> + `se`.
 - Reflexiva: sujeito age sobre si.
 - Recíproca: sujeitos agem uns sobre os outros.
 
@@ -137,7 +137,7 @@ Nem toda sequência de verbos é locução.
 
 É propriedade da ocorrência:
 
-- `assistir ao julgamento` — VTI;
+- `assistir ao julgamento` — <abbr title="verbo transitivo indireto">VTI</abbr>;
 - `assistir o paciente` — VTD;
 - `aspirar ao cargo` — VTI;
 - `aspirar o ar` — VTD.
