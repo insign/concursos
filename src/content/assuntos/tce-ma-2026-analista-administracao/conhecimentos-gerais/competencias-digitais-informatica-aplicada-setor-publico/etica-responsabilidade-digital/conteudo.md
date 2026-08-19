@@ -10,7 +10,7 @@ storageId: etica-responsabilidade-digital
 
 > **Recorte do edital:** uso ético de tecnologias; combate a fake news e desinformação; inclusão digital e acessibilidade em serviços públicos. **Corte normativo ordinário:** 6 de julho de 2026, data de publicação do edital. **Atualização editorial:** 10 de agosto de 2026. Atualizações posteriores ao edital só devem ser tratadas como pós-edital quando materialmente relevantes.
 
-O foco é compreender **como a Administração deve usar tecnologia de forma responsável, informar com integridade e garantir que diferentes pessoas consigam acessar e concluir serviços públicos digitais**. Não é necessário repetir em profundidade LGPD, inteligência artificial, acessibilidade física ou engenharia de interfaces, que possuem assuntos próprios.
+O foco é compreender **como a Administração deve usar tecnologia de forma responsável, informar com integridade e garantir que diferentes pessoas consigam acessar e concluir serviços públicos digitais**. Não é necessário repetir em profundidade <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>, inteligência artificial, acessibilidade física ou engenharia de interfaces, que possuem assuntos próprios.
 
 ## 1. Ética e responsabilidade digital
 
@@ -81,7 +81,7 @@ Para prova, é mais útil distinguir categorias:
 
 A intenção é especialmente importante para distinguir **misinformation** de **disinformation**.
 
-> Conteúdo verdadeiro também pode causar dano quando retirado de contexto ou divulgado abusivamente. Conteúdo sintético gerado por IA não é automaticamente falso; aparência realista também não prova autenticidade.
+> Conteúdo verdadeiro também pode causar dano quando retirado de contexto ou divulgado abusivamente. Conteúdo sintético gerado por <abbr title="inteligência artificial">IA</abbr> não é automaticamente falso; aparência realista também não prova autenticidade.
 
 ### 2.2 Técnicas frequentes
 
@@ -125,7 +125,7 @@ Uma resposta pública adequada tende a:
 
 Nem todo erro exige grande resposta pública: reagir desproporcionalmente pode ampliar conteúdo residual.
 
-O material da Secom atualizado em **3 de julho de 2026** apresenta fluxos de enfrentamento à desinformação, inclusive um dirigido a **ouvidores públicos**. É referência institucional, não lei geral de aplicação automática a todos os órgãos.
+O material da <abbr title="Secretaria de Comunicação Social da Presidência da República">Secom</abbr> atualizado em **3 de julho de 2026** apresenta fluxos de enfrentamento à desinformação, inclusive um dirigido a **ouvidores públicos**. É referência institucional, não lei geral de aplicação automática a todos os órgãos.
 
 ### 2.5 Limites do poder público
 
@@ -204,9 +204,9 @@ As referências mais importantes do recorte são:
 | Referência | Natureza |
 |---|---|
 | **LBI, art. 63** | obrigação jurídica de acessibilidade nos sítios abrangidos |
-| **eMAG 3.1** | modelo de recomendações para acessibilidade de sítios e portais governamentais brasileiros |
-| **WCAG 2.2** | recomendação técnica internacional do W3C |
-| **ABNT NBR 17225:2025** | norma brasileira sobre acessibilidade em conteúdo e aplicações web |
+| **<abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> 3.1** | modelo de recomendações para acessibilidade de sítios e portais governamentais brasileiros |
+| **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.2** | recomendação técnica internacional do <abbr title="World Wide Web Consortium">W3C</abbr> |
+| **<abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr> NBR 17225:2025** | norma brasileira sobre acessibilidade em conteúdo e aplicações web |
 | **Lei nº 15.263/2025** | política de linguagem simples, inclusive com linguagem acessível à pessoa com deficiência |
 
 Não confunda natureza técnica com natureza legal. Um padrão pode ser obrigatório quando incorporado por lei, regulamento, edital, política ou contrato, mas sua existência isolada não o transforma em lei nacional.

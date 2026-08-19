@@ -63,7 +63,7 @@ ocupante: _   _   _   _   _
 Ao confirmar `Lia = TI`:
 
 1. elimine outros setores de Lia;
-2. elimine TI das outras pessoas;
+2. elimine <abbr title="tecnologia da informação">TI</abbr> das outras pessoas;
 3. transporte pistas compostas ligadas a TI;
 4. procure linha ou coluna com uma única possibilidade.
 
