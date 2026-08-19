@@ -394,7 +394,7 @@ $$
 
 ## 13. Padrão oficial do CEBRASPE
 
-Em item oficial da prova de Escrivão da PCDF, o CEBRASPE julgou errada a afirmação de que a negação de “Todos são iguais perante a lei” seria “Todos são diferentes perante a lei”. A justificativa oficial aponta a forma existencial: **nem todos** possuem a propriedade, isto é, **existe ao menos um contraexemplo**.
+Em item oficial da prova de Escrivão da <abbr title="Polícia Civil do Distrito Federal">PCDF</abbr>, o <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr> julgou errada a afirmação de que a negação de “Todos são iguais perante a lei” seria “Todos são diferentes perante a lei”. A justificativa oficial aponta a forma existencial: **nem todos** possuem a propriedade, isto é, **existe ao menos um contraexemplo**.
 
 O padrão é exatamente:
 

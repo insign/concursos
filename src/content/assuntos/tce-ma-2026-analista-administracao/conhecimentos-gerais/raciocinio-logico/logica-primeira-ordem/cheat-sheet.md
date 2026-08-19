@@ -59,7 +59,7 @@ $$
 | algum $A$ é $B$ | nenhum $A$ é $B$ |
 | algum $A$ não é $B$ | todo $A$ é $B$ |
 
-**CEBRASPE:** negar “todos” não produz “nenhum”; produz **contraexemplo existencial**.
+**<abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">CEBRASPE</abbr>:** negar “todos” não produz “nenhum”; produz **contraexemplo existencial**.
 
 ## Ordem dos quantificadores
 
