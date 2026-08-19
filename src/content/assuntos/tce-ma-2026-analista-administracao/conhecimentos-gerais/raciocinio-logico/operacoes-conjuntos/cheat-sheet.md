@@ -17,7 +17,7 @@
 | $x\notin A$ | $x$ não pertence a $A$ |
 | $A\subseteq B$ | todo elemento de $A$ está em $B$ |
 | $A\subsetneq B$ | inclusão própria |
-| $|A|$ | cardinalidade |
+| $|A|$ | <abbr title="número de elementos distintos do conjunto">cardinalidade</abbr> |
 
 $$
 x\in A
