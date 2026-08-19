@@ -59,7 +59,7 @@ Desde 20/7/2026: guardar **porta lógica de origem** quando necessária à ident
 - consentimento expresso e destacado;
 - exclusão ao fim, ressalvada guarda obrigatória;
 - acessibilidade;
-- CDC nas relações de consumo.
+- <abbr title="Código de Defesa do Consumidor">CDC</abbr> nas relações de consumo.
 
 Acesso essencial à cidadania ≠ plano gratuito ilimitado.
 
@@ -109,7 +109,7 @@ Preservar → não descartar
 Acessar → somente com ordem judicial
 ```
 
-- polícia, autoridade administrativa ou MP podem pedir preservação;
+- polícia, autoridade administrativa ou <abbr title="Ministério Público">MP</abbr> podem pedir preservação;
 - conexão: 60 dias para judicializar;
 - pedido sob sigilo;
 - sem ordem, não há entrega.
@@ -131,7 +131,7 @@ Acessar → somente com ordem judicial
 | literalidade geral de aplicação | art. 19 |
 | honra | art. 19 |
 | nudez/sexo privado | art. 21 |
-| ilícito geral após STF | notificação + diligência |
+| ilícito geral após <abbr title="Supremo Tribunal Federal">STF</abbr> | notificação + diligência |
 | réplica idêntica já julgada | notificação, sem nova ordem |
 | anúncio pago/artificial | presunção relativa |
 | grave massivo | falha sistêmica |
@@ -170,7 +170,7 @@ Dúvida razoável pode justificar manutenção.
 - devido processo;
 - relatórios;
 - anúncio e anunciante guardados por 1 ano;
-- ANPD com fiscalização sistêmica.
+- <abbr title="Agência Nacional de Proteção de Dados">ANPD</abbr> com fiscalização sistêmica.
 
 Exclusões dos deveres de conteúdo:
 
@@ -189,7 +189,7 @@ Canal aberto ≠ mensagem privada.
 | demais violências digitais | remover ou fundamentar manutenção em 24 h |
 | contestação | decidir e comunicar em 24 h |
 
-- conteúdo íntimo inclui IA/deepfake;
+- conteúdo íntimo inclui <abbr title="inteligência artificial">IA</abbr>/deepfake;
 - marcação digital e bloqueio de reenvio;
 - redução de alcance de ataque coordenado;
 - salvaguardas em aplicações de IA.
@@ -233,7 +233,7 @@ Preferência por padrão aberto ≠ proibição absoluta do proprietário.
 
 | Caso | Chave |
 |---|---|
-| CGNAT | IP + horário + porta, quando necessária |
+| <abbr title="Carrier-Grade NAT">CGNAT</abbr> | <abbr title="Internet Protocol">IP</abbr> + horário + porta, quando necessária |
 | denúncia genérica | pode ser nula |
 | sátira com dúvida razoável | manutenção fundamentada |
 | anúncio de falso benefício | presunção + guarda 1 ano |

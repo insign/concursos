@@ -8,7 +8,7 @@ Primeiro descubra **o conceito**; depois, **o efeito jurídico**; por fim, **o n
 
 | Termo | Regra curta | Não confundir com |
 | --- | --- | --- |
-| assinatura eletrônica | gênero legal usado para assinar eletronicamente | apenas ICP-Brasil |
+| assinatura eletrônica | gênero legal usado para assinar eletronicamente | apenas <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> |
 | assinatura digital | mecanismo criptográfico com chaves assimétricas | imagem de rubrica |
 | assinatura qualificada | usa certificado ICP-Brasil | qualquer assinatura eletrônica |
 | certificado digital | vincula identidade e dados de validação/chave pública | assinatura de cada documento |
@@ -47,14 +47,14 @@ Assinar não torna o arquivo automaticamente secreto.
 | Integrante | Função |
 | --- | --- |
 | Comitê Gestor | políticas, critérios e normas |
-| ITI | autarquia + AC Raiz |
-| AC Raiz | topo da cadeia; não emite ao usuário final |
-| AC | emite, distribui, revoga e gerencia certificados |
-| AR | identifica, cadastra e encaminha solicitações |
+| <abbr title="Instituto Nacional de Tecnologia da Informação">ITI</abbr> | autarquia + AC Raiz |
+| <abbr title="Autoridade Certificadora Raiz">AC Raiz</abbr> | topo da cadeia; não emite ao usuário final |
+| <abbr title="Autoridade Certificadora">AC</abbr> | emite, distribui, revoga e gerencia certificados |
+| <abbr title="Autoridade de Registro">AR</abbr> | identifica, cadastra e encaminha solicitações |
 
 **AR identifica; AC emite; ITI = raiz.**
 
-## Validade jurídica — MP nº 2.200-2/2001
+## Validade jurídica — <abbr title="Medida Provisória">MP</abbr> nº 2.200-2/2001
 
 - ICP-Brasil → presunção legal específica em relação aos signatários.
 - Outros meios de autoria/integridade **podem** ser válidos quando admitidos/aceitos.
@@ -110,12 +110,12 @@ Não é qualificada ICP-Brasil e não substitui qualificada quando esta for obri
 
 ## Transição ICP-Brasil — regra vigente em 2026
 
-A Resolução CG ICP-Brasil nº 211/2024 já está em vigor.
+A Resolução <abbr title="Comitê Gestor">CG</abbr> ICP-Brasil nº 211/2024 já está em vigor.
 
 - em 2026 coexistem certificados legados e novos perfis;
 - novos tipos começaram a ser emitidos em **1º/11/2024**;
 - transição dos legados vai até **2/3/2029**;
-- para PJ, o **Selo Eletrônico — SE** identifica origem/responsabilidade em documentos e processos automatizados;
+- para <abbr title="pessoa jurídica">PJ</abbr>, o **Selo Eletrônico — SE** identifica origem/responsabilidade em documentos e processos automatizados;
 - **Selo Eletrônico não manifesta vontade** e não substitui assinatura de pessoa física para firmar contrato/acordo.
 
 ### Evite a decoreba antiga
