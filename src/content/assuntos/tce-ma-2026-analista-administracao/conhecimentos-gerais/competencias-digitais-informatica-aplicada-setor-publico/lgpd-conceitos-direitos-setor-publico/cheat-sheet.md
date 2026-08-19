@@ -1,4 +1,4 @@
-# LGPD: conceitos, direitos e setor público
+# <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>: conceitos, direitos e setor público
 
 ## Roteiro
 
@@ -132,7 +132,7 @@ executar → propagar → evidenciar
 - eliminação não é absoluta;
 - revogação ≠ oposição;
 - acesso geral: imediato simplificado ou completo em até 15 dias;
-- poder público também observa LAI, processo administrativo e habeas data.
+- poder público também observa <abbr title="Lei de Acesso à Informação">LAI</abbr>, processo administrativo e habeas data.
 
 ## Decisão automatizada
 
@@ -140,7 +140,7 @@ executar → propagar → evidenciar
 - direito a informações sobre critérios/procedimentos;
 - literalidade atual não exige revisão humana obrigatória.
 
-## RIPD
+## <abbr title="Relatório de Impacto à Proteção de Dados Pessoais">RIPD</abbr>
 
 | Documento | Função |
 |---|---|
