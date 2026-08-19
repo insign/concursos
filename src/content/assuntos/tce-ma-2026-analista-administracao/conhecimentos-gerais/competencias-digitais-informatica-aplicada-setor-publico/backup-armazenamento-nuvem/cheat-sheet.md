@@ -13,7 +13,7 @@
 | sincronização | manter alterações coerentes | propaga exclusão/corrupção |
 | replicação | manter instância atualizada | replica estado incorreto |
 | versionamento | estados anteriores | retenção limitada |
-| RAID | tolerância a falha de disco | não cria histórico |
+| <abbr title="Redundant Array of Independent Disks">RAID</abbr> | tolerância a falha de disco | não cria histórico |
 | imagem | reconstrução ampla | exige compatibilidade |
 
 ## Escopo
@@ -33,8 +33,8 @@
 |---|---|
 | frequência | de quanto em quanto tempo copiar? |
 | retenção | por quanto tempo guardar? |
-| RPO | quanto dado posso perder? |
-| RTO | quanto tempo posso ficar parado? |
+| <abbr title="Recovery Point Objective">RPO</abbr> | quanto dado posso perder? |
+| <abbr title="Recovery Time Objective">RTO</abbr> | quanto tempo posso ficar parado? |
 
 ## Tipos
 

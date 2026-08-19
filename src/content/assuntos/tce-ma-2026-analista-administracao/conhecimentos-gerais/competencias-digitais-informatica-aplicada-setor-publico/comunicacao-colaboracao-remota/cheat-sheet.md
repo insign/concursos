@@ -61,13 +61,13 @@ Webmail ≠ protocolo ≠ caixa postal.
 
 | Protocolo | Função | Porta convencional |
 |---|---|---:|
-| SMTP | envio/transferência | 25 / 587 |
-| IMAP | sincronização no servidor | 143 / 993 |
-| POP3 | recuperação por download | 110 / 995 |
+| <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> | envio/transferência | 25 / 587 |
+| <abbr title="Internet Message Access Protocol">IMAP</abbr> | sincronização no servidor | 143 / 993 |
+| <abbr title="Post Office Protocol - Version 3">POP3</abbr> | recuperação por download | 110 / 995 |
 
 - SMTP não lê caixa.
 - POP3 não apaga sempre do servidor.
-- MIME estrutura conteúdos/anexos; não criptografa.
+- <abbr title="Multipurpose Internet Mail Extensions">MIME</abbr> estrutura conteúdos/anexos; não criptografa.
 
 ## Evidências
 
@@ -252,4 +252,4 @@ Repasse entre turnos:
 - mão levantada ≠ microfone;
 - legenda ≠ transcrição;
 - assíncrono ≠ sem prazo;
-- PGD federal ≠ aplicação automática ao TCE-MA.
+- <abbr title="Programa de Gestão e Desempenho">PGD</abbr> federal ≠ aplicação automática ao TCE-MA.
