@@ -30,7 +30,7 @@ A **Resolução TCE/MA nº 383/2023**, alterada no tema da prescrição intercor
 | --- | --- |
 | Lei nº 8.258/2005 | decisões, débito, multas, sanções, cautelares, execução e recursos |
 | Regimento e atos normativos do TCE/MA | detalhes operacionais remetidos pela própria Lei |
-| Constituição e STF | eficácia do título, competência em tomada de contas especial, prescritibilidade e legitimidade executiva |
+| Constituição e <abbr title="Supremo Tribunal Federal">STF</abbr> | eficácia do título, competência em tomada de contas especial, prescritibilidade e legitimidade executiva |
 | Resolução nº 383/2023 e alterações | contexto complementar de prescrição interna, sem substituir o recorte da Lei Orgânica |
 
 A regra de prova é simples: **não transforme complemento regimental, resolução ou jurisprudência em literalidade da Lei Orgânica**.
@@ -132,7 +132,7 @@ Há ainda arquivamentos com efeitos diferentes:
 
 No arquivamento por racionalização, o devedor continua obrigado a pagar para obter quitação.
 
-### 3.7. Chefe do Executivo e tomada de contas especial — Tema 1287/STF
+### 3.7. Chefe do Executivo e tomada de contas especial — Tema 1287/<abbr title="Supremo Tribunal Federal">STF</abbr>
 
 Não confunda **contas anuais de governo** com **responsabilidade pessoal apurada em tomada de contas especial**.
 
@@ -177,7 +177,7 @@ Expirado o prazo sem manifestação do responsável, a Lei prevê, conforme o ca
 
 Título executivo e legitimidade para propor a execução são questões diferentes.
 
-A tese atual do **Tema 642**, com a redação ajustada após a ADPF 1.011, distingue:
+A tese atual do **Tema 642**, com a redação ajustada após a <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 1.011, distingue:
 
 | Crédito | Legitimidade executiva |
 | --- | --- |
@@ -186,7 +186,7 @@ A tese atual do **Tema 642**, com a redação ajustada após a ADPF 1.011, disti
 
 Para débitos voltados à recomposição do erário, deve-se identificar o ente titular do crédito.
 
-No **Tema 899**, o STF decidiu que é **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas. Isso não elimina a eficácia de título executivo; apenas afasta a ideia de cobrança judicial eterna.
+No **Tema 899**, o <abbr title="Supremo Tribunal Federal">STF</abbr> decidiu que é **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas. Isso não elimina a eficácia de título executivo; apenas afasta a ideia de cobrança judicial eterna.
 
 Não confunda o Tema 899 com o Tema 897, que trata da imprescritibilidade de ações judiciais de ressarcimento fundadas em ato doloso tipificado na Lei de Improbidade Administrativa.
 
@@ -255,7 +255,7 @@ A indisponibilidade de bens:
 - pode durar até **um ano**;
 - limita-se aos bens suficientes para garantir o ressarcimento em apuração.
 
-O arresto segue técnica diferente: o Tribunal pode solicitar, por intermédio do MPC, que a procuradoria ou o dirigente competente adote as medidas necessárias em relação aos bens de responsáveis julgados em débito.
+O arresto segue técnica diferente: o Tribunal pode solicitar, por intermédio do <abbr title="Ministério Público de Contas">MPC</abbr>, que a procuradoria ou o dirigente competente adote as medidas necessárias em relação aos bens de responsáveis julgados em débito.
 
 ### 6.3. Cautelar geral do art. 75
 
@@ -361,7 +361,7 @@ A Lei nº 8.258/2005 não deve ser estudada como se contivesse, por si, toda a d
 No corte do edital, a **Resolução nº 383/2023**, com alterações posteriores — inclusive critérios sobre prescrição intercorrente introduzidos pela **Resolução nº 406/2024** — integra o contexto institucional. Para este assunto, basta guardar duas separações:
 
 1. **prescrição interna do processo no TCE/MA** decorre de disciplina normativa própria do Tribunal;
-2. **execução judicial de título do Tribunal de Contas** é prescritível, conforme o Tema 899/STF e o regime jurídico do crédito.
+2. **execução judicial de título do Tribunal de Contas** é prescritível, conforme o Tema 899/<abbr title="Supremo Tribunal Federal">STF</abbr> e o regime jurídico do crédito.
 
 Detalhes de termos iniciais, causas interruptivas, suspensivas e prescrição intercorrente pertencem à resolução específica e não devem ser tratados como literalidade da Lei nº 8.258/2005.
 
@@ -390,7 +390,7 @@ Não confunda:
 | reconsideração × revisão | ordinária, 15 dias, suspensiva × excepcional, 2 anos, sem suspensão |
 | embargos × demais recursos | embargos interrompem os demais prazos |
 | título executivo × legitimidade | título autoriza cobrança; natureza/titularidade do crédito indicam quem executa |
-| contas anuais × TCE especial de convênio | parecer prévio × responsabilidade pessoal sancionável pelo Tribunal, Tema 1287 |
+| contas anuais × <abbr title="Tomada de contas especial">TCE</abbr> especial de convênio | parecer prévio × responsabilidade pessoal sancionável pelo Tribunal, Tema 1287 |
 | prescrição interna × execução judicial | resolução do TCE × Tema 899 e regime do crédito |
 | inabilitação × inelegibilidade | sanção administrativa × efeito eleitoral definido pelo regime eleitoral |
 
