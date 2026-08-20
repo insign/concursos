@@ -20,12 +20,12 @@ O recorte principal está nos **arts. 8º a 13 e 34 a 58**:
 - sustação de ato e contrato;
 - atos de pessoal sujeitos a registro.
 
-Duas decisões do STF são indispensáveis para aplicar corretamente essas regras:
+Duas decisões do <abbr title="Supremo Tribunal Federal">STF</abbr> são indispensáveis para aplicar corretamente essas regras:
 
-- **ADPF 982**, julgada em 2025: contas de gestão de Prefeito ordenador de despesas podem ser julgadas pelo Tribunal de Contas para imputação de débito e sanções não eleitorais, sem ratificação da Câmara; para os efeitos do art. 1º, I, `g`, da LC nº 64/1990, permanece a competência da Câmara Municipal;
-- **Tema 445 (RE 636.553)**: o Tribunal de Contas tem cinco anos, contados da chegada do processo à Corte, para julgar a legalidade do ato inicial de aposentadoria, reforma ou pensão.
+- **<abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982**, julgada em 2025: contas de gestão de Prefeito ordenador de despesas podem ser julgadas pelo Tribunal de Contas para imputação de débito e sanções não eleitorais, sem ratificação da Câmara; para os efeitos do art. 1º, I, `g`, da <abbr title="Lei Complementar">LC</abbr> nº 64/1990, permanece a competência da Câmara Municipal;
+- **Tema 445 (<abbr title="Recurso Extraordinário">RE</abbr> 636.553)**: o Tribunal de Contas tem cinco anos, contados da chegada do processo à Corte, para julgar a legalidade do ato inicial de aposentadoria, reforma ou pensão.
 
-Jurisdição e competência geral foram tratadas no Assunto 064; organização e MPC, no 065. Ritos processuais gerais ficam no 067; regularidade das contas, débitos, sanções, execução e recursos, no 068.
+Jurisdição e competência geral foram tratadas no Assunto 064; organização e <abbr title="Ministério Público de Contas">MPC</abbr>, no 065. Ritos processuais gerais ficam no 067; regularidade das contas, débitos, sanções, execução e recursos, no 068.
 
 ## 2. Critérios do controle
 
@@ -90,7 +90,7 @@ O art. 10 separa:
 
 O parecer prévio municipal é emitido em 60 dias do recebimento ou até o último mês do exercício financeiro, conforme a hipótese legal. Depois do trânsito em julgado, as contas de governo e o parecer são encaminhados à Câmara Municipal.
 
-### 3.4. ADPF 982: Prefeito ordenador de despesas
+### 3.4. <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982: Prefeito ordenador de despesas
 
 A jurisprudência do STF impede uma fórmula simplista como “toda conta de Prefeito é julgada pela Câmara”.
 
@@ -195,7 +195,7 @@ O art. 44 utiliza a expressão **“dentre outros”**, portanto o rol não é e
 3. inspeção;
 4. acompanhamento;
 5. monitoramento;
-6. RREO e RGF.
+6. <abbr title="Relatório Resumido da Execução Orçamentária">RREO</abbr> e <abbr title="Relatório de Gestão Fiscal">RGF</abbr>.
 
 A Resolução TCE/MA nº 324/2020 ajuda a diferenciar os cinco instrumentos principais:
 
@@ -209,7 +209,7 @@ A Resolução TCE/MA nº 324/2020 ajuda a diferenciar os cinco instrumentos prin
 
 Os instrumentos são **complementares**, não etapas obrigatórias de uma sequência fixa.
 
-A seleção das ações pode considerar **materialidade, relevância, risco e oportunidade**. Para este assunto, o essencial é compreender esses critérios como apoio ao planejamento da fiscalização; detalhes internos de PBF e PAT não substituem o estudo da Lei Orgânica.
+A seleção das ações pode considerar **materialidade, relevância, risco e oportunidade**. Para este assunto, o essencial é compreender esses critérios como apoio ao planejamento da fiscalização; detalhes internos de <abbr title="Plano Bienal de Fiscalização">PBF</abbr> e <abbr title="Plano Anual de Atividades">PAT</abbr> não substituem o estudo da Lei Orgânica.
 
 ## 7. Execução da fiscalização — arts. 45 a 48
 
@@ -292,7 +292,7 @@ Não entram no registro:
 
 O controle interno emite parecer sobre a legalidade e disponibiliza os dados ao Tribunal.
 
-### 10.2. Tema 445/STF: prazo para o registro inicial
+### 10.2. Tema 445/<abbr title="Supremo Tribunal Federal">STF</abbr>: prazo para o registro inicial
 
 Para **aposentadoria, reforma e pensão**, o STF fixou no Tema 445 que o Tribunal de Contas dispõe de **5 anos**, contados da **chegada do processo à Corte**, para julgar a legalidade do ato de concessão inicial.
 
@@ -302,7 +302,7 @@ Decorrido esse prazo, aplica-se a estabilização definida pela tese de repercus
 
 A Lei Orgânica disciplina situação diferente: depois que o Tribunal já considerou legal e registrou o ato, o acórdão **não faz coisa julgada administrativa**.
 
-Se posteriormente for verificada violação da ordem jurídica, o ato pode ser revisto de ofício, com oitiva do MPC, em até **5 anos contados do julgamento**. Comprovada má-fé, a revisão pode ocorrer a qualquer tempo.
+Se posteriormente for verificada violação da ordem jurídica, o ato pode ser revisto de ofício, com oitiva do <abbr title="Ministério Público de Contas">MPC</abbr>, em até **5 anos contados do julgamento**. Comprovada má-fé, a revisão pode ocorrer a qualquer tempo.
 
 ### 10.4. Não confunda os dois quinquênios
 
