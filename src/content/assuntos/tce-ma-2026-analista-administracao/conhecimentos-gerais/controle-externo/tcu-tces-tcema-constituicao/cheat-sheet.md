@@ -1,9 +1,9 @@
-# TCU, TCEs, TCDF e TCE/MA
+# <abbr title="Tribunal de Contas da União">TCU</abbr>, <abbr title="Tribunais de Contas dos Estados">TCEs</abbr>, <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> e <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>
 
 ## Corte
 
 - Edital: **06/07/2026**.
-- EC nº 139/2026: **já vigente no corte**.
+- <abbr title="Emenda Constitucional">EC</abbr> nº 139/2026: **já vigente no corte**.
 - Arts. 31 e 75: tribunais de contas = **permanentes + essenciais**; vedada **extinção, criação ou instalação** nos termos constitucionais.
 
 ## Matriz de quem controla
@@ -33,13 +33,13 @@
 - membro do Ministério Público junto à Corte de Contas;
 - uma livre escolha.
 
-> **Pegadinha:** TCE 4/3 **não é quinto constitucional**. Súmula 653/STF.
+> **Pegadinha:** TCE 4/3 **não é quinto constitucional**. Súmula 653/<abbr title="Supremo Tribunal Federal">STF</abbr>.
 
 ## TCU: requisitos
 
 **> 35 e < 70** + idoneidade + reputação ilibada + conhecimentos notórios + **mais de 10 anos** de atividade compatível.
 
-Garantias dos ministros: **ministros do STJ**.
+Garantias dos ministros: **ministros do <abbr title="Superior Tribunal de Justiça">STJ</abbr>**.
 
 Auditor = ministro-substituto constitucional; **não confundir com servidor auditor de controle externo**.
 
@@ -66,16 +66,16 @@ Não autoriza:
 
 Contas anuais do prefeito: **parecer prévio → Câmara julga → parecer só cai por 2/3**.
 
-ADI 4.124/STF: Tribunal de Contas dos Municípios = **órgão estadual autônomo**, não simples órgão interno da Assembleia.
+<abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 4.124/STF: Tribunal de Contas dos Municípios = **órgão estadual autônomo**, não simples órgão interno da Assembleia.
 
 ## TCE/MA
 
 - **7 conselheiros**.
 - **4 Assembleia + 3 Governador**.
-- Governador: **1 livre + 1 conselheiro-substituto + 1 MPC**.
+- Governador: **1 livre + 1 conselheiro-substituto + 1 <abbr title="Ministério Público de Contas">MPC</abbr>**.
 - Requisitos: **> 35 e < 70**, idoneidade, reputação, conhecimentos notórios, **> 10 anos**.
 - EC estadual nº 96/2024: **arguição pública + aprovação por voto secreto**.
-- Garantias dos conselheiros: equivalentes às de **desembargador do TJ/MA**.
+- Garantias dos conselheiros: equivalentes às de **desembargador do <abbr title="Tribunal de Justiça do Maranhão">TJ/MA</abbr>**.
 - Não é subordinado à Assembleia, não integra o TJ e não é unidade do TCU.
 
 ## Chefe do Executivo x responsáveis
