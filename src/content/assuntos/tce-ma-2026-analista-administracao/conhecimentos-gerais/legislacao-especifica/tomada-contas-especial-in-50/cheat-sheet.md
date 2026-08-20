@@ -1,4 +1,4 @@
-# Tomada de Contas Especial: IN TCE/MA nº 50/2017
+# Tomada de Contas Especial: <abbr title="Instrução Normativa">IN</abbr> <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> nº 50/2017
 
 ## Fluxo em uma linha
 
@@ -23,7 +23,7 @@ TCE = processo administrativo formal, com rito próprio, para:
 
 **Transferência voluntária:** vale o menor prazo entre IN, instrumento e legislação específica.
 
-**DN nº 33/2020:** exceção emergencial histórica; não amplia os prazos ordinários atuais.
+**<abbr title="Decisão Normativa">DN</abbr> nº 33/2020:** exceção emergencial histórica; não amplia os prazos ordinários atuais.
 
 ## Art. 2º: gatilhos
 
@@ -42,7 +42,7 @@ TCE = processo administrativo formal, com rito próprio, para:
 | determinação descumprida | TCE de ofício + multa **R$ 11.000** + instrução técnica + autoridade omissa solidária |
 | comunicação omitida | multa **R$ 600 por ocorrência** |
 
-**e-TCEspecial:** Portaria nº **1.166/2018**; comunicação exclusivamente eletrônica desde **1º jan. 2019**.
+**<abbr title="Sistema eletrônico de tomada de contas especial">e-TCEspecial</abbr>:** Portaria nº **1.166/2018**; comunicação exclusivamente eletrônica desde **1º jan. 2019**.
 
 > Portal compilado menciona “1666”: erro material. Memorize **1.166/2018**.
 
@@ -133,7 +133,7 @@ Não somar pessoas diferentes indiscriminadamente.
 
 **Notificação ≠ instauração.**
 
-> Direito vigente complementar: Res. nº 383/2023, alterada pela Res. nº 406/2024, disciplina prescrição em geral no controle externo. Só leve esse regime para a resposta quando o enunciado o pedir; não substitua os marcos literais acima.
+> Direito vigente complementar: <abbr title="Resolução">Res.</abbr> nº 383/2023, alterada pela Res. nº 406/2024, disciplina prescrição em geral no controle externo. Só leve esse regime para a resposta quando o enunciado o pedir; não substitua os marcos literais acima.
 
 ## Controle interno
 
@@ -146,8 +146,8 @@ Não somar pessoas diferentes indiscriminadamente.
 
 | Peça | Formato |
 |---|---|
-| ofício | PDF |
-| formulário | ODS ou sistema |
+| ofício | <abbr title="Portable Document Format">PDF</abbr> |
+| formulário | <abbr title="OpenDocument Spreadsheet">ODS</abbr> ou sistema |
 | relatório do tomador | PDF |
 | parecer do controle interno | PDF |
 | pronunciamento da autoridade | PDF |
@@ -178,11 +178,11 @@ Não somar pessoas diferentes indiscriminadamente.
 
 ## Arquivos eletrônicos
 
-- PDF exportado; se inviável, digitalização pesquisável por OCR.
+- PDF exportado; se inviável, digitalização pesquisável por <abbr title="Reconhecimento Óptico de Caracteres">OCR</abbr>.
 - ODS quando exigido.
 - Máximo: **25 MB por arquivo**.
 - Legível e sem malware.
-- Certificado ICP-Brasil **A1, A3 ou A4**.
+- Certificado <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> **A1, A3 ou A4**.
 - Arquivo dividido: identificação **(N-T)**.
 
 ## Saneamento
