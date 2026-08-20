@@ -20,7 +20,7 @@ O edital quer reconhecimento territorial e distinções básicas, não engenhari
 
 ### Armadilhas rodoviárias
 
-- federal ≠ administração direta obrigatória do DNIT;
+- federal ≠ administração direta obrigatória do <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr>;
 - planejada ≠ implantada;
 - implantada ≠ pavimentada;
 - pavimentada ≠ duplicada;
@@ -31,9 +31,9 @@ O edital quer reconhecimento territorial e distinções básicas, não engenhari
 
 | Sistema | Chave |
 |---|---|
-| **EFC / Vale** | Carajás → **Ponta da Madeira** |
-| **FNS / VLI** | conecta-se à EFC em **Açailândia** |
-| **FTL / Malha Nordeste** | inclui **São Luís–Teresina** |
+| **<abbr title="Estrada de Ferro Carajás">EFC</abbr> / Vale** | Carajás → **Ponta da Madeira** |
+| **<abbr title="Ferrovia Norte-Sul — Tramo Norte">FNS</abbr> / VLI** | conecta-se à EFC em **Açailândia** |
+| **<abbr title="Ferrovia Transnordestina Logística">FTL</abbr> / Malha Nordeste** | inclui **São Luís–Teresina** |
 
 Fluxo essencial:
 
@@ -53,8 +53,8 @@ FTL ≠ TLSA/Nova Transnordestina.
 
 | Instalação | Natureza | Quem/ligação |
 |---|---|---|
-| **Itaqui** | porto organizado público | EMAP; multipropósito |
-| **Ponta da Madeira** | TUP | Vale; EFC/Carajás |
+| **Itaqui** | porto organizado público | <abbr title="Empresa Maranhense de Administração Portuária">EMAP</abbr>; multipropósito |
+| **Ponta da Madeira** | <abbr title="Terminal de Uso Privado">TUP</abbr> | Vale; EFC/Carajás |
 | **Alumar** | TUP | cadeia bauxita–alumina–alumínio |
 
 ### Regras de uma linha
@@ -67,7 +67,7 @@ FTL ≠ TLSA/Nova Transnordestina.
 
 ## Aeroportos
 
-| Cidade | IATA | ICAO | Cadastro ANAC |
+| Cidade | <abbr title="International Air Transport Association">IATA</abbr> | <abbr title="International Civil Aviation Organization">ICAO</abbr> | Cadastro <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr> |
 |---|---|---|---|
 | **São Luís** | SLZ | SBSL | MA0001 |
 | **Imperatriz** | IMP | SBIZ | MA0002 |

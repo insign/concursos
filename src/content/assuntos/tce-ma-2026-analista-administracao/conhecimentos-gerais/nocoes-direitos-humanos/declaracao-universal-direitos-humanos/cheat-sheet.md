@@ -2,13 +2,13 @@
 
 ## Identidade
 
-**ONU → Assembleia Geral → Resolução 217 A (III) → Paris → 10/12/1948 → 30 artigos**
+**<abbr title="Organização das Nações Unidas">ONU</abbr> → Assembleia Geral → Resolução 217 A (III) → Paris → 10/12/1948 → 30 artigos**
 
 - votação: **48–0–8**; dois Estados não votaram;
 - nenhum voto contrário ≠ unanimidade;
 - DUDH = **declaração/padrão comum**, não tratado;
 - Brasil **votou a favor**; não “ratificou” a DUDH;
-- PIDCP/PIDESC = tratados; DUDH = declaração.
+- <abbr title="Pacto Internacional sobre Direitos Civis e Políticos">PIDCP</abbr>/<abbr title="Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais">PIDESC</abbr> = tratados; DUDH = declaração.
 
 ## Preâmbulo: gatilhos
 
@@ -69,7 +69,7 @@ Destinatários da proclamação: **cada indivíduo + cada órgão da sociedade**
 
 | Art. | Gatilho |
 |---:|---|
-| **22** | segurança social + DESC + esforço nacional/coooperação + recursos do Estado |
+| **22** | segurança social + <abbr title="direitos econômicos, sociais e culturais">DESC</abbr> + esforço nacional/coooperação + recursos do Estado |
 | **23** | trabalho + livre escolha + condições justas + desemprego + salário igual + sindicato |
 | **24** | repouso/lazer + jornada razoável + férias **remuneradas** |
 | **25** | padrão de vida + segurança social + maternidade/infância + filhos com igual proteção |
