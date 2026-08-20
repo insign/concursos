@@ -53,7 +53,7 @@ Os conceitos se relacionam, mas não são sinônimos perfeitos.
 
 Vitorino nasceu em **Pedra, Pernambuco, em 1908**. Em 1934, passou a atuar diretamente na administração maranhense como secretário do interventor **Antônio Martins de Almeida**.
 
-Com a redemocratização de 1945, tornou-se um dos organizadores do novo PSD no Maranhão, apoiou a candidatura presidencial de **Eurico Gaspar Dutra** e foi eleito deputado constituinte. Após a posse de Dutra, **Saturnino Belo** foi nomeado interventor no Maranhão por indicação de Vitorino.
+Com a redemocratização de 1945, tornou-se um dos organizadores do novo <abbr title="Partido Social Democrático">PSD</abbr> no Maranhão, apoiou a candidatura presidencial de **Eurico Gaspar Dutra** e foi eleito deputado constituinte. Após a posse de Dutra, **Saturnino Belo** foi nomeado interventor no Maranhão por indicação de Vitorino.
 
 Nas eleições de 1947, divergências internas no PSD levaram Vitorino, Saturnino e Sebastião Archer a romper com a candidatura oficial do partido. Vitorino organizou no Maranhão o **Partido Proletário do Brasil (PPB)**, que elegeu **Sebastião Archer governador** e **Vitorino senador**. Depois, o PPB reorganizou-se como **Partido Social Trabalhista (PST)**.
 
@@ -61,7 +61,7 @@ A partir daí consolidou-se a rede de poder conhecida como vitorinismo.
 
 ### 3.1. Periodização segura
 
-As fontes usam periodizações próximas, mas não idênticas. O CPDOC, citando José Ribamar Caldeiras, registra o vitorinismo, em termos gerais, entre **1947 e 1964**; outras abordagens tomam 1965 como marco final pela derrota do grupo na eleição para governador.
+As fontes usam periodizações próximas, mas não idênticas. O <abbr title="Centro de Pesquisa e Documentação de História Contemporânea do Brasil">CPDOC</abbr>, citando José Ribamar Caldeiras, registra o vitorinismo, em termos gerais, entre **1947 e 1964**; outras abordagens tomam 1965 como marco final pela derrota do grupo na eleição para governador.
 
 Para prova, a fórmula mais segura é:
 
@@ -111,7 +111,7 @@ As oposições defenderam revisão do resultado, validade de votos anulados e re
 
 Saturnino Belo morreu em janeiro de 1951, antes da solução definitiva do litígio eleitoral. As fontes secundárias consultadas divergem entre **15 e 16 de janeiro**; em prova, a divergência deve ser reconhecida em vez de convertida em falsa precisão.
 
-Após sua morte, o processo eleitoral continuou. O TRE diplomou **Eugênio Barros**, que tomou posse em **28 de fevereiro de 1951**, enquanto ainda havia recursos em discussão.
+Após sua morte, o processo eleitoral continuou. O <abbr title="Tribunal Regional Eleitoral do Maranhão">TRE</abbr> diplomou **Eugênio Barros**, que tomou posse em **28 de fevereiro de 1951**, enquanto ainda havia recursos em discussão.
 
 Essa posse foi o gatilho imediato da primeira fase da Greve de 1951.
 
@@ -162,7 +162,7 @@ A licença preservou a titularidade de Eugênio. Com a interinidade de Aboud, as
 
 Durante os meses seguintes, César Aboud permaneceu no exercício interino enquanto os recursos eleitorais continuavam.
 
-Em **3 de setembro de 1951**, registros parlamentares e estudos convergentes situam a decisão do TSE que manteve o diploma de Eugênio Barros. O inteiro teor do acórdão não integra o corpus utilizado aqui; por isso, o ponto essencial para prova é o efeito político-institucional:
+Em **3 de setembro de 1951**, registros parlamentares e estudos convergentes situam a decisão do <abbr title="Tribunal Superior Eleitoral">TSE</abbr> que manteve o diploma de Eugênio Barros. O inteiro teor do acórdão não integra o corpus utilizado aqui; por isso, o ponto essencial para prova é o efeito político-institucional:
 
 > **o diploma foi mantido; não houve nova eleição nem primeira posse em setembro**.
 
@@ -248,7 +248,7 @@ A hegemonia vitorinista sofreria sua ruptura eleitoral decisiva apenas em **1965
 8. **A decisão do TSE não foi uma segunda posse; Eugênio reassumiu o exercício.**
 9. **A mobilização foi política e multiclassista, não apenas salarial ou sindical.**
 10. **1965 marca derrota e quebra da hegemonia, não desaparecimento instantâneo de toda influência de Vitorino.**
-11. **No item 29 da PM/MA 2017, a justificativa oficial do Cebraspe literalmente registra “Victoriano Freire” em vez de “Victorino Freire”.** O item foi anulado. Para a grafia biográfica, as referências históricas adotadas registram **Vitorino de Brito Freire**.
+11. **No item 29 da <abbr title="Polícia Militar do Maranhão">PM/MA</abbr> 2017, a justificativa oficial do <abbr title="Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos">Cebraspe</abbr> literalmente registra “Victoriano Freire” em vez de “Victorino Freire”.** O item foi anulado. Para a grafia biográfica, as referências históricas adotadas registram **Vitorino de Brito Freire**.
 
 ## 16. Questão oficial e limite de uso
 
