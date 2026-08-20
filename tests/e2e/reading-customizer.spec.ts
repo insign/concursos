@@ -192,6 +192,66 @@ test('applies a color-scheme preset and keeps it after reload', async ({ page, k
   await expect(shell).toHaveAttribute('data-reading-scheme', 'sepia');
 });
 
+test('keeps light reading table headers readable over a dark site theme', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('concursos:theme', 'dark'));
+  await page.goto(`/concursos/${contest}/reescrita-generos-formalidade/#focus`);
+
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  await page.getByRole('button', { name: 'Claro', exact: true }).click();
+
+  const header = page.locator('.reading-surface table th').first();
+  await expect(header).toHaveCSS('background-color', 'rgb(223, 234, 229)');
+  await expect(header).toHaveCSS('color', 'rgb(27, 42, 38)');
+
+  await page.getByRole('button', { name: 'Sépia', exact: true }).click();
+  await expect(header).toHaveCSS('background-color', 'rgb(232, 218, 187)');
+  await expect(header).toHaveCSS('color', 'rgb(67, 52, 31)');
+});
+
+test('shows fixed reading progress with the content font and background', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('concursos:theme', 'dark'));
+  await page.goto(`/concursos/${contest}/reescrita-generos-formalidade/#focus`);
+  await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  await page.getByRole('button', { name: 'Claro', exact: true }).click();
+
+  const progress = page.locator('[data-reading-progress]');
+  await expect(progress).toBeVisible();
+  const styles = await page.evaluate(() => {
+    const indicator = document.querySelector<HTMLElement>('[data-reading-progress]')!;
+    const surface = document.querySelector<HTMLElement>('.reading-surface')!;
+    const article = document.querySelector<HTMLElement>('.reading-surface > article')!;
+    return {
+      articleFontSize: Number.parseFloat(getComputedStyle(article).fontSize),
+      background: getComputedStyle(indicator).backgroundColor,
+      indicatorFontSize: Number.parseFloat(getComputedStyle(indicator).fontSize),
+      position: getComputedStyle(indicator).position,
+      surfaceBackground: getComputedStyle(surface).backgroundColor,
+    };
+  });
+  expect(styles.position).toBe('fixed');
+  expect(styles.background).toBe(styles.surfaceBackground);
+  expect(styles.indicatorFontSize).toBeCloseTo(styles.articleFontSize / 2, 5);
+
+  const readProgress = () => progress.evaluate((element) => Number.parseInt(element.textContent ?? '0', 10));
+  await page.evaluate(() => {
+    document.documentElement.style.scrollBehavior = 'auto';
+    window.scrollTo(0, Math.max(300, document.documentElement.scrollHeight * 0.45));
+  });
+  await expect.poll(readProgress).toBeGreaterThan(0);
+  const beforeFontResize = await readProgress();
+  await page.locator('#reading-font-size').evaluate((element: HTMLInputElement) => {
+    element.value = '26';
+    element.dispatchEvent(new Event('input', { bubbles: true }));
+  });
+  await expect.poll(readProgress).toBeLessThan(beforeFontResize);
+
+  await page.evaluate(() => {
+    window.scrollTo(0, document.documentElement.scrollHeight);
+  });
+  await expect.poll(() => progress.textContent()).toBe('100%');
+});
+
 test('adopts remote reading preferences through the page coordinator', async ({ page, kvStore }) => {
   // Documento remoto (como se personalizado em outro dispositivo).
   kvStore.set(leituraDocId, {

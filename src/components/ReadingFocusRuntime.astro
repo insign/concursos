@@ -5,6 +5,8 @@
     : [];
   const defaultOpener = openers[0] ?? null;
   const close = root?.querySelector<HTMLAnchorElement>('[data-reading-focus-close]') ?? null;
+  const progressIndicator = root?.querySelector<HTMLOutputElement>('[data-reading-progress]') ?? null;
+  const readingArticle = root?.querySelector<HTMLElement>('.reading-surface > article') ?? null;
 
   if (root && defaultOpener && close) {
     const HISTORY_KEY = 'concursosReadingFocus';
@@ -41,6 +43,7 @@
     let fullscreenRequest: Promise<void> | null = null;
     let fullscreenRequestToken: symbol | null = null;
     let fullscreenExit: Promise<void> | null = null;
+    let progressFrame = 0;
 
     const fullscreenTarget = document.documentElement;
     const layoutAnchor = root.querySelector<HTMLElement>('.reading-surface > article') ?? root;
@@ -247,6 +250,31 @@
       setActive(false, layout);
     };
 
+    const renderReadingProgress = () => {
+      progressFrame = 0;
+      if (!progressIndicator || !readingArticle) return;
+      const article = readingArticle.getBoundingClientRect();
+      const start = window.scrollY + article.top;
+      const scrollable = Math.max(0, article.height - window.innerHeight);
+      const progress = scrollable === 0
+        ? 1
+        : Math.min(1, Math.max(0, (window.scrollY - start) / scrollable));
+      const label = `${Math.round(progress * 100)}%`;
+      if (progressIndicator.textContent === label) return;
+      progressIndicator.textContent = label;
+      progressIndicator.setAttribute('aria-label', `Progresso da leitura: ${label}`);
+    };
+
+    const scheduleReadingProgress = () => {
+      if (!progressFrame) progressFrame = requestAnimationFrame(renderReadingProgress);
+    };
+    const articleForObserver = readingArticle;
+    const progressResizeObserver =
+      articleForObserver && typeof ResizeObserver === 'function'
+        ? new ResizeObserver(scheduleReadingProgress)
+        : null;
+    if (progressResizeObserver && articleForObserver) progressResizeObserver.observe(articleForObserver);
+
     for (const open of openers) {
       open.addEventListener('click', (event) => {
         if (isFocusHash()) return;
@@ -305,13 +333,20 @@
 
     window.addEventListener('popstate', syncFromLocation);
     window.addEventListener('hashchange', syncFromLocation);
+    window.addEventListener('scroll', scheduleReadingProgress, { passive: true });
+    window.addEventListener('resize', scheduleReadingProgress, { passive: true });
+    window.addEventListener('concursos:reading-focus-change', scheduleReadingProgress);
     document.addEventListener('fullscreenchange', () => {
       if (document.fullscreenElement !== fullscreenTarget && !fullscreenRequest) {
         fullscreenDesired = false;
       }
     });
+    window.addEventListener('concursos:subject-unread', () => {
+      void leaveReadingFullscreen();
+    });
 
     setActive(isFocusHash());
     root.setAttribute('data-reading-focus-ready', '');
+    scheduleReadingProgress();
   }
 </script>
