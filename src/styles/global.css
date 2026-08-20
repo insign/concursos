@@ -781,6 +781,32 @@ a.subject-reading-link:hover {
   display: none;
 }
 
+.reading-progress {
+  display: none;
+}
+
+.reading-focus:is(:target, [data-reading-focus-active]) .reading-progress {
+  position: fixed;
+  display: block;
+  inset-inline-start: calc(0.75rem + env(safe-area-inset-left));
+  inset-block-end: calc(0.75rem + env(safe-area-inset-bottom));
+  z-index: 25;
+  min-width: 3.2rem;
+  padding: 0.25rem 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  color: var(--ink);
+  background: var(--paper);
+  box-shadow: 0 0.3rem 0.8rem rgb(31 46 42 / 0.18);
+  font-family: var(--reading-font, 'Lora', Georgia, 'Times New Roman', serif);
+  font-size: calc(var(--reading-size, 1.1875rem) / 2);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  pointer-events: none;
+}
+
 .study-page.reading-focus-active .study-shell,
 .study-page:has(#focus:target:not([data-reading-focus-ready])) .study-shell {
   width: 100%;
