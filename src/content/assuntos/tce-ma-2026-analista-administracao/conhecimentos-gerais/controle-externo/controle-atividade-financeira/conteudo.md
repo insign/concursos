@@ -62,7 +62,7 @@ Para este assunto, a regra de prova é simples:
 - reduzir receita por benefício fiscal não retira a matéria do alcance fiscalizatório;
 - subvenção e renúncia de receita **não são sistemas nem dimensões** de fiscalização: são matérias expressamente controladas.
 
-O regime detalhado dessas figuras pertence às normas financeiras específicas e não precisa ser transformado aqui em revisão integral da LRF ou da Lei nº 4.320/1964.
+O regime detalhado dessas figuras pertence às normas financeiras específicas e não precisa ser transformado aqui em revisão integral da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> ou da Lei nº 4.320/1964.
 
 ### 2.3. Quem deve prestar contas
 
@@ -114,13 +114,13 @@ A fórmula de prova é:
 
 Auxílio não significa subordinação hierárquica do TCU ao Congresso Nacional. Também não transforma o Tribunal em órgão do Poder Judiciário.
 
-A composição, a organização e o catálogo de competências do TCU, dos TCEs, do TCDF e do TCE/MA pertencem ao Assunto 054.
+A composição, a organização e o catálogo de competências do TCU, dos <abbr title="Tribunais de Contas dos Estados">TCEs</abbr>, do <abbr title="Tribunal de Contas do Distrito Federal">TCDF</abbr> e do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> pertencem ao Assunto 054.
 
 ### 4.2. Sistema de controle interno — art. 74
 
 Os Poderes Legislativo, Executivo e Judiciário devem manter, **de forma integrada**, sistema de controle interno com quatro finalidades constitucionais:
 
-1. avaliar o cumprimento das metas previstas no PPA, a execução dos programas de governo e dos orçamentos;
+1. avaliar o cumprimento das metas previstas no <abbr title="Plano Plurianual">PPA</abbr>, a execução dos programas de governo e dos orçamentos;
 2. comprovar a legalidade e avaliar os resultados, quanto à eficácia e eficiência, da gestão orçamentária, financeira e patrimonial, inclusive da aplicação de recursos públicos por entidades de direito privado;
 3. exercer o controle das operações de crédito, avais e garantias, bem como dos direitos e haveres;
 4. apoiar o controle externo no exercício de sua missão institucional.

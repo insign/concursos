@@ -10,7 +10,7 @@ storageId: tcu-tces-tcema-constituicao
 
 Este assunto corresponde ao recorte institucional dos itens **10 e 11 de Controle Externo** do Cargo 1: Tribunal de Contas da União (TCU), tribunais de contas estaduais, Tribunal de Contas do Distrito Federal (TCDF), órgãos de contas municipais e Tribunal de Contas do Estado do Maranhão (TCE/MA).
 
-O **corte normativo é 6 de julho de 2026**, data de publicação do edital. Por isso, a **EC nº 139/2026**, publicada em 6 de maio de 2026, integra plenamente a regra aplicável à prova. Ela alterou os arts. 31, § 1º, e 75 da Constituição Federal para afirmar a permanência e a essencialidade dos tribunais de contas e vedar a extinção, criação ou instalação dos órgãos de contas abrangidos por esses dispositivos.
+O **corte normativo é 6 de julho de 2026**, data de publicação do edital. Por isso, a **<abbr title="Emenda Constitucional">EC</abbr> nº 139/2026**, publicada em 6 de maio de 2026, integra plenamente a regra aplicável à prova. Ela alterou os arts. 31, § 1º, e 75 da Constituição Federal para afirmar a permanência e a essencialidade dos tribunais de contas e vedar a extinção, criação ou instalação dos órgãos de contas abrangidos por esses dispositivos.
 
 Os assuntos anteriores já trataram das competências de fiscalização e julgamento. Aqui, o foco é **posição constitucional, composição, escolha, garantias, substitutos, Ministério Público de Contas e simetria federativa**.
 
@@ -86,7 +86,7 @@ O art. 75 não exige cópia mecânica de cada detalhe do TCU. A expressão **“
 
 As Constituições estaduais dispõem sobre seus tribunais de contas, que são integrados por **sete conselheiros**.
 
-A **Súmula 653 do STF** consolida a repartição:
+A **Súmula 653 do <abbr title="Supremo Tribunal Federal">STF</abbr>** consolida a repartição:
 
 | Origem | Quantidade |
 | --- | ---: |
@@ -123,7 +123,7 @@ O controle externo da Câmara Municipal é exercido com auxílio do tribunal com
 
 O art. 31, § 4º, já vedava a criação de tribunais, conselhos ou órgãos de contas **pelos Municípios**. Com a EC nº 139/2026, os arts. 31 e 75 passaram também a conter a vedação de **extinção, criação ou instalação** dos órgãos neles abrangidos.
 
-### 5.1. Jurisprudência dentro do corte: ADI 4.124
+### 5.1. Jurisprudência dentro do corte: <abbr title="Ação Direta de Inconstitucionalidade">ADI</abbr> 4.124
 
 No julgamento da **ADI 4.124**, concluído em 16 de dezembro de 2025 e publicado em 26 de janeiro de 2026, o STF declarou incompatível com a Constituição regra baiana que atribuía à Assembleia Legislativa o julgamento das contas do Tribunal de Contas dos Municípios. O precedente reforça que esse Tribunal de Contas dos Municípios, embora voltado ao controle municipal, é **órgão estadual de contas dotado de autonomia**, não simples órgão interno do Legislativo.
 
@@ -178,7 +178,7 @@ Sem repetir o assunto específico sobre competências dos tribunais de contas, l
 | titulares | 9 ministros | 7 conselheiros | 7 conselheiros |
 | escolha legislativa | 6 pelo Congresso | 4 pela Assembleia | matriz local conforme art. 75 |
 | escolha do Executivo | 3 pelo Presidente | 3 pelo Governador | matriz local conforme art. 75 |
-| vagas técnicas do Executivo | auditor + MPTCU | auditor/conselheiro-substituto + MPC | preservadas pelo modelo constitucional |
+| vagas técnicas do Executivo | auditor + <abbr title="Ministério Público junto ao Tribunal de Contas da União">MPTCU</abbr> | auditor/conselheiro-substituto + MPC | preservadas pelo modelo constitucional |
 | vaga livre do Executivo | 1 | 1 | 1 no modelo simétrico |
 | integra Judiciário? | não | não | não |
 | subordinado ao Legislativo? | não | não | não |
