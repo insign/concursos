@@ -10,6 +10,58 @@ const subjectId = 'tcema-2026-adm--leitura-tipos-generos';
 const estudadosDocId = `concursos--${alias}--estudados`;
 const navigationDocId = `concursos--${alias}--navegacao`;
 
+async function installFullscreenMock(page: import('@playwright/test').Page): Promise<void> {
+  await page.addInitScript(() => {
+    interface FullscreenTestState {
+      requests: number;
+      exits: number;
+      active: boolean;
+    }
+    const testWindow = window as typeof window & { __studiedFullscreenTest?: FullscreenTestState };
+    const state: FullscreenTestState = { requests: 0, exits: 0, active: false };
+    let fullscreenElement: Element | null = null;
+    testWindow.__studiedFullscreenTest = state;
+
+    const leave = () => {
+      fullscreenElement = null;
+      state.active = false;
+      document.dispatchEvent(new Event('fullscreenchange'));
+    };
+    Object.defineProperty(document, 'fullscreenEnabled', { configurable: true, value: true });
+    Object.defineProperty(document, 'fullscreenElement', {
+      configurable: true,
+      get: () => fullscreenElement,
+    });
+    Object.defineProperty(Element.prototype, 'requestFullscreen', {
+      configurable: true,
+      value(this: Element) {
+        state.requests += 1;
+        fullscreenElement = this;
+        state.active = true;
+        document.dispatchEvent(new Event('fullscreenchange'));
+        return Promise.resolve();
+      },
+    });
+    Object.defineProperty(document, 'exitFullscreen', {
+      configurable: true,
+      value: () => {
+        state.exits += 1;
+        leave();
+        return Promise.resolve();
+      },
+    });
+  });
+}
+
+const fullscreenState = (page: import('@playwright/test').Page) => page.evaluate(() => {
+  const state = (window as typeof window & {
+    __studiedFullscreenTest?: { requests: number; exits: number; active: boolean };
+  }).__studiedFullscreenTest;
+  return state
+    ? { requests: state.requests, exits: state.exits, active: state.active }
+    : { requests: 0, exits: 0, active: false };
+});
+
 async function revealSubjectActions(page: import('@playwright/test').Page): Promise<void> {
   await page.evaluate(
     () =>
@@ -244,6 +296,27 @@ test('keeps the mark control available in reading mode', async ({ page }) => {
   await expect(mark).toBeEnabled();
   await mark.click();
   await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+});
+
+test('exits fullscreen and returns to the top when a subject is marked unread', async ({ page }) => {
+  await installFullscreenMock(page);
+  await page.goto(contentUrl);
+  await page.getByRole('link', { name: 'Ler sem distrações' }).click();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 0, active: true });
+
+  await page.getByRole('button', { name: 'Marcar como concluído' }).click();
+  await expect(page.getByRole('button', { name: 'Desfazer conclusão' })).toBeVisible();
+  await page.evaluate(() => {
+    document.documentElement.style.scrollBehavior = 'auto';
+    window.scrollTo(0, Math.max(300, document.documentElement.scrollHeight * 0.45));
+  });
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(100);
+
+  await revealSubjectActions(page);
+  await page.getByRole('button', { name: 'Desfazer conclusão' }).click();
+  await expect(page.getByRole('button', { name: 'Marcar como concluído' })).toBeVisible();
+  await expect.poll(() => fullscreenState(page)).toEqual({ requests: 1, exits: 1, active: false });
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBeLessThan(100);
 });
 
 test('reuses the sole studied control in integrated reading mode', async ({ page }) => {

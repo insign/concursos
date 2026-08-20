@@ -434,6 +434,7 @@ export function startNavigationRuntime(): void {
   let topNavigationTimer: ReturnType<typeof setTimeout> | undefined;
   let topNavigationObservedScroll = false;
   let topNavigationInterrupted = false;
+  let topNavigationAllowsProgrammaticInterruption = false;
   let topNavigationParkedY = 0;
   const automaticSyncAfter = Date.now() + INITIAL_AUTOMATIC_SYNC_DELAY_MS;
 
@@ -580,11 +581,13 @@ export function startNavigationRuntime(): void {
     clearTopNavigationTimer();
     if (topNavigationInterrupted && window.scrollY > TOP_NAVIGATION_SCROLL_EPSILON_PX) {
       topNavigationPhase = 'idle';
+      topNavigationAllowsProgrammaticInterruption = false;
       scheduleCapture(0);
       return;
     }
     topNavigationPhase = 'parked';
     topNavigationParkedY = window.scrollY;
+    topNavigationAllowsProgrammaticInterruption = false;
   };
 
   const armTopNavigationFallback = () => {
@@ -592,7 +595,7 @@ export function startNavigationRuntime(): void {
     topNavigationTimer = setTimeout(finishTopNavigation, TOP_NAVIGATION_IDLE_MS);
   };
 
-  const beginTopNavigation = () => {
+  const beginTopNavigation = (allowProgrammaticInterruption = false) => {
     if (captureTimer) clearTimeout(captureTimer);
     captureTimer = undefined;
     clearTopNavigationTimer();
@@ -602,6 +605,7 @@ export function startNavigationRuntime(): void {
     topNavigationPhase = 'settling';
     topNavigationObservedScroll = false;
     topNavigationInterrupted = false;
+    topNavigationAllowsProgrammaticInterruption = allowProgrammaticInterruption;
     armTopNavigationFallback();
   };
 
@@ -774,6 +778,10 @@ export function startNavigationRuntime(): void {
   window.addEventListener('scroll', () => {
     if (topNavigationPhase === 'settling') {
       topNavigationObservedScroll = true;
+      if (
+        topNavigationAllowsProgrammaticInterruption &&
+        window.scrollY > TOP_NAVIGATION_SCROLL_EPSILON_PX
+      ) topNavigationInterrupted = true;
       armTopNavigationFallback();
       return;
     }
@@ -900,6 +908,10 @@ export function startNavigationRuntime(): void {
       subjectStorageId?: unknown;
       studied?: unknown;
     }>).detail ?? {}).catch(() => undefined);
+  });
+  window.addEventListener('concursos:subject-unread', () => {
+    beginTopNavigation(true);
+    window.scrollTo({ top: 0 });
   });
   if ('BroadcastChannel' in window) {
     const studiedBroadcast = new BroadcastChannel('concursos-studied');

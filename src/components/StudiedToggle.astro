@@ -63,6 +63,7 @@ const { contestStorageId, subjectStorageId } = Astro.props;
       try {
         await setSubjectStudied(alias, subjectId, next);
         const detail = { profileId: alias, contestStorageId, subjectStorageId, studied: next };
+        if (!next) window.dispatchEvent(new Event('concursos:subject-unread'));
         window.dispatchEvent(
           new CustomEvent('concursos:studied-updated', {
             detail,

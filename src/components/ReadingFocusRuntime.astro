@@ -310,6 +310,9 @@
         fullscreenDesired = false;
       }
     });
+    window.addEventListener('concursos:subject-unread', () => {
+      void leaveReadingFullscreen();
+    });
 
     setActive(isFocusHash());
     root.setAttribute('data-reading-focus-ready', '');
