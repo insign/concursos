@@ -88,6 +88,13 @@ const contestTitleStart = contestMiddleTruncated
             <slot />
           </div>
 
+          <output
+            class="reading-progress print-hidden"
+            data-reading-progress
+            aria-label="Progresso da leitura"
+            aria-live="off"
+          >0%</output>
+
           <SubjectActionBar
             contestSlug={contest.slug}
             contestStorageId={contest.storageId}
