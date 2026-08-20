@@ -52,7 +52,7 @@ Essas regras são suficientes para resolver as principais questões comparativas
 
 ## 4. Oito APAs estaduais do Maranhão
 
-O inventário estadual contemporâneo reúne **oito APAs estaduais**, administradas na esfera estadual pela **SEMA-MA**. Para prova, priorize **nome + localização/traço distintivo**, e não listas extensas de municípios ou áreas com muitas casas decimais.
+O inventário estadual contemporâneo reúne **oito APAs estaduais**, administradas na esfera estadual pela **<abbr title="Secretaria de Estado do Meio Ambiente e Recursos Naturais">SEMA-MA</abbr>**. Para prova, priorize **nome + localização/traço distintivo**, e não listas extensas de municípios ou áreas com muitas casas decimais.
 
 | APA estadual | Chave geográfica |
 |---|---|
@@ -72,14 +72,14 @@ O inventário estadual contemporâneo reúne **oito APAs estaduais**, administra
 
 ## 5. APA federal Delta do Parnaíba
 
-Além das APAs estaduais, é importante reconhecer a **APA Delta do Parnaíba**, unidade **federal** administrada pelo ICMBio.
+Além das APAs estaduais, é importante reconhecer a **APA Delta do Parnaíba**, unidade **federal** administrada pelo <abbr title="Instituto Chico Mendes de Conservação da Biodiversidade">ICMBio</abbr>.
 
 Ela alcança **Piauí, Maranhão e Ceará** e protege ambientes deltaicos, dunas, manguezais, fauna, flora e recursos hídricos, conciliando conservação com usos sustentáveis.
 
 Não confunda:
 
 - **APA Delta do Parnaíba** → APA federal de Uso Sustentável;
-- **RESEX Marinha do Delta do Parnaíba** → outra unidade, com categoria e regras próprias;
+- **<abbr title="Reserva Extrativista">RESEX</abbr> Marinha do Delta do Parnaíba** → outra unidade, com categoria e regras próprias;
 - **APA estadual da Foz do Preguiças/Pequenos Lençóis** → unidade estadual distinta.
 
 A eventual sobreposição regional entre unidades **não funde categorias**: cada UC mantém seu regime jurídico e seus objetivos.
@@ -100,16 +100,16 @@ A Lei nº 13.090/2015 alterou os limites do Parque Nacional das Nascentes do Rio
 
 Algumas áreas protegidas do Maranhão também receberam reconhecimento internacional:
 
-- **Baixada Maranhense** e **Reentrâncias Maranhenses** são Sítios Ramsar;
-- o **Parque Nacional dos Lençóis Maranhenses** foi inscrito como Patrimônio Mundial da UNESCO em **2024**.
+- **Baixada Maranhense** e **Reentrâncias Maranhenses** são <abbr title="zonas úmidas de importância internacional">Sítios Ramsar</abbr>;
+- o **Parque Nacional dos Lençóis Maranhenses** foi inscrito como Patrimônio Mundial da <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr> em **2024**.
 
-Essas designações **não criam nem substituem** a categoria SNUC. Uma APA continua sendo APA; um Parque Nacional continua sendo Parque Nacional.
+Essas designações **não criam nem substituem** a categoria <abbr title="Sistema Nacional de Unidades de Conservação da Natureza">SNUC</abbr>. Uma APA continua sendo APA; um Parque Nacional continua sendo Parque Nacional.
 
 ## 8. Nomes que mais confundem
 
 | Nome | Não confundir com |
 |---|---|
-| PARNA dos Lençóis Maranhenses | APA estadual dos Pequenos Lençóis |
+| <abbr title="Parque Nacional">PARNA</abbr> dos Lençóis Maranhenses | APA estadual dos Pequenos Lençóis |
 | APA dos Pequenos Lençóis/Foz do Preguiças | PARNA dos Lençóis Maranhenses ou APA Delta do Parnaíba |
 | APA Delta do Parnaíba | RESEX Marinha do Delta do Parnaíba |
 | Parque Nacional | Parque Estadual ou Parque Natural Municipal |

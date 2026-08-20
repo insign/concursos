@@ -2,9 +2,9 @@
 
 ## Visão de prova
 
-**Três limítrofes:** Parnaíba–PI, Gurupi–PA, Manuel Alves Grande/Tocantins–TO.
+**Três limítrofes:** Parnaíba–<abbr title="Piauí">PI</abbr>, Gurupi–<abbr title="Pará">PA</abbr>, Manuel Alves Grande/Tocantins–<abbr title="Tocantins">TO</abbr>.
 
-**Regionalização NuGeo/UEMA:** 3 federais + 7 bacias estaduais + 2 sistemas estaduais.
+**Regionalização <abbr title="Núcleo Geoambiental">NuGeo</abbr>/<abbr title="Universidade Estadual do Maranhão">UEMA</abbr>:** 3 federais + 7 bacias estaduais + 2 sistemas estaduais.
 
 ## Conceitos mínimos
 
@@ -73,7 +73,7 @@ A lista dos rios genuínos é maior que a das sete bacias estaduais.
 |---|---|---|---|
 | Mearim | Serra da Menina/adjacências | baía de São Marcos | maior; Pindaré + Grajaú; pororoca |
 | Itapecuru | serras Croeira/Itapecuru/Alpercatas | baía do Arraial | Tucha + Mojó |
-| Munim | tabuleiros NE de Caxias | baía de São José | Axixá/Icatu |
+| Munim | tabuleiros <abbr title="nordeste">NE</abbr> de Caxias | baía de São José | Axixá/Icatu |
 | Turiaçu | Serra do Tiracambu | baía de Turiaçu | litoral ocidental |
 | Maracaçumé | Serra do Tiracambu | Atlântico | Godofredo Viana/Cândido Mendes |
 | Preguiças | Santana do Maranhão | Atlântico em Barreirinhas | também rio Grande |
