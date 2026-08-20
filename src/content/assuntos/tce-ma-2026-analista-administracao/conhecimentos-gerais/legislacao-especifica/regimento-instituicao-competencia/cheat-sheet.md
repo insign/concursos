@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: instituição e competência
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: instituição e competência
 
 ## Corte
 
@@ -9,7 +9,7 @@
 
 ## Hierarquia útil
 
-**CF → Constituição do MA → Lei nº 8.258/2005 → Regimento Interno**
+**<abbr title="Constituição Federal">CF</abbr> → Constituição do MA → Lei nº 8.258/2005 → Regimento Interno**
 
 Regimento organiza funcionamento e exercício interno; não supera Constituição nem lei.
 
@@ -81,7 +81,7 @@ Pode alcançar:
 - quotas-partes municipais;
 - renúncia de receita;
 - responsabilidade fiscal;
-- PPP e desestatização, quando submetidas ao controle legal.
+- <abbr title="parceria público-privada">PPP</abbr> e desestatização, quando submetidas ao controle legal.
 
 ## Outros poderes — reconhecer, não aprofundar aqui
 

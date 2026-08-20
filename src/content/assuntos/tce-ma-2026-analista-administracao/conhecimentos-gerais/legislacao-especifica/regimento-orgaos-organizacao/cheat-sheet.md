@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: órgãos e organização interna
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: órgãos e organização interna
 
 ## Corte
 
@@ -20,7 +20,7 @@
 | comissões permanentes | Ética/Gestão de Pessoas/Processo Produtivo + Transformação Digital/Inovação Tecnológica e Jurídica |
 | comissão eventual | comissões temporárias |
 
-**Não entram no rol do art. 9º:** Secretaria, gabinetes, ESCEX e MPC.
+**Não entram no rol do art. 9º:** Secretaria, gabinetes, <abbr title="Escola Superior de Controle Externo">ESCEX</abbr> e <abbr title="Ministério Público de Contas">MPC</abbr>.
 
 ## Órgão × estrutura de apoio
 
@@ -107,7 +107,7 @@ As competências das duas comissões permanentes e as atribuições de seus Pres
 
 - Essencial à função de controle externo.
 - **4 Procuradores de Contas**.
-- Ingresso: concurso de provas e títulos + OAB + Direito + **3 anos de atividade jurídica**.
+- Ingresso: concurso de provas e títulos + <abbr title="Ordem dos Advogados do Brasil">OAB</abbr> + Direito + **3 anos de atividade jurídica**.
 - **Carreira:** página institucional informa nomeação dos Procuradores pelo Procurador-Geral, observada a classificação.
 - **Chefia do MPC:** lista tríplice entre Procuradores → Governador nomeia → 2 anos → 1 recondução.
 
