@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: decisões, sanções e execução
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: decisões, sanções e execução
 
 ## Corte do edital
 
@@ -18,7 +18,7 @@
 | multa | sanciona infração |
 | representação/encaminhamento | provoca atuação do órgão competente |
 
-**Pegadinha:** prefeito não significa sempre parecer prévio. Em tomada de contas especial de convênio interfederativo, o STF admite responsabilização pessoal do chefe do Executivo com débito, multa ou outras sanções.
+**Pegadinha:** prefeito não significa sempre parecer prévio. Em tomada de contas especial de convênio interfederativo, o <abbr title="Supremo Tribunal Federal">STF</abbr> admite responsabilização pessoal do chefe do Executivo com débito, multa ou outras sanções.
 
 ## Título executivo
 
@@ -32,7 +32,7 @@
 | Regra | Memorize |
 | --- | --- |
 | art. 197 | decisão definitiva por acórdão; nas contas irregulares, a publicação gera deveres de pagamento e demais efeitos cabíveis |
-| art. 199 | publicação do acórdão no DOE do TCE = intimação para **pagar e comprovar em 15 dias** débito e/ou multa |
+| art. 199 | publicação do acórdão no <abbr title="Diário Oficial Eletrônico">DOE</abbr> do TCE = intimação para **pagar e comprovar em 15 dias** débito e/ou multa |
 | art. 200 | parcelamento em até **24 parcelas mensais e sucessivas** |
 | parcela | sofre atualização/acréscimos previstos |
 | parcela não paga | **vencimento antecipado do saldo** |
