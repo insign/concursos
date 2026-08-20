@@ -18,7 +18,7 @@ O corte documental é **4 de agosto de 2026**. As bases consolidadas centrais s�
 - **Produção Agrícola Municipal (PAM) 2024:** lavouras temporárias e permanentes no ano civil de 2024;
 - **Pesquisa da Pecuária Municipal (PPM) 2024:** efetivos dos rebanhos em 31 de dezembro e produtos obtidos durante 2024.
 
-O **LSPA** acompanha safras de forma conjuntural e revisável, enquanto levantamentos da **Conab** podem usar ano-safra. Esses recortes não substituem automaticamente os resultados anuais consolidados da PAM e da PPM.
+O **<abbr title="Levantamento Sistemático da Produção Agrícola">LSPA</abbr>** acompanha safras de forma conjuntural e revisável, enquanto levantamentos da **<abbr title="Companhia Nacional de Abastecimento">Conab</abbr>** podem usar ano-safra. Esses recortes não substituem automaticamente os resultados anuais consolidados da PAM e da PPM.
 
 O desenvolvimento histórico da economia até 2000 pertence ao Assunto 081. Extrativismo vegetal, animal e mineral pertence ao Assunto 090; processamento industrial, comércio e infraestrutura são tratados nos assuntos seguintes.
 
@@ -79,11 +79,11 @@ Na PAM:
 - **área colhida**: parcela efetivamente colhida;
 - **quantidade produzida**: volume físico obtido;
 - **rendimento médio**: em regra, quantidade produzida dividida pela área colhida;
-- **valor da produção**: estimativa monetária dos produtos investigados, que não equivale a PIB, exportação ou renda líquida do produtor.
+- **valor da produção**: estimativa monetária dos produtos investigados, que não equivale a <abbr title="Produto Interno Bruto">PIB</abbr>, exportação ou renda líquida do produtor.
 
-A classificação entre temporárias e permanentes segue a metodologia estatística do IBGE. Em regra, lavouras temporárias exigem novo plantio após a colheita, mas há **temporárias de longa duração**, como cana-de-açúcar e mandioca. O abacaxi também é classificado como temporário. Entre as permanentes aparecem banana, coco e cultivos de açaí e castanha de caju.
+A classificação entre temporárias e permanentes segue a metodologia estatística do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>. Em regra, lavouras temporárias exigem novo plantio após a colheita, mas há **temporárias de longa duração**, como cana-de-açúcar e mandioca. O abacaxi também é classificado como temporário. Entre as permanentes aparecem banana, coco e cultivos de açaí e castanha de caju.
 
-Cultivo e extrativismo não são sinônimos: **açaí ou castanha de caju cultivados** entram na PAM; a coleta em vegetação espontânea pertence à PEVS e ao Assunto 090.
+Cultivo e extrativismo não são sinônimos: **açaí ou castanha de caju cultivados** entram na PAM; a coleta em vegetação espontânea pertence à <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr> e ao Assunto 090.
 
 ## 6. Principais produtos agrícolas
 

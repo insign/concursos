@@ -32,7 +32,7 @@ Ex.: alumina, alumínio, celulose, aço e cimento.
 
 | Polo | Cadeia principal | Regra de prova |
 |---|---|---|
-| **São Luís** | alumina/alumínio | Alumar ≠ siderúrgica |
+| **São Luís** | alumina/alumínio | <abbr title="Consórcio de Alumínio do Maranhão">Alumar</abbr> ≠ siderúrgica |
 | **Imperatriz** | celulose/papel | eucalipto ≠ celulose |
 | **Açailândia** | ferro-gusa/aço/metalmecânica | minério em trânsito ≠ lavra local |
 
@@ -68,9 +68,9 @@ Fontes corporativas podem agregar capacidades de modos diferentes: **não decore
 **minério de ferro → ferro-gusa → aço/produtos de aço**
 
 - minério do Pará: extração na origem;
-- EFC: transporte;
+- <abbr title="Estrada de Ferro Carajás">EFC</abbr>: transporte;
 - gusa/aço no MA: transformação metalúrgica;
-- AVB: referência industrial do polo.
+- <abbr title="Aço Verde do Brasil">AVB</abbr>: referência industrial do polo.
 
 Carvão vegetal como redutor ≠ ferro-gusa como produto extrativo vegetal.
 
@@ -131,7 +131,7 @@ Mais carga movimentada ≠ maior adensamento industrial local automaticamente.
 
 ## Pegadinhas-relâmpago
 
-1. indústria de base = seção CNAE → **falso**;
+1. indústria de base = seção <abbr title="Classificação Nacional de Atividades Econômicas">CNAE</abbr> → **falso**;
 2. base e transformação são excludentes → **falso**;
 3. Alumar produz ferro-gusa/aço inoxidável → **falso**;
 4. bauxita recebida em São Luís prova lavra local → **falso**;
@@ -144,7 +144,7 @@ Mais carga movimentada ≠ maior adensamento industrial local automaticamente.
 
 ## Questão oficial-chave
 
-**Cebraspe / PM-MA / Soldado / 2017 / item 51:** a assertiva que chamou a Alumar de siderúrgica produtora de ferro-gusa e aço inoxidável recebeu gabarito **Errado**.
+**Cebraspe / <abbr title="Polícia Militar do Maranhão">PM-MA</abbr> / Soldado / 2017 / item 51:** a assertiva que chamou a Alumar de siderúrgica produtora de ferro-gusa e aço inoxidável recebeu gabarito **Errado**.
 
 Chave: **Alumar = alumina + alumínio.**
 

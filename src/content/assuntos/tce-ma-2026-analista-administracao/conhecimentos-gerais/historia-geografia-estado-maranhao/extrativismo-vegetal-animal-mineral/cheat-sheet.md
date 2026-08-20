@@ -11,7 +11,7 @@ Não confunda **extração** com **cultivo, criação, transformação ou transp
 | Situação | Classe |
 |---|---|
 | açaí coletado em vegetação espontânea | extração vegetal |
-| açaí cultivado | agricultura / PAM |
+| açaí cultivado | agricultura / <abbr title="Produção Agrícola Municipal">PAM</abbr> |
 | eucalipto plantado | silvicultura |
 | peixe capturado no mar ou rio | pesca extrativa |
 | peixe criado em viveiro | aquicultura |
@@ -23,13 +23,13 @@ Não confunda **extração** com **cultivo, criação, transformação ou transp
 
 | Fonte | Use para |
 |---|---|
-| PEVS/IBGE | extração vegetal + silvicultura |
+| <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr>/<abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> | extração vegetal + silvicultura |
 | PAM | cultivo agrícola |
-| PPM | criação/aquicultura |
-| MPA | pesca |
-| ANM | mineração/CFEM |
-| SGB | geologia/potencial |
-| ANP | petróleo e gás |
+| <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> | criação/aquicultura |
+| <abbr title="Ministério da Pesca e Aquicultura">MPA</abbr> | pesca |
+| <abbr title="Agência Nacional de Mineração">ANM</abbr> | mineração/<abbr title="Compensação Financeira pela Exploração Mineral">CFEM</abbr> |
+| <abbr title="Serviço Geológico do Brasil">SGB</abbr> | geologia/potencial |
+| <abbr title="Agência Nacional do Petróleo, Gás Natural e Biocombustíveis">ANP</abbr> | petróleo e gás |
 
 ## Extrativismo vegetal — 2024
 
@@ -147,7 +147,7 @@ Não confunda:
 
 ## Indústria e logística
 
-- ALUMAR em São Luís → transformação de bauxita; não prova lavra local;
+- <abbr title="Consórcio de Alumínio do Maranhão">ALUMAR</abbr> em São Luís → transformação de bauxita; não prova lavra local;
 - minério de Carajás em ferrovia/porto maranhense → trânsito, não extração maranhense;
 - madeira plantada → silvicultura; celulose → indústria.
 
