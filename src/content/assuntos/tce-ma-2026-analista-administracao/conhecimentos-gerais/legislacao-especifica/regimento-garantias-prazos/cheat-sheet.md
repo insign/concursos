@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: garantias processuais, provas e prazos
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: garantias processuais, provas e prazos
 
 ## Corte do edital
 
