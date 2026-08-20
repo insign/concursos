@@ -16,7 +16,7 @@ $$
 
 | Data | Evento |
 |---|---|
-| **13 mar. 1823** | Batalha do Jenipapo — Campo Maior/PI |
+| **13 mar. 1823** | Batalha do Jenipapo — Campo Maior/<abbr title="Piauí">PI</abbr> |
 | **27 jul. 1823** | exigência de Cochrane registrada pela Junta |
 | **28 jul. 1823** | adesão formal de São Luís ao Império |
 | **7 ago. 1823** | juramento da Independência em Caxias |
