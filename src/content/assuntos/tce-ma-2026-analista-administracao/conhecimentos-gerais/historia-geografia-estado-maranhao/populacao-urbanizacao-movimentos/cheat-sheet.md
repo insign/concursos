@@ -28,8 +28,8 @@ Taxa geométrica ≠ variação percentual ÷ número de anos.
 | Censo 2010 | 6.574.789 |
 | Censo 2022 corrente | **6.776.699** |
 | estimativa 1º/7/2025 | **7.018.211** |
-| densidade 2022 | **20,56 hab./km²** |
-| crescimento 2010-2022 | **+201.910 / +3,07% / ~0,25% a.a.** |
+| densidade 2022 | **20,56 <abbr title="habitantes por quilômetro quadrado">hab./km²</abbr>** |
+| crescimento 2010-2022 | **+201.910 / +3,07% / ~0,25% <abbr title="ao ano">a.a.</abbr>** |
 
 **7.018.211 = estimativa de 2025, não Censo 2022.**
 
@@ -79,7 +79,7 @@ São Luís: cerca de **15,31%** da população estadual.
 
 **RM legal ≠ prova automática de integração funcional.**
 
-Arranjos Populacionais e REGIC servem como apoio para entender integração e influência; sempre observe a **edição** do estudo.
+Arranjos Populacionais e <abbr title="Regiões de Influência das Cidades">REGIC</abbr> servem como apoio para entender integração e influência; sempre observe a **edição** do estudo.
 
 ## Movimentos populacionais
 
@@ -95,8 +95,8 @@ Arranjos Populacionais e REGIC servem como apoio para entender integração e in
 
 ### Estoque ≠ fluxo
 
-- não naturais do MA residentes no estado: **514.870**;
-- naturais do MA residentes em outra UF: **1.826.563**.
+- não naturais do <abbr title="Maranhão">MA</abbr> residentes no estado: **514.870**;
+- naturais do MA residentes em outra <abbr title="Unidade da Federação">UF</abbr>: **1.826.563**.
 
 Esses valores são **estoques por naturalidade**, não fluxos de 2017-2022.
 

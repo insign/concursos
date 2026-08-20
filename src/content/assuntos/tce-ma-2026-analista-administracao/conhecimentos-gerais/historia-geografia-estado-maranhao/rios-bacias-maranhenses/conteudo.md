@@ -12,7 +12,7 @@ storageId: "rios-bacias-maranhenses"
 
 O edital cobra três núcleos: **características dos rios maranhenses**, **bacias dos rios limítrofes — Parnaíba, Gurupi e Tocantins-Araguaia —** e **bacias dos rios genuinamente maranhenses**.
 
-O corte documental adotado é **4 de agosto de 2026**. A referência regional principal é o **NuGeo/UEMA**, complementada pela Divisão Hidrográfica Nacional da **ANA**. Relevo e clima entram apenas para localizar cabeceiras, divisores e regime; usos econômicos e problemas ambientais ficam em segundo plano.
+O corte documental adotado é **4 de agosto de 2026**. A referência regional principal é o **<abbr title="Núcleo Geoambiental">NuGeo</abbr>/<abbr title="Universidade Estadual do Maranhão">UEMA</abbr>**, complementada pela Divisão Hidrográfica Nacional da **<abbr title="Agência Nacional de Águas e Saneamento Básico">ANA</abbr>**. Relevo e clima entram apenas para localizar cabeceiras, divisores e regime; usos econômicos e problemas ambientais ficam em segundo plano.
 
 ## 2. Conceitos mínimos
 
