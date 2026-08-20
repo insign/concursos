@@ -38,7 +38,7 @@ A competência do TCE/MA não nasce exclusivamente do Regimento. O Regimento dis
 O TCE/MA é órgão constitucional de **controle externo**. Não é:
 
 - órgão do Poder Judiciário;
-- unidade regional do TCU;
+- unidade regional do <abbr title="Tribunal de Contas da União">TCU</abbr>;
 - órgão de controle interno do Executivo;
 - departamento hierarquicamente subordinado à Assembleia Legislativa.
 
