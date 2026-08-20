@@ -31,7 +31,7 @@
 | Imperatriz | Belém-Brasília + circulação + comércio/serviços + migração + centralidade regional |
 
 - Rodovia ≠ causa única de Imperatriz.
-- PGC/Alumar ≠ causa única da periferização de São Luís.
+- <abbr title="Programa Grande Carajás">PGC</abbr>/Alumar ≠ causa única da periferização de São Luís.
 
 ## Periferização
 
@@ -64,7 +64,7 @@
 | terra de negócio | renda, valorização ou especulação |
 
 - Lei de Terras estadual: **1969**.
-- COMARCO: **1971**.
+- <abbr title="Companhia Maranhense de Colonização">COMARCO</abbr>: **1971**.
 - Política estatal + rodovias + incentivos + valorização fundiária → conflitos.
 - Conflito agrário ≠ massacre.
 
@@ -72,8 +72,8 @@
 
 > conflito por terra/trabalho → associação → educação popular → sindicalização → repressão → reorganização
 
-- **1956**: ATAM.
-- início dos anos 1960: MEB e formação rural.
+- **1956**: <abbr title="Associação dos Trabalhadores Agrícolas do Maranhão">ATAM</abbr>.
+- início dos anos 1960: <abbr title="Movimento de Educação de Base">MEB</abbr> e formação rural.
 - **1963**: sindicalização rural ganha forma no Pindaré.
 - **1964**: repressão e maior controle institucional.
 
@@ -82,8 +82,8 @@
 | Organização | Núcleo |
 |---|---|
 | MEB | educação popular e formação de lideranças |
-| CEBs | comunidades territoriais e participação de leigos |
-| CPT | questão agrária e apoio a trabalhadores rurais |
+| <abbr title="Comunidades Eclesiais de Base">CEBs</abbr> | comunidades territoriais e participação de leigos |
+| <abbr title="Comissão Pastoral da Terra">CPT</abbr> | questão agrária e apoio a trabalhadores rurais |
 
 CEB ≠ sindicato ≠ partido.
 
@@ -108,9 +108,9 @@ CEB ≠ sindicato ≠ partido.
 
 | Ano | Marco |
 |---|---|
-| 1989 | fundação da ASSEMA |
+| 1989 | fundação da <abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr> |
 | 1991 | primeiro encontro/articulação interestadual |
-| 1995 | consolidação do nome MIQCB |
+| 1995 | consolidação do nome <abbr title="Movimento Interestadual das Quebradeiras de Coco Babaçu">MIQCB</abbr> |
 | 1997 | Lei Municipal nº 05/1997 de Lago do Junco — Babaçu Livre |
 
 ## Não confundir organizações
@@ -125,9 +125,9 @@ CEB ≠ sindicato ≠ partido.
 ## Constituição de 1988
 
 - amplia bases jurídicas dos direitos sociais;
-- SUS integra a nova ordem constitucional;
+- <abbr title="Sistema Único de Saúde">SUS</abbr> integra a nova ordem constitucional;
 - art. 231: direitos originários indígenas;
-- art. 68 do ADCT: propriedade quilombola nas condições previstas;
+- art. 68 do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr>: propriedade quilombola nas condições previstas;
 - reconhecimento jurídico ≠ efetivação automática.
 
 ## Rupturas × permanências

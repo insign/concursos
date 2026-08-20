@@ -18,7 +18,7 @@
 
 ## Superfície
 
-- Área IBGE 2025: **329.651,463 km²**.
+- Área <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> 2025: **329.651,463 km²**.
 - Aproximadamente **8º** maior estado do Brasil.
 - **2º** maior do Nordeste, atrás da Bahia.
 - ~331.937 km² = valor antigo.

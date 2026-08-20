@@ -44,14 +44,14 @@ A expansão urbana teve ritmos e causas diferentes no território estadual.
 
 Em **Imperatriz**, a integração rodoviária fortaleceu circulação, comércio e serviços e atraiu população. A rodovia Belém-Brasília foi decisiva para a nova centralidade regional, mas não explica sozinha todo o crescimento urbano.
 
-Em **São Luís**, migração, crescimento natural, concentração de serviços e investimentos públicos ampliaram a cidade desde antes dos grandes projetos industriais dos anos 1980. PGC, Alumar e o Distrito Industrial reforçaram um processo já em curso.
+Em **São Luís**, migração, crescimento natural, concentração de serviços e investimentos públicos ampliaram a cidade desde antes dos grandes projetos industriais dos anos 1980. <abbr title="Programa Grande Carajás">PGC</abbr>, Alumar e o Distrito Industrial reforçaram um processo já em curso.
 
 A expansão urbana ocorreu de forma socialmente desigual:
 
 - valorização imobiliária em determinadas áreas;
 - ocupações populares e autoconstrução em outras;
 - palafitas e moradias em áreas ambientalmente frágeis;
-- conjuntos habitacionais financiados pelo BNH;
+- conjuntos habitacionais financiados pelo <abbr title="Banco Nacional da Habitação">BNH</abbr>;
 - acesso desigual a transporte, saneamento e equipamentos públicos.
 
 **Periferização** não significa apenas distância do centro. É a produção desigual do espaço urbano e do acesso à terra, à moradia e aos serviços.
@@ -71,7 +71,7 @@ A questão agrária foi um dos principais eixos sociais do período. Rodovias, v
 Entre os marcos institucionais estão:
 
 - **Lei estadual nº 2.979/1969**, ligada à política de terras devolutas;
-- **COMARCO**, criada em 1971 para políticas de colonização;
+- **<abbr title="Companhia Maranhense de Colonização">COMARCO</abbr>**, criada em 1971 para políticas de colonização;
 - programas de colonização dirigida e expansão de projetos empresariais.
 
 Esses instrumentos não atuaram isoladamente. A disputa pela terra envolveu populações locais e migrantes, agricultores familiares, posseiros, empresas e agentes públicos.
@@ -115,8 +115,8 @@ A Igreja Católica não atuou de maneira uniforme. Para este assunto, três expe
 | Organização | Papel social |
 |---|---|
 | MEB | educação popular e formação de lideranças |
-| CEBs | organização comunitária territorial e participação de leigos |
-| CPT | apoio a trabalhadores rurais e atuação na questão agrária |
+| <abbr title="Comunidades Eclesiais de Base">CEBs</abbr> | organização comunitária territorial e participação de leigos |
+| <abbr title="Comissão Pastoral da Terra">CPT</abbr> | apoio a trabalhadores rurais e atuação na questão agrária |
 
 Sacerdotes e leigos também atuaram como educadores, assessores, mediadores e apoiadores de reivindicações comunitárias.
 
@@ -124,7 +124,7 @@ Não confunda **CEB** com sindicato, partido ou movimento juvenil.
 
 ## 8. Grandes projetos e impactos sociais
 
-PGC, EFC, Alumar e Distrito Industrial interessam aqui por seus **efeitos sociais**, e não por sua cronologia econômica detalhada.
+PGC, <abbr title="Estrada de Ferro Carajás">EFC</abbr>, Alumar e Distrito Industrial interessam aqui por seus **efeitos sociais**, e não por sua cronologia econômica detalhada.
 
 Entre esses efeitos estavam:
 
@@ -148,7 +148,7 @@ Nas décadas de 1980 e 1990, clubes de mães, associações, sindicatos e grupos
 
 Marcos seguros:
 
-- **1989**: fundação da **ASSEMA**, no Médio Mearim;
+- **1989**: fundação da **<abbr title="Associação em Áreas de Assentamento no Estado do Maranhão">ASSEMA</abbr>**, no Médio Mearim;
 - **1991**: primeiro encontro interestadual das quebradeiras e formação de articulação entre os grupos;
 - **1995**: consolidação da denominação **Movimento Interestadual das Quebradeiras de Coco Babaçu (MIQCB)**;
 - **1997**: Lago do Junco aprova a Lei Municipal nº 05/1997, pioneira Lei do Babaçu Livre.
@@ -169,9 +169,9 @@ A Constituição Federal de 1988 ampliou o marco jurídico dos direitos sociais 
 Entre os pontos relevantes ao contexto maranhense:
 
 - ampliação das bases constitucionais de saúde, educação, assistência e participação;
-- formação do SUS na nova ordem constitucional;
+- formação do <abbr title="Sistema Único de Saúde">SUS</abbr> na nova ordem constitucional;
 - reconhecimento dos direitos originários dos povos indígenas sobre terras tradicionalmente ocupadas;
-- reconhecimento, pelo art. 68 do ADCT, da propriedade definitiva aos remanescentes das comunidades dos quilombos que ocupassem suas terras.
+- reconhecimento, pelo art. 68 do <abbr title="Ato das Disposições Constitucionais Transitórias">ADCT</abbr>, da propriedade definitiva aos remanescentes das comunidades dos quilombos que ocupassem suas terras.
 
 **Reconhecimento jurídico não significa efetivação automática.** Demarcação, titulação, oferta de serviços e redução das desigualdades dependem de políticas, procedimentos e capacidade institucional.
 

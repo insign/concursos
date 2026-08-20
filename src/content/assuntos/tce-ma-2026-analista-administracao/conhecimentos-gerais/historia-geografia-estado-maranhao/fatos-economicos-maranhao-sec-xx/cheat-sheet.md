@@ -16,9 +16,9 @@
 | Período | Chave |
 |---|---|
 | anos 1950 | crise têxtil + arroz + babaçu |
-| 1959-1969 | SUDENE + crédito + rodovias |
+| 1959-1969 | <abbr title="Superintendência do Desenvolvimento do Nordeste">SUDENE</abbr> + crédito + rodovias |
 | anos 1970 | terras + pecuária + madeira |
-| 1980-1986 | Alumar + PGC + EFC + Ponta da Madeira |
+| 1980-1986 | Alumar + <abbr title="Programa Grande Carajás">PGC</abbr> + <abbr title="Estrada de Ferro Carajás">EFC</abbr> + Ponta da Madeira |
 | fim dos 1980-1990 | corredor exportador + gusa + cerrados |
 | 1995-2000 | reformas + privatizações |
 
@@ -66,7 +66,7 @@
 | Itaqui | **porto público**, integração regional/exportadora |
 | PGC | programa amplo de infraestrutura + mineração + agropecuária |
 | EFC | ferrovia do corredor Carajás–São Luís |
-| Ponta da Madeira | terminal **privado** da CVRD/Vale |
+| Ponta da Madeira | terminal **privado** da <abbr title="Companhia Vale do Rio Doce">CVRD</abbr>/Vale |
 | Alumar | complexo **privado** de alumina/alumínio, independente da Vale |
 
 ## Itaqui
@@ -79,7 +79,7 @@
 
 ## Programa Grande Carajás
 
-- **DL 1.813/1980**.
+- **<abbr title="Decreto-Lei">DL</abbr> 1.813/1980**.
 - Não é só mina.
 - Abrange ferrovia, portos, energia, mineração, agropecuária, madeira e outras atividades.
 
@@ -125,8 +125,8 @@
 ## Reformas e privatizações
 
 - **1997**: privatização federal da CVRD.
-- **2000**: privatização da CEMAR.
-- BEM = 2004, fora do recorte.
+- **2000**: privatização da <abbr title="Companhia Energética do Maranhão">CEMAR</abbr>.
+- <abbr title="Banco do Estado do Maranhão">BEM</abbr> = 2004, fora do recorte.
 - EFC e Ponta da Madeira já existiam antes da privatização da Vale.
 
 ## Rupturas × permanências
