@@ -17,7 +17,7 @@ O núcleo aqui é formado pelos **arts. 1º a 7º**:
 - jurisdição própria e privativa em todo o território estadual;
 - sujeitos expressamente abrangidos pela jurisdição.
 
-Também se faz uma ponte indispensável com os arts. 9º e 10 e com a **ADPF 982**, porque a distinção entre contas de governo e contas de gestão de Prefeito altera diretamente a compreensão da competência do Tribunal.
+Também se faz uma ponte indispensável com os arts. 9º e 10 e com a **<abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982**, porque a distinção entre contas de governo e contas de gestão de Prefeito altera diretamente a compreensão da competência do Tribunal.
 
 Ficam para os assuntos seguintes a organização da Corte, contas e instrumentos de controle em profundidade, processos, decisões, sanções, execução e recursos.
 
@@ -219,16 +219,16 @@ Os arts. 9º e 10 distinguem duas situações:
 
 A Câmara Municipal realiza o julgamento político das contas de governo do Prefeito.
 
-### 6.2. ADPF 982 — regra vigente no corte do edital
+### 6.2. <abbr title="Arguição de Descumprimento de Preceito Fundamental">ADPF</abbr> 982 — regra vigente no corte do edital
 
-O STF julgou a ADPF 982 em fevereiro de 2025 e publicou o acórdão em março de 2025, portanto antes do edital.
+O <abbr title="Supremo Tribunal Federal">STF</abbr> julgou a ADPF 982 em fevereiro de 2025 e publicou o acórdão em março de 2025, portanto antes do edital.
 
 A tese estabelece que:
 
 1. Prefeitos que atuem como **ordenadores de despesas** têm dever de prestar contas nessa qualidade;
 2. compete aos Tribunais de Contas julgar essas **contas de gestão**;
 3. se houver irregularidade, o Tribunal de Contas pode **imputar débito e aplicar sanções fora da esfera eleitoral**, independentemente de ratificação da Câmara Municipal;
-4. para os efeitos eleitorais do art. 1º, I, “g”, da LC nº 64/1990, preserva-se a competência da **Câmara Municipal**.
+4. para os efeitos eleitorais do art. 1º, I, “g”, da <abbr title="Lei Complementar">LC</abbr> nº 64/1990, preserva-se a competência da **Câmara Municipal**.
 
 ### 6.3. Matriz de prova
 
