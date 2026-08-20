@@ -1,4 +1,4 @@
-# Regimento Interno do TCE/MA: recursos e revisão
+# Regimento Interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>: recursos e revisão
 
 ## Corte do edital
 
