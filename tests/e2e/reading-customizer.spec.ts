@@ -192,6 +192,23 @@ test('applies a color-scheme preset and keeps it after reload', async ({ page, k
   await expect(shell).toHaveAttribute('data-reading-scheme', 'sepia');
 });
 
+test('keeps light reading table headers readable over a dark site theme', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('concursos:theme', 'dark'));
+  await page.goto(`/concursos/${contest}/reescrita-generos-formalidade/#focus`);
+
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await page.getByRole('button', { name: 'Ajustes de leitura' }).click();
+  await page.getByRole('button', { name: 'Claro', exact: true }).click();
+
+  const header = page.locator('.reading-surface table th').first();
+  await expect(header).toHaveCSS('background-color', 'rgb(223, 234, 229)');
+  await expect(header).toHaveCSS('color', 'rgb(27, 42, 38)');
+
+  await page.getByRole('button', { name: 'Sépia', exact: true }).click();
+  await expect(header).toHaveCSS('background-color', 'rgb(232, 218, 187)');
+  await expect(header).toHaveCSS('color', 'rgb(67, 52, 31)');
+});
+
 test('adopts remote reading preferences through the page coordinator', async ({ page, kvStore }) => {
   // Documento remoto (como se personalizado em outro dispositivo).
   kvStore.set(leituraDocId, {

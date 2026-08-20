@@ -802,6 +802,7 @@ a.subject-reading-link:hover {
   --paper: #fffdf8;
   --ground: #fffdf8;
   --line: #ddd4c4;
+  --accent-soft: #dfeae5;
   --accent-strong: #17413b;
   --signal: #8a3e2f;
   --code-bg: #f2ece0;
@@ -815,6 +816,7 @@ a.subject-reading-link:hover {
   --paper: #f2e8d2;
   --ground: #f2e8d2;
   --line: #d9c7a3;
+  --accent-soft: #e8dabb;
   --accent-strong: #6a4a1f;
   --signal: #8f3b26;
   --code-bg: #e8dabb;
