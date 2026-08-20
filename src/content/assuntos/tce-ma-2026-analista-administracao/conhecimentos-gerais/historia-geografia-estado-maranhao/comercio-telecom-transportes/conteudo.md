@@ -56,7 +56,7 @@ O comércio aproxima produção e consumo. Suas funções incluem:
 - financiamento e meios de pagamento;
 - entrega e pós-venda.
 
-Na CNAE 2.0, comércio e reparação de veículos automotores e motocicletas integram a **Seção G**.
+Na <abbr title="Classificação Nacional de Atividades Econômicas">CNAE</abbr> 2.0, comércio e reparação de veículos automotores e motocicletas integram a **Seção G**.
 
 ### 3.1 Atacado x varejo
 
@@ -106,7 +106,7 @@ O comércio e os serviços tendem a se concentrar onde há:
 - conexões com outros municípios;
 - infraestrutura de comunicação e transporte.
 
-A **REGIC 2018**, do IBGE, identifica a hierarquia dos centros urbanos e suas regiões de influência a partir de relações de gestão e atração por bens e serviços.
+A **<abbr title="Regiões de Influência das Cidades">REGIC</abbr> 2018**, do <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, identifica a hierarquia dos centros urbanos e suas regiões de influência a partir de relações de gestão e atração por bens e serviços.
 
 A hierarquia principal possui cinco níveis:
 
@@ -305,7 +305,7 @@ A ideia aproveitável para este assunto é funcional: redes de transporte integr
 3. Varejo é definido pelo destino predominante ao consumidor final.
 4. Pesquisa empresarial não mede toda informalidade.
 5. Receita não é VAB.
-6. REGIC não é ranking anual de PIB ou faturamento.
+6. REGIC não é ranking anual de <abbr title="Produto Interno Bruto">PIB</abbr> ou faturamento.
 7. Região de influência não é região metropolitana.
 8. Acesso não é usuário.
 9. Cobertura não é uso.

@@ -14,10 +14,10 @@ O edital exige a caracterização do **extrativismo vegetal, animal e mineral do
 
 O corte documental é **4 de agosto de 2026**. As referências principais são:
 
-- **PEVS/IBGE 2024:** extração vegetal e silvicultura;
-- **Boletim da Estatística Pesqueira e Aquícola 2023-2024/MPA:** pesca marinha e continental, com as limitações da retomada estatística;
-- **ANM:** produção mineral e Anuário Mineral Brasileiro, com destaque para ouro, gipsita e minério de ferro;
-- **ANP — Anuário Estatístico 2026:** dados consolidados de petróleo e gás natural até 2025.
+- **<abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr>/<abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> 2024:** extração vegetal e silvicultura;
+- **Boletim da Estatística Pesqueira e Aquícola 2023-2024/<abbr title="Ministério da Pesca e Aquicultura">MPA</abbr>:** pesca marinha e continental, com as limitações da retomada estatística;
+- **<abbr title="Agência Nacional de Mineração">ANM</abbr>:** produção mineral e Anuário Mineral Brasileiro, com destaque para ouro, gipsita e minério de ferro;
+- **<abbr title="Agência Nacional do Petróleo, Gás Natural e Biocombustíveis">ANP</abbr> — Anuário Estatístico 2026:** dados consolidados de petróleo e gás natural até 2025.
 
 Agricultura, pecuária e aquicultura pertencem ao Assunto 089. Geologia e potencial mineral foram tratados no Assunto 084. Indústria, comércio e infraestrutura aparecem aqui somente para evitar que processamento ou transporte sejam confundidos com extração.
 
@@ -32,7 +32,7 @@ Agricultura, pecuária e aquicultura pertencem ao Assunto 089. Geologia e potenc
 | criar peixe em viveiro | piscicultura | aquicultura |
 | retirar minério da jazida | lavra | extração mineral |
 | produzir alumina, alumínio, aço ou celulose | transformação | indústria |
-| movimentar minério de outra UF por ferrovia ou porto | circulação | logística |
+| movimentar minério de outra <abbr title="unidade da Federação">UF</abbr> por ferrovia ou porto | circulação | logística |
 
 A etapa posterior da cadeia não altera a origem do recurso. Madeira de eucalipto continua sendo matéria-prima da silvicultura; celulose é produto industrial. Minério de Carajás movimentado no Maranhão continua tendo origem extrativa no Pará.
 
@@ -67,7 +67,7 @@ No Maranhão, o babaçu também possui forte dimensão social: trabalho familiar
 ### 3.3 Açaí: extrativo × cultivado
 
 - açaí coletado em vegetação espontânea → **PEVS / extrativismo**;
-- açaí cultivado → **PAM / agricultura**.
+- açaí cultivado → **<abbr title="Produção Agrícola Municipal">PAM</abbr> / agricultura**.
 
 Em 2024, a quantidade extrativa registrada pela PEVS foi muito superior à cultivada registrada pela PAM no Maranhão. Os números pertencem a universos diferentes e não devem ser fundidos sem identificar a origem.
 
@@ -180,7 +180,7 @@ Para resolver questões, diferencie:
 
 Três casos sintetizam pegadinhas frequentes:
 
-- **ALUMAR:** transformação industrial de bauxita em alumina/alumínio; a planta em São Luís não prova extração maranhense da bauxita recebida;
+- **<abbr title="Consórcio de Alumínio do Maranhão">ALUMAR</abbr>:** transformação industrial de bauxita em alumina/alumínio; a planta em São Luís não prova extração maranhense da bauxita recebida;
 - **Carajás:** minério extraído no Pará pode atravessar o Maranhão e ser exportado por terminais maranhenses; trânsito não transfere a origem da lavra;
 - **celulose:** madeira plantada é silvicultura; celulose é indústria.
 

@@ -2,17 +2,17 @@
 
 ## Mapa do assunto
 
-**Estrutura agrária → sistemas produtivos → principais lavouras → MATOPIBA → pecuária → estoque × fluxo.**
+**Estrutura agrária → sistemas produtivos → principais lavouras → <abbr title="Maranhão, Tocantins, Piauí e Bahia">MATOPIBA</abbr> → pecuária → estoque × fluxo.**
 
 ## Fonte × pergunta
 
 | Fonte | Use para |
 |---|---|
 | Censo Agro 2017 | estabelecimentos, área, trabalho, agricultura familiar |
-| PAM 2024 | lavouras no ano civil |
-| PPM 2024 | efetivos em 31/12 + produtos no ano |
-| LSPA | acompanhamento mensal/revisável |
-| Conab | ano-safra |
+| <abbr title="Produção Agrícola Municipal">PAM</abbr> 2024 | lavouras no ano civil |
+| <abbr title="Pesquisa da Pecuária Municipal">PPM</abbr> 2024 | efetivos em 31/12 + produtos no ano |
+| <abbr title="Levantamento Sistemático da Produção Agrícola">LSPA</abbr> | acompanhamento mensal/revisável |
+| <abbr title="Companhia Nacional de Abastecimento">Conab</abbr> | ano-safra |
 
 **Ano civil ≠ ano-safra. Censo estrutural ≠ produção anual.**
 
@@ -21,7 +21,7 @@
 | Indicador | Chave |
 |---|---:|
 | estabelecimentos | **219.765** |
-| área | **12,238 mi ha** |
+| área | **12,238 <abbr title="milhões">mi</abbr> ha** |
 | pessoal ocupado | ~693 mil |
 
 ### Familiar × não familiar
@@ -65,7 +65,7 @@ Coexistem e são heterogêneos.
 
 **Cana + mandioca = temporárias de longa duração.**
 
-Cultivado ≠ extrativo: açaí/caju cultivados → PAM; coleta espontânea → PEVS/Assunto 090.
+Cultivado ≠ extrativo: açaí/caju cultivados → PAM; coleta espontânea → <abbr title="Produção da Extração Vegetal e da Silvicultura">PEVS</abbr>/Assunto 090.
 
 ## Principais produtos agrícolas
 
@@ -82,7 +82,7 @@ Cultivado ≠ extrativo: açaí/caju cultivados → PAM; coleta espontânea → 
 
 Números-âncora 2024:
 
-- soja: **4,073 mi t** / ~R$ 8,34 bi;
+- soja: **4,073 mi t** / ~R$ 8,34 <abbr title="bilhões">bi</abbr>;
 - milho: **2,384 mi t** / ~R$ 2,77 bi;
 - banana: **79,2 mil t**.
 
@@ -92,7 +92,7 @@ Números-âncora 2024:
 - rendimento = quantidade ÷ área colhida;
 - maior tonelagem ≠ maior valor;
 - maior rendimento ≠ maior produção se a área for pequena;
-- valor PAM ≠ PIB/exportação/renda líquida.
+- valor PAM ≠ <abbr title="Produto Interno Bruto">PIB</abbr>/exportação/renda líquida.
 
 ## Pecuária
 
