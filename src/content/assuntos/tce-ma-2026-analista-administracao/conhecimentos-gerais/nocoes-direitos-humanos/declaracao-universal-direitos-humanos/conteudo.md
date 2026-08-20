@@ -31,14 +31,14 @@ A DUDH foi **proclamada pela Assembleia Geral como padrão comum de realização
 
 Isso não torna a Declaração juridicamente irrelevante. Ela se tornou referência central do direito internacional dos direitos humanos, inspirou constituições e tratados vinculantes e algumas normas nela refletidas também são reconhecidas por outras fontes do direito internacional. A formulação segura é evitar tanto “a DUDH é um tratado” quanto “a DUDH não produz qualquer efeito jurídico”.
 
-A redação foi **coletiva e multicultural**, realizada no âmbito da ONU. Eleanor Roosevelt presidiu a Comissão de Direitos Humanos, mas não foi autora individual do texto.
+A redação foi **coletiva e multicultural**, realizada no âmbito da <abbr title="Organização das Nações Unidas">ONU</abbr>. Eleanor Roosevelt presidiu a Comissão de Direitos Humanos, mas não foi autora individual do texto.
 
 ### 2.1 DUDH × Pactos de 1966
 
 A chamada Carta Internacional dos Direitos Humanos reúne a DUDH e os Pactos Internacionais de 1966, entre outros instrumentos relacionados. A diferença formal mais importante para prova é:
 
 - **DUDH:** declaração;
-- **PIDCP e PIDESC:** tratados internacionais.
+- **<abbr title="Pacto Internacional sobre Direitos Civis e Políticos">PIDCP</abbr> e <abbr title="Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais">PIDESC</abbr>:** tratados internacionais.
 
 ## 3. Preâmbulo
 

@@ -80,8 +80,8 @@ Os cinco sotaques são uma **classificação didática consolidada**, não uma r
 
 ### 3.3 Reconhecimentos patrimoniais
 
-- **30/08/2011:** registro pelo Iphan como Patrimônio Cultural do Brasil, no Livro das Celebrações;
-- **2019:** inscrição pela UNESCO na Lista Representativa do Patrimônio Cultural Imaterial da Humanidade;
+- **30/08/2011:** registro pelo <abbr title="Instituto do Patrimônio Histórico e Artístico Nacional">Iphan</abbr> como Patrimônio Cultural do Brasil, no Livro das Celebrações;
+- **2019:** inscrição pela <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr> na Lista Representativa do Patrimônio Cultural Imaterial da Humanidade;
 - **2025:** revalidação do registro nacional. O Conselho Consultivo do Iphan aprovou a revalidação em reunião de **25 e 26 de março de 2025**; o Termo de Averbação foi formalizado em setembro de 2025.
 
 Registro nacional, revalidação e inscrição internacional são atos distintos. A revalidação de 2025 não criou um novo patrimônio nem substituiu o reconhecimento da UNESCO.

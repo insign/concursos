@@ -52,8 +52,8 @@ Cinco sotaques = síntese didática, não diversidade exaustiva.
 
 ### Títulos
 
-- Iphan: **2011**, Livro das Celebrações;
-- UNESCO: **2019**;
+- <abbr title="Instituto do Patrimônio Histórico e Artístico Nacional">Iphan</abbr>: **2011**, Livro das Celebrações;
+- <abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr>: **2019**;
 - revalidação nacional: aprovada pelo Conselho Consultivo em **25–26/03/2025**; termo formalizado em setembro.
 
 Revalidação ≠ novo registro ≠ nova inscrição UNESCO.

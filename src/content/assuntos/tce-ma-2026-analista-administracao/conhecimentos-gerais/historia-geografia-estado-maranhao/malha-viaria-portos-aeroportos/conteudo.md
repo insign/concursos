@@ -26,7 +26,7 @@ Os dados conjunturais são sempre acompanhados de **fonte e período**. Extensã
 
 ## 2. Como ler a malha viária
 
-A malha viária reúne rodovias federais, estaduais e municipais. No plano federal, o **Sistema Nacional de Viação (SNV)** é a referência cadastral utilizada pelo DNIT.
+A malha viária reúne rodovias federais, estaduais e municipais. No plano federal, o **Sistema Nacional de Viação (SNV)** é a referência cadastral utilizada pelo <abbr title="Departamento Nacional de Infraestrutura de Transportes">DNIT</abbr>.
 
 Três distinções evitam erros frequentes:
 
@@ -139,7 +139,7 @@ A EMAP atua como autoridade portuária. Isso não significa que seja operadora e
 
 Ponta da Madeira é instalação privada da Vale e o principal ponto portuário associado à EFC e ao corredor mineral de Carajás.
 
-A ANTAQ registrou **172,4 milhões de toneladas movimentadas em 2025** pelo terminal. O número é movimentação anual da instalação, e não:
+A <abbr title="Agência Nacional de Transportes Aquaviários">ANTAQ</abbr> registrou **172,4 milhões de toneladas movimentadas em 2025** pelo terminal. O número é movimentação anual da instalação, e não:
 
 - capacidade instalada;
 - produção mineral do Maranhão;
@@ -154,7 +154,7 @@ Não é arrendamento do Porto do Itaqui. Também não se deve confundir capacida
 
 ## 7. Aeroportos e aeródromos
 
-Segundo a ANAC:
+Segundo a <abbr title="Agência Nacional de Aviação Civil">ANAC</abbr>:
 
 - **aeródromo** é a área destinada a pouso, decolagem e movimentação de aeronaves;
 - **aeroporto** é aeródromo público dotado de instalações e facilidades de apoio às operações, passageiros ou carga.
@@ -166,8 +166,8 @@ Cadastro ativo de aeródromo não prova, por si só, existência de voo comercia
 | Campo | São Luís | Imperatriz |
 |---|---|---|
 | aeroporto | Marechal Hugo da Cunha Machado | Prefeito Renato Moreira |
-| IATA | **SLZ** | **IMP** |
-| ICAO | **SBSL** | **SBIZ** |
+| <abbr title="International Air Transport Association">IATA</abbr> | **SLZ** | **IMP** |
+| <abbr title="International Civil Aviation Organization">ICAO</abbr> | **SBSL** | **SBIZ** |
 | cadastro ANAC | **MA0001** | **MA0002** |
 | operador jurídico no recorte | Concessionária do Bloco Central S.A. | Concessionária do Bloco Central S.A. |
 | marca operacional em 2026 | Motiva Aeroportos | Motiva Aeroportos |
