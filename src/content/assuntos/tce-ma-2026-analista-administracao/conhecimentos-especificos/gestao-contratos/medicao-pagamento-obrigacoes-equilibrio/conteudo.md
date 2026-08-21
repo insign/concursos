@@ -10,7 +10,7 @@ storageId: "medicao-pagamento-equilibrio-in5"
 
 ## 1. Delimitação, corte e leitura atualizada
 
-A Instrução Normativa SEGES/MP nº 5/2017 disciplina, no âmbito federal indicado em seu art. 1º, a contratação de serviços. Este assunto integra quatro blocos da fase de execução:
+A Instrução Normativa <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017 disciplina, no âmbito federal indicado em seu art. 1º, a contratação de serviços. Este assunto integra quatro blocos da fase de execução:
 
 1. medição do resultado e recebimento dos serviços;
 2. instrução do pagamento e tratamento de desconformidades;
@@ -19,9 +19,9 @@ A Instrução Normativa SEGES/MP nº 5/2017 disciplina, no âmbito federal indic
 
 A leitura deve distinguir três planos:
 
-- a **Lei nº 14.133/2021** contém normas gerais aplicáveis aos entes por ela abrangidos, inclusive quando o TCE-MA contrata administrativamente;
-- a **IN nº 5/2017** é norma federal infralegal, mantida para as contratações federais regidas pela Lei nº 14.133/2021 somente **no que couber**, conforme a IN SEGES/ME nº 98/2022;
-- atos federais como os Decretos nº 9.507/2018, nº 12.174/2024, nº 12.926/2026 e nº 13.031/2026 e as INs SEGES/MGI nº 81/2024, nº 176/2024 e nº 147/2026 têm âmbito próprio e não vinculam automaticamente o TCE-MA, salvo adoção por norma competente.
+- a **Lei nº 14.133/2021** contém normas gerais aplicáveis aos entes por ela abrangidos, inclusive quando o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> contrata administrativamente;
+- a **IN nº 5/2017** é norma federal infralegal, mantida para as contratações federais regidas pela Lei nº 14.133/2021 somente **no que couber**, conforme a IN <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022;
+- atos federais como os Decretos nº 9.507/2018, nº 12.174/2024, nº 12.926/2026 e nº 13.031/2026 e as INs <abbr title="Secretaria de Gestão e Inovação do Ministério da Gestão e da Inovação em Serviços Públicos">SEGES/MGI</abbr> nº 81/2024, nº 176/2024 e nº 147/2026 têm âmbito próprio e não vinculam automaticamente o TCE-MA, salvo adoção por norma competente.
 
 Referências da IN nº 5/2017 à Lei nº 8.666/1993 devem ser compatibilizadas com a Lei nº 14.133/2021. Por exemplo, o recebimento hoje encontra fundamento geral no art. 140 da nova lei, e os critérios de medição, liquidação, pagamento e reajustamento devem constar do contrato conforme o art. 92.
 
@@ -175,7 +175,7 @@ Durante a execução, podem ser examinados:
 - salários, contracheques e depósitos;
 - folha analítica vinculada ao tomador;
 - benefícios obrigatórios;
-- recolhimentos previdenciários e de FGTS;
+- recolhimentos previdenciários e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>;
 - regularidade fiscal, fundiária e trabalhista;
 - jornada, alocação e substituições;
 - cumprimento da reserva legal de cargos;
@@ -189,7 +189,7 @@ Indício de irregularidade previdenciária deve ser comunicado à Receita Federa
 
 A manutenção das condições de habilitação é obrigação contratual. Contudo, regularidade cadastral, execução do objeto, retenção tributária e pagamento são verificações distintas. Não se deve inventar glosa sobre serviço comprovadamente prestado apenas porque uma certidão venceu, sem observar o regime jurídico e as providências contratuais aplicáveis.
 
-Também é incorreto repetir, como comando universal, a redação antiga do Anexo VIII-B que manda reter 11% de toda fatura. A retenção previdenciária segue o art. 31 da Lei nº 8.212/1991 e a regulamentação tributária consolidada, hoje estruturada na IN RFB nº 2.110/2022: exige verificar se há cessão de mão de obra ou empreitada e se o serviço integra hipótese legal, além de base, deduções, dispensas e regras específicas. Quando devida, é retenção tributária, não glosa nem provisão trabalhista.
+Também é incorreto repetir, como comando universal, a redação antiga do Anexo VIII-B que manda reter 11% de toda fatura. A retenção previdenciária segue o art. 31 da Lei nº 8.212/1991 e a regulamentação tributária consolidada, hoje estruturada na IN <abbr title="Receita Federal do Brasil">RFB</abbr> nº 2.110/2022: exige verificar se há cessão de mão de obra ou empreitada e se o serviço integra hipótese legal, além de base, deduções, dispensas e regras específicas. Quando devida, é retenção tributária, não glosa nem provisão trabalhista.
 
 ## 8. Garantias trabalhistas durante a execução
 
@@ -315,7 +315,7 @@ Há três cautelas para a **repactuação**:
 2. pedido tempestivo ou ressalva expressa preserva a análise, sem garantir deferimento;
 3. a preclusão pressupõe direito já exigível.
 
-Para o **reajuste em sentido estrito**, a orientação oficial reunida pelo TCU é diferente:
+Para o **reajuste em sentido estrito**, a orientação oficial reunida pelo <abbr title="Tribunal de Contas da União">TCU</abbr> é diferente:
 
 - **em regra, não há preclusão lógica** pela simples prorrogação, pois o reajuste por índice previsto pode ser processado de ofício;
 - excepcionalmente, pode haver renúncia ou preclusão quando edital e contrato condicionarem expressamente o reajuste a requerimento, não houver pedido antes do aditivo, a prorrogação for celebrada sem ressalva e o edital estabelecer expressamente esse efeito;

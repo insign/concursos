@@ -17,7 +17,7 @@ Este assunto converte as regras da execução contratual em uma rotina de contro
 3. como o preposto representa a contratada e organiza sua resposta;
 4. como manter um ciclo de acompanhamento capaz de sustentar correções e decisões.
 
-A base geral está na Lei nº 14.133/2021, especialmente nos arts. 92, 115, 117, 118 e 123. A IN SEGES/MP nº 5/2017 e os Decretos nº 11.246/2022 e nº 13.031/2026 oferecem modelos operacionais federais úteis, mas não vinculam automaticamente o TCE-MA. A IN SEGES/ME nº 98/2022 autorizou a aplicação da IN nº 5/2017, **no que couber**, às contratações federais de serviços regidas pela Lei nº 14.133/2021.
+A base geral está na Lei nº 14.133/2021, especialmente nos arts. 92, 115, 117, 118 e 123. A IN <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017 e os Decretos nº 11.246/2022 e nº 13.031/2026 oferecem modelos operacionais federais úteis, mas não vinculam automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. A IN <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022 autorizou a aplicação da IN nº 5/2017, **no que couber**, às contratações federais de serviços regidas pela Lei nº 14.133/2021.
 
 > **Corte de atualização:** legislação e orientações consultadas até 19 de julho de 2026.
 
@@ -75,10 +75,10 @@ Termos próximos não devem ser confundidos:
 
 | Conceito | Função |
 |---|---|
-| Medida bruta ou **SLI** | Resultado observado, como tempo de resposta ou disponibilidade |
-| Meta ou **SLO** | Desempenho pretendido pela Administração |
-| **SLA** | Compromisso contratual de nível de serviço |
-| **IMR** | Estrutura de aferição de resultados no modelo da IN nº 5/2017 |
+| Medida bruta ou **<abbr title="Service Level Indicator">SLI</abbr>** | Resultado observado, como tempo de resposta ou disponibilidade |
+| Meta ou **<abbr title="Service Level Objective">SLO</abbr>** | Desempenho pretendido pela Administração |
+| **<abbr title="Service Level Agreement">SLA</abbr>** | Compromisso contratual de nível de serviço |
+| **<abbr title="Instrumento de Medição de Resultado">IMR</abbr>** | Estrutura de aferição de resultados no modelo da IN nº 5/2017 |
 | Critério de aceitação | Condição para receber determinada entrega |
 | Consequência | Efeito previsto para o resultado medido |
 

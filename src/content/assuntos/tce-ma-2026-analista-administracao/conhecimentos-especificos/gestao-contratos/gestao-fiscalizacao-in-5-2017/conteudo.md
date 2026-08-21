@@ -10,17 +10,17 @@ storageId: "gestao-fiscalizacao-in5"
 
 ## 1. Delimitação, corte e leitura atualizada
 
-A gestão contratual transforma o contrato formalizado em resultados efetivamente entregues. Na Instrução Normativa SEGES/MP nº 5/2017, os arts. 39 a 48 organizam as funções de gestão e fiscalização, a escolha dos agentes, a representação da contratada, o início da execução, os registros e os instrumentos de controle. O Anexo VIII detalha a fiscalização técnica e administrativa.
+A gestão contratual transforma o contrato formalizado em resultados efetivamente entregues. Na Instrução Normativa <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017, os arts. 39 a 48 organizam as funções de gestão e fiscalização, a escolha dos agentes, a representação da contratada, o início da execução, os registros e os instrumentos de controle. O Anexo VIII detalha a fiscalização técnica e administrativa.
 
 O modelo deve ser lido em três camadas:
 
 1. **Lei nº 14.133/2021:** normas gerais vigentes, especialmente arts. 115 a 123 e 140;
 2. **regulamentação federal atual:** Decreto nº 11.246/2022, alterado pelo Decreto nº 13.031/2026;
-3. **IN nº 5/2017:** disciplina operacional federal dos serviços, aplicável sob a Lei nº 14.133/2021 somente **no que couber**, conforme a IN SEGES/ME nº 98/2022.
+3. **IN nº 5/2017:** disciplina operacional federal dos serviços, aplicável sob a Lei nº 14.133/2021 somente **no que couber**, conforme a IN <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022.
 
 Referências históricas à Lei nº 8.666/1993 não devem ser transpostas mecanicamente. O dever de registrar ocorrências, determinar correções e escalar decisões, por exemplo, hoje encontra fundamento direto no art. 117 da Lei nº 14.133/2021.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. O Decreto nº 13.031/2026, publicado em 18 de junho de 2026 e vigente desde a publicação, integra o corte. Datas posteriores de consulta das fontes servem apenas à conferência editorial.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. O Decreto nº 13.031/2026, publicado em 18 de junho de 2026 e vigente desde a publicação, integra o corte. Datas posteriores de consulta das fontes servem apenas à conferência editorial.
 
 > **Âmbito:** as instruções da SEGES e os Decretos nº 11.246/2022 e nº 13.031/2026 disciplinam diretamente a Administração Pública federal indicada em cada ato. Não se tornam automaticamente regulamento interno do TCE-MA.
 
@@ -103,7 +103,7 @@ Devem ser considerados:
 - formação, qualificação, experiência e capacidade;
 - independência e ausência de conflito de interesses.
 
-Necessidades de desenvolvimento de competências devem ser identificadas no ETP e tratadas, quando cabível, antes da celebração.
+Necessidades de desenvolvimento de competências devem ser identificadas no <abbr title="Estudo Técnico Preliminar">ETP</abbr> e tratadas, quando cabível, antes da celebração.
 
 ### 5.2 Substitutos e continuidade
 
@@ -117,7 +117,7 @@ Na troca definitiva, o agente que sai deve registrar as ocorrências de seu per�
 
 ### 5.3 Documentos essenciais
 
-Os fiscais precisam ter acesso aos documentos que definem objeto, obrigações e controles, como ETP, TR/projeto básico, edital, contrato, alterações, garantia, proposta, planilhas, modelo de gestão, riscos, indicadores, IMR, ordens, atas, comunicações e histórico pertinente.
+Os fiscais precisam ter acesso aos documentos que definem objeto, obrigações e controles, como ETP, <abbr title="Termo de Referência">TR</abbr>/projeto básico, edital, contrato, alterações, garantia, proposta, planilhas, modelo de gestão, riscos, indicadores, <abbr title="Instrumento de Medição de Resultado">IMR</abbr>, ordens, atas, comunicações e histórico pertinente.
 
 Designar sem fornecer informação, tempo ou acesso não produz controle efetivo.
 
