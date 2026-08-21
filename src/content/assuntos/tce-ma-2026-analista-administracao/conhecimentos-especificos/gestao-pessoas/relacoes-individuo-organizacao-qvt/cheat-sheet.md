@@ -1,4 +1,4 @@
-# Relações indivíduo-organização e QVT
+# Relações indivíduo-organização e <abbr title="Qualidade de Vida no Trabalho">QVT</abbr>
 
 ## Comportamento organizacional
 
@@ -8,7 +8,7 @@
 | grupo/equipe | interação, normas, comunicação, cooperação e conflitos |
 | organização | estrutura, cultura, políticas e condições de trabalho |
 
-- CO é multinível: comportamento observado em uma pessoa pode ter causas de equipe ou organização.
+- <abbr title="Comportamento Organizacional">CO</abbr> é multinível: comportamento observado em uma pessoa pode ter causas de equipe ou organização.
 
 ## Troca e contrato psicológico
 
@@ -53,7 +53,7 @@
 
 ## Ajuste e papéis
 
-- P-O fit: valores, necessidades-recursos e capacidades-demandas compatíveis.
+- <abbr title="ajuste pessoa-organização">P-O fit</abbr>: valores, necessidades-recursos e capacidades-demandas compatíveis.
 - Fit ≠ homogeneidade.
 - Conflito de papel = demandas incompatíveis.
 - Ambiguidade = falta de clareza.
@@ -105,7 +105,7 @@ Roteiro didático, não sequência normativa universal:
 5. monitoramento;
 6. avaliação e revisão.
 
-- Responsabilidade compartilhada; não exclusiva do RH.
+- Responsabilidade compartilhada; não exclusiva do <abbr title="Recursos Humanos">RH</abbr>.
 - Combine percepções, saúde, processos e contexto.
 - Absenteísmo menor não prova melhora: pode haver subnotificação ou presenteísmo.
 

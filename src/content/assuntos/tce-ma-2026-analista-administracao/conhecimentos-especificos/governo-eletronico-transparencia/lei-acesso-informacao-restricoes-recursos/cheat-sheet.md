@@ -1,4 +1,4 @@
-# LAI: restrições, transparência ativa, recursos e responsabilidades
+# <abbr title="Lei de Acesso à Informação">LAI</abbr>: restrições, transparência ativa, recursos e responsabilidades
 
 ## Classificação
 
@@ -13,7 +13,7 @@
 - Fim do prazo/evento: publicidade automática.
 - Usar o critério menos restritivo.
 - Segurança de Presidente/Vice, cônjuges e filhos: reservado até fim do mandato atual ou último, se reeleição.
-- Art. 27: autoridades classificadoras da administração federal; não transplantar ao TCE-MA.
+- Art. 27: autoridades classificadoras da administração federal; não transplantar ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## Vedações ao sigilo
 
@@ -26,7 +26,7 @@
 - Acesso classificado: necessidade de conhecer + credenciamento adequado.
 - Estado protege contra perda, alteração e acesso/transmissão/divulgação indevidos.
 - Reavaliação pode desclassificar ou reduzir prazo; termo inicial segue na produção.
-- CMRI e revisão quadrienal são federais.
+- <abbr title="Comissão Mista de Reavaliação de Informações">CMRI</abbr> e revisão quadrienal são federais.
 
 ## Informação pessoal
 
@@ -55,7 +55,7 @@
 - Recurso nacional: **10 dias** da ciência.
 - Autoridade hierarquicamente superior decide em **5 dias**.
 - Inteiro teor da negativa por certidão ou cópia.
-- CGU/CMRI e escalada do Decreto nº 7.724/2012: Executivo federal, não automáticos ao TCE-MA.
+- <abbr title="Controladoria-Geral da União">CGU</abbr>/CMRI e escalada do Decreto nº 7.724/2012: Executivo federal, não automáticos ao TCE-MA.
 - No rito federal, recurso contra decisão e reclamação por omissão à autoridade de monitoramento são fluxos distintos.
 
 ## Responsabilidades
