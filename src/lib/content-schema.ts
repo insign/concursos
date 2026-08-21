@@ -43,6 +43,8 @@ export const subjectSchema = z
 
 export const cheatSheetSchema = z.object({}).strict();
 
+export const referenceSchema = z.object({}).strict();
+
 export const resolutionSchema = z
   .object({
     schemaVersion: z.literal(1),
@@ -169,6 +171,7 @@ export type ContestData = z.infer<typeof contestSchema>;
 export type GroupData = z.infer<typeof groupSchema>;
 export type MegaReviewData = z.infer<typeof megaReviewSchema>;
 export type SubjectData = z.infer<typeof subjectSchema>;
+export type ReferenceData = z.infer<typeof referenceSchema>;
 export type ResolutionData = z.infer<typeof resolutionSchema>;
 export type QuestionOption = z.infer<typeof questionOptionSchema>;
 export type QuestionOrigin = z.infer<typeof questionOriginSchema>;

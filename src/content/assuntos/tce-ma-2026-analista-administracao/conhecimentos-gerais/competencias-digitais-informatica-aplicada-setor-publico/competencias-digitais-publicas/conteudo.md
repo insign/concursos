@@ -469,18 +469,3 @@ Diante de um caso de tecnologia no serviço público, use a sequência:
 Alternativas absolutas como “sempre exige consentimento”, “todo dado público é livre”, “algoritmo é neutro” ou “digital dispensa canal alternativo” tendem a ignorar os limites estudados.
 
 ---
-
-## Referências
-
-- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático de Competências Digitais e Informática Aplicada ao Setor Público. Acesso em 18 jul. 2026.
-- BRASIL. Presidência da República. [Lei nº 14.533, de 11 de janeiro de 2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14533.htm). Institui a Política Nacional de Educação Digital; texto oficial com promulgação da parte vetada publicada em 22 dez. 2023. Acesso em 18 jul. 2026.
-- BRASIL. Ministério da Educação. [Educação Digital e Midiática: como elaborar e implementar o currículo nas escolas](https://www.gov.br/mec/pt-br/escolas-conectadas/documentos/guia_eddigital_versofinaloficial.pdf). Guia oficial, 2025. Acesso em 18 jul. 2026.
-- BRASIL. Ministério da Educação. [Base Nacional Comum Curricular](https://basenacionalcomum.mec.gov.br/a-base). Referência normativa da educação básica e acesso aos documentos complementares. Acesso em 18 jul. 2026.
-- BRASIL. Conselho Nacional de Educação. [Parecer CNE/CEB nº 2/2022 e Resolução CNE/CEB nº 1/2022](https://portal.mec.gov.br/pet/323-secretarias-112877938/orgaos-vinculados-82187207/62391-bncc-ensino-medio). Normas sobre Computação na Educação Básica — Complemento à BNCC. Acesso em 19 jul. 2026.
-- BRASIL. Conselho Nacional de Educação. [Resolução CNE/CEB nº 2/2025](https://www.gov.br/secom/pt-br/assuntos/educacao-midiatica/colecao/colecao-de-educacao-digital-e-midiatica). Diretrizes para dispositivos digitais e integração curricular da educação digital e midiática. Acesso em 19 jul. 2026.
-- UNESCO. [Misinformation](https://www.unesco.org/en/query-list/m/misinformation) e [Disinformation](https://www.unesco.org/en/query-list/d/disinformation). Distinção terminológica baseada na intenção, com ressalva sobre variação de uso. Acesso em 19 jul. 2026.
-
-- BRASIL. Presidência da República. [Lei nº 13.709, de 14 de agosto de 2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm). Lei Geral de Proteção de Dados Pessoais, texto compilado vigente no corte de 18 jul. 2026, especialmente arts. 5º a 7º, 11, 12, 18, 20 e 23 a 30. Acesso em 18 jul. 2026.
-- AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS. [Tratamento de dados pessoais pelo Poder Público](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-poder-publico-anpd-versao-final.pdf). Guia orientativo, versão 2.0, jun. 2023. Acesso em 18 jul. 2026.
-- UNESCO. [Media and Information Literacy: a critical approach to literacy in a digital world](https://www.unesco.org/en/articles/media-and-information-literacy-critical-approach-literacy-digital-world). Referência sobre alfabetização midiática e informacional. Acesso em 18 jul. 2026.
-- UNESCO INSTITUTE FOR STATISTICS. [Digital literacy](https://uis.unesco.org/en/glossary-term/digital-literacy). Glossário de letramento digital. Acesso em 18 jul. 2026.

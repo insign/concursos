@@ -35,9 +35,12 @@ async function fetchResolutionDocument(
     : null;
 
   const articles = new Map<string, HTMLElement>();
+  const referencesBlock = container.querySelector<HTMLElement>('[data-document-references]');
+  referencesBlock?.querySelectorAll('script').forEach((script) => script.remove());
   container.querySelectorAll<HTMLElement>('article[data-resolution-question-id]').forEach((article) => {
     article.querySelectorAll('script').forEach((script) => script.remove());
     if (mermaidRuntimeSource) article.dataset.resolutionMermaidSrc = mermaidRuntimeSource;
+    if (referencesBlock) article.appendChild(referencesBlock.cloneNode(true));
     const questionId = article.dataset.resolutionQuestionId;
     if (questionId) articles.set(questionId, article);
   });

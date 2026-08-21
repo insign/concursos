@@ -1,0 +1,6 @@
+- Tribunal de Contas do Estado do Maranhão. [Lei nº 9.936/2013 atualizada](https://app.tcema.tc.br/publicacao/#/documentohtml/617). Organização administrativa e alterações incorporadas.
+- Tribunal de Contas do Estado do Maranhão. [Lei nº 11.170/2019 compilada](https://app.tcema.tc.br/publicacao/#/documentohtml/911?compilado=true). Reorganização da Secretaria do Tribunal.
+- Estado do Maranhão. Lei nº 12.822, de 30 de março de 2026, republicada no Diário Oficial do Estado em 9 abr. 2026. A republicação é expressamente registrada em atos oficiais posteriores do TCE/MA, como o [Diário Oficial Eletrônico, edição nº 3031/2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9517).
+- Tribunal de Contas do Estado do Maranhão. [Resolução TCE/MA nº 408/2024](https://app.tcema.tc.br/publicacao/#/documentohtml/23831). Estrutura administrativa geral.
+- Tribunal de Contas do Estado do Maranhão. [Resolução TCE/MA nº 417/2025 — republicação](https://app.tcema.tc.br/diario/publicacao/pdf/9240). Diário Oficial Eletrônico, edição nº 2756/2025, 8 abr. 2025; republicada para correção do inciso II do art. 3º.
+- Tribunal de Contas do Estado do Maranhão. [Estrutura organizacional](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/estrutura-organizacional). Fonte institucional auxiliar, a ser lida em conjunto com os atos normativos.

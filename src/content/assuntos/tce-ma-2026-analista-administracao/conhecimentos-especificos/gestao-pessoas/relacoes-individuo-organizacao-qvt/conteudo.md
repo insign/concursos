@@ -182,18 +182,3 @@ Um indicador isolado não prova causalidade. Queda no absenteísmo pode refletir
 | autonomia liga-se à responsabilidade pelos resultados | correta |
 | feedback liga-se ao conhecimento dos resultados | correta |
 | absenteísmo menor prova melhoria de QVT | errada |
-
-## Referências
-
-- [Toward a Theory of Organizational Socialization](https://dspace.mit.edu/handle/1721.1/1934), John Van Maanen e Edgar H. Schein, MIT Sloan School of Management, 1977/1979, acesso em 17 jul. 2026.
-- [A Three-Component Conceptualization of Organizational Commitment](https://doi.org/10.1016/1053-4822(91)90011-Z), John P. Meyer e Natalie J. Allen, *Human Resource Management Review*, 1991, acesso em 17 jul. 2026.
-- [Social Identity Theory and the Organization](https://doi.org/10.5465/amr.1989.4278999), Blake E. Ashforth e Fred Mael, *Academy of Management Review*, 1989, acesso em 17 jul. 2026.
-- [Person-Organization Fit: An Integrative Review](https://doi.org/10.1111/j.1744-6570.1996.tb01790.x), Amy L. Kristof, *Personnel Psychology*, 1996, acesso em 17 jul. 2026.
-- [Quality of Working Life: What Is It?](https://www.econbiz.de/10002991447), Richard E. Walton, *Sloan Management Review*, 1973, acesso em 17 jul. 2026.
-- [Motivation Through the Design of Work: Test of a Theory](https://doi.org/10.1016/0030-5073(76)90016-7), J. Richard Hackman e Greg R. Oldham, *Organizational Behavior and Human Performance*, 1976, acesso em 17 jul. 2026.
-- [Contratos psicológicos: uma revisão da literatura](https://www.scielo.br/j/rausp/a/HCnBg5fY5zFNXpM6wVPKW8y/), Revista de Administração da Universidade de São Paulo, acesso em 17 jul. 2026.
-- [Organização de trabalho, credora ou devedora? Estudo sobre reciprocidade organizacional](https://www.scielo.br/j/pe/a/VrcPD3kmTKFQLPTXcqwBqsF/?lang=pt), Psicologia em Estudo, acesso em 17 jul. 2026.
-- [Percepção de Suporte Organizacional: desenvolvimento e validação de um questionário](https://www.scielo.br/j/rac/a/RH4BQ8SjTm9FXy4rBxdG58R/?format=pdf), Revista de Administração Contemporânea, acesso em 17 jul. 2026.
-- [A percepção de justiça como antecedente do comprometimento organizacional](https://www.scielo.br/j/rac/a/rQPksmJfFnLbv5JPqd7NkYs/), Revista de Administração Contemporânea, acesso em 17 jul. 2026.
-- [Dimensões e indicadores da qualidade de vida e do bem-estar no trabalho](https://www.scielo.br/j/ptp/a/sQvTWxmcm68d88XjWg8yxMH/), Psicologia: Teoria e Pesquisa, acesso em 17 jul. 2026.
-- [Qualidade de vida no trabalho: dicas para práticas organizacionais efetivas](https://www.gov.br/servidor/pt-br/assuntos/laboragov/curadoria-tematica/qualidade-de-vida-no-trabalho-qvt), Portal do Servidor, atualização de 28 mar. 2024, acesso em 17 jul. 2026.

@@ -291,15 +291,3 @@ A validação técnica não resolve sozinha questões jurídicas como capacidade
 6. A situação envolve assinatura ou apenas autenticação/digitalização?
 7. Se houver certificado, a cadeia e a integridade foram verificadas?
 8. Há regra de transição da ICP-Brasil relevante ao caso?
-
-## Referências
-
-- BRASIL. [Medida Provisória nº 2.200-2, de 24 de agosto de 2001](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm). ICP-Brasil e documentos eletrônicos. Acesso em 10 ago. 2026.
-- BRASIL. [Lei nº 14.063, de 23 de setembro de 2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm). Assinaturas eletrônicas em interações com entes públicos. Acesso em 10 ago. 2026.
-- BRASIL. [Decreto nº 10.543, de 13 de novembro de 2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm). Níveis mínimos na administração pública federal. Acesso em 10 ago. 2026.
-- BRASIL. [Decreto nº 8.539, de 8 de outubro de 2015](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/decreto/d8539.htm). Processo administrativo eletrônico federal. Acesso em 10 ago. 2026.
-- BRASIL. [Lei nº 14.129, de 29 de março de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm). Governo Digital. Acesso em 10 ago. 2026.
-- INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO. [Resoluções do Comitê Gestor da ICP-Brasil](https://www.gov.br/iti/pt-br/assuntos/legislacao/resolucoes). Resolução nº 211/2024 em vigor. Acesso em 10 ago. 2026.
-- INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO. [Perguntas frequentes do Comitê Gestor da ICP-Brasil](https://www.gov.br/iti/pt-br/assuntos/comite-gestor/perguntas-frequentes-cg-icp-brasil). Transição dos certificados e Selo Eletrônico. Acesso em 10 ago. 2026.
-- INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO. [Certificação Digital](https://www.gov.br/iti/pt-br/acesso-a-informacao/perguntas-frequentes/certificacao-digital). Conceitos e transição da ICP-Brasil. Acesso em 10 ago. 2026.
-- INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO. [VALIDAR — Serviço de Validação de Assinaturas Eletrônicas](https://www.gov.br/pt-br/servicos/validar-servico-de-validacao-de-assinaturas-eletronicas). Acesso em 10 ago. 2026.

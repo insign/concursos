@@ -531,17 +531,3 @@ Este assunto apresenta conceitos e o ciclo completo em nível introdutório. O a
 - Assunto 123: análise do valor e alienação.
 
 Os conceitos essenciais aparecem aqui para tornar o ciclo compreensível, sem substituir o estudo técnico desses assuntos.
-
-## Referências
-
-- [NBC TSP 04 (R1) — Estoques](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, quadro normativo vigente; publicada no DOU em 17 mar. 2026.
-- [NBC TSP 08 (R1) — Ativo Intangível](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, quadro normativo vigente; publicada no DOU em 17 mar. 2026.
-- [NBC TSP 37 — Ativo Imobilizado](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 mar. 2026.
-- [NBC TSP 38 — Mensuração](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 abr. 2026.
-- [Lei nº 4.320/1964 — normas gerais de direito financeiro](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm) — Presidência da República, texto compilado, especialmente arts. 15, § 2º, 83, 85, 89 e 94 a 96; acesso em 15 jul. 2026.
-- [Código Civil — Lei nº 10.406/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) — Presidência da República, texto compilado, especialmente arts. 79 a 91 e 98 a 103; acesso em 15 jul. 2026.
-- [Manual de Contabilidade Aplicada ao Setor Público, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1) — Secretaria do Tesouro Nacional, edição vigente divulgada em 2025; acesso em 15 jul. 2026.
-- [NBC TSP Estrutura Conceitual (R1)](https://www2.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2025%2FNBCTSPEC%28R1%29&arquivo=NBCTSP_Estrutura%28R1%29.docx) — Conselho Federal de Contabilidade, publicada no DOU em 7 abr. 2026, com aplicação prevista para exercícios iniciados em 1º jan. 2027; acesso em 15 jul. 2026.
-- [IN SEDAP nº 205/1988](https://www.gov.br/patrimonio/pt-br/central-de-conteudo/legislacao/instrucoes-normativas/instrucao-normativa-no-205-de-08-de-abril-de-1988) — Administração Pública Federal, referência operacional do SISG para aquisição, recebimento, armazenagem, distribuição, controle, inventário e conservação; acesso em 15 jul. 2026.
-- [IN DNIT nº 5/2022](https://www.gov.br/dnit/pt-br/central-de-conteudos/atos-normativos/tipo/instrucao-normativa/2022/instrucao-normativa-no-5-2022) — Departamento Nacional de Infraestrutura de Transportes, referência operacional interna sobre material de consumo e permanente e gestão patrimonial; acesso em 15 jul. 2026.
-- [Portaria STN nº 841/2021](https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=18%2F05%2F2021&jornal=515&pagina=61) — Secretaria do Tesouro Nacional, art. 2º, XLVIII, revogação expressa da Portaria STN nº 448/2002 com efeitos em 1º jun. 2021; acesso em 15 jul. 2026.

@@ -622,27 +622,3 @@ O foco é patrimônio **imobiliário**, cadastro e registro, sistemas federais d
 - Assunto 123: análise do valor e alienação em aprofundamento.
 
 Aquisição, responsabilidade, movimentação e alienação aparecem somente quando necessárias para explicar o ciclo do imóvel.
-
-## Referências
-
-- [NBC TSP 06 (R1) — Propriedade para Investimento](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, norma atual sobre imóveis mantidos para aluguel ou valorização; acesso em 19 jul. 2026.
-- [NBC TSP 35 — Arrendamentos](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 abr. 2026; acesso em 19 jul. 2026.
-- [NBC TSP 37 — Ativo Imobilizado](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 mar. 2026; acesso em 19 jul. 2026.
-- [NBC TSP 38 — Mensuração](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) — Conselho Federal de Contabilidade, publicada no DOU em 17 abr. 2026; acesso em 19 jul. 2026.
-- [Decreto nº 99.672/1990 — Cadastro Nacional de Bens Imóveis da União](https://memoria-spu.gestao.gov.br/normas-e-documentos/decreto-no-99-672-de-6-de-novembro-de-1990/) — referência histórica para o RIP e o cadastro federal; acesso em 19 jul. 2026.
-- [O que é o SPUnet](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/transformacao-digital/o-que-e-o-spunet-1) — SPU, implantação progressiva e estado dos módulos; acesso em 19 jul. 2026.
-- [Perguntas frequentes do SPUnet](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/transformacao-digital/perguntas-frequentes-spunet) — SPU, acesso, cadastro, avaliação e perfis; acesso em 19 jul. 2026.
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — Presidência da República, texto compilado, especialmente art. 20; acesso em 15 jul. 2026.
-- [Código Civil — Lei nº 10.406/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) — Presidência da República, texto compilado, especialmente arts. 79 a 81 e 98 a 103; acesso em 15 jul. 2026.
-- [Lei de Registros Públicos — Lei nº 6.015/1973](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm) — Presidência da República, texto compilado, disciplina registros e averbações imobiliárias; acesso em 15 jul. 2026.
-- [Lei nº 4.320/1964 — normas gerais de direito financeiro](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm) — Presidência da República, texto compilado, especialmente arts. 12, 95 e 96; acesso em 15 jul. 2026.
-- [Decreto-Lei nº 9.760/1946](https://www.planalto.gov.br/ccivil_03/decreto-lei/del9760compilado.htm) — Presidência da República, texto compilado sobre bens imóveis da União; acesso em 15 jul. 2026.
-- [Lei nº 9.636/1998](https://www.planalto.gov.br/ccivil_03/leis/l9636compilado.htm) — Presidência da República, texto compilado, especialmente arts. 1º a 3º-A e 11, sobre identificação, cadastro, registro, fiscalização e sistema de informações dos imóveis da União; acesso em 15 jul. 2026.
-- [Regimento Interno da Secretaria do Patrimônio da União](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/regimento-interno-spu) — Ministério da Gestão e da Inovação em Serviços Públicos, competências federais da SPU; acesso em 15 jul. 2026.
-- [Glossário do Patrimônio da União](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/glossario/glossario-patrimonio-da-uniao-1) — SPU, definições de RIP e SPIUnet; acesso em 15 jul. 2026.
-- [SPIUnet — cadastro de imóveis de uso especial](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/transformacao-digital/spiunet) — SPU, página histórica atualizada em 6 fev. 2026, escopo, RIP, utilizações e relação com o SIAFI; acesso em 15 jul. 2026.
-- [Desligamento do SPIUnet e do SISREI](https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/transformacao-digital/desligamento-spiunet) — SPU, atualização de 11 jun. 2026, desativação para operação e migração de fluxos ao SPUnet; acesso em 15 jul. 2026.
-- [Manual de Contabilidade Aplicada ao Setor Público, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1) — Secretaria do Tesouro Nacional, edição vigente divulgada em 2025; acesso em 15 jul. 2026.
-- [Portaria Conjunta STN/SPU nº 10/2023](https://www.in.gov.br/en/web/dou/-/portaria-conjunta-stn/spu-n-10-de-4-de-julho-de-2023-494555978) — STN e SPU, regras federais de mensuração, atualização, reavaliação e depreciação de imóveis; acesso em 15 jul. 2026.
-- [Gestão do patrimônio imobiliário da União na Lista de Alto Risco](https://sites.tcu.gov.br/listadealtorisco/gestao_do_patrimonio_imobiliario_da_uniao.html) — Tribunal de Contas da União, edição de 2024, riscos de governança, dados, ocupação, sistemas e manutenção; acesso em 15 jul. 2026.
-- [Manual de Obras Públicas — Práticas da SEAP: Manutenção](https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-obras-publicas-edificacoes-praticas-da-seap-manuais/manual_obraspublicas_manutencao.pdf) — Governo Federal, referência técnica para planejamento, inspeção, execução e fiscalização da manutenção predial; acesso em 15 jul. 2026.

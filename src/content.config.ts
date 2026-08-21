@@ -6,6 +6,7 @@ import {
   groupSchema,
   megaReviewSchema,
   questionSetSchema,
+  referenceSchema,
   resolutionSchema,
   subjectSchema,
 } from './lib/content-schema';
@@ -13,6 +14,7 @@ import {
   contestIdFromEntry,
   groupIdFromEntry,
   megaReviewIdFromEntry,
+  referenceIdFromEntry,
   resolutionIdFromEntry,
   subjectIdFromEntry,
 } from './lib/content-paths';
@@ -74,10 +76,20 @@ const questoes = defineCollection({
 const resolucoes = defineCollection({
   loader: glob({
     base: './src/content/assuntos',
-    pattern: '**/resolucoes/*.md',
+    // O companion agregado pertence à collection de referências.
+    pattern: ['**/resolucoes/*.md', '!**/resolucoes/referencias.md'],
     generateId: ({ entry }) => resolutionIdFromEntry(entry),
   }),
   schema: resolutionSchema,
 });
 
-export const collections = { concursos, grupos, megaRevisoes, conteudos, cheatSheets, questoes, resolucoes };
+const referencias = defineCollection({
+  loader: glob({
+    base: './src/content/assuntos',
+    pattern: '**/referencias.md',
+    generateId: ({ entry }) => referenceIdFromEntry(entry),
+  }),
+  schema: referenceSchema,
+});
+
+export const collections = { concursos, grupos, megaRevisoes, conteudos, cheatSheets, questoes, resolucoes, referencias };

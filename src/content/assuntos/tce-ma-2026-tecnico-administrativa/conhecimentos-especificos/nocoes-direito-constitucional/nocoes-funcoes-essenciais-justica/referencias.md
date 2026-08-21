@@ -1,0 +1,2 @@
+- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26) — Edital nº 1, de 6/7/2026, consolidado com a retificação de 29/7/2026; corte de prova em 6/7/2026.
+- [Constituição da República Federativa do Brasil — texto compilado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 127 a 135.

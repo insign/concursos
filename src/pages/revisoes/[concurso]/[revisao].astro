@@ -1,6 +1,7 @@
 ---
 import { render, type CollectionEntry } from 'astro:content';
 import AbbreviationRuntime from '../../../components/AbbreviationRuntime.astro';
+import DocumentReferences from '../../../components/DocumentReferences.astro';
 import MermaidRuntime from '../../../components/MermaidRuntime.astro';
 import PrintButton from '../../../components/PrintButton.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -53,10 +54,17 @@ const { contest, group, groupPath, review } = Astro.props;
 const { Content, remarkPluginFrontmatter } = await render(review);
 const body = review.body ?? '';
 const reviewTitle = review.data.title ?? `Mega revisão: ${group.title}`;
-const hasAbbreviation = remarkPluginFrontmatter.hasTitledAbbreviation === true;
-const hasMermaid = hasMermaidCodeFence(body);
 const contentHasH1 = hasMarkdownH1(body);
 const scope = collectMegaReviewScope(group);
+
+const referencesEntry = group.megaReviewReferencesEntry;
+const referencesRendered = referencesEntry ? await render(referencesEntry) : null;
+const ReferencesContent = referencesRendered?.Content ?? null;
+const referencesBody = referencesEntry?.body ?? '';
+const hasAbbreviation =
+  remarkPluginFrontmatter.hasTitledAbbreviation === true ||
+  referencesRendered?.remarkPluginFrontmatter.hasTitledAbbreviation === true;
+const hasMermaid = hasMermaidCodeFence(body) || hasMermaidCodeFence(referencesBody);
 ---
 
 <BaseLayout
@@ -124,6 +132,12 @@ const scope = collectMegaReviewScope(group);
             <p>Esta revisão ainda não possui assuntos descendentes publicados.</p>
           )}
         </section>
+
+        {referencesRendered && ReferencesContent && (
+          <DocumentReferences>
+            <ReferencesContent />
+          </DocumentReferences>
+        )}
       </article>
     </div>
   </main>

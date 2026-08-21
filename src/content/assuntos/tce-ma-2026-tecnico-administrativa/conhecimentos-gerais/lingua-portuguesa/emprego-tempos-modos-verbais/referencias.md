@@ -1,0 +1,9 @@
+- BECHARA, Evanildo. *Moderna gramática portuguesa*. Rio de Janeiro: Nova Fronteira.
+- CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*. Rio de Janeiro: Lexikon.
+- CASTILHO, Ataliba T. de. *Nova gramática do português brasileiro*. São Paulo: Contexto.
+- NEVES, Maria Helena de Moura. *Gramática de usos do português*. São Paulo: UNESP.
+- BERTUCCI, Roberlei Alves. Valores temporais e modais em construções verbais do português. Referência descritiva usada para distinguir forma e emprego.
+- CEBRASPE. [Concurso IPHAN 2018: provas e gabaritos](https://cdn.cebraspe.org.br/concursos/IPHAN_18/). Acesso em: 18 jul. 2026.
+- MAPA DA PROVA. [Questões Cebraspe de verbos: tempos e modos](https://www.mapadaprova.com.br/questoes/cespe-cebraspe/verbos-tempos-e-modos/todas-nivel-medio). Acesso em: 18 jul. 2026.
+- QCONCURSOS. [Questão CNPq sobre indicativo e subjuntivo](https://www.qconcursos.com/questoes-de-concursos/questoes/e22feac3-67). Acesso em: 18 jul. 2026.
+- QCONCURSOS. [Questão PC/DF sobre `iam ocorrer`, `ocorriam` e `ocorreriam`](https://www.qconcursos.com/questoes-de-concursos/questoes/98b164b2-07). Acesso em: 18 jul. 2026.

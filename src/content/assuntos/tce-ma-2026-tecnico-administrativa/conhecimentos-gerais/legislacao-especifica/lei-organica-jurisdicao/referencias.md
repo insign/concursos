@@ -1,0 +1,4 @@
+- Tribunal de Contas do Estado do Maranhão. [Competências do TCE/MA](https://www.tcema.tc.br/transparencia_novo/index.php/institucional/competencias). Rol oficial com remissões à Lei Estadual nº 8.258/2005. Acesso em 12 ago. 2026.
+- Assembleia Legislativa do Estado do Maranhão. [Pesquisa de normas jurídicas — SAPL](https://sapl.al.ma.leg.br/). Lei Estadual nº 8.258/2005 e alterações. Consulta em 12 ago. 2026.
+- Supremo Tribunal Federal. [Constituição e jurisprudência — art. 71](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=71&abrirBase=CF). Inclui a tese da ADPF 982. Acesso em 12 ago. 2026.
+- Supremo Tribunal Federal. [Tribunais de contas podem julgar prefeitos que ordenam despesas](https://noticias.stf.jus.br/postsnoticias/tribunais-de-contas-podem-julgar-prefeitos-que-ordenam-despesas-decide-stf/). Notícia institucional de 7 mar. 2025 sobre a ADPF 982.

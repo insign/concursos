@@ -1,0 +1,11 @@
+> As datas de consulta abaixo são posteriores ao edital e servem apenas à conferência editorial. O corte normativo da prova permanece **6 de julho de 2026**.
+
+- BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Arts. 147 a 194 e remissões aos arts. 54 e 94. Versão vigente consultada em 16 jul. 2026.
+- BRASIL. Presidência da República. [Lei Complementar nº 198, de 28 de junho de 2023](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp198.htm). Redação definitiva do art. 193, II, consultada em 16 jul. 2026.
+- BRASIL. Presidência da República. [Lei nº 14.770, de 22 de dezembro de 2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14770.htm). Alterações dos arts. 184 e 184-A, consultadas em 16 jul. 2026.
+- BRASIL. Presidência da República. [Lei nº 15.266, de 21 de novembro de 2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15266.htm). Alterações sobre Sicx, PNCP e sistemas integrados, consultadas em 16 jul. 2026.
+- BRASIL. Presidência da República. [Decreto nº 12.807, de 29 de dezembro de 2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12807.htm). Valores vigentes desde 1º jan. 2026, consultados em 16 jul. 2026.
+- BRASIL. Câmara dos Deputados. [Medida Provisória nº 1.167, de 31 de março de 2023](https://www2.camara.leg.br/legin/fed/medpro/2023/medidaprovisoria-1167-31-marco-2023-793984-norma-pe.html). Situação de vigência encerrada consultada em 16 jul. 2026.
+- BRASIL. Portal Nacional de Contratações Públicas. [Portal institucional do PNCP](https://www.gov.br/pncp/pt-br). Funções e serviços oficiais consultados em 16 jul. 2026.
+- BRASIL. Tribunal de Contas da União. [Licitações e Contratos: 6.1.8 Infrações e sanções administrativas](https://licitacoesecontratos.tcu.gov.br/6-1-8-infracoes-e-sancoes-administrativas-contratado/). Orientação federal consultada em 16 jul. 2026.
+- BRASIL. Tribunal de Contas da União. [Licitações e Contratos: 6.1.9 Meios alternativos de resolução de controvérsias](https://licitacoesecontratos.tcu.gov.br/6-1-9-meios-alternativos-de-resolucao-de-controversias/). Orientação federal consultada em 16 jul. 2026.

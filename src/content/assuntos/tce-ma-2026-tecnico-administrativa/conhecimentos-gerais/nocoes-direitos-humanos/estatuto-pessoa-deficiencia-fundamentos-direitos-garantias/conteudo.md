@@ -706,19 +706,3 @@ Ficam no Assunto 100 as normas gerais das Leis nº 10.048/2000 e nº 10.098/2000
 8. Em tomada apoiada, procure pedido próprio, dois apoiadores, termo, juiz, equipe e Ministério Público.
 9. Em conflito entre normas protetivas, aplique a regra da norma mais benéfica à pessoa com deficiência.
 10. Não use regra operacional do Assunto 099 para negar um direito do Assunto 098.
-
-## 26. Referências
-
-- **Edital nº 1 — TCE/MA, de 6 de julho de 2026** — Cebraspe e Tribunal de Contas do Estado do Maranhão, [edital oficial](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), acesso em 4 ago. 2026.
-- **Lei nº 13.146, de 6 de julho de 2015** — Presidência da República, texto consolidado vigente no corte, [Lei Brasileira de Inclusão](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm), acesso em 4 ago. 2026.
-- **Lei nº 13.146/2015 — norma atualizada** — Câmara dos Deputados, [PDF atualizado da LBI](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.pdf), acesso em 4 ago. 2026.
-- **Decreto nº 6.949, de 25 de agosto de 2009** — Presidência da República, promulgação da Convenção e do Protocolo Facultativo, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm), acesso em 4 ago. 2026.
-- **Lei nº 14.510, de 27 de dezembro de 2022** — Presidência da República, alteração de prevenção neonatal na LBI, [texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14510.htm), acesso em 4 ago. 2026.
-- **Lei nº 14.724, de 14 de novembro de 2023** — Presidência da República, exame médico-pericial por telemedicina ou análise documental, [texto oficial](https://planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14724.htm), acesso em 4 ago. 2026.
-- **Lei nº 15.249, de 3 de novembro de 2025** — Presidência da República, comunicação aumentativa e necessidades complexas de comunicação, [texto oficial e retificação](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15249.htm), acesso em 4 ago. 2026.
-- **Lei nº 15.280, de 5 de dezembro de 2025** — Presidência da República, assistência psicológica após vitimização sexual, [texto oficial](https://planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15280.htm), acesso em 4 ago. 2026.
-- **ADI 5.357/DF** — Supremo Tribunal Federal, julgamento em 9 de junho de 2016, [notícia oficial sobre educação inclusiva](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=318570&ori=1), acesso em 4 ago. 2026.
-- **REsp 1.927.423/SP** — Superior Tribunal de Justiça, julgamento em 27 de abril de 2021, [Informativo 694](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D018130), acesso em 4 ago. 2026.
-- **REsp 1.795.395/MT** — Superior Tribunal de Justiça, DJe de 6 de maio de 2021, [inteiro teor](https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=06%2F05%2F2021&num_registro=201900297470), acesso em 4 ago. 2026.
-- **Cadernos 385_STJCB1 e 385_STJCB4** — Cebraspe, Superior Tribunal de Justiça, aplicação em 8 de abril de 2018, [página oficial de provas e gabaritos](https://cdn.cebraspe.org.br/concursos/STJ_18/), acesso em 4 ago. 2026.
-- **Caderno 283_TREPE_CG1_01** — Cebraspe, Tribunal Regional Eleitoral de Pernambuco, aplicação em 19 de março de 2017, [prova oficial](https://cdn.cebraspe.org.br/concursos/TRE_PE_16/arquivos/283_TREPE_CG1_01.pdf) e [gabarito definitivo](https://www.cespe.unb.br/concursos/TRE_PE_16/arquivos/Gab_Definitivo_283_TREPE_CG1_01.pdf), acesso em 4 ago. 2026.

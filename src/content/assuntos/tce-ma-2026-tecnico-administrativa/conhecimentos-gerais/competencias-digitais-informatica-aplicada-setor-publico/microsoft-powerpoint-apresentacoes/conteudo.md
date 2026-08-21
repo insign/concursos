@@ -740,19 +740,3 @@ O gráfico é vinculado, mas o XLSX foi movido.
 8. **Confira dependências:** fonte, mídia, link, arquivo Excel, codec, permissão e monitor.
 9. **Observe o formato:** PPTX, PPSX, PPTM, PDF, vídeo ou imagem.
 10. **Rejeite absolutos:** “sempre preserva”, “qualquer versão”, “cria vínculo” e “funciona igual na Web”.
-
-## Referências
-
-- CEBRASPE. [Edital nº 1 do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático de Competências Digitais e Informática Aplicada ao Setor Público, item 2.2. Publicado em 6 jul. 2026; acesso em 27 jul. 2026.
-- MICROSOFT. [Tarefas básicas para criar uma apresentação do PowerPoint](https://support.microsoft.com/pt-br/office/tarefas-b%C3%A1sicas-para-criar-uma-apresenta%C3%A7%C3%A3o-do-powerpoint-efbbc1cd-c5f1-4264-b48e-c8a7b0334e36). Interface, slides, conteúdo e apresentação; acesso em 27 jul. 2026.
-- MICROSOFT. [Reutilizar slides de outra apresentação](https://support.microsoft.com/pt-br/office/reutilizar-importar-slides-de-outra-apresenta%C3%A7%C3%A3o-c67671cd-386b-45dd-a1b4-1e656458bb86). Tema do destino, formatação de origem e cópia; acesso em 27 jul. 2026.
-- MICROSOFT. [Alterar o plano de fundo dos slides](https://support.microsoft.com/pt-br/office/alterar-o-plano-de-fundo-dos-slides-3ac2075c-f51b-4fbd-b356-b4c6748ec966). Preenchimentos e Aplicar a Todos; acesso em 27 jul. 2026.
-- MICROSOFT. [O que é um slide mestre?](https://support.microsoft.com/pt-br/office/o-que-%C3%A9-um-slide-mestre-b9abb2a0-7aef-4257-a14e-4329c904da54). Mestres, layouts e herança; acesso em 27 jul. 2026.
-- MICROSOFT. [Aplicar vários efeitos de animação a um objeto](https://support.microsoft.com/pt-br/office/aplicar-v%C3%A1rios-efeitos-de-anima%C3%A7%C3%A3o-a-um-objeto-9bb7b925-ab0f-47d4-bc11-85d939194bed). Adicionar Animação e Painel; acesso em 27 jul. 2026.
-- MICROSOFT. [Duplicar animações com o Pincel de Animação](https://support.microsoft.com/pt-br/office/duplicar-anima%C3%A7%C3%B5es-com-o-pincel-de-anima%C3%A7%C3%A3o-f2249d72-58b0-4cb3-81e0-3a1d1d7d9ab5). Cópia de efeitos; acesso em 27 jul. 2026.
-- MICROSOFT. [Criar uma apresentação autoexecutável](https://support.microsoft.com/pt-br/office/criar-uma-apresenta%C3%A7%C3%A3o-autoexecut%C3%A1vel-57fc41ae-f36a-4fb5-9400-52d5bc466037). Configuração, quiosque e repetição; acesso em 27 jul. 2026.
-- MICROSOFT. [Usar Zoom no PowerPoint](https://support.microsoft.com/pt-br/office/usar-o-zoom-no-powerpoint-para-dar-vida-%C3%A0-sua-apresenta%C3%A7%C3%A3o-9d6c58cd-2125-4d29-86b1-0097c7dc47d7). Zoom de Resumo, Slide e Seção; acesso em 27 jul. 2026.
-- MICROSOFT. [Inserir e atualizar dados do Excel no PowerPoint](https://support.microsoft.com/pt-br/office/inserir-e-atualizar-dados-do-excel-no-powerpoint-0690708a-5ce6-41b4-923f-11d57554138d). Vínculo, incorporação e atualização; acesso em 27 jul. 2026.
-- MICROSOFT. [Tornar apresentações acessíveis](https://support.microsoft.com/pt-br/office/tornar-suas-apresenta%C3%A7%C3%B5es-do-powerpoint-acess%C3%ADveis-para-pessoas-com-defici%C3%AAncia-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25). Títulos, ordem, texto alternativo, contraste e mídia; acesso em 27 jul. 2026.
-- FGV. [Prova COMPESA — Assistente de Saneamento e Gestão, Técnico em Segurança do Trabalho, Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/compesa2016/201605_Assistente_de_Saneamento_e_Gestao_%28Tecnico_em_Seguranca_do_Trabalho%29_%28NM002%29_Tipo_1.pdf). Questão 21 sobre PPT e PPS; aplicada em 17 jul. 2016; acesso em 27 jul. 2026.
-- FGV. [Gabarito definitivo retificado — COMPESA 2016](https://conhecimento.fgv.br/sites/default/files/concursos/compesa2016/compesa_gabarito_definitivo_RETIFICADO.pdf). Gabarito da questão 21; acesso em 27 jul. 2026.

@@ -106,6 +106,12 @@ export function resolutionIdFromEntry(entry: string): string {
     throw new Error(`Arquivo de resolução deve terminar em "<assunto>/resolucoes/<questão>.md": "${entry}"`);
   }
 
+  if (match[2] === 'referencias') {
+    throw new Error(
+      `"${entry}" pertence à collection de referências e não pode ser tratado como resolução de questão`,
+    );
+  }
+
   parseSubjectId(match[1]!);
   if (!STABLE_ID.test(match[2]!)) {
     throw new Error(`ID de questão de resolução inválido: "${match[2]}"`);
@@ -127,4 +133,42 @@ export function parseResolutionId(id: string): { subjectId: string; questionId: 
     throw new Error(`ID de questão de resolução inválido: "${questionId}"`);
   }
   return { subjectId, questionId };
+}
+
+export type ReferenceKind = 'subject' | 'mega-review' | 'resolutions';
+
+export interface ParsedReferenceId {
+  kind: ReferenceKind;
+  subjectId?: string;
+  groupId?: string;
+}
+
+export function referenceIdFromEntry(entry: string): string {
+  const normalized = normalizeEntry(entry);
+  const suffix = '/referencias.md';
+
+  if (!normalized.endsWith(suffix)) {
+    throw new Error(`Arquivo de referências deve terminar em "${suffix}": "${entry}"`);
+  }
+
+  const id = normalized.slice(0, -suffix.length);
+  parseReferenceId(id);
+  return id;
+}
+
+export function parseReferenceId(id: string): ParsedReferenceId {
+  if (id.endsWith('/mega-revisao')) {
+    const groupId = id.slice(0, -'/mega-revisao'.length);
+    parseGroupId(groupId);
+    return { kind: 'mega-review', groupId };
+  }
+
+  if (id.endsWith('/resolucoes')) {
+    const subjectId = id.slice(0, -'/resolucoes'.length);
+    parseSubjectId(subjectId);
+    return { kind: 'resolutions', subjectId };
+  }
+
+  parseSubjectId(id);
+  return { kind: 'subject', subjectId: id };
 }

@@ -1,0 +1,7 @@
+- Universidade Federal Fluminense — Impressões Rebeldes. [Revolta de Beckman](https://www.historia.uff.br/impressoesrebeldes/revolta/revolta-de-beckman/).
+- Universidade Federal Fluminense — Impressões Rebeldes. [Decreto de expulsão dos jesuítas do Maranhão](https://www.historia.uff.br/impressoesrebeldes/documento/decreto-de-expulsao-dos-jesuitas-do-maranhao/).
+- *Revista Brasileira de História* / SciELO. [Estudo sobre tráfico atlântico, companhia de comércio e trabalho no Maranhão](https://www.scielo.br/j/rbh/a/hT5MH7wqWvyKthr5CnTGdQS/?format=html).
+- Universidade Estadual do Maranhão. [Prova PAES 2020](https://www.paes.uema.br/wp-content/uploads/2019/10/PROVA-PAES-2020.pdf) e [gabarito definitivo](https://www.paes.uema.br/wp-content/uploads/2019/10/GAB_DEFINITIVO-PAES-2020-1%C2%AA-ETAPA.pdf).
+- Universidade Estadual do Maranhão. [Prova EAD UEMA 2025](https://www.uema.br/wp-content/uploads/2025/02/PROVA-UEMANET-2025-edital-108_2024_GR-UEMA.pdf) e [gabarito definitivo](https://www.uema.br/wp-content/uploads/2025/02/GAB_DEFINITIVO-UEMANET-2025-EDITAL-108_2024-GR_UEMA-24_02_25.pdf).
+- Cebraspe. [Prefeitura de São Luís/MA — Professor PNS-A História — 2017](https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/287_PREFSAOLUIS_008_01.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/PREF_SAOLUIS_16/arquivos/Gab_Definitivo_287_PREFSAOLUIS_008_01.pdf).
+- Cebraspe. [Edital nº 1 — TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf).

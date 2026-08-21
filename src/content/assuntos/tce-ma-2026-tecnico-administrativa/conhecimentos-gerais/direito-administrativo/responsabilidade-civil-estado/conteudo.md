@@ -356,13 +356,3 @@ Se ambos contribuíram, pense em **atenuação**, não exclusão total.
 10. **“Fuga de preso torna o Estado responsável por qualquer crime posterior.”** Errado: Tema 362 exige nexo causal direto.
 11. **“Morte de detento é irrelevante para o dever estatal de proteção.”** Errado: Tema 592.
 12. **“Pessoa privada nunca responde pelo art. 37, § 6º.”** Errado: prestadoras de serviço público estão expressamente incluídas.
-
-## 15. Fontes oficiais essenciais
-
-- [Cebraspe — TCE/MA 2026](https://www.cebraspe.org.br/concursos/tce_ma_26)
-- [Constituição Federal — arts. 5º, XLIX, e 37, § 6º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm)
-- [Código Civil — arts. 43, 944 e 945](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm)
-- [STF — Tema 592: responsabilidade por morte de detento](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=592)
-- [STF — Tema 362: crime praticado por preso foragido](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=362)
-- [STF — Tema 940: ação contra a pessoa jurídica e regresso](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5136782&numeroProcesso=1027633&numeroTema=940)
-- [STJ — Informativo 733: omissão estatal, falha do serviço e nexo causal](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D018973)

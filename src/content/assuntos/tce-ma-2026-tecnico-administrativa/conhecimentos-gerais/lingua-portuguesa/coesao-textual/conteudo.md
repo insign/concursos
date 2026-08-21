@@ -492,15 +492,3 @@ Este assunto trata da articulação textual. Outros recortes do edital aprofunda
 - relações sintáticas entre orações serão retomadas em tópicos específicos.
 
 Aqui, esses elementos importam quando ajudam a reconhecer referência, substituição, repetição, conectores e sequenciação.
-
-## Referências
-
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS (CEBRASPE). **Edital nº 1 — TCE/MA, de 6 de julho de 2026**. Programa de Língua Portuguesa do Cargo 16. Disponível no [edital do TCE/MA no Cebraspe (PDF)](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Acesso em: 16 ago. 2026.
-- KOCH, Ingedore Grünfeld Villaça. **A coesão textual**. 22. ed. São Paulo: Contexto, 2010. ISBN 9788585134464. Dados bibliográficos disponíveis no [acervo da Biblioteca Virtual](https://www.bvirtual.com.br/NossoAcervo/Publicacao/coesao-textual-1549). Acesso em: 17 jul. 2026.
-- KOCH, Ingedore Grünfeld Villaça; TRAVAGLIA, Luiz Carlos. **A coerência textual**. 18. ed. São Paulo: Contexto, 2010. Dados bibliográficos disponíveis no [acervo da Biblioteca Virtual](https://www.bvirtual.com.br/NossoAcervo/Publicacao/1552). Acesso em: 17 jul. 2026.
-- MARCUSCHI, Luiz Antônio. **Referenciação e progressão tópica: aspectos cognitivos e textuais**. *Cadernos de Estudos Linguísticos*, v. 48, n. 1, p. 7–22, 2006. Disponível na [página do artigo na Unicamp](https://periodicos.sbu.unicamp.br/ojs/index.php/cel/article/view/8637251). Acesso em: 17 jul. 2026.
-- MARCUSCHI, Luiz Antônio. **Anáfora indireta: o barco textual e suas âncoras**. *Revista Letras*, v. 56, 2001. DOI 10.5380/rel.v56i0.18415. Disponível na [página do artigo na UFPR](https://revistas.ufpr.br/letras/article/view/18415). Acesso em: 17 jul. 2026.
-- CAVALCANTE, Mônica Magalhães. **Teoria e análise linguística: anáforas indiretas e relações lexicais**. *Revista do GELNE*, v. 4, n. 1, 2002. Disponível no [repositório institucional da UFC](https://repositorio.ufc.br/handle/riufc/41313). Acesso em: 17 jul. 2026.
-- FIGUEIRA, Aura. **O pois conclusivo**. Ciberdúvidas da Língua Portuguesa, 10 maio 2018. Disponível na [resposta sobre o emprego conclusivo de pois](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/pois-conclusivo/34741). Acesso em: 17 jul. 2026.
-- CEBRASPE. **CNMP 2023: justificativas de alteração do gabarito**. Item 70. Disponível no [documento oficial de justificativas](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/CNMP_23_JUSTIFICATIVAS_DE_ALTERAES_DE_GABARITO.PDF). Acesso em: 17 jul. 2026.
-- CEBRASPE. **SEFAZ/SE 2025: justificativas de alteração do gabarito**. Questão 3. Disponível no [documento oficial de justificativas](https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/E9BE3280DB6EB7C2C6F71FF3AF947E55763D75C9F89EAE471A29DABA88116249.pdf). Acesso em: 17 jul. 2026.

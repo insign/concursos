@@ -1,0 +1,4 @@
+- [Portal da Transparência do TCE/MA](https://www.tcema.tc.br/transparencia_novo/), Tribunal de Contas do Estado do Maranhão.
+- [Pesquisa de atos normativos / legislação do TCE/MA](https://publicacao.apps.tcema.tc.br/), Tribunal de Contas do Estado do Maranhão.
+- [Resolução TCE/MA nº 424/2025 — Diário Oficial Eletrônico](https://app.tcema.tc.br/diario/publicacao/pdf/9289), publicada em 26 jun. 2025.
+- Regimento Interno do TCE/MA, aprovado pela Resolução Administrativa nº 001/2000, com alterações vigentes até 6 jul. 2026, consultado pelo serviço oficial de atos normativos do Tribunal.

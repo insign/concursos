@@ -13,6 +13,7 @@
 │   ├── finalize-security.mjs         # Validates and finalizes generated CSP metadata
 │   ├── generate-offline-inventories.mjs # Discovers published package assets and hashes
 │   ├── build-service-worker.mjs      # Bundles and injects the Workbox precache manifest
+│   ├── migrate-references.mjs        # One-off references migration script (provenance)
 │   └── generate-icons.mjs            # Generates PWA and favicon assets
 ├── public/
 │   ├── _headers                       # Pages security and cache headers
@@ -20,17 +21,19 @@
 │   ├── robots.txt                     # Crawler policy
 │   └── icons/                         # PWA, Apple touch and theme icons
 ├── src/
-│   ├── content.config.ts              # Seven Astro Content Collections and loaders
+│   ├── content.config.ts              # Eight Astro Content Collections and loaders
 │   ├── content/
 │   │   ├── concursos/*.json           # Contest metadata
 │   │   └── assuntos/<concurso>/
 │   │       ├── <grupo>[/<subgrupo>]/grupo.json # Required group descriptors
 │   │       ├── <grupo>[/<subgrupo>]/mega-revisao/index.md # Optional group mega review
+│   │       ├── <grupo>[/<subgrupo>]/mega-revisao/referencias.md # Required when the mega review exists
 │   │       └── <grupo>[/<subgrupo>]/<assunto>/
 │   │           ├── conteudo.md         # Complete subject content
 │   │           ├── cheat-sheet.md      # Printable quick reference
 │   │           ├── questoes.json       # Editorial question set
-│   │           └── resolucoes/*.md     # Optional question resolutions
+│   │           ├── referencias.md      # Required subject references
+│   │           └── resolucoes/*.md     # Optional question resolutions plus aggregated referencias.md
 │   ├── pages/                         # Static UI pages and JSON endpoints
 │   ├── components/                    # Astro UI components and browser runtimes
 │   ├── layouts/                       # BaseLayout and StudyLayout composition
@@ -69,7 +72,7 @@
 
 ### Collections
 
-`src/content.config.ts` declares the following seven strict collections:
+`src/content.config.ts` declares the following eight strict collections:
 
 - `concursos`: `src/content/concursos/**/*.json`, IDs from `contestIdFromEntry`, validated by `contestSchema`.
 - `grupos`: `src/content/assuntos/**/grupo.json`, IDs from `groupIdFromEntry`, validated by `groupSchema`.
@@ -77,7 +80,8 @@
 - `conteudos`: `src/content/assuntos/**/conteudo.md`, IDs from `subjectIdFromEntry`, validated by `subjectSchema`.
 - `cheatSheets`: `src/content/assuntos/**/cheat-sheet.md`, IDs from `subjectIdFromEntry`, validated by `cheatSheetSchema`.
 - `questoes`: `src/content/assuntos/**/questoes.json`, IDs from `subjectIdFromEntry`, validated by `questionSetSchema`.
-- `resolucoes`: `src/content/assuntos/**/resolucoes/*.md`, IDs from `resolutionIdFromEntry`, validated by `resolutionSchema`.
+- `resolucoes`: `src/content/assuntos/**/resolucoes/*.md` (excluding `**/resolucoes/referencias.md`), IDs from `resolutionIdFromEntry`, validated by `resolutionSchema`.
+- `referencias`: glob `**/referencias.md`, subject, mega-review and aggregated resolution references.
 
 `src/lib/content-paths.ts` defines the canonical editorial identity:
 
@@ -85,7 +89,8 @@
 - Group: `<concurso>/<grupo>[/<grupo>...]`; every ancestor must have `grupo.json`.
 - Subject: `<concurso>/<grupo>[/<grupo>...]/<assunto>`; direct subjects under a contest are invalid.
 - Mega review: `src/content/assuntos/<concurso>/<grupo>[/<grupo>...]/mega-revisao/index.md`; its canonical ID is the containing group path.
-- Resolution: `<subject-id>/resolucoes/<question-id>`; the question ID uses the stable editorial ID alphabet.
+- Resolution: `<subject-id>/resolucoes/<question-id>`; the question ID uses the stable editorial ID alphabet, and `referencias` is rejected as a question ID.
+- Reference: `referenceIdFromEntry`/`parseReferenceId` derive reference IDs from subject, mega-review and resolution-aggregate paths.
 - `storageId` belongs to contests and subjects and is used for persistence and auxiliary routes; groups do not have storage identity.
 - Public subject URLs remain short: `/concursos/<concurso-slug>/<assunto-slug>/`, independent of nested group depth.
 
@@ -108,10 +113,10 @@
 
 ### Catalog and editorial validation
 
-- `src/lib/catalog.ts`: `getCatalog()` loads all seven collections, calls `buildCatalogIndex()`, hydrates collection entries including optional group mega reviews, indexes resolutions by subject, creates offline inventory metadata and supplies `getSubjectStaticPaths()`.
-- `src/lib/catalog-core.ts`: `buildCatalogIndex()` validates canonical IDs, optional mega-review ownership and contest-local review slugs alongside contest/subject storage IDs, companion files, group ancestry, non-empty groups, contest references, public subject slug uniqueness, orphan resolutions, question existence and exact question revisions; it sorts the group tree and flat subject projection, assigns previous/next subject IDs and adds mega-review routes to `createOfflineInventory()`.
+- `src/lib/catalog.ts`: `getCatalog()` loads all eight collections, calls `buildCatalogIndex()` with `REQUIRE_REFERENCES = true`, checks non-empty reference bodies, hydrates collection entries including optional group mega reviews and their `referencesEntry`/`resolutionReferencesEntry`/`megaReviewReferencesEntry`, indexes resolutions by subject, creates offline inventory metadata and supplies `getSubjectStaticPaths()`.
+- `src/lib/catalog-core.ts`: `buildCatalogIndex()` validates canonical IDs, optional mega-review ownership, contest-local review slugs alongside contest/subject storage IDs, companion files, group ancestry, non-empty groups, contest references, public subject slug uniqueness, orphan resolutions, question existence and exact question revisions; its validation matrix takes a `requireReferences` option (subject references always required; a mega review requires references iff it exists; resolutions require the aggregate iff any resolution exists; orphaned/duplicated/empty-body references fail); it sorts the group tree and flat subject projection, assigns previous/next subject IDs and adds mega-review routes to `createOfflineInventory()`.
 - `src/lib/content-schema.ts`: strict Zod schemas for contests, groups, mega reviews, subjects, resolutions, question sets and synchronization question sets.
-- `src/lib/content-paths.ts`: path normalization, route-segment checks and parsers for contest, group, mega-review, subject and resolution IDs.
+- `src/lib/content-paths.ts`: path normalization, route-segment checks and parsers for contest, group, mega-review, subject and resolution IDs; also `referenceIdFromEntry`/`parseReferenceId` for reference entries.
 - `src/lib/catalog-groups.ts`: versioned local persistence of collapsed catalog groups.
 - `src/lib/mega-review-routes.ts`: builds encoded public routes in `/revisoes/<contestSlug>/<reviewSlug>/`.
 - `src/lib/mega-review-scope.ts`: traverses a group tree in editorial order, listing subjects and delegating nested groups that have their own review.
@@ -125,6 +130,8 @@
 - `src/components/ReadingFocusRuntime.astro`, `ReadingCustomizer.astro`, `SubjectActionBar.astro`: canonical `#focus` reading mode and reading preferences.
 - `src/components/MermaidRuntime.astro`, `AbbreviationRuntime.astro`, `PrintButton.astro`: conditional Markdown/browser enhancements.
 - `src/lib/navigation*.ts`, `subject-suggestion.ts`, `studied.ts`, `reading-preferences.ts`: navigation documents, reading-position persistence, study marks, suggestion selection and reading customization.
+- `src/components/DocumentReferences.astro`: collapsed inline `<details>` references block at the end of articles; expanded on print (idempotent beforeprint/afterprint) and hidden in `#focus`.
+- `src/lib/reading-progress.ts`: pure `readingProgressFraction` used by `ReadingFocusRuntime.astro`; ends the fraction at the top of `[data-reading-progress-ignore]`.
 
 ### Questionnaire and question resolutions
 
@@ -206,7 +213,7 @@ npm run icons
 
 ## Testing
 
-- Unit coverage includes `catalog.test.ts`, `catalog-groups.test.ts`, `content-paths.test.ts`, `content-schema.test.ts`, `mega-review-routes.test.ts`, `mega-review-scope.test.ts`, `markdown-headings.test.ts`, `resolutions.test.ts`, `markdown-features.test.ts`, `questionnaire.test.ts`, `question-order.test.ts`, `simulados.test.ts`, `simulados-validation.test.ts`, `simulados-sync.test.ts`, `offline-db.test.ts`, `offline-packages.test.ts`, `pwa-update.test.ts`, `identity.test.ts`, `sync.test.ts`, `navigation*.test.ts`, profile backup, progress, preferences, theme and runtime tests. Mega-review coverage includes canonical IDs, strict metadata, catalog validation, offline routes, scope delegation and H1 detection.
+- Unit coverage includes `catalog.test.ts`, `catalog-groups.test.ts`, `content-paths.test.ts`, `content-schema.test.ts`, `mega-review-routes.test.ts`, `mega-review-scope.test.ts`, `markdown-headings.test.ts`, `reading-progress.test.ts`, `resolutions.test.ts`, `markdown-features.test.ts`, `questionnaire.test.ts`, `question-order.test.ts`, `simulados.test.ts`, `simulados-validation.test.ts`, `simulados-sync.test.ts`, `offline-db.test.ts`, `offline-packages.test.ts`, `pwa-update.test.ts`, `identity.test.ts`, `sync.test.ts`, `navigation*.test.ts`, profile backup, progress, preferences, theme and runtime tests. Mega-review coverage includes canonical IDs, strict metadata, catalog validation, offline routes, scope delegation and H1 detection.
 - E2E coverage includes `mega-review.spec.ts` for rich Markdown, catalog links, print behavior and no-JavaScript readability; `pwa.spec.ts` also verifies the mega-review route in the offline inventory and cached navigation. The suite also includes `questionnaire.spec.ts`, `resolutions.spec.ts`, `simulados.spec.ts`, `simulados-result-breakdown.spec.ts`, navigation/offline, catalog groups, subject suggestion/navigation/pagination, reading mode/customizer/resume, identity, sync, profile backup, studied, preferences/progress, security, header, theme, abbreviation and final validation specs.
 - `playwright.config.ts` blocks Service Workers by default; `tests/e2e/pwa.spec.ts` enables them explicitly. E2E runs against the Pages-compatible Wrangler server so `_headers` behavior is exercised.
 
@@ -226,6 +233,7 @@ npm run icons
 - Mega reviews are optional group documents; their canonical ID is the group path, their public slug is unique within a contest, and a parent review delegates nested groups with their own review.
 - Mega-review public routes are derived into each contest offline inventory; they do not alter the flat `contest.subjects` projection.
 - Resolution files are optional, but every indexed resolution must reference an existing question at the exact `questionRevision`; otherwise the catalog/build fails.
+- References are validated by the catalog matrix: every subject needs `referencias.md`; a group with a mega review needs mega-review references, subjects with resolutions need the aggregated `resolucoes/referencias.md`, and orphaned, duplicated or empty reference bodies fail the build.
 - Questionnaire origin filtering is display-only and is never persisted; submission, progress and synchronization remain scoped to the full question set.
 - Simulado snapshots are historical documents and must not be rebuilt from the current catalog when reviewed.
 - KV traffic is never cached by the Service Worker; remote JSON is validated before adoption and invalid data is quarantined.

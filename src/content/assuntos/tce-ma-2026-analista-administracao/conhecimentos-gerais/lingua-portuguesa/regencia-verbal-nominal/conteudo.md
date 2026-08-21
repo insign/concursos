@@ -475,15 +475,3 @@ Em prova normativa, **assistir a**, **visar a**, **implicar algo**, **chegar a**
 - A posição dos pronomes átonos pertence ao Assunto 015.
 
 Esses tópicos aparecem aqui apenas quando determinam ou revelam a relação entre regente e regido.
-
-## Referências
-
-- CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E DE PROMOÇÃO DE EVENTOS. [Edital nº 1 - TCE/MA, de 6 de julho de 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Programa de Língua Portuguesa do Cargo 1. Acesso em 10 ago. 2026.
-- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [TCE publica edital de concurso público](https://www.tcema.tc.br/index.php/noticias/3447-tce-publica-edital-de-concurso-publico). Publicado em 8 jul. 2026. Acesso em 10 ago. 2026.
-- AULETE DIGITAL. [Regência](https://www.aulete.com.br/gram/cap11-15-regencia). Gramática Básica da Língua Portuguesa; regência verbal, nominal, pronomes e variantes. Lexikon Editora Digital. Acesso em 10 ago. 2026.
-- SENADO FEDERAL. [Regência nominal - Manual de Comunicação](https://www12.senado.leg.br/manualdecomunicacao/estilos/regencia-nominal). Relações preposicionais de substantivos e adjetivos. Acesso em 10 ago. 2026.
-- EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA. [Gramática - Manual de Produção Editorial](https://www.embrapa.br/manual-de-producao-editorial/gramatica). Orientações institucionais sobre regência e redação formal. Acesso em 10 ago. 2026.
-- BECHARA, Evanildo. [Os relativos e as preposições (conclusão)](https://www.academia.org.br/artigos/os-relativos-e-preposicoes-conclusao). Academia Brasileira de Letras, 2012. Acesso em 10 ago. 2026.
-- BECHARA, Evanildo. [Emprego de “onde” ou “em que” (continuação)](https://www.academia.org.br/artigos/emprego-de-onde-ou-em-que-continuacao). Academia Brasileira de Letras, 2012. Acesso em 10 ago. 2026.
-- SILVA, José Pereira da. [Normatividade em dicionários: variação de regência no português brasileiro](https://dlcv.fflch.usp.br/sites/dlcv.fflch.usp.br/files/04_11.pdf). Estudo sobre diferenças de descrição e uso em repertórios lexicográficos. Universidade de São Paulo. Acesso em 10 ago. 2026.
-- CIBERDÚVIDAS DA LÍNGUA PORTUGUESA. [Glossário de erros mais frequentes: Regência](https://ciberduvidas-ql.iscte-iul.pt/glossario/erros/251). Fonte portuguesa usada para comparar variantes, especialmente em regências nominais e *deparar*. Acesso em 10 ago. 2026.

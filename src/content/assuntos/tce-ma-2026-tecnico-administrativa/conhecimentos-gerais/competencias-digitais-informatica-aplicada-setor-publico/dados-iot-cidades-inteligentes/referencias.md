@@ -1,0 +1,5 @@
+- [Decreto nº 9.854, de 25 de junho de 2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9854.htm) — Plano Nacional de Internet das Coisas.
+- [Infraestrutura Nacional de Dados](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados) — Secretaria de Governo Digital; contexto atual de integração e uso de dados governamentais.
+- [Glossário de Termos de Dados](https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/governancadedados/glossario-de-termos-de-dados) — Secretaria de Governo Digital.
+- [Avaliação de Políticas Públicas](https://www.gov.br/casacivil/pt-br/assuntos/governanca/avaliacao-de-politicas) — Casa Civil da Presidência da República.
+- [Carta Brasileira para Cidades Inteligentes](https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/desenvolvimento-urbano-e-metropolitano/projeto-andus/carta-brasileira-para-cidades-inteligentes) — Ministério das Cidades.

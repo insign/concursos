@@ -1,0 +1,9 @@
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — art. 37, §§ 4º e 5º.
+- [Lei nº 8.429, de 2 de junho de 1992](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm) — texto compilado da Lei de Improbidade Administrativa.
+- [Lei nº 14.230, de 25 de outubro de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm) — reforma da LIA.
+- [STF — ADIs 7042 e 7043](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=493313) — legitimidade concorrente do Ministério Público e da pessoa jurídica pública interessada.
+- [STF — ADI 7156](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6396615) — julgamento conjunto com a ADI 7236; indisponibilidade, art. 17-C, decisão penal, sanções e prescrição.
+- [STF — conclusão das ADIs 7156 e 7236 em 1º/7/2026](https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/) — redução prescricional e prazo máximo de 20 anos.
+- [Tema 1199 — ARE 843.989](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1199) — direito intertemporal e regime prescricional.
+- [Tema 897 — RE 852.475](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=897) — imprescritibilidade do ressarcimento por ato doloso tipificado na LIA.
+- [Tema 1257 — STJ](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=1257&cod_tema_inicial=1257&novaConsulta=true&tipo_pesquisa=T) — indisponibilidade em processos em curso.

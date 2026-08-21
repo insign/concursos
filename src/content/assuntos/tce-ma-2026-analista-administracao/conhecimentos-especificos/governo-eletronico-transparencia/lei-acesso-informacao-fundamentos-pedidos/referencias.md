@@ -1,0 +1,5 @@
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, texto compilado, acesso em 16 jul. 2026.
+- [Lei nº 12.527, de 18 de novembro de 2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), Presidência da República, texto compilado vigente, acesso em 16 jul. 2026.
+- [Decreto nº 7.724, de 16 de maio de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7724.htm), Presidência da República, regulamento do Poder Executivo federal, acesso em 16 jul. 2026.
+- [Lei nº 14.129, de 29 de março de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm), Presidência da República, alteração do art. 12 da LAI, acesso em 16 jul. 2026.
+- [Aspectos gerais da Lei de Acesso à Informação](https://www.gov.br/acessoainformacao/pt-br/perguntas-frequentes/aspectos-gerais/aspectos-gerais-da-lei), Controladoria-Geral da União, orientação do Executivo federal, acesso em 16 jul. 2026.

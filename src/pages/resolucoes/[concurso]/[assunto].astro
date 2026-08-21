@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import DocumentReferences from '../../../components/DocumentReferences.astro';
 import ResolutionMermaidRuntime from '../../../components/ResolutionMermaidRuntime.astro';
 import { getCatalog, type CatalogContest, type CatalogSubject } from '../../../lib/catalog';
 import { parseResolutionId } from '../../../lib/content-paths';
@@ -30,7 +31,12 @@ const renderedEntries = await Promise.all(
     Content: (await render(entry)).Content,
   })),
 );
-const hasMermaid = subject.resolutionEntries.some((entry) => hasMermaidCodeFence(entry.body));
+const referencesEntry = subject.resolutionReferencesEntry;
+const referencesRendered = referencesEntry ? await render(referencesEntry) : null;
+const ReferencesContent = referencesRendered?.Content ?? null;
+const hasMermaid =
+  subject.resolutionEntries.some((entry) => hasMermaidCodeFence(entry.body)) ||
+  hasMermaidCodeFence(referencesEntry?.body);
 ---
 
 <BaseLayout
@@ -56,6 +62,11 @@ const hasMermaid = subject.resolutionEntries.some((entry) => hasMermaidCodeFence
         </article>
       );
     })}
+    {referencesRendered && ReferencesContent && (
+      <DocumentReferences>
+        <ReferencesContent />
+      </DocumentReferences>
+    )}
   </main>
   {hasMermaid && <ResolutionMermaidRuntime />}
 </BaseLayout>

@@ -1,0 +1,8 @@
+- Bibliothèque nationale de France. [A França Equinocial](https://heritage.bnf.fr/france-bresil/pt-br/franca-equinocial-1). Síntese histórica e documentação sobre o projeto francês.
+- D'Abbeville, Claude. [Histoire de la mission des pères capucins en l'isle de Maragnan](https://gallica.bnf.fr/ark:/12148/bpt6k8705156k). Paris, 1614. Fonte primária francesa.
+- Moreno, Diogo de Campos. [Jornada do Maranhão por ordem de Sua Majestade feita o ano de 1614](https://www2.senado.leg.br/bdsf/handle/id/573545). Senado Federal, 2011. Fonte narrativa portuguesa.
+- Universidade de Brasília. [São Luís no Atlas Digital da América Lusa](https://lhs.unb.br/atlas/index.php?title=S%C3%A3o_Lu%C3%ADs). Síntese acadêmica com referências documentais.
+- Cardoso, Alírio. [Guerra híbrida no Atlântico equinocial](https://dialnet.unirioja.es/descarga/articulo/4852090.pdf). *História Revista*, v. 18, n. 2, 2013.
+- Universidade Estadual do Maranhão. [Prova EAD UEMA 2024](https://www.uema.br/wp-content/uploads/2024/07/PROVA-EAD-UEMA-2024-EDITAL-32_2024-GR-UEMA.pdf) e [gabarito definitivo](https://www.uema.br/wp-content/uploads/2024/07/GAB_DEFINITIVO-EAD-UEMA-2024.pdf). Aplicação em 30 jun. 2024; questão 14.
+- Cebraspe. [Prova PM/MA 2017](https://cdn.cebraspe.org.br/concursos/pm_ma_17/arquivos/359_pmma_cg2_01.pdf) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/PM_MA_17/arquivos/Gab_Definitivo_359_PMMA_CG2_01.pdf). Aplicação em 17 dez. 2017; itens 27 e 28.
+- Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos. [Edital nº 1 — TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático do cargo.

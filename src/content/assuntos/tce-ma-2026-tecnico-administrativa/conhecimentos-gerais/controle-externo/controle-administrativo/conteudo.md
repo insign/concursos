@@ -289,13 +289,3 @@ A Administração pode agir de ofício, mas petição, requerimento, reclamaçã
 9. Má-fé não se presume.
 10. Reconsideração em cinco dias integra o fluxo do recurso na Lei nº 9.784/1999; não é, por si só, recurso autônomo genérico.
 11. A Lei nº 9.784/1999 tem aplicação direta no âmbito federal, não automaticamente como lei nacional de todos os entes.
-
-## Referências
-
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 5º, XXXIV, LIV e LV, e 37.
-- [Lei nº 9.784, de 29 de janeiro de 1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) — processo administrativo federal, especialmente arts. 1º, 5º, 48, 50 e 53 a 56.
-- [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) — vinculação e supervisão ministerial da Administração indireta.
-- [Tema 138 — RE 594.296/MG](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=138) — processo administrativo prévio ao desfazimento de ato com efeitos concretos.
-- [Súmula 346](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1576) — nulidade dos próprios atos pela Administração.
-- [Súmula 473](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602) — anulação e revogação administrativas.
-- [Súmula Vinculante 21](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1184) — depósito ou arrolamento prévio para recurso administrativo.

@@ -305,11 +305,3 @@ A forma de exercício é regulamentada pelo Regimento Interno. O art. 128 não f
 6. Em defesa, memorize: **30 dias + até 30 dias, a critério do relator**.
 7. Em revelia, diferencie ocorrência não impugnada de ausência total de defesa.
 8. Em sustentação oral: **relatório → sustentação → voto/proposta**.
-
-## 13. Referências
-
-- Tribunal de Contas do Estado do Maranhão. [Lei nº 8.258/2005 consolidada](https://app.tcema.tc.br/publicacao/#/documentohtml/8200?compilado=true). Arts. 118 a 128; texto consolidado oficial consultado para o corte de 6 jul. 2026; acesso em 12 ago. 2026.
-- Assembleia Legislativa do Estado do Maranhão. [Diário da Assembleia de 16 nov. 2011](https://www.al.ma.leg.br/sitealema/wp-content/uploads/diarios/DIARIO16-11-11.pdf). Mensagem nº 003/2011-PRESI/TCE-MA e Projeto de Lei nº 283/2011, antecedente legislativo das alterações então propostas à Lei nº 8.258/2005; **não substitui o texto promulgado/consolidado**; acesso em 12 ago. 2026.
-- Tribunal de Contas do Estado do Maranhão. [Instrução Normativa nº 28/2012](https://legisla.stc.ma.gov.br/anexos/arquivo483.pdf). Disciplina oficial complementar sobre processo eletrônico; acesso em 12 ago. 2026.
-- Presidência da República. [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Art. 5º, LIV, LV e LVI; texto oficial vigente no corte do edital.
-- Assembleia Legislativa do Estado do Maranhão. [Constituição do Estado do Maranhão](https://legislacao.al.ma.leg.br/ged/constituicao-estadual/detalhe.html). Base estadual do controle externo e das garantias processuais.

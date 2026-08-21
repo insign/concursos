@@ -347,3 +347,98 @@ describe('catalog', () => {
     expect(inventory.routes).toContain('/resolucoes/a/segundo/');
   });
 });
+
+describe('catalog references', () => {
+  function addReference(source: CatalogSources, id: string): void {
+    source.references ??= [];
+    source.references.push({ id, data: {} });
+  }
+
+  it('accepts coherent optional references and rejects orphan subjects', () => {
+    const fixture = sources();
+    addReference(fixture, 'concurso-a/area-a/fundamentos/primeiro');
+    expect(() => buildCatalogIndex(fixture)).not.toThrow();
+
+    const orphan = sources();
+    addReference(orphan, 'concurso-a/area-a/inexistente');
+    expect(() => buildCatalogIndex(orphan)).toThrow('Referências órfãs para o assunto');
+  });
+
+  it('rejects duplicate ids and mega review or resolution orphans', () => {
+    const duplicated = sources();
+    addReference(duplicated, 'concurso-a/area-a/fundamentos/primeiro');
+    addReference(duplicated, 'concurso-a/area-a/fundamentos/primeiro');
+    expect(() => buildCatalogIndex(duplicated)).toThrow('ID de referências duplicado');
+
+    const reviewRefs = sources();
+    addMegaReview(reviewRefs, 'concurso-a/area-b', 'revisao-b');
+    addReference(reviewRefs, 'concurso-a/area-b/mega-revisao');
+    expect(() => buildCatalogIndex(reviewRefs)).not.toThrow();
+
+    const orphanReviewRefs = sources();
+    addMegaReview(orphanReviewRefs, 'concurso-a/area-b', 'revisao-b');
+    addReference(orphanReviewRefs, 'concurso-a/area-a/mega-revisao');
+    expect(() => buildCatalogIndex(orphanReviewRefs)).toThrow('Referências órfãs para a mega revisão');
+
+    const orphanResolutionRefs = sources();
+    addReference(orphanResolutionRefs, 'concurso-a/area-b/segundo/resolucoes');
+    expect(() => buildCatalogIndex(orphanResolutionRefs)).toThrow(
+      'Referências órfãs para as resoluções',
+    );
+  });
+
+  it('enforces the obligatory matrix only when required', () => {
+    const fixture = sources();
+    expect(() => buildCatalogIndex(fixture)).not.toThrow();
+    expect(() => buildCatalogIndex(fixture, { requireReferences: true })).toThrow(
+      'Assunto "concurso-a/area-b/segundo" não possui referências',
+    );
+
+    const complete = sources();
+    addReference(complete, 'concurso-a/area-a/fundamentos/primeiro');
+    addReference(complete, 'concurso-a/area-b/segundo');
+    expect(() => buildCatalogIndex(complete, { requireReferences: true })).not.toThrow();
+
+    const withReview = structuredClone(complete);
+    addMegaReview(withReview, 'concurso-a/area-b', 'revisao-b');
+    expect(() => buildCatalogIndex(withReview, { requireReferences: true })).toThrow(
+      'Mega revisão "concurso-a/area-b" não possui referências',
+    );
+    addReference(withReview, 'concurso-a/area-b/mega-revisao');
+    expect(() => buildCatalogIndex(withReview, { requireReferences: true })).not.toThrow();
+
+    const withResolutions = structuredClone(withReview);
+    const secondSet = withResolutions.questionSets.find(
+      (set) => set.id === 'concurso-a/area-b/segundo',
+    )!;
+    secondSet.data.questions.push({
+      id: 'q001',
+      revision: 1,
+      origin: 'authorial',
+      prompt: 'Pergunta?',
+      options: [
+        { id: 'a', text: 'A' },
+        { id: 'b', text: 'B' },
+      ],
+      correctOptionId: 'a',
+      explanation: 'Explicação.',
+    });
+    withResolutions.resolutions = [
+      {
+        id: 'concurso-a/area-b/segundo/resolucoes/q001',
+        data: { schemaVersion: 1, questionRevision: 1 },
+      },
+    ];
+    expect(() => buildCatalogIndex(withResolutions, { requireReferences: true })).toThrow(
+      'Resoluções do assunto "concurso-a/area-b/segundo" não possuem referências',
+    );
+    addReference(withResolutions, 'concurso-a/area-b/segundo/resolucoes');
+    expect(() => buildCatalogIndex(withResolutions, { requireReferences: true })).not.toThrow();
+  });
+
+  it('keeps optional mode permissive about absent companions', () => {
+    const withReview = sources();
+    addMegaReview(withReview, 'concurso-a/area-b', 'revisao-b');
+    expect(() => buildCatalogIndex(withReview, { requireReferences: false })).not.toThrow();
+  });
+});

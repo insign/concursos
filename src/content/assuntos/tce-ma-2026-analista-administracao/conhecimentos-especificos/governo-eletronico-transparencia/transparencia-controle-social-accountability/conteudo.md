@@ -190,13 +190,3 @@ Cobrança pública não autoriza prejulgamento. Accountability institucional dev
 6. Não atribua caráter deliberativo a todo conselho nem vinculação automática a toda audiência ou consulta.
 7. Lembre que transparência deve conviver com proteção de dados, sigilos legítimos e devido processo.
 8. Na transparência fiscal, lembre a regra vigente desde 1º de janeiro de 2026: benefícios tributários, financeiros e creditícios concedidos devem ter dados atualizados divulgados no Portal de Transparência em formato aberto e padronizado, nos termos do art. 48, § 1º, IV, da LRF.
-
-## Referências
-
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), Presidência da República, texto compilado, acesso em 16 jul. 2026.
-- [Lei Complementar nº 101, de 4 de maio de 2000](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm), Presidência da República, texto compilado da Lei de Responsabilidade Fiscal, acesso em 8 ago. 2026.
-- [Lei Complementar nº 224, de 26 de dezembro de 2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp224.htm), Presidência da República, alteração da LRF e produção de efeitos, acesso em 8 ago. 2026.
-- [Lei nº 13.460, de 26 de junho de 2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm), Presidência da República, texto vigente consultado em 16 jul. 2026.
-- [Controle Social](https://portaldatransparencia.gov.br/controle-social), Controladoria-Geral da União, Portal da Transparência, acesso em 16 jul. 2026.
-- [Transparência ativa](https://www.gov.br/acessoainformacao/pt-br/assuntos/transparencia-ativa), Controladoria-Geral da União, acesso em 16 jul. 2026.
-- [Horizontal Accountability in New Democracies](https://www.journalofdemocracy.org/articles/horizontal-accountability-in-new-democracies/), Guillermo O'Donnell, *Journal of Democracy*, v. 9, n. 3, 1998, acesso em 16 jul. 2026.

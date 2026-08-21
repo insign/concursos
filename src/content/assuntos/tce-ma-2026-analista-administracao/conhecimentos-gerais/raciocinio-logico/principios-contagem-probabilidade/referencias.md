@@ -1,0 +1,5 @@
+- CEBRASPE. [Edital do concurso público do TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Edital nº 1, de 6 de julho de 2026. Raciocínio Lógico, item 5, “Princípios de contagem e probabilidade”.
+- CEBRASPE. [Caderno de Conhecimentos Básicos do BNB, Cargo 1](https://cdn.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18/arquivos/MATRIZ_424_BNBCB1__PAG_4.PDF). Prova aplicada em 2 dez. 2018, itens 33 a 42.
+- CEBRASPE. [Gabarito definitivo de Conhecimentos Básicos do BNB, Cargo 1](https://cdn.cebraspe.org.br/concursos/BANCO_DO_NORDESTE_18/arquivos/GAB_DEFINITIVO_424_BNB_CB1_00_MATRIZ.PDF). Concurso BNB 2018.
+- BEZERRA, Maria de Nazaré Carvalho. [Análise combinatória e probabilidade](https://livroaberto.ufpa.br/items/d9c8e9d1-f7d4-4c2f-8607-3380768d43e9). Universidade Federal do Pará, 2018.
+- FRANCO, Tertuliano. [Princípios de combinatória e probabilidade](https://impa.br/books/principios-de-combinatoria-e-probabilidade/). IMPA, 2020.

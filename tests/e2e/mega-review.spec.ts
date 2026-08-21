@@ -32,10 +32,9 @@ test('links and renders an optional mega review with rich Markdown', async ({ pa
     `${subjectPath}cheat-sheet/`,
   );
   await expect(page.locator('.katex')).toBeVisible();
-  await expect(page.locator('abbr[data-abbreviation-popover-trigger]')).toHaveAttribute(
-    'aria-describedby',
-    /abbreviation-popover-/,
-  );
+  await expect(
+    page.locator('abbr[data-abbreviation-popover-trigger]').filter({ hasText: /^ID$/ }),
+  ).toHaveAttribute('aria-describedby', /abbreviation-popover-/);
   await expect(page.locator('pre.mermaid')).toHaveAttribute('data-render-status', 'success', { timeout: 20_000 });
   await expect(page.locator('[data-navigation-root]')).toHaveCount(0);
   await expect(page.locator('.subject-tabs')).toHaveCount(0);
@@ -63,6 +62,8 @@ test('keeps the mega review readable without JavaScript', async ({ browser }) =>
     'href',
     subjectPath,
   );
-  await expect(page.locator('abbr[title]')).toHaveAttribute('title', 'Indicador de desempenho');
+  await expect(
+    page.locator('abbr[title]').filter({ hasText: /^ID$/ }),
+  ).toHaveAttribute('title', 'Indicador de desempenho');
   await context.close();
 });

@@ -218,8 +218,3 @@ Uma fiscalização pode acumular classificações de eixos diferentes. Exemplo: 
 5. se a banca falar em cidadão, partido, associação ou sindicato, pense no § 2º e em **provocação**, não em poder sancionador;
 6. na Lei nº 4.320, separe `art. 75 = três focos` de `art. 77 = três momentos`;
 7. não antecipe para este assunto a organização detalhada dos tribunais de contas, reservada ao Assunto 054.
-
-## Referências
-
-- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — especialmente arts. 70, 71 e 74; texto compilado.
-- [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm) — especialmente arts. 75 a 82; texto compilado.

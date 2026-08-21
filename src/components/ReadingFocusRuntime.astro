@@ -1,4 +1,6 @@
 <script>
+  import { readingProgressFraction } from '../lib/reading-progress';
+
   const root = document.querySelector<HTMLElement>('[data-reading-focus]');
   const openers = root
     ? Array.from(root.querySelectorAll<HTMLAnchorElement>('[data-reading-focus-open]'))
@@ -253,12 +255,22 @@
     const renderReadingProgress = () => {
       progressFrame = 0;
       if (!progressIndicator || !readingArticle) return;
+      // As medidas do rect são relativas à viewport; a fração trabalha em
+      // coordenadas de documento, então tudo é deslocado pelo scroll atual.
+      const scrollY = window.scrollY;
       const article = readingArticle.getBoundingClientRect();
-      const start = window.scrollY + article.top;
-      const scrollable = Math.max(0, article.height - window.innerHeight);
-      const progress = scrollable === 0
-        ? 1
-        : Math.min(1, Math.max(0, (window.scrollY - start) / scrollable));
+      const ignored = readingArticle.querySelectorAll<HTMLElement>('[data-reading-progress-ignore]');
+      const lastIgnored = ignored.length > 0 ? ignored[ignored.length - 1] : undefined;
+      const excludedRect = lastIgnored?.getBoundingClientRect();
+      const excludedTop =
+        excludedRect && excludedRect.height > 0 ? scrollY + excludedRect.top : null;
+      const progress = readingProgressFraction({
+        articleTop: scrollY + article.top,
+        articleBottom: scrollY + article.bottom,
+        excludedTop,
+        scrollY,
+        viewportHeight: window.innerHeight,
+      });
       const label = `${Math.round(progress * 100)}%`;
       if (progressIndicator.textContent === label) return;
       progressIndicator.textContent = label;

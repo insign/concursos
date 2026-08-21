@@ -193,9 +193,3 @@ Esses sistemas ajudam a entender por que o inventário de rios genuinamente mara
 5. Use **3 + 7 + 2** apenas como mnemônico da regionalização do NuGeo/UEMA.
 6. Não transforme sub-bacias e drenagens locais em unidades regionais do mesmo nível.
 7. Desconfie de absolutos como “todo”, “único”, “apenas” e “sempre”.
-
-## Referências
-
-- CEBRASPE. [Edital nº 1 do TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Conteúdo programático publicado em 6 jul. 2026. Acesso em: 4 ago. 2026.
-- NUGEO/UEMA. [Bacias Hidrográficas Maranhenses](https://www.nugeo.uema.br/?page_id=255), [Regiões Hidrográficas do Maranhão](https://www.nugeo.uema.br/?page_id=233), [Bacias Federais](https://www.nugeo.uema.br/?page_id=259), [Tocantins-Araguaia](https://www.nugeo.uema.br/?page_id=239) e [Parnaíba](https://www.nugeo.uema.br/?page_id=242). Regionalização e caracterização dos rios e bacias. Acesso em: 14 ago. 2026.
-- ANA. [Regiões Hidrográficas](https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas), [Tocantins-Araguaia](https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-tocantins-araguaia) e [Atlântico Nordeste Ocidental](https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-atlantico-nordeste-ocidental). Divisão Hidrográfica Nacional. Acesso em: 14 ago. 2026.

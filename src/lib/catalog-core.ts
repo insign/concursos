@@ -3,10 +3,11 @@ import type {
   GroupData,
   MegaReviewData,
   QuestionSet,
+  ReferenceData,
   ResolutionData,
   SubjectData,
 } from './content-schema';
-import { parseGroupId, parseResolutionId, parseSubjectId } from './content-paths';
+import { parseGroupId, parseReferenceId, parseResolutionId, parseSubjectId } from './content-paths';
 import { megaReviewRoute } from './mega-review-routes';
 import type { ResolutionDescriptor } from './resolution-routes';
 
@@ -23,6 +24,11 @@ export interface CatalogSources {
   cheatSheetIds: string[];
   questionSets: CatalogRecord<QuestionSet>[];
   resolutions?: CatalogRecord<ResolutionData>[];
+  references?: CatalogRecord<ReferenceData>[];
+}
+
+export interface CatalogIndexOptions {
+  requireReferences?: boolean;
 }
 
 export type CatalogResolutionRecord = CatalogRecord<ResolutionData>;
@@ -152,7 +158,8 @@ function appendMegaReviewRoutes(
   }
 }
 
-export function buildCatalogIndex(sources: CatalogSources): CatalogIndex {
+export function buildCatalogIndex(sources: CatalogSources, options: CatalogIndexOptions = {}): CatalogIndex {
+  const requireReferences = options.requireReferences === true;
   assertUnique(sources.contests.map(({ id }) => id), 'ID de concurso');
   assertUnique(sources.groups.map(({ id }) => id), 'ID de grupo');
   assertUnique(sources.contents.map(({ id }) => id), 'ID de assunto');
@@ -254,6 +261,54 @@ export function buildCatalogIndex(sources: CatalogSources): CatalogIndex {
       slug: megaReview.data.slug,
       title: megaReview.data.title ?? group.title,
     };
+  }
+
+  const references = sources.references ?? [];
+  assertUnique(references.map(({ id }) => id), 'ID de referências');
+  const subjectReferenceIds = new Set<string>();
+  const megaReviewReferenceIds = new Set<string>();
+  const resolutionReferenceIds = new Set<string>();
+
+  for (const reference of references) {
+    const parsed = parseReferenceId(reference.id);
+
+    if (parsed.kind === 'subject') {
+      if (!contentIds.has(parsed.subjectId!)) {
+        throw new Error(`Referências órfãs para o assunto "${parsed.subjectId}"`);
+      }
+      subjectReferenceIds.add(parsed.subjectId!);
+      continue;
+    }
+
+    if (parsed.kind === 'mega-review') {
+      const group = groupsById.get(parsed.groupId!);
+      if (!group?.megaReview) {
+        throw new Error(`Referências órfãs para a mega revisão do grupo "${parsed.groupId}"`);
+      }
+      megaReviewReferenceIds.add(parsed.groupId!);
+      continue;
+    }
+
+    if (!contentIds.has(parsed.subjectId!) || !resolutionsBySubject.has(parsed.subjectId!)) {
+      throw new Error(`Referências órfãs para as resoluções do assunto "${parsed.subjectId}"`);
+    }
+    resolutionReferenceIds.add(parsed.subjectId!);
+  }
+
+  if (requireReferences) {
+    assertMatchingSubjectFiles(contentIds, subjectReferenceIds, 'referências');
+
+    for (const group of groupsById.values()) {
+      if (group.megaReview && !megaReviewReferenceIds.has(group.id)) {
+        throw new Error(`Mega revisão "${group.id}" não possui referências`);
+      }
+    }
+
+    for (const subjectId of resolutionsBySubject.keys()) {
+      if (!resolutionReferenceIds.has(subjectId)) {
+        throw new Error(`Resoluções do assunto "${subjectId}" não possuem referências`);
+      }
+    }
   }
 
   const rootGroupsByContest = new Map<string, CatalogGroupIndex[]>();

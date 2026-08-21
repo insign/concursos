@@ -143,11 +143,3 @@ Exemplo: **48° O** está mais a oeste que **41° O**.
 3. Diferencie **divisa interestadual** de **fronteira internacional**.
 4. Em coordenadas S/O, compare corretamente os valores absolutos.
 5. Em números territoriais, confira o **ano da malha** antes de tratar uma diferença como erro.
-
-## Referências
-
-- IBGE. [Maranhão: Cidades e Estados](https://www.ibge.gov.br/cidades-e-estados/ma.html). Área territorial 2025. Acesso em: 14 ago. 2026.
-- IBGE. [Áreas Territoriais](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-dos-municipios). Malha Municipal Digital 2025. Acesso em: 14 ago. 2026.
-- IBGE. [Pontos extremos das Grandes Regiões e Unidades da Federação](https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t1101.pdf). Anuário Estatístico do Brasil, tabela 2025 baseada na Malha Municipal 2024. Acesso em: 14 ago. 2026.
-- IBGE. [Malha Municipal](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html). Acesso em: 14 ago. 2026.
-- IBGE. [Amazônia Legal](https://www.ibge.gov.br/geociencias/cartas-e-mapas/mapas-regionais/15819-amazonia-legal.html). Acesso em: 14 ago. 2026.

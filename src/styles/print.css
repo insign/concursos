@@ -52,6 +52,23 @@
     cursor: inherit;
   }
 
+  /* Referências impressas sempre expostas: o script de beforeprint abre os
+     details; estas regras escondem o gatilho e tentam revelar o conteúdo
+     mesmo sem JavaScript, onde o estado fechado não pode ser alterado. */
+  .document-references-details > summary {
+    display: none !important;
+  }
+
+  .document-references-details:not([open]) > .document-references-body {
+    display: block !important;
+  }
+
+  /* Imprimir a partir do modo de leitura não pode omitir as referências:
+     o ocultamento do #focus vale apenas para a tela. */
+  .reading-focus:is(:target, [data-reading-focus-active]) .document-references {
+    display: block !important;
+  }
+
   .study-shell,
   .mega-review-shell,
   .reading-focus,

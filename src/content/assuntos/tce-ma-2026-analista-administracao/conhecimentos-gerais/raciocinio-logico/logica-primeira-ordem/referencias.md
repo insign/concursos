@@ -1,0 +1,6 @@
+- CEBRASPE. [Edital do concurso público do TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf). Edital nº 1, de 6 de julho de 2026. Raciocínio Lógico, item 4, “Lógica de primeira ordem”.
+- CEBRASPE. [Matriz com justificativas da prova de Escrivão da Polícia Civil do Distrito Federal](https://cdn.cebraspe.org.br/concursos/PC_DF_19_ESCRIVAO/arquivos/MATRIZ_519_PCDF_001_00_BONECA_COMJUSTIFICATIVA.PDF). Item 117.
+- PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO PAULO. [O cálculo de predicados de primeira ordem](https://www4.pucsp.br/~logica/CalculodePredicados.htm).
+- UNIVERSIDADE DE ÉVORA. [Sintaxe da lógica de primeira ordem](https://home.uevora.pt/~fc/lc/lpo/sintaxe.html).
+- UNIVERSIDADE DE ÉVORA. [Interpretação](https://home.uevora.pt/~fc/lc/lpo/interpretacao.html).
+- UNIVERSIDADE DE ÉVORA. [Consequência semântica de primeira ordem](https://home.uevora.pt/~fc/lc/lpo/consequencia-semantica.html).

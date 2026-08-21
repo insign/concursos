@@ -890,15 +890,3 @@ Exemplos de cautela:
 16. Texto anotado como inconstitucional não volta a ser válido porque permanece reproduzido na edição histórica.
 
 ---
-
-## Referências
-
-- CEBRASPE. [TCE/MA 2026 — página oficial do concurso](https://www.cebraspe.org.br/concursos/tce_ma_26). Edital nº 1, de 6 de julho de 2026, e retificações. Acesso em 17 ago. 2026.
-- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Constituição do Estado do Maranhão — edição consolidada](https://www.al.ma.leg.br/sitealema/wp-content/uploads/2025/11/Constituicao-MA-nov25.pdf). Texto promulgado em 5 out. 1989, consolidado pelas ECs nº 1/1989 a 101/2024, com anotações de controle de constitucionalidade. Acesso em 17 ago. 2026.
-- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Portal da Legislação — Constituição Estadual](https://legislacao.al.ma.leg.br/ged/constituicao-estadual/detalhe.html). Edição publicada em 2025. Acesso em 17 ago. 2026.
-- PROCURADORIA-GERAL DO ESTADO DO MARANHÃO. [Boletim Informativo — novidades legislativas de dezembro de 2025 e janeiro de 2026](https://www.pge.ma.gov.br/uploads/pge/docs/Boletim_Informativo_n%C2%BA_01.2026_-_Dezembro_.2025-Janeiro_.2026_1.pdf). Registro oficial das ECs estaduais nº 102/2025 e 103/2025. Acesso em 17 ago. 2026.
-- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Sessão de 10 de dezembro de 2025 — redação final da alteração sobre a Defensoria](https://www.al.ma.leg.br/sitealema/ordem/sessao-ordinaria-do-dia-10-12-2025-quarta-feira/). Tramitação que resultou na EC nº 102/2025. Acesso em 17 ago. 2026.
-- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Sessão de 18 de dezembro de 2025 — emendas parlamentares ao orçamento](https://www.al.ma.leg.br/sitealema/ordem/sessao-ordinaria-do-dia-18-12-2025-quinta-feira/). Tramitação que resultou na EC nº 103/2025. Acesso em 17 ago. 2026.
-- LEGISWEB. [Emenda Constitucional estadual nº 102/2025 — reprodução do texto publicado](https://www.legisweb.com.br/legislacao/?id=488098). Fonte auxiliar para conferência literal da alteração posterior à consolidação da ALEMA. Acesso em 17 ago. 2026.
-- LEGISWEB. [Emenda Constitucional estadual nº 103/2025 — reprodução do texto publicado](https://www.legisweb.com.br/legislacao/?id=488482). Fonte auxiliar para conferência literal do art. 136-B posterior à consolidação da ALEMA. Acesso em 17 ago. 2026.
-- SUPREMO TRIBUNAL FEDERAL. [ADI 7.757 — foro de diretores da Assembleia Legislativa do Maranhão](https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-do-maranhao-que-dava-foro-no-tj-ma-a-diretores-da-assembleia-legislativa/). Julgamento concluído em 17 out. 2025. Acesso em 17 ago. 2026.

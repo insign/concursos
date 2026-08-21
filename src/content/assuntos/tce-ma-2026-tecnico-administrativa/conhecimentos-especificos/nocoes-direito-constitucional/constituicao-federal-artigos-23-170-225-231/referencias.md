@@ -1,0 +1,3 @@
+- BRASIL. Presidência da República. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Arts. 23, 170, 225 e 231, texto constitucional vigente no corte do edital. Acesso em: 18 ago. 2026.
+- CÂMARA DOS DEPUTADOS. [Constituição Federal — dispositivos sujeitos a regulamentação: art. 225, § 1º, VIII](https://www.camara.leg.br/internet/infdoc/novoconteudo/html/leginfra/ArtCF6980.htm). Texto do inciso VIII introduzido pela EC nº 132/2023. Acesso em: 18 ago. 2026.
+- SUPREMO TRIBUNAL FEDERAL. [Tema 1031 da repercussão geral](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1031). RE 1.017.365; acórdão de mérito publicado em 15 fev. 2024. Acesso em: 18 ago. 2026.

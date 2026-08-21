@@ -1,0 +1,54 @@
+---
+interface Props {
+  label?: string;
+}
+
+const { label = 'Referências' } = Astro.props;
+---
+
+<section class="document-references" data-document-references>
+  <details class="document-references-details" data-reading-progress-ignore data-references-print>
+    <summary class="document-references-summary">{label}</summary>
+    <div class="document-references-body">
+      <slot />
+    </div>
+  </details>
+</section>
+
+<script>
+  const printSelector = 'details[data-references-print]';
+  const openStates = new Map<HTMLDetailsElement, boolean>();
+  let printing = false;
+
+  const expandForPrint = () => {
+    // Firefox dispara beforeprint e matchMedia('print') no mesmo evento:
+    // sem a guarda, o segundo disparo salvaria o estado já forçado.
+    if (printing) return;
+    printing = true;
+    for (const block of document.querySelectorAll<HTMLDetailsElement>(printSelector)) {
+      openStates.set(block, block.open);
+      block.open = true;
+    }
+  };
+
+  const restoreAfterPrint = () => {
+    if (!printing) return;
+    printing = false;
+    for (const block of openStates.keys()) {
+      const state = openStates.get(block);
+      if (state !== undefined && block.isConnected) block.open = state;
+    }
+    openStates.clear();
+  };
+
+  window.addEventListener('beforeprint', expandForPrint);
+  window.addEventListener('afterprint', restoreAfterPrint);
+
+  const media = window.matchMedia('print');
+  const mediaHandler = (event: MediaQueryListEvent) => (event.matches ? expandForPrint() : restoreAfterPrint());
+  if (typeof media.addEventListener === 'function') {
+    media.addEventListener('change', mediaHandler);
+  } else if (typeof media.addListener === 'function') {
+    media.addListener(mediaHandler);
+  }
+</script>

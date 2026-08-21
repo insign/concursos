@@ -593,12 +593,3 @@ Quando a questão narrar um ato:
 3. **se a questão classificar o ato, descubra o critério**: liberdade, alcance, destinatários, formação, prerrogativa ou efeitos;
 4. **se pedir espécie, procure a função predominante**: normatizar, ordenar internamente, consentir, enunciar ou punir;
 5. desconfie de palavras absolutas como “sempre”, “todos”, “necessariamente” e “jamais” quando o tema admitir exceções.
-
-## Referências
-
-- BRASIL. Constituição da República Federativa do Brasil de 1988, art. 37. https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
-- BRASIL. Lei nº 4.717, de 29 de junho de 1965, especialmente art. 2º e parágrafo único. https://www.planalto.gov.br/ccivil_03/leis/l4717.htm
-- BRASIL. Lei nº 9.784, de 29 de janeiro de 1999, especialmente arts. 11 a 15, 22 e 50. https://www.planalto.gov.br/ccivil_03/leis/l9784.htm
-- DI PIETRO, Maria Sylvia Zanella. *Direito Administrativo*. Referência doutrinária para conceito, atributos e classificações.
-- CARVALHO FILHO, José dos Santos. *Manual de Direito Administrativo*. Referência doutrinária para elementos, atributos, classificações e espécies.
-- MAZZA, Alexandre. *Manual de Direito Administrativo*. Referência didática complementar para distinções de prova.

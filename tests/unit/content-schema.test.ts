@@ -4,6 +4,7 @@ import {
   groupSchema,
   megaReviewSchema,
   questionSetSchema,
+  referenceSchema,
   resolutionSchema,
   subjectSchema,
   syncQuestionSetSchema,
@@ -140,5 +141,12 @@ describe('content schemas', () => {
     expect(() => resolutionSchema.parse({ schemaVersion: 2, questionRevision: 1 })).toThrow();
     expect(() => resolutionSchema.parse({ schemaVersion: 1, questionRevision: 0 })).toThrow();
     expect(() => resolutionSchema.parse({ schemaVersion: 1, questionRevision: 1, html: '<p>unsafe</p>' })).toThrow();
+  });
+
+  it('accepts only empty frontmatter for references', () => {
+    expect(referenceSchema.parse({})).toEqual({});
+    expect(() => referenceSchema.parse({ schemaVersion: 1 })).toThrow();
+    expect(() => referenceSchema.parse({ slug: 'referencias' })).toThrow();
+    expect(() => referenceSchema.parse({ title: 'Referências' })).toThrow();
   });
 });

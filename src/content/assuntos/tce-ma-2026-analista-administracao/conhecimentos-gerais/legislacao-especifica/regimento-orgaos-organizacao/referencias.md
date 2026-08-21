@@ -1,0 +1,11 @@
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. **Resolução Administrativa nº 1/2000**. Aprova o Regimento Interno do TCE/MA, com alterações posteriores.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Resolução TCE/MA nº 391/2023](https://app.tcema.tc.br/diario/publicacao/pdf/8916). Alterações nos arts. 9º, 16, 22, 22-A, 22-B, 25 e dispositivos correlatos do Regimento.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Resolução TCE/MA nº 441/2026](https://diario.apps.tcema.tc.br/publicacao/pdf/9486). Alteração regimental anterior ao edital, sem modificação do rol do art. 9º.
+- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Adequação do Ministério Público de Contas ao modelo nacional](https://www.al.ma.leg.br/noticias2/42281). Síntese oficial das alterações que resultaram na Lei nº 11.614/2021.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Eleição de Corregedor e posse de novo Procurador-Geral](https://www.tcema.tc.br/index.php/noticias/2757-eleicao-de-corregedor-e-posse-de-novo-procurador-geral-marcam-retorno-das-sessoes-do-pleno). Confirma aplicação da escolha do Procurador-Geral por nomeação do Governador.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Conselheiros](https://www.tcema.tc.br/index.php/institucional/conselheiros). Composição titular e requisitos institucionais.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Conselheiros-Substitutos](https://www.tcema.tc.br/index.php/institucional/conselheiros-substitutos). Quantitativo, ingresso e regime de substituição.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Procuradores de Contas](https://www.tcema.tc.br/index.php/institucional/procuradores-de-contas). Informações institucionais sobre a carreira.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Corregedoria](https://www.tcema.tc.br/index.php/institucional/corregedoria). Função institucional e composição.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Conhecendo a Ouvidoria](https://www.tcema.tc.br/transparencia_novo/index.php/ouvidoria/conhecendo-a-ouvidoria). Papel institucional da Ouvidoria.
+- TRIBUNAL DE CONTAS DO ESTADO DO MARANHÃO. [Integridade e Resolutividade no TCE-MA: entregas da Corregedoria em 2025](https://www.tcema.tc.br/index.php/noticias/3287-integridade-e-resolutividade-no-tce-ma-entregas-da-corregedoria-em-2025). Referência institucional à Resolução nº 420/2025.

@@ -1,0 +1,6 @@
+- BRASIL. Presidência da República. [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), art. 37, XIX e XX. Texto compilado. Acesso em: 18 ago. 2026.
+- BRASIL. Presidência da República. [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm), especialmente arts. 4º, 5º e 10. Texto compilado. Acesso em: 18 ago. 2026.
+- BRASIL. Presidência da República. [Lei nº 13.303, de 30 de junho de 2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm), especialmente arts. 3º a 5º. Texto compilado. Acesso em: 18 ago. 2026.
+- BRASIL. Supremo Tribunal Federal. [Tema 545 da repercussão geral — RE 716.378](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=545). Tese julgada em 7 ago. 2019, trânsito em julgado em 13 ago. 2021. Acesso em: 18 ago. 2026.
+- CEBRASPE. [SEE/DF 2017 — prova objetiva, conhecimentos básicos](https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/LEDOR_290_SEEDF_CB2_10.pdf), item 24, aplicação de 29 jan. 2017. Acesso em: 18 ago. 2026.
+- CEBRASPE. [SEE/DF 2017 — gabarito oficial definitivo, conhecimentos básicos](https://cdn.cebraspe.org.br/concursos/SEE_16_DF/arquivos/Gab_Definitivo_290_SEEDF_CB1_01.pdf), item 24: E. Acesso em: 18 ago. 2026.

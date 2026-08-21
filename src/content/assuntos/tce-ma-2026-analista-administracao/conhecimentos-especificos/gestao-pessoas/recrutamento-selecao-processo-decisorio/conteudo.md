@@ -186,16 +186,3 @@ Quantidade de inscritos, isoladamente, não mede qualidade do recrutamento. Rapi
 | pesos iguais são automaticamente neutros | **errada** |
 | acessibilidade necessariamente reduz a exigência | **errada** |
 | seleção interna substitui concurso para ingresso efetivo | **errada** |
-
-## Referências
-
-- [Edital do concurso TCE-MA 2026](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf), Cebraspe, 2026, acesso em 17 jul. 2026.
-- [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm), art. 37, versão vigente consultada em 17 jul. 2026.
-- [Lei Brasileira de Inclusão](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm), Lei nº 13.146/2015, especialmente arts. 34 e 38, versão vigente consultada em 17 jul. 2026.
-- [Structured Interviews](https://www.opm.gov/policy-data-oversight/assessment-and-selection/other-assessment-methods/structured-interviews/), U.S. Office of Personnel Management, acesso em 17 jul. 2026.
-- [Assessment Decision Guide](https://www.opm.gov/policy-data-oversight/assessment-and-selection/reference-materials/assessmentdecisionguide.pdf), U.S. Office of Personnel Management, acesso em 17 jul. 2026.
-- [Principles for the Validation and Use of Personnel Selection Procedures](https://www.apa.org/ed/accreditation/personnel-selection-procedures.pdf), Society for Industrial and Organizational Psychology, 2018, acesso em 17 jul. 2026.
-- [Revisiting Meta-Analytic Estimates of Validity in Personnel Selection](https://pubmed.ncbi.nlm.nih.gov/34968080/), Sackett et al., 2022, acesso em 17 jul. 2026.
-- [Internal Promotion and External Recruitment](https://www.journals.uchicago.edu/doi/10.1086/667814), DeVaro e Morita, *Journal of Labor Economics*, 2013, acesso em 17 jul. 2026.
-- [Within or Without?](https://journals.aom.org/doi/10.5465/amj.2012.0119), Bidwell e Keller, *Academy of Management Journal*, 2014, acesso em 17 jul. 2026.
-- [Perguntas frequentes do SATEPSI](https://satepsi.cfp.org.br/faq.cfm), Conselho Federal de Psicologia, acesso em 17 jul. 2026.

@@ -1,0 +1,4 @@
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm) — arts. 5º, XXXV, LIV e LV; 37; 49; 50; 58; 70 a 75.
+- [Lei nº 9.784, de 29 de janeiro de 1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm) — especialmente arts. 1º, 5º, 48, 50 e 53 a 56.
+- [Decreto-Lei nº 200, de 25 de fevereiro de 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) — supervisão ministerial e Administração indireta.
+- Supremo Tribunal Federal — Súmulas 346 e 473, sobre autotutela administrativa.

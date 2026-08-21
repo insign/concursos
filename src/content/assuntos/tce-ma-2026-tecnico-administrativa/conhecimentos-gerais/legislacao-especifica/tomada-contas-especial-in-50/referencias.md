@@ -1,0 +1,10 @@
+- Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 50/2017 — texto compilado](https://app.tcema.tc.br/publicacao/#/documentohtml/834?compilado=true).
+- Tribunal de Contas do Estado do Maranhão. [Publicação original da IN nº 50/2017](https://diario.apps.tcema.tc.br/publicacao/pdf/7419).
+- Tribunal de Contas do Estado do Maranhão. [Decisão Normativa TCE/MA nº 28/2017](https://app.stc.ma.gov.br/legisla/consulta/publicacao/5051).
+- Tribunal de Contas do Estado do Maranhão. [Instrução Normativa TCE/MA nº 56/2018](https://app.tcema.tc.br/publicacao/#/documentohtml/874).
+- Tribunal de Contas do Estado do Maranhão. [Portaria TCE/MA nº 1.166/2018](https://diario.apps.tcema.tc.br/publicacao/pdf/7673).
+- Tribunal de Contas do Estado do Maranhão. [Decisão Normativa TCE/MA nº 33/2020](https://diario.apps.tcema.tc.br/publicacao/pdf/8041), para a exceção histórica.
+- Tribunal de Contas do Estado do Maranhão. [Decisão Normativa TCE/MA nº 38/2020](https://app.tcema.tc.br/publicacao/#/documentohtml/7083).
+- Tribunal de Contas do Estado do Maranhão. [Sistemas externos — e-TCEspecial](https://www.tcema.tc.br/index.php/sistemas-externos).
+- Tribunal de Contas do Estado do Maranhão. [Resolução TCE/MA nº 383/2023 — compilada](https://app.tcema.tc.br/publicacao/#/documentohtml/17678?compilado=true) e [Resolução TCE/MA nº 406/2024](https://app.tcema.tc.br/publicacao/#/documentohtml/23397?compilado=true), apenas para a nota de direito vigente complementar.
+- Cebraspe. [Edital nº 1 — TCE/MA 2026](https://cdn.cebraspe.org.br/concursos/tce_ma_26/arquivos/ED_1_TCE_MA_26_ABERTURA.PDF), item de Legislação Específica do Cargo 16.

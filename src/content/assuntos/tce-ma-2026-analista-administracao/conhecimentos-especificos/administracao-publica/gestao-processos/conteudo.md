@@ -454,12 +454,3 @@ Este assunto trata de gestão de processos. Outros tópicos aprofundam:
 - estrutura organizacional.
 
 Aqui, essas interfaces aparecem apenas para esclarecer a gestão ponta a ponta.
-
-## Referências
-
-- ABPMP. **BPM CBOK — Guia para o Gerenciamento de Processos de Negócio**. Referência para ciclo, papéis, modelagem e governança.
-- BRASIL. **Lei nº 14.129, de 29 de março de 2021**. Princípios, regras e instrumentos para o Governo Digital. Disponível no [texto atualizado no Planalto](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm). Acesso em: 18 jul. 2026.
-- BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. **Guia de Gestão de Processos do Governo Federal**. Referência para ciclo, governança e aplicação pública.
-- BPMN. **Business Process Model and Notation**. Object Management Group. Disponível na [página oficial da especificação](https://www.omg.org/bpmn/). Acesso em: 18 jul. 2026.
-- ANTAQ. **Gestão por Processos de Negócio — BPM**. Disponível na [página institucional da ANTAQ](https://www.gov.br/antaq/pt-br/assuntos/gestao-estrategica/gestao-por-processos-de-negocio-bpm). Acesso em: 18 jul. 2026.
-- CEBRASPE. Itens anteriores de ANS, TCE/PR, TRE/PE, SEDF, TCDF, CNPq e STJ, identificados nas explicações das questões adaptadas.

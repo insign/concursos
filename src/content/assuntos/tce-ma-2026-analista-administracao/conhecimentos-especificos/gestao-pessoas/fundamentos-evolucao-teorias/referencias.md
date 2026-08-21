@@ -1,0 +1,4 @@
+- [Gestão de Pessoas: apostila](https://repositorio.enap.gov.br/bitstream/1/2521/1/GPFT%20-%20ApostilaCE.pdf), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
+- [Gestão estratégica de pessoas no setor público](https://repositorio.enap.gov.br/handle/1/7645), Escola Nacional de Administração Pública, acesso em 17 jul. 2026.
+- [Organizational theories](https://www.fao.org/4/w7503e/w7503e03.htm), Organização das Nações Unidas para a Alimentação e a Agricultura, acesso em 17 jul. 2026.
+- [The Human Relations Movement and Hawthorne Experiments](https://www.library.hbs.edu/hc/hawthorne/intro.html), Harvard Business School, acesso em 17 jul. 2026.

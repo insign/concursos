@@ -297,16 +297,3 @@ O **Memorial da Balaiada**, em Caxias, preserva acervo, documentos, artefatos, r
 6. Diferencie lideranças e papéis.
 7. Na repressão, procure a combinação de força, anistia e divisão.
 8. Em fontes históricas, pergunte quem produziu a narrativa e com qual interesse.
-
-## Referências
-
-- BRASIL. Edital nº 1 — TCE/MA, de 6 de julho de 2026. Item 10 de História do Maranhão: Balaiada, caracterização e causas.
-- GALVES, Marcelo Cheche. [Balaiada (Maranhão e Piauí, 1838-41): “povo” e política](https://www.historia.uff.br/impressoesrebeldes/revista/balaiada-maranhao-e-piaui-1838-41-povo-e-politica/). *Impressões Rebeldes*, UFF.
-- COSTA, João Paulo Peixoto. [Indestrutível Balaiada](https://www.historia.uff.br/impressoesrebeldes/revista/indestrutivel-balaiada/). *Impressões Rebeldes*, UFF.
-- IMPRESSÕES REBELDES. [Negro Cosme](https://www.historia.uff.br/impressoesrebeldes/pessoa/negro-cosme/). Universidade Federal Fluminense.
-- JANOTTI, Maria de Lourdes Monaco. [Balaiada: ação e exploração](https://revistas.usp.br/revhistoria/article/view/133155). *Revista de História*, USP, v. 52, n. 103, 1975.
-- ABRANTES, Elizabeth Sousa; PEREIRA, Josenildo de Jesus; MATEUS, Yuri Givago Alhadef Sampaio (org.). [Histórias e memórias da Balaiada](https://www.editorafi.org/ebook/517balaiada). Editora Fi, 2023.
-- MULTIRIO. [A Balaiada](https://www.multirio.rj.gov.br/index.php/artigos/11758-a-balaiada). Empresa Municipal de Multimeios do Rio de Janeiro.
-- MULTIRIO. [A revolta dos balaios: o movimento e a repressão da Regência](https://multirio.rio.rj.gov.br/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-prov%C3%ADncia-do-maranh%C3%A3o-entre-1838-e-1841).
-- ASSEMBLEIA LEGISLATIVA DO ESTADO DO MARANHÃO. [Memorial da Balaiada retrata momento histórico da cidade de Caxias](https://www.al.ma.leg.br/noticias2/29661).
-- PREFEITURA MUNICIPAL DE CAXIAS. [Memorial da Balaiada guarda acervo da guerra e documentos históricos](https://caxias.ma.gov.br/2021/07/22/cultura-memorial-da-balaiada-guarda-mais-de-350-itens-da-historia-da-guerra-da-balaiada-e-documentos-historicos-em-caxias-ma/).

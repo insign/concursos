@@ -68,7 +68,7 @@ npm run preview
 - Cada assunto terá conteúdo completo, cheat sheet e questões, e poderá ter resoluções complexas opcionais.
 - Cada grupo pode ter opcionalmente uma mega revisão autoral em `mega-revisao/index.md`, sem criar identidade persistida para o grupo.
 - Conteúdo e cheat sheet ficam em Markdown; questões ficam em JSON.
-- As sete Content Collections ficam em `src/content.config.ts`: `concursos`, `grupos`, `megaRevisoes`, `conteudos`, `cheatSheets`, `questoes` e `resolucoes`.
+- As oito Content Collections ficam em `src/content.config.ts`: `concursos`, `grupos`, `megaRevisoes`, `conteudos`, `cheatSheets`, `questoes`, `resolucoes` e `referencias`.
 - Schemas Zod reutilizáveis ficam em `src/lib/content-schema.ts`; mantenha objetos estritos e versões conhecidas.
 - Todo grupo deve ter um descritor estrito `grupo.json`; grupos são obrigatórios, podem ser aninhados e arquivos de assunto diretamente sob o concurso são proibidos.
 - `src/lib/catalog.ts` relaciona as collections, e a página raiz chama `getCatalog()` para que toda validação cruzada execute no build.
@@ -77,7 +77,8 @@ npm run preview
 - A mega revisão fica em `src/content/assuntos/<concurso>/<grupo>[/<grupo-n>...]/mega-revisao/index.md`; seu ID é o caminho completo do grupo, seu frontmatter estrito é `{schemaVersion: 1, slug, title?}`, e sua rota é `/revisoes/<concurso>/<revisao>/`, única por concurso e pertencente ao documento, não ao grupo.
 - Grupos não têm `storageId`, rota própria ou identidade de KV, IndexedDB, backup, progresso, sincronização ou offline; a rota da mega revisão não altera essa regra.
 - `contest.subjects` permanece a projeção plana para rotas, persistência e offline; `contest.children` é a árvore editorial.
-- Todo assunto deve possuir `conteudo.md`, `cheat-sheet.md` e `questoes.json`; pode conter resoluções opcionais em `resolucoes/<questionId>.md`; arquivos obrigatórios ausentes, resoluções órfãs, `questionId` inexistentes ou `questionRevision` divergentes devem falhar no build.
+- Todo assunto deve possuir `conteudo.md`, `cheat-sheet.md`, `questoes.json` e `referencias.md`; pode conter resoluções opcionais em `resolucoes/<questionId>.md`; arquivos obrigatórios ausentes, resoluções órfãs, `questionId` inexistentes ou `questionRevision` divergentes devem falhar no build.
+- `referencias.md` não tem frontmatter nem heading de nível 1 ou 2 (o rótulo visível pertence ao componente); cada grupo com mega revisão exige `mega-revisao/referencias.md`, e cada assunto com resoluções exige o agregado `resolucoes/referencias.md`; ausência, órfão, duplicado ou corpo vazio falham no build. Na página, as referências aparecem inline ao final do artigo em `<details>` nativo colapsado, expandidas na impressão, ocultas no modo de leitura sem distrações e excluídas do cálculo do progresso de leitura.
 - Todo grupo pode ter no máximo uma mega revisão opcional; o build falha para revisão órfã, grupo inexistente, ID duplicado ou slug de revisão duplicado no concurso. A abrangência percorre descendentes em ordem editorial e delega subgrupos que tenham sua própria revisão, evitando duplicação.
 - O `/sync-catalog.json` mantém apenas o schema necessário para respostas, sem `origin`, para compatibilidade com clientes PWA já publicados; o filtro de origem usa o `QuestionSet` editorial entregue na página estática.
 - `resolucoes` usa frontmatter estrito versionado `{schemaVersion: 1, questionRevision, title?}`; sua disponibilidade é derivada do catálogo, sem campos em `questionSchema`, `syncQuestionSchema`, `/sync-catalog.json`, pools de simulados, snapshots ou documentos persistidos.
@@ -132,7 +133,7 @@ npm run preview
 - O `urlreader` deve retornar o conteúdo extraído do URL, sem síntese, interpretação, contextualização ou agregação de valor; a análise e a decisão sobre esse conteúdo são responsabilidade do agente que o chamou.
 - Em matérias jurídicas ou normativas, fixe o corte temporal antes da redação e separe explicitamente: legislação vigente na data de publicação do edital; norma futura citada pelo próprio edital; jurisprudência formada ou aplicável dentro do corte; e atualização posterior, sempre marcada como `pós-edital` ou `direito vigente hoje`, sem projetá-la retroativamente sobre o recorte da prova.
 - Nunca apresente como fato uma afirmação sem apoio nas fontes consultadas. Se fontes confiáveis divergirem, explique o recorte adotado no conteúdo.
-- Termine `conteudo.md` com uma seção de referências que identifique título, entidade responsável e URL de cada fonte efetivamente usada; para normas e jurisprudência, registre também versão, publicação ou vigência relevante e data de acesso.
+- Registre as referências em `referencias.md` com título, entidade responsável e URL de cada fonte efetivamente usada; para normas e jurisprudência, registre também versão, publicação ou vigência relevante e data de acesso. `conteudo.md` não deve conter seção de referências.
 - Em Markdown editorial, nunca exponha uma URL crua como texto visível. Todo link deve usar um título curto, descritivo e contextual na forma `[título](URL)`, inclusive nas referências, preservando o endereço completo apenas no destino do link.
 
 ### Conteúdo completo

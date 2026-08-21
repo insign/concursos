@@ -400,8 +400,3 @@ O artigo entra apenas como limite estrutural; o edital não exige organização 
 16. Criação e extinção de Ministérios e órgãos dependem de **lei**.
 
 ---
-
-## Referências
-
-- BRASIL. **Constituição da República Federativa do Brasil de 1988**, especialmente arts. 76, 84, 87 e 88. <https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm>.
-- CEBRASPE. **Edital nº 1 - TCE/MA, de 6 de julho de 2026**, versão atualizada conforme o Edital nº 2, de 29 de julho de 2026, Cargo 16, Noções de Direito Constitucional, item 6.1.

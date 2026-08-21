@@ -528,16 +528,3 @@ Em situação-problema, responda em cinco passos:
 18. código genérico ≠ escolha preferencial;
 19. dígito verificador ≠ prova da especificação;
 20. código hierárquico depende de tabela de domínio.
-
-## Referências
-
-- [Edital nº 1/2026 do TCE-MA](https://cdn.cebraspe.org.br/concursos/TCE_MA_26/arquivos/5FADC380CB030A07F557A9C5EEA6D063017A2CA675E683F39C50B65E6D70F57B.pdf) — Cebraspe e Tribunal de Contas do Estado do Maranhão. Publicado em 6 jul. 2026; item 14.2.4, Cargo 1. Acesso em 6 ago. 2026.
-- [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) — Presidência da República. Texto consolidado vigente no corte; arts. 5º, 6º, 9º, 11, 18, 19 e 40 a 44. Acesso em 6 ago. 2026.
-- [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm) — Presidência da República. Texto compilado; art. 15, § 2º. Acesso em 6 ago. 2026.
-- [Manual de Contabilidade Aplicada ao Setor Público, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1) — Secretaria do Tesouro Nacional. Edição vigente a partir de 2025; critérios de material de consumo e distinção entre classificação orçamentária, controle patrimonial e reconhecimento do ativo. Acesso em 6 ago. 2026.
-- [Decreto nº 10.818, de 27 de setembro de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/d10818.htm) — Presidência da República. Enquadramento federal de bens de consumo em qualidade comum e de luxo. Acesso em 6 ago. 2026.
-- [Portaria STN nº 841, de 17 de maio de 2021](https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=18%2F05%2F2021&jornal=515&pagina=61) — Secretaria do Tesouro Nacional. Art. 2º, XLVIII; revogação da Portaria STN nº 448/2002 com efeitos em 1º jun. 2021. Acesso em 6 ago. 2026.
-- [IN SLTI/MP nº 2, de 16 de agosto de 2011](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-ndeg-2-de-16-de-agosto-de-2011) — Portal de Compras do Governo Federal. Procedimentos do SIASG e definições de CATMAT/CATSER. Acesso em 6 ago. 2026.
-- [Recomendação sobre código específico CATMAT/CATSER](https://www.gov.br/compras/pt-br/agente-publico/orientacoes-e-procedimentos/36-recomendacao-sobre-uso-de-codigo-especifico-do-catalogo-de-bens-e-servicos-catmat-catser-2013-acordao-2831-2021-tcu-plenario) — Secretaria de Gestão, Portal de Compras do Governo Federal. Atualizada em 3 jul. 2026. Acesso em 6 ago. 2026.
-- [Introdução ao Cadastro de Materiais do SIADS](https://siads.fazenda.gov.br/tutorial/html/demo_93.html) — Ministério da Fazenda. Estrutura de material, item de material e PDM. Acesso em 6 ago. 2026.
-- [Catálogo Eletrônico de Padronização](https://www.gov.br/pncp/pt-br/catalogo-eletronico-de-padronizacao) — Portal Nacional de Contratações Públicas. Implementação federal da Portaria Seges/ME nº 938/2022. Acesso em 6 ago. 2026.

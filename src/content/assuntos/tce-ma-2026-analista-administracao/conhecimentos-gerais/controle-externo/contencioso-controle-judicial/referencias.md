@@ -1,0 +1,12 @@
+- [Constituição da República Federativa do Brasil de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — arts. 5º, XXXV, LIV e LV, e 217, §§ 1º e 2º.
+- [Lei nº 12.016/2009](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm) — mandado de segurança.
+- [Lei nº 9.507/1997](https://www.planalto.gov.br/ccivil_03/leis/l9507.htm) — habeas data.
+- [Lei nº 4.717/1965](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm) — ação popular.
+- [Lei nº 7.347/1985](https://www.planalto.gov.br/ccivil_03/leis/l7347orig.htm) — ação civil pública.
+- [LINDB](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm) — arts. 20 a 24.
+- [Tema 350 — RE 631.240](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=350) — prévio requerimento previdenciário e interesse de agir.
+- [Tema 698 — RE 684.612](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=698) — controle judicial de políticas públicas.
+- [Tema 1420 — ARE 1.553.243](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1420) — controle judicial da heteroidentificação.
+- [Súmula Vinculante 5](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1199) — defesa técnica em PAD.
+- [Súmula 665/STJ](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2023/20122023-Pagina-Sumulas-Anotadas-inclui-novo-enunciado-sobre-processo-administrativo-disciplinar-.aspx) — limites do controle jurisdicional do PAD.
+- [Súmulas 346 e 473/STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp) — autotutela, anulação e revogação.

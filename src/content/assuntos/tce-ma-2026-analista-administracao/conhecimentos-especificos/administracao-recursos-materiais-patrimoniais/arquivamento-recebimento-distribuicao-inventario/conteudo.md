@@ -337,12 +337,3 @@ O sistema mostra 120 unidades, e a contagem encontra 116. A equipe não ajusta i
 13. **Digitalização não autoriza eliminação automática.**
 14. **Backup não é preservação arquivística completa.**
 15. **A IN SEDAP nº 205/1988 é referência federal, não regra automaticamente imputada ao TCE/MA.**
-
-## Referências
-
-- [Instrução Normativa SEDAP nº 205, de 8 de abril de 1988](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-no-205-de-08-de-abril-de-1988), Secretaria de Administração Pública da Presidência da República, texto disponibilizado no Portal de Compras do Governo Federal; âmbito do SISG federal; acesso em 6 ago. 2026.
-- [Lei nº 4.320, de 17 de março de 1964](https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm), Presidência da República, texto compilado, especialmente arts. 63 e 94 a 96; acesso em 6 ago. 2026.
-- [Lei nº 8.159, de 8 de janeiro de 1991](https://www.planalto.gov.br/ccivil_03/leis/l8159.htm), Presidência da República, política nacional de arquivos públicos e privados; acesso em 6 ago. 2026.
-- [Lei nº 12.682, de 9 de julho de 2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12682.htm), Presidência da República, elaboração e arquivamento de documentos em meios eletromagnéticos; acesso em 6 ago. 2026.
-- [Decreto nº 10.278, de 18 de março de 2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10278.htm), Presidência da República, requisitos para digitalização de documentos; acesso em 6 ago. 2026.
-- [Lei nº 14.133, de 1º de abril de 2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art140), Presidência da República, texto vigente na publicação do edital, especialmente art. 140; acesso em 6 ago. 2026.
