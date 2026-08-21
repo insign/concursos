@@ -12,7 +12,7 @@
 
 | Fonte/plano | Uso predominante |
 | --- | --- |
-| IN SEDAP nº 205/1988 | material como gênero amplo, inclusive permanentes |
+| <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 | material como gênero amplo, inclusive permanentes |
 | literatura administrativa | pode separar recursos materiais e patrimoniais |
 | Lei nº 4.320/1964 | consumo × permanente para classificar a despesa |
 | controle patrimonial | incorporação, tombamento, carga, movimentação, inventário e baixa |
@@ -70,7 +70,7 @@ $$
 - Lei nº 4.320/1964, art. 15, § 2º: permanente = duração superior a dois anos **para classificar a despesa**.
 - Plaqueta não cria natureza permanente.
 - Tombamento é técnica de identificação.
-- Portaria STN nº 448/2002: revogada.
+- Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr> nº 448/2002: revogada.
 - Bem consumível civil não equivale automaticamente a material de consumo.
 - Consumo no almoxarifado pode ser estoque contábil.
 
@@ -98,7 +98,7 @@ $$
 
 ## Estoques, imobilizado e intangível
 
-- NBC TSP 04 (R1): estoques.
+- <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 04 (R1): estoques.
 - NBC TSP 08 (R1): ativo intangível.
 - NBC TSP 37: ativo imobilizado.
 - NBC TSP 38: mensuração.
@@ -185,7 +185,7 @@ Na produção interna, o custo pode incluir materiais, mão de obra direta e out
 
 - **pressão:** tabela e periodicidade predefinidas, sem pedido posterior.
 - **requisição:** entrega mediante pedido interno.
-- Conceitos da IN nº 205/1988 pertencem ao SISG federal.
+- Conceitos da IN nº 205/1988 pertencem ao <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal.
 
 ## Inventários
 
@@ -243,4 +243,4 @@ O ciclo retroalimenta o planejamento.
 - Descarga não é necessariamente desfazimento.
 - Relatório sem contagem não prova inventário.
 - Área de materiais não atua isoladamente.
-- IN nº 205/1988 não vincula automaticamente um TCE estadual.
+- IN nº 205/1988 não vincula automaticamente um <abbr title="Tribunal de Contas do Estado">TCE</abbr> estadual.
