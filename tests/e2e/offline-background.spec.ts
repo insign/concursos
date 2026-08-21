@@ -2,6 +2,9 @@ import { expect, test } from './fixtures';
 
 const contestPath = '/concursos/concurso-exemplo/';
 
+// Escopo sintético: valida o espelhamento de eventos no controle da página.
+// O caminho real (SW publicando após navegação) é coberto pelos testes
+// unitários do motor e pela suíte SW-enabled de pwa.spec.ts.
 test('surfaces service-worker update progress on the package control', async ({ page }) => {
   await page.goto(contestPath);
   const section = page.locator('[data-offline-package][data-contest-storage-id="exemplo"]');

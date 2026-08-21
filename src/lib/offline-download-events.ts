@@ -36,7 +36,11 @@ export function subscribeDownloadEvents(handler: Publish): () => void {
   // emissor, e o emissor deste contexto usa o singleton de publicação.
   if (typeof BroadcastChannel === 'undefined') return () => undefined;
   const bus = new BroadcastChannel(DOWNLOAD_EVENTS_CHANNEL);
-  const listener = (event: MessageEvent) => handler(event.data as DownloadEvent);
+  const listener = (event: MessageEvent) => {
+    const data = event.data as DownloadEvent | null | undefined;
+    if (!data || typeof data !== 'object' || typeof data.type !== 'string') return;
+    handler(data);
+  };
   bus.addEventListener('message', listener);
   return () => {
     bus.removeEventListener('message', listener);

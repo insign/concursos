@@ -151,10 +151,11 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
         message.textContent = `Atualizando ${event.completed} de ${event.total} recursos...`;
         return;
       }
+      // Ramificações terminais devolvem o controle ao usuário.
+      downloadButton.disabled = false;
+      progress.hidden = true;
       if (event.type === 'completed') {
         window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
-        void renderAvailability();
-        return;
       }
       void renderAvailability();
     });
