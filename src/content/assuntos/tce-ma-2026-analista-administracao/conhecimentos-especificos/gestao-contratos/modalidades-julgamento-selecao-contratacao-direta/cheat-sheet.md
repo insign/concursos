@@ -62,12 +62,12 @@
 - Devolução: até dez dias úteis da assinatura ou declaração de fracasso.
 - Recusa em contratar/não entrega de documentos: execução integral da garantia.
 - Engenharia abaixo de **75%** do orçamento: literalidade do art. 59, § 4º.
-- **TCU, Acórdão 803/2024:** 75% gera presunção relativa → oportunizar demonstração da exequibilidade por diligência.
+- <abbr title="Tribunal de Contas da União">TCU</abbr>, Acórdão 803/2024: 75% gera presunção relativa → oportunizar demonstração da exequibilidade por diligência.
 - Vencedora abaixo de **85%** do orçamento: garantia adicional.
 - Cálculo adotado pelo TCU: **85% do orçamento − proposta**.
 - Ex.: orçamento R$ 1.000.000; proposta R$ 800.000 → garantia adicional **R$ 50.000**.
 
-## Compras — art. 44-A do SUS
+## Compras — art. 44-A do <abbr title="Sistema Único de Saúde">SUS</abbr>
 
 - Vigente desde **16 mar. 2026**.
 - Equipamento diagnóstico/terapêutico do SUS acima do art. 75, II: considerar adequado aproveitamento durante toda a vida útil.
@@ -82,7 +82,7 @@
 3. ações de equidade entre homens e mulheres;
 4. programa de integridade.
 
-Preferência sucessiva: empresa local nos termos do art. 60; brasileira; investidora em P&D no País; praticante de mitigação climática. Preserve o regime de ME/EPP.
+Preferência sucessiva: empresa local nos termos do art. 60; brasileira; investidora em <abbr title="Pesquisa e Desenvolvimento">P&D</abbr> no País; praticante de mitigação climática. Preserve o regime de <abbr title="Microempresa">ME</abbr>/<abbr title="Empresa de Pequeno Porte">EPP</abbr>.
 
 ## Prazos mínimos do edital
 
@@ -184,7 +184,7 @@ Exclusividade deve ser provada; é vedada preferência por marca. Profissional q
 
 ### Credenciamento
 
-- Paralelo/não excludente; escolha por terceiro; mercado fluido; comércio eletrônico no Sicx.
+- Paralelo/não excludente; escolha por terceiro; mercado fluido; comércio eletrônico no <abbr title="Sistema de Compras Expressas">Sicx</abbr>.
 - Chamamento aberto permanentemente.
 - Distribuição objetiva se não for possível contratar todos simultaneamente.
 
@@ -195,24 +195,24 @@ Exclusividade deve ser provada; é vedada preferência por marca. Profissional q
 - Validade: até um ano e nunca além da validade dos documentos.
 - Futuro certame pode ficar restrito aos pré-qualificados.
 
-### PMI
+### <abbr title="Procedimento de Manifestação de Interesse">PMI</abbr>
 
 - Estudo privado não gera preferência nem obriga a licitar.
 - Não gera ressarcimento por si só.
 - Remuneração só pelo vencedor da futura licitação; nunca pelo poder público.
 
-### SRP
+### <abbr title="Sistema de Registro de Preços">SRP</abbr>
 
 - Ata não obriga a Administração a contratar.
 - Vigência: um ano, prorrogável por igual período com preço vantajoso.
 - Engenharia: projeto padronizado sem complexidade + necessidade permanente/frequente.
-- IRP: mínimo de oito dias úteis; dispensável se houver único contratante.
+- <abbr title="Intenção de Registro de Preços">IRP</abbr>: mínimo de oito dias úteis; dispensável se houver único contratante.
 - Adesão individual: 50%; total das adesões: dobro.
 - Órgão federal não adere a ata estadual/distrital/municipal.
 
 ### Registro cadastral
 
-- Cadastro unificado no PNCP para licitantes e contratados.
+- Cadastro unificado no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> para licitantes e contratados.
 - Público, permanentemente aberto e com chamamento anual.
 - Cadastro complementar não pode ser exigido para acessar edital/anexos.
 - Participação enquanto cadastro é decidido; contrato só após certificado.
@@ -223,4 +223,4 @@ Exclusividade deve ser provada; é vedada preferência por marca. Profissional q
 - Art. 44-A: vigente desde 16 mar. 2026, com §§ 2º a 5º vetados.
 - Lei nº 15.266/2025: Sicx e cadastro de licitantes e contratados.
 - Lei nº 15.471/2026: **pós-edital**, não substitui o art. 75, XVI aplicável no corte.
-- Decretos e IN federais não se aplicam automaticamente ao TCE-MA, salvo adoção/incidência válida.
+- Decretos e <abbr title="Instruções Normativas">IN</abbr> federais não se aplicam automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, salvo adoção/incidência válida.
