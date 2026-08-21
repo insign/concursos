@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import AbbreviationRuntime from '../../../../components/AbbreviationRuntime.astro';
+import DocumentReferences from '../../../../components/DocumentReferences.astro';
 import MermaidRuntime from '../../../../components/MermaidRuntime.astro';
 import StudyLayout from '../../../../layouts/StudyLayout.astro';
 import { getSubjectStaticPaths, type CatalogContest, type CatalogSubject } from '../../../../lib/catalog';
@@ -15,9 +16,16 @@ export const getStaticPaths = getSubjectStaticPaths;
 const { contest, subject } = Astro.props;
 const { Content, remarkPluginFrontmatter } = await render(subject.contentEntry);
 const body = subject.contentEntry.body ?? '';
-const hasAbbreviation = remarkPluginFrontmatter.hasTitledAbbreviation === true;
-const hasMermaid = body.includes('```mermaid');
+const hasContentAbbreviation = remarkPluginFrontmatter.hasTitledAbbreviation === true;
 const contentHasH1 = /^\s*#\s/.test(body);
+
+const referencesEntry = subject.referencesEntry;
+const referencesRendered = referencesEntry ? await render(referencesEntry) : null;
+const ReferencesContent = referencesRendered?.Content ?? null;
+const referencesBody = referencesEntry?.body ?? '';
+const hasAbbreviation =
+  hasContentAbbreviation || referencesRendered?.remarkPluginFrontmatter.hasTitledAbbreviation === true;
+const hasMermaid = body.includes('```mermaid') || referencesBody.includes('```mermaid');
 ---
 
 <StudyLayout contest={contest} subject={subject} active="content">
@@ -29,6 +37,11 @@ const contentHasH1 = /^\s*#\s/.test(body);
   <article>
     {!contentHasH1 && <h1 class="reading-title">{subject.title}</h1>}
     <Content />
+    {referencesRendered && ReferencesContent && (
+      <DocumentReferences>
+        <ReferencesContent />
+      </DocumentReferences>
+    )}
   </article>
   {hasAbbreviation && <AbbreviationRuntime />}
   {hasMermaid && <MermaidRuntime />}

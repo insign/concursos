@@ -1,4 +1,6 @@
 <script>
+  import { readingProgressFraction } from '../lib/reading-progress';
+
   const root = document.querySelector<HTMLElement>('[data-reading-focus]');
   const openers = root
     ? Array.from(root.querySelectorAll<HTMLAnchorElement>('[data-reading-focus-open]'))
@@ -254,11 +256,16 @@
       progressFrame = 0;
       if (!progressIndicator || !readingArticle) return;
       const article = readingArticle.getBoundingClientRect();
-      const start = window.scrollY + article.top;
-      const scrollable = Math.max(0, article.height - window.innerHeight);
-      const progress = scrollable === 0
-        ? 1
-        : Math.min(1, Math.max(0, (window.scrollY - start) / scrollable));
+      const excluded = readingArticle.querySelector<HTMLElement>('[data-reading-progress-ignore]');
+      const excludedRect = excluded?.getBoundingClientRect();
+      const excludedTop = excludedRect && excludedRect.height > 0 ? excludedRect.top : null;
+      const progress = readingProgressFraction({
+        articleTop: article.top,
+        articleBottom: article.bottom,
+        excludedTop,
+        scrollY: window.scrollY,
+        viewportHeight: window.innerHeight,
+      });
       const label = `${Math.round(progress * 100)}%`;
       if (progressIndicator.textContent === label) return;
       progressIndicator.textContent = label;

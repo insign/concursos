@@ -3,9 +3,11 @@ import {
   contestIdFromEntry,
   groupIdFromEntry,
   megaReviewIdFromEntry,
+  parseReferenceId,
   parseResolutionId,
   parseGroupId,
   parseSubjectId,
+  referenceIdFromEntry,
   resolutionIdFromEntry,
   subjectIdFromEntry,
 } from '../../src/lib/content-paths';
@@ -71,5 +73,43 @@ describe('content paths', () => {
     expect(() => resolutionIdFromEntry('concurso/grupo/assunto/resolucoes/Q 1.md')).toThrow(
       'ID de questão de resolução inválido',
     );
+  });
+
+  it('classifies reference files by path shape', () => {
+    const subjectPath = 'concurso-exemplo/administracao/publica/assunto-exemplo';
+    const groupPath = 'concurso-exemplo/administracao/publica';
+
+    expect(referenceIdFromEntry(`${subjectPath}/referencias.md`)).toBe(subjectPath);
+    expect(referenceIdFromEntry(`${groupPath}/mega-revisao/referencias.md`)).toBe(
+      `${groupPath}/mega-revisao`,
+    );
+    expect(referenceIdFromEntry(`${subjectPath}\\resolucoes\\referencias.md`)).toBe(
+      `${subjectPath}/resolucoes`,
+    );
+
+    expect(parseReferenceId(subjectPath)).toEqual({ kind: 'subject', subjectId: subjectPath });
+    expect(parseReferenceId(`${groupPath}/mega-revisao`)).toEqual({
+      kind: 'mega-review',
+      groupId: groupPath,
+    });
+    expect(parseReferenceId(`${subjectPath}/resolucoes`)).toEqual({
+      kind: 'resolutions',
+      subjectId: subjectPath,
+    });
+  });
+
+  it('rejects misplaced or malformed reference files', () => {
+    expect(() => referenceIdFromEntry('concurso/grupo/assunto/referencias.txt')).toThrow('deve terminar');
+    expect(() => referenceIdFromEntry('concurso/referencias.md')).toThrow('<concurso>/<grupo>');
+    expect(() => referenceIdFromEntry('concurso/mega-revisao/referencias.md')).toThrow('<concurso>/<grupo>');
+    expect(() => referenceIdFromEntry('concurso/grupo/assunto/resolucoes/referencias.md')).not.toThrow();
+    expect(() => referenceIdFromEntry('concurso/Grupo/referencias.md')).toThrow('ID de assunto deve usar');
+    expect(() => parseReferenceId('concurso/outro')).toThrow('ID de assunto deve usar');
+  });
+
+  it('never treats the references companion as a question resolution', () => {
+    expect(() =>
+      resolutionIdFromEntry('concurso/grupo/assunto/resolucoes/referencias.md'),
+    ).toThrow('collection de referências');
   });
 });

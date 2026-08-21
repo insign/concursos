@@ -12,16 +12,22 @@ import { parseResolutionId } from './content-paths';
 
 export * from './catalog-core';
 
+// Flip para true no commit de obrigatoriedade, após a migração completa.
+const REQUIRE_REFERENCES = false;
+
 export interface CatalogSubject extends CatalogSubjectIndex {
   contentEntry: CollectionEntry<'conteudos'>;
   cheatSheetEntry: CollectionEntry<'cheatSheets'>;
   questionSetEntry: CollectionEntry<'questoes'>;
   resolutionEntries: CollectionEntry<'resolucoes'>[];
+  referencesEntry: CollectionEntry<'referencias'> | null;
+  resolutionReferencesEntry: CollectionEntry<'referencias'> | null;
 }
 
 export interface CatalogGroup extends Omit<CatalogGroupIndex, 'children'> {
   children: CatalogTreeNode[];
   megaReviewEntry: CollectionEntry<'megaRevisoes'> | null;
+  megaReviewReferencesEntry: CollectionEntry<'referencias'> | null;
 }
 
 export type CatalogTreeNode = CatalogGroup | CatalogSubject;
@@ -53,7 +59,7 @@ function createContestOfflineInventory(contest: CatalogContestIndex) {
 }
 
 export async function getCatalog(): Promise<Catalog> {
-  const [contestEntries, groupEntries, megaReviewEntries, contentEntries, cheatSheetEntries, questionSetEntries, resolutionEntries] = await Promise.all([
+  const [contestEntries, groupEntries, megaReviewEntries, contentEntries, cheatSheetEntries, questionSetEntries, resolutionEntries, referenceEntries] = await Promise.all([
     getCollection('concursos'),
     getCollection('grupos'),
     getCollection('megaRevisoes'),
@@ -61,7 +67,14 @@ export async function getCatalog(): Promise<Catalog> {
     getCollection('cheatSheets'),
     getCollection('questoes'),
     getCollection('resolucoes'),
+    getCollection('referencias'),
   ]);
+
+  for (const entry of referenceEntries) {
+    if (!(entry.body ?? '').trim()) {
+      throw new Error(`Referências "${entry.id}" não possuem conteúdo`);
+    }
+  }
 
   const index = buildCatalogIndex({
     contests: contestEntries.map(({ id, data }) => ({ id, data })),
@@ -71,12 +84,14 @@ export async function getCatalog(): Promise<Catalog> {
     cheatSheetIds: cheatSheetEntries.map(({ id }) => id),
     questionSets: questionSetEntries.map(({ id, data }) => ({ id, data })),
     resolutions: resolutionEntries.map(({ id, data }) => ({ id, data })),
-  });
+    references: referenceEntries.map(({ id, data }) => ({ id, data })),
+  }, { requireReferences: REQUIRE_REFERENCES });
 
   const contentById = new Map(contentEntries.map((entry) => [entry.id, entry]));
   const megaReviewById = new Map(megaReviewEntries.map((entry) => [entry.id, entry]));
   const cheatSheetById = new Map(cheatSheetEntries.map((entry) => [entry.id, entry]));
   const questionSetById = new Map(questionSetEntries.map((entry) => [entry.id, entry]));
+  const referenceById = new Map(referenceEntries.map((entry) => [entry.id, entry]));
   const resolutionEntriesBySubjectId = new Map<string, CollectionEntry<'resolucoes'>[]>();
   for (const entry of resolutionEntries) {
     const subjectId = parseResolutionId(entry.id).subjectId;
@@ -93,6 +108,8 @@ export async function getCatalog(): Promise<Catalog> {
         cheatSheetEntry: cheatSheetById.get(subject.id)!,
         questionSetEntry: questionSetById.get(subject.id)!,
         resolutionEntries: resolutionEntriesBySubjectId.get(subject.id) ?? [],
+        referencesEntry: referenceById.get(subject.id) ?? null,
+        resolutionReferencesEntry: referenceById.get(`${subject.id}/resolucoes`) ?? null,
       }));
       const subjectsById = new Map(subjects.map((subject) => [subject.id, subject]));
 
@@ -101,6 +118,9 @@ export async function getCatalog(): Promise<Catalog> {
       const hydrateGroup = (group: CatalogGroupIndex): CatalogGroup => ({
         ...group,
         megaReviewEntry: group.megaReview ? megaReviewById.get(group.megaReview.id)! : null,
+        megaReviewReferencesEntry: group.megaReview
+          ? referenceById.get(`${group.megaReview.id}/mega-revisao`) ?? null
+          : null,
         children: group.children.map(hydrateNode),
       });
 
