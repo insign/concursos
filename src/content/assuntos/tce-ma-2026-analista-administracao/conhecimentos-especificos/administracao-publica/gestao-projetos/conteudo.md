@@ -12,11 +12,11 @@ storageId: gestao-projetos
 
 O edital cobra **gestão de projetos** como item autônomo de Administração Pública. O núcleo estudável é compreender como uma organização transforma uma necessidade temporária em entregas, resultados, benefícios e valor, com governança, planejamento, execução, monitoramento, adaptação e encerramento.
 
-Este assunto percorre os conceitos gerais mais cobrados, a linguagem do Project Management Institute — PMI, a ISO 21502, métodos preditivos e adaptativos, ferramentas quantitativas e a aplicação ao setor público. As interfaces com planejamento estratégico, qualidade, processos, pessoas e contratações aparecem apenas quando necessárias para gerir o projeto; esses temas possuem aprofundamento próprio em outros assuntos do edital.
+Este assunto percorre os conceitos gerais mais cobrados, a linguagem do Project Management Institute — PMI, a <abbr title="International Organization for Standardization">ISO</abbr> 21502, métodos preditivos e adaptativos, ferramentas quantitativas e a aplicação ao setor público. As interfaces com planejamento estratégico, qualidade, processos, pessoas e contratações aparecem apenas quando necessárias para gerir o projeto; esses temas possuem aprofundamento próprio em outros assuntos do edital.
 
 > **Ideia central:** projeto não existe para produzir documentos ou cumprir tarefas. Ele mobiliza recursos por tempo limitado para entregar uma mudança útil, justificável, governada e capaz de gerar valor.
 
-## 2. Corte temporal e leitura das edições do PMBOK
+## 2. Corte temporal e leitura das edições do <abbr title="Project Management Body of Knowledge">PMBOK</abbr>
 
 Na publicação do edital, em **6 de julho de 2026**, a edição vigente do *PMBOK Guide* era a **8ª edição**, publicada em novembro de 2025. A 7ª e a 6ª edições permanecem relevantes como referências históricas e porque questões podem indicar expressamente uma edição ou reproduzir sua terminologia.
 
@@ -304,7 +304,7 @@ No Método do Diagrama de Precedência:
 - **bottom-up:** estima componentes detalhados e os agrega;
 - **três pontos:** considera cenários otimista, mais provável e pessimista.
 
-Na distribuição beta do PERT:
+Na distribuição beta do <abbr title="Program Evaluation and Review Technique">PERT</abbr>:
 
 $$
 TE = \frac{O + 4M + P}{6}
@@ -345,7 +345,7 @@ Custos são estimados, agregados no orçamento e controlados. A **linha de base 
 - **reserva gerencial:** cobre trabalho imprevisto dentro do escopo e fica fora da linha de base, embora componha o orçamento total;
 - **BAC — Budget at Completion:** orçamento na conclusão correspondente à linha de base total do trabalho.
 
-### 12.1 Gerenciamento do Valor Agregado — GVA/EVM
+### 12.1 Gerenciamento do Valor Agregado — GVA/<abbr title="Earned Value Management">EVM</abbr>
 
 | Medida | Significado |
 | --- | --- |

@@ -21,7 +21,7 @@ No setor público, estratégia não se resume a competir ou obter lucro. Ela dev
 | **estratégia** | conjunto coerente de escolhas, diretrizes, objetivos, prioridades e ações |
 | **planejamento estratégico** | processo sistêmico de estabelecimento da estratégia |
 | **plano estratégico** | produto documental que explicita a estratégia |
-| **PEI** | Plano Estratégico Institucional, produto mínimo exigido pela IN SEGES/ME nº 24/2020 no âmbito indicado pela norma |
+| **PEI** | Plano Estratégico Institucional, produto mínimo exigido pela <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 24/2020 no âmbito indicado pela norma |
 | **gestão estratégica** | implementação, condução, monitoramento, avaliação, aprendizagem e revisão contínuas |
 
 A IN SEGES/ME nº 24/2020 define planejamento estratégico como processo sistêmico que parte da condição presente, da identidade e do contexto para alcançar situação futura desejada, buscando efetividade dos resultados e eficiência dos recursos. O PEI documenta, no mínimo, cadeia de valor, missão, visão, valores, objetivos, indicadores, metas e projetos estratégicos.
@@ -287,7 +287,7 @@ Concentrar-se em um segmento não é, por si só, diferenciação: caracteriza e
 | novos | atuais | desenvolvimento de produto |
 | novos | novos | diversificação |
 
-### 10.4 Matriz BCG
+### 10.4 Matriz <abbr title="Boston Consulting Group">BCG</abbr>
 
 | Crescimento | Participação relativa | Quadrante |
 | --- | --- | --- |
@@ -344,7 +344,7 @@ A validação da estratégia exige observar se os direcionadores produziram os r
 - iniciativa sem relação com objetivo dispersa recursos;
 - causa e efeito no mapa são hipóteses a testar, não leis naturais.
 
-## 13. OKR
+## 13. <abbr title="Objectives and Key Results">OKR</abbr>
 
 - **objetivo:** direção qualitativa, clara e mobilizadora;
 - **resultados-chave:** evidências mensuráveis de progresso.
@@ -376,9 +376,9 @@ A IN SEGES/ME nº 24/2020 exige alinhamento do PEI aos instrumentos de planejame
 | Instrumento | Núcleo |
 | --- | --- |
 | **PEI** | estratégia institucional e seus elementos |
-| **PPA** | diretrizes, objetivos e metas de médio prazo governamental |
-| **LDO** | prioridades, metas e orientação da elaboração orçamentária |
-| **LOA** | estima receitas e fixa despesas anuais |
+| **<abbr title="Plano Plurianual">PPA</abbr>** | diretrizes, objetivos e metas de médio prazo governamental |
+| **<abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>** | prioridades, metas e orientação da elaboração orçamentária |
+| **<abbr title="Lei Orçamentária Anual">LOA</abbr>** | estima receitas e fixa despesas anuais |
 
 PEI não substitui PPA, LDO ou LOA. O alinhamento evita plano sem suporte orçamentário e orçamento sem direção estratégica.
 

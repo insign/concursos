@@ -84,7 +84,7 @@ O Decreto nº 9.203/2017 define valor público como produtos e resultados gerado
 | finalidade predominante | valor econômico e sustentabilidade do negócio | valor público e atendimento ao interesse público |
 | recursos | privados ou captados no mercado | públicos, vinculados a competência e orçamento |
 | destinatário | cliente e demais partes interessadas | cidadão, usuário, sociedade e grupos destinatários legítimos |
-| risco | suportado segundo propriedade e contratos | suportado institucionalmente, com legalidade, controle e accountability |
+| risco | suportado segundo propriedade e contratos | suportado institucionalmente, com legalidade, controle e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
 | sucesso | receita, crescimento, lucro, impacto e continuidade | efetividade, legitimidade, equidade, confiança, eficiência e capacidade pública |
 
 As diferenças não impedem aprendizagem entre setores. Métodos de experimentação, desenho de serviços, análise de dados e gestão ágil podem ser úteis, desde que adaptados ao contexto público.
@@ -195,7 +195,7 @@ Governo catalisador tampouco significa Estado ausente. Mesmo quando não executa
 
 ### 5.1 Orientações de inovação
 
-A OCDE distingue orientações que podem coexistir:
+A <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr> distingue orientações que podem coexistir:
 
 | Orientação | Pergunta predominante |
 | --- | --- |
@@ -542,7 +542,7 @@ Uma liderança inclusiva distribui voz, combate barreiras de participação e co
 Ética não entra apenas no final para validar solução pronta. Deve orientar definição do problema, coleta de dados, seleção de participantes, desenho, contratação, implementação e avaliação. Uma inovação tecnicamente eficiente pode ser rejeitada se violar direitos, ampliar discriminação ou ocultar responsabilidade.
 
 
-### 12.1 Segurança psicológica e accountability
+### 12.1 Segurança psicológica e <abbr title="prestação de contas e responsabilização">accountability</abbr>
 
 | Segurança psicológica | Accountability | Resultado provável |
 | --- | --- | --- |
@@ -553,7 +553,7 @@ Uma liderança inclusiva distribui voz, combate barreiras de participação e co
 
 Segurança psicológica permite discordar, perguntar e admitir erro. Accountability mantém padrões, responsabilidades e consequências. A combinação desejável é alta segurança com alta exigência.
 
-## 13. Matriz de competências de liderança da Enap
+## 13. Matriz de competências de liderança da <abbr title="Escola Nacional de Administração Pública">Enap</abbr>
 
 A Matriz de Competências Essenciais de Liderança para o Setor Público Brasileiro da Enap organiza **nove competências em três eixos**:
 
@@ -567,7 +567,7 @@ As competências se reforçam. Visão sem comunicação não mobiliza; inovaçã
 
 Na competência **inovação e mudança**, destacam-se questionar abordagens convencionais, incorporar novas perspectivas, criar ambiente de experimentação e melhoria contínua e encorajar novas ideias e formas de trabalhar.
 
-## 14. Recomendação da OCDE sobre liderança e capacidade
+## 14. Recomendação da <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr> sobre liderança e capacidade
 
 A *Recommendation of the Council on Public Service Leadership and Capability*, identificada como **OECD/LEGAL/0445**, foi adotada em 17 de janeiro de 2019. Ela recomenda serviço público profissional, orientado por valores, confiável, responsivo, adaptativo e capaz, com atenção a:
 

@@ -48,7 +48,7 @@ Falhas típicas:
 | --- | --- | --- |
 | finalidade | valor econômico e continuidade do negócio | valor público, direitos e interesse coletivo |
 | recursos | propriedade e contratos privados | orçamento, competência e patrimônio público |
-| risco | segundo propriedade e contratos | risco institucional com legalidade e accountability |
+| risco | segundo propriedade e contratos | risco institucional com legalidade e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
 | sucesso | receita, crescimento, lucro e impacto | efetividade, legitimidade, equidade, confiança e eficiência |
 
 Empreendedorismo governamental **não é** privatização.
@@ -58,7 +58,7 @@ Empreendedorismo governamental **não é** privatização.
 | Referencial | Ênfase |
 | --- | --- |
 | burocracia profissional | legalidade, imparcialidade, continuidade e capacidade |
-| NPM | desempenho, autonomia, contratos, competição seletiva e eficiência |
+| <abbr title="New Public Management">NPM</abbr> | desempenho, autonomia, contratos, competição seletiva e eficiência |
 | pós-NPM | reintegração e governo como um todo |
 | Nova Governança Pública | redes, coprodução, confiança e pluralidade |
 | valor público | benefício, legitimidade e capacidade |
@@ -218,9 +218,9 @@ Princípios incluem capacidade de resposta, integridade, confiabilidade, melhori
 - regulador só afasta normas sob sua competência;
 - não é espaço sem lei.
 
-### CPSI
+### <abbr title="Contrato Público para Solução Inovadora">CPSI</abbr>
 
-- LC nº 182/2021;
+- <abbr title="Lei Complementar">LC</abbr> nº 182/2021;
 - problema público e resultado esperado podem definir o escopo;
 - solução pronta ou a desenvolver;
 - com ou sem risco tecnológico;
@@ -282,7 +282,7 @@ CPSI ≠ diálogo competitivo.
 
 Segurança psicológica não é ausência de meta, avaliação ou consequência.
 
-## 20. Enap e OCDE
+## 20. <abbr title="Escola Nacional de Administração Pública">Enap</abbr> e <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr>
 
 ### Enap: nove competências em três eixos
 
@@ -321,6 +321,6 @@ Pergunte:
 - solução conhecida pode ser inovação no contexto — **certo**;
 - colaboração elimina conflito — **errado**;
 - segurança psicológica dispensa accountability — **errado**;
-- NGP elimina mensuração — **errado**;
+- <abbr title="Nova Governança Pública">NGP</abbr> elimina mensuração — **errado**;
 - CPSI é exclusivo de startup — **errado**;
 - contrato posterior ao CPSI é automático — **errado**.
