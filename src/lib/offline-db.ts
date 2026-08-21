@@ -4,7 +4,7 @@ import type { AnswerDocument } from './questionnaire';
 import type { SimuladoDocument } from './simulados';
 
 export const OFFLINE_DB_NAME = 'concursos-offline';
-const OFFLINE_DB_VERSION = 4;
+const OFFLINE_DB_VERSION = 5;
 
 export type OutboxState = 'clean' | 'pending';
 
@@ -150,6 +150,10 @@ interface ConcursosDbSchema extends DBSchema {
     key: string;
     value: OfflineContestRecord;
   };
+  downloadJobs: {
+    key: string;
+    value: DownloadJobRecord;
+  };
   leases: {
     key: string;
     value: SyncLeaseRecord;
@@ -210,9 +214,31 @@ export function openOfflineDb(): Promise<IDBPDatabase<ConcursosDbSchema>> {
       if (!database.objectStoreNames.contains('quarantine')) {
         database.createObjectStore('quarantine', { keyPath: 'id', autoIncrement: true });
       }
+      // v4 -> v5: metadados de jobs de Background Fetch (id → manifesto congelado).
+      if (!database.objectStoreNames.contains('downloadJobs')) {
+        database.createObjectStore('downloadJobs', { keyPath: 'id' });
+      }
     },
   });
   return databasePromise;
+}
+
+export interface DownloadJobRecord {
+  id: string;
+  manifest: unknown;
+  createdAt: number;
+}
+
+export async function saveDownloadJob(job: DownloadJobRecord): Promise<void> {
+  await (await openOfflineDb()).put('downloadJobs', job);
+}
+
+export async function getDownloadJob(id: string): Promise<DownloadJobRecord | undefined> {
+  return (await openOfflineDb()).get('downloadJobs', id);
+}
+
+export async function deleteDownloadJob(id: string): Promise<void> {
+  await (await openOfflineDb()).delete('downloadJobs', id);
 }
 
 export async function getLocalAnswerRecord(documentId: string): Promise<LocalAnswerRecord | undefined> {

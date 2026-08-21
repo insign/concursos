@@ -102,7 +102,7 @@ function readableError(error: unknown): Error {
   return error instanceof Error ? error : new Error('Não foi possível concluir o download offline.');
 }
 
-async function assertStorageCapacity(
+export async function assertStorageCapacity(
   manifest: OfflinePackageManifest,
   storage: Pick<StorageManager, 'estimate' | 'persist'> | undefined,
 ): Promise<void> {
@@ -249,15 +249,10 @@ async function downloadContestPackageLocked(
 
   await assertStorageCapacity(manifest, storage);
   const suffix = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}`;
-  const activeCacheName = existing?.manifestHash === manifest.manifestHash
-    ? `${canonicalCacheName}--replacement--${suffix}`
-    : canonicalCacheName;
   const temporaryCacheName = `${canonicalCacheName}--temporary--${suffix}`;
   const temporary = await cacheStorage.open(temporaryCacheName);
   const shared = await cacheStorage.open(SHARED_ASSET_CACHE);
   let downloadedBytes = 0;
-  let activated = false;
-  let promotionStarted = false;
 
   try {
     for (const [index, resource] of resources.entries()) {
@@ -281,9 +276,39 @@ async function downloadContestPackageLocked(
       onProgress({ completed: index + 1, total: resources.length, downloadedBytes });
     }
 
+    return await activateStagedPackage(manifest, temporaryCacheName, overrides);
+  } catch (error) {
+    await cacheStorage.delete(temporaryCacheName);
+    throw readableError(error);
+  }
+}
+
+/**
+ * Promove um staging completo ao cache ativo do concurso: cópia local,
+ * verificação de contagem, registro IndexedDB (ponto de ativação) e limpeza
+ * do temporário e do cache anterior. Em falha, remove o staging e qualquer
+ * cache novo aberto, preservando o pacote anterior.
+ */
+export async function activateStagedPackage(
+  manifest: OfflinePackageManifest,
+  temporaryCacheName: string,
+  overrides: PackageEnvironment = {},
+): Promise<OfflineContestRecord> {
+  const { cacheStorage, origin } = environment(overrides);
+  const existing = await getOfflineContestRecord(manifest.contestStorageId);
+  const canonicalCacheName = contestCacheName(manifest.contestStorageId, manifest.manifestHash);
+  const suffix = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}`;
+  const activeCacheName = existing?.manifestHash === manifest.manifestHash
+    ? `${canonicalCacheName}--replacement--${suffix}`
+    : canonicalCacheName;
+  const packageResources = new Set([...manifest.routes, ...manifest.assets]);
+  let promotionStarted = false;
+
+  try {
     await cacheStorage.delete(activeCacheName);
     promotionStarted = true;
     const active = await cacheStorage.open(activeCacheName);
+    const temporary = await cacheStorage.open(temporaryCacheName);
     await copyCache(temporary, active);
     if ((await active.keys()).length !== packageResources.size) {
       throw new Error('O cache promovido não contém todos os recursos do pacote.');
@@ -294,11 +319,10 @@ async function downloadContestPackageLocked(
       manifestHash: manifest.manifestHash,
       activeCacheName,
       downloadedAt: Date.now(),
-      resourceCount: resources.length,
-      resourceHashes: { ...nextHashes },
+      resourceCount: resourcesCountOf(manifest),
+      resourceHashes: { ...manifest.resources },
     };
     await saveOfflineContestRecord(record);
-    activated = true;
     await cacheStorage.delete(temporaryCacheName);
     if (existing && existing.activeCacheName !== activeCacheName) {
       await cacheStorage.delete(existing.activeCacheName);
@@ -307,11 +331,15 @@ async function downloadContestPackageLocked(
     return record;
   } catch (error) {
     await cacheStorage.delete(temporaryCacheName);
-    if (!activated && promotionStarted) {
+    if (promotionStarted) {
       await cacheStorage.delete(activeCacheName);
     }
-    throw readableError(error);
+    throw error;
   }
+}
+
+function resourcesCountOf(manifest: OfflinePackageManifest): number {
+  return [...new Set([...manifest.routes, ...manifest.assets, ...manifest.sharedAssets])].length;
 }
 
 export async function removeContestPackage(
