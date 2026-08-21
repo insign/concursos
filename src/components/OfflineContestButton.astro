@@ -37,6 +37,7 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     removeContestPackage,
     type OfflinePackageManifest,
   } from '../lib/offline-packages';
+  import { subscribeDownloadEvents } from '../lib/offline-download-events';
 
   function formatBytes(bytes: number | null): string {
     if (bytes === null) return '';
@@ -133,5 +134,29 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     } else {
       void renderAvailability();
     }
+
+    // Atualizações conduzidas pelo Service Worker durante a navegação:
+    // espelham o progresso no próprio controle e renovam a disponibilidade.
+    subscribeDownloadEvents((event) => {
+      if (event.contestStorageId !== contestStorageId || event.phase !== 'update') return;
+      if (event.type === 'started') {
+        downloadButton.disabled = true;
+        message.textContent = 'Há uma atualização do pacote. Atualizando automaticamente...';
+        return;
+      }
+      if (event.type === 'progress') {
+        progress.hidden = false;
+        progress.max = event.total;
+        progress.value = event.completed;
+        message.textContent = `Atualizando ${event.completed} de ${event.total} recursos...`;
+        return;
+      }
+      if (event.type === 'completed') {
+        window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
+        void renderAvailability();
+        return;
+      }
+      void renderAvailability();
+    });
   });
 </script>

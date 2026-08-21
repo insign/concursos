@@ -6,6 +6,7 @@ import {
   saveOfflineContestRecord,
   type OfflineContestRecord,
 } from './offline-db';
+import { publishDownloadEvent, type DownloadPhase } from './offline-download-events';
 import {
   CONTEST_CACHE_PREFIX,
   RUNTIME_PAGE_CACHE,
@@ -175,9 +176,36 @@ export async function downloadContestPackage(
   input: unknown,
   onProgress: (progress: DownloadProgress) => void = () => undefined,
   overrides: PackageEnvironment = {},
+  phase: DownloadPhase = 'download',
 ): Promise<OfflineContestRecord> {
   const manifest = offlinePackageManifestSchema.parse(input);
-  return withOfflinePackageLock(() => downloadContestPackageLocked(manifest, onProgress, overrides));
+  const storageId = manifest.contestStorageId;
+  publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase });
+  try {
+    const record = await withOfflinePackageLock(() =>
+      downloadContestPackageLocked(manifest, (progress) => {
+        onProgress(progress);
+        publishDownloadEvent({
+          type: 'progress',
+          contestStorageId: storageId,
+          phase,
+          completed: progress.completed,
+          total: progress.total,
+          downloadedBytes: progress.downloadedBytes,
+        });
+      }, overrides),
+    );
+    publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase });
+    return record;
+  } catch (error) {
+    publishDownloadEvent({
+      type: 'failed',
+      contestStorageId: storageId,
+      phase,
+      message: error instanceof Error ? error.message : String(error),
+    });
+    throw error;
+  }
 }
 
 async function downloadContestPackageLocked(

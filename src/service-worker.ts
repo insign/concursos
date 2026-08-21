@@ -5,6 +5,7 @@ import { cleanupOutdatedCaches, matchPrecache, precacheAndRoute } from 'workbox-
 import { registerRoute, setCatchHandler } from 'workbox-routing';
 import { CacheFirst, NetworkFirst, NetworkOnly } from 'workbox-strategies';
 import { listOfflineContestRecords } from './lib/offline-db';
+import { maybeUpdateOfflinePackages } from './lib/offline-auto-update';
 import {
   RUNTIME_MEDIA_CACHE,
   RUNTIME_PAGE_CACHE,
@@ -106,6 +107,12 @@ registerRoute(({ url }) => url.origin === 'https://kv.helio.me', new NetworkOnly
 registerRoute(
   ({ request }) => request.mode === 'navigate',
   async (options) => {
+    // Atualização automática de pacotes durante a navegação: dispara em
+    // paralelo (throttled) sem atrasar a resposta; o waitUntil mantém o
+    // worker vivo enquanto o delta roda.
+    const extendable = options.event as { waitUntil?: (promise: Promise<unknown>) => void };
+    extendable?.waitUntil?.(maybeUpdateOfflinePackages('navigation').catch(() => undefined));
+
     const downloaded = await matchDownloadedContest(options.request);
     if (downloaded) {
       try {
