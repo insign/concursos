@@ -794,7 +794,7 @@ a.subject-reading-link:hover {
   min-width: 3.2rem;
   padding: 0.25rem 0.45rem;
   border: 1px solid var(--line);
-  border-radius: 0.45rem;
+  border-radius: 999px;
   color: var(--ink);
   background: var(--paper);
   box-shadow: 0 0.3rem 0.8rem rgb(31 46 42 / 0.18);
