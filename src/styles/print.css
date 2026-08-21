@@ -63,6 +63,12 @@
     display: block !important;
   }
 
+  /* Imprimir a partir do modo de leitura não pode omitir as referências:
+     o ocultamento do #focus vale apenas para a tela. */
+  .reading-focus:is(:target, [data-reading-focus-active]) .document-references {
+    display: block !important;
+  }
+
   .study-shell,
   .mega-review-shell,
   .reading-focus,

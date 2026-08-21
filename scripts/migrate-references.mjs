@@ -113,10 +113,6 @@ function normalize(text) {
   return text.replace(/\s+/g, ' ').trim();
 }
 
-function linesOf(content) {
-  return stripFrontmatter(content).body.split('\n');
-}
-
 async function collectConteudos(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
   const files = [];
@@ -129,28 +125,6 @@ async function collectConteudos(dir) {
 }
 
 const checkOnly = process.argv.includes('--check');
-
-if (process.env.DEBUG_REFERENCES_FILE) {
-  const target = process.env.DEBUG_REFERENCES_FILE;
-  const original = await readFile(target, 'utf8');
-  const analysis = analyze(original);
-  console.log(
-    JSON.stringify(
-      {
-        status: analysis.status,
-        start: analysis.start?.index ?? null,
-        startHeading: analysis.start ? analysis.lines[analysis.start.index] : null,
-        totalHeadings: analysis.headings.length,
-        candidatos: analysis.headings
-          .filter((heading) => isReferenceHeading(heading.text))
-          .map((heading) => ({ index: heading.index, level: heading.level, text: heading.text })),
-      },
-      null,
-      1,
-    ),
-  );
-  process.exit(0);
-}
 const contents = await collectConteudos(ASSUNTOS);
 const report = [];
 
@@ -158,22 +132,6 @@ for (const file of contents.sort()) {
   const relative = path.relative(ROOT, file);
   const original = await readFile(file, 'utf8');
   const analysis = analyze(original);
-
-  if (process.env.DEBUG_REFERENCES_FILE && relative.includes(process.env.DEBUG_REFERENCES_FILE)) {
-    console.error(
-      JSON.stringify(
-        {
-          relative,
-          status: analysis.status,
-          start: analysis.start?.index,
-          startHeading: analysis.start ? linesOf(original)[analysis.start.index] : null,
-          candidatos: analysis.headings?.filter((heading) => isReferenceHeading(heading.text)).length,
-        },
-        null,
-        1,
-      ),
-    );
-  }
 
   if (analysis.status !== 'ok') {
     report.push({ file: relative, status: analysis.status });
@@ -209,22 +167,6 @@ for (const file of contents.sort()) {
   });
 
   if (!checkOnly && intact) {
-    if (process.env.DEBUG_REFERENCES_MATCH && relative.includes(process.env.DEBUG_REFERENCES_MATCH)) {
-      console.error(
-        JSON.stringify(
-          {
-            relative,
-            start,
-            totalLines: lines.length,
-            segmentLines,
-            frontmatterPreview: frontmatter.slice(0, 80),
-            remainingPreview: remainingBody.slice(0, 80),
-          },
-          null,
-          1,
-        ),
-      );
-    }
     await writeFile(file, updatedContent);
     await writeFile(referencesPath, referencesMarkdown);
   }

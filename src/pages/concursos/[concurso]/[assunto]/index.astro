@@ -5,6 +5,7 @@ import DocumentReferences from '../../../../components/DocumentReferences.astro'
 import MermaidRuntime from '../../../../components/MermaidRuntime.astro';
 import StudyLayout from '../../../../layouts/StudyLayout.astro';
 import { getSubjectStaticPaths, type CatalogContest, type CatalogSubject } from '../../../../lib/catalog';
+import { hasMermaidCodeFence } from '../../../../lib/resolution-markdown';
 
 interface Props {
   contest: CatalogContest;
@@ -25,7 +26,7 @@ const ReferencesContent = referencesRendered?.Content ?? null;
 const referencesBody = referencesEntry?.body ?? '';
 const hasAbbreviation =
   hasContentAbbreviation || referencesRendered?.remarkPluginFrontmatter.hasTitledAbbreviation === true;
-const hasMermaid = body.includes('```mermaid') || referencesBody.includes('```mermaid');
+const hasMermaid = hasMermaidCodeFence(body) || hasMermaidCodeFence(referencesBody);
 ---
 
 <StudyLayout contest={contest} subject={subject} active="content">

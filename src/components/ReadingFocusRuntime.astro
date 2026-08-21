@@ -255,15 +255,20 @@
     const renderReadingProgress = () => {
       progressFrame = 0;
       if (!progressIndicator || !readingArticle) return;
+      // As medidas do rect são relativas à viewport; a fração trabalha em
+      // coordenadas de documento, então tudo é deslocado pelo scroll atual.
+      const scrollY = window.scrollY;
       const article = readingArticle.getBoundingClientRect();
-      const excluded = readingArticle.querySelector<HTMLElement>('[data-reading-progress-ignore]');
-      const excludedRect = excluded?.getBoundingClientRect();
-      const excludedTop = excludedRect && excludedRect.height > 0 ? excludedRect.top : null;
+      const ignored = readingArticle.querySelectorAll<HTMLElement>('[data-reading-progress-ignore]');
+      const lastIgnored = ignored.length > 0 ? ignored[ignored.length - 1] : undefined;
+      const excludedRect = lastIgnored?.getBoundingClientRect();
+      const excludedTop =
+        excludedRect && excludedRect.height > 0 ? scrollY + excludedRect.top : null;
       const progress = readingProgressFraction({
-        articleTop: article.top,
-        articleBottom: article.bottom,
+        articleTop: scrollY + article.top,
+        articleBottom: scrollY + article.bottom,
         excludedTop,
-        scrollY: window.scrollY,
+        scrollY,
         viewportHeight: window.innerHeight,
       });
       const label = `${Math.round(progress * 100)}%`;

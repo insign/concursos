@@ -18,8 +18,13 @@ const { label = 'Referências' } = Astro.props;
 <script>
   const printSelector = 'details[data-references-print]';
   const openStates = new Map<HTMLDetailsElement, boolean>();
+  let printing = false;
 
   const expandForPrint = () => {
+    // Firefox dispara beforeprint e matchMedia('print') no mesmo evento:
+    // sem a guarda, o segundo disparo salvaria o estado já forçado.
+    if (printing) return;
+    printing = true;
     for (const block of document.querySelectorAll<HTMLDetailsElement>(printSelector)) {
       openStates.set(block, block.open);
       block.open = true;
@@ -27,6 +32,8 @@ const { label = 'Referências' } = Astro.props;
   };
 
   const restoreAfterPrint = () => {
+    if (!printing) return;
+    printing = false;
     for (const block of openStates.keys()) {
       const state = openStates.get(block);
       if (state !== undefined && block.isConnected) block.open = state;
