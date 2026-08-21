@@ -197,7 +197,7 @@ Dados sem definição comum produzem comparações enganosas. “Atendimento con
 
 ### 4.5 Atributos de um bom indicador
 
-O Guia Referencial da Enap destaca utilidade, representatividade, confiabilidade metodológica e da fonte, disponibilidade, economicidade, simplicidade de comunicação, estabilidade, tempestividade e sensibilidade. Também importam comparabilidade e possibilidade de investigação.
+O Guia Referencial da <abbr title="Escola Nacional de Administração Pública">Enap</abbr> destaca utilidade, representatividade, confiabilidade metodológica e da fonte, disponibilidade, economicidade, simplicidade de comunicação, estabilidade, tempestividade e sensibilidade. Também importam comparabilidade e possibilidade de investigação.
 
 O conjunto deve ser seletivo e balanceado. Indicadores demais dispersam atenção; poucos demais ocultam qualidade, risco ou equidade.
 
@@ -231,7 +231,7 @@ Uma gestão madura percorre ciclos, não uma sequência encerrada:
 9. prestar contas e comunicar limitações;
 10. corrigir, aprender, escalar, redesenhar ou encerrar.
 
-### 5.1 Autonomia e accountability
+### 5.1 Autonomia e <abbr title="prestação de contas e responsabilização">accountability</abbr>
 
 Orientação a resultados pode ampliar autonomia gerencial, mas autonomia deve vir acompanhada de:
 
@@ -381,7 +381,7 @@ Os modelos se sobrepõem; não formam fases puras que desaparecem por completo.
 
 A NPM criticou foco excessivo em procedimento, mas pode produzir fragmentação e metas estreitas. Abordagens posteriores preservam eficiência e qualidade, acrescentando integração, legitimidade e valor público.
 
-O Decreto nº 9.094/2017 revogou o Decreto nº 5.378/2005, que havia instituído o GesPública. Modelos e guias do programa podem ser estudados historicamente ou como referência metodológica; não devem ser apresentados como regime geral vigente.
+O Decreto nº 9.094/2017 revogou o Decreto nº 5.378/2005, que havia instituído o <abbr title="Programa Nacional de Gestão Pública e Desburocratização">GesPública</abbr>. Modelos e guias do programa podem ser estudados historicamente ou como referência metodológica; não devem ser apresentados como regime geral vigente.
 
 ## 11. Paradigma do cliente na gestão pública
 
@@ -458,11 +458,11 @@ A Carta torna o padrão prometido verificável. Deve informar serviços, requisi
 
 A Carta não é peça publicitária nem cria, por si só, competência ou direito contra a lei. Ela reduz assimetria de informação e oferece referência para monitoramento e cobrança.
 
-A Carta também é instrumento de gestão: padrões prometidos devem orientar indicadores, avaliação, transparência e revisão do serviço, em canais digitais e não digitais. Orientações recentes do SisOuv reforçam linguagem simples, padronização, experiência, efetividade e atualização contínua.
+A Carta também é instrumento de gestão: padrões prometidos devem orientar indicadores, avaliação, transparência e revisão do serviço, em canais digitais e não digitais. Orientações recentes do <abbr title="Sistema de Ouvidoria do Poder Executivo federal">SisOuv</abbr> reforçam linguagem simples, padronização, experiência, efetividade e atualização contínua.
 
 ### 13.2 Ouvidoria
 
-A ouvidoria não é mero SAC. Ela promove participação, acompanha a efetividade, propõe aperfeiçoamentos, previne e corrige falhas, encaminha manifestações e pode promover mediação e conciliação.
+A ouvidoria não é mero <abbr title="Serviço de Atendimento ao Consumidor">SAC</abbr>. Ela promove participação, acompanha a efetividade, propõe aperfeiçoamentos, previne e corrige falhas, encaminha manifestações e pode promover mediação e conciliação.
 
 A decisão administrativa final deve chegar ao usuário em até **30 dias**, prorrogáveis uma vez, de forma justificada, por igual período. O relatório anual consolida manifestações, recorrências, providências e sugestões de melhoria e deve ser disponibilizado integralmente na internet.
 

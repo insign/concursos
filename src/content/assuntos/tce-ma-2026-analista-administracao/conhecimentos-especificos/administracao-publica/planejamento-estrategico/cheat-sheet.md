@@ -6,7 +6,7 @@
 | --- | --- |
 | estratégia | escolhas coerentes |
 | planejamento estratégico | processo sistêmico |
-| plano/PEI | produto documental |
+| plano/<abbr title="Plano Estratégico Institucional">PEI</abbr> | produto documental |
 | gestão estratégica | implementar, monitorar, avaliar e revisar |
 
 Plano publicado ≠ estratégia implementada.
@@ -99,7 +99,7 @@ Cenários:
 - testam robustez;
 - usam premissas, sinais e respostas.
 
-## FCS, objetivo, indicador, meta e iniciativa
+## <abbr title="Fator Crítico de Sucesso">FCS</abbr>, objetivo, indicador, meta e iniciativa
 
 - objetivo: mudança desejada;
 - FCS: condição essencial ao sucesso;
@@ -172,7 +172,7 @@ Enfoque ≠ diferenciação automática.
 | novos | atuais | desenvolvimento de produto |
 | novos | novos | diversificação |
 
-## BCG
+## <abbr title="Boston Consulting Group">BCG</abbr>
 
 | Crescimento | Participação | Quadrante |
 | --- | --- | --- |
@@ -181,7 +181,7 @@ Enfoque ≠ diferenciação automática.
 | baixo | alta | vaca leiteira |
 | baixo | baixa | abacaxi/cão |
 
-## BSC
+## <abbr title="Balanced Scorecard">BSC</abbr>
 
 Perspectivas clássicas:
 
@@ -203,7 +203,7 @@ Indicadores:
 - tendência/antecedente: capacidade ou ação;
 - resultado/consequente: efeito alcançado.
 
-## OKR
+## <abbr title="Objectives and Key Results">OKR</abbr>
 
 - objetivo: direção qualitativa;
 - resultado-chave: evidência mensurável;
@@ -241,7 +241,7 @@ Plano sem capacidade e orçamento = intenção.
 
 Desvio pode indicar execução ruim, meta ruim, indicador ruim ou premissa alterada.
 
-## PEI × PPA × LDO × LOA
+## PEI × <abbr title="Plano Plurianual">PPA</abbr> × <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr> × <abbr title="Lei Orçamentária Anual">LOA</abbr>
 
 | Instrumento | Núcleo |
 | --- | --- |

@@ -49,7 +49,7 @@
 | Governança | prioridade, continuidade, exceções e supervisão |
 
 - Patrocinador ≠ gerente.
-- PMO pode apoiar, controlar, padronizar ou direcionar.
+- <abbr title="Project Management Office">PMO</abbr> pode apoiar, controlar, padronizar ou direcionar.
 - PMO não torna a organização automaticamente projetizada.
 
 ## Instrumentos
@@ -83,7 +83,7 @@
 - Tailoring = adaptação consciente e proporcional.
 - Tailoring ≠ eliminar governança, método ou exigência legal.
 
-## PMBOK — não misture as edições
+## <abbr title="Project Management Body of Knowledge">PMBOK</abbr> — não misture as edições
 
 | Referência | Fórmula de memória | Estrutura |
 | --- | --- | --- |
@@ -184,7 +184,7 @@ Dez áreas:
 - Grupo de processos ≠ fase.
 - Não transportar automaticamente 49–5–10 para a 8ª edição.
 
-## ISO 21502:2020
+## <abbr title="International Organization for Standardization">ISO</abbr> 21502:2020
 
 - Orientação de alto nível para gestão de projetos.
 - Aplicável a organizações públicas, privadas e beneficentes.
@@ -217,7 +217,7 @@ Fluxo:
 - Validar escopo = aceite formal.
 - Controlar qualidade = conformidade técnica.
 
-### EAP/WBS
+### <abbr title="Estrutura Analítica do Projeto">EAP</abbr>/<abbr title="Work Breakdown Structure">WBS</abbr>
 
 - Decomposição hierárquica orientada a entregas.
 - Menor nível = pacote de trabalho.
@@ -249,7 +249,7 @@ Estimativas:
 - bottom-up: estima componentes e agrega;
 - três pontos: otimista, provável e pessimista.
 
-### PERT
+### <abbr title="Program Evaluation and Review Technique">PERT</abbr>
 
 $$
 TE = \frac{O+4M+P}{6}
@@ -410,7 +410,7 @@ Fluxo:
 ### Lei nº 14.133/2021
 
 - Lei de contratações ≠ framework de projetos.
-- ETP: necessidade, interesse público e melhor solução.
+- <abbr title="Estudo Técnico Preliminar">ETP</abbr>: necessidade, interesse público e melhor solução.
 - Termo de referência: objeto, solução, requisitos, execução, gestão, medição, pagamento e orçamento.
 - Projeto básico: define/dimensiona obra ou serviço.
 - Matriz contratual: aloca riscos e caracteriza equilíbrio inicial.

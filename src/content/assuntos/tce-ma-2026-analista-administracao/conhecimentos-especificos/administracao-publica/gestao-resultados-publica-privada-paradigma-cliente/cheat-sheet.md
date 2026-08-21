@@ -130,7 +130,7 @@ A ficha deve registrar:
 - tecnologia;
 - riscos e dependências.
 
-### Accountability
+### <abbr title="prestação de contas e responsabilização">Accountability</abbr>
 
 - fonte do dado;
 - monitoramento;
@@ -208,7 +208,7 @@ Satisfação é relevante, mas não prova correção técnica, legalidade ou equ
 
 - alcance federativo amplo;
 - aplicação subsidiária a serviço público prestado por particular;
-- não afasta o CDC quando houver relação de consumo;
+- não afasta o <abbr title="Código de Defesa do Consumidor">CDC</abbr> quando houver relação de consumo;
 - atendimento: regularidade, continuidade, efetividade, segurança, atualidade, generalidade, transparência e cortesia;
 - diretrizes: boa-fé, acessibilidade, igualdade, adequação, prazos, simplificação e linguagem simples.
 
@@ -216,7 +216,7 @@ Satisfação é relevante, mas não prova correção técnica, legalidade ou equ
 
 - Carta: serviços, requisitos, etapas, prazo máximo, canais e compromissos.
 - Atualização periódica e divulgação permanente na internet.
-- Ouvidoria ≠ SAC: participação, tratamento de manifestações e melhoria.
+- Ouvidoria ≠ <abbr title="Serviço de Atendimento ao Consumidor">SAC</abbr>: participação, tratamento de manifestações e melhoria.
 - Decisão final: 30 dias + uma prorrogação justificada de 30.
 - Relatório da ouvidoria: anual e publicado integralmente.
 - Conselho de usuários: consultivo, representativo e plural.
