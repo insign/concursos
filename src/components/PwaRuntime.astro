@@ -36,4 +36,18 @@
       if (alias) void requestCompleteProfileSync(alias);
     }
   });
+
+  // Atualização periódica de pacotes para o app instalado (Periodic Background
+  // Sync, apenas Chromium): o navegador decide quando disparar respeitando o
+  // minInterval; a checagem real reusa o mesmo motor throttled da navegação.
+  navigator.serviceWorker?.getRegistration().then((registration) => {
+    const periodicSync = (
+      registration as (ServiceWorkerRegistration & { periodicSync?: { register(tag: string, options: { minInterval: number }): Promise<void> } }) | undefined
+    )?.periodicSync;
+    if (!periodicSync) return;
+    if (!window.matchMedia('(display-mode: standalone)').matches) return;
+    void periodicSync
+      .register('concursos-offline-updates', { minInterval: 24 * 60 * 60 * 1000 })
+      .catch(() => undefined);
+  });
 </script>

@@ -184,6 +184,14 @@ worker.addEventListener('sync', (event) => {
   );
 });
 
+// Periodic Background Sync (app instalado, Chromium): mesmo motor throttled
+// da navegação, com intervalo independente.
+worker.addEventListener('periodicsync', (event) => {
+  const periodicEvent = event as Event & { tag?: string; waitUntil(promise: Promise<unknown>): void };
+  if (periodicEvent.tag !== 'concursos-offline-updates') return;
+  periodicEvent.waitUntil(maybeUpdateOfflinePackages('periodic').catch(() => undefined));
+});
+
 // Downloads em background conduzidos pelo navegador (Background Fetch, Chromium):
 // o navegador mantém a transferência viva mesmo sem abas abertas; aqui apenas
 // adotamos os records no staging e promovemos com a sequência atômica padrão.
