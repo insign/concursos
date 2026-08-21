@@ -4,7 +4,7 @@
 
 - **Regra de prova:** legislação vigente em **6/7/2026**, data de publicação do edital.
 - Datas posteriores de consulta de fontes servem apenas à conferência editorial.
-- Sicx e o limite de **R$ 1.646.430,90** do art. 184-A já integravam o direito vigente no corte; o valor é anual, não permanente.
+- <abbr title="Sistema de Compras Expressas">Sicx</abbr> e o limite de **R$ 1.646.430,90** do art. 184-A já integravam o direito vigente no corte; o valor é anual, não permanente.
 
 ## Nulidade: sequência correta
 
@@ -94,7 +94,7 @@
 - Desconsideração: abuso para facilitar/encobrir/dissimular ilícito ou confusão patrimonial.
 - Alcançáveis: administradores/sócios gestores + sucessora + empresa do mesmo ramo coligada/controlada.
 - Sempre: contraditório + ampla defesa + análise jurídica.
-- CEIS/CNEP: atualizar em até **15 dias úteis da aplicação**.
+- <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">CEIS</abbr>/<abbr title="Cadastro Nacional de Empresas Punidas">CNEP</abbr>: atualizar em até **15 dias úteis da aplicação**.
 - Atraso injustificado: multa de mora; pode virar compensatória + extinção + outras sanções.
 
 ## Reabilitação cumulativa
@@ -132,7 +132,7 @@ Recurso e reconsideração têm efeito suspensivo até decisão final.
 - Alta administração implementa gestão de riscos e controle preventivo.
 - Controle acessa documentos classificados e preserva o sigilo.
 - Impropriedade formal: sanear + mitigar recorrência.
-- Irregularidade com dano: também apurar individualmente + segregar funções + remeter ao MP quando cabível.
+- Irregularidade com dano: também apurar individualmente + segregar funções + remeter ao <abbr title="Ministério Público">MP</abbr> quando cabível.
 - Fiscalização: oportunidade, materialidade, relevância e risco.
 
 ## Cautelar do tribunal de contas
@@ -143,11 +143,11 @@ Recurso e reconsideração têm efeito suspensivo até decisão final.
 - Art. 172: vetado.
 - Escolas de contas: capacitação dos agentes.
 
-## PNCP
+## <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>
 
 - Divulgação dos atos exigidos: centralizada e **obrigatória**.
 - Realização de contratações pelo portal: **facultativa**.
-- Conteúdo: PCA, catálogos, editais, diretas, atas, contratos, aditivos e notas fiscais cabíveis.
+- Conteúdo: <abbr title="Plano de Contratações Anual">PCA</abbr>, catálogos, editais, diretas, atas, contratos, aditivos e notas fiscais cabíveis.
 - Funções: cadastro, preços, planejamento, sessões, CEIS/CNEP, gestão social e Sicx.
 - Dados abertos + Lei de Acesso à Informação.
 - Regra: contrato/aditivo eficaz após divulgação em **20 dias úteis** da licitação ou **10 dias úteis** da contratação direta.
@@ -166,18 +166,18 @@ Recurso e reconsideração têm efeito suspensivo até decisão final.
 - Art. 178: crimes licitatórios nos arts. **337-E a 337-O** do Código Penal; multa no art. **337-P**.
 - Para Gestão de Contratos, retenha a localização normativa e a independência das esferas; não é necessário memorizar aqui a tipologia penal detalhada.
 - Sanção administrativa **não** gera condenação penal automática.
-- CPC: prioridade para processos sobre normas gerais de contratação.
-- Concessões e PPP: concorrência ou diálogo competitivo.
+- <abbr title="Código de Processo Civil">CPC</abbr>: prioridade para processos sobre normas gerais de contratação.
+- Concessões e <abbr title="Parceria Público-Privada">PPP</abbr>: concorrência ou diálogo competitivo.
 
 ## Regras finais
 
 - Centrais de compras; até 10 mil habitantes: consórcio preferencial.
-- Valores: atualização todo 1º de janeiro pelo IPCA-E e divulgação no PNCP.
+- Valores: atualização todo 1º de janeiro pelo <abbr title="Índice Nacional de Preços ao Consumidor Amplo Especial">IPCA-E</abbr> e divulgação no PNCP.
 - Prazos: exclui começo, inclui vencimento; dias úteis dependem de expediente.
 - Art. 184-A em 2026: até **R$ 1.646.430,90**; valor não é permanente.
 - Crimes também alcançam a Lei das Estatais.
 - Aplicação subsidiária: concessões, PPP e publicidade da Lei nº 12.232/2010.
-- Estados, DF e Municípios **podem** aplicar regulamentos da União.
+- Estados, <abbr title="Distrito Federal">DF</abbr> e Municípios **podem** aplicar regulamentos da União.
 - Contrato antigo permanece no regime antigo durante toda sua vigência.
 - Transição sem mistura de regimes encerrou em **30 dez. 2023**.
 - Lei nº 14.133/2021 em vigor desde **1º abr. 2021**.
@@ -189,5 +189,5 @@ Recurso e reconsideração têm efeito suspensivo até decisão final.
 - prazo da sanção x requisitos da reabilitação;
 - controle social x linhas de defesa;
 - divulgação obrigatória x contratação facultativa pelo PNCP;
-- regulamento federal disponível x aplicação automática ao TCE-MA;
+- regulamento federal disponível x aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>;
 - contrato antigo preservado x nova contratação pela lei revogada.

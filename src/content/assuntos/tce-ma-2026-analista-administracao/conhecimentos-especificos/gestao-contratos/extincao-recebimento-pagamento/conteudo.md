@@ -14,7 +14,7 @@ Este assunto examina os arts. 137 a 146 da Lei nº 14.133/2021. O percurso come�
 
 Infrações e sanções, nulidade dos contratos, meios alternativos de prevenção e resolução de controvérsias e controle das contratações pertencem ao Assunto 130. Aqui, aparecem apenas remissões indispensáveis para não confundir institutos.
 
-O estudo se concentra no regime geral nacional. Orientações do Tribunal de Contas da União (TCU), da Advocacia-Geral da União (AGU) e do Ministério da Gestão e da Inovação em Serviços Públicos (MGI) ajudam a interpretar a lei no âmbito federal, mas não constituem, por si sós, regras automaticamente aplicáveis à organização interna do TCE-MA.
+O estudo se concentra no regime geral nacional. Orientações do Tribunal de Contas da União (TCU), da Advocacia-Geral da União (AGU) e do Ministério da Gestão e da Inovação em Serviços Públicos (MGI) ajudam a interpretar a lei no âmbito federal, mas não constituem, por si sós, regras automaticamente aplicáveis à organização interna do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 > **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem para conferência editorial e não alteram o corte jurídico da prova.
 
@@ -166,7 +166,7 @@ No dever de pagar, a Administração deve observar ordem cronológica **para cad
 
 Não existe uma fila única indiferente à fonte e à natureza da despesa. A classificação correta da contratação determina a fila pertinente.
 
-A Lei nº 14.133/2021, nos arts. 141 a 146, **não fixa prazo nacional máximo geral de pagamento**. Normas operacionais podem estabelecer prazos no âmbito de sua competência; a IN SEGES/ME nº 77/2022, por exemplo, disciplina a Administração Pública federal e não deve ser apresentada como prazo automaticamente aplicável ao TCE-MA.
+A Lei nº 14.133/2021, nos arts. 141 a 146, **não fixa prazo nacional máximo geral de pagamento**. Normas operacionais podem estabelecer prazos no âmbito de sua competência; a <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 77/2022, por exemplo, disciplina a Administração Pública federal e não deve ser apresentada como prazo automaticamente aplicável ao TCE-MA.
 
 ### 7.1 Alteração excepcional da ordem
 
