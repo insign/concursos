@@ -4,15 +4,15 @@
 
 - **Corte de prova:** legislação vigente em **6/7/2026**.
 - Datas posteriores de consulta: conferência editorial, não ampliação do corte.
-- Âmbito direto da IN nº 5/2017: Administração federal direta, autárquica e fundacional.
-- TCE-MA: conteúdo do edital; não é regulamento interno automático.
+- Âmbito direto da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017: Administração federal direta, autárquica e fundacional.
+- <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>: conteúdo do edital; não é regulamento interno automático.
 - Lei nº 14.133/2021: IN nº 5/2017 aplicável **no que couber** pela IN nº 98/2022.
 
 | Documento | Disciplina federal atual no regime da Lei nº 14.133/2021 |
 | --- | --- |
-| DFD/PCA | Decreto nº 10.947/2022 |
-| ETP | IN nº 58/2022 |
-| TR | IN nº 81/2022 |
+| <abbr title="Documento de Formalização da Demanda">DFD</abbr>/<abbr title="Plano de Contratações Anual">PCA</abbr> | Decreto nº 10.947/2022 |
+| <abbr title="Estudo Técnico Preliminar">ETP</abbr> | IN nº 58/2022 |
+| <abbr title="Termo de Referência">TR</abbr> | IN nº 81/2022 |
 | serviços sob execução indireta | IN nº 5/2017, **no que couber** |
 
 - Art. 24 atual da IN nº 5: ETP conforme ato específico.
@@ -63,7 +63,7 @@
 
 1. ETP;
 2. gerenciamento de riscos;
-3. TR/PB.
+3. <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr>.
 
 **DFD + equipe:** procedimentos iniciais, não quarta etapa.
 
@@ -151,7 +151,7 @@
 
 ### Dedicação exclusiva
 
-- Risco trabalhista, previdenciário e de FGTS: obrigatório.
+- Risco trabalhista, previdenciário e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>: obrigatório.
 - Controles possíveis: conta vinculada ou fato gerador.
 - Escolha: avaliação de custo-benefício.
 
@@ -177,19 +177,19 @@
 
 - Elaboração: **área técnica + requisitante**, conjuntamente, ou equipe de planejamento quando houver.
 - Dez blocos: objeto; fundamentação; solução; requisitos; execução; gestão; medição/pagamento; forma e critérios de seleção; valor estimado; adequação orçamentária.
-- Alinhar ao PCA, PLS e demais instrumentos de planejamento.
+- Alinhar ao PCA, <abbr title="Plano Diretor de Logística Sustentável">PLS</abbr> e demais instrumentos de planejamento.
 - Modelo aplicável do Sistema TR Digital: usar; não utilização deve ser justificada.
 
 ## Objeto e execução
 
 - Núcleo: natureza + quantitativos + prazo/prorrogação.
 - Sem exigência excessiva, irrelevante, direcionada ou defasada.
-- CBO para categorias profissionais.
+- <abbr title="Classificação Brasileira de Ocupações">CBO</abbr> para categorias profissionais.
 - Conhecimento do local: se imprescindível, o edital pode exigir atestado e oferecer vistoria, mas deve sempre admitir declaração formal substitutiva do responsável técnico.
 - Definir início, local, rotina, frequência, método, tecnologia, cronograma e volume.
 - Transição de conhecimento: prever quando necessária.
 
-## Medição e IMR
+## Medição e <abbr title="Instrumento de Medição de Resultado">IMR</abbr>
 
 - Preferência: resultado mensurável.
 - Horas/postos: excepcionais + método + justificativa.

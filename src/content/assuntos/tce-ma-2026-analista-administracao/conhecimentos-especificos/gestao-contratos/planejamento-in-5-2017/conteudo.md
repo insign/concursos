@@ -10,11 +10,11 @@ storageId: "planejamento-in-5-2017"
 
 ## Delimitação do assunto
 
-A Instrução Normativa SEGES/MPDG nº 5/2017 organiza a contratação de serviços sob regime de execução indireta na Administração Pública federal direta, autárquica e fundacional. Este assunto estuda a fase de **Planejamento da Contratação**: enquadramento do serviço, formalização da demanda, equipe, Estudos Técnicos Preliminares (ETP), gerenciamento de riscos e Termo de Referência ou Projeto Básico (TR/PB).
+A Instrução Normativa <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MPDG</abbr> nº 5/2017 organiza a contratação de serviços sob regime de execução indireta na Administração Pública federal direta, autárquica e fundacional. Este assunto estuda a fase de **Planejamento da Contratação**: enquadramento do serviço, formalização da demanda, equipe, Estudos Técnicos Preliminares (ETP), gerenciamento de riscos e Termo de Referência ou Projeto Básico (TR/PB).
 
 Os Assuntos 132 a 135 tratarão da seleção do fornecedor, da gestão e fiscalização, da medição e pagamento, das obrigações trabalhistas, da manutenção do equilíbrio e do encerramento. Aqui, elementos dessas fases aparecem somente quando precisam ser projetados antes da licitação.
 
-A IN nº 5/2017 tem âmbito federal. Ela integra o edital do concurso, mas não se converte automaticamente em regulamento organizacional do TCE-MA. Para contratações federais submetidas à Lei nº 14.133/2021, a IN SEGES/ME nº 98/2022 autorizou sua aplicação **no que couber**. Essa cláusula exige compatibilidade com a nova Lei e com normas federais posteriores.
+A IN nº 5/2017 tem âmbito federal. Ela integra o edital do concurso, mas não se converte automaticamente em regulamento organizacional do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. Para contratações federais submetidas à Lei nº 14.133/2021, a IN <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022 autorizou sua aplicação **no que couber**. Essa cláusula exige compatibilidade com a nova Lei e com normas federais posteriores.
 
 > **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
@@ -31,7 +31,7 @@ A IN nº 5/2017 não foi integralmente revogada pela Lei nº 14.133/2021. També
 
 Exemplo decisivo: a IN nº 49/2020 alterou o art. 24 da IN nº 5/2017 e revogou seus §§ 1º a 6º e o Anexo III. Nas contratações federais regidas pela Lei nº 14.133/2021, o conteúdo atual dos ETP está na IN SEGES nº 58/2022. Estudar o antigo Anexo III como vigente produz respostas erradas.
 
-A mesma cautela vale para outros documentos da fase preparatória. O **DFD** que fundamenta o Plano de Contratações Anual federal segue o Decreto nº 10.947/2022, enquanto o **Termo de Referência** para bens e serviços no regime federal da Lei nº 14.133/2021 é disciplinado pela IN SEGES/ME nº 81/2022. A literalidade da IN nº 5/2017 continua relevante quando a questão a cobra expressamente, mas não substitui a regulamentação federal superveniente.
+A mesma cautela vale para outros documentos da fase preparatória. O **<abbr title="Documento de Formalização da Demanda">DFD</abbr>** que fundamenta o Plano de Contratações Anual federal segue o Decreto nº 10.947/2022, enquanto o **Termo de Referência** para bens e serviços no regime federal da Lei nº 14.133/2021 é disciplinado pela IN SEGES/ME nº 81/2022. A literalidade da IN nº 5/2017 continua relevante quando a questão a cobra expressamente, mas não substitui a regulamentação federal superveniente.
 
 ### 1.2 Âmbito direto e referências qualificadas
 
@@ -39,13 +39,13 @@ A mesma cautela vale para outros documentos da fase preparatória. O **DFD** que
 | --- | --- | --- |
 | IN nº 5/2017 | Administração federal direta, autárquica e fundacional | procedimento de serviços sob execução indireta |
 | IN nº 98/2022 | mesma Administração federal | autoriza usar a IN nº 5/2017 sob a Lei nº 14.133/2021, no que couber |
-| Decreto nº 10.947/2022 | Administração federal direta, autárquica e fundacional | PCA, PGC e DFD que fundamenta o planejamento anual |
+| Decreto nº 10.947/2022 | Administração federal direta, autárquica e fundacional | PCA, <abbr title="Sistema de Planejamento e Gerenciamento de Contratações">PGC</abbr> e DFD que fundamenta o planejamento anual |
 | IN nº 58/2022 | Administração federal e entes que executem transferências voluntárias da União nas condições do art. 2º | disciplina atual dos ETP federais |
 | IN nº 81/2022 | Administração federal e entes nas condições de seu art. 2º | disciplina atual do TR para bens e serviços |
 | Decreto nº 9.507/2018 | Administração federal e estatais controladas pela União, conforme regras próprias | execução indireta e vedações federais |
 | Lei nº 14.133/2021 | entes abrangidos pelo art. 1º | normas gerais e fase preparatória atual |
 
-Orientações do TCU, modelos da AGU e Cadernos de Logística são referências federais qualificadas. Não devem ser apresentados como atos internos automaticamente vinculantes ao TCE-MA.
+Orientações do <abbr title="Tribunal de Contas da União">TCU</abbr>, modelos da <abbr title="Advocacia-Geral da União">AGU</abbr> e Cadernos de Logística são referências federais qualificadas. Não devem ser apresentados como atos internos automaticamente vinculantes ao TCE-MA.
 
 ## 2. O objeto é serviço, não fornecimento de pessoas
 
@@ -118,7 +118,7 @@ O art. 17 identifica dedicação exclusiva quando o modelo exige, entre outros r
 
 O parágrafo único do art. 17 da IN nº 5/2017 admite literalmente a prestação fora das dependências do órgão, desde que não ocorra nas dependências da contratada e estejam presentes o não compartilhamento e a fiscalização. Há, porém, tensão com o art. 6º, XVI, da Lei nº 14.133/2021, que inclui a disponibilidade dos empregados nas dependências do contratante entre os requisitos do regime. Como a IN nº 98/2022 autoriza a norma de serviços apenas **no que couber**, a regra infralegal não deve ser usada para afastar genericamente a definição legal. Em questão de prova, diferencie a literalidade do art. 17 da IN da definição legal vigente. Dedicação exclusiva é característica do **modelo de execução**, não qualidade inevitável do objeto.
 
-Para esse regime, o gerenciamento deve contemplar obrigatoriamente o risco de inadimplemento trabalhista, previdenciário e de FGTS. Conta-Depósito Vinculada ou Pagamento pelo Fato Gerador são controles possíveis, e a escolha exige avaliação de custo-benefício.
+Para esse regime, o gerenciamento deve contemplar obrigatoriamente o risco de inadimplemento trabalhista, previdenciário e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr>. Conta-Depósito Vinculada ou Pagamento pelo Fato Gerador são controles possíveis, e a escolha exige avaliação de custo-benefício.
 
 ## 5. Três fases e três etapas do planejamento
 
@@ -288,7 +288,7 @@ O núcleo do objeto informa natureza, quantitativos e prazo, inclusive possibili
 - estar defasadas tecnológica ou metodologicamente;
 - impor preço superior ao de solução com melhor desempenho.
 
-Os requisitos devem enquadrar categorias pela CBO quando houver mão de obra e definir obrigações compatíveis com o objeto. Quando a avaliação prévia do local for imprescindível, o edital pode exigir atestado de conhecimento e assegurar a vistoria, mas deve sempre permitir que a visita física seja substituída por declaração formal do responsável técnico do licitante. Fotografias, plantas e documentos completos podem reduzir ou eliminar a própria necessidade de avaliação presencial.
+Os requisitos devem enquadrar categorias pela <abbr title="Classificação Brasileira de Ocupações">CBO</abbr> quando houver mão de obra e definir obrigações compatíveis com o objeto. Quando a avaliação prévia do local for imprescindível, o edital pode exigir atestado de conhecimento e assegurar a vistoria, mas deve sempre permitir que a visita física seja substituída por declaração formal do responsável técnico do licitante. Fotografias, plantas e documentos completos podem reduzir ou eliminar a própria necessidade de avaliação presencial.
 
 ### 9.2 Modelo de execução
 
@@ -392,7 +392,7 @@ Considere limpeza contínua de prédio federal com dedicação exclusiva:
 - BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. [Instrução Normativa SEGES/MGI nº 176, de 25 de novembro de 2024, texto atualizado](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-mgi-no-176-de-25-de-novembro-de-2024). Custos mínimos em dedicação exclusiva, consultada em 16 jul. 2026.
 - BRASIL. Presidência da República. [Decreto nº 12.174, de 11 de setembro de 2024, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12174.htm). Garantias trabalhistas em serviços contínuos com dedicação exclusiva, consultado em 16 jul. 2026.
 - BRASIL. Presidência da República. [Decreto nº 9.507, de 21 de setembro de 2018, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9507.htm). Execução indireta federal, consultado em 16 jul. 2026.
-- BRASIL. Ministério do Planejamento, Desenvolvimento e Gestão. [Portaria nº 443, de 27 de dezembro de 2018](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-no-443-de-27-de-dezembro-de-2018). Serviços preferencialmente executados de forma indireta no Executivo federal, consultada em 16 jul. 2026.
+- BRASIL. Ministério do Planejamento, Desenvolvimento e Gestão. [Portaria nº 443, de 27 de dezembro de 2018](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/portarias/portaria-no-443-de-27-de-dezembro-de-2018). Serviços preferencialmente executados de forma indireta no Executivo federal, consultado em 16 jul. 2026.
 - BRASIL. Presidência da República. [Lei nº 14.133, de 1º de abril de 2021, texto consolidado](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm). Fase preparatória e contratação de serviços, consultada em 16 jul. 2026.
 - BRASIL. Ministério da Economia. [Instrução Normativa SEGES/ME nº 65, de 7 de julho de 2021](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-65-de-7-de-julho-de-2021). Pesquisa de preços federal, consultada em 16 jul. 2026.
 - BRASIL. Tribunal de Contas da União. [Licitações e Contratos: análise de riscos](https://licitacoesecontratos.tcu.gov.br/4-2-analise-de-riscos/). Orientação federal atualizada em 29 ago. 2025 e consultada em 16 jul. 2026.

@@ -3,24 +3,24 @@
 ## Corte e regra de leitura
 
 - **Corte de prova:** legislação vigente em **6/7/2026**.
-- IN nº 5/2017 sob a Lei nº 14.133/2021: aplicar **no que couber**.
-- Norma federal não vira automaticamente regulamento interno do TCE-MA.
+- <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 sob a Lei nº 14.133/2021: aplicar **no que couber**.
+- Norma federal não vira automaticamente regulamento interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 - Remissão antiga ≠ fundamento atual.
 
 ## Arts. 33 a 38
 
 | Artigo | Núcleo | Atualização necessária |
 | --- | --- | --- |
-| 33 | TR/PB no setor de licitações → publicação do resultado | rito/encerramento pelos arts. 17 e 71 |
+| 33 | <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> no setor de licitações → publicação do resultado | rito/encerramento pelos arts. 17 e 71 |
 | 34 | instrumentos adaptados ao objeto | substituir leis e decretos revogados |
-| 35 | modelos AGU + Anexo VII + Cadernos | desvio de modelo aplicável exige justificativa |
+| 35 | modelos <abbr title="Advocacia-Geral da União">AGU</abbr> + Anexo VII + Cadernos | desvio de modelo aplicável exige justificativa |
 | 36 | checklist + controle jurídico | art. 53 + ato jurídico competente |
 | 37 | adjudicação e homologação | art. 71 |
 | 38 | formalização e publicação | arts. 91, 94 e 95 |
 
 ## Fluxo útil
 
-Planejamento → edital/anexos → propostas/lances → julgamento → habilitação → recursos → adjudicação/homologação → convocação/contrato → PNCP.
+Planejamento → edital/anexos → propostas/lances → julgamento → habilitação → recursos → adjudicação/homologação → convocação/contrato → <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
 
 - Inversão da habilitação: **ato motivado + benefícios explicitados + previsão no edital**.
 - Adjudicação/homologação ≠ assinatura.
@@ -100,7 +100,7 @@ Indício → diligência → decisão motivada.
 - Faturamento mínimo e índices de rentabilidade/lucratividade: vedados.
 - Diligência pode esclarecer fato preexistente; não criar condição posterior.
 
-## ME/EPP
+## <abbr title="Microempresa">ME</abbr>/<abbr title="Empresa de Pequeno Porte">EPP</abbr>
 
 - Documentação fiscal/trabalhista é apresentada mesmo com restrição.
 - Vencedora: **5 dias úteis**, prorrogáveis por igual período, para regularização.
@@ -116,7 +116,7 @@ Indício → diligência → decisão motivada.
 | paralela e não excludente | contratações simultâneas viáveis/vantajosas |
 | escolha de terceiro | beneficiário escolhe |
 | mercado fluido | preço/condições oscilam |
-| comércio eletrônico | Sicx |
+| comércio eletrônico | <abbr title="Sistema de Compras Expressas">Sicx</abbr> |
 
 - Cadastro permanente.
 - Sem garantia de demanda.
@@ -134,7 +134,7 @@ Art. 71:
 Antes de formalizar/prorrogar:
 
 - regularidade fiscal;
-- Ceis/Cnep;
+- <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>/<abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr>;
 - certidões pertinentes;
 - manutenção da habilitação;
 - garantia/condições precedentes, se exigidas.

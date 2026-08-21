@@ -10,13 +10,13 @@ storageId: "selecao-fornecedor-in5"
 
 ## 1. Recorte, corte temporal e método de leitura
 
-Este assunto trata da **interface entre o planejamento e a seleção do fornecedor** na IN SEGES/MP nº 5/2017. O núcleo próprio está nos **arts. 33 a 38** e no **Anexo VII**: ato convocatório, modelos, lista de conformidade, adjudicação e homologação, proposta e planilha, credenciamento, formalização e publicidade.
+Este assunto trata da **interface entre o planejamento e a seleção do fornecedor** na <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017. O núcleo próprio está nos **arts. 33 a 38** e no **Anexo VII**: ato convocatório, modelos, lista de conformidade, adjudicação e homologação, proposta e planilha, credenciamento, formalização e publicidade.
 
 A matéria geral de modalidades, critérios de julgamento, habilitação, contratação direta e procedimentos auxiliares da Lei nº 14.133/2021 já foi estudada no Assunto 126. Aqui ela reaparece apenas quando necessária para responder à pergunta central: **como a estrutura da IN nº 5/2017 deve ser aplicada, atualizada ou afastada no regime vigente?**
 
-No âmbito federal, a IN SEGES/ME nº 98/2022 autorizou a aplicação da IN nº 5/2017 às contratações de serviços regidas pela Lei nº 14.133/2021 **no que couber**. Isso preserva a técnica operacional compatível e impede a reprodução automática de remissões às Leis nº 8.666/1993 e nº 10.520/2002 ou a regulamentos revogados.
+No âmbito federal, a IN <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022 autorizou a aplicação da IN nº 5/2017 às contratações de serviços regidas pela Lei nº 14.133/2021 **no que couber**. Isso preserva a técnica operacional compatível e impede a reprodução automática de remissões às Leis nº 8.666/1993 e nº 10.520/2002 ou a regulamentos revogados.
 
-> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem somente à conferência editorial e não alteram o corte jurídico.
+> **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>. Datas posteriores de consulta das fontes servem somente à conferência editorial e não alteram o corte jurídico.
 
 A IN nº 5/2017 é norma federal. Sua cobrança no edital não a transforma, por si só, em regulamento interno do TCE-MA.
 
@@ -24,20 +24,20 @@ A IN nº 5/2017 é norma federal. Sua cobrança no edital não a transforma, por
 
 | Dispositivo | Núcleo da IN nº 5/2017 | Leitura no regime atual |
 | --- | --- | --- |
-| art. 33 | seleção começa com TR/PB no setor de licitações e termina com publicação do resultado após adjudicação e homologação | marco gerencial útil; rito e encerramento seguem a Lei nº 14.133/2021 e o regulamento aplicável |
+| art. 33 | seleção começa com <abbr title="Termo de Referência ou Projeto Básico">TR/PB</abbr> no setor de licitações e termina com publicação do resultado após adjudicação e homologação | marco gerencial útil; rito e encerramento seguem a Lei nº 14.133/2021 e o regulamento aplicável |
 | art. 34 | atos convocatórios, contratação direta e contratos adaptados às particularidades do objeto | preservar a adaptação; substituir fundamentos legais revogados |
-| art. 35 | modelos da AGU, Anexo VII e Cadernos de Logística | usar modelo aplicável e justificar nos autos a não utilização ou alteração |
+| art. 35 | modelos da <abbr title="Advocacia-Geral da União">AGU</abbr>, Anexo VII e Cadernos de Logística | usar modelo aplicável e justificar nos autos a não utilização ou alteração |
 | art. 36 | lista de conformidade e exame jurídico | checklist continua útil; controle jurídico segue o art. 53 e as regras atuais do órgão |
 | art. 37 | adjudicação e homologação | encerramento conforme art. 71 da Lei nº 14.133/2021 |
 | art. 38 | formalização e publicação conforme Anexo VII-G | forma e eficácia devem ser compatibilizadas especialmente com arts. 91, 94 e 95 |
 
-A sequência prática permanece simples: planejamento concluído → edital e anexos → propostas/lances → julgamento → habilitação → recursos → adjudicação/homologação → convocação e contrato → divulgação no PNCP.
+A sequência prática permanece simples: planejamento concluído → edital e anexos → propostas/lances → julgamento → habilitação → recursos → adjudicação/homologação → convocação e contrato → divulgação no <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>.
 
 A habilitação pode anteceder propostas e julgamento somente mediante **ato motivado**, com explicitação dos benefícios da inversão e previsão no edital.
 
 ## 3. Ato convocatório: tradução do planejamento
 
-O edital não reabre escolhas já justificadas sem motivo: ele traduz ETP, TR, riscos e minuta em regras objetivas de participação, julgamento, habilitação, recurso, fiscalização, gestão, entrega e pagamento.
+O edital não reabre escolhas já justificadas sem motivo: ele traduz <abbr title="Estudo Técnico Preliminar">ETP</abbr>, TR, riscos e minuta em regras objetivas de participação, julgamento, habilitação, recurso, fiscalização, gestão, entrega e pagamento.
 
 Todos os elementos do edital, inclusive anexos, minuta e TR, devem ser divulgados simultaneamente em sítio eletrônico oficial, sem exigência de cadastro para acesso.
 
@@ -122,11 +122,11 @@ A habilitação geral da Lei nº 14.133/2021 já pertence ao Assunto 126. Na lei
 
 Diligência documental pode complementar informação sobre fato preexistente ou atualizar documento vencido depois do recebimento das propostas. Não pode criar condição de habilitação inexistente na data exigida.
 
-## 7. ME/EPP e credenciamento: apenas a interface com a IN
+## 7. <abbr title="Microempresa">ME</abbr>/<abbr title="Empresa de Pequeno Porte">EPP</abbr> e credenciamento: apenas a interface com a IN
 
-A LC nº 123/2006 continua aplicável. A ME/EPP apresenta a documentação fiscal e trabalhista mesmo com restrição e, se vencedora, dispõe do prazo legal para regularização. O tratamento favorecido não elimina requisito técnico indispensável nem transforma proposta inexequível em exequível.
+A <abbr title="Lei Complementar">LC</abbr> nº 123/2006 continua aplicável. A ME/EPP apresenta a documentação fiscal e trabalhista mesmo com restrição e, se vencedora, dispõe do prazo legal para regularização. O tratamento favorecido não elimina requisito técnico indispensável nem transforma proposta inexequível em exequível.
 
-O credenciamento aparece historicamente no Anexo VII-B. No regime atual, é **procedimento auxiliar**, não modalidade. O art. 79 da Lei nº 14.133/2021 prevê credenciamento paralelo e não excludente, escolha a critério de terceiro, mercado fluido e comércio eletrônico pelo Sicx. Cadastro não assegura contratação nem demanda mínima.
+O credenciamento aparece historicamente no Anexo VII-B. No regime atual, é **procedimento auxiliar**, não modalidade. O art. 79 da Lei nº 14.133/2021 prevê credenciamento paralelo e não excludente, escolha a critério de terceiro, mercado fluido e comércio eletrônico pelo <abbr title="Sistema de Compras Expressas">Sicx</abbr>. Cadastro não assegura contratação nem demanda mínima.
 
 O Decreto nº 11.878/2024 regulamenta, no âmbito federal, as três primeiras hipóteses. O Sicx, incluído em 2025, depende de sua regulamentação própria.
 
@@ -134,7 +134,7 @@ O Decreto nº 11.878/2024 regulamenta, no âmbito federal, as três primeiras hi
 
 Exauridos julgamento, habilitação e recursos, a autoridade superior pode retornar para saneamento, revogar, anular ou adjudicar e homologar, conforme o art. 71.
 
-Adjudicação e homologação **não equivalem à assinatura do contrato**. Antes de formalizar ou prorrogar, a Administração verifica regularidade fiscal, Ceis, Cnep, certidões pertinentes, manutenção da habilitação, garantia e demais condições precedentes.
+Adjudicação e homologação **não equivalem à assinatura do contrato**. Antes de formalizar ou prorrogar, a Administração verifica regularidade fiscal, <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>, <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr>, certidões pertinentes, manutenção da habilitação, garantia e demais condições precedentes.
 
 O instrumento contratual é obrigatório, salvo as hipóteses legais de substituição. Quando substituído por instrumento hábil, aplicam-se, no que couber, as cláusulas necessárias do art. 92.
 
