@@ -12,7 +12,7 @@ Administrar materiais e patrimônio não significa apenas comprar, guardar e inv
 
 > **Ideia central:** análise do valor procura a melhor relação entre funções e recursos; alienação transfere propriedade e exige fundamento jurídico, avaliação, competência e procedimento. Nenhuma das duas se reduz a escolher o menor preço.
 
-Este material considera as normas vigentes até **19 de julho de 2026**. A Lei nº 14.133/2021 e o Código Civil fornecem o regime geral de alienação de bens públicos. O Decreto nº 12.785/2025 e a IN SEDAP nº 205/1988 têm âmbito administrativo federal próprio: oferecem conceitos úteis, mas sua aplicação automática ao Estado do Maranhão ou ao TCE-MA não deve ser presumida. Competências e ritos internos do ente continuam necessários.
+Este material considera as normas vigentes até **19 de julho de 2026**. A Lei nº 14.133/2021 e o Código Civil fornecem o regime geral de alienação de bens públicos. O Decreto nº 12.785/2025 e a <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 têm âmbito administrativo federal próprio: oferecem conceitos úteis, mas sua aplicação automática ao Estado do Maranhão ou ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> não deve ser presumida. Competências e ritos internos do ente continuam necessários.
 
 O foco é a análise funcional e o ciclo de destinação. Mensuração contábil de estoques pertence ao Assunto 119; compras, classificação e codificação, ao 121; recebimento e inventário, ao 122; responsabilidade e movimentação patrimonial, aos Assuntos 117 e 118; e patrimônio imobiliário, ao 116.
 
@@ -136,7 +136,7 @@ Nem toda função secundária é dispensável. Restringir acesso pode ser requis
 
 ### 2.2 Verbo e substantivo
 
-A FHWA recomenda formular função com **verbo de ação + substantivo mensurável**, de modo geral e sem antecipar a solução. “Restringir acesso” deixa mais alternativas abertas do que “instalar fechadura da marca X”.
+A <abbr title="Federal Highway Administration">FHWA</abbr> recomenda formular função com **verbo de ação + substantivo mensurável**, de modo geral e sem antecipar a solução. “Restringir acesso” deixa mais alternativas abertas do que “instalar fechadura da marca X”.
 
 Formulações excessivamente específicas congelam componentes, materiais ou fornecedores antes da análise. Formulações vagas, como “melhorar sistema”, também dificultam medir o resultado.
 
@@ -446,7 +446,7 @@ O Código Civil considera públicos os bens pertencentes às pessoas jurídicas 
 | Lei nº 14.133/2021 | requisitos gerais, leilão e hipóteses de dispensa | normas gerais de licitações e contratos |
 | Decreto nº 11.461/2023 | procedimento eletrônico de leilão | Executivo federal direto, autárquico e fundacional |
 | Decreto nº 12.785/2025 | circularidade e destinação de móveis | Administração federal direta, autárquica e fundacional |
-| IN SEDAP nº 205/1988 | conceitos e controles do SISG | SISG federal, conforme compatibilidade |
+| IN SEDAP nº 205/1988 | conceitos e controles do <abbr title="Sistema de Serviços Gerais">SISG</abbr> | SISG federal, conforme compatibilidade |
 | norma interna competente | comissão, alçadas, formulários e sistemas | ente, poder ou órgão que a editou |
 
 Uma norma federal operacional pode servir de referência, mas não se transforma automaticamente em regulamento interno do TCE-MA.
@@ -606,7 +606,7 @@ No âmbito federal, devem ser observados, conforme o caso:
 - apoio técnico à comissão sob sua supervisão;
 - custos logísticos e responsabilidade do recebedor segundo a decisão aplicável;
 - prioridade dos eletroeletrônicos para a política federal de inclusão digital;
-- encaminhamento de resíduos conforme PGRS ou instrumento exigido;
+- encaminhamento de resíduos conforme <abbr title="Plano de Gerenciamento de Resíduos Sólidos">PGRS</abbr> ou instrumento exigido;
 - operadores de resíduos perigosos habilitados e cadastrados.
 
 Esses elementos são referência federal e exigem verificação do âmbito antes de serem aplicados a outro ente ou poder.
@@ -719,7 +719,7 @@ $$
 \rightarrow \text{disposição dos rejeitos}
 $$
 
-Contratar transportador ou destinador não elimina a responsabilidade legal por dano decorrente de gerenciamento inadequado nos casos abrangidos pela PNRS. Devem ser verificados habilitação, licenças, cadeia de custódia e comprovantes.
+Contratar transportador ou destinador não elimina a responsabilidade legal por dano decorrente de gerenciamento inadequado nos casos abrangidos pela <abbr title="Política Nacional de Resíduos Sólidos">PNRS</abbr>. Devem ser verificados habilitação, licenças, cadeia de custódia e comprovantes.
 
 ### 13.2 Eletroeletrônicos governamentais
 

@@ -6,11 +6,11 @@
 
 - Corte normativo: **6 jul. 2026**.
 - Núcleo: arts. **1º a 17** da Lei nº 14.133/2021.
-- Decreto nº 11.246/2022: referência da Administração Pública **federal direta, autárquica e fundacional**; sem aplicação automática ao TCE-MA.
+- Decreto nº 11.246/2022: referência da Administração Pública **federal direta, autárquica e fundacional**; sem aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## Base constitucional
 
-- CF, art. 37, XXI: licitação é regra para obras, serviços, compras e alienações, ressalvados casos legais.
+- <abbr title="Constituição Federal">CF</abbr>, art. 37, XXI: licitação é regra para obras, serviços, compras e alienações, ressalvados casos legais.
 - Deve haver igualdade de condições.
 - Cláusulas de pagamento mantêm as condições efetivas da proposta, nos termos da lei.
 - Só cabem qualificações técnica e econômica indispensáveis às obrigações.
@@ -21,7 +21,7 @@
 
 ### Abrangidos
 
-- Administração direta, autárquica e fundacional de União, Estados, DF e Municípios.
+- Administração direta, autárquica e fundacional de União, Estados, <abbr title="Distrito Federal">DF</abbr> e Municípios.
 - Legislativo e Judiciário quando exercem função administrativa, nos termos do art. 1º.
 - Fundos especiais e demais entidades controladas direta ou indiretamente.
 
@@ -39,11 +39,11 @@
 - concessão e permissão de uso de bens públicos;
 - serviços, inclusive técnico-profissionais especializados;
 - obras e serviços de arquitetura e engenharia;
-- TIC.
+- <abbr title="Tecnologia da Informação e Comunicação">TIC</abbr>.
 
-### ME e EPP
+### <abbr title="Microempresa">ME</abbr> e <abbr title="Empresa de Pequeno Porte">EPP</abbr>
 
-- Art. 4º aplica arts. 42 a 49 da LC nº 123/2006.
+- Art. 4º aplica arts. 42 a 49 da <abbr title="Lei Complementar">LC</abbr> nº 123/2006.
 - Bens/serviços: teto de EPP examinado por **item**.
 - Obras/engenharia: teto de EPP examinado pela **licitação**.
 - Benefícios dependem também da soma dos contratos celebrados no ano-calendário.
@@ -53,7 +53,7 @@
 
 ## Princípios: art. 5º
 
-Legalidade; impessoalidade; moralidade; publicidade; eficiência; interesse público; probidade; igualdade; planejamento; transparência; eficácia; segregação; motivação; vinculação ao edital; julgamento objetivo; segurança jurídica; razoabilidade; competitividade; proporcionalidade; celeridade; economicidade; desenvolvimento nacional sustentável; LINDB.
+Legalidade; impessoalidade; moralidade; publicidade; eficiência; interesse público; probidade; igualdade; planejamento; transparência; eficácia; segregação; motivação; vinculação ao edital; julgamento objetivo; segurança jurídica; razoabilidade; competitividade; proporcionalidade; celeridade; economicidade; desenvolvimento nacional sustentável; <abbr title="Lei de Introdução às Normas do Direito Brasileiro">LINDB</abbr>.
 
 | Par | Distinção |
 | --- | --- |
@@ -187,9 +187,9 @@ Alta administração implementa processos, riscos e controles para:
 - Cópia: original perante agente ou declaração de autenticidade por advogado.
 - Firma: reconhecer só com dúvida, salvo lei.
 - Atos: preferencialmente digitais.
-- Assinatura digital ICP-Brasil admitida.
+- Assinatura digital <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr> admitida.
 
-### PCA
+### <abbr title="Plano de Contratações Anual">PCA</abbr>
 
 - Órgãos de planejamento **poderão** elaborar conforme regulamento.
 - Se elaborado: divulgar, manter disponível e observar em licitações/contratos.
@@ -278,7 +278,7 @@ Habilitação antes de propostas/julgamento exige:
 
 - Se o edital previr, testar proposta do provisoriamente vencedor.
 - Exemplos: amostra, exame e prova de conceito.
-- Certificação independente acreditada pelo Inmetro pode ser exigida nos casos do art. 17, § 6º.
+- Certificação independente acreditada pelo <abbr title="Instituto Nacional de Metrologia, Qualidade e Tecnologia">Inmetro</abbr> pode ser exigida nos casos do art. 17, § 6º.
 
 ## Pegadinhas finais
 

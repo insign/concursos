@@ -9,7 +9,7 @@
 ## Corte temporal
 
 - Edital publicado em **6 de julho de 2026**.
-- IN SEDAP nº 205/1988: referência do SISG federal; não presumir aplicação automática ao TCE/MA.
+- <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988: referência do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal; não presumir aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr>.
 - Atualização posterior: marcar como **pós-edital** ou **direito vigente hoje**.
 
 ## Arquivamento operacional

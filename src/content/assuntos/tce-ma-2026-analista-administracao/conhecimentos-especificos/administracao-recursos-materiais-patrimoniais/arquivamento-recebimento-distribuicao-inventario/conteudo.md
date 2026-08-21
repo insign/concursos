@@ -14,9 +14,9 @@ A administração de materiais não termina com a compra. O objeto precisa ser e
 
 ## Recorte e corte temporal
 
-O edital do TCE/MA foi publicado em **6 de julho de 2026**. Esse é o corte-base deste assunto. Alteração posterior, quando necessária para contextualização, deve ser identificada como **pós-edital** ou **direito vigente hoje**, sem ser projetada retroativamente sobre o conteúdo cobrável na data do edital.
+O edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> foi publicado em **6 de julho de 2026**. Esse é o corte-base deste assunto. Alteração posterior, quando necessária para contextualização, deve ser identificada como **pós-edital** ou **direito vigente hoje**, sem ser projetada retroativamente sobre o conteúdo cobrável na data do edital.
 
-A IN SEDAP nº 205/1988 disciplina a gestão de materiais no âmbito do SISG federal. Ela fornece conceitos operacionais úteis para prova, mas sua aplicação automática ao TCE/MA não deve ser presumida. A Lei nº 14.133/2021 fornece as normas gerais de contratação, inclusive a disciplina do recebimento do objeto. Regras internas do órgão, competências e procedimentos próprios devem ser observados quando existirem.
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988 disciplina a gestão de materiais no âmbito do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal. Ela fornece conceitos operacionais úteis para prova, mas sua aplicação automática ao TCE/MA não deve ser presumida. A Lei nº 14.133/2021 fornece as normas gerais de contratação, inclusive a disciplina do recebimento do objeto. Regras internas do órgão, competências e procedimentos próprios devem ser observados quando existirem.
 
 O foco aqui é o ciclo operacional de materiais. Compras, classificação e codificação pertencem ao Assunto 121; armazenagem e segurança, ao 120; sistema e movimentação patrimonial, ao 118; alienação, ao 123; e a disciplina contratual completa de recebimento e pagamento será aprofundada no Assunto 129.
 

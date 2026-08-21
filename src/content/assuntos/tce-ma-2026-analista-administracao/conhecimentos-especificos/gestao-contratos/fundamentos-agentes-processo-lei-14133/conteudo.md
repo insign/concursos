@@ -12,9 +12,9 @@ A contratação pública não começa na disputa nem termina na escolha do menor
 
 > **Ideia central:** a Lei nº 14.133/2021 distribui competências e controles para que a Administração transforme uma necessidade pública em resultado vantajoso, por procedimento motivado, competitivo e rastreável.
 
-Este material adota como corte normativo **6 de julho de 2026**, data de publicação do edital. O recorte principal são os arts. 1º a 17 da Lei nº 14.133/2021. Datas posteriores indicadas nas referências são datas de acesso e não alteram o recorte jurídico da prova. O Decreto nº 11.246/2022 é usado apenas como referência regulamentar da Administração Pública federal direta, autárquica e fundacional; ele não se aplica automaticamente ao Estado do Maranhão nem ao TCE-MA.
+Este material adota como corte normativo **6 de julho de 2026**, data de publicação do edital. O recorte principal são os arts. 1º a 17 da Lei nº 14.133/2021. Datas posteriores indicadas nas referências são datas de acesso e não alteram o recorte jurídico da prova. O Decreto nº 11.246/2022 é usado apenas como referência regulamentar da Administração Pública federal direta, autárquica e fundacional; ele não se aplica automaticamente ao Estado do Maranhão nem ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
-O estudo foi dividido para evitar repetição. Planejamento e fase preparatória pertencem ao Assunto 125; modalidades, julgamento, seleção e contratação direta, ao 126; formalização, garantias, riscos e duração, ao 127; execução, fiscalização, alterações e equilíbrio econômico-financeiro, ao 128; extinção, recebimento e pagamento, ao 129; infrações, sanções, controle, PNCP e regras finais, ao 130. Aqui, esses temas aparecem somente quando indispensáveis para compreender a arquitetura geral.
+O estudo foi dividido para evitar repetição. Planejamento e fase preparatória pertencem ao Assunto 125; modalidades, julgamento, seleção e contratação direta, ao 126; formalização, garantias, riscos e duração, ao 127; execução, fiscalização, alterações e equilíbrio econômico-financeiro, ao 128; extinção, recebimento e pagamento, ao 129; infrações, sanções, controle, <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr> e regras finais, ao 130. Aqui, esses temas aparecem somente quando indispensáveis para compreender a arquitetura geral.
 
 ## 1. Fundamento constitucional da licitação
 
@@ -72,7 +72,7 @@ A Lei nº 14.133/2021 aplica-se a:
 | concessão e permissão de uso de bens públicos | uso privativo autorizado nos termos aplicáveis |
 | prestação de serviços | limpeza, consultoria ou manutenção |
 | obras e serviços de arquitetura e engenharia | construção, reforma ou atividade técnica enquadrada |
-| contratações de TIC | aquisição de equipamentos ou serviços de tecnologia |
+| contratações de <abbr title="Tecnologia da Informação e Comunicação">TIC</abbr> | aquisição de equipamentos ou serviços de tecnologia |
 
 O enquadramento do objeto influencia planejamento, modalidade, julgamento, habilitação, contrato e fiscalização, mas esses desdobramentos serão estudados nos assuntos seguintes.
 
@@ -335,7 +335,7 @@ O processo deve produzir evidência compreensível e verificável. O art. 12 det
 - reconhecimento de firma somente diante de dúvida de autenticidade, salvo imposição legal;
 - atos preferencialmente digitais;
 - possibilidade de elaboração regulamentar do plano de contratações anual a partir dos documentos de formalização de demandas;
-- identificação e assinatura digital em meio eletrônico mediante certificado ICP-Brasil.
+- identificação e assinatura digital em meio eletrônico mediante certificado <abbr title="Infraestrutura de Chaves Públicas Brasileira">ICP-Brasil</abbr>.
 
 ### 11.1 Formalismo moderado não é informalidade
 
@@ -454,7 +454,7 @@ Nos procedimentos eletrônicos, a Administração pode exigir que atos dos licit
 
 Se o edital previr, na fase de julgamento a Administração pode, em relação ao licitante provisoriamente vencedor, analisar a conformidade da proposta mediante homologação de amostras, exame de conformidade, prova de conceito ou outro teste de interesse administrativo.
 
-O art. 17 também permite exigir certificação por organização independente acreditada pelo Inmetro como condição para aceitação de estudos e projetos, conclusão de fases ou objetos contratuais e material ou corpo técnico apresentado para habilitação. A exigência concreta deve ser pertinente e proporcional.
+O art. 17 também permite exigir certificação por organização independente acreditada pelo <abbr title="Instituto Nacional de Metrologia, Qualidade e Tecnologia">Inmetro</abbr> como condição para aceitação de estudos e projetos, conclusão de fases ou objetos contratuais e material ou corpo técnico apresentado para habilitação. A exigência concreta deve ser pertinente e proporcional.
 
 ## 17. Mapa de responsabilidades e evidências
 
@@ -493,7 +493,7 @@ O caso mostra que conformidade não é checklist isolado. Princípios, competên
 
 ## 19. Fronteiras com os próximos assuntos
 
-- **Assunto 125:** transforma necessidade em planejamento, ETP, TR, estimativa, edital e análise de riscos;
+- **Assunto 125:** transforma necessidade em planejamento, <abbr title="Estudo Técnico Preliminar">ETP</abbr>, <abbr title="Termo de Referência">TR</abbr>, estimativa, edital e análise de riscos;
 - **Assunto 126:** estuda modalidades, critérios, disputa, julgamento, habilitação, contratação direta e seleção;
 - **Assunto 127:** trata de formalização, cláusulas, garantias, matriz de riscos e duração;
 - **Assunto 128:** aprofunda execução, gestão, fiscalização, alterações e equilíbrio;
