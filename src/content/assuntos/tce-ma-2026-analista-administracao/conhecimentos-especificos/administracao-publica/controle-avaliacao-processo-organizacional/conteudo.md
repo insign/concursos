@@ -123,7 +123,7 @@ Controle externo constitucional, auditoria, fiscalização contábil e prestaç�
 
 Indicador é uma medida quantitativa ou qualitativa dotada de significado, usada para representar aspecto relevante de um objeto. Ele reduz uma realidade complexa a uma informação manejável; por isso, é instrumento de monitoramento, controle e avaliação, não a própria realidade nem a própria avaliação.
 
-Segundo o Guia Referencial da Enap, componentes básicos de um indicador incluem:
+Segundo o Guia Referencial da <abbr title="Escola Nacional de Administração Pública">Enap</abbr>, componentes básicos de um indicador incluem:
 
 | Componente | Papel |
 | --- | --- |

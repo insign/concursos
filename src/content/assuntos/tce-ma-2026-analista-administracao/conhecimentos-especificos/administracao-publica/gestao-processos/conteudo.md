@@ -100,7 +100,7 @@ Um processo de apoio pode ser crítico. “Não finalístico” não significa d
 
 Gestão por processos não exige extinguir departamentos ou hierarquia. Ela acrescenta coordenação transversal, responsabilidades compartilhadas e indicadores ponta a ponta.
 
-## 6. BPM, BPMN, BPMS e workflow
+## 6. <abbr title="Business Process Management">BPM</abbr>, <abbr title="Business Process Model and Notation">BPMN</abbr>, <abbr title="Business Process Management Suite">BPMS</abbr> e workflow
 
 | Conceito | Núcleo |
 | --- | --- |
@@ -115,7 +115,7 @@ BPM não é um software. BPMN não é método de gestão. BPMS não substitui go
 
 Os modelos agrupam as etapas de maneiras diferentes. Dois referenciais frequentes são:
 
-| Guia federal | BPM CBOK |
+| Guia federal | <abbr title="Business Process Management Common Body of Knowledge">BPM CBOK</abbr> |
 | --- | --- |
 | planejar | planejamento e estratégia |
 | analisar | análise |

@@ -42,7 +42,7 @@ Satisfação individual não supera legalidade, direitos ou interesse coletivo.
 - Diagrama de Ishikawa não prova causa.
 - Taguchi admite perda pelo afastamento do alvo, mesmo dentro da especificação.
 
-## ISO em 18/07/2026
+## <abbr title="International Organization for Standardization">ISO</abbr> em 18/07/2026
 
 | Norma | Situação |
 | --- | --- |
@@ -84,7 +84,7 @@ Satisfação individual não supera legalidade, direitos ou interesse coletivo.
 
 O ciclo não termina no Check.
 
-## MASP
+## <abbr title="Método de Análise e Solução de Problemas">MASP</abbr>
 
 1. identificação;
 2. observação;
@@ -158,7 +158,7 @@ Falha externa ocorre após chegar ao usuário.
 
 ## Serviços
 
-### SERVQUAL
+### <abbr title="modelo de avaliação da qualidade em serviços">SERVQUAL</abbr>
 
 - tangibilidade;
 - confiabilidade;
@@ -180,8 +180,8 @@ Responsividade = ajudar com rapidez.
 ### Blueprint
 
 - ações do usuário;
-- front office;
-- back office;
+- <abbr title="atividades visíveis ao usuário">front office</abbr>;
+- <abbr title="atividades internas não visíveis ao usuário">back office</abbr>;
 - apoio;
 - evidências;
 - linhas de interação e visibilidade.
@@ -219,7 +219,7 @@ Automação não corrige processo ruim automaticamente.
 
 ## Excelência pública
 
-### MEGP histórico
+### <abbr title="Modelo de Excelência em Gestão Pública">MEGP</abbr> histórico
 
 - liderança;
 - estratégias e planos;
@@ -235,7 +235,7 @@ GesPública foi revogado.
 ### Gestaopublicagov.br
 
 - modelo atual;
-- IMGGs;
+- <abbr title="Instrumentos de Maturidade de Governança e Gestão">IMGGs</abbr>;
 - diagnóstico e melhoria;
 - reconhecimento nacional;
 - ativo em 2026.

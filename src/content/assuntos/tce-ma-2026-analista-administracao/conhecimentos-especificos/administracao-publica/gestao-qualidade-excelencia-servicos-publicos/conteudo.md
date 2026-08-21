@@ -124,7 +124,7 @@ Oito dimensões clássicas de qualidade de produtos:
 
 Em serviços públicos, a aplicação deve ser adaptada ao contexto e aos direitos do usuário.
 
-## 4. Gestão da qualidade e normas ISO
+## 4. Gestão da qualidade e normas <abbr title="International Organization for Standardization">ISO</abbr>
 
 ### Situação normativa em 18 de julho de 2026
 
@@ -321,7 +321,7 @@ Serviços apresentam características frequentes:
 
 Essas características não são absolutas e variam conforme o serviço e a digitalização.
 
-### SERVQUAL
+### <abbr title="modelo de avaliação da qualidade em serviços">SERVQUAL</abbr>
 
 Cinco dimensões clássicas:
 
@@ -356,7 +356,7 @@ Um blueprint pode representar:
 - evidências físicas ou digitais;
 - linhas de interação, visibilidade e apoio.
 
-Ele ajuda a localizar falhas e handoffs em serviços. Não é apenas desenho estético do atendimento.
+Ele ajuda a localizar falhas e <abbr title="transferências entre etapas, pessoas ou áreas">handoffs</abbr> em serviços. Não é apenas desenho estético do atendimento.
 
 ## 14. Indicadores da qualidade
 
