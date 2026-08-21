@@ -1,4 +1,4 @@
-# Gestão e fiscalização contratual na IN nº 5/2017
+# Gestão e fiscalização contratual na <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
 
 ## Corte e leitura normativa
 
@@ -7,7 +7,7 @@
 - IN nº 5/2017: aplicação federal sob a nova lei apenas **no que couber**.
 - Decreto nº 11.246/2022: gestores e fiscais no âmbito federal.
 - Decreto nº 13.031/2026: Contratos.gov.br, modelo interno, gestão setorial e alterações do Decreto nº 11.246/2022.
-- Norma federal não vira automaticamente regulamento interno do TCE-MA.
+- Norma federal não vira automaticamente regulamento interno do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## Papéis
 
@@ -30,7 +30,7 @@
 - Ciência formal das atribuições: antes do ato de designação.
 - Titular e substituto devem ser tratados formalmente.
 - Critérios: cargo, complexidade, carga, capacidade, qualificação e conflito de interesses.
-- Necessidade de capacitação: identificar no ETP e tratar quando cabível.
+- Necessidade de capacitação: identificar no <abbr title="Estudo Técnico Preliminar">ETP</abbr> e tratar quando cabível.
 
 ### Cobertura temporária — regra vigente em 2026
 
@@ -98,7 +98,7 @@ Fiscal não improvisa alteração, sanção, prorrogação ou reequilíbrio.
 - demais obrigações;
 - satisfação do usuário.
 
-Checklist + teste + amostra + foto + sistema + pesquisa + IMR podem coexistir.
+Checklist + teste + amostra + foto + sistema + pesquisa + <abbr title="Instrumento de Medição de Resultado">IMR</abbr> podem coexistir.
 
 ## IMR e fiscalização técnica
 
@@ -147,7 +147,7 @@ Funcionalidade ainda dependente de evolução do sistema → autuar no processo 
 
 ### Outros entes
 
-A SEGES pode permitir uso por outros Poderes e entes. **Permissão ≠ obrigação automática para o TCE-MA.**
+A <abbr title="Secretaria de Gestão e Inovação">SEGES</abbr> pode permitir uso por outros Poderes e entes. **Permissão ≠ obrigação automática para o TCE-MA.**
 
 ## Modelo interno mínimo
 

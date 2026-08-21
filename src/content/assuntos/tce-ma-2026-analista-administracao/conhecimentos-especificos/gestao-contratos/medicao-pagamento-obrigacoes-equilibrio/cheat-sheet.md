@@ -4,9 +4,9 @@
 
 - **Corte de prova:** legislação vigente em **6/7/2026**.
 - Lei nº 14.133/2021: norma geral aplicável aos entes abrangidos.
-- IN nº 5/2017: disciplina federal de serviços, aplicável sob a nova lei **no que couber**.
+- <abbr title="Instrução Normativa">IN</abbr> nº 5/2017: disciplina federal de serviços, aplicável sob a nova lei **no que couber**.
 - Decreto nº 9.507/2018: regra federal específica para serviços continuados com dedicação exclusiva.
-- IN e decretos federais não vinculam automaticamente o TCE-MA.
+- IN e decretos federais não vinculam automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 - Referência revogada/incompatível da IN cede ao fundamento vigente.
 
 ## Fluxo financeiro
@@ -17,7 +17,7 @@ Execução → medição/evidências → correção ou redimensionamento → rec
 - Contrato deve prever medição, liquidação, pagamento e reajustamento.
 - Divergência parcial ≠ retenção da parcela incontroversa.
 
-## IMR
+## <abbr title="Instrumento de Medição de Resultado">IMR</abbr>
 
 | Elemento | Função |
 | --- | --- |
@@ -91,7 +91,7 @@ Recebimento ≠ pagamento e não elimina responsabilidades posteriores.
 ### Anexo VIII-B
 
 - **Inicial:** empregados, funções, horários, vínculos, salários, benefícios, exames e riscos pertinentes.
-- **Mensal:** salários e obrigações trabalhistas, previdenciárias e FGTS do mês anterior.
+- **Mensal:** salários e obrigações trabalhistas, previdenciárias e <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr> do mês anterior.
 - **Diária:** alocação, função e jornada, conforme método de controle.
 - **Procedimental:** data-base, férias, licenças e estabilidades.
 - **Amostragem:** efeito surpresa e cobertura do conjunto ao longo do tempo.
@@ -173,7 +173,7 @@ Recebimento ≠ pagamento e não elimina responsabilidades posteriores.
 - Só repercute nos itens e diferenças comprovados.
 - Prazo de resposta sob a Lei nº 14.133/2021: preferencialmente **1 mês** após documentação pertinente.
 
-### CCT não vinculante
+### <abbr title="Convenção Coletiva de Trabalho">CCT</abbr> não vinculante
 
 Administração não assume automaticamente cláusula coletiva sobre:
 
@@ -194,7 +194,7 @@ Administração não assume automaticamente cláusula coletiva sobre:
 
 - **Regra geral:** não transportar automaticamente a preclusão da repactuação; reajuste pode ser processado de ofício.
 - **Exceção:** verificar edital/contrato. Pode haver renúncia ou preclusão se houver disciplina expressa condicionando o reajuste a requerimento e atribuindo efeito à prorrogação sem pedido/ressalva.
-- TCU: não há jurisprudência consolidada sobre essa preclusão sob a Lei nº 14.133/2021.
+- <abbr title="Tribunal de Contas da União">TCU</abbr>: não há jurisprudência consolidada sobre essa preclusão sob a Lei nº 14.133/2021.
 
 > Pegadinha: **preclusão da repactuação ≠ preclusão automática do reajuste**.
 

@@ -1,4 +1,4 @@
-# Encerramento e regras finais da IN nº 5/2017
+# Encerramento e regras finais da <abbr title="Instrução Normativa">IN</abbr> nº 5/2017
 
 ## Corte e regime
 
@@ -6,7 +6,7 @@
 - Lei nº 14.133/2021: norma geral aplicável aos entes abrangidos.
 - IN nº 5/2017: disciplina federal de contratação de serviços.
 - IN nº 98/2022: aplica a IN nº 5/2017 no regime novo somente **no que couber**.
-- IN federal não vincula automaticamente o TCE-MA.
+- IN federal não vincula automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 - Contrato antigo preserva o regime legal escolhido durante sua vigência.
 - Remissão incompatível à Lei nº 8.666/1993 cede à Lei nº 14.133/2021 no contrato novo.
 
@@ -40,7 +40,7 @@ Fiscal administrativo verifica:
 ### Documentos finais do Anexo VIII-B
 
 - termos rescisórios, homologados quando exigível;
-- guias previdenciárias e de FGTS das rescisões;
+- guias previdenciárias e de <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr> das rescisões;
 - extratos dos depósitos individuais do FGTS;
 - exames demissionais.
 
@@ -136,7 +136,7 @@ Checklist prático:
 - Prorrogação não é direito subjetivo.
 - Exige previsão editalícia, vantagem, créditos, interesse e formalização antes do fim.
 - Contrato expirado não pode ser prorrogado retroativamente.
-- Art. 91, § 4º: regularidade fiscal, Ceis, Cnep e certidões no processo.
+- Art. 91, § 4º: regularidade fiscal, <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr>, <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr> e certidões no processo.
 
 ### Vantajosidade — sistemática federal do Anexo IX
 
@@ -175,7 +175,7 @@ Checklist prático:
 
 ## Arts. 71 a 75
 
-- Art. 71: SEGES pode desenvolver modelos e procedimentos.
+- Art. 71: <abbr title="Secretaria de Gestão">SEGES</abbr> pode desenvolver modelos e procedimentos.
 - Art. 72: Central de Compras pode afastar ponto da IN em projeto-piloto justificado, sem afastar lei e princípios.
 - Art. 73: SEGES resolve omissões e pode complementar a IN.
 - Art. 74: revogação da IN nº 2/2008.

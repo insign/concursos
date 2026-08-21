@@ -5,11 +5,11 @@
 | Fonte | Papel | Âmbito |
 |---|---|---|
 | Lei nº 14.133/2021 | Base geral | Administração abrangida pela lei |
-| IN nº 5/2017 | Modelo operacional de serviços | Federal, no que couber |
+| <abbr title="Instrução Normativa">IN</abbr> nº 5/2017 | Modelo operacional de serviços | Federal, no que couber |
 | IN nº 98/2022 | Uso da IN nº 5 sob a nova lei | Federal |
 | Decreto nº 11.246/2022 | Gestor, fiscais, assistência e recebimento | Federal |
 | Decreto nº 13.031/2026 | Contratos.gov.br e modelo atualizado | Federal |
-| Norma interna | Competência, fluxo e sistema | TCE-MA ou ente |
+| Norma interna | Competência, fluxo e sistema | <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> ou ente |
 | Contrato | Obrigação, indicador, evidência e efeito | Caso concreto |
 
 - Norma federal operacional não vincula automaticamente o TCE-MA.
@@ -28,10 +28,10 @@
 
 | Conceito | Função |
 |---|---|
-| SLI | Resultado observado |
-| SLO | Meta pretendida |
-| SLA | Compromisso contratual |
-| IMR | Estrutura federal de aferição |
+| <abbr title="Service Level Indicator">SLI</abbr> | Resultado observado |
+| <abbr title="Service Level Objective">SLO</abbr> | Meta pretendida |
+| <abbr title="Service Level Agreement">SLA</abbr> | Compromisso contratual |
+| <abbr title="Instrumento de Medição de Resultado">IMR</abbr> | Estrutura federal de aferição |
 | Aceitação | Condição para receber |
 | Consequência | Efeito do resultado |
 

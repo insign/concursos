@@ -10,7 +10,7 @@ storageId: "encerramento-regras-finais-in5"
 
 ## 1. Delimitação, corte e atualização normativa
 
-A Instrução Normativa SEGES/MP nº 5/2017 disciplina a contratação de serviços no âmbito federal indicado em seu art. 1º. Este assunto fecha seu ciclo operacional com cinco blocos:
+A Instrução Normativa <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017 disciplina a contratação de serviços no âmbito federal indicado em seu art. 1º. Este assunto fecha seu ciclo operacional com cinco blocos:
 
 1. conferência final dos contratos com dedicação exclusiva de mão de obra;
 2. retenção e execução de garantias ou créditos nas hipóteses cabíveis;
@@ -20,8 +20,8 @@ A Instrução Normativa SEGES/MP nº 5/2017 disciplina a contratação de servi�
 
 Três planos normativos não podem ser confundidos:
 
-- a **Lei nº 14.133/2021** contém normas gerais aplicáveis aos entes por ela abrangidos, inclusive ao TCE-MA quando contrata administrativamente;
-- a **IN nº 5/2017** e a **IN SEGES/ME nº 98/2022** são atos federais e não vinculam automaticamente um tribunal de contas estadual;
+- a **Lei nº 14.133/2021** contém normas gerais aplicáveis aos entes por ela abrangidos, inclusive ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> quando contrata administrativamente;
+- a **IN nº 5/2017** e a **IN <abbr title="Secretaria de Gestão do Ministério da Economia">SEGES/ME</abbr> nº 98/2022** são atos federais e não vinculam automaticamente um tribunal de contas estadual;
 - para licitações e contratações diretas federais sob a Lei nº 14.133/2021, a IN nº 98/2022 autorizou o uso da IN nº 5/2017 somente **no que couber**.
 
 Isso preserva técnicas operacionais compatíveis, mas não revive limites ou remissões superados da Lei nº 8.666/1993. Contratos celebrados validamente sob o regime antigo permanecem por ele regidos durante sua vigência; contratos novos sob a Lei nº 14.133/2021 seguem a nova matriz legal.
@@ -69,7 +69,7 @@ Realocação não é demissão fictícia nem promessa genérica. Deve haver prov
 O art. 50, V, da Lei nº 14.133/2021 permite exigir, quando solicitado, recibos de quitação das obrigações trabalhistas e previdenciárias dos empregados dispensados até a data da extinção. O Anexo VIII-B da IN detalha, para empregados celetistas dispensados após o último mês, documentos como:
 
 - termos de rescisão dos contratos de trabalho, com homologação quando exigível;
-- guias de contribuição previdenciária e FGTS referentes às rescisões;
+- guias de contribuição previdenciária e <abbr title="Fundo de Garantia do Tempo de Serviço">FGTS</abbr> referentes às rescisões;
 - extratos dos depósitos nas contas individuais do FGTS;
 - exames médicos demissionais.
 
@@ -183,7 +183,7 @@ Um relatório útil consolida, conforme o objeto:
 - situação trabalhista, garantias, bens, acessos e transição;
 - riscos concretizados e efetividade dos controles;
 - desempenho da contratada e evidências correspondentes;
-- recomendações para ETP, termo de referência e gestão futuros.
+- recomendações para <abbr title="Estudo Técnico Preliminar">ETP</abbr>, termo de referência e gestão futuros.
 
 O relatório final não substitui termos de recebimento, processo sancionador, inventário de bens ou documentos trabalhistas. Sua função é consolidar a memória da execução e alimentar o planejamento, evitando repetir falhas de especificação, dimensionamento e fiscalização.
 
@@ -199,7 +199,7 @@ O Anexo IX foi escrito sob o art. 57 da Lei nº 8.666/1993. Ele continua relevan
 | Período da prorrogação | Referência a cada 12 meses. | Não precisa repetir o período original; deve respeitar edital, vantagem e teto decenal. |
 | Contrato por escopo | Prorrogação excepcional e justificada. | Vigência automaticamente prorrogada se o objeto não terminar; culpa do contratado mantém mora, sanções e opção de extinção, art. 111. |
 | Serviço público | Lista histórica de serviços essenciais e monopólios. | Prazo indeterminado se o serviço público for oferecido em regime de monopólio, com crédito anual, art. 109. |
-| Créditos | Vinculação ao exercício e indicação em aditivos/apostilas. | Disponibilidade no início e em cada exercício; PPA quando ultrapassar um exercício, art. 105. |
+| Créditos | Vinculação ao exercício e indicação em aditivos/apostilas. | Disponibilidade no início e em cada exercício; <abbr title="Plano Plurianual">PPA</abbr> quando ultrapassar um exercício, art. 105. |
 
 Logo, são falsas, para contratos novos, as afirmações de que todo contrato contínuo começa obrigatoriamente com 12 meses ou termina necessariamente em 60 meses mais 12. A duração deve seguir edital, créditos, vantagem e a hipótese legal atual.
 
@@ -214,7 +214,7 @@ Continuam úteis, quando compatíveis, os elementos do item 3 do Anexo IX:
 - manifestação expressa de interesse da contratada;
 - manutenção das condições de habilitação.
 
-A prorrogação não é direito subjetivo da contratada. Exige previsão editalícia, decisão administrativa e formalização durante a vigência. Antes de formalizar ou prorrogar, o art. 91, § 4º, exige verificar regularidade fiscal, consultar Ceis e Cnep, emitir certidões de inidoneidade, impedimento e débitos trabalhistas e juntar os documentos ao processo.
+A prorrogação não é direito subjetivo da contratada. Exige previsão editalícia, decisão administrativa e formalização durante a vigência. Antes de formalizar ou prorrogar, o art. 91, § 4º, exige verificar regularidade fiscal, consultar <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr> e <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr>, emitir certidões de inidoneidade, impedimento e débitos trabalhistas e juntar os documentos ao processo.
 
 Contrato expirado não pode ser reanimado por aditivo retroativo. Para serviço contínuo, a renovação deve estar formalizada antes do termo final.
 
@@ -262,10 +262,10 @@ Termos aditivos submetem-se ao controle prévio de legalidade do órgão jurídi
 
 As regras finais possuem forte potencial de cobrança literal:
 
-- **art. 71:** a SEGES pode desenvolver, propor e implementar modelos, mecanismos, processos e procedimentos para contratação de determinados serviços pelos órgãos e entidades federais abrangidos;
+- **art. 71:** a <abbr title="Secretaria de Gestão">SEGES</abbr> pode desenvolver, propor e implementar modelos, mecanismos, processos e procedimentos para contratação de determinados serviços pelos órgãos e entidades federais abrangidos;
 - **art. 72:** em projeto-piloto, a Central de Compras pode afastar ponto incompatível da IN, com justificativa nos autos e respeito à legislação e aos princípios gerais;
 - **art. 73:** casos omissos são dirimidos pela SEGES, que pode expedir normas complementares e informações adicionais;
-- **art. 74:** a IN nº 5/2017 revogou a IN SLTI/MP nº 2/2008;
+- **art. 74:** a IN nº 5/2017 revogou a IN <abbr title="Secretaria de Logística e Tecnologia da Informação do Ministério do Planejamento, Orçamento e Gestão">SLTI/MP</abbr> nº 2/2008;
 - **art. 75:** a IN entrou em vigor 120 dias após sua publicação.
 
 O art. 72 não autoriza dispensar a lei nem concede a qualquer órgão estadual poder de afastar a IN federal. É uma competência específica da Central de Compras no âmbito da modelagem federal.
