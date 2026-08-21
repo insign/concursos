@@ -1,11 +1,11 @@
-# LBI: fundamentos, direitos e garantias
+# <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>: fundamentos, direitos e garantias
 
 ## Base
 
 - Lei nº **13.146/2015**;
 - Convenção + Protocolo Facultativo;
 - Decreto Legislativo nº 186/2008;
-- rito do art. 5º, § 3º, CF;
+- rito do art. 5º, § 3º, <abbr title="Constituição Federal">CF</abbr>;
 - Decreto nº 6.949/2009;
 - Convenção = equivalente a emenda constitucional.
 
@@ -43,7 +43,7 @@ Telemedicina/análise documental = somente componente médico-pericial, conforme
 | acessibilidade | alcance/uso + segurança + autonomia |
 | desenho universal | uso por todos sem adaptação/projeto específico |
 | tecnologia assistiva | funcionalidade + atividade + participação + autonomia |
-| comunicação | Libras/Braille/tátil/ampliada/simples/auditiva/digital/aumentativa |
+| comunicação | <abbr title="Língua Brasileira de Sinais">Libras</abbr>/Braille/tátil/ampliada/simples/auditiva/digital/aumentativa |
 | adaptação razoável | necessária/adequada + caso concreto + sem ônus desproporcional |
 | barreira | entrave/obstáculo/atitude/comportamento |
 | elemento de urbanização | componente da obra urbana |
@@ -79,7 +79,7 @@ Violência em serviço de saúde:
 
 - suspeita **ou** confirmação;
 - serviço público **ou** privado;
-- polícia + MP + Conselho de Direitos;
+- polícia + <abbr title="Ministério Público">MP</abbr> + Conselho de Direitos;
 - vítima adulta também é protegida.
 
 Art. 8º: Estado + sociedade + família asseguram **com prioridade** vida, saúde, família, educação, trabalho, previdência, reabilitação, transporte, acessibilidade, cultura, informação, dignidade, liberdade e demais direitos.
@@ -99,7 +99,7 @@ Esterilização compulsória = vedada.
 
 ## Prioridade
 
-Inclui socorro, atendimento público, recursos, pontos/estações/terminais acessíveis + segurança no embarque/desembarque, comunicação, restituição de IR e tramitação.
+Inclui socorro, atendimento público, recursos, pontos/estações/terminais acessíveis + segurança no embarque/desembarque, comunicação, restituição de <abbr title="Imposto de Renda">IR</abbr> e tramitação.
 
 Extensão ao acompanhante/atendente, exceto:
 
@@ -133,7 +133,7 @@ Objetivo: potencialidades/talentos/aptidões → autonomia + participação.
 
 ## Saúde
 
-- SUS integral, universal e igualitário;
+- <abbr title="Sistema Único de Saúde">SUS</abbr> integral, universal e igualitário;
 - participação nas políticas;
 - dignidade e autonomia;
 - diagnóstico e intervenção precoces;
@@ -166,7 +166,7 @@ Lei nº 15.280/2025: atendimento psicológico para a pessoa, familiares e atende
 - aprendizagem por toda a vida;
 - acesso + permanência + participação + aprendizagem;
 - educação de qualidade + proteção contra violência/negligência/discriminação;
-- AEE e projeto pedagógico inclusivo;
+- <abbr title="atendimento educacional especializado">AEE</abbr> e projeto pedagógico inclusivo;
 - estudo de caso + plano AEE + organização/usabilidade de recursos;
 - oferta bilíngue: Libras como primeira língua e português escrito como segunda;
 - medidas individuais/coletivas;
@@ -180,7 +180,7 @@ Lei nº 15.280/2025: atendimento psicológico para a pessoa, familiares e atende
 - ensino superior/profissional e currículo inclusivo;
 - jogos/esporte/lazer em igualdade;
 - articulação intersetorial;
-- CAA de baixa tecnologia para estudante com necessidade complexa.
+- <abbr title="comunicação aumentativa e alternativa">CAA</abbr> de baixa tecnologia para estudante com necessidade complexa.
 
 Intérprete: educação básica → ensino médio + proficiência; graduação/pós → nível superior, prioritariamente habilitação em Tradução/Interpretação de Libras.
 
@@ -225,14 +225,14 @@ Programa público/subsidiado:
 
 Assistência: renda + acolhida + autonomia + convivência + acesso a direitos.
 
-BPC:
+<abbr title="Benefício de Prestação Continuada">BPC</abbr>:
 
 - 1 salário mínimo;
 - sem meios próprios nem familiares de subsistência;
-- requisitos da LOAS;
+- requisitos da <abbr title="Lei Orgânica da Assistência Social">LOAS</abbr>;
 - não é automático.
 
-Aposentadoria da pessoa com deficiência segurada do RGPS: LC nº 142/2013.
+Aposentadoria da pessoa com deficiência segurada do <abbr title="Regime Geral de Previdência Social">RGPS</abbr>: <abbr title="Lei Complementar">LC</abbr> nº 142/2013.
 
 ## Cultura e mobilidade
 
@@ -315,7 +315,7 @@ Outras alterações civis:
 - apoiador só sai com manifestação judicial;
 - negligência/pressão → denúncia e possível destituição.
 
-TDA ≠ curatela e não pode ser imposta de ofício.
+<abbr title="tomada de decisão apoiada">TDA</abbr> ≠ curatela e não pode ser imposta de ofício.
 
 ## Atualizações no recorte
 

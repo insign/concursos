@@ -10,7 +10,7 @@
 ## Prioridade: rol atual
 
 1. pessoa com deficiência;
-2. pessoa com TEA;
+2. pessoa com <abbr title="transtorno do espectro autista">TEA</abbr>;
 3. pessoa idosa **60+**;
 4. gestante;
 5. lactante;
@@ -48,7 +48,7 @@ Emergência de saúde no Decreto nº 5.296/2004: gravidade médica prevalece.
 
 Inclui:
 
-- PcD;
+- <abbr title="pessoa com deficiência">PcD</abbr>;
 - TEA;
 - pessoa idosa;
 - gestante;
@@ -107,9 +107,9 @@ Supressão de barreiras em:
 | elemento urbanização | componente da obra urbana |
 | mobiliário | objeto adicionado sem alteração substancial |
 | tecnologia assistiva | funcionalidade + atividade + participação + autonomia |
-| comunicação | Libras/Braille/tátil/simples/digital/aumentativa |
+| comunicação | <abbr title="Língua Brasileira de Sinais">Libras</abbr>/Braille/tátil/simples/digital/aumentativa |
 | desenho universal | uso por todos sem adaptação/projeto específico |
-| NCC | dificuldade significativa + estratégia alternativa/aumentativa |
+| <abbr title="necessidades complexas de comunicação">NCC</abbr> | dificuldade significativa + estratégia alternativa/aumentativa |
 
 Classes nesta lei:
 
@@ -140,7 +140,7 @@ Brinquedos/lazer:
 - tanto quanto tecnicamente possível;
 - PcD inclusive visual + mobilidade reduzida.
 
-Urbanização comunitária → ABNT: itinerário/passagem/entrada-saída/escada/rampa.
+Urbanização comunitária → <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr>: itinerário/passagem/entrada-saída/escada/rampa.
 
 ## Sanitários e vagas
 
@@ -219,7 +219,7 @@ Veículo coletivo → normas técnicas específicas.
 
 Decreto: veículo + terminal + estação + ponto + acesso + via + operação.
 
-## Comunicação e CAA
+## Comunicação e <abbr title="comunicação aumentativa e alternativa">CAA</abbr>
 
 Poder público elimina barreiras para deficiência sensorial + NCC.
 
@@ -289,7 +289,7 @@ Kit para cartão, solicitado e sem custo:
 - semáforo não depende sempre de pedido;
 - barreira pode ser atitude/comportamento;
 - prédio coletivo exige acesso + itinerário + banheiro + vaga;
-- CAA da Lei nº 10.098 ≠ regras exclusivas da LBI;
+- CAA da Lei nº 10.098 ≠ regras exclusivas da <abbr title="Lei Brasileira de Inclusão da Pessoa com Deficiência">LBI</abbr>;
 - kit é solicitado + gratuito;
 - tombamento não dispensa;
 - sem multa geral própria na Lei nº 10.098.
