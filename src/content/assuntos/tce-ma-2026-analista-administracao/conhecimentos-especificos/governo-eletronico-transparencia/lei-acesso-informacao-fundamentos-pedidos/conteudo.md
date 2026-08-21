@@ -68,9 +68,9 @@ Entidades privadas sem fins lucrativos que recebam recursos públicos para açõ
 
 ### 4.3 Lei nacional e regulamento federal
 
-O Decreto nº 7.724/2012 regulamenta a LAI no Poder Executivo federal. Seus detalhes são referência útil, mas não vinculam automaticamente o TCE-MA. O art. 45 da LAI permite que Estados, DF e Municípios definam regras específicas em legislação própria, respeitadas as normas gerais da lei.
+O Decreto nº 7.724/2012 regulamenta a LAI no Poder Executivo federal. Seus detalhes são referência útil, mas não vinculam automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. O art. 45 da LAI permite que Estados, DF e Municípios definam regras específicas em legislação própria, respeitadas as normas gerais da lei.
 
-Plataformas federais de atendimento, prazos operacionais da CGU e requisitos adicionais do decreto não devem ser tratados como comandos nacionais sem verificar a norma aplicável.
+Plataformas federais de atendimento, prazos operacionais da <abbr title="Controladoria-Geral da União">CGU</abbr> e requisitos adicionais do decreto não devem ser tratados como comandos nacionais sem verificar a norma aplicável.
 
 ## 5. Conceitos do art. 4º
 

@@ -21,7 +21,7 @@ Este assunto cobre o item 1 de Governo Eletrônico, Transparência e Controle So
 
 Transparência, controle social, cidadania e accountability serão aprofundados no Assunto 139. A Lei de Acesso à Informação será estudada nos Assuntos 140 e 141. Competências digitais individuais pertencem a outro item do edital e não se confundem com a capacidade institucional de governo eletrônico.
 
-A Lei nº 14.129/2021 fornece a principal referência legislativa brasileira sobre Governo Digital e eficiência pública. Ela se aplica diretamente à administração federal indicada em seu art. 2º. Para administrações estaduais, distrital e municipais, seus comandos dependem de adoção por atos normativos próprios. A Estratégia Nacional de Governo Digital, a estratégia federal, a e-PING e o eMAG são referências importantes, mas instrumentos federais infralegais não vinculam automaticamente o TCE-MA.
+A Lei nº 14.129/2021 fornece a principal referência legislativa brasileira sobre Governo Digital e eficiência pública. Ela se aplica diretamente à administração federal indicada em seu art. 2º. Para administrações estaduais, distrital e municipais, seus comandos dependem de adoção por atos normativos próprios. A Estratégia Nacional de Governo Digital, a estratégia federal, a <abbr title="Padrões de Interoperabilidade de Governo Eletrônico">e-PING</abbr> e o <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> são referências importantes, mas instrumentos federais infralegais não vinculam automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 > **Corte de atualização:** normas e orientações consultadas até 19 de julho de 2026.
 
@@ -60,7 +60,7 @@ Os termos podem aparecer como sinônimos em textos gerais. Para estudo, convém 
 
 | Conceito | Ênfase | Exemplo |
 | --- | --- | --- |
-| governo eletrônico | emprego de TIC nas relações e atividades governamentais | portal com informações, consultas e transações |
+| governo eletrônico | emprego de <abbr title="Tecnologias da Informação e Comunicação">TIC</abbr> nas relações e atividades governamentais | portal com informações, consultas e transações |
 | governo digital | uso integrado de tecnologia, dados e plataformas para produzir valor público | jornada unificada que reutiliza dados legitimamente |
 | transformação digital | processo contínuo de redesenho institucional possibilitado por tecnologia | eliminar etapas desnecessárias antes de digitalizar o serviço |
 | digitalização | conversão para formato digital | transformar formulário em PDF eletrônico |
@@ -120,13 +120,13 @@ Integração vertical não significa superioridade hierárquica, e integração 
 
 ### 3.3 Referenciais contemporâneos
 
-A OCDE analisa governo digital por seis dimensões: digital por concepção, setor público orientado por dados, governo como plataforma, aberto por padrão, orientado pelo usuário e proatividade. Esse referencial não substitui a legislação brasileira.
+A <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr> analisa governo digital por seis dimensões: digital por concepção, setor público orientado por dados, governo como plataforma, aberto por padrão, orientado pelo usuário e proatividade. Esse referencial não substitui a legislação brasileira.
 
-A ONU usa o E-Government Development Index (EGDI) para comparar governos nacionais. O índice combina, com igual importância após normalização:
+A <abbr title="Organização das Nações Unidas">ONU</abbr> usa o E-Government Development Index (EGDI) para comparar governos nacionais. O índice combina, com igual importância após normalização:
 
-- OSI: escopo e qualidade de serviços on-line;
-- TII: infraestrutura de telecomunicações;
-- HCI: capital humano.
+- <abbr title="Online Service Index">OSI</abbr>: escopo e qualidade de serviços on-line;
+- <abbr title="Telecommunication Infrastructure Index">TII</abbr>: infraestrutura de telecomunicações;
+- <abbr title="Human Capital Index">HCI</abbr>: capital humano.
 
 O EGDI é relativo e nacional. Ele não certifica a qualidade de um serviço, não mede isoladamente um órgão e não prova conformidade jurídica.
 
@@ -142,7 +142,7 @@ Governo como plataforma significa disponibilizar capacidades reutilizáveis para
 | notificações | comunicação institucional e acompanhamento |
 | pagamentos | arrecadação e confirmação de transações |
 | assinatura | autoria e integridade de atos eletrônicos |
-| interoperabilidade | APIs, padrões e serviços de intercâmbio |
+| interoperabilidade | <abbr title="Application Programming Interfaces">APIs</abbr>, padrões e serviços de intercâmbio |
 | design | componentes acessíveis e linguagem consistente |
 | dados | catálogos, metadados e registros de referência |
 | observabilidade | logs, métricas, alertas e trilhas de auditoria |
@@ -329,9 +329,9 @@ A inclusão exige:
 - participação de pessoas com deficiência;
 - manutenção e melhoria contínua.
 
-O eMAG é o Modelo de Acessibilidade em Governo Eletrônico, alinhado a padrões internacionais como WCAG. É referência técnica federal. Ferramenta automática ajuda a localizar erros, mas não comprova sozinha que a jornada seja acessível.
+O eMAG é o Modelo de Acessibilidade em Governo Eletrônico, alinhado a padrões internacionais como <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>. É referência técnica federal. Ferramenta automática ajuda a localizar erros, mas não comprova sozinha que a jornada seja acessível.
 
-O diagnóstico do TCU de 2024–2025 organizou acessibilidade digital em sete dimensões: governança; design e desenvolvimento; testes e validação; capacitação e cultura; atendimento e retorno do usuário; manutenção e melhoria; transparência. Isso demonstra que acessibilidade é qualidade e governança, não mero acabamento visual.
+O diagnóstico do <abbr title="Tribunal de Contas da União">TCU</abbr> de 2024–2025 organizou acessibilidade digital em sete dimensões: governança; design e desenvolvimento; testes e validação; capacitação e cultura; atendimento e retorno do usuário; manutenção e melhoria; transparência. Isso demonstra que acessibilidade é qualidade e governança, não mero acabamento visual.
 
 
 ### 7.1 Acessibilidade como processo
@@ -363,7 +363,7 @@ Quatro conceitos não devem ser confundidos:
 | autorização | definir o que o usuário pode fazer |
 | assinatura eletrônica | vincular autoria e integridade a ato ou documento |
 
-Interoperabilidade não autoriza compartilhamento irrestrito. Tratamento e uso compartilhado de dados pessoais dependem de finalidade pública, base jurídica, necessidade, segurança, transparência e demais requisitos da LGPD.
+Interoperabilidade não autoriza compartilhamento irrestrito. Tratamento e uso compartilhado de dados pessoais dependem de finalidade pública, base jurídica, necessidade, segurança, transparência e demais requisitos da <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>.
 
 O art. 25 da Lei nº 14.129/2021 exige ferramentas claras e acessíveis de transparência e controle do tratamento de dados pessoais. Ressalvadas as hipóteses legais, elas informam fontes, finalidade específica e órgãos com os quais houve uso compartilhado, inclusive histórico, e permitem ao cidadão encaminhar requisições ao controlador.
 
@@ -419,7 +419,7 @@ Reutilizar dados pode reduzir exigências ao usuário, mas requer qualidade, atu
 
 Formato aberto, segundo a lei, é não proprietário, documentado publicamente, de livre conhecimento e implementação e livre de patentes ou restrições jurídicas de uso. Gratuidade isolada não basta.
 
-A e-PING define premissas, políticas e especificações técnicas mínimas de interoperabilidade para o Poder Executivo federal. Órgãos do SISP devem observá-la em planejamento de contratação, aquisição e atualização de sistemas. Para outros Poderes e entes federativos, sua adoção é facultativa. Padrões proprietários podem aparecer transitoriamente em legado ou quando não existir padrão aberto, observados segurança e integridade.
+A e-PING define premissas, políticas e especificações técnicas mínimas de interoperabilidade para o Poder Executivo federal. Órgãos do <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr> devem observá-la em planejamento de contratação, aquisição e atualização de sistemas. Para outros Poderes e entes federativos, sua adoção é facultativa. Padrões proprietários podem aparecer transitoriamente em legado ou quando não existir padrão aberto, observados segurança e integridade.
 
 
 ### 9.4 Infraestrutura Nacional de Dados
@@ -474,9 +474,9 @@ Os arts. 47 a 49 da Lei nº 14.129/2021 exigem acompanhamento de resultados, mel
 
 ### 10.1 Estratégias vigentes no corte
 
-A ENGD 2024–2027, formalizada pelo Decreto nº 12.069/2024 e revisada pela Portaria SGD/MGI nº 5.395/2026, articula recomendações entre entes. Seu objetivo geral busca Estado inclusivo, eficaz, proativo, participativo e sustentável.
+A <abbr title="Estratégia Nacional de Governo Digital">ENGD</abbr> 2024–2027, formalizada pelo Decreto nº 12.069/2024 e revisada pela Portaria SGD/MGI nº 5.395/2026, articula recomendações entre entes. Seu objetivo geral busca Estado inclusivo, eficaz, proativo, participativo e sustentável.
 
-A EFGD 2024–2027, instituída pelo Decreto nº 12.198/2024, dirige-se à Administração Pública federal direta, autárquica e fundacional. ENGD e EFGD não são sinônimos, e a EFGD não vincula automaticamente o TCE-MA.
+A <abbr title="Estratégia Federal de Governo Digital">EFGD</abbr> 2024–2027, instituída pelo Decreto nº 12.198/2024, dirige-se à Administração Pública federal direta, autárquica e fundacional. ENGD e EFGD não são sinônimos, e a EFGD não vincula automaticamente o TCE-MA.
 
 
 ### 10.2 Portfólio, arquitetura e ciclo de vida

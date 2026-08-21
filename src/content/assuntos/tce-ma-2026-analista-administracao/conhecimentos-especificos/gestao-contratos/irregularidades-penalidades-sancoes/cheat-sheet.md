@@ -30,7 +30,7 @@
 - Separar fato, inferência e decisão.
 - Fiscal não cria sanção, não altera contrato e não condena.
 - Processo por descumprimento contratual: notificar emitentes das garantias.
-- Irregularidade danosa: apurar com segregação e individualização; remeter ao MP as cópias cabíveis.
+- Irregularidade danosa: apurar com segregação e individualização; remeter ao <abbr title="Ministério Público">MP</abbr> as cópias cabíveis.
 
 ## Notificação
 
@@ -69,7 +69,7 @@
 - Advertência, impedimento e inidoneidade podem cumular com multa.
 - Sanção não exclui reparação integral.
 - Inidoneidade exige análise jurídica prévia.
-- No TCE-MA, conferir autoridade equivalente definida na regulamentação institucional.
+- No <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>, conferir autoridade equivalente definida na regulamentação institucional.
 
 ## Dosimetria
 
@@ -81,7 +81,7 @@
 
 - Individualizar condutas.
 - Motivar valor e prazo.
-- Evitar automatismo e bis in idem.
+- Evitar automatismo e <abbr title="dupla punição pelo mesmo fato e fundamento">bis in idem</abbr>.
 - Correção, dano e reincidência influenciam, mas não substituem tipificação.
 
 ## Processo
@@ -131,13 +131,13 @@
 - Multa de mora: atraso injustificado, conforme edital/contrato.
 - Pode haver conversão em compensatória, extinção e outras sanções, sem automatismo.
 
-## Ceis × Cnep × Banco de Sanções × PNCP
+## <abbr title="Cadastro Nacional de Empresas Inidôneas e Suspensas">Ceis</abbr> × <abbr title="Cadastro Nacional de Empresas Punidas">Cnep</abbr> × Banco de Sanções × <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>
 
 - Art. 161: dados das sanções da Lei nº 14.133/2021 → publicidade no **Ceis e no Cnep** em até **15 dias úteis** da aplicação.
 - **Ceis/Cnep:** cadastros de publicidade.
-- **Banco de Sanções:** sistema instituído pela Portaria Normativa CGU nº 75/2023 para fornecimento de informações aos cadastros administrados pela CGU.
+- **Banco de Sanções:** sistema instituído pela Portaria Normativa <abbr title="Controladoria-Geral da União">CGU</abbr> nº 75/2023 para fornecimento de informações aos cadastros administrados pela CGU.
 - **PNCP:** oferece acesso ao Ceis e ao Cnep; não é sinônimo deles.
-- Sircad: não tratar como sistema operacional atual no corte.
+- <abbr title="Sistema Integrado de Registro do CEIS/CNEP">Sircad</abbr>: não tratar como sistema operacional atual no corte.
 - Cadastro não substitui processo nem intimação.
 
 ## Reabilitação: requisitos cumulativos

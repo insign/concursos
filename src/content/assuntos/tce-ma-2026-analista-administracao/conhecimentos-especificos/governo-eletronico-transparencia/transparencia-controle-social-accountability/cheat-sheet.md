@@ -30,7 +30,7 @@
 - Art. 5º, XXXIII: direito de receber informações dos órgãos públicos.
 - Art. 14: voto, plebiscito, referendo e iniciativa popular.
 - Art. 37: publicidade entre os princípios administrativos.
-- Art. 74, § 2º: cidadão, partido, associação ou sindicato podem denunciar ao TCU.
+- Art. 74, § 2º: cidadão, partido, associação ou sindicato podem denunciar ao <abbr title="Tribunal de Contas da União">TCU</abbr>.
 - Cidadania formal é a condição do cidadão no gozo de direitos políticos; não se confunde com nacionalidade, vínculo jurídico-político entre pessoa e Estado.
 - Exercício substantivo requer capacidade real de conhecer direitos, participar e acessar instituições.
 - Representação eleitoral e participação direta são complementares.
@@ -50,7 +50,7 @@
 
 ## Lei nº 13.460/2017
 
-- Abrange administração direta e indireta de União, Estados, DF e Municípios.
+- Abrange administração direta e indireta de União, Estados, <abbr title="Distrito Federal">DF</abbr> e Municípios.
 - Disciplina participação, proteção e defesa dos usuários de serviços públicos.
 - Ouvidorias recebem, analisam, encaminham e acompanham manifestações.
 - Reclamação: insatisfação. Solicitação: providência. Sugestão: melhoria. Elogio: reconhecimento. Denúncia: possível ilícito.
@@ -58,7 +58,7 @@
 
 ## Transparência fiscal
 
-- LRF, art. 48: planos, orçamentos, LDO, prestações de contas, pareceres, relatórios e versões simplificadas.
+- <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>, art. 48: planos, orçamentos, <abbr title="Lei de Diretrizes Orçamentárias">LDO</abbr>, prestações de contas, pareceres, relatórios e versões simplificadas.
 - A LRF incentiva participação popular e audiências durante elaboração e discussão dos instrumentos orçamentários.
 - **Desde 1º/1/2026:** art. 48, § 1º, IV — Portal de Transparência + formato aberto e padronizado + dados atualizados sobre benefícios tributários, financeiros e creditícios concedidos.
 - Art. 48-A: informações pormenorizadas, em tempo real, sobre execução orçamentária e financeira.
@@ -74,7 +74,7 @@
 | --- | --- |
 | vertical eleitoral | voto e eleições |
 | vertical não eleitoral | petição, mobilização e monitoramento entre eleições |
-| horizontal | tribunais de contas, controladorias, Legislativo, Judiciário e MP |
+| horizontal | tribunais de contas, controladorias, Legislativo, Judiciário e <abbr title="Ministério Público">MP</abbr> |
 | social/societal | sociedade civil e mídia expõem fatos e acionam instituições |
 
 - Accountability horizontal exige órgão estatal autorizado e capaz de agir.
