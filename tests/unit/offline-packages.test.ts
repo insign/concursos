@@ -1,6 +1,7 @@
 import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { deleteOfflineDatabase, saveOfflineContestRecord } from '../../src/lib/offline-db';
+import { subscribeDownloadEvents } from '../../src/lib/offline-download-events';
 import {
   cleanupInactiveContestCaches,
   downloadContestPackage,
@@ -267,6 +268,27 @@ describe('offline contest packages', () => {
       }),
     ).rejects.toThrow();
     expect(cacheStorage.caches.size).toBe(0);
+  });
+
+  it('does not resurrect a package removed during a background update', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: successfulFetch as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    // Registro removido: getOfflineContestRecord devolve null (fake-indexeddb vazio).
+    const events: string[] = [];
+    const unsubscribe = subscribeDownloadEvents((event) => events.push(event.type));
+
+    const record = await downloadContestPackage(manifest('11111111111111111111'), undefined, overrides, 'update');
+
+    await new Promise((resolve) => setTimeout(resolve, 25));
+    unsubscribe();
+    expect(record.resourceCount).toBe(0);
+    expect(record.activeCacheName).toBe('');
+    expect(cacheStorage.caches.size).toBe(0);
+    expect(events).toEqual(['started', 'completed']);
   });
 
   it('updates by fetching only changed resources and copying unchanged ones locally', async () => {

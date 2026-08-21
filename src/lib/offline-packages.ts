@@ -6,6 +6,7 @@ import {
   saveOfflineContestRecord,
   type OfflineContestRecord,
 } from './offline-db';
+import { publishDownloadEvent, type DownloadPhase } from './offline-download-events';
 import {
   CONTEST_CACHE_PREFIX,
   RUNTIME_PAGE_CACHE,
@@ -101,7 +102,7 @@ function readableError(error: unknown): Error {
   return error instanceof Error ? error : new Error('Não foi possível concluir o download offline.');
 }
 
-async function assertStorageCapacity(
+export async function assertStorageCapacity(
   manifest: OfflinePackageManifest,
   storage: Pick<StorageManager, 'estimate' | 'persist'> | undefined,
 ): Promise<void> {
@@ -175,17 +176,59 @@ export async function downloadContestPackage(
   input: unknown,
   onProgress: (progress: DownloadProgress) => void = () => undefined,
   overrides: PackageEnvironment = {},
+  phase: DownloadPhase = 'download',
 ): Promise<OfflineContestRecord> {
   const manifest = offlinePackageManifestSchema.parse(input);
-  return withOfflinePackageLock(() => downloadContestPackageLocked(manifest, onProgress, overrides));
+  const storageId = manifest.contestStorageId;
+  publishDownloadEvent({ type: 'started', contestStorageId: storageId, phase });
+  try {
+    const record = await withOfflinePackageLock(() =>
+      downloadContestPackageLocked(manifest, (progress) => {
+        onProgress(progress);
+        publishDownloadEvent({
+          type: 'progress',
+          contestStorageId: storageId,
+          phase,
+          completed: progress.completed,
+          total: progress.total,
+          downloadedBytes: progress.downloadedBytes,
+        });
+      }, overrides, phase),
+    );
+    publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase });
+    return record;
+  } catch (error) {
+    publishDownloadEvent({
+      type: 'failed',
+      contestStorageId: storageId,
+      phase,
+      message: error instanceof Error ? error.message : String(error),
+    });
+    throw error;
+  }
 }
 
 async function downloadContestPackageLocked(
   manifest: OfflinePackageManifest,
   onProgress: (progress: DownloadProgress) => void,
   overrides: PackageEnvironment,
+  phase: DownloadPhase,
 ): Promise<OfflineContestRecord> {
   const { cacheStorage, fetch: fetchResource, origin, storage } = environment(overrides);
+
+  // Atualizações em segundo plano não podem ressuscitar um pacote que o
+  // usuário removeu enquanto a verificação rodava. O wrapper publica o
+  // evento terminal; aqui apenas curto-circuita sem tocar nos caches.
+  if (phase === 'update' && !(await getOfflineContestRecord(manifest.contestStorageId))) {
+    return {
+      contestStorageId: manifest.contestStorageId,
+      manifestHash: manifest.manifestHash,
+      activeCacheName: '',
+      downloadedAt: Date.now(),
+      resourceCount: 0,
+    };
+  }
+
   const resources = uniqueResources(manifest);
   const packageResources = new Set([...manifest.routes, ...manifest.assets]);
   const canonicalCacheName = contestCacheName(manifest.contestStorageId, manifest.manifestHash);
@@ -206,15 +249,10 @@ async function downloadContestPackageLocked(
 
   await assertStorageCapacity(manifest, storage);
   const suffix = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}`;
-  const activeCacheName = existing?.manifestHash === manifest.manifestHash
-    ? `${canonicalCacheName}--replacement--${suffix}`
-    : canonicalCacheName;
   const temporaryCacheName = `${canonicalCacheName}--temporary--${suffix}`;
   const temporary = await cacheStorage.open(temporaryCacheName);
   const shared = await cacheStorage.open(SHARED_ASSET_CACHE);
   let downloadedBytes = 0;
-  let activated = false;
-  let promotionStarted = false;
 
   try {
     for (const [index, resource] of resources.entries()) {
@@ -238,9 +276,40 @@ async function downloadContestPackageLocked(
       onProgress({ completed: index + 1, total: resources.length, downloadedBytes });
     }
 
+    return await activateStagedPackage(manifest, temporaryCacheName, overrides);
+  } catch (error) {
+    await cacheStorage.delete(temporaryCacheName);
+    throw readableError(error);
+  }
+}
+
+/**
+ * Promove um staging completo ao cache ativo do concurso: cópia local,
+ * verificação de contagem, registro IndexedDB (ponto de ativação) e limpeza
+ * do temporário e do cache anterior. Em falha, remove o staging e qualquer
+ * cache novo aberto, preservando o pacote anterior.
+ */
+export async function activateStagedPackage(
+  manifest: OfflinePackageManifest,
+  temporaryCacheName: string,
+  overrides: PackageEnvironment = {},
+): Promise<OfflineContestRecord> {
+  const { cacheStorage, origin } = environment(overrides);
+  const existing = await getOfflineContestRecord(manifest.contestStorageId);
+  const canonicalCacheName = contestCacheName(manifest.contestStorageId, manifest.manifestHash);
+  const suffix = typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}`;
+  const activeCacheName = existing?.manifestHash === manifest.manifestHash
+    ? `${canonicalCacheName}--replacement--${suffix}`
+    : canonicalCacheName;
+  const packageResources = new Set([...manifest.routes, ...manifest.assets]);
+  let promotionStarted = false;
+  let activatedRecord: OfflineContestRecord;
+
+  try {
     await cacheStorage.delete(activeCacheName);
     promotionStarted = true;
     const active = await cacheStorage.open(activeCacheName);
+    const temporary = await cacheStorage.open(temporaryCacheName);
     await copyCache(temporary, active);
     if ((await active.keys()).length !== packageResources.size) {
       throw new Error('O cache promovido não contém todos os recursos do pacote.');
@@ -251,24 +320,56 @@ async function downloadContestPackageLocked(
       manifestHash: manifest.manifestHash,
       activeCacheName,
       downloadedAt: Date.now(),
-      resourceCount: resources.length,
-      resourceHashes: { ...nextHashes },
+      resourceCount: resourcesCountOf(manifest),
+      resourceHashes: { ...manifest.resources },
     };
     await saveOfflineContestRecord(record);
-    activated = true;
+    activatedRecord = record;
+  } catch (error) {
     await cacheStorage.delete(temporaryCacheName);
+    if (promotionStarted) {
+      await cacheStorage.delete(activeCacheName);
+    }
+    throw error;
+  }
+
+  // Ativação concluída (registro salvo é o ponto de virada): a limpeza
+  // posterior é best-effort e nunca desfaz um pacote já ativado.
+  try {
+    await cacheStorage.delete(temporaryCacheName);
+  } catch {
+    // Temporário órfão será removido por cleanupInactiveContestCaches.
+  }
+  try {
     if (existing && existing.activeCacheName !== activeCacheName) {
       await cacheStorage.delete(existing.activeCacheName);
     }
-    await removeVisitedDuplicates(cacheStorage, manifest.routes, origin);
-    return record;
-  } catch (error) {
-    await cacheStorage.delete(temporaryCacheName);
-    if (!activated && promotionStarted) {
-      await cacheStorage.delete(activeCacheName);
-    }
-    throw readableError(error);
+  } catch {
+    // Cache anterior remanescente é inofensivo e também é coberto pela limpeza.
   }
+  try {
+    await removeVisitedDuplicates(cacheStorage, manifest.routes, origin);
+  } catch {
+    // Duplicatas de páginas visitadas são reavaliadas nas próximas navegações.
+  }
+  return activatedRecord;
+}
+
+function resourcesCountOf(manifest: OfflinePackageManifest): number {
+  return [...new Set([...manifest.routes, ...manifest.assets, ...manifest.sharedAssets])].length;
+}
+
+/**
+ * Adoção de staging por contextos externos (ex.: adoção de Background Fetch
+ * no Service Worker): executa a mesma promoção atômica sob o lock único que
+ * serializa downloads, remoções e limpezas.
+ */
+export async function adoptStagedPackageUnderLock(
+  manifest: OfflinePackageManifest,
+  temporaryCacheName: string,
+  overrides: PackageEnvironment = {},
+): Promise<OfflineContestRecord> {
+  return withOfflinePackageLock(() => activateStagedPackage(manifest, temporaryCacheName, overrides));
 }
 
 export async function removeContestPackage(

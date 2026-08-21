@@ -31,12 +31,15 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
 
 <script>
   import {
+    assertStorageCapacity,
     downloadContestPackage,
     getOfflineContestRecord,
     offlinePackageManifestSchema,
     removeContestPackage,
     type OfflinePackageManifest,
   } from '../lib/offline-packages';
+  import { subscribeDownloadEvents } from '../lib/offline-download-events';
+  import { backgroundFetchSupported, startBackgroundPackageDownload } from '../lib/offline-background-fetch';
 
   function formatBytes(bytes: number | null): string {
     if (bytes === null) return '';
@@ -93,8 +96,24 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
       progress.hidden = false;
       message.textContent = 'Preparando o download...';
       try {
-        const manifest = latestManifest ?? await loadManifest();
+        const manifest: OfflinePackageManifest = latestManifest ?? await loadManifest();
         const size = typeof manifest.estimatedBytes === 'number' ? formatBytes(manifest.estimatedBytes) : '';
+
+        // Caminho preferencial (Chromium): o navegador conduz a transferência
+        // com UI própria e ela sobrevive a sair da página ou do app.
+        const registration = 'serviceWorker' in navigator
+          ? await navigator.serviceWorker.ready.catch(() => undefined)
+          : undefined;
+        if (registration && backgroundFetchSupported(registration)) {
+          // Mesmo gate amigável do fluxo em página, antes de entregar ao navegador.
+          await assertStorageCapacity(manifest, navigator.storage);
+          message.textContent = size
+            ? `Download em segundo plano iniciado (${size}). Você pode navegar ou fechar o app.`
+            : 'Download em segundo plano iniciado. Você pode navegar ou fechar o app.';
+          await startBackgroundPackageDownload(registration, manifest);
+          return;
+        }
+
         message.textContent = size ? `Baixando aproximadamente ${size}...` : 'Baixando concurso...';
         await downloadContestPackage(manifest, ({ completed, total }) => {
           progress.max = total;
@@ -133,5 +152,46 @@ const manifestUrl = `/offline-inventories/${contestStorageId}.json`;
     } else {
       void renderAvailability();
     }
+
+    // Atualizações conduzidas pelo Service Worker durante a navegação:
+    // espelham o progresso no próprio controle e renovam a disponibilidade.
+    // Downloads em Background Fetch (fase 'download') têm UI nativa própria;
+    // aqui apenas renovamos a disponibilidade quando terminam.
+    subscribeDownloadEvents((event) => {
+      if (event.contestStorageId !== contestStorageId) return;
+      if (event.phase === 'download') {
+        // UI própria do navegador conduz o progresso; a conclusão renova a
+        // disponibilidade e uma falha assíncrona restaura o controle com a
+        // mensagem do evento — sem renderAvailability, que apagaria o erro.
+        if (event.type === 'completed') {
+          window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
+          void renderAvailability();
+        } else if (event.type === 'failed') {
+          downloadButton.disabled = false;
+          progress.hidden = true;
+          message.textContent = event.message;
+        }
+        return;
+      }
+      if (event.type === 'started') {
+        downloadButton.disabled = true;
+        message.textContent = 'Há uma atualização do pacote. Atualizando automaticamente...';
+        return;
+      }
+      if (event.type === 'progress') {
+        progress.hidden = false;
+        progress.max = event.total;
+        progress.value = event.completed;
+        message.textContent = `Atualizando ${event.completed} de ${event.total} recursos...`;
+        return;
+      }
+      // Ramificações terminais devolvem o controle ao usuário.
+      downloadButton.disabled = false;
+      progress.hidden = true;
+      if (event.type === 'completed') {
+        window.dispatchEvent(new CustomEvent('concursos:offline-packages-changed'));
+      }
+      void renderAvailability();
+    });
   });
 </script>

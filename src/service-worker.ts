@@ -5,6 +5,12 @@ import { cleanupOutdatedCaches, matchPrecache, precacheAndRoute } from 'workbox-
 import { registerRoute, setCatchHandler } from 'workbox-routing';
 import { CacheFirst, NetworkFirst, NetworkOnly } from 'workbox-strategies';
 import { listOfflineContestRecords } from './lib/offline-db';
+import { maybeUpdateOfflinePackages } from './lib/offline-auto-update';
+import {
+  finalizeFailedBackgroundFetch,
+  finalizeSuccessfulBackgroundFetch,
+  type BackgroundFetchRegistrationLike,
+} from './lib/offline-background-fetch';
 import {
   RUNTIME_MEDIA_CACHE,
   RUNTIME_PAGE_CACHE,
@@ -106,6 +112,12 @@ registerRoute(({ url }) => url.origin === 'https://kv.helio.me', new NetworkOnly
 registerRoute(
   ({ request }) => request.mode === 'navigate',
   async (options) => {
+    // Atualização automática de pacotes durante a navegação: dispara em
+    // paralelo (throttled) sem atrasar a resposta; o waitUntil mantém o
+    // worker vivo enquanto o delta roda.
+    const extendable = options.event as { waitUntil?: (promise: Promise<unknown>) => void };
+    extendable?.waitUntil?.(maybeUpdateOfflinePackages('navigation').catch(() => undefined));
+
     const downloaded = await matchDownloadedContest(options.request);
     if (downloaded) {
       try {
@@ -170,4 +182,42 @@ worker.addEventListener('sync', (event) => {
       for (const client of windowClients) client.postMessage({ type: 'SYNC_REQUESTED' });
     }),
   );
+});
+
+// Periodic Background Sync (app instalado, Chromium): mesmo motor throttled
+// da navegação, com intervalo independente.
+worker.addEventListener('periodicsync', (event) => {
+  const periodicEvent = event as Event & { tag?: string; waitUntil(promise: Promise<unknown>): void };
+  if (periodicEvent.tag !== 'concursos-offline-updates') return;
+  periodicEvent.waitUntil(maybeUpdateOfflinePackages('periodic').catch(() => undefined));
+});
+
+// Downloads em background conduzidos pelo navegador (Background Fetch, Chromium):
+// o navegador mantém a transferência viva mesmo sem abas abertas; aqui apenas
+// adotamos os records no staging e promovemos com a sequência atômica padrão.
+interface TypedBackgroundFetchEvent {
+  registration: BackgroundFetchRegistrationLike;
+  waitUntil(promise: Promise<unknown>): void;
+}
+
+function backgroundFetchEvent(event: Event): TypedBackgroundFetchEvent | null {
+  const candidate = event as Partial<TypedBackgroundFetchEvent>;
+  if (!candidate.registration || typeof candidate.waitUntil !== 'function') return null;
+  return { registration: candidate.registration, waitUntil: candidate.waitUntil.bind(candidate) };
+}
+
+worker.addEventListener('backgroundfetchsuccess', (event) => {
+  const typed = backgroundFetchEvent(event);
+  if (!typed) return;
+  typed.waitUntil(
+    finalizeSuccessfulBackgroundFetch(typed.registration).catch((error) => {
+      console.warn('[concursos] Falha ao adotar download em background.', error);
+    }),
+  );
+});
+
+worker.addEventListener('backgroundfetchfail', (event) => {
+  const typed = backgroundFetchEvent(event);
+  if (!typed) return;
+  typed.waitUntil(finalizeFailedBackgroundFetch(typed.registration));
 });

@@ -29,6 +29,14 @@ test('downloads and removes an atomic contest package without caching KV', async
     if (message.type() === 'error' && message.text().includes('[astro-mermaid]')) mermaidErrors.push(message.text());
   });
 
+  // Fluxo clássico em página sob teste; Background Fetch tem teste próprio.
+  await page.addInitScript(() => {
+    Object.defineProperty(ServiceWorkerRegistration.prototype, 'backgroundFetch', {
+      configurable: true,
+      get: () => undefined,
+    });
+  });
+
   await page.goto('/concursos/concurso-exemplo/');
   await waitForServiceWorker(page);
   await page.goto('/concursos/concurso-exemplo/assunto-exemplo');
@@ -137,6 +145,12 @@ test('downloads and removes an atomic contest package without caching KV', async
 
 test('reports insufficient quota without activating a contest package', async ({ page }) => {
   await page.addInitScript(() => {
+    // O fluxo clássico em página é o sob teste aqui; Background Fetch é
+    // exercitado no teste próprio abaixo.
+    Object.defineProperty(ServiceWorkerRegistration.prototype, 'backgroundFetch', {
+      configurable: true,
+      get: () => undefined,
+    });
     Object.defineProperty(navigator.storage, 'estimate', {
       configurable: true,
       value: () => Promise.resolve({ quota: 1, usage: 1 }),
@@ -150,4 +164,18 @@ test('reports insufficient quota without activating a contest package', async ({
   await expect.poll(() =>
     page.evaluate(async () => (await caches.keys()).filter((name) => name.startsWith('contest--'))),
   ).toEqual([]);
+});
+
+test('starts a browser-managed background download when Background Fetch is available', async ({ page }) => {
+  await page.goto('/concursos/concurso-exemplo/');
+  await waitForServiceWorker(page);
+
+  const supported = await page.evaluate(() => {
+    const registration = navigator.serviceWorker.controller;
+    return Boolean(registration && 'backgroundFetch' in ServiceWorkerRegistration.prototype);
+  });
+  test.skip(!supported, 'Background Fetch não é suportado neste navegador.');
+
+  await page.getByRole('button', { name: 'Baixar concurso' }).click();
+  await expect(page.getByText(/Download em segundo plano iniciado/)).toBeVisible({ timeout: 10_000 });
 });
