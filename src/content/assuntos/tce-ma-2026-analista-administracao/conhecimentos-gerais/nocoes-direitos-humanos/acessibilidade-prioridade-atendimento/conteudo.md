@@ -194,7 +194,7 @@ Produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, prá
 
 #### Comunicação
 
-Abrange, entre outras formas, Libras, texto, Braille, comunicação tátil, caracteres ampliados, multimídia, linguagem simples, sistemas auditivos, voz digitalizada e formatos aumentativos e alternativos.
+Abrange, entre outras formas, <abbr title="Língua Brasileira de Sinais">Libras</abbr>, texto, Braille, comunicação tátil, caracteres ampliados, multimídia, linguagem simples, sistemas auditivos, voz digitalizada e formatos aumentativos e alternativos.
 
 #### Desenho universal
 
@@ -233,7 +233,7 @@ Não é 5% do conjunto total do parque; a redação fala em 5% **de cada brinque
 
 ### 4.3 Normas técnicas
 
-Projetos e traçados dos elementos de urbanização públicos ou privados de uso comunitário devem observar normas técnicas da ABNT.
+Projetos e traçados dos elementos de urbanização públicos ou privados de uso comunitário devem observar normas técnicas da <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr>.
 
 O comando alcança:
 
@@ -438,7 +438,7 @@ Todas as alterações e a revogação indicada estavam vigentes na publicação 
 
 ## 13. Jurisprudência essencial
 
-No REsp 1.292.875/PR, o STJ reconheceu que a exigibilidade da adaptação do transporte coletivo não dependia exclusivamente do regulamento da Lei nº 10.048/2000: a Lei nº 10.098/2000 e normas técnicas já sustentavam o dever.
+No REsp 1.292.875/PR, o <abbr title="Superior Tribunal de Justiça">STJ</abbr> reconheceu que a exigibilidade da adaptação do transporte coletivo não dependia exclusivamente do regulamento da Lei nº 10.048/2000: a Lei nº 10.098/2000 e normas técnicas já sustentavam o dever.
 
 No REsp 2.041.463/RJ, o STJ reafirmou o dever de acessibilidade em estabelecimento de uso coletivo, sem aceitar como dispensa automática o fato de não ter ocorrido reforma posterior à Lei nº 10.098/2000.
 
