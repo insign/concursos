@@ -65,6 +65,7 @@ export interface OfflineContestRecord {
   activeCacheName: string;
   downloadedAt: number;
   resourceCount: number;
+  resourceHashes?: Record<string, string>;
 }
 
 export async function getOfflineContestRecord(

@@ -1,6 +1,6 @@
 import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { deleteOfflineDatabase } from '../../src/lib/offline-db';
+import { deleteOfflineDatabase, saveOfflineContestRecord } from '../../src/lib/offline-db';
 import {
   cleanupInactiveContestCaches,
   downloadContestPackage,
@@ -58,9 +58,15 @@ class MemoryCacheStorage {
   }
 }
 
-function manifest(hash: string, routes = ['/concursos/exemplo/']): OfflinePackageManifest {
+function manifest(
+  hash: string,
+  routes = ['/concursos/exemplo/'],
+  resources: Record<string, string> = Object.fromEntries(
+    [...routes, '/_astro/shared.js'].map((path) => [path, 'aaaaaaaaaaaaaaaaaaaa']),
+  ),
+): OfflinePackageManifest {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     contestSlug: 'exemplo',
     contestStorageId: 'exemplo',
     manifestHash: hash,
@@ -68,6 +74,7 @@ function manifest(hash: string, routes = ['/concursos/exemplo/']): OfflinePackag
     assets: [],
     sharedAssets: ['/_astro/shared.js'],
     estimatedBytes: 256,
+    resources,
   };
 }
 
@@ -132,7 +139,15 @@ describe('offline contest packages', () => {
 
     await expect(
       downloadContestPackage(
-        manifest('22222222222222222222', ['/concursos/exemplo/', '/concursos/exemplo/questoes/']),
+        manifest(
+          '22222222222222222222',
+          ['/concursos/exemplo/', '/concursos/exemplo/questoes/'],
+          {
+            '/concursos/exemplo/': 'cccccccccccccccccccc',
+            '/concursos/exemplo/questoes/': 'cccccccccccccccccccc',
+            '/_astro/shared.js': 'cccccccccccccccccccc',
+          },
+        ),
         undefined,
         { ...overrides, fetch: interruptedFetch as typeof fetch },
       ),
@@ -252,5 +267,143 @@ describe('offline contest packages', () => {
       }),
     ).rejects.toThrow();
     expect(cacheStorage.caches.size).toBe(0);
+  });
+
+  it('updates by fetching only changed resources and copying unchanged ones locally', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: successfulFetch as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    const v1 = manifest('11111111111111111111', undefined, {
+      '/concursos/exemplo/': 'aaaaaaaaaaaaaaaaaaaa',
+      '/_astro/shared.js': 'bbbbbbbbbbbbbbbbbbbb',
+    });
+    const v1Record = await downloadContestPackage(v1, undefined, overrides);
+    expect(v1Record.resourceHashes).toEqual(v1.resources);
+
+    const v2 = manifest('22222222222222222222', undefined, {
+      '/concursos/exemplo/': 'cccccccccccccccccccc',
+      '/_astro/shared.js': 'bbbbbbbbbbbbbbbbbbbb',
+    });
+    const fetchResource = vi.fn((input: RequestInfo | URL) => {
+      if (new URL(new Request(input).url).pathname === '/concursos/exemplo/') {
+        return Promise.resolve(new Response('route:v2', { status: 200, headers: { 'content-length': '8' } }));
+      }
+      return successfulFetch(input);
+    });
+
+    const record = await downloadContestPackage(v2, undefined, {
+      ...overrides,
+      fetch: fetchResource as typeof fetch,
+    });
+
+    expect(fetchResource).toHaveBeenCalledTimes(1);
+    expect((fetchResource.mock.calls[0][0] as Request).url).toContain('/concursos/exemplo/');
+    expect(record.resourceHashes).toEqual(v2.resources);
+    expect(await getOfflineContestRecord('exemplo')).toEqual(record);
+    expect(cacheStorage.caches.has(v1Record.activeCacheName)).toBe(false);
+
+    const promotedRoute = await cacheStorage.caches.get(record.activeCacheName)?.match('https://concursos.test/concursos/exemplo/');
+    expect(await promotedRoute?.text()).toBe('route:v2');
+    const sharedEntry = await cacheStorage.caches.get(SHARED_ASSET_CACHE)?.match('https://concursos.test/_astro/shared.js');
+    expect(await sharedEntry?.text()).toBe('resource:/_astro/shared.js');
+  });
+
+  it('refetches an unchanged resource that was evicted from the local caches', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: successfulFetch as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    const unchangedResources = {
+      '/concursos/exemplo/': 'aaaaaaaaaaaaaaaaaaaa',
+      '/_astro/shared.js': 'bbbbbbbbbbbbbbbbbbbb',
+    };
+    const v1Record = await downloadContestPackage(
+      manifest('11111111111111111111', undefined, unchangedResources),
+      undefined,
+      overrides,
+    );
+    await cacheStorage.caches.get(v1Record.activeCacheName)?.delete('https://concursos.test/concursos/exemplo/');
+
+    const fetchResource = vi.fn(successfulFetch);
+    const record = await downloadContestPackage(
+      manifest('22222222222222222222', undefined, unchangedResources),
+      undefined,
+      { ...overrides, fetch: fetchResource as typeof fetch },
+    );
+
+    expect(fetchResource).toHaveBeenCalledTimes(1);
+    expect((fetchResource.mock.calls[0][0] as Request).url).toContain('/concursos/exemplo/');
+    expect(record.resourceHashes).toEqual(unchangedResources);
+    expect((await cacheStorage.caches.get(record.activeCacheName)?.keys())?.length).toBe(1);
+  });
+
+  it('performs a full download when the previous record has an empty resource hash map', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: successfulFetch as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    await downloadContestPackage(manifest('11111111111111111111', undefined, {}), undefined, overrides);
+
+    const v2 = manifest('22222222222222222222');
+    const fetchResource = vi.fn(successfulFetch);
+    const record = await downloadContestPackage(v2, undefined, {
+      ...overrides,
+      fetch: fetchResource as typeof fetch,
+    });
+
+    expect(fetchResource).toHaveBeenCalledTimes(2);
+    expect(record.resourceHashes).toEqual(v2.resources);
+  });
+
+  it('performs a full download when the previous record predates per-resource hashes', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: successfulFetch as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    await saveOfflineContestRecord({
+      contestStorageId: 'exemplo',
+      manifestHash: '11111111111111111111',
+      activeCacheName: 'contest--exemplo--11111111111111111111',
+      downloadedAt: Date.now(),
+      resourceCount: 2,
+    });
+
+    const v2 = manifest('22222222222222222222');
+    const fetchResource = vi.fn(successfulFetch);
+    const record = await downloadContestPackage(v2, undefined, {
+      ...overrides,
+      fetch: fetchResource as typeof fetch,
+    });
+
+    expect(fetchResource).toHaveBeenCalledTimes(2);
+    expect(record.resourceHashes).toEqual(v2.resources);
+  });
+
+  it('fetches resources that have no hash in either manifest revision', async () => {
+    const cacheStorage = new MemoryCacheStorage();
+    const overrides = {
+      cacheStorage: cacheStorage as unknown as CacheStorage,
+      fetch: successfulFetch as typeof fetch,
+      origin: 'https://concursos.test',
+    };
+    await downloadContestPackage(manifest('11111111111111111111', undefined, {}), undefined, overrides);
+
+    const fetchResource = vi.fn(successfulFetch);
+    const record = await downloadContestPackage(manifest('22222222222222222222', undefined, {}), undefined, {
+      ...overrides,
+      fetch: fetchResource as typeof fetch,
+    });
+
+    expect(fetchResource).toHaveBeenCalledTimes(2);
+    expect(record.resourceHashes).toEqual({});
   });
 });

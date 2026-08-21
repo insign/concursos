@@ -98,6 +98,7 @@ async function buildManifest(seed) {
   const sharedAssets = discoveredAssets.filter(isSharedAsset);
   const resources = [...seed.routes, ...assets, ...sharedAssets];
   const hash = createHash('sha256');
+  const resourceHashes = {};
   let estimatedBytes = 0;
 
   for (const resource of resources) {
@@ -107,6 +108,7 @@ async function buildManifest(seed) {
     estimatedBytes += metadata.size;
     hash.update(resource);
     hash.update(contents);
+    resourceHashes[resource] = createHash('sha256').update(resource).update(contents).digest('hex').slice(0, 20);
   }
 
   return {
@@ -115,6 +117,7 @@ async function buildManifest(seed) {
     assets,
     sharedAssets,
     estimatedBytes,
+    resources: resourceHashes,
   };
 }
 
