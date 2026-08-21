@@ -43,14 +43,14 @@ Cadeia de valor → macroprocesso → processo → subprocesso → atividade →
 
 Gestão por processos não extingue a hierarquia.
 
-## BPM × BPMN × BPMS × workflow
+## <abbr title="Business Process Management">BPM</abbr> × <abbr title="Business Process Model and Notation">BPMN</abbr> × <abbr title="Business Process Management Suite">BPMS</abbr> × workflow
 
 - BPM: disciplina gerencial.
 - BPMN: notação.
 - BPMS: suíte de software.
 - Workflow: encaminhamento do trabalho.
 
-## Ciclo BPM CBOK
+## Ciclo <abbr title="Business Process Management Common Body of Knowledge">BPM CBOK</abbr>
 
 1. planejamento e estratégia;
 2. análise;
@@ -73,7 +73,7 @@ Gestão por processos não extingue a hierarquia.
 - diagrama: visão simples;
 - mapa: relações e responsabilidades;
 - modelo: detalhe para análise/decisão;
-- SIPOC: fornecedor, entrada, processo, saída, cliente;
+- <abbr title="Supplier, Input, Process, Output, Customer">SIPOC</abbr>: fornecedor, entrada, processo, saída, cliente;
 - fluxograma: sequência e decisões;
 - BPMN: notação padronizada.
 
@@ -91,7 +91,7 @@ Gestão por processos não extingue a hierarquia.
 
 Sequência não atravessa pools.
 
-## Papéis e RACI
+## Papéis e <abbr title="Responsible, Accountable, Consulted, Informed">RACI</abbr>
 
 - patrocinador: apoio e recursos;
 - dono: prestação de contas ponta a ponta;
