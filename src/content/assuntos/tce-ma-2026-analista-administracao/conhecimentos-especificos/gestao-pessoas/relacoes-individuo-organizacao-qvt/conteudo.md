@@ -153,7 +153,7 @@ Como **roteiro gerencial didático**, um programa de QVT pode seguir:
 
 Não é sequência normativa universal. O ponto central é diagnosticar antes de escolher soluções, combinar intervenções organizacionais e suporte e rever as medidas conforme evidências.
 
-QVT é responsabilidade compartilhada: RH e áreas técnicas podem coordenar, a alta administração fornece direção e recursos, gestores influenciam o contexto cotidiano e trabalhadores participam do diagnóstico e da avaliação.
+QVT é responsabilidade compartilhada: <abbr title="Recursos Humanos">RH</abbr> e áreas técnicas podem coordenar, a alta administração fornece direção e recursos, gestores influenciam o contexto cotidiano e trabalhadores participam do diagnóstico e da avaliação.
 
 ## 14. Indicadores e avaliação
 

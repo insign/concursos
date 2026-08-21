@@ -12,7 +12,7 @@ storageId: "gp-fundamentos-teorias"
 
 Gestão de pessoas é o conjunto integrado de decisões, políticas e práticas relativas às pessoas que trabalham na organização. Ela provê capacidades humanas para cumprir a missão, produzir resultados e adaptar a instituição ao ambiente.
 
-Este assunto cobre os **itens 1 e 2 de Gestão de Pessoas do edital**: conceitos e importância da gestão de pessoas, relação com outros sistemas da organização e fundamentos, teorias e escolas da administração e seus impactos na gestão de pessoas. Funções específicas do órgão de RH serão aprofundadas no Assunto 143; relações indivíduo-organização e qualidade de vida, no 144; liderança, motivação e desempenho, no 145; desenvolvimento e capacitação, no 151; gestão por competências e tendências no setor público, no 153.
+Este assunto cobre os **itens 1 e 2 de Gestão de Pessoas do edital**: conceitos e importância da gestão de pessoas, relação com outros sistemas da organização e fundamentos, teorias e escolas da administração e seus impactos na gestão de pessoas. Funções específicas do órgão de <abbr title="Recursos Humanos">RH</abbr> serão aprofundadas no Assunto 143; relações indivíduo-organização e qualidade de vida, no 144; liderança, motivação e desempenho, no 145; desenvolvimento e capacitação, no 151; gestão por competências e tendências no setor público, no 153.
 
 ## 2. Evolução da gestão de pessoas
 
@@ -45,7 +45,7 @@ Resultados organizacionais e necessidades humanas não são necessariamente opos
 
 ### 3.1 Responsabilidade compartilhada
 
-A unidade de GP formula políticas, oferece métodos, dados e apoio especializado. Gestores de linha distribuem trabalho, acompanham equipes, dão feedback e aplicam práticas no cotidiano. Alta administração define direção e patrocina prioridades. Pessoas também participam de seu desenvolvimento.
+A unidade de <abbr title="Gestão de Pessoas">GP</abbr> formula políticas, oferece métodos, dados e apoio especializado. Gestores de linha distribuem trabalho, acompanham equipes, dão feedback e aplicam práticas no cotidiano. Alta administração define direção e patrocina prioridades. Pessoas também participam de seu desenvolvimento.
 
 Logo, gerir pessoas não é atribuição exclusiva do “RH”. Centralização de diretrizes pode coexistir com execução descentralizada pelos gestores.
 
@@ -81,7 +81,7 @@ Limite: visão mecanicista pode reduzir autonomia e subestimar dimensões sociai
 
 Henri Fayol focalizou a organização como um todo e as funções administrativas: prever, organizar, comandar, coordenar e controlar (POCCC). Entre seus princípios estão divisão do trabalho, autoridade e responsabilidade, disciplina, unidade de comando, unidade de direção, cadeia escalar, equidade, estabilidade, iniciativa e espírito de equipe.
 
-Impactos em GP: definição de responsabilidades, hierarquia, disciplina, coordenação, estabilidade e unidade de comando. Taylor enfatiza tarefas e chão de fábrica; Fayol, estrutura e administração geral. PODC é síntese posterior, não a formulação original de Fayol.
+Impactos em GP: definição de responsabilidades, hierarquia, disciplina, coordenação, estabilidade e unidade de comando. Taylor enfatiza tarefas e chão de fábrica; Fayol, estrutura e administração geral. <abbr title="Planejar, Organizar, Dirigir e Controlar">PODC</abbr> é síntese posterior, não a formulação original de Fayol.
 
 ## 7. Abordagem Neoclássica
 

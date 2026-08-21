@@ -1,11 +1,11 @@
-# Órgão de RH: função, políticas e SIG
+# Órgão de <abbr title="Recursos Humanos">RH</abbr>: função, políticas e <abbr title="Sistema de Informações Gerenciais">SIG</abbr>
 
 ## Papéis
 
 | Papel | Núcleo |
 | --- | --- |
 | operacional | cadastro, folha, atos, atendimento e controles |
-| consultivo/staff | orientação, métodos e apoio técnico aos gestores |
+| consultivo/<abbr title="assessoria e suporte especializado">staff</abbr> | orientação, métodos e apoio técnico aos gestores |
 | estratégico | força de trabalho, prioridades, capacidades e indicadores |
 
 - Estratégico não elimina operacional.
@@ -57,7 +57,7 @@ Política = princípios + objetivos + critérios + responsabilidades + instrumen
 
 ## Coerência
 
-- **Vertical:** missão → estratégia → objetivos de GP → planos → atividades.
+- **Vertical:** missão → estratégia → objetivos de <abbr title="Gestão de Pessoas">GP</abbr> → planos → atividades.
 - **Horizontal:** políticas e processos de pessoas compatíveis entre si.
 - Coerência não significa uniformidade absoluta.
 

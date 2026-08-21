@@ -91,7 +91,7 @@ Uma classificação frequente organiza os processos em seis grupos. É uma **tax
 | recompensar | administrar contrapartidas e reconhecimento | remuneração, benefícios, carreiras e reconhecimento legítimo |
 | desenvolver | ampliar e preservar capacidades | aprendizagem, capacitação, desenvolvimento, conhecimento e sucessão |
 | manter | sustentar pessoas e condições de trabalho | saúde, segurança, relações, inclusão, qualidade de vida e retenção |
-| monitorar | registrar, acompanhar e retroalimentar a gestão | cadastro, SIG, indicadores, controles e avaliação das políticas |
+| monitorar | registrar, acompanhar e retroalimentar a gestão | cadastro, <abbr title="Sistema de Informações Gerenciais">SIG</abbr>, indicadores, controles e avaliação das políticas |
 
 Uma atividade pode contribuir para mais de um grupo. Em prova, deve-se identificar a finalidade predominante sem presumir fronteiras rígidas.
 
@@ -203,7 +203,7 @@ Como sistemas de RH concentram informações funcionais, devem existir controles
 - cópias de segurança e continuidade;
 - proteção contra acesso, alteração ou divulgação indevidos.
 
-O aprofundamento jurídico sobre proteção de dados pertence ao assunto específico de LGPD. Aqui, a pegadinha é gerencial: **integração não significa acesso indiscriminado**, e disponibilidade de dado não dispensa finalidade, autorização e controle.
+O aprofundamento jurídico sobre proteção de dados pertence ao assunto específico de <abbr title="Lei Geral de Proteção de Dados Pessoais">LGPD</abbr>. Aqui, a pegadinha é gerencial: **integração não significa acesso indiscriminado**, e disponibilidade de dado não dispensa finalidade, autorização e controle.
 
 ## 13. Síntese para prova
 

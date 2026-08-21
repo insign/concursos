@@ -4,13 +4,13 @@
 
 | Estágio | Foco |
 | --- | --- |
-| DP | registro, folha, frequência e conformidade |
-| ARH | recrutamento, treinamento, cargos e avaliação |
+| <abbr title="Departamento Pessoal">DP</abbr> | registro, folha, frequência e conformidade |
+| <abbr title="Administração de Recursos Humanos">ARH</abbr> | recrutamento, treinamento, cargos e avaliação |
 | gestão estratégica | pessoas e competências alinhadas à estratégia |
 
 - Estágios coexistem; gestão estratégica não elimina rotinas.
 - No setor público: valor público, legalidade, impessoalidade, mérito e continuidade.
-- GP é responsabilidade compartilhada entre alta administração, unidade especializada, gestores e pessoas.
+- <abbr title="Gestão de Pessoas">GP</abbr> é responsabilidade compartilhada entre alta administração, unidade especializada, gestores e pessoas.
 
 ## Visão sistêmica
 
@@ -27,8 +27,8 @@
 | Escola | Autor/foco | Pegadinha |
 | --- | --- | --- |
 | científica | Taylor; tarefas e método | também inclui seleção e treinamento científicos |
-| clássica | Fayol; estrutura e POCCC | Taylor ≠ Fayol; PODC é síntese posterior |
-| neoclássica | Drucker; objetivos e resultados | APO não é mera imposição de metas |
+| clássica | Fayol; estrutura e <abbr title="Prever, Organizar, Comandar, Coordenar e Controlar">POCCC</abbr> | Taylor ≠ Fayol; <abbr title="Planejar, Organizar, Dirigir e Controlar">PODC</abbr> é síntese posterior |
+| neoclássica | Drucker; objetivos e resultados | <abbr title="Administração por Objetivos">APO</abbr> não é mera imposição de metas |
 | burocrática | Weber; racional-legal | tipo ideal ≠ disfunções de Merton |
 | relações humanas | Mayo/Hawthorne; grupos | observação não explica sozinha produtividade |
 | comportamental | Simon e outros; decisão | racionalidade limitada e solução satisfatória |

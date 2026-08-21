@@ -52,7 +52,7 @@ Informação cuja divulgação coloque em risco a segurança do Presidente e Vic
 
 ### 3.3 Competência e formalização
 
-O art. 27 lista autoridades classificadoras da **administração pública federal**. A lista não deve ser transposta automaticamente ao TCE-MA. No plano federal, o grau ultrassecreto cabe às mais altas autoridades enumeradas; secreto inclui também dirigentes da administração indireta; reservado alcança autoridades de direção, comando ou chefia do nível previsto em lei.
+O art. 27 lista autoridades classificadoras da **administração pública federal**. A lista não deve ser transposta automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. No plano federal, o grau ultrassecreto cabe às mais altas autoridades enumeradas; secreto inclui também dirigentes da administração indireta; reservado alcança autoridades de direção, comando ou chefia do nível previsto em lei.
 
 A decisão de classificação deve indicar assunto, fundamento, prazo ou evento final e autoridade classificadora. A própria decisão permanece no mesmo grau de sigilo da informação classificada.
 
@@ -101,7 +101,7 @@ O art. 8º exige divulgação, independentemente de requerimento, em local de f�
 
 Sítios oficiais devem oferecer ferramenta de pesquisa; gravação de relatórios em formatos abertos e não proprietários; acesso automatizado em formatos abertos, estruturados e legíveis por máquina; descrição dos formatos; garantia de autenticidade, integridade e atualização; canal de comunicação; e acessibilidade para pessoas com deficiência.
 
-Municípios com até 10 mil habitantes são dispensados apenas da divulgação obrigatória na internet prevista no art. 8º, § 2º. Continuam obrigados à divulgação, em tempo real, da execução orçamentária e financeira conforme a LRF.
+Municípios com até 10 mil habitantes são dispensados apenas da divulgação obrigatória na internet prevista no art. 8º, § 2º. Continuam obrigados à divulgação, em tempo real, da execução orçamentária e financeira conforme a <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr>.
 
 ### 6.1 Atualização de 2025
 
@@ -137,11 +137,11 @@ Contra indeferimento ou ausência das razões da negativa, cabe recurso:
 - dirigido à autoridade hierarquicamente superior;
 - decidido em **5 dias**.
 
-Legislativo, Judiciário e Ministério Público regulamentam seus procedimentos. Estados, DF e Municípios definem regras específicas, respeitadas as normas gerais.
+Legislativo, Judiciário e Ministério Público regulamentam seus procedimentos. Estados, <abbr title="Distrito Federal">DF</abbr> e Municípios definem regras específicas, respeitadas as normas gerais.
 
 ### 8.2 Rito federal
 
-Os recursos à CGU do art. 16 e o recurso de desclassificação do art. 17 pertencem ao Poder Executivo federal. No rito federal contra uma **decisão**, o recurso passa pela autoridade superior e pela autoridade máxima antes da CGU e, conforme o caso, da CMRI. Já diante de **omissão de resposta**, o regulamento prevê reclamação à autoridade de monitoramento antes das instâncias externas pertinentes. Recurso e reclamação por omissão não são o mesmo fluxo. A CGU não é instância recursal automática de negativas estaduais, municipais, de outros Poderes ou do TCE-MA.
+Os recursos à <abbr title="Controladoria-Geral da União">CGU</abbr> do art. 16 e o recurso de desclassificação do art. 17 pertencem ao Poder Executivo federal. No rito federal contra uma **decisão**, o recurso passa pela autoridade superior e pela autoridade máxima antes da CGU e, conforme o caso, da CMRI. Já diante de **omissão de resposta**, o regulamento prevê reclamação à autoridade de monitoramento antes das instâncias externas pertinentes. Recurso e reclamação por omissão não são o mesmo fluxo. A CGU não é instância recursal automática de negativas estaduais, municipais, de outros Poderes ou do TCE-MA.
 
 ## 9. Responsabilidades
 
