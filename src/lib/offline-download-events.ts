@@ -31,14 +31,34 @@ export function publishDownloadEvent(payload: DownloadEvent): void {
   }
 }
 
+const PHASES: readonly DownloadPhase[] = ['download', 'update'];
+const EVENT_TYPES: readonly DownloadEvent['type'][] = ['started', 'progress', 'completed', 'failed'];
+
+function isDownloadEvent(data: unknown): data is DownloadEvent {
+  if (!data || typeof data !== 'object') return false;
+  const candidate = data as Partial<DownloadEvent>;
+  if (typeof candidate.contestStorageId !== 'string') return false;
+  if (!PHASES.includes(candidate.phase as DownloadPhase)) return false;
+  if (!EVENT_TYPES.includes(candidate.type as DownloadEvent['type'])) return false;
+  if (candidate.type === 'progress') {
+    return (
+      typeof candidate.completed === 'number' &&
+      typeof candidate.total === 'number' &&
+      typeof candidate.downloadedBytes === 'number'
+    );
+  }
+  if (candidate.type === 'failed') return typeof candidate.message === 'string';
+  return true;
+}
+
 export function subscribeDownloadEvents(handler: Publish): () => void {
   // Instância própria: BroadcastChannel não entrega mensagens ao próprio
   // emissor, e o emissor deste contexto usa o singleton de publicação.
   if (typeof BroadcastChannel === 'undefined') return () => undefined;
   const bus = new BroadcastChannel(DOWNLOAD_EVENTS_CHANNEL);
   const listener = (event: MessageEvent) => {
-    const data = event.data as DownloadEvent | null | undefined;
-    if (!data || typeof data !== 'object' || typeof data.type !== 'string') return;
+    const data = event.data as unknown;
+    if (!isDownloadEvent(data)) return;
     handler(data);
   };
   bus.addEventListener('message', listener);

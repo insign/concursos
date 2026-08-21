@@ -193,7 +193,7 @@ export async function downloadContestPackage(
           total: progress.total,
           downloadedBytes: progress.downloadedBytes,
         });
-      }, overrides),
+      }, overrides, phase),
     );
     publishDownloadEvent({ type: 'completed', contestStorageId: storageId, phase });
     return record;
@@ -212,8 +212,23 @@ async function downloadContestPackageLocked(
   manifest: OfflinePackageManifest,
   onProgress: (progress: DownloadProgress) => void,
   overrides: PackageEnvironment,
+  phase: DownloadPhase,
 ): Promise<OfflineContestRecord> {
   const { cacheStorage, fetch: fetchResource, origin, storage } = environment(overrides);
+
+  // Atualizações em segundo plano não podem ressuscitar um pacote que o
+  // usuário removeu enquanto a verificação rodava. O wrapper publica o
+  // evento terminal; aqui apenas curto-circuita sem tocar nos caches.
+  if (phase === 'update' && !(await getOfflineContestRecord(manifest.contestStorageId))) {
+    return {
+      contestStorageId: manifest.contestStorageId,
+      manifestHash: manifest.manifestHash,
+      activeCacheName: '',
+      downloadedAt: Date.now(),
+      resourceCount: 0,
+    };
+  }
+
   const resources = uniqueResources(manifest);
   const packageResources = new Set([...manifest.routes, ...manifest.assets]);
   const canonicalCacheName = contestCacheName(manifest.contestStorageId, manifest.manifestHash);
