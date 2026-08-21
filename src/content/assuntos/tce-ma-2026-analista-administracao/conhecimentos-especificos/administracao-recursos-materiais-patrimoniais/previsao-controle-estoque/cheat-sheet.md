@@ -90,12 +90,12 @@ $$e_t=A_t-F_t$$
 
 | Métrica | Cuidado |
 | --- | --- |
-| MFE | mede viés; sinais se anulam |
-| MAD | erro absoluto na unidade |
-| MSE/RMSE | penalizam erros grandes |
-| MAPE | falha com zero ou valor muito baixo |
-| WAPE | exige soma da demanda significativa |
-| MASE | compara com previsão ingênua |
+| <abbr title="erro médio">MFE</abbr> | mede viés; sinais se anulam |
+| <abbr title="desvio absoluto médio">MAD</abbr> | erro absoluto na unidade |
+| <abbr title="erro quadrático médio">MSE</abbr>/<abbr title="raiz do erro quadrático">RMSE</abbr> | penalizam erros grandes |
+| <abbr title="erro percentual absoluto">MAPE</abbr> | falha com zero ou valor muito baixo |
+| <abbr title="erro absoluto ponderado">WAPE</abbr> | exige soma da demanda significativa |
+| <abbr title="erro absoluto escalado médio">MASE</abbr> | compara com previsão ingênua |
 | tracking signal | erro acumulado ÷ MAD; declarar sinal |
 
 ## 5. Saldo e posição
@@ -149,7 +149,7 @@ $$Q_{pedido}=S-IP$$
 
 Período protegido: **$R+L$**.
 
-## 8. IN SEDAP nº 205/1988
+## 8. <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> nº 205/1988
 
 Convenção federal, com consumo mensal:
 
@@ -161,7 +161,7 @@ $$Pp=Em+cT$$
 
 $$Q=cI$$
 
-Não é norma automática do TCE-MA.
+Não é norma automática do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## 9. Estoque de segurança
 
@@ -293,15 +293,15 @@ Lei nº 4.320/1964, art. 106, III:
 
 - bens de almoxarifado: preço médio ponderado das compras.
 
-NBC TSP 04 (R1):
+<abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 04 (R1):
 
-- regra geral: menor entre custo e VRL;
+- regra geral: menor entre custo e <abbr title="valor realizável líquido">VRL</abbr>;
 - distribuição gratuita ou irrisória: menor entre custo e custo corrente de reposição;
 - recebido sem contraprestação: valor justo no recebimento;
 - custo: aquisição + transformação + outros para condição e local;
 - desperdício anormal e armazenamento desnecessário: despesa;
 - métodos: identificação específica, PEPS e média ponderada;
-- UEPS não admitido.
+- <abbr title="último a entrar, primeiro a sair">UEPS</abbr> não admitido.
 
 IN nº 205/1988:
 

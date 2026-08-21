@@ -58,7 +58,7 @@ Controle simplificado ≠ ausência de controle.
 
 - tombamento administrativo: registro individual do bem;
 - não confundir com tombamento cultural;
-- plaqueta, etiqueta, QR code, RFID, gravação e série são meios;
+- plaqueta, etiqueta, <abbr title="código de resposta rápida">QR code</abbr>, <abbr title="identificação por radiofrequência">RFID</abbr>, gravação e série são meios;
 - número de série pode complementar, não necessariamente substituir, o identificador institucional;
 - quando a marcação for inviável: relação-carga, fotografia, agrupamento ou outro meio documentado;
 - etiqueta sem cadastro não controla o bem.
@@ -116,7 +116,7 @@ Lei Estadual nº 6.107/1994:
 - proibição de retirada sem anuência;
 - proibição de uso particular.
 
-Lei nº 8.112/1990 e IN nº 205/1988: referências federais comparativas, não aplicação automática ao TCE-MA.
+Lei nº 8.112/1990 e <abbr title="Instrução Normativa">IN</abbr> nº 205/1988: referências federais comparativas, não aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## 10. Elementos da responsabilidade
 
@@ -169,7 +169,7 @@ Preço histórico ≠ dano automático.
 | terceiro × Estado | responsabilidade estatal objetiva, presentes os pressupostos |
 | Estado × agente | regresso com prova de dolo ou culpa |
 
-Tema 940 do STF: ação do terceiro deve ser dirigida à pessoa jurídica, preservado o regresso.
+Tema 940 do <abbr title="Supremo Tribunal Federal">STF</abbr>: ação do terceiro deve ser dirigida à pessoa jurídica, preservado o regresso.
 
 ## 14. Responsabilidade administrativa
 

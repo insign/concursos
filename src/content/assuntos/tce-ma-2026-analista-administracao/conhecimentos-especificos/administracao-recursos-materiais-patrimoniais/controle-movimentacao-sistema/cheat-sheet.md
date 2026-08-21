@@ -6,13 +6,13 @@
 
 | Fonte | Regra central |
 | --- | --- |
-| CF, art. 70 | legalidade, legitimidade, economicidade e prestação de contas |
+| <abbr title="Constituição Federal">CF</abbr>, art. 70 | legalidade, legitimidade, economicidade e prestação de contas |
 | Lei nº 4.320/1964, art. 94 | registro analítico, perfeita caracterização e responsáveis |
 | art. 95 | registros sintéticos de móveis e imóveis |
 | art. 96 | inventário analítico + escrituração sintética |
-| IN nº 205/1988 | referência operacional federal; não se aplica automaticamente ao TCE-MA |
+| <abbr title="Instrução Normativa">IN</abbr> nº 205/1988 | referência operacional federal; não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> |
 | Decreto nº 12.785/2025 | circularidade federal de bens móveis |
-| Portaria nº 232/2020 | SIADS no âmbito federal indicado |
+| Portaria nº 232/2020 | <abbr title="Sistema Integrado de Gestão Patrimonial">SIADS</abbr> no âmbito federal indicado |
 
 ## Objetivos
 
@@ -34,7 +34,7 @@
 | patrimônio | cadastrar, formalizar e conciliar |
 | logística | preservar cadeia de custódia |
 | contabilidade | reconhecer e conciliar valores |
-| TI | acessos, integração, logs e continuidade |
+| <abbr title="Tecnologia da Informação">TI</abbr> | acessos, integração, logs e continuidade |
 | comissão | verificar com independência |
 | auditoria | avaliar controles e evidências |
 | autoridade | autorizar eventos sensíveis |
@@ -196,7 +196,7 @@ Sistema = **dados + regras + papéis + fluxos + integrações + relatórios + te
 ## Identificador
 
 - número patrimonial não deve ser reutilizado;
-- plaqueta, RFID e código de barras são meios de vínculo;
+- plaqueta, <abbr title="identificação por radiofrequência">RFID</abbr> e código de barras são meios de vínculo;
 - marcação não prova propriedade nem localização atual;
 - número de série não substitui cadastro e carga.
 
@@ -232,7 +232,7 @@ Sistema = **dados + regras + papéis + fluxos + integrações + relatórios + te
 6. corrigir na origem;
 7. conciliar.
 
-## SIADS × SIAFI
+## <abbr title="Sistema Integrado de Gestão Patrimonial">SIADS</abbr> × <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr>
 
 - SIADS: estoques, permanentes, consumo, intangíveis e frota no âmbito federal indicado;
 - SIAFI: registros financeiro-contábeis federais;

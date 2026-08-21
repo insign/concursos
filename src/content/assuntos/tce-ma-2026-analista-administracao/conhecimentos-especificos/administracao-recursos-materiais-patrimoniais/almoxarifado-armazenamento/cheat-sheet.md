@@ -18,13 +18,13 @@
 
 | Fonte | Papel |
 | --- | --- |
-| IN SEDAP 205/1988 | referência operacional do SISG federal |
-| NR 1 | GRO e PGR |
+| <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> 205/1988 | referência operacional do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal |
+| <abbr title="Norma Regulamentadora">NR</abbr> 1 | <abbr title="Gerenciamento de Riscos Ocupacionais">GRO</abbr> e <abbr title="Programa de Gerenciamento de Riscos">PGR</abbr> |
 | NR 11 | movimentação e armazenagem |
 | NR 17 | ergonomia |
 | NR 23 | incêndio articulado à lei estadual |
-| NR 26 | GHS, rótulo e ficha de segurança |
-| Lei MA 11.390/2020 e CBMMA | incêndio no Maranhão |
+| NR 26 | <abbr title="Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos">GHS</abbr>, rótulo e ficha de segurança |
+| Lei MA 11.390/2020 e <abbr title="Corpo de Bombeiros Militar do Maranhão">CBMMA</abbr> | incêndio no Maranhão |
 | fabricante/projeto | capacidade, instalação e manutenção |
 
 ## 3. GRO/PGR
@@ -50,7 +50,7 @@ eliminar
 → EPI
 ```
 
-EPI não corrige estante instável, sobrecarga, incompatibilidade ou rota bloqueada.
+<abbr title="Equipamento de Proteção Individual">EPI</abbr> não corrige estante instável, sobrecarga, incompatibilidade ou rota bloqueada.
 
 ## 4. Controle
 
@@ -280,7 +280,7 @@ NR 26:
 
 ## 17. Tecnologia
 
-WMS, código de barras e RFID apoiam o controle, mas não provam sozinhos:
+<abbr title="sistema de gestão de armazém">WMS</abbr>, código de barras e <abbr title="identificação por radiofrequência">RFID</abbr> apoiam o controle, mas não provam sozinhos:
 
 - quantidade;
 - condição;
