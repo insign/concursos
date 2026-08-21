@@ -21,10 +21,10 @@ Para a prova, o corte normativo principal é **6 de julho de 2026**, data de pub
 - legislação já vigente nessa data integra o recorte;
 - norma futura somente pode ser tratada como cobrável quando expressamente indicada no edital;
 - orientação ou atualização posterior deve ser marcada como **pós-edital** ou **direito vigente hoje**, sem ser projetada retroativamente;
-- a recomendação federal sobre uso de código específico de CATMAT/CATSER, atualizada em **3 de julho de 2026**, é anterior ao edital e pode ser usada dentro do recorte;
+- a recomendação federal sobre uso de código específico de <abbr title="Catálogo de Materiais">CATMAT</abbr>/<abbr title="Catálogo de Serviços">CATSER</abbr>, atualizada em **3 de julho de 2026**, é anterior ao edital e pode ser usada dentro do recorte;
 - as páginas oficiais foram conferidas em 6 de agosto de 2026, mas o conteúdo normativo abaixo permanece ancorado no corte do edital.
 
-A Lei nº 14.133/2021 contém normas gerais aplicáveis ao TCE-MA quando ele exerce função administrativa. CATMAT, CATSER, SIADS e a implementação federal do Catálogo Eletrônico de Padronização têm âmbitos próprios: são referências relevantes, mas seu uso operacional no TCE-MA não deve ser presumido sem norma, adesão ou integração pertinente.
+A Lei nº 14.133/2021 contém normas gerais aplicáveis ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> quando ele exerce função administrativa. CATMAT, CATSER, <abbr title="Sistema Integrado de Gestão Patrimonial">SIADS</abbr> e a implementação federal do Catálogo Eletrônico de Padronização têm âmbitos próprios: são referências relevantes, mas seu uso operacional no TCE-MA não deve ser presumido sem norma, adesão ou integração pertinente.
 
 ## 2. Função compras
 
@@ -326,7 +326,7 @@ Ela organiza o estudo, mas não é fluxo legal rígido. O catálogo é iterativo
 
 O art. 15, § 2º, da Lei nº 4.320/1964 dispõe, para a classificação da despesa, que material permanente é o de duração superior a dois anos. Essa regra não deve ser lida isoladamente.
 
-O MCASP, 11ª edição, orienta que um material seja considerado de consumo quando atender **a pelo menos um** dos seguintes critérios:
+O <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>, 11ª edição, orienta que um material seja considerado de consumo quando atender **a pelo menos um** dos seguintes critérios:
 
 | Critério | Situação relevante |
 | --- | --- |
@@ -338,7 +338,7 @@ O MCASP, 11ª edição, orienta que um material seja considerado de consumo quan
 
 Portanto, é errada a afirmação de que os cinco critérios precisam ocorrer juntos. Também é inadequado concluir que “duração superior a dois anos” resolve, sozinha, toda decisão administrativa.
 
-A antiga Portaria STN nº 448/2002 reuniu esses parâmetros e ainda aparece em materiais de estudo, mas foi **expressamente revogada** pela Portaria STN nº 841/2021, com efeitos em 1º de junho de 2021. Ela é referência histórica, não norma vigente no corte de 2026.
+A antiga Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr> nº 448/2002 reuniu esses parâmetros e ainda aparece em materiais de estudo, mas foi **expressamente revogada** pela Portaria STN nº 841/2021, com efeitos em 1º de junho de 2021. Ela é referência histórica, não norma vigente no corte de 2026.
 
 O Decreto nº 10.818/2021, no âmbito federal definido em seu art. 1º, usa os cinco critérios para o enquadramento de bens de consumo em qualidade comum ou de luxo. Ele não cria, isoladamente, regra de tombamento para o TCE-MA.
 
@@ -395,7 +395,7 @@ O **dígito verificador** deriva de algoritmo do sistema, como módulo 10 ou 11.
 
 ### 5.3 CATMAT e CATSER
 
-A IN SLTI/MP nº 2/2011 estabelece procedimentos para órgãos do SISG e demais usuários do SIASG. Nesse âmbito:
+A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Logística e Tecnologia da Informação">SLTI</abbr>/<abbr title="Ministério do Planejamento, Orçamento e Gestão">MP</abbr> nº 2/2011 estabelece procedimentos para órgãos do <abbr title="Sistema de Serviços Gerais">SISG</abbr> e demais usuários do <abbr title="Sistema Integrado de Administração de Serviços Gerais">SIASG</abbr>. Nesse âmbito:
 
 - **CATMAT** cataloga materiais, abrangendo identificação, descrição e classificação conforme critérios do *Federal Supply Classification*;
 - **CATSER** cataloga serviços, com identificação, descrição e classificação segundo padrões de desempenho e critérios adotados pela ONU.
@@ -428,7 +428,7 @@ PDM é a estrutura da descrição. Não é exemplar físico, tombo individual ne
 
 O art. 6º, LI, da Lei nº 14.133/2021 define catálogo eletrônico de padronização como sistema informatizado, centralizado e com indicação de preços, destinado a padronizar itens disponíveis para licitação. O art. 19, II, prevê sua criação pelos órgãos com competências regulamentares pertinentes e admite adoção do catálogo federal por outros entes.
 
-O art. 19, § 2º, exige justificativa escrita no processo quando o catálogo ou os modelos padronizados previstos no artigo não forem utilizados. A Portaria Seges/ME nº 938/2022 instituiu a ferramenta federal para a administração pública federal direta, autárquica e fundacional.
+O art. 19, § 2º, exige justificativa escrita no processo quando o catálogo ou os modelos padronizados previstos no artigo não forem utilizados. A Portaria <abbr title="Secretaria de Gestão">Seges</abbr>/<abbr title="Ministério da Economia">ME</abbr> nº 938/2022 instituiu a ferramenta federal para a administração pública federal direta, autárquica e fundacional.
 
 Não confundir:
 

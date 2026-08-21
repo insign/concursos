@@ -51,7 +51,7 @@ Relação custo/*worth* alta indica oportunidade de estudo, não corte automáti
 | manter serviço | disponibilidade e recuperação |
 | reduzir consumo | insumo por unidade de resultado |
 
-## 5. FAST
+## 5. <abbr title="Function Analysis System Technique">FAST</abbr>
 
 FAST:
 
@@ -136,7 +136,7 @@ Custo de transição pode incluir treinamento, migração, integração, paralis
 | alienação | transfere propriedade |
 | reciclagem/descarte | destinação física e ambiental |
 | baixa | registra desincorporação |
-| descarga da IN 205 | transfere responsabilidade pela guarda |
+| descarga da <abbr title="Instrução Normativa">IN</abbr> 205 | transfere responsabilidade pela guarda |
 
 Baixa não aliena. Entrega a reciclador não é sinônimo de baixa. Desreconhecimento contábil não prova retirada física.
 
@@ -158,10 +158,10 @@ Ociosidade não produz desafetação automática. Dominical continua sendo públ
 | Lei 14.133/2021 | requisitos gerais, leilão e dispensa |
 | Decreto 11.461/2023 | leilão eletrônico do Executivo federal |
 | Decreto 12.785/2025 | circularidade federal de móveis |
-| IN SEDAP 205/1988 | conceitos do SISG federal |
+| IN <abbr title="Secretaria de Administração Pública da Presidência da República">SEDAP</abbr> 205/1988 | conceitos do <abbr title="Sistema de Serviços Gerais">SISG</abbr> federal |
 | norma interna | comissão, alçadas, formulários e sistemas |
 
-Norma federal operacional não vira automaticamente regulamento do TCE-MA.
+Norma federal operacional não vira automaticamente regulamento do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## 12. Lei nº 14.133/2021 — art. 76
 
@@ -300,7 +300,7 @@ identificar
 
 Enquanto não houver entrega e assunção de responsabilidade, o órgão mantém dever de guarda.
 
-## 18. Resíduos e PNRS
+## 18. Resíduos e <abbr title="Política Nacional de Resíduos Sólidos">PNRS</abbr>
 
 Prioridade:
 
@@ -317,13 +317,13 @@ Destinação é mais ampla que disposição. Aterro é para rejeito.
 
 Conforme o caso:
 
-- PGRS;
+- <abbr title="Plano de Gerenciamento de Resíduos Sólidos">PGRS</abbr>;
 - classificação;
 - transportador autorizado;
-- MTR;
+- <abbr title="Manifesto de Transporte de Resíduos">MTR</abbr>;
 - destinador habilitado;
 - certificado;
-- CNORP para resíduos perigosos;
+- <abbr title="Cadastro Nacional de Operadores de Resíduos Perigosos">CNORP</abbr> para resíduos perigosos;
 - conciliação de quantidades.
 
 Contratar terceiro não elimina diligência.

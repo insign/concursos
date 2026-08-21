@@ -3,9 +3,9 @@
 ## Corte e foco
 
 - **Corte do edital:** 6 jul. 2026.
-- Recomendação federal de código específico CATMAT/CATSER: 3 jul. 2026, dentro do corte.
-- Lei nº 14.133/2021: norma geral aplicável ao TCE-MA em função administrativa.
-- CATMAT, CATSER, SIADS e catálogo da Portaria nº 938/2022: referências de âmbito federal próprio; não presumir uso operacional pelo TCE-MA sem base aplicável.
+- Recomendação federal de código específico <abbr title="Catálogo de Materiais">CATMAT</abbr>/<abbr title="Catálogo de Serviços">CATSER</abbr>: 3 jul. 2026, dentro do corte.
+- Lei nº 14.133/2021: norma geral aplicável ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr> em função administrativa.
+- CATMAT, CATSER, <abbr title="Sistema Integrado de Gestão Patrimonial">SIADS</abbr> e catálogo da Portaria nº 938/2022: referências de âmbito federal próprio; não presumir uso operacional pelo TCE-MA sem base aplicável.
 
 ## Fluxo de compras
 
@@ -63,7 +63,7 @@ $$
 
 Comparar em mesma base: escopo, capacidade, qualidade, prazo, risco, quantidade e período.
 
-Art. 44: se compra e locação forem alternativas reais, o ETP compara custos e benefícios e indica a mais vantajosa.
+Art. 44: se compra e locação forem alternativas reais, o <abbr title="Estudo Técnico Preliminar">ETP</abbr> compara custos e benefícios e indica a mais vantajosa.
 
 ## Lei nº 14.133/2021 — mapa de uma linha
 
@@ -143,7 +143,7 @@ Sequência **didática**, não rito legal rígido.
 
 Lei nº 4.320/1964, art. 15, § 2º: para classificação da despesa, material permanente tem duração superior a dois anos.
 
-MCASP: material é de consumo quando atende **a pelo menos um** critério:
+<abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>: material é de consumo quando atende **a pelo menos um** critério:
 
 | Critério | Teste |
 | --- | --- |
@@ -155,7 +155,7 @@ MCASP: material é de consumo quando atende **a pelo menos um** critério:
 
 > Não são cinco critérios cumulativos.
 
-Portaria STN nº 448/2002: **revogada** pela Portaria STN nº 841/2021 desde 1º jun. 2021.
+Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr> nº 448/2002: **revogada** pela Portaria STN nº 841/2021 desde 1º jun. 2021.
 
 Decreto nº 10.818/2021: regra federal sobre qualidade comum/luxo; não é regra autônoma de tombamento do TCE-MA.
 
@@ -187,7 +187,7 @@ Bom código: único, estável, expansível, documentado, não reutilizado e liga
 - não especifica;
 - não tem fórmula universal.
 
-## CATMAT × CATSER × PDM × catálogo eletrônico
+## CATMAT × CATSER × <abbr title="Padrão Descritivo de Material">PDM</abbr> × catálogo eletrônico
 
 | Instrumento | Função |
 | --- | --- |
