@@ -146,7 +146,7 @@ A organização pode combinar posturas. A classificação identifica a orientaç
 | **Intermediário ou tático** | área, unidade ou função | gerências | desdobra diretrizes globais em objetivos e recursos setoriais |
 | **Operacional** | atividades, equipes e rotinas | supervisão | específico, detalhado, próximo da execução |
 
-Os prazos são tendências, não números universais. O PPA possuir quatro anos não transforma quatro anos em duração obrigatória de qualquer plano estratégico.
+Os prazos são tendências, não números universais. O <abbr title="Plano Plurianual">PPA</abbr> possuir quatro anos não transforma quatro anos em duração obrigatória de qualquer plano estratégico.
 
 ### 6.1 Alinhamento entre níveis
 

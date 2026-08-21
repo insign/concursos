@@ -19,7 +19,7 @@ Lei nº **12.288/2010**. Última alteração consolidada: Lei nº **14.553/2023*
 | discriminação racial/étnico-racial | distinção/exclusão/restrição/preferência por raça, cor, descendência, origem nacional/étnica; direitos; vida pública **ou privada** |
 | desigualdade racial | diferenciação **injustificada** de acesso/fruição de bens, serviços e oportunidades |
 | desigualdade de gênero e raça | distância social entre **mulheres negras** e demais segmentos |
-| população negra | autodeclaradas pretas e pardas pelo quesito IBGE ou autodefinição análoga |
+| população negra | autodeclaradas pretas e pardas pelo quesito <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr> ou autodefinição análoga |
 | políticas públicas | ações/iniciativas/programas do **Estado** |
 | ações afirmativas | medidas especiais do **Estado e iniciativa privada** para corrigir desigualdade + promover oportunidades |
 
@@ -69,13 +69,13 @@ Art. 58 → medidas do Estatuto **não excluem outras** favoráveis.
 ## Saúde
 
 - políticas universais, sociais e econômicas;
-- SUS universal + igualitário;
+- <abbr title="Sistema Único de Saúde">SUS</abbr> universal + igualitário;
 - responsabilidade federal/estadual/distrital/municipal;
 - administração direta + indireta;
 - seguro privado → tratamento sem discriminação;
 - quilombolas → ambiente + saneamento + segurança alimentar/nutricional + atenção integral.
 
-**PNSIPN — art. 7º: diretrizes**
+**<abbr title="Política Nacional de Saúde Integral da População Negra">PNSIPN</abbr> — art. 7º: diretrizes**
 
 1. participação de lideranças dos movimentos sociais + controle social do SUS;
 2. conhecimento científico e tecnológico em saúde da população negra;
@@ -172,7 +172,7 @@ Direitos:
 - publicações;
 - contribuições privadas;
 - acesso à comunicação;
-- comunicação ao MP.
+- comunicação ao <abbr title="Ministério Público">MP</abbr>.
 
 Assistência religiosa:
 
@@ -221,7 +221,7 @@ Conteúdo:
 
 `habitação + infraestrutura + equipamentos comunitários + assistência técnica/jurídica + construção/reforma/regularização`.
 
-Operação do SNHIS e participação em conselhos → Assunto 102.
+Operação do <abbr title="Sistema Nacional de Habitação de Interesse Social">SNHIS</abbr> e participação em conselhos → Assunto 102.
 
 Financiamento → agentes **públicos ou privados**.
 
@@ -258,14 +258,14 @@ Alcança:
 
 1. admissão/demissão;
 2. acidente de trabalho;
-3. Sine/sucessor;
-4. Rais/equivalente;
-5. RGPS de segurados/dependentes;
+3. <abbr title="Sistema Nacional de Emprego">Sine</abbr>/sucessor;
+4. <abbr title="Relação Anual de Informações Sociais">Rais</abbr>/equivalente;
+5. <abbr title="Regime Geral de Previdência Social">RGPS</abbr> de segurados/dependentes;
 6. pesquisas IBGE/sucessor.
 
 Não confundir com heteroidentificação subsidiária em cotas específicas.
 
-Pesquisa institucional para subsidiar a PNPIR → mecanismo do Assunto 102.
+Pesquisa institucional para subsidiar a <abbr title="Política Nacional de Promoção da Igualdade Racial">PNPIR</abbr> → mecanismo do Assunto 102.
 
 ## Comunicação
 
@@ -326,11 +326,11 @@ Internet → possível interdição de mensagens/páginas discriminatórias.
 
 Vigência do Estatuto → **90 dias** após publicação.
 
-## STF
+## <abbr title="Supremo Tribunal Federal">STF</abbr>
 
 | Caso | Núcleo | Limite |
 |---|---|---|
-| ADPF 186 (2012) | cotas UnB constitucionais; igualdade material/pluralismo | sem percentual universal |
+| ADPF 186 (2012) | cotas <abbr title="Universidade de Brasília">UnB</abbr> constitucionais; igualdade material/pluralismo | sem percentual universal |
 | ADC 41 (2017) | Lei nº 12.990/2014 constitucional | 20% pertence à lei específica |
 | ADC 41 | heteroidentificação subsidiária legítima | dignidade + contraditório + ampla defesa |
 | ADIs 7.927-7.930/SC (2026) | vedação geral de cotas inconstitucional | não impõe modelo único; políticas admitem avaliação |
@@ -339,7 +339,7 @@ Vigência do Estatuto → **90 dias** após publicação.
 
 Assunto 102:
 
-- Sinapir/PNPIR;
+- <abbr title="Sistema Nacional de Promoção da Igualdade Racial">Sinapir</abbr>/PNPIR;
 - adesão e articulação;
 - órgãos/fórum/colegiados/conselhos;
 - Ouvidorias como estrutura;

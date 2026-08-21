@@ -10,7 +10,7 @@ storageId: estruturas-organizacionais
 
 ## Recorte, objetivo e corte temporal
 
-Este capítulo cobre o item 1 de Administração Pública do edital do TCE/MA 2026: características básicas das organizações formais modernas, natureza, finalidades, tipos de estrutura organizacional e critérios de departamentalização. O objetivo é reconhecer o eixo de agrupamento, a distribuição de autoridade e os mecanismos de coordenação, inclusive em situações-problema.
+Este capítulo cobre o item 1 de Administração Pública do edital do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> 2026: características básicas das organizações formais modernas, natureza, finalidades, tipos de estrutura organizacional e critérios de departamentalização. O objetivo é reconhecer o eixo de agrupamento, a distribuição de autoridade e os mecanismos de coordenação, inclusive em situações-problema.
 
 > **Corte temporal:** o edital foi publicado em 6 de julho de 2026. Os conceitos de teoria organizacional empregados aqui são estáveis, e esta atualização editorial foi fechada em 29 de julho de 2026. As orientações do MGI e o Manual de Estruturas Organizacionais referem-se ao Poder Executivo federal e são usados como referência técnica, não como normas automaticamente aplicáveis ao TCE/MA.
 
@@ -325,7 +325,7 @@ A abordagem contingencial rejeita a ideia de uma única estrutura ótima para to
 4. **tamanho e idade:** crescimento aumenta diferenciação e necessidade de coordenação;
 5. **diversidade:** produtos, serviços, públicos e territórios atendidos;
 6. **pessoas e cultura:** competências, autonomia e disposição para colaborar;
-7. **regulação e risco:** legalidade, segurança, transparência e accountability;
+7. **regulação e risco:** legalidade, segurança, transparência e <abbr title="prestação de contas e responsabilização">accountability</abbr>;
 8. **custos de coordenação e duplicação:** economias funcionais versus resposta divisional.
 
 > **Regra de prova:** estruturas mais orgânicas tendem a responder melhor à incerteza, mas não dispensam objetivos, responsabilização e mecanismos de coordenação.

@@ -82,7 +82,7 @@
 | Operacional | atividades e equipes | específico e detalhado |
 
 - Horizontes são tendências, não números universais.
-- PPA de quatro anos não define todo plano estratégico.
+- <abbr title="Plano Plurianual">PPA</abbr> de quatro anos não define todo plano estratégico.
 - Alinhamento vertical + coordenação horizontal.
 
 ## Instrumentos
