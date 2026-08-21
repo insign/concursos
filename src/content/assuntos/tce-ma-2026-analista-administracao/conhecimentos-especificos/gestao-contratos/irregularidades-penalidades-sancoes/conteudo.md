@@ -15,11 +15,11 @@ Este assunto estuda o caminho que começa com uma ocorrência na execução cont
 1. registrar e notificar irregularidades;
 2. definir e aplicar penalidades e sanções administrativas.
 
-A base geral é a Lei nº 14.133/2021, especialmente os arts. 92, 117, 137, 155 a 169 e 174. A IN SEGES/MP nº 5/2017 e o Decreto nº 11.246/2022 oferecem referências operacionais federais. Eles não vinculam automaticamente o TCE-MA. A competência decisória e o rito complementar no Tribunal dependem da regulamentação aplicável ao órgão.
+A base geral é a Lei nº 14.133/2021, especialmente os arts. 92, 117, 137, 155 a 169 e 174. A <abbr title="Instrução Normativa">IN</abbr> <abbr title="Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão">SEGES/MP</abbr> nº 5/2017 e o Decreto nº 11.246/2022 oferecem referências operacionais federais. Eles não vinculam automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>. A competência decisória e o rito complementar no Tribunal dependem da regulamentação aplicável ao órgão.
 
 > **Corte de prova:** legislação vigente em **6 de julho de 2026**, data de publicação do Edital nº 1 do TCE/MA. Datas posteriores de consulta das fontes servem apenas à conferência editorial e não alteram o corte jurídico.
 
-O Assunto 128 contém o regime geral da execução e fiscalização; o Assunto 129, a extinção, o recebimento e o pagamento; e o Assunto 130, o panorama normativo das infrações, sanções, controle e PNCP. Este assunto retoma somente o necessário desse panorama para aprofundar a perspectiva operacional do item 2.5 e 2.6: registro, notificação, formação de evidência e fluxo decisório. O Assunto 133 apresenta a arquitetura federal de gestão e fiscalização, o Assunto 134 trata da operação financeira e o Assunto 136 aprofunda indicadores, fiscalizador, preposto e acompanhamento.
+O Assunto 128 contém o regime geral da execução e fiscalização; o Assunto 129, a extinção, o recebimento e o pagamento; e o Assunto 130, o panorama normativo das infrações, sanções, controle e <abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>. Este assunto retoma somente o necessário desse panorama para aprofundar a perspectiva operacional do item 2.5 e 2.6: registro, notificação, formação de evidência e fluxo decisório. O Assunto 133 apresenta a arquitetura federal de gestão e fiscalização, o Assunto 134 trata da operação financeira e o Assunto 136 aprofunda indicadores, fiscalizador, preposto e acompanhamento.
 
 ## 2. Quatro conceitos que não devem ser confundidos
 
@@ -287,13 +287,13 @@ Não confunda os prazos sancionadores de 15 dias com o prazo geral de três dias
 
 O art. 161 exige que órgãos e entidades dos Poderes Executivo, Legislativo e Judiciário de todos os entes federativos informem e mantenham atualizados, em até **15 dias úteis da aplicação**, os dados das sanções por eles aplicadas, para fins de publicidade no **Cadastro Nacional de Empresas Inidôneas e Suspensas (Ceis)** e no **Cadastro Nacional de Empresas Punidas (Cnep)**. Para a prova da Lei nº 14.133/2021, essa literalidade é decisiva: não se deve tratar o Cnep como cadastro alheio às sanções da própria Lei.
 
-No plano operacional da CGU, a **Portaria Normativa CGU nº 75/2023** instituiu o **Sistema Banco de Sanções** e disciplinou o fornecimento de informações para os cadastros administrados pela Controladoria. Assim, não confunda:
+No plano operacional da <abbr title="Controladoria-Geral da União">CGU</abbr>, a **Portaria Normativa CGU nº 75/2023** instituiu o **Sistema Banco de Sanções** e disciplinou o fornecimento de informações para os cadastros administrados pela Controladoria. Assim, não confunda:
 
 - **Ceis e Cnep:** cadastros de publicidade mencionados no art. 161;
 - **Banco de Sanções:** sistema de fornecimento/gestão das informações para os cadastros da CGU;
-- **PNCP:** portal que oferece acesso ao Ceis e ao Cnep, conforme o art. 174, § 3º, V.
+- **<abbr title="Portal Nacional de Contratações Públicas">PNCP</abbr>:** portal que oferece acesso ao Ceis e ao Cnep, conforme o art. 174, § 3º, V.
 
-Referências operacionais antigas ao Sircad não devem ser apresentadas como o sistema atual no corte do edital. A forma concreta de alimentação deve observar o canal disponibilizado pela CGU e a regulamentação aplicável ao órgão.
+Referências operacionais antigas ao <abbr title="Sistema Integrado de Registro do CEIS/CNEP">Sircad</abbr> não devem ser apresentadas como o sistema atual no corte do edital. A forma concreta de alimentação deve observar o canal disponibilizado pela CGU e a regulamentação aplicável ao órgão.
 
 Antes de formalizar ou prorrogar contrato, o art. 91, § 4º, exige consulta aos dois cadastros e emissão das certidões pertinentes. Retificação, cancelamento ou registro de reabilitação exige fundamento formal. A publicidade cadastral não substitui a intimação do interessado nem corrige vício do processo sancionador.
 

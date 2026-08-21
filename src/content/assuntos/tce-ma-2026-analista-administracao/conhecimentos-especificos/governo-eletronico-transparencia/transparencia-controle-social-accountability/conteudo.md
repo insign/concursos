@@ -14,7 +14,7 @@ Este assunto examina quatro conceitos relacionados, mas não equivalentes: trans
 
 Os procedimentos, prazos, recursos, restrições e responsabilidades da Lei nº 12.527/2011 serão estudados nos Assuntos 140 e 141. Aqui, a Lei de Acesso à Informação aparece apenas como parte do ambiente institucional da transparência.
 
-> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. A alteração da LRF pela Lei Complementar nº 224/2025 tratada neste assunto já produzia efeitos desde 1º de janeiro de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
+> **Recorte temporal do edital:** considera-se a legislação vigente em 6 de julho de 2026. A alteração da <abbr title="Lei de Responsabilidade Fiscal">LRF</abbr> pela Lei Complementar nº 224/2025 tratada neste assunto já produzia efeitos desde 1º de janeiro de 2026. Atualizações posteriores ao edital, quando relevantes, devem ser identificadas expressamente como pós-edital.
 
 ## 2. Publicidade, transparência e dados abertos
 

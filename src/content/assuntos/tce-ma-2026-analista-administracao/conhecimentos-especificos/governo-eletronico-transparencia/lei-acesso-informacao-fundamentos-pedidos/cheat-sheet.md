@@ -1,20 +1,20 @@
-# LAI: fundamentos, abrangência, conceitos e pedidos
+# <abbr title="Lei de Acesso à Informação">LAI</abbr>: fundamentos, abrangência, conceitos e pedidos
 
 ## Diretrizes
 
 - Publicidade: regra; sigilo: exceção.
 - Divulgação de interesse público independe de pedido.
-- Uso de TIC, cultura de transparência e controle social.
+- Uso de <abbr title="Tecnologias da Informação e Comunicação">TIC</abbr>, cultura de transparência e controle social.
 - Procedimentos objetivos, ágeis, claros e em linguagem fácil.
 - Art. 6º: gestão transparente + proteção da informação + proteção de informação sigilosa e pessoal.
 
 ## Abrangência
 
-- União, Estados, DF e Municípios.
-- Executivo, Legislativo **incluindo Cortes de Contas**, Judiciário e MP.
+- União, Estados, <abbr title="Distrito Federal">DF</abbr> e Municípios.
+- Executivo, Legislativo **incluindo Cortes de Contas**, Judiciário e <abbr title="Ministério Público">MP</abbr>.
 - Autarquias, fundações públicas, empresas públicas, sociedades de economia mista e controladas.
 - Entidade privada sem fins lucrativos: no que couber, limitada aos recursos públicos recebidos e sua destinação.
-- Decreto nº 7.724/2012: somente Executivo federal; não se aplica automaticamente ao TCE-MA.
+- Decreto nº 7.724/2012: somente Executivo federal; não se aplica automaticamente ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## Conceitos
 
@@ -40,7 +40,7 @@
 - A LAI dá acesso a informação existente; não obriga consultoria ou estudo novo.
 - Regras sobre pedidos genéricos/desproporcionais são do regulamento federal.
 
-## SIC
+## <abbr title="Serviço de Informações ao Cidadão">SIC</abbr>
 
 - Atende e orienta.
 - Informa tramitação.
@@ -61,7 +61,7 @@
 | já disponível universalmente | informa local e modo; fornece diretamente se requerente declarar falta de meios |
 
 - A LAI não diz “dias úteis”.
-- Contagem contínua da CGU é orientação operacional federal.
+- Contagem contínua da <abbr title="Controladoria-Geral da União">CGU</abbr> é orientação operacional federal.
 - O órgão pode oferecer meios para o próprio requerente pesquisar, respeitadas segurança e proteção da informação.
 - Informação digital: nesse formato, se houver anuência.
 - Risco ao original: cópia certificada; reprodução supervisionada se necessário.

@@ -4,7 +4,7 @@
 
 | Termo | Núcleo |
 | --- | --- |
-| governo eletrônico | TIC nas relações e atividades estatais |
+| governo eletrônico | <abbr title="Tecnologias da Informação e Comunicação">TIC</abbr> nas relações e atividades estatais |
 | governo digital | tecnologia, dados, plataformas e valor público |
 | transformação digital | redesenho contínuo de serviços, processos e governança |
 | digitalização | conversão para formato digital |
@@ -31,10 +31,10 @@ informatização interna
 
 | Sigla | Relação |
 | --- | --- |
-| G2C | governo ↔ cidadão |
-| G2B | governo ↔ empresa |
-| G2G | governo ↔ governo |
-| G2E | governo ↔ agente público |
+| <abbr title="Government to Citizen">G2C</abbr> | governo ↔ cidadão |
+| <abbr title="Government to Business">G2B</abbr> | governo ↔ empresa |
+| <abbr title="Government to Government">G2G</abbr> | governo ↔ governo |
+| <abbr title="Government to Employee">G2E</abbr> | governo ↔ agente público |
 
 - Classificam participantes, não maturidade.
 
@@ -51,7 +51,7 @@ informatização interna
 
 ## Referenciais internacionais
 
-### OCDE
+### <abbr title="Organização para a Cooperação e Desenvolvimento Econômico">OCDE</abbr>
 
 - digital por concepção;
 - setor público orientado por dados;
@@ -60,13 +60,13 @@ informatização interna
 - orientado pelo usuário;
 - proatividade.
 
-### EGDI/ONU
+### <abbr title="E-Government Development Index">EGDI</abbr>/<abbr title="Organização das Nações Unidas">ONU</abbr>
 
 | Componente | Núcleo |
 | --- | --- |
-| OSI | serviços on-line |
-| TII | telecomunicações |
-| HCI | capital humano |
+| <abbr title="Online Service Index">OSI</abbr> | serviços on-line |
+| <abbr title="Telecommunication Infrastructure Index">TII</abbr> | telecomunicações |
+| <abbr title="Human Capital Index">HCI</abbr> | capital humano |
 
 - Compara países.
 - Não certifica órgão ou serviço isolado.
@@ -76,14 +76,14 @@ informatização interna
 | Fonte | Papel | Âmbito |
 | --- | --- | --- |
 | Lei nº 14.129/2021 | princípios, regras e instrumentos | aplicação conforme art. 2º e adoção pelos entes |
-| ENGD 2024–2027 | articulação nacional | União, estados, DF e municípios |
-| EFGD 2024–2027 | transformação federal | administração federal direta, autárquica e fundacional |
-| IND | dados e interoperabilidade | âmbito federal |
-| e-PING | padrões mínimos de interoperabilidade | SISP; facultativa fora do âmbito definido |
-| eMAG | acessibilidade digital | referência técnica federal |
+| <abbr title="Estratégia Nacional de Governo Digital">ENGD</abbr> 2024–2027 | articulação nacional | União, estados, <abbr title="Distrito Federal">DF</abbr> e municípios |
+| <abbr title="Estratégia Federal de Governo Digital">EFGD</abbr> 2024–2027 | transformação federal | administração federal direta, autárquica e fundacional |
+| <abbr title="Infraestrutura Nacional de Dados">IND</abbr> | dados e interoperabilidade | âmbito federal |
+| <abbr title="Padrões de Interoperabilidade de Governo Eletrônico">e-PING</abbr> | padrões mínimos de interoperabilidade | <abbr title="Sistema de Administração dos Recursos de Tecnologia da Informação">SISP</abbr>; facultativa fora do âmbito definido |
+| <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> | acessibilidade digital | referência técnica federal |
 | norma interna | competências e fluxos | ente ou órgão |
 
-- Instrumento federal infralegal não vincula automaticamente o TCE-MA.
+- Instrumento federal infralegal não vincula automaticamente o <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 - Corte: **19 de julho de 2026**.
 
 ## Lei nº 14.129/2021
@@ -126,7 +126,7 @@ necessidade
 | notificações | acompanhamento |
 | pagamentos | arrecadação |
 | assinatura | autoria e integridade |
-| interoperabilidade | APIs e padrões |
+| interoperabilidade | <abbr title="Application Programming Interfaces">APIs</abbr> e padrões |
 | design | componentes acessíveis |
 | dados | catálogos e registros |
 | observabilidade | logs e métricas |
@@ -313,7 +313,7 @@ Instrumentos:
 - Contar serviços digitalizados é insuficiente.
 - Maior adoção não prova equidade.
 
-## IA e automação
+## <abbr title="Inteligência Artificial">IA</abbr> e automação
 
 - finalidade e base jurídica;
 - qualidade dos dados;
