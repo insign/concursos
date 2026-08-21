@@ -300,7 +300,7 @@ describe('catalog', () => {
     const contest = buildCatalogIndex(sources()).contests[0]!;
     const inventory = createOfflineInventory(contest, ['/asset.svg', '/asset.svg']);
     expect(inventory).toEqual({
-      schemaVersion: 1,
+      schemaVersion: 2,
       contestSlug: 'concurso-a',
       contestStorageId: 'a',
       manifestHash: 'development',
@@ -316,6 +316,7 @@ describe('catalog', () => {
       assets: ['/asset.svg'],
       sharedAssets: [],
       estimatedBytes: null,
+      resources: {},
     });
     expect(inventory.routes.join('\n')).not.toMatch(/area-a|area-b|fundamentos/);
     expect(inventory.routes.join('\n')).not.toContain('/leitura/');

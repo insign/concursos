@@ -21,7 +21,7 @@ const localPathSchema = z
 
 export const offlinePackageManifestSchema = z
   .object({
-    schemaVersion: z.literal(1),
+    schemaVersion: z.literal(2),
     contestSlug: z.string().min(1),
     contestStorageId: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
     manifestHash: z.string().regex(/^(?:development|[a-f0-9]{20})$/),
@@ -29,6 +29,7 @@ export const offlinePackageManifestSchema = z
     assets: z.array(localPathSchema),
     sharedAssets: z.array(localPathSchema),
     estimatedBytes: z.number().int().nonnegative().nullable(),
+    resources: z.record(z.string().min(1), z.string().regex(/^[a-f0-9]{20}$/)),
   })
   .strict();
 
@@ -124,6 +125,18 @@ async function copyCache(source: Cache, destination: Cache): Promise<void> {
   }
 }
 
+async function copyResourceLocally(
+  source: Cache | undefined,
+  request: Request,
+  destination: Cache,
+): Promise<boolean> {
+  if (!source) return false;
+  const response = await source.match(request, { ignoreVary: true }).catch(() => undefined);
+  if (!response) return false;
+  await destination.put(request, response);
+  return true;
+}
+
 async function cacheContains(cache: Cache, resources: Iterable<string>, origin: string): Promise<boolean> {
   for (const resource of resources) {
     if (!await cache.match(requestFor(resource, origin), { ignoreVary: true })) return false;
@@ -177,6 +190,12 @@ async function downloadContestPackageLocked(
   const packageResources = new Set([...manifest.routes, ...manifest.assets]);
   const canonicalCacheName = contestCacheName(manifest.contestStorageId, manifest.manifestHash);
   const existing = await getOfflineContestRecord(manifest.contestStorageId);
+  const nextHashes = manifest.resources;
+  const previousHashes = existing?.resourceHashes;
+  let previousActive: Cache | undefined;
+  if (existing && previousHashes && (await cacheStorage.has(existing.activeCacheName))) {
+    previousActive = await cacheStorage.open(existing.activeCacheName);
+  }
 
   if (
     existing?.manifestHash === manifest.manifestHash &&
@@ -200,14 +219,22 @@ async function downloadContestPackageLocked(
   try {
     for (const [index, resource] of resources.entries()) {
       const request = requestFor(resource, origin);
-      const response = await fetchResource(request, { cache: 'reload', credentials: 'same-origin' });
-      if (!response.ok || response.type === 'opaque') {
-        throw new Error(`Falha ao baixar ${resource}: HTTP ${response.status}`);
+      const isPackageResource = packageResources.has(resource);
+      const destination = isPackageResource ? temporary : shared;
+      let stored = false;
+      if (previousHashes && nextHashes[resource] !== undefined && previousHashes[resource] === nextHashes[resource]) {
+        stored = await copyResourceLocally(isPackageResource ? previousActive : shared, request, destination);
       }
+      if (!stored) {
+        const response = await fetchResource(request, { cache: 'reload', credentials: 'same-origin' });
+        if (!response.ok || response.type === 'opaque') {
+          throw new Error(`Falha ao baixar ${resource}: HTTP ${response.status}`);
+        }
 
-      const contentLength = Number(response.headers.get('content-length'));
-      if (Number.isFinite(contentLength)) downloadedBytes += contentLength;
-      await (packageResources.has(resource) ? temporary : shared).put(request, response);
+        const contentLength = Number(response.headers.get('content-length'));
+        if (Number.isFinite(contentLength)) downloadedBytes += contentLength;
+        await destination.put(request, response);
+      }
       onProgress({ completed: index + 1, total: resources.length, downloadedBytes });
     }
 
@@ -225,6 +252,7 @@ async function downloadContestPackageLocked(
       activeCacheName,
       downloadedAt: Date.now(),
       resourceCount: resources.length,
+      resourceHashes: { ...nextHashes },
     };
     await saveOfflineContestRecord(record);
     activated = true;
