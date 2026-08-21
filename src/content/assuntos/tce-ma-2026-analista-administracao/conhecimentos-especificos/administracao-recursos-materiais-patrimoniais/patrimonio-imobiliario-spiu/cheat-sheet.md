@@ -50,8 +50,8 @@ Um imóvel público deve ser controlado em cinco camadas:
 | cadastro patrimonial | prova autônoma de domínio |
 | registro contábil | matrícula ou posse |
 | inventário | impressão de relatório |
-| RIP | matrícula cartorial |
-| BIM/GIS | registro jurídico ou contábil |
+| <abbr title="Registro Imobiliário Patrimonial">RIP</abbr> | matrícula cartorial |
+| <abbr title="Modelagem da Informação da Construção">BIM</abbr>/<abbr title="Geographic Information System">GIS</abbr> | registro jurídico ou contábil |
 
 ## 6. Qualidade dos dados
 
@@ -75,7 +75,7 @@ Migração segura exige:
 
 ## 7. RIP e utilizações
 
-- RIP: identificador cadastral da SPU;
+- RIP: identificador cadastral da <abbr title="Secretaria do Patrimônio da União">SPU</abbr>;
 - RIP não prova domínio;
 - cadastro/RIP imóvel identifica o imóvel;
 - RIP utilização identifica uso, ocupação ou parcela;
@@ -89,12 +89,12 @@ Migração segura exige:
 | Nome | Núcleo |
 | --- | --- |
 | SPU | órgão gestor federal |
-| SPIU | expressão histórica de editais |
-| SPIUnet | sistema legado de imóveis de uso especial |
-| SPUnet | plataforma integrada em implantação |
-| SIAPA | sistema histórico de imóveis dominiais e receitas |
-| SIAFI | sistema financeiro e contábil federal |
-| SISREI | requerimentos, hoje substituídos por fluxo no Portal da SPU |
+| <abbr title="Sistema de Patrimônio Imobiliário da União">SPIU</abbr> | expressão histórica de editais |
+| <abbr title="sistema federal legado de imóveis de uso especial">SPIUnet</abbr> | sistema legado de imóveis de uso especial |
+| <abbr title="Plataforma Integrada de Gestão do Patrimônio da União">SPUnet</abbr> | plataforma integrada em implantação |
+| <abbr title="Sistema Integrado de Administração Patrimonial">SIAPA</abbr> | sistema histórico de imóveis dominiais e receitas |
+| <abbr title="Sistema Integrado de Administração Financeira do Governo Federal">SIAFI</abbr> | sistema financeiro e contábil federal |
+| <abbr title="Sistema de Requerimento Eletrônico de Imóveis">SISREI</abbr> | requerimentos, hoje substituídos por fluxo no Portal da SPU |
 
 Datas:
 
@@ -107,7 +107,7 @@ Datas:
 - “o SPIUnet recebe novos fluxos hoje” está errado;
 - número de módulos do SPUnet depende da data da fonte;
 - SPUnet ainda incorporava bases e funcionalidades em 2026;
-- sistema federal não é automaticamente sistema do TCE-MA.
+- sistema federal não é automaticamente sistema do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## 10. Inventário e conciliação
 
@@ -135,12 +135,12 @@ Toda divergência precisa de responsável, prazo, evidência e atualização das
 
 ## 11. Normas contábeis em 2026
 
-- NBC TSP 37: ativo imobilizado;
+- <abbr title="Normas Brasileiras de Contabilidade Aplicadas ao Setor Público">NBC TSP</abbr> 37: ativo imobilizado;
 - NBC TSP 38: bases de mensuração;
 - NBC TSP 35: arrendamentos;
 - NBC TSP 06 (R1): propriedade para investimento;
-- MCASP: referência geral do setor público;
-- Portaria STN/SPU nº 10/2023: regra federal específica.
+- <abbr title="Manual de Contabilidade Aplicada ao Setor Público">MCASP</abbr>: referência geral do setor público;
+- Portaria <abbr title="Secretaria do Tesouro Nacional">STN</abbr>/SPU nº 10/2023: regra federal específica.
 
 **NBC TSP 07 não é mais a principal referência atual do ativo imobilizado.**
 
@@ -266,7 +266,7 @@ Controlar, quando aplicável:
 - incêndio;
 - elétrica;
 - elevadores;
-- climatização/PMOC;
+- climatização/<abbr title="Plano de Manutenção, Operação e Controle">PMOC</abbr>;
 - acessibilidade;
 - segurança do trabalho;
 - licenças e certificados;

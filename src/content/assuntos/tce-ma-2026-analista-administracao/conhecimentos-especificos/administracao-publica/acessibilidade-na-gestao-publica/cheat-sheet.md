@@ -4,8 +4,8 @@
 
 | Norma | Situação no edital de 6/7/2026 |
 | --- | --- |
-| LBI, Leis nº 10.048/2000 e nº 10.098/2000, Decreto nº 5.296/2004 | núcleo vigente |
-| Lei nº 15.249/2025 — CAA de baixa tecnologia | **dentro do corte** |
+| <abbr title="Lei Brasileira de Inclusão">LBI</abbr>, Leis nº 10.048/2000 e nº 10.098/2000, Decreto nº 5.296/2004 | núcleo vigente |
+| Lei nº 15.249/2025 — <abbr title="Comunicação Aumentativa e Alternativa">CAA</abbr> de baixa tecnologia | **dentro do corte** |
 | Lei nº 15.459/2026 — símbolo de acessibilidade | **pós-edital**; publicada e vigente em 8/7/2026 |
 
 - Alteração posterior não indicada ≠ núcleo legislativo do edital.
@@ -100,7 +100,7 @@ Restrição orçamentária pode ordenar prioridades; não autoriza inércia sem 
 
 | Recurso | Função |
 | --- | --- |
-| Libras | língua visual-espacial |
+| <abbr title="Língua Brasileira de Sinais">Libras</abbr> | língua visual-espacial |
 | legenda | fala e sons relevantes em forma visual |
 | audiodescrição | informação visual em descrição verbal |
 | braille | leitura e escrita táteis |
@@ -118,9 +118,9 @@ Restrição orçamentária pode ordenar prioridades; não autoriza inércia sem 
 | Referência | Papel |
 | --- | --- |
 | LBI | obrigação jurídica geral para sítios abrangidos |
-| eMAG 3.1 | modelo institucional federal |
-| WCAG 2.2 | recomendação técnica internacional |
-| ABNT NBR 17225:2025 | norma brasileira para conteúdo e aplicações web |
+| <abbr title="Modelo de Acessibilidade em Governo Eletrônico">eMAG</abbr> 3.1 | modelo institucional federal |
+| <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.2 | recomendação técnica internacional |
+| <abbr title="Associação Brasileira de Normas Técnicas">ABNT</abbr> NBR 17225:2025 | norma brasileira para conteúdo e aplicações web |
 
 ### POUR
 
@@ -164,7 +164,7 @@ Formulário acessível:
 - dados preservados quando possível;
 - uso sem mouse.
 
-PDF escaneado como imagem ≠ documento acessível.
+<abbr title="Portable Document Format">PDF</abbr> escaneado como imagem ≠ documento acessível.
 
 ## Contratações
 
@@ -197,7 +197,7 @@ Todo indicador precisa de definição, fórmula, fonte, periodicidade, responsá
 | responsabilidade | ato, plano, matriz de papéis | ações sem coordenação |
 | diagnóstico | mapa de jornada e barreiras | prioridade sem base |
 | participação | atas e testes com usuários | desenho sem quem utiliza |
-| contratação | ETP/TR, requisito e aceite | obrigação genérica |
+| contratação | <abbr title="Estudo Técnico Preliminar">ETP</abbr>/<abbr title="Termo de Referência">TR</abbr>, requisito e aceite | obrigação genérica |
 | validação | roteiro e resultado de teste | aceite por declaração |
 | reclamação | canal, prazo e correção | barreira invisível ao controle |
 | monitoramento | indicadores e regressão | conformidade perdida |
@@ -217,7 +217,7 @@ Todo indicador precisa de definição, fórmula, fonte, periodicidade, responsá
 
 Atendimento presente + correção estrutural.
 
-## TCE
+## <abbr title="Tribunal de Contas do Estado">TCE</abbr>
 
 - Tribunal de contas exerce controle externo.
 - TCE não integra o Poder Judiciário.

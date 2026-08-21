@@ -22,7 +22,7 @@ Sustentabilidade pública = valor público duradouro com integração de:
 | ambiental | recursos, emissões, resíduos, biodiversidade e clima |
 | econômica | custo, vida útil, manutenção, produtividade e continuidade |
 | social | direitos, inclusão, trabalho, saúde e distribuição dos efeitos |
-| institucional | estratégia, dados, riscos, integridade, capacidade e accountability |
+| institucional | estratégia, dados, riscos, integridade, capacidade e <abbr title="prestação de contas e responsabilização">accountability</abbr> |
 
 ## 3. Pensamento sistêmico
 
@@ -39,7 +39,7 @@ Sempre compare:
 
 ## 4. Agenda 2030
 
-- 17 ODS e 169 metas;
+- 17 <abbr title="Objetivos de Desenvolvimento Sustentável">ODS</abbr> e 169 metas;
 - ODS 12.7: compras públicas sustentáveis;
 - alinhamento a ODS ≠ resultado comprovado;
 - Agenda 2030 ≠ lei que substitui normas nacionais.
@@ -63,9 +63,9 @@ Plano sem responsável, prazo, orçamento e monitoramento = risco de formalismo.
 
 **Cuidado:** intensidade melhor pode coexistir com total maior.
 
-## 7. A3P
+## 7. <abbr title="Agenda Ambiental na Administração Pública">A3P</abbr>
 
-- programa do MMA;
+- programa do <abbr title="Ministério do Meio Ambiente e Mudança do Clima">MMA</abbr>;
 - adesão voluntária;
 - três Poderes e três esferas;
 - seis eixos:
@@ -78,15 +78,15 @@ Plano sem responsável, prazo, orçamento e monitoramento = risco de formalismo.
 
 A3P ≠ PLS. Voluntariedade da A3P ≠ voluntariedade das leis.
 
-## 8. PLS e âmbitos
+## 8. <abbr title="Plano de Logística Sustentável">PLS</abbr> e âmbitos
 
 | Referência | Âmbito principal |
 | --- | --- |
 | Decreto nº 7.746/2012 | sujeitos federais indicados no ato |
-| Portaria SEGES/MGI nº 5.376/2023 | Administração federal direta, autárquica e fundacional |
-| Resolução CNJ nº 400/2021 | Poder Judiciário |
-| política/programa do TCU | Tribunal de Contas da União |
-| ato próprio do TCE/MA | âmbito definido pela norma estadual/institucional |
+| Portaria <abbr title="Secretaria de Gestão e Inovação">SEGES</abbr>/<abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> nº 5.376/2023 | Administração federal direta, autárquica e fundacional |
+| Resolução <abbr title="Conselho Nacional de Justiça">CNJ</abbr> nº 400/2021 | Poder Judiciário |
+| política/programa do <abbr title="Tribunal de Contas da União">TCU</abbr> | Tribunal de Contas da União |
+| ato próprio do <abbr title="Tribunal de Contas do Estado do Maranhão">TCE/MA</abbr> | âmbito definido pela norma estadual/institucional |
 
 **Pergunta de prova:** quem é o destinatário jurídico?
 
@@ -128,7 +128,7 @@ Selo específico sem equivalência e sem justificativa = risco de restrição in
 
 Menor custo ≠ menor impacto. Menor impacto ≠ contratação automaticamente vantajosa.
 
-## 12. ENCP
+## 12. <abbr title="Estratégia Nacional de Contratações Públicas para o Desenvolvimento Sustentável">ENCP</abbr>
 
 Quatro eixos:
 
@@ -159,7 +159,7 @@ Prioridade prática:
 
 Digitalização, teletrabalho e terceirização também possuem impactos indiretos.
 
-## 15. PNRS
+## 15. <abbr title="Política Nacional de Resíduos Sólidos">PNRS</abbr>
 
 Ordem:
 
@@ -272,7 +272,7 @@ Recomendação deve atacar a causa e ser proporcional ao risco.
 | A3P = PLS | errado |
 | CNJ vincula todo tribunal | errado |
 | programa do TCU vincula TCE/MA | errado |
-| TSB = selo | errado |
+| <abbr title="Taxonomia Sustentável Brasileira">TSB</abbr> = selo | errado |
 | custo e impacto do ciclo de vida = sinônimos | errado |
 | coleta seletiva = logística reversa | errado |
 | reciclagem vem antes da redução | errado |
