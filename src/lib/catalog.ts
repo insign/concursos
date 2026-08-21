@@ -12,8 +12,8 @@ import { parseResolutionId } from './content-paths';
 
 export * from './catalog-core';
 
-// Flip para true no commit de obrigatoriedade, após a migração completa.
-const REQUIRE_REFERENCES = false;
+// Obrigatório desde a migração completa dos companions de referências.
+const REQUIRE_REFERENCES = true;
 
 export interface CatalogSubject extends CatalogSubjectIndex {
   contentEntry: CollectionEntry<'conteudos'>;
