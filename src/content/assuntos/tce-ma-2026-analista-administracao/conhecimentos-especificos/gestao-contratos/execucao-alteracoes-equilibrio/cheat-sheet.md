@@ -3,8 +3,8 @@
 ## Corte temporal
 
 - **Regra de prova:** legislação vigente em **6/7/2026**, data do edital.
-- **Tema 1118/STF:** julgamento em 13/2/2025 e trânsito em julgado em 29/4/2025; integra o recorte anterior ao edital.
-- Orientações de TCU, AGU e MGI devem ser identificadas como referências federais, não como normas automaticamente aplicáveis ao TCE-MA.
+- **Tema 1118/<abbr title="Supremo Tribunal Federal">STF</abbr>:** julgamento em 13/2/2025 e trânsito em julgado em 29/4/2025; integra o recorte anterior ao edital.
+- Orientações de <abbr title="Tribunal de Contas da União">TCU</abbr>, <abbr title="Advocacia-Geral da União">AGU</abbr> e <abbr title="Ministério da Gestão e da Inovação em Serviços Públicos">MGI</abbr> devem ser identificadas como referências federais, não como normas automaticamente aplicáveis ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## Execução fiel
 

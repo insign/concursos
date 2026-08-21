@@ -2,16 +2,16 @@
 
 ## Mapa do assunto
 
-**Necessidade → ETP → solução → objeto → riscos e preço → estratégia → edital/minuta.**
+**Necessidade → <abbr title="Estudo Técnico Preliminar">ETP</abbr> → solução → objeto → riscos e preço → estratégia → edital/minuta.**
 
 - Corte normativo: **6 jul. 2026**.
 - Núcleo: arts. **18 a 27** da Lei nº 14.133/2021.
-- Decretos e INs federais: referência para a Administração federal; sem aplicação automática ao TCE-MA.
+- Decretos e <abbr title="Instruções Normativas">INs</abbr> federais: referência para a Administração federal; sem aplicação automática ao <abbr title="Tribunal de Contas do Estado do Maranhão">TCE-MA</abbr>.
 
 ## Art. 18: fase preparatória
 
 - É caracterizada pelo **planejamento**.
-- Compatível com PCA, **sempre que elaborado**.
+- Compatível com <abbr title="Plano de Contratações Anual">PCA</abbr>, **sempre que elaborado**.
 - Compatível com leis orçamentárias.
 - Abrange aspectos técnicos, mercadológicos e de gestão.
 - Problema vem antes da solução e da especificação.
@@ -19,7 +19,7 @@
 ### Onze elementos
 
 1. necessidade fundamentada em ETP;
-2. objeto por TR, anteprojeto, projeto básico ou executivo;
+2. objeto por <abbr title="Termo de Referência">TR</abbr>, anteprojeto, projeto básico ou executivo;
 3. execução, pagamento, garantias e recebimento;
 4. orçamento estimado e composições;
 5. edital;
@@ -86,7 +86,7 @@ Ausência dos demais: **justificar**.
 
 | Documento | Função |
 | --- | --- |
-| DFD | registra necessidade no planejamento aplicável |
+| <abbr title="Documento de Formalização da Demanda">DFD</abbr> | registra necessidade no planejamento aplicável |
 | PCA | consolida demandas futuras |
 | ETP | escolhe e justifica solução |
 | TR/projeto | define e detalha objeto |
@@ -123,7 +123,7 @@ Ausência dos demais: **justificar**.
 - Modelagem digital gradual.
 - Outro ente **pode** adotar catálogo/minutas federais.
 - Não usar catálogo/modelo: justificar por escrito nos autos.
-- BIM: preferencial **quando adequado ao objeto**.
+- <abbr title="Modelagem da Informação da Construção">BIM</abbr>: preferencial **quando adequado ao objeto**.
 
 ## Art. 20: comum x luxo
 
@@ -193,16 +193,16 @@ Parâmetros combinados ou não:
 2. contratação pública similar do ano anterior à pesquisa;
 3. mídia/tabela/sítio especializado com data e hora;
 4. ao menos 3 fornecedores + escolha justificada + até 6 meses;
-5. base nacional de NF-e.
+5. base nacional de <abbr title="Nota Fiscal Eletrônica">NF-e</abbr>.
 
 ### Engenharia: ordem
 
-1. Sicro/Sinapi;
+1. <abbr title="Sistema de Custos Referenciais de Obras">Sicro</abbr>/<abbr title="Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil">Sinapi</abbr>;
 2. mídia/tabelas/sítios;
 3. contratações similares;
 4. base de NF-e.
 
-- Incluir BDI de referência e encargos sociais.
+- Incluir <abbr title="Benefícios e Despesas Indiretas">BDI</abbr> de referência e encargos sociais.
 - Estado/DF/Município sem recurso da União: pode usar sistema próprio.
 - IN nº 65/2021: bens/serviços federais; não rege engenharia.
 - Integrada/semi-integrada: orçamento da proposta deve ter **no mínimo o mesmo detalhamento** do orçamento sintético de referência.
